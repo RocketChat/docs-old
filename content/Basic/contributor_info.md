@@ -8,7 +8,7 @@ If this is the first Open Source project you will contribute to, it'd be cool if
 If you see some issue you are willing to work on, just comment on it. We will add a [In Progress label](https://github.com/RocketChat/Rocket.Chat/labels/stat%3A%20in%20progress), and that's it!
 
 ### You don't have to write code to contribute
-We are always looking for help with creating or updating documentation (including this wiki), testing our apps (web, desktop and mobile) and reporting bugs. 
+We are always looking for help with creating or updating documentation, testing our apps (web, desktop and mobile) and reporting bugs. 
 
 ### Submitting Pull Requests
 For contributions to code or documentation, you can fork the material, apply your contribution, and submit a [Pull Request] (https://help.github.com/articles/using-pull-requests/).
