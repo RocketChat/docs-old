@@ -17,7 +17,7 @@ description "rocketchat application server"
 
 # Wait for mongod before starting rocketchat app  
 start on (started mongod)  
-stop on shutdown
+stop on runlevel [!2345]
 
 # Automatically attempt to restart with finite limits
 respawn
@@ -38,7 +38,7 @@ description "hubot launcher"
 
 # Wait for the rocketchat upstart job before starting hubot
 start on started rocketchat
-stop on shutdown
+stop on runlevel [!2345]
 
 # Automatically Respawn with finite limits
 respawn
