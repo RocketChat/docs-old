@@ -18,9 +18,9 @@ Open an [Issue] (https://github.com/RocketChat/Rocket.Chat/issues) in the applic
 Try to include some basics which will help us troubleshoot the problem:
 
 * Operating System / Version / Architecture (64 bit?)
-* Browser type / Version (for web app), any browser add-ons which may be involved (for example: AdBlocker, NoScript, etc.)
-* Desktop Environment (for desktop app) / Version    
-* Rocket.Chat edition / Version or build number
+* Browser type & Version (if web app), any browser add-ons which may be involved (e.g. AdBlocker, NoScript, etc.)
+* Desktop Environment (if desktop app) / Version    
+* Rocket.Chat edition / Version or [build number] (https://github.com/RocketChat/Rocket.Chat.Docs/blob/master/content/Support/release_version_info.md)
 * Expected behavior vs. Actual behavior (In other words, the "bug")
 * Can it be replicated? If yes, how?
 * Relevant snippets from your error logs
