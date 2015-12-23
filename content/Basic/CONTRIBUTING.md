@@ -1,11 +1,8 @@
 # Contributing
-
-First of all, thanks! It's really awesome that you're interested in contributing to Rocket Chat.
+First of all, thanks! It's really awesome that you're interested in contributing to Rocket Chat. If this is the first Open Source project you will contribute to, it'd be cool if you read GitHub's excellent guide ["Contributing to Open Source"](https://guides.github.com/activities/contributing-to-open-source/).  
 
 ##Getting Started 
-If this is the first Open Source project you will contribute to, it'd be cool if you read GitHub's excellent guide ["Contributing to Open Source"](https://guides.github.com/activities/contributing-to-open-source/).  
-  
-You can find Rocket.Chat repositories [here] (https://github.com/RocketChat). If you see some issue you are willing to work on, just comment on it. We will add a [In Progress label](https://github.com/RocketChat/Rocket.Chat/labels/stat%3A%20in%20progress), and that's it! Want a simple task to get you started? [We maintain a list of those](https://github.com/RocketChat/Rocket.Chat/labels/contrib%3A%20easy)!
+You can find Rocket.Chat repositories [here] (https://github.com/RocketChat). If you see some issue you are willing to work on, just comment on it. We will add an [In Progress label](https://github.com/RocketChat/Rocket.Chat/labels/stat%3A%20in%20progress), and that's it! Want a simple task to get you started? [We maintain a list of those](https://github.com/RocketChat/Rocket.Chat/labels/contrib%3A%20easy)!
 
 **You don't have to write code to contribute!**  
 We are always looking for help with creating or updating documentation, testing our apps (web, desktop and mobile) and reporting bugs. 
