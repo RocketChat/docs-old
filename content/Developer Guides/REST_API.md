@@ -1,0 +1,173 @@
+# Rocket Chat REST API
+
+The Rocket Chat REST API allow you control and extend Rocket Chat.
+
+> **This API is on BETA, feel free to test, ask us questions and submit Pull Requests!**
+
+Our RESTful APIs should be easy to extend, and the current implementation is specifically coded to illustrate techniques required to overcome common problems.
+
+If you're an end-user and not a dev or a tester, [create an issue](https://github.com/RocketChat/Rocket.Chat/issues/new) to request new APIs -- and [make a donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=49QX7TYCVZK8L) to the project.
+
+> All API calls are made using curl in this doc.  However, you are free to use 
+> Java / Python / PHP / Golang / Ruby / Swift / Objective-C / Rust / Scala / C# or other 
+> programming languages for your integration client.
+
+#### Very Important
+For security reasons, if you are deploying in production, make sure you have:
+
+* configured and only call REST APIs over HTTPS
+* implement a timed authorization token expiry strategy
+
+#### Adding permissions for the caller
+
+The bulk register user and bulk create channel methods require the logged in user to have the following permissions:
+* bulk/register - 'bulk-register-user'
+* bulk/createRoom - 'bulk-create-c'
+
+> By default, any user with the, "admin", role can execute the methods.
+
+Users are assigned roles, and roles are assigned permissions.  Thus, to execute the above method(s), a user must have a role that is assigned the required permission(s).  
+
+> Assigning permissions must be done via the MongoDB command line until the roles & permissions UI is built.
+
+To assign a role to a user, insert the role's name into the user's, "roles.__global_roles__", field in the users collection. 
+```
+# replace 'someuser' and 'therolename'
+db.users.update({username:'someuser'}, {$push: {'roles.__global_roles__' : 'therolename'}});
+```
+To assign a permission to a role, insert the role's name in the permission's, "roles", field in the rocketchat_permissions collection. 
+```
+# replace 'therolename' and 'bulk-create-c'
+db.rocketchat_permissions.update({_id:'bulk-create-c'}, {$push: {'roles' : 'therolename'}});
+```
+
+If you need to create a new role, insert it into the roles collection. 
+```
+# replace 'therolename'
+db.roles.insert({_id:'newroleid',name:'therolename'})
+```
+.  
+
+## Obtaining the running Rocket.Chat version via REST API
+
+This is the only API you can call without logging in.  It is useful to ensure that you have activated REST API properly.
+
+````json
+curl http://localhost:3000/api/version
+    
+{
+   "status": "success",
+   "versions": {
+      "api": "0.1",
+      "rocketchat": "0.5"
+   }
+}
+````
+
+## Logon with REST API
+* requires authentication: `no`
+* http method: `post`
+* expected payload:
+ * `user`: the username to use authentication as
+ * `password`: the password for that user
+* Notes:
+ * **You will need to provide the `authToken` and `userId` for any of the authenticated methods.**
+````json
+curl http://localhost:3000/api/login 
+   -d "password=MySECRET&user=sing"
+    
+{
+  "status": "success",
+  "data": {
+      "authToken": "9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq",
+      "userId": "aobEdbYhXfu5hkeqG"
+   }
+}
+````
+
+## Logoff with REST API
+````json
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" 
+  -H "X-User-Id: aobEdbYhXfu5hkeqG" 
+  http://localhost:3000/api/logout
+    
+{
+   "status": "success",
+   "data": {
+     "message": "You've been logged out!"
+   }
+}
+````
+## Get list of public rooms via REST API
+````json
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJFV47U3QHXSq" 
+  -H "X-User-Id: aobEdbYhXfu5hkeqG" 
+  http://localhost:3000/api/publicRooms
+
+{
+  "status": "success",
+  "rooms": [
+    {
+      "_id": "GENERAL",
+      "usernames": [
+        "admin",
+        "sing"
+      ],
+     "ts": "2015-07-24T14:35:23.542Z",
+     "t": "c",
+      "other fields": "other fields ...."
+````
+## Join a room via REST API
+````json
+curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9m5mu2dWOQ5v" 
+  -H "X-User-Id: aobEdbYhXfu5hkeqG" 
+  http://localhost:3000/api/rooms/x4pRahjs5oYcTYu7i/join 
+  -d "{}"
+     
+{
+   "status": "success"
+}
+````
+## Leave a room via REST API
+````json
+curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9m5mu2dWOQ5v" 
+  -H "X-User-Id: aobEdbYhXfu5hkeqG" 
+  http://localhost:3000/api/rooms/x4pRahjs5oYcTYu7i/leave 
+  -d "{}"
+     
+ {
+   "status": "success"
+ }
+````     
+
+## Get all unread messages in a room via REST API
+````json
+ curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug5mu2dWOQ5v" 
+      -H "X-User-Id: aobEdbYhXfu5hkeqG"
+   http://localhost:3000/api/rooms/x4pRahjs5oYcTYu7i/messages     
+     
+ {
+    "status": "success",
+    "messages": [
+      {
+        "_id": "apr5LTtj6ACYEFAJi",
+        "rid": "x4pRahjs5oYcTYu7i",
+        "msg": "We don't play games with your data.",
+        "ts": "2015-07-27T15:25:43.549Z",
+         "u": {
+           "_id": "GaRouhq7BFWz2tSJd",
+           "other fields": "other fields ...." 
+````
+## Sending a message via REST API
+````json
+curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9mR5mu2dWOQ5v" 
+     -H "Content-Type: application/json" 
+     -X POST 
+     -H "X-User-Id: aobEdbYhXfu5hkeqG" 
+        http://localhost:3000/api/rooms/x4pRahjs5oYcTYu7i/send 
+     -d "{ \"msg\" : \"OK\" }"
+    
+{
+  "status": "success"
+}
+````
