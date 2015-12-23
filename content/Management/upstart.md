@@ -11,7 +11,7 @@ docker-compose which requires that mongo and the Rocket.Chat application be star
 -------------------------  
   
 ### Non-Docker-Compose
-Filename: `/etc/init/rocketchat.conf`  
+Save as: `/etc/init/rocketchat.conf`  
 ```
 description "rocketchat application server"
 
@@ -32,7 +32,7 @@ script
 end script
 ```
   
-Filename: `/etc/init/rocketchat_hubot.conf`  
+Save as: `/etc/init/rocketchat_hubot.conf`  
 ```
 description "hubot launcher"
 
@@ -66,7 +66,7 @@ end script
 -------------------------  
   
 ### Docker-Compose (These examples follow [this guide] (https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot) ) 
-Filename: `/etc/init/rocketchat_mongo.conf`  
+Save as: `/etc/init/rocketchat_mongo.conf`  
 ```
 description "MongoDB service manager for rocketchat"
 
@@ -87,7 +87,7 @@ script
 end script
 ```
   
-Filename: `/etc/init/rocketchat_app.conf`  
+Save as: `/etc/init/rocketchat_app.conf`  
 ```
 description "Rocketchat service manager"
 
