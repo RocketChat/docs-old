@@ -12,7 +12,7 @@ For contributions to code or documentation, you can fork the material, apply you
 
 **Submitting Bug Reports**  
 Open an [Issue] (https://github.com/RocketChat/Rocket.Chat/issues) in the applicable repository.  
-Try to include some basics which will help us troubleshoot the problem:
+We appreciate all bug reports! Here are some suggested things to include, when applicable, which may help us troubleshoot a problem:
 
 * Operating System / Version / Architecture (64 bit?)
 * Browser type & Version (if web app), any browser add-ons which may be involved (e.g. AdBlocker, NoScript, etc.)
