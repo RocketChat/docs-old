@@ -20,7 +20,7 @@ Here are some suggested things to include, when applicable, which may help us tr
 * Desktop Environment (if desktop app) / Version    
 * Rocket.Chat edition / Version or [build number] (https://github.com/RocketChat/Rocket.Chat.Docs/blob/master/content/Support/release_version_info.md)
 * Expected behavior vs. Actual behavior (In other words, the "bug")
-* Can it be replicated? If yes, how?
+* Can it be reproduced? If yes, how?
 * Relevant snippets from your error logs
 * Screen shots if helpful to communicate the problem
 
