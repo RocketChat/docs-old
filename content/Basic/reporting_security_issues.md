@@ -1,9 +1,9 @@
+# Security
 First of all, thanks in advance for taking the time and effort help us improve the security of Rocket.Chat! We are committed to delivering an awesome and secure chat solution for, and aided by, our community.
 
 Given the nature of Chat, we understand each person using Rocket.Chat has some expectation about their data being secure and private. It's clear how important this is to everyone, and we work to the best of our abilities to ensure your expectations are met.
 
 ### If you find a Security Issue
-
 > __Please email the details to Rocket.Chat's security team at security@rocket.chat__
 
 Our security team will respond to confirm receipt of your message, review and plan the mitigation of the issue appropriately, as well as set a timeline for a new release or patch. 
@@ -18,15 +18,13 @@ We follow responsible disclosure and will credit researchers when a security iss
 - We will not bring any lawsuit or begin law enforcement investigation into you if you follow these parameters.
 
 ### What details should you include when reporting a Security Issue
-
 Please provide as many relevant details as you can. In particular:
 
 - What versions of software are involved
 - What steps someone can follow to go from an initial installation of that software to a point where they see the vulnerability
 - Any patches or steps to mitigate the problem
 
-## WhiteHat Hall-of-Fame
-
+### WhiteHat Hall-of-Fame
 Rocket.Chat is very grateful for the following people who have responsibly disclosed vulnerabilities to us:
 
 - [Matt Austin](http://m-austin.com), October/2015.
