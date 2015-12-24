@@ -11,8 +11,9 @@ We are always looking for help with creating or updating documentation, testing 
 For contributions to code or documentation, you can fork the material, apply your contribution, and submit a [Pull Request] (https://help.github.com/articles/using-pull-requests/).
 
 **Submitting Bug Reports**  
-Open an [Issue] (https://github.com/RocketChat/Rocket.Chat/issues) in the applicable repository.  
-We appreciate all bug reports! Here are some suggested things to include, when applicable, which may help us troubleshoot a problem:
+We appreciate any & all bug reports! Did you find a bug? Reporting is easy! Simply open an [Issue] (https://github.com/RocketChat/Rocket.Chat/issues) in the applicable repository.  
+  
+Here are some suggested things to include, when applicable, which may help us troubleshoot a problem:
 
 * Operating System / Version / Architecture (64 bit?)
 * Browser type & Version (if web app), any browser add-ons which may be involved (e.g. AdBlocker, NoScript, etc.)
