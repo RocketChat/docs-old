@@ -1,12 +1,30 @@
-Make sure you have docker and docker-compose installed and operational.
+# Docker
+Rocket.Chat is a rapidly-moving FOSS project. We maintain THREE Docker images for the diverse needs of our global users community. To use these images you will need to have [Docker] (https://docs.docker.com/engine/installation/) installed and operational.
+  
+For a description of our current branching strategy, see: https://github.com/RocketChat/Rocket.Chat/wiki/Branches-and-Releases  
 
-Note: as stated by Docker, docker-compose is [not yet recommended for production use](https://docs.docker.com/compose/production/) at this time.
+#### Official image (stable and tested)
+The [Official Docker Images Repository] (https://docs.docker.com/docker-hub/official_repos/) is where Rocket.Chat's Official, stable image is maintained and controlled by Docker, and reviewed by the Docker committee.  
+    
+`docker pull rocket.chat`  
+  
+#### Latest master build image (stable and tested)
+This is an image that is maintained at Rocket.Chat's own docker repository. It is updated from our master (stable) branch.
+  
+`docker pull rocketchat/rocket.chat:latest`  
+  
+#### Bleeding-edge development build image (untested)  
+This is an image that is the absolute latest, untested, for those who needs to work with latest code. It's maintained at Rocket.Chat's own docker repository. It is updated from our develop (untested) branch.
 
-Look for the `docker-compose.yml` file at the top level of the [Rocket.Chat Git repo](https://github.com/RocketChat/Rocket.Chat).  This is the ONLY file you will need from the repo.  You can create this file on your own machine by copy and pasting the content.
+`docker pull rocketchat/rocket.chat:develop`
 
-Open it with an editor and modify:
-
-*  `ROOT_URL` to match your domain name or IP address
+## Deploying with Docker Compose
+Instead of using the standard Docker commands, you may wish for a bit more automated management of the deployment. This is where the use of Docker-compose may come in handy.  
+  
+* Make sure you have [Docker] (https://docs.docker.com/engine/installation/) and [Docker-compose] (https://docs.docker.com/compose/install/) installed and operational. Note: as stated by Docker, docker-compose is [not yet recommended for production use](https://docs.docker.com/compose/production/) at this time.
+* Create `docker-compose.yml` based on [our example] (https://raw.githubusercontent.com/RocketChat/Rocket.Chat/develop/docker-compose.yml).  This is the ONLY file you will need.  You can create this file on your own machine by copy and pasting the content.
+* Edit `image: rocketchat/rocket.chat:develop` to specify which image you wish to use (see section above titled Docker)
+* Edit `ROOT_URL` to match your domain name or IP address
 
 Start the mongodb server by:
 
