@@ -216,7 +216,7 @@ db:
   command: mongod --smallfiles
 
 rocketchat:
-  image: rocketchat/rocket.chat
+  image: rocketchat/rocket.chat:latest
   environment:
     - MONGO_URL=mongodb://db:27017/rocketchat
     - ROOT_URL=https://chat.inumio.com
