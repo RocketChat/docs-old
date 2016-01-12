@@ -16,4 +16,14 @@ This is an image that is maintained at Rocket.Chat's own docker repository. The 
 ### Specific Release Image  
 This is an image that is maintained at Rocket.Chat's own docker repository. It is associated with a release build.
 
-`docker pull rocketchat/rocket.chat:vX.X.X`
+`docker pull rocketchat/rocket.chat:X.X.X`
+
+#### Discovering existing releases
+
+You can select the release you need from our [DockerHub Tags](https://hub.docker.com/r/rocketchat/rocket.chat/tags/).
+
+#### Bleeding-edge untested develop build image
+
+This is an image that is maintained at Rocket.Chat's own docker repository. It is updated from our `develop` (untested) branch, that is, absolute latest, for those who needs to work with latest code.
+
+`docker pull rocketchat/rocket.chat:develop`
