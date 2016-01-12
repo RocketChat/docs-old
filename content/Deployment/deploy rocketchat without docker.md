@@ -1,4 +1,3 @@
-# Deploy Rocket.Chat without Docker
 ### NOTE:  
 
 Please only use this guide if you are comfortable with deploying applications to Ubuntu using the command line.
@@ -35,14 +34,10 @@ sudo n 0.10.40
 
 ## 2. Install Rocket.Chat
 
-Select a release of Rocket.Chat from this page to install(in most cases, you will want to select the latest release):
-
-https://github.com/RocketChat/Rocket.Chat/releases
-
-Download the selected release, replace `vX.X.X` with your selected release version:
+Download Stable version of Rocket.Chat (or pick a version from [our releases page](https://rocket.chat/releases)): 
 
 ```
-curl -O https://github.com/RocketChat/Rocket.Chat/releases/download/vX.X.X/rocket.chat.tgz
+curl -L https://rocket.chat/releases/latest/download -o rocket.chat.tgz
 ```
 
 Then untar the binary release:
