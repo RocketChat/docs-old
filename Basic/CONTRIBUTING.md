@@ -1,7 +1,7 @@
 # Contributing
 First of all, thanks! It's really awesome that you're interested in contributing to Rocket Chat. If this is the first Open Source project you will contribute to, it'd be cool if you read GitHub's excellent guide ["Contributing to Open Source"](https://guides.github.com/activities/contributing-to-open-source/).  
 
-##Getting Started 
+## Getting Started 
 You can find Rocket.Chat repositories [here] (https://github.com/RocketChat). If you see some issue you are willing to work on, just comment on it. We will add an [In Progress label](https://github.com/RocketChat/Rocket.Chat/labels/stat%3A%20in%20progress), and that's it! Want a simple task to get you started? [We maintain a list of those](https://github.com/RocketChat/Rocket.Chat/labels/contrib%3A%20easy)!
 
 **You don't have to write code to contribute!**  
@@ -24,10 +24,10 @@ Here are some suggested things to include, when applicable, which may help us tr
 * Relevant snippets from your error logs
 * Screen shots if helpful to communicate the problem
 
-##Rocket.Chat At-A-Glance
+## Rocket.Chat At-A-Glance
 * [issues](https://github.com/RocketChat/Rocket.Chat/issues) categorize bug reports. 
 * [labels](https://github.com/RocketChat/Rocket.Chat/labels) organize what we're doing. 
 * [milestones](https://github.com/RocketChat/Rocket.Chat/milestones) control priority.
 
-##Need Priority Features or Bug fixes?   
+## Need Priority Features or Bug fixes?   
 You can place a bounty on an issue you care about: https://www.bountysource.com/teams/rocketchat
