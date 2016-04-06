@@ -53,13 +53,28 @@ Since this app is built with Cordova, the same requirements apply:
     $ sudo npm install -g cordova
     
 Additional information here: https://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html
-    
+
+## Install dependencies
+
+    $ sudo npm install -g underscore
+    $ sudo npm install -g coffee
+
+
 ## Get the App
 
 Clone the `Rocket.Chat.Cordova` repo: 
 
     $ git clone https://github.com/RocketChat/Rocket.Chat.Cordova
     $ cd Rocket.Chat.Cordova
+
+## Create/Edit conf files
+
+    $ echo 'Bugsnag.apiKey = "YOUR-API-KEY-HERE";' > www/js/bugsnag_apikey.js
+    $ echo 'window.ANDROID_SENDER_ID = "YOUR-ANDROID-ID-HERE";' > www/shared/js/android_sender_id.js
+
+## Install app dependencies
+
+    $ sudo npm install
 
 ## Build the Android App
 

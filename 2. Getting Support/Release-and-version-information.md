@@ -27,3 +27,5 @@ A sample output of the version information:
   "branch": "develop"
 }
 ```
+
+_For more information about specific releases and tags please visit the [releases page](https://github.com/RocketChat/Rocket.Chat/releases)_

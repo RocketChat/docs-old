@@ -1,5 +1,3 @@
-# Deploying Rocket.Chat to Salesforce's Heroku
-
 Heroku is a CloudFoundry based provider.  
 
 Two ways to deploy Rocket.Chat to Heroku:
@@ -27,7 +25,7 @@ This is the option that gives you full control.  It is the preferred option for 
 
 First make sure you have the following installed:
 
-* git
+* git 
 * Heroku CLI
 
 Next, checkout the latest version of Rocket.Chat:
@@ -39,7 +37,7 @@ git clone https://github.com/RocketChat/Rocket.Chat
 Change into the `Rocket.Chat` directory, and create your Heroku app:
 
 ~~~
-heroku apps:create  --addons mongolab:sandbox,logentries:le_tryit -b https://github.com/RocketChat/heroku-buildpack-meteor <your app name>
+heroku apps:create  --addons mongolab:sandbox,logentries:tryit -b https://github.com/RocketChat/heroku-buildpack-meteor <your app name>
 ~~~
 
 Choose \<your app name> carefully, as your Rocket.Chat will then be accessible at:
@@ -56,7 +54,7 @@ heroku config:add ROOT_URL=https://<your app name>.herokuapp.com/
 
 If your app failed to start, check and make sure you have ROOT_URL set.
 
-Heroku app deployment is triggered by git commits - to Heroku's repos, and not github.
+Heroku app deployment is triggered by git commits - to Heroku's repos, and not github.   
 
 You are almost ready to deploy and stage your own instance.  But you must first wire up the git repos to heroku.
 
@@ -70,7 +68,18 @@ Finally, deploy and stage your app by:
 git push heroku master
 ~~~
 
-Rocket.Chat should now be running.  If you encounter problems, please raise an issue.
+Rocket.Chat should now be running.
+
+### Got Problems?
+* Set the repository as the buildpack URL:
+~~~
+heroku buildpacks:set https://github.com/AdmitHub/meteor-buildpack-horse.git
+~~~
+* Then try again
+~~~
+git push heroku master
+~~~
+* Still got problems, please raise an issue.
 
 
 ### Caveats

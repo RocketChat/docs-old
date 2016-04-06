@@ -2,9 +2,9 @@
 
 ## What you need
 
-A modern machine with camera and mic. Expensive old Windows machines are not so good, and tricky to configure. Cheap new Chromebooks (less than US$200) work perfectly. Macs work out of the box.
+A modern machine with camera and mic.  Expensive old Windows machines are not so good, and tricky to configure.  Cheap new Chromebooks (less than US$200) work perfectly.  Macs work out of the box.
 
-The latest version of Chrome or Firefox. Safari and IE may work one day in the future - but FaceTime (owned by Apple) and Skype (owned by Microsoft) are business reasons why that future may not be too soon.
+The latest version of Chrome or Firefox.  Safari and IE may work one day in the future - but FaceTime (owned by Apple) and Skype (owned by Microsoft) are business reasons why that future may not be too soon.
 
 Newer Android mobile phones and tablets (some less than US$50) will also work.
 
@@ -30,7 +30,7 @@ Use this [online device compatibility verification tool](https://test.webrtc.org
 
 ### Mobile Video Conferencing ?
 
-Glad you asked! The answer is *yes* - as long as you have the bandwidth (WiFi or LTE4G) and devices that support video conferencing. 
+Glad you asked! The answer is *yes* - as long as you have the bandwidth (WiFi or LTE4G) and devices that support video conferencing.
 
 * if you're on iPad or iPhone, you'll have to use Apple's FaceTime - sorry
 * code has been tested with Chrome browser running on Android tablets (and even phones) and they work quite well, especially in full screen mode with device in landscape orientation
@@ -40,5 +40,5 @@ Glad you asked! The answer is *yes* - as long as you have the bandwidth (WiFi or
 If it works for you only sometimes, and you know your PC/devices are capable, try this:
 
 * in the Rocket.Chat directory, with the server stopped, run `meteor remove rocketchat:webrtc`
-* then run `meteor add rocketchat:webrtc-ib`.   This replaces the standard driver with a 
-slower but more stable one. 
+* then run `meteor add rocketchat:webrtc-ib`.   This replaces the standard driver with a
+slower but more stable one.

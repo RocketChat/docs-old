@@ -1,0 +1,1 @@
+See [Deploy Rocket.Chat without docker](https://github.com/RocketChat/Rocket.Chat/wiki/Deploy-Rocket.Chat-without-docker) for more details.
