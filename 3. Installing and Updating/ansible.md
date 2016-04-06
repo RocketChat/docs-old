@@ -1,7 +1,7 @@
 Ansible
 =======
-> ### AUTOMATION FOR EVERYONE
-> Deploy apps. Manage systems. Crush complexity.  
+>### AUTOMATION FOR EVERYONE
+>Deploy apps. Manage systems. Crush complexity.  
 Ansible helps you build a strong foundation for DevOps.
 
 \- Ansible Inc.
