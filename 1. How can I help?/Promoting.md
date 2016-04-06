@@ -2,9 +2,9 @@
 
 If you are not a developer (or even if you are), you can still contribute to the project, a lot, by helping us promote it. As we are a free open source project, the community is our most important asset, so here are some ways that you can help the project continue to grow.
 
-**Please use this as a to-do list, as they are important**  
+**Please use this as a to-do list, as they are important**
 
-## Follow us 
+## Follow us
 
 Please follow us on as many social networks as you can:
 
@@ -43,5 +43,5 @@ Here are some nice blog posts about our project for you to get some inspiration:
 
 * http://slides.com/gabrielengel/meteordevshop#/
 
-### Deployed in Websites:
+## Deployed in Websites
 * Investment and Trading Chat Room http://seekingoptions.com
