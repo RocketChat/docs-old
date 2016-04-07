@@ -1,4 +1,5 @@
-# Deploying with Docker Compose
+# Docker Compose
+
 Instead of using the standard Docker commands, you may wish for a bit more automated management of the deployment. This is where the use of Docker-compose may come in handy. Note: as stated by Docker, docker-compose is [not yet recommended for production use](https://docs.docker.com/compose/production/) at this time.  
   
 * Make sure you have [Docker] (https://docs.docker.com/engine/installation/) and [Docker-compose] (https://docs.docker.com/compose/install/) installed and operational.
@@ -27,3 +28,12 @@ Optiionally, if you want a bot, so you don't have to talk to yourself, after you
 ````
 docker-compose up -d hubot
 ````
+
+To update the `rocketchat` docker image to the latest version, you can use the following commands. Your data should not be affected by this, since it's located in the `mongo` image.
+
+```
+docker pull rocketchat/rocket.chat:develop
+docker-compose stop rocketchat
+docker-compose rm rocketchat
+docker-compose up -d rocketchat
+```

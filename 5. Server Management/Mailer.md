@@ -1,1 +1,3 @@
-WIP
+# Mass Mailer
+
+Use with caution!

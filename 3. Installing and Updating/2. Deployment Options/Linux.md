@@ -1,4 +1,4 @@
-# Rocket.Chat
+# Deploying Rocket.Chat on a Generic Linux
 
 Deploy [Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) to Linux (RedHat, Centos, Debian, Ubuntu, and so on).
 

@@ -1,4 +1,4 @@
-# Deploying Rocket.Chat to IBM Bluemix
+# Deploying Rocket.Chat on IBM Bluemix
 
 IBM Bluemix includes three separate cloud platforms
 

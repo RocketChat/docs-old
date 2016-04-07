@@ -20,19 +20,29 @@ If you are interested in quickly deploying an instance, you can try one of the o
 
 If you need full control of your deployment, here are some guides for specific environments:
 
-- [Aliyun](https://github.com/RocketChat/Deploy.to.Cloud/blob/master/Aliyun/README.md)
-- [Docker w/Nginx SSL & Hubot](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot)
-- [Easy, hands off deployment with Ansible](https://github.com/RocketChat/Rocket.Chat/wiki/Easy,-hands-off-deployment-with-Ansible)
-- [Deploy with docker](https://github.com/RocketChat/Rocket.Chat/wiki/Deploy-with-Docker)
-- [FreeBSD](https://github.com/RocketChat/Rocket.Chat/wiki/FreeBSD)
-- [UBUNTU](https://github.com/RocketChat/Rocket.Chat/wiki/Deploy-Rocket.Chat-to-UBUNTU)
-- [CentOS 7 without docker](https://github.com/RocketChat/Rocket.Chat/wiki/Instructions-to-install-Rocket.Chat-on-Centos-7)
-- [Other Linux distributions](https://github.com/RocketChat/Deploy.to.Cloud/tree/master/GenericLinux)
-- [IBM Bluemix](https://github.com/RocketChat/Deploy.to.Cloud/tree/master/Bluemix)
-- [Heroku](https://github.com/RocketChat/Rocket.Chat/wiki/Heroku)
-- [Nitrous.io](https://github.com/RocketChat/Deploy.to.Cloud/tree/master/Nitrous)
-- [sloppy.io](https://github.com/RocketChat/Deploy.to.Cloud/tree/master/sloppy.io)
-- [Run Rocket.Chat behind a SSL Reverse Proxy](https://github.com/RocketChat/Rocket.Chat/wiki/Run-Rocket.Chat-behind-a-SSL-Reverse-Proxy)
-- [Deploy Rocket.Chat without docker](https://github.com/RocketChat/Rocket.Chat/wiki/Deploy-Rocket.Chat-without-docker)
-- [Windows Deployment](https://github.com/RocketChat/Rocket.Chat/wiki/Windows-Deployment)
-- [Update Docker RC and keep old data](https://github.com/RocketChat/Rocket.Chat/wiki/Updating-old-(Nov-2015)-Docker-setup-without-losing-data)
+- [Aliyun](Aliyun.md)
+- [Ansible](Ansible.md)
+- [Amazon Web Services](AWS.md)
+- [CentOS 7](CentOS 7.md)
+- [Debian](Debian.md)
+- [Digital Ocean](Digital Ocean.md)
+- [FreeBSD](FreeBSD.md)
+- [Meteor Galaxy](Galaxy.md)
+- [Google Compute Engine](Google Compute Engine.md)
+- [Heroku](Heroku.md)
+- [IBM Bluemix](IBM Bluemix.md)
+- [Linux](Linux.md)
+- [Nitrous.io](Nitrous.io.md)
+- [Sloppy.io](Sloppy.io.md)
+- [Ubuntu](Ubuntu.md)
+- [Vagrant with Ubuntu](Vagrant with Ubuntu.md)
+- [Windows](Windows.md)
+
+## Docker Deployments
+
+You can also deploy using Docker and Docker Compose by following one of these guides:
+
+- [Docker Deployment with Hubot and SSL on Nginx](Docker - Nginx SSL - Hubot.md)
+- [Docker Compose](Docker Compose.md)
+- [Docker Images Available](Docker Images Available.md)
+

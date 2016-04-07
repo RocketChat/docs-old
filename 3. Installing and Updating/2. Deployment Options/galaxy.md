@@ -1,4 +1,4 @@
-# Deploying Rocket.Chat to Meteor's Galaxy
+# Deploying Rocket.Chat on Meteor's Galaxy
 
 Dockerfile; deployment, configuration, and tuning instructions to follow.
 

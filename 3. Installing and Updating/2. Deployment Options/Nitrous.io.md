@@ -1,4 +1,4 @@
-# Deploying Rocket.Chat to Nitrous.io
+# Deploying Rocket.Chat on Nitrous.io
 
 While Nitrous.io is not straightly a 'cloud provider' in the conventional sense, depending on the type of account you have - it can certainly used to deploy Rocket.Chat for development or experimentation.
 

@@ -1,1 +1,5 @@
-WIP
+# Import data from other services
+
+- Hipchat
+- Slack
+

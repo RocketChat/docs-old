@@ -1,5 +1,4 @@
-# RocketChat Deployment Guide
-## Docker-Ubuntu 14.04 (64 bit) VPS with Nginx SSL and Hubot
+# Deploying Rocket.Chat on Docker-Ubuntu 14.04 (64 bit) VPS with Nginx SSL and Hubot
   
 ### Introduction:
 This guide will walk you through installation and configuration of a Docker based Rocket Chat instance on Ubuntu 14.04 (64 bit) VPS, using Nginx as a reverse SSL proxy, Hubot chatbot, and necessary scripts for automatic restart and crash recovery.   
@@ -9,18 +8,18 @@ For people new to docker here's a quick primer: Docker is a program to allow oth
 This guide is designed for everyone, however, it is intentionally detailed to help new users who may need a little extra guidance. If you're experienced with things like docker, nginx, etc. you may prefer one of the other deployment guides found elsewhere on this wiki.    
   
 ### What we'll cover in this guide:
-1. [Securing the server: Firewall basics (optional)](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#1-securing-the-server-firewall-basics-optional-recommended)  
-2. [Securing the server: Fail2Ban IDS (optional)](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#2-securing-the-server-fail2ban-optional-recommended)  
-3. [Installing Docker and Docker-Compose](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#3-installing-docker-and-docker-compose)  
-4. [Editing the hosts file](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#4-editing-the-hosts-file)  
-5. [Installing Nginx SSL Reverse Proxy](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#5-installing-nginx--ssl-certificate)  
-6. [Creating docker-compose.yml](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#6-create-the-docker-composeyml-file--local-directories)  
-7. [Automatic start-up, and crash recovery](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#7-automatic-startup--crash-recovery)  
-8. [Reboot & Status check](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#8-reboot-and-status-check)  
-9. [Registering & Configuring Hubot, the chat robot](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#9-registering--configuring-hubot-the-chat-robot)  
-10. [FAQ & Troubleshooting](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#10-trouble-shooting--faq)  
-11. [TODO](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#11-todo)  
-12. [Known Issues](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#12-known-issues)  
+1. [Securing the server: Firewall basics (optional)] (https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#1-securing-the-server-firewall-basics-optional-recommended)  
+2. [Securing the server: Fail2Ban IDS (optional)] (https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#2-securing-the-server-fail2ban-optional-recommended)  
+3. [Installing Docker and Docker-Compose] (https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#3-installing-docker-and-docker-compose)  
+4. [Editing the hosts file] (https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#4-editing-the-hosts-file)  
+5. [Installing Nginx SSL Reverse Proxy] (https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#5-installing-nginx--ssl-certificate)  
+6. [Creating docker-compose.yml] (https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#6-create-the-docker-composeyml-file--local-directories)  
+7. [Automatic start-up, and crash recovery] (https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#7-automatic-startup--crash-recovery)  
+8. [Reboot & Status check] (https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#8-reboot-and-status-check)  
+9. [Registering & Configuring Hubot, the chat robot] (https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#9-registering--configuring-hubot-the-chat-robot)  
+10. [FAQ & Troubleshooting] (https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#10-trouble-shooting--faq)  
+11. [TODO] (https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#11-todo)  
+12. [Known Issues] (https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#12-known-issues)  
   
 ### Prerequisites:
 This guide is written assuming that you're starting with:  
@@ -107,8 +106,10 @@ Save and Exit. (Press **CTRL-X** to save, **Y** for yes, then **ENTER** to save 
 **Install Nginx**  
 `sudo apt-get install nginx`  
 
-#### 5a. Using a commercial SSL cert:  
-If you want to use a self-signed SSL cert instead, skip this part and continue at "Self-Signed SSL" below.  
+#### 5a. Using a commercial SSL cert (recommended):
+If don't have a certificate you can grab one for free at [Let's Encrypt](https://letsencrypt.org/).
+
+Of if you want to use a self-signed SSL cert instead, skip this part and continue at [Self-Signed SSL](#5b-self-signed-ssl) below.
   
 **Install the private key (created when you generated the CSR):**  
 `sudo nano /etc/nginx/certificate.key`  
@@ -331,7 +332,7 @@ Next, let's try opening the web browser and going to your new chat room. Provide
 **Try accessing in your web browser via HTTP**  
 `http://chat.inumio.com:3000`  
   
-**PROBLEM?** See [Section 10: Troubleshooting](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#10-trouble-shooting--faq)  
+**PROBLEM?** See [Section 10: Troubleshooting] (https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#10-trouble-shooting--faq)  
   
 Once you've successfully reached your chat room login page, you need to register your admin account. 
 By default, the first account to register on Rocket Chat becomes the admin, so if your chat room is public, do this immediately in order to prevent someone else from registering and becoming the administrator.  
@@ -361,26 +362,27 @@ For basic command help, in the chat message box, type BOTNAME help (where BOTNAM
   
 ---------------------------------------------------------------  
   
-### 10. Trouble Shooting  
+### 10. Trouble Shooting & FAQ  
   
-**Q:** _It works! But how do I add more functionality to the bot?_  
-**A:** You can add more scripts to the bot by adding them to the EXTERNAL_SCRIPTS definitions: `nano /var/www/rocket.chat/docker-compose.yml`  
+#### FAQ:  
+Q: _It works! But how do I add more functionality to the bot?_  
+A: You can add more scripts to the bot by adding them to the EXTERNAL_SCRIPTS definitions: `nano /var/www/rocket.chat/docker-compose.yml`  
   
 Find out more about hubot scripts here: https://github.com/RocketChat/hubot-rocketchat and here:https://github.com/hubot-scripts. Some of the available scripts for example: hubot-help, hubot-isup, hubot-4chan, hubot-strawpoll, hubot-seen, hubot-weather, hubot-hackerman, hubot-links, hubot-greetings, hubot-tell, hubot-geo, hubot-decides, hubot-praise, hubot-hello-ninja, hubot-thank-you, hubot-cool-ascii-faces, hubot-insulter, hubot-reddit
+
+Q: _How do I get email working?_  
+A: You need to configure SMTP parameters via the Administration UI (from inside rocketchat).  
   
----------------------------------------------------------------  
+#### TROUBLESHOOTING  
+**PROBLEM:**  
+_I can't bring up my chat page in the browser using HTTPS!_  
   
-**Q:** _How do I get email working?_  
-**A:** You need to configure SMTP parameters via the Administration UI (from inside rocketchat).  
-  
----------------------------------------------------------------  
-    
-**Q:** _I can't bring up my chat page in the browser using HTTPS!_  
-**A:** If you're able to resolve HTTP, but not HTTPS, you need to re-visit sections 4 & 5 of this guide. Make sure you've correctly entered the data in the hosts file, as well as in the /etc/nginx/sites-available/default file.  
+**POSSIBLE SOLUTIONS:**  
+If you're able to resolve HTTP, but not HTTPS, you need to re-visit sections 4 & 5 of this guide. Make sure you've correctly entered the data in the hosts file, as well as in the /etc/nginx/sites-available/default file.  
   
 **Check the nginx logs for any errors or other clues**  
 `sudo cat /var/log/nginx/error.log`  
-  
+
 **Check the Firewall policy to make sure port 443 is open**   
 `sudo ufw status`  
   
@@ -389,8 +391,11 @@ https://www.digicert.com/help/
   
 ---------------------------------------------------------------  
   
-**Q:** _I rebooted and waited forever for docker to download everything and start the chat room. NOTHING happened. It's like it didn't even try!_  
-**A:** If there are errors in the docker-compose.yml file, it will fail to bring up the rocketchat app. Improperly formatted yml will cause problems. 
+**PROBLEM:**  
+_I rebooted and waited forever for docker to download everything and start the chat room. NOTHING happened. It's like it didn't even try!_  
+  
+**POSSIBLE SOLUTION:**  
+If there are errors in the docker-compose.yml file, it will fail to bring up the rocketchat app. Improperly formatted yml will cause problems. 
   
 **Check upstart jobs for log errors**  
 `cd /var/log/upstart`  
@@ -410,8 +415,11 @@ If docker-compose doesn't throw an error, and instead launches the job, then the
   
 ---------------------------------------------------------------  
   
-**Q:** _When I upload a file the server crashes!_  
-**A:** If you're running low on system resources, such as RAM, this can cause problems with not just performance, but stability. Make sure that you're not running out of memory, or have any other choke points, like not enough CPU, etc. One way to check, is to issue the following command via SSH (or console) which runs TOP, a utility that will show valuable information about system resources and processes.  
+**PROBLEM:**  
+_When I upload a file the server crashes!_
+  
+**POSSIBLE SOLUTION:**  
+If you're running low on system resources, such as RAM, this can cause problems with not just performance, but stability. Make sure that you're not running out of memory, or have any other choke points, like not enough CPU, etc. One way to check, is to issue the following command via SSH (or console) which runs TOP, a utility that will show valuable information about system resources and processes.  
   
 `sudo TOP`  
   
@@ -425,4 +433,5 @@ With TOP running, try to replicate the problem while watching TOP for high loads
 ---------------------------------------------------------------  
   
 ### 12. KNOWN ISSUES:  
-* [FIXED] [Issue #978](https://github.com/RocketChat/Rocket.Chat/issues/978): Avatars not saving, or crashing the server.   
+* [FIXED] Issue #978: Avatars not saving, or crashing the server. https://github.com/RocketChat/Rocket.Chat/issues/978
+* If you are saving your avatars inside the container, they will be lost after a "docker pull" update job

@@ -1,4 +1,4 @@
-# Install Rocket.Chat on Centos 7
+# Deploying Rocket.Chat on Centos 7
 
 The following was tested with Vultr and Digital Ocean.  Should work on Linode too. 
 

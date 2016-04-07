@@ -1,3 +1,5 @@
+# Deploying Rocket.Chat on Heroku
+
 Heroku is a CloudFoundry based provider.  
 
 Two ways to deploy Rocket.Chat to Heroku:

@@ -1,4 +1,4 @@
-# Deploying Rocket.Chat to Ubuntu
+# Deploying Rocket.Chat on Ubuntu
 
 This guide explains how to deploy your own Rocket.Chat instance to a Ubuntu Linux machine using the command line.
 

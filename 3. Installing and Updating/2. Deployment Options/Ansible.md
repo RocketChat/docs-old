@@ -1,14 +1,14 @@
-Ansible
-=======
->### AUTOMATION FOR EVERYONE
->Deploy apps. Manage systems. Crush complexity.  
+# Ansible
+
+> ### AUTOMATION FOR EVERYONE
+> Deploy apps. Manage systems. Crush complexity.  
 Ansible helps you build a strong foundation for DevOps.
 
 \- Ansible Inc.
 
 Quick Links
 -----------
-- [Rocket.Chat official Ansible role](https://galaxy.ansible.com/detail#/role/6478)
+- [Rocket.Chat official Ansible role](https://galaxy.ansible.com/RocketChat/Server/#readme)
 - [Ansible official install guide](http://docs.ansible.com/ansible/intro_installation.html)
 
 About
@@ -60,7 +60,7 @@ So, now you've got Ansible installed, you can get ready to deploy Rocket.Chat!
   \-  Ubuntu 14.04 LTS  
   \-  Ubuntu 15.04  
   
-  Future releases of the [official Rocket.Chat Ansible role](https://galaxy.ansible.com/detail#/role/6478) will include other Linux distributions/releases and other operating systems. If you'd like to see your OS of choice supported, feel free to [raise an issue](https://github.com/RocketChat/Rocket.Chat.Ansible/issues) to ask if it can be added.
+  Future releases of the [official Rocket.Chat Ansible role](https://galaxy.ansible.com/RocketChat/Server/#readme) will include other Linux distributions/releases and other operating systems. If you'd like to see your OS of choice supported, feel free to [raise an issue](https://github.com/RocketChat/Rocket.Chat.Ansible/issues) to ask if it can be added.
 
 ### Inventory set-up
 Make a directory somewhere, perhaps in your home directory, or somewhere you keep Git repositories or code. It doesn't really matter what it's called, but for example's sake, we'll call ours `ansible`:  
@@ -108,9 +108,25 @@ You can download roles you want to use using a commandline tool that was install
 First off, our roles need somewhere to live, so, let's make a `roles` directory:  
 `~/ansible $ mkdir roles`
 
+Then, we need to create a `requirements.yml` file that will describe to `ansible-galaxy` how we want to fetch the role. So, create and open the file `roles/requirements.yml` using your favorite editor.  
+The contents of `requirements.yml` will vary based on which version of Ansible you're running.  
+Run `ansible --version` to find out.
+
+If you're running Ansible 1.9.4, paste the following into your `requirements.yml`:
+``` yaml
+- src: RocketChat.Server
+  version: master
+```
+
+If you're running Ansible 2.0, paste the following into your `requirements.yml`:
+``` yaml
+  - src: RocketChat.Server
+    version: v2.0
+```
+
 Next, let's fetch the Rocket.Chat Ansible role using the `ansible-galaxy` command:    
-`~/ansible $ ansible-galaxy install RocketChat.Server -p roles/`  
-This command says "Hey, I want to install the RocketChat.Server role to the `roles` directory".  
+`~/ansible $ ansible-galaxy install -r roles/requirements.yml`  
+This command says "Hey, I want to install any roles I have defined in `requirements.yml`".  
 Hopefully, after a couple seconds, you should have the `RocketChat.Server` role in your `roles` directory:  
 ```
 ~/ansible $ ls roles

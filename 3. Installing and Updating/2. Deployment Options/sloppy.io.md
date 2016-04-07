@@ -1,4 +1,4 @@
-# Deploying Rocket.Chat to sloppy.io
+# Deploying Rocket.Chat on sloppy.io
 
 <p><a href="http://sloppy.io"><img src="http://sloppy.io/wp-content/uploads/2014/04/sloppy-icon.png" align="top" height="300" width="300" ></a></p>
 
