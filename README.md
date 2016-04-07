@@ -55,7 +55,7 @@ It is a great solution for communities and companies wanting to privately host t
 - Available on [Cloudron Store](https://cloudron.io/appstore.html#chat.rocket.cloudronapp)
 
 
-### How does it compare to others?
+## How does it compare to others?
 
 WIP 
 
