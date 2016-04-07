@@ -1,4 +1,4 @@
-# Deploying Rocket.Chat to Amazon Web Services
+# Deploying Rocket.Chat on Amazon Web Services
 
 Dockerfile; deployment, configuration, and tuning instructions to follow.
 

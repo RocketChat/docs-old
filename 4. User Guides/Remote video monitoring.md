@@ -20,7 +20,7 @@ At each location:  a PC, Mac, Android tablet, embedded computer, or Chromebook r
 
 #### Scalability
 
-The design is massively scalable.   With the current edition of Rocket.Chat, you can already monitor hundreds of locations.   The server is not loaded by the sessions.  
+The design is massively scalable.   With the current edition of Rocket.Chat, you can already monitor hundreds of locations.   The server is not loaded by the sessions.
 
 This application really shows off the telecom lineage of webrtc -- Rocket.Chat acts as the 'switch' or 'signaling fabric' and gets out of the way once a monitoring session starts.
 
@@ -31,7 +31,7 @@ You should be relatively familiar with Rocket.Chat's video chat capabilities bef
 
 ##### Install in-band driver
 
-This feature is implemented within the webrtc in-band signaling driver.  
+This feature is implemented within the webrtc in-band signaling driver.
 
 The driver is not installed by default.  To install the driver, and the feature, you need to first remove the production webrtc driver:
 
@@ -57,9 +57,9 @@ Click on the top right arrow to open the flex window.   You will see THREE butto
 1. REMOTE
 1. SETUP
 
-Click on the `SETUP` button. Your browser will ask for permission to share camera and mic, allow it. This starts live video in the smaller window.  
+Click on the `SETUP` button. Your browser will ask for permission to share camera and mic, allow it. This starts live video in the smaller window.
 
-You are all set!  
+You are all set!
 
 _Note: Make sure the machine will not go into power-save or auto shutoff._
 

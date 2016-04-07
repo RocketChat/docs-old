@@ -1,4 +1,4 @@
-# Deploying Rocket.Chat to Aliyun
+# Deploying Rocket.Chat on Aliyun
 
 You can install Rocket.Chat to Ubuntu VPS on Aliyun.
 
@@ -86,7 +86,7 @@ db:
     - $PWD/dump:/dump
   command: mongod --smallfiles
 web:
-  image: rocketchat/rocket.chat 
+  image: rocketchat/rocket.chat
   environment:
     - MONGO_URL=mongodb://db:27017/meteor
     - ROOT_URL=http://your-ip-address:8818
@@ -99,7 +99,7 @@ Make sure you customize the file with `your-ip-address` in the `MONGO_URL` env v
 
 ## Pull the required docker images
 
-This will download the required docker images, and may take some time.  
+This will download the required docker images, and may take some time.
 
 This is done only the first time, or when you want to update Rocket.Chat.
 

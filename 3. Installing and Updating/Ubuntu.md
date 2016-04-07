@@ -1,15 +1,6 @@
-### NOTE:  
+# Deploying Rocket.Chat to Ubuntu
 
-Please only use this guide if you are comfortable with deploying applications to Ubuntu using the command line.
-
-There are easier deployment options such as:
-
-* [Sandstorm](https://apps.sandstorm.io/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0), you can have a server for your family and friends running in 4 seconds.
-* [Heroku one click deploy](https://heroku.com/deploy?template=https://github.com/RocketChat/Rocket.Chat/tree/master), you can run and operate a small server instance on their FREE (or low cost) plans.   
-
-Another option, you can request for a beta of Rocket.Chat hosting service - you can have a server up and running, professionally managed, without installations, configuration, maintenance and management head-aches.   Just send an email to support@rocket.chat and request for _"Hosting beta"_.
-
-This guide explains how to deploy your own Rocket.Chat instance to a Ubuntu Linux machine using the command line. 
+This guide explains how to deploy your own Rocket.Chat instance to a Ubuntu Linux machine using the command line.
 
 ## 1. Install Dependencies
 
@@ -23,7 +14,30 @@ This guide explains how to deploy your own Rocket.Chat instance to a Ubuntu Linu
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
 sudo apt-get update
-sudo apt-get install -y npm mongodb-org curl graphicsmagick
+sudo apt-get install -y mongodb-org curl graphicsmagick
+
+# We have to also install `npm`, which is the Node.js package manager. You can do this by typing:
+sudo apt-get install npm
+
+# If you encountered some errors when trying to install npm
+# try to install nodejs in the first place.
+# The nodejs package contains the nodejs binary as well as npm, so you don't need to install npm separately.
+sudo apt-get install nodejs
+
+# OR
+# An alternative that can get you a more recent version of Node.js is to add a PPA maintained by NodeSource
+curl -sL https://deb.nodesource.com/setup | sudo bash -
+# After running the setup script from nodesource, you can install the Node.js package
+# in the same way that you did above
+sudo apt-get install nodejs
+# In order for some npm packages to work (such as those that require building from source)
+# you will need to install the build-essentials package:
+sudo apt-get install build-essential
+# for more please view the link below.
+
+
+
+
 
 # Install a tool to let us change the node version.
 sudo npm install -g n
@@ -32,9 +46,12 @@ sudo npm install -g n
 sudo n 0.10.40
 ```
 
+More on [nodejs installation](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server)
+
+
 ## 2. Install Rocket.Chat
 
-Download Stable version of Rocket.Chat (or pick a version from [our releases page](https://rocket.chat/releases)): 
+Download Stable version of Rocket.Chat (or pick a version from [our releases page](https://rocket.chat/releases)):
 
 ```
 curl -L https://rocket.chat/releases/latest/download -o rocket.chat.tgz
@@ -46,7 +63,9 @@ Then untar the binary release:
 tar zxvf rocket.chat.tgz
 ```
 
-this will expand everything into a `bundle` directory.  Next, set environment variables and run the server:
+this will expand everything into a `bundle` directory.
+
+Next, make sure MongoDB server is already up and running.  Then, set environment variables and run the Rocket.Chat server:
 
 ```
 mv bundle Rocket.Chat
@@ -62,7 +81,7 @@ node main.js
 ```
 You **MUST** set the `ROOT_URL` environment variable to the Internet accessible URL to your server.
 
-This will start the server running.
+This will start the Rocket.Chat server running.
 
 If you would like to start Rocket.Chat on an alternative port, use the environment variable PORT.
 
@@ -88,17 +107,17 @@ NOTE:  If you need to keep the server up and running across reboots, use a task 
 
 ## 3. Setup MongoDB Replica Set
 
-Rocket.Chat uses the [MongoDB replica set](http://docs.mongodb.org/manual/replication/) **OPTIONALLY** to improve performance via Meteor Oplog tailing.  To configure the replica set: 
+Rocket.Chat uses the [MongoDB replica set](http://docs.mongodb.org/manual/replication/) **OPTIONALLY** to improve performance via Meteor Oplog tailing.  To configure the replica set:
 
 #### For older MongoDB versions (2.4 and bellow)
 
-Append `replSet=001-rs` into `mongod.conf` file: 
+Append `replSet=001-rs` into `mongod.conf` file:
 
 ```shell
 $ echo replSet=001-rs >> /etc/mongod.conf
 ```
 
-And restart Mongo: 
+And restart Mongo:
 
 ```shell
 $ service mongod restart
@@ -114,7 +133,7 @@ replication:
       replSetName:  "001-rs"
 ```
 
-Restart Mongo: 
+Restart Mongo:
 
 ```shell
 $ service mongod restart
@@ -139,7 +158,7 @@ The result should look like this
 }
 ```
 
-After a few seconds, you should see your prompt turn into `001-rs:PRIMARY> `, this indicates the replica set is being used. Type `exit` to get back to your regular shell. 
+After a few seconds, you should see your prompt turn into `001-rs:PRIMARY> `, this indicates the replica set is being used. Type `exit` to get back to your regular shell.
 
 After you configured replica set, you **MUST** add the following environment variable before restarting Rocket.Chat server for it to take effect:
 
@@ -150,7 +169,7 @@ MONGO_OPLOG_URL=mongodb://localhost:27017/local
 
 ## 4. Configure Rocket.Chat
 
-Rocket.Chat is installed and needs to be configured. Follow these guides to properly configure everything your instance needs: 
+Rocket.Chat is installed and needs to be configured. Follow these guides to properly configure everything your instance needs:
 
 1. [Creating the First Admin](https://github.com/RocketChat/Rocket.Chat/wiki/Creating-the-First-Admin)
 2. [Run Rocket.Chat behind a SSL Reverse Proxy](https://github.com/RocketChat/Rocket.Chat/wiki/Run-Rocket.Chat-behind-a-SSL-Reverse-Proxy)
@@ -164,3 +183,5 @@ In summary do the following:
 1. remove the old server executables
   * `rm -rf Rocket.Chat`
 1. Repeat Installation [step](#2-install-rocketchat)
+
+You can always [update directly](https://github.com/RocketChat/Rocket.Chat/issues/2408) to the newest version, the database migrations will execute from the old version to the new version.
