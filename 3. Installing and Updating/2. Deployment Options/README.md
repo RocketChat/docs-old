@@ -23,7 +23,7 @@ If you need full control of your deployment, here are some guides for specific e
 - [Aliyun](Aliyun.md)
 - [Ansible](Ansible.md)
 - [Amazon Web Services](AWS.md)
-- [CentOS 7](CentOS%207.md)
+- [CentOS 7](/3.%20Installing%20and%20Updating/2.%20Deployment%20Options/CentOS%207.md)
 - [Debian](Debian.md)
 - [Digital Ocean](Digital%20Ocean.md)
 - [FreeBSD](FreeBSD.md)
