@@ -18,19 +18,23 @@ Livechat package adds the ability to embed a pop-up support chat to your website
 
 First, you have enable the Livechat feature on your Rocket.Chat instance. Go to `Administration > Settings > Livechat` and enable it.
 
+![image](https://cloud.githubusercontent.com/assets/8591547/14460567/97c6609c-0094-11e6-8f7e-da9a7c08ba51.png)
+
 Now the admin will have access to *Livechat manager* through a new menu called `Livechat` at the top left corner drop down menu.
+
+![image](https://cloud.githubusercontent.com/assets/8591547/14460616/d8213bbc-0094-11e6-85cd-cc061ab1fb1d.png)
 
 ## Configure Livechat feature
 
 At *Livechat manager* you'll have the following configuration options:
 
-### Add Managers and Agents
+### User Management
 
 You can add new livechat manager users and agents.
 
 In order to start receiving incoming live chats you need to add livechat agents.
 
-### Add Departments
+### Departments
 
 You can have the following behavior according on how many department you have created:
 
@@ -38,16 +42,20 @@ You can have the following behavior according on how many department you have cr
 * One department: all incoming chats will be offered to agents **only** on that department using a round robin rule; 
 * More than one department: the visitor will have to choose with what department he wants to talk to at registration.
 
-### Configure Triggers
+### Triggers
 
 You can configure how your Livechat widget will be triggered on your website. 
 
 Fill in the condition field and the action field.
 
-### Add Client Installation Script
+### Custom Fields
 
-Use this JavaScript code to add the Livechat widget to your website.  You may modifying it to your specific requirements.
+You can configure custom fields to be sent by the client.
 
-### Customize Appearance
+### Installation
+
+Use this JavaScript code to add the Livechat widget to your website. You may modifying it to your specific requirements.
+
+### Appearance
 
 Customize the appearance of your Livechat widget
