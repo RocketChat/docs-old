@@ -1,3 +1,5 @@
+![image](mockup.png)
+
 # Rocket.Chat Guide
 
 ## What is Rocket.Chat?
