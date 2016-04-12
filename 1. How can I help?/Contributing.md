@@ -18,7 +18,7 @@ Here are some suggested things to include, when applicable, which may help us tr
 * Operating System / Version / Architecture (64 bit?)
 * Browser type & Version (if web app), any browser add-ons which may be involved (e.g. AdBlocker, NoScript, etc.)
 * Desktop Environment (if desktop app) / Version    
-* Rocket.Chat edition / Version or [build number](/2. Getting%20Support)
+* Rocket.Chat edition / Version or [build number](https://rocket.chat/docs/master/getting-support)
 * Expected behavior vs. Actual behavior (In other words, the "bug")
 * Can it be reproduced? If yes, how?
 * Relevant snippets from your error logs
