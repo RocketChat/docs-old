@@ -4,7 +4,7 @@ First of all, thanks in advance for taking the time and effort to help us improv
 Given the nature of Chat, we understand each person using Rocket.Chat has some expectation about their data being secure and private. It's clear how important this is to everyone, and we work to the best of our abilities to ensure your expectations are met.
 
 ## If you find a Security Issue
-> __Please email the details to Rocket.Chat's security team at security@rocket.chat__
+> __Please email the details to Rocket.Chat's security team at [security@rocket.chat](security@rocket.chat)__
 
 Our security team will respond to confirm receipt of your message, review and plan the mitigation of the issue appropriately, as well as set a timeline for a new release or patch.
 
