@@ -8,18 +8,18 @@ For people new to docker here's a quick primer: Docker is a program to allow oth
 This guide is designed for everyone, however, it is intentionally detailed to help new users who may need a little extra guidance. If you're experienced with things like docker, nginx, etc. you may prefer one of the other deployment guides found elsewhere on this wiki.    
   
 ### What we'll cover in this guide:
-1. [Securing the server: Firewall basics (optional)](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#1-securing-the-server-firewall-basics-optional-recommended)  
-2. [Securing the server: Fail2Ban IDS (optional)](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#2-securing-the-server-fail2ban-optional-recommended)  
-3. [Installing Docker and Docker-Compose](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#3-installing-docker-and-docker-compose)  
-4. [Editing the hosts file](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#4-editing-the-hosts-file)  
-5. [Installing Nginx SSL Reverse Proxy](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#5-installing-nginx--ssl-certificate)  
-6. [Creating docker-compose.yml](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#6-create-the-docker-composeyml-file--local-directories)  
-7. [Automatic start-up, and crash recovery](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#7-automatic-startup--crash-recovery)  
-8. [Reboot & Status check](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#8-reboot-and-status-check)  
-9. [Registering & Configuring Hubot, the chat robot](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#9-registering--configuring-hubot-the-chat-robot)  
-10. [FAQ & Troubleshooting](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#10-trouble-shooting--faq)  
-11. [TODO](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#11-todo)  
-12. [Known Issues](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#12-known-issues)  
+1. [Securing the server: Firewall basics (optional)](installing-and-updating-3-using-docker-docker-nginx-ssl-hubot#1-securing-the-server-firewall-basics-optional-recommended)  
+2. [Securing the server: Fail2Ban IDS (optional)](installing-and-updating-3-using-docker-docker-nginx-ssl-hubot#2-securing-the-server-fail2ban-optional-recommended)  
+3. [Installing Docker and Docker-Compose](installing-and-updating-3-using-docker-docker-nginx-ssl-hubot#3-installing-docker-and-docker-compose)  
+4. [Editing the hosts file](installing-and-updating-3-using-docker-docker-nginx-ssl-hubot#4-editing-the-hosts-file)  
+5. [Installing Nginx SSL Reverse Proxy](installing-and-updating-3-using-docker-docker-nginx-ssl-hubot#5-installing-nginx-ssl-certificate)  
+6. [Creating docker-compose.yml](installing-and-updating-3-using-docker-docker-nginx-ssl-hubot#6-create-the-docker-composeyml-file-local-directories)  
+7. [Automatic start-up, and crash recovery](installing-and-updating-3-using-docker-docker-nginx-ssl-hubot#7-automatic-startup-crash-recovery)  
+8. [Reboot & Status check](installing-and-updating-3-using-docker-docker-nginx-ssl-hubot#8-reboot-and-status-check)  
+9. [Registering & Configuring Hubot, the chat robot](installing-and-updating-3-using-docker-docker-nginx-ssl-hubot#9-registering-configuring-hubot-the-chat-robot)  
+10. [FAQ & Troubleshooting](installing-and-updating-3-using-docker-docker-nginx-ssl-hubot#10-trouble-shooting-faq)  
+11. [TODO](installing-and-updating-3-using-docker-docker-nginx-ssl-hubot#11-todo)  
+12. [Known Issues](installing-and-updating-3-using-docker-docker-nginx-ssl-hubot#12-known-issues)  
   
 ### Prerequisites:
 This guide is written assuming that you're starting with:  
@@ -332,7 +332,7 @@ Next, let's try opening the web browser and going to your new chat room. Provide
 **Try accessing in your web browser via HTTP**  
 `http://chat.inumio.com:3000`  
   
-**PROBLEM?** See [Section 10: Troubleshooting](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot#10-trouble-shooting--faq)  
+**PROBLEM?** See [Section 10: Troubleshooting](installing-and-updating-3-using-docker-docker-nginx-ssl-hubot#10-trouble-shooting-faq)  
   
 Once you've successfully reached your chat room login page, you need to register your admin account. 
 By default, the first account to register on Rocket Chat becomes the admin, so if your chat room is public, do this immediately in order to prevent someone else from registering and becoming the administrator.  
