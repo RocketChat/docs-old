@@ -44,7 +44,7 @@ You can also notify everyone in a channel by typing @all, but please avoid using
 - setup [desktop and push notifications](Notifications.md)
 
 ## Uploading Files
-- [File uploads](File Uploads.md)
+- [File uploads](File%20Uploads.md)
 
 ## Rocket.Chat :heart: Emoji!
 
@@ -54,8 +54,8 @@ You can also learn how to:
 
 - [Star](Stars.md) messages
 - [Pin](Pins.md) messages
-- start [off-the-record](OTR - Off-the-record conversation.md) conversations
-- use [remove video monitoring](Remote video monitoring.md)
-- use [voice and video](Voice and video calls.md) calling
+- start [off-the-record](OTR%20-%20Off-the-record%20conversation.md) conversations
+- use [remove video monitoring](Remote%20video%20monitoring.md)
+- use [voice and video](Voice%20and%20video%20calls.md) calling
 - [share your screen](Screensharing.md) with a peer
 

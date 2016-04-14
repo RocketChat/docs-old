@@ -51,7 +51,7 @@ Simple Deployment Environment for Rocket.Chat
 ---------------------------------------------
 So, now you've got Ansible installed, you can get ready to deploy Rocket.Chat!  
 
-###Prerequisites
+### Prerequisites
 - You must have SSH access to the system you want to deploy to as the `root` user.  
 - The system you're deploying to must have Python installed (pretty much comes with most operating systems nowadays, easy to install if not).  
 - The system you're deploying to must run one of the following operating systems:  
