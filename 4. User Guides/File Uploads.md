@@ -2,7 +2,7 @@
 
 Rocket.Chat accepts multiple file upload options. 
 
-You can configure these options by going to [Administration > File Upload](/5. Server Management/Administration settings.md#File Upload).
+You can configure these options by going to [Administration > File Upload](/5.%20Server%20Management/Administration%20settings.md#File%20Upload).
 
 When file uploads are available, there are three options available for sending your files:
 
