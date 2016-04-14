@@ -24,7 +24,7 @@ vi /data/domains/example.org/docker-compose.yml # modify `ROOT_URL` and `MAIL_UR
 systemctl enable universal@example.org
 systemctl start universal@example.org
 ```
-Resource Repository: [Link to examples] (https://github.com/RocketChat/Deploy.to.Cloud/tree/master/systemd)  
+Resource Repository: [Link to examples](https://github.com/RocketChat/Deploy.to.Cloud/tree/master/systemd)  
   
 ### Backup
 
@@ -97,7 +97,7 @@ end script
   
 -------------------------  
   
-### Docker-Compose (These examples follow [this guide] (https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot) ) 
+### Docker-Compose (These examples follow [this guide](https://github.com/RocketChat/Rocket.Chat/wiki/Docker---Ubuntu-with-Nginx-SSL-and-Hubot) ) 
 Save as: `/etc/init/rocketchat_mongo.conf`  
 ```
 description "MongoDB service manager for rocketchat"
