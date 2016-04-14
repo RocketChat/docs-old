@@ -13,7 +13,7 @@
 - Meta
 - OAuth
 - OTR
-- [Push Notification Gateway](Notification Gateway.md)
+- [Push Notification Gateway](Notification%20Gateway.md)
 - RocketBot
 - SAML
 - SMTP
