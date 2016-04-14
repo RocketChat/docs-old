@@ -8,7 +8,7 @@ You need to have [docker](https://docs.docker.com/linux/started/) and [docker-co
 
 ## How to run Rocket.Chat
   
-Resource Repository: [Link to files] (https://github.com/RocketChat/Deploy.to.Cloud/tree/master/GenericLinux)  
+Resource Repository: [Link to files](https://github.com/RocketChat/Deploy.to.Cloud/tree/master/GenericLinux)  
   
 Modify `docker-compose.yml` `ROOT_URL` and `MAIL_URL` value to match your environment.
 
