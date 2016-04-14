@@ -6,7 +6,7 @@
 [sloppy.io](http://sloppy.io) is a CaaS (Container as a Service) Provider. You can deploy, scale and manage your dockerized applications in seconds. [Try it for free](http://sloppy.io/#signup) 
   
 ## Get It  
-Resource Repository: [Link to files] (https://github.com/RocketChat/Deploy.to.Cloud/tree/master/sloppy.io)
+Resource Repository: [Link to files](https://github.com/RocketChat/Deploy.to.Cloud/tree/master/sloppy.io)
   
 ## Start it
 ```
