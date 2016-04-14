@@ -6,7 +6,7 @@ Here you'll find guides on how to use Rocket.Chat as a user.
 
 Conversations in Rocket.Chat can be organized into __Channels__: public chat rooms which anyone on your team can join. Channels are for conversations that are open to your entire team.
 
-This means it's easy to find what's going on with your team, even for new Users who can join the Channel and read all the information that was previously shared by other Users. 
+This means it's easy to find what's going on with your team, even for new Users who can join the Channel and read all the information that was previously shared by other Users.
 
 Anyone on your Team can join a Channel.
 
@@ -14,7 +14,7 @@ When in doubt, create a Channel. Public conversations help you build a knowledge
 
 ## Private Rooms
 
-Private groups are closed Channels, meaning it's best used for subjects that are sensitive or confidential, or limited to a small group of team members. 
+Private groups are closed Channels, meaning it's best used for subjects that are sensitive or confidential, or limited to a small group of team members.
 
 Private groups can be joined by invitation only.
 
@@ -24,13 +24,13 @@ Direct messages (DMs) are useful for private, 1-on-1 conversation between team m
 
 ## Favorites
 
-To help you organize and prioritize things, we recommend you add your favorite Channels, DMs and Private Groups using the star icon in the upper left hand corner of the message area. Right next to the room name. 
+To help you organize and prioritize things, we recommend you add your favorite Channels, DMs and Private Groups using the star icon in the upper left hand corner of the message area. Right next to the room name.
 
-This is really useful to avoid noise and focus on what's important to you. 
+This is really useful to avoid noise and focus on what's important to you.
 
 ## Messaging
 
-Sending messages in Rocket.Chat is pretty self-explanatory. There's the message box, you type in the message and press Enter or the Send Button. 
+Sending messages in Rocket.Chat is pretty self-explanatory. There's the message box, you type in the message and press Enter or the Send Button.
 
 ### Notify other team members
 
@@ -45,6 +45,9 @@ You can also notify everyone in a channel by typing @all, but please avoid using
 
 ## Uploading Files
 - [File uploads](File%20Uploads.md)
+
+## Running in a sub folder
+- [Running in a sub folder](Running%20in%20a%20sub%20folder.md)
 
 ## Rocket.Chat :heart: Emoji!
 
