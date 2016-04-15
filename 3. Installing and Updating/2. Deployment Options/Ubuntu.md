@@ -171,8 +171,8 @@ MONGO_OPLOG_URL=mongodb://localhost:27017/local
 
 Rocket.Chat is installed and needs to be configured. Follow these guides to properly configure everything your instance needs:
 
-1. [Creating the First Admin](https://github.com/RocketChat/Rocket.Chat/wiki/Creating-the-First-Admin)
-2. [Run Rocket.Chat behind a SSL Reverse Proxy](https://github.com/RocketChat/Rocket.Chat/wiki/Run-Rocket.Chat-behind-a-SSL-Reverse-Proxy)
+1. [Creating the First Admin](server-management-create-the-first-admin)
+2. [Run Rocket.Chat behind a SSL Reverse Proxy](installing-and-updating-4-configuring-ssl-reverse-proxy-with-nginx)
 
 ## 5. Update an already installed instance
 
