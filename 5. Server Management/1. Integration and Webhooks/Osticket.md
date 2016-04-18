@@ -1,4 +1,4 @@
-Add GitLab notifications via a new WebHook in RocketChat
+Add Osticket notifications via a new WebHook in RocketChat
 1. In Rocket.Chat go to "Administration"->"Integrations" and create "New Integration"
 2. Choose Incoming WebHook
 3. Follow all instructions like Enable, give it a name, link to channel etc.
