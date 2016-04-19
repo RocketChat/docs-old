@@ -4,7 +4,7 @@ Instead of using the standard Docker commands, you may wish for a bit more autom
 
 * Make sure you have [Docker](https://docs.docker.com/engine/installation/) and [Docker-compose](https://docs.docker.com/compose/install/) installed and operational.
 * Create `docker-compose.yml` based on [our example](https://raw.githubusercontent.com/RocketChat/Rocket.Chat/develop/docker-compose.yml).  This is the ONLY file you will need.  You can create this file on your own machine by copy and pasting the content.
-* Edit `image: rocketchat/rocket.chat:develop` to specify which image you wish to use (see section [Docker Images Available](installing-and-updating-3-using-docker-docker-images-available) )
+* Edit `image: rocketchat/rocket.chat:develop` to specify which image you wish to use (see section [Docker Images Available](https://github.com/RocketChat/Rocket.Chat.Docs/blob/master/content/Deployment/docker%20images%20available.md) )
 * Edit `ROOT_URL` to match your domain name or IP address
 
 Start the mongodb server by:
