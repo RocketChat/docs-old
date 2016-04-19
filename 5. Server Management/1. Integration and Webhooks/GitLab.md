@@ -32,7 +32,7 @@ class Script {
           return {
               content: {
                   username: request.content.user.name,
-                  text: request.content.user.username + " "+ request.content.object_attributes.state +" an issue _" + request.content.object_attributes.title + "_ on " + request.content.project.name + ".\n\n*Description:* " + request.content.object_attributes.description ".\nSee: " + request.content.object_attributes.url,
+                  text: request.content.user.username + " "+ request.content.object_attributes.state +" an issue _" + request.content.object_attributes.title + "_ on " + request.content.project.name + ".\n\n*Description:* " + request.content.object_attributes.description + ".\nSee: " + request.content.object_attributes.url,
                   icon_url: request.content.user.avatar_url,
 
               }
