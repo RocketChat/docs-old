@@ -20,28 +20,29 @@ If you are interested in quickly deploying an instance, you can try one of the o
 
 If you need full control of your deployment, here are some guides for specific environments:
 
-- [AWS](installing-and-updating-2-deployment-options-aws)
-- [Aliyun](installing-and-updating-2-deployment-options-aliyun)
-- [Ansible](installing-and-updating-2-deployment-options-ansible)
-- [CentOS 7](installing-and-updating-2-deployment-options-centos-7)
-- [Debian](installing-and-updating-2-deployment-options-debian)
-- [Digital Ocean](installing-and-updating-2-deployment-options-digital-ocean)
-- [FreeBSD](installing-and-updating-2-deployment-options-freebsd)
-- [Meteor Galaxy](installing-and-updating-2-deployment-options-galaxy)
-- [Google Compute Engine](installing-and-updating-2-deployment-options-google-compute-engine)
-- [Heroku](installing-and-updating-2-deployment-options-heroku)
-- [IBM Bluemix](installing-and-updating-2-deployment-options-ibm-bluemix)
-- [Linux](installing-and-updating-2-deployment-options-linux)
-- [Nitrous.io](installing-and-updating-2-deployment-options-nitrous-io)
-- [Sloppy.io](installing-and-updating-2-deployment-options-sloppy-io)
-- [Ubuntu](installing-and-updating-2-deployment-options-ubuntu)
-- [Vagrant with Ubuntu](installing-and-updating-2-deployment-options-vagrant-with-ubuntu)
-- [Windows](installing-and-updating-2-deployment-options-windows)
+- [Aliyun](Aliyun.md)
+- [Ansible](Ansible.md)
+- [Amazon Web Services](AWS.md)
+- [CentOS 7](CentOS%207.md)
+- [Debian](Debian.md)
+- [Digital Ocean](Digital%20Ocean.md)
+- [FreeBSD](FreeBSD.md)
+- [Meteor Galaxy](Galaxy.md)
+- [Google Compute Engine](Google%20Compute%20Engine.md)
+- [Heroku](Heroku.md)
+- [IBM Bluemix](IBM%20Bluemix.md)
+- [Linux](Linux.md)
+- [Nitrous.io](Nitrous.io.md)
+- [Sloppy.io](Sloppy.io.md)
+- [Ubuntu](Ubuntu.md)
+- [Vagrant with Ubuntu](Vagrant%20with%20Ubuntu.md)
+- [Windows](Windows.md)
 
 ## Docker Deployments
 
 You can also deploy using Docker and Docker Compose by following one of these guides:
 
-- [Docker Deployment with Hubot and SSL on Nginx](installing-and-updating-3-using-docker-docker-nginx-ssl-hubot)
-- [Docker Compose](installing-and-updating-3-using-docker-docker-compose)
-- [Docker Images Available](installing-and-updating-3-using-docker-docker-images-available)
+- [Docker Deployment with Hubot and SSL on Nginx](Docker%20-%20Nginx%20SSL%20-%20Hubot.md)
+- [Docker Compose](Docker%20Compose.md)
+- [Docker Images Available](Docker%20Images%20Available.md)
+

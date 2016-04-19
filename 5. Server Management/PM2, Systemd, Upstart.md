@@ -97,7 +97,7 @@ end script
   
 -------------------------  
   
-### Docker-Compose (These examples follow [this guide](installing-and-updating-3-using-docker-docker-nginx-ssl-hubot) ) 
+### Docker-Compose (These examples follow [this guide](/3.%20Installing%20and%20Updating%2F3.%20Using%20Docker%2FDocker%20-%20Nginx%20SSL%20-%20Hubot.md) ) 
 Save as: `/etc/init/rocketchat_mongo.conf`  
 ```
 description "MongoDB service manager for rocketchat"
