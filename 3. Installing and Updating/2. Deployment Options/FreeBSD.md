@@ -12,7 +12,7 @@ Valid for:
 
 You need to install the following packages:
 
-`$ sudo pkg install git scons python gcc48 gmake npm bash`
+`$ sudo pkg install git scons python gcc48 gmake npm bash wget`
 
 ## Building the dev_bundle
 
