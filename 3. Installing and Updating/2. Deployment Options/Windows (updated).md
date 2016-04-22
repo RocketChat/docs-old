@@ -1,5 +1,5 @@
 #Rocket.Chat Windows Installation Guide
-###How to install Rocket.Chat v0.7.x on Windows
+###How to install Rocket.Chat on Windows Server 2012 R2 
 
 The following guild will step through the various steps for installing Rocket.Chat on Windows. 
 
