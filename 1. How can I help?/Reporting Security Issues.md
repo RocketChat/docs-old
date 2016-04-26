@@ -31,5 +31,6 @@ Rocket.Chat is very grateful for the following people who have responsibly discl
 - [Kamran Saifullah](https://pk.linkedin.com/in/kamransaifullah786), November/2015.
 - [Sabri Haddouche](https://github.com/pwnsdx), November/2015.
 - [Dennis Brakhane](https://inoio.de), February/2016.
+- [Jeandre Le Roux](http://theblazehen.com), April/2016.
 
 Thank you all very much!
