@@ -96,7 +96,7 @@ Rocket.Chat is built on top of Node.js v0.10.44. Since this is an older version 
 
 ### Node Packages
 
-1. Open the Windows SDK 7.1 Command Prompt by pressing Start, typing its name, and clicking on it in the search results
+1. Open the *Windows SDK 7.1 Command Prompt* by pressing Start, typing its name, and clicking on it in the search results (Note: It needs to be the SDK Command Prompt)
 2. Now enter the following, replacing:
   * [Installation Path] with the location you placed the Rocket.Chat files
   * [Port to Use] with the port for the Rocket.Chat server to use, such as `3000` 
@@ -106,8 +106,10 @@ Rocket.Chat is built on top of Node.js v0.10.44. Since this is an older version 
 
 
   ```
+  > SetEnv /x86
   > cd [Installation Path]
   > npm install nave -g
+  > npm install node-windows
   
   > npm config set python /Python27/python.exe --global
   > npm config set msvs_version 2010 --global
@@ -125,6 +127,8 @@ Rocket.Chat is built on top of Node.js v0.10.44. Since this is an older version 
   > node rocket.service.js install
   > net start Rocket.Chat
   ```
+  
+  Note: If missing, rocket.service.js can be found [here](https://rocket.chat/docs/master/resources/rocket.service.js) install
   
   _Note: Do not include the `>`_
   
