@@ -50,6 +50,6 @@ class Script {
 
 
 ```
-This example contains code for Push hook & Issue hook. It can easily be extended with more.
+This example contains code for Push hook & Issue hook. It can easily be extended with more (a more complete example can be found here: https://gist.github.com/malko/763c617106063b27d928e886f78c146d).
 
 Gitlab webhook help: https://gitlab.com/help/web_hooks/web_hooks
