@@ -51,11 +51,11 @@ Just type a `:` to see a list of quick emoji codes.
 
 You can also learn how to:
 
-- [File uploads](File%20Uploads/)
-- [Off The Record](OTR%20-%20Off-the-record%20conversation/) conversations
+- [File Uploads](File%20Uploads/)
+- [Off-The-Record](Off-The-Record/) conversations
 - [Pinning Messages](Pinning%20Messages/)
 - [Remote Video Monitoring](Remote%20Video%20Monitoring/)
 - [Screensharing](Screensharing/)
 - [Staring Messages](Staring%20Messages/)
-- [voice and video](Voice%20and%20video%20calls/) calling
+- [Voice and Video Calls](Voice%20and%20video%20calls/)
 

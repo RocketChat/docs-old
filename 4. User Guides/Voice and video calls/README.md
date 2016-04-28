@@ -1,4 +1,6 @@
-# WebRTC - Using video and voice calls
+# Voice and Video Calls
+
+Using WebRTC for video and voice calls
 
 ## What you need
 
