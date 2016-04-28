@@ -128,7 +128,7 @@ Rocket.Chat is built on top of Node.js v0.10.44. Since this is an older version 
   > net start Rocket.Chat
   ```
   
-  Note: If missing, rocket.service.js can be found [here](https://rocket.chat/docs/master/resources/rocket.service.js) install
+  Note: If missing, rocket.service.js can be found [here](rocket.service.js) install
   
   _Note: Do not include the `>`_
   
