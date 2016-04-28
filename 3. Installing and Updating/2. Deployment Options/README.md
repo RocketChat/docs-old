@@ -36,7 +36,7 @@ If you need full control of your deployment, here are some guides for specific e
 - [Sloppy.io](Sloppy.io.md)
 - [Ubuntu](Ubuntu.md)
 - [Vagrant with Ubuntu](Vagrant%20with%20Ubuntu.md)
-- [Windows](Windows.md)
+- [Windows Server 2012 R2](Windows-Server-2012-R2)
 
 ## Docker Deployments
 
