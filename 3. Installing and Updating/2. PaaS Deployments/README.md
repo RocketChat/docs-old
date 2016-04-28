@@ -20,29 +20,29 @@ If you are interested in quickly deploying an instance, you can try one of the o
 
 If you need full control of your deployment, here are some guides for specific environments:
 
-- [Aliyun](Aliyun.md)
-- [Ansible](Ansible.md)
-- [Amazon Web Services](AWS.md)
-- [CentOS 7](CentOS%207.md)
-- [Debian](Debian.md)
-- [Digital Ocean](Digital%20Ocean.md)
-- [FreeBSD](FreeBSD.md)
-- [Meteor Galaxy](Galaxy.md)
-- [Google Compute Engine](Google%20Compute%20Engine.md)
-- [Heroku](Heroku.md)
-- [IBM Bluemix](IBM%20Bluemix.md)
-- [Linux](Linux.md)
-- [Nitrous.io](Nitrous.io.md)
-- [Sloppy.io](Sloppy.io.md)
-- [Ubuntu](Ubuntu.md)
-- [Vagrant with Ubuntu](Vagrant%20with%20Ubuntu.md)
+- [Aliyun](Aliyun/)
+- [Ansible](Ansible/)
+- [Amazon Web Services](AWS/)
+- [CentOS 7](CentOS%207/)
+- [Debian](Debian/)
+- [Digital Ocean](Digital%20Ocean/)
+- [FreeBSD](FreeBSD/)
+- [Meteor Galaxy](Galaxy/)
+- [Google Compute Engine](Google%20Compute%20Engine/)
+- [Heroku](Heroku/)
+- [IBM Bluemix](IBM%20Bluemix/)
+- [Linux](Linux/)
+- [Nitrous.io](Nitrous.io/)
+- [Sloppy.io](Sloppy.io/)
+- [Ubuntu](Ubuntu/)
+- [Vagrant with Ubuntu](Vagrant%20with%20Ubuntu/)
 - [Windows Server 2012 R2](Windows%20Server%202012%20R2)
 
 ## Docker Deployments
 
 You can also deploy using Docker and Docker Compose by following one of these guides:
 
-- [Docker Deployment with Hubot and SSL on Nginx](Docker%20-%20Nginx%20SSL%20-%20Hubot.md)
+- [Docker Deployment with Hubot and SSL on Nginx](Docker%20-%20Nginx%20SSL%20-%20Hubot/)
 - [Docker Compose](Docker%20Compose.md)
 - [Docker Images Available](Docker%20Images%20Available.md)
 
