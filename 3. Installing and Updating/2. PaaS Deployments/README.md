@@ -1,12 +1,6 @@
-# Rocket.Chat Deployment
+# PaaS Deployments
 
 There are multiple deployment options for Rocket.Chat.
-
-## Rocket.Chat Hosting
-
-You can request for a beta of Rocket.Chat hosting service! You can have a server up and running, professionally managed, without installations, configuration, maintenance and management head-aches. Just send an email to support@rocket.chat and request for _"Hosting beta"_.
-
-While in Beta, the hosting is free. Once we leave the beta stage, you'll have the option to export your data if you do not want to continue service and want to host it yourself.
 
 ## Quick Deployments
 
@@ -37,12 +31,3 @@ If you need full control of your deployment, here are some guides for specific e
 - [Ubuntu](Ubuntu/)
 - [Vagrant with Ubuntu](Vagrant%20with%20Ubuntu/)
 - [Windows Server 2012 R2](Windows%20Server%202012%20R2)
-
-## Docker Deployments
-
-You can also deploy using Docker and Docker Compose by following one of these guides:
-
-- [Docker Deployment with Hubot and SSL on Nginx](Docker%20-%20Nginx%20SSL%20-%20Hubot/)
-- [Docker Compose](Docker%20Compose.md)
-- [Docker Images Available](Docker%20Images%20Available.md)
-
