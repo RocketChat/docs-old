@@ -40,14 +40,10 @@ You can also notify everyone in a channel by typing @all, but please avoid using
 
 ### Deleting Messages
 
+wip
+
 ## Setting up Notifications
-- setup [desktop and push notifications](Notifications.md)
-
-## Uploading Files
-- [File uploads](File%20Uploads.md)
-
-## Running in a sub folder
-- [Running in a sub folder](Running%20in%20a%20sub%20folder.md)
+- setup [desktop and push notifications](Notifications)
 
 ## Rocket.Chat :heart: Emoji!
 
@@ -55,10 +51,11 @@ Just type a `:` to see a list of quick emoji codes.
 
 You can also learn how to:
 
-- [Star](Stars.md) messages
-- [Pin](Pins.md) messages
-- start [off-the-record](OTR%20-%20Off-the-record%20conversation.md) conversations
-- use [remove video monitoring](Remote%20video%20monitoring.md)
-- use [voice and video](Voice%20and%20video%20calls.md) calling
-- [share your screen](Screensharing.md) with a peer
+- [File uploads](File%20Uploads/)
+- [Off The Record](OTR%20-%20Off-the-record%20conversation/) conversations
+- [Pinning Messages](Pinning%20Messages/)
+- [Remote Video Monitoring](Remote%20Video%20Monitoring/)
+- [Screensharing](Screensharing/)
+- [Staring Messages](Staring%20Messages/)
+- [voice and video](Voice%20and%20video%20calls/) calling
 
