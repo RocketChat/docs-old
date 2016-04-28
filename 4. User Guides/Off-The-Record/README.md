@@ -1,1 +1,3 @@
-# OTR - Off-the-record conversation
+# Off-The-Record
+
+OTR - encrypted conversations
