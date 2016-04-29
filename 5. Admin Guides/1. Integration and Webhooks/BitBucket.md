@@ -2,7 +2,7 @@
 
 Follow the install instructions here:
 
-https://git.finndrop-office.de/projects/FDS/repos/bitrocket/browse
+https://github.com/FinndropStudios/BitRocket
 
 Thanks to **Finndrop Studios**
 * Manuel Bachl (m.bachl@finndrop.de)
