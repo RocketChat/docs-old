@@ -53,5 +53,5 @@ More on [nodejs installation](https://www.digitalocean.com/community/tutorials/h
 
 ## 2. Install Rocket.Chat
 
-From here you can follow [the documentation for Ubuntu install, from step 2](3.%20Installing%20and%20Updating/4.%20Manual%20Instalation/Ubuntu#2-install-rocketchat)
+From here you can follow [the documentation for Ubuntu install, from step 2](/3.%20Installing%20and%20Updating/4.%20Manual%20Instalation/Ubuntu#2-install-rocketchat)
 
