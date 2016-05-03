@@ -1,0 +1,39 @@
+{
+    "project": "rocketchat",
+    "services": [{
+        "id": "frontend",
+        "apps": [{
+            "id": "rocket",
+            "domain": {
+                "type": "HTTP",
+                "uri": "$URI"
+            },
+            "mem": 512,
+            "image": "rocketchat/rocket.chat",
+            "instances": 1,
+            "port_mappings": [{
+                "container_port": 80
+            }],
+            "env": {
+                "MONGO_URL": "mongodb://mongodb.backend.rocketchat.$USERNAME/rocketchat",
+                "ROOT_URL": "http://$URI"
+            },
+            "dependencies": [
+                "../../backend/mongodb"
+            ]
+        }]
+    }, {
+        "id": "backend",
+        "apps": [{
+            "id": "mongodb",
+            "mem": 512,
+            "image": "mongo",
+            "instances": 1,
+            "volumes": [{
+                "container_path": "/data/db",
+                "mode": "RW",
+                "size": "4000MB"
+            }]
+        }]
+    }]
+}

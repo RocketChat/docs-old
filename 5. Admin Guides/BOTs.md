@@ -1,4 +1,0 @@
-# BOTs
-
-- RocketBot
-- Hubot

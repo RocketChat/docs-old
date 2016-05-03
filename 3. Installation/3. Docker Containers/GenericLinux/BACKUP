@@ -1,0 +1,5 @@
+#!/bin/bash -eux
+URL=${PWD##*/}
+db_container_name=`echo ${URL}_db_1 | sed "s/\.//g"`; \
+
+docker exec $db_container_name mongodump

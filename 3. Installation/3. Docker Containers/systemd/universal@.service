@@ -1,0 +1,19 @@
+[Unit]
+Description=%p-%i
+
+# Requirements
+Requires=docker.service
+Requires=backup@%i.timer
+
+# Dependency ordering
+After=docker.service
+Before=backup@%i.timer
+
+[Service]
+WorkingDirectory=/data/domains/%i/
+ExecStart=/bin/bash -euxc '/data/domains/%i/RUN'
+ExecStop=/bin/bash -euxc '/data/domains/%i/STOP'
+
+[Install]
+WantedBy=multi-user.target
+

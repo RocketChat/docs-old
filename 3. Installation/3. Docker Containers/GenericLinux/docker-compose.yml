@@ -1,0 +1,18 @@
+db:
+  image: mongo
+  volumes:
+    - ./data/runtime/db:/data/db
+    - ./data/dump:/dump
+  command: mongod --smallfiles
+web:
+  image: rocketchat/rocket.chat 
+  environment:
+    - MONGO_URL=mongodb://db:27017/meteor
+    - ROOT_URL=https://rocketchat.test
+    - MAIL_URL=smtp://USERNAME:PASSWORD@HOST:PORT/
+  links:
+    - db:db
+  volumes:
+    - logs:/home/app/logs
+  expose:
+    - "3000"

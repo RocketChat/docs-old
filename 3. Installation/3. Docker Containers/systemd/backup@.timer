@@ -1,0 +1,10 @@
+[Unit]
+Description=Hourly backup of %i content.
+
+# Dependency binding
+BindsTo=universal@%i.service
+
+[Timer]
+OnActiveSec=20
+OnUnitActiveSec=60min
+

@@ -1,0 +1,5 @@
+#!/bin/bash -eux
+/opt/bin/docker-compose kill || :
+/opt/bin/docker-compose rm -f || :
+/opt/bin/docker-compose up
+
