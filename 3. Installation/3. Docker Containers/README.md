@@ -42,16 +42,14 @@ sudo apt-get install ufw
 **Set the default access rules:**
 ```
 sudo ufw default deny incoming
-```
-```
+
 sudo ufw default allow outgoing
 ```
 
 **Set the service rules (SSH / HTTPS):**
 ```
 sudo ufw allow 22/tcp
-```
-```
+
 sudo ufw allow 443/tcp
 ```
 
@@ -83,8 +81,7 @@ Fail2ban is an intrusion prevention software framework which protects computer s
 **Install:**
 ```
 sudo apt-get update
-```
-```
+
 sudo apt-get install fail2ban
 ```
 
@@ -250,8 +247,6 @@ sudo nginx -t
 **Create the directories:**
 ```
 sudo mkdir -p /var/www/rocket.chat/data/runtime/db
-```
-```
 sudo mkdir -p /var/www/rocket.chat/data/dump
 ```
 
@@ -390,8 +385,7 @@ https://chat.inumio.com
 **Open port 3000/tcp in the firewall, and reload to set the new policy**
 ```
 sudo ufw allow 3000/tcp
-```
-```
+
 sudo ufw reload
 ```
 
@@ -472,11 +466,9 @@ If there are errors in the docker-compose.yml file, it will fail to bring up the
 **Check upstart jobs for log errors**
 ```
 cd /var/log/upstart
-```
-```
+
 sudo cat rocketchat_mongo.log
-```
-```
+
 sudo cat rocketchat_app.log
 ```
 
@@ -488,8 +480,7 @@ http://www.yamllint.com/ simply copy the contents of docker-compose.yml and past
 **Try to start it manually**
 ```
 cd /var/www/rocket.chat
-```
-```
+
 /usr/local/bin/docker-compose up
 ```
 
