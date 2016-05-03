@@ -14,7 +14,9 @@ Valid for:
 
 You need to install the following packages either as root or via sudo:
 
-`$ sudo pkg install git scons python gcc48 gmake npm bash wget`
+```
+$ sudo pkg install git scons python gcc48 gmake npm bash wget
+```
 
 Also install mongodb if you will be running the database setup on this server as well.
 
@@ -61,10 +63,10 @@ Username   : rocketchat
 Password   : <random>
 Full Name  : User used for running Rocket chat
 Uid        : 1001
-Class      : 
-Groups     : rocketchat 
+Class      :
+Groups     : rocketchat
 Home       : /home/rocketchat
-Home Mode  : 
+Home Mode  :
 Shell      : /usr/local/bin/bash
 Locked     : no
 OK? (yes/no): yes
@@ -175,7 +177,7 @@ After that: Go ahead and and start rocket.chat!
 $ meteor
 ```
 
-The first launch of Rocket.chat might take some time as its installing dependencies.  
+The first launch of Rocket.chat might take some time as its installing dependencies.
 If all goes well you would see output like this:
 
 ```
@@ -212,7 +214,7 @@ This will run Rocket.chat inside a tmux session allowing you to disconnect from 
 * Press `ctrl+b d` to exit the tmux session.
 * And use `tmux a` to access the session again.
 
-To read more about using tmux see this page:  
+To read more about using tmux see this page:
 http://man.openbsd.org/OpenBSD-current/man1/tmux.1
 
 Or look up one of the many tmux guides online.

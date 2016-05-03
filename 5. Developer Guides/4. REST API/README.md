@@ -55,7 +55,7 @@ db.roles.insert({_id:'newroleid',name:'therolename'})
 
 This is the only API you can call without logging in.  It is useful to ensure that you have activated REST API properly.
 
-````json
+```json
 curl http://localhost:3000/api/version
 
 {
@@ -65,7 +65,7 @@ curl http://localhost:3000/api/version
       "rocketchat": "0.5"
    }
 }
-````
+```
 
 ## Logon with REST API
 * requires authentication: `no`
@@ -75,7 +75,7 @@ curl http://localhost:3000/api/version
  * `password`: the password for that user
 * Notes:
  * **You will need to provide the `authToken` and `userId` for any of the authenticated methods.**
-````json
+```json
 curl http://localhost:3000/api/login
    -d "password=MySECRET&user=sing"
 
@@ -86,10 +86,10 @@ curl http://localhost:3000/api/login
       "userId": "aobEdbYhXfu5hkeqG"
    }
 }
-````
+```
 
 ## Logoff with REST API
-````json
+```json
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq"
   -H "X-User-Id: aobEdbYhXfu5hkeqG"
   http://localhost:3000/api/logout
@@ -100,9 +100,9 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq"
      "message": "You've been logged out!"
    }
 }
-````
+```
 ## Get list of public rooms via REST API
-````json
+```json
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJFV47U3QHXSq"
   -H "X-User-Id: aobEdbYhXfu5hkeqG"
   http://localhost:3000/api/publicRooms
@@ -119,9 +119,9 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJFV47U3QHXSq"
      "ts": "2015-07-24T14:35:23.542Z",
      "t": "c",
       "other fields": "other fields ...."
-````
+```
 ## Join a room via REST API
-````json
+```json
 curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9m5mu2dWOQ5v"
   -H "X-User-Id: aobEdbYhXfu5hkeqG"
   http://localhost:3000/api/rooms/x4pRahjs5oYcTYu7i/join
@@ -130,9 +130,9 @@ curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9m5mu2dWOQ5v"
 {
    "status": "success"
 }
-````
+```
 ## Leave a room via REST API
-````json
+```json
 curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9m5mu2dWOQ5v"
   -H "X-User-Id: aobEdbYhXfu5hkeqG"
   http://localhost:3000/api/rooms/x4pRahjs5oYcTYu7i/leave
@@ -141,10 +141,10 @@ curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9m5mu2dWOQ5v"
  {
    "status": "success"
  }
-````
+```
 
 ## Get all unread messages in a room via REST API
-````json
+```json
  curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug5mu2dWOQ5v"
       -H "X-User-Id: aobEdbYhXfu5hkeqG"
    http://localhost:3000/api/rooms/x4pRahjs5oYcTYu7i/messages
@@ -160,9 +160,9 @@ curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9m5mu2dWOQ5v"
          "u": {
            "_id": "GaRouhq7BFWz2tSJd",
            "other fields": "other fields ...."
-````
+```
 ## Sending a message via REST API
-````json
+```json
 curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9mR5mu2dWOQ5v"
      -H "Content-Type: application/json"
      -X POST
@@ -173,7 +173,7 @@ curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9mR5mu2dWOQ5v"
 {
   "status": "success"
 }
-````
+```
 
 Rocket.Chat's real-time messaging API is a thin semantics layer on top of [Meteor's DDP](https://www.meteor.com/ddp).   To access Rocket.Chat's internal message streaming firehose directly from an external client application:
 

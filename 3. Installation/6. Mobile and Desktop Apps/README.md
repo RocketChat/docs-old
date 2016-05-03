@@ -29,10 +29,10 @@ The app for Android can be found on Google Play. Just search for `Rocket.Chat`
 ### Users
 *Note: This works also works on Firefox for Android and the desktop browser.*
 
-Point the browser on the Firefox OS device to your Rocket.Chat URL (e.g. https://demo.rocket.chat), then add ````/fxos```` (e.g. https://demo.rocket.chat/fxos) and press OK/enter. You will be prompted to install the app.
+Point the browser on the Firefox OS device to your Rocket.Chat URL (e.g. https://demo.rocket.chat), then add ```/fxos``` (e.g. https://demo.rocket.chat/fxos) and press OK/enter. You will be prompted to install the app.
 
 ### Developers
- 1. Make sure you have ````adb```` (android debug bridge) installed on your PC
+ 1. Make sure you have ```adb``` (android debug bridge) installed on your PC
  2. Enable developer mode on the mobile device
  3. Start your Firefox browser on the PC and connect your device
  4. Enter the Firefox WebIDE (Shift + F8 or go to Extras -> Web Developer -> WebIDE)

@@ -35,27 +35,45 @@ This guide is written assuming that you're starting with:
 First, make sure UFW (Uncomplicated Fire Wall) is installed. It should be installed by default in Ubuntu, but if it’s not, you can install the package using apt-get. **IMPORTANT:** We're going to add a firewall rule to permit your SSH connection on port 22/tcp. That is the default SSH port. If you have changed it to something else, you must modify the rule below to reflect your required port number. Failure to do so will break your SSH connection and lock you out of the server as soon as you enable the firewall!
 
 **Confirm UFW is installed:**
-`sudo apt-get install ufw`
+```
+sudo apt-get install ufw
+```
 
 **Set the default access rules:**
-`sudo ufw default deny incoming`
-`sudo ufw default allow outgoing`
+```
+sudo ufw default deny incoming
+```
+```
+sudo ufw default allow outgoing
+```
 
 **Set the service rules (SSH / HTTPS):**
-`sudo ufw allow 22/tcp`
-`sudo ufw allow 443/tcp`
+```
+sudo ufw allow 22/tcp
+```
+```
+sudo ufw allow 443/tcp
+```
 
 **Enable the firewall:**
-`sudo ufw enable`
+```
+sudo ufw enable
+```
 
 **Check the Firewall status:**
-`sudo ufw status`
+```
+sudo ufw status
+```
 
 **If you ever add or delete rules you should reload the firewall:**
-`sudo ufw reload`
+```
+sudo ufw reload
+```
 
 **If you ever need to turn off the firewall:**
-`sudo ufw disable`
+```
+sudo ufw disable
+```
 
 ---------------------------------------------------------------
 
@@ -63,8 +81,12 @@ First, make sure UFW (Uncomplicated Fire Wall) is installed. It should be instal
 Fail2ban is an intrusion prevention software framework which protects computer servers from brute-force attacks.
 
 **Install:**
-`sudo apt-get update`
-`sudo apt-get install fail2ban`
+```
+sudo apt-get update
+```
+```
+sudo apt-get install fail2ban
+```
 
 Press **Y** when prompted to proceed with the install.
 
@@ -80,12 +102,16 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-co
 ```
 
 **Set the executable permissions:**
-`sudo chmod +x /usr/local/bin/docker-compose`
+```
+sudo chmod +x /usr/local/bin/docker-compose
+```
 
 **Notes:** We're using version 1.4.2 for this guide. If you wish to try a newer version, you will need to edit the cURL command to reflect the alternate version number. If you get a "Permission denied" error, your `/usr/local/bin` directory probably isn't writable and you'll need to install Compose as the superuser. Run `sudo -i`, then the two commands above, then `exit`. (credit: docker compose docs)
 
 **Confirm docker-compose is properly installed**
-`sudo docker-compose --version`
+```
+sudo docker-compose --version
+```
 
 ---------------------------------------------------------------
 
@@ -93,7 +119,9 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-co
 If your hostname.domain.tld is mapped to a publicly routable IP, it needs to be set to your local address, for example, 127.0.0.1. Please note that the order in which localhost and your hostname are placed in this file is important; make sure localhost is first.
 
 **Edit the hosts file:**
-`sudo nano /etc/hosts`
+```
+sudo nano /etc/hosts
+```
 
 ```
 127.0.0.1    localhost.localdomain    localhost
@@ -106,7 +134,9 @@ Save and Exit. (Press **CTRL-X** to save, **Y** for yes, then **ENTER** to save 
 
 ### 5. Installing Nginx & SSL certificate
 **Install Nginx**
-`sudo apt-get install nginx`
+```
+sudo apt-get install nginx
+```
 
 #### 5a. Using a commercial SSL cert (recommended):
 If don't have a certificate you can grab one for free at [Let's Encrypt](https://letsencrypt.org/).
@@ -114,14 +144,18 @@ If don't have a certificate you can grab one for free at [Let's Encrypt](https:/
 Of if you want to use a self-signed SSL cert instead, skip this part and continue at [Self-Signed SSL](Docker%20-%20Nginx%20SSL%20-%20Hubot.md#5b-self-signed-ssl) below.
 
 **Install the private key (created when you generated the CSR):**
-`sudo nano /etc/nginx/certificate.key`
+```
+sudo nano /etc/nginx/certificate.key
+```
 
 Open the private key and Copy the entire private key text-block from the file that was generated when you created the CSR. Right click on the terminal window and select paste to paste it into nano. Alternatively, if you have a tool such as filezilla, you can use it via SSH over FTP to upload your cert and key files instead of copy / paste.
 
 Save and Exit.
 
 **Install the SSL certificate (note that this goes in certificate._crt_, not ._key_):**
-`sudo nano /etc/nginx/certificate.crt`
+```
+sudo nano /etc/nginx/certificate.crt
+```
 
 Open the SSL Certificate provided by the SSL vendor (will probably have a .crt or .pem extension) and copy the entire text-block. Right click on the terminal window and select paste to paste it into nano.
 
@@ -147,13 +181,19 @@ Save and Exit.
 
 #### 5c. Set Key Permissions, Dhparams, Configure NGINX
 **Set permissions:**
-`sudo chmod 400 /etc/nginx/certificate.key`
+```
+sudo chmod 400 /etc/nginx/certificate.key
+```
 
 **Generate Strong Diffie Helman group**
-`sudo openssl dhparam -out /etc/nginx/dhparams.pem 2048`
+```
+sudo openssl dhparam -out /etc/nginx/dhparams.pem 2048
+```
 
 **Configure Nginx:**
-`sudo nano /etc/nginx/sites-available/default`
+```
+sudo nano /etc/nginx/sites-available/default
+```
 
 Delete the example in this file, and paste in the following:
 
@@ -195,20 +235,30 @@ Change the server name and proxy_pass to reflect your own details.
 Save and Exit.
 
 **Test the config & Restart nginx:**
-`sudo service nginx configtest && sudo service nginx restart`
+```
+sudo service nginx configtest && sudo service nginx restart
+```
 
 **TIP:** You can pinpoint problems in your nginx config using the following command
-`sudo nginx -t`
+```
+sudo nginx -t
+```
 
 ---------------------------------------------------------------
 
 ### 6. Create the docker-compose.yml file & local directories
 **Create the directories:**
-`sudo mkdir -p /var/www/rocket.chat/data/runtime/db`
-`sudo mkdir -p /var/www/rocket.chat/data/dump`
+```
+sudo mkdir -p /var/www/rocket.chat/data/runtime/db
+```
+```
+sudo mkdir -p /var/www/rocket.chat/data/dump
+```
 
 **Create the docker-compose.yml file:**
-`sudo nano /var/www/rocket.chat/docker-compose.yml`
+```
+sudo nano /var/www/rocket.chat/docker-compose.yml
+```
 
 ```
 db:
@@ -254,7 +304,9 @@ Save and Exit.
 
 ### 7. Automatic Startup & Crash Recovery
 **Create the upstart job for MongoDB**
-`sudo nano /etc/init/rocketchat_mongo.conf`
+```
+sudo nano /etc/init/rocketchat_mongo.conf
+```
 
 ```
 description "MongoDB service manager for rocketchat"
@@ -279,7 +331,9 @@ end script
 Save and Exit.
 
 **Create the upstart job for Rocketchat**
-`sudo nano /etc/init/rocketchat_app.conf`
+```
+sudo nano /etc/init/rocketchat_app.conf
+```
 
 ```
 description "Rocketchat service manager"
@@ -311,10 +365,14 @@ We're ready to start the show! With luck, you should be able to reboot, and the 
 After the downloadables are extracted, the total combined installation is around 800 MB, so this initial downloading may take it awhile. On a commercial server with a fast connection, this will typically take a few minutes.
 
 **Restart the server:**
-`sudo reboot`
+```
+sudo reboot
+```
 
 **Reconnect via SSH, and do a systems check by viewing the docker containers:**
-`sudo docker ps -a`
+```
+sudo docker ps -a
+```
 
 [![docker ps -a](https://www.imageforge.us/images/c90bd55a7b357c20b18815a5560f43f3.png)](https://www.imageforge.us/image/60kNT)
 
@@ -324,15 +382,23 @@ Eventually, it should look similar to our sample screenshot. If it does, congrat
 Next, let's try opening the web browser and going to your new chat room. Provided that your DNS is properly configured, you should be able to simply type your chatroom URL into the browser and open it up.
 
 **First try with HTTPS:**
-`https://chat.inumio.com`
+```
+https://chat.inumio.com
+```
 
 **If for some reason that fails, try HTTP:**
 **Open port 3000/tcp in the firewall, and reload to set the new policy**
-`sudo ufw allow 3000/tcp`
-`sudo ufw reload`
+```
+sudo ufw allow 3000/tcp
+```
+```
+sudo ufw reload
+```
 
 **Try accessing in your web browser via HTTP**
-`http://chat.inumio.com:3000`
+```
+http://chat.inumio.com:3000
+```
 
 **PROBLEM?** See [Section 10: Troubleshooting](#10-trouble-shooting--faq)
 
@@ -383,10 +449,14 @@ _I can't bring up my chat page in the browser using HTTPS!_
 If you're able to resolve HTTP, but not HTTPS, you need to re-visit sections 4 & 5 of this guide. Make sure you've correctly entered the data in the hosts file, as well as in the /etc/nginx/sites-available/default file.
 
 **Check the nginx logs for any errors or other clues**
-`sudo cat /var/log/nginx/error.log`
+```
+sudo cat /var/log/nginx/error.log
+```
 
 **Check the Firewall policy to make sure port 443 is open**
-`sudo ufw status`
+```
+sudo ufw status
+```
 
 **Check your SSL installation**
 https://www.digicert.com/help/
@@ -400,9 +470,15 @@ _I rebooted and waited forever for docker to download everything and start the c
 If there are errors in the docker-compose.yml file, it will fail to bring up the rocketchat app. Improperly formatted yml will cause problems.
 
 **Check upstart jobs for log errors**
-`cd /var/log/upstart`
-`sudo cat rocketchat_mongo.log`
-`sudo cat rocketchat_app.log`
+```
+cd /var/log/upstart
+```
+```
+sudo cat rocketchat_mongo.log
+```
+```
+sudo cat rocketchat_app.log
+```
 
 Look for any errors in the output of those last two commands, which show the log contents of the upstart jobs we created in step 7.
 
@@ -410,8 +486,12 @@ Look for any errors in the output of those last two commands, which show the log
 http://www.yamllint.com/ simply copy the contents of docker-compose.yml and paste into the tool.
 
 **Try to start it manually**
-`cd /var/www/rocket.chat`
-`/usr/local/bin/docker-compose up`
+```
+cd /var/www/rocket.chat
+```
+```
+/usr/local/bin/docker-compose up
+```
 
 If docker-compose doesn't throw an error, and instead launches the job, then the problem is possibly in the upstart script.
 
@@ -423,7 +503,9 @@ _When I upload a file the server crashes!_
 **POSSIBLE SOLUTION:**
 If you're running low on system resources, such as RAM, this can cause problems with not just performance, but stability. Make sure that you're not running out of memory, or have any other choke points, like not enough CPU, etc. One way to check, is to issue the following command via SSH (or console) which runs TOP, a utility that will show valuable information about system resources and processes.
 
-`sudo TOP`
+```
+sudo TOP
+```
 
 With TOP running, try to replicate the problem while watching TOP for high loads, overloaded CPU, etc.  While Rocketchat can be run on a single core with 512MB of memory, that's really not enough for stable performance. If you're seeing high values in TOP, consider upgrading your server to at least 1GB or RAM, or more.
 

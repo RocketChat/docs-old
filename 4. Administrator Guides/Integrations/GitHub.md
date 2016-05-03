@@ -1,5 +1,5 @@
 We can do 2 types of integrations with GitHub:
- 
+
 1. Receive alerts from GitHub (**Incoming WebHook**)
 2. Send commands to GitHub and optionally receive a response (**Outgoing WebHook**)
 
@@ -183,7 +183,9 @@ class Script {
 
 
 ### Send commands to GitHub
-`This script only works for public repositories`
+```
+This script only works for public repositories
+```
 
 * Create a new **outgoing webhook**
 * Select the channel where you will use the commands and receive the responses

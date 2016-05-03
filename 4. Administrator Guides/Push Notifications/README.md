@@ -1,4 +1,7 @@
-# Mobile Notifications Gateway Configuration
+# Push Notifications
+
+Mobile Notifications Gateway Configuration
+
 The following description, from community member @lvh1, describes how to configure mobile notification gateways using the latest edition of Rocket.Chat.
 
 ## Android

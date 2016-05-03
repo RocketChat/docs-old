@@ -1,5 +1,9 @@
 # Deploying Rocket.Chat on Nitrous.io
 
+**Free** development environment for Rocket.Chat in the cloud on [Nitrous.io](https://www.nitrous.io):
+
+[![Nitrous Quickstart](https://nitrous-image-icons.s3.amazonaws.com/quickstart.png)](https://www.nitrous.io/quickstart)
+
 While Nitrous.io is not straightly a 'cloud provider' in the conventional sense, depending on the type of account you have - it can certainly used to deploy Rocket.Chat for development or experimentation.
 
 Deploying to nitrous.io is extremely easy, because it supports 'boxes' with Meteor pre-installed, as well as automatically checking out a git repository when the box starts.
@@ -18,27 +22,27 @@ Then just hit the `Create Box` button to create the box.
 
 The box will be created and you will be at the console. First, change directory to Rocket.Chat:
 
-~~~
+```
 cd workspace/Rocket.Chat
-~~~
+```
 
 Now, remove the git repository to save 12 MB.
 
-~~~
+```
 rm -rf .git
-~~~
+```
 
 Next, remove the android platform to save some more space. This platform removal can take a long time on most free or low cost boxes.
 
-~~~
+```
 meteor remove-platform android
-~~~
+```
 
 Then, start meteor. This can take a very long time on most free or low cost boxes (5 to 10 minutes).
 
-~~~
+```
 meteor
-~~~
+```
 
 Once Rocket.Chat is running, you can select Preview -> Port 3000 to access Rocket.Chat on a new browser tab.
 
@@ -50,9 +54,9 @@ If you look at the browser URL, you can also note the external access URL for ac
 
 For example:
 
-~~~
+```
 http://orange-white-harbor-74-233260.use1-2.nitrousbox.com/
-~~~
+```
 
 You can send this URL to anyone on the Internet to share your Rocket.Chat instance - as long as you keep the Nitrous box running.
 

@@ -1,4 +1,4 @@
-# Deploying Rocket.Chat to Amazon Web Services
+# Deploying Rocket.Chat on Amazon Web Services
 
 This guide covers the following:
 1. Hosting rocket.chat on an Amazon EC2 instance

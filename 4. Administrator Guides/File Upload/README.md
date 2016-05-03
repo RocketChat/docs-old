@@ -1,4 +1,4 @@
-# File Uploads
+# File Upload
 
 You'll need to set the following _CORS Configuration_ to your bucket:
 

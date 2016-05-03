@@ -1,4 +1,4 @@
-## Configuring
+## LDAP
 
 To configure LDAP authentication, go to /admin/LDAP, enable LDAP and add configurations to connect with your LDAP server.
 
@@ -9,15 +9,15 @@ To configure LDAP authentication, go to /admin/LDAP, enable LDAP and add configu
 * Proxy User = rocket.service@domain.com or CN=rocket service,CN=Users,DC=domain,DC=com (DN or userPrincipalName)
 * Proxy User password = urpass (Proxy Users password
 
-For now (until we add more input fields to LDAP) set it like this: (This is based on the above assumptions, replace with your environment) 
+For now (until we add more input fields to LDAP) set it like this: (This is based on the above assumptions, replace with your environment)
 
 ### Logon with username:
 
-* LDAP_Enable = True 
-* LDAP_Dn = dc=domain,dc=com 
-* LDAP_Url = ldap://ldapserver 
-* LDAP_Port = 389 
-* LDAP_Bind_Search = 
+* LDAP_Enable = True
+* LDAP_Dn = dc=domain,dc=com
+* LDAP_Url = ldap://ldapserver
+* LDAP_Port = 389
+* LDAP_Bind_Search =
 {"filter": "(&(objectCategory=person)(objectclass=user)(memberOf=CN=ROCKET_ACCESS,CN=Users,DC=domain,DC=com)(sAMAccountName=#{username}))", "scope": "sub", "userDN": "rocket.service@domain.com", "password": "urpass"}
 
 If you need to auth users from subgroups in LDAP use this filter*:
@@ -25,20 +25,20 @@ If you need to auth users from subgroups in LDAP use this filter*:
 
 ### Logon with email address:
 
-* LDAP_Enable = True 
-* LDAP_Dn = dc=domain,dc=com 
-* LDAP_Url = ldap://ldapserver 
-* LDAP_Port = 389 
-* LDAP_Bind_Search = 
+* LDAP_Enable = True
+* LDAP_Dn = dc=domain,dc=com
+* LDAP_Url = ldap://ldapserver
+* LDAP_Port = 389
+* LDAP_Bind_Search =
 {"filter": "(&(objectCategory=person)(objectclass=user)(memberOf=CN=ROCKET_ACCESS,CN=Users,DC=domain,DC=com)(mail=#{username}))", "scope": "sub", "userDN": "rocket.service@domain.com", "password": "urpass"}
 
 ### Logon with either email address or username:
 
-* LDAP_Enable = True 
-* LDAP_Dn = dc=domain,dc=com 
-* LDAP_Url = ldap://ldapserver 
-* LDAP_Port = 389 
-* LDAP_Bind_Search = 
+* LDAP_Enable = True
+* LDAP_Dn = dc=domain,dc=com
+* LDAP_Url = ldap://ldapserver
+* LDAP_Port = 389
+* LDAP_Bind_Search =
 {"filter": "(&(objectCategory=person)(objectclass=user)(memberOf=CN=ROCKET_ACCESS,CN=Users,DC=domain,DC=com)(|(mail=#{username})(sAMAccountName=#{username})))", "scope": "sub", "userDN": "rocket.service@domain.com", "password": "urpass"}
 
 ## Logging in
@@ -60,9 +60,9 @@ To enable Stunnel automatic startup change the ``ENABLED`` variable in /etc/defa
 ```.sh
 # Change to one to enable stunnel automatic startup
 ENABLED=1
-``` 
+```
 
-Finally on the rocketchat server under /admin/LDAP set 
+Finally on the rocketchat server under /admin/LDAP set
 * LDAP_Url = localhost
 * LDAP_Port = 389
 

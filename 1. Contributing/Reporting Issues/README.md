@@ -1,4 +1,4 @@
-# Contributing
+# Reporting Issues
 
 First of all, thanks! It's really awesome that you're interested in contributing to Rocket Chat. If this is the first Open Source project you will contribute to, it'd be cool if you read GitHub's excellent guide ["Contributing to Open Source"](https://guides.github.com/activities/contributing-to-open-source/).
 

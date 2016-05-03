@@ -1,9 +1,11 @@
-Rocket.Chat had Livechat integration as a feature for a long time.  
+# Livechat
+
+Rocket.Chat had Livechat integration as a feature for a long time.
 
 Recently, the demand for production-grade Livechat has increased, and we started a completely rewrite of the package.
 
 This document is instructions on setting up the new Livechat  _work-in-progress_ version.
- 
+
 **_IMPORTANT Warning: this new Livechat package is still under heavy development, it's not recommended for production._**
 
 **Livechat package is only on develop builds at the moment**
@@ -39,12 +41,12 @@ In order to start receiving incoming live chats you need to add livechat agents.
 You can have the following behavior according on how many department you have created:
 
 * No departments: all Livechat agents will receive incoming chats using a round robin rule;
-* One department: all incoming chats will be offered to agents **only** on that department using a round robin rule; 
+* One department: all incoming chats will be offered to agents **only** on that department using a round robin rule;
 * More than one department: the visitor will have to choose with what department he wants to talk to at registration.
 
 ### Triggers
 
-You can configure how your Livechat widget will be triggered on your website. 
+You can configure how your Livechat widget will be triggered on your website.
 
 Fill in the condition field and the action field.
 

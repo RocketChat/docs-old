@@ -1,3 +1,3 @@
-# Mass Mailer
+# Mailer
 
 Use with caution!

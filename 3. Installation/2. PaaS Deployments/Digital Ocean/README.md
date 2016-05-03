@@ -2,7 +2,7 @@
 
 Digital Ocean offers plain jane KVM VPS backed by SSDs.  There needs to be no specialized configuration.
 
-If you are not using Docker, follow these instructions: 
+If you are not using Docker, follow these instructions:
 
 - Use Ubuntu 14.x LTS VPS instance, for ease of use. For [Ubuntu](Ubuntu.md).
 

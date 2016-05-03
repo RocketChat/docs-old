@@ -24,21 +24,29 @@ After you ssh to the VPS:
 
 Run the command:
 
-`apt-get update`
+```
+apt-get update
+```
 
 followed by:
 
-`apt-get install curl`
+```
+apt-get install curl
+```
 
 ## Install docker
 
 Run this command:
 
-`curl -sSL https://get.docker.com/ | sh`
+```
+curl -sSL https://get.docker.com/ | sh
+```
 
 Docker should be installed, verify it:
 
-`docker ps`
+```
+docker ps
+```
 
 ![aliyun docker verify](https://raw.githubusercontent.com/Sing-Li/bbug/master/images/aliyun2.png)
 
@@ -56,17 +64,23 @@ curl -L https://github.com/docker/compose/releases/download/1.5.0/docker-compose
 
 Next, allow execution of docker-compose:
 
-`chmod +x /usr/local/bin/docker-compose`
+```
+chmod +x /usr/local/bin/docker-compose
+```
 
 ## Create directories for Rocket.Chat
 
 First,
 
-`mkdir /home/rocketchat`
+```
+mkdir /home/rocketchat
+```
 
 Then,
 
-`cd /home/rocketchat`
+```
+cd /home/rocketchat
+```
 
 Make two more directories for the mongodb database:
 
@@ -112,7 +126,9 @@ docker pull rocketchat/rocket.chat
 
 Run:
 
-`docker-compose up -d db`
+```
+docker-compose up -d db
+```
 
 Mongo supports 24 x 7 operations and live backup.  You should not need to restart it too frequently.  See  [mongodb documentations](https://docs.mongodb.org/manual/) for proper operation and management of a mongo server.
 
@@ -122,7 +138,9 @@ Wait a couple of minute for mongo to start properly.
 
 Now start the Rocket.Chat server:
 
-`docker-compose up -d web`
+```
+docker-compose up -d web
+```
 
 Rocket.Chat should be ready in a minute or two.
 
@@ -130,6 +148,8 @@ Rocket.Chat should be ready in a minute or two.
 
 Your Rocket.Chat server can now be accessed over the Internet via:
 
-`http://your-ip-address:8818/`
+```
+http://your-ip-address:8818/
+```
 
 

@@ -1,15 +1,11 @@
 # Deploying Rocket.Chat on Heroku
 
-Heroku is a CloudFoundry based provider.  
-
 Two ways to deploy Rocket.Chat to Heroku:
 
 * easy one click
 * customized command line
 
-
 ## One Click automatic deploy
-
 
 Try clicking the button below, and either login or create a new account, then follow all prompts.
 
@@ -17,70 +13,70 @@ Try clicking the button below, and either login or create a new account, then fo
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/RocketChat/Rocket.Chat/tree/master)
 
-If everything goes well, you will have your own instance of Rocket.Chat running.  
+If everything goes well, you will have your own instance of Rocket.Chat running.
 
 If not, please raise an issue.
 
 ## Customized command line for developers
 
-This is the option that gives you full control.  It is the preferred option for developers.  
+This is the option that gives you full control.  It is the preferred option for developers.
 
 First make sure you have the following installed:
 
-* git 
+* git
 * Heroku CLI
 
 Next, checkout the latest version of Rocket.Chat:
 
-~~~
+```
 git clone https://github.com/RocketChat/Rocket.Chat
-~~~
+```
 
 Change into the `Rocket.Chat` directory, and create your Heroku app:
 
-~~~
+```
 heroku apps:create  --addons mongolab:sandbox,logentries:tryit -b https://github.com/RocketChat/heroku-buildpack-meteor <your app name>
-~~~
+```
 
 Choose \<your app name> carefully, as your Rocket.Chat will then be accessible at:
 
-~~~
+```
 https://<your app name>.herokuapps.com/
-~~~
+```
 
 Next, you *MUST* set the ROOT_URL environment variable:
 
-~~~
+```
 heroku config:add ROOT_URL=https://<your app name>.herokuapp.com/
-~~~
+```
 
 If your app failed to start, check and make sure you have ROOT_URL set.
 
-Heroku app deployment is triggered by git commits - to Heroku's repos, and not github.   
+Heroku app deployment is triggered by git commits - to Heroku's repos, and not github.
 
 You are almost ready to deploy and stage your own instance.  But you must first wire up the git repos to heroku.
 
-~~~
+```
 git remote add heroku https://git.heroku.com/<your app name>.git
-~~~
+```
 
 Finally, deploy and stage your app by:
 
-~~~
+```
 git push heroku master
-~~~
+```
 
 Rocket.Chat should now be running.
 
 ### Got Problems?
 * Set the repository as the buildpack URL:
-~~~
+```
 heroku buildpacks:set https://github.com/AdmitHub/meteor-buildpack-horse.git
-~~~
+```
 * Then try again
-~~~
+```
 git push heroku master
-~~~
+```
 * Still got problems, please raise an issue.
 
 

@@ -26,48 +26,48 @@ First, logon to the [Bluemix dashboard](http://www.bluemix.net/) and then:
 
 Then give your name a unique app name.  After deployment, Rocket.Chat will be available over the Internet as:
 
-~~~
+```
 https://<your app name>.mybluemix.net/
-~~~
+```
 
 Leave the skeleton app to stage and start, logout of the dashboard.  All remaining steps will be preformed at the command line.
 
 Git clone the latest Rocket.Chat:
 
-~~~
+```
 git clone https://github.com/RocketChat/Rocket.Chat.git
-~~~
+```
 
 Change directory into Rocket.Chat, create a new .cfignore file with only one line in it:
 
-~~~
+```
 local
-~~~
+```
 
 This will minimize size of the push (by excluding local Rocket.Chat build artifacts).
 
 Login to Bluemix via the CLI:
 
-~~~
+```
 cf login
-~~~
+```
 
 Create a mongolab 'free' sandbox instance - to be used by Rocket.Chat:
 
-~~~
+```
 cf create-service mongolab sandbox <your db name>
-~~~
+```
 
 Bind that service to your app:
 
-~~~
+```
 cf bind-service <your app name> <your db name>
-~~~
+```
 
 All that is left to do now is to push Rocket.Chat to the app you created early in the dashboard (using a community contributed buildpack):
 
-~~~
+```
 cf push <your app name> -m 512M -b https://github.com/ind1go/bluemix-buildpack-meteor.git
-~~~
+```
 
 That's it.  Everybody on the Internet can now access your instance of Rocket.Chat at `https://<your app name>.mybluemix.net/`.
