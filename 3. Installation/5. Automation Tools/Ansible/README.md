@@ -169,6 +169,6 @@ This command could be expressed as "Run the `rocket_chat.yml` playbook with the 
 
 Now we just sit back and watch the magic happen ;)
 
-When it's all done, provided all went well and no parameters were changed, you should be able to visit [https://chat.my.domain](.) and be greeted by a wonderful Rocket.Chat logo and login screen!
+When it's all done, provided all went well and no parameters were changed, you should be able to visit `https://chat.my.domain` and be greeted by a wonderful Rocket.Chat logo and login screen!
 
 There are _lots_ of options you can set with this role, just take a look at the [README](https://github.com/RocketChat/Rocket.Chat.Ansible/blob/master/README.md) to find out more.
