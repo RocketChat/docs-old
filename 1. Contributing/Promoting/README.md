@@ -10,26 +10,26 @@ If you are not a developer (or even if you are), you can still contribute to the
 
 Please follow us on as many social networks as you can:
 
-* Facebook - https://www.facebook.com/RocketChatApp
-* Twitter - https://twitter.com/RocketChatApp
-* Google+ - https://plus.google.com/+RocketChatApp
-* CrunchBase - https://www.crunchbase.com/organization/rocket-chat
-* Angel.co - https://angel.co/rocket-chat
-* LinkedIn - https://www.linkedin.com/company/rocket-chat
+* [Facebook](https://www.facebook.com/RocketChatApp)
+* [Twitter](https://twitter.com/RocketChatApp)
+* [Google+](https://plus.google.com/+RocketChatApp)
+* [CrunchBase](https://www.crunchbase.com/organization/rocket-chat)
+* [Angel](https://angel.co/rocket-chat)
+* [LinkedIn](https://www.linkedin.com/company/rocket-chat)
 
 ## Vote, recommend, favorite and star us
 
 And vote for us on all these various polls and contests:
 
-* GitHub - https://github.com/RocketChat/Rocket.Chat
-* ProductHunt - http://www.producthunt.com/tech/rocket-chat
-* Bitnami - https://bitnami.com/contest/applications/13576/vote/now
-* Slant - http://www.slant.co/topics/3346/~what-are-the-best-on-site-alternatives-to-slack
-* StackShare - http://stackshare.io/stackups/lets-chat-vs-rocketchat-vs-mattermost
-* Reddit - https://redd.it/3hbdrc
-* StackExchange - http://softwarerecs.stackexchange.com/questions/18754/
-* DockerHub - https://hub.docker.com/_/rocket.chat/
-* AlternativeTo - https://alternativeto.net/software/rocket-chat/
+* [GitHub](https://github.com/RocketChat/Rocket.Chat)
+* [ProductHunt](http://www.producthunt.com/tech/rocket-chat)
+* [Bitnami](https://bitnami.com/contest/applications/13576/vote/now)
+* [Slant](http://www.slant.co/topics/3346/~what-are-the-best-on-site-alternatives-to-slack)
+* [StackShare](http://stackshare.io/stackups/lets-chat-vs-rocketchat-vs-mattermost)
+* [Reddit](https://redd.it/3hbdrc)
+* [StackExchange](http://softwarerecs.stackexchange.com/questions/18754/)
+* [DockerHub](https://hub.docker.com/_/rocket.chat/)
+* [AlternativeTo](https://alternativeto.net/software/rocket-chat/)
 
 ## Blog about us
 
