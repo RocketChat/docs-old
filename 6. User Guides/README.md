@@ -56,6 +56,6 @@ You can also learn how to:
 - [Pinning Messages](Pinning%20Messages/)
 - [Remote Video Monitoring](Remote%20Video%20Monitoring/)
 - [Screensharing](Screensharing/)
-- [Staring Messages](Staring%20Messages/)
+- [Starring Messages](Starring%20Messages/)
 - [Voice and Video Calls](Voice%20and%20video%20calls/)
 
