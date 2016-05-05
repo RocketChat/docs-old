@@ -11,7 +11,7 @@ This guide explains how to deploy your own Rocket.Chat instance to a Ubuntu Linu
 
 ### System Configuration
 
-```shell
+```bash
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
 sudo apt-get update
@@ -20,7 +20,7 @@ sudo apt-get install -y mongodb-org curl graphicsmagick
 
 We have to also install `npm`, which is the Node.js package manager. You can do this by typing:
 
-```shell
+```bash
 sudo apt-get install npm
 ```
 
@@ -28,25 +28,25 @@ If you encountered some errors when trying to install `npm` try to install `node
 
 >The `nodejs` package contains the `nodejs` binary as well as `npm`, so you don't need to install npm separately.
 
-```shell
+```bash
 sudo apt-get install nodejs
 ```
 
 In order for some npm packages to work (such as those that require building from source) you will need to install the build-essentials package:
 
-```shell
+```bash
 sudo apt-get install build-essential
 ```
 
 Install a tool to let us change the node version.
 
-```shell
+```bash
 sudo npm install -g n
 ```
 
 Meteor needs at least this version of node to work.
 
-```shell
+```bash
 sudo n 0.10.43
 ```
 
@@ -60,13 +60,13 @@ Rocket.Chat uses the [MongoDB replica set](http://docs.mongodb.org/manual/replic
 
 Append `replSet=001-rs` into `mongod.conf` file:
 
-```shell
+```bash
 $ echo replSet=001-rs >> /etc/mongod.conf
 ```
 
 And restart Mongo:
 
-```shell
+```bash
 service mongod restart
 ```
 
@@ -74,20 +74,20 @@ service mongod restart
 
 Using YAML syntax add this section into `mongod.conf`:
 
-```shell
+```bash
 replication:
       replSetName:  "001-rs"
 ```
 
 Restart Mongo:
 
-```shell
+```bash
 service mongod restart
 ```
 
 Start the MongoDB shell and initiate the replica set:
 
-```shell
+```bash
 mongo
 > rs.initiate()
 ```
@@ -115,13 +115,13 @@ MONGO_OPLOG_URL=mongodb://localhost:27017/local
 
 Download Stable version of Rocket.Chat (or pick a version from [our releases page](https://rocket.chat/releases)):
 
-```shell
+```bash
 curl -L https://rocket.chat/releases/latest/download -o rocket.chat.tgz
 ```
 
 Then untar the binary release:
 
-```shell
+```bash
 tar zxvf rocket.chat.tgz
 ```
 
@@ -129,7 +129,7 @@ This will expand everything into a `bundle` directory.
 
 Next, make sure MongoDB server is already up and running.  Then, set environment variables and run the Rocket.Chat server:
 
-```shell
+```bash
 mv bundle Rocket.Chat
 cd Rocket.Chat/programs/server
 npm install
@@ -152,7 +152,7 @@ If you would like to start Rocket.Chat on an alternative port, use the environme
 
 If you choose to do this.  You need to do something like this:
 
-```shell
+```bash
 sudo ROOT_URL=http://your-host-name.com-as-accessed-from-internet/ \
     MONGO_URL=mongodb://localhost:27017/rocketchat \
     PORT=80 \
@@ -161,7 +161,7 @@ sudo ROOT_URL=http://your-host-name.com-as-accessed-from-internet/ \
 
 Or...
 
-```shell
+```bash
 sudo su
 export ROOT_URL=http://your-host-name.com-as-accessed-from-internet/
 export MONGO_URL=mongodb://localhost:27017/rocketchat
