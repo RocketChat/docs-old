@@ -6,7 +6,7 @@ Given the nature of Chat, we understand each person using Rocket.Chat has some e
 
 ## If you find a Security Issue
 
-> __Please email the details to Rocket.Chat's security team at [security@rocket.chat](security@rocket.chat)__
+> Please email the details to Rocket.Chat's security team at [security@rocket.chat](mailto://security@rocket.chat)
 
 Our security team will respond to confirm receipt of your message, review and plan the mitigation of the issue appropriately, as well as set a timeline for a new release or patch.
 
