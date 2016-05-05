@@ -6,13 +6,13 @@ You can find us at [https://demo.rocket.chat](https://demo.rocket.chat)
 
 Look for these channels, Rocket.Chat team members usually hang around them:
 
-\#general  
+[\#general](https://demo.rocket.chat/channel/general)  
 General discussion channel
 
-\#support  
+[\#support](https://demo.rocket.chat/channel/support)  
 Rocket.Chat support channel
 
-\#dev  
+[\#dev](https://demo.rocket.chat/channel/dev)  
 Hangout for Rocket.Chat developers, community and core
 
 ## Reporting bugs
