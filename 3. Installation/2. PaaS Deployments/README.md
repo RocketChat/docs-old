@@ -26,7 +26,7 @@ If you need full control of your deployment, here are some guides for specific e
 
 ## Manual Installation
 
-- [CentOS 7](/3.%20Installation/4.%20Manual%20Installation/CentOS%207/)
+- [CentOS](/3.%20Installation/4.%20Manual%20Installation/CentOS/)
 - [Debian](/3.%20Installation/4.%20Manual%20Installation/Debian/)
 - [FreeBSD](/3.%20Installation/4.%20Manual%20Installation/FreeBSD/)
 - [Ubuntu](/3.%20Installation/4.%20Manual%20Installation/Ubuntu/)
@@ -35,4 +35,4 @@ If you need full control of your deployment, here are some guides for specific e
 ## Automation Tools
 
 - [Ansible](/3.%20Installation/5.%20Automation%20Tools/Ansible/)
-- [Vagrant with Ubuntu](/3.%20Installation/5.%20Automation%20Tools/Vagrant%20with%20Ubuntu/)
+- [Vagrant](/3.%20Installation/5.%20Automation%20Tools/Vagrant/)
