@@ -6,16 +6,17 @@ This guide covers the following:
 3. Securing your server with a free SSL certificate from Let's Encrypt
 
 ### Table of Contents
-[1. Launch an EC2 Instance](#1-launch-an-ec2-instance)
-[2. Allocate an Elastic IP](#2-allocate-an-elastic-ip)
-[3. Configure DNS with AWS Route 53](#3-configure-dns-w-aws-route-53)
-[4. Get an SSL Certificate from Let's Encrypt](#4-get-an-ssl-certificate-from-lets-encrypt)
-[5. Configure Nginx with TLS/SSL](#5-configure-nginx-web-server-with-tlsssl)
-[6. Install Docker & Docker Compose](#6-install-docker--docker-compose)
-[7. Set up Docker Containers](#7-set-up-docker-containers)
-[8. Automatic start with Upstart](#8-automatic-start--restarting-with-upstart)
-[9. Reboot & Test](#9-reboot--test)
-[10. Use it!](#10-use-it)
+
+1. [Launch an EC2 Instance](#1-launch-an-ec2-instance)
+2. [Allocate an Elastic IP](#2-allocate-an-elastic-ip)
+3. [Configure DNS with AWS Route 53](#3-configure-dns-w-aws-route-53)
+4. [Get an SSL Certificate from Let's Encrypt](#4-get-an-ssl-certificate-from-lets-encrypt)
+5. [Configure Nginx with TLS/SSL](#5-configure-nginx-web-server-with-tlsssl)
+6. [Install Docker & Docker Compose](#6-install-docker--docker-compose)
+7. [Set up Docker Containers](#7-set-up-docker-containers)
+8. [Automatic start with Upstart](#8-automatic-start--restarting-with-upstart)
+9. [Reboot & Test](#9-reboot--test)
+10. [Use it!](#10-use-it)
 
 ### 1. Launch an EC2 instance.
 #### In AWS Services, go to **EC2**, **Instances**, and **Launch Instance**
