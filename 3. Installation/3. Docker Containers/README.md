@@ -138,7 +138,7 @@ sudo apt-get install nginx
 #### 5a. Using a commercial SSL cert (recommended):
 If don't have a certificate you can grab one for free at [Let's Encrypt](https://letsencrypt.org/).
 
-Of if you want to use a self-signed SSL cert instead, skip this part and continue at [Self-Signed SSL](Docker%20-%20Nginx%20SSL%20-%20Hubot.md#5b-self-signed-ssl) below.
+Of if you want to use a self-signed SSL cert instead, skip this part and continue at [Self-Signed SSL](#5b-self-signed-ssl) below.
 
 **Install the private key (created when you generated the CSR):**
 ```
