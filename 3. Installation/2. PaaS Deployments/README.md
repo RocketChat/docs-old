@@ -15,19 +15,24 @@ If you are interested in quickly deploying an instance, you can try one of the o
 If you need full control of your deployment, here are some guides for specific environments:
 
 - [Aliyun](Aliyun/)
-- [Ansible](Ansible/)
 - [Amazon Web Services](AWS/)
-- [CentOS 7](CentOS%207/)
-- [Debian](Debian/)
 - [Digital Ocean](Digital%20Ocean/)
-- [FreeBSD](FreeBSD/)
 - [Meteor Galaxy](Galaxy/)
 - [Google Compute Engine](Google%20Compute%20Engine/)
 - [Heroku](Heroku/)
 - [IBM Bluemix](IBM%20Bluemix/)
-- [Linux](Linux/)
 - [Nitrous.io](Nitrous.io/)
 - [Sloppy.io](Sloppy.io/)
-- [Ubuntu](Ubuntu/)
-- [Vagrant with Ubuntu](Vagrant%20with%20Ubuntu/)
-- [Windows Server 2012 R2](Windows%20Server%202012%20R2)
+
+## Manual Installation
+
+- [CentOS 7](/3.%20Installation/4.%20Manual%20Installation/CentOS%207/)
+- [Debian](/3.%20Installation/4.%20Manual%20Installation/Debian/)
+- [FreeBSD](/3.%20Installation/4.%20Manual%20Installation/FreeBSD/)
+- [Ubuntu](/3.%20Installation/4.%20Manual%20Installation/Ubuntu/)
+- [Windows Server](/3.%20Installation/4.%20Manual%20Installation/Windows%20Server/)
+
+## Automation Tools
+
+- [Ansible](/3.%20Installation/5.%20Automation%20Tools/Ansible/)
+- [Vagrant with Ubuntu](/3.%20Installation/5.%20Automation%20Tools/Vagrant%20with%20Ubuntu/)
