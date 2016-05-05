@@ -515,7 +515,6 @@ With TOP running, try to replicate the problem while watching TOP for high loads
 
 You can also deploy using Docker and Docker Compose by following one of these guides:
 
-- [Docker Deployment with Hubot and SSL on Nginx](Docker%20-%20Nginx%20SSL%20-%20Hubot/)
 - [Docker Compose](Docker%20Compose.md)
-- [Docker Images Available](Docker%20Images%20Available.md)
+- [Available Images](Available%20Images.md)
 
