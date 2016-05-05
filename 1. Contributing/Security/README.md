@@ -1,6 +1,6 @@
 # Security
 
-First of all, thanks in advance for taking the time and effort to help us improve the security of Rocket.Chat! We are committed to delivering an awesome and secure chat solution for, and aided by, our community.
+First of all, thank you in advance for taking the time and effort to help us improve the security of Rocket.Chat! We are committed to delivering an awesome and secure chat solution for, and aided by, our community.
 
 Given the nature of Chat, we understand each person using Rocket.Chat has some expectation about their data being secure and private. It's clear how important this is to everyone, and we work to the best of our abilities to ensure your expectations are met.
 
