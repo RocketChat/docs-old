@@ -52,7 +52,7 @@ sudo n 0.10.43
 
 More on [nodejs installation](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server)
 
-## Setup MongoDB Replica Set
+### Setup MongoDB Replica Set
 
 Rocket.Chat uses the [MongoDB replica set](http://docs.mongodb.org/manual/replication/) **OPTIONALLY** to improve performance via Meteor Oplog tailing.  To configure the replica set:
 
@@ -111,7 +111,7 @@ After you configured replica set, you **MUST** add the following environment var
 MONGO_OPLOG_URL=mongodb://localhost:27017/local
 ```
 
-## Install Rocket.Chat
+## Install
 
 Download Stable version of Rocket.Chat (or pick a version from [our releases page](https://rocket.chat/releases)):
 
@@ -172,20 +172,20 @@ node main.js
 
 > If you need to keep the server up and running across reboots, use a task manager such as forever, PM2 or write your own shell management scripts.
 
-## Configure Rocket.Chat
+## Configure
 
 Rocket.Chat is installed and needs to be configured. Follow these guides to properly configure everything your instance needs:
 
 1. [Run Rocket.Chat behind a SSL Reverse Proxy](/3.%20Installation%2F4.%20Manual%20Installation%2FConfiguring%20SSL%20Reverse%20Proxy%20with%20Nginx.md)
 
-## Update an already installed instance
+## Update
 
 In summary do the following:
 
 1. Make sure server is down
 1. Change into the directory where you have the `Rocket.Chat` directory
-1. remove the old server executables
+1. Remove the old server executables
   * `rm -rf Rocket.Chat`
-1. Repeat Installation [step](#2-install-rocketchat)
+1. Repeat Installation [step](#Install)
 
 You can always [update directly](https://github.com/RocketChat/Rocket.Chat/issues/2408) to the newest version, the database migrations will execute from the old version to the new version.
