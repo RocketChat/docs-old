@@ -46,4 +46,5 @@ Here are some nice blog posts about our project for you to get some inspiration:
 * http://slides.com/gabrielengel/meteordevshop#/
 
 ## Deployed in Websites
+
 * Investment and Trading Chat Room http://seekingoptions.com
