@@ -11,7 +11,7 @@ The following guide will step through the various steps for installing Rocket.Ch
 
 To start, go to `Control Panel -> Programs and Features` and uninstall each of the following (if present):
 
-* Microsoft Visual C++2 010 x64 Redistributable
+* Microsoft Visual C++ 2010 x64 Redistributable
 * Microsoft Visual C++ 2010 x86 Redistributable
 
 Then, download and install each of the following **in order**:
