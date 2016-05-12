@@ -37,7 +37,7 @@ CTRL-O, CTRL-X
 install everything
 
 ```
-yum install -y nodejs curl GraphicsMagick npm mongodb-server mongodb
+yum install -y nodejs curl GraphicsMagick npm mongodb-org-server mongodb-org
 ```
 
 ```
