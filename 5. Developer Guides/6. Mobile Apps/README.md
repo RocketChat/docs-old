@@ -28,7 +28,7 @@ There are also disadvantages:
 
 If you do not want to build your own, or learn about the technical details, just download this APK and install it on your Android device:
 
-[Download and Install Now](https://rocket.chat/dists/android/rc.apk)
+[Download and Install Now](https://github.com/RocketChat/Rocket.Chat.Cordova/releases)
 
 You must first enable developer mode, and allow non-Google Play APK installation on your device.
 
