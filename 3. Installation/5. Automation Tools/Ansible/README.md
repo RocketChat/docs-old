@@ -129,7 +129,7 @@ If you're running Ansible 2.0, paste the following into your `requirements.yml`:
 ```
 
 Next, let's fetch the Rocket.Chat Ansible role using the `ansible-galaxy` command:
-`~/ansible $ ansible-galaxy install -r roles/requirements.yml`
+`~/ansible $ ansible-galaxy install -p roles/ -r roles/requirements.yml`
 This command says "Hey, I want to install any roles I have defined in `requirements.yml`".
 Hopefully, after a couple seconds, you should have the `RocketChat.Server` role in your `roles` directory:
 ```
