@@ -36,7 +36,7 @@ const githubEvents = {
   issues(request) {
     const user = request.content.sender;
     const attachment = {
-      author_icon: 'http://plainicon.com/dboard/userprod/2800_a1826/prod_thumb/plainicon.com-50223-512px-5be.png',
+      author_icon: 'https://cloud.githubusercontent.com/assets/51996/13893698/c047133c-ed2e-11e5-9233-13622bcb9b7b.png',
       author_name: '#' + request.content.issue.number + ' - ' + request.content.issue.title,
       author_link: request.content.issue.html_url,
       fields: []
@@ -61,7 +61,8 @@ const githubEvents = {
       'closed': ':white_check_mark:',
       'reopened': ':triangular_flag_on_post:',
       'labeled': ':label:',
-      'unlabeled': ':label:'
+      'unlabeled': ':label:',
+      'edited': ':pencil:'
     };
 
     const text = actions[request.content.action] + ' issue';
@@ -79,7 +80,7 @@ const githubEvents = {
   issue_comment(request) {
     const user = request.content.comment.user;
     var attachment = {
-      author_icon: 'http://plainicon.com/dboard/userprod/2800_a1826/prod_thumb/plainicon.com-50223-512px-5be.png',
+      author_icon: 'https://cloud.githubusercontent.com/assets/51996/13893698/c047133c-ed2e-11e5-9233-13622bcb9b7b.png',
       author_name: '#' + request.content.issue.number + ' - ' + request.content.issue.title,
       author_link: request.content.comment.html_url,
       fields: []
@@ -97,7 +98,7 @@ const githubEvents = {
       });
     }
 
-    const text = request.content.comment.body;
+    const text = ':speech_balloon: ' + request.content.comment.body;
 
     return {
       content: {
@@ -112,18 +113,18 @@ const githubEvents = {
   pull_request(request) {
     const user = request.content.sender;
     const attachment = {
-      author_icon: 'http://plainicon.com/dboard/userprod/2800_a1826/prod_thumb/plainicon.com-50223-512px-5be.png',
+      author_icon: 'https://cloud.githubusercontent.com/assets/51996/13893698/c047133c-ed2e-11e5-9233-13622bcb9b7b.png',
       author_name: '#' + request.content.pull_request.number + ' - ' + request.content.pull_request.title,
       author_link: request.content.pull_request.html_url
     };
 
-    let text;
+    let text = 'Pull request';
     switch (request.content.action) {
       case 'assigned':
         text += ' assigned to: ' + request.content.assignee.login;
         break;
       case 'unassigned':
-        text += ' unassigned ' + request.content.assignee.login;
+        text += ' unassigned of ' + request.content.assignee.login;
         break;
       case 'opened':
         text += ' opened';
@@ -197,59 +198,59 @@ This script only works for public repositories
 /* globals Store */
 
 class Script {
-	prepare_outgoing_request({ request }) {
-		let match;
+  prepare_outgoing_request({ request }) {
+    let match;
 
-		console.log('lastCmd', Store.get('lastCmd'));
+    console.log('lastCmd', Store.get('lastCmd'));
 
-		match = request.data.text.match(/^pr last$/);
-		if (match && Store.get('lastCmd')) {
-			request.data.text = Store.get('lastCmd');
-		}
+    match = request.data.text.match(/^pr last$/);
+    if (match && Store.get('lastCmd')) {
+      request.data.text = Store.get('lastCmd');
+    }
 
-		match = request.data.text.match(/^pr\s(ls|list)\s*(open|closed|all)?$/);
-		if (match) {
-			Store.set('lastCmd', request.data.text);
-			let u = request.url + '/pulls';
-			if (match[2]) {
-				u += '?state='+match[2];
-			}
-			return {
-				url: u,
-				headers: request.headers,
-				method: 'GET'
-			};
-		}
+    match = request.data.text.match(/^pr\s(ls|list)\s*(open|closed|all)?$/);
+    if (match) {
+      Store.set('lastCmd', request.data.text);
+      let u = request.url + '/pulls';
+      if (match[2]) {
+        u += '?state='+match[2];
+      }
+      return {
+        url: u,
+        headers: request.headers,
+        method: 'GET'
+      };
+    }
 
-		match = request.data.text.match(/^help$/);
-		if (match) {
-			Store.set('lastCmd', request.data.text);
-			return {
-				message: {
-					text: [
-						'**GitHub commands**',
-						'```',
-							'  pr ls|list [open|closed|all]  List Pull Requests',
-						'```'
-					].join('\n')
-				}
-			};
-		}
-	}
+    match = request.data.text.match(/^help$/);
+    if (match) {
+      Store.set('lastCmd', request.data.text);
+      return {
+        message: {
+          text: [
+            '**GitHub commands**',
+            '```',
+              '  pr ls|list [open|closed|all]  List Pull Requests',
+            '```'
+          ].join('\n')
+        }
+      };
+    }
+  }
 
-	process_outgoing_response({ request, response }) {
-		var text = [];
-		response.content.forEach(function(pr) {
-			text.push('> '+pr.state+' [#'+pr.number+']('+pr.html_url+') - '+pr.title);
-		});
+  process_outgoing_response({ request, response }) {
+    var text = [];
+    response.content.forEach(function(pr) {
+      text.push('> '+pr.state+' [#'+pr.number+']('+pr.html_url+') - '+pr.title);
+    });
 
-		return {
-			content: {
-				text: text.join('\n'),
-				parseUrls: false
-			}
-		};
-	}
+    return {
+      content: {
+        text: text.join('\n'),
+        parseUrls: false
+      }
+    };
+  }
 }
 ```
 * Save your integration
