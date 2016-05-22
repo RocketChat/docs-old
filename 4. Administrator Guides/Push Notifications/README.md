@@ -17,7 +17,7 @@ To configure mobile notifications using the rocket.chat gateway:
 
 ## Rocket.Chat Cordova
 
-Fill in GCM Project Number in the file www/shared/js/android_sender.js, replace "YOUR-ANDROID-ID-HERE" with your GCM Project Number
+Fill in GCM Project Number in the file www/shared/js/android_sender_id.js, replace "YOUR-ANDROID-ID-HERE" with your GCM Project Number
 
 ## iOS
 
