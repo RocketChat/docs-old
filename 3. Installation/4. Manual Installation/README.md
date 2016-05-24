@@ -1,1 +1,1 @@
-# Manual Instalation
+# Manual Installation
