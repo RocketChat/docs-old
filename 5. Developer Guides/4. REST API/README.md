@@ -67,7 +67,7 @@ curl http://localhost:3000/api/version
 }
 ```
 
-## Logon with REST API
+## Logon
 * requires authentication: `no`
 * http method: `post`
 * expected payload:
@@ -76,8 +76,8 @@ curl http://localhost:3000/api/version
 * Notes:
  * **You will need to provide the `authToken` and `userId` for any of the authenticated methods.**
 ```json
-curl http://localhost:3000/api/login
-   -d "password=MySECRET&user=sing"
+curl http://localhost:3000/api/login \
+     -d "user=myusername&password=mypassword"
 
 {
   "status": "success",
@@ -88,11 +88,11 @@ curl http://localhost:3000/api/login
 }
 ```
 
-## Logoff with REST API
+## Logoff
 ```json
-curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq"
-  -H "X-User-Id: aobEdbYhXfu5hkeqG"
-  http://localhost:3000/api/logout
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
+     -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+     http://localhost:3000/api/logout
 
 {
    "status": "success",
@@ -101,11 +101,11 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq"
    }
 }
 ```
-## Get list of public rooms via REST API
+## Get list of public rooms
 ```json
-curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJFV47U3QHXSq"
-  -H "X-User-Id: aobEdbYhXfu5hkeqG"
-  http://localhost:3000/api/publicRooms
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJFV47U3QHXSq" \
+     -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+     http://localhost:3000/api/publicRooms
 
 {
   "status": "success",
@@ -120,33 +120,33 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJFV47U3QHXSq"
      "t": "c",
       "other fields": "other fields ...."
 ```
-## Join a room via REST API
+## Join a room
 ```json
-curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9m5mu2dWOQ5v"
-  -H "X-User-Id: aobEdbYhXfu5hkeqG"
-  http://localhost:3000/api/rooms/x4pRahjs5oYcTYu7i/join
-  -d "{}"
+curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9m5mu2dWOQ5v" \
+     -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+     http://localhost:3000/api/rooms/x4pRahjs5oYcTYu7i/join \
+     -d "{}"
 
 {
    "status": "success"
 }
 ```
-## Leave a room via REST API
+## Leave a room
 ```json
-curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9m5mu2dWOQ5v"
-  -H "X-User-Id: aobEdbYhXfu5hkeqG"
-  http://localhost:3000/api/rooms/x4pRahjs5oYcTYu7i/leave
-  -d "{}"
+curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9m5mu2dWOQ5v" \
+     -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+     http://localhost:3000/api/rooms/x4pRahjs5oYcTYu7i/leave \
+     -d "{}"
 
  {
    "status": "success"
  }
 ```
 
-## Get all unread messages in a room via REST API
+## Get all messages in a room
 ```json
- curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug5mu2dWOQ5v"
-      -H "X-User-Id: aobEdbYhXfu5hkeqG"
+curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug5mu2dWOQ5v" \
+     -H "X-User-Id: aobEdbYhXfu5hkeqG" \
    http://localhost:3000/api/rooms/x4pRahjs5oYcTYu7i/messages
 
  {
@@ -161,13 +161,13 @@ curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9m5mu2dWOQ5v"
            "_id": "GaRouhq7BFWz2tSJd",
            "other fields": "other fields ...."
 ```
-## Sending a message via REST API
+## Sending a message
 ```json
-curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9mR5mu2dWOQ5v"
-     -H "Content-Type: application/json"
-     -X POST
-     -H "X-User-Id: aobEdbYhXfu5hkeqG"
-        http://localhost:3000/api/rooms/x4pRahjs5oYcTYu7i/send
+curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9mR5mu2dWOQ5v" \
+     -H "Content-Type: application/json" \
+     -X POST \
+     -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+        http://localhost:3000/api/rooms/x4pRahjs5oYcTYu7i/send \
      -d "{ \"msg\" : \"OK\" }"
 
 {
