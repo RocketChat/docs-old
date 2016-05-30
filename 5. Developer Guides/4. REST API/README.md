@@ -175,6 +175,16 @@ curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9mR5mu2dWOQ5v" \
 }
 ```
 
+## Create a channel
+```json
+curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9mR5mu2dWOQ5v" \
+     -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+     http://localhost:3000/api/v1/channels.create \
+     -d "name=channelname"
+
+{"channel":{"_id":"ByehQjC44FwMeiLbX","name":"channelname","t":"c","usernames":["username"],"msgs":0,"u":{"_id":"aobEdbYhXfu5hkeqG","username":"username"},"ts":"2016-05-30T13:42:25.304Z"},"success":true}
+```
+
 Rocket.Chat's real-time messaging API is a thin semantics layer on top of [Meteor's DDP](https://www.meteor.com/ddp).   To access Rocket.Chat's internal message streaming firehose directly from an external client application:
 
 ```javascript
