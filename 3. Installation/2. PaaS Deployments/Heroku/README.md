@@ -41,7 +41,7 @@ heroku apps:create  --addons mongolab:sandbox,logentries:tryit -b https://github
 Choose \<your app name> carefully, as your Rocket.Chat will then be accessible at:
 
 ```
-https://<your app name>.herokuapps.com/
+https://<your app name>.herokuapp.com/
 ```
 
 Next, you *MUST* set the ROOT_URL environment variable:
