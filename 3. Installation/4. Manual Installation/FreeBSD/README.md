@@ -1,5 +1,7 @@
 # Deploying Rocket.Chat on FreeBSD
 
+If this is the first time you are installing Rocket.Chat, please following the instructions on [Deploying Rocket.Chat Server on FreeBSD using prebuilt binaries and Univeral Meteor toolchain](universal.md).  
+
 ## Prerequisites
 Valid for:
 
