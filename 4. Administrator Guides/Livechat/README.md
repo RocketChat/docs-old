@@ -72,3 +72,79 @@ Use this JavaScript code to add the Livechat widget to your website. You may mod
 ### Appearance
 
 Customize the appearance of your Livechat widget
+
+### Integrations
+
+You can use webhooks to easily integrate livechat with your CRM.
+
+The Rocket.Chat will send a POST to the webhook URL when the livechat ends or you receive a new offline message.
+
+Here is an example of the JSON data sent on the end of a livechat session:
+
+```
+{
+    "type": "LivechatSession",
+    "_id": "fasd6f5a4sd6f8a4sdf",
+    "label": "title",
+    "topic": "topic of the session",
+    "code": 123123,
+    "createdAt": "2016-06-01T18:41:16.856Z",
+    "lastMessageAt": "2016-06-01T18:41:16.856Z",
+    "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+    ],
+    "customFields": {
+        "productId": "123456"
+    },
+    "visitor": {
+        "_id": "",
+        "name": "viistor name",
+        "username": "visitor-username",
+        "department": "department",
+        "email": "email@address.com",
+        "phone": "192873192873",
+        "ip": "123.456.7.89",
+        "browser": "Chrome",
+        "os": "Linux",
+        "customFields": {
+            "customerId": "123456"
+        }
+    },
+    "agent": {
+        "_id": "asdf89as6df8",
+        "username": "agent.username",
+        "name": "Agent Name",
+        "email": "agent@email.com"
+    },
+    "messages": [
+        {
+            "username": "visitor-username",
+            "msg": "message content",
+            "ts": "2016-06-01T18:41:16.856Z"
+        },
+        {
+            "username": "agent.username",
+            "agentId": "asdf89as6df8",
+            "msg": "message content from agent",
+            "ts": "2016-06-01T18:41:16.856Z"
+        }
+    ]
+}
+```
+
+Here is an example of the JSON data sent on a livechat offline message:
+```
+{
+    "type": "LivechatOfflineMessage",
+    "sentAt": "2016-06-01T19:55:53.867Z",
+    "visitor": {
+        "name": "name from the form",
+        "email": "email@fromtheform.com"
+    },
+    "message": "message from the form"
+}
+```
+
+The field **Secret Token** is sent to a header `X-RocketChat-Livechat-Token` so you can validate if the request became from the livechat.
