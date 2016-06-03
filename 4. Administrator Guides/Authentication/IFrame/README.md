@@ -81,7 +81,7 @@ window.parent.postMessage({
 You can call our OAuth services too, to do that you need to enable and configure each OAuth service on Rocket.Chat admin page and then you can call the services:
 You will receive the OAuth information, you should manage the user creationg/authentication and set the iframe token.
 
-* Facebook
+##### Facebook
 ```javascript
 window.parent.postMessage({
   event: 'call-facebook-login',
@@ -115,7 +115,7 @@ Or and error
 }
 ```
 
-* Google
+##### Google
 ```javascript
 window.parent.postMessage({
   event: 'call-google-login',
@@ -150,7 +150,7 @@ Or and error
 }
 ```
 
-* Twitter
+##### Twitter
 ```javascript
 window.parent.postMessage({
   event: 'call-twitter-login'
