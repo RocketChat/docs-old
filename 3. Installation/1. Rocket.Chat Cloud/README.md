@@ -2,7 +2,7 @@
 
 ### You can request for a beta hosting of Rocket.Chat hosting service! 
 
-You will have a server up and running, professionally managed, without installations, configuration, maintenance and management head-aches. Just send an email to support@rocket.chat and request for _"Hosting beta"_.
+You will have a server up and running, professionally managed, without installations, configuration, maintenance and management head-aches. Just go to https://rocket.chat/deploy and get your team up and running in seconds.
 
 Canadian Educators, please email to team@rocket.chat and request for _"Canadian Hosting beta"_ with some information about your class size and intented uses.
 
