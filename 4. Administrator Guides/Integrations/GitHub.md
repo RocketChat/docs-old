@@ -7,7 +7,11 @@ We can do 2 types of integrations with GitHub:
 * Create a new **incoming webhook**
 * Select the channel were you will receive the alerts
 * Enable Scripts
-* Use this script to receive alerts from new issues, closed issues and comments
+* Use this script to receive alerts from:
+	* New and closed issue events
+	* Comment events (issues only)
+	* Push events (singular and multiple commits)
+
 ```javascript
 /* exported Script */
 
