@@ -4,7 +4,7 @@ We can do 2 types of integrations with GitHub:
 2. Send commands to GitHub and optionally receive a response (**Outgoing WebHook**)
 
 ### Receive alerts
-* Create a new **incoming webhook**
+* Create a new **Incoming WebHook**
 * Select the channel were you will receive the alerts
 * Enable Scripts
 * Use this script to receive alerts from:
@@ -244,23 +244,25 @@ class Script {
   }
 }
 ```
+
 * Save the integration
-* Go to your repository `settings -> webhooks & services -> add webhook`
-* Paste your **Webhook URL** from Rocket.Chat into **Payload URL**
-* Keep **Contenty type** as `application/json`
+* Go to your repository `Settings -> WebHooks & services -> Add WebHook`
+* Paste your **WebHook URL** from Rocket.Chat into **Payload URL**
+* Keep **Content type** as `application/json`
 * Leave **Secret** empty and save
 
-
 ### Send commands to GitHub
+
 ```
 This script only works for public repositories
 ```
 
-* Create a new **outgoing webhook**
+* Create a new **Outgoing WebHook**
 * Select the channel where you will use the commands and receive the responses
 * Set **URLs** as `https://api.github.com/repos/User-Or-Org-Name/Repo-Name` like `https://api.github.com/repos/RocketChat/Rocket.Chat`
 * Enable Scripts
 * Use this **Script** to listen for commands `pr ls`, `pr list` and `help`
+
 ```javascript
 /* exported Script */
 /* globals Store */
@@ -321,4 +323,5 @@ class Script {
   }
 }
 ```
+
 * Save your integration
