@@ -75,6 +75,7 @@ curl http://localhost:3000/api/version
  * `password`: the password for that user
 * Notes:
  * **You will need to provide the `authToken` and `userId` for any of the authenticated methods.**
+
 ```json
 curl http://localhost:3000/api/login \
      -d "user=myusername&password=mypassword"
