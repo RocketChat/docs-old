@@ -6,7 +6,7 @@ These settings are in the `Accounts` setting page under `Administration`.
 
 ## Facebook
 
-TBD.
+* Callback url: `<<website_url>>/_oauth/facebook`
 
 ## GitHub
 
@@ -28,7 +28,7 @@ Go to the [Google Developer Console](https://console.developers.google.com) and 
 
 ## LinkedIn
 
-TBD.
+* Callback url: `<<website_url>>/_oauth/linkedin`
 
 ## Meteor
 
