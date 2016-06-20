@@ -1,4 +1,4 @@
-## Installing on Windows 10 Pro 64bit with Docker for Window
+## Installing on Windows 10 Pro 64bit with Docker for Windows
 
 Please make sure:
 
