@@ -3,7 +3,7 @@
 
 The following guide will step through the various steps for installing Rocket.Chat on Windows Server 2012 R2. 
 
-**Important**: Production deployment using any client versions of Windows, such as Windows 7, 8, or 10 is not supported.  However, beta deployment for Windows 10 Pro (or Enterprise or Education) version is available via Docker for Windows see [Installing on Windows 10 PRo 64bit with Docker for Windows](../Windows-10-Pro/).
+**Important**: Production deployment using any client versions of Windows, such as Windows 7, 8, or 10 is not supported.  However, beta deployment for Windows 10 Pro (or Enterprise or Education) version is available via Docker for Windows see [Installing on Windows 10 PRo 64bit with Docker for Windows](../Windows%2010%20Pro/).
 
 **Note**: The steps will include all dependencies. If a particular dependency has already been installed, please skip to any relevant configuration section.
 
