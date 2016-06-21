@@ -12,6 +12,7 @@ Please make sure:
 
 * Download and install [Docker for Windows](https://docs.docker.com/docker-for-windows/)
 * Create a file named `docker-compose.yml` that contains:
+ 
 ```
 mongo:
   image: mongo:3.0
@@ -28,6 +29,7 @@ rocketchat:
   ports:
     - 3000:3000
 ```
+
 * In the same directory as the above file, enter command `docker-compose up`
 * Wait for the server to fully start, takes a couple of minutes
 * Access your Rocket.Chat server at `http://docker:3000`
