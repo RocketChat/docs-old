@@ -19,7 +19,9 @@ class Script {
 
     // console is a global helper to improve debug
     console.log(request.content);
-
+  if('edited_message' in request.content) {
+    request.content.message = request.content.edited_message;
+  }
     return {
       content: {
         username: request.content.message.from.first_name,
