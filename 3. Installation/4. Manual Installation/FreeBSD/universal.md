@@ -16,7 +16,7 @@ As `root`:
 As user running Rocket.Chat:
 
 ```
-$ git clone --depth 1 https://github.com/4commerce-technologies-AG/meteor
+$ git clone --depth 1 -b release-1.2.1-universal https://github.com/4commerce-technologies-AG/meteor
 $ cd meteor
 $ ./meteor --version
 $ cd $HOME
