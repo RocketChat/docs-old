@@ -6,7 +6,7 @@ The Rocket Chat REST API allow you control and extend Rocket Chat.
 
 Our RESTful APIs should be easy to extend, and the current implementation is specifically coded to illustrate techniques required to overcome common problems.
 
-If you're an end-user and not a dev or a tester, [create an issue](https://github.com/RocketChat/Rocket.Chat/issues/new) to request new APIs -- and [make a donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=49QX7TYCVZK8L) to the project.
+If you're an end-user and not a dev or a tester, [create an issue](https://github.com/RocketChat/Rocket.Chat/issues/new) to request new APIs -- and consider [make a donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZL94ZE6LGVUSN) to the project.
 
 > All API calls are made using curl in this doc.  However, you are free to use
 > Java / Python / PHP / Golang / Ruby / Swift / Objective-C / Rust / Scala / C# or other
