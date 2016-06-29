@@ -40,6 +40,7 @@ Here are some nice blog posts about our project for you to get some inspiration:
 * http://blog.geekgonecrazy.com/2015/09/19/osx-setup/#rocketchat
 * https://snowulf.com/2015/09/25/why-slack-when-you-can-rocket-chat/
 * http://liminality.xyz/self-hosting/
+* https://www.rosehosting.com/blog/install-rocketchat-on-an-ubuntu-14-04-vps/
 
 ## Presentations
 

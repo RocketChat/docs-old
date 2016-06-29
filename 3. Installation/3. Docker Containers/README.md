@@ -39,7 +39,7 @@ First, make sure UFW (Uncomplicated Fire Wall) is installed. It should be instal
 sudo apt-get install ufw
 ```
 
-**Set the default access rules:**
+*Set the default access rules:**
 ```
 sudo ufw default deny incoming
 
@@ -268,7 +268,7 @@ rocketchat:
   environment:
     - MONGO_URL=mongodb://db:27017/rocketchat
     - ROOT_URL=https://chat.inumio.com
-#   - Accounts_UseDNSDomainCheck=false
+    - Accounts_UseDNSDomainCheck=True
   links:
     - db:db
   ports:
@@ -293,7 +293,7 @@ hubot:
 * Edit the ROOT_URL value to be your FQDN.
 * Edit the ROCKETCHAT_URL to be your *public* IP address. Keep the port (3000) the same.
 * Edit ROCKETCHAT_USER, ROCKETCHAT_PASSWORD, and BOT_NAME.
-* If your Rocket.Chat docker instance is behind a proxy, use the additional env-variable "Accounts_UseDNSDomainCheck" this is uncommented in the example above (this only works, if these is a completely new deployment)
+* If your Rocket.Chat docker instance is behind a proxy, set the additional env-variable "Accounts_UseDNSDomainCheck" to "false" (this only works, if these is a completely new deployment)
 
 Save and Exit.
 

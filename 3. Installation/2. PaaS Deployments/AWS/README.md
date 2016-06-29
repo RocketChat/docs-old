@@ -158,7 +158,7 @@ This guide covers the following:
   `sudo nano /var/www/rocket.chat/docker-compose.yml`
    ```
    db:
-     image: mongo
+     image: mongo:3.0
      volumes:
        - ./data/runtime/db:/data/db
        - ./data/dump:/dump
