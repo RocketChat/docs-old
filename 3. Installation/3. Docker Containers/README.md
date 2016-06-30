@@ -39,7 +39,7 @@ First, make sure UFW (Uncomplicated Fire Wall) is installed. It should be instal
 sudo apt-get install ufw
 ```
 
-**Set the default access rules:**
+*Set the default access rules:**
 ```
 sudo ufw default deny incoming
 
@@ -268,7 +268,7 @@ rocketchat:
   environment:
     - MONGO_URL=mongodb://db:27017/rocketchat
     - ROOT_URL=https://chat.inumio.com
-#   - Accounts_UseDNSDomainCheck=True
+    - Accounts_UseDNSDomainCheck=True
   links:
     - db:db
   ports:
