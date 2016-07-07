@@ -36,7 +36,8 @@ Rocket.Chat is very grateful for the following people who have responsibly discl
 - [Sabri Haddouche](https://github.com/pwnsdx), November/2015.
 - [Dennis Brakhane](https://inoio.de), February/2016.
 - [Jeandre Le Roux](http://theblazehen.com), April/2016.
-- [Matthias Brun](https://redguard.ch), May/2016
-- [Michal Marek](https://github.com/ecneladis), May/2016
+- [Matthias Brun](https://redguard.ch), May/2016.
+- [Michal Marek](https://github.com/ecneladis), May/2016.
+- [Sam Whited](https://bitbucket.org/SamWhited/), July/2016.
 
 Thank you all very much!
