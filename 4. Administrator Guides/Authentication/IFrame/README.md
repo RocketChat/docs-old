@@ -15,17 +15,17 @@ Meteor.loginWithPassword('username-or-email', 'your-password');
 
 ### Configuring
 #### IFrame URL
-The URL of the page you whant to show as the login page of your Rocket.Chat instance.
+The URL of the page you whant to show as the login page of your Rocket.Chat instance  (this page can be created in any programming language and/or web frameworks).
 
 #### API URL
-The URL that Rocket.Chat will call to verify if user is logged
-* If user is logged should respond with the session token, example:
+The URL that Rocket.Chat will call to verify if user is logged-in
+* If user is logged-in, should respond with the session token, example:
 ```json
 {
   "token":"NBRLVpbBBSzpS5OSsGybSzyobY63QiRObY6krybX5UQ"
 }
 ```
-To do that you should access the Rocket.Chat database and find/create the user record under the collection `users` set the `services.iframe.token` and return via your API.
+To do that you should directly access the Rocket.Chat MongoDB database (using a MongoDB library or driver with the programming language that you have created your login page with) and find/create the user record under the collection `users` set the `services.iframe.token` and return via your API.
 
 Example of a user record:
 ```javascript
@@ -54,7 +54,7 @@ Example of a user record:
 }
 ```
 
-* If user is not logged, should respond with status code 401
+* If user is not logged-in, should respond with status code 401
 
 #### API Method
 How Rocket.Chat will call your API, `GET` or `POST`
