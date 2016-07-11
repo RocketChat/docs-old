@@ -275,7 +275,7 @@ rocketchat:
     - 3000:3000
 
 hubot:
-  image: rocketchat/hubot-rocketchat
+  image: rocketchat/hubot-rocketchat:v0.1.4
   environment:
     - ROCKETCHAT_URL=165.114.165.21:3000
     - ROCKETCHAT_ROOM=GENERAL
