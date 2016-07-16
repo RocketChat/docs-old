@@ -183,7 +183,7 @@ node main.js
 
 ## Configure
 
-Rocket.Chat is installed and needs to be configured. Follow these guides to properly configure everything your instance needs:
+Rocket.Chat is installed and will run, but needs to be configured behind a web server to be accessible. Follow these guides to properly configure everything your instance needs:
 
 1. [Run Rocket.Chat behind a SSL Reverse Proxy](/3.%20Installation%2F4.%20Manual%20Installation%2FConfiguring%20SSL%20Reverse%20Proxy%20with%20Nginx.md)
 
