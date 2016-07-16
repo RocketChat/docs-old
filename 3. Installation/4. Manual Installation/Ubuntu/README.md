@@ -24,7 +24,7 @@ We have to also install `npm`, which is the Node.js package manager. You can do 
 sudo apt-get install npm
 ```
 
-If you encountered some errors when trying to install `npm` try to install `nodejs` in the first place.
+If you encountered some errors when trying to install `npm` try to install `nodejs` first.
 
 >The `nodejs` package contains the `nodejs` binary as well as `npm`, so you don't need to install npm separately.
 
@@ -54,7 +54,9 @@ More on [nodejs installation](https://www.digitalocean.com/community/tutorials/h
 
 ### Setup MongoDB Replica Set
 
-Rocket.Chat uses the [MongoDB replica set](http://docs.mongodb.org/manual/replication/) **OPTIONALLY** to improve performance via Meteor Oplog tailing.  To configure the replica set:
+Rocket.Chat uses the [MongoDB replica set](http://docs.mongodb.org/manual/replication/) **OPTIONALLY** to improve performance via Meteor Oplog tailing.  First off, restart the instance/machine.
+
+To configure the replica set:
 
 #### For older MongoDB versions (2.4 and bellow)
 
@@ -102,6 +104,8 @@ The result should look like this
   "ok" : 1
 }
 ```
+Note the "ok" value should be 1.  Any other value, i/e/ 93, means something is wrong.
+Make sure to edit the /etc/hosts and /etc/hostname (and restart) to the network accessible DNS name of the machine.
 
 After a few seconds, you should see your prompt turn into `001-rs:PRIMARY> `, this indicates the replica set is being used. Type `exit` to get back to your regular shell.
 
@@ -109,6 +113,11 @@ After you configured replica set, you **MUST** add the following environment var
 
 ```
 MONGO_OPLOG_URL=mongodb://localhost:27017/local
+```
+You may also consider (alternatively) including this value in your ~/.bashrc file:
+
+```
+export MONGO_OPLOG_URL=mongodb://localhost:27017/local
 ```
 
 ## Install
