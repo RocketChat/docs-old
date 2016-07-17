@@ -1,25 +1,26 @@
 We can do 2 types of integrations with GitHub:
 
-1. Receive alerts from GitHub (**Incoming WebHook**)
-2. Send commands to GitHub and optionally receive a response (**Outgoing WebHook**)
+* Receive alerts from GitHub (**Incoming WebHook**)
+* Send commands to GitHub and optionally receive a response (**Outgoing WebHook**)
 
 ### Receive alerts
-* Create a new **Incoming WebHook**
-* Select the channel where you will receive the alerts.  You may wish to create a dedicated channel for your notifications.
-* Set the "Enable Scripts" option to `True`.
-* Copy-paste one of the example scripts below.
-* Save the integration.  This will generate a webhook URL and secret for you.
-* Go to your repository `Settings -> WebHooks & services -> Add WebHook`
-* Paste your **WebHook URL** from Rocket.Chat into **Payload URL**
-* Keep **Content type** as `application/json`
-* Leave **Secret** empty and save
+1. Create a new **Incoming WebHook**
+2. Select the channel where you will receive the alerts.  You may wish to create a dedicated channel for your notifications.
+3. Set the "Enable Scripts" option to `True`.
+4. Copy-paste one of the example scripts below.
+5. Save the integration.  This will generate a webhook URL and secret for you.
+6. Go to your repository `Settings -> WebHooks & services -> Add WebHook`
+7. Paste your **WebHook URL** from Rocket.Chat into **Payload URL**
+8. Keep **Content type** as `application/json`
+9. Leave **Secret** empty and save
 
 #### Example script 1:
 
 This script will generate notifications for the following repository events:
-  * Issue events (create, edit, close, reopen, assign, label, etc)
-  * Issue comment events
-  * Push events (singular and multiple commits)
+
+* Issue events (create, edit, close, reopen, assign, label, etc)
+* Issue comment events
+* Push events (singular and multiple commits)
 
 ```javascript
 /* exported Script */
