@@ -52,18 +52,7 @@ Fill in the condition field and the action field.
 
 ### Custom Fields
 
-You can configure custom fields to be sent by the client.
-
-To set a custom field of a visitor, use the following code after the loading script:
-
-```
-<script type="text/javascript">
-    RocketChat(function() {
-        this.setCustomField('fieldName1', 'Any value you want to store');
-        this.setCustomField('fieldName2', 'Any value you want to store');
-    });
-</script>
-```
+You can configure custom fields to be sent by the client. You can see an example on the [Livechat API page](/6. Developer Guides/4. Livechat API/#set-custom-field).
 
 ### Installation
 
