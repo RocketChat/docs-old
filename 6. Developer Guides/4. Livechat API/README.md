@@ -24,7 +24,10 @@ To change the online color of the livechat widget, use the following code:
 ```
 <script type="text/javascript">
     RocketChat(function() {
-        this.setTheme({ color: '#04436A'});
+        this.setTheme({
+            color: '#04436A', // widget title background color
+            fontColor: '#FFFFFF' // widget title font color
+        });
     });
 </script>
 ```
