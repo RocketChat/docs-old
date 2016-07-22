@@ -31,8 +31,8 @@ Let's create two services: `rocketchat1` runs on port 3001 and `rocketchat2` run
     sudo npm install -g forever
     sudo npm install -g forever-service
     cd ~/Rocket.Chat
-    sudo forever-service install -s main.js -e "ROOT_URL=https://example.com/ MONGO_URL=mongodb://localhost:27017/rocketchat PORT=3001" rocketchat1
-    sudo forever-service install -s main.js -e "ROOT_URL=https://example.com/ MONGO_URL=mongodb://localhost:27017/rocketchat PORT=3002" rocketchat2
+    sudo forever-service install -s main.js -e "ROOT_URL=https://example.com/ MONGO_URL=mongodb://localhost:27017/rocketchat MONGO_OPLOG_URL=mongodb://localhost:27017/local PORT=3001" rocketchat1
+    sudo forever-service install -s main.js -e "ROOT_URL=https://example.com/ MONGO_URL=mongodb://localhost:27017/rocketchat MONGO_OPLOG_URL=mongodb://localhost:27017/local PORT=3002" rocketchat2
 
 On debian/ubuntu, these generate upstart scripts in `/etc/init/rocketchat1.conf` and `/etc/init/rocketchat2.conf`.
 Notice that it automatically uses the service name to configure logging, e.g., `/var/log/rocketchat1.conf`.
