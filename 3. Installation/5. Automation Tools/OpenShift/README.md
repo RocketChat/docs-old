@@ -15,16 +15,16 @@ http://developers.redhat.com/
 * Pull the Rocket.Chat Docker image from Docker Hub and tag/push to the internal OpenShift registry:
 
 ```bash
-# docker pull rocketchat/rocket.chat
-# docker tag rocketchat/rocket.chat hub.openshift.rhel-cdk.10.1.2.2.xip.io/openshift/rocket-chat
-# docker push hub.openshift.rhel-cdk.10.1.2.2.xip.io/openshift/rocket-chat
+docker pull rocketchat/rocket.chat
+docker tag rocketchat/rocket.chat hub.openshift.rhel-cdk.10.1.2.2.xip.io/openshift/rocket-chat
+docker push hub.openshift.rhel-cdk.10.1.2.2.xip.io/openshift/rocket-chat
 ```
 
 * Login in OpenShift and create a new project in OpenShift
 
 ```bash
-# oc login -u openshift-devel https://10.1.2.2:8443
-# oc new-project rocket-chat
+oc login -u openshift-devel https://10.1.2.2:8443
+oc new-project rocket-chat
 ```
 
 * Clone this repo and add the templates and ImageStream to openshift namespace:
