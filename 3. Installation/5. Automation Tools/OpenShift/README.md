@@ -30,24 +30,28 @@ http://developers.redhat.com/
 * Clone this repo and add the templates and ImageStream to openshift namespace:
 
 ```bash
-# git clone https://github.com/rimolive/rocketchat-openshift
-# oc create -n openshift -f rocket-chat-is.json
-# oc create -n openshift -f rocket-chat-ephemeral.json
+git clone https://github.com/rimolive/rocketchat-openshift
+oc create -n openshift -f rocket-chat-is.json
+oc create -n openshift -f rocket-chat-ephemeral.json
 ```
 
 * Create the rocket-chat app:
 
 ```bash
-# oc new-app rocket-chat -p MONGODB_DATABASE=rocketchat,MONGODB_USER=rocketchat-admin,MONGODB_PASS=rocketchat
+oc new-app rocket-chat -p MONGODB_DATABASE=rocketchat,MONGODB_USER=rocketchat-admin,MONGODB_PASS=rocketchat
 ```
 
 * Rocket.Chat uses a domain check code to verify the validity of the e-mail address. To disable it, run the following commands:
 
 ```bash
-# oc port-forward <mongodb_pod> 27017
-# mongo localhost:27017
+oc port-forward <mongodb_pod> 27017
+mongo localhost:27017
+```
 
-> use rocketchat
-> db.auth('rocketchat-admin','rocketchat')
-> db.rocketchat_settings.update({_id:'Accounts_UseDNSDomainCheck'},{$set:{value:false}})
+Inside the mongo client:
+
+```js
+use rocketchat
+db.auth('rocketchat-admin','rocketchat')
+db.rocketchat_settings.update({_id:'Accounts_UseDNSDomainCheck'},{$set:{value:false}})
 ```
