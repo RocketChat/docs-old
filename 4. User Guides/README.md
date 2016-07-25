@@ -8,6 +8,7 @@ Conversations in Rocket.Chat are organized into __channels__. Channels are essen
 
 There are three kinds of channels: [public channels](Public-channels), [private groups](Private-groups), and [direct (1-on-1) messages](Direct-messages).
 
+
 ### Public channels
 
 The most important kind of channel is a **public channel** (also called **channel** for short). Use channels for conversations that are open to your entire team. A channel can be joined by anyone on your team. 
@@ -64,10 +65,9 @@ You can also _react_ to a message with an emoji. On the desktop application, hov
 You can also learn how to:
 
 - [Upload files](File%20Uploads/)
-- [Chat off the record](Off-The-Record/) conversations
+- [Chat off the record](Off-The-Record/)
 - [Pin messages](Pinning%20Messages/)
 - [Do remote video monitoring](Remote%20Video%20Monitoring/)
 - [Screenshare](Screensharing/)
 - [Star Messages](Starring%20Messages/)
 - [Make voice and video calls](Voice%20and%20video%20calls/)
-
