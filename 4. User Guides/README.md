@@ -19,13 +19,13 @@ When in doubt, create a channel. Public conversations help you build a knowledge
 
 ### Private groups
 
-Private groups are closed channels. They are visible only to their members. They are best used for subjects that are sensitive, confidential, or limited to a small group of team members.
+**Private groups** are closed channels. They are visible only to their members. They are best used for subjects that are sensitive, confidential, or limited to a small group of team members.
 
 Private groups can be joined by invitation only. You can decide who can invite others to a private group by changing the permissions. By default, only administrators, room owners, and moderators can invite others to private rooms.
 
 ### Direct Messages
 
-Direct messages (DMs) are private, 1-on-1 conversation between team members. These conversations are visible only to you and the person you DM with.
+**Direct messages (DMs)** are private, 1-on-1 conversation between team members. These conversations are visible only to you and the person you DM with.
 
 ## Channel operations
 
