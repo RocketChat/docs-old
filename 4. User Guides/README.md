@@ -64,9 +64,9 @@ There are two notions of leaving a channel:
 
 Every channel has an **owner**, and the owner of a channel cannot leave a channel until setting someone else as the owner of that channel. A user interface for making someone else the owner of a channel is [in progress](https://github.com/RocketChat/Rocket.Chat/issues/3365).
 
-To **leave** a channel, enter the command `/part` or `/leave` in the message window. Alternatively, hover your mouse over the channel in the list of channels on the left-hand side and click on the <img src="images/leave-icon.png" alt="button with the right-pointing arrow"  align="top" height="20"/>. On the mobile app, pull from the left-hand side to see the list of open channels, hold down on the channel to bring up the buttons, and click on the <img src="images/leave-icon.png" alt="right-pointing arrow" align="top" height="20"/>.
+To **leave** a channel, enter the command `/part` or `/leave` in the message window. Alternatively, hover your mouse over the channel in the list of channels on the left-hand side and click on the <img src="images/leave-icon.png" alt="right-pointing arrow"  align="top" height="20"/> button. On the mobile app, pull from the left-hand side to see the list of open channels, hold down on the channel to bring up the buttons, and click on the <img src="images/leave-icon.png" alt="right-pointing arrow" align="top" height="20"/> button.
 
-To **hide** a channel, hover your mouse over the channel in the list of channels on the left-hand side and click on the <img src="images/hide-icon.png" alt="eyeball button" align="top" height="20"/>. On the mobile app, pull from the left-hand side to see the list of open channels, hold down on the channel to bring up the buttons, and click on the <img src="images/hide-icon.png" alt="eyeball button" align="top" height="20"/>.
+To **hide** a channel, hover your mouse over the channel in the list of channels on the left-hand side and click on the <img src="images/hide-icon.png" alt="eyeball" align="top" height="20"/> button. On the mobile app, pull from the left-hand side to see the list of open channels, hold down on the channel to bring up the buttons, and click on the <img src="images/hide-icon.png" alt="eyeball" align="top" height="20"/> button.
 
 ## Messaging
 
