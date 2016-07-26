@@ -11,15 +11,15 @@ There are three kinds of channels: [public channels](Public-channels), [private 
 
 ### Public channels
 
-The most important kind of channel is a **public channel** (also called **channel** for short). Use channels for conversations that are open to your entire team. A channel can be joined by anyone on your team. 
+**Public channels** (also called **channels** for short) are the most important kind. Use channels for conversations that are open to your entire team. A channel can be joined by anyone on your team. 
 
-Channels make it easy to find what's going on with your team. New team members can join a channel and read all the information that was previously shared by other users.
+Channels make it easy to find what's going on with your team. New team members can join a channel and read all the information previously shared by other users.
 
 When in doubt, create a channel. Public conversations help you build a knowledge base of your organization with minimal effort. For example, create a channel for a company department or to discuss a certain programming language.
 
 ### Private groups
 
-Private groups are closed channels, meaning they are best used for subjects that are sensitive, confidential, or limited to a small group of team members.
+Private groups are closed channels. They are best used for subjects that are sensitive, confidential, or limited to a small group of team members.
 
 Private groups can be joined by invitation only. You can decide who can invite others to a private group by changing the permissions. By default, only administrators, room owners, and moderators can invite others to private rooms.
 
@@ -27,21 +27,27 @@ Private groups can be joined by invitation only. You can decide who can invite o
 
 Direct messages (DMs) are useful for private, 1-on-1 conversation between team members. These conversations are visible only to you and the person you DM with.
 
-## *Favorite* channels, private groups, and direct messages
+## Channel operations
 
-To help you organize and prioritize things, we recommend you add your favorite Channels, DMs and Private Groups using the star icon in the upper left hand corner of the message area, right next to the room name. Starring helps you to avoid noise and to focus on what's important to you.
+### Favorites
+
+To help you organize and prioritize things, we recommend you add your favorite channels, Private Groups, and DMs using the star icon in the upper left hand corner of the message area, next to the room name. Starring helps you to avoid noise and to focus on what's important to you.
+
+### Joining, leaving, hiding
+
+
 
 ## Messaging
 
 Sending messages in Rocket.Chat is self-explanatory: type a message in the message box and press Enter or the Send Button.
 
-If you want to send multiple lines of text, press `shift + enter` to move to the next line.
+If you want to send multiple lines of text, press &#x21E7; &#x23ce; (`shift + enter`) to move to the next line.
 
 ### Notify other team members
 
-To get someone’s attention in a channel, type @ followed by their username, e.g. @guarilha. (They’ll see a red badge on the Channel and be notified via email or their mobile device if they’re not online)
+To get someone’s attention in a channel, type @ followed by their username, e.g. `@guarilha`. (They’ll see a red badge on the channel and be notified via email or their mobile device if they’re not online)
 
-You can also notify everyone in a channel by typing @all, but please avoid using this! While it’s useful for important announcements, it can quickly be distracting if abused.
+You can also notify everyone in a channel by typing `@all`. But avoid using `@all` because it notifies everyone. Although `@all` is useful for important announcements, it can be distracting if abused.
 
 ### Deleting Messages
 
@@ -51,16 +57,21 @@ When enabled, you can delete a message by clicking the cog icon in your message 
 
 It's also possible to hide or show "Message removed" when messages are deleted.
 
-## Setting up Notifications
+## Setting up notifications
 - Setup [desktop and push notifications](Notifications)
 
 ## Rocket.Chat ❤ Emoji!
 
-Just hit the emoji button at the right of the text input to view a list of quick emoji codes. You can also type your desired emoji by preceding it by `:`, like `:heart:` for example.
+To insert emoji in a message, hit the emoji button to the right of the text input to view an emoji picker. You can also type your desired emoji by wrapping its name with `:`; for example, `:heart:` produces :heart:.
 
 ### Emoji reactions
 
-You can also _react_ to a message with an emoji. On the desktop application, hover over a message, click on the gear icon, and click on the smiling face icon. Then choose your emoji. Then an emoji appears below the message. To remove an emoji reaction, click on the emoji below the message. To reiterate an existing emoji reaction that someone else posted, click on the message.
+You can also _react_ to a message with an emoji. 
++ On the **desktop** application: hover over a message, click on the gear icon, click on the smiling face icon, and choose an emoji.
++ On the **mobile** application: press and hold your finger on a message to bring up a menu, press `Reactions`, and choose an emoji.
+Then an emoji appears below the message. 
+
+To remove an emoji reaction, click on the emoji below the message. To reiterate an existing emoji reaction that someone else posted, click on that emoji to add to that emoji's counter.
 
 You can also learn how to:
 
