@@ -8,9 +8,9 @@ Conversations in Rocket.Chat are organized into __channels__. Channels are chat 
 
 There are three kinds of channels: [public channels](Public-channels), [private groups](Private-groups), and [direct (1-on-1) messages](Direct-messages).
 
-<img src="images/public-channel-private-group.png" alt="Example of public channel and private group" width="200"/>
+<img src="images/public-channel-private-group.png" alt="Example of public channel and private group" width="150"/>
 
-<img src="images/DM-example.png" alt="Example of a direct message" width="200"/>
+<img src="images/DM-example.png" alt="Example of a direct message" width="150"/>
 
 
 ### Public channels
@@ -39,21 +39,21 @@ To help you organize and prioritize your communications, we recommend you **favo
 
 To favorite a channel, click on the star icon in the upper left hand corner of the message area (next to the room name):
 
-<img src="images/unstarred-channel.png" alt="Example of a starred channel" width="200"/>
+<img src="images/unstarred-channel.png" alt="Example of a starred channel" width="150"/>
 
 Then the star becomes yellow:
 
-<img src="images/starred-channel.png" alt="Example of a starred channel" width="200"/>
+<img src="images/starred-channel.png" alt="Example of a starred channel" width="143"/>
 
 and that channel appears under the list of **Favorites** in the left-hand pane:
 
-<img src="images/favorites-list.png" alt="Example of a starred channel" width="200"/>
+<img src="images/favorites-list.png" alt="Example of a starred channel" width="150"/>
 
 Starring helps you to avoid noise and to focus on what's important to you.
 
 ### Joining channels
 
-Find existing channels by clicking on the `More channels...` button on the left-hand pane. Then click on a channel to preview its contents. If you want to join it, click on the `JOIN` button.
+Find existing channels by clicking on the <img src="images/More channels.png" alt="More channels..." align="top" height="20"/> button on the left-hand pane. Then click on a channel to preview its contents. If you want to join it, click on the <img src="images/JOIN.png" alt="JOIN" align="top" height="20"/> button.
 
 ### Hiding and leaving channels
 
@@ -64,13 +64,13 @@ There are two notions of leaving a channel:
 
 Every channel has an **owner**, and the owner of a channel cannot leave a channel until setting someone else as the owner of that channel. A user interface for making someone else the owner of a channel is [in progress](https://github.com/RocketChat/Rocket.Chat/issues/3365).
 
-To **leave** a channel, enter the command `/part` or `/leave` in the message window. Alternatively, hover your mouse over the channel in the list of channels on the left-hand side and click on the <img src="images/leave-icon.png" alt="button with the right-pointing arrow" width="20"/>. On the mobile app, pull from the left-hand side to see the list of open channels, hold down on the channel to bring up the buttons, and click on the <img src="images/leave-icon.png" alt="right-pointing arrow" width="20"/>.
+To **leave** a channel, enter the command `/part` or `/leave` in the message window. Alternatively, hover your mouse over the channel in the list of channels on the left-hand side and click on the <img src="images/leave-icon.png" alt="button with the right-pointing arrow"  align="top" height="20"/>. On the mobile app, pull from the left-hand side to see the list of open channels, hold down on the channel to bring up the buttons, and click on the <img src="images/leave-icon.png" alt="right-pointing arrow" align="top" height="20"/>.
 
-To **hide** a channel, hover your mouse over the channel in the list of channels on the left-hand side and click on the <img src="images/hide-icon.png" alt="eyeball button" width="20"/>. On the mobile app, pull from the left-hand side to see the list of open channels, hold down on the channel to bring up the buttons, and click on the <img src="images/hide-icon.png" alt="eyeball button" width="20"/>.
+To **hide** a channel, hover your mouse over the channel in the list of channels on the left-hand side and click on the <img src="images/hide-icon.png" alt="eyeball button" align="top" height="20"/>. On the mobile app, pull from the left-hand side to see the list of open channels, hold down on the channel to bring up the buttons, and click on the <img src="images/hide-icon.png" alt="eyeball button" align="top" height="20"/>.
 
 ## Messaging
 
-Sending messages in Rocket.Chat is self-explanatory: type a message in the message box and press &#x23ce; (Enter) or the Send Button (<img src="images/send-icon.png" alt="Send icon" width="20"/>).
+Sending messages in Rocket.Chat is self-explanatory: type a message in the message box and press &#x23ce; (Enter) or the Send Button (<img src="images/send-icon.png" alt="Send icon" align="top" height="20"/>).
 
 If you want to send multiple lines of text, press &#x21E7; &#x23ce; (shift + enter) to move to the next line.
 
@@ -84,7 +84,7 @@ You can also notify everyone in a channel by typing `@all`. But avoid using `@al
 
 The ability to delete message is configurable under Rocket.Chat Administration panel.
 
-When enabled, you can delete a message by clicking the cog icon in your message and then clicking the trash icon in the menu popover. A confirmation will be displayed before the message is deleted.
+When enabled, you can delete a message by clicking the gear icon (<img src="images/gear-icon.png" alt="gear icon" align="top" width="20"/>) in your message and then clicking the trash icon in the menu popover. A confirmation will be displayed before the message is deleted.
 
 It's also possible to hide or show "Message removed" when messages are deleted.
 
