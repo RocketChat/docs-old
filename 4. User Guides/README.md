@@ -8,7 +8,9 @@ Conversations in Rocket.Chat are organized into __channels__. Channels are essen
 
 There are three kinds of channels: [public channels](Public-channels), [private groups](Private-groups), and [direct (1-on-1) messages](Direct-messages).
 
-<img src="images/public-private-channels.png" alt="Example of public channel and private group" width="200"/>
+<img src="images/public-channel-private-group.png" alt="Example of public channel and private group" width="200"/>
+
+<img src="images/DM-example.png" alt="Example of a direct message" width="200"/>
 
 
 ### Public channels
@@ -33,7 +35,23 @@ Private groups can be joined by invitation only. You can decide who can invite o
 
 ### Favorites
 
-To help you organize and prioritize things, we recommend you add your favorite channels, Private Groups, and DMs using the star icon in the upper left hand corner of the message area, next to the room name. Starring helps you to avoid noise and to focus on what's important to you.
+To help you organize and prioritize your communications, we recommend you **favorite** (or **star**) channels, private groups, and DMs. 
+
+
+To favorite a channel, click on the star icon in the upper left hand corner of the message area (next to the room name):
+
+<img src="images/unstarred-channel.png" alt="Example of a starred channel" width="200"/>
+
+Then the star becomes yellow:
+
+<img src="images/starred-channel.png" alt="Example of a starred channel" width="200"/>
+
+and that channel appears under the list of **Favorites** in the left-hand pane:
+
+<img src="images/favorites-list.png" alt="Example of a starred channel" width="200"/>
+
+
+Starring helps you to avoid noise and to focus on what's important to you.
 
 ### Joining channels
 
@@ -48,9 +66,9 @@ There are two notions of leaving a channel:
 
 Every channel has an **owner**, and the owner of a channel cannot leave a channel until setting someone else as the owner of that channel. A user interface for making someone else the owner of a channel is [in progress](https://github.com/RocketChat/Rocket.Chat/issues/3365).
 
-To **leave** a channel, enter the command `/part` or `/leave` in the message window. Alternatively, hover your mouse over the channel in the list of channels on the left-hand side and click on the button with the right-pointing arrow. On the mobile app, pull from the left-hand side to see the list of open channels, hold down on the channel to bring up the buttons, and click on the right-arrow button.
+To **leave** a channel, enter the command `/part` or `/leave` in the message window. Alternatively, hover your mouse over the channel in the list of channels on the left-hand side and click on the <img src="images/leave-icon.png" alt="button with the right-pointing arrow" width="20"/>. On the mobile app, pull from the left-hand side to see the list of open channels, hold down on the channel to bring up the buttons, and click on the <img src="images/leave-icon.png" alt="right-pointing arrow" width="20"/>.
 
-To **hide** a channel, hover your mouse over the channel in the list of channels on the left-hand side and click on the button with a diagonal line covering an eyeball. On the mobile app, pull from the left-hand side to see the list of open channels, hold down on the channel to bring up the buttons, and click on the eyeball button.
+To **hide** a channel, hover your mouse over the channel in the list of channels on the left-hand side and click on the <img src="images/hide-icon.png" alt="eyeball button" width="20"/>. On the mobile app, pull from the left-hand side to see the list of open channels, hold down on the channel to bring up the buttons, and click on the <img src="images/hide-icon.png" alt="eyeball button" width="20"/>.
 
 ## Messaging
 
@@ -60,7 +78,7 @@ If you want to send multiple lines of text, press &#x21E7; &#x23ce; (shift + ent
 
 ### Notify other team members
 
-To get someone’s attention in a channel, type @ followed by their username, e.g. `@guarilha`. (They’ll see a red badge on the channel and be notified via email or their mobile device if they’re not online)
+To get someone’s attention in a channel, type `@` followed by their username, for example `@guarilha`. (They’ll see a red badge on the channel and be notified via email or their mobile device if they’re not online)
 
 You can also notify everyone in a channel by typing `@all`. But avoid using `@all` because it notifies everyone. Although `@all` is useful for important announcements, it can be distracting if abused.
 
@@ -80,7 +98,7 @@ To insert emoji in a message, hit the emoji button to the right of the text inpu
 ### Emoji reactions
 
 You can also _react_ to a message with an emoji. 
-+ On the **desktop** application: hover over a message, click on the gear icon, click on the smiling face icon, and choose an emoji.
++ On the **desktop** application: hover over a message, click on the gear icon (<img src="images/gear-icon.png" alt="gear icon" width="20"/>), click on the smiling face icon, and choose an emoji.
 + On the **mobile** application: press and hold your finger on a message to bring up a menu, press `Reactions`, and choose an emoji.
 Then an emoji appears below the message. 
 
