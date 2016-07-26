@@ -70,8 +70,6 @@ When enabled, you can delete a message by clicking the cog icon in your message 
 
 It's also possible to hide or show "Message removed" when messages are deleted.
 
-## Setting up notifications
-- Setup [desktop and push notifications](Notifications)
 
 ## Rocket.Chat ❤ Emoji!
 
@@ -86,12 +84,14 @@ Then an emoji appears below the message.
 
 To remove an emoji reaction, click on the emoji below the message. To reiterate an existing emoji reaction that someone else posted, click on that emoji to add to that emoji's counter.
 
-You can also learn how to:
 
+## Learn more
+
+- [Setup desktop and push notifications](Notifications)
 - [Upload files](File%20Uploads/)
 - [Chat off the record](Off-The-Record/)
 - [Pin messages](Pinning%20Messages/)
-- [Do remote video monitoring](Remote%20Video%20Monitoring/)
+- [Remote video monitoring](Remote%20Video%20Monitoring/)
 - [Screenshare](Screensharing/)
 - [Star Messages](Starring%20Messages/)
 - [Make voice and video calls](Voice%20and%20video%20calls/)
