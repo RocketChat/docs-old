@@ -4,7 +4,7 @@ Here you'll learn how to use [Rocket.Chat](https://rocket.chat/) as a user.
 
 ## Channels
 
-Conversations in Rocket.Chat are organized into __channels__. Channels are essentially chat rooms with many useful features. 
+Conversations in Rocket.Chat are organized into __channels__. Channels are chat rooms with many useful features. 
 
 There are three kinds of channels: [public channels](Public-channels), [private groups](Private-groups), and [direct (1-on-1) messages](Direct-messages).
 
@@ -23,20 +23,19 @@ When in doubt, create a channel. Public conversations help you build a knowledge
 
 ### Private groups
 
-**Private groups** are closed channels. They are visible only to their members. They are best used for subjects that are sensitive, confidential, or limited to a small group of team members.
+**Private groups** are closed channels. They are visible only to their members. Use private groups for subjects that are sensitive, confidential, or limited to a small group of team members.
 
-Private groups can be joined by invitation only. You can decide who can invite others to a private group by changing the permissions. By default, only administrators, room owners, and moderators can invite others to private rooms.
+Private groups can be joined by invitation only. The administrator sets the permissions that determine who can invite others to a private group. By default, only administrators, room owners, and moderators can invite others to private rooms.
 
 ### Direct Messages
 
-**Direct messages (DMs)** are private, 1-on-1 conversation between team members. These conversations are visible only to you and the person you DM with.
+**Direct messages (DMs)** are private, 1-on-1 conversation between team members. You can think of a DM as a private group with only two members.
 
 ## Channel operations
 
 ### Favorites
 
 To help you organize and prioritize your communications, we recommend you **favorite** (or **star**) channels, private groups, and DMs. 
-
 
 To favorite a channel, click on the star icon in the upper left hand corner of the message area (next to the room name):
 
@@ -49,7 +48,6 @@ Then the star becomes yellow:
 and that channel appears under the list of **Favorites** in the left-hand pane:
 
 <img src="images/favorites-list.png" alt="Example of a starred channel" width="200"/>
-
 
 Starring helps you to avoid noise and to focus on what's important to you.
 
@@ -89,7 +87,6 @@ The ability to delete message is configurable under Rocket.Chat Administration p
 When enabled, you can delete a message by clicking the cog icon in your message and then clicking the trash icon in the menu popover. A confirmation will be displayed before the message is deleted.
 
 It's also possible to hide or show "Message removed" when messages are deleted.
-
 
 ## Rocket.Chat ❤ Emoji!
 
