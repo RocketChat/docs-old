@@ -95,9 +95,14 @@ To insert emoji in a message, hit the emoji button to the right of the text inpu
 ### Emoji reactions
 
 You can also _react_ to a message with an emoji. 
-+ On the **desktop** application: hover over a message, click on the gear icon (<img src="images/gear-icon.png" alt="gear icon" width="20"/>), click on the smiling face icon, and choose an emoji.
++ On the **desktop** application: hover over a message, click on the gear icon (<img src="images/gear-icon.png" align="top" alt="gear icon" width="20"/>), click on the smiling face icon, and choose an emoji.
 + On the **mobile** application: press and hold your finger on a message to bring up a menu, press `Reactions`, and choose an emoji.
+
+<img src="images/emoji-reaction.png" align="top" alt="How to choose an emoji reaction" height="75"/>
+
 Then an emoji appears below the message. 
+
+<img src="images/emoji-reaction-result.png" align="top" alt="Example of an emoji reaction" height="75"/>
 
 To remove an emoji reaction, click on the emoji below the message. To reiterate an existing emoji reaction that someone else posted, click on that emoji to add to that emoji's counter.
 
