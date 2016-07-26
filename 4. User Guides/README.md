@@ -19,13 +19,13 @@ When in doubt, create a channel. Public conversations help you build a knowledge
 
 ### Private groups
 
-Private groups are closed channels. They are best used for subjects that are sensitive, confidential, or limited to a small group of team members.
+Private groups are closed channels. They are visible only to their members. They are best used for subjects that are sensitive, confidential, or limited to a small group of team members.
 
 Private groups can be joined by invitation only. You can decide who can invite others to a private group by changing the permissions. By default, only administrators, room owners, and moderators can invite others to private rooms.
 
 ### Direct Messages
 
-Direct messages (DMs) are useful for private, 1-on-1 conversation between team members. These conversations are visible only to you and the person you DM with.
+Direct messages (DMs) are private, 1-on-1 conversation between team members. These conversations are visible only to you and the person you DM with.
 
 ## Channel operations
 
@@ -33,9 +33,22 @@ Direct messages (DMs) are useful for private, 1-on-1 conversation between team m
 
 To help you organize and prioritize things, we recommend you add your favorite channels, Private Groups, and DMs using the star icon in the upper left hand corner of the message area, next to the room name. Starring helps you to avoid noise and to focus on what's important to you.
 
-### Joining, leaving, hiding
+### Joining channels
 
+Find existing channels by clicking on the `More channels...` button on the left-hand pane. Then click on a channel to preview its contents. If you want to join it, click on the `JOIN` button.
 
+### Hiding and leaving channels
+
+There are two notions of leaving a channel:
+
+1. To **hide** a channel is to remain a member of the channel but to remove it from your list of channels on the left-hand pane. 
+1. To **leave** a channel is to hide it _and to leave the channel_ (i.e., no longer be a member of the channel).
+
+Note that every channel has an **owner**, and the owner of a channel cannot leave a channel until setting someone else as the owner of that channel. A user interface for making someone else the owner of a channel is [in progress](https://github.com/RocketChat/Rocket.Chat/issues/3365).
+
+To **leave** a channel, you can enter the command `/part` or `/leave` in the message window. Alternatively, hover your mouse over the channel in the list of channels on the left-hand side and click on the button with the right-pointing arrow. 
+
+To **hide** a channel, over your mouse over the channel in the list of channels on the left-hand side and click on the button with a diagonal line over an eyeball.
 
 ## Messaging
 
