@@ -8,6 +8,8 @@ Conversations in Rocket.Chat are organized into __channels__. Channels are essen
 
 There are three kinds of channels: [public channels](Public-channels), [private groups](Private-groups), and [direct (1-on-1) messages](Direct-messages).
 
+<img src="images/public-private-channels.png" alt="Example of public channel and private group" width="200"/>
+
 
 ### Public channels
 
@@ -52,9 +54,9 @@ To **hide** a channel, hover your mouse over the channel in the list of channels
 
 ## Messaging
 
-Sending messages in Rocket.Chat is self-explanatory: type a message in the message box and press Enter or the Send Button.
+Sending messages in Rocket.Chat is self-explanatory: type a message in the message box and press &#x23ce; (Enter) or the Send Button (<img src="images/send-icon.png" alt="Send icon" width="20"/>).
 
-If you want to send multiple lines of text, press &#x21E7; &#x23ce; (`shift + enter`) to move to the next line.
+If you want to send multiple lines of text, press &#x21E7; &#x23ce; (shift + enter) to move to the next line.
 
 ### Notify other team members
 
