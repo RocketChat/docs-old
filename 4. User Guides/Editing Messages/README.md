@@ -20,13 +20,13 @@ To edit a message, click on the gear icon next to the message, and then click on
 
 The administrator of a Rocket.Chat team sets the permissions for who can edit messages. (See `edit-message` in the list of permissions.) By default, only administrators, moderators, and admins can edit messages.
 
-### Switching messages at the beginning and end of messages
+### Switching messages
 
-If the cursor is at the **beginning** of a message, hitting the <kbd>Up Arrow</kbd> switches to editing the **previous** message.
+If the cursor is at the **beginning** of a message, hitting the <kbd>Up Arrow</kbd> switches to editing the **previous** message that you wrote:
 
 ![keyup](https://cloud.githubusercontent.com/assets/4238626/14960973/1701d506-10a0-11e6-880d-0b4cb95f907f.gif)
 
-Similarly, if the cursor is at the **end** of a message, hitting the <kdb>Down Arrow</kdb> arrow switches to editing the **next** message.
+Similarly, if the cursor is at the **end** of a message, hitting the <kbd>Down Arrow</kbd> switches to editing the **next** message that you wrote.
 
 ### Drafts
 
@@ -39,3 +39,5 @@ Rocket.Chat saves a draft of your edits to messages. That way, you can return to
 Editing the message so that it has no content is interpreted as deleting the message: 
 
 ![delete](https://cloud.githubusercontent.com/assets/4238626/14960977/1706e71c-10a0-11e6-8d44-48bf20f79ae4.gif)
+
+(You can also delete a message by clicking on the gear icon next to the message and clicking on the trash icon.)
