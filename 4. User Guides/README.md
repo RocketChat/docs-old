@@ -111,10 +111,12 @@ To remove an emoji reaction, click on the emoji below the message. To reiterate 
 
 ## Learn more
 
-- [Setup desktop and push notifications](Notifications)
+- [Keyboard shortcuts](Keyboard-Shortcuts/)
+- [Pin messages](Pinning%20Messages/)
+- [Star messages](Starring%20Messages/)
+- [Setup desktop and push notifications](Notifications/)
 - [Upload files](File%20Uploads/)
 - [Chat off the record](Off-The-Record/)
-- [Pin messages](Pinning%20Messages/)
 - [Remote video monitoring](Remote%20Video%20Monitoring/)
 - [Screenshare](Screensharing/)
 - [Star Messages](Starring%20Messages/)
