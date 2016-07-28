@@ -3,10 +3,9 @@
 
 * [Learn how to use Rocket.Chat](https://rocket.chat/docs/user-guides)
 * [Get support](https://rocket.chat/docs/getting-support)
-* [Contribute to the project](https://rocket.chat/docs/contributing/)
 * [Install Rocket.Chat](https://rocket.chat/docs/installation)
-* [Adminstrate your installation](https://rocket.chat/docs/administrator-guides)
-* [Join in its development](https://rocket.chat/docs/developer-guides)
+* [Adminster your installation](https://rocket.chat/docs/administrator-guides)
+* [Join in Rocket.Chat's development](https://rocket.chat/docs/developer-guides) and [contribute to the project in a number of ways](https://rocket.chat/docs/contributing/)
 
 ![image](mockup.png)
 
