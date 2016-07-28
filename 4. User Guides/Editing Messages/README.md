@@ -5,28 +5,28 @@ Rocket.Chat provides several features for composing messages and for editing the
 ## Composing messages 
 
 ### Cursor movement while composing a message
-As you compose a message, you can move the cursor using the arrow keys. When you hit the <kbd>UP</kbd> or <kbd>DOWN</kbd> arrows, the cursor moves to the location determined by the wrapping of the text:
+As you compose a message, you can move the cursor using the arrow keys. When you hit the <kbd>Up Arrow</kbd> or <kbd>Down Arrow</kbd> keys, the cursor moves to the location determined by the wrapping of the text:
 
 ![wrap](https://cloud.githubusercontent.com/assets/4238626/14960976/17064ab4-10a0-11e6-9ee9-efe9239004a3.gif)
 
-### <kbd>ALT</kbd>+<kbd>UP</kdb>/<kbd>DOWN</kdb>/<kbd>LEFT</kdb>/<kbd>RIGHT</kdb> to travel whole messages
-Holding <kbd>Alt</kbd> while hitting an arrow key moves to the beginning or end of the message: 
+### Move the cursor to the beginning or end of a message
+Holding <kbd>Alt</kbd> or <kbd>Command</kbd> while hitting an arrow key moves to the beginning or end of the message: 
 
 ![alt_up_down](https://cloud.githubusercontent.com/assets/4238626/14960972/17009c90-10a0-11e6-9450-d69257310e24.gif)
 
 ## Editing messages 
 
-To edit a message, click on the gear icon next to the message, and then click on the pencil icon. Alternatively, in the message input box, hit the <kbd>UP</kbd> arrow. 
+To edit a message, click on the gear icon next to the message, and then click on the pencil icon. Alternatively, in the message input box, hit the <kbd>Up Arrow</kbd>. 
 
 The administrator of a Rocket.Chat team sets the permissions for who can edit messages. (See `edit-message` in the list of permissions.) By default, only administrators, moderators, and admins can edit messages.
 
 ### Switching messages at the beginning and end of messages
 
-If the cursor is at the **beginning** of a message, hitting the <kbd>UP</kbd> arrow switches to editing the **previous** message.
+If the cursor is at the **beginning** of a message, hitting the <kbd>Up Arrow</kbd> switches to editing the **previous** message.
 
 ![keyup](https://cloud.githubusercontent.com/assets/4238626/14960973/1701d506-10a0-11e6-880d-0b4cb95f907f.gif)
 
-Similarly, if the cursor is at the **end** of a message, hitting the <kdb>DOWN</kdb> arrow switches to editing the **next** message.
+Similarly, if the cursor is at the **end** of a message, hitting the <kdb>Down Arrow</kdb> arrow switches to editing the **next** message.
 
 ### Drafts
 
