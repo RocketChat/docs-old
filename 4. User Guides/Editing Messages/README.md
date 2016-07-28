@@ -28,7 +28,7 @@ If the cursor is at the **beginning** of a message, hitting the <kbd>Up Arrow</k
 
 Similarly, if the cursor is at the **end** of a message, hitting the <kbd>Down Arrow</kbd> switches to editing the **next** message that you wrote.
 
-### Drafts
+### Drafts of edits
 
 Rocket.Chat saves a draft of your edits to messages. That way, you can return to the draft of an edit after switching to another message and back. Hitting <kbd>ESCAPE</kbd> discards a draft of an edit.
 
