@@ -12,7 +12,7 @@
 
 5. install a docker image for rocketchat and connect it to mongodb. `ROOT:URL` should be substituted your own:
 
-   `sudo docker run --name rocketchat -p 80:80 --env ROOT_URL=https://www.test.com --env MONGO_URL=mongodb://db/meteor --link db -d rocketchat/rocket.chat`
+   `sudo docker run --name rocketchat -p 80:3000 --env ROOT_URL=https://www.test.com --env MONGO_URL=mongodb://db/meteor --link db -d rocketchat/rocket.chat`
 
    You are now runing rocket chat on compute engine. You can open a browser with the external IP of the instance.
 
@@ -22,7 +22,7 @@ If you want the containers to start each time the instance reboots configure the
 * Under "Custom metadata" add an item with
 ```
 key: "startup-script"
-value "sudo docker start db
+value "sudo docker start db;
 sudo docker start rocketchat"
 ```
 
