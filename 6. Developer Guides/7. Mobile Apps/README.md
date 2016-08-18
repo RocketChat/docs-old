@@ -3,26 +3,12 @@
 ## Android 
 
 ### Background
-If you've downloaded our android app on Google Play, you noticed it only connects to [our demo server](http://demo.rocket.chat).
 
-In this document we explain how to build your own version that can connect to your own server.
+If you've downloaded our android app on Google Play, you noticed it connects to any server Rocket.Chat server.
 
+In this document we explain how to build your own version that can be restricted to connect to your own server only and have your own branding.
 
-#### Benefits
-
-This is NOT the official way to build Android client for Rocket.Chat. See [official android build](https://github.com/RocketChat/Rocket.Chat/wiki/How-to-Build-Rocket.Chat-for-Android). However, it does have the following benefits:
-
-* you can connect the app to your own server(s)
-* the app is compatible, today, with Android version as old as 4.0 - allowing [over 95% of all Android devices in circulation](https://developer.android.com/about/dashboards/index.html)  to run Rocket.Chat
-
-#### Caveats
-
-There are also disadvantages:
-
-* you MUST side-load the resulting app to your device (not through Google Play)
-* push notification is not supported
-* performance may not be up-to-par with the app store version - due to lack of initial local cache
-* oauth via Facebook, Twitter, Github, and so on does not currently work because an external browser session is triggered (this will likely be fixed soon)
+> This is NOT the Meteor official way to build Android client for Rocket.Chat. 
 
 #### Download and Run
 
