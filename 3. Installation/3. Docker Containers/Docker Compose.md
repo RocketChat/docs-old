@@ -1,6 +1,6 @@
 # Docker Compose
 
-Instead of using the standard Docker commands, you may wish for a bit more automated management of the deployment. This is where the use of Docker-compose may come in handy. Note: as stated by Docker, docker-compose is [not yet recommended for production use](https://docs.docker.com/compose/production/) at this time.
+Instead of using the standard Docker commands, you may wish for a bit more automated management of the deployment. This is where the use of Docker-compose may come in handy. Note: as stated by Docker, docker-compose is [ready for production use](https://docs.docker.com/compose/production/) .
 
 * Make sure you have [Docker](https://docs.docker.com/engine/installation/) and [Docker-compose](https://docs.docker.com/compose/install/) installed and operational.
 * Create `docker-compose.yml` based on [our example](https://raw.githubusercontent.com/RocketChat/Rocket.Chat/develop/docker-compose.yml).  This is the ONLY file you will need.  You can create this file on your own machine by copy and pasting the content.
