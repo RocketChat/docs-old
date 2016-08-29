@@ -125,7 +125,7 @@ If you're running Ansible 1.9.4, paste the following into your `requirements.yml
 If you're running Ansible 2.0, paste the following into your `requirements.yml`:
 ``` yaml
   - src: RocketChat.Server
-    version: v2.0
+    version: v2.2.2
 ```
 
 Next, let's fetch the Rocket.Chat Ansible role using the `ansible-galaxy` command:
