@@ -6,10 +6,6 @@ Recently, the demand for production-grade Livechat has increased, and we started
 
 This document is instructions on setting up the new Livechat  _work-in-progress_ version.
 
-**_IMPORTANT Warning: this new Livechat package is still under heavy development, it's not recommended for production._**
-
-**Livechat package is only on develop builds at the moment**
-
 # Introduction
 
 Livechat package adds the ability to embed a pop-up support chat to your website.
