@@ -1,14 +1,10 @@
 # Livechat
 
-Rocket.Chat had Livechat integration as a feature for a long time.
+Rocket.Chat had minimal Livechat as a feature for a long time.
 
 Recently, the demand for production-grade Livechat has increased, and we started a completely rewrite of the package.
 
 This document is instructions on setting up the new Livechat  _work-in-progress_ version.
-
-**_IMPORTANT Warning: this new Livechat package is still under heavy development, it's not recommended for production._**
-
-**Livechat package is only on develop builds at the moment**
 
 # Introduction
 
