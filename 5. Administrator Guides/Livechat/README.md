@@ -1,6 +1,6 @@
 # Livechat
 
-Rocket.Chat had Livechat integration as a feature for a long time.
+Rocket.Chat had minimal Livechat as a feature for a long time.
 
 Recently, the demand for production-grade Livechat has increased, and we started a completely rewrite of the package.
 
