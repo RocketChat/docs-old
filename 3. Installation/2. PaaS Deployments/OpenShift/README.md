@@ -1,4 +1,4 @@
-# Deployinng Rocket.Chat on OpenShift
+# Deploying Rocket.Chat on OpenShift
 
 This guide covers how to host Rocket.Chat on OpenShift Online Next Gen.
 
@@ -22,7 +22,7 @@ OpenShift Online Next Gen is shown below:
 ```bash
 # oc login https://api.preview.openshift.com --token=<api_token>
 ```
-You can findthe API Token to login to OpenShift Online Next Gen in the about page of the Web console.
+You can find the API Token to login to OpenShift Online Next Gen in the about page of the Web console.
 ### 2. Create a project
 After login to OpenShift Online Next Gen, we need to create a project to host our Rocket.Chat application:
 ```bash
