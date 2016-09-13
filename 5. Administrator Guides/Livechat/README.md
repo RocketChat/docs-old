@@ -134,4 +134,4 @@ Here is an example of the JSON data sent on a livechat offline message:
 
 The field **Secret Token** is sent to a header `X-RocketChat-Livechat-Token` so you can validate if the request became from the livechat.
 
-If your endpoint returns a response status other than 200, Rocket.Chat will retry 10 times waiting 10 secondes between retries.
+If your endpoint returns a response status other than 200, Rocket.Chat will retry 10 times waiting 10 seconds between retries.
