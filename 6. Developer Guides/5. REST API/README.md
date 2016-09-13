@@ -104,7 +104,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 ## Get list of public rooms
 ```json
-curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJFV47U3QHXSq" \
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      http://localhost:3000/api/publicRooms
 
@@ -123,7 +123,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJFV47U3QHXSq" \
 ```
 ## Join a room
 ```json
-curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9m5mu2dWOQ5v" \
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      http://localhost:3000/api/rooms/x4pRahjs5oYcTYu7i/join \
      -d "{}"
@@ -134,7 +134,7 @@ curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9m5mu2dWOQ5v" \
 ```
 ## Leave a room
 ```json
-curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9m5mu2dWOQ5v" \
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      http://localhost:3000/api/rooms/x4pRahjs5oYcTYu7i/leave \
      -d "{}"
@@ -146,7 +146,7 @@ curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9m5mu2dWOQ5v" \
 
 ## Get all messages in a room
 ```json
-curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug5mu2dWOQ5v" \
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
    http://localhost:3000/api/rooms/x4pRahjs5oYcTYu7i/messages
 
@@ -164,7 +164,7 @@ curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug5mu2dWOQ5v" \
 ```
 ## Sending a message
 ```json
-curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9mR5mu2dWOQ5v" \
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "Content-Type: application/json" \
      -X POST \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -178,12 +178,34 @@ curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9mR5mu2dWOQ5v" \
 
 ## Create a channel
 ```json
-curl -H "X-Auth-Token: S5u0ZNNbc5W6Qqug90JdWRT2sxEWgz9mR5mu2dWOQ5v" \
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      http://localhost:3000/api/v1/channels.create \
      -d "name=channelname"
 
 {"channel":{"_id":"ByehQjC44FwMeiLbX","name":"channelname","t":"c","usernames":["username"],"msgs":0,"u":{"_id":"aobEdbYhXfu5hkeqG","username":"username"},"ts":"2016-05-30T13:42:25.304Z"},"success":true}
+```
+
+## Create an user
+```json
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
+     -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+     -H "Content-type:application/json" \
+     http://localhost:3000/api/v1/users.create \
+     -d '{"name": "name", "email": "email@user.tld", "password": "anypassyouwant", "username": "uniqueusername", "customFields": { "twitter":"userstwitter" } }'
+
+{"user":{"_id":"BsNr28znDkG8aeo7W","createdAt":"2016-09-13T14:57:56.037Z","services":{"password":{"bcrypt":"$2a$10$5I5nUzqNEs8jKhi7BFS55uFYRf5TE4ErSUH8HymMNAbpMAvsOcl2C"}},"username":"uniqueusername","emails":[{"address":"email@user.tld","verified":false}],"type":"user","status":"offline","active":true,"roles":["user"],"_updatedAt":"2016-09-13T14:57:56.175Z","name":"name","customFields":{"twitter":"userstwitter"}},"success":true}
+```
+
+## Update an user
+```json
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
+     -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+     -H "Content-type:application/json" \
+     http://localhost:3000/api/v1/user.update \
+     -d '{"userId": "", "data": { "name": "new name", "email": "newemail@user.tld" }'
+
+{"user":{"_id":"BsNr28znDkG8aeo7W","createdAt":"2016-09-13T14:57:56.037Z","services":{"password":{"bcrypt":"$2a$10$5I5nUzqNEs8jKhi7BFS55uFYRf5TE4ErSUH8HymMNAbpMAvsOcl2C"}},"username":"uniqueusername","emails":[{"address":"newemail@user.tld","verified":false}],"type":"user","status":"offline","active":true,"roles":["user"],"_updatedAt":"2016-09-13T14:57:56.175Z","name":"new name","customFields":{"twitter":"userstwitter"}},"success":true}
 ```
 
 Rocket.Chat's real-time messaging API is a thin semantics layer on top of [Meteor's DDP](https://www.meteor.com/ddp).   To access Rocket.Chat's internal message streaming firehose directly from an external client application:
