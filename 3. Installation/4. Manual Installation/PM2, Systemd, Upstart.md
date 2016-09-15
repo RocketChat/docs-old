@@ -7,24 +7,38 @@
 
 Deploy [Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) to Linux that run on systemd (RedHat, Centos, Ubuntu, CoreOS and so on).
 
-### Prerequisite
-
-You need to have [docker](https://docs.docker.com/linux/started/) and [docker-compose](http://docs.docker.com/compose/) installed.
-
 ### How to run Rocket.Chat on systemd.
 
+First we need to create the unit file.
+
+`vi /etc/systemd/system/rocketchat.service`
+
+With the contents:
+
 ```
-git clone https://github.com/RocketChat/DockerFiles.git
-cd systemd
-cp ./*@* /etc/systemd/system && systemctl daemon-reload
-mkdir -p /data/domains/
-cd ..
-cp GenericLinux /data/domains/example.org
-vi /data/domains/example.org/docker-compose.yml # modify `ROOT_URL` and `MAIL_URL`
-systemctl enable universal@example.org
-systemctl start universal@example.org
+[Unit]
+Description=RocketChat Server
+
+[Service]
+ExecStart=/usr/local/bin/node /var/www/rocketchat/main.js    # Specify the location of node and location of main.js
+Restart=always
+RestartSec=10                                                # Restart service after 10 seconds if node service crashes
+StandardOutput=syslog                                        # Output to syslog
+StandardError=syslog                                         # Output to syslog
+SyslogIdentifier=nodejs-example
+#User=<alternate user>
+#Group=<alternate group>
+Environment=NODE_ENV=production PORT=3000 ROOT_URL=https://rocketchat.domain.com MONGO_URL=mongodb://localhost:27017/rocketchat
+
+[Install]
+WantedBy=multi-user.target
 ```
-Resource Repository: [Link to examples](https://github.com/RocketChat/Deploy.to.Cloud/tree/master/systemd)  
+
+Then you need to enable the service `systemctl enable rocketchat.service`
+
+To start the service `systemctl start rocketchat.service`
+
+To verify it is running `systemctl status rocketchat.service`
   
 ### Backup
 
