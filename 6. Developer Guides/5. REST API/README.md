@@ -186,7 +186,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 {"channel":{"_id":"ByehQjC44FwMeiLbX","name":"channelname","t":"c","usernames":["username"],"msgs":0,"u":{"_id":"aobEdbYhXfu5hkeqG","username":"username"},"ts":"2016-05-30T13:42:25.304Z"},"success":true}
 ```
 
-## Create an user
+## Create a user
 ```json
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -197,7 +197,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 {"user":{"_id":"BsNr28znDkG8aeo7W","createdAt":"2016-09-13T14:57:56.037Z","services":{"password":{"bcrypt":"$2a$10$5I5nUzqNEs8jKhi7BFS55uFYRf5TE4ErSUH8HymMNAbpMAvsOcl2C"}},"username":"uniqueusername","emails":[{"address":"email@user.tld","verified":false}],"type":"user","status":"offline","active":true,"roles":["user"],"_updatedAt":"2016-09-13T14:57:56.175Z","name":"name","customFields":{"twitter":"userstwitter"}},"success":true}
 ```
 
-## Update an user
+## Update a user
 ```json
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
