@@ -9,4 +9,4 @@
 | <kbd>Command</kbd> (or <kbd>Alt</kbd>) + <kbd>Up Arrow</kbd> | Move to the beginning of the message |
 | <kbd>Command</kbd> (or <kbd>Alt</kbd>) + <kbd>Right Arrow</kbd> | Move to the end of the message |
 | <kbd>Command</kbd> (or <kbd>Alt</kbd>) + <kbd>Down Arrow</kbd> | Move to the end of the message |
-| <kbd>Shift</kbd> + <kbd>Enter </kbd>| New line in message compose input|
+| <kbd>Shift</kbd> + <kbd>Enter</kbd>| New line in message compose input|
