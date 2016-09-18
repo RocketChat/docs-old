@@ -1,10 +1,10 @@
 # Upgrading from 0.x.x to 0.40.0
 
-With the release of Rocket.Chat 0.40.0 we are moving from requiring Node.js v0.10.44 to Node.js v4.5LTS
+With the release of Rocket.Chat 0.40.0 we are moving from requiring Node.js v0.10.44 to Node.js v4.5 LTS
 
 If you used docker or one of our cloud installation methods.  Nothing to do, carry on!
 
-## Upgrade proceedure
+## Upgrade procedure
 
 First stop Rocket.Chat
 

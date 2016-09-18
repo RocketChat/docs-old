@@ -1,5 +1,7 @@
 # Deploying Rocket.Chat on Ubuntu
 
+> If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](/3.%20Installation/7.%20Updating/1.%20From%200.x.x%20to%200.40.0)
+
 This guide explains how to deploy your own Rocket.Chat instance to a Ubuntu Linux machine using the command line.
 
 ## Dependencies

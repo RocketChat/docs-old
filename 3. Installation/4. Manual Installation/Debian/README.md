@@ -1,5 +1,7 @@
 # Deploying Rocket.Chat on Debian
 
+> If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](/3.%20Installation/7.%20Updating/1.%20From%200.x.x%20to%200.40.0)
+
 This guide explains how to deploy your own Rocket.Chat instance to a Debian Wheezy or Jessie Linux machine using the command line.
 
 ## 1. Install Dependencies
