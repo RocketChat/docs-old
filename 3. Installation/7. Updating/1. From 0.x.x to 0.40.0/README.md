@@ -6,8 +6,6 @@ If you used docker or one of our cloud installation methods.  Nothing to do, car
 
 ## Upgrade proceedure
 
-
-
 First stop Rocket.Chat
 
 The guides suggest the usage of `n` to manage Node.js version.  Assuming that is what you used run:
@@ -16,5 +14,7 @@ The guides suggest the usage of `n` to manage Node.js version.  Assuming that is
 sudo n install 4.5
 ```
 
-[Ubuntu upgrade step](/3.%20Installation/4.%20Manual%20Installation/Ubuntu#update)
-[CentOS upgrade step](/3.%20Installation/4.%20Manual%20Installation/CentOS#update)
+Then follow the upgrade steps of your chosen method like normal:
+
+* [Ubuntu](/3.%20Installation/4.%20Manual%20Installation/Ubuntu#update)
+* [CentOS](/3.%20Installation/4.%20Manual%20Installation/CentOS#update)
