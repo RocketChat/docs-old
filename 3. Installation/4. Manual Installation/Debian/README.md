@@ -38,14 +38,11 @@ sudo apt-get install build-essential
 # for more please view the link below.
 
 
-
-
-
 # Install a tool to let us change the node version.
 sudo npm install -g n
 
-# Meteor needs at least this version of node to work.
-sudo n 0.10.40
+# Rocket.Chat needs version 4.5 of Node.js to work.
+sudo n 4.5
 ```
 
 More on [nodejs installation](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server)

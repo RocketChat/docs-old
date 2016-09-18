@@ -48,11 +48,13 @@ Now that we have Node.js and npm installed, we need to install a few more depend
 npm install -g inherits n
 ```
 
-Meteor needs Node.js version `0.10.40` using n we are going to install that version:
+Rocket.Chat needs Node.js version `4.5` using n we are going to install that version:
 
 ```
-n 0.10.40
+n 4.5
 ```
+
+### Installing Rocket.Chat
 
 Now we download and install Rocket.Chat
 
@@ -83,6 +85,8 @@ Replace 3000, with the port of your choosing.
 If you choose to use port 80 you will need to run Rocket.Chat as root.
 
 If you don't have DNS configured use your IP in place of the hostname.  You can change it later in the admin menu.
+
+### Mongo
 
 Now we need to start mongo:
 
@@ -174,3 +178,13 @@ And finally start it by running:
 ```
 systemctl start rocketchat.service
 ```
+
+### Upgrade
+
+Upgrading is much the same as installing Rocket.Chat
+
+1. Goto the installation folder in this case: `cd /root/`
+2. Remove or move the `Rocket.Chat` folder.
+3. Follow the [installation section](#installing-rocket-chat)
+
+

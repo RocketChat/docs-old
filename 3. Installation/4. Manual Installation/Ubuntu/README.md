@@ -44,10 +44,10 @@ Install a tool to let us change the node version.
 sudo npm install -g n
 ```
 
-Meteor needs at least this version of node to work.
+Rocket.Chat needs Node.js version 4.5
 
 ```bash
-sudo n 0.10.43
+sudo n 4.5
 ```
 
 More on [nodejs installation](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server)

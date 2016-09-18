@@ -71,29 +71,9 @@ Then, download and install each of the following **in order**:
 
 ### Node.js
 
-Rocket.Chat is built on top of Node.js v0.10.44. Since this is an older version of Node, you may choose one of two options depending on your needs and environment:
+Rocket.Chat is built on top of Node.js v4.5. So we need to install this first.
 
-1. Install a Node versioning tool instead, such as Nodist
-2. Install Node directly
-
-#### Option 1 - Installing Nodist
-
-1. Uninstall any currently installed versions of Node.js
-2. Download and install the latest release of Nodist from [here](https://github.com/marcelklehr/nodist/releases)
-3. Open the Command Prompt by pressing `Windows Key + R` and then entering `cmd`
-4. Now enter the following, replacing [Installation Path] with the location you placed the Rocket.Chat files
-
-  ```
-  > cd [Installation Path]
-  > nodist local 0.10.44
-  ```
-  _Note: Do not include the `>`_
-
-5. If other Node applications were previously installed, repeat Step 4 with the path and version for each
-
-#### Option 2 - Installing Node
-
-1. Download [Node.js v0.10.44](https://nodejs.org/download/release/v0.10.44/node-v0.10.44-x86.msi)
+1. Download [Node.js v4.5](https://nodejs.org/dist/v4.5.0/node-v4.5.0-x86.msi)
 2. Run the installer with all default option.
 
 ### Node Packages
