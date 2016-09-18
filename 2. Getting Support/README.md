@@ -27,25 +27,25 @@ A sample output of the version information:
 
 ```
 {
-  "version": "0.8.0",
-  "compile": {
-    "date": "2015-12-11T23:57:49.792Z",
-    "nodeVersion": "v0.10.40",
-    "arch": "x64",
-    "platform": "linux",
-    "osRelease": "3.13.0-52-generic",
-    "totalMemmory": 8373084160,
-    "freeMemmory": 241037312,
-    "cpus": 4
-  },
-  "commit": {
-    "hash": "b023db6f9321194dcb3db5128b62abbc3bafdc2f",
-    "date": "Fri Dec 11 21:52:55 2015 -0200",
-    "author": "Gabriel Engel",
-    "subject": "Merge pull request #1627 from jgerle/develop"
-  },
-  "tag": "v0.8.0",
-  "branch": "develop"
+    version: "0.39.0",
+    build: {
+        date: "2016-09-16T22:44:25.095Z",
+        nodeVersion: "v4.5.0",
+        arch: "x64",
+        platform: "linux",
+        osRelease: "3.13.0-52-generic",
+        totalMemory: 8373084160,
+        freeMemory: 129458176,
+        cpus: 4
+    },
+    commit: {
+        hash: "5b5800849b7d6fc0c17d884b2963ae756faac4d7",
+        date: "Fri Sep 16 19:33:17 2016 -0300",
+        author: "Gabriel Engel",
+        subject: "Merge branch 'develop' into improvements/more-streams",
+        tag: "0.39.0",
+        branch: "improvements/more-streams"
+    }
 }
 ```
 
