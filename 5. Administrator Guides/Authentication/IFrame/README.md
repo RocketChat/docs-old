@@ -22,7 +22,7 @@ The URL that Rocket.Chat will call to verify if user is logged-in
 * If user is logged-in, should respond with the session token, example:
 ```json
 {
-  "token":"NBRLVpbBBSzpS5OSsGybSzyobY63QiRObY6krybX5UQ"
+  "token":"your-generated-token"
 }
 ```
 To do that you should directly access the Rocket.Chat MongoDB database (using a MongoDB library or driver with the programming language that you have created your login page with) and find/create the user record under the collection `users` set the `services.iframe.token` and return via your API.
@@ -34,7 +34,7 @@ Example of a user record:
   "createdAt": new Date(1432252673528),
   "services": {
     "iframe": {
-      "token": "ckSN56nveI1mTzdJl+mNJBRmY8codinD+8If1cB0mQ4="
+      "token": "your-generated-token"
     }
   },
   "emails": [
