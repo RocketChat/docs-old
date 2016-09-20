@@ -1,5 +1,7 @@
 # Deploying Rocket.Chat on Ubuntu
 
+> If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](/3.%20Installation/7.%20Updating/1.%20From%200.x.x%20to%200.40.0)
+
 This guide explains how to deploy your own Rocket.Chat instance to a Ubuntu Linux machine using the command line.
 
 ## Dependencies
@@ -44,10 +46,10 @@ Install a tool to let us change the node version.
 sudo npm install -g n
 ```
 
-Meteor needs at least this version of node to work.
+Rocket.Chat needs Node.js version 4.5
 
 ```bash
-sudo n 0.10.43
+sudo n 4.5
 ```
 
 More on [nodejs installation](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server)

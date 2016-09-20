@@ -2,10 +2,10 @@
 
 Actual requirement varies greatly with:
 
-* number of concurrently active users
-* number of actual connected devices per user
-* activities of the users - solely text based messaging takes minimal resources; while file sharing and jpg uploads will consume more resources
-* bot or integration activity level; different bot and/or integrations have different requirements
+* Number of concurrently active users
+* Number of actual connected devices per user
+* Activities of the users - solely text based messaging takes minimal resources; while file sharing and jpg uploads will consume more resources
+* Bot or integration activity level; different bot and/or integrations have different requirements
 
 The following are sized for the minimal cost deployment unit available for bare-metal server and cloud VPS.
 
