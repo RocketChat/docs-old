@@ -13,10 +13,10 @@ This guide explains how to deploy your own Rocket.Chat instance to a Debian Whee
 
 ```shell
 # SYSTEM CONFIGURATION
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
 # Here use wheezy even if you are installing it on Jessie. 
-# since Jessie repository of Mongodb does NOT includes mongodb 3.0
-echo "deb http://repo.mongodb.org/apt/debian wheezy/mongodb-org/3.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
+# since Jessie repository of Mongodb does NOT includes mongodb 3.2
+echo "deb http://repo.mongodb.org/apt/debian wheezy/mongodb-org/3.2 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
 sudo apt-get update
 sudo apt-get install -y mongodb-org curl graphicsmagick
 
