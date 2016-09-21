@@ -22,10 +22,18 @@ The URL that Rocket.Chat will call to verify if user is logged-in
 * If user is logged-in, should respond with the session token, example:
 ```json
 {
-  "token":"your-generated-token"
+	"token":"your-generated-token"
 }
 ```
 To do that you should directly access the Rocket.Chat MongoDB database (using a MongoDB library or driver with the programming language that you have created your login page with) and find/create the user record under the collection `users` set the `services.iframe.token` and return via your API.
+* Or you can respond with native account token using **loginToken**:
+```json
+{
+	"loginToken":"your-auth-token"
+}
+```
+To do that you can use the [Rocket.Chat auth API](https://rocket.chat/docs/developer-guides/rest-api/#logon) and use the returned **authToken** as your loginToken.
+
 
 Example of a user record:
 ```javascript
@@ -75,6 +83,13 @@ Or you can call the login directly if you already have the token:
 window.parent.postMessage({
   event: 'login-with-token',
   token: 'your-token'
+});
+```
+or passing the **loginToken** (the native login token from meteor, you can generate one using any login method, including via [REST API](https://rocket.chat/docs/developer-guides/rest-api/#logon))
+```javascript
+window.parent.postMessage({
+  event: 'login-with-token',
+  loginToken: 'your-token'
 });
 ```
 
