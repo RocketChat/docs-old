@@ -114,12 +114,12 @@ After a few seconds, you should see your prompt turn into `001-rs:PRIMARY> `, th
 After you configured replica set, you **MUST** add the following environment variable before restarting Rocket.Chat server for it to take effect:
 
 ```
-MONGO_OPLOG_URL=mongodb://localhost:27017/local
+MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=001-rs
 ```
 You may also consider (alternatively) including this value in your ~/.bashrc file:
 
 ```
-export MONGO_OPLOG_URL=mongodb://localhost:27017/local
+export MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=001-rs
 ```
 
 ## Install
@@ -151,6 +151,11 @@ export MONGO_URL=mongodb://localhost:27017/rocketchat
 export PORT=3000
 
 node main.js
+```
+
+If you used the replica set, you **MUST** use following line to indicate the usage of the replica set.
+```
+export MONGO_URL=mongodb://localhost:27017/rocketchat?replicaSet=001-rs
 ```
 
 You **MUST** set the `ROOT_URL` environment variable to the Internet accessible URL to your server.
