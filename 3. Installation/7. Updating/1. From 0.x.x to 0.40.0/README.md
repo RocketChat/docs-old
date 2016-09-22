@@ -11,7 +11,7 @@ First stop Rocket.Chat
 The guides suggest the usage of `n` to manage Node.js version.  Assuming that is what you used run:
 
 ```
-sudo n install 4.5
+sudo n 4.5
 ```
 
 Then follow the upgrade steps of your chosen method like normal:
