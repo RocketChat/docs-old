@@ -4,7 +4,7 @@
 
 The following was tested with Vultr and Digital Ocean.  Should work on Linode too.
 
-Add the epel repository, update everything and reboot.
+Add the epel repository and update everything.
 
 ```
 yum -y install epel-release nano && yum -y update
