@@ -1,11 +1,7 @@
-# IFrame
-
-To configure IFrame authentication, go to /admin/Accounts and expand the IFrame section.
-
-### What is IFrame auth?
+## What is IFrame auth?
 With IFrame auth you can use your own auth page and do the comunication with Rocket.Chat to manage users.
 
-### How to login in Rocket.Chat with default account system while in development
+## How to login in Rocket.Chat with default account system while in development
 When you active the IFrame option you will not be able to access the default login page, maybe you will need to login with your normal account to manage the settings.
 You can do that openeing the Browser's Developer Console and executing this code:
 
@@ -13,11 +9,11 @@ You can do that openeing the Browser's Developer Console and executing this code
 Meteor.loginWithPassword('username-or-email', 'your-password');
 ```
 
-### Configuring
-#### IFrame URL
+## Configuring
+### IFrame URL
 The URL of the page you whant to show as the login page of your Rocket.Chat instance  (this page can be created in any programming language and/or web frameworks).
 
-#### API URL
+### API URL
 The URL that Rocket.Chat will call to verify if user is logged-in
 * If user is logged-in, should respond with the session token, example:
 ```json
@@ -64,11 +60,11 @@ Example of a user record:
 
 * If user is not logged-in, should respond with status code 401
 
-#### API Method
+### API Method
 How Rocket.Chat will call your API, `GET` or `POST`
 
 
-### Integrating your login page
+## Integrating your login page
 Rocket.Chat and your login page will comunicate via `postMessage`.
 
 After user login, you should tell to Rocket.Chat to try the auth again calling your API to get the token:
@@ -130,7 +126,7 @@ Or and error
 }
 ```
 
-##### Google
+#### Google
 ```javascript
 window.parent.postMessage({
   event: 'call-google-login',
@@ -165,7 +161,7 @@ Or and error
 }
 ```
 
-##### Twitter
+#### Twitter
 ```javascript
 window.parent.postMessage({
   event: 'call-twitter-login'
