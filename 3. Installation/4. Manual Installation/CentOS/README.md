@@ -4,16 +4,10 @@
 
 The following was tested with Vultr and Digital Ocean.  Should work on Linode too.
 
-Turn selinux off and restart.
-
-```
-echo "selinux=disabled" > /etc/selinux/config && reboot
-```
-
 Add the epel repository, update everything and reboot.
 
 ```
-yum -y install epel-release nano && yum -y update && reboot
+yum -y install epel-release nano && yum -y update
 ```
 
 Populate the yum repo with the mongodb repository
@@ -61,7 +55,7 @@ n 4.5
 Now we download and install Rocket.Chat
 
 ```
-cd /root
+cd /opt
 
 curl -L https://rocket.chat/releases/latest/download -o rocket.chat.tgz
 tar zxvf rocket.chat.tgz
@@ -90,27 +84,25 @@ If you don't have DNS configured use your IP in place of the hostname.  You can 
 
 ### Mongo
 
+First lets enable Mongodb to start with the host using:
+
+```
+chkconfig mongod on
+```
+
 Now we need to start mongo:
 
 ```
 systemctl start mongod
 ```
 
-or  for CentOs 6.X
+or for CentOs 6.X
 
 ```
 /etc/init.d/mongod start
 ```
 
-```
-chkconfig mongod on
-```
-
-You need to flush iptables but you should customize your own firewall configuration before production.
-
-```
-iptables -F
-```
+### Try install out
 
 Now lets do a quick test and see if everything is working before we continue:
 
@@ -157,7 +149,7 @@ In it write:
   Description=The Rocket.Chat  server
   After=network.target remote-fs.target nss-lookup.target nginx.target mongod.target
   [Service]
-  ExecStart=/usr/local/bin/node /root/Rocket.Chat/main.js
+  ExecStart=/usr/local/bin/node /opt/Rocket.Chat/main.js
   StandardOutput=syslog
   StandardError=syslog
   SyslogIdentifier=rocketchat
@@ -185,7 +177,7 @@ systemctl start rocketchat.service
 
 Upgrading is much the same as installing Rocket.Chat
 
-1. Goto the installation folder in this case: `cd /root/`
+1. Goto the installation folder in this case: `cd /opt/`
 2. Remove or move the `Rocket.Chat` folder.
 3. Follow the [installation section](#installing-rocket-chat)
 
