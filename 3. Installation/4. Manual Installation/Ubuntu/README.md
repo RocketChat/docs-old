@@ -60,7 +60,7 @@ Rocket.Chat uses the [MongoDB replica set](http://docs.mongodb.org/manual/replic
 
 To configure the replica set:
 
-#### For older MongoDB versions (2.4 and bellow)
+#### For older MongoDB versions (2.4 and below)
 
 Append `replSet=001-rs` into `mongod.conf` file:
 
