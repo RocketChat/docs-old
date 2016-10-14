@@ -35,7 +35,7 @@ CTRL-O, CTRL-X
 Now we need to install our dependencies from yum:
 
 ```
-yum install -y nodejs curl GraphicsMagick npm mongodb-org-server mongodb-org
+yum install -y nodejs curl GraphicsMagick npm mongodb-org-server mongodb-org gcc-c++
 ```
 
 Now that we have Node.js and npm installed, we need to install a few more dependencies:
