@@ -3,7 +3,7 @@
 SlackBridge allows you to mirror the messages received in a Slack channel or private group into Rocket.Chat in real-time.
 
 To enable it, you have to create a Custom Bot in Slack and add it to the desired channels / private groups. 
-Once enabled and added to rooms, SlackBridge will clone the room in RocketChat and also clone users that speak in that room.
+Once enabled and added to rooms, SlackBridge will clone the room in Rocket.Chat and also clone users that speak in that room.
 
 ## To create a Custom Bot in Slack:
 1. Go to https://[your_app].slack.com/apps/manage/custom-integrations
@@ -15,7 +15,7 @@ Once enabled and added to rooms, SlackBridge will clone the room in RocketChat a
 7. Customize your bot the way you like it and click on Save Integration
 
 ## To enable SlackBridge in Rocket.Chat:
-1. Go to https://[your_rocketchat]/admin/SlackBridge
+1. Go to https://[your_host]/admin/SlackBridge
 2. Set enabled to True
 3. Fill in your API Token, copied in step 6 above.
 
