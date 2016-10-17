@@ -6,7 +6,7 @@ This is the easiest way for you to get your server up and running on Ubuntu.  In
 
 Snaps are secure.  Rocket.Chat and all of its dependencies are isolated from the rest of your system.  Snaps also auto update when we release a new version.  So no need more hassle updating.
 
-Find out more information about snaps [here](/3.%20Installation/Ubuntu/Snaps)
+Find out more information about snaps [here](/3.%20Installation/4.%20Manual%20Installation/Ubuntu/Snaps)
 
 
 ## Manual install
