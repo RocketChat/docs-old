@@ -122,15 +122,15 @@ Now that you're connected:
 
 * Click "register a new account"
 * Enter the admin's name, email and password twice.  For my instance I entered:
-  * name = Rocketchat Admin
+  * name = Admin
   * email = admin@<my domain>.com
   * password = test1234
 * Click SUBMIT
-* You will be prompted to select a username.  I selected rocketchat.admin.
+* You will be prompted to select a username.  I selected admin.
 * Click USE THIS USERNAME to continue.
-* You should now be logged in as an administrator on your new rocketchat installation.
+* You should now be logged in as an administrator on your new Rocket.Chat installation.
 
-Hit Ctrl + c in your terminal to stop rocket.chat.
+Hit Ctrl + c in your terminal to stop Rocket.Chat.
 
 ### Auto Start Rocket.Chat
 
@@ -146,7 +146,7 @@ In it write:
 
 ```
   [Unit]
-  Description=The Rocket.Chat  server
+  Description=The Rocket.Chat server
   After=network.target remote-fs.target nss-lookup.target nginx.target mongod.target
   [Service]
   ExecStart=/usr/local/bin/node /opt/Rocket.Chat/main.js
