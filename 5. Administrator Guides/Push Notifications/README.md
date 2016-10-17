@@ -12,8 +12,8 @@ To configure mobile notifications using the rocket.chat gateway:
 * Go to API Manager, and enable "Google Cloud Messaging for Android"
 * In API Manager, open the "Credentials" tab, click "New credentials", then "API key". In the window that pops up, choose "Server key"
 * Fill in the correct IP address from your server and click "Create"
-* Fill in the obtained API key in your rocketchat administrator panel (GCM API Key)
-* The GCM Project Number which you also have to fill in on rocketchat can be found on the dashboard of your Google developers project, first block that shows up . (https://console.developers.google.com/home/dashboard, http://i.imgur.com/3DXHEKy.png)
+* Fill in the obtained API key in your Rocket.Chat administrator panel (GCM API Key)
+* The GCM Project Number which you also have to fill in on Rocket.Chat can be found on the dashboard of your Google developers project, first block that shows up . (https://console.developers.google.com/home/dashboard, http://i.imgur.com/3DXHEKy.png)
 
 ## Rocket.Chat Cordova
 
@@ -26,7 +26,7 @@ For iOS you need an apple developer account that costs US$99 per year. Follow in
 ## Rocket.Chat
 
 * Go to "Administration", then "Push"
-* Set the Enable Gateway to False, then you will use your own rocketchat as gateway instead of the https://rocket.chat server
+* Set the Enable Gateway to False, then you will use your own Rocket.Chat as gateway instead of the https://rocket.chat server
 * Restart server
 
 Now you should be able to Send a test message. Make sure that you have logged in to the server once, and then closed the app. 
