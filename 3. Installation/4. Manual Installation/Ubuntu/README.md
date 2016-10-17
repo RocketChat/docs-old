@@ -1,5 +1,16 @@
 # Deploying Rocket.Chat on Ubuntu
 
+## Snaps
+
+This is the easiest way for you to get your server up and running on Ubuntu.  Installing is easy as: `sudo snap install rocketchat-server`
+
+Snaps are secure.  Rocket.Chat and all of its dependencies are isolated from the rest of your system.  Snaps also auto update when we release a new version.  So no need more hassle updating.
+
+Find out more information about snaps [here](/3.%20Installation/Ubuntu/Snaps)
+
+
+## Manual install
+
 > If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](/3.%20Installation/7.%20Updating/1.%20From%200.x.x%20to%200.40.0)
 
 This guide explains how to deploy your own Rocket.Chat instance to a Ubuntu Linux machine using the command line.
