@@ -1,4 +1,4 @@
-Add ReviewBoard notifications via a new WebHook in RocketChat
+Add ReviewBoard notifications via a new WebHook in Rocket.Chat
 
 1. In Rocket.Chat go to "Administration"->"Integrations" and create "New Integration"
 2. Choose Incoming WebHook

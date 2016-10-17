@@ -1,6 +1,6 @@
 # Email Configuration
 
-Rocket Chat can send automated email notifications and other messages to your users.  To enable this, you will need to have access to an SMTP server and valid SMTP login credentials.
+Rocket.Chat can send automated email notifications and other messages to your users.  To enable this, you will need to have access to an SMTP server and valid SMTP login credentials.
 
 ## Setup credentials
 This is different depending on whether or not you're running Docker.
@@ -21,7 +21,7 @@ You'll need to set your this in your Dockerfile or docker-compose.yml (see `MAIL
 Then go to Administration settings -> Email -> SMTP to continue.
 
 ### All installations
-Enter a name and email to appear in the "From" field of the emails, click "Save changes", and *restart RocketChat*.
+Enter a name and email to appear in the "From" field of the emails, click "Save changes", and *restart Rocket.Chat*.
 
 ![SMTP server configuration.](email-1.png)
 

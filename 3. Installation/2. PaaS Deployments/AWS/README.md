@@ -1,6 +1,7 @@
 # Deploying Rocket.Chat on Amazon Web Services
 
 This guide covers the following:
+
 1. Hosting rocket.chat on an Amazon EC2 instance
 2. Hosting a domain name with Amazon Route 53
 3. Securing your server with a free SSL certificate from Let's Encrypt
@@ -121,7 +122,7 @@ This guide covers the following:
       }
 
       ```
-    * Explanation: remove the listen to port 80 by default and replace with port 443 ssl as well as giving the path to the certificate. Restrict to certain SSL protocols and ciphers (you may add more if you like). In the location section, use Nginx as a proxy to forward to port 3000 (where rocketchat is set up. Create a second server block listening on port 80 that will redirect to https."
+    * Explanation: remove the listen to port 80 by default and replace with port 443 ssl as well as giving the path to the certificate. Restrict to certain SSL protocols and ciphers (you may add more if you like). In the location section, use Nginx as a proxy to forward to port 3000 (where Rocket.Chat is set up. Create a second server block listening on port 80 that will redirect to https."
    * Write & exit
    * Stop Nginx:
    `sudo service nginx stop`
@@ -180,7 +181,7 @@ This guide covers the following:
 1. Create upstart job for MongoDB
  `sudo nano /etc/init/rocketchat_mongo.conf`
   ```
-  description "MongoDB service manager for rocketchat"
+  description "MongoDB service manager for Rocket.Chat"
 
   # Start MongoDB after docker is running
   start on (started docker)
@@ -199,12 +200,12 @@ This guide covers the following:
   end script
   ```
 2. Save and Exit.
-3. Create the upstart job for Rocketchat
+3. Create the upstart job for Rocket.Chat
  `sudo nano /etc/init/rocketchat_app.conf`
   ```
-  description "Rocketchat service manager"
+  description "Rocket.Chat service manager"
 
-  # Start Rocketchat only after mongo job is running
+  # Start Rocket.Chat only after mongo job is running
   start on (started rocketchat_mongo)
   stop on runlevel [!2345]
 
@@ -216,7 +217,7 @@ This guide covers the following:
   chdir /var/www/rocket.chat
 
   script
-      # Bring up rocketchat app
+      # Bring up Rocket.Chat app
       exec /usr/local/bin/docker-compose up rocketchat
   end script
   ```
@@ -237,4 +238,4 @@ This guide covers the following:
 ### 10. Use it!
 1. Login to your site at https://ABC.DOMAIN.COM
 * Note: the first user to login will be an administrator
-2. You can then use the native apps to connect to your rocketchat server.
+2. You can then use the native apps to connect to your Rocket.Chat server.
