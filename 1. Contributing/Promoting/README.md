@@ -10,8 +10,8 @@ If you are not a developer (or even if you are), you can still contribute to the
 
 Please follow us on as many social networks as you can:
 
-* [Facebook](https://www.facebook.com/RocketChatApp)
-* [Twitter](https://twitter.com/RocketChatApp)
+* [Facebook](https://www.facebook.com/RocketChat)
+* [Twitter](https://twitter.com/RocketChat)
 * [Google+](https://plus.google.com/+RocketChatApp)
 * [CrunchBase](https://www.crunchbase.com/organization/rocket-chat)
 * [Angel](https://angel.co/rocket-chat)
