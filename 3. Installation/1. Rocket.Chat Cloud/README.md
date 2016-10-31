@@ -4,8 +4,10 @@
 
 You will have a server up and running, professionally managed, without installations, configuration, maintenance and management head-aches. Just go to https://rocket.chat/deploy and get your team up and running in seconds.
 
-Canadian Educators, please email to team@rocket.chat and request for _"Canadian Hosting beta"_ with some information about your class size and intented uses.
+Canadian Educators, please email to cloud@rocket.chat and request for _"Canadian Hosting beta"_ with some information about your class size and intented uses.
 
 While in Beta, the hosting is free. Once we leave the beta stage, you'll have the option to export your data (free of charge) if you do not want to continue with our service and want to host it yourself.
+
+For any questions or concerns regarding our cloud offering please contact us at: cloud@rocket.chat
 
 
