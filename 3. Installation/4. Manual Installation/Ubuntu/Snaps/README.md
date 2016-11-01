@@ -81,7 +81,7 @@ You can do this via:
 snap remove --revision=35 rocketchat-server
 ```
 
-### I need to install snaps on a computer with out a network, how do I get the snaps?
+<!--### I need to install snaps on a computer with out a network, how do I get the snaps?
 
 You will need two things.  First you need the ubuntu-core snap.  This is a base snap that is normally auto downloaded if you are connected to the internet.  You can get this via:
 ```
@@ -94,7 +94,7 @@ Then you need to get the Rocket.Chat snap via:
 ```
 curl -X GET -H "Content-Type: application/json" -H "X-Ubuntu-Series: 16" -H "X-Ubuntu-Architecture: amd64" "https://search.apps.ubuntu.com/api/v1/snaps/details/rocketchat-server?channel=stable&confinement=strict"
 ```
-
+-->
 ### I need to add in a tool like strace to debug what's happening in my snap.  How do I do this?
 
 ```
