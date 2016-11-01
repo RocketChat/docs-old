@@ -55,6 +55,10 @@ Also can restart Mongo via:
 sudo systemctl restart snap.rocketchat-server.mongo
 ```
 
+### What is the restart policy?
+
+The snaps policy is to restart on failure.
+
 ### I need to backup the data from my snap how do I do this?
 
 All data is located in `/var/snap/rocketchat-server/common`
