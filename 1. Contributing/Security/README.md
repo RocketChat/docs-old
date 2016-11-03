@@ -41,5 +41,9 @@ Rocket.Chat is very grateful for the following people who have responsibly discl
 - [Sam Whited](https://bitbucket.org/SamWhited/), July/2016.
 - [Ketankumar B. Godhani](https://twitter.com/KBGodhani), August/2016
 - [Sachin Wagh(@tiger_tigerboy)](https://secur1tyadvisory.wordpress.com), September/2016
+- [Yury Maryshev, Mikhail Klyuchnikov, Alexandr Shvetsov](https://www.ptsecurity.com), October/2016
+- [Matthew Bryant](https://thehackerblog.com), October/2016
+- [Joe DeMesy](https://badwith.computer), October/2016
+- [Shubham Shah](https://shubs.io), October/2016
 
 Thank you all very much!
