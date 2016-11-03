@@ -20,6 +20,7 @@ If you need full control of your deployment, here are some guides for specific e
 - [Meteor Galaxy](Galaxy/)
 - [Google Compute Engine](Google%20Compute%20Engine/)
 - [Heroku](Heroku/)
+- [Hyper.sh](Hyper.sh/)
 - [IBM Bluemix](IBM%20Bluemix/)
 - [Nitrous.io](Nitrous.io/)
 - [Sloppy.io](Sloppy.io/)
