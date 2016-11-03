@@ -1,38 +1,61 @@
-# PaaS Deployments
 
-There are multiple deployment options for Rocket.Chat.
+Rocket.Chat is a web chat application for communities and companies wanting to privately host their own chat service or for developers looking to build and evolve their own chat platforms. In this guide, we will demonstrate how to deploy a Rocket.chat container connected with a MongoDB container in seconds.
 
-## Quick Deployments
+### 1. Register for your free Hyper credits
 
-If you are interested in quickly deploying an instance, you can try one of the options below:
+First take 2 minutes to sign up for Hyper, receive your free credits and install the CLI: [https://docs.hyper.sh/GettingStarted/index.html](https://docs.hyper.sh/GettingStarted/index.html)
 
-* [Sandstorm](https://apps.sandstorm.io/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0), you can have a server for your family and friends running in 4 seconds.
-* [Cloudron](https://cloudron.io/appstore.html#chat.rocket.cloudronapp), you can install and receive automatic updates on your Cloudron Smartserver.
-* [Heroku one click deploy](https://heroku.com/deploy?template=https://github.com/RocketChat/Rocket.Chat/tree/master), you can run and operate a small server instance on their FREE (or low cost) plans.
+### 2. Create a floating IP address
 
-## Managed Deployments
+``` bash
+$ hyper allocate 1
+xxx.xxx.xxx.xxx <-- Your floating IP
+```
+### 3. Clone the compose file
+```                   
+$ git clone https://github.com/hyperhq/Hyper_Rocket.Chat.git
+Cloning into 'Hyper_Rocket.Chat'...
+remote: Counting objects: 11, done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 11 (delta 2), reused 10 (delta 1), pack-reused 0
+Unpacking objects: 100% (11/11), done.
+Marks-MacBook:workspace markcoleman$ cd Hyper_Rocket.Chat/
+```
+### 4. Add your FIP to the compose file
 
-If you need full control of your deployment, here are some guides for specific environments:
+```
+$ cat rocketchat_mongodb
+version: '2'
+services:
+  db:
+    image: mongo
+    restart: always
 
-- [Aliyun](Aliyun/)
-- [Amazon Web Services](AWS/)
-- [Digital Ocean](Digital%20Ocean/)
-- [Meteor Galaxy](Galaxy/)
-- [Google Compute Engine](Google%20Compute%20Engine/)
-- [Heroku](Heroku/)
-- [IBM Bluemix](IBM%20Bluemix/)
-- [Nitrous.io](Nitrous.io/)
-- [Sloppy.io](Sloppy.io/)
+  rocket.chat:
+    depends_on:
+      - db
+    image: rocket.chat
+    fip: <YOUR FLOATING IP GOES HERE>
+    links:
+      - db
+    ports:
+      - "3000:3000"
+    restart: always
+```
 
-## Manual Installation
+### 5. Start Rocket.Chat
+```
+$ hyper compose up -f rocketchat_mongodb 
+Project [hyperrocketchat]: Starting project 
+[0/2] [db]: Starting 
+[1/2] [db]: Started 
+[1/2] [rocket.chat]: Starting 
+...
+```
 
-- [CentOS](/3.%20Installation/4.%20Manual%20Installation/CentOS/)
-- [Debian](/3.%20Installation/4.%20Manual%20Installation/Debian/)
-- [FreeBSD](/3.%20Installation/4.%20Manual%20Installation/FreeBSD/)
-- [Ubuntu](/3.%20Installation/4.%20Manual%20Installation/Ubuntu/)
-- [Windows Server](/3.%20Installation/4.%20Manual%20Installation/Windows%20Server/)
 
-## Automation Tools
+### Done!
 
-- [Ansible](/3.%20Installation/5.%20Automation%20Tools/Ansible/)
-- [Vagrant](/3.%20Installation/5.%20Automation%20Tools/Vagrant/)
+Try ```http://<YOUR FIP GOES HERE>:3000``` in your browser!
+
+
