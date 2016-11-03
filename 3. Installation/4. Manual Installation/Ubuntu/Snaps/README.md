@@ -30,7 +30,7 @@ sudo systemctl status snap.rocketchat-server.rocketchat-server.service
 
 You can also check on the status of Mongo running in the snap with:
 ```
-sudo systemctl status snap.rocketchat-server.mongo.service
+sudo systemctl status snap.rocketchat-server.rocketchat-mongo.service
 ```
 
 ### How can I view the logs?
@@ -52,7 +52,7 @@ sudo systemctl restart snap.rocketchat-server.rocketchat-server
 ```
 Also can restart Mongo via:
 ```
-sudo systemctl restart snap.rocketchat-server.mongo
+sudo systemctl restart snap.rocketchat-server.rocketchat-mongo
 ```
 
 ### What is the restart policy?
