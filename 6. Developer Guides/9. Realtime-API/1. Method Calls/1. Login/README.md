@@ -13,7 +13,7 @@ The overall format of the login message is:
 }
 ```
 
-Independently of the auth provider, upon an sucessful login we'll receive back an `result` with the `user-id`, `token` and the token expiration date. As the example bellow shows:
+Independently of the auth provider, upon an sucessful login we'll receive back an `result` with the `user-id`, `auth-token` and the token expiration date. As the example bellow shows:
 
 ```json
 {
@@ -21,13 +21,13 @@ Independently of the auth provider, upon an sucessful login we'll receive back a
     "id": "42",
     "result": {
         "id": "user-id",
-        "token": "user-token",
+        "token": "auth-token",
         "tokenExpires": { "$date": 1480377601 }
     }
 }
 ```
 
-That information should be saved locally in order to automatically authenticate the user the next time he tries to use the client. Look at [add resume method call link here][resume] for information about how to do it.
+That information should be saved locally in order to automatically authenticate the user the next time he tries to use the client. Look at [[Using an authentication token](#resume)] for information about how to do it.
 
 ## Username and Password
 
@@ -89,4 +89,19 @@ Here's a example request.
 }
 ```
 
-[resume]:https://github.com/RocketChat/Rocket.Chat.Docs
+## <a name="resume"></a>Using an authentication token
+
+If you have a saved user authentication you may use the provided `auth-token` to automatically log the user in.
+
+```json
+{
+    "msg": "method",
+    "method": "login",
+    "id": "42",
+    "params":[
+        { "resume": "auth-token" }
+    ]
+}
+```
+
+A sucessful call will return the same message as an sucessful login (which it is).
