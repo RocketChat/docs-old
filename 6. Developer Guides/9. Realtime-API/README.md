@@ -16,5 +16,5 @@ The type of communication is defined according to the call:
  - [Method Calls][1]: `method`
  - [Subscriptions][2]: `sub`
 
-[1]:1.%20Method%20Calls/README.md
-[2]:2.%20Subscriptions/README.md
+[1]:1.%20Method%20Calls/
+[2]:2.%20Subscriptions/
