@@ -89,7 +89,7 @@ Here's a example request.
 }
 ```
 
-## <a name="resume"></a>Using an authentication token
+## Using an authentication token
 
 If you have a saved user authentication you may use the provided `auth-token` to automatically log the user in.
 
