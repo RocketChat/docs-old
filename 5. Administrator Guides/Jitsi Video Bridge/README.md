@@ -31,6 +31,6 @@ require total privacy,  setting up your own Jitsi Meet servers stack may be nece
 
 You can find extensive instructions on setting up a Jitsi Meet servers stack at the [official Jisti Meet repository](https://github.com/jitsi/jitsi-meet).
 
-Also, please consult our guide to [quick setup of Jitsi Meet servers stack via Docker image]().
+Also, please consult our guide to quick setup of Jitsi Meet servers stack via Docker image.
 
 
