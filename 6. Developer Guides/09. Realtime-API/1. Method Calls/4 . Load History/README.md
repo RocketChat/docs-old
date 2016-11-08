@@ -1,0 +1,40 @@
+# Load History
+
+Use this method to make the initial load of a room. After the initial load you may subscribe to the room messages stream (see [Stream Room Message][1]).
+
+This method accepts 4 parameters in the following order:
+- The room id
+- (?)
+- The message quantity
+- A date object - the date of the last time the client got data for the room
+
+The result is composed of the `messages` collection and the `unreadNotLoaded`counter.
+
+The `message` object is fairly complex and have [its own section describing it][2]. The `unreadNotLoaded` counts the quantity of unread messages not loaded by the call.
+
+Example:
+
+```json
+{
+    "msg": "method",
+    "method": "loadHistory",
+    "id": "42",
+    "params": [ "room-id", null, 50, { "$date": 1480377601 } ]
+}
+```
+
+```json
+{
+    "msg": "result",
+    "id": "42",
+    "result": {
+        "messages": [
+            ... // messages
+        ],
+        "unreadNotLoaded": 0
+    }
+}
+```
+
+[1]:../../2.%20Subscriptions/4.%20Stream%20Room%20Messages
+[2]:../../3.%20The%20Message%20Object
