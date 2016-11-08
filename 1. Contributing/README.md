@@ -8,7 +8,7 @@ If you are a blogger or news writer, please [promote us](/1.%20Contributing/prom
 
 If you have found a security issue, [report it](/1.%20Contributing/security/) so we can make Rocket.Chat better and more secure for everyone.
 
-If you want to help with documentation in this project, please visit [Rocket.Chat.Docs](https://github.com/RocketChat/Rocket.Chat.Docs).
+If you want to help with documentation in this project, please visit [Rocket.Chat.Docs](https://github.com/RocketChat/Rocket.Chat.Docs). To preview changes locally use [the generator](https://github.com/RocketChat/Rocket.Chat.Docs.Generator).
 
 ## Rocket.Chat At-A-Glance
 
