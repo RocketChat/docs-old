@@ -20,7 +20,7 @@ Response:
 ```json
 {
     "msg": "result",
-    "id": "9",
+    "id": "42",
     "result": [
         ... // permissions
     ]
@@ -54,13 +54,13 @@ Example:
         "moderator",
         "admin"
     ],
-    "_updatedAt": { "$date": 1478185758833 },
+    "_updatedAt": { "$date": 1480377601 },
     "meta": {
         "revision": 3,
-        "created": 1478185726811,
+        "created": 1480377601,
         "version": 0,
-        "updated": 1478185758863
+        "updated": 1480377601
     },
-    "$loki": 66
+    "$loki": 1
 }
 ```
