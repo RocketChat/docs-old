@@ -17,19 +17,19 @@ The information that comes with the room object changes according to its type.
 
 A direct chat between two users. In this case the room obejct only has two fields:
 
-- `_id`: The user id
+- `_id`: The room id
 - `t`: The room type (in this case `d`)
 
 Example:
 
 ```json
 {
-    "_id": "user-id",
+    "_id": "room-id",
     "t": "d"
 }
 ```
 
-You'll need to access the user information (using its id) in order to exhibit an name for this room.
+You'll need to access the room information using data from [Get Subscriptions][1].
 
 ### Chat
 
@@ -82,3 +82,5 @@ Example:
     "ro": false // This room is not read-only
 }
 ```
+
+[1]:1.%20Method%20Calls/06.%20Get%20Subscriptions
