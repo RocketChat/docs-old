@@ -1,5 +1,7 @@
 # Get Public Settings
 
+(I got an empty response)
+
 ```json
 {
     "msg": "method",
