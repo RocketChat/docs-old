@@ -11,7 +11,7 @@ a multi-core machine. A reasonable rule-of-thumb may be to run `N-1` Rocket.Chat
 
 Running multiple instances of Rocket.Chat on a single host requires a reverse proxy in front of your application.
 This tutorial assumes that you've already followed the tutorial for [Running behind a Nginx SSL Reverse Proxy]
-(https://rocket.chat/docs/installation/manual-installation/configuring-ssl-reverse-proxy-with-nginx-md/).
+(https://rocket.chat/docs/installation/manual-installation/configuring-ssl-reverse-proxy/).
 
 There's essentially just two steps:
 1. Start multiple instances of Rocket.Chat bound to different ports
@@ -70,7 +70,7 @@ upstream backend {
 ```
 
 Now just replace `proxy_pass http://IP:3000/;` with `proxy_pass http://backend;`.
-Updating the [sample Nginx configuration](https://rocket.chat/docs/installation/manual-installation/configuring-ssl-reverse-proxy-with-nginx-md/)
+Updating the [sample Nginx configuration](https://rocket.chat/docs/installation/manual-installation/configuring-ssl-reverse-proxy/)
 would result in a config like this:
 
 ```
