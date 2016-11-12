@@ -1,6 +1,8 @@
-## Running behind a Nginx SSL Reverse Proxy
+# Configuring SSL Reverse Proxy
 
 **Note:** You must use the outside https address for the value at ```ROOT_URL``` in [[Section 3|Deploy-Rocket.Chat-without-docker#3-download-rocketchat]] above.  This includes the "https://" and leave off the port number.  So instead of ```ROOT_URL=http://localhost:3000``` use something like ```https://your_hostname.com```
+
+## Running behind a Nginx SSL Reverse Proxy
 
 **Note:** These instructions were written for Ubuntu.  For Amazon Linux, the conf file for the proxy goes in `/etc/nginx/conf.d/` and needs to have a discrete name ending in `.conf` and Nginx is installed using `yum -y install nginx`.
 
@@ -110,15 +112,35 @@ Restart Apache: ```service apache2 restart```
 
 ## Running behind a Caddy Reverse Proxy with Free SSL
 
-caddyserver.com
+First, download [Caddy](https://caddyserver.com/)
 
-You must have ports 80 and 443 open so the Caddy server will request an SSL certificate from Let's Encrypt
+`curl https://getcaddy.com | bash`
 
-Open Caddyfile
+Now Caddy is installed, but you still need a service to run Caddy http server on the background.
+
+You can find services backed by the community [here](https://github.com/mholt/caddy/tree/master/dist/init)
+
+You must have at least the port **443** opened so the Caddy server will request an SSL certificate from Let's Encrypt
+
+You can also open the port 80 to redirect http requests to https.
+
+Open `/etc/caddy/Caddyfile`
 
 Insert
 
 ```
-www.YourDomainName.com
-proxy / 127.0.0.1:3000
+http://your_hostname.com {
+        redir 301 {
+                / https://{host}{uri}
+        }
+}
+
+https://your_hostname.com {
+        proxy / 127.0.0.1:3000 {
+                proxy_header X-Forwarded-Proto {scheme}
+                proxy_header X-Forwarded-For {host}
+                proxy_header Host {host}
+                websocket
+        }
+}
 ```
