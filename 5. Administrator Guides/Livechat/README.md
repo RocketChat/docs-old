@@ -52,11 +52,17 @@ You can configure custom fields to be sent by the client. You can see an example
 
 ### Installation
 
-Use this JavaScript code to add the Livechat widget to your website. You may modifying it to your specific requirements.
+Go to the Livechat Manager -> Installation
+
+![image](https://cloud.githubusercontent.com/assets/51996/20235285/80d6e250-a853-11e6-83b9-b73f0be0bd97.png)
+
+Then copy the code displayed into the source code of your website. You may modify it to meet your specific requirements.
 
 ### Appearance
 
-Customize the appearance of your Livechat widget
+To customize the appearance of your Livechat widget goto Livechat -> Appearance
+
+![image](https://cloud.githubusercontent.com/assets/51996/20235293/a9c34ca8-a853-11e6-8042-9f742b91938e.png)
 
 ### Integrations
 
