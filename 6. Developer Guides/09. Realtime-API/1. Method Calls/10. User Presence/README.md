@@ -26,7 +26,7 @@ Example call (setting the user presence to `online`):
 
 ## Setting a temporary status
 
-Setting a temporary status requires a call to `UserPresence:{status}` with an empty params.
+Setting a temporary status requires a call to `UserPresence:{status}` with an empty params. Only `away` and `online` are accepted. This method call is useful when the client identifies that the user is not using the application (and therefore away) and when he got back.
 
 Example call (setting the user presence to `away`):
 
