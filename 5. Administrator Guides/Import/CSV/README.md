@@ -20,10 +20,14 @@ fileToImport.zip
 ```
 
 ## channels.csv Format
-The `channels.csv` is a file which contains the channel names, each additional channel is on a new line.
+The `channels.csv` is a file which contains the channel names, each additional channel is on a new line and the username of the channel owner.
+
+1. Channel name
+2. Username of the channel creator
 ```csv
-general
-random
+general,bradley.hilton
+otherChannelName,billy.bob
+random, bradley.hilton
 ```
 
 ## users.csv Format
@@ -32,21 +36,20 @@ The `users.csv` is a file which contains the user details, each line containing 
 1. Username
 2. Email
 3. Name
-4. Temporary Password (will only apply if the username or email doesn't have an account already)
 ```csv
 bradley.hilton,bradley.hilton@example.com,Bradley Hilton
-billy.bob, billy.bob@example.com, Billy Bob Jr., t@mp1
+billy.bob, billy.bob@example.com, Billy Bob Jr.
 ```
 
 ## Message Files
-The message csv files require a specific format, each line containing a new message and the message details as:
+The message csv files require a **very** specific format. Each line contains a new message, every piece of information must be surrounded by quotes, there can not be any spaces between the commas. The details required are:
 
 1. Username who sent the message
-2. The timestamp, in either milliseconds or seconds (epoch time)
-3. The message
+2. The timestamp in milliseconds
+3. The message, quotes are highly recommended especially if the message text contains a comma.
 ```csv
-bradley.hilton,1479162481336,"this is a test message"
-billy.bob, 1479162481654, "this is a test message"
+"bradley.hilton","1479162481336","this is a test message"
+"billy.bob","1479162481654","this is a another message, a test message"
 ```
 
 ## Importing
