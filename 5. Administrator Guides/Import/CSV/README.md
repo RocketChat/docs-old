@@ -13,6 +13,8 @@ fileToImport.zip
 │   ├── canBeAnyNameButHasToHave.csv
 │   ├── theDotCSV.csv
 │   └── asTheFileExt.csv
+├── privateArea
+│   └── messages.csv
 └── random
     ├── dateTimeStamp1.csv
     ├── dateTimeStamp2.csv
@@ -24,10 +26,12 @@ The `channels.csv` is a file which contains the channel names, each additional c
 
 1. Channel name
 2. Username of the channel creator
+3. Whether the channel is public or private. If the last argument is not `private` it is assumed the channel is public.
 ```csv
-general,bradley.hilton
-otherChannelName,billy.bob
-random, bradley.hilton
+general,bradley.hilton,public
+otherChannelName,billy.bob,public
+random, bradley.hilton, public
+privateArea, bradley.hilton,private
 ```
 
 ## users.csv Format
