@@ -41,7 +41,7 @@ Then, download and install each of the following **in order**:
   storage:
       dbPath: [Data Path]\data
   replication:
-     replSetName: rs1
+      replSetName: rs1
   ```
 
 6. Save the file as `[Installation Path]\mongod.cfg` where [Installation Path] is the location you installed Mongo
