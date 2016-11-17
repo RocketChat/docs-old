@@ -3,6 +3,7 @@
 The CSV importer allows you to import your own plain text files, however it does require the zip file to be in a specific format for the importer to understand.
 
 ## The Zip File
+The zip file must be a **flat zip**, which means there can **not** be a "root" or "sub" folder in which the items reside in the zip file. The importer looks for the files `channels.csv` and `users.csv` immeditally inside the zip and not inside of any folder. If you have any questions about this, please ask in [#support channel on the demo server](https://demo.rocket.chat/channel/support).
 ```
 fileToImport.zip
 ├── channels.csv
@@ -22,16 +23,17 @@ fileToImport.zip
 ```
 
 ## channels.csv Format
-The `channels.csv` is a file which contains the channel names, each additional channel is on a new line and the username of the channel owner.
+The `channels.csv` requires a **very** specifc structure and layout. Each line contains information about one channel. Each line must include the channel name, the creator, whether it is private or public, and the members in the channel separated by a semicolon `;`. Quotes are ***required***.
 
 1. Channel name
 2. Username of the channel creator
 3. Whether the channel is public or private. If the last argument is not `private` it is assumed the channel is public.
+4. List of users in the channel, separated by semicolons. If only the creator is in the channel, then there must be empty quotes.
 ```csv
-general,bradley.hilton,public
-otherChannelName,billy.bob,public
-random, bradley.hilton, public
-privateArea, bradley.hilton,private
+"general","bradley.hilton","public",""
+"otherChannelName","billy.bob","public",""
+"random","bradley.hilton","public","billy.bob;graywolf336"
+"privateArea","bradley.hilton","private","graywolf336"
 ```
 
 ## users.csv Format
@@ -43,10 +45,11 @@ The `users.csv` is a file which contains the user details, each line containing 
 ```csv
 bradley.hilton,bradley.hilton@example.com,Bradley Hilton
 billy.bob, billy.bob@example.com, Billy Bob Jr.
+graywolf336,graywolf336@example.com,GrayWolf336
 ```
 
 ## Message Files
-The message csv files require a **very** specific format. Each line contains a new message, every piece of information must be surrounded by quotes, there can not be any spaces between the commas. The details required are:
+The message csv files require a **very** specific format. Each line contains a new message, every piece of information is **requires** quotes to surround it, there can not be any spaces between the commas. The details required are:
 
 1. Username who sent the message
 2. The timestamp in milliseconds
