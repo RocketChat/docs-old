@@ -9,7 +9,7 @@ Prerequisites:
 ```
 git clone https://github.com/RocketChat/Rocket.Chat.git
 cd Rocket.Chat
-npm start
+meteor npm start
 ```
 
 If you have any problems with the above commands, please, see the [troubleshooting](/6.%20Developer%20Guides/11.%20Troubleshooting)
