@@ -20,6 +20,8 @@ The class should have a method called **process_incoming_request**, this method 
 
 The **process_incoming_request** method should return an object with a property **content** containing a valid Rocket.Chat message or an object with a property **error** that will be returned as the response of the request in JSON format and status code **400**.
 
+You can use the **console** to log and view the logs from Administration -> View Logs.
+
 ```javascript
 /* exported Script */
 /* globals console, _, s */
