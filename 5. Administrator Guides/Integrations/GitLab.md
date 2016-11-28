@@ -30,6 +30,8 @@ class Script {
 					return this.issueEvent(request.content);
 				case 'Tag Push Hook':
 					return this.tagEvent(request.content);
+				case 'Pipeline Hook':
+					return this.pipelineEvent(request.content);
 			}
 		} catch (e) {
 			console.log('gitlabevent error', e);
@@ -37,6 +39,21 @@ class Script {
 				error: {
 					success: false,
 					message: e.message || e
+				}
+			};
+		}
+	}
+
+	pipelineEvent(data) {
+		const user = data.user;
+		const project = data.project;
+		const pl = data.object_attributes;
+		if ((pl.status == 'success') || (pl.status == 'failed')) {
+			return {
+				content: {
+					username: `gitlab/${user.name}`,
+					icon_url: user.avatar_url || '',
+					text: `${project.name}'s build from @${user.username} has changed to ${pl.status}. See ${project.web_url}/pipelines/${pl.id}.`
 				}
 			};
 		}
