@@ -31,18 +31,18 @@ Response:
 
 The permission object describes a permisson as:
 
-- `_id`: The permission id
-- `roles`: An collection of roles that this permissions applies to
-- `_updatedAt`: (Optional) (?)
-- `meta`: Metadata about the permission (describe bellow)
-- `$loki`: (?)
+- `_id`: The permission's id
+- `roles`: A collection of roles that this permissions applies to
+- `_updatedAt`: (Optional) The last time this permission object was updated in the database
+- `meta`: Metadata about the permission (described below)
+- `$loki`: An internal property which can be ignored (it is removed on the web client before being added to the web client's database)
 
 The `meta` object is defined as:
 
 - `revision`: The revision of the permission
-- `created`: The date of the permission creation
+- `created`: Date the permission was created
 - `version`: The permission version
-- `updated`: (Optional) The date of the permisson latest update
+- `updated`: (Optional) Date the permisson  was last updated
 
 Example:
 
