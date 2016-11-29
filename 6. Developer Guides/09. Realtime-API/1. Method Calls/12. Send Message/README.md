@@ -29,7 +29,11 @@ The `message` is described as:
 
 ## Sending a file
 
-(How I known I have to use S3? From the settings?)
+In order to find out the storage type used for uploading we need to check `FileUpload_Storage_Type` in the settings. Valid options are:
+
+- GridFS
+- AmazonS3
+- FileSystem
 
 Sending a file is a bit more complex. It envolves two method calls and some HTTP requests. The flow is:
 
