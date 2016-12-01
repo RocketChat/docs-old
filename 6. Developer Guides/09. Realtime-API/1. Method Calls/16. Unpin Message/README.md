@@ -1,5 +1,5 @@
 # Unpin Message
-Unpinning a message allows administrators and owners of rooms to remove pinned items from being pinnned after they are no longer valid, [click here for more information on pinning messages][1].
+Unpinning a message allows administrators and owners of rooms to remove pinned items from being pinnned after they are no longer valid.
 
 ## Requirements
 | Logged In | Permission | Setting |
@@ -44,5 +44,8 @@ The response of a message being pinned is a new chat message which contains the 
     }
 }
 ```
+
+## See Also
+* [Pinning Messages User Guide][1]
 
 [1]:../../../4.%20User%20Guides/Pinning%20Messages

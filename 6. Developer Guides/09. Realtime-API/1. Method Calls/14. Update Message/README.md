@@ -29,4 +29,11 @@ The only parameter that needs to be passed in is the [Message Object][1] which c
 ## Additional Information
 As mentioned in requirements, you must be logged in to be able to edit a message along with having the permission `edit-message`. Two settings apply, `Message_AllowEditing` and then `Message_AllowEditing_BlockEditInMinutes`. The first setting is a boolean, true/false, and the second setting is an integer that can be `0` for unlimited editing or anything greater and editing will be blocked after the time in minutes has passed.
 
+## See Also
+* [The Message Object][1]
+* [Send Message Method][2]
+* [Delete Message Method][3]
+
 [1]:../../3.%20The%20Message%20Object
+[2]:../12.%20Send%20Message
+[3]:../13.%20Delete%20Message

@@ -1,5 +1,5 @@
 # Pin Message
-Pinning a message allows administrators and owners of rooms to easily store messages which are important, [for more information see here][1].
+Pinning a message allows administrators and owners of rooms to easily store messages which are important.
 
 ## Requirements
 | Logged In | Permission | Setting |
@@ -45,4 +45,9 @@ The response of a message being pinned is a new chat message which contains the 
 }
 ```
 
-[1]:../../../4.%20User%20Guides/Pinning%20Messages
+## See Also
+* [The Message Object][1]
+* [Pinning Messages User Guide][2]
+
+[1]:../../3.%20The%20Message%20Object
+[2]:../../../4.%20User%20Guides/Pinning%20Messages

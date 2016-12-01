@@ -1,5 +1,5 @@
 # Set Reaction
-Reacting to messages is a convient way to "react" to messages with emojis, allowing for a wide variety of options for integrations, questions, and whatever else people can come up with. [Find out more information about reacting to messages here][1]
+Reacting to messages is a convenient way to "react" to messages with emojis, allowing for a wide variety of options for integrations, questions, and whatever else people can come up with.
 
 ## Requirements
 | Logged In | Permission | Setting |
@@ -27,5 +27,8 @@ Setting and removing a reaction requires a call to the same method with the same
     "id": "22"
 }
 ```
+
+## See Also
+* [Reacting to Messages User Guide][1]
 
 [1]:../../../4.%20User%20Guides/Reacting%20to%20Messages

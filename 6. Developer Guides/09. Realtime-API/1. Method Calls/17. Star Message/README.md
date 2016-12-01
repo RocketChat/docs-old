@@ -1,5 +1,5 @@
 # Star Message
-Starring messages allows a user to quickly save for future reference, or something similiar, for their own personal usage, [click here for more information on starring messages][1].
+Starring messages allows a user to quickly save for future reference, or something similiar, for their own personal usage.
 
 ## Requirements
 | Logged In | Permission | Setting |
@@ -29,5 +29,8 @@ The only parameter that needs to be passed in is an object with the `_id`, `rid`
     "result": 1
 }
 ```
+
+## See Also:
+* [Starring Messages User Guide][1]
 
 [1]:../../../4.%20User%20Guides/Starring%20Messages

@@ -98,3 +98,12 @@ Second request (`sendFileMessage`):
     ]
 }
 ```
+
+## See Also
+* [The Message Object][1]
+* [Delete Message Method][2]
+* [Update Message Method][3]
+
+[1]:../../3.%20The%20Message%20Object
+[2]:../12.%20Delete%20Message
+[3]:../13.%20Update%20Message
