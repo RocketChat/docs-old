@@ -45,8 +45,4 @@ The response of a message being pinned is a new chat message which contains the 
 }
 ```
 
-```json
-{"msg":"method","method":"unpinMessage","params":[{"rid":"QFtTnPJ4XbG634Skm","msg":"blah","ts":{"$date":1480615028589},"u":{"_id":"gHwBwDomPrCoQj7i2","username":"bradley"},"_updatedAt":{"$date":1480615033504},"pinned":false,"pinnedAt":{"$date":1480615033504},"pinnedBy":{"_id":"gHwBwDomPrCoQj7i2","username":"bradley"},"roles":["admin",null],"_id":"XudJNvnPEajGhhbHB","html":"blah","tokens":[]}],"id":"12"}
-```
-
 [1]:../../../4.%20User%20Guides/Pinning%20Messages
