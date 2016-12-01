@@ -70,6 +70,7 @@ curl http://localhost:3000/api/version
 ## Logon
 * requires authentication: `no`
 * http method: `post`
+* url: `/api/login`
 * expected payload:
  * `user`: the username to use authentication as
  * `password`: the password for that user
@@ -89,7 +90,13 @@ curl http://localhost:3000/api/login \
 }
 ```
 
-## Logoff
+## Logout
+* requires authentication: `no`
+* http method: `post`
+* url: `/api/logout`
+* expected payload:
+ * `user`: the username to use authentication as
+ * `password`: the password for that user
 ```json
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -103,6 +110,14 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 ## Get list of public rooms
+* requires authentication: `yes`
+* http method: `get`
+* url: `/api/publicRooms`
+* expected payload:
+ * `user`: the username to use authentication as
+ * `password`: the password for that user
+* Notes:
+ * **Parse this output to translate human readable name into uuid of room to use in api**
 ```json
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -122,6 +137,12 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
       "other fields": "other fields ...."
 ```
 ## Join a room
+* requires authentication: `yes`
+* http method: `post`
+* url: `/api/rooms/<room uuid>/join`
+* expected payload:
+ * `user`: the username to use authentication as
+ * `password`: the password for that user
 ```json
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -133,6 +154,12 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 ## Leave a room
+* requires authentication: `yes`
+* http method: `post`
+* url: `/api/rooms/<room uuid>/leave`
+* expected payload:
+ * `user`: the username to use authentication as
+ * `password`: the password for that user
 ```json
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -145,6 +172,12 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Get all messages in a room
+* requires authentication: `yes`
+* http method: `get`
+* url: `/api/publicRooms`
+* expected payload:
+ * `user`: the username to use authentication as
+ * `password`: the password for that user
 ```json
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -163,6 +196,13 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
            "other fields": "other fields ...."
 ```
 ## Sending a message
+* requires authentication: `yes`
+* http method: `post`
+* url: `/api/rooms/<room uuid>/post`
+* expected payload:
+ * `user`: the username to use authentication as
+ * `password`: the password for that user
+ * `message` : the message you wish to send
 ```json
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "Content-Type: application/json" \
