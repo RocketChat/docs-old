@@ -39,8 +39,8 @@ Clone the Rocket.Chat GitHub repository and import the templates to your OpenShi
 ```
 
 ### 4. Create the app
-Create the application using the newly created templated and passing the *MONGODB_DATABASE*,*MONGODB_USER*
- and *MONGODB_PASSWORD* parameters: 
+Create the application using the newly created templated and passing the `MONGODB_DATABASE`,`MONGODB_USER`
+ and `MONGODB_PASSWORD` parameters: 
 ```bash
 # oc new-app rocket-chat -p MONGODB_DATABASE=rocketchat,MONGODB_USER=rocketchat-admin,MONGODB_PASSWORD=rocketchat
 ```
