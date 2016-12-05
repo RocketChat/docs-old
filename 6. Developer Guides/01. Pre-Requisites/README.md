@@ -2,8 +2,8 @@
 
 Prerequisites:
 
-- Git
-- Meteor
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+- [Meteor](https://www.meteor.com/install) - https://www.meteor.com/install
 - Now just clone and start the app:
 
 ```
