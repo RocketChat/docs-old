@@ -14,6 +14,7 @@ Event name | Description
 `click-user-card-message` | Fired when the user clicks on a username link
 `click-mention-link` | Fired when the user clicks on a mention link
 `click-message-link` | Fired when the user clicks on a posted link
+`click-action-link` | Fired when the user clicks on an action link button (i.e.: "click to join" to video conferences)
 
 Above there is a sample code that listens to events fired from Rocket.Chat opened on an `iframe`:
 
