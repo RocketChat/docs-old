@@ -6,7 +6,7 @@ The `result` will be a collection of `user`. The `user` is defined as:
 
 - `username`: The username of the user
 - `roles`: The collection of roles the user belongs to (at least one `role-name` will be present)
-- `user-id`: The user id
+- `_id`: The user id
 
 That information is used to identify key users on the server (ex.: admins).
 

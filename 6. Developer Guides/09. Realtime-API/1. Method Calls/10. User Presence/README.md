@@ -1,8 +1,8 @@
 # User Presence
 
-Used to set the user presence status. There's two ways to use this call; to set the default status and to set a temporary status.
+Used to set the user presence status. There are two ways to use this call; to set the default status and to set a temporary status.
 
-There're four status available:
+There are four different statuses available:
 
 - `online`
 - `busy`

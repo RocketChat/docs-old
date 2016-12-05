@@ -18,6 +18,8 @@ The type of communication is defined according to the call:
  - [Method Calls][1]: `method`
  - [Subscriptions][2]: `sub`
 
+ Please note, the server will send you "ping" and you must respond with "pong" otherwise the server will close the connection.
+
 [1]:1.%20Method%20Calls/
 [2]:2.%20Subscriptions/
 [3]:https://github.com/RocketChat/Rocket.Chat/tree/experimental
