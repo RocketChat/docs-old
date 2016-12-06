@@ -21,7 +21,7 @@ Hangout for Rocket.Chat developers, community and core
 
 Before opening a new issue, make sure you are running the latest stable version.
 
-You can find your current version by accessing your server info URL: `http://<your server name>/api/info`
+You can find your current version by accessing your server info URL: `http://<your server name>/api/v1/info`
 
 A sample output of the version information:
 

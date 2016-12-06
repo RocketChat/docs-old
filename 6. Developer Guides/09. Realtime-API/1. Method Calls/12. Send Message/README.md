@@ -1,16 +1,16 @@
 # Send Message
 
-There are a few ways to comunicate when using Rocket.Chat, as desbribed bellow.
+There are a few ways to comunicate when using Rocket.Chat, as described below.
 
 ## Sending a text message
 
-The most basic (and more common) way to comunicate is throught plain text. You're going to use the `sendMessage` method and send a single parameter: a `message`.
+The most basic (and more common) way to comunicate is through plain text. You're going to use the `sendMessage` method and send a single parameter: the `message`.
 
-The `message` is described as:
+The `sendMessage` is described as:
 
 - `_id`: The message id
-- `rid`: The room id for which this message is been send
-- `msg`: The message body (the text message itself)
+- `rid`: The room id for where to send this message
+- `msg`: The message body (the text of the message itself)
 
 ```json
 {
@@ -29,11 +29,11 @@ The `message` is described as:
 
 ## Sending a file
 
-In order to find out the storage type used for uploading we need to check `FileUpload_Storage_Type` in the settings. Valid options are:
+In order to find out which storage system is used for the uploaded files, we need to check the setting `FileUpload_Storage_Type`. Valid values are:
 
-- GridFS
-- AmazonS3
-- FileSystem
+- `GridFS`
+- `AmazonS3`
+- `FileSystem`
 
 Sending a file is a bit more complex. It envolves two method calls and some HTTP requests. The flow is:
 
@@ -98,3 +98,12 @@ Second request (`sendFileMessage`):
     ]
 }
 ```
+
+## See Also
+* [The Message Object][1]
+* [Delete Message Method][2]
+* [Update Message Method][3]
+
+[1]:../../3.%20The%20Message%20Object
+[2]:../12.%20Delete%20Message
+[3]:../13.%20Update%20Message

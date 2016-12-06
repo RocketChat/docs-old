@@ -105,3 +105,8 @@ If you have a saved user authentication you may use the provided `auth-token` to
 ```
 
 A sucessful call will return the same message as an sucessful login (which it is).
+
+## See Also
+* [Logout][1]
+
+[1]:../1.%20Logout

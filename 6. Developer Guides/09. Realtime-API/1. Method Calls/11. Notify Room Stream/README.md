@@ -1,6 +1,6 @@
 # Notify Room Stream
 
-Use this call to notify a room stream about some specific events.
+Use this call to notify a room about some specific events.
 
 The method used is `stream-notify-room` and the general format is:
 
@@ -17,7 +17,7 @@ The method used is `stream-notify-room` and the general format is:
 
 ## Typing
 
-One of the events you may notify a room is about the user typing on the keyboard. This call needs three params.
+One of the events you may notify a room about is the user typing on the keyboard. This call needs three params.
 
 - `room-id/typing`: The first param is the room id followed with `/typing`
 - `username`: The second param is the username
