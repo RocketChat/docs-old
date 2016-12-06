@@ -18,13 +18,14 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 ## REST API v1 Methods
 | Url | Details Page |
 | --- | --- |
-| `/api/v1/info` | [Information](01.%20Information) |
-| `/api/login` | [Authentication](02.%20Authentication#rest-api-authentication) |
-| `/api/logout` | [Authentication](02.%20Authentication#logout-details) |
-| `/api/v1/users.create` | [Users](03.%20Users#users-create-details) |
-| `/api/v1/user.update` | [Users](03.%20Users#user-update-details) |
-| `/api/v1/users.setAvatar` | [Users](03.%20Users#user-set-photo-avatar)
-| `/api/v1/channels.create` | [Channels](04.%20Channels) |
+| `/api/v1/info` | [Information](01.%20Information/) |
+| `/api/login` | [Authentication](02.%20Authentication/#rest-api-authentication) |
+| `/api/logout` | [Authentication](02.%20Authentication/#logout-details) |
+| `/api/v1/users.create` | [Users](03.%20Users/#users-create-details) |
+| `/api/v1/user.update` | [Users](03.%20Users/#user-update-details) |
+| `/api/v1/users.setAvatar` | [Users](03.%20Users/#user-set-photo-avatar)
+| `/api/v1/channels.create` | [Channels](04.%20Channels/) |
+| `/api/v1/groups.list` | [Groups](05.%20Groups/#groups-list-details) |
 
 ## Language specific wrappers
 ### Java
