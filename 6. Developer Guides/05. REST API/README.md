@@ -248,6 +248,30 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 {"user":{"_id":"BsNr28znDkG8aeo7W","createdAt":"2016-09-13T14:57:56.037Z","services":{"password":{"bcrypt":"$2a$10$5I5nUzqNEs8jKhi7BFS55uFYRf5TE4ErSUH8HymMNAbpMAvsOcl2C"}},"username":"uniqueusername","emails":[{"address":"newemail@user.tld","verified":false}],"type":"user","status":"offline","active":true,"roles":["user"],"_updatedAt":"2016-09-13T14:57:56.175Z","name":"new name","customFields":{"twitter":"userstwitter"}},"success":true}
 ```
 
+## Set own avatar
+
+### Upload a file
+```json
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
+     -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+     -H "Content-type:application/json" \
+     -F "image=@my-own-avatar.png" \
+     http://localhost:3000/api/v1/users.setAvatar
+
+{"success":true}
+```
+
+### Set from a URL
+```json
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
+     -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+     -H "Content-type:application/json" \
+     -d '{"avatarUrl": "http://domain.tld/to/my/own/avatar.jpg"}' \
+     http://localhost:3000/api/v1/users.setAvatar
+
+{"success":true}
+```
+
 Rocket.Chat's real-time messaging API is a thin semantics layer on top of [Meteor's DDP](https://www.meteor.com/ddp).   To access Rocket.Chat's internal message streaming firehose directly from an external client application:
 
 ```javascript
