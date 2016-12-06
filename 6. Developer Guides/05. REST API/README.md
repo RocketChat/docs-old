@@ -22,12 +22,10 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/login` | [Authentication](02.%20Authentication#rest-api-authentication) |
 | `/api/logout` | [Authentication](02.%20Authentication#logout-details) |
 | `/api/v1/users.create` | [Users](03.%20Users#users-create-details) |
-| `/api/v1/users.update` | [Users](03.%20Users#user-update-details) |
+| `/api/v1/user.update` | [Users](03.%20Users#user-update-details) |
+| `/api/v1/users.setAvatar` | [Users](03.%20Users#user-set-photo-avatar)
 | `/api/v1/channels.create` | [Channels](04.%20Channels) |
 
 ## Language specific wrappers
 ### Java
 * [rocket-chat-rest-client](https://github.com/baloise/rocket-chat-rest-client)
-
-### Yours
-* _Feel free to add yours here via a [pull request](https://github.com/Rocket.Chat/Rocket.Chat.Docs)_
