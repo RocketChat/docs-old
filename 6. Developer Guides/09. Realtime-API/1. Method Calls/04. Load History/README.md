@@ -32,7 +32,7 @@ Examples:
     "msg": "method",
     "method": "loadHistory",
     "id": "42",
-    "params": [ "room-id", 1480377205, 50, { "$date": 1480377601 } ]
+    "params": [ "room-id", { "$date": 1480377205 }, 50, { "$date": 1480377601 } ]
 }
 ```
 
