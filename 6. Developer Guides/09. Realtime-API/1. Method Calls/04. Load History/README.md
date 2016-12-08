@@ -4,7 +4,7 @@ Use this method to make the initial load of a room. After the initial load you m
 
 This method accepts 4 parameters in the following order:
 - The room id
-- (?)
+- The oldest message timestamp date (or null) - this is used to do pagination
 - The message quantity
 - A date object - the date of the last time the client got data for the room
 
@@ -12,7 +12,9 @@ The result is composed of the `messages` collection and the `unreadNotLoaded`cou
 
 The `message` object is fairly complex and have [its own section describing it][2]. The `unreadNotLoaded` counts the quantity of unread messages not loaded by the call.
 
-Example:
+Examples:
+
+**Request of the latest 50 messages**
 
 ```json
 {
@@ -22,6 +24,19 @@ Example:
     "params": [ "room-id", null, 50, { "$date": 1480377601 } ]
 }
 ```
+
+**Request of the latest 50 messages, using pagination**
+
+```json
+{
+    "msg": "method",
+    "method": "loadHistory",
+    "id": "42",
+    "params": [ "room-id", { "$date": 1480377205 }, 50, { "$date": 1480377601 } ]
+}
+```
+
+**Response**
 
 ```json
 {
