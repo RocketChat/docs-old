@@ -19,6 +19,7 @@ You'll need to set the following _CORS Configuration_ to your bucket:
 
 ## Basic configuration
 
+Please note that Frankfurt Region is not working due to autorization mechanism version.
 You'll need to set the following fields:
 
 Config. Name | Description
