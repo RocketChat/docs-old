@@ -19,8 +19,8 @@ Updates the setting for the provided `_id`.
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
-     -d '{ "value": true }' \
-     http://localhost:3000/api/v1/settings/Livechat_enabled
+     http://localhost:3000/api/v1/settings/Livechat_enabled \
+     -d '{ "value": true }'
 ```
 
 ## Example Result
