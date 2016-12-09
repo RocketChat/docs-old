@@ -13,7 +13,7 @@ To configure mobile notifications using the rocket.chat gateway:
 * In API Manager, open the "Credentials" tab, click "New credentials", then "API key". In the window that pops up, choose "Server key"
 * Fill in the correct IP address from your server and click "Create"
 * Fill in the obtained API key in your Rocket.Chat administrator panel (GCM API Key)
-* The GCM Project Number which you also have to fill in on Rocket.Chat can be found on the dashboard of your Google developers project, first block that shows up . (https://console.developers.google.com/home/dashboard, http://i.imgur.com/3DXHEKy.png)
+* The GCM Project Number which you also have to fill in on Rocket.Chat can be found "Project Settings" of your Google developers project, Settings are located by clicking the three dot drop down in the top right corner . (https://console.developers.google.com/home/dashboard, http://i.imgur.com/Zfp2SsV.jpg)
 
 ## Rocket.Chat Cordova
 
