@@ -5,13 +5,13 @@ order: 30
 # Channel Methods
 | Url | Short Description | Details Page |
 | --- | --- | --- |
-| `/api/v1/channels.addAll` | Adds all of the users on the server to a channel. | [Link](addAll/) |
-| `/api/v1/channels.archive` | Archives a channel. | [Link](archive/) |
-| `/api/v1/channels.cleanHistory` | Cleans up a channel's history, requires special permission. | [Link](cleanHistory/) |
-| `/api/v1/channels.close` | Removes a channel from a user's list of channels. | [Link](close/) |
-| `/api/v1/channels.create` | Creates a new channel. | [Link](create/) |
-| `/api/v1/channels.history` | Retrieves the messages from a channel. | [Link](history/) |
-| `/api/v1/channels.info` | Gets a channel's information. | [Link](info/) |
+| `/api/v1/channels.addAll` | Adds all of the users on the server to a channel. | [Link](addAll.md) |
+| `/api/v1/channels.archive` | Archives a channel. | [Link](archive.md) |
+| `/api/v1/channels.cleanHistory` | Cleans up a channel's history, requires special permission. | [Link](cleanHistory.md) |
+| `/api/v1/channels.close` | Removes a channel from a user's list of channels. | [Link](close.md) |
+| `/api/v1/channels.create` | Creates a new channel. | [Link](create.md) |
+| `/api/v1/channels.history` | Retrieves the messages from a channel. | [Link](history.md) |
+| `/api/v1/channels.info` | Gets a channel's information. | [Link](info.md) |
 | `/api/v1/channels.invite` | Adds a user to a channel. | TODO! |
 | `/api/v1/channels.kick` | Removes a user from a channel. | TODO! |
 | `/api/v1/channels.leave` | Removes the calling user from a channel. | TODO! |

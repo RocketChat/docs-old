@@ -7,4 +7,4 @@ Just some generic information, such as information about the server and authenti
 
 | Url | Short Description | Details Page |
 | --- | --- | --- |
-| `/api/v1/info` | Information about the Rocket.Chat server. | [info](info/) |
+| `/api/v1/info` | Information about the Rocket.Chat server. | [info](info.md) |

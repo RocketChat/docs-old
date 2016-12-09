@@ -10,6 +10,6 @@ The authentication with the REST API is a two step process.
 
 | Url | Short Description | Details Page |
 | --- | --- | --- |
-| `/api/v1/login` | Authenticate with the REST API. | [Link](login/) |
-| `/api/v1/logout` | Invalidate your REST API authentication token. | [Link](logout/) |
-| `/api/v1/me` | Displays information about the authenticated user. | [Link](me/) |
+| `/api/v1/login` | Authenticate with the REST API. | [Link](login.md) |
+| `/api/v1/logout` | Invalidate your REST API authentication token. | [Link](logout.md) |
+| `/api/v1/me` | Displays information about the authenticated user. | [Link](me.md) |

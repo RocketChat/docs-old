@@ -20,36 +20,36 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 ### Miscellaneous Information
 | Url | Short Description | Details Page |
 | --- | --- | --- |
-| `/api/v1/info` | Information about the Rocket.Chat server. | [Link](Miscellaneous/info/) |
+| `/api/v1/info` | Information about the Rocket.Chat server. | [Link](Miscellaneous/info.md) |
 
 ### Authentication
 | Url | Short Description | Details Page |
 | --- | --- | --- |
-| `/api/v1/login` | Authenticate with the REST API. | [Link](Authentication/login/) |
-| `/api/v1/logout` | Invalidate your REST API authentication token. | [Link](Authentication/logout/) |
-| `/api/v1/me` | Displays information about the authenticated user. | [Link](Authentication/me/) |
+| `/api/v1/login` | Authenticate with the REST API. | [Link](Authentication/login.md) |
+| `/api/v1/logout` | Invalidate your REST API authentication token. | [Link](Authentication/logout.md) |
+| `/api/v1/me` | Displays information about the authenticated user. | [Link](Authentication/me.md) |
 
 ### Users
 | Url | Short Description | Details Page |
 | --- | --- | --- |
-| `/api/v1/users.create` | Create a new user. | [Link](Users/create/) |
-| `/api/v1/users.delete` | Deletes an existing user. | [Link](Users/delete/) |
-| `/api/v1/users.getPresence` | Gets the online presence of the a user. | [Link](Users/getPresence/) |
-| `/api/v1/users.info` | Gets a user's information, limited to the caller's permissions. | [Link](Users/info/) |
-| `/api/v1/users.list` | All of the users and their information, limited to permissions. | [Link](Users/list/) |
-| `/api/v1/users.setAvatar` | Set a user's avatar | [Link](Users/setAvatar/) |
-| `/api/v1/users.update` | Update an existing user. | [Link](Users/update/) |
+| `/api/v1/users.create` | Create a new user. | [Link](Users/create.md) |
+| `/api/v1/users.delete` | Deletes an existing user. | [Link](Users/delete.md) |
+| `/api/v1/users.getPresence` | Gets the online presence of the a user. | [Link](Users/getPresence.md) |
+| `/api/v1/users.info` | Gets a user's information, limited to the caller's permissions. | [Link](Users/info.md) |
+| `/api/v1/users.list` | All of the users and their information, limited to permissions. | [Link](Users/list.md) |
+| `/api/v1/users.setAvatar` | Set a user's avatar | [Link](Users/setAvatar.md) |
+| `/api/v1/users.update` | Update an existing user. | [Link](Users/update.md) |
 
 ### Channels
 | Url | Short Description | Details Page |
 | --- | --- | --- |
-| `/api/v1/channels.addAll` | Adds all of the users on the server to a channel. | [Link](Channels/addAll/) |
-| `/api/v1/channels.archive` | Archives a channel. | [Link](Channels/archive/) |
-| `/api/v1/channels.cleanHistory` | Cleans up a channel's history, requires special permission. | [Link](Channels/cleanHistory/) |
-| `/api/v1/channels.close` | Removes a channel from a user's list of channels. | [Link](Channels/close/) |
-| `/api/v1/channels.create` | Creates a new channel. | [Link](Channels/create/) |
-| `/api/v1/channels.history` | Retrieves the messages from a channel. | [Link](Channels/history/) |
-| `/api/v1/channels.info` | Gets a channel's information. | [Link](Channels/info/) |
+| `/api/v1/channels.addAll` | Adds all of the users on the server to a channel. | [Link](Channels/addAll.md) |
+| `/api/v1/channels.archive` | Archives a channel. | [Link](Channels/archive.md) |
+| `/api/v1/channels.cleanHistory` | Cleans up a channel's history, requires special permission. | [Link](Channels/cleanHistory.md) |
+| `/api/v1/channels.close` | Removes a channel from a user's list of channels. | [Link](Channels/close.md) |
+| `/api/v1/channels.create` | Creates a new channel. | [Link](Channels/create.md) |
+| `/api/v1/channels.history` | Retrieves the messages from a channel. | [Link](Channels/history.md) |
+| `/api/v1/channels.info` | Gets a channel's information. | [Link](Channels/info.md) |
 | `/api/v1/channels.invite` | Adds a user to a channel. | TODO! |
 | `/api/v1/channels.kick` | Removes a user from a channel. | TODO! |
 | `/api/v1/channels.leave` | Removes the calling user from a channel. | TODO! |
@@ -73,7 +73,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.invite` | Adds a user to the private group. | TODO! |
 | `/api/v1/groups.kick` | Removes a user from a private group. | TODO! |
 | `/api/v1/groups.leave` | Removes the calling user from the private group. | TODO! |
-| `/api/v1/groups.list` | List the private groups the caller is part of. | [Groups](05.%20Groups/#groups-list-details) |
+| `/api/v1/groups.list` | List the private groups the caller is part of. | [Groups](Groups/list.md) |
 | `/api/v1/groups.open` | Adds the private group back to the list of groups. | TODO! |
 | `/api/v1/groups.rename` | Changes the name of the private group. | TODO! |
 | `/api/v1/groups.setDescription` | Sets a private group's description. | TODO! |
