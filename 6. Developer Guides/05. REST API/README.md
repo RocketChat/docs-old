@@ -16,16 +16,70 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 * Ensure the calling user only has permissions for what they are calling an no more
 
 ## REST API v1 Methods
-| Url | Details Page |
-| --- | --- |
-| `/api/v1/info` | [Information](01.%20Information/) |
-| `/api/login` | [Authentication](02.%20Authentication/#rest-api-authentication) |
-| `/api/logout` | [Authentication](02.%20Authentication/#logout-details) |
-| `/api/v1/users.create` | [Users](03.%20Users/#users-create-details) |
-| `/api/v1/user.update` | [Users](03.%20Users/#user-update-details) |
-| `/api/v1/users.setAvatar` | [Users](03.%20Users/#user-set-photo-avatar)
-| `/api/v1/channels.create` | [Channels](04.%20Channels/) |
-| `/api/v1/groups.list` | [Groups](05.%20Groups/#groups-list-details) |
+
+### Miscellaneous Information
+| Url | Short Description | Details Page |
+| --- | --- | --- |
+| `/api/v1/info` | Information about the Rocket.Chat server. | [Link](Miscellaneous/info/) |
+
+### Authentication
+| Url | Short Description | Details Page |
+| --- | --- | --- |
+| `/api/v1/login` | Authenticate with the REST API. | [Link](Authentication/login/) |
+| `/api/v1/logout` | Invalidate your REST API authentication token. | [Link](Authentication/logout/) |
+| `/api/v1/me` | Displays information about the authenticated user. | [Link](Authentication/me/) |
+
+### Users
+| Url | Short Description | Details Page |
+| --- | --- | --- |
+| `/api/v1/users.create` | Create a new user. | [Link](Users/create/) |
+| `/api/v1/users.delete` | Deletes an existing user. | [Link](Users/delete/) |
+| `/api/v1/users.getPresence` | Gets the online presence of the a user. | [Link](Users/getPresence/) |
+| `/api/v1/users.info` | Gets a user's information, limited to the caller's permissions. | [Link](Users/info/) |
+| `/api/v1/users.list` | All of the users and their information, limited to permissions. | [Link](Users/list/) |
+| `/api/v1/users.setAvatar` | Set a user's avatar | [Link](Users/setAvatar/) |
+| `/api/v1/users.update` | Update an existing user. | [Link](Users/update/) |
+
+### Channels
+| Url | Short Description | Details Page |
+| --- | --- | --- |
+| `/api/v1/channels.addAll` | Adds all of the users on the server to a channel. | [Link](Channels/addAll/) |
+| `/api/v1/channels.archive` | Archives a channel. | [Link](Channels/archive/) |
+| `/api/v1/channels.cleanHistory` | Cleans up a channel's history, requires special permission. | [Link](Channels/cleanHistory/) |
+| `/api/v1/channels.close` | Removes a channel from a user's list of channels. | [Link](Channels/close/) |
+| `/api/v1/channels.create` | Creates a new channel. | [Link](Channels/create/) |
+| `/api/v1/channels.history` | Retrieves the messages from a channel. | [Link](Channels/history/) |
+| `/api/v1/channels.info` | Gets a channel's information. | [Link](Channels/info/) |
+| `/api/v1/channels.invite` | Adds a user to a channel. | TODO! |
+| `/api/v1/channels.kick` | Removes a user from a channel. | TODO! |
+| `/api/v1/channels.leave` | Removes the calling user from a channel. | TODO! |
+| `/api/v1/channels.list` | Retrives all of the channels from the server. | TODO! |
+| `/api/v1/channels.list.joined` | Gets only the channels the calling user has joined. | TODO! |
+| `/api/v1/channels.open` | Adds the channel back to the user's list of channels. | TODO! |
+| `/api/v1/channels.rename` | Changes a channel's name. | TODO! |
+| `/api/v1/channels.setDescription` | Sets a channel's description. | TODO! |
+| `/api/v1/channels.setPurpose` | Sets a channel's description. | TODO! |
+| `/api/v1/channels.setTopic` | Sets a channel's topic. | TODO! |
+| `/api/v1/channels.unarchive` | Unarchives a channel. | TODO! |
+
+### Groups
+| Url | Short Description | Details Page |
+| --- | --- | --- |
+| `/api/v1/groups.archive` | Archives a private group. | TODO! |
+| `/api/v1/groups.close` | Removes a private group from the list of groups. | TODO! |
+| `/api/v1/groups.create` | Creates a new private group. | TODO! |
+| `/api/v1/groups.history` | Retrieves the messages from a private group. | TODO! |
+| `/api/v1/groups.info` | Gets the information about a private group. | TODO! |
+| `/api/v1/groups.invite` | Adds a user to the private group. | TODO! |
+| `/api/v1/groups.kick` | Removes a user from a private group. | TODO! |
+| `/api/v1/groups.leave` | Removes the calling user from the private group. | TODO! |
+| `/api/v1/groups.list` | List the private groups the caller is part of. | [Groups](05.%20Groups/#groups-list-details) |
+| `/api/v1/groups.open` | Adds the private group back to the list of groups. | TODO! |
+| `/api/v1/groups.rename` | Changes the name of the private group. | TODO! |
+| `/api/v1/groups.setDescription` | Sets a private group's description. | TODO! |
+| `/api/v1/groups.setPurpose` | Sets a private group's description. | TODO! |
+| `/api/v1/groups.setTopic` | Sets a private group's topic. | TODO! |
+| `/api/v1/groups.unarchive` | Unarchives a private group. | TODO! |
 
 ## Language specific wrappers
 ### Java

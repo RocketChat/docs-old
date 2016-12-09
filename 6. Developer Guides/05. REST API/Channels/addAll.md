@@ -1,22 +1,24 @@
-# Channel Methods
-| Url | Quick Link |
-| --- | --- |
-| `/api/v1/channels.create` | [Channels Create Method](#channels-create-details) |
+---
+order: 1
+---
 
-## Channels Create Details
+# Channel Add All
+Adds all of the users of the Rocket.Chat server to the channel.
+
 | URL | Requires Auth | HTTP Method | Payload |
 | --- | --- | --- | --- |
-| `/api/v1/channels.create` | `yes` | `post` | Object: `{ name }` |
+| `/api/v1/channels.addAll` | `yes` | `post` | Object: `{ "roomId": "channelId" }` |
 
-### Example Call
+## Example Call
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
-     http://localhost:3000/api/v1/channels.create \
-     -d "name=channelname"
+     -H "Content-type: application/json" \
+     http://localhost:3000/api/v1/channels.addAll \
+     -d '{ "roomId": "channelId" }'
 ```
 
-### Example Result
+## Example Result
 ```json
 {
    "channel": {
@@ -24,12 +26,13 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
       "name": "channelname",
       "t": "c",
       "usernames": [
-         "username"
+         "example",
+         "rocket.cat"
       ],
       "msgs": 0,
       "u": {
          "_id": "aobEdbYhXfu5hkeqG",
-         "username": "username"
+         "username": "example"
       },
       "ts": "2016-05-30T13:42:25.304Z"
    },

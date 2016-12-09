@@ -1,17 +1,20 @@
-# Server Information
+---
+order: 1
+---
+
+# Info
 A simple method, requires no authentication, that returns information about the server including version information.
 
-## Details
 | URL | Requires Auth | HTTP Method | Payload |
 | --- | --- | --- | --- |
-| `/api/info` | `no` | `get` | _n/a_ | 
+| `/api/v1/info` | `no` | `get` | _n/a_ | 
 
-### Example Call
+## Example Call
 ```bash
 curl http://localhost:3000/api/v1/info
 ```
 
-### Example Result
+## Example Result
 ```json
 {
   "version": "0.47.0-develop",
