@@ -50,36 +50,36 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.create` | Creates a new channel. | [Link](Channels/create.md) |
 | `/api/v1/channels.history` | Retrieves the messages from a channel. | [Link](Channels/history.md) |
 | `/api/v1/channels.info` | Gets a channel's information. | [Link](Channels/info.md) |
-| `/api/v1/channels.invite` | Adds a user to a channel. | TODO! |
-| `/api/v1/channels.kick` | Removes a user from a channel. | TODO! |
-| `/api/v1/channels.leave` | Removes the calling user from a channel. | TODO! |
-| `/api/v1/channels.list` | Retrives all of the channels from the server. | TODO! |
-| `/api/v1/channels.list.joined` | Gets only the channels the calling user has joined. | TODO! |
-| `/api/v1/channels.open` | Adds the channel back to the user's list of channels. | TODO! |
-| `/api/v1/channels.rename` | Changes a channel's name. | TODO! |
-| `/api/v1/channels.setDescription` | Sets a channel's description. | TODO! |
-| `/api/v1/channels.setPurpose` | Sets a channel's description. | TODO! |
-| `/api/v1/channels.setTopic` | Sets a channel's topic. | TODO! |
-| `/api/v1/channels.unarchive` | Unarchives a channel. | TODO! |
+| `/api/v1/channels.invite` | Adds a user to a channel. | [Link](Channels/invite.md) |
+| `/api/v1/channels.kick` | Removes a user from a channel. | [Link](Channels/kick.md) |
+| `/api/v1/channels.leave` | Removes the calling user from a channel. | [Link](Channels/leave.md) |
+| `/api/v1/channels.list` | Retrives all of the channels from the server. | [Link](Channels/list.md) |
+| `/api/v1/channels.list.joined` | Gets only the channels the calling user has joined. | [Link](Channels/list.joined.md) |
+| `/api/v1/channels.open` | Adds the channel back to the user's list of channels. | [Link](Channels/open.md) |
+| `/api/v1/channels.rename` | Changes a channel's name. | [Link](Channels/rename.md) |
+| `/api/v1/channels.setDescription` | Sets a channel's description. | [Link](Channels/setDescription.md) |
+| `/api/v1/channels.setPurpose` | Sets a channel's description. | [Link](Channels/setPurpose.md) |
+| `/api/v1/channels.setTopic` | Sets a channel's topic. | [Link](Channels/setTopic.md) |
+| `/api/v1/channels.unarchive` | Unarchives a channel. | [Link](Channels/unarchive.md) |
 
 ### Groups
 | Url | Short Description | Details Page |
 | --- | --- | --- |
-| `/api/v1/groups.archive` | Archives a private group. | TODO! |
-| `/api/v1/groups.close` | Removes a private group from the list of groups. | TODO! |
-| `/api/v1/groups.create` | Creates a new private group. | TODO! |
-| `/api/v1/groups.history` | Retrieves the messages from a private group. | TODO! |
-| `/api/v1/groups.info` | Gets the information about a private group. | TODO! |
-| `/api/v1/groups.invite` | Adds a user to the private group. | TODO! |
-| `/api/v1/groups.kick` | Removes a user from a private group. | TODO! |
-| `/api/v1/groups.leave` | Removes the calling user from the private group. | TODO! |
-| `/api/v1/groups.list` | List the private groups the caller is part of. | [Groups](Groups/list.md) |
-| `/api/v1/groups.open` | Adds the private group back to the list of groups. | TODO! |
-| `/api/v1/groups.rename` | Changes the name of the private group. | TODO! |
-| `/api/v1/groups.setDescription` | Sets a private group's description. | TODO! |
-| `/api/v1/groups.setPurpose` | Sets a private group's description. | TODO! |
-| `/api/v1/groups.setTopic` | Sets a private group's topic. | TODO! |
-| `/api/v1/groups.unarchive` | Unarchives a private group. | TODO! |
+| `/api/v1/groups.archive` | Archives a private group. | [Link](Groups/archive.md) |
+| `/api/v1/groups.close` | Removes a private group from the list of groups. | [Link](Groups/close.md) |
+| `/api/v1/groups.create` | Creates a new private group. | [Link](Groups/create.md) |
+| `/api/v1/groups.history` | Retrieves the messages from a private group. | [Link](Groups/history.md) |
+| `/api/v1/groups.info` | Gets the information about a private group. | [Link](Groups/info.md) |
+| `/api/v1/groups.invite` | Adds a user to the private group. | [Link](Groups/invite.md) |
+| `/api/v1/groups.kick` | Removes a user from a private group. | [Link](Groups/kick.md) |
+| `/api/v1/groups.leave` | Removes the calling user from the private group. | [Link](Groups/leave.md) |
+| `/api/v1/groups.list` | List the private groups the caller is part of. | [Link](Groups/list.md) |
+| `/api/v1/groups.open` | Adds the private group back to the list of groups. | [Link](Groups/open.md) |
+| `/api/v1/groups.rename` | Changes the name of the private group. | [Link](Groups/rename.md) |
+| `/api/v1/groups.setDescription` | Sets a private group's description. | [Link](Groups/setDescription.md) |
+| `/api/v1/groups.setPurpose` | Sets a private group's description. | [Link](Groups/setPurpose.md) |
+| `/api/v1/groups.setTopic` | Sets a private group's topic. | [Link](Groups/setTopic.md) |
+| `/api/v1/groups.unarchive` | Unarchives a private group. | [Link](Groups/unarchive.md) |
 
 ## Language specific wrappers
 ### Java

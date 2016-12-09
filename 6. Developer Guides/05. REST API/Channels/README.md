@@ -12,14 +12,14 @@ order: 30
 | `/api/v1/channels.create` | Creates a new channel. | [Link](create.md) |
 | `/api/v1/channels.history` | Retrieves the messages from a channel. | [Link](history.md) |
 | `/api/v1/channels.info` | Gets a channel's information. | [Link](info.md) |
-| `/api/v1/channels.invite` | Adds a user to a channel. | TODO! |
-| `/api/v1/channels.kick` | Removes a user from a channel. | TODO! |
-| `/api/v1/channels.leave` | Removes the calling user from a channel. | TODO! |
-| `/api/v1/channels.list` | Retrives all of the channels from the server. | TODO! |
-| `/api/v1/channels.list.joined` | Gets only the channels the calling user has joined. | TODO! |
-| `/api/v1/channels.open` | Adds the channel back to the user's list of channels. | TODO! |
-| `/api/v1/channels.rename` | Changes a channel's name. | TODO! |
-| `/api/v1/channels.setDescription` | Sets a channel's description. | TODO! |
-| `/api/v1/channels.setPurpose` | Sets a channel's description. | TODO! |
-| `/api/v1/channels.setTopic` | Sets a channel's topic. | TODO! |
-| `/api/v1/channels.unarchive` | Unarchives a channel. | TODO! |
+| `/api/v1/channels.invite` | Adds a user to a channel. | [Link](invite.md) |
+| `/api/v1/channels.kick` | Removes a user from a channel. | [Link](kick.md) |
+| `/api/v1/channels.leave` | Removes the calling user from a channel. | [Link](leave.md) |
+| `/api/v1/channels.list` | Retrives all of the channels from the server. | [Link](list.md) |
+| `/api/v1/channels.list.joined` | Gets only the channels the calling user has joined. | [Link](list.joined.md) |
+| `/api/v1/channels.open` | Adds the channel back to the user's list of channels. | [Link](open.md) |
+| `/api/v1/channels.rename` | Changes a channel's name. | [Link](rename.md) |
+| `/api/v1/channels.setDescription` | Sets a channel's description. | [Link](setDescription.md) |
+| `/api/v1/channels.setPurpose` | Sets a channel's description. | [Link](setPurpose.md) |
+| `/api/v1/channels.setTopic` | Sets a channel's topic. | [Link](setTopic.md) |
+| `/api/v1/channels.unarchive` | Unarchives a channel. | [Link](unarchive.md) |
