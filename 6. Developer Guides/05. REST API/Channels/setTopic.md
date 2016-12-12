@@ -6,12 +6,12 @@ order: 80
 Sets the topic for the channel.
 
 | URL | Requires Auth | HTTP Method |
-| --- | ------------- | ----------- |
+| :--- | :--- | :--- |
 | `/api/v1/channels.setTopic` | `yes` | `post` |
 
 ## Parameters
 | Argument | Example | Required | Description |
-| -------- | ------- | -------- | ----------- |
+| :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |
 | `topic` | `Discuss all of the testing.` | Required | The channel's topic to set. |
 

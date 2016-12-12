@@ -6,12 +6,12 @@ order: 45
 Causes the callee to be removed from the channel.
 
 | URL | Requires Auth | HTTP Method |
-| --- | ------------- | ----------- |
+| :--- | :--- | :--- |
 | `/api/v1/channels.leave` | `yes` | `post` |
 
 ## Parameters
 | Argument | Example | Required | Description |
-| -------- | ------- | -------- | ----------- |
+| :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |
 
 ## Example Call

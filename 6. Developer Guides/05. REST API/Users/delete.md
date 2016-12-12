@@ -4,7 +4,7 @@ order: 15
 
 # User Delete
 | URL | Requires Auth | HTTP Method | Payload |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | `/api/v1/users.delete` | `yes` | `post` | Object: `{ userId }` |
 
 ## Example Call

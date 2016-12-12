@@ -6,12 +6,12 @@ order: 70
 Sets the description for the channel.
 
 | URL | Requires Auth | HTTP Method |
-| --- | ------------- | ----------- |
+| :--- | :--- | :--- |
 | `/api/v1/channels.setDescription` | `yes` | `post` |
 
 ## Parameters
 | Argument | Example | Required | Description |
-| -------- | ------- | -------- | ----------- |
+| :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |
 | `description` | `Test out everything.` | Required | The description to set for the channel. |
 

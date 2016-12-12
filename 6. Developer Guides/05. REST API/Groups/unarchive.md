@@ -6,12 +6,12 @@ order: 75
 Unarchives a private group.
 
 | URL | Requires Auth | HTTP Method |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | `/api/v1/groups.unarchive` | `yes` | `post` |
 
 ## Parameters
 | Argument | Example | Required | Description |
-| -------- | ------- | -------- | ----------- |
+| :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The private group's id |
 
 ## Example Call

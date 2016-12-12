@@ -6,12 +6,12 @@ order: 40
 Causes the callee to be removed from the private group, if they're part of it and are not the last owner.
 
 | URL | Requires Auth | HTTP Method |
-| --- | ------------- | ----------- |
+| :--- | :--- | :--- |
 | `/api/v1/groups.leave` | `yes` | `post` |
 
 ## Parameters
 | Argument | Example | Required | Description |
-| -------- | ------- | -------- | ----------- |
+| :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The private group's id |
 
 ## Example Call

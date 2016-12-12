@@ -6,12 +6,12 @@ order: 5
 Archives a channel.
 
 | URL | Requires Auth | HTTP Method |
-| --- | ------------- | ----------- |
+| :--- | :--- | :--- |
 | `/api/v1/channels.archive` | `yes` | `post` |
 
 ## Parameters
 | Argument | Example | Required | Description |
-| -------- | ------- | -------- | ----------- |
+| :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |
 
 ## Example Call

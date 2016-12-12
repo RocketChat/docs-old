@@ -19,19 +19,19 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Miscellaneous Information
 | Url | Short Description | Details Page |
-| --- | ----------------- | ------------ |
+| :--- | :--- | :--- |
 | `/api/v1/info` | Information about the Rocket.Chat server. | [Link](Miscellaneous/info.md) |
 
 ### Authentication
 | Url | Short Description | Details Page |
-| --- | ----------------- | ------------ |
+| :--- | :--- | :--- |
 | `/api/v1/login` | Authenticate with the REST API. | [Link](Authentication/login.md) |
 | `/api/v1/logout` | Invalidate your REST API authentication token. | [Link](Authentication/logout.md) |
 | `/api/v1/me` | Displays information about the authenticated user. | [Link](Authentication/me.md) |
 
 ### Users
 | Url | Short Description | Details Page |
-| --- | ----------------- | ------------ |
+| :--- | :--- | :--- |
 | `/api/v1/users.create` | Create a new user. | [Link](Users/create.md) |
 | `/api/v1/users.delete` | Deletes an existing user. | [Link](Users/delete.md) |
 | `/api/v1/users.getPresence` | Gets the online presence of the a user. | [Link](Users/getPresence.md) |
@@ -42,7 +42,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Channels
 | Url | Short Description | Details Page |
-| --- | ----------------- | ------------ |
+| :--- | :--- | :--- |
 | `/api/v1/channels.addAll` | Adds all of the users on the server to a channel. | [Link](Channels/addAll.md) |
 | `/api/v1/channels.archive` | Archives a channel. | [Link](Channels/archive.md) |
 | `/api/v1/channels.cleanHistory` | Cleans up a channel's history, requires special permission. | [Link](Channels/cleanHistory.md) |
@@ -64,7 +64,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Groups
 | Url | Short Description | Details Page |
-| --- | ----------------- | ------------ |
+| :--- | :--- | :--- |
 | `/api/v1/groups.archive` | Archives a private group. | [Link](Groups/archive.md) |
 | `/api/v1/groups.close` | Removes a private group from the list of groups. | [Link](Groups/close.md) |
 | `/api/v1/groups.create` | Creates a new private group. | [Link](Groups/create.md) |
@@ -83,7 +83,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Settings
 | Url | Method | Short Description | Details Page |
-| --- | ------ | ----------------- | ------------ |
+| :--- | :--- | :--- | :--- |
 | `/api/v1/settings/:_id` | `GET` | Gets a setting. | [Link](Settings/get.md) |
 | `/api/v1/settings/:_id` | `POST` | Updates a setting. | [Link](Settings/update.md) |
 

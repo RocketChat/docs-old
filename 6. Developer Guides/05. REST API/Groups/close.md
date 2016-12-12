@@ -6,12 +6,12 @@ order: 10
 Removes the private group from the user's list of groups, only if you're part of the group.
 
 | URL | Requires Auth | HTTP Method |
-| --- | ------------- | ----------- |
+| :--- | :--- | :--- |
 | `/api/v1/groups.close` | `yes` | `post` |
 
 ## Parameters
 | Argument | Example | Required | Description |
-| -------- | ------- | -------- | ----------- |
+| :--- | :--- | :--- | :--- |
 | `roomId` | `HyehQjC44FwMeiLbX` | Required | The groups's id |
 
 ## Example Call

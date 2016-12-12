@@ -6,12 +6,12 @@ order: 15
 Creates a new private group, optionally including users, only if you're part of the group.
 
 | URL | Requires Auth | HTTP Method |
-| --- | ------------- | ----------- |
+| :--- | :--- | :--- |
 | `/api/v1/groups.create` | `yes` | `post` |
 
 ## Parameters
 | Argument | Example | Required | Description |
-| -------- | ------- | -------- | ----------- |
+| :--- | :--- | :--- | :--- |
 | `name` | `testing` | Required | The name of the new private group |
 | `members` | `["rocket.cat"]` | Optional <br> Default: `[]` | The members who should be in the room when it is created. |
 

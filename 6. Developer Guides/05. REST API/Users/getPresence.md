@@ -6,7 +6,7 @@ order: 20
 Gets a user's presence if the query string `userId` is provided, otherwise it gets the callee's.
 
 | URL | Requires Auth | HTTP Method | Query Parameters |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | `/api/v1/users.getPresence` | `yes` | `get` | Optional: `userId=otherUserId` |
 
 ## Other Users Example Call

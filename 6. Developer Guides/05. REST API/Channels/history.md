@@ -6,12 +6,12 @@ order: 25
 Retrieves the messages from a channel.
 
 | URL | Requires Auth | HTTP Method |
-| --- | ------------- | ----------- |
+| :--- | :--- | :--- |
 | `/api/v1/channels.history` | `yes` | `get` |
 
 ## Parameters
 | Argument | Example | Required | Description |
-| -------- | ------- | -------- | ----------- |
+| :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |
 | `latest` | `2016-09-30T13:42:25.304Z` | Optional <br> Default: now | The end of time range of messages to retrieve |
 | `oldest` | `2016-05-30T13:42:25.304Z` | Optional <br> Default: _n/a_ | The start of the time range of messages to retrieve |

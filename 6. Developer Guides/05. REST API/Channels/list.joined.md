@@ -6,7 +6,7 @@ order: 55
 Lists all of the channels the calling user has joined.
 
 | URL | Requires Auth | HTTP Method |
-| --- | ------------- | ----------- |
+| :--- | :--- | :--- |
 | `/api/v1/channels.list.joined` | `yes` | `get` |
 
 ## Example Call

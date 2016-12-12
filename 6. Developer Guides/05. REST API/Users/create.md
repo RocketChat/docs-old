@@ -4,7 +4,7 @@ order: 10
 
 # User Create
 | URL | Requires Auth | HTTP Method | Payload |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | `/api/v1/users.create` | `yes` | `post` | Object: `{ name, email, username, password, customFields: { "twitter": "example" } }` |
 
 ## Example Call

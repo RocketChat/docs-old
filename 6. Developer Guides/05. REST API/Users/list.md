@@ -6,7 +6,7 @@ order: 30
 Gets all of the users in the system and their information, the result is only limited to what the callee has access to view.
 
 | URL | Requires Auth | HTTP Method | Query Parameters |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | `/api/v1/users.list` | `yes` | `get` | _n/a_ |
 
 ## Other Users Example Call

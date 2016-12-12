@@ -6,12 +6,12 @@ order: 70
 Sets the topic for the private group.
 
 | URL | Requires Auth | HTTP Method |
-| --- | ------------- | ----------- |
+| :--- | :--- | :--- |
 | `/api/v1/groups.setTopic` | `yes` | `post` |
 
 ## Parameters
 | Argument | Example | Required | Description |
-| -------- | ------- | -------- | ----------- |
+| :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The private group's id |
 | `topic` | `Discuss all of the testing.` | Required | The private group's topic to set. |
 

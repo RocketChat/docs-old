@@ -4,7 +4,7 @@ order: 40
 
 # Group Methods
 | Url | Short Description | Details Page |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | `/api/v1/groups.archive` | Archives a private group. | [Link](archive.md) |
 | `/api/v1/groups.close` | Removes a private group from the list of groups. | [Link](close.md) |
 | `/api/v1/groups.create` | Creates a new private group. | [Link](create.md) |
