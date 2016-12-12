@@ -6,7 +6,7 @@ order: 50
 Lists all of the channels on the server.
 
 | URL | Requires Auth | HTTP Method |
-| --- | ------------- | ----------- |
+| :--- | :--- | :--- |
 | `/api/v1/channels.list` | `yes` | `get` |
 
 ## Example Call

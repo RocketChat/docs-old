@@ -6,12 +6,12 @@ order: 20
 Updates the setting for the provided `_id`.
 
 | URL | Requires Auth | HTTP Method |
-| --- | ------------- | ----------- |
+| :--- | :--- | :--- |
 | `/api/v1/settings/:_id` | `yes` | `get` |
 
 ## Parameters
 | Argument | Example | Required | Description |
-| -------- | ------- | -------- | ----------- |
+| :--- | :--- | :--- | :--- |
 | `_id` | `Livechat_enabled` | Required | The setting's `_id` field |
 | `value` | `true` | Required | The value to update the setting. |
 

@@ -6,12 +6,12 @@ order: 20
 Creates a new public channel, optionally including users.
 
 | URL | Requires Auth | HTTP Method |
-| --- | ------------- | ----------- |
+| :--- | :--- | :--- |
 | `/api/v1/channels.create` | `yes` | `post` |
 
 ## Parameters
 | Argument | Example | Required | Description |
-| -------- | ------- | -------- | ----------- |
+| :--- | :--- | :--- | :--- |
 | `name` | `channelname` | Required | The name of the new channel |
 | `members` | `["rocket.cat"]` | Optional <br> Default: `[]` | The members who should be in the room when it is created. |
 

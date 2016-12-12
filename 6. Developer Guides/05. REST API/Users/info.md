@@ -6,7 +6,7 @@ order: 25
 Retrieves information about a user, the result is only limited to what the callee has access to view.
 
 | URL | Requires Auth | HTTP Method | Query Parameters |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | `/api/v1/users.info` | `yes` | `get` | `userId=otherUserId` |
 
 ## Other Users Example Call

@@ -4,7 +4,7 @@ order: 1
 
 # Login
 | URL | Requires Auth | HTTP Method | Payload |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | `/api/v1/login` | `no` | `post` | Object: `{ user, password }` |
 
 * Notes:

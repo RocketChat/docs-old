@@ -4,7 +4,7 @@ order: 10
 
 # Logout
 | URL | Requires Auth | HTTP Method | Payload |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | `/api/v1/logout` | `yes` | `get` | _n/a_ |
 
 ## Example Call

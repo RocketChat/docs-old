@@ -6,7 +6,7 @@ order: 1
 A simple method, requires no authentication, that returns information about the server including version information.
 
 | URL | Requires Auth | HTTP Method | Payload |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | `/api/v1/info` | `no` | `get` | _n/a_ | 
 
 ## Example Call

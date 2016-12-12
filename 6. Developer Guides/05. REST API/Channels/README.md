@@ -4,7 +4,7 @@ order: 30
 
 # Channel Methods
 | Url | Short Description | Details Page |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | `/api/v1/channels.addAll` | Adds all of the users on the server to a channel. | [Link](addAll.md) |
 | `/api/v1/channels.archive` | Archives a channel. | [Link](archive.md) |
 | `/api/v1/channels.cleanHistory` | Cleans up a channel's history, requires special permission. | [Link](cleanHistory.md) |

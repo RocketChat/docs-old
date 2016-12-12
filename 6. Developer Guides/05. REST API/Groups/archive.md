@@ -6,12 +6,12 @@ order: 5
 Archives a private group, only if you're part of the group.
 
 | URL | Requires Auth | HTTP Method |
-| --- | ------------- | ----------- |
+| :--- | :--- | :--- |
 | `/api/v1/groups.archive` | `yes` | `post` |
 
 ## Parameters
 | Argument | Example | Required | Description |
-| -------- | ------- | -------- | ----------- |
+| :--- | :--- | :--- | :--- |
 | `roomId` | `HyehQjC44FwMeiLbX` | Required | The private groups's id |
 
 ## Example Call
