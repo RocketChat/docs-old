@@ -7,7 +7,7 @@ Lists all of the private groups the calling user has joined.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/groups.list` | `yes` | `get` |
+| `/api/v1/groups.list` | `yes` | `GET` |
 
 ## Example Call
 ```bash

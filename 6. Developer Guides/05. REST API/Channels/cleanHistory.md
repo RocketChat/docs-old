@@ -7,7 +7,7 @@ Cleans up a channel, removing messages from the provided time range.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.cleanHistory` | `yes` | `post` |
+| `/api/v1/channels.cleanHistory` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

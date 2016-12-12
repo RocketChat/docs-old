@@ -7,7 +7,7 @@ Quick information about the authenticated user.
 
 | URL | Requires Auth | HTTP Method | Payload |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/me` | `yes` | `get` | _n/a_ | 
+| `/api/v1/me` | `yes` | `GET` | _n/a_ | 
 
 ## Example Call
 ```bash

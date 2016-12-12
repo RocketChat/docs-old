@@ -7,7 +7,7 @@ Removes the channel from the user's list of channels.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.close` | `yes` | `post` |
+| `/api/v1/channels.close` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

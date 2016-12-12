@@ -7,7 +7,7 @@ Adds the private group back to the user's list of private groups.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/groups.open` | `yes` | `post` |
+| `/api/v1/groups.open` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

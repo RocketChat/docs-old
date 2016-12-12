@@ -7,7 +7,7 @@ Lists all of the channels the calling user has joined.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.list.joined` | `yes` | `get` |
+| `/api/v1/channels.list.joined` | `yes` | `GET` |
 
 ## Example Call
 ```bash

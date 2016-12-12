@@ -7,7 +7,7 @@ Removes a user from the private group.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/groups.kick` | `yes` | `post` |
+| `/api/v1/groups.kick` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

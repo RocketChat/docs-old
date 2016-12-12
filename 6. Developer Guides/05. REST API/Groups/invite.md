@@ -7,7 +7,7 @@ Adds a user to the private group.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/groups.invite` | `yes` | `post` |
+| `/api/v1/groups.invite` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

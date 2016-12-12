@@ -7,7 +7,7 @@ Removes the private group from the user's list of groups, only if you're part of
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/groups.close` | `yes` | `post` |
+| `/api/v1/groups.close` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

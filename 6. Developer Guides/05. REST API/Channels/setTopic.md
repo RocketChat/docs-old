@@ -7,7 +7,7 @@ Sets the topic for the channel.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.setTopic` | `yes` | `post` |
+| `/api/v1/channels.setTopic` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

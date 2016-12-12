@@ -7,7 +7,7 @@ Creates a new public channel, optionally including users.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.create` | `yes` | `post` |
+| `/api/v1/channels.create` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

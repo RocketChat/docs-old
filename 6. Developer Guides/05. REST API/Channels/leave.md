@@ -7,7 +7,7 @@ Causes the callee to be removed from the channel.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.leave` | `yes` | `post` |
+| `/api/v1/channels.leave` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

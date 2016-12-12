@@ -7,7 +7,7 @@ Changes the name of the channel.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.rename` | `yes` | `post` |
+| `/api/v1/channels.rename` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

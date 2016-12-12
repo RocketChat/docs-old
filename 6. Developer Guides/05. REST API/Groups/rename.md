@@ -7,7 +7,7 @@ Changes the name of the private group.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/groups.rename` | `yes` | `post` |
+| `/api/v1/groups.rename` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

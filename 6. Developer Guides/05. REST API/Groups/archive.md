@@ -7,7 +7,7 @@ Archives a private group, only if you're part of the group.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/groups.archive` | `yes` | `post` |
+| `/api/v1/groups.archive` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

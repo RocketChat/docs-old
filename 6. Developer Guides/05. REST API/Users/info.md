@@ -7,7 +7,7 @@ Retrieves information about a user, the result is only limited to what the calle
 
 | URL | Requires Auth | HTTP Method | Query Parameters |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/users.info` | `yes` | `get` | `userId=otherUserId` |
+| `/api/v1/users.info` | `yes` | `GET` | `userId=otherUserId` |
 
 ## Other Users Example Call
 ```bash

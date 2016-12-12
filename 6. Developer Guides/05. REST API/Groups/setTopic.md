@@ -7,7 +7,7 @@ Sets the topic for the private group.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/groups.setTopic` | `yes` | `post` |
+| `/api/v1/groups.setTopic` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

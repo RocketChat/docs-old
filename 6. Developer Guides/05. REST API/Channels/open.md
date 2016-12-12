@@ -7,7 +7,7 @@ Adds the channel back to the user's list of channels.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.open` | `yes` | `post` |
+| `/api/v1/channels.open` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

@@ -7,7 +7,7 @@ Adds a user to the channel.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.invite` | `yes` | `post` |
+| `/api/v1/channels.invite` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

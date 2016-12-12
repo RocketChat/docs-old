@@ -7,7 +7,7 @@ A simple method, requires no authentication, that returns information about the 
 
 | URL | Requires Auth | HTTP Method | Payload |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/info` | `no` | `get` | _n/a_ | 
+| `/api/v1/info` | `no` | `GET` | _n/a_ | 
 
 ## Example Call
 ```bash
