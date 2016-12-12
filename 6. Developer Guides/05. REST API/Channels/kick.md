@@ -7,7 +7,7 @@ Removes a user from the channel.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.kick` | `yes` | `post` |
+| `/api/v1/channels.kick` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

@@ -7,7 +7,7 @@ Creates a new private group, optionally including users, only if you're part of 
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/groups.create` | `yes` | `post` |
+| `/api/v1/groups.create` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

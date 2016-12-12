@@ -7,7 +7,7 @@ Lists all of the channels on the server.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.list` | `yes` | `get` |
+| `/api/v1/channels.list` | `yes` | `GET` |
 
 ## Example Call
 ```bash

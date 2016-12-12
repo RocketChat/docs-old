@@ -1,7 +1,7 @@
 # User Update
 | URL | Requires Auth | HTTP Method | Payload |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/user.update` | `yes` | `post` | Object: `{ name, email, username, password, customFields: { "twitter": "example" } }` |
+| `/api/v1/user.update` | `yes` | `POST` | Object: `{ name, email, username, password, customFields: { "twitter": "example" } }` |
 
 ## Example Call
 ```bash

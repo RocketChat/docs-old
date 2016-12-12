@@ -7,7 +7,7 @@ Causes the callee to be removed from the private group, if they're part of it an
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/groups.leave` | `yes` | `post` |
+| `/api/v1/groups.leave` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

@@ -7,7 +7,7 @@ Unarchives a channel.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/channels.unarchive` | `yes` | `post` |
+| `/api/v1/channels.unarchive` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

@@ -7,7 +7,7 @@ Retrieves the messages from a channel.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.history` | `yes` | `get` |
+| `/api/v1/channels.history` | `yes` | `GET` |
 
 ## Parameters
 | Argument | Example | Required | Description |

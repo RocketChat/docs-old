@@ -7,7 +7,7 @@ Retrieves the information about the private group, only if you're part of the gr
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/groups.info` | `yes` | `get` |
+| `/api/v1/groups.info` | `yes` | `GET` |
 
 ## Parameters
 | Argument | Example | Required | Description |

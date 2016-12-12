@@ -7,7 +7,7 @@ Updates the setting for the provided `_id`.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/settings/:_id` | `yes` | `get` |
+| `/api/v1/settings/:_id` | `yes` | `GET` |
 
 ## Parameters
 | Argument | Example | Required | Description |

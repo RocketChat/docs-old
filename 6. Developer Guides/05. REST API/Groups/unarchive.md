@@ -7,7 +7,7 @@ Unarchives a private group.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/groups.unarchive` | `yes` | `post` |
+| `/api/v1/groups.unarchive` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

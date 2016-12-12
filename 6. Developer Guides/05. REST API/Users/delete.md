@@ -5,7 +5,7 @@ order: 15
 # User Delete
 | URL | Requires Auth | HTTP Method | Payload |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/users.delete` | `yes` | `post` | Object: `{ userId }` |
+| `/api/v1/users.delete` | `yes` | `POST` | Object: `{ userId }` |
 
 ## Example Call
 ```bash

@@ -7,7 +7,7 @@ Sets the description for the channel.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.setPurpose` | `yes` | `post` |
+| `/api/v1/channels.setPurpose` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

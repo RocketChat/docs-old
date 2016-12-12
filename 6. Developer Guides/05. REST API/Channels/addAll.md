@@ -7,7 +7,7 @@ Adds all of the users of the Rocket.Chat server to the channel.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.addAll` | `yes` | `post` |
+| `/api/v1/channels.addAll` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

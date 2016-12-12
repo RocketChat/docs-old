@@ -7,7 +7,7 @@ Sets the description for the private group.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/groups.setDescription` | `yes` | `post` |
+| `/api/v1/groups.setDescription` | `yes` | `POST` |
 
 ## Parameters
 | Argument | Example | Required | Description |

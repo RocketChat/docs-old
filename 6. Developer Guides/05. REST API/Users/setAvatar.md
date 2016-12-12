@@ -1,7 +1,7 @@
 # User Set Photo/Avatar
 | URL | Requires Auth | HTTP Method | Payload |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/users.setAvatar` | `yes` | `post` | Object: `{ avatarUrl: "http://domain.tld/to/my/own/avatar.jpg" }` _or_ a file |
+| `/api/v1/users.setAvatar` | `yes` | `POST` | Object: `{ avatarUrl: "http://domain.tld/to/my/own/avatar.jpg" }` _or_ a file |
 
 ## Upload a file
 

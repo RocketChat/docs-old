@@ -5,7 +5,7 @@ order: 1
 # Login
 | URL | Requires Auth | HTTP Method | Payload |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/login` | `no` | `post` | Object: `{ user, password }` |
+| `/api/v1/login` | `no` | `POST` | Object: `{ user, password }` |
 
 * Notes:
  * **You will need to provide the `authToken` and `userId` for any of the authenticated methods.**

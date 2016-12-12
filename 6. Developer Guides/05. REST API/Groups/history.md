@@ -7,7 +7,7 @@ Retrieves the messages from a private group, only if you're part of the group.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/groups.history` | `yes` | `get` |
+| `/api/v1/groups.history` | `yes` | `GET` |
 
 ## Parameters
 | Argument | Example | Required | Description |

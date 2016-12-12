@@ -7,7 +7,7 @@ Retrieves the information about the channel.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.info` | `yes` | `get` |
+| `/api/v1/channels.info` | `yes` | `GET` |
 
 ## Parameters
 | Argument | Example | Required | Description |
