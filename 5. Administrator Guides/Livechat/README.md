@@ -142,10 +142,9 @@ The field **Secret Token** is sent to a header `X-RocketChat-Livechat-Token` so 
 
 If your endpoint returns a response status other than 200, Rocket.Chat will retry 10 times waiting 10 seconds between retries.
 
-
 ### Widget Embedding
 
-## Magento 2 
+#### Magento 2 
 
 Magento 2 depends on **RequireJS** to load JavaScript resources, so we need to change the widget code a little to look like:
 
