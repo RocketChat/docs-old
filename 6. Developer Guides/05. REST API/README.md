@@ -81,6 +81,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.setTopic` | Sets a private group's topic. | [Link](Groups/setTopic.md) |
 | `/api/v1/groups.unarchive` | Unarchives a private group. | [Link](Groups/unarchive.md) |
 
+### Chat
+| Url | Short Description | Details Page |
+| :--- | :--- | :--- |
+| `/api/v1/chat.delete` | Deletes a chat message. | [Link](Chat/delete.md) |
+| `/api/v1/chat.postMessage` | Posts a new chat message. | [Link](Chat/postMessage.md) |
+
 ### Settings
 | Url | Method | Short Description | Details Page |
 | :--- | :--- | :--- | :--- |
