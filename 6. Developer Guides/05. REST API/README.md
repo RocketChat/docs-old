@@ -16,6 +16,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 * Ensure the calling user only has permissions for what they are calling an no more
 
 ## REST API v1 Methods
+**Warning**: Majority of these APIs are only in Rocket.Chat starting at version `0.48.1`!! Do *not* open an issue saying it doesn't work if you're below this version. 
 
 ### Miscellaneous Information
 | Url | Short Description | Details Page |
