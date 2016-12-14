@@ -141,3 +141,26 @@ Here is an example of the JSON data sent on a livechat offline message:
 The field **Secret Token** is sent to a header `X-RocketChat-Livechat-Token` so you can validate if the request became from the livechat.
 
 If your endpoint returns a response status other than 200, Rocket.Chat will retry 10 times waiting 10 seconds between retries.
+
+
+### Widget Embedding
+
+## Magento 2 
+
+Magento 2 depends on **RequireJS** to load JavaScript resources, so we need to change the widget code a little to look like:
+
+```
+   <script defer="defer" async="async" type="text/javascript">
+        require([ 'jquery' ], function ($) {
+            (function(w, d, s, u) {
+                w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
+                var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
+                j.async = true; j.src = 'https://rc.example.com/packages/rocketchat_livechat/assets/rocket-livechat.js';
+                h.parentNode.insertBefore(j, h);
+            })(window, document, 'script', 'https://rc.example.com/livechat');
+        });
+    </script>
+
+```
+Replace the `https://rc.example.com/` with your Rocket.Chat (sub-)domain, and pase the code into your theme file `/app/design/frontend/Theme_provider/theme_name/Magento_Theme/templates/root.phtml` righr before the closing `</html>` tag.
+Flush your PHP OpCode cache, and you are ready to go.
