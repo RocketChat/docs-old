@@ -16,6 +16,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 * Ensure the calling user only has permissions for what they are calling an no more
 
 ## REST API v1 Methods
+**Warning**: Majority of these APIs are only in Rocket.Chat starting at version `0.48.1`!! Do *not* open an issue saying it doesn't work if you're below this version. 
 
 ### Miscellaneous Information
 | Url | Short Description | Details Page |
@@ -80,6 +81,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.setPurpose` | Sets a private group's description. | [Link](Groups/setPurpose.md) |
 | `/api/v1/groups.setTopic` | Sets a private group's topic. | [Link](Groups/setTopic.md) |
 | `/api/v1/groups.unarchive` | Unarchives a private group. | [Link](Groups/unarchive.md) |
+
+### Chat
+| Url | Short Description | Details Page |
+| :--- | :--- | :--- |
+| `/api/v1/chat.delete` | Deletes a chat message. | [Link](Chat/delete.md) |
+| `/api/v1/chat.postMessage` | Posts a new chat message. | [Link](Chat/postMessage.md) |
 
 ### Settings
 | Url | Method | Short Description | Details Page |
