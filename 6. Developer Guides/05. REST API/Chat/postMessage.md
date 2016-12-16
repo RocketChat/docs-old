@@ -100,7 +100,7 @@ The field property of the attachments allows for "tables" or "columns" to be dis
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type:application/json" \
-     http://localhost:3000/api/v1/users.postMessage \
+     http://localhost:3000/api/v1/chat.postMessage \
      -d '{ "channel": "#general", "text": "This is a test!" }'
 ```
 
