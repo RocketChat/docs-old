@@ -2,7 +2,7 @@
 order: 10
 ---
 
-# User Delete
+# Chat Message Delete
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |
 | `/api/v1/chat.delete` | `yes` | `POST` |
@@ -19,7 +19,7 @@ order: 10
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type:application/json" \
-     http://localhost:3000/api/v1/users.delete \
+     http://localhost:3000/api/v1/chat.delete \
      -d '{ "roomId": "ByehQjC44FwMeiLbX", "msgId": "7aDSXtjMA3KPLxLjt", "asUser": true }'
 ```
 
