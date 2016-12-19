@@ -62,7 +62,7 @@ class Script {
       }; 
     } else {
       return {
-        url: request.url + '&parse_mode=HTML' + '&text=' + '<b>' + request.data.user_name+ '</b>: ' + request.data.text,
+        url: request.url + '&parse_mode=HTML' + '&text=' + encodeURIComponent('<b>' + request.data.user_name+ '</b>: ' + request.data.text),
         method: 'GET'
       }; 
     }
