@@ -64,10 +64,10 @@ Bind that service to your app:
 cf bind-service <your app name> <your db name>
 ```
 
-All that is left to do now is to push Rocket.Chat to the app you created early in the dashboard (using a community contributed buildpack):
+All that is left to do now is to push Rocket.Chat to the app you created early in the dashboard using meteor-buildpack-horse:
 
 ```
-cf push <your app name> -m 512M -b https://github.com/ind1go/bluemix-buildpack-meteor.git
+cf push <your app name> -m 512M -b https://github.com/RocketChat/meteor-buildpack-horse.git
 ```
 
 That's it.  Everybody on the Internet can now access your instance of Rocket.Chat at `https://<your app name>.mybluemix.net/`.
