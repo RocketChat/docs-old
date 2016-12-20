@@ -13,6 +13,9 @@ Snaps are secure. Rocket.Chat and all of its dependencies are isolated from the 
 
 ## FAQ
 If you have questions about snaps best place to ask them is in: [#ubuntu-snap](https://demo.rocket.chat/channel/ubuntu-snap)
+### Ubuntu 16.04 LTS gives message "snap not found", whats wrong?
+
+Make sure you're using x64 or amd64 (or armhf) images, especially on VPS or VMs. x86 is 32 bit and not supported.
 
 ### How do I manually update to new release?
 
