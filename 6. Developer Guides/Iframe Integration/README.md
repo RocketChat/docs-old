@@ -1,3 +1,7 @@
+---
+order: 9
+---
+
 # Iframe Integration
 
 ## Use your own login page to login users in Rocket.Chat
