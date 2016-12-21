@@ -161,5 +161,5 @@ Magento 2 depends on **RequireJS** to load JavaScript resources, so we need to c
     </script>
 
 ```
-Replace the `https://rc.example.com/` with your Rocket.Chat (sub-)domain, and pase the code into your theme file `/app/design/frontend/Theme_provider/theme_name/Magento_Theme/templates/root.phtml` righr before the closing `</html>` tag.
+Replace the `https://rc.example.com/` with your Rocket.Chat (sub-)domain, and paste the code into your theme file `/app/design/frontend/Theme_provider/theme_name/Magento_Theme/templates/root.phtml` right before the closing `</html>` tag.
 Flush your PHP OpCode cache, and you are ready to go.
