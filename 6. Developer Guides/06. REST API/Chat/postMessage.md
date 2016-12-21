@@ -2,7 +2,7 @@
 order: 50
 ---
 
-# User Delete
+# Post a chat message
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |
 | `/api/v1/chat.postMessage` | `yes` | `POST` |
