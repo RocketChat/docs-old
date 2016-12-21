@@ -33,20 +33,15 @@
 ```less
 blockquote {
 	.clearfix;
-
 	margin: .5em 0;
-
 	&:first-child {
 		margin-top: 0;
 	}
-
 	&:last-child {
 		margin-bottom: 0;
 	}
-
 	padding-left: 10px;
 	position: relative;
-
 	&:before {
 		content: ' ';
 		width: 4px;
@@ -57,14 +52,12 @@ blockquote {
 		bottom: -1px;
 	}
 }
-
 .login-terms {
 	font-size: smaller;
 	width: 520px;
 	padding: 10px;
 	max-width: 100%;
 	margin: auto;
-
 	a {
 		font-weight: bold !important;
 		text-decoration: underline;
@@ -80,12 +73,15 @@ blockquote {
 	margin: .5em 0;
 	padding-left: 10px;
 	position: relative;
+
 	&:first-child {
 		margin-top: 0;
 	}
+
 	&:last-child {
 		margin-bottom: 0;
 	}
+
 	&::before {
 		content: ' ';
 		width: 4px;
@@ -103,7 +99,7 @@ blockquote {
 	padding: 10px;
 	max-width: 100%;
 	margin: auto;
-	
+
 	a {
 		font-weight: bold;
 		text-decoration: underline;
@@ -154,13 +150,12 @@ blockquote {
 }
 ```
 
-### Don’t use an empty line before nested selectors.
+### Add an empty line before nested selectors.
 **Bad**
 
 ```less
 .class {
 	border: 0;
-
 	&.another-class {
 		color: #ffffff;
 	}
@@ -172,6 +167,7 @@ blockquote {
 ```less
 .class {
 	border: 0;
+
 	&.another-class {
 		color: #ffffff;
 	}
@@ -199,6 +195,7 @@ blockquote {
 ```less
 .class {
 	border: 0;
+
 	&.another-class {
 		color: #ffffff;
 	}
@@ -303,6 +300,7 @@ blockquote {
 .class:before {
 	border-width: 2px;
 }
+
 .class:first-child {
 	color: #000000;
 }
@@ -314,6 +312,7 @@ blockquote {
 .class::before {
 	border-width: 2px;
 }
+
 .class:first-child {
 	color: #000000;
 }
@@ -345,7 +344,7 @@ blockquote {
 }
 ```
 
-### Don't add properties in single-line. One property per line.
+### Don't add properties in single-line. Use one property per line.
 **Bad**
 
 ```less
@@ -458,6 +457,32 @@ blockquote {
 
 ```less
 .another-class {
+	margin-top: 2rem;
+	display: inline-block;
+}
+```
+
+### Don’t duplicate selectors along the file.
+**Bad**
+
+```less
+.some-class {
+	display: block;
+}
+.another-class {
+	position: absolute;
+}
+.some-class {
+	margin-top: 2rem;
+	display: inline-block;
+}
+```
+
+**Good**
+
+```less
+.some-class {
+	display: block;
 	margin-top: 2rem;
 	display: inline-block;
 }
