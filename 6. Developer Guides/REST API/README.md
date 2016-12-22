@@ -1,3 +1,7 @@
+---
+order: 6
+---
+
 # Rocket.Chat REST API
 
 The REST API allows you to control and extend Rocket.Chat with ease.

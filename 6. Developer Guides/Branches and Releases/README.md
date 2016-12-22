@@ -1,3 +1,7 @@
+---
+order: 2
+---
+
 # Branches and Releases 
 
 Rocket.Chat maintains two branches for release builds:

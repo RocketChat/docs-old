@@ -48,7 +48,7 @@ Fill in the condition field and the action field.
 
 ### Custom Fields
 
-You can configure custom fields to be sent by the client. You can see an example on the [Livechat API page](/6. Developer Guides/4. Livechat API/#set-custom-field).
+You can configure custom fields to be sent by the client. You can see an example on the [Livechat API page](/6. Developer Guides/Livechat API/#set-custom-field).
 
 ### Installation
 

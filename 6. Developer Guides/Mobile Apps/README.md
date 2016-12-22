@@ -1,3 +1,7 @@
+---
+order: 8
+---
+
 # Building Rocket.Chat for mobile apps
 
 ## Android 

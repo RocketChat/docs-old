@@ -1,3 +1,7 @@
+---
+order: 1
+---
+
 # Quick start for code developers
 
 ## Prerequisites:
@@ -12,5 +16,5 @@ meteor npm start
 ```
 
 ## See Also
-- [Development Troubleshooting](/6.%20Developer%20Guides/11.%20Troubleshooting)
+- [Development Troubleshooting](/6.%20Developer%20Guides/Troubleshooting)
 - [Deployment Methods](/3.%20Installation/2.%20PaaS%20Deployments)
