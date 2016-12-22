@@ -6,7 +6,7 @@ To run the tests the server must be started with the environment variable `DISAB
 Also don't forget to have Google Chrome installed.
 
 ### Starting the tests
-To start testing run the command `meteor npm run chimp-test`.
+To start testing, with the server running, run the command `meteor npm run chimp-test`.
 If you have a clean database with no users just run the command normally, it will create a admin with the default values.
 
 But if you already have a admin user you must add the following environment variables:
