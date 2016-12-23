@@ -1,18 +1,29 @@
 # Testing
 
-### Getting Started
-To run the tests the server must be started with the environment variable `DISABLE_ANIMATION=true`, that will set the duration of all the animations in Rocket.Chat to 0. The start command will look like this `DISABLE_ANIMATION=true meteor`.
+## Requeriments
 
-Also don't forget to have Google Chrome installed.
+- Google Chrome Browser
 
-### Starting the tests
-To start testing, with the server running, run the command `meteor npm run chimp-test`.
-If you have a clean database with no users just run the command normally, it will create a admin with the default values.
+## Getting Started
 
-But if you already have a admin user you must add the following environment variables:
+### Start Meteor
 
-`ADMIN_USERNAME="your admin username"` (default value: "admin-test")
+Run meteor with the command below:
 
-`ADMIN_EMAIL="your admin email"` (default value: "admin-test@rocket.chat")
+```
+TEST_MODE=true meteor
+```
 
-`ADMIN_PASS="your admin password"` (default value: "admin-test")
+To run the tests, the server **must** be started with the environment variable `TEST_MODE=true`. This will set all animations' duration to 0 and create an extra admin user with the login values:
+
+```
+username = admin.test
+email = admin.test@asdf.com
+password = admin.test
+```
+
+### Run Tests
+
+```
+meteor npm run chimp-test
+```
