@@ -26,7 +26,7 @@ password: "rocketchat.internal.admin.test"
 
 ### Run Tests
 
-On another terminal window, tun the test with the command bellow:
+On another terminal window, run the test with the command bellow:
 
 ```
 meteor npm run chimp-test
