@@ -10,7 +10,7 @@ order: 50
 ## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `roomId` <br><br> `channel` | `ByehQjC44FwMeiLbX` <br><br> `#general` | <br> Required | The room id of where the message is to delete. <br><br> The channel name with the prefix in front of it. |
+| `roomId` <br><br> `channel` | `ByehQjC44FwMeiLbX` <br><br> `#general` | <br> Required | The room id of where the message is to be posted. <br><br> The channel name with the prefix in front of it. |
 | `text` | `Sample message` | Optional | The text of the message to send, is optional because of attachments. |
 | `alias` | `Some Name` | Optional | This will cause the message's name to appear as the given alias, but your username will still display. |
 | `emoji` | `:smirk:` | Optional | If provided, this will make the avatar on this message be an emoji. [Emoji Cheetsheet](http://emoji.codes/) |
