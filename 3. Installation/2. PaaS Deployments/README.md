@@ -22,7 +22,6 @@ If you need full control of your deployment, here are some guides for specific e
 - [Heroku](Heroku/)
 - [Hyper.sh](Hyper.sh/)
 - [IBM Bluemix](IBM%20Bluemix/)
-- [Nitrous.io](Nitrous.io/)
 - [Sloppy.io](Sloppy.io/)
 
 ## Manual Installation
