@@ -50,6 +50,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.cleanHistory` | Cleans up a channel's history, requires special permission. | [Link](Channels/cleanHistory.md) |
 | `/api/v1/channels.close` | Removes a channel from a user's list of channels. | [Link](Channels/close.md) |
 | `/api/v1/channels.create` | Creates a new channel. | [Link](Channels/create.md) |
+| `/api/v1/channels.getIntegrations` | Gets the channel's integration. | [Link](Channels/getIntegrations.md)
 | `/api/v1/channels.history` | Retrieves the messages from a channel. | [Link](Channels/history.md) |
 | `/api/v1/channels.info` | Gets a channel's information. | [Link](Channels/info.md) |
 | `/api/v1/channels.invite` | Adds a user to a channel. | [Link](Channels/invite.md) |
@@ -60,8 +61,11 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.open` | Adds the channel back to the user's list of channels. | [Link](Channels/open.md) |
 | `/api/v1/channels.rename` | Changes a channel's name. | [Link](Channels/rename.md) |
 | `/api/v1/channels.setDescription` | Sets a channel's description. | [Link](Channels/setDescription.md) |
+| `/api/v1/channels.setJoinCode` | Sets the channel's code required to join it. | [Link](Channels/setJoinCode.md) |
 | `/api/v1/channels.setPurpose` | Sets a channel's description. | [Link](Channels/setPurpose.md) |
+| `/api/v1/channels.setReadOnly` | Sets whether a channel is read only or not. | [Link](Channels/setReadOnly.md) |
 | `/api/v1/channels.setTopic` | Sets a channel's topic. | [Link](Channels/setTopic.md) |
+| `/api/v1/channels.setType` | Sets the type of room the channel should be. | [Link](Channels/setType.md) |
 | `/api/v1/channels.unarchive` | Unarchives a channel. | [Link](Channels/unarchive.md) |
 
 ### Groups
@@ -80,7 +84,9 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.rename` | Changes the name of the private group. | [Link](Groups/rename.md) |
 | `/api/v1/groups.setDescription` | Sets a private group's description. | [Link](Groups/setDescription.md) |
 | `/api/v1/groups.setPurpose` | Sets a private group's description. | [Link](Groups/setPurpose.md) |
+| `/api/v1/groups.setReadOnly` | Sets whether the room is read only or not. | [Link](Groups/setReadOnly.md) |
 | `/api/v1/groups.setTopic` | Sets a private group's topic. | [Link](Groups/setTopic.md) |
+| `/api/v1/groups.setType` | Sets the type of room this group will be. | [Link](Groups/setType.md) |
 | `/api/v1/groups.unarchive` | Unarchives a private group. | [Link](Groups/unarchive.md) |
 
 ### Chat
@@ -88,6 +94,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :--- | :--- | :--- |
 | `/api/v1/chat.delete` | Deletes a chat message. | [Link](Chat/delete.md) |
 | `/api/v1/chat.postMessage` | Posts a new chat message. | [Link](Chat/postMessage.md) |
+| `/api/v1/chat.update` | Updates the text of the chat message. | [Link](Chat/update.md) |
 
 ### Settings
 | Url | Method | Short Description | Details Page |

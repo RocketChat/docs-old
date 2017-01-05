@@ -3,7 +3,7 @@ order: 55
 ---
 
 # Channel List Joined
-Lists all of the channels the calling user has joined.
+Lists all of the channels the calling user has joined, this method supports the [Offset and Count Query Parameters](../Offset%20and%20Count%20Info.md).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -45,4 +45,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Change Log
 | Version | Description |
 | :--- | :--- |
+| 0.49.0 | Count and offset query parameters supported. |
 | 0.48.0 | Added |

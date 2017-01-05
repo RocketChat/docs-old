@@ -9,7 +9,7 @@ Retrieves the information about the channel.
 | :--- | :--- | :--- |
 | `/api/v1/channels.info` | `yes` | `GET` |
 
-## Payload
+## Query Parameters
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |

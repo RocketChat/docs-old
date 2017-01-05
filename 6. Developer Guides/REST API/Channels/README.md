@@ -10,6 +10,7 @@ order: 30
 | `/api/v1/channels.cleanHistory` | Cleans up a channel's history, requires special permission. | [Link](cleanHistory.md) |
 | `/api/v1/channels.close` | Removes a channel from a user's list of channels. | [Link](close.md) |
 | `/api/v1/channels.create` | Creates a new channel. | [Link](create.md) |
+| `/api/v1/channels.getIntegrations` | Gets the channel's integration. | [Link](getIntegrations.md)
 | `/api/v1/channels.history` | Retrieves the messages from a channel. | [Link](history.md) |
 | `/api/v1/channels.info` | Gets a channel's information. | [Link](info.md) |
 | `/api/v1/channels.invite` | Adds a user to a channel. | [Link](invite.md) |
@@ -20,6 +21,9 @@ order: 30
 | `/api/v1/channels.open` | Adds the channel back to the user's list of channels. | [Link](open.md) |
 | `/api/v1/channels.rename` | Changes a channel's name. | [Link](rename.md) |
 | `/api/v1/channels.setDescription` | Sets a channel's description. | [Link](setDescription.md) |
+| `/api/v1/channels.setJoinCode` | Sets the channel's code required to join it. | [Link](setJoinCode.md) |
 | `/api/v1/channels.setPurpose` | Sets a channel's description. | [Link](setPurpose.md) |
+| `/api/v1/channels.setReadOnly` | Sets whether a channel is read only or not. | [Link](setReadOnly.md) |
 | `/api/v1/channels.setTopic` | Sets a channel's topic. | [Link](setTopic.md) |
+| `/api/v1/channels.setType` | Sets the type of room the channel should be. | [Link](setType.md) |
 | `/api/v1/channels.unarchive` | Unarchives a channel. | [Link](unarchive.md) |
