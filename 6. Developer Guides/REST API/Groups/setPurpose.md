@@ -9,7 +9,7 @@ Sets the description for the private group.
 | :--- | :--- | :--- |
 | `/api/v1/groups.setPurpose` | `yes` | `POST` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The private group's id |

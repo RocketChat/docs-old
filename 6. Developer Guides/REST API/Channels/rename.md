@@ -9,7 +9,7 @@ Changes the name of the channel.
 | :--- | :--- | :--- |
 | `/api/v1/channels.rename` | `yes` | `POST` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |

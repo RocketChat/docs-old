@@ -9,7 +9,7 @@ Causes the callee to be removed from the channel.
 | :--- | :--- | :--- |
 | `/api/v1/channels.leave` | `yes` | `POST` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |

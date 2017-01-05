@@ -9,7 +9,7 @@ Unarchives a channel.
 | :--- | :--- | :--- | :--- |
 | `/api/v1/channels.unarchive` | `yes` | `POST` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |

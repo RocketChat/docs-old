@@ -6,7 +6,7 @@ When you hide a room, that room no longer shows up on the list of channels and m
 | --- | --- | --- |
 | Yes | _none_ | _none_ |
 
-## Parameters
+## Payload
 1. String - the id of the room to leave
 
 ## Example Call

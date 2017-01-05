@@ -6,7 +6,7 @@ Unarchving a room removes it from being read only and then adds it back to the c
 | --- | --- | --- |
 | Yes | `unarchive-room` | _none_ |
 
-## Parameters
+## Payload
 1. String - the id of the room to unarchive
 
 ## Example Call

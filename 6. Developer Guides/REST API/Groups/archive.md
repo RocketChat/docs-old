@@ -9,7 +9,7 @@ Archives a private group, only if you're part of the group.
 | :--- | :--- | :--- |
 | `/api/v1/groups.archive` | `yes` | `POST` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `HyehQjC44FwMeiLbX` | Required | The private groups's id |

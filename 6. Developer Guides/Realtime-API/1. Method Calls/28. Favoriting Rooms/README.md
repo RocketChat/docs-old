@@ -6,7 +6,7 @@ When a user makes a room as a favorite, the yellow star appears and it moves the
 | --- | --- | --- |
 | Yes | _none_ | _none_ |
 
-## Parameters
+## Payload
 1. String - the id of the room to leave
 2. Boolean - whether the room is a favorite or not, defaults to true
 

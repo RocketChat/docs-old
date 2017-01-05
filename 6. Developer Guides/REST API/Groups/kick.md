@@ -9,7 +9,7 @@ Removes a user from the private group.
 | :--- | :--- | :--- |
 | `/api/v1/groups.kick` | `yes` | `POST` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The private group's id |

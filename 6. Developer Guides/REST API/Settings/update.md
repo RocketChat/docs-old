@@ -9,7 +9,7 @@ Updates the setting for the provided `_id`.
 | :--- | :--- | :--- |
 | `/api/v1/settings/:_id` | `yes` | `GET` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `_id` | `Livechat_enabled` | Required | The setting's `_id` field |

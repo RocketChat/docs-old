@@ -9,7 +9,7 @@ Adds a user to the channel.
 | :--- | :--- | :--- |
 | `/api/v1/channels.invite` | `yes` | `POST` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |

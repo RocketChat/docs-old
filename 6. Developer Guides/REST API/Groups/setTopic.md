@@ -9,7 +9,7 @@ Sets the topic for the private group.
 | :--- | :--- | :--- |
 | `/api/v1/groups.setTopic` | `yes` | `POST` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The private group's id |

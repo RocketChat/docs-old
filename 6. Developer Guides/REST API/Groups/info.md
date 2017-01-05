@@ -9,7 +9,7 @@ Retrieves the information about the private group, only if you're part of the gr
 | :--- | :--- | :--- |
 | `/api/v1/groups.info` | `yes` | `GET` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The private group's id |

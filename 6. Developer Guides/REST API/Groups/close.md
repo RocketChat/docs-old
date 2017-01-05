@@ -9,7 +9,7 @@ Removes the private group from the user's list of groups, only if you're part of
 | :--- | :--- | :--- |
 | `/api/v1/groups.close` | `yes` | `POST` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `HyehQjC44FwMeiLbX` | Required | The groups's id |

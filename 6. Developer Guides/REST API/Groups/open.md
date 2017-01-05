@@ -9,7 +9,7 @@ Adds the private group back to the user's list of private groups.
 | :--- | :--- | :--- |
 | `/api/v1/groups.open` | `yes` | `POST` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The private group's id |

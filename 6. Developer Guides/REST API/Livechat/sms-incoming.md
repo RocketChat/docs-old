@@ -8,7 +8,7 @@ order: 30
 | :--- | :--- | :--- |
 | `/api/v1/livechat/sms-incoming/:service` | `no` | `POST` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `service` | `twilio` | Required | Only the server `twilio` is accepted at moment. |

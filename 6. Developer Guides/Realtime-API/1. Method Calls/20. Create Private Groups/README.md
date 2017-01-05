@@ -6,7 +6,7 @@ Creates a private group.
 | --- | --- | --- |
 | Yes | `create-p` | _none_ |
 
-## Parameters
+## Payload
 1. String - name of the channel
 2. Array of strings - usernames of the people to add to the private group when it is created. This can be empty and only the caller of the method will be a member of the group.
 

@@ -6,7 +6,7 @@ When you open a room, that room shows up on the list of channels and marks the p
 | --- | --- | --- |
 | Yes | _none_ | _none_ |
 
-## Parameters
+## Payload
 1. String - the id of the room to open
 
 ## Example Call

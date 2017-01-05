@@ -9,7 +9,7 @@ Creates a new private group, optionally including users, only if you're part of 
 | :--- | :--- | :--- |
 | `/api/v1/groups.create` | `yes` | `POST` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `name` | `testing` | Required | The name of the new private group |

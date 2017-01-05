@@ -9,7 +9,7 @@ Causes the callee to be removed from the private group, if they're part of it an
 | :--- | :--- | :--- |
 | `/api/v1/groups.leave` | `yes` | `POST` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The private group's id |

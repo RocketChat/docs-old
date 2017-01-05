@@ -6,7 +6,7 @@ You can leave any rooms, except for direct messages and except for rooms you are
 | --- | --- | --- |
 | Yes | _none_ | _none_ |
 
-## Parameters
+## Payload
 1. String - the id of the room to leave
 
 ## Example Call

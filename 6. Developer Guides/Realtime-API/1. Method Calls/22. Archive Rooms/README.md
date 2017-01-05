@@ -6,7 +6,7 @@ Archving a room marks it as read only and then removes it from the channel list 
 | --- | --- | --- |
 | Yes | `archive-room` | _none_ |
 
-## Parameters
+## Payload
 1. String - the id of the room to archive
 
 ## Example Call
