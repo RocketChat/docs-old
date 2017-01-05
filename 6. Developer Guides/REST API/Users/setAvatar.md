@@ -1,7 +1,12 @@
 # User Set Photo/Avatar
-| URL | Requires Auth | HTTP Method | Payload |
+| URL | Requires Auth | HTTP Method |
+| :--- | :--- | :--- |
+| `/api/v1/users.setAvatar` | `yes` | `POST` |
+
+## Payload
+| Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/users.setAvatar` | `yes` | `POST` | Object: `{ avatarUrl: "http://domain.tld/to/my/own/avatar.jpg" }` _or_ a file |
+| `avatarUrl` | `http://domain.tld/to/my/own/avatar.jpg` | Required (if no a file) | Url of the avatar for the user. |
 
 ## Upload a file
 

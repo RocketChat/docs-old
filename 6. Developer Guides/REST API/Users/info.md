@@ -5,9 +5,14 @@ order: 25
 # User Information
 Retrieves information about a user, the result is only limited to what the callee has access to view.
 
-| URL | Requires Auth | HTTP Method | Query Parameters |
+| URL | Requires Auth | HTTP Method |
+| :--- | :--- | :--- |
+| `/api/v1/users.info` | `yes` | `GET` |
+
+## Query Parameters
+| Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/users.info` | `yes` | `GET` | `userId=otherUserId` |
+| `userId` | `BsNr28znDkG8aeo7W` | Required | The id of the user. |
 
 ## Other Users Example Call
 ```bash
