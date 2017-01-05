@@ -34,6 +34,13 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.42.0 | Added |
+
+
 # Register a new department
 
 | URL | Requires Auth | HTTP Method |
@@ -94,6 +101,13 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.42.0 | Added |
+
+
 # Get info about a deparment
 
 | URL | Requires Auth | HTTP Method |
@@ -138,6 +152,13 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
   "success": true
 }
 ```
+
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.42.0 | Added |
+
 
 # Update a department
 
@@ -204,6 +225,13 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.42.0 | Added |
+
+
 # Removes a deparment
 
 | URL | Requires Auth | HTTP Method |
@@ -229,3 +257,10 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
   "success": true
 }
 ```
+
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.42.0 | Added |
+

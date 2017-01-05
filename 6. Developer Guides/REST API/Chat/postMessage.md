@@ -126,3 +126,11 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
   "success": true
 }
 ```
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.48.0 | Information about the sent message is now returned. |
+| 0.17.0 | Messages aren't always processed as from BOT and urls are parsed by default. |
+| 0.14.0 | Internally using `processWebhookMessage` which enabled more features. |
+| 0.13.0 | Added |

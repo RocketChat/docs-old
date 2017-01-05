@@ -49,3 +49,10 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
    "success": true
 }
 ```
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.48.0 | `role` property is now `roles` which is an array of strings for the roles to create the user with. |
+| 0.45.0 | Users created via this now join the default channels. |
+| 0.40.0 | Added |

@@ -44,3 +44,8 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 <Response></Response>
 ```
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.42.0 | Added |
