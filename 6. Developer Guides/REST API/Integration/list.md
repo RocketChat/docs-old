@@ -2,46 +2,80 @@
 order: 50
 ---
 
-# Channel Create
-Creates a new public channel, optionally including users.
+# Integrations List
+Lists all of the integrations on the server, this method supports the [Offset and Count Query Parameters](../Offset%20and%20Count%20Info.md).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.create` | `yes` | `POST` |
-
-## Payload
-| Argument | Example | Required | Description |
-| :--- | :--- | :--- | :--- |
-| `name` | `channelname` | Required | The name of the new channel |
-| `members` | `["rocket.cat"]` | Optional <br> Default: `[]` | The members who should be in the room when it is created. |
+| `/api/v1/integrations.list` | `yes` | `GET` |
 
 ## Example Call
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type: application/json" \
-     http://localhost:3000/api/v1/channels.create \
-     -d '{ "name": "channelname" }'
+     http://localhost:3000/api/v1/integrations.list
 ```
 
 ## Example Result
 ```json
 {
-   "channel": {
-      "_id": "ByehQjC44FwMeiLbX",
-      "name": "channelname",
-      "t": "c",
-      "usernames": [
-         "example"
-      ],
-      "msgs": 0,
-      "u": {
-         "_id": "aobEdbYhXfu5hkeqG",
-         "username": "example"
-      },
-      "ts": "2016-05-30T13:42:25.304Z"
-   },
-   "success": true
+    "integrations": [
+        {
+            "_id": "WMQDChpnYTRmFre9h",
+            "enabled": true,
+            "username": "rocket.cat",
+            "alias": "Guggy",
+            "avatar": "https://image.crisp.im/avatar/website/17651a90-e082-43f6-b308-957cea6e323c/128",
+            "name": "Guggy",
+            "triggerWords": [
+                "!guggy",
+                "guggy",
+                "gif+"
+            ],
+            "urls": [
+                "http://text2gif.guggy.com/guggify"
+            ],
+            "token": "aobEdbYhXfu5hkeqG",
+            "script": ...,
+            "scriptEnabled": true,
+            "impersonateUser": false,
+            "scriptCompiled": ...,
+            "scriptError": null,
+            "type": "webhook-outgoing",
+            "userId": "rocket.cat",
+            "channel": [],
+            "_createdAt": "2017-01-05T17:06:05.660Z",
+            "_createdBy": {
+                "username": "graywolf336",
+                "_id": "R4jgcQaQhvvK6K3iY"
+            },
+            "_updatedAt": "2017-01-05T17:06:05.660Z"
+        },
+        {
+            "_id": "3aazpZ2WzoBP8msi9",
+            "type": "webhook-outgoing",
+            "name": "Testing via REST API",
+            "enabled": false,
+            "username": "rocket.cat",
+            "urls": [
+                "http://text2gif.guggy.com/guggify"
+            ],
+            "scriptEnabled": false,
+            "userId": "rocket.cat",
+            "channel": [],
+            "_createdAt": "2017-01-06T13:23:46.018Z",
+            "_createdBy": {
+                "username": "graywolf336",
+                "_id": "R4jgcQaQhvvK6K3iY"
+            },
+            "_updatedAt": "2017-01-06T13:23:46.018Z"
+        }
+    ],
+    "offset": 0,
+    "items": 2,
+    "total": 2,
+    "success": true
 }
 ```
 

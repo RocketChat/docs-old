@@ -32,27 +32,32 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type: application/json" \
      http://localhost:3000/api/v1/integrations.create \
-     -d '{ "name": "channelname" }'
+     -d '{ "type": "webhook-outgoing", "name": "Testing via REST API", "enabled": false, "username": "rocket.cat", "urls": ["http://text2gif.guggy.com/guggify"], "scriptEnabled": false }'
 ```
 
 ## Example Result
 ```json
 {
-   "channel": {
-      "_id": "ByehQjC44FwMeiLbX",
-      "name": "channelname",
-      "t": "c",
-      "usernames": [
-         "example"
-      ],
-      "msgs": 0,
-      "u": {
-         "_id": "aobEdbYhXfu5hkeqG",
-         "username": "example"
-      },
-      "ts": "2016-05-30T13:42:25.304Z"
-   },
-   "success": true
+    "integration": {
+        "type": "webhook-outgoing",
+        "name": "Testing via REST API",
+        "enabled": false,
+        "username": "rocket.cat",
+        "urls": [
+            "http://text2gif.guggy.com/guggify"
+        ],
+        "scriptEnabled": false,
+        "userId": "rocket.cat",
+        "channel": [],
+        "_createdAt": "2017-01-06T13:23:46.018Z",
+        "_createdBy": {
+            "username": "graywolf336",
+            "_id": "aobEdbYhXfu5hkeqG"
+        },
+        "_updatedAt": "2017-01-06T13:23:46.018Z",
+        "_id": "3aazpZ2WzoBP8msi9"
+    },
+    "success": true
 }
 ```
 
