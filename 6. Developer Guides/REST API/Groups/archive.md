@@ -9,7 +9,7 @@ Archives a private group, only if you're part of the group.
 | :--- | :--- | :--- |
 | `/api/v1/groups.archive` | `yes` | `POST` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `HyehQjC44FwMeiLbX` | Required | The private groups's id |
@@ -29,3 +29,8 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
    "success": true
 }
 ```
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.48.0 | Added |

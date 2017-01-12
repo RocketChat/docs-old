@@ -5,9 +5,14 @@ order: 20
 # User Get Presence
 Gets a user's presence if the query string `userId` is provided, otherwise it gets the callee's.
 
-| URL | Requires Auth | HTTP Method | Query Parameters |
+| URL | Requires Auth | HTTP Method |
+| :--- | :--- | :--- |
+| `/api/v1/users.getPresence` | `yes` | `GET` |
+
+## Query Parameters
+| Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/users.getPresence` | `yes` | `GET` | Optional: `userId=otherUserId` |
+| `userId` | `BsNr28znDkG8aeo7W` | Optional | The id of the user. |
 
 ## Other Users Example Call
 ```bash
@@ -40,3 +45,9 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
   "success": true
 }
 ```
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.48.0 | Renamed to `users.getPresence` | 
+| 0.35.0 | Added as `user.getPresence` |

@@ -34,6 +34,13 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.42.0 | Added |
+
+
 # Register a new department
 
 | URL | Requires Auth | HTTP Method |
@@ -94,13 +101,20 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.42.0 | Added |
+
+
 # Get info about a deparment
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/livechat/deparment/:_id` | `yes` | `GET` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `_id` | `SQafHvoFPuB57NmBD` | Required | The deparment `_id`. |
@@ -139,13 +153,20 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.42.0 | Added |
+
+
 # Update a department
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/livechat/deparment/:_id` | `yes` | `PUT` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `_id` | `iTfLCX3qqwKgf5uqg` | Required | Deparment `_id`. |
@@ -204,13 +225,20 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.42.0 | Added |
+
+
 # Removes a deparment
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/livechat/deparment/:_id` | `yes` | `DELETE` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `_id` | `iTfLCX3qqwKgf5uqg` | Required | The deparment `_id`. |
@@ -229,3 +257,10 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
   "success": true
 }
 ```
+
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.42.0 | Added |
+

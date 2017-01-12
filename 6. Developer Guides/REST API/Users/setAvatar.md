@@ -1,7 +1,12 @@
 # User Set Photo/Avatar
-| URL | Requires Auth | HTTP Method | Payload |
+| URL | Requires Auth | HTTP Method |
+| :--- | :--- | :--- |
+| `/api/v1/users.setAvatar` | `yes` | `POST` |
+
+## Payload
+| Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/users.setAvatar` | `yes` | `POST` | Object: `{ avatarUrl: "http://domain.tld/to/my/own/avatar.jpg" }` _or_ a file |
+| `avatarUrl` | `http://domain.tld/to/my/own/avatar.jpg` | Required (if no a file) | Url of the avatar for the user. |
 
 ## Upload a file
 
@@ -39,3 +44,9 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
     "success": true
 }
 ```
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.48.0 | Set other users avatars if the callee has permission. |
+| 0.46.0 | Added |

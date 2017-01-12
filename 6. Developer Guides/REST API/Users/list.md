@@ -5,9 +5,9 @@ order: 30
 # User Information
 Gets all of the users in the system and their information, the result is only limited to what the callee has access to view.
 
-| URL | Requires Auth | HTTP Method | Query Parameters |
-| :--- | :--- | :--- | :--- |
-| `/api/v1/users.list` | `yes` | `GET` | _n/a_ |
+| URL | Requires Auth | HTTP Method |
+| :--- | :--- | :--- |
+| `/api/v1/users.list` | `yes` | `GET` |
 
 ## Other Users Example Call
 ```bash
@@ -81,3 +81,8 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
   "success": true
 }]
 ```
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.35.0 | Added |

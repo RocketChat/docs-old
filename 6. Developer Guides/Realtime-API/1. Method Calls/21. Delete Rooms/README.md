@@ -6,7 +6,7 @@ Deleting a room, either a private group or public channel, is actually completed
 | --- | --- | --- |
 | Yes | `delete-c` _or_ `delete-p` | _none_ |
 
-## Parameters
+## Payload
 1. String - the id of the room to delete
 
 ## Example Call

@@ -6,7 +6,7 @@ You can only join yourself to public channels, private groups are not joinable. 
 | --- | --- | --- |
 | Yes | `view-c-room` | _none_ |
 
-## Parameters
+## Payload
 1. String - the id of the room to join
 2. String - the `joinCode`, only needed if the room requires a code to join
 

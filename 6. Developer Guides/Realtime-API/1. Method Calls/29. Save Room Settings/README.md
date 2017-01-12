@@ -6,7 +6,7 @@
 | --- | --- | --- |
 | Yes | `edit-room` | _none_ |
 
-## Parameters
+## Payload
 1. String - the id of the room to leave
 2. String - the room setting to save
 3. Any - the value of the setting to save, this value type depends on what the setting accepts

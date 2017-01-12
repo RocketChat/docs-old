@@ -5,9 +5,9 @@ order: 15
 # Me
 Quick information about the authenticated user.
 
-| URL | Requires Auth | HTTP Method | Payload |
+| URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/me` | `yes` | `GET` | _n/a_ | 
+| `/api/v1/me` | `yes` | `GET` |
 
 ## Example Call
 ```bash

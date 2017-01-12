@@ -3,9 +3,14 @@ order: 15
 ---
 
 # User Delete
-| URL | Requires Auth | HTTP Method | Payload |
+| URL | Requires Auth | HTTP Method |
+| :--- | :--- | :--- |
+| `/api/v1/users.delete` | `yes` | `POST` |
+
+## Payload
+| Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/users.delete` | `yes` | `POST` | Object: `{ userId }` |
+| `userId` | `BsNr28znDkG8aeo7W` | Required | The id of the user. |
 
 ## Example Call
 ```bash
@@ -22,3 +27,8 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
   "success": true
 }
 ```
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.35.0 | Added |

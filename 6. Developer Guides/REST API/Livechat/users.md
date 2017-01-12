@@ -9,7 +9,7 @@ Get a list of agents or managers.
 | :--- | :--- | :--- |
 | `/api/v1/livechat/users/:type` | `yes` | `GET` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `type` | `agent` | Required | Can be either `agent` or `department`. |
@@ -38,6 +38,11 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.42.0 | Added |
+
 # Register new agent or manager
 Register a new agent or manager.
 
@@ -45,7 +50,7 @@ Register a new agent or manager.
 | :--- | :--- | :--- |
 | `/api/v1/livechat/users/:type` | `yes` | `POST` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `type` | `agent` | Required | Can be either `agent` or `department`. |
@@ -78,13 +83,18 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.42.0 | Added |
+
 # Get info about an agent or manager
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/livechat/users/:type/:_id` | `yes` | `GET` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `type` | `agent` | Required | Can be either `agent` or `department`. |
@@ -108,13 +118,18 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.42.0 | Added |
+
 # Removes an agent or manager
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/livechat/users/:type/:_id` | `yes` | `DELETE` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `type` | `agent` | Required | Can be either `agent` or `department`. |
@@ -134,3 +149,8 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
   "success": true
 }
 ```
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.42.0 | Added |

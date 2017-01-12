@@ -9,7 +9,7 @@ Cleans up a channel, removing messages from the provided time range.
 | :--- | :--- | :--- |
 | `/api/v1/channels.cleanHistory` | `yes` | `POST` |
 
-## Parameters
+## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |
@@ -32,3 +32,8 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
    "success": true
 }
 ```
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.47.0 | Added |

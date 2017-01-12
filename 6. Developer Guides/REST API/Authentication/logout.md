@@ -3,9 +3,9 @@ order: 10
 ---
 
 # Logout
-| URL | Requires Auth | HTTP Method | Payload |
+| URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/logout` | `yes` | `GET` | _n/a_ |
+| `/api/v1/logout` | `yes` | `GET` |
 
 ## Example Call
 ```bash

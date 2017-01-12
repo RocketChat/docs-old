@@ -3,7 +3,7 @@ order: 45
 ---
 
 # Group List
-Lists all of the private groups the calling user has joined.
+Lists all of the private groups the calling user has joined, this method supports the [Offset and Count Query Parameters](../Offset%20and%20Count%20Info.md).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -58,3 +58,9 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
     "success": true
 }
 ```
+
+## Change Log
+| Version | Description |
+| :--- | :--- |
+| 0.49.0 | Count and offset query parameters supported. |
+| 0.33.0 | Added |
