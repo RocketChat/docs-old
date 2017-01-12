@@ -21,7 +21,7 @@ _follow these instructions to get a simple Telegram Bot setup_
 ```javascript
 class Script {
     process_incoming_request({ request }) {
-        // COMMENT THE BELOW LINE THE AFTER YOU RUN THE INTEGRATION SUCCESSFULLY
+        // UNCOMMENT THE BELOW LINE TO DEBUG IF NEEDED.
         //console.log(request.content);
         if ('edited_message' in request.content) {
             request.content.message = request.content.edited_message;
