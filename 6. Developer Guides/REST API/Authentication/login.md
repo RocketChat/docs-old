@@ -22,12 +22,36 @@ curl http://localhost:3000/api/v1/login \
      -d "username=myusername&password=mypassword"
 ```
 
+```bash
+curl http://localhost:3000/api/v1/login \
+     -d "user=myusername&password=mypassword"
+```
+
+```bash
+curl http://localhost:3000/api/v1/login \
+     -d "user=my@email.com&password=mypassword"
+```
+
+
 ## Example Call - As JSON
 ```bash
 curl -H "Content-type:application/json" \
       http://localhost:3000/api/v1/login \
       -d '{ "username": "myusername", "password": "mypassword" }'
 ```
+
+```bash
+curl -H "Content-type:application/json" \
+      http://localhost:3000/api/v1/login \
+      -d '{ "user": "myusername", "password": "mypassword" }'
+```
+
+```bash
+curl -H "Content-type:application/json" \
+      http://localhost:3000/api/v1/login \
+      -d '{ "user": "my@email.com", "password": "mypassword" }'
+```
+
 
 ## Result
 ```json
