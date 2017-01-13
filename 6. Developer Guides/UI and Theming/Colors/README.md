@@ -64,7 +64,7 @@ A set of minor colors for specific use cases will inherit from the major colors 
 
 ### Mixins, Computed Colors and Dark UI
 
-Some handy [Less mixins](https://github.com/RocketChat/Rocket.Chat/blob/develop/packages/rocketchat-theme/assets/stylesheets/utils/_mixins.import.less) provide shortcuts for coloring properties and states of components like buttons, links and inputs.
+Some handy [Less mixins](https://github.com/RocketChat/Rocket.Chat/blob/master/packages/rocketchat-theme/server/lesshat.less) provide shortcuts for coloring properties and states of components like buttons, links and inputs.
 
 When [colors are imported from settings](https://github.com/RocketChat/Rocket.Chat/blob/develop/packages/rocketchat-theme/assets/stylesheets/utils/_colors.import.less), some extra variables are created for backgrounds, borders and contrasts, based on color settings.
 
