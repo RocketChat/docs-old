@@ -15,6 +15,7 @@ order: 3
   "lm": new Date(1432937851208),           // Date             Last Message Timestamp
   "msgs": 2345,                            // Integer          Messages Counter
   "cl": true,                              // Boolean          If users can leave room
+  "ro": false,                             // Boolean          Read Only
   "usernames": [                           // Array(String)    Room Users
       "username1",                         // String           User Username
       "username2",
@@ -38,6 +39,7 @@ name            | String             | Room Name (t:d -> empty)
 lm              | Date               | Last Message Timestamp   
 msgs            | Integer            | Messages Counter         
 cl              | Boolean            | If users can leave room  
+ro              | Boolean            | Read Only  
 usernames       | Array[String]      | Room Users               
 usernames.0     | String             | User Username            
 u               | Object             | Owner User               
