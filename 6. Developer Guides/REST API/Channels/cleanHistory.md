@@ -13,8 +13,8 @@ Cleans up a channel, removing messages from the provided time range.
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |
-| `latest` | `2016-09-30T13:42:25.304Z` | Optional <br> Default: now | The end of time range of messages to clean |
-| `oldest` | `2016-05-30T13:42:25.304Z` | Optional <br> Default: _n/a_ | The start of the time range of messages to clean |
+| `latest` | `2016-09-30T13:42:25.304Z` | Required | The end of time range of messages to clean |
+| `oldest` | `2016-05-30T13:42:25.304Z` | Required | The start of the time range of messages to clean |
 | `inclusive` | `true` | Optional <br> Default: `false` | Whether messages which land on latest and oldest should be included |
 
 ## Example Call
