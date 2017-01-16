@@ -1,3 +1,3 @@
 # Notifications
 
-Desktop, Mobile Push and Emails
+Mobile Push and Emails
