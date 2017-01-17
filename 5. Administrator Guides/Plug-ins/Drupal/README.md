@@ -1,5 +1,7 @@
 # Drupal Plug-in
 
+[![](https://raw.githubusercontent.com/Sing-Li/bbug/master/images/drupal.png)](https://www.drupal.org/)
+
 This is a Rocket.Chat module for Drupal 8 and 7.
 
 Add Rocket.Chat's Live Chat feature to your Drupal based website.  This widget offers you the ability to communicate directly with your website 'guests'.
