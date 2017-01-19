@@ -103,7 +103,7 @@ This guide covers the following:
         # Make site accessible from http://localhost/
         server_name localhost;
         location / {
-          proxy_pass http://<ABC.DOMAIN.COM>:3000/;
+          proxy_pass http://localhost:3000/;
           proxy_http_version 1.1;
           proxy_set_header Upgrade $http_upgrade;
           proxy_set_header Connection "upgrade";
