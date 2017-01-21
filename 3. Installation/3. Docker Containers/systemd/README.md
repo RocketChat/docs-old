@@ -8,7 +8,19 @@ You need to have [docker](https://docs.docker.com/linux/started/) installed.
 
 ## How to run Rocket.Chat on systemd.
 
-Create three systemd files. One for the database, one for the database replica and one for rocketchat.
+Create the docker-container for the mongo-init-replica. It will remain in an exited state. Do NOT remove this!
+
+```
+docker run \
+      --name mongo-init-replica \
+      --link mongo:mongo \
+      --net=rocketchat_default \
+      mongo:3.2 \
+      mongo mongo/rocketchat --eval "rs.initiate({ _id: 'rs0', members: [ { _id: 0, host: 'localhost:27017' } ]})"
+```
+Then create two systemd files. One for the database and one for rocketchat.
+
+If you restart the services come up automatically and in the right order.
 
 mongo.service:
 ```
@@ -38,44 +50,14 @@ ExecStart=/usr/bin/docker run \
 ExecStop=-/usr/bin/docker kill mongo
 ExecStop=-/usr/bin/docker rm mongo
 ```
-
-mongo-init-replica.service:
-```
-[Unit]
-Description=mongo-init-replica
-Requires=mongo.service
-After=mongo.service
-
-[Service]
-EnvironmentFile=/etc/environment
-User=dockeruser
-KillMode=none
-Restart=always
-TimeoutStartSec=0
-ExecStartPre=-/usr/bin/docker kill mongo-init-replica
-ExecStartPre=-/usr/bin/docker rm mongo-init-replica
-ExecStartPre=-/usr/bin/docker pull mongo:3.2
-
-ExecStart=/usr/bin/docker run \
-      --name mongo-init-replica \
-      --link mongo:mongo \
-      --net=rocketchat_default \
-      mongo:3.2 \
-      mongo mongo/rocketchat --eval "rs.initiate({ _id: 'rs0', members: [ { _id: 0, host: 'localhost:27017' } ]})"
-
-ExecStop=-/usr/bin/docker kill mongo-init-replica
-ExecStop=-/usr/bin/docker rm mongo-init-replica
-```
 and the rocketchat.service:
 ```
 [Unit]
 Description=rocketchat
 Requires=docker.service
 Requires=mongo.service
-Requires=mongo-init-replica.service
 After=docker.service
 After=mongo.service
-After=mongo-init-replica.service
 
 [Service]
 EnvironmentFile=/etc/environment
@@ -100,6 +82,11 @@ ExecStart=/usr/bin/docker run \
 ExecStop=-/usr/bin/docker kill rocketchat
 ExecStop=-/usr/bin/docker rm rocketchat
 ```
+
+## Reverse Proxy
+
+If you are running a reverse proxy make sure it is joining the rocketchat_default network.
+Add `ExecStartPre=-/usr/bin/docker network connect rocketchat_default Nginx` to the rocketchat.service if you Proxy container is named `Nginx` and be sure to configure it correctly.
 
 ## Backup
 
