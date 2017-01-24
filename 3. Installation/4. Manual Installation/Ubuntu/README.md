@@ -15,7 +15,7 @@ Snaps are secure.  Rocket.Chat and all of its dependencies are isolated from the
 
 Find out more information about snaps [here](/3.%20Installation/4.%20Manual%20Installation/Ubuntu/Snaps)
 
-If you would like to enable https://yoursite.com using the snap please see [here](/3.%20Installation/4.%20Manual%20/Installation/Ubuntu/Snaps/AutoSSL.md)
+If you would like to enable https://yoursite.com using the snap please see [here](/3.%20Installation/4.%20Manual%20Installation/Ubuntu/Snaps/AutoSSL.md)
 
 ## Manual install
 
