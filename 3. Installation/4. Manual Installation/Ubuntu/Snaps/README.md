@@ -13,6 +13,11 @@ Snaps are secure. Rocket.Chat and all of its dependencies are isolated from the 
 
 ## FAQ
 If you have questions about snaps best place to ask them is in: [#ubuntu-snap](https://demo.rocket.chat/channel/ubuntu-snap)
+
+### How do I access my site at a different port?  How do I enable TLS/SSL with my snap?
+
+Check out our guide for enabling caddy: [here](/3.%20Installation/4.%20Manual%20/Installation/Ubuntu/Snaps/AutoSSL.md)
+
 ### Ubuntu 16.04 LTS gives message "snap not found", whats wrong?
 
 Make sure you're using x64 or amd64 (or armhf) images, especially on VPS or VMs. x86 is 32 bit and not supported.
