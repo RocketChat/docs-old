@@ -16,7 +16,7 @@ If you have questions about snaps best place to ask them is in: [#ubuntu-snap](h
 
 ### How do I access my site at a different port?  How do I enable TLS/SSL with my snap?
 
-Check out our guide for enabling caddy: [here](/3.%20Installation/4.%20Manual%20/Installation/Ubuntu/Snaps/AutoSSL.md)
+Check out our guide for enabling caddy: [here](/3.%20Installation/4.%20Manual%20Installation/Ubuntu/Snaps/AutoSSL.md)
 
 ### Ubuntu 16.04 LTS gives message "snap not found", whats wrong?
 
