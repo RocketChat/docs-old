@@ -80,3 +80,9 @@ http://my-example-domain.com:80 {
   }
 }
 ```
+
+Restarting the caddy service afterwards:
+
+```
+sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
+```
