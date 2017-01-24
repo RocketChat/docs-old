@@ -1,6 +1,6 @@
 # Auto SSL with Snaps
 
-## Enabling
+## Enabling Caddy
 
 First off we need to generate some default configuration by running:
 
@@ -57,4 +57,26 @@ Now you restart the caddy service:
 
 ```
 sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
+```
+
+## Changing ports
+If for some reason you don't want ssl, you can use caddy to simply change the port by using a config file like this:
+
+```
+http://my-example-domain.com {
+  proxy / localhost:3000 {
+    websocket
+    transparent
+  }
+}
+```
+Or:
+
+```
+http://my-example-domain.com:80 {
+  proxy / localhost:3000 {
+    websocket
+    transparent
+  }
+}
 ```
