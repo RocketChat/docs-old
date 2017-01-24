@@ -18,6 +18,8 @@ order: 40
 | `/api/v1/groups.leave` | Removes the calling user from the private group. | [Link](leave.md) |
 | `/api/v1/groups.list` | List the private groups the caller is part of. | [Link](list.md) |
 | `/api/v1/groups.open` | Adds the private group back to the list of groups. | [Link](open.md) |
+| `/api/v1/groups.removeModerator` | Removes the role of moderator from a user in a group. | [Link](removeModerator.md) |
+| `/api/v1/groups.removeOwner` | Removes the role of owner from a user in a group. | [Link](removeOwner.md) |
 | `/api/v1/groups.rename` | Changes the name of the private group. | [Link](rename.md) |
 | `/api/v1/groups.setDescription` | Sets a private group's description. | [Link](setDescription.md) |
 | `/api/v1/groups.setPurpose` | Sets a private group's description. | [Link](setPurpose.md) |
