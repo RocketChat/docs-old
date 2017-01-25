@@ -8,11 +8,12 @@ You need to have [docker](https://docs.docker.com/linux/started/) installed.
 
 ## How to run Rocket.Chat on systemd.
 
-1. Create two service files: mongo.service and rocketchat.service
-2. Enable the service files
-3. Run the mongo.service
-4. Create the mongo-init-replica to enable opolog
-5. Run the rocketchat.service
+1. Create a docker network `docker network create rocketchat_default`
+2. Create two service files: mongo.service and rocketchat.service
+3. Enable the service files
+4. Run the mongo.service
+5. Create the mongo-init-replica to enable opolog
+6. Run the rocketchat.service
 
 If you reboot the server, the services will start automatically in the right order.
 
@@ -82,7 +83,9 @@ ExecStop=-/usr/bin/docker kill rocketchat
 ExecStop=-/usr/bin/docker rm rocketchat
 ```
 
-command to build the mongo-init-replica container (only run once):
+## Build the mongo-init-replica container (only run once):
+
+Execute:
 ```
 docker run \
       --name mongo-init-replica \
