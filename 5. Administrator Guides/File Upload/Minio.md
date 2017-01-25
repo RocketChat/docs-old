@@ -3,12 +3,12 @@
 * Minio is a distributed object storage server built for cloud applications and devops
 * You can use many as a replacement for the amazon s3 storage
 * a basic setup guide for a minio instance can you find here: http://docs.minio.io/
-* If you use docker, use the container image minio/minio:edge instead of latest (not included but needed fixes)
+* If you use docker, use the container image `minio/minio:edge` instead of latest (not included but needed fixes)
 
 * Go to your File Upload Settings in rocket.chat (administration -> File Uploads)
 * Adjust the following setting:
 
-`Storage Type: gridfs (default) -> amazon s3)`
+`Storage Type: gridfs (default) -> amazon s3`
 
 * access the amazon s3 menu and adjust:
 
