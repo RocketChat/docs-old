@@ -8,19 +8,17 @@ You need to have [docker](https://docs.docker.com/linux/started/) installed.
 
 ## How to run Rocket.Chat on systemd.
 
-Create the docker-container for the mongo-init-replica. It will remain in an exited state. Do NOT remove this!
+1. Create two service files: mongo.service and rocketchat.service
+2. Enable the service files
+3. Run the mongo.service
+4. Create the mongo-init-replica to enable opolog
+5. Run the rocketchat.service
 
-```
-docker run \
-      --name mongo-init-replica \
-      --link mongo:mongo \
-      --net=rocketchat_default \
-      mongo:3.2 \
-      mongo mongo/rocketchat --eval "rs.initiate({ _id: 'rs0', members: [ { _id: 0, host: 'localhost:27017' } ]})"
-```
-Then create two systemd files. One for the database and one for rocketchat.
+If you reboot the server, the services will start automatically in the right order.
 
-If you restart the services come up automatically and in the right order.
+### The docker-container for the mongo-init-replica will remain in an exited state. Do NOT remove the container `mongo-init-replica`!
+
+## Service Files
 
 mongo.service:
 ```
@@ -50,7 +48,8 @@ ExecStart=/usr/bin/docker run \
 ExecStop=-/usr/bin/docker kill mongo
 ExecStop=-/usr/bin/docker rm mongo
 ```
-and the rocketchat.service:
+
+rocketchat.service:
 ```
 [Unit]
 Description=rocketchat
@@ -82,6 +81,17 @@ ExecStart=/usr/bin/docker run \
 ExecStop=-/usr/bin/docker kill rocketchat
 ExecStop=-/usr/bin/docker rm rocketchat
 ```
+
+command to build the mongo-init-replica container (only run once):
+```
+docker run \
+      --name mongo-init-replica \
+      --link mongo:mongo \
+      --net=rocketchat_default \
+      mongo:3.2 \
+      mongo mongo/rocketchat --eval "rs.initiate({ _id: 'rs0', members: [ { _id: 0, host: 'localhost:27017' } ]})"
+```
+
 
 ## Reverse Proxy
 
