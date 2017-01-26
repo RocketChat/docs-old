@@ -67,13 +67,59 @@ sudo systemctl restart snap.rocketchat-server.rocketchat-mongo
 
 The snaps policy is to restart on failure.
 
-### I need to backup the data from my snap how do I do this?
+### How do I backup my snap data?
 
-All data is located in `/var/snap/rocketchat-server/common`
-
-So you can make a quick and easy backup via:
+#### 1. Make a quick and easy backup via:
 ```
-tar cvf rocketchat-backup.tar /var/snap/rocketchat-server/common/'
+sudo snap run rocketchat-server.backupdb
+```
+
+#### 2. You will then see a bunch of output text followed by:
+```
+A backup of your data can be found at /var/snap/rocketchat-server/<version>/backup.tgz
+```
+
+#### 3. Copy `backup.tgz` to a different system for safekeeping.
+
+### How do I restore backup data to my snap?
+
+#### 1. Assuming you have your `backup.tgz` file (see above), simply extract it to a desired location (e.g., ~/backup_data)
+```
+cd ~
+mkdir backup_data
+tar zxvf /path/to/your/backup.tgz
+```
+
+This will create the following directory tree where you can find the extracted backup data:
+`~/backup_data/var/snap/rocketchat-server/<version>/dump/parties`
+
+#### 2. Confirm your database name
+The snap database name should be `parties`, but just to be safe:
+```
+sudo /snap/rocketchat-server/current/bin/mongo
+(...)
+> show dbs
+local    0.000GB
+parties  0.004GB
+> exit
+```
+
+#### 3. Use `mongorestore` to restore your backup data back into your snap database
+#### Important: before proceeding, consult https://docs.mongodb.com/manual/reference/program/mongorestore/ to learn about additional options and the non-overwriting behavior of `mongorestore` when the target database already exists.
+
+##### Please note: at the time of writing, mongorestore required openssl version 1.0.2 specifically. If you see an error like this - `(...) version 'OPENSSL_1.0.2' not found (required by /snap/rocketchat-server/current/bin/mongorestore)` - simply install the required openssl version to continue.
+
+When you are ready, run the following command (replacing `<version>` with the appropriate directory name):
+```
+sudo /snap/rocketchat-server/current/bin/mongorestore --db parties \
+~/restore/var/snap/rocketchat-server/<version>/dump/parties/
+```
+
+#### 4. Restart your services
+```
+sudo service snap.rocketchat-server.rocketchat-mongo  restart
+sudo service snap.rocketchat-server.rocketchat-server restart
+sudo service snap.rocketchat-server.rocketchat-caddy  restart
 ```
 
 ### What folders do snaps use?
