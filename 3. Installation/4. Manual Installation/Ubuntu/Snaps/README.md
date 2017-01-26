@@ -87,6 +87,7 @@ A backup of your data can be found at /var/snap/rocketchat-server/<version>/back
 ```
 cd ~
 mkdir backup_data
+cd backup_data
 tar zxvf /path/to/your/backup.tgz
 ```
 
@@ -112,7 +113,7 @@ parties  0.004GB
 When you are ready, run the following command (replacing `<version>` with the appropriate directory name):
 ```
 sudo /snap/rocketchat-server/current/bin/mongorestore --db parties \
-~/restore/var/snap/rocketchat-server/<version>/dump/parties/
+~/backup_data/var/snap/rocketchat-server/<version>/dump/parties/
 ```
 
 #### 4. Restart your services
