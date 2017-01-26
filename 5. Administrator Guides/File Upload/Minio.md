@@ -3,21 +3,17 @@
 * Minio is a distributed object storage server built for cloud applications and devops
 * You can use many as a replacement for the amazon s3 storage
 * a basic setup guide for a minio instance can you find here: http://docs.minio.io/
-* If you use docker, use the container image `minio/minio:edge` instead of latest (not included but needed fixes)
-
+* If you use docker, use this image: `minio/minio`
 * Go to your File Upload Settings in rocket.chat (administration -> File Uploads)
-* Adjust the following setting:
-
-`Storage Type: gridfs (default) -> amazon s3`
-
-* access the amazon s3 menu and adjust:
+* Adjust the following setting: `Storage Type: GridFS (default) -> AmazonS3`
+* access the AmazonS3 menu and adjust:
 
 ```
-Amazon S3 Bucketname: <yourbucketname>
-Amazon S3 AWS AccessKeyID: <your minio access key>
+Amazon S3 bucket name: <yourbucketname>
+Amazon S3 AWSAccessKeyID: <your minio access key>
 Amazon S3 AWSSecretAccessKey: <your minio secret access key>
 Region: us-east-1
-Bucket URL: https://minio.mydomain.com/<bucketname>
+Bucket URL: https://<minio.mydomain.com/bucketname>
 URLs expiration time: 0 (if you want that your files dont have an expiry date)
 ```
 
@@ -45,3 +41,6 @@ You get your access keys / secret access keys on first setup of minio, its displ
 2017-01-24T19:53:21.142027614Z
 2017-01-24T19:53:21.142030994Z Drive Capacity: 262 GiB Free, 303 GiB Total 
 ```
+
+* In production use a reverse proxy, there is a guide here in the minio docs: https://docs.minio.io/docs/setup-apache-http-proxy-with-minio-server
+* And for apache2 and ssl: https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension
