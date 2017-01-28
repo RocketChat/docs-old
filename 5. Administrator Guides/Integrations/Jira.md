@@ -8,4 +8,4 @@ _notify on issue creation, deletion and status, resolution, comment or priority 
 4. Press Save changes and copy the *Webhook URL* (added just below the script box)
 5. Go to your jira as administrator and follow instruction on adding outgoing webhook [here](https://developer.atlassian.com/jiradev/jira-apis/webhooks#Webhooks-configureConfiguringawebhook)
 
-you can tweak the content of the script to better sweets your needs
+You can tweak the content of the script to better sweets your needs
