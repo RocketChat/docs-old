@@ -6,7 +6,7 @@ Here you'll learn how to use [Rocket.Chat](https://rocket.chat/) as a user.
 
 Conversations in Rocket.Chat are organized into __channels__. Channels are chat rooms with many useful features. 
 
-There are three kinds of channels: [public channels](Public-channels), [private groups](Private-groups), and [direct (1-on-1) messages](Direct-messages).
+There are three kinds of channels: [public channels](#public-channels), [private groups](#private-groups), and [direct (1-on-1) messages](#direct-messages).
 
 <img src="public-channel-private-group.png" alt="Example of public channel and private group" width="150"/>
 
