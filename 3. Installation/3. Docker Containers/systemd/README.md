@@ -17,8 +17,6 @@ You need to have [docker](https://docs.docker.com/linux/started/) installed.
 
 If you reboot the server, the services will start automatically in the right order.
 
-### The docker-container for the mongo-init-replica will remain in an exited state. Do NOT remove the container `mongo-init-replica`!
-
 ## Service Files
 
 mongo.service:
