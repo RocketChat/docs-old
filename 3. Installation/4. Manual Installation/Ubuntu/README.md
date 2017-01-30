@@ -221,6 +221,6 @@ In summary do the following:
 1. Change into the directory where you have the `Rocket.Chat` directory
 1. Remove the old server executables
   * `rm -rf Rocket.Chat`
-1. Repeat Installation [step](#Install)
+1. Repeat Installation [step](#install)
 
 You can always [update directly](https://github.com/RocketChat/Rocket.Chat/issues/2408) to the newest version, the database migrations will execute from the old version to the new version.
