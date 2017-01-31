@@ -70,7 +70,7 @@ upstream backend {
 ```
 
 Now just replace `proxy_pass http://IP:3000/;` with `proxy_pass http://backend;`.
-Updating the [sample Nginx configuration](https://rocket.chat/docs/installation/manual-installation/configuring-ssl-reverse-proxy/)
+Updating the [sample Nginx configuration](https://rocket.chat/docs/installation/manual-installation/configuring-ssl-reverse-proxy)
 would result in a config like this:
 
 ```
