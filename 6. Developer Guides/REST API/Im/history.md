@@ -9,7 +9,7 @@ Retrieves the messages from a direct message.
 | :--- | :--- | :--- |
 | `/api/v1/im.history` | `yes` | `GET` |
 
-## Payload
+## Query Parameters
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The direct message id |

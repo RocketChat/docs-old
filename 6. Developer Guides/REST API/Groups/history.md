@@ -9,7 +9,7 @@ Retrieves the messages from a private group, only if you're part of the group.
 | :--- | :--- | :--- |
 | `/api/v1/groups.history` | `yes` | `GET` |
 
-## Payload
+## Query Parameters
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The private groups's id |

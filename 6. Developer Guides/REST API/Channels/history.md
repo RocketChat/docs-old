@@ -9,7 +9,7 @@ Retrieves the messages from a channel.
 | :--- | :--- | :--- |
 | `/api/v1/channels.history` | `yes` | `GET` |
 
-## Payload
+## Query Parameters
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |

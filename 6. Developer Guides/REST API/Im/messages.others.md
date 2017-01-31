@@ -11,7 +11,7 @@ For this method work the `Enable Direct Message History Endpoint` setting must b
 | :--- | :--- | :--- |
 | `/api/v1/im.messages.others` | `yes` | `GET` |
 
-## Payload
+## Query Parameters
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The direct message id |
