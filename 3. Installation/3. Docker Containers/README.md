@@ -10,18 +10,18 @@ For people new to docker here's a quick primer: Docker is a program to allow oth
 This guide is designed for everyone, however, it is intentionally detailed to help new users who may need a little extra guidance. If you're experienced with things like docker, nginx, etc. you may prefer one of the other deployment guides found elsewhere on this wiki.
 
 ### What we'll cover in this guide:
-1. [Securing the server: Firewall basics (optional)](#1-securing-the-server-firewall-basics-optional-recommended)
-2. [Securing the server: Fail2Ban IDS (optional)](#2-securing-the-server-fail2ban-optional-recommended)
+1. [Securing the server: Firewall basics (optional)](#1-securing-the-server-firewall-basics-optional-recommended-)
+2. [Securing the server: Fail2Ban IDS (optional)](#2-securing-the-server-fail2ban-optional-recommended-)
 3. [Installing Docker and Docker-Compose](#3-installing-docker-and-docker-compose)
 4. [Editing the hosts file](#4-editing-the-hosts-file)
-5. [Installing Nginx SSL Reverse Proxy](#5-installing-nginx--ssl-certificate)
-6. [Creating docker-compose.yml](#6-create-the-docker-composeyml-file--local-directories)
-7. [Automatic start-up, and crash recovery](#7-automatic-startup--crash-recovery)
+5. [Installing Nginx SSL Reverse Proxy](#5-installing-nginx-ssl-certificate)
+6. [Creating docker-compose.yml](#6-create-the-docker-compose-yml-file-local-directories)
+7. [Automatic start-up, and crash recovery](#7-automatic-startup-crash-recovery)
 8. [Reboot & Status check](#8-reboot-and-status-check)
-9. [Registering & Configuring Hubot, the chat robot](#9-registering--configuring-hubot-the-chat-robot)
-10. [FAQ & Troubleshooting](#10-trouble-shooting--faq)
-11. [TODO](#11-todo)
-12. [Known Issues](#12-known-issues)
+9. [Registering & Configuring Hubot, the chat robot](#9-registering-configuring-hubot-the-chat-robot)
+10. [FAQ & Troubleshooting](#10-troubleshooting-faq)
+11. [TODO](#11-todo-)
+12. [Known Issues](#12-known-issues-)
 
 ### Prerequisites:
 This guide is written assuming that you're starting with:
@@ -396,7 +396,7 @@ sudo ufw reload
 http://chat.inumio.com:3000
 ```
 
-**PROBLEM?** See [Section 10: Troubleshooting](#10-trouble-shooting--faq)
+**PROBLEM?** See [Section 10: Troubleshooting](#10-troubleshooting--faq)
 
 Once you've successfully reached your chat room login page, you need to register your admin account.
 By default, the first account to register on Rocket Chat becomes the admin, so if your chat room is public, do this immediately in order to prevent someone else from registering and becoming the administrator.
@@ -426,7 +426,7 @@ For basic command help, in the chat message box, type BOTNAME help (where BOTNAM
 
 ---------------------------------------------------------------
 
-### 10. Trouble Shooting & FAQ
+### 10. Troubleshooting & FAQ
 
 #### FAQ:
 Q: _It works! But how do I add more functionality to the bot?_
