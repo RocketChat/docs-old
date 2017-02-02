@@ -10,6 +10,12 @@ sudo snap install rocketchat-server
 
 Snaps are secure. Rocket.Chat and all of its dependencies are isolated from the rest of your system. Snaps also auto update when we release a new version. So no need more hassle updating.
 
+On Ubuntu 14.04LTS, install `snapd` first:
+
+```
+sudo apt-get install snapd
+```
+
 
 ## FAQ
 If you have questions about snaps best place to ask them is in: [#ubuntu-snap](https://demo.rocket.chat/channel/ubuntu-snap)
