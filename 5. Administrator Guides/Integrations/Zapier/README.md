@@ -43,4 +43,4 @@ __*Data*__: Add 2 Custom Fields and configure like so:
 
 > The rest of the options can be left blank if not specified above. 
 
-![example](zap_weather.png)
+[Screenshot of what it should look like](zap_weather.png)
