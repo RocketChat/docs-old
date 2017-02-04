@@ -39,7 +39,7 @@ __*Data*__: Add 2 Custom Fields and configure like so:
 
 **Unflatten**: no
 
-> Note: Make sure that the variables in the 'text' field are resolved correctly to the built in variablels available to the particular Zap you are using. 
+> Note: Make sure that the variables in the 'text' field are resolved correctly to the built in variables available to the particular Zap you are using. 
 
 > The rest of the options can be left blank if not specified above. 
 
