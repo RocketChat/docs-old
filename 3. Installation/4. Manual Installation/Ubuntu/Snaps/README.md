@@ -167,7 +167,7 @@ sudo service snap.rocketchat-server.rocketchat-server start
 * Your actual snap files for each version of Rocket.Chat are copied to: `/var/lib/snapd/snaps` and they are mounted in read-only mode.
 * Your snap common directory is: `/var/snap/rocketchat-server/common/`; file uploads to disk and the database are stored here.
 * Your snap data directory is `/var/snap/rocketchat-server/<version>`; this is a versioned folder.
-* You can access the latest snap data directory at `/var/snap/rocketchat-server/current`.
+* You can access the current snap data directory at `/var/snap/rocketchat-server/current`.
 
 ### How do I remove a specific previous version of Rocket.Chat?
 
