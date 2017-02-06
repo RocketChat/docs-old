@@ -34,19 +34,17 @@ To override Minio's auto-generated keys, you may pass secret and access keys exp
 ### Setup Rocket.Chat to use Minio
 To setup Minio as the file storage server in Rocket.Chat, go to `File Uploads` section under `administration`, then set `Storage Type: GridFS (default)` to `AmazonS3`. Next, access the AmazonS3 menu and update the following details:
 
-```
-Configuration Name | Description
------------- | -------------
-Amazon S3 bucket name | Minio Bucket Name
-Amazon S3 AWSAccessKeyId | Minio server Access Key
-Amazon S3 AWSSecretAccessKey | Minio server Secret Access Key
-Amazon Region |  us-east-1
-Bucket URL | https://<minio.mydomain.com/bucketname>
-URLs expiration time | 0 (if you want that your files don't have an expiry date)
-```
+| Configuration Name | Description |
+| ------------------ | ------------- |
+| Amazon S3 bucket name | Minio Bucket Name |
+| Amazon S3 AWSAccessKeyId | Minio server Access Key |
+| Amazon S3 AWSSecretAccessKey | Minio server Secret Access Key |
+| Amazon Region |  us-east-1 |
+| Bucket URL | https://<minio.mydomain.com/bucketname> |
+| URLs expiration time | 0 (if you want that your files don't have an expiry date) |
 
 ### Production setup
 
 In production you can use a reverse proxy with Minio server. Check out the documentation for [Nginx](https://docs.minio.io/docs/setup-nginx-proxy-with-minio#main), [Apache](https://docs.minio.io/docs/setup-apache-http-proxy-with-minio-server) and [Apache2](https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension).
 
-To setup SSL for your Minio server, you can use [Concert](https://docs.minio.io/docs/concert), a console based certificate generation tool for letsencrypt.org
+You can secure access to Minio server with TLS. Check out the documentation [here](https://docs.minio.io/docs/how-to-secure-access-to-minio-server-with-tls).
