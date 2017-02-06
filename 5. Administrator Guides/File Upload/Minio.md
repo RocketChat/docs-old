@@ -40,7 +40,7 @@ To setup Minio as the file storage server in Rocket.Chat, go to `File Uploads` s
 | Amazon S3 AWSAccessKeyId | Minio server Access Key |
 | Amazon S3 AWSSecretAccessKey | Minio server Secret Access Key |
 | Amazon Region |  us-east-1 |
-| Bucket URL | https://<minio.mydomain.com/bucketname> |
+| Bucket URL | http://[your.minio.domain/bucketname] |
 | URLs expiration time | 0 (if you want that your files don't have an expiry date) |
 
 ### Production setup
