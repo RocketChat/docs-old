@@ -1,24 +1,12 @@
 # Minio
 
-* Minio is a distributed object storage server built for cloud applications and devops
-* You can use many as a replacement for the amazon s3 storage
-* a basic setup guide for a minio instance can you find here: http://docs.minio.io/
-* If you use docker, use this image: `minio/minio`
-* Go to your File Upload Settings in rocket.chat (administration -> File Uploads)
-* Adjust the following setting: `Storage Type: GridFS (default) -> AmazonS3`
-* access the AmazonS3 menu and adjust:
+### Introduction
+Minio is an object storage server built for cloud applications and DevOps. Minio is S3 compatible and provides an open source
+alternative to AWS S3. You can [download and install](https://minio.io/downloads) Minio pretty quickly. Minio also provides [official Docker image](https://hub.docker.com/r/minio/minio/). For further details, check out [Minio documentation website](https://docs.minio.io/).
 
-```
-Amazon S3 bucket name: <yourbucketname>
-Amazon S3 AWSAccessKeyID: <your minio access key>
-Amazon S3 AWSSecretAccessKey: <your minio secret access key>
-Region: us-east-1
-Bucket URL: https://<minio.mydomain.com/bucketname>
-URLs expiration time: 0 (if you want that your files dont have an expiry date)
-```
+### AccessKey and SecretKey
 
-You get your access keys / secret access keys on first setup of minio, its displayed like:
-
+Once you install and deploy Minio server, you can get the AccessKey and SecretKey from the startup message.  
 ```
 2017-01-24T19:53:21.141689279Z
 2017-01-24T19:53:21.141730078Z Endpoint:  http://172.17.0.2:9000  http://127.0.0.1:9000
@@ -39,8 +27,26 @@ You get your access keys / secret access keys on first setup of minio, its displ
 2017-01-24T19:53:21.142019474Z    Python:     https://docs.minio.io/docs/python-client-quickstart-guide
 2017-01-24T19:53:21.142024004Z    JavaScript: https://docs.minio.io/docs/javascript-client-quickstart-guide
 2017-01-24T19:53:21.142027614Z
-2017-01-24T19:53:21.142030994Z Drive Capacity: 262 GiB Free, 303 GiB Total 
+2017-01-24T19:53:21.142030994Z Drive Capacity: 262 GiB Free, 303 GiB Total
+```
+To override Minio's auto-generated keys, you may pass secret and access keys explicitly as environment variables. Explained [here](https://docs.minio.io/docs/minio-docker-quickstart-guide)
+
+### Setup Rocket.Chat to use Minio
+To setup Minio as the file storage server in Rocket.Chat, go to `File Uploads` section under `administration`, then set `Storage Type: GridFS (default)` to `AmazonS3`. Next, access the AmazonS3 menu and update the following details:
+
+```
+Configuration Name | Description
+------------ | -------------
+Amazon S3 bucket name | Minio Bucket Name
+Amazon S3 AWSAccessKeyId | Minio server Access Key
+Amazon S3 AWSSecretAccessKey | Minio server Secret Access Key
+Amazon Region |  us-east-1
+Bucket URL | https://<minio.mydomain.com/bucketname>
+URLs expiration time | 0 (if you want that your files don't have an expiry date)
 ```
 
-* In production use a reverse proxy, there is a guide here in the minio docs: https://docs.minio.io/docs/setup-apache-http-proxy-with-minio-server
-* And for apache2 and ssl: https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension
+### Production setup
+
+In production you can use a reverse proxy with Minio server. Check out the documentation for [Nginx](https://docs.minio.io/docs/setup-nginx-proxy-with-minio#main), [Apache](https://docs.minio.io/docs/setup-apache-http-proxy-with-minio-server) and [Apache2](https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension).
+
+To setup SSL for your Minio server, you can use [Concert](https://docs.minio.io/docs/concert), a console based certificate generation tool for letsencrypt.org
