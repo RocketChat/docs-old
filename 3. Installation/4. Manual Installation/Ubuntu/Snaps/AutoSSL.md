@@ -9,6 +9,12 @@ The first step is to generate some default configuration by running:
 sudo rocketchat-server.initcaddy
 ```
 
+Alternatively if you are on Debian or another distro:
+
+```
+sudo snap run rocketchat-server.initcaddy
+```
+
 Then, edit the Caddyfile found at: `/var/snap/rocketchat-server/current/Caddyfile`
 
 It'll look like this out of the box:
