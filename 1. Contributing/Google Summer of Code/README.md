@@ -15,12 +15,12 @@
 * **Goal/Deliverable:** Being able to pair a room with Chromecast, displaying it's messages. Chromecast app needs to be able to automatically join a Jitsi/WebRTC video call. 
 
 ### Integrated Personal Email Gateway
-* **Mentors:** @rodrigok
+* **Mentors:** Rodrigo Nascimento ([@rodrigok](https://github.com/rodrigok))
 * **Description:** Add feature to allow automated reply when offline, and forwarding of incoming messages via email.
 * **Desirable Skills:** Some Javascript coding skills will be required to complete this task. An understanding of industry standard SMTP and POP prototcols, and configuration of standard email servers will be required.
 * **Goal/Deliverable:**  Ability for each user to set an away message, and receive any offline messages - in batches per interval, via through email account.
 
-### Create a PWA client
+### Create a Progressive Web App client
 * **Mentors:**  TBD
 * **Description:** Create a PWA client using a framework like Angular, Aurelia, React or Polymer
 * **Desirable Skills:** Some Javascript coding skills would be required to complete this task.
@@ -44,7 +44,7 @@
 * **Desirable Skills:** Some Javascript coding skills would be required to complete this task.
 * **Goal/Deliverable:** Modifications that would allow Rocket.Chat to work in a Mesh network.
 
-### Enable multi-instance HA with snaps
+### Enable multi-instance High Availabilty (HA) configuration with snaps
 * **Mentors:** Aaron Ogle ([@geekgonecrazy](https://github.com/geekgonecrazy))
 * **Description:** Modify the Rocket.Chat snap to enable mongodb replica's and multi instance Rocket.Chat
 * **Desirable Skills:** Familiarity with linux, and bash scripting.
