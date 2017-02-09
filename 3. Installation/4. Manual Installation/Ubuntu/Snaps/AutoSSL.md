@@ -6,6 +6,12 @@ We now include the option to enable Caddy in your snap.  Caddy makes use of [let
 
 The first step is to generate some default configuration by running:
 ```
+sudo rocketchat-server.initcaddy
+```
+
+Alternatively if you are on Debian or another distro:
+
+```
 sudo snap run rocketchat-server.initcaddy
 ```
 
