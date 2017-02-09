@@ -9,7 +9,7 @@
 * **Goal/Deliverable:** The ability to schedule a meeting in Rocket.Chat
 
 ### Improved OTR
-* **Mentors:** 
+* **Mentors:** Marcelo Schmidt ([@marcelo.schmidt](https://github.com/marceloschmidt))
 * **Description:** Taking and improving our OTR implementation
 * **Desirable Skills:** Some javascript coding skills and familiarity with cryptography.
 * **Goal/Deliverable:** The ability to have secure OTR conversations
