@@ -3,7 +3,7 @@
 ## Ideas
 
 ### Meeting Scheduling
-* **Mentors:** 
+* **Mentors:** Bradley Hilton ([@graywolf336](https://github.com/graywolf336))
 * **Description:** taking and embedding a calendar inside rocket.chat, being standalone yet integrating with all the calendars out there so people can schedule meetings and be reminded of upcoming meetings that are inside rocket.chat
 * **Desirable Skills:** Some javascript coding skills
 * **Goal/Deliverable:** The ability to schedule a meeting in Rocket.Chat
