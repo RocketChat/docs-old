@@ -31,3 +31,9 @@
 * **Description:** Modify the Rocket.Chat protocol and stack to work across an occasionally connected Mesh network (commonly found in Cuba and many part of the world).
 * **Desirable Skills:** Some Javascript coding skills would be required to complete this task.
 * **Goal/Deliverable:** Modifications that would allow Rocket.Chat to work in a Mesh network.
+
+### Enable multi-instance HA with snaps
+* **Mentors:** Aaron Ogle ([@geekgonecrazy](https://github.com/geekgonecrazy))
+* **Description:** Modify the Rocket.Chat snap to enable mongodb replica's and multi instance Rocket.Chat
+* **Desirable Skills:** Familiarity with linux, and bash scripting.
+* **Goal/Deliverable:** A snap that can be used in a multi-instance HA setup.
