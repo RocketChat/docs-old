@@ -8,6 +8,12 @@
 * **Desirable Skills:** 
 * **Goal/Deliverable:** The ability to schedule a meeting in Rocket.Chat
 
+### Improved OTR
+* **Mentors:** 
+* **Description:** Taking and improving our OTR implementation
+* **Desirable Skills:** Some javascript coding skills and familiarity with cryptography.
+* **Goal/Deliverable:** The ability to have secure OTR conversations
+
 ### Use of Chromecast as Presentation Room
 * **Mentors:** Bradley Hilton ([@graywolf336](https://github.com/graywolf336)) 
 * **Description:** Use Chromecast as presentation output which shows a chat room and will join any Jitsi / WebRTC meetings that are started in it, this way meetings can be started inside Rocket.Chat and the Chromecast can be on a TV/Monitor inside a conference room.
