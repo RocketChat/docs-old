@@ -31,9 +31,3 @@
 * **Description:** Modify the Rocket.Chat protocol and stack to work across an occasionally connected Mesh network (commonly found in Cuba and many part of the world).
 * **Desirable Skills:** Some Javascript coding skills would be required to complete this task.
 * **Goal/Deliverable:** Modifications that would allow Rocket.Chat to work in a Mesh network.
-
-### Snap additions
-* **Mentors:** Aaron Ogle ([@geekgonecrazy](https://github.com/geekgonecrazy))
-* **Description:** Modify the Rocket.Chat protocol and stack to work across an occasionally connected Mesh network (commonly found in Cuba and many part of the world).
-* **Desirable Skills:** Some Javascript coding skills would be required to complete this task.
-* **Goal/Deliverable:** Modifications that would allow Rocket.Chat to work in a Mesh network.
