@@ -29,7 +29,7 @@ Example:
 }
 ```
 
-You'll need to access the room information using data from [Get Subscriptions][1].
+You'll need to access the room information using data from [Get Subscriptions](https://rocket.chat/docs/developer-guides/realtime-api/method-calls/get-subscriptions).
 
 ### Chat
 
@@ -82,5 +82,3 @@ Example:
     "ro": false // This room is not read-only
 }
 ```
-
-[1]:1.%20Method%20Calls/06.%20Get%20Subscriptions
