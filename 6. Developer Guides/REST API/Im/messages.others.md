@@ -5,7 +5,7 @@ order: 25
 # IM Messages Others
 Retrieves the messages from any direct message in the server, this method supports the [Offset and Count Query Parameters](../Offset%20and%20Count%20Info.md).
 
-For this method work the `Enable Direct Message History Endpoint` setting must be true, and the user calling this method must have the `view-room-administration` permission.
+For this method to work the `Enable Direct Message History Endpoint` setting must be true, and the user calling this method must have the `view-room-administration` permission.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
