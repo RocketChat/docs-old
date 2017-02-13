@@ -41,7 +41,7 @@ server {
     ssl_protocols TLSv1 TLSv1.1 TLSv1.2; # don’t use SSLv3 ref: POODLE
 
     location / {
-        proxy_pass http://IP:3000/;
+        proxy_pass http://backend/;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection "upgrade";

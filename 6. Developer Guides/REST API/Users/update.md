@@ -1,7 +1,7 @@
 # User Update
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/user.update` | `yes` | `POST` |
+| `/api/v1/users.update` | `yes` | `POST` |
 
 ## Payload
 | Argument | Example | Required | Description |
@@ -24,7 +24,7 @@
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type:application/json" \
-     http://localhost:3000/api/v1/user.update \
+     http://localhost:3000/api/v1/users.update \
      -d '{"userId": "BsNr28znDkG8aeo7W", "data": { "name": "new name", "email": "newemail@user.tld" }}'
 ```
 
