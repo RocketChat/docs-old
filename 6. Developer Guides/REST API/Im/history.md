@@ -1,18 +1,18 @@
 ---
-order: 20
+order: 10
 ---
 
-# Group History
-Retrieves the messages from a private group, only if you're part of the group.
+# IM History
+Retrieves the messages from a direct message.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/groups.history` | `yes` | `GET` |
+| `/api/v1/im.history` | `yes` | `GET` |
 
 ## Query Parameters
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `roomId` | `ByehQjC44FwMeiLbX` | Required | The private groups's id |
+| `roomId` | `ByehQjC44FwMeiLbX` | Required | The direct message id |
 | `latest` | `2016-09-30T13:42:25.304Z` | Optional <br> Default: now | The end of time range of messages to retrieve |
 | `oldest` | `2016-05-30T13:42:25.304Z` | Optional <br> Default: _n/a_ | The start of the time range of messages to retrieve |
 | `inclusive` | `true` | Optional <br> Default: `false` | Whether messages which land on latest and oldest should be included |
@@ -23,7 +23,7 @@ Retrieves the messages from a private group, only if you're part of the group.
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
-     http://localhost:3000/api/v1/groups.history?roomId=ByehQjC44FwMeiLbX
+     http://localhost:3000/api/v1/im.history?roomId=ByehQjC44FwMeiLbX
 ```
 
 ## Example Result

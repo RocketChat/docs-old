@@ -1,29 +1,26 @@
 ---
-order: 20
+order: 25
 ---
 
-# Group History
-Retrieves the messages from a private group, only if you're part of the group.
+# IM Messages Others
+Retrieves the messages from any direct message in the server, this method supports the [Offset and Count Query Parameters](../Offset%20and%20Count%20Info.md).
+
+For this method to work the `Enable Direct Message History Endpoint` setting must be true, and the user calling this method must have the `view-room-administration` permission.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/groups.history` | `yes` | `GET` |
+| `/api/v1/im.messages.others` | `yes` | `GET` |
 
 ## Query Parameters
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `roomId` | `ByehQjC44FwMeiLbX` | Required | The private groups's id |
-| `latest` | `2016-09-30T13:42:25.304Z` | Optional <br> Default: now | The end of time range of messages to retrieve |
-| `oldest` | `2016-05-30T13:42:25.304Z` | Optional <br> Default: _n/a_ | The start of the time range of messages to retrieve |
-| `inclusive` | `true` | Optional <br> Default: `false` | Whether messages which land on latest and oldest should be included |
-| `count` | `100` | Optional <br> Default: `20` | The amount of messages to retrieve |
-| `unreads` | `false` | Optional <br> Default: `false` | Whether the amount of unreads should be included. |
+| `roomId` | `ByehQjC44FwMeiLbX` | Required | The direct message id |
 
 ## Example Call
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
-     http://localhost:3000/api/v1/groups.history?roomId=ByehQjC44FwMeiLbX
+     http://localhost:3000/api/v1/im.messages.others?roomId=ByehQjC44FwMeiLbX
 ```
 
 ## Example Result
@@ -88,4 +85,4 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Change Log
 | Version | Description |
 | :--- | :--- |
-| 0.48.0 | Added |
+| 0.50.0 | Added |
