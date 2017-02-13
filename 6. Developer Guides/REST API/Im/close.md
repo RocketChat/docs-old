@@ -2,7 +2,7 @@
 order: 5
 ---
 
-# Im Close
+# IM Close
 Removes the direct message from the user's list of direct messages.
 
 | URL | Requires Auth | HTTP Method |

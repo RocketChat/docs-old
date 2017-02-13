@@ -2,7 +2,7 @@
 order: 15
 ---
 
-# Im List
+# IM List
 Lists all of the direct messages the calling user has joined, this method supports the [Offset and Count Query Parameters](../Offset%20and%20Count%20Info.md).
 
 | URL | Requires Auth | HTTP Method |

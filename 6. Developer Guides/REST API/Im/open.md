@@ -2,7 +2,7 @@
 order: 30
 ---
 
-# Channel Open
+# IM Open
 Adds the direct message back to the user's list of direct messages.
 
 | URL | Requires Auth | HTTP Method |

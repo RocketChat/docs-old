@@ -2,7 +2,7 @@
 order: 20
 ---
 
-# Im List.Eeveryone
+# IM List Everyone
 Lists all of the direct messages in the server, this method supports the [Offset and Count Query Parameters](../Offset%20and%20Count%20Info.md).
 
 | URL | Requires Auth | HTTP Method |

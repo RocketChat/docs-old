@@ -2,7 +2,7 @@
 order: 40
 ---
 
-# Im Methods
+# IM Methods
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/im.close` | Removes a direct message from the list of direct messages. | [Link](close.md) |

@@ -2,7 +2,7 @@
 order: 50
 ---
 
-# Im Set Topic
+# IM Set Topic
 Sets the topic for the direct message.
 
 | URL | Requires Auth | HTTP Method |

@@ -2,7 +2,7 @@
 order: 10
 ---
 
-# Im History
+# IM History
 Retrieves the messages from a direct message.
 
 | URL | Requires Auth | HTTP Method |
