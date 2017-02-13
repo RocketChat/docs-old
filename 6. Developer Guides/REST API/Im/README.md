@@ -13,5 +13,6 @@ order: 40
 | `/api/v1/im.open` | Adds the direct message back to the list of direct messages. | [Link](open.md) |
 | `/api/v1/im.setTopic` | Sets a direct message topic. | [Link](setTopic.md) |
 
+## Notes
 From version 0.50.0 and on you can call the methods using `dm` instead of `im`.
 
