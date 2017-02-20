@@ -27,7 +27,7 @@ Independently of the auth provider, upon an sucessful login we'll receive back a
 }
 ```
 
-That information should be saved locally in order to automatically authenticate the user the next time he tries to use the client. Look at [[Using an authentication token](#resume)] for information about how to do it.
+That information should be saved locally in order to automatically authenticate the user the next time he tries to use the client. Look at [[Using an authentication token](#using-an-authentication-token)] for information about how to do it.
 
 ## Username and Password
 
