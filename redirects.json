@@ -1,0 +1,17 @@
+{
+    "/administrator-guides/integrations/azurealerts": "/docs/administrator-guides/integrations/incoming/azurealerts",
+    "/administrator-guides/integrations/bitbucket":  "/docs/administrator-guides/integrations/incoming/bitbucket",
+    "/administrator-guides/integrations/giphy": "/docs/administrator-guides/integrations/outgoing/giphy",
+    "/administrator-guides/integrations/github": "/docs/administrator-guides/integrations/incoming/github",
+    "/administrator-guides/integrations/gitlab": "/docs/administrator-guides/integrations/incoming/gitlab",
+    "/administrator-guides/integrations/guggy": "/docs/administrator-guides/integrations/outgoing/guggy",
+    "/administrator-guides/integrations/jira": "/docs/administrator-guides/integrations/incoming/jira",
+    "/administrator-guides/integrations/newrelic": "/docs/administrator-guides/integrations/incoming/newrelic",
+    "/administrator-guides/integrations/osticket": "/docs/administrator-guides/integrations/incoming/osticket",
+    "/administrator-guides/integrations/pagerduty": "/docs/administrator-guides/integrations/incoming/pagerduty",
+    "/administrator-guides/integrations/prometheus": "/docs/administrator-guides/integrations/incoming/prometheus",
+    "/administrator-guides/integrations/reviewboard": "/docs/administrator-guides/integrations/incoming/reviewboard",
+    "/administrator-guides/integrations/sentry": "/docs/administrator-guides/integrations/incoming/sentry",
+    "/administrator-guides/integrations/telegram": "/docs/administrator-guides/integrations/incoming/telegram",
+    "/administrator-guides/integrations/uptimerobot": "/docs/administrator-guides/integrations/incoming/uptimerobot"
+}
