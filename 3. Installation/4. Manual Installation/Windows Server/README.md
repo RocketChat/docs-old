@@ -45,10 +45,11 @@ Then, download and install each of the following **in order**:
   ```
 
 6. Save the file as `[Installation Path]\mongod.cfg` where [Installation Path] is the location you installed Mongo
-7. Open the Command Prompt by pressing `Windows Key + R` and then entering `cmd`
+7. Open the Command Prompt by pressing `Windows Key + R` and then entering `cmd`, right click on Command Prompt and select `Run as administrator`
 8. Now enter the following:
 
   ```
+  > mkdir [Data Path]
   > cd [Data Path]
   > mkdir [Data Path]\db
   > mkdir [Data Path]\logs
