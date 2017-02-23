@@ -2,7 +2,7 @@
 order: 100
 ---
 
-# Chat Message Delete
+# Chat Message Update
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |
 | `/api/v1/chat.update` | `yes` | `POST` |
