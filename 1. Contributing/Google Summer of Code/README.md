@@ -2,7 +2,7 @@
 
 ## How to apply
 
-Interested students should email the mentor(s) directly for discussion and further information.  You can also find them, most of the time, on our community server https://demo.rocket.chat/  for real-time chat.   Many of the mentors are fluent in both Portuguese and English.  If you have ideas and proposals that is not on our idea list, or if a mentor is not available, please email to contact+gsoc17@rocket.chat
+Interested students should email the mentor(s) directly for discussion and further information.  You can also find them, most of the time, on our community server https://demo.rocket.chat/  for real-time chat.   Many of the mentors are fluent in both Portuguese and English.  If you have ideas and proposals that are not on our idea list, or if a mentor is not available, please email to contact+gsoc17@rocket.chat
 
 For general information, and some real-time help on next steps, please visit our community server Google Summer of Code 2017 discussion group:    https://demo.rocket.chat/channel/gsoc17
 
