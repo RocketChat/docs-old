@@ -102,11 +102,13 @@ SSLCertificateChainFile /etc/ssl/certs/intermediate.ca.pem
         Allow from all
 </Location>
 
-ProxyPreserveHost On
-ProxyPassMatch ^/sockjs/(.*)/websocket ws://localhost:3000/sockjs/$1/websocket
-ProxyPass / http://localhost:3000/
-ProxyPassReverse / http://localhost:3000/
+RewriteEngine On
+RewriteCond %{HTTP:Upgrade} =websocket [NC]
+RewriteRule /(.*)           ws://localhost:3000/$1 [P,L]
+RewriteCond %{HTTP:Upgrade} !=websocket [NC]
+RewriteRule /(.*)           http://localhost:3000/$1 [P,L]
 
+ProxyPassReverse / http://localhost:3000/
 </VirtualHost>
 ```
 
