@@ -18,9 +18,9 @@ For general information, and some real-time help on next steps, please visit our
 
 ### Improved Off The Record Messaging (OTR)
 * **Mentors:** Marcelo Schmidt ([@marcelo.schmidt](https://github.com/marceloschmidt))  Mitar Milutinovic ([@mitar](https://github.com/mitar))
-* **Description:** Taking and improving our OTR implementation
-* **Desirable Skills:** Some javascript coding skills and familiarity with cryptography.
-* **Goal/Deliverable:** The ability to have secure OTR conversations
+* **Description:** Taking and improving our OTR implementation. Perhaps replace with more modern protocols, such as Signal. 
+* **Desirable Skills:** Some Javascript coding skills and familiarity with cryptography.
+* **Goal/Deliverable:** The ability to have secure conversations
 
 ### Use of Chromecast as Presentation Room
 * **Mentors:** Bradley Hilton ([@graywolf336](https://github.com/graywolf336)) 
