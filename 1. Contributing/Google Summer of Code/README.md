@@ -16,9 +16,9 @@ For general information, and some real-time help on next steps, please visit our
 * **Goal/Deliverable:** The foundation for all Rocket.Chat users/bots/services to optionally communicate with one another, across all connected instances.
 
 
-### Improved Off The Record Messaging (OTR)
+### Improved End-to-End Encryption Implemenation (currently feature-named OTR)
 * **Mentors:** Marcelo Schmidt ([@marcelo.schmidt](https://github.com/marceloschmidt))  Mitar Milutinovic ([@mitar](https://github.com/mitar))
-* **Description:** Taking and improving our OTR implementation. Perhaps replace with more modern protocols, such as Signal. 
+* **Description:** Taking and improving our end-to-end encryption implementation. Perhaps replace with more modern protocols, such as Signal. 
 * **Desirable Skills:** Some Javascript coding skills and familiarity with cryptography.
 * **Goal/Deliverable:** The ability to have secure conversations
 
