@@ -10,7 +10,7 @@ For general information, and some real-time help on next steps, please visit our
 ## Ideas
 
 ### Federation of Rocket.Chat Servers
-* **Mentors:** Matthew Hodgson ([@arathorn](https://github/ara4n))  Rodrigo Nascimento ([@rodrigok](https://github.com/rodrigok))
+* **Mentors:** Matthew Hodgson ([@arathorn](https://github/ara4n))  Rodrigo Nascimento ([@rodrigo.nascimento](https://github.com/rodrigok))
 * **Description:** Tens of thousands of Rocket.Chat servers are running at this very minute on the Internet.  There is currently no way for users/bots/services of one instance to address or communicate with those from another.  This project's mission is to make it possible. You will be working and exchanging ideas with the very best in the field - experts from Matrix.org and Rocket.Chat.
 * **Desirable Skills:** Familiarity with JavaScript development.  Demonstrated interest and/or passion on networking and federation protocols research and evolution.
 * **Goal/Deliverable:** The foundation for all Rocket.Chat users/bots/services to optionally communicate with one another, across all connected instances.
