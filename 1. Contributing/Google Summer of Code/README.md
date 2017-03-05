@@ -20,7 +20,7 @@ For general information, and some real-time help on next steps, please visit our
 * **Mentors:** Marcelo Schmidt ([@marcelo.schmidt](https://github.com/marceloschmidt))  Mitar Milutinovic ([@mitar](https://github.com/mitar))
 * **Description:** Taking and improving our end-to-end encryption implementation. Perhaps replace with more modern protocols, such as Signal. 
 * **Desirable Skills:** Some Javascript coding skills and familiarity with cryptography.
-* **Goal/Deliverable:** The ability to have secure conversations
+* **Goal/Deliverable:** The ability to have end-to-end encrypted conversations between users. There are various features possible: forward secrecy, online and offline use (do users have to be online at the same time for encryption to be possible), do we store messages on the server, pair or group conversations, encrypted file transfer, etc.
 
 ### Use of Chromecast as Presentation Room
 * **Mentors:** Bradley Hilton ([@graywolf336](https://github.com/graywolf336)) 
