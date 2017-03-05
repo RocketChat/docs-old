@@ -10,17 +10,17 @@ For general information, and some real-time help on next steps, please visit our
 ## Ideas
 
 ### Federation of Rocket.Chat Servers
-* **Mentors:** Matthew Hodgson ([@arathorn](https://github/ara4n))  Rodrigo Nascimento ([@rodrigok](https://github.com/rodrigok))
+* **Mentors:** Matthew Hodgson ([@arathorn](https://github/ara4n))  Rodrigo Nascimento ([@rodrigo.nascimento](https://github.com/rodrigok))
 * **Description:** Tens of thousands of Rocket.Chat servers are running at this very minute on the Internet.  There is currently no way for users/bots/services of one instance to address or communicate with those from another.  This project's mission is to make it possible. You will be working and exchanging ideas with the very best in the field - experts from Matrix.org and Rocket.Chat.
 * **Desirable Skills:** Familiarity with JavaScript development.  Demonstrated interest and/or passion on networking and federation protocols research and evolution.
 * **Goal/Deliverable:** The foundation for all Rocket.Chat users/bots/services to optionally communicate with one another, across all connected instances.
 
 
-### Improved Off The Record Messaging (OTR)
+### Improved End-to-End Encryption Implemenation (currently feature-named OTR)
 * **Mentors:** Marcelo Schmidt ([@marcelo.schmidt](https://github.com/marceloschmidt))  Mitar Milutinovic ([@mitar](https://github.com/mitar))
-* **Description:** Taking and improving our OTR implementation
-* **Desirable Skills:** Some javascript coding skills and familiarity with cryptography.
-* **Goal/Deliverable:** The ability to have secure OTR conversations
+* **Description:** Taking and improving our end-to-end encryption implementation. Perhaps replace with more modern protocols, such as Signal. 
+* **Desirable Skills:** Some Javascript coding skills and familiarity with cryptography.
+* **Goal/Deliverable:** The ability to have end-to-end encrypted conversations between users. There are various features possible: forward secrecy, online and offline use (do users have to be online at the same time for encryption to be possible), do we store messages on the server, pair or group conversations, encrypted file transfer, etc.
 
 ### Use of Chromecast as Presentation Room
 * **Mentors:** Bradley Hilton ([@graywolf336](https://github.com/graywolf336)) 
@@ -29,7 +29,7 @@ For general information, and some real-time help on next steps, please visit our
 * **Goal/Deliverable:** Being able to pair a room with Chromecast, displaying it's messages. Chromecast app needs to be able to automatically join a Jitsi/WebRTC video call. 
 
 ### Integrated Personal Email Gateway
-* **Mentors:** Rodrigo Nascimento ([@rodrigok](https://github.com/rodrigok))
+* **Mentors:** Rodrigo Nascimento ([@rodrigo.nascimento](https://github.com/rodrigok))
 * **Description:** Add feature to allow automated reply when offline, and forwarding of incoming messages via email.
 * **Desirable Skills:** Some Javascript coding skills will be required to complete this task. An understanding of industry standard SMTP and POP prototcols, and configuration of standard email servers will be required.
 * **Goal/Deliverable:**  Ability for each user to set an away message, and receive any offline messages - in batches per interval, via through email account.
