@@ -29,7 +29,7 @@ For general information, and some real-time help on next steps, please visit our
 * **Goal/Deliverable:** Being able to pair a room with Chromecast, displaying it's messages. Chromecast app needs to be able to automatically join a Jitsi/WebRTC video call. 
 
 ### Integrated Personal Email Gateway
-* **Mentors:** Rodrigo Nascimento ([@rodrigok](https://github.com/rodrigok))
+* **Mentors:** Rodrigo Nascimento ([@rodrigo.nascimento](https://github.com/rodrigok))
 * **Description:** Add feature to allow automated reply when offline, and forwarding of incoming messages via email.
 * **Desirable Skills:** Some Javascript coding skills will be required to complete this task. An understanding of industry standard SMTP and POP prototcols, and configuration of standard email servers will be required.
 * **Goal/Deliverable:**  Ability for each user to set an away message, and receive any offline messages - in batches per interval, via through email account.
