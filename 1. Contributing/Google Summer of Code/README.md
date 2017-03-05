@@ -6,6 +6,7 @@ Interested students should email the mentor(s) directly for discussion and furth
 
 For general information, and some real-time help on next steps, please visit our community server Google Summer of Code 2017 discussion group:    https://demo.rocket.chat/channel/gsoc17
 
+Student applications will be accepted starting March 20th, 2017.  All applications must be in by April 3rd.
 
 ## Ideas
 
