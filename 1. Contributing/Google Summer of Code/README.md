@@ -1,4 +1,4 @@
-# Google Summer of Code 2017
+[![Google Summer of Code 2017](https://github.com/Sing-Li/bbug/raw/master/images/gsoclogo.jpg)](https://developers.google.com/open-source/gsoc/)
 
 ## How to apply
 
