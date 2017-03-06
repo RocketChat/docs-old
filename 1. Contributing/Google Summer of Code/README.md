@@ -39,7 +39,7 @@ Student applications will be accepted starting March 20th, 2017.  All applicatio
 * **Mentors:**  TBD
 * **Description:** Create a PWA client using a framework like Angular, Aurelia, React or Polymer
 * **Desirable Skills:** Some Javascript coding skills would be required to complete this task.
-* **Goal/Deliverable:** A PWA client with at least basic functionality
+* **Goal/Deliverable:** A PWA client with basic functionality, composed of re-usable web components.
 
 ### Create an SDK for Mobile Apps to include a chat inside other apps.
 * **Mentors:** Rafeal Kellermann ([@rafaelks](https://github.com/rafaelks))  Tiago Cunha ([@tiago.cunha](https://github.com/laggedHero))
