@@ -61,7 +61,7 @@ Student applications will be accepted starting March 20th, 2017.  All applicatio
 * **Desirable Skills:** Javascript, WebRTC, networking, OpenWrt, and programming for embeded devices (C, Lua, bash)
 * **Goal/Deliverable:** An OpenWrt package providing a modified Rocket.Chat to work in a mesh network.
 
-## Automatic Channels
+### Automatic Channels
 * **Mentors:** Marcelo Schmidt ([@marcelo.schmidt](https://github.com/marceloschmidt))  Mitar ([@mitar](https://github.com/mitar))
 * **Description:** Add a feature of creation of automatic channels to Rocket.Chat and automatic joining of users to those channels. The idea is to extend Rocket.Chat with a plugin system where plugins could classify users into channels. Then such channel would be automatically created, if it does not yet exist, and user added to it. This should also work reactivelly so that plugin can remove the user from a chnnel, and remove such channels. Use cases here are various. For example, a plugin could detect user's language and automatically add them to a channel for that language. Or, plugin could resolve user's IP into their country and add them to a channel for this country. If user changes the IP and moves to another country, they should be automatically moved to a new channel. In combination with mesh networking support, users could be automatically put into channels local to the node to whic they are connected.
 * **Desirable Skills:** Some javascript coding skills
