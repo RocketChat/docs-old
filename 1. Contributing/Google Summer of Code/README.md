@@ -18,8 +18,8 @@ Student applications will be accepted starting March 20th, 2017.  All applicatio
 
 
 ### Improved End-to-End Encryption Implemenation (currently feature-named OTR)
-* **Mentors:** Marcelo Schmidt ([@marcelo.schmidt](https://github.com/marceloschmidt))  Mitar Milutinovic ([@mitar](https://github.com/mitar))
-* **Description:** Taking and improving our end-to-end encryption implementation. Perhaps replace with more modern protocols, such as Signal. 
+* **Mentors:** Marcelo Schmidt ([@marcelo.schmidt](https://github.com/marceloschmidt))  Mitar ([@mitar](https://github.com/mitar))
+* **Description:** Taking and improving our end-to-end encryption implementation. Perhaps replace with more modern protocols, such as [Signal](https://en.wikipedia.org/wiki/Signal_Protocol). 
 * **Desirable Skills:** Some Javascript coding skills and familiarity with cryptography.
 * **Goal/Deliverable:** The ability to have end-to-end encrypted conversations between users. There are various features possible: forward secrecy, online and offline use (do users have to be online at the same time for encryption to be possible), do we store messages on the server, pair or group conversations, encrypted file transfer, etc.
 
@@ -54,10 +54,18 @@ Student applications will be accepted starting March 20th, 2017.  All applicatio
 * **Goal/Deliverable:** The ability to schedule a meeting in Rocket.Chat
 
 ### Rocket.Chat on Mesh Network
-* **Mentors:** TBD
-* **Description:** Modify the Rocket.Chat protocol and stack to work across an occasionally connected Mesh network (commonly found in Cuba and many part of the world).
-* **Desirable Skills:** Some Javascript coding skills would be required to complete this task.
-* **Goal/Deliverable:** Modifications that would allow Rocket.Chat to work in a Mesh network.
+* **Mentors:**  Mitar ([@mitar](https://github.com/mitar))
+* **Description:** Modify the Rocket.Chat to work on mesh networks. There are two basic types of mesh networks which would be interesting to cover:
+  * A network of mostly always online off-the-shelf WiFi equipment which forms a network where all network nodes can connect directly to each other (no NAT). Here it would be interesting to port Rocket.Chat so that it could run served as a static resource from these limited devices (which are often not powerful enought to run MongoDB and node.js, which Rocket.Chat otherwise uses for server-side part). Rocket.Chat should be bundled into a static resource, served over HTTP to clients, which could then use something like WebRTC to connect to each other and communicate with each other. A very thin server-side program might be needed as well, to help with WebRTC connections for example, or discovery of other nodes to connect to. A distributed database like [Scuttlebot](http://scuttlebot.io/) could be used as well.
+  * A [delay tolerant mesh network](https://en.wikipedia.org/wiki/Delay-tolerant_networking) where devices do not have regular connectivity between each other, and are often even moving around. Such networks often do not even use TCP/IP. On the other hand, devices often have much more storage space and power, when they are available. The idea is to change Rocket.Chat so that it can operate in such environment as well.
+* **Desirable Skills:** Javascript, WebRTC, networking, OpenWrt, and programming for embeded devices (C, Lua, bash)
+* **Goal/Deliverable:** An OpenWrt package providing a modified Rocket.Chat to work in a mesh network.
+
+## Automatic Channels
+* **Mentors:** Marcelo Schmidt ([@marcelo.schmidt](https://github.com/marceloschmidt))  Mitar ([@mitar](https://github.com/mitar))
+* **Description:** Add a feature of creation of automatic channels to Rocket.Chat and automatic joining of users to those channels. The idea is to extend Rocket.Chat with a plugin system where plugins could classify users into channels. Then such channel would be automatically created, if it does not yet exist, and user added to it. This should also work reactivelly so that plugin can remove the user from a chnnel, and remove such channels. Use cases here are various. For example, a plugin could detect user's language and automatically add them to a channel for that language. Or, plugin could resolve user's IP into their country and add them to a channel for this country. If user changes the IP and moves to another country, they should be automatically moved to a new channel. In combination with mesh networking support, users could be automatically put into channels local to the node to whic they are connected.
+* **Desirable Skills:** Some javascript coding skills
+* **Goal/Deliverable:** Modification to Rocket.Chat with a plugin system for automatic channels and joining with two example plugins: based on browser specified language, and country basd on GeoIP of the user.
 
 ### Enable multi-instance High Availabilty (HA) configuration with snaps
 * **Mentors:** Aaron Ogle ([@geekgonecrazy](https://github.com/geekgonecrazy))
