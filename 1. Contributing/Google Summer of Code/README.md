@@ -54,7 +54,7 @@ Student applications will be accepted starting March 20th, 2017.  All applicatio
 * **Goal/Deliverable:** The ability to schedule a meeting in Rocket.Chat
 
 ### Rocket.Chat on Mesh Network
-* **Mentors:**  Mitar ([@mitar](https://github.com/mitar))
+* **Mentors:**  Mitar ([@mitar](https://github.com/mitar))  Gabriel Engel ([@gabriel.engel](https://github.com/engelgabriel))
 * **Description:** Modify the Rocket.Chat to work on mesh networks. There are two basic types of mesh networks which would be interesting to cover:
   * A network of mostly always online off-the-shelf WiFi equipment which forms a network where all network nodes can connect directly to each other (no NAT). Here it would be interesting to port Rocket.Chat so that it could run served as a static resource from these limited devices (which are often not powerful enought to run MongoDB and node.js, which Rocket.Chat otherwise uses for server-side part). Rocket.Chat should be bundled into a static resource, served over HTTP to clients, which could then use something like WebRTC to connect to each other and communicate with each other. A very thin server-side program might be needed as well, to help with WebRTC connections for example, or discovery of other nodes to connect to. A distributed database like [Scuttlebot](http://scuttlebot.io/) could be used as well.
   * A [delay tolerant mesh network](https://en.wikipedia.org/wiki/Delay-tolerant_networking) where devices do not have regular connectivity between each other, and are often even moving around. Such networks often do not even use TCP/IP. On the other hand, devices often have much more storage space and power, when they are available. The idea is to change Rocket.Chat so that it can operate in such environment as well.
