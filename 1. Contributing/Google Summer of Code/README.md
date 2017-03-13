@@ -45,7 +45,7 @@ Please keep monitoring this page for the latest ideas and Rocket.Chat GSoC 2017 
 * **Goal/Deliverable:**  Ability for each user to set an away message, and receive any offline messages - in batches per interval, via through email account.
 
 ### Create a Progressive Web App client
-* **Mentors:**  TBD
+* **Mentors:**  Karl Prieb ([@karl.prieb](https://github.com/karlprieb)) 
 * **Description:** Create a PWA client using a framework like Angular, Aurelia, React or Polymer
 * **Desirable Skills:** Some Javascript coding skills would be required to complete this task.
 * **Goal/Deliverable:** A PWA client with basic functionality, composed of re-usable web components.
