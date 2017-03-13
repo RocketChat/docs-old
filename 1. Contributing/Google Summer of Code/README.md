@@ -8,7 +8,16 @@ For general information, and some real-time help on next steps, please visit our
 
 Student applications will be accepted starting March 20th, 2017.  All applications must be in by April 3rd.
 
+Please keep monitoring this page for the latest ideas and Rocket.Chat GSoC 2017 updates.
+
 ## Ideas
+
+### File uploads and exchanges with OwnCloud
+* **Mentors:** Diego Sampaio ([@diego.sampaio](https://github.com/sampaiodiego))  Thomas Müller ([@thomas.muller](https://github.com/DeepDiver1975)) deepdiver1975@gmail.com
+* **Description:**  When you upload a file today in Rocket.Chat, your server may be configured to store it on AWS S3,  Google's object storage, MongoDB's GridFS, or local filesystem.   This project adds OwnCloud as an official target destination.  In addition, since every user of Rocket.Chat may have her/his own OwnCloud server - some way to support file exchanges with those servers will also be interesting.   You will be working with top engineers who actually designed and coded these features, from OwnCloud and Rocket.Chat, on this project.
+* **Desirable Skills:** Familiarity with PHP and JavaScript development. Familiarity with (and already a user of) Rocket.Chat and OwnCloud definitely a plus.
+* **Goal/Deliverable:** Support integrations between OwnCloud and Rocket.Chat as if it was designed-in since the very first day.
+
 
 ### Federation of Rocket.Chat Servers
 * **Mentors:** Matthew Hodgson ([@arathorn](https://github.com/ara4n))  Rodrigo Nascimento ([@rodrigo.nascimento](https://github.com/rodrigok))
