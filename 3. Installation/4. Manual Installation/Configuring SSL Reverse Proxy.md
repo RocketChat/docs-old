@@ -1,6 +1,6 @@
 # Configuring SSL Reverse Proxy
 
-Rocket.Chat is a middle tier application server, by iteself it does not handling SSL.   However, Rocket.Chat works well with serveral industrial grade, battle-tested reverse proxies servers (see Nginx below, for example) that you can configure to handle SSL.
+Rocket.Chat is a middle tier application server, by itself it does not handle SSL.   However, Rocket.Chat works well with several industrial grade, battle-tested reverse proxy servers (see Nginx below, for example) that you can configure to handle SSL.
 
 **Note:** You must use the outside https address for the value at ```ROOT_URL``` in [[Section 3|Deploy-Rocket.Chat-without-docker#3-download-rocketchat]] above.  This includes the "https://" and leave off the port number.  So instead of ```ROOT_URL=http://localhost:3000``` use something like ```https://your_hostname.com```
 
