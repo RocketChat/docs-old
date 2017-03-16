@@ -8,6 +8,8 @@ For general information, and some real-time help on next steps, please visit our
 
 Student applications will be accepted starting March 20th, 2017.  All applications must be in by April 3rd.
 
+Please read "[Writing a Proposal](http://write.flossmanuals.net/gsocstudentguide/writing-a-proposal/)" located on the FLOSS Manuals for recommendatation and guides on how to write a proposal which will help guide **you** on the Google Summer of Code journey along with helping the organization see what you have planned.
+
 Please keep monitoring this page for the latest ideas and Rocket.Chat GSoC 2017 updates.
 
 ## Ideas
