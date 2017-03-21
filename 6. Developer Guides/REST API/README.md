@@ -108,3 +108,6 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### PHP
 * [rocket-chat-rest-client](https://github.com/Fab1en/rocket-chat-rest-client)
+
+### Python
+* [rocketchat_API](https://github.com/jadolg/rocketchat_API)
