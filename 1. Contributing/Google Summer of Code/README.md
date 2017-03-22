@@ -24,9 +24,9 @@ Please keep monitoring this page for the latest ideas and Rocket.Chat GSoC 2017 
 
 ### Create a Progressive Web App client
 * **Mentors:**  Karl Prieb ([@karl.prieb](https://github.com/karlprieb)) 
-* **Description:** Create a PWA client using a framework like Angular, Aurelia, React or Polymer
+* **Description:** Create a new PWA client for Rocket.Chat using [Angular](https://angular.io/) framework, WebSocket and mobile-first approach.
 * **Desirable Skills:** Some Javascript coding skills would be required to complete this task.
-* **Goal/Deliverable:** A PWA client with basic functionality, composed of re-usable web components.
+* **Goal/Deliverable:** A PWA client with basic chat functionality like channels and direct messages list, users status, channel messages, user preferences, etc.
 
 ### Improved End-to-End Encryption Implemenation (currently feature-named OTR)
 * **Mentors:** Marcelo Schmidt ([@marcelo.schmidt](https://github.com/marceloschmidt))  Mitar ([@mitar](https://github.com/mitar))
