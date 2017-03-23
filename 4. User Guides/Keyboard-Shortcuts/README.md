@@ -3,7 +3,7 @@
 
 | Shortcut | Description |
 |:-:|:-:|
-| <kbd>Command</kbd> (or <kbd>Ctrl</kbd>) + <kbd>p</kbd> | Open Channel / User search |
+| <kbd>Command</kbd> (or <kbd>Ctrl</kbd>) + <kbd>p</kbd> OR <kbd>Command</kbd> (or <kbd>Ctrl</kbd>) + <kbd>k</kbd>| Open Channel / User search |
 | <kbd>Up Arrow</kbd> | Edit previous message |
 | <kbd>Command</kbd> (or <kbd>Alt</kbd>) + <kbd>Left Arrow</kbd> | Move to the beginning of the message |
 | <kbd>Command</kbd> (or <kbd>Alt</kbd>) + <kbd>Up Arrow</kbd> | Move to the beginning of the message |
