@@ -12,7 +12,7 @@ Enter:
  - your credentials
  - a name and email to appear in the "From" field of the emails
  
- Once filled, click "Save changes", and *restart Rocket.Chat*.
+ Once filled, click "Save changes".
 
 ![SMTP server configuration.](email-1.png)
 
