@@ -1,7 +1,9 @@
 language: node_js
 node_js: '4.6'
 install:
-  - npm i -g gulp node-gyp
+  - npm i -g gulp
+env:
+  - CXX=g++-4.8
 branches:
   only:
   - master
