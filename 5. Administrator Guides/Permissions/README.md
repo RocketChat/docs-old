@@ -41,7 +41,9 @@ Permission changes are immediate and transparent.  Users do not need to logout, 
 | mail-messages |
 | manage-assets |
 | manage-integrations |
+| manage-own-integrations | User can create and edit own integration - webhooks.
 | manage-oauth-apps |
+| manage-sounds |
 | mute-user | Permission to mute other users in the same channel.
 | remove-user | Permission to remove a user from a room.
 | run-migration |
