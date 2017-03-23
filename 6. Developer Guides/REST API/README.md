@@ -96,6 +96,17 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.postMessage` | Posts a new chat message. | [Link](Chat/postMessage.md) |
 | `/api/v1/chat.update` | Updates the text of the chat message. | [Link](Chat/update.md) |
 
+### IM
+| Url | Short Description | Details Page |
+| :--- | :--- | :--- |
+| `/api/v1/im.close` | Removes a direct message from the list of direct messages. | [Link](Im/close.md) |
+| `/api/v1/im.history` | Retrieves the messages from a direct message. | [Link](Im/history.md) |
+| `/api/v1/im.messages.others` | Retrieves the messages from any direct message in the server. | [Link](IM/messages.others.md) |
+| `/api/v1/im.list` | List the direct messages the caller is part of. | [Link](Im/list.md) |
+| `/api/v1/im.list.everyone` | List all direct message the caller in the server. | [Link](Im/list.everyone.md) |
+| `/api/v1/im.open` | Adds the direct message back to the list of direct messages. | [Link](Im/open.md) |
+| `/api/v1/im.setTopic` | Sets a direct message topic. | [Link](Im/setTopic.md) |
+
 ### Settings
 | Url | Method | Short Description | Details Page |
 | :--- | :--- | :--- | :--- |
