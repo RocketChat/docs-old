@@ -41,6 +41,7 @@ Here are some nice blog posts about our project for you to get some inspiration:
 * https://snowulf.com/2015/09/25/why-slack-when-you-can-rocket-chat/
 * http://liminality.xyz/self-hosting/
 * https://www.rosehosting.com/blog/install-rocketchat-on-an-ubuntu-14-04-vps/
+* https://thishosting.rocks/how-to-install-rocket-chat-on-ubuntu-and-use-it-on-your-wordpress/
 
 ## Presentations
 
