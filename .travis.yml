@@ -1,7 +1,7 @@
 language: node_js
 node_js: '4.6'
 install:
-  - npm i -g gulp
+  - npm i -g gulp node-gyp
 branches:
   only:
   - master
