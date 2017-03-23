@@ -3,25 +3,16 @@
 Rocket.Chat can send automated email notifications and other messages to your users.  To enable this, you will need to have access to an SMTP server and valid SMTP login credentials.
 
 ## Setup credentials
-This is different depending on whether or not you're running Docker.
 
-### Non-Docker
+Go to Administration settings -> Email -> SMTP.  
 
-Go to Administration settings -> Email -> SMTP.  Enter your SMTP server's host name (e.g. `mail.example.com`), the port (usually 587 for modern, secured SMTP servers), and your credentials.  
-
-### Docker
-You'll need to set your this in your Dockerfile or docker-compose.yml (see `MAIL_URL` line).
-```
-  environment:
-    - PORT=3000
-    - ROOT_URL=https://chat.yourdomain.com
-    - MONGO_URL=mongodb://mongo:27017/rocketchat
-    - MAIL_URL=smtp://yourmailbox@yourdomain.com:yourpassword@smtp.yourmailserver.com:465/
-```
-Then go to Administration settings -> Email -> SMTP to continue.
-
-### All installations
-Enter a name and email to appear in the "From" field of the emails, click "Save changes", and *restart Rocket.Chat*.
+Enter: 
+ - your SMTP server's host name (e.g. `mail.example.com`)
+ - the port (usually 587 for modern, secured SMTP servers)
+ - your credentials
+ - a name and email to appear in the "From" field of the emails
+ 
+ Once filled, click "Save changes".
 
 ![SMTP server configuration.](email-1.png)
 
