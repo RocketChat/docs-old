@@ -14,5 +14,10 @@ You can tweak the content of the script to better sweets your needs
 
 _Integration for Rocket.Chat that summarizes any JIRA issues mentioned._
 
-1. Go to https://github.com/gustavkarlsson/rocketchat-jira-trigger and follow the instructions.
-2. 
+1. Go to https://github.com/gustavkarlsson/rocketchat-jira-trigger and follow the instructions.  
+  
+  
+  
+Example of Jira integration:  
+  
+![image](Jira-webhook.png)
