@@ -49,4 +49,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Change Log
 | Version | Description |
 | :--- | :--- |
+| 0.55.0 | Added `activeUsersOnly` param |
 | 0.48.0 | Renamed to `channels.addAll` from `channel.addAll` |
