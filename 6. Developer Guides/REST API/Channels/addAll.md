@@ -13,7 +13,7 @@ Adds all of the users of the Rocket.Chat server to the channel.
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |
-| `activeUsersOnly` | `true` | Optional <br> Default: `undefined` | Add active users only |
+| `activeUsersOnly` | `true` | Optional <br> Default: `false` | Add active users only |
 
 ## Example Call
 ```bash
