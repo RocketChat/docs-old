@@ -2,12 +2,12 @@
 order: 1
 ---
 
-# Channel Add All
-Adds all of the users of the Rocket.Chat server to the channel.
+# Group Add All
+Adds all of the users of the Rocket.Chat server to the group.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.addAll` | `yes` | `POST` |
+| `/api/v1/groups.addAll` | `yes` | `POST` |
 
 ## Payload
 | Argument | Example | Required | Description |
@@ -29,8 +29,8 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 {
    "channel": {
       "_id": "ByehQjC44FwMeiLbX",
-      "name": "channelname",
-      "t": "c",
+      "name": "groupname",
+      "t": "p",
       "usernames": [
          "example",
          "rocket.cat"
@@ -49,5 +49,4 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Change Log
 | Version | Description |
 | :--- | :--- |
-| 0.55.0 | Added `activeUsersOnly` param |
-| 0.48.0 | Renamed to `channels.addAll` from `channel.addAll` |
+| 0.55.0 | Added |

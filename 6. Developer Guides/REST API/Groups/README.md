@@ -5,6 +5,7 @@ order: 40
 # Group Methods
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
+| `/api/v1/groups.addAll` | Adds all of the users on the server to a private group. | [Link](addAll.md) |
 | `/api/v1/groups.addModerator` | Gives the role of moderator to a user in a group. | [Link](addModerator.md) |
 | `/api/v1/groups.addOwner` | Gives the role of owner to a user in a group. | [Link](addOwner.md) |
 | `/api/v1/groups.archive` | Archives a private group. | [Link](archive.md) |
