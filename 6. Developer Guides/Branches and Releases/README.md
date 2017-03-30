@@ -20,7 +20,7 @@ To filter very precisely, you could filter all issues for:
 
 - Milestone: Whichever is the current version
 - Assignee: Unassigned
-- Label: Your label of choice. For instance `feat: api`, `feat: integration / plugin`, `feat: webrtc`, `subj: ui/ux`, `subj: security``
+- Label: Your label of choice. For instance `feat: api`, `feat: integration / plugin`, `feat: webrtc`, `subj: ui/ux`, `subj: security`
 - Sort by priority
 
 If you’re in doubt about what to work on, ask your team, lead or manager. They will be able to tell you.
