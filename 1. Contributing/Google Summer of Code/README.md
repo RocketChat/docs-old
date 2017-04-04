@@ -2,17 +2,15 @@
 
 ## How to apply
 
-Interested students should email the mentor(s) directly for discussion and further information.  You can also find them, most of the time, on our community server https://demo.rocket.chat/  for real-time chat.   Many of the mentors are fluent in both Portuguese and English.  If you have ideas and proposals that are not on our idea list, or if a mentor is not available, please email to contact+gsoc17@rocket.chat
+For general information, please visit our community server Google Summer of Code 2017 discussion group:    https://demo.rocket.chat/channel/gsoc17
 
-For general information, and some real-time help on next steps, please visit our community server Google Summer of Code 2017 discussion group:    https://demo.rocket.chat/channel/gsoc17
+Final proposal submission is now officially closed.  
 
-Student applications will be accepted starting March 20th, 2017.  All applications must be in by April 3rd.
+Our sincere thanks goes to every student who had worked hard in creating one of the SIXTY EIGHT proposals we have received across all projects.  We are totally surprised and flattered as a first year GSoC participating organinzation.
 
-Application is now *OPEN*.   You can [submit your proposal for review today](https://summerofcode.withgoogle.com/student-signup/). 
+On May 4th, 2017 Google will officially announce the accepted students and projects. In the mean time, students are encourage to continue to interact with their mentors and learn best practices on becoming an open source Rocket.Chat team member.
 
-Please read "[Writing a Proposal](http://write.flossmanuals.net/gsocstudentguide/writing-a-proposal/)" located on the FLOSS Manuals for recommendatation and guides on how to write a proposal which will help guide **you** on the Google Summer of Code journey along with helping the organization see what you have planned.
-
-Please keep monitoring this page for the latest ideas and Rocket.Chat GSoC 2017 updates.
+Please keep monitoring this page for the latest Rocket.Chat GSoC 2017 updates.
 
 ## Ideas
 
