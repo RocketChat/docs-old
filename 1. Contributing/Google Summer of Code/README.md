@@ -6,7 +6,7 @@ For general information, please visit our community server Google Summer of Code
 
 Final proposal submission is now officially closed.  
 
-Our sincere thanks goes to every student who had worked hard in creating one of the SIXTY EIGHT proposals we have received across all projects.  We are totally surprised and flattered as a first year GSoC participating organinzation.
+Our sincere thanks goes to every student who had worked hard in creating one of the SIXTY EIGHT proposals we have received across all projects.  We are totally surprised and flattered as a first year GSoC participating organization.
 
 On May 4th, 2017 Google will officially announce the accepted students and projects. In the mean time, students are encourage to continue to interact with their mentors and learn best practices on becoming an open source Rocket.Chat team member.
 
