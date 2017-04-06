@@ -99,6 +99,8 @@ docker run \
 If you are running a reverse proxy make sure it is joining the rocketchat_default network.
 Add `ExecStartPre=-/usr/bin/docker network connect rocketchat_default Nginx` to the rocketchat.service if you Proxy container is named `Nginx` and be sure to configure it correctly.
 
+If you choose to use a non-dockerized nginx as a reverse proxy, please not that you then have to add `-p your-host-port:3000` to the `ExecStart` command of `rocketchat.service` and then configure your vhost to pass to `your-host-port`. 
+
 ## Backup
 
 All data will be hourly backuped to `/data/domains/example.org/data` folder. We advise to copy this folder to a remote location in case of hardware failure.
