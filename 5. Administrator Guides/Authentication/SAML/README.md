@@ -22,13 +22,22 @@ URL of your metadata, again, where you set Custom Provider to 'my-app' this will
 
 https://my-rocketchat-domain.tld/_saml/metadata/my-app
 
+### Custom Certificate
+
+This is the idp providers public certificate that is used to verify the SAML requests. Format for this is without BEGIN CERTIFICATE and END CERTIFICATE
+
+
 ### Public Cert Contents
 
-The public part of the self-signed certificate you created for encrypting your SAML transactions. [Example of self-signed certificate on the SimpleSAMLphp website here.](https://simplesamlphp.org/docs/stable/simplesamlphp-sp#section_1_1)
+The public part of the self-signed certificate you created for encrypting your SAML transactions. [Example of self-signed certificate on the SimpleSAMLphp website here.](https://simplesamlphp.org/docs/stable/simplesamlphp-sp#section_1_1) 
 
 ### Private Key Contents
 
 The private key matching the self-signed certificate you created.
+
+### SAML assertion
+
+You will have to send email field in your assertion or it will not work. If the email matches existing user it will overwrite the users username with username value if that is in your assertion. 
 
 ## SimpleSAMLphp IdP Configuration
 
