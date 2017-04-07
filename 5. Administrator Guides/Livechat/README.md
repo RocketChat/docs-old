@@ -42,9 +42,13 @@ You can have the following behavior according on how many department you have cr
 
 ### Triggers
 
-You can configure how your Livechat widget will be triggered on your website.
+You can configure how your Livechat widget will be triggered and what it will do on your website.
 
-Fill in the condition field and the action field.
+You can set a condition (e.g. user access a url) and an action (e.g. send a message with the text "hello").
+
+![image](https://cloud.githubusercontent.com/assets/20868078/24811185/50fa9214-1b9b-11e7-86e4-27e2b90dcf99.png)
+
+ 
 
 ### Custom Fields
 
