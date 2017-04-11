@@ -52,7 +52,6 @@ Please keep monitoring this page for the latest Rocket.Chat GSoC 2017 updates.
 
 ### Create an SDK for Mobile Apps to include a chat inside other apps.
 * **Mentors:** Rafeal Kellermann ([@rafaelks](https://github.com/rafaelks))
-* **Co-Mentors:** Tiago Cunha ([@tiago.cunha](https://github.com/laggedHero))
 * **Description:** Create an SDK (for iOS and/or Android) to embed in any app that wants to have a chat inside it. It could be useful for support and also for chat in enterprise apps. One example is an app that’s used by all sellers from a company to be able to communicate with each other using Rocket.Chat. Another example is something very similar to Intercom (https://www.intercom.com/mobile)
 * **Desirable Skills:** Students will be required to code in either Java for Android SDK or Swift for the iOS SDK. Students will also need to understand how Rocket.Chat communicates over websockets.
 * **Goal/Deliverable:** To have an SDK that allows App Developers to embed a chat system inside their own apps using Rocket.Chat servers to deliver messages.
