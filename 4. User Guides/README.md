@@ -62,7 +62,7 @@ There are two notions of leaving a channel:
 1. To **hide** a channel is to remain a member of the channel but to remove it from your list of channels on the left-hand pane. 
 1. To **leave** a channel is to remove it from your list of channels _and to leave the channel_ (i.e., no longer be a member of the channel).
 
-Every channel has an **owner**, and the owner of a channel cannot leave a channel until setting someone else as the owner of that channel. A user interface for making someone else the owner of a channel is [in progress](https://github.com/RocketChat/Rocket.Chat/issues/3365).
+Every channel has an **owner**, and the owner of a channel cannot leave a channel until setting someone else as the owner of that channel. You can do it via right side panel (Flex tab) and "Member list".
 
 To **leave** a channel, enter the command `/part` or `/leave` in the message window. Alternatively, hover your mouse over the channel in the list of channels on the left-hand side and click on the <img src="leave-icon.png" alt="right-pointing arrow"  align="top" height="20"/> button. On the mobile app, pull from the left-hand side to see the list of open channels, hold down on the channel to bring up the buttons, and click on the <img src="leave-icon.png" alt="right-pointing arrow" align="top" height="20"/> button.
 
