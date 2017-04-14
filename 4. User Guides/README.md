@@ -119,5 +119,4 @@ To remove an emoji reaction, click on the emoji below the message. To reiterate 
 - [Chat off the record](Off-The-Record/)
 - [Remote video monitoring](Remote%20Video%20Monitoring/)
 - [Screenshare](Screensharing/)
-- [Star Messages](Starring%20Messages/)
 - [Make voice and video calls](Voice%20and%20video%20calls/)
