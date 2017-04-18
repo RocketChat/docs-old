@@ -9,3 +9,15 @@ _notify on issue creation, deletion and status, resolution, comment or priority 
 5. Go to your jira as administrator and follow instruction on adding outgoing webhook [here](https://developer.atlassian.com/jiradev/jira-apis/webhooks#Webhooks-configureConfiguringawebhook)
 
 You can tweak the content of the script to better sweets your needs
+
+# Add Jira integration via Outgoing WebHook
+
+_Integration for Rocket.Chat that summarizes any JIRA issues mentioned._
+
+1. Go to https://github.com/gustavkarlsson/rocketchat-jira-trigger and follow the instructions.  
+  
+  
+  
+Example of Jira integration:  
+  
+![image](Jira-webhook.png)

@@ -26,7 +26,7 @@ This application really shows off the telecom lineage of webrtc -- Rocket.Chat a
 
 #### Getting started
 
-You should be relatively familiar with Rocket.Chat's video chat capabilities before attempting to try this feature. If it is new to you, [give it a try](https://github.com/RocketChat/Rocket.Chat/wiki/Using-Face-to-face-video-conference-%28aka-webrtc%29) first.
+You should be relatively familiar with Rocket.Chat's video chat capabilities before attempting to try this feature.
 
 
 ##### Install in-band driver
