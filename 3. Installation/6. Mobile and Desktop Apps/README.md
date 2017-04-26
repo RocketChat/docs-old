@@ -13,7 +13,11 @@ It can also be downloaded [here](https://github.com/RocketChat/Rocket.Chat.Elect
 Can be found [here](https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/2.7.0/rocketchat-desktop-setup-2.7.0.exe)
 
 ### Linux
-If you are on Ubuntu we recommend you install our snap via: `sudo snap install rocketchat-desktop`
+If you are on Ubuntu we recommend you install our snap via: 
+```
+sudo snap install rocketchat-desktop
+```
+
 Snaps auto update so you no longer need to worry about manually keeping the client up to date.
 
 Snaps are also available on other platforms.  More information available [here](https://snapcraft.io/docs/core/install)
