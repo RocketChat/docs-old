@@ -122,3 +122,6 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Python
 * [rocketchat_API](https://github.com/jadolg/rocketchat_API)
+
+### Ruby
+* [rocketchat-ruby](https://github.com/abrom/rocketchat-ruby)
