@@ -3,7 +3,7 @@ order: 20
 ---
 
 # Channel Create
-Creates a new public channel, optionally including users.
+Creates a new public channel, optionally including specified users.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -13,7 +13,7 @@ Creates a new public channel, optionally including users.
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `name` | `channelname` | Required | The name of the new channel |
-| `members` | `["rocket.cat"]` | Optional <br> Default: `[]` | The members who should be in the room when it is created. |
+| `members` | `["rocket.cat"]` | Optional <br> Default: `[]` | The users to add to the channel when it is created. |
 
 ## Example Call
 ```bash
