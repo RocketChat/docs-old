@@ -4,7 +4,7 @@ order: 10
 
 # Realtime API
 
-__IMPORTANT!__ These docs are based on an unreleased version of the API. If you want to try it out, point your client to [http://demo.rocket.chat](http://demo.rocket.chat). You can also check out the code on Rocket.Chat's [experimental](https://github.com/RocketChat/Rocket.Chat/tree/experimental) branch.
+__IMPORTANT!__ These docs are based on an unreleased version of the API. If you want to try it out, point your client to [http://demo.rocket.chat](http://demo.rocket.chat).
 
 Our realtime API is composed of two elements: [Method Calls][1] and [Subscriptions][2]. Both of them are supported directly in the websocket connection.
 
