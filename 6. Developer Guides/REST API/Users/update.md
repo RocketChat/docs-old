@@ -1,3 +1,7 @@
+---
+order: 50
+---
+
 # User Update
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

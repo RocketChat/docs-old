@@ -1,3 +1,7 @@
+---
+order: 45
+---
+
 # User Set Photo/Avatar
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -30,7 +34,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Set from a URL
 
 ### Example Call
-```json
+```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type:application/json" \
