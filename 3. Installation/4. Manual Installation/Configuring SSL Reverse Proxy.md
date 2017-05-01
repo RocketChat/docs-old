@@ -133,13 +133,7 @@ Open `/etc/caddy/Caddyfile`
 Insert
 
 ```
-http://your_hostname.com {
-        redir 301 {
-                / https://{host}{uri}
-        }
-}
-
-https://your_hostname.com {
+your_domain.com {
         proxy / 127.0.0.1:3000 {
                 proxy_header X-Forwarded-Proto {scheme}
                 proxy_header X-Forwarded-For {host}
