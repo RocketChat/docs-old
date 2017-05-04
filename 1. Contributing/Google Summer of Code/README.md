@@ -8,7 +8,17 @@ Final proposal submission is now officially closed.
 
 Our sincere thanks goes to every student who had worked hard in creating one of the SIXTY EIGHT proposals we have received across all projects.  We are totally surprised and flattered as a first year GSoC participating organization.
 
-On May 4th, 2017 Google will officially announce the accepted students and projects. In the mean time, students are encourage to continue to interact with their mentors and learn best practices on becoming an open source Rocket.Chat team member.
+The official list of accepted students and projects are now available directly from Google:
+
+https://summerofcode.withgoogle.com/organizations/6368590472151040/
+
+Out of the SIXTY EIGHT proposals we received, we have painstakingly selected a short list of NINE outstanding ones.  We have personally met (video conferenced) with every one of the students behind these NINE proposals during the last few weeks.
+
+Google has incredibly sponsored FOUR out of the NINE students (first year organization typically gets 1 or 2 students/projects only). Thank you, Google GSoC 2017 !
+
+Team bonding and familiarization activities will commence immediately between mentors and the selected students.
+
+We will be in contact with the other FIVE students over the next days.
 
 Please keep monitoring this page for the latest Rocket.Chat GSoC 2017 updates.
 
