@@ -8,7 +8,7 @@ Final proposal submission is now officially closed.
 
 Our sincere thanks goes to every student who had worked hard in creating one of the SIXTY EIGHT proposals we have received across all projects.  We are totally surprised and flattered as a first year GSoC participating organization.
 
-The official list of accepted students and projects are now available directly from Google:
+The official list of accepted students and projects is now available directly from Google:
 
 https://summerofcode.withgoogle.com/organizations/6368590472151040/
 
