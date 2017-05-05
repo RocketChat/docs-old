@@ -9,6 +9,7 @@ Permission changes are immediate and transparent.  Users do not need to logout, 
 * owner
 * user
 * bot
+* guest
 * livechat-agent
 * livechat-manager
 * livechat-guest
