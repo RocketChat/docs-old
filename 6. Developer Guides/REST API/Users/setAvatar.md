@@ -11,6 +11,7 @@ order: 45
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `avatarUrl` | `http://domain.tld/to/my/own/avatar.jpg` | Required (if no a file) | Url of the avatar for the user. |
+| `userId` or `username` | `BsNr28znDkG8aeo7W` | Optional | The id or username of the user. If not provided, the auth user is updated. |
 
 ## Upload a file
 
@@ -52,5 +53,6 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Change Log
 | Version | Description |
 | :--- | :--- |
+| 0.56.0 | Add support for `username` argument. |
 | 0.48.0 | Set other users avatars if the callee has permission. |
 | 0.46.0 | Added |
