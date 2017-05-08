@@ -22,7 +22,7 @@ $ ./meteor --version
 $ cd $HOME
 $ fetch https://cdn-download.rocket.chat/build/rocket.chat-freebsd-develop.tgz
 $ tar xf rocket.chat-freebsd-develop.tgz
-$ cd $HOME/bundle/progams/server
+$ cd $HOME/bundle/programs/server
 $ $HOME/meteor/dev_bundle/bin/npm install
 $ cd $HOME/bundle
 $ export MONGO_URL=mongodb://localhost:27017/rocketchat
