@@ -125,7 +125,7 @@ The result should look like this
   "ok" : 1
 }
 ```
-Note the "ok" value should be 1.  Any other value, i/e/ 93, means something is wrong.
+Note the "ok" value should be 1.  Any other value, i.e. 93, means something is wrong.
 Make sure to edit the /etc/hosts and /etc/hostname (and restart) to the network accessible DNS name of the machine.
 
 After a few seconds, you should see your prompt turn into `001-rs:PRIMARY> `, this indicates the replica set is being used. Type `exit` to get back to your regular shell.
