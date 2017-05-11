@@ -75,7 +75,7 @@ Build it again:
 meteor npm install --save bcrypt
 ```
 
-If everything works, you shold see a message like this:
+If everything works, you should see a message like this:
 
 ```bash
 > node-gyp rebuild
