@@ -16,6 +16,15 @@ Out of the SIXTY EIGHT proposals we received, we have painstakingly selected a s
 
 Google has incredibly sponsored FOUR out of the NINE students (first year organization typically gets 1 or 2 students/projects only). Thank you, Google GSoC 2017 !
 
+The FOUR Google sponsored students and projects are.
+
+| Student            | Project | Mentor(s) |
+|--------------------|------|------|
+|Naman Gupta         | To Create a PWA Client | Karl Prieb, Guilherme Gazzo |
+|Lucas Woo           | Rocket.Chat iOS SDK |Rafael Kellermann Streit, Rodrigo Nascimento|
+|Pradeep Kumar       | Integrated Personal Email Gateway |Rodrigo Nascimento, Diego Sampaio|
+|Mrinal Dhar         | Improve implementation of End-to-End encryption with Signal protocol |Marcelo Schmidt, Marius|
+
 Team bonding and familiarization activities will commence immediately between mentors and the selected students.
 
 We will be in contact with the other FIVE students over the next days.
