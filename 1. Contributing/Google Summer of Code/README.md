@@ -27,7 +27,7 @@ Mrinal Dhar          | E2E encryption with Signal protocol      |   Marcelo Schm
 
 Team bonding and familiarization activities have started  between mentors and the selected students.
 
-We have contacted the FIVE other students to offer Rocket.Chat sponsorships.  One student happily reported that he has already been selected by another GSoC 2017 mentoring organization.  Another did not reply to any of our offers and queries before the deadline. THREE other students have accepted Rocket.Chat sponsorship and are currently working diligently with their mentors. 
+We have contacted the FIVE other students to discuss potential Rocket.Chat sponsorships.  One student happily reported that he has already been selected by another GSoC 2017 mentoring organization.  Another did not reply to any of our offers and queries before the deadline. THREE other students have accepted Rocket.Chat sponsorship and are currently working diligently with their mentors. 
 
 The THREE Rocket.Chat sponsored students and projects for 2017 are:
 
