@@ -16,18 +16,26 @@ Out of the SIXTY EIGHT proposals we received, we have painstakingly selected a s
 
 Google has incredibly sponsored FOUR out of the NINE students (first year organization typically gets 1 or 2 students/projects only). Thank you, Google GSoC 2017 !
 
-The FOUR Google sponsored students and projects are.
+The FOUR Google sponsored students and projects for GSoC 2017 are.
 
-| Student            | Project | Mentor(s) |
-|--------------------|------|------|
-|Naman Gupta         | To Create a PWA Client | Karl Prieb, Guilherme Gazzo |
-|Lucas Woo           | Rocket.Chat iOS SDK |Rafael Kellermann Streit, Rodrigo Nascimento|
-|Pradeep Kumar       | Integrated Personal Email Gateway |Rodrigo Nascimento, Diego Sampaio|
-|Mrinal Dhar         | Improve implementation of End-to-End encryption with Signal protocol |Marcelo Schmidt, Marius|
+ Student             | Project                                  | Mentor(s) 
+:------------------- | :--------------------------------------- | :--------------------------------
+Naman Gupta          | To Create a PWA Client                   | Karl Prieb, Guilherme Gazzo 
+Lucas Woo            | Rocket.Chat iOS SDK                      | Rafael Kellermann Streit, Rodrigo Nascimento
+Pradeep Kumar        | Integrated Personal Email Gateway        | Rodrigo Nascimento, Diego Sampaio
+Mrinal Dhar          | E2E encryption with Signal protocol      |   Marcelo Schmidt, Marius
 
-Team bonding and familiarization activities will commence immediately between mentors and the selected students.
+Team bonding and familiarization activities have started  between mentors and the selected students.
 
-We will be in contact with the other FIVE students over the next days.
+We have contacted the FIVE other students to offer Rocket.Chat sponsorships.  One student happily reported that he has already been selected by another GSoC 2017 mentoring organization.  Another did not reply to any of our offers and queries before the deadline. THREE other students have accepted Rocket.Chat sponsorship and are currently working diligently with their mentors. 
+
+The THREE Rocket.Chat sponsored students and projects for 2017 are:
+
+ Student             | Project                                  | Mentor(s) 
+:------------------- | :--------------------------------------- | :--------------------------------
+Karan Batra          | Automatic Channels                       | Mitar, Rodrigo Nascimento
+Sachin Shinde        | Rocket.Chat Android SDK                  | Rafael Kellermann Streit
+Manish Kakoti        | Federation Server                        | Gabriel Engel, Sing Li, Matthew Hodgson
 
 Please keep monitoring this page for the latest Rocket.Chat GSoC 2017 updates.
 
