@@ -16,7 +16,7 @@ Out of the SIXTY EIGHT proposals we received, we have painstakingly selected a s
 
 Google has incredibly sponsored FOUR out of the NINE students (first year organization typically gets 1 or 2 students/projects only). Thank you, Google GSoC 2017 !
 
-The FOUR Google sponsored students and projects for GSoC 2017 are.
+The FOUR Google sponsored students and projects for GSoC 2017 are:
 
  Student             | Project                                  | Mentor(s) 
 :------------------- | :--------------------------------------- | :--------------------------------
