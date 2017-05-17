@@ -48,3 +48,5 @@ To setup Minio as the file storage server in Rocket.Chat, go to `File Uploads` s
 In production you can use a reverse proxy with Minio server. Check out the documentation for [Nginx](https://docs.minio.io/docs/setup-nginx-proxy-with-minio#main), [Apache](https://docs.minio.io/docs/setup-apache-http-proxy-with-minio-server) and [Apache2](https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension).
 
 You can secure access to Minio server with TLS. Check out the documentation [here](https://docs.minio.io/docs/how-to-secure-access-to-minio-server-with-tls).
+
+**Note** If you specify a different region in minio, make sure it is the same as an s3 region.  Full list of regions found [here](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region).
