@@ -3,11 +3,12 @@ order: 25
 ---
 
 # Channel History
-Retrieves the messages from a channel.
+Retrieves the messages from a channel or private group.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/channels.history` | `yes` | `GET` |
+| `/api/v1/groups.history` | `yes` | `GET` |
 
 ## Query Parameters
 | Argument | Example | Required | Description |
