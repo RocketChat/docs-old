@@ -49,4 +49,4 @@ In production you can use a reverse proxy with Minio server. Check out the docum
 
 You can secure access to Minio server with TLS. Check out the documentation [here](https://docs.minio.io/docs/how-to-secure-access-to-minio-server-with-tls).
 
-**Note** If you specify a different region in minio, make sure it is the same as an s3 region.  Full list of regions found [here](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region).
+**Note** If you specify a different region in minio, make sure it is the same as an s3 region.  Full list of regions found [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions).
