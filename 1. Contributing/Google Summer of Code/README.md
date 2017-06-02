@@ -39,6 +39,29 @@ Manish Kakoti        | Federation Server                        | Gabriel Engel,
 
 Please keep monitoring this page for the latest Rocket.Chat GSoC 2017 updates.
 
+## Coding has started
+
+June is finally upon us.  All the our GSoC students who have had prior apprenticeship or other engagements are now free of their obligations, and have started to code for Rocket.Chat full time.  The _commmunity bonding_ period has come and gone smoothly, with the mingling of our students with the core team on the 24 x 7 community chat server, on GitHub, via email, or at our weekly scheduled team video-conference.   Many of our students have also made acquaintances with our extended community - helping them and exchanging ideas for their projects.
+
+In fact, due to their overwhelming enthusiasm, most of our GSoC students have started coding even before the beginning of June. Here are some of the most recent contributions (of many!) to Rocket.Chat by our new team of GSoC recruits:
+
+Manish Kakoti:
+https://github.com/RocketChat/Rocket.Chat.Federation/pull/5
+
+Karan Batra:
+https://github.com/RocketChat/Rocket.Chat/pull/7137
+
+Lucas Woo:
+https://github.com/RocketChat/Rocket.Chat.iOS/pull/438
+
+Naman Gupta:
+https://github.com/RocketChat/Rocket.Chat.PWA/pull/12
+
+Pradeep Kumar:
+https://github.com/RocketChat/Rocket.Chat/pull/7088
+
+Congratulations to the new team members, and keep up the great work!  We'll looking forward to the first evaluation milestone at the end of June.
+
 ## Ideas
 
 ### Federation of Rocket.Chat Servers
