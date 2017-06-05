@@ -8,9 +8,15 @@ Installing a snap on Ubuntu is as easy as
 sudo snap install rocketchat-server
 ```
 
+If you are running a VPS from a provider who may have customized their kernel you might run into errors attempting to do the snaps install.  In this case you can get around it by installing the ubuntu-core snap before installing rocketchat-server
+
+```
+sudo snap install ubuntu-core
+```
+
 Snaps are secure. Rocket.Chat and all of its dependencies are isolated from the rest of your system. Snaps also auto update when we release a new version. So no need more hassle updating.
 
-On Ubuntu 14.04LTS, install `snapd` first:
+Depending on how you installed Ubuntu and the version you are using you may need to install `snapd` first
 
 ```
 sudo apt-get install snapd
