@@ -5,7 +5,7 @@ order: 40
 # User Reset Avatar
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/users.createToken` | `yes` | `POST` |
+| `/api/v1/users.resetAvatar` | `yes` | `POST` |
 
 ## Payload
 | Argument | Example | Required | Description |
