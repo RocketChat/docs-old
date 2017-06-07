@@ -42,7 +42,7 @@ sudo apt-get install build-essential
 # Install a tool to let us change the node version.
 sudo npm install -g n
 
-# Rocket.Chat since 0.49 needs version 4.7.1 of Node.js to work.
+# As of Version 0.49, Rocket.Chat needs version 4.7.1 of Node.js to work.
 sudo n 4.7.1
 ```
 
