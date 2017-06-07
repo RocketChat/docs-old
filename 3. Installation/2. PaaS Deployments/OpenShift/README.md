@@ -42,7 +42,7 @@ Clone the Rocket.Chat GitHub repository and import the templates to your OpenShi
 Create the application using the newly created templated and passing the `MONGODB_DATABASE`,`MONGODB_USER`
  and `MONGODB_PASSWORD` parameters: 
 ```bash
-# oc new-app rocket-chat -p MONGODB_DATABASE=rocketchat,MONGODB_USER=rocketchat-admin,MONGODB_PASSWORD=rocketchat
+# oc new-app rocket-chat -p MONGODB_DATABASE=rocketchat -p MONGODB_USER=rocketchat-admin -p MONGODB_PASSWORD=rocketchat
 ```
 
 * Rocket.Chat uses a domain check code to verify the validity of the e-mail address. To disable it, run the following commands:

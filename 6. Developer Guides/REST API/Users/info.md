@@ -12,7 +12,7 @@ Retrieves information about a user, the result is only limited to what the calle
 ## Query Parameters
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `userId` | `BsNr28znDkG8aeo7W` | Required | The id of the user. |
+| `userId` or `username` | `BsNr28znDkG8aeo7W` | Required | The id or username of the user. |
 
 ## Other Users Example Call
 ```bash
@@ -90,5 +90,6 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Change Log
 | Version | Description |
 | :--- | :--- |
+| 0.49.0 | Updated to support `userId` or `username` |
 | 0.48.0 | Renamed to `users.info` | 
 | 0.35.0 | Added as `user.info` |

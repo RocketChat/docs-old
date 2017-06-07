@@ -12,7 +12,8 @@ Retrieves the information about the channel.
 ## Query Parameters
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |
+| `roomId` | `ByehQjC44FwMeiLbX` | Required (if no roomName) | The channel's id |
+| `roomName` | `general` | Required (if no roomId) | The channel's name |
 
 ## Example Call
 ```bash
