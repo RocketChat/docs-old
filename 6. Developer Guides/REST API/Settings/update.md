@@ -3,7 +3,16 @@ order: 20
 ---
 
 # Settings Update
-Updates the setting for the provided `_id`.
+Updates the setting for the provided `_id`. 
+
+The `_id` of a setting is the first argument of the `RocketChat.settings.add` method used in `Rocket.Chat/packages/rocketchat-lib/server/startup/settings.js` (among other files). For example, the following code in that `settings.js` file
+```javascript
+this.add('Accounts_AllowAnonymousRead', false, {
+		type: 'boolean',
+		public: true
+	});
+```
+means that the setting labeled "Allow anonymous read" in the section "Accounts" has `_id` equal to `'Accounts_AllowAnonymousRead'`. The second argument is the default value (`false`). The third argument specifies the variable's type and whether it is public, hidden, and so on.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
