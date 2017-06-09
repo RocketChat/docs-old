@@ -8,7 +8,7 @@ Okay okay, before you get too excited there are a few things that we have to do 
 3. Is your server publicly accessible from the web? If **no**, Zapier requires it to be accessible via the web.
 4. Log into your server, go to `Admin -> oAuth Apps -> Zapier`.
 5. Change `Active` to be `True`
-6. Change `Redirect URI` to be `https://zapier.com/dashboard/auth/oauth/return/App60378API/`
+6. Change `Redirect URI` to be `https://zapier.com/dashboard/auth/oauth/return/RocketChatDevAPI/`
 7. Click `Save Changes` then verify the save was successful.
 
 Did you complete everything? Yes? Good! [Here is your invite (hint: click me)](https://zapier.com/developer/invite/32270/7c3feadc825db6ae9023ea2983e88875/)!
