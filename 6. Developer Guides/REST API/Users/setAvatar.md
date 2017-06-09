@@ -19,7 +19,6 @@ order: 45
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
-     -H "Content-type:application/json" \
      -F "image=@my-own-avatar.png" \
      http://localhost:3000/api/v1/users.setAvatar
 ```
