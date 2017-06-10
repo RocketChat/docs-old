@@ -12,3 +12,5 @@ Okay okay, before you get too excited there are a few things that we have to do 
 7. Click `Save Changes` then verify the save was successful.
 
 Did you complete everything? Yes? Good! [Here is your invite (hint: click me)](https://zapier.com/developer/invite/32270/7c3feadc825db6ae9023ea2983e88875/)!
+
+**Warning:** Make sure the `rocket.cat` user has *not* been removed from your Rocket.Chat instance otherwise you won't be able to enable the Zaps! If it has been removed, you'll probably see an error message that says something like `(400) Bad Request and said "Invalid user [error-invalid-user]`.
