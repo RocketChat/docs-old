@@ -66,7 +66,7 @@ Plesk Onyx has now a docker installation and Nginx proxy docker rule generator b
 ```
 #manual extension docker with socket upgrade begin
 location ~ ^/.* {
-	proxy_pass http://0.0.0.0:30000;
+	proxy_pass http://0.0.0.0:3000;
 	proxy_set_header Host             $host;
 	proxy_set_header X-Real-IP        $remote_addr;
 	proxy_set_header X-Forwarded-For  $proxy_add_x_forwarded_for;
