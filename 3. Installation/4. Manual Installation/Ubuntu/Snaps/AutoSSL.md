@@ -137,4 +137,3 @@ For Caddy to be able to work from behind a router, the following ports need to b
 
 - HTTP: port **80**
 - HTTPS: port **443**
-- TCP/UDP dial-up: port **53**
