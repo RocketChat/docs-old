@@ -9,4 +9,4 @@ Please follow the respective guide for the operating system you are using,
 3. Debian  : https://rocket.chat/docs/installation/manual-installation/debian/
 4. Windows : https://rocket.chat/docs/installation/manual-installation/windows-server/
 
-If you are using Docker, follow these instructions: Deploy Rocket.Chat on Linux with Docker
+If you are using Docker, follow these instructions: https://rocket.chat/docs/installation/docker-containers
