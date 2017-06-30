@@ -1,8 +1,19 @@
-# Incoming WebHook Scripting
+# Integrations
 
-With _Scripts_ you can point any WebHook to Rocket.Chat and process the request to print customized messages, define the username and avatar of the _user_ of the message and change the channel where the message will be posted or you can cancel the request to prevent undesired messages.
+Rocket.Chat supports WebHooks to integrate tools and services you like into the platform. WebHooks are simple event-notifications via HTTP POST. This way any application implementing a WebHook is able to POST a message to a Rocket.Chat instance.
 
-## How to create a new Incoming WebHook
+Available integrations:
+
+* Incoming WebHook → send messages from a service into Rocket.Chat
+* Outgoing WebHook → Let Rocket.Chat react to a trigger and optionally send a request to a service and process the response
+
+WebHooks are handled by *ES2015 / ECMAScript 6* scripts. A WebHook is designed to post a message only. The »message« is part of a JSON structure, which has the same format as described in the API documentation on how to [“Post a chat message”](/6.%20Developer%20Guides/REST%20API/Chat/postMessage.md). It is not possible to trigger any other event with a WebHook (eg. “Create a new channel”). Use the [REST API](/6.%20Developer%20Guides/REST%20API/) for such use cases.
+
+## Incoming WebHook Scripting
+
+Incoming WebHook are triggered from external services. You can point any WebHook to Rocket.Chat and let a *Script* process the request to print a customized messages or cancel the request to prevent undesired messages.
+
+### How to create a new Incoming WebHook
 
 * Go to your admin page
 * Go to Integrations
@@ -13,13 +24,11 @@ With _Scripts_ you can point any WebHook to Rocket.Chat and process the request 
 * Save the integration
 * Use the generated **WebHook URL** to POST messages to Rocket.Chat
 
-## Incoming Script Details
+### Script Details
 
-The script should be in **ES2015 / ECMAScript 6**
+The script should be in **ES2015 / ECMAScript 6**.
 
-The script expects a global class called **Script**, this class will be instantiated just **one** time \(on the first execution\) and kept in memory
-
-The class should have a method called **process\_incoming\_request**, this method will be called every time your server receives a new request, will be called with an Object as parameter containing the **request** property.
+The script expects a global class called **Script**, this class will be instantiated just **one** time (on the first execution) and kept in memory.
 
 The **process\_incoming\_request** method should return an object with a property **content** containing a valid Rocket.Chat message or an object with a property **error** that will be returned as the response of the request in JSON format and status code **400**.
 
@@ -94,9 +103,9 @@ class Script {
 
 ## Outgoing WebHook Scripting
 
-With _Scripts_ you can process all messages from a channel and change how Rocket.Chat will do the request or cancel the request. You can cancel the request and return a message or just do nothing. You can do another request inside the script using the global helper **HTTP**.
+Several different events may trigger an outgoing WebHook. You can preprocess the hook with a *Script*. This script may decide if it does nothing, returns a message immediately or sends a request to an external service.
 
-The response of the request will execute the script too, calling another method so you can process the response as you can do in **Incoming WebHooks**
+The response of the request will execute the script too, calling another method so you can process the response just as in **Incoming WebHooks**.
 
 ### How to create a new Outgoing WebHook
 
@@ -104,16 +113,16 @@ The response of the request will execute the script too, calling another method 
 * Go to Integrations
 * Create a **New Integration** and select **Outgoing WebHook**
 * Select the channel where you will use the commands and receive the responses
-* Put the url you want to call in **URLs**, you can modify this url inside the script
+* Put the URL you want to call in **URLs**, you can modify this URL inside the script
 * Set **Script Enabled** to **True**
 * Paste your script inside the **Script** field
 * Save your integration
 
-### Outgoing Script Details
+### Script Details
 
-The script should be in **ES2015 / ECMAScript 6**
+The script should be in **ES2015 / ECMAScript 6**.
 
-The script expects a global class called **Script**, this class will be instantiated just **one** time \(on the first execution\) and kept in memory
+The script expects a global class called **Script**, this class will be instantiated just **one** time (on the first execution) and kept in memory.
 
 The class can have a method called **prepare\_outgoing\_request**, this method will be called for every message in configured channel or can be filtered by the **Trigger Words**, will be called with an Object as parameter containing the **request** property.
 
@@ -247,4 +256,3 @@ class Script {
   }
 }
 ```
-
