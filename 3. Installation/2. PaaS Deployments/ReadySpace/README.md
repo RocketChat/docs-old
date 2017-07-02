@@ -1,4 +1,4 @@
-Deploying Rocket.Chat on ReadySpce Cloud
+Deploying Rocket.Chat on ReadySpace Cloud
 
 ReadySpace offers both Linux and Windows VPS backed by SSDs. There needs to be no specialized configuration.
 
