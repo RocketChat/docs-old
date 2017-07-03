@@ -24,5 +24,14 @@ The type of communication is defined according to the call:
 
  Please note, the server will send you "ping" and you must respond with "pong" otherwise the server will close the connection.
 
+Before requesting any method / subscription you have to send a connect message:
+```json
+{
+	"msg": "connect",
+	"version": "1",
+	"support": ["1"]
+}
+```
+
 [1]:1.%20Method%20Calls/
 [2]:2.%20Subscriptions/
