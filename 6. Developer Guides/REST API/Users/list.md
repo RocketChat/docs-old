@@ -4,6 +4,7 @@ order: 30
 
 # User Information
 Gets all of the users in the system and their information, the result is only limited to what the callee has access to view.
+This method supports the [Offset and Count Query Parameters](../Offset%20and%20Count%20Info.md).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -12,9 +13,6 @@ Gets all of the users in the system and their information, the result is only li
 ## Query Parameters
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `offset` | `5` | Optional | Query offset (default 0). |
-| `count` | `10` | Optional | Query limit. |
-| `sort` | `{ name: -1, status: 1 }` | Optional | Sort hash (value of `1` for asc, `-1` for desc). |
 | `fields` | `{ name: 1, email: 0 }` | Optional | Field include hash (value of `1` to include, `0` to exclude). |
 | `query` | `{ active: true, type: { $in: ['user', 'bot'] } }` | Optional | Query filter hash. |
 
