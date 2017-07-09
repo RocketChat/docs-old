@@ -24,8 +24,10 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Example Result
 ```json
 {
-  "_id": "BsNr28znDkG8aeo7W",
-  "authToken": "2jdk99wuSjXPO201XlAks9sjDjAhSJmskAKW301mSuj9Sk",
+  "data": {
+    "userId": "BsNr28znDkG8aeo7W",
+    "authToken": "2jdk99wuSjXPO201XlAks9sjDjAhSJmskAKW301mSuj9Sk",
+  },
   "success": true
 }
 ```
