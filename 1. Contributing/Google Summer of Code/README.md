@@ -62,6 +62,43 @@ https://github.com/RocketChat/Rocket.Chat/pull/7088
 
 Congratulations to the new team members, and keep up the great work!  We are all looking forward to the first evaluation milestone at the end of June.
 
+## Creating open source citizens
+
+July is in full swing.  First evaluation has completed and we're working towards our end-of-July milestone.
+
+We are happy to report that all *seven* of our students have passed their first evaluation.  Most are making very good pace on their projects, with some close to completion and in planning phase for extensions. We are also keeping a keen eye out on potential candidate(s) for full-time hire at end of their term.
+
+The following are the Rocket.Chat projects that our new team members are working on. Contribution and participation are welcomed immediately from the greater Rocket.Chat community:
+
+[iOS SDK](https://github.com/RocketChat/Rocket.Chat.iOS.SDK)
+[Android SDK](https://github.com/RocketChat/Rocket.Chat.Android.SDK)
+[Java SDK](https://github.com/RocketChat/Rocket.Chat.Java.SDK)
+[PWA](https://github.com/RocketChat/Rocket.Chat.PWA)
+[Federation](https://github.com/RocketChat/Rocket.Chat.Federation/tree/tsmatrixlib/tsmatrixserverlib)
+
+After the evaulation, we have made sure that they all have received the first stipend payment - especially the students under Rocket.Chat's sponsorship.  
+
+Working with a publicity company, we have been creating open source "hero stories" profiling every one of our new summer-term team members.  Many of them have already been featured on our Blog:
+
+[Mrinal Dhar](https://rocket.chat/blog/mrinal-dhar-developing-end-to-end-encryption-with-signal-protocol)
+[Manish Kakoti](https://rocket.chat/blog/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation)
+[Pradeep Kumar](https://rocket.chat/blog/pradeep-kumar-bridging-the-email-and-rocketchat-divide-with-personal-email-gateway)
+[Sachin Shinde](https://rocket.chat/blog/sachin-shinde-add-rocketchat-to-any-app-with-mobile-sdk)
+[Naman Gupta](https://rocket.chat/blog/naman-gupta-smaller-faster-and-more-bandwidthefficient-client-with-pwa)
+
+
+In July, along with continued technical progress, we are focusing to help the student in development of their open source citizanship skills.  
+
+This will include activities in:
+
+* promoting their open source project
+* build and nurture a community around their project
+* interaction with internal and external open source team members
+
+Over the next two months, guided by their mentor(s) - each student will be giving a presentation on their project to the larger Rocket.Chat team.
+
+We continue to be extremely optimistic going into the critical mid-term evaluation in late July.
+
 ## Ideas
 
 ### Federation of Rocket.Chat Servers
