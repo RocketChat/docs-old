@@ -70,24 +70,23 @@ We are happy to report that all *seven* of our students have passed their first 
 
 The following are the Rocket.Chat projects that our new team members are working on. Contribution and participation are welcomed immediately from the greater Rocket.Chat community:
 
-[iOS SDK](https://github.com/RocketChat/Rocket.Chat.iOS.SDK)
-[Android SDK](https://github.com/RocketChat/Rocket.Chat.Android.SDK)
-[Java SDK](https://github.com/RocketChat/Rocket.Chat.Java.SDK)
-[PWA](https://github.com/RocketChat/Rocket.Chat.PWA)
-[Federation](https://github.com/RocketChat/Rocket.Chat.Federation/tree/tsmatrixlib/tsmatrixserverlib)
+* [iOS SDK](https://github.com/RocketChat/Rocket.Chat.iOS.SDK)
+* [Android SDK](https://github.com/RocketChat/Rocket.Chat.Android.SDK)
+* [Java SDK](https://github.com/RocketChat/Rocket.Chat.Java.SDK)
+* [PWA](https://github.com/RocketChat/Rocket.Chat.PWA)
+* [Federation](https://github.com/RocketChat/Rocket.Chat.Federation/tree/tsmatrixlib/tsmatrixserverlib)
 
 After the evaulation, we have made sure that they all have received the first stipend payment - especially the students under Rocket.Chat's sponsorship.  
 
 Working with a publicity company, we have been creating open source "hero stories" profiling every one of our new summer-term team members.  Many of them have already been featured on our Blog:
 
-[Mrinal Dhar](https://rocket.chat/blog/mrinal-dhar-developing-end-to-end-encryption-with-signal-protocol)
-[Manish Kakoti](https://rocket.chat/blog/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation)
-[Pradeep Kumar](https://rocket.chat/blog/pradeep-kumar-bridging-the-email-and-rocketchat-divide-with-personal-email-gateway)
-[Sachin Shinde](https://rocket.chat/blog/sachin-shinde-add-rocketchat-to-any-app-with-mobile-sdk)
-[Naman Gupta](https://rocket.chat/blog/naman-gupta-smaller-faster-and-more-bandwidthefficient-client-with-pwa)
+* [Mrinal Dhar](https://rocket.chat/blog/mrinal-dhar-developing-end-to-end-encryption-with-signal-protocol)
+* [Manish Kakoti](https://rocket.chat/blog/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation)
+* [Pradeep Kumar](https://rocket.chat/blog/pradeep-kumar-bridging-the-email-and-rocketchat-divide-with-personal-email-gateway)
+* [Sachin Shinde](https://rocket.chat/blog/sachin-shinde-add-rocketchat-to-any-app-with-mobile-sdk)
+* [Naman Gupta](https://rocket.chat/blog/naman-gupta-smaller-faster-and-more-bandwidthefficient-client-with-pwa)
 
-
-In July, along with continued technical progress, we are focusing to help the student in development of their open source citizanship skills.  
+In July, along with continued technical progress, we are focusing to help the student in development of their open source citizenship skills - something hopefully useful beyond their GSoC terms with us.  
 
 This will include activities in:
 
