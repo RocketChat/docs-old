@@ -17,6 +17,18 @@ Here are some suggested things to include, when applicable, which may help us tr
 * Relevant snippets from your error logs
 * Screen shots if helpful to communicate the problem
 
+## Gathering Logs
+
+Collecting and including logs often helps us get to the root of the issue quicker.
+
+### Browser logs
+To collect logs from your browser press <key>Ctrl</key> + <key>Shift</key> + <key>i</key> and switch to the console tab.  Errors should appear in red
+
+### Server logs
+To collect logs from your browser as an Admin log into your Rocket.Chat.  From there click the arrow by your avatar and goto Administration.  Once there you will see: `View Logs`
+
+Often its useful to open this in another browser and reproduce the problem again and you will see an exception pop up in the logs.
+
 ## Priority Features or Bug fixes?
 
 Please consider [donating](/1.%20Contributing/Donating/).
