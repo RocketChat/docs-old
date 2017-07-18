@@ -12,7 +12,6 @@ Examples of things that aren't considered bugs or feature requests:
 
 If your issue isn't a bug please see [Getting Support](/2. Getting%20Support)
 
-
 ## Reporting a bug
 
 Did you find a bug? Reporting is easy!
@@ -22,8 +21,6 @@ Did you find a bug? Reporting is easy!
 3. Try to narrow it down to reproducable steps.  If we can reproduce it, we will be able to fix the issue a lot quicker.
 4. Look at logs for errors. See below for how to gather logs.
 5. If you got this far then: [Open an issue](https://github.com/RocketChat/Rocket.Chat/issues/new)
-
-
 
 ### Things to Include in Bug Report
 
