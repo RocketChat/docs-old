@@ -27,13 +27,13 @@ If you pass the whole path, including the DocumentRoot to the rocket.chat server
 ```
 Unknown path
 ```
-because you configured `/chat` as subfolder (actually it's parsed out of the ROOT_URL you provided) but the rocket.chat server gets a request for `/var/www/chat`, detects a missmatch and returns the above mentioned error.
+because you configured `/chat` as subfolder (actually it's parsed out of the ROOT_URL you provided) but the rocket.chat server gets a request for `/var/www/chat`, detects a mismatch and returns the above mentioned error.
 
 **Additional notes:**
 - Using the RewriteBase Directive won't work
 - The ProxyPassReverse can be used inside a Location-tag and the first parameter must be omitted in this case
 - You don't need to configure a Location for the root folder `/` when using rocket.chat in a subfolder (its likely configured for other stuff already in this case)
-- For those of you beeing curious about details: the above mentioned path-handling is in webapp.js ...just search for "Unknown path"
+- For those of you being curious about details: the above mentioned path-handling is in webapp.js ...just search for "Unknown path"
 
 
 ## Running the application
@@ -44,4 +44,4 @@ For example:
 ROOT_URL=https://your.domain.com/chat/ node main.js
 ```
 
-If you followed the manual installation guide, you may already have configured (and persisted) this evironment variable - in this case you can ignore this advice.
+If you followed the manual installation guide, you may already have configured (and persisted) this environment variable - in this case you can ignore this advice.
