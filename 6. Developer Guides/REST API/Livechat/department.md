@@ -45,7 +45,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/livechat/deparment` | `yes` | `POST` |
+| `/api/v1/livechat/department` | `yes` | `POST` |
 
 ## Example payload
 ```
@@ -108,16 +108,16 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | 0.42.0 | Added |
 
 
-# Get info about a deparment
+# Get info about a department
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/livechat/deparment/:_id` | `yes` | `GET` |
+| `/api/v1/livechat/department/:_id` | `yes` | `GET` |
 
 ## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `_id` | `SQafHvoFPuB57NmBD` | Required | The deparment `_id`. |
+| `_id` | `SQafHvoFPuB57NmBD` | Required | The department `_id`. |
 
 ## Example Call
 ```bash
@@ -164,12 +164,12 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/livechat/deparment/:_id` | `yes` | `PUT` |
+| `/api/v1/livechat/department/:_id` | `yes` | `PUT` |
 
 ## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `_id` | `iTfLCX3qqwKgf5uqg` | Required | Deparment `_id`. |
+| `_id` | `iTfLCX3qqwKgf5uqg` | Required | Department `_id`. |
 
 ## Example payload
 ```
@@ -232,16 +232,16 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | 0.42.0 | Added |
 
 
-# Removes a deparment
+# Removes a department
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/livechat/deparment/:_id` | `yes` | `DELETE` |
+| `/api/v1/livechat/department/:_id` | `yes` | `DELETE` |
 
 ## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `_id` | `iTfLCX3qqwKgf5uqg` | Required | The deparment `_id`. |
+| `_id` | `iTfLCX3qqwKgf5uqg` | Required | The department `_id`. |
 
 ## Example Call
 ```bash
