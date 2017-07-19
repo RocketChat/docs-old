@@ -28,7 +28,7 @@ Here are some things to include, when applicable, which may help us troubleshoot
 
 * Operating System / Version / Architecture (64 bit?)
 * Browser type & Version (if web app), any browser add-ons which may be involved (e.g. AdBlocker, NoScript, etc.)
-* Rocket.Chat edition / Version
+* Rocket.Chat Version
 * Expected behavior vs. Actual behavior (In other words, the "bug")
 * Can it be reproduced? If yes, how?
 * Relevant snippets from your error logs
