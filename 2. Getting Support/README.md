@@ -10,8 +10,7 @@ Some great places to ask your questions:
 Our community also often hangs out on our [community server](https://demo.rocket.chat).
 
 Some of the channels to get help:
-* [\#support](https://demo.rocket.chat/channel/support)  
-Rocket.Chat support channel
+* [\#support](https://demo.rocket.chat/channel/support) Rocket.Chat support channel
 * [\#ubuntu-snap](https://demo.rocket.chat/channel/ubuntu-snap) channel for help with snap installs
 
 
