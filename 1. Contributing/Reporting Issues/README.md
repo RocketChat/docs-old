@@ -18,7 +18,7 @@ Did you find a bug? Reporting is easy!
 
 1. [Search the Issues](https://github.com/RocketChat/Rocket.Chat/issues) for your bug.  If you find it, give it a thumbsup and add some additional information to the ticket if differing.  This will help give us a fuller picture.
 2. Make sure you are running the latest version of Rocket.Chat. Its very likely simply updating will resolve your issue.
-3. Try to narrow it down to reproducable steps.  If we can reproduce it, we will be able to fix the issue a lot quicker.
+3. Try to narrow it down to reproducible steps.  If we can reproduce it, we will be able to fix the issue a lot quicker.
 4. Look at logs for errors. See below for how to gather logs.
 5. If you got this far then: [Open an issue](https://github.com/RocketChat/Rocket.Chat/issues/new)
 
@@ -30,7 +30,7 @@ Here are some things to include, when applicable, which may help us troubleshoot
 * Browser type & Version (if web app), any browser add-ons which may be involved (e.g. AdBlocker, NoScript, etc.)
 * Rocket.Chat Version
 * Expected behavior vs. Actual behavior (In other words, the "bug")
-* Can it be reproduced? If yes, how?
+* Can it consistently be reproduced? If yes, how?  Its important to try and narrow this down as much as possible, so we can encounter your error and fix it.
 * Relevant snippets from your error logs
 * Screen shots if helpful to communicate the problem
 
