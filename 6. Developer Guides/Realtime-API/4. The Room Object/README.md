@@ -15,7 +15,7 @@ The information that comes with the room object changes according to its type.
 
 ### Direct chat
 
-A direct chat between two users. In this case the room obejct only has two fields:
+A direct chat between two users. In this case the room object only has two fields:
 
 - `_id`: The room id
 - `t`: The room type (in this case `d`)
