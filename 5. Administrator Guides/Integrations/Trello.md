@@ -7,4 +7,4 @@ This integration uses Rocket.Chat incoming webhook in order to send Trello activ
 ![image](Trello-Integration.png)
 
 Full documentation instructions here:<br>
-https://github.com/gezims/Rocket.Chat-Trello-Integration
+https://github.com/GezimSejdiu/Rocket.Chat-Trello-Integration
