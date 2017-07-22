@@ -1,15 +1,28 @@
 # Developing
 
-First of all, thanks! It's really awesome that you're interested in contributing to Rocket Chat. If this is the first Open Source project you will contribute to, it'd be cool if you read GitHub's excellent guide ["Contributing to Open Source"](https://guides.github.com/activities/contributing-to-open-source/).
+First of all, thank you! It's really awesome that you're interested in
+contributing to Rocket.Chat. If this is the first Open Source project
+you will contribute to, we strongly suggest reading GitHub's excellent
+guide ["Contributing to Open
+Source"](https://guides.github.com/activities/contributing-to-open-source/).
 
 ## Getting Started
 
-You can find Rocket.Chat repositories [here](https://github.com/RocketChat). If you see some issue you are willing to work on, just comment on it. We will add an [In Progress label](https://github.com/RocketChat/Rocket.Chat/labels/stat%3A%20in%20progress), and that's it! Want a simple task to get you started? [We maintain a list of those](https://github.com/RocketChat/Rocket.Chat/labels/contrib%3A%20easy)! Looking for other developer guides? [We have it here in the documentation](/6.%20Developer%20Guides/)!
+You can find Rocket.Chat code repositories
+[here](https://github.com/RocketChat). Every repository has an Issue tab
+in GitHub. Take a look at the open issues, comment on anything that
+you intend to work on, and we'll add an [In Progress
+label](https://github.com/RocketChat/Rocket.Chat/labels/stat%3A%20in%20progress).
+We maintain a list of [simple
+tasks](https://github.com/RocketChat/Rocket.Chat/labels/contrib%3A%20easy)
+for devs getting started.
+See [here](/6.%20Developer%20Guides/) for links to more detailed
+developer guides, including workflow and API docs..
 
-## Submitting Pull Requests
+## Priority Features and / or bug fixes
 
-For contributions to code or documentation, you can fork the material, apply your contribution, and submit a [Pull Request](https://help.github.com/articles/using-pull-requests/).
+There are two ways to influence the roadmap.
 
-## Priority Features or Bug fixes?
-
-Please consider [donating](/1.%20Contributing/Donating/).
+* [Contact us directly](https://rocket.chat/contact) to sponsor development.
+* [Add a bounty](https://www.bountysource.com/teams/rocketchat) to any
+  issue you'd like to nudge forward.
