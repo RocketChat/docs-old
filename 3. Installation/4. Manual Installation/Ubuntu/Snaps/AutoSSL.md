@@ -131,3 +131,9 @@ Remember to restart the Caddy service:
 ```
 sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
 ```
+
+## Opening ports when running Rocket.Chat server from behind router
+For Caddy to be able to work from behind a router, the following ports need to be opened between the internet and the server. This is usually achieved through router software or web-interface.
+
+- HTTP: port **80**
+- HTTPS: port **443**
