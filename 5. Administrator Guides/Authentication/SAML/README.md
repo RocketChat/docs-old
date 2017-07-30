@@ -2,38 +2,38 @@
 
 ## Rocket.Chat Settings Page
 
-### Custom Provider
+### Custom Provider (Suffix to SP entityID)
 
 This is the unique name for your application as a Service Provider (SP) for SAML. Whatever you enter here will produce a metadata XML file you will need in order to populate the metadata your IdP (Identity Provider) requires. For example, if you put 'my-app', then your metadata will be at:
 
 https://my-rocketchat-domain.tld/_saml/metadata/my-app
 
-### Custom Entry Point
+### Custom Entry Point (IDP SSO Redirect URL)
 
-This is the URL provided by your IdP for logging in.
+This is the URL provided by your IdP for logging in. In SAML-terminology, the is the location (URL) of the SingleLogoutService with the Redirect binding (urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect).
 
 ### IDP SLO Redirect URL
 
-This is the URL provided by your IdP for logging out.
+This is the URL provided by your IdP for logging out. In SAML-terminology, the is the location (URL) of the SingleSignOnService with the Redirect binding (urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect). 
 
-### Custom Issuer
+### Custom Issuer (SP entityID)
 
-URL of your metadata, again, where you set Custom Provider to 'my-app' this will be:
+The URI that is the unique identifier of your service. By convention, this is also URL of your (unedited) metadata, again, where you set Custom Provider to 'my-app' this will be:
 
 https://my-rocketchat-domain.tld/_saml/metadata/my-app
 
-### Custom Certificate
+### Custom Certificate (IDP Signing Certificate)
 
-This is the idp providers public certificate that is used to verify the SAML requests. Format for this is without BEGIN CERTIFICATE and END CERTIFICATE
+This is the idp providers public certificate that is used to verify the SAML requests. Format for this is PEM without BEGIN CERTIFICATE and END CERTIFICATE
 
 
-### Public Cert Contents
+### Public Cert Contents (SP Signing Certificate)
 
 The public part of the self-signed certificate you created for encrypting your SAML transactions. [Example of self-signed certificate on the SimpleSAMLphp website here.](https://simplesamlphp.org/docs/stable/simplesamlphp-sp#section_1_1) 
 
-### Private Key Contents
+### Private Key Contents (SP Signing Private Key)
 
-The private key matching the self-signed certificate you created.
+The private key matching the self-signed certificate you created as PKCS#1 PEM.
 
 ### SAML assertion
 
