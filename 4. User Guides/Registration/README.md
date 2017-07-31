@@ -12,7 +12,7 @@ You can create an account by providing your:
 
 ## OAuth registration
 
-We support account registration and login with the following OAth services:
+We support account registration and login with the following OAuth services:
 
 - GitHub
 - GitLab
@@ -21,3 +21,5 @@ We support account registration and login with the following OAth services:
 - Twitter
 - LinkedIn
 - Meteor
+
+You can add additional OAuth providers to your self hosted Rocket.Chat server with plugins.
