@@ -106,6 +106,11 @@ If you have a saved user authentication you may use the provided `auth-token` to
 
 A sucessful call will return the same message as an sucessful login (which it is).
 
+## About token expiration date
+As the token expires, you have to call the login method again in order to obtain a new token with a new expiration date.
+
+NB: You don't have to wait until the token is expired before asking for a new token.
+
 ## See Also
 * [Logout][1]
 
