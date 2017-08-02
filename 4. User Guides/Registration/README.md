@@ -1,6 +1,6 @@
 # Registering an account
 
-To be able to access a server you will need to first register an account manually or by using one of the many supported OAuth services and then (login)[https://rocket.chat/docs/user-guides/login/].
+To be able to access a server you will need to first register an account manually or by using one of the many supported OAuth services and then [login](../login/).
 
 ## Manual registration
 

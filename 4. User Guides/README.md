@@ -4,11 +4,11 @@ Here you'll learn how to use [Rocket.Chat](https://rocket.chat/) as a user.
 
 ## Accessing a server
 
-To access a server you will need to (connect)[https://rocket.chat/docs/user-guides/connect-to-server/] to it, (register)[https://rocket.chat/docs/user-guides/registration/] an account and (login)[https://rocket.chat/docs/user-guides/login/].
+To access a server you will need to [connect](connect-to-server/) to it, [register](registration/) an account and [login](login/).
 
 ## Managing your account
 
-Once logged into a Rocket.Chat server you can (manage your account)[https://rocket.chat/docs/user-guides/manage-your-account/] and configure profile, avatar, security, localization and notification settings. 
+Once logged into a Rocket.Chat server you can [manage your account](manage-your-account/) and configure profile, avatar, security, localization and notification settings.
 
 ## Channels
 
