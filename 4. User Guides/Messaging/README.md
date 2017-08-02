@@ -1,6 +1,6 @@
-# Editing Messages
+# Messaging
 
-Rocket.Chat provides several features for composing messages and for editing them after they have been sent. 
+Rocket.Chat provides several features for composing messages and for editing them after they have been sent.
 
 ## Composing messages 
 
@@ -10,13 +10,13 @@ As you compose a message, you can move the cursor using the arrow keys. When you
 ![wrap](https://cloud.githubusercontent.com/assets/4238626/14960976/17064ab4-10a0-11e6-9ee9-efe9239004a3.gif)
 
 ### Move the cursor to the beginning or end of a message
-Holding <kbd>Alt</kbd> or <kbd>Command</kbd> while hitting an arrow key moves to the beginning or end of the message: 
+Holding <kbd>Alt</kbd> or <kbd>Command</kbd> while hitting an arrow key moves to the beginning or end of the message:
 
 ![alt_up_down](https://cloud.githubusercontent.com/assets/4238626/14960972/17009c90-10a0-11e6-9450-d69257310e24.gif)
 
-## Editing messages 
+## Editing messages
 
-To edit a message, click on the gear icon next to the message, and then click on the pencil icon. Alternatively, in the message input box, hit the <kbd>Up Arrow</kbd>. 
+To edit a message, click on the gear icon next to the message, and then click on the pencil icon. Alternatively, in the message input box, hit the <kbd>Up Arrow</kbd>.
 
 The administrator of a Rocket.Chat team sets the permissions for who can edit messages. (See `edit-message` in the list of permissions.) By default, only administrators, moderators, and admins can edit messages.
 
@@ -36,7 +36,7 @@ Rocket.Chat saves a draft of your edits to messages. That way, you can return to
 
 ### Emptying message deletes it
 
-Editing the message so that it has no content is interpreted as deleting the message: 
+Editing the message so that it has no content is interpreted as deleting the message:
 
 ![delete](https://cloud.githubusercontent.com/assets/4238626/14960977/1706e71c-10a0-11e6-8d44-48bf20f79ae4.gif)
 
