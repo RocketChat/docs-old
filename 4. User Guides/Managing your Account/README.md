@@ -22,9 +22,9 @@ Enable or disable all desktop notifications, test desktop notifications and conf
   - Alternative mode (send with Enter + Ctrl/Alt/Shift/CMD)
   - Desktop mode (only sends with enter on desktop)
 - View mode
-  - Normal
-  - Cozy
-  - Compact
+  - Normal: the default spacing between messages
+  - Cozy: more space between messages (less on the screen)
+  - Compact: less space between messages (more on the screen)
 - Offline Email Notifications
   - Disabled
   - Every Mention/DM
