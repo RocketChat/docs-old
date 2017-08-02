@@ -54,7 +54,10 @@ class Script { // eslint-disable-line
 				case 'Pipeline Hook':
 					result = this.pipelineEvent(request.content);
 					break;
-				case 'Build Hook':
+				case 'Build Hook': // GitLab < 9.3
+					result = this.buildEvent(request.content);
+					break;
+				case 'Job Hook': // GitLab >= 9.3.0
 					result = this.buildEvent(request.content);
 					break;
 				case 'Wiki Page Hook':
