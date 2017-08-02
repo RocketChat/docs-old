@@ -8,18 +8,18 @@ First you have to put the Rewrite/Proxy related parts into a Location-tag.
 Lets say, you want to provide the service under the above mentioned subfolder "chat", this is what this part of the config should look like:
 
 ```
-        <Location /chat>
-                Order allow,deny
-                Allow from all
+<Location /chat>
+    Order allow,deny
+    Allow from all
 
-                RewriteEngine On
-                RewriteCond %{HTTP:Upgrade} =websocket [NC]
-                RewriteRule /var/www/(.*)           ws://localhost:3000/$1 [P,L]
-                RewriteCond %{HTTP:Upgrade} !=websocket [NC]
-                RewriteRule /var/www/(.*)           http://localhost:3000/$1 [P,L]
-                
-                ProxyPassReverse http://localhost:3000
-        </Location>
+    RewriteEngine On
+    RewriteCond %{HTTP:Upgrade} =websocket [NC]
+    RewriteRule /var/www/(.*)           ws://localhost:3000/$1 [P,L]
+    RewriteCond %{HTTP:Upgrade} !=websocket [NC]
+    RewriteRule /var/www/(.*)           http://localhost:3000/$1 [P,L]
+
+    ProxyPassReverse http://localhost:3000
+</Location>
 ```
 If you compare it to the lines provided in the above linked reverse proxy documentation, you may notice a difference in the RewriteRule - there is an additional `/var/www`.
 That must be changed to your DocumentRoot (if it's not already your DocumentRoot).
