@@ -1,57 +1,62 @@
-# Reporting Issues
+# Bug Reporting
 
-You don't have to write code to contribute! We are always looking for help with creating or updating documentation, testing our apps (web, desktop and mobile) and reporting bugs.
+## Is it a bug?
 
-## Be sure its a bug
-We are striving to make our issues a list of actionable items for the team.  So we want to keep it a list of issues and feature requests.
+GitHub Issues is for bugs and feature requests only.
 
 Examples of things that aren't considered bugs or feature requests:
+
 * Can't figure out how to do something
 * Having issues accessing your server
 * Can't get the server installed
 
-If your issue isn't a bug please see [Getting Support](/2. Getting%20Support)
+If your issue falls into one of these categories, please see [Getting
+Support](/2. Getting%20Support).
 
-## Reporting a bug
+## It is a bug!
 
-Did you find a bug? Reporting is easy!
+### Search the archive
 
-1. [Search the Issues](https://github.com/RocketChat/Rocket.Chat/issues) for your bug.  If you find it, give it a thumbsup and add some additional information to the ticket if differing.  This will help give us a fuller picture.
-2. Make sure you are running the latest version of Rocket.Chat. Its very likely simply updating will resolve your issue.
-3. Try to narrow it down to reproducible steps.  If we can reproduce it, we will be able to fix the issue a lot quicker.
-4. Look at logs for errors. See below for how to gather logs.
-5. If you got this far then: [Open an issue](https://github.com/RocketChat/Rocket.Chat/issues/new)
+1. Make sure you are running the latest version of Rocket.Chat. It's
+   quite possible that your bug has been resolved in a newer version.
+1. Search [GitHub
+   Issues](https://github.com/RocketChat/Rocket.Chat/issues) to see if
+   it has been reported. If it has, then don't create a duplicate bug
+   report. Instead, give it a thumbsup (click on the icon), and if you
+   have any extra useful information, add it in a comment.
 
-### Things to Include in Bug Report
+### Report a new issue
 
-Here are some things to include, when applicable, which may help us troubleshoot a problem:
+Go [here](https://github.com/RocketChat/Rocket.Chat/issues/new) to open
+a new issue.
+
+Please include the following information in order to promote effective
+fixing.
 
 * Operating System / Version / Architecture (64 bit?)
-* Browser type & Version (if web app), any browser add-ons which may be involved (e.g. AdBlocker, NoScript, etc.)
-* Rocket.Chat Version
-* Expected behavior vs. Actual behavior (In other words, the "bug")
-* Can it consistently be reproduced? If yes, how?  Its important to try and narrow this down as much as possible, so we can encounter your error and fix it.
-* Relevant snippets from your error logs
-* Screen shots if helpful to communicate the problem
+* Browser type and version, including any add-ons. (e.g. AdBlocker,
+  NoScript, etc.)
+* Rocket.Chat version
+* Expected behavior
+* Actual behavior
+* Can the bug consistently be reproduced? If so, how?
+* Relevant errors and other log output
+* Screen shots as necessary
 
-### Determining Rocket.Chat Version
-Determining the version of Rocket.Chat running can be done one of two ways.
+#### Determining Rocket.Chat Version
 
-1. Administration->Info
-2. Open your browser and goto: http://<your server here>/api/info
+Can be done in two ways:
 
-### Gathering Logs
+1. `Administration` -> `Info`
+1. Your Rocket.Chat URL followed by `/api/info`
 
-Collecting and including logs often helps us get to the root of the issue quicker.
+#### Gathering Logs
 
-#### Browser logs
-To collect logs from your browser press <kbd>Ctrl/Cmd</kbd> + <kbd>Shift</kbd> + <kbd>i</kbd> and switch to the console tab.  Errors should appear in red
+##### Browser
 
-#### Server logs
-To collect logs from your browser as an Admin log into your Rocket.Chat.  From there click the arrow by your avatar and goto Administration.  Once there you will see: `View Logs`
+To collect logs from your browser press `F12` and switch to the console
+tab.  Errors appear in red.
 
-Often its useful to open this in another browser and reproduce the problem again and you will see an exception pop up in the logs.
+##### Server
 
-## Priority Features or Bug fixes?
-
-Please consider [donating](/1.%20Contributing/Donating/).
+`Administration` -> `View Logs`
