@@ -11,6 +11,7 @@ The room object represents any form of communication between two or more users. 
 - `c`: Chat
 - `p`: Private chat
 - `l`: Livechat
+
 The information that comes with the room object changes according to its type.
 
 ### Direct chat
