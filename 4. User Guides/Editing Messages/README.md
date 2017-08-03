@@ -56,6 +56,6 @@ When graphical emojis are disabled, emoji keywords and shortcuts will be display
 
 ## Sending attachments
 
-You can send attachments by clicking on the paperclip icon on the right of the compose message box, which will open a file browser for you to select a supported document and image file to send. Once you have selected a file to attach you can change its name and give it a description before sending.
+You can send attachments by clicking on the paperclip icon on the right of the compose message box, which will open a file browser for you to select a supported document and image file to send. Once you have selected a file to attach, a window will be displayed where you can change the file name and add an optional description before sending or cancelling and discarding the attachment.
 
 Rocket.Chat currently does not have support to send multiple attachments at once.
