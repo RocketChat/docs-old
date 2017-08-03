@@ -34,7 +34,7 @@ You can also delete a message by emptying the contents while editing and saving 
 
 ## Sending emojis
 
-You can insert emojis in your messages as you want by clicking on the emoji smiley face icon on the left of the compose message box to browse or search for emojis.
+You can insert emojis in your messages by clicking on the emoji smiley face icon on the left of the compose message box to browse or search for emojis.
 
 You can also insert emojis by inputing a colon `:` in the message compose box followed by typing the emoji name.
 
@@ -53,3 +53,9 @@ Various emoji shortcuts exists to display popular text representations as graphi
 Graphical emojis can be enabled/disabled in [Your Account](../managing-your-account/) settings under the **Messages** section.
 
 When graphical emojis are disabled, emoji keywords and shortcuts will be displayed as is  e.g. `:smile:` or `:)`.
+
+## Adding attachments
+
+You can add attachments to your message by clicking on the paperclip icon on the right of the compose message box, which will open a file browser for you to select a supported document and image file to send. Once you have selected a file to attach you can change its name and give it a description before sending.
+
+Rocket.Chat currently does not have support to send multiple attachments at once.
