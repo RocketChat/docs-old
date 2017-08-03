@@ -54,7 +54,7 @@ Graphical emojis can be enabled/disabled in [Your Account](../managing-your-acco
 
 When graphical emojis are disabled, emoji keywords and shortcuts will be displayed as is  e.g. `:smile:` or `:)`.
 
-## Adding attachments
+## Sending attachments
 
 You can add attachments to your message by clicking on the paperclip icon on the right of the compose message box, which will open a file browser for you to select a supported document and image file to send. Once you have selected a file to attach you can change its name and give it a description before sending.
 
