@@ -56,4 +56,6 @@ When graphical emojis are disabled, emoji keywords and shortcuts will be display
 
 ## Sending audio recordings
 
-You can send audio recordings by clicking on the microphone icon on the right of the compose message box, which will start recording audio and replace the microphone icon with a square "stop" icon. To end the audio recording, click the "stop" icon, which will display a window where you can listen to and download the recording, name it and give it an optional description, before choosing to send or cancel and discard the audio recording.
+You can send audio recordings by clicking on the microphone icon on the right of the compose message box, which will start recording audio and replace the microphone icon with a square "stop" icon. 
+
+To end the recording, click the "stop" icon, which will display a window where you can listen to and download the recording, name it and give it an optional description. Click the "send" button to send the recording or the "cancel" button to discard the recording.
