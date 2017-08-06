@@ -53,6 +53,7 @@ You should now see your SP on the SimpleSAMLphp Federation page, listed as a tru
 
 ## IdP Attribute Mapping
 The following attribute are required when returning the user information to Rocket Chat:
+
 | Idp Returned Attribute Name | Usage |
 | ------ | ------ |
 | cn | User's Full Name |
