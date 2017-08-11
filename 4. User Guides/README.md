@@ -2,9 +2,17 @@
 
 Here you'll learn how to use [Rocket.Chat](https://rocket.chat/) as a user.
 
+## Accessing a server
+
+To access a server you will need to [connect](connect-to-server/) to it, [register](registration/) an account and [login](login/).
+
+## Managing your account
+
+Once logged into a Rocket.Chat server you can [manage your account](manage-your-account/) and configure profile, avatar, security, localization and notification settings.
+
 ## Channels
 
-Conversations in Rocket.Chat are organized into __channels__. Channels are chat rooms with many useful features. 
+Conversations in Rocket.Chat are organized into __channels__. Channels are chat rooms with many useful features.
 
 There are three kinds of channels: [public channels](#public-channels), [private groups](#private-groups), and [direct (1-on-1) messages](#direct-messages).
 
@@ -15,7 +23,7 @@ There are three kinds of channels: [public channels](#public-channels), [private
 
 ### Public channels
 
-**Public channels** (also called **channels** for short) are the most important kind. Use channels for conversations that are open to your entire team. A channel can be joined by anyone on your team. 
+**Public channels** (also called **channels** for short) are the most important kind. Use channels for conversations that are open to your entire team. A channel can be joined by anyone on your team.
 
 Channels make it easy to find what's going on with your team. New team members can join a channel and read all the information previously shared by other users.
 
@@ -35,7 +43,7 @@ Private groups can be joined by invitation only. The administrator sets the perm
 
 ### Favorites
 
-To help you organize and prioritize your communications, we recommend you **favorite** (or **star**) channels, private groups, and DMs. 
+To help you organize and prioritize your communications, we recommend you **favorite** (or **star**) channels, private groups, and DMs.
 
 To favorite a channel, click on the star icon in the upper left hand corner of the message area (next to the room name):
 
@@ -59,7 +67,7 @@ Find existing channels by clicking on the <img src="More channels.png" alt="More
 
 There are two notions of leaving a channel:
 
-1. To **hide** a channel is to remain a member of the channel but to remove it from your list of channels on the left-hand pane. 
+1. To **hide** a channel is to remain a member of the channel but to remove it from your list of channels on the left-hand pane.
 1. To **leave** a channel is to remove it from your list of channels _and to leave the channel_ (i.e., no longer be a member of the channel).
 
 Every channel has an **owner**, and the owner of a channel cannot leave a channel until setting someone else as the owner of that channel. You can do it via right side panel (Flex tab) and "Member list".
@@ -94,7 +102,7 @@ To insert emoji in a message, hit the emoji button to the right of the text inpu
 
 ### Emoji reactions
 
-You can also _react_ to a message with an emoji. 
+You can also _react_ to a message with an emoji.
 + On the **desktop** application: hover over a message, click on the gear icon (<img src="gear-icon.png" align="top" alt="gear icon" width="20"/>), click on the smiling face icon
 
 <img src="emoji-reaction.png" align="top" alt="How to choose an emoji reaction" height="50"/>
@@ -102,7 +110,7 @@ You can also _react_ to a message with an emoji.
 and choose an emoji.
 + On the **mobile** application: press and hold your finger on a message to bring up a menu, press `Reactions`, and choose an emoji.
 
-Then an emoji appears below the message: 
+Then an emoji appears below the message:
 
 <img src="emoji-reaction-result.png" align="top" alt="Example of an emoji reaction" height="75"/>
 

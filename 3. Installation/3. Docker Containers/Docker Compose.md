@@ -13,6 +13,12 @@ Start the mongodb server by:
 docker-compose up -d mongo
 ```
 
+The first time you start mongo, you'll also need to initialize it before being able to use Rocket.Chat. Ensure that mongo is in the running state, then:
+
+```
+docker-compose up -d mongo-init-replica
+```
+
 Mongo supports 24 x 7 operations and live backup.  You should not need to restart it too frequently.  See  [mongodb documentations](https://docs.mongodb.org/manual/) for proper operation and management of a mongo server.
 
 Once you're sure that mongodb is up and running:

@@ -28,7 +28,7 @@ proxy / localhost:3000 {
 
 Replace `http://:8080` with your site information.  For instance, let's say I have example-domain.com pointing at my server. To get secured communications, I can do:
 ```
-https://example-domain.com
+example-domain.com
 proxy / localhost:3000 {
   websocket
   transparent
@@ -71,15 +71,9 @@ This will enable SSL with an untrusted, self-signed certificate for testing purp
 For details on the Caddy TLS directive, visit https://caddyserver.com/docs/tls
 
 ## Redirecting HTTP to HTTPS
-If you'd like to redirect **http**://example-domain.com to **https**://example-domain.com, you can do:
+Redirecting is handled automatically by caddy by omitting the http / https in front.
 ```
-http://example-domain.com {
-	redir 301 {
-		/ https://{host}{uri}
-	}
-}
-
-https://example-domain.com {
+example-domain.com {
   proxy / localhost:3000 {
     websocket
     transparent
@@ -137,3 +131,9 @@ Remember to restart the Caddy service:
 ```
 sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
 ```
+
+## Opening ports when running Rocket.Chat server from behind router
+For Caddy to be able to work from behind a router, the following ports need to be opened between the internet and the server. This is usually achieved through router software or web-interface.
+
+- HTTP: port **80**
+- HTTPS: port **443**

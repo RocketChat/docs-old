@@ -2,8 +2,8 @@
 With IFrame auth you can use your own auth page and do the comunication with Rocket.Chat to manage users.
 
 ## How to login in Rocket.Chat with default account system while in development
-When you active the IFrame option you will not be able to access the default login page, maybe you will need to login with your normal account to manage the settings.
-You can do that openeing the Browser's Developer Console and executing this code:
+When you active the IFrame option you will not be able to access the default login page. Instead, you will need to login with your normal account to manage the settings.
+You can do that opening the Browser's Developer Console and executing this code:
 
 ```javascript
 Meteor.loginWithPassword('username-or-email', 'your-password');
@@ -11,7 +11,7 @@ Meteor.loginWithPassword('username-or-email', 'your-password');
 
 ## Configuring
 ### IFrame URL
-The URL of the page you whant to show as the login page of your Rocket.Chat instance  (this page can be created in any programming language and/or web frameworks).
+The URL of the page you want to show as the login page of your Rocket.Chat instance  (this page can be created in any programming language and/or web framework).
 
 ### API URL
 The URL that Rocket.Chat will call to verify if user is logged-in
@@ -21,7 +21,7 @@ The URL that Rocket.Chat will call to verify if user is logged-in
 	"token":"your-generated-token"
 }
 ```
-To do that you should directly access the Rocket.Chat MongoDB database (using a MongoDB library or driver with the programming language that you have created your login page with) and find/create the user record under the collection `users` set the `services.iframe.token` and return via your API.
+To do that, you should directly access the Rocket.Chat MongoDB database (using a MongoDB library or driver with the programming language that you have created your login page with) and find/create the user record under the collection `users` set the `services.iframe.token` and return via your API.
 * Or you can respond with native account token using **loginToken**:
 ```json
 {
@@ -117,7 +117,7 @@ The reply will be a postMessage back to your page with:
 }
 ```
 
-Or and error
+Or an error
 ```javascript
 {
   event: 'facebook-login-error',
@@ -153,7 +153,7 @@ The reply will be a postMessage back to your page with:
 }
 ```
 
-Or and error
+Or an error
 ```javascript
 {
   event: 'google-login-error',
@@ -181,7 +181,7 @@ The reply will be a postMessage back to your page with:
 }
 ```
 
-Or and error
+Or an error
 ```javascript
 {
   event: 'twitter-login-error',

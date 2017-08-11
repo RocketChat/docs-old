@@ -12,7 +12,7 @@ order: 1
 ```bash
 git clone https://github.com/RocketChat/Rocket.Chat.git
 cd Rocket.Chat
-meteor npm start
+npm start
 ```
 
 ## See Also

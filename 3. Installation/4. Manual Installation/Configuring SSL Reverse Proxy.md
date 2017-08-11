@@ -59,6 +59,30 @@ server {
 
 Restart Nginx: ```service nginx restart```
 
+## Running under Plesk Onyx behind Nginx
+
+Plesk Onyx has now a docker installation and Nginx proxy docker rule generator builtin, that doesn't support adding custom directives. Disable it and add the rules manually in the additional Nginx directives space. A scheme follows (replace 30000 with your external docker mapped port).
+
+```
+#manual extension docker with socket upgrade begin
+location ~ ^/.* {
+	proxy_pass http://0.0.0.0:3000;
+	proxy_set_header Host             $host;
+	proxy_set_header X-Real-IP        $remote_addr;
+	proxy_set_header X-Forwarded-For  $proxy_add_x_forwarded_for;
+
+	proxy_set_header Upgrade $http_upgrade;
+	proxy_set_header Connection "upgrade";
+	proxy_set_header X-Forward-Proto http;
+	proxy_set_header X-Nginx-Proxy true;
+	proxy_http_version 1.1;
+
+	proxy_redirect off;
+}
+
+#extension docker end
+```
+
 ## Running behind an Apache SSL Reverse Proxy
 
 **Note:** You must use the outside https address for the value at ```ROOT_URL``` in [[Section 3|Deploy-Rocket.Chat-without-docker#3-download-rocketchat]] above.  This includes the "https://" and leave off the port number.  So instead of ```ROOT_URL=http://localhost:3000``` use something like ```https://your_hostname.com```
@@ -133,13 +157,7 @@ Open `/etc/caddy/Caddyfile`
 Insert
 
 ```
-http://your_hostname.com {
-        redir 301 {
-                / https://{host}{uri}
-        }
-}
-
-https://your_hostname.com {
+your_domain.com {
         proxy / 127.0.0.1:3000 {
                 proxy_header X-Forwarded-Proto {scheme}
                 proxy_header X-Forwarded-For {host}

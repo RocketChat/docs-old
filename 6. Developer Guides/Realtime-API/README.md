@@ -4,7 +4,7 @@ order: 10
 
 # Realtime API
 
-__IMPORTANT!__ These docs are based on an unreleased version of the API. If you want to try it out, point your client to [http://demo.rocket.chat](http://demo.rocket.chat). You can also check out the code on Rocket.Chat's [experimental](https://github.com/RocketChat/Rocket.Chat/tree/experimental) branch.
+__IMPORTANT!__ These docs are based on an unreleased version of the API. If you want to try it out, point your client to __wss://demo.rocket.chat/websocket__.
 
 Our realtime API is composed of two elements: [Method Calls][1] and [Subscriptions][2]. Both of them are supported directly in the websocket connection.
 
@@ -24,5 +24,16 @@ The type of communication is defined according to the call:
 
  Please note, the server will send you "ping" and you must respond with "pong" otherwise the server will close the connection.
 
+Before requesting any method / subscription you have to send a connect message:
+```json
+{
+	"msg": "connect",
+	"version": "1",
+	"support": ["1"]
+}
+```
+
 [1]:1.%20Method%20Calls/
 [2]:2.%20Subscriptions/
+
+You can find a basic example script that uses the 'ddp' NodeJS package to subscribe to the Realtime-API stream of a Group/Channel here [https://github.com/jszaszvari/rocketchat-ddp-listener](https://github.com/jszaszvari/rocketchat-ddp-listener)

@@ -8,9 +8,95 @@ Final proposal submission is now officially closed.
 
 Our sincere thanks goes to every student who had worked hard in creating one of the SIXTY EIGHT proposals we have received across all projects.  We are totally surprised and flattered as a first year GSoC participating organization.
 
-On May 4th, 2017 Google will officially announce the accepted students and projects. In the mean time, students are encourage to continue to interact with their mentors and learn best practices on becoming an open source Rocket.Chat team member.
+The official list of accepted students and projects is now available directly from Google:
+
+https://summerofcode.withgoogle.com/organizations/6368590472151040/
+
+Out of the SIXTY EIGHT proposals we received, we have painstakingly selected a short list of NINE outstanding ones.  We have personally met (video conferenced) with every one of the students behind these NINE proposals during the last few weeks.
+
+Google has incredibly sponsored FOUR out of the NINE students (first year organization typically gets 1 or 2 students/projects only). Thank you, Google GSoC 2017 !
+
+The FOUR Google sponsored students and projects for GSoC 2017 are:
+
+ Student             | Project                                  | Mentor(s) 
+:------------------- | :--------------------------------------- | :--------------------------------
+Naman Gupta          | To Create a PWA Client                   | Karl Prieb, Guilherme Gazzo 
+Lucas Woo            | Rocket.Chat iOS SDK                      | Rafael Kellermann Streit, Rodrigo Nascimento
+Pradeep Kumar        | Integrated Personal Email Gateway        | Rodrigo Nascimento, Diego Sampaio
+Mrinal Dhar          | E2E encryption with Signal protocol      |   Marcelo Schmidt, Marius
+
+Team bonding and familiarization activities have started  between mentors and the selected students.
+
+We have contacted the FIVE other students to discuss potential Rocket.Chat sponsorships.  One student happily reported that he has already been selected by another GSoC 2017 mentoring organization.  Another did not reply to any of our offers and queries before the deadline. THREE other students have accepted Rocket.Chat sponsorship and are currently working diligently with their mentors. 
+
+The THREE Rocket.Chat sponsored students and projects for 2017 are:
+
+ Student             | Project                                  | Mentor(s) 
+:------------------- | :--------------------------------------- | :--------------------------------
+Karan Batra          | Automatic Channels                       | Mitar, Rodrigo Nascimento
+Sachin Shinde        | Rocket.Chat Android SDK                  | Rafael Kellermann Streit
+Manish Kakoti        | Federation Server                        | Gabriel Engel, Sing Li, Matthew Hodgson
 
 Please keep monitoring this page for the latest Rocket.Chat GSoC 2017 updates.
+
+## Coding has started
+
+June is finally upon us.  All of our GSoC students who have had prior apprenticeship or other engagements are now free of their obligations, and have started to code for Rocket.Chat full time.  The _commmunity bonding_ period has come and gone smoothly, with the mingling between our students and the core team on the 24 x 7 community chat server, on GitHub, via email, or at our weekly scheduled team video-conference.   Many of our students have also made friends with our extended community - helping them and exchanging ideas for their projects.
+
+In fact, due to their overwhelming enthusiasm, most of our GSoC students have started coding even before the beginning of June. Here are some of the most recent contributions (of many!) to Rocket.Chat by our new team of GSoC recruits:
+
+Manish Kakoti:
+https://github.com/RocketChat/Rocket.Chat.Federation/pull/5
+
+Karan Batra:
+https://github.com/RocketChat/Rocket.Chat/pull/7137
+
+Lucas Woo:
+https://github.com/RocketChat/Rocket.Chat.iOS/pull/438
+
+Naman Gupta:
+https://github.com/RocketChat/Rocket.Chat.PWA/pull/12
+
+Pradeep Kumar:
+https://github.com/RocketChat/Rocket.Chat/pull/7088
+
+Congratulations to the new team members, and keep up the great work!  We are all looking forward to the first evaluation milestone at the end of June.
+
+## Creating open source citizens
+
+July is in full swing.  First evaluation has completed and we're working towards our end-of-July milestone.
+
+We are happy to report that all *seven* of our students have passed their first evaluation.  Most are making very good pace on their projects, with some close to completion and in planning phase for extensions. We are also keeping a keen eye out on potential candidate(s) for full-time hire at end of their term.
+
+The following are the Rocket.Chat projects that our new team members are working on. Contribution and participation are welcomed immediately from the greater Rocket.Chat community:
+
+* [iOS SDK](https://github.com/RocketChat/Rocket.Chat.iOS.SDK)
+* [Android SDK](https://github.com/RocketChat/Rocket.Chat.Android.SDK)
+* [Java SDK](https://github.com/RocketChat/Rocket.Chat.Java.SDK)
+* [PWA](https://github.com/RocketChat/Rocket.Chat.PWA)
+* [Federation](https://github.com/RocketChat/Rocket.Chat.Federation/tree/tsmatrixlib/tsmatrixserverlib)
+
+After the evaulation, we have made sure that they all have received the first stipend payment - especially the students under Rocket.Chat's sponsorship.  
+
+Working with a publicity company, we have been creating open source "hero stories" profiling every one of our new summer-term team members.  Many of them have already been featured on our Blog:
+
+* [Mrinal Dhar](https://rocket.chat/blog/mrinal-dhar-developing-end-to-end-encryption-with-signal-protocol)
+* [Manish Kakoti](https://rocket.chat/blog/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation)
+* [Pradeep Kumar](https://rocket.chat/blog/pradeep-kumar-bridging-the-email-and-rocketchat-divide-with-personal-email-gateway)
+* [Sachin Shinde](https://rocket.chat/blog/sachin-shinde-add-rocketchat-to-any-app-with-mobile-sdk)
+* [Naman Gupta](https://rocket.chat/blog/naman-gupta-smaller-faster-and-more-bandwidthefficient-client-with-pwa)
+
+In July, along with continued technical progress, we are focusing to help the student in development of their open source citizenship skills - something hopefully useful beyond their GSoC terms with us.  
+
+This will include activities in:
+
+* promoting their open source project
+* build and nurture a community around their project
+* interaction with internal and external open source team members
+
+Over the next two months, guided by their mentor(s) - each student will be giving a presentation on their project to the larger Rocket.Chat team.
+
+We continue to be extremely optimistic going into the critical mid-term evaluation in late July.
 
 ## Ideas
 

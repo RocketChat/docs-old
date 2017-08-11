@@ -111,7 +111,13 @@ parties  0.004GB
 > exit
 ```
 
-#### 3. Use `mongorestore` to restore your backup data back into your snap database
+#### 3. Shutdown Rocket.Chat
+Before you start to restore make sure Rocket.Chat isn't running.
+```
+sudo service snap.rocketchat-server.rocketchat-server stop
+```
+
+#### 4. Use `mongorestore` to restore your backup data back into your snap database
 #### Important: before proceeding, consult https://docs.mongodb.com/manual/reference/program/mongorestore/ to learn about additional options and the non-overwriting behavior of `mongorestore` when the target database already exists.
 
 ##### Please note: at the time of writing, mongorestore required openssl version 1.0.2 specifically. If you see an error like this - `(...) version 'OPENSSL_1.0.2' not found (required by /snap/rocketchat-server/current/bin/mongorestore)` - simply install the required openssl version to continue.
@@ -122,7 +128,7 @@ sudo /snap/rocketchat-server/current/bin/mongorestore --db parties \
 ~/backup_data/var/snap/rocketchat-server/<version>/dump/parties/
 ```
 
-#### 4. Restart your services
+#### 5. Restart your services
 ```
 sudo service snap.rocketchat-server.rocketchat-mongo  restart
 sudo service snap.rocketchat-server.rocketchat-server restart

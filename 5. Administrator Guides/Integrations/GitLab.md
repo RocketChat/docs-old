@@ -14,15 +14,16 @@ Paste this in javascript in the "Script" text area on Rocket.Chat webhook settin
 // see https://gitlab.com/help/web_hooks/web_hooks for full json posted by GitLab
 const MENTION_ALL_ALLOWED = false; // <- check that bot permission allow has mention-all before passing this to true.
 const NOTIF_COLOR = '#6498CC';
+const IGNORE_CONFIDENTIAL = true;
 const refParser = (ref) => ref.replace(/^refs\/(?:tags|heads)\/(.+)$/, '$1');
 const displayName = (name) => (name && name.toLowerCase().replace(/\s+/g, '.'));
 const atName = (user) => (user && user.name ? '@' + displayName(user.name) : '');
-const makeAttachment = (author, text) => {
+const makeAttachment = (author, text, color) => {
 	return {
 		author_name: author ? displayName(author.name) : '',
 		author_icon: author ? author.avatar_url : '',
 		text,
-		color: NOTIF_COLOR
+		color: color || NOTIF_COLOR
 	};
 };
 const pushUniq = (array, val) => ~array.indexOf(val) || array.push(val); // eslint-disable-line
@@ -43,8 +44,9 @@ class Script { // eslint-disable-line
 				case 'Note Hook':
 					result = this.commentEvent(request.content);
 					break;
+				case 'Confidential Issue Hook':
 				case 'Issue Hook':
-					result = this.issueEvent(request.content);
+					result = this.issueEvent(request.content, event);
 					break;
 				case 'Tag Push Hook':
 					result = this.tagEvent(request.content);
@@ -52,8 +54,14 @@ class Script { // eslint-disable-line
 				case 'Pipeline Hook':
 					result = this.pipelineEvent(request.content);
 					break;
-				case 'Build Hook':
+				case 'Build Hook': // GitLab < 9.3
 					result = this.buildEvent(request.content);
+					break;
+				case 'Job Hook': // GitLab >= 9.3.0
+					result = this.buildEvent(request.content);
+					break;
+				case 'Wiki Page Hook':
+					result = this.wikiEvent(request.content);
 					break;
 				default:
 					result = this.unknownEvent(request, event);
@@ -100,7 +108,11 @@ class Script { // eslint-disable-line
 			}
 		};
 	}
-	issueEvent(data) {
+	issueEvent(data, event) {
+		if (event === 'Confidential Issue Hook' && IGNORE_CONFIDENTIAL) {
+			return false;
+		}
+		const project = data.project || data.repository;
 		const state = data.object_attributes.state;
 		const action = data.object_attributes.action;
 		let user_action = state;
@@ -116,12 +128,12 @@ class Script { // eslint-disable-line
 
 		return {
 			content: {
-				username: 'gitlab/' + data.project.name,
-				icon_url: data.project.avatar_url || data.user.avatar_url || '',
+				username: 'gitlab/' + project.name,
+				icon_url: project.avatar_url || data.user.avatar_url || '',
 				text: (data.assignee && data.assignee.name !== data.user.name) ? atName(data.assignee) : '',
 				attachments: [
 					makeAttachment(
-						data.user, `${user_action} an issue _${data.object_attributes.title}_ on ${data.project.name}.
+						data.user, `${user_action} an issue _${data.object_attributes.title}_ on ${project.name}.
 *Description:* ${data.object_attributes.description}.
 ${assigned}
 See: ${data.object_attributes.url}`
@@ -132,6 +144,7 @@ See: ${data.object_attributes.url}`
 	}
 
 	commentEvent(data) {
+		const project = data.project || data.repository;
 		const comment = data.object_attributes;
 		const user = data.user;
 		const at = [];
@@ -162,8 +175,8 @@ See: ${data.object_attributes.url}`
 		}
 		return {
 			content: {
-				username: 'gitlab/' + data.project.name,
-				icon_url: data.project.avatar_url || user.avatar_url || '',
+				username: 'gitlab/' + project.name,
+				icon_url: project.avatar_url || user.avatar_url || '',
 				text: at.join(' '),
 				attachments: [
 					makeAttachment(user, `${text}\n${comment.note}`)
@@ -202,7 +215,8 @@ See: ${data.object_attributes.url}`
 	}
 
 	pushEvent(data) {
-		const project = data.project;
+		const project = data.project || data.repository;
+		const web_url = project.web_url || project.homepage;
 		const user = {
 			name: data.user_name,
 			avatar_url: data.user_avatar
@@ -214,7 +228,7 @@ See: ${data.object_attributes.url}`
 					username: `gitlab/${project.name}`,
 					icon_url: project.avatar_url || data.user_avatar || '',
 					attachments: [
-						makeAttachment(user, `removed branch ${refParser(data.ref)} from [${project.name}](${project.web_url})`)
+						makeAttachment(user, `removed branch ${refParser(data.ref)} from [${project.name}](${web_url})`)
 					]
 				}
 			};
@@ -226,7 +240,7 @@ See: ${data.object_attributes.url}`
 					username: `gitlab/${project.name}`,
 					icon_url: project.avatar_url || data.user_avatar || '',
 					attachments: [
-						makeAttachment(user, `pushed new branch [${refParser(data.ref)}](${project.web_url}/commits/${refParser(data.ref)}) to [${project.name}](${project.web_url}), which is ${data.total_commits_count} commits ahead of master`)
+						makeAttachment(user, `pushed new branch [${refParser(data.ref)}](${web_url}/commits/${refParser(data.ref)}) to [${project.name}](${web_url}), which is ${data.total_commits_count} commits ahead of master`)
 					]
 				}
 			};
@@ -236,7 +250,7 @@ See: ${data.object_attributes.url}`
 				username: `gitlab/${project.name}`,
 				icon_url: project.avatar_url || data.user_avatar || '',
 				attachments: [
-					makeAttachment(user, `pushed ${data.total_commits_count} commits to branch [${refParser(data.ref)}](${project.web_url}/commits/${refParser(data.ref)}) in [${project.name}](${project.web_url})`),
+					makeAttachment(user, `pushed ${data.total_commits_count} commits to branch [${refParser(data.ref)}](${web_url}/commits/${refParser(data.ref)}) in [${project.name}](${web_url})`),
 					{
 						text: data.commits.map((commit) => `  - ${new Date(commit.timestamp).toUTCString()} [${commit.id.slice(0, 8)}](${commit.url}) by ${commit.author.name}: ${commit.message.replace(/\s*$/, '')}`).join('\n'),
 						color: NOTIF_COLOR
@@ -247,6 +261,8 @@ See: ${data.object_attributes.url}`
 	}
 
 	tagEvent(data) {
+		const project = data.project || data.repository;
+		const web_url = project.web_url || project.homepage;
 		const tag = refParser(data.ref);
 		const user = {
 			name: data.user_name,
@@ -254,14 +270,14 @@ See: ${data.object_attributes.url}`
 		};
 		let message;
 		if (data.checkout_sha === null) {
-			message = `deleted tag [${tag}](${data.project.web_url}/tags/)`;
+			message = `deleted tag [${tag}](${web_url}/tags/)`;
 		} else {
-			message = `pushed tag [${tag} ${data.checkout_sha.slice(0, 8)}](${data.project.web_url}/tags/${tag})`;
+			message = `pushed tag [${tag} ${data.checkout_sha.slice(0, 8)}](${web_url}/tags/${tag})`;
 		}
 		return {
 			content: {
-				username: `gitlab/${data.project.name}`,
-				icon_url: data.project.avatar_url || data.user_avatar || '',
+				username: `gitlab/${project.name}`,
+				icon_url: project.avatar_url || data.user_avatar || '',
 				text: MENTION_ALL_ALLOWED ? '@all' : '',
 				attachments: [
 					makeAttachment(user, message)
@@ -270,7 +286,27 @@ See: ${data.object_attributes.url}`
 		};
 	}
 
+	createColor(status) {
+		switch (status) {
+			case 'success':
+				return '#2faa60';
+			case 'pending':
+				return '#e75e40';
+			case 'failed':
+				return '#d22852';
+			case 'canceled':
+				return '#5c5c5c';
+			case 'created':
+				return '#ffc107';
+			case 'running':
+				return '#607d8b';
+			default:
+				return null;
+		}
+	}
+
 	pipelineEvent(data) {
+		const project = data.project || data.repository;
 		const commit = data.commit;
 		const user = {
 			name: data.user_name,
@@ -280,10 +316,10 @@ See: ${data.object_attributes.url}`
 
 		return {
 			content: {
-				username: `gitlab/${data.project.name}`,
-				icon_url: data.project.avatar_url || data.user_avatar || '',
+				username: `gitlab/${project.name}`,
+				icon_url: project.avatar_url || data.user_avatar || '',
 				attachments: [
-					makeAttachment(user, `pipeline returned *${pipeline.status}* for commit [${commit.id.slice(0, 8)}](${commit.url}) made by *${commit.author.name}*`)
+					makeAttachment(user, `pipeline returned *${pipeline.status}* for commit [${commit.id.slice(0, 8)}](${commit.url}) made by *${commit.author.name}*`, this.createColor(pipeline.status))
 				]
 			}
 		};
@@ -300,14 +336,48 @@ See: ${data.object_attributes.url}`
 				username: `gitlab/${data.repository.name}`,
 				icon_url: '',
 				attachments: [
-					makeAttachment(user, `build named *${data.build_name}* returned *${data.build_status}* for [${data.project_name}](${data.repository.homepage})`)
+					makeAttachment(user, `build named *${data.build_name}* returned *${data.build_status}* for [${data.project_name}](${data.repository.homepage})`, this.createColor(data.build_status))
 				]
 			}
 		};
 	}
-}
 
+	wikiPageTitle(wiki_page) {
+		if (wiki_page.action === 'delete') {
+			return wiki_page.title;
+		}
+
+		return `[${wiki_page.title}](${wiki_page.url})`;
+	}
+
+	wikiEvent(data) {
+		const user_name = data.user.name;
+		const project = data.project;
+		const project_path = project.path_with_namespace;
+		const wiki_page = data.object_attributes;
+		const wiki_page_title = this.wikiPageTitle(wiki_page);
+		const action = wiki_page.action;
+
+		let user_action = 'modified';
+
+		if (action === 'create') {
+			user_action = 'created';
+		} else if (action === 'update') {
+			user_action = 'edited';
+		} else if (action === 'delete') {
+			user_action = 'deleted';
+		}
+
+		return {
+			content: {
+				username: project_path,
+				icon_url: project.avatar_url || data.user.avatar_url || '',
+				text: `The wiki page ${wiki_page_title} was ${user_action} by ${user_name}`
+			}
+		};
+	}
+}
 ```
-This example contains code for Push hook & Issue hook. It can easily be extended with more. Source: https://github.com/malko/rocketchat-gitlab-hook.
+This example contains code for several hooks. It can easily be extended with more. Source: https://github.com/malko/rocketchat-gitlab-hook.
 
 Gitlab webhook help: https://gitlab.com/help/web_hooks/web_hooks

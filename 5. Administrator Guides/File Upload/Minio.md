@@ -36,11 +36,13 @@ To setup Minio as the file storage server in Rocket.Chat, go to `File Uploads` s
 
 | Configuration Name | Description |
 | ------------------ | ------------- |
-| Amazon S3 bucket name | Minio Bucket Name |
-| Amazon S3 AWSAccessKeyId | Minio server Access Key |
-| Amazon S3 AWSSecretAccessKey | Minio server Secret Access Key |
-| Amazon Region |  us-east-1 |
+| Bucket name | Minio Bucket Name |
+| Access Key | Minio server Access Key |
+| Secret Key | Minio server Secret Access Key |
+| Region |  us-east-1 |
 | Bucket URL | http://[your.minio.domain/bucketname] |
+| Signature Version | v2 (This may not be needed if using ssl) |
+| Force Path Style | true (this may not be needed if using ssl) |
 | URLs expiration time | 0 (if you want that your files don't have an expiry date) |
 
 ### Production setup
@@ -48,3 +50,5 @@ To setup Minio as the file storage server in Rocket.Chat, go to `File Uploads` s
 In production you can use a reverse proxy with Minio server. Check out the documentation for [Nginx](https://docs.minio.io/docs/setup-nginx-proxy-with-minio#main), [Apache](https://docs.minio.io/docs/setup-apache-http-proxy-with-minio-server) and [Apache2](https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension).
 
 You can secure access to Minio server with TLS. Check out the documentation [here](https://docs.minio.io/docs/how-to-secure-access-to-minio-server-with-tls).
+
+**Note** If you specify a different region in minio, make sure it is the same as an s3 region.  Full list of regions found [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions).

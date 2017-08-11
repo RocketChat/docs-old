@@ -12,7 +12,8 @@ Retrieves the information about the private group, only if you're part of the gr
 ## Query Parameters
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `roomId` | `ByehQjC44FwMeiLbX` | Required | The private group's id |
+| `roomId` | `ByehQjC44FwMeiLbX` | Required (if no roomName) | The private group's id |
+| `roomName` | `Exclusive.Chat` | Required (if no roomId) | The private group's name |
 
 ## Example Call
 ```bash

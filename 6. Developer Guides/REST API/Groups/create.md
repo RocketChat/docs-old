@@ -3,7 +3,7 @@ order: 15
 ---
 
 # Group Create
-Creates a new private group, optionally including users, only if you're part of the group.
+Creates a new private group, optionally including specified users. The group creator is always included.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -13,7 +13,7 @@ Creates a new private group, optionally including users, only if you're part of 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `name` | `testing` | Required | The name of the new private group |
-| `members` | `["rocket.cat"]` | Optional <br> Default: `[]` | The members who should be in the room when it is created. |
+| `members` | `["rocket.cat"]` | Optional <br> Default: `[]` | The users to add to the group when it is created. |
 
 ## Example Call
 ```bash
