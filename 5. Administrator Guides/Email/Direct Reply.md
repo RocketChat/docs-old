@@ -11,7 +11,7 @@ Enter:
  - your email server's host name (e.g. `imap.example.com` or `pop.example.com`)
  - the port (143 or 993 for IMAP and 110 or 995 for POP)
  - ignore TLS `true` if port 143 or 110
- - email check frequency if pop server (>=2)
+ - email check frequency (in minutes) if pop server (>=2)
  - your credentials (Username & password)
 
  Once filled, click "Save changes".
@@ -25,3 +25,7 @@ Enter:
 ![POP server configuration.](pop-1.png)
 
 Now you can reply chat messages via email. It supports full formating like inline, multiline, bold, italics etc.
+
+## Note
+As par now, emails only in **English** language are supported or atleast quote `On <date>, <author> wrote:` is in English.
+Email body in languages **other than English** may also work until and unless `On <date>, <author> wrote:` is in English or copy of **older email** is **removed** manually.
