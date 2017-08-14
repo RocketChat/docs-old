@@ -16,7 +16,12 @@ Enter:
 
  Once filled, click "Save changes".
 
+## Example Settings
+
+### IMAP Settings
 ![IMAP server configuration.](imap-1.png)
+
+### POP3 Settings
 ![POP server configuration.](pop-1.png)
 
 Now you can reply chat messages via email. It supports full formating like inline, multiline, bold, italics etc.
