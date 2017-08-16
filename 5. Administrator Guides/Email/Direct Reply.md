@@ -24,8 +24,11 @@ Enter:
 ### POP3 Settings
 ![POP server configuration.](pop-1.png)
 
+Make sure your **POP3** server **doesn't** keep **copy** of the emails, otherwise it would be treated as new message every time.
+
 Now you can reply chat messages via email. It supports full formating like inline, multiline, bold, italics etc.
 
 ## Note
-As par now, emails only in **English** language are supported or atleast quote `On <date>, <author> wrote:` is in English.
+- As par now, emails only in **English** language are supported or atleast quote `On <date>, <author> wrote:` is in English.
 Email body in languages **other than English** may also work until and unless `On <date>, <author> wrote:` is in English or copy of **older email** is **removed** manually.
+- Only **text** messages will be supported, attachments are not supported.
