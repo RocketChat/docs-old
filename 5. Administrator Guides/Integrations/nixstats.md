@@ -10,7 +10,7 @@ Add Nixstats notifications via a new WebHook in Rocket.Chat
 5. Go to nixstats.com -> Settings -> Notification Contacts -> Add (or Edit a contact) contact
 6. Paste the Rocket.Chat url you've copied in step 4
 
-Paste this in javascript in the "Script" textarea on Rocket.Chat webhook settings
+Paste this javascript in the "Script" textarea on Rocket.Chat webhook settings
 
 
 ```
@@ -70,7 +70,7 @@ Add Nixstats notifications via a new WebHook in Rocket.Chat
 6. **Token**, this is your nixstats API token, [create an API key](https://nixstats.com/settings/api).
 7. Script Enabled set to **True**
 
-Paste this in javascript in the "Script" textarea on Rocket.Chat webhook settings
+Paste this javascript in the "Script" textarea on Rocket.Chat webhook settings
 
 
 ```
