@@ -75,3 +75,8 @@ Not everyone follows this convention:
     **********************DISCLAIMER***********************************
     * Note: blah blah blah                                            *
     **********************DISCLAIMER***********************************
+    
+## Problem?
+Your message didn't posted? Or got `Invalid Email.` in Admin console?
+This most likely means that email format was not as we expected it to be.
+There is a possibility that you were blocked or message/room was deleted.
