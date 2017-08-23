@@ -33,6 +33,7 @@ Now you can reply chat messages via email. It supports full formating like inlin
 ### Switching from IMAP to POP
 - Before switching from IMAP to POP over **same** __email address__, you __must__ **empty all the folders**. Failing to delete all emails would result into **duplicate** messages, as all those messages in POP would be treated as new messages.
 
+## Note
 - As par now, emails only in **English** language are supported or atleast quote `On <date>, <author> wrote:` is in English.
 Email body in languages **other than English** may also work until and unless `On <date>, <author> wrote:` is in English or copy of **older email** is **removed** manually.
 - Only **text** messages will be supported, attachments are not supported yet.
