@@ -1,7 +1,32 @@
 # Searching Messages
 ## Introduction
 
-Rocket Chat search supports the use of "[regular expressions](https://en.wikipedia.org/wiki/Regular_expression)", the benefits of which are great search flexibility and the ability to search chat entries in any language, even ones which are traditionally a challenge for search (e.g. "CJK" languages - Chinese, Japanese, Korean). 
+Rocket Chat search supports basic search commands which work similar to Gmail search.
+
+Rocket Chat also supports the use of "[regular expressions](https://en.wikipedia.org/wiki/Regular_expression)", the benefits of which are great search flexibility and the ability to search chat entries in any language, even ones which are traditionally a challenge for search (e.g. "CJK" languages - Chinese, Japanese, Korean). 
+
+## Basic Search Commands
+
+You can use the following commands before or after entering your search term:
+
+`from:me` to search for messages only created by the current user.
+
+`from:user.name` to search for messages created by a specific user. The username entered must be the format without spaces (i.e. "john.doe" and not "John Doe". If you want to search for anytime a user was mentioned, simply search for their username.
+
+`has:star` returns messages that are starred by the current user.
+
+`is:pinned` or `has:pin` returns messages that are pinned in the current channel.
+
+`has:url` or `has:link` returns messages that contain a link.
+
+`has:location` or `has:map` returns messages that have a location attached
+
+`before:dd/mm/yyyy`, `after:dd/mm/yyyy` and `on:dd/mm/yyyy` return message that were created before, after or on the provided date.
+You can also use dashes `dd-mm-yyyy` or dots `dd.mm.yyyy` instead of slashes.
+
+`order:asc` sorts messages by ascending timestamp. You can also use `order:ascend` or `order:ascending`
+
+`order:desc` sorts messages by ascending timestamp. You can also use `order:descend` or `order:descending`.
 
 ## Basic Regex Examples
 
