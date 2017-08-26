@@ -1,6 +1,10 @@
 # Install and Run Rocket.Chat on OpenSUSE Leap 42.2
 
-_Last updated 2017-08-26_ using `nodejs4 v4.8.4` and `Rocket.Chat v0.58.2`
+
+_Last updated 2017-08-26_
+
+Node.js version: 4.8.4
+Rocket.Chat version: 0.58.2
 
 These are barebones instructions for how to set up a Rocket.Chat server on OpenSUSE Leap 42.2 using nginx as a reverse proxy. These will help you set up a system you can experiment with. **THEY ARE NOT INTENDED FOR SETUP OF A PRODUCTION SYSTEM!** They are oriented on using a VM from AWS, but should work for any Leap 42.2 system.
 
