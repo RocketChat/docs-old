@@ -3,7 +3,7 @@
 
 _Last updated 2017-08-26_
 
-Node.js version: 4.8.4
+Node.js version: 4.8.4<br>
 Rocket.Chat version: 0.58.2
 
 These are barebones instructions for how to set up a Rocket.Chat server on OpenSUSE Leap 42.2 using nginx as a reverse proxy. These will help you set up a system you can experiment with. **THEY ARE NOT INTENDED FOR SETUP OF A PRODUCTION SYSTEM!** They are oriented on using a VM from AWS, but should work for any Leap 42.2 system.
@@ -33,14 +33,14 @@ Things you'll need to do afterwards on your own, **especially if you want a prod
 * Configure email on the server (so Rocket can request account validation)
 * Secure the server (e.g. get rid of the default user on a VM, etc.)
 * Monitor the server so you can respond if it goes down
-** Rocket.Chat availability
-** MongoDB availability
-** nginx availability
+  * Rocket.Chat availability
+  * MongoDB availability
+  * nginx availability
 * Configure MongoDB for production use
-** Use an XFS volume
-** Use persistent (e.g. non-local) storage if you're using a VM
-** Configure replica sets
-** Consider setting /sys/kernel/mm/transparent_hugepage/enabled to "never" as recommended by Mongo at startup
+  * Use an XFS volume
+  * Use persistent (e.g. non-local) storage if you're using a VM
+  * Configure replica sets
+  * Consider setting /sys/kernel/mm/transparent_hugepage/enabled to "never" as recommended by Mongo at startup
 * Set up periodic updates for the system
 
 ## Acquire a VM with OpenSUSE Leap 42.2
@@ -144,10 +144,10 @@ cd /opt/letsencrypt && ./letsencrypt-auto certonly --standalone --email YOUR@EMA
 
 ### Configure and Start nginx
 
-* Set up a more modern site config management scheme
-* Set the base `nginx` config
-* Add the config needed for Rocket.Chat
-* Enable and start nginx
+1. Set up a more modern site config management scheme
+1. Set the base `nginx` config
+1. Add the config needed for Rocket.Chat
+1. Enable and start nginx
 
 ```
 cd /etc/nginx
@@ -157,7 +157,7 @@ mkdir sites-enabled sites-available
 Now do two things:
 
 1. Replace the contents of ``/etc/nginx.conf`` with the `nginx.conf` below.
-2. Copy the contents of `rocket_chat.conf` below to `/etc/nginx/sites-available/rocket_chat.conf`
+1. Copy the contents of `rocket_chat.conf` below to `/etc/nginx/sites-available/rocket_chat.conf`
 
 Now you can enable the Rocket.Chat config, then enable and start nginx
 
@@ -171,11 +171,11 @@ systemctl start nginx
 
 ### Install and Configure Rocket.Chat
 
-* Add a `rocket` user and group
-* Download the latest Rocket.Chat
-* Install all the node.js dependencies for Rocket.Chat using `npm`
-* Set the required environment variables
-* Start the Rocket.Chat server
+1. Add a `rocket` user and group
+1. Download the latest Rocket.Chat
+1. Install all the node.js dependencies for Rocket.Chat using `npm`
+1. Set the required environment variables
+1. Start the Rocket.Chat server
 
 Replace `YOUR.SERVER.NAME` below with the hostname your server will be accessed from, e.g. `chat.example.com`
 
