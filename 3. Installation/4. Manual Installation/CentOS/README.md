@@ -44,10 +44,10 @@ Now that we have Node.js and npm installed, we need to install a few more depend
 npm install -g inherits n
 ```
 
-Rocket.Chat needs Node.js version `4.5` using n we are going to install that version:
+The recommended Node.js version for using Rocket.Chat is `4.8.4`. Using _n_ we are going to install that version:
 
 ```
-n 4.5
+n 4.8.4
 ```
 
 ### Installing Rocket.Chat
