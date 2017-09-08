@@ -93,7 +93,7 @@ mkdir dump
 Create a `docker-compose.yml` file with the following content:
 
 ```
-db:
+mongo:
   image: mongo
   volumes:
     - $PWD/data:/data/db
@@ -102,7 +102,7 @@ db:
 web:
   image: rocketchat/rocket.chat
   environment:
-    - MONGO_URL=mongodb://db:27017/meteor
+    - MONGO_URL=mongodb://mongo:27017/rocketchat
     - ROOT_URL=http://your-ip-address:8818
   links:
     - db:db
