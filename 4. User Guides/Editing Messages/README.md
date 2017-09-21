@@ -53,3 +53,9 @@ Various emoji shortcuts exists to display popular text representations as graphi
 Graphical emojis can be enabled/disabled in [Your Account](../managing-your-account/) settings under the **Messages** section.
 
 When graphical emojis are disabled, emoji keywords and shortcuts will be displayed as is  e.g. `:smile:` or `:)`.
+
+## Sending audio recordings
+
+You can send audio recordings by clicking on the microphone icon on the right of the compose message box, which will start recording audio and replace the microphone icon with a square "stop" icon. 
+
+To end the recording, click the "stop" icon, which will display a window where you can listen to and download the recording, name it and give it an optional description. Click the "send" button to send the recording or the "cancel" button to discard the recording.
