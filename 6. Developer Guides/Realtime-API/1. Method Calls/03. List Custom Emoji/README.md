@@ -39,3 +39,26 @@ Response:
     ]
 }
 ```
+
+## Showing the emoji image
+
+To show the custom emoji images, you simple need to request this URL:
+
+> ${ path }/emoji-custom/${ encoded(name) } }.${ extension }.
+
+Example:
+
+```json
+{
+    "_id": "emoji-id",
+    "name": "Emoji Name",
+    "aliases": [ "emoji-alias" ],
+    "extension": "png",
+    "_updatedAt": { "$date": 1480377601 }
+}
+```
+
+The URL to access this emoji will be:
+
+> http://yourhost.com/emoji-custom/Emoji%20Name.png
+
