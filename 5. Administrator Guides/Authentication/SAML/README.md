@@ -50,3 +50,12 @@ Copy the XML on this page, open the metadata converter page in your SimpleSAMLph
 Copy the resulting PHP output to the file in your SimpleSAMLphp installation under metadata: `/metadata/saml20-sp-remote.php`
 
 You should now see your SP on the SimpleSAMLphp Federation page, listed as a trusted SAML 2.0 SP at: `module.php/core/frontpage_federation.php`
+
+## IdP Attribute Mapping
+The following attribute are required when returning the user information to Rocket Chat:
+
+| Idp Returned Attribute Name | Usage |
+| ------ | ------ |
+| cn | User's Full Name |
+| email | User's Email Address |
+| username | User's username |
