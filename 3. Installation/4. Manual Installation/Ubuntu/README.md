@@ -3,9 +3,9 @@
 ## Recommended Fastest Server Install via Snaps
 
 
-This is the easiest way for you to get your server up and running on all supported Linux (Ubuntu, etc).  
+This is the easiest way for you to get your server up and running on all supported Linux (Ubuntu, etc).
 
-Installing using: 
+Installing using:
 
 ```
 sudo snap install rocketchat-server
@@ -65,10 +65,10 @@ Install a tool to let us change the node version.
 sudo npm install -g n
 ```
 
-Rocket.Chat needs Node.js version 4.5
+The recommended Node.js version for using Rocket.Chat is `4.8.4`. Using _n_ we are going to install that version:
 
 ```bash
-sudo n 4.5
+sudo n 4.8.4
 ```
 
 More on [nodejs installation](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server)

@@ -94,5 +94,3 @@ Set or change your avatar for a Rocket.Chat server using one of the options:
 ## Security
 
 Enable or disable Two Factor Authentication (2FA) for your account on a Rocket.Chat server.
-
-**WARNING**: Once you enable 2FA, you will not be able to login using the native mobile apps (Rocket.Chat+) using your password until 2FA is implemented.
