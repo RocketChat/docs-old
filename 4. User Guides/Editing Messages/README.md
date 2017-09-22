@@ -67,3 +67,11 @@ Rocket.Chat currently does not have support to send multiple attachments at once
 You can send audio recordings by clicking on the microphone icon on the right of the compose message box, which will start recording audio and replace the microphone icon with a square "stop" icon. 
 
 To end the recording, click the "stop" icon, which will display a window where you can listen to and download the recording, name it and give it an optional description. Click the "send" button to send the recording or the "cancel" button to discard the recording.
+
+## Sending video recordings
+
+You can send video recordings by clicking on the video camera icon on the right of the compose message box, which will display a live camera preview and recording controls.
+
+To start recording click the circle icon, when recording starts the icon will be replaced with a square "stop" icon. To end the video recording, click the "stop" icon.
+
+To preview and send your last video recorded, click the "ok" button, which will display a window where you can watch and download the video, name it and give it an optional description. Click the "send" button to send the video or the "cancel" button to discard the video recording.
