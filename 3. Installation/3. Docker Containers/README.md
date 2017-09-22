@@ -256,7 +256,7 @@ sudo nano /var/www/rocket.chat/docker-compose.yml
 ```
 
 ```
-mongo:
+db:
   image: mongo
   volumes:
     - ./data/runtime/db:/data/db
@@ -266,7 +266,7 @@ mongo:
 rocketchat:
   image: rocketchat/rocket.chat:latest
   environment:
-    - MONGO_URL=mongodb://mongo:27017/rocketchat
+    - MONGO_URL=mongodb://db:27017/rocketchat
     - ROOT_URL=https://chat.inumio.com
     - Accounts_UseDNSDomainCheck=True
   links:

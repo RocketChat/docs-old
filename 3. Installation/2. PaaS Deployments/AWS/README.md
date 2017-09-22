@@ -158,7 +158,7 @@ This guide covers the following:
 2. Create docker-compose.yml, **replacing the ROOT_URL of ABC.DOMAIN.COM with your site**
   `sudo nano /var/www/rocket.chat/docker-compose.yml`
    ```
-   mongo:
+   db:
      image: mongo:3.0
      volumes:
        - ./data/runtime/db:/data/db
@@ -168,7 +168,7 @@ This guide covers the following:
    rocketchat:
      image: rocketchat/rocket.chat:latest
      environment:
-       - MONGO_URL=mongodb://mongo:27017/rocketchat
+       - MONGO_URL=mongodb://db:27017/rocketchat
        - ROOT_URL=https://<ABC.DOMAIN.COM>
      links:
        - db:db
