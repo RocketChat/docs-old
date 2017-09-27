@@ -6,7 +6,7 @@ order: 6
 
 The REST API allows you to control and extend Rocket.Chat with ease.
 
-> **This API is in BETA, however feel free to test, ask us questions, and submit Pull Requests!**
+> **This API is a work in progress, so feel free to test, ask us questions, and submit Pull Requests!**
 
 If you are an end-user and not a dev or a tester, [create an issue](https://github.com/RocketChat/Rocket.Chat/issues/new) to request new APIs -- and consider [make a donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZL94ZE6LGVUSN) to the project.
 
@@ -96,8 +96,14 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 ### Chat
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
-| `/api/v1/chat.delete` | Deletes a chat message. | [Link](Chat/delete.md) |
+| `/api/v1/chat.delete` | Deletes an existing chat message. | [Link](Chat/delete.md) |
+| `/api/v1/chat.getMessage` | Retrieves a single chat message. | [Link](Chat/getMessage.md) |
+| `/api/v1/chat.pinMessage` | Pins a chat message to the message's channel. | [Link](Chat/pinMessage.md) |
 | `/api/v1/chat.postMessage` | Posts a new chat message. | [Link](Chat/postMessage.md) |
+| `/api/v1/chat.react` | Sets/unsets the user's reaction to an existing chat message. | [Link](Chat/react.md) |
+| `/api/v1/chat.starMessage` | Stars a chat message for the authenticated user. | [Link](Chat/starMessage.md) |
+| `/api/v1/chat.unPinMessage` | Removes the pinned status of the provided chat message. | [Link](Chat/unPinMessage.md) |
+| `/api/v1/chat.unStarMessage` | Removes the star on the chat message for the authenticated user. | [Link](Chat/unStarMessage.md) |
 | `/api/v1/chat.update` | Updates the text of the chat message. | [Link](Chat/update.md) |
 
 ### IM
