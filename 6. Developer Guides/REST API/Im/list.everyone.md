@@ -3,7 +3,7 @@ order: 20
 ---
 
 # IM List Everyone
-Lists all of the direct messages in the server, requires the permission `view-room-administration` permission and this method supports the [Offset and Count Query Parameters](../Offset%20and%20Count%20Info.md).
+Lists all of the direct messages in the server, requires the permission `view-room-administration` permission. It supports the [Offset, Count, and Sort Query Parameters](../Offset%20and%20Count%20and%20Sort%20Info.md) along with [Query and Fields Query Parameters](../Query%20and%20Fields%20Info.md).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
