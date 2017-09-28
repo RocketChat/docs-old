@@ -1,15 +1,18 @@
 # Getting Support
 
 ## Community support
+
 We have a great community that likes to give back.
 
 Some great places to ask your questions:
+
 * Stack Overflow [Rocket.Chat Tag](https://stackoverflow.com/questions/tagged/rocket.chat)
 * [Server Fault](https://serverfault.com/search?q=Rocket.Chat)
 
 Our community also often hangs out on our [community server](https://demo.rocket.chat).
 
 Some of the channels to get help:
+
 * [\#support](https://demo.rocket.chat/channel/support) channel for help with general Rocket.Chat
 * [\#ubuntu-snap](https://demo.rocket.chat/channel/ubuntu-snap) channel for help with snap installs
 * [\#desktop](https://demo.rocket.chat/channel/desktop) channel for help with the desktop client
