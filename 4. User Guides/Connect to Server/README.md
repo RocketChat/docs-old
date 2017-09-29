@@ -8,6 +8,11 @@ To connect to a Rocket.Chat server through a web browser you need to enter its a
 
 If it is a valid Rocket.Chat server address you will then be presented with the [registration](../registration/]) and [login](../login/) page if unauthenticated or taken to the server's homepage if authenticated.
 
+## Rocket.Chat does not load through browser
+
+While is rare situation, sometimes you could see only loading animation, and this means you Browser too old or you disabled something in the browser like IndexedDB.
+You can activate IndexedDB back by setting - `dom.indexedDB.enabled` in `true` in Firefox.
+
 ## Through a Rocket.Chat client application
 
 To connect to a Rocket.Chat server using a client application you first need to download one of the [many client applications](https://rocket.chat/download).
