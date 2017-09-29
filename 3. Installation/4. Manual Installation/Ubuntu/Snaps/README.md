@@ -18,7 +18,7 @@ sudo apt-get install snapd
 
 
 ## FAQ
-If you have questions about snaps best place to ask them is in: [#ubuntu-snap](https://demo.rocket.chat/channel/ubuntu-snap)
+If you have questions about snaps best place to ask them is in: [#ubuntu-snap](https://open.rocket.chat/channel/ubuntu-snap)
 
 ### How do I access my site at a different port?  How do I enable TLS/SSL with my snap?
 

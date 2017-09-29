@@ -1,6 +1,6 @@
 # Custom Themes
 
-Theming for Rocket.Chat is an incomplete feature and we encourage developers to contribute to [this issue](https://github.com/RocketChat/Rocket.Chat/issues/277). We'd love to hear from anyone working on themes in the [#skins-and-theming](https://demo.rocket.chat/channel/skins-and-theming) group channel.
+Theming for Rocket.Chat is an incomplete feature and we encourage developers to contribute to [this issue](https://github.com/RocketChat/Rocket.Chat/issues/277). We'd love to hear from anyone working on themes in the [#skins-and-theming](https://open.rocket.chat/channel/skins-and-theming) group channel.
 
 To customize the Rocket.Chat UI you can either modify the `rocketchat-theme` or `rocketchat-ui` packages directly, but if you're keeping in sync with active development it would be easier to avoid conflicts by creating your own theme package.
 

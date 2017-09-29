@@ -7,14 +7,14 @@ Some great places to ask your questions:
 * Stack Overflow [Rocket.Chat Tag](https://stackoverflow.com/questions/tagged/rocket.chat)
 * [Server Fault](https://serverfault.com/search?q=Rocket.Chat)
 
-Our community also often hangs out on our [community server](https://demo.rocket.chat).
+Our community also often hangs out on our [community server](https://open.rocket.chat).
 
 Some of the channels to get help:
-* [\#support](https://demo.rocket.chat/channel/support) channel for help with general Rocket.Chat
-* [\#ubuntu-snap](https://demo.rocket.chat/channel/ubuntu-snap) channel for help with snap installs
-* [\#desktop](https://demo.rocket.chat/channel/desktop) channel for help with the desktop client
-* [\#hubot](https://demo.rocket.chat/channel/hubot) channel for help with hubot scripting
-* [\#dev](https://demo.rocket.chat/channel/dev) channel for developers needing help developing new features
+* [\#support](https://open.rocket.chat/channel/support) channel for help with general Rocket.Chat
+* [\#ubuntu-snap](https://open.rocket.chat/channel/ubuntu-snap) channel for help with snap installs
+* [\#desktop](https://open.rocket.chat/channel/desktop) channel for help with the desktop client
+* [\#hubot](https://open.rocket.chat/channel/hubot) channel for help with hubot scripting
+* [\#dev](https://open.rocket.chat/channel/dev) channel for developers needing help developing new features
 
 
 Remember to have a little patience. Support is provided by other members of the community like you in their free time.

@@ -2,7 +2,7 @@
 
 ## How to apply
 
-For general information, please visit our community server Google Summer of Code 2017 discussion group:    https://demo.rocket.chat/channel/gsoc17
+For general information, please visit our community server Google Summer of Code 2017 discussion group:    https://open.rocket.chat/channel/gsoc17
 
 Final proposal submission is now officially closed.  
 
