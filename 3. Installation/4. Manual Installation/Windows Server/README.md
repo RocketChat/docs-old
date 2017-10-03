@@ -1,7 +1,7 @@
 # Rocket.Chat Windows Installation Guide
-## How to install Rocket.Chat on Windows Server 2012 R2 
+## How to install Rocket.Chat on Windows Server 2012 R2
 
-The following guide will step through the various steps for installing Rocket.Chat on Windows Server 2012 R2. 
+The following guide will step through the various steps for installing Rocket.Chat on Windows Server 2012 R2.
 
 **Important**: Production deployment using any client versions of Windows, such as Windows 7, 8, or 10 is not supported.  However, beta deployment for Windows 10 Pro (or Enterprise or Education) version is available via Docker for Windows see [Installing on Windows 10 Pro 64bit with Docker for Windows](../Windows%2010%20Pro/).
 
@@ -53,11 +53,11 @@ Then, download and install each of the following **in order**:
   > cd [Data Path]
   > mkdir [Data Path]\db
   > mkdir [Data Path]\logs
-  
+
   > cd [Installation Path]\bin
   > mongod.exe --config "[Installation Path]\mongod.cfg" --install
   > net start MongoDB
-  
+
   > mongo.exe
   > rs.initiate()
   > exit
@@ -72,9 +72,9 @@ Then, download and install each of the following **in order**:
 
 ### Node.js
 
-Rocket.Chat is built on top of Node.js v4.5. So we need to install this first.
+Rocket.Chat is built on top of Node.js v4.8.4. So we need to install this first.
 
-1. Download [Node.js v4.5](https://nodejs.org/dist/v4.5.0/node-v4.5.0-x86.msi)
+1. Download [Node.js v4.8.4](https://nodejs.org/dist/v4.8.4/node-v4.8.4-x86.msi)
 2. Run the installer with all default option.
 
 ### Node Packages
@@ -82,7 +82,7 @@ Rocket.Chat is built on top of Node.js v4.5. So we need to install this first.
 1. Open the *Windows SDK 7.1 Command Prompt* by pressing Start, typing its name, and clicking on it in the search results (Note: It needs to be the SDK Command Prompt)
 2. Now enter the following, replacing:
   * [Installation Path] with the location you placed the Rocket.Chat files
-  * [Port to Use] with the port for the Rocket.Chat server to use, such as `3000` 
+  * [Port to Use] with the port for the Rocket.Chat server to use, such as `3000`
   * [Rocket.Chat URL] with the URL you will use for Rocket.Chat, such as `rocketchat.example.com`
   * [Address to MongoDB] with the IP Address of your MongoDB. (NOTE: If you didn't install Mongo on another computer, use `localhost`)
   * [MongoDB Database] with the name of the database you would like to use, such as `rocketchat`
@@ -93,28 +93,28 @@ Rocket.Chat is built on top of Node.js v4.5. So we need to install this first.
   > cd [Installation Path]
   > npm install nave -g
   > npm install node-windows
-  
+
   > npm config set python /Python27/python.exe --global
   > npm config set msvs_version 2010 --global
-  
+
   > set PORT=[Port to Use]
   > set ROOT_URL=[Rocket.Chat URL]
   > set MONGO_URL=mongodb://[Address to Mongo]:27017/[MongoDB Database]
   > set MONGO_OPLOG_URL=mongodb://[Address to Mongo]:27017/local
   > set SCRIPT_PATH=[Installation Path]\main.js
-  
+
   > cd programs\server
   > npm install
-  
+
   > cd ../..
   > node rocket.service.js install
   > net start Rocket.Chat
   ```
-  
+
   Note: If missing, rocket.service.js can be found [here](https://github.com/Sing-Li/bbug/blob/master/images/rocket.service.js)
-  
+
   _Note: Do not include the `>`_
-  
+
 ### Verifying the Install
 
 1. View the installed services by pressing `Windows Key + R` and then entering `services.msc`

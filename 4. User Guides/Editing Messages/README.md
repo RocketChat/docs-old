@@ -5,9 +5,11 @@ Rocket.Chat provides several features for composing messages and editing sent me
 ## Composing messages
 
 ### Cursor movement while composing a message
+
 You can move the cursor using the arrow keys while writing or editing messages. When you press the `Up Arrow` or `Down Arrow` keys, the cursor moves to the location determined by the wrapping of the text.
 
 ### Move the cursor to the beginning or end of a message
+
 Holding `Alt` or `Command` while pressing an arrow key moves to the beginning or end of the message.
 
 ## Editing messages
@@ -34,7 +36,7 @@ You can also delete a message by emptying the contents while editing and saving 
 
 ## Sending emojis
 
-You can insert emojis in your messages as you want by clicking on the emoji smiley face icon on the left of the compose message box to browse or search for emojis.
+You can insert emojis in your messages by clicking on the emoji smiley face icon on the left of the compose message box to browse or search for emojis.
 
 You can also insert emojis by inputing a colon `:` in the message compose box followed by typing the emoji name.
 
@@ -53,3 +55,23 @@ Various emoji shortcuts exists to display popular text representations as graphi
 Graphical emojis can be enabled/disabled in [Your Account](../managing-your-account/) settings under the **Messages** section.
 
 When graphical emojis are disabled, emoji keywords and shortcuts will be displayed as is  e.g. `:smile:` or `:)`.
+
+## Sending attachments
+
+You can send attachments by clicking on the paperclip icon on the right of the compose message box, which will open a file browser for you to select a supported document and image file to send. Once you have selected a file to attach, a window will be displayed where you can change the file name and add an optional description before sending or cancelling and discarding the attachment.
+
+Rocket.Chat currently does not have support to send multiple attachments at once.
+
+## Sending audio recordings
+
+You can send audio recordings by clicking on the microphone icon on the right of the compose message box, which will start recording audio and replace the microphone icon with a square "stop" icon. 
+
+To end the recording, click the "stop" icon, which will display a window where you can listen to and download the recording, name it and give it an optional description. Click the "send" button to send the recording or the "cancel" button to discard the recording.
+
+## Sending video recordings
+
+You can send video recordings by clicking on the video camera icon on the right of the compose message box, which will display a live camera preview and recording controls.
+
+To start recording click the circle icon, when recording starts the icon will be replaced with a square "stop" icon. To end the video recording, click the "stop" icon.
+
+To preview and send your last video recorded, click the "ok" button, which will display a window where you can watch and download the video, name it and give it an optional description. Click the "send" button to send the video or the "cancel" button to discard the video recording.

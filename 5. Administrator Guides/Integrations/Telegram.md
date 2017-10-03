@@ -68,8 +68,8 @@ class Script {
 ```javascript
 class Script {
 	prepare_outgoing_request({ request }) {
-		if (request.data.user_name.match(/rocket.cat/)) {
-			//Don't repost messages from the same user.
+		if (request.data.bot) {
+			//Don't repost messages from the bot.
 			return { };
 		} else {
 			return {
