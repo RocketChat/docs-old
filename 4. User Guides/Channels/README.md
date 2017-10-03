@@ -7,30 +7,34 @@ The public and private channels you are watching are listed in the left sidebar 
 Public channels are indicated by a hash symbol next to the channel name, and private channels by a lock. Public channels appear first, private channels below them and each group will be ordered alphabetically.
 
 ### Unread messages
+When a channel has new messages, it's name will be highlighted on the channel list.
+
+If using Unread Mode, a new section called "Unread" will appear on the left sidebar and all channels with unread messages will be moved to this new section.
+
+To activate Unread Mode you must go to Preferences under My Account and change the "Sidebar channel list mode" setting to "Unread Rooms Mode".
 
 ### Mentions
+When someone mentions you with `@username`, `@all` or `@here`, a symbol or a number will appear alongside the channel name.  If you were mentioned, an `@` will show.  If someone mentions `@all` or `@here` a number will show up showing the number of times you were mentioned.
 
-## Browsing more channels
+## Joining new channels and starting direct messages
+There are three ways of joining a public channel, you can either search for it, be invited to it or be mentioned in it.
 
-To browse more channels to add to your watch list, click the "More channels..." link at the bottom of your channel list, this will open an advance search window to search for channels by name and filter searches by:
+For starting a direct message you can either search the user you want to talk or click on that users avatar and click on the "Conversation Button".
 
-- Your membership status: **Joined** or **All**
-- Channel discoverability: **Public**, **Private** or **All**
+To search for channels, use the search bar under your account box. Alternatively you can press <kbd>Ctrl/Cmd</kbd> + <kbd>k</kbd> to access the search bar quickly.
 
-Search results can be sorted:
+A search will find channels (including the ones you are part of) and users. Private channels can't be searched.
 
-- Alphabetically by channel name
-- By the number of messages in the channel, in descending order
-
-Once you have found the channel you would like to preview, click the channel name in the search result list to preview it. While in preview mode can view messages, user profiles and access all the functionality in the channel sidebar. You won't be able to send, edit or react to message in preview mode.
-
-To join a channel you are previewing, click the "Join" button at the bottom of the main window.
-
-## Searching channels and direct messages
-
+When you click in a search result, the following can happen:
+ - If the result is a channel, and you already aren't part of it, you will join that channel;
+ - If the result is a user, you will start a direct message with that user;
 ## Joining private channels
+The only way to join a private channel is to be invited to it.
+
+Users can invite other users by either using the "add users" bar on the "Members" Tab in the right side bar or by typing the command `/invite @username` on the message input.
 
 ## Leaving channels
+To leave a channel you can simply hover your mouse over a channel, click on the three dots `...` and select "Leave Room". Alternatively you can type the command `/leave` on the message input.
 
 ## Creating Channels
 
