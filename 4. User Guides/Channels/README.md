@@ -1,4 +1,25 @@
 # Channels
+Conversations in Rocket.Chat are organized into __channels__. Channels are chat rooms with many useful features.
+
+There are three kinds of channels: [public channels](#public-channels), [private groups](#private-groups), and [direct (1-on-1) messages](#direct-messages).
+#### Public channels
+
+**Public channels** (also called **channels** for short) are the most important kind. Use channels for conversations that are open to your entire team. A channel can be joined by anyone on your team.
+
+Channels make it easy to find what's going on with your team. New team members can join a channel and read all the information previously shared by other users.
+
+When in doubt, create a channel. Public conversations help you build a knowledge base of your organization with minimal effort. For example, create a channel for a company department or to discuss a certain programming language.
+
+#### Private groups
+
+**Private groups** are closed channels. They are visible only to their members. Use private groups for subjects that are sensitive, confidential, or limited to a small group of team members.
+
+Private groups can be joined by invitation only. The administrator sets the permissions that determine who can invite others to a private group. By default, only administrators, room owners, and moderators can invite others to private rooms.
+
+#### Direct Messages
+
+**Direct messages (DMs)** are private, 1-on-1 conversation between team members. You can think of a DM as a private group with only two members.
+
 
 ## Listing channels
 
@@ -21,26 +42,27 @@ There are three ways of joining a public channel, you can either search for it, 
 
 For starting a direct message you can either search the user you want to talk or click on that users avatar and click on the "Conversation Button".
 
-To search for channels, use the search bar under your account box. Alternatively you can press <kbd>Ctrl/Cmd</kbd> + <kbd>k</kbd> to access the search bar quickly.
+To search for channels and users, use the search bar under your account box. Alternatively you can press <kbd>Ctrl/Cmd</kbd> + <kbd>k</kbd> to access the search bar quickly.
 
 A search will find channels (including the ones you are part of) and users. Private channels can't be searched.
 
 When you click in a search result, the following can happen:
  - If the result is a channel, and you already aren't part of it, you will join that channel;
  - If the result is a user, you will start a direct message with that user;
-## Joining private channels
-The only way to join a private channel is to be invited to it.
-
-Users can invite other users by either using the "add users" bar on the "Members" Tab in the right side bar or by typing the command `/invite @username` on the message input.
-
 ## Leaving channels
-To leave a channel you can simply hover your mouse over a channel, click on the three dots `...` and select "Leave Room". Alternatively you can type the command `/leave` on the message input.
+There are two notions of leaving a channel:
+
+1. To **hide** a channel is to remain a member of the channel but to remove it from your list of channels on the left-hand pane.
+2. To **leave** a channel is to remove it from your list of channels _and to leave the channel_ (i.e., no longer be a member of the channel).
+
+Every channel has an **owner**, and the owner of a channel cannot leave a channel until setting someone else as the owner of that channel.
+
+To **leave** a channel, enter the command `/part` or `/leave` in the message window. Alternatively, hover your mouse over the channel in the list of channels on the left-hand side and click on the `leave channel`button.
+
+To **hide** a channel, hover your mouse over the channel in the list of channels on the left-hand side and click on the `hide channel` button.
+
 
 ## Creating Channels
 To create a channel you need to click on the plus `+` button that is alongside the channel search bar.
 
 This will open a pop up, and there you can set the name of that channel, if it is public or private, set it to read-only and invite users.
-
-## LiveChat
-
-## Direct Messages
