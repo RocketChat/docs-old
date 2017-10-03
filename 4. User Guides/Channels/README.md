@@ -37,6 +37,9 @@ Users can invite other users by either using the "add users" bar on the "Members
 To leave a channel you can simply hover your mouse over a channel, click on the three dots `...` and select "Leave Room". Alternatively you can type the command `/leave` on the message input.
 
 ## Creating Channels
+To create a channel you need to click on the plus `+` button that is alongside the channel search bar.
+
+This will open a pop up, and there you can set the name of that channel, if it is public or private, set it to read-only and invite users.
 
 ## LiveChat
 
