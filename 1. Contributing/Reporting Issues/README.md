@@ -2,7 +2,7 @@
 
 ## Is it a bug?
 
-GitHub Issues is for bugs and feature requests only.
+GitHub Issues are for bugs and feature requests only.
 
 Examples of things that aren't considered bugs or feature requests:
 
@@ -18,10 +18,6 @@ If your issue falls into one of these categories, please see [Getting Support](/
 
 1. Make sure you are running the latest version of Rocket.Chat.
 It's quite possible that your bug has been resolved in a newer version.
-1. Search [GitHub Issues](https://github.com/RocketChat/Rocket.Chat/issues)
-to see if it has been reported. If it has, then don't create a duplicate bug report. 
-Instead, give it a thumbsup (click on the icon),
-and if you have any extra useful information, add it in a comment.
 
 ### Report a new issue
 
@@ -49,9 +45,10 @@ Can be done in two ways:
 
 ##### Browser
 
-To collect logs from your browser press `F12` and switch to the console
-tab.  Errors appear in red.
+To collect logs from your browser press `Command+Option+J` (Mac) or `Control+Shift+J` (Windows / Linux).  Errors appear in red.
 
 ##### Server
 
-`Administration` -> `View Logs`
+To collect logs from your browser as an Admin log into your Rocket.Chat.  From there click the arrow by your avatar and goto Administration.  Once there you will see: `View Logs`.
+
+Often its useful to open this in another browser and reproduce the problem again and you will see an exception pop up in the logs.

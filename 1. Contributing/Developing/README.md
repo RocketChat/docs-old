@@ -1,6 +1,6 @@
 # Developing
 
-First of all, thank you for your interested in contributing to Rocket Chat.
+First of all, thank you for your interest in contributing to Rocket Chat.
 If this is the first Open Source project you will contribute to,
 we strongly suggest reading GitHub's excellent guide
 ["Contributing to Open Source"][contributing].
