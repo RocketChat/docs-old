@@ -1,5 +1,15 @@
 # Channel Actions
 
+With channels you can also do more than simply post messages and upload files, you can interact with it in various ways trough the channel actions menu, the channel actions are located by the right of the channel title. To access some of the menus you might have to click on the three dots by the end of the channel header.
+
+## Favorites
+
+To help you organize and prioritize your communications, you can **favorite** (or **star**) channels, private groups, and DMs.
+
+To favorite a channel, click on the star icon in left end of the channel header (next to the room name).
+
+Favoriting a channel moves it to a "Favorites" section on the channels list, thus making easier to access and find.
+
 ## Channel Info
 
 Here you can see all kinds of information about the channel you are currently on, and if you have the proper permissions, edit this information. You have the following options on channel info:
