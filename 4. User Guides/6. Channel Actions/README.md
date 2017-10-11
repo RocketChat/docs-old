@@ -128,3 +128,15 @@ Here you can see all messages that you have starred in the current channel.
 ## Pinned Messages
 
 Here you can see all messages that were pinned on the current channel.
+
+## OTR
+
+OTR stands for __Off The Record__ Messaging.
+
+OTR is basically end to end encrypted conversations.
+
+You can only use OTR in direct messages (1-on-1) and also both sides must be online.
+
+When you want to start OTR conversation, click on _START OTR_, then the other user will be notified to start a OTR.
+
+After your request is confirmed by other side, messages sent will be encrypted, a encrypted message will have a key icon on it's right side.
