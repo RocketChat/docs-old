@@ -2,6 +2,8 @@
 
 With channels you can also do more than simply post messages and upload files, you can interact with it in various ways trough the channel actions menu, the channel actions are located by the right of the channel title. To access some of the menus you might have to click on the three dots by the end of the channel header.
 
+_Channel actions may vary depending on the server configuration, so you might not see all of the items listed below_
+
 ## Favorites
 
 To help you organize and prioritize your communications, you can **favorite** (or **star**) channels, private groups, and DMs.
