@@ -46,7 +46,7 @@ The app for Android can be found on Google Play. Just search for `Rocket.Chat`
 
 ### Android and iOS Mobile users
 
-Enter the URL to your Rocket.Chat server (e.g. https://demo.rocket.chat) to initialize the app.   This needs to be done the first time you run the app after installation.
+Enter the URL to your Rocket.Chat server (e.g. https://open.rocket.chat) to initialize the app.   This needs to be done the first time you run the app after installation.
 
 Use two-fingers swipe up gesture to add more servers if you need to access multiple servers from one client.  
 
@@ -68,7 +68,7 @@ Use two-fingers swipe up gesture to add more servers if you need to access multi
 
 *Note: This works also works on Firefox for Android and the desktop browser.*
 
-Point the browser on the Firefox OS device to your Rocket.Chat URL (e.g. https://demo.rocket.chat), then add ```/fxos``` (e.g. https://demo.rocket.chat/fxos) and press OK/enter. You will be prompted to install the app.
+Point the browser on the Firefox OS device to your Rocket.Chat URL (e.g. https://open.rocket.chat), then add ```/fxos``` (e.g. https://open.rocket.chat/fxos) and press OK/enter. You will be prompted to install the app.
 
 ### Developers
  1. Make sure you have ```adb``` (android debug bridge) installed on your PC
@@ -76,7 +76,7 @@ Point the browser on the Firefox OS device to your Rocket.Chat URL (e.g. https:/
  3. Start your Firefox browser on the PC and connect your device
  4. Enter the Firefox WebIDE (Shift + F8 or go to Extras -> Web Developer -> WebIDE)
  5. "Project" -> "Open hosted app"
- 6. Enter the path to the Rocket.Chat manifest.webapp **on your server**, e.g. https://demo.rocket.chat/manifest.webapp - then press OK
+ 6. Enter the path to the Rocket.Chat manifest.webapp **on your server**, e.g. https://open.rocket.chat/manifest.webapp - then press OK
  7. You should now see the icon and description inside WebIDE. Press the play button on top to install it on your device
 
 ### Admins

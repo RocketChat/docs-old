@@ -61,8 +61,8 @@ class Script {
         // "attachments": [{
         //   "color": "#FF0000",
         //   "author_name": "Rocket.Cat",
-        //   "author_link": "https://demo.rocket.chat/direct/rocket.cat",
-        //   "author_icon": "https://demo.rocket.chat/avatar/rocket.cat.jpg",
+        //   "author_link": "https://open.rocket.chat/direct/rocket.cat",
+        //   "author_icon": "https://open.rocket.chat/avatar/rocket.cat.jpg",
         //   "title": "Rocket.Chat",
         //   "title_link": "https://rocket.chat",
         //   "text": "Rocket.Chat, the best open source chat",
@@ -172,8 +172,8 @@ class Script {
           // "attachments": [{
           //   "color": "#FF0000",
           //   "author_name": "Rocket.Cat",
-          //   "author_link": "https://demo.rocket.chat/direct/rocket.cat",
-          //   "author_icon": "https://demo.rocket.chat/avatar/rocket.cat.jpg",
+          //   "author_link": "https://open.rocket.chat/direct/rocket.cat",
+          //   "author_icon": "https://open.rocket.chat/avatar/rocket.cat.jpg",
           //   "title": "Rocket.Chat",
           //   "title_link": "https://rocket.chat",
           //   "text": "Rocket.Chat, the best open source chat",
@@ -220,8 +220,8 @@ class Script {
         // "attachments": [{
         //   "color": "#FF0000",
         //   "author_name": "Rocket.Cat",
-        //   "author_link": "https://demo.rocket.chat/direct/rocket.cat",
-        //   "author_icon": "https://demo.rocket.chat/avatar/rocket.cat.jpg",
+        //   "author_link": "https://open.rocket.chat/direct/rocket.cat",
+        //   "author_icon": "https://open.rocket.chat/avatar/rocket.cat.jpg",
         //   "title": "Rocket.Chat",
         //   "title_link": "https://rocket.chat",
         //   "text": "Rocket.Chat, the best open source chat",

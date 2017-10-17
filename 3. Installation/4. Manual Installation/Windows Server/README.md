@@ -160,5 +160,5 @@ The following steps will detail integrating Rocket.Chat with IIS.
 * If the Rocket.Chat service isn't running, check the Event Viewer under `Windows Logs\Application` for errors from the Rocket.Chat service.
 * If the page didn't load, check the log files in [Data Path]\logs for clues.
 * If that doesn't help, or if you had any other problems during the process, try searching our [GitHub Issues](https://github.com/RocketChat/Rocket.Chat/issues)
-* If you are still having problems, visit the [#support](https://demo.rocket.chat/channel/support) channel and we'll be happy to help.
+* If you are still having problems, visit the [#support](https://open.rocket.chat/channel/support) channel and we'll be happy to help.
 a
