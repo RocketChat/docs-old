@@ -4,7 +4,7 @@ order: 30
 
 # User List
 Gets all of the users in the system and their information, the result is only limited to what the callee has access to view.
-This method supports the [Offset and Count Query Parameters](../Offset%20and%20Count%20Info.md).
+It supports the [Offset, Count, and Sort Query Parameters](../Offset%20and%20Count%20and%20Sort%20Info.md) along with [Query and Fields Query Parameters](../Query%20and%20Fields%20Info.md).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

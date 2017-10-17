@@ -3,7 +3,7 @@ order: 50
 ---
 
 # Integrations List
-Lists all of the integrations on the server, this method supports the [Offset and Count Query Parameters](../Offset%20and%20Count%20Info.md).
+Lists all of the integrations on the server. It supports the [Offset, Count, and Sort Query Parameters](../Offset%20and%20Count%20and%20Sort%20Info.md) along with [Query and Fields Query Parameters](../Query%20and%20Fields%20Info.md).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
