@@ -25,7 +25,7 @@ rocketchat:
     - ROOT_URL=http://docker:3000
     - MONGO_URL=mongodb://db:27017/rocketchat
   links:
-    - mongo:mongo
+    - db:db
   ports:
     - 3000:3000
 ```
