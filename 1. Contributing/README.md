@@ -1,21 +1,28 @@
 # How can I help?
 
-There are multiple ways you can help.
+There are multiple ways you can help - even if you don't write code,
+you can still contribute.  
+We are always looking for assistance with creating or updating documentation,
+testing our web, desktop and mobile apps, and reporting bugs.
 
-If you are a developer, you can start [contributing](/1.%20Contributing/Developing/).
+**Developers** who wish to make contributions,
+please go [here](/1.%20Contributing/Developing/) to start.
 
-If you are a blogger or news writer, please [promote us](/1.%20Contributing/Promoting/).
+If you have found a **security issue**,
+[report it](/1.%20Contributing/Security/).
 
-If you have found a security issue, [report it](/1.%20Contributing/Security/) so we can make Rocket.Chat better and more secure for everyone.
+Rocket.Chat is currently **translated** into more than twenty languages,
+but we've got a long way to go.
+If you'd like to assist us with this please email our
+[translation team](mailto:translations@rocket.chat) to be invited to our [Lingohub](https://translate.lingohub.com) project.
 
-If you want to help with documentation in this project, please visit [Rocket.Chat.Docs](https://github.com/RocketChat/Rocket.Chat.Docs). To preview changes locally use [the generator](https://github.com/RocketChat/Rocket.Chat.Docs.Generator).
+To help improve our **documentation**, please visit [Rocket.Chat.Docs](https://github.com/RocketChat/Rocket.Chat.Docs).
+To preview changes locally use [the generator](https://github.com/RocketChat/Rocket.Chat.Docs.Generator).
 
-## Rocket.Chat At-A-Glance
-
-* [issues](https://github.com/RocketChat/Rocket.Chat/issues) categorize bug reports.
-* [labels](https://github.com/RocketChat/Rocket.Chat/labels) organize what we're doing.
-* [milestones](https://github.com/RocketChat/Rocket.Chat/milestones) control priority.
+**Bloggers and news writers**, feel free to [spread the word](/1.%20Contributing/Promoting/)!
 
 ## Code of Conduct
 
-This project adheres to the [Contributor Covenant](http://contributor-covenant.org) code of conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to team@rocket.chat
+This project adheres to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+By participating, you are expected to uphold this code.
+Please report unacceptable behavior to team@rocket.chat

@@ -99,7 +99,7 @@ Example of what we can find inside the `Accounts_CustomFields` **encoded as JSON
             "field": "roles"
         }
     },
-     "twitter": {
+    "twitter": {
         "type": "text",
         "required": true,
         "minLength": 2,
