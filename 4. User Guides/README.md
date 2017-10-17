@@ -1,21 +1,14 @@
+# User Guides
 
-### Emoji reactions
+Here you'll learn how to use [Rocket.Chat](https://rocket.chat/) as a user.
 
-You can also _react_ to a message with an emoji.
-+ On the **desktop** application: hover over a message, click on the gear icon (<img src="gear-icon.png" align="top" alt="gear icon" width="20"/>), click on the smiling face icon
+## Accessing a server
 
-<img src="emoji-reaction.png" align="top" alt="How to choose an emoji reaction" height="50"/>
+To access a server you will need to [connect](connect-to-server/) to it, [register](registration/) an account and [login](login/).
 
-and choose an emoji.
-+ On the **mobile** application: press and hold your finger on a message to bring up a menu, press `Reactions`, and choose an emoji.
+## Managing your account
 
-Then an emoji appears below the message:
-
-<img src="emoji-reaction-result.png" align="top" alt="Example of an emoji reaction" height="75"/>
-
-To remove an emoji reaction, click on the emoji below the message. To reiterate an existing emoji reaction that someone else posted, click on that emoji to add to that emoji's counter.
-
-
+Once logged into a Rocket.Chat server you can [manage your account](manage-your-account/) and configure profile, avatar, security, localization and notification settings.
 ## Learn more
 
 - [Keyboard shortcuts](Keyboard-Shortcuts/)
