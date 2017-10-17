@@ -57,7 +57,7 @@ Now we download and install Rocket.Chat
 ```
 cd /opt
 
-curl -L https://rocket.chat/releases/latest/download -o rocket.chat.tgz
+curl -L https://cdn-download.rocket.chat/build/rocket.chat-0.58.4.tgz -o rocket.chat.tgz
 tar zxvf rocket.chat.tgz
 
 mv bundle Rocket.Chat
@@ -181,5 +181,3 @@ Upgrading is much the same as installing Rocket.Chat
 2. Goto the installation folder in this case: `cd /opt/`
 3. Remove or move the `Rocket.Chat` folder.
 4. Follow the [installation section](#installing-rocket-chat)
-
-
