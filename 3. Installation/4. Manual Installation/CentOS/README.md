@@ -181,5 +181,3 @@ Upgrading is much the same as installing Rocket.Chat
 2. Goto the installation folder in this case: `cd /opt/`
 3. Remove or move the `Rocket.Chat` folder.
 4. Follow the [installation section](#installing-rocket-chat)
-
-
