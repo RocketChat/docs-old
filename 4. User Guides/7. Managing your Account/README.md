@@ -29,20 +29,20 @@ Enable or disable all desktop notifications, test desktop notifications and conf
   - Disabled
   - Every Mention/DM
 
-and enable or disable the following notifications:
+and enable or disable the following preferences:
 
-- Unread Tray Icon Alert
-- Use Emojis
-- Convert ASCII to Emoji
-- Auto Load Images
-- Save Mobile Bandwidth
-- Collapse embedded media by default
-- Unread Rooms Mode
-- Hide usernames
-- Hide roles
-- Hide right side bar with click
-- Hide Avatars
-- Merge private groups with channels
+- __Unread Tray Icon Alert__: This will toggle if the tray icon will be highlighted when you have unread messages;
+- __Use Emojis: This will toggle emojis in messages__;
+- __Convert ASCII to Emoji__: This will toggle emoji conversion when inputing ASCII characters;
+- __Auto Load Images__: With this disabled you will have to click on images to preview them;
+- __Save Mobile Bandwidth__:
+- __Collapse embedded media by default__: This will toggle if messages with files will be collapsed by default;
+- __Unread Rooms Mode__: This will create a new section on the channel list with all channels with unread messages;
+- __Hide usernames__: This will hide usernames on the channels, showing only the users avatars;
+- __Hide roles__: This will hide role tags from users;
+- __Hide right side bar with click__: When you click outside of a tab it will automatically close it;
+- __Hide Avatars__: This will hide avatars on the channels, showing only the users usernames;
+- __Merge private groups with channels__
 
 ### Highlights
 
@@ -76,20 +76,10 @@ Verify and edit the following profile information:
 
 If your email has been verified by the Rocket.Chat server a tick will appear alongside it.
 
-## Avatar
+You can also ask to another email verification email to be sent to you from here.
 
-Set or change your avatar for a Rocket.Chat server using one of the options:
+Set or change your avatar for a Rocket.Chat server by clicking on one of the images beside your current avatar. To upload a new avatar select the box with a arrow pointing up.
 
-- Use your username initials to autogenerate an avatar
-- Upload a files
-- Use a URL
-- Use Gravatar avatar
-- Use GitHub avatar
-- Use GitLab avatar
-- Use Google avatar
-- Use Facebook avatar
-- Use Twitter avatar
-- Use LinkedIn avatar
 
 ## Security
 
