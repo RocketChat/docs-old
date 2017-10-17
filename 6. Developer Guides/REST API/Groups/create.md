@@ -14,6 +14,7 @@ Creates a new private group, optionally including specified users. The group cre
 | :--- | :--- | :--- | :--- |
 | `name` | `testing` | Required | The name of the new private group |
 | `members` | `["rocket.cat"]` | Optional <br> Default: `[]` | The users to add to the group when it is created. |
+| `readOnly` | `true` | Optional <br> Default: `false` | Set if the group is read only or not. |
 
 ## Example Call
 ```bash

@@ -14,6 +14,7 @@ Creates a new public channel, optionally including specified users. The channel 
 | :--- | :--- | :--- | :--- |
 | `name` | `channelname` | Required | The name of the new channel |
 | `members` | `["rocket.cat"]` | Optional <br> Default: `[]` | The users to add to the channel when it is created. |
+| `readOnly` | `true` | Optional <br> Default: `false` | Set if the channel is read only or not. |
 
 ## Example Call
 ```bash
