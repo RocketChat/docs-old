@@ -146,7 +146,7 @@ export MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=001-rs
 Download Stable version of Rocket.Chat (or pick a version from [our releases page](https://rocket.chat/releases)):
 
 ```bash
-curl -L https://download.rocket.chat/build/rocket.chat-0.58.4.tgz -o rocket.chat.tgz
+curl -L https://download.rocket.chat/stable -o rocket.chat.tgz
 ```
 
 Then untar the binary release:
