@@ -20,7 +20,7 @@ $ git clone --depth 1 -b release-1.2.1-universal https://github.com/4commerce-te
 $ cd meteor
 $ ./meteor --version
 $ cd $HOME
-$ fetch https://cdn-download.rocket.chat/build/rocket.chat-freebsd-develop.tgz
+$ fetch https://download.rocket.chat/build/rocket.chat-freebsd-develop.tgz
 $ tar xf rocket.chat-freebsd-develop.tgz
 $ cd $HOME/bundle/programs/server
 $ $HOME/meteor/dev_bundle/bin/npm install
