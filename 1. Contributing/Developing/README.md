@@ -5,7 +5,12 @@ If this is the first Open Source project you will contribute to,
 we strongly suggest reading GitHub's excellent guide
 ["Contributing to Open Source"][contributing].
 
+
 ## Getting Started
+
+You can find our projects [here](https://github.com/RocketChat).
+Go to the Issues tab and when you find something you would like to work on
+just comment on it and we will add an [In Progress label][progress_label].
 
 **Installing on Linux:**
 
@@ -39,10 +44,7 @@ push these changes to the branch on GitHub. From the terminal to push changes:
 
 - Run "git push"
 
-
-You can find our projects [here](https://github.com/RocketChat).
-Go to the Issues tab and when you find something you would like to work on
-just comment on it and we will add an [In Progress label][progress_label].
+**Where to Find Tasks:**
 
 Want a simple task to get you started?  
 [We maintain a list of those][easy_label]!
