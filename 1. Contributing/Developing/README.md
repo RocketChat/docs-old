@@ -7,6 +7,26 @@ we strongly suggest reading GitHub's excellent guide
 
 ## Getting Started
 
+Installing on Linux:
+
+To run Rocket.Chat on windows you must first have the following Prgrams installed
+  - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+  - [Meteor](https://www.meteor.com/install)
+  
+Once the above two prerequistes are installed opened the terminal and run the following:
+
+- git clone https://github.com/RocketChat/Rocket.Chat.git (if you wish to clone your own 
+fork then replace "/RocketChat/" with /YOUR REPOSITORY NAME HERE/)
+- cd Rocket.Chat (Or the name of your repository)
+- meteor npm start (Warning: It may take a while to build so please be patient)
+
+When built you will see a green box within the terminal with "Server Running" at the top.
+This means that a Rocket.Chat server is running from your computer. To access the server
+look within the green box and you will see "Site URL:" here is the web url to access your server.
+If it says http://local.host:3000/ replace "local.host" with your IP address. After this you now
+have access to your server.
+
+
 You can find our projects [here](https://github.com/RocketChat).
 Go to the Issues tab and when you find something you would like to work on
 just comment on it and we will add an [In Progress label][progress_label].
