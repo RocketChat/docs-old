@@ -20,29 +20,19 @@ To run Rocket.Chat on Linux you must first have the following programs installed
   
 Once the above two prerequistes are installed opened the terminal and run the following:
 
-- "git clone https://github.com/RocketChat/Rocket.Chat.git" (if you wish to clone your own 
+- `git clone https://github.com/RocketChat/Rocket.Chat.git` (if you wish to clone your own 
 fork then replace "/RocketChat/" with /YOUR REPOSITORY NAME HERE/)
-- "cd Rocket.Chat" (Or the name of your repository)
-- "meteor npm start" (Warning: It may take a while to build so please be patient)
+- `cd Rocket.Chat` (Or the name of your repository)
+- `meteor npm start` (Warning: It may take a while to build so please be patient)
 
 When built, you will see a green box within the terminal with "Server Running" at the top.
-This means that a Rocket.Chat server is running from your computer. To access the server
-look within the green box and you will see "Site URL:" here is the web url to access your server.
-If it says http://local.host:3000/ replace "local.host" with your IP address. After this you now
-have access to your server.
+This means that a Rocket.Chat server is running from your computer. To access the server navigate to `localhost:3000`
 
 **Editing Rocket.Chat Files:**
 
 Editing files is relatively simple. After you run git clone, the files from the repository are saved on
 your computer. From the directory that it cloned to you can go here to edit or add to Rocket.Chat.
 After you made any changes to Rocket.Chat files just use meteor npm start to attempt to rebuild your changes.
-
-**Pushing Changes to Branch:**
-
-When you have finished making changes to the file and confirmed that it is built, you can go ahead and
-push these changes to the branch on GitHub. From the terminal to push changes:
-
-- Run "git push"
 
 **Where to Find Tasks:**
 
