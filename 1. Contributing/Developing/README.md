@@ -12,7 +12,11 @@ You can find our projects [here](https://github.com/RocketChat).
 Go to the Issues tab and when you find something you would like to work on
 just comment on it and we will add an [In Progress label][progress_label].
 
-**Installing on Linux:**
+**Installing on Windows:**
+
+To install on Windows please follow [this](https://docs.rocket.chat/installation/manual-installation/windows-server/) guide
+
+**Installing on Linux/Mac:**
 
 To run Rocket.Chat on Linux you must first have the following programs installed
   - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
