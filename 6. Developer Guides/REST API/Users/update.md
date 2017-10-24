@@ -7,14 +7,16 @@ order: 50
 | :--- | :--- | :--- |
 | `/api/v1/users.update` | `yes` | `POST` |
 
+Note that to update the password for the user, "edit-other-user-password" permission must be set accordingly using an administrator account (Administration > Permissions).
+
 ## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `userId` | `BsNr28znDkG8aeo7W` | Required | The id of the user to update. |
-| `data.email` | `example@example.com` | Required | The email address for the user. |
-| `data.name` | `Example User` | Required | The display name of the user. |
-| `data.password` | `pass@w0rd` | Required | The password for the user. |
-| `data.username` | `example` | Required | The username for the user. |
+| `data.email` | `example@example.com` | Optional | The email address for the user. |
+| `data.name` | `Example User` | Optional | The display name of the user. |
+| `data.password` | `pass@w0rd` | Optional | The password for the user. |
+| `data.username` | `example` | Optional | The username for the user. |
 | `data.active` | `false` | Optional <br> Default: `true` | Whether the user is active, which determines if they can login or not. |
 | `data.roles` | `['bot']` | Optional <br> Default: `['user']` | The roles the user has assigned to them. |
 | `data.joinDefaultChannels` | `false` | Optional <br> Default: `true` | Whether the user should join the default channels. |
