@@ -2,7 +2,7 @@
 
 ## Guides
 
-- [Pre-Requisites](Pre-Requisites/)
+- [Quick Start](1.%20Quick%20Start/)
 - [Branches and Releases](Branches%20and%20Releases/)
 - [Livechat API](Livechat%20API/)
 - [REST API](REST%20API/)
