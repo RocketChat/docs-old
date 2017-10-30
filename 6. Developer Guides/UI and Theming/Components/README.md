@@ -1,6 +1,6 @@
 # UI Components
 
-This article stub needs descriptive content and example usage for each component declared in Rocket.Chat UI to improve ease of development and prevent furthering multiple components being contributed for the same purpose with conflicting styles and usage. [Can you help?](https://github.com/RocketChat/Rocket.Chat#how-to-contribute)
+This article stub needs descriptive content and example usage for each component declared in Rocket.Chat UI to improve ease of development and prevent furthering multiple components being contributed for the same purpose with conflicting styles and usage. [Can you help?](https://docs.rocket.chat/contributing/)
 
 Example content:
 
