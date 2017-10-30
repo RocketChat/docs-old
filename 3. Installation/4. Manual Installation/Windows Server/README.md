@@ -72,9 +72,9 @@ Then, download and install each of the following **in order**:
 
 ### Node.js
 
-Rocket.Chat is built on top of Node.js v4.8.4. So we need to install this first.
+Rocket.Chat is built on top of Node.js v8.8.1. So we need to install this first.
 
-1. Download [Node.js v4.8.4](https://nodejs.org/dist/v4.8.4/node-v4.8.4-x86.msi)
+1. Download [Node.js v8.8.1](https://nodejs.org/dist/v8.8.1/node-v8.8.1-x86.msi)
 2. Run the installer with all default option.
 
 ### Node Packages
