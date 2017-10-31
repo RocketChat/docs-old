@@ -2,9 +2,9 @@
 
 Rocket.Chat had minimal Livechat as a feature for a long time.
 
-Recently, the demand for production-grade Livechat has increased, and we started a completely rewrite of the package.
+Recently the demand for production-grade Livechat has increased, so we started a complete rewrite of the package.
 
-This document is instructions on setting up the new Livechat  _work-in-progress_ version.
+This document contains instructions on setting up the new Livechat  _work-in-progress_ version.
 
 # Introduction
 
@@ -34,7 +34,7 @@ In order to start receiving incoming live chats you need to add livechat agents.
 
 ### Departments
 
-You can have the following behavior according on how many department you have created:
+You can have the following behavior depending on how many departments you have created:
 
 * No departments: all Livechat agents will receive incoming chats using a round robin rule;
 * One department: all incoming chats will be offered to agents **only** on that department using a round robin rule;
