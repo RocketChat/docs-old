@@ -10,7 +10,7 @@
 4. install a docker image for mongo db
    `sudo docker run --name db -d mongo --smallfiles`
 
-5. install a docker image for rocketchat and connect it to mongodb. `ROOT:URL` should be substituted your own:
+5. install a docker image for rocketchat and connect it to mongodb. `ROOT_URL` should be substituted for your own domain:
 
    `sudo docker run --name rocketchat -p 80:3000 --env ROOT_URL=https://www.test.com --env MONGO_URL=mongodb://db/rocketchat --link db -d rocketchat/rocket.chat`
 
