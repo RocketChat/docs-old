@@ -5,9 +5,9 @@ First, determine if you want to deploy for production  or  install for code deve
 
 ## Deploy for production
 
-Use [docker-compose instructions](https://rocket.chat/docs/installation/docker-containers/docker-compose)
+Use [docker-compose instructions](/3.%20Installation/3.%20Docker%20Containers/Docker%20Compose.md)
 
 ## Install for code development
 
 
-Follow [developer installation instructions](https://rocket.chat/docs/developer-guides/pre-requisites/)
+Follow [developer installation instructions](/6.%20Developer%20Guides/1.%20Quick%20Start)
