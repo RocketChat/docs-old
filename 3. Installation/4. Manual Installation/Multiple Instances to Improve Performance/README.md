@@ -10,7 +10,7 @@ better utilization of your existing hardware by running multiple instances of th
 a multi-core machine. A reasonable rule-of-thumb may be to run `N-1` Rocket.Chat instances, where `N=num_cores`.
 
 Running multiple instances of Rocket.Chat on a single host requires a reverse proxy in front of your application.
-This tutorial assumes that you've already followed the tutorial for [Running behind a Nginx SSL Reverse Proxy](https://rocket.chat/docs/installation/manual-installation/configuring-ssl-reverse-proxy).
+This tutorial assumes that you've already followed the tutorial for [Running behind a Nginx SSL Reverse Proxy](https://docs.rocket.chat/installation/manual-installation/configuring-ssl-reverse-proxy).
 
 There's essentially just three steps:
   1. Enable ReplicaSet on your MongoDB installation (https://docs.mongodb.com/manual/tutorial/deploy-replica-set/)
@@ -70,7 +70,7 @@ upstream backend {
 ```
 
 Now just replace `proxy_pass http://IP:3000/;` with `proxy_pass http://backend;`.
-Updating the [sample Nginx configuration](https://rocket.chat/docs/installation/manual-installation/configuring-ssl-reverse-proxy#running-behind-a-nginx-ssl-reverse-proxy)
+Updating the [sample Nginx configuration](https://docs.rocket.chat/installation/manual-installation/configuring-ssl-reverse-proxy#running-behind-a-nginx-ssl-reverse-proxy)
 would result in a config like this:
 
 ```
