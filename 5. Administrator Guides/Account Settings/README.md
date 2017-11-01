@@ -21,13 +21,13 @@ In this guide we will go over all settings in the _Accounts_ Section.
 
 ## Avatar
 
-- __Resize Avatar__ <!-- TODO: write about ImageMagick or GraphicsMagick -->
+- __Resize Avatar__: Set this to true to resize users avatars to a predefined size. You need ImageMagick or GraphicsMagick installed on your server for this feature to work.
 - __Avatar Size__: The desired size after the avatar resizing. The unit is pixels (px).
 - __Set Default Avatar__: If this setting is set to true, Rocket.Chat will try to find a default avatar based on OAuth Account or Gravatar.
 
 ## Iframe
 
-<!-- TODO -->
+These settings are related to the Iframe Integration, please se the [Iframe integration page] (/6.%20Developers%20Guides/Iframe%20Integration) for more details.
 
 ## Registration
 
