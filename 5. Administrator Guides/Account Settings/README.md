@@ -12,7 +12,9 @@ In this guide we will go over all settings in the _Accounts_ Section.
 - __Allow User Username Change__: Setting this to false will block users from changing their username.
 - __Allow User Email Change__: Setting this to false will block users from changing their email
 - __Allow User Password Change__: Setting this to false will block users from changing their password.
-- __Custom Fields to Show in User Info__: <!-- TODO -->
+
+<!-- - __Custom Fields to Show in User Info__: link to dedicated custom field document -->
+
 - __Login Expiration in Days__: After this number of days of inactivity the user will be logged out.
 - __Show form-based Login__: Setting this to false will remove the log in form from the login screen. This setting is useful when you are using a third party login system.
 - __Placeholder for email or username login field__: This will change the placeholder for the _email or username_ field on the login screen.
@@ -31,7 +33,7 @@ These settings are related to the Iframe Integration, please se the [Iframe inte
 
 ## Registration
 
-- __Default username prefix suggestion__: This is the prefix that will be suggested when a user is creating a username. <!-- Not Sure -->
+- __Default username prefix suggestion__: This is the prefix that will be suggested when a user is creating a username.
 - __Require Name For Signup__: If this is set to true, the name of the user will be required to create a account.
 - __Require Password Confirmation__: If this is set to true, the user will have to input his password twice when registering.
 - __Email Verification__: If this is set to true, users will have to confirm their email via a confirmation email sent to their email. (For this setting work, the SMTP settings must be already set up. See [Email Configuration](/5.%20Administrator%20Guides/1.%20Setup))
@@ -49,4 +51,5 @@ These settings are related to the Iframe Integration, please se the [Iframe inte
 - __Registration with Authentication Services__: Set this to true to allow registration with third party authentication services like Google or Twitter.
 - __Default Roles for Authentication Services__: Default roles users will be given when registering through authentication services.
 - __Password Reset__: Set this to true to allow users to reset their password.
-- __Custom Fields__: <!-- TODO -->
+
+<!--- __Custom Fields__ TODO: Create dedicated custom field document, since is a big topic -->
