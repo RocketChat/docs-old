@@ -4,7 +4,8 @@ With *Scripts* you can point any WebHook to Rocket.Chat and process the request 
 
 ## How to create a new Incoming WebHook
 * Go to your admin page
-* Create a new **Incoming WebHook**
+* Go to Integrations
+* Create a **New Integration** and select **Incoming WebHook**
 * Select the channel were you will receive the alerts (you can override in messages)
 * Set **Script Enabled** to **True**
 * Paste your script inside the **Script** field
@@ -95,7 +96,8 @@ The response of the request will execute the script too, calling another method 
 
 ## How to create a new Outgoing WebHook
 * Go to your admin page
-* Create a new **Outgoing WebHook**
+* Go to Integrations
+* Create a **New Integration** and select **Outgoing WebHook**
 * Select the channel where you will use the commands and receive the responses
 * Put the url you want to call in **URLs**, you can modify this url inside the script
 * Set **Script Enabled** to **True**
