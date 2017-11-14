@@ -76,10 +76,13 @@ ExecStart=/usr/local/n/versions/node/4.8.4/bin/node /path.to.rocketchat/rocket.c
 WantedBy=rocketchat.service
 ```
 Start the other RocketChat Services with
+
     systemctl start rocketchat@3001 (or any other desired port after the @)
 
 If you want to run rocketchat at boot just enable the services with
+
     systemctl enable rocketchat
+
 The other Services will be enable since they are "WantedBy"=RocketChat.service
 
 ## Update your Nginx proxy config
