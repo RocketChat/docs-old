@@ -22,7 +22,7 @@ We'll be working with Nginx in our examples, but it should be possible with othe
 ## Run multiple instances of Rocket.Chat
 
 We'll assume that you've configured Rocket.Chat to run as a systemd service. Since we want to run multiple instances
-simultaneously, we need to run at least two services. The only difference is the service name, port, and logging path.
+simultaneously, we need to run at least two services. The only difference is the service name and port.
 If you don't have a service yet, the easiest way to do this for Rocket.Chat is to create a file in /usr/lib/systemd/system/
 and call it rocketchat.service
 ```
