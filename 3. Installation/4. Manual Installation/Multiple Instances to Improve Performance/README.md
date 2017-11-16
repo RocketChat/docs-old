@@ -21,34 +21,69 @@ We'll be working with Nginx in our examples, but it should be possible with othe
 
 ## Run multiple instances of Rocket.Chat
 
-We'll assume that you've configured Rocket.Chat to run as a service. Since we want to run multiple instances
-simultaneously, we need to run two services. The only difference is the service name, port, and logging path.
-If you don't have a service yet, the easiest way to do this for Rocket.Chat is to use `forever-service` to
-create the services and run them with `forever` for you.
+We'll assume that you've configured Rocket.Chat to run as a systemd service. Since we want to run multiple instances
+simultaneously, we need to run at least two services. The only difference is the service name and port.
+If you don't have a service yet, the easiest way to do this for Rocket.Chat is to create a file in /usr/lib/systemd/system/
+and call it rocketchat.service
+```
+[Unit]
+Description=Rocket.Chat Server
+After=syslog.target
+After=network.target
 
-Let's create two services: `rocketchat1` runs on port 3001 and `rocketchat2` runs on port 3002.
+[Service]
+Type=simple
+Restart=always
+StandardOutput=syslog
+SyslogIdentifier=RocketChat
+User=rocketchat
+Group=rocketchat
+Environment=MONGO_URL=mongodb://your_mongodb:27017/your_database?replicaSet=your_replica_set_name
+Environment=MONGO_OPLOG_URL=mongodb://your_mongodb1:27017/local?replicaSet=your_replica_set_name
+Environment=ROOT_URL=https://your_rocketchat_domain.com
+Environment=PORT=3000
+WorkingDirectory=/path.to.rocketchat/rocket.chat
+ExecStart=/usr/local/bin/node /path.to.rocketchat/rocket.chat/bundle/main.js
 
-    sudo npm install -g forever
-    sudo npm install -g forever-service
-    cd ~/Rocket.Chat
-    sudo forever-service install -s main.js -e "ROOT_URL=https://example.com/ MONGO_URL=mongodb://localhost:27017/rocketchat MONGO_OPLOG_URL=mongodb://localhost:27017/local PORT=3001" rocketchat1
-    sudo forever-service install -s main.js -e "ROOT_URL=https://example.com/ MONGO_URL=mongodb://localhost:27017/rocketchat MONGO_OPLOG_URL=mongodb://localhost:27017/local PORT=3002" rocketchat2
+[Install]
+WantedBy=multi-user.target
+```
+Make sure the User and Group exist and both have read/write/execute Permissions for the rocketchat.
+Now you can run start, stop, restart, and status your rocketchat service.
 
-On debian/ubuntu, these generate upstart scripts in `/etc/init/rocketchat1.conf` and `/etc/init/rocketchat2.conf`.
-Notice that it automatically uses the service name to configure logging, e.g., `/var/log/rocketchat1.conf`.
+If you want multiple Services create another file in /usr/lib/systemd/system and call it rocketchat@.service with the following content:
+```
+[Unit]
+Description=Rocket.Chat Server
+After=syslog.target
+After=network.target
 
-Now you can run `start`, `stop`, `restart`, and `status` for your two services. Go ahead and start both services:
+[Service]
+Type=simple
+Restart=always
+StandardOutput=syslog
+SyslogIdentifier=RocketChat
+User=rocketchat
+Group=rocketchat
+Environment=MONGO_URL=mongodb://your_mongodb:27017/your_database?replicaSet=your_replica_set_name
+Environment=MONGO_OPLOG_URL=mongodb://your_mongodb1:27017/local?replicaSet=your_replica_set_name
+Environment=ROOT_URL=https://your_rocketchat_domain.com
+Environment=PORT=%I
+WorkingDirectory=/path.to.rocketchat/rocket.chat
+ExecStart=/usr/local/bin/node /path.to.rocketchat/rocket.chat/bundle/main.js
 
-    sudo service rocketchat1 start
-    sudo service rocketchat2 start
+[Install]
+WantedBy=rocketchat.service
+```
+Start the other RocketChat Services with
 
-You can confirm they stayed up / started successfully:
+    systemctl start rocketchat@3001 (or any other desired port after the @)
 
-    sudo service rocketchat1 status
-    sudo service rocketchat2 status
+If you want to run rocketchat at boot just enable the services with
 
-Note: if you name one "rocketchat" and the other "rocketchat2" with forever-service, then stopping "rocketchat"
-will also stop "rocketchat2" since its just doing a grep for the name to stop.
+    systemctl enable rocketchat
+
+The other Services will be enable since they are "WantedBy"=RocketChat.service
 
 ## Update your Nginx proxy config
 
@@ -64,8 +99,13 @@ that we started running on ports 3001 and 3002.
 ```
 # Upstreams
 upstream backend {
+    server 127.0.0.1:3000;
     server 127.0.0.1:3001;
-    server 127.0.0.1:3002;
+    #server 127.0.0.1:3002;
+    #server 127.0.0.1:3003;
+    .
+    .
+    .
 }
 ```
 
