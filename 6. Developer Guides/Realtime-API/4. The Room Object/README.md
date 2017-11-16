@@ -30,7 +30,7 @@ Example:
 }
 ```
 
-You'll need to access the room information using data from [Get Subscriptions](https://rocket.chat/docs/developer-guides/realtime-api/method-calls/get-subscriptions).
+You'll need to access the room information using data from [Get Subscriptions](https://docs.rocket.chat/developer-guides/realtime-api/method-calls/get-subscriptions).
 
 ### Chat
 

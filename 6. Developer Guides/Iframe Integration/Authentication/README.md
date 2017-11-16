@@ -28,7 +28,7 @@ To do that, you should directly access the Rocket.Chat MongoDB database (using a
 	"loginToken":"your-auth-token"
 }
 ```
-To do that you can use the [Rocket.Chat auth API](https://rocket.chat/docs/developer-guides/rest-api/#logon) and use the returned **authToken** as your loginToken.
+To do that you can use the [Rocket.Chat auth API](https://docs.rocket.chat/developer-guides/rest-api/#logon) and use the returned **authToken** as your loginToken.
 
 
 Example of a user record:
@@ -81,7 +81,7 @@ window.parent.postMessage({
   token: 'your-token'
 });
 ```
-or passing the **loginToken** (the native login token from meteor, you can generate one using any login method, including via [REST API](https://rocket.chat/docs/developer-guides/rest-api/#logon))
+or passing the **loginToken** (the native login token from meteor, you can generate one using any login method, including via [REST API](https://docs.rocket.chat/developer-guides/rest-api/#logon))
 ```javascript
 window.parent.postMessage({
   event: 'login-with-token',
@@ -130,8 +130,8 @@ Or an error
 ```javascript
 window.parent.postMessage({
   event: 'call-google-login',
-  //  scopes: 
-  //  webClientId: 
+  //  scopes:
+  //  webClientId:
 });
 ```
 
