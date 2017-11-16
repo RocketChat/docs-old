@@ -441,24 +441,27 @@ const githubEvents = {
       var commit = commits[i];
       var shortID = commit.id.substring(0,7);
       if ( commits.length > 1 ) {
-        a = '[' + shortID + '](' + commit.url + ') - ' + commit.message;
-        output.push( a );
+        output = '[' + shortID + '](' + commit.url + ') - ' + commit.message
+        if (i == 0){
+            attachment.fields.push({
+                title: changeset,
+                value: output,
+                short: is_short
+            });
+        } else{
+            attachment.fields.push({
+                value: output,
+                short: is_short
+            });
+        }
       } else {
-        var output = "["+shortID+"]("+commit.url+")";
+        output = "[" + shortID + "](" + commit.url + ")"
+        attachment.fields.push({
+            title: changeset,
+            value: output,
+            short: is_short
+        });
       }
-    }
-    if (commits.length > 1) {
-      attachment.fields.push({
-        title: changeset,
-        value: output.reverse().join('<br />'),
-        short: is_short
-      });
-    } else {
-      attachment.fields.push({
-        title: changeset,
-        value: output,
-        short: is_short
-      });
     }
 
     const text = ':ballot_box_with_check: Pushed to ' + "["+request.content.ref.split('/').pop()+"]";
