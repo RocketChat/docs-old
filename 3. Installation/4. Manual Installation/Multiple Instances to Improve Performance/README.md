@@ -38,12 +38,12 @@ StandardOutput=syslog
 SyslogIdentifier=RocketChat
 User=rocketchat
 Group=rocketchat
-Environment=MONGO_URL=mongodb://your_mongodb:27017/your_replica_set_name
-Environment=MONGO_OPLOG_URL=mongodb://your_mongodb1:27017local?replicaSet=your_replica_set_name
+Environment=MONGO_URL=mongodb://your_mongodb:27017/your_database?replicaSet=your_replica_set_name
+Environment=MONGO_OPLOG_URL=mongodb://your_mongodb1:27017/local?replicaSet=your_replica_set_name
 Environment=ROOT_URL=https://your_rocketchat_domain.com
 Environment=PORT=3000
 WorkingDirectory=/path.to.rocketchat/rocket.chat
-ExecStart=/usr/local/n/versions/node/4.8.4/bin/node /path.to.rocketchat/rocket.chat/bundle/main.js
+ExecStart=/usr/local/bin/node /path.to.rocketchat/rocket.chat/bundle/main.js
 
 [Install]
 WantedBy=multi-user.target
@@ -65,12 +65,12 @@ StandardOutput=syslog
 SyslogIdentifier=RocketChat
 User=rocketchat
 Group=rocketchat
-Environment=MONGO_URL=mongodb://your_mongodb:27017/your_replica_set_name
-Environment=MONGO_OPLOG_URL=mongodb://your_mongodb1:27017local?replicaSet=your_replica_set_name
+Environment=MONGO_URL=mongodb://your_mongodb:27017/your_database?replicaSet=your_replica_set_name
+Environment=MONGO_OPLOG_URL=mongodb://your_mongodb1:27017/local?replicaSet=your_replica_set_name
 Environment=ROOT_URL=https://your_rocketchat_domain.com
 Environment=PORT=%I
 WorkingDirectory=/path.to.rocketchat/rocket.chat
-ExecStart=/usr/local/n/versions/node/4.8.4/bin/node /path.to.rocketchat/rocket.chat/bundle/main.js
+ExecStart=/usr/local/bin/node /path.to.rocketchat/rocket.chat/bundle/main.js
 
 [Install]
 WantedBy=rocketchat.service
