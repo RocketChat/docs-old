@@ -1,0 +1,21 @@
+title: "Rocket.Chat Docs"
+description:
+url: https://rocket.chat/docs/
+
+# bump if alterting styles
+version: 1
+      
+sass:
+  style: compressed
+  sass_dir: _sass
+
+plugins:
+  - jekyll-redirect-from
+  
+whitelist:
+  - jekyll-redirect-from
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

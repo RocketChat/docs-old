@@ -1,1 +1,7 @@
+
+# Jekyll
+.jekyll-metadata
+_site/
+
+# Mac
 .DS_Store
