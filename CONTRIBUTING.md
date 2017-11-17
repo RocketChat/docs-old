@@ -17,6 +17,7 @@ When making small changes like typos and such, you can edit the file directly on
 - Fork the appropriate repository to your account.
 - This is usually [here](https://github.com/RocketChat/Rocket.Chat.Docs).
 - Clone your fork.
+- Before starting read our [Markdown Style Guide](Markdown%20StyleGuide.md)
 - Make your changes locally.
 - (Optional but recommended for bigger changes) Use our [Docs Generator](https://github.com/RocketChat/Rocket.Chat.Docs.Generator) to test the changes.
 - Commit your changes to a new branch.
