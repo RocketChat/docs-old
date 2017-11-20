@@ -18,16 +18,16 @@ Enable or disable all desktop notifications, test desktop notifications and conf
 
 - The global notification duration in seconds
 - Enter key behaviour
-  - Normal mode (send with Enter)
-  - Alternative mode (send with Enter + Ctrl/Alt/Shift/CMD)
-  - Desktop mode (only sends with enter on desktop)
+    - Normal mode (send with Enter)
+    - Alternative mode (send with Enter + Ctrl/Alt/Shift/CMD)
+    - Desktop mode (only sends with enter on desktop)
 - View mode
-  - Normal: the default spacing between messages
-  - Cozy: more space between messages (less on the screen)
-  - Compact: less space between messages (more on the screen)
+    - Normal: the default spacing between messages
+    - Cozy: more space between messages (less on the screen)
+    - Compact: less space between messages (more on the screen)
 - Offline Email Notifications
-  - Disabled
-  - Every Mention/DM
+    - Disabled
+    - Every Mention/DM
 
 and enable or disable the following preferences:
 
@@ -79,7 +79,6 @@ If your email has been verified by the Rocket.Chat server a tick will appear alo
 You can also ask to another email verification email to be sent to you from here.
 
 Set or change your avatar for a Rocket.Chat server by clicking on one of the images beside your current avatar. To upload a new avatar select the box with a arrow pointing up.
-
 
 ## Security
 

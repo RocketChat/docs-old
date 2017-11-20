@@ -14,6 +14,6 @@ Newer Android mobile phones and tablets (some less than US$50) will also work.
 
 Use this [online device compatibility verification tool](https://test.webrtc.org/) to determine if your machine and browser combination is ready for video conference.  Everything should pass except for IPv6 support.
 
-###  Multi-users video / voice calls
+### Multi-users video / voice calls
 
 This is a completely experimental implementation that stretches what web-rtc offers.  Use at your own risk.
