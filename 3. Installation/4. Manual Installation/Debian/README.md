@@ -48,8 +48,6 @@ sudo n 4.8.4
 
 More on [nodejs installation](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server)
 
-
 ## 2. Install Rocket.Chat
 
 From here you can follow [the documentation for Ubuntu install, from step 2](/3.%20Installation/4.%20Manual%20Installation/Ubuntu#2-install-rocketchat)
-

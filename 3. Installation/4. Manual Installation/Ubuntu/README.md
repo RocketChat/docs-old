@@ -2,7 +2,6 @@
 
 ## Recommended Fastest Server Install via Snaps
 
-
 This is the easiest way for you to get your server up and running on all supported Linux (Ubuntu, etc).
 
 Installing using:
@@ -15,7 +14,7 @@ Snaps are secure.  Rocket.Chat and all of its dependencies are isolated from the
 
 Find out more information about snaps [here](/3.%20Installation/4.%20Manual%20Installation/Ubuntu/Snaps)
 
-If you would like to enable https://yoursite.com using the snap please see [here](/3.%20Installation/4.%20Manual%20Installation/Ubuntu/Snaps/AutoSSL.md)
+If you would like to enable <https://yoursite.com> using the snap please see [here](/3.%20Installation/4.%20Manual%20Installation/Ubuntu/Snaps/AutoSSL.md)
 
 ## Manual install
 
@@ -125,16 +124,18 @@ The result should look like this
   "ok" : 1
 }
 ```
+
 Note the "ok" value should be 1.  Any other value, i.e. 93, means something is wrong.
 Make sure to edit the /etc/hosts and /etc/hostname (and restart) to the network accessible DNS name of the machine.
 
-After a few seconds, you should see your prompt turn into `001-rs:PRIMARY> `, this indicates the replica set is being used. Type `exit` to get back to your regular shell.
+After a few seconds, you should see your prompt turn into `001-rs:PRIMARY>`, this indicates the replica set is being used. Type `exit` to get back to your regular shell.
 
 After you configured replica set, you **MUST** add the following environment variable before restarting Rocket.Chat server for it to take effect:
 
 ```
 MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=001-rs
 ```
+
 You may also consider (alternatively) including this value in your ~/.bashrc file:
 
 ```
@@ -173,6 +174,7 @@ node main.js
 ```
 
 If you used the replica set, you **MUST** use following line to indicate the usage of the replica set.
+
 ```
 export MONGO_URL=mongodb://localhost:27017/rocketchat?replicaSet=001-rs
 ```
@@ -218,9 +220,9 @@ Rocket.Chat is installed and will run, but needs to be configured behind a web s
 In summary do the following:
 
 1. Make sure server is down
-1. Change into the directory where you have the `Rocket.Chat` directory
-1. Remove the old server executables
-  * `rm -rf Rocket.Chat`
-1. Repeat Installation [step](#install)
+2. Change into the directory where you have the `Rocket.Chat` directory
+3. Remove the old server executables
+    - `rm -rf Rocket.Chat`
+4. Repeat Installation [step](#install)
 
 You can always [update directly](https://github.com/RocketChat/Rocket.Chat/issues/2408) to the newest version, the database migrations will execute from the old version to the new version.

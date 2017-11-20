@@ -1,4 +1,4 @@
-## Running Multiple Instances Per Host To Improve Performance
+# Running Multiple Instances Per Host To Improve Performance
 
 You may find that Rocket.Chat slows down once you have a lot of concurrent users. When this sluggishness begins,
 you will likely see Rocket.Chat node process approaching 100% CPU (even if the host CPU load is low). This is
@@ -13,9 +13,10 @@ Running multiple instances of Rocket.Chat on a single host requires a reverse pr
 This tutorial assumes that you've already followed the tutorial for [Running behind a Nginx SSL Reverse Proxy](https://rocket.chat/docs/installation/manual-installation/configuring-ssl-reverse-proxy).
 
 There's essentially just three steps:
-  1. Enable ReplicaSet on your MongoDB installation (https://docs.mongodb.com/manual/tutorial/deploy-replica-set/)
-  2. Start multiple instances of Rocket.Chat bound to different ports
-  3. Update your proxy to point at all local Rocket.Chat instances
+
+1. Enable ReplicaSet on your MongoDB installation (<https://docs.mongodb.com/manual/tutorial/deploy-replica-set/>)
+2. Start multiple instances of Rocket.Chat bound to different ports
+3. Update your proxy to point at all local Rocket.Chat instances
 
 We'll be working with Nginx in our examples, but it should be possible with other reverse proxies as well.
 
@@ -25,6 +26,7 @@ We'll assume that you've configured Rocket.Chat to run as a systemd service. Sin
 simultaneously, we need to run at least two services. The only difference is the service name and port.
 If you don't have a service yet, the easiest way to do this for Rocket.Chat is to create a file in /usr/lib/systemd/system/
 and call it rocketchat.service
+
 ```
 [Unit]
 Description=Rocket.Chat Server
@@ -48,10 +50,12 @@ ExecStart=/usr/local/bin/node /path.to.rocketchat/rocket.chat/bundle/main.js
 [Install]
 WantedBy=multi-user.target
 ```
+
 Make sure the User and Group exist and both have read/write/execute Permissions for the rocketchat.
 Now you can run start, stop, restart, and status your rocketchat service.
 
 If you want multiple Services create another file in /usr/lib/systemd/system and call it rocketchat@.service with the following content:
+
 ```
 [Unit]
 Description=Rocket.Chat Server
@@ -75,6 +79,7 @@ ExecStart=/usr/local/bin/node /path.to.rocketchat/rocket.chat/bundle/main.js
 [Install]
 WantedBy=rocketchat.service
 ```
+
 Start the other RocketChat Services with
 
     systemctl start rocketchat@3001 (or any other desired port after the @)
@@ -145,7 +150,7 @@ server {
 
 Now restart Nginx: ```service nginx restart```
 
-Visit https://your_hostname.com just as before the update. **Ooh, so fast!**
+Visit <https://your_hostname.com> just as before the update. **Ooh, so fast!**
 
 To confirm you're actually using both services like you'd expect, you can stop one rocketchat
 service at a time and confirm that chat still works. Restart that service and stop the other.

@@ -1,4 +1,4 @@
-Deploying Rocket.Chat on ReadySpace Cloud
+# Deploying Rocket.Chat on ReadySpace Cloud
 
 ReadySpace offers both Linux and Windows VPS backed by SSDs. There needs to be no specialized configuration.
 
@@ -11,4 +11,4 @@ Please follow the respective guide for the operating system you are using,
 
 If you are using Docker, follow these instructions: [Click Here](https://rocket.chat/docs/installation/docker-containers)
 
-Please have a look at our website : https://readyspace.com
+Please have a look at our website : <https://readyspace.com>

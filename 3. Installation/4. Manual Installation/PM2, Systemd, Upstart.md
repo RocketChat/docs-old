@@ -2,7 +2,6 @@
 
 ## PM2
 
-
 ## Systemd
 
 Deploy [Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) to Linux that run on systemd (RedHat, Centos, Ubuntu, CoreOS and so on).
@@ -40,30 +39,33 @@ Then you need to enable the service `systemctl enable rocketchat.service`
 To start the service `systemctl start rocketchat.service`
 
 To verify it is running `systemctl status rocketchat.service`
-  
+
 ### Backup
 
-All data will be hourly backuped to `/data/domains/example.org/data` folder. We advise to copy this folder to a remote location in case of hardware failure.
+All data will be hourly backed up to `/data/domains/example.org/data` folder. We advise to copy this folder to a remote location in case of hardware failure.
 
 ## Upstart - Ubuntu
-The following examples are upstart jobs which control automatic start-up and, if necessary, respawning of your Rocket.Chat app, as well as management of an optional hubot chat-bot.  
-  
+
+The following examples are upstart jobs which control automatic start-up and, if necessary, respawning of your Rocket.Chat app, as well as management of an optional hubot chat-bot.
+
 In order to use the examples, simply copy each example and save into a file, paying attention to the fact that the filenames should be preserved unless you edit the examples
 to reflect any filename changes you make. Be sure to edit the environment variables, and possibly paths, according to your particular installation. Once you've saved the files to the
 proper directory (/etc/init) usage is as simple as rebooting.
-  
-Which upstart management jobs that you use depend on what type of Rocket.Chat deployment you are using (Docker-compose, non-docker, etc). A race-condition exists with 
-docker-compose which requires that mongo and the Rocket.Chat application be started independently, thus a slightly modified upstart job is required compared to non-docker instances. 
-  
--------------------------  
-  
+
+Which upstart management jobs that you use depend on what type of Rocket.Chat deployment you are using (Docker-compose, non-docker, etc). A race-condition exists with
+docker-compose which requires that mongo and the Rocket.Chat application be started independently, thus a slightly modified upstart job is required compared to non-docker instances.
+
+---
+
 ### Non-Docker-Compose
-Save as: `/etc/init/rocketchat.conf`  
+
+Save as: `/etc/init/rocketchat.conf`
+
 ```
 description "rocketchat application server"
 
-# Wait for mongod before starting rocketchat app  
-start on (started mongod)  
+# Wait for mongod before starting rocketchat app
+start on (started mongod)
 stop on runlevel [!2345]
 
 # Automatically attempt to restart with finite limits
@@ -72,14 +74,15 @@ respawn limit 99 5
 
 # Export necessary variables and start the Applications / Services
 script
-    export MONGO_URL=mongodb://localhost:27017/rocketchat 
-    export ROOT_URL=https://host.yourdomain.tld 
+    export MONGO_URL=mongodb://localhost:27017/rocketchat
+    export ROOT_URL=https://host.yourdomain.tld
     export PORT=3000
     exec /usr/local/bin/node /home/administrator/Rocket.Chat/main.js
 end script
 ```
-  
-Save as: `/etc/init/rocketchat_hubot.conf`  
+
+Save as: `/etc/init/rocketchat_hubot.conf`
+
 ```
 description "hubot launcher"
 
@@ -96,24 +99,26 @@ script
     until nc -z localhost 3000; do
         sleep 1
     done
-    
+
     # Export necessary variables
-    export ROCKETCHAT_ROOM=GENERAL 
+    export ROCKETCHAT_ROOM=GENERAL
     export ROCKETCHAT_USER=bot_username
     export ROCKETCHAT_PASSWORD=bot_password
-    
+
     # Change to the hubot directory
     cd /home/administrator/myhubot
-    
+
     # Launch Hubot
     exec bin/hubot -a rocketchat
 end script
 ```
-  
--------------------------  
-  
-### Docker-Compose  
-Save as: `/etc/init/rocketchat_mongo.conf`  
+
+---
+
+### Docker-Compose
+
+Save as: `/etc/init/rocketchat_mongo.conf`
+
 ```
 description "MongoDB service manager for rocketchat"
 
@@ -133,8 +138,9 @@ script
     exec /usr/local/bin/docker-compose up db
 end script
 ```
-  
-Save as: `/etc/init/rocketchat_app.conf`  
+
+Save as: `/etc/init/rocketchat_app.conf`
+
 ```
 description "Rocketchat service manager"
 

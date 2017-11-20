@@ -4,15 +4,15 @@ You can install Rocket.Chat to Ubuntu VPS on Aliyun.
 
 The recommended VPS configuration is:
 
-* 2 GB RAM
-* 10 GB disk
-* 2 or 4 cores
+- 2 GB RAM
+- 10 GB disk
+- 2 or 4 cores
 
 However, lower performance configuration has been tested on a VPS with:
 
-* 1 GB RAM
-* 10 GB disk
-* 1 core
+- 1 GB RAM
+- 10 GB disk
+- 1 core
 
 Follow these steps to install Rocket.Chat.
 
@@ -50,7 +50,6 @@ docker ps
 
 ![aliyun docker verify](https://raw.githubusercontent.com/Sing-Li/bbug/master/images/aliyun2.png)
 
-
 ## Install docker-compose
 
 Install docker-compose, follow the [latest release instructions](https://github.com/docker/compose/releases)
@@ -60,6 +59,7 @@ For release 1.5.0, you can use:
 ```
 curl -L https://github.com/docker/compose/releases/download/1.5.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 ```
+
 *(if or when this is blocked, you'll have to obtain Linux-x86_64 docker-compose binary via other means)*
 
 Next, allow execution of docker-compose:
@@ -88,6 +88,7 @@ Make two more directories for the mongodb database:
 mkdir data
 mkdir dump
 ```
+
 ## Create customized docker-compose.yml
 
 Create a `docker-compose.yml` file with the following content:
@@ -109,6 +110,7 @@ web:
   ports:
     - 8818:3000
 ```
+
 Make sure you customize the file with `your-ip-address` in the `MONGO_URL` env variable.
 
 ## Pull the required docker images
@@ -151,5 +153,3 @@ Your Rocket.Chat server can now be accessed over the Internet via:
 ```
 http://your-ip-address:8818/
 ```
-
-

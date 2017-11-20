@@ -50,7 +50,7 @@ The recommended Node.js version for using Rocket.Chat is `4.8.4`. Using _n_ we a
 n 4.8.4
 ```
 
-### Installing Rocket.Chat
+## Installing Rocket.Chat
 
 Now we download and install Rocket.Chat
 
@@ -82,7 +82,7 @@ If you choose to use port 80 you will need to run Rocket.Chat as root.
 
 If you don't have DNS configured use your IP in place of the hostname.  You can change it later in the admin menu.
 
-### Mongo
+## Mongo
 
 First lets enable Mongodb to start with the host using:
 
@@ -102,7 +102,7 @@ or for CentOs 6.X
 /etc/init.d/mongod start
 ```
 
-### Try install out
+## Try install out
 
 Now lets do a quick test and see if everything is working before we continue:
 
@@ -120,15 +120,15 @@ Replace your-host-name.com-as-accessed-from-internet with the ip address or DNS 
 
 Now that you're connected:
 
-* Click "register a new account"
-* Enter the admin's name, email and password twice.  For my instance I entered:
-  * name = Admin
-  * email = admin@<my domain>.com
-  * password = test1234
-* Click SUBMIT
-* You will be prompted to select a username.  I selected admin.
-* Click USE THIS USERNAME to continue.
-* You should now be logged in as an administrator on your new Rocket.Chat installation.
+- Click "register a new account"
+- Enter the admin's name, email and password twice.  For my instance I entered:
+    - name = Admin
+    - email = admin@<my domain>.com
+    - password = test1234
+- Click SUBMIT
+- You will be prompted to select a username.  I selected admin.
+- Click USE THIS USERNAME to continue.
+- You should now be logged in as an administrator on your new Rocket.Chat installation.
 
 Hit Ctrl + c in your terminal to stop Rocket.Chat.
 

@@ -1,10 +1,11 @@
 # Deploying Rocket.Chat on Galaxy
 
 Prerequisites:
+
 - Git
 - Meteor
 
-### Get Rocket.Chat code
+## Get Rocket.Chat code
 
 Download the source code first to be able to deploy to Galaxy
 
