@@ -11,6 +11,9 @@ We are currently running a markdown [linter](https://github.com/markdownlint/mar
 All the rules listed here have their respective code attached here, so if the linter fails you can come here and check out the rule that was broken.
 -->
 
+You can run the Markdown linter locally by installing this [Markdown Linter Tool](https://github.com/markdownlint/markdownlint)
+and running the command `mdl ../` command on the docs main folder.
+
 ## Rules
 
 ### MD001 - Header levels should only increment by one level at a time
