@@ -43,9 +43,9 @@ These settings are related to the Iframe Integration, please se the [Iframe inte
 - __Use Default Blocked Domains List__: Will block the email domains listed on this [file](https://github.com/RocketChat/Rocket.Chat/blob/develop/packages/rocketchat-lib/server/lib/defaultBlockedDomainsList.js)
 - __Use DNS Domain Check__: When this is set to true, users wont be able to register with invalid domains.
 - __Registration Form__: This will change how the registration form is presented. Currently there are 3 options:
-  - Public: The form will be public and anyone will be able to access;
-  - Disabled: The form will be disable and users wont be able to register through it;
-  - Secret URL: The form will be only accessible using a specific URL;
+    - Public: The form will be public and anyone will be able to access;
+    - Disabled: The form will be disable and users wont be able to register through it;
+    - Secret URL: The form will be only accessible using a specific URL;
 - __Registration Form Secret URL__: String to be added to the secret URL. Is recommended to use a random string for that. Example: `https://open.rocket.chat/register/[secret_hash]`.
 - __Registration Form Link Replacement Text__: Text to be shown in place of the registration form when the registration form is disabled.
 - __Registration with Authentication Services__: Set this to true to allow registration with third party authentication services like Google or Twitter.

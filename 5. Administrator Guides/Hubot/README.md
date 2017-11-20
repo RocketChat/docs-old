@@ -2,8 +2,8 @@
 
 We have a couple of ways for you to get up and started with the hubot:
 
-* [Docker](#Docker)
-* [Manual](#Manual)
+- [Docker](#Docker)
+- [Manual](#Manual)
 
 ## Docker
 
@@ -11,31 +11,31 @@ You can quickly spin up a docker image with:
 
 ```
 docker run -it -e ROCKETCHAT_URL=<your rocketchat instance>:<port> \
-	-e ROCKETCHAT_ROOM='' \
-	-e LISTEN_ON_ALL_PUBLIC=true \
-	-e ROCKETCHAT_USER=bot \
-	-e ROCKETCHAT_PASSWORD=bot \
-	-e ROCKETCHAT_AUTH=password \
-	-e BOT_NAME=bot \
-	-e EXTERNAL_SCRIPTS=hubot-pugme,hubot-help \
-	rocketchat/hubot-rocketchat
+    -e ROCKETCHAT_ROOM='' \
+    -e LISTEN_ON_ALL_PUBLIC=true \
+    -e ROCKETCHAT_USER=bot \
+    -e ROCKETCHAT_PASSWORD=bot \
+    -e ROCKETCHAT_AUTH=password \
+    -e BOT_NAME=bot \
+    -e EXTERNAL_SCRIPTS=hubot-pugme,hubot-help \
+    rocketchat/hubot-rocketchat
 ```
 
-#### Custom Scripts
+### Custom Scripts
 
 If you want to include your own custom scripts you can by doing:
 
 ```
 docker run -it -e ROCKETCHAT_URL=<your rocketchat instance>:<port> \
-	-e ROCKETCHAT_ROOM='' \
-	-e LISTEN_ON_ALL_PUBLIC=true \
-	-e ROCKETCHAT_USER=bot \
-	-e ROCKETCHAT_PASSWORD=bot \
-	-e ROCKETCHAT_AUTH=password \
-	-e BOT_NAME=bot \
-	-e EXTERNAL_SCRIPTS=hubot-pugme,hubot-help \
-	-v $PWD/scripts:/home/hubot/scripts \
-	rocketchat/hubot-rocketchat
+    -e ROCKETCHAT_ROOM='' \
+    -e LISTEN_ON_ALL_PUBLIC=true \
+    -e ROCKETCHAT_USER=bot \
+    -e ROCKETCHAT_PASSWORD=bot \
+    -e ROCKETCHAT_AUTH=password \
+    -e BOT_NAME=bot \
+    -e EXTERNAL_SCRIPTS=hubot-pugme,hubot-help \
+    -v $PWD/scripts:/home/hubot/scripts \
+    rocketchat/hubot-rocketchat
 ```
 
 ### Docker-compose
@@ -64,7 +64,7 @@ hubot:
 ```
 
  If you wish that your bot listen to all public rooms and all private rooms he is joined to let the env "ROCKETCHAT_ROOM" empty like in the example above and set the env "LISTEN_ON_ALL_PUBLIC" to true.
- 
+
  Please take attention to some external scripts that are in the example above, some of them need your Google-API-Key in the docker compose file.
 
 ### Manual
@@ -145,25 +145,31 @@ You will want to set the environment variable: `LISTEN_ON_ALL_PUBLIC` to true
 ** Note: This will also listen for commands in any private room that the bot has been added.  But will only be able to do so after its added.
 
 ### Verify your bot is working
+
 Try:
+
 ```
 rocketbot ping
 ```
 
 And:
+
 ```
 rocketbot help
 ```
-The example bot under `scripts` directory respeonds to:
+
+The example bot under `scripts` directory responds to:
+
 ```
 rocketbot report status
 ```
 
 ## Developers
 
-If you're interested in helping expand the adapter please check out the repo: https://github.com/RocketChat/hubot-rocketchat
+If you're interested in helping expand the adapter please check out the repo: <https://github.com/RocketChat/hubot-rocketchat>
 
-#### Additional details
+### Additional details
+
 Look under the `scripts` directory, you will find a very basic bot there.
 
 Just add your own script in the directory to have it loaded.  If you are new to hubot script writing, find out more [here](https://hubot.github.com/docs/scripting/).

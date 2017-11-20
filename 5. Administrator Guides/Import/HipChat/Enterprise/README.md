@@ -3,10 +3,11 @@
 To import your current data from HipChat Enterprise into Rocket.Chat, please do the following.
 
 ## Export from HipChat Enterprise
+
 This is a copy from the HipChat Enterprise Documentation:
 
 1. Browse to the fully qualified domain name you've configured for your HipChat Server, for example `https://hipchat.yourcompany.com/`.
-2. Log into the web user interface (UI) using your administrator email and password. 
+2. Log into the web user interface (UI) using your administrator email and password.
 3. Click **Server admin > Export.**
 4. To include files and one-to-one chat history in the export, select the check boxes.
 5. In the **Password** and **Confirm Password** fields, create a password to protect your archive file. You're required to provide this password when you import your data into HipChat Server. We don't store this password, so be sure to remember it.
@@ -14,6 +15,7 @@ This is a copy from the HipChat Enterprise Documentation:
 7. When you receive the email, click the link in the email to download the archive file.
 
 ## Import into Rocket.Chat
+
 1. Decrypt the exported file: `openssl aes-256-cbc -d -in path_to_encrypted_file.tar.gz.aes -out path_to_decrypted_file.tar.gz -pass pass:your_password` See the table below for descriptions of the command line arguments.
 2. Ensure the file generated is a `tar.gz` file, otherwise Rocket.Chat won't accept it.
 3. Go to `https://[your_rocketchat]/admin/import/prepare/hipchatenterprise`
@@ -22,6 +24,7 @@ This is a copy from the HipChat Enterprise Documentation:
 6. At the top of the page, click on **Start Importing**
 
 ### OpenSSL Command Arguments
+
 | Argument | Notes |
 | --- | --- |
 | `aes-256-cbc` | This is the cipher to use to decrypt the file. |

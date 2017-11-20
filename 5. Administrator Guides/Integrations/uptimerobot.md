@@ -1,3 +1,5 @@
+# UptimeRobot
+
 Add UptimeRobot notifications via a new WebHook in Rocket.Chat
 
 1. In Rocket.Chat go to "Administration"->"Integrations" and create "New Integration"
@@ -16,6 +18,7 @@ Add UptimeRobot notifications via a new WebHook in Rocket.Chat
 ```
 
 Paste this in javascript in the "Script" textarea on Rocket.Chat webhook settings
+
 ```javascript
 /* exported Script */
 /* globals console, _, s */
@@ -34,7 +37,7 @@ class Script {
   process_incoming_request({ request }) {
     var status;
     var color;
-      
+
     if (request.content.status === '2') {
       color="green";
       status="Up.";

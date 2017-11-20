@@ -1,12 +1,14 @@
 # Minio
 
-### Introduction
+## Introduction
+
 Minio is an object storage server built for cloud applications and DevOps. Minio is S3 compatible and provides an open source
 alternative to AWS S3. You can [download and install](https://minio.io/downloads) Minio pretty quickly. Minio also provides [official Docker image](https://hub.docker.com/r/minio/minio/). For further details, check out [Minio documentation website](https://docs.minio.io/).
 
-### AccessKey and SecretKey
+## AccessKey and SecretKey
 
-Once you install and deploy Minio server, you can get the AccessKey and SecretKey from the startup message.  
+Once you install and deploy Minio server, you can get the AccessKey and SecretKey from the startup message.
+
 ```
 2017-01-24T19:53:21.141689279Z
 2017-01-24T19:53:21.141730078Z Endpoint:  http://172.17.0.2:9000  http://127.0.0.1:9000
@@ -29,9 +31,11 @@ Once you install and deploy Minio server, you can get the AccessKey and SecretKe
 2017-01-24T19:53:21.142027614Z
 2017-01-24T19:53:21.142030994Z Drive Capacity: 262 GiB Free, 303 GiB Total
 ```
+
 To override Minio's auto-generated keys, you may pass secret and access keys explicitly as environment variables. Explained [here](https://docs.minio.io/docs/minio-docker-quickstart-guide)
 
-### Setup Rocket.Chat to use Minio
+## Setup Rocket.Chat to use Minio
+
 To setup Minio as the file storage server in Rocket.Chat, go to `File Uploads` section under `administration`, then set `Storage Type: GridFS (default)` to `AmazonS3`. Next, access the AmazonS3 menu and update the following details:
 
 | Configuration Name | Description |
@@ -40,12 +44,12 @@ To setup Minio as the file storage server in Rocket.Chat, go to `File Uploads` s
 | Access Key | Minio server Access Key |
 | Secret Key | Minio server Secret Access Key |
 | Region |  us-east-1 |
-| Bucket URL | http://[your.minio.domain/bucketname] |
+| Bucket URL | <http://[your.minio.domain/bucketname]> |
 | Signature Version | v2 (This may not be needed if using ssl) |
 | Force Path Style | true (this may not be needed if using ssl) |
 | URLs expiration time | 0 (if you want that your files don't have an expiry date) |
 
-### Production setup
+## Production setup
 
 In production you can use a reverse proxy with Minio server. Check out the documentation for [Nginx](https://docs.minio.io/docs/setup-nginx-proxy-with-minio#main), [Apache](https://docs.minio.io/docs/setup-apache-http-proxy-with-minio-server) and [Apache2](https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension).
 

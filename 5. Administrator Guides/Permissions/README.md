@@ -2,19 +2,19 @@
 
 Permission changes are immediate and transparent.  Users do not need to logout, login or refresh to change permissions.
 
-### Roles Available
+## Roles Available
 
-* admin
-* moderator
-* owner
-* user
-* bot
-* guest
-* livechat-agent
-* livechat-manager
-* livechat-guest
+- admin
+- moderator
+- owner
+- user
+- bot
+- guest
+- livechat-agent
+- livechat-manager
+- livechat-guest
 
-### Permissions Available
+## Permissions Available
 
 |  Permission    | Purpose
 |  :---  | :----
@@ -86,6 +86,3 @@ Permission changes are immediate and transparent.  Users do not need to logout, 
 | view-room-administration | Enables Administration -> Rooms module.  Enables ability to view public, private and direct message statistics.  Does not include the ability to view conversations or archives.
 | view-statistics | Enables Administration -> Info module. Enables ability to view system statistics such as number of users logged in, number of rooms, operating system information.
 | view-user-administration | Enables Administration -> Users module.  Only includes partial, read-only list view of other user accounts currently logged into the system.  No user account information is accessible with this permission.  Add view-full-other-user-info to see complete list of other users via the Administration -> Users module.
-
-
-
