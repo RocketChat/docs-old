@@ -1,6 +1,6 @@
 # Deploying Rocket.Chat Server Binaries on a FreeBSD system
 
-This is the recommended production deployment method on and is based on the excellent  (Meteor Universal fork)[http://meteor-universal.tumblr.com/]  by Tom Freudenberg. 
+This is the recommended production deployment method on and is based on the excellent [Meteor Universal fork](http://meteor-universal.tumblr.com/) by Tom Freudenberg.
 
 As `root`:
 
@@ -46,8 +46,8 @@ A very crude startup file for the server, (very ugly, does not fork, don't set r
 # Add the following lines to /etc/rc.conf.local or /etc/rc.conf
 # to enable this service:
 #
-# rocketchat_enable (bool):  Set to "NO" by default. 
-# rocketchat_env (str):      List of environment variables passed to rocketchat
+# rocketchat_enable (bool): Set to "NO" by default.
+# rocketchat_env (str): List of environment variables passed to rocketchat
 #
 
 . /etc/rc.subr

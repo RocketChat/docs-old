@@ -9,4 +9,3 @@ Create an account using your email address and deploy Rocket.Chat in one click:
 Deployed in less than 2 minutes. Enjoy Rocket.Chat at rocket speed!
 
 Layershift manage the servers, so you can chat without worries.
-

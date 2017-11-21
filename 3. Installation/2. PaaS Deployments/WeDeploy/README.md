@@ -2,8 +2,8 @@
 
 ## What you'll need
 
-* [WeDeploy Account](https://console.wedeploy.com/signup)
-* [WeDeploy CLI](https://wedeploy.com/docs/intro/using-the-command-line/#1)
+- [WeDeploy Account](https://console.wedeploy.com/signup)
+- [WeDeploy CLI](https://wedeploy.com/docs/intro/using-the-command-line/#1)
 
 ### 1. Create Node app
 

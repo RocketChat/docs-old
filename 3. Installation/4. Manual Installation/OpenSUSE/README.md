@@ -1,9 +1,9 @@
 # Install and Run Rocket.Chat on OpenSUSE Leap 42.2
 
-
 _Last updated 2017-08-26_
 
-Node.js version: 4.8.4<br>
+Node.js version: 4.8.4
+
 Rocket.Chat version: 0.58.2
 
 These are barebones instructions for how to set up a Rocket.Chat server on OpenSUSE Leap 42.2 using nginx as a reverse proxy. These will help you set up a system you can experiment with. **THEY ARE NOT INTENDED FOR SETUP OF A PRODUCTION SYSTEM!** They are oriented on using a VM from AWS, but should work for any Leap 42.2 system.
@@ -13,35 +13,35 @@ These are barebones instructions for how to set up a Rocket.Chat server on OpenS
 You will install and configure:
 
 1. Node.js
-1. MongoDB
-1. Let's Encrypt SSL certificates
-1. nginx
-1. Rocket.Chat and its dependencies
+2. MongoDB
+3. Let's Encrypt SSL certificates
+4. nginx
+5. Rocket.Chat and its dependencies
 
 To do this, you will:
 
 1. Acquire a VM to install on
-1. Install all the packages you'll need
-1. Start and configure MongoDB
-1. Install Let's Encrypt SSL certificates
-1. Configure and start nginx
-1. Install and start Rocket.Chat
+2. Install all the packages you'll need
+3. Start and configure MongoDB
+4. Install Let's Encrypt SSL certificates
+5. Configure and start nginx
+6. Install and start Rocket.Chat
 
 Things you'll need to do afterwards on your own, **especially if you want a production-worthy system**:
 
-* Create a `systemctl` script to restart Rocket.Chat if the server is rebooted
-* Configure email on the server (so Rocket can request account validation)
-* Secure the server (e.g. get rid of the default user on a VM, etc.)
-* Monitor the server so you can respond if it goes down
-  * Rocket.Chat availability
-  * MongoDB availability
-  * nginx availability
-* Configure MongoDB for production use
-  * Use an XFS volume
-  * Use persistent (e.g. non-local) storage if you're using a VM
-  * Configure replica sets
-  * Consider setting /sys/kernel/mm/transparent_hugepage/enabled to "never" as recommended by Mongo at startup
-* Set up periodic updates for the system
+- Create a `systemctl` script to restart Rocket.Chat if the server is rebooted
+- Configure email on the server (so Rocket can request account validation)
+- Secure the server (e.g. get rid of the default user on a VM, etc.)
+- Monitor the server so you can respond if it goes down
+    - Rocket.Chat availability
+    - MongoDB availability
+    - nginx availability
+- Configure MongoDB for production use
+    - Use an XFS volume
+    - Use persistent (e.g. non-local) storage if you're using a VM
+    - Configure replica sets
+    - Consider setting /sys/kernel/mm/transparent_hugepage/enabled to "never" as recommended by Mongo at startup
+- Set up periodic updates for the system
 
 ## Acquire a VM with OpenSUSE Leap 42.2
 
@@ -71,9 +71,9 @@ The default user in the Leap 42.2 image is `ec2-user`. You'll ssh into the box u
 ### Update and Install Packages using zypper
 
 1. Add the repo for MongoDB
-1. Refresh metadata for all repos
-1. Update all the packages on the box
-1. Install the new packages we need
+2. Refresh metadata for all repos
+3. Update all the packages on the box
+4. Install the new packages we need
 
 ```
 zypper addrepo http://download.opensuse.org/repositories/server:database/openSUSE_Leap_42.2/server:database.repo
@@ -85,8 +85,8 @@ zypper -n install mongodb nodejs4 npm4 nginx GraphicsMagick gcc-c++
 ### Start and Configure MongoDB
 
 1. Enable and start MongoDB
-1. Create the admin user
-1. Create the DB and user for Rocket.Chat
+2. Create the admin user
+3. Create the DB and user for Rocket.Chat
 
 In a shell:
 
@@ -132,8 +132,8 @@ exit
 
 This is so crazy easy. Remember when this was hard, and when it cost $20-$200 per year? Please consider using one of the donation links given afterwards as a way to support continued development of CertBot.
 
-* https://letsencrypt.org/donate
-* https://eff.org/donate-le
+- <https://letsencrypt.org/donate>
+- <https://eff.org/donate-le>
 
 Replace `YOUR.SERVER.NAME` below with the hostname your server will be accessed from, e.g. `chat.example.com`, and replace `YOUR@EMAIL.ADDRESS` with your email address, e.g. `admin@example.com`
 
@@ -145,9 +145,9 @@ cd /opt/letsencrypt && ./letsencrypt-auto certonly --standalone --email YOUR@EMA
 ### Configure and Start nginx
 
 1. Set up a more modern site config management scheme
-1. Set the base `nginx` config
-1. Add the config needed for Rocket.Chat
-1. Enable and start nginx
+2. Set the base `nginx` config
+3. Add the config needed for Rocket.Chat
+4. Enable and start nginx
 
 ```
 cd /etc/nginx
@@ -157,7 +157,7 @@ mkdir sites-enabled sites-available
 Now do two things:
 
 1. Replace the contents of ``/etc/nginx.conf`` with the `nginx.conf` below.
-1. Copy the contents of `rocket_chat.conf` below to `/etc/nginx/sites-available/rocket_chat.conf`
+2. Copy the contents of `rocket_chat.conf` below to `/etc/nginx/sites-available/rocket_chat.conf`
 
 Now you can enable the Rocket.Chat config, then enable and start nginx
 
@@ -172,10 +172,10 @@ systemctl start nginx
 ### Install and Configure Rocket.Chat
 
 1. Add a `rocket` user and group
-1. Download the latest Rocket.Chat
-1. Install all the node.js dependencies for Rocket.Chat using `npm`
-1. Set the required environment variables
-1. Start the Rocket.Chat server
+2. Download the latest Rocket.Chat
+3. Install all the node.js dependencies for Rocket.Chat using `npm`
+4. Set the required environment variables
+5. Start the Rocket.Chat server
 
 Replace `YOUR.SERVER.NAME` below with the hostname your server will be accessed from, e.g. `chat.example.com`
 
@@ -242,19 +242,19 @@ ufs: temp directory created at "/tmp/ufs"
 ➔ +--------------------------------------------------------+
 ```
 
-... and that's Rocket.Chat all set. Direct a browser to https://YOUR.SERVER.NAME and register a yourself as new user. The first user you register will be made the server admin.
+... and that's Rocket.Chat all set. Direct a browser to <https://YOUR.SERVER.NAME> and register a yourself as new user. The first user you register will be made the server admin.
 
 ## Sources
 
 These are docs and snippets I used to figure all of this out.
 
-https://en.opensuse.org/MongoDB
+<https://en.opensuse.org/MongoDB>
 
-https://rocket.chat/docs/installation/manual-installation/ubuntu
+<https://rocket.chat/docs/installation/manual-installation/ubuntu/>
 
-https://rocket.chat/docs/installation/paas-deployments/aws/
+<https://rocket.chat/docs/installation/paas-deployments/aws/>
 
-https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-deploy-rocket-chat-on-ubuntu-14-04
+<https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-deploy-rocket-chat-on-ubuntu-14-04>
 
 ## Config Files
 
@@ -268,85 +268,85 @@ worker_processes auto;
 pid /run/nginx.pid;
 
 events {
-	worker_connections 768;
-	# multi_accept on;
+    worker_connections 768;
+    # multi_accept on;
 }
 
 http {
 
-	##
-	# Basic Settings
-	##
+    ##
+    # Basic Settings
+    ##
 
-	sendfile on;
-	tcp_nopush on;
-	tcp_nodelay on;
-	keepalive_timeout 65;
-	types_hash_max_size 2048;
-	# server_tokens off;
+    sendfile on;
+    tcp_nopush on;
+    tcp_nodelay on;
+    keepalive_timeout 65;
+    types_hash_max_size 2048;
+    # server_tokens off;
 
-	# server_names_hash_bucket_size 64;
-	# server_name_in_redirect off;
+    # server_names_hash_bucket_size 64;
+    # server_name_in_redirect off;
 
-	include /etc/nginx/mime.types;
-	default_type application/octet-stream;
+    include /etc/nginx/mime.types;
+    default_type application/octet-stream;
 
-	##
-	# SSL Settings
-	##
+    ##
+    # SSL Settings
+    ##
 
-	ssl_protocols TLSv1 TLSv1.1 TLSv1.2; # Dropping SSLv3, ref: POODLE
-	ssl_prefer_server_ciphers on;
+    ssl_protocols TLSv1 TLSv1.1 TLSv1.2; # Dropping SSLv3, ref: POODLE
+    ssl_prefer_server_ciphers on;
 
-	##
-	# Logging Settings
-	##
+    ##
+    # Logging Settings
+    ##
 
-	access_log /var/log/nginx/access.log;
-	error_log /var/log/nginx/error.log;
+    access_log /var/log/nginx/access.log;
+    error_log /var/log/nginx/error.log;
 
-	##
-	# Gzip Settings
-	##
+    ##
+    # Gzip Settings
+    ##
 
-	gzip on;
-	gzip_disable "msie6";
+    gzip on;
+    gzip_disable "msie6";
 
-	# gzip_vary on;
-	# gzip_proxied any;
-	# gzip_comp_level 6;
-	# gzip_buffers 16 8k;
-	# gzip_http_version 1.1;
-	# gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
+    # gzip_vary on;
+    # gzip_proxied any;
+    # gzip_comp_level 6;
+    # gzip_buffers 16 8k;
+    # gzip_http_version 1.1;
+    # gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
 
-	##
-	# Virtual Host Configs
-	##
+    ##
+    # Virtual Host Configs
+    ##
 
-	include /etc/nginx/conf.d/*.conf;
-	include /etc/nginx/sites-enabled/*;
+    include /etc/nginx/conf.d/*.conf;
+    include /etc/nginx/sites-enabled/*;
 }
 
 
 #mail {
-#	# See sample authentication script at:
-#	# http://wiki.nginx.org/ImapAuthenticateWithApachePhpScript
+#   # See sample authentication script at:
+#   # http://wiki.nginx.org/ImapAuthenticateWithApachePhpScript
 #
-#	# auth_http localhost/auth.php;
-#	# pop3_capabilities "TOP" "USER";
-#	# imap_capabilities "IMAP4rev1" "UIDPLUS";
+#   # auth_http localhost/auth.php;
+#   # pop3_capabilities "TOP" "USER";
+#   # imap_capabilities "IMAP4rev1" "UIDPLUS";
 #
-#	server {
-#		listen     localhost:110;
-#		protocol   pop3;
-#		proxy      on;
-#	}
+#   server {
+#       listen     localhost:110;
+#       protocol   pop3;
+#       proxy      on;
+#   }
 #
-#	server {
-#		listen     localhost:143;
-#		protocol   imap;
-#		proxy      on;
-#	}
+#   server {
+#       listen     localhost:143;
+#       protocol   imap;
+#       proxy      on;
+#   }
 #}
 ```
 

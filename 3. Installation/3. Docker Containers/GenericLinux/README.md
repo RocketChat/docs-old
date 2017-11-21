@@ -28,7 +28,6 @@ Just run:
 
 This will create a dump of the mongo database. Then just copy the data folder to a safe location and you should be fine!
 
-## Question?
+## Questions
 
 If you have any questions, don't hesitate to open issues.
-

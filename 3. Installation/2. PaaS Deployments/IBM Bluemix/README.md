@@ -2,9 +2,9 @@
 
 IBM Bluemix includes three separate cloud platforms
 
-* CloudFoundry Runtimes
-* IBM Containers - based on Docker (in beta)
-* Virtual Machines (in beta)
+- CloudFoundry Runtimes
+- IBM Containers - based on Docker (in beta)
+- Virtual Machines (in beta)
 
 Rocket.Chat can be easily deployed onto any of these cloud platforms.
 
@@ -14,9 +14,9 @@ CloudFoundry is a very mature platform, it is the only Bluemix platform for prod
 
 ## Pre-requsite
 
-* a Bluemix account - free trial account will do
-* the CloudFoundry command line client (cf) installed  (version 6.10 or higher)
-* git
+- a Bluemix account - free trial account will do
+- the CloudFoundry command line client (cf) installed  (version 6.10 or higher)
+- git
 
 ## Deploying Rocket.Chat
 

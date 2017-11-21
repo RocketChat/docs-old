@@ -1,4 +1,5 @@
 # Rocket.Chat Windows Installation Guide
+
 ## How to install Rocket.Chat on Windows Server 2012 R2
 
 The following guide will step through the various steps for installing Rocket.Chat on Windows Server 2012 R2.
@@ -13,8 +14,8 @@ Mobile clients (iOS and Android) are currently not supported using this method o
 
 To start, go to `Control Panel -> Programs and Features` and uninstall each of the following (if present):
 
-* Microsoft Visual C++ 2010 x64 Redistributable
-* Microsoft Visual C++ 2010 x86 Redistributable
+- Microsoft Visual C++ 2010 x64 Redistributable
+- Microsoft Visual C++ 2010 x86 Redistributable
 
 Then, download and install each of the following **in order**:
 
@@ -26,7 +27,6 @@ Then, download and install each of the following **in order**:
 6. [GraphicsMagick](http://www.graphicsmagick.org/INSTALL-windows.html#prerequisites)
 7. [Ghostscript](http://ghostscript.com/download/gsdnld.html) (Optional for PDF rendering)
 
-
 ### MongoDB
 
 1. Download [MongoDB](https://www.mongodb.org/downloads#production). (Note: This can be done on a separate computer)
@@ -34,15 +34,16 @@ Then, download and install each of the following **in order**:
 3. Click the `Browse` button to select desired install path, such as `C:\MongoDB`
 4. Continue through the rest of the installer.
 5. Now open NotePad and enter the following, replacing [Data Path] with where the database will be stored, such as `C:\MongoDB\data`
-  ```
-  systemLog:
-      destination: file
-      path: [Data Path]\logs\mongod.log
-  storage:
-      dbPath: [Data Path]\data
-  replication:
-      replSetName: rs1
-  ```
+
+    ```
+    systemLog:
+        destination: file
+        path: [Data Path]\logs\mongod.log
+    storage:
+        dbPath: [Data Path]\data
+    replication:
+        replSetName: rs1
+    ```
 
 6. Save the file as `[Installation Path]\mongod.cfg` where [Installation Path] is the location you installed Mongo
 7. Open the Command Prompt by pressing `Windows Key + R` and then entering `cmd`, right click on Command Prompt and select `Run as administrator`
@@ -62,6 +63,7 @@ Then, download and install each of the following **in order**:
   > rs.initiate()
   > exit
   ```
+
   _Note: Do not include the `>`_
 
 ### Rocket.Chat files
@@ -81,12 +83,11 @@ Rocket.Chat is built on top of Node.js v4.8.4. So we need to install this first.
 
 1. Open the *Windows SDK 7.1 Command Prompt* by pressing Start, typing its name, and clicking on it in the search results (Note: It needs to be the SDK Command Prompt)
 2. Now enter the following, replacing:
-  * [Installation Path] with the location you placed the Rocket.Chat files
-  * [Port to Use] with the port for the Rocket.Chat server to use, such as `3000`
-  * [Rocket.Chat URL] with the URL you will use for Rocket.Chat, such as `rocketchat.example.com`
-  * [Address to MongoDB] with the IP Address of your MongoDB. (NOTE: If you didn't install Mongo on another computer, use `localhost`)
-  * [MongoDB Database] with the name of the database you would like to use, such as `rocketchat`
-
+    - [Installation Path] with the location you placed the Rocket.Chat files
+    - [Port to Use] with the port for the Rocket.Chat server to use, such as `3000`
+    - [Rocket.Chat URL] with the URL you will use for Rocket.Chat, such as `rocketchat.example.com`
+    - [Address to MongoDB] with the IP Address of your MongoDB. (NOTE: If you didn't install Mongo on another computer, use `localhost`)
+    - [MongoDB Database] with the name of the database you would like to use, such as `rocketchat`
 
   ```
   > SetEnv /x86
@@ -157,8 +158,7 @@ The following steps will detail integrating Rocket.Chat with IIS.
 
 #### Troubleshooting
 
-* If the Rocket.Chat service isn't running, check the Event Viewer under `Windows Logs\Application` for errors from the Rocket.Chat service.
-* If the page didn't load, check the log files in [Data Path]\logs for clues.
-* If that doesn't help, or if you had any other problems during the process, try searching our [GitHub Issues](https://github.com/RocketChat/Rocket.Chat/issues)
-* If you are still having problems, visit the [#support](https://open.rocket.chat/channel/support) channel and we'll be happy to help.
-a
+- If the Rocket.Chat service isn't running, check the Event Viewer under `Windows Logs\Application` for errors from the Rocket.Chat service.
+- If the page didn't load, check the log files in [Data Path]\logs for clues.
+- If that doesn't help, or if you had any other problems during the process, try searching our [GitHub Issues](https://github.com/RocketChat/Rocket.Chat/issues)
+- If you are still having problems, visit the [#support](https://open.rocket.chat/channel/support) channel and we'll be happy to help.

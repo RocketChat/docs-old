@@ -4,28 +4,31 @@ Rocket.Chat is a rapidly-moving FOSS project. We maintain 3 Docker images for th
 
 Discovering existing releases: You can select the release you need from our [GitHub Release Page](https://github.com/RocketChat/Rocket.Chat/releases). Here's a description of our [current branching strategy](/6.%20Developer%20Guides%2FBranches%20and%20Releases/).
 
-### Official image (stable and tested)
+## Official image (stable and tested)
+
 The [Official Docker Images Repository](https://docs.docker.com/docker-hub/official_repos/) is where Rocket.Chat's Official, stable image is maintained and controlled by Docker, and reviewed by the Docker committee.
 
 ```
 docker pull rocket.chat
 ```
 
-### Latest Release Image
+## Latest Release Image
+
 This is an image that is maintained at Rocket.Chat's own docker repository. The release may be from the develop or master branch.
 
 ```
 docker pull rocketchat/rocket.chat:latest
 ```
 
-### Specific Release Image
+## Specific Release Image
+
 This is an image that is maintained at Rocket.Chat's own docker repository. It is associated with a release build.
 
 ```
 docker pull rocketchat/rocket.chat:X.X.X
 ```
 
-#### Discovering existing releases
+### Discovering existing releases
 
 You can select the release you need from our [DockerHub Tags](https://hub.docker.com/r/rocketchat/rocket.chat/tags/).
 
