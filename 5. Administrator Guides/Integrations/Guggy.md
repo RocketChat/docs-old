@@ -4,9 +4,9 @@
 
 Follow the install instructions here:
 
-https://github.com/thorstenspringhart/GuggyRocketChat
+<https://github.com/thorstenspringhart/GuggyRocketChat>
 
-* API keys can be obtained via api@guggy.com
-* Support can be obtained via support@guggy.com
+- API keys can be obtained via api@guggy.com
+- Support can be obtained via support@guggy.com
 
 Thanks to **Thorsten Springhart** (thollsten@gmail.com)

@@ -18,7 +18,7 @@ Consider the following department configuration:
 
 ![image](image1.png)
 
-When a new chat comes, it'll be routed to `agent-1`, because he has `0` count and is the first in order, 
+When a new chat comes, it'll be routed to `agent-1`, because he has `0` count and is the first in order,
 and the `agent-1`'s count will be increased to `1`:
 
 ![image](image2.png)

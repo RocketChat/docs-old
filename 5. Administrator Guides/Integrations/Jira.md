@@ -10,14 +10,12 @@ _notify on issue creation, deletion and status, resolution, comment or priority 
 
 You can tweak the content of the script to better sweets your needs
 
-# Add Jira integration via Outgoing WebHook
+## Add Jira integration via Outgoing WebHook
 
 _Integration for Rocket.Chat that summarizes any JIRA issues mentioned._
 
-1. Go to https://github.com/gustavkarlsson/rocketchat-jira-trigger and follow the instructions.  
-  
-  
-  
-Example of Jira integration:  
-  
+1. Go to <https://github.com/gustavkarlsson/rocketchat-jira-trigger> and follow the instructions.
+
+Example of Jira integration:
+
 ![image](Jira-webhook.png)

@@ -5,15 +5,15 @@ You'll need to set the following _CORS Configuration_ to your bucket:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
-	<CORSRule>
-		<AllowedOrigin>*</AllowedOrigin>
-		<AllowedMethod>PUT</AllowedMethod>
-		<AllowedMethod>POST</AllowedMethod>
-		<AllowedMethod>GET</AllowedMethod>
-		<AllowedMethod>HEAD</AllowedMethod>
-		<MaxAgeSeconds>3000</MaxAgeSeconds>
-		<AllowedHeader>*</AllowedHeader>
-	</CORSRule>
+    <CORSRule>
+        <AllowedOrigin>*</AllowedOrigin>
+        <AllowedMethod>PUT</AllowedMethod>
+        <AllowedMethod>POST</AllowedMethod>
+        <AllowedMethod>GET</AllowedMethod>
+        <AllowedMethod>HEAD</AllowedMethod>
+        <MaxAgeSeconds>3000</MaxAgeSeconds>
+        <AllowedHeader>*</AllowedHeader>
+    </CORSRule>
 </CORSConfiguration>
 ```
 
@@ -26,7 +26,6 @@ Config. Name | Description
 **Amazon S3 bucket name** | The bucket name you've created on Amazon S3
 **Amazon S3 AWSAccessKeyId** | Your Amazon Access Key ID
 **Amazon S3 AWSSecretAccessKey** | Your Amazon Secret Access Key
-
 
 ## Advanced configuration
 

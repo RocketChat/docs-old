@@ -5,7 +5,7 @@ This integration uses Rocket.Chat incoming webhook.
 
 Follow the install instructions here:
 
-https://github.com/koyan/rocketchat-google-calendar
+<https://github.com/koyan/rocketchat-google-calendar>
 
 Screenshot with this integration:
 

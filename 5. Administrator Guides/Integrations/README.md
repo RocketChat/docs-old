@@ -3,16 +3,18 @@
 With *Scripts* you can point any WebHook to Rocket.Chat and process the request to print customized messages, define the username and avatar of the *user* of the message and change the channel where the message will be posted or you can cancel the request to prevent undesired messages.
 
 ## How to create a new Incoming WebHook
-* Go to your admin page
-* Go to Integrations
-* Create a **New Integration** and select **Incoming WebHook**
-* Select the channel were you will receive the alerts (you can override in messages)
-* Set **Script Enabled** to **True**
-* Paste your script inside the **Script** field
-* Save the integration
-* Use the generated **WebHook URL** to POST messages to Rocket.Chat
 
-## Script Details
+- Go to your admin page
+- Go to Integrations
+- Create a **New Integration** and select **Incoming WebHook**
+- Select the channel were you will receive the alerts (you can override in messages)
+- Set **Script Enabled** to **True**
+- Paste your script inside the **Script** field
+- Save the integration
+- Use the generated **WebHook URL** to POST messages to Rocket.Chat
+
+## Incoming Script Details
+
 The script should be in **ES2015 / ECMAScript 6**
 
 The script expects a global class called **Script**, this class will be instantiated just **one** time (on the first execution) and kept in memory
@@ -88,23 +90,25 @@ class Script {
 }
 ```
 
+## Outgoing WebHook Scripting
 
-# Outgoing WebHook Scripting
 With *Scripts* you can process all messages from a channel and change how Rocket.Chat will do the request or cancel the request. You can cancel the request and return a message or just do nothing. You can do another requests inside the script using the global helper **HTTP**.
 
 The response of the request will execute the script too, calling another method so you can process the response as you can do in **Incoming WebHooks**
 
-## How to create a new Outgoing WebHook
-* Go to your admin page
-* Go to Integrations
-* Create a **New Integration** and select **Outgoing WebHook**
-* Select the channel where you will use the commands and receive the responses
-* Put the url you want to call in **URLs**, you can modify this url inside the script
-* Set **Script Enabled** to **True**
-* Paste your script inside the **Script** field
-* Save your integration
+### How to create a new Outgoing WebHook
 
-## Script Details
+- Go to your admin page
+- Go to Integrations
+- Create a **New Integration** and select **Outgoing WebHook**
+- Select the channel where you will use the commands and receive the responses
+- Put the url you want to call in **URLs**, you can modify this url inside the script
+- Set **Script Enabled** to **True**
+- Paste your script inside the **Script** field
+- Save your integration
+
+### Outgoing Script Details
+
 The script should be in **ES2015 / ECMAScript 6**
 
 The script expects a global class called **Script**, this class will be instantiated just **one** time (on the first execution) and kept in memory

@@ -1,4 +1,5 @@
 # Zapier
+
 So, you're interested in connecting Zapier to Rocket.Chat? I have great news for you, the Rocket.Chat Zapier App is now in public Beta!
 
 Okay okay, before you get started there are a few things that you have to check.

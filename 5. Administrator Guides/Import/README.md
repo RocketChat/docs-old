@@ -7,4 +7,3 @@ Import data from other services
 ## Hipchat
 
 ## Mattermost
-
