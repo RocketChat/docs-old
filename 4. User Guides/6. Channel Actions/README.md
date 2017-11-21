@@ -65,10 +65,10 @@ You can also jump to where a message is located by hovering your mouse over the 
 
 If you're interested, please use the following references to learn more about the world of regex.
 
-* Wikipedia - https://en.wikipedia.org/wiki/Regular_expression
-* Regex 101 - https://regex101.com/#javascript
-* Regexr - http://regexr.com/
-* Regex Info - http://www.regular-expressions.info/javascriptexample.html
+- Wikipedia - <https://en.wikipedia.org/wiki/Regular_expression>
+- Regex 101 - <https://regex101.com/#javascript>
+- Regexr - <http://regexr.com/>
+- Regex Info - <http://www.regular-expressions.info/javascriptexample.html>
 
 ## Members List
 
