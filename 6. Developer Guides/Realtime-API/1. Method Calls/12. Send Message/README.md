@@ -1,10 +1,10 @@
 # Send Message
 
-There are a few ways to comunicate when using Rocket.Chat, as described below.
+There are a few ways to communicate when using Rocket.Chat, as described below.
 
 ## Sending a text message
 
-The most basic (and more common) way to comunicate is through plain text. You're going to use the `sendMessage` method and send a single parameter: the `message`.
+The most basic (and more common) way to communicate is through plain text. You're going to use the `sendMessage` method and send a single parameter: the `message`.
 
 The `sendMessage` is described as:
 
@@ -35,9 +35,9 @@ In order to find out which storage system is used for the uploaded files, we nee
 - `AmazonS3`
 - `FileSystem`
 
-Sending a file is a bit more complex. It envolves two method calls and some HTTP requests. The flow is:
+Sending a file is a bit more complex. It involves two method calls and some HTTP requests. The flow is:
 
-- Send a `slingshot/uploadRequest` method call with some inital information about the upload (see example bellow)
+- Send a `slingshot/uploadRequest` method call with some initial information about the upload (see example bellow)
 - Use the returned information about the storage service to upload the file content (see example below)
 - Send a `sendFileMessage` method call with the extra information about the upload (see example bellow)
 
@@ -100,9 +100,10 @@ Second request (`sendFileMessage`):
 ```
 
 ## See Also
-* [The Message Object][1]
-* [Delete Message Method][2]
-* [Update Message Method][3]
+
+- [The Message Object][1]
+- [Delete Message Method][2]
+- [Update Message Method][3]
 
 [1]:../../3.%20The%20Message%20Object
 [2]:../12.%20Delete%20Message

@@ -1,8 +1,5 @@
----
-order: 40
----
-
 # IM Methods
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/im.close` | Removes a direct message from the list of direct messages. | [Link](close.md) |
@@ -14,5 +11,5 @@ order: 40
 | `/api/v1/im.setTopic` | Sets a direct message topic. | [Link](setTopic.md) |
 
 ## Notes
-From version 0.50.0 and on you can call the methods using `dm` instead of `im`.
 
+From version 0.50.0 and on you can call the methods using `dm` instead of `im`.

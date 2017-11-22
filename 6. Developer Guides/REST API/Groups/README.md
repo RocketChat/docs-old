@@ -1,8 +1,5 @@
----
-order: 40
----
-
 # Group Methods
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/groups.addAll` | Adds all of the users on the server to a private group. | [Link](addAll.md) |

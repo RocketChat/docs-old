@@ -1,12 +1,15 @@
 # Unarchive Rooms
-Unarchving a room removes it from being read only and then adds it back to the channel list on the left.
+
+Unarchiving a room removes it from being read only and then adds it back to the channel list on the left.
 
 ## Requirements
+
 | Logged In | Permission | Setting |
 | --- | --- | --- |
 | Yes | `unarchive-room` | _none_ |
 
 ## Payload
+
 1. String - the id of the room to unarchive
 
 ## Example Call
@@ -19,7 +22,7 @@ Unarchving a room removes it from being read only and then adds it back to the c
     "params": [
         "roomId"
     ]
-} 
+}
 ```
 
 ## Example Response
@@ -32,11 +35,12 @@ Unarchving a room removes it from being read only and then adds it back to the c
 ```
 
 ## See Also
-* [Create Channels][1]
-* [Create Private Groups][2]
-* [Delete Rooms][3]
-* [Archive Rooms][4]
-* [Save Room Settings][5]
+
+- [Create Channels][1]
+- [Create Private Groups][2]
+- [Delete Rooms][3]
+- [Archive Rooms][4]
+- [Save Room Settings][5]
 
 [1]:../19.%20Create%20Channel
 [2]:../20.%20Create%20Private%20Groups

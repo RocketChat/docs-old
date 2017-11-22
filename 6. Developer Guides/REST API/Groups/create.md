@@ -1,8 +1,5 @@
----
-order: 15
----
-
 # Group Create
+
 Creates a new private group, optionally including specified users. The group creator is always included.
 
 | URL | Requires Auth | HTTP Method |
@@ -10,6 +7,7 @@ Creates a new private group, optionally including specified users. The group cre
 | `/api/v1/groups.create` | `yes` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `name` | `testing` | Required | The name of the new private group |
@@ -17,6 +15,7 @@ Creates a new private group, optionally including specified users. The group cre
 | `readOnly` | `true` | Optional <br> Default: `false` | Set if the group is read only or not. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -26,6 +25,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "group": {
@@ -50,6 +50,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.35.0 | Added |

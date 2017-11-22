@@ -1,8 +1,5 @@
----
-order: 30
----
-
 # Channel Info
+
 Retrieves the information about the channel.
 
 | URL | Requires Auth | HTTP Method |
@@ -10,12 +7,14 @@ Retrieves the information about the channel.
 | `/api/v1/channels.info` | `yes` | `GET` |
 
 ## Query Parameters
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required (if no roomName) | The channel's id |
 | `roomName` | `general` | Required (if no roomId) | The channel's name |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -23,6 +22,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "channel": {
@@ -45,6 +45,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.48.0 | Added |

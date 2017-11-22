@@ -1,8 +1,5 @@
----
-order: 1
----
-
 # Create Integration
+
 Creates an integration, if the callee has the permission.
 
 | URL | Requires Auth | HTTP Method |
@@ -10,6 +7,7 @@ Creates an integration, if the callee has the permission.
 | `/api/v1/integrations.create` | `yes` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `type` | `webhook-outgoing` | Required | The type of integration to create, currently only `webhook-outgoing` is supported. |
@@ -27,6 +25,7 @@ Creates an integration, if the callee has the permission.
 | `script` | [Integrations](/administrator-guides/integrations/) | Optional | Script triggered when this integration is triggered. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -36,6 +35,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
     "integration": {
@@ -62,6 +62,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.49.0 | Added |

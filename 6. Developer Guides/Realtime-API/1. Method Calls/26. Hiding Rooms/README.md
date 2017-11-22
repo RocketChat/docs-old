@@ -1,12 +1,15 @@
 # Hiding Rooms
+
 When you hide a room, that room no longer shows up on the list of channels and marks the property `open` to `false` on the user's subscription of the room.
 
 ## Requirements
+
 | Logged In | Permission | Setting |
 | --- | --- | --- |
 | Yes | _none_ | _none_ |
 
 ## Payload
+
 1. String - the id of the room to leave
 
 ## Example Call
@@ -19,7 +22,7 @@ When you hide a room, that room no longer shows up on the list of channels and m
     "params": [
         "roomId"
     ]
-} 
+}
 ```
 
 ## Example Response
@@ -33,9 +36,10 @@ When you hide a room, that room no longer shows up on the list of channels and m
 ```
 
 ## See Also
-* [Joining Channels][1]
-* [Leaving Rooms][2]
-* [Create Channels][3]
+
+- [Joining Channels][1]
+- [Leaving Rooms][2]
+- [Create Channels][3]
 
 [1]:../24.%20Joining%20Channels
 [2]:../25.%20Leaving%20Rooms

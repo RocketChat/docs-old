@@ -1,12 +1,15 @@
 # Leaving Rooms
+
 You can leave any rooms, except for direct messages and except for rooms you are the last owner of.
 
 ## Requirements
+
 | Logged In | Permission | Setting |
 | --- | --- | --- |
 | Yes | _none_ | _none_ |
 
 ## Payload
+
 1. String - the id of the room to leave
 
 ## Example Call
@@ -19,7 +22,7 @@ You can leave any rooms, except for direct messages and except for rooms you are
     "params": [
         "roomId"
     ]
-} 
+}
 ```
 
 ## Example Response
@@ -32,8 +35,9 @@ You can leave any rooms, except for direct messages and except for rooms you are
 ```
 
 ## See Also
-* [Joining Channels][1]
-* [Create Channels][2]
+
+- [Joining Channels][1]
+- [Create Channels][2]
 
 [1]:../24.%20Joining%20Channels
 [2]:../19.%20Create%20Channel

@@ -1,7 +1,3 @@
----
-order: 10
----
-
 # Realtime API
 
 __IMPORTANT!__ These docs are based on an unreleased version of the API. If you want to try it out, point your client to __wss://open.rocket.chat/websocket__.
@@ -19,17 +15,19 @@ To make it possible to have everything working on the same connection we use RPC
 ```
 
 The type of communication is defined according to the call:
- - [Method Calls][1]: `method`
- - [Subscriptions][2]: `sub`
+
+- [Method Calls][1]: `method`
+- [Subscriptions][2]: `sub`
 
  Please note, the server will send you "ping" and you must respond with "pong" otherwise the server will close the connection.
 
 Before requesting any method / subscription you have to send a connect message:
+
 ```json
 {
-	"msg": "connect",
-	"version": "1",
-	"support": ["1"]
+    "msg": "connect",
+    "version": "1",
+    "support": ["1"]
 }
 ```
 

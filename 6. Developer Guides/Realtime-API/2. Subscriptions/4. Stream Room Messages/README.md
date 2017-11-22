@@ -2,7 +2,7 @@
 
 This is the room messages stream. You just need the room ID for subscribing.
 
- ```json
+```json
 {
     "msg": "sub",
     "id": "unique-id",

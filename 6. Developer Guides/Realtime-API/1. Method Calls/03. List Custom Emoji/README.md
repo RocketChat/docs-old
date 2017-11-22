@@ -60,5 +60,5 @@ Example:
 
 The URL to access this emoji will be:
 
-> http://yourhost.com/emoji-custom/Emoji%20Name.png
+> <http://yourhost.com/emoji-custom/Emoji%20Name.png>
 

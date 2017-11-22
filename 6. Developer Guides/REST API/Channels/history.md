@@ -1,8 +1,5 @@
----
-order: 25
----
-
 # Channel History
+
 Retrieves the messages from a channel.
 
 | URL | Requires Auth | HTTP Method |
@@ -10,6 +7,7 @@ Retrieves the messages from a channel.
 | `/api/v1/channels.history` | `yes` | `GET` |
 
 ## Query Parameters
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |
@@ -17,9 +15,10 @@ Retrieves the messages from a channel.
 | `oldest` | `2016-05-30T13:42:25.304Z` | Optional <br> Default: _n/a_ | The start of the time range of messages to retrieve |
 | `inclusive` | `true` | Optional <br> Default: `false` | Whether messages which land on latest and oldest should be included |
 | `count` | `100` | Optional <br> Default: `20` | The amount of messages to retrieve |
-| `unreads` | `false` | Optional <br> Default: `false` | Whether the amount of unreads should be included. |
+| `unreads` | `false` | Optional <br> Default: `false` | Whether the amount of unread messages should be included. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -27,6 +26,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "messages": [
@@ -86,6 +86,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.47.0 | Added |

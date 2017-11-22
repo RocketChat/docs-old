@@ -1,8 +1,5 @@
----
-order: 75
----
+# Settings Methods
 
-### Settings Methods
 You can get and update the settings via the REST API, only if you have permission to.
 
 | Url | Method | Short Description | Details Page |

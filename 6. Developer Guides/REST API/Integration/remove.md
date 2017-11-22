@@ -1,8 +1,5 @@
----
-order: 100
----
-
 # Remove Integration
+
 Removes an integration from the server.
 
 | URL | Requires Auth | HTTP Method |
@@ -10,12 +7,14 @@ Removes an integration from the server.
 | `/api/v1/integrations.remove` | `yes` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `type` | `webhook-outgoing` | Required | The type of integration to remove, currently only `webhook-outgoing` is supported. |
 | `integrationId` | `oNLthAt9RwMw39N2B` | Required | The id of the integration to remove. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -25,6 +24,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
     "integration": {
@@ -51,6 +51,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.49.0 | Added |

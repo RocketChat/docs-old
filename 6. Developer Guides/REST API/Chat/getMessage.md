@@ -1,8 +1,5 @@
----
-order: 20
----
-
 # Get a Single Chat Message
+
 Retrieves a single chat message by the provided id. Callee must have permission to access the room where the message resides.
 
 | URL | Requires Auth | HTTP Method |
@@ -10,11 +7,13 @@ Retrieves a single chat message by the provided id. Callee must have permission 
 | `/api/v1/chat.getMessage` | `yes` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `msgId` | `7aDSXtjMA3KPLxLjt` | Required | The id of the message to get. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -24,6 +23,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "message": {
@@ -41,6 +41,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.47.0 | Added |

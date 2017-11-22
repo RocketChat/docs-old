@@ -1,12 +1,15 @@
 # Favoriting Rooms
+
 When a user makes a room as a favorite, the yellow star appears and it moves the room up to the "favorites" section of the list of rooms.
 
 ## Requirements
+
 | Logged In | Permission | Setting |
 | --- | --- | --- |
 | Yes | _none_ | _none_ |
 
 ## Payload
+
 1. String - the id of the room to leave
 2. Boolean - whether the room is a favorite or not, defaults to true
 
@@ -21,7 +24,7 @@ When a user makes a room as a favorite, the yellow star appears and it moves the
         "roomId",
         true/false
     ]
-} 
+}
 ```
 
 ## Example Response
@@ -35,8 +38,9 @@ When a user makes a room as a favorite, the yellow star appears and it moves the
 ```
 
 ## See Also
-* [Joining Channels][1]
-* [Leaving Rooms][2]
+
+- [Joining Channels][1]
+- [Leaving Rooms][2]
 
 [1]:../24.%20Joining%20Channels
 [2]:../25.%20Leaving%20Rooms

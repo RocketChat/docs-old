@@ -1,24 +1,30 @@
 # Pin Message
+
 Pinning a message allows administrators and owners of rooms to easily store messages which are important.
 
 ## Requirements
+
 | Logged In | Permission | Setting |
 | --- | --- | --- |
 | Yes | _none_ | `Message_AllowPinning` - "Allow Message Pinning" |
 
 ## Example Call
+
 The only parameter that needs to be passed in is the [Message Object][1] and as of release `0.46` you need to send the entire message object otherwise an internal error will happen ([fixed via pull request #5087](https://github.com/RocketChat/Rocket.Chat/pull/5087)).
+
 ```json
 {
     "msg": "method",
     "method": "pinMessage",
     "id": "19",
     "params": [ fullMessageObject ]
-} 
+}
 ```
 
 ## Example Response
+
 The response of a message being pinned is a new chat message which contains the broadcast of the message pinning. See [Message Object Details][1] for information about the response format.
+
 ```json
 {
     "msg": "result",
@@ -46,8 +52,9 @@ The response of a message being pinned is a new chat message which contains the 
 ```
 
 ## See Also
-* [The Message Object][1]
-* [Pinning Messages User Guide][2]
+
+- [The Message Object][1]
+- [Pinning Messages User Guide][2]
 
 [1]:../../3.%20The%20Message%20Object
 [2]:../../../4.%20User%20Guides/Pinning%20Messages

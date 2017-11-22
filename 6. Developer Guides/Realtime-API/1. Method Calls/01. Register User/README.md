@@ -48,6 +48,7 @@ In the case there's an error on the request, a possible error response would be 
 ```
 
 ### Possible errors
+
 ```
 "reason": "error-user-registration-disabled",
 "message": "User registration is disabled [403]",
@@ -64,6 +65,7 @@ In the case there's an error on the request, a possible error response would be 
 ```
 
 #### Custom Fields related
+
 ```
 "reason": "error-user-registration-custom-field",
 "message": "Field ${ fieldName } is required [403]",
@@ -87,6 +89,7 @@ In the case there's an error on the request, a possible error response would be 
 ## Accounts_CustomFields
 
 Example of what we can find inside the `Accounts_CustomFields` **encoded as JSON**
+
 ```javascript
 {
     "role": {

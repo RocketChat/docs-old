@@ -1,6 +1,6 @@
 # UI Colors
 
-> NB: The UI is in active development and component refactoring will change (and hopefully improve) the use of color. The immidiate goal is to consolidate use of color and styles, before moving forward to a consistent style guide for Rocket.Chat.
+> NB: The UI is in active development and component refactoring will change (and hopefully improve) the use of color. The immediate goal is to consolidate use of color and styles, before moving forward to a consistent style guide for Rocket.Chat.
 
 [Most](https://github.com/RocketChat/Rocket.Chat/issues/4091)* use of color in Rocket.Chat can be customised by changing color settings under Administration > Layout > Colors. We encourage developers to use the defined variables in their contributions (instead of hard-coding colors), to allow site owners to change the color scheme with consistent results.
 
@@ -16,16 +16,16 @@ The Rocket.Chat color scheme consists of three groups of color settings, Alpha, 
 
 Some further variations of these colors are created in Less and not exposed to settings.
 
-The naming of color settings/variables is not related to any specific component, the names reflect the visual heirarchy that will (hopefully) make it obvious and easy to carry forward consistent color usage in newly contributed components and theme development.
+The naming of color settings/variables is not related to any specific component, the names reflect the visual hierarchy that will (hopefully) make it obvious and easy to carry forward consistent color usage in newly contributed components and theme development.
 
 ### Alpha Colors
 
 Semi-transparent black or white, used in components to shade/tint the background color, e.g. to indicate a selected or disabled state. The use of alpha colors allows site owners to easily change color scheme without defining every variation for every state of a component.
 
-* transparent-dark
-* transparent-darker
-* transparent-ight
-* transparent-ighter
+- transparent-dark
+- transparent-darker
+- transparent-light
+- transparent-lighter
 
 #### Alpha Colors Example
 
@@ -35,32 +35,32 @@ Semi-transparent black or white, used in components to shade/tint the background
 
 The primary palette of the app. Contributions and modifications to components should make use of these colors.
 
-* content-background-color
-* primary-background-color
-* primary-font-color
-* primary-action-color
-* secondary-background-color
-* secondary-font-color
-* secondary-action-color
-* component-color
-* success-color
-* pending-color
-* error-color
-* selection-color
+- content-background-color
+- primary-background-color
+- primary-font-color
+- primary-action-color
+- secondary-background-color
+- secondary-font-color
+- secondary-action-color
+- component-color
+- success-color
+- pending-color
+- error-color
+- selection-color
 
 ### Minor Colors
 
 A set of minor colors for specific use cases will inherit from the major colors by default but can be used by admins who want more granular control over the color scheme.
 
-* tertiary-background-color _defaults to component-color_
-* tertiary-font-color _defaults to transparent-light_
-* link-font-color _defaults to primary-action-color_
-* info-font-color _defaults to secondary-font-color_
-* custom-scrollbar-color _defaults to transparent-dark_
-* status-online  _defaults to success-color_
-* status-away _defaults to pending-color_
-* status-busy _defaults to error-color_   
-* status-offline _defaults to transparent-darker_
+- tertiary-background-color _defaults to component-color_
+- tertiary-font-color _defaults to transparent-light_
+- link-font-color _defaults to primary-action-color_
+- info-font-color _defaults to secondary-font-color_
+- custom-scrollbar-color _defaults to transparent-dark_
+- status-online  _defaults to success-color_
+- status-away _defaults to pending-color_
+- status-busy _defaults to error-color_
+- status-offline _defaults to transparent-darker_
 
 ### Mixins, Computed Colors and Dark UI
 
@@ -74,7 +74,7 @@ Developers are encouraged to use mixins and computed colors in contributions ins
 
 ---
 
-## Default Colors
+### Default Colors
 
 These examples show the implementation of the default color scheme with the main components of the Rocket.Chat UI.
 
