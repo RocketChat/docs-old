@@ -253,22 +253,6 @@ All headers should have a blank line both before and after (except where the hea
 
     # Header
 
-### MD024 - No multiple headers with the same content
-
-Different Headers should not have the same content.
-
-**Wrong**:
-
-    # Some text
-
-    ## Some text
-
-**Correct**:
-
-    # Some text
-
-    ## Some more text
-
 ### MD025 - No multiple top level headers in the same document
 
 There should only have one top level header (`h1`) on a document.
@@ -286,22 +270,6 @@ There should only have one top level header (`h1`) on a document.
     ## Header
 
     ## Another header
-
-### MD026 - No trailing punctuation in header
-
-There shouldn't have any punctuation on the end of the header.
-
-**Wrong**:
-
-    # This is a header.
-
-    # Another header:
-
-**Correct**:
-
-    # This is a header
-
-    # Another header
 
 ### MD027 - No multiple spaces after blockquote symbol
 
