@@ -77,9 +77,11 @@ ul, ol {
   margin: 0 0 1.5em;
 }
 
-code, pre {
+code, pre{
   font-family: $code-font-family;
   color: $color-light;
+  max-width: max-content;
+  overflow: auto;
 }
 
 blockquote {
