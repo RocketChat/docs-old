@@ -1,0 +1,22 @@
+title: "Rocket.Chat Documentation"
+description: Rocket.Chat user, admin, API, integration, plugin and contributing documentation.
+
+# leave trailing slash off
+url: /rcdocs
+
+# bump if alterting styles
+version: 1
+      
+sass:
+  style: compressed
+  sass_dir: _sass
+
+plugins:
+  - jekyll-redirect-from
+  
+whitelist:
+  - jekyll-redirect-from
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
