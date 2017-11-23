@@ -1,11 +1,54 @@
-- contributing
+- Contributing:
+  - Developing
+  - Google Summer of Code
+  - Promoting
+  - Reporting Issues
+  - Security
+  - Translating
+- Getting Support
 - Installation:
-  - Automation tools
-  - Docker containers
+  - Rocket.Chat Cloud
+  - PaaS Deployments:
+    - Aliyun
+    - AWS
+    - Cloudron.io
+    - Digital Ocean
+    - DPlatform
+    - Galaxy
+    - Google Comupte Engine
+    - Heroku
+    - Hyper.sh
+    - IBM Bluemix
+    - IndieHosters
+    - Koozali
+    - Layershift
+    - OpenShift
+    - ReadySpace
+    - Sandstorm.io
+    - Scalingo
+    - Sloppy.io
+    - WeDeploy
+  - Docker containers:
+    - GenericLinux
+    - systemd
   - Manual Installation:
-    - Centos
+    - CentOS
     - Debian
-- Getting support
+    - FreeBSD
+    - MacOSX
+    - Multiple Instances to Improve Performance
+    - OpenSUSE
+    - RedHat
+    - Ubuntu
+    - Windows 10 Pro
+    - Windows Server
+  - Automation tools:
+    - Ansible
+    - Openshift
+    - Vagrant
+  - Mobile and Desktop Apps
+  - Updating:
+    - From 0.x.x to 0.40.0
 - User guides
 - Administrator guides
 - Developer guides
