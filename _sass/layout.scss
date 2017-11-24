@@ -120,6 +120,9 @@ header {
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  width: 100%;
 
   .wrapper {
     line-height: 28px;
@@ -161,10 +164,51 @@ header {
   }
 }
 
+.search {
+  input {
+    padding: 0 10px 0 30px;
+    border: 1px solid #444;
+    height: 30px;
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    border-radius: 30px;
+    width: 240px;
+    transition: all 0.3s ease 0s;
+    
+    &:focus {
+      outline: none;
+      border: 1px solid #999;
+    }
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #ccc;
+  }
+  ::-moz-placeholder {
+    color: #ccc;
+  }
+  :-ms-input-placeholder {
+    color: #ccc;
+  }
+  :-moz-placeholder {
+    color: #ccc;
+  }
+  
+  .icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin-top: 7px;
+    margin-left: 6px;
+    z-index: 2;
+  }
+}
+
 main {
   background-color: #fff;
   width: 75%;
-  margin: auto;
+  margin: 62px auto 0;
   padding: 20px 0;
 }
 

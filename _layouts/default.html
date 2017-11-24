@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="{{ site.url }}/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
 
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="shortcut icon" href="/favicon.ico?v=1"/>
@@ -20,6 +21,12 @@
       <img src="{{ site.url }}/images/default/logo.svg" alt="Rocket.Chat">
     </a>
     <ul>
+      <li>
+        <div class="search">
+          <svg class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.71424961090088" height="32" viewBox="0 0 29.71424961090088 32" data-code="61442" data-tags="search"><g fill="#fff" transform="scale(0.03125 0.03125)"><path d="M658.286 475.429q0-105.714-75.143-180.857t-180.857-75.143-180.857 75.143-75.143 180.857 75.143 180.857 180.857 75.143 180.857-75.143 75.143-180.857zM950.857 950.857q0 29.714-21.714 51.429t-51.429 21.714q-30.857 0-51.429-21.714l-196-195.429q-102.286 70.857-228 70.857-81.714 0-156.286-31.714t-128.571-85.714-85.714-128.571-31.714-156.286 31.714-156.286 85.714-128.571 128.571-85.714 156.286-31.714 156.286 31.714 128.571 85.714 85.714 128.571 31.714 156.286q0 125.714-70.857 228l196 196q21.143 21.143 21.143 51.429z" /></g></svg>
+          <input type="text" id="search" placeholder="Search">
+        </div>
+      </li>
       <li><a {% if page.class == 'download' %}class="active"{%endif%} href="/download">Download</a></li>
       <li><a {% if page.class == 'cloud' %}class="active"{%endif%} href="/cloud">Cloud</a></li>
       <li><a {% if page.class == 'community' %}class="active"{%endif%} href="/community">Community</a></li>
@@ -32,6 +39,7 @@
 </header>
 
 <main>
+  
   {% include toc.html %}
 
   <div class="content">
@@ -67,6 +75,16 @@
     <div class="clear"></div>
   </div>
 </footer>
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+<script type="text/javascript">
+  docsearch({
+    apiKey: '75295a81b01359d7048b766a0fe98a2f',
+    indexName: 'rocketchat',
+    inputSelector: '#search'
+  });
+</script>
 
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MLJ76N"
