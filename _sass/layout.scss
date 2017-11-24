@@ -215,7 +215,7 @@ main {
   float: left;
   width: $toc-width;
   height: 100%;
-  padding: 10px;
+  padding: 1em;
   border-right: 1px solid #ccc;
   font-size: 0.9em;
 
@@ -240,8 +240,8 @@ main {
 
 .content {
   float: right;
-  width: calc(100% - 320px);
-  padding: 1em 0;
+  width: calc(100% - 340px);
+  padding: 1em;
 }
 
 footer {
