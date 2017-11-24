@@ -49,7 +49,43 @@
   - Mobile and Desktop Apps
   - Updating:
     - From 0.x.x to 0.40.0
-- User guides
-- Administrator guides
+- User guides:
+  - Connecting to a Server
+  - Registration
+  - Login
+  - Channels
+  - Messaging
+  - Channel Actions
+  - Managing your Account
+  - Voice and Video Calls
+- Administrator guides:
+  - Authentication:
+    - CAS
+    - Ldap
+    - Oauth
+    - SAML
+    - WordPress
+  - Database-Migration
+  - Email:
+    - Setup
+    - Editing Emails Content
+    - Mailer
+    - Direct Reply
+  - File Upload
+  - Import:
+    - CSV
+    - HipChat:
+      - Cloud
+      - Enterprise
+    - Slack
+  - Integrations:
+    - Zapier
+  - Internal Hubot
+  - Jitsi Video Bridge
+  - Livechat
+  - Notifications:
+    - Push Notifications
+  - Permissions
+  - Plug-ins
 - Developer guides
 - Community cookbook
