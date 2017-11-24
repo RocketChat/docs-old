@@ -28,7 +28,7 @@ a:hover {
 // structure
 
 body {
-  background: #fff;
+  background: $color-dark;
   color: $color-dark;
   padding: 0;
   margin: 0;
@@ -207,7 +207,6 @@ header {
 
 main {
   background-color: #fff;
-  width: 75%;
   margin: 62px auto 0;
   padding: 20px 0;
 }
@@ -218,6 +217,7 @@ main {
   height: 100%;
   padding: 10px;
   border-right: 1px solid #ccc;
+  font-size: 0.9em;
 
   a, a:visited {
     color: $color-dark;
@@ -240,7 +240,7 @@ main {
 
 .content {
   float: right;
-  width: calc(100% - 350px);
+  width: calc(100% - 320px);
   padding: 1em 0;
 }
 
