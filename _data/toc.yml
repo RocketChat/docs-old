@@ -84,13 +84,14 @@
   - File Upload:
     - Amazon S3
     - Minio
+  - Hubot
   - Import:
     - CSV
     - HipChat:
       - Cloud
       - Enterprise
     - Slack:
-     - SlackBridge
+      - SlackBridge
   - Integrations:
     - Zapier
   - Internal Hubot
