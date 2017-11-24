@@ -31,17 +31,26 @@
   - Docker containers:
     - GenericLinux
     - systemd
+    - Available Images
+    - Docker Compose
   - Manual Installation:
     - CentOS
     - Debian
-    - FreeBSD
+    - FreeBSD:
+      - Universal
     - MacOSX
     - Multiple Instances to Improve Performance
     - OpenSUSE
     - RedHat
-    - Ubuntu
+    - Ubuntu:
+      - Snaps:
+        - AutoSSl
     - Windows 10 Pro
-    - Windows Server
+    - Windows Server:
+      - Releases
+    - Configuring SSL Reverse Proxy
+    - PM2, Systemd, Upstart
+    - Running in a sub folder
   - Automation tools:
     - Ansible
     - Openshift
@@ -49,6 +58,7 @@
   - Mobile and Desktop Apps
   - Updating:
     - From 0.x.x to 0.40.0
+    - Minimum Requirements
 - User guides:
   - Connecting to a Server
   - Registration
@@ -71,13 +81,16 @@
     - Editing Emails Content
     - Mailer
     - Direct Reply
-  - File Upload
+  - File Upload:
+    - Amazon S3
+    - Minio
   - Import:
     - CSV
     - HipChat:
       - Cloud
       - Enterprise
-    - Slack
+    - Slack:
+     - SlackBridge
   - Integrations:
     - Zapier
   - Internal Hubot
