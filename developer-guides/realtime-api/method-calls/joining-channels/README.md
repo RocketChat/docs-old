@@ -21,7 +21,7 @@ You can only join yourself to public channels, private groups are not joinable. 
         "roomId",
         "joinCode"
     ]
-} 
+}
 ```
 
 ## Example Response
@@ -40,6 +40,6 @@ The response from calling the method will return a result of whether the user jo
 * [Delete Rooms][2]
 * [Archive Rooms][3]
 
-[1]:../19.%20Create%20Channel
-[2]:../21.%20Delete%20Rooms
-[3]:../22.%20Archive%20Rooms
+[1]:../create-channels
+[2]:../delete-rooms
+[3]:../archive-rooms

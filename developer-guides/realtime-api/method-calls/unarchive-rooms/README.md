@@ -19,7 +19,7 @@ Unarchving a room removes it from being read only and then adds it back to the c
     "params": [
         "roomId"
     ]
-} 
+}
 ```
 
 ## Example Response
@@ -38,8 +38,8 @@ Unarchving a room removes it from being read only and then adds it back to the c
 * [Archive Rooms][4]
 * [Save Room Settings][5]
 
-[1]:../19.%20Create%20Channel
-[2]:../20.%20Create%20Private%20Groups
-[3]:../21.%20Delete%20Rooms
-[4]:../22.%20Archive%20Rooms
-[5]:../29.%20Save%20Room%20Settings
+[1]:../create-channel
+[2]:../Create-private-groups
+[3]:../delete-rooms
+[4]:../archive-rooms
+[5]:../save-room-settings

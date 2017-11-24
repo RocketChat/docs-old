@@ -29,14 +29,14 @@ In this guide we will go over all settings in the _Accounts_ Section.
 
 ## Iframe
 
-These settings are related to the Iframe Integration, please se the [Iframe integration page] (/6.%20Developers%20Guides/Iframe%20Integration) for more details.
+These settings are related to the Iframe Integration, please se the [Iframe integration page] (/developers-guides/iframe-integration) for more details.
 
 ## Registration
 
 - __Default username prefix suggestion__: This is the prefix that will be suggested when a user is creating a username.
 - __Require Name For Signup__: If this is set to true, the name of the user will be required to create a account.
 - __Require Password Confirmation__: If this is set to true, the user will have to input his password twice when registering.
-- __Email Verification__: If this is set to true, users will have to confirm their email via a confirmation email sent to their email. (For this setting work, the SMTP settings must be already set up. See [Email Configuration](/5.%20Administrator%20Guides/1.%20Setup))
+- __Email Verification__: If this is set to true, users will have to confirm their email via a confirmation email sent to their email. (For this setting work, the SMTP settings must be already set up. See [Email Configuration](/administrator-guides/setup))
 - __Manually Approve New Users__: If this is set to true, new users will have to wait for a user with the `view-user-administration` permission to approve their account before using Rocket.Chat.
 - __Allowed Domains List__:  This will block emails with different domains than the ones on this list.
 - __Blocked Domains List__:  This will block emails with domains that are on on this list.

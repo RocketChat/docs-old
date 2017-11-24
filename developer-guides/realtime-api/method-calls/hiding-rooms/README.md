@@ -19,7 +19,7 @@ When you hide a room, that room no longer shows up on the list of channels and m
     "params": [
         "roomId"
     ]
-} 
+}
 ```
 
 ## Example Response
@@ -37,6 +37,6 @@ When you hide a room, that room no longer shows up on the list of channels and m
 * [Leaving Rooms][2]
 * [Create Channels][3]
 
-[1]:../24.%20Joining%20Channels
-[2]:../25.%20Leaving%20Rooms
-[3]:../19.%20Create%20Channel
+[1]:../joining-channels
+[2]:../leaving-rooms
+[3]:../create-channel

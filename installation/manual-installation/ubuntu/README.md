@@ -12,13 +12,13 @@ sudo snap install rocketchat-server
 
 Snaps are secure.  Rocket.Chat and all of its dependencies are isolated from the rest of your system.  Snaps also auto update when we release a new version.  So no need more hassle updating.
 
-Find out more information about snaps [here](/3.%20Installation/4.%20Manual%20Installation/Ubuntu/Snaps)
+Find out more information about snaps [here](/installation/manual-installation/ubuntu/snaps)
 
-If you would like to enable <https://yoursite.com> using the snap please see [here](/3.%20Installation/4.%20Manual%20Installation/Ubuntu/Snaps/AutoSSL.md)
+If you would like to enable <https://yoursite.com> using the snap please see [here](/installation/manual-installation/ubuntu/snaps/autossl.md)
 
 ## Manual install
 
-> If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](/3.%20Installation/7.%20Updating/1.%20From%200.x.x%20to%200.40.0)
+> If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](/installation/updating/from-0-x-x-to-0-40-0)
 
 This guide explains how to deploy your own Rocket.Chat instance to a Ubuntu Linux machine using the command line.
 
@@ -213,7 +213,7 @@ node main.js
 
 Rocket.Chat is installed and will run, but needs to be configured behind a web server to be accessible. Follow these guides to properly configure everything your instance needs:
 
-1. [Run Rocket.Chat behind a SSL Reverse Proxy](/3.%20Installation%2F4.%20Manual%20Installation%2FConfiguring%20SSL%20Reverse%20Proxy.md)
+1. [Run Rocket.Chat behind a SSL Reverse Proxy](/installation/manual-installation/configuring-ssl-reverse-proxy.md)
 
 ## Update
 

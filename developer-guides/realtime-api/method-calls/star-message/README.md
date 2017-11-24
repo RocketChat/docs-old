@@ -18,7 +18,7 @@ The only parameter that needs to be passed in is an object with the `_id`, `rid`
         "rid": "QFtTnPJ4XbG634Skm",
         "starred": true || false
     }]
-} 
+}
 ```
 
 ## Example Response
@@ -33,4 +33,4 @@ The only parameter that needs to be passed in is an object with the `_id`, `rid`
 ## See Also:
 * [Starring Messages User Guide][1]
 
-[1]:../../../4.%20User%20Guides/Starring%20Messages
+[1]:../../../user-guides/starring-messages

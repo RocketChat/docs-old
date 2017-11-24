@@ -1,6 +1,6 @@
 # Deploying Rocket.Chat on Debian
 
-> If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](/3.%20Installation/7.%20Updating/1.%20From%200.x.x%20to%200.40.0)
+> If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](/installation/updating/from-0-x-x-to-0-40-0)
 
 This guide explains how to deploy your own Rocket.Chat instance to a Debian Wheezy or Jessie Linux machine using the command line.
 
@@ -50,4 +50,4 @@ More on [nodejs installation](https://www.digitalocean.com/community/tutorials/h
 
 ## 2. Install Rocket.Chat
 
-From here you can follow [the documentation for Ubuntu install, from step 2](/3.%20Installation/4.%20Manual%20Installation/Ubuntu#2-install-rocketchat)
+From here you can follow [the documentation for Ubuntu install, from step 2](/installation/manual-installation/ubuntu#2-install-rocketchat)

@@ -33,5 +33,5 @@ Sometimes changes can shut down the server, if that happens just run `meteor npm
 
 ## See Also
 
-- [Development Troubleshooting](/6.%20Developer%20Guides/Troubleshooting)
-- [Deployment Methods](/3.%20Installation/2.%20PaaS%20Deployments)
+- [Development Troubleshooting](/developer-guides/troubleshooting)
+- [Deployment Methods](/installation/paas-deployments)

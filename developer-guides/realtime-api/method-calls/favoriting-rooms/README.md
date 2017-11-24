@@ -21,7 +21,7 @@ When a user makes a room as a favorite, the yellow star appears and it moves the
         "roomId",
         true/false
     ]
-} 
+}
 ```
 
 ## Example Response
@@ -38,5 +38,5 @@ When a user makes a room as a favorite, the yellow star appears and it moves the
 * [Joining Channels][1]
 * [Leaving Rooms][2]
 
-[1]:../24.%20Joining%20Channels
-[2]:../25.%20Leaving%20Rooms
+[1]:../joining-channels
+[2]:../leaving-rooms

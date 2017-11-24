@@ -9,7 +9,7 @@ Creates a public channel.
 ## Payload
 1. String - name of the channel
 2. Array of strings - usernames of the people to add to the channel when it is created. This can be empty and only the caller of the method will be a member of the channel.
-3. Boolean - whether the channel is read only or not 
+3. Boolean - whether the channel is read only or not
 
 ## Example Call
 
@@ -23,7 +23,7 @@ Creates a public channel.
         ["array-of-usernames", "who-are-in-the-channel"],
         true/false
     ]
-} 
+}
 ```
 
 ## Example Response
@@ -45,7 +45,7 @@ The response will be an object with one property `rid` which is the id of the ne
 * [Archive Rooms][3]
 * [Unarchive Rooms][4]
 
-[1]:../20.%20Create%20Private%20Groups
-[2]:../21.%20Delete%20Rooms
-[3]:../22.%20Archive%20Rooms
-[4]:../23.%20Unarchive%20Rooms
+[1]:../create-private-groups
+[2]:../delete-rooms
+[3]:../archive-rooms
+[4]:../unarchive-rooms

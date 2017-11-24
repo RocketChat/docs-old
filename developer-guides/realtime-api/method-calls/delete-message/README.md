@@ -15,7 +15,7 @@ All that is needed to delete a message is passing the `_id` of the message.
     "method": "deleteMessage",
     "id": "42",
     "params": [ { "_id": message_id } ]
-} 
+}
 ```
 
 ## Example Response
@@ -34,5 +34,5 @@ As mentioned in requirements, you must be logged in to be able to delete a messa
 * [Send Message Method][1]
 * [Update Message Method][2]
 
-[1]:../12.%20Send%20Message
-[2]:../13.%20Update%20Message
+[1]:../send-message
+[2]:../update-message

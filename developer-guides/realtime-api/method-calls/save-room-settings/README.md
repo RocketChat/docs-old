@@ -35,7 +35,7 @@
         "setting",
         "value"
     ]
-} 
+}
 ```
 
 ## Example Response
@@ -58,8 +58,8 @@
 * [Archive Rooms][5]
 * [Unarchive Rooms][4]
 
-[1]:../19.%20Create%20Channel
-[2]:../20.%20Create%20Private%20Groups
-[3]:../21.%20Delete%20Rooms
-[4]:../23.%20Unarchive%20Rooms
-[5]:../22.%20Archive%20Rooms
+[1]:../create-channel
+[2]:../create-private-groups
+[3]:../delete-rooms
+[4]:../unarchive-rooms
+[5]:../archive-rooms

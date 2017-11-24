@@ -14,25 +14,25 @@ If you are interested in quickly deploying an instance, you can try one of the o
 
 If you need full control of your deployment, here are some guides for specific environments:
 
-- [Aliyun](Aliyun/)
-- [Amazon Web Services](AWS/)
-- [Digital Ocean](Digital%20Ocean/)
-- [Meteor Galaxy](Galaxy/)
-- [Google Compute Engine](Google%20Compute%20Engine/)
-- [Heroku](Heroku/)
-- [Hyper.sh](Hyper.sh/)
-- [IBM Bluemix](IBM%20Bluemix/)
-- [Sloppy.io](Sloppy.io/)
+- [Aliyun](aliyun/)
+- [Amazon Web Services](aws/)
+- [Digital Ocean](digital-ocean/)
+- [Meteor Galaxy](galaxy/)
+- [Google Compute Engine](google-compute-engine/)
+- [Heroku](heroku/)
+- [Hyper.sh](hyper.sh/)
+- [IBM Bluemix](ibm-bluemix/)
+- [Sloppy.io](sloppy-io/)
 
 ## Manual Installation
 
-- [CentOS](/3.%20Installation/4.%20Manual%20Installation/CentOS/)
-- [Debian](/3.%20Installation/4.%20Manual%20Installation/Debian/)
-- [FreeBSD](/3.%20Installation/4.%20Manual%20Installation/FreeBSD/)
-- [Ubuntu](/3.%20Installation/4.%20Manual%20Installation/Ubuntu/)
-- [Windows Server](/3.%20Installation/4.%20Manual%20Installation/Windows%20Server/)
+- [CentOS](/installation/manual-installation/centos/)
+- [Debian](/installation/manual-installation/debian/)
+- [FreeBSD](/installation/manual-installation/freebsd/)
+- [Ubuntu](/installation/manual-installation/ubuntu/)
+- [Windows Server](/installation/manual-installation/windows-server/)
 
 ## Automation Tools
 
-- [Ansible](/3.%20Installation/5.%20Automation%20Tools/Ansible/)
-- [Vagrant](/3.%20Installation/5.%20Automation%20Tools/Vagrant/)
+- [Ansible](/installation/automation-tools/ansible/)
+- [Vagrant](/installation/automation-tools/vagrant/)

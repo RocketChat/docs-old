@@ -23,4 +23,4 @@ Remember to have a little patience. Support is provided by other members of the 
 
 ## Reporting bugs
 
-If you think you have found a bug.  Please see [Reporting Issues](/1.%20Contributing/Reporting%20Issues)
+If you think you have found a bug.  Please see [Reporting Issues](/contributing/reporting-issues)

@@ -19,7 +19,7 @@ Archving a room marks it as read only and then removes it from the channel list 
     "params": [
         "roomId"
     ]
-} 
+}
 ```
 
 ## Example Response
@@ -38,8 +38,8 @@ Archving a room marks it as read only and then removes it from the channel list 
 * [Unarchive Rooms][4]
 * [Save Room Settings][5]
 
-[1]:../19.%20Create%20Channel
-[2]:../20.%20Create%20Private%20Groups
-[3]:../21.%20Delete%20Rooms
-[4]:../23.%20Unarchive%20Rooms
-[5]:../29.%20Save%20Room%20Settings
+[1]:../create-channels
+[2]:../create-private-groups
+[3]:../delete-rooms
+[4]:../unarchive-rooms
+[5]:../save-room-settings

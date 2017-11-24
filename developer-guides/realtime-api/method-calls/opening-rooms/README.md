@@ -19,7 +19,7 @@ When you open a room, that room shows up on the list of channels and marks the p
     "params": [
         "roomId"
     ]
-} 
+}
 ```
 
 ## Example Response
@@ -38,7 +38,7 @@ When you open a room, that room shows up on the list of channels and marks the p
 * [Leaving Rooms][3]
 * [Create Channels][4]
 
-[1]:../26.%20Hiding%20Rooms
-[2]:../24.%20Joining%20Channels
-[3]:../25.%20Leaving%20Rooms
-[4]:../19.%20Create%20Channel
+[1]:../hiding-rooms
+[2]:../joining-channels
+[3]:../leaving-rooms
+[4]:../create-channel

@@ -14,7 +14,7 @@ The only parameter that needs to be passed in is the [Message Object][1] which c
     "method": "updateMessage",
     "id": "42",
     "params": [ messageObject ]
-} 
+}
 ```
 
 ## Example Response
@@ -34,6 +34,6 @@ As mentioned in requirements, you must be logged in to be able to edit a message
 * [Send Message Method][2]
 * [Delete Message Method][3]
 
-[1]:../../3.%20The%20Message%20Object
-[2]:../12.%20Send%20Message
-[3]:../13.%20Delete%20Message
+[1]:../../the-message-object
+[2]:../send-message
+[3]:../delete-message

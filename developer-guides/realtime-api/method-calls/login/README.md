@@ -114,4 +114,4 @@ NB: You don't have to wait until the token is expired before asking for a new to
 ## See Also
 * [Logout][1]
 
-[1]:../1.%20Logout
+[1]:../logout

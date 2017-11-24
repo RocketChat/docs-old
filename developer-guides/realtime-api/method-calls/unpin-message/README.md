@@ -14,7 +14,7 @@ The only parameter that needs to be passed in is the [Message Object][1] and as 
     "method": "unpinMessage",
     "id": "20",
     "params": [ fullMessageObject ]
-} 
+}
 ```
 
 ## Example Response
@@ -48,4 +48,5 @@ The response of a message being pinned is a new chat message which contains the 
 ## See Also
 * [Pinning Messages User Guide][1]
 
-[1]:../../../4.%20User%20Guides/Pinning%20Messages
+[1]:../../../user-guides/pinning-messages
+

@@ -19,7 +19,7 @@ Deleting a room, either a private group or public channel, is actually completed
     "params": [
         "roomId"
     ]
-} 
+}
 ```
 
 ## Example Response
@@ -39,8 +39,8 @@ Deleting a room, either a private group or public channel, is actually completed
 * [Unarchive Rooms][4]
 * [Save Room Settings][5]
 
-[1]:../19.%20Create%20Channel
-[2]:../20.%20Create%20Private%20Groups
-[3]:../22.%20Archive%20Rooms
-[4]:../23.%20Unarchive%20Rooms
-[5]:../29.%20Save%20Room%20Settings
+[1]:../create-channels
+[2]:../create-private-groups
+[3]:../archive-rooms
+[4]:../unarchive-rooms
+[5]:../save-room-settings

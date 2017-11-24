@@ -571,5 +571,5 @@ With TOP running, try to replicate the problem while watching TOP for high loads
 
 You can also deploy using Docker and Docker Compose by following one of these guides:
 
-- [Docker Compose](Docker%20Compose.md)
-- [Available Images](Available%20Images.md)
+- [Docker Compose](docker-compose.md)
+- [Available Images](available-images.md)

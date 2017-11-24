@@ -1,6 +1,6 @@
 # Deploying Rocket.Chat on Centos 7
 
-> If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](/3.%20Installation/7.%20Updating/1.%20From%200.x.x%20to%200.40.0)
+> If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](/installation/updating/from-0-x-x-to-0-40-0)
 
 The following was tested with Vultr and Digital Ocean.  Should work on Linode too.
 

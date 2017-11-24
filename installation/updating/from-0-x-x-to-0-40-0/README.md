@@ -16,5 +16,5 @@ sudo n 4.8.4
 
 Then follow the upgrade steps of your chosen method like normal:
 
-- [Ubuntu](/3.%20Installation/4.%20Manual%20Installation/Ubuntu#update)
-- [CentOS](/3.%20Installation/4.%20Manual%20Installation/CentOS#update)
+- [Ubuntu](/installation/manual-installation/ubuntu#update)
+- [CentOS](/installation/manual-installation/centos#update)

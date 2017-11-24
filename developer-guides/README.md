@@ -2,16 +2,16 @@
 
 ## Guides
 
-- [Quick Start](1.%20Quick%20Start/)
-- [Branches and Releases](Branches%20and%20Releases/)
-- [Livechat API](Livechat%20API/)
-- [REST API](REST%20API/)
-- [Iframe Integration](Iframe%20Integration/)
-- [Realtime API](Realtime-API/)
-- [Testing](Testing/)
-- [Troubleshooting](Troubleshooting/)
+- [Quick Start](quick-start/)
+- [Branches and Releases](branches-and-releases/)
+- [Livechat API](livechat-api/)
+- [REST API](rest-api/)
+- [Iframe Integration](iframe-integration/)
+- [Realtime API](realtime-api/)
+- [Testing](testing/)
+- [Troubleshooting](troubleshooting/)
 
-**Important information**:  
+**Important information**:
 On Rocket.Chat rooms can be referenced as:
 
 - Channels

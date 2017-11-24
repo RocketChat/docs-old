@@ -8,4 +8,4 @@ to see what has been changed, broken or added to Rocket.Chat.
 
 You can see older major changes here:
 
-- [0.x.x to 0.40.0](1.%20From%200.x.x%20to%200.40.0)
+- [0.x.x to 0.40.0](from-0-x-x-to-0-40-0)
