@@ -7,9 +7,17 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="{{ site.url }}/styles.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/senna@2.4.2/build/senna.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css"/>
+  <link rel="stylesheet" href="{{ site.url }}/styles.css?v={{ site.version }}">
+
+  <noscript>
+    <style>
+      body .toc li {
+        display: block;
+      }
+    </style>
+  </noscript>
 
   <!-- Senna is included here so it is loaded before the page loads. -->
 	<script src="https://cdn.jsdelivr.net/npm/senna@2.4.2/build/globals/senna-min.js"></script>
@@ -87,7 +95,7 @@ window.jekyll = { site: { url: '{{ site.url }}' } };
 </script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="{{ site.url }}/public/js/senna.js"></script>
+<script src="{{ site.url }}/public/js/senna.js?v={{ site.version }}"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
 <script type="text/javascript">
   docsearch({

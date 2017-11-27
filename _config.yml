@@ -4,8 +4,8 @@ description: Rocket.Chat user, admin, API, integration, plugin and contributing 
 # leave trailing slash off
 url: /docs
 
-# bump if alterting styles
-version: 3
+# bump if alterting styles or js
+version: 4
 
 defaults:
   - scope:

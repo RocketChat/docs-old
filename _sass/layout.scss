@@ -219,9 +219,14 @@ main {
   padding: 1em;
   border-right: 1px solid #ddd;
   font-size: 0.9em;
-  
+    
   li {
     font-weight: normal;
+    display: none;
+  }
+  
+  > ul > li, .active, .active > ul > li {
+    display: block;
   }
   
   .active {
