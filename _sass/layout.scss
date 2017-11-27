@@ -203,6 +203,7 @@ header {
 
 .search {
   input {
+    transition: 2s width;
     padding: 0 10px 0 30px;
     border: 1px solid #444;
     height: 30px;
@@ -356,6 +357,10 @@ footer {
 .header-items {
   display: flex;
 }
+
+.search-button {
+  display: none;
+}
 // mobile
 
 @media all and (max-width: 800px) {
@@ -377,5 +382,15 @@ footer {
   .content {
     width: 100%;
     font-size: 0.8em
+  }
+
+  .search input {
+    width: 0px;
+    visibility: hidden;
+  }
+
+  .search.active input {
+    width: 240px;;
+    visibility: visible;
   }
 }
