@@ -9,7 +9,8 @@ $(document).ready(function() {
 
 	var app = new senna.App();
 
-	app.setBasePath('/docs');
+	app.setBasePath('/');
+  // replace html with 'content' id
 	app.addSurfaces('content');
 	app.addRoutes(new senna.Route(/.*/, senna.HtmlScreen));
 

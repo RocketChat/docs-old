@@ -8,11 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="{{ site.url }}/styles.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/senna.js/2.0.4/senna.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/senna@2.4.2/build/senna.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css"/>
 
   <!-- Senna is included here so it is loaded before the page loads. -->
-	<script src="https://cdn.jsdelivr.net/senna.js/2.0.4/senna-min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/senna@2.4.2/build/globals/senna-min.js"></script>
 
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="shortcut icon" href="/favicon.ico?v=1"/>
@@ -47,7 +47,7 @@
   <div class="wrapper">
     {% include toc.html %}
 
-    <div class="content">
+    <div id="content" class="content">
       <div class="wrapper">
         {{ content }}
       </div>
