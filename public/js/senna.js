@@ -1,26 +1,33 @@
 
 
 function scroll_toc(path) {
-  path = path.indexOf('/docs') == 0? path.substring(4) : path.substring(1);
+  // remove base either '/docs' or '/'
+  var base = '/docs';
+  path = path.indexOf(base) == 0? path.substring(base.length) : path.substring(1);
+  
   
   if(path[path.length - 1] == '/') {
     path = path.substring(0, path.length - 1);
   }
   
   var path = '.' + path.split('/').join(' .');
-  
+
   if(window.toc.active) {
     window.toc.active.removeClass('active');
   }
 
-  window.toc.active = $(path);
-  window.toc.active.addClass('active');
+  if(path.length > 1) {
+    window.toc.active = $(path);
+    window.toc.active.addClass('active');
+  }
 }
 
 $(document).ready(function() {
   window.toc = { active: null };
   
-  scroll_toc(window.location.pathname);
+  if(window.location.pathname) {
+    scroll_toc(window.location.pathname);
+  }
 
   var app = new senna.App();
   app.setBasePath('/');
