@@ -1,9 +1,7 @@
 
 <ul>
 {% for entry in include.level %}
-  <li>
   {% if entry.first %}
-  
     {% for item in entry %}
       {% assign name = item[0] %}
       {% break %}
@@ -12,18 +10,18 @@
     {% assign newpath = name | slugify %}
     {% assign path = include.path | append: newpath | append: '/' %}
     {% assign level = entry[name] %}
-    
-    <a href="{{ path }}">{{ name }}</a>
-
-    {% include level.html level=level path=path %}
-    
+      
+    <li class="{{ newpath }}" >
+      <a href="{{ path }}">{{ name }}</a>
+      {% include level.html level=level path=path %}
+    </li>
   {% else %}
-
     {% assign newpath = entry | slugify %}
     {% assign path = include.path | append: newpath | append: '/' %}
-    <a href="{{ path }}">{{ entry }}</a>
 
+    <li class="{{ newpath }}" >
+      <a href="{{ path }}">{{ entry }}</a>
+    </li>
   {% endif %}
-  </li>
 {% endfor %}
 </ul>

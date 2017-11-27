@@ -219,6 +219,14 @@ main {
   padding: 1em;
   border-right: 1px solid #ddd;
   font-size: 0.9em;
+  
+  li {
+    font-weight: normal;
+  }
+  
+  .active {
+    font-weight: bold;
+  }
 
   a, a:visited {
     color: $color-dark;
