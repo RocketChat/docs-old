@@ -1,10 +1,10 @@
 
 
 function scroll_toc(path) {
-  // remove base either '/docs' or '/'
-  var base = '/docs';
+  // remove base either '/docs/' or '/'
+  var base = '/docs/';
+    
   path = path.indexOf(base) == 0? path.substring(base.length) : path.substring(1);
-  
   
   if(path[path.length - 1] == '/') {
     path = path.substring(0, path.length - 1);
