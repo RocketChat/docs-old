@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/senna@2.4.2/build/senna.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css"/>
   <link rel="stylesheet" href="{{ site.url }}/styles.css?v={{ site.version }}">
+  <link rel="stylesheet" href="{{ site.url }}/public/sidebar.min.css">
+
+
 
   <noscript>
     <style>
@@ -21,50 +24,72 @@
 
   <!-- Senna is included here so it is loaded before the page loads. -->
 	<script src="https://cdn.jsdelivr.net/npm/senna@2.4.2/build/globals/senna-min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="{{ site.url }}/public/js/sidebar.min.js"></script>
+  <script src="{{ site.url }}/public/js/responsiveControl.js"></script>
+
 
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="shortcut icon" href="/favicon.ico?v=1"/>
 </head>
-<body>
 
-<header>
-  <div class="wrapper">
-    <a class="logo" href="/">
-      <img src="{{ site.url }}/images/default/logo.svg" alt="Rocket.Chat">
-    </a>
-    <ul>
-      <li>
+
+<body class="pushable">
+  <div id="sidebar" class="ui sidebar overlay left">
+    <div class="sidebar-menu">
+      <a class="logo" href="/">
+        <img src="{{ site.url }}/images/default/logo.svg" alt="Rocket.Chat">
+      </a>
+      <ul>
+        <li><a href="https://rocket.chat/download">Download</a></li>
+        <li><a href="https://rocket.chat/cloud">Cloud</a></li>
+        <li><a href="https://rocket.chat/community">Community</a></li>
+        <li><a href="https://rocket.chat/docs/">Docs</a></li>
+        <li><a href="https://rocket.chat/blog/">Blog</a></li>
+        <li><a href="https://rocket.chat/contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="toc-sidebar"></div>
+  </div>
+
+<div class="pusher">
+  <header>
+    <div class="wrapper">
+      <div class="burger">
+        <span>Menu</span>
+      </div>
+      <a class="logo" href="/">
+        <img src="{{ site.url }}/images/default/logo.svg" alt="Rocket.Chat">
+      </a>
+      <div class="header-items">
         <div class="search">
           <svg class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.71424961090088" height="32" viewBox="0 0 29.71424961090088 32" data-code="61442" data-tags="search"><g fill="#fff" transform="scale(0.03125 0.03125)"><path d="M658.286 475.429q0-105.714-75.143-180.857t-180.857-75.143-180.857 75.143-75.143 180.857 75.143 180.857 180.857 75.143 180.857-75.143 75.143-180.857zM950.857 950.857q0 29.714-21.714 51.429t-51.429 21.714q-30.857 0-51.429-21.714l-196-195.429q-102.286 70.857-228 70.857-81.714 0-156.286-31.714t-128.571-85.714-85.714-128.571-31.714-156.286 31.714-156.286 85.714-128.571 128.571-85.714 156.286-31.714 156.286 31.714 128.571 85.714 85.714 128.571 31.714 156.286q0 125.714-70.857 228l196 196q21.143 21.143 21.143 51.429z" /></g></svg>
           <input type="text" id="search" placeholder="Search">
         </div>
-      </li>
-            
-      <li><a href="https://rocket.chat/download">Download</a></li>
-      <li><a href="https://rocket.chat/cloud">Cloud</a></li>
-      <li><a href="https://rocket.chat/community">Community</a></li>
-      <li><a href="https://rocket.chat/docs/">Docs</a></li>
-      <li><a href="https://rocket.chat/blog/">Blog</a></li>
-      <li><a href="https://rocket.chat/contact">Contact</a></li>
-    </ul>
-    <div class="clear"></div>
-  </div>
-</header>
-
-<main>
-  <div class="wrapper">
-    {% include toc.html %}
-
-    <div id="content" class="content">
-      <div class="wrapper">
-        {{ content }}
+        <ul>
+          <li><a href="https://rocket.chat/download">Download</a></li>
+          <li><a href="https://rocket.chat/cloud">Cloud</a></li>
+          <li><a href="https://rocket.chat/community">Community</a></li>
+          <li><a href="https://rocket.chat/docs/">Docs</a></li>
+          <li><a href="https://rocket.chat/blog/">Blog</a></li>
+          <li><a href="https://rocket.chat/contact">Contact</a></li>
+        </ul>
       </div>
     </div>
-
-  </div>
-  <div class="clear"></div>
-</main>
-
+  </header>
+  <main>
+    <div class="wrapper main">
+      <div class="toc-wrapper">
+        {% include toc.html %}
+      </div>
+      <div id="content" class="content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
 <footer>
   <div class="wrapper">
     <ul>
@@ -89,12 +114,10 @@
     <div class="clear"></div>
   </div>
 </footer>
-
 <script type="text/javascript">
-window.jekyll = { site: { url: '{{ site.url }}' } };
+  window.jekyll = { site: { url: '{{ site.url }}' } };
 </script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="{{ site.url }}/public/js/senna.js?v={{ site.version }}"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
 <script type="text/javascript">
@@ -107,13 +130,13 @@ window.jekyll = { site: { url: '{{ site.url }}' } };
 
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MLJ76N"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MLJ76N');</script>
-<!-- End Google Tag Manager -->
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MLJ76N');</script>
+  <!-- End Google Tag Manager -->
 
 </body>
 </html>
