@@ -10,6 +10,15 @@ $(window).resize(function () {
 });
 
 $(document).ready(function() {
+    var viewportWidth = $(window).width();
+    if (viewportWidth < 800) {
+        $(".toc").appendTo($(".toc-sidebar"));
+
+    } else {
+        $('.ui.sidebar').sidebar('hide');
+        $(".toc").appendTo($(".toc-wrapper"));
+    }
+
     $(".burger").click(function () {
         var viewportWidth = $(window).width();
         if (viewportWidth < 800) {
