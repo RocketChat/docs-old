@@ -1,38 +1,49 @@
 $(window).resize(function () {
     var viewportWidth = $(window).width();
     if (viewportWidth < 800) {
-        $(".toc").appendTo($(".toc-sidebar"));
+        $('.toc').appendTo($('.toc-sidebar'));
 
     } else {
         $('.ui.sidebar').sidebar('hide');
-        $(".toc").appendTo($(".toc-wrapper"));
+        $('.toc').appendTo($('.toc-wrapper'));
     }
 });
 
+
+
 $(document).ready(function() {
+
     var viewportWidth = $(window).width();
+    // add the events and initial states for elements on mobile resolution
     if (viewportWidth < 800) {
-        $(".toc").appendTo($(".toc-sidebar"));
-        $(".search").click(function() {
-            $(".search").addClass("active")
+        // move toc content to sidenav if in mobile resolution
+        $('.toc').appendTo($('.toc-sidebar'));
+
+        // search events
+        $('body').on('click', '.search', function () {
+            $('.search').addClass('active');
         });
-    } else {
-        $('.ui.sidebar').sidebar('hide');
-        $(".toc").appendTo($(".toc-wrapper"));
+        $('body').on('blur', '.search.active', function () {
+            $('.search').removeClass('active');
+        });
+        // focus on the search after the transition end
+        $('.search').bind('transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd', function(){
+            $('.search input').focus();
+         });
+
     }
 
-    $(".search .icon").click(function() {
-        $(".search").removeClass("active")
-    });
-
-    $(".burger").click(function () {
-        var viewportWidth = $(window).width();
+    $('.burger').click(function () {
         if (viewportWidth < 800) {
             $('.ui.sidebar').sidebar('toggle');
         }
     });
 
-    $(".toc li").click(function () {
+    $('body').on('swiperight', function () {
+        $('.ui.sidebar').sidebar('toggle');
+    });
+
+    $('.toc li').click(function () {
         $('.ui.sidebar').sidebar('hide');
     });
 });
