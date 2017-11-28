@@ -142,7 +142,9 @@ blockquote {
   }
 
   ul {
-    list-style: none
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   a {
@@ -377,15 +379,16 @@ footer {
     max-height: unset;
     max-width: fit-content;
     border: none;
-
   }
 
   .burger {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 1.5em;
-    height: 1em;
+    width: 38px;
+    height: 38px;
+    padding: 10px 6px;
+    cursor: pointer;
   }
 
   .burger span {
