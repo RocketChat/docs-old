@@ -1,8 +1,7 @@
 $(window).resize(function () {
     var viewportWidth = $(window).width();
-    if (viewportWidth < 800) {
+    if (viewportWidth < 1000) {
         $('.toc').appendTo($('.toc-sidebar'));
-
     } else {
         $('.ui.sidebar').sidebar('hide');
         $('.toc').appendTo($('.toc-wrapper'));
@@ -15,7 +14,7 @@ $(document).ready(function() {
 
     var viewportWidth = $(window).width();
     // add the events and initial states for elements on mobile resolution
-    if (viewportWidth < 800) {
+    if (viewportWidth < 1000) {
         // move toc content to sidenav if in mobile resolution
         $('.toc').appendTo($('.toc-sidebar'));
 
@@ -34,7 +33,7 @@ $(document).ready(function() {
     }
 
     $('.burger').click(function () {
-        if (viewportWidth < 800) {
+        if (viewportWidth < 1000) {
             $('.ui.sidebar').sidebar('toggle');
         }
     });

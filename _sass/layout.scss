@@ -172,11 +172,12 @@ header {
 
   .logo {
     display: inline-block;
+    height: 28px;
 
     img {
       display: inline-block;
       color: #fff;
-      height: 28px;
+      height: 100%;
     }
   }
 
@@ -188,7 +189,7 @@ header {
 
     li {
       display: inline-block;
-      padding-right: 18px;
+      padding-right: 14px;
 
       &:last-child {
         padding-right: 0;
@@ -206,6 +207,7 @@ header {
 }
 
 .search {
+  margin-right: 14px;
   input {
     transition: 2s width;
     padding: 0 10px 0 30px;
@@ -326,34 +328,6 @@ footer {
   }
 }
 
-// tablet
-
-@media all and (max-width: 900px) {
-  header ul {
-    float: none;
-  }
-
-  section {
-    padding: 3em 0;
-
-    &.hero {
-      padding-bottom: 6em;
-    }
-  }
-
-  .left {
-    float: none;
-    width: 100%;
-    padding: 0;
-  }
-
-  .right {
-    float: none;
-    width: 100%;
-    padding: 0;
-  }
-}
-
 .burger {
   display: none;
 }
@@ -367,7 +341,7 @@ footer {
 }
 // mobile
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1000px) {
   footer {
     ul {
       width: 50%;
@@ -407,9 +381,19 @@ footer {
     font-size: 0.8em
   }
 
-  .search input {
-    width: 0px;
-    visibility: hidden;
+  .search{
+    margin: 0;
+    input {
+      width: 0px;
+      visibility: hidden;
+    }
+  }
+
+  header .logo {
+    height: 40px;
+    img {
+      content:url("/images/default/icon.svg");
+    }
   }
 
   .search.active input {
