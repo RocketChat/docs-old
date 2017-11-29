@@ -10,7 +10,6 @@ function moveToC(){
 }
 
 $(window).resize(function () {
-    console.log('ding')
     moveToC();
 });
 
