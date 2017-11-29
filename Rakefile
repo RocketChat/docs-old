@@ -6,7 +6,7 @@ task :check_links do
 
   puts 'Crawling links'
 
-  Anemone.crawl('http://localhost:4000/', :discard_page_bodies => true, :threads => 4) do |anemone|
+  Anemone.crawl('http://localhost:4000/', :discard_page_bodies => true, :threads => 4, :depth_limit => 2) do |anemone|
     anemone.after_crawl do |store|
       broken = Hash.new { |h, k| h[k] = [] }
 
