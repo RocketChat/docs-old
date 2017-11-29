@@ -18,7 +18,7 @@ If you need full control of your deployment, here are some guides for specific e
 - [Amazon Web Services](aws/)
 - [Digital Ocean](digital-ocean/)
 - [Meteor Galaxy](galaxy/)
-- [Google Compute Engine](google-compute-engine/)
+- [Google Compute Engine](google-computer-engine/)
 - [Heroku](heroku/)
 - [Hyper.sh](hyper.sh/)
 - [IBM Bluemix](ibm-bluemix/)

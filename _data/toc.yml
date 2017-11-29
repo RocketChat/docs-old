@@ -16,7 +16,7 @@
     - Digital Ocean
     - DPlatform
     - Galaxy
-    - Google Comupte Engine
+    - Google Computer Engine
     - Heroku
     - Hyper.sh
     - IBM Bluemix
@@ -30,7 +30,7 @@
     - Sloppy.io
     - WeDeploy
   - Docker containers:
-    - GenericLinux
+    - Generic Linux
     - systemd
     - Available Images
     - Docker Compose
@@ -59,7 +59,7 @@
   - Mobile and Desktop Apps
   - Updating:
     - From 0.x.x to 0.40.0
-    - Minimum Requirements
+  - Minimum Requirements
 - User guides:
   - Connecting to a Server
   - Registration
@@ -95,11 +95,11 @@
       - SlackBridge
   - Integrations:
     - Zapier
-    - AzureAlerts
+    - Azure Alerts
     - BitBucket
     - Giphy
     - GitHub
-    - GitLab
+    - GitLab`
     - Google-Calendar
     - Guggy
     - Jenkins
@@ -114,13 +114,13 @@
     - RunDeck
     - Sentry
     - Telegram
-    - TravisCI
+    - Travis CI
     - Trello
-    - uptimebot
+    - uptimerobot
   - Internal Hubot
   - Jitsi Video Bridge
   - Livechat:
-    - Livechat Queques
+    - Livechat Queues
   - Notifications:
     - Push Notifications
   - Permissions
@@ -150,7 +150,7 @@
         - Load History
         - Get Room Roles
         - Get Subscriptions
-        - Get Room
+        - Get Rooms
         - Get Public Settings
         - Get Permissions
         - User Presence
@@ -176,13 +176,13 @@
         - Stream Notify All
         - Stream Notify User
         - Stream Notify Room
-        - Stream Notify Messages
+        - Stream Room Messages
       - The Message Object
       - The Room Object
       - Livechat API:
         - getInitialData
         - registerGuest
-        - senMessageLivechat
+        - sendMessageLivechat
         - sendOfflineMessage
     - Rest API:
       - Authentication:
@@ -263,7 +263,7 @@
         - list
         - remove
       - Livechat:
-        - departament
+        - department
         - sms-incoming
         - users
       - Miscellaneous:
