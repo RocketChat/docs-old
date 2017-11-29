@@ -137,10 +137,6 @@ blockquote {
   text-transform: uppercase;
   min-height: fit-content;
 
-  .logo {
-    margin-bottom: 15px;
-  }
-
   ul {
     list-style: none;
     margin: 0;
@@ -179,6 +175,9 @@ header {
       color: #fff;
       height: 100%;
     }
+  }
+  .logo.mobile {
+    display: none;
   }
 
   ul {
@@ -389,9 +388,15 @@ footer {
     }
   }
 
-  header .logo {
-    height: 40px;
-    content:url("/images/default/icon.svg");
+  header {
+    .logo {
+      display: none;
+    }
+    .logo.mobile {
+      height: 40px;
+      display: block;
+    }
+
   }
 
   .search.active input {
