@@ -1,4 +1,5 @@
-$(window).resize(function () {
+
+function moveToC(){
     var viewportWidth = $(window).width();
     if (viewportWidth < 1000) {
         $('.toc').appendTo($('.toc-sidebar'));
@@ -6,44 +7,43 @@ $(window).resize(function () {
         $('.ui.sidebar').sidebar('hide');
         $('.toc').appendTo($('.toc-wrapper'));
     }
+}
+
+$(window).resize(function () {
+    console.log('ding')
+    moveToC();
 });
 
+moveToC();
 
+$('.burger').click(function () {
+    $('.ui.sidebar').sidebar('toggle');
+});
 
-$(document).ready(function() {
-
+$('body').on('click', '.search', function () {
     var viewportWidth = $(window).width();
-    // add the events and initial states for elements on mobile resolution
     if (viewportWidth < 1000) {
-        // move toc content to sidenav if in mobile resolution
-        $('.toc').appendTo($('.toc-sidebar'));
-
-        // search events
-        $('body').on('click', '.search', function () {
-            $('.search').addClass('active');
-        });
-        $('body').on('blur', '.search.active', function () {
-            $('.search').removeClass('active');
-        });
-        // focus on the search after the transition end
-        $('.search').bind('transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd', function(){
-            $('.search input').focus();
-         });
-
+        $('.search').addClass('active');
     }
-
-    $('.burger').click(function () {
-        if (viewportWidth < 1000) {
-            $('.ui.sidebar').sidebar('toggle');
-        }
-    });
-
-    $('body').on('swiperight', function () {
-        $('.ui.sidebar').sidebar('toggle');
-    });
-
-    $('.toc li').click(function () {
-        $('.ui.sidebar').sidebar('hide');
-    });
 });
 
+$('body').on('blur', '.search.active', function () {
+    var viewportWidth = $(window).width();
+    if (viewportWidth < 1000) {
+        $('.search').removeClass('active');
+    }
+});
+
+$('.search').bind('transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd', function(){
+    var viewportWidth = $(window).width();
+    if (viewportWidth < 1000) {
+        $('.search input').focus();
+    }
+});
+
+$('.sidebar .toc li').click(function () {
+    $('.ui.sidebar').sidebar('hide');
+});
+
+
+$
