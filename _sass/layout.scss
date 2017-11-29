@@ -289,10 +289,10 @@ footer {
   color: #fff;
   .wrapper{
     display: flex;
+    justify-content: space-between;
   }
 
   ul {
-    width: 25%;
     padding: 0;
     list-style: none;
 
@@ -360,7 +360,9 @@ footer {
 
   .content {
     width: 100%;
-    font-size: 0.8em
+    font-size: 0.8em;
+    padding: 0;
+
   }
 
   .search{
@@ -386,5 +388,8 @@ footer {
     width: 240px;;
     visibility: visible;
   }
+  .wrapper.main {
+      padding: 0px;
+    }
 }
 
