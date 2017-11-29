@@ -92,22 +92,6 @@ blockquote {
   opacity: 0.6;
 }
 
-.left {
-  float: left;
-  width: 50%;
-  padding-right: $padding;
-}
-
-.right {
-  float: right;
-  width: 50%;
-  padding-left: $padding;
-}
-
-.clear {
-  clear: both;
-}
-
 .wrapper {
   max-width: $content-width;
   margin: 0 auto;
@@ -184,7 +168,6 @@ header {
     margin: 0;
     padding: 0;
     list-style: none;
-    float: right;
 
     li {
       display: inline-block;
@@ -255,7 +238,6 @@ main {
 }
 
 .toc {
-  float: left;
   width: $toc-width;
   max-height: 100vh;
   overflow-y: scroll;
@@ -296,7 +278,6 @@ main {
 }
 
 .content {
-  float: right;
   width: calc(100% - 340px);
   padding: 1em;
   min-height: 100vh;
@@ -306,10 +287,12 @@ footer {
   padding: 4em 0 3em;
   background-color: $color-dark;
   color: #fff;
+  .wrapper{
+    display: flex;
+  }
 
   ul {
     width: 25%;
-    float: left;
     padding: 0;
     list-style: none;
 
