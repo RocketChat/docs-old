@@ -239,7 +239,6 @@ main {
 
 .toc {
   width: $toc-width;
-  max-height: 100vh;
   overflow-y: scroll;
   padding: 1em;
   border-right: 1px solid #ddd;
@@ -392,4 +391,3 @@ footer {
       padding: 0px;
     }
 }
-
