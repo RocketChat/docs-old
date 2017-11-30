@@ -8,4 +8,4 @@ Use [docker-compose instructions](/installation/docker-containers/docker-compose
 
 ## Install for code development
 
-Follow [developer installation instructions](developer-guides/quick-start)
+Follow [developer installation instructions](/developer-guides/quick-start)

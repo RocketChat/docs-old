@@ -10,7 +10,7 @@ Examples of things that aren't considered bugs or feature requests:
 * Having issues accessing your server
 * Can't get the server installed
 
-If your issue falls into one of these categories, please see [Getting Support](/getting-support)
+If your issue falls into one of these categories, please see [Getting Support](/../getting-support)
 
 ## It is a bug!
 

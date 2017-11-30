@@ -39,4 +39,4 @@ When you hide a room, that room no longer shows up on the list of channels and m
 
 [1]:../joining-channels
 [2]:../leaving-rooms
-[3]:../create-channel
+[3]:../create-channels

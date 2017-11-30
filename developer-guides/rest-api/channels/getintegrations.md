@@ -3,7 +3,7 @@ order: 23
 ---
 
 # Get Integrations
-Retrieves the integrations which the channel has, requires the permission `manage-integrations`. It supports the [Offset, Count, and Sort Query Parameters](../Offset%20and%20Count%20and%20Sort%20Info.md) along with [Query and Fields Query Parameters](../Query%20and%20Fields%20Info.md).
+Retrieves the integrations which the channel has, requires the permission `manage-integrations`. It supports the [Offset, Count, and Sort Query Parameters](../offset-and-count-and-sort-info.md) along with [Query and Fields Query Parameters](../query-and-fields-info.md).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

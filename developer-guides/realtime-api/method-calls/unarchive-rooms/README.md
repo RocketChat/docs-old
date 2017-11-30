@@ -38,7 +38,7 @@ Unarchving a room removes it from being read only and then adds it back to the c
 * [Archive Rooms][4]
 * [Save Room Settings][5]
 
-[1]:../create-channel
+[1]:../create-channels
 [2]:../Create-private-groups
 [3]:../delete-rooms
 [4]:../archive-rooms

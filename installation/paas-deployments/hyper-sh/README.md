@@ -4,7 +4,7 @@ Rocket.Chat is a web chat application for communities and companies wanting to p
 
 ## 1. Register for your free Hyper credits
 
-First take 2 minutes to sign up for Hyper, receive your free credits and install the CLI: [https://docs.hyper.sh/GettingStarted/index.html](https://docs.hyper.sh/GettingStarted/index.html)
+First take 2 minutes to sign up for Hyper, receive your free credits and install the CLI: [https://docs.hyper.sh/GettingStarted/index.html](https://docs.hyper-sh/GettingStarted/index.html)
 
 ## 2. Create a floating IP address
 

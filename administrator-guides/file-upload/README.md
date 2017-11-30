@@ -3,7 +3,7 @@
 There are several choices for file Storage
 
 - GridFS
-- [Amazon S3](Amazon S3.md)
+- [Amazon S3](Amazon-s3.md)
 - [Minio | selfhosted s3 compatible object storage](Minio.md)
 - Local file system
 

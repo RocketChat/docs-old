@@ -36,4 +36,4 @@ You can leave any rooms, except for direct messages and except for rooms you are
 * [Create Channels][2]
 
 [1]:../joining-channels
-[2]:../create-channel
+[2]:../create-channels
