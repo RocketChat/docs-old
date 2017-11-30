@@ -38,7 +38,7 @@ When you open a room, that room shows up on the list of channels and marks the p
 * [Leaving Rooms][3]
 * [Create Channels][4]
 
-[1]:../hiding-rooms
-[2]:../joining-channels
-[3]:../leaving-rooms
-[4]:../create-channels
+[1]:../hiding-rooms/
+[2]:../joining-channels/
+[3]:../leaving-rooms/
+[4]:../create-channels/

@@ -39,8 +39,8 @@ Deleting a room, either a private group or public channel, is actually completed
 * [Unarchive Rooms][4]
 * [Save Room Settings][5]
 
-[1]:../create-channels
-[2]:../create-private-groups
-[3]:../archive-rooms
-[4]:../unarchive-rooms
-[5]:../save-room-settings
+[1]:../create-channels/
+[2]:../create-private-groups/
+[3]:../archive-rooms/
+[4]:../unarchive-rooms/
+[5]:../save-room-settings/

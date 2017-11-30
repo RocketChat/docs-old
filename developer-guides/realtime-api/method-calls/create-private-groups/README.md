@@ -43,7 +43,7 @@ The response will be an object with one property `rid` which is the id of the ne
 * [Archive Rooms][3]
 * [Unarchive Rooms][4]
 
-[1]:../create-channels
-[2]:../delete-rooms
-[3]:../archive-rooms
-[4]:../unarchive-rooms
+[1]:../create-channels/
+[2]:../delete-rooms/
+[3]:../archive-rooms/
+[4]:../unarchive-rooms/

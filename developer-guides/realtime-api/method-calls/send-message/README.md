@@ -104,6 +104,6 @@ Second request (`sendFileMessage`):
 * [Delete Message Method][2]
 * [Update Message Method][3]
 
-[1]:../../the-message-object
-[2]:../delete-message
-[3]:../update-message
+[1]:../../the-message-object/
+[2]:../delete-message/
+[3]:../update-message/

@@ -38,5 +38,5 @@ When a user makes a room as a favorite, the yellow star appears and it moves the
 * [Joining Channels][1]
 * [Leaving Rooms][2]
 
-[1]:../joining-channels
-[2]:../leaving-rooms
+[1]:../joining-channels/
+[2]:../leaving-rooms/

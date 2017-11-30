@@ -34,6 +34,6 @@ As mentioned in requirements, you must be logged in to be able to edit a message
 * [Send Message Method][2]
 * [Delete Message Method][3]
 
-[1]:../../the-message-object
-[2]:../send-message
-[3]:../delete-message
+[1]:../../the-message-object/
+[2]:../send-message/
+[3]:../delete-message/

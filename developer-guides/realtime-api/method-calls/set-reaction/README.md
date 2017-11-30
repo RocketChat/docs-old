@@ -31,4 +31,4 @@ Setting and removing a reaction requires a call to the same method with the same
 ## See Also
 * [Reacting to Messages User Guide][1]
 
-[1]:../../../../user-guides/messaging
+[1]:../../../../user-guides/messaging/

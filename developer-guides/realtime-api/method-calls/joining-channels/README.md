@@ -40,6 +40,6 @@ The response from calling the method will return a result of whether the user jo
 * [Delete Rooms][2]
 * [Archive Rooms][3]
 
-[1]:../create-channels
-[2]:../delete-rooms
-[3]:../archive-rooms
+[1]:../create-channels/
+[2]:../delete-rooms/
+[3]:../archive-rooms/

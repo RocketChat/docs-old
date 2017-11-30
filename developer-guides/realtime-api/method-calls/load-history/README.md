@@ -51,5 +51,5 @@ Examples:
 }
 ```
 
-[1]:../../subscriptions/stream-room-messages
-[2]:../../the-message-object
+[1]:../../subscriptions/stream-room-messages/
+[2]:../../the-message-object/

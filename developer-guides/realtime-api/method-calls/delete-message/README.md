@@ -34,5 +34,5 @@ As mentioned in requirements, you must be logged in to be able to delete a messa
 * [Send Message Method][1]
 * [Update Message Method][2]
 
-[1]:../send-message
-[2]:../update-message
+[1]:../send-message/
+[2]:../update-message/

@@ -58,8 +58,8 @@
 * [Archive Rooms][5]
 * [Unarchive Rooms][4]
 
-[1]:../create-channels
-[2]:../create-private-groups
-[3]:../delete-rooms
-[4]:../unarchive-rooms
-[5]:../archive-rooms
+[1]:../create-channels/
+[2]:../create-private-groups/
+[3]:../delete-rooms/
+[4]:../unarchive-rooms/
+[5]:../archive-rooms/

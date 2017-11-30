@@ -38,4 +38,4 @@ The `update` field is a collection of `room` and its content varies according to
 }
 ```
 
-[1]:../../the-room-object
+[1]:../../the-room-object/

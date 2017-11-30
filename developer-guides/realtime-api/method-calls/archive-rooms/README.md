@@ -38,8 +38,8 @@ Archving a room marks it as read only and then removes it from the channel list 
 * [Unarchive Rooms][4]
 * [Save Room Settings][5]
 
-[1]:../create-channels
-[2]:../create-private-groups
-[3]:../delete-rooms
-[4]:../unarchive-rooms
-[5]:../save-room-settings
+[1]:../create-channels/
+[2]:../create-private-groups/
+[3]:../delete-rooms/
+[4]:../unarchive-rooms/
+[5]:../save-room-settings/

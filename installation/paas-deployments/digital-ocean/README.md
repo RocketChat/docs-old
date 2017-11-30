@@ -8,4 +8,4 @@ If you are not using Docker, follow these instructions:
 
 - For [CentOS](/installation/manual-installation/centos/)
 
-If you are using Docker, follow these instructions: [Deploy Rocket.Chat on Linux with Docker](/installation/docker-containers)
+If you are using Docker, follow these instructions: [Deploy Rocket.Chat on Linux with Docker](/installation/docker-containers/)
