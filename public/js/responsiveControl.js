@@ -19,6 +19,11 @@ $('.burger').click(function () {
     $('.ui.sidebar').sidebar('toggle');
 });
 
+
+$('body').on('click', '.sidebar .toc li', function () {
+    $('.ui.sidebar').sidebar('hide');
+});
+
 $('body').on('click', '.search', function () {
     var viewportWidth = $(window).width();
     if (viewportWidth < 1000) {
@@ -40,9 +45,6 @@ $('.search').bind('transitionend webkitTransitionEnd oTransitionEnd MSTransition
     }
 });
 
-$('.sidebar .toc li').click(function () {
-    $('.ui.sidebar').sidebar('hide');
-});
 
 
 $
