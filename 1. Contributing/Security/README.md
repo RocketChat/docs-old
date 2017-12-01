@@ -45,5 +45,6 @@ Rocket.Chat is very grateful for the following people who have responsibly discl
 - [Matthew Bryant](https://thehackerblog.com), October/2016
 - [Joe DeMesy](https://badwith.computer), October/2016
 - [Shubham Shah](https://shubs.io), October/2016
+- [Steeve Barbeau](https://twitter.com/steevebarbeau), October/2017
 
 Thank you all very much!
