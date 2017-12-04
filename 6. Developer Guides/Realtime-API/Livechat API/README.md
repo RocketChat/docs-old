@@ -2,13 +2,12 @@
 
 This API is intended to be used for having a livechat conversation;
 
-
 - First of all you need to generate a visitor token (any random string);
 - Call [livechat:getInitialData](getInitialData.md) passing `visitorToken` as first argument, the response will be an object containing a livechat [configuration object](getInitialData.md#response) with following properties:
 
 | Field | Type | Description |
 | :--- | :--- | :--- |
-| `enabled` | `Boolean` | If wheter livechat is enabled for that server or not |
+| `enabled` | `Boolean` | If whether livechat is enabled for that server or not |
 | `online` | `Boolean` | If there are livechat agents online |
 | `room` | `String` | The current conversation room for the current guest user |
 | `registrationForm` | `Boolean` | If the registration form should be displayed or not. See [Registration Form](Registration%20.md) |

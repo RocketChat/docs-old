@@ -1,8 +1,5 @@
----
-order: 17
----
-
 # Get Integrations
+
 Retrieves the integrations which the group has, requires the permission `manage-integrations`. It supports the [Offset, Count, and Sort Query Parameters](../Offset%20and%20Count%20and%20Sort%20Info.md) along with [Query and Fields Query Parameters](../Query%20and%20Fields%20Info.md).
 
 | URL | Requires Auth | HTTP Method |
@@ -10,11 +7,13 @@ Retrieves the integrations which the group has, requires the permission `manage-
 | `/api/v1/groups.getIntegrations` | `yes` | `GET` |
 
 ## Query Parameters
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The group's id |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -22,6 +21,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
     "integrations": [{
@@ -62,6 +62,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.49.0 | Added |

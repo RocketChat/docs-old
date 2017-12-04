@@ -1,8 +1,5 @@
----
-order: 10
----
-
 # IM History
+
 Retrieves the messages from a direct message.
 
 | URL | Requires Auth | HTTP Method |
@@ -10,6 +7,7 @@ Retrieves the messages from a direct message.
 | `/api/v1/im.history` | `yes` | `GET` |
 
 ## Query Parameters
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The direct message id |
@@ -20,6 +18,7 @@ Retrieves the messages from a direct message.
 | `unreads` | `false` | Optional <br> Default: `false` | Whether the amount of unreads should be included. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -27,6 +26,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "messages": [
@@ -86,6 +86,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.48.0 | Added |

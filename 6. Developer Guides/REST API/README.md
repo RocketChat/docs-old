@@ -1,7 +1,3 @@
----
-order: 6
----
-
 # Rocket.Chat REST API
 
 The REST API allows you to control and extend Rocket.Chat with ease.
@@ -13,18 +9,21 @@ If you are an end-user and not a dev or a tester, [create an issue](https://gith
 > All API calls in the documentation are made using `curl`.  However, you are free to use Java / Python / PHP / Golang / Ruby / Swift / Objective-C / Rust / Scala / C# or any other programming languages.
 
 ## Production Security Concerns
+
 When calling a production Rocket.Chat server, ensure it is running via HTTPS and has a valid SSL Certificate. The login method requires you to post your username and password in plaintext, which is why we highly suggest only calling the REST login api over HTTPS. Also, few things to note:
 
-* Only call via HTTPS
-* Implement a timed authorization token expiration strategy
-* Ensure the calling user only has permissions for what they are calling an no more
+- Only call via HTTPS
+- Implement a timed authorization token expiration strategy
+- Ensure the calling user only has permissions for what they are calling an no more
 
 ### Miscellaneous Information
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/info` | Information about the Rocket.Chat server. | [Link](Miscellaneous/info.md) |
 
 ### Authentication
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/login` | Authenticate with the REST API. | [Link](Authentication/login.md) |
@@ -32,6 +31,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/me` | Displays information about the authenticated user. | [Link](Authentication/me.md) |
 
 ### Users
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/users.create` | Create a new user. | [Link](Users/create.md) |
@@ -47,6 +47,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/users.update` | Update an existing user. | [Link](Users/update.md) |
 
 ### Channels
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/channels.addAll` | Adds all of the users on the server to a channel. | [Link](Channels/addAll.md) |
@@ -60,7 +61,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.invite` | Adds a user to a channel. | [Link](Channels/invite.md) |
 | `/api/v1/channels.kick` | Removes a user from a channel. | [Link](Channels/kick.md) |
 | `/api/v1/channels.leave` | Removes the calling user from a channel. | [Link](Channels/leave.md) |
-| `/api/v1/channels.list` | Retrives all of the channels from the server. | [Link](Channels/list.md) |
+| `/api/v1/channels.list` | Retrieves all of the channels from the server. | [Link](Channels/list.md) |
 | `/api/v1/channels.list.joined` | Gets only the channels the calling user has joined. | [Link](Channels/list.joined.md) |
 | `/api/v1/channels.open` | Adds the channel back to the user's list of channels. | [Link](Channels/open.md) |
 | `/api/v1/channels.rename` | Changes a channel's name. | [Link](Channels/rename.md) |
@@ -73,6 +74,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.unarchive` | Unarchives a channel. | [Link](Channels/unarchive.md) |
 
 ### Groups
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/groups.archive` | Archives a private group. | [Link](Groups/archive.md) |
@@ -94,6 +96,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.unarchive` | Unarchives a private group. | [Link](Groups/unarchive.md) |
 
 ### Chat
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/chat.delete` | Deletes an existing chat message. | [Link](Chat/delete.md) |
@@ -107,6 +110,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.update` | Updates the text of the chat message. | [Link](Chat/update.md) |
 
 ### IM
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/im.close` | Removes a direct message from the list of direct messages. | [Link](Im/close.md) |
@@ -118,20 +122,26 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/im.setTopic` | Sets a direct message topic. | [Link](Im/setTopic.md) |
 
 ### Settings
+
 | Url | Method | Short Description | Details Page |
 | :--- | :--- | :--- | :--- |
 | `/api/v1/settings/:_id` | `GET` | Gets a setting. | [Link](Settings/get.md) |
 | `/api/v1/settings/:_id` | `POST` | Updates a setting. | [Link](Settings/update.md) |
 
 ## Language specific wrappers
+
 ### Java
-* [rocket-chat-rest-client](https://github.com/baloise/rocket-chat-rest-client)
+
+- [rocket-chat-rest-client](https://github.com/baloise/rocket-chat-rest-client)
 
 ### PHP
-* [rocket-chat-rest-client](https://github.com/Fab1en/rocket-chat-rest-client)
+
+- [rocket-chat-rest-client](https://github.com/Fab1en/rocket-chat-rest-client)
 
 ### Python
-* [rocketchat_API](https://github.com/jadolg/rocketchat_API)
+
+- [rocketchat_API](https://github.com/jadolg/rocketchat_API)
 
 ### Ruby
-* [rocketchat-ruby](https://github.com/abrom/rocketchat-ruby)
+
+- [rocketchat-ruby](https://github.com/abrom/rocketchat-ruby)

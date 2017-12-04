@@ -27,9 +27,9 @@ Response:
 }
 ```
 
-## The Permisson object
+## The Permission object
 
-The permission object describes a permisson as:
+The permission object describes a permission as:
 
 - `_id`: The permission's id
 - `roles`: A collection of roles that this permissions applies to
@@ -42,7 +42,7 @@ The `meta` object is defined as:
 - `revision`: The revision of the permission
 - `created`: Date the permission was created
 - `version`: The permission version
-- `updated`: (Optional) Date the permisson  was last updated
+- `updated`: (Optional) Date the permission  was last updated
 
 Example:
 

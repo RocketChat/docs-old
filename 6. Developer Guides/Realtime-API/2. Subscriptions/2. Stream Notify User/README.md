@@ -4,12 +4,12 @@ This is the user stream.
 
 Events available:
 
- - message
- - otr
- - webrtc
- - notification
- - rooms-changed
- - subscriptions-changed
+- message
+- otr
+- webrtc
+- notification
+- rooms-changed
+- subscriptions-changed
 
 ```json
 {

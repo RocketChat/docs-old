@@ -11,7 +11,7 @@
 - [Testing](Testing/)
 - [Troubleshooting](Troubleshooting/)
 
-**Important information**:  
+**Important information**:
 On Rocket.Chat rooms can be referenced as:
 
 - Channels

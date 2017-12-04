@@ -11,7 +11,7 @@ There are four different statuses available:
 
 ## Setting the default status
 
-In order to set the defult status we need to call the `UserPresence:setDefaultStatus` method passing the status in the parameters of the call.
+In order to set the default status we need to call the `UserPresence:setDefaultStatus` method passing the status in the parameters of the call.
 
 Example call (setting the user presence to `online`):
 

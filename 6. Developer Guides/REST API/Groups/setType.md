@@ -1,8 +1,5 @@
----
-order: 73
----
-
 # Group Set Type
+
 Sets the type of room this group should be.
 
 | URL | Requires Auth | HTTP Method |
@@ -10,12 +7,14 @@ Sets the type of room this group should be.
 | `/api/v1/groups.setType` | `yes` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The group's id |
 | `type` | `c` _or_ `p` | Required | The type of room this group should be, either `c` or `p`. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -25,6 +24,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
     "group": {
@@ -52,6 +52,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.49.0 | Added |

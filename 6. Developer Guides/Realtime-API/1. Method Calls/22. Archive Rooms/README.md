@@ -1,12 +1,15 @@
 # Archive Rooms
-Archving a room marks it as read only and then removes it from the channel list on the left.
+
+Archiving a room marks it as read only and then removes it from the channel list on the left.
 
 ## Requirements
+
 | Logged In | Permission | Setting |
 | --- | --- | --- |
 | Yes | `archive-room` | _none_ |
 
 ## Payload
+
 1. String - the id of the room to archive
 
 ## Example Call
@@ -19,7 +22,7 @@ Archving a room marks it as read only and then removes it from the channel list 
     "params": [
         "roomId"
     ]
-} 
+}
 ```
 
 ## Example Response
@@ -32,11 +35,12 @@ Archving a room marks it as read only and then removes it from the channel list 
 ```
 
 ## See Also
-* [Create Channels][1]
-* [Create Private Groups][2]
-* [Delete Rooms][3]
-* [Unarchive Rooms][4]
-* [Save Room Settings][5]
+
+- [Create Channels][1]
+- [Create Private Groups][2]
+- [Delete Rooms][3]
+- [Unarchive Rooms][4]
+- [Save Room Settings][5]
 
 [1]:../19.%20Create%20Channel
 [2]:../20.%20Create%20Private%20Groups

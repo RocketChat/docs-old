@@ -2,4 +2,4 @@
 
 ## DDP Message
 
-## Reponse
+## Response

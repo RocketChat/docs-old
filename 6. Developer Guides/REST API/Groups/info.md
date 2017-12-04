@@ -1,8 +1,5 @@
----
-order: 25
----
-
 # Group Info
+
 Retrieves the information about the private group, only if you're part of the group.
 
 | URL | Requires Auth | HTTP Method |
@@ -10,12 +7,14 @@ Retrieves the information about the private group, only if you're part of the gr
 | `/api/v1/groups.info` | `yes` | `GET` |
 
 ## Query Parameters
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required (if no roomName) | The private group's id |
 | `roomName` | `Exclusive.Chat` | Required (if no roomId) | The private group's name |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -23,6 +22,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "group": {
@@ -48,6 +48,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.48.0 | Added |

@@ -1,8 +1,5 @@
----
-order: 20
----
-
 # Channel Create
+
 Creates a new public channel, optionally including specified users. The channel creator is always included.
 
 | URL | Requires Auth | HTTP Method |
@@ -10,6 +7,7 @@ Creates a new public channel, optionally including specified users. The channel 
 | `/api/v1/channels.create` | `yes` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `name` | `channelname` | Required | The name of the new channel |
@@ -17,6 +15,7 @@ Creates a new public channel, optionally including specified users. The channel 
 | `readOnly` | `true` | Optional <br> Default: `false` | Set if the channel is read only or not. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -26,6 +25,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
    "channel": {
@@ -47,6 +47,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.13.0 | Added |

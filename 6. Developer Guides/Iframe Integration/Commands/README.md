@@ -1,6 +1,7 @@
 # Iframe integration: Sending commands
 
 ## Available commands
+
 Command | Params | Description
 --- | --- | ---
 go | - `path` string | Change url
@@ -10,6 +11,7 @@ set-user-status | - `status` string | Set the status of the user
 logout | | Log the user out of their current session
 
 ## Example
+
 ```javascript
 document.querySelector('iframe').contentWindow.postMessage({
   externalCommand: 'go',

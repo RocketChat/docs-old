@@ -1,6 +1,6 @@
 # Login
 
-Used for user login. It supports a plenthora of authentication services, including a simple username and password combination. The list of supported auth services (and its configurations) lies in the `meteor_accounts_loginServiceConfiguration` collection.
+Used for user login. It supports a plethora of authentication services, including a simple username and password combination. The list of supported auth services (and its configurations) lies in the `meteor_accounts_loginServiceConfiguration` collection.
 
 The overall format of the login message is:
 
@@ -13,7 +13,7 @@ The overall format of the login message is:
 }
 ```
 
-Independently of the auth provider, upon an sucessful login we'll receive back an `result` with the `user-id`, `auth-token` and the token expiration date. As the example bellow shows:
+Independently of the auth provider, upon an successful login we'll receive back an `result` with the `user-id`, `auth-token` and the token expiration date. As the example bellow shows:
 
 ```json
 {
@@ -104,14 +104,16 @@ If you have a saved user authentication you may use the provided `auth-token` to
 }
 ```
 
-A sucessful call will return the same message as an sucessful login (which it is).
+A successful call will return the same message as an successful login (which it is).
 
 ## About token expiration date
+
 As the token expires, you have to call the login method again in order to obtain a new token with a new expiration date.
 
 NB: You don't have to wait until the token is expired before asking for a new token.
 
 ## See Also
-* [Logout][1]
+
+- [Logout][1]
 
 [1]:../1.%20Logout

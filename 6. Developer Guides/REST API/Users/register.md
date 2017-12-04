@@ -1,13 +1,11 @@
----
-order: 35
----
-
 # User Register
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/users.register` | `no` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `username` | `rogersmith` | Required | The username for the user. |
@@ -17,6 +15,7 @@ order: 35
 | `secretURL` | `http://localhost:3000/secret/registration/url` | Optional | URL provided to users for registration |
 
 ## Example Call
+
 ```bash
 curl -H "Content-type:application/json" \
      http://localhost:3000/api/v1/users.register \
@@ -27,6 +26,7 @@ curl -H "Content-type:application/json" \
 ```
 
 ## Example Result
+
 ```json
 {
   "user": {
@@ -43,6 +43,7 @@ curl -H "Content-type:application/json" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.50.0 | Added |

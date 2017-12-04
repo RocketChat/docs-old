@@ -1,8 +1,5 @@
----
-order: 30
----
-
 # User List
+
 Gets all of the users in the system and their information, the result is only limited to what the callee has access to view.
 It supports the [Offset, Count, and Sort Query Parameters](../Offset%20and%20Count%20and%20Sort%20Info.md) along with [Query and Fields Query Parameters](../Query%20and%20Fields%20Info.md).
 
@@ -11,12 +8,14 @@ It supports the [Offset, Count, and Sort Query Parameters](../Offset%20and%20Cou
 | `/api/v1/users.list` | `yes` | `GET` |
 
 ## Query Parameters
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `fields` | `{ name: 1, email: 0 }` | Optional | Field include hash (value of `1` to include, `0` to exclude). |
 | `query` | `{ active: true, type: { $in: ['user', 'bot'] } }` | Optional | Query filter hash. |
 
 ## Other Users Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -24,6 +23,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result Regular User Callee
+
 ```json
 {
   "users": [
@@ -48,6 +48,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result Admin Callee
+
 ```json
 {
   "users": [
@@ -106,6 +107,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.49.0 | Count and offset query parameters supported. |

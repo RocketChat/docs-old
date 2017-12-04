@@ -8,7 +8,7 @@ To customize the Rocket.Chat UI you can either modify the `rocketchat-theme` or 
 
 ## Creating a Theme
 
-You can add theme customisations to Rocket.Chat by just creating a Meteor package with your code, then adding it to the packages file.
+You can add theme customizations to Rocket.Chat by just creating a Meteor package with your code, then adding it to the packages file.
 
 Private themes would need to be maintained on your own fork of Rocket.Chat, but public themes could be published as a Meteor package outside the Rocket.Chat repo.
 
@@ -16,10 +16,10 @@ The minimum contents for a theme package would be a `package.js` file containing
 
 ```
 Package.describe({
-	name: 'author:mytheme',
-	version: '0.0.1',
-	summary: 'My theme customisations.',
-	git: 'https://github.com/author/my-rocket.chat-theme'
+    name: 'author:mytheme',
+    version: '0.0.1',
+    summary: 'My theme customisations.',
+    git: 'https://github.com/author/my-rocket.chat-theme'
 });
 ```
 
@@ -27,13 +27,13 @@ Then include dependent packages and your custom theme files. e.g:
 
 ```
 Package.onUse(function(api) {
-	api.versionsFrom('1.2');
-	api.use([
-		'templating',
-		'rocketchat:lib',
-		'rocketchat:theme'
-	]);
-	api.use('templating', 'client');
+    api.versionsFrom('1.2');
+    api.use([
+        'templating',
+        'rocketchat:lib',
+        'rocketchat:theme'
+    ]);
+    api.use('templating', 'client');
 ```
 
 ---
@@ -43,12 +43,12 @@ Package.onUse(function(api) {
 The `rocketchat-theme` package has methods for including [Less](http://lesscss.org/) asset files in the build. Less files (and the a server.coffee or .js file to load them) must first be included in the `package.js` manifest (within the `Package.onUse` function), e.g.:
 
 ```
-	api.addAssets([
-		'assets/theme.less'
-	], 'server');
-	api.addFiles([
-		'server.coffee'
-	], 'server');
+    api.addAssets([
+        'assets/theme.less'
+    ], 'server');
+    api.addFiles([
+        'server.coffee'
+    ], 'server');
 ```
 
 Then in `server.coffee`...

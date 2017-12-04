@@ -1,12 +1,8 @@
----
-order: 2
----
-
-## Rocket.Chat Workflow
+# Rocket.Chat Workflow
 
 1. Start working on an issue you’re assigned to. If you’re not assigned to any issue, find the issue with the highest priority you can work on, by relevant label and assign it to yourself. Priority is given by milestones. You should always check issues in the current milestone, then short-term, middle-term and long-term in that order.
-1. You are responsible for the issue that you're assigned to. If you are not able to do it or you believe you won't make it to the selected milestone, talk to your team, lead or manager to have it reassigned or postponed.
-1. Once your code has been deployed in the release-candidate environment, please verify that your changes work as intended. We have seen issues where bugs did not appear in development but showed in production (e.g. due to merge issues).
+2. You are responsible for the issue that you're assigned to. If you are not able to do it or you believe you won't make it to the selected milestone, talk to your team, lead or manager to have it reassigned or postponed.
+3. Once your code has been deployed in the release-candidate environment, please verify that your changes work as intended. We have seen issues where bugs did not appear in development but showed in production (e.g. due to merge issues).
 
 ## Choosing something to work on
 
@@ -28,22 +24,23 @@ If you’re in doubt about what to work on, ask your team, lead or manager. They
 ## Creating a Pull Request
 
 Anytime you start to work on something different, make sure you create or switch to a branch specific to the feature you're working on. You can choose to create a Pull Request anytime during your development phase, just make sure you add the label `stat: in progress` while the PR is not ready for merge (and remember to remove the label when it is). When naming your Pull Request, please start the name with one the following tags for identifying changes:
+
 - [NEW] for new features (eg.: `[NEW] WhiteBoard integration`)
 - [FIX] for bug fixes. You should include the issue number(s) in parenthesis, whenever possible. (eg.: `[FIX] OTR timeout problems (#629, #2535)`)
 - [BREAK] for giving proper attention to changes that will break previous versions of Rocket.Chat (eg.: `[BREAK] Change notification setting type from boolean to string`)
 
-[history]: https://github.com/RocketChat/Rocket.Chat/blob/develop/HISTORY.md
+[history]: <https://github.com/RocketChat/Rocket.Chat/blob/develop/HISTORY.md>
 
 ## Getting your pull request reviewed, approved, and merged
 
 There are a few rules to get your pull request accepted:
 
 1. All checks have passed
-  1. Travis CI runs automatically when you push your pull request. If Travis fails, take a look at the reasons for failing. If it fails for no apparent reason, try running it again.
-  1. You must sign the [Contributor License Agreement (CLA)][cla]
-  1. At least one team member must approve the Pull Request. If you don't know who to ask for an approval, let your team, lead or manager know you need one, and someone will be assigned as reviewer.
+    1. Travis CI runs automatically when you push your pull request. If Travis fails, take a look at the reasons for failing. If it fails for no apparent reason, try running it again.
+    2. You must sign the [Contributor License Agreement (CLA)][cla]
+    3. At least one team member must approve the Pull Request. If you don't know who to ask for an approval, let your team, lead or manager know you need one, and someone will be assigned as reviewer.
 
-[cla]: https://cla-assistant.io/RocketChat/Rocket.Chat
+[cla]: <https://cla-assistant.io/RocketChat/Rocket.Chat>
 
 ## Finishing a release branch
 
@@ -137,5 +134,4 @@ All labels are listed on the [labels page][labels].
 
 ### Labels for community contributors
 
-Issues that are beneficial to our users, 'nice to haves', that we currently do not have the capacity for or want to give the priority to, are labeled as `contrib: `, so the community can make a contribution. We categorize them into `easy`, `intermediate` and `experts needed` to help contributors pick an issue to work on when joining the project, based on how difficult is the work we believe the issue demands.
-
+Issues that are beneficial to our users, 'nice to haves', that we currently do not have the capacity for or want to give the priority to, are labeled as `contrib:`, so the community can make a contribution. We categorize them into `easy`, `intermediate` and `experts needed` to help contributors pick an issue to work on when joining the project, based on how difficult is the work we believe the issue demands.

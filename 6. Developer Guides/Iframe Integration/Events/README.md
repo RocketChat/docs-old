@@ -10,7 +10,7 @@ Event name | Description
 `unread-changed-by-subscription` | Fired each time a user's subscription record changes (i.e.: unread counts, etc)
 `unread-changed` | Fired when the pages title changes
 `room-opened` | Fired when a room is opened
-`new-message` | Fired everytime the opened room receives a new message
+`new-message` | Fired every time the opened room receives a new message
 `click-user-card-message` | Fired when the user clicks on a username link
 `click-mention-link` | Fired when the user clicks on a mention link
 `click-message-link` | Fired when the user clicks on a posted link

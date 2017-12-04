@@ -1,17 +1,19 @@
 # Save Room Settings
 
-
 ## Requirements
+
 | Logged In | Permission | Setting |
 | --- | --- | --- |
 | Yes | `edit-room` | _none_ |
 
 ## Payload
+
 1. String - the id of the room to leave
 2. String - the room setting to save
 3. Any - the value of the setting to save, this value type depends on what the setting accepts
 
 ## Available Settings
+
 | Setting | Accepted Values |
 | --- | --- |
 | `roomName` | String |
@@ -35,7 +37,7 @@
         "setting",
         "value"
     ]
-} 
+}
 ```
 
 ## Example Response
@@ -52,11 +54,12 @@
 ```
 
 ## See Also
-* [Create Channels][1]
-* [Create Private Groups][2]
-* [Delete Rooms][3]
-* [Archive Rooms][5]
-* [Unarchive Rooms][4]
+
+- [Create Channels][1]
+- [Create Private Groups][2]
+- [Delete Rooms][3]
+- [Archive Rooms][5]
+- [Unarchive Rooms][4]
 
 [1]:../19.%20Create%20Channel
 [2]:../20.%20Create%20Private%20Groups

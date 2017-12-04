@@ -1,8 +1,5 @@
----
-order: 100
----
-
 # Livechat Methods
+
 Manage livechat related data:
 
 | Url | HTTP Method | Short Description | Details Page |

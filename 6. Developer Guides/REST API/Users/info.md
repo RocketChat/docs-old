@@ -1,8 +1,5 @@
----
-order: 25
----
-
 # User Information
+
 Retrieves information about a user, the result is only limited to what the callee has access to view.
 
 | URL | Requires Auth | HTTP Method |
@@ -10,11 +7,13 @@ Retrieves information about a user, the result is only limited to what the calle
 | `/api/v1/users.info` | `yes` | `GET` |
 
 ## Query Parameters
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `userId` or `username` | `BsNr28znDkG8aeo7W` | Required | The id or username of the user. |
 
 ## Other Users Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -22,6 +21,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result Regular User Callee
+
 ```json
 {
   "user": {
@@ -38,6 +38,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result Admin Callee
+
 ```json
 {
   "user": {
@@ -88,8 +89,9 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.49.0 | Updated to support `userId` or `username` |
-| 0.48.0 | Renamed to `users.info` | 
+| 0.48.0 | Renamed to `users.info` |
 | 0.35.0 | Added as `user.info` |
