@@ -36,3 +36,10 @@ task :check_links do
     end
   end
 end
+
+desc 'Check named markdown files contain permalink'
+task :check_named_markdown do
+  puts 'Named markdown files missing permalinks:'
+  
+  sh 'grep -rL --include="*.md" --exclude="README.md" "permalink:" .'
+end
