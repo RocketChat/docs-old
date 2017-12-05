@@ -1,7 +1,3 @@
----
-order: 12
----
-
 # User Create Token
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

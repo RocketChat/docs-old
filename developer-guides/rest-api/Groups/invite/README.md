@@ -1,7 +1,3 @@
----
-order: 30
----
-
 # Group Invite
 Adds a user to the private group.
 

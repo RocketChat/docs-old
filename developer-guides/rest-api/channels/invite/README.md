@@ -1,7 +1,3 @@
----
-order: 35
----
-
 # Channel Invite
 Adds a user to the channel.
 

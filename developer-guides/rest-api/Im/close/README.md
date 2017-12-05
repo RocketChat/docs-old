@@ -1,7 +1,3 @@
----
-order: 5
----
-
 # IM Close
 Removes the direct message from the user's list of direct messages.
 

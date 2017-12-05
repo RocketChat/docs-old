@@ -1,7 +1,3 @@
----
-order: 50
----
-
 # IM Set Topic
 Sets the topic for the direct message.
 

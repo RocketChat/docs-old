@@ -1,7 +1,3 @@
----
-order: 70
----
-
 # Star a Chat Message
 Stars a chat message for the authenticated user.
 

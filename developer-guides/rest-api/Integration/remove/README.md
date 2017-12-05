@@ -1,7 +1,3 @@
----
-order: 100
----
-
 # Remove Integration
 Removes an integration from the server.
 

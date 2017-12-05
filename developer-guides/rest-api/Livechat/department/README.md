@@ -1,7 +1,3 @@
----
-order: 20
----
-
 # List departments
 Get a list of departments.
 

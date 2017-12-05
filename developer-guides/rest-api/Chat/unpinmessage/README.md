@@ -1,7 +1,3 @@
----
-order: 80
----
-
 # Unpins a Chat Message
 Removes the pinned status of the provided chat message.
 

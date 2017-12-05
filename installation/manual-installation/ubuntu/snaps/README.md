@@ -22,7 +22,7 @@ If you have questions about snaps best place to ask them is in: [#ubuntu-snap](h
 
 ### How do I access my site at a different port?  How do I enable TLS/SSL with my snap?
 
-Check out our guide for enabling caddy: [here](/installation/manual-installation/ubuntu/snaps/autossl.md)
+Check out our guide for enabling caddy: [here](/installation/manual-installation/ubuntu/snaps/autossl/)
 
 ### Ubuntu 16.04 LTS gives message "snap not found", whats wrong?
 

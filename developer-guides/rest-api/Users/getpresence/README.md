@@ -1,7 +1,3 @@
----
-order: 20
----
-
 # User Get Presence
 Gets a user's presence if the query string `userId` is provided, otherwise it gets the callee's.
 
@@ -50,5 +46,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | Version | Description |
 | :--- | :--- |
 | 0.49.0 | Updated to support `userId` or `username` |
-| 0.48.0 | Renamed to `users.getPresence` | 
+| 0.48.0 | Renamed to `users.getPresence` |
 | 0.35.0 | Added as `user.getPresence` |

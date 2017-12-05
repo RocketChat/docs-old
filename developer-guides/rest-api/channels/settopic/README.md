@@ -1,7 +1,3 @@
----
-order: 80
----
-
 # Channel Set Topic
 Sets the topic for the channel.
 

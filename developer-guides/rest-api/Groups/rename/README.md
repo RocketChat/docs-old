@@ -1,7 +1,3 @@
----
-order: 55
----
-
 # Group Rename
 Changes the name of the private group.
 

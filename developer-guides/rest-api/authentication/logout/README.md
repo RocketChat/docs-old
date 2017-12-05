@@ -1,7 +1,3 @@
----
-order: 10
----
-
 # Logout
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |

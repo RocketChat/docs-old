@@ -1,9 +1,5 @@
----
-order: 20
----
-
 # Settings Update
-Updates the setting for the provided `_id`. 
+Updates the setting for the provided `_id`.
 
 The `_id` of a setting is the first argument of the `RocketChat.settings.add` method used in `Rocket.Chat/packages/rocketchat-lib/server/startup/settings.js` (among other files). For example, the following code in that `settings.js` file
 ```javascript

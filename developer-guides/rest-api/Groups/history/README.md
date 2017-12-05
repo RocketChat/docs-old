@@ -1,7 +1,3 @@
----
-order: 20
----
-
 # Group History
 Retrieves the messages from a private group, only if you're part of the group.
 

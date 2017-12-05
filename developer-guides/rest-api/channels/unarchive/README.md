@@ -1,8 +1,4 @@
----
-order: 85
----
-
-# Channel Unarchive 
+# Channel Unarchive
 Unarchives a channel.
 
 | URL | Requires Auth | HTTP Method |

@@ -1,9 +1,5 @@
----
-order: 25
----
-
 # IM Messages Others
-Retrieves the messages from any direct message in the server. It supports the [Offset, Count, and Sort Query Parameters](../offset-and-count-and-sort-info.md) along with [Query and Fields Query Parameters](../query-and-fields-info.md).
+Retrieves the messages from any direct message in the server. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/) along with [Query and Fields Query Parameter](../../query-and-fields-info/).
 
 For this method to work the `Enable Direct Message History Endpoint` setting must be true, and the user calling this method must have the `view-room-administration` permission.
 

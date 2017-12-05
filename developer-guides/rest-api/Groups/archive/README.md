@@ -1,8 +1,4 @@
----
-order: 5
----
-
-# Group Archive 
+# Group Archive
 Archives a private group, only if you're part of the group.
 
 | URL | Requires Auth | HTTP Method |

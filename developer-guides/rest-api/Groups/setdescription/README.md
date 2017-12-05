@@ -1,7 +1,3 @@
----
-order: 60
----
-
 # Group Set Description
 Sets the description for the private group.
 

@@ -1,7 +1,3 @@
----
-order: 10
----
-
 # User Create
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

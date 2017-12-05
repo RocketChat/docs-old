@@ -1,7 +1,3 @@
----
-order: 10
----
-
 # Chat Message Delete
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |

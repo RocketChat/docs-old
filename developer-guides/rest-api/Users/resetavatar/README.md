@@ -1,7 +1,3 @@
----
-order: 40
----
-
 # User Reset Avatar
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

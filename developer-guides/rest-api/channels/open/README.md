@@ -1,7 +1,3 @@
----
-order: 60
----
-
 # Channel Open
 Adds the channel back to the user's list of channels.
 

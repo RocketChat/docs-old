@@ -1,7 +1,3 @@
----
-order: 1
----
-
 # Login
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |

@@ -1,7 +1,3 @@
----
-order: 40
----
-
 # Group Leave
 Causes the callee to be removed from the private group, if they're part of it and are not the last owner.
 

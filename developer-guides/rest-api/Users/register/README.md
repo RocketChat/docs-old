@@ -1,7 +1,3 @@
----
-order: 35
----
-
 # User Register
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

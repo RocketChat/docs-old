@@ -1,9 +1,5 @@
----
-order: 17
----
-
 # Get Integrations
-Retrieves the integrations which the group has, requires the permission `manage-integrations`. It supports the [Offset, Count, and Sort Query Parameters](../offset-and-count-and-sort-info.md) along with [Query and Fields Query Parameters](../query-and-fields-info.md).
+Retrieves the integrations which the group has, requires the permission `manage-integrations`. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/) along with [Query and Fields Query Parameters](../../query-and-fields-info/).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

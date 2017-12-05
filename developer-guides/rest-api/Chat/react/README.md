@@ -1,7 +1,3 @@
----
-order: 60
----
-
 # Chat Message Reactions
 Toggles the authenciated user's reaction to the provided message.
 

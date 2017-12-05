@@ -1,7 +1,3 @@
----
-order: 45
----
-
 # User Set Photo/Avatar
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

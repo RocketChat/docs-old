@@ -1,7 +1,3 @@
----
-order: 30
----
-
 # Channel Info
 Retrieves the information about the channel.
 

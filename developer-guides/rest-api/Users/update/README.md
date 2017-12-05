@@ -1,7 +1,3 @@
----
-order: 50
----
-
 # User Update
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -71,5 +67,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Change Log
 | Version | Description |
 | :--- | :--- |
-| 0.48.0 | Renamed to `users.update` | 
+| 0.48.0 | Renamed to `users.update` |
 | 0.35.0 | Added as `user.update` |

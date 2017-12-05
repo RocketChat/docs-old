@@ -1,7 +1,3 @@
----
-order: 73
----
-
 # Group Set Type
 Sets the type of room this group should be.
 

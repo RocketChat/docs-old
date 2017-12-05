@@ -1,7 +1,3 @@
----
-order: 10
----
-
 # IM History
 Retrieves the messages from a direct message.
 

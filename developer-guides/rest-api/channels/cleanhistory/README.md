@@ -1,8 +1,4 @@
----
-order: 10
----
-
-# Channel Clean History 
+# Channel Clean History
 Cleans up a channel, removing messages from the provided time range.
 
 | URL | Requires Auth | HTTP Method |

@@ -1,7 +1,3 @@
----
-order: 83
----
-
 # Channel Set Type
 Sets the type of room this channel should be.
 

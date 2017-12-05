@@ -1,7 +1,3 @@
----
-order: 50
----
-
 # Group Open
 Adds the private group back to the user's list of private groups.
 

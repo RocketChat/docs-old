@@ -1,7 +1,3 @@
----
-order: 73
----
-
 # Channel Set Join Code
 Sets the code required to join the channel.
 

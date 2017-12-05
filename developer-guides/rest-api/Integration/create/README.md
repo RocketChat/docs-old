@@ -1,7 +1,3 @@
----
-order: 1
----
-
 # Create Integration
 Creates an integration, if the callee has the permission.
 

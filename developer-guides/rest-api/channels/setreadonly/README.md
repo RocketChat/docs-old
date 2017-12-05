@@ -1,7 +1,3 @@
----
-order: 77
----
-
 # Channel Set Read Only
 Sets whether the channel is read only or not.
 

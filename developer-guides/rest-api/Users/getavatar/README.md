@@ -1,7 +1,3 @@
----
-order: 17
----
-
 # User Get Avatar
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

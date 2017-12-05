@@ -1,7 +1,3 @@
----
-order: 10
----
-
 # List agents or managers
 Get a list of agents or managers.
 

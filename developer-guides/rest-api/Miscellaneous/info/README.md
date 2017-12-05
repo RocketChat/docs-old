@@ -1,7 +1,3 @@
----
-order: 1
----
-
 # Info
 A simple method, requires no authentication, that returns information about the server including version information.
 

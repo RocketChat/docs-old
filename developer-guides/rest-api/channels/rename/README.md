@@ -1,7 +1,3 @@
----
-order: 65
----
-
 # Channel Rename
 Changes the name of the channel.
 

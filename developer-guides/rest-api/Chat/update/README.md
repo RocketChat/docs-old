@@ -1,7 +1,3 @@
----
-order: 100
----
-
 # Chat Message Update
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |

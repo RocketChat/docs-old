@@ -1,7 +1,3 @@
----
-order: 65
----
-
 # Group Set Purpose
 Sets the description for the private group.
 

@@ -1,7 +1,3 @@
----
-order: 10
----
-
 # Settings Get
 Gets the setting for the provided `_id`.
 

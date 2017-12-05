@@ -1,7 +1,3 @@
----
-order: 4
----
-
 # Channel Add Owner
 Gives the role of owner for a user in the currrent channel.
 

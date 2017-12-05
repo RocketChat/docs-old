@@ -1,7 +1,3 @@
----
-order: 68
----
-
 # Group Set Read Only
 Sets whether the group is read only or not.
 

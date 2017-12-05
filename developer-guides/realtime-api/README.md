@@ -1,7 +1,3 @@
----
-order: 10
----
-
 # Realtime API
 
 __IMPORTANT!__ These docs are based on an unreleased version of the API. If you want to try it out, point your client to __wss://open.rocket.chat/websocket__.

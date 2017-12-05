@@ -1,7 +1,3 @@
----
-order: 25
----
-
 # Channel History
 Retrieves the messages from a channel.
 

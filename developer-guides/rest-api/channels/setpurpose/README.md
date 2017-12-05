@@ -1,7 +1,3 @@
----
-order: 75
----
-
 # Channel Set Purpose
 Sets the description for the channel.
 

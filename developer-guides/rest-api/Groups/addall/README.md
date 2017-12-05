@@ -1,7 +1,3 @@
----
-order: 1
----
-
 # Group Add All
 Adds all of the users of the Rocket.Chat server to the group.
 

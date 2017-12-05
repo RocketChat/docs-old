@@ -1,7 +1,3 @@
----
-order: 15
----
-
 # Group Create
 Creates a new private group, optionally including specified users. The group creator is always included.
 

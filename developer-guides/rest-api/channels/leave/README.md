@@ -1,7 +1,3 @@
----
-order: 45
----
-
 # Channel Leave
 Causes the callee to be removed from the channel.
 

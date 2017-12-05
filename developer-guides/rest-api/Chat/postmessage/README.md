@@ -1,7 +1,3 @@
----
-order: 50
----
-
 # Post a chat message
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |
@@ -27,14 +23,14 @@ The attachments is an array of objects with any of the following properties. One
 * Image
 * Audio
 * Video
-* Table/Fields 
+* Table/Fields
 
 | Property | Example | Section | Description |
 | :--- | :--- | :--- | :--- |
 | `color` | `#ff0000` | General | The color you want the order on the left side to be, any value [background-css](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color) supports. |
 | `text` | `Sample attachment text` | General | The text to display for this attachment, it is different than the message's text. |
 | `ts` | `2016-12-09T16:53:06.761Z` | General | Displays the time next to the `text` portion. |
-| `thumb_url` | `https://site.com/img.png` | General | An image that displays to the left of the `text`, looks better when this is relatively small. | 
+| `thumb_url` | `https://site.com/img.png` | General | An image that displays to the left of the `text`, looks better when this is relatively small. |
 | `message_link` | `https://rocket.chat` | General | Only applicable if the `ts` is provided, as it makes the time clickable to this link. |
 | `collapsed` | `false` | General | Causes the image, audio, and video sections to be hidding when collapsed is true. |
 | `author_name` | `Bradley Hilton` | Author | Name of the author. |

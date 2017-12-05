@@ -1,7 +1,3 @@
----
-order: 20
----
-
 # Channel Create
 Creates a new public channel, optionally including specified users. The channel creator is always included.
 

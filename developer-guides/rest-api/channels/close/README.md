@@ -1,7 +1,3 @@
----
-order: 15
----
-
 # Channel Close
 Removes the channel from the user's list of channels.
 

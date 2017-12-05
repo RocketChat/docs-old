@@ -1,7 +1,3 @@
----
-order: 70
----
-
 # Group Set Topic
 Sets the topic for the private group.
 

@@ -1,7 +1,3 @@
----
-order: 30
----
-
 # Save a SMS message on Rocket.Chat
 
 | URL | Requires Auth | HTTP Method |

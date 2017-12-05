@@ -1,7 +1,3 @@
----
-order: 15
----
-
 # User Delete
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

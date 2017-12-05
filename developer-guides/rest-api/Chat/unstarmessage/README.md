@@ -1,7 +1,3 @@
----
-order: 85
----
-
 # Unpins a Chat Message
 Removes the star on the chat message for the authenticated user.
 

@@ -1,8 +1,4 @@
----
-order: 75
----
-
-# Group Unarchive 
+# Group Unarchive
 Unarchives a private group.
 
 | URL | Requires Auth | HTTP Method |

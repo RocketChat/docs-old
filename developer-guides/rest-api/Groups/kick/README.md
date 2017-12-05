@@ -1,7 +1,3 @@
----
-order: 35
----
-
 # Group Kick
 Removes a user from the private group.
 

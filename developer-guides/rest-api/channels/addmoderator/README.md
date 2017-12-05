@@ -1,7 +1,3 @@
----
-order: 3
----
-
 # Channel Add Moderator
 Gives the role of moderator for a user in the current channel.
 

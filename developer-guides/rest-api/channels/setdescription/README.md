@@ -1,7 +1,3 @@
----
-order: 70
----
-
 # Channel Set Description
 Sets the description for the channel.
 

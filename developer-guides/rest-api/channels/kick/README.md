@@ -1,7 +1,3 @@
----
-order: 40
----
-
 # Channel Kick
 Removes a user from the channel.
 

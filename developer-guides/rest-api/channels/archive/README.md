@@ -1,8 +1,4 @@
----
-order: 5
----
-
-# Channel Archive 
+# Channel Archive
 Archives a channel.
 
 | URL | Requires Auth | HTTP Method |

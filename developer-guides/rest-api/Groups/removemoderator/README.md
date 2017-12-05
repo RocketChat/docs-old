@@ -1,7 +1,3 @@
----
-order: 63
----
-
 # Group Remove Moderator
 Removes the role of moderator from a user in the currrent group.
 

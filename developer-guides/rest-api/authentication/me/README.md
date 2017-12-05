@@ -1,7 +1,3 @@
----
-order: 15
----
-
 # Me
 Quick information about the authenticated user.
 

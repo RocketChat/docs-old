@@ -1,9 +1,5 @@
----
-order: 50
----
-
 # Channel List
-Lists all of the channels on the server. It supports the [Offset, Count, and Sort Query Parameters](../offset-and-count-and-sort-info.md) along with [Query and Fields Query Parameters](../query-and-fields-info.md).
+Lists all of the channels on the server. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/) along with [Query and Fields Query Parameters](../../query-and-fields-info/).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

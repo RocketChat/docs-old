@@ -1,7 +1,3 @@
----
-order: 40
----
-
 # Pins a Chat Message
 Pins a chat message to the message's channel.
 

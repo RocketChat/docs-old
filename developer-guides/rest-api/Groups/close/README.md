@@ -1,7 +1,3 @@
----
-order: 10
----
-
 # Group Close
 Removes the private group from the user's list of groups, only if you're part of the group.
 

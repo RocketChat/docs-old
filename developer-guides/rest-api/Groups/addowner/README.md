@@ -1,7 +1,3 @@
----
-order: 4
----
-
 # Group Add Owner
 Gives the role of owner for a user in the currrent group.
 

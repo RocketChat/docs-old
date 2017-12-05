@@ -1,7 +1,3 @@
----
-order: 25
----
-
 # Group Info
 Retrieves the information about the private group, only if you're part of the group.
 
