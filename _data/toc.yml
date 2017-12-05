@@ -94,7 +94,8 @@
     - Slack:
       - SlackBridge
   - Integrations:
-    - Zapier
+    - Zapier:
+      - Using Zaps
     - Azure Alerts
     - BitBucket
     - Giphy
