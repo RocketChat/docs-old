@@ -28,15 +28,17 @@ $(document).ready(function() {
   scroll_toc(window.location.pathname);
 
   var app = new senna.App();
-  app.setBasePath('/');
-  // replace html with 'content' id
-  app.addSurfaces('content');
   
   if(location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") {
+    app.setBasePath('/docs/');
+    app.addSurfaces('content');
     app.addRoutes(new senna.Route(/docs\/.*/, senna.HtmlScreen));
+
     console.log('senna route added');
   }
   else {
+    app.setBasePath('/');
+    app.addSurfaces('content');
     app.addRoutes(new senna.Route(/.*/, senna.HtmlScreen));
   }
   
