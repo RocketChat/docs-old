@@ -33,7 +33,7 @@ $(document).ready(function() {
   app.addSurfaces('content');
   
   if(location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat"){
-    app.addRoutes(new senna.Route(/docs/.*/, senna.HtmlScreen));
+    app.addRoutes(new senna.Route(/^\/docs\/.*/, senna.HtmlScreen));
   }
   else {
     app.addRoutes(new senna.Route(/.*/, senna.HtmlScreen));
