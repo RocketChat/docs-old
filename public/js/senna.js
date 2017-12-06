@@ -31,16 +31,14 @@ $(document).ready(function() {
   
   if(location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") {
     app.setBasePath('/docs/');
-    app.addSurfaces('content');
-    app.addRoutes(new senna.Route(/docs\/.*/, senna.HtmlScreen));
-
     console.log('senna route added');
   }
   else {
     app.setBasePath('/');
-    app.addSurfaces('content');
-    app.addRoutes(new senna.Route(/.*/, senna.HtmlScreen));
   }
+
+  app.addSurfaces('content');
+  app.addRoutes(new senna.Route(/.*/, senna.HtmlScreen));
   
   app.on('startNavigate', function(event) {
     scroll_toc(event.path)
