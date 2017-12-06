@@ -5,7 +5,7 @@ description: Rocket.Chat user, admin, API, integration, plugin and contributing 
 url: /docs
 
 # bump if alterting styles or js
-version: 7
+version: 8
 
 defaults:
   - scope:
