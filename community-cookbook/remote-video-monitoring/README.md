@@ -1,3 +1,8 @@
+---
+redirect_from: /user-guides/remote-video-monitoring/
+permalink: /community-cookbook/remote-video-monitoring/
+---
+
 # Remote Video Monitoring
 
 You can use Rocket.Chat to remotely monitor one or more (10s, 100s, or even 1000s) geographically dispersed locations.
@@ -80,5 +85,3 @@ _I have this great app for Rocket.Chat remote monitoring, can I create a monitor
 _Can I monitor multiple locations at the same time, and select any one for zoomed-in detailed inspection?_
 
 The answer to both questions is _YES_.   Contact any member of the Rocket.Chat team, or specialists in our community if you need professional help.
-
-
