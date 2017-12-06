@@ -16,11 +16,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 * Ensure the calling user only has permissions for what they are calling an no more
 
 ### Miscellaneous Information
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/info` | Information about the Rocket.Chat server. | [Link](Miscellaneous/info/) |
 
 ### Authentication
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/login` | Authenticate with the REST API. | [Link](Authentication/login/) |
@@ -28,6 +30,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/me` | Displays information about the authenticated user. | [Link](Authentication/me/) |
 
 ### Users
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/users.create` | Create a new user. | [Link](Users/create/) |
@@ -43,6 +46,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/users.update` | Update an existing user. | [Link](Users/update/) |
 
 ### Channels
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/channels.addAll` | Adds all of the users on the server to a channel. | [Link](Channels/addAll/) |
@@ -69,6 +73,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.unarchive` | Unarchives a channel. | [Link](Channels/unarchive/) |
 
 ### Groups
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/groups.archive` | Archives a private group. | [Link](Groups/archive/) |
@@ -90,6 +95,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.unarchive` | Unarchives a private group. | [Link](Groups/unarchive/) |
 
 ### Chat
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/chat.delete` | Deletes an existing chat message. | [Link](Chat/delete/) |
@@ -103,6 +109,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.update` | Updates the text of the chat message. | [Link](Chat/update/) |
 
 ### IM
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/im.close` | Removes a direct message from the list of direct messages. | [Link](Im/close/) |
@@ -114,6 +121,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/im.setTopic` | Sets a direct message topic. | [Link](Im/setTopic/) |
 
 ### Settings
+
 | Url | Method | Short Description | Details Page |
 | :--- | :--- | :--- | :--- |
 | `/api/v1/settings/:_id` | `GET` | Gets a setting. | [Link](Settings/get/) |

@@ -1,4 +1,5 @@
 # User Methods
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/users.create` | Create a new user. | [Link](create/) |

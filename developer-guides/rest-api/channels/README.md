@@ -1,4 +1,5 @@
 # Channel Methods
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/channels.addAll` | Adds all of the users on the server to a channel. | [Link](addAll/) |

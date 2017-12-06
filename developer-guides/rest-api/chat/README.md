@@ -1,4 +1,5 @@
 # Chat Methods
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/chat.delete` | Deletes an existing chat message. | [Link](delete/) |

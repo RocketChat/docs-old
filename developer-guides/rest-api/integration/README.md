@@ -1,4 +1,5 @@
-# Chat Methods
+# Integration Methods
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/integrations.create` | Creates an integration. | [Link](create/) |

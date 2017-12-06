@@ -1,4 +1,5 @@
 # REST API Authentication
+
 The authentication with the REST API is a two step process.
 
 1. Passing your username and password to the `/api/v1/login`
