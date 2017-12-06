@@ -239,7 +239,7 @@ main {
 
 .toc {
   width: $toc-width;
-  overflow-y: scroll;
+  overflow-y: auto;
   padding: 1em;
   border-right: 1px solid #ddd;
   font-size: 0.9em;
