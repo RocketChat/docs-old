@@ -32,8 +32,9 @@ $(document).ready(function() {
   // replace html with 'content' id
   app.addSurfaces('content');
   
-  if(location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat"){
+  if(location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") {
     app.addRoutes(new senna.Route(/docs\/.*/, senna.HtmlScreen));
+    console.log('senna route added');
   }
   else {
     app.addRoutes(new senna.Route(/.*/, senna.HtmlScreen));
