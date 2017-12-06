@@ -1,4 +1,8 @@
 
+// redirect people to rocket.chat/docs if they try and browse the github pages version
+if(location.hostname == "localhost" && location.href.indexOf('?') == -1) {
+  location="https://rocket.chat/docs/"
+}
 
 function scroll_toc(path) {
   // remove base either '/docs/' or '/'
