@@ -6,6 +6,7 @@ Creates an integration, if the callee has the permission.
 | `/api/v1/integrations.create` | `yes` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `type` | `webhook-outgoing` | Required | The type of integration to create, currently only `webhook-outgoing` is supported. |
@@ -58,6 +59,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.49.0 | Added |

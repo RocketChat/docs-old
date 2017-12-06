@@ -6,6 +6,7 @@ Adds all of the users of the Rocket.Chat server to the channel.
 | `/api/v1/channels.addAll` | `yes` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |
@@ -43,6 +44,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.55.0 | Added `activeUsersOnly` param |

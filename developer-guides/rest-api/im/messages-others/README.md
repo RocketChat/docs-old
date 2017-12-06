@@ -8,6 +8,7 @@ For this method to work the `Enable Direct Message History Endpoint` setting mus
 | `/api/v1/im.messages.others` | `yes` | `GET` |
 
 ## Query Parameters
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The direct message id |
@@ -79,6 +80,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.50.0 | Added |

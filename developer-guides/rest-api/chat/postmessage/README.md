@@ -4,6 +4,7 @@
 | `/api/v1/chat.postMessage` | `yes` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` <br><br> `channel` | `ByehQjC44FwMeiLbX` <br><br> `#general` | <br> Required | The room id of where the message is to be sent. <br><br> The channel name with the prefix in front of it. |
@@ -124,6 +125,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.49.0 | The `channel` can now be a room's id. |

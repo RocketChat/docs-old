@@ -6,6 +6,7 @@ Creates a new private group, optionally including specified users. The group cre
 | `/api/v1/groups.create` | `yes` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `name` | `testing` | Required | The name of the new private group |
@@ -46,6 +47,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.35.0 | Added |

@@ -1,9 +1,11 @@
 # User Register
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/users.register` | `no` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `username` | `rogersmith` | Required | The username for the user. |
@@ -39,6 +41,7 @@ curl -H "Content-type:application/json" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.50.0 | Added |

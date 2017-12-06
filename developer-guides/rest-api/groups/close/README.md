@@ -6,6 +6,7 @@ Removes the private group from the user's list of groups, only if you're part of
 | `/api/v1/groups.close` | `yes` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `HyehQjC44FwMeiLbX` | Required | The groups's id |
@@ -27,6 +28,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.48.0 | Added |

@@ -15,6 +15,7 @@ means that the setting labeled "Allow anonymous read" in the section "Accounts" 
 | `/api/v1/settings/:_id` | `yes` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `_id` | `Livechat_enabled` | Required | The setting's `_id` field |
@@ -37,6 +38,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.42.0 | Added |
