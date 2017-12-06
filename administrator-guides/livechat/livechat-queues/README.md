@@ -1,7 +1,3 @@
----
-draft: true
----
-
 # Livechat Queue Types
 
 There two types of queue types on Rocket.Chat:
