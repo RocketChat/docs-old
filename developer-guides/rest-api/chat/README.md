@@ -1,7 +1,7 @@
 # Chat Methods
 
 | Url | Short Description | Details Page |
-| :--- | :--- | :--- |
+| --- | --- | --- |
 | `/api/v1/chat.delete` | Deletes an existing chat message. | [Link](delete/) |
 | `/api/v1/chat.getMessage` | Retrieves a single chat message. | [Link](getMessage/) |
 | `/api/v1/chat.pinMessage` | Pins a chat message to the message's channel. | [Link](pinMessage/) |
