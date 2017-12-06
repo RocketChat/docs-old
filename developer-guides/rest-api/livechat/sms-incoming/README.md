@@ -5,6 +5,7 @@
 | `/api/v1/livechat/sms-incoming/:service` | `no` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `service` | `twilio` | Required | Only the server `twilio` is accepted at moment. |
@@ -42,6 +43,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.42.0 | Added |

@@ -1,4 +1,5 @@
 # Logout
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |
 | `/api/v1/logout` | `yes` | `GET` |

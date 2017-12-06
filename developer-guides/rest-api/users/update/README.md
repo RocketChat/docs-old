@@ -1,4 +1,5 @@
 # User Update
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/users.update` | `yes` | `POST` |
@@ -6,6 +7,7 @@
 Note that to update the password for the user, "edit-other-user-password" permission must be set accordingly using an administrator account (Administration > Permissions).
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `userId` | `BsNr28znDkG8aeo7W` | Required | The id of the user to update. |
@@ -65,6 +67,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.48.0 | Renamed to `users.update` |

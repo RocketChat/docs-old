@@ -109,6 +109,7 @@ RocketChat(function() {
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.53.0 | Added callback events and the ability to pass a flag to `setCustomField` so the value passed does not get wrote if there is already an existing value. |

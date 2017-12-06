@@ -6,6 +6,7 @@ Creates a new public channel, optionally including specified users. The channel 
 | `/api/v1/channels.create` | `yes` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `name` | `channelname` | Required | The name of the new channel |
@@ -43,6 +44,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.13.0 | Added |

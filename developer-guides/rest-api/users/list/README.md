@@ -1,4 +1,5 @@
 # User List
+
 Gets all of the users in the system and their information, the result is only limited to what the callee has access to view.
 It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/) along with [Query and Fields Query Parameter](../../query-and-fields-info/).
 
@@ -7,6 +8,7 @@ It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-coun
 | `/api/v1/users.list` | `yes` | `GET` |
 
 ## Query Parameters
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `fields` | `{ name: 1, email: 0 }` | Optional | Field include hash (value of `1` to include, `0` to exclude). |
@@ -102,6 +104,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.49.0 | Count and offset query parameters supported. |

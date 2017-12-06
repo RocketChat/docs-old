@@ -6,6 +6,7 @@ Retrieves information about a user, the result is only limited to what the calle
 | `/api/v1/users.info` | `yes` | `GET` |
 
 ## Query Parameters
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `userId` or `username` | `BsNr28znDkG8aeo7W` | Required | The id or username of the user. |
@@ -84,6 +85,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.49.0 | Updated to support `userId` or `username` |

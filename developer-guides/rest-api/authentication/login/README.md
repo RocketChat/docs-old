@@ -1,9 +1,11 @@
 # Login
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |
 | `/api/v1/login` | `no` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `username` | `myusername` | Required | Your username |

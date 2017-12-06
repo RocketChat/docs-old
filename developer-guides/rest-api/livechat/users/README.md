@@ -6,6 +6,7 @@ Get a list of agents or managers.
 | `/api/v1/livechat/users/:type` | `yes` | `GET` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `type` | `agent` | Required | Can be either `agent` or `department`. |
@@ -35,6 +36,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.42.0 | Added |
@@ -47,6 +49,7 @@ Register a new agent or manager.
 | `/api/v1/livechat/users/:type` | `yes` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `type` | `agent` | Required | Can be either `agent` or `department`. |
@@ -80,6 +83,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.42.0 | Added |
@@ -91,6 +95,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | `/api/v1/livechat/users/:type/:_id` | `yes` | `GET` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `type` | `agent` | Required | Can be either `agent` or `department`. |
@@ -115,6 +120,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.42.0 | Added |
@@ -126,6 +132,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | `/api/v1/livechat/users/:type/:_id` | `yes` | `DELETE` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `type` | `agent` | Required | Can be either `agent` or `department`. |
@@ -147,6 +154,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.42.0 | Added |

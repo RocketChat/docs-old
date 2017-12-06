@@ -6,6 +6,7 @@ Stars a chat message for the authenticated user.
 | `/api/v1/chat.starMessage` | `yes` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `messageId` | `7aDSXtjMA3KPLxLjt` | Required | The message id to star. |
@@ -27,6 +28,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | 0.59.0 | Added |

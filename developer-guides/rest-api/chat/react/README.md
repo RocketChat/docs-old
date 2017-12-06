@@ -6,6 +6,7 @@ Toggles the authenciated user's reaction to the provided message.
 | `/api/v1/chat.react` | `yes` | `POST` |
 
 ## Payload
+
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `emoji` | `smile` | Required | The emoji to react with. |
@@ -30,6 +31,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Change Log
+
 | Version | Description |
 | :--- | :--- |
 | TBD | Added |
