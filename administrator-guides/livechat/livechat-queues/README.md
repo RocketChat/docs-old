@@ -12,12 +12,12 @@ If there are more then one available agent with the same count the chat will get
 
 Consider the following department configuration:
 
-![image](image1.png)
+<!-- ![image](image1.png) -->
 
 When a new chat comes, it'll be routed to `agent-1`, because he has `0` count and is the first in order,
 and the `agent-1`'s count will be increased to `1`:
 
-![image](image2.png)
+<!-- ![image](image2.png) -->
 
 A new incoming chat will be routed to `agent-2` and so on until all agents have one chat each.
 So the next round comes, starting with `agent-1`.
