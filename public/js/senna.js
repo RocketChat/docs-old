@@ -1,6 +1,6 @@
 
 // redirect people to rocket.chat/docs if they try and browse the github pages version
-if(location.hostname == "localhost" && location.href.indexOf('?') == -1) {
+if(location.hostname == "rocketchat.github.io" && location.href.indexOf('?') == -1) {
   location="https://rocket.chat/docs/"
 }
 
@@ -35,7 +35,6 @@ $(document).ready(function() {
   
   if(location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") {
     app.setBasePath('/docs/');
-    console.log('senna route added');
   }
   else {
     app.setBasePath('/');
