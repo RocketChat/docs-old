@@ -1,7 +1,7 @@
 
 // redirect people to rocket.chat/docs if they try and browse the github pages version
 if(location.hostname == "rocketchat.github.io" && location.href.indexOf('?noredirect') == -1) {
-  location="https://rocket.chat/docs" + location.pathname
+  location="https://rocket.chat" + location.pathname
 }
 
 function scroll_toc(path) {
