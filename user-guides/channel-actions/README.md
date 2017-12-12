@@ -1,48 +1,48 @@
 # Channel Actions
 
-With channels you can also do more than simply post messages and upload files, you can interact with it in various ways trough the channel actions menu, the channel actions are located by the right of the channel title. To access some of the menus you might have to click on the three dots by the end of the channel header.
+With channels you can also do more than merely post messages and upload files, you can interact in various ways through the channel actions menu. Channel actions are located to the right of the channel title. Some of the menus are accessible by clicking on the three dots at the end of the channel header.
 
-_Channel actions may vary depending on the server configuration, so you might not see all of the items listed below_
+_Channel actions vary depending on the server configuration, so the items listed below might not all be visible in your installation._
 
 ## Favorites
 
-To help you organize and prioritize your communications, you can **favorite** (or **star**) channels, private groups, and DMs.
+To help organize and prioritize your communications, you can **favorite** (or **star**) channels, private groups, and DMs.
 
-To favorite a channel, click on the star icon in left end of the channel header (next to the room name).
+To favorite a channel, click on the star icon to the left of the channel header (next to the room name).
 
-Favoriting a channel moves it to a "Favorites" section on the channels list, thus making easier to access and find.
+Favoriting a channel moves it to a "Favorites" section on the channels list, making it easier to access and find.
 
 ## Channel Info
 
-Here you can see all kinds of information about the channel you are currently on, and if you have the proper permissions, edit this information. You have the following options on channel info:
+Here you can see all kinds of information about the current channel. If you have the proper permissions, this information can be edited. These are the channel info options:
 
-- __Channel Name__: This is name of the channel, is how users see the title and find the channel via search.
+- __Channel Name__: The name of the channel, how users see the title and find the channel via search.
 
-- __Topic__: The topic will show next to the title on the channel header. Great for giving more info on what is the channel about.
+- __Topic__: The topic shows next to the title on the channel header. Great for giving more info on what the channel is about.
 
-- __Announcement__: The announcement will be shown in a very visible bar under the channel header.
+- __Announcement__: The announcement is shown in a very visible bar under the channel header.
 
 - __Description__: The description of the channel.
 
-- __Private__: Tells if a channel is private or not, can be used to change the channel to private or public.
+- __Private__: Tells whether a channel is private, and can set the channel to private or public.
 
-- __Read Only__: Tells if a channel is read only, can be used to toggle the read only status on the channel. In read only channels messages can only be posted by people with the right permission, great for announcements channels and alike.
+- __Read Only__: Tells whether a channel is read only, and toggles the read only status on the channel. In read only channels, messages can only be posted by people with the right permission. Good for announcements channels and such.
 
-- __Archived__: Tells if a channel is archived, can be used to toggle the archived status on a channel. In a archived channel nobody can post messages and the channel search won't find that channel.
+- __Archived__: Tells if a channel is archived, and toggles the archived status of a channel. Nobody can post messages in an archived channel, and channel search will not find that channel.
 
 ## Search Messages
 
-Rocket Chat search supports basic search commands which work similar to Gmail search.
+Rocket Chat search supports basic search commands which work like Gmail search.
 
-Rocket Chat also supports the use of "[regular expressions](https://en.wikipedia.org/wiki/Regular_expression)", the benefits of which are great search flexibility and the ability to search chat entries in any language, even ones which are traditionally a challenge for search (e.g. "CJK" languages - Chinese, Japanese, Korean).
+Rocket Chat also supports the use of "[regular expressions](https://en.wikipedia.org/wiki/Regular_expression)". The benefits of regular expressions are great search flexibility and the ability to search chat entries in any language, even ones which are traditionally a challenge to search (like "CJK" languages - Chinese, Japanese, Korean).
 
 ### Basic Search Commands
 
-You can use the following commands before or after entering your search term:
+You can use these commands before or after entering search terms:
 
 `from:me` to search for messages only created by the current user.
 
-`from:user.name` to search for messages created by a specific user. The username entered must be the format without spaces (i.e. "john.doe" and not "John Doe". If you want to search for anytime a user was mentioned, simply search for their username.
+`from:user.name` to search for messages created by a specific user. The username entered must be the format without spaces (i.e. "john.doe" and not "John Doe". To search for any time a user was mentioned, just search for their username.
 
 `has:star` returns messages that are starred by the current user.
 
@@ -50,20 +50,20 @@ You can use the following commands before or after entering your search term:
 
 `has:url` or `has:link` returns messages that contain a link.
 
-`has:location` or `has:map` returns messages that have a location attached
+`has:location` or `has:map` returns messages that have a location attached.
 
-`before:dd/mm/yyyy`, `after:dd/mm/yyyy` and `on:dd/mm/yyyy` return message that were created before, after or on the provided date.
-You can also use dashes `dd-mm-yyyy` or dots `dd.mm.yyyy` instead of slashes.
+`before:dd/mm/yyyy`, `after:dd/mm/yyyy` and `on:dd/mm/yyyy` return message that were created before, after, or on the provided date.
+Dashes `dd-mm-yyyy` or dots `dd.mm.yyyy` can be used instead of slashes.
 
-`order:asc` sorts messages by ascending timestamp. You can also use `order:ascend` or `order:ascending`
+`order:asc`, `order:ascend`, or `order:ascending` sorts messages by ascending timestamp.
 
-`order:desc` sorts messages by ascending timestamp. You can also use `order:descend` or `order:descending`.
+`order:desc`, `order:descend`, or `order:descending` sorts messages by descending timestamp.
 
-You can also jump to where a message is located by hovering your mouse over the search result and selecting `jump to message`.
+You can also jump to where a message is located by hovering the mouse over the search result and selecting `jump to message`.
 
 ### Regex
 
-If you're interested, please use the following references to learn more about the world of regex.
+These references tell more about the powerful world of regex:
 
 - Wikipedia - <https://en.wikipedia.org/wiki/Regular_expression>
 - Regex 101 - <https://regex101.com/#javascript>
@@ -72,62 +72,62 @@ If you're interested, please use the following references to learn more about th
 
 ## Members List
 
-Here you can see all the users on channel, see more info about them and if you have the proper permission, manage them on your channel.
+Here you can see all the users on channel and see more information about them. If you have the proper permission, you can manage them on your channel.
 
-At first you will see only the current active users, to see all users press the `show all` link.
+At first, only the current active users are shown. To see all users, click the `show all` link.
 
-To see more info on a user, click on their name on the list.
+To see more information on a user, click their name on the list.
 
-On the user preview screen you can see their name, username, any role tags they might have and their current timezone.
+The user preview screen shows their name, username, any role tags they might have, and their current timezone.
 From there you can also:
 
-- Start a direct conversation with that user by pressing the `conversation` option;
+- Start a direct conversation with the user by clicking the `conversation` option
 
-- Start a video call with that user;
+- Start a video call with the user
 
-- Set that user as owner of the channel;
+- Set the user as channel owner
 
-- Set that user as moderator of the channel;
+- Set the user as channel moderator
 
-- Mute that user;
+- Mute the user
 
-- Remove that user from the channel;
+- Remove the user from the channel
 
 ## Notifications
 
-You can change the behavior of notifications for each channel that you are part of. By default a channel will notificate you whenever someone mentions you or use the `@all` mention.
+You can change the behavior of notifications for channels where you are a member. By default, a channel notifies you whenever someone mentions you or uses the `@all` mention.
 
-You have the following options on channel notifications tab:
+These options are on the channel notifications tab:
 
-- __Disable Notifications__: this will disable all notifications for that channel.
+- __Disable Notifications__: disable all notifications for the channel.
 
-- __Audio__: with this setting you can set if you want the channel to emit a sound whenever someone mentions you or post a message in that channel, you can also specify which sound you want to play.
+- __Audio__: select whether the channel will emit a sound whenever someone mentions you or posts a message in that channel. The sound to play can be specified.
 
-- __Desktop__: this setting controls the behavior of notifications when you are using any desktop app or browser.
+- __Desktop__: controls notification behavior when using any desktop app or browser.
 
-- __Mobile__: this setting controls the behavior of push notifications when you are using any mobile app.
+- __Mobile__: controls push notification behavior when using any mobile app.
 
-- __Email__: with this setting you can set if you want to receive emails whenever someone mentions you, post a message or you don't want to receive email notifications.
+- __Email__: set whether email is sent whenever someone mentions you or posts a message, or disable email notifications.
 
-- __Unread Room Status__: This setting controls if the channel on the channel list will be highlighted when there is a new message or mention.
+- __Unread Room Status__: Controls whether the channel on the channel list is highlighted when there is a new message or mention.
 
-- __Unread Tray Icon__: This setting controls if the tray icon will be highlighted when there are new messages or mentions on the current channel.
+- __Unread Tray Icon__: Controls whether the tray icon is highlighted when there are new messages or mentions on the current channel.
 
 ## Files List
 
-Here you can see all the files uploaded to the current channel.
+A list of all the files uploaded to the current channel.
 
 ## Mentions
 
-Here you can see all the messages that mentioned you in the current channel.
+All messages which mentioned you in the current channel.
 
 ## Starred Messages
 
-Here you can see all messages that you have starred in the current channel.
+All messages which you have starred in the current channel.
 
 ## Pinned Messages
 
-Here you can see all messages that were pinned on the current channel.
+All messages that were pinned on the current channel.
 
 ## OTR
 
@@ -135,8 +135,8 @@ OTR stands for __Off The Record__ Messaging.
 
 OTR is basically end to end encrypted conversations.
 
-You can only use OTR in direct messages (1-on-1) and also both sides must be online.
+You can only use OTR in direct messages (one-on-one) and both sides must be online.
 
-When you want to start OTR conversation, click on _START OTR_, then the other user will be notified to start a OTR.
+To start OTR conversation, click on _START OTR_. The other user will be notified to start a OTR.
 
-After your request is confirmed by other side, messages sent will be encrypted, a encrypted message will have a key icon on it's right side.
+After your request is confirmed by other side, messages are encrypted. Encrypted messages have a key icon on the right side.

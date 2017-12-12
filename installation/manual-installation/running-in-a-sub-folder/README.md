@@ -1,7 +1,7 @@
 # Running in a sub folder with Apache
 
 If you want to run your server in a sub folder like `https://your.domain.com/chat/` you have to setup a reverse proxy.
-See [Run Rocket.Chat behind a SSL Reverse Proxy](/installation/manual-installation/configuring-ssl-reverse-proxy/)
+See [Run Rocket.Chat behind a SSL Reverse Proxy]({{ site.url }}/installation/manual-installation/configuring-ssl-reverse-proxy/)
 
 If you are using apache you have to tweak the configuration. First you have to put the Rewrite/Proxy into a Location-tag.
 For example, if you want to provide the service under the "chat" subfolder, your config should look like this:
