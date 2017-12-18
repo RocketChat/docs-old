@@ -20,8 +20,8 @@
 | `/api/v1/groups.removeOwner` | Removes the role of owner from a user in a group. | [Link](removeowner/) |
 | `/api/v1/groups.rename` | Changes the name of the private group. | [Link](rename/) |
 | `/api/v1/groups.setDescription` | Sets a private group's description. | [Link](setdescription/) |
-| `/api/v1/groups.setPurpose` | Sets a private group's description. | [Link](setPurpose/) |
-| `/api/v1/groups.setReadOnly` | Sets whether the room is read only or not. | [Link](setreadOnly/) |
+| `/api/v1/groups.setPurpose` | Sets a private group's description. | [Link](setpurpose/) |
+| `/api/v1/groups.setReadOnly` | Sets whether the room is read only or not. | [Link](setreadonly/) |
 | `/api/v1/groups.setTopic` | Sets a private group's topic. | [Link](settopic/) |
 | `/api/v1/groups.setType` | Sets the type of room this group will be. | [Link](settype/) |
 | `/api/v1/groups.unarchive` | Unarchives a private group. | [Link](unarchive/) |
