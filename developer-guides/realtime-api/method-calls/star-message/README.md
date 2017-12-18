@@ -33,4 +33,4 @@ The only parameter that needs to be passed in is an object with the `_id`, `rid`
 ## See Also:
 * [Starring Messages User Guide][1]
 
-[1]:../../../user-guides/starring-messages/
+[1]:../../../../user-guides/starring-messages/

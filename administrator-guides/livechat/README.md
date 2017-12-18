@@ -50,7 +50,7 @@ You can set a condition (e.g. user access a url) and an action (e.g. send a mess
 
 #### Custom Fields
 
-You can configure custom fields to be sent by the client. You can see an example on the [Livechat API page](../../../developer-guides/livechat-api/#set-custom-field).
+You can configure custom fields to be sent by the client. You can see an example on the [Livechat API page](../../developer-guides/livechat-api/#set-custom-field).
 
 #### Installation
 

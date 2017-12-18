@@ -50,4 +50,4 @@ The response of a message being pinned is a new chat message which contains the 
 * [Pinning Messages User Guide][2]
 
 [1]:../../the-message-object/
-[2]:/../../../../../user-guides/messaging/
+[2]:../../../../user-guides/messaging/

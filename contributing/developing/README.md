@@ -16,7 +16,7 @@ just comment on it and we will add an [In Progress label][progress_label].
 Want a simple task to get you started?
 [We maintain a list of those][easy_label]!
 
-Check our [developer guides](../../../developer-guides/)
+Check our [developer guides](../../developer-guides/)
 for more detailed information about pull requests, workflow and API docs.
 
 ## Priority Features and/or Bug fixes
