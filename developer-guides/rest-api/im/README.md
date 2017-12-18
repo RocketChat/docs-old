@@ -8,7 +8,7 @@
 | `/api/v1/im.list` | List the direct messages the caller is part of. | [Link](list/) |
 | `/api/v1/im.list.everyone` | List all direct message the caller in the server. | [Link](list-everyone/) |
 | `/api/v1/im.open` | Adds the direct message back to the list of direct messages. | [Link](open/) |
-| `/api/v1/im.setTopic` | Sets a direct message topic. | [Link](setTopic/) |
+| `/api/v1/im.setTopic` | Sets a direct message topic. | [Link](settopic/) |
 
 ## Notes
 From version 0.50.0 and on you can call the methods using `dm` instead of `im`.
