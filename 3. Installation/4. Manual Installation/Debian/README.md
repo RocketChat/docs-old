@@ -40,8 +40,8 @@ sudo apt-get install build-essential
 # Install a tool to let us change the node version.
 sudo npm install -g n
 
-# As of Version 0.49, Rocket.Chat recommends version 8.8.1 of Node.js.
-sudo n 8.8.1
+# As of Version 0.49, Rocket.Chat recommends version 8.9.3 of Node.js.
+sudo n 8.9.3
 ```
 
 More on [nodejs installation](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server)
