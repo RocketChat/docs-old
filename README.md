@@ -1,11 +1,11 @@
 # Rocket.Chat Docs
 ## What would you like to do?
 
-* [Learn how to use Rocket.Chat](/4.%20User%20Guides)
-* [Get support](/2.%20Getting%20Support)
-* [Install Rocket.Chat](/3.%20Installation)
-* [Administer your installation](/5.%20Administrator%20Guides)
-* [Contribute to the project](/1.%20Contributing)
+* [Learn how to use Rocket.Chat](user-guides/)
+* [Get support](getting-support/)
+* [Install Rocket.Chat](installation/)
+* [Administer your installation](administrator-guides/)
+* [Contribute to the project](contributing/)
 
 ![image](mockup.png)
 
