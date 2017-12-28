@@ -2,7 +2,7 @@
 
 > If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](/3.%20Installation/7.%20Updating/1.%20From%200.x.x%20to%200.40.0)
 
-This guide explains how to deploy your own Rocket.Chat instance to a Debian Wheezy or Jessie Linux machine using the command line.
+This guide explains how to deploy your own Rocket.Chat instance to a Debian Stretch Linux machine using the command line.
 
 ## 1. Install Dependencies
 
@@ -13,12 +13,7 @@ This guide explains how to deploy your own Rocket.Chat instance to a Debian Whee
 
 ```shell
 # SYSTEM CONFIGURATION
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
-# Here use wheezy even if you are installing it on Jessie. 
-# since Jessie repository of Mongodb does NOT includes mongodb 3.2
-echo "deb http://repo.mongodb.org/apt/debian wheezy/mongodb-org/3.2 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
-sudo apt-get update
-sudo apt-get install -y mongodb-org curl graphicsmagick
+sudo apt-get install -y mongodb curl graphicsmagick
 
 # We have to also install `npm`, which is the Node.js package manager. You can do this by typing:
 sudo apt-get install npm
@@ -43,8 +38,8 @@ sudo apt-get install build-essential
 # Install a tool to let us change the node version.
 sudo npm install -g n
 
-# Rocket.Chat needs version 4.5 of Node.js to work.
-sudo n 4.5
+# Rocket.Chat 0.60 and higher needs version 8.9.3 LTS of Node.js to work.
+sudo n 8.9.3
 ```
 
 More on [nodejs installation](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server)
