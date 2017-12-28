@@ -1,0 +1,8 @@
+
+<div class="toc">
+  {% assign path = site.url | append: '/' %}
+
+  <a href="{{ site.url }}/">Welcome</a>
+
+  {% include level.html level=site.data.toc path=path %}
+</div>
