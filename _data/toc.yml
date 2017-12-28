@@ -97,6 +97,7 @@
   - Integrations:
     - Zapier:
       - Using Zaps
+    - AppVeyor
     - Azure Alerts
     - BitBucket
     - Giphy
