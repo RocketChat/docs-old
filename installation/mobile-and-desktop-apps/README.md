@@ -48,7 +48,7 @@ The app for Android can be found on Google Play. Just search for `Rocket.Chat`
 
 ### Android and iOS Mobile users
 
-Enter the URL to your Rocket.Chat server (e.g. <https://open.rocket.chat>) to initialize the app.   This needs to be done the first time you run the app after installation.
+Enter the URL to your Rocket.Chat server (e.g. <https://open.rocket.chat>) to initialize the app. This needs to be done the first time you run the app after installation.
 
 Use two-fingers swipe up gesture to add more servers if you need to access multiple servers from one client.
 
