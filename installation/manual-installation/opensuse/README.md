@@ -184,7 +184,7 @@ groupadd -g 2000 rocket
 useradd -g rocket -u 2000 rocket
 
 cd /opt
-curl -L https://download.rocket.chat/stable -o rocket.chat.tgz
+curl -L https://releases.rocket.chat/latest/download -o rocket.chat.tgz
 tar zxvf rocket.chat.tgz
 mv bundle Rocket.Chat
 chown -R rocket:rocket /opt/Rocket.Chat
