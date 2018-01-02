@@ -64,10 +64,10 @@ Install a tool to let us change the node version.
 sudo npm install -g n
 ```
 
-The recommended Node.js version for using Rocket.Chat is `4.8.4`. Using _n_ we are going to install that version:
+The recommended Node.js version for using Rocket.Chat is `8.9.3`. Using _n_ we are going to install that version:
 
 ```bash
-sudo n 4.8.4
+sudo n 8.9.3
 ```
 
 More on [nodejs installation](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server)
