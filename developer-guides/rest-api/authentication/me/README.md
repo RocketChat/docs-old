@@ -1,4 +1,5 @@
 # Me
+
 Quick information about the authenticated user.
 
 | URL | Requires Auth | HTTP Method |

@@ -15,7 +15,6 @@
 | `avatar` | `http://site.com/logo.png` | Optional | If provided, this will make the avatar use the provided image url. |
 | `attachments` | `[{}]` | Optional | See the below section, [Attachments Detail](#attachments-detail), for details. |
 
-
 ### Attachments Detail
 
 The attachments is an array of objects with any of the following properties. One attachment can have many sections, including:

@@ -1,4 +1,5 @@
 # Channel Info
+
 Retrieves the information about the channel.
 
 | URL | Requires Auth | HTTP Method |

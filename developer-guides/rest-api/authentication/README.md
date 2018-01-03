@@ -3,7 +3,7 @@
 The authentication with the REST API is a two step process.
 
 1. Passing your username and password to the `/api/v1/login`
-2. Using the `authToken` and `userId` provided back on every method
+1. Using the `authToken` and `userId` provided back on every method
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
