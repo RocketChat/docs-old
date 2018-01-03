@@ -9,6 +9,7 @@ If you are an end-user and not a dev or a tester, [create an issue](https://gith
 > All API calls in the documentation are made using `curl`.  However, you are free to use Java / Python / PHP / Golang / Ruby / Swift / Objective-C / Rust / Scala / C# or any other programming languages.
 
 ## Production Security Concerns
+
 When calling a production Rocket.Chat server, ensure it is running via HTTPS and has a valid SSL Certificate. The login method requires you to post your username and password in plaintext, which is why we highly suggest only calling the REST login api over HTTPS. Also, few things to note:
 
 * Only call via HTTPS
