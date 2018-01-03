@@ -15,6 +15,7 @@
 | `secretURL` | `http://localhost:3000/secret/registration/url` | Optional | URL provided to users for registration |
 
 ## Example Call
+
 ```bash
 curl -H "Content-type:application/json" \
      http://localhost:3000/api/v1/users.register \
@@ -25,6 +26,7 @@ curl -H "Content-type:application/json" \
 ```
 
 ## Example Result
+
 ```json
 {
   "user": {
