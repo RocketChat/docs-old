@@ -1,8 +1,9 @@
 # Chat Message Reactions
+
 Toggles the authenciated user's reaction to the provided message.
 
 | URL | Requires Auth | HTTP Method |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- |
 | `/api/v1/chat.react` | `yes` | `POST` |
 
 ## Payload
@@ -15,6 +16,7 @@ Toggles the authenciated user's reaction to the provided message.
 The `emoji` does not have to contain the `:`'s. The emoji doesn't have to exist either, but if you send one that doesn't exist it might not render.
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -24,6 +26,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
     "success": true

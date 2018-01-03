@@ -1,6 +1,7 @@
 # Post a chat message
+
 | URL | Requires Auth | HTTP Method |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- |
 | `/api/v1/chat.postMessage` | `yes` | `POST` |
 
 ## Payload
@@ -14,8 +15,8 @@
 | `avatar` | `http://site.com/logo.png` | Optional | If provided, this will make the avatar use the provided image url. |
 | `attachments` | `[{}]` | Optional | See the below section, [Attachments Detail](#attachments-detail), for details. |
 
-
 ### Attachments Detail
+
 The attachments is an array of objects with any of the following properties. One attachment can have many sections, including:
 
 * General
@@ -46,6 +47,7 @@ The attachments is an array of objects with any of the following properties. One
 | `fields` | `[{}]` | Fields | An array of [Attachment Field Objects](#attachment-field-objects). |
 
 #### Attachment Field Objects
+
 The field property of the attachments allows for "tables" or "columns" to be displayed on messages.
 
 | Property | Example | Required | Description |
@@ -55,6 +57,7 @@ The field property of the attachments allows for "tables" or "columns" to be dis
 | `value` | `online` | Required | The value of this field, displayed underneath the title value. |
 
 ## Message Object Example
+
 ```json
 {
 	"roomId": "Xnb2kLD2Pnhdwe3RH",
@@ -93,6 +96,7 @@ The field property of the attachments allows for "tables" or "columns" to be dis
 ```
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -102,6 +106,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "ts": 1481748965123,

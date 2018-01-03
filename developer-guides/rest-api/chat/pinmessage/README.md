@@ -1,8 +1,9 @@
 # Pins a Chat Message
+
 Pins a chat message to the message's channel.
 
 | URL | Requires Auth | HTTP Method |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- |
 | `/api/v1/chat.pinMessage` | `yes` | `POST` |
 
 ## Payload
@@ -12,6 +13,7 @@ Pins a chat message to the message's channel.
 | `messageId` | `7aDSXtjMA3KPLxLjt` | Required | The message id to pin. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: Z3cpiYN6CNK2oXWKv" \
@@ -21,6 +23,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
     "message": {

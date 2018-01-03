@@ -1,4 +1,5 @@
 # Remove Integration
+
 Removes an integration from the server.
 
 | URL | Requires Auth | HTTP Method |
@@ -13,6 +14,7 @@ Removes an integration from the server.
 | `integrationId` | `oNLthAt9RwMw39N2B` | Required | The id of the integration to remove. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -22,6 +24,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
     "integration": {

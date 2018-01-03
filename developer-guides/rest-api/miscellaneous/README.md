@@ -1,4 +1,5 @@
 # Miscellaneous Information
+
 Just some generic information, such as information about the server and authenticated user.
 
 | Url | Short Description | Details Page |

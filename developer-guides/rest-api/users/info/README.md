@@ -1,4 +1,5 @@
 # User Information
+
 Retrieves information about a user, the result is only limited to what the callee has access to view.
 
 | URL | Requires Auth | HTTP Method |
@@ -12,6 +13,7 @@ Retrieves information about a user, the result is only limited to what the calle
 | `userId` or `username` | `BsNr28znDkG8aeo7W` | Required | The id or username of the user. |
 
 ## Other Users Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -19,6 +21,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result Regular User Callee
+
 ```json
 {
   "user": {
@@ -35,6 +38,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result Admin Callee
+
 ```json
 {
   "user": {
