@@ -1,10 +1,10 @@
-# Unpins a Chat Message
+# Unstar a Chat Message
 
-Unpins the chat message for the authenticated user.
+Unstars the chat message for the authenticated user.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/chat.unPinMessage` | `yes` | `POST` |
+| `/api/v1/chat.unStarMessage` | `yes` | `POST` |
 
 ## Payload
 
@@ -18,7 +18,7 @@ Unpins the chat message for the authenticated user.
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type:application/json" \
-     http://localhost:3000/api/v1/chat.unPinMessage \
+     http://localhost:3000/api/v1/chat.unStarMessage \
      -d '{ "messageId": "7aDSXtjMA3KPLxLjt" }'
 ```
 
