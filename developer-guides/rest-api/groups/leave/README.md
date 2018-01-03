@@ -1,4 +1,5 @@
 # Group Leave
+
 Causes the callee to be removed from the private group, if they're part of it and are not the last owner.
 
 | URL | Requires Auth | HTTP Method |
@@ -12,6 +13,7 @@ Causes the callee to be removed from the private group, if they're part of it an
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The private group's id |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -21,6 +23,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "group": {

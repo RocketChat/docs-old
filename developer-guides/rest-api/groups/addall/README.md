@@ -1,4 +1,5 @@
 # Group Add All
+
 Adds all of the users of the Rocket.Chat server to the group.
 
 | URL | Requires Auth | HTTP Method |
@@ -13,6 +14,7 @@ Adds all of the users of the Rocket.Chat server to the group.
 | `activeUsersOnly` | `true` | Optional <br> Default: `false` | Add active users only |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -22,6 +24,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
    "channel": {

@@ -1,4 +1,5 @@
 # Group List
+
 Lists all of the private groups the calling user has joined. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/) along with just the [Fields Query Parameters](../../query-and-fields-info/).
 
 | URL | Requires Auth | HTTP Method |
@@ -6,6 +7,7 @@ Lists all of the private groups the calling user has joined. It supports the [Of
 | `/api/v1/groups.list` | `yes` | `GET` |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -13,6 +15,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
     "groups": [
