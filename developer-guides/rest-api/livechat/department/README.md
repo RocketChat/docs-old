@@ -1,4 +1,5 @@
 # List departments
+
 Get a list of departments.
 
 | URL | Requires Auth | HTTP Method |
@@ -6,6 +7,7 @@ Get a list of departments.
 | `/api/v1/livechat/department` | `yes` | `GET` |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -13,6 +15,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "departments": [
@@ -30,13 +33,11 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
-
 ## Change Log
 
 | Version | Description |
 | :--- | :--- |
 | 0.42.0 | Added |
-
 
 # Register a new department
 
@@ -45,7 +46,8 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | `/api/v1/livechat/department` | `yes` | `POST` |
 
 ## Example payload
-```
+
+```json
 {
   "department": {
     "enabled": false,
@@ -63,6 +65,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -73,6 +76,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "department": {
@@ -98,13 +102,11 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
-
 ## Change Log
 
 | Version | Description |
 | :--- | :--- |
 | 0.42.0 | Added |
-
 
 # Get info about a department
 
@@ -119,6 +121,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | `_id` | `SQafHvoFPuB57NmBD` | Required | The department `_id`. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -126,6 +129,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "department": {
@@ -173,7 +177,8 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | `_id` | `iTfLCX3qqwKgf5uqg` | Required | Department `_id`. |
 
 ## Example payload
-```
+
+```json
 {
   "department": {
     "enabled": true,
@@ -190,6 +195,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -227,13 +233,11 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
-
 ## Change Log
 
 | Version | Description |
 | :--- | :--- |
 | 0.42.0 | Added |
-
 
 # Removes a department
 
@@ -264,10 +268,8 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
-
 ## Change Log
 
 | Version | Description |
 | :--- | :--- |
 | 0.42.0 | Added |
-
