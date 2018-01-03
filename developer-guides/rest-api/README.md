@@ -120,6 +120,14 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/im.open` | Adds the direct message back to the list of direct messages. | [Link](im/open/) |
 | `/api/v1/im.setTopic` | Sets a direct message topic. | [Link](im/settopic/) |
 
+### Command Methods
+
+| Url | Short Description | Details Page |
+| :--- | :--- | :--- |
+| `/api/v1/commands.get` | Get specification of the slash command. | [Link](commands/get/) |
+| `/api/v1/commands.list` | Lists all available slash commands. | [Link](commands/list/) |
+| `/api/v1/commands.run` | Execute a slash command in the specified room. | [Link](commands/run/) |
+
 ### Settings
 
 | Url | Method | Short Description | Details Page |
