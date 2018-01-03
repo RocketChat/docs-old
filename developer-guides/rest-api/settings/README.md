@@ -1,4 +1,4 @@
-### Settings Methods
+# Settings Methods
 
 You can get and update the settings via the REST API, only if you have permission to.
 

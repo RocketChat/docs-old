@@ -128,14 +128,19 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/settings/:_id` | `POST` | Updates a setting. | [Link](settings/update/) |
 
 ## Language specific wrappers
+
 ### Java
+
 * [rocket-chat-rest-client](https://github.com/baloise/rocket-chat-rest-client)
 
 ### PHP
+
 * [rocket-chat-rest-client](https://github.com/Fab1en/rocket-chat-rest-client)
 
 ### Python
+
 * [rocketchat_API](https://github.com/jadolg/rocketchat_API)
 
 ### Ruby
+
 * [rocketchat-ruby](https://github.com/abrom/rocketchat-ruby)
