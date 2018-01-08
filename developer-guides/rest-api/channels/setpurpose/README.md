@@ -1,4 +1,5 @@
 # Channel Set Purpose
+
 Sets the description for the channel.
 
 | URL | Requires Auth | HTTP Method |
@@ -13,6 +14,7 @@ Sets the description for the channel.
 | `purpose` | `Test out everything.` | Required | The description to set for the channel. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -22,6 +24,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "purpose": "Testing out everything.",

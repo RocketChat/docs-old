@@ -1,4 +1,5 @@
 # User Get Presence
+
 Gets a user's presence if the query string `userId` is provided, otherwise it gets the callee's.
 
 | URL | Requires Auth | HTTP Method |
@@ -12,6 +13,7 @@ Gets a user's presence if the query string `userId` is provided, otherwise it ge
 | `userId` or `username` | `BsNr28znDkG8aeo7W` | Optional | The id or username of the user. If not provided, the auth user is updated. |
 
 ## Other Users Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -19,6 +21,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "presence": "offline",
@@ -27,6 +30,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Self Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -34,6 +38,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "presence": "offline",

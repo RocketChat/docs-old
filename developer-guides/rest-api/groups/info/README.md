@@ -1,4 +1,5 @@
 # Group Info
+
 Retrieves the information about the private group, only if you're part of the group.
 
 | URL | Requires Auth | HTTP Method |
@@ -13,6 +14,7 @@ Retrieves the information about the private group, only if you're part of the gr
 | `roomName` | `Exclusive.Chat` | Required (if no roomId) | The private group's name |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -20,6 +22,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "group": {

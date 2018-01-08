@@ -1,4 +1,5 @@
 # IM Messages Others
+
 Retrieves the messages from any direct message in the server. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/) along with [Query and Fields Query Parameter](../../query-and-fields-info/).
 
 For this method to work the `Enable Direct Message History Endpoint` setting must be true, and the user calling this method must have the `view-room-administration` permission.
@@ -14,6 +15,7 @@ For this method to work the `Enable Direct Message History Endpoint` setting mus
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The direct message id |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -21,6 +23,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "messages": [

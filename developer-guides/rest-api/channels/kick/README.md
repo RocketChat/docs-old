@@ -1,4 +1,5 @@
 # Channel Kick
+
 Removes a user from the channel.
 
 | URL | Requires Auth | HTTP Method |
@@ -13,6 +14,7 @@ Removes a user from the channel.
 | `userId` | `nSYqWzZ4GsKTX4dyK` | Required | The user id of who to invite |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -22,6 +24,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "channel": {

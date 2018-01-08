@@ -1,4 +1,5 @@
 # Channel Info
+
 Retrieves the information about the channel.
 
 | URL | Requires Auth | HTTP Method |
@@ -13,6 +14,7 @@ Retrieves the information about the channel.
 | `roomName` | `general` | Required (if no roomId) | The channel's name |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -20,6 +22,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "channel": {

@@ -1,4 +1,5 @@
 # IM List Everyone
+
 Lists all of the direct messages in the server, requires the permission `view-room-administration` permission. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/) along with [Query and Fields Query Parameters](../../query-and-fields-info/).
 
 | URL | Requires Auth | HTTP Method |
@@ -6,6 +7,7 @@ Lists all of the direct messages in the server, requires the permission `view-ro
 | `/api/v1/im.list.everyone` | `yes` | `GET` |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -13,6 +15,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
     "ims": [

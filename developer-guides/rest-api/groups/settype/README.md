@@ -1,4 +1,5 @@
 # Group Set Type
+
 Sets the type of room this group should be.
 
 | URL | Requires Auth | HTTP Method |
@@ -13,6 +14,7 @@ Sets the type of room this group should be.
 | `type` | `c` _or_ `p` | Required | The type of room this group should be, either `c` or `p`. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -22,6 +24,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
     "group": {
