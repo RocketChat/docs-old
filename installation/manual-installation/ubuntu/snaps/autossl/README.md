@@ -1,6 +1,6 @@
 # Auto SSL with Snaps
 
-We now include the option to enable Caddy in your snap.  Caddy makes use of [letsencrypt](https://letsencrypt.org/) to automatically provide you SSL protection for your communications.
+We now include the option to enable Caddy in your snap.  Caddy makes use of [Let's Encrypt](https://letsencrypt.org/) to automatically provide you SSL protection for your communications.
 
 ## Enabling Caddy
 
