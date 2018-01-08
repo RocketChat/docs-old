@@ -228,6 +228,10 @@
         - unPinMessage
         - unStarMessage
         - update
+      - Commands:
+        - get
+        - list
+        - run
       - Groups:
         - addAll
         - addModerator
