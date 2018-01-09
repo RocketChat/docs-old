@@ -1,4 +1,5 @@
 # Channel List Joined
+
 Lists all of the channels the calling user has joined. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/) along with just the [Fields Query Parameter](../../query-and-fields-info/).
 
 | URL | Requires Auth | HTTP Method |
@@ -6,6 +7,7 @@ Lists all of the channels the calling user has joined. It supports the [Offset, 
 | `/api/v1/channels.list.joined` | `yes` | `GET` |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -13,6 +15,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
     "channels": [

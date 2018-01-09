@@ -1,4 +1,5 @@
 # Channel Rename
+
 Changes the name of the channel.
 
 | URL | Requires Auth | HTTP Method |
@@ -13,6 +14,7 @@ Changes the name of the channel.
 | `name` | `new-name` | Required | The new name the channel will have, it can not be the same as another or the existing name |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -22,6 +24,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "channel": {

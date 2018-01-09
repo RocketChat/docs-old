@@ -1,4 +1,5 @@
 # Create Integration
+
 Creates an integration, if the callee has the permission.
 
 | URL | Requires Auth | HTTP Method |
@@ -24,6 +25,7 @@ Creates an integration, if the callee has the permission.
 | `script` | [Integrations](../../../../administrator-guides/integrations/) | Optional | Script triggered when this integration is triggered. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -33,6 +35,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
     "integration": {

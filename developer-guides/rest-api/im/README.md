@@ -11,5 +11,6 @@
 | `/api/v1/im.setTopic` | Sets a direct message topic. | [Link](settopic/) |
 
 ## Notes
+
 From version 0.50.0 and on you can call the methods using `dm` instead of `im`.
 

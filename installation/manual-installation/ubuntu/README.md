@@ -64,10 +64,10 @@ Install a tool to let us change the node version.
 sudo npm install -g n
 ```
 
-The recommended Node.js version for using Rocket.Chat is `4.8.4`. Using _n_ we are going to install that version:
+The recommended Node.js version for using Rocket.Chat is `8.9.3`. Using _n_ we are going to install that version:
 
 ```bash
-sudo n 4.8.4
+sudo n 8.9.3
 ```
 
 More on [nodejs installation](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server)
@@ -147,7 +147,7 @@ export MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=001-rs
 Download Stable version of Rocket.Chat (or pick a version from [our releases page](https://rocket.chat/releases)):
 
 ```bash
-curl -L https://download.rocket.chat/stable -o rocket.chat.tgz
+curl -L https://releases.rocket.chat/latest/download -o rocket.chat.tgz
 ```
 
 Then untar the binary release:

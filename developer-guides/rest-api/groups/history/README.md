@@ -1,4 +1,5 @@
 # Group History
+
 Retrieves the messages from a private group, only if you're part of the group.
 
 | URL | Requires Auth | HTTP Method |
@@ -17,6 +18,7 @@ Retrieves the messages from a private group, only if you're part of the group.
 | `unreads` | `false` | Optional <br> Default: `false` | Whether the amount of unreads should be included. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -24,6 +26,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "messages": [

@@ -1,4 +1,5 @@
 # Chat Message Update
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |
 | `/api/v1/chat.update` | `yes` | `POST` |
@@ -12,6 +13,7 @@
 | `text` | `Updated text` | Required | Updated text for the message. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -21,6 +23,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
     "message": {

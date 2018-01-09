@@ -34,7 +34,7 @@ This guide covers the following:
 5. Tag Instance
     - Add a Value to the **Name** Key and click **Next**
 6. Configure Security group
-    - Create a new Security group if you would like to restrict traffic to a certain IP address range. **Note: If you will be using letsencrypt in Step 4 to get an SSL certificate, you will need to allow traffic to the server on port 80 until your certificate is created. After this, you may remove that security group and restrict access to a specific IP range.**
+    - Create a new Security group if you would like to restrict traffic to a certain IP address range. **Note: If you will be using Let's Encrypt in Step 4 to get an SSL certificate, you will need to allow traffic to the server on port 80 until your certificate is created. After this, you may remove that security group and restrict access to a specific IP range.**
 7. Review Instance Launch
     - Click **Launch**
 8. Key Pairs
@@ -59,7 +59,7 @@ This guide covers the following:
 
 ### 4. Get an SSL certificate from Let's Encrypt
 
-#### We will use **letsencrypt** to get a free & open-source SSL certificate
+#### We will use **Let's Encrypt** to get a free & open-source SSL certificate
 
 1. SSH to your instance:
     `ssh -i <path_to_key_file.pem> ubuntu@<public_ip_address>`

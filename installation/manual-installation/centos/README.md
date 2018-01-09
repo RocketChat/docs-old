@@ -44,10 +44,10 @@ Now that we have Node.js and npm installed, we need to install a few more depend
 npm install -g inherits n
 ```
 
-The recommended Node.js version for using Rocket.Chat is `4.8.4`. Using _n_ we are going to install that version:
+The recommended Node.js version for using Rocket.Chat is `8.9.3`. Using _n_ we are going to install that version:
 
 ```
-n 4.8.4
+n 8.9.3
 ```
 
 ## Installing Rocket.Chat
@@ -57,7 +57,7 @@ Now we download and install Rocket.Chat
 ```
 cd /opt
 
-curl -L https://download.rocket.chat/stable -o rocket.chat.tgz
+curl -L https://releases.rocket.chat/latest/download -o rocket.chat.tgz
 tar zxvf rocket.chat.tgz
 
 mv bundle Rocket.Chat

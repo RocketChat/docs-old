@@ -1,4 +1,5 @@
 # Group Remove Moderator
+
 Removes the role of moderator from a user in the currrent group.
 
 | URL | Requires Auth | HTTP Method |
@@ -13,6 +14,7 @@ Removes the role of moderator from a user in the currrent group.
 | `userId` | `nSYqWzZ4GsKTX4dyK` | Required | The user's id |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -22,6 +24,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
    "success": true
