@@ -4,7 +4,7 @@ Retrieves a single chat message by the provided id. Callee must have permission 
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/chat.getMessage` | `yes` | `POST` |
+| `/api/v1/chat.getMessage` | `yes` | `GET` |
 
 ## Payload
 
