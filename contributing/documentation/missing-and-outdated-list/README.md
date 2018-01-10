@@ -66,10 +66,10 @@ Add instructions on how to import data from a cloud hosted hipchat.
 
 Add more details on what is this doc is about.
 
-## Wordpress
+## Wordpress (Missing)
 
 Explain how the Wordpress Authentication works and how to set it up.
 
-## Authentication
+## Authentication (Missing)
 
-Add a little introduction and a list of links for the articles inside this folder
+Add a little introduction and a list of links for the articles inside this folder.
