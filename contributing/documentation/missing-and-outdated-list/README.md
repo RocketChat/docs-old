@@ -20,11 +20,13 @@ This style guide needs to be converted to CSS, since the base is almost the same
 
 ## Internal Hubot (Missing)
 
-Instructions on how to use and develop hubot scripts are needed in this article
+Instructions on how to use and develop hubot scripts are needed in this article.
 
 ## Permissions (Incomplete)
 
 Not all permissions are listed on this articles, and some of the permissions listed there don't have a description.
+
+And Fix the markdown table on that article.
 
 ## GridFS (Missing)
 
@@ -46,5 +48,28 @@ Also differentiate jitsi from WebRTC.
 
 ## ScreenSharing (Missing)
 
-Add instructions on how to use screen-sharing
+Add instructions on how to use screen-sharing.
 
+## RedHat(Incomplete)
+
+This section should be completed with the details on how to instal Rocket.Chat on RedHat.
+
+## Releases (Missing)
+
+Decide to either remove or complete this article.
+
+## Hipchat Cloud (Missing)
+
+Add instructions on how to import data from a cloud hosted hipchat.
+
+## Schema Definition (Incomplete)
+
+Add more details on what is this doc is about.
+
+## Wordpress
+
+Explain how the Wordpress Authentication works and how to set it up.
+
+## Authentication
+
+Add a little introduction and a list of links for the articles inside this folder

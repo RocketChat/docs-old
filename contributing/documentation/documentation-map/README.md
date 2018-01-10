@@ -72,13 +72,14 @@ Here you can also find what articles are incomplete and missing.
         - MacOSX
         - Multiple Instances to Improve Performance
         - OpenSUSE
-        - RedHat
+        - <span class="incomplete">[RedHat](../missing-and-outdated-list/#RedHat)</span>
+
         - Ubuntu:
-        - Snaps:
-            - AutoSSl
+            - Snaps:
+                - AutoSSl
         - Windows 10 Pro
         - Windows Server:
-        - Releases
+            - <span class="incomplete">[Releases](../missing-and-outdated-list/#Releases)</span>
         - Configuring SSL Reverse Proxy
         - PM2, Systemd, Upstart
         - Running in a sub folder
@@ -107,7 +108,7 @@ Here you can also find what articles are incomplete and missing.
         - Ldap
         - Oauth
         - SAML
-        - WordPress
+        - <span class="missing">[WordPress](../missing-and-outdated-list/#WordPress)</span>
     - Database-Migration
     - Email:
         - Setup
@@ -171,7 +172,7 @@ Here you can also find what articles are incomplete and missing.
     - Code Styleguide:
         - <span class="incomplete">[Less](../missing-and-outdated-list/#Less)</span>
     - Iframe Integration:
-        - Authentication
+        - <span class="missing">[Authentication](../missing-and-outdated-list/#Authentication)</span>
         - Commands
         - Events
     - <span class="missing">[Internationalization](../missing-and-outdated-list/#Internationalization)</span>
@@ -326,7 +327,7 @@ Here you can also find what articles are incomplete and missing.
             - update
         - Offset and Count and Sort Info
         - Query and Fields Info
-        - Schema Definition
+        - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema Definition)</span>
         - <span class="incomplete">[Testing](../missing-and-outdated-list#Testing)</span>
         - Troubleshooting
         - UI and Theming:
