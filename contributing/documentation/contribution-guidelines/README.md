@@ -9,7 +9,7 @@ we strongly suggest reading GitHub's excellent guide
 
 When looking for something to work on, you have two options:
 
-### Documentation Map
+### 1. The Documentation Map
 
 You can find a map of all the files on the documentation [here](../documentation-map). There you can find what articles are missing or incomplete.
 
@@ -19,7 +19,7 @@ Incomplete articles will be marked as <span style="color:orange"> orange </span>
 
 All missing/incomplete articles are links to a list with the description of each article marked on the documentation map (you can find this list [here](../missing-and-outdated-list))
 
-### Issues
+### 2. Issues
 
 You can find a list of issues [here](https://github.com/RocketChat/Rocket.Chat.Docs/issues).
 When you find something you would like to work on just comment on it and we will add an __In Progress__ label.
@@ -36,9 +36,8 @@ When you create a new pull request, we expect some requirements to be met.
     - When adding new documentation, add `New Documentation:` before the title. E.g. `New Documentation: Authentication Guide`.
     - When fixing documentation, add `Fix Documentation:` before the title. E.g. `Fix Documentation: Authentication Guide`.
     - When updating documentation, add `Update Documentation:` before the title. E.g. `Update Documentation: Authentication Guide`.
-- For each Pull Request made, we run tests to check if there are any broken links. You can find how to run these tests locally [here](#test).
-- We also use a linter tool to check if the style of the markdown matches our [guidelines](../markdown-guidelines). Here is a link to the [Markdown Linter Tool](https://github.com/markdownlint/markdownlint).
--
+- For each pull request made, we run tests to check if there are any broken links. You can find how to run these tests locally [here](#test).
+- We also use a linter tool to check if the style of the markdown matches our [styleguide](../markdown-styleguide). Here is a link to the [Markdown Linter Tool](https://github.com/markdownlint/markdownlint).
 
 ### Recommended Workflow
 
@@ -51,7 +50,7 @@ When making small changes like typos and such, there is no problem to edit the f
 - Clone your fork.
 - Run `bundle install`.
 - Start the server with `bundle exec "jekyll serve --incremental --safe"`.
-- Before starting read our [Markdown Style Guide](markdown-styleGuide.md).
+- Before starting read our [Markdown Style Guide](../markdown-styleguide).
 - Make your changes locally.
 - Run the markdown linter tool with `mdl .` on the root directory of the project.
 - Run `bundle exec "rake check_links"` with the server running to check for broken links.
@@ -59,8 +58,6 @@ When making small changes like typos and such, there is no problem to edit the f
 - Push that branch to your repository.
 - Open a PR.
 - Make sure you include a description of why you're making the changes.
-
-
 
 <!--
 
