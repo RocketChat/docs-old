@@ -73,3 +73,33 @@ Explain how the Wordpress Authentication works and how to set it up.
 ## Authentication (Missing)
 
 Add a little introduction and a list of links for the articles inside this folder.
+
+## Analytics (Missing)
+
+Add instructions on how to set up analytics on Rocket.Chat using the `Analytics` section of settings.
+
+## Customizing the UI (Missing)
+
+Create a new section containing all the guides about customizing the ui using Rocket.Chat settings.
+
+## Layout (Missing)
+
+Create a guide on how to use the `Layout` setting section to customize some ui aspects of Rocket.Chat.
+
+## Assets (Missing)
+
+Create a guide on how to add assets (images, like favico and logos across the app) to Rocket.Chat.
+
+Also Explain what each asset size will change.
+
+## General Settings (Missing)
+
+Create a new section Containing all the new guides about settings that alter the general behavior of Rocket.Chat.
+
+## General Section (Missing)
+
+Create a guide on how to use the `General` setting section.
+
+## Message Section
+
+Create a guide on how to use the `Message` setting section.

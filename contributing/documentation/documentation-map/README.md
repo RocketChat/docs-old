@@ -103,12 +103,16 @@ Here you can also find what articles are incomplete and missing.
     - <span class="missing">[ScreenSharing](../missing-and-outdated-list/#ScreenSharing)</span>
 - Administrator guides:
     - Account Settings
+    - <span class="missing">[Analytics](../missing-and-outdated-list/#Analytics)</span>
     - Authentication:
         - CAS
         - Ldap
         - Oauth
         - SAML
         - <span class="missing">[WordPress](../missing-and-outdated-list/#WordPress)</span>
+    - <span class="missing">[Customizing the UI](../missing-and-outdated-list/#Customizing the UI)</span>:
+        - <span class="missing">[Layout](../missing-and-outdated-list/#Layout)</span>
+        - <span class="missing">[Assets](../missing-and-outdated-list/#Assets)</span>
     - Database-Migration
     - Email:
         - Setup
@@ -120,6 +124,9 @@ Here you can also find what articles are incomplete and missing.
         - Minio
         - <span class="missing">[GridFS](../missing-and-outdated-list/#GridFS)</span>
         - <span class="missing">[Local File System](../missing-and-outdated-list/#Local File System)</span>
+    - <span class="missing">[General Settings](../missing-and-outdated-list/#General Settings)</span>
+        - <span class="missing">[General Section](../missing-and-outdated-list/#General Section)</span>
+        - <span class="missing">[Message Section](../missing-and-outdated-list/#Message Section)</span>
     - Hubot
     - Import:
         - CSV
@@ -155,8 +162,6 @@ Here you can also find what articles are incomplete and missing.
         - uptimerobot
     - <span class="missing">[Internal Hubot](../missing-and-outdated-list/#Internal Hubot)</span>
     - Jitsi Video Bridge
-    - Layout:
-        - <span class="missing">[Home Screen](../missing-and-outdated-list/#Home Screen)</span>
     - Livechat:
         - Livechat Queues
     - Notifications:
