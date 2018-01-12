@@ -11,7 +11,7 @@ When looking for something to work on, you have two options:
 
 ### 1. The Documentation Map
 
-You can find a map of all the files on the documentation [here](../documentation-map). There you can find what articles are missing or incomplete.
+You can find a map of all the files on the documentation [here](../documentation-map). There you can find what articles are missing or incomplete. This page was created so is easier for the Rocket.Chat team and the community to know the status of the documentation and what they can do to improve it.
 
 Missing articles will be marked as <span style="color:red"> red </span>
 
@@ -23,6 +23,8 @@ All missing/incomplete articles are links to a list with the description of each
 
 You can find a list of issues [here](https://github.com/RocketChat/Rocket.Chat.Docs/issues).
 When you find something you would like to work on just comment on it and we will add an __In Progress__ label.
+
+---
 
 ## Creating a new Pull Request
 
@@ -59,32 +61,34 @@ When making small changes like typos and such, there is no problem to edit the f
 - Open a PR.
 - Make sure you include a description of why you're making the changes.
 
-<!--
+---
 
-TODO: Un-document this section after the docs structure change
+## Reporting Issues and Missing Articles
 
-## Adding new files and folders
+When you find a problem on the documentation and want to report it to us you have some alternatives:
 
-Before adding new files to the docs, be sure to mind the structure of the docs. Also avoid creating complex folder structures, please do not add more than 2 subfolders.
+### Documentation Map
 
-Here is a short map of the current structure:
+If you find that a document either is missing from the docs or is incomplete or outdated, we would recommend that you create a Pull Request adding the missing/incomplete document to the [Documentation Map](../documentation-map).
 
-- Contributing: All instructions about how to contribute to Rocket.Chat goes here;
-- Getting support: Here you can find how to get support;
-- Deployment: This section is dedicated to automated deployments;
-- Installation: In this section you can find guides for manual installation;
-- Server Configuration and Maintenance: Here you can find how to configure and maintain your server, this is where things like proxy configuration and multiple instance handling guides goes;
-- User Guides: This section is dedicated to teach end users how to use rocket chat as a user. There should __not__ be any administration guides here;
-- Administration: This section is dedicated to the admin screen. This section is divided into three categories:
-    - Administration Tools: In this section we have tools like Mailer and User managing;
-    - Administration Settings: All the settings that alter how Rocket.Chat behaves;
-    - Administration Integrations: Things like webhooks,bots, Oauth ...
-- Developer guides: Here you can find documentation on how to develop in Rocket.Chat. This section is divided into different categories:
-    - Basic Developer Guides: Here you can find how to star developing in Rocket.Chat, like how to start the server, and basic information on our structure;
-    - UI Documentation: Here you can find documentation on our UI components and how to use them;
-    - Back End Documentation: Here you can find documentation on our back end methods and how to use them;
-    - Rest API: Here you can find documentation on our REST API and how to use it;
-    - RealTime API: Here you can find documentation on our RealTime API and how to use it;
-    - LiveChat API: Here you can find documentation on our LiveChat API and how to use it;
-- Community CookBook: Here you can find integrations, guides and Rocket.Chat usages created by the community that stray away from Rocket.Chat main idea.
--->
+To add a document to the documentation map you can simply add a new item to the tree map in [here](../documentation-map).
+
+For a missing document you should add
+
+```HTML
+<span class="missing">[NAME OF YOUR DOCUMENTATION](../missing-and-outdated-list/#TITLE ON THE MISSING LIST)</span>
+```
+
+For a incomplete document you should add
+
+```HTML
+<span class="incomplete">[NAME OF YOUR DOCUMENTATION](../missing-and-outdated-list/#TITLE ON THE MISSING LIST)</span>
+```
+
+After that you will have to write an explanation of how this document should be, or what is the problem with it on the [Missing our Outdated Docs](../missing-and-outdated-list) and link this topic after the `#` on the link you just added to the Documentation Map.
+
+_Incomplete articles are the ones that are missing a big part of information in them, so if a article is missing a little bit of information, it shouldn't be added to the incomplete list_
+
+_Bugs, typos, markdown syntax and such should not be listed on this map_
+
+We understand that not everyone has the time to create Pull Requests so feel free to create regular issues too.
