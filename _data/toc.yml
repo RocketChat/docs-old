@@ -45,7 +45,7 @@
     - RedHat
     - Ubuntu:
       - Snaps:
-        - AutoSSl
+        - AutoSSL
     - Windows 10 Pro
     - Windows Server:
       - Releases
