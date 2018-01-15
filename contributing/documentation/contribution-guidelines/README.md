@@ -61,6 +61,22 @@ When making small changes like typos and such, there is no problem to edit the f
 - Open a PR.
 - Make sure you include a description of why you're making the changes.
 
+### Table of Contents
+
+Every time you add a new file to the documentation, you will have to add it to the table of contents.
+
+The table of contents is the left navigation sidebar, and it is the way others will find your new article.
+
+You can find the table of contents `.yml` file [here](https://github.com/RocketChat/docs/blob/master/_data/toc.yml).
+
+You have to note that the name you put on the table of content will be _slugfied_, and these names will be used to search for that file.
+
+E.g.
+
+If you add a page called `Testing Rocket.Chat Apps`, it will be converted to `testing-rocketchat-apps`, so you will have to name your file `testing-rocketchat-apps.md`
+
+All words will be lowercased, spaces will be replaced with a `-` and any special character will be removed (like the `.` on `Rocket.Chat`)
+
 ---
 
 ## Reporting Issues and Missing Articles
