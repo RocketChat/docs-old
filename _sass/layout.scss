@@ -188,6 +188,19 @@ header {
   }
 }
 
+.edit-github{
+  margin: auto;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #333;
+  width: max-content;
+}
+
+.edit-github a, .edit-github a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
 .search {
   margin-right: 14px;
   input {
