@@ -188,6 +188,17 @@ header {
   }
 }
 
+.edit-github{
+  margin: auto;
+  padding: 15px;
+  width: max-content;
+  text-align: right;
+}
+
+.edit-github a, .edit-github a:visited {
+  text-decoration: none;
+}
+
 .search {
   margin-right: 14px;
   input {
