@@ -48,6 +48,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+hr {
+  border-color: #ddd;
+  opacity: 0.3;
+  margin: 2.7em 0;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -74,7 +80,6 @@ a.button, input[type=submit], input[type=button] {
 
 ul, ol {
   padding: 0 0 0 1.5em;
-  margin: 0 0 1.5em;
 }
 
 code, pre{

@@ -32,7 +32,7 @@ When you find something you would like to work on just comment on it and we will
 
 When you create a new pull request, we expect some requirements to be met.
 
-- Whenever you add a new article or complete a incomplete article, please update the [Documentation Map](../contributing/documentation/documentation-map) and remove the topic from the [Missing/Incomplete Article List](../contributing/documentation/missing-and-outdated-list) (if necessary).
+- Whenever you add a new article or complete a incomplete article, please update the [Documentation Map](../documentation-map) and remove the topic from the [Missing/Incomplete Article List](../missing-and-outdated-list) (if necessary).
 - If a file is created or moved, you need to update the Table of Contents (You can find the file [here](https://github.com/RocketChat/docs/blob/master/_data/toc.yml)).
 - Follow this naming convention for Pull Requests:
     - When adding new documentation, add `New Documentation:` before the title. E.g. `New Documentation: Authentication Guide`.
@@ -85,9 +85,9 @@ When you find a problem on the documentation and want to report it to us you hav
 
 ### Documentation Map
 
-If you find that a document either is missing from the docs or is incomplete or outdated, we would recommend that you create a Pull Request adding the missing/incomplete document to the [Documentation Map](../contributing/documentation/documentation-map).
+If you find that a document either is missing from the docs or is incomplete or outdated, we would recommend that you create a Pull Request adding the missing/incomplete document to the [Documentation Map](../documentation-map).
 
-To add a document to the documentation map you can simply add a new item to the tree map in [here](../contributing/documentation/documentation-map).
+To add a document to the documentation map you can simply add a new item to the tree map in [here](../documentation-map).
 
 For a missing document you should add
 

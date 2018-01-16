@@ -16,8 +16,7 @@ but we've got a long way to go.
 If you'd like to assist us with this please email our
 [translation team](mailto:translations@rocket.chat) to be invited to our [Lingohub](https://translate.lingohub.com) project.
 
-To help improve our **documentation**, please visit [Rocket.Chat.Docs](https://github.com/RocketChat/Rocket.Chat.Docs).
-To preview changes locally use [the generator](https://github.com/RocketChat/Rocket.Chat.Docs.Generator).
+To help improve our **documentation**, please see [Rocket.Chat Docs contribution guides](documentation/).
 
 **Bloggers and news writers**, feel free to [spread the word](../contributing/promoting/)!
 
