@@ -1,0 +1,16 @@
+- project:
+  name: 'Rocket.Chat'
+  description: 'The Rocket.Chat Server.'
+  pages: ['Installing & Upgrading', 'User', 'Administrator', 'Developer', 'Project on GitHub', 'Documentation on GitHub']
+- project:
+  name: 'Rocket.Chat Android'
+  description: 'The Rocket.Chat Android.'
+  pages: ['test1', 'test2','test3']
+- project:
+  name: 'Rocket.Chat iOS'
+  description: 'The Rocket.Chat iOS.'
+  pages: ['test1', 'test2','test3']
+- project:
+  name: 'Rocket.Chat Documentation'
+  description: 'The Rocket.Chat Documentation.'
+  pages: ['test1', 'test2','test3']

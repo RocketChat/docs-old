@@ -336,6 +336,47 @@ footer {
 .search-button {
   display: none;
 }
+// home screen
+
+.project-list {
+  display: grid;
+  grid-template-columns: 45% 45%;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(61,61,61,0.05);
+  padding: 10px 5px;
+  margin: 15px 0;
+  width: 80%;
+  height: 250px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20%;
+}
+
+.card-name{
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.card-description {
+  color: #999;
+  margin: 0;
+}
+
+.card-pages{
+  display: flex;
+  flex-wrap: wrap;
+  a {
+    margin-right: 1.2em;
+  }
+}
+
 // mobile
 
 @media all and (max-width: 1000px) {

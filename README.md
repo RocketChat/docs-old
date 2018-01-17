@@ -1,8 +1,3 @@
----
-layout: home
-permalink: /index.html
----
-
 # Rocket.Chat Docs
 ## What would you like to do?
 
