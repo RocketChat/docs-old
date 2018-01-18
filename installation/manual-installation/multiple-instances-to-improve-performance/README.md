@@ -101,7 +101,7 @@ Two different events are fired:
 
 Each Rocket.Chat instance registers in your database the ip address it detected for its self.  Other instances then use this list to discover and establish connections with each other.
 
-If you find instances unable to talk to each other you can try setting INSTANCE_IP environment variable to the ip the other instances can use to talk to it.
+If you find instances unable to talk to each other you can try setting the `INSTANCE_IP` environment variable to the ip the other instances can use to talk to it.
 
 ## Update your Nginx proxy config
 
@@ -173,10 +173,10 @@ Still work? Yep, you're using both services!
 Another very important part is your database.  As mentioned above, you will need to make sure you are running a replicaset.
 
 This is important for a couple of reasons:
-1. Database reliability.  You're gonna want to make sure that your data is safe as well as you have another node incase something happens to your primary.
-2. Rocket.Chat does what's called tailing the oplog.  The oplog is turned on when you setup a replicaset.  Mongo makes use of this to publish events to so the other nodes in the replicaset can make sure its data is up to date.  Like that Rocket.Chat makes use of this to watch for database events.  If someone sends a message on Instance 1 and you are connected to Instance 2.  Instance 2 watches for message insert events and then is able to show you a new message has arrived.
+1. Database reliability.  You will want to make sure that your data is replicated, and you have another node if something happens to your primary.
+2. Rocket.Chat does what's called oplog tailing.  The oplog is turned on when you setup a replicaset.  Mongo makes use of this to publish events so the other nodes in the replicaset can make sure its data is up to date.  Rocket.Chat makes use of this to watch for database events.  If someone sends a message on Instance 1 and you are connected to Instance 2.  Instance 2 watches for message insert events and then is able to show you a new message has arrived.
 
 ### Database engine
-Another thing to keep in mind is the database engine you are using.  By default mongo now uses wiredtiger.  Wiredtiger under some loads can be very CPU and Memory intensive.  Under small single instance setups we don't typically see issues.  But when you reach multiple instances it can some times get a bit unruly.
+Another thing to keep in mind is the storage engine you are using.  By default mongo uses wiredtiger.  Wiredtiger under some loads can be very CPU and Memory intensive.  Under small single instance setups we don't typically see issues.  But when you run multiple instances of Rocket.Chat it can some times get a bit unruly.
 
-Its because of this we recommend in multiple instance situations that you switch the mongo engine to mmapv1.
+It's because of this we recommend in multiple instance situations that you switch the mongo storage engine to mmapv1.
