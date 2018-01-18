@@ -1,9 +1,11 @@
 - project:
   name: 'Rocket.Chat'
+  icon: 'rocketchat'
   description: 'The Rocket.Chat Server.'
   pages: ['Installing & Upgrading', 'User', 'Administrator', 'Developer', 'Project on GitHub', 'Documentation on GitHub']
 - project:
   name: 'Rocket.Chat Android'
+  icon: 'android'
   description: 'The Rocket.Chat Android.'
   pages: ['test1', 'test2','test3']
 - project:

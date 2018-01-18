@@ -347,31 +347,40 @@ footer {
   display: flex;
   flex-direction: column;
   background-color: rgba(61,61,61,0.05);
-  padding: 10px 5px;
+  padding: 15px;
   margin: 15px 0;
   width: 80%;
   height: 250px;
+  justify-content: space-between
 }
 
 .card-header {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20%;
+}
+
+.card-icon {
+  height: 30px;
+  width: 30px;
+  margin: 10px 10px 10px 0;
 }
 
 .card-name{
-  font-size: 0.8em;
+  font-size: 1.15em;
   margin: 0;
 }
 
 .card-description {
   color: #999;
-  margin: 0;
+  margin: 5px 0;
+  font-size: 0.8em;
 }
 
 .card-pages{
   display: flex;
   flex-wrap: wrap;
+  font-size: 0.8em;
+  font-weight: bold;
   a {
     margin-right: 1.2em;
   }

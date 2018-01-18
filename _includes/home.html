@@ -1,11 +1,11 @@
 <div class="home">
 	<h1>Project Documentation</h1>
-	
+
 	<div class="project-list">
 		{% for project in include.projects %}
 			<div class="project-card">
 				<div class="card-header">
-					<p class="card-icon">ICON</p>
+					<img class="card-icon" src="{{ site.url }}/images/icons/{{project.icon}}.svg" alt="{{project.icon}}">
 					<h1 class="card-name">{{ project.name }}</h1>
 					<p class="card-description">{{ project.description }}</p>
 				</div>
