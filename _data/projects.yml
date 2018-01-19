@@ -1,18 +1,25 @@
 - project:
-  name: 'Rocket.Chat'
-  icon: 'rocketchat'
-  description: 'The Rocket.Chat Server.'
-  pages: ['Installing & Upgrading', 'User', 'Administrator', 'Developer', 'Project on GitHub', 'Documentation on GitHub']
+  name: "Rocket.Chat"
+  icon: "rocketchat"
+  description: "The Rocket.Chat Server."
+  pages:
+    - [true, "Installing & Upgrading", "/installation/"]
+    - [true, "User Guides", "/user-guides/"]
+    - [true, "Administrator Guides", "/administrator-guides/"]
+    - [true, "Developer Guides", "/developer-guides/"]
+    - [false, "Project on GitHub", "https://github.com/RocketChat/Rocket.Chat"]
+    - [false, "Documentation on GitHub", "https://github.com/RocketChat/docs"]
 - project:
-  name: 'Rocket.Chat Android'
-  icon: 'android'
-  description: 'The Rocket.Chat Android.'
-  pages: ['test1', 'test2','test3']
+  name: "Rocket.Chat Android"
+  icon: "android"
+  description: "The Rocket.Chat Android."
+  pages: ["test1", "test2","test3"]
 - project:
-  name: 'Rocket.Chat iOS'
-  description: 'The Rocket.Chat iOS.'
-  pages: ['test1', 'test2','test3']
+  name: "Rocket.Chat iOS"
+  icon: "apple"
+  description: "The Rocket.Chat iOS."
+  pages: ["test1", "test2","test3"]
 - project:
-  name: 'Rocket.Chat Documentation'
-  description: 'The Rocket.Chat Documentation.'
-  pages: ['test1', 'test2','test3']
+  name: "Rocket.Chat Documentation"
+  description: "The Rocket.Chat Documentation."
+  pages: ["test1", "test2","test3"]

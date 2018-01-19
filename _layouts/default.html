@@ -82,17 +82,36 @@
       </div>
       <div id="content" class="content">
         <div class="wrapper">
-
-            {% include home.html projects=site.data.projects %}
+          {{ content }}
           <div class="edit-github"><a href="https://github.com/RocketChat/docs/blob/master{{page.url}}README.md">Edit this page on GitHub</a></div>
         </div>
       </div>
     </div>
   </main>
 </div>
-
-{% include footer.html %}
-
+<footer>
+  <div class="wrapper">
+    <ul>
+      <li><a href="https://rocket.chat/download">Download</a></li>
+      <li><a href="https://rocket.chat/cloud">Cloud</a></li>
+      <li><a href="https://rocket.chat/docs/">Docs</a></li>
+    </ul>
+    <ul>
+      <li><a href="https://rocket.chat/team">Team</a></li>
+      <li><a href="https://rocketchat.recruitee.com/">Jobs</a></li>
+      <li><a href="https://rocket.chat/partners">Partners</a></li>
+    </ul>
+    <ul>
+      <li><a href="https://rocket.chat/contact">Contact</a></li>
+      <li><a href="https://rocket.chat/press">Press</a></li>
+      <li><a href="https://rocket.chat/blog/">Blog</a></li>
+    </ul>
+    <ul>
+      <li><a href="https://shop.spreadshirt.com/rocketchat" target="_blank">Store</a></li>
+      <li><a href="https://www.stickermule.com/user/1070688638/stickers" target="_blank">Stickers</a></li>
+    </ul>
+  </div>
+</footer>
 <script src="{{ site.url }}/public/js/responsiveControl.js"></script>
 <script type="text/javascript">
   window.jekyll = { site: { url: '{{ site.url }}' } };

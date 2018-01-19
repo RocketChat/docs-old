@@ -37,7 +37,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 1em;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: -0.02em;
   line-height: 1.2em;
   margin: 0 0 1rem 0;
@@ -104,6 +104,10 @@ blockquote {
 
   &.main {
     display: flex;
+  }
+
+  &.home{
+    width: 65%;
   }
 }
 
@@ -251,6 +255,7 @@ main {
   background-color: #fff;
   margin: 62px auto 0;
   padding: 20px 0;
+  min-width: 100vw;
 }
 
 .toc {
@@ -340,23 +345,28 @@ footer {
 
 .project-list {
   display: grid;
-  grid-template-columns: 45% 45%;
+  grid-template-columns: 40% 40%;
+  grid-column-gap: 10%;
+  margin-bottom: 15px;
 }
 
 .project-card {
   display: flex;
   flex-direction: column;
-  background-color: rgba(61,61,61,0.05);
-  padding: 15px;
+  background-color: #f6f7f9;
+  padding: 15px 20px;
   margin: 15px 0;
-  width: 80%;
   height: 250px;
   justify-content: space-between
 }
 
-.card-header {
+.home-header {
   display: flex;
   flex-direction: column;
+  margin: 10px 0;
+  &.card{
+    margin-bottom: 0;
+  }
 }
 
 .card-icon {
@@ -365,15 +375,21 @@ footer {
   margin: 10px 10px 10px 0;
 }
 
-.card-name{
-  font-size: 1.15em;
+.title{
   margin: 0;
+  font-size: 1.7em;
+
+  &.card {
+    font-size: 1.15em;
+  }
 }
 
-.card-description {
+.description {
   color: #999;
   margin: 5px 0;
-  font-size: 0.8em;
+  &.card {
+    font-size: 0.8em;
+  }
 }
 
 .card-pages{
@@ -453,7 +469,13 @@ footer {
     width: 240px;;
     visibility: visible;
   }
-  .wrapper.main {
-      padding: 0px;
+  .wrapper {
+      &.main{
+        padding: 0px;
+      }
+      &.home{
+        width: 100%;
+      }
     }
 }
+

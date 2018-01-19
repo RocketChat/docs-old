@@ -1,0 +1,24 @@
+<div class="home">
+	<div class="home-header">
+		<h1 class="title">Project Documentation</h1>
+		<p class="description">Welcome to Rocket.Chat! Get familiar with Rocket.Chat and explore our features:</p>
+	</div>
+
+	<div class="project-list">
+		{% for project in include.projects %}
+			<div class="project-card">
+				<div class="home-header card">
+					<img class="card-icon" src="{{ site.url }}/images/icons/{{project.icon}}.svg" alt="{{project.icon}}">
+					<h1 class="title card">{{ project.name }}</h1>
+					<p class="description card">{{ project.description }}</p>
+				</div>
+
+				<div class="card-pages">
+					{% for page in project.pages %}
+						<a href="{%if page[0] %}{{ site.url }}{% endif %}{{page[2]}}">{{ page[1] }}</a>
+					{% endfor %}
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</div>
