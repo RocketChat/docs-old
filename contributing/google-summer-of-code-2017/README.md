@@ -80,11 +80,11 @@ After the evaulation, we have made sure that they all have received the first st
 
 Working with a publicity company, we have been creating open source "hero stories" profiling every one of our new summer-term team members.  Many of them have already been featured on our Blog:
 
-* [Mrinal Dhar](https://rocket.chat/blog/mrinal-dhar-developing-end-to-end-encryption-with-signal-protocol)
-* [Manish Kakoti](https://rocket.chat/blog/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation)
-* [Pradeep Kumar](https://rocket.chat/blog/pradeep-kumar-bridging-the-email-and-rocketchat-divide-with-personal-email-gateway)
-* [Sachin Shinde](https://rocket.chat/blog/sachin-shinde-add-rocketchat-to-any-app-with-mobile-sdk)
-* [Naman Gupta](https://rocket.chat/blog/naman-gupta-smaller-faster-and-more-bandwidthefficient-client-with-pwa)
+* [Mrinal Dhar](https://rocket.chat/2017/07/02/mrinal-dhar-developing-end-to-end-encryption-with-signal-protocol/)
+* [Manish Kakoti](https://rocket.chat/2017/07/02/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation/)
+* [Pradeep Kumar](https://rocket.chat/2017/07/02/pradeep-kumar-bridging-the-email-and-rocketchat-divide-with-personal-email-gateway)
+* [Sachin Shinde](https://rocket.chat/2017/07/05/sachin-shinde-add-rocketchat-to-any-app-with-mobile-sdk)
+* [Naman Gupta](https://rocket.chat/2017/07/06/naman-gupta-smaller-faster-and-more-bandwidthefficient-client-with-pwa)
 
 In July, along with continued technical progress, we are focusing to help the student in development of their open source citizenship skills - something hopefully useful beyond their GSoC terms with us.  
 
