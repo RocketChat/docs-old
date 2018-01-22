@@ -85,3 +85,7 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 ### Performance tests
 * **Mentors:** @diego.sampaio
 * **Description:** Create an initial script to run performance tests of basic functionalities, it should be able to run in our CI and should track infomation to allow us and the community follow the performance changes.
+
+### Javascript SDK
+* **Mentors:** @karl.prieb @guilherme.gazzo
+* **Description:** Create a javascript SDK that can be used on our ReactNative, Livechat and our webclient projects.
