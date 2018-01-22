@@ -56,3 +56,8 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 * **Mentors:** @rodrigo.nascimento
 * **Description:** Add small previews for non image files improving the UI/UX allowing users to see a preview of the contect before click to open the file, it includes PDF, Word Documents and similar, Excel Documents and similar, PowerPoint and similar, Text files, Sketch, Photoshop, etc.
 * **Desirable Skills:** Familiarity with JavaScript development. 
+
+### Global Search
+* **Mentors:** @rodrigo.nascimento
+* **Description:** Allow users to search across messages, rooms, files, users, etc in a single and easy to use interface. Like a MacOS Spotlight search.
+* **Desirable Skills:** Familiarity with JavaScript development, MongoDB or other search engine.
