@@ -23,8 +23,8 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 ## Ideas
 
 ### Users Directory integration plus custom fields editor and search
-* **Mentors:** TBD
-* **Description:** 
+* **Mentors:** @marcelo.schmidt
+* **Description:** Rocket.Chat allows for users to add custom fields through a setting that accepts a JSON. We would like the student to create an interface to manage custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. Rocket.Chat also needs an interface to search users based on custom fields. The user search functionality must be accessible from the channels / users list. Users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
 * **Desirable Skills:** Familiarity with JavaScript development.  
 
 ### LiveChat Reports and Analytics
