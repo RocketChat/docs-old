@@ -103,3 +103,7 @@ Create a guide on how to use the `General` setting section.
 ## Message Section
 
 Create a guide on how to use the `Message` setting section.
+
+## Oauth
+
+Missing meteor Oauth section.

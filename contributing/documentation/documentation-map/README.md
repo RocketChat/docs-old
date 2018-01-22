@@ -107,7 +107,7 @@ Here you can also find what articles are incomplete and missing.
     - Authentication:
         - CAS
         - Ldap
-        - Oauth
+        - <span class="incomplete">[Oauth](../missing-and-outdated-list/#Oauth)</span>
         - SAML
         - <span class="missing">[WordPress](../missing-and-outdated-list/#WordPress)</span>
     - <span class="missing">[Customizing the UI](../missing-and-outdated-list/#Customizing the UI)</span>:
