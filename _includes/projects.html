@@ -8,7 +8,7 @@
 		{% for project in include.projects %}
 			<div class="project-card">
 				<div class="home-header card">
-					<img class="card-icon" src="{{ site.url }}/images/icons/{{project.icon}}.svg" alt="{{project.icon}}">
+					<img class="card-icon" src="{{ site.url }}/images/icons/{% if project.icon %}{{project.icon}}{% else %}code{% endif %}.svg" alt="{{project.icon}}">
 					<h1 class="title card">{{ project.name }}</h1>
 					<p class="description card">{{ project.description }}</p>
 				</div>

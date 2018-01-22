@@ -13,13 +13,16 @@
   name: "Rocket.Chat Android"
   icon: "android"
   description: "The Rocket.Chat Android."
-  pages: ["test1", "test2","test3"]
+  pages:
+    - [false, "Project on GitHub", "https://github.com/RocketChat/Rocket.Chat.Android"]
 - project:
   name: "Rocket.Chat iOS"
   icon: "apple"
   description: "The Rocket.Chat iOS."
-  pages: ["test1", "test2","test3"]
+  pages:
+    - [false, "Project on GitHub", "https://github.com/RocketChat/Rocket.Chat.iOS"]
 - project:
   name: "Rocket.Chat Documentation"
   description: "The Rocket.Chat Documentation."
-  pages: ["test1", "test2","test3"]
+  pages:
+    - [false, "Documentation on GitHub", "https://github.com/RocketChat/docs"]
