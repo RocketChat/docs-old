@@ -61,3 +61,23 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 * **Mentors:** @rodrigo.nascimento
 * **Description:** Allow users to search across messages, rooms, files, users, etc in a single and easy to use interface. Like a MacOS Spotlight search.
 * **Desirable Skills:** Familiarity with JavaScript development, MongoDB or other search engine.
+
+### Draw (iOS)
+* **Mentors:** TBD
+* **Description:** Allow user to draw something using our iOS native app and send to Rocket.Chat channel. The draw would have different colors and "brush" options (pen, brush, pencil, etc). User will also be able to draw on top of an image selected from library or just shooted. On iPads, user will be able to use Apple Pencil to draw.
+
+### Draw (Android)
+* **Mentors:** TBD
+* **Description:** Allow user to draw something using our Android native app and send to Rocket.Chat channel. The draw would have different colors and "brush" options (pen, brush, pencil, etc). User will also be able to draw on top of an image selected from library or just shooted.
+
+### Apple Watch App
+* **Mentors:** TBD
+* **Description:** Create an Apple Watch application that replicates the most basic features we have in our iOS app, such like viewing the chat rooms and reading the messages. Also let the user send a message to a chat using voice recognition.
+
+### Siri
+* **Mentors:** TBD
+* **Description:** Let user send messages talking to Siri.
+
+### Google Assistant
+* **Mentors:** TBD
+* **Description:** Let user send messages talking to Google Assistant.
