@@ -103,6 +103,7 @@
   - Integrations:
     - Zapier:
       - Using Zaps
+    - AppVeyor
     - Azure Alerts
     - BitBucket
     - DeadSimpleScreenSharing
@@ -125,7 +126,7 @@
     - Telegram
     - Travis CI
     - Trello
-    - uptimerobot
+    - Uptime Robot
   - Internal Hubot
   - Jitsi Video Bridge
   - Livechat:
