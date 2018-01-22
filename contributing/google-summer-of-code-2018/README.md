@@ -22,15 +22,17 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 
 ## Ideas
 
-### project 1
-* **Mentors:** Matthew Hodgson ([@arathorn](https://github/ara4n))  Rodrigo Nascimento ([@rodrigo.nascimento](https://github.com/rodrigok))
-* **Description:** Tens of thousands of Rocket.Chat servers are running at this very minute on the Internet.  There is currently no way for users/bots/services of one instance to address or communicate with those from another.  This project's mission is to make it possible. You will be working and exchanging ideas with the very best in the field - experts from Matrix.org and Rocket.Chat.
-* **Desirable Skills:** Familiarity with JavaScript development.  Demonstrated interest and/or passion on networking and federation protocols research and evolution.
-* **Goal/Deliverable:** The foundation for all Rocket.Chat users/bots/services to optionally communicate with one another, across all connected instances.
-
-
-### project 2
+### Users Directory integration plus custom fields editor and search
 * **Mentors:** TBD
-* **Description:** Tens of thousands of Rocket.Chat servers are running at this very minute on the Internet.  There is currently no way for users/bots/services of one instance to address or communicate with those from another.  This project's mission is to make it possible. You will be working and exchanging ideas with the very best in the field - experts from Matrix.org and Rocket.Chat.
-* **Desirable Skills:** Familiarity with JavaScript development.  Demonstrated interest and/or passion on networking and federation protocols research and evolution.
-* **Goal/Deliverable:** The foundation for all Rocket.Chat users/bots/services to optionally communicate with one another, across all connected instances.
+* **Description:** 
+* **Desirable Skills:** Familiarity with JavaScript development.  
+
+### LiveChat Reports and Analytics
+* **Mentors:** TBD
+* **Description:** Add a panel to have analytical information about interactions in LiveChat.
+* **Desirable Skills:** Familiarity with JavaScript development.  
+
+### Storage integration with Google Drive and/or Dropbox
+* **Mentors:** TBD
+* **Description:** Panel to have analytical information about interactions in LiveChat.
+* **Desirable Skills:** Familiarity with JavaScript development. 
