@@ -51,3 +51,8 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 * **Mentors:** @matheus.cardoso
 * **Description:** Be part of our iOS team this summer to push Rocket.Chat's native iOS App to the next level!  You will - with our help - build the foundation for customizable user experience, support built-in themes for users to choose from and server-specific themes, allowing server owners to manifest the colors and feel of their communities.  You will have the chance to exchange experience with our engineers and designers, plus your work will have a great impact on the experience of thousands of users!
 * **Desirable Skills:** We are looking for an undergraduate student who is familiar with team work, developing iOS Apps using UIKit, Auto Layout and Swift, as well as writing maintainable code with Unit Tests.
+
+### PDF/File preview
+* **Mentors:** @rodrigo.nascimento
+* **Description:** Add small previews for non image files improving the UI/UX allowing users to see a preview of the contect before click to open the file, it includes PDF, Word Documents and similar, Excel Documents and similar, PowerPoint and similar, Text files, Sketch, Photoshop, etc.
+* **Desirable Skills:** Familiarity with JavaScript development. 
