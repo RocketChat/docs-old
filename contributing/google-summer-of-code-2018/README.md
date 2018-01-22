@@ -97,5 +97,5 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 ### Scripting support
 * **Mentors:** TDB
 * **Description:** We would love to see an embed Rocket.Chat scripting support. The scripting support will allow the customization of elements (server settings, user profile) through a GUI in a very easy and objective way.
-* **Desirable Skills:** Familiarity with a back-end language and software architecture (interpreter architectural style).
+* **Desirable Skills:** Familiarity with JavaScript development and software architecture (interpreter architectural style).
 
