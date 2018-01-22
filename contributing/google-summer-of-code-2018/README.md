@@ -89,3 +89,7 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 ### Javascript SDK
 * **Mentors:** @karl.prieb @guilherme.gazzo
 * **Description:** Create a javascript SDK that can be used on our ReactNative, Livechat and our webclient projects.
+
+### Android Wear App
+* **Mentors:** @filipe.brito
+* **Description:** Create an Android Wear application that replicates the most basic features we have in our Android app, such like viewing the chat rooms and reading the messages.
