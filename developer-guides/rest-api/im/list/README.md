@@ -58,9 +58,58 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
+## Query Example Call 
+
+This example shows a list of Direct Messages' Rooms filtered by "customFields.field1" ended with "5" using a regular expression.
+
+```bash
+curl -H "X-Auth-Token: OKoJelLu8rYtbyc3c5YtTwxIE-UvT1FzWv9cdq1XPI1" \
+     -H "X-User-Id: hw5DThnhQmxDWnavu" \
+     http://localhost:3000/api/v1/im.list?query=%7B%20%22customFields.field1%22%3A%20%7B%20%22%24regex%22%3A%20%22%28.*%295%24%22%20%7D%20%7D
+```
+
+## Query Example Result
+
+```json
+{
+	"ims": [
+		{
+			"_id": "hw5DThnhQmxDWnavuhw5DThnhQmxDWnavu",
+			"_updatedAt": "2018-01-21T21:07:20.324Z",
+			"t": "d",
+			"msgs": 0,
+			"ts": "2018-01-21T21:07:20.324Z",
+			"username": "user2"
+		},
+		{
+			"_id": "hw5DThnhQmxDWnavurocket.cat",
+			"_updatedAt": "2018-01-21T21:07:18.510Z",
+			"t": "d",
+			"msgs": 0,
+			"ts": "2018-01-21T21:07:18.510Z",
+			"username": "user2"
+		},
+		{
+			"_id": "3WpJQkDHhrWPBvXuWhw5DThnhQmxDWnavu",
+			"_updatedAt": "2018-01-21T21:07:16.123Z",
+			"t": "d",
+			"msgs": 0,
+			"ts": "2018-01-21T21:07:16.123Z",
+			"username": "user2"
+		}
+	],
+	"offset": 0,
+	"count": 3,
+	"total": 3,
+	"success":true
+}
+```
+
+
 ## Change Log
 
 | Version | Description |
 | :--- | :--- |
+| 0.61.0 | Add 'query' parameter support. |
 | 0.49.0 | Count and offset query parameters supported. |
 | 0.48.0 | Added |
