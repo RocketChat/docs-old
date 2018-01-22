@@ -93,3 +93,9 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 ### Android Wear App
 * **Mentors:** @filipe.brito
 * **Description:** Create an Android Wear application that replicates the most basic features we have in our Android app, such like viewing the chat rooms and reading the messages.
+
+### Scripting support
+* **Mentors:** TDB
+* **Description:** We would love to see an embed Rocket.Chat scripting support. The scripting support will allow the customization of elements (server settings, user profile) through a GUI in a very easy and objective way.
+* **Desirable Skills:** Familiarity with a back-end language and software architecture (interpreter architectural style).
+
