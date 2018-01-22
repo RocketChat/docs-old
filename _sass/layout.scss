@@ -357,7 +357,8 @@ footer {
   padding: 15px 20px;
   margin: 15px 0;
   height: 250px;
-  justify-content: space-between
+  justify-content: space-between;
+  max-width: 400px;
 }
 
 .home-header {
@@ -397,8 +398,9 @@ footer {
   flex-wrap: wrap;
   font-size: 0.8em;
   font-weight: bold;
-  a {
+  & a {
     margin-right: 1.2em;
+    color: #5b8af5;
   }
 }
 
