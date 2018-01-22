@@ -81,3 +81,7 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 ### Google Assistant
 * **Mentors:** TBD
 * **Description:** Let user send messages talking to Google Assistant.
+
+### Performance tests
+* **Mentors:** @diego.sampaio
+* **Description:** Create an initial script to run performance tests of basic functionalities, it should be able to run in our CI and should track infomation to allow us and the community follow the performance changes.
