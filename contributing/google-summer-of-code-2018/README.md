@@ -99,3 +99,7 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 * **Description:** We would love to see an embed Rocket.Chat scripting support. The scripting support will allow the customization of elements (server settings, user profile) through a GUI in a very easy and objective way.
 * **Desirable Skills:** Familiarity with JavaScript development and software architecture (interpreter architectural style).
 
+### Game platform integration
+* **Mentors:** TBD
+* **Description:** Integrate a multiplayer-capable game engine that runs on the web browser (eg. Unity WebGL, Phaser, Three.js) with Rocket.Chat. Let room members start small multiplayer games and play with each other.
+* **Desirable Skills:** Experienced with JavaScript, web browser game engines, and networking.
