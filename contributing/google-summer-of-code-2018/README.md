@@ -1,4 +1,6 @@
 ---
+permalink: /contributing/google-summer-of-code-2018/
+
 redirect_from:
   - /contributing/google-summer-of-code/
 ---
