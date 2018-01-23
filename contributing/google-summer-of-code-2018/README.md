@@ -37,6 +37,11 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 * **Description:** Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage  these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. Rocket.Chat also needs an interface to search users based on custom fields. The user search functionality must be accessible from the channels / users list. Users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
 * **Desirable Skills:** Familiarity with JavaScript development.  
 
+### Storage integration with Google Drive and/or Dropbox
+* **Mentors:** TBD
+* **Description:** (1) Enabling Rocket.Chat users to use Google Drive and/or Dropbox for storage of their uploads. (2) Within Rocket.Chat, allow access to Google Drive or Dropbox contents.
+* **Desirable Skills:** Familiarity with JavaScript development, and with Google Drive and/or Dropbox APIs. 
+
 ### Scaling to the edge of dreams   
 * **Mentors:** TBD
 * **Description:** Assist Rocket.Chat’s scalability engineers to scale Rocket.Chat to the next level.  From tens of thousands of active connections, to hundreds of thousands to millions, to world-scale.
@@ -46,13 +51,6 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 * **Mentors:** TBD
 * **Description:** Add a panel to have analytical information about interactions in LiveChat.
 * **Desirable Skills:** Familiarity with JavaScript development.  
-
-### Storage integration with Google Drive and/or Dropbox
-* **Mentors:** TBD
-* **Description:** 
-* **Desirable Skills:** Familiarity with JavaScript development. 
-
-
 
 ### Uniting “One Rocket.Chat” with Federation
 * **Mentors:** TBD
@@ -67,25 +65,28 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 ### PDF/File preview
 * **Mentors:** @rodrigo.nascimento
 * **Description:** Add small previews for non image files improving the UI/UX allowing users to see a preview of the contect before click to open the file, it includes PDF, Word Documents and similar, Excel Documents and similar, PowerPoint and similar, Text files, Sketch, Photoshop, etc.
-* **Desirable Skills:** Familiarity with JavaScript development. 
-
-
+* **Desirable Skills:** Familiarity with JavaScript development.  Experience hacking documents conversion and/or rendering libraries is a big plus. 
 
 ### Draw (iOS)
 * **Mentors:** TBD
 * **Description:** Allow user to draw something using our iOS native app and send to Rocket.Chat channel. The draw would have different colors and "brush" options (pen, brush, pencil, etc). User will also be able to draw on top of an image selected from library or just shooted. On iPads, user will be able to use Apple Pencil to draw.
+* **Desirable Skills:**  Familiarity with Swift on iOS development.   Ability to work in large multi-disciplinary teams.
 
 ### Draw (Android)
 * **Mentors:** TBD
 * **Description:** Allow user to draw something using our Android native app and send to Rocket.Chat channel. The draw would have different colors and "brush" options (pen, brush, pencil, etc). User will also be able to draw on top of an image selected from library or just shooted.
+* **Desirable Skills:** Familiarity with Java or Kotlin development on Android.  Ability to work in large multi-disciplinary teams.
+
 
 ### Apple Watch App
 * **Mentors:** TBD
-* **Description:** Create an Apple Watch application that replicates the most basic features we have in our iOS app, such like viewing the chat rooms and reading the messages. Also let the user send a message to a chat using voice recognition.
+* **Description:** Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such like viewing the chat rooms and reading the messages. Also let the user send a message to a chat using voice recognition.
+* **Desirable Skills:** Familiarity with WatchKit development on WatchOS.  Ability to work in large multi-disciplinary teams.
 
 ### Siri
 * **Mentors:** TBD
-* **Description:** Let user send messages talking to Siri.
+* **Description:** Let user send and respond to messages talking to Siri on Apple mobile devices.
+* **Desirable Skills:** Familiarity with SiriKit development.  Ability to work in large multi-disciplinary teams
 
 ### Google Assistant
 * **Mentors:** TBD
@@ -128,21 +129,21 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 
 ### Buttons and Cards UI
 * **Mentors:** TBD (@diego.dorgam + ?)
-* **Description:** include the possibility to send a message with customizable buttons and cards carousel (slidable images with text descriptions) so the user can interact with and bots can receive the feedback of those interactions, right on the Rocket.Chat's interface, and compatible (if possible) with slack, facebook and telegram UI notation, so it becomes intuitive to their community to develop to Rocket.Chat.  
+* **Description:** Include the possibility to send a message with customizable buttons and cards carousel (slidable images with text descriptions) so the user can interact with and bots can receive the feedback of those interactions, right on the Rocket.Chat's interface, and compatible (if possible) with existing UI conventions, so it becomes intuitive to their community to develop to Rocket.Chat.  
 * **Desirable Skills:** Familiarity with JavaScript development.
 
 ### Use Voice Recognition APIs
 * **Mentors:** TBD
-* **Description:** Develop a voice recognition integration feature, by building a `Settings` pane to connect some of the most know voice recognition and understanding (speech2text) APIs on the market directly from Rocket.Chat, by configuring API's connection and usage attributes, and giving rocket.chat's UI the ability to click a button, record a message, send to the desired API and return the results to Rocket.Chat editing message box. The project scope would include the following APIs:
-- IBM Watson's
-- AWS Lex
-- Google Assistent
-- Bing
+* **Description:** Develop a voice recognition integration feature, by building a `Settings` pane to connect some of the well-known voice recognition and speech to text APIs on the market directly from within Rocket.Chat. By configuring API's connection and usage attributes, and giving rocket.chat's UI the ability to click a button, record a message, send to the desired API and return the results to Rocket.Chat editing message box. The project scope could include the following APIs:
+* IBM Watson's
+* AWS Lex
+* Google Assistent
+* Bing
 Different APIs can be proposed as a possible change of scope.
 * **Desirable Skills:** Familiarity with JavaScript development.
 
 ### Built-in Speech2Text Engine
 * **Mentors:** TBD
-* **Description:** Integrate an Open Source speech to text engine to be used inside Rocket.Chat by users who prefer an On-Premise full featured installation. There are a lot of opensource speech2text engines on the market, like CMUSphinx and pocketsphinxjs, annyang, JuliusJS, Mumble, Voix JS, voice-commands.js and Artyon.js. This project will include a feature matrix comparison between those engines and the best should be implemented in Rocket.Chat bundle, giving the UI the ability to click a button, record a message, send it to the text2speech engine and return the results to Rocket.Chat editing message box.
+* **Description:** Integrate an Open Source speech to text engine to be used inside Rocket.Chat by users who prefer an On-Premise full featured installation. There are many opensource speech2text engines on the market, like CMUSphinx and pocketsphinxjs, annyang, JuliusJS, Mumble, Voix JS, voice-commands.js and Artyon.js. This project will include a feature matrix comparison between those engines and the best one to be implemented in Rocket.Chat bundle, giving the UI the ability to click a button, record a message, send it to the text2speech engine and return the results to Rocket.Chat editing message box.
 * **Desirable Skills:** Familiarity with JavaScript development and speech2text techniques.
 
