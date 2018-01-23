@@ -27,11 +27,6 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 * **Description:** Add global search to Rocket.Chat, allowing users to search across messages, rooms, files, users, etc in a single and easy to use interface. Like a MacOS Spotlight search.
 * **Desirable Skills:** Familiarity with JavaScript development, MongoDB or other search engine.
 
-### Bot2Bot Creator
-* **Mentors:** TBD
-* **Description:** Develop an internal RocketChat Bot generator.  Basically an internal bot with the ability to create other bots -> simple webhooks integrations based ones.  This bot can be connected to, and operated through webhooks by other applications (such as Flow.ai);  enabling runtime-dynamic application driven bot creation and deployment.
-* **Desirable Skills:** Familiarity with bot frameworks and JavaScript development.
-
 ### Users Directory integration plus custom fields editor and search
 * **Mentors:** @marcelo.schmidt
 * **Description:** Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage  these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. Rocket.Chat also needs an interface to search users based on custom fields. The user search functionality must be accessible from the channels / users list. Users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
