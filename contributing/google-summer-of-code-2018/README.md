@@ -85,6 +85,11 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 * **Description:** Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such like viewing the chat rooms and reading the messages. Also let the user send a message to a chat using voice recognition.
 * **Desirable Skills:** Familiarity with WatchKit development on WatchOS.  Ability to work in large multi-disciplinary teams.
 
+### Enabling global decentralized blockchain powered crypto communities
+* **Mentors:** TBD
+* **Description:** Working together with our crypto and blockchain team – you will help build the key enabler platform for the future of blockchain powered decentralized communities all over this world (and perhaps even beyond).   Within this short summer, you will gain experience in working on a global-circulation production-grade blockchain-powered adoption-acceleration platform.  You will also meet and work with leading visionaries and pioneers in the current blockchain / crypto field.   Tangible potential to become an early architect of this brave new world, supported by Rocket.Chat.
+* **Desirable Skills:** Looking for a unique fringe-dropout university student already committed to our inevitable decentralized future powered by Web 3.0 and continued blockchain technology innovations.  While maintaining a high score on all your subjects, you should be finding your existing university education ridiculously limiting, and already have experience hacking smart contracts, minting tokens for friends and family, hacking ethereum, and trading cryptokitties.  Recent government (perhaps your own government) baseless  advances into this area has significantly disturbed you. You already realized that you are way ahead of your time.  And you will recognize this GSoC 2018 project to be the absolutely not-to-miss opportunity of your life.
+
 ### Siri
 * **Mentors:** TBD
 * **Description:** Let user send and respond to messages talking to Siri on Apple mobile devices.
