@@ -20,7 +20,7 @@ https://forums.rocket.chat/c/gsoc
 
 Our application to become a 2018 GSoC organization is currently under review.  We will have more specific student application and deadline information here once (if) we are approved.
 
-## Project Ideas  (work in progress)
+## Ideas
 
 ### Users Directory integration plus custom fields editor and search
 * **Mentors:** @marcelo.schmidt
@@ -99,7 +99,40 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 * **Description:** We would love to see an embed Rocket.Chat scripting support. The scripting support will allow the customization of elements (server settings, user profile) through a GUI in a very easy and objective way.
 * **Desirable Skills:** Familiarity with JavaScript development and software architecture (interpreter architectural style).
 
-### Game platform integration
+### Improve Hubot Integration
+* **Mentors:** @diego.dorgam
+* **Description:** Improve the internal hubot interface, by allowing users to set up their own repositories for Rocket.Chat to read and deploy a hubot instance from it. Also would be awesome if the user could just edit the scripts files, and get console logs, right from the Rocket.Chat interface.
+* **Desirable Skills:** Familiarity with JavaScript development and hubot architecture.
+
+### Open Source Bot Frameworks Adapters
+* **Mentors:** TBD (@diego.dorgam + ?)
+* **Description:** The objective is to widely open Rocket.Chat's bots ecosystem by developing connectors/adapters to open source bot frameworks available in the web, so their community can develop bots able to run on Rocket.Chat platform. The scope would include the following frameworks:
+- BotKit
+- Rasa.ai (Rasa Core)
+- BotPress
+* **Desirable Skills:** Familiarity with JavaScript and Python development.
+
+### Buttons and Cards UI
+* **Mentors:** TBD (@diego.dorgam + ?)
+* **Description:** include the possibility to send a message with customizable buttons and cards carousel (slidable images with text descriptions) so the user can interact with and bots can receive the feedback of those interactions, right on the Rocket.Chat's interface, and compatible (if possible) with slack, facebook and telegram UI notation, so it becomes intuitive to their community to develop to Rocket.Chat.  
+* **Desirable Skills:** Familiarity with JavaScript development.
+
+### Use Voice Recognition APIs
 * **Mentors:** TBD
-* **Description:** Integrate a multiplayer-capable game engine that runs on the web browser (eg. Unity WebGL, Phaser, Three.js) with Rocket.Chat. Let room members start small multiplayer games and play together.
-* **Desirable Skills:** Experienced with JavaScript, web browser game engines, and networking.
+* **Description:** Develop a voice recognition integration feature, by building a `Settings` pane to connect some of the most know voice recognition and understanding (speech2text) APIs on the market directly from Rocket.Chat, by configuring API's connection and usage attributes, and giving rocket.chat's UI the ability to click a button, record a message, send to the desired API and return the results to Rocket.Chat editing message box. The project scope would include the following APIs:
+- IBM Watson's
+- AWS Lex
+- Google Assistent
+- Bing
+Different APIs can be proposed as a possible change of scope.
+* **Desirable Skills:** Familiarity with JavaScript development.
+
+### Built-in Speech2Text Engine
+* **Mentors:** TBD
+* **Description:** Integrate an Open Source speech to text engine to be used inside Rocket.Chat by users who prefer an On-Premise full featured installation. There are a lot of opensource speech2text engines on the market, like CMUSphinx and pocketsphinxjs, annyang, JuliusJS, Mumble, Voix JS, voice-commands.js and Artyon.js. This project will include a feature matrix comparison between those engines and the best should be implemented in Rocket.Chat bundle, giving the UI the ability to click a button, record a message, send it to the text2speech engine and return the results to Rocket.Chat editing message box.
+* **Desirable Skills:** Familiarity with JavaScript development and speech2text techniques.
+
+### Behold The BotFather
+* **Mentors:** TBD
+* **Description:** Develop an internal RocketChat BotFather (inpirated by Telegram BotFather) with the ability to create simple bots, with webhooks integrations, that can be connected and operated trough webhooks by other applications (like Flow.ai), to provide a simple webhook based bot with basic features for fast developing and deploying inside a Rocket.Chat instance.
+* **Desirable Skills:** Familiarity with JavaScript development and some other bot frameworks.
