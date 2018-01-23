@@ -1,25 +1,10 @@
 language: ruby
 rvm:
   - 2.2
-install:
-  - CXX=g++-4.8
-addons:
-  apt:
-    sources:
-    - ubuntu-toolchain-r-test
-    packages:
-    - g++-4.8
 branches:
   only:
   - master
-before_script:
-  - chmod 600 .travis/deploy-key
-  - mv .travis/deploy-key ~/.ssh/id_rsa
 script:
-  - export SRC_DIR=`pwd`
-  - cd /tmp/
-  - ln -s $SRC_DIR src
   - bundle install --jobs=3 --retry=3 --deployment
-before_install:
-  - echo -e "Host $DEPLOY_HOST\n\tHostName $DEPLOY_HOST\n\tStrictHostKeyChecking no\n\tUser github\n\tIdentityFile ~/.ssh/id_rsa\n" >> ~/.ssh/config
-  - openssl aes-256-cbc -K $encrypted_0da79f095df9_key -iv $encrypted_0da79f095df9_iv -in .travis/deploy-key.enc -out .travis/deploy-key -d
+  - bundle exec "jekyll serve --incremental --safe"
+  - bundle exec "rake check_links"
