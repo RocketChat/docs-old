@@ -22,10 +22,25 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 
 ## Project Ideas  (work in progress)
 
+### Global Search
+* **Mentors:** @rodrigo.nascimento
+* **Description:** Add global search to Rocket.Chet, allowing users to search across messages, rooms, files, users, etc in a single and easy to use interface. Like a MacOS Spotlight search.
+* **Desirable Skills:** Familiarity with JavaScript development, MongoDB or other search engine.
+
+### Bot2Bot Creator
+* **Mentors:** TBD
+* **Description:** Develop an internal RocketChat Bot generator.  Basically an internal bot with the ability to create other bots -> simple webhooks integrations based ones.  This bot can be connected to, and operated through webhooks by other applications (such as Flow.ai);  enabling runtime-dynamic application driven bot creation and deployment.
+* **Desirable Skills:** Familiarity with bot frameworks and JavaScript development.
+
 ### Users Directory integration plus custom fields editor and search
 * **Mentors:** @marcelo.schmidt
-* **Description:** Rocket.Chat allows for users to add custom fields through a setting that accepts a JSON. We would like the student to create an interface to manage custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. Rocket.Chat also needs an interface to search users based on custom fields. The user search functionality must be accessible from the channels / users list. Users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
+* **Description:** Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage  these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. Rocket.Chat also needs an interface to search users based on custom fields. The user search functionality must be accessible from the channels / users list. Users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
 * **Desirable Skills:** Familiarity with JavaScript development.  
+
+### Scaling to the edge of dreams   
+* **Mentors:** TBD
+* **Description:** Assist Rocket.Chat’s scalability engineers to scale Rocket.Chat to the next level.  From tens of thousands of active connections, to hundreds of thousands to millions, to world-scale.
+* **Desirable Skills:** We are looking for an enthusiastic undergraduate, already enrolled for masters or PhD work in a cluster computing or scalability discipline to join us for an exciting summer of hands-on practical fun.   Working alongside our scalability expert – you will devise and test out various performance and scalability enhancements for Rocket.Chat’s deployment configurations.  You will be able to practice everything you have learnt so far in your under-graduate study, pushes beyond their limits, with a real production clustered server project – having your work impacting thousands of global users – all within the span of a single summer.
 
 ### LiveChat Reports and Analytics
 * **Mentors:** TBD
@@ -37,10 +52,7 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 * **Description:** 
 * **Desirable Skills:** Familiarity with JavaScript development. 
 
-### Scaling to the edge of dreams   
-* **Mentors:** TBD
-* **Description:** Assist Rocket.Chat’s scalability engineers to scale Rocket.Chat to the next level.  From tens of thousands of active connections, to hundreds of thousands to millions, to world-scale.
-* **Desirable Skills:** We are looking for an enthusiastic undergraduate, already enrolled for masters or PhD work in a cluster computing or scalability discipline to join us for an exciting summer of hands-on practical fun.   Working alongside our scalability expert – you will devise and test out various performance and scalability enhancements for Rocket.Chat’s deployment configurations.  You will be able to practice everything you have learnt so far in your under-graduate study, pushes beyond their limits, with a real production clustered server project – having your work impacting thousands of global users – all within the span of a single summer.
+
 
 ### Uniting “One Rocket.Chat” with Federation
 * **Mentors:** TBD
@@ -57,10 +69,7 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 * **Description:** Add small previews for non image files improving the UI/UX allowing users to see a preview of the contect before click to open the file, it includes PDF, Word Documents and similar, Excel Documents and similar, PowerPoint and similar, Text files, Sketch, Photoshop, etc.
 * **Desirable Skills:** Familiarity with JavaScript development. 
 
-### Global Search
-* **Mentors:** @rodrigo.nascimento
-* **Description:** Allow users to search across messages, rooms, files, users, etc in a single and easy to use interface. Like a MacOS Spotlight search.
-* **Desirable Skills:** Familiarity with JavaScript development, MongoDB or other search engine.
+
 
 ### Draw (iOS)
 * **Mentors:** TBD
@@ -137,7 +146,3 @@ Different APIs can be proposed as a possible change of scope.
 * **Description:** Integrate an Open Source speech to text engine to be used inside Rocket.Chat by users who prefer an On-Premise full featured installation. There are a lot of opensource speech2text engines on the market, like CMUSphinx and pocketsphinxjs, annyang, JuliusJS, Mumble, Voix JS, voice-commands.js and Artyon.js. This project will include a feature matrix comparison between those engines and the best should be implemented in Rocket.Chat bundle, giving the UI the ability to click a button, record a message, send it to the text2speech engine and return the results to Rocket.Chat editing message box.
 * **Desirable Skills:** Familiarity with JavaScript development and speech2text techniques.
 
-### Bot2Bot Creator
-* **Mentors:** TBD
-* **Description:** Develop an internal RocketChat Bot with the ability to create simple webhooks integrations based bots, that can be connected and operated trough webhooks by other applications (like Flow.ai), to provide basic features for fast bot developing and deploying inside a Rocket.Chat instance.
-* **Desirable Skills:** Familiarity with JavaScript development and some other bot frameworks.
