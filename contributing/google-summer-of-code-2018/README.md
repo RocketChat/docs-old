@@ -24,7 +24,7 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 
 ### Global Search
 * **Mentors:** @rodrigo.nascimento
-* **Description:** Add global search to Rocket.Chet, allowing users to search across messages, rooms, files, users, etc in a single and easy to use interface. Like a MacOS Spotlight search.
+* **Description:** Add global search to Rocket.Chat, allowing users to search across messages, rooms, files, users, etc in a single and easy to use interface. Like a MacOS Spotlight search.
 * **Desirable Skills:** Familiarity with JavaScript development, MongoDB or other search engine.
 
 ### Bot2Bot Creator
