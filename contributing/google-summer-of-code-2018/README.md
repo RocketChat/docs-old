@@ -101,5 +101,5 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 
 ### Game platform integration
 * **Mentors:** TBD
-* **Description:** Integrate a multiplayer-capable game engine that runs on the web browser (eg. Unity WebGL, Phaser, Three.js) with Rocket.Chat. Let room members start small multiplayer games and play with each other.
+* **Description:** Integrate a multiplayer-capable game engine that runs on the web browser (eg. Unity WebGL, Phaser, Three.js) with Rocket.Chat. Let room members start small multiplayer games and play together.
 * **Desirable Skills:** Experienced with JavaScript, web browser game engines, and networking.
