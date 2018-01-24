@@ -1,12 +1,13 @@
 language: ruby
 rvm:
   - 2.2
+sudo: false
+exclude: [vendor]
 branches:
   only:
   - master
 install:
   - bundle install --jobs=3 --retry=3 --deployment
 script:
-  - ls
   - bundle exec "jekyll serve --incremental --safe"
   - bundle exec "rake check_links"
