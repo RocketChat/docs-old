@@ -3,15 +3,15 @@ rvm:
   - 2.2
 sudo: false
 
-exclude:
-- Gemfile.lock
-- vendor
 
 branches:
   only:
   - master
 install:
   - bundle install --jobs=3 --retry=3 --deployment
+exclude:
+- Gemfile.lock
+- vendor
 script:
   - bundle exec "jekyll serve --incremental --safe"
   - bundle exec "rake check_links"
