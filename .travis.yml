@@ -2,7 +2,11 @@ language: ruby
 rvm:
   - 2.2
 sudo: false
-exclude: [vendor]
+
+exclude:
+- Gemfile.lock
+- vendor
+
 branches:
   only:
   - master
