@@ -6,6 +6,9 @@ sudo: false
 branches:
   only:
   - master
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 install:
   - bundle install --jobs=3 --retry=3 --deployment
 before_script:
