@@ -47,7 +47,7 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 ### Scaling to the edge of dreams   
 * **Mentors:** TBD
 * **Description:** Assist Rocket.Chat’s scalability engineers to scale Rocket.Chat to the next level.  From tens of thousands of active connections, to hundreds of thousands to millions, to world-scale.
-* **Desirable Skills:** We are looking for an enthusiastic undergraduate, already enrolled for masters or PhD work in a cluster computing or scalability discipline to join us for an exciting summer of hands-on practical fun.   Working alongside our scalability expert – you will devise and test out various performance and scalability enhancements for Rocket.Chat’s deployment configurations.  You will be able to practice everything you have learnt so far in your under-graduate study, pushes beyond their limits, with a real production clustered server project – having your work impacting thousands of global users – all within the span of a single summer.
+* **Desirable Skills:** We are looking for an enthusiastic undergraduate, planning to enroll or already enrolled for masters or PhD work in a cluster computing or scalability discipline to join us for an exciting summer of hands-on practical fun.   Working alongside our scalability expert – you will devise and test out various performance and scalability enhancements for Rocket.Chat’s deployment configurations.  You will be able to practice everything you have learnt so far in your under-graduate study, pushes beyond their limits, with a real production clustered server project – having your work impacting thousands of global users – all within the span of a single summer.
 
 ### LiveChat Reports and Analytics
 * **Mentors:** TBD
