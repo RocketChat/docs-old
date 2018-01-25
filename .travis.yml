@@ -9,7 +9,7 @@ branches:
   - master
 install:
   - bundle install --jobs=3 --retry=3 --deployment
-before_script: 
-  - chmod +x ./script/cibuild.sh
+before_script:
+  - bundle exec "jekyll serve --incremental --safe"
 script:
-  - ./script/cibuild.sh
+  - bundle exec "rake check_links"
