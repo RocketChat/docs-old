@@ -11,5 +11,4 @@ install:
   - bundle install --jobs=3 --retry=3 --deployment
 before_script:
 script:
-  - bundle exec "jekyll serve --incremental --safe" &
-  - bundle exec "rake check_links"
+  - bundle exec "jekyll serve --incremental --safe" & bundle exec "rake check_links"
