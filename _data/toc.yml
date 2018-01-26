@@ -282,8 +282,6 @@
         - users
       - Miscellaneous:
         - info
-      - Subscriptions:
-        - read
       - Settings:
         - get
         - update
