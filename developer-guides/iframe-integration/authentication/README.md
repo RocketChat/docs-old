@@ -71,7 +71,7 @@ After user login, you should tell to Rocket.Chat to try the auth again calling y
 ```javascript
 window.parent.postMessage({
   event: 'try-iframe-login'
-});
+}, 'http://example.rocketchat.origin.com');
 ```
 
 Or you can call the login directly if you already have the token:
@@ -79,14 +79,14 @@ Or you can call the login directly if you already have the token:
 window.parent.postMessage({
   event: 'login-with-token',
   token: 'your-token'
-});
+}, 'http://example.rocketchat.origin.com');
 ```
 or passing the **loginToken** (the native login token from meteor, you can generate one using any login method, including via [REST API](https://rocket.chat/docs/developer-guides/rest-api/#logon))
 ```javascript
 window.parent.postMessage({
   event: 'login-with-token',
   loginToken: 'your-token'
-});
+}, 'http://example.rocketchat.origin.com');
 ```
 
 You can call our OAuth services too, to do that you need to enable and configure each OAuth service on Rocket.Chat admin page and then you can call the services:
@@ -97,7 +97,7 @@ You will receive the OAuth information, you should manage the user creationg/aut
 window.parent.postMessage({
   event: 'call-facebook-login',
   permissions: ['email']
-});
+}, 'http://example.rocketchat.origin.com');
 ```
 
 The reply will be a postMessage back to your page with:
@@ -132,7 +132,7 @@ window.parent.postMessage({
   event: 'call-google-login',
   //  scopes: 
   //  webClientId: 
-});
+}, 'http://example.rocketchat.origin.com');
 ```
 
 The reply will be a postMessage back to your page with:
@@ -165,7 +165,7 @@ Or an error
 ```javascript
 window.parent.postMessage({
   event: 'call-twitter-login'
-});
+}, 'http://example.rocketchat.origin.com');
 ```
 
 The reply will be a postMessage back to your page with:
