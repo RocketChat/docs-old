@@ -16,11 +16,9 @@ curl -H "X-Auth-Token: 6eWs4ECxUITYYoZ_bAYK5OE2srkxAepQqQA1cGGv3jK" \
 
 ## Query Parameters
 
-```
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `query` | `john` | Required | The term to be searched |
-```
 
 ## Example Result
 
