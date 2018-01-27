@@ -2,6 +2,8 @@
 
 Searches for users or rooms that are visible to the user.
 
+WARNING: It will only return rooms that user didn't join yet.
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/spotlight` | `yes` | `GET` |
