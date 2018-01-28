@@ -154,3 +154,8 @@ Different APIs can be proposed as a possible change of scope.
 * **Description:** Integrate an Open Source speech to text engine to be used inside Rocket.Chat by users who prefer an On-Premise full featured installation. There are many opensource speech2text engines on the market, like CMUSphinx and pocketsphinxjs, annyang, JuliusJS, Mumble, Voix JS, voice-commands.js and Artyon.js. This project will include a feature matrix comparison between those engines and the best one to be implemented in Rocket.Chat bundle, giving the UI the ability to click a button, record a message, send it to the text2speech engine and return the results to Rocket.Chat editing message box.
 * **Desirable Skills:** Familiarity with JavaScript development and speech2text techniques.
 
+### Calendar Integration
+* **Mentors:** Mrinal Dhar (@mrinaldhar)
+* **Description:** Implement a calendar inside Rocket.Chat for scheduling events and reminders, offering standalone functionality as well as integration with other calendars out there (Google Calendar, for example). Also implement AI based automatic event detection from messages, and other advanced scheduling features.
+* **Desirable Skills:** Familiarity with JavaScript development.
+
