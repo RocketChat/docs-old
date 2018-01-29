@@ -80,7 +80,7 @@
       <div class="toc-wrapper">
         {% include toc.html %}
       </div>
-      <div id="content" class="content">
+      <div id="content" class="content" {%if page.ignoreLinks%}data-proofer-ignore{% endif %}>
         <div class="wrapper">
           {{ content }}
           <div class="edit-github"><a href="https://github.com/RocketChat/docs/blob/master{{page.url}}README.md">Edit this page on GitHub</a></div>

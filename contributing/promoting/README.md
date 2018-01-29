@@ -23,7 +23,6 @@ And vote for us on all these various polls and contests:
 
 * [GitHub](https://github.com/RocketChat/Rocket.Chat)
 * [ProductHunt](http://www.producthunt.com/tech/rocket-chat)
-* [Bitnami](https://bitnami.com/contest/applications/13576/vote/now)
 * [Slant](http://www.slant.co/topics/3346/~what-are-the-best-on-site-alternatives-to-slack)
 * [StackShare](http://stackshare.io/stackups/lets-chat-vs-rocketchat-vs-mattermost)
 * [Reddit](https://redd.it/3hbdrc)

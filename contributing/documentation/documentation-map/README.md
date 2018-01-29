@@ -72,14 +72,14 @@ Here you can also find what articles are incomplete and missing.
         - MacOSX
         - Multiple Instances to Improve Performance
         - OpenSUSE
-        - <span class="incomplete">[RedHat](../missing-and-outdated-list/#RedHat)</span>
+        - <span class="incomplete">[RedHat](../missing-and-outdated-list/index.html#redhat)</span>
 
         - Ubuntu:
             - Snaps:
                 - AutoSSl
         - Windows 10 Pro
         - Windows Server:
-            - <span class="incomplete">[Releases](../missing-and-outdated-list/#Releases)</span>
+            - <span class="incomplete">[Releases](../missing-and-outdated-list/index.html#releases)</span>
         - Configuring SSL Reverse Proxy
         - PM2, Systemd, Upstart
         - Running in a sub folder
@@ -88,7 +88,7 @@ Here you can also find what articles are incomplete and missing.
         - Openshift
         - Vagrant
     - Mobile and Desktop Apps
-    - <span class="incomplete">[Updating](../missing-and-outdated-list/#Updating)</span>
+    - <span class="incomplete">[Updating](../missing-and-outdated-list/index.html#updating)</span>
         - From 0.x.x to 0.40.0
     - Minimum Requirements
 - User guides:
@@ -99,20 +99,20 @@ Here you can also find what articles are incomplete and missing.
     - Messaging
     - Channel Actions
     - Managing your Account
-    - <span class="incomplete">[Voice and Video Calls](../missing-and-outdated-list/#Voice and Video Calls)</span>
-    - <span class="missing">[ScreenSharing](../missing-and-outdated-list/#ScreenSharing)</span>
+    - <span class="incomplete">[Voice and Video Calls](../missing-and-outdated-list/index.html#voice-and-video-calls)</span>
+    - <span class="missing">[ScreenSharing](../missing-and-outdated-list/index.html#screensharing)</span>
 - Administrator guides:
     - Account Settings
-    - <span class="missing">[Analytics](../missing-and-outdated-list/#Analytics)</span>
+    - <span class="missing">[Analytics](../missing-and-outdated-list/index.html#analytics)</span>
     - Authentication:
         - CAS
         - Ldap
-        - <span class="incomplete">[Oauth](../missing-and-outdated-list/#Oauth)</span>
+        - <span class="incomplete">[Oauth](../missing-and-outdated-list/index.html#oauth)</span>
         - SAML
-        - <span class="missing">[WordPress](../missing-and-outdated-list/#WordPress)</span>
-    - <span class="missing">[Customizing the UI](../missing-and-outdated-list/#Customizing the UI)</span>:
-        - <span class="missing">[Layout](../missing-and-outdated-list/#Layout)</span>
-        - <span class="missing">[Assets](../missing-and-outdated-list/#Assets)</span>
+        - <span class="missing">[WordPress](../missing-and-outdated-list/index.html#WordPress)</span>
+    - <span class="missing">[Customizing the UI](../missing-and-outdated-list/index.html#Customizing-the-UI)</span>:
+        - <span class="missing">[Layout](../missing-and-outdated-list/index.html#Layout)</span>
+        - <span class="missing">[Assets](../missing-and-outdated-list/index.html#Assets)</span>
     - Database-Migration
     - Email:
         - Setup
@@ -122,16 +122,16 @@ Here you can also find what articles are incomplete and missing.
     - File Upload:
         - Amazon S3
         - Minio
-        - <span class="missing">[GridFS](../missing-and-outdated-list/#GridFS)</span>
-        - <span class="missing">[Local File System](../missing-and-outdated-list/#Local File System)</span>
-    - <span class="missing">[General Settings](../missing-and-outdated-list/#General Settings)</span>
-        - <span class="missing">[General Section](../missing-and-outdated-list/#General Section)</span>
-        - <span class="missing">[Message Section](../missing-and-outdated-list/#Message Section)</span>
+        - <span class="missing">[GridFS](../missing-and-outdated-list/index.html#GridFS)</span>
+        - <span class="missing">[Local File System](../missing-and-outdated-list/index.html#Local-File-System)</span>
+    - <span class="missing">[General Settings](../missing-and-outdated-list/index.html#General-Settings)</span>
+        - <span class="missing">[General Section](../missing-and-outdated-list/index.html#General-Section)</span>
+        - <span class="missing">[Message Section](../missing-and-outdated-list/index.html#Message-Section)</span>
     - Hubot
     - Import:
         - CSV
         - HipChat:
-            - <span class="incomplete">[Cloud](../missing-and-outdated-list/#Cloud)</span>
+            - <span class="incomplete">[Cloud](../missing-and-outdated-list/index.html#hipchat-cloud)</span>
             - Enterprise
         - Slack:
             - SlackBridge
@@ -160,13 +160,13 @@ Here you can also find what articles are incomplete and missing.
         - Travis CI
         - Trello
         - uptimerobot
-    - <span class="missing">[Internal Hubot](../missing-and-outdated-list/#Internal Hubot)</span>
+    - <span class="missing">[Internal Hubot](../missing-and-outdated-list/index.html#Internal-Hubot)</span>
     - Jitsi Video Bridge
     - Livechat:
         - Livechat Queues
     - Notifications:
         - Push Notifications
-    - <span class="incomplete">[Permissions](../missing-and-outdated-list/#Permissions)</span>
+    - <span class="incomplete">[Permissions](../missing-and-outdated-list/index.html#Permissions)</span>
     - Plug-ins:
         - Drupal
         - Pidgin
@@ -175,12 +175,12 @@ Here you can also find what articles are incomplete and missing.
     - Quick Start
     - Branches and Releases
     - Code Styleguide:
-        - <span class="incomplete">[Less](../missing-and-outdated-list/#Less)</span>
+        - <span class="incomplete">[Less](../missing-and-outdated-list/index.html#Less)</span>
     - Iframe Integration:
-        - <span class="missing">[Authentication](../missing-and-outdated-list/#Authentication)</span>
+        - <span class="missing">[Authentication](../missing-and-outdated-list/index.html#Authentication)</span>
         - Commands
         - Events
-    - <span class="missing">[Internationalization](../missing-and-outdated-list/#Internationalization)</span>
+    - <span class="missing">[Internationalization](../missing-and-outdated-list/index.html#Internationalization)</span>
     - Livechat API
     - Mobile Apps
     - Realtime-API:
@@ -332,7 +332,7 @@ Here you can also find what articles are incomplete and missing.
             - update
         - Offset and Count and Sort Info
         - Query and Fields Info
-        - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema Definition)</span>
+        - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
         - <span class="incomplete">[Testing](../missing-and-outdated-list#Testing)</span>
         - Troubleshooting
         - UI and Theming:

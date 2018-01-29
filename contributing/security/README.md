@@ -1,3 +1,6 @@
+---
+ignoreLinks: true
+---
 # Security
 
 First of all, thank you in advance for taking the time and effort to help us improve the security of Rocket.Chat! We are committed to delivering an awesome and secure chat solution for, and aided by, our community.

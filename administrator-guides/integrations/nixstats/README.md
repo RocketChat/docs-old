@@ -63,8 +63,8 @@ Add Nixstats notifications via a new WebHook in Rocket.Chat
 2. Choose Outgoing WebHook
 3. Select **Message Sent** as Event trigger
 4. Enter **ns** as trigger word
-5. Enter **<https://api.eu.nixstats.com/v1/>** as URLs
-6. Avatar URL **<https://nixstats.com/images/favicon.png>**
+5. Enter `<https://api.eu.nixstats.com/v1/>` as URLs
+6. Avatar URL `<https://nixstats.com/images/favicon.png>`
 7. **Token**, this is your nixstats API token, [create an API key](https://nixstats.com/settings/api).
 8. Script Enabled set to **True**
 

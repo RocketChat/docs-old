@@ -44,7 +44,7 @@ To setup Minio as the file storage server in Rocket.Chat, go to `File Uploads` s
 | Access Key | Minio server Access Key |
 | Secret Key | Minio server Secret Access Key |
 | Region |  us-east-1 |
-| Bucket URL | <http://[your.minio.domain/bucketname]> |
+| Bucket URL | `http://[your.minio.domain/bucketname]` |
 | Signature Version | v2 (This may not be needed if using ssl) |
 | Force Path Style | true (this may not be needed if using ssl) |
 | URLs expiration time | 0 (if you want that your files don't have an expiry date) |

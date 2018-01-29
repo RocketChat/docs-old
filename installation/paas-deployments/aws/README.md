@@ -98,7 +98,7 @@ This guide covers the following:
     - Backup the default config file for reference:
     `cd /etc/nginx/sites-available`
     `sudo mv default default.reference`
-    - Create a new file with the following contents. Replace <ABC.DOMAIN.COM> with your domain (it appears 4 times below). Make sure to update it in the path to your key files as well.
+    - Create a new file with the following contents. Replace `ABC.DOMAIN.COM` with your domain (it appears 4 times below). Make sure to update it in the path to your key files as well.
 
    `sudo nano /etc/nginx/sites-available/default`
 

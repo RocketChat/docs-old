@@ -10,8 +10,6 @@ See the [theme variables file](https://github.com/RocketChat/Rocket.Chat/blob/de
 
 ## Color Scheme
 
-> NB: The documentation below refers to color usage as it exists in [a development branch](https://github.com/RocketChat/Rocket.Chat/tree/timkinnane-pr/color-fixes) that has not yet been merged with any production release.
-
 The Rocket.Chat color scheme consists of three groups of color settings, Alpha, Major and Minor Colors.
 
 Some further variations of these colors are created in Less and not exposed to settings.
@@ -62,11 +60,7 @@ A set of minor colors for specific use cases will inherit from the major colors 
 * status-busy _defaults to error-color_   
 * status-offline _defaults to transparent-darker_
 
-### Mixins, Computed Colors and Dark UI
-
-Some handy [Less mixins](https://github.com/RocketChat/Rocket.Chat/blob/master/packages/rocketchat-theme/server/lesshat.less) provide shortcuts for coloring properties and states of components like buttons, links and inputs.
-
-When [colors are imported from settings](https://github.com/RocketChat/Rocket.Chat/blob/develop/packages/rocketchat-theme/assets/stylesheets/utils/_colors.import.less), some extra variables are created for backgrounds, borders and contrasts, based on color settings.
+### Dark UI
 
 The computed colors allows owners to choose a **dark UI** with appropriate contrast. e.g. in a light UI, the disabled state might darken an element, but on a dark UI it should be lightened. The mixins achieve this by mixing the color with a contrast of the background color instead of using darken/lighten. See [this example](https://codepen.io/owlandfox/pen/EyJROO) of form input states that dynamically contrast to both dark and light backgrounds.
 

@@ -74,7 +74,7 @@ The following are the Rocket.Chat projects that our new team members are working
 * [Android SDK](https://github.com/RocketChat/Rocket.Chat.Android.SDK)
 * [Java SDK](https://github.com/RocketChat/Rocket.Chat.Java.SDK)
 * [PWA](https://github.com/RocketChat/Rocket.Chat.PWA)
-* [Federation](https://github.com/RocketChat/Rocket.Chat.Federation/tree/tsmatrixlib/tsmatrixserverlib)
+* [Federation](https://github.com/RocketChat/Rocket.Chat.Federation/)
 
 After the evaulation, we have made sure that they all have received the first stipend payment - especially the students under Rocket.Chat's sponsorship.  
 

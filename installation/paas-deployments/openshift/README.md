@@ -12,7 +12,7 @@ documentation in OpenShift website.
 
 1. [Login](#1-login)
 2. [Create a project](#2-create-a-project)
-3. [Import the ImageStream and templates](#3-import-the-imagestram-and-templates)
+3. [Import the ImageStream and templates](#3-import-the-imagestream-and-templates)
 4. [Create the app](#4-create-the-app)
 
 ## 1. Login
