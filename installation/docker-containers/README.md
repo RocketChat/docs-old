@@ -31,7 +31,6 @@ This guide is written assuming that you're starting with:
 
 - a clean new installation of Ubuntu 14.04 (64 bit)
 - properly configured DNS that resolves requests to your domain name
-- b
 
 ---
 
