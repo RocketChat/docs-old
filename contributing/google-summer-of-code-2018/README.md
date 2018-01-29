@@ -155,7 +155,14 @@ Different APIs can be proposed as a possible change of scope.
 * **Desirable Skills:** Familiarity with JavaScript development and speech2text techniques.
 
 ### Calendar Integration
-* **Mentors:** Mrinal Dhar (@mrinaldhar)
-* **Description:** Implement a calendar inside Rocket.Chat for scheduling events and reminders, offering standalone functionality as well as integration with other calendars out there (Google Calendar, for example). Also implement AI based automatic event detection from messages, and other advanced scheduling features.
-* **Desirable Skills:** Familiarity with JavaScript development.
+* **Mentors:** Mrinal Dhar (@mrinal.dhar)
+* **Description:** Implement a calendar within Rocket.Chat for scheduling events and reminders, offering standalone functionality as well as integration with other calendars out there (Google Calendar, for example). Desirable features: 
+    * Ability to schedule events and set up alerts for them.
+    * Automatically detect dates and time from messages and allow creating events from them. For example: In the message "Lets meet tomorrow", "tomorrow" should be automatically highlighted and user can then schedule an event by clicking on it. 
+    * In a conversation, allow each user to select preferred time-slots and automatically schedule an event based on everyone's preferences.
+    * A consolidated events view that lists all scheduled events for a particular day, week or month. 
+    * Integration with Google Calendar
+    * Ability to search for an event
+
+* **Desirable Skills:** Familiarity with JavaScript development required. Previous experience with NLP (Natural Language Processing) or AI (Artificial Intelligence) would be helpful.
 
