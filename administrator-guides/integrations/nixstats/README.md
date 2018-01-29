@@ -6,7 +6,7 @@ Add Nixstats notifications via a new WebHook in Rocket.Chat
 2. Choose Incoming WebHook
 3. Follow all instructions like Enable, give it a name, link to channel etc. Set "Enable Script" to true and enter the javascript in the "Script" box
 4. Press Save changes and copy the *Webhook URL* (added just below the script box)
-5. Go to nixstats.com -> Settings -> Notification Contacts -> Add (or Edit a contact) contact
+5. Go to <https://nixstats.com> -> Settings -> Notification Contacts -> Add (or Edit a contact) contact
 6. Paste the Rocket.Chat url you've copied in step 4
 
 Paste this javascript in the "Script" textarea on Rocket.Chat webhook settings
@@ -180,8 +180,8 @@ After saving the data you can use the following commands to retrieve data.
 
 `ns servers list` to list your servers with their ID's and load average.
 
-<img src="https://raw.github.com/NIXStats/Nixstats-integrations/blob/master/rocketchat/serverlist.png" data-canonical-src="graphs.png" width="400" />
+<img src="https://github.com/NIXStats/Nixstats-integrations/blob/master/rocketchat/serverlist.png" data-canonical-src="graphs.png" width="400" />
 
 `ns graphs [serverid]` to retrieve a graph of Memory, Network, Load average and Disk usage of the specified server.
 
-<img src="https://raw.github.com/NIXStats/Nixstats-integrations/blob/master/rocketchat/graphs.png" data-canonical-src="graphs.png" width="400" />
+<img src="https://github.com/NIXStats/Nixstats-integrations/blob/master/rocketchat/graphs.png" data-canonical-src="graphs.png" width="400" />
