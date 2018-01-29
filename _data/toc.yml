@@ -29,6 +29,7 @@
     - Scalingo
     - Sloppy.io
     - WeDeploy
+    - D2C.io
   - Docker containers:
     - Generic Linux
     - systemd
