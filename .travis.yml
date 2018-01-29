@@ -13,4 +13,4 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 script:
   - bundle exec mdl ./ -i -g
-  - bundler exec "rake test"
+  - bundle exec "rake test"
