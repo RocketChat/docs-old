@@ -9,13 +9,13 @@ You can use Rocket.Chat to remotely monitor one or more (10s, 100s, or even 1000
 
 Applications:
 
-* home monitoring while on vacations (from cell phone or Internet Cafe)
-* baby monitoring
-* building surveillance
-* assembly line quality assurance
-* industrial control monitoring
-* global/regional crisis/emergency center or medical monitoring
-* ... many more
+- home monitoring while on vacations (from cell phone or Internet Cafe)
+- baby monitoring
+- building surveillance
+- assembly line quality assurance
+- industrial control monitoring
+- global/regional crisis/emergency center or medical monitoring
+- ... many more
 
 #### What you need
 
@@ -32,7 +32,6 @@ This application really shows off the telecom lineage of webrtc -- Rocket.Chat a
 #### Getting started
 
 You should be relatively familiar with Rocket.Chat's video chat capabilities before attempting to try this feature.
-
 
 ##### Install in-band driver
 
@@ -59,8 +58,8 @@ At each location, on a machine with supported camera, logon as the location user
 Click on the top right arrow to open the flex window.   You will see THREE buttons:
 
 1. VIDEO CHAT
-1. REMOTE
-1. SETUP
+2. REMOTE
+3. SETUP
 
 Click on the `SETUP` button. Your browser will ask for permission to share camera and mic, allow it. This starts live video in the smaller window.
 

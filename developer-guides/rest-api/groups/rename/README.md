@@ -1,4 +1,5 @@
 # Group Rename
+
 Changes the name of the private group.
 
 | URL | Requires Auth | HTTP Method |

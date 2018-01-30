@@ -2,7 +2,6 @@
 
 This API is intended to be used for having a livechat conversation;
 
-
 - First of all you need to generate a visitor token (any random string);
 - Call [livechat:getInitialData](getinitialdata/) passing `visitorToken` as first argument, the response will be an object containing a livechat [configuration object](getinitialdata/#response) with following properties:
 

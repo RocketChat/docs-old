@@ -28,13 +28,12 @@ This app is a shim.  It presents a screen to collect the server URL of your choi
 
 In addition, this app replaces your Android device's webview with an up-to-date webview from the crosswalk-project.  This enables devices with old Android versions, as far back as 4.0, to run Rocket.Chat.
 
-
 ### Requirements
 
 Since this app is built with Cordova, the same requirements apply:
 
-- __Node.js__
-- __Android SDK__:
+- **Node.js**
+- **Android SDK**:
     - This tool will not work unless you have the absolute latest updates for all Android SDK components.
     - Also you will need the SDK's tools and platform-tools directories on your system path otherwise Android support will fail.
 
@@ -42,13 +41,12 @@ Since this app is built with Cordova, the same requirements apply:
 
     $ sudo npm install -g cordova
 
-Additional information here: https://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html
+Additional information here: <https://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html>
 
 ### Install dependencies
 
     $ sudo npm install -g underscore
     $ sudo npm install -g coffee
-
 
 ### Get the App
 
@@ -74,7 +72,7 @@ In theory this is as simple as:
 
 But if you get some errors (which seems kinda normal), make sure you have installed the SDK or tools in the Requirements section. Even though meteor may install it's own version of the SDK or tools, you still need the standalone version installed and the environment variables set for the Cordova build to succeed.
 
-__NOTE__: for android build, this Cordova build only supports android-22 target which is Android 5.1.1.  NO OTHER target is supported at this time.  Please make sure you have SDK Platform, SDK build tools for API 22 installed.
+**NOTE**: for android build, this Cordova build only supports android-22 target which is Android 5.1.1.  NO OTHER target is supported at this time.  Please make sure you have SDK Platform, SDK build tools for API 22 installed.
 
 If there are a lot of `cannot find module` build problems, try adding and removing the cordova android platform:
 
@@ -120,4 +118,3 @@ Follow the instructions [of the docker image](https://hub.docker.com/r/rocketcha
 ### Additional Information
 
 Check out the [How to submit your Android app to the Play Store](https://github.com/meteor/meteor/wiki/How-to-submit-your-Android-app-to-Play-Store) guide on the Meteor Wiki for additional information.
-

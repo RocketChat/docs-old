@@ -38,6 +38,7 @@ Here you can also find what articles are incomplete and missing.
     - Translating
 - Getting Support
 - Installation:
+
     - Rocket.Chat Cloud
     - PaaS Deployments:
         - Aliyun
@@ -65,6 +66,7 @@ Here you can also find what articles are incomplete and missing.
         - Available Images
         - Docker Compose
     - Manual Installation:
+
         - CentOS
         - Debian
         - FreeBSD:
@@ -83,6 +85,7 @@ Here you can also find what articles are incomplete and missing.
         - Configuring SSL Reverse Proxy
         - PM2, Systemd, Upstart
         - Running in a sub folder
+
     - Automation tools:
         - Ansible
         - Openshift
@@ -91,6 +94,7 @@ Here you can also find what articles are incomplete and missing.
     - <span class="incomplete">[Updating](../missing-and-outdated-list/index.html#updating)</span>
         - From 0.x.x to 0.40.0
     - Minimum Requirements
+
 - User guides:
     - Connecting to a Server
     - Registration
@@ -340,5 +344,4 @@ Here you can also find what articles are incomplete and missing.
         - Components
         - Themes
 - Community Cookbook:
-  - Remote Video Monitoring
-
+    - Remote Video Monitoring
