@@ -163,7 +163,7 @@ server {
 
 Now restart Nginx: ```service nginx restart```
 
-Visit <https://your_hostname.com> just as before the update. **Ooh, so fast!**
+Visit `https://your_hostname.com` just as before the update. **Ooh, so fast!**
 
 To confirm you're actually using both services like you'd expect, you can stop one rocketchat
 service at a time and confirm that chat still works. Restart that service and stop the other.

@@ -243,7 +243,7 @@ ufs: temp directory created at "/tmp/ufs"
 ➔ +--------------------------------------------------------+
 ```
 
-... and that's Rocket.Chat all set. Direct a browser to <https://YOUR.SERVER.NAME> and register a yourself as new user. The first user you register will be made the server admin.
+... and that's Rocket.Chat all set. Direct a browser to `https://YOUR.SERVER.NAME` and register a yourself as new user. The first user you register will be made the server admin.
 
 ## Sources
 

@@ -261,6 +261,6 @@ This guide covers the following:
 
 ### 10. Use it
 
-1. Login to your site at <https://ABC.DOMAIN.COM>
+1. Login to your site at `https://ABC.DOMAIN.COM`
     - Note: the first user to login will be an administrator
 2. You can then use the native apps to connect to your Rocket.Chat server.
