@@ -359,13 +359,13 @@ Fenced code blocks should be surrounded by blank lines.
 **Wrong**:
 
     Some text
-    ```
+    `` `
     Code block
-    ```
+    `` `
 
-    ```
+    `` `
     Another code block
-    ```
+    `` `
     Some more text
 
 **Correct**:

@@ -6,7 +6,7 @@
 
 See the [theme variables file](https://github.com/RocketChat/Rocket.Chat/blob/develop/packages/rocketchat-theme/server/variables.js) for current available color settings. All color settings are available to Less files as variables, as long as the Less files were compiled using the `addPackageAsset` method of `rocketchat-theme`.
 
----
+- - -
 
 ## Color Scheme
 
@@ -66,7 +66,7 @@ The computed colors allows owners to choose a **dark UI** with appropriate contr
 
 Developers are encouraged to use mixins and computed colors in contributions instead of hard-coding variations, to maintain consistent balance and contrasts of colors regardless how the scheme settings may be changed by owners.
 
----
+- - -
 
 ## Default Colors
 

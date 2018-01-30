@@ -4,7 +4,7 @@ Theming for Rocket.Chat is an incomplete feature and we encourage developers to 
 
 To customize the Rocket.Chat UI you can either modify the `rocketchat-theme` or `rocketchat-ui` packages directly, but if you're keeping in sync with active development it would be easier to avoid conflicts by creating your own theme package.
 
----
+- - -
 
 ## Creating a Theme
 
@@ -32,7 +32,7 @@ Then include dependent packages and your custom theme files. e.g:
         ]);
         api.use('templating', 'client');
 
----
+- - -
 
 ## Adding Stylesheets
 
@@ -51,7 +51,7 @@ Then in `server.coffee`...
 
 That will read in any styles and variables from your custom less file and compile it with the rest of the css.
 
----
+- - -
 
 ## Adding and Modifying Templates
 

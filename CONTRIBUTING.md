@@ -24,7 +24,7 @@ All missing/incomplete articles are links to a list with the description of each
 You can find a list of issues [here](https://github.com/RocketChat/Rocket.Chat.Docs/issues).
 When you find something you would like to work on just comment on it and we will add an __In Progress__ label.
 
----
+- - -
 
 ## Creating a new Pull Request
 
@@ -77,7 +77,7 @@ If you add a page called `Testing Rocket.Chat Apps`, it will be converted to `te
 
 All words will be lowercased, spaces will be replaced with a `-` and any special character will be removed (like the `.` on `Rocket.Chat`)
 
----
+- - -
 
 ## Reporting Issues and Missing Articles
 

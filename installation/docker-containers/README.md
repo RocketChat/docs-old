@@ -32,7 +32,7 @@ This guide is written assuming that you're starting with:
 - a clean new installation of Ubuntu 14.04 (64 bit)
 - properly configured DNS that resolves requests to your domain name
 
----
+- - -
 
 ## 1. Securing the server: Firewall basics (optional, recommended)
 
@@ -84,7 +84,7 @@ sudo ufw reload
 sudo ufw disable
 ```
 
----
+- - -
 
 ## 2. Securing the server: Fail2ban (optional, recommended)
 
@@ -100,7 +100,7 @@ sudo apt-get install fail2ban
 
 Pre
 
----
+- - -
 
 ## 3. Installing Docker and Docker-Compose
 
@@ -127,7 +127,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo docker-compose --version
 ```
 
----
+- - -
 
 ## 4. Editing the hosts file
 
@@ -146,7 +146,7 @@ sudo nano /etc/hosts
 
 Sav
 
----
+- - -
 
 ## 5. Installing Nginx & SSL certificate
 
@@ -182,7 +182,7 @@ Open the SSL Certificate provided by the SSL vendor (will probably have a .crt o
 
 Sav
 
----
+- - -
 
 ### 5b. Self-Signed SSL
 
@@ -200,7 +200,7 @@ Tip: It is important that the Common Name be set properly. Enter your fully qual
 
 Sav
 
----
+- - -
 
 ### 5c. Set Key Permissions, Dhparams, Configure NGINX
 
@@ -273,7 +273,7 @@ sudo service nginx configtest && sudo service nginx restart
 sudo nginx -t
 ```
 
----
+- - -
 
 ## 6. Create the docker-compose.yml file & local directories
 
@@ -332,7 +332,7 @@ hubot:
 
 Sav
 
----
+- - -
 
 ## 7. Automatic Startup & Crash Recovery
 
@@ -392,7 +392,7 @@ end script
 
 Sav
 
----
+- - -
 
 ## 8. Reboot and Status check
 
@@ -451,7 +451,7 @@ _Great! I'm in, but the bot is nowhere to be seen!_
 
 No
 
----
+- - -
 
 ## 9. Registering & Configuring Hubot, the chat robot
 
@@ -471,7 +471,7 @@ With the bot account registered, you can force it to join by simply rebooting th
 
 For
 
----
+- - -
 
 ## 10. Troubleshooting & FAQ
 
@@ -508,7 +508,7 @@ sudo ufw status
 **Check your SSL installation**
 <ht
 
----
+- - -
 
 **PROBLEM:**
 _I rebooted and waited forever for docker to download everything and start the chat room. NOTHING happened. It's like it didn't even try!_
@@ -541,7 +541,7 @@ cd /var/www/rocket.chat
 
 If
 
----
+- - -
 
 **PROBLEM:**
 _When I upload a file the server crashes!_
@@ -555,13 +555,13 @@ sudo TOP
 
 Wit
 
----
+- - -
 
 ## 11. TODO
 
 - A
 
----
+- - -
 
 ## 12. KNOWN ISSUES
 
