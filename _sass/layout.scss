@@ -150,6 +150,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 10;
 
   .wrapper {
     line-height: 28px;
@@ -226,6 +227,43 @@ header {
       outline: none;
       border: 1px solid #999;
     }
+  }
+
+  &.home {
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    .algolia-autocomplete{
+      width: 100%
+    }
+
+    input {
+      border-radius: 3px;
+      background-color: #f6f7f9;
+      color: #000;
+      width: 100%;
+      height: 40px;
+    }
+    .icon {
+      filter: invert(100%);
+      margin-top: 0;
+      margin-left: 8px
+    }
+
+    ::-webkit-input-placeholder {
+      color: #aaa;
+    }
+    ::-moz-placeholder {
+      color: #aaa;
+    }
+    :-ms-input-placeholder {
+      color: #aaa;
+    }
+    :-moz-placeholder {
+      color: #aaa;
+    }
+
   }
 
   ::-webkit-input-placeholder {
@@ -345,8 +383,7 @@ footer {
 
 .project-list {
   display: grid;
-  grid-template-columns: 40% 40%;
-  grid-column-gap: 10%;
+  grid-template-columns: 50% 50%;
   margin-bottom: 15px;
 }
 
@@ -355,10 +392,10 @@ footer {
   flex-direction: column;
   background-color: #f6f7f9;
   padding: 15px 20px;
-  margin: 15px 0;
+  margin: 15px auto;
   height: 250px;
   justify-content: space-between;
-  max-width: 400px;
+  width: 40%;
 }
 
 .home-header {
@@ -448,7 +485,7 @@ footer {
 
   }
 
-  .search{
+  .search:not(.home){
     margin: 0;
     input {
       width: 0px;
