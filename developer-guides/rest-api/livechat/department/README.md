@@ -2,9 +2,9 @@
 
 Get a list of departments.
 
-| URL | Requires Auth | HTTP Method |
-| :--- | :--- | :--- |
-| `/api/v1/livechat/department` | `yes` | `GET` |
+| URL                           | Requires Auth | HTTP Method |
+| :---------------------------- | :------------ | :---------- |
+| `/api/v1/livechat/department` | `yes`         | `GET`       |
 
 ## Example Call
 
@@ -36,14 +36,14 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Change Log
 
 | Version | Description |
-| :--- | :--- |
-| 0.42.0 | Added |
+| :------ | :---------- |
+| 0.42.0  | Added       |
 
-# Register a new department
+## Register a new department
 
-| URL | Requires Auth | HTTP Method |
-| :--- | :--- | :--- |
-| `/api/v1/livechat/department` | `yes` | `POST` |
+| URL                           | Requires Auth | HTTP Method |
+| :---------------------------- | :------------ | :---------- |
+| `/api/v1/livechat/department` | `yes`         | `POST`      |
 
 ## Example payload
 
@@ -105,20 +105,20 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Change Log
 
 | Version | Description |
-| :--- | :--- |
-| 0.42.0 | Added |
+| :------ | :---------- |
+| 0.42.0  | Added       |
 
-# Get info about a department
+## Get info about a department
 
-| URL | Requires Auth | HTTP Method |
-| :--- | :--- | :--- |
-| `/api/v1/livechat/department/:_id` | `yes` | `GET` |
+| URL                                | Requires Auth | HTTP Method |
+| :--------------------------------- | :------------ | :---------- |
+| `/api/v1/livechat/department/:_id` | `yes`         | `GET`       |
 
 ## Payload
 
-| Argument | Example | Required | Description |
-| :--- | :--- | :--- | :--- |
-| `_id` | `SQafHvoFPuB57NmBD` | Required | The department `_id`. |
+| Argument | Example             | Required | Description           |
+| :------- | :------------------ | :------- | :-------------------- |
+| `_id`    | `SQafHvoFPuB57NmBD` | Required | The department `_id`. |
 
 ## Example Call
 
@@ -159,20 +159,20 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Change Log
 
 | Version | Description |
-| :--- | :--- |
-| 0.42.0 | Added |
+| :------ | :---------- |
+| 0.42.0  | Added       |
 
-# Update a department
+## Update a department
 
-| URL | Requires Auth | HTTP Method |
-| :--- | :--- | :--- |
-| `/api/v1/livechat/department/:_id` | `yes` | `PUT` |
+| URL                                | Requires Auth | HTTP Method |
+| :--------------------------------- | :------------ | :---------- |
+| `/api/v1/livechat/department/:_id` | `yes`         | `PUT`       |
 
 ## Payload
 
-| Argument | Example | Required | Description |
-| :--- | :--- | :--- | :--- |
-| `_id` | `iTfLCX3qqwKgf5uqg` | Required | Department `_id`. |
+| Argument | Example             | Required | Description       |
+| :------- | :------------------ | :------- | :---------------- |
+| `_id`    | `iTfLCX3qqwKgf5uqg` | Required | Department `_id`. |
 
 ## Example payload
 
@@ -234,20 +234,20 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Change Log
 
 | Version | Description |
-| :--- | :--- |
-| 0.42.0 | Added |
+| :------ | :---------- |
+| 0.42.0  | Added       |
 
-# Removes a department
+## Removes a department
 
-| URL | Requires Auth | HTTP Method |
-| :--- | :--- | :--- |
-| `/api/v1/livechat/department/:_id` | `yes` | `DELETE` |
+| URL                                | Requires Auth | HTTP Method |
+| :--------------------------------- | :------------ | :---------- |
+| `/api/v1/livechat/department/:_id` | `yes`         | `DELETE`    |
 
 ## Payload
 
-| Argument | Example | Required | Description |
-| :--- | :--- | :--- | :--- |
-| `_id` | `iTfLCX3qqwKgf5uqg` | Required | The department `_id`. |
+| Argument | Example             | Required | Description           |
+| :------- | :------------------ | :------- | :-------------------- |
+| `_id`    | `iTfLCX3qqwKgf5uqg` | Required | The department `_id`. |
 
 ## Example Call
 
@@ -269,5 +269,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Change Log
 
 | Version | Description |
-| :--- | :--- |
-| 0.42.0 | Added |
+| :------ | :---------- |
+| 0.42.0  | Added       |
