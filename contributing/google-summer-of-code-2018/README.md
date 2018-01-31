@@ -85,7 +85,7 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 
 ### Draw (Android)
 
-- **Mentors:** TBD
+- **Mentors:** Saket Kumar (@saketkumar95)
 - **Description:** Allow user to draw something using our Android native app and send to Rocket.Chat channel. The draw would have different colors and "brush" options (pen, brush, pencil, etc). User will also be able to draw on top of an image selected from library or just shooted.
 - **Desirable Skills:** Familiarity with Java or Kotlin development on Android.  Ability to work in large multi-disciplinary teams.
 
