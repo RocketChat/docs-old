@@ -3,6 +3,7 @@
 This method is used to retrieve the public settings, such as Site Name. It accepts a timestamp as the first and only parameter which causes the results to be an object that contains the updated and removed settings after the provided time. If you want to retrieve all of the public settings, just omit the parameter.
 
 ## Example call to retrieve everything
+
 ```json
 {
     "msg": "method",
@@ -12,6 +13,7 @@ This method is used to retrieve the public settings, such as Site Name. It accep
 ```
 
 ## Response
+
 The `_id` value is id of the setting and is how it should be referenced. The `value` is exactly what the name describes, the value of the setting.
 
 ```json
@@ -32,6 +34,7 @@ The `_id` value is id of the setting and is how it should be referenced. The `va
 ```
 
 ## Example call to retrieve the updated and removed ones since the provided date
+
 ```json
 {
     "msg": "method",
@@ -42,6 +45,7 @@ The `_id` value is id of the setting and is how it should be referenced. The `va
 ```
 
 ## Response
+
 The `_id` value is id of the setting and is how it should be referenced. The `value` is exactly what the name describes, the value of the setting.
 
 ```json

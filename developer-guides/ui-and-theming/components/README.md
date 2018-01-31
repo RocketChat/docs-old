@@ -4,20 +4,20 @@ This article stub needs descriptive content and example usage for each component
 
 Example content:
 
-### Side Nav
+## Side Nav
 
 _Describe usage for template development contributions_
 
 _Provide example usage and html structure / class names of nested elements_
 
-* Content
-  * Admin Link
-  * Input Line
-  * Button
-* Account Box
-  * Status
-  * Account Link
-* Rooms List
-  * Header
-  * Item
-  * Item List
+- Content
+    - Admin Link
+    - Input Line
+    - Button
+- Account Box
+    - Status
+    - Account Link
+- Rooms List
+    - Header
+    - Item
+    - Item List

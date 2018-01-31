@@ -44,7 +44,7 @@ The app for iOS (iPhone, iPad, iPod touch) can be found on the App Store. Just s
 
 The app for Android can be found on Google Play. Just search for `Rocket.Chat`
 
-[![Rocket.Chat on Google Play](https://camo.githubusercontent.com/4cd0ed80662cc51c4203e457fdc3358d0df2e73e/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f352f35382f476f6f676c655f506c61795f6c6f676f5f323031352e504e472f32323070782d476f6f676c655f506c61795f6c6f676f5f323031352e504e47)](https://play.google.com/store/apps/details?id=com.konecty.rocket.chat)
+[![Rocket.Chat on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.android&hl=en)](https://play.google.com/store/apps/details?id=com.konecty.rocket.chat)
 
 ### Android and iOS Mobile users
 

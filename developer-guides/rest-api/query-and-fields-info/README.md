@@ -6,8 +6,8 @@ If an invalid json object is passed, the request will fail.
 
 ## Query Parameter Information
 
-* `query` - json object which accepts [MongoDB](https://docs.mongodb.com/manual/reference/operator/query/) query operators
-* `fields` - json object with properties that have either `true` or `false` to include them or exclude them
+- `query` - json object which accepts [MongoDB](https://docs.mongodb.com/manual/reference/operator/query/) query operators
+- `fields` - json object with properties that have either `true` or `false` to include them or exclude them
 
 ## Query Example
 
