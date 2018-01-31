@@ -26,3 +26,4 @@ whitelist:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
