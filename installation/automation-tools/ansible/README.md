@@ -1,11 +1,5 @@
 # Ansible
 
-> **AUTOMATION FOR EVERYONE**
-> Deploy apps. Manage systems. Crush complexity.
-Ansible helps you build a strong foundation for DevOps.
-
-\- Ansible Inc.
-
 ## Quick Links
 
 - [Rocket.Chat official Ansible role](https://galaxy.ansible.com/RocketChat/Server/#readme)
