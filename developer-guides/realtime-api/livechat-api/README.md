@@ -2,9 +2,8 @@
 
 This API is intended to be used for having a livechat conversation;
 
-
 - First of all you need to generate a visitor token (any random string);
-- Call [livechat:getInitialData](getinitialData/) passing `visitorToken` as first argument, the response will be an object containing a livechat [configuration object](getinitialData/#response) with following properties:
+- Call [livechat:getInitialData](getinitialdata/) passing `visitorToken` as first argument, the response will be an object containing a livechat [configuration object](getinitialdata/#response) with following properties:
 
 | Field | Type | Description |
 | :--- | :--- | :--- |
@@ -19,6 +18,6 @@ This API is intended to be used for having a livechat conversation;
 - Call [livechat:registerGuest](registerguest/) to register user;
 - With the response of [livechat:registerGuest](registerguest/) you should call [login method](../method-calls/login/) passing the response token;
 - Before sending the first message you have to generate a random `room _id`;
-- Now you can send messages to method [sendMessageLivechat](sendMessagelivechat/)
+- Now you can send messages to method [sendMessageLivechat](sendmessagelivechat/)
 - Subscribe to: [stream-room-messages](../subscriptions/stream-room-messages/) and `stream-livechat-room`
 - Get agent info by calling `livechat:getAgentData`

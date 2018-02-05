@@ -1,17 +1,19 @@
 # Command Get
+
 Get specification of the slash command.
 
-| URL | Requires Auth | HTTP Method |
-| :--- | :--- | :--- |
-| `/api/v1/commands.get` | `yes` | `GET` |
+| URL                    | Requires Auth | HTTP Method |
+| :--------------------- | :------------ | :---------- |
+| `/api/v1/commands.get` | `yes`         | `GET`       |
 
 ## Payload
 
-| Argument | Example | Required | Description |
-| :--- | :--- | :--- | :--- |
-| `command` | `me` | Required | The name of the command. |
+| Argument  | Example | Required | Description              |
+| :-------- | :------ | :------- | :----------------------- |
+| `command` | `me`    | Required | The name of the command. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -19,6 +21,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
     "command": {
@@ -34,5 +37,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Change Log
 
 | Version | Description |
-| :--- | :--- |
-| 0.60.2 | Added |
+| :------ | :---------- |
+| 0.60.2  | Added       |

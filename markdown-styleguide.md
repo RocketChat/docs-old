@@ -4,12 +4,9 @@ The Rocket.Chat documentation supports the [Markdown Markup Language](https://en
 
 Markdown can be written in various different styles, in this document you will find the standard formatting guide for creating Rocket.Chat documentation.
 
-<!--
-TODO:
 We are currently running a markdown [linter](https://github.com/markdownlint/markdownlint) on incoming Pull Requests, so it is a good idea to download it and run it locally before submitting a Pull Request.
 
 All the rules listed here have their respective code attached here, so if the linter fails you can come here and check out the rule that was broken.
--->
 
 You can run the Markdown linter locally by installing this [Markdown Linter Tool](https://github.com/markdownlint/markdownlint)
 and running the command `mdl ../` command on the docs main folder.
@@ -362,13 +359,13 @@ Fenced code blocks should be surrounded by blank lines.
 **Wrong**:
 
     Some text
-    ```
+    `` `
     Code block
-    ```
+    `` `
 
-    ```
+    `` `
     Another code block
-    ```
+    `` `
     Some more text
 
 **Correct**:

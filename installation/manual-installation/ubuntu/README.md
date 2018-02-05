@@ -14,7 +14,7 @@ Snaps are secure.  Rocket.Chat and all of its dependencies are isolated from the
 
 Find out more information about snaps [here](../../../installation/manual-installation/ubuntu/snaps/)
 
-If you would like to enable <https://yoursite.com> using the snap please see [here](../../../installation/manual-installation/ubuntu/snaps/autossl/)
+If you would like to enable `https://yoursite.com` using the snap please see [here](../../../installation/manual-installation/ubuntu/snaps/autossl/)
 
 ## Manual install
 
@@ -144,7 +144,7 @@ export MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=001-rs
 
 ## Install
 
-Download Stable version of Rocket.Chat (or pick a version from [our releases page](https://rocket.chat/releases)):
+Download Stable version of Rocket.Chat (or pick a version from [our releases page](https://rocket.chat/download)):
 
 ```bash
 curl -L https://releases.rocket.chat/latest/download -o rocket.chat.tgz
