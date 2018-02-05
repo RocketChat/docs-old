@@ -230,8 +230,9 @@ header {
   }
 
   &.home {
-    width: 100%;
-    margin: 50px auto;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 1em;
     display: flex;
     align-items: center;
     .algolia-autocomplete{
@@ -383,7 +384,8 @@ footer {
 
 .project-list {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(2, 0.5fr);
+  grid-gap: 28px;
   margin-bottom: 15px;
 }
 
@@ -395,8 +397,17 @@ footer {
   margin: 15px auto;
   height: 250px;
   justify-content: space-between;
-  width: 40%;
+  width: 80%;
 }
+
+.search-wrapper{
+  background-color: #1f2329;
+  color: white;
+  padding: 9em 0;
+  text-align: center;
+  margin-bottom: 5em;
+}
+
 
 .home-header {
   display: flex;
@@ -415,7 +426,6 @@ footer {
 
 .title{
   margin: 0;
-  font-size: 1.7em;
 
   &.card {
     font-size: 1.15em;
@@ -435,6 +445,7 @@ footer {
   flex-wrap: wrap;
   font-size: 0.8em;
   font-weight: bold;
+  max-width: 350px;
   & a {
     margin-right: 1.2em;
     color: #5b8af5;
