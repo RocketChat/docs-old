@@ -47,6 +47,12 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 - **Description:** (1) Enabling Rocket.Chat users to use Google Drive and/or Dropbox for storage of their uploads. (2) Within Rocket.Chat, allow access to Google Drive or Dropbox contents.
 - **Desirable Skills:** Familiarity with JavaScript development, and with Google Drive and/or Dropbox APIs.
 
+### OwnCloud as a Storage Provider
+
+- **Mentors:** TBD (in conjunction with OwnCloud)
+- **Description:** (1) Enabling Rocket.Chat server adminstrator to use an OwnCloud instance for storage of upload. (2) Within Rocket.Chat client user interface, allow access to the contents on a user's OwnCloud instance
+- **Desirable Skills:** Familiarity with both Rocket.Chat and OwnCloud development.
+
 ### Scaling to the edge of dreams
 
 - **Mentors:** TBD
