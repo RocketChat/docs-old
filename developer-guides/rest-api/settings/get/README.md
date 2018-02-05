@@ -1,4 +1,5 @@
 # Settings Get
+
 Gets the setting for the provided `_id`.
 
 | URL | Requires Auth | HTTP Method |
@@ -12,6 +13,7 @@ Gets the setting for the provided `_id`.
 | `_id` | `Livechat_enabled` | Required | The setting's `_id` field |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \

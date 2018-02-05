@@ -3,6 +3,7 @@
 Use this method to make the initial load of a room. After the initial load you may subscribe to the room messages stream (see [Stream Room Message][1]).
 
 This method accepts 4 parameters in the following order:
+
 - The room id
 - The oldest message timestamp date (or null) - this is used to do pagination
 - The message quantity
@@ -51,5 +52,6 @@ Examples:
 }
 ```
 
-[1]:../../subscriptions/stream-room-messages/
-[2]:../../the-message-object/
+[1]: ../../subscriptions/stream-room-messages/
+
+[2]: ../../the-message-object/

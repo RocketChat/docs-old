@@ -11,7 +11,8 @@
 | `service` | `twilio` | Required | Only the server `twilio` is accepted at moment. |
 
 ## Twilio payload
-```
+
+```json
 {
   "From": "5551123456789",
   "To": "5551987654321",
@@ -28,6 +29,7 @@
 ```
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -38,7 +40,8 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Result to Twilio
-```
+
+```xml
 <Response></Response>
 ```
 

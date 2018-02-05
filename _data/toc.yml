@@ -1,6 +1,12 @@
 - Contributing:
   - Developing
-  - Google Summer of Code
+  - Documentation:
+    - Contribution Guidelines
+    - Markdown Styleguide
+    - Documentation Map
+    - Missing and Outdated List
+  - Google Summer of Code 2017
+  - Google Summer of Code 2018
   - Promoting
   - Reporting Issues
   - Security:
@@ -46,7 +52,7 @@
     - RedHat
     - Ubuntu:
       - Snaps:
-        - AutoSSl
+        - AutoSSL
     - Windows 10 Pro
     - Windows Server:
       - Releases
@@ -71,6 +77,7 @@
   - Managing your Account
   - Voice and Video Calls
 - Administrator guides:
+  - Account Settings
   - Authentication:
     - CAS
     - Ldap
@@ -97,8 +104,10 @@
   - Integrations:
     - Zapier:
       - Using Zaps
+    - AppVeyor
     - Azure Alerts
     - BitBucket
+    - DeadSimpleScreenSharing
     - Giphy
     - GitHub
     - GitLab
@@ -118,7 +127,7 @@
     - Telegram
     - Travis CI
     - Trello
-    - uptimerobot
+    - Uptime Robot
   - Internal Hubot
   - Jitsi Video Bridge
   - Livechat:
@@ -228,6 +237,10 @@
         - unPinMessage
         - unStarMessage
         - update
+      - Commands:
+        - get
+        - list
+        - run
       - Groups:
         - addAll
         - addModerator

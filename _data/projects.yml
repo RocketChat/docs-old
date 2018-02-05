@@ -1,0 +1,28 @@
+- project:
+  name: "Rocket.Chat"
+  icon: "rocketchat"
+  description: "The Rocket.Chat Server."
+  pages:
+    - [true, "Installing & Upgrading", "/installation/"]
+    - [true, "User Guides", "/user-guides/"]
+    - [true, "Administrator Guides", "/administrator-guides/"]
+    - [true, "Developer Guides", "/developer-guides/"]
+    - [false, "Project on GitHub", "https://github.com/RocketChat/Rocket.Chat"]
+    - [false, "Documentation on GitHub", "https://github.com/RocketChat/docs"]
+- project:
+  name: "Rocket.Chat Android"
+  icon: "android"
+  description: "The Rocket.Chat Android."
+  pages:
+    - [false, "Project on GitHub", "https://github.com/RocketChat/Rocket.Chat.Android"]
+- project:
+  name: "Rocket.Chat iOS"
+  icon: "apple"
+  description: "The Rocket.Chat iOS."
+  pages:
+    - [false, "Project on GitHub", "https://github.com/RocketChat/Rocket.Chat.iOS"]
+- project:
+  name: "Rocket.Chat Documentation"
+  description: "The Rocket.Chat Documentation."
+  pages:
+    - [false, "Documentation on GitHub", "https://github.com/RocketChat/docs"]

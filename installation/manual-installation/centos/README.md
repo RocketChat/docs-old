@@ -1,6 +1,6 @@
 # Deploying Rocket.Chat on Centos 7
 
-> If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](/installation/updating/from-0-x-x-to-0-40-0/)
+> If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](../../../installation/updating/from-0-x-x-to-0-40-0/)
 
 The following was tested with Vultr and Digital Ocean.  Should work on Linode too.
 
@@ -44,10 +44,10 @@ Now that we have Node.js and npm installed, we need to install a few more depend
 npm install -g inherits n
 ```
 
-The recommended Node.js version for using Rocket.Chat is `4.8.4`. Using _n_ we are going to install that version:
+The recommended Node.js version for using Rocket.Chat is `8.9.3`. Using _n_ we are going to install that version:
 
 ```
-n 4.8.4
+n 8.9.3
 ```
 
 ## Installing Rocket.Chat
@@ -57,7 +57,7 @@ Now we download and install Rocket.Chat
 ```
 cd /opt
 
-curl -L https://download.rocket.chat/stable -o rocket.chat.tgz
+curl -L https://releases.rocket.chat/latest/download -o rocket.chat.tgz
 tar zxvf rocket.chat.tgz
 
 mv bundle Rocket.Chat
@@ -180,4 +180,4 @@ Upgrading is much the same as installing Rocket.Chat
 1. Shutdown Rocket.Chat
 2. Goto the installation folder in this case: `cd /opt/`
 3. Remove or move the `Rocket.Chat` folder.
-4. Follow the [installation section](#installing-rocket-chat)
+4. Follow the [installation section](#installing-rocketchat)

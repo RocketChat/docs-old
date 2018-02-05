@@ -4,8 +4,8 @@ First, determine if you want to deploy for production or install for code develo
 
 ## Deploy for production
 
-Use [docker-compose instructions](/installation/docker-containers/docker-compose/)
+Use [docker-compose instructions](../../../installation/docker-containers/docker-compose/)
 
 ## Install for code development
 
-Follow [developer installation instructions](/developer-guides/quick-start/)
+Follow [developer installation instructions](../../../developer-guides/quick-start/)

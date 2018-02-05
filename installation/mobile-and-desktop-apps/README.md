@@ -1,18 +1,18 @@
 # Mobile and Desktop Apps
 
-## Windows, Mac and Linux Software
+## Windows, macOS and Linux Software
 
-You can download the Mac OS X, Windows and Linux client software here:
-
-### Mac OSX
-
-Can be found in the app store [here](https://itunes.apple.com/app/rocket.chat/id1086818840)
-
-It can also be downloaded [here](https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/2.7.0/rocketchat-desktop-2.7.0.dmg)
+You can download the Windows, macOS and Linux client software here:
 
 ### Windows
 
 Can be found [here](https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/2.7.0/rocketchat-desktop-setup-2.7.0.exe)
+
+### macOS
+
+Can be found in the App Store [here](https://itunes.apple.com/app/rocket.chat/id1086818840)
+
+It can also be downloaded [here](https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/2.7.0/rocketchat-desktop-2.7.0.dmg)
 
 ### Linux
 
@@ -24,7 +24,7 @@ sudo snap install rocketchat-desktop
 
 Snaps auto update so you no longer need to worry about manually keeping the client up to date.
 
-Snaps are also available on other platforms.  More information available [here](https://snapcraft.io/docs/core/install)
+Snaps are also available on other platforms. More information available [here](https://snapcraft.io/docs/core/install)
 
 Alternatively you can download and manually install:
 
@@ -36,19 +36,19 @@ Alternatively you can download and manually install:
 
 ## iOS App
 
-The app for iOS (iPhones, iPads, iPod Touch) can be found on iTunes. Just search for `Rocket.Chat`
+The app for iOS (iPhone, iPad, iPod touch) can be found on the App Store. Just search for `Rocket.Chat`
 
-[![Rocket.Chat on iTunes](http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg)](https://itunes.apple.com/us/app/rocket.chat/id1028869439?mt=8)
+[![Rocket.Chat on App Store](http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg)](https://itunes.apple.com/us/app/rocket.chat/id1028869439?mt=8)
 
 ## Android App
 
 The app for Android can be found on Google Play. Just search for `Rocket.Chat`
 
-[![Rocket.Chat on Google Play](https://camo.githubusercontent.com/4cd0ed80662cc51c4203e457fdc3358d0df2e73e/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f352f35382f476f6f676c655f506c61795f6c6f676f5f323031352e504e472f32323070782d476f6f676c655f506c61795f6c6f676f5f323031352e504e47)](https://play.google.com/store/apps/details?id=com.konecty.rocket.chat)
+[![Rocket.Chat on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.android&hl=en)](https://play.google.com/store/apps/details?id=com.konecty.rocket.chat)
 
 ### Android and iOS Mobile users
 
-Enter the URL to your Rocket.Chat server (e.g. <https://open.rocket.chat>) to initialize the app.   This needs to be done the first time you run the app after installation.
+Enter the URL to your Rocket.Chat server (e.g. <https://open.rocket.chat>) to initialize the app. This needs to be done the first time you run the app after installation.
 
 Use two-fingers swipe up gesture to add more servers if you need to access multiple servers from one client.
 

@@ -1,4 +1,5 @@
 # Group Close
+
 Removes the private group from the user's list of groups, only if you're part of the group.
 
 | URL | Requires Auth | HTTP Method |
@@ -12,6 +13,7 @@ Removes the private group from the user's list of groups, only if you're part of
 | `roomId` | `HyehQjC44FwMeiLbX` | Required | The groups's id |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -21,6 +23,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
    "success": true

@@ -20,7 +20,7 @@ To start, go to `Control Panel -> Programs and Features` and uninstall each of t
 Then, download and install each of the following **in order**:
 
 1. [Python 2.7.3](https://www.python.org/ftp/python/2.7.3/python-2.7.3.msi) (if you have Python 3.x already installed, just leave it, both can coexist)
-2. [Visual C++ 2010 Express](http://www.microsoft.com/visualstudio/eng/downloads#d-2010-express) or Visual Studio 2010
+2. [Visual C++ 2010 Express](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) or Visual Studio 2010
 3. [Windows SDK 7.1](http://www.microsoft.com/en-us/download/details.aspx?id=8279)
 4. [Visual Studio 2010 SP1](http://www.microsoft.com/en-us/download/details.aspx?id=23691)
 5. [Visual C++ 2010 SP1 Compiler Update for the Windows SDK 7.1](http://www.microsoft.com/en-us/download/details.aspx?id=4422)
@@ -74,9 +74,9 @@ Then, download and install each of the following **in order**:
 
 ### Node.js
 
-Rocket.Chat is built on top of Node.js v4.8.4. So we need to install this first.
+Rocket.Chat is built on top of Node.js v8.9.3. So we need to install this first.
 
-1. Download [Node.js v4.8.4](https://nodejs.org/dist/v4.8.4/node-v4.8.4-x86.msi)
+1. Download [Node.js v8.9.3](https://nodejs.org/dist/v8.9.3/node-v8.9.3-x86.msi)
 2. Run the installer with all default option.
 
 ### Node Packages

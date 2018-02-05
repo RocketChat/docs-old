@@ -13,6 +13,7 @@ The `remove` field is a collection of room id identifying the rooms that were re
 The `update` field is a collection of `room` and its content varies according to the `room type`. You can read more about the `room` object on [its own page][1].
 
 ## Example call
+
 ```json
 {
     "msg": "method",
@@ -23,6 +24,7 @@ The `update` field is a collection of `room` and its content varies according to
 ```
 
 ## Response
+
 ```json
 {
     "msg": "result",
@@ -38,4 +40,4 @@ The `update` field is a collection of `room` and its content varies according to
 }
 ```
 
-[1]:../../the-room-object/
+[1]: ../../the-room-object/

@@ -1,4 +1,5 @@
 # Group Set Topic
+
 Sets the topic for the private group.
 
 | URL | Requires Auth | HTTP Method |
@@ -13,6 +14,7 @@ Sets the topic for the private group.
 | `topic` | `Discuss all of the testing.` | Required | The private group's topic to set. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -22,6 +24,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "topic": "Testing out everything.",

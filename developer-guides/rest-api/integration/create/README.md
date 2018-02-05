@@ -1,4 +1,5 @@
 # Create Integration
+
 Creates an integration, if the callee has the permission.
 
 | URL | Requires Auth | HTTP Method |
@@ -21,9 +22,10 @@ Creates an integration, if the callee has the permission.
 | `avatar` | `http://res.guggy.com/logo_128.png` | Optional <br> Default: `''` | The logo to apply to the messages that this integration sends. |
 | `emoji` | `:ghost:` | Optional <br> Default: `''` | The emoji which should be displayed as the avatar for messages from this integration. |
 | `token` | `8DFS89DMKLWEN` | Optional <br> Default: `''` | If your integration requires a special token from the server (api key), use this. |
-| `script` | [Integrations](/administrator-guides/integrations/) | Optional | Script triggered when this integration is triggered. |
+| `script` | [Integrations](../../../../administrator-guides/integrations/) | Optional | Script triggered when this integration is triggered. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -33,6 +35,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
     "integration": {

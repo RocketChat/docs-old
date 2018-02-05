@@ -55,7 +55,7 @@ proper directory (/etc/init) usage is as simple as rebooting.
 Which upstart management jobs that you use depend on what type of Rocket.Chat deployment you are using (Docker-compose, non-docker, etc). A race-condition exists with
 docker-compose which requires that mongo and the Rocket.Chat application be started independently, thus a slightly modified upstart job is required compared to non-docker instances.
 
----
+- - -
 
 ### Non-Docker-Compose
 
@@ -113,7 +113,7 @@ script
 end script
 ```
 
----
+- - -
 
 ### Docker-Compose
 

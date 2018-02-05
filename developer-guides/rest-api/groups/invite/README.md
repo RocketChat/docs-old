@@ -1,4 +1,5 @@
 # Group Invite
+
 Adds a user to the private group.
 
 | URL | Requires Auth | HTTP Method |
@@ -13,6 +14,7 @@ Adds a user to the private group.
 | `userId` | `nSYqWzZ4GsKTX4dyK` | Required | The user id of who to invite |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -22,6 +24,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "group": {

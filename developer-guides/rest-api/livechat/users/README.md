@@ -1,4 +1,5 @@
 # List agents or managers
+
 Get a list of agents or managers.
 
 | URL | Requires Auth | HTTP Method |
@@ -12,6 +13,7 @@ Get a list of agents or managers.
 | `type` | `agent` | Required | Can be either `agent` or `department`. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -19,6 +21,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "users": [
@@ -41,7 +44,8 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | :--- | :--- |
 | 0.42.0 | Added |
 
-# Register new agent or manager
+## Register new agent or manager
+
 Register a new agent or manager.
 
 | URL | Requires Auth | HTTP Method |
@@ -55,13 +59,15 @@ Register a new agent or manager.
 | `type` | `agent` | Required | Can be either `agent` or `department`. |
 
 ## Example payload
-```
+
+```json
 {
   "username":"john.doe"
 }
 ```
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -72,6 +78,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "user": {
@@ -88,7 +95,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | :--- | :--- |
 | 0.42.0 | Added |
 
-# Get info about an agent or manager
+## Get info about an agent or manager
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -102,6 +109,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | `_id` | `SQafHvoFPuB57NmBD` | Required | The user `_id`. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -109,6 +117,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "user": {
@@ -125,7 +134,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | :--- | :--- |
 | 0.42.0 | Added |
 
-# Removes an agent or manager
+## Removes an agent or manager
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -139,6 +148,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | `_id` | `SQafHvoFPuB57NmBD` | Required | The user `_id`. |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -147,6 +157,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
   "success": true

@@ -4,7 +4,7 @@ This is a room stream.
 
 Events available:
 
- - deleteMessage
+- deleteMessage
 
 ```json
 {

@@ -9,10 +9,8 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/senna@2.4.2/build/senna.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css"/>
-  <link rel="stylesheet" href="{{ site.url }}/styles.css?v={{ site.version }}">
   <link rel="stylesheet" href="{{ site.url }}/public/sidebar.min.css">
-
-
+  <link rel="stylesheet" href="{{ site.url }}/styles.css?v={{ site.version }}">
 
   <noscript>
     <style>
@@ -83,8 +81,9 @@
         {% include toc.html %}
       </div>
       <div id="content" class="content">
-        <div class="wrapper">
+        <div class="wrapper" {%if page.ignoreLinks%}data-proofer-ignore{% endif %}>
           {{ content }}
+          <div class="edit-github"><a href="https://github.com/RocketChat/docs/blob/master{{page.url}}README.md">Edit this page on GitHub</a></div>
         </div>
       </div>
     </div>
@@ -108,7 +107,7 @@
       <li><a href="https://rocket.chat/blog/">Blog</a></li>
     </ul>
     <ul>
-      <li><a href="https://shop.spreadshirt.com/rocketchat" target="_blank">Store</a></li>
+      <li><a href="https://shop.spreadshirt.com/rocketchat" target="_blank" data-proofer-ignore>Store</a></li>
       <li><a href="https://www.stickermule.com/user/1070688638/stickers" target="_blank">Stickers</a></li>
     </ul>
   </div>
@@ -118,7 +117,7 @@
   window.jekyll = { site: { url: '{{ site.url }}' } };
 </script>
 
-<script src="{{ site.url }}/public/js/senna.js?v={{ site.version }}"></script>
+<script src="{{ site.url }}/public/js/index.js?v={{ site.version }}"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
 <script type="text/javascript">
   docsearch({

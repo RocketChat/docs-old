@@ -12,13 +12,13 @@ sudo snap install rocketchat-server
 
 Snaps are secure.  Rocket.Chat and all of its dependencies are isolated from the rest of your system.  Snaps also auto update when we release a new version.  So no need more hassle updating.
 
-Find out more information about snaps [here](/installation/manual-installation/ubuntu/snaps/)
+Find out more information about snaps [here](../../../installation/manual-installation/ubuntu/snaps/)
 
-If you would like to enable <https://yoursite.com> using the snap please see [here](/installation/manual-installation/ubuntu/snaps/autossl/)
+If you would like to enable `https://yoursite.com` using the snap please see [here](../../../installation/manual-installation/ubuntu/snaps/autossl/)
 
 ## Manual install
 
-> If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](/installation/updating/from-0-x-x-to-0-40-0/)
+> If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](../../../installation/updating/from-0-x-x-to-0-40-0/)
 
 This guide explains how to deploy your own Rocket.Chat instance to a Ubuntu Linux machine using the command line.
 
@@ -64,10 +64,10 @@ Install a tool to let us change the node version.
 sudo npm install -g n
 ```
 
-The recommended Node.js version for using Rocket.Chat is `4.8.4`. Using _n_ we are going to install that version:
+The recommended Node.js version for using Rocket.Chat is `8.9.3`. Using _n_ we are going to install that version:
 
 ```bash
-sudo n 4.8.4
+sudo n 8.9.3
 ```
 
 More on [nodejs installation](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server)
@@ -144,10 +144,10 @@ export MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=001-rs
 
 ## Install
 
-Download Stable version of Rocket.Chat (or pick a version from [our releases page](https://rocket.chat/releases)):
+Download Stable version of Rocket.Chat (or pick a version from [our releases page](https://rocket.chat/download)):
 
 ```bash
-curl -L https://download.rocket.chat/stable -o rocket.chat.tgz
+curl -L https://releases.rocket.chat/latest/download -o rocket.chat.tgz
 ```
 
 Then untar the binary release:
@@ -213,7 +213,7 @@ node main.js
 
 Rocket.Chat is installed and will run, but needs to be configured behind a web server to be accessible. Follow these guides to properly configure everything your instance needs:
 
-1. [Run Rocket.Chat behind a SSL Reverse Proxy](/installation/manual-installation/configuring-ssl-reverse-proxy/)
+1. [Run Rocket.Chat behind a SSL Reverse Proxy](../../../installation/manual-installation/configuring-ssl-reverse-proxy/)
 
 ## Update
 
