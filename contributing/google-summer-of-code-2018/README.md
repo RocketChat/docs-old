@@ -50,7 +50,7 @@ Our application to become a 2018 GSoC organization is currently under review.  W
 ### OwnCloud as a Storage Provider
 
 - **Mentors:** TBD (in conjunction with OwnCloud)
-- **Description:** (1) Enabling Rocket.Chat server adminstrator to use an OwnCloud instance for storage of upload. (2) Within Rocket.Chat client user interface, allow access to the contents on a user's OwnCloud instance 
+- **Description:** (1) Enabling Rocket.Chat server adminstrator to use an OwnCloud instance for storage of upload. (2) Within Rocket.Chat client user interface, allow access to the contents on a user's OwnCloud instance
 - **Desirable Skills:** Familiarity with both Rocket.Chat and OwnCloud development.
 
 ### Scaling to the edge of dreams
