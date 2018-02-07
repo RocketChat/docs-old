@@ -17,13 +17,16 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Example Result
 
 ```json
-{ "emojis": 
-   [ { "_id": "yh3dxDWrJy3J6oMMN",
-       "name": "test",
-       "aliases": [],
-       "extension": "jpg",
-       "_updatedAt": "2018-02-07T14:58:17.319Z" } ],
-  "success": true }
+{
+    "emojis": [{
+            "_id": "yh3dxDWrJy3J6oMMN",
+            "name": "test",
+            "aliases": [],
+            "extension": "jpg",
+            "_updatedAt": "2018-02-07T14:58:17.319Z"
+       }],
+    "success": true
+}
 ```
 
 ## Change Log

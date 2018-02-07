@@ -135,7 +135,6 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :---------------------- | :--------------------------------------------- | :---------------------     |
 | `/api/v1/emoji-custom`  | List the custom emojis available.              | [Link](emoji-custom/get/)  |
 
-
 ### Settings
 
 | Url                     | Method | Short Description  | Details Page             |
