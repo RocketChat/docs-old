@@ -6,13 +6,13 @@ You can download the Windows, macOS and Linux client software here:
 
 ### Windows
 
-Can be found [here](https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/2.7.0/rocketchat-desktop-setup-2.7.0.exe)
+Can be found [here](https://rocket.chat/download)
 
 ### macOS
 
 Can be found in the App Store [here](https://itunes.apple.com/app/rocket.chat/id1086818840)
 
-It can also be downloaded [here](https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/2.7.0/rocketchat-desktop-2.7.0.dmg)
+It can also be downloaded [here](https://github.com/RocketChat/Rocket.Chat.Electron)
 
 ### Linux
 
@@ -28,11 +28,7 @@ Snaps are also available on other platforms. More information available [here](h
 
 Alternatively you can download and manually install:
 
-[Debian amd64](https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/2.7.0/rocketchat-desktop_2.7.0_amd64.deb)
-
-[Debian i386](https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/2.7.0/rocketchat-desktop_2.7.0_i386.deb)
-
-[Fedora amd64](https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/2.7.0/rocketchat-desktop-2.7.0.rpm)
+You can find the download for the latest releases [here](https://github.com/RocketChat/Rocket.Chat.Electron/releases)
 
 ## iOS App
 
