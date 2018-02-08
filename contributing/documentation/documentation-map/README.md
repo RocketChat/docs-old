@@ -38,7 +38,6 @@ Here you can also find what articles are incomplete and missing.
     - Translating
 - Getting Support
 - Installation:
-
     - Rocket.Chat Cloud
     - PaaS Deployments:
         - Aliyun
@@ -66,7 +65,6 @@ Here you can also find what articles are incomplete and missing.
         - Available Images
         - Docker Compose
     - Manual Installation:
-
         - CentOS
         - Debian
         - FreeBSD:
@@ -75,7 +73,6 @@ Here you can also find what articles are incomplete and missing.
         - Multiple Instances to Improve Performance
         - OpenSUSE
         - <span class="incomplete">[RedHat](../missing-and-outdated-list/index.html#redhat)</span>
-
         - Ubuntu:
             - Snaps:
                 - AutoSSl
@@ -117,11 +114,12 @@ Here you can also find what articles are incomplete and missing.
         - <span class="missing">[WordPress](../missing-and-outdated-list/index.html#WordPress)</span>
         - <span class="missing">[Custom Oauth](../missing-and-outdated-list/index.html#custom-oauth)</span>
         - <span class="missing">[Using Rocket.Chat as an Oauth provider](../missing-and-outdated-list/index.html#using-rocketchat-as-an-oauth-provider)</span>
-
+        - <span class="missing">[oauth2 o365](../missing-and-outdated-list/index.html#oauth2-o365)</span>
     - <span class="missing">[Customizing the UI](../missing-and-outdated-list/index.html#Customizing-the-UI)</span>:
         - <span class="missing">[Layout](../missing-and-outdated-list/index.html#Layout)</span>
         - <span class="missing">[Assets](../missing-and-outdated-list/index.html#Assets)</span>
     - <span class="missing">[Custom Emoji](../missing-and-outdated-list/index.html#adding-custom-emoji)</span>
+    - <span class="missing">[Custom Fields](../missing-and-outdated-list/index.html#custom-fields)</span>
     - <span class="missing">[Custom Sounds](../missing-and-outdated-list/index.html#adding-custom-sounds)</span>
     - Database-Migration
     - Email:
@@ -250,6 +248,8 @@ Here you can also find what articles are incomplete and missing.
             - cleanHistory
             - close
             - create
+            - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
+            - <span class="missing">[files](../missing-and-outdated-list/index.html#channelsfiles)</span>
             - getIntegrations
             - history
             - info
@@ -258,6 +258,7 @@ Here you can also find what articles are incomplete and missing.
             - leave
             - list.joined
             - list
+            - <span class="missing">[members](../missing-and-outdated-list/index.html#channels.members)</span>
             - open
             - removeModerator
             - removeOwner
@@ -290,6 +291,8 @@ Here you can also find what articles are incomplete and missing.
             - archive
             - close
             - create
+            - <span class="missing">[delete](../missing-and-outdated-list/index.html#groupsdelete)</span>
+            - <span class="missing">[files](../missing-and-outdated-list/index.html#groupsfiles)</span>
             - getIntegrations
             - history
             - info
@@ -297,6 +300,7 @@ Here you can also find what articles are incomplete and missing.
             - kick
             - leave
             - list
+            - <span class="missing">[members](../missing-and-outdated-list/index.html#groupsmembers)</span>
             - open
             - removeModerator
             - removeOwner
@@ -309,9 +313,12 @@ Here you can also find what articles are incomplete and missing.
             - unarchive
         - Im:
             - close
+            - <span class="missing">[files](../missing-and-outdated-list/index.html#imfiles)</span>
+
             - history
             - list.everyone
             - list
+            - <span class="missing">[members](../missing-and-outdated-list/index.html#immembers)</span>
             - messages.others
             - open
             - setTopic
