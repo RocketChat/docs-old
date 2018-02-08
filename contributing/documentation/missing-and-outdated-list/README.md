@@ -154,7 +154,7 @@ Create documentation on how the `im.members` REST API endpoint works
 
 ## Oauth2 O365
 
-Create documentation on how to use oauth2 o365 authentication service with Rocket.Chat. You can find info on this issue https://github.com/RocketChat/Rocket.Chat/issues/6809
+Create documentation on how to use oauth2 o365 authentication service with Rocket.Chat. You can find info on this issue <https://github.com/RocketChat/Rocket.Chat/issues/6809>
 
 ## channels.delete
 
