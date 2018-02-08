@@ -108,15 +108,21 @@ Here you can also find what articles are incomplete and missing.
 - Administrator guides:
     - Account Settings
     - <span class="missing">[Analytics](../missing-and-outdated-list/index.html#analytics)</span>
+    - <span class="missing">[Auto Translation](../missing-and-outdated-list/index.html#auto-translation)</span>
     - Authentication:
         - CAS
         - Ldap
         - <span class="incomplete">[Oauth](../missing-and-outdated-list/index.html#oauth)</span>
         - SAML
         - <span class="missing">[WordPress](../missing-and-outdated-list/index.html#WordPress)</span>
+        - <span class="missing">[Custom Oauth](../missing-and-outdated-list/index.html#custom-oauth)</span>
+        - <span class="missing">[Using Rocket.Chat as an Oauth provider](../missing-and-outdated-list/index.html#using-rocketchat-as-an-oauth-provider)</span>
+
     - <span class="missing">[Customizing the UI](../missing-and-outdated-list/index.html#Customizing-the-UI)</span>:
         - <span class="missing">[Layout](../missing-and-outdated-list/index.html#Layout)</span>
         - <span class="missing">[Assets](../missing-and-outdated-list/index.html#Assets)</span>
+    - <span class="missing">[Custom Emoji](../missing-and-outdated-list/index.html#adding-custom-emoji)</span>
+    - <span class="missing">[Custom Sounds](../missing-and-outdated-list/index.html#adding-custom-sounds)</span>
     - Database-Migration
     - Email:
         - Setup

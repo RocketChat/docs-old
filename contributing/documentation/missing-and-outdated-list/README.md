@@ -107,3 +107,23 @@ Create a guide on how to use the `Message` setting section.
 ## Oauth
 
 Missing meteor Oauth section.
+
+## Adding Custom Emoji
+
+Create a guide on how to add custom emojis to Rocket.Chat.
+
+## Adding Custom Sounds
+
+Create a guide on how to add custom sounds to Rocket.Chat.
+
+## Auto Translation
+
+Create a guide on how to set up auto translation and use it.
+
+## Custom Oauth
+
+Create a guide on how to create custom oauth apps.
+
+## Using Rocket.Chat as an Oauth provider
+
+Create a guide on how to use Rocket.Chat as a Oauth provider.
