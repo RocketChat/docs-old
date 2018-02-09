@@ -1,14 +1,38 @@
 - project:
-  name: "Rocket.Chat"
+  name: "Rocket.Chat User Guides"
   icon: "rocketchat"
-  description: "The Rocket.Chat Server."
+  description: "Guides for the basic usage of Rocket.Chat."
   pages:
-    - [true, "Installing & Upgrading", "/installation/"]
     - [true, "User Guides", "/user-guides/"]
+    - [true, "Connecting to a Server", "/connecting-to-a-server/"]
+    - [true, "Registration", "/registration/"]
+    - [true, "Channels", "/channels/"]
+    - [true, "Messaging", "/messaging/"]
+    - [true, "Managing your Account", "/managing-your-account/"]
+- project:
+  name: "Rocket.Chat Administrator Guides"
+  icon: "cog"
+  description: "Guides for managing and configuring Rocket.Chat"
+  pages:
     - [true, "Administrator Guides", "/administrator-guides/"]
-    - [true, "Developer Guides", "/developer-guides/"]
-    - [false, "Project on GitHub", "https://github.com/RocketChat/Rocket.Chat"]
-    - [false, "Documentation on GitHub", "https://github.com/RocketChat/docs"]
+    - [true, "Account Settings", "/account-settings/"]
+    - [true, "Email", "/email/"]
+    - [true, "Permissions", "/permissions/"]
+    - [true, "Livechat", "/livechat/"]
+    - [true, "File Upload", "/file-upload/"]
+    - [true, "Integrations", "/integration/"]
+- project:
+  name: "Rocket.Chat Developer Guides"
+  icon: "code"
+  description: "Guides for developing and modifying Rocket.Chat's code"
+  pages:
+    - [true, "Developer Guides", "/administrator-guides/"]
+    - [true, "Quick Start", "/quick-start/"]
+    - [true, "Branches and Releases", "/branches-and-releases/"]
+    - [true, "Testing", "/testing/"]
+    - [true, "Rest API", "/rest-api/"]
+    - [true, "Realtime API", "/realtime-api/"]
+    - [true, "Livechat API", "/livechat-api/"]
 - project:
   name: "Rocket.Chat Android"
   icon: "android"
@@ -21,8 +45,3 @@
   description: "The Rocket.Chat iOS."
   pages:
     - [false, "Project on GitHub", "https://github.com/RocketChat/Rocket.Chat.iOS"]
-- project:
-  name: "Rocket.Chat Documentation"
-  description: "The Rocket.Chat Documentation."
-  pages:
-    - [false, "Documentation on GitHub", "https://github.com/RocketChat/docs"]

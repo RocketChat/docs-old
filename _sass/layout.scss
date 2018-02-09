@@ -413,7 +413,7 @@ footer {
   color: white;
   padding: 9em 0;
   text-align: center;
-  margin-bottom: 5em;
+  margin-bottom: 4em;
 }
 
 
@@ -453,7 +453,7 @@ footer {
   flex-wrap: wrap;
   font-size: 0.8em;
   font-weight: bold;
-  max-width: 350px;
+  max-width: 320px;
   & a {
     margin-right: 1.2em;
     color: #5b8af5;
@@ -511,6 +511,15 @@ footer {
       visibility: hidden;
     }
   }
+
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(1, 0.8fr);
+    grid-gap: 28px;
+    margin-bottom: 15px;
+    justify-content: center;
+  }
+
 
   header {
     .logo {
