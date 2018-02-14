@@ -25,7 +25,9 @@ For general discussions and information on the 2018 program, please see GSoC 201
 
 <https://forums.rocket.chat/c/gsoc>
 
-Our application to become a 2018 GSoC organization is currently under review.  We will have more specific student application and deadline information here once (if) we are approved.
+## Timeline
+
+[GSoC 2018 Timeline](https://developers.google.com/open-source/gsoc/timeline)
 
 ## Project Ideas  (work in progress)
 
