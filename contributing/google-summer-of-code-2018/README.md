@@ -76,6 +76,7 @@ For general discussions and information on the 2018 program, please see GSoC 201
 ### Built-in and server themes for iOS
 
 - **Mentors:** @matheus.cardoso
+- **Project repository:** https://github.com/RocketChat/Rocket.Chat.iOS
 - **Description:** Be part of our iOS team this summer to push Rocket.Chat's native iOS App to the next level!  You will - with our help - build the foundation for customizable user experience, support built-in themes for users to choose from and server-specific themes, allowing server owners to manifest the colors and feel of their communities.  You will have the chance to exchange experience with our engineers and designers, plus your work will have a great impact on the experience of thousands of users!
 - **Desirable Skills:** We are looking for an undergraduate student who is familiar with team work, developing iOS Apps using UIKit, Auto Layout and Swift, as well as writing maintainable code with Unit Tests.
 
@@ -88,18 +89,21 @@ For general discussions and information on the 2018 program, please see GSoC 201
 ### Draw (iOS)
 
 - **Mentors:** TBD
+- **Project repository:** https://github.com/RocketChat/Rocket.Chat.iOS
 - **Description:** Allow user to draw something using our iOS native app and send to Rocket.Chat channel. The draw would have different colors and "brush" options (pen, brush, pencil, etc). User will also be able to draw on top of an image selected from library or just shooted. On iPads, user will be able to use Apple Pencil to draw.
 - **Desirable Skills:**  Familiarity with Swift on iOS development.   Ability to work in large multi-disciplinary teams.
 
 ### Draw (Android)
 
 - **Mentors:** Saket Kumar (@saketkumar95)
+- **Project repository:** https://github.com/RocketChat/Rocket.Chat.Android
 - **Description:** Allow user to draw something using our Android native app and send to Rocket.Chat channel. The draw would have different colors and "brush" options (pen, brush, pencil, etc). User will also be able to draw on top of an image selected from library or just shooted.
 - **Desirable Skills:** Familiarity with Java or Kotlin development on Android.  Ability to work in large multi-disciplinary teams.
 
 ### Apple Watch App
 
 - **Mentors:** TBD
+- **Project repository:** https://github.com/RocketChat/Rocket.Chat.iOS
 - **Description:** Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such like viewing the chat rooms and reading the messages. Also let the user send a message to a chat using voice recognition.
 - **Desirable Skills:** Familiarity with WatchKit development on WatchOS.  Ability to work in large multi-disciplinary teams.
 
@@ -112,12 +116,14 @@ For general discussions and information on the 2018 program, please see GSoC 201
 ### Siri
 
 - **Mentors:** TBD
+- **Project repository:** https://github.com/RocketChat/Rocket.Chat.iOS
 - **Description:** Let user send and respond to messages talking to Siri on Apple mobile devices.
 - **Desirable Skills:** Familiarity with SiriKit development.  Ability to work in large multi-disciplinary teams
 
 ### Google Assistant
 
 - **Mentors:** TBD
+- **Project repository:** https://github.com/RocketChat/Rocket.Chat.Android
 - **Description:** Let user send messages talking to Google Assistant.
 
 ### Performance tests
@@ -133,6 +139,7 @@ For general discussions and information on the 2018 program, please see GSoC 201
 ### Android Wear App
 
 - **Mentors:** @filipe.brito
+- **Project repository:** https://github.com/RocketChat/Rocket.Chat.Android
 - **Description:** Create an Android Wear application that replicates the most basic features we have in our Android app, such like viewing the chat rooms and reading the messages.
 
 ### Scripting support
