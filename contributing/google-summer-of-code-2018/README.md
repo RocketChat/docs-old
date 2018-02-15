@@ -29,7 +29,6 @@ Interested students are also encouraged to interact with our contributor communi
 
 <https://github.com/RocketChat/Rocket.Chat>
 
-
 ## Timeline
 
 [GSoC 2018 Timeline](https://developers.google.com/open-source/gsoc/timeline)
