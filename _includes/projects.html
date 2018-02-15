@@ -4,13 +4,13 @@
 			<div class="project-card">
 				<div class="home-header card">
 					<img class="card-icon" src="{{ site.url }}/images/icons/{% if project.icon %}{{project.icon}}{% else %}code{% endif %}.svg" alt="{{project.icon}}">
-					<h1 class="title card">{{ project.name }}</h1>
+					<h1 class="title card"><a href="{{ site.url}}{{project.root}}">{{ project.name }}</a></h1>
 					<p class="description card">{{ project.description }}</p>
 				</div>
 
 				<div class="card-pages">
 					{% for page in project.pages %}
-						<a href="{%if page[0] %}{{ site.url }}{% endif %}{{page[2]}}">{{ page[1] }}</a>
+						<a href="{%if page[0] %}{{ site.url }}{{project.root}}{% endif %}{{page[2]}}">{{ page[1] }}</a>
 					{% endfor %}
 				</div>
 			</div>
