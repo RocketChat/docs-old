@@ -21,7 +21,7 @@ Just install the mentioned package with the following command:
 meteor npm install --save babel-runtime
 ```
 
-1. **bcrypt**:
+2. **bcrypt**:
 
 If you see the following warning in the `meteor` logs:
 
