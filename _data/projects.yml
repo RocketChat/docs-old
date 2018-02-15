@@ -2,34 +2,37 @@
   name: "Rocket.Chat User Guides"
   icon: "rocketchat"
   description: "Guides for the basic usage of Rocket.Chat."
+  root: "/user-guides"
   pages:
-    - [true, "Connecting to a Server", "/user-guides/connecting-to-a-server/"]
-    - [true, "Registration", "/user-guides/registration/"]
-    - [true, "Channels", "/user-guides/channels/"]
-    - [true, "Messaging", "/user-guides/messaging/"]
-    - [true, "Managing your Account", "/user-guides/managing-your-account/"]
+    - [true, "Connecting to a Server", "/connecting-to-a-server/"]
+    - [true, "Registration", "/registration/"]
+    - [true, "Channels", "/channels/"]
+    - [true, "Messaging", "/messaging/"]
+    - [true, "Managing your Account", "/managing-your-account/"]
 - project:
   name: "Rocket.Chat Administrator Guides"
   icon: "cog"
   description: "Guides for managing and configuring Rocket.Chat"
+  root: "/administrator-guides"
   pages:
-    - [true, "Account Settings", "/administrator-guides/account-settings/"]
-    - [true, "Email", "/administrator-guides/email/"]
-    - [true, "Permissions", "/administrator-guides/permissions/"]
-    - [true, "Livechat", "/administrator-guides/livechat/"]
-    - [true, "File Upload", "/administrator-guides/file-upload/"]
-    - [true, "Integrations", "/administrator-guides/integration/"]
+    - [true, "Account Settings", "/account-settings/"]
+    - [true, "Email", "/email/"]
+    - [true, "Permissions", "/permissions/"]
+    - [true, "Livechat", "/livechat/"]
+    - [true, "File Upload", "/file-upload/"]
+    - [true, "Integrations", "/integration/"]
 - project:
   name: "Rocket.Chat Developer Guides"
   icon: "code"
   description: "Guides for developing and modifying Rocket.Chat's code"
+  root: "/developer-guides"
   pages:
-    - [true, "Quick Start", "/developer-guides/quick-start/"]
-    - [true, "Branches and Releases", "/developer-guides/branches-and-releases/"]
-    - [true, "Testing", "/developer-guides/testing/"]
-    - [true, "Rest API", "/developer-guides/rest-api/"]
-    - [true, "Realtime API", "/developer-guides/realtime-api/"]
-    - [true, "Livechat API", "/developer-guides/livechat-api/"]
+    - [true, "Quick Start", "/quick-start/"]
+    - [true, "Branches and Releases", "/branches-and-releases/"]
+    - [true, "Testing", "/testing/"]
+    - [true, "Rest API", "/rest-api/"]
+    - [true, "Realtime API", "/realtime-api/"]
+    - [true, "Livechat API", "/livechat-api/"]
 - project:
   name: "Rocket.Chat Android"
   icon: "android"
