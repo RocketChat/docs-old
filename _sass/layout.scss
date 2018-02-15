@@ -394,7 +394,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(2, 0.5fr);
   grid-gap: 25px;
-  margin-bottom: 15px;
+  margin: 4em 0;
 }
 
 .project-card {
@@ -402,7 +402,7 @@ footer {
   flex-direction: column;
   background-color: #f6f7f9;
   padding: 15px 20px;
-  margin: 15px auto;
+  margin: 0 auto;
   height: 250px;
   justify-content: space-between;
   width: 100%;
@@ -413,7 +413,6 @@ footer {
   color: white;
   padding: 9em 0;
   text-align: center;
-  margin-bottom: 4em;
 }
 
 
@@ -528,7 +527,6 @@ footer {
     display: grid;
     grid-template-columns: repeat(1, 0.8fr);
     grid-gap: 25px;
-    margin-bottom: 15px;
     justify-content: center;
   }
 
