@@ -95,7 +95,7 @@ For general discussions and information on the 2018 program, please see GSoC 201
 
 - **Mentors:** Saket Kumar (@saketkumar95)
 - **Description:** Allow user to draw something using our Android native app and send to Rocket.Chat channel. The draw would have different colors and "brush" options (pen, brush, pencil, etc). User will also be able to draw on top of an image selected from library or just shooted.
-- **Desirable Skills:** Familiarity with Java or Kotlin development on Android.  Ability to work in large multi-disciplinary teams.
+- **Desirable Skills:** Familiarity with Java or Kotlin development on Android. Previous experience with working on the Android App development and using open source libraries would be helpful. Ability to work in large multi-disciplinary teams.
 
 ### Apple Watch App
 
