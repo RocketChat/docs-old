@@ -129,12 +129,21 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/commands.list` | Lists all available slash commands.            | [Link](commands/list/) |
 | `/api/v1/commands.run`  | Execute a slash command in the specified room. | [Link](commands/run/)  |
 
+### Emoji Custom
+
+| Url                     | Short Description                              | Details Page               |
+| :---------------------- | :--------------------------------------------- | :---------------------     |
+| `/api/v1/emoji-custom`  | List the custom emojis available.              | [Link](emoji-custom/get/)  |
+
 ### Settings
 
-| Url                     | Method | Short Description  | Details Page             |
-| :---------------------- | :----- | :----------------- | :----------------------- |
-| `/api/v1/settings/:_id` | `GET`  | Gets a setting.    | [Link](settings/get/)    |
-| `/api/v1/settings/:_id` | `POST` | Updates a setting. | [Link](settings/update/) |
+| Url                               | Method | Short Description                  | Details Page                                    |
+| :-------------------------------- | :----- | :--------------------------------- | :---------------------------------------------- |
+| `/api/v1/settings`                | `GET`  | Lists all private settings.        | [Link](settings/get/)                           |
+| `/api/v1/settings.public`         | `GET`  | Lists all public settings.         | [Link](settings/public/)                    |
+| `/api/v1/service.configurations`  | `GET`  | Lists all service configurations.  | [Link](settings/service-configuration/)    |
+| `/api/v1/settings/:_id`           | `GET`  | Gets a setting.                    | [Link](settings/get-by-id/)                     |
+| `/api/v1/settings/:_id`           | `POST` | Updates a setting.                 | [Link](settings/update/)                        |
 
 ## Language specific wrappers
 

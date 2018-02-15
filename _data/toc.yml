@@ -285,6 +285,9 @@
         - info
       - Settings:
         - get
+        - get-by-id
+        - public
+        - service-configuration
         - update
       - Users:
         - create
