@@ -234,7 +234,7 @@ header {
   }
 
   &.home {
-    width: 40%;
+    width: 20%;
     margin: 0 auto;
     margin-top: 1em;
     display: flex;
@@ -393,7 +393,7 @@ footer {
 .project-list {
   display: grid;
   grid-template-columns: repeat(2, 0.5fr);
-  grid-gap: 28px;
+  grid-gap: 25px;
   margin-bottom: 15px;
 }
 
@@ -405,7 +405,7 @@ footer {
   margin: 15px auto;
   height: 250px;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
 }
 
 .search-wrapper{
@@ -460,6 +460,11 @@ footer {
   }
 }
 
+#algolia-autocomplete-listbox-0 {
+  max-width: none;
+  min-width: none;
+  width: 100%;
+}
 
 @media all and (min-width: 2000px) {
   .project-list {
@@ -522,7 +527,7 @@ footer {
   .project-list {
     display: grid;
     grid-template-columns: repeat(1, 0.8fr);
-    grid-gap: 28px;
+    grid-gap: 25px;
     margin-bottom: 15px;
     justify-content: center;
   }
