@@ -155,7 +155,7 @@ For general discussions and information on the 2018 program, please see GSoC 201
 
 ### Open Source Bot Frameworks Adapters
 
-- **Mentors:** TBD (@diego.dorgam + ?)
+- **Mentors:** @diego.dorgam + @timkinnnae
 - **Description:** The objective is to widely open Rocket.Chat's bots ecosystem by developing connectors/adapters to open source bot frameworks available in the web, so their community can develop bots able to run on Rocket.Chat platform. The scope would include the following frameworks:
 
 - BotKit
@@ -166,7 +166,7 @@ For general discussions and information on the 2018 program, please see GSoC 201
 
 ### Buttons and Cards UI
 
-- **Mentors:** TBD (@diego.dorgam + ?)
+- **Mentors:** @diego.dorgam + @timkinnnae
 - **Description:** Include the possibility to send a message with customizable buttons and cards carousel (slidable images with text descriptions) so the user can interact with and bots can receive the feedback of those interactions, right on the Rocket.Chat's interface, and compatible (if possible) with existing UI conventions, so it becomes intuitive to their community to develop to Rocket.Chat.  
 - **Desirable Skills:** Familiarity with JavaScript development.
 
