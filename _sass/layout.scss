@@ -460,6 +460,13 @@ footer {
   }
 }
 
+
+@media all and (min-width: 2000px) {
+  .project-list {
+    grid-template-columns: repeat(3, 0.8fr);
+  }
+}
+
 // mobile
 
 @media all and (max-width: 1000px) {
