@@ -4,9 +4,9 @@ Retrieves a single chat message by the provided id. Callee must have permission 
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/chat.getMessage` | `yes` | `POST` |
+| `/api/v1/chat.getMessage` | `yes` | `GET` |
 
-## Payload
+## Query Parameters
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
@@ -17,9 +17,7 @@ Retrieves a single chat message by the provided id. Callee must have permission 
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
-     -H "Content-type:application/json" \
-     http://localhost:3000/api/v1/chat.getMessage \
-     -d '{ "msgId": "7aDSXtjMA3KPLxLjt" }'
+     http://localhost:3000/api/v1/chat.getMessage?msgId=7aDSXtjMA3KPLxLjt
 ```
 
 ## Example Result
