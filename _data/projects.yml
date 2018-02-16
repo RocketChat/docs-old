@@ -1,47 +1,49 @@
-- project:
-  name: "Rocket.Chat User Guides"
-  icon: "rocketchat"
-  description: "Guides for the basic usage of Rocket.Chat."
+-
+  name: Rocket.Chat User Guides
+  icon: rocketchat
+  description: Guides for the basic usage of Rocket.Chat.
+  path: user-guides/
   pages:
-    - [true, "User Guides", "/user-guides/"]
-    - [true, "Connecting to a Server", "/connecting-to-a-server/"]
-    - [true, "Registration", "/registration/"]
-    - [true, "Channels", "/channels/"]
-    - [true, "Messaging", "/messaging/"]
-    - [true, "Managing your Account", "/managing-your-account/"]
-- project:
-  name: "Rocket.Chat Administrator Guides"
-  icon: "cog"
-  description: "Guides for managing and configuring Rocket.Chat"
+    Connecting to a Server: /user-guides/connecting-to-a-server/
+    Registration: /user-guides/registration/
+    Channels: /user-guides/channels/
+    Messaging: /user-guides/messaging/
+    Managing your Account: /user-guides/managing-your-account/
+
+-
+  name: Rocket.Chat Administrator Guides
+  icon: cog
+  description: Guides for managing and configuring Rocket.Chat
+  path: administrator-guides/
   pages:
-    - [true, "Administrator Guides", "/administrator-guides/"]
-    - [true, "Account Settings", "/account-settings/"]
-    - [true, "Email", "/email/"]
-    - [true, "Permissions", "/permissions/"]
-    - [true, "Livechat", "/livechat/"]
-    - [true, "File Upload", "/file-upload/"]
-    - [true, "Integrations", "/integration/"]
-- project:
-  name: "Rocket.Chat Developer Guides"
-  icon: "code"
-  description: "Guides for developing and modifying Rocket.Chat's code"
+    Account Settings: /administrator-guides/account-settings/
+    Email: /administrator-guides/email/
+    Permissions: /administrator-guides/permissions/
+    Livechat: /administrator-guides/livechat/
+    File Upload: /administrator-guides/file-upload/
+    Integrations: /administrator-guides/integrations/
+
+-
+  name: Rocket.Chat Developer Guides
+  icon: code
+  description: Guides for developing and modifying Rocket.Chat's code
+  path: developer-guides/
   pages:
-    - [true, "Developer Guides", "/administrator-guides/"]
-    - [true, "Quick Start", "/quick-start/"]
-    - [true, "Branches and Releases", "/branches-and-releases/"]
-    - [true, "Testing", "/testing/"]
-    - [true, "Rest API", "/rest-api/"]
-    - [true, "Realtime API", "/realtime-api/"]
-    - [true, "Livechat API", "/livechat-api/"]
-- project:
-  name: "Rocket.Chat Android"
-  icon: "android"
-  description: "The Rocket.Chat Android."
-  pages:
-    - [false, "Project on GitHub", "https://github.com/RocketChat/Rocket.Chat.Android"]
-- project:
-  name: "Rocket.Chat iOS"
-  icon: "apple"
-  description: "The Rocket.Chat iOS."
-  pages:
-    - [false, "Project on GitHub", "https://github.com/RocketChat/Rocket.Chat.iOS"]
+    Quick Start: /developer-guides/quick-start/
+    Branches and Releases: /developer-guides/branches-and-releases/
+    Testing: /developer-guides/testing/
+    Rest API: /developer-guides/rest-api/
+    Realtime API: /developer-guides/realtime-api/
+    Livechat API: /developer-guides/livechat-api/
+
+-
+  name: Rocket.Chat Android
+  icon: android
+  description:
+  path: https://github.com/RocketChat/Rocket.Chat.Android
+
+-
+  name: Rocket.Chat iOS
+  icon: apple
+  description:
+  path: https://github.com/RocketChat/Rocket.Chat.iOS
