@@ -118,7 +118,6 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description:** Create an Android Wear application that replicates the most basic features we have in our Android app, such like viewing the chat rooms and reading the messages.
 - **Desirable Skills:**  Familiarity with Kotlin development on Android. Ability to work in large multi-disciplinary teams.
 
-
 ### Enabling global decentralized blockchain powered crypto communities
 
 - **Mentors:** TBD
