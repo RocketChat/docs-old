@@ -111,6 +111,13 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description:** Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such like viewing the chat rooms and reading the messages. Also let the user send a message to a chat using voice recognition.
 - **Desirable Skills:** Familiarity with WatchKit development on WatchOS.  Ability to work in large multi-disciplinary teams.
 
+### Android Wear App
+
+- **Mentors:** @filipe.brito
+- **Project repository:** <https://github.com/RocketChat/Rocket.Chat.Android>
+- **Description:** Create an Android Wear application that replicates the most basic features we have in our Android app, such like viewing the chat rooms and reading the messages.
+- **Desirable Skills:**  Familiarity with Kotlin development on Android. Ability to work in large multi-disciplinary teams.
+
 ### Enabling global decentralized blockchain powered crypto communities
 
 - **Mentors:** TBD
@@ -139,12 +146,6 @@ Interested students are also encouraged to interact with our contributor communi
 
 - **Mentors:** @karl.prieb @guilherme.gazzo
 - **Description:** Create a javascript SDK that can be used on our ReactNative, Livechat and our webclient projects.
-
-### Android Wear App
-
-- **Mentors:** @filipe.brito
-- **Project repository:** <https://github.com/RocketChat/Rocket.Chat.Android>
-- **Description:** Create an Android Wear application that replicates the most basic features we have in our Android app, such like viewing the chat rooms and reading the messages.
 
 ### Scripting support
 
