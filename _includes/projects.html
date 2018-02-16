@@ -3,15 +3,18 @@
 		{% for project in include.projects %}
 			<div class="project-card">
 				<div class="home-header card">
-					<img class="card-icon" src="{{ site.url }}/images/icons/{% if project.icon %}{{project.icon}}{% else %}code{% endif %}.svg" alt="{{project.icon}}">
-					<h1 class="title card"><a href="{{ site.url}}{{project.root}}">{{ project.name }}</a></h1>
+					<img class="card-icon" src="images/icons/{{ project.icon }}.svg" alt="">
+					<h1 class="title card"><a href="{{ project.path }}">{{ project.name }}</a></h1>
 					<p class="description card">{{ project.description }}</p>
 				</div>
-
 				<div class="card-pages">
 					{% for page in project.pages %}
-						<a href="{%if page[0] %}{{ site.url }}{{project.root}}{% endif %}{{page[2]}}">{{ page[1] }}</a>
+						<a href="{{ page[1] }}">{{ page[0] }}</a>
 					{% endfor %}
+					{% capture http %}{{ project.path | truncate: 4, '' }}{% endcapture %}
+					{% if http == 'http' %}
+						<a href="{{ project.path }}">Project on GitHub</a>
+					{% endif %}
 				</div>
 			</div>
 		{% endfor %}
