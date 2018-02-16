@@ -6,8 +6,8 @@ If an invalid json object is passed, the request will fail.
 
 ## Query Parameter Information
 
-* `query` - json object which accepts [MongoDB](https://docs.mongodb.com/manual/reference/operator/query/) query operators
-* `fields` - json object with properties that have either `true` or `false` to include them or exclude them
+- `query` - json object which accepts [MongoDB](https://docs.mongodb.com/manual/reference/operator/query/) query operators
+- `fields` - json object with properties that have either `1` or `0` to include them or exclude them
 
 ## Query Example
 
@@ -19,4 +19,4 @@ To query the users which has a name that has `g` in it somewhere.
 
 To only return the usernames for users, you would do something like this:
 
-`http://localhost:3000/api/v1/users.list?fields={ "username": true }`
+`http://localhost:3000/api/v1/users.list?fields={ "username": 1 }`

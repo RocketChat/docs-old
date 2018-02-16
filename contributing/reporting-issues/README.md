@@ -6,9 +6,9 @@ GitHub Issues are for bugs and feature requests only.
 
 Examples of things that aren't considered bugs or feature requests:
 
-* Can't figure out how to do something
-* Having issues accessing your server
-* Can't get the server installed
+- Can't figure out how to do something
+- Having issues accessing your server
+- Can't get the server installed
 
 If your issue falls into one of these categories, please see [Getting Support](../../getting-support/)
 
@@ -28,14 +28,14 @@ Go [here](https://github.com/RocketChat/Rocket.Chat/issues/new) to open a new is
 
 Please include the following information in order to promote effective fixing.
 
-* Operating System / Version / Architecture (64 bit?)
-* Browser type and version, including any add-ons. (e.g. AdBlocker, NoScript, etc.)
-* Rocket.Chat version
-* Expected behavior
-* Actual behavior
-* Can the bug consistently be reproduced? If so, how?
-* Relevant errors and other log output
-* Screen shots as necessary
+- Operating System / Version / Architecture (64 bit?)
+- Browser type and version, including any add-ons. (e.g. AdBlocker, NoScript, etc.)
+- Rocket.Chat version
+- Expected behavior
+- Actual behavior
+- Can the bug consistently be reproduced? If so, how?
+- Relevant errors and other log output
+- Screen shots as necessary
 
 #### Determining Rocket.Chat Version
 

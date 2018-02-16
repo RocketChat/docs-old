@@ -6,7 +6,7 @@ You can use a web browser or one of the [many client applications](https://rocke
 
 To connect to a Rocket.Chat server through a web browser you need to enter the desired server address in the browser's address bar.
 
-If it is a valid Rocket.Chat server address you will then be presented with the [registration](../registration/]) and [login](../login/) page if unauthenticated or taken to the server's homepage if authenticated.
+If it is a valid Rocket.Chat server address you will then be presented with the [registration](../registration/) and [login](../login/) page if unauthenticated or taken to the server's homepage if authenticated.
 
 ## Using the Desktop application
 

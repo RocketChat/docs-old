@@ -6,7 +6,6 @@ Node.js version: 8.9.3
 
 Rocket.Chat version: 0.60.0
 
-
 These are barebones instructions for how to set up a Rocket.Chat server on OpenSUSE Leap 42.2 using nginx as a reverse proxy. These will help you set up a system you can experiment with. **THEY ARE NOT INTENDED FOR SETUP OF A PRODUCTION SYSTEM!** They are oriented on using a VM from AWS, but should work for any Leap 42.2 system.
 
 ## Overview
@@ -243,7 +242,7 @@ ufs: temp directory created at "/tmp/ufs"
 ➔ +--------------------------------------------------------+
 ```
 
-... and that's Rocket.Chat all set. Direct a browser to <https://YOUR.SERVER.NAME> and register a yourself as new user. The first user you register will be made the server admin.
+... and that's Rocket.Chat all set. Direct a browser to `https://YOUR.SERVER.NAME` and register a yourself as new user. The first user you register will be made the server admin.
 
 ## Sources
 

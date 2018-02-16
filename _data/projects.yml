@@ -1,0 +1,49 @@
+-
+  name: Rocket.Chat User Guides
+  icon: rocketchat
+  description: Guides for the basic usage of Rocket.Chat.
+  path: user-guides/
+  pages:
+    Connecting to a Server: /user-guides/connecting-to-a-server/
+    Registration: /user-guides/registration/
+    Channels: /user-guides/channels/
+    Messaging: /user-guides/messaging/
+    Managing your Account: /user-guides/managing-your-account/
+
+-
+  name: Rocket.Chat Administrator Guides
+  icon: cog
+  description: Guides for managing and configuring Rocket.Chat
+  path: administrator-guides/
+  pages:
+    Account Settings: /administrator-guides/account-settings/
+    Email: /administrator-guides/email/
+    Permissions: /administrator-guides/permissions/
+    Livechat: /administrator-guides/livechat/
+    File Upload: /administrator-guides/file-upload/
+    Integrations: /administrator-guides/integrations/
+
+-
+  name: Rocket.Chat Developer Guides
+  icon: code
+  description: Guides for developing and modifying Rocket.Chat's code
+  path: developer-guides/
+  pages:
+    Quick Start: /developer-guides/quick-start/
+    Branches and Releases: /developer-guides/branches-and-releases/
+    Testing: /developer-guides/testing/
+    Rest API: /developer-guides/rest-api/
+    Realtime API: /developer-guides/realtime-api/
+    Livechat API: /developer-guides/livechat-api/
+
+-
+  name: Rocket.Chat Android
+  icon: android
+  description:
+  path: https://github.com/RocketChat/Rocket.Chat.Android
+
+-
+  name: Rocket.Chat iOS
+  icon: apple
+  description:
+  path: https://github.com/RocketChat/Rocket.Chat.iOS
