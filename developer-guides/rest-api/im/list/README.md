@@ -59,8 +59,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 ```
 
-
-## Query Example Call 
+## Query Example Call
 
 This example shows a list of Direct Messages' Rooms filtered by "customFields.field1" ended with "5" using a regular expression.
 
@@ -107,7 +106,6 @@ curl -H "X-Auth-Token: OKoJelLu8rYtbyc3c5YtTwxIE-UvT1FzWv9cdq1XPI1" \
 }
 
 ```
-
 
 ## Change Log
 

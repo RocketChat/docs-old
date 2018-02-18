@@ -53,9 +53,10 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 ```
 
-## Query Example Call 
+## Query Example Call
 
 This example shows a list of private groups with the following conditions:
+
  * "customFields.companyId" = "org1"
  * hide "fname" field in the output
 
