@@ -20,31 +20,32 @@ curl -H "X-Auth-Token: 8-gard51USVYskZ7AAqFF3SZuwg24VIdn9-HchYersg" \
 
 ```json
 {
-	"groups": [
-		{
-			"_id": "xA52DRDM7dqx2PfTp",
-			"name": "private1",
-			"fname": "private1",
-			"t": "p",
-			"msgs": 0,
-			"u": {
-				"_id": "3WpJQkDHhrWPBvXuW",
-				"username": "admin"
-			},
-			"customFields": {
-				"companyId": "org1"
-			},
-			"ts": "2018-01-21T21:05:06.729Z",
-			"ro": false,
-			"sysMes": true,
-			"_updatedAt": "2018-01-21T21:05:06.729Z"
-		}
-	],
-	"offset": 0,
-	"count": 1,
-	"total": 1,
-	"success": true
+    "groups": [
+        {
+            "_id": "xA52DRDM7dqx2PfTp",
+            "name": "private1",
+            "fname": "private1",
+            "t": "p",
+            "msgs": 0,
+            "u": {
+                "_id": "3WpJQkDHhrWPBvXuW",
+                "username": "admin"
+            },
+            "customFields": {
+                "companyId": "org1"
+            },
+            "ts": "2018-01-21T21:05:06.729Z",
+            "ro": false,
+            "sysMes": true,
+            "_updatedAt": "2018-01-21T21:05:06.729Z"
+        }
+    ],
+    "offset": 0,
+    "count": 1,
+    "total": 1,
+    "success": true
 }
+
 ```
 
 ## Change Log

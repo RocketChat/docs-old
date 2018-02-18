@@ -56,7 +56,9 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
     ],
     "success": true
 }
+
 ```
+
 
 ## Query Example Call 
 
@@ -72,37 +74,38 @@ curl -H "X-Auth-Token: OKoJelLu8rYtbyc3c5YtTwxIE-UvT1FzWv9cdq1XPI1" \
 
 ```json
 {
-	"ims": [
-		{
-			"_id": "hw5DThnhQmxDWnavuhw5DThnhQmxDWnavu",
-			"_updatedAt": "2018-01-21T21:07:20.324Z",
-			"t": "d",
-			"msgs": 0,
-			"ts": "2018-01-21T21:07:20.324Z",
-			"username": "user2"
-		},
-		{
-			"_id": "hw5DThnhQmxDWnavurocket.cat",
-			"_updatedAt": "2018-01-21T21:07:18.510Z",
-			"t": "d",
-			"msgs": 0,
-			"ts": "2018-01-21T21:07:18.510Z",
-			"username": "user2"
-		},
-		{
-			"_id": "3WpJQkDHhrWPBvXuWhw5DThnhQmxDWnavu",
-			"_updatedAt": "2018-01-21T21:07:16.123Z",
-			"t": "d",
-			"msgs": 0,
-			"ts": "2018-01-21T21:07:16.123Z",
-			"username": "user2"
-		}
-	],
-	"offset": 0,
-	"count": 3,
-	"total": 3,
-	"success":true
+    "ims": [
+        {
+            "_id": "hw5DThnhQmxDWnavuhw5DThnhQmxDWnavu",
+            "_updatedAt": "2018-01-21T21:07:20.324Z",
+            "t": "d",
+            "msgs": 0,
+            "ts": "2018-01-21T21:07:20.324Z",
+            "username": "user2"
+        },
+        {
+            "_id": "hw5DThnhQmxDWnavurocket.cat",
+            "_updatedAt": "2018-01-21T21:07:18.510Z",
+            "t": "d",
+            "msgs": 0,
+            "ts": "2018-01-21T21:07:18.510Z",
+            "username": "user2"
+        },
+        {
+            "_id": "3WpJQkDHhrWPBvXuWhw5DThnhQmxDWnavu",
+            "_updatedAt": "2018-01-21T21:07:16.123Z",
+            "t": "d",
+            "msgs": 0,
+            "ts": "2018-01-21T21:07:16.123Z",
+            "username": "user2"
+        }
+    ],
+    "offset": 0,
+    "count": 3,
+    "total": 3,
+    "success":true
 }
+
 ```
 
 

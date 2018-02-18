@@ -41,7 +41,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
-## Query Example Call 
+## Query Example Call
 
 This example shows a list of Direct Messages' Rooms filtered by "customFields.field1" ended with "5" using a regular expression.
 
@@ -55,22 +55,22 @@ curl -H "X-Auth-Token: OKoJelLu8rYtbyc3c5YtTwxIE-UvT1FzWv9cdq1XPI1" \
 
 ```json
 {
-	"channels": [
-		{
-			"_id": "GENERAL",
-			"ts": "2018-01-21T20:58:41.142Z",
-			"t": "c",
-			"name": "general",
-			"msgs": 1,
-			"default": true,
-			"_updatedAt": "2018-01-21T21:03:43.736Z",
-			"username": "user2"
-		}
-	],
-	"offset": 0,
-	"count": 1,
-	"total": 1,
-	"success": true
+    "channels": [
+        {
+            "_id": "GENERAL",
+            "ts": "2018-01-21T20:58:41.142Z",
+            "t": "c",
+            "name": "general",
+            "msgs": 1,
+            "default": true,
+            "_updatedAt": "2018-01-21T21:03:43.736Z",
+            "username": "user2"
+        }
+    ],
+    "offset": 0,
+    "count": 1,
+    "total": 1,
+    "success": true
 }
 ```
 
