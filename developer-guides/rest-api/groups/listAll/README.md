@@ -51,5 +51,5 @@ curl -H "X-Auth-Token: 8-gard51USVYskZ7AAqFF3SZuwg24VIdn9-HchYersg" \
 
 | Version | Description |
 | :--- | :--- |
-| 0.61.0 | Add 'query' parameter support. |
+| 0.62.0 | Add 'query' parameter support. |
 | 0.59.0 | Added |

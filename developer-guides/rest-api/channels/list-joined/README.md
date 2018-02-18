@@ -78,6 +78,6 @@ curl -H "X-Auth-Token: OKoJelLu8rYtbyc3c5YtTwxIE-UvT1FzWv9cdq1XPI1" \
 
 | Version | Description |
 | :--- | :--- |
-| 0.61.0 | Add 'query' parameter support. |
+| 0.62.0 | Add 'query' parameter support. |
 | 0.49.0 | Count and offset query parameters supported. |
 | 0.48.0 | Added |
