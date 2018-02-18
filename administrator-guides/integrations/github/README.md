@@ -8,11 +8,11 @@ We can do 2 types of integrations with GitHub:
 ## Receive alerts
 
 1. Create a new **Incoming WebHook**
-2. Select the channel where you will receive the alerts.  You may wish to create a dedicated channel for your notifications.
-3. Select an account from which the alerts will be posted.  You may wish to create a dedicated account just for notifications.
+2. Select the channel where you will receive the alerts. You may wish to create a dedicated channel for your notifications.
+3. Select an account from which the alerts will be posted. You may wish to create a dedicated account just for notifications.
 4. Set the "Enable Scripts" option to `True`.
 5. Copy-paste one of the example scripts below.
-6. Save the integration.  This will generate a webhook URL and secret for you.
+6. Save the integration. This will generate a webhook URL and secret for you.
 7. Go to your repository `Settings -> WebHooks & services -> Add WebHook`
 8. Paste your **WebHook URL** from Rocket.Chat into **Payload URL**
 9. Keep **Content type** as `application/json`
@@ -500,20 +500,18 @@ class Script {
 
 #### Customizing your integration scripts
 
-The purpose of the integration script is to transform data in one format (the format provided by your incoming service, such as Github) into another format (the format expected by Rocket.Chat).  Therefore, should you wish to customize either of the scripts presented above, you will need two resources:
+The purpose of the integration script is to transform data in one format (the format provided by your incoming service, such as Github) into another format (the format expected by Rocket.Chat). Therefore, should you wish to customize either of the scripts presented above, you will need two resources:
 
 - [Github API specifications](https://developer.github.com/v3/)
-- [Specifications for Rocket.Chat integration message objects](../../../administrator-guides/integrations/#script-details)
+- [Specifications for Rocket.Chat integration message objects](../../integrations/index.html#incoming-script-details)
 
-Note that data comes *into* your script from Github as the `request.content` object.
+Note that data comes _into_ your script from Github as the `request.content` object.
 
 The Handlebars template used by Rocket.Chat to render messages from a JSON object may also be useful, and can be found [here](https://github.com/RocketChat/Rocket.Chat/blob/master/packages/rocketchat-message-attachments/client/messageAttachment.html).
 
 ### Send commands to GitHub
 
-```
-This script only works for public repositories
-```
+    This script only works for public repositories
 
 - Create a new **Outgoing WebHook**
 - Select the channel where you will use the commands and receive the responses
@@ -521,65 +519,65 @@ This script only works for public repositories
 - Enable Scripts
 - Use this **Script** to listen for commands `pr ls`, `pr list` and `help`
 
-```javascript
-/* exported Script */
-/* globals Store */
+````javascript
+    /* exported Script */
+    /* globals Store */
 
-class Script {
-  prepare_outgoing_request({ request }) {
-    let match;
+    class Script {
+      prepare_outgoing_request({ request }) {
+        let match;
 
-    console.log('lastCmd', Store.get('lastCmd'));
+        console.log('lastCmd', Store.get('lastCmd'));
 
-    match = request.data.text.match(/^pr last$/);
-    if (match && Store.get('lastCmd')) {
-      request.data.text = Store.get('lastCmd');
-    }
-
-    match = request.data.text.match(/^pr\s(ls|list)\s*(open|closed|all)?$/);
-    if (match) {
-      Store.set('lastCmd', request.data.text);
-      let u = request.url + '/pulls';
-      if (match[2]) {
-        u += '?state='+match[2];
-      }
-      return {
-        url: u,
-        headers: request.headers,
-        method: 'GET'
-      };
-    }
-
-    match = request.data.text.match(/^help$/);
-    if (match) {
-      Store.set('lastCmd', request.data.text);
-      return {
-        message: {
-          text: [
-            '**GitHub commands**',
-            '```',
-              '  pr ls|list [open|closed|all]  List Pull Requests',
-            '```'
-          ].join('\n')
+        match = request.data.text.match(/^pr last$/);
+        if (match && Store.get('lastCmd')) {
+          request.data.text = Store.get('lastCmd');
         }
-      };
-    }
-  }
 
-  process_outgoing_response({ request, response }) {
-    var text = [];
-    response.content.forEach(function(pr) {
-      text.push('> '+pr.state+' [#'+pr.number+']('+pr.html_url+') - '+pr.title);
-    });
+        match = request.data.text.match(/^pr\s(ls|list)\s*(open|closed|all)?$/);
+        if (match) {
+          Store.set('lastCmd', request.data.text);
+          let u = request.url + '/pulls';
+          if (match[2]) {
+            u += '?state='+match[2];
+          }
+          return {
+            url: u,
+            headers: request.headers,
+            method: 'GET'
+          };
+        }
 
-    return {
-      content: {
-        text: text.join('\n'),
-        parseUrls: false
+        match = request.data.text.match(/^help$/);
+        if (match) {
+          Store.set('lastCmd', request.data.text);
+          return {
+            message: {
+              text: [
+                '**GitHub commands**',
+                '```',
+                  '  pr ls|list [open|closed|all]  List Pull Requests',
+                '```'
+              ].join('\n')
+            }
+          };
+        }
       }
-    };
-  }
-}
-```
+
+      process_outgoing_response({ request, response }) {
+        var text = [];
+        response.content.forEach(function(pr) {
+          text.push('> '+pr.state+' [#'+pr.number+']('+pr.html_url+') - '+pr.title);
+        });
+
+        return {
+          content: {
+            text: text.join('\n'),
+            parseUrls: false
+          }
+        };
+      }
+    }
+````
 
 - Save your integration
