@@ -23,9 +23,6 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
             "_id": "ByehQjC44FwMeiLbX",
             "name": "test-test",
             "t": "p",
-            "usernames": [
-                "testing1"
-            ],
             "msgs": 0,
             "u": {
                 "_id": "aobEdbYhXfu5hkeqG",
@@ -40,9 +37,6 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
             "_id": "t7qapfhZjANMRAi5w",
             "name": "testing",
             "t": "p",
-            "usernames": [
-                "testing2"
-            ],
             "msgs": 0,
             "u": {
                 "_id": "y65tAmHs93aDChMWu",

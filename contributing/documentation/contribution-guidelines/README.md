@@ -24,7 +24,7 @@ All missing/incomplete articles are links to a list with the description of each
 You can find a list of issues [here](https://github.com/RocketChat/Rocket.Chat.Docs/issues).
 When you find something you would like to work on just comment on it and we will add an __In Progress__ label.
 
----
+- - -
 
 ## Creating a new Pull Request
 
@@ -38,7 +38,8 @@ When you create a new pull request, we expect some requirements to be met.
     - When adding new documentation, add `New Documentation:` before the title. E.g. `New Documentation: Authentication Guide`.
     - When fixing documentation, add `Fix Documentation:` before the title. E.g. `Fix Documentation: Authentication Guide`.
     - When updating documentation, add `Update Documentation:` before the title. E.g. `Update Documentation: Authentication Guide`.
-- For each pull request made, we run tests to check if there are any broken links. You can find how to run these tests locally [here](#test).
+- If your Pull Request closes an issue you need to write `Closes #ISSUE_NUMBER` where the `ISSUE_NUMBER` is the number in the end of the link url that will link your pull request to the issue, when merged will close that issue.
+- For each pull request made, we run tests to check if there are any broken links. You can find how to run these tests locally [here]().
 - We also use a linter tool to check if the style of the markdown matches our [styleguide](../markdown-styleguide). Here is a link to the [Markdown Linter Tool](https://github.com/markdownlint/markdownlint).
 
 ### Recommended Workflow
@@ -77,7 +78,7 @@ If you add a page called `Testing Rocket.Chat Apps`, it will be converted to `te
 
 All words will be lowercased, spaces will be replaced with a `-` and any special character will be removed (like the `.` on `Rocket.Chat`)
 
----
+- - -
 
 ## Reporting Issues and Missing Articles
 

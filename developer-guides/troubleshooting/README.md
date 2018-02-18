@@ -1,10 +1,8 @@
-### Troubleshooting
+# Troubleshooting
 
-
-1) **babel-runtime**:
+1. **babel-runtime**:
 
 If you are having the following error:
-
 
 ```bash
 (STDERR) Error: The babel-runtime npm package could not be found in your node_modules
@@ -23,9 +21,9 @@ Just install the mentioned package with the following command:
 meteor npm install --save babel-runtime
 ```
 
-2) **bcrypt**:
+1. **bcrypt**:
 
-If you see the following warning in the ``meteor`` logs:
+If you see the following warning in the `meteor` logs:
 
 ```bash
 (STDERR) Note: you are using a pure-JavaScript implementation of bcrypt.
@@ -37,8 +35,8 @@ If you see the following warning in the ``meteor`` logs:
 (STDERR)
 ```
 
-Don't panic =) It means that the ``bcrypt`` library is not installed on your
-system and ``meteor`` will use a javascript alternative that is about three
+Don't panic =) It means that the `bcrypt` library is not installed on your
+system and `meteor` will use a javascript alternative that is about three
 times slower.
 
 If you want to install the library to make it faster, use the following
@@ -48,7 +46,7 @@ command:
 meteor npm install --save bcrypt
 ```
 
-If the version of the ``python`` interpreter on your system is **greater than**
+If the version of the `python` interpreter on your system is **greater than**
 v2.5.0 or **less than** 3.0.0, it should work fine, but, if you see a message
 like this:
 
@@ -58,7 +56,7 @@ gyp ERR! stack Error: Python executable "/usr/local/bin/python3" is v3.5.2, whic
 gyp ERR! stack You can pass the --python switch to point to Python >= v2.5.0 & < 3.0.0.
 ```
 
-After you are sure that you have a ``python`` interpreter that matches the
+After you are sure that you have a `python` interpreter that matches the
 above requirements, use the following command to fix the error:
 
 ```bash

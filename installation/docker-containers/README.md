@@ -12,18 +12,18 @@ This guide is designed for everyone, however, it is intentionally detailed to he
 
 ## What we'll cover in this guide
 
-1. [Securing the server: Firewall basics (optional)](#1-securing-the-server-firewall-basics-optional-recommended-)
-2. [Securing the server: Fail2Ban IDS (optional)](#2-securing-the-server-fail2ban-optional-recommended-)
-3. [Installing Docker and Docker-Compose](#3-installing-docker-and-docker-compose)
-4. [Editing the hosts file](#4-editing-the-hosts-file)
-5. [Installing Nginx SSL Reverse Proxy](#5-installing-nginx-ssl-certificate)
-6. [Creating docker-compose.yml](#6-create-the-docker-compose-yml-file-local-directories)
-7. [Automatic start-up, and crash recovery](#7-automatic-startup-crash-recovery)
-8. [Reboot & Status check](#8-reboot-and-status-check)
-9. [Registering & Configuring Hubot, the chat robot](#9-registering-configuring-hubot-the-chat-robot)
-10. [FAQ & Troubleshooting](#10-troubleshooting-faq)
-11. [TODO](#11-todo-)
-12. [Known Issues](#12-known-issues-)
+1. [Securing the server: Firewall basics (optional)](index.html#1-securing-the-server-firewall-basics-optional-recommended)
+2. [Securing the server: Fail2Ban IDS (optional)](index.html#2-securing-the-server-fail2ban-optional-recommended)
+3. [Installing Docker and Docker-Compose](index.html#3-installing-docker-and-docker-compose)
+4. [Editing the hosts file](index.html#4-editing-the-hosts-file)
+5. [Installing Nginx SSL Reverse Proxy](index.html#5-installing-nginx--ssl-certificate)
+6. [Creating docker-compose.yml](index.html#6-create-the-docker-composeyml-file--local-directories)
+7. [Automatic start-up, and crash recovery](index.html#7-automatic-startup--crash-recovery)
+8. [Reboot & Status check](index.html#8-reboot-and-status-check)
+9. [Registering & Configuring Hubot, the chat robot](index.html#9-registering--configuring-hubot-the-chat-robot)
+10. [FAQ & Troubleshooting](index.html#10-troubleshooting--faq)
+11. [TODO](index.html#11-todo)
+12. [Known Issues](index.html#12-known-issues)
 
 ## Prerequisites
 
@@ -31,9 +31,8 @@ This guide is written assuming that you're starting with:
 
 - a clean new installation of Ubuntu 14.04 (64 bit)
 - properly configured DNS that resolves requests to your domain name
-- b
 
----
+- - -
 
 ## 1. Securing the server: Firewall basics (optional, recommended)
 
@@ -85,7 +84,7 @@ sudo ufw reload
 sudo ufw disable
 ```
 
----
+- - -
 
 ## 2. Securing the server: Fail2ban (optional, recommended)
 
@@ -101,7 +100,7 @@ sudo apt-get install fail2ban
 
 Pre
 
----
+- - -
 
 ## 3. Installing Docker and Docker-Compose
 
@@ -128,7 +127,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo docker-compose --version
 ```
 
----
+- - -
 
 ## 4. Editing the hosts file
 
@@ -147,7 +146,7 @@ sudo nano /etc/hosts
 
 Sav
 
----
+- - -
 
 ## 5. Installing Nginx & SSL certificate
 
@@ -183,7 +182,7 @@ Open the SSL Certificate provided by the SSL vendor (will probably have a .crt o
 
 Sav
 
----
+- - -
 
 ### 5b. Self-Signed SSL
 
@@ -201,7 +200,7 @@ Tip: It is important that the Common Name be set properly. Enter your fully qual
 
 Sav
 
----
+- - -
 
 ### 5c. Set Key Permissions, Dhparams, Configure NGINX
 
@@ -274,7 +273,7 @@ sudo service nginx configtest && sudo service nginx restart
 sudo nginx -t
 ```
 
----
+- - -
 
 ## 6. Create the docker-compose.yml file & local directories
 
@@ -333,7 +332,7 @@ hubot:
 
 Sav
 
----
+- - -
 
 ## 7. Automatic Startup & Crash Recovery
 
@@ -393,7 +392,7 @@ end script
 
 Sav
 
----
+- - -
 
 ## 8. Reboot and Status check
 
@@ -413,7 +412,9 @@ sudo reboot
 sudo docker ps -a
 ```
 
+```
 [![docker ps -a](https://www.imageforge.us/images/c90bd55a7b357c20b18815a5560f43f3.png)](https://www.imageforge.us/image/60kNT)
+```
 
 As you can see, our three docker containers are up and running: Rocket Chat, MongoDB, and Hubot. NOTE: You may see only one, or none at all if the downloads are still in progress. Be patient, and check it periodically.
 Eventually, it should look similar to our sample screenshot. If it does, congratulations, you did it! GREAT JOB!
@@ -450,7 +451,7 @@ _Great! I'm in, but the bot is nowhere to be seen!_
 
 No
 
----
+- - -
 
 ## 9. Registering & Configuring Hubot, the chat robot
 
@@ -470,7 +471,7 @@ With the bot account registered, you can force it to join by simply rebooting th
 
 For
 
----
+- - -
 
 ## 10. Troubleshooting & FAQ
 
@@ -507,7 +508,7 @@ sudo ufw status
 **Check your SSL installation**
 <ht
 
----
+- - -
 
 **PROBLEM:**
 _I rebooted and waited forever for docker to download everything and start the chat room. NOTHING happened. It's like it didn't even try!_
@@ -540,7 +541,7 @@ cd /var/www/rocket.chat
 
 If
 
----
+- - -
 
 **PROBLEM:**
 _When I upload a file the server crashes!_
@@ -554,13 +555,13 @@ sudo TOP
 
 Wit
 
----
+- - -
 
 ## 11. TODO
 
 - A
 
----
+- - -
 
 ## 12. KNOWN ISSUES
 

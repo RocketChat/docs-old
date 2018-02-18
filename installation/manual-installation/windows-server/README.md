@@ -20,7 +20,7 @@ To start, go to `Control Panel -> Programs and Features` and uninstall each of t
 Then, download and install each of the following **in order**:
 
 1. [Python 2.7.3](https://www.python.org/ftp/python/2.7.3/python-2.7.3.msi) (if you have Python 3.x already installed, just leave it, both can coexist)
-2. [Visual C++ 2010 Express](http://www.microsoft.com/visualstudio/eng/downloads#d-2010-express) or Visual Studio 2010
+2. [Visual C++ 2010 Express](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) or Visual Studio 2010
 3. [Windows SDK 7.1](http://www.microsoft.com/en-us/download/details.aspx?id=8279)
 4. [Visual Studio 2010 SP1](http://www.microsoft.com/en-us/download/details.aspx?id=23691)
 5. [Visual C++ 2010 SP1 Compiler Update for the Windows SDK 7.1](http://www.microsoft.com/en-us/download/details.aspx?id=4422)

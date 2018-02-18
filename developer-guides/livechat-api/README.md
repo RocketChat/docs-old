@@ -8,7 +8,8 @@ You can call multiple livechat APIs on the same page.
 
 ### Methods
 
-#### *Set custom field*
+#### _Set custom field_
+
 To set a custom field for a visitor, you can use the following code:
 
 ```javascript
@@ -18,7 +19,8 @@ RocketChat(function() {
 });
 ```
 
-#### *Set theme options*
+#### _Set theme options_
+
 To change the online color of the livechat widget, use the following code:
 
 ```javascript
@@ -33,6 +35,7 @@ RocketChat(function() {
 ### Events
 
 #### _onChatMaximized_
+
 Fired when the chat widget is maximized.
 
 ```javascript
@@ -45,6 +48,7 @@ RocketChat(function() {
 ```
 
 #### _onChatMinimized_
+
 Fired when the chat widget is minimized.
 
 ```javascript
@@ -57,6 +61,7 @@ RocketChat(function() {
 ```
 
 #### _onChatStarted_
+
 Fired when the chat is started (the first message was sent).
 
 ```javascript
@@ -69,6 +74,7 @@ RocketChat(function() {
 ```
 
 #### _onChatEnded_
+
 Fired when the chat is ended either by the agent or the visitor.
 
 ```javascript
@@ -81,6 +87,7 @@ RocketChat(function() {
 ```
 
 #### _onPrechatFormSubmit_
+
 Fired when the pre-chat form is submitted.
 
 ```javascript
@@ -95,6 +102,7 @@ RocketChat(function() {
 ```
 
 #### _onOfflineFormSubmit_
+
 Fired when the offline form is submitted.
 
 ```javascript
@@ -110,8 +118,8 @@ RocketChat(function() {
 
 ## Change Log
 
-| Version | Description |
-| :--- | :--- |
-| 0.53.0 | Added callback events and the ability to pass a flag to `setCustomField` so the value passed does not get wrote if there is already an existing value. |
-| 0.36.0 | Added `setTheme` method |
-| 0.26.0 | Added `setCustomField` method |
+| Version | Description                                                                                                                                            |
+| :------ | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0.53.0  | Added callback events and the ability to pass a flag to `setCustomField` so the value passed does not get wrote if there is already an existing value. |
+| 0.36.0  | Added `setTheme` method                                                                                                                                |
+| 0.26.0  | Added `setCustomField` method                                                                                                                          |
