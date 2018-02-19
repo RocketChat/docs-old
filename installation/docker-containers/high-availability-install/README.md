@@ -16,6 +16,7 @@
 - Change the IP of every host in the example docker-compose.yaml -> extra_hosts inserts host entrys so each rocketchat-container could resolve the others by the name
 - Be sure that the instances could communicate on port 3000 with each other, this is important to see messages on other hosts directly
 
+```
     rocketchat:
       image: rocketchat/rocket.chat:latest
       environment:
@@ -30,6 +31,7 @@
         - "rocket-1:10.250.250.13"
         - "rocket-2:10.250.250.14"
         - "rocket-3:10.250.250.17"
+```
 
 ### Create Loadbalancer
 
