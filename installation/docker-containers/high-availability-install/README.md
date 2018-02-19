@@ -38,29 +38,31 @@ rocketchat:
 - Now setup up a reverse proxy on each host to terminate ssl on each rocket.chat node (use example apache2 config in repo) or terminate ssl on the loadbalancer, this is up to you
 - Setup a loadbalancer to reach each instance on 443 or 3000 (depends on the choice above)
 
-    <VirtualHost *:443>
-                    ServerName chat.domain.de
-                    ServerAdmin webmaster@domain.de
+```
+<VirtualHost *:443>
+    ServerName chat.domain.de
+    ServerAdmin webmaster@domain.de
 
-                    #Log
-                    ErrorLog ${APACHE_LOG_DIR}/error-chat.log
-                    CustomLog ${APACHE_LOG_DIR}/access-chat.log combined
-                    #SSL
-                    SSLEngine on
-                    SSLCertificateFile      /etc/apache2/ssl/cert.public
-                    SSLCertificateKeyFile /etc/apache2/ssl/cert.private
-                    SSLCertificateChainFile /etc/apache2/ssl/intermediate.crt
-                    #SSL Tuning
-                    SSLCompression off
-                    SSLProtocol All -SSLv2 -SSLv3
-                    SSLCipherSuite EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH
-                    #HSTS
-                    Header always set Strict-Transport-Security "max-age=15768000; preload"
+    #Log
+    ErrorLog ${APACHE_LOG_DIR}/error-chat.log
+    CustomLog ${APACHE_LOG_DIR}/access-chat.log combined
+    #SSL
+    SSLEngine on
+    SSLCertificateFile      /etc/apache2/ssl/cert.public
+    SSLCertificateKeyFile /etc/apache2/ssl/cert.private
+    SSLCertificateChainFile /etc/apache2/ssl/intermediate.crt
+    #SSL Tuning
+    SSLCompression off
+    SSLProtocol All -SSLv2 -SSLv3
+    SSLCipherSuite EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH
+    #HSTS
+    Header always set Strict-Transport-Security "max-age=15768000; preload"
 
-                    #Proxy
-                    SSLProxyEngine On
-                    ProxyPreserveHost On
-                    ProxyPassMatch ^/sockjs/(.*)/websocket ws://127.0.0.1:3000/sockjs/$1/websocket
-                    ProxyPass / http://127.0.0.1:3000/
-                    ProxyPassReverse / http://127.0.0.1:3000/
-    </VirtualHost>
+    #Proxy
+    SSLProxyEngine On
+    ProxyPreserveHost On
+    ProxyPassMatch ^/sockjs/(.*)/websocket ws://127.0.0.1:3000/sockjs/$1/websocket
+    ProxyPass / http://127.0.0.1:3000/
+    ProxyPassReverse / http://127.0.0.1:3000/
+</VirtualHost>
+```
