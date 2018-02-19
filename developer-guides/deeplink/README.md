@@ -8,23 +8,11 @@
 
 ## Authentication
 
-### Without token
-
 **Params:**
 
 - host: The host of the server;
-
-**Example:**
-
-> rocketchat://auth?host=foo.bar.com
-
-### With token
-
-**Params:**
-
-- host: The host of the server;
-- token: The token of the user to be authenticated;
-- userId: The id of the user to be authenticated;
+- token (optiona): The token of the user to be authenticated;
+- userId (optiona): The id of the user to be authenticated;
 
 **Example:**
 
