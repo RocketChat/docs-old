@@ -184,6 +184,7 @@ Here you can also find what articles are incomplete and missing.
     - Branches and Releases
     - Code Styleguide:
         - <span class="incomplete">[Less](../missing-and-outdated-list/index.html#Less)</span>
+    - Deeplink
     - Iframe Integration:
         - <span class="missing">[Authentication](../missing-and-outdated-list/index.html#Authentication)</span>
         - Commands
