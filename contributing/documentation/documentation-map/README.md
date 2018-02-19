@@ -62,7 +62,7 @@ Here you can also find what articles are incomplete and missing.
     - Docker containers:
         - Generic Linux
         - systemd
-        - Hig Aavailability Install
+        - High Aavailability Install
         - Available Images
         - Docker Compose
     - Manual Installation:
