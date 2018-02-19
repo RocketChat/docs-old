@@ -3,8 +3,8 @@
 ## Install MongoDB Replicaset
 
 - Use <https://medium.com/@gargar454/deploy-a-mongodb-cluster-in-steps-9-using-docker-49205e231319#.8dfln7n8c> to setup the mongodb replicaset
-- Create oplogger user with rights on local oplog database:
-    `db.createUser({user: "oplogger", pwd: "password", roles: [{role: "read", db: "local"}]})`
+- Create a user called oploguser with rights on local oplog database:
+    `db.createUser({user: "oploguser", pwd: "password", roles: [{role: "read", db: "local"}]})`
 - Create rocket user to authenticate with rocketchat database:
     `db.createUser({user: "rocket", pwd: "password", roles: [{role: "readWrite", db: "rocketchat"}]})`
 
