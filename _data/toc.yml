@@ -296,11 +296,13 @@
         - delete
         - getAvatar
         - getPresence
+        - get-preferences
         - info
         - list
         - register
         - resetAvatar
         - setAvatar
+        - set-preferences
         - update
       - Offset and Count and Sort Info
       - Query and Fields Info
