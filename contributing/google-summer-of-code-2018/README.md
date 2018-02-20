@@ -87,7 +87,7 @@ Interested students are also encouraged to interact with our contributor communi
 ### PDF/File preview
 
 - **Mentors:** @rodrigo.nascimento
-- **Description:** Add small previews for non image files improving the UI/UX allowing users to see a preview of the contect before click to open the file, it includes PDF, Word Documents and similar, Excel Documents and similar, PowerPoint and similar, Text files, Sketch, Photoshop, etc.
+- **Description:** Add small previews for non image files improving the UI/UX allowing users to see a preview of the content before click to open the file, it includes PDF, Word Documents and similar, Excel Documents and similar, PowerPoint and similar, Text files, Sketch, Photoshop, etc.
 - **Desirable Skills:** Familiarity with JavaScript development.  Experience hacking documents conversion and/or rendering libraries is a big plus.
 
 ### Draw (iOS)
@@ -155,7 +155,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Game platform integration
 
-- **Mentors:** TBD
+- **Mentors:** @pierre.lehnen
 - **Description:** Integrate a multiplayer-capable game engine that runs on the web browser (eg. Unity WebGL, Phaser, Three.js) with Rocket.Chat. Let room members start small multiplayer games and play together.
 - **Desirable Skills:** Experienced with JavaScript, web browser game engines, and networking.
 
