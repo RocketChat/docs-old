@@ -342,11 +342,13 @@ Here you can also find what articles are incomplete and missing.
             - delete
             - getAvatar
             - getPresence
+            - getPreferences
             - info
             - list
             - register
             - resetAvatar
             - setAvatar
+            - setPreferences
             - update
         - Offset and Count and Sort Info
         - Query and Fields Info
