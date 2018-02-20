@@ -333,6 +333,9 @@ Here you can also find what articles are incomplete and missing.
             - users
         - Miscellaneous:
             - info
+        - Rooms:
+            - get
+            - upload
         - Settings:
             - get
             - update
