@@ -198,9 +198,12 @@
         - sendOfflineMessage
     - Rest API:
       - Authentication:
+        - facebook
+        - google
         - login
         - logout
         - me
+        - twitter
       - Channels:
         - addAll
         - addModerator
