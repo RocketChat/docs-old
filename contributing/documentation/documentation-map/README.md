@@ -248,6 +248,7 @@ Here you can also find what articles are incomplete and missing.
             - archive
             - cleanHistory
             - close
+            - counters
             - create
             - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
             - <span class="missing">[files](../missing-and-outdated-list/index.html#channelsfiles)</span>
@@ -291,6 +292,7 @@ Here you can also find what articles are incomplete and missing.
             - addOwner
             - archive
             - close
+            - counters
             - create
             - <span class="missing">[delete](../missing-and-outdated-list/index.html#groupsdelete)</span>
             - <span class="missing">[files](../missing-and-outdated-list/index.html#groupsfiles)</span>
@@ -314,8 +316,8 @@ Here you can also find what articles are incomplete and missing.
             - unarchive
         - Im:
             - close
+            - counters
             - <span class="missing">[files](../missing-and-outdated-list/index.html#imfiles)</span>
-
             - history
             - list.everyone
             - list

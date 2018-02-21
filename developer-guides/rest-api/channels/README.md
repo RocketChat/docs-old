@@ -8,6 +8,7 @@
 | `/api/v1/channels.archive` | Archives a channel. | [Link](archive/) |
 | `/api/v1/channels.cleanHistory` | Cleans up a channel's history, requires special permission. | [Link](cleanhistory/) |
 | `/api/v1/channels.close` | Removes a channel from a user's list of channels. | [Link](close/) |
+| `/api/v1/channels.counters` | Gets channel counters. | [Link](counters/) |
 | `/api/v1/channels.create` | Creates a new channel. | [Link](create/) |
 | `/api/v1/channels.getIntegrations` | Gets the channel's integration. | [Link](getintegrations/)
 | `/api/v1/channels.history` | Retrieves the messages from a channel. | [Link](history/) |

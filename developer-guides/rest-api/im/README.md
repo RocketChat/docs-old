@@ -3,6 +3,7 @@
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/im.close` | Removes a direct message from the list of direct messages. | [Link](close/) |
+| `/api/v1/im.counters` | Gets counters of direct messages. | [Link](counters/) |
 | `/api/v1/im.history` | Retrieves the messages from a direct message. | [Link](history/) |
 | `/api/v1/im.messages.others` | Retrieves the messages from any direct message in the server. | [Link](messages-others/) |
 | `/api/v1/im.list` | List the direct messages the caller is part of. | [Link](list/) |

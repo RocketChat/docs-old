@@ -208,6 +208,7 @@
         - archive
         - cleanHistory
         - close
+        - counters
         - create
         - getIntegrations
         - history
@@ -248,6 +249,7 @@
         - addOwner
         - archive
         - close
+        - counters
         - create
         - getIntegrations
         - history
@@ -268,6 +270,7 @@
         - unarchive
       - Im:
         - close
+        - counters
         - history
         - list.everyone
         - list
