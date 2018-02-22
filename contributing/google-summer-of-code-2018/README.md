@@ -13,17 +13,21 @@ redirect_from:
 
 Interested students should email the mentor(s) directly for discussion and further information.  You can also find them, most of the time, on our [community server](https://open.rocket.chat/)  for real-time chat.   Many of the mentors are fluent in both Portuguese and English.
 
-If you have ideas and proposals that are not on our idea list, or if a mentor is not available, please email to:
+For current information on the 2018 program and general discussions, please see GSoC 2018 category on our discussion forums:
 
-   gsoc+2018@rocket.chat
+<https://forums.rocket.chat/c/gsoc>
 
 For some real-time help on next steps, please visit our community server Google Summer of Code 2018 discussion channel:
 
 <https://open.rocket.chat/channel/gsoc18>
 
-For general discussions and information on the 2018 program, please see GSoC 2018 category on our discussion forums:
+If you have ideas and proposals that are not on our idea list, or if a mentor is not available, please email to:
 
-<https://forums.rocket.chat/c/gsoc>
+   gsoc+2018@rocket.chat
+
+Interested students are also encouraged to interact with our contributor community on Github:
+
+<https://github.com/RocketChat/Rocket.Chat>
 
 ## Timeline
 
@@ -76,32 +80,43 @@ For general discussions and information on the 2018 program, please see GSoC 201
 ### Built-in and server themes for iOS
 
 - **Mentors:** @matheus.cardoso
+- **Project repository:** <https://github.com/RocketChat/Rocket.Chat.iOS>
 - **Description:** Be part of our iOS team this summer to push Rocket.Chat's native iOS App to the next level!  You will - with our help - build the foundation for customizable user experience, support built-in themes for users to choose from and server-specific themes, allowing server owners to manifest the colors and feel of their communities.  You will have the chance to exchange experience with our engineers and designers, plus your work will have a great impact on the experience of thousands of users!
 - **Desirable Skills:** We are looking for an undergraduate student who is familiar with team work, developing iOS Apps using UIKit, Auto Layout and Swift, as well as writing maintainable code with Unit Tests.
 
 ### PDF/File preview
 
 - **Mentors:** @rodrigo.nascimento
-- **Description:** Add small previews for non image files improving the UI/UX allowing users to see a preview of the contect before click to open the file, it includes PDF, Word Documents and similar, Excel Documents and similar, PowerPoint and similar, Text files, Sketch, Photoshop, etc.
+- **Description:** Add small previews for non image files improving the UI/UX allowing users to see a preview of the content before click to open the file, it includes PDF, Word Documents and similar, Excel Documents and similar, PowerPoint and similar, Text files, Sketch, Photoshop, etc.
 - **Desirable Skills:** Familiarity with JavaScript development.  Experience hacking documents conversion and/or rendering libraries is a big plus.
 
 ### Draw (iOS)
 
 - **Mentors:** TBD
+- **Project repository:** <https://github.com/RocketChat/Rocket.Chat.iOS>
 - **Description:** Allow user to draw something using our iOS native app and send to Rocket.Chat channel. The draw would have different colors and "brush" options (pen, brush, pencil, etc). User will also be able to draw on top of an image selected from library or just shooted. On iPads, user will be able to use Apple Pencil to draw.
 - **Desirable Skills:**  Familiarity with Swift on iOS development.   Ability to work in large multi-disciplinary teams.
 
 ### Draw (Android)
 
 - **Mentors:** Saket Kumar (@saketkumar95)
+- **Project repository:** <https://github.com/RocketChat/Rocket.Chat.Android>
 - **Description:** Allow user to draw something using our Android native app and send to Rocket.Chat channel. The draw would have different colors and "brush" options (pen, brush, pencil, etc). User will also be able to draw on top of an image selected from library or just shooted.
-- **Desirable Skills:** Familiarity with Java or Kotlin development on Android.  Ability to work in large multi-disciplinary teams.
+- **Desirable Skills:** Familiarity with Java or Kotlin development on Android. Previous experience with working on the Android App development and using open source libraries would be helpful. Ability to work in large multi-disciplinary teams.
 
 ### Apple Watch App
 
 - **Mentors:** TBD
+- **Project repository:** <https://github.com/RocketChat/Rocket.Chat.iOS>
 - **Description:** Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such like viewing the chat rooms and reading the messages. Also let the user send a message to a chat using voice recognition.
 - **Desirable Skills:** Familiarity with WatchKit development on WatchOS.  Ability to work in large multi-disciplinary teams.
+
+### Android Wear App
+
+- **Mentors:** @filipe.brito
+- **Project repository:** <https://github.com/RocketChat/Rocket.Chat.Android>
+- **Description:** Create an Android Wear application that replicates the most basic features we have in our Android app, such like viewing the chat rooms and reading the messages.
+- **Desirable Skills:**  Familiarity with Kotlin development on Android. Ability to work in large multi-disciplinary teams.
 
 ### Enabling global decentralized blockchain powered crypto communities
 
@@ -112,12 +127,14 @@ For general discussions and information on the 2018 program, please see GSoC 201
 ### Siri
 
 - **Mentors:** TBD
+- **Project repository:** <https://github.com/RocketChat/Rocket.Chat.iOS>
 - **Description:** Let user send and respond to messages talking to Siri on Apple mobile devices.
 - **Desirable Skills:** Familiarity with SiriKit development.  Ability to work in large multi-disciplinary teams
 
 ### Google Assistant
 
 - **Mentors:** TBD
+- **Project repository:** <https://github.com/RocketChat/Rocket.Chat.Android>
 - **Description:** Let user send messages talking to Google Assistant.
 
 ### Performance tests
@@ -130,11 +147,6 @@ For general discussions and information on the 2018 program, please see GSoC 201
 - **Mentors:** @karl.prieb @guilherme.gazzo
 - **Description:** Create a javascript SDK that can be used on our ReactNative, Livechat and our webclient projects.
 
-### Android Wear App
-
-- **Mentors:** @filipe.brito
-- **Description:** Create an Android Wear application that replicates the most basic features we have in our Android app, such like viewing the chat rooms and reading the messages.
-
 ### Scripting support
 
 - **Mentors:** TDB
@@ -143,7 +155,7 @@ For general discussions and information on the 2018 program, please see GSoC 201
 
 ### Game platform integration
 
-- **Mentors:** TBD
+- **Mentors:** @pierre.lehnen
 - **Description:** Integrate a multiplayer-capable game engine that runs on the web browser (eg. Unity WebGL, Phaser, Three.js) with Rocket.Chat. Let room members start small multiplayer games and play together.
 - **Desirable Skills:** Experienced with JavaScript, web browser game engines, and networking.
 
@@ -155,7 +167,7 @@ For general discussions and information on the 2018 program, please see GSoC 201
 
 ### Open Source Bot Frameworks Adapters
 
-- **Mentors:** TBD (@diego.dorgam + ?)
+- **Mentors:** @diego.dorgam + @timkinnnae
 - **Description:** The objective is to widely open Rocket.Chat's bots ecosystem by developing connectors/adapters to open source bot frameworks available in the web, so their community can develop bots able to run on Rocket.Chat platform. The scope would include the following frameworks:
 
 - BotKit
@@ -166,7 +178,7 @@ For general discussions and information on the 2018 program, please see GSoC 201
 
 ### Buttons and Cards UI
 
-- **Mentors:** TBD (@diego.dorgam + ?)
+- **Mentors:** @diego.dorgam + @timkinnnae
 - **Description:** Include the possibility to send a message with customizable buttons and cards carousel (slidable images with text descriptions) so the user can interact with and bots can receive the feedback of those interactions, right on the Rocket.Chat's interface, and compatible (if possible) with existing UI conventions, so it becomes intuitive to their community to develop to Rocket.Chat.  
 - **Desirable Skills:** Familiarity with JavaScript development.
 
