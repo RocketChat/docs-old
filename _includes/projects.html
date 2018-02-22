@@ -9,7 +9,7 @@
 				</div>
 				<div class="card-pages">
 					{% for page in project.pages %}
-						<a href="{{ page[1] }}">{{ page[0] }}</a>
+						<a href="{{ project.path }}{{ page[1] }}">{{ page[0] }}</a>
 					{% endfor %}
 					{% capture http %}{{ project.path | truncate: 4, '' }}{% endcapture %}
 					{% if http == 'http' %}

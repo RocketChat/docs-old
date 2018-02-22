@@ -144,6 +144,7 @@
     - Branches and Releases
     - Code Styleguide:
       - less
+    - Deeplink
     - Iframe Integration:
       - Authentication
       - Commands
@@ -283,6 +284,9 @@
         - users
       - Miscellaneous:
         - info
+      - Rooms:
+        - get
+        - upload
       - Settings:
         - get
         - get-by-id

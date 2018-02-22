@@ -4,11 +4,11 @@
   description: Guides for the basic usage of Rocket.Chat.
   path: user-guides/
   pages:
-    Connecting to a Server: /user-guides/connecting-to-a-server/
-    Registration: /user-guides/registration/
-    Channels: /user-guides/channels/
-    Messaging: /user-guides/messaging/
-    Managing your Account: /user-guides/managing-your-account/
+    Connecting to a Server: connecting-to-a-server/
+    Registration: registration/
+    Channels: channels/
+    Messaging: messaging/
+    Managing your Account: managing-your-account/
 
 -
   name: Rocket.Chat Administrator Guides
@@ -16,12 +16,12 @@
   description: Guides for managing and configuring Rocket.Chat
   path: administrator-guides/
   pages:
-    Account Settings: /administrator-guides/account-settings/
-    Email: /administrator-guides/email/
-    Permissions: /administrator-guides/permissions/
-    Livechat: /administrator-guides/livechat/
-    File Upload: /administrator-guides/file-upload/
-    Integrations: /administrator-guides/integrations/
+    Account Settings: account-settings/
+    Email: email/
+    Permissions: permissions/
+    Livechat: livechat/
+    File Upload: file-upload/
+    Integrations: integrations/
 
 -
   name: Rocket.Chat Developer Guides
@@ -29,12 +29,12 @@
   description: Guides for developing and modifying Rocket.Chat's code
   path: developer-guides/
   pages:
-    Quick Start: /developer-guides/quick-start/
-    Branches and Releases: /developer-guides/branches-and-releases/
-    Testing: /developer-guides/testing/
-    Rest API: /developer-guides/rest-api/
-    Realtime API: /developer-guides/realtime-api/
-    Livechat API: /developer-guides/livechat-api/
+    Quick Start: quick-start/
+    Branches and Releases: branches-and-releases/
+    Testing: testing/
+    Rest API: rest-api/
+    Realtime API: realtime-api/
+    Livechat API: livechat-api/
 
 -
   name: Rocket.Chat Android
