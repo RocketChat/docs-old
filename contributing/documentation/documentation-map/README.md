@@ -339,6 +339,7 @@ Here you can also find what articles are incomplete and missing.
         - Settings:
             - get
             - update
+        - Spotlight
         - Users:
             - create
             - createToken
@@ -352,6 +353,7 @@ Here you can also find what articles are incomplete and missing.
             - setAvatar
             - update
         - Offset and Count and Sort Info
+        - Permissions
         - Query and Fields Info
         - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
         - <span class="incomplete">[Testing](../missing-and-outdated-list#Testing)</span>
