@@ -1,28 +1,49 @@
-- project:
-  name: "Rocket.Chat"
-  icon: "rocketchat"
-  description: "The Rocket.Chat Server."
+-
+  name: Rocket.Chat User Guides
+  icon: rocketchat
+  description: Guides for the basic usage of Rocket.Chat.
+  path: user-guides/
   pages:
-    - [true, "Installing & Upgrading", "/installation/"]
-    - [true, "User Guides", "/user-guides/"]
-    - [true, "Administrator Guides", "/administrator-guides/"]
-    - [true, "Developer Guides", "/developer-guides/"]
-    - [false, "Project on GitHub", "https://github.com/RocketChat/Rocket.Chat"]
-    - [false, "Documentation on GitHub", "https://github.com/RocketChat/docs"]
-- project:
-  name: "Rocket.Chat Android"
-  icon: "android"
-  description: "The Rocket.Chat Android."
+    Connecting to a Server: connecting-to-a-server/
+    Registration: registration/
+    Channels: channels/
+    Messaging: messaging/
+    Managing your Account: managing-your-account/
+
+-
+  name: Rocket.Chat Administrator Guides
+  icon: cog
+  description: Guides for managing and configuring Rocket.Chat
+  path: administrator-guides/
   pages:
-    - [false, "Project on GitHub", "https://github.com/RocketChat/Rocket.Chat.Android"]
-- project:
-  name: "Rocket.Chat iOS"
-  icon: "apple"
-  description: "The Rocket.Chat iOS."
+    Account Settings: account-settings/
+    Email: email/
+    Permissions: permissions/
+    Livechat: livechat/
+    File Upload: file-upload/
+    Integrations: integrations/
+
+-
+  name: Rocket.Chat Developer Guides
+  icon: code
+  description: Guides for developing and modifying Rocket.Chat's code
+  path: developer-guides/
   pages:
-    - [false, "Project on GitHub", "https://github.com/RocketChat/Rocket.Chat.iOS"]
-- project:
-  name: "Rocket.Chat Documentation"
-  description: "The Rocket.Chat Documentation."
-  pages:
-    - [false, "Documentation on GitHub", "https://github.com/RocketChat/docs"]
+    Quick Start: quick-start/
+    Branches and Releases: branches-and-releases/
+    Testing: testing/
+    Rest API: rest-api/
+    Realtime API: realtime-api/
+    Livechat API: livechat-api/
+
+-
+  name: Rocket.Chat Android
+  icon: android
+  description:
+  path: https://github.com/RocketChat/Rocket.Chat.Android
+
+-
+  name: Rocket.Chat iOS
+  icon: apple
+  description:
+  path: https://github.com/RocketChat/Rocket.Chat.iOS
