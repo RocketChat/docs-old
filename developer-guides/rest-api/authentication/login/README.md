@@ -1,18 +1,18 @@
 # Login
 
-| URL | Requires Auth | HTTP Method |
-| :--- | :--- | :--- | :--- |
-| `/api/v1/login` | `no` | `POST` |
+| URL             | Requires Auth | HTTP Method |
+| :-------------- | :------------ | :---------- |
+| `/api/v1/login` | `no`          | `POST`      |
 
 ## Payload
 
-| Argument | Example | Required | Description |
-| :--- | :--- | :--- | :--- |
-| `username` | `myusername` | Required | Your username |
+| Argument   | Example            | Required | Description   |
+| :--------- | :----------------- | :------- | :------------ |
+| `username` | `myusername`       | Required | Your username |
 | `password` | `my$up3erP@ssw0rd` | Required | Your password |
 
-* Notes:
- * **You will need to provide the `authToken` and `userId` for any of the authenticated methods.**
+- Notes:
+- **You will need to provide the `authToken` and `userId` for any of the authenticated methods.**
 
 ## Example Call - As Form Data
 

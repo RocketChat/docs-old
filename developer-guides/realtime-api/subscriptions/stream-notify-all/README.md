@@ -4,12 +4,12 @@ General user-wide stream.
 
 Events available:
 
- - roles-change
- - updateEmojiCustom
- - deleteEmojiCustom
- - updateAvatar
- - public-settings-changed
- - permissions-changed
+- roles-change
+- updateEmojiCustom
+- deleteEmojiCustom
+- updateAvatar
+- public-settings-changed
+- permissions-changed
 
 ```json
 {

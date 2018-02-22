@@ -1,6 +1,7 @@
 # Method: `livechat:getInitialData`
 
 ## DDP message
+
 ```json
 {"msg":"method","method":"livechat:getInitialData","params":["7T4jzes7rX3Fr6cQ2"],"id":"1"}"
 ```

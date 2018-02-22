@@ -6,27 +6,25 @@ The CSV importer allows you to import your own plain text files, however it does
 
 The zip file must be a **flat zip**, which means there can **not** be a "root" or "sub" folder in which the items reside in the zip file. The importer looks for the files `channels.csv` and `users.csv` immediately inside the zip and not inside of any folder. If you have any questions about this, please ask in [#support channel on the Community server](https://open.rocket.chat/channel/support).
 
-```
-fileToImport.zip
-├── channels.csv
-├── users.csv
-├── general
-│   └── messages.csv
-├── otherChannelName
-│   ├── canBeAnyNameButHasToHave.csv
-│   ├── theDotCSV.csv
-│   └── asTheFileExt.csv
-├── privateArea
-│   └── messages.csv
-└── random
-    ├── dateTimeStamp1.csv
-    ├── dateTimeStamp2.csv
-    └── dateTimeStamp3.csv
-```
+    fileToImport.zip
+    ├── channels.csv
+    ├── users.csv
+    ├── general
+    │   └── messages.csv
+    ├── otherChannelName
+    │   ├── canBeAnyNameButHasToHave.csv
+    │   ├── theDotCSV.csv
+    │   └── asTheFileExt.csv
+    ├── privateArea
+    │   └── messages.csv
+    └── random
+        ├── dateTimeStamp1.csv
+        ├── dateTimeStamp2.csv
+        └── dateTimeStamp3.csv
 
 ## channels.csv Format
 
-The `channels.csv` requires a **very** specific structure and layout. Each line contains information about one channel. Each line must include the channel name, the creator, whether it is private or public, and the members in the channel separated by a semicolon `;`. Quotes are ***required***.
+The `channels.csv` requires a **very** specific structure and layout. Each line contains information about one channel. Each line must include the channel name, the creator, whether it is private or public, and the members in the channel separated by a semicolon `;`. Quotes are **_required_**.
 
 1. Channel name
 2. Username of the channel creator
@@ -71,7 +69,7 @@ The message csv files require a **very** specific format. Each line contains a n
 
 Once you have that all set up and zipped, then you can start the import process.
 
-1. Go to <https://[your_rocketchat]/admin/import/prepare/csv>
+1. Go to `https://[your_rocketchat]/admin/import/prepare/csv`
 2. Choose your `.zip` file and wait until Rocket.Chat can read it (it can take a few minutes, depending on the size of the file)
 3. Deselect any items you **don't** want to import
 4. At the top of the page, click on Start Importing

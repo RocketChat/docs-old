@@ -6,7 +6,7 @@
 
 This is the unique name for your application as a Service Provider (SP) for SAML. Whatever you enter here will produce a metadata XML file you will need in order to populate the metadata your IdP (Identity Provider) requires. For example, if you put 'my-app', then your metadata will be at:
 
-<https://my-rocketchat-domain.tld/_saml/metadata/my-app>
+`https://my-rocketchat-domain.tld/_saml/metadata/my-app`
 
 ### Custom Entry Point (IDP SSO Redirect URL)
 
@@ -20,7 +20,7 @@ This is the URL provided by your IdP for logging out. In SAML-terminology, the i
 
 The URI that is the unique identifier of your service. By convention, this is also URL of your (unedited) metadata, again, where you set Custom Provider to 'my-app' this will be:
 
-<https://my-rocketchat-domain.tld/_saml/metadata/my-app>
+`https://my-rocketchat-domain.tld/_saml/metadata/my-app`
 
 ### Custom Certificate (IDP Signing Certificate)
 
@@ -42,7 +42,7 @@ You will have to send email field in your assertion or it will not work. If the 
 
 As a popular open source IdP, SimpleSAMLphp can be used to provide an authentication endpoint for Rocket.Chat and the built in SAML support. Assuming you have a SimpleSAMLphp IdP up and running - [quickstart intructions here](https://simplesamlphp.org/docs/stable/simplesamlphp-idp) - you can find the metadata for the Rocket.Chat SAML Service Provider (SP) here, where 'my-app' is whatever you put in the 'Custom Provider' box in the Rocket.Chat SAML admin page:
 
-<https://my-rocketchat-domain.tld/_saml/metadata/my-app>
+`https://my-rocketchat-domain.tld/_saml/metadata/my-app`
 
 Copy the XML on this page, open the metadata converter page in your SimpleSAMLphp admin UI (which you'll find at `/admin/metadata-converter.php`), paste the XML and submit.
 

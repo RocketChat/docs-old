@@ -1,11 +1,13 @@
 # Command List
+
 Lists all available slash commands.
 
-| URL | Requires Auth | HTTP Method |
-| :--- | :--- | :--- |
-| `/api/v1/commands.list` | `yes` | `GET` |
+| URL                     | Requires Auth | HTTP Method |
+| :---------------------- | :------------ | :---------- |
+| `/api/v1/commands.list` | `yes`         | `GET`       |
 
 ## Example Call
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -13,6 +15,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Result
+
 ```json
 {
     "commands": [
@@ -129,5 +132,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Change Log
 
 | Version | Description |
-| :--- | :--- |
-| 0.60.2 | Added |
+| :------ | :---------- |
+| 0.60.2  | Added       |

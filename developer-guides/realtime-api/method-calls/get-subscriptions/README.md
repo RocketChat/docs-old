@@ -10,7 +10,7 @@ Example call:
     "method": "subscriptions/get",
     "id": "42",
     "params": [ { "$date": 1480377601 } ]
-} 
+}
 ```
 
 Response:

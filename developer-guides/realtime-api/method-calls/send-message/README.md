@@ -100,9 +100,10 @@ Second request (`sendFileMessage`):
 ```
 
 ## See Also
-* [The Message Object][1]
-* [Delete Message Method][2]
-* [Update Message Method][3]
+
+- [The Message Object][1]
+- [Delete Message Method][2]
+- [Update Message Method][3]
 
 [1]:../../the-message-object/
 [2]:../delete-message/
