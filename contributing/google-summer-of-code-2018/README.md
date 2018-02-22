@@ -178,7 +178,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Buttons and Cards UI
 
-- **Mentors:** @diego.dorgam + @timkinnnae
+- **Mentors:** @diego.dorgam + @timkinnnae + @JSzaszvari
 - **Description:** Include the possibility to send a message with customizable buttons and cards carousel (slidable images with text descriptions) so the user can interact with and bots can receive the feedback of those interactions, right on the Rocket.Chat's interface, and compatible (if possible) with existing UI conventions, so it becomes intuitive to their community to develop to Rocket.Chat.  
 - **Desirable Skills:** Familiarity with JavaScript development.
 
