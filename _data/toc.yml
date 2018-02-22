@@ -306,6 +306,7 @@
         - setAvatar
         - update
       - Offset and Count and Sort Info
+      - Permissions
       - Query and Fields Info
     - Schema Definition
     - Testing
