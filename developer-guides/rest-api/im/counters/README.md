@@ -26,13 +26,14 @@ curl -H "X-Auth-Token: 8h2mKAwxB3AQrFSjLVKMooJyjdCFaA7W45sWlHP8IzO" \
 
 ```json
 {
-   "joined":true,
-   "members":2,
-   "unreads":0,
-   "unreadsFrom":"2018-02-21T21:08:51.026Z",
-   "msgs":0,
-   "userMentions":0,
-   "success":true
+  "joined":true,
+  "members":2,
+  "unreads":0,
+  "unreadsFrom":"2018-02-21T21:08:51.026Z",
+  "msgs":0,
+  "latest":"2018-02-21T21:08:51.026Z",
+  "userMentions":0,
+  "success":true
 }
 
 where:
