@@ -9,8 +9,8 @@ Lists all of the direct messages the calling user has joined. It supports the [O
 ## Example Call
 
 ```bash
-curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
-     -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+curl -H "X-Auth-Token: 8h2mKAwxB3AQrFSjLVKMooJyjdCFaA7W45sWlHP8IzO" \
+     -H "X-User-Id: ew28FnZqipDpvKw3R" \
      http://localhost:3000/api/v1/im.list
 ```
 
@@ -20,43 +20,37 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 {
     "ims": [
         {
-            "_id": "ByehQjC44FwMeiLbX",
-            "name": "test-test",
-            "t": "p",
-            "usernames": [
-                "testing1"
-            ],
-            "msgs": 0,
-            "u": {
-                "_id": "aobEdbYhXfu5hkeqG",
-                "username": "testing1"
-            },
-            "ts": "2016-12-09T15:08:58.042Z",
-            "ro": false,
-            "sysMes": true,
-            "_updatedAt": "2016-12-09T15:22:40.656Z"
+            "_id":"ew28FnZqipDpvKw3Rrocket.cat",
+            "_updatedAt":"2018-02-23T17:58:56.147Z",
+            "t":"d",
+            "msgs":22,
+            "ts":"2018-02-18T19:51:52.557Z",
+            "lm":"2018-02-23T17:58:56.136Z",
+            "topic":"a direct message with rocket.cat"
         },
         {
-            "_id": "t7qapfhZjANMRAi5w",
-            "name": "testing",
-            "t": "p",
-            "usernames": [
-                "testing2"
-            ],
-            "msgs": 0,
-            "u": {
-                "_id": "y65tAmHs93aDChMWu",
-                "username": "testing2"
-            },
-            "ts": "2016-12-01T15:08:58.042Z",
-            "ro": false,
-            "sysMes": true,
-            "_updatedAt": "2016-12-09T15:22:40.656Z"
+            "_id":"RtycPC29hqLJfT9xjew28FnZqipDpvKw3R",
+            "_updatedAt":"2018-02-23T18:14:03.510Z",
+            "t":"d",
+            "msgs":2,
+            "ts":"2018-02-21T21:08:51.026Z",
+            "lm":"2018-02-23T18:14:03.490Z",
+            "username":"rocketchat.internal.admin.test"
+        },
+        {
+            "_id":"ew28FnZqipDpvKw3Rf2CAhYGtjS9iNZ7nd",
+            "_updatedAt":"2018-02-23T17:45:56.496Z",
+            "t":"d",
+            "msgs":1,
+            "ts":"2018-02-23T17:32:28.016Z",
+            "lm":"2018-02-23T17:45:56.475Z"
         }
     ],
-    "success": true
+    "offset":0,
+    "count":3,
+    "total":3,
+    "success":true
 }
-
 ```
 
 ## Query Example Call
