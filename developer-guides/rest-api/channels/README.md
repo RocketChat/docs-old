@@ -24,7 +24,7 @@
 | `/api/v1/channels.setCustomFields` | Sets a channel's custom fields. | [Link](setcustomfields/) |
 | `/api/v1/channels.setDescription` | Sets a channel's description. | [Link](setdescription/) |
 | `/api/v1/channels.setJoinCode` | Sets the channel's code required to join it. | [Link](setjoincode/) |
-| `/api/v1/channels.setPurpose` | Sets a channel's purpose. | [Link](setpurpose/) |
+| `/api/v1/channels.setPurpose` | Sets a channel's description. | [Link](setpurpose/) |
 | `/api/v1/channels.setReadOnly` | Sets whether a channel is read only or not. | [Link](setreadonly/) |
 | `/api/v1/channels.setTopic` | Sets a channel's topic. | [Link](settopic/) |
 | `/api/v1/channels.setType` | Sets the type of room the channel should be. | [Link](settype/) |

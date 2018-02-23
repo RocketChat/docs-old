@@ -1,6 +1,6 @@
 # Group Set Purpose
 
-Sets the purpose for the private group.
+Sets the description for the private group.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -11,7 +11,7 @@ Sets the purpose for the private group.
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The private group's id |
-| `purpose` | `Test out everything.` | Required | The purpose to set for the private group. |
+| `purpose` | `Test out everything.` | Required | The description to set for the private group. |
 
 ## Example Call
 

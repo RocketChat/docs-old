@@ -68,7 +68,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.setCustomFields` | Sets a channel's custom fields.                             | [Link](channels/setcustomfields/) |
 | `/api/v1/channels.setDescription`  | Sets a channel's description.                               | [Link](channels/setdescription/)  |
 | `/api/v1/channels.setJoinCode`     | Sets the channel's code required to join it.                | [Link](channels/setjoincode/)     |
-| `/api/v1/channels.setPurpose`      | Sets a channel's purpose.                                   | [Link](channels/setpurpose/)      |
+| `/api/v1/channels.setPurpose`      | Sets a channel's description.                               | [Link](channels/setpurpose/)      |
 | `/api/v1/channels.setReadOnly`     | Sets whether a channel is read only or not.                 | [Link](channels/setreadonly/)     |
 | `/api/v1/channels.setTopic`        | Sets a channel's topic.                                     | [Link](channels/settopic/)        |
 | `/api/v1/channels.setType`         | Sets the type of room the channel should be.                | [Link](channels/settype/)         |
@@ -91,7 +91,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.rename`          | Changes the name of the private group.             | [Link](groups/rename/)          |
 | `/api/v1/groups.setCustomFields` | Sets private group's custom fields.                | [Link](groups/setcustomfields/) |
 | `/api/v1/groups.setDescription`  | Sets a private group's description.                | [Link](groups/setdescription/)  |
-| `/api/v1/groups.setPurpose`      | Sets a private group's purpose.                    | [Link](groups/setpurpose/)      |
+| `/api/v1/groups.setPurpose`      | Sets a private group's description.                | [Link](groups/setpurpose/)      |
 | `/api/v1/groups.setReadOnly`     | Sets whether the room is read only or not.         | [Link](groups/setreadonly/)     |
 | `/api/v1/groups.setTopic`        | Sets a private group's topic.                      | [Link](groups/settopic/)        |
 | `/api/v1/groups.setType`         | Sets the type of room this group will be.          | [Link](groups/settype/)         |
