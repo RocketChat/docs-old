@@ -35,6 +35,7 @@
     - Scalingo
     - Sloppy.io
     - WeDeploy
+    - D2C.io
   - Docker containers:
     - Generic Linux
     - systemd
@@ -143,6 +144,7 @@
     - Branches and Releases
     - Code Styleguide:
       - less
+    - Deeplink
     - Iframe Integration:
       - Authentication
       - Commands
@@ -282,9 +284,16 @@
         - users
       - Miscellaneous:
         - info
+      - Rooms:
+        - get
+        - upload
       - Settings:
         - get
+        - get-by-id
+        - public
+        - service-configuration
         - update
+      - Spotlight
       - Users:
         - create
         - createToken
@@ -298,6 +307,7 @@
         - setAvatar
         - update
       - Offset and Count and Sort Info
+      - Permissions
       - Query and Fields Info
     - Schema Definition
     - Testing

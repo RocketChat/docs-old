@@ -4,7 +4,7 @@ The REST API allows you to control and extend Rocket.Chat with ease.
 
 > **This API is a work in progress, so feel free to test, ask us questions, and submit Pull Requests!**
 
-If you are an end-user and not a dev or a tester, [create an issue](https://github.com/RocketChat/Rocket.Chat/issues/new) to request new APIs -- and consider [make a donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZL94ZE6LGVUSN) to the project.
+If you are an end-user and not a dev or a tester, [create an issue](https://github.com/RocketChat/Rocket.Chat/issues/new) to request new APIs -- and consider [making a donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZL94ZE6LGVUSN) to the project.
 
 > All API calls in the documentation are made using `curl`.  However, you are free to use Java / Python / PHP / Golang / Ruby / Swift / Objective-C / Rust / Scala / C# or any other programming languages.
 
@@ -121,6 +121,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/im.open`            | Adds the direct message back to the list of direct messages.  | [Link](im/open/)            |
 | `/api/v1/im.setTopic`        | Sets a direct message topic.                                  | [Link](im/settopic/)        |
 
+### Rooms
+
+| Url                          | Short Description                    | Details Page          |
+| :--------------------------- | :----------------------------------- | :-------------------- |
+| `/api/v1/rooms.get`          | Gets rooms.                          | [Link](rooms/get/)    |
+| `/api/v1/rooms.upload/:rid`  | Upload a message with attached file. | [Link](rooms/upload/) |
+
 ### Command Methods
 
 | Url                     | Short Description                              | Details Page           |
@@ -129,12 +136,21 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/commands.list` | Lists all available slash commands.            | [Link](commands/list/) |
 | `/api/v1/commands.run`  | Execute a slash command in the specified room. | [Link](commands/run/)  |
 
+### Emoji Custom
+
+| Url                     | Short Description                              | Details Page               |
+| :---------------------- | :--------------------------------------------- | :---------------------     |
+| `/api/v1/emoji-custom`  | List the custom emojis available.              | [Link](emoji-custom/get/)  |
+
 ### Settings
 
-| Url                     | Method | Short Description  | Details Page             |
-| :---------------------- | :----- | :----------------- | :----------------------- |
-| `/api/v1/settings/:_id` | `GET`  | Gets a setting.    | [Link](settings/get/)    |
-| `/api/v1/settings/:_id` | `POST` | Updates a setting. | [Link](settings/update/) |
+| Url                               | Method | Short Description                  | Details Page                                    |
+| :-------------------------------- | :----- | :--------------------------------- | :---------------------------------------------- |
+| `/api/v1/settings`                | `GET`  | Lists all private settings.        | [Link](settings/get/)                           |
+| `/api/v1/settings.public`         | `GET`  | Lists all public settings.         | [Link](settings/public/)                    |
+| `/api/v1/service.configurations`  | `GET`  | Lists all service configurations.  | [Link](settings/service-configuration/)    |
+| `/api/v1/settings/:_id`           | `GET`  | Gets a setting.                    | [Link](settings/get-by-id/)                     |
+| `/api/v1/settings/:_id`           | `POST` | Updates a setting.                 | [Link](settings/update/)                        |
 
 ## Language specific wrappers
 

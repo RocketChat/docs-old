@@ -5,7 +5,7 @@ This is the user stream.
 Events available:
 
 - message
-- otr
+- otr (Off the Record Message)
 - webrtc
 - notification
 - rooms-changed
