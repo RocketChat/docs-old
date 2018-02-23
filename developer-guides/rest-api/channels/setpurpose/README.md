@@ -1,6 +1,6 @@
 # Channel Set Purpose
 
-Sets the description for the channel.
+Sets the purpose for the channel.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -11,7 +11,7 @@ Sets the description for the channel.
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |
-| `purpose` | `Test out everything.` | Required | The description to set for the channel. |
+| `purpose` | `Test out everything.` | Required | The purpose to set for the channel. |
 
 ## Example Call
 

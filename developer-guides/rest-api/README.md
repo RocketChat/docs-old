@@ -65,9 +65,10 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.list.joined`     | Gets only the channels the calling user has joined.         | [Link](channels/list-joined/)     |
 | `/api/v1/channels.open`            | Adds the channel back to the user's list of channels.       | [Link](channels/open/)            |
 | `/api/v1/channels.rename`          | Changes a channel's name.                                   | [Link](channels/rename/)          |
+| `/api/v1/channels.setCustomFields` | Sets a channel's custom fields.                             | [Link](channels/setcustomfields/) |
 | `/api/v1/channels.setDescription`  | Sets a channel's description.                               | [Link](channels/setdescription/)  |
 | `/api/v1/channels.setJoinCode`     | Sets the channel's code required to join it.                | [Link](channels/setjoincode/)     |
-| `/api/v1/channels.setPurpose`      | Sets a channel's description.                               | [Link](channels/setpurpose/)      |
+| `/api/v1/channels.setPurpose`      | Sets a channel's purpose.                                   | [Link](channels/setpurpose/)      |
 | `/api/v1/channels.setReadOnly`     | Sets whether a channel is read only or not.                 | [Link](channels/setreadonly/)     |
 | `/api/v1/channels.setTopic`        | Sets a channel's topic.                                     | [Link](channels/settopic/)        |
 | `/api/v1/channels.setType`         | Sets the type of room the channel should be.                | [Link](channels/settype/)         |
@@ -75,25 +76,26 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Groups
 
-| Url                             | Short Description                                  | Details Page                   |
-| :------------------------------ | :------------------------------------------------- | :----------------------------- |
-| `/api/v1/groups.archive`        | Archives a private group.                          | [Link](groups/archive/)        |
-| `/api/v1/groups.close`          | Removes a private group from the list of groups.   | [Link](groups/close/)          |
-| `/api/v1/groups.create`         | Creates a new private group.                       | [Link](groups/create/)         |
-| `/api/v1/groups.history`        | Retrieves the messages from a private group.       | [Link](groups/history/)        |
-| `/api/v1/groups.info`           | Gets the information about a private group.        | [Link](groups/info/)           |
-| `/api/v1/groups.invite`         | Adds a user to the private group.                  | [Link](groups/invite/)         |
-| `/api/v1/groups.kick`           | Removes a user from a private group.               | [Link](groups/kick/)           |
-| `/api/v1/groups.leave`          | Removes the calling user from the private group.   | [Link](groups/leave/)          |
-| `/api/v1/groups.list`           | List the private groups the caller is part of.     | [Link](groups/list/)           |
-| `/api/v1/groups.open`           | Adds the private group back to the list of groups. | [Link](groups/open/)           |
-| `/api/v1/groups.rename`         | Changes the name of the private group.             | [Link](groups/rename/)         |
-| `/api/v1/groups.setDescription` | Sets a private group's description.                | [Link](groups/setdescription/) |
-| `/api/v1/groups.setPurpose`     | Sets a private group's description.                | [Link](groups/setpurpose/)     |
-| `/api/v1/groups.setReadOnly`    | Sets whether the room is read only or not.         | [Link](groups/setreadonly/)    |
-| `/api/v1/groups.setTopic`       | Sets a private group's topic.                      | [Link](groups/settopic/)       |
-| `/api/v1/groups.setType`        | Sets the type of room this group will be.          | [Link](groups/settype/)        |
-| `/api/v1/groups.unarchive`      | Unarchives a private group.                        | [Link](groups/unarchive/)      |
+| Url                              | Short Description                                  | Details Page                    |
+| :------------------------------- | :------------------------------------------------- | :------------------------------ |
+| `/api/v1/groups.archive`         | Archives a private group.                          | [Link](groups/archive/)         |
+| `/api/v1/groups.close`           | Removes a private group from the list of groups.   | [Link](groups/close/)           |
+| `/api/v1/groups.create`          | Creates a new private group.                       | [Link](groups/create/)          |
+| `/api/v1/groups.history`         | Retrieves the messages from a private group.       | [Link](groups/history/)         |
+| `/api/v1/groups.info`            | Gets the information about a private group.        | [Link](groups/info/)            |
+| `/api/v1/groups.invite`          | Adds a user to the private group.                  | [Link](groups/invite/)          |
+| `/api/v1/groups.kick`            | Removes a user from a private group.               | [Link](groups/kick/)            |
+| `/api/v1/groups.leave`           | Removes the calling user from the private group.   | [Link](groups/leave/)           |
+| `/api/v1/groups.list`            | List the private groups the caller is part of.     | [Link](groups/list/)            |
+| `/api/v1/groups.open`            | Adds the private group back to the list of groups. | [Link](groups/open/)            |
+| `/api/v1/groups.rename`          | Changes the name of the private group.             | [Link](groups/rename/)          |
+| `/api/v1/groups.setCustomFields` | Sets private group's custom fields.                | [Link](groups/setcustomfields/) |
+| `/api/v1/groups.setDescription`  | Sets a private group's description.                | [Link](groups/setdescription/)  |
+| `/api/v1/groups.setPurpose`      | Sets a private group's purpose.                    | [Link](groups/setpurpose/)      |
+| `/api/v1/groups.setReadOnly`     | Sets whether the room is read only or not.         | [Link](groups/setreadonly/)     |
+| `/api/v1/groups.setTopic`        | Sets a private group's topic.                      | [Link](groups/settopic/)        |
+| `/api/v1/groups.setType`         | Sets the type of room this group will be.          | [Link](groups/settype/)         |
+| `/api/v1/groups.unarchive`       | Unarchives a private group.                        | [Link](groups/unarchive/)       |
 
 ### Chat
 
