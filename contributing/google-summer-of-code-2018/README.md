@@ -184,7 +184,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Use Voice Recognition APIs
 
-- **Mentors:** TBD
+- **Mentors:** @gabriel.delavald
 - **Description:** Develop a voice recognition integration feature, by building a `Settings` pane to connect some of the well-known voice recognition and speech to text APIs on the market directly from within Rocket.Chat. By configuring API's connection and usage attributes, and giving rocket.chat's UI the ability to click a button, record a message, send to the desired API and return the results to Rocket.Chat editing message box. The project scope could include the following APIs:
 - IBM Watson's
 - AWS Lex
@@ -195,7 +195,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Built-in Speech2Text Engine
 
-- **Mentors:** TBD
+- **Mentors:** @gabriel.delavald
 - **Description:** Integrate an Open Source speech to text engine to be used inside Rocket.Chat by users who prefer an On-Premise full featured installation. There are many opensource speech2text engines on the market, like CMUSphinx and pocketsphinxjs, annyang, JuliusJS, Mumble, Voix JS, voice-commands.js and Artyon.js. This project will include a feature matrix comparison between those engines and the best one to be implemented in Rocket.Chat bundle, giving the UI the ability to click a button, record a message, send it to the text2speech engine and return the results to Rocket.Chat editing message box.
 - **Desirable Skills:** Familiarity with JavaScript development and speech2text techniques.
 

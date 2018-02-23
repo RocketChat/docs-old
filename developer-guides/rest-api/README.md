@@ -123,6 +123,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/im.open`            | Adds the direct message back to the list of direct messages.  | [Link](im/open/)            |
 | `/api/v1/im.setTopic`        | Sets a direct message topic.                                  | [Link](im/settopic/)        |
 
+### Rooms
+
+| Url                          | Short Description                    | Details Page          |
+| :--------------------------- | :----------------------------------- | :-------------------- |
+| `/api/v1/rooms.get`          | Gets rooms.                          | [Link](rooms/get/)    |
+| `/api/v1/rooms.upload/:rid`  | Upload a message with attached file. | [Link](rooms/upload/) |
+
 ### Command Methods
 
 | Url                     | Short Description                              | Details Page           |

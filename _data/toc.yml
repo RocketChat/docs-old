@@ -284,12 +284,16 @@
         - users
       - Miscellaneous:
         - info
+      - Rooms:
+        - get
+        - upload
       - Settings:
         - get
         - get-by-id
         - public
         - service-configuration
         - update
+      - Spotlight
       - Users:
         - create
         - createToken
@@ -305,6 +309,7 @@
         - set-preferences
         - update
       - Offset and Count and Sort Info
+      - Permissions
       - Query and Fields Info
     - Schema Definition
     - Testing
