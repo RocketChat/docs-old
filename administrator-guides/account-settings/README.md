@@ -29,7 +29,7 @@ In this guide we will go over all settings in the _Accounts_ Section.
 
 ## Iframe
 
-These settings are related to the Iframe Integration, please se the [Iframe integration page](../../developer-guides/iframe-integration) for more details.
+These settings are related to the Iframe Integration, please see the [Iframe integration page](../../developer-guides/iframe-integration) for more details.
 
 ## Registration
 
