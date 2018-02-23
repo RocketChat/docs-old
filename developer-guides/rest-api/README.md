@@ -32,19 +32,21 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Users
 
-| Url                         | Short Description                                               | Details Page               |
-| :-------------------------- | :-------------------------------------------------------------- | :------------------------- |
-| `/api/v1/users.create`      | Create a new user.                                              | [Link](users/create/)      |
-| `/api/v1/users.createToken` | Create a user authentication token.                             | [Link](users/createtoken/) |
-| `/api/v1/users.delete`      | Deletes an existing user.                                       | [Link](users/delete/)      |
-| `/api/v1/users.getAvatar`   | Gets the URL for a user's avatar.                               | [Link](users/getavatar/)   |
-| `/api/v1/users.getPresence` | Gets the online presence of the a user.                         | [Link](users/getpresence/) |
-| `/api/v1/users.info`        | Gets a user's information, limited to the caller's permissions. | [Link](users/info/)        |
-| `/api/v1/users.list`        | All of the users and their information, limited to permissions. | [Link](users/list/)        |
-| `/api/v1/users.register`    | Register a new user.                                            | [Link](users/register/)    |
-| `/api/v1/users.resetAvatar` | Reset a user's avatar                                           | [Link](users/resetavatar/) |
-| `/api/v1/users.setAvatar`   | Set a user's avatar                                             | [Link](users/setavatar/)   |
-| `/api/v1/users.update`      | Update an existing user.                                        | [Link](users/update/)      |
+| Url                                 | Short Description                                               | Details Page                        |
+| :---------------------------------- | :-------------------------------------------------------------- | :---------------------------------- |
+| `/api/v1/users.create`              | Create a new user.                                              | [Link](users/create/)               |
+| `/api/v1/users.createToken`         | Create a user authentication token.                             | [Link](users/createtoken/)          |
+| `/api/v1/users.delete`              | Deletes an existing user.                                       | [Link](users/delete/)               |
+| `/api/v1/users.getAvatar`           | Gets the URL for a user's avatar.                               | [Link](users/getavatar/)            |
+| `/api/v1/users.getPresence`         | Gets the online presence of the a user.                         | [Link](users/getpresence/)          |
+| `/api/v1/users.info`                | Gets a user's information, limited to the caller's permissions. | [Link](users/info/)                 |
+| `/api/v1/users.list`                | All of the users and their information, limited to permissions. | [Link](users/list/)                 |
+| `/api/v1/users.register`            | Register a new user.                                            | [Link](users/register/)             |
+| `/api/v1/users.resetAvatar`         | Reset a user's avatar                                           | [Link](users/resetavatar/)          |
+| `/api/v1/users.setAvatar`           | Set a user's avatar                                             | [Link](users/setavatar/)            |
+| `/api/v1/users.update`              | Update an existing user.                                        | [Link](users/update/)               |
+| `/api/v1/users.getPreferences`      | Gets all preferences of user.                                   | [Link](users/get-preferences/)      |
+| `/api/v1/users.setPreferences`      | Set user's preferences                                          | [Link](users/set-preferences/)      |
 
 ### Channels
 
@@ -123,6 +125,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/im.list.everyone`   | List all direct message the caller in the server.             | [Link](im/list-everyone/)   |
 | `/api/v1/im.open`            | Adds the direct message back to the list of direct messages.  | [Link](im/open/)            |
 | `/api/v1/im.setTopic`        | Sets a direct message topic.                                  | [Link](im/settopic/)        |
+
+### Rooms
+
+| Url                          | Short Description                    | Details Page          |
+| :--------------------------- | :----------------------------------- | :-------------------- |
+| `/api/v1/rooms.get`          | Gets rooms.                          | [Link](rooms/get/)    |
+| `/api/v1/rooms.upload/:rid`  | Upload a message with attached file. | [Link](rooms/upload/) |
 
 ### Command Methods
 

@@ -1,6 +1,6 @@
 # Login
 
-Used for user login. It supports a plenthora of authentication services, including a simple username and password combination. The list of supported auth services (and its configurations) lies in the `meteor_accounts_loginServiceConfiguration` collection.
+Used for user login. It supports a plethora of authentication services, including a simple username and password combination. The list of supported auth services (and its configurations) lies in the `meteor_accounts_loginServiceConfiguration` collection.
 
 The overall format of the login message is:
 
