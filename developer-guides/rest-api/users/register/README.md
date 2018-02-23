@@ -12,7 +12,7 @@
 | `email` | `roger@example.com` | Required | The email for the user. |
 | `pass` | `passw0rd` | Required | The password for the user. |
 | `name` | `Roger Smith` | Required | The name of the user. |
-| `secretURL` | `http://localhost:3000/secret/registration/url` | Optional | URL provided to users for registration |
+| `secretURL` | `Jjwjg6gouWLXhMGKW` | Optional | String appended to secret registration URL (if using). |
 
 ## Example Call
 
