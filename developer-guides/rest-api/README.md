@@ -18,9 +18,11 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Miscellaneous Information
 
-| Url            | Short Description                         | Details Page                |
-| :------------- | :---------------------------------------- | :-------------------------- |
-| `/api/v1/info` | Information about the Rocket.Chat server. | [Link](miscellaneous/info/) |
+| Url                       | Short Description                                   | Details Page                           |
+| :------------------------ | :-------------------------------------------------- | :------------------------------------- |
+| `/api/v1/info`            | Information about the Rocket.Chat server.           | [Link](miscellaneous/info/)            |
+| `/api/v1/statistics`      | Statistics about the Rocket.Chat server.            | [Link](miscellaneous/statistics/)      |
+| `/api/v1/statistics.list` | Selectable statistics about the Rocket.Chat server. | [Link](miscellaneous/statistics-list/) |
 
 ### Authentication
 

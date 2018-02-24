@@ -284,6 +284,8 @@
         - users
       - Miscellaneous:
         - info
+        - statistics
+        - statistics.list
       - Rooms:
         - get
         - upload
