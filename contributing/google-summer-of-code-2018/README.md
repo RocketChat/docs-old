@@ -176,11 +176,12 @@ Interested students are also encouraged to interact with our contributor communi
 
 - **Desirable Skills:** Familiarity with JavaScript and Python development.
 
-### Buttons and Cards UI
+### Rich Messages and Payloads for Buttons and Cards
 
 - **Mentors:** @diego.dorgam + @timkinnnae
-- **Description:** Include the possibility to send a message with customizable buttons and cards carousel (slidable images with text descriptions) so the user can interact with and bots can receive the feedback of those interactions, right on the Rocket.Chat's interface, and compatible (if possible) with existing UI conventions, so it becomes intuitive to their community to develop to Rocket.Chat.  
-- **Desirable Skills:** Familiarity with JavaScript development.
+- **Description:** Create UI components and develop the handling of message payloads to support new interactions for bots, like buttons, cards, images and more. Follow existing conventions to let bot developers migrate pre-built solutions to be delivered via Rocket.Chat. This opens the door for enhanced user experience and interaction flows in automated messaging, letting bots provide a much greater variety of utility; such as business apps, team workflows, even games and interactive narratives.
+
+- **Desirable Skills:** Familiarity with front-end design and development (JavaScript / CSS).
 
 ### Use Voice Recognition APIs
 
