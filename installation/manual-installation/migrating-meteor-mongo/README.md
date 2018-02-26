@@ -1,8 +1,8 @@
 # Migrating database from Meteor built in MongoDB
 
-This is a guide to migrate a manual installation database that is using the mongo database that comes built in meteor to an external mongo data base.
+This guide will help you migrate from the mongo server built into meteor to an external mongo server
 
-We advise against using meteor's built in mongo on a production environment due performance reasons.
+We advise against running Rocket.Chat in production from source using the meteor command. Instead we recommend using a separate mongo database and using a compiled meteor bundle. Either our official release or your own.
 
 Before starting make sure meteor is running.
 
@@ -10,7 +10,7 @@ Then run: `mongodump -h 127.0.0.1 --port 3001 -d meteor`
 
 It'll dump the database in a folder called dump.
 
-Then install mongodb on your system. Please see the [mongo section](../ubuntu/) in one of our guides
+Then install mongodb on your system. Please see the [mongo section](../) in one of our guides for your current OS
 
 Once Mongo is installed restore the data using: `mongorestore -d meteor dump/meteor`
 
