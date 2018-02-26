@@ -176,7 +176,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 - **Desirable Skills:** Familiarity with JavaScript and Python development.
 
-### Rich Messages and Payloads
+### Rich Messages and Payloads for Buttons and Cards
 
 - **Mentors:** @diego.dorgam + @timkinnnae
 - **Description:** Create UI components and develop the handling of message payloads to support new interactions for bots, like buttons, cards, images and more. Follow existing conventions to let bot developers migrate pre-built solutions to be delivered via Rocket.Chat. This opens the door for enhanced user experience and interaction flows in automated messaging, letting bots provide a much greater variety of utility; such as business apps, team workflows, even games and interactive narratives.
