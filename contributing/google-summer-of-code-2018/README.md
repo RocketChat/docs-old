@@ -44,12 +44,12 @@ Interested students are also encouraged to interact with our contributor communi
 ### Users Directory integration plus custom fields editor and search
 
 - **Mentors:** @marcelo.schmidt
-- **Description:** Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage  these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. Rocket.Chat also needs an interface to search users based on custom fields. The user search functionality must be accessible from the channels / users list. Users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
+- **Description:** Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage  these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. On Users Directory, users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
 - **Desirable Skills:** Familiarity with JavaScript development.
 
 ### Storage integration with Google Drive and/or Dropbox
 
-- **Mentors:** TBD
+- **Mentors:** @marcelo.schmidt, @martin.schoeler (co-mentor)
 - **Description:** (1) Enabling Rocket.Chat users to use Google Drive and/or Dropbox for storage of their uploads. (2) Within Rocket.Chat, allow access to Google Drive or Dropbox contents.
 - **Desirable Skills:** Familiarity with JavaScript development, and with Google Drive and/or Dropbox APIs.
 
@@ -155,7 +155,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Game platform integration
 
-- **Mentors:** TBD
+- **Mentors:** @pierre.lehnen
 - **Description:** Integrate a multiplayer-capable game engine that runs on the web browser (eg. Unity WebGL, Phaser, Three.js) with Rocket.Chat. Let room members start small multiplayer games and play together.
 - **Desirable Skills:** Experienced with JavaScript, web browser game engines, and networking.
 
@@ -184,7 +184,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Use Voice Recognition APIs
 
-- **Mentors:** TBD
+- **Mentors:** @gabriel.delavald
 - **Description:** Develop a voice recognition integration feature, by building a `Settings` pane to connect some of the well-known voice recognition and speech to text APIs on the market directly from within Rocket.Chat. By configuring API's connection and usage attributes, and giving rocket.chat's UI the ability to click a button, record a message, send to the desired API and return the results to Rocket.Chat editing message box. The project scope could include the following APIs:
 - IBM Watson's
 - AWS Lex
@@ -195,7 +195,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Built-in Speech2Text Engine
 
-- **Mentors:** TBD
+- **Mentors:** @gabriel.delavald
 - **Description:** Integrate an Open Source speech to text engine to be used inside Rocket.Chat by users who prefer an On-Premise full featured installation. There are many opensource speech2text engines on the market, like CMUSphinx and pocketsphinxjs, annyang, JuliusJS, Mumble, Voix JS, voice-commands.js and Artyon.js. This project will include a feature matrix comparison between those engines and the best one to be implemented in Rocket.Chat bundle, giving the UI the ability to click a button, record a message, send it to the text2speech engine and return the results to Rocket.Chat editing message box.
 - **Desirable Skills:** Familiarity with JavaScript development and speech2text techniques.
 
