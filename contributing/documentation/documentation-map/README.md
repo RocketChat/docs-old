@@ -62,6 +62,7 @@ Here you can also find what articles are incomplete and missing.
     - Docker containers:
         - Generic Linux
         - systemd
+        - High Availability Install
         - Available Images
         - Docker Compose
     - Manual Installation:
@@ -333,6 +334,8 @@ Here you can also find what articles are incomplete and missing.
             - users
         - Miscellaneous:
             - info
+            - statistics
+            - statistics.list
         - Rooms:
             - get
             - upload

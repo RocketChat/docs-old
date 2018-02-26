@@ -44,12 +44,12 @@ Interested students are also encouraged to interact with our contributor communi
 ### Users Directory integration plus custom fields editor and search
 
 - **Mentors:** @marcelo.schmidt
-- **Description:** Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage  these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. Rocket.Chat also needs an interface to search users based on custom fields. The user search functionality must be accessible from the channels / users list. Users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
+- **Description:** Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage  these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. On Users Directory, users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
 - **Desirable Skills:** Familiarity with JavaScript development.
 
 ### Storage integration with Google Drive and/or Dropbox
 
-- **Mentors:** TBD
+- **Mentors:** @marcelo.schmidt, @martin.schoeler (co-mentor)
 - **Description:** (1) Enabling Rocket.Chat users to use Google Drive and/or Dropbox for storage of their uploads. (2) Within Rocket.Chat, allow access to Google Drive or Dropbox contents.
 - **Desirable Skills:** Familiarity with JavaScript development, and with Google Drive and/or Dropbox APIs.
 
