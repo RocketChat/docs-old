@@ -39,6 +39,7 @@
   - Docker containers:
     - Generic Linux
     - systemd
+    - High Availability Install
     - Available Images
     - Docker Compose
   - Manual Installation:
