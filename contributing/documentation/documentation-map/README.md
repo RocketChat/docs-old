@@ -276,6 +276,7 @@ Here you can also find what articles are incomplete and missing.
         - Chat:
             - delete
             - getMessage
+            - getMessageReadReceipts
             - pinMessage
             - postMessage
             - react

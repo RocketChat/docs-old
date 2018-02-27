@@ -11,3 +11,4 @@
 | `/api/v1/chat.unPinMessage` | Removes the pinned status of the provided chat message. | [Link](unpinmessage/) |
 | `/api/v1/chat.unStarMessage` | Removes the star on the chat message for the authenticated user. | [Link](unstarmessage/) |
 | `/api/v1/chat.update` | Updates the text of the chat message. | [Link](update/) |
+| `/api/v1/chat.getMessageReadReceipts` | Retrieves message read receipts. | [Link](getmessagereadreceipts/) |
