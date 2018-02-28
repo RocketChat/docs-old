@@ -84,7 +84,6 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description:** Be part of our iOS team this summer to push Rocket.Chat's native iOS App to the next level!  You will - with our help - build the foundation for customizable user experience, support built-in themes for users to choose from and server-specific themes, allowing server owners to manifest the colors and feel of their communities.  You will have the chance to exchange experience with our engineers and designers, plus your work will have a great impact on the experience of thousands of users!
 - **Desirable Skills:** We are looking for an undergraduate student who is familiar with team work, developing iOS Apps using UIKit, Auto Layout and Swift, as well as writing maintainable code with Unit Tests.
 
-
 ### Apple Watch & Siri Support
 
 - **Mentors:** TBD
