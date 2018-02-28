@@ -84,18 +84,19 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description:** Be part of our iOS team this summer to push Rocket.Chat's native iOS App to the next level!  You will - with our help - build the foundation for customizable user experience, support built-in themes for users to choose from and server-specific themes, allowing server owners to manifest the colors and feel of their communities.  You will have the chance to exchange experience with our engineers and designers, plus your work will have a great impact on the experience of thousands of users!
 - **Desirable Skills:** We are looking for an undergraduate student who is familiar with team work, developing iOS Apps using UIKit, Auto Layout and Swift, as well as writing maintainable code with Unit Tests.
 
+
+### Apple Watch & Siri Support
+
+- **Mentors:** TBD
+- **Project repository:** <https://github.com/RocketChat/Rocket.Chat.iOS>
+- **Description:** Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such like viewing the chat rooms and reading the messages. Let user ask Siri to read latest messages, send messages or respond to a message.
+- **Desirable Skills:** Familiarity with WatchKit development on WatchOS & SiriKit. Ability to work in large multi-disciplinary teams.
+
 ### PDF/File preview
 
 - **Mentors:** @rodrigo.nascimento
 - **Description:** Add small previews for non image files improving the UI/UX allowing users to see a preview of the content before click to open the file, it includes PDF, Word Documents and similar, Excel Documents and similar, PowerPoint and similar, Text files, Sketch, Photoshop, etc.
 - **Desirable Skills:** Familiarity with JavaScript development.  Experience hacking documents conversion and/or rendering libraries is a big plus.
-
-### Draw (iOS)
-
-- **Mentors:** TBD
-- **Project repository:** <https://github.com/RocketChat/Rocket.Chat.iOS>
-- **Description:** Allow user to draw something using our iOS native app and send to Rocket.Chat channel. The draw would have different colors and "brush" options (pen, brush, pencil, etc). User will also be able to draw on top of an image selected from library or just shooted. On iPads, user will be able to use Apple Pencil to draw.
-- **Desirable Skills:**  Familiarity with Swift on iOS development.   Ability to work in large multi-disciplinary teams.
 
 ### Draw (Android)
 
@@ -103,13 +104,6 @@ Interested students are also encouraged to interact with our contributor communi
 - **Project repository:** <https://github.com/RocketChat/Rocket.Chat.Android>
 - **Description:** Allow user to draw something using our Android native app and send to Rocket.Chat channel. The draw would have different colors and "brush" options (pen, brush, pencil, etc). User will also be able to draw on top of an image selected from library or just shooted.
 - **Desirable Skills:** Familiarity with Java or Kotlin development on Android. Previous experience with working on the Android App development and using open source libraries would be helpful. Ability to work in large multi-disciplinary teams.
-
-### Apple Watch App
-
-- **Mentors:** TBD
-- **Project repository:** <https://github.com/RocketChat/Rocket.Chat.iOS>
-- **Description:** Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such like viewing the chat rooms and reading the messages. Also let the user send a message to a chat using voice recognition.
-- **Desirable Skills:** Familiarity with WatchKit development on WatchOS.  Ability to work in large multi-disciplinary teams.
 
 ### Android Wear App
 
@@ -123,13 +117,6 @@ Interested students are also encouraged to interact with our contributor communi
 - **Mentors:** TBD
 - **Description:** Working together with our crypto and blockchain team – you will help build the key enabler platform for the future of blockchain powered decentralized communities all over this world (and perhaps even beyond).   Within this short summer, you will gain experience in working on a global-circulation production-grade blockchain-powered adoption-acceleration platform.  You will also meet and work with leading visionaries and pioneers in the current blockchain / crypto field.   Tangible potential to become an early architect of this brave new world, supported by Rocket.Chat.
 - **Desirable Skills:** Looking for a unique fringe-dropout university student already committed to our inevitable decentralized future powered by Web 3.0 and continued blockchain technology innovations.  While maintaining a high score on all your subjects, you should be finding your existing university education ridiculously limiting, and already have experience hacking smart contracts, minting tokens for friends and family, hacking ethereum, and trading cryptokitties. You eat truffle for breakfast and ride the open zepplin to school every  day. Recent government (perhaps your own government) baseless  advances into this area has significantly disturbed you. You already realized that you are way ahead of your time.  And you will recognize this GSoC 2018 project to be the absolutely not-to-miss opportunity of your life.
-
-### Siri
-
-- **Mentors:** TBD
-- **Project repository:** <https://github.com/RocketChat/Rocket.Chat.iOS>
-- **Description:** Let user send and respond to messages talking to Siri on Apple mobile devices.
-- **Desirable Skills:** Familiarity with SiriKit development.  Ability to work in large multi-disciplinary teams
 
 ### Google Assistant
 
