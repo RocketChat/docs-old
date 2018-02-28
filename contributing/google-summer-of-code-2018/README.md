@@ -44,12 +44,12 @@ Interested students are also encouraged to interact with our contributor communi
 ### Users Directory integration plus custom fields editor and search
 
 - **Mentors:** @marcelo.schmidt
-- **Description:** Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage  these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. Rocket.Chat also needs an interface to search users based on custom fields. The user search functionality must be accessible from the channels / users list. Users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
+- **Description:** Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage  these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. On Users Directory, users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
 - **Desirable Skills:** Familiarity with JavaScript development.
 
 ### Storage integration with Google Drive and/or Dropbox
 
-- **Mentors:** TBD
+- **Mentors:** @marcelo.schmidt, @martin.schoeler (co-mentor)
 - **Description:** (1) Enabling Rocket.Chat users to use Google Drive and/or Dropbox for storage of their uploads. (2) Within Rocket.Chat, allow access to Google Drive or Dropbox contents.
 - **Desirable Skills:** Familiarity with JavaScript development, and with Google Drive and/or Dropbox APIs.
 
@@ -99,7 +99,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Draw (Android)
 
-- **Mentors:** Saket Kumar (@saketkumar95)
+- **Mentors:** TBD
 - **Project repository:** <https://github.com/RocketChat/Rocket.Chat.Android>
 - **Description:** Allow user to draw something using our Android native app and send to Rocket.Chat channel. The draw would have different colors and "brush" options (pen, brush, pencil, etc). User will also be able to draw on top of an image selected from library or just shooted.
 - **Desirable Skills:** Familiarity with Java or Kotlin development on Android. Previous experience with working on the Android App development and using open source libraries would be helpful. Ability to work in large multi-disciplinary teams.
@@ -176,15 +176,16 @@ Interested students are also encouraged to interact with our contributor communi
 
 - **Desirable Skills:** Familiarity with JavaScript and Python development.
 
-### Buttons and Cards UI
+### Rich Messages and Payloads for Buttons and Cards
 
 - **Mentors:** @diego.dorgam + @timkinnnae
-- **Description:** Include the possibility to send a message with customizable buttons and cards carousel (slidable images with text descriptions) so the user can interact with and bots can receive the feedback of those interactions, right on the Rocket.Chat's interface, and compatible (if possible) with existing UI conventions, so it becomes intuitive to their community to develop to Rocket.Chat.  
-- **Desirable Skills:** Familiarity with JavaScript development.
+- **Description:** Create UI components and develop the handling of message payloads to support new interactions for bots, like buttons, cards, images and more. Follow existing conventions to let bot developers migrate pre-built solutions to be delivered via Rocket.Chat. This opens the door for enhanced user experience and interaction flows in automated messaging, letting bots provide a much greater variety of utility; such as business apps, team workflows, even games and interactive narratives.
+
+- **Desirable Skills:** Familiarity with front-end design and development (JavaScript / CSS).
 
 ### Use Voice Recognition APIs
 
-- **Mentors:** TBD
+- **Mentors:** @gabriel.delavald
 - **Description:** Develop a voice recognition integration feature, by building a `Settings` pane to connect some of the well-known voice recognition and speech to text APIs on the market directly from within Rocket.Chat. By configuring API's connection and usage attributes, and giving rocket.chat's UI the ability to click a button, record a message, send to the desired API and return the results to Rocket.Chat editing message box. The project scope could include the following APIs:
 - IBM Watson's
 - AWS Lex
@@ -195,7 +196,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Built-in Speech2Text Engine
 
-- **Mentors:** TBD
+- **Mentors:** @gabriel.delavald
 - **Description:** Integrate an Open Source speech to text engine to be used inside Rocket.Chat by users who prefer an On-Premise full featured installation. There are many opensource speech2text engines on the market, like CMUSphinx and pocketsphinxjs, annyang, JuliusJS, Mumble, Voix JS, voice-commands.js and Artyon.js. This project will include a feature matrix comparison between those engines and the best one to be implemented in Rocket.Chat bundle, giving the UI the ability to click a button, record a message, send it to the text2speech engine and return the results to Rocket.Chat editing message box.
 - **Desirable Skills:** Familiarity with JavaScript development and speech2text techniques.
 

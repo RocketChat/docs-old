@@ -40,7 +40,7 @@ The attachments is an array of objects with any of the following properties. One
 | `author_icon`         | `https://site.com/img.png` | Author  | Displays a tiny icon to the left of the Author's name.                                                                                                       |
 | `title`               | `Attachment Title`         | Title   | Title to display for this attachment, displays under the author.                                                                                             |
 | `title_link`          | `https://youtube.com`      | Title   | Providing this makes the title clickable, pointing to this link.                                                                                             |
-| `title_link_download` | `https://site.com/img.png` | Title   | When this is provided, a download icon appears and clicking this saves the link to file.                                                                     |
+| `title_link_download` | `true`                     | Title   | When this is true, a download icon appears and clicking this saves the link to file.                                                                     |
 | `image_url`           | `https://site.com/img.png` | Image   | The image to display, will be "big" and easy to see.                                                                                                         |
 | `audio_url`           | `https://site.com/aud.mp3` | Audio   | Audio file to play, only supports what [html audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio) does.                                   |
 | `video_url`           | `https://site.com/vid.mp4` | Video   | Video file to play, only supports what [html video](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) does.                                   |
@@ -78,7 +78,7 @@ The field property of the attachments allows for "tables" or "columns" to be dis
     "author_icon": "https://avatars.githubusercontent.com/u/850391?v=3",
     "title": "Attachment Example",
     "title_link": "https://youtube.com",
-    "title_link_download": "https://rocket.chat/download",
+    "title_link_download": true,
     "image_url": "http://res.guggy.com/logo_128.png",
     "audio_url": "http://www.w3schools.com/tags/horse.mp3",
     "video_url": "http://www.w3schools.com/tags/movie.mp4",

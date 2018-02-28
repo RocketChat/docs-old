@@ -62,6 +62,7 @@ Here you can also find what articles are incomplete and missing.
     - Docker containers:
         - Generic Linux
         - systemd
+        - High Availability Install
         - Available Images
         - Docker Compose
     - Manual Installation:
@@ -71,6 +72,7 @@ Here you can also find what articles are incomplete and missing.
         - Universal
         - MacOSX
         - Multiple Instances to Improve Performance
+        - Migrating Meteor Mongo
         - OpenSUSE
         - <span class="incomplete">[RedHat](../missing-and-outdated-list/index.html#redhat)</span>
         - Ubuntu:
@@ -334,22 +336,31 @@ Here you can also find what articles are incomplete and missing.
             - users
         - Miscellaneous:
             - info
+            - statistics
+            - statistics.list
+        - Rooms:
+            - get
+            - upload
         - Settings:
             - get
             - update
+        - Spotlight
         - Users:
             - create
             - createToken
             - delete
             - getAvatar
             - getPresence
+            - getPreferences
             - info
             - list
             - register
             - resetAvatar
             - setAvatar
+            - setPreferences
             - update
         - Offset and Count and Sort Info
+        - Permissions
         - Query and Fields Info
         - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
         - <span class="incomplete">[Testing](../missing-and-outdated-list#Testing)</span>

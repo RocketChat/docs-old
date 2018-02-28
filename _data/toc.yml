@@ -39,6 +39,7 @@
   - Docker containers:
     - Generic Linux
     - systemd
+    - High Availability Install
     - Available Images
     - Docker Compose
   - Manual Installation:
@@ -48,6 +49,7 @@
       - Universal
     - MacOSX
     - Multiple Instances to Improve Performance
+    - Migrating Meteor Mongo
     - OpenSUSE
     - RedHat
     - Ubuntu:
@@ -285,25 +287,34 @@
         - users
       - Miscellaneous:
         - info
+        - statistics
+        - statistics.list
+      - Rooms:
+        - get
+        - upload
       - Settings:
         - get
         - get-by-id
         - public
         - service-configuration
         - update
+      - Spotlight
       - Users:
         - create
         - createToken
         - delete
         - getAvatar
         - getPresence
+        - get-preferences
         - info
         - list
         - register
         - resetAvatar
         - setAvatar
+        - set-preferences
         - update
       - Offset and Count and Sort Info
+      - Permissions
       - Query and Fields Info
     - Schema Definition
     - Testing
