@@ -8,7 +8,7 @@ These permissions consists of opening, closing, tagging and editing issues and p
 
 The responsibilities of a maintainer are:
 
-### Triaging Issues
+## Triaging Issues
 
 - **Labeling issues:** Label issues accordingly;
 
@@ -18,7 +18,7 @@ The responsibilities of a maintainer are:
 
 - **Doing first level contact:** Getting more information on the issues (like version number or asking for clarification) and closing them if they aren't relevant or if a question made by the maintainer wasn't answered in 2 days.
 
-### Help with Contribution
+## Help with Contribution
 
 - **Help Manage Pull Requests:** help the author of the pull request with any problems (like tests failing due markdown problems on the pull request)
 
