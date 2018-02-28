@@ -1,10 +1,12 @@
+# Community maintainers
+
 We are looking for community maintainers for the Rocket.Chat documentation github project.
 
 Maintainers will be added to a special team with certain permissions.
 
 These permissions consists of opening, closing, tagging and editing issues and pull requests, create and delete non protected branches on the docs repository
 
-The responsibilities of a maintainer are: 
+The responsibilities of a maintainer are:
 
 ### Triaging Issues
 
