@@ -258,6 +258,7 @@
         - kick
         - leave
         - list
+        - listAll
         - open
         - removeModerator
         - removeOwner
