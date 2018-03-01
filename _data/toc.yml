@@ -237,6 +237,7 @@
         - postMessage
         - react
         - starMessage
+        - sendMessage
         - unPinMessage
         - unStarMessage
         - update
