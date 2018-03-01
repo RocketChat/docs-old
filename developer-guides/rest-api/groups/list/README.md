@@ -63,7 +63,7 @@ This example shows a list of private groups with the following conditions:
 ```bash
 curl -H "X-Auth-Token: 8-gard51USVYskZ7AAqFF3SZuwg24VIdn9-HchYersg" \
      -H "X-User-Id: 3WpJQkDHhrWPBvXuW" \
-     http://localhost:3000/api/v1/groups.list?query=%7B%20%22customFields.companyId%22%3A%20%22org1%22%20%7D&fields=%7B%20%22fname%22%3A0%20%7D
+     "http://localhost:3000/api/v1/groups.list?query=%7B%20%22customFields.companyId%22%3A%20%22org1%22%20%7D&fields=%7B%20%22fname%22%3A0%20%7D"
 ```
 
 ## Query Example Result
@@ -74,7 +74,6 @@ curl -H "X-Auth-Token: 8-gard51USVYskZ7AAqFF3SZuwg24VIdn9-HchYersg" \
         {
             "_id": "xA52DRDM7dqx2PfTp",
             "name": "private1",
-            "fname": "private1",
             "t": "p",
             "msgs": 0,
             "u": {
