@@ -1,3 +1,4 @@
+
 # Community maintainers
 
 We are looking for community maintainers for the Rocket.Chat documentation.
@@ -10,8 +11,8 @@ The responsibilities of a maintainer are:
 
 ## Triaging Issues
 
-- **Labeling issues:** Label issues accordingly;
-- **Finding Duplicates:** finding and closing duplicate issues;
+- **Labeling issues:** Label issues accordingly.
+- **Finding Duplicates:** finding and closing duplicate issues.
 - **Closing irrelevant/inappropriate issues:** Closing issues that are no longer needed, that are not relevant to the project and/or doesn't follow the issues guidelines.
 - **Doing first level contact:** Getting more information on the issues (like version number or asking for clarification) and closing them if they aren't relevant or if a question made by the maintainer wasn't answered in 2 days.
 
