@@ -110,6 +110,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.postMessage`   | Posts a new chat message.                                        | [Link](chat/postmessage/)   |
 | `/api/v1/chat.react`         | Sets/unsets the user's reaction to an existing chat message.     | [Link](chat/react/)         |
 | `/api/v1/chat.starMessage`   | Stars a chat message for the authenticated user.                 | [Link](chat/starmessage/)   |
+| `/api/v1/chat.sendMessage`   | Send new chat message.                                           | [Link](chat/sendmessage/)   |
 | `/api/v1/chat.unPinMessage`  | Removes the pinned status of the provided chat message.          | [Link](chat/unpinmessage/)  |
 | `/api/v1/chat.unStarMessage` | Removes the star on the chat message for the authenticated user. | [Link](chat/unstarmessage/) |
 | `/api/v1/chat.update`        | Updates the text of the chat message.                            | [Link](chat/update/)        |
