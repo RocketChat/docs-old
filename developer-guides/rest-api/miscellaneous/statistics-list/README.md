@@ -10,10 +10,10 @@ Selectable statistics about the Rocket.Chat server. It supports the [Offset, Cou
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `query` | `{"_id":"v3D4mvobwfznKozH8"}` | Required | [Query Parameter](../../query-and-fields-info/) |
-| `offset` | `0` | Optional | [Offset Parameter](../../offset-and-count-and-sort-info/) |
-| `count` | `1` | Optional | [Count Parameters](../../offset-and-count-and-sort-info/) |
-| `fields` | `{"os":0,"migration":0,"deploy":0,"process":0}` | Optional | [Fields Parameters](../../query-and-fields-info/) |
+| `query` | `{"_id":"v3D4mvobwfznKozH8"}` | Required | See [Query Parameter](../../query-and-fields-info/) |
+| `offset` | `0` | Optional | See [Offset Parameter](../../offset-and-count-and-sort-info/) |
+| `count` | `1` | Optional | See [Count Parameter](../../offset-and-count-and-sort-info/) |
+| `fields` | `{"os":0,"migration":0,"deploy":0,"process":0}` | Optional | See [Fields Parameters](../../query-and-fields-info/) |
 | `sort` | `{"_id":1}` | Optional | See [Sort Query Parameters](../../offset-and-count-and-sort-info/) |
 
 ## Example Call
