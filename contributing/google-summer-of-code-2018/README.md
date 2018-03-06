@@ -196,5 +196,10 @@ Interested students are also encouraged to interact with our contributor communi
     - A consolidated events view that lists all scheduled events for a particular day, week or month.
     - Integration with Google Calendar
     - Ability to search for an event
-
 - **Desirable Skills:** Familiarity with JavaScript development required. Previous experience with NLP (Natural Language Processing) or AI (Artificial Intelligence) would be helpful.
+
+### Better GIF System
+
+- **Mentors:** Marcelo Schmidt (@marcelo.schmidt)
+- **Description:** Implement a new GIF system within Rocket.Chat. Our current gif implementation sends a random gif that matches the search. We would like to have an improved GIF search, with results for a user to choose from. We would like to have a GIF button which when pressed would open up a gif search engine.
+- **Desirable Skills:** Familiarity with front-end design and JavaScript development required. 
