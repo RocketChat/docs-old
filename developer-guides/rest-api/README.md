@@ -59,6 +59,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.cleanHistory`    | Cleans up a channel's history, requires special permission. | [Link](channels/cleanhistory/)    |
 | `/api/v1/channels.close`           | Removes a channel from a user's list of channels.           | [Link](channels/close/)           |
 | `/api/v1/channels.create`          | Creates a new channel.                                      | [Link](channels/create/)          |
+| `/api/v1/channels.files`           | Gets a list of files from a channel.                        | [Link](channels/files/)           |
 | `/api/v1/channels.getIntegrations` | Gets the channel's integration.                             | [Link](channels/getintegrations/) |
 | `/api/v1/channels.history`         | Retrieves the messages from a channel.                      | [Link](channels/history/)         |
 | `/api/v1/channels.info`            | Gets a channel's information.                               | [Link](channels/info/)            |
@@ -84,6 +85,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.archive`        | Archives a private group.                          | [Link](groups/archive/)        |
 | `/api/v1/groups.close`          | Removes a private group from the list of groups.   | [Link](groups/close/)          |
 | `/api/v1/groups.create`         | Creates a new private group.                       | [Link](groups/create/)         |
+| `/api/v1/groups.files`          | Gets a list of files from a private group.         | [Link](groups/files/)          |
 | `/api/v1/groups.history`        | Retrieves the messages from a private group.       | [Link](groups/history/)        |
 | `/api/v1/groups.info`           | Gets the information about a private group.        | [Link](groups/info/)           |
 | `/api/v1/groups.invite`         | Adds a user to the private group.                  | [Link](groups/invite/)         |
@@ -121,6 +123,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :--------------------------- | :------------------------------------------------------------ | :-------------------------- |
 | `/api/v1/im.close`           | Removes a direct message from the list of direct messages.    | [Link](im/close/)           |
 | `/api/v1/im.history`         | Retrieves the messages from a direct message.                 | [Link](im/history/)         |
+| `/api/v1/im.files`           | Retrieves a list of files from a direct message.              | [Link](im/files/)           |
 | `/api/v1/im.messages.others` | Retrieves the messages from any direct message in the server. | [Link](im/messages-others/) |
 | `/api/v1/im.list`            | List the direct messages the caller is part of.               | [Link](im/list/)            |
 | `/api/v1/im.list.everyone`   | List all direct message the caller in the server.             | [Link](im/list-everyone/)   |

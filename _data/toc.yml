@@ -211,6 +211,7 @@
         - cleanHistory
         - close
         - create
+        - files
         - getIntegrations
         - history
         - info
@@ -252,6 +253,7 @@
         - archive
         - close
         - create
+        - files
         - getIntegrations
         - history
         - info
@@ -272,6 +274,7 @@
         - unarchive
       - Im:
         - close
+        - files
         - history
         - list.everyone
         - list
