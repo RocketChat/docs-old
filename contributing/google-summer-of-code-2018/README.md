@@ -53,6 +53,13 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description:** (1) Enabling Rocket.Chat users to use Google Drive and/or Dropbox for storage of their uploads. (2) Within Rocket.Chat, allow access to Google Drive or Dropbox contents.
 - **Desirable Skills:** Familiarity with JavaScript development, and with Google Drive and/or Dropbox APIs.
 
+### Nextcloud Integration
+
+- **Mentors:**   Mentors from Rocket.Chat and Nextcloud team
+- **Description:**  You will create a cross-platform GUI file picker interface for Nextcloud,  integrated within Rocket.Chat,   allowing any user to select files from a Nextcloud server (or hosted Nextcloud account) for utilization (such as  file-sharing upload) within Rocket.Chat.
+
+- **Desirable Skills:**  You should already be familiar with the operation of Nextcloud and Rocket.Chat and ideally have experience programming with Nextcloud’s API.  Experience working with JavaScript GUI an fullstack frameworks such as Angular and/or React is a big plus.  You will get a chance to work with the creators and architects of both Nextcloud and Rocket.Chat.  Upon completion of this project, you will be able to claim experience creating a modern open source software component that will be used by hundreds of thousands of Rocket.Chat and Nextcloud users.
+
 ### OwnCloud as a Storage Provider
 
 - **Mentors:** TBD (in conjunction with OwnCloud)
@@ -73,7 +80,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Uniting “One Rocket.Chat” with Federation
 
-- **Mentors:** TBD
+- **Mentors:**  @gabriel.engel,  @matthew.hodgson, and @sing.li
 - **Description:** Help Rocket.Chat to invent and implement networked federation for the next generation of collaboration platforms.
 - **Desirable Skills:** Suitable for an ambitious undergraduate planning to enroll or already enrolled for masters or PhD work in a cluster computing, networking  or distributed systems discipline in computer science or engineering to join us for an exciting summer of incredible brain crushing yet hands-on fun.   Working alongside our federation team – you will help design and test out your hypothesis against a next generation federation mechanism optimized specifically for Rocket.Chat servers – uniting them globally across all geo-political boundaries to dyamically form “One Rocket.Chat”.   This work will leverage all existing current research in this domain.   You must already be familiar with the work of giants – such as matrix.org – and be ready to break all conventions to improve and innovate upon existing paradigms.  You will be rewarded with production working experience on this bleeding-edge discipline, in a world-leading open source team environment with a like-minded team.  An incredible and unique opportunity in 2018.
 
@@ -113,8 +120,23 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Enabling global decentralized blockchain powered crypto communities
 
-- **Mentors:** TBD
+- **Mentors:** @sing.li and TBD Cryto Industry guest mentors
+
 - **Description:** Working together with our crypto and blockchain team – you will help build the key enabler platform for the future of blockchain powered decentralized communities all over this world (and perhaps even beyond).   Within this short summer, you will gain experience in working on a global-circulation production-grade blockchain-powered adoption-acceleration platform.  You will also meet and work with leading visionaries and pioneers in the current blockchain / crypto field.   Tangible potential to become an early architect of this brave new world, supported by Rocket.Chat.
+
+Some projects that you can submit proposals for include:
+
+#### Decentralized Crpto Exchange in Rocket.Chat
+
+- **Description:** Starting either from scratch or utilizing one of the compatible license open source DEX code bases – create a functional Decentralized Exchange within Rocket.Chat.  You will create a DEX that takes advantage of strong cryptographic identity solutions such as Blockstack ID and wallet integration such as Metamask or ARK wallet in your work.
+
+#### IPFS storage solution in Rocket.Chat
+
+- **Description:**  Integreate IPFS into Rocket.Chat as a viable storage provider.   Ideally IPFS can be used as a storage provider for uploaded Rocket.Chat contents.   In addition, the ability to acesss IPFS within Rocket.Chat, to supply files that can be shared between users of Rocket.Chat is also essential.  Leveraging integration with strong cryptographic identities such as Blockstack ID, the solution should include strong  data-at-rest encryption of decentralized contents.  Use of decentralized storage abstraction frameworks such as Blockstack Gaia should be considered to simplify this work.  Use of IPFS as a decentralized storage for Rocket.Chat’s data should also be considered within the term.
+
+#### Cryptocurrency Wallet and/or Portoflio Management in Rocket.Chat
+
+- **Description:** Enable the integration of wallet(s) such as Metamask,  MyEtherWallet,  ARK or other wallets or crypto portfolio management system within Rocket.Chat.
 - **Desirable Skills:** Looking for a unique fringe-dropout university student already committed to our inevitable decentralized future powered by Web 3.0 and continued blockchain technology innovations.  While maintaining a high score on all your subjects, you should be finding your existing university education ridiculously limiting, and already have experience hacking smart contracts, minting tokens for friends and family, hacking ethereum, and trading cryptokitties. You eat truffle for breakfast and ride the open zepplin to school every  day. Recent government (perhaps your own government) baseless  advances into this area has significantly disturbed you. You already realized that you are way ahead of your time.  And you will recognize this GSoC 2018 project to be the absolutely not-to-miss opportunity of your life.
 
 ### Google Assistant
