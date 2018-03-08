@@ -37,7 +37,7 @@
 | `data.sidebarSortby`              | `test`              | Optional | Show sort by.                    |
 | `data.sidebarViewMode`            | `test`              | Optional | Show view mode.                  |
 | `data.sidebarHideAvatar`          | `true`              | Optional | Show avatar on hide bar.         |
-| `data.groupByType  `              | `true`              | Optional | Group channels by type.          |
+| `data.groupByType`                | `true`              | Optional | Group channels by type.          |
 | `data.muteFocusedConversations`   | `true`              | Optional | Mute focused conversations.      |
 
 ## Example Call
