@@ -42,7 +42,7 @@ and enable or disable the following preferences:
 - __Hide roles__: This will hide role tags from users;
 - __Hide right side bar with click__: When you click outside of a tab it will automatically close it;
 - __Hide Avatars__: This will hide avatars on the channels, showing only the users usernames;
-- __Merge private groups with channels__
+- __Group by Type:__: This will group your channels by type or merge them in a single list;
 
 ### Highlights
 
