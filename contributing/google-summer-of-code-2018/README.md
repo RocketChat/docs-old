@@ -47,7 +47,7 @@ Accepted student proposals announced
 
 ...
 
-## Project Ideas  (work in progress)
+## Project Ideas
 
 ### Global Search
 
@@ -69,10 +69,17 @@ Accepted student proposals announced
 
 ### Nextcloud Integration
 
-- **Mentors:**   Mentors from Rocket.Chat and Nextcloud team
+- **Mentors:**   @guilherme.gazzo and Nextcloud team
 - **Description:**  You will create a cross-platform GUI file picker interface for Nextcloud,  integrated within Rocket.Chat,   allowing any user to select files from a Nextcloud server (or hosted Nextcloud account) for utilization (such as  file-sharing upload) within Rocket.Chat.
 
 - **Desirable Skills:**  You should already be familiar with the operation of Nextcloud and Rocket.Chat and ideally have experience programming with Nextcloud’s API.  Experience working with JavaScript GUI an fullstack frameworks such as Angular and/or React is a big plus.  You will get a chance to work with the creators and architects of both Nextcloud and Rocket.Chat.  Upon completion of this project, you will be able to claim experience creating a modern open source software component that will be used by hundreds of thousands of Rocket.Chat and Nextcloud users.
+
+### Snap Crafting
+
+- **Mentors:**   @aaron.ogle
+- **Description:**  Snap is one of the easiest and most popular method to install Rocket.Chat on Linux distributions. You can have a Rocket.Chat server up and running with database and SSL proxy fully configured with one simple command. The current snap installation build script, used by hundreds of thousands of community users, is in need of updating and enhancements. You will be crafting updates and new features for our snaps for this project.
+
+- **Desirable Skills:**  Interest in system configuration, dev ops, system operations, and operating systems.   Should be competent in shell scripting on Linux and one or more programming languages.  Experience with docker or snapcraft a big plus.
 
 ### OwnCloud as a Storage Provider
 
@@ -82,13 +89,13 @@ Accepted student proposals announced
 
 ### Scaling to the edge of dreams
 
-- **Mentors:** TBD
+- **Mentors:** @diego.sampaio
 - **Description:** Assist Rocket.Chat’s scalability engineers to scale Rocket.Chat to the next level.  From tens of thousands of active connections, to hundreds of thousands to millions, to world-scale.
 - **Desirable Skills:** We are looking for an enthusiastic undergraduate, planning to enroll or already enrolled for masters or PhD work in a cluster computing or scalability discipline to join us for an exciting summer of hands-on practical fun.   Working alongside our scalability expert – you will devise and test out various performance and scalability enhancements for Rocket.Chat’s deployment configurations.  You will be able to practice everything you have learnt so far in your under-graduate study, pushes beyond their limits, with a real production clustered server project – having your work impacting thousands of global users – all within the span of a single summer.
 
 ### LiveChat Reports and Analytics
 
-- **Mentors:** TBD
+- **Mentors:** @renato.becker
 - **Description:** Add a panel to have analytical information about interactions in LiveChat.
 - **Desirable Skills:** Familiarity with JavaScript development.
 
@@ -107,7 +114,7 @@ Accepted student proposals announced
 
 ### Apple Watch & Siri Support
 
-- **Mentors:** TBD
+- **Mentors:** @rafael.kellermann
 - **Project repository:** <https://github.com/RocketChat/Rocket.Chat.iOS>
 - **Description:** Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such like viewing the chat rooms and reading the messages. Let user ask Siri to read latest messages, send messages or respond to a message.
 - **Desirable Skills:** Familiarity with WatchKit development on WatchOS & SiriKit. Ability to work in large multi-disciplinary teams.
@@ -120,7 +127,7 @@ Accepted student proposals announced
 
 ### Draw (Android)
 
-- **Mentors:** TBD
+- **Mentors:** @rafael.kellermann
 - **Project repository:** <https://github.com/RocketChat/Rocket.Chat.Android>
 - **Description:** Allow user to draw something using our Android native app and send to Rocket.Chat channel. The draw would have different colors and "brush" options (pen, brush, pencil, etc). User will also be able to draw on top of an image selected from library or just shooted.
 - **Desirable Skills:** Familiarity with Java or Kotlin development on Android. Previous experience with working on the Android App development and using open source libraries would be helpful. Ability to work in large multi-disciplinary teams.
@@ -155,7 +162,7 @@ Some projects that you can submit proposals for include:
 
 ### Google Assistant
 
-- **Mentors:** TBD
+- **Mentors:** @rafael.kellermann
 - **Project repository:** <https://github.com/RocketChat/Rocket.Chat.Android>
 - **Description:** Let user send messages talking to Google Assistant.
 
@@ -168,12 +175,6 @@ Some projects that you can submit proposals for include:
 
 - **Mentors:** @karl.prieb @guilherme.gazzo
 - **Description:** Create a javascript SDK that can be used on our ReactNative, Livechat and our webclient projects.
-
-### Scripting support
-
-- **Mentors:** TDB
-- **Description:** We would love to see an embed Rocket.Chat scripting support. The scripting support will allow the customization of elements (server settings, user profile) through a GUI in a very easy and objective way.
-- **Desirable Skills:** Familiarity with JavaScript development and software architecture (interpreter architectural style).
 
 ### Game platform integration
 
