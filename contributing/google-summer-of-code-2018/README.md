@@ -33,7 +33,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 [GSoC 2018 Timeline](https://developers.google.com/open-source/gsoc/timeline)
 
-## Project Ideas  (work in progress)
+## Project Ideas  
 
 ### Global Search
 
