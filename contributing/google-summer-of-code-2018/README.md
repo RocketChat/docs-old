@@ -33,7 +33,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 [GSoC 2018 Timeline](https://developers.google.com/open-source/gsoc/timeline)
 
-## Project Ideas  
+## Project Ideas
 
 ### Global Search
 
@@ -63,10 +63,9 @@ Interested students are also encouraged to interact with our contributor communi
 ### Snap Crafting
 
 - **Mentors:**   @aaron.ogle
-- **Description:**  Snap is one of the easiest and most popular method to install Rocket.Chat on Linux distributions. You can have a Rocket.Chat server up and running with database and SSL proxy fully configured with one simple command. The current snap installation build script, used by hundreds of thousands of community users, is in need of updating and enhancements. You will be crafting updates and new features for our snaps for this project. 
+- **Description:**  Snap is one of the easiest and most popular method to install Rocket.Chat on Linux distributions. You can have a Rocket.Chat server up and running with database and SSL proxy fully configured with one simple command. The current snap installation build script, used by hundreds of thousands of community users, is in need of updating and enhancements. You will be crafting updates and new features for our snaps for this project.
 
 - **Desirable Skills:**  Interest in system configuration, dev ops, system operations, and operating systems.   Should be competent in shell scripting on Linux and one or more programming languages.  Experience with docker or snapcraft a big plus.
-
 
 ### OwnCloud as a Storage Provider
 
@@ -162,7 +161,6 @@ Some projects that you can submit proposals for include:
 
 - **Mentors:** @karl.prieb @guilherme.gazzo
 - **Description:** Create a javascript SDK that can be used on our ReactNative, Livechat and our webclient projects.
-
 
 ### Game platform integration
 
