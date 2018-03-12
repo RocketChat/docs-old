@@ -319,7 +319,6 @@ Here you can also find what articles are incomplete and missing.
         - Im:
             - close
             - <span class="missing">[files](../missing-and-outdated-list/index.html#imfiles)</span>
-
             - history
             - list.everyone
             - list
@@ -360,6 +359,7 @@ Here you can also find what articles are incomplete and missing.
             - setAvatar
             - setPreferences
             - update
+            - updateOwnBasicInfo
         - Offset and Count and Sort Info
         - Permissions
         - Query and Fields Info
