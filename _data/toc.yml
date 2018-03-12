@@ -211,6 +211,7 @@
         - cleanHistory
         - close
         - create
+        - getAllUserMentionsByChannel
         - getIntegrations
         - history
         - info
