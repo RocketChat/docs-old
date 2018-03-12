@@ -2,8 +2,8 @@
 
 We have a couple of ways for you to get up and started with the hubot:
 
-- [Docker](#Docker)
-- [Manual](#Manual)
+- [Docker](#docker)
+- [Manual](#manual)
 
 ## Docker
 
