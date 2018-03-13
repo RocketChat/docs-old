@@ -314,6 +314,7 @@
         - setAvatar
         - set-preferences
         - update
+        - updateOwnBasicInfo
       - Offset and Count and Sort Info
       - Permissions
       - Query and Fields Info
