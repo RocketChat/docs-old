@@ -11,7 +11,9 @@ redirect_from:
 
 ## How to apply
 
-Interested students should email the mentor(s) directly for discussion and further information.  You can also find them, most of the time, on our [community server](https://open.rocket.chat/)  for real-time chat.   Many of the mentors are fluent in both Portuguese and English.
+UPDATE March 12, 2018 -   Proposal submission for GSoC 2018 has started!   Interested students should visit the [GSoC 2018 site](https://summerofcode.withgoogle.com/) to apply and submit their proposals.  See the *Project Ideas* section below for some interesting ideas. 
+
+You can email the mentor(s) directly for discussion and further information.  You can also find them, most of the time, on our [community server](https://open.rocket.chat/)  for real-time chat.   Many of the mentors are fluent in both Portuguese and English.
 
 For current information on the 2018 program and general discussions, please see GSoC 2018 category on our discussion forums:
 
