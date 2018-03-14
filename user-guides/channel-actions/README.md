@@ -31,6 +31,7 @@ Here you can see all kinds of information about the current channel. If you have
 - __Archived__: Tells if a channel is archived, and toggles the archived status of a channel. Nobody can post messages in an archived channel, and channel search will not find that channel.
 
 - __Password__: Tells whether a channel has a password and let you set the password. If a channel has a password, other users need to enter the password to become a member of the channel.
+
 ## Search Messages
 
 Rocket Chat search supports basic search commands which work like Gmail search.
