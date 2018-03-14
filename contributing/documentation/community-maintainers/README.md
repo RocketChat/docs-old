@@ -1,4 +1,3 @@
-
 # Community maintainers
 
 We are looking for community maintainers for the Rocket.Chat documentation.
@@ -9,7 +8,7 @@ These permissions consists of opening, closing, tagging and editing issues and p
 
 The responsibilities of a maintainer are:
 
-## Triaging Issues
+## Issue Triage
 
 - **Labeling issues:** Label issues accordingly.
 - **Finding Duplicates:** finding and closing duplicate issues.
