@@ -212,6 +212,7 @@
         - cleanHistory
         - close
         - create
+        - files
         - getIntegrations
         - history
         - info
@@ -238,6 +239,7 @@
         - postMessage
         - react
         - starMessage
+        - sendMessage
         - unPinMessage
         - unStarMessage
         - update
@@ -252,6 +254,7 @@
         - archive
         - close
         - create
+        - files
         - getIntegrations
         - history
         - info
@@ -272,6 +275,7 @@
         - unarchive
       - Im:
         - close
+        - files
         - history
         - list.everyone
         - list
@@ -314,6 +318,7 @@
         - setAvatar
         - set-preferences
         - update
+        - updateOwnBasicInfo
       - Offset and Count and Sort Info
       - Permissions
       - Query and Fields Info
