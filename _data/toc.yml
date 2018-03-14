@@ -288,6 +288,7 @@
         - users
       - Miscellaneous:
         - info
+        - settings.oauth
         - statistics
         - statistics.list
       - Rooms:
