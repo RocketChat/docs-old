@@ -252,7 +252,7 @@ Here you can also find what articles are incomplete and missing.
             - close
             - create
             - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
-            - <span class="missing">[files](../missing-and-outdated-list/index.html#channelsfiles)</span>
+            - files
             - getIntegrations
             - history
             - info
@@ -296,7 +296,7 @@ Here you can also find what articles are incomplete and missing.
             - close
             - create
             - <span class="missing">[delete](../missing-and-outdated-list/index.html#groupsdelete)</span>
-            - <span class="missing">[files](../missing-and-outdated-list/index.html#groupsfiles)</span>
+            - files
             - getIntegrations
             - history
             - info
@@ -318,8 +318,7 @@ Here you can also find what articles are incomplete and missing.
             - unarchive
         - Im:
             - close
-            - <span class="missing">[files](../missing-and-outdated-list/index.html#imfiles)</span>
-
+            - files
             - history
             - list.everyone
             - list
@@ -360,6 +359,7 @@ Here you can also find what articles are incomplete and missing.
             - setAvatar
             - setPreferences
             - update
+            - updateOwnBasicInfo
         - Offset and Count and Sort Info
         - Permissions
         - Query and Fields Info

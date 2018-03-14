@@ -15,6 +15,8 @@ In order to subscribe to a stream you must send a message with `msg: sub`, an un
 
 The new stream API will propagate only changes to subscribers, which may break some drivers. In order to keep it back-compatible the last parameter in the parameters must be an boolean: whatever or not you required back-compatibility. If set to `true` you should receive an `add` event everytime something new is created.
 
+*NOTE*: before you can subscribe to any stream or use any Subscription related features, you have to send a [login request](https://rocket.chat/docs/developer-guides/realtime-api/method-calls/login/) using the RealTime API.
+
 Unsubscribing from a stream can be done in the following way:
 
 ```json

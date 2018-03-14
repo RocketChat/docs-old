@@ -11,7 +11,9 @@ redirect_from:
 
 ## How to apply
 
-Interested students should email the mentor(s) directly for discussion and further information.  You can also find them, most of the time, on our [community server](https://open.rocket.chat/)  for real-time chat.   Many of the mentors are fluent in both Portuguese and English.
+UPDATE March 12, 2018 -   Proposal submission for GSoC 2018 has started!   Interested students should visit the [GSoC 2018 site](https://summerofcode.withgoogle.com/) to apply and submit their proposals.  See the *Project Ideas* section below for some interesting ideas.
+
+You can email the mentor(s) directly for discussion and further information.  You can also find them, most of the time, on our [community server](https://open.rocket.chat/)  for real-time chat.   Many of the mentors are fluent in both Portuguese and English.
 
 For current information on the 2018 program and general discussions, please see GSoC 2018 category on our discussion forums:
 
@@ -31,7 +33,21 @@ Interested students are also encouraged to interact with our contributor communi
 
 ## Timeline
 
-[GSoC 2018 Timeline](https://developers.google.com/open-source/gsoc/timeline)
+[GSoC 2018 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
+
+**February 12 - March 12**
+Potential student participants discuss application ideas with mentoring organizations
+
+**March 12 16:00 UTC**
+Student application period begins - _[How to write a Proposal](https://google.github.io/gsocguides/student/writing-a-proposal.html)_
+
+**March 27 16:00 UTC**
+Student application deadline
+
+**April 23 16:00 UTC**
+Accepted student proposals announced
+
+...
 
 ## Project Ideas
 
@@ -55,23 +71,22 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Nextcloud Integration
 
-- **Mentors:**   @guilherme.gazzo and Nextcloud team
+- **Mentors:**   @guilherme.gazzo, @bjoern.schiessle
 - **Description:**  You will create a cross-platform GUI file picker interface for Nextcloud,  integrated within Rocket.Chat,   allowing any user to select files from a Nextcloud server (or hosted Nextcloud account) for utilization (such as  file-sharing upload) within Rocket.Chat.
-
 - **Desirable Skills:**  You should already be familiar with the operation of Nextcloud and Rocket.Chat and ideally have experience programming with Nextcloud’s API.  Experience working with JavaScript GUI an fullstack frameworks such as Angular and/or React is a big plus.  You will get a chance to work with the creators and architects of both Nextcloud and Rocket.Chat.  Upon completion of this project, you will be able to claim experience creating a modern open source software component that will be used by hundreds of thousands of Rocket.Chat and Nextcloud users.
+
+### NextCloud as a Storage Provider
+
+- **Mentors:** @guilherme.gazzo, @bjoern.schiessle
+- **Description:** (1) Enabling Rocket.Chat server adminstrator to use an NextCloud instance for storage of upload. (2) Within Rocket.Chat client user interface, allow access to the contents on a user's NextCloud instance
+- **Desirable Skills:** Familiarity with both Rocket.Chat and NextCloud development.
 
 ### Snap Crafting
 
-- **Mentors:**   @aaron.ogle
+- **Mentors:**   @aaron.ogle,  @sing.li
 - **Description:**  Snap is one of the easiest and most popular method to install Rocket.Chat on Linux distributions. You can have a Rocket.Chat server up and running with database and SSL proxy fully configured with one simple command. The current snap installation build script, used by hundreds of thousands of community users, is in need of updating and enhancements. You will be crafting updates and new features for our snaps for this project.
 
 - **Desirable Skills:**  Interest in system configuration, dev ops, system operations, and operating systems.   Should be competent in shell scripting on Linux and one or more programming languages.  Experience with docker or snapcraft a big plus.
-
-### OwnCloud as a Storage Provider
-
-- **Mentors:** TBD (in conjunction with OwnCloud)
-- **Description:** (1) Enabling Rocket.Chat server adminstrator to use an OwnCloud instance for storage of upload. (2) Within Rocket.Chat client user interface, allow access to the contents on a user's OwnCloud instance
-- **Desirable Skills:** Familiarity with both Rocket.Chat and OwnCloud development.
 
 ### Scaling to the edge of dreams
 
