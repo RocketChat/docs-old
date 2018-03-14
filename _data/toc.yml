@@ -219,6 +219,9 @@
         - leave
         - list.joined
         - list
+        - notifications:
+          - get
+          - post
         - open
         - removeModerator
         - removeOwner

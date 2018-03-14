@@ -262,6 +262,9 @@ Here you can also find what articles are incomplete and missing.
             - list.joined
             - list
             - <span class="missing">[members](../missing-and-outdated-list/index.html#channelsmembers)</span>
+            - notifications:
+                - get
+                - post
             - open
             - removeModerator
             - removeOwner
