@@ -20,8 +20,19 @@ curl http://localhost:3000/api/v1/settings.oauth
         {
             "id": "iJeY7x4wxnh2p3pLr",
             "name": "facebook",
-            "appId": "test"
-        }
+            "appId": "test",
+            "buttonLabelText": "test",
+            "buttonColor": "#13679A",
+            "buttonLabelColor": "#FFFFFF"
+        },
+        {
+                    "id": "iJeY7x4wxnh2p3pLr",
+                    "name": "twitter",
+                    "appId": "test",
+                    "buttonLabelText": "",
+                    "buttonColor": "",
+                    "buttonLabelColor": ""
+                }
     ],
     "success": true
 }
