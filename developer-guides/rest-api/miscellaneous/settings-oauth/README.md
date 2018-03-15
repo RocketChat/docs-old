@@ -26,13 +26,13 @@ curl http://localhost:3000/api/v1/settings.oauth
             "buttonLabelColor": "#FFFFFF"
         },
         {
-                    "id": "iJeY7x4wxnh2p3pLr",
-                    "name": "twitter",
-                    "appId": "test",
-                    "buttonLabelText": "",
-                    "buttonColor": "",
-                    "buttonLabelColor": ""
-                }
+            "id": "iJeY7x4wxnh2p3pLr",
+            "name": "twitter",
+            "appId": "test",
+            "buttonLabelText": "",
+            "buttonColor": "",
+            "buttonLabelColor": ""
+        }
     ],
     "success": true
 }
