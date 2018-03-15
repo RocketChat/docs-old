@@ -26,3 +26,9 @@ curl http://localhost:3000/api/v1/settings.oauth
     "success": true
 }
 ```
+
+## Change Log
+
+| Version | Description |
+| :--- | :--- |
+| 0.63.0 | Added |
