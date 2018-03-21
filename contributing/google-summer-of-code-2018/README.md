@@ -11,7 +11,9 @@ redirect_from:
 
 ## How to apply
 
-Interested students should email the mentor(s) directly for discussion and further information.  You can also find them, most of the time, on our [community server](https://open.rocket.chat/)  for real-time chat.   Many of the mentors are fluent in both Portuguese and English.
+UPDATE March 12, 2018 -   Proposal submission for GSoC 2018 has started!   Interested students should visit the [GSoC 2018 site](https://summerofcode.withgoogle.com/) to apply and submit their proposals.  See the *Project Ideas* section below for some interesting ideas.
+
+You can email the mentor(s) directly for discussion and further information.  You can also find them, most of the time, on our [community server](https://open.rocket.chat/)  for real-time chat.   Many of the mentors are fluent in both Portuguese and English.
 
 For current information on the 2018 program and general discussions, please see GSoC 2018 category on our discussion forums:
 
@@ -69,13 +71,13 @@ Accepted student proposals announced
 
 ### Nextcloud Integration
 
-- **Mentors:**   @guilherme.gazzo,  @frank.karlitschek, @bjoern.schiessle
+- **Mentors:**   @guilherme.gazzo, @bjoern.schiessle
 - **Description:**  You will create a cross-platform GUI file picker interface for Nextcloud,  integrated within Rocket.Chat,   allowing any user to select files from a Nextcloud server (or hosted Nextcloud account) for utilization (such as  file-sharing upload) within Rocket.Chat.
 - **Desirable Skills:**  You should already be familiar with the operation of Nextcloud and Rocket.Chat and ideally have experience programming with Nextcloud’s API.  Experience working with JavaScript GUI an fullstack frameworks such as Angular and/or React is a big plus.  You will get a chance to work with the creators and architects of both Nextcloud and Rocket.Chat.  Upon completion of this project, you will be able to claim experience creating a modern open source software component that will be used by hundreds of thousands of Rocket.Chat and Nextcloud users.
 
 ### NextCloud as a Storage Provider
 
-- **Mentors:** @guilherme.gazzo,  @frank.karlitschek, @bjoern.schiessle
+- **Mentors:** @guilherme.gazzo, @bjoern.schiessle
 - **Description:** (1) Enabling Rocket.Chat server adminstrator to use an NextCloud instance for storage of upload. (2) Within Rocket.Chat client user interface, allow access to the contents on a user's NextCloud instance
 - **Desirable Skills:** Familiarity with both Rocket.Chat and NextCloud development.
 
@@ -200,7 +202,7 @@ Some projects that you can submit proposals for include:
 
 ### Rich Messages and Payloads for Buttons and Cards
 
-- **Mentors:** @diego.dorgam + @timkinnnae
+- **Mentors:** @diego.dorgam + @timkinnnae + @JSzaszvari
 - **Description:** Create UI components and develop the handling of message payloads to support new interactions for bots, like buttons, cards, images and more. Follow existing conventions to let bot developers migrate pre-built solutions to be delivered via Rocket.Chat. This opens the door for enhanced user experience and interaction flows in automated messaging, letting bots provide a much greater variety of utility; such as business apps, team workflows, even games and interactive narratives.
 
 - **Desirable Skills:** Familiarity with front-end design and development (JavaScript / CSS).
