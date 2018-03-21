@@ -1,4 +1,6 @@
-# Get all the mentions od a channel
+# Get all the mentions of a channel
+
+It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -24,14 +26,42 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 {
     "mentions": [
         {
-            "messageId": "Gptx3mc6TjSv5tLWb",
-            "roomId": "ByehQjC44FwMeiLbX",
-            "timestamp": "2018-03-12T14:59:14.166Z",
-            "user": {
-                "id": "47cRd58HnWwpqxhaZ",
-                "username": "rocket.cat",
-                "name": "Rocket cat"
-            }
+            "_id": "Gptx3mc6TjSv5tLWb",
+            "rid": "GENERAL",
+            "msg": "@rocket.cat",
+            "ts": "2018-03-12T14:59:14.166Z",
+            "u": {
+                "_id": "47cRd58HnWwpqxhaZ",
+                "username": "test",
+                "name": "test"
+            },
+            "mentions": [
+                {
+                    "_id": "47cRd58HnWwpqxhaZ",
+                    "username": "rocket.cat"
+                }
+            ],
+            "channels": [],
+            "_updatedAt": "2018-03-12T14:59:14.171Z"
+        },
+        {
+            "_id": "rwerwfjuii6TjSv5tLWb",
+            "rid": "GENERAL",
+            "msg": "@rocket.cat",
+            "ts": "2018-03-12T14:59:14.166Z",
+            "u": {
+                "_id": "47cRd58HnWwpqxhaZ",
+                "username": "test",
+                "name": "test"
+            },
+            "mentions": [
+                {
+                    "_id": "47cRd58HnWwpqxhaZ",
+                    "username": "rocket.cat"
+                }
+            ],
+            "channels": [],
+            "_updatedAt": "2018-03-12T14:59:14.171Z"
         }
     ],
     "success": true
