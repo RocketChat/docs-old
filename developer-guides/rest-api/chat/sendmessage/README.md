@@ -1,14 +1,14 @@
-# Post a chat message
+# Send new chat message
 
 | URL                        | Requires Auth | HTTP Method |
 | :------------------------- | :------------ | :---------- |
-| `/api/v1/chat.postMessage` | `yes`         | `POST`      |
+| `/api/v1/chat.sendMessage` | `yes`         | `POST`      |
 
 ## Payload
 
 | Argument                    | Example                                 | Required      | Description                                                                                                 |
 | :-------------------------- | :-------------------------------------- | :------------ | :---------------------------------------------------------------------------------------------------------- |
-| `roomId` <br><br> `channel` | `ByehQjC44FwMeiLbX` <br><br> `#general` | <br> Required | The room id of where the message is to be sent. <br><br> The channel name with the prefix in front of it.   |
+| `rid`                       | `ByehQjC44FwMeiLbX`                     | <br> Required | The room id of where the message is to be sent.                                                             |
 | `text`                      | `Sample message`                        | Optional      | The text of the message to send, is optional because of attachments.                                        |
 | `alias`                     | `Some Name`                             | Optional      | This will cause the message's name to appear as the given alias, but your username will still display.      |
 | `emoji`                     | `:smirk:`                               | Optional      | If provided, this will make the avatar on this message be an emoji. [Emoji Cheetsheet](http://emoji.codes/) |
@@ -60,38 +60,39 @@ The field property of the attachments allows for "tables" or "columns" to be dis
 
 ```json
 {
-  "roomId": "Xnb2kLD2Pnhdwe3RH",
-    "channel": "#general",
-  "text": "Sample message",
-  "alias": "Gruggy",
-  "emoji": ":smirk:",
-    "avatar": "http://res.guggy.com/logo_128.png",
-  "attachments": [{
-        "color": "#ff0000",
-        "text": "Yay for gruggy!",
-        "ts": "2016-12-09T16:53:06.761Z",
-        "thumb_url": "http://res.guggy.com/logo_128.png",
-        "message_link": "https://google.com",
-        "collapsed": false,
-    "author_name": "Bradley Hilton",
-    "author_link": "https://rocket.chat/",
-    "author_icon": "https://avatars.githubusercontent.com/u/850391?v=3",
-    "title": "Attachment Example",
-    "title_link": "https://youtube.com",
-    "title_link_download": true,
-    "image_url": "http://res.guggy.com/logo_128.png",
-    "audio_url": "http://www.w3schools.com/tags/horse.mp3",
-    "video_url": "http://www.w3schools.com/tags/movie.mp4",
-    "fields": [{
-      "short": true,
-      "title": "Test",
-      "value": "Testing out something or other"
-    },{
-      "short": true,
-      "title": "Another Test",
-      "value": "[Link](https://google.com/) something and this and that."
-    }]
-  }]
+   "message": {
+      "rid": "Xnb2kLD2Pnhdwe3RH",
+      "text": "Sample message",
+      "alias": "Gruggy",
+      "emoji": ":smirk:",
+      "avatar": "http://res.guggy.com/logo_128.png",
+      "attachments": [{
+            "color": "#ff0000",
+            "text": "Yay for gruggy!",
+            "ts": "2016-12-09T16:53:06.761Z",
+            "thumb_url": "http://res.guggy.com/logo_128.png",
+            "message_link": "https://google.com",
+            "collapsed": false,
+            "author_name": "Bradley Hilton",
+            "author_link": "https://rocket.chat/",
+            "author_icon": "https://avatars.githubusercontent.com/u/850391?v=3",
+            "title": "Attachment Example",
+            "title_link": "https://youtube.com",
+            "title_link_download": true,
+            "image_url": "http://res.guggy.com/logo_128.png",
+            "audio_url": "http://www.w3schools.com/tags/horse.mp3",
+            "video_url": "http://www.w3schools.com/tags/movie.mp4",
+            "fields": [{
+              "short": true,
+              "title": "Test",
+              "value": "Testing out something or other"
+            },{
+              "short": true,
+              "title": "Another Test",
+              "value": "[Link](https://google.com/) something and this and that."
+            }]
+      }]
+  }
 }
 ```
 
@@ -101,40 +102,30 @@ The field property of the attachments allows for "tables" or "columns" to be dis
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type:application/json" \
-     http://localhost:3000/api/v1/chat.postMessage \
-     -d '{ "channel": "#general", "text": "This is a test!" }'
+     http://localhost:3000/api/v1/chat.sendMessage \
+     -d '{ "rid": "Xnb2kLD2Pnhdwe3RH", "text": "This is a test!" }'
 ```
 
 ## Example Result
 
 ```json
 {
-  "ts": 1481748965123,
-  "channel": "general",
-  "message": {
-    "alias": "",
-    "msg": "This is a test!",
-    "parseUrls": true,
-    "groupable": false,
-    "ts": "2016-12-14T20:56:05.117Z",
-    "u": {
-      "_id": "y65tAmHs93aDChMWu",
-      "username": "graywolf336"
+    "message": {
+        "rid": "GENERAL",
+        "text": "123456789",
+        "ts": "2018-03-01T18:02:26.825Z",
+        "u": {
+            "_id": "i5FdM4ssFgAcQP62k",
+            "username": "rocket.cat",
+            "name": "test"
+        },
+        "msg": "",
+        "unread": true,
+        "mentions": [],
+        "channels": [],
+        "_updatedAt": "2018-03-01T18:02:26.828Z",
+        "_id": "LnCSJxxNkCy6K9X8X"
     },
-    "rid": "GENERAL",
-    "_updatedAt": "2016-12-14T20:56:05.119Z",
-    "_id": "jC9chsFddTvsbFQG7"
-  },
-  "success": true
+    "success": true
 }
 ```
-
-## Change Log
-
-| Version | Description                                                                  |
-| :------ | :--------------------------------------------------------------------------- |
-| 0.49.0  | The `channel` can now be a room's id.                                        |
-| 0.48.0  | Information about the sent message is now returned.                          |
-| 0.17.0  | Messages aren't always processed as from BOT and urls are parsed by default. |
-| 0.14.0  | Internally using `processWebhookMessage` which enabled more features.        |
-| 0.13.0  | Added                                                                        |

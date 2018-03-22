@@ -10,11 +10,11 @@ This is the unique name for your application as a Service Provider (SP) for SAML
 
 ### Custom Entry Point (IDP SSO Redirect URL)
 
-This is the URL provided by your IdP for logging in. In SAML-terminology, the is the location (URL) of the SingleLogoutService with the Redirect binding (urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect).
+This is the URL provided by your IdP for logging in. In SAML-terminology, the is the location (URL) of the SingleSignOnService with the Redirect binding (urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect).
 
 ### IDP SLO Redirect URL
 
-This is the URL provided by your IdP for logging out. In SAML-terminology, the is the location (URL) of the SingleSignOnService with the Redirect binding (urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect).
+This is the URL provided by your IdP for logging out. In SAML-terminology, the is the location (URL) of the SingleLogoutService with the Redirect binding (urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect).
 
 ### Custom Issuer (SP entityID)
 
