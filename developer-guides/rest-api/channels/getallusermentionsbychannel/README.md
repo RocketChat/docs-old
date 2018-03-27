@@ -64,6 +64,9 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
             "_updatedAt": "2018-03-12T14:59:14.171Z"
         }
     ],
+    "count": 2,
+    "offset": 10,
+    "total": 2,
     "success": true
 }
 ```
