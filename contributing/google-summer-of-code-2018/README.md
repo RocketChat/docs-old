@@ -11,7 +11,11 @@ redirect_from:
 
 ## How to apply
 
-Interested students should email the mentor(s) directly for discussion and further information.  You can also find them, most of the time, on our [community server](https://open.rocket.chat/)  for real-time chat.   Many of the mentors are fluent in both Portuguese and English.
+UPDATE March 24, 2018 -  Students PLEASE NOTE that your final proposal is due on March 27th.  It must be in PDF format and submitted via the official GSoC Dashboard.  Your Rocket.Chat Core and Guest Industry mentors are looking forward to receive and review your final proposals.
+
+UPDATE March 12, 2018 -   Proposal submission for GSoC 2018 has started!   Interested students should visit the [GSoC 2018 site](https://summerofcode.withgoogle.com/) to apply and submit their proposals.  See the *Project Ideas* section below for some interesting ideas.
+
+You can email the mentor(s) directly for discussion and further information.  You can also find them, most of the time, on our [community server](https://open.rocket.chat/)  for real-time chat.   Many of the mentors are fluent in both Portuguese and English.
 
 For current information on the 2018 program and general discussions, please see GSoC 2018 category on our discussion forums:
 
@@ -69,13 +73,13 @@ Accepted student proposals announced
 
 ### Nextcloud Integration
 
-- **Mentors:**   @guilherme.gazzo,  @frank.karlitschek, @bjoern.schiessle
+- **Mentors:**   @guilherme.gazzo, @bjoern.schiessle (Nextcloud Guest Mentor)
 - **Description:**  You will create a cross-platform GUI file picker interface for Nextcloud,  integrated within Rocket.Chat,   allowing any user to select files from a Nextcloud server (or hosted Nextcloud account) for utilization (such as  file-sharing upload) within Rocket.Chat.
 - **Desirable Skills:**  You should already be familiar with the operation of Nextcloud and Rocket.Chat and ideally have experience programming with Nextcloud’s API.  Experience working with JavaScript GUI an fullstack frameworks such as Angular and/or React is a big plus.  You will get a chance to work with the creators and architects of both Nextcloud and Rocket.Chat.  Upon completion of this project, you will be able to claim experience creating a modern open source software component that will be used by hundreds of thousands of Rocket.Chat and Nextcloud users.
 
 ### NextCloud as a Storage Provider
 
-- **Mentors:** @guilherme.gazzo,  @frank.karlitschek, @bjoern.schiessle
+- **Mentors:** @guilherme.gazzo, @bjoern.schiessle (Nextcloud Guest Mentor)
 - **Description:** (1) Enabling Rocket.Chat server adminstrator to use an NextCloud instance for storage of upload. (2) Within Rocket.Chat client user interface, allow access to the contents on a user's NextCloud instance
 - **Desirable Skills:** Familiarity with both Rocket.Chat and NextCloud development.
 
@@ -100,7 +104,7 @@ Accepted student proposals announced
 
 ### Uniting “One Rocket.Chat” with Federation
 
-- **Mentors:**  @gabriel.engel,  @matthew.hodgson, and @sing.li
+- **Mentors:**  @gabriel.engel,  @matthew.hodgson (Matrix.org Guest Mentor), and @sing.li
 - **Description:** Help Rocket.Chat to invent and implement networked federation for the next generation of collaboration platforms.
 - **Desirable Skills:** Suitable for an ambitious undergraduate planning to enroll or already enrolled for masters or PhD work in a cluster computing, networking  or distributed systems discipline in computer science or engineering to join us for an exciting summer of incredible brain crushing yet hands-on fun.   Working alongside our federation team – you will help design and test out your hypothesis against a next generation federation mechanism optimized specifically for Rocket.Chat servers – uniting them globally across all geo-political boundaries to dyamically form “One Rocket.Chat”.   This work will leverage all existing current research in this domain.   You must already be familiar with the work of giants – such as matrix.org – and be ready to break all conventions to improve and innovate upon existing paradigms.  You will be rewarded with production working experience on this bleeding-edge discipline, in a world-leading open source team environment with a like-minded team.  An incredible and unique opportunity in 2018.
 
@@ -140,8 +144,7 @@ Accepted student proposals announced
 
 ### Enabling global decentralized blockchain powered crypto communities
 
-- **Mentors:** @sing.li and TBD Cryto Industry guest mentors
-
+- **Mentors:** @sing.li , @ankit.bhatia (Sapien Network Guest Mentor) and other leading blockchain industry guest mentors
 - **Description:** Working together with our crypto and blockchain team – you will help build the key enabler platform for the future of blockchain powered decentralized communities all over this world (and perhaps even beyond).   Within this short summer, you will gain experience in working on a global-circulation production-grade blockchain-powered adoption-acceleration platform.  You will also meet and work with leading visionaries and pioneers in the current blockchain / crypto field.   Tangible potential to become an early architect of this brave new world, supported by Rocket.Chat.
 
 Some projects that you can submit proposals for include:
@@ -183,13 +186,13 @@ Some projects that you can submit proposals for include:
 
 ### Improve Hubot Integration
 
-- **Mentors:** @diego.dorgam
+- **Mentors:** @diego.dorgam, @john.szaszvari  (Contributing Guest Mentor)
 - **Description:** Improve the internal hubot interface, by allowing users to set up their own repositories for Rocket.Chat to read and deploy a hubot instance from it. Also would be awesome if the user could just edit the scripts files, and get console logs, right from the Rocket.Chat interface.
 - **Desirable Skills:** Familiarity with JavaScript development and hubot architecture.
 
 ### Open Source Bot Frameworks Adapters
 
-- **Mentors:** @diego.dorgam + @timkinnnae
+- **Mentors:** @diego.dorgam,  @timkinnnae,  @john.szaszvari (Contributing Guest Mentor)
 - **Description:** The objective is to widely open Rocket.Chat's bots ecosystem by developing connectors/adapters to open source bot frameworks available in the web, so their community can develop bots able to run on Rocket.Chat platform. The scope would include the following frameworks:
 
 - BotKit
@@ -200,7 +203,7 @@ Some projects that you can submit proposals for include:
 
 ### Rich Messages and Payloads for Buttons and Cards
 
-- **Mentors:** @diego.dorgam + @timkinnnae
+- **Mentors:** @diego.dorgam, @timkinnnae,  @john.szaszvari (Contributing Guest Mentor)
 - **Description:** Create UI components and develop the handling of message payloads to support new interactions for bots, like buttons, cards, images and more. Follow existing conventions to let bot developers migrate pre-built solutions to be delivered via Rocket.Chat. This opens the door for enhanced user experience and interaction flows in automated messaging, letting bots provide a much greater variety of utility; such as business apps, team workflows, even games and interactive narratives.
 
 - **Desirable Skills:** Familiarity with front-end design and development (JavaScript / CSS).

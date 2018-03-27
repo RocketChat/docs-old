@@ -5,6 +5,7 @@
     - Markdown Styleguide
     - Documentation Map
     - Missing and Outdated List
+    - Community Maintainers
   - Google Summer of Code 2017
   - Google Summer of Code 2018
   - Promoting
@@ -211,6 +212,7 @@
         - cleanHistory
         - close
         - create
+        - files
         - getIntegrations
         - history
         - info
@@ -252,6 +254,7 @@
         - archive
         - close
         - create
+        - files
         - getIntegrations
         - history
         - info
@@ -272,6 +275,8 @@
         - unarchive
       - Im:
         - close
+        - create
+        - files
         - history
         - list.everyone
         - list
@@ -315,6 +320,7 @@
         - setAvatar
         - set-preferences
         - update
+        - updateOwnBasicInfo
       - Offset and Count and Sort Info
       - Permissions
       - Query and Fields Info
