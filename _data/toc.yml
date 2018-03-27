@@ -238,6 +238,7 @@
         - pinMessage
         - postMessage
         - react
+        - search
         - starMessage
         - sendMessage
         - unPinMessage
