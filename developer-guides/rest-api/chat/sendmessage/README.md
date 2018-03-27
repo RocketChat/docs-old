@@ -9,7 +9,7 @@
 | Argument                    | Example                                 | Required      | Description                                                                                                 |
 | :-------------------------- | :-------------------------------------- | :------------ | :---------------------------------------------------------------------------------------------------------- |
 | `rid`                       | `ByehQjC44FwMeiLbX`                     | <br> Required | The room id of where the message is to be sent.                                                             |
-| `text`                      | `Sample message`                        | Optional      | The text of the message to send, is optional because of attachments.                                        |
+| `msg`                      | `Sample message`                        | Optional      | The text of the message to send, is optional because of attachments.                                        |
 | `alias`                     | `Some Name`                             | Optional      | This will cause the message's name to appear as the given alias, but your username will still display.      |
 | `emoji`                     | `:smirk:`                               | Optional      | If provided, this will make the avatar on this message be an emoji. [Emoji Cheetsheet](http://emoji.codes/) |
 | `avatar`                    | `http://site.com/logo.png`              | Optional      | If provided, this will make the avatar use the provided image url.                                          |
@@ -62,7 +62,7 @@ The field property of the attachments allows for "tables" or "columns" to be dis
 {
    "message": {
       "rid": "Xnb2kLD2Pnhdwe3RH",
-      "text": "Sample message",
+      "msg": "Sample message",
       "alias": "Gruggy",
       "emoji": ":smirk:",
       "avatar": "http://res.guggy.com/logo_128.png",
@@ -103,7 +103,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type:application/json" \
      http://localhost:3000/api/v1/chat.sendMessage \
-     -d '{ "rid": "Xnb2kLD2Pnhdwe3RH", "text": "This is a test!" }'
+     -d '{ "rid": "Xnb2kLD2Pnhdwe3RH", "msg": "This is a test!" }'
 ```
 
 ## Example Result
@@ -112,14 +112,13 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 {
     "message": {
         "rid": "GENERAL",
-        "text": "123456789",
+        "msg": "123456789",
         "ts": "2018-03-01T18:02:26.825Z",
         "u": {
             "_id": "i5FdM4ssFgAcQP62k",
             "username": "rocket.cat",
             "name": "test"
         },
-        "msg": "",
         "unread": true,
         "mentions": [],
         "channels": [],
