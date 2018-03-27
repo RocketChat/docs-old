@@ -318,6 +318,7 @@ Here you can also find what articles are incomplete and missing.
             - unarchive
         - Im:
             - close
+            - create
             - files
             - history
             - list.everyone
@@ -336,6 +337,7 @@ Here you can also find what articles are incomplete and missing.
             - users
         - Miscellaneous:
             - info
+            - settings.oauth
             - statistics
             - statistics.list
         - Rooms:
