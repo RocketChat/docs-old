@@ -170,6 +170,7 @@
         - Get Permissions
         - User Presence
         - Notify Room Stream
+        - Create Direct Message
         - Send Message
         - Delete Message
         - Update Message
