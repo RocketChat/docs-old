@@ -253,6 +253,7 @@ Here you can also find what articles are incomplete and missing.
             - create
             - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
             - files
+            - getAllUserMentionsByChannel
             - getIntegrations
             - history
             - info
@@ -262,6 +263,9 @@ Here you can also find what articles are incomplete and missing.
             - list.joined
             - list
             - <span class="missing">[members](../missing-and-outdated-list/index.html#channelsmembers)</span>
+            - notifications:
+                - get
+                - post
             - open
             - removeModerator
             - removeOwner
@@ -338,6 +342,7 @@ Here you can also find what articles are incomplete and missing.
             - users
         - Miscellaneous:
             - info
+            - settings.oauth
             - statistics
             - statistics.list
         - Rooms:
