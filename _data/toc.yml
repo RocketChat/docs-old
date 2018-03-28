@@ -213,6 +213,7 @@
         - close
         - create
         - files
+        - getAllUserMentionsByChannel
         - getIntegrations
         - history
         - info

@@ -253,6 +253,7 @@ Here you can also find what articles are incomplete and missing.
             - create
             - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
             - files
+            - getAllUserMentionsByChannel
             - getIntegrations
             - history
             - info
