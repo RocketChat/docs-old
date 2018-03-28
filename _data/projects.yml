@@ -11,6 +11,18 @@
     Managing your Account: managing-your-account/
 
 -
+  name: Rocket.Chat Installation Guides
+  icon: cog
+  description: Guides for installing and deploying Rocket.Chat
+  path: installation/
+  pages:
+    Rocket.Chat Cloud: rocket-chat-cloud/
+    PaaS Deployments: paas-deployments/
+    Docker Containers: docker-containers/
+    Manual Installation: manual-installation/
+    Updating: updating/
+
+-
   name: Rocket.Chat Administrator Guides
   icon: cog
   description: Guides for managing and configuring Rocket.Chat

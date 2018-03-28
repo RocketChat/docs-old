@@ -128,18 +128,6 @@ Create a guide on how to create custom oauth apps.
 
 Create a guide on how to use Rocket.Chat as a Oauth provider.
 
-## channels.files
-
-Create documentation on how the `channels.files` REST API endpoint works
-
-## groups.files
-
-Create documentation on how the `groups.files` REST API endpoint works
-
-## im.files
-
-Create documentation on how the `im.files` REST API endpoint works
-
 ## channels.members
 
 Create documentation on how the `channels.members` REST API endpoint works
