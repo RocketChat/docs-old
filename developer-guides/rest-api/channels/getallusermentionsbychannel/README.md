@@ -70,6 +70,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
     "success": true
 }
 ```
+
 ## Change Log
 
 | Version | Description |
