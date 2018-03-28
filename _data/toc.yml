@@ -223,9 +223,6 @@
         - leave
         - list.joined
         - list
-        - notifications:
-          - get
-          - post
         - open
         - removeModerator
         - removeOwner
@@ -304,6 +301,7 @@
         - statistics.list
       - Rooms:
         - get
+        - saveNotification
         - upload
       - Settings:
         - get
@@ -312,6 +310,8 @@
         - service-configuration
         - update
       - Spotlight
+      - Subscriptions:
+        - getOne
       - Users:
         - create
         - createToken

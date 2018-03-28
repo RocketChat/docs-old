@@ -1,10 +1,10 @@
-# Channel Notifications GET
+# Subscriptions Get one
 
-Gets the notification settings from a specific channel
+Get the subscription by room id.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.notifications` | `yes` | `GET` |
+| `/api/v1/subscriptions.getOne` | `yes` | `GET` |
 
 ## Query Parameters
 
@@ -18,7 +18,7 @@ Gets the notification settings from a specific channel
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type: application/json" \
-     http://localhost:3000/api/v1/channels.notifications?roomId=5of4weEXaH7yncxz9 \
+     http://localhost:3000/api/v1/subscriptions.getOne?roomId=5of4weEXaH7yncxz9 \
 ```
 
 ## Example Result
