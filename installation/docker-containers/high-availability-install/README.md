@@ -22,8 +22,8 @@ rocketchat:
     environment:
         - PORT=3000
         - ROOT_URL=https://chat.domain.de
-        - MONGO_URL=mongodb://rocket:password@rocket-1:27017,rocket-2:27017,rocket-3:27017/rocketchat?replicaSet=rs0&readPreference=nearest&w=majority
-        - MONGO_OPLOG_URL=mongodb://username:password@rocket-1:27017,rocket-2:27017,rocket-3:27017/local?authSource=admin&replicaSet=rs0
+        - MONGO_URL=mongodb://rocket:password@rocket-1:27017,rocket-2:27017,rocket-3:27017/rocketchat?authSource=admin&replicaSet=rs0&readPreference=nearest&w=majority
+        - MONGO_OPLOG_URL=mongodb://oploguser:password@rocket-1:27017,rocket-2:27017,rocket-3:27017/local?authSource=admin&replicaSet=rs0
         - INSTANCE_IP=<ip of the local instance>
     ports:
         - 3000:3000

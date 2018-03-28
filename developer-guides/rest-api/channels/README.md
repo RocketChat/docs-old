@@ -9,6 +9,7 @@
 | `/api/v1/channels.cleanHistory` | Cleans up a channel's history, requires special permission. | [Link](cleanhistory/) |
 | `/api/v1/channels.close` | Removes a channel from a user's list of channels. | [Link](close/) |
 | `/api/v1/channels.create` | Creates a new channel. | [Link](create/) |
+| `/api/v1/channels.getAllUserMentionsByChannel`| Gets all the mentions of a channel. | [Link](getallusermentionsbychannel/)   |
 | `/api/v1/channels.files` | Gets a list of files from a channel. | [Link](files/) |
 | `/api/v1/channels.getIntegrations` | Gets the channel's integration. | [Link](getintegrations/)
 | `/api/v1/channels.history` | Retrieves the messages from a channel. | [Link](history/) |
@@ -18,6 +19,8 @@
 | `/api/v1/channels.leave` | Removes the calling user from a channel. | [Link](leave/) |
 | `/api/v1/channels.list` | Retrives all of the channels from the server. | [Link](list/) |
 | `/api/v1/channels.list.joined` | Gets only the channels the calling user has joined. | [Link](list-joined/) |
+| `/api/v1/channels.notifications`  GET  | Gets the notifications settings from a specific channel. | [Link](notifications/get/) |
+| `/api/v1/channels.notifications`  POST  | Sets the notifications settings of specific channel.  | [Link](notifications/post/) |
 | `/api/v1/channels.open` | Adds the channel back to the user's list of channels. | [Link](open/) |
 | `/api/v1/channels.removeModerator` | Removes the role of moderator from a user in a channel. | [Link](removemoderator/) |
 | `/api/v1/channels.removeOwner` | Removes the role of owner from a user in a channel. | [Link](removeowner/) |
