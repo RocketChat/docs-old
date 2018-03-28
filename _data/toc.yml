@@ -276,6 +276,7 @@
         - unarchive
       - Im:
         - close
+        - create
         - files
         - history
         - list.everyone
@@ -293,6 +294,7 @@
         - users
       - Miscellaneous:
         - info
+        - settings.oauth
         - statistics
         - statistics.list
       - Rooms:

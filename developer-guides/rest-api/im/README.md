@@ -3,6 +3,7 @@
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/im.close` | Removes a direct message from the list of direct messages. | [Link](close/) |
+| `/api/v1/im.create` | Create a direct message session with another user. | [Link](create/)          |
 | `/api/v1/im.history` | Retrieves the messages from a direct message. | [Link](history/) |
 | `/api/v1/im.files`   | Retrieves a list of files from a direct message. | [Link](files/)           |
 | `/api/v1/im.messages.others` | Retrieves the messages from any direct message in the server. | [Link](messages-others/) |
