@@ -209,6 +209,7 @@ Here you can also find what articles are incomplete and missing.
             - Get Permissions
             - User Presence
             - Notify Room Stream
+            - Create Direct Message
             - Send Message
             - Delete Message
             - Update Message
