@@ -62,6 +62,7 @@ Here you can also find what articles are incomplete and missing.
     - Docker containers:
         - Generic Linux
         - systemd
+        - High Availability Install
         - Available Images
         - Docker Compose
     - Manual Installation:
@@ -71,6 +72,7 @@ Here you can also find what articles are incomplete and missing.
         - Universal
         - MacOSX
         - Multiple Instances to Improve Performance
+        - Migrating Meteor Mongo
         - OpenSUSE
         - <span class="incomplete">[RedHat](../missing-and-outdated-list/index.html#redhat)</span>
         - Ubuntu:
@@ -207,6 +209,7 @@ Here you can also find what articles are incomplete and missing.
             - Get Permissions
             - User Presence
             - Notify Room Stream
+            - Create Direct Message
             - Send Message
             - Delete Message
             - Update Message
@@ -253,7 +256,8 @@ Here you can also find what articles are incomplete and missing.
             - close
             - create
             - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
-            - <span class="missing">[files](../missing-and-outdated-list/index.html#channelsfiles)</span>
+            - files
+            - getAllUserMentionsByChannel
             - getIntegrations
             - history
             - info
@@ -263,6 +267,9 @@ Here you can also find what articles are incomplete and missing.
             - list.joined
             - list
             - <span class="missing">[members](../missing-and-outdated-list/index.html#channelsmembers)</span>
+            - notifications:
+                - get
+                - post
             - open
             - removeModerator
             - removeOwner
@@ -280,7 +287,9 @@ Here you can also find what articles are incomplete and missing.
             - pinMessage
             - postMessage
             - react
+            - search
             - starMessage
+            - sendMessage
             - unPinMessage
             - unStarMessage
             - update
@@ -296,7 +305,7 @@ Here you can also find what articles are incomplete and missing.
             - close
             - create
             - <span class="missing">[delete](../missing-and-outdated-list/index.html#groupsdelete)</span>
-            - <span class="missing">[files](../missing-and-outdated-list/index.html#groupsfiles)</span>
+            - files
             - getIntegrations
             - history
             - info
@@ -304,6 +313,7 @@ Here you can also find what articles are incomplete and missing.
             - kick
             - leave
             - list
+            - listAll
             - <span class="missing">[members](../missing-and-outdated-list/index.html#groupsmembers)</span>
             - open
             - removeModerator
@@ -317,8 +327,8 @@ Here you can also find what articles are incomplete and missing.
             - unarchive
         - Im:
             - close
-            - <span class="missing">[files](../missing-and-outdated-list/index.html#imfiles)</span>
-
+            - create
+            - files
             - history
             - list.everyone
             - list
@@ -336,22 +346,33 @@ Here you can also find what articles are incomplete and missing.
             - users
         - Miscellaneous:
             - info
+            - settings.oauth
+            - statistics
+            - statistics.list
+        - Rooms:
+            - get
+            - upload
         - Settings:
             - get
             - update
+        - Spotlight
         - Users:
             - create
             - createToken
             - delete
             - getAvatar
             - getPresence
+            - getPreferences
             - info
             - list
             - register
             - resetAvatar
             - setAvatar
+            - setPreferences
             - update
+            - updateOwnBasicInfo
         - Offset and Count and Sort Info
+        - Permissions
         - Query and Fields Info
         - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
         - <span class="incomplete">[Testing](../missing-and-outdated-list#Testing)</span>
