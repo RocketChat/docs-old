@@ -35,3 +35,10 @@ curl -H "Content-type:application/json" \
    }
 }
 ```
+
+## Change Log
+
+| Version | Description |
+| :--- | :--- |
+| 0.60.0 | Added |
+
