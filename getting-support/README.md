@@ -6,6 +6,7 @@ We have a great community that likes to give back.
 
 Some great places to ask your questions:
 
+- [Rocket.Chat forums](https://forums.rocket.chat/)
 - Stack Overflow [Rocket.Chat Tag](https://stackoverflow.com/questions/tagged/rocket.chat)
 - [Server Fault](https://serverfault.com/search?q=Rocket.Chat)
 

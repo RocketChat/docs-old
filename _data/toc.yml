@@ -170,6 +170,7 @@
         - Get Permissions
         - User Presence
         - Notify Room Stream
+        - Create Direct Message
         - Send Message
         - Delete Message
         - Update Message
@@ -213,6 +214,7 @@
         - close
         - create
         - files
+        - getAllUserMentionsByChannel
         - getIntegrations
         - history
         - info
@@ -221,6 +223,9 @@
         - leave
         - list.joined
         - list
+        - notifications:
+          - get
+          - post
         - open
         - removeModerator
         - removeOwner
@@ -239,6 +244,7 @@
         - pinMessage
         - postMessage
         - react
+        - search
         - starMessage
         - sendMessage
         - unPinMessage
@@ -276,6 +282,7 @@
         - unarchive
       - Im:
         - close
+        - create
         - files
         - history
         - list.everyone
@@ -293,6 +300,7 @@
         - users
       - Miscellaneous:
         - info
+        - settings.oauth
         - statistics
         - statistics.list
       - Rooms:
