@@ -27,6 +27,10 @@ a:hover {
 
 // structure
 
+.clear {
+  clear: both;
+}
+
 body {
   background: $color-dark;
   color: $color-dark;
@@ -150,6 +154,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 10;
 
   .wrapper {
     line-height: 28px;
@@ -226,6 +231,44 @@ header {
       outline: none;
       border: 1px solid #999;
     }
+  }
+
+  &.home {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    .algolia-autocomplete{
+      width: 100%
+    }
+
+    input {
+      border-radius: 3px;
+      background-color: #f6f7f9;
+      color: #000;
+      width: 100%;
+      height: 40px;
+    }
+    .icon {
+      filter: invert(100%);
+      margin-top: 0;
+      margin-left: 8px
+    }
+
+    ::-webkit-input-placeholder {
+      color: #aaa;
+    }
+    ::-moz-placeholder {
+      color: #aaa;
+    }
+    :-ms-input-placeholder {
+      color: #aaa;
+    }
+    :-moz-placeholder {
+      color: #aaa;
+    }
+
   }
 
   ::-webkit-input-placeholder {
@@ -307,12 +350,16 @@ footer {
   padding: 4em 0 3em;
   background-color: $color-dark;
   color: #fff;
+
   .wrapper{
-    display: flex;
-    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1em;
   }
 
   ul {
+    width: 25%;
+    float: left;
     padding: 0;
     list-style: none;
 
@@ -345,9 +392,9 @@ footer {
 
 .project-list {
   display: grid;
-  grid-template-columns: 40% 40%;
-  grid-column-gap: 10%;
-  margin-bottom: 15px;
+  grid-template-columns: repeat(2, 0.5fr);
+  grid-gap: 25px;
+  margin: 4em 0;
 }
 
 .project-card {
@@ -355,11 +402,19 @@ footer {
   flex-direction: column;
   background-color: #f6f7f9;
   padding: 15px 20px;
-  margin: 15px 0;
+  margin: 0 auto;
   height: 250px;
   justify-content: space-between;
-  max-width: 400px;
+  width: 100%;
 }
+
+.search-wrapper{
+  background-color: #1f2329;
+  color: white;
+  padding: 9em 0;
+  text-align: center;
+}
+
 
 .home-header {
   display: flex;
@@ -378,7 +433,6 @@ footer {
 
 .title{
   margin: 0;
-  font-size: 1.7em;
 
   &.card {
     font-size: 1.15em;
@@ -398,9 +452,22 @@ footer {
   flex-wrap: wrap;
   font-size: 0.8em;
   font-weight: bold;
+  max-width: 320px;
   & a {
     margin-right: 1.2em;
     color: #5b8af5;
+  }
+}
+
+#algolia-autocomplete-listbox-0 {
+  max-width: none;
+  min-width: none;
+  width: 100%;
+}
+
+@media all and (min-width: 2000px) {
+  .project-list {
+    grid-template-columns: repeat(3, 0.8fr);
   }
 }
 
@@ -448,13 +515,21 @@ footer {
 
   }
 
-  .search{
+  .search:not(.home){
     margin: 0;
     input {
       width: 0px;
       visibility: hidden;
     }
   }
+
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(1, 0.8fr);
+    grid-gap: 25px;
+    justify-content: center;
+  }
+
 
   header {
     .logo {

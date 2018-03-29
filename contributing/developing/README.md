@@ -11,6 +11,8 @@ You can find our projects [here](https://github.com/RocketChat).
 Go to the Issues tab and when you find something you would like to work on
 just comment on it and we will add an [In Progress label][progress_label].
 
+If you already have a work in progress pull request open for that issue you can simply link that issue on your pull request or write `Closes #ISSUE_NUMBER` where the `ISSUE_NUMBER` is the number in the end of the link url.
+
 **Where to Find Tasks:**
 
 Want a simple task to get you started?

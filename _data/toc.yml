@@ -5,6 +5,7 @@
     - Markdown Styleguide
     - Documentation Map
     - Missing and Outdated List
+    - Community Maintainers
   - Google Summer of Code 2017
   - Google Summer of Code 2018
   - Promoting
@@ -35,9 +36,11 @@
     - Scalingo
     - Sloppy.io
     - WeDeploy
+    - D2C.io
   - Docker containers:
     - Generic Linux
     - systemd
+    - High Availability Install
     - Available Images
     - Docker Compose
   - Manual Installation:
@@ -47,6 +50,7 @@
       - Universal
     - MacOSX
     - Multiple Instances to Improve Performance
+    - Migrating Meteor Mongo
     - OpenSUSE
     - RedHat
     - Ubuntu:
@@ -143,6 +147,7 @@
     - Branches and Releases
     - Code Styleguide:
       - less
+    - Deeplink
     - Iframe Integration:
       - Authentication
       - Commands
@@ -165,6 +170,7 @@
         - Get Permissions
         - User Presence
         - Notify Room Stream
+        - Create Direct Message
         - Send Message
         - Delete Message
         - Update Message
@@ -207,6 +213,8 @@
         - cleanHistory
         - close
         - create
+        - files
+        - getAllUserMentionsByChannel
         - getIntegrations
         - history
         - info
@@ -215,6 +223,9 @@
         - leave
         - list.joined
         - list
+        - notifications:
+          - get
+          - post
         - open
         - removeModerator
         - removeOwner
@@ -229,10 +240,13 @@
       - Chat:
         - delete
         - getMessage
+        - getMessageReadReceipts
         - pinMessage
         - postMessage
         - react
+        - search
         - starMessage
+        - sendMessage
         - unPinMessage
         - unStarMessage
         - update
@@ -247,6 +261,7 @@
         - archive
         - close
         - create
+        - files
         - getIntegrations
         - history
         - info
@@ -254,6 +269,7 @@
         - kick
         - leave
         - list
+        - listAll
         - open
         - removeModerator
         - removeOwner
@@ -266,6 +282,8 @@
         - unarchive
       - Im:
         - close
+        - create
+        - files
         - history
         - list.everyone
         - list
@@ -282,22 +300,36 @@
         - users
       - Miscellaneous:
         - info
+        - settings.oauth
+        - statistics
+        - statistics.list
+      - Rooms:
+        - get
+        - upload
       - Settings:
         - get
+        - get-by-id
+        - public
+        - service-configuration
         - update
+      - Spotlight
       - Users:
         - create
         - createToken
         - delete
         - getAvatar
         - getPresence
+        - get-preferences
         - info
         - list
         - register
         - resetAvatar
         - setAvatar
+        - set-preferences
         - update
+        - updateOwnBasicInfo
       - Offset and Count and Sort Info
+      - Permissions
       - Query and Fields Info
     - Schema Definition
     - Testing

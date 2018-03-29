@@ -13,3 +13,4 @@
 | `/api/v1/users.resetAvatar` | Reset a user's avatar | [Link](resetavatar/) |
 | `/api/v1/users.setAvatar` | Set a user's avatar | [Link](setavatar/) |
 | `/api/v1/users.update` | Update an existing user. | [Link](update/) |
+| `/api/v1/users.updateOwnBasicInfo` | Update basic information of own user.| [Link](updateownbasicinfo/)               |

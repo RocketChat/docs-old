@@ -1,6 +1,6 @@
 ---
-    layout: home
-    permalink: /index.html
+layout: home
+permalink: /index.html
 ---
 
 # Rocket.Chat Docs
