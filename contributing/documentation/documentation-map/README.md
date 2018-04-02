@@ -241,9 +241,12 @@ Here you can also find what articles are incomplete and missing.
             - sendOfflineMessage
         - Rest API:
         - Authentication:
+            - facebook
+            - google
             - login
             - logout
             - me
+            - twitter
         - Channels:
             - addAll
             - addModerator
