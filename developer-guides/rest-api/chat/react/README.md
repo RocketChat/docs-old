@@ -13,7 +13,7 @@ Toggles the authenciated user's reaction to the provided message.
 | `emoji` | `smile` | Required | The emoji to react with. |
 | `messageId` | `7aDSXtjMA3KPLxLjt` | Required | The message id to react to. |
 
-The `emoji` does not have to contain the `:`'s. The emoji doesn't have to exist either, but if you send one that doesn't exist it might not render.
+The `emoji` does not have to contain the `:`'s. However, the emoji *does* have to exist.
 
 ## Example Call
 
@@ -37,4 +37,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
+| 0.63.0 | Emoji has to exist now |
 | 0.62.2 | Added |

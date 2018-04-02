@@ -243,6 +243,7 @@
       - Chat:
         - delete
         - getMessage
+        - getMessageReadReceipts
         - pinMessage
         - postMessage
         - react
