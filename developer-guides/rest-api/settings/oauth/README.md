@@ -23,7 +23,8 @@ curl http://localhost:3000/api/v1/settings.oauth
             "appId": "test",
             "buttonLabelText": "test",
             "buttonColor": "#13679A",
-            "buttonLabelColor": "#FFFFFF"
+            "buttonLabelColor": "#FFFFFF",
+            "custom": false
         },
         {
             "id": "iJeY7x4wxnh2p3pLr",
@@ -31,7 +32,8 @@ curl http://localhost:3000/api/v1/settings.oauth
             "appId": "test",
             "buttonLabelText": "",
             "buttonColor": "",
-            "buttonLabelColor": ""
+            "buttonLabelColor": "",
+            "custom": false
         }
     ],
     "success": true

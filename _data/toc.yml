@@ -300,7 +300,6 @@
         - users
       - Miscellaneous:
         - info
-        - settings.oauth
         - statistics
         - statistics.list
       - Rooms:
@@ -309,6 +308,7 @@
       - Settings:
         - get
         - get-by-id
+        - oauth
         - public
         - service-configuration
         - update
