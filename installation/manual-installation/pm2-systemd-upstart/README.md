@@ -46,7 +46,7 @@ All data will be hourly backed up to `/data/domains/example.org/data` folder. We
 
 ## Upstart - Ubuntu
 
-__Take note that upstart is obsolete and it should be used with ubuntu version 14.04 or inferior__
+> Note: that upstart is no longer supported. We no longer support Ubuntu 14.04. If upgrading please see systemd or Ubuntu 16.04
 
 The following examples are upstart jobs which control automatic start-up and, if necessary, respawning of your Rocket.Chat app, as well as management of an optional hubot chat-bot.
 
