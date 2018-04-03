@@ -6,7 +6,7 @@ Using WebRTC for video and voice calls
 
 A modern machine with camera and mic.  Expensive old Windows machines are not so good, and tricky to configure.  Cheap new Chromebooks (less than US$200) work perfectly.  Macs work out of the box.
 
-The latest version of Chrome or Firefox.  Safari and Edge may work soon in the future - but FaceTime (owned by Apple) and Skype (owned by Microsoft) may be business reasons why things are delayed.
+The latest version of Chrome, Firefox or Edge should work.
 
 Newer Android mobile phones and tablets (some less than US$50) will also work.
 
