@@ -1,6 +1,6 @@
 # Deploying Rocket.Chat Server Binaries on a FreeBSD system
 
-> Note: This deployment method is not officially supported by Rocket.Chat, you might need to build your own or find a community version of the tar file.
+__Note: This deployment method is not officially supported by Rocket.Chat, you might need to build your own or find a community version of the tar file.__
 
 This is the recommended production deployment method on and is based on the excellent [Meteor Universal fork](http://meteor-universal.tumblr.com/) by Tom Freudenberg.
 
