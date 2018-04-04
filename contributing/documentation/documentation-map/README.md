@@ -181,6 +181,7 @@ Here you can also find what articles are incomplete and missing.
         - Drupal
         - Pidgin
     - Create the First Admin
+    - Restoring an Admin
 - Developer guides:
     - Quick Start
     - Branches and Releases
