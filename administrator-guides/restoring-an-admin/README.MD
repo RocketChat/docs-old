@@ -53,6 +53,8 @@ You can either use a one time access token (that will require the user to change
 db.getCollection('users').update({username:"administrator"}, {$set: { "services":{"loginToken":{"token":"some-token-id-that-you-will-use-to-login-once"}}, "requirePasswordChange":true} })
 ```
 
+Then access `http://{your server url}/login-token/some-token-id-that-you-will-use-to-login-once` to login
+
 or you can update the admin password to `12345`
 
 ```javascript
