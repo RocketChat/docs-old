@@ -209,6 +209,7 @@ Here you can also find what articles are incomplete and missing.
             - Get Permissions
             - User Presence
             - Notify Room Stream
+            - Create Direct Message
             - Send Message
             - Delete Message
             - Update Message
@@ -240,9 +241,12 @@ Here you can also find what articles are incomplete and missing.
             - sendOfflineMessage
         - Rest API:
         - Authentication:
+            - facebook
+            - google
             - login
             - logout
             - me
+            - twitter
         - Channels:
             - addAll
             - addModerator
@@ -253,6 +257,7 @@ Here you can also find what articles are incomplete and missing.
             - create
             - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
             - files
+            - getAllUserMentionsByChannel
             - getIntegrations
             - history
             - info
@@ -262,6 +267,9 @@ Here you can also find what articles are incomplete and missing.
             - list.joined
             - list
             - <span class="missing">[members](../missing-and-outdated-list/index.html#channelsmembers)</span>
+            - notifications:
+                - get
+                - post
             - open
             - removeModerator
             - removeOwner
@@ -276,9 +284,11 @@ Here you can also find what articles are incomplete and missing.
         - Chat:
             - delete
             - getMessage
+            - getMessageReadReceipts
             - pinMessage
             - postMessage
             - react
+            - search
             - starMessage
             - sendMessage
             - unPinMessage

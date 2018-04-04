@@ -170,6 +170,7 @@
         - Get Permissions
         - User Presence
         - Notify Room Stream
+        - Create Direct Message
         - Send Message
         - Delete Message
         - Update Message
@@ -201,9 +202,12 @@
         - sendOfflineMessage
     - Rest API:
       - Authentication:
+        - facebook
+        - google
         - login
         - logout
         - me
+        - twitter
       - Channels:
         - addAll
         - addModerator
@@ -213,6 +217,7 @@
         - close
         - create
         - files
+        - getAllUserMentionsByChannel
         - getIntegrations
         - history
         - info
@@ -221,6 +226,9 @@
         - leave
         - list.joined
         - list
+        - notifications:
+          - get
+          - post
         - open
         - removeModerator
         - removeOwner
@@ -235,9 +243,11 @@
       - Chat:
         - delete
         - getMessage
+        - getMessageReadReceipts
         - pinMessage
         - postMessage
         - react
+        - search
         - starMessage
         - sendMessage
         - unPinMessage

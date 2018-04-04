@@ -27,11 +27,14 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Authentication
 
-| Url              | Short Description                                  | Details Page                   |
-| :--------------- | :------------------------------------------------- | :----------------------------- |
-| `/api/v1/login`  | Authenticate with the REST API.                    | [Link](authentication/login/)  |
-| `/api/v1/logout` | Invalidate your REST API authentication token.     | [Link](authentication/logout/) |
-| `/api/v1/me`     | Displays information about the authenticated user. | [Link](authentication/me/)     |
+| Url              | Short Description                                  | Details Page                      |
+| :--------------- | :------------------------------------------------- | :-------------------------------- |
+| `/api/v1/login`  | Authenticate with the REST API.                    | [Link](authentication/login/)     |
+| `/api/v1/login`  | Authenticate with google.                          | [Link](authentication/google/)    |
+| `/api/v1/login`  | Authenticate with facebook.                        | [Link](authentication/facebook/)  |
+| `/api/v1/login`  | Authenticate with twitter.                         | [Link](authentication/twitter/)   |
+| `/api/v1/logout` | Invalidate your REST API authentication token.     | [Link](authentication/logout/)    |
+| `/api/v1/me`     | Displays information about the authenticated user. | [Link](authentication/me/)        |
 
 ### Users
 
@@ -54,31 +57,35 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Channels
 
-| Url                                | Short Description                                           | Details Page                      |
-| :--------------------------------- | :---------------------------------------------------------- | :-------------------------------- |
-| `/api/v1/channels.addAll`          | Adds all of the users on the server to a channel.           | [Link](channels/addall/)          |
-| `/api/v1/channels.archive`         | Archives a channel.                                         | [Link](channels/archive/)         |
-| `/api/v1/channels.cleanHistory`    | Cleans up a channel's history, requires special permission. | [Link](channels/cleanhistory/)    |
-| `/api/v1/channels.close`           | Removes a channel from a user's list of channels.           | [Link](channels/close/)           |
-| `/api/v1/channels.create`          | Creates a new channel.                                      | [Link](channels/create/)          |
-| `/api/v1/channels.files`           | Gets a list of files from a channel.                        | [Link](channels/files/)           |
-| `/api/v1/channels.getIntegrations` | Gets the channel's integration.                             | [Link](channels/getintegrations/) |
-| `/api/v1/channels.history`         | Retrieves the messages from a channel.                      | [Link](channels/history/)         |
-| `/api/v1/channels.info`            | Gets a channel's information.                               | [Link](channels/info/)            |
-| `/api/v1/channels.invite`          | Adds a user to a channel.                                   | [Link](channels/invite/)          |
-| `/api/v1/channels.kick`            | Removes a user from a channel.                              | [Link](channels/kick/)            |
-| `/api/v1/channels.leave`           | Removes the calling user from a channel.                    | [Link](channels/leave/)           |
-| `/api/v1/channels.list`            | Retrives all of the channels from the server.               | [Link](channels/list/)            |
-| `/api/v1/channels.list.joined`     | Gets only the channels the calling user has joined.         | [Link](channels/list-joined/)     |
-| `/api/v1/channels.open`            | Adds the channel back to the user's list of channels.       | [Link](channels/open/)            |
-| `/api/v1/channels.rename`          | Changes a channel's name.                                   | [Link](channels/rename/)          |
-| `/api/v1/channels.setDescription`  | Sets a channel's description.                               | [Link](channels/setdescription/)  |
-| `/api/v1/channels.setJoinCode`     | Sets the channel's code required to join it.                | [Link](channels/setjoincode/)     |
-| `/api/v1/channels.setPurpose`      | Sets a channel's description.                               | [Link](channels/setpurpose/)      |
-| `/api/v1/channels.setReadOnly`     | Sets whether a channel is read only or not.                 | [Link](channels/setreadonly/)     |
-| `/api/v1/channels.setTopic`        | Sets a channel's topic.                                     | [Link](channels/settopic/)        |
-| `/api/v1/channels.setType`         | Sets the type of room the channel should be.                | [Link](channels/settype/)         |
-| `/api/v1/channels.unarchive`       | Unarchives a channel.                                       | [Link](channels/unarchive/)       |
+| Url                                           | Short Description                                           | Details Page                                    |
+| :-------------------------------------------- | :---------------------------------------------------------- | :---------------------------------------------- |
+| `/api/v1/channels.addAll`                     | Adds all of the users on the server to a channel.           | [Link](channels/addall/)                        |
+| `/api/v1/channels.archive`                    | Archives a channel.                                         | [Link](channels/archive/)                       |
+| `/api/v1/channels.cleanHistory`               | Cleans up a channel's history, requires special permission. | [Link](channels/cleanhistory/)                  |
+| `/api/v1/channels.close`                      | Removes a channel from a user's list of channels.           | [Link](channels/close/)                         |
+| `/api/v1/channels.create`                     | Creates a new channel.                                      | [Link](channels/create/)                        |
+| `/api/v1/channels.files`                      | Gets a list of files from a channel.                        | [Link](channels/files/)           |
+| `/api/v1/channels.getAllUserMentionsByChannel`| Gets all the mentions of a channel.                         | [Link](channels/getallusermentionsbychannel/)   |
+| `/api/v1/channels.getIntegrations`            | Gets the channel's integration.                             | [Link](channels/getintegrations/)               |
+| `/api/v1/channels.history`                    | Retrieves the messages from a channel.                      | [Link](channels/history/)                       |
+| `/api/v1/channels.info`                       | Gets a channel's information.                               | [Link](channels/info/)                          |
+| `/api/v1/channels.invite`                     | Adds a user to a channel.                                   | [Link](channels/invite/)                        |
+| `/api/v1/channels.kick`                       | Removes a user from a channel.                              | [Link](channels/kick/)                          |
+| `/api/v1/channels.leave`                      | Removes the calling user from a channel.                    | [Link](channels/leave/)                         |
+| `/api/v1/channels.list`                       | Retrives all of the channels from the server.               | [Link](channels/list/)                          |
+| `/api/v1/channels.list.joined`                | Gets only the channels the calling user has joined.         | [Link](channels/list-joined/)                   |
+| `/api/v1/channels.notifications`  GET         | Gets the notifications settings from a specific channel.    | [Link](channels/notifications/get/)             |
+| `/api/v1/channels.notifications`  POST        | Sets the notifications settings of specific channel.        | [Link](channels/notifications/post/)            |
+| `/api/v1/channels.open`                       | Adds the channel back to the user's list of channels.       | [Link](channels/open/)                          |
+| `/api/v1/channels.rename`                     | Changes a channel's name.                                   | [Link](channels/rename/)                        |
+| `/api/v1/channels.setAnnouncement`            | Sets a channel's announcement.                              | [Link](channels/setannouncement/)               |
+| `/api/v1/channels.setDescription`             | Sets a channel's description.                               | [Link](channels/setdescription/)                |
+| `/api/v1/channels.setJoinCode`                | Sets the channel's code required to join it.                | [Link](channels/setjoincode/)                   |
+| `/api/v1/channels.setPurpose`                 | Sets a channel's description.                               | [Link](channels/setpurpose/)                    |
+| `/api/v1/channels.setReadOnly`                | Sets whether a channel is read only or not.                 | [Link](channels/setreadonly/)                   |
+| `/api/v1/channels.setTopic`                   | Sets a channel's topic.                                     | [Link](channels/settopic/)                      |
+| `/api/v1/channels.setType`                    | Sets the type of room the channel should be.                | [Link](channels/settype/)                       |
+| `/api/v1/channels.unarchive`                  | Unarchives a channel.                                       | [Link](channels/unarchive/)                     |
 
 ### Groups
 
@@ -106,18 +113,20 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Chat
 
-| Url                          | Short Description                                                | Details Page                |
-| :--------------------------- | :--------------------------------------------------------------- | :-------------------------- |
-| `/api/v1/chat.delete`        | Deletes an existing chat message.                                | [Link](chat/delete/)        |
-| `/api/v1/chat.getMessage`    | Retrieves a single chat message.                                 | [Link](chat/getmessage/)    |
-| `/api/v1/chat.pinMessage`    | Pins a chat message to the message's channel.                    | [Link](chat/pinmessage/)    |
-| `/api/v1/chat.postMessage`   | Posts a new chat message.                                        | [Link](chat/postmessage/)   |
-| `/api/v1/chat.react`         | Sets/unsets the user's reaction to an existing chat message.     | [Link](chat/react/)         |
-| `/api/v1/chat.starMessage`   | Stars a chat message for the authenticated user.                 | [Link](chat/starmessage/)   |
-| `/api/v1/chat.sendMessage`   | Send new chat message.                                           | [Link](chat/sendmessage/)   |
-| `/api/v1/chat.unPinMessage`  | Removes the pinned status of the provided chat message.          | [Link](chat/unpinmessage/)  |
-| `/api/v1/chat.unStarMessage` | Removes the star on the chat message for the authenticated user. | [Link](chat/unstarmessage/) |
-| `/api/v1/chat.update`        | Updates the text of the chat message.                            | [Link](chat/update/)        |
+| Url                                   | Short Description                                                | Details Page                            |
+| :------------------------------------ | :--------------------------------------------------------------- | :-------------------------------------- |
+| `/api/v1/chat.delete`                 | Deletes an existing chat message.                                | [Link](chat/delete/)                    |
+| `/api/v1/chat.getMessage`             | Retrieves a single chat message.                                 | [Link](chat/getmessage/)                |
+| `/api/v1/chat.pinMessage`             | Pins a chat message to the message's channel.                    | [Link](chat/pinmessage/)                |
+| `/api/v1/chat.postMessage`            | Posts a new chat message.                                        | [Link](chat/postmessage/)               |
+| `/api/v1/chat.react`                  | Sets/unsets the user's reaction to an existing chat message.     | [Link](chat/react/)                     |
+| `/api/v1/chat.search`                 | Search for messages in a channel.                                | [Link](chat/search/)                    |
+| `/api/v1/chat.starMessage`            | Stars a chat message for the authenticated user.                 | [Link](chat/starmessage/)               |
+| `/api/v1/chat.sendMessage`            | Send new chat message.                                           | [Link](chat/sendmessage/)               |
+| `/api/v1/chat.unPinMessage`           | Removes the pinned status of the provided chat message.          | [Link](chat/unpinmessage/)              |
+| `/api/v1/chat.unStarMessage`          | Removes the star on the chat message for the authenticated user. | [Link](chat/unstarmessage/)             |
+| `/api/v1/chat.update`                 | Updates the text of the chat message.                            | [Link](chat/update/)                    |
+| `/api/v1/chat.getMessageReadReceipts` | Retrieves message read receipts.                                 | [Link](chat/getmessagereadreceipts/)    |
 
 ### IM
 
