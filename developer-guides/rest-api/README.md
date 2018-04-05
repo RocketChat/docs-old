@@ -26,11 +26,14 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Authentication
 
-| Url              | Short Description                                  | Details Page                   |
-| :--------------- | :------------------------------------------------- | :----------------------------- |
-| `/api/v1/login`  | Authenticate with the REST API.                    | [Link](authentication/login/)  |
-| `/api/v1/logout` | Invalidate your REST API authentication token.     | [Link](authentication/logout/) |
-| `/api/v1/me`     | Displays information about the authenticated user. | [Link](authentication/me/)     |
+| Url              | Short Description                                  | Details Page                      |
+| :--------------- | :------------------------------------------------- | :-------------------------------- |
+| `/api/v1/login`  | Authenticate with the REST API.                    | [Link](authentication/login/)     |
+| `/api/v1/login`  | Authenticate with google.                          | [Link](authentication/google/)    |
+| `/api/v1/login`  | Authenticate with facebook.                        | [Link](authentication/facebook/)  |
+| `/api/v1/login`  | Authenticate with twitter.                         | [Link](authentication/twitter/)   |
+| `/api/v1/logout` | Invalidate your REST API authentication token.     | [Link](authentication/logout/)    |
+| `/api/v1/me`     | Displays information about the authenticated user. | [Link](authentication/me/)        |
 
 ### Users
 

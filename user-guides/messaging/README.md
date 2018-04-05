@@ -112,7 +112,7 @@ Rocket.Chat saves drafts of edits to your messages. That way, you can return to 
 
 You can delete a message by clicking on `delete` option on the message actions menu.
 
-You can also delete a message by emptying the contents while editing and saving your changes. You will be asked to confirm the message deletion and warned that the message contents will be be able to be recovered.
+You can also delete a message by emptying the contents while editing and saving your changes. You will be asked to confirm the message deletion and warned that the message contents will be able to be recovered.
 
 ### Starring messages
 
@@ -151,10 +151,12 @@ To copy the contents of a message to your clipboard, simply click on the `copy` 
 
 Replying to a message will create a attachment showing the message you wish to reply after the sent text.
 
+Replying to a message will trigger a notification to the replied message sender by using an `@` mention.
+
 To reply to a message, click on the `reply` option on the message actions menu and write your message after the link that was inserted on the message input.
 
 Replying to a already replied message will create a string of messages, showing every message quoted before the current one.
 
 ### Quoting a message
 
-It has the same effect of replying a message.
+Quoting is very similar to replying, the only diference being that the quoted message sender will not be notified.
