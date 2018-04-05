@@ -308,6 +308,7 @@
         - statistics
         - statistics.list
       - Rooms:
+        - favorite
         - get
         - upload
       - Settings:

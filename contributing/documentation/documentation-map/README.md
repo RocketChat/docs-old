@@ -352,6 +352,7 @@ Here you can also find what articles are incomplete and missing.
             - statistics
             - statistics.list
         - Rooms:
+            - favorite
             - get
             - upload
         - Settings:

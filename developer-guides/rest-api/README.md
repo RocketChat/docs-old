@@ -144,10 +144,11 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Rooms
 
-| Url                          | Short Description                    | Details Page          |
-| :--------------------------- | :----------------------------------- | :-------------------- |
-| `/api/v1/rooms.get`          | Gets rooms.                          | [Link](rooms/get/)    |
-| `/api/v1/rooms.upload/:rid`  | Upload a message with attached file. | [Link](rooms/upload/) |
+| Url                               | Short Description                    | Details Page            |
+| :-------------------------------- | :----------------------------------- | :---------------------- |
+| `/api/v1/rooms.favorite/:roomId`  | Favorite/Unfavorite room.            | [Link](rooms/favorite/) |
+| `/api/v1/rooms.get`               | Gets rooms.                          | [Link](rooms/get/)      |
+| `/api/v1/rooms.upload/:rid`       | Upload a message with attached file. | [Link](rooms/upload/)   |
 
 ### Command Methods
 
