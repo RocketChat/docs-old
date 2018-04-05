@@ -151,7 +151,7 @@ To copy the contents of a message to your clipboard, simply click on the `copy` 
 
 Replying to a message will create a attachment showing the message you wish to reply after the sent text.
 
-Replying a message will trigger a notification to the replied message sender by using an `@` mention.
+Replying to a message will trigger a notification to the replied message sender by using an `@` mention.
 
 To reply to a message, click on the `reply` option on the message actions menu and write your message after the link that was inserted on the message input.
 
