@@ -20,7 +20,7 @@ curl http://localhost:3000/api/v1/settings.oauth
         {
             "id": "iJeY7x4wxnh2p3pLr",
             "name": "facebook",
-            "appId": "test",
+            "clientId": "test",
             "buttonLabelText": "test",
             "buttonColor": "#13679A",
             "buttonLabelColor": "#FFFFFF",
@@ -29,11 +29,31 @@ curl http://localhost:3000/api/v1/settings.oauth
         {
             "id": "iJeY7x4wxnh2p3pLr",
             "name": "twitter",
-            "appId": "test",
+            "clientId": "test",
             "buttonLabelText": "",
             "buttonColor": "",
             "buttonLabelColor": "",
             "custom": false
+        },
+        {
+             "_id": "5RQ4SBL3NuZKsqxaF",
+             "service": "test",
+             "clientId": "test",
+             "secret": "test",
+             "custom": true,
+             "serverURL": "/test/test",
+             "tokenPath": "/oauth/token",
+             "identityPath": "/me",
+             "authorizePath": "/oauth/authorize",
+             "scope": "openid",
+             "buttonLabelText": "test",
+             "buttonLabelColor": "#FFFFFF",
+             "loginStyle": "popup",
+             "buttonColor": "#13679A",
+             "tokenSentVia": "payload",
+             "identityTokenSentVia": "default",
+             "usernameField": "dfsgdfgdfgdfgsd",
+             "mergeUsers": true
         }
     ],
     "success": true
@@ -44,4 +64,5 @@ curl http://localhost:3000/api/v1/settings.oauth
 
 | Version | Description |
 | :--- | :--- |
+| 0.64.0 | Renamed field `appId` to `clientId` and added flag `custom` to indicate whether the oauth service is customized |
 | 0.63.0 | Added |
