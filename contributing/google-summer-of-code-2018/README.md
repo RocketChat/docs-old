@@ -11,6 +11,8 @@ redirect_from:
 
 ## How to apply
 
+UPDATE April 2, 2018 -  2018 is an incredible GSoC year for us, we have received a total of NINETY THREE proposals from students studying at every corner of the globe - Brazil, Turkey, USA, Armenia, India, China, Singapore, Hong Kong and more. Thank you, GSoC students, for  the overwhelming interest on our project.   Proposal topics covered almost all of the suggestions on our idea list - and even a few original ones.  Our TWENTY THREEE Rocket.Chat core, guest, and community mentors are hard-at-work right now going through every one of the proposals, and will be contacting students for a video chat prior to deciding on proposal selection and slot assignments.  Please keep in touch with us and continue to contribute to the Rocket.Chat project during this time.
+
 UPDATE March 24, 2018 -  Students PLEASE NOTE that your final proposal is due on March 27th.  It must be in PDF format and submitted via the official GSoC Dashboard.  Your Rocket.Chat Core and Guest Industry mentors are looking forward to receive and review your final proposals.
 
 UPDATE March 12, 2018 -   Proposal submission for GSoC 2018 has started!   Interested students should visit the [GSoC 2018 site](https://summerofcode.withgoogle.com/) to apply and submit their proposals.  See the *Project Ideas* section below for some interesting ideas.
