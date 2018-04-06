@@ -38,7 +38,7 @@ ExecStartPre=-/usr/bin/docker pull mongo:3.2
 
 
 ExecStart=/usr/bin/docker run \
-    --name mongodb \
+    --name mongo \
     -v .../path/to/data/db:/data/db \
     -v .../path/to/data/dump:/data/dump \ <--optional
     --net=rocketchat_default \
