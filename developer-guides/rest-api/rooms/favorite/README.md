@@ -8,7 +8,8 @@ Favorite or unfavorite room.
 
 ## Payload
 
-| `roomId`   | `GENERAL`    | Required | Room ID where to favorite or unfavorite.            |
+| `roomId`   | `GENERAL`    | Required | Room Id where to favorite or unfavorite.            |
+| `roomName` | `general`    | Optional | Room Name where to favorite or unfavorite.            |
 | `favorite` | `true/false` | Required | The value to favorite(true)/unfavorite(false) room. |
 
 ## Example Call
