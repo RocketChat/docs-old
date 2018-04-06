@@ -24,7 +24,7 @@
 
 -
   name: Rocket.Chat Administrator Guides
-  icon: cog
+  icon: sliders
   description: Guides for managing and configuring Rocket.Chat
   path: administrator-guides/
   pages:
@@ -47,6 +47,24 @@
     Rest API: rest-api/
     Realtime API: realtime-api/
     Livechat API: livechat-api/
+
+-
+  name: Contributing
+  icon: github
+  description: Guides for contributing to Rocket.Chat
+  path: contributing/
+  pages:
+    Developing: developing/
+    Reporting Issues: reporting-issues/
+    Documentation: documentation/
+    Security: security/
+    Translating: translating/
+
+-
+  name: Rocket.Chat Getting Support
+  icon: support
+  description: Guides getting support for Rocket.Chat
+  path: getting-support/
 
 -
   name: Rocket.Chat Android
