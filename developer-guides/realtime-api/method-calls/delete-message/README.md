@@ -37,6 +37,8 @@ As mentioned in requirements, you must be logged in to be able to delete a messa
 
 Having the permission `delete-message` will allows deletion of any message, but still respects `Message_AllowDeleting_BlockDeleteInMinutes` setting.
 
+Having the permission `force-delete-message` allows the deletion of any message, and it ignores the setting `Message_AllowDeleting_BlockDeleteInMinutes`.
+
 ## See Also
 
 - [Send Message Method][1]
