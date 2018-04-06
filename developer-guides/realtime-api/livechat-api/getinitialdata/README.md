@@ -17,17 +17,7 @@
     room: null,
     visitor: undefined,
     triggers: [],
-    departments: [
-        {
-            _id: 'QTCH974ACAHxs766X',
-            enabled: true,
-            name: 'Development',
-            description: '',
-            numAgents: 3,
-            showOnRegistration: true,
-            _updatedAt: 2018-03-29T19:21:13.033Z
-        }
-    ],
+    departments: [],
     allowSwitchingDepartments: true,
     online: true,
     offlineColor: '#666666',
