@@ -289,6 +289,7 @@ Here you can also find what articles are incomplete and missing.
             - pinMessage
             - postMessage
             - react
+            - reportMessage
             - search
             - starMessage
             - sendMessage
