@@ -204,6 +204,7 @@
     - Rest API:
       - Authentication:
         - facebook
+        - forgotPassword
         - google
         - login
         - logout

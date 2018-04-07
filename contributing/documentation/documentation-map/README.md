@@ -243,6 +243,7 @@ Here you can also find what articles are incomplete and missing.
         - Rest API:
         - Authentication:
             - facebook
+            - forgotPassword
             - google
             - login
             - logout
