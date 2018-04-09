@@ -39,6 +39,7 @@ SETTINGS_BLOCKED=FileUpload_Storage_Type,FileUpload_GoogleStorage_AccessId,FileU
 Example:
 
 You can hide settings from the client by using the `SETTINGS_HIDDEN` environment variable
+
 ```
 SETTINGS_HIDDEN=FileUpload_GoogleStorage_AccessId,FileUpload_GoogleStorage_Secret
 ```
