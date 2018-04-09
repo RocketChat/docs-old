@@ -181,6 +181,7 @@ Here you can also find what articles are incomplete and missing.
         - Drupal
         - Pidgin
     - Create the First Admin
+    - Restoring an Admin
 - Developer guides:
     - Quick Start
     - Branches and Releases
@@ -241,9 +242,12 @@ Here you can also find what articles are incomplete and missing.
             - sendOfflineMessage
         - Rest API:
         - Authentication:
+            - facebook
+            - google
             - login
             - logout
             - me
+            - twitter
         - Channels:
             - addAll
             - addModerator
@@ -278,6 +282,7 @@ Here you can also find what articles are incomplete and missing.
         - Chat:
             - delete
             - getMessage
+            - getMessageReadReceipts
             - pinMessage
             - postMessage
             - react
