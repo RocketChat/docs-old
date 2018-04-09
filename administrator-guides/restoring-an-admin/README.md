@@ -64,7 +64,8 @@ db.getCollection('users').update({username:"administrator"}, { $set: {"services"
 _Replace `administrator` with the admin username in question._
 
 Make sure to restart your application container in case the new password is not accepted yet.
-#### Reset user role to "admin"
+
+### Reset user role to "admin"
 
 ```javascript
 db.users.update({username:"administrator"}, {$set: {'roles' : [ "admin" ]}})
