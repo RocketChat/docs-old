@@ -182,6 +182,7 @@ Here you can also find what articles are incomplete and missing.
         - Pidgin
     - Create the First Admin
     - Restoring an Admin
+    - Settings Via Env Vars
 - Developer guides:
     - Quick Start
     - Branches and Releases
