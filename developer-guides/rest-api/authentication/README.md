@@ -7,7 +7,6 @@ The authentication with the REST API is a two step process.
 
 | Url                       | Short Description                                  | Details Page             |
 | :------------------------ | :------------------------------------------------- | :----------------------- |
-| `/api/v1/forgotPassword`  | Send email to reset your password.                 | [Link](forgotpassword/) |
 | `/api/v1/login`           | Authenticate with the REST API.                    | [Link](login/)           |
 | `/api/v1/login`           | Authenticate with facebook.                        | [Link](facebook/)        |
 | `/api/v1/login`           | Authenticate with google.                          | [Link](google/)          |

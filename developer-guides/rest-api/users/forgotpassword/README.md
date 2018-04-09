@@ -1,8 +1,8 @@
 # Forgot Password
 
-| URL                      | Requires Auth | HTTP Method |
-| :----------------------- | :------------ | :---------- |
-| `/api/v1/forgotPassword` | `no`          | `POST`      |
+| URL                            | Requires Auth | HTTP Method |
+| :----------------------------- | :------------ | :---------- |
+| `/api/v1/users.forgotPassword` | `no`          | `POST`      |
 
 ## Payload
 
@@ -14,7 +14,7 @@
 
 ```bash
 curl -H "Content-type:application/json" \
-      http://localhost:3000/api/v1/forgotPassword \
+      http://localhost:3000/api/v1/users.forgotPassword \
       -d '{ "email": "email@rocket.cat" }'
 ```
 

@@ -204,7 +204,6 @@
     - Rest API:
       - Authentication:
         - facebook
-        - forgotPassword
         - google
         - login
         - logout
@@ -322,6 +321,7 @@
         - create
         - createToken
         - delete
+        - forgotPassword
         - getAvatar
         - getPresence
         - get-preferences
