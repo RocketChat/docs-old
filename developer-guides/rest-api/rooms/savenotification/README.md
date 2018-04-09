@@ -63,5 +63,4 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
-| 0.63.0 | Renamed from POST notification to rooms.saveNotification |
 | 0.63.0 | Added |
