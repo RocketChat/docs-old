@@ -69,4 +69,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
+| 0.63.0 | Renamed from GET notification to subscriptions.getOne |
 | 0.63.0 | Added |
