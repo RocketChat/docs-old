@@ -303,6 +303,7 @@
       - Miscellaneous:
         - info
         - settings.oauth
+        - spotlight
         - statistics
         - statistics.list
       - Rooms:
@@ -315,7 +316,6 @@
         - public
         - service-configuration
         - update
-      - Spotlight
       - Subscriptions:
         - getOne
       - Users:

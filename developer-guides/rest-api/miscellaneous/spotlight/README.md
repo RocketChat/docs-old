@@ -16,11 +16,27 @@ curl -H "X-Auth-Token: 6eWs4ECxUITYYoZ_bAYK5OE2srkxAepQqQA1cGGv3jK" \
      http://localhost:3000/api/v1/spotlight?query=foobar
 ```
 
+## Example Call
+
+```bash
+curl -H "X-Auth-Token: 6eWs4ECxUITYYoZ_bAYK5OE2srkxAepQqQA1cGGv3jK" \
+     -H "X-User-Id: hvzu8z6mHFigiXy6Y" \
+     http://localhost:3000/api/v1/spotlight?query=@foobar
+```
+
+## Example Call
+
+```bash
+curl -H "X-Auth-Token: 6eWs4ECxUITYYoZ_bAYK5OE2srkxAepQqQA1cGGv3jK" \
+     -H "X-User-Id: hvzu8z6mHFigiXy6Y" \
+     http://localhost:3000/api/v1/spotlight?query=#foobar
+```
+
 ## Query Parameters
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `query` | `john` | Required | The term to be searched |
+| `query` | `john` | Required | The term to be searched. Supports '#' for channels and '@' for users |
 
 ## Example Result
 
@@ -43,4 +59,5 @@ curl -H "X-Auth-Token: 6eWs4ECxUITYYoZ_bAYK5OE2srkxAepQqQA1cGGv3jK" \
 
 | Version | Description |
 | :--- | :--- |
+| 0.64.0 | Added support to '#' and '@' searches, for channels and users respectively. |
 | 0.61.0 | Added. |

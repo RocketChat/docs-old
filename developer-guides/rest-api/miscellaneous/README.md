@@ -6,5 +6,6 @@ Just some generic information, such as information about the server and authenti
 | :--- | :--- | :--- |
 | `/api/v1/info` | Information about the Rocket.Chat server. | [info](info/) |
 | `/api/v1/settings.oauth` | Return list of all available oauth services. | [Link](settings-oauth/) |
+| `/api/v1/spotlight` | Searches for users or rooms that are visible to the user. | [Link](spotlight/) |
 | `/api/v1/statistics` | Statistics about the Rocket.Chat server. | [Link](statistics/) |
 | `/api/v1/statistics.list` | Selectable statistics about the Rocket.Chat server. | [Link](statistics-list/) |

@@ -347,6 +347,7 @@ Here you can also find what articles are incomplete and missing.
         - Miscellaneous:
             - info
             - settings.oauth
+            - spotlight
             - statistics
             - statistics.list
         - Rooms:
@@ -356,7 +357,6 @@ Here you can also find what articles are incomplete and missing.
         - Settings:
             - get
             - update
-        - Spotlight
         - Subscriptions:
             - getOne
         - Users:
