@@ -4,6 +4,8 @@ With `iframe` auth you can use your own authentication page/API to log in users 
 
 When enabled Rocket.Chat first do an `XMLHttpRequest` to the `iFrame API` URL trying to see if the user is already logged in at the third party website. If that doesn't succeed then Rocket.Chat will present the `Iframe URL` within an `iframe`, so the user logs in on the third party website which means he is authenticated on Rocket.Chat as well.
 
+We have developed an example app written in NodeJS in order to help you understanding this authentication flow. Please take a look at https://github.com/RocketChat/iframe-auth-example
+
 ## Configuring
 
 ### API URL and API Method
@@ -88,7 +90,7 @@ window.parent.postMessage({
 ```javascript
 window.parent.postMessage({
   event: 'login-with-token',
-  token: 'your-token'
+  loginToken: 'your-token'
 }, 'http://your.rocket.chat.url');
 ```
 
