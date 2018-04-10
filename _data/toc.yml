@@ -142,6 +142,8 @@
     - Drupal
     - Pidgin
   - Create the First Admin
+  - Restoring an Admin
+  - Settings Via Env Vars
 - Developer guides:
     - Quick Start
     - Branches and Releases
@@ -226,9 +228,6 @@
         - leave
         - list.joined
         - list
-        - notifications:
-          - get
-          - post
         - open
         - removeModerator
         - removeOwner
@@ -308,6 +307,7 @@
         - statistics.list
       - Rooms:
         - get
+        - saveNotification
         - upload
       - Settings:
         - get
@@ -316,6 +316,8 @@
         - service-configuration
         - update
       - Spotlight
+      - Subscriptions:
+        - getOne
       - Users:
         - create
         - createToken

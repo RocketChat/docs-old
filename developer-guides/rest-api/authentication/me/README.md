@@ -31,6 +31,37 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
   "username": "example",
   "utcOffset": 0,
   "active": true,
+  "roles": [
+      "user",
+      "admin"
+  ],
+  "settings": {
+    "preferences": {
+          "newRoomNotification": "door",
+          "newMessageNotification": "chime",
+          "useEmojis": true,
+          "convertAsciiEmoji": true,
+          "saveMobileBandwidth": true,
+          "collapseMediaByDefault": false,
+          "muteFocusedConversations": true,
+          "hideUsernames": false,
+          "hideFlexTab": false,
+          "hideAvatars": false,
+          "sendOnEnter": "normal",
+          "autoImageLoad": true,
+          "emailNotificationMode": "all",
+          "desktopNotificationDuration": 0,
+          "desktopNotifications": "default",
+          "mobileNotifications": "default",
+          "unreadAlert": true,
+          "notificationsSoundVolume": 100,
+          "roomCounterSidebar": false,
+          "highlights": [],
+          "hideRoles": false,
+          "enableAutoAway": false,
+          "idleTimeLimit": 300000
+      }
+  },
   "success": true
 }
 ```

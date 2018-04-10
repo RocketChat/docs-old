@@ -60,38 +60,43 @@ The field property of the attachments allows for "tables" or "columns" to be dis
 
 ```json
 {
-  "roomId": "Xnb2kLD2Pnhdwe3RH",
-    "channel": "#general",
-  "text": "Sample message",
   "alias": "Gruggy",
+  "avatar": "http://res.guggy.com/logo_128.png",
+  "channel": "#general",
   "emoji": ":smirk:",
-    "avatar": "http://res.guggy.com/logo_128.png",
-  "attachments": [{
-        "color": "#ff0000",
-        "text": "Yay for gruggy!",
-        "ts": "2016-12-09T16:53:06.761Z",
-        "thumb_url": "http://res.guggy.com/logo_128.png",
-        "message_link": "https://google.com",
-        "collapsed": false,
-    "author_name": "Bradley Hilton",
-    "author_link": "https://rocket.chat/",
-    "author_icon": "https://avatars.githubusercontent.com/u/850391?v=3",
-    "title": "Attachment Example",
-    "title_link": "https://youtube.com",
-    "title_link_download": true,
-    "image_url": "http://res.guggy.com/logo_128.png",
-    "audio_url": "http://www.w3schools.com/tags/horse.mp3",
-    "video_url": "http://www.w3schools.com/tags/movie.mp4",
-    "fields": [{
-      "short": true,
-      "title": "Test",
-      "value": "Testing out something or other"
-    },{
-      "short": true,
-      "title": "Another Test",
-      "value": "[Link](https://google.com/) something and this and that."
-    }]
-  }]
+  "roomId": "Xnb2kLD2Pnhdwe3RH",
+  "text": "Sample message",
+  "attachments": [
+    {
+      "audio_url": "http://www.w3schools.com/tags/horse.mp3",
+      "author_icon": "https://avatars.githubusercontent.com/u/850391?v=3",
+      "author_link": "https://rocket.chat/",
+      "author_name": "Bradley Hilton",
+      "collapsed": false,
+      "color": "#ff0000",
+      "fields": [
+        {
+          "short": true,
+          "title": "Test",
+          "value": "Testing out something or other"
+        },
+        {
+          "short": true,
+          "title": "Another Test",
+          "value": "[Link](https://google.com/) something and this and that."
+        }
+      ],
+      "image_url": "http://res.guggy.com/logo_128.png",
+      "message_link": "https://google.com",
+      "text": "Yay for gruggy!",
+      "thumb_url": "http://res.guggy.com/logo_128.png",
+      "title": "Attachment Example",
+      "title_link": "https://youtube.com",
+      "title_link_download": true,
+      "ts": "2016-12-09T16:53:06.761Z",
+      "video_url": "http://www.w3schools.com/tags/movie.mp4"
+    }
+  ]
 }
 ```
 
