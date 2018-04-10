@@ -8,25 +8,29 @@ When enabled Rocket.Chat first do an `XMLHttpRequest` to the `iFrame API` URL tr
 
 ### API URL and API Method
 
-Set them both to configure how Rocket.Chat will call the third party website to verify if the user is already logged in.
+Set them both to configure how Rocket.Chat will call the third party system to verify if the user is already logged in.
 
-This should be a new endpoint on the third party website that needs to connect to the same MongoDB as Rocket.Chat in order to save/find his "login token".
+This should be a new endpoint on the third party system that will check if the user is already logged in, if so, communicate with Rocket.Chat in order to log in him there and then respond with a JSON containing either a `token` or `loginToken` properties. You can accomplish this in two ways:
 
-If the user is already logged in, the response should be a JSON containing either a `token` or `loginToken` properties, as shown bellow:
+#### Using Rocket.Chat API
+
+If you have the user's password stored (or it is the same between your third party system and Rocket.Chat), you can use [Rocket.Chat's REST APIs](https://rocket.chat/docs/developer-guides/rest-api/authentication/login/) to log in the user, this way you will get an `authToken` back from Rocket.Chat that should be returned as `loginToken` by your endpoint.
+
+At this point, if the user does not have a Rocket.Chat account yet, you can either use Rocket.Chat API to [create an user](https://rocket.chat/docs/developer-guides/rest-api/users/create/) using a admin account or [register him](https://rocket.chat/docs/developer-guides/rest-api/users/register/).
+
+After you log the user in, you should return a payload like the following:
 
 ```json
 {
-  "token": "generated-token"
+  "loginToken": "already-saved-or-returned-login-token"
 }
 ```
 
-```json
-{
-  "loginToken": "already-saved-login-token"
-}
-```
+#### Managing MongoDB directly
 
-To respond with `token` property, the `API URL` endpoint should connect on Rocket.Chat's MongoDB database and make sure the `generated-token` is saved on `users` collection on the corresponding user record. The `generated-token` should be saved on the field path `services.iframe.token`. This is how the user record should look like:
+In the case you have access to Rocket.Chat's database, you can connect there directly and manage the user record by yourself. This might be useful if you have MongoDB on your stack already and don't want to learn Rocket.Chat's API.
+
+To do so the endpoint should connect on Rocket.Chat's MongoDB database and make sure the `generated-token` is saved on `users` collection on the corresponding user record. The `generated-token` should be saved on the field path `services.iframe.token`. This is how the user record should look like:
 
 ```javascript
 {
@@ -54,7 +58,13 @@ To respond with `token` property, the `API URL` endpoint should connect on Rocke
 }
 ```
 
-If you have the user's password stored (or it is the same between your third party system and Rocket.Chat), you can use [Rocket.Chat's REST APIs](https://rocket.chat/docs/developer-guides/rest-api/authentication/login/) to log in the user, this way you will get an `authToken` back from Rocket.Chat that should be returned as `loginToken` by your endpoint.
+On this case, the response should be:
+
+```json
+{
+  "token": "generated-token"
+}
+```
 
 
 ### IFrame URL
