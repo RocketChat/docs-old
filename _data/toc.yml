@@ -154,6 +154,7 @@
       - Authentication
       - Commands
       - Events
+    - Layout Embedded
     - Internationalization
     - Livechat API
     - Mobile Apps

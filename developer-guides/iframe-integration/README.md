@@ -12,3 +12,4 @@ If you need listen to events, go to `Administration > General > Iframe Integrati
 
 - [How to use iframe integration events](events/)
 - [How to use iframe integration commands](commands/)
+- [Using embedded layout mode](../layout-embedded)
