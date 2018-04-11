@@ -318,6 +318,7 @@
         - update
       - Spotlight
       - Subscriptions:
+        - get
         - getOne
       - Users:
         - create

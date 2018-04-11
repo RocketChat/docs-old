@@ -176,6 +176,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 | Url                               | Method | Short Description                  | Details Page                      |
 | :-------------------------------- | :----- | :--------------------------------- | :-------------------------------- |
+| `/api/v1/subscriptions.get`       |  `GET` | Get all subscriptions.             | [Link](subscriptions/get/)                      |
 | `/api/v1/subscriptions.getOne`    | `GET`  | Get the subscription by room Id.   | [Link](subscriptions/getone/)     |
 
 ## Language specific wrappers
