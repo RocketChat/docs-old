@@ -10,9 +10,13 @@ We have developed an example app written in NodeJS in order to help you understa
 
 ### API URL and API Method
 
-Set them both to configure how Rocket.Chat will call the third party system to verify if the user is already logged in.
+Configure how Rocket.Chat will call the third party system to either login or to verify if the user is already logged in, by setting `API URL` and `API Method` fields.
 
-This should be a new endpoint on the third party system that will check if the user is already logged in, if so, communicate with Rocket.Chat in order to log in him there and then respond with a JSON containing either a `token` or `loginToken` properties. You can accomplish this in two ways:
+`API URL` refers to endpoint on the third-party system that will check if the user is already logged in to that system. The `API Method` is used to select the submission method Rocket.Chat will use to submit information to the `API URL` (for instance using `POST`).
+
+If the user has already logged into the third-party system, the `API URL` should communicate to Rocket.Chat and return a JSON object containing either a `token` or `loginToken` property, otherwise (if the user is not already logged in) the `API URL` should return an empty body with status `401`.
+
+The choice of which property `API URL` will return depends on how the third-party system decides to interface back with Rocket.Chat, as described in one of the two ways below:
 
 #### Using Rocket.Chat API
 
@@ -75,23 +79,27 @@ The URL of the page you want to show as the login page of your Rocket.Chat insta
 
 The login page will then communicate back to Rocket.Chat using `postMessage` API.
 
-After user logs in, you have to make sure you have set the user's token on Rocket.Chat's database (as described earlier) and then you should tell Rocket.Chat to validate user's session calling one of the following APIs, depending where you saved user's token:
+After user logs in, you have to authenticate him on Rocket.Chat side, pretty much the same as you did before on `API URL` endpoint, but now you should return a JavaScript code that will be rendered within the `iframe`, depending how you logged in ther user:
 
-* If you have saved user's token on `services.iframe.token`, call:
-
-```javascript
-window.parent.postMessage({
-  event: 'try-iframe-login'
-}, 'http://your.rocket.chat.url');
-```
-
-* If have used Rocket.Chat's APIs to log in the user or already have user's token saved in your end:
+* If have used Rocket.Chat's APIs to log in the user or already have user's token saved in your end, return:
 
 ```javascript
+<script>
 window.parent.postMessage({
   event: 'login-with-token',
   loginToken: 'your-token'
 }, 'http://your.rocket.chat.url');
+</script>
+```
+
+* If you have saved user's token connecting directly to Rocket.Chat's database on the user's field `services.iframe.token`:
+
+```javascript
+<script>
+window.parent.postMessage({
+  event: 'try-iframe-login'
+}, 'http://your.rocket.chat.url');
+</script>
 ```
 
 ### Using OAuth configured on Rocket.Chat's end
