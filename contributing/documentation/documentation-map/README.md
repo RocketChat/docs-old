@@ -357,7 +357,6 @@ Here you can also find what articles are incomplete and missing.
         - Settings:
             - get
             - update
-        - Spotlight
         - Subscriptions:
             - getOne
         - Users:
