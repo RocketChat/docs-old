@@ -2,7 +2,7 @@
 
 ## Supported versions of Rocket.Chat
 
-As of now, only the latest stable version is [latest stable](https://rocket.chat/download) version of Rocket.Chat is supported. This means that you should always update to latest stable before reporting any bugs or before you ask the community.
+As of now, only the [latest stable](https://rocket.chat/download) version of Rocket.Chat is supported. This means that you should always update to latest stable before reporting any bugs or before you ask the community.
 
 In case of security-relevant bugs we might decide to backport patches to older releases on a case-by-case basis. Please understand though, that those will be rare exceptions. If you want to play it safe, upgrade to latest stable.
 
