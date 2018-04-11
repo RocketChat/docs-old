@@ -316,6 +316,7 @@
         - public
         - service-configuration
         - update
+      - Spotlight
       - Subscriptions:
         - getOne
       - Users:
