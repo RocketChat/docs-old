@@ -182,6 +182,7 @@ Here you can also find what articles are incomplete and missing.
         - Pidgin
     - Create the First Admin
     - Restoring an Admin
+    - Settings Via Env Vars
 - Developer guides:
     - Quick Start
     - Branches and Releases
@@ -268,9 +269,6 @@ Here you can also find what articles are incomplete and missing.
             - list.joined
             - list
             - <span class="missing">[members](../missing-and-outdated-list/index.html#channelsmembers)</span>
-            - notifications:
-                - get
-                - post
             - open
             - removeModerator
             - removeOwner
@@ -354,11 +352,15 @@ Here you can also find what articles are incomplete and missing.
         - Rooms:
             - favorite
             - get
+            - saveNotification
             - upload
         - Settings:
             - get
             - update
         - Spotlight
+        - Subscriptions:
+            - get
+            - getOne
         - Users:
             - create
             - createToken

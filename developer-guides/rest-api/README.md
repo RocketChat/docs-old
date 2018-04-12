@@ -74,8 +74,6 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.leave`                      | Removes the calling user from a channel.                    | [Link](channels/leave/)                         |
 | `/api/v1/channels.list`                       | Retrives all of the channels from the server.               | [Link](channels/list/)                          |
 | `/api/v1/channels.list.joined`                | Gets only the channels the calling user has joined.         | [Link](channels/list-joined/)                   |
-| `/api/v1/channels.notifications`  GET         | Gets the notifications settings from a specific channel.    | [Link](channels/notifications/get/)             |
-| `/api/v1/channels.notifications`  POST        | Sets the notifications settings of specific channel.        | [Link](channels/notifications/post/)            |
 | `/api/v1/channels.open`                       | Adds the channel back to the user's list of channels.       | [Link](channels/open/)                          |
 | `/api/v1/channels.rename`                     | Changes a channel's name.                                   | [Link](channels/rename/)                        |
 | `/api/v1/channels.setAnnouncement`            | Sets a channel's announcement.                              | [Link](channels/setannouncement/)               |
@@ -144,11 +142,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Rooms
 
-| Url                               | Short Description                    | Details Page            |
-| :-------------------------------- | :----------------------------------- | :---------------------- |
-| `/api/v1/rooms.favorite`          | Favorite/Unfavorite room.            | [Link](rooms/favorite/) |
-| `/api/v1/rooms.get`               | Gets rooms.                          | [Link](rooms/get/)      |
-| `/api/v1/rooms.upload/:rid`       | Upload a message with attached file. | [Link](rooms/upload/)   |
+| Url                              | Short Description                                      | Details Page                    |
+| :------------------------------- | :----------------------------------------------------- | :------------------------------ |
+| `/api/v1/rooms.favorite`         | Favorite/Unfavorite room.                              | [Link](rooms/favorite/)         |
+| `/api/v1/rooms.get`              | Gets rooms.                                            | [Link](rooms/get/)              |
+| `/api/v1/rooms.saveNotification` | Sets the notifications settings of specific channel.   | [Link](rooms/savenotification/) |
+| `/api/v1/rooms.upload/:rid`      | Upload a message with attached file.                   | [Link](rooms/upload/)           |
 
 ### Command Methods
 
@@ -173,6 +172,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/service.configurations`  | `GET`  | Lists all service configurations.  | [Link](settings/service-configuration/)    |
 | `/api/v1/settings/:_id`           | `GET`  | Gets a setting.                    | [Link](settings/get-by-id/)                     |
 | `/api/v1/settings/:_id`           | `POST` | Updates a setting.                 | [Link](settings/update/)                        |
+
+### Subscriptions
+
+| Url                               | Method | Short Description                  | Details Page                      |
+| :-------------------------------- | :----- | :--------------------------------- | :-------------------------------- |
+| `/api/v1/subscriptions.get`       |  `GET` | Get all subscriptions.             | [Link](subscriptions/get/)                      |
+| `/api/v1/subscriptions.getOne`    | `GET`  | Get the subscription by room Id.   | [Link](subscriptions/getone/)     |
 
 ## Language specific wrappers
 

@@ -98,7 +98,7 @@ sudo apt-get update
 sudo apt-get install fail2ban
 ```
 
-Pre
+Press **Y** when prompted to proceed with the install.
 
 - - -
 
@@ -144,7 +144,7 @@ sudo nano /etc/hosts
 127.0.0.1    chat.inumio.com          chat
 ```
 
-Sav
+Save and Exit. (Press **CTRL-X** to save, **Y** for yes, then **ENTER** to save as current filename.)
 
 - - -
 
@@ -180,7 +180,7 @@ sudo nano /etc/nginx/certificate.crt
 
 Open the SSL Certificate provided by the SSL vendor (will probably have a .crt or .pem extension) and copy the entire text-block. Right click on the terminal window and select paste to paste it into nano.
 
-Sav
+Save and Exit.
 
 - - -
 
@@ -198,7 +198,7 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/cert
 
 Tip: It is important that the Common Name be set properly. Enter your fully qualified domain name (FQDN) here or, if you don’t have FQDN, use your public IP address. For example, my FQDN for the chat server is `chat.inumio.com`
 
-Sav
+Save and Exit.
 
 - - -
 
@@ -330,7 +330,7 @@ hubot:
 - Edit ROCKETCHAT_USER, ROCKETCHAT_PASSWORD, and BOT_NAME.
 - If your Rocket.Chat docker instance is behind a proxy, set the additional env-variable "Accounts_UseDNSDomainCheck" to "false" (this only works, if these is a completely new deployment)
 
-Sav
+Save and Exit.
 
 - - -
 
@@ -390,7 +390,7 @@ script
 end script
 ```
 
-Sav
+Save and Exit.
 
 - - -
 
@@ -449,7 +449,7 @@ By default, the first account to register on Rocket Chat becomes the admin, so i
 
 _Great! I'm in, but the bot is nowhere to be seen!_
 
-No
+No worries! In order to get your bot up and running, we must register it…
 
 - - -
 
@@ -469,7 +469,7 @@ Once you're logged in with the new bot account, you can go ahead and set some of
 
 With the bot account registered, you can force it to join by simply rebooting the server, upon which the init script should automatically launch your chat room, and the bot should join the “General” room.
 
-For
+For basic command help, in the chat message box, type BOTNAME help (where BOTNAME is your bot's name).
 
 - - -
 
@@ -506,7 +506,7 @@ sudo ufw status
 ```
 
 **Check your SSL installation**
-<ht
+<https://www.digicert.com/help/>
 
 - - -
 
@@ -539,7 +539,7 @@ cd /var/www/rocket.chat
 /usr/local/bin/docker-compose up
 ```
 
-If
+If docker-compose doesn't throw an error, and instead launches the job, then the problem is possibly in the upstart script.
 
 - - -
 
@@ -553,13 +553,13 @@ If you're running low on system resources, such as RAM, this can cause problems 
 sudo TOP
 ```
 
-Wit
+With TOP running, try to replicate the problem while watching TOP for high loads, overloaded CPU, etc.  While Rocketchat can be run on a single core with 512MB of memory, that's really not enough for stable performance. If you're seeing high values in TOP, consider upgrading your server to at least 1GB or RAM, or more.
 
 - - -
 
 ## 11. TODO
 
-- A
+- Add section for updating & backing up
 
 - - -
 
