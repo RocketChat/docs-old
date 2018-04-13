@@ -193,6 +193,7 @@ Here you can also find what articles are incomplete and missing.
         - <span class="missing">[Authentication](../missing-and-outdated-list/index.html#Authentication)</span>
         - Commands
         - Events
+    - Embedded Layout
     - <span class="missing">[Internationalization](../missing-and-outdated-list/index.html#Internationalization)</span>
     - Livechat API
     - Mobile Apps
