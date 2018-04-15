@@ -6,7 +6,7 @@
 {"msg":"method","method":"sendMessageLivechat","params":[{"_id":"XqEEHhQHvhFmK3Zoz","rid":"TT9iMmzusfcLq8sv2","msg":"test","token":"7T4jzes7rX3Fr6cQ2"}],"id":"11"}
 ```
 
-The property `rid` should be generated randomly before sending the message.
+The property `_id` should be generated randomly before sending the message.
 
 ## Response
 
