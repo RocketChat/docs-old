@@ -301,6 +301,7 @@
         - sms-incoming
         - users
       - Miscellaneous:
+        - directory
         - info
         - settings.oauth
         - statistics
