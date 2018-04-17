@@ -14,17 +14,17 @@ In case of security-relevant bugs we might decide to backport patches to older r
 
 The ecosystem of browsers has been, and still is, an ever evolving field of change. Since the rate of change is tremendous, we also have to limit the support to recent browsers. We're usually quite good with that but some older browsers just don't support some features that we build upon. That is why we limit or support for browsers in the following way:
 
-* We support the latest 2 versions of each browser
-* We do not support or work around bugs in browsers that are not supported anymore by their developers
+- We support the latest 2 versions of each browser
+- We do not support or work around bugs in browsers that are not supported anymore by their developers
 
 There may be small exceptions in rare cases but the above is the general rule.
 
 That being said, here's how you can find out if **your** browser version is still supported (all lists include an indication if a specific browser version is still supported or not):
 
-* [Version history of Mozilla Firefox](https://en.wikipedia.org/wiki/Firefox_version_history)
-* [Version history of Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome_version_history)
-* [Version history of Microsoft Internet Explorer](https://en.wikipedia.org/wiki/Internet_Explorer_version_history)
-* [Version history of Apple Safari](https://en.wikipedia.org/wiki/Safari_version_history)
+- [Version history of Mozilla Firefox](https://en.wikipedia.org/wiki/Firefox_version_history)
+- [Version history of Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome_version_history)
+- [Version history of Microsoft Internet Explorer](https://en.wikipedia.org/wiki/Internet_Explorer_version_history)
+- [Version history of Apple Safari](https://en.wikipedia.org/wiki/Safari_version_history)
 
 ## Community support
 
@@ -32,19 +32,19 @@ We have a great community that likes to give back.
 
 Some great places to ask your questions:
 
-* [Rocket.Chat forums](https://forums.rocket.chat/)
-* Stack Overflow [Rocket.Chat Tag](https://stackoverflow.com/questions/tagged/rocket.chat)
-* [Server Fault](https://serverfault.com/search?q=Rocket.Chat)
+- [Rocket.Chat forums](https://forums.rocket.chat/)
+- Stack Overflow [Rocket.Chat Tag](https://stackoverflow.com/questions/tagged/rocket.chat)
+- [Server Fault](https://serverfault.com/search?q=Rocket.Chat)
 
 Our community also often hangs out on our [community server](https://open.rocket.chat).
 
 Some of the channels to get help:
 
-* [#support](https://open.rocket.chat/channel/support) channel for help with general Rocket.Chat
-* [#ubuntu-snap](https://open.rocket.chat/channel/ubuntu-snap) channel for help with snap installs
-* [#desktop](https://open.rocket.chat/channel/desktop) channel for help with the desktop client
-* [#hubot](https://open.rocket.chat/channel/hubot) channel for help with hubot scripting
-* [#dev](https://open.rocket.chat/channel/dev) channel for developers needing help developing new features
+- [#support](https://open.rocket.chat/channel/support) channel for help with general Rocket.Chat
+- [#ubuntu-snap](https://open.rocket.chat/channel/ubuntu-snap) channel for help with snap installs
+- [#desktop](https://open.rocket.chat/channel/desktop) channel for help with the desktop client
+- [#hubot](https://open.rocket.chat/channel/hubot) channel for help with hubot scripting
+- [#dev](https://open.rocket.chat/channel/dev) channel for developers needing help developing new features
 
 Remember to have a little patience. Support is provided by other members of the community like you in their free time.
 
