@@ -2,6 +2,8 @@
 
 Returns all logged in user roles.
 
+NOTE: this endpoint is DEPRECATED and will be removed after version v0.66
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/user.roles` | `yes` | `GET` |
@@ -31,4 +33,5 @@ curl -H "X-Auth-Token: 6eWs4ECxUITYYoZ_bAYK5OE2srkxAepQqQA1cGGv3jK" \
 
 | Version | Description |
 | :--- | :--- |
+| 0.63.0 | DEPRECATED. |
 | 0.61.0 | Added. |

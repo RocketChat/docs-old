@@ -1,10 +1,10 @@
-# Channel notifications POST
+# Rooms save notification POST
 
 Sets the notifications settings of specific channel.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.notifications` | `yes` | `POST` |
+| `/api/v1/rooms.saveNotification` | `yes` | `POST` |
 
 ## Payload
 
@@ -45,7 +45,7 @@ Sets the notifications settings of specific channel.
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type: application/json" \
-     http://localhost:3000/api/v1/channels.notifications \
+     http://localhost:3000/api/v1/rooms.saveNotification \
      -d '{"roomId": "5of4weEXaH7yncxz9", "notifications" :{ "desktopNotifications": "all", "disableNotifications": "0", \
      "emailNotifications": "nothing", "audioNotificationValue": "beep", "desktopNotificationDuration": "2", "audioNotifications": "all", \
        "unreadAlert": "nothing", "hideUnreadStatus": "all", "mobilePushNotifications": "mentions"} }'
