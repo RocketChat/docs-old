@@ -1,5 +1,9 @@
 # Send new chat message
 
+The difference between `chat.postMessage` and `chat.sendMessage` is that `chat.sendMessage` allows
+for passing a value for `_id` and the other one doesn't. Also, `chat.sendMessage` only sends it to
+one channel whereas the other one allows for sending to more than one channel at a time.
+
 | URL                        | Requires Auth | HTTP Method |
 | :------------------------- | :------------ | :---------- |
 | `/api/v1/chat.sendMessage` | `yes`         | `POST`      |
@@ -8,12 +12,13 @@
 
 | Argument                    | Example                                 | Required      | Description                                                                                                 |
 | :-------------------------- | :-------------------------------------- | :------------ | :---------------------------------------------------------------------------------------------------------- |
-| `rid`                       | `ByehQjC44FwMeiLbX`                     | <br> Required | The room id of where the message is to be sent.                                                             |
-| `msg`                      | `Sample message`                        | Optional      | The text of the message to send, is optional because of attachments.                                        |
-| `alias`                     | `Some Name`                             | Optional      | This will cause the message's name to appear as the given alias, but your username will still display.      |
-| `emoji`                     | `:smirk:`                               | Optional      | If provided, this will make the avatar on this message be an emoji. [Emoji Cheetsheet](http://emoji.codes/) |
-| `avatar`                    | `http://site.com/logo.png`              | Optional      | If provided, this will make the avatar use the provided image url.                                          |
-| `attachments`               | `[{}]`                                  | Optional      | See the below section, [Attachments Detail](#attachments-detail), for details.                              |
+| `message._id`               | `ByehQjC44FwMeiLbX`                     | <br> Required | The _id of message.                                                             |
+| `message.rid`               | `ByehQjC44FwMeiLbX`                     | <br> Required | The room id of where the message is to be sent.                                                             |
+| `message.msg`               | `Sample message`                        | Optional      | The text of the message to send, is optional because of attachments.                                        |
+| `message.alias`             | `Some Name`                             | Optional      | This will cause the message's name to appear as the given alias, but your username will still display.      |
+| `message.emoji`             | `:smirk:`                               | Optional      | If provided, this will make the avatar on this message be an emoji. [Emoji Cheetsheet](http://emoji.codes/) |
+| `message.avatar`            | `http://site.com/logo.png`              | Optional      | If provided, this will make the avatar use the provided image url.                                          |
+| `message.attachments`       | `[{}]`                                  | Optional      | See the below section, [Attachments Detail](#attachments-detail), for details.                              |
 
 ### Attachments Detail
 
@@ -103,7 +108,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type:application/json" \
      http://localhost:3000/api/v1/chat.sendMessage \
-     -d '{ "rid": "Xnb2kLD2Pnhdwe3RH", "msg": "This is a test!" }'
+     -d '{"message": { "rid": "Xnb2kLD2Pnhdwe3RH", "msg": "This is a test!" }}'
 ```
 
 ## Example Result
@@ -128,3 +133,9 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
     "success": true
 }
 ```
+
+## Change Log
+
+| Version | Description  |
+| :------ | :----------- |
+| 0.60.0  | Added        |
