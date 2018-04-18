@@ -150,6 +150,7 @@
     - Code Styleguide:
       - less
     - Deeplink
+    - Deprecation
     - Iframe Integration:
       - Authentication
       - Commands
