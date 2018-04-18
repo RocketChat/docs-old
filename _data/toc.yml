@@ -157,7 +157,8 @@
     - Embedded Layout
     - Internationalization
     - Livechat API
-    - Mobile Apps
+    - Mobile Apps:
+      - Supporting SSL
     - Realtime-API:
       - Method Calls:
         - Login
