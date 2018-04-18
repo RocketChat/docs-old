@@ -257,7 +257,6 @@ Here you can also find what articles are incomplete and missing.
             - addModerator
             - addOwner
             - archive
-            - cleanHistory
             - close
             - create
             - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
@@ -354,6 +353,7 @@ Here you can also find what articles are incomplete and missing.
             - statistics
             - statistics.list
         - Rooms:
+            - cleanHistory
             - get
             - saveNotification
             - upload

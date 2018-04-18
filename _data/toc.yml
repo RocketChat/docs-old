@@ -217,7 +217,6 @@
         - addModerator
         - addOwner
         - archive
-        - cleanHistory
         - close
         - create
         - files
@@ -309,6 +308,7 @@
         - statistics
         - statistics.list
       - Rooms:
+        - cleanHistory
         - get
         - saveNotification
         - upload

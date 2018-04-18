@@ -62,7 +62,6 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :-------------------------------------------- | :---------------------------------------------------------- | :---------------------------------------------- |
 | `/api/v1/channels.addAll`                     | Adds all of the users on the server to a channel.           | [Link](channels/addall/)                        |
 | `/api/v1/channels.archive`                    | Archives a channel.                                         | [Link](channels/archive/)                       |
-| `/api/v1/channels.cleanHistory`               | Cleans up a channel's history, requires special permission. | [Link](channels/cleanhistory/)                  |
 | `/api/v1/channels.close`                      | Removes a channel from a user's list of channels.           | [Link](channels/close/)                         |
 | `/api/v1/channels.create`                     | Creates a new channel.                                      | [Link](channels/create/)                        |
 | `/api/v1/channels.files`                      | Gets a list of files from a channel.                        | [Link](channels/files/)           |
@@ -144,11 +143,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Rooms
 
-| Url                              | Short Description                                      | Details Page                    |
-| :------------------------------- | :----------------------------------------------------- | :------------------------------ |
-| `/api/v1/rooms.get`              | Gets rooms.                                            | [Link](rooms/get/)              |
-| `/api/v1/rooms.saveNotification` | Sets the notifications settings of specific channel.   | [Link](rooms/savenotification/) |
-| `/api/v1/rooms.upload/:rid`      | Upload a message with attached file.                   | [Link](rooms/upload/)           |
+| Url                              | Short Description                                        | Details Page                    |
+| :------------------------------- | :------------------------------------------------------- | :------------------------------ |
+| `/api/v1/rooms.cleanHistory`     | Cleans up a room's history, requires special permission. | [Link](rooms/cleanhistory/)     |
+| `/api/v1/rooms.get`              | Gets rooms.                                              | [Link](rooms/get/)              |
+| `/api/v1/rooms.saveNotification` | Sets the notifications settings of specific channel.     | [Link](rooms/savenotification/) |
+| `/api/v1/rooms.upload/:rid`      | Upload a message with attached file.                     | [Link](rooms/upload/)           |
 
 ### Command Methods
 
