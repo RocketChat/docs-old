@@ -43,7 +43,7 @@ openssl req -x509 -new -nodes -key Rocket.Chat-root.key -sha256 -days 1024 -out 
 
 Here we used our root key to create the root certificate that needs to be distributed in all the computers that have to trust us.
 
-**NOTE:** It is **not recommended** that you distribute this root certificate in production. A breach of the above-generated key will open every device that trusts our root certificate to ***potential security threats***.
+**NOTE:** It is **not recommended** that you distribute this root certificate in production. A breach of the above-generated key will open every device that trusts your root certificate to ***potential security threats***.
 
 ## Step 2: Create an SSL certificate
 
