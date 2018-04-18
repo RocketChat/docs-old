@@ -81,7 +81,7 @@ A detailed guide for configuring your choice of SSL Reverse proxy servers is pro
 
 All the devices that need to communicate with the server during development, need to trust the root certificate we generated in `Step 1` (`Rocket.Chat-root.crt`)
 
-- For Apple devices follow the instructions here: [HTTPS and Test Servers](https://developer.apple.com/library/content/qa/qa1948/_index.html)
+- For Apple devices follow the instructions here: [HTTPS and Test Servers](https://developer.apple.com/library/content/qa/qa1948/_index.html#//apple_ref/doc/uid/DTS40017603-CH1-SECINSTALLING)
 - For Android devices follow the link [Add & remove certificates](https://support.google.com/nexus/answer/2844832?hl=en), and scroll down to "Work with CA certificates (trusted credentials)".
 
 *Installation instructions for other operating systems can be easily found online.*
