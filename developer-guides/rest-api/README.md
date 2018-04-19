@@ -26,14 +26,14 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Authentication
 
-| Url              | Short Description                                  | Details Page                      |
-| :--------------- | :------------------------------------------------- | :-------------------------------- |
-| `/api/v1/login`  | Authenticate with the REST API.                    | [Link](authentication/login/)     |
-| `/api/v1/login`  | Authenticate with google.                          | [Link](authentication/google/)    |
-| `/api/v1/login`  | Authenticate with facebook.                        | [Link](authentication/facebook/)  |
-| `/api/v1/login`  | Authenticate with twitter.                         | [Link](authentication/twitter/)   |
-| `/api/v1/logout` | Invalidate your REST API authentication token.     | [Link](authentication/logout/)    |
-| `/api/v1/me`     | Displays information about the authenticated user. | [Link](authentication/me/)        |
+| Url                       | Short Description                                  | Details Page                               |
+| :------------------------ | :------------------------------------------------- | :----------------------------------------- |
+| `/api/v1/login`           | Authenticate with the REST API.                    | [Link](authentication/login/)              |
+| `/api/v1/login`           | Authenticate with google.                          | [Link](authentication/google/)             |
+| `/api/v1/login`           | Authenticate with facebook.                        | [Link](authentication/facebook/)           |
+| `/api/v1/login`           | Authenticate with twitter.                         | [Link](authentication/twitter/)            |
+| `/api/v1/logout`          | Invalidate your REST API authentication token.     | [Link](authentication/logout/)             |
+| `/api/v1/me`              | Displays information about the authenticated user. | [Link](authentication/me/)                 |
 
 ### Users
 
@@ -42,6 +42,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/users.create`              | Create a new user.                                              | [Link](users/create/)               |
 | `/api/v1/users.createToken`         | Create a user authentication token.                             | [Link](users/createtoken/)          |
 | `/api/v1/users.delete`              | Deletes an existing user.                                       | [Link](users/delete/)               |
+| `/api/v1/users.forgotPassword`      | Send email to reset your password.                              | [Link](users/forgotpassword/)       |
 | `/api/v1/users.getAvatar`           | Gets the URL for a user's avatar.                               | [Link](users/getavatar/)            |
 | `/api/v1/users.getPresence`         | Gets the online presence of the a user.                         | [Link](users/getpresence/)          |
 | `/api/v1/users.info`                | Gets a user's information, limited to the caller's permissions. | [Link](users/info/)                 |
@@ -50,7 +51,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/users.resetAvatar`         | Reset a user's avatar                                           | [Link](users/resetavatar/)          |
 | `/api/v1/users.setAvatar`           | Set a user's avatar                                             | [Link](users/setavatar/)            |
 | `/api/v1/users.update`              | Update an existing user.                                        | [Link](users/update/)               |
-| `/api/v1/users.updateOwnBasicInfo`  | Update basic information of own user.                           | [Link](users/updateownbasicinfo/)               |
+| `/api/v1/users.updateOwnBasicInfo`  | Update basic information of own user.                           | [Link](users/updateownbasicinfo/)   |
 | `/api/v1/users.getPreferences`      | Gets all preferences of user.                                   | [Link](users/get-preferences/)      |
 | `/api/v1/users.setPreferences`      | Set user's preferences                                          | [Link](users/set-preferences/)      |
 
@@ -73,8 +74,6 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.leave`                      | Removes the calling user from a channel.                    | [Link](channels/leave/)                         |
 | `/api/v1/channels.list`                       | Retrives all of the channels from the server.               | [Link](channels/list/)                          |
 | `/api/v1/channels.list.joined`                | Gets only the channels the calling user has joined.         | [Link](channels/list-joined/)                   |
-| `/api/v1/channels.notifications`  GET         | Gets the notifications settings from a specific channel.    | [Link](channels/notifications/get/)             |
-| `/api/v1/channels.notifications`  POST        | Sets the notifications settings of specific channel.        | [Link](channels/notifications/post/)            |
 | `/api/v1/channels.open`                       | Adds the channel back to the user's list of channels.       | [Link](channels/open/)                          |
 | `/api/v1/channels.rename`                     | Changes a channel's name.                                   | [Link](channels/rename/)                        |
 | `/api/v1/channels.setAnnouncement`            | Sets a channel's announcement.                              | [Link](channels/setannouncement/)               |
@@ -119,6 +118,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.pinMessage`             | Pins a chat message to the message's channel.                    | [Link](chat/pinmessage/)                |
 | `/api/v1/chat.postMessage`            | Posts a new chat message.                                        | [Link](chat/postmessage/)               |
 | `/api/v1/chat.react`                  | Sets/unsets the user's reaction to an existing chat message.     | [Link](chat/react/)                     |
+| `/api/v1/chat.reportMessage`          | Reports a message.                                                | [Link](chat/reportmessage/)             |
 | `/api/v1/chat.search`                 | Search for messages in a channel.                                | [Link](chat/search/)                    |
 | `/api/v1/chat.starMessage`            | Stars a chat message for the authenticated user.                 | [Link](chat/starmessage/)               |
 | `/api/v1/chat.sendMessage`            | Send new chat message.                                           | [Link](chat/sendmessage/)               |
@@ -143,10 +143,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Rooms
 
-| Url                          | Short Description                    | Details Page          |
-| :--------------------------- | :----------------------------------- | :-------------------- |
-| `/api/v1/rooms.get`          | Gets rooms.                          | [Link](rooms/get/)    |
-| `/api/v1/rooms.upload/:rid`  | Upload a message with attached file. | [Link](rooms/upload/) |
+| Url                              | Short Description                                      | Details Page                    |
+| :------------------------------- | :----------------------------------------------------- | :------------------------------ |
+| `/api/v1/rooms.favorite`         | Favorite/Unfavorite room.                              | [Link](rooms/favorite/)         |
+| `/api/v1/rooms.get`              | Gets rooms.                                            | [Link](rooms/get/)              |
+| `/api/v1/rooms.saveNotification` | Sets the notifications settings of specific channel.   | [Link](rooms/savenotification/) |
+| `/api/v1/rooms.upload/:rid`      | Upload a message with attached file.                   | [Link](rooms/upload/)           |
 
 ### Command Methods
 
@@ -172,6 +174,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/service.configurations`  | `GET`  | Lists all service configurations.                   | [Link](settings/service-configuration/)    |
 | `/api/v1/settings/:_id`           | `GET`  | Gets a setting.                                     | [Link](settings/get-by-id/)                     |
 | `/api/v1/settings/:_id`           | `POST` | Updates a setting.                                  | [Link](settings/update/)                        |
+
+### Subscriptions
+
+| Url                               | Method | Short Description                  | Details Page                      |
+| :-------------------------------- | :----- | :--------------------------------- | :-------------------------------- |
+| `/api/v1/subscriptions.get`       |  `GET` | Get all subscriptions.             | [Link](subscriptions/get/)                      |
+| `/api/v1/subscriptions.getOne`    | `GET`  | Get the subscription by room Id.   | [Link](subscriptions/getone/)     |
 
 ## Language specific wrappers
 

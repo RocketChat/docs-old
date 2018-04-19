@@ -17,3 +17,5 @@ If you are a server administrator, here are a few guides on how to setup your in
 - [Permissions](permissions/)
 - [Plug-ins](plug-ins/)
 - [Create the First Admin](create-the-first-admin/)
+- [Restoring an Admin](restoring-an-admin/)
+- [Managing Settings Via Environment Variables](settings-via-env-vars/)

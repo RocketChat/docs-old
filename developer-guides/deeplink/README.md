@@ -11,8 +11,8 @@
 **Params:**
 
 - host: The host of the server;
-- token (optiona): The token of the user to be authenticated;
-- userId (optiona): The id of the user to be authenticated;
+- token (optional): The token of the user to be authenticated;
+- userId (optional): The id of the user to be authenticated;
 
 **Example:**
 
