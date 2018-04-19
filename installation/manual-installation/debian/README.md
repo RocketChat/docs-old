@@ -30,8 +30,8 @@ curl -sL https://deb.nodesource.com/setup | sudo bash -
 # in the same way that you did above
 sudo apt-get install nodejs
 # In order for some npm packages to work (such as those that require building from source)
-# you will need to install the build-essentials package:
-sudo apt-get install build-essential
+# you will need to install the build-essentials and python-dev packages:
+sudo apt-get install build-essential python-dev
 # for more please view the link below.
 
 
