@@ -39,7 +39,6 @@ curl http://localhost:3000/api/v1/settings.oauth
              "_id": "5RQ4SBL3NuZKsqxaF",
              "service": "test",
              "clientId": "test",
-             "secret": "test",
              "custom": true,
              "serverURL": "/test/test",
              "tokenPath": "/oauth/token",
