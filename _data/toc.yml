@@ -154,9 +154,11 @@
       - Authentication
       - Commands
       - Events
+    - Embedded Layout
     - Internationalization
     - Livechat API
-    - Mobile Apps
+    - Mobile Apps:
+      - Supporting SSL
     - Realtime-API:
       - Method Calls:
         - Login
@@ -246,6 +248,7 @@
         - pinMessage
         - postMessage
         - react
+        - reportMessage
         - search
         - starMessage
         - sendMessage
@@ -324,6 +327,7 @@
         - create
         - createToken
         - delete
+        - forgotPassword
         - getAvatar
         - getPresence
         - get-preferences
