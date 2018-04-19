@@ -1,6 +1,10 @@
 # Info
 
-A method, that searches by users or channels on all users and channels available on server. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/) along with [Query and Fields Query Parameters](../../query-and-fields-info/).
+A method, that searches by users or channels on all users and channels available on server.
+It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/)
+along with [Query and Fields Query Parameters](../../query-and-fields-info/).
+
+NOTE: This method doesn't return the <b>count</b> and <b>offset</b> values, it is used only for filtering.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |
