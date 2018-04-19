@@ -309,6 +309,7 @@
         - statistics
         - statistics.list
       - Rooms:
+        - favorite
         - get
         - saveNotification
         - upload
