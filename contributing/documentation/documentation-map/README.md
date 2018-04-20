@@ -78,7 +78,6 @@ Here you can also find what articles are incomplete and missing.
         - Ubuntu:
             - Snaps:
                 - AutoSSl
-        - Windows 10 Pro
         - Windows Server:
             - <span class="incomplete">[Releases](../missing-and-outdated-list/index.html#releases)</span>
         - Configuring SSL Reverse Proxy
