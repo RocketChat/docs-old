@@ -18,7 +18,7 @@ curl http://localhost:3000/api/v1/settings.oauth
 {
     "services": [
         {
-            "id": "iJeY7x4wxnh2p3pLr",
+            "_id": "iJeY7x4wxnh2p3pLr",
             "name": "facebook",
             "clientId": "test",
             "buttonLabelText": "test",
@@ -27,7 +27,7 @@ curl http://localhost:3000/api/v1/settings.oauth
             "custom": false
         },
         {
-            "id": "iJeY7x4wxnh2p3pLr",
+            "_id": "iJeY7x4wxnh2p3pLr",
             "name": "twitter",
             "clientId": "test",
             "buttonLabelText": "",
