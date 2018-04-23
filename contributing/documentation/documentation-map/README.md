@@ -197,6 +197,7 @@ Here you can also find what articles are incomplete and missing.
     - <span class="missing">[Internationalization](../missing-and-outdated-list/index.html#Internationalization)</span>
     - Livechat API
     - Mobile Apps
+        - Supporting SSL
     - Realtime-API:
         - Method Calls:
             - Login
@@ -245,6 +246,7 @@ Here you can also find what articles are incomplete and missing.
         - Rest API:
         - Authentication:
             - facebook
+            - forgotPassword
             - google
             - login
             - logout
@@ -288,6 +290,7 @@ Here you can also find what articles are incomplete and missing.
             - pinMessage
             - postMessage
             - react
+            - reportMessage
             - search
             - starMessage
             - sendMessage
@@ -347,16 +350,17 @@ Here you can also find what articles are incomplete and missing.
             - users
         - Miscellaneous:
             - info
-            - settings.oauth
             - statistics
             - statistics.list
         - Rooms:
+            - favorite
             - get
             - saveNotification
             - upload
         - Settings:
             - get
             - update
+            - oauth
         - Spotlight
         - Subscriptions:
             - get
@@ -365,6 +369,7 @@ Here you can also find what articles are incomplete and missing.
             - create
             - createToken
             - delete
+            - forgotPassword
             - getAvatar
             - getPresence
             - getPreferences
