@@ -304,6 +304,7 @@
         - sms-incoming
         - users
       - Miscellaneous:
+        - directory
         - info
         - statistics
         - statistics.list

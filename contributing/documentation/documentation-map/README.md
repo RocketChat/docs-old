@@ -349,6 +349,7 @@ Here you can also find what articles are incomplete and missing.
             - sms-incoming
             - users
         - Miscellaneous:
+            - directory
             - info
             - statistics
             - statistics.list
