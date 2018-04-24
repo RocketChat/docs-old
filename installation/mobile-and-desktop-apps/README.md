@@ -66,7 +66,7 @@ The experimental app for Android can be found on Google Play. Just search for `R
 
 ### React Native iOS App
 
-Currently you can only access the react native app in Apple's [TestFlight](https://developer.apple.com/testflight/). If you are interested in testing this app please send an email to `` with your email to be used on TestFilght.
+Currently you can only access the react native app in Apple's [TestFlight](https://developer.apple.com/testflight/). If you are interested in testing this app please send an email to `react.native@rocket.chat` with your email to be used on TestFilght.
 
 ---
 
