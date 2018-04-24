@@ -42,7 +42,7 @@ You can find 3 kinds of mobile apps:
 
 - **Hybrid (cordova) Apps:** These are slower hybrid apps, they are basically a wrapper for the webpage with some extra features.
 
----
+- - -
 
 ### Native iOS App (Rocket.Chat+)
 
@@ -56,7 +56,7 @@ The app for Android can be found on Google Play. Just search for `Rocket.Chat Be
 
 [Rocket.Chat Beta on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.android)
 
----
+- - -
 
 ### React Native Android App
 
@@ -68,7 +68,7 @@ The experimental app for Android can be found on Google Play. Just search for `R
 
 Currently you can only access the react native app in Apple's [TestFlight](https://developer.apple.com/testflight/). If you are interested in testing this app please send an email to `react.native@rocket.chat` with your email to be used on TestFilght.
 
----
+- - -
 
 ### Hybrid iOS App (Cordova)
 
@@ -86,7 +86,7 @@ _Note: this app is in legacy, so we advise on using the other apps on this list.
 
 [Rocket.Chat on Google Play](https://play.google.com/store/apps/details?id=com.konecty.rocket.chat)
 
----
+- - -
 
 ### Adding servers to Android and iOS mobile clients
 
