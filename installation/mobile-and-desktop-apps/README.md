@@ -1,8 +1,10 @@
 # Mobile and Desktop Apps
 
-## Windows, macOS and Linux Software
+You can find a variety of client apps to use with a Rocket.Chat server, apart from using a browser.
 
-You can download the Windows, macOS and Linux client software here:
+## Desktop Apps
+
+Here you can find the Electron based Desktop Apps:
 
 ### Windows
 
@@ -30,25 +32,69 @@ Alternatively you can download and manually install:
 
 You can find the download for the latest releases [here](https://github.com/RocketChat/Rocket.Chat.Electron/releases)
 
-## iOS App
+## Mobile Apps
 
-The app for iOS (iPhone, iPad, iPod touch) can be found on the App Store. Just search for `Rocket.Chat`
+You can find 3 kinds of mobile apps:
 
-[![Rocket.Chat on App Store](http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg)](https://itunes.apple.com/us/app/rocket.chat/id1028869439?mt=8)
+- **Native apps:** The Native apps of their respective platform. They are faster than the hybrid apps.
 
-## Android App
+- **React Native:** Experimental apps using the _React Native_ technology. They are faster than the hybrid apps.
 
-The app for Android can be found on Google Play. Just search for `Rocket.Chat`
+- **Hybrid (cordova) Apps:** These are slower hybrid apps, they are basically a wrapper for the webpage with some extra features.
 
-[![Rocket.Chat on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.android&hl=en)](https://play.google.com/store/apps/details?id=com.konecty.rocket.chat)
+---
 
-### Android and iOS Mobile users
+### Native iOS App (Rocket.Chat+)
 
-Enter the URL to your Rocket.Chat server (e.g. <https://open.rocket.chat>) to initialize the app. This needs to be done the first time you run the app after installation.
+The app for iOS (iPhone, iPad, iPod touch) can be found on the App Store. Just search for `Rocket.Chat+`
 
-Use two-fingers swipe up gesture to add more servers if you need to access multiple servers from one client.
+[Rocket.Chat+ on App Store](https://itunes.apple.com/us/app/rocket-chat/id1148741252?mt=8)
 
-### Android and iOS Mobile Users running Rocket.Chat server on a Sandstorm Grain
+### Native Android App (Rocket.Chat Beta)
+
+The app for Android can be found on Google Play. Just search for `Rocket.Chat Beta`
+
+[Rocket.Chat Beta on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.android)
+
+---
+
+### React Native Android App
+
+The experimental app for Android can be found on Google Play. Just search for `Rocket.Chat Experimental`
+
+[![Rocket.Chat Experimental on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)
+
+### React Native iOS App
+
+Currently you can only access the react native app in Apple's [TestFlight](https://developer.apple.com/testflight/). If you are interested in testing this app please send an email to `` with your email to be used on TestFilght.
+
+---
+
+### Hybrid iOS App (Cordova)
+
+The app for iOS (iPhone, iPad, iPod touch) can be found on the App Store. Just search for `Rocket.Chat Legacy`
+
+_Note: this app is in legacy, so we advise on using the other apps on this list._
+
+[Rocket.Chat on App Store](https://itunes.apple.com/us/app/rocket.chat/id1028869439?mt=8)
+
+### Hybrid Android App (Cordova)
+
+The app for Android can be found on Google Play. Just search for `Rocket.Chat Legacy`
+
+_Note: this app is in legacy, so we advise on using the other apps on this list._
+
+[Rocket.Chat on Google Play](https://play.google.com/store/apps/details?id=com.konecty.rocket.chat)
+
+---
+
+### Adding servers to Android and iOS mobile clients
+
+When using most of the apps, you will be prompted to add the server to be used on the app. Enter the URL to your Rocket.Chat server (e.g. <https://open.rocket.chat>) to initialize the app.
+
+### Android and iOS Legacy Users running Rocket.Chat server on a Sandstorm Grain
+
+_Note: this guide is for the legacy (cordova) app. It might not be up to date._
 
 1. On your phone in a browser open Sandstorm and open the Rocket.Chat grain.
 2. Open the hamburger menu (upper-left) and choose "Get Webkey". (On the desktop view, you would click the key icon in the topbar.)
