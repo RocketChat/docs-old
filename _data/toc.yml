@@ -46,10 +46,8 @@
   - Manual Installation:
     - CentOS
     - Debian
-    - MacOSX
     - Multiple Instances to Improve Performance
     - Migrating Meteor Mongo
-    - OpenSUSE
     - RedHat
     - Ubuntu:
       - Snaps:
@@ -70,6 +68,7 @@
       - Universal
     - Windows 10 Pro
     - Windows Server
+    - OpenSUSE
 - User guides:
   - Connecting to a Server
   - Registration
