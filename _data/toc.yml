@@ -46,8 +46,6 @@
   - Manual Installation:
     - CentOS
     - Debian
-    - FreeBSD:
-      - Universal
     - MacOSX
     - Multiple Instances to Improve Performance
     - Migrating Meteor Mongo
@@ -56,9 +54,6 @@
     - Ubuntu:
       - Snaps:
         - AutoSSL
-    - Windows 10 Pro
-    - Windows Server:
-      - Releases
     - Configuring SSL Reverse Proxy
     - PM2, Systemd, Upstart
     - Running in a sub folder
@@ -70,6 +65,11 @@
   - Updating:
     - From 0.x.x to 0.40.0
   - Minimum Requirements
+  - Community Supported Installation:
+    - FreeBSD:
+      - Universal
+    - Windows 10 Pro
+    - Windows Server
 - User guides:
   - Connecting to a Server
   - Registration
@@ -304,22 +304,24 @@
         - sms-incoming
         - users
       - Miscellaneous:
+        - directory
         - info
-        - settings.oauth
+        - spotlight
         - statistics
         - statistics.list
       - Rooms:
         - cleanHistory
+        - favorite
         - get
         - saveNotification
         - upload
       - Settings:
         - get
         - get-by-id
+        - oauth
         - public
         - service-configuration
         - update
-      - Spotlight
       - Subscriptions:
         - get
         - getOne

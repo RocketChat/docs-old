@@ -18,12 +18,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Miscellaneous Information
 
-| Url                       | Short Description                                   | Details Page                           |
-| :------------------------ | :-------------------------------------------------- | :------------------------------------- |
-| `/api/v1/info`            | Information about the Rocket.Chat server.           | [Link](miscellaneous/info/)            |
-| `/api/v1/settings.oauth`  | Return list of all available oauth services.        | [Link](miscellaneous/settings-oauth/) |
-| `/api/v1/statistics`      | Statistics about the Rocket.Chat server.            | [Link](miscellaneous/statistics/)      |
-| `/api/v1/statistics.list` | Selectable statistics about the Rocket.Chat server. | [Link](miscellaneous/statistics-list/) |
+| Url                       | Short Description                                         | Details Page                           |
+| :------------------------ | :-------------------------------------------------------- | :------------------------------------- |
+| `/api/v1/info`            | Information about the Rocket.Chat server.                 | [Link](miscellaneous/info/)            |
+| `/api/v1/directory`       | Search by users or channels on all server.                | [Link](miscellaneous/directory/)       |
+| `/api/v1/spotlight`       | Searches for users or rooms that are visible to the user. | [Link](miscellaneous/spotlight/)       |
+| `/api/v1/statistics`      | Statistics about the Rocket.Chat server.                  | [Link](miscellaneous/statistics/)      |
+| `/api/v1/statistics.list` | Selectable statistics about the Rocket.Chat server.       | [Link](miscellaneous/statistics-list/) |
 
 ### Authentication
 
@@ -146,6 +147,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | Url                              | Short Description                                        | Details Page                    |
 | :------------------------------- | :------------------------------------------------------- | :------------------------------ |
 | `/api/v1/rooms.cleanHistory`     | Cleans up a room's history, requires special permission. | [Link](rooms/cleanhistory/)     |
+| `/api/v1/rooms.favorite`         | Favorite/Unfavorite room.                                | [Link](rooms/favorite/)         |
 | `/api/v1/rooms.get`              | Gets rooms.                                              | [Link](rooms/get/)              |
 | `/api/v1/rooms.saveNotification` | Sets the notifications settings of specific channel.     | [Link](rooms/savenotification/) |
 | `/api/v1/rooms.upload/:rid`      | Upload a message with attached file.                     | [Link](rooms/upload/)           |
@@ -166,13 +168,14 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Settings
 
-| Url                               | Method | Short Description                  | Details Page                                    |
-| :-------------------------------- | :----- | :--------------------------------- | :---------------------------------------------- |
-| `/api/v1/settings`                | `GET`  | Lists all private settings.        | [Link](settings/get/)                           |
-| `/api/v1/settings.public`         | `GET`  | Lists all public settings.         | [Link](settings/public/)                    |
-| `/api/v1/service.configurations`  | `GET`  | Lists all service configurations.  | [Link](settings/service-configuration/)    |
-| `/api/v1/settings/:_id`           | `GET`  | Gets a setting.                    | [Link](settings/get-by-id/)                     |
-| `/api/v1/settings/:_id`           | `POST` | Updates a setting.                 | [Link](settings/update/)                        |
+| Url                               | Method | Short Description                                   | Details Page                                    |
+| :-------------------------------- | :----- | :-------------------------------------------------- | :---------------------------------------------- |
+| `/api/v1/settings`                | `GET`  | Lists all private settings.                         | [Link](settings/get/)                           |
+| `/api/v1/settings.public`         | `GET`  | Lists all public settings.                          | [Link](settings/public/)                    |
+| `/api/v1/settings.oauth`          | `GET`  | Return list of all available oauth services.        | [Link](settings/oauth/) |
+| `/api/v1/service.configurations`  | `GET`  | Lists all service configurations.                   | [Link](settings/service-configuration/)    |
+| `/api/v1/settings/:_id`           | `GET`  | Gets a setting.                                     | [Link](settings/get-by-id/)                     |
+| `/api/v1/settings/:_id`           | `POST` | Updates a setting.                                  | [Link](settings/update/)                        |
 
 ### Subscriptions
 
