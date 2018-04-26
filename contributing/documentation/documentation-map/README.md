@@ -68,8 +68,6 @@ Here you can also find what articles are incomplete and missing.
     - Manual Installation:
         - CentOS
         - Debian
-        - FreeBSD:
-        - Universal
         - MacOSX
         - Multiple Instances to Improve Performance
         - Migrating Meteor Mongo
@@ -78,9 +76,6 @@ Here you can also find what articles are incomplete and missing.
         - Ubuntu:
             - Snaps:
                 - AutoSSl
-        - Windows 10 Pro
-        - Windows Server:
-            - <span class="incomplete">[Releases](../missing-and-outdated-list/index.html#releases)</span>
         - Configuring SSL Reverse Proxy
         - PM2, Systemd, Upstart
         - Running in a sub folder
@@ -93,6 +88,11 @@ Here you can also find what articles are incomplete and missing.
     - <span class="incomplete">[Updating](../missing-and-outdated-list/index.html#updating)</span>
         - From 0.x.x to 0.40.0
     - Minimum Requirements
+    - Community Supported Install:
+        - FreeBSD
+            - Universal
+        - Windows 10 Pro
+        - Windows Server:
 
 - User guides:
     - Connecting to a Server
