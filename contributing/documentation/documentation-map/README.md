@@ -189,6 +189,7 @@ Here you can also find what articles are incomplete and missing.
     - Code Styleguide:
         - <span class="incomplete">[Less](../missing-and-outdated-list/index.html#Less)</span>
     - Deeplink
+    - Deprecation
     - Iframe Integration:
         - <span class="missing">[Authentication](../missing-and-outdated-list/index.html#Authentication)</span>
         - Commands
@@ -257,7 +258,6 @@ Here you can also find what articles are incomplete and missing.
             - addModerator
             - addOwner
             - archive
-            - cleanHistory
             - close
             - create
             - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
@@ -355,6 +355,7 @@ Here you can also find what articles are incomplete and missing.
             - statistics
             - statistics.list
         - Rooms:
+            - cleanHistory
             - favorite
             - get
             - saveNotification

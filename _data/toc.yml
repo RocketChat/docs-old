@@ -150,6 +150,7 @@
     - Code Styleguide:
       - less
     - Deeplink
+    - Deprecation
     - Iframe Integration:
       - Authentication
       - Commands
@@ -217,7 +218,6 @@
         - addModerator
         - addOwner
         - archive
-        - cleanHistory
         - close
         - create
         - files
@@ -310,6 +310,7 @@
         - statistics
         - statistics.list
       - Rooms:
+        - cleanHistory
         - favorite
         - get
         - saveNotification
