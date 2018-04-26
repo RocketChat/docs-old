@@ -63,5 +63,5 @@ curl http://localhost:3000/api/v1/settings.oauth
 
 | Version | Description |
 | :--- | :--- |
-| 0.64.0 | Renamed field `appId` to `clientId` and added flag `custom` to indicate whether the oauth service is customized |
+| 0.64.0 | Renamed field `appId` to `clientId` and added flag `custom` to indicate whether the oauth service is customized and fix `id` inconsistence(set all cases to `_id`) |
 | 0.63.0 | Added |
