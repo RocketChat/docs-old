@@ -68,8 +68,6 @@ Here you can also find what articles are incomplete and missing.
     - Manual Installation:
         - CentOS
         - Debian
-        - FreeBSD:
-        - Universal
         - MacOSX
         - Multiple Instances to Improve Performance
         - Migrating Meteor Mongo
@@ -78,9 +76,6 @@ Here you can also find what articles are incomplete and missing.
         - Ubuntu:
             - Snaps:
                 - AutoSSl
-        - Windows 10 Pro
-        - Windows Server:
-            - <span class="incomplete">[Releases](../missing-and-outdated-list/index.html#releases)</span>
         - Configuring SSL Reverse Proxy
         - PM2, Systemd, Upstart
         - Running in a sub folder
@@ -93,6 +88,11 @@ Here you can also find what articles are incomplete and missing.
     - <span class="incomplete">[Updating](../missing-and-outdated-list/index.html#updating)</span>
         - From 0.x.x to 0.40.0
     - Minimum Requirements
+    - Community Supported Install:
+        - FreeBSD
+            - Universal
+        - Windows 10 Pro
+        - Windows Server:
 
 - User guides:
     - Connecting to a Server
@@ -197,6 +197,7 @@ Here you can also find what articles are incomplete and missing.
     - <span class="missing">[Internationalization](../missing-and-outdated-list/index.html#Internationalization)</span>
     - Livechat API
     - Mobile Apps
+        - Supporting SSL
     - Realtime-API:
         - Method Calls:
             - Login
@@ -245,6 +246,7 @@ Here you can also find what articles are incomplete and missing.
         - Rest API:
         - Authentication:
             - facebook
+            - forgotPassword
             - google
             - login
             - logout
@@ -288,6 +290,7 @@ Here you can also find what articles are incomplete and missing.
             - pinMessage
             - postMessage
             - react
+            - reportMessage
             - search
             - starMessage
             - sendMessage
@@ -346,17 +349,19 @@ Here you can also find what articles are incomplete and missing.
             - sms-incoming
             - users
         - Miscellaneous:
+            - directory
             - info
-            - settings.oauth
             - statistics
             - statistics.list
         - Rooms:
+            - favorite
             - get
             - saveNotification
             - upload
         - Settings:
             - get
             - update
+            - oauth
         - Spotlight
         - Subscriptions:
             - get
@@ -365,6 +370,7 @@ Here you can also find what articles are incomplete and missing.
             - create
             - createToken
             - delete
+            - forgotPassword
             - getAvatar
             - getPresence
             - getPreferences
