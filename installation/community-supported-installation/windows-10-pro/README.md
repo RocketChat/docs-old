@@ -1,5 +1,7 @@
 # Installing on Windows 10 Pro 64bit with Docker for Windows
 
+_Note: This is a community supported installation method. You can discuss about this in the [forum thread](https://forums.rocket.chat/t/windows-10-pro-installation-guide/408)._
+
 Please make sure:
 
 - you have at least 4 GB of memory on your Windows 10 Pro machine

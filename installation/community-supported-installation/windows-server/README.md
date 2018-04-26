@@ -1,5 +1,7 @@
 # Rocket.Chat Windows Installation Guide
 
+_Note: This is a community supported installation method. You can discuss about this in the [forum thread](https://forums.rocket.chat/t/broken-windows-server-2012-r2-installation-guide/413/2)._
+
 ## How to install Rocket.Chat on Windows Server 2012 R2
 
 The following guide will step through the various steps for installing Rocket.Chat on Windows Server 2012 R2.
