@@ -21,6 +21,7 @@
     Docker Containers: docker-containers/
     Manual Installation: manual-installation/
     Updating: updating/
+    Community Guides: community-supported-installation/
 
 -
   name: Rocket.Chat Administrator Guides
