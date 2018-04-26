@@ -351,6 +351,7 @@ Here you can also find what articles are incomplete and missing.
         - Miscellaneous:
             - directory
             - info
+            - spotlight
             - statistics
             - statistics.list
         - Rooms:
@@ -362,7 +363,6 @@ Here you can also find what articles are incomplete and missing.
             - get
             - update
             - oauth
-        - Spotlight
         - Subscriptions:
             - get
             - getOne
