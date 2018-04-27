@@ -2,7 +2,7 @@
 
 The rocketchat-hubot bot can be run using either npm, docker or yoeman generator. 
 
-In all cases you will first need to configure the environment.  [Click here for info](../configure-bot-environment)
+In all cases these instructions will ask you first to configure the environment.  [Click here for info](../configure-bot-environment)
 
 Once the bot is running and is properly logged in and connected to your RC server/configured channels, you can test by logging in as a regular user (not the BOT user), go to a configured channel and start talking to your bot (you'll find some pre-configured dialogs below)
 
