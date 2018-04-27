@@ -20,7 +20,7 @@
 ```bash
 curl -H "Content-type:application/json" \
       http://localhost:3000/api/v1/login \
-      -d '{ "serviceName": "google", accessToken": "hash",
+      -d '{ "serviceName": "google", "accessToken": "hash",
       "idToken": "hash", "expiresIn": 200, "scope": "profile" }'
 ```
 
