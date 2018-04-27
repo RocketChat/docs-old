@@ -9,3 +9,4 @@ You can also check their respective forums pages under [Community Guides](https:
 - [FreeBSD](freebsd/)
 - [Windows 10 Pro](windows-10-pro/)
 - [Windows Server 2012](windows-server/)
+- [OpenSUSE](opensuse/)

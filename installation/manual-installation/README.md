@@ -4,10 +4,8 @@ Here you can find guides on how to manually install and manage Rocket.Chat serve
 
 - [CentOS](centos/)
 - [Debian](debian/)
-- [MacOSX](macosx/)
 - [Multiple Instances to Improve Performance](multiple-instances-to-improve-performance/)
 - [Migrating Meteor Mongo](migrating-meteor-mongo/)
-- [OpenSUSE](opensuse/)
 - [RedHat](redhat/)
 - [Ubuntu](ubuntu/)
 - [Configuring SSL Reverse Proxy](configuring-ssl-reverse-proxy/)
