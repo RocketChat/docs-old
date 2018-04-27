@@ -1,6 +1,6 @@
 # Running a hubot bot
 
-The rocketchat-hubot bot can be run using either npm or docker. 
+The rocketchat-hubot bot can be run using either npm, docker or yoeman generator. 
 
 In all cases you will first need to configure the environment.  [Click here for info](../configure-bot-environment)
 
@@ -130,3 +130,42 @@ super fast.
 $PWD to mount the volumes. Instead, [read this note here](https://docs.docker.com/userguide/dockervolumes/)
 (the 2nd note on the page: *If you are using Boot2Docker...*) to determine the
 absolute path where you must place the git-cloned directory.
+
+## Yoeman generater
+You can specify the adapter during setup.
+
+First you need to install hubot
+
+```
+npm install -g yo generator-hubot
+```
+
+Then you need to start the setup of the bot
+
+```
+mkdir myhubot
+cd myhubot
+yo hubot --adapter="rocketchat@1"
+```
+
+It'll ask you a few questions.
+
+Alternatively you can actually answer the questions in one command:
+
+```
+yo hubot --owner="OWNER <owner@example.com>" --name="bot" --description="Bot" --adapter="rocketchat@0.1"
+```
+
+Also be sure to remember the name you specify.  This is what the bot will respond to in Rocket.Chat.
+
+You will need to tell the adapter where your install is and what login information to use.
+
+```
+export ROCKETCHAT_ROOM=''
+export LISTEN_ON_ALL_PUBLIC=true
+export ROCKETCHAT_USER=bot
+export ROCKETCHAT_PASSWORD=bot
+export ROCKETCHAT_AUTH=password
+```
+
+Then start with: `bin/hubot -a rocketchat`
