@@ -2,7 +2,7 @@
 
 The rocketchat-hubot bot can be run using either npm or docker. 
 
-In all cases you will first need to configure the environment.  [Click here for info](https://github.com/WideChat/docs/tree/master/developer-guides/using-bots/configure-bot-environment)
+In all cases you will first need to configure the environment.  [Click here for info](../configure-bot-environment)
 
 Once the bot is running and is properly logged in and connected to your RC server/configured channels, you can test by logging in as a regular user (not the BOT user), go to a configured channel and start talking to your bot (you'll find some pre-configured dialogs below)
 
