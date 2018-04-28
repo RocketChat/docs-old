@@ -11,7 +11,7 @@ redirect_from:
 
 ## How to apply
 
-Application has closed for the GSoC 2018 season. 
+Application has closed for the GSoC 2018 season.
 
 UPDATE April 25, 2018 -  The list of [official GSoC 2018 accepted students and projects](https://summerofcode.withgoogle.com/organizations/6355544806260736/) is now available. First, we would like to sincerely thank every student who has submitted a proposal and many who had worked on PR and assisted in our open source community - please continue the excellent work. Of the 93 proposals we received, there were many high quality ones. We have also interacted with many of the students in the prior month.  Decision was difficult and mentors were competitive this year.  Ultimately, EIGHT of the top students/proposals this year are accepted for GSoC 2018 (thank you, Google!):
 
@@ -34,7 +34,7 @@ In addition, due to the sheer number of high quality entrants, Rocket.Chat has d
 |Nitesh Saxena|Intgration with IPFS|Sing Li, Ankit Bhatia|
 |Arthur Temporim|Livechat Reports and Analytics|Diego Dorgam, John Szaszvari|
 
-All of the eleven students have been contacted by mentors and started the community bonding period. 
+All of the eleven students have been contacted by mentors and started the community bonding period.
 
 UPDATE April 2, 2018 -  2018 is an incredible GSoC year for us, we have received a total of NINETY THREE proposals from students studying at every corner of the globe - Brazil, Turkey, USA, Armenia, India, China, Singapore, Hong Kong and more. Thank you, GSoC students, for  the overwhelming interest on our project.   Proposal topics covered almost all of the suggestions on our idea list - and even a few original ones.  Our TWENTY FIVE Rocket.Chat core, guest, and community mentors are hard-at-work right now going through every one of the proposals, and will be contacting students for a video chat prior to deciding on proposal selection and slot assignments.  Please keep in touch with us and continue to contribute to the Rocket.Chat project during this time.
 
