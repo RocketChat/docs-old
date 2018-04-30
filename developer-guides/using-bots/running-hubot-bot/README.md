@@ -29,7 +29,7 @@ Using the boilerplate example, to start the bot in production, use
 
 [More info in Hubot's own docs here](https://hubot.github.com/docs/)
 
-#### Quick Start
+### Quick Start
 
 Create and run a Rocket.Chat bot in under two minutes.
 
@@ -100,7 +100,7 @@ On the server, login as a regular user (not the BOT user), go to GENERAL, and tr
 mybotuser what is the time
 ```
 
-#### Standard
+### Standard
 
 In a Hubot instance once `hubot-rocketchat` is added by npm or yarn, you can
 replace the package with a development version directly:
@@ -111,7 +111,7 @@ replace the package with a development version directly:
 - `cd hubot-rocketchat` move to dev path
 - `npm install` install dependencies
 
-#### Linked
+### Linked
 
 Setting up a locally linked package is easier for continued development and/or
 using the same development version of the adapter in multiple bots.
@@ -121,7 +121,7 @@ using the same development version of the adapter in multiple bots.
 - Change directory to your bot's project root
 - `npm link hubot-rocketchat` or `yarn link hubot-rocketchat` to create the link
 
-#### Important notes
+### Important notes
 
 * The first time you run the docker container, the image needs to be pulled from
 the public docker registry and it will take some time.  Subsequent runs are
@@ -132,6 +132,7 @@ $PWD to mount the volumes. Instead, [read this note here](https://docs.docker.co
 absolute path where you must place the git-cloned directory.
 
 ## Yoeman generater
+
 You can specify the adapter during setup.
 
 First you need to install hubot
