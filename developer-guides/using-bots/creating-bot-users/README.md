@@ -12,17 +12,16 @@ An admin user is required to create the account for the bot to login to.
 4. Disable *Require password change*
 5. Select `bot` from role selection and click *Add Role*
 6. Disable *Join default channels* recommended, to avoid accidental listening
-6. Disable *Send welcome email*
-7. *Save*
+7. Disable *Send welcome email*
+8. *Save*
 
 Your bot will be configured to login to Rocket.Chat server with the designated bot username and password by using these credentials in the bot's environment `ROCKETCHAT_USER` and `ROCKETCHAT_PASSWORD`
 
-Note that for bots email, a common workaround to avoid creating multiple
-accounts is to use gmail +addresses, e.g. `youremail+botnam@gmail.com`.
+Note that for bots email, a common workaround to avoid creating multiple accounts is to use gmail +addresses, e.g. `youremail+botnam@gmail.com`.
 [See this issue for more](https://github.com/RocketChat/Rocket.Chat/issues/7125)
 
 ## Talk to your bot
 
 Your bot will respond to all messages addressed directly to the bot user, i.e. prepended with `<bot_name>` or a preconfigured `<bot_alias>`.
 
-If the chat bot is configured to listen on Direct Messages ```RESPOND_TO_DM=true```, the prepend is not neccessary and the chat bot will respond to all messages in the DM channel.  
+If the chat bot is configured to listen on Direct Messages ```RESPOND_TO_DM=true```, the prepend is not neccessary and the chat bot will respond to all messages in the DM channel.

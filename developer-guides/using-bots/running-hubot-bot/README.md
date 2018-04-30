@@ -1,8 +1,8 @@
 # Running a hubot bot
 
-The rocketchat-hubot bot can be run using either npm, docker or yoeman generator. 
+The rocketchat-hubot bot can be run using either npm, docker or yoeman generator.
 
-In all cases these instructions will ask you first to configure the environment.  [Click here for info](../configure-bot-environment)
+In all cases these instructions will ask you first to configure the environment. [Click here for info](../configure-bot-environment)
 
 Once the bot is running and is properly logged in and connected to your RC server/configured channels, you can test by logging in as a regular user (not the BOT user), go to a configured channel and start talking to your bot (you'll find some pre-configured dialogs below)
 
@@ -10,8 +10,7 @@ Once the bot is running and is properly logged in and connected to your RC serve
 
 Please see our boilerplate bot [Getting Started docs here](https://github.com/RocketChat/hubot-rocketchat-boilerplate)!
 
-The boilerplate is essentially just a simple node package that requires Hubot,
-the Rocket.Chat adapter and Coffeescript for its execution...
+The boilerplate is essentially just a simple node package that requires Hubot, the Rocket.Chat adapter and Coffeescript for its execution...
 
 ```
 "dependencies": {
@@ -24,8 +23,7 @@ the Rocket.Chat adapter and Coffeescript for its execution...
 The bot can then be executed using a bin file in production, [as seen here](https://github.com/RocketChat/hubot-rocketchat-boilerplate/tree/master/bin).
 Or via the package scripts locally using `npm run local` or `yarn local`
 
-Using the boilerplate example, to start the bot in production, use
-`bin/hubot -a rocketchat` - will install dependencies and run the bot with rocketchat's hubot-adaper.
+Using the boilerplate example, to start the bot in production, use `bin/hubot -a rocketchat` - will install dependencies and run the bot with rocketchat's hubot-adaper.
 
 [More info in Hubot's own docs here](https://hubot.github.com/docs/)
 
@@ -38,6 +36,7 @@ git clone https://github.com/RocketChat/hubot-rocketchat-boilerplate
 cd hubot-rocketchat-boilerplate
 npm install
 ```
+
 Create a _.env_ file with content:
 
 ```
@@ -70,7 +69,6 @@ mybotuser rc version
 ```
 
 You can examine the source code of these two bots under the `/scripts` directory, where you can add your own bot scripts written in Javascript.
-
 
 ## v2.x.x Development using Docker
 
@@ -123,13 +121,8 @@ using the same development version of the adapter in multiple bots.
 
 ### Important notes
 
-* The first time you run the docker container, the image needs to be pulled from
-the public docker registry and it will take some time.  Subsequent runs are
-super fast.
-* If you are not running Linux (i.e. if you are on a Mac or PC), you cannot use
-$PWD to mount the volumes. Instead, [read this note here](https://docs.docker.com/userguide/dockervolumes/)
-(the 2nd note on the page: *If you are using Boot2Docker...*) to determine the
-absolute path where you must place the git-cloned directory.
+- The first time you run the docker container, the image needs to be pulled from the public docker registry and it will take some time.  Subsequent runs are super fast.
+- If you are not running Linux (i.e. if you are on a Mac or PC), you cannot use $PWD to mount the volumes. Instead, [read this note here](https://docs.docker.com/userguide/dockervolumes/) (the 2nd note on the page: *If you are using Boot2Docker...*) to determine the absolute path where you must place the git-cloned directory.
 
 ## Yoeman generater
 
