@@ -2,7 +2,7 @@
 
 In order to talk to your chat bot there must be a bot user pre-configured on the Rocket.Chat server.
 
-#### Creating a User on the Server
+## Creating a User on the Server
 
 An admin user is required to create the account for the bot to login to.
 
@@ -21,7 +21,7 @@ Note that for bots email, a common workaround to avoid creating multiple
 accounts is to use gmail +addresses, e.g. `youremail+botnam@gmail.com`.
 [See this issue for more](https://github.com/RocketChat/Rocket.Chat/issues/7125)
 
-#### Talk to your bot
+## Talk to your bot
 
 Your bot will respond to all messages addressed directly to the bot user, i.e. prepended with `<bot_name>` or a preconfigured `<bot_alias>`.
 

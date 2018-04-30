@@ -1,6 +1,6 @@
 # Configuring bot environments
 
-### Bot adapter configurations
+## Bot adapter configurations
 
 Some configurations are needed by the Rocket.Chat.js.SDK and are independent of bot type (i.e. hubot, botkit, etc..)
 NOTE: At the time of this writing only a hubot adapter has been written for Rocket Chat.
@@ -28,7 +28,7 @@ HUBOT_LOG_LEVEL | hubot log level, string [debug|info|warning|error], default: i
 `*` Required settings  
 `**` Docker image only
 
-##### Common configuration
+### Common configuration
 
 It is common to set up a bot to listen and respond to direct messages and all
 new public channels and private groups. Use the following options:
