@@ -26,5 +26,3 @@ accounts is to use gmail +addresses, e.g. `youremail+botnam@gmail.com`.
 Your bot will respond to all messages addressed directly to the bot user, i.e. prepended with `<bot_name>` or a preconfigured `<bot_alias>`.
 
 If the chat bot is configured to listen on Direct Messages ```RESPOND_TO_DM=true```, the prepend is not neccessary and the chat bot will respond to all messages in the DM channel.  
-
-
