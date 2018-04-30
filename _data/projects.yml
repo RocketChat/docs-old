@@ -1,5 +1,5 @@
 -
-  name: Rocket.Chat User Guides
+  name: User Guides
   icon: rocketchat
   description: Guides for the basic usage of Rocket.Chat.
   path: user-guides/
@@ -11,12 +11,12 @@
     Managing your Account: managing-your-account/
 
 -
-  name: Rocket.Chat Installation Guides
+  name: Installation Guides
   icon: cog
   description: Guides for installing and deploying Rocket.Chat
   path: installation/
   pages:
-    Rocket.Chat Cloud: rocket-chat-cloud/
+    Cloud: rocket-chat-cloud/
     PaaS Deployments: paas-deployments/
     Docker Containers: docker-containers/
     Manual Installation: manual-installation/
@@ -24,7 +24,7 @@
     Community Guides: community-supported-installation/
 
 -
-  name: Rocket.Chat Administrator Guides
+  name: Administrator Guides
   icon: sliders
   description: Guides for managing and configuring Rocket.Chat
   path: administrator-guides/
@@ -37,7 +37,7 @@
     Integrations: integrations/
 
 -
-  name: Rocket.Chat Developer Guides
+  name: Developer Guides
   icon: code
   description: Guides for developing and modifying Rocket.Chat's code
   path: developer-guides/
@@ -62,19 +62,19 @@
     Translating: translating/
 
 -
-  name: Rocket.Chat Getting Support
+  name: Getting Support
   icon: support
   description: Guides getting support for Rocket.Chat
   path: getting-support/
 
 -
-  name: Rocket.Chat Android
+  name: Android
   icon: android
-  description:
+  description: Native Android client for Rocket.Chat
   path: https://github.com/RocketChat/Rocket.Chat.Android
 
 -
-  name: Rocket.Chat iOS
+  name: iOS
   icon: apple
-  description:
+  description: Native iOS client for Rocket.Chat
   path: https://github.com/RocketChat/Rocket.Chat.iOS
