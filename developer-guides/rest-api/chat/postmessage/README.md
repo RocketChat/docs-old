@@ -40,7 +40,7 @@ The attachments is an array of objects with any of the following properties. One
 | `author_icon`         | `https://site.com/img.png` | Author  | Displays a tiny icon to the left of the Author's name.                                                                                                       |
 | `title`               | `Attachment Title`         | Title   | Title to display for this attachment, displays under the author.                                                                                             |
 | `title_link`          | `https://youtube.com`      | Title   | Providing this makes the title clickable, pointing to this link.                                                                                             |
-| `title_link_download` | `https://site.com/img.png` | Title   | When this is provided, a download icon appears and clicking this saves the link to file.                                                                     |
+| `title_link_download` | `true`                     | Title   | When this is true, a download icon appears and clicking this saves the link to file.                                                                     |
 | `image_url`           | `https://site.com/img.png` | Image   | The image to display, will be "big" and easy to see.                                                                                                         |
 | `audio_url`           | `https://site.com/aud.mp3` | Audio   | Audio file to play, only supports what [html audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio) does.                                   |
 | `video_url`           | `https://site.com/vid.mp4` | Video   | Video file to play, only supports what [html video](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) does.                                   |
@@ -60,38 +60,43 @@ The field property of the attachments allows for "tables" or "columns" to be dis
 
 ```json
 {
-  "roomId": "Xnb2kLD2Pnhdwe3RH",
-    "channel": "#general",
-  "text": "Sample message",
   "alias": "Gruggy",
+  "avatar": "http://res.guggy.com/logo_128.png",
+  "channel": "#general",
   "emoji": ":smirk:",
-    "avatar": "http://res.guggy.com/logo_128.png",
-  "attachments": [{
-        "color": "#ff0000",
-        "text": "Yay for gruggy!",
-        "ts": "2016-12-09T16:53:06.761Z",
-        "thumb_url": "http://res.guggy.com/logo_128.png",
-        "message_link": "https://google.com",
-        "collapsed": false,
-    "author_name": "Bradley Hilton",
-    "author_link": "https://rocket.chat/",
-    "author_icon": "https://avatars.githubusercontent.com/u/850391?v=3",
-    "title": "Attachment Example",
-    "title_link": "https://youtube.com",
-    "title_link_download": "https://rocket.chat/download",
-    "image_url": "http://res.guggy.com/logo_128.png",
-    "audio_url": "http://www.w3schools.com/tags/horse.mp3",
-    "video_url": "http://www.w3schools.com/tags/movie.mp4",
-    "fields": [{
-      "short": true,
-      "title": "Test",
-      "value": "Testing out something or other"
-    },{
-      "short": true,
-      "title": "Another Test",
-      "value": "[Link](https://google.com/) something and this and that."
-    }]
-  }]
+  "roomId": "Xnb2kLD2Pnhdwe3RH",
+  "text": "Sample message",
+  "attachments": [
+    {
+      "audio_url": "http://www.w3schools.com/tags/horse.mp3",
+      "author_icon": "https://avatars.githubusercontent.com/u/850391?v=3",
+      "author_link": "https://rocket.chat/",
+      "author_name": "Bradley Hilton",
+      "collapsed": false,
+      "color": "#ff0000",
+      "fields": [
+        {
+          "short": true,
+          "title": "Test",
+          "value": "Testing out something or other"
+        },
+        {
+          "short": true,
+          "title": "Another Test",
+          "value": "[Link](https://google.com/) something and this and that."
+        }
+      ],
+      "image_url": "http://res.guggy.com/logo_128.png",
+      "message_link": "https://google.com",
+      "text": "Yay for gruggy!",
+      "thumb_url": "http://res.guggy.com/logo_128.png",
+      "title": "Attachment Example",
+      "title_link": "https://youtube.com",
+      "title_link_download": true,
+      "ts": "2016-12-09T16:53:06.761Z",
+      "video_url": "http://www.w3schools.com/tags/movie.mp4"
+    }
+  ]
 }
 ```
 

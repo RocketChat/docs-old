@@ -52,7 +52,7 @@ const githubEvents = {
   ping(request) {
     return {
       content: {
-        text: '_' + request.content.repository.full_name + '_\n' + ':thumbsup: ' + request.content.zen
+        text: '_' + request.content.hook.id + '_\n' + ':thumbsup: ' + request.content.zen
       }
     };
   },
