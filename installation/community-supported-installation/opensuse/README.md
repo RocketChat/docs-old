@@ -1,5 +1,7 @@
 # Install and Run Rocket.Chat on OpenSUSE Leap 42.2
 
+_Note: This is a community supported installation method. You can discuss about this in the [forum thread](https://forums.rocket.chat/t/opensuse-installation-guide/657)._
+
 _Last updated 2017-08-26_
 
 Node.js version: 8.9.3

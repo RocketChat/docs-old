@@ -1,5 +1,7 @@
 # Rocket.Chat Windows Installation Guide
 
+_Note: This is a community supported installation method. You can discuss about this in the [forum thread](https://forums.rocket.chat/t/broken-windows-server-2012-r2-installation-guide/413/2)._
+
 ## How to install Rocket.Chat on Windows Server 2012 R2
 
 The following guide will step through the various steps for installing Rocket.Chat on Windows Server 2012 R2.
@@ -68,7 +70,7 @@ Then, download and install each of the following **in order**:
 
 ### Rocket.Chat files
 
-1. Download the latest Rocket.Chat **Windows Release** from [the Rocket.Chat releases page](releases/)
+1. Download the latest Rocket.Chat **Windows Release** from the Rocket.Chat releases page (not available anymore)
 2. Using an archive utility such as [7zip](http://www.7-zip.org/) or [tar for Windows](http://gnuwin32.sourceforge.net/packages/gtar.htm), extract the tar.gz file
 3. Place the files in the desired install path, such as `C:\RocketChat`
 
