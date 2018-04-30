@@ -4,7 +4,7 @@ With `iframe` auth you can use your own authentication page/API to log in users 
 
 When enabled Rocket.Chat first do an `XMLHttpRequest` to the `iFrame API` URL trying to see if the user is already logged in at the third party website. If that doesn't succeed then Rocket.Chat will present the `Iframe URL` within an `iframe`, so the user logs in on the third party website which means he is authenticated on Rocket.Chat as well.
 
-We have developed an example app written in NodeJS in order to help you understanding this authentication flow. Please take a look at https://github.com/RocketChat/iframe-auth-example
+We have developed an example app written in NodeJS in order to help you understanding this authentication flow. Please take a look at [iFrame Auth Example](https://github.com/RocketChat/iframe-auth-example)
 
 ## Configuring
 
@@ -72,7 +72,6 @@ On this case, the response should be:
 }
 ```
 
-
 ### IFrame URL
 
 The URL of the page you want to show as the login page of your Rocket.Chat instance (this page can be created in any programming language and/or web framework).
@@ -81,7 +80,7 @@ The login page will then communicate back to Rocket.Chat using `postMessage` API
 
 After user logs in, you have to authenticate him on Rocket.Chat side, pretty much the same as you did before on `API URL` endpoint, but now you should return a JavaScript code that will be rendered within the `iframe`, depending how you logged in ther user:
 
-* If have used Rocket.Chat's APIs to log in the user or already have user's token saved in your end, return:
+- If have used Rocket.Chat's APIs to log in the user or already have user's token saved in your end, return:
 
 ```javascript
 <script>
@@ -92,7 +91,7 @@ window.parent.postMessage({
 </script>
 ```
 
-* If you have saved user's token connecting directly to Rocket.Chat's database on the user's field `services.iframe.token`:
+- If you have saved user's token connecting directly to Rocket.Chat's database on the user's field `services.iframe.token`:
 
 ```javascript
 <script>
@@ -213,7 +212,6 @@ Or an error
   error: error
 }
 ```
-
 
 ## How to login in Rocket.Chat with default account system while in development
 
