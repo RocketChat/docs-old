@@ -46,19 +46,12 @@
   - Manual Installation:
     - CentOS
     - Debian
-    - FreeBSD:
-      - Universal
-    - MacOSX
     - Multiple Instances to Improve Performance
     - Migrating Meteor Mongo
-    - OpenSUSE
     - RedHat
     - Ubuntu:
       - Snaps:
         - AutoSSL
-    - Windows 10 Pro
-    - Windows Server:
-      - Releases
     - Configuring SSL Reverse Proxy
     - PM2, Systemd, Upstart
     - Running in a sub folder
@@ -70,6 +63,12 @@
   - Updating:
     - From 0.x.x to 0.40.0
   - Minimum Requirements
+  - Community Supported Installation:
+    - FreeBSD:
+      - Universal
+    - Windows 10 Pro
+    - Windows Server
+    - OpenSUSE
 - User guides:
   - Connecting to a Server
   - Registration
@@ -150,13 +149,16 @@
     - Code Styleguide:
       - less
     - Deeplink
+    - Deprecation
     - Iframe Integration:
       - Authentication
       - Commands
       - Events
+    - Embedded Layout
     - Internationalization
     - Livechat API
-    - Mobile Apps
+    - Mobile Apps:
+      - Supporting SSL
     - Realtime-API:
       - Method Calls:
         - Login
@@ -215,7 +217,6 @@
         - addModerator
         - addOwner
         - archive
-        - cleanHistory
         - close
         - create
         - files
@@ -246,6 +247,7 @@
         - pinMessage
         - postMessage
         - react
+        - reportMessage
         - search
         - starMessage
         - sendMessage
@@ -301,21 +303,24 @@
         - sms-incoming
         - users
       - Miscellaneous:
+        - directory
         - info
-        - settings.oauth
+        - spotlight
         - statistics
         - statistics.list
       - Rooms:
+        - cleanHistory
+        - favorite
         - get
         - saveNotification
         - upload
       - Settings:
         - get
         - get-by-id
+        - oauth
         - public
         - service-configuration
         - update
-      - Spotlight
       - Subscriptions:
         - get
         - getOne
@@ -323,6 +328,7 @@
         - create
         - createToken
         - delete
+        - forgotPassword
         - getAvatar
         - getPresence
         - get-preferences

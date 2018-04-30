@@ -11,7 +11,32 @@ redirect_from:
 
 ## How to apply
 
-UPDATE April 2, 2018 -  2018 is an incredible GSoC year for us, we have received a total of NINETY THREE proposals from students studying at every corner of the globe - Brazil, Turkey, USA, Armenia, India, China, Singapore, Hong Kong and more. Thank you, GSoC students, for  the overwhelming interest on our project.   Proposal topics covered almost all of the suggestions on our idea list - and even a few original ones.  Our TWENTY THREEE Rocket.Chat core, guest, and community mentors are hard-at-work right now going through every one of the proposals, and will be contacting students for a video chat prior to deciding on proposal selection and slot assignments.  Please keep in touch with us and continue to contribute to the Rocket.Chat project during this time.
+Application has closed for the GSoC 2018 season.
+
+UPDATE April 25, 2018 -  The list of [official GSoC 2018 accepted students and projects](https://summerofcode.withgoogle.com/organizations/6355544806260736/) is now available. First, we would like to sincerely thank every student who has submitted a proposal and many who had worked on PR and assisted in our open source community - please continue the excellent work. Of the 93 proposals we received, there were many high quality ones. We have also interacted with many of the students in the prior month.  Decision was difficult and mentors were competitive this year.  Ultimately, EIGHT of the top students/proposals this year are accepted for GSoC 2018 (thank you, Google!):
+
+|Student|Project|Mentors|
+|-------|-------|-------|
+|Mikael Mello|Improve the integration of bots on Rocket.Chat|Tim Kinnane, Diego Dorgam, John Szaszvari|
+|Aniket Singh|Android and wear app|Fiipe Brito, Lucio Maciel|
+|Jose Renan|Rocket.Chat SDK for Javascript Clients|Karl Prieb|
+|Semih Serhat Karakaya|Nextcloud as Storage and User File Provider|Guilherme Gazzo, Bjoern Schiessle, John Szaszvari|
+|Karan Bedi|Rocket.Chat Global Search|Rodrigo Nascimento, Pierre Lehnen|
+|Nikhil Kaushik|Integration with Google Drive and Dropbox|Marcelo Schmidt, Martin Schoeler|
+|Samar Sunkaria|Support for theming the Rocket.Chat iOS app|Matheus Cardoso, Filipe Alvarenga|
+|De Sheng Chuan|Data integrity and consistency|Diego Sampaio, Rodrigo Nascimento, Sing Li|
+
+In addition, due to the sheer number of high quality entrants, Rocket.Chat has decided to sponsor THREE additional top students for this summer:
+
+|Student|Project|Mentors|
+|-------|-------|-------|
+|Pradeep Kumar|Livechat Reports and Analytics|Renato Becker|
+|Nitesh Saxena|Intgration with IPFS|Sing Li, Ankit Bhatia|
+|Arthur Temporim|Livechat Reports and Analytics|Diego Dorgam, John Szaszvari|
+
+All of the eleven students have been contacted by mentors and started the community bonding period.
+
+UPDATE April 2, 2018 -  2018 is an incredible GSoC year for us, we have received a total of NINETY THREE proposals from students studying at every corner of the globe - Brazil, Turkey, USA, Armenia, India, China, Singapore, Hong Kong and more. Thank you, GSoC students, for  the overwhelming interest on our project.   Proposal topics covered almost all of the suggestions on our idea list - and even a few original ones.  Our TWENTY FIVE Rocket.Chat core, guest, and community mentors are hard-at-work right now going through every one of the proposals, and will be contacting students for a video chat prior to deciding on proposal selection and slot assignments.  Please keep in touch with us and continue to contribute to the Rocket.Chat project during this time.
 
 UPDATE March 24, 2018 -  Students PLEASE NOTE that your final proposal is due on March 27th.  It must be in PDF format and submitted via the official GSoC Dashboard.  Your Rocket.Chat Core and Guest Industry mentors are looking forward to receive and review your final proposals.
 
@@ -151,7 +176,7 @@ Accepted student proposals announced
 
 Some projects that you can submit proposals for include:
 
-#### Decentralized Crpto Exchange in Rocket.Chat
+#### Decentralized Crypto Exchange in Rocket.Chat
 
 - **Description:** Starting either from scratch or utilizing one of the compatible license open source DEX code bases – create a functional Decentralized Exchange within Rocket.Chat.  You will create a DEX that takes advantage of strong cryptographic identity solutions such as Blockstack ID and wallet integration such as Metamask or ARK wallet in your work.
 

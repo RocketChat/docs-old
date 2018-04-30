@@ -21,7 +21,7 @@
 ```bash
 curl -H "Content-type:application/json" \
       http://localhost:3000/api/v1/login \
-      -d '{ "serviceName": "twitter", accessToken": "hash", accessTokenSecret: "hash",
+      -d '{ "serviceName": "twitter", "accessToken": "hash", accessTokenSecret: "hash",
       "appSecret": "hash", "appId": "hash", "expiresIn": 200}'
 ```
 
