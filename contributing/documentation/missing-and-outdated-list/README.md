@@ -18,10 +18,6 @@ In this article we explained how to start the end to end and unit tests in Rocke
 
 This style guide needs to be converted to CSS, since the base is almost the same.
 
-## Internal Hubot
-
-Instructions on how to use and develop hubot scripts are needed in this article.
-
 ## Permissions
 
 Not all permissions are listed on this articles, and some of the permissions listed there don't have a description.
