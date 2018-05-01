@@ -17,13 +17,13 @@ To contribute to features under development see our
 These are the basic steps to configuring a bot to work with Rocket.Chat.
 
 1. A bot user must be [created by an admin](creating-bot-users/) on the server
-1. The bot is run as [a separate process](bot-architecture) using your chosen framework or platform
+1. The bot is run as [a separate process](bots-architecture/) using your chosen framework or platform
     - Most bots require an adapter, which would use the [Rocket.Chat.js.SDK](https://github.com/RocketChat/Rocket.Chat.js.SDK)
     - Currently Rocket.Chat supports an [adapter](https://github.com/RocketChat/hubot-rocketchat) for [GitHub's Hubot Framework](https://hubot.github.com/)
     - We have adapters under development for [Botkit](https://botkit.ai/), [Rasa](https://rasa.com/) and [Botpress](https://botpress.io/)
 1. The bot environment must be pre-configured by [setting environment variables](configure-bot-environment/)
 1. You provide scripts to define the bot's behaviour according to the requirements of your framework
-    - e.g. See [Running a Hubot bot](running-hubot-bot/)
+    - e.g. See [Running a Hubot bot](running-a-hubot-bot/)
 
 ## Quick Links
 
