@@ -1,3 +1,5 @@
+# Bots Architecture
+
 ![Bots Architecture Diagram](./diagram.png){:style="width='100%' height='auto'"}
 
 The above diagram illustrates the relationship between a Rocket.Chat server

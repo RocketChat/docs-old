@@ -35,9 +35,9 @@ Environment Variable | Description
 `HUBOT_NAME`           | Name of the bot. Hubot listeners can respond to this.
 `HUBOT_ALIAS`          | Another name to respond to. If unset, the adapter sets the `ROCKETCHAT_USER` as an alias, to ensure bots respond when addressed using their username.
 `EXTERNAL_SCRIPTS`     | Hubot scripts to require as NPM modules. Used only in some Docker instances.
-`HUBOT_LOG_LEVEL`	     | `debug`, `info`, `warning` or `error`. Default `info`.
+`HUBOT_LOG_LEVEL`      | `debug`, `info`, `warning` or `error`. Default `info`.
 
-### Common configuration
+## Common configuration
 
 It is common to set up a bot to listen and respond to direct messages and all
 new public channels and private groups. Use the following options:
@@ -49,7 +49,7 @@ new public channels and private groups. Use the following options:
 Be aware you *must* add the bot's user as a member of the new private group(s)
 before it will respond.
 
-### Important notes
+## Important notes
 
 - `ROCKETCHAT_ROOM` should be set to empty (with `ROCKETCHAT_ROOM=''`) when using
   `LISTEN_ON_ALL_PUBLIC`. This option also allows the bot to listen and respond to
