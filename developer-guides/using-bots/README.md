@@ -1,24 +1,44 @@
-# Using Bots
+![Rocket.Chat Bots Banner](./banner.png){:style="width='100%' height='auto'"}
 
-## Configuring a bot to work with RocketChat
+Rocket.Chat supports multiple chatbot and messaging automation integrations,
+enabling chat-ops workflows with multi-channel, multi-user, public and private
+interactions.
 
-1. A bot user must first be [configured by an admin](creating-bot-users/) on the RC server.
-2. The bot is run as a seperate process, on any machine that can reach your RC server. Before running your bot, the environment must be pre-configured by [setting environment variables](configure-bot-environment/).
-3. Running the bot requires an ```adapter``` package and the adapter requires the [Rocket.Chat.js.SDK](https://github.com/RocketChat/Rocket.Chat.js.SDK).
-4. Currently RC supports only a hubot bot, with the [hubot-rocketchat adapter](https://github.com/RocketChat/hubot-rocketchat/tree/develop/), but new bot adapters are currently under development including ```botkit```, ```??```, ```??```....
-    - The ```hubot-rocketchat adapter``` can be run using either npm, yeoman generator, or docker. It requires the [Rocket.Chat.js.SDK](https://github.com/RocketChat/Rocket.Chat.js.SDK) and you will also need to provide scripts to your adapter which will describe the bots behavior.
-    - Newer bot adapters under development may also run more like managed services, hosted by third parties including botkit studio for example.  They will connect/subscribe to RC server by using a rocketchat-connector module in conjunction with the ```Rocket.Chat.js.SDK``` which will be run on the bot host.
-5. [Running a Hubot bot](running-hubot-bot/)
+Some Rocket.Chat server packages implement **internal** bots, such as the
+[SlackBridge](../../administrator-guides/import/slack/slackbridge/). That type
+of integration is not documented here. See the [Bots FAQ](bots-FAQ/) for more on
+that distinction.
 
-### Quick Links
+To contribute to features under development see our
+[Bots Project issues](https://github.com/RocketChat/Rocket.Chat/projects/16).
 
+## Getting Started
+
+These are the basic steps to configuring a bot to work with Rocket.Chat.
+
+1. A bot user must be [created by an admin](creating-bot-users/) on the server
+1. The bot is run as [a separate process](bot-architecture) using your chosen framework or platform
+    - Most bots require an adapter, which would use the [Rocket.Chat.js.SDK](https://github.com/RocketChat/Rocket.Chat.js.SDK)
+    - Currently Rocket.Chat supports an [adapter](https://github.com/RocketChat/hubot-rocketchat) for [GitHub's Hubot Framework](https://hubot.github.com/)
+    - We have adapters under development for [Botkit](https://botkit.ai/), [Rasa](https://rasa.com/) and [Botpress](https://botpress.io/)
+1. The bot environment must be pre-configured by [setting environment variables](configure-bot-environment/)
+1. You provide scripts to define the bot's behaviour according to the requirements of your framework
+    - e.g. See [Running a Hubot bot](running-hubot-bot/)
+
+## Quick Links
+
+- [Bots FAQ](bots-FAQ/)
+- [Bots Architecture](bots-architecture/)
 - [Creating Bot Users](creating-bot-users/)
-- [Configuring the Bot environment](configure-bot-environment/)
-- [Running a Hubot bot](running-hubot-bot/)
+- [Configuring the Bot Environment](configure-bot-environment/)
+- [Running a Hubot Bot](running-a-hubot-bot/)
 
-### References, configuration and implementation details
+## References
 
-- [Rocket.Chat.js.SDK](https://github.com/RocketChat/Rocket.Chat.js.SDK/)
-- [hubot-rocketchat-boilerplate](https://github.com/RocketChat/hubot-rocketchat-boilerplate/)
-- [hubot-rocketchat](https://github.com/RocketChat/hubot-rocketchat/tree/develop/)
-- [hubot](https://github.com/hubotio/hubot)
+Configuration and implementation details for components of the
+[Bots Architecture](bots-architecture/) can be found in their project READMEs:
+
+- [Rocket.Chat JS SDK](https://github.com/RocketChat/Rocket.Chat.js.SDK/)
+- [Hubot Rocket.Chat boilerplate](https://github.com/RocketChat/hubot-rocketchat-boilerplate/)
+- [Hubot Rocket.Chat adapter](https://github.com/RocketChat/hubot-rocketchat/tree/develop/)
+- [Hubot](https://github.com/hubotio/hubot)
