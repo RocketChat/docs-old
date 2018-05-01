@@ -15,7 +15,7 @@ We are building out support for multiple frameworks, including:
 
 Some Rocket.Chat server packages implement **internal** bots (e.g.
 [SlackBridge](../../administrator-guides/import/slack/slackbridge/)). That type
-of integration is not documented here. See the [Bots FAQ](bots-FAQ/) for more on
+of integration is not documented here. See the [Bots FAQ](bots-faq/) for more on
 that distinction.
 
 To contribute to features under development see our
@@ -33,7 +33,7 @@ These are the basic steps for using bots with Rocket.Chat.
 
 ## Quick Links
 
-- [Bots FAQ](bots-FAQ/)
+- [Bots FAQ](bots-faq/)
 - [Bots Architecture](bots-architecture/)
 - [Creating Bot Users](creating-bot-users/)
 - [Configuring the Bot Environment](configure-bot-environment/)
