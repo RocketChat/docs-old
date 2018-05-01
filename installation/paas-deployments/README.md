@@ -25,14 +25,6 @@ If you need full control of your deployment, here are some guides for specific e
 - [Sloppy.io](sloppy-io/)
 - [D2C.io](d2c-io)
 
-## Manual Installation
-
-- [CentOS](../../installation/manual-installation/centos/)
-- [Debian](../../installation/manual-installation/debian/)
-- [FreeBSD](../../installation/manual-installation/freebsd/)
-- [Ubuntu](../../installation/manual-installation/ubuntu/)
-- [Windows Server](../../installation/manual-installation/windows-server/)
-
 ## Automation Tools
 
 - [Ansible](../../installation/automation-tools/ansible/)

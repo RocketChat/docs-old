@@ -32,6 +32,16 @@ RocketChat(function() {
 });
 ```
 
+#### _Assign chats to a specific department_
+
+To automatically assign a Livechat widget to a specific department (for example, to use a unique Livechat widget on more than one website), use the following code:
+
+```javascript
+RocketChat(function() {
+    this.setDepartment('FILL HERE DEPARTMENT NAME - case sensitive');
+});
+```
+
 ### Events
 
 #### _onChatMaximized_

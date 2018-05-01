@@ -19,7 +19,7 @@
 ```bash
 curl -H "Content-type:application/json" \
       http://localhost:3000/api/v1/login \
-      -d '{ "serviceName": "facebook", accessToken": "hash",
+      -d '{ "serviceName": "facebook", "accessToken": "hash",
       "secret": "hash", "expiresIn": 200 }'
 ```
 
