@@ -2,7 +2,7 @@
 
 If you created a pull request and believe that it could change something already documented, use this template to create a draft for the documentation.
 
-Firstly to check if the feature you are working on is already documented, you can take a look in the documentation map (https://rocket.chat/docs/contributing/documentation/documentation-map/), that is a list with all the articles and their current status. Alternatively you can use the search bar on our documentation website (https://rocket.chat/docs/).
+Firstly to check if the feature you are working on is already documented, you can take a look in the documentation map (<https://rocket.chat/docs/contributing/documentation/documentation-map/>), that is a list with all the articles and their current status. Alternatively you can use the search bar on our documentation website (<https://rocket.chat/docs/>).
 
 To submit a draft, create a pull request(make sure you are doing from a branch in the repository) and tag it as 'draft', after that the documentation team will edit it to suit the documentation standard.
 
