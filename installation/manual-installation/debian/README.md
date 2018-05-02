@@ -30,8 +30,8 @@ curl -sL https://deb.nodesource.com/setup | sudo bash -
 # in the same way that you did above
 sudo apt-get install nodejs
 # In order for some npm packages to work (such as those that require building from source)
-# you will need to install the build-essentials package:
-sudo apt-get install build-essential
+# you will need to install the build-essentials and python-dev packages:
+sudo apt-get install build-essential python-dev
 # for more please view the link below.
 
 
@@ -46,4 +46,4 @@ More on [nodejs installation](https://www.digitalocean.com/community/tutorials/h
 
 ## 2. Install Rocket.Chat
 
-From here you can follow [the documentation for Ubuntu install, from step 2](../../../installation/manual-installation/ubuntu/#2-install-rocketchat)
+From here you can follow [the documentation for Ubuntu install, from step 2](../../../installation/manual-installation/ubuntu/index.html#install)

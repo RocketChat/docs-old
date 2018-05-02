@@ -22,7 +22,7 @@
   <!-- Senna is included here so it is loaded before the page loads. -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="canonical" href="{{site.url}}{{page.url}}">
   <link rel="shortcut icon" href="/favicon.ico?v=1"/>
 </head>
 
@@ -37,10 +37,6 @@
         <img src="{{ site.url }}/images/default/icon.svg" alt="Rocket.Chat">
       </a>
       <div class="header-items">
-        <div class="search">
-          <svg class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.71424961090088" height="32" viewBox="0 0 29.71424961090088 32" data-code="61442" data-tags="search"><g fill="#fff" transform="scale(0.03125 0.03125)"><path d="M658.286 475.429q0-105.714-75.143-180.857t-180.857-75.143-180.857 75.143-75.143 180.857 75.143 180.857 180.857 75.143 180.857-75.143 75.143-180.857zM950.857 950.857q0 29.714-21.714 51.429t-51.429 21.714q-30.857 0-51.429-21.714l-196-195.429q-102.286 70.857-228 70.857-81.714 0-156.286-31.714t-128.571-85.714-85.714-128.571-31.714-156.286 31.714-156.286 85.714-128.571 128.571-85.714 156.286-31.714 156.286 31.714 128.571 85.714 85.714 128.571 31.714 156.286q0 125.714-70.857 228l196 196q21.143 21.143 21.143 51.429z" /></g></svg>
-          <input type="text" id="search" placeholder="Search">
-        </div>
         <ul>
           <li><a href="https://rocket.chat/download">Download</a></li>
           <li><a href="https://rocket.chat/cloud">Cloud</a></li>
@@ -52,16 +48,22 @@
       </div>
     </div>
   </header>
-  <main>
+
+
+  <main style="margin-top: 0">
+    <div class="search-wrapper">
+      <h1 class="title">Rocket.Chat Documentation</h1>
+      <p class="description">Welcome to Rocket.Chat! Get familiar with Rocket.Chat and explore our features:</p>
+
+      <div class="search home">
+        <svg class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.71424961090088" height="32" viewBox="0 0 29.71424961090088 32" data-code="61442" data-tags="search"><g fill="#fff" transform="scale(0.03125 0.03125)"><path d="M658.286 475.429q0-105.714-75.143-180.857t-180.857-75.143-180.857 75.143-75.143 180.857 75.143 180.857 180.857 75.143 180.857-75.143 75.143-180.857zM950.857 950.857q0 29.714-21.714 51.429t-51.429 21.714q-30.857 0-51.429-21.714l-196-195.429q-102.286 70.857-228 70.857-81.714 0-156.286-31.714t-128.571-85.714-85.714-128.571-31.714-156.286 31.714-156.286 85.714-128.571 128.571-85.714 156.286-31.714 156.286 31.714 128.571 85.714 85.714 128.571 31.714 156.286q0 125.714-70.857 228l196 196q21.143 21.143 21.143 51.429z" /></g></svg>
+        <input type="text" class="search" id="search" placeholder="Search">
+      </div>
+    </div>
     <div class="wrapper home">
       {% include projects.html projects=site.data.projects %}
-      <div class="content-home">
-        {{ content }}
-      </div>
-      <div class="edit-github"><a href="https://github.com/RocketChat/docs/blob/master{{page.url}}README.md">Edit this page on GitHub</a></div>
     </div>
   </main>
-
 
   {% include footer.html %}
 

@@ -1,37 +1,31 @@
-# Settings Get
+# Private Settings Get
 
-Gets the setting for the provided `_id`.
+List all private settings.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/settings/:_id` | `yes` | `GET` |
-
-## Payload
-
-| Argument | Example | Required | Description |
-| :--- | :--- | :--- | :--- |
-| `_id` | `Livechat_enabled` | Required | The setting's `_id` field |
+| `/api/v1/settings` | `yes` | `GET` |
 
 ## Example Call
 
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
-     http://localhost:3000/api/v1/settings/Livechat_enabled
+     http://localhost:3000/api/v1/settings
 ```
 
 ## Example Result
 
 ```json
 {
-  "_id": "Livechat_enabled",
-  "value": false,
+  "settings": [
+          { "_id": "API_Allow_Infinite_Count", "value": true },
+          { "_id": "API_CORS_Origin", "value": "*" }
+  ],
+  "count": 50,
+  "offset": 0,
+  "total": 299,
   "success": true
 }
 ```
 
-## Change Log
-
-| Version | Description |
-| :--- | :--- |
-| 0.42.0 | Added |

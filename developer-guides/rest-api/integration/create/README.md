@@ -13,6 +13,7 @@ Creates an integration, if the callee has the permission.
 | `type` | `webhook-outgoing` | Required | The type of integration to create, currently only `webhook-outgoing` is supported. |
 | `name` | `Guggy` | Required | The name of the integration, only is show on the Administration area. |
 | `enabled` | `true` | Required | Whether this integration should be enabled or not. |
+| `event` | `sendMessage` | Required | This field is required only for outgoing integration. The type of event, can be any of these: `sendMessage`, `fileUploaded`, `roomArchived`, `roomCreated`, `roomJoined`, `roomLeft`, `userCreated`. |
 | `username` | `rocket.cat` | Required | The username who to post this the messages as. |
 | `urls` | `['http://text2gif.guggy.com/guggify']` | Required | The urls to call whenever this integration is triggered. |
 | `scriptEnabled` | `false` | Required | Whether the script should be enabled. |
@@ -31,7 +32,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type: application/json" \
      http://localhost:3000/api/v1/integrations.create \
-     -d '{ "type": "webhook-outgoing", "name": "Testing via REST API", "enabled": false, "username": "rocket.cat", "urls": ["http://text2gif.guggy.com/guggify"], "scriptEnabled": false }'
+     -d '{ "type": "webhook-outgoing", "name": "Testing via REST API", "event": "sendMessage", enabled": false, "username": "rocket.cat", "urls": ["http://text2gif.guggy.com/guggify"], "scriptEnabled": false }'
 ```
 
 ## Example Result
@@ -43,6 +44,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
         "name": "Testing via REST API",
         "enabled": false,
         "username": "rocket.cat",
+        "event": "sendMessage",
         "urls": [
             "http://text2gif.guggy.com/guggify"
         ],

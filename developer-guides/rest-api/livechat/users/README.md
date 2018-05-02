@@ -44,7 +44,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | :--- | :--- |
 | 0.42.0 | Added |
 
-# Register new agent or manager
+## Register new agent or manager
 
 Register a new agent or manager.
 
@@ -95,7 +95,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | :--- | :--- |
 | 0.42.0 | Added |
 
-# Get info about an agent or manager
+## Get info about an agent or manager
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -134,7 +134,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | :--- | :--- |
 | 0.42.0 | Added |
 
-# Removes an agent or manager
+## Removes an agent or manager
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

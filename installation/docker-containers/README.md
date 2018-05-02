@@ -12,18 +12,18 @@ This guide is designed for everyone, however, it is intentionally detailed to he
 
 ## What we'll cover in this guide
 
-1. [Securing the server: Firewall basics (optional)](#1-securing-the-server-firewall-basics-optional-recommended-)
-2. [Securing the server: Fail2Ban IDS (optional)](#2-securing-the-server-fail2ban-optional-recommended-)
-3. [Installing Docker and Docker-Compose](#3-installing-docker-and-docker-compose)
-4. [Editing the hosts file](#4-editing-the-hosts-file)
-5. [Installing Nginx SSL Reverse Proxy](#5-installing-nginx-ssl-certificate)
-6. [Creating docker-compose.yml](#6-create-the-docker-compose-yml-file-local-directories)
-7. [Automatic start-up, and crash recovery](#7-automatic-startup-crash-recovery)
-8. [Reboot & Status check](#8-reboot-and-status-check)
-9. [Registering & Configuring Hubot, the chat robot](#9-registering-configuring-hubot-the-chat-robot)
-10. [FAQ & Troubleshooting](#10-troubleshooting-faq)
-11. [TODO](#11-todo-)
-12. [Known Issues](#12-known-issues-)
+1. [Securing the server: Firewall basics (optional)](index.html#1-securing-the-server-firewall-basics-optional-recommended)
+2. [Securing the server: Fail2Ban IDS (optional)](index.html#2-securing-the-server-fail2ban-optional-recommended)
+3. [Installing Docker and Docker-Compose](index.html#3-installing-docker-and-docker-compose)
+4. [Editing the hosts file](index.html#4-editing-the-hosts-file)
+5. [Installing Nginx SSL Reverse Proxy](index.html#5-installing-nginx--ssl-certificate)
+6. [Creating docker-compose.yml](index.html#6-create-the-docker-composeyml-file--local-directories)
+7. [Automatic start-up, and crash recovery](index.html#7-automatic-startup--crash-recovery)
+8. [Reboot & Status check](index.html#8-reboot-and-status-check)
+9. [Registering & Configuring Hubot, the chat robot](index.html#9-registering--configuring-hubot-the-chat-robot)
+10. [FAQ & Troubleshooting](index.html#10-troubleshooting--faq)
+11. [TODO](index.html#11-todo)
+12. [Known Issues](index.html#12-known-issues)
 
 ## Prerequisites
 
@@ -31,9 +31,8 @@ This guide is written assuming that you're starting with:
 
 - a clean new installation of Ubuntu 14.04 (64 bit)
 - properly configured DNS that resolves requests to your domain name
-- b
 
----
+- - -
 
 ## 1. Securing the server: Firewall basics (optional, recommended)
 
@@ -85,7 +84,7 @@ sudo ufw reload
 sudo ufw disable
 ```
 
----
+- - -
 
 ## 2. Securing the server: Fail2ban (optional, recommended)
 
@@ -99,9 +98,9 @@ sudo apt-get update
 sudo apt-get install fail2ban
 ```
 
-Pre
+Press **Y** when prompted to proceed with the install.
 
----
+- - -
 
 ## 3. Installing Docker and Docker-Compose
 
@@ -128,7 +127,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo docker-compose --version
 ```
 
----
+- - -
 
 ## 4. Editing the hosts file
 
@@ -145,9 +144,9 @@ sudo nano /etc/hosts
 127.0.0.1    chat.inumio.com          chat
 ```
 
-Sav
+Save and Exit. (Press **CTRL-X** to save, **Y** for yes, then **ENTER** to save as current filename.)
 
----
+- - -
 
 ## 5. Installing Nginx & SSL certificate
 
@@ -181,9 +180,9 @@ sudo nano /etc/nginx/certificate.crt
 
 Open the SSL Certificate provided by the SSL vendor (will probably have a .crt or .pem extension) and copy the entire text-block. Right click on the terminal window and select paste to paste it into nano.
 
-Sav
+Save and Exit.
 
----
+- - -
 
 ### 5b. Self-Signed SSL
 
@@ -199,9 +198,9 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/cert
 
 Tip: It is important that the Common Name be set properly. Enter your fully qualified domain name (FQDN) here or, if you don’t have FQDN, use your public IP address. For example, my FQDN for the chat server is `chat.inumio.com`
 
-Sav
+Save and Exit.
 
----
+- - -
 
 ### 5c. Set Key Permissions, Dhparams, Configure NGINX
 
@@ -274,7 +273,7 @@ sudo service nginx configtest && sudo service nginx restart
 sudo nginx -t
 ```
 
----
+- - -
 
 ## 6. Create the docker-compose.yml file & local directories
 
@@ -331,9 +330,9 @@ hubot:
 - Edit ROCKETCHAT_USER, ROCKETCHAT_PASSWORD, and BOT_NAME.
 - If your Rocket.Chat docker instance is behind a proxy, set the additional env-variable "Accounts_UseDNSDomainCheck" to "false" (this only works, if these is a completely new deployment)
 
-Sav
+Save and Exit.
 
----
+- - -
 
 ## 7. Automatic Startup & Crash Recovery
 
@@ -391,9 +390,9 @@ script
 end script
 ```
 
-Sav
+Save and Exit.
 
----
+- - -
 
 ## 8. Reboot and Status check
 
@@ -413,7 +412,9 @@ sudo reboot
 sudo docker ps -a
 ```
 
+```
 [![docker ps -a](https://www.imageforge.us/images/c90bd55a7b357c20b18815a5560f43f3.png)](https://www.imageforge.us/image/60kNT)
+```
 
 As you can see, our three docker containers are up and running: Rocket Chat, MongoDB, and Hubot. NOTE: You may see only one, or none at all if the downloads are still in progress. Be patient, and check it periodically.
 Eventually, it should look similar to our sample screenshot. If it does, congratulations, you did it! GREAT JOB!
@@ -448,9 +449,9 @@ By default, the first account to register on Rocket Chat becomes the admin, so i
 
 _Great! I'm in, but the bot is nowhere to be seen!_
 
-No
+No worries! In order to get your bot up and running, we must register it…
 
----
+- - -
 
 ## 9. Registering & Configuring Hubot, the chat robot
 
@@ -468,9 +469,9 @@ Once you're logged in with the new bot account, you can go ahead and set some of
 
 With the bot account registered, you can force it to join by simply rebooting the server, upon which the init script should automatically launch your chat room, and the bot should join the “General” room.
 
-For
+For basic command help, in the chat message box, type BOTNAME help (where BOTNAME is your bot's name).
 
----
+- - -
 
 ## 10. Troubleshooting & FAQ
 
@@ -505,9 +506,9 @@ sudo ufw status
 ```
 
 **Check your SSL installation**
-<ht
+<https://www.digicert.com/help/>
 
----
+- - -
 
 **PROBLEM:**
 _I rebooted and waited forever for docker to download everything and start the chat room. NOTHING happened. It's like it didn't even try!_
@@ -538,9 +539,9 @@ cd /var/www/rocket.chat
 /usr/local/bin/docker-compose up
 ```
 
-If
+If docker-compose doesn't throw an error, and instead launches the job, then the problem is possibly in the upstart script.
 
----
+- - -
 
 **PROBLEM:**
 _When I upload a file the server crashes!_
@@ -552,15 +553,15 @@ If you're running low on system resources, such as RAM, this can cause problems 
 sudo TOP
 ```
 
-Wit
+With TOP running, try to replicate the problem while watching TOP for high loads, overloaded CPU, etc.  While Rocketchat can be run on a single core with 512MB of memory, that's really not enough for stable performance. If you're seeing high values in TOP, consider upgrading your server to at least 1GB or RAM, or more.
 
----
+- - -
 
 ## 11. TODO
 
-- A
+- Add section for updating & backing up
 
----
+- - -
 
 ## 12. KNOWN ISSUES
 

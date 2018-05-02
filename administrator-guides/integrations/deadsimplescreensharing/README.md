@@ -20,8 +20,6 @@ Create a Dead Simple Screen Sharing Meeting to do Screen Sharing and audio/video
 
    ![Dead Simple Screen Sharing rocket chat config](https://www.deadsimplescreensharing.com/wp-content/uploads/2018/01/Screen-Shot-2018-01-12-at-7.37.15-PM-1024x839.png)
 
-
-
 That's it! we have integrated "Dead Simple Screen Sharing", now when chatting we just have to send the message `screenshare` and a Dead Simple Screen Sharing meeting will be created, and you and your team members can visit the meeting link and perform screen sharing and audio-conferencing.
 
 ![Dead Simple Screen Sharing Rocket.chat integartion](https://www.deadsimplescreensharing.com/wp-content/uploads/2018/01/Screen-Shot-2018-01-12-at-7.40.07-PM-1024x453.png)

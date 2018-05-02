@@ -1,18 +1,20 @@
 # Mobile and Desktop Apps
 
-## Windows, macOS and Linux Software
+You can find a variety of client apps to use with a Rocket.Chat server, apart from using a browser.
 
-You can download the Windows, macOS and Linux client software here:
+## Desktop Apps
+
+Here you can find the Electron based Desktop Apps:
 
 ### Windows
 
-Can be found [here](https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/2.7.0/rocketchat-desktop-setup-2.7.0.exe)
+Can be found [here](https://rocket.chat/download)
 
 ### macOS
 
 Can be found in the App Store [here](https://itunes.apple.com/app/rocket.chat/id1086818840)
 
-It can also be downloaded [here](https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/2.7.0/rocketchat-desktop-2.7.0.dmg)
+It can also be downloaded [here](https://github.com/RocketChat/Rocket.Chat.Electron)
 
 ### Linux
 
@@ -28,31 +30,71 @@ Snaps are also available on other platforms. More information available [here](h
 
 Alternatively you can download and manually install:
 
-[Debian amd64](https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/2.7.0/rocketchat-desktop_2.7.0_amd64.deb)
+You can find the download for the latest releases [here](https://github.com/RocketChat/Rocket.Chat.Electron/releases)
 
-[Debian i386](https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/2.7.0/rocketchat-desktop_2.7.0_i386.deb)
+## Mobile Apps
 
-[Fedora amd64](https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/2.7.0/rocketchat-desktop-2.7.0.rpm)
+You can find 3 kinds of mobile apps:
 
-## iOS App
+- **Native apps:** The Native apps of their respective platform. They are faster than the hybrid apps.
 
-The app for iOS (iPhone, iPad, iPod touch) can be found on the App Store. Just search for `Rocket.Chat`
+- **React Native:** Experimental apps using the _React Native_ technology. They are faster than the hybrid apps.
 
-[![Rocket.Chat on App Store](http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg)](https://itunes.apple.com/us/app/rocket.chat/id1028869439?mt=8)
+- **Hybrid (cordova) Apps:** These are slower hybrid apps, they are basically a wrapper for the webpage with some extra features.
 
-## Android App
+- - -
 
-The app for Android can be found on Google Play. Just search for `Rocket.Chat`
+### Native iOS App (Rocket.Chat+)
 
-[![Rocket.Chat on Google Play](https://camo.githubusercontent.com/4cd0ed80662cc51c4203e457fdc3358d0df2e73e/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f352f35382f476f6f676c655f506c61795f6c6f676f5f323031352e504e472f32323070782d476f6f676c655f506c61795f6c6f676f5f323031352e504e47)](https://play.google.com/store/apps/details?id=com.konecty.rocket.chat)
+The app for iOS (iPhone, iPad, iPod touch) can be found on the App Store. Just search for `Rocket.Chat+`
 
-### Android and iOS Mobile users
+[Rocket.Chat+ on App Store](https://itunes.apple.com/us/app/rocket-chat/id1148741252?mt=8)
 
-Enter the URL to your Rocket.Chat server (e.g. <https://open.rocket.chat>) to initialize the app. This needs to be done the first time you run the app after installation.
+### Native Android App (Rocket.Chat Beta)
 
-Use two-fingers swipe up gesture to add more servers if you need to access multiple servers from one client.
+The app for Android can be found on Google Play. Just search for `Rocket.Chat Beta`
 
-### Android and iOS Mobile Users running Rocket.Chat server on a Sandstorm Grain
+[Rocket.Chat Beta on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.android)
+
+- - -
+
+### React Native Android App
+
+The experimental app for Android can be found on Google Play. Just search for `Rocket.Chat Experimental`
+
+[![Rocket.Chat Experimental on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)
+
+### React Native iOS App
+
+Currently you can only access the react native app in Apple's [TestFlight](https://developer.apple.com/testflight/). If you are interested in testing this app please send an email to `testflight@rocket.chat` with your email to be used on TestFilght.
+
+- - -
+
+### Hybrid iOS App (Cordova)
+
+The app for iOS (iPhone, iPad, iPod touch) can be found on the App Store. Just search for `Rocket.Chat Legacy`
+
+_Note: this app is in legacy, so we advise on using the other apps on this list._
+
+[Rocket.Chat on App Store](https://itunes.apple.com/us/app/rocket.chat/id1028869439?mt=8)
+
+### Hybrid Android App (Cordova)
+
+The app for Android can be found on Google Play. Just search for `Rocket.Chat Legacy`
+
+_Note: this app is in legacy, so we advise on using the other apps on this list._
+
+[Rocket.Chat on Google Play](https://play.google.com/store/apps/details?id=com.konecty.rocket.chat)
+
+- - -
+
+### Adding servers to Android and iOS mobile clients
+
+When using most of the apps, you will be prompted to add the server to be used on the app. Enter the URL to your Rocket.Chat server (e.g. <https://open.rocket.chat>) to initialize the app.
+
+### Android and iOS Legacy Users running Rocket.Chat server on a Sandstorm Grain
+
+_Note: this guide is for the legacy (cordova) app. It might not be up to date._
 
 1. On your phone in a browser open Sandstorm and open the Rocket.Chat grain.
 2. Open the hamburger menu (upper-left) and choose "Get Webkey". (On the desktop view, you would click the key icon in the topbar.)
@@ -61,29 +103,3 @@ Use two-fingers swipe up gesture to add more servers if you need to access multi
 5. Open the rocket.chat app.
 6. Paste in the copied URL (the whole thing!) as your Rocket.Chat server address.
 7. That's it! No password is needed, since an authorization token is encoded into the URL.
-
-## Native Firefox OS App
-
-![Rocket.Chat on Firefox OS](https://raw.githubusercontent.com/Sing-Li/bbug/master/images/firefoxos.png)
-
-### Users
-
-*Note: This works also works on Firefox for Android and the desktop browser.*
-
-Point the browser on the Firefox OS device to your Rocket.Chat URL (e.g. <https://open.rocket.chat> ), then add ```/fxos``` (e.g. <https://open.rocket.chat/fxos>) and press OK/enter. You will be prompted to install the app.
-
-### Developers
-
-1. Make sure you have ```adb``` (android debug bridge) installed on your PC
-2. Enable developer mode on the mobile device
-3. Start your Firefox browser on the PC and connect your device
-4. Enter the Firefox WebIDE (Shift + F8 or go to Extras -> Web Developer -> WebIDE)
-5. "Project" -> "Open hosted app"
-6. Enter the path to the Rocket.Chat manifest.webapp **on your server**, e.g. <https://open.rocket.chat/manifest.webapp> - then press OK
-7. You should now see the icon and description inside WebIDE. Press the play button on top to install it on your device
-
-### Admins
-
-Do you want to use a custom URL to your Rocket.Chat, or maybe a custom icon and description?
-Just edit the **manifest.webapp** file in the **/public** folder of the meteor project.
-For more info, have a look at the [Firefox OS documentation](https://developer.mozilla.org/en-US/Apps/Build/Manifest).

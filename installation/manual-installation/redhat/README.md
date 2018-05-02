@@ -1,7 +1,5 @@
 # Installing Rocket.Chat on Redhat
 
-More information coming soon
+Rocket.Chat has published a Certified Container Image with Redhat's Ceritifed Container Registry.
 
-## Using RedHat Certified Docker Images
-
-More information coming soon
+You can get started by reading [Rocket.Chat Tehnical Implementation Guide for our Certified Container](https://rocket.chat/docs/installation/manual-installation/redhat/Rocket.Chat%20Technical%20Implementation%20Guide%20v.20180316.pdf)

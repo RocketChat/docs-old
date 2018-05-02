@@ -1,13 +1,17 @@
 # Star Message
+
 Starring messages allows a user to quickly save for future reference, or something similiar, for their own personal usage.
 
 ## Requirements
-| Logged In | Permission | Setting |
-| --- | --- | --- |
-| Yes | _none_ | `Message_AllowStarring` - "Allow Message Starring" |
+
+| Logged In | Permission | Setting                                            |
+| --------- | ---------- | -------------------------------------------------- |
+| Yes       | _none_     | `Message_AllowStarring` - "Allow Message Starring" |
 
 ## Example Call
+
 The only parameter that needs to be passed in is an object with the `_id`, `rid`, and `starred` properties. The `starred` property is a boolean and it determines whether the user is starring the message or removing the star from the message.
+
 ```json
 {
     "msg": "method",
@@ -22,6 +26,7 @@ The only parameter that needs to be passed in is an object with the `_id`, `rid`
 ```
 
 ## Example Response
+
 ```json
 {
     "msg": "result",
@@ -31,6 +36,7 @@ The only parameter that needs to be passed in is an object with the `_id`, `rid`
 ```
 
 ## See Also:
-* [Starring Messages User Guide][1]
 
-[1]:../../../../user-guides/starring-messages/
+- [Starring Messages User Guide][1]
+
+[1]: ../../../../user-guides/messaging/

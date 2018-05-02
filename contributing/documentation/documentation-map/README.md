@@ -62,35 +62,38 @@ Here you can also find what articles are incomplete and missing.
     - Docker containers:
         - Generic Linux
         - systemd
+        - High Availability Install
         - Available Images
         - Docker Compose
     - Manual Installation:
         - CentOS
         - Debian
-        - FreeBSD:
-        - Universal
         - MacOSX
         - Multiple Instances to Improve Performance
+        - Migrating Meteor Mongo
         - OpenSUSE
-        - <span class="incomplete">[RedHat](../missing-and-outdated-list/#RedHat)</span>
-
+        - <span class="incomplete">[RedHat](../missing-and-outdated-list/index.html#redhat)</span>
         - Ubuntu:
             - Snaps:
                 - AutoSSl
-        - Windows 10 Pro
-        - Windows Server:
-            - <span class="incomplete">[Releases](../missing-and-outdated-list/#Releases)</span>
         - Configuring SSL Reverse Proxy
         - PM2, Systemd, Upstart
         - Running in a sub folder
+
     - Automation tools:
         - Ansible
         - Openshift
         - Vagrant
     - Mobile and Desktop Apps
-    - <span class="incomplete">[Updating](../missing-and-outdated-list/#Updating)</span>
+    - <span class="incomplete">[Updating](../missing-and-outdated-list/index.html#updating)</span>
         - From 0.x.x to 0.40.0
     - Minimum Requirements
+    - Community Supported Install:
+        - FreeBSD
+            - Universal
+        - Windows 10 Pro
+        - Windows Server:
+
 - User guides:
     - Connecting to a Server
     - Registration
@@ -99,20 +102,27 @@ Here you can also find what articles are incomplete and missing.
     - Messaging
     - Channel Actions
     - Managing your Account
-    - <span class="incomplete">[Voice and Video Calls](../missing-and-outdated-list/#Voice and Video Calls)</span>
-    - <span class="missing">[ScreenSharing](../missing-and-outdated-list/#ScreenSharing)</span>
+    - <span class="incomplete">[Voice and Video Calls](../missing-and-outdated-list/index.html#voice-and-video-calls)</span>
+    - <span class="missing">[ScreenSharing](../missing-and-outdated-list/index.html#screensharing)</span>
 - Administrator guides:
     - Account Settings
-    - <span class="missing">[Analytics](../missing-and-outdated-list/#Analytics)</span>
+    - <span class="missing">[Analytics](../missing-and-outdated-list/index.html#analytics)</span>
+    - <span class="missing">[Auto Translation](../missing-and-outdated-list/index.html#auto-translation)</span>
     - Authentication:
         - CAS
         - Ldap
-        - <span class="incomplete">[Oauth](../missing-and-outdated-list/#Oauth)</span>
+        - <span class="incomplete">[Oauth](../missing-and-outdated-list/index.html#oauth)</span>
         - SAML
-        - <span class="missing">[WordPress](../missing-and-outdated-list/#WordPress)</span>
-    - <span class="missing">[Customizing the UI](../missing-and-outdated-list/#Customizing the UI)</span>:
-        - <span class="missing">[Layout](../missing-and-outdated-list/#Layout)</span>
-        - <span class="missing">[Assets](../missing-and-outdated-list/#Assets)</span>
+        - <span class="missing">[WordPress](../missing-and-outdated-list/index.html#WordPress)</span>
+        - <span class="missing">[Custom Oauth](../missing-and-outdated-list/index.html#custom-oauth)</span>
+        - <span class="missing">[Using Rocket.Chat as an Oauth provider](../missing-and-outdated-list/index.html#using-rocketchat-as-an-oauth-provider)</span>
+        - <span class="missing">[oauth2 o365](../missing-and-outdated-list/index.html#oauth2-o365)</span>
+    - <span class="missing">[Customizing the UI](../missing-and-outdated-list/index.html#Customizing-the-UI)</span>:
+        - <span class="missing">[Layout](../missing-and-outdated-list/index.html#Layout)</span>
+        - <span class="missing">[Assets](../missing-and-outdated-list/index.html#Assets)</span>
+    - <span class="missing">[Custom Emoji](../missing-and-outdated-list/index.html#adding-custom-emoji)</span>
+    - <span class="missing">[Custom Fields](../missing-and-outdated-list/index.html#custom-fields)</span>
+    - <span class="missing">[Custom Sounds](../missing-and-outdated-list/index.html#adding-custom-sounds)</span>
     - Database-Migration
     - Email:
         - Setup
@@ -122,16 +132,16 @@ Here you can also find what articles are incomplete and missing.
     - File Upload:
         - Amazon S3
         - Minio
-        - <span class="missing">[GridFS](../missing-and-outdated-list/#GridFS)</span>
-        - <span class="missing">[Local File System](../missing-and-outdated-list/#Local File System)</span>
-    - <span class="missing">[General Settings](../missing-and-outdated-list/#General Settings)</span>
-        - <span class="missing">[General Section](../missing-and-outdated-list/#General Section)</span>
-        - <span class="missing">[Message Section](../missing-and-outdated-list/#Message Section)</span>
+        - <span class="missing">[GridFS](../missing-and-outdated-list/index.html#GridFS)</span>
+        - <span class="missing">[Local File System](../missing-and-outdated-list/index.html#Local-File-System)</span>
+    - <span class="missing">[General Settings](../missing-and-outdated-list/index.html#General-Settings)</span>
+        - <span class="missing">[General Section](../missing-and-outdated-list/index.html#General-Section)</span>
+        - <span class="missing">[Message Section](../missing-and-outdated-list/index.html#Message-Section)</span>
     - Hubot
     - Import:
         - CSV
         - HipChat:
-            - <span class="incomplete">[Cloud](../missing-and-outdated-list/#Cloud)</span>
+            - <span class="incomplete">[Cloud](../missing-and-outdated-list/index.html#hipchat-cloud)</span>
             - Enterprise
         - Slack:
             - SlackBridge
@@ -160,29 +170,34 @@ Here you can also find what articles are incomplete and missing.
         - Travis CI
         - Trello
         - uptimerobot
-    - <span class="missing">[Internal Hubot](../missing-and-outdated-list/#Internal Hubot)</span>
     - Jitsi Video Bridge
     - Livechat:
         - Livechat Queues
     - Notifications:
         - Push Notifications
-    - <span class="incomplete">[Permissions](../missing-and-outdated-list/#Permissions)</span>
+    - <span class="incomplete">[Permissions](../missing-and-outdated-list/index.html#Permissions)</span>
     - Plug-ins:
         - Drupal
         - Pidgin
     - Create the First Admin
+    - Restoring an Admin
+    - Settings Via Env Vars
 - Developer guides:
     - Quick Start
     - Branches and Releases
     - Code Styleguide:
-        - <span class="incomplete">[Less](../missing-and-outdated-list/#Less)</span>
+        - <span class="incomplete">[Less](../missing-and-outdated-list/index.html#Less)</span>
+    - Deeplink
+    - Deprecation
     - Iframe Integration:
-        - <span class="missing">[Authentication](../missing-and-outdated-list/#Authentication)</span>
+        - <span class="missing">[Authentication](../missing-and-outdated-list/index.html#Authentication)</span>
         - Commands
         - Events
-    - <span class="missing">[Internationalization](../missing-and-outdated-list/#Internationalization)</span>
+    - Embedded Layout
+    - <span class="missing">[Internationalization](../missing-and-outdated-list/index.html#Internationalization)</span>
     - Livechat API
     - Mobile Apps
+        - Supporting SSL
     - Realtime-API:
         - Method Calls:
             - Login
@@ -198,6 +213,7 @@ Here you can also find what articles are incomplete and missing.
             - Get Permissions
             - User Presence
             - Notify Room Stream
+            - Create Direct Message
             - Send Message
             - Delete Message
             - Update Message
@@ -229,17 +245,23 @@ Here you can also find what articles are incomplete and missing.
             - sendOfflineMessage
         - Rest API:
         - Authentication:
+            - facebook
+            - forgotPassword
+            - google
             - login
             - logout
             - me
+            - twitter
         - Channels:
             - addAll
             - addModerator
             - addOwner
             - archive
-            - cleanHistory
             - close
             - create
+            - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
+            - files
+            - getAllUserMentionsByChannel
             - getIntegrations
             - history
             - info
@@ -248,6 +270,7 @@ Here you can also find what articles are incomplete and missing.
             - leave
             - list.joined
             - list
+            - <span class="missing">[members](../missing-and-outdated-list/index.html#channelsmembers)</span>
             - open
             - removeModerator
             - removeOwner
@@ -262,10 +285,14 @@ Here you can also find what articles are incomplete and missing.
         - Chat:
             - delete
             - getMessage
+            - getMessageReadReceipts
             - pinMessage
             - postMessage
             - react
+            - reportMessage
+            - search
             - starMessage
+            - sendMessage
             - unPinMessage
             - unStarMessage
             - update
@@ -280,6 +307,8 @@ Here you can also find what articles are incomplete and missing.
             - archive
             - close
             - create
+            - <span class="missing">[delete](../missing-and-outdated-list/index.html#groupsdelete)</span>
+            - files
             - getIntegrations
             - history
             - info
@@ -287,6 +316,8 @@ Here you can also find what articles are incomplete and missing.
             - kick
             - leave
             - list
+            - listAll
+            - <span class="missing">[members](../missing-and-outdated-list/index.html#groupsmembers)</span>
             - open
             - removeModerator
             - removeOwner
@@ -299,9 +330,12 @@ Here you can also find what articles are incomplete and missing.
             - unarchive
         - Im:
             - close
+            - create
+            - files
             - history
             - list.everyone
             - list
+            - <span class="missing">[members](../missing-and-outdated-list/index.html#immembers)</span>
             - messages.others
             - open
             - setTopic
@@ -314,25 +348,44 @@ Here you can also find what articles are incomplete and missing.
             - sms-incoming
             - users
         - Miscellaneous:
+            - directory
             - info
+            - spotlight
+            - statistics
+            - statistics.list
+        - Rooms:
+            - cleanHistory
+            - favorite
+            - get
+            - saveNotification
+            - upload
         - Settings:
             - get
             - update
+            - oauth
+        - Subscriptions:
+            - get
+            - getOne
         - Users:
             - create
             - createToken
             - delete
+            - forgotPassword
             - getAvatar
             - getPresence
+            - getPreferences
             - info
             - list
             - register
             - resetAvatar
             - setAvatar
+            - setPreferences
             - update
+            - updateOwnBasicInfo
         - Offset and Count and Sort Info
+        - Permissions
         - Query and Fields Info
-        - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema Definition)</span>
+        - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
         - <span class="incomplete">[Testing](../missing-and-outdated-list#Testing)</span>
         - Troubleshooting
         - UI and Theming:
@@ -340,5 +393,4 @@ Here you can also find what articles are incomplete and missing.
         - Components
         - Themes
 - Community Cookbook:
-  - Remote Video Monitoring
-
+    - Remote Video Monitoring

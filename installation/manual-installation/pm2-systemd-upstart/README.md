@@ -46,6 +46,8 @@ All data will be hourly backed up to `/data/domains/example.org/data` folder. We
 
 ## Upstart - Ubuntu
 
+__Note: Upstart is no longer supported. We no longer support Ubuntu 14.04. If upgrading please see systemd or Ubuntu 16.04__
+
 The following examples are upstart jobs which control automatic start-up and, if necessary, respawning of your Rocket.Chat app, as well as management of an optional hubot chat-bot.
 
 In order to use the examples, simply copy each example and save into a file, paying attention to the fact that the filenames should be preserved unless you edit the examples
@@ -55,7 +57,7 @@ proper directory (/etc/init) usage is as simple as rebooting.
 Which upstart management jobs that you use depend on what type of Rocket.Chat deployment you are using (Docker-compose, non-docker, etc). A race-condition exists with
 docker-compose which requires that mongo and the Rocket.Chat application be started independently, thus a slightly modified upstart job is required compared to non-docker instances.
 
----
+- - -
 
 ### Non-Docker-Compose
 
@@ -113,7 +115,7 @@ script
 end script
 ```
 
----
+- - -
 
 ### Docker-Compose
 
