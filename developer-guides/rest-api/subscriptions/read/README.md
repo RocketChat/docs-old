@@ -12,7 +12,7 @@ Mark any room (channel, group and DMs) as read.
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-Type: application/json" \
-     http://localhost:3000/api/v1/subscriotions.read \
+     http://localhost:3000/api/v1/subscriptions.read \
      -d '{"rid":"L6su9mxwdDkvdSaT9hvzu8z6mHFigiXy6Y"}'
 ```
 
