@@ -28,4 +28,4 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
-| 0.61.0 | Added. |
+| 0.61.0 | Endpoint Added. |
