@@ -5,18 +5,8 @@ permalink: /index.html
 
 # Rocket.Chat Docs
 
-## What would you like to do?
+This is the official repository for Rocket.Chat Documentation.
 
-- [Learn how to use Rocket.Chat](user-guides/)
-- [Get support](getting-support/)
-- [Install Rocket.Chat](installation/)
-- [Administer your installation](administrator-guides/)
-- [Contribute to the project](contributing/)
+## How to run Rocket.Chat Docs locally: 
 
-![image](mockup.png)
-
-## What is Rocket.Chat?
-
-Rocket.Chat is a Web Chat Server, developed in JavaScript, using the [Meteor](https://www.meteor.com/install) fullstack framework.
-
-It is a great solution for communities and companies wanting to privately host their own chat service or for developers looking forward to build and evolve their own chat platforms.
+This is a quick guide on how to run the docs site locally, for a more in depth guide please look [here](contributing/documentation) 
