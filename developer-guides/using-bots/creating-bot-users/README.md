@@ -1,6 +1,6 @@
 # Creating Bot Users
 
-In order to talk to your chat bot there must be a bot user pre-configured on the Rocket.Chat server.
+In order to talk to your chatbot there must be a bot user pre-configured on the Rocket.Chat server.
 
 ## Creating a User on the Server
 
@@ -22,6 +22,7 @@ Note that for bots email, a common workaround to avoid creating multiple account
 
 ## Talk to your bot
 
-Your bot will respond to all messages addressed directly to the bot user, i.e. prepended with `<bot_name>` or a preconfigured `<bot_alias>`.
+Your bot will *usually* respond to all messages addressed directly to the bot user (depending on the particular bot framework).
+i.e. Messages prepended with `BOT_NAME` or a preconfigured `BOT_ALIAS`.
 
-If the chat bot is configured to listen on Direct Messages ```RESPOND_TO_DM=true```, the prepend is not neccessary and the chat bot will respond to all messages in the DM channel.
+If the bot is configured to listen on Direct Messages (`RESPOND_TO_DM=true`), the prepend is not necessary (it's automatically added internally) so the bot should respond to all messages in the DM channel.

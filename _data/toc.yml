@@ -95,7 +95,6 @@
   - File Upload:
     - Amazon S3
     - Minio
-  - Hubot
   - Import:
     - CSV
     - HipChat:
@@ -130,7 +129,6 @@
     - Travis CI
     - Trello
     - Uptime Robot
-  - Internal Hubot
   - Jitsi Video Bridge
   - Livechat:
     - Livechat Queues
@@ -157,6 +155,15 @@
     - Embedded Layout
     - Internationalization
     - Livechat API
+    - Using Bots:
+      - Bots FAQ
+      - Bots Architecture
+      - Creating Bot Users
+      - Configure Bot Environment
+      - Running a Hubot Bot
+      - Running a Botkit Bot
+      - Running a Rasa Bot
+      - Running a Botpress Bot
     - Mobile Apps:
       - Supporting SSL
     - Realtime-API:

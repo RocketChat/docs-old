@@ -4,6 +4,10 @@
 | :--- | :--- | :--- |
 | `/api/v1/users.create` | `yes` | `POST` |
 
+**Note**
+
+- To save `customFields` you must first define the `customFields` in admin panel (Accounts -> Registration -> Custom fields)
+
 ## Payload
 
 | Argument | Example | Required | Description |
