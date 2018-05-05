@@ -26,8 +26,10 @@ You'll need to set the following fields:
 Config. Name | Description
 ------------ | -------------
 **Amazon S3 bucket name** | The bucket name you've created on Amazon S3
-**Amazon S3 AWSAccessKeyId** | Your Amazon Access Key ID
-**Amazon S3 AWSSecretAccessKey** | Your Amazon Secret Access Key
+**Amazon S3 AWSAccessKeyId** | Your Amazon Access Key ID (optional)
+**Amazon S3 AWSSecretAccessKey** | Your Amazon Secret Access Key (optional)
+
+**Note**: If no `AWSAccessKeyId` and `AWSSecretAccessKey` are set, the underlying AWS SDK will fallback to trying to retrieve credentials from the [usual locations](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-credentials-node.html).
 
 ## Advanced configuration
 
