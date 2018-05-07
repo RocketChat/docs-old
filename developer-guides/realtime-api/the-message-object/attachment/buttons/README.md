@@ -20,6 +20,11 @@ The button template allows you to send a structured message that includes text a
       }
 ```
 
+The Button Template includes these fields:
+
+- `template_type`: must be "button"
+- `text`: title that appears at the top of the Rich Message (String)
+
 # Button Objects
 
 ## Url Button
@@ -36,6 +41,13 @@ The URL Button opens a web page in a webview. This allows you to enrich the conv
 ]
 ```
 
+The Url Button contains these fields:
+
+- `type`: Must be "web_url"
+- `url`: This URL is opened in a mobile browser when the button is tapped.  (String)
+- `title`: Button title. (String)
+- `webview_height_ratio`: _(Optional)_ Height of the Webview. Valid values: "compact", "tall", "full". Defaults to full.
+
 ## Postback Button
 
 The postback button sends a message event to your webhook with the string set in the payload property. This allows you to take an arbitrary actions when the button is tapped.
@@ -49,3 +61,9 @@ The postback button sends a message event to your webhook with the string set in
     },
 ]
 ```
+
+The Postback Button contains these fields:
+
+- `type`: Must be "postback"
+- `title`: Button title (String)
+- `payload`: This data will be sent back to your webhook. (String)
