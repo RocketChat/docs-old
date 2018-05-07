@@ -12,7 +12,7 @@ The button template allows you to send a structured message that includes text a
         "text":"What do you want to do next?",
         "buttons":[
           {
-            "type":<BUTTON_TYPE>,
+            "type":"<BUTTON_TYPE>",
             "title":"<BUTTON_TEXT>",
             "url_or_payload": "<URL_OR_PAYLOAD>",
           },          
@@ -24,7 +24,7 @@ The button template allows you to send a structured message that includes text a
 
 ## Url Button
 
-The URL Button opens a web page in the a webview. This allows you to enrich the conversation with a web-based experience, where you have the full development flexibility of the web.
+The URL Button opens a web page in a webview. This allows you to enrich the conversation with a web-based experience, where you have the full development flexibility of the web.
 
 ```json
 "buttons":[

@@ -20,3 +20,5 @@ The generic template is a simple structured message that includes a title, subti
   ]
 }
 ```
+
+see [Buttons](../buttons/) for more info on the ```buttons``` array
