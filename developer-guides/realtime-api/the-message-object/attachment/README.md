@@ -11,11 +11,10 @@ This is where you can define a template object that contains Rich Messages.
           "type":"template",
           "payload":{
             "template_type":"<TEMPLATE_TYPE>",
-            ...
+            "template_type": "<TEMPLATE_TYPE>",
            }
         }
     },
-      ...
   ]
 }
 ```
