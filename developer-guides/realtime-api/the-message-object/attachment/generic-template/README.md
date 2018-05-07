@@ -21,4 +21,16 @@ The generic template is a simple structured message that includes a title, subti
 }
 ```
 
+The Generic Template contains these fields:
+
+- `template_type`: must be "generic" (String)
+- `elements`: An array of element objects that describe instances of the generic template to be sent.
+
+The Elements array contains these fields:
+- `title`: The title to display in the template. (String)
+- `subtitle`: _(Optional)_  The subtitle to display in the template. (String)
+- `image_url`: _(Optional)_ The URL of the image to display in the template. (String)
+- `default_actions`: _(Optional)_ The default action executed when the template is tapped. ccepts the same properties as URL button, except title. (Object)
+- `buttons`: _(Optional)_ An array of buttons to append to the template. A maximum of 3 buttons per element is supported.
+
 see [Buttons](../buttons/) for more info on the ```buttons``` array

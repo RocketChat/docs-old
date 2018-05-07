@@ -18,6 +18,11 @@ This is where you can define a template object that contains Rich Messages.
 }
 ```
 
+The attachment object contains these fields:
+
+- `type`: value must be a template type (string)
+- `payload`: payload of the template (object)
+
 ## Templates
 
 Message templates offer a way for you to offer a richer in-conversation experience than standard text messages by integrating buttons, images, lists, and more alongside text in a single message. Templates can be used for many purposes, such as displaying product information, asking the message recipient to choose from a pre-determined set of options, and showing search results.
