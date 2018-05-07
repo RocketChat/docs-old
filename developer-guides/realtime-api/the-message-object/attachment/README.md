@@ -28,7 +28,7 @@ The attachment object contains these fields:
 Message templates offer a way for you to offer a richer in-conversation experience than standard text messages by integrating buttons, images, lists, and more alongside text in a single message. Templates can be used for many purposes, such as displaying product information, asking the message recipient to choose from a pre-determined set of options, and showing search results.
 
 - [The Generic Template](generic-template/)
-- [Other Templates?](generic-template/)
+- [The Button Template](buttons/)
 
 
 ## Buttons
