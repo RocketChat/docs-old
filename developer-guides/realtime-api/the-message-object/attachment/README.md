@@ -6,13 +6,13 @@ This is where you can define a template object that contains Rich Messages.
 {
   "messages":[
     {
-        "attachment":{
-          "type":"template",
-          "payload":{
-            "template_type":"<TEMPLATE_TYPE>",
-            "template_type": "<TEMPLATE_TYPE>",
-           }
+      "attachment":{
+        "type":"template",
+        "payload":{
+          "template_type":"<TEMPLATE_TYPE>",
+          "template_type": "<TEMPLATE_TYPE>",
         }
+      }
     },
   ]
 }
