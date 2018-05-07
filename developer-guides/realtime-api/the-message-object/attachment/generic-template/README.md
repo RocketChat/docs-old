@@ -18,7 +18,6 @@ The generic template is a simple structured message that includes a title, subti
       },
       "buttons":[<BUTTON_OBJECT>, ...]      
     },
-    ...
   ]
 }
 ```

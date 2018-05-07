@@ -6,7 +6,7 @@ Buttons can be included within a '''buttons''' object inside the generic templat
 
 The button template allows you to send a structured message that includes text and buttons.
 
-'''json
+```json
 "payload":{
         "template_type":"button",
         "text":"What do you want to do next?",
@@ -14,12 +14,11 @@ The button template allows you to send a structured message that includes text a
           {
             "type":<BUTTON_TYPE>,
             "title":"<BUTTON_TEXT>",
-            ...
-          },
-          ...
-          ]
+            "url_or_payload": "<URL_OR_PAYLOAD>",
+          },          
+        ]
       }
-'''
+```
 
 # Button Objects
 
@@ -34,7 +33,6 @@ The URL Button opens a web page in the a webview. This allows you to enrich the 
       "url": "<URL_TO_OPEN_IN_WEBVIEW>",
       "title": "<BUTTON_TEXT>",
     },
-    ...
 ]
 ```
 
@@ -49,6 +47,5 @@ The postback button sends a message event to your webhook with the string set in
       "title": "<BUTTON_TEXT>",
       "payload": "<STRING_SENT_TO_WEBHOOK>"
     },
-    ...
 ]
 ```
