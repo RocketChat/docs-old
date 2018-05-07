@@ -170,7 +170,6 @@ Here you can also find what articles are incomplete and missing.
         - Travis CI
         - Trello
         - uptimerobot
-    - <span class="missing">[Internal Hubot](../missing-and-outdated-list/index.html#Internal-Hubot)</span>
     - Jitsi Video Bridge
     - Livechat:
         - Livechat Queues

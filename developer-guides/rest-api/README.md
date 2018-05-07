@@ -166,6 +166,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :---------------------- | :--------------------------------------------- | :---------------------     |
 | `/api/v1/emoji-custom`  | List the custom emojis available.              | [Link](emoji-custom/get/)  |
 
+### Messages
+
+| Url                       | Short Description                              | Details Page               |
+| :------------------------ | :--------------------------------------------- | :---------------------     |
+| `/api/v1/messages/types`  | List all message types available.              | [Link](messages/types/get)  |
+
 ### Settings
 
 | Url                               | Method | Short Description                                   | Details Page                                    |
