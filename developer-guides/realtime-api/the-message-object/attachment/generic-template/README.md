@@ -13,10 +13,9 @@ The generic template is a simple structured message that includes a title, subti
       "default_action": {
         "type": "web_url",
         "url": "<DEFAULT_URL_TO_OPEN>",
-        "messenger_extensions": <TRUE | FALSE>,
         "webview_height_ratio": "<COMPACT | TALL | FULL>"
       },
-      "buttons":[<BUTTON_OBJECT>, ...]      
+      "buttons":["<BUTTON_OBJECT>", "<BUTTON_OBJECT>", "<BUTTON_OBJECT>" ]      
     },
   ]
 }
