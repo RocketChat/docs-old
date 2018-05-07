@@ -1,6 +1,11 @@
 # The attachment object
 
-This is where you can define a template object that contains Rich Messages.  
+This is where you can define an attachment object, including templates that contain Rich Messages.
+
+The attachment object contains these fields:
+
+- `type`: value must be one of ["audio", "video", "image", "file", "template"]
+- `payload`: payload of the template (object)
 
 ```json
 {
@@ -18,10 +23,18 @@ This is where you can define a template object that contains Rich Messages.
 }
 ```
 
-The attachment object contains these fields:
-
-- `type`: value must be a template type (string)
-- `payload`: payload of the template (object)
+```json
+{
+  "message":{
+      "attachment":{
+        "type":"image", 
+        "payload":{
+          "url":"<IMAGE_URL>", 
+        }
+      }
+    }
+}
+```
 
 ## Templates
 
