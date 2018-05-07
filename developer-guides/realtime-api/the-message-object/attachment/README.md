@@ -1,11 +1,11 @@
 # The attachment object
 
-This is where you can define an attachment object, including templates that contain Rich Messages.
+This is where you can define an attachment object. Simple attachments can include "audio", "video", "image" and "file", or more complex Rich Messages using templates.
 
 The attachment object contains these fields:
 
 - `type`: value must be one of ["audio", "video", "image", "file", "template"]
-- `payload`: payload of the template (object)
+- `payload`: payload of the attachment or template (object)
 
 ```json
 {
