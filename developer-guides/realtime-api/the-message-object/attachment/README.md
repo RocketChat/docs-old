@@ -39,5 +39,9 @@ For message templates, buttons are included and defined by objects in the button
 
 - [Buttons](buttons/)
 
+## Resources
+
+- [A Survey of Rich Messaging in Chatbots](https://github.com/WideChat/Rocket.Chat.Android/wiki/A-Survey-of-Rich-Messaging-in-Chatbots)
+
 
 
