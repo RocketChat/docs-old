@@ -2,18 +2,23 @@
 
 This is where you can define a template object that contains Rich Messages.  
 
-'''json
+```json
 {
-    ...
-    "attachment":{
+  "messages":[
+    {
+        ...
+        "attachment":{
           "type":"template",
           "payload":{
             "template_type":"<TEMPLATE_TYPE>",
             ...
-          }
-    }
+           }
+        }
+    },
+      ...
+  ]
 }
-'''
+```
 
 ## Templates
 

@@ -14,7 +14,7 @@ The message object contains these fields:
 - `editedBy`: _(Optional)_ The user that editted the message
 - `urls`: _(Optional)_ A collection of URLs metadata. Available when the message contains at least one URL
 - `attachments`: _(Optional)_ A collection of attachment objects, available only when the message has at least one attachment
-- 'attachment': _(New Proposal to accomodate facebook like Rich Messages)_ A place to define templates that contain Rich Message objects including images, links, buttons and menu's. [attachment spec here](attachment/)
+- `attachment`: _(New Proposal to accomodate facebook like Rich Messages)_ A place to define templates that contain Rich Message objects including images, links, buttons and menu's. [attachment spec here](attachment/)
 - `alias`: _(Optional)_ A way to display the message is "sent" from someone else other than the user who sent the message
 - `avatar`: _(Optional)_ A url to an image, that is accessible to anyone, to display as the avatar instead of the message user's account avatar
 - `groupable`: _(Optional)_ Boolean that states whether or not this message should be grouped together with other messages from the same user

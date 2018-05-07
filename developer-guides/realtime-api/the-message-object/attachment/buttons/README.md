@@ -27,7 +27,7 @@ The button template allows you to send a structured message that includes text a
 
 The URL Button opens a web page in the a webview. This allows you to enrich the conversation with a web-based experience, where you have the full development flexibility of the web.
 
-'''json
+```json
 "buttons":[
     {
       "type": "web_url",
@@ -36,13 +36,13 @@ The URL Button opens a web page in the a webview. This allows you to enrich the 
     },
     ...
 ]
-'''
+```
 
 ## Postback Button
 
 The postback button sends a message event to your webhook with the string set in the payload property. This allows you to take an arbitrary actions when the button is tapped.
 
-'''json
+```json
 "buttons":[
     {
       "type": "postback",
@@ -51,3 +51,4 @@ The postback button sends a message event to your webhook with the string set in
     },
     ...
 ]
+```
