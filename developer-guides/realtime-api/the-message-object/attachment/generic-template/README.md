@@ -1,6 +1,6 @@
 # The Generic Template
 
-The generic template is a simple structured message that includes a title, subtitle, image, and up to three buttons. You may also specify a default_action object that sets a URL that will be opened in a webview when the template is tapped.  [Example]()
+The generic template is a simple structured message that includes a title, subtitle, image, and up to three buttons. You may also specify a default_action object that sets a URL that will be opened in a webview when the template is tapped. 
 
 ```json
 "payload": {
