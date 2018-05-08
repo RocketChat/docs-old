@@ -32,6 +32,11 @@ The URL metadata contains several informational fields:
 - `headers`: Some HTTP headers (varies accord to the URL)
 - `parsedUrl`: The parsed URL broken into its parts
 
+The attachment object inside the attachments field can contain several fields:
+
+- `image_url`: The image url of the attachment
+- `color`: _(Optional)_ The color of the border which displays on the left side of the attachment.
+
 ```json
 {
     "messages": [
