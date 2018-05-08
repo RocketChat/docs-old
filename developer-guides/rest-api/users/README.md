@@ -8,6 +8,7 @@
 | `/api/v1/users.forgotPassword`  | Send email to reset your password. | [Link](forgotpassword/) |
 | `/api/v1/users.getAvatar` | Gets the URL for a user's avatar. | [Link](getavatar/) |
 | `/api/v1/users.getPresence` | Gets the online presence of the a user. | [Link](getpresence/) |
+| `/api/v1/users.getUsernameSuggestion` | Gets a suggestion a new username to user. | [Link](getusernamesuggestion/) |
 | `/api/v1/users.info` | Gets a user's information, limited to the caller's permissions. | [Link](info/) |
 | `/api/v1/users.list` | All of the users and their information, limited to permissions. | [Link](list/) |
 | `/api/v1/users.register` | Register a new user. | [Link](register/) |

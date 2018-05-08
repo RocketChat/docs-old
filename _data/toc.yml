@@ -342,6 +342,7 @@
         - getAvatar
         - getPresence
         - get-preferences
+        - getUsernameSuggestion
         - info
         - list
         - register
