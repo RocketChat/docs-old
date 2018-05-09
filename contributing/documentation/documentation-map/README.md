@@ -68,8 +68,6 @@ Here you can also find what articles are incomplete and missing.
     - Manual Installation:
         - CentOS
         - Debian
-        - FreeBSD:
-        - Universal
         - MacOSX
         - Multiple Instances to Improve Performance
         - Migrating Meteor Mongo
@@ -78,9 +76,6 @@ Here you can also find what articles are incomplete and missing.
         - Ubuntu:
             - Snaps:
                 - AutoSSl
-        - Windows 10 Pro
-        - Windows Server:
-            - <span class="incomplete">[Releases](../missing-and-outdated-list/index.html#releases)</span>
         - Configuring SSL Reverse Proxy
         - PM2, Systemd, Upstart
         - Running in a sub folder
@@ -93,6 +88,11 @@ Here you can also find what articles are incomplete and missing.
     - <span class="incomplete">[Updating](../missing-and-outdated-list/index.html#updating)</span>
         - From 0.x.x to 0.40.0
     - Minimum Requirements
+    - Community Supported Install:
+        - FreeBSD
+            - Universal
+        - Windows 10 Pro
+        - Windows Server:
 
 - User guides:
     - Connecting to a Server
@@ -170,7 +170,6 @@ Here you can also find what articles are incomplete and missing.
         - Travis CI
         - Trello
         - uptimerobot
-    - <span class="missing">[Internal Hubot](../missing-and-outdated-list/index.html#Internal-Hubot)</span>
     - Jitsi Video Bridge
     - Livechat:
         - Livechat Queues
@@ -189,6 +188,7 @@ Here you can also find what articles are incomplete and missing.
     - Code Styleguide:
         - <span class="incomplete">[Less](../missing-and-outdated-list/index.html#Less)</span>
     - Deeplink
+    - Deprecation
     - Iframe Integration:
         - <span class="missing">[Authentication](../missing-and-outdated-list/index.html#Authentication)</span>
         - Commands
@@ -257,7 +257,6 @@ Here you can also find what articles are incomplete and missing.
             - addModerator
             - addOwner
             - archive
-            - cleanHistory
             - close
             - create
             - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
@@ -349,10 +348,13 @@ Here you can also find what articles are incomplete and missing.
             - sms-incoming
             - users
         - Miscellaneous:
+            - directory
             - info
+            - spotlight
             - statistics
             - statistics.list
         - Rooms:
+            - cleanHistory
             - favorite
             - get
             - saveNotification
@@ -361,7 +363,6 @@ Here you can also find what articles are incomplete and missing.
             - get
             - update
             - oauth
-        - Spotlight
         - Subscriptions:
             - get
             - getOne

@@ -43,7 +43,11 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
             "uploading": false,
             "extension": "jpeg",
             "progress": 1,
-            "userId": "ksKsKmrjvxzkzxkww",
+            "user": {
+                "_id": "ksKsKmrjvxzkzxkww",
+                "username": "rocket.cat",
+                "name": "Rocket Cat"
+            },
             "_updatedAt": "2018-03-08T14:47:37.003Z",
             "instanceId": "uZG54xuoKauKHykbQ",
             "etag": "jPaviS9qG22xC5sDC",
@@ -59,3 +63,10 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
     "success": true
 }
 ```
+
+## Change Log
+
+| Version | Description |
+| :--- | :--- |
+| 0.64.0 | Change `userId` to `user` object in response |
+| 0.59.0 | Added |

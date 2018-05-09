@@ -8,8 +8,10 @@
 - [REST API](rest-api/)
 - [Iframe Integration](iframe-integration/)
 - [Realtime API](realtime-api/)
+- [Using Bots](using-bots/)
 - [Testing](testing/)
 - [Troubleshooting](troubleshooting/)
+- [Deprecation](deprecation/)
 
 **Important information**:
 On Rocket.Chat rooms can be referenced as:

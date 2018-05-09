@@ -18,7 +18,7 @@ curl http://localhost:3000/api/v1/settings.oauth
 {
     "services": [
         {
-            "id": "iJeY7x4wxnh2p3pLr",
+            "_id": "iJeY7x4wxnh2p3pLr",
             "name": "facebook",
             "clientId": "test",
             "buttonLabelText": "test",
@@ -27,7 +27,7 @@ curl http://localhost:3000/api/v1/settings.oauth
             "custom": false
         },
         {
-            "id": "iJeY7x4wxnh2p3pLr",
+            "_id": "iJeY7x4wxnh2p3pLr",
             "name": "twitter",
             "clientId": "test",
             "buttonLabelText": "",
@@ -63,5 +63,5 @@ curl http://localhost:3000/api/v1/settings.oauth
 
 | Version | Description |
 | :--- | :--- |
-| 0.64.0 | Renamed field `appId` to `clientId` and added flag `custom` to indicate whether the oauth service is customized |
+| 0.64.0 | Renamed field `appId` to `clientId` and added flag `custom` to indicate whether the oauth service is customized and fix `id` inconsistence(set all cases to `_id`) |
 | 0.63.0 | Added |
