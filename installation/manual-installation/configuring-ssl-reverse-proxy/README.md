@@ -96,6 +96,7 @@ a2enmod proxy_http
 a2enmod proxy
 a2enmod ssl
 a2enmod proxy_wstunnel
+a2enmod rewrite
 ```
 
 Add your private key to ```/etc/ssl/private/chat.domain.com.key```
