@@ -8,7 +8,7 @@ An initial implementation would vertically display an arbitrary set of buttons i
 
 The keyboard object contains these fields:
 
-- `buttons`: Array containing all keyboard buttons by order. See [buttons](../buttons/) below for buttons parameter details
+- `buttons`: Array containing all keyboard buttons by order. See [buttons](../buttons/) for buttons parameter details.
 - `default_height`: _(Optional)_  When true the keyboard will always be displayed with the same height as the native keyboard.When false short keyboards will be displayed with the minimal possible height. Maximal height will be native keyboard height
 - `bg_color`: _(Optional)_ Background color of the keyboard.
 
