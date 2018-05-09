@@ -393,13 +393,13 @@ Here you can also find what articles are incomplete and missing.
         - Components
         - Themes
 - Bots:
-  - Bots FAQ
-  - Bots Architecture
-  - Creating Bot Users
-  - Configure Bot Environment
-  - Running a Hubot Bot
-  - Running a Botkit Bot
-  - Running a Rasa Bot
-  - Running a Botpress Bot
+    - Bots FAQ
+    - Bots Architecture
+    - Creating Bot Users
+    - Configure Bot Environment
+    - Running a Hubot Bot
+    - Running a Botkit Bot
+    - Running a Rasa Bot
+    - Running a Botpress Bot
 - Community Cookbook:
     - Remote Video Monitoring
