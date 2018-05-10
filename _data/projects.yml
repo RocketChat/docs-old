@@ -50,6 +50,17 @@
     Livechat API: livechat-api/
 
 -
+  name: Bots
+  icon: cog
+  description: Guides for using bots in Rocket.Chat
+  path: bots/
+  pages:
+    Bots Architecture: bots-architecture/
+    Bots FAQ: bots-faq/
+    Configuring Bots: configure-bot-environment/
+    Creating Bots Users: creating-bot-users/
+
+-
   name: Contributing
   icon: github
   description: Guides for contributing to Rocket.Chat
