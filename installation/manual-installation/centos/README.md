@@ -57,7 +57,7 @@ Now we download and install Rocket.Chat
 ```
 cd /opt
 
-curl -L https://releases.rocket.chat/latest/download -o rocket.chat.tar.gz
+curl -L https://download.rocket.chat/stable -o rocket.chat.tar.gz
 tar zxvf rocket.chat.tar.gz
 
 mv bundle Rocket.Chat
