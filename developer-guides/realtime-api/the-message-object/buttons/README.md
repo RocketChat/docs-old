@@ -10,6 +10,7 @@ The button object contains these fields:
 - `web_url`: _(Required with web_view type)_ This URL is opened in an integrated webview. The page view is in front of the chat window and it can be a configurably sized in conjunction with the `webview_height_ratio` field.  (String)
 - `webview_height_ratio`: _(Optional with web_view type)_ Height of the webview. Valid values: "compact", "tall", "full". Defaults to full.
 - `payload`: _(Required with the postback type) This data will be sent back to your webhook. (String)
+- `image`: _(Optional)_ Url to an image to be displayed in a button.
 
 ## url button type
 
@@ -36,6 +37,7 @@ The web_view button opens an integrated webview where the page in the view is in
       "web_url": "<URL_TO_OPEN_IN_INTEGRATED_WEBVIEW>",
       "webview_height_ratio": "<COMPACT | TALL | FULL>",
       "title": "<BUTTON_TEXT>",
+      "image": "<URL_TO_IMAGE_DISPLAYED_IN_BUTTON"
     },
 ]
 ```
@@ -49,7 +51,8 @@ The postback button sends a message event to your webhook with the string set in
     {
       "type": "postback",
       "title": "<BUTTON_TEXT>",
-      "payload": "<STRING_SENT_TO_WEBHOOK>"
+      "payload": "<STRING_SENT_TO_WEBHOOK>",
+      "image": "<URL_TO_IMAGE_DISPLAYED_IN_BUTTON"
     },
 ]
 ```

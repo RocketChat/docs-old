@@ -34,6 +34,7 @@ The URL metadata contains several informational fields:
 - `parsedUrl`: The parsed URL broken into its parts
 
 The attachment object inside the attachments array can contain several fields:
+NOTE: New proposal is to deprecate this in favor of type/payload.
 
 - `image_url`: The image url of the attachment
 - `color`: _(Optional)_ The color of the border which displays on the left side of the attachment.
@@ -227,6 +228,7 @@ The attachment object inside the attachments array can contain several fields:
                         "type":"url",
                         "title":"<button-text>",
                         "url": "<url-to-open-in-mobile-browser>",
+                        "image": "<url-to-image-displayed-in-button>"
                     },       
                 ]
             },
