@@ -16,11 +16,13 @@ Config. Name | Description
 
 Syntax will look just like a regular .pem file:
 
+```
 -----BEGIN PRIVATE KEY-----
 unescaped private key goes here
 -----END PRIVATE KEY-----
 ----BEGIN CERTIFICATE-----
 first certificate goes here
 -----END CERTIFICATE-----
+```
 
 Entering this into Rocket.Chat will allow it to authenticate with Google and store items in the bucket.
