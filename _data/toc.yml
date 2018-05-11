@@ -97,6 +97,7 @@
     - Direct Reply
   - File Upload:
     - Amazon S3
+    - Google Cloud Storage
     - Minio
   - Import:
     - CSV
