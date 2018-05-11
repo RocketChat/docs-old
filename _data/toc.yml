@@ -4,6 +4,9 @@
     - Contribution Guidelines
     - Markdown Styleguide
     - Documentation Map
+    - Drafts:
+      - New Feature Draft
+      - Feature Change Draft
     - Missing and Outdated List
     - Community Maintainers
   - Google Summer of Code 2017
@@ -95,7 +98,6 @@
   - File Upload:
     - Amazon S3
     - Minio
-  - Hubot
   - Import:
     - CSV
     - HipChat:
@@ -130,7 +132,6 @@
     - Travis CI
     - Trello
     - Uptime Robot
-  - Internal Hubot
   - Jitsi Video Bridge
   - Livechat:
     - Livechat Queues
@@ -324,6 +325,7 @@
       - Subscriptions:
         - get
         - getOne
+        - read
       - Users:
         - create
         - createToken
@@ -350,5 +352,14 @@
       - Colors
       - Components
       - Themes
+- Bots:
+  - Bots FAQ
+  - Bots Architecture
+  - Creating Bot Users
+  - Configure Bot Environment
+  - Running a Hubot Bot
+  - Running a Botkit Bot
+  - Running a Rasa Bot
+  - Running a Botpress Bot
 - Community Cookbook:
   - Remote Video Monitoring
