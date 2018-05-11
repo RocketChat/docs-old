@@ -325,6 +325,7 @@
       - Subscriptions:
         - get
         - getOne
+        - read
       - Users:
         - create
         - createToken
