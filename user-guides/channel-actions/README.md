@@ -149,6 +149,8 @@ If the feature [Youtube Livestream](../../administrator-guides/youtube-broadcast
 
 If you are the owner of the channel or if you are a admin server you will be able to start streaming from there, or add a current ongoing stream to the channel via url.
 
+_Note: depending on the settings of the server you might be only able to link live streams from Youtube. In doubt always ask your server's admin._
+
 To start streaming from rocket.chat just press the `Broadcast my Camera` button. After that you will be prompted to login with a google account (you need to have streaming activated on your youtube account before, see [Introduction to live streaming](https://support.google.com/youtube/answer/2474026?hl=en) Google guide).
 
 You can also add a stream from Youtube with the stream link (The owner of the stream must allow the stream to be shown in other sites). To start a live stream from youtube, just add the link to it on the `Livestream source` form and hit save.

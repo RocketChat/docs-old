@@ -8,6 +8,8 @@ The Broadcasting feature can only be used with the Livestream Tab feature.
 
 You can find the settings for this feature on `Livestream & Broadcasting` in the admin panel.
 
+If you set the `Broadcasting Enable` setting to false, users wont be able to create live streams using their webcams, but will still be able to link a live stream from youtube.
+
 _Currently the admin needs a valid Google app with access to the Youtube API to use youtube live integration (More details on the [Google Developer page](https://developers.google.com/youtube/v3/)), this will allow the administrator to have a valid API Key, Client ID & Secret which are used on the Broadcasting feature._
 
 ## Livestream tab
