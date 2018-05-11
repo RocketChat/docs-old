@@ -72,4 +72,13 @@ To **hide** a channel, hover your mouse over the channel in the list of channels
 
 To create a channel you need to click on the plus `+` button that is alongside the channel search bar.
 
-This will open a pop up, and there you can set the name of that channel, if it is public or private, set it to read-only and invite users.
+This will open a pop up, and there you can set the name of that channel, if it is public or private, set it to read-only, broadcast it and invite users.
+
+Read only channels, messages can only be posted by people with the right permission. Users can react to messages in this Good for announcements, voting channels and such.
+
+Broadcasted channels will behave like read only channels, with only users with the right permission being able to post there. The differences to a read only channel are:
+
+- Users without permission (the same one to post on read only channels) inside this channel wont be able to see each other in the user list.
+- Users without permission won't be able to react to messages.
+- On every message posted on this channel will have a reply button that redirects the user to a direct message with the user that posted the message, having a reply to the message clicked already ready on the message box.
+- This channel cannot be converted to a normal or read only channel again.
