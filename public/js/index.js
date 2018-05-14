@@ -28,38 +28,41 @@ function scroll_toc(path) {
   }
 }
 
-$(function() {
+function addAnchors(path) {
+  console.log('ding');
+
   return $("h2, h3, h4, h5, h6").each(function(i, el) {
     var $el, icon, id;
     $el = $(el);
     id = $el.attr('id');
-    icon = '<img src="../../images/icons/link.svg">';
+    icon = `<img src="${path}images/icons/link.svg">`;
     if (id) {
       return $el.prepend($("<a />").addClass("header-link").attr("href", "#" + id).html(icon));
     }
   });
-});
+}
 
 $(document).ready(function() {
   scroll_toc(window.location.pathname);
 
+  var path = (location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") ? '/docs/' : '/';
+  console.log(path);
+
   var app = new senna.App();
 
-  if(location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") {
-    app.setBasePath('/docs/');
-  }
-  else {
-    app.setBasePath('/');
-  }
+  app.setBasePath(path);
+  addAnchors(path);
 
   app.addSurfaces('content');
   app.addRoutes(new senna.Route(/.*/, senna.HtmlScreen));
 
   app.on('startNavigate', function(event) {
-    scroll_toc(event.path)
+    scroll_toc(event.path);
+
   });
 
   app.on('endNavigate', function(event) {
+    addAnchors(path);
     var hash = event.path.indexOf('#');
 
   	if (hash !== -1) {
