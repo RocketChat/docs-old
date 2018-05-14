@@ -45,6 +45,8 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.02em;
   line-height: 1.2em;
   margin: 0 0 1rem 0;
+  display: flex;
+  align-items: center;
 
   a, a:visited {
     text-decoration: none;
@@ -151,7 +153,6 @@ header {
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
-  position: fixed;
   top: 0;
   width: 100%;
   z-index: 10;
@@ -296,7 +297,7 @@ header {
 
 main {
   background-color: #fff;
-  margin: 62px auto 0;
+  margin: 15px auto 0;
   padding: 20px 0;
   min-width: 100vw;
 }
@@ -556,3 +557,21 @@ footer {
     }
 }
 
+// Anchor Links
+
+.header-link {
+  display: none;
+  order: 2;
+  margin: 0 10px;
+  img {
+    width: 20px;
+  }
+}
+
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link {
+  display: flex;
+}
