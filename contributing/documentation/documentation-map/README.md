@@ -131,6 +131,7 @@ Here you can also find what articles are incomplete and missing.
         - Direct Reply
     - File Upload:
         - Amazon S3
+        - Google Cloud Storage
         - Minio
         - <span class="missing">[GridFS](../missing-and-outdated-list/index.html#GridFS)</span>
         - <span class="missing">[Local File System](../missing-and-outdated-list/index.html#Local-File-System)</span>
