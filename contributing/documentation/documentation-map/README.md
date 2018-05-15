@@ -367,6 +367,8 @@ Here you can also find what articles are incomplete and missing.
         - Subscriptions:
             - get
             - getOne
+            - read
+            - unread
         - Users:
             - create
             - createToken

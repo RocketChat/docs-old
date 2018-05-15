@@ -327,6 +327,7 @@
         - get
         - getOne
         - read
+        - unread
       - Users:
         - create
         - createToken
