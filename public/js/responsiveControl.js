@@ -36,7 +36,7 @@ burger.addEventListener('click', function (){
     $('.ui.sidebar').sidebar('toggle');
 });
 
-sidebar.addEventListener('click', function () {
+sidebar.addEventListener('click', function (event) {
     if (event.target.tagName.toLowerCase() === 'a') {
         $('.ui.sidebar').sidebar('hide');
     }

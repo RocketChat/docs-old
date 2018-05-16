@@ -488,8 +488,9 @@ footer {
 
   .mobile-search {
     .search {
-      width: 90%;
-      margin: 0 auto 2em auto;
+      width: 100%;
+      padding: 0 1em;
+      margin-bottom: 2em;
       input, .algolia-autocomplete {
         width: 100%;
       }
@@ -545,6 +546,7 @@ footer {
   .wrapper {
       &.main{
         padding: 0px;
+        flex-direction: column;
       }
       &.home{
         width: 100%;
