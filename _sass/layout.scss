@@ -486,6 +486,16 @@ footer {
     border: none;
   }
 
+  .mobile-search {
+    .search {
+      width: 90%;
+      margin: 0 auto 2em auto;
+      input, .algolia-autocomplete {
+        width: 100%;
+      }
+    }
+  }
+
   .burger {
     display: flex;
     flex-direction: column;

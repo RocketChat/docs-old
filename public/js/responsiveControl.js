@@ -12,7 +12,7 @@ function moveToC(){
 function moveSearch(){
     var viewportWidth = window.innerWidth;
     if (viewportWidth < 1000) {
-        $('.search.docs').appendTo($('.toc-sidebar'));
+        $('.search.docs').appendTo($('.mobile-search'));
     } else {
         $('.ui.sidebar').sidebar('hide');
         $('.search.docs').appendTo($('.toc-wrapper'));
