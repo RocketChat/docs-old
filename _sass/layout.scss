@@ -217,14 +217,13 @@ header {
 .search {
   margin-right: 14px;
   input {
-    transition: 2s width;
     padding: 0 10px 0 30px;
     border: 1px solid #444;
     height: 30px;
     display: inline-block;
-    background-color: #333;
-    color: #fff;
-    border-radius: 30px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
     width: 240px;
     transition: all 0.3s ease 0s;
 
@@ -343,7 +342,7 @@ main {
 
 .content {
   width: calc(100% - 340px);
-  padding: 1em;
+  padding: 0 1em 1em 1em;
   min-height: 100vh;
 }
 
@@ -489,6 +488,17 @@ footer {
     border: none;
   }
 
+  .mobile-search {
+    .search {
+      width: 100%;
+      padding: 0 1em;
+      margin-bottom: 2em;
+      input, .algolia-autocomplete {
+        width: 100%;
+      }
+    }
+  }
+
   .burger {
     display: flex;
     flex-direction: column;
@@ -517,14 +527,6 @@ footer {
 
   }
 
-  .search:not(.home){
-    margin: 0;
-    input {
-      width: 0px;
-      visibility: hidden;
-    }
-  }
-
   .project-list {
     display: grid;
     grid-template-columns: repeat(1, 0.8fr);
@@ -543,14 +545,10 @@ footer {
     }
 
   }
-
-  .search.active input {
-    width: 240px;;
-    visibility: visible;
-  }
   .wrapper {
       &.main{
         padding: 0px;
+        flex-direction: column;
       }
       &.home{
         width: 100%;

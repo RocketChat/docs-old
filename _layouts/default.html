@@ -42,7 +42,8 @@
         <li><a href="https://rocket.chat/contact">Contact</a></li>
       </ul>
     </div>
-    <div class="toc-sidebar"></div>
+    <div class="toc-sidebar">
+    </div>
   </div>
 
 <div class="pusher">
@@ -60,10 +61,6 @@
         <img src="{{ site.url }}/images/default/icon.svg" alt="Rocket.Chat">
       </a>
       <div class="header-items">
-        <div class="search">
-          <svg class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.71424961090088" height="32" viewBox="0 0 29.71424961090088 32" data-code="61442" data-tags="search"><g fill="#fff" transform="scale(0.03125 0.03125)"><path d="M658.286 475.429q0-105.714-75.143-180.857t-180.857-75.143-180.857 75.143-75.143 180.857 75.143 180.857 180.857 75.143 180.857-75.143 75.143-180.857zM950.857 950.857q0 29.714-21.714 51.429t-51.429 21.714q-30.857 0-51.429-21.714l-196-195.429q-102.286 70.857-228 70.857-81.714 0-156.286-31.714t-128.571-85.714-85.714-128.571-31.714-156.286 31.714-156.286 85.714-128.571 128.571-85.714 156.286-31.714 156.286 31.714 128.571 85.714 85.714 128.571 31.714 156.286q0 125.714-70.857 228l196 196q21.143 21.143 21.143 51.429z" /></g></svg>
-          <input type="text" id="search" placeholder="Search">
-        </div>
         <ul>
           <li><a href="https://rocket.chat/download">Download</a></li>
           <li><a href="https://rocket.chat/cloud">Cloud</a></li>
@@ -78,8 +75,13 @@
   <main>
     <div class="wrapper main">
       <div class="toc-wrapper">
+        <div class="search docs">
+          <svg class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.71424961090088" height="32" viewBox="0 0 29.71424961090088 32" data-code="61442" data-tags="search"><g fill="#333" transform="scale(0.03125 0.03125)"><path d="M658.286 475.429q0-105.714-75.143-180.857t-180.857-75.143-180.857 75.143-75.143 180.857 75.143 180.857 180.857 75.143 180.857-75.143 75.143-180.857zM950.857 950.857q0 29.714-21.714 51.429t-51.429 21.714q-30.857 0-51.429-21.714l-196-195.429q-102.286 70.857-228 70.857-81.714 0-156.286-31.714t-128.571-85.714-85.714-128.571-31.714-156.286 31.714-156.286 85.714-128.571 128.571-85.714 156.286-31.714 156.286 31.714 128.571 85.714 85.714 128.571 31.714 156.286q0 125.714-70.857 228l196 196q21.143 21.143 21.143 51.429z" /></g></svg>
+          <input type="text" id="search" placeholder="Search">
+        </div>
         {% include toc.html %}
       </div>
+      <div class="mobile-search"></div>
       <div id="content" class="content">
         <div class="wrapper" {%if page.ignoreLinks%}data-proofer-ignore{% endif %}>
           {{ content }}
