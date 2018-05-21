@@ -14,7 +14,7 @@ We are building out support for multiple frameworks, including:
 - [Botpress](https://botpress.io/) - development
 
 Some Rocket.Chat server packages implement **internal** bots (e.g.
-[SlackBridge](../../administrator-guides/import/slack/slackbridge/)). That type
+[SlackBridge](../administrator-guides/import/slack/slackbridge/)). That type
 of integration is not documented here. See the [Bots FAQ](bots-faq/) for more on
 that distinction.
 

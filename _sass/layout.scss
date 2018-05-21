@@ -45,6 +45,8 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.02em;
   line-height: 1.2em;
   margin: 0 0 1rem 0;
+  display: flex;
+  align-items: center;
 
   a, a:visited {
     text-decoration: none;
@@ -151,7 +153,6 @@ header {
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
-  position: fixed;
   top: 0;
   width: 100%;
   z-index: 10;
@@ -203,27 +204,44 @@ header {
 }
 
 .edit-github{
+  display: flex;
+
   margin: auto;
-  padding: 15px;
+  justify-content: end;
   width: max-content;
   text-align: right;
+  padding-top: 2em;
+
+  &-button {
+    display: flex;
+    background-color: #5cb85c;
+    border: 2px #4cae4c solid;
+    color: #fff;
+    padding: 15px 20px;
+
+    border-radius: 5px;
+  }
+  .github-icon {
+    filter: invert(100%);
+    margin-right: 10px;
+  }
 }
 
 .edit-github a, .edit-github a:visited {
+  color: #fff;
   text-decoration: none;
 }
 
 .search {
   margin-right: 14px;
   input {
-    transition: 2s width;
     padding: 0 10px 0 30px;
     border: 1px solid #444;
     height: 30px;
     display: inline-block;
-    background-color: #333;
-    color: #fff;
-    border-radius: 30px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
     width: 240px;
     transition: all 0.3s ease 0s;
 
@@ -296,7 +314,7 @@ header {
 
 main {
   background-color: #fff;
-  margin: 62px auto 0;
+  margin: 15px auto 0;
   padding: 20px 0;
   min-width: 100vw;
 }
@@ -342,7 +360,7 @@ main {
 
 .content {
   width: calc(100% - 340px);
-  padding: 1em;
+  padding: 0 1em 1em 1em;
   min-height: 100vh;
 }
 
@@ -352,6 +370,8 @@ footer {
   color: #fff;
 
   .wrapper{
+    display: flex;
+
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 1em;
@@ -433,6 +453,7 @@ footer {
 
 .title{
   margin: 0;
+  display: block;
 
   &.card {
     font-size: 1.15em;
@@ -487,6 +508,17 @@ footer {
     border: none;
   }
 
+  .mobile-search {
+    .search {
+      width: 100%;
+      padding: 0 1em;
+      margin-bottom: 2em;
+      input, .algolia-autocomplete {
+        width: 100%;
+      }
+    }
+  }
+
   .burger {
     display: flex;
     flex-direction: column;
@@ -515,14 +547,6 @@ footer {
 
   }
 
-  .search:not(.home){
-    margin: 0;
-    input {
-      width: 0px;
-      visibility: hidden;
-    }
-  }
-
   .project-list {
     display: grid;
     grid-template-columns: repeat(1, 0.8fr);
@@ -541,14 +565,10 @@ footer {
     }
 
   }
-
-  .search.active input {
-    width: 240px;;
-    visibility: visible;
-  }
   .wrapper {
       &.main{
         padding: 0px;
+        flex-direction: column;
       }
       &.home{
         width: 100%;
@@ -556,3 +576,21 @@ footer {
     }
 }
 
+// Anchor Links
+
+.header-link {
+  display: none;
+  order: 2;
+  margin: 0 10px;
+  img {
+    width: 20px;
+  }
+}
+
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link {
+  display: flex;
+}

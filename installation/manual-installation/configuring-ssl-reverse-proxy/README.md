@@ -96,6 +96,7 @@ a2enmod proxy_http
 a2enmod proxy
 a2enmod ssl
 a2enmod proxy_wstunnel
+a2enmod rewrite
 ```
 
 Add your private key to ```/etc/ssl/private/chat.domain.com.key```
@@ -159,9 +160,9 @@ Insert
 ```
 your_domain.com {
         proxy / 127.0.0.1:3000 {
-                proxy_header X-Forwarded-Proto {scheme}
-                proxy_header X-Forwarded-For {host}
-                proxy_header Host {host}
+                header_upstream X-Forwarded-Proto {scheme}
+                header_upstream X-Forwarded-For {host}
+                header_upstream Host {host}
                 websocket
         }
 }
