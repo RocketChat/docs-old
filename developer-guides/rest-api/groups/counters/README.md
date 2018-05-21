@@ -54,4 +54,4 @@ userMentions - count of user mentions in messages
 
 | Version | Description |
 | :--- | :--- |
-| 0.62.0 | Added |
+| 0.65.0 | Added |
