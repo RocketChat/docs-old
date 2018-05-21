@@ -97,6 +97,7 @@
     - Direct Reply
   - File Upload:
     - Amazon S3
+    - Google Cloud Storage
     - Minio
   - Import:
     - CSV
@@ -158,15 +159,6 @@
     - Embedded Layout
     - Internationalization
     - Livechat API
-    - Using Bots:
-      - Bots FAQ
-      - Bots Architecture
-      - Creating Bot Users
-      - Configure Bot Environment
-      - Running a Hubot Bot
-      - Running a Botkit Bot
-      - Running a Rasa Bot
-      - Running a Botpress Bot
     - Mobile Apps:
       - Supporting SSL
     - Realtime-API:
@@ -337,6 +329,7 @@
       - Subscriptions:
         - get
         - getOne
+        - read
       - Users:
         - create
         - createToken
@@ -363,5 +356,14 @@
       - Colors
       - Components
       - Themes
+- Bots:
+  - Bots FAQ
+  - Bots Architecture
+  - Creating Bot Users
+  - Configure Bot Environment
+  - Running a Hubot Bot
+  - Running a Botkit Bot
+  - Running a Rasa Bot
+  - Running a Botpress Bot
 - Community Cookbook:
   - Remote Video Monitoring
