@@ -123,9 +123,9 @@ a.button, input[type=submit], input[type=button] {
 }
 
 code, pre{
-  color: $color-light;
   max-width: max-content;
   overflow: auto;
+  padding: 5px;
 }
 
 blockquote {
