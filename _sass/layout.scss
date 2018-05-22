@@ -122,18 +122,29 @@ a.button, input[type=submit], input[type=button] {
   }
 }
 
-code, pre{
-  max-width: max-content;
+pre{
   overflow: auto;
-  padding: 5px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+code {
+  color: #ddd;
+}
+
+:not(pre) > code {
+  color: $space;
+  background-color: $grey-bg;
+  padding: 4px 7px;
 }
 
 blockquote {
-  margin: 2em 0;
-  font-style: italic;
-  font-size: 1.25em;
-  color: $color-dark;
-  opacity: 0.6;
+  color: $space;
+  background-color: $grey-bg;
+  border: 1px solid $grey-smoke;
+  margin: 2em 1em;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 .wrapper {
