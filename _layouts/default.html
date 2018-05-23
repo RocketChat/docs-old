@@ -46,32 +46,8 @@
     </div>
   </div>
 
-<div class="pusher">
-  <header>
-    <div class="wrapper">
-      <div class="burger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <a class="logo" href="/">
-        <img src="{{ site.url }}/images/default/logo.svg" alt="Rocket.Chat">
-      </a>
-      <a class="logo mobile" href="/">
-        <img src="{{ site.url }}/images/default/icon.svg" alt="Rocket.Chat">
-      </a>
-      <div class="header-items">
-        <ul>
-          <li><a href="https://rocket.chat/download">Download</a></li>
-          <li><a href="https://rocket.chat/cloud">Cloud</a></li>
-          <li><a href="https://rocket.chat/community">Community</a></li>
-          <li><a href="https://rocket.chat/docs/">Docs</a></li>
-          <li><a href="https://rocket.chat/blog/">Blog</a></li>
-          <li><a href="https://rocket.chat/contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </header>
+  {% include header.html %}
+
   <main>
     <div class="wrapper main">
       <div class="toc-wrapper">
@@ -96,29 +72,7 @@
     </div>
   </main>
 </div>
-<footer>
-  <div class="wrapper">
-    <ul>
-      <li><a href="https://rocket.chat/download">Download</a></li>
-      <li><a href="https://rocket.chat/cloud">Cloud</a></li>
-      <li><a href="https://rocket.chat/docs/">Docs</a></li>
-    </ul>
-    <ul>
-      <li><a href="https://rocket.chat/team">Team</a></li>
-      <li><a href="https://rocketchat.recruitee.com/">Jobs</a></li>
-      <li><a href="https://rocket.chat/partners">Partners</a></li>
-    </ul>
-    <ul>
-      <li><a href="https://rocket.chat/contact">Contact</a></li>
-      <li><a href="https://rocket.chat/press">Press</a></li>
-      <li><a href="https://rocket.chat/blog/">Blog</a></li>
-    </ul>
-    <ul>
-      <li><a href="https://shop.spreadshirt.com/rocketchat" target="_blank" data-proofer-ignore>Store</a></li>
-      <li><a href="https://www.stickermule.com/user/1070688638/stickers" target="_blank">Stickers</a></li>
-    </ul>
-  </div>
-</footer>
+  {% include footer.html %}
 <script src="{{ site.url }}/public/js/responsiveControl.js"></script>
 <script type="text/javascript">
   window.jekyll = { site: { url: '{{ site.url }}' } };
@@ -133,6 +87,7 @@
     inputSelector: '#search'
   });
 </script>
+<script src="/main.js"></script>
 
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MLJ76N"
