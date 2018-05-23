@@ -27,7 +27,6 @@ window.onresize = function () {
 moveSearch()
 moveToC();
 
-
 var burger = document.querySelector(".burger");
 
 var sidebar = document.querySelector(".sidebar")
@@ -37,7 +36,7 @@ burger.addEventListener('click', function (){
 });
 
 sidebar.addEventListener('click', function (event) {
-    if (event.target.tagName.toLowerCase() === 'a') {
+    if (event.target.matches('a:only-child')) {
         $('.ui.sidebar').sidebar('hide');
     }
 });
