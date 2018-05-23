@@ -104,28 +104,11 @@ img {
   margin: 0 auto;
 }
 
-a.button, input[type=submit], input[type=button] {
-  display: inline-block;
-  margin: 0.25em 0.25em 0.25em 0;
-  padding: 0.5em 1em;
-  background-color: $color-light;
-  font-weight: 600;
-  color: #fff;
-  border: 0;
-
-  &.primary {
-    background-color: $color-primary;
-  }
-
-  &.secondary {
-    background-color: $color-secondary;
-  }
-}
-
 pre{
   overflow: auto;
   padding: 10px 15px;
-  border-radius: 5px;
+  border-radius: 2px;
+  line-height: 1em;
 }
 
 code {
@@ -136,6 +119,9 @@ code {
   color: $space;
   background-color: $grey-bg;
   padding: 4px 7px;
+  white-space: nowrap;
+  font-weight: 600;
+  border-radius: 2px;
 }
 
 .highlight {
@@ -148,13 +134,12 @@ blockquote {
   border: 1px solid $grey-smoke;
   margin: 2em 1em;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 .wrapper {
   max-width: $content-width;
   margin: 0 auto;
-  padding: 0 1em;
 
   &.main {
     display: flex;
@@ -200,46 +185,32 @@ blockquote {
 }
 
 .edit-github{
-  display: flex;
-
-  margin: auto;
-  justify-content: end;
-  width: max-content;
-  text-align: right;
   padding-top: 2em;
-
-  &-button {
-    display: flex;
-    background-color: #5cb85c;
-    border: 2px #4cae4c solid;
-    color: #fff;
-    padding: 15px 20px;
-
-    border-radius: 5px;
-  }
-  .github-icon {
-    filter: invert(100%);
-    margin-right: 10px;
-  }
 }
 
-.edit-github a, .edit-github a:visited {
+.edit-github a, .edit-github a:visited, .edit-github a:hover {
   color: #fff;
   text-decoration: none;
 }
 
 .search {
   margin-right: 14px;
+
+  .algolia-autocomplete{
+    width: 100%
+  }
+
   input {
-    padding: 0 10px 0 30px;
+    padding: 0 10px 0 35px;
     border: 1px solid #444;
-    height: 30px;
+    height: 44px;
     display: inline-block;
     background-color: #fff;
     color: #333;
-    border-radius: 10px;
-    width: 240px;
+    border-radius: 2px;
+    width: 100%;
     transition: all 0.3s ease 0s;
+    font-size: 0.8em;
 
     &:focus {
       outline: none;
@@ -253,12 +224,9 @@ blockquote {
     margin-top: 1em;
     display: flex;
     align-items: center;
-    .algolia-autocomplete{
-      width: 100%
-    }
 
     input {
-      border-radius: 3px;
+      border-radius: 2px;
       background-color: #f6f7f9;
       color: #000;
       width: 100%;
@@ -302,8 +270,8 @@ blockquote {
     position: absolute;
     width: 16px;
     height: 16px;
-    margin-top: 7px;
-    margin-left: 6px;
+    margin-top: 14px;
+    margin-left: 10px;
     z-index: 2;
   }
 }
@@ -318,8 +286,7 @@ main {
 .toc {
   width: $toc-width;
   overflow-y: auto;
-  padding: 1em;
-  border-right: 1px solid #ddd;
+  padding:  1em 1em 1em 0;
   font-size: 0.9em;
 
   li {
@@ -355,9 +322,11 @@ main {
 }
 
 .content {
-  width: calc(100% - 340px);
-  padding: 0 1em 1em 1em;
+  width: 100%;
+  padding: 0 0 1em 1em;
   min-height: 100vh;
+  border-left: 1px solid #ddd;
+
 }
 
 .burger {
@@ -445,6 +414,46 @@ main {
   min-width: none;
   width: 100%;
 }
+
+// Custom data table styles...
+td > code {
+  background: none;
+}
+
+.content table {
+  display: table;
+  width: 100%;
+  margin: 1rem auto;
+  border-top: 1px solid #bfbfbf;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.content table thead th {
+  font-size: 18px;
+  line-height: 22px;
+  padding: 12px 9px;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top;
+}
+.content table tbody {
+  border-bottom: 1px solid #bfbfbf;
+}
+.content table tbody td {
+  font-size: 16px;
+  line-height: 22px;
+  padding: 12px 9px;
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+}
+.content table tbody tr:nth-child(odd) td {
+  background: #EEE;
+}
+.content table tbody tr:nth-child(even) td {
+  background: transparent;
+}
+
 
 @media all and (min-width: 2000px) {
   .project-list {
