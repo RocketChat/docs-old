@@ -204,13 +204,31 @@ header {
 }
 
 .edit-github{
+  display: flex;
+
   margin: auto;
-  padding: 15px;
+  justify-content: end;
   width: max-content;
   text-align: right;
+  padding-top: 2em;
+
+  &-button {
+    display: flex;
+    background-color: #5cb85c;
+    border: 2px #4cae4c solid;
+    color: #fff;
+    padding: 15px 20px;
+
+    border-radius: 5px;
+  }
+  .github-icon {
+    filter: invert(100%);
+    margin-right: 10px;
+  }
 }
 
 .edit-github a, .edit-github a:visited {
+  color: #fff;
   text-decoration: none;
 }
 
