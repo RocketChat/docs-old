@@ -1,10 +1,8 @@
 title: "Rocket.Chat Documentation"
 description: Rocket.Chat user, admin, API, integration, plugin and contributing documentation.
 
-baseurl: /docs-1
-
 # leave trailing slash off
-url: https://rocket.chat/docs
+url: https://martinschoeler.github.io/docs-1
 
 # bump if alterting styles or js
 version: 22
