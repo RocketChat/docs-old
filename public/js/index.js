@@ -44,7 +44,7 @@ function addAnchors(path) {
 $(document).ready(function() {
   scroll_toc(window.location.pathname);
 
-  var path = (location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") ? '/docs/' : '/';
+  var path = (location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") ? '/docs-1/' : '/';
 
   var app = new senna.App();
 
