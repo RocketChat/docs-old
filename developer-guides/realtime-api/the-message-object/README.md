@@ -92,7 +92,7 @@ The `type` field options include:
         {
             "_id": "<message-id>",
             "rid": "<room-id>",
-            "msg": "Hello World"
+            "msg": "Hello World",
             "payload": {
                     "type": "image",
                     "image_url": "<imgage-url>",
@@ -123,7 +123,7 @@ The `type` field options include:
         {
             "_id": "<message-id>",
             "rid": "<room-id>",
-            "msg": "Hello World."
+            "msg": "Hello World.",
             "payload": { 
                 "type": "image",
                 "image_url": "<imgage-url>",
@@ -193,7 +193,7 @@ The `type` field options include:
 }
 ```
 
-##  Button Template message including three button types
+##  Button message including three button types
 
 ```json
 {
