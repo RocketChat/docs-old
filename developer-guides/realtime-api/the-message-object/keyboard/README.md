@@ -18,7 +18,6 @@ The keyboard object contains these fields:
     "payload": {
         "keyboard": {
             "default_height": true,
-            "bg_color": "#FFFFFF",
             "buttons": [
                  "<BUTTON_OBJECT>",
                   "<BUTTON_OBJECT>",

@@ -7,8 +7,7 @@ The message object contains these fields:
 - `_id`: The message id
 - `rid`: The room id - Identify the room the message belongs
 - `msg`: The textual message
-- `type`: _(New proposal, requires the payload field)_ The type of message contained in the payload. ( "text", "audio", "video", "image", "file", "template")
-- `payload`: _(New proposal, depends on type field)_ Object which describes the message content, i.e. text, images, files, [buttons](buttons/), or [templates](templates/) that contain rich message objects including all or some of the above.
+- `payload`: _(New proposal)_ Object which describes the message content, i.e. text, images, files, [buttons](buttons/), or [templates](templates/) that contain rich message objects including all or some of the above.
 - `ts`: The message time stamp (date of creation on client)
 - `u`: The user that sent the message
 - `_updatedAt`: The time stamp when the message got saved on the server
@@ -72,9 +71,20 @@ The attachment object inside the attachments array can contain several fields:
 }
 ```
 
-## Example message types in the proposed payload/type style
+## Example messages using proposed payload field
 
-### Text message
+The payload includes a `type` field:
+- `type`: _(Required)_ The type of content encapsulated in the payload. It is used to describe the content and indicate to the client how to layout and display the rich message.
+- `template_type`: _(Required when `type = template`)_ Indicates which known template to use when constructing the layout. Currently only supports `generic`.
+
+The `type` field options include:
+- `image`: An image only.
+- `horizontal_buttons`: An array of button objects to be displayed horizontally on the screen.
+- `vertical_buttons`: An array of button objects to be displayed vertically on the screen.
+- `template`: _(Requires the use of a `template_type` field)_ Indicates that the layout and contents will be described in the context of a known template.
+
+
+### Image message
 
 ```json
 {
@@ -82,20 +92,30 @@ The attachment object inside the attachments array can contain several fields:
         {
             "_id": "<message-id>",
             "rid": "<room-id>",
-            "type": "text",
-            "payload": { "text": "Hello World!"},
+            "msg": "Hello World"
+            "payload": {
+                    "type": "image",
+                    "image_url": "<imgage-url>",
+                    "image_description": "This is my image!"
+            },
             "ts": { "$date": 1480377601 },
             "u": {
                 "_id": "<user-id>",
                 "username": "<username>"
             },
-            "_updatedAt": { "$date": 1480377601 }
+            "_updatedAt": { "$date":1480377601 },
+            "editedAt": { "$date": 1480377601 },
+            "editedBy": {
+                "_id": "<user-id>",
+                "username": "<username>"
+            }
         },
     ]
 }
 ```
 
-### Text message with [keyboard](keyboard/)
+
+### Image message with [keyboard](keyboard/)
 
 ```json
 {
@@ -103,12 +123,14 @@ The attachment object inside the attachments array can contain several fields:
         {
             "_id": "<message-id>",
             "rid": "<room-id>",
-            "type": "text",
+            "msg": "Hello World."
             "payload": { 
-                "text": "Hello World!",
+                "type": "image",
+                "image_url": "<imgage-url>",
+                "image_description": "This is my image!"
+
                 "keyboard": {
                     "default_height": true,
-                    "bg_color": "#FFFFFF",
                     "buttons": [
                          "<button-object>"
                          "<button-object>"
@@ -129,34 +151,6 @@ The attachment object inside the attachments array can contain several fields:
 }
 ```
 
-### Image message
-
-```json
-{
-    "messages": [
-        {
-            "_id": "<message-id>",
-            "rid": "<room-id>",
-            "type": "image",
-            "payload": {
-                    "image_url": "<imgage-url>",
-                    "image_description": "This is my image!"
-            },
-            "ts": { "$date": 1480377601 },
-            "u": {
-                "_id": "<user-id>",
-                "username": "<username>"
-            },
-            "_updatedAt": { "$date":1480377601 },
-            "editedAt": { "$date": 1480377601 },
-            "editedBy": {
-                "_id": "<user-id>",
-                "username": "<username>"
-            }
-        },
-    ]
-}
-```
 
 ### Generic Template message
 
@@ -166,8 +160,8 @@ The attachment object inside the attachments array can contain several fields:
         {
             "_id": "<message-id>",
             "rid": "<room-id>",
-            "type": "template",
             "payload": {
+                "type": "template",
                 "template_type": "generic",
                 "elements":[
                     {
@@ -207,9 +201,8 @@ The attachment object inside the attachments array can contain several fields:
         {
             "_id": "<message-id>",
             "rid": "<room-id>",
-            "type": "template",
             "payload":{
-                "template_type":"button",
+                "type":"horizontal_buttons",
                 "text":"What do you want to do next?",
                 "buttons":[
                     {
