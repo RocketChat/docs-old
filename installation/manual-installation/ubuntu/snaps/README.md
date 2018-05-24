@@ -110,6 +110,8 @@ tar zxvf /path/to/your/backup.tgz
 This will create the following directory tree where you can find the extracted backup data:
 `~/backup_data/var/snap/rocketchat-server/<version>/dump/parties`
 
+##### Note: If you are restoring into a fresh install, complete the Initial Setup Wizard first with data from an unused username and email
+
 #### 2. Confirm your database name
 
 The snap database name should be `parties`, but just to be safe:
@@ -133,14 +135,24 @@ sudo service snap.rocketchat-server.rocketchat-server stop
 
 #### 4. Use `mongorestore` to restore your backup data back into your snap database
 
-#### Important: before proceeding, consult <https://docs.mongodb.com/manual/reference/program/mongorestore/> to learn about additional options and the non-overwriting behavior of `mongorestore` when the target database already exists.
+#### Important: before proceeding, consult <https://docs.mongodb.com/manual/reference/program/mongorestore/> to learn about additional options and the non-overwriting behavior of
 
-##### Please note: at the time of writing, mongorestore required openssl version 1.0.2 specifically. If you see an error like this - `(...) version 'OPENSSL_1.0.2' not found (required by /snap/rocketchat-server/current/bin/mongorestore)` - simply install the required openssl version to continue.
+```
+mongorestore
+```
+
+when the target database already exists.
+
+##### Please note: at the time of writing, mongorestore required openssl version 1.0.2 specifically. If you see an error like this -
+
+```(...) version 'OPENSSL_1.0.2' not found (required by /snap/rocketchat-server/current/bin/mongorestore)```
+
+- simply install the required openssl version to continue.
 
 When you are ready, run the following command (replacing `<version>` with the appropriate directory name):
 
 ```
-sudo /snap/rocketchat-server/current/bin/mongorestore --db parties \
+sudo /snap/rocketchat-server/current/bin/mongorestore --noIndexRestore --db parties \
 ~/backup_data/var/snap/rocketchat-server/<version>/dump/parties/
 ```
 
