@@ -1,40 +1,14 @@
 ---
 ---
 
+@import "mixins";
 @import "variables";
+@import "reset";
+@import "theme";
+@import "typography";
+@import "grid";
+@import "highlight";
+@import "header";
+@import "footer";
 @import "layout";
-
-// Custom data table styles...
-.content table {
-  display: table;
-  width: 75%;
-  margin: 1rem auto;
-  border-top: 1px solid #bfbfbf;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-.content table thead th {
-  font-size: 18px;
-  line-height: 22px;
-  padding: 12px 9px;
-  font-weight: bold;
-  text-align: left;
-  vertical-align: top;
-}
-.content table tbody {
-  border-bottom: 1px solid #bfbfbf;
-}
-.content table tbody td {
-  font-size: 16px;
-  line-height: 22px;
-  padding: 12px 9px;
-  font-weight: normal;
-  text-align: left;
-  vertical-align: top;
-}
-.content table tbody tr:nth-child(odd) td {
-  background: #EEE;
-}
-.content table tbody tr:nth-child(even) td {
-  background: transparent;
-}
+@import "buttons";

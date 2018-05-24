@@ -42,32 +42,39 @@ function addAnchors(path) {
 }
 
 $(document).ready(function() {
+
   scroll_toc(window.location.pathname);
 
   var path = (location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") ? '/docs/' : '/';
 
-  var app = new senna.App();
+  console.log(location);
 
-  app.setBasePath(path);
-  addAnchors(path);
 
-  app.addSurfaces('content');
-  app.addRoutes(new senna.Route(/.*/, senna.HtmlScreen));
+  if(location.pathname !== '/' && location.pathname !== '/docs/'){
 
-  app.on('startNavigate', function(event) {
-    scroll_toc(event.path);
+    var app = new senna.App();
 
-  });
-
-  app.on('endNavigate', function(event) {
+    app.setBasePath(path);
     addAnchors(path);
-    var hash = event.path.indexOf('#');
 
-  	if (hash !== -1) {
-  		location.hash = path.substr(hash);
-  	}
-    else {
-  		$('#content').scrollTop(0);
-  	}
-  });
+    app.addSurfaces('content');
+    app.addRoutes(new senna.Route(/.*/, senna.HtmlScreen));
+
+    app.on('startNavigate', function(event) {
+      scroll_toc(event.path);
+
+    });
+
+    app.on('endNavigate', function(event) {
+      addAnchors(path);
+      var hash = event.path.indexOf('#');
+
+      if (hash !== -1) {
+        location.hash = path.substr(hash);
+      }
+      else {
+        $('#content').scrollTop(0);
+      }
+    });
+  }
 });

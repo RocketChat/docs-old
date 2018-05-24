@@ -2,10 +2,6 @@
 
 ## Installing Rocket.Chat for Developing
 
-### On Windows
-
-To install on Windows please follow [this](https://docs.rocket.chat/installation/manual-installation/windows-server/) guide.
-
 ### On Linux/Mac
 
 To run Rocket.Chat for development on a Linux or a Mac you must first have the following programs installed:
@@ -30,6 +26,10 @@ your computer. You can go to the cloned repository folder and edit or add files 
 When you make changes to Rocket.Chat the server will automatically rebuild.
 
 Sometimes changes can shut down the server, if that happens just run `meteor npm start` again.
+
+### On Windows
+
+Using windows to develop is not recommended, instead is better to create a Linux virtual machine and follow the steps mentionated above, but if for some reason you really need to build rocket.chat on windows you can find a community supported guide over [here](../../installation/community-supported-installation/windows-server/).
 
 ## See Also
 
