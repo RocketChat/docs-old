@@ -237,7 +237,10 @@ Here you can also find what articles are incomplete and missing.
             - Stream Notify User
             - Stream Notify Room
             - Stream Room Messages
-        - The Message Object
+        - The Message Object:
+            - buttons
+            - keyboard
+            - templates
         - The Room Object
         - Livechat API:
             - getInitialData
