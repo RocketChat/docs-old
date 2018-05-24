@@ -28,7 +28,32 @@ proxy / localhost:3000 {
 }
 ```
 
-Replace `http://:8080` with your site information.  For instance, let's say I have example-domain.com pointing at my server. To get secured communications, I can do:
+
+Replace `http://:8080` with your site information.  For instance, let's say I have example-domain.com pointing at my server.
+
+First, be sure that your DNS has finished resolving before **before** attempting to enable SSL. If your DNS is not working yet, you could be instantly [throttled by Let's Encrypt](https://caddyserver.com/docs/automatic-https#testing) for _up to a week_. To test your DNS you can use http:
+
+```
+http://example-domain.com
+proxy / localhost:3000 {
+  websocket
+  transparent
+}
+```
+
+and restart caddy:
+
+```
+sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
+```
+
+You can check that the Caddy service started correctly by running:
+
+```
+sudo systemctl status snap.rocketchat-server.rocketchat-caddy
+```
+
+Once that is tested and resolved, to get secured communications, you can remove the `http://`:
 
 ```
 example-domain.com
