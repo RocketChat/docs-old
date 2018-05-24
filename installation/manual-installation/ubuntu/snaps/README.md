@@ -110,7 +110,7 @@ tar zxvf /path/to/your/backup.tgz
 This will create the following directory tree where you can find the extracted backup data:
 `~/backup_data/var/snap/rocketchat-server/<version>/dump/parties`
 
-##### Note: If you are restoring into a fresh install, complete the Initial Setup Wizard first with data from an unused username and email
+> Note: If you are restoring into a fresh install, complete the Initial Setup Wizard first with an unused email and username
 
 #### 2. Confirm your database name
 
