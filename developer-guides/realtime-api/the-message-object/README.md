@@ -127,7 +127,7 @@ The `type` field options include:
             "payload": { 
                 "type": "image",
                 "image_url": "<imgage-url>",
-                "image_description": "This is my image!"
+                "image_description": "This is my image!",
 
                 "keyboard": {
                     "default_height": true,
