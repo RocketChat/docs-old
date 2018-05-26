@@ -10,11 +10,11 @@ If you are an end-user and not a dev or a tester, [create an issue](https://gith
 
 ## Production Security Concerns
 
-When calling a production Rocket.Chat server, ensure it is running via HTTPS and has a valid SSL Certificate. The login method requires you to post your username and password in plaintext, which is why we highly suggest only calling the REST login api over HTTPS. Also, few things to note:
+When calling a production Rocket.Chat server, ensure it is running via HTTPS and has a valid SSL Certificate. The login method requires you to post your username and password in plaintext, which is why we highly suggest only calling the REST login API over HTTPS. Also, few things to note:
 
 - Only call via HTTPS
 - Implement a timed authorization token expiration strategy
-- Ensure the calling user only has permissions for what they are calling an no more
+- Ensure the calling user only has permissions for what they are calling and no more
 
 ### Miscellaneous Information
 
@@ -46,7 +46,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/users.delete`              | Deletes an existing user.                                       | [Link](users/delete/)               |
 | `/api/v1/users.forgotPassword`      | Send email to reset your password.                              | [Link](users/forgotpassword/)       |
 | `/api/v1/users.getAvatar`           | Gets the URL for a user's avatar.                               | [Link](users/getavatar/)            |
-| `/api/v1/users.getPresence`         | Gets the online presence of the a user.                         | [Link](users/getpresence/)          |
+| `/api/v1/users.getPresence`         | Gets the online presence of a user.                             | [Link](users/getpresence/)          |
 | `/api/v1/users.info`                | Gets a user's information, limited to the caller's permissions. | [Link](users/info/)                 |
 | `/api/v1/users.list`                | All of the users and their information, limited to permissions. | [Link](users/list/)                 |
 | `/api/v1/users.register`            | Register a new user.                                            | [Link](users/register/)             |
@@ -76,7 +76,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.kick`                       | Removes a user from a channel.                              | [Link](channels/kick/)                          |
 | `/api/v1/channels.leave`                      | Removes the calling user from a channel.                    | [Link](channels/leave/)                         |
 | `/api/v1/channels.list.joined`                | Gets only the channels the calling user has joined.         | [Link](channels/list-joined/)                   |
-| `/api/v1/channels.list`                       | Retrives all of the channels from the server.               | [Link](channels/list/)                          |
+| `/api/v1/channels.list`                       | Retrieves all of the channels from the server.              | [Link](channels/list/)                          |
 | `/api/v1/channels.open`                       | Adds the channel back to the user's list of channels.       | [Link](channels/open/)                          |
 | `/api/v1/channels.rename`                     | Changes a channel's name.                                   | [Link](channels/rename/)                        |
 | `/api/v1/channels.setAnnouncement`            | Sets a channel's announcement.                              | [Link](channels/setannouncement/)               |
