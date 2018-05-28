@@ -1,6 +1,6 @@
 # Star Message
 
-Starring messages allows a user to quickly save for future reference, or something similiar, for their own personal usage.
+Starring messages allows a user to quickly save for future reference, or something similar, for their own personal usage.
 
 ## Requirements
 

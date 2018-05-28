@@ -2,7 +2,7 @@
 
 If you have created a pull request creating a new feature please use this template to create a draft of the documentation.
 
-To submit a draft, create a pull request(make sure you are doing from a branch in the repository) and tag it as 'draft', after that the documentation team will edit it to suit the documentation standard.
+To submit a draft, create a pull request (make sure you are doing from a branch in the repository) and tag it as 'draft', after that the documentation team will edit it to suit the documentation standard.
 
 The draft serves to give information to the documentation team so they can create the appropriate documentation for that feature.
 

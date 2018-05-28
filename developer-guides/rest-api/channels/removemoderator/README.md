@@ -1,6 +1,6 @@
 # Channel Remove Moderator
 
-Removes the role of moderator from a user in the currrent channel.
+Removes the role of moderator from a user in the current channel.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

@@ -13,7 +13,7 @@
 - Use example docker-compose.yaml in repo
 - Fill the INSTANCE_IP env with the local ip of the docker-host (in a 3 node setup this is unique on every host)
 - Fill the passwords from rocket and oplogger
-- Change the IP of every host in the example docker-compose.yaml -> extra_hosts inserts host entrys so each rocketchat-container could resolve the others by the name
+- Change the IP of every host in the example docker-compose.yaml -> extra_hosts inserts host entries so each rocketchat-container could resolve the others by the name
 - Be sure that the instances could communicate on port 3000 with each other, this is important to see messages on other hosts directly
 
 ```

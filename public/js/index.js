@@ -1,5 +1,5 @@
 
-// redirect people to rocket.chat/docs if they try and browse the github pages version
+// redirect people to rocket.chat/docs if they try and browse the GitHub pages version
 if(location.hostname == "rocketchat.github.io" && location.href.indexOf('?noredirect') == -1) {
   location="https://rocket.chat" + location.pathname
 }
@@ -29,7 +29,6 @@ function scroll_toc(path) {
 }
 
 function addAnchors(path) {
-  console.log('ding');
 
   return $("h2, h3, h4, h5, h6").each(function(i, el) {
     var $el, icon, id;
@@ -43,33 +42,39 @@ function addAnchors(path) {
 }
 
 $(document).ready(function() {
+
   scroll_toc(window.location.pathname);
 
   var path = (location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") ? '/docs/' : '/';
-  console.log(path);
 
-  var app = new senna.App();
+  console.log(location);
 
-  app.setBasePath(path);
-  addAnchors(path);
 
-  app.addSurfaces('content');
-  app.addRoutes(new senna.Route(/.*/, senna.HtmlScreen));
+  if(location.pathname !== '/' && location.pathname !== '/docs/'){
 
-  app.on('startNavigate', function(event) {
-    scroll_toc(event.path);
+    var app = new senna.App();
 
-  });
-
-  app.on('endNavigate', function(event) {
+    app.setBasePath(path);
     addAnchors(path);
-    var hash = event.path.indexOf('#');
 
-  	if (hash !== -1) {
-  		location.hash = path.substr(hash);
-  	}
-    else {
-  		$('#content').scrollTop(0);
-  	}
-  });
+    app.addSurfaces('content');
+    app.addRoutes(new senna.Route(/.*/, senna.HtmlScreen));
+
+    app.on('startNavigate', function(event) {
+      scroll_toc(event.path);
+
+    });
+
+    app.on('endNavigate', function(event) {
+      addAnchors(path);
+      var hash = event.path.indexOf('#');
+
+      if (hash !== -1) {
+        location.hash = path.substr(hash);
+      }
+      else {
+        $('#content').scrollTop(0);
+      }
+    });
+  }
 });
