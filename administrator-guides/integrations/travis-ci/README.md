@@ -5,12 +5,12 @@ Add TravisCI notifications via a new WebHook in Rocket.Chat
 ## Receive alerts
 
 1. Create a new **Incoming WebHook**
-2. Select the channel where you will receive the alerts.  You may wish to create a dedicated channel for your notifications.
-3. Select an account from which the alerts will be posted.  You may wish to create a dedicated account just for notifications.
+2. Select the channel where you will receive the alerts. You may wish to create a dedicated channel for your notifications.
+3. Select an account from which the alerts will be posted. You may wish to create a dedicated account just for notifications.
 4. Set the "Enable Scripts" option to `True`.
 5. Copy scripts below and paste it in Script field.
 6. Save the integration. This will generate a webhook URL and secret for you.
-7. In your `.travis.yml` file add wenhooks parameter with webhook URL generated.
+7. In your `.travis.yml` file add WebHooks parameter with webhook URL generated.
 
 ```yaml
   notifications:

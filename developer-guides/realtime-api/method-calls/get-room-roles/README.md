@@ -1,6 +1,6 @@
 # Get Room Roles
 
-This method call is used to get room-wide special users and their roles. You may send an collection of room id (at least one).
+This method call is used to get room-wide special users and their roles. You may send a collection of room ids (at least one).
 
 The `result` is a collection of users and its roles per room.
 

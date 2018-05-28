@@ -2,7 +2,7 @@
 
 Setting up and running a software is not always an easy thing. We get that. That's why we try to help everybody as good as possible with their instance of Rocket.Chat. And while we do like to help everybody, it just isn't feasible in any case. That is why we have to limit the support by the core team to some extent.
 
-The following paragraphs will tell you about limits of the support the core team can give as well as where to find the community to help you and how you yourself can contribute by reporting bugs to us on Github.
+The following paragraphs will tell you about limits of the support the core team can give as well as where to find the community to help you and how you yourself can contribute by reporting bugs to us on GitHub.
 
 ## Supported versions of Rocket.Chat
 

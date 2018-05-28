@@ -17,7 +17,7 @@
 | `/api/v1/channels.invite` | Adds a user to a channel. | [Link](invite/) |
 | `/api/v1/channels.kick` | Removes a user from a channel. | [Link](kick/) |
 | `/api/v1/channels.leave` | Removes the calling user from a channel. | [Link](leave/) |
-| `/api/v1/channels.list` | Retrives all of the channels from the server. | [Link](list/) |
+| `/api/v1/channels.list` | Retrieves all of the channels from the server. | [Link](list/) |
 | `/api/v1/channels.list.joined` | Gets only the channels the calling user has joined. | [Link](list-joined/) |
 | `/api/v1/channels.open` | Adds the channel back to the user's list of channels. | [Link](open/) |
 | `/api/v1/channels.removeModerator` | Removes the role of moderator from a user in a channel. | [Link](removemoderator/) |
