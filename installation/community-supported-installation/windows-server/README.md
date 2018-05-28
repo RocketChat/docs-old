@@ -135,7 +135,7 @@ The following steps will detail integrating Rocket.Chat with IIS.
 
 #### Get UrlRewrite and ARR
 
-1. Open IIS, Click on your server, and then click on `Get New Web Platform Components` in the right hand menu
+1. Open IIS, click on your server, and then click on `Get New Web Platform Components` in the right hand menu
 2. Install the Web Platform Installer if prompted
 3. Once open, search for `Routing` in the upper right search box
 4. Click on the `Add` button for Application Request Routing 3.0 and then `Install`

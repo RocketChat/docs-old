@@ -55,6 +55,7 @@
     - Ubuntu:
       - Snaps:
         - AutoSSL
+    - Mongo Options
     - Configuring SSL Reverse Proxy
     - PM2, Systemd, Upstart
     - Running in a sub folder
@@ -220,6 +221,7 @@
         - addOwner
         - archive
         - close
+        - counters
         - create
         - files
         - getAllUserMentionsByChannel
@@ -235,6 +237,7 @@
         - removeModerator
         - removeOwner
         - rename
+        - setCustomFields
         - setDescription
         - setJoinCode
         - setPurpose
@@ -266,6 +269,7 @@
         - addOwner
         - archive
         - close
+        - counters
         - create
         - files
         - getIntegrations
@@ -280,6 +284,7 @@
         - removeModerator
         - removeOwner
         - rename
+        - setCustomFields
         - setDescription
         - setPurpose
         - setReadOnly
@@ -288,6 +293,7 @@
         - unarchive
       - Im:
         - close
+        - counters
         - create
         - files
         - history

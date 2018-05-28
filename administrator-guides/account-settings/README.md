@@ -29,7 +29,7 @@ In this guide we will go over all settings in the _Accounts_ Section.
 
 ## Iframe
 
-These settings are related to the Iframe Integration, please se the [Iframe integration page](../../developer-guides/iframe-integration) for more details.
+These settings are related to the Iframe Integration, please see the [Iframe integration page](../../developer-guides/iframe-integration) for more details.
 
 ## Registration
 
@@ -39,12 +39,12 @@ These settings are related to the Iframe Integration, please se the [Iframe inte
 - **Email Verification**: If this is set to true, users will have to confirm their email via a confirmation email sent to their email. (For this setting work, the SMTP settings must be already set up. See [Email Configuration](../email/setup))
 - **Manually Approve New Users**: If this is set to true, new users will have to wait for a user with the `view-user-administration` permission to approve their account before using Rocket.Chat.
 - **Allowed Domains List**:  This will block emails with different domains than the ones on this list.
-- **Blocked Domains List**:  This will block emails with domains that are on on this list.
+- **Blocked Domains List**:  This will block emails with domains that are on this list.
 - **Use Default Blocked Domains List**: Will block the email domains listed on this [file](https://github.com/RocketChat/Rocket.Chat/blob/develop/packages/rocketchat-lib/server/lib/defaultBlockedDomainsList.js)
-- **Use DNS Domain Check**: When this is set to true, users wont be able to register with invalid domains.
+- **Use DNS Domain Check**: When this is set to true, users won't be able to register with invalid domains.
 - **Registration Form**: This will change how the registration form is presented. Currently there are 3 options:
     - Public: The form will be public and anyone will be able to access;
-    - Disabled: The form will be disable and users wont be able to register through it;
+    - Disabled: The form will be disable and users won't be able to register through it;
     - Secret URL: The form will be only accessible using a specific URL;
 - **Registration Form Secret URL**: String to be added to the secret URL. Is recommended to use a random string for that. Example: `https://open.rocket.chat/register/[secret_hash]`.
 - **Registration Form Link Replacement Text**: Text to be shown in place of the registration form when the registration form is disabled.

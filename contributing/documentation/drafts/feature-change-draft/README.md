@@ -4,11 +4,11 @@ If you created a pull request and believe that it could change something already
 
 Firstly to check if the feature you are working on is already documented, you can take a look in the documentation map (<https://rocket.chat/docs/contributing/documentation/documentation-map/>), that is a list with all the articles and their current status. Alternatively you can use the search bar on our documentation website (<https://rocket.chat/docs/>).
 
-To submit a draft, create a pull request(make sure you are doing from a branch in the repository) and tag it as 'draft', after that the documentation team will edit it to suit the documentation standard.
+To submit a draft, create a pull request (make sure you are doing from a branch in the repository) and tag it as 'draft', after that the documentation team will edit it to suit the documentation standard.
 
 The draft serves to give information to the documentation team so they can create the appropriate documentation for that feature.
 
-When a feature is changed, its very important to update the documentation, the lack of this custom can lead to outdated and invalid documentation quickly.
+When a feature is changed, it's very important to update the documentation, the lack of this custom can lead to outdated and invalid documentation quickly.
 
 _Note 1: the template is not absolute, and in some cases it might not make sense to follow the template by the letter. If a field can't be answered you can leave it as "N/A"_
 

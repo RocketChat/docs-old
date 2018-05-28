@@ -10,11 +10,11 @@ If you are an end-user and not a dev or a tester, [create an issue](https://gith
 
 ## Production Security Concerns
 
-When calling a production Rocket.Chat server, ensure it is running via HTTPS and has a valid SSL Certificate. The login method requires you to post your username and password in plaintext, which is why we highly suggest only calling the REST login api over HTTPS. Also, few things to note:
+When calling a production Rocket.Chat server, ensure it is running via HTTPS and has a valid SSL Certificate. The login method requires you to post your username and password in plaintext, which is why we highly suggest only calling the REST login API over HTTPS. Also, few things to note:
 
 - Only call via HTTPS
 - Implement a timed authorization token expiration strategy
-- Ensure the calling user only has permissions for what they are calling an no more
+- Ensure the calling user only has permissions for what they are calling and no more
 
 ### Miscellaneous Information
 
@@ -46,7 +46,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/users.delete`              | Deletes an existing user.                                       | [Link](users/delete/)               |
 | `/api/v1/users.forgotPassword`      | Send email to reset your password.                              | [Link](users/forgotpassword/)       |
 | `/api/v1/users.getAvatar`           | Gets the URL for a user's avatar.                               | [Link](users/getavatar/)            |
-| `/api/v1/users.getPresence`         | Gets the online presence of the a user.                         | [Link](users/getpresence/)          |
+| `/api/v1/users.getPresence`         | Gets the online presence of a user.                             | [Link](users/getpresence/)          |
 | `/api/v1/users.info`                | Gets a user's information, limited to the caller's permissions. | [Link](users/info/)                 |
 | `/api/v1/users.list`                | All of the users and their information, limited to permissions. | [Link](users/list/)                 |
 | `/api/v1/users.register`            | Register a new user.                                            | [Link](users/register/)             |
@@ -63,9 +63,11 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :-------------------------------------------- | :---------------------------------------------------------- | :---------------------------------------------- |
 | `/api/v1/channels.addAll`                     | Adds all of the users on the server to a channel.           | [Link](channels/addall/)                        |
 | `/api/v1/channels.archive`                    | Archives a channel.                                         | [Link](channels/archive/)                       |
+| `/api/v1/channels.cleanHistory`               | Cleans up a channel's history, requires special permission. | [Link](channels/cleanhistory/)                  |
 | `/api/v1/channels.close`                      | Removes a channel from a user's list of channels.           | [Link](channels/close/)                         |
+| `/api/v1/channels.counters`                   | Gets channel counters.                                      | [Link](channels/counters/)                      |
 | `/api/v1/channels.create`                     | Creates a new channel.                                      | [Link](channels/create/)                        |
-| `/api/v1/channels.files`                      | Gets a list of files from a channel.                        | [Link](channels/files/)           |
+| `/api/v1/channels.files`                      | Gets a list of files from a channel.                        | [Link](channels/files/)                         |
 | `/api/v1/channels.getAllUserMentionsByChannel`| Gets all the mentions of a channel.                         | [Link](channels/getallusermentionsbychannel/)   |
 | `/api/v1/channels.getIntegrations`            | Gets the channel's integration.                             | [Link](channels/getintegrations/)               |
 | `/api/v1/channels.history`                    | Retrieves the messages from a channel.                      | [Link](channels/history/)                       |
@@ -73,10 +75,11 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.invite`                     | Adds a user to a channel.                                   | [Link](channels/invite/)                        |
 | `/api/v1/channels.kick`                       | Removes a user from a channel.                              | [Link](channels/kick/)                          |
 | `/api/v1/channels.leave`                      | Removes the calling user from a channel.                    | [Link](channels/leave/)                         |
-| `/api/v1/channels.list`                       | Retrives all of the channels from the server.               | [Link](channels/list/)                          |
 | `/api/v1/channels.list.joined`                | Gets only the channels the calling user has joined.         | [Link](channels/list-joined/)                   |
+| `/api/v1/channels.list`                       | Retrieves all of the channels from the server.              | [Link](channels/list/)                          |
 | `/api/v1/channels.open`                       | Adds the channel back to the user's list of channels.       | [Link](channels/open/)                          |
 | `/api/v1/channels.rename`                     | Changes a channel's name.                                   | [Link](channels/rename/)                        |
+| `/api/v1/channels.setCustomFields`            | Sets a channel's custom fields.                             | [Link](channels/setcustomfields/)               |
 | `/api/v1/channels.setAnnouncement`            | Sets a channel's announcement.                              | [Link](channels/setannouncement/)               |
 | `/api/v1/channels.setDescription`             | Sets a channel's description.                               | [Link](channels/setdescription/)                |
 | `/api/v1/channels.setJoinCode`                | Sets the channel's code required to join it.                | [Link](channels/setjoincode/)                   |
@@ -92,6 +95,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :------------------------------ | :------------------------------------------------- | :----------------------------- |
 | `/api/v1/groups.archive`        | Archives a private group.                          | [Link](groups/archive/)        |
 | `/api/v1/groups.close`          | Removes a private group from the list of groups.   | [Link](groups/close/)          |
+| `/api/v1/groups.counters`       | Gets group counters.                               | [Link](groups/counters/)       |
 | `/api/v1/groups.create`         | Creates a new private group.                       | [Link](groups/create/)         |
 | `/api/v1/groups.files`          | Gets a list of files from a private group.         | [Link](groups/files/)          |
 | `/api/v1/groups.history`        | Retrieves the messages from a private group.       | [Link](groups/history/)        |
@@ -103,6 +107,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.listAll`        | List all the private groups.                       | [Link](groups/listall/)        |
 | `/api/v1/groups.open`           | Adds the private group back to the list of groups. | [Link](groups/open/)           |
 | `/api/v1/groups.rename`         | Changes the name of the private group.             | [Link](groups/rename/)         |
+| `/api/v1/groups.setCustomFields | Sets private group's custom fields.                | [Link](groups/setcustomfields/)|
 | `/api/v1/groups.setDescription` | Sets a private group's description.                | [Link](groups/setdescription/) |
 | `/api/v1/groups.setPurpose`     | Sets a private group's description.                | [Link](groups/setpurpose/)     |
 | `/api/v1/groups.setReadOnly`    | Sets whether the room is read only or not.         | [Link](groups/setreadonly/)    |
@@ -133,6 +138,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | Url                          | Short Description                                             | Details Page                |
 | :--------------------------- | :------------------------------------------------------------ | :-------------------------- |
 | `/api/v1/im.close`           | Removes a direct message from the list of direct messages.    | [Link](im/close/)           |
+| `/api/v1/im.counters`        | Gets counters of direct messages.                             | [Link](im/counters/)        |
 | `/api/v1/im.create`          | Create a direct message session with another user.            | [Link](im/create/)          |
 | `/api/v1/im.history`         | Retrieves the messages from a direct message.                 | [Link](im/history/)         |
 | `/api/v1/im.files`           | Retrieves a list of files from a direct message.              | [Link](im/files/)           |

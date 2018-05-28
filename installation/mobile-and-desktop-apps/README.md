@@ -100,6 +100,6 @@ _Note: this guide is for the legacy (cordova) app. It might not be up to date._
 2. Open the hamburger menu (upper-left) and choose "Get Webkey". (On the desktop view, you would click the key icon in the topbar.)
 3. Optionally enter a label (e.g. "phone") and then click "create".
 4. You'll be presented with a URL, aka a "webkey". Long-press on this URL, then choose "copy link address".
-5. Open the rocket.chat app.
+5. Open the Rocket.Chat app.
 6. Paste in the copied URL (the whole thing!) as your Rocket.Chat server address.
 7. That's it! No password is needed, since an authorization token is encoded into the URL.
