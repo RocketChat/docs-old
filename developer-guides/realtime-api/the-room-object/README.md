@@ -34,7 +34,7 @@ You'll need to access the room information using data from [Get Subscriptions](h
 
 ### Chat
 
-An open chat room. An chat contains more information about the room as it follows:
+An open chatroom. A chat contains more information about the room as it follows:
 
 - `_id`: The room id
 - `t`: The room type (in this case `c`)
@@ -60,7 +60,7 @@ Example:
 
 ### Private chat
 
-A private chat room. This type of room resembles the open chat room with an addition.
+A private chatroom. This type of room resembles the open chat room with an addition.
 
 - `_id`: The room id
 - `t`: The room type (in this case `p`)

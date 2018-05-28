@@ -48,10 +48,13 @@ When making small changes like typos and such, there is no problem to edit the f
 
 - install ruby (version 2.5 or higher recommended, if using any version prior to 2.5 you will need to install bundler with `gem install bundler`).
 - Install the [Markdown Linter Tool](https://github.com/markdownlint/markdownlint) with `gem install mdl`.
+- This step is for only macOS users:
+    - You will need to have either `xcode` or the `xcode command line tools` installed. To install the command tools use `xcode-select --install`. Don't forget to accept the `sudo xcodebuild -license` command.
+    - Depending on your setup you might need to install [nokogiri](http://www.nokogiri.org/tutorials/installing_nokogiri.html) and its dependencies manually.
 - Fork the appropriate repository to your account.
 - This is usually [here](https://github.com/RocketChat/docs).
 - Clone your fork.
-- Run `bundle install`.
+- Run `bundle install` inside of the cloned docs folder.
 - Start the server with `bundle exec "jekyll serve --incremental --safe"`.
 - Before starting read our [Markdown Style Guide](../markdown-styleguide).
 - Make your changes locally.
@@ -104,7 +107,7 @@ For a incomplete document you should add
 
 After that you will have to write an explanation of how this document should be, or what is the problem with it on the [Missing our Outdated Docs](../missing-and-outdated-list) and link this topic after the `#` on the link you just added to the Documentation Map.
 
-_Incomplete articles are the ones that are missing a big part of information in them, so if a article is missing a little bit of information, it shouldn't be added to the incomplete list_
+_Incomplete articles are the ones that are missing a big part of information in them, so if an article is missing a little bit of information, it shouldn't be added to the incomplete list_
 
 _Bugs, typos, markdown syntax and such should not be listed on this map_
 

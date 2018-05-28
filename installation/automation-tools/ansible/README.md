@@ -10,7 +10,7 @@
 This document will explain, to those unfamiliar with Ansible, how they can get an Ansible environment set-up quickly, with the end goal of deploying Rocket.Chat to a (or multiple) server(s).
 
 It is a quick, dirty HowTo format, not intended to teach you Ansible's full capabilities.
-Ansible is an incredible tool, with great documentation, a welcoming comminity, and it's all very easy to pick up - not to mention extremely powerful and suited for just about any situation.
+Ansible is an incredible tool, with great documentation, a welcoming community, and it's all very easy to pick up - not to mention extremely powerful and suited for just about any situation.
 
 ## Operational Overview
 
@@ -20,7 +20,7 @@ So, to control remote systems, you only need to install Ansible on your control 
 
 ## Getting Ansible
 
-It's recommended that you check out [Ansible's official documentation on installing](http://docs.ansible.com/ansible/intro_installation.html) (it's really easy!), but here's a quick run down of installation methods:
+It's recommended that you check out [Ansible's official documentation on installing](http://docs.ansible.com/ansible/intro_installation.html) (it's really easy!), but here's a quick rundown of installation methods:
 
 ### Package manager
 
@@ -110,7 +110,7 @@ Simple as that! Alright, we're almost ready to deploy Rocket.Chat, just two more
 ### Download the Rocket.Chat Ansible role
 
 Ansible has a nice and easy way to share and use other people's roles: [Galaxy](http://galaxy.ansible.com).
-You can download roles you want to use using a commandline tool that was installed earlier when you installed Ansible, `ansible-galaxy`.
+You can download roles you want to use by using a command line tool that was installed earlier when you installed Ansible, `ansible-galaxy`.
 
 First off, our roles need somewhere to live, so, let's make a `roles` directory:
 

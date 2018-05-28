@@ -4,7 +4,10 @@
 | :--- | :--- | :--- |
 | `/api/v1/users.update` | `yes` | `POST` |
 
-Note that to update the password for the user, "edit-other-user-password" permission must be set accordingly using an administrator account (Administration > Permissions).
+**Note**
+
+- To save `customFields` you must first define the `customFields` in admin panel (Accounts -> Registration -> Custom fields)
+- To update the password for the user, "edit-other-user-password" permission must be set accordingly using an administrator account (Administration > Permissions).
 
 ## Payload
 

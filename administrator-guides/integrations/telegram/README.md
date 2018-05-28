@@ -58,14 +58,14 @@ class Script {
 }
 ```
 
-## Letting Telegram Know About Rocket.Chat's Webhook
+## Letting Telegram Know About Rocket.Chat's WebHook
 
 1. Copy incoming webhook URL from Rocket.Chat
 2. Change following URL with your token and Incoming webhookURL and execute in regular browser `https://api.telegram.org/bot[myauthorization-token]/setwebhook?url=[Incoming_Webhook_Link_from_Rocket.Chat]`
-3. Receive the message `{ "ok": true, "result": true, "description": "Webhook succsessfully set" }` (or similar)
+3. Receive the message `{ "ok": true, "result": true, "description": "Webhook successfully set" }` (or similar)
 4. Test your incoming Webhook by sending a telegram message to the bot. It should be posted in the channel/user you specified in the incoming webhook. Check Rocket.Chat's Logs and write down `chat_id` (or `[chat-id]`)
 
-## Create Outgoing Webhook in Rocket.Chat
+## Create Outgoing WebHook in Rocket.Chat
 
 1. Create outgoing webhook and specify channel with the following url: `https://api.telegram.org/bot[myauthorization-token]/sendMessage?chat_id=[chat-id]`
 2. Paste the Outgoing Webhook below.

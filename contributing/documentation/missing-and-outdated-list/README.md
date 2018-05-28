@@ -18,13 +18,9 @@ In this article we explained how to start the end to end and unit tests in Rocke
 
 This style guide needs to be converted to CSS, since the base is almost the same.
 
-## Internal Hubot
-
-Instructions on how to use and develop hubot scripts are needed in this article.
-
 ## Permissions
 
-Not all permissions are listed on this articles, and some of the permissions listed there don't have a description.
+Not all permissions are listed on this article, and some of the permissions listed there don't have a description.
 
 And Fix the markdown table on that article.
 
@@ -52,7 +48,7 @@ Add instructions on how to use screen-sharing.
 
 ## RedHat
 
-This section should be completed with the details on how to instal Rocket.Chat on RedHat.
+This section should be completed with the details on how to install Rocket.Chat on RedHat.
 
 ## Releases
 
@@ -64,7 +60,7 @@ Add instructions on how to import data from a cloud hosted hipchat.
 
 ## Schema Definition
 
-Add more details on what is this doc is about.
+Add more details on what is this doc about.
 
 ## Wordpress
 
@@ -126,19 +122,7 @@ Create a guide on how to create custom oauth apps.
 
 ## Using Rocket.Chat as an Oauth provider
 
-Create a guide on how to use Rocket.Chat as a Oauth provider.
-
-## channels.files
-
-Create documentation on how the `channels.files` REST API endpoint works
-
-## groups.files
-
-Create documentation on how the `groups.files` REST API endpoint works
-
-## im.files
-
-Create documentation on how the `im.files` REST API endpoint works
+Create a guide on how to use Rocket.Chat as an Oauth provider.
 
 ## channels.members
 

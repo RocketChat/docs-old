@@ -31,7 +31,7 @@ With this queue method active, agents will have a new `Incoming Livechats` secti
 Each new chat will be available on the `Incoming Livechats` section to **all** agents. So any agent can
 take a new incoming chat.
 
-When the agent clicks on the incoming livechat, the system will show the first messages sent by the visitor, so the
+When the agent clicks on the incoming Livechat, the system will show the first messages sent by the visitor, so the
 agent can decide if he will take the chat or not:
 
 ![image](https://cloud.githubusercontent.com/assets/8620042/15939960/a31a5b64-2e3f-11e6-9a99-f375b66e6a9d.png)

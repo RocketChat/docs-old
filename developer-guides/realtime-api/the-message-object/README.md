@@ -11,7 +11,7 @@ The message object contains these fields:
 - `u`: The user that sent the message
 - `_updatedAt`: The time stamp when the message got saved on the server
 - `editedAt`: _(Optional)_ The time stamp of when the message was edited
-- `editedBy`: _(Optional)_ The user that editted the message
+- `editedBy`: _(Optional)_ The user that edited the message
 - `urls`: _(Optional)_ A collection of URLs metadata. Available when the message contains at least one URL
 - `attachments`: _(Optional)_ A collection of attachment objects, available only when the message has at least one attachment
 - `alias`: _(Optional)_ A way to display the message is "sent" from someone else other than the user who sent the message

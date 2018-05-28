@@ -38,12 +38,12 @@ ExecStartPre=-/usr/bin/docker pull mongo:3.2
 
 
 ExecStart=/usr/bin/docker run \
-    --name #name for dockercontainer# \
+    --name mongo \
     -v .../path/to/data/db:/data/db \
     -v .../path/to/data/dump:/data/dump \ <--optional
     --net=rocketchat_default \
     mongo:3.2 \
-    mongod --smallfiles --oplogSize 128 --replSet rs0
+    mongod --smallfiles --oplogSize 128 --replSet rs0 --storageEngine=mmapv1
 
 ExecStop=-/usr/bin/docker kill mongo
 ExecStop=-/usr/bin/docker rm mongo
@@ -91,6 +91,7 @@ Execute:
 docker run \
       --name mongo-init-replica \
       --link mongo:mongo \
+      --rm \
       --net=rocketchat_default \
       mongo:3.2 \
       mongo mongo/rocketchat --eval "rs.initiate({ _id: 'rs0', members: [ { _id: 0, host: 'localhost:27017' } ]})"

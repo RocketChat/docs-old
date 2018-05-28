@@ -4,7 +4,11 @@
     - Contribution Guidelines
     - Markdown Styleguide
     - Documentation Map
+    - Drafts:
+      - New Feature Draft
+      - Feature Change Draft
     - Missing and Outdated List
+    - Community Maintainers
   - Google Summer of Code 2017
   - Google Summer of Code 2018
   - Promoting
@@ -39,23 +43,18 @@
   - Docker containers:
     - Generic Linux
     - systemd
+    - High Availability Install
     - Available Images
     - Docker Compose
   - Manual Installation:
     - CentOS
     - Debian
-    - FreeBSD:
-      - Universal
-    - MacOSX
     - Multiple Instances to Improve Performance
-    - OpenSUSE
+    - Migrating Meteor Mongo
     - RedHat
     - Ubuntu:
       - Snaps:
         - AutoSSL
-    - Windows 10 Pro
-    - Windows Server:
-      - Releases
     - Configuring SSL Reverse Proxy
     - PM2, Systemd, Upstart
     - Running in a sub folder
@@ -67,6 +66,12 @@
   - Updating:
     - From 0.x.x to 0.40.0
   - Minimum Requirements
+  - Community Supported Installation:
+    - FreeBSD:
+      - Universal
+    - Windows 10 Pro
+    - Windows Server
+    - OpenSUSE
 - User guides:
   - Connecting to a Server
   - Registration
@@ -92,8 +97,8 @@
     - Direct Reply
   - File Upload:
     - Amazon S3
+    - Google Cloud Storage
     - Minio
-  - Hubot
   - Import:
     - CSV
     - HipChat:
@@ -128,7 +133,6 @@
     - Travis CI
     - Trello
     - Uptime Robot
-  - Internal Hubot
   - Jitsi Video Bridge
   - Livechat:
     - Livechat Queues
@@ -139,19 +143,24 @@
     - Drupal
     - Pidgin
   - Create the First Admin
+  - Restoring an Admin
+  - Settings Via Env Vars
 - Developer guides:
     - Quick Start
     - Branches and Releases
     - Code Styleguide:
       - less
     - Deeplink
+    - Deprecation
     - Iframe Integration:
       - Authentication
       - Commands
       - Events
+    - Embedded Layout
     - Internationalization
     - Livechat API
-    - Mobile Apps
+    - Mobile Apps:
+      - Supporting SSL
     - Realtime-API:
       - Method Calls:
         - Login
@@ -167,6 +176,7 @@
         - Get Permissions
         - User Presence
         - Notify Room Stream
+        - Create Direct Message
         - Send Message
         - Delete Message
         - Update Message
@@ -198,17 +208,22 @@
         - sendOfflineMessage
     - Rest API:
       - Authentication:
+        - facebook
+        - google
         - login
         - logout
         - me
+        - twitter
       - Channels:
         - addAll
         - addModerator
         - addOwner
         - archive
-        - cleanHistory
         - close
+        - counters
         - create
+        - files
+        - getAllUserMentionsByChannel
         - getIntegrations
         - history
         - info
@@ -232,10 +247,14 @@
       - Chat:
         - delete
         - getMessage
+        - getMessageReadReceipts
         - pinMessage
         - postMessage
         - react
+        - reportMessage
+        - search
         - starMessage
+        - sendMessage
         - unPinMessage
         - unStarMessage
         - update
@@ -249,7 +268,9 @@
         - addOwner
         - archive
         - close
+        - counters
         - create
+        - files
         - getIntegrations
         - history
         - info
@@ -257,6 +278,7 @@
         - kick
         - leave
         - list
+        - listAll
         - open
         - removeModerator
         - removeOwner
@@ -270,6 +292,9 @@
         - unarchive
       - Im:
         - close
+        - counters
+        - create
+        - files
         - history
         - list.everyone
         - list
@@ -285,29 +310,44 @@
         - sms-incoming
         - users
       - Miscellaneous:
+        - directory
         - info
+        - spotlight
+        - statistics
+        - statistics.list
       - Rooms:
+        - cleanHistory
+        - favorite
         - get
+        - saveNotification
         - upload
       - Settings:
         - get
         - get-by-id
+        - oauth
         - public
         - service-configuration
         - update
-      - Spotlight
+      - Subscriptions:
+        - get
+        - getOne
+        - read
       - Users:
         - create
         - createToken
         - delete
+        - forgotPassword
         - getAvatar
         - getPresence
+        - get-preferences
         - info
         - list
         - register
         - resetAvatar
         - setAvatar
+        - set-preferences
         - update
+        - updateOwnBasicInfo
       - Offset and Count and Sort Info
       - Permissions
       - Query and Fields Info
@@ -318,5 +358,14 @@
       - Colors
       - Components
       - Themes
+- Bots:
+  - Bots FAQ
+  - Bots Architecture
+  - Creating Bot Users
+  - Configure Bot Environment
+  - Running a Hubot Bot
+  - Running a Botkit Bot
+  - Running a Rasa Bot
+  - Running a Botpress Bot
 - Community Cookbook:
   - Remote Video Monitoring

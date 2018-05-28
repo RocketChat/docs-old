@@ -57,8 +57,8 @@ Now we download and install Rocket.Chat
 ```
 cd /opt
 
-curl -L https://releases.rocket.chat/latest/download -o rocket.chat.tgz
-tar zxvf rocket.chat.tgz
+curl -L https://releases.rocket.chat/latest/download -o rocket.chat.tar.gz
+tar zxvf rocket.chat.tar.gz
 
 mv bundle Rocket.Chat
 cd Rocket.Chat/programs/server
@@ -84,7 +84,7 @@ If you don't have DNS configured use your IP in place of the hostname.  You can 
 
 ## Mongo
 
-First lets enable Mongodb to start with the host using:
+First let's enable Mongodb to start with the host using:
 
 ```
 chkconfig mongod on
@@ -178,6 +178,6 @@ systemctl start rocketchat.service
 Upgrading is much the same as installing Rocket.Chat
 
 1. Shutdown Rocket.Chat
-2. Goto the installation folder in this case: `cd /opt/`
+2. Go to the installation folder in this case: `cd /opt/`
 3. Remove or move the `Rocket.Chat` folder.
 4. Follow the [installation section](#installing-rocketchat)
