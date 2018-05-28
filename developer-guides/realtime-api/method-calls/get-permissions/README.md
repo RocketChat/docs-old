@@ -2,7 +2,7 @@
 
 Use this call to get a collection with all the permissions of the server. Each permission will have the roles it applies to.
 
-You may use this information to change your UI according to the permissons a user has (hidding what he can't do for example).
+You may use this information to change your UI according to the permissions a user has (hiding what he can't do for example).
 
 Example call:
 
@@ -27,12 +27,12 @@ Response:
 }
 ```
 
-## The Permisson object
+## The Permission object
 
-The permission object describes a permisson as:
+The permission object describes a permission as:
 
 - `_id`: The permission's id
-- `roles`: A collection of roles that this permissions applies to
+- `roles`: A collection of roles that this permission applies to
 - `_updatedAt`: (Optional) The last time this permission object was updated in the database
 - `meta`: Metadata about the permission (described below)
 - `$loki`: An internal property which can be ignored (it is removed on the web client before being added to the web client's database)
@@ -42,7 +42,7 @@ The `meta` object is defined as:
 - `revision`: The revision of the permission
 - `created`: Date the permission was created
 - `version`: The permission version
-- `updated`: (Optional) Date the permisson  was last updated
+- `updated`: (Optional) Date the permission was last updated
 
 Example:
 

@@ -1,6 +1,6 @@
 # Channel Add Owner
 
-Gives the role of owner for a user in the currrent channel.
+Gives the role of owner for a user in the current channel.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

@@ -1,6 +1,6 @@
 # Deploying Rocket.Chat on Google Compute Engine
 
-1. Create a compute instance with a linux image (i.e the default debian)
+1. Create a compute instance with a Linux image (i.e the default Debian)
 
 2. SSH to the instance
 
@@ -14,7 +14,7 @@
 
    `sudo docker run --name rocketchat -p 80:3000 --env ROOT_URL=https://www.test.com --env MONGO_URL=mongodb://db/rocketchat --link db -d rocketchat/rocket.chat`
 
-   You are now runing rocket chat on compute engine. You can open a browser with the external IP of the instance.
+   You are now running rocket chat on compute engine. You can open a browser with the external IP of the instance.
 
 If you want the containers to start each time the instance reboots configure the following to the instance.
 

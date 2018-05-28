@@ -61,7 +61,7 @@ Restart Nginx: ```service nginx restart```
 
 ## Running under Plesk Onyx behind Nginx
 
-Plesk Onyx has now a docker installation and Nginx proxy docker rule generator builtin, that doesn't support adding custom directives. Disable it and add the rules manually in the additional Nginx directives space. A scheme follows (replace 30000 with your external docker mapped port).
+Plesk Onyx has now a docker installation and Nginx proxy docker rule generator built in, that doesn't support adding custom directives. Disable it and add the rules manually in the additional Nginx directives space. A scheme follows (replace 30000 with your external docker mapped port).
 
 ```
 #manual extension docker with socket upgrade begin
@@ -96,6 +96,7 @@ a2enmod proxy_http
 a2enmod proxy
 a2enmod ssl
 a2enmod proxy_wstunnel
+a2enmod rewrite
 ```
 
 Add your private key to ```/etc/ssl/private/chat.domain.com.key```
@@ -159,9 +160,9 @@ Insert
 ```
 your_domain.com {
         proxy / 127.0.0.1:3000 {
-                proxy_header X-Forwarded-Proto {scheme}
-                proxy_header X-Forwarded-For {host}
-                proxy_header Host {host}
+                header_upstream X-Forwarded-Proto {scheme}
+                header_upstream X-Forwarded-For {host}
+                header_upstream Host {host}
                 websocket
         }
 }

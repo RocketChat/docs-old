@@ -1,4 +1,4 @@
-# Gitlab
+# GitLab
 
 Add GitLab notifications via a new WebHook in Rocket.Chat
 
@@ -6,9 +6,9 @@ Add GitLab notifications via a new WebHook in Rocket.Chat
 2. Choose Incoming WebHook
 3. Follow all instructions like Enable, give it a name, link to channel etc. Set "Enable Script" to true and enter the javascript in the "Script" box
 4. Press Save changes and copy the *Webhook URL* (added just below the script box)
-5. Go to your gitlab project, ie. <https://gitlab.com/>< username >/< project >/hooks . It's in the project "settings" under Webhooks menu GitLab.
+5. Go to your GitLab project, ie. <https://gitlab.com/>< username >/< project >/hooks . It's in the project "settings" under Webhooks menu GitLab.
 6. Add a new webhook by pasting the Rocket.Chat url you've copied in step 4, select at least 1 checkbox and press the button (conveniently called "Add Webhook")
-7. Test the webhook with the "Test Hook" button in Gitlab, a topbar should appear with more info (success or failure)
+7. Test the webhook with the "Test Hook" button in GitLab, a topbar should appear with more info (success or failure)
 
 Paste this in javascript in the "Script" text area on Rocket.Chat webhook settings
 
@@ -384,4 +384,4 @@ See: ${data.object_attributes.url}`
 
 This example contains code for several hooks. It can easily be extended with more. Source: <https://github.com/malko/rocketchat-gitlab-hook>.
 
-Gitlab webhook help: <https://gitlab.com/help/web_hooks/web_hooks>
+GitLab webhook help: <https://gitlab.com/help/web_hooks/web_hooks>

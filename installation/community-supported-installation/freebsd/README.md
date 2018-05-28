@@ -29,12 +29,12 @@ The package management tool is not yet installed on your system.
 Do you want to fetch and install it now? [y/N]:
 ```
 
-Its just because the pkg-ng binary package system have not been setup / bootstraped yet.
+It's just because the pkg-ng binary package system have not been setup / bootstraped yet.
 Simply choose yes (y) here. And press enter.
 
 ### Installing pm2
 
-We need pm2 later to deamonize or Rocket.Chat build.
+We need pm2 later to daemonize or Rocket.Chat build.
 
 Now, install pm2:
 
@@ -170,13 +170,13 @@ We need to install bcrypt separately.
 $ npm install --clang=1 bcrypt
 ```
 
-After that: Go ahead and and start rocket.chat!
+After that: Go ahead and start Rocket.Chat!
 
 ```
 $ meteor
 ```
 
-The first launch of Rocket.chat might take some time as its installing dependencies.
+The first launch of Rocket.Chat might take some time as its installing dependencies.
 If all goes well you would see output like this:
 
 ```

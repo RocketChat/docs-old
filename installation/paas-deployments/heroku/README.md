@@ -39,7 +39,7 @@ git push heroku master # push all updates back to your Heroku app instance
 
 ## Customized command line for developers
 
-This is the option that gives you full control.  It is the preferred option for developers.
+This is the option that gives you full control. It is the preferred option for developers.
 
 First make sure you have the following installed:
 
@@ -72,9 +72,9 @@ heroku config:add ROOT_URL=https://<your app name>.herokuapp.com/
 
 If your app failed to start, check and make sure you have ROOT_URL set.
 
-Heroku app deployment is triggered by git commits - to Heroku's repos, and not github.
+Heroku app deployment is triggered by git commits - to Heroku's repos, and not GitHub.
 
-You are almost ready to deploy and stage your own instance.  But you must first wire up the git repos to heroku.
+You are almost ready to deploy and stage your own instance. But you must first wire up the git repos to Heroku.
 
 ```
 git remote add heroku https://git.heroku.com/<your app name>.git
@@ -106,8 +106,8 @@ git push heroku master
 
 ### Caveats
 
-- To add any service to an app, even if it is free, you will need to register a valid credit card with Heroku.   Rocket.Chat needs both mongolab and logenteries services.
-- Heroku (actually CloudFoundry) uses custom buildpacks to stage applications.  The buildpack used by Rocket.Chat can take a very long time to build - since it needs to download Meteor and build the server image every time.
+- To add any service to an app, even if it is free, you will need to register a valid credit card with Heroku.  Rocket.Chat needs both mongolab and logenteries services.
+- Heroku (actually CloudFoundry) uses custom buildpacks to stage applications. The buildpack used by Rocket.Chat can take a very long time to build - since it needs to download Meteor and build the server image every time.
 - You *must*  set the ROOT_URL environment variable, as shown above, otherwise the server side will crash.
 - Note mongolab's free sandbox plan does not support oplog tailing - check other plans if you need oplog.
 - If you are scaling to multi-dynos on Heroku, and you have clients/customers still using older browsers that do not support WebSocket, you need to be mindful of sticky session support (BETA) on Heroku - see [sticky sessions on Heroku](https://devcenter.heroku.com/articles/session-affinity).
