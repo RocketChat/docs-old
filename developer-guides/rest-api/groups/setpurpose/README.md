@@ -1,6 +1,6 @@
 # Group Set Purpose
 
-Sets the description for the private group.
+Sets the description for the private group (the same as groups.setDescription, obsolete).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

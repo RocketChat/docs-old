@@ -20,27 +20,36 @@
   "u": {                                   // Object           Owner User
     "_id": "CABrXSHpDqbZXGkYR",            // Random.id()      User Id
     "username": "john"                     // String           User Username
+  },
+  "customFields": {                        // Object           User defined custom fields (for t:c and t:p only)
+     "userDefinedField": "userValue",      //                  User defined field example
+     "userDefinedField2": true,            //                  User defined field example
+     "userObject3": {                      //                  User defined field example
+        "a": "hello",
+        "b": "lalala"
+     }
   }
 }
 ```
 
 ### Fields
 
-| Fields      | Type          | Description              |
-| :---------- | :------------ | :----------------------- |
-| \_id        | Random.id()   | Room Id                  |
-| t           | String        | Room Type                |
-| ts          | Date          | Room Creation Timestamp  |
-| name        | String        | Room Name (t:d -> empty) |
-| lm          | Date          | Last Message Timestamp   |
-| msgs        | Integer       | Messages Counter         |
-| cl          | Boolean       | If users can leave room  |
-| ro          | Boolean       | Read Only                |
-| usernames   | Array[String] | Room Users               |
-| usernames.0 | String        | User Username            |
-| u           | Object        | Owner User               |
-| u.\_id      | Random.id()   | User Id                  |
-| u.username  | String        | User Username            |
+| Fields       | Type          | Description                               |
+| :----------- | :------------ | :---------------------------------------- |
+| \_id         | Random.id()   | Room Id                                   |
+| t            | String        | Room Type                                 |
+| ts           | Date          | Room Creation Timestamp                   |
+| name         | String        | Room Name (t:d -> empty)                  |
+| lm           | Date          | Last Message Timestamp                    |
+| msgs         | Integer       | Messages Counter                          |
+| cl           | Boolean       | If users can leave room                   |
+| ro           | Boolean       | Read Only                                 |
+| usernames    | Array[String] | Room Users                                |
+| usernames.0  | String        | User Username                             |
+| u            | Object        | Owner User                                |
+| u.\_id       | Random.id()   | User Id                                   |
+| u.username   | String        | User Username                             |
+| customFields | Object        | User custom fields (for t:c and t:p only) |
 
 ### Indexes
 
@@ -70,30 +79,44 @@
   "v": {                                   // Object           Visitor
     "_id": "CABrXSHpDqbZXGkYR",            // Random.id()      Visitor Id
     "username": "anonymous"                // String           Visitor Username
+  },
+  "customFields": {                        // Object           User defined custom fields
+     "userDefinedField": "userValue",      //                  User defined field example
+     "userDefinedField2": true,            //                  User defined field example
+     "userObject3": {                      //                  User defined field example
+        "a": "hello",
+        "b": "lalala"
+     }
   }
 }
 ```
 
 ### Fields
 
-| Fields     | Type        | Description                                                      |
-| :--------- | :---------- | :--------------------------------------------------------------- |
-| \_id       | Random.id() | Subscriptions Id                                                 |
-| t          | String      | Subscription Type (copy from Room)                               |
-| ts         | Date        | Subscription Creation Timestamp                                  |
-| ls         | Date        | Last Seen Timestamp                                              |
-| name       | String      | Subscription Name (t:d -> target username)                       |
-| rid        | Random.id() | Room Id                                                          |
-| f          | Boolean     | Favorited                                                        |
-| open       | Boolean     | Is Room Opened                                                   |
-| alert      | Boolean     | Room has unread messages for this user                           |
-| unread     | Integer     | Counter of unread messages with mentions or from direct messages |
-| u          | Object      | User                                                             |
-| u.\_id     | Random.id() | User Id                                                          |
-| u.username | String      | User Username                                                    |
-| v          | Object      | Visitor                                                          |
-| v.\_id     | Random.id() | Visitor Id                                                       |
-| v.username | String      | Visitor Username                                                 |
+| Fields       | Type        | Description                                                      |
+| :----------- | :---------- | :--------------------------------------------------------------- |
+| \_id         | Random.id() | Subscriptions Id                                                 |
+| t            | String      | Subscription Type (copy from Room)                               |
+| ts           | Date        | Subscription Creation Timestamp                                  |
+| ls           | Date        | Last Seen Timestamp                                              |
+| name         | String      | Subscription Name (t:d -> target username)                       |
+| rid          | Random.id() | Room Id                                                          |
+| f            | Boolean     | Favorited                                                        |
+| open         | Boolean     | Is Room Opened                                                   |
+| alert        | Boolean     | Room has unread messages for this user                           |
+| unread       | Integer     | Counter of unread messages with mentions or from direct messages |
+| u            | Object      | User                                                             |
+| u.\_id       | Random.id() | User Id                                                          |
+| u.username   | String      | User Username                                                    |
+| v            | Object      | Visitor                                                          |
+| v.\_id       | Random.id() | Visitor Id                                                       |
+| v.username   | String      | Visitor Username                                                 |
+| customFields | Object      | User custom fields                                               |
+
+Notes about customFields:
+
+- customFields inherits from room's customFields for channels (Room Type: c = chanel) and groups (Room Type: p = group) and changes with room's customFields
+- customFields inherits from user's customFields for Direct Messages (Room Type: d = direct) and changes with user's customFields. Note that users of Direct Messages room will have own customFields.
 
 ### Indexes
 
