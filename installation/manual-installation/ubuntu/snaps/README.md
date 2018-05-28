@@ -6,7 +6,7 @@
 sudo snap install rocketchat-server
 ```
 
-Then browse to localhost:3000 and setup RocketChat.
+Then browse to localhost:3000 and setup Rocket.Chat.
 
 Snaps are secure. Rocket.Chat and all of its dependencies are isolated from the rest of your system. Snaps also auto update when we release a new version. So no need more hassle updating.
 
@@ -24,7 +24,7 @@ If you have questions about snaps best place to ask them is in: [#ubuntu-snap](h
 
 Check out our guide for enabling caddy: [here](../../../../installation/manual-installation/ubuntu/snaps/autossl/)
 
-### Ubuntu 16.04 LTS gives message "snap not found", whats wrong?
+### Ubuntu 16.04 LTS gives message "snap not found", what's wrong?
 
 Make sure you're using x64 or amd64 (or armhf) images, especially on VPS or VMs. x86 is 32 bit and not supported.
 
@@ -52,7 +52,7 @@ sudo systemctl status snap.rocketchat-server.rocketchat-mongo.service
 
 ### How can I view the logs?
 
-To see the logs from rocket.chat
+To see the logs from Rocket.Chat
 
 ```
 sudo journalctl -u snap.rocketchat-server.rocketchat-server
@@ -166,7 +166,7 @@ You can do this via:
 snap remove --revision=35 rocketchat-server
 ```
 
-<!--### I need to install snaps on a computer with out a network, how do I get the snaps?
+<!--### I need to install snaps on a computer without a network, how do I get the snaps?
 
 You will need two things.  First you need the ubuntu-core snap.  This is a base snap that is normally auto downloaded if you are connected to the internet.  You can get this via:
 

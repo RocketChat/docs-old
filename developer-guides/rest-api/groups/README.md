@@ -7,6 +7,7 @@
 | `/api/v1/groups.addOwner` | Gives the role of owner to a user in a group. | [Link](addowner/) |
 | `/api/v1/groups.archive` | Archives a private group. | [Link](archive/) |
 | `/api/v1/groups.close` | Removes a private group from the list of groups. | [Link](close/) |
+| `/api/v1/groups.counters` | Gets group counters. | [Link](counters/) |
 | `/api/v1/groups.create` | Creates a new private group. | [Link](create/) |
 | `/api/v1/groups.files`  | Gets a list of files from a private group. | [Link](files/)          |
 | `/api/v1/groups.getIntegrations` | Gets the integrations assigned to the group. | [Link](getintegrations/) |

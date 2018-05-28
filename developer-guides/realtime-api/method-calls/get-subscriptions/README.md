@@ -1,6 +1,6 @@
 # Get Subscriptions
 
-Returns a `result` with an user's subscription collection. You may pass no params or a date param with the time stamp of your last update. If a date is passed the result will only contains changes to the subscriptions.
+Returns a `result` with a user's subscription collection. You may pass no params or a date param with the time stamp of your last update. If a date is passed the result will only contains changes to the subscriptions.
 
 Example call:
 
@@ -20,7 +20,7 @@ Response:
     "msg": "result",
     "id": "42",
     "result": [
-        ... // subcriptions
+        ... // subscriptions
     ]
 }
 ```
@@ -56,6 +56,6 @@ An example:
     "alert": false,
     "unread": 0,
     "_updatedAt": { "$date": 1480377601 },
-    "_id": "subcription-id"
+    "_id": "subscription-id"
 }
 ```

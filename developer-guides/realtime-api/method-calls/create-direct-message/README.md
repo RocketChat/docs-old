@@ -27,5 +27,5 @@ The response is as follows:
 
 ## Notes
 
-Making this call additional times, if a room has already been established, does not result in an error. In addition, the same roomID is returned. This means it's safe to use this method to obtain the roomID everytime prior to making calls to loadHistory.
+Making this call additional times, if a room has already been established, does not result in an error. In addition, the same roomID is returned. This means it's safe to use this method to obtain the roomID every time prior to making calls to loadHistory.
 

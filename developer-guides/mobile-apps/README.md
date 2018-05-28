@@ -81,7 +81,7 @@ If there are a lot of `cannot find module` build problems, try adding and removi
 
 ### Test the App on an Emulator or Device
 
-SDKs for mobile platforms often come bundled with emulators that execute a device image, so that you can launch the app from the home screen and see how it interacts with many platform features. This command rebuild the app and view it within android's emulator:
+SDKs for mobile platforms often come bundled with emulators that execute a device image, so that you can launch the app from the home screen and see how it interacts with many platform features. This command rebuilds the app and views it within android's emulator:
 
     $ cordova emulate android
 
@@ -93,7 +93,7 @@ Alternately, you can plug the handset into your computer and test the app direct
 
     $ cordova run android
 
-You would have to enable a USB debugging option on the device, and perhaps add a USB driver depending on your development environmnent.
+You would have to enable a USB debugging option on the device, and perhaps add a USB driver depending on your development environment.
 
 ### Run the app
 
