@@ -76,6 +76,7 @@ Here you can also find what articles are incomplete and missing.
         - Ubuntu:
             - Snaps:
                 - AutoSSl
+        - Mongo Options
         - Configuring SSL Reverse Proxy
         - PM2, Systemd, Upstart
         - Running in a sub folder
@@ -131,6 +132,7 @@ Here you can also find what articles are incomplete and missing.
         - Direct Reply
     - File Upload:
         - Amazon S3
+        - Google Cloud Storage
         - Minio
         - <span class="missing">[GridFS](../missing-and-outdated-list/index.html#GridFS)</span>
         - <span class="missing">[Local File System](../missing-and-outdated-list/index.html#Local-File-System)</span>
@@ -258,6 +260,7 @@ Here you can also find what articles are incomplete and missing.
             - addOwner
             - archive
             - close
+            - counters
             - create
             - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
             - files
@@ -275,6 +278,7 @@ Here you can also find what articles are incomplete and missing.
             - removeModerator
             - removeOwner
             - rename
+            - setCustomFields
             - setDescription
             - setJoinCode
             - setPurpose
@@ -306,6 +310,7 @@ Here you can also find what articles are incomplete and missing.
             - addOwner
             - archive
             - close
+            - counters
             - create
             - <span class="missing">[delete](../missing-and-outdated-list/index.html#groupsdelete)</span>
             - files
@@ -322,6 +327,7 @@ Here you can also find what articles are incomplete and missing.
             - removeModerator
             - removeOwner
             - rename
+            - setCustomFields
             - setDescription
             - setPurpose
             - setReadOnly
@@ -330,6 +336,7 @@ Here you can also find what articles are incomplete and missing.
             - unarchive
         - Im:
             - close
+            - counters
             - create
             - files
             - history
@@ -366,6 +373,8 @@ Here you can also find what articles are incomplete and missing.
         - Subscriptions:
             - get
             - getOne
+            - read
+            - unread
         - Users:
             - create
             - createToken
@@ -392,5 +401,14 @@ Here you can also find what articles are incomplete and missing.
         - Colors
         - Components
         - Themes
+- Bots:
+    - Bots FAQ
+    - Bots Architecture
+    - Creating Bot Users
+    - Configure Bot Environment
+    - Running a Hubot Bot
+    - Running a Botkit Bot
+    - Running a Rasa Bot
+    - Running a Botpress Bot
 - Community Cookbook:
     - Remote Video Monitoring

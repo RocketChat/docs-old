@@ -4,7 +4,7 @@ We are looking for community maintainers for the Rocket.Chat documentation.
 
 Maintainers will be added to a special team with write permissions.
 
-These permissions consists of opening, closing, tagging and editing issues and pull requests, create and delete non protected branches on the docs repository
+These permissions consist of opening, closing, tagging and editing issues and pull requests, create and delete non protected branches on the docs repository
 
 The responsibilities of a maintainer are:
 

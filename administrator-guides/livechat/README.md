@@ -4,7 +4,7 @@ Rocket.Chat had minimal Livechat as a feature for a long time.
 
 Recently the demand for production-grade Livechat has increased, so we started a complete rewrite of the package.
 
-This document contains instructions on setting up the new Livechat  _work-in-progress_ version.
+This document contains instructions on setting up the new Livechat _work-in-progress_ version.
 
 ## Introduction
 
@@ -28,9 +28,9 @@ At *Livechat manager* you'll have the following configuration options:
 
 #### User Management
 
-You can add new livechat manager users and agents.
+You can add new Livechat manager users and agents.
 
-In order to start receiving incoming live chats you need to add livechat agents.
+In order to start receiving incoming live chats you need to add Livechat agents.
 
 #### Departments
 
@@ -68,11 +68,11 @@ To customize the appearance of your Livechat widget goto Livechat -> Appearance
 
 #### Integrations
 
-You can use webhooks to easily integrate livechat with your CRM.
+You can use webhooks to easily integrate Livechat with your CRM.
 
-The Rocket.Chat will send a POST to the webhook URL when the livechat ends or you receive a new offline message.
+The Rocket.Chat will send a POST to the WebHook URL when the Livechat ends or you receive a new offline message.
 
-Here is an example of the JSON data sent on the end of a livechat session:
+Here is an example of the JSON data sent on the end of a Livechat session:
 
 ```
 {
@@ -127,7 +127,7 @@ Here is an example of the JSON data sent on the end of a livechat session:
 }
 ```
 
-Here is an example of the JSON data sent on a livechat offline message:
+Here is an example of the JSON data sent on a Livechat offline message:
 
 ```
 {
@@ -141,7 +141,7 @@ Here is an example of the JSON data sent on a livechat offline message:
 }
 ```
 
-The field **Secret Token** is sent to a header `X-RocketChat-Livechat-Token` so you can validate if the request became from the livechat.
+The field **Secret Token** is sent to a header `X-RocketChat-Livechat-Token` so you can validate if the request became from the Livechat.
 
 If your endpoint returns a response status other than 200, Rocket.Chat will retry 10 times waiting 10 seconds between retries.
 

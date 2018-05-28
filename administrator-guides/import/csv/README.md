@@ -54,7 +54,7 @@ graywolf336,graywolf336@example.com,GrayWolf336
 
 ## Message Files
 
-The message csv files require a **very** specific format. Each line contains a new message, every piece of information is **requires** quotes to surround it, there can not be any spaces between the commas. The details required are:
+The message csv files require a **very** specific format. Each line contains a new message, every piece of information is **requires** quotes to surround it, there cannot be any spaces between the commas. The details required are:
 
 1. Username who sent the message
 2. The timestamp in milliseconds
@@ -62,7 +62,7 @@ The message csv files require a **very** specific format. Each line contains a n
 
 ```csv
 "bradley.hilton","1479162481336","this is a test message"
-"billy.bob","1479162481654","this is a another message, a test message"
+"billy.bob","1479162481654","this is another message, a test message"
 ```
 
 ## Importing
