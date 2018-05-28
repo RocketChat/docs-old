@@ -17,7 +17,7 @@ Once the above two pre-requisites are installed opened the terminal and run the 
 
 When the server is ready, you will see a green box within the terminal with "Server Running" at the top.
 
-This means that a Rocket.Chat server is running from your computer. To access the server navigate to `localhost:3000`
+This means that a Rocket.Chat server is running from your computer. To access the server, navigate to `localhost:3000`
 
 ## Editing Rocket.Chat Files
 
@@ -29,7 +29,7 @@ Sometimes changes can shut down the server, if that happens just run `meteor npm
 
 ### On Windows
 
-Using windows to develop is not recommended, instead is better to create a Linux virtual machine and follow the steps mentionated above, but if for some reason you really need to build rocket.chat on windows you can find a community supported guide over [here](../../installation/community-supported-installation/windows-server/).
+Using Windows to develop is not recommended, instead is better to create a Linux virtual machine and follow the steps mentioned above, but if for some reason you really need to build Rocket.Chat on Windows you can find a community supported guide over [here](../../installation/community-supported-installation/windows-server/).
 
 ## See Also
 

@@ -220,6 +220,7 @@
         - addOwner
         - archive
         - close
+        - counters
         - create
         - files
         - getAllUserMentionsByChannel
@@ -266,6 +267,7 @@
         - addOwner
         - archive
         - close
+        - counters
         - create
         - files
         - getIntegrations
@@ -288,6 +290,7 @@
         - unarchive
       - Im:
         - close
+        - counters
         - create
         - files
         - history

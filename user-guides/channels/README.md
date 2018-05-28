@@ -30,7 +30,7 @@ Public channels are indicated by a hash symbol next to the channel name, and pri
 
 ### Unread messages
 
-When a channel has new messages, it's name will be highlighted on the channel list.
+When a channel has new messages, its name will be highlighted on the channel list.
 
 If using Unread Mode, a new section called "Unread" will appear on the left sidebar and all channels with unread messages will be moved to this new section.
 
@@ -64,7 +64,7 @@ There are two notions of leaving a channel:
 
 Every channel has an **owner**, and the owner of a channel cannot leave a channel until setting someone else as the owner of that channel.
 
-To **leave** a channel, enter the command `/part` or `/leave` in the message window. Alternatively, hover your mouse over the channel in the list of channels on the left-hand side and click on the `leave channel`button.
+To **leave** a channel, enter the command `/part` or `/leave` in the message window. Alternatively, hover your mouse over the channel in the list of channels on the left-hand side and click on the `leave channel` button.
 
 To **hide** a channel, hover your mouse over the channel in the list of channels on the left-hand side and click on the `hide channel` button.
 
@@ -78,7 +78,7 @@ Read only channels, messages can only be posted by people with the right permiss
 
 Broadcasted channels will behave like read only channels, with only users with the right permission being able to post there. The differences to a read only channel are:
 
-- Users without permission (the same one to post on read only channels) inside this channel wont be able to see each other in the user list.
+- Users without permission (the same one to post on read only channels) inside this channel won't be able to see each other in the user list.
 - Users without permission won't be able to react to messages.
 - On every message posted on this channel will have a reply button that redirects the user to a direct message with the user that posted the message, having a reply to the message clicked already ready on the message box.
 - This channel cannot be converted to a normal or read only channel again.

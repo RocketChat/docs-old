@@ -1,6 +1,6 @@
 # Group Remove Owner
 
-Removes the role of owner from a user in the currrent Group.
+Removes the role of owner from a user in the current Group.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
