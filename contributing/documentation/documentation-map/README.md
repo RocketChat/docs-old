@@ -76,6 +76,7 @@ Here you can also find what articles are incomplete and missing.
         - Ubuntu:
             - Snaps:
                 - AutoSSl
+        - Mongo Options
         - Configuring SSL Reverse Proxy
         - PM2, Systemd, Upstart
         - Running in a sub folder
@@ -277,6 +278,7 @@ Here you can also find what articles are incomplete and missing.
             - removeModerator
             - removeOwner
             - rename
+            - setCustomFields
             - setDescription
             - setJoinCode
             - setPurpose
@@ -325,6 +327,7 @@ Here you can also find what articles are incomplete and missing.
             - removeModerator
             - removeOwner
             - rename
+            - setCustomFields
             - setDescription
             - setPurpose
             - setReadOnly
@@ -370,6 +373,8 @@ Here you can also find what articles are incomplete and missing.
         - Subscriptions:
             - get
             - getOne
+            - read
+            - unread
         - Users:
             - create
             - createToken

@@ -55,6 +55,7 @@
     - Ubuntu:
       - Snaps:
         - AutoSSL
+    - Mongo Options
     - Configuring SSL Reverse Proxy
     - PM2, Systemd, Upstart
     - Running in a sub folder
@@ -236,6 +237,7 @@
         - removeModerator
         - removeOwner
         - rename
+        - setCustomFields
         - setDescription
         - setJoinCode
         - setPurpose
@@ -282,6 +284,7 @@
         - removeModerator
         - removeOwner
         - rename
+        - setCustomFields
         - setDescription
         - setPurpose
         - setReadOnly
@@ -330,6 +333,7 @@
         - get
         - getOne
         - read
+        - unread
       - Users:
         - create
         - createToken
