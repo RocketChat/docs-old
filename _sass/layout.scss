@@ -322,11 +322,12 @@ main {
 }
 
 .content {
+  flex: 1 1 100%;
+  overflow: hidden;
   width: 100%;
   padding: 0 0 1em 1em;
   min-height: 100vh;
   border-left: 1px solid #ddd;
-
 }
 
 .burger {
@@ -508,7 +509,6 @@ td > code {
     width: 100%;
     font-size: 0.8em;
     padding: 0 2.5em;
-
   }
 
   .project-list {
