@@ -107,7 +107,7 @@ For a incomplete document you should add
 
 After that you will have to write an explanation of how this document should be, or what is the problem with it on the [Missing our Outdated Docs](../missing-and-outdated-list) and link this topic after the `#` on the link you just added to the Documentation Map.
 
-_Incomplete articles are the ones that are missing a big part of information in them, so if a article is missing a little bit of information, it shouldn't be added to the incomplete list_
+_Incomplete articles are the ones that are missing a big part of information in them, so if an article is missing a little bit of information, it shouldn't be added to the incomplete list_
 
 _Bugs, typos, markdown syntax and such should not be listed on this map_
 

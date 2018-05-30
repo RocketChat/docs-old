@@ -55,7 +55,7 @@ class Script {
 }
 ```
 
-## Render nixstats graphs in rocket.chat
+## Render nixstats graphs in Rocket.Chat
 
 Add Nixstats notifications via a new WebHook in Rocket.Chat
 
