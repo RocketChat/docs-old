@@ -55,6 +55,7 @@
     - Ubuntu:
       - Snaps:
         - AutoSSL
+    - Mongo Options
     - Configuring SSL Reverse Proxy
     - PM2, Systemd, Upstart
     - Running in a sub folder
@@ -97,6 +98,7 @@
     - Direct Reply
   - File Upload:
     - Amazon S3
+    - Google Cloud Storage
     - Minio
   - Import:
     - CSV
@@ -220,6 +222,7 @@
         - addOwner
         - archive
         - close
+        - counters
         - create
         - files
         - getAllUserMentionsByChannel
@@ -235,6 +238,7 @@
         - removeModerator
         - removeOwner
         - rename
+        - setCustomFields
         - setDescription
         - setJoinCode
         - setPurpose
@@ -266,6 +270,7 @@
         - addOwner
         - archive
         - close
+        - counters
         - create
         - files
         - getIntegrations
@@ -280,6 +285,7 @@
         - removeModerator
         - removeOwner
         - rename
+        - setCustomFields
         - setDescription
         - setPurpose
         - setReadOnly
@@ -288,6 +294,7 @@
         - unarchive
       - Im:
         - close
+        - counters
         - create
         - files
         - history
@@ -327,6 +334,7 @@
         - get
         - getOne
         - read
+        - unread
       - Users:
         - create
         - createToken
