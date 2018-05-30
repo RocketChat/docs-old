@@ -95,91 +95,112 @@ The snap's policy is to restart on failure.
 
 ### How do I backup my snap data?
 
-#### 1. Make a quick and easy backup via:
-
-```
-sudo snap run rocketchat-server.backupdb
-```
-
-#### 2. You will then see a bunch of output text followed by:
-
-```
-A backup of your data can be found at /var/snap/rocketchat-server/<version>/backup.tgz
-```
-
-#### 3. Copy `backup.tgz` to a different system for safekeeping.
-
-### How do I restore backup data to my snap?
-
-#### 1. Assuming you have your `backup.tgz` file (see above), simply extract it to a desired location (e.g., ~/backup_data)
-
-```
-cd ~
-mkdir backup_data
-cd backup_data
-tar zxvf /path/to/your/backup.tgz
-```
-
-This will create the following directory tree where you can find the extracted backup data:
-`~/backup_data/var/snap/rocketchat-server/<version>/dump/parties`
-
-#### 2. Confirm your database name
-
-The snap database name should be `parties`, but just to be safe:
-
-```
-sudo /snap/rocketchat-server/current/bin/mongo
-(...)
-> show dbs
-local    0.000GB
-parties  0.004GB
-> exit
-```
-
-#### 3. Shutdown Rocket.Chat
-
-Before you start to restore make sure Rocket.Chat isn't running.
+#### 1. Stop your rocketchat-server:
 
 ```
 sudo service snap.rocketchat-server.rocketchat-server stop
 ```
 
-#### 4. Use `mongorestore` to restore your backup data back into your snap database
-
-#### Important: before proceeding, consult <https://docs.mongodb.com/manual/reference/program/mongorestore/> to learn about additional options and the non-overwriting behavior of `mongorestore` when the target database already exists.
-
-##### Please note: at the time of writing, mongorestore required openssl version 1.0.2 specifically. If you see an error like this - `(...) version 'OPENSSL_1.0.2' not found (required by /snap/rocketchat-server/current/bin/mongorestore)` - simply install the required openssl version to continue.
-
-When you are ready, run the following command (replacing `<version>` with the appropriate directory name):
+*Please note: while the rocketchat-server service should be stopped, the rocketchat-mongo service should be kept running!*
 
 ```
-sudo /snap/rocketchat-server/current/bin/mongorestore --db parties \
-~/backup_data/var/snap/rocketchat-server/<version>/dump/parties/
+sudo service snap.rocketchat-server.rocketchat-mongo status | grep Active
+   Active: active (running) (...)
 ```
 
-#### 5. Restart your services
+#### 2. Issue this backup command:
 
 ```
-sudo service snap.rocketchat-server.rocketchat-mongo  restart
-sudo service snap.rocketchat-server.rocketchat-server restart
-sudo service snap.rocketchat-server.rocketchat-caddy  restart
+sudo snap run rocketchat-server.backupdb
+```
+
+#### 3. If all goes well, you will see some output similar to:
+
+```
+[+] A backup of your data can be found at /var/snap/rocketchat-server/common/backups/rocketchat_backup_<timestamp>.tgz
+```
+
+#### 4. Start your rocketchat-server:
+
+```
+sudo service snap.rocketchat-server.rocketchat-server start
+```
+
+#### 4. Copy your backup file to a different system for safekeeping!
+
+### How do I restore backup data to my snap?
+
+#### 1. Stop your rocketchat-server:
+
+```
+sudo service snap.rocketchat-server.rocketchat-server stop
+```
+
+*Please note: while the rocketchat-server service should be stopped, the rocketchat-mongo service should be kept running!*
+
+```
+sudo service snap.rocketchat-server.rocketchat-mongo status | grep Active
+   Active: active (running) (...)
+```
+
+#### 2. Copy your backup file to the snap's common folder:
+
+```
+sudo cp rocketchat_backup.tgz /var/snap/rocketchat-server/common/
+```
+
+#### 3. Issue this restore command:
+
+```
+sudo snap run rocketchat-server.restoredb /var/snap/rocketchat-server/common/rocketchat_backup.tgz
+```
+
+#### 4. If you are replacing an existing database, you will be warned:
+
+```
+*** ATTENTION ***
+* Your current database WILL BE DROPPED prior to the restore!
+* Would you like to make a backup of the current database before proceeding?
+* (y/n/Q)>
+```
+
+- Press `y` and `Enter` to make a backup of the database in its current state.
+- Press `n` and `Enter` to continue *without a backup* of the database in its current state.
+- Press any key and/or `Enter` to quit the restore process without making any changes.
+
+#### 5. If you choose to proceed and all goes well, you will see some output similar to:
+
+```
+[*] Extracting backup file...
+[*] Restoring data...
+[*] Preparing database...
+[+] Restore completed! Please restart the snap.rocketchat services to verify.
+```
+
+*If something goes wrong, you will instead be presented with a path to the relevant log file to help remedy errors. In this case, the database may not be usable until a restore is successfully performed.*
+
+#### 6. Start your rocketchat-server:
+
+```
+sudo service snap.rocketchat-server.rocketchat-server start
 ```
 
 ### What folders do snaps use?
 
-- Your actual snap files for each version of Rocket.Chat are copied to: `/var/lib/snapd/snaps` and they are mounted read only
-- Your snap common directory is: `/var/snap/rocketchat-server/common/` file upload to disk, and database is stored here.
-- Your snap data directory is `/var/snap/rocketchat-server/<version>` this is a versioned folder.
+* Your actual snap files for each version of Rocket.Chat are copied to: `/var/lib/snapd/snaps` and they are mounted in read-only mode.
+* Your snap common directory is: `/var/snap/rocketchat-server/common/`; file uploads to disk and the database are stored here.
+* Your snap data directory is `/var/snap/rocketchat-server/<version>`; this is a versioned folder.
+* You can access the current snap data directory at `/var/snap/rocketchat-server/current`.
 
 ### How do I remove a specific previous version of Rocket.Chat?
 
 You can do this by issuing the following command, where `N` is the desired version:
 
 ```
-snap remove --revision=35 rocketchat-server
+snap remove --revision=N rocketchat-server
 ```
 
-<!--### I need to install snaps on a computer without a network, how do I get the snaps?
+<!--### I need to install snaps on a computer with out a network, how do I get the snaps?
 
 You will need two things.  First you need the ubuntu-core snap.  This is a base snap that is normally auto downloaded if you are connected to the internet.  You can get this via:
 
