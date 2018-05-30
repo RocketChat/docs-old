@@ -143,6 +143,7 @@ blockquote {
 
   &.main {
     display: flex;
+    padding-right: 0.5em;
   }
 
   &.home{
@@ -330,6 +331,17 @@ main {
   border-left: 1px solid #ddd;
 }
 
+.content .flipped {
+  display: flex !important;
+}
+
+.article-toc-wrapper{
+  width: 35%;
+  height: fit-content;
+  padding-left: 0.5em;
+  border-left: 1px solid #ddd;
+}
+
 .burger {
   display: none;
 }
@@ -508,8 +520,30 @@ td > code {
   .content {
     width: 100%;
     font-size: 0.8em;
-    padding: 0 2.5em;
+    padding: 0 1em;
   }
+
+  .content .flipped {
+    display: flex !important;
+    flex-direction: column-reverse;
+  }
+  
+  .article-toc-wrapper {
+    order: 1;
+    height: fit-content;
+    width: 100%;
+
+    margin-bottom: 1em;
+    padding: 1em 0 1em 0;
+    border-left: none;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+
+    h4 {
+      font-size: 1.7em;
+    }
+  }
+  
 
   .project-list {
     display: grid;
