@@ -2,11 +2,13 @@
 
 ## Installation
 
+Installing a snap on Ubuntu is as easy as
+
 ```
 sudo snap install rocketchat-server
 ```
 
-Then browse to localhost:3000 and setup Rocket.Chat.
+Then browse to `http://localhost:3000` and setup Rocket.Chat.
 
 Snaps are secure. Rocket.Chat and all of its dependencies are isolated from the rest of your system. Snaps also auto update when we release a new version. So no need more hassle updating.
 
@@ -18,22 +20,28 @@ sudo apt-get install snapd
 
 ## FAQ
 
-If you have questions about snaps best place to ask them is in: [#ubuntu-snap](https://open.rocket.chat/channel/ubuntu-snap)
+If you have questions about snaps best place to ask them is at the [#ubuntu-snap](https://open.rocket.chat/channel/ubuntu-snap) channel.
 
 ### How do I access my site at a different port?  How do I enable TLS/SSL with my snap?
 
-Check out our guide for enabling caddy: [here](../../../../installation/manual-installation/ubuntu/snaps/autossl/)
+Check out our guide for enabling caddy [here](../../../../installation/manual-installation/ubuntu/snaps/autossl/).
 
-### Ubuntu 16.04 LTS gives message "snap not found", what's wrong?
+### Ubuntu 16.04 LTS gives message "snap not found", whats wrong?
 
-Make sure you're using x64 or amd64 (or armhf) images, especially on VPS or VMs. x86 is 32 bit and not supported.
+Make sure you're using x64 or amd64 (or armhf) images, especially on VPS or VMs. x86 (32-bit) is not supported.
 
 ### How do I manually update to new release?
 
-Updates happen automatically usually in a 6 hour window from time of release.  If you want it quicker you can do:
+While updates happen automatically usually within 6 hours from time of release, you can update manually by issuing this command:
 
 ```
 sudo snap refresh rocketchat-server
+```
+
+### How do I revert to the previous version of Rocket.Chat?
+
+```
+sudo snap revert rocketchat-server
 ```
 
 ### How do I tell if Rocket.Chat is actually running?
@@ -41,44 +49,49 @@ sudo snap refresh rocketchat-server
 You can check on the status of Rocket.Chat with:
 
 ```
-sudo systemctl status snap.rocketchat-server.rocketchat-server.service
+sudo service snap.rocketchat-server.rocketchat-server status
 ```
 
-You can also check on the status of Mongo running in the snap with:
+You can also check on the status of Mongo and Caddy:
 
 ```
-sudo systemctl status snap.rocketchat-server.rocketchat-mongo.service
+sudo service snap.rocketchat-server.rocketchat-mongo status
+sudo service snap.rocketchat-server.rocketchat-caddy status
 ```
 
 ### How can I view the logs?
 
-To see the logs from Rocket.Chat
+To see the logs from Rocket.Chat:
 
 ```
 sudo journalctl -u snap.rocketchat-server.rocketchat-server
 ```
 
-To see the logs from mongo
+To see the logs from Mongo or Caddy:
 
 ```
 sudo journalctl -u snap.rocketchat-server.rocketchat-mongo
+sudo journalctl -u snap.rocketchat-server.rocketchat-caddy
 ```
 
 ### I need to restart Rocket.Chat, how do I do this?
 
-```
-sudo systemctl restart snap.rocketchat-server.rocketchat-server
-```
-
-Also can restart Mongo via:
+To restart Rocket.Chat:
 
 ```
-sudo systemctl restart snap.rocketchat-server.rocketchat-mongo
+sudo service snap.rocketchat-server.rocketchat-server restart
+```
+
+Mongo and Caddy can similarly be restarted:
+
+```
+sudo service snap.rocketchat-server.rocketchat-mongo restart
+sudo service snap.rocketchat-server.rocketchat-caddy restart
 ```
 
 ### What is the restart policy?
 
-The snaps policy is to restart on failure.
+The snap's policy is to restart on failure.
 
 ### How do I backup my snap data?
 
@@ -158,9 +171,9 @@ sudo service snap.rocketchat-server.rocketchat-caddy  restart
 - Your snap common directory is: `/var/snap/rocketchat-server/common/` file upload to disk, and database is stored here.
 - Your snap data directory is `/var/snap/rocketchat-server/<version>` this is a versioned folder.
 
-### I want to manually move a previous version of Rocket.Chat how do I do this?
+### How do I remove a specific previous version of Rocket.Chat?
 
-You can do this via:
+You can do this by issuing the following command, where `N` is the desired version:
 
 ```
 snap remove --revision=35 rocketchat-server
@@ -184,7 +197,7 @@ curl -X GET -H "Content-Type: application/json" -H "X-Ubuntu-Series: 16" -H "X-U
 
 -->
 
-### I need to add in a tool like strace to debug what's happening in my snap.  How do I do this?
+### How do I add a tool like strace to debug what's happening in my snap?
 
 ```
 snapcraft prime
