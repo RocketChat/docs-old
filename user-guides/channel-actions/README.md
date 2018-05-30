@@ -142,3 +142,21 @@ You can only use OTR in direct messages (one-on-one) and both sides must be onli
 To start OTR conversation, click on _START OTR_. The other user will be notified to start a OTR.
 
 After your request is confirmed by other side, messages are encrypted. Encrypted messages have a key icon on the right side.
+
+## Streaming
+
+If the feature [Youtube Livestream](../../administrator-guides/youtube-broadcasting) is enabled, you will see the `Streaming` Tab on the channel actions menu.
+
+If you are the owner of the channel or if you are a admin server you will be able to start streaming from there, or add a current ongoing stream to the channel via url.
+
+_Note: depending on the settings of the server you might be only able to link live streams from Youtube. In doubt always ask your server's admin._
+
+To start streaming from rocket.chat just press the `Broadcast my Camera` button. After that you will be prompted to login with a google account (you need to have streaming activated on your youtube account before, see [Introduction to live streaming](https://support.google.com/youtube/answer/2474026?hl=en) Google guide).
+
+You can also add a stream from Youtube with the stream link (The owner of the stream must allow the stream to be shown in other sites). To start a live stream from youtube, just add the link to it on the `Livestream source` form and hit save.
+
+You can add a message to whenever the stream is unavailable in the `Livestream not available message` field.
+
+You can also stream only the sound of the live stream with the `Enable audio only button`. This is very useful when you want to do a podcast for example.
+
+If you are not a channel owner and there is already a live stream set to that channel, you will need only press play on the stream tab. Doing that will create a pop over embedded video, that can be moved around the screen and even if you change channels you will still be able to watch that stream, since the popover will not close when changing channels.
