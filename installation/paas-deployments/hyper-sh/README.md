@@ -1,6 +1,6 @@
 # Hyper.sh
 
-Rocket.Chat is a web chat application for communities and companies wanting to privately host their own chat service or for developers looking to build and evolve their own chat platforms. In this guide, we will demonstrate how to deploy a Rocket.chat container connected with a MongoDB container in seconds.
+Rocket.Chat is a web chat application for communities and companies wanting to privately host their own chat service or for developers looking to build and evolve their own chat platforms. In this guide, we will demonstrate how to deploy a Rocket.Chat container connected with a MongoDB container in seconds.
 
 ## 1. Register for your free Hyper credits
 

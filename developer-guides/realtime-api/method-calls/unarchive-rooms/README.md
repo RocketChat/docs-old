@@ -1,6 +1,6 @@
 # Unarchive Rooms
 
-Unarchving a room removes it from being read only and then adds it back to the channel list on the left.
+Unarchiving a room removes it from being read only and then adds it back to the channel list on the left.
 
 ## Requirements
 

@@ -55,6 +55,7 @@
     - Ubuntu:
       - Snaps:
         - AutoSSL
+    - Mongo Options
     - Configuring SSL Reverse Proxy
     - PM2, Systemd, Upstart
     - Running in a sub folder
@@ -97,6 +98,7 @@
     - Direct Reply
   - File Upload:
     - Amazon S3
+    - Google Cloud Storage
     - Minio
   - Import:
     - CSV
@@ -144,6 +146,7 @@
   - Create the First Admin
   - Restoring an Admin
   - Settings Via Env Vars
+  - Youtube Broadcasting
 - Developer guides:
     - Quick Start
     - Branches and Releases
@@ -158,15 +161,6 @@
     - Embedded Layout
     - Internationalization
     - Livechat API
-    - Using Bots:
-      - Bots FAQ
-      - Bots Architecture
-      - Creating Bot Users
-      - Configure Bot Environment
-      - Running a Hubot Bot
-      - Running a Botkit Bot
-      - Running a Rasa Bot
-      - Running a Botpress Bot
     - Mobile Apps:
       - Supporting SSL
     - Realtime-API:
@@ -228,6 +222,7 @@
         - addOwner
         - archive
         - close
+        - counters
         - create
         - files
         - getAllUserMentionsByChannel
@@ -243,6 +238,7 @@
         - removeModerator
         - removeOwner
         - rename
+        - setCustomFields
         - setDescription
         - setJoinCode
         - setPurpose
@@ -274,6 +270,7 @@
         - addOwner
         - archive
         - close
+        - counters
         - create
         - files
         - getIntegrations
@@ -288,6 +285,7 @@
         - removeModerator
         - removeOwner
         - rename
+        - setCustomFields
         - setDescription
         - setPurpose
         - setReadOnly
@@ -296,6 +294,7 @@
         - unarchive
       - Im:
         - close
+        - counters
         - create
         - files
         - history
@@ -334,6 +333,8 @@
       - Subscriptions:
         - get
         - getOne
+        - read
+        - unread
       - Users:
         - create
         - createToken
@@ -361,5 +362,14 @@
       - Colors
       - Components
       - Themes
+- Bots:
+  - Bots FAQ
+  - Bots Architecture
+  - Creating Bot Users
+  - Configure Bot Environment
+  - Running a Hubot Bot
+  - Running a Botkit Bot
+  - Running a Rasa Bot
+  - Running a Botpress Bot
 - Community Cookbook:
   - Remote Video Monitoring

@@ -6,20 +6,20 @@ Rocket.Chat is a "middle-tier application server", by itself it does not handle 
 
 **You should find yourself in one of the two situations:**
 
-- The Rocket.Chat server is publically accessible on the internet.
+- The Rocket.Chat server is publicly accessible on the internet.
 - The Rocket.Chat server is not accessible on the internet.
 
 This doc has been broken down into two separate sections, walking you through either of the camps you might find yourself in.
 
-## The Rocket.Chat server is publically accessible on the internet
+## The Rocket.Chat server is publicly accessible on the internet
 
-If your server is publically accessible, it is recommended that you use a service like [Let's Encrypt](https://letsencrypt.org/) to obtain your SSL certificates. A detailed guide for configuring your choice of SSL Reverse proxy servers is provided here: [Configuring SSL Reverse Proxy](https://rocket.chat/docs/installation/manual-installation/configuring-ssl-reverse-proxy/)
+If your server is publicly accessible, it is recommended that you use a service like [Let's Encrypt](https://letsencrypt.org/) to obtain your SSL certificates. A detailed guide for configuring your choice of SSL Reverse proxy servers is provided here: [Configuring SSL Reverse Proxy](https://rocket.chat/docs/installation/manual-installation/configuring-ssl-reverse-proxy/)
 
 **If you are using Ubuntu**, this can be configured automatically with the help of Snaps. A guide for which is provided here: [Installing Rocket.Chat on Ubuntu with Snaps](https://rocket.chat/docs/installation/manual-installation/ubuntu/snaps/)
 
 ## The Rocket.Chat server is not accessible on the internet
 
-If your server is not accessable on the internet, you will need to provide self signed certificates to configure SSL on the server.
+If your server is not accessible on the internet, you will need to provide self signed certificates to configure SSL on the server.
 
 In this doc, we will be creating a self signed root certificate and using it to generate our SSL certificates. The steps written below have been adapted from [Self Signed Certificate with Custom Root CA](https://gist.github.com/fntlnz/cf14feb5a46b2eda428e000157447309)
 
