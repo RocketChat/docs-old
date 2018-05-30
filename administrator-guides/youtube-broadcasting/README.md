@@ -1,5 +1,7 @@
 # Youtube Broadcasting
 
+> Please note that this feature will only be available from versions 0.66 and forward.
+
 This feature adds an integration between Rocket.Chat and Youtube Live, when enabled and set up, your channel owners will be able to broadcast their camera feed live to the Livestream feature which allows all users on the channel to watch a common stream.
 
 ## Configuration
