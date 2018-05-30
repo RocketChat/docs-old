@@ -4,7 +4,7 @@ You may find that Rocket.Chat slows down once you have a lot of concurrent users
 you will likely see Rocket.Chat node process approaching 100% CPU (even if the host CPU load is low). This is
 due to the single-threaded nature of Node.js applications; they can't take advantage of multiple cores natively.
 
-While its possible to scale out by adding more servers (and this is recommended for HA purposes), you can achieve
+While it's possible to scale out by adding more servers (and this is recommended for HA purposes), you can achieve
 better utilization of your existing hardware by running multiple instances of the Rocket.Chat application
 (Node.js/Meteor app) on your current host(s). Of course, you only want to do this if you're already running on
 a multi-core machine. A reasonable rule-of-thumb may be to run `N-1` Rocket.Chat instances, where `N=num_cores`.
@@ -76,7 +76,7 @@ If you want multiple Services create another file in /usr/lib/systemd/system and
     [Install]
     WantedBy=rocketchat.service
 
-Start the other RocketChat Services with
+Start the other Rocket.Chat Services with
 
     systemctl start rocketchat@3001 (or any other desired port after the @)
 
@@ -88,15 +88,15 @@ The other Services will be enable since they are "WantedBy"=RocketChat.service
 
 ### Ensure nodes can communicate
 
-If you run Rocket.Chat instances on multiple physical nodes.  Or even in multiple containers make sure they can communicate with each other.
+If you run Rocket.Chat instances on multiple physical nodes. Or even in multiple containers make sure they can communicate with each other.
 
-Rocket.Chat makes use of a peer to peer connection to inform each other of events.  Lets say you type a message and tag a friend or coworker that is connected to another instance.
+Rocket.Chat makes use of a peer to peer connection to inform each other of events. Let's say you type a message and tag a friend or coworker that is connected to another instance.
 
 Two different events are fired:
 1\. The user (you) is typing
 2\. Notify user (friend)
 
-Each Rocket.Chat instance registers in your database the ip address it detected for its self.  Other instances then use this list to discover and establish connections with each other.
+Each Rocket.Chat instance registers in your database the ip address it detected for its self. Other instances then use this list to discover and establish connections with each other.
 
 If you find instances unable to talk to each other you can try setting the `INSTANCE_IP` environment variable to the ip the other instances can use to talk to it.
 
@@ -164,14 +164,14 @@ Still work? Yep, you're using both services!
 
 ## Check your database
 
-Another very important part is your database.  As mentioned above, you will need to make sure you are running a replicaset.
+Another very important part is your database. As mentioned above, you will need to make sure you are running a replicaset.
 
 This is important for a couple of reasons:
-1\. Database reliability.  You will want to make sure that your data is replicated, and you have another node if something happens to your primary.
-2\. Rocket.Chat does what's called oplog tailing.  The oplog is turned on when you setup a replicaset.  Mongo makes use of this to publish events so the other nodes in the replicaset can make sure its data is up to date.  Rocket.Chat makes use of this to watch for database events.  If someone sends a message on Instance 1 and you are connected to Instance 2.  Instance 2 watches for message insert events and then is able to show you a new message has arrived.
+1\. Database reliability. You will want to make sure that your data is replicated, and you have another node if something happens to your primary.
+2\. Rocket.Chat does what's called oplog tailing. The oplog is turned on when you setup a replicaset. Mongo makes use of this to publish events so the other nodes in the replicaset can make sure its data is up to date. Rocket.Chat makes use of this to watch for database events. If someone sends a message on Instance 1 and you are connected to Instance 2. Instance 2 watches for message insert events and then is able to show you a new message has arrived.
 
 ### Database engine
 
-Another thing to keep in mind is the storage engine you are using.  By default mongo uses wiredtiger.  Wiredtiger under some loads can be very CPU and Memory intensive.  Under small single instance setups we don't typically see issues.  But when you run multiple instances of Rocket.Chat it can some times get a bit unruly.
+Another thing to keep in mind is the storage engine you are using. By default mongo uses Wiredtiger. Wiredtiger under some loads can be very CPU and Memory intensive. Under small single instance setups we don't typically see issues. But when you run multiple instances of Rocket.Chat it can sometimes get a bit unruly.
 
 It's because of this we recommend in multiple instance situations that you switch the mongo storage engine to mmapv1.

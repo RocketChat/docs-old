@@ -20,7 +20,7 @@
 ```bash
 curl -H "Content-type:application/json" \
       http://localhost:3000/api/v1/login \
-      -d '{ "serviceName": "google", accessToken": "hash",
+      -d '{ "serviceName": "google", "accessToken": "hash",
       "idToken": "hash", "expiresIn": 200, "scope": "profile" }'
 ```
 
@@ -31,7 +31,28 @@ curl -H "Content-type:application/json" \
   "status": "success",
   "data": {
       "authToken": "9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq",
-      "userId": "aobEdbYhXfu5hkeqG"
+      "userId": "aobEdbYhXfu5hkeqG",
+      "me": {
+          "_id": "aYjNnig8BEAWeQzMh",
+          "name": "Rocket Cat",
+          "emails": [
+              {
+                "address": "rocket.cat@rocket.chat",
+                "verified": false
+              }
+          ],
+          "status": "offline",
+          "statusConnection": "offline",
+          "username": "rocket.cat",
+          "utcOffset": -3,
+          "active": true,
+          "roles": [
+              "admin"
+          ],
+          "settings": {
+              "preferences": {}
+            }
+      }
    }
 }
 ```
@@ -40,5 +61,6 @@ curl -H "Content-type:application/json" \
 
 | Version | Description |
 | :--- | :--- |
+| 0.64.0 | Added `me` property to response |
 | 0.60.0 | Added |
 

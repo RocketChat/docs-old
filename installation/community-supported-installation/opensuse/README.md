@@ -1,5 +1,7 @@
 # Install and Run Rocket.Chat on OpenSUSE Leap 42.2
 
+_Note: This is a community supported installation method. You can discuss about this in the [forum thread](https://forums.rocket.chat/t/opensuse-installation-guide/657)._
+
 _Last updated 2017-08-26_
 
 Node.js version: 8.9.3
@@ -49,7 +51,7 @@ I like to use AWS spot instances as a very cheap way to experiment with things. 
 
 There's a `spot_instance.json` below that I generally use to set up an instance. I already have a few security groups to lock down all but the ports I need, an IAMS profile to allow just the privileges I want, and an SSH keypair generated; I'm not going to tackle those here, so if you want to do this, you probably should do some quick research and set those up yourself.
 
-I also use the aws CLI, so it's preconfigured for my favorite region, credentials, etc. If you don't have that set up, you'll want to.
+I also use the AWS CLI, so it's preconfigured for my favorite region, credentials, etc. If you don't have that set up, you'll want to.
 
 When you've got those set, getting an instance is really straightforward:
 

@@ -2,7 +2,7 @@
 
 This guide covers the following:
 
-1. Hosting rocket.chat on an Amazon EC2 instance
+1. Hosting Rocket.Chat on an Amazon EC2 instance
 2. Hosting a domain name with Amazon Route 53
 3. Securing your server with a free SSL certificate from Let's Encrypt
 
@@ -253,7 +253,7 @@ This guide covers the following:
     `ssh -i <path_to_key_file.pem> ubuntu@<public_ip_address>`
 3. Check status of docker
     sudo docker ps -a`
-    - When it's up and running, you should see 2 images, one for rocket.chat and one for mongo.
+    - When it's up and running, you should see 2 images, one for Rocket.Chat and one for mongo.
     - If you don't see the containers yet, don't panic. It may take a few minutes to download and setup the containers. If you still don't see the images listed with the above `docker` command, check the logs of your upstart jobs.
   `sudo cat /var/log/upstart/rocketchat_mongo.log`
   `sudo cat /var/log/upstart/rocketchat_app.log`

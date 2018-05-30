@@ -11,7 +11,7 @@ The implementation is based on WebRTC, and operates peer-to-peer without a serve
 The [Jitsi Meet project](https://jitsi.org/Projects/JitsiMeet) (Jitsi Video Bridge) is a tried and true bandwidth efficient WebRTC compatible SFU (server based)
 solution from our gracious FOSS partner, [Jitsi](https://jitsi.org/).
 
-Through the collaboration arrangement with Jitsi, Rocket.Chat users can enjoy  reliable and robust
+Through the collaboration arrangement with Jitsi, Rocket.Chat users can enjoy reliable and robust
 group video chat, audio chat, and screen sharing experience out of the box.
 
 To enable Jitsi:
@@ -27,7 +27,7 @@ No further configuration is needed.
 ## How to set up your own Jitsi Video Bridge
 
 In some use-cases, where the Jitsi.org infrastructure may be remote or inaccessible, or where you
-require total privacy,  setting up your own Jitsi Meet servers stack may be necessary.
+require total privacy, setting up your own Jitsi Meet servers stack may be necessary.
 
 You can find extensive instructions on setting up a Jitsi Meet servers stack at the [official Jisti Meet repository](https://github.com/jitsi/jitsi-meet).
 

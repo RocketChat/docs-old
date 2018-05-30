@@ -4,6 +4,9 @@
     - Contribution Guidelines
     - Markdown Styleguide
     - Documentation Map
+    - Drafts:
+      - New Feature Draft
+      - Feature Change Draft
     - Missing and Outdated List
     - Community Maintainers
   - Google Summer of Code 2017
@@ -46,14 +49,13 @@
   - Manual Installation:
     - CentOS
     - Debian
-    - MacOSX
     - Multiple Instances to Improve Performance
     - Migrating Meteor Mongo
-    - OpenSUSE
     - RedHat
     - Ubuntu:
       - Snaps:
         - AutoSSL
+    - Mongo Options
     - Configuring SSL Reverse Proxy
     - PM2, Systemd, Upstart
     - Running in a sub folder
@@ -70,6 +72,7 @@
       - Universal
     - Windows 10 Pro
     - Windows Server
+    - OpenSUSE
 - User guides:
   - Connecting to a Server
   - Registration
@@ -95,8 +98,8 @@
     - Direct Reply
   - File Upload:
     - Amazon S3
+    - Google Cloud Storage
     - Minio
-  - Hubot
   - Import:
     - CSV
     - HipChat:
@@ -131,7 +134,6 @@
     - Travis CI
     - Trello
     - Uptime Robot
-  - Internal Hubot
   - Jitsi Video Bridge
   - Livechat:
     - Livechat Queues
@@ -144,6 +146,7 @@
   - Create the First Admin
   - Restoring an Admin
   - Settings Via Env Vars
+  - Youtube Broadcasting
 - Developer guides:
     - Quick Start
     - Branches and Releases
@@ -219,6 +222,7 @@
         - addOwner
         - archive
         - close
+        - counters
         - create
         - files
         - getAllUserMentionsByChannel
@@ -234,6 +238,7 @@
         - removeModerator
         - removeOwner
         - rename
+        - setCustomFields
         - setDescription
         - setJoinCode
         - setPurpose
@@ -265,6 +270,7 @@
         - addOwner
         - archive
         - close
+        - counters
         - create
         - files
         - getIntegrations
@@ -279,6 +285,7 @@
         - removeModerator
         - removeOwner
         - rename
+        - setCustomFields
         - setDescription
         - setPurpose
         - setReadOnly
@@ -287,6 +294,7 @@
         - unarchive
       - Im:
         - close
+        - counters
         - create
         - files
         - history
@@ -325,6 +333,8 @@
       - Subscriptions:
         - get
         - getOne
+        - read
+        - unread
       - Users:
         - create
         - createToken
@@ -333,6 +343,7 @@
         - getAvatar
         - getPresence
         - get-preferences
+        - getUsernameSuggestion
         - info
         - list
         - register
@@ -351,5 +362,14 @@
       - Colors
       - Components
       - Themes
+- Bots:
+  - Bots FAQ
+  - Bots Architecture
+  - Creating Bot Users
+  - Configure Bot Environment
+  - Running a Hubot Bot
+  - Running a Botkit Bot
+  - Running a Rasa Bot
+  - Running a Botpress Bot
 - Community Cookbook:
   - Remote Video Monitoring

@@ -2,9 +2,9 @@
 
 ## Usage
 
-Livechat API code must be inserted after the livechat installation script and wrapped as a callback of `RocketChat();` function.
+Livechat API code must be inserted after the Livechat installation script and wrapped as a callback of `RocketChat();` function.
 
-You can call multiple livechat APIs on the same page.
+You can call multiple Livechat APIs on the same page.
 
 ### Methods
 
@@ -21,7 +21,7 @@ RocketChat(function() {
 
 #### _Set theme options_
 
-To change the online color of the livechat widget, use the following code:
+To change the online color of the Livechat widget, use the following code:
 
 ```javascript
 RocketChat(function() {

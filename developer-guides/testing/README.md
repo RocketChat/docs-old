@@ -1,6 +1,6 @@
 # Testing
 
-## Requeriments
+## Requirements
 
 - Google Chrome Browser
 

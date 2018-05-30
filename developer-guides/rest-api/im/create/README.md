@@ -10,7 +10,7 @@ Create a direct message session with another user.
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `username` | `rocket.cat` | Required | The username to open an direct message session |
+| `username` | `rocket.cat` | Required | The username to open a direct message session |
 
 ## Example Call
 

@@ -1,6 +1,6 @@
 # Group Remove Moderator
 
-Removes the role of moderator from a user in the currrent group.
+Removes the role of moderator from a user in the current group.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
