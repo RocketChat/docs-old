@@ -9,7 +9,7 @@ The following description, from community member @lvh1 and updated by @lunitic, 
 To configure mobile notifications using the Rocket.Chat gateway:
 
 - Go to <https://console.developers.google.com/> and create a project there.
-- Go to API Manager, and enable "Google Cloud Messaging for Android"
+- Go to API Manager, and enable "Firebase Cloud Messaging"
 - In API Manager, open the "Credentials" tab, click "New credentials", then "API key". In the window that pops up, choose "Server key"
 - Fill in the correct IP address from your server and click "Create"
 - Fill in the obtained API key in your Rocket.Chat administrator panel (GCM API Key)
