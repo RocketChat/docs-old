@@ -140,6 +140,8 @@ blockquote {
 .wrapper {
   max-width: $content-width;
   margin: 0 auto;
+  flex: 1 1 100%;
+  overflow: hidden;
 
   &.main {
     display: flex;
@@ -340,6 +342,9 @@ main {
   height: fit-content;
   padding-left: 0.5em;
   border-left: 1px solid #ddd;
+  h4:last-child {
+    display: none;
+  }
 }
 
 .burger {
