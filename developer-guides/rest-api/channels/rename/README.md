@@ -11,7 +11,7 @@ Changes the name of the channel.
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |
-| `name` | `new-name` | Required | The new name the channel will have, it can not be the same as another or the existing name |
+| `name` | `new-name` | Required | The new name the channel will have, it cannot be the same as another or the existing name |
 
 ## Example Call
 

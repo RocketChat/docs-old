@@ -15,7 +15,7 @@ Sign up for a free [Zapier](https://zapier.com/zapbook/RocketChat) account, from
 - Log in to your [Zapier account](https://zapier.com/sign-up) or create a new account.
 - Navigate to "Connected Accounts" from the top menu bar.
 - Now click on "Connect new account" and search for "Rocket.Chat"
-- Find the server you want to connect by using it's URL
+- Find the server you want to connect by using its URL
 - Use your credentials to connect your Rocket.Chat account to Zapier.
 - Once that's done you can start creating an automation! Use a pre-made Zap or create your own with the Zap Editor. Creating a Zap requires no coding knowledge and you'll be walked step-by-step through the setup.
 - Need inspiration? See everything that's possible with [Rocket.Chat and Zapier](https://zapier.com/zapbook/RocketChat).

@@ -78,7 +78,7 @@ The URL of the page you want to show as the login page of your Rocket.Chat insta
 
 The login page will then communicate back to Rocket.Chat using `postMessage` API.
 
-After user logs in, you have to authenticate him on Rocket.Chat side, pretty much the same as you did before on `API URL` endpoint, but now you should return a JavaScript code that will be rendered within the `iframe`, depending how you logged in ther user:
+After user logs in, you have to authenticate him on Rocket.Chat side, pretty much the same as you did before on `API URL` endpoint, but now you should return a JavaScript code that will be rendered within the `iframe`, depending how you logged in the user:
 
 - If have used Rocket.Chat's APIs to log in the user or already have user's token saved in your end, return:
 
@@ -105,7 +105,7 @@ window.parent.postMessage({
 
 If you have OAuth services configured on Rocket.Chat, you can trigger them from within your login page as well.
 
-To implement this authentications, after triggering the OAuth authentication you will receive a `postMessage` back from Rocket.Chat with user's credentials response from OAuth service. You need to manage the user creation/authentication on Rocket.Chat's database by yourself, the same as described earlier.
+To implement this authentication, after triggering the OAuth authentication you will receive a `postMessage` back from Rocket.Chat with user's credentials response from OAuth service. You need to manage the user creation/authentication on Rocket.Chat's database by yourself, the same as described earlier.
 
 #### Facebook
 

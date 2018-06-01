@@ -1,6 +1,6 @@
 # Group Add Moderator
 
-Gives the role of moderator for a user in the currrent group.
+Gives the role of moderator for a user in the current group.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

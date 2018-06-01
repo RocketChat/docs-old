@@ -13,7 +13,7 @@
 | `data.newMessageNotification`     | `test`              | Required | New message notification.        |
 | `data.useEmojis`                  | `true`              | Required | User can use emojis.             |
 | `data.convertAsciiEmoji`          | `true`              | Required | Convert ascII emojis.            |
-| `data.saveMobileBandwidth`        | `true`              | Required | Save mobile bandwith.            |
+| `data.saveMobileBandwidth`        | `true`              | Required | Save mobile bandwidth.            |
 | `data.collapseMediaByDefault`     | `true`              | Required | Collapse media by default.       |
 | `data.autoImageLoad`              | `true`              | Required | Image load automatically.        |
 | `data.emailNotificationMode`      | `test`              | Required | Email notification mode.         |
@@ -37,7 +37,7 @@
 | `data.sidebarSortby`              | `test`              | Optional | Show sort by.                    |
 | `data.sidebarViewMode`            | `test`              | Optional | Show view mode.                  |
 | `data.sidebarHideAvatar`          | `true`              | Optional | Show avatar on hide bar.         |
-| `data.mergeChannels`              | `true`              | Optional | Merge channels.                  |
+| `data.groupByType`                | `true`              | Optional | Group channels by type.          |
 | `data.muteFocusedConversations`   | `true`              | Optional | Mute focused conversations.      |
 
 ## Example Call

@@ -34,7 +34,7 @@ SETTINGS_BLOCKED=FileUpload_Storage_Type,FileUpload_GoogleStorage_AccessId,FileU
 
 **Even you as an admin will not be able to change this via the UI.  If you want to change the setting you will need to remove it from the list and reboot the server**
 
-## Hide  Settings
+## Hide Settings
 
 Example:
 
@@ -44,4 +44,4 @@ You can hide settings from the client by using the `SETTINGS_HIDDEN` environment
 SETTINGS_HIDDEN=FileUpload_GoogleStorage_AccessId,FileUpload_GoogleStorage_Secret
 ```
 
-**Be careful with this setting some settings like `FileUpload_Storage_Type` are needed by the client so can not be hidden**
+**Be careful with this setting some settings like `FileUpload_Storage_Type` are needed by the client so cannot be hidden**

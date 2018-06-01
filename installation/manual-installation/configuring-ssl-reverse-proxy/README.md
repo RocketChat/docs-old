@@ -61,7 +61,7 @@ Restart Nginx: ```service nginx restart```
 
 ## Running under Plesk Onyx behind Nginx
 
-Plesk Onyx has now a docker installation and Nginx proxy docker rule generator builtin, that doesn't support adding custom directives. Disable it and add the rules manually in the additional Nginx directives space. A scheme follows (replace 30000 with your external docker mapped port).
+Plesk Onyx has now a docker installation and Nginx proxy docker rule generator built in, that doesn't support adding custom directives. Disable it and add the rules manually in the additional Nginx directives space. A scheme follows (replace 30000 with your external docker mapped port).
 
 ```
 #manual extension docker with socket upgrade begin

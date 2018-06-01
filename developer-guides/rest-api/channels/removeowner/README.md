@@ -1,6 +1,6 @@
 # Channel Remove Owner
 
-Removes the role of owner from a user in the currrent channel.
+Removes the role of owner from a user in the current channel.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

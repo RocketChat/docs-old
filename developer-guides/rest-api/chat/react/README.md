@@ -1,6 +1,6 @@
 # Chat Message Reactions
 
-Toggles the authenciated user's reaction to the provided message.
+Toggles the authenticated user's reaction to the provided message.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
