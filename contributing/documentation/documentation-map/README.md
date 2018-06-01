@@ -360,6 +360,9 @@ Here you can also find what articles are incomplete and missing.
             - spotlight
             - statistics
             - statistics.list
+        - Permissions:
+            - list
+            - update
         - Rooms:
             - cleanHistory
             - favorite
@@ -393,7 +396,6 @@ Here you can also find what articles are incomplete and missing.
             - update
             - updateOwnBasicInfo
         - Offset and Count and Sort Info
-        - Permissions
         - Query and Fields Info
         - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
         - <span class="incomplete">[Testing](../missing-and-outdated-list#Testing)</span>
