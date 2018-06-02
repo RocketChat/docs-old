@@ -384,6 +384,7 @@ Here you can also find what articles are incomplete and missing.
             - getAvatar
             - getPresence
             - getPreferences
+            - getUsernameSuggestion
             - info
             - list
             - register

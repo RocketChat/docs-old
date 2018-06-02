@@ -146,6 +146,7 @@
   - Create the First Admin
   - Restoring an Admin
   - Settings Via Env Vars
+  - Youtube Broadcasting
 - Developer guides:
     - Quick Start
     - Branches and Releases
@@ -343,6 +344,7 @@
         - getAvatar
         - getPresence
         - get-preferences
+        - getUsernameSuggestion
         - info
         - list
         - register
