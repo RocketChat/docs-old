@@ -43,7 +43,7 @@ Some of the channels to get help:
 - [#support](https://open.rocket.chat/channel/support) channel for help with general Rocket.Chat
 - [#ubuntu-snap](https://open.rocket.chat/channel/ubuntu-snap) channel for help with snap installs
 - [#desktop](https://open.rocket.chat/channel/desktop) channel for help with the desktop client
-- [#hubot](https://open.rocket.chat/channel/hubot) channel for help with hubot scripting
+- [#bots](https://open.rocket.chat/channel/bots) channel for help with chatbot scripting
 - [#dev](https://open.rocket.chat/channel/dev) channel for developers needing help developing new features
 
 Remember to have a little patience. Support is provided by other members of the community like you in their free time.
