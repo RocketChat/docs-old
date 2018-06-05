@@ -331,10 +331,18 @@ main {
   padding: 0 0 1em 1em;
   min-height: 100vh;
   border-left: 1px solid #ddd;
+
+  .wrapper {
+    padding-right: 1em;
+  }
 }
 
 .content .flipped {
   display: flex !important;
+}
+
+#discourse-comments {
+  margin-top: 2em;
 }
 
 .article-toc-wrapper{
@@ -532,7 +540,7 @@ td > code {
     display: flex !important;
     flex-direction: column-reverse;
   }
-  
+
   .article-toc-wrapper {
     order: 1;
     height: fit-content;
@@ -548,7 +556,7 @@ td > code {
       font-size: 1.7em;
     }
   }
-  
+
 
   .project-list {
     display: grid;
