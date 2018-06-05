@@ -5,7 +5,7 @@ Use this method to make the initial load of a room. After the initial load you m
 This method accepts 4 parameters in the following order:
 
 - The room id
-- The oldest message timestamp date (or null) - this is used to do pagination
+- The NEWEST message timestamp date (or null) to only retrieve messages before this time. - this is used to do pagination
 - The message quantity
 - A date object - the date of the last time the client got data for the room
 
