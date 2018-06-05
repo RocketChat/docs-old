@@ -1,3 +1,7 @@
+---
+nocoments: true
+---
+
 # Email
 
 Here you will find various settings and tools related to email

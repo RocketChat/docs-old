@@ -1,3 +1,7 @@
+---
+nocoments: true
+---
+
 # Installing and Updating
 
 Check how to install or update Rocket.Chat on your server:

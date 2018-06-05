@@ -1,3 +1,7 @@
+---
+nocoments: true
+---
+
 # Developer Guides
 
 ## Guides

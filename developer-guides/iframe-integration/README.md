@@ -1,3 +1,7 @@
+---
+nocoments: true
+---
+
 # Iframe Integration
 
 ## Use your own login page to login users in Rocket.Chat
