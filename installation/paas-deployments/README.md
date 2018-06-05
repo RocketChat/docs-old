@@ -1,7 +1,3 @@
----
-nocoments: true
----
-
 # PaaS Deployments
 
 There are multiple deployment options for Rocket.Chat.

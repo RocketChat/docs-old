@@ -1,7 +1,3 @@
----
-nocoments: true
----
-
 # User Guides
 
 Here you'll learn how to use [Rocket.Chat](https://rocket.chat/) as a user.

@@ -1,7 +1,3 @@
----
-nocoments: true
----
-
 # File Storages
 
 There are several choices for file storage

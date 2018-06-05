@@ -1,7 +1,3 @@
----
-nocoments: true
----
-
 # Manual Installation
 
 Here you can find guides on how to manually install and manage Rocket.Chat server in different Operational systems:
