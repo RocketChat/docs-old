@@ -132,7 +132,7 @@ blockquote {
   color: $space;
   background-color: $grey-bg;
   border: 1px solid $grey-smoke;
-  margin: 2em 1em;
+  margin: 2em 0;
   padding: 15px;
   border-radius: 2px;
 }
@@ -145,7 +145,6 @@ blockquote {
 
   &.main {
     display: flex;
-    padding-right: 0.5em;
   }
 
   &.home{
@@ -346,12 +345,16 @@ main {
 }
 
 .article-toc-wrapper{
-  width: 35%;
+  width: 30%;
   height: fit-content;
   padding-left: 0.5em;
   border-left: 1px solid #ddd;
   h4:last-child {
     display: none;
+  }
+  .inline_toc {
+    font-size: 13px;
+    font-weight: 500;
   }
 }
 
