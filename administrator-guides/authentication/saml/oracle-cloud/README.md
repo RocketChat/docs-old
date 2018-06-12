@@ -2,7 +2,7 @@
 
 ## Configuring the Identity Provider
 
-Oracle Identity Cloud Service is integrated as a SAML Identity Provider. For detailed explanation on the SAML options on Rocket.Chat, check the [SAML Documentation](../saml/README.md).
+Oracle Identity Cloud Service is integrated as a SAML Identity Provider. For detailed explanation on the SAML options on Rocket.Chat, check the [SAML Documentation](../README.md).
 
 ## Step by Step configuration of Oracle Identity Cloud Service
 
