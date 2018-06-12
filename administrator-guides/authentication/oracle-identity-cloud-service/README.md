@@ -50,7 +50,6 @@ There may be multiple occurences of those tags in the XML file, so make sure tha
 
 Everything should be properly configured now. You can now add users to your SAML Integration app on the Oracle Dashboard and then test the login on your Rocket.Chat instance.
 
-
 [AddApplication]: AddApplication.png
 [AppDetails]: AppDetails.png
 [RocketChatSettings]: RocketChatSettings.png
