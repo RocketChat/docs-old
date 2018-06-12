@@ -88,8 +88,8 @@
     - CAS
     - Ldap
     - Oauth
-    - SAML
-    - Oracle Identity Cloud Service
+    - SAML:
+      - Oracle Cloud
     - WordPress
   - Database-Migration
   - Email:
