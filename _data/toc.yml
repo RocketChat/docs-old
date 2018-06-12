@@ -89,6 +89,7 @@
     - Ldap
     - Oauth
     - SAML
+    - Oracle Identity Cloud Service
     - WordPress
   - Database-Migration
   - Email:
