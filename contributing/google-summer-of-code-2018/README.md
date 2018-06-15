@@ -13,7 +13,9 @@ redirect_from:
 
 Application has closed for the GSoC 2018 season.
 
-UPDATE April 25, 2018 -  The list of [official GSoC 2018 accepted students and projects](https://summerofcode.withgoogle.com/organizations/6355544806260736/) is now available. First, we would like to sincerely thank every student who has submitted a proposal and many who had worked on PR and assisted in our open source community - please continue the excellent work. Of the 93 proposals we received, there were many high quality ones. We have also interacted with many of the students in the prior month. Decision was difficult and mentors were competitive this year.  Ultimately, EIGHT of the top students/proposals this year are accepted for GSoC 2018 (thank you, Google!):
+UPDATE June 15, 2018 -  The first evaluation period has come and gone.  Our students have been coding feverishly over the past months and many of them have already demonstrated their work to their mentors and teams.   We are proud to report that during this evaluation, our mentors have decided to pass all eight of the GSoC students.  Our Rocket.Chat sponsored projects also reported all passes for the three students. We have started to create blog stories around the projects featuring our students - the first story should be available in the next week or two. Due to some internal project logistic problem, one of the students has agreed, together with his mentors and team to switch topic from the second term onwards - to another one of his accepted final proposal - our list below has been amended to reflected the change.   We have, through our working partner, be able to fund an additional  (to the 11 that we already have) highly capable but non-GSoC selected student to work on Rocket.Chat related topic.
+
+UPDATE April 25, 2018 - AMENDED June 15, 2018 -  The list of [official GSoC 2018 accepted students and projects](https://summerofcode.withgoogle.com/organizations/6355544806260736/) is now available. First, we would like to sincerely thank every student who has submitted a proposal and many who had worked on PR and assisted in our open source community - please continue the excellent work. Of the 93 proposals we received, there were many high quality ones. We have also interacted with many of the students in the prior month. Decision was difficult and mentors were competitive this year.  Ultimately, EIGHT of the top students/proposals this year are accepted for GSoC 2018 (thank you, Google!):
 
 |Student|Project|Mentors|
 |-------|-------|-------|
@@ -21,7 +23,7 @@ UPDATE April 25, 2018 -  The list of [official GSoC 2018 accepted students and p
 |Aniket Singh|Android and wear app|Fiipe Brito, Lucio Maciel|
 |Jose Renan|Rocket.Chat SDK for Javascript Clients|Karl Prieb|
 |Semih Serhat Karakaya|Nextcloud as Storage and User File Provider|Guilherme Gazzo, Bjoern Schiessle, John Szaszvari|
-|Karan Bedi|Rocket.Chat Global Search|Rodrigo Nascimento, Pierre Lehnen|
+|Karan Bedi|Rocket.Chat voice recognition APIs and built-in Speech2Text Engine integration|Gabriel Delavald, Pierre Lehnen|
 |Nikhil Kaushik|Integration with Google Drive and Dropbox|Marcelo Schmidt, Martin Schoeler|
 |Samar Sunkaria|Support for theming the Rocket.Chat iOS app|Matheus Cardoso, Filipe Alvarenga|
 |De Sheng Chuan|Data integrity and consistency|Diego Sampaio, Rodrigo Nascimento, Sing Li|
@@ -32,7 +34,7 @@ In addition, due to the sheer number of high quality entrants, Rocket.Chat has d
 |-------|-------|-------|
 |Pradeep Kumar|Livechat Reports and Analytics|Renato Becker|
 |Nitesh Saxena|Intgration with IPFS|Sing Li, Ankit Bhatia|
-|Arthur Temporim|Livechat Reports and Analytics|Diego Dorgam, John Szaszvari|
+|Arthur Temporim|Enhanced BOT Adapters|Diego Dorgam, John Szaszvari|
 
 All of the eleven students have been contacted by mentors and started the community bonding period.
 
