@@ -79,10 +79,10 @@ To register the visitor without using the registration form, you can use the fol
 ```javascript
 RocketChat(function() {
     this.registerGuest({
-		  token: 'FHwaLnp8fzjMupSAj', // The token field is not required. If it is not passed, a new token will be generated
-		  name: 'visitor name',
-		  email: 'sample@rocket.chat'
-	});
+      token: 'FHwaLnp8fzjMupSAj', // The token field is not required. If it is not passed, a new token will be generated
+      name: 'visitor name',
+      email: 'sample@rocket.chat'
+  });
 });
 ```
 
