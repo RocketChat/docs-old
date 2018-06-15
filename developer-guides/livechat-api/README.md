@@ -42,6 +42,50 @@ RocketChat(function() {
 });
 ```
 
+#### _Set visitor token_
+
+To set an external token for a visitor, you can use the following code:
+
+```javascript
+RocketChat(function() {
+    this.setGuestToken('FHwaLnp8fzjMupSAj');
+});
+```
+
+#### _Set name field_
+
+To set the visitor name field, you can use the following code:
+
+```javascript
+RocketChat(function() {
+    this.setGuestName('visitor name');
+});
+```
+
+#### _Set email field_
+
+To set the visitor email field, you can use the following code:
+
+```javascript
+RocketChat(function() {
+    this.setGuestEmail('sample@rocket.chat');
+});
+```
+
+#### _Register visitor_
+
+To register the visitor without using the registration form, you can use the following code:
+
+```javascript
+RocketChat(function() {
+    this.registerGuest({
+		token: 'FHwaLnp8fzjMupSAj', // The token field is not required. If it is not passed, a new token will be generated
+		name: 'visitor name',
+		email: 'sample@rocket.chat'
+	});
+});
+```
+
 ### Events
 
 #### _onChatMaximized_
