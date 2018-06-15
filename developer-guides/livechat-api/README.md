@@ -174,6 +174,7 @@ RocketChat(function() {
 
 | Version | Description                                                                                                                                            |
 | :------ | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0.66.0  | Added `setGuestToken`, `setGuestName`, `setGuestEmail` and `registerGuest` methods.                                                                    |
 | 0.53.0  | Added callback events and the ability to pass a flag to `setCustomField` so the value passed does not get wrote if there is already an existing value. |
 | 0.36.0  | Added `setTheme` method                                                                                                                                |
 | 0.26.0  | Added `setCustomField` method                                                                                                                          |
