@@ -42,6 +42,50 @@ RocketChat(function() {
 });
 ```
 
+#### _Set visitor token_
+
+To set an external token for a visitor, you can use the following code:
+
+```javascript
+RocketChat(function() {
+    this.setGuestToken('FHwaLnp8fzjMupSAj');
+});
+```
+
+#### _Set name field_
+
+To set the visitor name field, you can use the following code:
+
+```javascript
+RocketChat(function() {
+    this.setGuestName('visitor name');
+});
+```
+
+#### _Set email field_
+
+To set the visitor email field, you can use the following code:
+
+```javascript
+RocketChat(function() {
+    this.setGuestEmail('sample@rocket.chat');
+});
+```
+
+#### _Register visitor_
+
+To register the visitor without using the registration form, you can use the following code:
+
+```javascript
+RocketChat(function() {
+    this.registerGuest({
+      token: 'FHwaLnp8fzjMupSAj', // The token field is not required. If it is not passed, a new token will be generated
+      name: 'visitor name',
+      email: 'sample@rocket.chat'
+  });
+});
+```
+
 ### Events
 
 #### _onChatMaximized_
@@ -130,6 +174,7 @@ RocketChat(function() {
 
 | Version | Description                                                                                                                                            |
 | :------ | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0.66.0  | Added `setGuestToken`, `setGuestName`, `setGuestEmail` and `registerGuest` methods.                                                                    |
 | 0.53.0  | Added callback events and the ability to pass a flag to `setCustomField` so the value passed does not get wrote if there is already an existing value. |
 | 0.36.0  | Added `setTheme` method                                                                                                                                |
 | 0.26.0  | Added `setCustomField` method                                                                                                                          |
