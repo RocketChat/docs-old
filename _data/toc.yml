@@ -56,6 +56,7 @@
       - Snaps:
         - AutoSSL
     - Mongo Options
+    - Mongo Versions
     - Configuring SSL Reverse Proxy
     - PM2, Systemd, Upstart
     - Running in a sub folder
