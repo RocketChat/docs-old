@@ -7,7 +7,7 @@ Once enabled and added to rooms, SlackBridge will clone the room in Rocket.Chat 
 
 ## To create a Custom Bot in Slack:
 
-1. Go to `https://[your_app].slack.com/apps/manage/custom-integrations`
+1. Go to `https://my.slack.com/apps/manage/custom-integrations`
 2. At the top-right of your screen, click on Build
 3. Choose Legacy custom integrations
 4. Scroll down and click on ["Set up a bot user"](https://my.slack.com/apps/A0F7YS25R-bots)
