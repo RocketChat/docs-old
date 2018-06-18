@@ -102,6 +102,7 @@
     - Amazon S3
     - Google Cloud Storage
     - Minio
+    - WebDAV
   - Import:
     - CSV
     - HipChat:
