@@ -316,6 +316,11 @@ main {
     color: $color-dark;
   }
 
+  a:hover {
+    color: #1e70bf;
+    text-decoration: none;
+  }
+
   ul {
     list-style: none;
     margin: 0 0 0 20px;
@@ -364,6 +369,15 @@ main {
   .inline_toc {
     font-size: 13px;
     font-weight: 500;
+
+    a, a:visited {
+      color: $color-dark;
+    }
+
+    a:hover {
+      color: #1e70bf;
+      text-decoration: none;
+    }
   }
 }
 
