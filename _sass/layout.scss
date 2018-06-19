@@ -124,9 +124,9 @@ code {
 }
 
 :not(pre) > code {
-  color: $space;
+  color: $brand;
   background-color: $grey-bg;
-  padding: 4px 7px;
+  padding: 1px 3px;
   white-space: nowrap;
   font-weight: 600;
   border-radius: 2px;
