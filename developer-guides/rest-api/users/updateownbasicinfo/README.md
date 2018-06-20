@@ -6,6 +6,8 @@
 
 Note that to update the password or email for the user you must send `currentPassword` property encrypted in SHA256 together in payload.
 
+**WARNING:** This API does not work when the server contains custom fields. There's a bug report [here](https://github.com/RocketChat/Rocket.Chat/issues/11154) related to that.
+
 ## Payload
 
 | Argument | Example | Required | Description |
