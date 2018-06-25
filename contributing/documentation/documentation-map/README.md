@@ -279,6 +279,7 @@ Here you can also find what articles are incomplete and missing.
             - removeModerator
             - removeOwner
             - rename
+            - roles
             - setCustomFields
             - setDescription
             - setJoinCode
@@ -328,6 +329,7 @@ Here you can also find what articles are incomplete and missing.
             - removeModerator
             - removeOwner
             - rename
+            - roles
             - setCustomFields
             - setDescription
             - setPurpose
