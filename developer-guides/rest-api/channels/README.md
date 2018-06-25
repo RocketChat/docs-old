@@ -23,6 +23,7 @@
 | `/api/v1/channels.removeModerator` | Removes the role of moderator from a user in a channel. | [Link](removemoderator/) |
 | `/api/v1/channels.removeOwner` | Removes the role of owner from a user in a channel. | [Link](removeowner/) |
 | `/api/v1/channels.rename` | Changes a channel's name. | [Link](rename/) |
+| `/api/v1/channels.roles`  | Gets the user's roles in the channel.| [Link](roles/)   |
 | `/api/v1/channels.setCustomFields` | Sets a channel's custom fields. | [Link](setcustomfields/) |
 | `/api/v1/channels.setDescription` | Sets a channel's description. | [Link](setdescription/) |
 | `/api/v1/channels.setJoinCode` | Sets the channel's code required to join it. | [Link](setjoincode/) |
