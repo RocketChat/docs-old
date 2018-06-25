@@ -242,6 +242,7 @@
         - removeModerator
         - removeOwner
         - rename
+        - roles
         - setCustomFields
         - setDescription
         - setJoinCode
@@ -289,6 +290,7 @@
         - removeModerator
         - removeOwner
         - rename
+        - roles
         - setCustomFields
         - setDescription
         - setPurpose
