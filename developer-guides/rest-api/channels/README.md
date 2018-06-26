@@ -19,6 +19,7 @@
 | `/api/v1/channels.leave` | Removes the calling user from a channel. | [Link](leave/) |
 | `/api/v1/channels.list` | Retrieves all of the channels from the server. | [Link](list/) |
 | `/api/v1/channels.list.joined` | Gets only the channels the calling user has joined. | [Link](list-joined/) |
+| `/api/v1/channels.members` | Retrieves all channel users. | [Link](members/) |
 | `/api/v1/channels.open` | Adds the channel back to the user's list of channels. | [Link](open/) |
 | `/api/v1/channels.removeModerator` | Removes the role of moderator from a user in a channel. | [Link](removemoderator/) |
 | `/api/v1/channels.removeOwner` | Removes the role of owner from a user in a channel. | [Link](removeowner/) |
