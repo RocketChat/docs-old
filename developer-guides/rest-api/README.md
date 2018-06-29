@@ -128,7 +128,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.pinMessage`             | Pins a chat message to the message's channel.                    | [Link](chat/pinmessage/)                |
 | `/api/v1/chat.postMessage`            | Posts a new chat message.                                        | [Link](chat/postmessage/)               |
 | `/api/v1/chat.react`                  | Sets/unsets the user's reaction to an existing chat message.     | [Link](chat/react/)                     |
-| `/api/v1/chat.reportMessage`          | Reports a message.                                                | [Link](chat/reportmessage/)             |
+| `/api/v1/chat.reportMessage`          | Reports a message.                                               | [Link](chat/reportmessage/)             |
 | `/api/v1/chat.search`                 | Search for messages in a channel.                                | [Link](chat/search/)                    |
 | `/api/v1/chat.starMessage`            | Stars a chat message for the authenticated user.                 | [Link](chat/starmessage/)               |
 | `/api/v1/chat.sendMessage`            | Send new chat message.                                           | [Link](chat/sendmessage/)               |
@@ -151,6 +151,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/im.list.everyone`   | List all direct message the caller in the server.             | [Link](im/list-everyone/)   |
 | `/api/v1/im.open`            | Adds the direct message back to the list of direct messages.  | [Link](im/open/)            |
 | `/api/v1/im.setTopic`        | Sets a direct message topic.                                  | [Link](im/settopic/)        |
+
+### Permissions
+
+| Url                          | Short Description                | Details Page                |
+| :--------------------------- | :------------------------------- | :-------------------------- |
+| `/api/v1/permissions.list`   | Lists permissions on the server. | [Link](permissions/list/)   |
+| `/api/v1/permissions.update` | Edits permissions on the server. | [Link](permissions/update/) |
 
 ### Rooms
 
