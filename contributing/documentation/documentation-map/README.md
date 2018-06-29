@@ -281,6 +281,7 @@ Here you can also find what articles are incomplete and missing.
             - rename
             - roles
             - setCustomFields
+            - setDefault
             - setDescription
             - setJoinCode
             - setPurpose

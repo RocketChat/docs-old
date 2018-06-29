@@ -245,6 +245,7 @@
         - rename
         - roles
         - setCustomFields
+        - setDefault
         - setDescription
         - setJoinCode
         - setPurpose

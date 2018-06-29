@@ -84,6 +84,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.roles`                      | Gets the user's roles in the channel.                       | [Link](channels/roles/)                         |
 | `/api/v1/channels.setCustomFields`            | Sets a channel's custom fields.                             | [Link](channels/setcustomfields/)               |
 | `/api/v1/channels.setAnnouncement`            | Sets a channel's announcement.                              | [Link](channels/setannouncement/)               |
+| `/api/v1/channels.setDefault`                 | Sets whether a channel is a default channel or not.         | [Link](channels/setdefault/)                    |
 | `/api/v1/channels.setDescription`             | Sets a channel's description.                               | [Link](channels/setdescription/)                |
 | `/api/v1/channels.setJoinCode`                | Sets the channel's code required to join it.                | [Link](channels/setjoincode/)                   |
 | `/api/v1/channels.setPurpose`                 | Sets a channel's description.                               | [Link](channels/setpurpose/)                    |
