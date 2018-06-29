@@ -30,6 +30,9 @@
     language: '',
     transcript: false,
     transcriptMessage: 'Would you like a copy of this chat emailed?',
-    agentData: undefined
+    agentData: undefined,
+    conversationFinishedMessage: 'Conversation finished',
+    nameFieldRegistrationForm: true,
+    emailFieldRegistrationForm: true
 }
 ```

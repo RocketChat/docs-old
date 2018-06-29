@@ -238,10 +238,12 @@
         - leave
         - list.joined
         - list
+        - members
         - open
         - removeModerator
         - removeOwner
         - rename
+        - roles
         - setCustomFields
         - setDescription
         - setJoinCode
@@ -289,6 +291,7 @@
         - removeModerator
         - removeOwner
         - rename
+        - roles
         - setCustomFields
         - setDescription
         - setPurpose
