@@ -26,6 +26,6 @@ When writing on a `.js` file you can use the global method `TAPi18n.__()`. Now d
 
 If the selected key is not present in the respective `.i18n.json` file it will default it to english, if no key is found it will display the key inserted in the method as a string.
 
-Now if you are in a `.html` file, you can simply surround the string with `{_ }` for example `{{_ "YOUR_KEY_HERE"}}`. It will work the same as the method mentioned above, only with the convenience of adding it directly to the `.html` file.
+Now if you are in a `.html` file, you can simply surround the string with `{{ "{{_ " }}}}` for example `{{ "{{_ YOUR_KEY_HERE" }}}}`. It will work the same as the method mentioned above, only with the convenience of adding it directly to the `.html` file.
 
 Sometimes you can find some methods that requires an object with a `i18nLabel` or `i18nDescription`. In these cases you only need to insert the key of the string, the method will do the rest.
