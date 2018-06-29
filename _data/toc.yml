@@ -360,6 +360,7 @@
         - update
         - updateOwnBasicInfo
       - Offset and Count and Sort Info
+      - Rate Limiter
       - Permissions
       - Query and Fields Info
     - Schema Definition

@@ -396,6 +396,7 @@ Here you can also find what articles are incomplete and missing.
             - update
             - updateOwnBasicInfo
         - Offset and Count and Sort Info
+        - Rate Limiter
         - Permissions
         - Query and Fields Info
         - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
