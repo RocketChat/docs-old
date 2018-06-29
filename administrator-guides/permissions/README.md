@@ -30,7 +30,7 @@ Permission changes are immediate and transparent.  Users do not need to logout, 
 | ban-user | Permission to ban a user.
 | bulk-create-c | Permission to bulk create public rooms.
 | bulk-register-user | Permission to bulk add users.
-| clean-channel-history |
+| clean-channel-history | Permission to prune a channel's messages and/or files.
 | close-livechat-room | Permission to close your own live chat room.
 | close-others-livechat-room | Permission to close others live chat rooms.
 | create-c | Permission to create a public channel.
@@ -48,6 +48,7 @@ Permission changes are immediate and transparent.  Users do not need to logout, 
 | edit-other-user-password | Accessible from Administration -> Users module.  Permission to modify other user's passwords.  Requires edit-other-user-info permission.
 | edit-privileged-setting | Permission to edit privileged settings
 | edit-room | Permission to edit a room's name, topic, type (private or public status) and status (active or archived).  This menu is visible by clicking the INFO icon on the top right hand corner of the screen while inside a room.
+| edit-room-retention-policy | Permission to edit's a room's retention policy.
 | join-without-join-code |
 | mail-messages |
 | manage-assets | Accessible from Administration -> Assets. Permission to manage assets. Must also be admin
