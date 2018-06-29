@@ -10,7 +10,8 @@ Reacting to messages is a convenient way to "react" to messages with emojis, all
 
 ## Example Call
 
-Setting and removing a reaction requires a call to the same method with the same parameters. The first parameter is the reaction which is also the `emoji` and the second parameter is the message id of which the reaction is happening against.
+Setting and removing a reaction requires a call to the same method with the same parameters. The first parameter is the reaction which is also the `emoji`,
+ the second parameter is the message id of which the reaction is happening against and the third parameter is optional and work like a setter.
 
 ```json
 {
@@ -20,6 +21,7 @@ Setting and removing a reaction requires a call to the same method with the same
     "params": [
         ":nerd:",
         "messageId"
+        true/false
     ]
 }
 ```

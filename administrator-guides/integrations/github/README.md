@@ -454,6 +454,7 @@ const githubEvents = {
             });
         } else{
             attachment.fields.push({
+                title: changeset,
                 value: output,
                 short: is_short
             });

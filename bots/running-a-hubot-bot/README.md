@@ -56,7 +56,7 @@ export ROCKETCHAT_ROOM=general
 export ROCKETCHAT_USESSL=true
 ```
 
-Adjust the content to fit your server and user credentials. Make sure `myuser`
+Adjust the content to fit your server and user credentials. Make sure `mybotuser`
 has **BOT role** on the server, if you don't know what that means,
 [click here](../creating-bot-users).
 
@@ -88,8 +88,8 @@ Now we start the docker container.
 docker run -it -e ROCKETCHAT_URL=<your rocketchat instance>:<port> \
     -e ROCKETCHAT_ROOM='' \
     -e LISTEN_ON_ALL_PUBLIC=true \
-    -e ROCKETCHAT_USER=bot \
-    -e ROCKETCHAT_PASSWORD=bot \
+    -e ROCKETCHAT_USER=mybotuser \
+    -e ROCKETCHAT_PASSWORD=mypassword \
     -e HUBOT_NAME=bot \
     -e EXTERNAL_SCRIPTS=hubot-help,hubot-diagnostic \
     -v $PWD:/home/hubot/node_modules/hubot-rocketchat rocketchat/hubot-rocketchat
