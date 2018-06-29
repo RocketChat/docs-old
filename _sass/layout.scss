@@ -34,26 +34,30 @@ body {
   h4,
   h5 {
     line-height: 1.28571429em;
-    margin: calc(2rem -  0.14285714em ) 0em 1rem;
+    margin-bottom: 14px;
     font-weight: bold;
     padding: 0em;
     display: flex;
   }
   h1 {
-    min-height: 1rem;
-    font-size: 2rem;
+    min-height: 1em;
+    font-size: 2em;
+    margin-bottom: 24px;
   }
   h2 {
-    font-size: 1.71428571rem;
+    font-size: 1.71428571em;
+    margin-bottom: 24px;
+    margin-top: 24px;
   }
   h3 {
-    font-size: 1.28571429rem;
+    font-size: 1.28571429em;
+    margin-bottom: 16px;
   }
   h4 {
-    font-size: 1.07142857rem;
+    font-size: 1.07142857em;
   }
   h5 {
-    font-size: 1rem;
+    font-size: 1em;
   }
   h1:first-child,
   h2:first-child,
@@ -90,6 +94,10 @@ body {
     text-decoration: none;
   }
 
+  ol {
+    list-style: decimal;
+    margin-left: 2em;
+  }
 }
 
 hr {
@@ -116,9 +124,9 @@ code {
 }
 
 :not(pre) > code {
-  color: $space;
+  color: $brand;
   background-color: $grey-bg;
-  padding: 4px 7px;
+  padding: 1px 3px;
   white-space: nowrap;
   font-weight: 600;
   border-radius: 2px;
@@ -132,7 +140,7 @@ blockquote {
   color: $space;
   background-color: $grey-bg;
   border: 1px solid $grey-smoke;
-  margin: 2em 1em;
+  margin: 2em 0;
   padding: 15px;
   border-radius: 2px;
 }
@@ -145,7 +153,6 @@ blockquote {
 
   &.main {
     display: flex;
-    padding-right: 0.5em;
   }
 
   &.home{
@@ -290,7 +297,7 @@ main {
   width: $toc-width;
   overflow-y: auto;
   padding:  1em 1em 1em 0;
-  font-size: 0.9em;
+  font-size: 14px;
 
   li {
     font-weight: normal;
@@ -307,6 +314,11 @@ main {
 
   a, a:visited {
     color: $color-dark;
+  }
+
+  a:hover {
+    color: #1e70bf;
+    text-decoration: none;
   }
 
   ul {
@@ -333,6 +345,7 @@ main {
   border-left: 1px solid #ddd;
 
   .wrapper {
+    font-size: 14px;
     padding-right: 1em;
   }
 }
@@ -346,12 +359,25 @@ main {
 }
 
 .article-toc-wrapper{
-  width: 35%;
+  width: 30%;
   height: fit-content;
   padding-left: 0.5em;
   border-left: 1px solid #ddd;
   h4:last-child {
     display: none;
+  }
+  .inline_toc {
+    font-size: 13px;
+    font-weight: 500;
+
+    a, a:visited {
+      color: $color-dark;
+    }
+
+    a:hover {
+      color: #1e70bf;
+      text-decoration: none;
+    }
   }
 }
 
@@ -449,7 +475,7 @@ td > code {
 .content table {
   display: table;
   width: 100%;
-  margin: 1rem auto;
+  margin: 1em auto;
   border-top: 1px solid #bfbfbf;
   border-collapse: collapse;
   border-spacing: 0;
@@ -583,7 +609,8 @@ td > code {
   order: 2;
   margin: 0 10px;
   img {
-    width: 20px;
+    width: 15px;
+    height: 15px;
   }
 }
 
@@ -593,4 +620,5 @@ h4:hover .header-link,
 h5:hover .header-link,
 h6:hover .header-link {
   display: flex;
+  align-items: center;
 }

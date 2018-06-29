@@ -200,6 +200,7 @@ Here you can also find what articles are incomplete and missing.
     - Livechat API
     - Mobile Apps
         - Supporting SSL
+        - Supported Servers Versions
     - Realtime-API:
         - Method Calls:
             - Login
@@ -273,11 +274,12 @@ Here you can also find what articles are incomplete and missing.
             - leave
             - list.joined
             - list
-            - <span class="missing">[members](../missing-and-outdated-list/index.html#channelsmembers)</span>
+            - members
             - open
             - removeModerator
             - removeOwner
             - rename
+            - roles
             - setCustomFields
             - setDescription
             - setJoinCode
@@ -327,6 +329,7 @@ Here you can also find what articles are incomplete and missing.
             - removeModerator
             - removeOwner
             - rename
+            - roles
             - setCustomFields
             - setDescription
             - setPurpose

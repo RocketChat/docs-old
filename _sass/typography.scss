@@ -1,7 +1,6 @@
 body,
 input,
-button,
-pre {
+button {
   font-size: $font-size;
   font-family: $font-family;
   color: $grey;
@@ -74,7 +73,7 @@ strong {
 }
 
 .label--small {
-  font-size: 0.6rem;
+  font-size: 0.6em;
   line-height: 1.6;
   letter-spacing: 0.5px;
   text-transform: uppercase;
