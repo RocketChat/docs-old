@@ -160,3 +160,19 @@ You can add a message to whenever the stream is unavailable in the `Livestream n
 You can also stream only the sound of the live stream with the `Enable audio only button`. This is very useful when you want to do a podcast for example.
 
 If you are not a channel owner and there is already a live stream set to that channel, you will need only press play on the stream tab. Doing that will create a pop over embedded video, that can be moved around the screen and even if you change channels you will still be able to watch that stream, since the popover will not close when changing channels.
+
+## Prune Messages
+
+If you are a server admin, or your admin has given you the `clean-channel-history` permission (for example, an admin may give that permission to channel owners), this option will allow you to swiftly delete messages from a channel.
+
+`Newer than` and `Older than` allow you to set a timespan of messages to delete. If you leave both fields blank, all messages will delete. If you only wish to delete all messages posted after a specific date, you can fill in the `Newer than` field. If you wish to delete all messages posted before a specific date, you can fill in the `Older than` field. To delete messages between two dates, you fill in both fields.
+
+To further specify what you wish to be removed, you can use the other checkboxes:
+
+- __Inclusive__: if this is checked, all messages that land on the exact start/end times you have specified will be deleted too.
+
+- __Exclude pinned messages__: if this is checked, it will NOT delete pinned messages.
+
+- __Only remove the attached files, keep messages__: if this is checked, this will only remove files, not the messages themselves.
+
+_Messages and files deleted with this option are deleted forever and cannot be recovered. Be careful and double-check your arguments before pressing Prune._
