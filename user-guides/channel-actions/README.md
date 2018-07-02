@@ -32,6 +32,8 @@ Here you can see all kinds of information about the current channel. If you have
 
 - __Password__: Tells whether a channel has a password and let you set the password. If a channel has a password, other users need to enter the password to become a member of the channel.
 
+If a [retention policy](../../administrator-guides/retention-policies/) is active on this channel, a red warning box will appear saying when your messages or files will be automatically deleted.
+
 ## Search Messages
 
 Rocket Chat search supports basic search commands which work like Gmail search.
