@@ -16,3 +16,4 @@ The methods and endpoints of the <b>Realtime API</b> and <b>Rest API</b>, respec
 | :----------------------- | :----------------- | :-------------- |
 | `/user.roles`            | 0.63.0             | 0.66.0          |
 | `/channels.cleanHistory` | 0.64.0             | 0.67.0          |
+| `/permissions`           | 0.66.0             | 0.69.0          |
