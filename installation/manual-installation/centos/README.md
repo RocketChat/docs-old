@@ -1,4 +1,4 @@
-# Deploying Rocket.Chat on Centos 7
+# Deploying Rocket.Chat on CentOS 7
 
 > If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](../../../installation/updating/from-0-x-x-to-0-40-0/)
 
@@ -7,16 +7,16 @@ The following was tested with Vultr and Digital Ocean.  Should work on Linode to
 Add the epel repository and update everything.
 
 ```
-yum -y install epel-release nano && yum -y update
+yum -y install epel-release && yum -y update
 ```
 
 Populate the yum repo with the mongodb repository
 
 ```
-nano /etc/yum.repos.d/mongodb.repo
+vi /etc/yum.repos.d/mongodb.repo
 ```
 
-Paste this into the new file:
+Press `i` and type this into the new file:
 
 ```
   [mongodb]
@@ -26,11 +26,7 @@ Paste this into the new file:
   enabled=1
 ```
 
-To write and save do:
-
-```
-CTRL-O, CTRL-X
-```
+Press `ESC`, `:`, `x` and `ENTER` to save the file.
 
 Now we need to install our dependencies from yum:
 
