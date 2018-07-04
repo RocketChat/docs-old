@@ -64,14 +64,14 @@ sudo service snap.rocketchat-server.rocketchat-caddy status
 To see the logs from Rocket.Chat:
 
 ```
-sudo journalctl -u snap.rocketchat-server.rocketchat-server
+sudo journalctl -f -u snap.rocketchat-server.rocketchat-server
 ```
 
 To see the logs from Mongo or Caddy:
 
 ```
-sudo journalctl -u snap.rocketchat-server.rocketchat-mongo
-sudo journalctl -u snap.rocketchat-server.rocketchat-caddy
+sudo journalctl -f -u snap.rocketchat-server.rocketchat-mongo
+sudo journalctl -f -u snap.rocketchat-server.rocketchat-caddy
 ```
 
 ### I need to restart Rocket.Chat, how do I do this?
