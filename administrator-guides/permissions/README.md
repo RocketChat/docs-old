@@ -36,15 +36,15 @@ Also, by default roles are shown as little tags on the side of a username on mes
 
 |  Permission    | Purpose
 |  :---  | :----
-| access-mailer | Accessible from Administration -> Mailer. Permission to send use the [Mailer Tool](../email/mailer).
-| access-permissions | Accessible from Administration -> Permissions.Permission to create and edit roles and permissions.
-| add-oauth-service | Accessible from Administration -> OAuth Apps. Permission to manage different OAuth services and apps.
+| access-mailer | Permission to use the [Mailer Tool](../email/mailer). Accessible from Administration -> Mailer.
+| access-permissions | Permission to create and edit roles and permissions. Accessible from Administration -> Permissions.
+| add-oauth-service | Permission to manage different OAuth services and apps. Accessible from Administration -> OAuth Apps.
 | add-user-to-any-c-room | Permission to add a user to a public channel.
 | add-user-to-any-p-room | Permission to add a user to a private channel.
 | add-user-to-joined-room | Permission to add a user to a joined channel.
 | archive-room | Permission to archive a channel.
-| assign-admin-role | Accessible from Administration -> Users module. Permission to promote user to Admin. Requires view-user-administration permission.
-| auto-translate | Accessible from Administration -> Message -> Auto Translate. Permission to use the Auto Translate Tool <!--Add Link to auto translate article when we have one -->
+| assign-admin-role | Permission to promote user to Admin. Requires view-user-administration permission. Accessible from Administration -> Users.
+| auto-translate | Permission to use the Auto Translate Tool Accessible from Administration -> Message -> Auto Translate. <!--Add Link to auto translate article when we have one -->
 | ban-user | Permission to ban a user.
 | bulk-create-c | Permission to bulk create public channels.
 | bulk-register-user | Permission to bulk add users.
@@ -103,11 +103,11 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | view-l-room | Permission to view live chat channel.
 | view-livechat-manager | Permission to view other livechat managers.
 | view-livechat-rooms | Permission to view list of live chat channels.
-| view-logs | Accessible from Administration -> View Logs. Permission to view logs.
+| view-logs | Permission to view logs. Accessible from Administration -> View Logs.
 | view-other-user-channels | Permission to manage channels on the admin screen.
 | view-outside-room | Permission to find new channels and users. Users without this permission wont see channels that they are not part of when searching using the spotlight.
 | view-p-room | Permission to view private channels.
 | view-privileged-setting | Permission to view privileged settings.
 | view-room-administration | Enables Administration -> Channels module. Enables Permission to view public, private and direct message statistics. Does not include the permission to view conversations or archives.
 | view-statistics | Enables Administration -> Info module. Enables the permission to view system statistics such as number of users logged in, number of rooms, operating system information.
-| view-user-administration | Enables Administration -> Users module. Only includes partial, read-only list view of other user accounts currently logged into the system. No user account information is accessible with this permission. Add view-full-other-user-info to see complete list of other users via the Administration -> Users module.
+| view-user-administration | Enables Administration -> Users module. Only includes partial, read-only list view of other user accounts currently logged into the system. No user account information is accessible with this permission. Add view-full-other-user-info to see complete list of other users via the Administration -> Users.
