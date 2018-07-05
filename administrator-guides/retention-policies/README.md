@@ -20,13 +20,15 @@ If you want to enable channel owners to set their own policies, assign the `edit
 
 Retention policies have two levels, global policies (enforced everywhere) and per-channel policies (enforced in specific channels).
 
+To turn on retention policies, switch `Enabled` to `True`.
+
+> Hint: If you wish to use per-channel policies but not use a global policy, switch all three `Applies to` switches to `False`, but switch `Enabled` to `True`.
+
 ### Global policies
 
 > __Watch out!__ Tweaking these settings without utmost care can destroy __all message history__. Please read this entire section __before__ turning the feature on.
 
-You can find the settings for this feature in `Retention Policy` in the admin panel.
-
-To turn on the global policy, switch `Enabled` to `True`.
+You can find the settings for this feature in `Retention Policy` in the admin panel, under section `Global Policy`.
 
 The policy is split up in three parts, a policy for all channels, for all private groups and for all direct messages. Each type has two options:
 
