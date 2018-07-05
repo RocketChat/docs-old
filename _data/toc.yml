@@ -245,6 +245,7 @@
         - rename
         - roles
         - setCustomFields
+        - setDefault
         - setDescription
         - setJoinCode
         - setPurpose
@@ -324,6 +325,9 @@
         - spotlight
         - statistics
         - statistics.list
+      - Permissions:
+        - list
+        - update
       - Rooms:
         - cleanHistory
         - favorite
@@ -360,7 +364,6 @@
         - update
         - updateOwnBasicInfo
       - Offset and Count and Sort Info
-      - Permissions
       - Query and Fields Info
     - Schema Definition
     - Testing

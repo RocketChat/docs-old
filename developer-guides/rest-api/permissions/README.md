@@ -1,43 +1,6 @@
-# Permissions
+# Permission Methods
 
-Returns all permissions from the server.
-
-| URL | Requires Auth | HTTP Method |
+| Url | Short Description | Details Page |
 | :--- | :--- | :--- |
-| `/api/v1/permissions` | `yes` | `GET` |
-
-## Example Call
-
-```bash
-curl -H "X-Auth-Token: 6eWs4ECxUITYYoZ_bAYK5OE2srkxAepQqQA1cGGv3jK" \
-     -H "X-User-Id: hvzu8z6mHFigiXy6Y" \
-     http://localhost:3000/api/v1/permissions
-```
-
-## Example Result
-
-```json
-[
-  {
-    "_id": "access-permissions",
-    "roles": [
-      "admin"
-    ],
-    "_updatedAt": "2018-01-25T13:03:20.879Z",
-    "meta": {
-      "revision": 0,
-      "created": 1516980515815,
-      "version": 0
-    },
-    "$loki": 1
-  },{
-    ...
-  }
-]
-```
-
-## Change Log
-
-| Version | Description |
-| :--- | :--- |
-| 0.61.0 | Added. |
+| `/api/v1/permissions.list`   | Lists permissions on the server. | [Link](list/)   |
+| `/api/v1/permissions.update` | Edits permissions on the server. | [Link](update/) |
