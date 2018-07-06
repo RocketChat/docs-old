@@ -18,69 +18,53 @@
 
 ```bash
 curl http://localhost:3000/api/v1/login \
-     -d "username=myusername&password=mypassword"
-```
-
-```bash
-curl http://localhost:3000/api/v1/login \
-     -d "user=myusername&password=mypassword"
-```
-
-```bash
-curl http://localhost:3000/api/v1/login \
-     -d "user=my@email.com&password=mypassword"
+     -d 'ldap=true&ldapOptions=[]&ldapPass=mypassword&username=myusername'
 ```
 
 ## Example Call - As JSON
 
 ```bash
-curl -H "Content-type:application/json" \
-      http://localhost:3000/api/v1/login \
-      -d '{ "username": "myusername", "password": "mypassword" }'
-```
-
-```bash
-curl -H "Content-type:application/json" \
-      http://localhost:3000/api/v1/login \
-      -d '{ "user": "myusername", "password": "mypassword" }'
-```
-
-```bash
-curl -H "Content-type:application/json" \
-      http://localhost:3000/api/v1/login \
-      -d '{ "user": "my@email.com", "password": "mypassword" }'
+curl -d '{ "ldap": true,
+           "ldapOptions": [],
+           "ldapPass": "mypassword",
+           "username": "myusername" }' \
+     -H "Content-Type: application/json" \
+     https://localhost:3000/api/v1/login
 ```
 
 ## Result
 
 ```json
 {
-  "status": "success",
-  "data": {
-      "authToken": "9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq",
-      "userId": "aobEdbYhXfu5hkeqG",
-      "me": {
-            "_id": "aYjNnig8BEAWeQzMh",
-            "name": "Rocket Cat",
+    "status": "success", 
+    "data": {
+        "authToken": "4hE0md4nAhvNlZKBfbnIOVn0PASpQfQ2rdx19x90qtj", 
+        "me": {
+            "status": "online", 
+            "username": "yourusername", 
+            "name": "yourname", 
+            "roles": [
+                "user"
+            ], 
+            "settings": {
+                "preferences": {
+                   ...
+                }
+            }, 
+            "utcOffset": 17, 
+            "email": "youraddress", 
+            "statusConnection": "online", 
+            "active": true, 
+            "_id": "kF4gNg6u7JJ5pmjJW", 
             "emails": [
                 {
-                  "address": "rocket.cat@rocket.chat",
-                  "verified": false
+                    "verified": true, 
+                    "address": "youraddress"
                 }
-            ],
-            "status": "offline",
-            "statusConnection": "offline",
-            "username": "rocket.cat",
-            "utcOffset": -3,
-            "active": true,
-            "roles": [
-                "admin"
-            ],
-            "settings": {
-                "preferences": {}
-              }
-        }
-   }
+            ]
+        }, 
+        "userId": "kF4gNg6u7JJ5pmjJW"
+    }
 }
 ```
 
