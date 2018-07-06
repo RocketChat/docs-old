@@ -36,33 +36,33 @@ curl -d '{ "ldap": true,
 
 ```json
 {
-    "status": "success", 
+    "status": "success",
     "data": {
-        "authToken": "4hE0md4nAhvNlZKBfbnIOVn0PASpQfQ2rdx19x90qtj", 
+        "authToken": "4hE0md4nAhvNlZKBfbnIOVn0PASpQfQ2rdx19x90qtj",
         "me": {
-            "status": "online", 
-            "username": "yourusername", 
-            "name": "yourname", 
+            "status": "online",
+            "username": "yourusername",
+            "name": "yourname",
             "roles": [
                 "user"
-            ], 
+            ],
             "settings": {
                 "preferences": {
                    ...
                 }
-            }, 
-            "utcOffset": 17, 
-            "email": "youraddress", 
-            "statusConnection": "online", 
-            "active": true, 
-            "_id": "kF4gNg6u7JJ5pmjJW", 
+            },
+            "utcOffset": 17,
+            "email": "youraddress",
+            "statusConnection": "online",
+            "active": true,
+            "_id": "kF4gNg6u7JJ5pmjJW",
             "emails": [
                 {
-                    "verified": true, 
+                    "verified": true,
                     "address": "youraddress"
                 }
             ]
-        }, 
+        },
         "userId": "kF4gNg6u7JJ5pmjJW"
     }
 }
