@@ -31,7 +31,7 @@ The URL metadata contains several informational fields:
 - `headers`: Some HTTP headers (varies accord to the URL)
 - `parsedUrl`: The parsed URL broken into its parts
 
-[The attachment object is fully described here](../rest-api/chat/postmessage#attachments-detail)
+[The attachment object is fully described here](../../rest-api/chat/postmessage#attachments-detail)
 
 ```json
 {
