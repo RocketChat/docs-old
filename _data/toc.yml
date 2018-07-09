@@ -55,6 +55,8 @@
     - Ubuntu:
       - Snaps:
         - AutoSSL
+    - Mongo Options
+    - Mongo Versions
     - Configuring SSL Reverse Proxy
     - PM2, Systemd, Upstart
     - Running in a sub folder
@@ -87,7 +89,8 @@
     - CAS
     - Ldap
     - Oauth
-    - SAML
+    - SAML:
+      - Oracle Cloud
     - WordPress
   - Database-Migration
   - Email:
@@ -97,7 +100,9 @@
     - Direct Reply
   - File Upload:
     - Amazon S3
+    - Google Cloud Storage
     - Minio
+    - WebDAV
   - Import:
     - CSV
     - HipChat:
@@ -144,6 +149,7 @@
   - Create the First Admin
   - Restoring an Admin
   - Settings Via Env Vars
+  - Youtube Broadcasting
 - Developer guides:
     - Quick Start
     - Branches and Releases
@@ -158,17 +164,9 @@
     - Embedded Layout
     - Internationalization
     - Livechat API
-    - Using Bots:
-      - Bots FAQ
-      - Bots Architecture
-      - Creating Bot Users
-      - Configure Bot Environment
-      - Running a Hubot Bot
-      - Running a Botkit Bot
-      - Running a Rasa Bot
-      - Running a Botpress Bot
     - Mobile Apps:
       - Supporting SSL
+      - Supported Servers Versions
     - Realtime-API:
       - Method Calls:
         - Login
@@ -228,6 +226,7 @@
         - addOwner
         - archive
         - close
+        - counters
         - create
         - files
         - getAllUserMentionsByChannel
@@ -239,10 +238,14 @@
         - leave
         - list.joined
         - list
+        - members
         - open
         - removeModerator
         - removeOwner
         - rename
+        - roles
+        - setCustomFields
+        - setDefault
         - setDescription
         - setJoinCode
         - setPurpose
@@ -274,6 +277,7 @@
         - addOwner
         - archive
         - close
+        - counters
         - create
         - files
         - getIntegrations
@@ -288,6 +292,8 @@
         - removeModerator
         - removeOwner
         - rename
+        - roles
+        - setCustomFields
         - setDescription
         - setPurpose
         - setReadOnly
@@ -296,6 +302,7 @@
         - unarchive
       - Im:
         - close
+        - counters
         - create
         - files
         - history
@@ -318,6 +325,9 @@
         - spotlight
         - statistics
         - statistics.list
+      - Permissions:
+        - list
+        - update
       - Rooms:
         - cleanHistory
         - favorite
@@ -334,6 +344,8 @@
       - Subscriptions:
         - get
         - getOne
+        - read
+        - unread
       - Users:
         - create
         - createToken
@@ -342,6 +354,7 @@
         - getAvatar
         - getPresence
         - get-preferences
+        - getUsernameSuggestion
         - info
         - list
         - register
@@ -351,7 +364,6 @@
         - update
         - updateOwnBasicInfo
       - Offset and Count and Sort Info
-      - Permissions
       - Query and Fields Info
     - Schema Definition
     - Testing
@@ -360,5 +372,14 @@
       - Colors
       - Components
       - Themes
+- Bots:
+  - Bots FAQ
+  - Bots Architecture
+  - Creating Bot Users
+  - Configure Bot Environment
+  - Running a Hubot Bot
+  - Running a Botkit Bot
+  - Running a Rasa Bot
+  - Running a Botpress Bot
 - Community Cookbook:
   - Remote Video Monitoring

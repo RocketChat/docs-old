@@ -11,6 +11,7 @@ Sets the notifications settings of specific channel.
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `5of4weEXaH7yncxz9` | Required | The channel's id |
+| `notifications.desktopNotifications` | `nothing` | Optional: 'nothing', 'all', 'mentions', 'default' | The value for desktop notifications |
 | `notifications.disableNotifications` | `'0'` | Optional: '0' or '1' | The value to disable/enable channel's notifications. |
 | `notifications.emailNotifications` | `nothing` | Optional: 'nothing', 'all', 'mentions', 'default' | The value for email notifications. |
 | `notifications.audioNotifications` | `nothing` | Optional: 'nothing', 'all', 'mentions', 'default' | The value for audio notifications. |
@@ -18,7 +19,7 @@ Sets the notifications settings of specific channel.
 | `notifications.audioNotificationValue` | `beep` | Optional | The value for audio notification sound. |
 | `notifications.desktopNotificationDuration` | `'0'` | Optional | The value for desktop notification duration. |
 | `notifications.unreadAlert` | `nothing` | Optional: 'nothing', 'all', 'mentions', 'default' | The value for unread alerts notifications. |
-| `notifications.hideUnreadStatus` | `'0'` | Optional: '0' or '1' | The value to disable/enable number of unred messages. |
+| `notifications.hideUnreadStatus` | `'0'` | Optional: '0' or '1' | The value to disable/enable number of unread messages. |
 
 ## Example payload
 

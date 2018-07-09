@@ -1,4 +1,4 @@
-# Rocket.Chat Less Styleguide
+# Rocket.Chat css Styleguide
 
 - [Comments](#comments)
 - [Formatting](#formatting)
@@ -30,7 +30,7 @@
 
 **Bad**
 
-```less
+```css
 blockquote {
     .clearfix;
     margin: .5em 0;
@@ -67,7 +67,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 blockquote {
     .clearfix;
     margin: .5em 0;
@@ -113,7 +113,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .class {
     border: 0;
 }
@@ -124,7 +124,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .class {
     border: 0;
 }
@@ -138,7 +138,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .class{
     border: 0;
 }
@@ -146,7 +146,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .class {
     border: 0;
 }
@@ -156,7 +156,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .class {
     border: 0;
     &.another-class {
@@ -167,7 +167,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .class {
     border: 0;
 
@@ -181,7 +181,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .class {
     border: 0;
 
@@ -196,7 +196,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .class {
     border: 0;
 
@@ -214,7 +214,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .input[ type="text" ] {
     border: 0;
 }
@@ -222,7 +222,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .input[type="text"] {
     border: 0;
 }
@@ -232,7 +232,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .input[type = "text" ] {
     border: 0;
 }
@@ -240,7 +240,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .input[type="text"] {
     border: 0;
 }
@@ -250,7 +250,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .class>.button {
     font-size: 1rem;
 }
@@ -258,7 +258,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .class > .button {
     font-size: 1rem;
 }
@@ -268,7 +268,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .class,  .another, .another-class {
     padding: 1.5rem;
 }
@@ -276,7 +276,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .class,
 .another,
 .another-class {
@@ -288,7 +288,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .class:not( .another ) {
     margin: 5px;
 }
@@ -296,7 +296,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .class:not(.another) {
     margin: 5px;
 }
@@ -306,7 +306,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .class:before {
     border-width: 2px;
 }
@@ -318,7 +318,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .class::before {
     border-width: 2px;
 }
@@ -334,7 +334,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .room-list {
 
     border: 0;
@@ -347,7 +347,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .room-list {
     border: 0;
     padding-left: 0;
@@ -359,13 +359,13 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .sumbit {color: #ffffff; background-color: #000000;}
 ```
 
 **Good**
 
-```less
+```css
 .sumbit {
     color: #ffffff;
     background-color: #000000;
@@ -376,13 +376,13 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .button {}
 ```
 
 **Good**
 
-```less
+```css
 .button {
     float: left;
 }
@@ -392,7 +392,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .class {
     padding-left: 12px;
     padding-top: 5px;
@@ -402,7 +402,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .class {
     padding: 5px auto 8px 12px;
 }
@@ -412,7 +412,7 @@ blockquote {
 
 **Example**
 
-```less
+```css
 .class {
     border-color: #ffffff;
     border: 1px solid #000000;
@@ -423,7 +423,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .another-class {
     color: #ffffff;
     padding: 2px
@@ -432,7 +432,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .another-class {
     color: #ffffff;
     padding: 2px;
@@ -443,7 +443,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .another-class {
     box-shadow: 0 0 0 1px #5b9dd9, 0 0 2px 1px rgba(30, 140, 190, 0.8);
 }
@@ -451,7 +451,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .another-class {
     box-shadow:
         0 0 0 1px #5b9dd9,
@@ -463,7 +463,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .another-class {
     display: block;
     margin-top: 2rem;
@@ -473,7 +473,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .another-class {
     margin-top: 2rem;
     display: inline-block;
@@ -484,7 +484,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .some-class {
     display: block;
 }
@@ -499,7 +499,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .some-class {
     display: block;
     margin-top: 2rem;
@@ -511,7 +511,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .class {
     margin-left: 12px!important;
 }
@@ -519,7 +519,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .class {
     margin-left: 12px !important;
 }
@@ -529,7 +529,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .class {
     width: calc(~"200px-1rem");
 }
@@ -537,7 +537,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .class {
     width: calc(~"200px - 1rem");
 }
@@ -547,7 +547,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .button {
     padding: 10px 0px 0px 2px;
 }
@@ -555,17 +555,17 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .button {
     padding: 10px 0 0 2px;
 }
 ```
 
-### Use a leading zero for fractional numbers less than 1.
+### Use a leading zero for fractional numbers css than 1.
 
 **Bad**
 
-```less
+```css
 .message-form {
     margin-right: .5rem;
 }
@@ -573,7 +573,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .message-form {
     margin-right: 0.5rem;
 }
@@ -583,7 +583,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .flex-tab {
     padding-bottom: 1.500rem;
 }
@@ -591,7 +591,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .flex-tab {
     padding-bottom: 1.5rem;
 }
@@ -601,7 +601,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .nav-link::before {
     content: "sample
         text";
@@ -610,7 +610,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .nav-link::before {
     content: "sample text";
 }
@@ -624,7 +624,7 @@ blockquote {
 
 **Bad**
 
-```less
+```css
 .another-class {
     background-color: #FFF;
 }
@@ -632,7 +632,7 @@ blockquote {
 
 **Good**
 
-```less
+```css
 .another-class {
     background-color: #ffffff;
 }

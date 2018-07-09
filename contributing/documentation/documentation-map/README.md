@@ -76,6 +76,7 @@ Here you can also find what articles are incomplete and missing.
         - Ubuntu:
             - Snaps:
                 - AutoSSl
+        - Mongo Options
         - Configuring SSL Reverse Proxy
         - PM2, Systemd, Upstart
         - Running in a sub folder
@@ -131,6 +132,7 @@ Here you can also find what articles are incomplete and missing.
         - Direct Reply
     - File Upload:
         - Amazon S3
+        - Google Cloud Storage
         - Minio
         - <span class="missing">[GridFS](../missing-and-outdated-list/index.html#GridFS)</span>
         - <span class="missing">[Local File System](../missing-and-outdated-list/index.html#Local-File-System)</span>
@@ -198,6 +200,7 @@ Here you can also find what articles are incomplete and missing.
     - Livechat API
     - Mobile Apps
         - Supporting SSL
+        - Supported Servers Versions
     - Realtime-API:
         - Method Calls:
             - Login
@@ -258,6 +261,7 @@ Here you can also find what articles are incomplete and missing.
             - addOwner
             - archive
             - close
+            - counters
             - create
             - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
             - files
@@ -270,11 +274,14 @@ Here you can also find what articles are incomplete and missing.
             - leave
             - list.joined
             - list
-            - <span class="missing">[members](../missing-and-outdated-list/index.html#channelsmembers)</span>
+            - members
             - open
             - removeModerator
             - removeOwner
             - rename
+            - roles
+            - setCustomFields
+            - setDefault
             - setDescription
             - setJoinCode
             - setPurpose
@@ -306,6 +313,7 @@ Here you can also find what articles are incomplete and missing.
             - addOwner
             - archive
             - close
+            - counters
             - create
             - <span class="missing">[delete](../missing-and-outdated-list/index.html#groupsdelete)</span>
             - files
@@ -322,6 +330,8 @@ Here you can also find what articles are incomplete and missing.
             - removeModerator
             - removeOwner
             - rename
+            - roles
+            - setCustomFields
             - setDescription
             - setPurpose
             - setReadOnly
@@ -330,6 +340,7 @@ Here you can also find what articles are incomplete and missing.
             - unarchive
         - Im:
             - close
+            - counters
             - create
             - files
             - history
@@ -353,6 +364,9 @@ Here you can also find what articles are incomplete and missing.
             - spotlight
             - statistics
             - statistics.list
+        - Permissions:
+            - list
+            - update
         - Rooms:
             - cleanHistory
             - favorite
@@ -366,6 +380,8 @@ Here you can also find what articles are incomplete and missing.
         - Subscriptions:
             - get
             - getOne
+            - read
+            - unread
         - Users:
             - create
             - createToken
@@ -374,6 +390,7 @@ Here you can also find what articles are incomplete and missing.
             - getAvatar
             - getPresence
             - getPreferences
+            - getUsernameSuggestion
             - info
             - list
             - register
@@ -383,7 +400,6 @@ Here you can also find what articles are incomplete and missing.
             - update
             - updateOwnBasicInfo
         - Offset and Count and Sort Info
-        - Permissions
         - Query and Fields Info
         - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
         - <span class="incomplete">[Testing](../missing-and-outdated-list#Testing)</span>
@@ -392,5 +408,14 @@ Here you can also find what articles are incomplete and missing.
         - Colors
         - Components
         - Themes
+- Bots:
+    - Bots FAQ
+    - Bots Architecture
+    - Creating Bot Users
+    - Configure Bot Environment
+    - Running a Hubot Bot
+    - Running a Botkit Bot
+    - Running a Rasa Bot
+    - Running a Botpress Bot
 - Community Cookbook:
     - Remote Video Monitoring

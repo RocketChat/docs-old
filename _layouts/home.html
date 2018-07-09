@@ -28,29 +28,9 @@
 
 
 <body>
-  <header>
-    <div class="wrapper">
-      <a class="logo" href="/">
-        <img src="{{ site.url }}/images/default/logo.svg" alt="Rocket.Chat">
-      </a>
-      <a class="logo mobile" href="/">
-        <img src="{{ site.url }}/images/default/icon.svg" alt="Rocket.Chat">
-      </a>
-      <div class="header-items">
-        <ul>
-          <li><a href="https://rocket.chat/download">Download</a></li>
-          <li><a href="https://rocket.chat/cloud">Cloud</a></li>
-          <li><a href="https://rocket.chat/community">Community</a></li>
-          <li><a href="https://rocket.chat/docs/">Docs</a></li>
-          <li><a href="https://rocket.chat/blog/">Blog</a></li>
-          <li><a href="https://rocket.chat/contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </header>
+  {% include header.html %}
 
-
-  <main style="margin-top: 0">
+  <main style="margin-top: 0; padding-top: 0;">
     <div class="search-wrapper">
       <h1 class="title">Rocket.Chat Documentation</h1>
       <p class="description">Welcome to Rocket.Chat! Get familiar with Rocket.Chat and explore our features:</p>
@@ -66,6 +46,8 @@
   </main>
 
   {% include footer.html %}
+
+  <script src="/main.js"></script>
 
   <script type="text/javascript">
     window.jekyll = { site: { url: '{{ site.url }}' } };

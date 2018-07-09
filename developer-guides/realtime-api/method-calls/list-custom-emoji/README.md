@@ -42,7 +42,7 @@ Response:
 
 ## Showing the emoji image
 
-To show the custom emoji images, you simple need to request this URL:
+To show the custom emoji images, you simply need to request this URL:
 
 > ${ path }/emoji-custom/${ encoded(name) } }.${ extension }.
 

@@ -6,6 +6,8 @@
 
 Note that to update the password or email for the user you must send `currentPassword` property encrypted in SHA256 together in payload.
 
+**WARNING:** This API does not work when the server contains custom fields. There's a bug report [here](https://github.com/RocketChat/Rocket.Chat/issues/11154) related to that.
+
 ## Payload
 
 | Argument | Example | Required | Description |
@@ -15,6 +17,7 @@ Note that to update the password or email for the user you must send `currentPas
 | `data.username` | `example` | Optional | The username for the user. |
 | `data.currentPassword` | `5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5@w0rd` | Optional | The password for the user encrypted in SHA256. |
 | `data.newPassword` | `passw0rd` | Optional | The new password for the user |
+| `data.customFields` | `{ twitter: '@example' }` | Optional <br> Default: `undefined` | Any custom fields the user should have on their account. |
 
 ## Example Call
 
@@ -92,6 +95,9 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
         "username": "rocket.cat",
         "settings": {
             "profile": {}
+        },
+        "customFields": {
+          "twitter": "userstwitter"
         }
     },
     "success": true

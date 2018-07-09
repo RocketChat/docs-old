@@ -2,7 +2,7 @@
 
 Setting up and running a software is not always an easy thing. We get that. That's why we try to help everybody as good as possible with their instance of Rocket.Chat. And while we do like to help everybody, it just isn't feasible in any case. That is why we have to limit the support by the core team to some extent.
 
-The following paragraphs will tell you about limits of the support the core team can give as well as where to find the community to help you and how you yourself can contribute by reporting bugs to us on Github.
+The following paragraphs will tell you about limits of the support the core team can give as well as where to find the community to help you and how you yourself can contribute by reporting bugs to us on GitHub.
 
 ## Supported versions of Rocket.Chat
 
@@ -43,7 +43,7 @@ Some of the channels to get help:
 - [#support](https://open.rocket.chat/channel/support) channel for help with general Rocket.Chat
 - [#ubuntu-snap](https://open.rocket.chat/channel/ubuntu-snap) channel for help with snap installs
 - [#desktop](https://open.rocket.chat/channel/desktop) channel for help with the desktop client
-- [#hubot](https://open.rocket.chat/channel/hubot) channel for help with hubot scripting
+- [#bots](https://open.rocket.chat/channel/bots) channel for help with chatbot scripting
 - [#dev](https://open.rocket.chat/channel/dev) channel for developers needing help developing new features
 
 Remember to have a little patience. Support is provided by other members of the community like you in their free time.

@@ -1,6 +1,6 @@
 # Chat Message Reactions
 
-Toggles the authenciated user's reaction to the provided message.
+Toggles the authenticated user's reaction to the provided message.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -12,7 +12,7 @@ Toggles the authenciated user's reaction to the provided message.
 | :--- | :--- | :--- | :--- |
 | `emoji` | `smile` | Required | The emoji to react with. |
 | `messageId` | `7aDSXtjMA3KPLxLjt` | Required | The message id to react to. |
-| `shouldReact` | `7aDSXtjMA3KPLxLjt` | Optional: `true` or `false` | Parameter to specify if the reaction should be added or removed. |
+| `shouldReact` | `true` | Optional: `true` or `false` | Parameter to specify if the reaction should be added or removed. |
 
 The `emoji` does not have to contain the `:`'s. However, the emoji *does* have to exist.
 

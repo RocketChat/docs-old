@@ -13,7 +13,9 @@ redirect_from:
 
 Application has closed for the GSoC 2018 season.
 
-UPDATE April 25, 2018 -  The list of [official GSoC 2018 accepted students and projects](https://summerofcode.withgoogle.com/organizations/6355544806260736/) is now available. First, we would like to sincerely thank every student who has submitted a proposal and many who had worked on PR and assisted in our open source community - please continue the excellent work. Of the 93 proposals we received, there were many high quality ones. We have also interacted with many of the students in the prior month.  Decision was difficult and mentors were competitive this year.  Ultimately, EIGHT of the top students/proposals this year are accepted for GSoC 2018 (thank you, Google!):
+UPDATE June 15, 2018 -  The first evaluation period has come and gone.  Our students have been coding feverishly over the past months and many of them have already demonstrated their work to their mentors and teams.   We are proud to report that during this evaluation, our mentors have decided to pass all eight of the GSoC students.  Our Rocket.Chat sponsored projects also reported all passes for the three students. We have started to create blog stories around the projects featuring our students - the first story should be available in the next week or two. Due to some internal project logistic problem, one of the students has agreed, together with his mentors and team to switch topic from the second term onwards - to another one of his accepted final proposal - our list below has been amended to reflected the change.   We have, through our working partner, be able to fund an additional  (to the 11 that we already have) highly capable but non-GSoC selected student to work on Rocket.Chat related topic.
+
+UPDATE April 25, 2018 - AMENDED June 15, 2018 -  The list of [official GSoC 2018 accepted students and projects](https://summerofcode.withgoogle.com/organizations/6355544806260736/) is now available. First, we would like to sincerely thank every student who has submitted a proposal and many who had worked on PR and assisted in our open source community - please continue the excellent work. Of the 93 proposals we received, there were many high quality ones. We have also interacted with many of the students in the prior month. Decision was difficult and mentors were competitive this year.  Ultimately, EIGHT of the top students/proposals this year are accepted for GSoC 2018 (thank you, Google!):
 
 |Student|Project|Mentors|
 |-------|-------|-------|
@@ -21,7 +23,7 @@ UPDATE April 25, 2018 -  The list of [official GSoC 2018 accepted students and p
 |Aniket Singh|Android and wear app|Fiipe Brito, Lucio Maciel|
 |Jose Renan|Rocket.Chat SDK for Javascript Clients|Karl Prieb|
 |Semih Serhat Karakaya|Nextcloud as Storage and User File Provider|Guilherme Gazzo, Bjoern Schiessle, John Szaszvari|
-|Karan Bedi|Rocket.Chat Global Search|Rodrigo Nascimento, Pierre Lehnen|
+|Karan Bedi|Rocket.Chat voice recognition APIs and built-in Speech2Text Engine integration|Gabriel Delavald, Pierre Lehnen|
 |Nikhil Kaushik|Integration with Google Drive and Dropbox|Marcelo Schmidt, Martin Schoeler|
 |Samar Sunkaria|Support for theming the Rocket.Chat iOS app|Matheus Cardoso, Filipe Alvarenga|
 |De Sheng Chuan|Data integrity and consistency|Diego Sampaio, Rodrigo Nascimento, Sing Li|
@@ -32,17 +34,17 @@ In addition, due to the sheer number of high quality entrants, Rocket.Chat has d
 |-------|-------|-------|
 |Pradeep Kumar|Livechat Reports and Analytics|Renato Becker|
 |Nitesh Saxena|Intgration with IPFS|Sing Li, Ankit Bhatia|
-|Arthur Temporim|Livechat Reports and Analytics|Diego Dorgam, John Szaszvari|
+|Arthur Temporim|Enhanced BOT Adapters|Diego Dorgam, John Szaszvari|
 
 All of the eleven students have been contacted by mentors and started the community bonding period.
 
-UPDATE April 2, 2018 -  2018 is an incredible GSoC year for us, we have received a total of NINETY THREE proposals from students studying at every corner of the globe - Brazil, Turkey, USA, Armenia, India, China, Singapore, Hong Kong and more. Thank you, GSoC students, for  the overwhelming interest on our project.   Proposal topics covered almost all of the suggestions on our idea list - and even a few original ones.  Our TWENTY FIVE Rocket.Chat core, guest, and community mentors are hard-at-work right now going through every one of the proposals, and will be contacting students for a video chat prior to deciding on proposal selection and slot assignments.  Please keep in touch with us and continue to contribute to the Rocket.Chat project during this time.
+UPDATE April 2, 2018 -  2018 is an incredible GSoC year for us, we have received a total of NINETY THREE proposals from students studying at every corner of the globe - Brazil, Turkey, USA, Armenia, India, China, Singapore, Hong Kong and more. Thank you, GSoC students, for the overwhelming interest on our project. Proposal topics covered almost all of the suggestions on our idea list - and even a few original ones. Our TWENTY FIVE Rocket.Chat core, guest, and community mentors are hard-at-work right now going through every one of the proposals, and will be contacting students for a video chat prior to deciding on proposal selection and slot assignments. Please keep in touch with us and continue to contribute to the Rocket.Chat project during this time.
 
-UPDATE March 24, 2018 -  Students PLEASE NOTE that your final proposal is due on March 27th.  It must be in PDF format and submitted via the official GSoC Dashboard.  Your Rocket.Chat Core and Guest Industry mentors are looking forward to receive and review your final proposals.
+UPDATE March 24, 2018 -  Students PLEASE NOTE that your final proposal is due on March 27th. It must be in PDF format and submitted via the official GSoC Dashboard. Your Rocket.Chat Core and Guest Industry mentors are looking forward to receive and review your final proposals.
 
-UPDATE March 12, 2018 -   Proposal submission for GSoC 2018 has started!   Interested students should visit the [GSoC 2018 site](https://summerofcode.withgoogle.com/) to apply and submit their proposals.  See the *Project Ideas* section below for some interesting ideas.
+UPDATE March 12, 2018 -   Proposal submission for GSoC 2018 has started! Interested students should visit the [GSoC 2018 site](https://summerofcode.withgoogle.com/) to apply and submit their proposals. See the *Project Ideas* section below for some interesting ideas.
 
-You can email the mentor(s) directly for discussion and further information.  You can also find them, most of the time, on our [community server](https://open.rocket.chat/)  for real-time chat.   Many of the mentors are fluent in both Portuguese and English.
+You can email the mentor(s) directly for discussion and further information. You can also find them, most of the time, on our [community server](https://open.rocket.chat/) for real-time chat. Many of the mentors are fluent in both Portuguese and English.
 
 For current information on the 2018 program and general discussions, please see GSoC 2018 category on our discussion forums:
 
@@ -56,7 +58,7 @@ If you have ideas and proposals that are not on our idea list, or if a mentor is
 
    gsoc+2018@rocket.chat
 
-Interested students are also encouraged to interact with our contributor community on Github:
+Interested students are also encouraged to interact with our contributor community on GitHub:
 
 <https://github.com/RocketChat/Rocket.Chat>
 
@@ -83,13 +85,13 @@ Accepted student proposals announced
 ### Global Search
 
 - **Mentors:** @rodrigo.nascimento
-- **Description:** Add global search to Rocket.Chat, allowing users to search across messages, rooms, files, users, etc in a single and easy to use interface. Like a MacOS Spotlight search.
+- **Description:** Add global search to Rocket.Chat, allowing users to search across messages, rooms, files, users, etc in a single and easy to use interface. Like a macOS Spotlight search.
 - **Desirable Skills:** Familiarity with JavaScript development, MongoDB or other search engine.
 
 ### Users Directory integration plus custom fields editor and search
 
 - **Mentors:** @marcelo.schmidt
-- **Description:** Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage  these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. On Users Directory, users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
+- **Description:** Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. On Users Directory, users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
 - **Desirable Skills:** Familiarity with JavaScript development.
 
 ### Storage integration with Google Drive and/or Dropbox
@@ -101,8 +103,8 @@ Accepted student proposals announced
 ### Nextcloud Integration
 
 - **Mentors:**   @guilherme.gazzo, @bjoern.schiessle (Nextcloud Guest Mentor)
-- **Description:**  You will create a cross-platform GUI file picker interface for Nextcloud,  integrated within Rocket.Chat,   allowing any user to select files from a Nextcloud server (or hosted Nextcloud account) for utilization (such as  file-sharing upload) within Rocket.Chat.
-- **Desirable Skills:**  You should already be familiar with the operation of Nextcloud and Rocket.Chat and ideally have experience programming with Nextcloud’s API.  Experience working with JavaScript GUI an fullstack frameworks such as Angular and/or React is a big plus.  You will get a chance to work with the creators and architects of both Nextcloud and Rocket.Chat.  Upon completion of this project, you will be able to claim experience creating a modern open source software component that will be used by hundreds of thousands of Rocket.Chat and Nextcloud users.
+- **Description:**  You will create a cross-platform GUI file picker interface for Nextcloud,  integrated within Rocket.Chat, allowing any user to select files from a Nextcloud server (or hosted Nextcloud account) for utilization (such as  file-sharing upload) within Rocket.Chat.
+- **Desirable Skills:**  You should already be familiar with the operation of Nextcloud and Rocket.Chat and ideally have experience programming with Nextcloud’s API. Experience working with JavaScript GUI an fullstack frameworks such as Angular and/or React is a big plus. You will get a chance to work with the creators and architects of both Nextcloud and Rocket.Chat. Upon completion of this project, you will be able to claim experience creating a modern open source software component that will be used by hundreds of thousands of Rocket.Chat and Nextcloud users.
 
 ### NextCloud as a Storage Provider
 
@@ -115,13 +117,13 @@ Accepted student proposals announced
 - **Mentors:**   @aaron.ogle,  @sing.li
 - **Description:**  Snap is one of the easiest and most popular method to install Rocket.Chat on Linux distributions. You can have a Rocket.Chat server up and running with database and SSL proxy fully configured with one simple command. The current snap installation build script, used by hundreds of thousands of community users, is in need of updating and enhancements. You will be crafting updates and new features for our snaps for this project.
 
-- **Desirable Skills:**  Interest in system configuration, dev ops, system operations, and operating systems.   Should be competent in shell scripting on Linux and one or more programming languages.  Experience with docker or snapcraft a big plus.
+- **Desirable Skills:**  Interest in system configuration, dev ops, system operations, and operating systems. Should be competent in shell scripting on Linux and one or more programming languages. Experience with docker or snapcraft a big plus.
 
 ### Scaling to the edge of dreams
 
 - **Mentors:** @diego.sampaio
-- **Description:** Assist Rocket.Chat’s scalability engineers to scale Rocket.Chat to the next level.  From tens of thousands of active connections, to hundreds of thousands to millions, to world-scale.
-- **Desirable Skills:** We are looking for an enthusiastic undergraduate, planning to enroll or already enrolled for masters or PhD work in a cluster computing or scalability discipline to join us for an exciting summer of hands-on practical fun.   Working alongside our scalability expert – you will devise and test out various performance and scalability enhancements for Rocket.Chat’s deployment configurations.  You will be able to practice everything you have learnt so far in your under-graduate study, pushes beyond their limits, with a real production clustered server project – having your work impacting thousands of global users – all within the span of a single summer.
+- **Description:** Assist Rocket.Chat’s scalability engineers to scale Rocket.Chat to the next level. From tens of thousands of active connections, to hundreds of thousands to millions, to world-scale.
+- **Desirable Skills:** We are looking for an enthusiastic undergraduate, planning to enroll or already enrolled for masters or PhD work in a cluster computing or scalability discipline to join us for an exciting summer of hands-on practical fun. Working alongside our scalability expert – you will devise and test out various performance and scalability enhancements for Rocket.Chat’s deployment configurations. You will be able to practice everything you have learnt so far in your under-graduate study, pushes beyond their limits, with a real production clustered server project – having your work impacting thousands of global users – all within the span of a single summer.
 
 ### LiveChat Reports and Analytics
 
@@ -133,13 +135,13 @@ Accepted student proposals announced
 
 - **Mentors:**  @gabriel.engel,  @matthew.hodgson (Matrix.org Guest Mentor), and @sing.li
 - **Description:** Help Rocket.Chat to invent and implement networked federation for the next generation of collaboration platforms.
-- **Desirable Skills:** Suitable for an ambitious undergraduate planning to enroll or already enrolled for masters or PhD work in a cluster computing, networking  or distributed systems discipline in computer science or engineering to join us for an exciting summer of incredible brain crushing yet hands-on fun.   Working alongside our federation team – you will help design and test out your hypothesis against a next generation federation mechanism optimized specifically for Rocket.Chat servers – uniting them globally across all geo-political boundaries to dyamically form “One Rocket.Chat”.   This work will leverage all existing current research in this domain.   You must already be familiar with the work of giants – such as matrix.org – and be ready to break all conventions to improve and innovate upon existing paradigms.  You will be rewarded with production working experience on this bleeding-edge discipline, in a world-leading open source team environment with a like-minded team.  An incredible and unique opportunity in 2018.
+- **Desirable Skills:** Suitable for an ambitious undergraduate planning to enroll or already enrolled for masters or PhD work in a cluster computing, networking  or distributed systems discipline in computer science or engineering to join us for an exciting summer of incredible brain crushing yet hands-on fun. Working alongside our federation team – you will help design and test out your hypothesis against a next generation federation mechanism optimized specifically for Rocket.Chat servers – uniting them globally across all geo-political boundaries to dynamically form “One Rocket.Chat”. This work will leverage all existing current research in this domain. You must already be familiar with the work of giants – such as matrix.org – and be ready to break all conventions to improve and innovate upon existing paradigms. You will be rewarded with production working experience on this bleeding-edge discipline, in a world-leading open source team environment with a like-minded team. An incredible and unique opportunity in 2018.
 
 ### Built-in and server themes for iOS
 
 - **Mentors:** @matheus.cardoso
 - **Project repository:** <https://github.com/RocketChat/Rocket.Chat.iOS>
-- **Description:** Be part of our iOS team this summer to push Rocket.Chat's native iOS App to the next level!  You will - with our help - build the foundation for customizable user experience, support built-in themes for users to choose from and server-specific themes, allowing server owners to manifest the colors and feel of their communities.  You will have the chance to exchange experience with our engineers and designers, plus your work will have a great impact on the experience of thousands of users!
+- **Description:** Be part of our iOS team this summer to push Rocket.Chat's native iOS App to the next level!  You will - with our help - build the foundation for customizable user experience, support built-in themes for users to choose from and server-specific themes, allowing server owners to manifest the colors and feel of their communities. You will have the chance to exchange experience with our engineers and designers, plus your work will have a great impact on the experience of thousands of users!
 - **Desirable Skills:** We are looking for an undergraduate student who is familiar with team work, developing iOS Apps using UIKit, Auto Layout and Swift, as well as writing maintainable code with Unit Tests.
 
 ### Apple Watch & Siri Support
@@ -153,13 +155,13 @@ Accepted student proposals announced
 
 - **Mentors:** @rodrigo.nascimento
 - **Description:** Add small previews for non image files improving the UI/UX allowing users to see a preview of the content before click to open the file, it includes PDF, Word Documents and similar, Excel Documents and similar, PowerPoint and similar, Text files, Sketch, Photoshop, etc.
-- **Desirable Skills:** Familiarity with JavaScript development.  Experience hacking documents conversion and/or rendering libraries is a big plus.
+- **Desirable Skills:** Familiarity with JavaScript development. Experience hacking documents conversion and/or rendering libraries is a big plus.
 
 ### Draw (Android)
 
 - **Mentors:** @rafael.kellermann
 - **Project repository:** <https://github.com/RocketChat/Rocket.Chat.Android>
-- **Description:** Allow user to draw something using our Android native app and send to Rocket.Chat channel. The draw would have different colors and "brush" options (pen, brush, pencil, etc). User will also be able to draw on top of an image selected from library or just shooted.
+- **Description:** Allow user to draw something using our Android native app and send to Rocket.Chat channel. The draw would have different colors and "brush" options (pen, brush, pencil, etc). User will also be able to draw on top of an image selected from library or just shot.
 - **Desirable Skills:** Familiarity with Java or Kotlin development on Android. Previous experience with working on the Android App development and using open source libraries would be helpful. Ability to work in large multi-disciplinary teams.
 
 ### Android Wear App
@@ -172,22 +174,22 @@ Accepted student proposals announced
 ### Enabling global decentralized blockchain powered crypto communities
 
 - **Mentors:** @sing.li , @ankit.bhatia (Sapien Network Guest Mentor) and other leading blockchain industry guest mentors
-- **Description:** Working together with our crypto and blockchain team – you will help build the key enabler platform for the future of blockchain powered decentralized communities all over this world (and perhaps even beyond).   Within this short summer, you will gain experience in working on a global-circulation production-grade blockchain-powered adoption-acceleration platform.  You will also meet and work with leading visionaries and pioneers in the current blockchain / crypto field.   Tangible potential to become an early architect of this brave new world, supported by Rocket.Chat.
+- **Description:** Working together with our crypto and blockchain team – you will help build the key enabler platform for the future of blockchain powered decentralized communities all over this world (and perhaps even beyond). Within this short summer, you will gain experience in working on a global-circulation production-grade blockchain-powered adoption-acceleration platform. You will also meet and work with leading visionaries and pioneers in the current blockchain / crypto field. Tangible potential to become an early architect of this brave new world, supported by Rocket.Chat.
 
 Some projects that you can submit proposals for include:
 
 #### Decentralized Crypto Exchange in Rocket.Chat
 
-- **Description:** Starting either from scratch or utilizing one of the compatible license open source DEX code bases – create a functional Decentralized Exchange within Rocket.Chat.  You will create a DEX that takes advantage of strong cryptographic identity solutions such as Blockstack ID and wallet integration such as Metamask or ARK wallet in your work.
+- **Description:** Starting either from scratch or utilizing one of the compatible license open source DEX code bases – create a functional Decentralized Exchange within Rocket.Chat. You will create a DEX that takes advantage of strong cryptographic identity solutions such as Blockstack ID and wallet integration such as Metamask or ARK wallet in your work.
 
 #### IPFS storage solution in Rocket.Chat
 
-- **Description:**  Integreate IPFS into Rocket.Chat as a viable storage provider.   Ideally IPFS can be used as a storage provider for uploaded Rocket.Chat contents.   In addition, the ability to acesss IPFS within Rocket.Chat, to supply files that can be shared between users of Rocket.Chat is also essential.  Leveraging integration with strong cryptographic identities such as Blockstack ID, the solution should include strong  data-at-rest encryption of decentralized contents.  Use of decentralized storage abstraction frameworks such as Blockstack Gaia should be considered to simplify this work.  Use of IPFS as a decentralized storage for Rocket.Chat’s data should also be considered within the term.
+- **Description:**  Integrate IPFS into Rocket.Chat as a viable storage provider. Ideally IPFS can be used as a storage provider for uploaded Rocket.Chat contents. In addition, the ability to access IPFS within Rocket.Chat, to supply files that can be shared between users of Rocket.Chat is also essential. Leveraging integration with strong cryptographic identities such as Blockstack ID, the solution should include strong data-at-rest encryption of decentralized contents.  Use of decentralized storage abstraction frameworks such as Blockstack Gaia should be considered to simplify this work.  Use of IPFS as a decentralized storage for Rocket.Chat’s data should also be considered within the term.
 
-#### Cryptocurrency Wallet and/or Portoflio Management in Rocket.Chat
+#### Cryptocurrency Wallet and/or Portfolio Management in Rocket.Chat
 
 - **Description:** Enable the integration of wallet(s) such as Metamask,  MyEtherWallet,  ARK or other wallets or crypto portfolio management system within Rocket.Chat.
-- **Desirable Skills:** Looking for a unique fringe-dropout university student already committed to our inevitable decentralized future powered by Web 3.0 and continued blockchain technology innovations.  While maintaining a high score on all your subjects, you should be finding your existing university education ridiculously limiting, and already have experience hacking smart contracts, minting tokens for friends and family, hacking ethereum, and trading cryptokitties. You eat truffle for breakfast and ride the open zepplin to school every  day. Recent government (perhaps your own government) baseless  advances into this area has significantly disturbed you. You already realized that you are way ahead of your time.  And you will recognize this GSoC 2018 project to be the absolutely not-to-miss opportunity of your life.
+- **Desirable Skills:** Looking for a unique fringe-dropout university student already committed to our inevitable decentralized future powered by Web 3.0 and continued blockchain technology innovations. While maintaining a high score on all your subjects, you should be finding your existing university education ridiculously limiting, and already have experience hacking smart contracts, minting tokens for friends and family, hacking ethereum, and trading cryptokitties. You eat truffle for breakfast and ride the open zepplin to school every day. Recent government (perhaps your own government) baseless advances into this area has significantly disturbed you. You already realized that you are way ahead of your time. And you will recognize this GSoC 2018 project to be the absolutely not-to-miss opportunity of your life.
 
 ### Google Assistant
 
@@ -198,7 +200,7 @@ Some projects that you can submit proposals for include:
 ### Performance tests
 
 - **Mentors:** @diego.sampaio
-- **Description:** Create an initial script to run performance tests of basic functionalities, it should be able to run in our CI and should track infomation to allow us and the community follow the performance changes.
+- **Description:** Create an initial script to run performance tests of basic functionalities, it should be able to run in our CI and should track information to allow us and the community follow the performance changes.
 
 ### Javascript SDK
 
@@ -241,7 +243,7 @@ Some projects that you can submit proposals for include:
 - **Description:** Develop a voice recognition integration feature, by building a `Settings` pane to connect some of the well-known voice recognition and speech to text APIs on the market directly from within Rocket.Chat. By configuring API's connection and usage attributes, and giving rocket.chat's UI the ability to click a button, record a message, send to the desired API and return the results to Rocket.Chat editing message box. The project scope could include the following APIs:
 - IBM Watson's
 - AWS Lex
-- Google Assistent
+- Google Assistant
 - Bing
     Different APIs can be proposed as a possible change of scope.
 - **Desirable Skills:** Familiarity with JavaScript development.
