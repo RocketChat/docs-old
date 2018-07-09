@@ -202,6 +202,7 @@
         - Save Room Settings
       - Subscriptions:
         - Stream Notify All
+        - Stream Notify Logged
         - Stream Notify User
         - Stream Notify Room
         - Stream Room Messages
