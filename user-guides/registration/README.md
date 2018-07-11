@@ -8,7 +8,7 @@ You can create an account by providing your:
 
 - Name
 - Email
-- Password and password confirmation  
+- Password and password confirmation
 
 A server can ask for you to verify your email, this can be done by simply clicking in the link sent to the registered email.
 
