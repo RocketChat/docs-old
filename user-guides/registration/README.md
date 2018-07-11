@@ -7,8 +7,8 @@ To be able to access a server you will need to first register an account manuall
 You can create an account by providing your:
 
 - Name
-- email
-- Password and password confirmation
+- Email
+- Password and password confirmation  
 
 A server can ask for you to verify your email, this can be done by simply clicking in the link sent to the registered email.
 
