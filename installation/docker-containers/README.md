@@ -455,10 +455,9 @@ No worries! In order to get your bot up and running, we must register it…
 
 ## 9. Registering & Configuring Hubot, the chat robot
 
-Previously, we created the docker-compose.yml file. It's this file where we defined the basic attributes for Hubot. We set the bot name, password, room to join, and scripts to run. Before the bot can join the chat room, we must manually create the bot using the configuration details we provided in docker-compose.yml. 
+Previously, we created the docker-compose.yml file. It's this file where we defined the basic attributes for Hubot. We set the bot name, password, room to join, and scripts to run. Before the bot can join the chat room, we must manually create the bot using the configuration details we provided in docker-compose.yml.
 
-[https://github.com/RocketChat/hubot-rocketchat#creating-a-user-on-the-server]
-
+<https://github.com/RocketChat/hubot-rocketchat#creating-a-user-on-the-server>
 
 You can now optionally login and set some of the preferences, such as bot avatar. When finished, log out of the bot account.
 
