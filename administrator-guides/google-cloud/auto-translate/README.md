@@ -4,19 +4,17 @@ You can use Google's translation engine to translate every message received on a
 
 For that you will need a Google Translation API key, you can find how to get one and pricing for it's usage from the [Official Google API documentation](https://cloud.google.com/translate/pricing).
 
-> Please note, that the Translation API is a paid feature from Google Cloud. If you decide to aquire this service, you will be paying Google and not Rocket.Chat
-
 ## Getting the key
 
-Assuming that you already have a Google account logged, Follow these steps
+Follow these steps:
 
 1. Go to <http://cloud.google.com/console/>
 2. Create a Project and select it.
-3. On the left side bar, Go to “APIs & auth” Tab => APIs Tab
-4. Enable “Translate API”
+3. On the navigation menu, go to "APIs & Services" => Dashboard Tab
+4. Click on ENABLE APIS AND SERVICES and search for Cloud Translation API.
 5. Go to “Credentials” Tab
-6. Click on “CREATE NEW KEY”
-7. Create “Browser Key”.
+6. Click on "Create credentials"
+7. Choose "API key"
 
 You can find more info on the [Official Google API documentation](https://cloud.google.com/translate).
 
@@ -30,9 +28,9 @@ Only users with the `auto-translate` permission will be able to use this feature
 
 ## Enabling AutoTranslate on a Channel
 
-With the Auto Translate activated you can select a channel to use it, when using it, all messages written in any of the supported languages, will be translated to your selected language.
+When you enable Auto Translate on a channel all messages written in a Google Translate supported language will be translated to your selected language.
 
-> Note: only you will see these translations, for other users that dont have the Auto Translate, they will see the messages in the language they were written.
+> Note: only you will see the translated messages. Users who have not enabled Auto Translate will see the original, untranslated messages.
 
 To activate Auto Translate on a channel you must open the channel contextual menu (the three dots on the top right of the screen) and select Auto Translate, there you will be able to select your desired language.
 
