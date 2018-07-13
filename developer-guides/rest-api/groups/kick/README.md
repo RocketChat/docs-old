@@ -11,7 +11,7 @@ Removes a user from the private group.
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The private group's id |
-| `userId` | `nSYqWzZ4GsKTX4dyK` | Required | The user id of who to invite |
+| `userId` | `nSYqWzZ4GsKTX4dyK` | Required | The user id of who to remove |
 
 ## Example Call
 
