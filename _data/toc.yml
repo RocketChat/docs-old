@@ -137,6 +137,8 @@
     - Travis CI
     - Trello
     - Uptime Robot
+  - Google Cloud:
+    - Auto Translate
   - Jitsi Video Bridge
   - Livechat:
     - Livechat Queues
