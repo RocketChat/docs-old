@@ -18,7 +18,7 @@ Edits permissions on the server.
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type:application/json" \
-     http://localhost:3000/api/v1/users.update \
+     http://localhost:3000/api/v1/permissions.update \
      -d '{"permissions": [{"_id": "access-permissions", "roles": ["admin"]}]}'
 ```
 
