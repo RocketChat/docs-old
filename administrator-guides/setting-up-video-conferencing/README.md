@@ -1,6 +1,6 @@
 # Video Conferencing
 
-If you want to enable video conferencing, you have 2 options, [Jitsi Meet](#jitsi-meet) or [RocketChat Meet](#rocketchat-meet-webrtc).
+If you want to enable video conferencing, you have 2 options, [Jitsi Meet](#jitsi-meet) or [RocketChat Meet](#rocketchat-meet-powered-by-webrtc).
 
 We recommend using Jitsi for video conference, since RocketChat Meet is still a work in progress.
 
