@@ -36,16 +36,6 @@ Tell how the GridFS file storage mode works and how to configure it.
 
 Add more updating guides for different environments.
 
-## Voice and Video Calls
-
-Add proper instructions on how to use the video conference tools (both jitsi and WebRTC). Today we only have the requirements to run the WebRTC tool.
-
-Also differentiate jitsi from WebRTC.
-
-## ScreenSharing
-
-Add instructions on how to use screen-sharing.
-
 ## RedHat
 
 This section should be completed with the details on how to install Rocket.Chat on RedHat.
