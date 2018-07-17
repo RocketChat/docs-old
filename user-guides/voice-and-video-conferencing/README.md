@@ -17,3 +17,5 @@ Other users will be able to join via `Click to Join!` button that is sent as a m
 ## Screen Sharing
 
 You can start screen sharing by selecting `Share screen` in the jitsi widget.
+
+> Note: In Firefox screen sharing works out of the box, but if you are using chrome, please install this [extension](https://chrome.google.com/webstore/detail/rocketchat-screen-share/nocfbnnmjnndkbipkabodnheejiegccf) to be able to screen share.

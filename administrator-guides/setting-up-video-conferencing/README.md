@@ -27,11 +27,9 @@ require total privacy, setting up your own Jitsi Meet servers stack may be neces
 
 You can find extensive instructions on setting up a Jitsi Meet servers stack at the [official Jisti Meet repository](https://github.com/jitsi/jitsi-meet).
 
-Also, please consult our guide to quick setup of Jitsi Meet servers stack via Docker image.
-
 After setting your Jitsi Meet Server you can set the meeting Domain to the one on your server.
 
-## Rocket.Chat Meet (WebRTC)
+## Rocket.Chat Meet (Powered by WebRTC)
 
 Rocket.Chat Meet (in some places named as WebRTC) is our own take on implementing pure WebRTC. It still a work in progress but if you want to use it you can go to `Administration -> WebRTC`.
 
