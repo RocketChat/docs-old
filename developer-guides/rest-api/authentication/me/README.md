@@ -68,6 +68,16 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
             "notificationsSoundVolume": 100
         }
   },
+    "customFields": {
+        "twitter": "@userstwi"
+    },
   "success": true
 }
 ```
+
+## Change Log
+
+| Version | Description |
+| :--- | :--- |
+| 0.67.0 | Added `customFields` property. Return if it exists on server |
+| 0.48.0 | Added |
