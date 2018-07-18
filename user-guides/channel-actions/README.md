@@ -169,6 +169,8 @@ If you are a server admin, or your admin has given you the `clean-channel-histor
 
 `Newer than` and `Older than` allow you to set a timespan of messages to delete. If you leave both fields blank, all messages will delete. If you only wish to delete all messages posted after a specific date, you can fill in the `Newer than` field. If you wish to delete all messages posted before a specific date, you can fill in the `Older than` field. To delete messages between two dates, you fill in both fields.
 
+The `Users` field allows you to specify any users to delete the content from. If this field is filled, only their messages will be cleared. Leave it empty to not narrow down - the script will not care about who the content belongs to.
+
 To further specify what you wish to be removed, you can use the other checkboxes:
 
 - __Inclusive__: if this is checked, all messages that land on the exact start/end times you have specified will be deleted too.

@@ -24,6 +24,7 @@ Cleans up a room, removing messages from the provided time range.
 | `limit` | `250` | Optional <br> Default: `0` (no limit) | How many messages to delete at most |
 | `excludePinned` | `true` | Optional <br> Default: `false` | Whether pinned messages should be deleted |
 | `filesOnly` | `true` | Optional <br> Default: `false` | Whether to only delete files and keep messages intact |
+| `users` | `["vynmera", "ggazzo"]` | Optional <br> Default: `[]` (everyone) | Specific set of users whose content to delete |
 
 ## Example Call
 
@@ -48,4 +49,4 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | Version | Description |
 | :--- | :--- |
 | 0.64.0 | Added |
-| 0.67.0 | Added fields `limit`, `excludePinned` and `filesOnly` |
+| 0.67.0 | Added fields `limit`, `excludePinned`, `filesOnly` and `users` |
