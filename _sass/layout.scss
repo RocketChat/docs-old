@@ -21,7 +21,7 @@ body, label, input, textarea, select {
 }
 
 body {
-  background: #fff;
+  background: $space;
   color: $color-dark;
   padding: 0;
   margin: 0;
@@ -243,7 +243,6 @@ blockquote {
       height: 40px;
     }
     .icon {
-      filter: invert(100%);
       margin-top: 0;
       margin-left: 8px
     }
@@ -287,7 +286,7 @@ blockquote {
 }
 
 main {
-  background-color: #fff;
+  background-color: $space;
   margin: 15px auto 0;
   padding:  20px 0;
   min-width: 100vw;
@@ -399,19 +398,63 @@ main {
 
 .project-card {
   display: flex;
-  flex-direction: column;
-  background-color: #f6f7f9;
-  padding: 15px 20px;
+  background-color: $space-b;
+  padding: 24px 20px;
   margin: 0 auto;
-  height: 250px;
+  height: 232px;
   justify-content: space-between;
   width: 100%;
+  border-radius: 2px;
+  flex-direction: column;
 }
 
-.search-wrapper{
-  background-color: $space;
-  color: white;
+.project-card__header {
+  display: flex;
+}
+
+.project-card-title__title {
+  margin: 0 !important;
+  a {
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  font-weight: 600;
+  }
+}
+
+.project-card-title__description {
+  color: #999;
+  margin-top: 4px 0;
+  font-size: 0.8em;
+}
+
+.project-card-icon__wrapper {
+  padding: 12px;
+  background-color: $grey-dark;
+  border-radius: 100px;
+  margin-right: 16px;
+  height: 56px;
+  width: 56px;
+}
+
+.project-card-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.home-hero{
+  background: url("../images/default/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+  @media screen and (min-width: $tablet) {
+    background-image: url("../images/default/hero@2x.jpg");
+  }
+  
+  min-height: 93vh;
   padding: 9em 0;
+  
+  color: white;
   text-align: center;
 }
 
@@ -424,40 +467,35 @@ main {
   }
 }
 
-.card-icon {
-  height: 30px;
-  width: 30px;
-  margin: 10px 10px 10px 0;
-}
-
-.title{
+.home-hero__title {
   margin: 0;
   display: block;
   font-weight: 600;
   font-size: 2.5em;
-
-  &.card {
-    font-size: 1.15em;
-  }
 }
 
-.description {
+.home-hero__description {
   color: #999;
   margin: 5px 0;
-  &.card {
-    font-size: 0.8em;
-  }
 }
 
 .card-pages{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 0.8fr);
+  grid-gap: 8px 24px;
+  justify-content: left;
+
   font-size: 0.8em;
   font-weight: bold;
   max-width: 320px;
   & a {
-    margin-right: 1.2em;
-    color: #5b8af5;
+    color: $brand-dark;
+    font-size: 16px;
+    height: 24px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: left;
+    width: 228px;
   }
 }
 
