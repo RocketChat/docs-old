@@ -443,17 +443,14 @@ main {
 }
 
 .home-hero{
-  background: url("../images/default/hero.jpg");
+  background: url("../images/default/hero.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100% auto;
-  @media screen and (min-width: $tablet) {
-    background-image: url("../images/default/hero@2x.jpg");
-  }
-  
+
   min-height: 93vh;
-  padding: 9em 0;
-  
+  padding: 6em 0;
+
   color: white;
   text-align: center;
 }
@@ -542,13 +539,6 @@ td > code {
 }
 .content table tbody tr:nth-child(even) td {
   background: transparent;
-}
-
-
-@media all and (min-width: 2000px) {
-  .project-list {
-    grid-template-columns: repeat(3, 0.8fr);
-  }
 }
 
 // mobile
