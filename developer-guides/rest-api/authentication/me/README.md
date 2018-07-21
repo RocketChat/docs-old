@@ -79,5 +79,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
-| 0.67.0 | Added `customFields` property. Return if it exists on server |
+| 0.68.0 | Added `customFields` property. Return if it exists on server |
 | 0.48.0 | Added |
