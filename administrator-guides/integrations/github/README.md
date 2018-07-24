@@ -257,7 +257,6 @@ This script will generate notifications for the following repository events:
 
 ```javascript
 /* exported Script */
-
 // Begin embedded images
 const gh_cmit_svg = '<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon octicon-git-commit" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path></svg>';
 const gh_pr_svg = '<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>';
@@ -286,12 +285,97 @@ const githubEvents = {
       }
     };
   },
+  
+  project(request) {
+    const user = request.content.sender;
+    const attachment = {
+      author_icon: svg_inline_prefix + gh_iss_svg,
+      author_name: '#' + request.content.project.name,
+      author_link: request.content.project.html_url,
+      fields: []
+    };
+    
+    if (request.content.project.body) {
+      attachment.fields.push({
+        title: 'Project Body',
+        value: request.content.project.body,
+        short: true
+      });
+    }
+    
+    const actions = {
+      'created': ':triangular_flag_on_post:',
+      'closed': ':dart:',
+      'reopened': ':golf:', 
+      'edited': ':pencil:',
+      'deleted': ':negative_squared_cross_mark:'
+    };
+    const text = '>' + actions[request.content.action] + ' ' + 'Projects :- ' + request.content.action;
+    return {
+      content: {
+        alias: user.login,
+        text: text,
+        attachments: [attachment]
+      }
+    };
+  },
+  
+  project_card(request) {
+    const user = request.content.sender;
+    const link = request.content.repository.html_url + '/projects';
+    let issueId = request.content.project_card.content_url;
+    let domain = /api./gi;
+    let repos = /\/repos/gi;
+    var numb = issueId.match(/\/\d+/g);
+    var numb = numb.join("");
+    var numb = numb.substr(1);
+    const domainReplace = issueId.replace(domain, '');
+    const finalIssueId = domainReplace.replace(repos, '');
 
+    const attachment = { 
+  	author_icon: svg_inline_prefix + gh_iss_svg,
+    	author_name: '# Repo : ' + request.content.repository.full_name,
+    	author_link: link,
+        title: '#' + numb + ' - ISSUE',
+        title_link: finalIssueId,
+    	fields: []
+     };
+    
+    if (request.content.project_card.note) {
+      attachment.fields.push({
+        title: 'Card Name',
+        value: request.content.project_card.note,
+        short: true
+      });
+    }
+    
+    const actions = {
+      'created': ':triangular_flag_on_post:',
+      'moved': ':newspaper2:',
+      'reopened': ':golf:', 
+      'edited': ':pencil:',
+      'deleted': ':negative_squared_cross_mark:',
+      'converted': ':scroll: -> :triangular_flag_on_post:'
+    };
+    
+    const text = '>' + actions[request.content.action] + ' '  + 'Projects_Card :- ' + request.content.action;
+    
+    return {
+      content: {
+        alias: user.login,
+        text: text,
+        attachments: [attachment]
+      }
+    };
+    
+    
+  },
+  
   issues(request) {
     const user = request.content.sender;
     const attachment = {
       author_icon: svg_inline_prefix + gh_iss_svg,
-      author_name: '#' + request.content.issue.number + ' - ' + request.content.issue.title,
+      author_name: '#' + request.content.issue.number + ' - ' + request.content.repository.full_name + ' > ' + request.content.issue.title,
       author_link: request.content.issue.html_url,
       fields: []
     };
@@ -312,18 +396,17 @@ const githubEvents = {
       'assigned': ':inbox_tray:',
       'unassigned': ':outbox_tray:',
       'opened': ':triangular_flag_on_post:',
-      'closed': ':white_check_mark:',
-      'reopened': ':triangular_flag_on_post:',
+      'closed': ':ballot_box_with_check:',
+      'reopened': ':golf:',
       'labeled': ':label:',
       'unlabeled': ':label:',
       'edited': ':pencil:'
     };
-
-    const text = actions[request.content.action] + ' issue';
-
+    
+    	const text = '>' + actions[request.content.action] + '  ISSUE ' + ' :- ' + request.content.action + '\n'  + '> Title :- ' + request.content.issue.title + '\n' + '> Comment :- ' + request.content.issue.body + '\n' + '> Total Open Issues :- ' + request.content.repository.open_issues;
+  
     return {
       content: {
-        icon_url: user.avatar_url,
         alias: user.login,
         text: text,
         attachments: [attachment]
@@ -334,8 +417,7 @@ const githubEvents = {
   issue_comment(request) {
     const user = request.content.comment.user;
     var attachment = {
-      author_icon: svg_inline_prefix + gh_iss_svg,
-      author_name: '#' + request.content.issue.number + ' - ' + request.content.issue.title,
+      author_name: '#' + request.content.issue.number + ' - ' + request.content.repository.full_name + ' > ' +  request.content.issue.title,
       author_link: request.content.comment.html_url,
       fields: []
     };
@@ -351,12 +433,13 @@ const githubEvents = {
         short: true
       });
     }
-
-    const text = ':speech_balloon: ' + request.content.comment.body;
-
+ 
+    let str = request.content.comment.body;
+    let rep = /!/gi;
+    const finalString = str.replace(rep, ''); 
+    const text = ':speech_balloon: Comment:- ' + finalString;
     return {
       content: {
-        icon_url: user.avatar_url,
         alias: user.login,
         text: text,
         attachments: [attachment]
@@ -405,7 +488,6 @@ const githubEvents = {
 
     return {
       content: {
-        icon_url: user.avatar_url,
         alias: user.login,
         text: text,
         attachments: [attachment]
@@ -422,8 +504,10 @@ const githubEvents = {
     if ( commits.length > 1 ) {
       var multi_commit = " [Multiple Commits]";
       var is_short = false;
-      var changeset = changeset + 's';
+      var changeset = 'Multiple Changeset';
       var output = [];
+      var added = [];
+     
     }
     const user = request.content.sender;
     const attachment = {
@@ -440,12 +524,14 @@ const githubEvents = {
         short: is_short
       });
     }
-
+    
     for (var i = 0; i < commits.length; i++) {
       var commit = commits[i];
       var shortID = commit.id.substring(0,7);
       if ( commits.length > 1 ) {
-        output = '[' + shortID + '](' + commit.url + ') - ' + commit.message
+      
+        output = '[' + shortID + '](' + commit.url + ') - ' + commit.message;
+        //added =  commit.added + commit.modified + commit.removed
         if (i == 0){
             attachment.fields.push({
                 title: changeset,
@@ -461,11 +547,12 @@ const githubEvents = {
         }
       } else {
         output = "[" + shortID + "](" + commit.url + ")"
+        added =  commit.added 
         attachment.fields.push({
             title: changeset,
             value: output,
             short: is_short
-        });
+        }); 
       }
     }
 
@@ -473,7 +560,6 @@ const githubEvents = {
 
     return {
       content: {
-        icon_url: user.avatar_url,
         alias: user.login,
         text: text,
         attachments: [attachment]
@@ -498,7 +584,6 @@ class Script {
   }
 }
 ```
-
 #### Customizing your integration scripts
 
 The purpose of the integration script is to transform data in one format (the format provided by your incoming service, such as GitHub) into another format (the format expected by Rocket.Chat). Therefore, should you wish to customize either of the scripts presented above, you will need two resources:
