@@ -286,10 +286,14 @@ blockquote {
 }
 
 main {
-  background-color: $space;
+  background-color: #fff;
   margin: 15px auto 0;
   padding:  20px 0;
   min-width: 100vw;
+}
+
+main.home {
+  background-color: $space;
 }
 
 .toc {
