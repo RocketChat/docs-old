@@ -149,7 +149,7 @@ blockquote {
   max-width: $content-width;
   margin: 0 auto;
   flex: 1 1 100%;
-  overflow: hidden;
+  overflow: auto;
 
   &.main {
     display: flex;
