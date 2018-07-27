@@ -518,6 +518,12 @@ td > code {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.content .table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
 .content table thead th {
   font-size: 18px;
   line-height: 22px;
