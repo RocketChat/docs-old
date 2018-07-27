@@ -1,6 +1,8 @@
 # HipChat Cloud
 
-To import your current data from HipChat Cloud into Rocket.Chat, please do the following.
+To start importing values from HipChat, you first need to have an instance of Rocket.Chat running. You can do that by [your own](https://rocket.chat/docs/developer-guides/quick-start/) or start a new trial in [our cloud service](https://cloud.rocket.chat/trial).
+
+If you already have an instance running and administration privileges, you can follow these steps:
 
 1. Export data from HipChat
 2. Wait until your download is ready and download it (it will be a .zip file)
