@@ -6,7 +6,7 @@ These settings are in the `Accounts` setting page under `Administration`.
 
 ## Facebook
 
-- Callback url: `<<website_url>>/_oauth/facebook`
+- Callback url: `<<website_url>>/_oauth/facebook?close`
 
 ## GitHub
 
