@@ -1,5 +1,7 @@
 # Channel Methods
 
+These methods apply to public channels only. Use `groups.*` methods for private channels.
+
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/channels.addAll` | Adds all of the users on the server to a channel. | [Link](addall/) |
