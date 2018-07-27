@@ -21,10 +21,12 @@ body, label, input, textarea, select {
 }
 
 body {
-  background: $space;
   color: $color-dark;
   padding: 0;
   margin: 0;
+  &.home {
+    background-color: $home-bg;
+  }
 }
 
 .wrapper{
@@ -292,7 +294,7 @@ main {
 }
 
 main.home {
-  background-color: $space;
+  background-color: $home-bg;
 }
 
 .toc {
@@ -426,9 +428,12 @@ main.home {
 }
 
 .project-card-title__description {
-  color: #999;
-  margin-top: 4px 0;
-  font-size: 0.8em;
+  color: $grey-light;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: 24px;
 }
 
 .project-card-icon__wrapper {
@@ -448,10 +453,10 @@ main.home {
 .home-hero{
   background: url("../images/default/hero.png");
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: bottom;
   background-size: 100% auto;
 
-  min-height: 93vh;
+  min-height: 670px;
   padding: 6em 0;
 
   color: white;
@@ -468,15 +473,10 @@ main.home {
 }
 
 .home-hero__title {
-  margin: 0;
+  margin: 0 0 40px 0;
   display: block;
-  font-weight: 600;
-  font-size: 2.5em;
-}
-
-.home-hero__description {
-  color: #999;
-  margin: 5px 0;
+  font-weight: bold;
+  font-size: 44px;
 }
 
 .card-pages{
@@ -489,7 +489,7 @@ main.home {
   font-weight: bold;
   max-width: 320px;
   & a {
-    color: $brand-dark;
+    color: $brand;
     font-size: 16px;
     height: 24px;
     letter-spacing: 0;
@@ -554,7 +554,9 @@ td > code {
   }
 
   .home-hero{
-    background-size: 400% auto;
+    background-size: 250% auto;
+    background-position: center bottom;
+    min-height: 500px;
 
     padding: 44px 32px;
 
@@ -562,21 +564,12 @@ td > code {
     text-align: center;
 
     &__title {
-      text-align: left;
+      text-align: center;
       font-size: 32px;
       font-weight: 700;
       letter-spacing: 0.5px;
       line-height: 42px;
-      margin-bottom: 12px;
-    }
-
-    &__description {
-      font-size: 16px;
-      font-weight: 500;
-      text-align: left;
-      letter-spacing: 0;
-      line-height: 24px;
-      margin-bottom: 32px;
+      margin-bottom: 30px;
     }
   }
 
