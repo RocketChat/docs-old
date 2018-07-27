@@ -231,7 +231,6 @@ blockquote {
   &.home {
     width: 20%;
     margin: 0 auto;
-    margin-top: 1em;
     display: flex;
     align-items: center;
 
@@ -554,6 +553,37 @@ td > code {
     border: none;
   }
 
+  .home-hero{
+    background-size: 400% auto;
+
+    padding: 44px 32px;
+
+    color: white;
+    text-align: center;
+
+    &__title {
+      text-align: left;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      line-height: 42px;
+      margin-bottom: 12px;
+    }
+
+    &__description {
+      font-size: 16px;
+      font-weight: 500;
+      text-align: left;
+      letter-spacing: 0;
+      line-height: 24px;
+      margin-bottom: 32px;
+    }
+  }
+
+  .search.home {
+    width: 100%;
+  }
+
   .mobile-search {
     margin-bottom: 2em;
     display: flex;
@@ -565,6 +595,15 @@ td > code {
         width: 100%;
       }
     }
+  }
+
+  .card-pages {
+    grid-template-columns: repeat(1, 0.8fr);
+  }
+
+  .project-card {
+    margin: 0;
+    height: 334px;
   }
 
   .burger {
