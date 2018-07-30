@@ -407,7 +407,6 @@ main.home {
   padding: 24px 20px;
   margin: 0 auto;
   height: 232px;
-  justify-content: space-between;
   width: 100%;
   border-radius: 2px;
   flex-direction: column;
@@ -415,6 +414,7 @@ main.home {
 
 .project-card__header {
   display: flex;
+  margin-bottom: 24px;
 }
 
 .project-card-title__title {
