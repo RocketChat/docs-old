@@ -82,7 +82,7 @@
   - Messaging
   - Channel Actions
   - Managing your Account
-  - Voice and Video Calls
+  - Voice and Video Conferencing
 - Administrator guides:
   - Account Settings
   - Authentication:
@@ -137,7 +137,9 @@
     - Travis CI
     - Trello
     - Uptime Robot
-  - Jitsi Video Bridge
+  - Google Cloud:
+    - Auto Translate
+  - Setting Up Video Conferencing
   - Livechat:
     - Livechat Queues
   - Notifications:
@@ -148,6 +150,7 @@
     - Pidgin
   - Create the First Admin
   - Restoring an Admin
+  - Retention Policies
   - Settings Via Env Vars
   - Youtube Broadcasting
 - Developer guides:
@@ -202,8 +205,10 @@
         - Save Room Settings
       - Subscriptions:
         - Stream Notify All
+        - Stream Notify Logged
         - Stream Notify User
         - Stream Notify Room
+        - Stream Notify Room Users
         - Stream Room Messages
       - The Message Object
       - The Room Object
@@ -350,6 +355,7 @@
         - create
         - createToken
         - delete
+        - deleteOwnAccount
         - forgotPassword
         - getAvatar
         - getPresence
