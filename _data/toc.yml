@@ -82,7 +82,7 @@
   - Messaging
   - Channel Actions
   - Managing your Account
-  - Voice and Video Calls
+  - Voice and Video Conferencing
 - Administrator guides:
   - Account Settings
   - Authentication:
@@ -139,7 +139,7 @@
     - Uptime Robot
   - Google Cloud:
     - Auto Translate
-  - Jitsi Video Bridge
+  - Setting Up Video Conferencing
   - Livechat:
     - Livechat Queues
   - Notifications:
@@ -150,6 +150,7 @@
     - Pidgin
   - Create the First Admin
   - Restoring an Admin
+  - Retention Policies
   - Settings Via Env Vars
   - Youtube Broadcasting
 - Developer guides:
@@ -207,6 +208,7 @@
         - Stream Notify Logged
         - Stream Notify User
         - Stream Notify Room
+        - Stream Notify Room Users
         - Stream Room Messages
       - The Message Object
       - The Room Object

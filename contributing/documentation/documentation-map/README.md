@@ -103,8 +103,7 @@ Here you can also find what articles are incomplete and missing.
     - Messaging
     - Channel Actions
     - Managing your Account
-    - <span class="incomplete">[Voice and Video Calls](../missing-and-outdated-list/index.html#voice-and-video-calls)</span>
-    - <span class="missing">[ScreenSharing](../missing-and-outdated-list/index.html#screensharing)</span>
+    - Voice and Video Calls
 - Administrator guides:
     - Account Settings
     - <span class="missing">[Analytics](../missing-and-outdated-list/index.html#analytics)</span>
