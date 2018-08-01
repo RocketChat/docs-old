@@ -44,7 +44,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | add-user-to-joined-room | Permission to add a user to a joined channel.
 | archive-room | Permission to archive a channel.
 | assign-admin-role | Permission to promote user to Admin. Requires view-user-administration permission. Accessible from Administration -> Users.
-| auto-translate | Permission to use the Auto Translate Tool Accessible from Administration -> Message -> Auto Translate. <!--Add Link to auto translate article when we have one -->
+| auto-translate | Permission to use the [Auto Translate Tool](../google-cloud/auto-translate). Accessible from Administration -> Message -> Auto Translate.
 | ban-user | Permission to ban a user.
 | bulk-create-c | Permission to bulk create public channels.
 | bulk-register-user | Permission to bulk add users.

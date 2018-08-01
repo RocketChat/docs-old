@@ -11,7 +11,7 @@ Gets counters of direct messages.
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `RtycPC29hqLJfT9xjew28FnZqipDpvKw3R` | Required | The id of Direct Messages' Room |
-| `userId` | `RtycPC29hqLJfT9xj` | Optional | Counters for provided user id (need to have a view-room-administration right for calling user) |
+| `username` | `RtycPC29hqLJfT9xj` | Optional | Counters for provided username (need to have a view-room-administration right for calling user) |
 
 ## Example Call
 
