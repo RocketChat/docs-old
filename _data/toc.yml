@@ -355,6 +355,7 @@
         - create
         - createToken
         - delete
+        - deleteOwnAccount
         - forgotPassword
         - getAvatar
         - getPresence
