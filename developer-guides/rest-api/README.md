@@ -44,6 +44,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/users.create`                | Create a new user.                                              | [Link](users/create/)                |
 | `/api/v1/users.createToken`           | Create a user authentication token.                             | [Link](users/createtoken/)           |
 | `/api/v1/users.delete`                | Deletes an existing user.                                       | [Link](users/delete/)                |
+| `/api/v1/users.deleteOwnAccount`      | Deletes your own user.                                          | [Link](users/deleteownaccount/)      |
 | `/api/v1/users.forgotPassword`        | Send email to reset your password.                              | [Link](users/forgotpassword/)        |
 | `/api/v1/users.getAvatar`             | Gets the URL for a user's avatar.                               | [Link](users/getavatar/)             |
 | `/api/v1/users.getPreferences`        | Gets all preferences of user.                                   | [Link](users/get-preferences/)       |

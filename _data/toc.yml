@@ -150,6 +150,7 @@
     - Pidgin
   - Create the First Admin
   - Restoring an Admin
+  - Retention Policies
   - Settings Via Env Vars
   - Youtube Broadcasting
 - Developer guides:
@@ -207,6 +208,7 @@
         - Stream Notify Logged
         - Stream Notify User
         - Stream Notify Room
+        - Stream Notify Room Users
         - Stream Room Messages
       - The Message Object
       - The Room Object
@@ -353,6 +355,7 @@
         - create
         - createToken
         - delete
+        - deleteOwnAccount
         - forgotPassword
         - getAvatar
         - getPresence

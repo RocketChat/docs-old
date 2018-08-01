@@ -21,6 +21,10 @@ Cleans up a room, removing messages from the provided time range.
 | `latest` | `2016-09-30T13:42:25.304Z` | Required | The end of time range of messages to clean |
 | `oldest` | `2016-05-30T13:42:25.304Z` | Required | The start of the time range of messages to clean |
 | `inclusive` | `true` | Optional <br> Default: `false` | Whether messages which land on latest and oldest should be included |
+| `limit` | `250` | Optional <br> Default: `0` (no limit) | How many messages to delete at most |
+| `excludePinned` | `true` | Optional <br> Default: `false` | Whether pinned messages should be deleted |
+| `filesOnly` | `true` | Optional <br> Default: `false` | Whether to only delete files and keep messages intact |
+| `users` | `["vynmera", "ggazzo"]` | Optional <br> Default: `[]` (everyone) | Specific set of users whose content to delete |
 
 ## Example Call
 
@@ -45,3 +49,4 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | Version | Description |
 | :--- | :--- |
 | 0.64.0 | Added |
+| 0.67.0 | Added fields `limit`, `excludePinned`, `filesOnly` and `users` |
