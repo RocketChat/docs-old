@@ -355,13 +355,17 @@
         - createToken
         - delete
         - forgotPassword
+        - generatePersonalAccessToken
         - getAvatar
+        - getPersonalAccessTokens
         - getPresence
         - get-preferences
         - getUsernameSuggestion
         - info
         - list
+        - regeneratePersonalAccessToken
         - register
+        - removePersonalAccessToken
         - resetAvatar
         - setAvatar
         - set-preferences
@@ -369,6 +373,7 @@
         - updateOwnBasicInfo
       - Offset and Count and Sort Info
       - Query and Fields Info
+      - Personal Access Tokens
     - Schema Definition
     - Testing
     - Troubleshooting
