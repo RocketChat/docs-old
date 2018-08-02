@@ -48,7 +48,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | ban-user | Permission to ban a user.
 | bulk-create-c | Permission to bulk create public channels.
 | bulk-register-user | Permission to bulk add users.
-| clean-channel-history | Permission to clear the history of a channel.
+| clean-channel-history | Permission to prune a channel's messages and/or files.
 | close-livechat-room | Permission to close your own live chat channels.
 | close-others-livechat-room | Permission to close others live chat channels .
 | create-c | Permission to create public channels.
@@ -66,6 +66,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | edit-other-user-password | Permission to modify other user's passwords. Requires edit-other-user-info permission. Accessible from Administration -> Users.
 | edit-privileged-setting | Permission to edit privileged settings.
 | edit-room | Permission to edit a room's name, topic, type (private or public status) and status (active or archived).
+| edit-room-retention-policy | Permission to edit's a room's retention policy.
 | force-delete-message | Permission to forcefully delete messages, independent of any deletion blocking setting.
 | join-without-join-code | Permission to bypass join codes when entering a channel with a join code set.
 | mail-messages | Permission to use the "Mail Messages" tool in the channel actions menu.
