@@ -47,7 +47,9 @@ $(document).ready(function() {
 
   var path = (location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") ? '/docs/' : '/';
 
-  console.log(location);
+  $('.toc .active').addClass(function (index) {
+    return " level-"+index;
+  });
 
 
   if(location.pathname !== '/' && location.pathname !== '/docs/'){
@@ -68,7 +70,17 @@ $(document).ready(function() {
     });
 
     app.on('endNavigate', function(event) {
+
       addAnchors(path);
+
+      $('.toc .active').addClass(function (index) {
+        return " level-"+index;
+      });
+
+      $('.toc li[class*="level"]:not(.active)').removeClass(function (index) {
+        return " level-"+index;
+      });
+
       $('table:not(.table-wrapper table)').wrap( "<div class='table-wrapper'></div>" );
 
       var hash = event.path.indexOf('#');

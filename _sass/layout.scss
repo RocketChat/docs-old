@@ -330,6 +330,7 @@ main.home {
   li {
     font-weight: normal;
     display: none;
+
   }
 
   > ul > li, .active, .active > ul > li {
@@ -342,6 +343,7 @@ main.home {
 
   a, a:visited {
     color: $color-dark;
+    padding: 6px 8px 0 6px;
   }
 
   a:hover {
@@ -361,6 +363,17 @@ main.home {
 
   & > ul {
     margin: 0;
+  }
+
+  .level-0 > a {
+    width: 202px;
+    height: 36px;
+    background: #F1F2F4;
+    border-radius: 2px;
+  }
+
+  .level-1 > a {
+    color: $brand;
   }
 }
 
