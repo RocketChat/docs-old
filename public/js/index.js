@@ -78,8 +78,11 @@ $(document).ready(function() {
       });
 
       $('.toc li[class*="level"]:not(.active)').removeClass(function (index) {
-        return " level-"+index;
+        console.log(index);
+        
+        return " level-0 level-1 level-2 level-3";
       });
+
 
       $('table:not(.table-wrapper table)').wrap( "<div class='table-wrapper'></div>" );
 

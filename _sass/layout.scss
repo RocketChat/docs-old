@@ -336,6 +336,7 @@ main.home {
   li {
     font-weight: normal;
     display: none;
+    margin: 16px 0;
 
   }
 
@@ -349,7 +350,12 @@ main.home {
 
   a, a:visited {
     color: $color-dark;
-    padding: 6px 8px 0 6px;
+    font-size: 14px;
+    padding: 6px 0px 0 8px;
+    font-weight: normal;
+    text-align: left;
+    letter-spacing: 0;
+    line-height: 24px;
   }
 
   a:hover {
@@ -360,11 +366,6 @@ main.home {
   ul {
     list-style: none;
     margin: 0 0 0 20px;
-    padding: 0;
-  }
-
-  li {
-    padding: 8px 0 0;
   }
 
   & > ul {
@@ -380,6 +381,33 @@ main.home {
 
   .level-1 > a {
     color: $brand;
+  }
+
+  .level-2 {
+    
+    a ~ ul {
+      border-left: 2px solid #ddd;
+      margin-left: 5px;
+      padding-left: 10px;
+      width: calc(100% - 10px);
+      a {
+        color: $grey-dark;
+        padding-top: 0;
+      }
+    }
+    > a {
+      color: $brand;
+    }
+  }
+
+  .level-3 {
+    border-left: 2px solid $brand;
+    margin-left: -11px;
+    padding-left: 10px;
+    > a {
+      color: $brand !important;
+      font-weight: 600;
+    }
   }
 }
 
@@ -403,6 +431,7 @@ main.home {
 
 #discourse-comments {
   margin-top: 2em;
+  color: $grey-dark;
 }
 
 .article-toc-wrapper{
