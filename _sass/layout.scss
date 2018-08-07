@@ -412,7 +412,7 @@ main.home {
   background-color: $space-b;
   padding: 24px 20px;
   margin: 0 auto;
-  height: 232px;
+  min-height: 232px;
   width: 100%;
   border-radius: 2px;
   flex-direction: column;
@@ -497,7 +497,7 @@ main.home {
   & a {
     color: $brand;
     font-size: 16px;
-    height: 24px;
+    height: auto;
     letter-spacing: 0;
     line-height: 24px;
     text-align: left;
@@ -558,7 +558,7 @@ td > code {
 
 // mobile
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1200px) {
   .toc {
     max-height: unset;
     max-width: fit-content;
@@ -711,5 +711,12 @@ h6:hover .header-link {
 
     color: white;
     text-align: center;
+  }
+}
+
+@media all and (max-width: 1500px) {
+  .card-pages a {
+    max-width: 240px;
+    width: unset;
   }
 }
