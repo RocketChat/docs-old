@@ -246,6 +246,9 @@ Here you can also find what articles are incomplete and missing.
             - sendMessageLivechat
             - sendOfflineMessage
         - Rest API:
+         - Assets:
+            - setAsset
+            - unsetAsset
         - Authentication:
             - facebook
             - forgotPassword

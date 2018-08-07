@@ -218,6 +218,9 @@
         - sendMessageLivechat
         - sendOfflineMessage
     - Rest API:
+      - Assets:
+        - setAsset
+        - unsetAsset
       - Authentication:
         - facebook
         - google
