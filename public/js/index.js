@@ -105,14 +105,17 @@ $(document).ready(function() {
       }
     });
 
+    var currentActive;
+
     $(window).on('resize scroll', function() {
       $('.content h2').each(function () {
         if ($(this).isInViewport()) {
           console.log('a[href="#' + $(this)[0].id + '"]');
 
           if ($('[href="#' + $(this)[0].id + '"]')){
+            $('.article-toc-wrapper a').removeClass(' active')
             $('a[href="#' + $(this)[0].id + '"]').addClass(' active');
-            return;
+            return false;
           } else {
             $('a[href="#' + $(this)[0].id + '"]').removeClass(' active');
           }
