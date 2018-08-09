@@ -384,7 +384,7 @@ main.home {
   }
 
   .level-2 {
-    
+
     a ~ ul {
       border-left: 2px solid #ddd;
       margin-left: 5px;
@@ -457,6 +457,10 @@ main.home {
     a:hover {
       color: #1e70bf;
       text-decoration: none;
+    }
+
+    a.active {
+      color: $brand;
     }
   }
 }

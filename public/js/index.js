@@ -41,6 +41,16 @@ function addAnchors(path) {
   });
 }
 
+$.fn.isInViewport = function() {
+  var elementTop = $(this).offset().top;
+  var elementBottom = elementTop + $(this).outerHeight();
+
+  var viewportTop = $(window).scrollTop();
+  var viewportBottom = viewportTop + $(window).height();
+
+  return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+
 $(document).ready(function() {
 
   scroll_toc(window.location.pathname);
@@ -79,7 +89,7 @@ $(document).ready(function() {
 
       $('.toc li[class*="level"]:not(.active)').removeClass(function (index) {
         console.log(index);
-        
+
         return " level-0 level-1 level-2 level-3";
       });
 
@@ -93,6 +103,21 @@ $(document).ready(function() {
       else {
         $('#content').scrollTop(0);
       }
+    });
+
+    $(window).on('resize scroll', function() {
+      $('.content h2').each(function () {
+        if ($(this).isInViewport()) {
+          console.log('a[href="#' + $(this)[0].id + '"]');
+
+          if ($('[href="#' + $(this)[0].id + '"]')){
+            $('a[href="#' + $(this)[0].id + '"]').addClass(' active');
+            return;
+          } else {
+            $('a[href="#' + $(this)[0].id + '"]').removeClass(' active');
+          }
+        }
+      });
     });
   }
 });
