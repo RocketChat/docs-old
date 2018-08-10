@@ -42,6 +42,9 @@ function addAnchors(path) {
 }
 
 $.fn.isInViewport = function() {
+  if (this === undefined){
+    return;
+  }
   var elementTop = $(this).offset().top;
   var elementBottom = elementTop + $(this).outerHeight();
 
@@ -106,21 +109,23 @@ $(document).ready(function() {
     });
 
     var currentActive;
+    var lastActive;
 
     $(window).on('resize scroll', function() {
-      $('.content h2').each(function () {
-        if ($(this).isInViewport()) {
-          console.log('a[href="#' + $(this)[0].id + '"]');
-
-          if ($('[href="#' + $(this)[0].id + '"]')){
-            $('.article-toc-wrapper a').removeClass(' active')
-            $('a[href="#' + $(this)[0].id + '"]').addClass(' active');
-            return false;
-          } else {
-            $('a[href="#' + $(this)[0].id + '"]').removeClass(' active');
+      if( lastActive == null || !$(lastActive).isInViewport()){
+        console.log('ding')
+        $('.content h2').each(function () {
+          currentActive = 'a[href="#' + $(this)[0].id + '"]'
+          if ($(this).isInViewport()) {
+            lastActive = this;
+            if ($(currentActive)){
+              $('.article-toc-wrapper a').removeClass(' active')
+              $(currentActive).addClass(' active');
+              return false;
+            }
           }
-        }
-      });
+        });
+      }
     });
   }
 });
