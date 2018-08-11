@@ -56,6 +56,26 @@ Then click the circle icon, when the recording starts the icon will be replaced 
 
 To preview and send your last video recorded, click the "ok" button, which will display a window where you can watch and download the video, name it and give it an optional description. Click the "send" button to send the video or the "cancel" button to discard the video recording.
 
+## Interacting with Google Drive
+
+_Note:_ Google Drive features shall only be available if the admin has enabled Google Drive access and correctly provided the required API keys. Instructions to obtain these keys can be found in the [Administration guides](../../administration-guides/). Furthermore, users wishing to use this feature shall be required to give permission to Rocket.Chat to access their Google Drive account.
+
+### From Google Drive to Rocket.Chat
+
+Files can be uploaded from Google Drive to a room by selecting the `Select Files from Google Drive` option on the attachment menu. This opens a Google Drive file picker GUI with search, view modes and other such functionalities. Selecting the required file shall then prompt the user to enter the title and description for the upload.
+
+Files shall be uploaded in the same format to Rocket.Chat as they are in Google Drive, except for Google docs, slides and sheets which shall be converted to pdf format before the upload.
+
+### From Rocket.Chat to Google Drive
+
+A file uploaded as a message attachment to a room can be uploaded to Google Drive by clicking on the `Save to Google Drive` button above the attachment.
+
+The format of the uploaded file shall be the same as the original message attachment.
+
+### Creating Google Docs, Slides and Sheets
+
+Google docs, slides and sheets can be created from Rocket.Chat by clicking on the corresponding option on the attachment menu. The file shall be created in the user's Drive account and its link posted as a message in the opened room. The sharing setting for the file shall remain default. It can be changed by the file owner via the link to collaborate with other users.
+
 ### Links
 
 When you send a link in a message, you will get a preview of the site, and in some cases it can create a interactive attachment, like a youtube video preview or a Spotify mini player.
