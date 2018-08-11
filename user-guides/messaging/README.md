@@ -58,7 +58,7 @@ To preview and send your last video recorded, click the "ok" button, which will 
 
 ## Interacting with Google Drive
 
-_Note:_ Google Drive features shall only be available if the admin has enabled Google Drive access and correctly provided the required API keys. Instructions to obtain these keys can be found in the [Administration guides](../../administration-guides/). Furthermore, users wishing to use this feature shall be required to give permission to Rocket.Chat to access their Google Drive account.
+_Note:_ Google Drive features shall only be available if the admin has enabled Google Drive access and correctly provided the required API keys. Instructions to obtain these keys can be found in the [Administrator guides](../../administrator-guides/). Furthermore, users wishing to use this feature shall be required to give permission to Rocket.Chat to access their Google Drive account.
 
 ### From Google Drive to Rocket.Chat
 
