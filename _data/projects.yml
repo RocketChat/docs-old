@@ -1,49 +1,91 @@
 -
-  name: Rocket.Chat User Guides
+  name: User Guides
   icon: rocketchat
   description: Guides for the basic usage of Rocket.Chat.
   path: user-guides/
   pages:
-    Connecting to a Server: /user-guides/connecting-to-a-server/
-    Registration: /user-guides/registration/
-    Channels: /user-guides/channels/
-    Messaging: /user-guides/messaging/
-    Managing your Account: /user-guides/managing-your-account/
+    Connecting to a Server: connecting-to-a-server/
+    Registration: registration/
+    Channels: channels/
+    Messaging: messaging/
+    Managing your Account: managing-your-account/
 
 -
-  name: Rocket.Chat Administrator Guides
+  name: Installation Guides
   icon: cog
+  description: Guides for installing and deploying Rocket.Chat
+  path: installation/
+  pages:
+    Cloud: rocket-chat-cloud/
+    PaaS Deployments: paas-deployments/
+    Docker Containers: docker-containers/
+    Manual Installation: manual-installation/
+    Updating: updating/
+    Community Guides: community-supported-installation/
+
+-
+  name: Administrator Guides
+  icon: sliders
   description: Guides for managing and configuring Rocket.Chat
   path: administrator-guides/
   pages:
-    Account Settings: /administrator-guides/account-settings/
-    Email: /administrator-guides/email/
-    Permissions: /administrator-guides/permissions/
-    Livechat: /administrator-guides/livechat/
-    File Upload: /administrator-guides/file-upload/
-    Integrations: /administrator-guides/integrations/
+    Account Settings: account-settings/
+    Email: email/
+    Permissions: permissions/
+    Livechat: livechat/
+    File Upload: file-upload/
+    Integrations: integrations/
 
 -
-  name: Rocket.Chat Developer Guides
+  name: Developer Guides
   icon: code
   description: Guides for developing and modifying Rocket.Chat's code
   path: developer-guides/
   pages:
-    Quick Start: /developer-guides/quick-start/
-    Branches and Releases: /developer-guides/branches-and-releases/
-    Testing: /developer-guides/testing/
-    Rest API: /developer-guides/rest-api/
-    Realtime API: /developer-guides/realtime-api/
-    Livechat API: /developer-guides/livechat-api/
+    Quick Start: quick-start/
+    Branches and Releases: branches-and-releases/
+    Testing: testing/
+    Rest API: rest-api/
+    Realtime API: realtime-api/
+    Livechat API: livechat-api/
 
 -
-  name: Rocket.Chat Android
+  name: Bots
+  icon: cog
+  description: Guides for using bots in Rocket.Chat
+  path: bots/
+  pages:
+    Bots Architecture: bots-architecture/
+    Bots FAQ: bots-faq/
+    Configuring Bots: configure-bot-environment/
+    Creating Bots Users: creating-bot-users/
+
+-
+  name: Contributing
+  icon: github
+  description: Guides for contributing to Rocket.Chat
+  path: contributing/
+  pages:
+    Developing: developing/
+    Reporting Issues: reporting-issues/
+    Documentation: documentation/
+    Security: security/
+    Translating: translating/
+
+-
+  name: Getting Support
+  icon: support
+  description: Guides getting support for Rocket.Chat
+  path: getting-support/
+
+-
+  name: Android
   icon: android
-  description:
+  description: Native Android client for Rocket.Chat
   path: https://github.com/RocketChat/Rocket.Chat.Android
 
 -
-  name: Rocket.Chat iOS
+  name: iOS
   icon: apple
-  description:
+  description: Native iOS client for Rocket.Chat
   path: https://github.com/RocketChat/Rocket.Chat.iOS

@@ -1,6 +1,6 @@
 # Channel Set Purpose
 
-Sets the description for the channel.
+Sets the description for the channel (the same as channels.setDescription, obsolete).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

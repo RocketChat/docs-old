@@ -6,14 +6,23 @@ The following description, from community member @lvh1 and updated by @lunitic, 
 
 ## Android
 
-To configure mobile notifications using the rocket.chat gateway:
+The Rocket.Chat native application for Android supports FCM system. Here's how you configure it:
 
-- Go to <https://console.developers.google.com/> and create a project there.
-- Go to API Manager, and enable "Google Cloud Messaging for Android"
-- In API Manager, open the "Credentials" tab, click "New credentials", then "API key". In the window that pops up, choose "Server key"
-- Fill in the correct IP address from your server and click "Create"
-- Fill in the obtained API key in your Rocket.Chat administrator panel (GCM API Key)
-- The GCM Project Number which you also have to fill in on Rocket.Chat can be found "Project Settings" of your Google developers project, Settings are located by clicking the three dot drop down in the top right corner . (<https://console.developers.google.com/home/dashboard>, <http://i.imgur.com/Zfp2SsV.jpg>)
+1. Create a Firebase project in the Firebase console, if you don't already have one. Click Add project. If you already have an existing Google project associated with your mobile app, select it from the Project name drop down menu. Otherwise, enter a project name to create a new project.
+
+2. *Optional:* Edit your Project ID. Your project is given a unique ID automatically, and it's used in publicly visible Firebase features such as database URLs and your Firebase Hosting subdomain. You can change it now if you want to use a specific subdomain.
+
+3. Follow the remaining setup steps and click Create project (or Add Firebase if you're using an existing project) to begin provisioning resources for your project. This typically takes a few minutes. When the process completes, you'll be taken to the project overview.
+
+Now that you have a project, you can add your Android app to it:
+
+1. Click Add Firebase to your Android app and follow the setup steps. If you're importing an existing Google project, this may happen automatically and you can just [download the config file](http://support.google.com/firebase/answer/7015592).
+
+2. When prompted, enter your app's package name. It's important to enter the package name your app is using; this can only be set when you add an app to your Firebase project.
+
+3. During the process, you'll download a `google-services.json` file. You can [download this file](http://support.google.com/firebase/answer/7015592) again at any time.
+
+4. After you add the initialization code, run your app to send verification to the Firebase console that you've successfully installed Firebase.
 
 ## Rocket.Chat Cordova
 

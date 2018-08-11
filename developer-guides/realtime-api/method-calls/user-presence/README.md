@@ -11,7 +11,7 @@ There are four different statuses available:
 
 ## Setting the default status
 
-In order to set the defult status we need to call the `UserPresence:setDefaultStatus` method passing the status in the parameters of the call.
+In order to set the default status we need to call the `UserPresence:setDefaultStatus` method passing the status in the parameters of the call.
 
 Example call (setting the user presence to `online`):
 
@@ -26,7 +26,7 @@ Example call (setting the user presence to `online`):
 
 ## Setting a temporary status
 
-Setting a temporary status requires a call to `UserPresence:{status}` with an empty params. Only `away` and `online` are accepted. This method call is useful when the client identifies that the user is not using the application (and therefore away) and when he got back.
+Setting a temporary status requires a call to `UserPresence:{status}` with empty params. Only `away` and `online` are accepted. This method call is useful when the client identifies that the user is not using the application (and therefore away) and when he got back.
 
 Example call (setting the user presence to `away`):
 

@@ -5,18 +5,17 @@ permalink: /index.html
 
 # Rocket.Chat Docs
 
-## What would you like to do?
+This is the official repository for Rocket.Chat Documentation.
 
-- [Learn how to use Rocket.Chat](user-guides/)
-- [Get support](getting-support/)
-- [Install Rocket.Chat](installation/)
-- [Administer your installation](administrator-guides/)
-- [Contribute to the project](contributing/)
+## How to run Rocket.Chat Docs locally:
 
-![image](mockup.png)
+This is a quick guide on how to run the docs site locally, for a more in depth guide please look [here]( contributing/documentation)
 
-## What is Rocket.Chat?
-
-Rocket.Chat is a Web Chat Server, developed in JavaScript, using the [Meteor](https://www.meteor.com/install) fullstack framework.
-
-It is a great solution for communities and companies wanting to privately host their own chat service or for developers looking forward to build and evolve their own chat platforms.
+- install ruby (version 2.5 or higher recommended, if using any version prior to 2.5 you will need to install bundler with `gem install bundler`).
+- This step is for only macOS users:
+    - You will need to have either `xcode` or the `xcode command line tools` installed. To install the command tools use `xcode-select --install`. Don't forget to accept the `sudo xcodebuild -license` command.
+    - Depending on your setup you might need to install [nokogiri](http://www.nokogiri.org/tutorials/installing_nokogiri.html) and its dependencies manually.
+- Fork the [repository](https://github.com/RocketChat/docs).
+- Clone your fork.
+- Run `bundle install` inside of the cloned docs folder.
+- Start the server with `bundle exec "jekyll serve --incremental --safe"`.

@@ -10,20 +10,21 @@ Add the epel repository and update everything.
 yum -y install epel-release nano && yum -y update
 ```
 
-Populate the yum repo with the mongodb repository
+Populate the yum repo with the mongodb-org repository
 
 ```
-nano /etc/yum.repos.d/mongodb.repo
+nano /etc/yum.repos.d/mongodb-org.repo
 ```
 
 Paste this into the new file:
 
 ```
-  [mongodb]
-  name=MongoDB Repository
-  baseurl=http://downloads-distro.mongodb.org/repo/redhat/os/x86_64/
-  gpgcheck=0
-  enabled=1
+[mongodb-org]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.6/x86_64/
+gpgcheck=1
+enabled=1
+gpgkey=https://www.mongodb.org/static/pgp/server-3.6.asc
 ```
 
 To write and save do:
@@ -57,8 +58,8 @@ Now we download and install Rocket.Chat
 ```
 cd /opt
 
-curl -L https://releases.rocket.chat/latest/download -o rocket.chat.tgz
-tar zxvf rocket.chat.tgz
+curl -L https://releases.rocket.chat/latest/download -o rocket.chat.tar.gz
+tar zxvf rocket.chat.tar.gz
 
 mv bundle Rocket.Chat
 cd Rocket.Chat/programs/server
@@ -84,7 +85,7 @@ If you don't have DNS configured use your IP in place of the hostname.  You can 
 
 ## Mongo
 
-First lets enable Mongodb to start with the host using:
+First let's enable Mongodb to start with the host using:
 
 ```
 chkconfig mongod on
@@ -178,6 +179,6 @@ systemctl start rocketchat.service
 Upgrading is much the same as installing Rocket.Chat
 
 1. Shutdown Rocket.Chat
-2. Goto the installation folder in this case: `cd /opt/`
+2. Go to the installation folder in this case: `cd /opt/`
 3. Remove or move the `Rocket.Chat` folder.
 4. Follow the [installation section](#installing-rocketchat)

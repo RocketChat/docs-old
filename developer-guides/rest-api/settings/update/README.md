@@ -11,7 +11,26 @@ this.add('Accounts_AllowAnonymousRead', false, {
   });
 ```
 
-means that the setting labeled "Allow anonymous read" in the section "Accounts" has `_id` equal to `'Accounts_AllowAnonymousRead'`. The second argument is the default value (`false`). The third argument specifies the variable's type and whether it is public, hidden, and so on.
+means that the setting labeled "Allow anonymous read" in the section "Accounts" has `_id` equal to `'Accounts_AllowAnonymousRead'`.
+The second argument is the default value (`false`).
+The third argument specifies the variable's type and whether it is public, hidden, and so on.
+<br/>
+To set a color, you can send
+
+```
+{
+  value: '<color-code>',
+  editor: 'color'
+}
+```
+
+And also to trigger a action-button use:
+
+```
+{
+  execute: true
+}
+```
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -23,6 +42,9 @@ means that the setting labeled "Allow anonymous read" in the section "Accounts" 
 | :--- | :--- | :--- | :--- |
 | `_id` | `Livechat_enabled` | Required | The setting's `_id` field |
 | `value` | `true` | Required | The value to update the setting. |
+| `color` | `<color-code>` | Optional | The color code to update the setting. |
+| `editor` | `true` | Required if color was set | The editor key, with `color` value. |
+| `execute` | `true` | Optional | To trigger a action-button |
 
 ## Example Call
 
@@ -41,8 +63,47 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
+## Example Call
+
+Setting a color
+
+```bash
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
+     -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+     http://localhost:3000/api/v1/settings/Livechat_enabled \
+     -d '{ "value": "#ffffff", "editor": "color"}'
+```
+
+## Example Result
+
+```json
+{
+  "success": true
+}
+```
+
+## Example Call
+
+Trigger an action
+
+```bash
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
+     -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+     http://localhost:3000/api/v1/settings/Livechat_enabled \
+     -d '{ "value": "method", "execute": true}'
+```
+
+## Example Result
+
+```json
+{
+  "success": true
+}
+```
+
 ## Change Log
 
 | Version | Description |
 | :--- | :--- |
+| 0.65.0 | Added option to set a color and trigger an action |
 | 0.42.0 | Added |

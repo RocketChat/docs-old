@@ -27,34 +27,12 @@
 </head>
 
 
-<body>
-  <header>
-    <div class="wrapper">
-      <a class="logo" href="/">
-        <img src="{{ site.url }}/images/default/logo.svg" alt="Rocket.Chat">
-      </a>
-      <a class="logo mobile" href="/">
-        <img src="{{ site.url }}/images/default/icon.svg" alt="Rocket.Chat">
-      </a>
-      <div class="header-items">
-        <ul>
-          <li><a href="https://rocket.chat/download">Download</a></li>
-          <li><a href="https://rocket.chat/cloud">Cloud</a></li>
-          <li><a href="https://rocket.chat/community">Community</a></li>
-          <li><a href="https://rocket.chat/docs/">Docs</a></li>
-          <li><a href="https://rocket.chat/blog/">Blog</a></li>
-          <li><a href="https://rocket.chat/contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </header>
+<body class="home">
+  {% include header.html %}
 
-
-  <main style="margin-top: 0">
-    <div class="search-wrapper">
-      <h1 class="title">Rocket.Chat Documentation</h1>
-      <p class="description">Welcome to Rocket.Chat! Get familiar with Rocket.Chat and explore our features:</p>
-
+  <main class="home" style="margin-top: 0; padding-top: 0;">
+    <div class="home-hero">
+      <h1 class="home-hero__title">Hi! How can we help you?</h1>
       <div class="search home">
         <svg class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.71424961090088" height="32" viewBox="0 0 29.71424961090088 32" data-code="61442" data-tags="search"><g fill="#fff" transform="scale(0.03125 0.03125)"><path d="M658.286 475.429q0-105.714-75.143-180.857t-180.857-75.143-180.857 75.143-75.143 180.857 75.143 180.857 180.857 75.143 180.857-75.143 75.143-180.857zM950.857 950.857q0 29.714-21.714 51.429t-51.429 21.714q-30.857 0-51.429-21.714l-196-195.429q-102.286 70.857-228 70.857-81.714 0-156.286-31.714t-128.571-85.714-85.714-128.571-31.714-156.286 31.714-156.286 85.714-128.571 128.571-85.714 156.286-31.714 156.286 31.714 128.571 85.714 85.714 128.571 31.714 156.286q0 125.714-70.857 228l196 196q21.143 21.143 21.143 51.429z" /></g></svg>
         <input type="text" class="search" id="search" placeholder="Search">
@@ -66,6 +44,8 @@
   </main>
 
   {% include footer.html %}
+
+  <script src="/main.js"></script>
 
   <script type="text/javascript">
     window.jekyll = { site: { url: '{{ site.url }}' } };
