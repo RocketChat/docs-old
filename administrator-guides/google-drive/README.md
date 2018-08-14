@@ -24,7 +24,6 @@ Features such as file transfer to/from Google Drive and creating Google docs, sl
 
 8. Copy the Client ID and the API key and paste it in the admin settings for Google Drive.
 
-
 ### Google Picker API
 
 Google Picker API is needed to generate the GUI to browse through and select Google Drive content.
