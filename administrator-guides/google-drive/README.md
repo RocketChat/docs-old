@@ -36,9 +36,3 @@ Google Picker API is needed to generate the GUI to browse through and select Goo
 3. Select `CREATE CREDENTIALS` to generate the Google Picker key.
 
 4. Copy and paste it in the corresponding admin setting.
-
- 
-
-
-
-
