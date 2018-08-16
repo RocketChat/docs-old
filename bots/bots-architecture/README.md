@@ -11,17 +11,20 @@ bots, see the [Bots FAQ](../bots-faq).
 
 ## Users and Bots
 
-Bots in Rocket.Chat require a user account, with the `bot` role. Other than
-having certain specific permissions, they are mostly treated just like regular
-users within the Rocket.Chat instance. Users with a bot role will also have a
-"Bot" tag displayed, so they can't play tricks on us humans.
+Bots in Rocket.Chat require a normal account created via the Administratiom menu, in the Bots section.
+
+These accounts have a different type from the normal user accounts,
+therefore bot accounts can have any set of roles according to their
+responsibilities on the server.
 
 ## Bot Admin
 
-Admins (and only admins) can create and configure the bot account and role
-permissions. They set which user fields the bots have access to for privacy
-and security and the credentials a bot uses to connect. We're working on better
-management views for bots and the future potential of user-activated bots.
+Admins (or other roles with certain permissions) can create and
+configure bot accounts and their roles. Each account can have any set
+of roles, which allows for more flexibility to deal with different
+accounts.
+
+The admins can edit bot accounts and manage them from the administration.We are working with a future potential of user-activated bots.
 
 ## Hosting Bots
 
@@ -51,6 +54,9 @@ parsing of message schemas and methods between the chatbot framework and the
 Rocket.Chat SDK. Once loaded into a project, they allow bot creators to compose
 interactions in the framework's terms, ignoring the specific requirements of
 Rocket.Chat.
+
+They, along with the SDK, also reply to administration actions that come
+from the server, such as a request for data from the bot.
 
 ## Bot Frameworks
 
