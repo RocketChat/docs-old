@@ -6,7 +6,7 @@ Docker-Ubuntu 14.04 (64 bit) VPS with Nginx SSL and Hubot
 
 This guide will walk you through installation and configuration of a Docker based Rocket Chat instance on Ubuntu 14.04 (64 bit) VPS, using Nginx as a reverse SSL proxy, Hubot chatbot, and necessary scripts for automatic restart and crash recovery.
 
-For people new to docker here's a quick primer: Docker is a program to allow other programs and their dependencies to be run in a type of virtual container. Using this deployment guide, you do not need to download any of the rocket chat program files manually whatsoever. Docker will get everything that is needed for Rocket Chat to run. If you follow this guide closely, it provides everything from start to finish needed to install, create, and run your own Rocket Chat web instance with nginx handling SSL termination, and a hubot chatbot keeping your general chat channel warm on those cold winter mornings.
+For people new to docker here's a quick primer: Docker is a program to allow other programs and their dependencies to be run in a type of virtual container. Using this deployment guide, you do not need to download any of the rocket chat program files manually whatsoever. Docker will get everything that is needed for Rocket Chat to run. If you follow this guide closely, it provides everything from start to finish needed to install, create, and run your own Rocket Chat web instance with nginx handling SSL termination, and a Hubot chatbot keeping your general chat channel warm on those cold winter mornings.
 
 This guide is designed for everyone, however, it is intentionally detailed to help new users who may need a little extra guidance. If you're experienced with things like docker, nginx, etc. you may prefer one of the other deployment guides found elsewhere on this wiki.
 
@@ -98,7 +98,7 @@ sudo apt-get update
 sudo apt-get install fail2ban
 ```
 
-Pre
+Press **Y** when prompted to proceed with the install.
 
 - - -
 
@@ -144,7 +144,7 @@ sudo nano /etc/hosts
 127.0.0.1    chat.inumio.com          chat
 ```
 
-Sav
+Save and Exit. (Press **CTRL-X** to save, **Y** for yes, then **ENTER** to save as current filename.)
 
 - - -
 
@@ -180,7 +180,7 @@ sudo nano /etc/nginx/certificate.crt
 
 Open the SSL Certificate provided by the SSL vendor (will probably have a .crt or .pem extension) and copy the entire text-block. Right click on the terminal window and select paste to paste it into nano.
 
-Sav
+Save and Exit.
 
 - - -
 
@@ -198,7 +198,7 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/cert
 
 Tip: It is important that the Common Name be set properly. Enter your fully qualified domain name (FQDN) here or, if you don’t have FQDN, use your public IP address. For example, my FQDN for the chat server is `chat.inumio.com`
 
-Sav
+Save and Exit.
 
 - - -
 
@@ -310,7 +310,7 @@ rocketchat:
     - 3000:3000
 
 hubot:
-  image: rocketchat/hubot-rocketchat:v0.1.4
+  image: rocketchat/hubot-rocketchat:latest
   environment:
     - ROCKETCHAT_URL=165.114.165.21:3000
     - ROCKETCHAT_ROOM=GENERAL
@@ -330,7 +330,7 @@ hubot:
 - Edit ROCKETCHAT_USER, ROCKETCHAT_PASSWORD, and BOT_NAME.
 - If your Rocket.Chat docker instance is behind a proxy, set the additional env-variable "Accounts_UseDNSDomainCheck" to "false" (this only works, if these is a completely new deployment)
 
-Sav
+Save and Exit.
 
 - - -
 
@@ -390,7 +390,7 @@ script
 end script
 ```
 
-Sav
+Save and Exit.
 
 - - -
 
@@ -449,27 +449,21 @@ By default, the first account to register on Rocket Chat becomes the admin, so i
 
 _Great! I'm in, but the bot is nowhere to be seen!_
 
-No
+No worries! In order to get your bot up and running, we must register it…
 
 - - -
 
 ## 9. Registering & Configuring Hubot, the chat robot
 
-Previously, we created the docker-compose.yml file. It's this file where we defined the basic attributes for hubot. We set the bot name, password, room to join, and scripts to run. Before the bot can join the chat room, we must manually register the bot using the configuration details we provided in docker-compose.yml. Log out, if you're logged in to the chat room.
+Previously, we created the docker-compose.yml file. It's this file where we defined the basic attributes for Hubot. We set the bot name, password, room to join, and scripts to run. Before the bot can join the chat room, we must manually create the bot using the configuration details we provided in docker-compose.yml.
 
-Browse to the chat room login page, and click the link to register a new account. This time, you must register an account for your bot to use.
+<https://github.com/RocketChat/hubot-rocketchat#creating-a-user-on-the-server>
 
-Name: use the value you specified for ROCKETCHAT_USER
-Email: if you plan to enable new account email verification, be sure to use a valid email here
-Password:  use the value you specified for ROCKETCHAT_PASSWORD
+You can now optionally login and set some of the preferences, such as bot avatar. When finished, log out of the bot account.
 
-When prompted in the next screen to specify a name for @ mentions, use the value you specified for BOT_NAME.
+With the bot account created, you can force it to join by simply rebooting the server, upon which the init script should automatically launch your chat room, and the bot should join the “General” room.
 
-Once you're logged in with the new bot account, you can go ahead and set some of the preferences, such as bot avatar. When finished, log out of the bot account.
-
-With the bot account registered, you can force it to join by simply rebooting the server, upon which the init script should automatically launch your chat room, and the bot should join the “General” room.
-
-For
+For basic command help, in the chat message box, type BOTNAME help (where BOTNAME is your bot's name).
 
 - - -
 
@@ -480,7 +474,7 @@ For
 Q: _It works! But how do I add more functionality to the bot?_
 A: You can add more scripts to the bot by adding them to the EXTERNAL_SCRIPTS definitions: `nano /var/www/rocket.chat/docker-compose.yml`
 
-Find out more about hubot scripts here: <https://github.com/RocketChat/hubot-rocketchat> and here: <https://github.com/hubot-scripts>. Some of the available scripts for example: hubot-help, hubot-isup, hubot-4chan, hubot-strawpoll, hubot-seen, hubot-weather, hubot-hackerman, hubot-links, hubot-greetings, hubot-tell, hubot-geo, hubot-decides, hubot-praise, hubot-hello-ninja, hubot-thank-you, hubot-cool-ascii-faces, hubot-insulter, hubot-reddit
+Find out more about Hubot scripts here: <https://github.com/RocketChat/hubot-rocketchat> and here: <https://github.com/hubot-scripts>. Some of the available scripts for example: hubot-help, hubot-isup, hubot-4chan, hubot-strawpoll, hubot-seen, hubot-weather, hubot-hackerman, hubot-links, hubot-greetings, hubot-tell, hubot-geo, hubot-decides, hubot-praise, hubot-hello-ninja, hubot-thank-you, hubot-cool-ascii-faces, hubot-insulter, hubot-reddit
 
 Q: _How do I get email working?_
 A: You need to configure SMTP parameters via the Administration UI (from inside rocketchat).
@@ -506,7 +500,7 @@ sudo ufw status
 ```
 
 **Check your SSL installation**
-<ht
+<https://www.digicert.com/help/>
 
 - - -
 
@@ -539,7 +533,7 @@ cd /var/www/rocket.chat
 /usr/local/bin/docker-compose up
 ```
 
-If
+If docker-compose doesn't throw an error, and instead launches the job, then the problem is possibly in the upstart script.
 
 - - -
 
@@ -553,13 +547,13 @@ If you're running low on system resources, such as RAM, this can cause problems 
 sudo TOP
 ```
 
-Wit
+With TOP running, try to replicate the problem while watching TOP for high loads, overloaded CPU, etc. While Rocket.Chat can be run on a single core with 512MB of memory, that's really not enough for stable performance. If you're seeing high values in TOP, consider upgrading your server to at least 1GB or RAM, or more.
 
 - - -
 
 ## 11. TODO
 
-- A
+- Add section for updating & backing up
 
 - - -
 

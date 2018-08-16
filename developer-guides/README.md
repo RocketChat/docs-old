@@ -10,6 +10,7 @@
 - [Realtime API](realtime-api/)
 - [Testing](testing/)
 - [Troubleshooting](troubleshooting/)
+- [Deprecation](deprecation/)
 
 **Important information**:
 On Rocket.Chat rooms can be referenced as:

@@ -30,6 +30,10 @@ Here you can see all kinds of information about the current channel. If you have
 
 - __Archived__: Tells if a channel is archived, and toggles the archived status of a channel. Nobody can post messages in an archived channel, and channel search will not find that channel.
 
+- __Password__: Tells whether a channel has a password and let you set the password. If a channel has a password, other users need to enter the password to become a member of the channel.
+
+If a [retention policy](../../administrator-guides/retention-policies/) is active on this channel, a red warning box will appear saying when your messages or files will be automatically deleted.
+
 ## Search Messages
 
 Rocket Chat search supports basic search commands which work like Gmail search.
@@ -140,3 +144,39 @@ You can only use OTR in direct messages (one-on-one) and both sides must be onli
 To start OTR conversation, click on _START OTR_. The other user will be notified to start a OTR.
 
 After your request is confirmed by other side, messages are encrypted. Encrypted messages have a key icon on the right side.
+
+## Streaming
+
+If the feature [Youtube Livestream](../../administrator-guides/youtube-broadcasting) is enabled, you will see the `Streaming` Tab on the channel actions menu.
+
+If you are the owner of the channel or if you are a admin server you will be able to start streaming from there, or add a current ongoing stream to the channel via url.
+
+_Note: depending on the settings of the server you might be only able to link live streams from Youtube. In doubt always ask your server's admin._
+
+To start streaming from rocket.chat just press the `Broadcast my Camera` button. After that you will be prompted to login with a google account (you need to have streaming activated on your youtube account before, see [Introduction to live streaming](https://support.google.com/youtube/answer/2474026?hl=en) Google guide).
+
+You can also add a stream from Youtube with the stream link (The owner of the stream must allow the stream to be shown in other sites). To start a live stream from youtube, just add the link to it on the `Livestream source` form and hit save.
+
+You can add a message to whenever the stream is unavailable in the `Livestream not available message` field.
+
+You can also stream only the sound of the live stream with the `Enable audio only button`. This is very useful when you want to do a podcast for example.
+
+If you are not a channel owner and there is already a live stream set to that channel, you will need only press play on the stream tab. Doing that will create a pop over embedded video, that can be moved around the screen and even if you change channels you will still be able to watch that stream, since the popover will not close when changing channels.
+
+## Prune Messages
+
+If you are a server admin, or your admin has given you the `clean-channel-history` permission (for example, an admin may give that permission to channel owners), this option will allow you to swiftly delete messages from a channel.
+
+`Newer than` and `Older than` allow you to set a timespan of messages to delete. If you leave both fields blank, all messages will delete. If you only wish to delete all messages posted after a specific date, you can fill in the `Newer than` field. If you wish to delete all messages posted before a specific date, you can fill in the `Older than` field. To delete messages between two dates, you fill in both fields.
+
+The `Users` field allows you to specify any users to delete the content from. If this field is filled, only their messages will be cleared. Leave it empty to not narrow down - the script will not care about who the content belongs to.
+
+To further specify what you wish to be removed, you can use the other checkboxes:
+
+- __Inclusive__: if this is checked, all messages that land on the exact start/end times you have specified will be deleted too.
+
+- __Exclude pinned messages__: if this is checked, it will NOT delete pinned messages.
+
+- __Only remove the attached files, keep messages__: if this is checked, this will only remove files, not the messages themselves.
+
+_Messages and files deleted with this option are deleted forever and cannot be recovered. Be careful and double-check your arguments before pressing Prune._

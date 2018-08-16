@@ -27,6 +27,14 @@
 
   <link rel="canonical" href="{{site.url}}{{page.url}}">
   <link rel="shortcut icon" href="/favicon.ico?v=1"/>
+
+  <!-- Start Alexa Certify Javascript -->
+  <script type="text/javascript">
+    _atrk_opts = { atrk_acct:"L21tr1rcy520uW", domain:"rocket.chat",dynamic: true};
+    (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+  </script>
+  <noscript><img src="https://certify.alexametrics.com/atrk.gif?account=L21tr1rcy520uW" style="display:none" height="1" width="1" alt="" /></noscript>
+  <!-- End Alexa Certify Javascript -->
 </head>
 
 
@@ -42,100 +50,88 @@
         <li><a href="https://rocket.chat/contact">Contact</a></li>
       </ul>
     </div>
-    <div class="toc-sidebar"></div>
+    <div class="toc-sidebar">
+    </div>
   </div>
 
-<div class="pusher">
-  <header>
-    <div class="wrapper">
-      <div class="burger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <a class="logo" href="/">
-        <img src="{{ site.url }}/images/default/logo.svg" alt="Rocket.Chat">
-      </a>
-      <a class="logo mobile" href="/">
-        <img src="{{ site.url }}/images/default/icon.svg" alt="Rocket.Chat">
-      </a>
-      <div class="header-items">
-        <div class="search">
-          <svg class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.71424961090088" height="32" viewBox="0 0 29.71424961090088 32" data-code="61442" data-tags="search"><g fill="#fff" transform="scale(0.03125 0.03125)"><path d="M658.286 475.429q0-105.714-75.143-180.857t-180.857-75.143-180.857 75.143-75.143 180.857 75.143 180.857 180.857 75.143 180.857-75.143 75.143-180.857zM950.857 950.857q0 29.714-21.714 51.429t-51.429 21.714q-30.857 0-51.429-21.714l-196-195.429q-102.286 70.857-228 70.857-81.714 0-156.286-31.714t-128.571-85.714-85.714-128.571-31.714-156.286 31.714-156.286 85.714-128.571 128.571-85.714 156.286-31.714 156.286 31.714 128.571 85.714 85.714 128.571 31.714 156.286q0 125.714-70.857 228l196 196q21.143 21.143 21.143 51.429z" /></g></svg>
-          <input type="text" id="search" placeholder="Search">
+  <div class="pusher">
+    {% include header.html %}
+
+    <main>
+      <div class="wrapper main">
+        <div class="toc-wrapper">
+          <div class="search docs">
+            <svg class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.71424961090088" height="32" viewBox="0 0 29.71424961090088 32" data-code="61442" data-tags="search"><g fill="#333" transform="scale(0.03125 0.03125)"><path d="M658.286 475.429q0-105.714-75.143-180.857t-180.857-75.143-180.857 75.143-75.143 180.857 75.143 180.857 180.857 75.143 180.857-75.143 75.143-180.857zM950.857 950.857q0 29.714-21.714 51.429t-51.429 21.714q-30.857 0-51.429-21.714l-196-195.429q-102.286 70.857-228 70.857-81.714 0-156.286-31.714t-128.571-85.714-85.714-128.571-31.714-156.286 31.714-156.286 85.714-128.571 128.571-85.714 156.286-31.714 156.286 31.714 128.571 85.714 85.714 128.571 31.714 156.286q0 125.714-70.857 228l196 196q21.143 21.143 21.143 51.429z" /></g></svg>
+            <input type="text" id="search" placeholder="Search">
+          </div>
+          {% include toc.html %}
         </div>
-        <ul>
-          <li><a href="https://rocket.chat/download">Download</a></li>
-          <li><a href="https://rocket.chat/cloud">Cloud</a></li>
-          <li><a href="https://rocket.chat/community">Community</a></li>
-          <li><a href="https://rocket.chat/docs/">Docs</a></li>
-          <li><a href="https://rocket.chat/blog/">Blog</a></li>
-          <li><a href="https://rocket.chat/contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </header>
-  <main>
-    <div class="wrapper main">
-      <div class="toc-wrapper">
-        {% include toc.html %}
-      </div>
-      <div id="content" class="content">
-        <div class="wrapper" {%if page.ignoreLinks%}data-proofer-ignore{% endif %}>
-          {{ content }}
-          <div class="edit-github"><a href="https://github.com/RocketChat/docs/blob/master{{page.url}}README.md">Edit this page on GitHub</a></div>
+        <div class="mobile-search">
+          <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
-      </div>
-    </div>
-  </main>
-</div>
-<footer>
-  <div class="wrapper">
-    <ul>
-      <li><a href="https://rocket.chat/download">Download</a></li>
-      <li><a href="https://rocket.chat/cloud">Cloud</a></li>
-      <li><a href="https://rocket.chat/docs/">Docs</a></li>
-    </ul>
-    <ul>
-      <li><a href="https://rocket.chat/team">Team</a></li>
-      <li><a href="https://rocketchat.recruitee.com/">Jobs</a></li>
-      <li><a href="https://rocket.chat/partners">Partners</a></li>
-    </ul>
-    <ul>
-      <li><a href="https://rocket.chat/contact">Contact</a></li>
-      <li><a href="https://rocket.chat/press">Press</a></li>
-      <li><a href="https://rocket.chat/blog/">Blog</a></li>
-    </ul>
-    <ul>
-      <li><a href="https://shop.spreadshirt.com/rocketchat" target="_blank" data-proofer-ignore>Store</a></li>
-      <li><a href="https://www.stickermule.com/user/1070688638/stickers" target="_blank">Stickers</a></li>
-    </ul>
+        <div id="content" class="content">
+          <div class="wrapper" {%if page.ignoreLinks%}data-proofer-ignore{% endif %}>
+            {{ content }}
+            <div class="edit-github">
+              <a class="button" href="https://github.com/RocketChat/docs/blob/master{{page.url}}README.md">
+                <span class="button--icon">
+                  <img src="{{ site.url }}/images/icons/github--white.svg" alt="Github">
+                </span>
+                <span>Contribute to this page on GitHub</span>
+              </a>
+            </div>
+
+            <!-- {%if site.url contains "rocket.chat"%}
+              <div id='discourse-comments'></div>
+
+                <script type="text/javascript">
+                      DiscourseEmbed = { discourseUrl: 'https://forums.rocket.chat/',
+                                        discourseEmbedUrl: location.toString() };
+
+                      (function() {
+                        var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+                        d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+                      })();
+              </script>
+            {%endif%} -->
+          </div>
+          <div class="article-toc-wrapper">
+            {% include article-toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_min=2 h_max=3 %}
+          </div>
+        </div>
+    </main>
+    {% include footer.html %}
+    <script src="{{ site.url }}/public/js/responsiveControl.js"></script>
+    <script type="text/javascript">
+      window.jekyll = { site: { url: '{{ site.url }}' } };
+    </script>
+
+    <script src="{{ site.url }}/public/js/index.js?v={{ site.version }}"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+    <script type="text/javascript">
+      docsearch({
+        apiKey: '75295a81b01359d7048b766a0fe98a2f',
+        indexName: 'rocketchat',
+        inputSelector: '#search'
+      });
+    </script>
+    <script src="/main.js"></script>
+
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MLJ76N"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-MLJ76N');</script>
+      <!-- End Google Tag Manager -->
+
   </div>
-</footer>
-<script src="{{ site.url }}/public/js/responsiveControl.js"></script>
-<script type="text/javascript">
-  window.jekyll = { site: { url: '{{ site.url }}' } };
-</script>
-
-<script src="{{ site.url }}/public/js/index.js?v={{ site.version }}"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
-<script type="text/javascript">
-  docsearch({
-    apiKey: '75295a81b01359d7048b766a0fe98a2f',
-    indexName: 'rocketchat',
-    inputSelector: '#search'
-  });
-</script>
-
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MLJ76N"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MLJ76N');</script>
-  <!-- End Google Tag Manager -->
-
 </body>
 </html>

@@ -1,6 +1,6 @@
 # Login
 
-Used for user login. It supports a plenthora of authentication services, including a simple username and password combination. The list of supported auth services (and its configurations) lies in the `meteor_accounts_loginServiceConfiguration` collection.
+Used for user login. It supports a plethora of authentication services, including a simple username and password combination. The list of supported auth services (and its configurations) lies in the `meteor_accounts_loginServiceConfiguration` collection.
 
 The overall format of the login message is:
 
@@ -13,7 +13,7 @@ The overall format of the login message is:
 }
 ```
 
-Independently of the auth provider, upon an sucessful login we'll receive back an `result` with the `user-id`, `auth-token` and the token expiration date. As the example bellow shows:
+Independently of the auth provider, upon a successful login we'll receive back an `result` with the `user-id`, `auth-token` and the token expiration date. As the example bellow shows:
 
 ```json
 {
@@ -31,7 +31,7 @@ That information should be saved locally in order to automatically authenticate 
 
 ## Username and Password
 
-The user have an account directly with the RC server. It's important to say that we must not pass the user password as plain-text, applying a hashing algorithm makes things better (`sha-256`).
+The user has an account directly with the RC server. It's important to say that we must not pass the user password as plain-text, applying a hashing algorithm makes things better (`sha-256`).
 
 Request
 
@@ -104,7 +104,7 @@ If you have a saved user authentication you may use the provided `auth-token` to
 }
 ```
 
-A sucessful call will return the same message as an sucessful login (which it is).
+A successful call will return the same message as a successful login (which it is).
 
 ## About token expiration date
 

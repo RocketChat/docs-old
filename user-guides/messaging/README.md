@@ -48,13 +48,33 @@ You will have the chance to listen to the message before sending it.
 
 ### Video
 
-Before sending a audio message, if you are using a browser, you need to give Rocket.Chat permission to use your camera.
+Before sending a video message, if you are using a browser, you need to give Rocket.Chat permission to use your camera.
 
 To start recording you can simply click on the `Create new Video Message` option on the attachment menu.
 
 Then click the circle icon, when the recording starts the icon will be replaced with a square "stop" icon. To end the video recording, click the "stop" icon.
 
 To preview and send your last video recorded, click the "ok" button, which will display a window where you can watch and download the video, name it and give it an optional description. Click the "send" button to send the video or the "cancel" button to discard the video recording.
+
+## Interacting with Google Drive
+
+_Note:_ Google Drive features shall only be available if the admin has enabled Google Drive access and correctly provided the required API keys. Instructions to obtain these keys can be found in the [Administrator guides](../../administrator-guides/). Furthermore, users wishing to use this feature shall be required to give permission to Rocket.Chat to access their Google Drive account.
+
+### From Google Drive to Rocket.Chat
+
+Files can be uploaded from Google Drive to a room by selecting the `Select Files from Google Drive` option on the attachment menu. This opens a Google Drive file picker GUI with search, view modes and other such functionalities. Selecting the required file shall then prompt the user to enter the title and description for the upload.
+
+Files shall be uploaded in the same format to Rocket.Chat as they are in Google Drive, except for Google docs, slides and sheets which shall be converted to pdf format before the upload.
+
+### From Rocket.Chat to Google Drive
+
+A file uploaded as a message attachment to a room can be uploaded to Google Drive by clicking on the `Save to Google Drive` button above the attachment.
+
+The format of the uploaded file shall be the same as the original message attachment.
+
+### Creating Google Docs, Slides and Sheets
+
+Google docs, slides and sheets can be created from Rocket.Chat by clicking on the corresponding option on the attachment menu. The file shall be created in the user's Drive account and its link posted as a message in the opened room. The sharing setting for the file shall remain default. It can be changed by the file owner via the link to collaborate with other users.
 
 ### Links
 
@@ -112,7 +132,7 @@ Rocket.Chat saves drafts of edits to your messages. That way, you can return to 
 
 You can delete a message by clicking on `delete` option on the message actions menu.
 
-You can also delete a message by emptying the contents while editing and saving your changes. You will be asked to confirm the message deletion and warned that the message contents will be be able to be recovered.
+You can also delete a message by emptying the contents while editing and saving your changes. You will be asked to confirm the message deletion and warned that the message contents will be able to be recovered.
 
 ### Starring messages
 
@@ -151,10 +171,12 @@ To copy the contents of a message to your clipboard, simply click on the `copy` 
 
 Replying to a message will create a attachment showing the message you wish to reply after the sent text.
 
+Replying to a message will trigger a notification to the replied message sender by using an `@` mention.
+
 To reply to a message, click on the `reply` option on the message actions menu and write your message after the link that was inserted on the message input.
 
 Replying to a already replied message will create a string of messages, showing every message quoted before the current one.
 
 ### Quoting a message
 
-It has the same effect of replying a message.
+Quoting is very similar to replying, the only diference being that the quoted message sender will not be notified.

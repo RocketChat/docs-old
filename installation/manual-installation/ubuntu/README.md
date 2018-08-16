@@ -20,7 +20,7 @@ If you would like to enable `https://yoursite.com` using the snap please see [he
 
 > If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](../../../installation/updating/from-0-x-x-to-0-40-0/)
 
-This guide explains how to deploy your own Rocket.Chat instance to a Ubuntu Linux machine using the command line.
+This guide explains how to deploy your own Rocket.Chat instance to an Ubuntu Linux machine using the command line.
 
 ## Dependencies
 
