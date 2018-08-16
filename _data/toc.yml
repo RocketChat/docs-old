@@ -337,6 +337,7 @@
       - Rooms:
         - cleanHistory
         - favorite
+        - fullInfo
         - get
         - saveNotification
         - upload

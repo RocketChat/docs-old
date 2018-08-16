@@ -369,6 +369,7 @@ Here you can also find what articles are incomplete and missing.
         - Rooms:
             - cleanHistory
             - favorite
+            - fullInfo
             - get
             - saveNotification
             - upload
