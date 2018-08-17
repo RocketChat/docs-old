@@ -465,6 +465,10 @@ main.home {
       padding-left: 18px;
       border-left: 2px $brand solid;
     }
+
+    :last-child a {
+      margin-bottom: 0;
+    }
   }
 }
 

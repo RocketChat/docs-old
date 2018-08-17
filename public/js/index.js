@@ -67,6 +67,8 @@ $(document).ready(function() {
 
   if(location.pathname !== '/' && location.pathname !== '/docs/'){
 
+    $('#my_toc li').addClass(' active');
+
     var app = new senna.App();
 
     app.setBasePath(path);
@@ -96,6 +98,7 @@ $(document).ready(function() {
         return " level-0 level-1 level-2 level-3";
       });
 
+      $('#my_toc li')[0].addClass(' active');
 
       $('table:not(.table-wrapper table)').wrap( "<div class='table-wrapper'></div>" );
 
@@ -127,5 +130,9 @@ $(document).ready(function() {
         });
       }
     });
+
+    $('#my_toc li').on('click', function () {
+      $(this).addClass(' active');
+    })
   }
 });
