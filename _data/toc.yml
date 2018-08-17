@@ -314,6 +314,7 @@
         - history
         - list.everyone
         - list
+        - members
         - messages.others
         - open
         - setTopic
