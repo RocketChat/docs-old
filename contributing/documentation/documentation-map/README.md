@@ -345,7 +345,7 @@ Here you can also find what articles are incomplete and missing.
             - history
             - list.everyone
             - list
-            - <span class="missing">[members](../missing-and-outdated-list/index.html#immembers)</span>
+            - members
             - messages.others
             - open
             - setTopic
