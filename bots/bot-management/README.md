@@ -39,44 +39,48 @@ You might be able to know the exact clients or adapters, and their versions, use
 ### List page
 
 The list view is the first view when you click on **Bots**, it is a list of all the existing bot accounts. It is accessible from the admin sidenav and shows the following information about an account:
-  - Status (online/away/busy/offline)
-  - Name
-  - Username
-  - Framework used by the account
+
+- Status (online/away/busy/offline)
+- Name
+- Username
+- Framework used by the account
 
 ### Visualizing general info about an account
 
 In the list view, you can click on any listed account and a tab will be opened on the right side, displaying some information about the clicked account:
-  - Roles of the account
-  - Last login time
-  - Framework used by the account
-  - (Optional) Button to pause or resume the bot
+
+- Roles of the account
+- Last login time
+- Framework used by the account
+- (Optional) Button to pause or resume the bot
 
 If the admin clicks on the 'More Details' button, it will be taken to the Details page.
 
 ### Details page
 
 The main management page of a bot is its details page. It displays:
-  - Status (offline/online/pauseOrResume) - Pause of Resume is displayed when the bot is online and can be paused
-  - Editable field displaying the account name
-  - Editable field displaying the account username
-  - Editable field to be filled with a new password, if it is to bechanged
-  - Framework used by the bot
-  - Client stack used by the bot
-  - Connection status displaying the bot's IP address and its response time (ping)
-  - Uptime of how long the bot has been online and another for how long the bot has been active (not paused)
-  - Roles and the possibility to add or remove them
+
+- Status (offline/online/pauseOrResume) - Pause of Resume is displayed when the bot is online and can be paused
+- Editable field displaying the account name
+- Editable field displaying the account username
+- Editable field to be filled with a new password, if it is to bechanged
+- Framework used by the bot
+- Client stack used by the bot
+- Connection status displaying the bot's IP address and its response time (ping)
+- Uptime of how long the bot has been online and another for how long the bot has been active (not paused)
+- Roles and the possibility to add or remove them
 
 You can also delete the account and convert the account to the user type. Converting it to the user type will simply edit the `type` attribute and ask for an e-mail if the account does not have one.
 
 Regarding the statistics view, it is displayed when the admin clicks on 'Load' and currently shows:
-  - Total number of messages sent by the bot
-  - Total number of messages in which the bot is mentioned
-  - Total number of rooms that bot has joined
-  - [L] - How many times the bot had to reconnect to the server
-  - [L] - How many messages the bot has read
-  - [L] - Time when the last message was read
-  - [L] - How many users are stored in the Hubot brain (Hubot only).
+
+- Total number of messages sent by the bot
+- Total number of messages in which the bot is mentioned
+- Total number of rooms that bot has joined
+- [L] - How many times the bot had to reconnect to the server
+- [L] - How many messages the bot has read
+- [L] - Time when the last message was read
+- [L] - How many users are stored in the Hubot brain (Hubot only).
 
 Items starting with [L] are retrieved live from the bot client. Note that different adapters can display different information.
 

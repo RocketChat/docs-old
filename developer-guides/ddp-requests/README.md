@@ -20,7 +20,7 @@ From the server, the only thing you need to do is to send a DDPR and wait for th
 
 #### Sending a request (from the server)
 
-To send a ClientCommand all you need to do is to call the function via `RocketChat.sendDdpRequest(user, request [, timeout])`, where:
+To send a request to the client all you need to do is to call the function via `RocketChat.sendDdpRequest(user, request [, timeout])`, where:
 
 - `user`: Object of the target user, containing the `_id` and `username` properties
 - `request`: Object of the request, where it must have at least the `key` property, a unique string
