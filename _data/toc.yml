@@ -139,6 +139,7 @@
     - Uptime Robot
   - Google Cloud:
     - Auto Translate
+  - Google Drive
   - Setting Up Video Conferencing
   - Livechat:
     - Livechat Queues
@@ -313,6 +314,7 @@
         - history
         - list.everyone
         - list
+        - members
         - messages.others
         - open
         - setTopic
