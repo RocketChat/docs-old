@@ -92,9 +92,7 @@ $(document).ready(function() {
         return " level-"+index;
       });
 
-      $('.toc li[class*="level"]:not(.active)').removeClass(function (index) {
-        console.log(index);
-
+      $('.toc li[class*="level"]:not(.active)').removeClass(function () {
         return " level-0 level-1 level-2 level-3";
       });
 
@@ -116,7 +114,6 @@ $(document).ready(function() {
 
     $(window).on('resize scroll', function() {
       if( lastActive == null || !$(lastActive).isInViewport()){
-        console.log('ding')
         $('.content h2').each(function () {
           currentActive = 'a[href="#' + $(this)[0].id + '"]'
           if ($(this).isInViewport()) {
