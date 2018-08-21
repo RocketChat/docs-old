@@ -6,17 +6,20 @@ You will have a server up and running, professionally managed, without installat
 
 For any questions or concerns regarding our cloud offering please contact us at: cloud.support@rocket.chat
 
-
 ## FAQ
 
 ### How do I contact support?
+
 Send an email to cloud.support@rocket.chat to open a new support ticket.
 
 ### How do I cancel my trial?
+
 Send an email to cloud.support@rocket.chat with the address of your workspace and ask for it to be canceled.
 
 ### How can I get a data export?
+
 Send an email to cloud.support@rocket.chat with the  address of your workspace.  Note: The request will take some time to fullfill.
 
 ### Can I deploy to another region?
+
 Currently we only have a region available in the US.  In the future we plan to expand this.  If you would like to see a certain region please let us know.
