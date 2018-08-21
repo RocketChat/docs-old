@@ -53,4 +53,8 @@ In this example we are setting two new fields, we will go over each proadressper
 
 - **field**: This is to be used inside the `modifyRecordField` property. This should be the name of the existing field.
 
+- **public**: This defines the field as visible for other users when looking at a user profile.
+
+- **private**: This defines the field as private, so only users with the permission `view-full-other-user-info` will be able to see this field when viewing that user profile.
+
 > Note: Please use `tabs` for indentation, if you use `spaces` for indentation the fields will not work.
