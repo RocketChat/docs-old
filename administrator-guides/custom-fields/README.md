@@ -1,6 +1,6 @@
 # Custom Fields
 
-In Rocket.Chat you can set customized fields for user registration. An example would be adding a field `adress` or `role`, where the user could select from various roles of a company.
+In Rocket.Chat you can set customized fields for user registration. An example would be adding a field `address` or `role`, where the user could select from various roles of a company.
 
 > Note: Unfortunately for now you might need some basic javascript and Rocket.Chat's internal workings understanding to set custom fields different from the example below. A more _user friendly_ interface is planned for the future.
 
@@ -33,7 +33,7 @@ Make sure to use a valid `JSON` where `keys` are the `field names` containing a 
 }
 ```
 
-In this example we are setting two new fields, we will go over each property of these fields:
+In this example we are setting two new fields, we will go over each proadressperty of these fields:
 
 - **type**: This defines the type of the field, currently we have 2 types: `select` and `text`. Where `select` creates a dropdown list and `text` creates a plain text form.
 
