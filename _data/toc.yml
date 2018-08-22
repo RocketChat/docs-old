@@ -139,9 +139,11 @@
     - Uptime Robot
   - Google Cloud:
     - Auto Translate
+  - Google Drive
   - Setting Up Video Conferencing
   - Livechat:
     - Livechat Queues
+    - Omnichannel Integration
   - Notifications:
     - Push Notifications
   - Permissions
@@ -316,6 +318,7 @@
         - history
         - list.everyone
         - list
+        - members
         - messages.others
         - open
         - setTopic
@@ -360,13 +363,17 @@
         - delete
         - deleteOwnAccount
         - forgotPassword
+        - generatePersonalAccessToken
         - getAvatar
+        - getPersonalAccessTokens
         - getPresence
         - get-preferences
         - getUsernameSuggestion
         - info
         - list
+        - regeneratePersonalAccessToken
         - register
+        - removePersonalAccessToken
         - resetAvatar
         - setAvatar
         - set-preferences
@@ -374,6 +381,7 @@
         - updateOwnBasicInfo
       - Offset and Count and Sort Info
       - Query and Fields Info
+      - Personal Access Tokens
     - Schema Definition
     - Testing
     - Troubleshooting
