@@ -12,7 +12,7 @@ Search for messages in a channel by id and text message.
 | :--- | :--- | :--- | :--- |
 | `roomId`     | `7aDSXtjMA3KPLxLjt` | Required | The id of the channel.                  |
 | `searchText` | `test to search`    | Required | The text message to search in messages. |
-| `limit`      | `10`                | Optional | The limit of result. |
+| `count`      | `10`                | Optional | The limit of result. |
 
 ## Example Call
 
@@ -20,7 +20,7 @@ Search for messages in a channel by id and text message.
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type:application/json" \
-     http://localhost:3000/api/v1/chat.search?roomId=GENERAL&searchText=test
+     http://localhost:3000/api/v1/chat.search?roomId=GENERAL&searchText=test&count=10
 ```
 
 ## Example Result
@@ -52,4 +52,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
+| 0.67.0 | Changed `limit` query parameter to `count` |
 | 0.60.0 | Added |

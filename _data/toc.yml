@@ -139,9 +139,11 @@
     - Uptime Robot
   - Google Cloud:
     - Auto Translate
+  - Google Drive
   - Setting Up Video Conferencing
   - Livechat:
     - Livechat Queues
+    - Omnichannel Integration
   - Notifications:
     - Push Notifications
   - Permissions
@@ -150,6 +152,7 @@
     - Pidgin
   - Create the First Admin
   - Restoring an Admin
+  - Retention Policies
   - Settings Via Env Vars
   - Youtube Broadcasting
 - Developer guides:
@@ -312,6 +315,7 @@
         - history
         - list.everyone
         - list
+        - members
         - messages.others
         - open
         - setTopic
@@ -354,6 +358,7 @@
         - create
         - createToken
         - delete
+        - deleteOwnAccount
         - forgotPassword
         - generatePersonalAccessToken
         - getAvatar

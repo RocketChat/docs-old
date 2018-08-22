@@ -5,6 +5,7 @@
 | `/api/v1/users.create` | Create a new user. | [Link](create/) |
 | `/api/v1/users.createToken` | Create a user authentication token. | [Link](createtoken/) |
 | `/api/v1/users.delete` | Deletes an existing user. | [Link](delete/) |
+| `/api/v1/users.deleteOwnAccount` | Deletes your own user. | [Link](deleteownaccount/) |
 | `/api/v1/users.forgotPassword`  | Send email to reset your password. | [Link](forgotpassword/) |
 | `/api/v1/users.generatePersonalAccessToken`   | Generate Personal Access Token. | [Link](generatepersonalaccesstoken/)  |
 | `/api/v1/users.getAvatar` | Gets the URL for a user's avatar. | [Link](getavatar/) |
