@@ -44,6 +44,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/users.create`                | Create a new user.                                              | [Link](users/create/)                |
 | `/api/v1/users.createToken`           | Create a user authentication token.                             | [Link](users/createtoken/)           |
 | `/api/v1/users.delete`                | Deletes an existing user.                                       | [Link](users/delete/)                |
+| `/api/v1/users.deleteOwnAccount`      | Deletes your own user.                                          | [Link](users/deleteownaccount/)      |
 | `/api/v1/users.forgotPassword`        | Send email to reset your password.                              | [Link](users/forgotpassword/)        |
 | `/api/v1/users.getAvatar`             | Gets the URL for a user's avatar.                               | [Link](users/getavatar/)             |
 | `/api/v1/users.getPreferences`        | Gets all preferences of user.                                   | [Link](users/get-preferences/)       |
@@ -147,6 +148,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/im.create`          | Create a direct message session with another user.            | [Link](im/create/)          |
 | `/api/v1/im.history`         | Retrieves the messages from a direct message.                 | [Link](im/history/)         |
 | `/api/v1/im.files`           | Retrieves a list of files from a direct message.              | [Link](im/files/)           |
+| `/api/v1/im.members`         | Retrieves the users of participants of a direct message.      | [Link](im/members/)         |
 | `/api/v1/im.messages.others` | Retrieves the messages from any direct message in the server. | [Link](im/messages-others/) |
 | `/api/v1/im.list`            | List the direct messages the caller is part of.               | [Link](im/list/)            |
 | `/api/v1/im.list.everyone`   | List all direct message the caller in the server.             | [Link](im/list-everyone/)   |
