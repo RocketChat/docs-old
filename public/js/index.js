@@ -56,6 +56,8 @@ $(document).ready(function() {
 
     app.setBasePath(path);
     addAnchors(path);
+    $('table:not(.table-wrapper table)').wrap( "<div class='table-wrapper'></div>" );
+
 
     app.addSurfaces('content');
     app.addRoutes(new senna.Route(/.*/, senna.HtmlScreen));
@@ -67,8 +69,9 @@ $(document).ready(function() {
 
     app.on('endNavigate', function(event) {
       addAnchors(path);
-      var hash = event.path.indexOf('#');
+      $('table:not(.table-wrapper table)').wrap( "<div class='table-wrapper'></div>" );
 
+      var hash = event.path.indexOf('#');
       if (hash !== -1) {
         location.hash = path.substr(hash);
       }

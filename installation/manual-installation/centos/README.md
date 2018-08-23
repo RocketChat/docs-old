@@ -10,20 +10,21 @@ Add the epel repository and update everything.
 yum -y install epel-release nano && yum -y update
 ```
 
-Populate the yum repo with the mongodb repository
+Populate the yum repo with the mongodb-org repository
 
 ```
-nano /etc/yum.repos.d/mongodb.repo
+nano /etc/yum.repos.d/mongodb-org.repo
 ```
 
 Paste this into the new file:
 
 ```
-  [mongodb]
-  name=MongoDB Repository
-  baseurl=http://downloads-distro.mongodb.org/repo/redhat/os/x86_64/
-  gpgcheck=0
-  enabled=1
+[mongodb-org]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.6/x86_64/
+gpgcheck=1
+enabled=1
+gpgkey=https://www.mongodb.org/static/pgp/server-3.6.asc
 ```
 
 To write and save do:

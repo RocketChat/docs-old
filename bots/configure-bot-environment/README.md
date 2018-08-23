@@ -14,7 +14,7 @@ they would need to be set on server startup.
 Environment Variable | Description
 :---- | :----
 `ROCKETCHAT_URL` *     | URL of the Rocket.Chat instance to connect to. Can be specified as `host:port`, `http://host:port` or `https://host:port`.
-`ROCKETCHAT_USESSL`    | Force bot to connect with SSL. If unset, it will try and detect from URL protocol.
+`ROCKETCHAT_USE_SSL`   | Force bot to connect with SSL. If unset, it will try and detect from URL protocol.
 `ROCKETCHAT_AUTH`      | Default is `password`. Set to 'ldap' to enable LDAP login for bot users.
 `ROCKETCHAT_USER` *    | The bot's username (account name users will summon the bot with). Must be registered on your Rocket.Chat server and granted `bot` role.
 `ROCKETCHAT_PASSWORD` *| The bot user's password.

@@ -11,8 +11,11 @@
 | `username` | `myusername`       | Required | Your username |
 | `password` | `my$up3erP@ssw0rd` | Required | Your password |
 
-- Notes:
-- **You will need to provide the `authToken` and `userId` for any of the authenticated methods.**
+## Notes
+
+-> **You will need to provide the `authToken` and `userId` for any of the authenticated methods.** <br/>
+-> **If your user has two-factor(2FA) authentication enabled, you must send a request like [this](#example-call---when-two-factor2fa-authentication-is-enabled).** <br/>
+-> **If LDAP authentication is enabled, you must maintain the login in the same way as you normally do. Similarly if 2FA is enabled for an LDAP user. Everything stays the same.** <br/>
 
 ## Example Call - As Form Data
 
@@ -30,6 +33,20 @@ curl -d '{ "ldap": true,
            "username": "myusername" }' \
      -H "Content-Type: application/json" \
      https://localhost:3000/api/v1/login
+```
+
+## Example Call - When two-factor(2FA) authentication is enabled
+
+```bash
+curl -H "Content-type:application/json" \
+      http://localhost:3000/api/v1/login \
+      -d '{ "totp": { "login": { "user": {"email": "rocket.cat@rocket.chat"}, "password": "password" }, "code": "224610" } }
+```
+
+```bash
+curl -H "Content-type:application/json" \
+      http://localhost:3000/api/v1/login \
+      -d '{ "totp": { "login": { "user": {"username": "rocket.cat"}, "password": "password" }, "code": "224610" } }
 ```
 
 ## Result

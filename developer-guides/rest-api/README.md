@@ -26,6 +26,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/statistics`      | Statistics about the Rocket.Chat server.                  | [Link](miscellaneous/statistics/)      |
 | `/api/v1/statistics.list` | Selectable statistics about the Rocket.Chat server.       | [Link](miscellaneous/statistics-list/) |
 
+### Assets
+
+| Url                         | Short Description                                  | Details Page                               |
+| :-------------------------- | :------------------------------------------------- | :----------------------------------------- |
+| `/api/v1/assets.setAsset`   | Set an asset image by name.                        | [Link](assets/setasset/)                   |
+| `/api/v1/assets.unsetAsset` | Unset an asset by name                             | [Link](assets/unsetasset/)                 |
+
 ### Authentication
 
 | Url                       | Short Description                                  | Details Page                               |
@@ -39,24 +46,29 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Users
 
-| Url                                   | Short Description                                               | Details Page                         |
-| :------------------------------------ | :-------------------------------------------------------------- | :----------------------------------- |
-| `/api/v1/users.create`                | Create a new user.                                              | [Link](users/create/)                |
-| `/api/v1/users.createToken`           | Create a user authentication token.                             | [Link](users/createtoken/)           |
-| `/api/v1/users.delete`                | Deletes an existing user.                                       | [Link](users/delete/)                |
-| `/api/v1/users.forgotPassword`        | Send email to reset your password.                              | [Link](users/forgotpassword/)        |
-| `/api/v1/users.getAvatar`             | Gets the URL for a user's avatar.                               | [Link](users/getavatar/)             |
-| `/api/v1/users.getPreferences`        | Gets all preferences of user.                                   | [Link](users/get-preferences/)       |
-| `/api/v1/users.getPresence`           | Gets the online presence of a user.                             | [Link](users/getpresence/)           |
-| `/api/v1/users.getUsernameSuggestion` | Gets a suggestion a new username to user.                       | [Link](users/getusernamesuggestion/) |
-| `/api/v1/users.info`                  | Gets a user's information, limited to the caller's permissions. | [Link](users/info/)                  |
-| `/api/v1/users.list`                  | All of the users and their information, limited to permissions. | [Link](users/list/)                  |
-| `/api/v1/users.register`              | Register a new user.                                            | [Link](users/register/)              |
-| `/api/v1/users.resetAvatar`           | Reset a user's avatar                                           | [Link](users/resetavatar/)           |
-| `/api/v1/users.setAvatar`             | Set a user's avatar                                             | [Link](users/setavatar/)             |
-| `/api/v1/users.setPreferences`        | Set user's preferences                                          | [Link](users/set-preferences/)       |
-| `/api/v1/users.update`                | Update an existing user.                                        | [Link](users/update/)                |
-| `/api/v1/users.updateOwnBasicInfo`    | Update basic information of own user.                           | [Link](users/updateownbasicinfo/)    |
+| Url                                           | Short Description                                               | Details Page                                 |
+| :-------------------------------------------- | :-------------------------------------------------------------- | :------------------------------------------- |
+| `/api/v1/users.create`                        | Create a new user.                                              | [Link](users/create/)                        |
+| `/api/v1/users.createToken`                   | Create a user authentication token.                             | [Link](users/createtoken/)                   |
+| `/api/v1/users.delete`                        | Deletes an existing user.                                       | [Link](users/delete/)                        |
+| `/api/v1/users.deleteOwnAccount`              | Deletes your own user.                                          | [Link](users/deleteownaccount/)              |
+| `/api/v1/users.forgotPassword`                | Send email to reset your password.                              | [Link](users/forgotpassword/)                |
+| `/api/v1/users.generatePersonalAccessToken`   | Generate Personal Access Token.                                 | [Link](users/generatepersonalaccesstoken/)   |
+| `/api/v1/users.getAvatar`                     | Gets the URL for a user's avatar.                               | [Link](users/getavatar/)                     |
+| `/api/v1/users.getPersonalAccessTokens`       | Gets the user's personal access tokens.                         | [Link](users/getpersonalaccesstokens/)       |
+| `/api/v1/users.getPreferences`                | Gets all preferences of user.                                   | [Link](users/get-preferences/)               |
+| `/api/v1/users.getPresence`                   | Gets the online presence of a user.                             | [Link](users/getpresence/)                   |
+| `/api/v1/users.getUsernameSuggestion`         | Gets a suggestion a new username to user.                       | [Link](users/getusernamesuggestion/)         |
+| `/api/v1/users.info`                          | Gets a user's information, limited to the caller's permissions. | [Link](users/info/)                          |
+| `/api/v1/users.list`                          | All of the users and their information, limited to permissions. | [Link](users/list/)                          |
+| `/api/v1/users.regeneratePersonalAccessToken` | Regenerate a user personal access token.                        | [Link](users/regeneratepersonalaccesstoken/) |
+| `/api/v1/users.register`                      | Register a new user.                                            | [Link](users/register/)                      |
+| `/api/v1/users.removePersonalAccessToken`     | Remove a personal access token.                                 | [Link](users/removepersonalaccesstoken/)     |
+| `/api/v1/users.resetAvatar`                   | Reset a user's avatar                                           | [Link](users/resetavatar/)                   |
+| `/api/v1/users.setAvatar`                     | Set a user's avatar                                             | [Link](users/setavatar/)                     |
+| `/api/v1/users.setPreferences`                | Set user's preferences                                          | [Link](users/set-preferences/)               |
+| `/api/v1/users.update`                        | Update an existing user.                                        | [Link](users/update/)                        |
+| `/api/v1/users.updateOwnBasicInfo`            | Update basic information of own user.                           | [Link](users/updateownbasicinfo/)            |
 
 ### Channels
 
@@ -147,6 +159,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/im.create`          | Create a direct message session with another user.            | [Link](im/create/)          |
 | `/api/v1/im.history`         | Retrieves the messages from a direct message.                 | [Link](im/history/)         |
 | `/api/v1/im.files`           | Retrieves a list of files from a direct message.              | [Link](im/files/)           |
+| `/api/v1/im.members`         | Retrieves the users of participants of a direct message.      | [Link](im/members/)         |
 | `/api/v1/im.messages.others` | Retrieves the messages from any direct message in the server. | [Link](im/messages-others/) |
 | `/api/v1/im.list`            | List the direct messages the caller is part of.               | [Link](im/list/)            |
 | `/api/v1/im.list.everyone`   | List all direct message the caller in the server.             | [Link](im/list-everyone/)   |
