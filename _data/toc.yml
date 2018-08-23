@@ -339,6 +339,10 @@
       - Permissions:
         - list
         - update
+      - Roles:
+        - create
+        - list
+        - addUserToRole
       - Rooms:
         - cleanHistory
         - favorite
