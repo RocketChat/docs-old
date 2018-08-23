@@ -356,6 +356,9 @@ main.home {
     text-align: left;
     letter-spacing: 0;
     line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
   }
 
   a:hover {
@@ -372,11 +375,32 @@ main.home {
     margin: 0;
   }
 
-  .level-0 > a {
-    width: 202px;
-    height: 36px;
-    background: #F1F2F4;
-    border-radius: 2px;
+  .level-0 {
+    > a {
+      width: 100%;
+      height: 36px;
+      background: #F1F2F4;
+      border-radius: 2px;
+    }
+  }
+
+  .welcome + ul > li > a:after {
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    content: '';
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    transform: rotate(135deg);
+    vertical-align: top;
+    width: 4px;
+    border-color: #CBCED1;
+    margin-right: 16px;
+    align-self: center;
+  }
+
+  .welcome + ul > .active > a:after {
+    transform: rotate(-45deg);
   }
 
   .level-1 > a {
@@ -391,7 +415,7 @@ main.home {
       padding-left: 10px;
       width: calc(100% - 10px);
       a {
-        color: #9EA2A8;
+        color: $grey-link;
         padding-top: 0;
       }
     }
@@ -446,7 +470,7 @@ main.home {
 
     a, a:visited {
       margin-bottom: 16px;
-      color: $grey-dark;
+      color: $grey-link;
       font-size: 14px;
       font-weight: normal;
       text-align: left;

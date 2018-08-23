@@ -54,20 +54,30 @@ $.fn.isInViewport = function() {
   return elementBottom > viewportTop && elementTop < viewportBottom;
 };
 
-$(document).ready(function() {
-
-  scroll_toc(window.location.pathname);
-
-  var path = (location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") ? '/docs/' : '/';
-
+function addTocLevels () {
   $('.toc .active').addClass(function (index) {
     return " level-"+index;
   });
 
+  $('.toc li[class*="level"]:not(.active)').removeClass(function () {
+    return " level-0 level-1 level-2 level-3";
+  });
+}
+
+$(document).ready(function() {
+
+  scroll_toc(window.location.pathname);
+
+  $('#my_toc li').first().addClass(' active');
+
+  var path = (location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") ? '/docs/' : '/';
+
+  addTocLevels();
+
 
   if(location.pathname !== '/' && location.pathname !== '/docs/'){
 
-    $('#my_toc li').addClass(' active');
+
 
     var app = new senna.App();
 
@@ -88,15 +98,9 @@ $(document).ready(function() {
 
       addAnchors(path);
 
-      $('.toc .active').addClass(function (index) {
-        return " level-"+index;
-      });
+      addTocLevels();
 
-      $('.toc li[class*="level"]:not(.active)').removeClass(function () {
-        return " level-0 level-1 level-2 level-3";
-      });
-
-      $('#my_toc li')[0].addClass(' active');
+      $('#my_toc li').first().addClass(' active');
 
       $('table:not(.table-wrapper table)').wrap( "<div class='table-wrapper'></div>" );
 
