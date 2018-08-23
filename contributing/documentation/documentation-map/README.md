@@ -246,6 +246,9 @@ Here you can also find what articles are incomplete and missing.
             - sendMessageLivechat
             - sendOfflineMessage
         - Rest API:
+        - Assets:
+            - setAsset
+            - unsetAsset
         - Authentication:
             - facebook
             - forgotPassword
@@ -387,20 +390,25 @@ Here you can also find what articles are incomplete and missing.
             - delete
             - deleteOwnAccount
             - forgotPassword
+            - generatePersonalAccessToken
             - getAvatar
+            - getPersonalAccessTokens
             - getPresence
-            - getPreferences
+            - get-preferences
             - getUsernameSuggestion
             - info
             - list
+            - regeneratePersonalAccessToken
             - register
+            - removePersonalAccessToken
             - resetAvatar
             - setAvatar
-            - setPreferences
+            - set-preferences
             - update
             - updateOwnBasicInfo
         - Offset and Count and Sort Info
         - Query and Fields Info
+        - Personal Access Tokens
         - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
         - <span class="incomplete">[Testing](../missing-and-outdated-list#Testing)</span>
         - Troubleshooting
