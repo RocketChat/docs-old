@@ -158,9 +158,9 @@ sudo apt-get install nginx
 
 ### 5a. Using a commercial SSL cert (recommended)
 
-If don't have a certificate you can grab one for free at [Let's Encrypt](https://letsencrypt.org/).
+If you don't have a certificate already, you can grab one for free at [Let's Encrypt](https://letsencrypt.org/).
 
-Of if you want to use a self-signed SSL cert instead, skip this part and continue at [Self-Signed SSL](#5b-self-signed-ssl) below.
+Or, if you want to use a self-signed SSL cert instead, skip ahead to [Self-Signed SSL](#5b-self-signed-ssl).
 
 **Install the private key (created when you generated the CSR):**
 
@@ -186,7 +186,7 @@ Save and Exit.
 
 ### 5b. Self-Signed SSL
 
-If you bought an SSL cert and installed it via the steps above, skip this step.
+If you bought a SSL cert and installed it via the steps above, skip this step.
 
 **Create and install a self-signed SSL certificate:**
 
@@ -196,7 +196,7 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/cert
 
 **Follow the prompts.**
 
-Tip: It is important that the Common Name be set properly. Enter your fully qualified domain name (FQDN) here or, if you don’t have FQDN, use your public IP address. For example, my FQDN for the chat server is `chat.inumio.com`
+Tip: It is **IMPORTANT** that the **Common Name** be set properly. Enter your fully qualified domain name (FQDN) here or, if you don’t have a FQDN, use your public IP address. For example, my FQDN for the chat server is `chat.inumio.com`.
 
 Save and Exit.
 
