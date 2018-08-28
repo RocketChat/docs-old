@@ -129,7 +129,6 @@ $(document).ready(function() {
 
     $(window).on('resize scroll', throttle(function() {
         $('.content h2').each(function () {
-          console.log('ding');
           var currentActive = 'a[href="#' + $(this)[0].id + '"]'
           if ($(this).isInViewport()) {
             if ($(currentActive)){
