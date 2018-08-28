@@ -70,7 +70,7 @@ $(document).ready(function() {
 
   $('#my_toc li').first().addClass(' active');
 
-  var path = (location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") ? '/docs-1/' : '/';
+  var path = (location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") ? '/docs/' : '/';
 
   addTocLevels();
 
