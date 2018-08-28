@@ -2,7 +2,7 @@ title: "Rocket.Chat Documentation"
 description: Rocket.Chat user, admin, API, integration, plugin and contributing documentation.
 
 # leave trailing slash off
-url: https://rocket.chat/docs
+url: https://martinschoeler.github.io/docs-1
 
 # bump if alterting styles or js
 version: 28
@@ -22,10 +22,6 @@ plugins:
 
 whitelist:
   - jekyll-redirect-from
-
-markdown: kramdown
-
-highlighter: rouge
 
 exclude:
   - Gemfile
