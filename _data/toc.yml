@@ -139,9 +139,11 @@
     - Uptime Robot
   - Google Cloud:
     - Auto Translate
+  - Google Drive
   - Setting Up Video Conferencing
   - Livechat:
     - Livechat Queues
+    - Omnichannel Integration
   - Notifications:
     - Push Notifications
   - Permissions
@@ -150,6 +152,7 @@
     - Pidgin
   - Create the First Admin
   - Restoring an Admin
+  - Retention Policies
   - Settings Via Env Vars
   - Youtube Broadcasting
 - Developer guides:
@@ -207,6 +210,7 @@
         - Stream Notify Logged
         - Stream Notify User
         - Stream Notify Room
+        - Stream Notify Room Users
         - Stream Room Messages
       - The Message Object
       - The Room Object
@@ -216,6 +220,9 @@
         - sendMessageLivechat
         - sendOfflineMessage
     - Rest API:
+      - Assets:
+        - setAsset
+        - unsetAsset
       - Authentication:
         - facebook
         - google
@@ -311,6 +318,7 @@
         - history
         - list.everyone
         - list
+        - members
         - messages.others
         - open
         - setTopic
@@ -353,14 +361,19 @@
         - create
         - createToken
         - delete
+        - deleteOwnAccount
         - forgotPassword
+        - generatePersonalAccessToken
         - getAvatar
+        - getPersonalAccessTokens
         - getPresence
         - get-preferences
         - getUsernameSuggestion
         - info
         - list
+        - regeneratePersonalAccessToken
         - register
+        - removePersonalAccessToken
         - resetAvatar
         - setAvatar
         - set-preferences
@@ -369,6 +382,7 @@
       - GraphQL API
       - Offset and Count and Sort Info
       - Query and Fields Info
+      - Personal Access Tokens
     - Schema Definition
     - Testing
     - Troubleshooting
