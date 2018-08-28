@@ -64,11 +64,24 @@ function addTocLevels () {
   });
 }
 
+const throttle = (func, limit) => {
+  let inThrottle
+  return function() {
+    const args = arguments
+    const context = this
+    if (!inThrottle) {
+      func.apply(context, args)
+      inThrottle = true
+      setTimeout(() => inThrottle = false, limit)
+    }
+  }
+}
+
 $(document).ready(function() {
 
   scroll_toc(window.location.pathname);
 
-  $('#my_toc li').first().addClass(' active');
+  $('#my_toc li:first-child a').addClass(' active');
 
   var path = (location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") ? '/docs/' : '/';
 
@@ -100,7 +113,7 @@ $(document).ready(function() {
 
       addTocLevels();
 
-      $('#my_toc li').first().addClass(' active');
+      $('#my_toc li:first-child a').addClass(' active');
 
       $('table:not(.table-wrapper table)').wrap( "<div class='table-wrapper'></div>" );
 
@@ -113,15 +126,12 @@ $(document).ready(function() {
       }
     });
 
-    var currentActive;
-    var lastActive;
 
-    $(window).on('resize scroll', function() {
-      if( lastActive == null || !$(lastActive).isInViewport()){
+    $(window).on('resize scroll', throttle(function() {
         $('.content h2').each(function () {
-          currentActive = 'a[href="#' + $(this)[0].id + '"]'
+          console.log('ding');
+          var currentActive = 'a[href="#' + $(this)[0].id + '"]'
           if ($(this).isInViewport()) {
-            lastActive = this;
             if ($(currentActive)){
               $('.article-toc-wrapper a').removeClass(' active')
               $(currentActive).addClass(' active');
@@ -129,8 +139,7 @@ $(document).ready(function() {
             }
           }
         });
-      }
-    });
+    }, 70));
 
     $('#my_toc li').on('click', function () {
       $(this).addClass(' active');
