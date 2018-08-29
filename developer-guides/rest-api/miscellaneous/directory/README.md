@@ -11,11 +11,13 @@ along with [Query and Fields Query Parameters](../../query-and-fields-info/).
 ## Example Call
 
 ```bash
-curl -H "X-Auth-Token: ijFlJ1yfidXhwEYY284Anoq_iEsOeMMVCupzNhX22tB" \
+curl -G -H "X-Auth-Token: ijFlJ1yfidXhwEYY284Anoq_iEsOeMMVCupzNhX22tB" \
           -H "X-User-Id: hw5DThnhQmxDWnavu" \
           -H "Content-type: application/json" \
-          http://localhost:3000/api/v1/directory?query={"text": "rocket", "type": "users"}
+          http://localhost:3000/api/v1/directory \
+          --data-urlencode 'query={"text": "rocket", "type": "users"}'
 ```
+
 
 ## Example Result
 
