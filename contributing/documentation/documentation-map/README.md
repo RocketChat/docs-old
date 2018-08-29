@@ -416,6 +416,10 @@ Here you can also find what articles are incomplete and missing.
         - Colors
         - Components
         - Themes
+        - GraphQL API:
+            - Authentication
+            - Schema
+            - Subscription
 - Bots:
     - Bots FAQ
     - Bots Architecture

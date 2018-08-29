@@ -6,6 +6,7 @@
 - [Branches and Releases](branches-and-releases/)
 - [Livechat API](livechat-api/)
 - [REST API](rest-api/)
+- [GraphQL API](graphql-api/)
 - [Iframe Integration](iframe-integration/)
 - [Realtime API](realtime-api/)
 - [Testing](testing/)
