@@ -18,7 +18,6 @@ curl -G -H "X-Auth-Token: ijFlJ1yfidXhwEYY284Anoq_iEsOeMMVCupzNhX22tB" \
           --data-urlencode 'query={"text": "rocket", "type": "users"}'
 ```
 
-
 ## Example Result
 
 ```json
