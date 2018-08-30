@@ -254,6 +254,7 @@
         - removeOwner
         - rename
         - roles
+        - setAnnouncement
         - setCustomFields
         - setDefault
         - setDescription
