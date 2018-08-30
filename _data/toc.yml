@@ -303,6 +303,7 @@
         - removeOwner
         - rename
         - roles
+        - setAnnouncement
         - setCustomFields
         - setDescription
         - setPurpose
