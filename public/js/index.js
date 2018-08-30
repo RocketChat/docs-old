@@ -77,6 +77,14 @@ const throttle = (func, limit) => {
   }
 }
 
+function checkTocOffset() {
+  if($('.article-toc-wrapper').offset().top + $('.article-toc-wrapper').height() >= $('.app-footer').offset().top - 10) {
+    $('.article-toc-wrapper').css('position', 'absolute');
+  } else if($(document).scrollTop() + window.innerHeight < $('.app-footer').offset().top){
+    $('.article-toc-wrapper').css('position', 'fixed'); // restore when you scroll up
+  }
+}
+
 $(document).ready(function() {
 
   scroll_toc(window.location.pathname);
@@ -128,6 +136,7 @@ $(document).ready(function() {
 
 
     $(window).on('resize scroll', throttle(function() {
+        checkTocOffset();
         $('.content h2').each(function () {
           var currentActive = 'a[href="#' + $(this)[0].id + '"]'
           if ($(this).isInViewport()) {
