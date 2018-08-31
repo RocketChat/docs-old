@@ -249,6 +249,7 @@
         - list.joined
         - list
         - members
+        - moderators
         - open
         - removeModerator
         - removeOwner
@@ -299,6 +300,7 @@
         - leave
         - list
         - listAll
+        - moderators
         - open
         - removeModerator
         - removeOwner

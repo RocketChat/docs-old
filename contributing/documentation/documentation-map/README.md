@@ -277,6 +277,7 @@ Here you can also find what articles are incomplete and missing.
             - list.joined
             - list
             - members
+            - moderators
             - open
             - removeModerator
             - removeOwner
@@ -329,6 +330,7 @@ Here you can also find what articles are incomplete and missing.
             - list
             - listAll
             - <span class="missing">[members](../missing-and-outdated-list/index.html#groupsmembers)</span>
+            - moderators
             - open
             - removeModerator
             - removeOwner
