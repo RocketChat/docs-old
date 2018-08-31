@@ -193,7 +193,7 @@ Install supervisor service
 yum install supervisor
 ```
 
-Write a startup script, 
+Write a startup script
 
 ```
 vim /opt/Rocket.Chat/start.sh
@@ -209,6 +209,7 @@ export ROOT_URL=http://your-host-name.com-as-accessed-from-internet:3000/
 export MONGO_URL=mongodb://localhost:27017/rocketchat
 node /opt/Rocket.Chat/main.js
 ```
+
 Give script execution permission
 
 ```
@@ -231,7 +232,7 @@ user=root
 Start service
 
 ```
-service supervisord start 
+service supervisord start
 chkconfig supervisord on
 ```
 
