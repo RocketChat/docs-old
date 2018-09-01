@@ -1,17 +1,19 @@
 # Integrations
 
-Rocket.Chat supports WebHooks to integrate tools and services you like into the platform. WebHooks are simple event-notifications via HTTP POST. This way any application implementing a WebHook is able to POST a message to a Rocket.Chat instance.
+Rocket.Chat supports WebHooks to integrate tools and services you like into the platform. WebHooks are simple event-notifications via HTTP POST. This way any application implementing a WebHook is able to POST a message to a Rocket.Chat instance and much more.
+
+With Scripts you can point any WebHook to Rocket.Chat and process the request to print customized messages, define the username and avatar of the user of the message and change the channel where the message will be posted or you can cancel the request to prevent undesired messages.
 
 Available integrations:
 
-* Incoming WebHook → send messages from a service into Rocket.Chat
-* Outgoing WebHook → Let Rocket.Chat react to a trigger and optionally send a request to a service and process the response
+* Incoming WebHook → Let an external service send a request to Rocket.Chat to be processed.
+* Outgoing WebHook → Let Rocket.Chat trigger and optionally send a request to an external service and process the response.
 
-WebHooks are handled by *ES2015 / ECMAScript 6* scripts. A WebHook is designed to post a message only. The »message« is part of a JSON structure, which has the same format as described in the API documentation on how to [“Post a chat message”](/6.%20Developer%20Guides/REST%20API/Chat/postMessage.md). It is not possible to trigger any other event with a WebHook (eg. “Create a new channel”). Use the [REST API](/6.%20Developer%20Guides/REST%20API/) for such use cases.
+By default the WebHooks is designed to post a message only. The *message* is part of a JSON structure, which has the same format as described in the API documentation on how to [“Post a chat message”](/6.%20Developer%20Guides/REST%20API/Chat/postMessage.md). 
 
 ## Incoming WebHook Scripting
 
-Incoming WebHook are triggered from external services. You can point any WebHook to Rocket.Chat and let a *Script* process the request to print a customized messages or cancel the request to prevent undesired messages.
+WebHooks can be handled by *ES2015 / ECMAScript 6* scripts to process the request, to print a customized messages or cancel the request to prevent undesired messages.
 
 ### How to create a new Incoming WebHook
 
