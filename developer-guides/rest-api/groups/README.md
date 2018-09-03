@@ -18,6 +18,7 @@
 | `/api/v1/groups.leave` | Removes the calling user from the private group. | [Link](leave/) |
 | `/api/v1/groups.list` | List the private groups the caller is part of. | [Link](list/) |
 | `/api/v1/groups.listAll` | List all the private groups. | [Link](listall/) |
+| `/api/v1/groups.members`  | Gets the users of participants of a private group. | [Link](members/) |
 | `/api/v1/groups.open` | Adds the private group back to the list of groups. | [Link](open/) |
 | `/api/v1/groups.removeModerator` | Removes the role of moderator from a user in a group. | [Link](removemoderator/) |
 | `/api/v1/groups.removeOwner` | Removes the role of owner from a user in a group. | [Link](removeowner/) |

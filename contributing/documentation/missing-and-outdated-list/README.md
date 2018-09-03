@@ -114,14 +114,6 @@ Create a guide on how to create custom oauth apps.
 
 Create a guide on how to use Rocket.Chat as an Oauth provider.
 
-## channels.members
-
-Create documentation on how the `channels.members` REST API endpoint works
-
-## groups.members
-
-Create documentation on how the `groups.members` REST API endpoint works
-
 ## Oauth2 O365
 
 Create documentation on how to use oauth2 o365 authentication service with Rocket.Chat. You can find info on this issue <https://github.com/RocketChat/Rocket.Chat/issues/6809>
