@@ -126,14 +126,6 @@ Create documentation on how the `groups.members` REST API endpoint works
 
 Create documentation on how to use oauth2 o365 authentication service with Rocket.Chat. You can find info on this issue <https://github.com/RocketChat/Rocket.Chat/issues/6809>
 
-## channels.delete
-
-Create documentation on how the `channels.delete` REST API endpoint works
-
-## groups.delete
-
-Create documentation on how the `groups.delete` REST API endpoint works
-
 ## Custom Fields
 
 Create documentation on how to add custom fields to Rocket.Chat and how they work.
