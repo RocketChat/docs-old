@@ -103,8 +103,7 @@ Here you can also find what articles are incomplete and missing.
     - Messaging
     - Channel Actions
     - Managing your Account
-    - <span class="incomplete">[Voice and Video Calls](../missing-and-outdated-list/index.html#voice-and-video-calls)</span>
-    - <span class="missing">[ScreenSharing](../missing-and-outdated-list/index.html#screensharing)</span>
+    - Voice and Video Calls
 - Administrator guides:
     - Account Settings
     - <span class="missing">[Analytics](../missing-and-outdated-list/index.html#analytics)</span>
@@ -247,6 +246,9 @@ Here you can also find what articles are incomplete and missing.
             - sendMessageLivechat
             - sendOfflineMessage
         - Rest API:
+        - Assets:
+            - setAsset
+            - unsetAsset
         - Authentication:
             - facebook
             - forgotPassword
@@ -274,13 +276,15 @@ Here you can also find what articles are incomplete and missing.
             - leave
             - list.joined
             - list
-            - <span class="missing">[members](../missing-and-outdated-list/index.html#channelsmembers)</span>
+            - members
             - open
             - removeModerator
             - removeOwner
             - rename
             - roles
+            - setAnnouncement
             - setCustomFields
+            - setDefault
             - setDescription
             - setJoinCode
             - setPurpose
@@ -345,7 +349,7 @@ Here you can also find what articles are incomplete and missing.
             - history
             - list.everyone
             - list
-            - <span class="missing">[members](../missing-and-outdated-list/index.html#immembers)</span>
+            - members
             - messages.others
             - open
             - setTopic
@@ -363,6 +367,9 @@ Here you can also find what articles are incomplete and missing.
             - spotlight
             - statistics
             - statistics.list
+        - Permissions:
+            - list
+            - update
         - Rooms:
             - cleanHistory
             - favorite
@@ -382,22 +389,27 @@ Here you can also find what articles are incomplete and missing.
             - create
             - createToken
             - delete
+            - deleteOwnAccount
             - forgotPassword
+            - generatePersonalAccessToken
             - getAvatar
+            - getPersonalAccessTokens
             - getPresence
-            - getPreferences
+            - get-preferences
             - getUsernameSuggestion
             - info
             - list
+            - regeneratePersonalAccessToken
             - register
+            - removePersonalAccessToken
             - resetAvatar
             - setAvatar
-            - setPreferences
+            - set-preferences
             - update
             - updateOwnBasicInfo
         - Offset and Count and Sort Info
-        - Permissions
         - Query and Fields Info
+        - Personal Access Tokens
         - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
         - <span class="incomplete">[Testing](../missing-and-outdated-list#Testing)</span>
         - Troubleshooting

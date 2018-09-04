@@ -9,7 +9,7 @@ If you are a server administrator, here are a few guides on how to setup your in
 - [File Upload](file-upload/)
 - [Import](import/)
 - [Integrations](integrations/)
-- [Jitsi Video Bridge](jitsi-video-bridge/)
+- [Setting up Video Conferencing](setting-up-video-conferencing/)
 - [Livechat](livechat/)
 - [Notifications](notifications/)
 - [Permissions](permissions/)

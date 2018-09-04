@@ -82,7 +82,7 @@
   - Messaging
   - Channel Actions
   - Managing your Account
-  - Voice and Video Calls
+  - Voice and Video Conferencing
 - Administrator guides:
   - Account Settings
   - Authentication:
@@ -137,9 +137,13 @@
     - Travis CI
     - Trello
     - Uptime Robot
-  - Jitsi Video Bridge
+  - Google Cloud:
+    - Auto Translate
+  - Google Drive
+  - Setting Up Video Conferencing
   - Livechat:
     - Livechat Queues
+    - Omnichannel Integration
   - Notifications:
     - Push Notifications
   - Permissions
@@ -148,6 +152,7 @@
     - Pidgin
   - Create the First Admin
   - Restoring an Admin
+  - Retention Policies
   - Settings Via Env Vars
   - Youtube Broadcasting
 - Developer guides:
@@ -202,8 +207,10 @@
         - Save Room Settings
       - Subscriptions:
         - Stream Notify All
+        - Stream Notify Logged
         - Stream Notify User
         - Stream Notify Room
+        - Stream Notify Room Users
         - Stream Room Messages
       - The Message Object
       - The Room Object
@@ -213,6 +220,9 @@
         - sendMessageLivechat
         - sendOfflineMessage
     - Rest API:
+      - Assets:
+        - setAsset
+        - unsetAsset
       - Authentication:
         - facebook
         - google
@@ -238,12 +248,15 @@
         - leave
         - list.joined
         - list
+        - members
         - open
         - removeModerator
         - removeOwner
         - rename
         - roles
+        - setAnnouncement
         - setCustomFields
+        - setDefault
         - setDescription
         - setJoinCode
         - setPurpose
@@ -306,6 +319,7 @@
         - history
         - list.everyone
         - list
+        - members
         - messages.others
         - open
         - setTopic
@@ -323,6 +337,9 @@
         - spotlight
         - statistics
         - statistics.list
+      - Permissions:
+        - list
+        - update
       - Rooms:
         - cleanHistory
         - favorite
@@ -345,22 +362,27 @@
         - create
         - createToken
         - delete
+        - deleteOwnAccount
         - forgotPassword
+        - generatePersonalAccessToken
         - getAvatar
+        - getPersonalAccessTokens
         - getPresence
         - get-preferences
         - getUsernameSuggestion
         - info
         - list
+        - regeneratePersonalAccessToken
         - register
+        - removePersonalAccessToken
         - resetAvatar
         - setAvatar
         - set-preferences
         - update
         - updateOwnBasicInfo
       - Offset and Count and Sort Info
-      - Permissions
       - Query and Fields Info
+      - Personal Access Tokens
     - Schema Definition
     - Testing
     - Troubleshooting

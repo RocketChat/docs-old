@@ -2,7 +2,7 @@
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/logout` | `yes` | `GET` |
+| `/api/v1/logout` | `yes` | `POST` |
 
 ## Example Call
 

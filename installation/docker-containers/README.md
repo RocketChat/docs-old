@@ -158,9 +158,9 @@ sudo apt-get install nginx
 
 ### 5a. Using a commercial SSL cert (recommended)
 
-If don't have a certificate you can grab one for free at [Let's Encrypt](https://letsencrypt.org/).
+If you don't have a certificate already, you can grab one for free at [Let's Encrypt](https://letsencrypt.org/).
 
-Of if you want to use a self-signed SSL cert instead, skip this part and continue at [Self-Signed SSL](#5b-self-signed-ssl) below.
+Or, if you want to use a self-signed SSL cert instead, skip ahead to [Self-Signed SSL](#5b-self-signed-ssl).
 
 **Install the private key (created when you generated the CSR):**
 
@@ -186,7 +186,7 @@ Save and Exit.
 
 ### 5b. Self-Signed SSL
 
-If you bought an SSL cert and installed it via the steps above, skip this step.
+If you bought a SSL cert and installed it via the steps above, skip this step.
 
 **Create and install a self-signed SSL certificate:**
 
@@ -196,7 +196,7 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/cert
 
 **Follow the prompts.**
 
-Tip: It is important that the Common Name be set properly. Enter your fully qualified domain name (FQDN) here or, if you don’t have FQDN, use your public IP address. For example, my FQDN for the chat server is `chat.inumio.com`
+Tip: It is **IMPORTANT** that the **Common Name** be set properly. Enter your fully qualified domain name (FQDN) here or, if you don’t have a FQDN, use your public IP address. For example, my FQDN for the chat server is `chat.inumio.com`.
 
 Save and Exit.
 
@@ -310,7 +310,7 @@ rocketchat:
     - 3000:3000
 
 hubot:
-  image: rocketchat/hubot-rocketchat:v0.1.4
+  image: rocketchat/hubot-rocketchat:latest
   environment:
     - ROCKETCHAT_URL=165.114.165.21:3000
     - ROCKETCHAT_ROOM=GENERAL
@@ -455,19 +455,13 @@ No worries! In order to get your bot up and running, we must register it…
 
 ## 9. Registering & Configuring Hubot, the chat robot
 
-Previously, we created the docker-compose.yml file. It's this file where we defined the basic attributes for Hubot. We set the bot name, password, room to join, and scripts to run. Before the bot can join the chat room, we must manually register the bot using the configuration details we provided in docker-compose.yml. Log out, if you're logged in to the chat room.
+Previously, we created the docker-compose.yml file. It's this file where we defined the basic attributes for Hubot. We set the bot name, password, room to join, and scripts to run. Before the bot can join the chat room, we must manually create the bot using the configuration details we provided in docker-compose.yml.
 
-Browse to the chat room login page, and click the link to register a new account. This time, you must register an account for your bot to use.
+<https://github.com/RocketChat/hubot-rocketchat#creating-a-user-on-the-server>
 
-Name: use the value you specified for ROCKETCHAT_USER
-Email: if you plan to enable new account email verification, be sure to use a valid email here
-Password:  use the value you specified for ROCKETCHAT_PASSWORD
+You can now optionally login and set some of the preferences, such as bot avatar. When finished, log out of the bot account.
 
-When prompted in the next screen to specify a name for @ mentions, use the value you specified for BOT_NAME.
-
-Once you're logged in with the new bot account, you can go ahead and set some of the preferences, such as bot avatar. When finished, log out of the bot account.
-
-With the bot account registered, you can force it to join by simply rebooting the server, upon which the init script should automatically launch your chat room, and the bot should join the “General” room.
+With the bot account created, you can force it to join by simply rebooting the server, upon which the init script should automatically launch your chat room, and the bot should join the “General” room.
 
 For basic command help, in the chat message box, type BOTNAME help (where BOTNAME is your bot's name).
 

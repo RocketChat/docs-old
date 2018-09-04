@@ -53,7 +53,7 @@ export ROCKETCHAT_URL=myserver.com
 export ROCKETCHAT_USER=mybotuser
 export ROCKETCHAT_PASSWORD=mypassword
 export ROCKETCHAT_ROOM=general
-export ROCKETCHAT_USESSL=true
+export ROCKETCHAT_USE_SSL=true
 ```
 
 Adjust the content to fit your server and user credentials. Make sure `mybotuser`

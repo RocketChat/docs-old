@@ -1,5 +1,7 @@
 # Method: `livechat:sendOfflineMessage`
 
-## DDP Message
+## DDP message
 
-## Reponse
+```json
+{"msg":"method","method":"livechat:sendOfflineMessage","params":[{"name":"Visitor Name","email":"visitor@rocket.chat","message":"Hello!"}],"id":"3"}"
+```
