@@ -219,6 +219,7 @@
         - registerGuest
         - sendMessageLivechat
         - sendOfflineMessage
+        - streamlivechatroom
     - Rest API:
       - Assets:
         - setAsset
