@@ -41,16 +41,64 @@ function addAnchors(path) {
   });
 }
 
+$.fn.isInViewport = function() {
+  if (this === undefined){
+    return;
+  }
+  var elementTop = $(this).offset().top;
+  var elementBottom = elementTop + $(this).outerHeight();
+
+  var viewportTop = $(window).scrollTop();
+  var viewportBottom = viewportTop + $(window).height();
+
+  return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+
+function addTocLevels () {
+  $('.toc .active').addClass(function (index) {
+    return " level-"+index;
+  });
+
+  $('.toc li[class*="level"]:not(.active)').removeClass(function () {
+    return " level-0 level-1 level-2 level-3";
+  });
+}
+
+const throttle = (func, limit) => {
+  let inThrottle
+  return function() {
+    const args = arguments
+    const context = this
+    if (!inThrottle) {
+      func.apply(context, args)
+      inThrottle = true
+      setTimeout(() => inThrottle = false, limit)
+    }
+  }
+}
+
+function checkTocOffset() {
+  if($('.article-toc-wrapper').offset().top + $('.article-toc-wrapper').height() >= $('.app-footer').offset().top - 10) {
+    $('.article-toc-wrapper').css('position', 'absolute');
+  } else if($(document).scrollTop() + window.innerHeight < $('.app-footer').offset().top){
+    $('.article-toc-wrapper').css('position', 'fixed'); // restore when you scroll up
+  }
+}
+
 $(document).ready(function() {
 
   scroll_toc(window.location.pathname);
 
+  $('#my_toc li:first-child a').addClass(' active');
+
   var path = (location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") ? '/docs/' : '/';
 
-  console.log(location);
+  addTocLevels();
 
 
   if(location.pathname !== '/' && location.pathname !== '/docs/'){
+
+
 
     var app = new senna.App();
 
@@ -68,7 +116,13 @@ $(document).ready(function() {
     });
 
     app.on('endNavigate', function(event) {
+
       addAnchors(path);
+
+      addTocLevels();
+
+      $('#my_toc li:first-child a').addClass(' active');
+
       $('table:not(.table-wrapper table)').wrap( "<div class='table-wrapper'></div>" );
 
       var hash = event.path.indexOf('#');
@@ -79,5 +133,24 @@ $(document).ready(function() {
         $('#content').scrollTop(0);
       }
     });
+
+
+    $(window).on('resize scroll', throttle(function() {
+        checkTocOffset();
+        $('.content h2').each(function () {
+          var currentActive = 'a[href="#' + $(this)[0].id + '"]'
+          if ($(this).isInViewport()) {
+            if ($(currentActive)){
+              $('.article-toc-wrapper a').removeClass(' active')
+              $(currentActive).addClass(' active');
+              return false;
+            }
+          }
+        });
+    }, 70));
+
+    $('#my_toc li').on('click', function () {
+      $(this).addClass(' active');
+    })
   }
 });
