@@ -328,7 +328,7 @@ Here you can also find what articles are incomplete and missing.
             - leave
             - list
             - listAll
-            - <span class="missing">[members](../missing-and-outdated-list/index.html#groupsmembers)</span>
+            - members
             - open
             - removeModerator
             - removeOwner

@@ -301,6 +301,7 @@
         - leave
         - list
         - listAll
+        - members
         - open
         - removeModerator
         - removeOwner
