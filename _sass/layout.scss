@@ -670,6 +670,10 @@ td > code {
     border: none;
   }
 
+  .article-toc-wrapper{
+    display: none;
+  }
+
   .home-hero{
     background-size: 250% auto;
     background-position: center bottom;
@@ -692,6 +696,11 @@ td > code {
 
   .search.home {
     width: 100%;
+  }
+
+  .content .wrapper{
+    width: 95%;
+    margin: 0 auto;
   }
 
   .mobile-search {
