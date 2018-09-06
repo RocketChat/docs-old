@@ -239,6 +239,7 @@
         - close
         - counters
         - create
+        - delete
         - files
         - getAllUserMentionsByChannel
         - getIntegrations
@@ -291,6 +292,7 @@
         - close
         - counters
         - create
+        - delete
         - files
         - getIntegrations
         - history
@@ -300,6 +302,7 @@
         - leave
         - list
         - listAll
+        - members
         - open
         - removeModerator
         - removeOwner
