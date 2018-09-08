@@ -15,6 +15,21 @@ Application has closed for the GSoC 2018 season.
 
 UPDATE September 8, 2018 -  
 
+The final list of successful 2018 GSoC Rocket.Chat projects and students/mentors are now available [officially](https://summerofcode.withgoogle.com/organizations/6355544806260736/).
+
+Our own final tabulation of the status for GSoC projects:
+
+|Status|Student|Project|Mentors|
+|-------|-------|-------|-------|
+|PASS|Mikael Mello|Improve the integration of bots on Rocket.Chat|Tim Kinnane, Diego Dorgam|
+|PASS|Aniket Singh|Android and wear app|Fiipe Brito, Lucio Maciel|
+|PASS|Jose Renan|Rocket.Chat SDK for Javascript Clients|Guilherme Gazzo, Diego Sampaio, Renato Becker|
+|PASS|Semih Serhat Karakaya|Nextcloud as Storage and User File Provider|Guilherme Gazzo|
+|PASS|Karan Bedi|Rocket.Chat voice recognition APIs and built-in Speech2Text Engine integration|Pierre Lehnen, Rodrigo Nascimento|
+|PASS|Nikhil Kaushik|Integration with Google Drive and Dropbox|Marcelo Schmidt, Martin Schoeler|
+|PASS|Samar Sunkaria|Support for theming the Rocket.Chat iOS app|Matheus Cardoso, Filipe Alvarenga|
+|WITHDREW|De Sheng Chuan|Data integrity and consistency|Diego Sampaio, Rodrigo Nascimento, Sing Li|
+
 August 20, 2018 update - This final term has been a term of changes. One good student - who had been doing great work up to this third term- had health issue, been hospitalized, and is unable to complete his project. Upon advise from GSoC admin, he withdrew from the project and may resume outside of GSoC upon his recovery. The "turn around projects" in the second term continued to show major improvement this term - due mainly to the effort of the affected studetns.  Mentor and students are busy this term wrapping up their work, preparing for GSoC final evaluation requirements, plus scheduling presentation of their completed work to the larger Rocket.Chat team.    Many of the presentations are recorded and are available [here](https://youtu.be/pnz2LCtCeMM), [here](https://www.youtube.com/watch?v=nlsTyJZbKSM), [here](https://www.youtube.com/watch?v=kuDlwnlX67k) and [here](https://ufile.io/jvmbh).  One of our student actually ended up presenting his work at a professional conference [here](https://cfp.owncloud.com/occon18/talk/3CD7VT/).  As a final result, for 2018, one out of our eight GSoC students has withdrew, and mentors gave final pass to the other seven GSoC projects.  Of the four indepedently funded projects, three passed and one failed (student disappearance).  We congratulate the students and mentors on their acheivement and sincerely hope all students have enough of a taste of open source (and Rocket.Chat in particular) to continue on their life-long open source contribution as they embark on their next phase of personal development. We continue to work through the backlogs of GSoC project stories this term.  
 
 July 15, 2018 update - Mentors and students continued to work towards their objectives during this second evaluation period.  Due to internal organizational staff changes and other orgnanization operational factors, three problematic projects were identified during this period.  Extensive administrative intervention and turn-around was necessary to "salvage" these projects.   Thankfully, the GSoC students  worked with us every step of the way - as we re-assign mentors and re-align mutually agreed project scope.  As a result, the (new in some cases) project mentors have decided to pass all enrolled students - both GSoC and independently funded projects for this term.  Internally, the projects blog work is significantly behind, we are working to catch up as soon as possible.
