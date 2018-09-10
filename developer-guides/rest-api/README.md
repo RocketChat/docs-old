@@ -176,6 +176,14 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/permissions.list`   | Lists permissions on the server. | [Link](permissions/list/)   |
 | `/api/v1/permissions.update` | Edits permissions on the server. | [Link](permissions/update/) |
 
+### Roles
+
+| Url                          | Short Description                | Details Page                |
+| :--------------------------- | :------------------------------- | :-------------------------- |
+| `/api/v1/roles.create`   | Create a new role in the system. | [Link](roles/create/)   |
+| `/api/v1/roles.list` | Gets all the roles in the system. | [Link](roles/list/) |
+| `/api/v1/roles.addUserToRole` | Assign a role to an user. | [Link](roles/addUserToRole/) |
+
 ### Rooms
 
 | Url                              | Short Description                                        | Details Page                    |
