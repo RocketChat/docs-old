@@ -40,3 +40,9 @@ curl -H "Content-type:application/json" \
     "success": true
 }
 ```
+
+## Change Log
+
+| Version | Description |
+| :--- | :--- |
+| 0.70.0 | Added |
