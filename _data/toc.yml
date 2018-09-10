@@ -238,6 +238,7 @@
         - close
         - counters
         - create
+        - delete
         - files
         - getAllUserMentionsByChannel
         - getIntegrations
@@ -254,6 +255,7 @@
         - removeOwner
         - rename
         - roles
+        - setAnnouncement
         - setCustomFields
         - setDefault
         - setDescription
@@ -289,6 +291,7 @@
         - close
         - counters
         - create
+        - delete
         - files
         - getIntegrations
         - history
@@ -298,6 +301,7 @@
         - leave
         - list
         - listAll
+        - members
         - open
         - removeModerator
         - removeOwner

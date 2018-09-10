@@ -80,6 +80,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.close`                      | Removes a channel from a user's list of channels.           | [Link](channels/close/)                         |
 | `/api/v1/channels.counters`                   | Gets channel counters.                                      | [Link](channels/counters/)                      |
 | `/api/v1/channels.create`                     | Creates a new channel.                                      | [Link](channels/create/)                        |
+| `/api/v1/channels.delete`                     | Removes a channel.                                           | [Link](channels/delete/)                       |
 | `/api/v1/channels.files`                      | Gets a list of files from a channel.                        | [Link](channels/files/)                         |
 | `/api/v1/channels.getAllUserMentionsByChannel`| Gets all the mentions of a channel.                         | [Link](channels/getallusermentionsbychannel/)   |
 | `/api/v1/channels.getIntegrations`            | Gets the channel's integration.                             | [Link](channels/getintegrations/)               |
@@ -113,6 +114,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.close`           | Removes a private group from the list of groups.   | [Link](groups/close/)          |
 | `/api/v1/groups.counters`        | Gets group counters.                               | [Link](groups/counters/)       |
 | `/api/v1/groups.create`          | Creates a new private group.                       | [Link](groups/create/)         |
+| `/api/v1/groups.delete`          | Removes a private group.                           | [Link](groups/delete/)         |
 | `/api/v1/groups.files`           | Gets a list of files from a private group.         | [Link](groups/files/)          |
 | `/api/v1/groups.history`         | Retrieves the messages from a private group.       | [Link](groups/history/)        |
 | `/api/v1/groups.info`            | Gets the information about a private group.        | [Link](groups/info/)           |
@@ -121,6 +123,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.leave`           | Removes the calling user from the private group.   | [Link](groups/leave/)          |
 | `/api/v1/groups.list`            | List the private groups the caller is part of.     | [Link](groups/list/)           |
 | `/api/v1/groups.listAll`         | List all the private groups.                       | [Link](groups/listall/)        |
+| `/api/v1/groups.members`         | Gets the users of participants of a private group. | [Link](groups/members/)        |
 | `/api/v1/groups.open`            | Adds the private group back to the list of groups. | [Link](groups/open/)           |
 | `/api/v1/groups.rename`          | Changes the name of the private group.             | [Link](groups/rename/)         |
 | `/api/v1/groups.roles`           | Gets the user's roles in the private group.        | [Link](groups/roles/)          |

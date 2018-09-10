@@ -1,7 +1,7 @@
 
 function moveToC(){
     var viewportWidth = window.innerWidth;
-    if (viewportWidth < 1000) {
+    if (viewportWidth < 1200) {
         $('.toc').appendTo($('.toc-sidebar'));
     } else {
         $('.ui.sidebar').sidebar('hide');
@@ -11,7 +11,7 @@ function moveToC(){
 
 function moveSearch(){
     var viewportWidth = window.innerWidth;
-    if (viewportWidth < 1000) {
+    if (viewportWidth < 1200) {
         $('.search.docs').appendTo($('.mobile-search'));
     } else {
         $('.ui.sidebar').sidebar('hide');
