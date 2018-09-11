@@ -328,6 +328,7 @@
         - setTopic
       - Integration:
         - create
+        - history
         - list
         - remove
       - Livechat:
