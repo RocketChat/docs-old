@@ -461,7 +461,7 @@ main.home {
 .article-toc-wrapper{
   width: 30%;
   position: fixed;
-  left: 70%;
+  left: 75vw;
   .inline_toc {
     border-left: 2px solid #ddd;
     font-size: 13px;
@@ -821,6 +821,9 @@ h6:hover .header-link {
 
     color: white;
     text-align: center;
+  }
+  .article-toc-wrapper{
+    left: 70vw;
   }
 }
 

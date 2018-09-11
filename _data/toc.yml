@@ -328,6 +328,7 @@
         - setTopic
       - Integration:
         - create
+        - history
         - list
         - remove
       - Livechat:
@@ -337,6 +338,7 @@
       - Miscellaneous:
         - directory
         - info
+        - shield.svg
         - spotlight
         - statistics
         - statistics.list
