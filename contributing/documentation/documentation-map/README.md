@@ -364,6 +364,7 @@ Here you can also find what articles are incomplete and missing.
         - Miscellaneous:
             - directory
             - info
+            - shield.svg
             - spotlight
             - statistics
             - statistics.list
