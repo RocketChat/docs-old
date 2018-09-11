@@ -169,6 +169,15 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/im.open`            | Adds the direct message back to the list of direct messages.  | [Link](im/open/)            |
 | `/api/v1/im.setTopic`        | Sets a direct message topic.                                  | [Link](im/settopic/)        |
 
+### Integrations
+
+| Url                            | Short Description                                             | Details Page                |
+| :----------------------------- | :------------------------------------------------------------ | :-------------------------- |
+| `/api/v1/integrations.create`  | Creates an integration.                                       | [Link](integration/create/) |
+| `/api/v1/integrations.history` | Lists all history of the specified integration.               | [Link](integration/history/)|
+| `/api/v1/integrations.list`    | Lists all of the integrations.                                | [Link](integration/list/)   |
+| `/api/v1/integrations.remove`  | Removes an integration.                                       | [Link](integration/remove/) |
+
 ### Permissions
 
 | Url                          | Short Description                | Details Page                |
