@@ -186,6 +186,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/permissions.list`   | Lists permissions on the server. | [Link](permissions/list/)   |
 | `/api/v1/permissions.update` | Edits permissions on the server. | [Link](permissions/update/) |
 
+### Push Token
+
+| Url | Method | Short Description | Details Page |
+| :--- | :--- | :--- | :--- |
+| `/api/v1/push.token`              | `POST`    | Saves push token.                 | [Link](push/push-token/)       |
+| `/api/v1/push.token`              | `DELETE`  | Removes push token.               | [Link](push/deletePushToken/)  |
+
 ### Rooms
 
 | Url                              | Short Description                                        | Details Page                    |
