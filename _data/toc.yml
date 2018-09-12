@@ -345,6 +345,10 @@
       - Permissions:
         - list
         - update
+      - Roles:
+        - create
+        - list
+        - addUserToRole
       - Push:
         - push.token
         - deletePushToken

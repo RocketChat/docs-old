@@ -372,6 +372,10 @@ Here you can also find what articles are incomplete and missing.
         - Permissions:
             - list
             - update
+        - Roles:
+            - create
+            - list
+            - addUserToRole
         - Push:
             - push.token
             - deletePushToken
