@@ -265,7 +265,7 @@ Here you can also find what articles are incomplete and missing.
             - close
             - counters
             - create
-            - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
+            - delete
             - files
             - getAllUserMentionsByChannel
             - getIntegrations
@@ -318,7 +318,7 @@ Here you can also find what articles are incomplete and missing.
             - close
             - counters
             - create
-            - <span class="missing">[delete](../missing-and-outdated-list/index.html#groupsdelete)</span>
+            - delete
             - files
             - getIntegrations
             - history
@@ -328,7 +328,7 @@ Here you can also find what articles are incomplete and missing.
             - leave
             - list
             - listAll
-            - <span class="missing">[members](../missing-and-outdated-list/index.html#groupsmembers)</span>
+            - members
             - open
             - removeModerator
             - removeOwner
@@ -355,6 +355,7 @@ Here you can also find what articles are incomplete and missing.
             - setTopic
         - Integration:
             - create
+            - history
             - list
             - remove
         - Livechat:
@@ -364,12 +365,20 @@ Here you can also find what articles are incomplete and missing.
         - Miscellaneous:
             - directory
             - info
+            - shield.svg
             - spotlight
             - statistics
             - statistics.list
         - Permissions:
             - list
             - update
+        - Roles:
+            - create
+            - list
+            - addUserToRole
+        - Push:
+            - push.token
+            - deletePushToken
         - Rooms:
             - cleanHistory
             - favorite

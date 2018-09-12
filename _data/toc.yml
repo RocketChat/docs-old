@@ -238,6 +238,7 @@
         - close
         - counters
         - create
+        - delete
         - files
         - getAllUserMentionsByChannel
         - getIntegrations
@@ -290,6 +291,7 @@
         - close
         - counters
         - create
+        - delete
         - files
         - getIntegrations
         - history
@@ -299,6 +301,7 @@
         - leave
         - list
         - listAll
+        - members
         - open
         - removeModerator
         - removeOwner
@@ -325,6 +328,7 @@
         - setTopic
       - Integration:
         - create
+        - history
         - list
         - remove
       - Livechat:
@@ -334,12 +338,20 @@
       - Miscellaneous:
         - directory
         - info
+        - shield.svg
         - spotlight
         - statistics
         - statistics.list
       - Permissions:
         - list
         - update
+      - Roles:
+        - create
+        - list
+        - addUserToRole
+      - Push:
+        - push.token
+        - deletePushToken
       - Rooms:
         - cleanHistory
         - favorite

@@ -11,6 +11,7 @@ These methods apply to public channels only. Use `groups.*` methods for private 
 | `/api/v1/channels.close` | Removes a channel from a user's list of channels. | [Link](close/) |
 | `/api/v1/channels.counters` | Gets channel counters. | [Link](counters/) |
 | `/api/v1/channels.create` | Creates a new channel. | [Link](create/) |
+| `/api/v1/channels.delete` | Removes a channel. | [Link](delete/)  |
 | `/api/v1/channels.getAllUserMentionsByChannel`| Gets all the mentions of a channel. | [Link](getallusermentionsbychannel/)   |
 | `/api/v1/channels.files` | Gets a list of files from a channel. | [Link](files/) |
 | `/api/v1/channels.getIntegrations` | Gets the channel's integration. | [Link](getintegrations/)
