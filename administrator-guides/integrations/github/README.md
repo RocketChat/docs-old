@@ -132,7 +132,7 @@ const githubEvents = {
       }
     };
   },
-  
+
  /* COMMENT ON COMMIT */
 commit_comment(request) {
     const user = request.content.comment.user;
