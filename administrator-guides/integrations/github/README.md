@@ -133,6 +133,36 @@ const githubEvents = {
     };
   },
 
+ /* COMMENT ON COMMIT */
+commit_comment(request) {
+    const user = request.content.comment.user;
+
+    if (request.content.action == "edited") {
+        var action = "Edited comment ";
+    } else {
+        var action = "Comment "
+    }
+
+    const text = '_' + request.content.repository.full_name + '_\n' +
+                '**[' + action + ' on commit id ' + request.content.comment.commit_id +
+                ' - ' +  + '](' +
+                request.content.comment.html_url + ')**\n\n' +
+                request.content.comment.body;
+
+    return {
+      content: {
+        attachments: [
+            {
+                thumb_url: user.avatar_url,
+                text: text,
+                fields: []
+            }
+        ]
+      }
+    };
+  },
+  /* END OF COMMENT ON COMMIT */
+
   /* PUSH TO REPO */
   push(request) {
     var commits = request.content.commits;
