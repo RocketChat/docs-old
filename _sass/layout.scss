@@ -274,20 +274,20 @@ blockquote {
     }
     .icon {
       margin-top: 0;
-      margin-left: 8px;
+      opacity: 1;
     }
 
     ::-webkit-input-placeholder {
-      color: $grey-dark;
+      color: $grey;
     }
     ::-moz-placeholder {
-      color: $grey-dark;
+      color: $grey;
     }
     :-ms-input-placeholder {
-      color: $grey-dark;
+      color: $grey;
     }
     :-moz-placeholder {
-      color: $grey-dark;
+      color: $grey;
     }
 
   }
@@ -461,7 +461,7 @@ main.home {
 .article-toc-wrapper{
   width: 30%;
   position: fixed;
-  left: 70%;
+  left: 75vw;
   .inline_toc {
     border-left: 2px solid #ddd;
     font-size: 13px;
@@ -562,12 +562,12 @@ main.home {
 }
 
 .home-hero{
-  background: url("./images/default/hero.png");
+  background: url("./images/default/hero.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100% auto;
 
-  min-height: 670px;
+  min-height: 90vh;
   padding: 6em 0;
 
   color: white;
@@ -811,16 +811,19 @@ h6:hover .header-link {
 
 @media all and (min-width: 2000px) {
   .home-hero{
-    background: url("./images/default/hero2x.png");
+    background: url("./images/default/hero2x.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100% auto;
 
-    min-height: 670px;
+    min-height: 80vh;
     padding: 6em 0;
 
     color: white;
     text-align: center;
+  }
+  .article-toc-wrapper{
+    left: 70vw;
   }
 }
 

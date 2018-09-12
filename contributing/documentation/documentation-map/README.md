@@ -355,6 +355,7 @@ Here you can also find what articles are incomplete and missing.
             - setTopic
         - Integration:
             - create
+            - history
             - list
             - remove
         - Livechat:
@@ -364,6 +365,7 @@ Here you can also find what articles are incomplete and missing.
         - Miscellaneous:
             - directory
             - info
+            - shield.svg
             - spotlight
             - statistics
             - statistics.list
@@ -374,6 +376,9 @@ Here you can also find what articles are incomplete and missing.
             - create
             - list
             - addUserToRole
+        - Push:
+            - push.token
+            - deletePushToken
         - Rooms:
             - cleanHistory
             - favorite
