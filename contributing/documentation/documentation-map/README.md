@@ -372,6 +372,9 @@ Here you can also find what articles are incomplete and missing.
         - Permissions:
             - list
             - update
+        - Push:
+            - push.token
+            - deletePushToken
         - Rooms:
             - cleanHistory
             - favorite

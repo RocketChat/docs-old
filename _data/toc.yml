@@ -345,6 +345,9 @@
       - Permissions:
         - list
         - update
+      - Push:
+        - push.token
+        - deletePushToken
       - Rooms:
         - cleanHistory
         - favorite
