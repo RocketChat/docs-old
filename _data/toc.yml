@@ -82,7 +82,7 @@
   - Messaging
   - Channel Actions
   - Managing your Account
-  - Voice and Video Calls
+  - Voice and Video Conferencing
 - Administrator guides:
   - Account Settings
   - Authentication:
@@ -137,9 +137,13 @@
     - Travis CI
     - Trello
     - Uptime Robot
-  - Jitsi Video Bridge
+  - Google Cloud:
+    - Auto Translate
+  - Google Drive
+  - Setting Up Video Conferencing
   - Livechat:
     - Livechat Queues
+    - Omnichannel Integration
   - Notifications:
     - Push Notifications
   - Permissions
@@ -148,6 +152,7 @@
     - Pidgin
   - Create the First Admin
   - Restoring an Admin
+  - Retention Policies
   - Settings Via Env Vars
   - Youtube Broadcasting
 - Developer guides:
@@ -202,8 +207,10 @@
         - Save Room Settings
       - Subscriptions:
         - Stream Notify All
+        - Stream Notify Logged
         - Stream Notify User
         - Stream Notify Room
+        - Stream Notify Room Users
         - Stream Room Messages
       - The Message Object
       - The Room Object
@@ -213,6 +220,9 @@
         - sendMessageLivechat
         - sendOfflineMessage
     - Rest API:
+      - Assets:
+        - setAsset
+        - unsetAsset
       - Authentication:
         - facebook
         - google
@@ -228,6 +238,7 @@
         - close
         - counters
         - create
+        - delete
         - files
         - getAllUserMentionsByChannel
         - getIntegrations
@@ -244,7 +255,9 @@
         - removeOwner
         - rename
         - roles
+        - setAnnouncement
         - setCustomFields
+        - setDefault
         - setDescription
         - setJoinCode
         - setPurpose
@@ -278,6 +291,7 @@
         - close
         - counters
         - create
+        - delete
         - files
         - getIntegrations
         - history
@@ -287,6 +301,7 @@
         - leave
         - list
         - listAll
+        - members
         - open
         - removeModerator
         - removeOwner
@@ -307,11 +322,13 @@
         - history
         - list.everyone
         - list
+        - members
         - messages.others
         - open
         - setTopic
       - Integration:
         - create
+        - history
         - list
         - remove
       - Livechat:
@@ -321,9 +338,20 @@
       - Miscellaneous:
         - directory
         - info
+        - shield.svg
         - spotlight
         - statistics
         - statistics.list
+      - Permissions:
+        - list
+        - update
+      - Roles:
+        - create
+        - list
+        - addUserToRole
+      - Push:
+        - push.token
+        - deletePushToken
       - Rooms:
         - cleanHistory
         - favorite
@@ -346,14 +374,19 @@
         - create
         - createToken
         - delete
+        - deleteOwnAccount
         - forgotPassword
+        - generatePersonalAccessToken
         - getAvatar
+        - getPersonalAccessTokens
         - getPresence
         - get-preferences
         - getUsernameSuggestion
         - info
         - list
+        - regeneratePersonalAccessToken
         - register
+        - removePersonalAccessToken
         - resetAvatar
         - setAvatar
         - set-preferences
@@ -363,6 +396,7 @@
       - Rate Limiter
       - Permissions
       - Query and Fields Info
+      - Personal Access Tokens
     - Schema Definition
     - Testing
     - Troubleshooting

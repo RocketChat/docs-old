@@ -36,16 +36,6 @@ Tell how the GridFS file storage mode works and how to configure it.
 
 Add more updating guides for different environments.
 
-## Voice and Video Calls
-
-Add proper instructions on how to use the video conference tools (both jitsi and WebRTC). Today we only have the requirements to run the WebRTC tool.
-
-Also differentiate jitsi from WebRTC.
-
-## ScreenSharing
-
-Add instructions on how to use screen-sharing.
-
 ## RedHat
 
 This section should be completed with the details on how to install Rocket.Chat on RedHat.
@@ -124,29 +114,9 @@ Create a guide on how to create custom oauth apps.
 
 Create a guide on how to use Rocket.Chat as an Oauth provider.
 
-## channels.members
-
-Create documentation on how the `channels.members` REST API endpoint works
-
-## groups.members
-
-Create documentation on how the `groups.members` REST API endpoint works
-
-## im.members
-
-Create documentation on how the `im.members` REST API endpoint works
-
 ## Oauth2 O365
 
 Create documentation on how to use oauth2 o365 authentication service with Rocket.Chat. You can find info on this issue <https://github.com/RocketChat/Rocket.Chat/issues/6809>
-
-## channels.delete
-
-Create documentation on how the `channels.delete` REST API endpoint works
-
-## groups.delete
-
-Create documentation on how the `groups.delete` REST API endpoint works
 
 ## Custom Fields
 
