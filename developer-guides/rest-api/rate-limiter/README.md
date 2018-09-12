@@ -9,3 +9,9 @@ a property `rateLimiterOptions`, providing `false` if you want disable the RateL
 or by providing a valid configuration object with the desired configuration, in the following format `{numRequestsAllowed: 10, intervalTimeInMS: 60000}`.
 
 The rate limiter is set by default in the development environment and can be disabled in the admin panel in the `Administration -> General -> REST API`.
+
+For requests that are made and **exceed** the limit set by the rate limiter, three extra properties will be sent by the request headers.
+1. `x-ratelimit-limit`: The number of calls allowed for a certain amount of time.
+2. `x-ratelimit-remaining`: The number of requests remaining in the current rate limit window.
+3. `x-ratelimit-reset`: The time at which the current rate limit window resets in [UTC epoch seconds](https://en.wikipedia.org/wiki/Unix_time).
+
