@@ -4,16 +4,16 @@
 
 ```json
 
-{  
+{
     "msg":"sub",
     "id":"6NctZomXL3ZdtKNsn",
     "name":"stream-livechat-room",
-    "params":[  
+    "params":[
         "KTZqPAR9DQGxKcxzf",
-        {  
+        {
             "useCollection":false,
-            "args":[  
-                {  
+            "args":[
+                {
                     "token":"jkGaw6duhiuh45"
                 }
             ]
