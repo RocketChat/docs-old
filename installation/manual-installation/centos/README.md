@@ -51,6 +51,15 @@ The recommended Node.js version for using Rocket.Chat is `8.9.3`. Using _n_ we a
 n 8.9.3
 ```
 
+**Other Way**
+
+There is also a way to install nodejs：
+
+```
+curl --silent --location https://rpm.nodesource.com/setup_8.x | bash -
+yum -y install nodejs
+```
+
 ## Installing Rocket.Chat
 
 Now we download and install Rocket.Chat
@@ -172,6 +181,59 @@ And finally start it by running:
 
 ```
 systemctl start rocketchat.service
+```
+
+**Other Way**
+
+There is also a way to autostart rocketchat:
+
+Install supervisor service
+
+```
+yum install supervisor
+```
+
+Write a startup script
+
+```
+vim /opt/Rocket.Chat/start.sh
+```
+
+Copy this to start.sh
+
+```
+#/bin/bash
+cd /opt/Rocket.Chat/
+export PORT=3000
+export ROOT_URL=http://your-host-name.com-as-accessed-from-internet:3000/
+export MONGO_URL=mongodb://localhost:27017/rocketchat
+node /opt/Rocket.Chat/main.js
+```
+
+Give script execution permission
+
+```
+chmod +x /opt/Rocket.Chat/start.sh
+```
+
+Configuration supervisor
+
+```
+[program:rocketchat]
+command=bash /opt/Rocket.Chat/start.sh
+directory=/opt/Rocket.Chat
+autostart=true
+autorestart=true
+logfile=/var/log/supervisor/rocketchat.log
+log_stderr=true
+user=root
+```
+
+Start service
+
+```
+service supervisord start
+chkconfig supervisord on
 ```
 
 ### Upgrade
