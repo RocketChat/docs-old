@@ -246,6 +246,9 @@ Here you can also find what articles are incomplete and missing.
             - sendMessageLivechat
             - sendOfflineMessage
         - Rest API:
+        - Assets:
+            - setAsset
+            - unsetAsset
         - Authentication:
             - facebook
             - forgotPassword
@@ -262,7 +265,7 @@ Here you can also find what articles are incomplete and missing.
             - close
             - counters
             - create
-            - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
+            - delete
             - files
             - getAllUserMentionsByChannel
             - getIntegrations
@@ -279,6 +282,7 @@ Here you can also find what articles are incomplete and missing.
             - removeOwner
             - rename
             - roles
+            - setAnnouncement
             - setCustomFields
             - setDefault
             - setDescription
@@ -314,7 +318,7 @@ Here you can also find what articles are incomplete and missing.
             - close
             - counters
             - create
-            - <span class="missing">[delete](../missing-and-outdated-list/index.html#groupsdelete)</span>
+            - delete
             - files
             - getIntegrations
             - history
@@ -324,7 +328,7 @@ Here you can also find what articles are incomplete and missing.
             - leave
             - list
             - listAll
-            - <span class="missing">[members](../missing-and-outdated-list/index.html#groupsmembers)</span>
+            - members
             - open
             - removeModerator
             - removeOwner
@@ -345,12 +349,13 @@ Here you can also find what articles are incomplete and missing.
             - history
             - list.everyone
             - list
-            - <span class="missing">[members](../missing-and-outdated-list/index.html#immembers)</span>
+            - members
             - messages.others
             - open
             - setTopic
         - Integration:
             - create
+            - history
             - list
             - remove
         - Livechat:
@@ -360,12 +365,20 @@ Here you can also find what articles are incomplete and missing.
         - Miscellaneous:
             - directory
             - info
+            - shield.svg
             - spotlight
             - statistics
             - statistics.list
         - Permissions:
             - list
             - update
+        - Roles:
+            - create
+            - list
+            - addUserToRole
+        - Push:
+            - push.token
+            - deletePushToken
         - Rooms:
             - cleanHistory
             - favorite
@@ -385,21 +398,27 @@ Here you can also find what articles are incomplete and missing.
             - create
             - createToken
             - delete
+            - deleteOwnAccount
             - forgotPassword
+            - generatePersonalAccessToken
             - getAvatar
+            - getPersonalAccessTokens
             - getPresence
-            - getPreferences
+            - get-preferences
             - getUsernameSuggestion
             - info
             - list
+            - regeneratePersonalAccessToken
             - register
+            - removePersonalAccessToken
             - resetAvatar
             - setAvatar
-            - setPreferences
+            - set-preferences
             - update
             - updateOwnBasicInfo
         - Offset and Count and Sort Info
         - Query and Fields Info
+        - Personal Access Tokens
         - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
         - <span class="incomplete">[Testing](../missing-and-outdated-list#Testing)</span>
         - Troubleshooting
