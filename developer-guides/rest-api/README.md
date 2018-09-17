@@ -22,6 +22,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :------------------------ | :-------------------------------------------------------- | :------------------------------------- |
 | `/api/v1/info`            | Information about the Rocket.Chat server.                 | [Link](miscellaneous/info/)            |
 | `/api/v1/directory`       | Search by users or channels on all server.                | [Link](miscellaneous/directory/)       |
+| `/api/v1/shield.svg`      | Gets the shield svg(badge) to add in your website.        | [Link](miscellaneous/shield-svg/)      |
 | `/api/v1/spotlight`       | Searches for users or rooms that are visible to the user. | [Link](miscellaneous/spotlight/)       |
 | `/api/v1/statistics`      | Statistics about the Rocket.Chat server.                  | [Link](miscellaneous/statistics/)      |
 | `/api/v1/statistics.list` | Selectable statistics about the Rocket.Chat server.       | [Link](miscellaneous/statistics-list/) |
@@ -169,12 +170,36 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/im.open`            | Adds the direct message back to the list of direct messages.  | [Link](im/open/)            |
 | `/api/v1/im.setTopic`        | Sets a direct message topic.                                  | [Link](im/settopic/)        |
 
+### Integrations
+
+| Url                            | Short Description                                             | Details Page                |
+| :----------------------------- | :------------------------------------------------------------ | :-------------------------- |
+| `/api/v1/integrations.create`  | Creates an integration.                                       | [Link](integration/create/) |
+| `/api/v1/integrations.history` | Lists all history of the specified integration.               | [Link](integration/history/)|
+| `/api/v1/integrations.list`    | Lists all of the integrations.                                | [Link](integration/list/)   |
+| `/api/v1/integrations.remove`  | Removes an integration.                                       | [Link](integration/remove/) |
+
 ### Permissions
 
 | Url                          | Short Description                | Details Page                |
 | :--------------------------- | :------------------------------- | :-------------------------- |
 | `/api/v1/permissions.list`   | Lists permissions on the server. | [Link](permissions/list/)   |
 | `/api/v1/permissions.update` | Edits permissions on the server. | [Link](permissions/update/) |
+
+### Roles
+
+| Url                          | Short Description                | Details Page                |
+| :--------------------------- | :------------------------------- | :-------------------------- |
+| `/api/v1/roles.create`   | Create a new role in the system. | [Link](roles/create/)   |
+| `/api/v1/roles.list` | Gets all the roles in the system. | [Link](roles/list/) |
+| `/api/v1/roles.addUserToRole` | Assign a role to an user. | [Link](roles/addUserToRole/) |
+
+### Push Token
+
+| Url | Method | Short Description | Details Page |
+| :--- | :--- | :--- | :--- |
+| `/api/v1/push.token`              | `POST`    | Saves push token.                 | [Link](push/push-token/)       |
+| `/api/v1/push.token`              | `DELETE`  | Removes push token.               | [Link](push/deletePushToken/)  |
 
 ### Rooms
 
