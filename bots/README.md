@@ -37,6 +37,7 @@ These are the basic steps for using bots with Rocket.Chat.
 - [Bots Architecture](bots-architecture/)
 - [Creating Bot Users](creating-bot-users/)
 - [Configuring the Bot Environment](configure-bot-environment/)
+- [Using Bots for Livechat](using-bots-for-livechat/)
 - [Running a Hubot Bot](running-a-hubot-bot/)
 - [Running a Botkit Bot](running-a-botkit-bot/)
 - [Running a Rasa Bot](running-a-rasa-bot/)
