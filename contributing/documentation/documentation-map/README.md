@@ -432,6 +432,7 @@ Here you can also find what articles are incomplete and missing.
     - Bots Architecture
     - Creating Bot Users
     - Configure Bot Environment
+    - Running a bBot Bot
     - Running a Hubot Bot
     - Running a Botkit Bot
     - Running a Rasa Bot
