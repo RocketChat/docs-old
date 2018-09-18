@@ -25,6 +25,7 @@
 | `/api/v1/groups.removeOwner` | Removes the role of owner from a user in a group. | [Link](removeowner/) |
 | `/api/v1/groups.rename` | Changes the name of the private group. | [Link](rename/) |
 | `/api/v1/groups.roles` | Gets the user's roles in the private group. | [Link](roles/) |
+| `/api/v1/groups.setAnnouncement` | Sets a group's announcement. | [Link](setannouncement/)|
 | `/api/v1/groups.setCustomFields` | Sets private group's custom fields. | [Link](setcustomfields/) |
 | `/api/v1/groups.setDescription` | Sets a private group's description. | [Link](setdescription/) |
 | `/api/v1/groups.setPurpose` | Sets a private group's description. | [Link](setpurpose/) |

@@ -334,6 +334,7 @@ Here you can also find what articles are incomplete and missing.
             - removeOwner
             - rename
             - roles
+            - setAnnouncement
             - setCustomFields
             - setDescription
             - setPurpose
