@@ -148,7 +148,7 @@ That's it, the app will restart and attempt connection when you change the
 settings, just view the logs to resolve any connection issues.
 
 Glitch apps will usually sleep after 5 minutes, but
-[there are ways](support.glitch.com/t/not-letting-the-app-go-down/2000/13)
+[there are ways](https://support.glitch.com/t/not-letting-the-app-go-down/2000/13)
 to get round that for periods of time.
 
 ## Deploy to Now
