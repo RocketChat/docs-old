@@ -277,6 +277,7 @@ Here you can also find what articles are incomplete and missing.
             - list.joined
             - list
             - members
+            - moderators
             - open
             - removeModerator
             - removeOwner
@@ -328,6 +329,7 @@ Here you can also find what articles are incomplete and missing.
             - leave
             - list
             - listAll
+            - moderators
             - members
             - open
             - removeModerator
