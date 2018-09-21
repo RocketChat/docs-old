@@ -1,6 +1,6 @@
 # Dealing with Livechat visitors
 
-Get Livechat visitor data.
+Retrieve a visitor data
 
 | URL                               | Requires Auth | HTTP Method |
 | :-------------------------------- | :------------ | :---------- |

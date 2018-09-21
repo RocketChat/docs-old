@@ -32,5 +32,4 @@ Manage Livechat related data:
 | `/api/v1/livechat/video.call/:token` | `GET` | Request a new video call room. | [info](video-call/) |
 | `/api/v1/livechat/visitor` | `POST` | Register a new Livechat visitor. | [info](visitor/index.html#register) |
 | `/api/v1/livechat/visitor/:token` | `GET` | Retrieve a visitor data. | [info](visitor/index.html#retrieve-a-visitor-data) |
-| `/api/v1/livechat/visitor/:token/room` | `GET` | Retrieve a visitor room data. | [info](visitor/index.html#get-visitor-room-data) |
 | `/api/v1/livechat/page.visited` | `POST` | Send visitor navigation history to Rocket.Chat. | [info](visitor/index.html#send-visitor-navigation-history) |

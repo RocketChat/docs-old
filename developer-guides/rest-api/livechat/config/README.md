@@ -1,6 +1,6 @@
 # Livechat configuration data
 
-Get Livechat widget configuration info and additional visitor data.
+Get Livechat widget configuration info and additional visitor data
 
 | URL                            | Requires Auth | HTTP Method |
 | :----------------------------- | :------------ | :---------- |
