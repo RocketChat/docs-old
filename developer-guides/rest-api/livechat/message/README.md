@@ -1,6 +1,6 @@
 # Dealing with Livechat messages
 
-Send a new Livechat message.
+Send a new Livechat message
 
 | URL                        | Requires Auth | HTTP Method |
 | :------------------------- | :------------ | :---------- |

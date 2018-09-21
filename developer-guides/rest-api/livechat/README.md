@@ -14,9 +14,9 @@ Manage Livechat related data:
 | `/api/v1/livechat/department/:_id` | `PUT` | Updates a Livechat department data. | [info](department/index.html#update-a-department) |
 | `/api/v1/livechat/department/:_id` | `DELETE` | Delete a Livechat department. | [info](department/index.html#removes-a-department) |
 | `/api/v1/livechat/sms-incoming/:service` | `POST` | Send SMS messages to Rocket.Chat. | [info](sms-incoming/) |
-| `/api/v1/livechat/agent.info/:rid/:token` | `GET` | Retrieve the current Livechat agent data. | [info](agent/index.html#retrieve-the-current-livechat-agent-data.) |
+| `/api/v1/livechat/agent.info/:rid/:token` | `GET` | Retrieve the current Livechat agent data. | [info](agent/index.html#retrieve-the-current-livechat-agent-data) |
 | `/api/v1/livechat/agent.next/:token` | `GET` | Request the next Livechat agent available. | [info](agent/index.html#request-the-next-livechat-agent-available) |
-| `/api/v1/livechat/config/:token` | `GET` | Get basic Livechat widget configuration info and additional visitor data. | [info](config/index.html#get-livechat-widget-configuration-info-and-additional-visitor-data.) |
+| `/api/v1/livechat/config/:token` | `GET` | Get basic Livechat widget configuration info and additional visitor data. | [info](config/index.html#get-livechat-widget-configuration-info-and-additional-visitor-data) |
 | `/api/v1/livechat/custom.field` | `POST` | Send a Livechat custom field. | [info](custom-fields/index.html#send-a-livechat-custom-field) |
 | `/api/v1/livechat/custom.fields` | `POST` | Send an array of Livechat custom fields. | [info](custom-fields/index.html#send-an-array-of-livechat-custom-fields) |
 | `/api/v1/livechat/message` | `POST` | Send a new Livechat message. | [info](message/index.html#send-a-new-livechat-message) |
@@ -31,6 +31,6 @@ Manage Livechat related data:
 | `/api/v1/livechat/transcript` | `POST` | Request a Livechat transcript. | [info](transcript/) |
 | `/api/v1/livechat/video.call/:token` | `GET` | Request a new video call room. | [info](video-call/) |
 | `/api/v1/livechat/visitor` | `POST` | Register a new Livechat visitor. | [info](visitor/index.html#register) |
-| `/api/v1/livechat/visitor/:token` | `GET` | Retrieve a visitor data. | [info](visitor/index.html#get-visitor-data) |
+| `/api/v1/livechat/visitor/:token` | `GET` | Retrieve a visitor data. | [info](visitor/index.html#retrieve-a-visitor-data) |
 | `/api/v1/livechat/visitor/:token/room` | `GET` | Retrieve a visitor room data. | [info](visitor/index.html#get-visitor-room-data) |
 | `/api/v1/livechat/page.visited` | `POST` | Send visitor navigation history to Rocket.Chat. | [info](visitor/index.html#send-visitor-navigation-history) |
