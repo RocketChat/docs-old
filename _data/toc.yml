@@ -334,6 +334,7 @@
       - Livechat:
         - agent
         - config
+        - custom-fields
         - department
         - message
         - room
