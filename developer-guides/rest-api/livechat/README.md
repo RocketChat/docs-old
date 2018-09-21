@@ -17,8 +17,8 @@ Manage Livechat related data:
 | `/api/v1/livechat/agent.info/:rid/:token` | `GET` | Retrieve the current Livechat agent data. | [info](agent/index.html#retrieve-the-current-livechat-agent-data.) |
 | `/api/v1/livechat/agent.next/:token` | `GET` | Request the next Livechat agent available. | [info](agent/index.html#request-the-next-livechat-agent-available) |
 | `/api/v1/livechat/config/:token` | `GET` | Get basic Livechat widget configuration info and additional visitor data. | [info](config/index.html#get-livechat-widget-configuration-info-and-additional-visitor-data.) |
-| `/api/v1/livechat/custom.field` | `POST` | Send a Livechat custom field to Rocket.Chat. | [info](custom-field/) |
-| `/api/v1/livechat/custom.fields` | `POST` | Send an array of Livechat custom fields to Rocket.Chat. | [info](custom-fields/) |
+| `/api/v1/livechat/custom.field` | `POST` | Send a Livechat custom field. | [info](custom-field/index.html#send-a-livechat-custom-field) |
+| `/api/v1/livechat/custom.fields` | `POST` | Send an array of Livechat custom fields. | [info](custom-field/index.html#send-an-array-of-livechat-custom-fields) |
 | `/api/v1/livechat/message` | `POST` | Send a new Livechat message. | [info](message/index.html#send-a-new-livechat-message) |
 | `/api/v1/livechat/message/:_id` | `PUT` | Updates a Livechat message data. | [info](message/index.html#updates-a-livechat-message) |
 | `/api/v1/livechat/message/:_id` | `DELETE` | Delete a Livechat message. | [info](message/index.html#removes-a-livechat-message) |
