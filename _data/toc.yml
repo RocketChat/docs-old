@@ -332,9 +332,15 @@
         - list
         - remove
       - Livechat:
+        - agent
+        - config
         - department
+        - message
+        - room
         - sms-incoming
         - users
+        - video-call
+        - visitor
       - Miscellaneous:
         - directory
         - info

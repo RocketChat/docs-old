@@ -359,9 +359,14 @@ Here you can also find what articles are incomplete and missing.
             - list
             - remove
         - Livechat:
+            - agent
+            - config
             - department
+            - message
+            - room
             - sms-incoming
             - users
+            - video-call
         - Miscellaneous:
             - directory
             - info
