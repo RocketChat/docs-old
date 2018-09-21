@@ -277,6 +277,7 @@ Here you can also find what articles are incomplete and missing.
             - list.joined
             - list
             - members
+            - moderators
             - open
             - removeModerator
             - removeOwner
@@ -328,12 +329,14 @@ Here you can also find what articles are incomplete and missing.
             - leave
             - list
             - listAll
+            - moderators
             - members
             - open
             - removeModerator
             - removeOwner
             - rename
             - roles
+            - setAnnouncement
             - setCustomFields
             - setDescription
             - setPurpose
@@ -437,6 +440,7 @@ Here you can also find what articles are incomplete and missing.
     - Bots Architecture
     - Creating Bot Users
     - Configure Bot Environment
+    - Running a bBot Bot
     - Running a Hubot Bot
     - Running a Botkit Bot
     - Running a Rasa Bot

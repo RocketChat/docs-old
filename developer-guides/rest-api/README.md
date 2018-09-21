@@ -93,6 +93,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.list`                       | Retrieves all of the channels from the server.              | [Link](channels/list/)                          |
 | `/api/v1/channels.list.joined`                | Gets only the channels the calling user has joined.         | [Link](channels/list-joined/)                   |
 | `/api/v1/channels.members`                    | Retrieves all channel users.                                | [Link](channels/members/)                       |
+| `/api/v1/channels.moderators`                 | List all moderators of a channel.                           | [Link](channels/moderators/)                    |
 | `/api/v1/channels.open`                       | Adds the channel back to the user's list of channels.       | [Link](channels/open/)                          |
 | `/api/v1/channels.rename`                     | Changes a channel's name.                                   | [Link](channels/rename/)                        |
 | `/api/v1/channels.roles`                      | Gets the user's roles in the channel.                       | [Link](channels/roles/)                         |
@@ -124,10 +125,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.leave`           | Removes the calling user from the private group.   | [Link](groups/leave/)          |
 | `/api/v1/groups.list`            | List the private groups the caller is part of.     | [Link](groups/list/)           |
 | `/api/v1/groups.listAll`         | List all the private groups.                       | [Link](groups/listall/)        |
+| `/api/v1/groups.moderators`      | List all moderators of a group.                    | [Link](groups/moderators/)     |
 | `/api/v1/groups.members`         | Gets the users of participants of a private group. | [Link](groups/members/)        |
 | `/api/v1/groups.open`            | Adds the private group back to the list of groups. | [Link](groups/open/)           |
 | `/api/v1/groups.rename`          | Changes the name of the private group.             | [Link](groups/rename/)         |
 | `/api/v1/groups.roles`           | Gets the user's roles in the private group.        | [Link](groups/roles/)          |
+| `/api/v1/groups.setAnnouncement` | Sets a group's announcement.                       | [Link](groups/setannouncement/)|
 | `/api/v1/groups.setCustomFields` | Sets private group's custom fields.                | [Link](groups/setcustomfields/)|
 | `/api/v1/groups.setDescription`  | Sets a private group's description.                | [Link](groups/setdescription/) |
 | `/api/v1/groups.setPurpose`      | Sets a private group's description.                | [Link](groups/setpurpose/)     |
