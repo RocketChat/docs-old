@@ -1,8 +1,8 @@
-# Deploying Rocket.Chat on Centos 7
+# Deploying Rocket.Chat on Centos 7.5
 
 > If coming from Rocket.Chat 0.x.x to 0.40.0 please see our [update notes](../../../installation/updating/from-0-x-x-to-0-40-0/)
 
-The following was tested with Vultr and Digital Ocean.  Should work on Linode too.
+Tested with Rocket.Chat v0.69.2
 
 Add the epel repository and update everything.
 
@@ -19,12 +19,12 @@ nano /etc/yum.repos.d/mongodb-org.repo
 Paste this into the new file:
 
 ```
-[mongodb-org]
+[mongodb-org-4.0]
 name=MongoDB Repository
-baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.6/x86_64/
+baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/4.0/x86_64/
 gpgcheck=1
 enabled=1
-gpgkey=https://www.mongodb.org/static/pgp/server-3.6.asc
+gpgkey=https://www.mongodb.org/static/pgp/server-4.0.asc
 ```
 
 To write and save do:
@@ -33,22 +33,28 @@ To write and save do:
 CTRL-O, CTRL-X
 ```
 
+Install CURL and Node.js v8.x Repo
+```
+yum install curl
+curl -sL https://rpm.nodesource.com/setup_8.x | bash -
+```
+
 Now we need to install our dependencies from yum:
 
 ```
-yum install -y nodejs curl GraphicsMagick npm mongodb-org-server mongodb-org gcc-c++
+yum install -y nodejs GraphicsMagick mongodb-org gcc-c++ make
 ```
 
-Now that we have Node.js and npm installed, we need to install a few more dependencies:
+Now that we have Node.js installed, we need to install a few more dependencies:
 
 ```
-npm install -g inherits n
+sudo npm install -g node-gyp inherits n
 ```
 
-The recommended Node.js version for using Rocket.Chat is `8.9.3`. Using _n_ we are going to install that version:
+The recommended Node.js version for using Rocket.Chat is `8.11.3`. Using _n_ we are going to install that version:
 
 ```
-n 8.9.3
+n 8.11.3
 ```
 
 ## Installing Rocket.Chat
@@ -64,7 +70,7 @@ tar zxvf rocket.chat.tar.gz
 mv bundle Rocket.Chat
 cd Rocket.Chat/programs/server
 
-npm install
+sudo npm install
 
 cd ../..
 ```
@@ -95,12 +101,6 @@ Now we need to start mongo:
 
 ```
 systemctl start mongod
-```
-
-or for CentOs 6.X
-
-```
-/etc/init.d/mongod start
 ```
 
 ## Try install out
