@@ -364,7 +364,7 @@ Here you can also find what articles are incomplete and missing.
         - Livechat:
             - agent
             - config
-	    - custom-fields
+            - custom-fields
             - department
             - message
             - room
