@@ -335,9 +335,16 @@
         - list
         - remove
       - Livechat:
+        - agent
+        - config
+        - custom-fields
         - department
+        - message
+        - room
         - sms-incoming
         - users
+        - video-call
+        - visitor
       - Miscellaneous:
         - directory
         - info
