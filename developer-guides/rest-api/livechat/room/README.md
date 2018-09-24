@@ -66,7 +66,6 @@ curl http://localhost:3000/api/v1/livechat/room?token=iNKE8a6k6cjbqWhWd
 
 ## Payload
 
-
 | Argument | Example             | Required | Description           |
 | :------- | :------------------ | :------- | :-------------------- |
 | `rid`    | `XFzMqgn33DcsQkpJp` | Required | The room `_id`.                  |
