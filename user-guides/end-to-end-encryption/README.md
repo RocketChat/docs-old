@@ -52,12 +52,14 @@ From here scroll to the bottom and toggle encrypted on
 
 ## FAQ
 
-#### How can I tell if the room is encrypted?
+### How can I tell if the room is encrypted?
+
 If the room is using End to End Encryption you should see a key icon by the channel name.
 
 ![ ](e2e-keybychannel.png)
 
-#### How can I tell if a message is encrypted?
+### How can I tell if a message is encrypted?
+
 You will see a key icon by the username.
 
 ![ ](e2e-keybymessage.png)
