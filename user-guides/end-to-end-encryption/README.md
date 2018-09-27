@@ -22,7 +22,7 @@ If you would like to change your encryption password you can do so by going to: 
 
 ![ ](e2e-changepassword.png)
 
-Once you make this change you will need to update the password on any other devices being used.
+Once you make this change it will be used for connecting on new devices.
 
 ## Starting an End to End Conversation
 
