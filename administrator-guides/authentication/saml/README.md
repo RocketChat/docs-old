@@ -30,9 +30,12 @@ This is the idp providers public certificate that is used to verify the SAML req
 
 The public part of the self-signed certificate you created for encrypting your SAML transactions. [Example of self-signed certificate on the SimpleSAMLphp website here.](https://simplesamlphp.org/docs/stable/simplesamlphp-sp#section_1_1)
 
+Format for this is PEM WITH `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.
+
 ### Private Key Contents (SP Signing Private Key)
 
 The private key matching the self-signed certificate you created as PKCS#1 PEM.
+Format for this is PEM WITH `-----BEGIN PRIVATE KEY-----` and `-----END PRIVATE KEY-----`.
 
 ### SAML assertion
 
