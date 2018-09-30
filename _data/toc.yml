@@ -82,6 +82,7 @@
   - Messaging
   - Channel Actions
   - Managing your Account
+  - End to End Encryption
   - Voice and Video Conferencing
 - Administrator guides:
   - Account Settings
@@ -335,9 +336,16 @@
         - list
         - remove
       - Livechat:
+        - agent
+        - config
+        - custom-fields
         - department
+        - message
+        - room
         - sms-incoming
         - users
+        - video-call
+        - visitor
       - Miscellaneous:
         - directory
         - info
