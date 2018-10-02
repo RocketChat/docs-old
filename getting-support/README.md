@@ -45,6 +45,7 @@ Some of the channels to get help:
 - [#desktop](https://open.rocket.chat/channel/desktop) channel for help with the desktop client
 - [#bots](https://open.rocket.chat/channel/bots) channel for help with chatbot scripting
 - [#dev](https://open.rocket.chat/channel/dev) channel for developers needing help developing new features
+- [#ug_german](https://open.rocket.chat/channel/ug_german) German Rocket.Chat User Group
 
 Remember to have a little patience. Support is provided by other members of the community like you in their free time.
 
