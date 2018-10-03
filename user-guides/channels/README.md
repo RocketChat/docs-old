@@ -76,6 +76,8 @@ This will open a pop up, and there you can set the name of that channel, if it i
 
 Read only channels, messages can only be posted by people with the right permission. Users can react to messages in this Good for announcements, voting channels and such.
 
+Encrypted channels, messages will be end to end encrypted.  See: [End to End Encryption](../end-to-end-encryption/) for details.
+
 Broadcasted channels will behave like read only channels, with only users with the right permission being able to post there. The differences to a read only channel are:
 
 - Users without permission (the same one to post on read only channels) inside this channel won't be able to see each other in the user list.

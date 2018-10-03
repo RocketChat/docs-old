@@ -82,6 +82,7 @@
   - Messaging
   - Channel Actions
   - Managing your Account
+  - End to End Encryption
   - Voice and Video Conferencing
 - Administrator guides:
   - Account Settings
@@ -238,6 +239,7 @@
         - close
         - counters
         - create
+        - delete
         - files
         - getAllUserMentionsByChannel
         - getIntegrations
@@ -249,11 +251,13 @@
         - list.joined
         - list
         - members
+        - moderators
         - open
         - removeModerator
         - removeOwner
         - rename
         - roles
+        - setAnnouncement
         - setCustomFields
         - setDefault
         - setDescription
@@ -289,6 +293,7 @@
         - close
         - counters
         - create
+        - delete
         - files
         - getIntegrations
         - history
@@ -298,11 +303,14 @@
         - leave
         - list
         - listAll
+        - moderators
+        - members
         - open
         - removeModerator
         - removeOwner
         - rename
         - roles
+        - setAnnouncement
         - setCustomFields
         - setDescription
         - setPurpose
@@ -324,21 +332,37 @@
         - setTopic
       - Integration:
         - create
+        - history
         - list
         - remove
       - Livechat:
+        - agent
+        - config
+        - custom-fields
         - department
+        - message
+        - room
         - sms-incoming
         - users
+        - video-call
+        - visitor
       - Miscellaneous:
         - directory
         - info
+        - shield.svg
         - spotlight
         - statistics
         - statistics.list
       - Permissions:
         - list
         - update
+      - Roles:
+        - create
+        - list
+        - addUserToRole
+      - Push:
+        - push.token
+        - deletePushToken
       - Rooms:
         - cleanHistory
         - favorite
@@ -398,6 +422,7 @@
   - Bots Architecture
   - Creating Bot Users
   - Configure Bot Environment
+  - Running a bBot Bot
   - Running a Hubot Bot
   - Running a Botkit Bot
   - Running a Rasa Bot

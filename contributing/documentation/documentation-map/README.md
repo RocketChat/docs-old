@@ -265,7 +265,7 @@ Here you can also find what articles are incomplete and missing.
             - close
             - counters
             - create
-            - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
+            - delete
             - files
             - getAllUserMentionsByChannel
             - getIntegrations
@@ -277,11 +277,13 @@ Here you can also find what articles are incomplete and missing.
             - list.joined
             - list
             - members
+            - moderators
             - open
             - removeModerator
             - removeOwner
             - rename
             - roles
+            - setAnnouncement
             - setCustomFields
             - setDefault
             - setDescription
@@ -317,7 +319,7 @@ Here you can also find what articles are incomplete and missing.
             - close
             - counters
             - create
-            - <span class="missing">[delete](../missing-and-outdated-list/index.html#groupsdelete)</span>
+            - delete
             - files
             - getIntegrations
             - history
@@ -327,12 +329,14 @@ Here you can also find what articles are incomplete and missing.
             - leave
             - list
             - listAll
-            - <span class="missing">[members](../missing-and-outdated-list/index.html#groupsmembers)</span>
+            - moderators
+            - members
             - open
             - removeModerator
             - removeOwner
             - rename
             - roles
+            - setAnnouncement
             - setCustomFields
             - setDescription
             - setPurpose
@@ -354,21 +358,36 @@ Here you can also find what articles are incomplete and missing.
             - setTopic
         - Integration:
             - create
+            - history
             - list
             - remove
         - Livechat:
+            - agent
+            - config
+            - custom-fields
             - department
+            - message
+            - room
             - sms-incoming
             - users
+            - video-call
         - Miscellaneous:
             - directory
             - info
+            - shield.svg
             - spotlight
             - statistics
             - statistics.list
         - Permissions:
             - list
             - update
+        - Roles:
+            - create
+            - list
+            - addUserToRole
+        - Push:
+            - push.token
+            - deletePushToken
         - Rooms:
             - cleanHistory
             - favorite
@@ -425,6 +444,7 @@ Here you can also find what articles are incomplete and missing.
     - Bots Architecture
     - Creating Bot Users
     - Configure Bot Environment
+    - Running a bBot Bot
     - Running a Hubot Bot
     - Running a Botkit Bot
     - Running a Rasa Bot

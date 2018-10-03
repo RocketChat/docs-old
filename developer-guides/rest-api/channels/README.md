@@ -11,6 +11,7 @@ These methods apply to public channels only. Use `groups.*` methods for private 
 | `/api/v1/channels.close` | Removes a channel from a user's list of channels. | [Link](close/) |
 | `/api/v1/channels.counters` | Gets channel counters. | [Link](counters/) |
 | `/api/v1/channels.create` | Creates a new channel. | [Link](create/) |
+| `/api/v1/channels.delete` | Removes a channel. | [Link](delete/)  |
 | `/api/v1/channels.getAllUserMentionsByChannel`| Gets all the mentions of a channel. | [Link](getallusermentionsbychannel/)   |
 | `/api/v1/channels.files` | Gets a list of files from a channel. | [Link](files/) |
 | `/api/v1/channels.getIntegrations` | Gets the channel's integration. | [Link](getintegrations/)
@@ -22,11 +23,13 @@ These methods apply to public channels only. Use `groups.*` methods for private 
 | `/api/v1/channels.list` | Retrieves all of the channels from the server. | [Link](list/) |
 | `/api/v1/channels.list.joined` | Gets only the channels the calling user has joined. | [Link](list-joined/) |
 | `/api/v1/channels.members` | Retrieves all channel users. | [Link](members/) |
+| `/api/v1/channels.moderators` | List all moderators of a channel. | [Link](moderators/)  |
 | `/api/v1/channels.open` | Adds the channel back to the user's list of channels. | [Link](open/) |
 | `/api/v1/channels.removeModerator` | Removes the role of moderator from a user in a channel. | [Link](removemoderator/) |
 | `/api/v1/channels.removeOwner` | Removes the role of owner from a user in a channel. | [Link](removeowner/) |
 | `/api/v1/channels.rename` | Changes a channel's name. | [Link](rename/) |
 | `/api/v1/channels.roles`  | Gets the user's roles in the channel.| [Link](roles/)   |
+| `/api/v1/channels.setAnnouncement` | Sets a channel's announcement. | [Link](setannouncement/) |
 | `/api/v1/channels.setCustomFields` | Sets a channel's custom fields. | [Link](setcustomfields/) |
 | `/api/v1/channels.setDefault` | Sets a channel's default status. | [Link](setdefault/) |
 | `/api/v1/channels.setDescription` | Sets a channel's description. | [Link](setdescription/) |
