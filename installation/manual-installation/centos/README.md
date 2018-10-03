@@ -34,6 +34,7 @@ CTRL-O, CTRL-X
 ```
 
 Install CURL and Node.js v8.x Repo
+
 ```
 yum install curl
 curl -sL https://rpm.nodesource.com/setup_8.x | bash -
