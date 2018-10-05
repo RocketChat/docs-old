@@ -251,6 +251,7 @@
         - list.joined
         - list
         - members
+        - messages
         - moderators
         - open
         - removeModerator
@@ -303,8 +304,9 @@
         - leave
         - list
         - listAll
-        - moderators
         - members
+        - messages
+        - moderators
         - open
         - removeModerator
         - removeOwner
@@ -327,6 +329,7 @@
         - list.everyone
         - list
         - members
+        - messages
         - messages.others
         - open
         - setTopic

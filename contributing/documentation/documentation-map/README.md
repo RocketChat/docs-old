@@ -278,6 +278,7 @@ Here you can also find what articles are incomplete and missing.
             - list
             - members
             - moderators
+            - messages
             - open
             - removeModerator
             - removeOwner
@@ -329,8 +330,9 @@ Here you can also find what articles are incomplete and missing.
             - leave
             - list
             - listAll
-            - moderators
             - members
+            - messages
+            - moderators
             - open
             - removeModerator
             - removeOwner
@@ -353,6 +355,7 @@ Here you can also find what articles are incomplete and missing.
             - list.everyone
             - list
             - members
+            - messages
             - messages.others
             - open
             - setTopic
