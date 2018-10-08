@@ -21,7 +21,7 @@ sudo yum install -y curl && curl -sL https://rpm.nodesource.com/setup_8.x | sudo
 Install build tools, MongoDB, nodejs and graphicsmagick:
 
 ```
-sudo yum install -y gcc-c++ make mongodb-org nodejs graphicsmagick 
+sudo yum install -y gcc-c++ make mongodb-org nodejs graphicsmagick
 ```
 
 Using npm install inherits and n, and the node version requiered by Rocket.Chat:
@@ -106,4 +106,4 @@ sudo systemctl reload firewalld
 
 ## Configure your Rocket.Chat server
 
-Once decided if going for a standalone instance or a replica set in MongoDB, open a web browser and access the configured ROOT_URL (http://your-host-name.com-as-accessed-from-internet:3000), follow the configuration steps to set an admin account and your organization and server info.
+Once decided if going for a standalone instance or a replica set in MongoDB, open a web browser and access the configured ROOT_URL (`http://your-host-name.com-as-accessed-from-internet:3000`), follow the configuration steps to set an admin account and your organization and server info.
