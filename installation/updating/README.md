@@ -31,6 +31,7 @@ curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
 ```
 
 ```
+
 tar -xzf /tmp/rocket.chat.tgz -C /tmp
 
 ```
