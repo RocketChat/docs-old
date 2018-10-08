@@ -98,5 +98,5 @@ sudo systemctl enable rocketchat && sudo systemctl start rocketchat
 
 ## Configure your Rocket.Chat server
 
-Once decided if going for a standalone instance or a replica set in MongoDB, open a web browser and access the configured ROOT_URL (http://your-host-name.com-as-accessed-from-internet:3000), follow the configuration steps to set an admin account and your organization and server info.
+Once decided if going for a standalone instance or a replica set in MongoDB, open a web browser and access the configured ROOT_URL (`http://your-host-name.com-as-accessed-from-internet:3000`), follow the configuration steps to set an admin account and your organization and server info.
 
