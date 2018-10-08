@@ -35,6 +35,7 @@ curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
 tar -xzf /tmp/rocket.chat.tgz -C /tmp
 
 ```
+
 Install it and set right permissions to Rocket.Chat folder:
 
 ```
