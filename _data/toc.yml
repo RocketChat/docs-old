@@ -57,6 +57,7 @@
         - AutoSSL
     - Mongo Options
     - Mongo Versions
+    - Mongo Replicas
     - Configuring SSL Reverse Proxy
     - PM2, Systemd, Upstart
     - Running in a sub folder
