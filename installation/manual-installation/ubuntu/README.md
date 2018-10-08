@@ -36,7 +36,7 @@ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongod
 Configure Node.js to be installed via package manager:
 
 ```
-sudo apt-get update && sudo apt-get install -y curl && curl -sL https://rpm.nodesource.com/setup_8.x | sudo bash -
+sudo apt-get update && sudo apt-get install -y curl && curl -sL curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
 ```
 
 Install build tools, MongoDB, nodejs, npm and graphicsmagick:
@@ -104,7 +104,7 @@ sudo systemctl enable rocketchat && sudo systemctl start rocketchat
 
 ### Additional configurations
 
-[Configure replicas for your MongoDB (recommended for production environments)](../replicas/)
+[Configure replicas for your MongoDB (recommended for production environments)](../mongo-replicas/)
 
 [Configure a HTTP reverse proxy to access Rocket.Chat server](../configuring-ssl-reverse-proxy/)
 

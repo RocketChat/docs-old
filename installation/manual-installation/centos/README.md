@@ -101,7 +101,7 @@ sudo systemctl reload firewalld
 
 ## Additional configurations
 
-[Configure replicas for your MongoDB (recommended for production environments)](../replicas/)
+[Configure replicas for your MongoDB (recommended for production environments)](../mongo-replicas/)
 
 [Configure a HTTP reverse proxy to access Rocket.Chat server](../configuring-ssl-reverse-proxy/)
 
