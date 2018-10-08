@@ -29,6 +29,7 @@ Import the public key used by apt to install the official MongoDB packages and c
 ```
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
 ```
+
 ```bash
 echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
 ```
@@ -48,7 +49,7 @@ sudo apt-get install -y build-essential mongodb-org nodejs npm graphicsmagick
 Using npm install inherits and n, and the node version requiere by Rocket.Chat:
 
 ```
-sudo npm install -g inherits n && sudo n 8.11.3 
+sudo npm install -g inherits n && sudo n 8.11.3
 ```
 
 ### Install Rocket.Chat
@@ -56,17 +57,19 @@ sudo npm install -g inherits n && sudo n 8.11.3
 Download Rocket.Chat latest version:
 
 ```
-curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz 
+curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
 ```
+
 ```
-tar -xzf /tmp/rocket.chat.tgz -C /tmp 
+tar -xzf /tmp/rocket.chat.tgz -C /tmp
 ```
 
 Install (this tutorial uses /opt but change it as convenience):
 
 ```
-cd /tmp/bundle/programs/server && npm install 
+cd /tmp/bundle/programs/server && npm install
 ```
+
 ```
 sudo mv /tmp/bundle /opt/Rocket.Chat
 ```
@@ -78,9 +81,11 @@ Add the user rocketchat, set the right permissions on Rocket.Chat folder and cre
 ```
 sudo useradd -M rocketchat && sudo usermod -L rocketchat
 ```
+
 ```
-sudo chown -R rocketchat:rocketchat /opt/Rocket.Chat 
+sudo chown -R rocketchat:rocketchat /opt/Rocket.Chat
 ```
+
 ```bash
 echo -e "[Unit]\nDescription=The Rocket.Chat server\nAfter=network.target remote-fs.target nss-lookup.target nginx.target mongod.target\n[Service]\nExecStart=/usr/local/bin/node /opt/Rocket.Chat/main.js\nStandardOutput=syslog\nStandardError=syslog\nSyslogIdentifier=rocketchat\nUser=rocketchat\nEnvironment=MONGO_URL=mongodb://localhost:27017/rocketchat ROOT_URL=http://your-host-name.com-as-accessed-from-internet:3000/ PORT=3000\n[Install]\nWantedBy=multi-user.target" | sudo tee /lib/systemd/system/rocketchat.service
 ```
@@ -88,7 +93,7 @@ echo -e "[Unit]\nDescription=The Rocket.Chat server\nAfter=network.target remote
 Open the Rocket.Chat service file just created (`/lib/systemd/system/rocketchat.service`) using sudo and your favourite text editor, and change the ROOT_URL environmental variable to reflect the URL you want to use for accessing the server (optionally change MONGO_URL and PORT):
 
 ```
-MONGO_URL=mongodb://localhost:27017/rocketchat 
+MONGO_URL=mongodb://localhost:27017/rocketchat
 ROOT_URL=http://your-host-name.com-as-accessed-from-internet:3000
 PORT=3000
 ```
@@ -96,8 +101,9 @@ PORT=3000
 Enable and start MongoDB and Rocket.Chat:
 
 ```
-sudo systemctl enable mongod && sudo systemctl start mongod 
+sudo systemctl enable mongod && sudo systemctl start mongod
 ```
+
 ```
 sudo systemctl enable rocketchat && sudo systemctl start rocketchat
 ```

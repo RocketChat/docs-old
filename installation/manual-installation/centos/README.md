@@ -1,6 +1,5 @@
 # Rocket.Chat in CentOS
 
-
 This tutorial was tested using CentOS 7.5 and Rocket.Chat 0.70.0.
 
 Rocket.Chat recommends MongoDB version 3.6 and NodeJS version is 8.11.3.
@@ -28,7 +27,7 @@ sudo yum install -y gcc-c++ make mongodb-org nodejs graphicsmagick
 Using npm install inherits and n, and the node version requiered by Rocket.Chat:
 
 ```
-sudo npm install -g inherits n && sudo n 8.11.3 
+sudo npm install -g inherits n && sudo n 8.11.3
 ```
 
 ## Install Rocket.Chat
@@ -36,17 +35,17 @@ sudo npm install -g inherits n && sudo n 8.11.3
 Download Rocket.Chat latest version:
 
 ```
-curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz 
+curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
 ```
 
 ```
-tar -xzf /tmp/rocket.chat.tgz -C /tmp && mv /tmp/bundle /tmp/Rocket.Chat 
+tar -xzf /tmp/rocket.chat.tgz -C /tmp && mv /tmp/bundle /tmp/Rocket.Chat
 ```
 
 Install (this tutorial uses /opt but change it as convenience):
 
 ```
-cd /tmp/bundle/programs/server && npm install 
+cd /tmp/bundle/programs/server && npm install
 ```
 
 ```
@@ -62,7 +61,7 @@ sudo useradd -M rocketchat && sudo usermod -L rocketchat
 ```
 
 ```
-sudo chown -R rocketchat:rocketchat /opt/Rocket.Chat 
+sudo chown -R rocketchat:rocketchat /opt/Rocket.Chat
 ```
 
 ```bash
@@ -72,7 +71,7 @@ echo -e "[Unit]\nDescription=The Rocket.Chat server\nAfter=network.target remote
 Open the Rocket.Chat service file just created (`/usr/lib/systemd/system/rocketchat.service`) using sudo and your favourite text editor, and change the ROOT_URL environmental variable to reflect the URL you want to use for accessing the server (optionally change MONGO_URL and PORT):
 
 ```
-MONGO_URL=mongodb://localhost:27017/rocketchat 
+MONGO_URL=mongodb://localhost:27017/rocketchat
 ROOT_URL=http://your-host-name.com-as-accessed-from-internet:3000
 PORT=3000
 ```
@@ -80,7 +79,7 @@ PORT=3000
 Enable and start MongoDB and Rocket.Chat:
 
 ```
-sudo systemctl enable mongod && sudo systemctl start mongod 
+sudo systemctl enable mongod && sudo systemctl start mongod
 ```
 
 ```
@@ -104,7 +103,6 @@ sudo systemctl reload firewalld
 [Configure replicas for your MongoDB (recommended for production environments)](../mongo-replicas/)
 
 [Configure a HTTP reverse proxy to access Rocket.Chat server](../configuring-ssl-reverse-proxy/)
-
 
 ## Configure your Rocket.Chat server
 

@@ -50,17 +50,19 @@ The output of the command should look like this:
 		}
 	}
 }
-001-rs:SECONDARY> 
+001-rs:SECONDARY>
 ```
+
 Note the "ok" value should be 1.  Any other value, i.e. 93, means something is wrong.
 
 Hit enter, you should see your prompt turn into `001-rs:PRIMARY>`, this indicates the replica set is being used. Type exit to get back to your regular shell:
+
 ```
 001-rs:PRIMARY> exit
 bye
 ```
 
-## Reconfigure and restart Rocket.Chat service 
+## Reconfigure and restart Rocket.Chat service
 
 After you configured  replica set, you **MUST** add the `MONGO_OPLOG_URL` environment variable to the service definition and restart Rocket.Chat server.
 
@@ -69,10 +71,14 @@ In CentOS open file `/usr/lib/systemd/system/rocketchat.service`
 In Ubuntu or Debian open file `/lib/systemd/system/rocketchat.service`
 
 and add this to the Environment line:
+
 ```
 MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=001-rs
 ```
+
 Reload systemd state and restart Rocket.Chat:
+
 ```
 sudo systemctl daemon-reload && sudo systemctl restart rocketchat
 ```
+

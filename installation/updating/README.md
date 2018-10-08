@@ -27,24 +27,29 @@ sudo rm -rf /opt/Rocket.Chat
 Download Rocket.Chat latest version:
 
 ```
-curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz 
+curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
 ```
+
 ```
-tar -xzf /tmp/rocket.chat.tgz -C /tmp 
+tar -xzf /tmp/rocket.chat.tgz -C /tmp
+
 ```
 Install it and set right permissions to Rocket.Chat folder:
 
 ```
-cd /tmp/bundle/programs/server && npm install 
+cd /tmp/bundle/programs/server && npm install
 ```
+
 ```
 sudo mv /tmp/bundle /opt/Rocket.Chat
 ```
+
 ```
-sudo chown -R rocketchat:rocketchat /opt/Rocket.Chat 
+sudo chown -R rocketchat:rocketchat /opt/Rocket.Chat
 ```
 
 Start the service:
+
 ```
 sudo systemctl start rocketchat
 ```
