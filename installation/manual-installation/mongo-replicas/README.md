@@ -36,19 +36,20 @@ mongo
 ```
 
 The output of the command should look like this:
+
 ```
 {
-	"info2" : "no configuration specified. Using a default configuration for the set",
-	"me" : "127.0.0.1:27017",
-	"ok" : 1,
-	"operationTime" : Timestamp(1538772048, 1),
-	"$clusterTime" : {
-		"clusterTime" : Timestamp(1538772048, 1),
-		"signature" : {
-			"hash" : BinData(0,"AAAAAAAAAAAAAAAAAAAAAAAAAAA="),
-			"keyId" : NumberLong(0)
-		}
-	}
+    "info2" : "no configuration specified. Using a default configuration for the set",
+    "me" : "127.0.0.1:27017",
+    "ok" : 1,
+    "operationTime" : Timestamp(1538772048, 1),
+    "$clusterTime" : {
+        "clusterTime" : Timestamp(1538772048, 1),
+        "signature" : {
+            "hash" : BinData(0,"AAAAAAAAAAAAAAAAAAAAAAAAAAA="),
+            "keyId" : NumberLong(0)
+        }
+    }
 }
 001-rs:SECONDARY>
 ```
@@ -81,4 +82,3 @@ Reload systemd state and restart Rocket.Chat:
 ```
 sudo systemctl daemon-reload && sudo systemctl restart rocketchat
 ```
-
