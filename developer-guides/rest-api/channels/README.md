@@ -23,6 +23,7 @@ These methods apply to public channels only. Use `groups.*` methods for private 
 | `/api/v1/channels.list` | Retrieves all of the channels from the server. | [Link](list/) |
 | `/api/v1/channels.list.joined` | Gets only the channels the calling user has joined. | [Link](list-joined/) |
 | `/api/v1/channels.members` | Retrieves all channel users. | [Link](members/) |
+| `/api/v1/channels.messages`  | Retrieves all channel messages. | [Link](messages/)  |
 | `/api/v1/channels.moderators` | List all moderators of a channel. | [Link](moderators/)  |
 | `/api/v1/channels.open` | Adds the channel back to the user's list of channels. | [Link](open/) |
 | `/api/v1/channels.removeModerator` | Removes the role of moderator from a user in a channel. | [Link](removemoderator/) |
