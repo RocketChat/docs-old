@@ -28,6 +28,8 @@ Snaps auto update so you no longer need to worry about manually keeping the clie
 
 Snaps are also available on other platforms. More information available [here](https://snapcraft.io/docs/core/install)
 
+There is also a Flatpak [package available on Flathub](https://flathub.org/apps/details/chat.rocket.RocketChat).
+
 Alternatively you can download and manually install:
 
 You can find the download for the latest releases [here](https://github.com/RocketChat/Rocket.Chat.Electron/releases)
