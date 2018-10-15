@@ -1,8 +1,62 @@
-# Upgrading guides
+# Update
 
-Usually you can update Rocket.Chat pretty easily. In case of manual installations you can just replace the old version with the newer one. If you're on Docker or similar deployment methods, just pull the new image (Docker), refresh the snap (Snap installtion) or just use whatever means your deployment method allows for.
+Usually you can update Rocket.Chat server pretty easily
 
-Please also have a look at the installation documentation for your method of deployment to check for paragraphs that refer to the process of updating Rocket.Chat.
+## Docker installation
+
+Just pull the new image.
+
+## Snap installation
+
+Refresh the snap.
+
+## Manual installation
+
+Stop Rocket.Chat service:
+
+```
+sudo systemctl stop rocketchat
+```
+
+Remove the installation folder, usually in /opt:
+
+```
+sudo rm -rf /opt/Rocket.Chat
+```
+
+Download Rocket.Chat latest version:
+
+```
+curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
+```
+
+```
+
+tar -xzf /tmp/rocket.chat.tgz -C /tmp
+
+```
+
+Install it and set right permissions to Rocket.Chat folder:
+
+```
+cd /tmp/bundle/programs/server && npm install
+```
+
+```
+sudo mv /tmp/bundle /opt/Rocket.Chat
+```
+
+```
+sudo chown -R rocketchat:rocketchat /opt/Rocket.Chat
+```
+
+Start the service:
+
+```
+sudo systemctl start rocketchat
+```
+
+Please also have a look at the installation documentation for your method of deployment to check for paragraphs that refers to installation.
 
 There might be some major changes when we introduce big new features or modifications,
 you can always take a look on the [releases page](https://github.com/RocketChat/Rocket.Chat/releases)
