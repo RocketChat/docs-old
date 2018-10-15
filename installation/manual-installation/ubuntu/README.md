@@ -2,19 +2,11 @@
 
 ## Recommended Fastest Server Install via Snaps
 
-This is the easiest way for you to get your server up and running on all supported Linux (Ubuntu, etc).
+Snaps are the easiest way for you to get your server up and running on all supported Linux (Ubuntu, etc).
 
-Installing using:
+Find out more information about installing using snaps read [here](../../../installation/manual-installation/ubuntu/snaps/) (or find the link in the menu on the left)
 
-```
-sudo snap install rocketchat-server
-```
-
-Snaps are secure.  Rocket.Chat and all of its dependencies are isolated from the rest of your system.  Snaps also auto update when we release a new version.  So no need more hassle updating.
-
-Find out more information about snaps [here](../../../installation/manual-installation/ubuntu/snaps/)
-
-If you would like to enable `https://yoursite.com` using the snap please see [here](../../../installation/manual-installation/ubuntu/snaps/autossl/)
+If you would like to enable SSL on your site like this `https://yoursite.com` using the snap please see [here](../../../installation/manual-installation/ubuntu/snaps/autossl/)
 
 ## Manual install
 
