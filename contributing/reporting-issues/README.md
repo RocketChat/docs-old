@@ -27,7 +27,6 @@ New feature requests should be posted in the [forums](https://forums.rocket.chat
 6. [Search the Issues](https://github.com/RocketChat/Rocket.Chat/issues) for your bug. If you find it carefully check that it is identical and give it a thumbs up, or add some additional information to the ticket if it differs. This will help give us a fuller picture.
 7. If you got this far then report an issue
 
-
 ### Reporting a new issue
 
 Giving clear background information will help save a lot of time
@@ -52,7 +51,6 @@ Here are some links to help you register your bug in the right place:
 [Rocket.Chat iOS App](https://github.com/RocketChat/Rocket.Chat.iOS/issues/new)
 
 [Rocket.Chat Electron desktop app](https://github.com/RocketChat/Rocket.Chat.Electron)
-
 
 #### Determining Rocket.Chat Version
 
