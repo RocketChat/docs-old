@@ -52,4 +52,6 @@ These settings are related to the Iframe Integration, please see the [Iframe int
 - **Default Roles for Authentication Services**: Default roles users will be given when registering through authentication services.
 - **Password Reset**: Set this to true to allow users to reset their password.
 
-<!--- __Custom Fields__ TODO: Create dedicated custom field document, since is a big topic -->
+## Two Factor Authentication
+
+Here you can enable or disable Two Factor Authentication for users, and set for how long a token is valid.

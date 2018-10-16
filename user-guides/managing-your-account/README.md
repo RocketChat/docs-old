@@ -83,3 +83,17 @@ Set or change your avatar for a Rocket.Chat server by clicking on one of the ima
 ## Security
 
 Enable or disable Two Factor Authentication (2FA) for your account on a Rocket.Chat server.
+
+When you enable Two Factor Authentication you will be required to get a key code from an app on your phone, thus increasing the security when logging in, as seen that your phone will be required to start a session on the selected Rocket.Chat server.
+
+> **Note**: Two Factor Authentication can be turned on and off by the system admin, if you can't find this setting, please contact your system admin.
+
+To enable Two Factor Authentication you need to:
+
+- Click the "Enable two-factor authentication" button.
+
+- Using an authenticator app like Google Authenticator, Authy or Duo, scan the QR code. It will display a 6 digit code which you need to enter below.
+
+- Copy your backup code somewhere safe if you need to access it in the future without the authentication app. Click "Send" to finish.
+
+- To disable the "Two-factor authentication" simply click on the red button on the same page.
