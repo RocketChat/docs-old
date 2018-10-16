@@ -8,7 +8,8 @@
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `avatarUrl` | `http://domain.tld/to/my/own/avatar.jpg` | Required (if no a file) | Url of the avatar for the user. |
+| `image` | Any image file | Required (if `avatarUrl` is not specified) | The image file to use as the new avatar. |
+| `avatarUrl` | `http://domain.tld/to/my/own/avatar.jpg` | Required (if `image` is not specified) | Url of the new avatar for the user. |
 | `userId` or `username` | `BsNr28znDkG8aeo7W` | Optional | The id or username of the user. If not provided, the auth user is updated. |
 
 ## Upload a file
