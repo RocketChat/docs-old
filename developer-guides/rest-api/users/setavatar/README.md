@@ -4,15 +4,14 @@
 | :--- | :--- | :--- |
 | `/api/v1/users.setAvatar` | `yes` | `POST` |
 
-## Payload
+## Uploading a File
+
+### Arguments
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `image` | Any image file | Required (if `avatarUrl` is not specified) | The image file to use as the new avatar. |
-| `avatarUrl` | `http://domain.tld/to/my/own/avatar.jpg` | Required (if `image` is not specified) | Url of the new avatar for the user. |
+| `image` | Any image file | Required | The image file to use as the new avatar, as form data. |
 | `userId` or `username` | `BsNr28znDkG8aeo7W` | Optional | The id or username of the user. If not provided, the auth user is updated. |
-
-## Upload a file
 
 ### Example Call
 
@@ -31,7 +30,14 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
-## Set from a URL
+## Providing a URL
+
+### Arguments
+
+| Argument | Example | Required | Description |
+| :--- | :--- | :--- | :--- |
+| `avatarUrl` | `http://domain.tld/to/my/own/avatar.jpg` | Required | URL of the new avatar for the user. |
+| `userId` or `username` | `BsNr28znDkG8aeo7W` | Optional | The id or username of the user. If not provided, the auth user is updated. |
 
 ### Example Call
 
