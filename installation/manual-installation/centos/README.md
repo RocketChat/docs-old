@@ -39,7 +39,7 @@ curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
 ```
 
 ```
-tar -xzf /tmp/rocket.chat.tgz -C /tmp && mv /tmp/bundle /tmp/Rocket.Chat
+tar -xzf /tmp/rocket.chat.tgz -C /tmp
 ```
 
 Install (this tutorial uses /opt but change it as convenience):
