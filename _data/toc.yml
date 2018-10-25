@@ -57,6 +57,7 @@
         - AutoSSL
     - Mongo Options
     - Mongo Versions
+    - Mongo Replicas
     - Configuring SSL Reverse Proxy
     - PM2, Systemd, Upstart
     - Running in a sub folder
@@ -148,6 +149,7 @@
   - Notifications:
     - Push Notifications
   - Permissions
+  - Custom Fields
   - Plug-ins:
     - Drupal
     - Pidgin
@@ -251,6 +253,7 @@
         - list.joined
         - list
         - members
+        - messages
         - moderators
         - open
         - removeModerator
@@ -303,8 +306,9 @@
         - leave
         - list
         - listAll
-        - moderators
         - members
+        - messages
+        - moderators
         - open
         - removeModerator
         - removeOwner
@@ -327,6 +331,7 @@
         - list.everyone
         - list
         - members
+        - messages
         - messages.others
         - open
         - setTopic
