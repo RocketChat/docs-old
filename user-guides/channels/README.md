@@ -80,7 +80,7 @@ Encrypted channels, messages will be end to end encrypted.  See: [End to End Enc
 
 Broadcasted channels will behave like read only channels, with only users with the right permission being able to post there. The differences to a read only channel are:
 
-- Users without permission (the same one to post on read only channels) inside this channel won't be able to see each other in the user list.
-- Users without permission won't be able to react to messages.
-- On every message posted on this channel will have a reply button that redirects the user to a direct message with the user that posted the message, having a reply to the message clicked already ready on the message box.
-- This channel cannot be converted to a normal or read only channel again.
+1. Users without permission (the same one to post on read only channels) inside this channel won't be able to see each other in the user list.
+2. Users without permission won't be able to react to messages.
+3. On every message posted on this channel will have a reply button that redirects the user to a direct message with the user that posted the message, having a reply to the message clicked already ready on the message box.
+4. This channel cannot be converted to a normal or read only channel again.
