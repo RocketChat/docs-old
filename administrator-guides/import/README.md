@@ -2,8 +2,9 @@
 
 Import data from other services
 
-[Slack](slack/)
+[CSV](csv/)
 
 [Hipchat](hipchat/)
 
-[CSV](csv/)
+[Slack](slack/)
+
