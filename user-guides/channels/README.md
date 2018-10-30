@@ -74,7 +74,7 @@ To create a channel you need to click on the plus `+` button that is alongside t
 
 This will open a pop up, and there you can set the name of that channel, if it is public or private, set it to read-only, broadcast it and invite users.
 
-Read only channels, messages can only be posted by people with the right permission. Users can react to messages in this Good for announcements, voting channels and such.
+In read only channels, messages can only be posted by people with the write permissions. Users can react to messages in this Good for announcements, voting channels and such.
 
 Encrypted channels, messages will be end to end encrypted.  See: [End to End Encryption](../end-to-end-encryption/) for details.
 
