@@ -53,8 +53,8 @@ Here is an example of the JSON data format that Livechat will wait for after sub
 
 ```json
 {
-	"_id": "CbbQkRAifP6HtDLSr",
-	"username": "valid.username"
+    "_id": "CbbQkRAifP6HtDLSr",
+    "username": "valid.username"
 }
 ```
 
