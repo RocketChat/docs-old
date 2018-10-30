@@ -1,9 +1,10 @@
 # Livechat Queue Types
 
-There two types of queue types on Rocket.Chat:
+There are three types of queue types on Rocket.Chat:
 
 - [Round robin [default]](#round-robin)
 - [Guest Pool (coming soon)](#guest-pool)
+- [External Service (coming soon)](#external-service)
 
 ## Round robin
 
@@ -37,3 +38,24 @@ agent can decide if he will take the chat or not:
 ![image](https://cloud.githubusercontent.com/assets/8620042/15939960/a31a5b64-2e3f-11e6-9a99-f375b66e6a9d.png)
 
 If the agent decides to take it, the incoming chat will be removed from the incoming chats list of the other agents.
+
+## External Service
+
+You can use an `External Service` to integrate your own agent routing rule into Livechat.
+
+Once you set up the `External Service` as the Livechat routing method, you must define the `External Queue Service URL` and `Secret Token` settings in Livechat admin panel.
+
+The Rocket.Chat will send a GET request to the `External Queue Service URL` and the setting `Secret Token` is sent as a header `X-RocketChat-Secret-Token`, so you can validate if the request became from the Rocket.Chat.
+
+If your endpoint returns a response status other than 200, Rocket.Chat will try 10 times until it receives a valid response.
+
+Here is an example of the JSON data format that Livechat will wait for after submitting the get request:
+
+```json
+{
+	"_id": "CbbQkRAifP6HtDLSr",
+	"username": "valid.username"
+}
+```
+
+After receiving the return from the endpoint in the format described above, Livechat will check that the `username` field represents a valid Livechat agent and then follow the normal process flow.
