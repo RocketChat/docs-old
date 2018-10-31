@@ -3,8 +3,8 @@
 There are three types of queue types on Rocket.Chat:
 
 - [Round robin [default]](#round-robin)
-- [Guest Pool (coming soon)](#guest-pool)
-- [External Service (coming soon)](#external-service)
+- [Guest Pool](#guest-pool)
+- [External Service](#external-service)
 
 ## Round robin
 
