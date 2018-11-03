@@ -47,6 +47,10 @@ Some of the channels to get help:
 - [#dev](https://open.rocket.chat/channel/dev) channel for developers needing help developing new features
 - [#ug_german](https://open.rocket.chat/channel/ug_german) German Rocket.Chat User Group
 
+While the de facto language amongst the Rocket.Chat community is english it may be easier for some to discuss their issues in their native language. Have a look at the following channels to see whether there is a user group for your language:
+
+- [#ug_german](https://open.rocket.chat/channel/ug_german) German Rocket.Chat User Group
+
 Remember to have a little patience. Support is provided by other members of the community like you in their free time.
 
 ## Reporting bugs
