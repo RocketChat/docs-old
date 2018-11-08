@@ -198,14 +198,14 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :--------------------------- | :------------------------------- | :-------------------------- |
 | `/api/v1/roles.create`   | Create a new role in the system. | [Link](roles/create/)   |
 | `/api/v1/roles.list` | Gets all the roles in the system. | [Link](roles/list/) |
-| `/api/v1/roles.addUserToRole` | Assign a role to an user. | [Link](roles/addUserToRole/) |
+| `/api/v1/roles.addUserToRole` | Assign a role to an user. | [Link](roles/addusertorole/) |
 
 ### Push Token
 
 | Url | Method | Short Description | Details Page |
 | :--- | :--- | :--- | :--- |
 | `/api/v1/push.token`              | `POST`    | Saves push token.                 | [Link](push/push-token/)       |
-| `/api/v1/push.token`              | `DELETE`  | Removes push token.               | [Link](push/deletePushToken/)  |
+| `/api/v1/push.token`              | `DELETE`  | Removes push token.               | [Link](push/deletepushtoken/)  |
 
 ### Rooms
 
