@@ -2,7 +2,7 @@
 
 This tutorial was tested using CentOS 7.5 and Rocket.Chat 0.70.0.
 
-Rocket.Chat recommends MongoDB version 3.6 and NodeJS version is 8.11.3.
+Rocket.Chat recommends MongoDB version 3.6 and NodeJS version 8.11.3.
 
 ## Install necessary dependency packages
 
@@ -24,7 +24,7 @@ Install build tools, MongoDB, nodejs and graphicsmagick:
 sudo yum install -y gcc-c++ make mongodb-org nodejs graphicsmagick
 ```
 
-Using npm install inherits and n, and the node version requiered by Rocket.Chat:
+Using npm install inherits and n, and the node version required by Rocket.Chat:
 
 ```
 sudo npm install -g inherits n && sudo n 8.11.3
@@ -32,7 +32,7 @@ sudo npm install -g inherits n && sudo n 8.11.3
 
 ## Install Rocket.Chat
 
-Download Rocket.Chat latest version:
+Download the latest Rocket.Chat version:
 
 ```
 curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
@@ -42,7 +42,7 @@ curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
 tar -xzf /tmp/rocket.chat.tgz -C /tmp
 ```
 
-Install (this tutorial uses /opt but change it as convenience):
+Install (this tutorial uses /opt but feel free to choose a different directory):
 
 ```
 cd /tmp/bundle/programs/server && npm install
@@ -54,7 +54,7 @@ sudo mv /tmp/bundle /opt/Rocket.Chat
 
 ## Configure the Rocket.Chat service
 
-Add the user rocketchat, set the right permissions on Rocket.Chat folder and create the Rocket.Chat service file:
+Add the rocketchat user, set the right permissions on the Rocket.Chat folder and create the Rocket.Chat service file:
 
 ```
 sudo useradd -M rocketchat && sudo usermod -L rocketchat
@@ -88,7 +88,7 @@ sudo systemctl enable rocketchat && sudo systemctl start rocketchat
 
 ## Optional configurations
 
-If you are using firewalld, probably you will need to open port 3000:
+If you are using firewalld and not using a reverse proxy, you probably have to open Port 3000:
 
 ```
 sudo firewall-cmd --permanent --add-port=3000/tcp
