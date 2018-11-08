@@ -163,7 +163,6 @@ Here you can also find what articles are incomplete and missing.
         - Osticket
         - PagerDuty
         - Prometheus
-        - ReplyGif
         - ReviewBoard
         - RunDeck
         - Sentry
