@@ -12,6 +12,10 @@ We're currently experimenting using Fabric and Firebase to report events of usag
 
 This reports can be disabled on both iOS and Android if the user goes to the Settings screen and disable crash reports.
 
+See code related to the iOS app [here](https://github.com/RocketChat/Rocket.Chat.iOS/blob/develop/Rocket.Chat/Managers/AnalyticsManager.swift).
+
+See code related to the Android app [here](https://github.com/RocketChat/Rocket.Chat.Android/blob/develop/app/src/main/java/chat/rocket/android/analytics/AnalyticsManager.kt).
+
 ## Mixpanel
 
 In iOS, the database being used from the application is Realm and in debug mode they have trackings with Mixpanel. This is not used on end-user's devices and can be disabled in your own builds by using the environment variable called `REALM_DISABLE_ANALYTICS`.
