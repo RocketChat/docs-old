@@ -2,19 +2,19 @@
 
 ## Crashlytics
 
-Both iOS and Android applications are using Crashlytics to send crash information and usage data (anonymously). There's no users, channels, groups or message information being transmitted on this events. They're being used explicitly to inform us about crash information that happens on the device.
+Both iOS and Android applications are using Crashlytics to send crash information. There's no users, channels, groups or message information being transmitted on this events. They're being used explicitly to inform us about crash information that happens on the device. On iOS, until version 3.1.1 for crashes we were sending the user's id, server URL and user's email to get in touch with the user about the crash. We stopped doing that after version 3.2.0 (currently in development).
 
-This reports can be disabled on both iOS and Android if the user goes to the Settings screen and disable crash reports.
+_This reports can be disabled on both iOS and Android if the user goes to the Settings screen and disable crash reports._
 
 ## Fabric and Firebase
 
 We're currently experimenting using Fabric and Firebase to report events of usage in the app for some actions, such as sending messages, reacting, changing the theme of the app, etc. This is also anonymous information and does not contain any private information from the user. This is only being used with the purpose of understanding what features are being used more and how they're being used.
 
-This reports can be disabled on both iOS and Android if the user goes to the Settings screen and disable crash reports.
-
 See code related to the iOS app [here](https://github.com/RocketChat/Rocket.Chat.iOS/blob/develop/Rocket.Chat/Managers/AnalyticsManager.swift).
 
 See code related to the Android app [here](https://github.com/RocketChat/Rocket.Chat.Android/blob/develop/app/src/main/java/chat/rocket/android/analytics/AnalyticsManager.kt).
+
+_This reports can be disabled on both iOS and Android if the user goes to the Settings screen and disable crash reports._
 
 ## Mixpanel
 
