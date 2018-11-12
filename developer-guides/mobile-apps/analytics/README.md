@@ -2,7 +2,7 @@
 
 ## Crashlytics
 
-Both iOS and Android applications are using Crashlytics to send crash information. There's no users, channels, groups or message information being transmitted on this events. They're being used explicitly to inform us about crash information that happens on the device. On iOS, until version 3.1.1 for crashes we were sending the user's id, server URL and user's email to get in touch with the user about the crash. We stopped doing that after version 3.2.0 (currently in development).
+Both iOS and Android applications are using Crashlytics to send crash information. Crashlytics collects crash information from mobile apps , then transmits and stores them securely on their servers for developer diagnosis. This transmitted data contains no users, channels, or groups information; it does not contain any message content. The collected content contains only anonymous application and system state information during the crash that can be helfpul for diagnosis.  For full disclosure - up until version 3.1.1  we DID collect the user's id, server URL and contact email. Since 3.2.0 we have stopped this practice.
 
 _This reports can be disabled on both iOS and Android if the user goes to the Settings screen and disable crash reports._
 
