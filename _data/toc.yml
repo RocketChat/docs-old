@@ -132,7 +132,6 @@
     - Osticket
     - PagerDuty
     - Prometheus
-    - ReplyGif
     - ReviewBoard
     - RunDeck
     - Sentry
@@ -150,6 +149,7 @@
   - Notifications:
     - Push Notifications
   - Permissions
+  - Custom Fields
   - Plug-ins:
     - Drupal
     - Pidgin
