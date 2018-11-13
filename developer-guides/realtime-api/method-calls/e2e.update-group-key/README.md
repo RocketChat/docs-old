@@ -80,3 +80,10 @@ This method updates the user subscription to save the E2E key
 [3]: ../e2e.set-user-public-and-private-keys/
 
 [4]: ../e2e.fetch-my-keys
+
+
+## Change Log
+
+| Version | Description |
+| :--- | :--- |
+| 0.70.0 | Added |

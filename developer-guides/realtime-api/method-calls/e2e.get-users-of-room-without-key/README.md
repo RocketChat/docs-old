@@ -64,3 +64,9 @@ This method returns all users of an encrypted room that don't yet have the E2E k
 
 [4]: ../e2e.update-group-key/
 
+
+## Change Log
+
+| Version | Description |
+| :--- | :--- |
+| 0.70.0 | Added |

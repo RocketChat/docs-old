@@ -52,3 +52,10 @@ This method marks an existing room as encrypted.
 [3]: ../e2e.set-user-public-and-private-keys/
 
 [4]: ../e2e.update-group-key/
+
+
+## Change Log
+
+| Version | Description |
+| :--- | :--- |
+| 0.70.0 | Added |

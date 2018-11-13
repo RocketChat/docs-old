@@ -47,3 +47,9 @@ This method returns the user's private and public keys stored on the server.
 [3]: ../e2e.set-user-public-and-private-keys/
 
 [4]: ../e2e.update-group-key/
+
+## Change Log
+
+| Version | Description |
+| :--- | :--- |
+| 0.70.0 | Added |

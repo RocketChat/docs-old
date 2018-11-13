@@ -52,3 +52,9 @@ This method changes the user private and public keys on the server.
 
 [4]: ../e2e.update-group-key/
 
+
+## Change Log
+
+| Version | Description |
+| :--- | :--- |
+| 0.70.0 | Added |
