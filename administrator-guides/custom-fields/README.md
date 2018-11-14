@@ -58,3 +58,5 @@ In this example we are setting two new fields, we will go over each proadressper
 - **private**: This defines the field as private, so only users with the permission `view-full-other-user-info` will be able to see this field when viewing that user profile.
 
 > Note: Please use `tabs` for indentation, if you use `spaces` for indentation the fields will not work.
+
+> Show/hide on account profile: define **hideFromForm** boolean value to the JSON above.
