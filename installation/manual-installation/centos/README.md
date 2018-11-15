@@ -21,7 +21,7 @@ sudo yum install -y curl && curl -sL https://rpm.nodesource.com/setup_8.x | sudo
 Install build tools, MongoDB, nodejs and graphicsmagick:
 
 ```
-sudo yum install -y gcc-c++ make mongodb-org nodejs graphicsmagick
+sudo yum install -y gcc-c++ make mongodb-org nodejs GraphicsMagick
 ```
 
 Using npm install inherits and n, and the node version required by Rocket.Chat:
@@ -39,17 +39,6 @@ curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
 ```
 
 ```
-tar -xzf /tmp/rocket.chat.tgz -C /tmp
-```
-
-Install (this tutorial uses /opt but feel free to choose a different directory):
-
-```
-cd /tmp/bundle/programs/server && npm install
-```
-
-```
-sudo mv /tmp/bundle /opt/Rocket.Chat
 ```
 
 ## Configure the Rocket.Chat service
@@ -58,6 +47,18 @@ Add the rocketchat user, set the right permissions on the Rocket.Chat folder and
 
 ```
 sudo useradd -M rocketchat && sudo usermod -L rocketchat
+```
+
+Install (this tutorial uses /opt but feel free to choose a different directory):
+```
+su - rocketchat -c "tar -xzf /tmp/rocket.chat.tgz -C /tmp"
+
+```
+su - rocketchat -c "cd /tmp/bundle/programs/server && npm install"
+```
+
+```
+sudo mv /tmp/bundle /opt/Rocket.Chat
 ```
 
 ```
