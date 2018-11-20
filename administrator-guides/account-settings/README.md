@@ -6,7 +6,7 @@ In this guide we will go over all settings in the _Accounts_ Section.
 
 - **Allow anonymous read**: Setting this to true will allow people to use the chat without having to create a account or log in. Anonymous users will be only allowed to read messages on public channels.
 - **Allow anonymous write**: This will allow Anonymous users to post messages on public channels.
-- **Allow users to delete own account**: Setting this to true allows users to delete they own account. When a user is deleted all their messages are deleted too.
+- **Allow users to delete own account**: Setting this to true allows users to delete their own account. When a user is deleted all their messages are deleted too.
 - **Allow User Profile Change**: Setting this to false will block users from changing information on their profile.
 - **Allow User Avatar Change**: Setting this to false will block users from changing their avatar.
 - **Allow User Username Change**: Setting this to false will block users from changing their username.
@@ -52,4 +52,6 @@ These settings are related to the Iframe Integration, please see the [Iframe int
 - **Default Roles for Authentication Services**: Default roles users will be given when registering through authentication services.
 - **Password Reset**: Set this to true to allow users to reset their password.
 
-<!--- __Custom Fields__ TODO: Create dedicated custom field document, since is a big topic -->
+## Two Factor Authentication
+
+Here you can enable or disable Two Factor Authentication for users, and set for how long a token is valid.
