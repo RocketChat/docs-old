@@ -131,7 +131,6 @@
     - Osticket
     - PagerDuty
     - Prometheus
-    - ReplyGif
     - ReviewBoard
     - RunDeck
     - Sentry
@@ -173,6 +172,7 @@
     - Internationalization
     - Livechat API
     - Mobile Apps:
+      - Analytics & Data Usage
       - Supporting SSL
       - Supported Servers Versions
     - Realtime-API:

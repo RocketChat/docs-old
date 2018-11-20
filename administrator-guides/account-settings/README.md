@@ -6,7 +6,7 @@ In this guide we will go over all settings in the _Accounts_ Section.
 
 - **Allow anonymous read**: Setting this to true will allow people to use the chat without having to create a account or log in. Anonymous users will be only allowed to read messages on public channels.
 - **Allow anonymous write**: This will allow Anonymous users to post messages on public channels.
-- **Allow users to delete own account**: Setting this to true allows users to delete they own account. When a user is deleted all their messages are deleted too.
+- **Allow users to delete own account**: Setting this to true allows users to delete their own account. When a user is deleted all their messages are deleted too.
 - **Allow User Profile Change**: Setting this to false will block users from changing information on their profile.
 - **Allow User Avatar Change**: Setting this to false will block users from changing their avatar.
 - **Allow User Username Change**: Setting this to false will block users from changing their username.
