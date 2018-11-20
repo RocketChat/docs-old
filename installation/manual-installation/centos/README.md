@@ -38,9 +38,6 @@ Download the latest Rocket.Chat version:
 curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
 ```
 
-```
-```
-
 ## Configure the Rocket.Chat service
 
 Add the rocketchat user, set the right permissions on the Rocket.Chat folder and create the Rocket.Chat service file:
