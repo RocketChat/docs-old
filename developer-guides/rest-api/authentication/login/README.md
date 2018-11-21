@@ -8,7 +8,7 @@
 
 | Argument   | Example            | Required | Description   |
 | :--------- | :----------------- | :------- | :------------ |
-| `username` | `myusername`       | Required | Your username |
+| `user` | `foo@bar.com` OR `myusername` | Required | Your username or email |
 | `password` | `my$up3erP@ssw0rd` | Required | Your password |
 
 ## Notes
@@ -21,11 +21,6 @@
 
 ```bash
 curl http://localhost:3000/api/v1/login \
-     -d "username=myusername&password=mypassword"
-```
-
-```bash
-curl http://localhost:3000/api/v1/login \
      -d "user=myusername&password=mypassword"
 ```
 
@@ -35,12 +30,6 @@ curl http://localhost:3000/api/v1/login \
 ```
 
 ## Example Call - As JSON
-
-```bash
-curl -H "Content-type:application/json" \
-      http://localhost:3000/api/v1/login \
-      -d '{ "username": "myusername", "password": "mypassword" }'
-```
 
 ```bash
 curl -H "Content-type:application/json" \
@@ -59,13 +48,13 @@ curl -H "Content-type:application/json" \
 ```bash
 curl -H "Content-type:application/json" \
       http://localhost:3000/api/v1/login \
-      -d '{ "totp": { "login": { "user": {"email": "rocket.cat@rocket.chat"}, "password": "password" }, "code": "224610" } }
+      -d '{ "user": "myusername", "password": "mypassword", "code": "224610" }'
 ```
 
 ```bash
 curl -H "Content-type:application/json" \
       http://localhost:3000/api/v1/login \
-      -d '{ "totp": { "login": { "user": {"username": "rocket.cat"}, "password": "password" }, "code": "224610" } }
+      -d '{ "user": "my@email.com", "password": "mypassword", "code": "224610" }'
 ```
 
 ## Result

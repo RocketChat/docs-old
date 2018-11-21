@@ -70,7 +70,7 @@ We are happy to report that all _seven_ of our students have passed their first 
 
 The following are the Rocket.Chat projects that our new team members are working on. Contribution and participation are welcomed immediately from the greater Rocket.Chat community:
 
-- [iOS SDK](https://github.com/RocketChat/Rocket.Chat.iOS.SDK)
+- [iOS SDK](https://github.com/RocketChat/Rocket.Chat.Kotlin.SDK)
 - [Android SDK](https://github.com/RocketChat/Rocket.Chat.Android.SDK)
 - [Java SDK](https://github.com/RocketChat/Rocket.Chat.Java.SDK)
 - [PWA](https://github.com/RocketChat/Rocket.Chat.PWA)
