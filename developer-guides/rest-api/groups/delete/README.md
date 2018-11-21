@@ -27,20 +27,6 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 ```json
 {
-   "group": {
-      "_id": "ByehQjC44FwMeiLbX",
-      "name": "groupname",
-      "t": "c",
-      "usernames": [
-         "example"
-      ],
-      "msgs": 0,
-      "u": {
-         "_id": "aobEdbYhXfu5hkeqG",
-         "username": "example"
-      },
-      "ts": "2016-05-30T13:42:25.304Z"
-   },
    "success": true
 }
 ```
@@ -49,4 +35,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
+| 0.71.0 | Removed `group` property |
 | 0.49.0 | Added |

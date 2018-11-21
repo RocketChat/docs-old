@@ -57,6 +57,7 @@
         - AutoSSL
     - Mongo Options
     - Mongo Versions
+    - Mongo Replicas
     - Configuring SSL Reverse Proxy
     - PM2, Systemd, Upstart
     - Running in a sub folder
@@ -125,12 +126,13 @@
     - Guggy
     - Jenkins
     - Jira
+    - MicroBadger
+    - NextCloud and WebDAV
     - NewRelic
     - nixstats
     - Osticket
     - PagerDuty
     - Prometheus
-    - ReplyGif
     - ReviewBoard
     - RunDeck
     - Sentry
@@ -148,6 +150,7 @@
   - Notifications:
     - Push Notifications
   - Permissions
+  - Custom Fields
   - Plug-ins:
     - Drupal
     - Pidgin
@@ -171,6 +174,7 @@
     - Internationalization
     - Livechat API
     - Mobile Apps:
+      - Analytics & Data Usage
       - Supporting SSL
       - Supported Servers Versions
     - Realtime-API:
@@ -251,6 +255,7 @@
         - list.joined
         - list
         - members
+        - messages
         - moderators
         - open
         - removeModerator
@@ -303,8 +308,9 @@
         - leave
         - list
         - listAll
-        - moderators
         - members
+        - messages
+        - moderators
         - open
         - removeModerator
         - removeOwner
@@ -327,6 +333,7 @@
         - list.everyone
         - list
         - members
+        - messages
         - messages.others
         - open
         - setTopic
@@ -367,6 +374,8 @@
         - cleanHistory
         - favorite
         - get
+        - info
+        - leave
         - saveNotification
         - upload
       - Settings:
