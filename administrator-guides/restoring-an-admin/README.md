@@ -14,7 +14,7 @@ Change into docker-compose directory (where your `docker-compose.yml` is located
 
 ```bash
 cd /opt/docker/Rocket.Chat
-docker-compose run mongo bash 
+docker-compose run mongo bash
 ```
 
 or run
