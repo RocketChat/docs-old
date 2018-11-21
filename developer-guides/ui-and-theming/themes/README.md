@@ -14,40 +14,47 @@ Private themes would need to be maintained on your own fork of Rocket.Chat, but 
 
 The minimum contents for a theme package would be a `package.js` file containing the description, e.g:
 
-    Package.describe({
-        name: 'author:mytheme',
-        version: '0.0.1',
-        summary: 'My theme customisations.',
-        git: 'https://github.com/author/my-rocket.chat-theme'
-    });
+```js
+Package.describe({
+    name: 'author:mytheme',
+    version: '0.0.1',
+    summary: 'My theme customisations.',
+    git: 'https://github.com/author/my-rocket.chat-theme'
+});
+```
 
 Then include dependent packages and your custom theme files. e.g:
 
-    Package.onUse(function(api) {
-        api.versionsFrom('1.2');
-        api.use([
-            'templating',
-            'rocketchat:lib',
-            'rocketchat:theme'
-        ]);
-        api.use('templating', 'client');
+```js
+Package.onUse(function(api) {
+    api.versionsFrom('1.2');
+    api.use([
+        'templating',
+        'rocketchat:lib',
+        'rocketchat:theme'
+    ]);
+    api.use('templating', 'client');
+```
 
 - - -
 
 ## Adding Stylesheets
 
 The `rocketchat-theme` package has methods for including [Less](http://lesscss.org/) asset files in the build. Less files (and the a server.coffee or .js file to load them) must first be included in the `package.js` manifest (within the `Package.onUse` function), e.g.:
-
-        api.addAssets([
-            'assets/theme.less'
-        ], 'server');
-        api.addFiles([
-            'server.coffee'
-        ], 'server');
+```js
+    api.addAssets([
+        'assets/theme.less'
+    ], 'server');
+    api.addFiles([
+        'server.coffee'
+    ], 'server');
+```
 
 Then in `server.coffee`...
 
-    RocketChat.theme.addPackageAsset -> Assets.getText 'assets/theme.less'
+```js
+RocketChat.theme.addPackageAsset -> Assets.getText 'assets/theme.less'
+```
 
 That will read in any styles and variables from your custom less file and compile it with the rest of the css.
 
@@ -61,16 +68,22 @@ Here's an example replacing the unauthorized page template:
 
 ** In `package.js` **
 
+```js
     api.addFiles(['views/notAuthorized.html', 'client.coffee'], 'client');
+```
 
 ** In `views/notAuthorized.html` **
 
-    <template name="myNotAuthorized">
-      <h2>My Custom Not Authorized Page</h2>
-    </template>
+```html
+<template name="myNotAuthorized">
+    <h2>My Custom Not Authorized Page</h2>
+</template>
+```
 
 ** In `client.coffee` **
 
-    Template.myNotAuthorized.replaces 'notAuthorized'
+```coffee
+Template.myNotAuthorized.replaces 'notAuthorized'
+```
 
 See the [docs for that package](https://github.com/aldeed/meteor-template-extension) for more info on inheriting and overwriting templates and helpers.

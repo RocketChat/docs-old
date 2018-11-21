@@ -16,4 +16,6 @@ rule 'MD004', :style => :dash
 rule 'MD007', :indent => 4
 rule 'MD029', :style => :ordered
 rule 'MD035', :style => "- - -"
+rule 'MD004', :style => :fenced
+
 
