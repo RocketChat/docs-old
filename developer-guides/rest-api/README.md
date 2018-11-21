@@ -4,7 +4,7 @@ The REST API allows you to control and extend Rocket.Chat with ease.
 
 > **This API is a work in progress, so feel free to test, ask us questions, and submit Pull Requests!**
 
-If you are an end-user and not a dev or a tester, [create an issue](https://github.com/RocketChat/Rocket.Chat/issues/new) to request new APIs -- and consider [making a donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZL94ZE6LGVUSN) to the project.
+If you are an end-user and not a dev or a tester, [create a New Feature Request](https://forums.rocket.chat/c/feature-requests) to request new APIs -- and consider [making a donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZL94ZE6LGVUSN) to the project.
 
 > All API calls in the documentation are made using `curl`.  However, you are free to use Java / Python / PHP / Golang / Ruby / Swift / Objective-C / Rust / Scala / C# or any other programming languages.
 
@@ -214,6 +214,8 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/rooms.cleanHistory`     | Cleans up a room's history, requires special permission. | [Link](rooms/cleanhistory/)     |
 | `/api/v1/rooms.favorite`         | Favorite/Unfavorite room.                                | [Link](rooms/favorite/)         |
 | `/api/v1/rooms.get`              | Gets rooms.                                              | [Link](rooms/get/)              |
+| `/api/v1/rooms.info`             | Gets info from a room.                                   | [Link](rooms/info/)             |
+| `/api/v1/rooms.leave`            | Leaves a room.                                           | [Link](rooms/leave/)            |
 | `/api/v1/rooms.saveNotification` | Sets the notifications settings of specific channel.     | [Link](rooms/savenotification/) |
 | `/api/v1/rooms.upload/:rid`      | Upload a message with attached file.                     | [Link](rooms/upload/)           |
 

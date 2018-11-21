@@ -394,6 +394,8 @@ Here you can also find what articles are incomplete and missing.
             - cleanHistory
             - favorite
             - get
+            - info
+            - leave
             - saveNotification
             - upload
         - Settings:

@@ -127,6 +127,7 @@
     - Jenkins
     - Jira
     - MicroBadger
+    - NextCloud and WebDAV
     - NewRelic
     - nixstats
     - Osticket
@@ -173,6 +174,7 @@
     - Internationalization
     - Livechat API
     - Mobile Apps:
+      - Analytics & Data Usage
       - Supporting SSL
       - Supported Servers Versions
     - Realtime-API:
@@ -372,6 +374,8 @@
         - cleanHistory
         - favorite
         - get
+        - info
+        - leave
         - saveNotification
         - upload
       - Settings:
