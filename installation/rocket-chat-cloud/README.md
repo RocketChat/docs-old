@@ -14,7 +14,7 @@ Send an email to cloud.support@rocket.chat to open a new support ticket.
 
 ### How do I cancel my trial?
 
-Send an email to cloud.support@rocket.chat with the address of your workspace and ask for it to be canceled.
+You can cancel your Rocket.Chat workplace directly within the Cloud Console (<https://cloud.rocket.chat>).
 
 ### How can I get a data export?
 

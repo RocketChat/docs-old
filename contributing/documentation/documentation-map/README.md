@@ -163,7 +163,6 @@ Here you can also find what articles are incomplete and missing.
         - Osticket
         - PagerDuty
         - Prometheus
-        - ReplyGif
         - ReviewBoard
         - RunDeck
         - Sentry
@@ -395,6 +394,8 @@ Here you can also find what articles are incomplete and missing.
             - cleanHistory
             - favorite
             - get
+            - info
+            - leave
             - saveNotification
             - upload
         - Settings:

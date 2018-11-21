@@ -32,3 +32,8 @@ This is a copy from the HipChat Enterprise Documentation:
 | `-in` | Use this to specify the path to the archive file you're about to decrypt. |
 | `-out` | Use this to specify the path where you want to output the decrypted file. |
 | `-pass pass:` | Enter the password you created when you **exported** the archive file. |
+
+## Troubleshooting
+
+1. In case you get `digital envelope routines:EVP_DecryptFinal_ex:bad decrypt:../crypto/evp/evp_enc.c:541:` while decrypting add the parameter `-md md5` see <https://www.openssl.org/docs/faq.html#USER3>
+2. If the import fails for large HipChat exports it may help to *not* export file attachments. see <https://github.com/RocketChat/Rocket.Chat/issues/11693>
