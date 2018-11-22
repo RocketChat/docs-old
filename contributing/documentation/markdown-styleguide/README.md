@@ -93,6 +93,7 @@ Setext style H2
 Lists should be created using dashes.
 
 **Wrong**:
+
 ```markdown
 * Item 1
 + Item 2
@@ -449,13 +450,13 @@ Some more text
 ```markdown
 Some text
 
-```
+`` `
 Code block
-```
+`` `
 
-```
+`` `
 Another code block
-```
+`` `
 
 Some more text
 ```

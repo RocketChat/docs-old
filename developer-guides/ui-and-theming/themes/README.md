@@ -41,6 +41,7 @@ Package.onUse(function(api) {
 ## Adding Stylesheets
 
 The `rocketchat-theme` package has methods for including [Less](http://lesscss.org/) asset files in the build. Less files (and the a server.coffee or .js file to load them) must first be included in the `package.js` manifest (within the `Package.onUse` function), e.g.:
+
 ```js
     api.addAssets([
         'assets/theme.less'

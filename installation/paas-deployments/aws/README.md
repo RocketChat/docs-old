@@ -61,16 +61,16 @@ This guide covers the following:
 
 #### We will use **Let's Encrypt** to get a free & open-source SSL certificate
 
-1. SSH to your instance:
+- SSH to your instance:
     `ssh -i <path_to_key_file.pem> ubuntu@<public_ip_address>`
     Note: You may replace <public_ip_address> with domain name if your DNS has resolved.
-2. Clone the **letsencrypt** repository from github. (If it is available via a package manager, you may use that).
+- Clone the **letsencrypt** repository from github. (If it is available via a package manager, you may use that).
      `sudo git clone https://github.com/letsencrypt/letsencrypt /opt/letsencrypt`
     This will copy the **letsencypt** repository to `/opt/letsencrypt`
-3. Confirm no applications are listening to port 80:
+- Confirm no applications are listening to port 80:
     `netstat -na | grep ':80.*LISTEN'`
     If any processes are returned, kill them.
-4. Get Certificate from Let's Encrypt
+- Get Certificate from Let's Encrypt
     Change to Let's Encrypt repository location
     `cd /opt/letsencrypt`
     Run the Standalone plugin. (This will open a web server listening on port 80 to validate the server).
@@ -79,9 +79,9 @@ This guide covers the following:
 ./letsencrypt-auto certonly --standalone --email <emailaddress@email.com> -d <domain.com> -d <subdomain.domain.com>
 ```
 
-    Note: Second (or more) domain is optional.
-5. If you would like to restrict traffic to your instance on AWS, you may now restrict the security groups. Make sure you allow **TCP/22** from your current location for the SSH connection, as well as **TCP/443** from the location you wish to use to access from.
-6. Check for certificates and keys
+> Note: Second (or more) domain is optional.
+- If you would like to restrict traffic to your instance on AWS, you may now restrict the security groups. Make sure you allow **TCP/22** from your current location for the SSH connection, as well as **TCP/443** from the location you wish to use to access from.
+- Check for certificates and keys
     The following files will be created in `/etc/letsencrypt/archive` with symbolic links placed in `/etc/letsencrypt/live/<domain.com>`
     - **cert.pem** - domain certificate
     - **chain.pem** - Let's Encrypt chain certificate
@@ -198,7 +198,7 @@ rocketchat:
 
 ### 8. Automatic start & restarting with Upstart
 
-1. Create upstart job for MongoDB
+- Create upstart job for MongoDB
 
 `sudo nano /etc/init/rocketchat_mongo.conf`
 
@@ -222,8 +222,8 @@ script
 end script
 ```
 
-2. Save and Exit.
-3. Create the upstart job for Rocket.Chat
+- Save and Exit.
+- Create the upstart job for Rocket.Chat
 
 `sudo nano /etc/init/rocketchat_app.conf`
 

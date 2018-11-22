@@ -31,11 +31,11 @@ Then, download and install each of the following **in order**:
 
 ### MongoDB
 
-1. Download [MongoDB](https://www.mongodb.org/downloads#production). (Note: This can be done on a separate computer)
-2. Run the installer and choose `Custom`
-3. Click the `Browse` button to select desired install path, such as `C:\MongoDB`
-4. Continue through the rest of the installer.
-5. Now open NotePad and enter the following, replacing [Data Path] with where the database will be stored, such as `C:\MongoDB\data`
+- Download [MongoDB](https://www.mongodb.org/downloads#production). (Note: This can be done on a separate computer)
+- Run the installer and choose `Custom`
+- Click the `Browse` button to select desired install path, such as `C:\MongoDB`
+- Continue through the rest of the installer.
+- Now open NotePad and enter the following, replacing [Data Path] with where the database will be stored, such as `C:\MongoDB\data`
 
 ```
 systemLog:
@@ -47,9 +47,9 @@ replication:
     replSetName: rs1
 ```
 
-6. Save the file as `[Installation Path]\mongod.cfg` where [Installation Path] is the location you installed Mongo
-7. Open the Command Prompt by pressing `Windows Key + R` and then entering `cmd`, right click on Command Prompt and select `Run as administrator`
-8. Now enter the following:
+- Save the file as `[Installation Path]\mongod.cfg` where [Installation Path] is the location you installed Mongo
+- Open the Command Prompt by pressing `Windows Key + R` and then entering `cmd`, right click on Command Prompt and select `Run as administrator`
+- Now enter the following:
 
 ```
 > mkdir [Data Path]
@@ -115,7 +115,6 @@ Rocket.Chat is built on top of Node.js v8.9.3. So we need to install this first.
 ```
 
 > Note: If missing, rocket.service.js can be found [here](https://github.com/Sing-Li/bbug/blob/master/images/rocket.service.js)
-
 > _Note: Do not include the `>`_
 
 ### Verifying the Install

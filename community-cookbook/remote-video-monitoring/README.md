@@ -39,11 +39,11 @@ This feature is implemented within the webrtc in-band signaling driver.
 
 The driver is not installed by default.  To install the driver, and the feature, you need to first remove the production webrtc driver:
 
-    meteor remove rocketchat:webrtc
+`meteor remove rocketchat:webrtc`
 
 Then install the in-band driver:
 
-    meteor add rocketchat:webrtc-ib
+`meteor add rocketchat:webrtc-ib`
 
 ### Create location 'users'
 
