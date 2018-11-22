@@ -15,12 +15,13 @@ Install Meteor:
 `curl https://install.meteor.com/ | sh`
 
 Notes here:
+
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Meteor](https://www.meteor.com/install)
 
 Install latest npm:
 
-npm i npm@latest -g
+`npm i npm@latest -g`
 
 Add 'n' so you can easily swap node versions:
 
