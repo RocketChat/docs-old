@@ -79,10 +79,12 @@ This guide covers the following:
 ./letsencrypt-auto certonly --standalone --email <emailaddress@email.com> -d <domain.com> -d <subdomain.domain.com>
 ```
 
-> Note: Second (or more) domain is optional.
+_Note: Second (or more) domain is optional._
+
 - If you would like to restrict traffic to your instance on AWS, you may now restrict the security groups. Make sure you allow **TCP/22** from your current location for the SSH connection, as well as **TCP/443** from the location you wish to use to access from.
 - Check for certificates and keys
     The following files will be created in `/etc/letsencrypt/archive` with symbolic links placed in `/etc/letsencrypt/live/<domain.com>`
+
     - **cert.pem** - domain certificate
     - **chain.pem** - Let's Encrypt chain certificate
     - **fullchain.pem** - both the above certs (This will be your **certificate file**)
