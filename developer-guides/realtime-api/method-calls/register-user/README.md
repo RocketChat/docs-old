@@ -49,28 +49,32 @@ In the case there's an error on the request, a possible error response would be 
 
 ### Possible errors
 
-    "reason": "error-user-registration-disabled",
-    "message": "User registration is disabled [403]",
+```
+"reason": "error-user-registration-disabled",
+"message": "User registration is disabled [403]",
 
-    "reason": "error-user-registration-secret",
-    "message": "User registration is only allowed via Secret URL [403]",
+"reason": "error-user-registration-secret",
+"message": "User registration is only allowed via Secret URL [403]",
 
-    "reason": "error-invalid-customfield-json",
-    "message": "Invalid JSON for Custom Fields [403]",
+"reason": "error-invalid-customfield-json",
+"message": "Invalid JSON for Custom Fields [403]",
+```
 
 #### Custom Fields related
 
-    "reason": "error-user-registration-custom-field",
-    "message": "Field ${ fieldName } is required [403]",
+```
+"reason": "error-user-registration-custom-field",
+"message": "Field ${ fieldName } is required [403]",
 
-    "reason": "error-user-registration-custom-field",
-    "message": "Value for field ${ fieldName } is invalid [403]",
+"reason": "error-user-registration-custom-field",
+"message": "Value for field ${ fieldName } is invalid [403]",
 
-    "reason": "error-user-registration-custom-field",
-    "message": "Max length of field ${ fieldName } ${ field.maxLength } [403]",
+"reason": "error-user-registration-custom-field",
+"message": "Max length of field ${ fieldName } ${ field.maxLength } [403]",
 
-    "reason": "error-user-registration-custom-field",
-    "message": "Min length of field ${ fieldName } ${ field.minLength } [403]",
+"reason": "error-user-registration-custom-field",
+"message": "Min length of field ${ fieldName } ${ field.minLength } [403]",
+```
 
 ## Accounts_CustomFields
 

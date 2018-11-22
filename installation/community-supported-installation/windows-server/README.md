@@ -24,49 +24,49 @@ Then, download and install each of the following **in order**:
 1. [Python 2.7.3](https://www.python.org/ftp/python/2.7.3/python-2.7.3.msi) (if you have Python 3.x already installed, just leave it, both can coexist)
 2. [Visual C++ 2010 Express](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) or Visual Studio 2010
 3. [Windows SDK 7.1](http://www.microsoft.com/en-us/download/details.aspx?id=8279)
-4. [Visual Studio 2010 SP1](http://www.microsoft.com/en-us/download/details.aspx?id=23691)
+4. [Visual Studio 2010 SP1](https://www.microsoft.com/en-us/download/details.aspx?id=34677)
 5. [Visual C++ 2010 SP1 Compiler Update for the Windows SDK 7.1](http://www.microsoft.com/en-us/download/details.aspx?id=4422)
 6. [GraphicsMagick](http://www.graphicsmagick.org/INSTALL-windows.html#prerequisites)
 7. [Ghostscript](http://ghostscript.com/download/gsdnld.html) (Optional for PDF rendering)
 
 ### MongoDB
 
-1. Download [MongoDB](https://www.mongodb.org/downloads#production). (Note: This can be done on a separate computer)
-2. Run the installer and choose `Custom`
-3. Click the `Browse` button to select desired install path, such as `C:\MongoDB`
-4. Continue through the rest of the installer.
-5. Now open NotePad and enter the following, replacing [Data Path] with where the database will be stored, such as `C:\MongoDB\data`
+- Download [MongoDB](https://www.mongodb.org/downloads#production). (Note: This can be done on a separate computer)
+- Run the installer and choose `Custom`
+- Click the `Browse` button to select desired install path, such as `C:\MongoDB`
+- Continue through the rest of the installer.
+- Now open NotePad and enter the following, replacing [Data Path] with where the database will be stored, such as `C:\MongoDB\data`
 
-    ```
-    systemLog:
-        destination: file
-        path: [Data Path]\logs\mongod.log
-    storage:
-        dbPath: [Data Path]\data
-    replication:
-        replSetName: rs1
-    ```
+```
+systemLog:
+    destination: file
+    path: [Data Path]\logs\mongod.log
+storage:
+    dbPath: [Data Path]\data
+replication:
+    replSetName: rs1
+```
 
-6. Save the file as `[Installation Path]\mongod.cfg` where [Installation Path] is the location you installed Mongo
-7. Open the Command Prompt by pressing `Windows Key + R` and then entering `cmd`, right click on Command Prompt and select `Run as administrator`
-8. Now enter the following:
+- Save the file as `[Installation Path]\mongod.cfg` where [Installation Path] is the location you installed Mongo
+- Open the Command Prompt by pressing `Windows Key + R` and then entering `cmd`, right click on Command Prompt and select `Run as administrator`
+- Now enter the following:
 
-  ```
-  > mkdir [Data Path]
-  > cd [Data Path]
-  > mkdir [Data Path]\db
-  > mkdir [Data Path]\logs
+```
+> mkdir [Data Path]
+> cd [Data Path]
+> mkdir [Data Path]\db
+> mkdir [Data Path]\logs
 
-  > cd [Installation Path]\bin
-  > mongod.exe --config "[Installation Path]\mongod.cfg" --install
-  > net start MongoDB
+> cd [Installation Path]\bin
+> mongod.exe --config "[Installation Path]\mongod.cfg" --install
+> net start MongoDB
 
-  > mongo.exe
-  > rs.initiate()
-  > exit
-  ```
+> mongo.exe
+> rs.initiate()
+> exit
+```
 
-  _Note: Do not include the `>`_
+> _Note: Do not include the `>`_
 
 ### Rocket.Chat files
 
@@ -91,32 +91,31 @@ Rocket.Chat is built on top of Node.js v8.9.3. So we need to install this first.
     - [Address to MongoDB] with the IP Address of your MongoDB. (NOTE: If you didn't install Mongo on another computer, use `localhost`)
     - [MongoDB Database] with the name of the database you would like to use, such as `rocketchat`
 
-  ```
-  > SetEnv /x86
-  > cd [Installation Path]
-  > npm install nave -g
-  > npm install node-windows
+```
+> SetEnv /x86
+> cd [Installation Path]
+> npm install nave -g
+> npm install node-windows
 
-  > npm config set python /Python27/python.exe --global
-  > npm config set msvs_version 2010 --global
+> npm config set python /Python27/python.exe --global
+> npm config set msvs_version 2010 --global
 
-  > set PORT=[Port to Use]
-  > set ROOT_URL=[Rocket.Chat URL]
-  > set MONGO_URL=mongodb://[Address to Mongo]:27017/[MongoDB Database]
-  > set MONGO_OPLOG_URL=mongodb://[Address to Mongo]:27017/local
-  > set SCRIPT_PATH=[Installation Path]\main.js
+> set PORT=[Port to Use]
+> set ROOT_URL=[Rocket.Chat URL]
+> set MONGO_URL=mongodb://[Address to Mongo]:27017/[MongoDB Database]
+> set MONGO_OPLOG_URL=mongodb://[Address to Mongo]:27017/local
+> set SCRIPT_PATH=[Installation Path]\main.js
 
-  > cd programs\server
-  > npm install
+> cd programs\server
+> npm install
 
-  > cd ../..
-  > node rocket.service.js install
-  > net start Rocket.Chat
-  ```
+> cd ../..
+> node rocket.service.js install
+> net start Rocket.Chat
+```
 
-  Note: If missing, rocket.service.js can be found [here](https://github.com/Sing-Li/bbug/blob/master/images/rocket.service.js)
-
-  _Note: Do not include the `>`_
+> Note: If missing, rocket.service.js can be found [here](https://github.com/Sing-Li/bbug/blob/master/images/rocket.service.js)
+> _Note: Do not include the `>`_
 
 ### Verifying the Install
 
