@@ -126,6 +126,7 @@
     - Guggy
     - Jenkins
     - Jira
+    - MicroBadger
     - NextCloud and WebDAV
     - NewRelic
     - nixstats
@@ -223,6 +224,7 @@
         - registerGuest
         - sendMessageLivechat
         - sendOfflineMessage
+        - streamlivechatroom
     - Rest API:
       - Assets:
         - setAsset
