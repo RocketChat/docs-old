@@ -8,10 +8,11 @@ To run Rocket.Chat for development on a Linux or a Mac you must first have the f
 
 These will require root privileges:
 
-Install g++ build-essential git mongodb
+Install `g++ build-essential git mongodb`
 
 Install Meteor:
-curl https://install.meteor.com/ | sh
+
+`curl https://install.meteor.com/ | sh`
 
 Notes here:
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
@@ -32,11 +33,11 @@ Once the above pre-requisites are installed open a terminal as a standard user a
 
 You may need to do the following to avoid module errors:
 
-npm postinstall
+`npm postinstall`
 
-npm install sharp chai webpack postcss postcss-syntax fibers
+`npm install sharp chai webpack postcss postcss-syntax fibers`
 
-npm audit fix (just to help) or npm audit fix --force
+`npm audit fix` (just to help) or `npm audit fix --force`
 
 Now start the build:
 
