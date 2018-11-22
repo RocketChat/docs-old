@@ -542,7 +542,7 @@ The Handlebars template used by Rocket.Chat to render messages from a JSON objec
 
 ### Send commands to GitHub
 
-    This script only works for public repositories
+`This script only works for public repositories`
 
 - Create a new **Outgoing WebHook**
 - Select the channel where you will use the commands and receive the responses
