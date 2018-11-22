@@ -8,6 +8,7 @@
 | `/api/v1/im.history` | Retrieves the messages from a direct message. | [Link](history/) |
 | `/api/v1/im.files`   | Retrieves a list of files from a direct message. | [Link](files/)           |
 | `/api/v1/im.members` | Retrieves the users of participants of a direct message. | [Link](members/)         |
+| `/api/v1/im.messages` | Retrieves the messages from specific direct message.  | [Link](messages/)        |
 | `/api/v1/im.messages.others` | Retrieves the messages from any direct message in the server. | [Link](messages-others/) |
 | `/api/v1/im.list` | List the direct messages the caller is part of. | [Link](list/) |
 | `/api/v1/im.list.everyone` | List all direct message the caller in the server. | [Link](list-everyone/) |

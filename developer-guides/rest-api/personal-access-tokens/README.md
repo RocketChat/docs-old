@@ -3,7 +3,7 @@
 With the addition of the ability to generate personal access tokens,
 you can use the REST API without having to sign in.
 
-The administrator must enable the option to generate personal tokens in admin panel (General -> REST API -> Enable Personal Access Tokens to REST API(`API_Enable_Personal_Access_Tokens`)).
+The administrator must grant to the user role the necessary permission (`create-personal-access-tokens`) to be able to generate personal access tokens.
 
 After that you can generate personal access tokens in your profile page(Profile -> My Account -> Security -> Personal Access Tokens).
 
