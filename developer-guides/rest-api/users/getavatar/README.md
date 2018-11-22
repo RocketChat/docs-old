@@ -18,7 +18,9 @@ curl http://localhost:3000/api/v1/users.getAvatar?userId=BsNr28znDkG8aeo7W
 
 ## Example Result
 
-    http://localhost:3000/avatar/bobsmith
+```
+http://localhost:3000/avatar/bobsmith
+```
 
 _N.B. the response is a 307 temporary redirect_
 

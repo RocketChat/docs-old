@@ -57,6 +57,7 @@
         - AutoSSL
     - Mongo Options
     - Mongo Versions
+    - Mongo Replicas
     - Configuring SSL Reverse Proxy
     - PM2, Systemd, Upstart
     - Running in a sub folder
@@ -82,6 +83,7 @@
   - Messaging
   - Channel Actions
   - Managing your Account
+  - End to End Encryption
   - Voice and Video Conferencing
 - Administrator guides:
   - Account Settings
@@ -124,12 +126,13 @@
     - Guggy
     - Jenkins
     - Jira
+    - MicroBadger
+    - NextCloud and WebDAV
     - NewRelic
     - nixstats
     - Osticket
     - PagerDuty
     - Prometheus
-    - ReplyGif
     - ReviewBoard
     - RunDeck
     - Sentry
@@ -147,6 +150,7 @@
   - Notifications:
     - Push Notifications
   - Permissions
+  - Custom Fields
   - Plug-ins:
     - Drupal
     - Pidgin
@@ -170,6 +174,7 @@
     - Internationalization
     - Livechat API
     - Mobile Apps:
+      - Analytics & Data Usage
       - Supporting SSL
       - Supported Servers Versions
     - Realtime-API:
@@ -219,6 +224,7 @@
         - registerGuest
         - sendMessageLivechat
         - sendOfflineMessage
+        - streamlivechatroom
     - Rest API:
       - Assets:
         - setAsset
@@ -250,6 +256,7 @@
         - list.joined
         - list
         - members
+        - messages
         - moderators
         - open
         - removeModerator
@@ -302,8 +309,9 @@
         - leave
         - list
         - listAll
-        - moderators
         - members
+        - messages
+        - moderators
         - open
         - removeModerator
         - removeOwner
@@ -326,6 +334,7 @@
         - list.everyone
         - list
         - members
+        - messages
         - messages.others
         - open
         - setTopic
@@ -335,9 +344,16 @@
         - list
         - remove
       - Livechat:
+        - agent
+        - config
+        - custom-fields
         - department
+        - message
+        - room
         - sms-incoming
         - users
+        - video-call
+        - visitor
       - Miscellaneous:
         - directory
         - info
@@ -359,6 +375,8 @@
         - cleanHistory
         - favorite
         - get
+        - info
+        - leave
         - saveNotification
         - upload
       - Settings:

@@ -18,7 +18,9 @@ Here is a list of events triggered from Rocket.Chat when the iframe integration 
 
 Above there is a sample code that listens to events fired from Rocket.Chat opened on an `iframe`:
 
-    window.addEventListener('message', function(e) {
-        console.log(e.data.eventName); // event name
-        console.log(e.data.data); // event data
-    });
+```js
+window.addEventListener('message', function(e) {
+    console.log(e.data.eventName); // event name
+    console.log(e.data.data); // event data
+});
+```

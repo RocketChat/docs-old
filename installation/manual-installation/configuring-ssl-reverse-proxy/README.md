@@ -33,6 +33,9 @@ server {
     listen 443;
     server_name your_hostname.com;
 
+    # You can increase the limit if your need to.
+    client_max_body_size 200M;
+
     error_log /var/log/nginx/rocketchat.access.log;
 
     ssl on;
