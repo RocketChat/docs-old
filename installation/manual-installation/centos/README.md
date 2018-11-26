@@ -23,6 +23,7 @@ Install build tools, MongoDB, nodejs and graphicsmagick:
 ```
 sudo yum install -y gcc-c++ make mongodb-org nodejs
 ```
+
 ```
 sudo yum install -y epel-release && sudo yum install -y GraphicsMagick
 ```
