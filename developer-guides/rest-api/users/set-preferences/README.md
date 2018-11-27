@@ -55,31 +55,36 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```json
 {
     "success": true,
-    "preferences": {
-        "newRoomNotification": "door",
-        "newMessageNotification": "chime",
-        "muteFocusedConversations": true,
-        "useEmojis": true,
-        "convertAsciiEmoji": true,
-        "saveMobileBandwidth": true,
-        "collapseMediaByDefault": false,
-        "autoImageLoad": true,
-        "emailNotificationMode": "all",
-        "roomsListExhibitionMode": "category",
-        "unreadAlert": true,
-        "notificationsSoundVolume": 100,
-        "desktopNotifications": "default",
-        "mobileNotifications": "default",
-        "enableAutoAway": true,
-        "highlights": [],
-        "desktopNotificationDuration": 0,
-        "viewMode": 0,
-        "hideUsernames": false,
-        "hideRoles": false,
-        "hideAvatars": false,
-        "hideFlexTab": false,
-        "sendOnEnter": "normal",
-        "roomCounterSidebar": false
+    "user": {
+        "_id": "rocketchat.internal.admin.test",
+        "settings": {
+            "preferences": {
+                "newRoomNotification": "door",
+                "newMessageNotification": "chime",
+                "muteFocusedConversations": true,
+                "useEmojis": true,
+                "convertAsciiEmoji": true,
+                "saveMobileBandwidth": true,
+                "collapseMediaByDefault": false,
+                "autoImageLoad": true,
+                "emailNotificationMode": "all",
+                "roomsListExhibitionMode": "category",
+                "unreadAlert": true,
+                "notificationsSoundVolume": 100,
+                "desktopNotifications": "default",
+                "mobileNotifications": "default",
+                "enableAutoAway": true,
+                "highlights": [],
+                "desktopNotificationDuration": 0,
+                "viewMode": 0,
+                "hideUsernames": false,
+                "hideRoles": false,
+                "hideAvatars": false,
+                "hideFlexTab": false,
+                "sendOnEnter": "normal",
+                "roomCounterSidebar": false
+            }
+        }
     }
 }
 ```
