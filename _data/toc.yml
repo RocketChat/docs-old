@@ -291,6 +291,8 @@
         - get
         - list
         - run
+      - Emoji Custom:
+        - get
       - Groups:
         - addAll
         - addModerator
