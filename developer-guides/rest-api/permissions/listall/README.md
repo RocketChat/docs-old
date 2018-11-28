@@ -36,20 +36,20 @@ curl -H "X-Auth-Token: ijFlJ1yfidXhwEYY284Anoq_iEsOeMMVCupzNhX22tB" \
 {
   "update": [
     {
-		"_id": "access-permissions",
-		"_updatedAt": "2018-11-28T11:55:49.106Z",
-		"roles": [
-			"admin"
-		]
-	},
-	{
-		"_id": "add-oauth-service",
-		"_updatedAt": "2018-11-28T12:59:51.974Z",
-		"roles": [
-			"admin",
-			"user"
-		]
-	}
+       "_id": "access-permissions",
+       "_updatedAt": "2018-11-28T11:55:49.106Z",
+       "roles": [
+           "admin"
+       ]
+    },
+    {
+        "_id": "add-oauth-service",
+        "_updatedAt": "2018-11-28T12:59:51.974Z",
+        "roles": [
+           "admin",
+           "user"
+         ]
+   }
   ],
   "remove": [],
   "success": true
