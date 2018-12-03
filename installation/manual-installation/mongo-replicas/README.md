@@ -74,7 +74,7 @@ In Ubuntu or Debian open file `/lib/systemd/system/rocketchat.service`
 and add this to the Environment line:
 
 ```
-MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=001-rs
+MONGO_OPLOG_URL=mongodb://localhost:27017/local?replSet=001-rs
 ```
 
 Reload systemd state and restart Rocket.Chat:
