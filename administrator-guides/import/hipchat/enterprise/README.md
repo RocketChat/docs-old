@@ -1,10 +1,10 @@
-# HipChat Enterprise
+# HipChat Server / Data Center
 
-To import your current data from HipChat Enterprise into Rocket.Chat, please do the following.
+To import your current data from HipChat Server / Data Center into Rocket.Chat, please do the following.
 
-## Export from HipChat Enterprise
+## Export from HipChat Server / Data Center
 
-This is a copy from the HipChat Enterprise Documentation:
+This is a copy from the HipChat Server / Data Center Documentation:
 
 1. Browse to the fully qualified domain name you've configured for your HipChat Server, for example `https://hipchat.yourcompany.com/`.
 2. Log into the web user interface (UI) using your administrator email and password.
