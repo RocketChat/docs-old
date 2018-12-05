@@ -6,10 +6,10 @@ To configure the replica set:
 
 ## For older MongoDB versions (2.4 and below)
 
-Append `replSet=001-rs` into `mongod.conf` file:
+Append `replSet=rs01` into `mongod.conf` file:
 
 ```bash
-echo replSet=001-rs | sudo tee -a /etc/mongod.conf
+echo replSet=rs01 | sudo tee -a /etc/mongod.conf
 ```
 
 ## For new MongoDB versions (2.6 and above)
@@ -17,7 +17,7 @@ echo replSet=001-rs | sudo tee -a /etc/mongod.conf
 Using YAML syntax add this section into `mongod.conf`:
 
 ```bash
-echo -e "replication:\n  replSetName: \"001-rs\"" | sudo tee -a /etc/mongod.conf
+echo -e "replication:\n  replSetName: \"rs01\"" | sudo tee -a /etc/mongod.conf
 ```
 
 ## Restart MongoDB and inititate the replica set
@@ -51,15 +51,15 @@ The output of the command should look like this:
         }
     }
 }
-001-rs:SECONDARY>
+rs01:SECONDARY>
 ```
 
 Note the "ok" value should be 1.  Any other value, i.e. 93, means something is wrong.
 
-Hit enter, you should see your prompt turn into `001-rs:PRIMARY>`, this indicates the replica set is being used. Type exit to get back to your regular shell:
+Hit enter, you should see your prompt turn into `rs01:PRIMARY>`, this indicates the replica set is being used. Type exit to get back to your regular shell:
 
 ```
-001-rs:PRIMARY> exit
+rs01:PRIMARY> exit
 bye
 ```
 
@@ -74,7 +74,7 @@ In Ubuntu or Debian open file `/lib/systemd/system/rocketchat.service`
 and add this to the Environment line:
 
 ```
-MONGO_OPLOG_URL=mongodb://localhost:27017/local?replSet=001-rs
+MONGO_OPLOG_URL=mongodb://localhost:27017/local?replSet=rs01
 ```
 
 Reload systemd state and restart Rocket.Chat:
