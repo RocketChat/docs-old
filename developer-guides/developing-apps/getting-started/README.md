@@ -39,9 +39,41 @@ You can check the [app-schema.json](https://github.com/RocketChat/Rocket.Chat.Ap
 }
 ```
 
+### Testing the App
+
+Now that you have your App ready, you can test it before submitting it.
+
+To test your app, you need a Rocket.Chat server running locally on your machine and a admin user in it. Having the server running, simply run:
+
+`rc-apps deploy --url http://localhost:3000 --username user_username --password user_password`
+
+Where:
+
+`http://localhost:3000` is your local server URL (if you are running in another port, change the `3000` to the appropriate port)
+
+`user_username` is the username of your admin user.
+
+`user_password` is the password of your admin user.
+
+After deploying for the first time, when updating the deployment you will need to run:
+
+`rc-apps deploy --url http://localhost:3000 --username user_username --password user_password --update`
+
 ### Packaging the app
 
 Currently the Rocket.Chat servers and Marketplace allow submission of zip files, these files can be created by running `rc-apps package`  which packages your app and creates the zip file under `dist` folder.
+
+### Submitting Your App to the Marketplace
+
+So, you just finished writing your first Rocket.Chat App, and you have successfully tested it locally which means you are ready to submit it to the Marketplace for others to use. You can now submit your App to the Marketplace.
+
+to submit your App simply run:
+
+`rc-apps submit`
+
+#### Review process
+
+When you submit an App, there is a three-step process that takes places. The first step, you submit the App to the Marketplace (explained below). Secondly, you will receive an email that asks for you to approve or reject the App submission (more on this later as well). Finally, after you approve the entry, then our staff will review it and determine whether it is approved or not.
 
 ## Start Developing
 
