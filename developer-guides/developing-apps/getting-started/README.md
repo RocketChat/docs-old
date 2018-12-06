@@ -1,0 +1,44 @@
+# Getting Started
+
+Here you will find how to use some basic commands of the cli, as well as adding a description file to it.
+
+## Rocket.Chat App Engine CLI
+
+It all starts with the apps engine [Command Line Interface (CLI)](https://github.com/RocketChat/Rocket.Chat.Apps-cli). This is the tool that will be used to create, run and publish your app.
+
+### Installing the Apps CLI
+
+You can use [npm](https://www.npmjs.com/) to install the CLI, simply run on your console:
+
+`npm install -g @rocket.chat/apps-cli`
+
+> Note: You need [Node.js](https://nodejs.org/en/) installed do use npm and the Apps CLI
+
+### Creating a Example App
+
+The development tools provide a command to quickly scaffold a new Rocket.Chat App, simply run `rc-apps create` and a new folder will be created inside the current working directory with a basic App which does nothing but will compile and be packaged in the dist folder.
+
+After that you will need to create a file with your app information, this file is called `app.json`.
+
+You can check the [app-schema.json](https://github.com/RocketChat/Rocket.Chat.Apps-cli) file for all the detailed information and fields allowed in the app description file, the basic structure is similar to this:
+
+```json
+{
+    "id": "5cb9a329-0613-4d39-b20f-cc2cc9175df5",
+    "name": "App Name",
+    "nameSlug": "app-name",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.3.2",
+    "description": "App which provides something very useful for Rocket.Chat users.",
+    "author": {
+        "name": "Author Name <author@email.com>",
+        "support": "Support Url or Email"
+    },
+    "classFile": "main.ts",
+    "iconFile": "beautiful-app-icon.jpg"
+}
+```
+
+### Packaging the app
+
+Currently the Rocket.Chat servers and Marketplace allow submission of zip files, these files can be created by running `rc-apps package`  which packages your app and creates the zip file under dist folder.
