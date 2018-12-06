@@ -12,7 +12,7 @@ If you would like to enable TLS on your site like this `https://yoursite.com` wh
 
 This tutorial was tested on Ubuntu 16.04 using Rocket.Chat 0.70.0
 
-Rocket.Chat recommends MongoDB version 3.6 and NodeJS version 8.11.3.
+Rocket.Chat recommends MongoDB version 3.6 and Node.js version 8.11.3.
 
 ### Install necessary dependency packages
 
