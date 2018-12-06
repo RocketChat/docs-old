@@ -43,7 +43,7 @@ You can check the [app-schema.json](https://github.com/RocketChat/Rocket.Chat.Ap
 
 Now that you have your App ready, you can test it before submitting it.
 
-To test your app, you need a Rocket.Chat server running locally on your machine and a admin user in it. Having the server running, simply run:
+To test your app, you need a Rocket.Chat server running locally on your machine and a admin user in it (See [Installing Rocket.Chat for Developing](../../quick-start/)). Having the server running, simply run:
 
 `rc-apps deploy --url http://localhost:3000 --username user_username --password user_password`
 
