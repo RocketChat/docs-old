@@ -41,4 +41,32 @@ You can check the [app-schema.json](https://github.com/RocketChat/Rocket.Chat.Ap
 
 ### Packaging the app
 
-Currently the Rocket.Chat servers and Marketplace allow submission of zip files, these files can be created by running `rc-apps package`  which packages your app and creates the zip file under dist folder.
+Currently the Rocket.Chat servers and Marketplace allow submission of zip files, these files can be created by running `rc-apps package`  which packages your app and creates the zip file under `dist` folder.
+
+## Start Developing
+
+The basic creation of an App is based on extending the App class from the Rocket.Chat Apps definition library. Your class also has to implement the constructor and optionally the initialize function, for more details on those check the [App definition documentation](https://rocketchat.github.io/Rocket.Chat.Apps-engine/classes/app.html).
+
+Most of your app functionality comes from the `{YOUR APP NAME}.ts` file, in the example down below the file is called `TodoListApp.ts`
+
+```javascript
+import {
+    IConfigurationExtend,
+    IConfigurationModify,
+    IEnvironmentRead,
+    ILogger,
+} from '@rocket.chat/apps-engine/definition/accessors';
+import { App } from '@rocket.chat/apps-engine/definition/App';
+import { IAppInfo } from '@rocket.chat/apps-engine/definition/metadata';
+
+export class TodoListApp extends App {
+    constructor(info: IAppInfo, logger: ILogger) {
+        super(info, logger);
+    }
+
+    public async initialize(configurationExtend: IConfigurationExtend, environmentRead: IEnvironmentRead): Promise<void> {
+        await this.extendConfiguration(configurationExtend, environmentRead);
+        this.getLogger().log('Hello world from my app');
+    }
+}
+```
