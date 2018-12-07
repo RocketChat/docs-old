@@ -47,7 +47,9 @@ To test your app, you need a Rocket.Chat server running locally on your machine 
 
 See [Installing Rocket.Chat for Developing](../../quick-start/) to run Rocket.Chat in develop mode or run it in preview mode with docker using the command:
 
-```docker run -it --rm -p 3000:3000 -v `pwd`/rocketdb:/var/lib/mongodb rocketchat/rocket.chat.preview```
+```
+docker run -it --rm -p 3000:3000 -v `pwd`/rocketdb:/var/lib/mongodb rocketchat/rocket.chat.preview
+```
 
  Having the server running, simply run:
 
