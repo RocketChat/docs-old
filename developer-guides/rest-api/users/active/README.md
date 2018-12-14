@@ -6,7 +6,6 @@ Gets all active users.
 | :--- | :--- | :--- |
 | `/api/v1/users.active` | `yes` | `GET` |
 
-
 ## Other Users Example Call
 
 ```bash
@@ -18,16 +17,16 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ## Example Result
 
 ```json
-{  
-   "users":[  
-      {  
+{
+   "users":[
+      {
          "_id":"rocket.cat",
          "name":"Rocket.Cat",
          "username":"rocket.cat",
          "status":"online",
          "utcOffset":0
       },
-      {  
+      {
          "_id":"rocketchat.internal.admin.test",
          "name":"RocketChat Internal Admin Test",
          "username":"rocketchat.internal.admin.test",
