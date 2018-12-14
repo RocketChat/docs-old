@@ -2,6 +2,7 @@
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
+| `/api/v1/users.active` | Gets all active users. | [Link](active/) |
 | `/api/v1/users.create` | Create a new user. | [Link](create/) |
 | `/api/v1/users.createToken` | Create a user authentication token. | [Link](createtoken/) |
 | `/api/v1/users.delete` | Deletes an existing user. | [Link](delete/) |

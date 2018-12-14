@@ -395,6 +395,7 @@
         - read
         - unread
       - Users:
+        - active
         - create
         - createToken
         - delete
