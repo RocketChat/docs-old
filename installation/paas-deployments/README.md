@@ -24,6 +24,7 @@ If you need full control of your deployment, here are some guides for specific e
 - [IBM Bluemix](ibm-bluemix/)
 - [Sloppy.io](sloppy-io/)
 - [D2C.io](d2c-io)
+- [Syncloud.org](syncloud-org)
 
 ## Automation Tools
 
