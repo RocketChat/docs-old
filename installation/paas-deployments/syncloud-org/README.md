@@ -8,4 +8,4 @@
 
 Read more at [syncloud.org](https://syncloud.org)
 
-[![Syncloud](https://syncloud.org/images/logo_min.svg)](https://syncloud.org) 
+[![Syncloud](https://syncloud.org/images/logo_min.svg)](https://syncloud.org)
