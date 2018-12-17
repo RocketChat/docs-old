@@ -37,3 +37,4 @@ This is a copy from the HipChat Server / Data Center Documentation:
 
 1. In case you get `digital envelope routines:EVP_DecryptFinal_ex:bad decrypt:../crypto/evp/evp_enc.c:541:` while decrypting add the parameter `-md md5` see <https://www.openssl.org/docs/faq.html#USER3>
 2. If the import fails for large HipChat exports it may help to *not* export file attachments. see <https://github.com/RocketChat/Rocket.Chat/issues/11693>
+3. If you still have problems contact us at support@rocket.chat and provide your server logs if available
