@@ -1,10 +1,10 @@
-# HipChat Enterprise
+# HipChat Server / Data Center
 
-To import your current data from HipChat Enterprise into Rocket.Chat, please do the following.
+To import your current data from HipChat Server / Data Center into Rocket.Chat, please do the following.
 
-## Export from HipChat Enterprise
+## Export from HipChat Server / Data Center
 
-This is a copy from the HipChat Enterprise Documentation:
+This is a copy from the HipChat Server / Data Center Documentation:
 
 1. Browse to the fully qualified domain name you've configured for your HipChat Server, for example `https://hipchat.yourcompany.com/`.
 2. Log into the web user interface (UI) using your administrator email and password.
@@ -37,3 +37,4 @@ This is a copy from the HipChat Enterprise Documentation:
 
 1. In case you get `digital envelope routines:EVP_DecryptFinal_ex:bad decrypt:../crypto/evp/evp_enc.c:541:` while decrypting add the parameter `-md md5` see <https://www.openssl.org/docs/faq.html#USER3>
 2. If the import fails for large HipChat exports it may help to *not* export file attachments. see <https://github.com/RocketChat/Rocket.Chat/issues/11693>
+3. If you still have problems contact us at support@rocket.chat and provide your server logs if available

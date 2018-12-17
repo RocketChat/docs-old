@@ -1,6 +1,6 @@
 # Subscriptions Get
 
-Get all subscriptions.
+Get all subscriptions. Please note that the **unread** counter value depends on your settings at the *Administration => General* section.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
