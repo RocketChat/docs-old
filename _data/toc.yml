@@ -278,6 +278,7 @@
         - unarchive
       - Chat:
         - delete
+        - getDeletedMessages
         - getMessage
         - getMessageReadReceipts
         - pinMessage
