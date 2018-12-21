@@ -11,7 +11,7 @@ Retrieve message read receipts. It supports ONLY the [Offset and Count Query Par
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The room id |
-| `since` | `2018-12-12T00:11:22.345Z` | Required | The date (ISODate) to search deleted messages (including the specific date) |
+| `since` | `2018-12-12T00:11:22.345Z` | Required | The date (ISODate) to search deleted messages |
 
 ## Example Call
 
