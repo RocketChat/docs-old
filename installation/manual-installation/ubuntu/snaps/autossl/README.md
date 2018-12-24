@@ -60,7 +60,7 @@ sudo snap set rocketchat-server caddy=disable
 
 Then, edit the Caddyfile found at `/var/snap/rocketchat-server/current/Caddyfile` and write your configuration.
 
-Replace `_caddy-url_` and `port` with your site information.  For instance, let's say I have example-domain.com pointing at my server.
+Replace `_caddy-url_` and `_port_` with your site information.  For instance, let's say I have example-domain.com pointing at my server.
 
 First, be sure that your DNS has finished resolving before **before** attempting to enable SSL. If your DNS is not working yet, you could be instantly [throttled by Let's Encrypt](https://caddyserver.com/docs/automatic-https#testing) for _up to a week_. To test your DNS you can use http:
 
