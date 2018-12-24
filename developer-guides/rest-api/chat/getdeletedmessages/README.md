@@ -27,22 +27,13 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 {
     "messages": [
         {
-            "_id": "W32fr3LjPxQ2TQH8A",
-            "rid": "ByehQjC44FwMeiLbX",
-            "msg": "asdsadasdas",
-            "ts": "2018-12-20T18:41:51.106Z",
-            "u": {
-                "_id": "rocketchat.internal.admin.test",
-                "username": "rocketchat.internal.admin.test",
-                "name": "RocketChat Internal Admin Test"
-            },
-            "_updatedAt": "2018-12-20T18:41:51.148Z",
-            "mentions": [],
-            "channels": [],
-            "_deletedAt": "2018-12-14T18:43:39.554Z"
+            "_id": "W32fr3LjPxQ2TQH8A"
+        },
+        {
+            "_id": "D43CH4HC2J43C2JB4"
         }
     ],
-    "count": 1,
+    "count": 2,
     "offset": 2,
     "total": 91,
     "success": true
