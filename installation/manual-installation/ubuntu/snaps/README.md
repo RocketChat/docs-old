@@ -227,3 +227,44 @@ cp /usr/bin/strace prime
 snap run <snap.app> --shell
 sudo ./strace
 ```
+
+### How do I change rocket.chat PORT, MONGO_URL and MONGO_OPLOG_URL in my snap?
+
+Starting from relase 0.73 is possible to configure these environmental variables through snap hooks like this:
+
+```bash
+sudo snap set rocketchat-server port=<another-port>
+sudo snap set rocketchat-server mongo-url=mongodb://<your-url>:<your-port>/<your-db-name>
+sudo snap set rocketchat-server mongo-oplog-url=mongodb://<your-url>:<your-port>/local
+```
+
+Remember to restart rocket.chat service after setting new values:
+
+```bash
+sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
+```
+
+This is an example to run rocket.chat on port 4000 instead of 3000 and set database name to rocketchat instead of parties:
+
+```bash
+sudo snap set rocketchat-server port=4000
+sudo snap set rocketchat-server mongo-url=mongodb://localhost:27017/rocketchat
+sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
+```
+
+### How do I change other environmental variables in my snap?
+
+Starting from relase 0.73 is possible to overwrite any rocket.chat environmental variables dropping files ending in `.env` in $SNAP_COMMON directroy (`/var/snap/rocketchat-server/common/`), for example you can create a file to change SMTP settings:
+
+```bash
+cat /var/snap/rocketchat-server/common/overwrite-smtp.env
+OVERWRITE_SETTING_SMTP_Host=my.smtp.server.com
+```
+
+Remember to restart rocket.chat service after creating .env files:
+
+```bash
+sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
+```
+
+More than one .env file is allowed, and more than one environmental variable defined per file is allowed.
