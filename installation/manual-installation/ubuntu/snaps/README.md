@@ -117,7 +117,7 @@ sudo snap run rocketchat-server.backupdb
 #### 3. If all goes well, you will see some output similar to:
 
 ```
-[+] A backup of your data can be found at /var/snap/rocketchat-server/common/backups/rocketchat_backup_<timestamp>.tgz
+[+] A backup of your data can be found at  /var/snap/rocketchat-server/common/backup/rocketchat_backup_<timestamp>.tar.gz
 ```
 
 #### 4. Start your rocketchat-server:
