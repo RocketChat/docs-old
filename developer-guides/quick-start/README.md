@@ -34,7 +34,7 @@ Once the above pre-requisites are installed open a terminal as a standard user a
 
 You may need to do the following to avoid module errors:
 
-`npm postinstall`
+`npm run postinstall`
 
 `npm install sharp chai webpack postcss postcss-syntax fibers`
 
