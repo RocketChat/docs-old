@@ -63,6 +63,27 @@ rs01:PRIMARY> exit
 bye
 ```
 
+Depending on your network settings, including /etc/hosts and DNS, if you have configured Rocket.Chat to use localhost:27017 you may see an error similar to this:
+
+```[conn1] created this configuration for initiation : { _id: "rs0", version: 1, members: [ { _id: 0, host: "test:27017" } ] }```
+
+rs.initiate() may be defaulting to the host name e.g. 'test'
+
+You can force a different hostname as follows:
+
+```
+rs.initiate({ _id: 'rs0', members: [ { _id: 0, host: 'localhost:27017' } ]})
+```
+
+You should get a response similar to:
+
+```
+> rs.initiate({ _id: 'rs0', members: [ { _id: 0, host: 'localhost:27017' } ]})
+{ "ok" : 1 }
+rs0:OTHER> 
+```
+
+
 ## Reconfigure and restart Rocket.Chat service
 
 After you configured  replica set, you **MUST** add the `MONGO_OPLOG_URL` environment variable to the service definition and restart Rocket.Chat server.
