@@ -72,13 +72,13 @@ rs.initiate() may be defaulting to the host name e.g. 'test'
 You can force a different hostname as follows:
 
 ```
-rs.initiate({ _id: 'rs0', members: [ { _id: 0, host: 'localhost:27017' } ]})
+rs.initiate({ _id: 'rs01', members: [ { _id: 0, host: 'localhost:27017' } ]})
 ```
 
 You should get a response similar to:
 
 ```
-> rs.initiate({ _id: 'rs0', members: [ { _id: 0, host: 'localhost:27017' } ]})
+> rs.initiate({ _id: 'rs01', members: [ { _id: 0, host: 'localhost:27017' } ]})
 { "ok" : 1 }
 rs0:OTHER> 
 ```
