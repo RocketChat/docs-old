@@ -253,6 +253,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/subscriptions.read`      | `POST`  |  Mark a room as read.              | [Link](subscriptions/read/)       |
 | `/api/v1/subscriptions.unread`    | `POST`  | Mark messages as unread.           | [Link](subscriptions/unread/)     |
 
+### Video Conference
+
+| Url                                              | Short Description                                           | Details Page                                   |
+| :----------------------------------------------- | :---------------------------------------------------------- | :-----------------------------------------     |
+| `/api/v1/video-conference/jitsi.update-timeout`  | Updates the timeout of Jitsi video conference in a channel. | [Link](video-conference/jitsi-update-timeout)  |
+
 ## Language specific wrappers
 
 ### Java
