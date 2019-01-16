@@ -254,6 +254,7 @@
         - history
         - info
         - invite
+        - join
         - kick
         - leave
         - list.joined
