@@ -26,7 +26,7 @@ If you have questions about snaps best place to ask them is at the [#ubuntu-snap
 
 Snaps are our biggest install base. As a result we like to spend more time testing before releasing. Updated Snaps are usually released around the 15th of the month - around 2 weeks after a new release. This gives us time to look for issues so you don't have to.
 
-If you want to keep more up to date with Rocket.Chat releases then please consider another installation method e.g docker
+If you have special requirements and really need to use the latest release immediately then please consider another installation method e.g docker
 
 ### How do I access my site at a different port?  How do I enable TLS/SSL with my snap?
 
