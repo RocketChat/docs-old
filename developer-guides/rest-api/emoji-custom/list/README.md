@@ -1,4 +1,4 @@
-# Command Get
+# Emoji custom list
 
 List all custom emojis available.
 

@@ -294,6 +294,11 @@
         - get
         - list
         - run
+      - Emoji Custom:
+        - create
+        - delete
+        - list
+        - update
       - Groups:
         - addAll
         - addModerator

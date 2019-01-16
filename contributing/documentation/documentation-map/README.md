@@ -311,6 +311,11 @@ Here you can also find what articles are incomplete and missing.
             - get
             - list
             - run
+        - Emoji Custom:
+            - create
+            - delete
+            - list
+            - update
         - Groups:
             - addAll
             - addModerator
