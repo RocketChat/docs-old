@@ -22,7 +22,7 @@ sudo apt-get install snapd
 
 If you have questions about snaps best place to ask them is at the [#ubuntu-snap](https://open.rocket.chat/channel/ubuntu-snap) channel.
 
-### When will my snap installation get the latest updates?
+### When will my snap installation get the latest release?
 
 Snaps are one of our biggest install base. They are also auto updating.  As a result we like to spend more time testing before releasing. Updated Snaps are usually released around the 15th of the month - around 2 weeks after a new release. This gives us time to look for issues so you don't have to.
 
