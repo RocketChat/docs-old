@@ -16,6 +16,8 @@
   - Security:
     - Responsible Disclosure Policy
   - Translating
+  - Website:
+    - Webinars
 - Getting Support
 - Installation:
   - Rocket.Chat Cloud
@@ -419,10 +421,6 @@
       - Offset and Count and Sort Info
       - Query and Fields Info
       - Personal Access Tokens
-    - GraphQL API:
-      - Authentication
-      - Schema
-      - Subscription
     - Schema Definition
     - Testing
     - Troubleshooting
