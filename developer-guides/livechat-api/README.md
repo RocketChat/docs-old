@@ -81,7 +81,12 @@ RocketChat(function() {
     this.registerGuest({
       token: 'FHwaLnp8fzjMupSAj', // The token field is not required. If it is not passed, a new token will be generated
       name: 'visitor Name',
-      email: 'sample@rocket.chat'
+      email: 'sample@rocket.chat',
+      department: 'my_department', // The department field is not required,
+      customFields: [ // The customFields field is not required. If it is passed it needs to be an Array, where each item needs to be an object with key and value fields
+            {key:  'my_custom_field_a', value: 'my_custom_field_a_value'},
+            {key:  'my_custom_field_b', value: 'my_custom_field_b_value'}
+     ]
   });
 });
 ```

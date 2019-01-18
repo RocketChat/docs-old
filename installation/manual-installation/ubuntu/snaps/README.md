@@ -22,6 +22,12 @@ sudo apt-get install snapd
 
 If you have questions about snaps best place to ask them is at the [#ubuntu-snap](https://open.rocket.chat/channel/ubuntu-snap) channel.
 
+### When will my snap installation get the latest release?
+
+Snaps are one of our biggest install base. They are also auto updating.  As a result we like to spend more time testing before releasing. Updated Snaps are usually released around the 15th of the month - around 2 weeks after a new release. This gives us time to look for issues so you don't have to.
+
+If you have special requirements and really need to use the latest release immediately then please consider another installation method e.g docker
+
 ### How do I access my site at a different port?  How do I enable TLS/SSL with my snap?
 
 Check out our guide for enabling caddy [here](../../../../installation/manual-installation/ubuntu/snaps/autossl/).
