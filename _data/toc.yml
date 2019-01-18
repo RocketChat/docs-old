@@ -16,6 +16,8 @@
   - Security:
     - Responsible Disclosure Policy
   - Translating
+  - Website:
+    - Webinars
 - Getting Support
 - Installation:
   - Rocket.Chat Cloud
@@ -143,7 +145,7 @@
     - Uptime Robot
   - Google Cloud:
     - Auto Translate
-  - Google Drive
+  # - Google Drive
   - Setting Up Video Conferencing
   - Livechat:
     - Livechat Queues
@@ -254,6 +256,7 @@
         - history
         - info
         - invite
+        - join
         - kick
         - leave
         - list.joined
@@ -419,10 +422,6 @@
       - Offset and Count and Sort Info
       - Query and Fields Info
       - Personal Access Tokens
-    - GraphQL API:
-      - Authentication
-      - Schema
-      - Subscription
     - Schema Definition
     - Testing
     - Troubleshooting

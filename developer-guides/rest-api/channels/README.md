@@ -18,6 +18,7 @@ These methods apply to public channels only. Use `groups.*` methods for private 
 | `/api/v1/channels.history` | Retrieves the messages from a channel. | [Link](history/) |
 | `/api/v1/channels.info` | Gets a channel's information. | [Link](info/) |
 | `/api/v1/channels.invite` | Adds a user to a channel. | [Link](invite/) |
+| `/api/v1/channels.join` | Joins yourself to a channel. | [Link](join/) |
 | `/api/v1/channels.kick` | Removes a user from a channel. | [Link](kick/) |
 | `/api/v1/channels.leave` | Removes the calling user from a channel. | [Link](leave/) |
 | `/api/v1/channels.list` | Retrieves all of the channels from the server. | [Link](list/) |
