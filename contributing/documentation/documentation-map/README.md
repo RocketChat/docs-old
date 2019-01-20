@@ -430,6 +430,8 @@ Here you can also find what articles are incomplete and missing.
             - set-preferences
             - update
             - updateOwnBasicInfo
+        - Video Conference:
+            - jitsi-update-timeout
         - Offset and Count and Sort Info
         - Query and Fields Info
         - Personal Access Tokens
