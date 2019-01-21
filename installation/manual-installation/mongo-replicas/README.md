@@ -83,7 +83,6 @@ You should get a response similar to:
 rs0:OTHER> 
 ```
 
-
 ## Reconfigure and restart Rocket.Chat service
 
 After you configured  replica set, you **MUST** add the `MONGO_OPLOG_URL` environment variable to the service definition and restart Rocket.Chat server.
