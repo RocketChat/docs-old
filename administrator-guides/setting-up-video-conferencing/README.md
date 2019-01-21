@@ -8,7 +8,7 @@ We recommend using Jitsi for video conference, since RocketChat Meet is still a 
 
 You can use the [Jitsi Meet](https://jitsi.org/jitsi-meet/) video conferencing platform embedded in Rocket.Chat.
 
-The [Jitsi Meet prject](https://jitsi.org/Projects/JitsiMeet) (Jitsi Video Bridge) is a tried and true bandwidth efficient WebRTC compatible SFU (server based)
+The [Jitsi Meet project](https://jitsi.org/Projects/JitsiMeet) (Jitsi Video Bridge) is a tried and true bandwidth efficient WebRTC compatible SFU (server based)
 solution from our gracious FOSS partner, [Jitsi](https://jitsi.org/).
 
 Through the collaboration arrangement with Jitsi, Rocket.Chat users can enjoy reliable and robust
