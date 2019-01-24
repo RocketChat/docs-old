@@ -7,27 +7,21 @@ Instead of using the standard Docker commands, you may wish for a bit more autom
 - Edit `image: rocketchat/rocket.chat:develop` to specify which image you wish to use (see section [Docker Images Available](../available-images/) )
 - Edit `ROOT_URL` to match your domain name or IP address
 
-Start the mongodb server by:
+Start the the stack with:
 
 ```
-docker-compose up -d mongo
+docker-compose up -d
 ```
 
-The first time you start mongo, you'll also need to initialize it before being able to use Rocket.Chat. Ensure that mongo is in the running state, then:
+That will:
 
-```
-docker-compose up -d mongo-init-replica
-```
+* Start a MongoDB service named `mongo`.
+* Start a service named `mongo-init-replica` that will wait for `mongo` to be ready, connect to it, initialize it and terminate itself (`mongo` will keep running).
+* Start a service `rocketchat`, that will also wait for `mongo` to be ready, the `mongo-init-replica` to initialize, and then run Rocket.Chat.
 
 Mongo supports 24 x 7 operations and live backup.  You should not need to restart it too frequently.  See  [mongodb documentations](https://docs.mongodb.org/manual/) for proper operation and management of a mongo server.
 
-Once you're sure that mongodb is up and running:
-
-```
-docker-compose up -d rocketchat
-```
-
-Optionally, if you want to manage your messages and configuration information, edit the file again to uncomment the volume mounts.   Make sure you have a `data` subdirectory to mount and store the data.
+Optionally, if you want to manage your messages and configuration information, edit the file again to uncomment the volume mounts. Make sure you have a `data` subdirectory to mount and store the data.
 
 Optionally, if you want a bot, so you don't have to talk to yourself, after you've created an admin user and also a bot user, edit the file `docker-compose.yml` again to change the variables `ROCKETCHAT_USER` and `ROCKETCHAT_PASSWORD` in the hubot section and then start up hubot:
 
