@@ -1,4 +1,4 @@
-# Google Drive
+<!-- # Google Drive
 
 Features such as file transfer to/from Google Drive and creating Google docs, slides and sheets in a room can be made available by enabling Google Drive under `Google` in the `OAuth` section in the administration settings and providing the required credentials in the input boxes below.
 
@@ -34,4 +34,4 @@ Google Picker API is needed to generate the GUI to browse through and select Goo
 
 3. Select `CREATE CREDENTIALS` to generate the Google Picker key.
 
-4. Copy and paste it in the corresponding admin setting.
+4. Copy and paste it in the corresponding admin setting. -->

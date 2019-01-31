@@ -16,6 +16,8 @@
   - Security:
     - Responsible Disclosure Policy
   - Translating
+  - Website:
+    - Webinars
 - Getting Support
 - Installation:
   - Rocket.Chat Cloud
@@ -40,6 +42,7 @@
     - Sloppy.io
     - WeDeploy
     - D2C.io
+    - Syncloud.org
   - Docker containers:
     - Generic Linux
     - systemd
@@ -142,7 +145,7 @@
     - Uptime Robot
   - Google Cloud:
     - Auto Translate
-  - Google Drive
+  # - Google Drive
   - Setting Up Video Conferencing
   - Livechat:
     - Livechat Queues
@@ -177,6 +180,8 @@
       - Analytics & Data Usage
       - Supporting SSL
       - Supported Servers Versions
+    - Developing Apps:
+      - Getting Started
     - Realtime-API:
       - Method Calls:
         - Login
@@ -251,6 +256,7 @@
         - history
         - info
         - invite
+        - join
         - kick
         - leave
         - list.joined
@@ -415,6 +421,8 @@
         - set-preferences
         - update
         - updateOwnBasicInfo
+      - Video Conference:
+        - jitsi-update-timeout
       - Offset and Count and Sort Info
       - Query and Fields Info
       - Personal Access Tokens
