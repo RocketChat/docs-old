@@ -4,7 +4,7 @@ The REST API allows you to control and extend Rocket.Chat with ease.
 
 > **This API is a work in progress, so feel free to test, ask us questions, and submit Pull Requests!**
 
-If you are an end-user and not a dev or a tester, [create an issue](https://github.com/RocketChat/Rocket.Chat/issues/new) to request new APIs -- and consider [making a donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZL94ZE6LGVUSN) to the project.
+If you are an end-user and not a dev or a tester, [create a New Feature Request](https://forums.rocket.chat/c/feature-requests) to request new APIs -- and consider [making a donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZL94ZE6LGVUSN) to the project.
 
 > All API calls in the documentation are made using `curl`.  However, you are free to use Java / Python / PHP / Golang / Ruby / Swift / Objective-C / Rust / Scala / C# or any other programming languages.
 
@@ -88,11 +88,14 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.history`                    | Retrieves the messages from a channel.                      | [Link](channels/history/)                       |
 | `/api/v1/channels.info`                       | Gets a channel's information.                               | [Link](channels/info/)                          |
 | `/api/v1/channels.invite`                     | Adds a user to a channel.                                   | [Link](channels/invite/)                        |
+| `/api/v1/channels.join`                       | Joins yourself to a channel.                                | [Link](channels/join/)                          |
 | `/api/v1/channels.kick`                       | Removes a user from a channel.                              | [Link](channels/kick/)                          |
 | `/api/v1/channels.leave`                      | Removes the calling user from a channel.                    | [Link](channels/leave/)                         |
 | `/api/v1/channels.list`                       | Retrieves all of the channels from the server.              | [Link](channels/list/)                          |
 | `/api/v1/channels.list.joined`                | Gets only the channels the calling user has joined.         | [Link](channels/list-joined/)                   |
 | `/api/v1/channels.members`                    | Retrieves all channel users.                                | [Link](channels/members/)                       |
+| `/api/v1/channels.messages`                   | Retrieves all channel messages.                             | [Link](channels/messages/)                      |
+| `/api/v1/channels.moderators`                 | List all moderators of a channel.                           | [Link](channels/moderators/)                    |
 | `/api/v1/channels.open`                       | Adds the channel back to the user's list of channels.       | [Link](channels/open/)                          |
 | `/api/v1/channels.rename`                     | Changes a channel's name.                                   | [Link](channels/rename/)                        |
 | `/api/v1/channels.roles`                      | Gets the user's roles in the channel.                       | [Link](channels/roles/)                         |
@@ -125,9 +128,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.list`            | List the private groups the caller is part of.     | [Link](groups/list/)           |
 | `/api/v1/groups.listAll`         | List all the private groups.                       | [Link](groups/listall/)        |
 | `/api/v1/groups.members`         | Gets the users of participants of a private group. | [Link](groups/members/)        |
+| `/api/v1/groups.messages`        | Retrieves all group messages.                      | [Link](groups/messages/)       |
+| `/api/v1/groups.moderators`      | List all moderators of a group.                    | [Link](groups/moderators/)     |
 | `/api/v1/groups.open`            | Adds the private group back to the list of groups. | [Link](groups/open/)           |
 | `/api/v1/groups.rename`          | Changes the name of the private group.             | [Link](groups/rename/)         |
 | `/api/v1/groups.roles`           | Gets the user's roles in the private group.        | [Link](groups/roles/)          |
+| `/api/v1/groups.setAnnouncement` | Sets a group's announcement.                       | [Link](groups/setannouncement/)|
 | `/api/v1/groups.setCustomFields` | Sets private group's custom fields.                | [Link](groups/setcustomfields/)|
 | `/api/v1/groups.setDescription`  | Sets a private group's description.                | [Link](groups/setdescription/) |
 | `/api/v1/groups.setPurpose`      | Sets a private group's description.                | [Link](groups/setpurpose/)     |
@@ -164,6 +170,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/im.history`         | Retrieves the messages from a direct message.                 | [Link](im/history/)         |
 | `/api/v1/im.files`           | Retrieves a list of files from a direct message.              | [Link](im/files/)           |
 | `/api/v1/im.members`         | Retrieves the users of participants of a direct message.      | [Link](im/members/)         |
+| `/api/v1/im.messages`        | Retrieves the messages from specific direct message.          | [Link](im/messages/)        |
 | `/api/v1/im.messages.others` | Retrieves the messages from any direct message in the server. | [Link](im/messages-others/) |
 | `/api/v1/im.list`            | List the direct messages the caller is part of.               | [Link](im/list/)            |
 | `/api/v1/im.list.everyone`   | List all direct message the caller in the server.             | [Link](im/list-everyone/)   |
@@ -192,14 +199,14 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :--------------------------- | :------------------------------- | :-------------------------- |
 | `/api/v1/roles.create`   | Create a new role in the system. | [Link](roles/create/)   |
 | `/api/v1/roles.list` | Gets all the roles in the system. | [Link](roles/list/) |
-| `/api/v1/roles.addUserToRole` | Assign a role to an user. | [Link](roles/addUserToRole/) |
+| `/api/v1/roles.addUserToRole` | Assign a role to an user. | [Link](roles/addusertorole/) |
 
 ### Push Token
 
 | Url | Method | Short Description | Details Page |
 | :--- | :--- | :--- | :--- |
 | `/api/v1/push.token`              | `POST`    | Saves push token.                 | [Link](push/push-token/)       |
-| `/api/v1/push.token`              | `DELETE`  | Removes push token.               | [Link](push/deletePushToken/)  |
+| `/api/v1/push.token`              | `DELETE`  | Removes push token.               | [Link](push/deletepushtoken/)  |
 
 ### Rooms
 
@@ -208,6 +215,8 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/rooms.cleanHistory`     | Cleans up a room's history, requires special permission. | [Link](rooms/cleanhistory/)     |
 | `/api/v1/rooms.favorite`         | Favorite/Unfavorite room.                                | [Link](rooms/favorite/)         |
 | `/api/v1/rooms.get`              | Gets rooms.                                              | [Link](rooms/get/)              |
+| `/api/v1/rooms.info`             | Gets info from a room.                                   | [Link](rooms/info/)             |
+| `/api/v1/rooms.leave`            | Leaves a room.                                           | [Link](rooms/leave/)            |
 | `/api/v1/rooms.saveNotification` | Sets the notifications settings of specific channel.     | [Link](rooms/savenotification/) |
 | `/api/v1/rooms.upload/:rid`      | Upload a message with attached file.                     | [Link](rooms/upload/)           |
 
@@ -224,12 +233,6 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | Url                     | Short Description                              | Details Page               |
 | :---------------------- | :--------------------------------------------- | :---------------------     |
 | `/api/v1/emoji-custom`  | List the custom emojis available.              | [Link](emoji-custom/get/)  |
-
-### Messages
-
-| Url                       | Short Description                              | Details Page               |
-| :------------------------ | :--------------------------------------------- | :---------------------     |
-| `/api/v1/messages/types`  | List all message types available.              | [Link](messages/types/get)  |
 
 ### Settings
 
@@ -250,6 +253,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/subscriptions.getOne`    | `GET`   | Get the subscription by room Id.   | [Link](subscriptions/getone/)     |
 | `/api/v1/subscriptions.read`      | `POST`  |  Mark a room as read.              | [Link](subscriptions/read/)       |
 | `/api/v1/subscriptions.unread`    | `POST`  | Mark messages as unread.           | [Link](subscriptions/unread/)     |
+
+### Video Conference
+
+| Url                                              | Short Description                                           | Details Page                                   |
+| :----------------------------------------------- | :---------------------------------------------------------- | :-----------------------------------------     |
+| `/api/v1/video-conference/jitsi.update-timeout`  | Updates the timeout of Jitsi video conference in a channel. | [Link](video-conference/jitsi-update-timeout)  |
 
 ## Language specific wrappers
 

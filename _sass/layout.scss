@@ -117,7 +117,10 @@ body {
     color: #1e70bf;
     text-decoration: none;
   }
-
+  
+  ul {
+    margin-bottom: 12px;
+  }
   ol {
     list-style: decimal;
     margin-left: 2em;
@@ -548,7 +551,7 @@ main.home {
 }
 
 .project-card-icon__wrapper {
-  padding: 12px;
+  padding: 13px;
   background-color: $grey-dark;
   border-radius: 100px;
   margin-right: 16px;
@@ -559,6 +562,7 @@ main.home {
 .project-card-icon {
   height: 30px;
   width: 30px;
+  filter: invert(1);
 }
 
 .home-hero{

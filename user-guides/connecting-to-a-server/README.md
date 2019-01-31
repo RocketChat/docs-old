@@ -23,3 +23,9 @@ If you are using a Rocket.Chat desktop application you can connect to multiple R
 To add a new server, click the **plus** icon below the server list left sidebar and follow the [instructions](../connecting-to-a-server/) to connect to a Rocket.Chat server using a Rocket.Chat client application.
 
 ## Using a Mobile app
+
+To connect to a Rocket.Chat server using a mobile client application you first need to [download](https://rocket.chat/download) the application for your operating system. You can do that by searching for "Rocket.Chat" in either Google Play or App Store.
+
+After installing and starting the application. If this is the first server you are connecting to with the desktop app you will be presented with the server connect screen. Press "Connect to a Server" and type the URL of your server.
+
+If it is a valid Rocket.Chat server address you will then be presented with login screen, that will let you authenticate into the server using the valid options for that specific server.

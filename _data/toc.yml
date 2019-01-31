@@ -16,6 +16,8 @@
   - Security:
     - Responsible Disclosure Policy
   - Translating
+  - Website:
+    - Webinars
 - Getting Support
 - Installation:
   - Rocket.Chat Cloud
@@ -40,6 +42,7 @@
     - Sloppy.io
     - WeDeploy
     - D2C.io
+    - Syncloud.org
   - Docker containers:
     - Generic Linux
     - systemd
@@ -57,6 +60,7 @@
         - AutoSSL
     - Mongo Options
     - Mongo Versions
+    - Mongo Replicas
     - Configuring SSL Reverse Proxy
     - PM2, Systemd, Upstart
     - Running in a sub folder
@@ -82,6 +86,7 @@
   - Messaging
   - Channel Actions
   - Managing your Account
+  - End to End Encryption
   - Voice and Video Conferencing
 - Administrator guides:
   - Account Settings
@@ -124,12 +129,13 @@
     - Guggy
     - Jenkins
     - Jira
+    - MicroBadger
+    - NextCloud and WebDAV
     - NewRelic
     - nixstats
     - Osticket
     - PagerDuty
     - Prometheus
-    - ReplyGif
     - ReviewBoard
     - RunDeck
     - Sentry
@@ -139,7 +145,7 @@
     - Uptime Robot
   - Google Cloud:
     - Auto Translate
-  - Google Drive
+  # - Google Drive
   - Setting Up Video Conferencing
   - Livechat:
     - Livechat Queues
@@ -147,6 +153,7 @@
   - Notifications:
     - Push Notifications
   - Permissions
+  - Custom Fields
   - Plug-ins:
     - Drupal
     - Pidgin
@@ -170,8 +177,11 @@
     - Internationalization
     - Livechat API
     - Mobile Apps:
+      - Analytics & Data Usage
       - Supporting SSL
       - Supported Servers Versions
+    - Developing Apps:
+      - Getting Started
     - Realtime-API:
       - Method Calls:
         - Login
@@ -219,6 +229,7 @@
         - registerGuest
         - sendMessageLivechat
         - sendOfflineMessage
+        - streamlivechatroom
     - Rest API:
       - Assets:
         - setAsset
@@ -245,11 +256,14 @@
         - history
         - info
         - invite
+        - join
         - kick
         - leave
         - list.joined
         - list
         - members
+        - messages
+        - moderators
         - open
         - removeModerator
         - removeOwner
@@ -302,11 +316,14 @@
         - list
         - listAll
         - members
+        - messages
+        - moderators
         - open
         - removeModerator
         - removeOwner
         - rename
         - roles
+        - setAnnouncement
         - setCustomFields
         - setDescription
         - setPurpose
@@ -323,6 +340,7 @@
         - list.everyone
         - list
         - members
+        - messages
         - messages.others
         - open
         - setTopic
@@ -332,9 +350,16 @@
         - list
         - remove
       - Livechat:
+        - agent
+        - config
+        - custom-fields
         - department
+        - message
+        - room
         - sms-incoming
         - users
+        - video-call
+        - visitor
       - Miscellaneous:
         - directory
         - info
@@ -356,6 +381,8 @@
         - cleanHistory
         - favorite
         - get
+        - info
+        - leave
         - saveNotification
         - upload
       - Settings:
@@ -392,6 +419,8 @@
         - set-preferences
         - update
         - updateOwnBasicInfo
+      - Video Conference:
+        - jitsi-update-timeout
       - Offset and Count and Sort Info
       - Rate Limiter
       - Query and Fields Info
@@ -408,6 +437,7 @@
   - Bots Architecture
   - Creating Bot Users
   - Configure Bot Environment
+  - Running a bBot Bot
   - Running a Hubot Bot
   - Running a Botkit Bot
   - Running a Rasa Bot

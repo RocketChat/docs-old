@@ -28,6 +28,8 @@ Snaps auto update so you no longer need to worry about manually keeping the clie
 
 Snaps are also available on other platforms. More information available [here](https://snapcraft.io/docs/core/install)
 
+There is also a Flatpak [package available on Flathub](https://flathub.org/apps/details/chat.rocket.RocketChat).
+
 Alternatively you can download and manually install:
 
 You can find the download for the latest releases [here](https://github.com/RocketChat/Rocket.Chat.Electron/releases)
@@ -67,24 +69,6 @@ The experimental app for Android can be found on Google Play. Just search for `R
 ### React Native iOS App
 
 Currently you can only access the react native app in Apple's [TestFlight](https://developer.apple.com/testflight/). If you are interested in testing this app please send an email to `testflight@rocket.chat` with your email to be used on TestFilght.
-
-- - -
-
-### Hybrid iOS App (Cordova)
-
-The app for iOS (iPhone, iPad, iPod touch) can be found on the App Store. Just search for `Rocket.Chat Legacy`
-
-_Note: this app is in legacy, so we advise on using the other apps on this list._
-
-[Rocket.Chat on App Store](https://itunes.apple.com/us/app/rocket.chat/id1028869439?mt=8)
-
-### Hybrid Android App (Cordova)
-
-The app for Android can be found on Google Play. Just search for `Rocket.Chat Legacy`
-
-_Note: this app is in legacy, so we advise on using the other apps on this list._
-
-[Rocket.Chat on Google Play](https://play.google.com/store/apps/details?id=com.konecty.rocket.chat)
 
 - - -
 

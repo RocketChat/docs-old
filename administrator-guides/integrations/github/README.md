@@ -87,8 +87,8 @@ const githubEvents = {
 
     const text = '_' + request.content.repository.full_name + '_\n' +
                 '**[' + action + ' issue ​#' + request.content.issue.number +
-                ' - ' + request.content.issue.title + "**" + '](' +
-                request.content.issue.html_url + ')\n\n' +
+                ' - ' + request.content.issue.title + '](' +
+                request.content.issue.html_url + ')**\n\n' +
                 body;
 
     return {
@@ -240,8 +240,8 @@ commit_comment(request) {
 
     const text = '_' + request.content.repository.full_name + '_\n' +
                 '**[' + action + ' pull request ​#' + request.content.pull_request.number +
-                ' - ' + request.content.pull_request.title + "**" + '](' +
-                request.content.pull_request.html_url + ')\n\n' +
+                ' - ' + request.content.pull_request.title + '](' +
+                request.content.pull_request.html_url + ')**\n\n' +
                 body;
 
     return {
@@ -542,7 +542,7 @@ The Handlebars template used by Rocket.Chat to render messages from a JSON objec
 
 ### Send commands to GitHub
 
-    This script only works for public repositories
+`This script only works for public repositories`
 
 - Create a new **Outgoing WebHook**
 - Select the channel where you will use the commands and receive the responses

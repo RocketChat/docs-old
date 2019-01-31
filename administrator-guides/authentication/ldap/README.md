@@ -1,6 +1,6 @@
 # LDAP
 
-To configure LDAP authentication, go to /admin/LDAP, enable LDAP and add configurations to connect with your LDAP server.
+To configure LDAP authentication, go to LDAP section of administration settings, enable LDAP and add configurations to connect with your LDAP server.
 
 ## Examples:
 

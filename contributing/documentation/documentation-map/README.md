@@ -163,7 +163,6 @@ Here you can also find what articles are incomplete and missing.
         - Osticket
         - PagerDuty
         - Prometheus
-        - ReplyGif
         - ReviewBoard
         - RunDeck
         - Sentry
@@ -272,11 +271,14 @@ Here you can also find what articles are incomplete and missing.
             - history
             - info
             - invite
+            - join
             - kick
             - leave
             - list.joined
             - list
             - members
+            - moderators
+            - messages
             - open
             - removeModerator
             - removeOwner
@@ -329,11 +331,14 @@ Here you can also find what articles are incomplete and missing.
             - list
             - listAll
             - members
+            - messages
+            - moderators
             - open
             - removeModerator
             - removeOwner
             - rename
             - roles
+            - setAnnouncement
             - setCustomFields
             - setDescription
             - setPurpose
@@ -350,6 +355,7 @@ Here you can also find what articles are incomplete and missing.
             - list.everyone
             - list
             - members
+            - messages
             - messages.others
             - open
             - setTopic
@@ -359,9 +365,15 @@ Here you can also find what articles are incomplete and missing.
             - list
             - remove
         - Livechat:
+            - agent
+            - config
+            - custom-fields
             - department
+            - message
+            - room
             - sms-incoming
             - users
+            - video-call
         - Miscellaneous:
             - directory
             - info
@@ -383,6 +395,8 @@ Here you can also find what articles are incomplete and missing.
             - cleanHistory
             - favorite
             - get
+            - info
+            - leave
             - saveNotification
             - upload
         - Settings:
@@ -416,6 +430,8 @@ Here you can also find what articles are incomplete and missing.
             - set-preferences
             - update
             - updateOwnBasicInfo
+        - Video Conference:
+            - jitsi-update-timeout
         - Offset and Count and Sort Info
         - Rate Limiter
         - Query and Fields Info
@@ -427,11 +443,16 @@ Here you can also find what articles are incomplete and missing.
         - Colors
         - Components
         - Themes
+        - GraphQL API:
+            - Authentication
+            - Schema
+            - Subscription
 - Bots:
     - Bots FAQ
     - Bots Architecture
     - Creating Bot Users
     - Configure Bot Environment
+    - Running a bBot Bot
     - Running a Hubot Bot
     - Running a Botkit Bot
     - Running a Rasa Bot
