@@ -394,7 +394,6 @@
         - updateOwnBasicInfo
       - Offset and Count and Sort Info
       - Rate Limiter
-      - Permissions
       - Query and Fields Info
       - Personal Access Tokens
     - Schema Definition
