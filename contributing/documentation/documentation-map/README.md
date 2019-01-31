@@ -271,6 +271,7 @@ Here you can also find what articles are incomplete and missing.
             - history
             - info
             - invite
+            - join
             - kick
             - leave
             - list.joined
@@ -429,6 +430,8 @@ Here you can also find what articles are incomplete and missing.
             - set-preferences
             - update
             - updateOwnBasicInfo
+        - Video Conference:
+            - jitsi-update-timeout
         - Offset and Count and Sort Info
         - Query and Fields Info
         - Personal Access Tokens
@@ -439,6 +442,10 @@ Here you can also find what articles are incomplete and missing.
         - Colors
         - Components
         - Themes
+        - GraphQL API:
+            - Authentication
+            - Schema
+            - Subscription
 - Bots:
     - Bots FAQ
     - Bots Architecture
