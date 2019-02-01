@@ -312,6 +312,8 @@ Here you can also find what articles are incomplete and missing.
             - get
             - list
             - run
+        -Emoji Custom:
+            - get
         - Groups:
             - addAll
             - addModerator
