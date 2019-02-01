@@ -435,6 +435,7 @@ Here you can also find what articles are incomplete and missing.
         - Video Conference:
             - jitsi-update-timeout
         - Offset and Count and Sort Info
+        - Rate Limiter
         - Query and Fields Info
         - Personal Access Tokens
         - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
