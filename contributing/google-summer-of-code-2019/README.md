@@ -11,7 +11,6 @@ redirect_from:
 
 ## How to apply
 
-
 For current information on the 2019 program and general discussions, please see GSoC 2019 category on our discussion forums:
 
 <https://forums.rocket.chat/c/gsoc/gsoc2019>
@@ -27,7 +26,6 @@ If you have ideas and proposals that are not on our idea list, or if a mentor is
 Interested students are also encouraged to interact with our contributor community on GitHub:
 
 <https://github.com/RocketChat/Rocket.Chat>
-
 
 ## Project Ideas
 
@@ -60,4 +58,3 @@ Student application deadline
 Accepted student proposals announced
 
 ...
-
