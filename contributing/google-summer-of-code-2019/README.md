@@ -45,16 +45,16 @@ Interested students are also encouraged to interact with our contributor communi
 
 [GSoC 2019 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
 
-**February XX - March XXX**
+**February 26 - March 25**
 Potential student participants discuss application ideas with mentoring organizations
 
-**March XX 16:00 UTC**
+**March 25 18:00 UTC**
 Student application period begins - _[How to write a Proposal](https://google.github.io/gsocguides/student/writing-a-proposal.html)_
 
-**March XX 16:00 UTC**
+**April 9 18:00 UTC**
 Student application deadline
 
-**April XX 16:00 UTC**
+**May 6 18:00 UTC**
 Accepted student proposals announced
 
 ...
