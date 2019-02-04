@@ -1,6 +1,5 @@
 # WordPress oAuth Setup
 
-
 The Easiest way to configure Rocket.Chat using WordPress as your identity backend is to use the MiniOrange oAuth Plugin Version 2.5.6 or higher: <https://wordpress.org/plugins/miniorange-oauth-20-server/>
 
 ## Step by Step Guide
@@ -41,25 +40,25 @@ The Easiest way to configure Rocket.Chat using WordPress as your identity backen
 
 14) Go back to your already created custom oAuth in Rocket Chat and match up everything in the notepad into the correct fields listed below and in the screenshot.
  - **Enable** = True
- - **URL** = https://your.domain.com (Do not include a trailing “/”)
- - **Token Path** = Access Token Endpoint  
+ - **URL** = `https://your.domain.com` (Do not include a trailing “/”)
+ - **Token Path** = Access Token Endpoint
  - **Token Sent Via** = Header
  - **Identity Token Sent Via** = Payload
  - **Identity Path** = Get User Info Endpoint
- - **Authorize Path** = Authorize Endpoint  
- - **Scope** = Profile  
- - **Id** = Client ID 
- - **Secret** = Client Secret  
+ - **Authorize Path** = Authorize Endpoint
+ - **Scope** = Profile
+ - **Id** = Client ID
+ - **Secret** = Client Secret
  - **Login Style** = Redirect (You can use any of them really but redirect is really the only one that plays nice with the mobile and desktop apps.)
  - **Username field** =  username ( Note WordPress’s normal hook for a username is user_login but the plugin rewrites this in the json response to Rocket to username)
  - **Merge users** = true
 
 ![alt text](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-14.png)
 
-### Button Customization ###
+### Button Customization
 In regards to the customization of the login button you can customize it without affecting oAuth working. One thing to note though is when using the mobile and desktop apps they will not display your imputed Button text, they will display your custom oAuth name at the top.
 
-### Troubleshooting oAuth ###
+### Troubleshooting oAuth
 First thing to do when having an issue with oAuth is to enable Level 2 Logging to see whats going on:
 Administration > Logs > Log Level then you can Click View Logs.
 
@@ -69,4 +68,3 @@ Here are some forum threads that provide some issues others have had:
 
 **The redirect URI provided is missing or does not match**
 <https://wordpress.org/support/topic/rocketchat-wordpress-the-redirect-uri-provided-is-missing-or-does-not-match/>
-
