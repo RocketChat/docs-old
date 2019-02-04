@@ -21,7 +21,7 @@ Meet the mentors and students for 2019, get some real-time help on next steps, p
 
 If you have ideas and proposals that are not on our idea list, or if a mentor is not available, please email to:
 
-   gsoc+2019@rocket.chat
+   gsoc@rocket.chat
 
 Interested students are also encouraged to interact with our contributor community on GitHub:
 
