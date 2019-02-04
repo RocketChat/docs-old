@@ -88,6 +88,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.history`                    | Retrieves the messages from a channel.                      | [Link](channels/history/)                       |
 | `/api/v1/channels.info`                       | Gets a channel's information.                               | [Link](channels/info/)                          |
 | `/api/v1/channels.invite`                     | Adds a user to a channel.                                   | [Link](channels/invite/)                        |
+| `/api/v1/channels.join`                       | Joins yourself to a channel.                                | [Link](channels/join/)                          |
 | `/api/v1/channels.kick`                       | Removes a user from a channel.                              | [Link](channels/kick/)                          |
 | `/api/v1/channels.leave`                      | Removes the calling user from a channel.                    | [Link](channels/leave/)                         |
 | `/api/v1/channels.list`                       | Retrieves all of the channels from the server.              | [Link](channels/list/)                          |
@@ -252,6 +253,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/subscriptions.getOne`    | `GET`   | Get the subscription by room Id.   | [Link](subscriptions/getone/)     |
 | `/api/v1/subscriptions.read`      | `POST`  |  Mark a room as read.              | [Link](subscriptions/read/)       |
 | `/api/v1/subscriptions.unread`    | `POST`  | Mark messages as unread.           | [Link](subscriptions/unread/)     |
+
+### Video Conference
+
+| Url                                              | Short Description                                           | Details Page                                   |
+| :----------------------------------------------- | :---------------------------------------------------------- | :-----------------------------------------     |
+| `/api/v1/video-conference/jitsi.update-timeout`  | Updates the timeout of Jitsi video conference in a channel. | [Link](video-conference/jitsi-update-timeout)  |
 
 ## Language specific wrappers
 

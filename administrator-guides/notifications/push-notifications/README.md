@@ -40,3 +40,9 @@ For iOS you need an apple developer account that costs US$99 per year. Follow in
 
 Now you should be able to Send a test message. Make sure that you have logged in to the server once, and then closed the app.
 You should see a test notification after you pressed the send button.
+
+## General Observations
+
+- You don't *need* to use a push gateway, if you don't want notifications. Adding certificates and checking to *not* user a gateway is enough
+- For iOS, you need to [convert](https://github.com/raix/push/blob/master/docs/IOS.md) both the .cer and .p12 files into .pem files
+- Once everything is configured on the admin settings, the server must be restarted
