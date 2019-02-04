@@ -11,11 +11,12 @@ redirect_from:
 
 ## How to apply
 
+
 For current information on the 2019 program and general discussions, please see GSoC 2019 category on our discussion forums:
 
-<https://forums.rocket.chat/c/gsoc>
+<https://forums.rocket.chat/c/gsoc/gsoc2019>
 
-For some real-time help on next steps, please visit our community server Google Summer of Code 2018 discussion channel:
+Meet the mentors and students for 2019, get some real-time help on next steps, please visit our community server Google Summer of Code 2018 discussion channel:
 
 <https://open.rocket.chat/channel/gsoc2019>
 
@@ -59,3 +60,4 @@ Student application deadline
 Accepted student proposals announced
 
 ...
+
