@@ -10,7 +10,7 @@ The Easiest way to configure Rocket.Chat using WordPress as your identity backen
 
 ![alt text](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-03.png)
 
-4) You will be shown the Application Configuration tab, copy the Callback URL (example: http://your.domain.com/_oauth/id) put this into notepad or another text application as we will need this in the next few steps.
+4) You will be shown the Application Configuration tab, copy the Callback URL (example: `http://your.domain.com/_oauth/id`) put this into notepad or another text application as we will need this in the next few steps.
 
 6) Login to your WordPress site as an administrator and navigate to Add New under Plugins.
 
@@ -40,19 +40,19 @@ The Easiest way to configure Rocket.Chat using WordPress as your identity backen
 
 14) Go back to your already created custom oAuth in Rocket Chat and match up everything in the notepad into the correct fields listed below and in the screenshot.
 
- - **Enable** = True
- - **URL** = `https://your.domain.com` (Do not include a trailing “/”)
- - **Token Path** = Access Token Endpoint
- - **Token Sent Via** = Header
- - **Identity Token Sent Via** = Payload
- - **Identity Path** = Get User Info Endpoint
- - **Authorize Path** = Authorize Endpoint
- - **Scope** = Profile
- - **Id** = Client ID
- - **Secret** = Client Secret
- - **Login Style** = Redirect (You can use any of them really but redirect is really the only one that plays nice with the mobile and desktop apps.)
- - **Username field** =  username ( Note WordPress’s normal hook for a username is user_login but the plugin rewrites this in the json response to Rocket to username)
- - **Merge users** = true
+- **Enable** = True
+- **URL** = `https://your.domain.com` (Do not include a trailing “/”)
+- **Token Path** = Access Token Endpoint
+- **Token Sent Via** = Header
+- **Identity Token Sent Via** = Payload
+- **Identity Path** = Get User Info Endpoint
+- **Authorize Path** = Authorize Endpoint
+- **Scope** = Profile
+- **Id** = Client ID
+- **Secret** = Client Secret
+- **Login Style** = Redirect (You can use any of them really but redirect is really the only one that plays nice with the mobile and desktop apps.)
+- **Username field** =  username ( Note WordPress’s normal hook for a username is user_login but the plugin rewrites this in the json response to Rocket to username)
+- **Merge users** = true
 
 ![alt text](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-14.png)
 
