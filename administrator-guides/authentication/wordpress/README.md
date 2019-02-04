@@ -39,6 +39,7 @@ The Easiest way to configure Rocket.Chat using WordPress as your identity backen
 ![alt text](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-13.png)
 
 14) Go back to your already created custom oAuth in Rocket Chat and match up everything in the notepad into the correct fields listed below and in the screenshot.
+
  - **Enable** = True
  - **URL** = `https://your.domain.com` (Do not include a trailing “/”)
  - **Token Path** = Access Token Endpoint
@@ -56,9 +57,11 @@ The Easiest way to configure Rocket.Chat using WordPress as your identity backen
 ![alt text](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-14.png)
 
 ### Button Customization
+
 In regards to the customization of the login button you can customize it without affecting oAuth working. One thing to note though is when using the mobile and desktop apps they will not display your imputed Button text, they will display your custom oAuth name at the top.
 
 ### Troubleshooting oAuth
+
 First thing to do when having an issue with oAuth is to enable Level 2 Logging to see whats going on:
 Administration > Logs > Log Level then you can Click View Logs.
 
