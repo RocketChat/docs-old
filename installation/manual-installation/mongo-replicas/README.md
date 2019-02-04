@@ -65,7 +65,7 @@ bye
 
 Depending on your network settings, including /etc/hosts and DNS, if you have configured Rocket.Chat to use localhost:27017 you may see an error similar to this:
 
-```[conn1] created this configuration for initiation : { _id: "rs0", version: 1, members: [ { _id: 0, host: "test:27017" } ] }```
+`[conn1] created this configuration for initiation : { _id: "rs0", version: 1, members: [ { _id: 0, host: "test:27017" } ] }`
 
 rs.initiate() may be defaulting to the host name e.g. 'test'
 
@@ -80,7 +80,7 @@ You should get a response similar to:
 ```
 > rs.initiate({ _id: 'rs01', members: [ { _id: 0, host: 'localhost:27017' } ]})
 { "ok" : 1 }
-rs0:OTHER> 
+rs0:OTHER>
 ```
 
 ## Reconfigure and restart Rocket.Chat service
