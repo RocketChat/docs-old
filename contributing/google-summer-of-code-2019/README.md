@@ -41,6 +41,11 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description:** Adding the functionality of newsfeed, which is similar to a customised read-only channel for every user. Every user (follower) can follow other users (followed user). Posts from the followed user appears in the newsfeed of their followers. Posts are threaded discussions, started by the followed user in any public channel (origin channel), their follower can or cannot be a part of the origin channel but this post comes up in thier wall with a permalink to the orignal post in the origin channel. This helps in discovering new conversations. Interns are encouraged to propose entensions to this like wall, where a user can post threads that show up in thier follower's feed, status updates, etc. Automated tests should be written to cover the added functionality.
 - **Desirable Skills:**  Familiarity with JavaScript development & Rocket.Chat code base
 
+### Improved Test Automation in Rocket.Chat Repos
+
+- **Mentors** @TBD
+- **Description:** The goal of this project is to enhance the current test infrastructure in the RocketChat repos and pipelines.  Currently there is some very minimal junit testing that needs to be expanded, and no integration or system level tests, or infrastructure to support them.  This project could focus on one of the repos, possibly the Android code base, or all.  Once a test infrastructure and best practice is established, the goal is that no new code gets merged unless it has new tests that will be run at build time, and it passes all of the previous tests.
+
 ### Custom Notifications in Android
 
 - **Mentors:** @TBD
