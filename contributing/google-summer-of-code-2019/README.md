@@ -29,6 +29,12 @@ Interested students are also encouraged to interact with our contributor communi
 
 ## Project Ideas
 
+### Service Accounts in Rocket.Chat
+
+- **Mentors:** @karan.bedi, @bizzbyster
+- **Description:** Adding the functionality of Service accounts to Rocket.Chat. A service account is an account owned by a User (owner), having basic profile (username, avatar, description etc.). If any other User (initiating user) creates a direct messages(DM) session with this service account, this chat session is carried to the owner of the service account. The owner can then reply to this chat session, but to the initiating user it would seem that the reply is coming from the service account. An authorised user should be able to create service accounts, transfer the ownership of the service account. Service accounts should be searchable, there should be a directory of service accounts. Also, users should be able to subscribe to service accounts, and a service account owner should be able to send broadcast messages to its subscribers. Automated tests should be written to cover the added functionality.
+- **Desirable Skills:**  Familiarity with JavaScript development & Rocket.Chat code base
+
 ### XXXXX Search
 
 - **Mentors:** @XXXXX
