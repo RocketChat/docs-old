@@ -29,6 +29,12 @@ Interested students are also encouraged to interact with our contributor communi
 
 ## Project Ideas
 
+### Improved Test Automation in Rocket.Chat Repos
+
+- **Mentors** @TBD
+- **Description:** The goal of this project is to enhance the current test infrastructure in the RocketChat repos and pipelines.  Currently there is some very minimal junit testing that needs to be expanded, and no integration or system level tests, or infrastructure to support them.  This project could focus on one of the repos, possibly the Android code base, or all.  Once a test infrastructure and best practice is established, the goal is that no new code gets merged unless it has new tests that will be run at build time, and it passes all of the previous tests.
+
+
 ### Service Accounts in Rocket.Chat
 
 - **Mentors:** @karan.bedi, @bizzbyster
