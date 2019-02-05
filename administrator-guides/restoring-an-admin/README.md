@@ -17,7 +17,19 @@ cd /opt/docker/Rocket.Chat
 docker-compose run mongo bash
 ```
 
+or run
+
+```
+docker exec -it -u root mongo-image /bin/bash
+```
+
 Make sure to replace `mongo` with your MongoDB container name in case you use a different one.
+
+Login to mongo shell using :
+
+```
+mongo
+```
 
 On the Mongo shell:
 

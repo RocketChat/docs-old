@@ -14,7 +14,7 @@ When someone is registered in a Rocket.Chat server, it will normally receive the
 
 Roles can have different scopes. Currently we have two scopes `Global` and `Rooms`. The permissions of the `Global` roles are valid for the whole server, while the `Rooms` roles only applies to individual channels, where a user have to be elected to that role in that channel.
 
-An example of `Global` role would be an `admin`, that have permissions valid for the whole server, while a `moderator` that have a `Rooms` role would have permissions only in a channel that he was elected for that role.
+An example of `Global` role would be an `admin`, that have permissions valid for the whole server, while a `moderator` that have a `Rooms` role would have permissions only in a channel that they were elected for that role.
 
 Also, by default roles are shown as little tags on the side of a username on messages.
 
@@ -22,7 +22,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 
 - **admin** `(Global)` - Have access to all settings and administrator tools.
 - **moderator** `(Rooms)` - Have moderation permissions for a channel. Has to be elected by a channel owner.
-- **owner** `(Rooms)` - Have owner permissions for a channel. When a user creates a channel he becomes the owner of that channel. He can also elect more owners for that channel.
+- **owner** `(Rooms)` - Have owner permissions for a channel. When a user creates a channel they become the owner of that channel. They can also elect more owners for that channel.
 - **user** `(Global)` - Normal user rights. Most users receive this role when registering.
 - **bot** `(Global)` - Special Role for bot users, with some permissions related to bot functionality.
 - **leader** `(Rooms)` - it doesn't have any special permissions, but is used when setting a `leader` to a channel. Leaders appear on the header of a channel.
@@ -44,11 +44,11 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | add-user-to-joined-room | Permission to add a user to a joined channel.
 | archive-room | Permission to archive a channel.
 | assign-admin-role | Permission to promote user to Admin. Requires view-user-administration permission. Accessible from Administration -> Users.
-| auto-translate | Permission to use the Auto Translate Tool Accessible from Administration -> Message -> Auto Translate. <!--Add Link to auto translate article when we have one -->
+| auto-translate | Permission to use the [Auto Translate Tool](../google-cloud/auto-translate). Accessible from Administration -> Message -> Auto Translate.
 | ban-user | Permission to ban a user.
 | bulk-create-c | Permission to bulk create public channels.
 | bulk-register-user | Permission to bulk add users.
-| clean-channel-history | Permission to clear the history of a channel.
+| clean-channel-history | Permission to prune a channel's messages and/or files.
 | close-livechat-room | Permission to close your own live chat channels.
 | close-others-livechat-room | Permission to close others live chat channels .
 | create-c | Permission to create public channels.
@@ -66,6 +66,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | edit-other-user-password | Permission to modify other user's passwords. Requires edit-other-user-info permission. Accessible from Administration -> Users.
 | edit-privileged-setting | Permission to edit privileged settings.
 | edit-room | Permission to edit a room's name, topic, type (private or public status) and status (active or archived).
+| edit-room-retention-policy | Permission to edit's a room's retention policy.
 | force-delete-message | Permission to forcefully delete messages, independent of any deletion blocking setting.
 | join-without-join-code | Permission to bypass join codes when entering a channel with a join code set.
 | mail-messages | Permission to use the "Mail Messages" tool in the channel actions menu.

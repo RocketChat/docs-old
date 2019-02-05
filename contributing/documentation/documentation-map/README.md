@@ -103,8 +103,7 @@ Here you can also find what articles are incomplete and missing.
     - Messaging
     - Channel Actions
     - Managing your Account
-    - <span class="incomplete">[Voice and Video Calls](../missing-and-outdated-list/index.html#voice-and-video-calls)</span>
-    - <span class="missing">[ScreenSharing](../missing-and-outdated-list/index.html#screensharing)</span>
+    - Voice and Video Calls
 - Administrator guides:
     - Account Settings
     - <span class="missing">[Analytics](../missing-and-outdated-list/index.html#analytics)</span>
@@ -164,7 +163,6 @@ Here you can also find what articles are incomplete and missing.
         - Osticket
         - PagerDuty
         - Prometheus
-        - ReplyGif
         - ReviewBoard
         - RunDeck
         - Sentry
@@ -247,6 +245,9 @@ Here you can also find what articles are incomplete and missing.
             - sendMessageLivechat
             - sendOfflineMessage
         - Rest API:
+        - Assets:
+            - setAsset
+            - unsetAsset
         - Authentication:
             - facebook
             - forgotPassword
@@ -263,23 +264,27 @@ Here you can also find what articles are incomplete and missing.
             - close
             - counters
             - create
-            - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
+            - delete
             - files
             - getAllUserMentionsByChannel
             - getIntegrations
             - history
             - info
             - invite
+            - join
             - kick
             - leave
             - list.joined
             - list
             - members
+            - moderators
+            - messages
             - open
             - removeModerator
             - removeOwner
             - rename
             - roles
+            - setAnnouncement
             - setCustomFields
             - setDefault
             - setDescription
@@ -307,6 +312,8 @@ Here you can also find what articles are incomplete and missing.
             - get
             - list
             - run
+        -Emoji Custom:
+            - get
         - Groups:
             - addAll
             - addModerator
@@ -315,7 +322,7 @@ Here you can also find what articles are incomplete and missing.
             - close
             - counters
             - create
-            - <span class="missing">[delete](../missing-and-outdated-list/index.html#groupsdelete)</span>
+            - delete
             - files
             - getIntegrations
             - history
@@ -325,12 +332,15 @@ Here you can also find what articles are incomplete and missing.
             - leave
             - list
             - listAll
-            - <span class="missing">[members](../missing-and-outdated-list/index.html#groupsmembers)</span>
+            - members
+            - messages
+            - moderators
             - open
             - removeModerator
             - removeOwner
             - rename
             - roles
+            - setAnnouncement
             - setCustomFields
             - setDescription
             - setPurpose
@@ -346,31 +356,49 @@ Here you can also find what articles are incomplete and missing.
             - history
             - list.everyone
             - list
-            - <span class="missing">[members](../missing-and-outdated-list/index.html#immembers)</span>
+            - members
+            - messages
             - messages.others
             - open
             - setTopic
         - Integration:
             - create
+            - history
             - list
             - remove
         - Livechat:
+            - agent
+            - config
+            - custom-fields
             - department
+            - message
+            - room
             - sms-incoming
             - users
+            - video-call
         - Miscellaneous:
             - directory
             - info
+            - shield.svg
             - spotlight
             - statistics
             - statistics.list
         - Permissions:
             - list
             - update
+        - Roles:
+            - create
+            - list
+            - addUserToRole
+        - Push:
+            - push.token
+            - deletePushToken
         - Rooms:
             - cleanHistory
             - favorite
             - get
+            - info
+            - leave
             - saveNotification
             - upload
         - Settings:
@@ -386,21 +414,30 @@ Here you can also find what articles are incomplete and missing.
             - create
             - createToken
             - delete
+            - deleteOwnAccount
             - forgotPassword
+            - generatePersonalAccessToken
             - getAvatar
+            - getPersonalAccessTokens
             - getPresence
-            - getPreferences
+            - get-preferences
             - getUsernameSuggestion
             - info
             - list
+            - regeneratePersonalAccessToken
             - register
+            - removePersonalAccessToken
             - resetAvatar
             - setAvatar
-            - setPreferences
+            - set-preferences
             - update
             - updateOwnBasicInfo
+        - Video Conference:
+            - jitsi-update-timeout
         - Offset and Count and Sort Info
+        - Rate Limiter
         - Query and Fields Info
+        - Personal Access Tokens
         - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
         - <span class="incomplete">[Testing](../missing-and-outdated-list#Testing)</span>
         - Troubleshooting
@@ -408,11 +445,16 @@ Here you can also find what articles are incomplete and missing.
         - Colors
         - Components
         - Themes
+        - GraphQL API:
+            - Authentication
+            - Schema
+            - Subscription
 - Bots:
     - Bots FAQ
     - Bots Architecture
     - Creating Bot Users
     - Configure Bot Environment
+    - Running a bBot Bot
     - Running a Hubot Bot
     - Running a Botkit Bot
     - Running a Rasa Bot

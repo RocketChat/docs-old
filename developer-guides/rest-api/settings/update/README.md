@@ -51,6 +51,7 @@ And also to trigger a action-button use:
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+     -H "Content-type:application/json" \
      http://localhost:3000/api/v1/settings/Livechat_enabled \
      -d '{ "value": true }'
 ```
@@ -70,6 +71,7 @@ Setting a color
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+     -H "Content-type:application/json" \
      http://localhost:3000/api/v1/settings/Livechat_enabled \
      -d '{ "value": "#ffffff", "editor": "color"}'
 ```
@@ -89,6 +91,7 @@ Trigger an action
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+     -H "Content-type:application/json" \
      http://localhost:3000/api/v1/settings/Livechat_enabled \
      -d '{ "value": "method", "execute": true}'
 ```

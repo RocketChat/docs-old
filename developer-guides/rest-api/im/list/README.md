@@ -1,6 +1,6 @@
 # IM List
 
-Lists all of the direct messages the calling user has joined. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/) along with just the [Fields Query Parameters](../../query-and-fields-info/).
+Lists all of the direct messages the calling user has joined. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -53,58 +53,11 @@ curl -H "X-Auth-Token: 8h2mKAwxB3AQrFSjLVKMooJyjdCFaA7W45sWlHP8IzO" \
 }
 ```
 
-## Query Example Call
-
-This example shows a list of Direct Messages' Rooms filtered by "customFields.field1" ended with "5" using a regular expression.
-
-```bash
-curl -H "X-Auth-Token: OKoJelLu8rYtbyc3c5YtTwxIE-UvT1FzWv9cdq1XPI1" \
-     -H "X-User-Id: hw5DThnhQmxDWnavu" \
-     http://localhost:3000/api/v1/im.list?query=%7B%20%22customFields.field1%22%3A%20%7B%20%22%24regex%22%3A%20%22%28.*%295%24%22%20%7D%20%7D
-```
-
-## Query Example Result
-
-```json
-{
-    "ims": [
-        {
-            "_id": "hw5DThnhQmxDWnavuhw5DThnhQmxDWnavu",
-            "_updatedAt": "2018-01-21T21:07:20.324Z",
-            "t": "d",
-            "msgs": 0,
-            "ts": "2018-01-21T21:07:20.324Z",
-            "username": "user2"
-        },
-        {
-            "_id": "hw5DThnhQmxDWnavurocket.cat",
-            "_updatedAt": "2018-01-21T21:07:18.510Z",
-            "t": "d",
-            "msgs": 0,
-            "ts": "2018-01-21T21:07:18.510Z",
-            "username": "user2"
-        },
-        {
-            "_id": "3WpJQkDHhrWPBvXuWhw5DThnhQmxDWnavu",
-            "_updatedAt": "2018-01-21T21:07:16.123Z",
-            "t": "d",
-            "msgs": 0,
-            "ts": "2018-01-21T21:07:16.123Z",
-            "username": "user2"
-        }
-    ],
-    "offset": 0,
-    "count": 3,
-    "total": 3,
-    "success":true
-}
-
-```
-
 ## Change Log
 
 | Version | Description |
 | :--- | :--- |
+| 0.67.0 | Remove 'query' parameter support. |
 | 0.62.0 | Add 'query' parameter support. |
 | 0.49.0 | Count and offset query parameters supported. |
 | 0.48.0 | Added |
