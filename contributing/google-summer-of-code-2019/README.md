@@ -67,6 +67,12 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description**: Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such like viewing the chat rooms and reading the messages. Let user ask Siri to read latest messages, send messages or respond to a message.
 - **Desirable Skills**: Familiarity with WatchKit development on WatchOS & SiriKit. Ability to work in large multi-disciplinary teams.
 
+### Asana Rocket.Chat App
+
+- **Mentors**: @d-gubert
+- **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Asana, using Slashcommands, custom API endpoints, custom Settings, etc.
+- **Desirable Skills**: Familiarity with TypeScript.
+
 ## Timeline
 
 [GSoC 2019 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
