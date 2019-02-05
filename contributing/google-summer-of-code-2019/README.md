@@ -36,9 +36,17 @@ Interested students are also encouraged to interact with our contributor communi
 - **Desirable Skills:**  Familiarity with JavaScript development & Rocket.Chat code base
 
 ### Newsfeed
+
 - **Mentors:** @bizzbyster, @karan.bedi
 - **Description:** Adding the functionality of newsfeed, which is similar to a customised read-only channel for every user. Every user (follower) can follow other users (followed user). Posts from the followed user appears in the newsfeed of their followers. Posts are threaded discussions, started by the followed user in any public channel (origin channel), their follower can or cannot be a part of the origin channel but this post comes up in thier wall with a permalink to the orignal post in the origin channel. This helps in discovering new conversations. Interns are encouraged to propose entensions to this like wall, where a user can post threads that show up in thier follower's feed, status updates, etc. Automated tests should be written to cover the added functionality.
 - **Desirable Skills:**  Familiarity with JavaScript development & Rocket.Chat code base
+
+### Custom Notifications in Android
+
+- **Mentors:** @TBD
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Android>
+- **Description:** The web client currently has the flexibility of customizing the notifications per channel but the Android client lacks this feature. This project aims to bring this feature into the Android client. Users would be able to mute specific channels and configure if they want to receive notifications when they are mentioned or for every notification, etc. Snooze functionality can also be implemented as an extension of this project.
+- **Desirable Skills:**  Familiarity with Android development, specifically the Rocket.Chat.Android code base.
 
 ### iOS Voice Over Accessibility
 
