@@ -35,6 +35,13 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description:** Adding the functionality of Service accounts to Rocket.Chat. A service account is an account owned by a User (owner), having basic profile (username, avatar, description etc.). If any other User (initiating user) creates a direct messages(DM) session with this service account, this chat session is carried to the owner of the service account. The owner can then reply to this chat session, but to the initiating user it would seem that the reply is coming from the service account. An authorised user should be able to create service accounts, transfer the ownership of the service account. Service accounts should be searchable, there should be a directory of service accounts. Also, users should be able to subscribe to service accounts, and a service account owner should be able to send broadcast messages to its subscribers. Automated tests should be written to cover the added functionality.
 - **Desirable Skills:**  Familiarity with JavaScript development & Rocket.Chat code base
 
+### Custom Notifications in Android
+
+- **Mentors:** @TBD
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Android>
+- **Description:** The web client currently has the flexibility of customizing the notifications per channel but the Android client lacks this feature. This project aims to bring this feature into the Android client. Users would be able to mute specific channels and configure if they want to receive notifications when they are mentioned or for every notification, etc. Snooze functionality can also be implemented as an extension of this project.
+- **Desirable Skills:**  Familiarity with Android development, specifically the Rocket.Chat.Android code base.
+
 ### iOS Voice Over Accessibility
 
 - **Mentors:** @TBD
