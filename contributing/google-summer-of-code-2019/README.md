@@ -35,6 +35,11 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description:** Adding the functionality of Service accounts to Rocket.Chat. A service account is an account owned by a User (owner), having basic profile (username, avatar, description etc.). If any other User (initiating user) creates a direct messages(DM) session with this service account, this chat session is carried to the owner of the service account. The owner can then reply to this chat session, but to the initiating user it would seem that the reply is coming from the service account. An authorised user should be able to create service accounts, transfer the ownership of the service account. Service accounts should be searchable, there should be a directory of service accounts. Also, users should be able to subscribe to service accounts, and a service account owner should be able to send broadcast messages to its subscribers. Automated tests should be written to cover the added functionality.
 - **Desirable Skills:**  Familiarity with JavaScript development & Rocket.Chat code base
 
+### Newsfeed
+- **Mentors:** @bizzbyster, @karan.bedi
+- **Description:** Adding the functionality of newsfeed, which is similar to a customised read-only channel for every user. Every user (follower) can follow other users (followed user). Posts from the followed user appears in the newsfeed of their followers. Posts are threaded discussions, started by the followed user in any public channel (origin channel), their follower can or cannot be a part of the origin channel but this post comes up in thier wall with a permalink to the orignal post in the origin channel. This helps in discovering new conversations. Interns are encouraged to propose entensions to this like wall, where a user can post threads that show up in thier follower's feed, status updates, etc. Automated tests should be written to cover the added functionality.
+- **Desirable Skills:**  Familiarity with JavaScript development & Rocket.Chat code base
+
 ### iOS Voice Over Accessibility
 
 - **Mentors:** @TBD
