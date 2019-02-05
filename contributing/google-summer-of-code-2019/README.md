@@ -35,17 +35,19 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description:** Adding the functionality of Service accounts to Rocket.Chat. A service account is an account owned by a User (owner), having basic profile (username, avatar, description etc.). If any other User (initiating user) creates a direct messages(DM) session with this service account, this chat session is carried to the owner of the service account. The owner can then reply to this chat session, but to the initiating user it would seem that the reply is coming from the service account. An authorised user should be able to create service accounts, transfer the ownership of the service account. Service accounts should be searchable, there should be a directory of service accounts. Also, users should be able to subscribe to service accounts, and a service account owner should be able to send broadcast messages to its subscribers. Automated tests should be written to cover the added functionality.
 - **Desirable Skills:**  Familiarity with JavaScript development & Rocket.Chat code base
 
-### XXXXX Search
+### iOS Voice Over Accessibility
 
-- **Mentors:** @XXXXX
-- **Description:** Add XXXX XXXXX to Rocket.Chat, allowing users to search across messages, rooms, files, users, etc in a single and easy to use interface. Like a macOS Spotlight search.
-- **Desirable Skills:** XXXXXXX
+- **Mentors:** @TBD
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.iOS>
+- **Description:** VoiceOver is a gesture-based screen reader that lets you enjoy using iPhone even if you don’t see the screen. This is especially important for those with low or no vision. We want to make Rocket.Chat for everyone. A blind user should be able to easily add servers, change servers, read messages and send messages, as well as other additional functions such as editing profile and creating channels. Minimum acceptable scope is to be determined.
+- **Desirable Skills:** We are looking for an undergraduate student who is familiar with team work, developing iOS Apps using UIKit and Swift, as well as writing maintainable code with Unit Tests and having some familiarity with Voice Over and Accessibility.
 
-### Users XXXX integration plus XXXXX
+### Apple Watch & Siri Support
 
-- **Mentors:** @XXXX.XXX
-- **Description:** Rocket.Chat XXXX allows for users to add custom fields through a setting that accepts a XXXXX. We would like to create an interface to manage these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. On Users Directory, users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
-- **Desirable Skills:** Familiarity with JavaScript development.
+- **Mentors**: @TBD
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.iOS>
+- **Description**: Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such like viewing the chat rooms and reading the messages. Let user ask Siri to read latest messages, send messages or respond to a message.
+- **Desirable Skills**: Familiarity with WatchKit development on WatchOS & SiriKit. Ability to work in large multi-disciplinary teams.
 
 ## Timeline
 
