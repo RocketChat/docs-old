@@ -130,6 +130,7 @@ Interested students are also encouraged to interact with our contributor communi
 - **Desirable Skills:**  Familiarity with Rocket.Chat development and meteor packages.
 
 ### Users Directory integration plus custom fields editor and search
+
 - **Mentors**: @marceloschmidt
 - **Description**: Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. On Users Directory, users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
 - **Desirable Skills**: Familiarity with Rocket.Chat development.
