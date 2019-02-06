@@ -95,6 +95,13 @@ Interested students are also encouraged to interact with our contributor communi
 - **Mentors**: @d-gubert, @rodrigok
 - **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Asana, using Slashcommands, custom API endpoints, custom Settings, etc.
 
+### Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)
+
+- **Mentors**: @diegolmello
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
+- **Description**: Share extensions enables iOS or Android OS to share content between apps. This project aims to implement a share extension for React Native client in order to let users to share data into Rocket.Chat from other apps. For example, an user should be able to send photos from camera roll to a Rocket.Chat channel without opening the RC client.
+- **Desirable Skills:**  Familiarity with React Native, iOS and Android development and Rocket.Chat.ReactNative code base.
+
 ### Implement slash commands on React Native app (Rocket.Chat Experimental)
 
 - **Mentors**: @diegolmello
