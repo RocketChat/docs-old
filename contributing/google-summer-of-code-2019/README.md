@@ -97,7 +97,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)
 
- - **Mentors**: @diegolmello
+- **Mentors**: @diegolmello
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
 - **Description**: Share extensions enables iOS or Android OS to share content between apps. This project aims to implement a share extension for React Native client in order to let users to share data into Rocket.Chat from other apps. For example, an user should be able to send photos from camera roll to a Rocket.Chat channel without opening the RC client.
 - **Desirable Skills:**  Familiarity with React Native, iOS and Android development and Rocket.Chat.ReactNative code base.
