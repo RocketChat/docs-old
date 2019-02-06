@@ -95,6 +95,13 @@ Interested students are also encouraged to interact with our contributor communi
 - **Mentors**: @d-gubert, @rodrigok
 - **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Asana, using Slashcommands, custom API endpoints, custom Settings, etc.
 
+### Admin webview page integration on React Native app (Rocket.Chat Experimental)
+
+- **Mentors**: @diegolmello
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
+- **Description**: The goal of this project is an integration with Rocket.Chat's admin webview page when the user has access. This helps administrators to change their servers behaviour without the need to open Rocket.Chat on web or the mobile version on their devices.
+- **Desirable Skills:**  Familiarity with React Native development and Rocket.Chat.ReactNative code base.
+
 ### Improve notifications on React Native app (Rocket.Chat Experimental)
 
 - **Mentors**: @diegolmello
@@ -122,7 +129,6 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description**: In mobile apps, users must be able to do what they want in fewer taps as possible. Slash commands are faster ways to trigger trivial actions, like invite an user or archive a channel, and it should be available on React Native client.
 - **Desirable Skills:**  Familiarity with React Native development, specifically the Rocket.Chat.ReactNative code base.
 
-
 ### Allow Rocket.Chat Apps to use their own NPM modules
 
 - **Mentors**: @d-gubert, @rodrigok
@@ -142,7 +148,6 @@ Interested students are also encouraged to interact with our contributor communi
 - **Mentors**: @marceloschmidt
 - **Description**: Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. On Users Directory, users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
 - **Desirable Skills**: Familiarity with Rocket.Chat development.
-
 
 ## Timeline
 
