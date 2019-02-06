@@ -97,7 +97,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Implement slash commands on React Native app (Rocket.Chat Experimental)
 
- - **Mentors**: @diegolmello
+- **Mentors**: @diegolmello
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
 - **Description**: In mobile apps, users must be able to do what they want in fewer taps as possible. Slash commands are faster ways to trigger trivial actions, like invite an user or archive a channel, and it should be available on React Native client.
 - **Desirable Skills:**  Familiarity with React Native development, specifically the Rocket.Chat.ReactNative code base.
