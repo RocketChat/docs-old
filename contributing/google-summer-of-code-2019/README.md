@@ -95,6 +95,13 @@ Interested students are also encouraged to interact with our contributor communi
 - **Mentors**: @d-gubert, @rodrigok
 - **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Asana, using Slashcommands, custom API endpoints, custom Settings, etc.
 
+### Admin webview page integration on React Native app (Rocket.Chat Experimental)
+
+- **Mentors**: @diegolmello
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
+- **Description**: The goal of this project is an integration with Rocket.Chat's admin webview page when the user has access. This helps administrators to change their servers behaviour without the need to open Rocket.Chat on web or the mobile version on their devices.
+- **Desirable Skills:**  Familiarity with React Native development and Rocket.Chat.ReactNative code base.
+
 ## Timeline
 
 [GSoC 2019 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
