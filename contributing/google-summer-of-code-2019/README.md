@@ -33,6 +33,13 @@ Interested students are also encouraged to interact with our contributor communi
 
 ## Project Ideas
 
+### Interactive APIs documentation
+
+- **Mentors**: @martin.schoeler
+- **Project repository**: <https://github.com/RocketChat/docs>
+- **Description**: Create an easy-to-use interface to let the user explore, test and get info about the existing endpoints of the Rocket.Chat's APIs. The user will be able to connect and make requests directly from the UI, also being able to change the arguments of the requests and testing differents flows of the APIs.
+- **Desirable Skills**: Familiarity with Jekyll and Rocket.Chat Rest API.
+
 ### Apple Watch & Siri Support
 
 - **Mentors**: @thiago.sanchez
@@ -149,10 +156,10 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description**: Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. On Users Directory, users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
 - **Desirable Skills**: Familiarity with Rocket.Chat development.
 
-### Mattermost Data Importer ### 
+### Mattermost Data Importer
 
 - **Mentors**: TBD
-- **Description**: Rocket.Chat is currently capable of importing data exported from Slack and HipChat, but there's no importer for Mattermost data. This is a valuable feature that the application is still missing. 
+- **Description**: Rocket.Chat is currently capable of importing data exported from Slack and HipChat, but there's no importer for Mattermost data. This is a valuable feature that the application is still missing.
 
 ## Timeline
 
