@@ -35,7 +35,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Apple Watch & Siri Support
 
-- **Mentors**: @TBD
+- **Mentors**: @thiago.sanchez
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.iOS>
 - **Description**: Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such like viewing the chat rooms and reading the messages. Let user ask Siri to read latest messages, send messages or respond to a message.
 - **Desirable Skills**: Familiarity with WatchKit development on WatchOS & SiriKit. Ability to work in large multi-disciplinary teams.
