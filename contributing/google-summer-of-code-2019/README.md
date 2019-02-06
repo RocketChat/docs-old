@@ -78,6 +78,12 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Google Calendar, using Slashcommands, custom API endpoints, custom Settings, etc.
 - **Desirable Skills**: Familiarity with TypeScript.
 
+### Implement Dark theme for Android app
+
+- **Mentors**: @TBD
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Android>
+- **Description**: Themes are very popular and they’re part of what makes Android stand out from the rest. But the current Rocket Chat Android app lacks the feature of applying different themes.This project aims to bring different themes like dark mode and black mode into the existing Android Client.
+- **Desirable Skills**: Familiarity with Android development, specifically the Rocket.Chat.Android code base.
 ## Timeline
 
 [GSoC 2019 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
