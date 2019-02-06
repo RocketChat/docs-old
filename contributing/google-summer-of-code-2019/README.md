@@ -33,6 +33,11 @@ Interested students are also encouraged to interact with our contributor communi
 
 ## Project Ideas
 
+### Interactive APIs documentation
+
+- **Mentors**: @martin.schoeler
+- **Description**: Create an easy-to-use interface to let the user explore, test and get info about the existing endpoints of the Rocket.Chat's APIs. The user will be able to connect and make requests directly from the UI, also being able to change the arguments from the calls and testing the differents flows of the API.
+
 ### Apple Watch & Siri Support
 
 - **Mentors**: @thiago.sanchez
