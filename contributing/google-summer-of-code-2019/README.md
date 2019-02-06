@@ -102,6 +102,27 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description**: For a better user experience, we need to group notifications by channel and allow the user to reply directly from the notification. Also, we should show notifications from other channels when the user is using the app.
 - **Desirable Skills:**  Familiarity with React Native, iOS and Android development and Rocket.Chat.ReactNative code base.
 
+### Implement theming on React Native app (Rocket.Chat Experimental)
+
+- **Mentors**: @diegolmello
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
+- **Description**: Themes, like dark mode, are very popular and everywhere right now, but the Rocket.Chat React Native app lacks the feature of applying different themes. This project aims to bring different themes like dark mode and black mode into the existing React Native client.
+
+### Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)
+
+- **Mentors**: @diegolmello
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
+- **Description**: Share extensions enables iOS or Android OS to share content between apps. This project aims to implement a share extension for React Native client in order to let users to share data into Rocket.Chat from other apps. For example, an user should be able to send photos from camera roll to a Rocket.Chat channel without opening the RC client.
+- **Desirable Skills:**  Familiarity with React Native, iOS and Android development and Rocket.Chat.ReactNative code base.
+
+### Implement slash commands on React Native app (Rocket.Chat Experimental)
+
+- **Mentors**: @diegolmello
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
+- **Description**: In mobile apps, users must be able to do what they want in fewer taps as possible. Slash commands are faster ways to trigger trivial actions, like invite an user or archive a channel, and it should be available on React Native client.
+
+- **Desirable Skills:**  Familiarity with React Native development, specifically the Rocket.Chat.ReactNative code base.
+
 ## Timeline
 
 [GSoC 2019 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
