@@ -120,8 +120,19 @@ Interested students are also encouraged to interact with our contributor communi
 - **Mentors**: @diegolmello
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
 - **Description**: In mobile apps, users must be able to do what they want in fewer taps as possible. Slash commands are faster ways to trigger trivial actions, like invite an user or archive a channel, and it should be available on React Native client.
-
 - **Desirable Skills:**  Familiarity with React Native development, specifically the Rocket.Chat.ReactNative code base.
+
+### Improve Rocket.Chat Auto-Translate feature
+
+- **Mentors**: @marceloschmidt
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/rocketchat-autotranslate>
+- **Description**: Rocket.Chat Auto-Translate features work by translating every incoming message into the user language of choice. We would like the student to make it possible for the package to also translate every message the user sends into another language. As a plus, if the student can implement a channel language setting, it would be superb.
+- **Desirable Skills:**  Familiarity with Rocket.Chat development and meteor packages.
+
+### Users Directory integration plus custom fields editor and search
+- **Mentors**: @marceloschmidt
+- **Description**: Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. On Users Directory, users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
+- **Desirable Skills**: Familiarity with Rocket.Chat development.
 
 ## Timeline
 
