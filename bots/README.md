@@ -8,6 +8,7 @@ interactions.
 
 We are building out support for multiple frameworks, including:
 
+- [bBot](http://bbot.chat/) - complete
 - [Hubot](https://hubot.github.com/) - complete
 - [Botkit](https://botkit.ai/) - in development
 - [Rasa](https://rasa.com/) - in development
@@ -29,7 +30,7 @@ These are the basic steps for using bots with Rocket.Chat.
 2. The bot is run as [a separate process](bots-architecture/) using your chosen framework or platform
 3. The bot environment must be pre-configured by [setting environment variables](configure-bot-environment/)
 4. You provide scripts to define the bot's behaviour according to the requirements of your framework
-    - e.g. See [Running a Hubot bot](running-a-hubot-bot/)
+    - e.g. See [Running a bBot bot](running-a-bbot-bot/)
 
 ## Quick Links
 
@@ -37,6 +38,7 @@ These are the basic steps for using bots with Rocket.Chat.
 - [Bots Architecture](bots-architecture/)
 - [Creating Bot Users](creating-bot-users/)
 - [Configuring the Bot Environment](configure-bot-environment/)
+- [Running a bBot Bot](running-a-bbot-bot/)
 - [Running a Hubot Bot](running-a-hubot-bot/)
 - [Running a Botkit Bot](running-a-botkit-bot/)
 - [Running a Rasa Bot](running-a-rasa-bot/)
@@ -48,5 +50,6 @@ Configuration and implementation details for components of the
 [Bots Architecture](bots-architecture/) can be found in their project READMEs:
 
 - [Rocket.Chat JS SDK](https://github.com/RocketChat/Rocket.Chat.js.SDK/)
+- [bBot Rocket.Chat boilerplate](https://github.com/Amazebot/bbot-rocketchat-boilerplate)
 - [Hubot Rocket.Chat boilerplate](https://github.com/RocketChat/hubot-rocketchat-boilerplate/)
 - [Hubot Rocket.Chat adapter](https://github.com/RocketChat/hubot-rocketchat/tree/develop/)

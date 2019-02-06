@@ -1,12 +1,12 @@
 # Configuring SSL Reverse Proxy
 
-Rocket.Chat is a middle tier application server, by itself it does not handle SSL.   However, Rocket.Chat works well with several industrial grade, battle-tested reverse proxy servers (see Nginx below, for example) that you can configure to handle SSL.
+Rocket.Chat is a middle tier application server, by itself it does not handle SSL.   However, Rocket.Chat works well with several industrial grade, battle-tested reverse proxy servers (see nginx below, for example) that you can configure to handle SSL.
 
 **Note:** You must use the outside https address for the value at ```ROOT_URL``` in [[Section 3|Deploy-Rocket.Chat-without-docker#3-download-rocketchat]] above.  This includes the `https://` and leave off the port number.  So instead of ```ROOT_URL=http://localhost:3000``` use something like ```https://your_hostname.com```
 
-## Running behind a Nginx SSL Reverse Proxy
+## Running behind a nginx SSL Reverse Proxy
 
-**Note:** These instructions were written for Ubuntu.  For Amazon Linux, the conf file for the proxy goes in `/etc/nginx/conf.d/` and needs to have a discrete name ending in `.conf` and Nginx is installed using `yum -y install nginx`.
+**Note:** These instructions were written for Ubuntu.  For Amazon Linux, the conf file for the proxy goes in `/etc/nginx/conf.d/` and needs to have a discrete name ending in `.conf` and nginx is installed using `yum -y install nginx`.
 
 Run this as root:
 
@@ -32,6 +32,9 @@ upstream backend {
 server {
     listen 443;
     server_name your_hostname.com;
+
+    # You can increase the limit if your need to.
+    client_max_body_size 200M;
 
     error_log /var/log/nginx/rocketchat.access.log;
 

@@ -11,11 +11,33 @@ redirect_from:
 
 ## How to apply
 
-Application has closed for the GSoC 2018 season.
+Applications for the GSoC 2018 season have now closed.
 
-UPDATE June 15, 2018 -  The first evaluation period has come and gone.  Our students have been coding feverishly over the past months and many of them have already demonstrated their work to their mentors and teams.   We are proud to report that during this evaluation, our mentors have decided to pass all eight of the GSoC students.  Our Rocket.Chat sponsored projects also reported all passes for the three students. We have started to create blog stories around the projects featuring our students - the first story should be available in the next week or two. Due to some internal project logistic problem, one of the students has agreed, together with his mentors and team to switch topic from the second term onwards - to another one of his accepted final proposal - our list below has been amended to reflected the change.   We have, through our working partner, be able to fund an additional  (to the 11 that we already have) highly capable but non-GSoC selected student to work on Rocket.Chat related topic.
+UPDATE September 8, 2018 <br/>
 
-UPDATE April 25, 2018 - AMENDED June 15, 2018 -  The list of [official GSoC 2018 accepted students and projects](https://summerofcode.withgoogle.com/organizations/6355544806260736/) is now available. First, we would like to sincerely thank every student who has submitted a proposal and many who had worked on PR and assisted in our open source community - please continue the excellent work. Of the 93 proposals we received, there were many high quality ones. We have also interacted with many of the students in the prior month. Decision was difficult and mentors were competitive this year.  Ultimately, EIGHT of the top students/proposals this year are accepted for GSoC 2018 (thank you, Google!):
+The final list of successful 2018 GSoC Rocket.Chat projects and students/mentors is now [officially](https://summerofcode.withgoogle.com/organizations/6355544806260736/) available.
+
+Our own final tabulation of the status for GSoC projects is as follows:
+
+|Status|Student|Project|Mentors|
+|-------|-------|-------|-------|
+|PASS|Mikael Mello|Improve the integration of bots on Rocket.Chat|Tim Kinnane, Diego Dorgam|
+|PASS|Aniket Singh|Android and wear app|Fiipe Brito, Lucio Maciel|
+|PASS|Jose Renan|Rocket.Chat SDK for Javascript Clients|Guilherme Gazzo, Diego Sampaio, Renato Becker|
+|PASS|Semih Serhat Karakaya|Nextcloud as Storage and User File Provider|Guilherme Gazzo|
+|PASS|Karan Bedi|Rocket.Chat voice recognition APIs and built-in Speech2Text Engine integration|Pierre Lehnen, Rodrigo Nascimento|
+|PASS|Nikhil Kaushik|Integration with Google Drive and Dropbox|Marcelo Schmidt, Martin Schoeler|
+|PASS|Samar Sunkaria|Support for theming the Rocket.Chat iOS app|Matheus Cardoso, Filipe Alvarenga|
+|WITHDREW|De Sheng Chuan|Data integrity and consistency|Diego Sampaio, Rodrigo Nascimento, Sing Li|
+
+UPDATE August 20, 2018 <br/>
+This final term has been a term full of changes. One good student - who had been doing great work up to this third term- has had health issues, been hospitalized, and is unable to complete his project. Upon advice from GSoC admin, he withdrew from the project and may resume outside of GSoC upon his recovery. <br/> The "turn around projects" in the second term continued to show major improvement this term - due mainly to the hard work of the affected students.  <br/> Mentors and students are busy this term wrapping up their work, preparing for final GSoC evaluation requirements, plus scheduling presentations of their completed work to the larger Rocket.Chat team.  Many of the presentations are recorded and are available [here](https://youtu.be/pnz2LCtCeMM), [here](https://www.youtube.com/watch?v=nlsTyJZbKSM), [here](https://www.youtube.com/watch?v=kuDlwnlX67k) and [here](https://ufile.io/jvmbh).  As a final result for 2018, one out of our eight GSoC students has withdrawn, and mentors gave final passes to the other seven GSoC projects.  Of the four independently funded projects, three passed and one failed (due to the student's disappearance).  We congratulate the students and mentors on their achievements and sincerely hope all students now have enough of a taste of open source (and Rocket.Chat in particular) to continue on their life-long open source contribution as they embark on their next phase of personal development. We will continue to work through the backlog of GSoC project stories on the blog this term.
+
+UPDATE July 15, 2018 <br/> Mentors and students continued to work towards their objectives during this second evaluation period.  Due to internal organizational staff changes and other organization operational factors, three problematic projects were identified during this period.  Extensive administrative intervention and turn-around was necessary to "salvage" these projects. <br/> Thankfully, the GSoC students worked with us every step of the way as we reassign mentors and realign mutually agreed project scopes.  As a result, the (new in some cases) project mentors have decided to pass all enrolled students - both GSoC and independently funded projects for this term.  Internally, the projects' blog post series is lagging significantly behind, we are working to catch up as soon as possible.
+
+UPDATE June 15, 2018 <br/> The first evaluation period has come and gone. Our students have been coding feverishly over the past months and many of them have already demonstrated their work to their mentors and teams.   We are proud to report that during this evaluation, our mentors have decided to pass all eight of the GSoC students.  Our Rocket.Chat-sponsored projects also reported all passes for the three students. We have started to create blog stories around the projects featuring our students - the first story should be available in the next week or two. Due to some internal project logistical problems, one of the students has agreed, together with his mentors and team to switch topic from the second term onwards - to another one of his accepted final proposals - our list below has been amended to reflect the change. We have, through our working partner, been able to fund an additional (to the 11 that we already have) highly capable but non-GSoC selected student to work on a Rocket.Chat-related topic.
+
+UPDATE April 25, 2018, AMENDED June 15, 2018 <br/> The list of [official GSoC 2018 accepted students and projects](https://summerofcode.withgoogle.com/organizations/6355544806260736/) is now available. First, we would like to sincerely thank every student who has submitted a proposal and many who had worked on PRs and assisted in our open source community - please continue the excellent work. Of the 93 proposals we received, there were many high quality ones. We have also interacted with many of the students in the prior month. The decision-making was difficult and mentors were competitive this year.  Ultimately, EIGHT of the top students/proposals this year are accepted for GSoC 2018 (thank you, Google!):
 
 |Student|Project|Mentors|
 |-------|-------|-------|
@@ -36,13 +58,13 @@ In addition, due to the sheer number of high quality entrants, Rocket.Chat has d
 |Nitesh Saxena|Intgration with IPFS|Sing Li, Ankit Bhatia|
 |Arthur Temporim|Enhanced BOT Adapters|Diego Dorgam, John Szaszvari|
 
-All of the eleven students have been contacted by mentors and started the community bonding period.
+All of the eleven students have been contacted by mentors and have started the community bonding period.
 
-UPDATE April 2, 2018 -  2018 is an incredible GSoC year for us, we have received a total of NINETY THREE proposals from students studying at every corner of the globe - Brazil, Turkey, USA, Armenia, India, China, Singapore, Hong Kong and more. Thank you, GSoC students, for the overwhelming interest on our project. Proposal topics covered almost all of the suggestions on our idea list - and even a few original ones. Our TWENTY FIVE Rocket.Chat core, guest, and community mentors are hard-at-work right now going through every one of the proposals, and will be contacting students for a video chat prior to deciding on proposal selection and slot assignments. Please keep in touch with us and continue to contribute to the Rocket.Chat project during this time.
+UPDATE April 2, 2018 - <br/> 2018 is an incredible GSoC year for us, we have received a total of NINETY THREE proposals from students studying at every corner of the globe - Brazil, Turkey, USA, Armenia, India, China, Singapore, Hong Kong and more. Thank you, GSoC students, for the overwhelming interest on our project. Proposal topics covered almost all of the suggestions on our idea list - and even a few original ones. Our TWENTY FIVE Rocket.Chat core, guest, and community mentors are hard-at-work right now going through every one of the proposals, and will be contacting students for a video chat prior to deciding on proposal selection and slot assignments. Please keep in touch with us and continue to contribute to the Rocket.Chat project during this time.
 
-UPDATE March 24, 2018 -  Students PLEASE NOTE that your final proposal is due on March 27th. It must be in PDF format and submitted via the official GSoC Dashboard. Your Rocket.Chat Core and Guest Industry mentors are looking forward to receive and review your final proposals.
+UPDATE March 24, 2018 - <br/> Students PLEASE NOTE that your final proposal is due on March 27th. It must be in PDF format and submitted via the official GSoC Dashboard. Your Rocket.Chat Core and Guest Industry mentors are looking forward to receive and review your final proposals.
 
-UPDATE March 12, 2018 -   Proposal submission for GSoC 2018 has started! Interested students should visit the [GSoC 2018 site](https://summerofcode.withgoogle.com/) to apply and submit their proposals. See the *Project Ideas* section below for some interesting ideas.
+UPDATE March 12, 2018 - <br/> Proposal submission for GSoC 2018 has started! Interested students should visit the [GSoC 2018 site](https://summerofcode.withgoogle.com/) to apply and submit their proposals. See the *Project Ideas* section below for some interesting ideas.
 
 You can email the mentor(s) directly for discussion and further information. You can also find them, most of the time, on our [community server](https://open.rocket.chat/) for real-time chat. Many of the mentors are fluent in both Portuguese and English.
 

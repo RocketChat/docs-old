@@ -11,7 +11,7 @@ Removes a user from the channel.
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |
-| `userId` | `nSYqWzZ4GsKTX4dyK` | Required | The user id of who to invite |
+| `userId` | `nSYqWzZ4GsKTX4dyK` | Required | The user id of who to kick |
 
 ## Example Call
 

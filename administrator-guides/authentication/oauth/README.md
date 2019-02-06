@@ -6,7 +6,7 @@ These settings are in the `Accounts` setting page under `Administration`.
 
 ## Facebook
 
-- Callback url: `<<website_url>>/_oauth/facebook`
+- Callback url: `<<website_url>>/_oauth/facebook?close`
 
 ## GitHub
 
@@ -24,7 +24,7 @@ Go to your [Application Settings](https://github.com/settings/applications), and
 
 ### Google Setup
 
-Go to the [Google Developer Console](https://console.developers.google.com) and create a new project. Setup your project by creating an "OAuth 2.0 client ID" (under "APIs & auth" and "Credentials"). After that, make sure you setup a "Product name" in the OAuth consent screen.
+Go to the [Google Developer Console](https://console.developers.google.com) and create a new project. Setup your project by creating an "OAuth 2.0 client ID" (under "APIs & auth" and "Credentials"). After that, make sure you setup a "Product name" in the OAuth consent screen. Make sure to select Web App as application type. Otherwise you won't be able to provide a callback URL
 
 ## LinkedIn
 

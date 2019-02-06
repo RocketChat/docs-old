@@ -1,6 +1,6 @@
 # Remove Integration
 
-Removes an integration from the server.
+Removes an integration from the server. Requires `manage-integrations` or `manage-own-integrations` permissions.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -10,7 +10,7 @@ Removes an integration from the server.
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `type` | `webhook-outgoing` | Required | The type of integration to remove, currently only `webhook-outgoing` is supported. |
+| `type` | `webhook-outgoing` | Required | The type of integration to remove, `webhook-outgoing` and `webhook-incoming` are supported. |
 | `integrationId` | `oNLthAt9RwMw39N2B` | Required | The id of the integration to remove. |
 
 ## Example Call
