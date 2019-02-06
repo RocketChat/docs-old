@@ -11,13 +11,17 @@ redirect_from:
 
 ## How to apply
 
-For current information on the 2019 program and general discussions, please see GSoC 2019 category on our discussion forums:
+GSoC 2019 students application opens March 25th, 2019.  See [GSoC timeline](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#timeline) for more details.
 
-<https://forums.rocket.chat/c/gsoc/gsoc2019>
+Start writing your proposal now! Check out our [list of ideas](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#project-ideas) for some inspiration.
 
-Meet the mentors and students for 2019, get some real-time help on next steps, please visit our community server Google Summer of Code 2018 discussion channel:
+Meet the mentors and students for GSoC 2019 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
 
 <https://open.rocket.chat/channel/gsoc2019>
+
+For offline discussions, we have a discussion forum:
+
+<https://forums.rocket.chat/c/gsoc/gsoc2019>
 
 If you have ideas and proposals that are not on our idea list, or if a mentor is not available, please email to:
 
