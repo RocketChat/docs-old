@@ -71,6 +71,11 @@ Interested students are also encouraged to interact with our contributor communi
 
 - **Mentors**: @d-gubert
 - **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Asana, using Slashcommands, custom API endpoints, custom Settings, etc.
+
+### Google Calendar Rocket.Chat App
+
+- **Mentors**: @d-gubert
+- **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Google Calendar, using Slashcommands, custom API endpoints, custom Settings, etc.
 - **Desirable Skills**: Familiarity with TypeScript.
 
 ## Timeline
