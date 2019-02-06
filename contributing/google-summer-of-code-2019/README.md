@@ -95,6 +95,13 @@ Interested students are also encouraged to interact with our contributor communi
 - **Mentors**: @d-gubert
 - **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Asana, using Slashcommands, custom API endpoints, custom Settings, etc.
 
+### Implement theming on React Native app (Rocket.Chat Experimental)
+
+- **Mentors**: @diegolmello
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
+- **Description**: Themes, like dark mode, are very popular and everywhere right now, but the Rocket.Chat React Native app lacks the feature of applying different themes. This project aims to bring different themes like dark mode and black mode into the existing React Native client.
+- **Desirable Skills:**  Familiarity with React Native development, specifically the Rocket.Chat.ReactNative code base.
+
 ## Timeline
 
 [GSoC 2019 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
