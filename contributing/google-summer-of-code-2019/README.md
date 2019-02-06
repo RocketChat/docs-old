@@ -90,12 +90,6 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description:** Implement a way for administrators to rebrand their instances of rocketchat - product name, icons, colors, etc - for the android and ios apps, which currently do not support this. Besides adding this capability, another goal would be to make this branding across all the OS’s easy for an administrator that may not be too tech savvy. Ideally this would only be a few easy steps. Besides this ease-of-use improvement, this would also make it less likely that people will fork rocket in order to put in their own branding.
 - **Desirable Skills:**  Familiarity with Android and/or iOS development, specifically the Rocket.Chat.Android/Rocket.Chat.iOS code bases.
 
-### Ability to Rebrand Android and iOS Apps
-
-- **Mentors:** @TBD
-- **Description:** Implement a way for administrators to rebrand their instances of rocketchat - product name, icons, colors, etc - for the android and ios apps, which currently do not support this. Besides adding this capability, another goal would be to make this branding across all the OS’s easy for an administrator that may not be too tech savvy. Ideally this would only be a few easy steps. Besides this ease-of-use improvement, this would also make it less likely that people will fork rocket in order to put in their own branding.
-- **Desirable Skills:**  Familiarity with Android and/or iOS development, specifically the Rocket.Chat.Android/Rocket.Chat.iOS code bases.
-
 ### Asana Rocket.Chat App
 
 - **Mentors**: @d-gubert, @rodrigok
