@@ -79,7 +79,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### iOS Voice Over Accessibility
 
-- **Mentors:** @TBD
+- **Mentors:** @bruno.quadros
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.iOS>
 - **Description:** VoiceOver is a gesture-based screen reader that lets you enjoy using iPhone even if you don’t see the screen. This is especially important for those with low or no vision. We want to make Rocket.Chat for everyone. A blind user should be able to easily add servers, change servers, read messages and send messages, as well as other additional functions such as editing profile and creating channels. Minimum acceptable scope is to be determined.
 - **Desirable Skills:** We are looking for an undergraduate student who is familiar with team work, developing iOS Apps using UIKit and Swift, as well as writing maintainable code with Unit Tests and having some familiarity with Voice Over and Accessibility.
