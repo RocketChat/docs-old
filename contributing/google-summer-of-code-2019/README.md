@@ -29,6 +29,26 @@ Interested students are also encouraged to interact with our contributor communi
 
 ## Project Ideas
 
+### Apple Watch & Siri Support
+
+- **Mentors**: @TBD
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.iOS>
+- **Description**: Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such like viewing the chat rooms and reading the messages. Let user ask Siri to read latest messages, send messages or respond to a message.
+- **Desirable Skills**: Familiarity with WatchKit development on WatchOS & SiriKit. Ability to work in large multi-disciplinary teams.
+
+### Implement Dark theme for Android app
+
+- **Mentors**: @TBD
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Android>
+- **Description**: Themes are very popular and they’re part of what makes Android stand out from the rest. But the current Rocket Chat Android app lacks the feature of applying different themes.This project aims to bring different themes like dark mode and black mode into the existing Android Client.
+- **Desirable Skills:**  Familiarity with Android development, specifically the Rocket.Chat.Android code base.
+
+### Google Calendar Rocket.Chat App
+
+- **Mentors**: @d-gubert
+- **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Google Calendar, using Slashcommands, custom API endpoints, custom Settings, etc.
+- **Desirable Skills**: Familiarity with TypeScript.
+
 ### Service Accounts in Rocket.Chat
 
 - **Mentors:** @karan.bedi, @bizzbyster
@@ -60,13 +80,6 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description:** VoiceOver is a gesture-based screen reader that lets you enjoy using iPhone even if you don’t see the screen. This is especially important for those with low or no vision. We want to make Rocket.Chat for everyone. A blind user should be able to easily add servers, change servers, read messages and send messages, as well as other additional functions such as editing profile and creating channels. Minimum acceptable scope is to be determined.
 - **Desirable Skills:** We are looking for an undergraduate student who is familiar with team work, developing iOS Apps using UIKit and Swift, as well as writing maintainable code with Unit Tests and having some familiarity with Voice Over and Accessibility.
 
-### Apple Watch & Siri Support
-
-- **Mentors**: @TBD
-- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.iOS>
-- **Description**: Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such like viewing the chat rooms and reading the messages. Let user ask Siri to read latest messages, send messages or respond to a message.
-- **Desirable Skills**: Familiarity with WatchKit development on WatchOS & SiriKit. Ability to work in large multi-disciplinary teams.
-
 ### Ability to Rebrand Android and iOS Apps
 
 - **Mentors:** @TBD
@@ -77,19 +90,6 @@ Interested students are also encouraged to interact with our contributor communi
 
 - **Mentors**: @d-gubert
 - **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Asana, using Slashcommands, custom API endpoints, custom Settings, etc.
-
-### Google Calendar Rocket.Chat App
-
-- **Mentors**: @d-gubert
-- **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Google Calendar, using Slashcommands, custom API endpoints, custom Settings, etc.
-- **Desirable Skills**: Familiarity with TypeScript.
-
-### Implement Dark theme for Android app
-
-- **Mentors**: @TBD
-- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Android>
-- **Description**: Themes are very popular and they’re part of what makes Android stand out from the rest. But the current Rocket Chat Android app lacks the feature of applying different themes.This project aims to bring different themes like dark mode and black mode into the existing Android Client.
-- **Desirable Skills:**  Familiarity with Android development, specifically the Rocket.Chat.Android code base.
 
 ## Timeline
 
