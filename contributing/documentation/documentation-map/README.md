@@ -279,6 +279,7 @@ Here you can also find what articles are incomplete and missing.
             - members
             - moderators
             - messages
+            - online
             - open
             - removeModerator
             - removeOwner
