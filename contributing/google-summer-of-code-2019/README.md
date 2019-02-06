@@ -122,6 +122,14 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description**: In mobile apps, users must be able to do what they want in fewer taps as possible. Slash commands are faster ways to trigger trivial actions, like invite an user or archive a channel, and it should be available on React Native client.
 - **Desirable Skills:**  Familiarity with React Native development, specifically the Rocket.Chat.ReactNative code base.
 
+
+### Allow Rocket.Chat Apps to use their own NPM modules
+
+- **Mentors**: @d-gubert, @rodrigok
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Apps-engine>
+- **Description**: Currently the Rocket.Chat Apps Engine does not support that apps include their own `node_modules` dependencies, which can be very limiting in some use cases. The goal of this project is to modify our engine so that it can properly install and manage an app's dependencies, enabling app developers to unleash their full potential.
+- **Desirable Skills**: Solid understanding of JavaScript and some familiarity with TypeScript. Familiarity with TypeScript's compiler is definitely a plus.
+
 ### Improve Rocket.Chat Auto-Translate feature
 
 - **Mentors**: @marceloschmidt
@@ -134,6 +142,7 @@ Interested students are also encouraged to interact with our contributor communi
 - **Mentors**: @marceloschmidt
 - **Description**: Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. On Users Directory, users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
 - **Desirable Skills**: Familiarity with Rocket.Chat development.
+
 
 ## Timeline
 
