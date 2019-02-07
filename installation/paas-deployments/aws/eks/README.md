@@ -68,7 +68,7 @@ Now that helm has finished successfully we can install traefik.  Traefik is a re
 
 ```
 helm install stable/traefik --name traefik --namespace kube-system --set rbac.enabled=true
-``` 
+```
 
 Like mentioned above RBAC is enabled so in this command we set a flag that caused the helm chart to create rbac rules for traefik automatically.
 
@@ -77,11 +77,11 @@ Some optional flags you can add to the above command:
 * --set acme.enabled=true - this will enable letsencrypt
 * --set acme.email=youremail - this sets the email to use with it
 
-Give it a few seconds and then run: 
+Give it a few seconds and then run:
 
 ```
 kubectl -n kube-system get svc
-``` 
+```
 
 You might have to run it a few times, but after a while you will you will get output that looks something like:
 
@@ -89,7 +89,7 @@ You might have to run it a few times, but after a while you will you will get ou
 
 Take that and create a CNAME for with your desired domain pointing to that address.
 
-Now finally lets go subscribe to our image from AWS Marketplace.  
+Now finally lets go subscribe to our image from AWS Marketplace. 
 
 * [Rocket.Chat Community](https://aws.amazon.com/marketplace/pp/B07K9BKJHP?qid=1549500780099&sr=0-1&ref_=srh_res_product_title)
 * [Rocket.Chat Enterprise](https://aws.amazon.com/marketplace/pp/B07K98179S?qid=1549500780099&sr=0-3&ref_=srh_res_product_title)
