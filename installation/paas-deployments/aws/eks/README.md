@@ -46,14 +46,15 @@ subjects:
     * --acme.email=youremail
 5. Grab the ip for your traefik service: `kubectl -n kube-system get svc` you might have to run it a few times for your external-ip to show up
 6. Create CNAME for the domain you plan to use pointing to ELB ip created for traefik
-7. https://aws.amazon.com/marketplace/search/results?searchTerms=Rocket.Chat access the marketplace
-8. Click subscribe
-9. Continue to configuration - can set version and stuff here
-10. Continue to launch
-11. Click "View Container Image Details"
+7. [Access AWS Marketplace](https://aws.amazon.com/marketplace/search/results?searchTerms=Rocket.Chat)
+8. Choose Enterprise or Community Edition
+9. Click subscribe
+10. Continue to configuration - can set version and stuff here
+11. Continue to launch
+12. Click "View Container Image Details"
 ![image](https://user-images.githubusercontent.com/51996/52382003-3f98ed00-2a39-11e9-9a28-a4a179abd18f.png)
-12. Copy the container image path
-13. Prepare helm command:
+13. Copy the container image path
+14. Prepare helm command:
 
 ```
 helm install --name=rc \
@@ -77,8 +78,8 @@ From this command you will want to check a few things:
 * tag - use the `0.71.1-latest` part of the command.
 * host - set to the hostname you plan to use
 
-14. Finally run the command
-15. Check out your install!
+15. Finally run the command
+16. Check out your install!
 
 
 
