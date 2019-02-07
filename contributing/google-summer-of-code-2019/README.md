@@ -161,6 +161,12 @@ Interested students are also encouraged to interact with our contributor communi
 - **Mentors**: TBD
 - **Description**: Rocket.Chat is currently capable of importing data exported from Slack and HipChat, but there's no importer for Mattermost data. This is a valuable feature that the application is still missing.
 
+### SNAP improvements
+
+- **Mentors**: TBD
+- **Description**: Snaps are containerised software packages that are simple to create and install, and Rocket.Chat snap package is currently one of our most popular installation method, the aim of this project is improve our snap installation process and features, bringing better support for our ARM architecture deployment, and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for loadbalancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replicaset and possible firewall configuration.
+- **Desirable Skills:**  Familiarity with Linux.
+
 ### iOS contacts sync, invites & dynamic links
 
 - **Mentors**: @TBD
