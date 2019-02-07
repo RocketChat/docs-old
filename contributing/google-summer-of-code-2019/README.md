@@ -179,6 +179,12 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description**: In the Rocket.Chat iOS native application, add the functionality of listing all the contacts of a user, syncing in background these contacts with the server using existing APIs and displaying the intersection with public accounts on server. Integrating the APIs to invite users that do not have an account (via email / phone) or inviting via other applications on phone. Support dynamic links in iOS app, allow the creation of links such that when invited through one, after installation of the app it opens a DM with the inviter, etc. `These functionalities are already implemented for Android in a fork.`
 - **Desirable Skills**: Familiarity with iOS development.
 
+### Real-Time Visitor Monitoring
+
+- **Mentors**: @renatobecker
+- **Description**: The goal of Real-Time Visitor Monitoring is to provide an important feature for the Livechat team by displaying a list of visitors who are browsing the website where the Livechat widget is installed. Having this feature, it will be possible to track important information related to visitors, such as the current page, location, time on site, local time, and so on, even though the visitor has not yet started a conversation with an agent. In addition, an agent will be able to start a conversation with a specific visitor directly from the list, improving the proactivity of the Livechat team.
+- **Desirable Skills**: Familiarity with Rocket.Chat/Livechat development.
+
 ## Timeline
 
 [GSoC 2019 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
