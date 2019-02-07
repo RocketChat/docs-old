@@ -149,12 +149,12 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description**: Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. On Users Directory, users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
 - **Desirable Skills**: Familiarity with Rocket.Chat development.
 
-### Mattermost Data Importer ### 
+### Mattermost Data Importer
 
 - **Mentors**: TBD
 - **Description**: Rocket.Chat is currently capable of importing data exported from Slack and HipChat, but there's no importer for Mattermost data. This is a valuable feature that the application is still missing. 
 
-### iOS contacts sync, invites & dynamic links ### 
+### iOS contacts sync, invites & dynamic links
 
 - **Mentors**: @TBD
 - **Description**: In the Rocket.Chat iOS native application, add the functionality of listing all the contacts of a user, syncing in background these contacts with the server using existing APIs and displaying the intersection with public accounts on server. Integrating the APIs to invite users that do not have an account (via email / phone) or inviting via other applications on phone. Support dynamic links in iOS app, allow the creation of links such that when invited through one, after installation of the app it opens a DM with the inviter, etc. `These functionalities are already implemented for Android in a fork.`
