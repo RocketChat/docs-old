@@ -2,20 +2,23 @@
 
 Here we will guide you through installing in AWS in an EKS cluster using our AWS Marketplace container.
 
-### Recent webinar demoing this process
+## Recent webinar demoing this process
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U3ePJR0V0L0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Prerequisites : 
+## Prerequisites
+
 * Have AWS Account
-* Download [aws cli](https://aws.amazon.com/cli/) 
-* Run aws configure 
+* Download [aws cli](https://aws.amazon.com/cli/)
+* Run aws configure
 * Install [eksctl](https://eksctl.io/) recommended by [eksworkshop](https://eksworkshop.com/eksctl/)
 * Install [helm](https://docs.helm.sh/using_helm/#installing-helm)
 
+## Steps:
 
-### Steps:
 1. `eksctl create cluster --name=your-eks-cluster --region=us-west-2` (takes about 15-20 minutes)
 2. `kubectl apply -f tiller-rbac.yaml` - [Create helm serviceaccount](https://docs.helm.sh/using_helm/#example-service-account-with-cluster-admin-role)
+
 ```
 apiVersion: v1
 kind: ServiceAccount
@@ -36,6 +39,7 @@ subjects:
     name: tiller
     namespace: kube-system
 ```
+
 3. `helm init --service-account tiller` - installs the helm tiller the server side component that helm talks to inside the cluster
 4. `helm install stable/traefik --name traefik --namespace kube-system --set rbac.enabled=true` -- install traefik to act as ingress controller
     * Can use --acme.enabled=true to generate tls
@@ -50,6 +54,7 @@ subjects:
 ![image](https://user-images.githubusercontent.com/51996/52382003-3f98ed00-2a39-11e9-9a28-a4a179abd18f.png)
 12. Copy the container image path
 13. Prepare helm command:
+
 ```
 helm install --name=rc \
 --set mongodb.mongodbUsername=rocketchat \
@@ -64,12 +69,14 @@ stable/rocketchat
 ```
 
 From this command you will want to check a few things:
+
 * mongodb.mongodbPassword - make sure to set to your own password
 * repo - use the repo part of the container image path you copied earlier. 
     - Ex: `217273820646.dkr.ecr.us-east-1.amazonaws.com/c87d63fd-e44d-4368-82e0-24bd42b21a84/cg-2246218297/rocket.chat:0.71.1-latest`
     - The repo is: `217273820646.dkr.ecr.us-east-1.amazonaws.com/c87d63fd-e44d-4368-82e0-24bd42b21a84/cg-2246218297/rocket.chat`
 * tag - use the `0.71.1-latest` part of the command.
 * host - set to the hostname you plan to use
+
 14. Finally run the command
 15. Check out your install!
 
