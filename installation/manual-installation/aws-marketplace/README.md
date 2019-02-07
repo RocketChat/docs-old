@@ -71,6 +71,7 @@ From this command you will want to check a few things:
 * tag - use the `0.71.1-latest` part of the command.
 * host - set to the hostname you plan to use
 14. Finally run the command
+15. Check out your install!
 
-### Check it out
+
 
