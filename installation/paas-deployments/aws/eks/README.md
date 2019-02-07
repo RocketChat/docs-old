@@ -121,8 +121,8 @@ Example of image path
 217273820646.dkr.ecr.us-east-1.amazonaws.com/c87d63fd-e44d-4368-82e0-24bd42b21a84/cg-2246218297/rocket.chat:0.71.1-latest
 ```
 
-The repo part of it is everything before `:` 
-    
+The repo part of it is everything before `:`
+
 ```
 217273820646.dkr.ecr.us-east-1.amazonaws.com/c87d63fd-e44d-4368-82e0-24bd42b21a84/cg-2246218297/rocket.chat
 ```
