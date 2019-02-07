@@ -89,7 +89,7 @@ You might have to run it a few times, but after a while you will you will get ou
 
 Take that and create a CNAME for with your desired domain pointing to that address.
 
-Now finally lets go subscribe to our image from AWS Marketplace. 
+Now finally lets go subscribe to our image from AWS Marketplace.
 
 * [Rocket.Chat Community](https://aws.amazon.com/marketplace/pp/B07K9BKJHP?qid=1549500780099&sr=0-1&ref_=srh_res_product_title)
 * [Rocket.Chat Enterprise](https://aws.amazon.com/marketplace/pp/B07K98179S?qid=1549500780099&sr=0-3&ref_=srh_res_product_title)
