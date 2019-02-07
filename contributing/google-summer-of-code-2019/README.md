@@ -161,6 +161,12 @@ Interested students are also encouraged to interact with our contributor communi
 - **Mentors**: TBD
 - **Description**: Rocket.Chat is currently capable of importing data exported from Slack and HipChat, but there's no importer for Mattermost data. This is a valuable feature that the application is still missing.
 
+### iOS contacts sync, invites & dynamic links
+
+- **Mentors**: @TBD
+- **Description**: In the Rocket.Chat iOS native application, add the functionality of listing all the contacts of a user, syncing in background these contacts with the server using existing APIs and displaying the intersection with public accounts on server. Integrating the APIs to invite users that do not have an account (via email / phone) or inviting via other applications on phone. Support dynamic links in iOS app, allow the creation of links such that when invited through one, after installation of the app it opens a DM with the inviter, etc. `These functionalities are already implemented for Android in a fork.`
+- **Desirable Skills**: Familiarity with iOS development.
+
 ## Timeline
 
 [GSoC 2019 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
