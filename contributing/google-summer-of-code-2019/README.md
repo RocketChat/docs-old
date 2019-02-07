@@ -33,13 +33,6 @@ Interested students are also encouraged to interact with our contributor communi
 
 ## Project Ideas
 
-### Interactive APIs documentation
-
-- **Mentors**: @martin.schoeler
-- **Project repository**: <https://github.com/RocketChat/docs>
-- **Description**: Create an easy-to-use interface to let the user explore, test and get info about the existing endpoints of the Rocket.Chat's APIs. The user will be able to connect and make requests directly from the UI, also being able to change the arguments of the requests and testing differents flows of the APIs.
-- **Desirable Skills**: Familiarity with Jekyll and Rocket.Chat Rest API.
-
 ### Apple Watch & Siri Support
 
 - **Mentors**: @thiago.sanchez
@@ -59,6 +52,33 @@ Interested students are also encouraged to interact with our contributor communi
 - **Mentors**: @d-gubert, @rodrigok
 - **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Google Calendar, using Slashcommands, custom API endpoints, custom Settings, etc.
 - **Desirable Skills**: Familiarity with TypeScript.
+
+### Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)
+
+- **Mentors**: @diegolmello
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
+- **Description**: Share extensions enables iOS or Android OS to share content between apps. This project aims to implement a share extension for React Native client in order to let users to share data into Rocket.Chat from other apps. For example, an user should be able to send photos from camera roll to a Rocket.Chat channel without opening the RC client.
+- **Desirable Skills:**  Familiarity with React Native, iOS and Android development and Rocket.Chat.ReactNative code base.
+
+### Improve Rocket.Chat Auto-Translate feature
+
+- **Mentors**: @marceloschmidt
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/rocketchat-autotranslate>
+- **Description**: One of the most popular feature in Rocket.Chat is auto-translate, where users can set their own language preference to have all messages translated.  This feature works by translating every incoming message into the user language of choice. We would like the student to make it possible for the package to also translate every message the user sends into another language. As a plus, if the student can implement a channel language setting, it would be superb.
+- **Desirable Skills:**  Familiarity with Rocket.Chat development and meteor packages.
+
+### Interactive APIs documentation
+
+- **Mentors**: @martin.schoeler
+- **Project repository**: <https://github.com/RocketChat/docs>
+- **Description**: Create an easy-to-use interface to let the user explore, test and get info about the existing endpoints of the Rocket.Chat's APIs. The user will be able to connect and make requests directly from the UI, also being able to change the arguments of the requests and testing differents flows of the APIs.
+- **Desirable Skills**: Familiarity with Jekyll and Rocket.Chat Rest API.
+
+### SNAP improvements
+
+- **Mentors**: TBD
+- **Description**: The most popular Rocket.Chat deployment method in the world is via snaps.  Snaps are containerised software packages that are simple to create and install. The aim of this project is improve our snap installation process and features, bringing better support for our ARM architecture deployment, and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for loadbalancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replicaset and possible firewall configuration.
+- **Desirable Skills:**  Familiarity with Linux. Good shell scripting skills. Aware of DevOps and containers based deployment technology.
 
 ### Service Accounts in Rocket.Chat
 
@@ -122,13 +142,6 @@ Interested students are also encouraged to interact with our contributor communi
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
 - **Description**: Themes, like dark mode, are very popular and everywhere right now, but the Rocket.Chat React Native app lacks the feature of applying different themes. This project aims to bring different themes like dark mode and black mode into the existing React Native client.
 
-### Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)
-
-- **Mentors**: @diegolmello
-- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
-- **Description**: Share extensions enables iOS or Android OS to share content between apps. This project aims to implement a share extension for React Native client in order to let users to share data into Rocket.Chat from other apps. For example, an user should be able to send photos from camera roll to a Rocket.Chat channel without opening the RC client.
-- **Desirable Skills:**  Familiarity with React Native, iOS and Android development and Rocket.Chat.ReactNative code base.
-
 ### Implement slash commands on React Native app (Rocket.Chat Experimental)
 
 - **Mentors**: @diegolmello
@@ -143,13 +156,6 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description**: Currently the Rocket.Chat Apps Engine does not support that apps include their own `node_modules` dependencies, which can be very limiting in some use cases. The goal of this project is to modify our engine so that it can properly install and manage an app's dependencies, enabling app developers to unleash their full potential.
 - **Desirable Skills**: Solid understanding of JavaScript and some familiarity with TypeScript. Familiarity with TypeScript's compiler is definitely a plus.
 
-### Improve Rocket.Chat Auto-Translate feature
-
-- **Mentors**: @marceloschmidt
-- **Project repository**: <https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/rocketchat-autotranslate>
-- **Description**: Rocket.Chat Auto-Translate features work by translating every incoming message into the user language of choice. We would like the student to make it possible for the package to also translate every message the user sends into another language. As a plus, if the student can implement a channel language setting, it would be superb.
-- **Desirable Skills:**  Familiarity with Rocket.Chat development and meteor packages.
-
 ### Users Directory integration plus custom fields editor and search
 
 - **Mentors**: @marceloschmidt
@@ -160,12 +166,6 @@ Interested students are also encouraged to interact with our contributor communi
 
 - **Mentors**: TBD
 - **Description**: Rocket.Chat is currently capable of importing data exported from Slack and HipChat, but there's no importer for Mattermost data. This is a valuable feature that the application is still missing.
-
-### SNAP improvements
-
-- **Mentors**: TBD
-- **Description**: Snaps are containerised software packages that are simple to create and install, and Rocket.Chat snap package is currently one of our most popular installation method, the aim of this project is improve our snap installation process and features, bringing better support for our ARM architecture deployment, and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for loadbalancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replicaset and possible firewall configuration.
-- **Desirable Skills:**  Familiarity with Linux.
 
 ### iOS contacts sync, invites & dynamic links
 
