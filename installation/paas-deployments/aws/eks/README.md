@@ -11,13 +11,24 @@ Here we will guide you through installing in AWS in an EKS cluster using our AWS
 * Have AWS Account
 * Download [aws cli](https://aws.amazon.com/cli/)
 * Run aws configure
-* Install [eksctl](https://eksctl.io/) recommended by [eksworkshop](https://eksworkshop.com/eksctl/)
+* Install [eksctl](https://eksctl.io/)
 * Install [helm](https://docs.helm.sh/using_helm/#installing-helm)
 
-## Steps:
+## Instructions:
 
-1. `eksctl create cluster --name=your-eks-cluster --region=us-west-2` (takes about 15-20 minutes)
-2. `kubectl apply -f tiller-rbac.yaml` - [Create helm serviceaccount](https://docs.helm.sh/using_helm/#example-service-account-with-cluster-admin-role)
+First we need to bring up a kubernetes cluster.  So we will bring it up in AWS kubernetes offering called eks.  To do this we will use a tool called eksctl which is recommended by [eksworkshop](https://eksworkshop.com/eksctl/)
+
+```
+eksctl create cluster --name=your-eks-cluster --region=us-west-2
+```
+
+This takes from 15-20 minutes.  So go grab a cup of coffee or something.
+
+Once that's finished we need to get things setup for helm.  Starting somewhere around Kubernetes 1.9 RBAC is enabled by default with most kubernetes providers.  Its enabled by default in EKS.
+
+So we need to install service account to allow helm to operate correctly.  [More info about that here](https://docs.helm.sh/using_helm/#example-service-account-with-cluster-admin-role)
+
+Create a file called tiller-rbac.yaml with contents of:
 
 ```
 apiVersion: v1
@@ -40,21 +51,72 @@ subjects:
     namespace: kube-system
 ```
 
-3. `helm init --service-account tiller` - installs the helm tiller the server side component that helm talks to inside the cluster
-4. `helm install stable/traefik --name traefik --namespace kube-system --set rbac.enabled=true` -- install traefik to act as ingress controller
-    * Can use --acme.enabled=true to generate tls
-    * --acme.email=youremail
-5. Grab the ip for your traefik service: `kubectl -n kube-system get svc` you might have to run it a few times for your external-ip to show up
-6. Create CNAME for the domain you plan to use pointing to ELB ip created for traefik
-7. [Access AWS Marketplace](https://aws.amazon.com/marketplace/search/results?searchTerms=Rocket.Chat)
-8. Choose Enterprise or Community Edition
-9. Click subscribe
-10. Continue to configuration - can set version and stuff here
-11. Continue to launch
-12. Click "View Container Image Details"
+Next we we need to insert this into kubernetes with:
+
+```
+kubectl apply -f tiller-rbac.yaml
+```
+
+Now that the service role is in place we need to initialize tiller with this service account.
+
+```
+helm init --service-account tiller
+```
+
+Now that helm has finished successfully we can install traefik.  Traefik is a reverse proxy / load balancer with support for kubernetes ingress.  It will automatically discover ingress rules defined inside your cluster and handle routing of traffic in your cluster to those services.  Pretty neat!
+
+```
+helm install stable/traefik --name traefik --namespace kube-system --set rbac.enabled=true
+``` 
+
+Like mentioned above RBAC is enabled so in this command we set a flag that caused the helm chart to create rbac rules for traefik automatically.
+
+Some optional flags you can add to the above command:
+
+* --set acme.enabled=true - this will enable letsencrypt
+* --set acme.email=youremail - this sets the email to use with it
+
+Give it a few seconds and then run: 
+
+```
+kubectl -n kube-system get svc
+``` 
+
+You might have to run it a few times, but after a while you will you will get output that looks something like:
+
+![image](https://user-images.githubusercontent.com/51996/52383655-f304e000-2a3f-11e9-86bb-392c7074010c.png)
+
+Take that and create a CNAME for with your desired domain pointing to that address.
+
+Now finally lets go subscribe to our image from AWS Marketplace.  
+
+* [Rocket.Chat Community](https://aws.amazon.com/marketplace/pp/B07K9BKJHP?qid=1549500780099&sr=0-1&ref_=srh_res_product_title)
+* [Rocket.Chat Enterprise](https://aws.amazon.com/marketplace/pp/B07K98179S?qid=1549500780099&sr=0-3&ref_=srh_res_product_title)
+
+After you pick which one you need to click "Continue to Subscribe"
+
+It will take a little bit to process.  Might have to refresh the page a few times.  Alternatively you can wait on an email they send when its finished.
+
+Once that is finished you can click "Continue to Configuration"
+
+You can choose the version of Rocket.Chat you wish to use.
+
+Then click "Continue to Launch"
+
+Towards the bottom of this page you will see: "View Container Image Details" Click that.
+
 ![image](https://user-images.githubusercontent.com/51996/52382003-3f98ed00-2a39-11e9-9a28-a4a179abd18f.png)
-13. Copy the container image path
-14. Prepare helm command:
+
+Copy the image path given at the bottom.
+
+Now we are ready to plug in a few things and run our helm install:
+
+* mongodb.mongodbPassword - make sure to set to your own password
+* repo - use the repo part of the container image path you copied earlier.
+    - Ex: `217273820646.dkr.ecr.us-east-1.amazonaws.com/c87d63fd-e44d-4368-82e0-24bd42b21a84/cg-2246218297/rocket.chat:0.71.1-latest`
+    - The repo is: `217273820646.dkr.ecr.us-east-1.amazonaws.com/c87d63fd-e44d-4368-82e0-24bd42b21a84/cg-2246218297/rocket.chat`
+* tag - use the part of the image path after the `:` In our case `0.71.1-latest`
+* host - set to the hostname you plan to use
 
 ```
 helm install --name=rc \
@@ -69,17 +131,27 @@ helm install --name=rc \
 stable/rocketchat
 ```
 
-From this command you will want to check a few things:
+Now after this runs you can run:
 
-* mongodb.mongodbPassword - make sure to set to your own password
-* repo - use the repo part of the container image path you copied earlier. 
-    - Ex: `217273820646.dkr.ecr.us-east-1.amazonaws.com/c87d63fd-e44d-4368-82e0-24bd42b21a84/cg-2246218297/rocket.chat:0.71.1-latest`
-    - The repo is: `217273820646.dkr.ecr.us-east-1.amazonaws.com/c87d63fd-e44d-4368-82e0-24bd42b21a84/cg-2246218297/rocket.chat`
-* tag - use the `0.71.1-latest` part of the command.
-* host - set to the hostname you plan to use
+```
+kubectl get pods -w
+```
 
-15. Finally run the command
-16. Check out your install!
+And watch until both rc-mongodb and rc-rocketchat are both running.
+
+Rocket.Chat should now be externally available!
+
+## FAQ
+
+### Rocket.Chat isn't responding
+
+Try running:
+
+```
+kubectl logs -f deployment/rc-rocketchat
+```
+
+You should be able to see the logs and see if something happened to keep it from starting.
 
 
 
