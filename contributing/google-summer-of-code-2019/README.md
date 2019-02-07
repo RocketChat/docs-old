@@ -117,6 +117,12 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description:** Implement a way for administrators to rebrand their instances of rocketchat - product name, icons, colors, etc - for the android and ios apps, which currently do not support this. Besides adding this capability, another goal would be to make this branding across all the OS’s easy for an administrator that may not be too tech savvy. Ideally this would only be a few easy steps. Besides this ease-of-use improvement, this would also make it less likely that people will fork rocket in order to put in their own branding.
 - **Desirable Skills:**  Familiarity with Android and/or iOS development, specifically the Rocket.Chat.Android/Rocket.Chat.iOS code bases.
 
+### Data Doctor: A database sanitizer tool for Rocket.Chat
+
+- **Mentors:** @diego.sampaio,  @sing.li
+- **Description:**  Rocket.Chat's data backend is MongoDB, a NoSQL database. NoSQL databases enable application developers to quickly add and change data schemas for new features without imposing rigid integrity constraints.   While effective for small projects,  this can create varied data inconsistency in long lasting production server projects such as Rocket.Chat.   Causes such as buggy code versions, crashes during migrations and/or schema updates, core customizations, and inadvertent DB admin modifications can all lead to a non-deterministic data schema. Some corrupted schema may break code, while others can go years without being detected.  The goal of this project is to create a tool to help santize in production Rocket.Chat databases.  Depending on the ingenuity of the tool design, the same code can one day be integrated into Rocket.Chat as a data integrity layer.
+- **Desirable Skills:**  Familiarity with database concepts and administration.  Fluent with NodeJS and Javascript. Love hacking.
+
 ### Asana Rocket.Chat App
 
 - **Mentors**: @d-gubert, @rodrigok
