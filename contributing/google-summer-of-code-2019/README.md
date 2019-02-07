@@ -33,6 +33,13 @@ Interested students are also encouraged to interact with our contributor communi
 
 ## Project Ideas
 
+### Interactive APIs documentation
+
+- **Mentors**: @martin.schoeler
+- **Project repository**: <https://github.com/RocketChat/docs>
+- **Description**: Create an easy-to-use interface to let the user explore, test and get info about the existing endpoints of the Rocket.Chat's APIs. The user will be able to connect and make requests directly from the UI, also being able to change the arguments of the requests and testing differents flows of the APIs.
+- **Desirable Skills**: Familiarity with Jekyll and Rocket.Chat Rest API.
+
 ### Apple Watch & Siri Support
 
 - **Mentors**: @thiago.sanchez
@@ -152,7 +159,7 @@ Interested students are also encouraged to interact with our contributor communi
 ### Mattermost Data Importer
 
 - **Mentors**: TBD
-- **Description**: Rocket.Chat is currently capable of importing data exported from Slack and HipChat, but there's no importer for Mattermost data. This is a valuable feature that the application is still missing. 
+- **Description**: Rocket.Chat is currently capable of importing data exported from Slack and HipChat, but there's no importer for Mattermost data. This is a valuable feature that the application is still missing.
 
 ### iOS contacts sync, invites & dynamic links
 
