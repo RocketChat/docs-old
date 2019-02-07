@@ -11,6 +11,7 @@ Here we will guide you through installing in AWS in an EKS cluster using our AWS
 * Have AWS Account
 * Download [aws cli](https://aws.amazon.com/cli/)
 * Run aws configure
+* Install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl)
 * Install [eksctl](https://eksctl.io/)
 * Install [helm](https://docs.helm.sh/using_helm/#installing-helm)
 
