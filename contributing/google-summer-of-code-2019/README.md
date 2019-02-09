@@ -129,12 +129,6 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description:**  Rocket.Chat's data backend is MongoDB, a NoSQL database. NoSQL databases enable application developers to quickly add and change data schemas for new features without imposing rigid integrity constraints.   While effective for small projects,  this can create varied data inconsistency in long lasting production server projects such as Rocket.Chat.   Causes such as buggy code versions, crashes during migrations and/or schema updates, core customizations, and inadvertent DB admin modifications can all lead to a non-deterministic data schema. Some corrupted schema may break code, while others can go years without being detected.  The goal of this project is to create a tool to help santize in production Rocket.Chat databases.  Depending on the ingenuity of the tool design, the same code can one day be integrated into Rocket.Chat as a data integrity layer.
 - **Desirable Skills:**  Familiarity with database concepts and administration.  Fluent with NodeJS and Javascript. Love hacking.
 
-### Storage Magician:  Management utility for object storages
-
-- **Mentors:** TBD
-- **Description:** One of the best and most used feature of Rocket.Chat is files upload and sharing.  Rocket.Chat supports a variety of object storages for this implementation, including GridFS,  direct file system,  AWS S3, Nextcloud,  and so on.  Once the files are persisted, the ability to view, manage, or manipulate them are very limited.  The goal of this project is to create a standalone swiss-army-knife tool for Rocket.Chat object storages. This tool knows everything about how Rocket.Chat works with object storages and makes the access, management, and manipulation of persisted files possible.  The tool must also allow partial orfull movement of files betweeen different object storages.
-- **Desirable Skills:** Familiar with how Rocket.Chat file upload and sharing works; understanding of all supported object storage; THE mind of a great code hacker
-
 ### Asana Rocket.Chat App
 
 - **Mentors**: @d-gubert, @rodrigok
