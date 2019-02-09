@@ -19,6 +19,6 @@ If the above fails, run `gem install bundler -v 1.16.2` as per the [BUNDLED WITH
     - Depending on your setup you might need to install [nokogiri](http://www.nokogiri.org/tutorials/installing_nokogiri.html) and its dependencies manually.
 - Fork the [repository](https://github.com/RocketChat/docs).
 - Clone your fork.
-- Run `cd docs/`to enter the cloned docs folder
+- Run `cd docs/`to enter the cloned docs folder.
 - Run `bundle install`.
 - Start the server with `bundle exec "jekyll serve --incremental --safe"`.
