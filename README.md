@@ -18,7 +18,7 @@ If the above fails, run `gem install bundler -v 1.16.2` as per the [BUNDLED WITH
     - You will need to have either `xcode` or the `xcode command line tools` installed. To install the command tools use `xcode-select --install`. Don't forget to accept the `sudo xcodebuild -license` command.
     - Depending on your setup you might need to install [nokogiri](http://www.nokogiri.org/tutorials/installing_nokogiri.html) and its dependencies manually.
 - Fork the [repository](https://github.com/RocketChat/docs).
-- Clone your fork.
+- Clone your forked repository to your local enviroment.
 - Run `cd docs/`to enter the cloned docs folder.
 - Run `bundle install`.
 - Start the server with `bundle exec "jekyll serve --incremental --safe"`.
