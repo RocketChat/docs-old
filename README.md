@@ -1,4 +1,4 @@
----
+Guides for developing and modifying Rocket.Chat's code---
 layout: home
 permalink: /index.html
 ---

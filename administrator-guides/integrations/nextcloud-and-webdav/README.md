@@ -1,4 +1,4 @@
-# Nextcloud and WevDAV integrations
+# Nextcloud and WebDAV integrations
 
 You can integrate Nextcloud with any application that uses the WebDAV protocol.
 
