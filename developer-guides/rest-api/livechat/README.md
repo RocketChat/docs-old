@@ -27,6 +27,7 @@ Manage Livechat related data:
 | `/api/v1/livechat/room` | `GET` | Get the Livechat room data or open a new room. | [info](room/index.html) |
 | `/api/v1/livechat/room.close` | `POST` | Close a Livechat room. | [info](room/index.html#close-livechat-room) |
 | `/api/v1/livechat/room.transfer` | `POST` | Transfer a Livechat room to another agent or department. | [info](room/index.html#transfer-livechat-room) |
+| `/api/v1/livechat/room.forward` | `POST` | Allow Livechat Agents to forward a Livechat room to another agent, department or return it back to the Queue. | [info](room/index.html#forward-livechat-room) |
 | `/api/v1/livechat/room.survey` | `POST` | Send a Livechat survey to Rocket.Chat. | [info](room/index.html#send-the-livechat-survey) |
 | `/api/v1/livechat/transcript` | `POST` | Request a Livechat transcript. | [info](transcript/) |
 | `/api/v1/livechat/video.call/:token` | `GET` | Request a new video call room. | [info](video-call/) |
