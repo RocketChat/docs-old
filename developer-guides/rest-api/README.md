@@ -188,10 +188,10 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Permissions
 
-| Url                          | Short Description                | Details Page                |
-| :--------------------------- | :------------------------------- | :-------------------------- |
-| `/api/v1/permissions.list`   | Lists permissions on the server. | [Link](permissions/list/)   |
-| `/api/v1/permissions.update` | Edits permissions on the server. | [Link](permissions/update/) |
+| Url                             | Short Description                | Details Page                 |
+| :------------------------------ | :------------------------------- | :--------------------------  |
+| `/api/v1/permissions.listAll`   | Lists permissions on the server. | [Link](permissions/list-all/)|
+| `/api/v1/permissions.update`    | Edits permissions on the server. | [Link](permissions/update/)  |
 
 ### Roles
 
