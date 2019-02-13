@@ -430,6 +430,7 @@ Here you can also find what articles are incomplete and missing.
             - resetAvatar
             - setAvatar
             - set-preferences
+            - setActiveStatus
             - update
             - updateOwnBasicInfo
         - Video Conference:

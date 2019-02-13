@@ -420,6 +420,7 @@
         - resetAvatar
         - setAvatar
         - set-preferences
+        - setActiveStatus
         - update
         - updateOwnBasicInfo
       - Video Conference:
