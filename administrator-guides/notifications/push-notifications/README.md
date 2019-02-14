@@ -1,10 +1,22 @@
 # Push Notifications
 
-Mobile Notifications Gateway Configuration
+There are two ways to setup push notifications with Rocket.Chat:
+* Push Gateway
+* Self Configured
 
-The following description, from community member @lvh1 and updated by @lunitic, describes how to configure mobile notification gateways using the latest edition of Rocket.Chat.
+## Push Gateway
 
-## Android
+If you and your users intend to use the official Rocket.Chat mobile applications you will need to choose this option.
+
+To allow push notifications to be received on our mobile application by any server we had to establish a push gateway containing our keys.  This allows us to protect our secret keys required to send through Apple(APN) and Google(FCM) to send you and your users notifications.
+
+## Self Configured
+
+When you choose to roll your own things are a bit more complicated.  You need to get keys from both Apple and Google, and compile/release your own mobile applications to the app stores so your public keys will be distributed to your users.
+
+Then also you will need to add your keys to Rocket.Chat.
+
+### Configuring for Android
 
 The Rocket.Chat native application for Android supports FCM system. Here's how you configure it:
 
@@ -24,25 +36,30 @@ Now that you have a project, you can add your Android app to it:
 
 4. After you add the initialization code, run your app to send verification to the Firebase console that you've successfully installed Firebase.
 
-## Rocket.Chat Cordova
-
-Fill in GCM Project Number in the file www/shared/js/android_sender_id.js, replace "YOUR-ANDROID-ID-HERE" with your GCM Project Number
-
-## iOS
+### Configuring for iOS
 
 For iOS you need an apple developer account that costs US$99 per year. Follow instructions here: <https://github.com/raix/push/blob/v3.x/docs/IOS.md>
 
-## Rocket.Chat
+### Configuring Rocket.Chat
 
 - Go to "Administration", then "Push"
-- Set the Enable Gateway to False, then you will use your own Rocket.Chat as gateway instead of the <https://rocket.chat> server
-- Restart server
+- Set the Enable Gateway to False, then plug the information obtained from Apple and Google
+- Restart server (with out this it will not work)
 
 Now you should be able to Send a test message. Make sure that you have logged in to the server once, and then closed the app.
 You should see a test notification after you pressed the send button.
 
 ## General Observations
 
-- You don't *need* to use a push gateway, if you don't want notifications. Adding certificates and checking to *not* user a gateway is enough
+- If you don't want notifications you can just disable gateway and not provide keys.
+- You cannot compile your own applications and use the Rocket.Chat push gateway.
 - For iOS, you need to [convert](https://github.com/raix/push/blob/master/docs/IOS.md) both the .cer and .p12 files into .pem files
 - Once everything is configured on the admin settings, the server must be restarted
+
+## FAQ
+
+### I am getting "Server notifications are misconfigured!"
+
+If you are getting this message and are using our push gateway please make sure:
+1. Your server is >= 0.74.3
+2. Registered (you can check this by going to http://yourserver/admin/cloud)
