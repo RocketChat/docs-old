@@ -385,7 +385,7 @@ Here you can also find what articles are incomplete and missing.
             - statistics
             - statistics.list
         - Permissions:
-            - list
+            - list-all
             - update
         - Roles:
             - create
