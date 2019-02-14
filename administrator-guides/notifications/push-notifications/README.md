@@ -63,3 +63,6 @@ You should see a test notification after you pressed the send button.
 If you are getting this message and are using our push gateway please make sure:
 1. Your server is >= 0.74.3
 2. Registered (you can check this by going to http://yourserver/admin/cloud)
+
+
+_Thanks to @lvh1 and @lunitic for starting this doc_
