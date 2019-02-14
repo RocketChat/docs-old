@@ -61,7 +61,7 @@ You should see a test notification after you pressed the send button.
 ### I am getting "Server notifications are misconfigured!"
 
 If you are getting this message and are using our push gateway please make sure:
-1. Your server is >= 0.74.3
+1. Your server version is greater or equal to 0.74.3
 2. Registered (you can check this by going to http://yourserver/admin/cloud)
 
 
