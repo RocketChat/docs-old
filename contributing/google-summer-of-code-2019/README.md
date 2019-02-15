@@ -31,6 +31,14 @@ Interested students are also encouraged to interact with our contributor communi
 
 <https://github.com/RocketChat/Rocket.Chat>
 
+Ethusiasm and interest is extremely high this year, candidate students have already started to interact with our community and contributing to the projects!   We are maintaining a realtime updated leaderboard for at-a-glance student (candidates) contribution here:
+
+https://gsoc.rocket.chat/
+
+The leaderboard project **itself** is open source, created and maintained by our student (candidates).  All potential GSoC organizations are welcome to use and deploy it (the project has super friendly MIT license - just like Rocket.Chat).
+
+https://github.com/shubhsherl/GSoC-Contribution-Leaderboard
+
 ## Project Ideas
 
 ### Apple Watch & Siri Support
