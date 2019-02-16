@@ -1,9 +1,8 @@
 # Realtime API
 
-Point your client to the server you want to connect to: **wss://[ABC.DOMAIN.COM]/websocket**
-To conntect to the open Rocket.chat use:
+Point your client to the Websocket of the server you want to connect to:
 ```
-wss://open.rocket.chat/websocket
+wss://[ABC.DOMAIN.COM]/websocket
 ```
 Our real-time API is composed of two elements: [Method Calls][1] and [Subscriptions][2]. Both of them are supported directly in the websocket connection.
 
