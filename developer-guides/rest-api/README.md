@@ -97,6 +97,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.members`                    | Retrieves all channel users.                                | [Link](channels/members/)                       |
 | `/api/v1/channels.messages`                   | Retrieves all channel messages.                             | [Link](channels/messages/)                      |
 | `/api/v1/channels.moderators`                 | List all moderators of a channel.                           | [Link](channels/moderators/)                    |
+| `/api/v1/channels.online`                     | List all online users of a channel.                         | [Link](channels/online/)                        |
 | `/api/v1/channels.open`                       | Adds the channel back to the user's list of channels.       | [Link](channels/open/)                          |
 | `/api/v1/channels.rename`                     | Changes a channel's name.                                   | [Link](channels/rename/)                        |
 | `/api/v1/channels.roles`                      | Gets the user's roles in the channel.                       | [Link](channels/roles/)                         |

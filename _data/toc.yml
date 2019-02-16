@@ -265,6 +265,7 @@
         - members
         - messages
         - moderators
+        - online
         - open
         - removeModerator
         - removeOwner
