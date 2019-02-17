@@ -265,6 +265,7 @@
         - members
         - messages
         - moderators
+        - online
         - open
         - removeModerator
         - removeOwner
@@ -420,6 +421,7 @@
         - resetAvatar
         - setAvatar
         - set-preferences
+        - setActiveStatus
         - update
         - updateOwnBasicInfo
       - Video Conference:

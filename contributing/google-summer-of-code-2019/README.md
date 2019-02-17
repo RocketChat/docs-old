@@ -31,6 +31,14 @@ Interested students are also encouraged to interact with our contributor communi
 
 <https://github.com/RocketChat/Rocket.Chat>
 
+Ethusiasm and interest is extremely high this year, candidate students have already started to interact with our community and contributing to the projects!   We are maintaining a realtime updated leaderboard for at-a-glance student (candidates) contribution here:
+
+<https://gsoc.rocket.chat/>
+
+The leaderboard project **itself** is open source, created and maintained by our student (candidates).  All potential GSoC organizations are welcome to use and deploy it (the project has super friendly MIT license - just like Rocket.Chat).
+
+<https://github.com/shubhsherl/GSoC-Contribution-Leaderboard>
+
 ## Project Ideas
 
 ### Apple Watch & Siri Support
@@ -167,6 +175,25 @@ Interested students are also encouraged to interact with our contributor communi
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Apps-engine>
 - **Description**: Currently the Rocket.Chat Apps Engine does not support that apps include their own `node_modules` dependencies, which can be very limiting in some use cases. The goal of this project is to modify our engine so that it can properly install and manage an app's dependencies, enabling app developers to unleash their full potential.
 - **Desirable Skills**: Solid understanding of JavaScript and some familiarity with TypeScript. Familiarity with TypeScript's compiler is definitely a plus.
+
+### BOTs Suite: starter Chatbots for Rocket.Chat
+
+- **Mentors**: TBD
+- **Project repositories**: [hubot](https://github.com/RocketChat/hubot-rocketchat), [chatops-gitsy](https://github.com/RocketChat/hubot-gitsy), [botpress](https://github.com/RocketChat/botpress-channel-rocketchat), [rasa](https://github.com/RocketChat/rasa-kick-starter), [bbot](http://bbot.chat/), [botkit](https://github.com/RocketChat/botkit-rocketchat-connector), [BOTswana](https://github.com/RocketChat/botswana-snap) 
+- **Description**: Develop a suite (5+) of BOTs across our Chatbot support portfolio/platforms; integrating current ML, AI, NLP, CMS, CRM and big data access stacks. BOTs need to be contemporarily interesting, simple to construct, yet substantially functional.   They also need to be adaptable across the bot frameworks that Rocket.Chat supports.  They will be used as starter learning resources across our BOT repositories.
+- **Desirable Skills**: Deep interest in ML, AI, and modern BOT technologies. Experience in developing BOTs using NodeJS or Python.  Clear methodical mind plus ability to simplify and explain complex problems in simple terms.  Technologically fearless.
+
+### Integration of Rocket.Chat with Existing Phone/Voice Networks  
+
+- **Mentors**: TBD
+- **Description**: Deep VoIP integration of Rocket.Chat with modern software and hardware SIP switches and VoIP SaaS. Intelligently add access to phone networks and SMS channels to the Rocket.Chat workflow.  Enable multi-channel conferences with chat + phone calls + video.  Empower Livechat with voice calls in workflow.
+- **Desirable Skills**: Familiar with SIP development. Fluent in VoIP concepts and practices. Ability to rapidly code in JavaScript and Linux shell.  Wide open mind for new ideas.
+
+### Open Source Office Suite Integration 
+
+- **Mentors**: TBD
+- **Description**: Add deep integration with open source word processing, spreadsheet, presentation, email and content management suite(s).  Create a full chat-centric office team collaboration environment.
+- **Desirable Skills**: Familiarity with development and extension/integration points for existing open source office suites.  Ability to code and script in multiple programming languages. Preference to work with a team.
 
 ### Users Directory integration plus custom fields editor and search
 

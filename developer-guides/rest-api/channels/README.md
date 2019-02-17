@@ -26,6 +26,7 @@ These methods apply to public channels only. Use `groups.*` methods for private 
 | `/api/v1/channels.members` | Retrieves all channel users. | [Link](members/) |
 | `/api/v1/channels.messages`  | Retrieves all channel messages. | [Link](messages/)  |
 | `/api/v1/channels.moderators` | List all moderators of a channel. | [Link](moderators/)  |
+| `/api/v1/channels.online` | List all online users of a channel. | [Link](online/) |
 | `/api/v1/channels.open` | Adds the channel back to the user's list of channels. | [Link](open/) |
 | `/api/v1/channels.removeModerator` | Removes the role of moderator from a user in a channel. | [Link](removemoderator/) |
 | `/api/v1/channels.removeOwner` | Removes the role of owner from a user in a channel. | [Link](removeowner/) |
