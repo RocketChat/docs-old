@@ -176,6 +176,13 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: Currently the Rocket.Chat Apps Engine does not support that apps include their own `node_modules` dependencies, which can be very limiting in some use cases. The goal of this project is to modify our engine so that it can properly install and manage an app's dependencies, enabling app developers to unleash their full potential.
 - **Desirable Skills**: Solid understanding of JavaScript and some familiarity with TypeScript. Familiarity with TypeScript's compiler is definitely a plus.
 
+### BOTs Suite: starter Chatbots for Rocket.Chat
+
+- **Mentors**: TBD
+- **Project repository**: [hubot](https://github.com/RocketChat/hubot-rocketchat), [chatops-gitsy](https://github.com/RocketChat/hubot-gitsy), [chatops-baronbogo](), [botpress](https://github.com/RocketChat/botpress-channel-rocketchat), [rasa](https://github.com/RocketChat/rasa-kick-starter), [bbot](http://bbot.chat/), [botkit](https://github.com/RocketChat/botkit-rocketchat-connector), [BOTswana](https://github.com/RocketChat/botswana-snap) 
+- **Description**: Develop a suite (5+) of BOTs across our Chatbot support portfolio/platform, integrating current ML, AI, NLP, CMS, CRM and big data access stacks. BOTs need to be contemporarily interesting, simple to construct, yet substantially functional.   They also need to be adaptable across the bot frameworks that Rocket.Chat supports.  They will be used as starter learning resources across our BOT repositories.
+- **Desirable Skills**: Deep interest in ML, AI, and modern BOT technologies. Experience in developing BOTs using Python or NodeJS.  Clear methodic mind plus ability to simplify and explain complex problems in simple terms.  Technologically fearless.
+
 ### Users Directory integration plus custom fields editor and search
 
 - **Mentors**: @marceloschmidt
