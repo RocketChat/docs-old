@@ -186,9 +186,14 @@ The leaderboard project **itself** is open source, created and maintained by our
 ### Integration of Rocket.Chat with Existing Phone/Voice Networks  
 
 - **Mentors**: TBD
-- **Description**: Deep VoIP integration of Rocket.Chat with modern software and hardware SIP switches and VoIP SaaS. Intelligently add access to phone networks and SMS channels to the Rocket.Chat workflow.  Enable mult-channel conferences with chat + phone calls + video.
-- **Desirable Skills**: Familiar with SIP development. Fluent in VoIP concepts and practices. Like coding in Javascript and Linux shell.  Wide open mind for new ideas.
+- **Description**: Deep VoIP integration of Rocket.Chat with modern software and hardware SIP switches and VoIP SaaS. Intelligently add access to phone networks and SMS channels to the Rocket.Chat workflow.  Enable multi-channel conferences with chat + phone calls + video.  Empower Livechat with voice calls in workflow.
+- **Desirable Skills**: Familiar with SIP development. Fluent in VoIP concepts and practices. Ability to rapidly code in JavaScript and Linux shell.  Wide open mind for new ideas.
 
+### Open Source Office Suite Integration 
+
+- **Mentors**: TBD
+- **Description**: Add deep integration with open source word processing, spreadsheet, presentation, email and content management suite(s).  Create a full chat-centric office team collaboration environment.
+- **Desirable Skills**: Familiarity with development and extension/integration points for existing open source office suites.  Ability to code and script in multiple programming languages. Preference to work with a team.
 
 ### Users Directory integration plus custom fields editor and search
 
