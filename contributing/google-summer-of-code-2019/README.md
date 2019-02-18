@@ -179,7 +179,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 ### BOTs Suite: starter Chatbots for Rocket.Chat
 
 - **Mentors**: TBD
-- **Project repositories**: [hubot](https://github.com/RocketChat/hubot-rocketchat), [chatops-gitsy](https://github.com/RocketChat/hubot-gitsy), [botpress](https://github.com/RocketChat/botpress-channel-rocketchat), [rasa](https://github.com/RocketChat/rasa-kick-starter), [bbot](http://bbot.chat/), [botkit](https://github.com/RocketChat/botkit-rocketchat-connector), [BOTswana](https://github.com/RocketChat/botswana-snap) 
+- **Project repositories**: [hubot](https://github.com/RocketChat/hubot-rocketchat), [chatops-gitsy](https://github.com/RocketChat/hubot-gitsy), [botpress](https://github.com/RocketChat/botpress-channel-rocketchat), [rasa](https://github.com/RocketChat/rasa-kick-starter), [bbot](http://bbot.chat/), [botkit](https://github.com/RocketChat/botkit-rocketchat-connector), [BOTswana](https://github.com/RocketChat/botswana-snap)
 - **Description**: Develop a suite (5+) of BOTs across our Chatbot support portfolio/platforms; integrating current ML, AI, NLP, CMS, CRM and big data access stacks. BOTs need to be contemporarily interesting, simple to construct, yet substantially functional.   They also need to be adaptable across the bot frameworks that Rocket.Chat supports.  They will be used as starter learning resources across our BOT repositories.
 - **Desirable Skills**: Deep interest in ML, AI, and modern BOT technologies. Experience in developing BOTs using NodeJS or Python.  Clear methodical mind plus ability to simplify and explain complex problems in simple terms.  Technologically fearless.
 
