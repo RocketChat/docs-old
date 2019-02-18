@@ -8,13 +8,17 @@ There are two ways to setup push notifications with Rocket.Chat:
 
 If you and your users intend to use the official Rocket.Chat mobile applications you need to choose this option.
 
-To allow push notifications to be received on our official mobile application by any server we had to establish a push gateway containing our keys.  This allows us to protect our secret keys required to send through Apple(APN) and Google(FCM) to send you and your users notifications.
+To allow push notifications to be received on our official mobile application by any server, we had to establish a push gateway containing our keys.  In doing so, we protect our secret keys required to send through Apple(APN) and Google(FCM) to send you and your users notifications.
 
 ## Self Configured
 
-When you choose to roll your own things are a bit more complicated.  You need to get keys from both Apple and Google, and compile/release your own mobile applications to the app stores so your public keys will be distributed to your users.
+When you choose to self configure the push notifications, things become a bit more complicated.  First, you need to get keys from both Apple and Google, and compile/release your own mobile applications to the app stores so your public keys will be distributed to your users.
 
 Then also you will need to add your keys to Rocket.Chat.
+
+Then you will have to compile for iOS and Android and submit them to the appropriate app stores for review.
+
+Finally you would direct your users to download your custom version of the Rocket.Chat mobile applications.
 
 ### Configuring for Android
 
