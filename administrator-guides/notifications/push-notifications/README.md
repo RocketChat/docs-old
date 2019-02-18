@@ -1,6 +1,7 @@
 # Push Notifications
 
 There are two ways to setup push notifications with Rocket.Chat:
+
 * Push Gateway
 * Self Configured
 
@@ -65,8 +66,8 @@ You should see a test notification after you pressed the send button.
 ### I am getting "Server notifications are misconfigured!"
 
 If you are getting this message and are using our push gateway please make sure:
-1. Your server version is greater or equal to 0.74.3
-2. Registered (you can check this by going to http://yourserver/admin/cloud)
 
+1. Your server version is greater or equal to 0.74.3
+2. Registered (you can check this by going to `http://yourserver/admin/cloud`)
 
 _Thanks to @lvh1 and @lunitic for starting this doc_
