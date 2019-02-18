@@ -1,6 +1,7 @@
 # Realtime API
 
 Point your client to the Websocket of the server you want to connect to:
+
 ```
 wss://[ABC.DOMAIN.COM]/websocket
 ```
