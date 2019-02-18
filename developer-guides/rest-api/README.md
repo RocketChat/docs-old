@@ -234,7 +234,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 | Url                             | Short Description                              | Details Page                 |
 | :------------------------------ | :--------------------------------------------- | :--------------------------- |
-| `/api/v1/emoji-custom`          | List the custom emojis available.              | [Link](emoji-custom/list/)   |
+| `/api/v1/emoji-custom.list`     | List the custom emojis available.              | [Link](emoji-custom/list/)   |
 | `/api/v1/emoji-custom.create`   | Create new custom emoji.                       | [Link](emoji-custom/create/) |
 | `/api/v1/emoji-custom.delete`   | Delete an existent custom emoji.               | [Link](emoji-custom/delete/) |
 | `/api/v1/emoji-custom.update`   | Update an existent custom emoji.               | [Link](emoji-custom/update/) |
