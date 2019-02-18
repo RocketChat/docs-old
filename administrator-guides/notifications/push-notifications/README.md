@@ -6,7 +6,7 @@ There are two ways to setup push notifications with Rocket.Chat:
 
 ## Push Gateway
 
-If you and your users intend to use the official Rocket.Chat mobile applications you will need to choose this option.
+If you and your users intend to use the official Rocket.Chat mobile applications you need to choose this option.
 
 To allow push notifications to be received on our official mobile application by any server we had to establish a push gateway containing our keys.  This allows us to protect our secret keys required to send through Apple(APN) and Google(FCM) to send you and your users notifications.
 
