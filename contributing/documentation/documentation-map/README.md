@@ -271,6 +271,7 @@ Here you can also find what articles are incomplete and missing.
             - history
             - info
             - invite
+            - join
             - kick
             - leave
             - list.joined
@@ -278,6 +279,7 @@ Here you can also find what articles are incomplete and missing.
             - members
             - moderators
             - messages
+            - online
             - open
             - removeModerator
             - removeOwner
@@ -386,7 +388,7 @@ Here you can also find what articles are incomplete and missing.
             - statistics
             - statistics.list
         - Permissions:
-            - list
+            - list-all
             - update
         - Roles:
             - create
@@ -432,9 +434,13 @@ Here you can also find what articles are incomplete and missing.
             - resetAvatar
             - setAvatar
             - set-preferences
+            - setActiveStatus
             - update
             - updateOwnBasicInfo
+        - Video Conference:
+            - jitsi-update-timeout
         - Offset and Count and Sort Info
+        - Rate Limiter
         - Query and Fields Info
         - Personal Access Tokens
         - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
