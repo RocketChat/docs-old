@@ -183,13 +183,13 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: Develop a suite (5+) of BOTs across our Chatbot support portfolio/platforms; integrating current ML, AI, NLP, CMS, CRM and big data access stacks. BOTs need to be contemporarily interesting, simple to construct, yet substantially functional.   They also need to be adaptable across the bot frameworks that Rocket.Chat supports.  They will be used as starter learning resources across our BOT repositories.
 - **Desirable Skills**: Deep interest in ML, AI, and modern BOT technologies. Experience in developing BOTs using NodeJS or Python.  Clear methodical mind plus ability to simplify and explain complex problems in simple terms.  Technologically fearless.
 
-### Integration of Rocket.Chat with Existing Phone/Voice Networks  
+### Integration of Rocket.Chat with Existing Phone/Voice Networks
 
 - **Mentors**: TBD
 - **Description**: Deep VoIP integration of Rocket.Chat with modern software and hardware SIP switches and VoIP SaaS. Intelligently add access to phone networks and SMS channels to the Rocket.Chat workflow.  Enable multi-channel conferences with chat + phone calls + video.  Empower Livechat with voice calls in workflow.
 - **Desirable Skills**: Familiar with SIP development. Fluent in VoIP concepts and practices. Ability to rapidly code in JavaScript and Linux shell.  Wide open mind for new ideas.
 
-### Open Source Office Suite Integration 
+### Open Source Office Suite Integration
 
 - **Mentors**: TBD
 - **Description**: Add deep integration with open source word processing, spreadsheet, presentation, email and content management suite(s).  Create a full chat-centric office team collaboration environment.
