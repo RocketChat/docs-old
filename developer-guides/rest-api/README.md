@@ -77,6 +77,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | Url                                           | Short Description                                           | Details Page                                    |
 | :-------------------------------------------- | :---------------------------------------------------------- | :---------------------------------------------- |
 | `/api/v1/channels.addAll`                     | Adds all of the users on the server to a channel.           | [Link](channels/addall/)                        |
+| `/api/v1/channels.addLeader` | Gives the role of Leader for a user in the current channel. | [Link](channels/addleader/) |
 | `/api/v1/channels.archive`                    | Archives a channel.                                         | [Link](channels/archive/)                       |
 | `/api/v1/channels.cleanHistory`               | Cleans up a channel's history, requires special permission. | [Link](channels/cleanhistory/)                  |
 | `/api/v1/channels.close`                      | Removes a channel from a user's list of channels.           | [Link](channels/close/)                         |
@@ -99,6 +100,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.moderators`                 | List all moderators of a channel.                           | [Link](channels/moderators/)                    |
 | `/api/v1/channels.online`                     | List all online users of a channel.                         | [Link](channels/online/)                        |
 | `/api/v1/channels.open`                       | Adds the channel back to the user's list of channels.       | [Link](channels/open/)                          |
+| `/api/v1/channels.removeleader` | Removes the role of Leader for a user in the current channel. | [Link](channels/removeleader/) |
 | `/api/v1/channels.rename`                     | Changes a channel's name.                                   | [Link](channels/rename/)                        |
 | `/api/v1/channels.roles`                      | Gets the user's roles in the channel.                       | [Link](channels/roles/)                         |
 | `/api/v1/channels.setCustomFields`            | Sets a channel's custom fields.                             | [Link](channels/setcustomfields/)               |
@@ -117,6 +119,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | Url                              | Short Description                                  | Details Page                   |
 | :------------------------------- | :------------------------------------------------- | :----------------------------- |
 | `/api/v1/groups.archive`         | Archives a private group.                          | [Link](groups/archive/)        |
+| `/api/v1/groups.addLeader`       | Gives the role of Leader for a user in the current group. | [Link](groups/addleader/) |
 | `/api/v1/groups.close`           | Removes a private group from the list of groups.   | [Link](groups/close/)          |
 | `/api/v1/groups.counters`        | Gets group counters.                               | [Link](groups/counters/)       |
 | `/api/v1/groups.create`          | Creates a new private group.                       | [Link](groups/create/)         |
@@ -133,6 +136,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.messages`        | Retrieves all group messages.                      | [Link](groups/messages/)       |
 | `/api/v1/groups.moderators`      | List all moderators of a group.                    | [Link](groups/moderators/)     |
 | `/api/v1/groups.open`            | Adds the private group back to the list of groups. | [Link](groups/open/)           |
+| `/api/v1/groups.removeLeader`    | Removes the role of Leader for a user in the current group. | [Link](groups/removeleader/) |
 | `/api/v1/groups.rename`          | Changes the name of the private group.             | [Link](groups/rename/)         |
 | `/api/v1/groups.roles`           | Gets the user's roles in the private group.        | [Link](groups/roles/)          |
 | `/api/v1/groups.setAnnouncement` | Sets a group's announcement.                       | [Link](groups/setannouncement/)|

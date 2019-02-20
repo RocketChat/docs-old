@@ -244,6 +244,7 @@
         - twitter
       - Channels:
         - addAll
+        - AddLeader
         - addModerator
         - addOwner
         - archive
@@ -267,6 +268,7 @@
         - moderators
         - online
         - open
+        - removeLeader
         - removeModerator
         - removeOwner
         - rename
@@ -303,6 +305,7 @@
         - get
       - Groups:
         - addAll
+        - addLeader
         - addModerator
         - addOwner
         - archive
@@ -323,6 +326,7 @@
         - messages
         - moderators
         - open
+        - removeLeader
         - removeModerator
         - removeOwner
         - rename
