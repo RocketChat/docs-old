@@ -280,6 +280,7 @@ Here you can also find what articles are incomplete and missing.
             - members
             - moderators
             - messages
+            - online
             - open
             - removeLeader
             - removeModerator
@@ -388,7 +389,7 @@ Here you can also find what articles are incomplete and missing.
             - statistics
             - statistics.list
         - Permissions:
-            - list
+            - list-all
             - update
         - Roles:
             - create
@@ -434,6 +435,7 @@ Here you can also find what articles are incomplete and missing.
             - resetAvatar
             - setAvatar
             - set-preferences
+            - setActiveStatus
             - update
             - updateOwnBasicInfo
         - Video Conference:

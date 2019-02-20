@@ -31,6 +31,14 @@ Interested students are also encouraged to interact with our contributor communi
 
 <https://github.com/RocketChat/Rocket.Chat>
 
+Ethusiasm and interest is extremely high this year, candidate students have already started to interact with our community and contributing to the projects!   We are maintaining a realtime updated leaderboard for at-a-glance student (candidates) contribution here:
+
+<https://gsoc.rocket.chat/>
+
+The leaderboard project **itself** is open source, created and maintained by our student (candidates).  All potential GSoC organizations are welcome to use and deploy it (the project has super friendly MIT license - just like Rocket.Chat).
+
+<https://github.com/shubhsherl/GSoC-Contribution-Leaderboard>
+
 ## Project Ideas
 
 ### Apple Watch & Siri Support
@@ -52,6 +60,39 @@ Interested students are also encouraged to interact with our contributor communi
 - **Mentors**: @d-gubert, @rodrigok
 - **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Google Calendar, using Slashcommands, custom API endpoints, custom Settings, etc.
 - **Desirable Skills**: Familiarity with TypeScript.
+
+### Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)
+
+- **Mentors**: @diegolmello
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
+- **Description**: Share extensions enables iOS or Android OS to share content between apps. This project aims to implement a share extension for React Native client in order to let users to share data into Rocket.Chat from other apps. For example, an user should be able to send photos from camera roll to a Rocket.Chat channel without opening the RC client.
+- **Desirable Skills:**  Familiarity with React Native, iOS and Android development and Rocket.Chat.ReactNative code base.
+
+### Improve Rocket.Chat Auto-Translate feature
+
+- **Mentors**: @marceloschmidt
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/rocketchat-autotranslate>
+- **Description**: One of the most popular feature in Rocket.Chat is auto-translate, where users can set their own language preference to have all messages translated.  This feature works by translating every incoming message into the user language of choice. We would like the student to make it possible for the package to also translate every message the user sends into another language. As a plus, if the student can implement a channel language setting, it would be superb.
+- **Desirable Skills:**  Familiarity with Rocket.Chat development and meteor packages.
+
+### Livechat: Real-Time Visitor Monitoring
+
+- **Mentors**: @renatobecker
+- **Description**: The goal of Real-Time Visitor Monitoring is to provide an important feature for the Livechat team by displaying a list of visitors who are browsing the website where the Livechat widget is installed. Having this feature, it will be possible to track important information related to visitors, such as the current page, location, time on site, local time, and so on, even though the visitor has not yet started a conversation with an agent. In addition, an agent will be able to start a conversation with a specific visitor directly from the list, improving the proactivity of the Livechat team.
+- **Desirable Skills**: Familiarity with Rocket.Chat/Livechat development.
+
+### Interactive APIs documentation
+
+- **Mentors**: @martin.schoeler
+- **Project repository**: <https://github.com/RocketChat/docs>
+- **Description**: Create an easy-to-use interface to let the user explore, test and get info about the existing endpoints of the Rocket.Chat's APIs. The user will be able to connect and make requests directly from the UI, also being able to change the arguments of the requests and testing differents flows of the APIs.
+- **Desirable Skills**: Familiarity with Jekyll and Rocket.Chat Rest API.
+
+### SNAP improvements
+
+- **Mentors**: TBD
+- **Description**: The most popular Rocket.Chat deployment method in the world is via snaps.  Snaps are containerised software packages that are simple to create and install. The aim of this project is improve our snap installation process and features, bringing better support for our ARM architecture deployment, and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for loadbalancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replicaset and possible firewall configuration.
+- **Desirable Skills:**  Familiarity with Linux. Good shell scripting skills. Aware of DevOps and containers based deployment technology.
 
 ### Service Accounts in Rocket.Chat
 
@@ -90,6 +131,12 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description:** Implement a way for administrators to rebrand their instances of rocketchat - product name, icons, colors, etc - for the android and ios apps, which currently do not support this. Besides adding this capability, another goal would be to make this branding across all the OS’s easy for an administrator that may not be too tech savvy. Ideally this would only be a few easy steps. Besides this ease-of-use improvement, this would also make it less likely that people will fork rocket in order to put in their own branding.
 - **Desirable Skills:**  Familiarity with Android and/or iOS development, specifically the Rocket.Chat.Android/Rocket.Chat.iOS code bases.
 
+### Data Doctor: A database sanitizer tool for Rocket.Chat
+
+- **Mentors:** @diego.sampaio,  @sing.li
+- **Description:**  Rocket.Chat's data backend is MongoDB, a NoSQL database. NoSQL databases enable application developers to quickly add and change data schemas for new features without imposing rigid integrity constraints.   While effective for small projects,  this can create varied data inconsistency in long lasting production server projects such as Rocket.Chat.   Causes such as buggy code versions, crashes during migrations and/or schema updates, core customizations, and inadvertent DB admin modifications can all lead to a non-deterministic data schema. Some corrupted schema may break code, while others can go years without being detected.  The goal of this project is to create a tool to help santize in production Rocket.Chat databases.  Depending on the ingenuity of the tool design, the same code can one day be integrated into Rocket.Chat as a data integrity layer.
+- **Desirable Skills:**  Familiarity with database concepts and administration.  Fluent with NodeJS and Javascript. Love hacking.
+
 ### Asana Rocket.Chat App
 
 - **Mentors**: @d-gubert, @rodrigok
@@ -115,13 +162,6 @@ Interested students are also encouraged to interact with our contributor communi
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
 - **Description**: Themes, like dark mode, are very popular and everywhere right now, but the Rocket.Chat React Native app lacks the feature of applying different themes. This project aims to bring different themes like dark mode and black mode into the existing React Native client.
 
-### Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)
-
-- **Mentors**: @diegolmello
-- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
-- **Description**: Share extensions enables iOS or Android OS to share content between apps. This project aims to implement a share extension for React Native client in order to let users to share data into Rocket.Chat from other apps. For example, an user should be able to send photos from camera roll to a Rocket.Chat channel without opening the RC client.
-- **Desirable Skills:**  Familiarity with React Native, iOS and Android development and Rocket.Chat.ReactNative code base.
-
 ### Implement slash commands on React Native app (Rocket.Chat Experimental)
 
 - **Mentors**: @diegolmello
@@ -136,12 +176,24 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description**: Currently the Rocket.Chat Apps Engine does not support that apps include their own `node_modules` dependencies, which can be very limiting in some use cases. The goal of this project is to modify our engine so that it can properly install and manage an app's dependencies, enabling app developers to unleash their full potential.
 - **Desirable Skills**: Solid understanding of JavaScript and some familiarity with TypeScript. Familiarity with TypeScript's compiler is definitely a plus.
 
-### Improve Rocket.Chat Auto-Translate feature
+### BOTs Suite: starter Chatbots for Rocket.Chat
 
-- **Mentors**: @marceloschmidt
-- **Project repository**: <https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/rocketchat-autotranslate>
-- **Description**: Rocket.Chat Auto-Translate features work by translating every incoming message into the user language of choice. We would like the student to make it possible for the package to also translate every message the user sends into another language. As a plus, if the student can implement a channel language setting, it would be superb.
-- **Desirable Skills:**  Familiarity with Rocket.Chat development and meteor packages.
+- **Mentors**: TBD
+- **Project repositories**: [hubot](https://github.com/RocketChat/hubot-rocketchat), [chatops-gitsy](https://github.com/RocketChat/hubot-gitsy), [botpress](https://github.com/RocketChat/botpress-channel-rocketchat), [rasa](https://github.com/RocketChat/rasa-kick-starter), [bbot](http://bbot.chat/), [botkit](https://github.com/RocketChat/botkit-rocketchat-connector), [BOTswana](https://github.com/RocketChat/botswana-snap)
+- **Description**: Develop a suite (5+) of BOTs across our Chatbot support portfolio/platforms; integrating current ML, AI, NLP, CMS, CRM and big data access stacks. BOTs need to be contemporarily interesting, simple to construct, yet substantially functional.   They also need to be adaptable across the bot frameworks that Rocket.Chat supports.  They will be used as starter learning resources across our BOT repositories.
+- **Desirable Skills**: Deep interest in ML, AI, and modern BOT technologies. Experience in developing BOTs using NodeJS or Python.  Clear methodical mind plus ability to simplify and explain complex problems in simple terms.  Technologically fearless.
+
+### Integration of Rocket.Chat with Existing Phone/Voice Networks
+
+- **Mentors**: TBD
+- **Description**: Deep VoIP integration of Rocket.Chat with modern software and hardware SIP switches and VoIP SaaS. Intelligently add access to phone networks and SMS channels to the Rocket.Chat workflow.  Enable multi-channel conferences with chat + phone calls + video.  Empower Livechat with voice calls in workflow.
+- **Desirable Skills**: Familiar with SIP development. Fluent in VoIP concepts and practices. Ability to rapidly code in JavaScript and Linux shell.  Wide open mind for new ideas.
+
+### Open Source Office Suite Integration
+
+- **Mentors**: TBD
+- **Description**: Add deep integration with open source word processing, spreadsheet, presentation, email and content management suite(s).  Create a full chat-centric office team collaboration environment.
+- **Desirable Skills**: Familiarity with development and extension/integration points for existing open source office suites.  Ability to code and script in multiple programming languages. Preference to work with a team.
 
 ### Users Directory integration plus custom fields editor and search
 
@@ -149,10 +201,16 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description**: Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. On Users Directory, users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
 - **Desirable Skills**: Familiarity with Rocket.Chat development.
 
-### Mattermost Data Importer ### 
+### Mattermost Data Importer
 
 - **Mentors**: TBD
-- **Description**: Rocket.Chat is currently capable of importing data exported from Slack and HipChat, but there's no importer for Mattermost data. This is a valuable feature that the application is still missing. 
+- **Description**: Rocket.Chat is currently capable of importing data exported from Slack and HipChat, but there's no importer for Mattermost data. This is a valuable feature that the application is still missing.
+
+### iOS contacts sync, invites & dynamic links
+
+- **Mentors**: @TBD
+- **Description**: In the Rocket.Chat iOS native application, add the functionality of listing all the contacts of a user, syncing in background these contacts with the server using existing APIs and displaying the intersection with public accounts on server. Integrating the APIs to invite users that do not have an account (via email / phone) or inviting via other applications on phone. Support dynamic links in iOS app, allow the creation of links such that when invited through one, after installation of the app it opens a DM with the inviter, etc. `These functionalities are already implemented for Android in a fork.`
+- **Desirable Skills**: Familiarity with iOS development.
 
 ## Timeline
 

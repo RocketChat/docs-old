@@ -68,6 +68,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/users.resetAvatar`                   | Reset a user's avatar                                           | [Link](users/resetavatar/)                   |
 | `/api/v1/users.setAvatar`                     | Set a user's avatar                                             | [Link](users/setavatar/)                     |
 | `/api/v1/users.setPreferences`                | Set user's preferences                                          | [Link](users/set-preferences/)               |
+| `/api/v1/users.setActiveStatus`               | Set a user's active status.                                     | [Link](users/setactivestatus/)               |
 | `/api/v1/users.update`                        | Update an existing user.                                        | [Link](users/update/)                        |
 | `/api/v1/users.updateOwnBasicInfo`            | Update basic information of own user.                           | [Link](users/updateownbasicinfo/)            |
 
@@ -96,6 +97,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.members`                    | Retrieves all channel users.                                | [Link](channels/members/)                       |
 | `/api/v1/channels.messages`                   | Retrieves all channel messages.                             | [Link](channels/messages/)                      |
 | `/api/v1/channels.moderators`                 | List all moderators of a channel.                           | [Link](channels/moderators/)                    |
+| `/api/v1/channels.online`                     | List all online users of a channel.                         | [Link](channels/online/)                        |
 | `/api/v1/channels.open`                       | Adds the channel back to the user's list of channels.       | [Link](channels/open/)                          |
 | `/api/v1/channels.rename`                     | Changes a channel's name.                                   | [Link](channels/rename/)                        |
 | `/api/v1/channels.roles`                      | Gets the user's roles in the channel.                       | [Link](channels/roles/)                         |
@@ -188,10 +190,10 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Permissions
 
-| Url                          | Short Description                | Details Page                |
-| :--------------------------- | :------------------------------- | :-------------------------- |
-| `/api/v1/permissions.list`   | Lists permissions on the server. | [Link](permissions/list/)   |
-| `/api/v1/permissions.update` | Edits permissions on the server. | [Link](permissions/update/) |
+| Url                             | Short Description                | Details Page                 |
+| :------------------------------ | :------------------------------- | :--------------------------  |
+| `/api/v1/permissions.listAll`   | Lists permissions on the server. | [Link](permissions/list-all/)|
+| `/api/v1/permissions.update`    | Edits permissions on the server. | [Link](permissions/update/)  |
 
 ### Roles
 
