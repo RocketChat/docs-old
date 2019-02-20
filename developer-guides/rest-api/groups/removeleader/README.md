@@ -47,3 +47,4 @@ If the user is not a leader, will return a `400 bad request` status.
 
 | Version | Description |
 | :--- | :--- |
+| 0.58.0 | Added. |
