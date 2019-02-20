@@ -5,7 +5,7 @@ These methods apply to public channels only. Use `groups.*` methods for private 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/channels.addAll` | Adds all of the users on the server to a channel. | [Link](addall/) |
-| `/api/v1/channels.addLeader` | Gives the role of Leader for a user in the current channel. | [Link](addLeader/) |
+| `/api/v1/channels.addLeader` | Gives the role of Leader for a user in the current channel. | [Link](addleader/) |
 | `/api/v1/channels.addModerator` | Gives the role of moderator to a user in a channel. | [Link](addmoderator/) |
 | `/api/v1/channels.addOwner` | Gives the role of owner to a user in a channel. | [Link](addowner/) |
 | `/api/v1/channels.archive` | Archives a channel. | [Link](archive/) |
