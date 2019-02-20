@@ -5,6 +5,7 @@ These methods apply to public channels only. Use `groups.*` methods for private 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/channels.addAll` | Adds all of the users on the server to a channel. | [Link](addall/) |
+| `/api/v1/channels.addLeader` | Gives the role of Leader for a user in the current channel. | [Link](addLeader/) |
 | `/api/v1/channels.addModerator` | Gives the role of moderator to a user in a channel. | [Link](addmoderator/) |
 | `/api/v1/channels.addOwner` | Gives the role of owner to a user in a channel. | [Link](addowner/) |
 | `/api/v1/channels.archive` | Archives a channel. | [Link](archive/) |
@@ -27,6 +28,7 @@ These methods apply to public channels only. Use `groups.*` methods for private 
 | `/api/v1/channels.messages`  | Retrieves all channel messages. | [Link](messages/)  |
 | `/api/v1/channels.moderators` | List all moderators of a channel. | [Link](moderators/)  |
 | `/api/v1/channels.open` | Adds the channel back to the user's list of channels. | [Link](open/) |
+| `/api/v1/channels.removeleader` | Removes the role of Leader for a user in the current channel. | [Link](removeleader/) |
 | `/api/v1/channels.removeModerator` | Removes the role of moderator from a user in a channel. | [Link](removemoderator/) |
 | `/api/v1/channels.removeOwner` | Removes the role of owner from a user in a channel. | [Link](removeowner/) |
 | `/api/v1/channels.rename` | Changes a channel's name. | [Link](rename/) |
