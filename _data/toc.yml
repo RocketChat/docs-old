@@ -11,6 +11,7 @@
     - Community Maintainers
   - Google Summer of Code 2017
   - Google Summer of Code 2018
+  - Google Summer of Code 2019
   - Promoting
   - Reporting Issues
   - Security:
@@ -264,6 +265,7 @@
         - members
         - messages
         - moderators
+        - online
         - open
         - removeModerator
         - removeOwner
@@ -297,6 +299,8 @@
         - get
         - list
         - run
+      - Emoji Custom:
+        - get
       - Groups:
         - addAll
         - addModerator
@@ -417,11 +421,13 @@
         - resetAvatar
         - setAvatar
         - set-preferences
+        - setActiveStatus
         - update
         - updateOwnBasicInfo
       - Video Conference:
         - jitsi-update-timeout
       - Offset and Count and Sort Info
+      - Rate Limiter
       - Query and Fields Info
       - Personal Access Tokens
     - Schema Definition
