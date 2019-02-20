@@ -14,6 +14,7 @@ Retrieves the messages from a channel.
 | `latest` | `2016-09-30T13:42:25.304Z` | Optional <br> Default: now | The end of time range of messages to retrieve |
 | `oldest` | `2016-05-30T13:42:25.304Z` | Optional <br> Default: _n/a_ | The start of the time range of messages to retrieve |
 | `inclusive` | `true` | Optional <br> Default: `false` | Whether messages which land on latest and oldest should be included |
+| `offset` | `10` | Optional <br> Default: `0` | The offset of the list messages to retrieve |
 | `count` | `100` | Optional <br> Default: `20` | The amount of messages to retrieve |
 | `unreads` | `false` | Optional <br> Default: `false` | Whether the amount of unreads should be included. |
 
@@ -89,4 +90,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
+| 0.75.0 | Added `offset` property |
 | 0.47.0 | Added |
