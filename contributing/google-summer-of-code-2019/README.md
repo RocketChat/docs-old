@@ -212,6 +212,12 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: In the Rocket.Chat iOS native application, add the functionality of listing all the contacts of a user, syncing in background these contacts with the server using existing APIs and displaying the intersection with public accounts on server. Integrating the APIs to invite users that do not have an account (via email / phone) or inviting via other applications on phone. Support dynamic links in iOS app, allow the creation of links such that when invited through one, after installation of the app it opens a DM with the inviter, etc. `These functionalities are already implemented for Android in a fork.`
 - **Desirable Skills**: Familiarity with iOS development.
 
+### Deeper Nextcloud Integration
+
+- **Mentors**: @karlitschek or someone else from Nextcloud
+- **Description**: It's already possible to share a file from Nextcloud into Rocket.Chat. But the authentication is a bit clumpsy. It would be great to have a real single sign in. So you only need to sign into Rocket.Chat and are automatically signed in in Nextcloud of both talk to the same directory of course.
+- **Desirable Skills**: Familiarity with Rocket.Chat and Nextcloud development.
+
 ## Timeline
 
 [GSoC 2019 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
