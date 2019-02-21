@@ -42,13 +42,11 @@ body {
   }
   h1 {
     min-height: 1em;
-
     font-size: 32px;
     font-weight: 600;
     text-align: left;
     letter-spacing: 0.5px;
     line-height: 42px;
-
     margin-bottom: 56px;
       + h2 {
         margin-bottom: 2px;
@@ -57,7 +55,6 @@ body {
   h2 {
     margin-bottom: 16px;
     margin-top: 44px;
-
     font-size: 22px;
     font-weight: 600;
     text-align: left;
@@ -96,19 +93,8 @@ body {
   }
 
   p {
-    font-size: 16px;
-    text-align: left;
-    letter-spacing: 0;
-    line-height: 24px;
-    margin-bottom: 12px
+    margin-bottom: 1em;
   }
-  p:first-child {
-    margin-top: 0em;
-  }
-  p:last-child {
-    margin-bottom: 0em;
-  }
-
   a {
     color: #4183C4;
     text-decoration: none;
@@ -118,12 +104,12 @@ body {
     text-decoration: none;
   }
   
-  ul {
-    margin-bottom: 12px;
+  ul, ol {
+    padding-left: 2em;
+    margin-bottom: 1em;
   }
   ol {
     list-style: decimal;
-    margin-left: 2em;
   }
 }
 
@@ -445,7 +431,6 @@ main.home {
   min-height: 100vh;
 
   .wrapper {
-    font-size: 14px;
     padding-right: 1em;
     max-width: 70%;
     margin: 0 0 0 65px;
