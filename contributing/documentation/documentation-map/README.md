@@ -258,6 +258,7 @@ Here you can also find what articles are incomplete and missing.
             - twitter
         - Channels:
             - addAll
+            - addLeader
             - addModerator
             - addOwner
             - archive
@@ -281,6 +282,7 @@ Here you can also find what articles are incomplete and missing.
             - messages
             - online
             - open
+            - removeLeader
             - removeModerator
             - removeOwner
             - rename
@@ -318,6 +320,7 @@ Here you can also find what articles are incomplete and missing.
             - get
         - Groups:
             - addAll
+            - addLeader
             - addModerator
             - addOwner
             - archive
@@ -338,6 +341,7 @@ Here you can also find what articles are incomplete and missing.
             - messages
             - moderators
             - open
+            - removeLeader
             - removeModerator
             - removeOwner
             - rename
