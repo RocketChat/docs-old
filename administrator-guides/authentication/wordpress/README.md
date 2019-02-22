@@ -43,7 +43,7 @@ The Easiest way to configure Rocket.Chat using WordPress as your identity backen
 - **Enable** = True
 - **URL** = `https://your.domain.com` (Do not include a trailing “/”)
 - **Token Path** = Access Token Endpoint
-- **Token Sent Via** = Header
+- **Token Sent Via** = Payload
 - **Identity Token Sent Via** = Payload
 - **Identity Path** = Get User Info Endpoint
 - **Authorize Path** = Authorize Endpoint

@@ -132,7 +132,7 @@ location / {
 }
 server {
 listen 80;
-server_name <domain.com>;
+server_name <ABC.DOMAIN.COM>;
 return 301 https://$host$request_uri;
 }
 ```
