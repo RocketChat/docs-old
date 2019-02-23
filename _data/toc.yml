@@ -11,11 +11,14 @@
     - Community Maintainers
   - Google Summer of Code 2017
   - Google Summer of Code 2018
+  - Google Summer of Code 2019
   - Promoting
   - Reporting Issues
   - Security:
     - Responsible Disclosure Policy
   - Translating
+  - Website:
+    - Webinars
 - Getting Support
 - Installation:
   - Rocket.Chat Cloud
@@ -40,6 +43,7 @@
     - Sloppy.io
     - WeDeploy
     - D2C.io
+    - Syncloud.org
   - Docker containers:
     - Generic Linux
     - systemd
@@ -126,6 +130,8 @@
     - Guggy
     - Jenkins
     - Jira
+    - MicroBadger
+    - NextCloud and WebDAV
     - NewRelic
     - nixstats
     - Osticket
@@ -140,7 +146,7 @@
     - Uptime Robot
   - Google Cloud:
     - Auto Translate
-  - Google Drive
+  # - Google Drive
   - Setting Up Video Conferencing
   - Livechat:
     - Livechat Queues
@@ -172,8 +178,11 @@
     - Internationalization
     - Livechat API
     - Mobile Apps:
+      - Analytics & Data Usage
       - Supporting SSL
       - Supported Servers Versions
+    - Developing Apps:
+      - Getting Started
     - Realtime-API:
       - Method Calls:
         - Login
@@ -221,6 +230,7 @@
         - registerGuest
         - sendMessageLivechat
         - sendOfflineMessage
+        - streamlivechatroom
     - Rest API:
       - Assets:
         - setAsset
@@ -234,6 +244,7 @@
         - twitter
       - Channels:
         - addAll
+        - AddLeader
         - addModerator
         - addOwner
         - archive
@@ -247,6 +258,7 @@
         - history
         - info
         - invite
+        - join
         - kick
         - leave
         - list.joined
@@ -254,7 +266,9 @@
         - members
         - messages
         - moderators
+        - online
         - open
+        - removeLeader
         - removeModerator
         - removeOwner
         - rename
@@ -271,6 +285,7 @@
         - unarchive
       - Chat:
         - delete
+        - getDeletedMessages
         - getMessage
         - getMessageReadReceipts
         - pinMessage
@@ -287,8 +302,11 @@
         - get
         - list
         - run
+      - Emoji Custom:
+        - get
       - Groups:
         - addAll
+        - addLeader
         - addModerator
         - addOwner
         - archive
@@ -309,6 +327,7 @@
         - messages
         - moderators
         - open
+        - removeLeader
         - removeModerator
         - removeOwner
         - rename
@@ -371,6 +390,8 @@
         - cleanHistory
         - favorite
         - get
+        - info
+        - leave
         - saveNotification
         - upload
       - Settings:
@@ -405,9 +426,13 @@
         - resetAvatar
         - setAvatar
         - set-preferences
+        - setActiveStatus
         - update
         - updateOwnBasicInfo
+      - Video Conference:
+        - jitsi-update-timeout
       - Offset and Count and Sort Info
+      - Rate Limiter
       - Query and Fields Info
       - Personal Access Tokens
     - Schema Definition

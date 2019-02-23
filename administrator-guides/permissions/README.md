@@ -14,7 +14,7 @@ When someone is registered in a Rocket.Chat server, it will normally receive the
 
 Roles can have different scopes. Currently we have two scopes `Global` and `Rooms`. The permissions of the `Global` roles are valid for the whole server, while the `Rooms` roles only applies to individual channels, where a user have to be elected to that role in that channel.
 
-An example of `Global` role would be an `admin`, that have permissions valid for the whole server, while a `moderator` that have a `Rooms` role would have permissions only in a channel that he was elected for that role.
+An example of `Global` role would be an `admin`, that have permissions valid for the whole server, while a `moderator` that have a `Rooms` role would have permissions only in a channel that they were elected for that role.
 
 Also, by default roles are shown as little tags on the side of a username on messages.
 
@@ -22,7 +22,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 
 - **admin** `(Global)` - Have access to all settings and administrator tools.
 - **moderator** `(Rooms)` - Have moderation permissions for a channel. Has to be elected by a channel owner.
-- **owner** `(Rooms)` - Have owner permissions for a channel. When a user creates a channel he becomes the owner of that channel. He can also elect more owners for that channel.
+- **owner** `(Rooms)` - Have owner permissions for a channel. When a user creates a channel they become the owner of that channel. They can also elect more owners for that channel.
 - **user** `(Global)` - Normal user rights. Most users receive this role when registering.
 - **bot** `(Global)` - Special Role for bot users, with some permissions related to bot functionality.
 - **leader** `(Rooms)` - it doesn't have any special permissions, but is used when setting a `leader` to a channel. Leaders appear on the header of a channel.

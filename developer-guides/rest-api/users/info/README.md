@@ -1,6 +1,7 @@
 # User Information
 
 Retrieves information about a user, the result is only limited to what the callee has access to view.
+It supports  [Fields Query Parameter](../../query-and-fields-info/) with the `userRooms` field, that returns the rooms that the user is part of.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -37,7 +38,13 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
-## Example Result Admin Callee
+## Example Result Admin Callee that requests user's rooms
+
+```bash
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
+     -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+     http://localhost:3000/api/v1/users.info?userId=BsNr28znDkG8aeo7W&fields={"userRooms": 1}
+```
 
 ```json
 {
@@ -82,7 +89,24 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
     "lastLogin": "2016-12-08T00:22:15.167Z",
     "statusConnection": "offline",
     "utcOffset": 0,
-    "username": "example"
+    "username": "example",
+     "rooms": [
+        {
+            "_id": "PoffwDEebAwcmS5A8",
+            "rid": "GENERAL",
+            "name": "general",
+            "t": "c"
+        },
+        {
+            "_id": "hr93s8GcJedZbkeaH",
+            "rid": "oaqXoFLru3YLuau2J",
+            "name": "test",
+            "t": "c",
+            "roles": [
+                "owner"
+            ]
+        }
+    ]
   },
   "success": true
 }
@@ -92,6 +116,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
+| 0.70.0 | Added `rooms` property to response if the user request it and has the `view-other-user-channels` permission |
 | 0.49.0 | Updated to support `userId` or `username` |
 | 0.48.0 | Renamed to `users.info` |
 | 0.35.0 | Added as `user.info` |
