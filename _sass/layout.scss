@@ -511,7 +511,7 @@ main.home {
 .project-list {
   display: grid;
   grid-template-columns: repeat(2, 0.5fr);
-  grid-gap: 25px;
+  grid-gap: 25px 50px;
   margin: 4em 0;
 }
 
