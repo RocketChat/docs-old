@@ -174,6 +174,6 @@ your_domain.com {
 # Toubleshooting
 ## 502 Bad Gateway Issues on CentOS
 
-If you are using CentOS as your operating system you may encounter a 502 Bad Gateway after setting up your Ngnix as a reverse proxy over Rocket Chat. This is caused by SElinux not allowing the Loopback to 127.0.0.1:3000.  You can fix this by runing the script below which allows the upstream connection use loopback:
+If you are using CentOS as your operating system you may encounter a 502 Bad Gateway after setting up your Ngnix as a reverse proxy over Rocket Chat. This is caused by SElinux not allowing the Loopback in your custom Nginx .conf file to 127.0.0.1:3000.  You can fix this by runing the script below which allows the upstream connection use loopback:
 
 ```setsebool -P httpd_can_network_connect 1```
