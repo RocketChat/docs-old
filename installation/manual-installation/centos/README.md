@@ -106,8 +106,8 @@ sudo systemctl reload firewalld
 
 [Configure replicas for your MongoDB (recommended for production environments)](../mongo-replicas/)
 
-[Configure a HTTPS reverse proxy to access Rocket.Chat server](../configuring-ssl-reverse-proxy/)
+[Configure a HTTPs reverse proxy to access Rocket.Chat server](../configuring-ssl-reverse-proxy/)
 
 ## Configure your Rocket.Chat server
 
-Once decided if going for a standalone instance or a replica set in MongoDB, open a web browser and access the configured ROOT_URL (`http://your-host-name.com-as-accessed-from-internet:3000`), follow the configuration steps to set an admin account and your organization and server info.
+Once decided if going for a standalone instance or a replica set in MongoDB, open a web browser and access the configured ROOT_URL (`http://your-host-name.com-as-accessed-from-internet:3000`), follow the configuration steps to set an admin account and your organization and server info. 
