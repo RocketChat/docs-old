@@ -6,7 +6,7 @@ Gets group counters.
 | :--- | :--- | :--- |
 | `/api/v1/groups.counters` | `yes` | `GET` |
 
-## Payload
+## Query Parameters
 
 One of roomId or roomName is required.
 
@@ -21,7 +21,6 @@ One of roomId or roomName is required.
 ```bash
 curl -H "X-Auth-Token: 8h2mKAwxB3AQrFSjLVKMooJyjdCFaA7W45sWlHP8IzO" \
      -H "X-User-Id: ew28FnZqipDpvKw3R" \
-     -H "Content-type: application/json" \
      http://localhost:3000/api/v1/groups.counters?roomId=euzoT67Gx6nXcn66M
 ```
 
