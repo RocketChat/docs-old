@@ -35,7 +35,7 @@ Before requesting any method / subscription you have to send a connect message:
 
 [2]: subscriptions/
 
-### Resources
+## Resources
 
 - A basic example script that uses the 'ddp' NodeJS package to subscribe to the Realtime-API stream of a Group/Channel here <https://github.com/jszaszvari/rocketchat-ddp-listener>
 
