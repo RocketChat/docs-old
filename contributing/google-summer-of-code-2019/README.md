@@ -218,6 +218,10 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: It's already possible to share a file from Nextcloud into Rocket.Chat. But the authentication is a bit clumsy. It would be great to have a real single sign in. So you only need to sign into Rocket.Chat and are automatically signed in Nextcloud of both talks to the same directory of course.
 - **Desirable Skills**: Familiarity with Rocket.Chat and Nextcloud development.
 
+### Integrating Auto translation with Augmented Reality
+
+Auto-translation feature can be extended with Augmented reality in video chat application. We can display the translated message on screen with augmented reality during any video chat. This feature can further be extended if we can use augmented reality to provide description of any product on screen during team video chat. 
+ 
 ## Timeline
 
 [GSoC 2019 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
