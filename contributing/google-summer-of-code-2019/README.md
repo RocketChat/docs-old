@@ -48,12 +48,12 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such as viewing the chat rooms and reading the messages. Let the user ask Siri to read the latest messages, send messages or respond to a message.
 - **Desirable Skills**: Familiarity with WatchKit development on WatchOS & SiriKit. Ability to work in large multi-disciplinary teams.
 
-### Implement Dark theme for Android app
+### Themes support for Rocket.Chat Android app
 
-- **Mentors**: @TBD
+- **Mentors**: @filipe.brito
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Android>
-- **Description**: Themes are very popular and they’re part of what makes Android stand out from the rest. But the current Rocket Chat Android app lacks the feature of applying different themes. This project aims to bring different themes like dark mode and black mode into the existing Android Client.
-- **Desirable Skills:**  Familiarity with Android development, specifically the Rocket.Chat.Android code base.
+- **Description**: Themes are very popular and they are part of what makes Android stand out from the rest. But the current Rocket.Chat Android app lacks the feature of applying different themes. This project aims to bring different themes support like dark mode and black mode into the existing Android client. It should enable any developer to create a theme for the Rocket.Chat Android app without the need to work with our core codebase.
+- **Desirable Skills:** Familiarity with Android development, Kotlin and design patterns.
 
 ### Google Calendar Rocket.Chat App
 
