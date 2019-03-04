@@ -111,6 +111,7 @@ When graphical emojis are disabled, emoji keywords and shortcuts will be display
 ## Formatting
 
 To format properly your message you can wrap the text you want to augment with special characters:
+
 * Bold: &#42;Lorem ipsum dolor&#42;;
 * Italic: &#95;Lorem ipsum dolor&#95;;
 * Strike: &#126;Lorem ipsum dolor&#126;;
