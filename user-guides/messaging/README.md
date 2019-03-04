@@ -108,6 +108,14 @@ Graphical emojis can be enabled/disabled in [Your Account](../managing-your-acco
 
 When graphical emojis are disabled, emoji keywords and shortcuts will be displayed as is  e.g. `:smile:` or `:)`.
 
+## Formatting
+
+To format properly your message you can wrap the text you want to augment with special characters:
+* Bold: &#42;Lorem ipsum dolor&#42;;
+* Italic: &#95;Lorem ipsum dolor&#95;;
+* Strike: &#126;Lorem ipsum dolor&#126;;
+* Inline code: &#96;Lorem ipsum dolor&#96;;
+
 ## Message Actions
 
 You can interact with already posted messages too. To open the message actions menu, hover your mouse over the desired message, click on the three dots that will appear on the right side of the message.
