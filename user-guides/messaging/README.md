@@ -116,6 +116,9 @@ To format properly your message you can wrap the text you want to augment with s
 * Italic: &#95;Lorem ipsum dolor&#95;;
 * Strike: &#126;Lorem ipsum dolor&#126;;
 * Inline code: &#96;Lorem ipsum dolor&#96;;
+* Link:
+  * &#91;Lorem ipsum dolor&#93;(https://www.rocket.chat/);
+  * &lt;https://www.rocket.chat/ |Lorem ipsum dolor&gt;;
 
 ## Message Actions
 
