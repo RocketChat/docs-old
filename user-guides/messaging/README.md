@@ -112,12 +112,12 @@ When graphical emojis are disabled, emoji keywords and shortcuts will be display
 
 To format properly your message you can wrap the text you want to augment with special characters:
 
-* Bold: &#42;Lorem ipsum dolor&#42;;
-* Italic: &#95;Lorem ipsum dolor&#95;;
-* Strike: &#126;Lorem ipsum dolor&#126;;
-* Inline code: &#96;Lorem ipsum dolor&#96;;
-* Image: !&#91;Alt text&#93;(https://rocket.chat/favicon.ico);
-* Link: &#91;Lorem ipsum dolor&#93;(https://www.rocket.chat/) or &lt;https://www.rocket.chat/ |Lorem ipsum dolor&gt;;
+* Bold: `*Lorem ipsum dolor*` ;
+* Italic: `_Lorem ipsum dolor_` ;
+* Strike: `~Lorem ipsum dolor~` ;
+* Inline code: `` `Lorem ipsum dolor` ``;
+* Image: `![Alt text](https://rocket.chat/favicon.ico)` ;
+* Link: `[Lorem ipsum dolor](https://www.rocket.chat/)` or `<https://www.rocket.chat/ |Lorem ipsum dolor>` ;
 
 ## Message Actions
 
