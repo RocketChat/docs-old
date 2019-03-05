@@ -1,10 +1,8 @@
-# Registering an Account
+# Registering an account
 
-To be able to access a server you will need to first register an account manually or by using one of the many supported OAuth services (only if the desired server has enabled these services) and then [login](../login/) usually.
+To be able to access a server you will need to first register an account manually or by using one of the many supported OAuth services (if the desired server has enabled these services) and then [login](../login/).
 
 ## Manual registration
-
-_Servers can be configured in various ways, so their registration screen can ask for different information and behave differently. If you are unsure how to register please contact your server administrator._
 
 You can create an account by providing your:
 
@@ -14,6 +12,7 @@ You can create an account by providing your:
 
 A server can ask for you to verify your email, this can be done by simply clicking in the link sent to the registered email.
 
+_Servers can be configured in various ways, so their registration screen can ask for different information and behave differently. If you are unsure how to register please contact your server administrator._
 
 ## Choosing a username
 
