@@ -23,7 +23,7 @@ If the remote server is within Rocket.Chat Federated Network, you will be able t
 
 ## Inviting remote users and chatting
 
-If you click on one of those listed users, you will invite them to your server without login access. Also, you and everyone else on your server, will be able to chat with that new remote user.
+If you click on one of those listed users, you will invite them to your server without login access. Also, you and everyone else on your server will be able to chat with that new remote user.
 
 ![Chat](./chat.png){:style="width='100%' height='auto'"}
 
