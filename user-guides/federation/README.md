@@ -2,12 +2,31 @@
 
 Once you have [added your server to the Federated Network](../adminitration-guides/federation) you can talk to users from server who have done the same.
 
+## Using Rocket.Chat Federation
+
+After enabling federation, you should be able to start chatting with other servers.
+
 ## Inviting users from a different server
 
-Go to Directory page and search.
+To do so, you should go to the `Directory` section, `Users` tab, and pick `Every Workspace` from the dropdown menu.
 
-## Additional details
+![Directory Search Users](./directory.png){:style="width='100%' height='auto'"}
 
-Once an user from a different server is invited, any other user will able to talk to him.
+Then, you should be able to look for users on remote servers, called peers. You can search using a combination of a username and a domain or an e-mail address, like:
 
-If an user from a different server has been added to a public channel, a private group will be created on that user's server, so people from that server will not be able to join the conversation by them selves.
+- Username: `myfriendsusername@anotherdomain.com`
+- E-mail address: `joseph@remotedomain.com`
+
+If the remote server is within Rocket.Chat Federated Network, you will be able to see the users:
+
+![Directory Search Result](./directory-result.png){:style="width='100%' height='auto'"}
+
+## Inviting remote users and chatting
+
+If you click on one of those listed users, you will invite them to your server without login access. Also, you and everyone else on your server, will be able to chat with that new remote user.
+
+![Chat](./chat.png){:style="width='100%' height='auto'"}
+
+From now on, you can invite that user to any other room, public or private. Those channels are going to be replicated to the remote server, without the messages history.
+
+As a reminder, if you invite a remote user to a public channel, this channel will be created as private on the remote server, so you can be sure only invited users will be able to see that channel content.

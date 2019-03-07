@@ -1,11 +1,88 @@
 # Federation
 
+## Introduction
+
+Federation allows communication with other Rocket.Chat servers.
+
+When you open Federation's config screen, you will see this:
+
+![Initial Federation Screen](./initial.png){:style="width='100%' height='auto'"}
+
+Below, a brief explanation of each configuration option:
+
+#### Enabled
+
+This determines whether or not Federation is enabled on this server.
+
+#### Status
+
+This is the current Federation status, which can be one of the following:
+
+- **Could not enable, settings are not fully set :** Make sure all the options are correctly filled and saved;
+- **Booting... :** federation is initializing;
+- _[HUB Only]_ **Registering with Hub... :** federation is trying to register with the Hub;
+- _[HUB Only]_ **Disabled, could not register with Hub :** federation could not register with the Hub;
+- **Disabled :** federation is disabled
+- **Running :** federation is running and ready to communicate with other servers;
+
+#### Domain
+
+Fill this option with your domain name, usually where the Rocket.Chat server is hosted.
+
+#### Public Key
+
+All Federation communications are double encrypted, which means messages cannot be delivered by mistake to a wrong peer. This is your public key, which is specially generated for Rocket.Chat and by Rocket.Chat, which will be shared with peers you are communicating with.
+
+#### Hub URL
+
+This usually remains as is. This is the Hub URL, where your server will register and confirm domain ownership if you are not using DNS discovery method.
+
+#### Discovery Method
+
+How are you going to be found in the Rocket.Chat Federated Network? You can choose through DNS (recommended) or Rocket.Chat Hub.
+
+## Adding Federation to your server
+
 You have two ways of adding your server to the Rocket.Chat Federated Network:
 
-## Configuring your DNS
+### Recommended: Configuring your DNS
 
-You'll need to add two DNS records.
+To add your server to the Federated Network using the DNS, fill all the needed configuration fields (making sure you are picking **true** on the _Enabled_ field), pick the `DNS` _Discovery Method_ option, save and follow the guide below.
 
-## Alternative: registering on Hub
+Let's suppose we have a domain named `mydomain.com`, and my Rocket.Chat server is hosted at `chat.mydomain.com`, port `80`.
 
-You'll receive an e-mail to complete registration.
+You'll have to add two DNS records:
+
+#### SRV Record
+
+- Service: `_rocketchat`
+- Protocol: `_tcp`
+- Name: `mydomain.com`
+- Weight: `1`
+- Priority: `1`
+- TTL: `1 hour`
+- Target: `chat.mydomain.com`
+- Port: `80`
+
+#### TXT Record
+
+- Host: `rocketchat-public-key`
+- Value: `<my public key, as shown on the configuration screen>`
+
+When both of those entries are added to the DNS records, you should be able to be found by other peers after the propagation.
+
+### Alternative: registering on Hub
+
+To add your server to the Federated Network using the Hub, fill all the needed configuration fields (making sure you are picking **true** on the _Enabled_ field), pick the `Hub` _Discovery Method_ option, save and follow the guide below.
+
+#### Confirm domain ownership
+
+When you click `Save` on the federation config screen, you will begin the registration process. This process takes a few seconds and if you are not yet registered to the Hub, you should receive an email at `webmaster@mydomain.com`, where `mydomain.com` is the domain address you configured on the `Domain` field.
+
+Make sure the data is correct and confirm the changes.
+
+After that step, you should be able to be found on the Rocket.Chat Federated Network.
+
+## Using Rocket.Chat Federation
+
+Click [here](../user-guides/federation) to learn how to use Rocket.Chat federation.
