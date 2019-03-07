@@ -95,13 +95,15 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
             "_id": "PoffwDEebAwcmS5A8",
             "rid": "GENERAL",
             "name": "general",
-            "t": "c"
+            "t": "c",
+            "unreads": 1
         },
         {
             "_id": "hr93s8GcJedZbkeaH",
             "rid": "oaqXoFLru3YLuau2J",
             "name": "test",
             "t": "c",
+            "unreads": 0,
             "roles": [
                 "owner"
             ]
@@ -116,6 +118,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
+| 1.0.0  | Added `unreads` property inside `rooms` object |
 | 0.70.0 | Added `rooms` property to response if the user request it and has the `view-other-user-channels` permission |
 | 0.49.0 | Updated to support `userId` or `username` |
 | 0.48.0 | Renamed to `users.info` |
