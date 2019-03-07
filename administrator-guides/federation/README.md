@@ -2,11 +2,31 @@
 
 ## Introduction
 
-Federation allows communication with other Rocket.Chat servers.
+Rocket.Chat Federation allows servers to communicate with each other, with no limits on the number of connected servers.
+
+We use industry standards, like DNS records, keeping the process as seamless as possible, seeking the most hassle-free communication between servers.
+
+When enabling federation on your server, your server becames part of the Rocket.Chat Federated Network, which allows it to find and exchange messages and files with other Federation enabled Rocket.Chat servers.
+
+## Features
+
+- **Current**
+  - Inviting users from remote servers;
+  - Direct chats between servers;
+  - Public, private and broadcast rooms with remote users from any number of servers;
+  - Read receipts, notifications and alerts are distributed to remote servers;
+  - Mute/Unmute remote users;
+  - File sharing among servers;
+- **Confirmed next features**
+  - Encrypted rooms;
+  - Whitelist servers to communicate with;
+  - Better federation setup process, with helpers to validate the configuration;
+
+## Configuration
 
 When you open Federation's config screen, you will see this:
 
-![Initial Federation Screen](./initial.png){:style="width='100%' height='auto'"}
+![Initial Federation Screen](./initial.png)
 
 Below, a brief explanation of each configuration option:
 
@@ -39,7 +59,9 @@ This usually remains as is. This is the Hub URL, where your server will register
 
 #### Discovery Method
 
-How are you going to be found in the Rocket.Chat Federated Network? You can choose through DNS (recommended) or Rocket.Chat Hub.
+How are you going to be found in the Rocket.Chat Federated Network? You can choose through DNS or, as a fallback, the Rocket.Chat Hub.
+
+**Important:** We recommend using the DNS method. The Hub is a tool to allow users to easily adopt, try and validate the feature or as a different way to be part of the Rocket.Chat Federated Network until DNS record changes are made. Also, the Hub requires external communication and access to a specific e-mail address owned by your domain, as explained below, which introduces extra configuration steps in some protected internal networks.
 
 ## Adding Federation to your server
 
