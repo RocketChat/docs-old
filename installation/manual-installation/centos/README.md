@@ -110,7 +110,6 @@ sudo systemctl reload firewalld
 
 [Configure a HTTPS reverse proxy using Let's Encrypt to access Rocket.Chat server](../Lets-Encrypt-Reverse-Proxy/)
 
-
 ## Configure your Rocket.Chat server
 
 Once decided if going for a standalone instance or a replica set in MongoDB, open a web browser and access the configured ROOT_URL (`http://your-host-name.com-as-accessed-from-internet:3000`), follow the configuration steps to set an admin account and your organization and server info.
@@ -122,6 +121,6 @@ Once decided if going for a standalone instance or a replica set in MongoDB, ope
 If your installing Rocket.Chat on CentOS or RHEL you may encounter a 502 Bad Gateway error after setting up setup a reverse proxy with Nginx. To fix this you need to enable loopback for your upstream in SELinux.
 
 ```
-setsebool -P httpd_can_network_connect 1 
+setsebool -P httpd_can_network_connect 1
 ```
 
