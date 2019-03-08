@@ -75,7 +75,7 @@
 
 -
   name: Getting Support
-  icon: support.svg
+  icon: getting-support.svg
   description: Guides getting support for Rocket.Chat
   path: getting-support/
 
