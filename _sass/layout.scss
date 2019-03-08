@@ -589,9 +589,9 @@ main.home {
   @media all and (max-width: $tablet) {
     background-size: cover;
     background-position: center bottom;
-    min-height: 500px;
+    height: 520px;
 
-    padding: 82px 32px;
+    padding: 164px 32px;
 
     &__title {
       font-size: 32px;
@@ -603,6 +603,7 @@ main.home {
     background: url("./images/default/hero2x.png");
     background-size: cover;
     background-position: bottom center;
+    height: 820px;
   }
 
 }
