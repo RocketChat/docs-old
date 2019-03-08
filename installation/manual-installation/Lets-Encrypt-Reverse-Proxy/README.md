@@ -16,7 +16,7 @@ sudo yum install -y epel-release && sudo yum install -y certbot-nginx && sudo yu
 
 **Start Nginx**
 
-``` 
+```
 sudo systemctl start nginx
 ```
 
@@ -53,7 +53,6 @@ server {
 ```
 
 Save and Exit the File
-
 
 **Verify the Syntax of Your Configuration Edits**
 
