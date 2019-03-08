@@ -31,11 +31,11 @@ Interested students are also encouraged to interact with our contributor communi
 
 <https://github.com/RocketChat/Rocket.Chat>
 
-Enthusiasm and interest is extremely high this year, candidate students have already started to interact with our community and contributing to the projects!   We are maintaining a real-time updated leaderboard for at-a-glance student (candidates) contribution here:
+Enthusiasm and interest are extremely high this year; candidate students have already started to interact with our community and contributing to the projects!   We are maintaining a real-time updated leaderboard for at-a-glance student (candidates) contribution here:
 
 <https://gsoc.rocket.chat/>
 
-The leaderboard project **itself** is open source, created and maintained by our student (candidates).  All potential GSoC organizations are welcome to use and deploy it (the project has super friendly MIT license - just like Rocket.Chat).
+The leaderboard project **itself** is open source, created and maintained by our student (candidates).  All potential GSoC organizations are welcome to use and deploy it (the project has a super friendly MIT license - just like Rocket.Chat).
 
 <https://github.com/shubhsherl/GSoC-Contribution-Leaderboard>
 
@@ -53,7 +53,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Mentors**: @filipe.brito
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Android>
 - **Description**: Themes are very popular and they are part of what makes Android stand out from the rest. But the current Rocket.Chat Android app lacks the feature of applying different themes. This project aims to bring different themes support like dark mode and black mode into the existing Android client. It should enable any developer to create a theme for the Rocket.Chat Android app without the need to work with our core codebase.
-- **Desirable Skills:** Familiarity with Android development, Kotlin and design patterns.
+- **Desirable Skills:** Familiarity with Android development, Kotlin, and design patterns.
 
 ### Google Calendar Rocket.Chat App
 
@@ -65,14 +65,14 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 - **Mentors**: @diegolmello
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
-- **Description**: Share extensions enables iOS or Android OS to share content between apps. This project aims to implement a share extension for React Native client in order to let users share data into Rocket.Chat from other apps. For example, a user should be able to send photos from camera roll to a Rocket.Chat channel without opening the RC client.
+- **Description**: Share extensions enables iOS or Android OS to share content between apps. This project aims to implement a share extension for React Native client to let users share data into Rocket.Chat from other apps. For example, a user should be able to send photos from the camera roll to a Rocket.Chat channel without opening the RC client.
 - **Desirable Skills:**  Familiarity with React Native, iOS and Android development and Rocket.Chat.ReactNative code base.
 
 ### Improve Rocket.Chat Auto-Translate feature
 
 - **Mentors**: @marceloschmidt
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/rocketchat-autotranslate>
-- **Description**: One of the most popular features in Rocket.Chat is auto-translate, where users can set their own language preference to have all messages translated.  This feature works by translating every incoming message into the user language of choice. We would like the student to make it possible for the package to also translate every message the user sends into another language. As a plus, if the student can implement a channel language setting, it would be superb.
+- **Description**: One of the most popular features in Rocket.Chat is auto-translate, where users can set their language preference to have all messages translated.  This feature works by translating every incoming message into the user language of choice. We would like the student to make it possible for the package also to translate every message the user sends into another language. As a plus, if the student can implement a channel language setting, it would be superb.
 - **Desirable Skills:**  Familiarity with Rocket.Chat development and meteor packages.
 
 ### Livechat: Real-Time Visitor Monitoring
@@ -91,19 +91,19 @@ The leaderboard project **itself** is open source, created and maintained by our
 ### SNAP improvements
 
 - **Mentors**: TBD
-- **Description**: The most popular Rocket.Chat deployment method in the world is via snaps.  Snaps are containerised software packages that are simple to create and install. The aim of this project is to improve our snap installation process and features, bringing better support for our ARM architecture deployment, and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for load balancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replica set and possible firewall configuration.
+- **Description**: The most popular Rocket.Chat deployment method in the world is via snaps.  Snaps are containerized software packages that are simple to create and install. The aim of this project is to improve our snap installation process and features, bringing better support for our ARM architecture deployment, and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for load balancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replica set and possible firewall configuration.
 - **Desirable Skills:**  Familiarity with Linux. Good shell scripting skills. Aware of DevOps and containers based deployment technology.
 
 ### Service Accounts in Rocket.Chat
 
 - **Mentors:** @karan.bedi, @bizzbyster
-- **Description:** Adding the functionality of Service accounts to Rocket.Chat. A service account is an account owned by a User (owner), having a basic profile (username, avatar, description etc.). If any other User (initiating user) creates a direct messages(DM) session with this service account, this chat session is carried to the owner of the service account. The owner can then reply to this chat session, but to the initiating user, it would seem that the reply is coming from the service account. An authorised user should be able to create service accounts, transfer the ownership of the service account. Service accounts should be searchable, there should be a directory of service accounts. Also, users should be able to subscribe to service accounts, and a service account owner should be able to send broadcast messages to its subscribers. Automated tests should be written to cover the added functionality.
+- **Description:** Adding the functionality of Service accounts to Rocket.Chat. A service account is an account owned by a User (owner), having a basic profile (username, avatar, description, etc.). If any other User (initiating user) creates a direct messages(DM) session with this service account, this chat session is carried to the owner of the service account. The owner can then reply to this chat session, but to the initiating user, it would seem that the reply is coming from the service account. An authorized user should be able to create service accounts, transfer the ownership of the service account. Service accounts should be searchable; there should be a directory of service accounts. Also, users should be able to subscribe to service accounts, and a service account owner should be able to send broadcast messages to its subscribers. Automated tests should be written to cover the added functionality.
 - **Desirable Skills:**  Familiarity with JavaScript development & Rocket.Chat code base
 
 ### Newsfeed
 
 - **Mentors:** @bizzbyster, @karan.bedi
-- **Description:** Adding the functionality of newsfeed, which is similar to a customised read-only channel for every user. Every user (follower) can follow other users (followed user). Posts from the followed user appears in the newsfeed of their followers. Posts are threaded discussions, started by the followed user in any public channel (origin channel), their follower can or cannot be a part of the origin channel but this post comes up in their wall with a permalink to the original post in the origin channel. This helps in discovering new conversations. Interns are encouraged to propose extensions to this like wall, where a user can post threads that show up in their follower's feed, status updates, etc. Automated tests should be written to cover the added functionality.
+- **Description:** Adding the functionality of newsfeed, which is similar to a customized read-only channel for every user. Every user (follower) can follow other users (followed user). Posts from the followed user appear in the newsfeed of their followers. Posts are threaded discussions, started by the followed user in any public channel (origin channel), their follower can or cannot be a part of the origin channel, but this post comes up in their wall with a permalink to the original post in the origin channel. This helps in discovering new conversations. Interns are encouraged to propose extensions to this like wall, where a user can post threads that show up in their follower's feed, status updates, etc. Automated tests should be written to cover the added functionality.
 - **Desirable Skills:**  Familiarity with JavaScript development & Rocket.Chat code base
 
 ### Improved Test Automation in Rocket.Chat Repos
@@ -115,20 +115,20 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 - **Mentors:** @TBD
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Android>
-- **Description:** The web client currently has the flexibility of customizing the notifications per channel but the Android client lacks this feature. This project aims to bring this feature into the Android client. Users would be able to mute specific channels and configure if they want to receive notifications when they are mentioned or for every notification, etc. Snooze functionality can also be implemented as an extension of this project.
+- **Description:** The web client currently has the flexibility of customizing the notifications per channel, but the Android client lacks this feature. This project aims to bring this feature into the Android client. Users would be able to mute specific channels and configure if they want to receive notifications when they are mentioned or for every notification, etc. Snooze functionality can also be implemented as an extension of this project.
 - **Desirable Skills:**  Familiarity with Android development, specifically the Rocket.Chat.Android code base.
 
 ### iOS Voice Over Accessibility
 
 - **Mentors:** @bruno.quadros
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.iOS>
-- **Description:** VoiceOver is a gesture-based screen reader that lets you enjoy using iPhone even if you don’t see the screen. This is especially important for those with low or no vision. We want to make Rocket.Chat for everyone. A blind user should be able to easily add servers, change servers, read messages and send messages, as well as other additional functions such as editing profile and creating channels. Minimum acceptable scope is to be determined.
+- **Description:** VoiceOver is a gesture-based screen reader that lets you enjoy using iPhone even if you don’t see the screen. This is especially important for those with low or no vision. We want to make Rocket.Chat for everyone. A blind user should be able to easily add servers, change servers, read messages and send messages, as well as other additional functions such as editing profile and creating channels. A minimum acceptable scope is to be determined.
 - **Desirable Skills:** We are looking for an undergraduate student who is familiar with team work, developing iOS Apps using UIKit and Swift, as well as writing maintainable code with Unit Tests and having some familiarity with Voice Over and Accessibility.
 
 ### Ability to Rebrand Android and iOS Apps
 
 - **Mentors:** @TBD
-- **Description:** Implement a way for administrators to rebrand their instances of rocketchat - product name, icons, colors, etc - for the android and ios apps, which currently do not support this. Besides adding this capability, another goal would be to make this branding across all the OS’s easy for an administrator that may not be too tech savvy. Ideally, this would only be a few easy steps. Besides this ease-of-use improvement, this would also make it less likely that people will fork rocket in order to put in their own branding.
+- **Description:** Implement a way for administrators to rebrand their instances of rocketchat - product name, icons, colors, etc. - for the android and ios apps, which currently do not support this. Besides adding this capability, another goal would be to make this branding across all the OS’s easy for an administrator that may not be too tech savvy. Ideally, this would only be a few easy steps. Besides this ease-of-use improvement, this would also make it less likely that people will fork rocket to put in their own branding.
 - **Desirable Skills:**  Familiarity with Android and/or iOS development, specifically the Rocket.Chat.Android/Rocket.Chat.iOS code bases.
 
 ### Data Doctor: A database sanitizer tool for Rocket.Chat
@@ -146,14 +146,14 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 - **Mentors**: @diegolmello
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
-- **Description**: The goal of this project is an integration with Rocket.Chat's admin webview page when the user has access. This helps administrators to change their servers behaviour without the need to open Rocket.Chat on the web or the mobile version on their devices.
+- **Description**: The goal of this project is integration with Rocket.Chat's admin webview page when the user has access. This helps administrators to change their servers behavior without the need to open Rocket.Chat on the web or the mobile version on their devices.
 - **Desirable Skills:**  Familiarity with React Native development and Rocket.Chat.ReactNative code base.
 
 ### Improve notifications on React Native app (Rocket.Chat Experimental)
 
 - **Mentors**: @diegolmello
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
-- **Description**: For a better user experience, we need to group notifications by channel and allow the user to reply directly from the notification. Also, we should show notifications from other channels when the user is using the app.
+- **Description**: For better user experience, we need to group notifications by channel and allow the user to reply directly from the notification. Also, we should show notifications from other channels when the user is using the app.
 - **Desirable Skills:**  Familiarity with React Native, iOS and Android development and Rocket.Chat.ReactNative code base.
 
 ### Implement theming on React Native app (Rocket.Chat Experimental)
@@ -209,13 +209,13 @@ The leaderboard project **itself** is open source, created and maintained by our
 ### iOS contacts sync, invites & dynamic links
 
 - **Mentors**: @TBD
-- **Description**: In the Rocket.Chat iOS native application, add the functionality of listing all the contacts of a user, syncing in background these contacts with the server using existing APIs and displaying the intersection with public accounts on server. Integrating the APIs to invite users that do not have an account (via email/phone) or inviting via other applications on phone. Support dynamic links in iOS app, allow the creation of links such that when invited through one, after installation of the app it opens a DM with the inviter, etc. `These functionalities are already implemented for Android in a fork.`
+- **Description**: In the Rocket.Chat native iOS application, add the functionality of listing all the contacts of a user, syncing in background these contacts with the server using existing APIs and displaying the intersection with public accounts on server. Integrating the APIs to invite users that do not have an account (via email/phone) or inviting via other applications on the phone. Support dynamic links in iOS app, allow the creation of links such that when invited through one, after installation of the app it opens a DM with the inviter, etc. `These functionalities are already implemented for Android in a fork.`
 - **Desirable Skills**: Familiarity with iOS development.
 
 ### Deeper Nextcloud Integration
 
 - **Mentors**: @karlitschek or someone else from Nextcloud
-- **Description**: It's already possible to share a file from Nextcloud into Rocket.Chat. But the authentication is a bit clumsy. It would be great to have a real single sign in. So you only need to sign into Rocket.Chat and are automatically signed in Nextcloud of both talks to the same directory of course.
+- **Description**: It's already possible to share a file from Nextcloud into Rocket.Chat. But the authentication is a bit clumsy. It would be great to have a single real sign in. So you only need to sign into Rocket.Chat and are automatically signed in Nextcloud of both talks to the same directory of course.
 - **Desirable Skills**: Familiarity with Rocket.Chat and Nextcloud development.
 
 ## Timeline
