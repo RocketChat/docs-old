@@ -103,7 +103,7 @@ body {
     color: #1e70bf;
     text-decoration: none;
   }
-  
+
   ul, ol {
     padding-left: 2em;
     margin-bottom: 1em;
@@ -507,12 +507,13 @@ main.home {
 .project-card {
   display: flex;
   background-color: $space-b;
-  padding: 24px 20px;
+  padding: 32px;
   margin: 0 auto;
   min-height: 232px;
   width: 100%;
   border-radius: 2px;
   flex-direction: column;
+  max-width: 544px;
 }
 
 .project-card__header {
@@ -540,18 +541,12 @@ main.home {
 }
 
 .project-card-icon__wrapper {
-  padding: 13px;
-  background-color: $grey-dark;
-  border-radius: 100px;
   margin-right: 16px;
-  height: 56px;
-  width: 56px;
 }
 
 .project-card-icon {
-  height: 30px;
-  width: 30px;
-  filter: invert(1);
+  width: 56px;
+  height: 58px;
 }
 
 .home-hero{
@@ -587,15 +582,14 @@ main.home {
   display: grid;
   grid-template-columns: repeat(2, 0.8fr);
   grid-gap: 8px 24px;
-  justify-content: left;
 
-  font-size: 0.8em;
-  font-weight: bold;
-  max-width: 320px;
+  width: 100%;
   & a {
     color: $brand;
     font-size: 16px;
     height: auto;
+    font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0;
     line-height: 24px;
     text-align: left;
@@ -817,12 +811,5 @@ h6:hover .header-link {
   }
   .article-toc-wrapper{
     left: 70vw;
-  }
-}
-
-@media all and (max-width: 1500px) {
-  .card-pages a {
-    max-width: 240px;
-    width: unset;
   }
 }
