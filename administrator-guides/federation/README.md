@@ -92,6 +92,9 @@ You'll have to add two DNS records:
 - Target: `chat.mydomain.com`
 - Port: `80`
 
+In route 53 it would look something like this:
+![image](https://user-images.githubusercontent.com/51996/53998274-c1496c80-4104-11e9-8571-3288fc7b2cc8.png)
+
 #### TXT Record
 
 - Host: `@.mydomain.com`
