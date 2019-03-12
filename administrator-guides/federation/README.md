@@ -53,6 +53,12 @@ Fill this option with your domain name, usually where the Rocket.Chat server is 
 
 All Federation communications are double encrypted, which means messages cannot be delivered by mistake to a wrong peer. This is your public key, which is specially generated for Rocket.Chat and by Rocket.Chat, which will be shared with peers you are communicating with.
 
+The encryption process encrypts the message using the Server A private key, and the Server B public key.
+
+When a server receives the message, it uses the Server B private key and the Server A public key to decrypt it.
+
+So, let's say the message ended up on Server C: this server won't have Server B's private key to decrypt it, so the message can't be read at all.
+
 #### Hub URL
 
 This usually remains as is. This is the Hub URL, where your server will register and confirm domain ownership if you are not using DNS discovery method.
