@@ -103,7 +103,7 @@ body {
     color: #1e70bf;
     text-decoration: none;
   }
-  
+
   ul, ol {
     padding-left: 2em;
     margin-bottom: 1em;
@@ -246,7 +246,8 @@ blockquote {
   }
 
   &.home {
-    width: 20%;
+    width: 100%;
+    max-width: 352px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -450,14 +451,15 @@ main.home {
 }
 
 .article-toc-wrapper{
-  width: 30%;
+  width: 18%;
   position: fixed;
-  left: 75vw;
+  left: 82vw;
   .inline_toc {
     border-left: 2px solid #ddd;
     font-size: 13px;
     font-weight: 500;
     padding-left: 18px;
+    list-style: none;
 
     a, a:visited {
       margin-bottom: 16px;
@@ -501,17 +503,30 @@ main.home {
   grid-template-columns: repeat(2, 0.5fr);
   grid-gap: 25px;
   margin: 4em 0;
+
+  @media all and (max-width: $tablet) {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
 }
 
 .project-card {
   display: flex;
   background-color: $space-b;
-  padding: 24px 20px;
+  padding: 32px;
   margin: 0 auto;
   min-height: 232px;
   width: 100%;
   border-radius: 2px;
   flex-direction: column;
+  max-width: 544px;
+
+  @media all and (max-width: $tablet) {
+    margin: 0;
+    height: 334px;
+    width: 100%;
+    max-width: none;
+  }
 }
 
 .project-card__header {
@@ -539,31 +554,58 @@ main.home {
 }
 
 .project-card-icon__wrapper {
-  padding: 13px;
-  background-color: $grey-dark;
-  border-radius: 100px;
   margin-right: 16px;
-  height: 56px;
-  width: 56px;
 }
 
 .project-card-icon {
-  height: 30px;
-  width: 30px;
-  filter: invert(1);
+  width: 56px;
+  height: 58px;
 }
 
 .home-hero{
-  background: url("./images/default/hero.jpg");
+  background: url("./images/default/hero.png");
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 100% auto;
+  background-size: cover;
 
-  min-height: 90vh;
-  padding: 6em 0;
+  height: 662px;
+  padding-top: 164px;
+  margin-top: -82px;
 
   color: white;
   text-align: center;
+
+  &__title {
+    margin: 0 0 39px 0;
+    display: block;
+    font-weight: bold;
+    font-size: 44px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.27;
+    letter-spacing: 0.5px;
+  }
+
+  @media all and (max-width: $tablet) {
+    background-size: cover;
+    background-position: center bottom;
+    height: 520px;
+
+    padding: 164px 32px;
+
+    &__title {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+  }
+
+  @media all and (min-width: 2000px) {
+    background: url("./images/default/hero2x.png");
+    background-size: cover;
+    background-position: bottom center;
+    height: 820px;
+  }
+
 }
 
 .home-header {
@@ -575,26 +617,23 @@ main.home {
   }
 }
 
-.home-hero__title {
-  margin: 0 0 40px 0;
-  display: block;
-  font-weight: bold;
-  font-size: 44px;
-}
-
 .card-pages{
   display: grid;
   grid-template-columns: repeat(2, 0.8fr);
   grid-gap: 8px 24px;
-  justify-content: left;
 
-  font-size: 0.8em;
-  font-weight: bold;
-  max-width: 320px;
+  width: 100%;
+
+  @media all and (max-width: $tablet) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   & a {
     color: $brand;
     font-size: 16px;
     height: auto;
+    font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0;
     line-height: 24px;
     text-align: left;
@@ -666,30 +705,6 @@ td > code {
     display: none;
   }
 
-  .home-hero{
-    background-size: 250% auto;
-    background-position: center bottom;
-    min-height: 500px;
-
-    padding: 44px 32px;
-
-    color: white;
-    text-align: center;
-
-    &__title {
-      text-align: center;
-      font-size: 32px;
-      font-weight: 700;
-      letter-spacing: 0.5px;
-      line-height: 42px;
-      margin-bottom: 30px;
-    }
-  }
-
-  .search.home {
-    width: 100%;
-  }
-
   .content .wrapper{
     width: 95%;
     margin: 0 auto;
@@ -706,15 +721,6 @@ td > code {
         width: 100%;
       }
     }
-  }
-
-  .card-pages {
-    grid-template-columns: repeat(1, 0.8fr);
-  }
-
-  .project-card {
-    margin: 0;
-    height: 334px;
   }
 
   .burger {
@@ -761,14 +767,6 @@ td > code {
     border-top: 1px solid #ddd;
   }
 
-
-  .project-list {
-    display: grid;
-    grid-template-columns: repeat(1, 0.8fr);
-    grid-gap: 25px;
-    justify-content: center;
-  }
-
   .wrapper {
       &.main{
         padding: 0px;
@@ -802,26 +800,7 @@ h6:hover .header-link {
 }
 
 @media all and (min-width: 2000px) {
-  .home-hero{
-    background: url("./images/default/hero2x.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 100% auto;
-
-    min-height: 80vh;
-    padding: 6em 0;
-
-    color: white;
-    text-align: center;
-  }
   .article-toc-wrapper{
     left: 70vw;
-  }
-}
-
-@media all and (max-width: 1500px) {
-  .card-pages a {
-    max-width: 240px;
-    width: unset;
   }
 }
