@@ -89,7 +89,7 @@ You'll have to add two DNS records:
 #### TXT Record
 
 - Host: `@.mydomain.com`
-- Value: `<my public key, as shown on the configuration screen>`
+- Value: `rocketchat-public-key=<my public key, as shown on the configuration screen>`
 
 When both of those entries are added to the DNS records, you should be able to be found by other peers after the propagation.
 
