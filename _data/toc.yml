@@ -105,12 +105,7 @@
     - Editing Emails Content
     - Mailer
     - Direct Reply
-  - Federation:
-    - Introduction
-    - Features
-    - Configuration
-    - Adding Federation to your server
-    - Using Rocket.Chat Federation
+  - Federation
   - File Upload:
     - Amazon S3
     - Google Cloud Storage

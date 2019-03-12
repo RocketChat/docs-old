@@ -9,6 +9,7 @@
     Channels: channels/
     Messaging: messaging/
     Managing your Account: managing-your-account/
+    Talking to users from another server: talking-to-users-from-another-server/
 
 -
   name: Installation Guides
@@ -31,6 +32,7 @@
   pages:
     Account Settings: account-settings/
     Email: email/
+    Federation: federation/
     Permissions: permissions/
     Livechat: livechat/
     File Upload: file-upload/

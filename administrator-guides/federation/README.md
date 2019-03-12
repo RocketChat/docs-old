@@ -116,4 +116,4 @@ After that step, you should be able to be found on the Rocket.Chat Federated Net
 
 ## Using Rocket.Chat Federation
 
-Click [here](../user-guides/federation) to learn how to use Rocket.Chat federation.
+Click [here](../../user-guides/talking-to-users-from-another-server/) to learn how to use Rocket.Chat federation.
