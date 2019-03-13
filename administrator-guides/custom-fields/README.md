@@ -45,7 +45,7 @@ In this example we are setting two new fields, we will go over each proadressper
 
 - **minLength**: This is to be used with a `text`. This defines the minimum length required in the form.
 
-- **minLength**: This is to be used with a `text`. This defines the maximum length required in the form.
+- **maxLength**: This is to be used with a `text`. This defines the maximum length required in the form.
 
 - **modifyRecordField**: If you are adding a field that already exists in Rocket.Chat, you will need to use this property.
 
