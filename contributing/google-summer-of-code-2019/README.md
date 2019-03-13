@@ -183,6 +183,12 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: Develop a suite (5+) of BOTs across our Chatbot support portfolio/platforms; integrating current ML, AI, NLP, CMS, CRM and big data access stacks. BOTs need to be contemporarily interesting, simple to construct, yet substantially functional.   They also need to be adaptable across the bot frameworks that Rocket.Chat supports.  They will be used as starter learning resources across our BOT repositories.
 - **Desirable Skills**: Deep interest in ML, AI, and modern BOT technologies. Experience in developing BOTs using NodeJS or Python.  Clear methodical mind plus the ability to simplify and explain complex problems in simple terms.  Technologically fearless.
 
+### BOTs UX: Improve the User Experience with bots by adding support for persistent menus, webviews, and rich messaging features
+
+- **Mentors**: @bizzbyster
+- **Description**: Rocket.chat trails both team and consumer chat platforms like Slack and Facebook Messenger/WeChat in terms of the richness of user interface components supported by bots. The goal of this project would be to add rich messages, persistent menus, welcome pages, webviews and other components to the Android, iOS, and web clients to allow chatbots to become comparable to web apps in terms of usability and UX.
+- **Desirable Skills**: Interest UI/UX and chatbots. Experience in iOS, Android, or web client front ends development.  Excited to participate in the full life cycle development process in an open source community context.
+
 ### Integration of Rocket.Chat with Existing Phone/Voice Networks
 
 - **Mentors**: TBD
