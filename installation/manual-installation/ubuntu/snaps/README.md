@@ -191,6 +191,14 @@ sudo snap run rocketchat-server.restoredb /var/snap/rocketchat-server/common/roc
 sudo service snap.rocketchat-server.rocketchat-server start
 ```
 
+## How do I add option to mount media?
+
+Note that the interface providing the ability to access removable media is not automatically connected upon install, so if you'd like to use external storage (or otherwise use a device in `/media` for data), you need to give the snap permission to access removable media by connecting that interface:
+
+```
+sudo snap connect rocketchat-server:removable-media
+```
+
 ### What folders do snaps use?
 
 - Your actual snap files for each version of Rocket.Chat are copied to: `/var/lib/snapd/snaps` and they are mounted in read-only mode.
