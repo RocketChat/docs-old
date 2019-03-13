@@ -10,6 +10,12 @@ _FILL HERE_
 _FILL HERE_
 
 
+### Allow custom username in Rocket.Chat
+
+- **Yes**: _FILL HERE_
+- **No**: _FILL HERE_
+
+
 ### Clear usernames
 
 - **Yes**: _FILL HERE_

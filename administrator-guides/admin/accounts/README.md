@@ -104,7 +104,6 @@ _FILL HERE_
 
 ## Default User Preferences
 
-
 ### Audio Notifications Default Alert
 
 - **All messages**: _FILL HERE_
@@ -257,6 +256,12 @@ _FILL HERE_
 - **No**: _FILL HERE_
 
 
+### Show threads category on sidebar
+
+- **Yes**: _FILL HERE_
+- **No**: _FILL HERE_
+
+
 ### Unread on top
 
 - **Yes**: _FILL HERE_
@@ -283,7 +288,6 @@ _FILL HERE_
 
 
 ## Avatar
-
 
 ### Block Unauthenticated Access to Avatars
 
@@ -326,7 +330,6 @@ _FILL HERE_
 
 ## Iframe
 
-
 ### Api Method
 
 _FILL HERE_
@@ -349,7 +352,6 @@ _FILL HERE_
 
 
 ## Password Policy
-
 
 ### At Least One Lowercase
 
@@ -421,7 +423,6 @@ _FILL HERE_
 
 
 ## Registration
-
 
 ### Allowed Domains List
 
@@ -562,7 +563,6 @@ _FILL HERE_
 
 
 ## Two Factor Authentication
-
 
 ### Enable Two Factor Authentication
 

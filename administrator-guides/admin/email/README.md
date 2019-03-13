@@ -2,7 +2,6 @@
 
 ## Direct Reply
 
-
 ### Debug Direct Reply
 
 - **Yes**: _FILL HERE_
@@ -96,7 +95,6 @@ _FILL HERE_
 
 ## Forgot password
 
-
 ### Body
 
 _FILL HERE_
@@ -110,7 +108,6 @@ _FILL HERE_
 
 
 ## Header and Footer
-
 
 ### Footer
 
@@ -133,7 +130,6 @@ _FILL HERE_
 
 ## Invitation
 
-
 ### Body
 
 _FILL HERE_
@@ -147,7 +143,6 @@ _FILL HERE_
 
 
 ## Registration
-
 
 ### Body
 
@@ -163,7 +158,6 @@ _FILL HERE_
 
 ## Registration via Admin
 
-
 ### Body
 
 _FILL HERE_
@@ -177,7 +171,6 @@ _FILL HERE_
 
 
 ## SMTP
-
 
 ### From Email
 
@@ -229,7 +222,6 @@ _FILL HERE_
 
 ## Style
 
-
 ### Email Style
 
 _FILL HERE_
@@ -238,7 +230,6 @@ _FILL HERE_
 
 
 ## Subject
-
 
 ### Direct Message Email Subject
 
@@ -262,7 +253,6 @@ _FILL HERE_
 
 
 ## Verification
-
 
 ### Body
 

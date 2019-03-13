@@ -2,7 +2,6 @@
 
 ## API Rate Limiter
 
-
 ### Enable Rate Limiter in development
 
 - **Yes**: _FILL HERE_
@@ -26,7 +25,6 @@ _FILL HERE_
 
 
 ## DDP Rate Limiter
-
 
 ### Limit by Connection per Method: enabled
 

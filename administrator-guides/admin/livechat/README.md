@@ -172,7 +172,6 @@ _FILL HERE_
 
 ## CRM Integration
 
-
 ### Lead capture email regex
 
 _FILL HERE_
@@ -233,7 +232,6 @@ _FILL HERE_
 
 ## Facebook
 
-
 ### OmniChannel API Key
 
 _FILL HERE_
@@ -256,7 +254,6 @@ _FILL HERE_
 
 ## Knowledge Base
 
-
 ### Api.ai Key
 
 _FILL HERE_
@@ -274,7 +271,6 @@ _FILL HERE_
 
 
 ## Offline
-
 
 ### Display Offline Form
 
@@ -322,14 +318,12 @@ _FILL HERE_
 
 ## RD Station
 
-
 ### RD Station Token
 
 _FILL HERE_
 
 
 ## Routing
-
 
 ### Secret Token
 

@@ -2,7 +2,6 @@
 
 ## BigBlueButton
 
-
 ### Enabled
 
 - **Yes**: _FILL HERE_
@@ -38,7 +37,6 @@ _FILL HERE_
 
 
 ## Jitsi
-
 
 ### Chrome Extension Id
 

@@ -30,7 +30,6 @@ _FILL HERE_
 
 ## Attribute handling
 
-
 ### Always Sync User Data
 
 - **Yes**: _FILL HERE_
@@ -47,7 +46,6 @@ _FILL HERE_
 
 
 ## CAS Login Layout
-
 
 ### Autoclose Login Popup
 

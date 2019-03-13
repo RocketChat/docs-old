@@ -36,7 +36,6 @@ _FILL HERE_
 
 ## Certificates and Keys
 
-
 ### APN Cert
 
 _FILL HERE_
@@ -78,7 +77,6 @@ _FILL HERE_
 
 
 ## Privacy
-
 
 ### Show Message in Notification
 

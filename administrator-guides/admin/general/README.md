@@ -124,7 +124,6 @@ _FILL HERE_
 
 ## Apps
 
-
 ### Enable the App Framework
 
 - **Yes**: _FILL HERE_
@@ -132,7 +131,6 @@ _FILL HERE_
 
 
 ## GraphQL API
-
 
 ### GraphQL CORS
 
@@ -152,7 +150,6 @@ _FILL HERE_
 
 
 ## Iframe Integration
-
 
 ### Enable Receive
 
@@ -186,7 +183,6 @@ _FILL HERE_
 
 ## Notifications
 
-
 ### Always notify mobile
 
 - **Yes**: _FILL HERE_
@@ -203,7 +199,6 @@ _FILL HERE_
 
 
 ## REST API
-
 
 ### Allow Getting Everything
 
@@ -270,7 +265,6 @@ _FILL HERE_
 
 ## Reporting
 
-
 ### Send Statistics to Rocket.Chat
 
 - **Yes**: _FILL HERE_
@@ -281,7 +275,6 @@ _FILL HERE_
 
 ## Stream Cast
 
-
 ### Stream Cast Address
 
 _FILL HERE_
@@ -290,7 +283,6 @@ _FILL HERE_
 
 
 ## Translations
-
 
 ### Custom Translations
 
@@ -308,7 +300,6 @@ _FILL HERE_
 
 ## UTF8
 
-
 ### UTF8 Names Slugify
 
 - **Yes**: _FILL HERE_
@@ -323,7 +314,6 @@ _FILL HERE_
 
 
 ## Update
-
 
 ### Update Latest Available Version
 

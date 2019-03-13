@@ -45,7 +45,6 @@ _FILL HERE_
 
 ## Amazon S3
 
-
 ### Access Key
 
 _FILL HERE_
@@ -117,14 +116,12 @@ _FILL HERE_
 
 ## File System
 
-
 ### System Path
 
 _FILL HERE_
 
 
 ## Google Cloud Storage
-
 
 ### Google Storage Access Id
 
@@ -164,7 +161,6 @@ _FILL HERE_
 
 
 ## Google Vision
-
 
 ### Block Adult Images
 
@@ -253,7 +249,6 @@ _FILL HERE_
 
 
 ## WebDAV
-
 
 ### WebDAV Password
 

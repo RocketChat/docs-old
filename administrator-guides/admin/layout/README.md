@@ -2,7 +2,6 @@
 
 ## Colors
 
-
 ### Alert
 
 _FILL HERE_
@@ -115,13 +114,17 @@ _FILL HERE_
 
 ## Content
 
-
 ### Home Body
 
 _FILL HERE_
 
 
 ### Home Title
+
+_FILL HERE_
+
+
+### Legal Notice
 
 _FILL HERE_
 
@@ -150,14 +153,12 @@ _FILL HERE_
 
 ## Custom CSS
 
-
 ### Custom CSS
 
 _FILL HERE_
 
 
 ## Custom Scripts
-
 
 ### Custom Script for Logged In Users
 
@@ -171,14 +172,12 @@ _FILL HERE_
 
 ## Fonts
 
-
 ### Body Font Family
 
 _FILL HERE_
 
 
 ## Old Colors
-
 
 ### Attention Color
 
@@ -247,7 +246,6 @@ _FILL HERE_
 
 ## Old Colors (minor)
 
-
 ### Custom Scrollbar Color
 
 _FILL HERE_
@@ -294,7 +292,6 @@ _FILL HERE_
 
 
 ## User Interface
-
 
 ### Allow Special Characters in Room Names
 

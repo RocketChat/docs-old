@@ -1,5 +1,4 @@
 # Admin settings
-
 - [Accounts](accounts/)
 - [Analytics](analytics/)
 - [Assets](assets/)
@@ -34,6 +33,7 @@
 - [Setup Wizard](setup_wizard/)
 - [SlackBridge](slackbridge/)
 - [Smarsh](smarsh/)
+- [Threading](threading/)
 - [User Data Download](userdatadownload/)
 - [Video Conference](video-conference/)
 - [WebRTC](webrtc/)

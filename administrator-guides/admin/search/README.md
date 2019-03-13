@@ -8,7 +8,6 @@
 
 ## Chatpal Provider
 
-
 ### API Key
 
 _FILL HERE_
@@ -104,7 +103,6 @@ _FILL HERE_
 
 
 ## Default provider
-
 
 ### Global search
 

@@ -92,7 +92,6 @@ _FILL HERE_
 
 ## Authentication
 
-
 ### Enable
 
 - **Yes**: _FILL HERE_
@@ -112,7 +111,6 @@ _FILL HERE_
 
 
 ## Sync / Import
-
 
 ### Background Sync
 
@@ -202,7 +200,6 @@ _FILL HERE_
 
 ## Timeouts
 
-
 ### Connection Timeout (ms)
 
 _FILL HERE_
@@ -223,7 +220,6 @@ _FILL HERE_
 
 
 ## User Search
-
 
 ### Search Page Size
 
@@ -259,7 +255,6 @@ _FILL HERE_
 
 
 ## User Search (Group Validation)
-
 
 ### Enable LDAP User Group Filter
 

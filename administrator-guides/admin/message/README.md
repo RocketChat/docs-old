@@ -259,7 +259,6 @@ _FILL HERE_
 
 ## AutoLinker
 
-
 ### Enabled
 
 - **Yes**: _FILL HERE_
@@ -313,7 +312,6 @@ _FILL HERE_
 
 ## Auto-Translate
 
-
 ### Enable Auto-Translate
 
 - **Yes**: _FILL HERE_
@@ -328,7 +326,6 @@ _FILL HERE_
 
 
 ## Google Maps
-
 
 ### Enable Mapview
 
@@ -347,7 +344,6 @@ _FILL HERE_
 
 ## Hex Color Preview
 
-
 ### Enabled
 
 - **Yes**: _FILL HERE_
@@ -355,7 +351,6 @@ _FILL HERE_
 
 
 ## Issue tracker links
-
 
 ### Enabled
 
@@ -373,7 +368,6 @@ _FILL HERE_
 
 
 ## Katex
-
 
 ### Allow Dollar Syntax
 
@@ -400,7 +394,6 @@ _FILL HERE_
 
 
 ## Markdown
-
 
 ### Allow Markdown headers in messages
 
@@ -460,7 +453,6 @@ _FILL HERE_
 
 ## Message Attachments
 
-
 ### Group Attachment Buttons
 
 - **Yes**: _FILL HERE_
@@ -470,7 +462,6 @@ _FILL HERE_
 
 
 ## Audio Message
-
 
 ### Audio Recorder Enabled
 

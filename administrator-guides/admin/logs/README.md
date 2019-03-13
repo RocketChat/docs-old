@@ -59,7 +59,6 @@ _FILL HERE_
 
 ## Prometheus
 
-
 ### Enabled
 
 - **Yes**: _FILL HERE_

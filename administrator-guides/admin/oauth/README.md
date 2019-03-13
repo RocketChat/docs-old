@@ -2,7 +2,6 @@
 
 ## Dolphin
 
-
 ### Enable
 
 - **Yes**: _FILL HERE_
@@ -48,7 +47,6 @@ _FILL HERE_
 
 ## Drupal
 
-
 ### Drupal Server URL
 
 _FILL HERE_
@@ -79,7 +77,6 @@ _FILL HERE_
 
 ## Facebook
 
-
 ### Facebook Login
 
 - **Yes**: _FILL HERE_
@@ -103,7 +100,6 @@ _FILL HERE_
 
 ## GitHub
 
-
 ### OAuth Enabled
 
 - **Yes**: _FILL HERE_
@@ -126,7 +122,6 @@ _FILL HERE_
 
 
 ## GitHub Enterprise
-
 
 ### Server URL
 
@@ -158,7 +153,6 @@ _FILL HERE_
 
 ## GitLab
 
-
 ### GitLab URL
 
 _FILL HERE_
@@ -187,7 +181,6 @@ _FILL HERE_
 
 ## Google
 
-
 ### Google Login
 
 - **Yes**: _FILL HERE_
@@ -210,7 +203,6 @@ _FILL HERE_
 
 
 ## Linkedin
-
 
 ### LinkedIn Login
 
@@ -235,7 +227,6 @@ _FILL HERE_
 
 ## Meteor
 
-
 ### Meteor Login
 
 - **Yes**: _FILL HERE_
@@ -259,7 +250,6 @@ _FILL HERE_
 
 ## Proxy
 
-
 ### Proxy Host
 
 _FILL HERE_
@@ -271,7 +261,6 @@ _FILL HERE_
 
 
 ## Tokenpass
-
 
 ### Tokenpass Server URL
 
@@ -303,7 +292,6 @@ _FILL HERE_
 
 ## Twitter
 
-
 ### Twitter Login
 
 - **Yes**: _FILL HERE_
@@ -326,7 +314,6 @@ _FILL HERE_
 
 
 ## WordPress
-
 
 ### WordPress URL
 

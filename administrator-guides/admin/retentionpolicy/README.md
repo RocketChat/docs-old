@@ -18,7 +18,6 @@
 
 ## Global Policy
 
-
 ### Applies to channels
 
 - **Yes**: _FILL HERE_
@@ -32,6 +31,12 @@
 
 
 ### Applies to private groups
+
+- **Yes**: _FILL HERE_
+- **No**: _FILL HERE_
+
+
+### Do not exclude thread messages
 
 - **Yes**: _FILL HERE_
 - **No**: _FILL HERE_

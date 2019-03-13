@@ -2,7 +2,6 @@
 
 ## Google Analytics
 
-
 ### Tracking ID
 
 _FILL HERE_
@@ -15,7 +14,6 @@ _FILL HERE_
 
 
 ## Features Enabled
-
 
 ### Messages
 
@@ -42,7 +40,6 @@ _FILL HERE_
 
 
 ## Piwik
-
 
 ### Additional Piwik Sites
 

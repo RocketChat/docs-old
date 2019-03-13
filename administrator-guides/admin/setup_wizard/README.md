@@ -2,7 +2,6 @@
 
 ## Cloud_Info
 
-
 ### Cloud_Url
 
 _FILL HERE_
@@ -65,7 +64,6 @@ _FILL HERE_
 
 
 ## Organization Info
-
 
 ### Allow Marketing Emails
 
