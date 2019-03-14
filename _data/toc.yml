@@ -122,6 +122,7 @@
     - AppVeyor
     - Azure Alerts
     - BitBucket
+    - check_mk
     - DeadSimpleScreenSharing
     - Giphy
     - GitHub
