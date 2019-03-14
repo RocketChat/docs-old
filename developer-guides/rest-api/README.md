@@ -68,6 +68,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/users.resetAvatar`                   | Reset a user's avatar                                           | [Link](users/resetavatar/)                   |
 | `/api/v1/users.setAvatar`                     | Set a user's avatar                                             | [Link](users/setavatar/)                     |
 | `/api/v1/users.setPreferences`                | Set user's preferences                                          | [Link](users/set-preferences/)               |
+| `/api/v1/users.setActiveStatus`               | Set a user's active status.                                     | [Link](users/setactivestatus/)               |
 | `/api/v1/users.update`                        | Update an existing user.                                        | [Link](users/update/)                        |
 | `/api/v1/users.updateOwnBasicInfo`            | Update basic information of own user.                           | [Link](users/updateownbasicinfo/)            |
 
@@ -76,6 +77,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | Url                                           | Short Description                                           | Details Page                                    |
 | :-------------------------------------------- | :---------------------------------------------------------- | :---------------------------------------------- |
 | `/api/v1/channels.addAll`                     | Adds all of the users on the server to a channel.           | [Link](channels/addall/)                        |
+| `/api/v1/channels.addLeader` | Gives the role of Leader for a user in the current channel. | [Link](channels/addleader/) |
 | `/api/v1/channels.archive`                    | Archives a channel.                                         | [Link](channels/archive/)                       |
 | `/api/v1/channels.cleanHistory`               | Cleans up a channel's history, requires special permission. | [Link](channels/cleanhistory/)                  |
 | `/api/v1/channels.close`                      | Removes a channel from a user's list of channels.           | [Link](channels/close/)                         |
@@ -88,6 +90,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.history`                    | Retrieves the messages from a channel.                      | [Link](channels/history/)                       |
 | `/api/v1/channels.info`                       | Gets a channel's information.                               | [Link](channels/info/)                          |
 | `/api/v1/channels.invite`                     | Adds a user to a channel.                                   | [Link](channels/invite/)                        |
+| `/api/v1/channels.join`                       | Joins yourself to a channel.                                | [Link](channels/join/)                          |
 | `/api/v1/channels.kick`                       | Removes a user from a channel.                              | [Link](channels/kick/)                          |
 | `/api/v1/channels.leave`                      | Removes the calling user from a channel.                    | [Link](channels/leave/)                         |
 | `/api/v1/channels.list`                       | Retrieves all of the channels from the server.              | [Link](channels/list/)                          |
@@ -95,7 +98,9 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.members`                    | Retrieves all channel users.                                | [Link](channels/members/)                       |
 | `/api/v1/channels.messages`                   | Retrieves all channel messages.                             | [Link](channels/messages/)                      |
 | `/api/v1/channels.moderators`                 | List all moderators of a channel.                           | [Link](channels/moderators/)                    |
+| `/api/v1/channels.online`                     | List all online users of a channel.                         | [Link](channels/online/)                        |
 | `/api/v1/channels.open`                       | Adds the channel back to the user's list of channels.       | [Link](channels/open/)                          |
+| `/api/v1/channels.removeleader` | Removes the role of Leader for a user in the current channel. | [Link](channels/removeleader/) |
 | `/api/v1/channels.rename`                     | Changes a channel's name.                                   | [Link](channels/rename/)                        |
 | `/api/v1/channels.roles`                      | Gets the user's roles in the channel.                       | [Link](channels/roles/)                         |
 | `/api/v1/channels.setCustomFields`            | Sets a channel's custom fields.                             | [Link](channels/setcustomfields/)               |
@@ -114,6 +119,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | Url                              | Short Description                                  | Details Page                   |
 | :------------------------------- | :------------------------------------------------- | :----------------------------- |
 | `/api/v1/groups.archive`         | Archives a private group.                          | [Link](groups/archive/)        |
+| `/api/v1/groups.addLeader`       | Gives the role of Leader for a user in the current group. | [Link](groups/addleader/) |
 | `/api/v1/groups.close`           | Removes a private group from the list of groups.   | [Link](groups/close/)          |
 | `/api/v1/groups.counters`        | Gets group counters.                               | [Link](groups/counters/)       |
 | `/api/v1/groups.create`          | Creates a new private group.                       | [Link](groups/create/)         |
@@ -130,6 +136,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.messages`        | Retrieves all group messages.                      | [Link](groups/messages/)       |
 | `/api/v1/groups.moderators`      | List all moderators of a group.                    | [Link](groups/moderators/)     |
 | `/api/v1/groups.open`            | Adds the private group back to the list of groups. | [Link](groups/open/)           |
+| `/api/v1/groups.removeLeader`    | Removes the role of Leader for a user in the current group. | [Link](groups/removeleader/) |
 | `/api/v1/groups.rename`          | Changes the name of the private group.             | [Link](groups/rename/)         |
 | `/api/v1/groups.roles`           | Gets the user's roles in the private group.        | [Link](groups/roles/)          |
 | `/api/v1/groups.setAnnouncement` | Sets a group's announcement.                       | [Link](groups/setannouncement/)|
@@ -146,6 +153,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | Url                                   | Short Description                                                | Details Page                            |
 | :------------------------------------ | :--------------------------------------------------------------- | :-------------------------------------- |
 | `/api/v1/chat.delete`                 | Deletes an existing chat message.                                | [Link](chat/delete/)                    |
+| `/api/v1/chat.getDeletedMessages`     | Retrieves the deleted messages since specific date.              | [Link](chat/getdeletedmessages/)        |
 | `/api/v1/chat.getMessage`             | Retrieves a single chat message.                                 | [Link](chat/getmessage/)                |
 | `/api/v1/chat.pinMessage`             | Pins a chat message to the message's channel.                    | [Link](chat/pinmessage/)                |
 | `/api/v1/chat.postMessage`            | Posts a new chat message.                                        | [Link](chat/postmessage/)               |
@@ -187,10 +195,10 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Permissions
 
-| Url                          | Short Description                | Details Page                |
-| :--------------------------- | :------------------------------- | :-------------------------- |
-| `/api/v1/permissions.list`   | Lists permissions on the server. | [Link](permissions/list/)   |
-| `/api/v1/permissions.update` | Edits permissions on the server. | [Link](permissions/update/) |
+| Url                             | Short Description                | Details Page                 |
+| :------------------------------ | :------------------------------- | :--------------------------  |
+| `/api/v1/permissions.listAll`   | Lists permissions on the server. | [Link](permissions/list-all/)|
+| `/api/v1/permissions.update`    | Edits permissions on the server. | [Link](permissions/update/)  |
 
 ### Roles
 
@@ -252,6 +260,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/subscriptions.getOne`    | `GET`   | Get the subscription by room Id.   | [Link](subscriptions/getone/)     |
 | `/api/v1/subscriptions.read`      | `POST`  |  Mark a room as read.              | [Link](subscriptions/read/)       |
 | `/api/v1/subscriptions.unread`    | `POST`  | Mark messages as unread.           | [Link](subscriptions/unread/)     |
+
+### Video Conference
+
+| Url                                              | Short Description                                           | Details Page                                   |
+| :----------------------------------------------- | :---------------------------------------------------------- | :-----------------------------------------     |
+| `/api/v1/video-conference/jitsi.update-timeout`  | Updates the timeout of Jitsi video conference in a channel. | [Link](video-conference/jitsi-update-timeout)  |
 
 ## Language specific wrappers
 

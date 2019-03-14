@@ -2,6 +2,10 @@
 
 Here you will find how to use some basic commands of the cli, as well as adding a description file to it.
 
+## Recent webinar on Getting Started with Rocket.Chat Apps Development
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PaFPeD6QG9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Rocket.Chat App Engine CLI
 
 It all starts with the apps engine [Command Line Interface (CLI)](https://github.com/RocketChat/Rocket.Chat.Apps-cli). This is the tool that will be used to create, run and publish your app.
@@ -14,7 +18,7 @@ You can use [npm](https://www.npmjs.com/) to install the CLI, simply run on your
 
 > Note: You need [Node.js](https://nodejs.org/en/) installed do use npm and the Apps CLI
 
-### Creating a Example App
+### Creating an Example App
 
 The development tools provide a command to quickly scaffold a new Rocket.Chat App, simply run `rc-apps create` and a new folder will be created inside the current working directory with a basic App which does nothing but will compile and be packaged in the dist folder.
 
@@ -43,7 +47,7 @@ You can check the [app-schema.json](https://github.com/RocketChat/Rocket.Chat.Ap
 
 Now that you have your App ready, you can test it before submitting it.
 
-To test your app, you need a Rocket.Chat server running locally on your machine and a admin user in it.
+To test your app, you need a Rocket.Chat server running locally on your machine and an admin user in it.
 
 See [Installing Rocket.Chat for Developing](../../quick-start/) to run Rocket.Chat in develop mode or run it in preview mode with docker using the command:
 
@@ -75,7 +79,7 @@ Currently the Rocket.Chat servers and Marketplace allow submission of zip files,
 
 So, you just finished writing your first Rocket.Chat App, and you have successfully tested it locally which means you are ready to submit it to the Marketplace for others to use. You can now submit your App to the Marketplace.
 
-to submit your App simply run:
+To submit your App simply run:
 
 `rc-apps submit`
 

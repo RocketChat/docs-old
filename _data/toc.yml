@@ -11,11 +11,14 @@
     - Community Maintainers
   - Google Summer of Code 2017
   - Google Summer of Code 2018
+  - Google Summer of Code 2019
   - Promoting
   - Reporting Issues
   - Security:
     - Responsible Disclosure Policy
   - Translating
+  - Website:
+    - Webinars
 - Getting Support
 - Installation:
   - Rocket.Chat Cloud
@@ -143,7 +146,7 @@
     - Uptime Robot
   - Google Cloud:
     - Auto Translate
-  - Google Drive
+  # - Google Drive
   - Setting Up Video Conferencing
   - Livechat:
     - Livechat Queues
@@ -241,6 +244,7 @@
         - twitter
       - Channels:
         - addAll
+        - AddLeader
         - addModerator
         - addOwner
         - archive
@@ -254,6 +258,7 @@
         - history
         - info
         - invite
+        - join
         - kick
         - leave
         - list.joined
@@ -261,7 +266,9 @@
         - members
         - messages
         - moderators
+        - online
         - open
+        - removeLeader
         - removeModerator
         - removeOwner
         - rename
@@ -278,6 +285,7 @@
         - unarchive
       - Chat:
         - delete
+        - getDeletedMessages
         - getMessage
         - getMessageReadReceipts
         - pinMessage
@@ -294,8 +302,11 @@
         - get
         - list
         - run
+      - Emoji Custom:
+        - get
       - Groups:
         - addAll
+        - addLeader
         - addModerator
         - addOwner
         - archive
@@ -316,6 +327,7 @@
         - messages
         - moderators
         - open
+        - removeLeader
         - removeModerator
         - removeOwner
         - rename
@@ -414,15 +426,15 @@
         - resetAvatar
         - setAvatar
         - set-preferences
+        - setActiveStatus
         - update
         - updateOwnBasicInfo
+      - Video Conference:
+        - jitsi-update-timeout
       - Offset and Count and Sort Info
+      - Rate Limiter
       - Query and Fields Info
       - Personal Access Tokens
-    - GraphQL API:
-      - Authentication
-      - Schema
-      - Subscription
     - Schema Definition
     - Testing
     - Troubleshooting
