@@ -97,10 +97,17 @@ In Amazon Route 53 it would look something like this:
 
 #### TXT Record
 
-- Host: `@.mydomain.com`
-- Value: `rocketchat-public-key=<my public key, as shown on the configuration screen>`
+- Host: `rocketchat-public-key.mydomain.com`
+- Value: `<my public key, as shown on the configuration screen>`
 
 When both of those entries are added to the DNS records, you should be able to be found by other peers after the propagation.
+
+NOTE: Some DNS providers won't allow the full public key string to be entered so, after saving, we recommend making sure the string is complete, starting as `-----BEGIN PUBLIC KEY-----` and ending as `-----END PUBLIC KEY-----`. If that is not the case, follow your provider's instructions. For example, AWS's Route 53 needs the string to be split in two pieces, like this:
+
+```
+"-----BEGIN PUBLIC KEY-----...."
+"...-----END PUBLIC KEY-----"
+```
 
 ### Alternative: registering on Hub
 
