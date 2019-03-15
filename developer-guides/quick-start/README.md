@@ -4,7 +4,7 @@
 
 ### On Linux/Mac
 
-To run Rocket.Chat for development on a Linux or a Mac you must first have the following programs installed.
+To run Rocket.Chat for development on a Linux or a Mac, you must first have the following programs installed.
 
 These will require root privileges:
 
@@ -23,14 +23,16 @@ Install latest npm:
 
 `npm i npm@latest -g`
 
-Add 'n' so you can easily swap node versions:
+You can also install '__n__' so that, you can easily swap node versions:
+ `npm install -g n`
 
-n 8.11.4 (use one similar to the official builds)
+we recommend switching to n 8.11.4 (similar to the official builds).
 
 Once the above pre-requisites are installed open a terminal as a standard user and run the following:
 
-- `git clone https://github.com/RocketChat/Rocket.Chat.git` (if you wish to clone your own fork, replace "/RocketChat/" with /YOUR REPOSITORY NAME HERE/)
-- `cd Rocket.Chat` (or the name of your repository)
+- `git clone https://github.com/RocketChat/Rocket.Chat.git` (if you wish to clone your own fork, replace with your repo link which may look like __*https://github.com/your-user-name/Rocket.Chat.git*__)
+
+- `cd Rocket.Chat` (or as per the name of your cloned repository).
 
 You may need to do the following to avoid module errors:
 
@@ -42,7 +44,7 @@ You may need to do the following to avoid module errors:
 
 Now start the build:
 
-- `meteor npm start` (Warning: It may take a while to build so please be patient)
+- `meteor npm start` (Warning: It may take a while to build so please be patient).
 
 When the server is ready, you will see a green box within the terminal with "Server Running" at the top.
 
@@ -75,7 +77,7 @@ Sometimes changes can shut down the server, if that happens just run `meteor npm
 
 ### On Windows
 
-Using Windows to develop is not recommended, instead is better to create a Linux virtual machine and follow the steps mentioned above, but if for some reason you really need to build Rocket.Chat on Windows you can find a community supported guide over [here](../../installation/community-supported-installation/windows-server/).
+Using Windows to develop is not recommended. Instead it is better to create a Linux virtual machine and follow the steps mentioned above, but if for some reason you really need to build Rocket.Chat on Windows, you can find a community supported guide over [here](../../installation/community-supported-installation/windows-server/).
 
 ## See Also
 
