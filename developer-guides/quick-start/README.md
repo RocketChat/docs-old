@@ -30,8 +30,7 @@ we recommend switching to n 8.11.4 (similar to the official builds).
 
 Once the above pre-requisites are installed open a terminal as a standard user and run the following:
 
-- `git clone https://github.com/RocketChat/Rocket.Chat.git` (if you wish to clone your own fork, replace with your repo link which may look like __*https://github.com/your-user-name/Rocket.Chat.git*__)
-
+- `git clone https://github.com/RocketChat/Rocket.Chat.git` (if you wish to clone your own fork, replace with your repo link which may look like __*https://github.com/your-user-name/Rocket.Chat.git*__).
 - `cd Rocket.Chat` (or as per the name of your cloned repository).
 
 You may need to do the following to avoid module errors:
