@@ -1,10 +1,8 @@
 # Quick start for code developers
 
-## Installing Rocket.Chat for Developing
-
 ### On Linux/Mac
 
-You can run Rocket.Chat for development on a Linux or a Mac. The following intruction has been tested on a new ubuntu 18.04lts installation.
+You can run Rocket.Chat for development on a Linux or a Mac. The following instruction has been tested on a new Ubuntu 18.04 LTS installation.
 
 During the build, memory usage will be nearly 8G, this is the minimum level of RAM recommended for development workstations.
 
@@ -38,18 +36,18 @@ You may notice build WARNINGs related to _peer dependencies_  or other transitiv
 
     `meteor npm install`
 
-5. Start building (about 5 minutes, please be patient)
+5. Start building (can take 5 minutes, please be patient)
 
     `meteor npm start`
 
-When the server is ready, you will see a green box within the terminal with "Server Running" at the top.
+When the server is ready, you will see a box with "Server Running" title:
 
 ```
 I20181122-12:33:53.282(0)? ➔ +-----------------------------------------------+
 I20181122-12:33:53.282(0)? ➔ |                 SERVER RUNNING                |
 I20181122-12:33:53.282(0)? ➔ +-----------------------------------------------+
 I20181122-12:33:53.283(0)? ➔ |                                               |
-I20181122-12:33:53.283(0)? ➔ |  Rocket.Chat Version: 0.72.0-develop          |
+I20181122-12:33:53.283(0)? ➔ |  Rocket.Chat Version: 1.0.0.2          |
 I20181122-12:33:53.283(0)? ➔ |       NodeJS Version: 8.11.4 - x64            |
 I20181122-12:33:53.284(0)? ➔ |             Platform: linux                   |
 I20181122-12:33:53.284(0)? ➔ |         Process Port: 28349                   |
