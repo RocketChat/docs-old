@@ -25,6 +25,7 @@
   - PaaS Deployments:
     - Aliyun
     - AWS
+      - EKS 
     - Cloudron.io
     - Digital Ocean
     - DPlatform
