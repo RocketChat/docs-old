@@ -23,9 +23,15 @@ Install latest npm:
 
 `npm i npm@latest -g`
 
+Use `nvm` so that you can use multiple versions of node:
+
+- [nvm](https://www.liquidweb.com/kb/how-to-install-nvm-node-version-manager-for-node-js-on-ubuntu-12-04-lts/)
+
 Add 'n' so you can easily swap node versions:
 
 n 8.11.4 (use one similar to the official builds)
+
+Or, If you are using `nvm` run `nvm use 8.11.4` (use the version that is given in office builds)
 
 Once the above pre-requisites are installed open a terminal as a standard user and run the following:
 
@@ -34,11 +40,13 @@ Once the above pre-requisites are installed open a terminal as a standard user a
 
 You may need to do the following to avoid module errors:
 
-`npm run postinstall`
+`meteor npm i`
 
-`npm install sharp chai webpack postcss postcss-syntax fibers`
+`meteor npm install sharp chai webpack postcss postcss-syntax fibers`
 
-`npm audit fix` (just to help) or `npm audit fix --force`
+`meteor npm run postinstall`
+
+`meteor npm audit fix` (just to help) or `meteor npm audit fix --force`
 
 Now start the build:
 
