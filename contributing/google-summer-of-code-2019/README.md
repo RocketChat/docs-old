@@ -91,7 +91,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 ### SNAP improvements
 
 - **Mentors**: TBD
-- **Description**: The most popular Rocket.Chat deployment method in the world is via snaps.  Snaps are containerized software packages that are simple to create and install. The aim of this project is to improve our snap installation process and features, bringing better support for our ARM architecture deployment, and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for load balancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replica set and possible firewall configuration.
+- **Description**: The most popular Rocket.Chat deployment method in the world is via snaps.  Snaps are containerized software packages that are simple to create and install. The aim of this project is to improve our snap installation process and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for load balancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replica set and possible firewall configuration. Improvements in our ARM architecture support is also desirable.
 - **Desirable Skills:**  Familiarity with Linux. Good shell scripting skills. Aware of DevOps and containers based deployment technology.
 
 ### Service Accounts in Rocket.Chat
