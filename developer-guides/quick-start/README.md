@@ -21,7 +21,7 @@ You may notice build WARNINGs related to _peer dependencies_  or other transitiv
     `curl https://install.meteor.com/ | sh`
 
     There is no need to install `node` or `npm`, as meteor already includes them.  Verify by:
-    
+
     `meteor node -v`
 
     `meteor npm -v`
