@@ -42,11 +42,11 @@ You may need to do the following to avoid module errors:
 
 `meteor npm i`
 
-`npm install sharp chai webpack postcss postcss-syntax fibers`
+`meteor npm install sharp chai webpack postcss postcss-syntax fibers`
 
-`npm run postinstall`
+`meteor npm run postinstall`
 
-`npm audit fix` (just to help) or `npm audit fix --force`
+`meteor npm audit fix` (just to help) or `meteor npm audit fix --force`
 
 Now start the build:
 
