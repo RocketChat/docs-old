@@ -106,6 +106,12 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description:** Adding the functionality of newsfeed, which is similar to a customized read-only channel for every user. Every user (follower) can follow other users (followed user). Posts from the followed user appear in the newsfeed of their followers. Posts are threaded discussions, started by the followed user in any public channel (origin channel), their follower can or cannot be a part of the origin channel, but this post comes up in their wall with a permalink to the original post in the origin channel. This helps in discovering new conversations. Interns are encouraged to propose extensions to this like wall, where a user can post threads that show up in their follower's feed, status updates, etc. Automated tests should be written to cover the added functionality.
 - **Desirable Skills:**  Familiarity with JavaScript development & Rocket.Chat code base
 
+### Rocket.chat Articles
+
+- **Mentors:** @bizzbyster, @karan.bedi
+- **Description:** For every deployment of Rocket.chat, there is a team or community that generates a lot of content. Rocket.chat itself is the repository for much of that content but the rest typically resides in other applications such as github or jira or google docs, many of which are third party services and so the content is not owned by the community that hosts the Rocket.chat server. In one particular scenario, a user may want to write an article and "publish" it to groups or contacts within Rocket.chat. Today that would have to be done typically using a third party service. What if instead article creation, searching, and storage were integrated with Rocket.chat such that each user could maintain his or her own library of articles and contacts of that user could subscribe to see new articles posted by that user and to discuss those articles using something like Rocket.chat Threads. The purpose of this project is to develop a minimum integration with another open source publishing platform (such as https://github.com/TryGhost/Ghost) that allows users (or bots or service accounts) to write and publish articles that get stored on a location configured by the Rocket.chat administrator so that the community maintains ownership of more of the content it generates. 
+- **Desirable Skills:**  Familiarity with JavaScript development & Rocket.Chat code base & interest in exploring integrations with publishing open source projects.
+
 ### Improved Test Automation in Rocket.Chat Repos
 
 - **Mentors** @TBD
