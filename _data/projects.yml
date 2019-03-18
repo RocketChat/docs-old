@@ -1,6 +1,6 @@
 -
   name: User Guides
-  icon: rocketchat
+  icon: user.svg
   description: Guides for the basic usage of Rocket.Chat.
   path: user-guides/
   pages:
@@ -12,7 +12,7 @@
 
 -
   name: Installation Guides
-  icon: cog
+  icon: install.svg
   description: Guides for installing and deploying Rocket.Chat
   path: installation/
   pages:
@@ -25,7 +25,7 @@
 
 -
   name: Administrator Guides
-  icon: sliders
+  icon: admin.svg
   description: Guides for managing and configuring Rocket.Chat
   path: administrator-guides/
   pages:
@@ -38,7 +38,7 @@
 
 -
   name: Developer Guides
-  icon: code
+  icon: developers.svg
   description: Guides for developing and modifying Rocket.Chat's code
   path: developer-guides/
   pages:
@@ -52,7 +52,7 @@
 
 -
   name: Bots
-  icon: cog
+  icon: install.svg
   description: Guides for using bots in Rocket.Chat
   path: bots/
   pages:
@@ -63,7 +63,7 @@
 
 -
   name: Contributing
-  icon: github
+  icon: contributing.svg
   description: Guides for contributing to Rocket.Chat
   path: contributing/
   pages:
@@ -75,18 +75,18 @@
 
 -
   name: Getting Support
-  icon: support
+  icon: getting-support.svg
   description: Guides getting support for Rocket.Chat
   path: getting-support/
 
 -
   name: Android
-  icon: android
+  icon: android.png
   description: Native Android client for Rocket.Chat
   path: https://github.com/RocketChat/Rocket.Chat.Android
 
 -
   name: iOS
-  icon: apple
+  icon: ios.png
   description: Native iOS client for Rocket.Chat
   path: https://github.com/RocketChat/Rocket.Chat.iOS

@@ -244,6 +244,7 @@
         - twitter
       - Channels:
         - addAll
+        - AddLeader
         - addModerator
         - addOwner
         - archive
@@ -265,7 +266,9 @@
         - members
         - messages
         - moderators
+        - online
         - open
+        - removeLeader
         - removeModerator
         - removeOwner
         - rename
@@ -282,6 +285,7 @@
         - unarchive
       - Chat:
         - delete
+        - getDeletedMessages
         - getMessage
         - getMessageReadReceipts
         - pinMessage
@@ -302,6 +306,7 @@
         - get
       - Groups:
         - addAll
+        - addLeader
         - addModerator
         - addOwner
         - archive
@@ -322,6 +327,7 @@
         - messages
         - moderators
         - open
+        - removeLeader
         - removeModerator
         - removeOwner
         - rename
@@ -420,6 +426,7 @@
         - resetAvatar
         - setAvatar
         - set-preferences
+        - setActiveStatus
         - update
         - updateOwnBasicInfo
       - Video Conference:
