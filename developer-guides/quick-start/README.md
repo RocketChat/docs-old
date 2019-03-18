@@ -3,9 +3,14 @@
 ## Installing Rocket.Chat for Developing
 
 ### On Linux/Mac
-You can run Rocket.Chat for development on a Linux or a Mac. In the following content we use Ubuntu 18.04LTS as example.
 
-During the building procedure, memory usage will be nearly 8G, so 4G memory may not be enough.
+You can run Rocket.Chat for development on a Linux or a Mac. The following intruction has been tested on a new ubuntu 18.04lts installation.
+
+During the build, memory usage will be nearly 8G, this is the minimum level of RAM recommended for development workstations.
+
+Note that there is no need to install mongo, nodejs, or npm on the base operating system.
+
+You may notice build WARNINGs related to _peer dependencies_  or other transitive dependencies.  They are typically safe to ignore unless you are coding the feature or modules that require them.
 
 1. Install tools required
 
@@ -15,10 +20,10 @@ During the building procedure, memory usage will be nearly 8G, so 4G memory may 
 
     `curl https://install.meteor.com/ | sh`
 
-    As meteor has its own node and npm, so you needn't install node and npm outside. You can verify it by 
-
+    There is no need to install `node` or `npm`, as meteor already includes them.  Verify by:
+    
     `meteor node -v`
-	
+
     `meteor npm -v`
 
 3. Get rocket.chat code
@@ -28,7 +33,7 @@ During the building procedure, memory usage will be nearly 8G, so 4G memory may 
 4. Install modules
 
     `cd Rocket.Chat`
-	
+
     `meteor npm install`
 
 5. Start building (about 5 minutes, please be patient)
@@ -54,7 +59,7 @@ I20181122-12:33:53.286(0)? ➔ |                                               |
 I20181122-12:33:53.287(0)? ➔ +-----------------------------------------------+
 ```
 
-This means that a Rocket.Chat server is running from your computer. To access the server, navigate to 
+This means that a Rocket.Chat server is running from your computer. To access the server, navigate to
 
 `http://localhost:3000`
 
