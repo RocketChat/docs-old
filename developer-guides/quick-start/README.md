@@ -4,53 +4,41 @@
 
 ### On Linux/Mac
 
-To run Rocket.Chat for development on a Linux or a Mac you must first have the following programs installed.
+You can run Rocket.Chat for development on a Linux or a Mac. The following intruction has been tested on a new ubuntu 18.04lts installation.
 
-These will require root privileges:
+During the build, memory usage will be nearly 8G, this is the minimum level of RAM recommended for development workstations.
 
-Install `g++ build-essential git mongodb`
+Note that there is no need to install mongo, nodejs, or npm on the base operating system.
 
-Install Meteor:
+You may notice build WARNINGs related to _peer dependencies_  or other transitive dependencies.  They are typically safe to ignore unless you are coding the feature or modules that require them.
 
-`curl https://install.meteor.com/ | sh`
+1. Install tools required
 
-Notes here:
+    `sudo apt install g++ build-essential git curl python-minimal`
 
-- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- [Meteor](https://www.meteor.com/install)
+2. Install meteor
 
-Install latest npm:
+    `curl https://install.meteor.com/ | sh`
 
-`npm i npm@latest -g`
+    There is no need to install `node` or `npm`, as meteor already includes them.  Verify by:
 
-Use `nvm` so that you can use multiple versions of node:
+    `meteor node -v`
 
-- [nvm](https://www.liquidweb.com/kb/how-to-install-nvm-node-version-manager-for-node-js-on-ubuntu-12-04-lts/)
+    `meteor npm -v`
 
-Add 'n' so you can easily swap node versions:
+3. Get rocket.chat code
 
-n 8.11.4 (use one similar to the official builds)
+    `git clone https://github.com/RocketChat/Rocket.Chat.git`
 
-Or, If you are using `nvm` run `nvm use 8.11.4` (use the version that is given in office builds)
+4. Install modules
 
-Once the above pre-requisites are installed open a terminal as a standard user and run the following:
+    `cd Rocket.Chat`
 
-- `git clone https://github.com/RocketChat/Rocket.Chat.git` (if you wish to clone your own fork, replace "/RocketChat/" with /YOUR REPOSITORY NAME HERE/)
-- `cd Rocket.Chat` (or the name of your repository)
+    `meteor npm install`
 
-You may need to do the following to avoid module errors:
+5. Start building (about 5 minutes, please be patient)
 
-`meteor npm i`
-
-`meteor npm install sharp chai webpack postcss postcss-syntax fibers`
-
-`meteor npm run postinstall`
-
-`meteor npm audit fix` (just to help) or `meteor npm audit fix --force`
-
-Now start the build:
-
-- `meteor npm start` (Warning: It may take a while to build so please be patient)
+    `meteor npm start`
 
 When the server is ready, you will see a green box within the terminal with "Server Running" at the top.
 
@@ -71,7 +59,14 @@ I20181122-12:33:53.286(0)? ➔ |                                               |
 I20181122-12:33:53.287(0)? ➔ +-----------------------------------------------+
 ```
 
-This means that a Rocket.Chat server is running from your computer. To access the server, navigate to `localhost:3000`
+This means that a Rocket.Chat server is running from your computer. To access the server, navigate to
+
+`http://localhost:3000`
+
+Other references:
+
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [Meteor](https://www.meteor.com/install)
 
 ## Editing Rocket.Chat Files
 
