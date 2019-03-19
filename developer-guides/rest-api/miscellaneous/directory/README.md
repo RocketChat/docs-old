@@ -12,7 +12,7 @@ along with [Query and Fields Query Parameters](../../query-and-fields-info/).
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `query` | `{"text": "rocket", "type": "users", "workspace": "local"}` | Required | When `type` is `users` you can send an additional `workspace` field, that can be `local` (default) or `all`. `workspace=all` will work only if [Federation](../../../administrator-guides/federation) is enabled. |
+| `query` | `{"text": "rocket", "type": "users", "workspace": "local"}` | Required | When `type` is `users` you can send an additional `workspace` field, that can be `local` (default) or `all`. `workspace=all` will work only if [Federation](../../../../administrator-guides/federation) is enabled. |
 
 ## Example Call
 
