@@ -20,7 +20,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 | Url                       | Short Description                                         | Details Page                           |
 | :------------------------ | :-------------------------------------------------------- | :------------------------------------- |
-| `/api/v1/info`            | Information about the Rocket.Chat server.                 | [Link](miscellaneous/info/)            |
+| `/api/info`               | Information about the Rocket.Chat server.                 | [Link](miscellaneous/info/)            |
 | `/api/v1/directory`       | Search by users or channels on all server.                | [Link](miscellaneous/directory/)       |
 | `/api/v1/shield.svg`      | Gets the shield svg(badge) to add in your website.        | [Link](miscellaneous/shield-svg/)      |
 | `/api/v1/spotlight`       | Searches for users or rooms that are visible to the user. | [Link](miscellaneous/spotlight/)       |
