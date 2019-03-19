@@ -25,11 +25,13 @@ You may notice build WARNINGs related to _peer dependencies_  or other transitiv
     `meteor npm -v`
 
 3. Get rocket.chat code
-- `git clone https://github.com/RocketChat/Rocket.Chat.git` (if you wish to clone your own fork, replace with your repo link which may look like __*https://github.com/your-user-name/Rocket.Chat.git*__).
-- `cd Rocket.Chat` (or as per the name of your cloned repository).
+
+    `git clone https://github.com/RocketChat/Rocket.Chat.git`
 
 4. Install modules
-    `meteor npm install`
+
+   `cd Rocket.Chat` 
+   `meteor npm install`
 
 5. Start building (can take 5 minutes, please be patient)
 - `meteor npm start` (Warning: It may take a while to build so please be patient).
