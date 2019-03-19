@@ -91,7 +91,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 ### SNAP improvements
 
 - **Mentors**: TBD
-- **Description**: The most popular Rocket.Chat deployment method in the world is via snaps.  Snaps are containerized software packages that are simple to create and install. The aim of this project is to improve our snap installation process and features, bringing better support for our ARM architecture deployment, and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for load balancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replica set and possible firewall configuration.
+- **Description**: The most popular Rocket.Chat deployment method in the world is via snaps.  Snaps are containerized software packages that are simple to create and install. The aim of this project is to improve our snap installation process and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for load balancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replica set and possible firewall configuration. Improvements in our ARM architecture support is also desirable.
 - **Desirable Skills:**  Familiarity with Linux. Good shell scripting skills. Aware of DevOps and containers based deployment technology.
 
 ### Service Accounts in Rocket.Chat
@@ -105,6 +105,12 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Mentors:** @bizzbyster, @karan.bedi
 - **Description:** Adding the functionality of newsfeed, which is similar to a customized read-only channel for every user. Every user (follower) can follow other users (followed user). Posts from the followed user appear in the newsfeed of their followers. Posts are threaded discussions, started by the followed user in any public channel (origin channel), their follower can or cannot be a part of the origin channel, but this post comes up in their wall with a permalink to the original post in the origin channel. This helps in discovering new conversations. Interns are encouraged to propose extensions to this like wall, where a user can post threads that show up in their follower's feed, status updates, etc. Automated tests should be written to cover the added functionality.
 - **Desirable Skills:**  Familiarity with JavaScript development & Rocket.Chat code base
+
+### Rocket.chat Articles
+
+- **Mentors:** @bizzbyster, @karan.bedi
+- **Description:** For every deployment of Rocket.chat, there is a team or community that generates a lot of content. Rocket.chat itself is the repository for much of that content but the rest typically resides in other applications such as github or jira or google docs, many of which are third party services and so the content is not owned by the community that hosts the Rocket.chat server. In one particular scenario, a user may want to write an article and "publish" it to groups or contacts within Rocket.chat. Today that would have to be done typically using a third party service. What if instead article creation, searching, and storage were integrated with Rocket.chat such that each user could maintain his or her own library of articles and contacts of that user could subscribe to see new articles posted by that user and to discuss those articles using something like Rocket.chat Threads. By default, each Rocket.chat user would essentially hav their own "blog" which could be accessed via a permalink including links to each "article." In general, the purpose of this project is to develop a minimum integration with another open source publishing platform (such as <https://github.com/TryGhost/Ghost>) that allows users (or bots or service accounts) to write and publish articles that get stored on a location configured by the Rocket.chat administrator so that the community maintains ownership of more of the content it generates.
+- **Desirable Skills:**  Familiarity with JavaScript development & Rocket.Chat code base & interest in exploring integrations with publishing open source projects.
 
 ### Improved Test Automation in Rocket.Chat Repos
 
@@ -182,6 +188,12 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Project repositories**: [hubot](https://github.com/RocketChat/hubot-rocketchat), [chatops-gitsy](https://github.com/RocketChat/hubot-gitsy), [botpress](https://github.com/RocketChat/botpress-channel-rocketchat), [rasa](https://github.com/RocketChat/rasa-kick-starter), [bbot](http://bbot.chat/), [botkit](https://github.com/RocketChat/botkit-rocketchat-connector), [BOTswana](https://github.com/RocketChat/botswana-snap)
 - **Description**: Develop a suite (5+) of BOTs across our Chatbot support portfolio/platforms; integrating current ML, AI, NLP, CMS, CRM and big data access stacks. BOTs need to be contemporarily interesting, simple to construct, yet substantially functional.   They also need to be adaptable across the bot frameworks that Rocket.Chat supports.  They will be used as starter learning resources across our BOT repositories.
 - **Desirable Skills**: Deep interest in ML, AI, and modern BOT technologies. Experience in developing BOTs using NodeJS or Python.  Clear methodical mind plus the ability to simplify and explain complex problems in simple terms.  Technologically fearless.
+
+### BOTs UX: Improve the User Experience with bots by adding support for persistent menus, webviews, and rich messaging features
+
+- **Mentors**: @bizzbyster
+- **Description**: Rocket.chat trails both team and consumer chat platforms like Slack and Facebook Messenger/WeChat in terms of the richness of user interface components supported by bots. The goal of this project would be to add rich messages, persistent menus, welcome pages, webviews and other components to the Android, iOS, and web clients to allow chatbots to become comparable to web apps in terms of usability and UX.
+- **Desirable Skills**: Interest UI/UX and chatbots. Experience in iOS, Android, or web client front ends development.  Excited to participate in the full life cycle development process in an open source community context.
 
 ### Integration of Rocket.Chat with Existing Phone/Voice Networks
 
