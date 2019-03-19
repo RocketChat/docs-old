@@ -84,6 +84,7 @@
   - Connecting to a Server
   - Registration
   - Login
+  - Talking to users from another server
   - Channels
   - Messaging
   - Channel Actions
@@ -105,6 +106,7 @@
     - Editing Emails Content
     - Mailer
     - Direct Reply
+  - Federation
   - File Upload:
     - Amazon S3
     - Google Cloud Storage
