@@ -11,16 +11,16 @@ When enabling federation on your server, your server becames part of the Rocket.
 ## Features
 
 - **Current**
-  - Inviting users from remote servers;
-  - Direct chats between servers;
-  - Public, private and broadcast rooms with remote users from any number of servers;
-  - Read receipts, notifications and alerts are distributed to remote servers;
-  - Mute/Unmute remote users;
-  - File sharing among servers;
+    - Inviting users from remote servers;
+    - Direct chats between servers;
+    - Public, private and broadcast rooms with remote users from any number of servers;
+    - Read receipts, notifications and alerts are distributed to remote servers;
+    - Mute/Unmute remote users;
+    - File sharing among servers;
 - **Confirmed next features**
-  - Encrypted rooms;
-  - Whitelist servers to communicate with;
-  - Better federation setup process, with helpers to validate the configuration;
+    - Encrypted rooms;
+    - Whitelist servers to communicate with;
+    - Better federation setup process, with helpers to validate the configuration;
 
 ## Configuration
 
@@ -30,11 +30,11 @@ When you open Federation's config screen, you will see this:
 
 Below, a brief explanation of each configuration option:
 
-#### Enabled
+### Enabled
 
 This determines whether or not Federation is enabled on this server.
 
-#### Status
+### Status
 
 This is the current Federation status, which can be one of the following:
 
@@ -45,11 +45,11 @@ This is the current Federation status, which can be one of the following:
 - **Disabled :** federation is disabled
 - **Running :** federation is running and ready to communicate with other servers;
 
-#### Domain
+### Domain
 
 Fill this option with your domain name, usually where the Rocket.Chat server is hosted.
 
-#### Public Key
+### Public Key
 
 All Federation communications are double encrypted, which means messages cannot be delivered by mistake to a wrong peer. This is your public key, which is specially generated for Rocket.Chat and by Rocket.Chat, which will be shared with peers you are communicating with.
 
@@ -59,11 +59,11 @@ When a server receives the message, it uses the Server B private key and the Ser
 
 So, let's say the message ended up on Server C: this server won't have Server B's private key to decrypt it, so the message can't be read at all.
 
-#### Hub URL
+### Hub URL
 
 This usually remains as is. This is the Hub URL, where your server will register and confirm domain ownership if you are not using DNS discovery method.
 
-#### Discovery Method
+### Discovery Method
 
 How are you going to be found in the Rocket.Chat Federated Network? You can choose through DNS or, as a fallback, the Rocket.Chat Hub.
 
