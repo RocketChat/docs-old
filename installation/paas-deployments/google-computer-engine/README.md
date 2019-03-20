@@ -2,7 +2,7 @@
 
 1. Create a compute instance with a Linux image (i.e the default Debian)
 
-2. SSH to the instance (note: connect by SSH or connect in browser on port other than 80)  
+2. SSH to the instance (note: connect by SSH or connect in browser on port other than 80)
 
 3. run the following to install docker:
      `sudo wget -qO- https://get.docker.com/ | sh`
