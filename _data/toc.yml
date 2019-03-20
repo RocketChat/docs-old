@@ -301,6 +301,7 @@
         - unPinMessage
         - unStarMessage
         - update
+        - ignoreUser
       - Commands:
         - get
         - list

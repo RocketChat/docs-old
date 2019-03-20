@@ -312,6 +312,7 @@ Here you can also find what articles are incomplete and missing.
             - unPinMessage
             - unStarMessage
             - update
+            - ignoreUser
         - Commands:
             - get
             - list

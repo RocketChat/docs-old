@@ -166,6 +166,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.unStarMessage`          | Removes the star on the chat message for the authenticated user. | [Link](chat/unstarmessage/)             |
 | `/api/v1/chat.update`                 | Updates the text of the chat message.                            | [Link](chat/update/)                    |
 | `/api/v1/chat.getMessageReadReceipts` | Retrieves message read receipts.                                 | [Link](chat/getmessagereadreceipts/)    |
+| `/api/v1/chat.ignoreUser`             | Ignores an user from a chat.                                     | [Link](chat/ignoreuser/)                |
 
 ### IM
 
