@@ -34,7 +34,17 @@ With some file types, curl will upload the file as `application/octet-stream`. Y
 
 ```javascript
 {
-   "success": true
+  "file": {
+    "_id": "WnAnmopPPDgSQ5EDp",
+    "name": "temp.txt",
+    "size": 9,
+    "type": "text/plain",
+    "rid": "GENERAL",
+    "userId": "abJaoNiibGs7gP9fe",
+    "_updatedAt": "2019-03-20T21:04:17.737Z",
+    "description": "Simple text file"
+  },
+  "success": true
 }
 ```
 
@@ -79,7 +89,7 @@ Date: Sun, 28 Jan 2018 11:08:18 GMT
 Connection: keep-alive
 Transfer-Encoding: chunked
 
-{"success":true}
+{"file":{"_id":"WnAnmopPPDgSQ5EDp","name":"temp.txt","size":9,"type":"text/plain","rid":"GENERAL","userId":"abJaoNiibGs7gP9fe","_updatedAt":"2019-03-20T21:04:17.737Z","description": "Simple text file"},"success": true}
 ```
 
 ## Change Log
