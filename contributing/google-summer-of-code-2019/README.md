@@ -230,6 +230,12 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: It's already possible to share a file from Nextcloud into Rocket.Chat. But the authentication is a bit clumsy. It would be great to have a single real sign in. So you only need to sign into Rocket.Chat and are automatically signed in Nextcloud of both talks to the same directory of course.
 - **Desirable Skills**: Familiarity with Rocket.Chat and Nextcloud development.
 
+### Livechat: Voice and Video Calls
+
+- **Mentors**: @renatobecker
+- **Description**: We've been working on our new Livechat solution and it's time to add two great new features that will make Livechat even more powerful: voice and video calls! The idea is to integrate Livechat with the providers already supported in Rocket.Chat, such as Jitsi, WebRTC, BigBlueButton and so on. With these two new features, Livechat users will be able to initiate video and audio calls between them and Livechat agents.
+- **Desirable Skills**: Familiarity with Rocket.Chat/Livechat development, ReactJS/PreactJS, Voice and Video communication
+
 ## Timeline
 
 [GSoC 2019 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
