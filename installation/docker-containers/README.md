@@ -544,7 +544,7 @@ _When I upload a file the server crashes!_
 If you're running low on system resources, such as RAM, this can cause problems with not just performance, but stability. Make sure that you're not running out of memory, or have any other choke points, like not enough CPU, etc. One way to check, is to issue the following command via SSH (or console) which runs TOP, a utility that will show valuable information about system resources and processes.
 
 ```
-sudo TOP
+sudo top
 ```
 
 With TOP running, try to replicate the problem while watching TOP for high loads, overloaded CPU, etc. While Rocket.Chat can be run on a single core with 512MB of memory, that's really not enough for stable performance. If you're seeing high values in TOP, consider upgrading your server to at least 1GB or RAM, or more.

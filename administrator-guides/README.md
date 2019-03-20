@@ -6,6 +6,7 @@ If you are a server administrator, here are a few guides on how to setup your in
 - [Authentication](authentication/)
 - [Database-Migration](database-migration/)
 - [Email](email/)
+- [Federation](federation/)
 - [File Upload](file-upload/)
 - [Import](import/)
 - [Integrations](integrations/)
