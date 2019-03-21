@@ -2,7 +2,7 @@
 
 In this article you will find all of the settings related to File Uploads.
 
-## General
+## General Settings
 
 ### File Uploads Enabled
 
@@ -75,10 +75,10 @@ Override URL to which files are uploaded. This URL will also be used for downloa
 
 If you had set a CDN for your bucket, put it here
 
-### Force Path Style
+<!-- ### Force Path Style
 
 - **Yes**: _FILL HERE_
-- **No**: _FILL HERE_
+- **No**: _FILL HERE_ -->
 
 ### Proxy Avatars
 

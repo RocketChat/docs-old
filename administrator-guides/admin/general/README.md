@@ -1,35 +1,30 @@
 # General
 
+## General Settings
+
 ### Allow Invalid Self-Signed Certs
 
-- **Yes**: _FILL HERE_
-- **No**: _FILL HERE_
-
-> Allow invalid and self-signed SSL certificate's for link validation and previews.
-
+Allow invalid and self-signed SSL certificate's for link validation and previews.
 
 ### Bugsnag API Key
 
-_FILL HERE_
-
+If you are integrating Bugsnag with Rocket.Chat, you should put your Bugsnag API Key here.
 
 ### CDN Prefix for JS/CSS
 
-_FILL HERE_
+Insert here the prefix for the CDN that should load the JS/CSS assets
 
 ### CDN Prefix
 
-_FILL HERE_
+If you want to use a CDN to load the assets of your server, insert here your CDN Prefix.
 
 ### Use CDN Prefix for all assets
 
-- **Yes**: _FILL HERE_
-- **No**: _FILL HERE_
+This will define if all assets from the server will come from a CDN.
 
+<!-- ### Document Domain
 
-### Document Domain
-
-_FILL HERE_
+_FILL HERE_ -->
 
 ### Enable Favorite Rooms
 
@@ -42,15 +37,12 @@ Insert here the name of the channel that the user will enter after logging in. S
 
 ### Force Disable OpLog for Cache
 
-- **Yes**: _FILL HERE_
-- **No**: _FILL HERE_
-
-> Will not use OpLog to sync cache even when it's available
+Will not use OpLog to sync cache even when it's available
 
 ### Force SSL
 
-- **Yes**: _FILL HERE_
-- **No**: _FILL HERE_
+You can use this setting to force SSL on your server. We **Strongly Discourage** the usage of this setting, this should
+be done at the reverse proxy level by redirecting to https.
 
 > *Caution!* _Force SSL_ should never be used with reverse proxy. If you have a reverse proxy, you should do the redirect THERE. This option exists for deployments like Heroku, that does not allow the redirect configuration at the reverse proxy.
 
@@ -72,9 +64,7 @@ This sets the content of the Robots.txt file, used to help indexing your server 
 
 ### Show Setup Wizard
 
-- **Pending**: _FILL HERE_
-- **In_progress**: _FILL HERE_
-- **Completed**: _FILL HERE_
+For now this setting **SHOULD NOT** be changed. Setting this to `pending` and logging out can basically lock down your server. Please refer to this [issue](https://github.com/RocketChat/Rocket.Chat/issues/13840).
 
 ### Site Name
 
@@ -88,10 +78,7 @@ This sets the URL of the server.
 
 ### Store Last Message
 
-- **Yes**: _FILL HERE_
-- **No**: _FILL HERE_
-
-> Store last message sent on each room.
+ Store last message sent on each room. This will enable the viewing of the last message on the left sidebar (should be on by default)
 
 ### Unread Count
 
@@ -121,8 +108,9 @@ Settings related to our GraphQL API. You can find more info on our GraphQL API [
 
 ### GraphQL CORS
 
-- **Yes**: _FILL HERE_
-- **No**: _FILL HERE_
+Use this setting to enable [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) for the GraphQL API. Enabling CORS will make the server only accept API Calls from specific origins.
+
+> **Note:** Currently our GraphQL CORS accepts all domains. Setting this to false, will make your server only accept requests from the same domain of said server. E.g. `rocket.chat` server will only accept requests from the `rocket.chat` domain.
 
 ### GraphQL Enabled
 
@@ -164,14 +152,18 @@ Max number of members in room when notifications for all messages gets disabled.
 
 ### Allow Getting Everything
 
-- **Yes**: _FILL HERE_
-- **No**: _FILL HERE_
+This setting affects the `count` query parameter. See more at [Offset and Count Information](https://rocket.chat/docs/developer-guides/rest-api/offset-and-count-and-sort-info/#offset-and-count-information)
+
+- **Yes**: Allows the usage of the number `0` as `count` parameter. Setting `count` to `0` will return **ALL** the data from that endpoint
+- **No**: Setting the number `0` on `count`, will return `0` results.
 
 > Should calls to the REST API be allowed to return everything in one call?
 
 ### CORS Origin
 
-_FILL HERE_
+Here you can set what origins are allowed to make requests to your server.
+
+> You can use `*` to accept from all origins. For multiple Origins use a comma separated list. E.g `domain1.com, domain2.com, domain3.com`
 
 ### Default Count
 
@@ -179,29 +171,23 @@ The default count for REST API results if the consumer did not provided any.
 
 ### Enable CORS
 
-- **Yes**: _FILL HERE_
-- **No**: _FILL HERE_
+Use this setting to enable [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) for the REST API. Enabling CORS will make the server only accept API Calls from specific origins.
 
+> **Note**: Setting this to false, will make your server only accept requests from the same domain of said server. E.g. `rocket.chat` server will only accept requests from the `rocket.chat` domain.
 
 ### Enable Direct Message History Endpoint
 
-- **Yes**: _FILL HERE_
-- **No**: _FILL HERE_
-
-> This enables the `/api/v1/im.history.others` which allows the viewing of direct messages sent by other users that the caller is not part of.
+This enables the `/api/v1/im.history.others` which allows the viewing of direct messages sent by other users that the caller is not part of.
 
 ### Enable Shields
 
-- **Yes**: _FILL HERE_
-- **No**: _FILL HERE_
+Enables the usage of [Shields](https://rocket.chat/docs/developer-guides/rest-api/miscellaneous/shield-svg/#shield-svg) via API
 
-> Enable shields available at `/api/v1/shield.svg`
+> Enabled shields are available at `/api/v1/shield.svg`
 
 ### Shield Types
 
-_FILL HERE_
-
-> Types of shields to enable as a comma separated list, choose from `online`, `channel` or `*` for all
+Types of shields to enable as a comma separated list, choose from `online`, `channel` or `*` for all
 
 ### Max Record Amount
 
@@ -209,7 +195,7 @@ This sets the maximum number of records the REST API should return when not set 
 
 ### User Limit for Adding All Users to Channel
 
-User Limit for Adding All Users to Channel
+This limits the amount of users that can be added to a Channel at the same time.
 
 ## Reporting
 
@@ -221,7 +207,7 @@ By sending your statistics, you'll help us identify how many instances of Rocket
 
 ### Stream Cast Address
 
-> IP or Host of your Rocket.Chat central Stream Cast. E.g. `192.168.1.1:3000` or `localhost:4000`
+IP or Host of your Rocket.Chat central Stream Cast. E.g. `192.168.1.1:3000` or `localhost:4000`
 
 ## Translations
 
@@ -229,23 +215,25 @@ By sending your statistics, you'll help us identify how many instances of Rocket
 
 With this setting you can configure custom translations for your server.
 
-> Should be a valid JSON where keys are languages containing a dictionary of key and translations. Example:<br/><code>{
+Should be a valid JSON where keys are languages containing a dictionary of key and translations. Example:
 
+```json
+{
  "en": {
   "Channels": "Rooms"
  },
  "pt": {
   "Channels": "Salas"
  }
-}</code>
+}
+```
 
 ## UTF8
 
-### UTF8 Names Slugify
+<!-- ### UTF8 Names Slugify
 
 - **Yes**: _FILL HERE_
-- **No**: _FILL HERE_
-
+- **No**: _FILL HERE_ -->
 
 ### UTF8 Names Validation
 
