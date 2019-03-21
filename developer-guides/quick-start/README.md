@@ -1,6 +1,6 @@
 # Quick start for code developers
 
-### On Linux/Mac
+## On Linux/Mac
 
 You can run Rocket.Chat for development on a Linux or a Mac. The following instruction has been tested on a new Ubuntu 18.04 LTS installation.
 
@@ -68,7 +68,7 @@ Other references:
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Meteor](https://www.meteor.com/install)
 
-## Editing Rocket.Chat Files
+### Editing Rocket.Chat Files
 
 Editing files is relatively simple. After you run `git clone`, the files from the repository are saved on
 your computer. You can go to the cloned repository folder and edit or add files to Rocket.Chat.
@@ -76,7 +76,7 @@ When you make changes to Rocket.Chat the server will automatically rebuild.
 
 Sometimes changes can shut down the server, if that happens just run `meteor npm start` again.
 
-### On Windows
+## On Windows
 
 Using Windows to develop is not recommended, instead is better to create a Linux virtual machine and follow the steps mentioned above, but if for some reason you really need to build Rocket.Chat on Windows you can find a community supported guide over [here](../../installation/community-supported-installation/windows-server/).
 
