@@ -2,13 +2,7 @@
 
 More information on the fields required to set up Google Cloud Storage with Rocket.Chat using a service account.
 
-You'll need to set the following fields:
-
-Config. Name | Description
------------- | -------------
-**Google Storage Bucket Name** | The bucket name you've created on Google Storage.
-**Google Storage Access Id** | The access ID (or username) of the service account which has access to your Cloud Storage bucket, usually in the format like: example-test@example.iam.gserviceaccount.com
-**Google Storage Secret** | What is a essentially a .pem containing your private key and certificate.
+You can find the fields that you need to fill on [this article](/administrator-guides/admin/fileupload#google-cloud-storage)
 
 ## More information
 

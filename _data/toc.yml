@@ -90,6 +90,9 @@
   - End to End Encryption
   - Voice and Video Conferencing
 - Administrator guides:
+  - Admin:
+    - File Upload
+    - General
   - Account Settings
   - Authentication:
     - CAS
@@ -108,7 +111,6 @@
     - Amazon S3
     - Google Cloud Storage
     - Minio
-    - WebDAV
   - Import:
     - CSV
     - HipChat:
