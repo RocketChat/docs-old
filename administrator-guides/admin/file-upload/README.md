@@ -32,16 +32,16 @@ Use this setting to define what types of files the users will be able to upload.
 ### Storage Type
 
 - **GridFS**: Uses the GridFS storage type
-- **AmazonS3**: Uses the [Amazon S3](#amazon-s3) storage type
-- **Google Cloud Storage**: Uses the [Google Cloud Storage](#google-cloud-storage) storage type
-- **WebDAV**: Uses the [WebDav](#webdav) storage type
-- **FileSystem**: Uses the [FileSysyem](#filesystem) storage type
+- **AmazonS3**: Uses the [Amazon S3](../file-upload/#amazon-s3) storage type
+- **Google Cloud Storage**: Uses the [Google Cloud Storage](../file-upload/#google-cloud-storage) storage type
+- **WebDAV**: Uses the [WebDav](../file-upload/#webdav) storage type
+- **FileSystem**: Uses the [FileSysyem](../file-upload/#filesystem) storage type
 
 - - -
 
 ## Amazon S3
 
-You can find a more detailed guide on how to set your Amazon S3 server [here](/administrator-guides/file-upload/amazon-s3/README.md).
+You can find a more detailed guide on how to set your Amazon S3 server [here](/administrator-guides/file-upload/amazon-s3/).
 
 ### Access Key
 
@@ -112,7 +112,7 @@ The local path for where the uploaded files will be stored.
 
 ## Google Cloud Storage
 
-Settings used when configuring a Google Cloud Storage server. You can find more details in [here](/administrator-guides/file-upload/google-cloud-storage/README.md)
+Settings used when configuring a Google Cloud Storage server. You can find more details in [here](/administrator-guides/file-upload/google-cloud-storage/)
 
 ### Google Storage Access Id
 
