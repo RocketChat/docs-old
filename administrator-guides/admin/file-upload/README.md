@@ -37,7 +37,7 @@ Use this setting to define what types of files the users will be able to upload.
 - **WebDAV**: Uses the [WebDav](#webdav) storage type
 - **FileSystem**: Uses the [FileSysyem](#filesystem) storage type
 
----
+- - -
 
 ## Amazon S3
 
@@ -102,7 +102,7 @@ Identifies the version of AWS Signature that you want to support for authenticat
 
 Time after which Amazon S3 generated URLs will no longer be valid (in seconds). If set to less than 5 seconds, this field will be ignored.
 
----
+- - -
 
 ## FileSystem
 
@@ -138,7 +138,7 @@ What is a essentially a .pem containing your private key and certificate.
 
 > You can find a guide [here](https://github.com/CulturalMe/meteor-slingshot#google-cloud) on how to get your keys.
 
----
+- - -
 
 ## Google Vision
 
@@ -206,7 +206,7 @@ Categories will be added as a property on the file entry on the database.
 
 This will enable users to search for similar images directly from Rocket.Chat.
 
----
+- - -
 
 ## WebDAV
 

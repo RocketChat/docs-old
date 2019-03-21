@@ -6,6 +6,7 @@ Here you will find how to use the fields on the Settings section of our admin pa
 - [General](general/)
 
 <!--
+
 - [Accounts](accounts/)
 - [Analytics](analytics/)
 - [Assets](assets/)
@@ -41,4 +42,6 @@ Here you will find how to use the fields on the Settings section of our admin pa
 - [User Data Download](userdatadownload/)
 - [Video Conference](video-conference/)
 - [WebRTC](webrtc/)
-- [Webdav Integration](webdav-integration/) -->
+- [Webdav Integration](webdav-integration/)
+
+ -->
