@@ -1,4 +1,3 @@
-
 # Admin settings
 
 Here you will find how to use the fields on the Settings section of our admin page.

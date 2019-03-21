@@ -96,11 +96,15 @@ This setting changes the behavior of the unread counter on Direct Messages
 - **All messages**: All messages sent by another user will be counted on the counter.
 - **Mentions only**: Only mentions using `@yourUsername` will be counted on the counter.
 
+---
+
 ## Apps
 
 ### Enable the App Framework
 
 Use this setting to enable the Rocket.Chat Apps Framework. This allows you to add Rocket.Chat Apps from our Marketplace to your server.
+
+---
 
 ## GraphQL API
 
@@ -120,6 +124,8 @@ This setting enables the GraphQL API on your server.
 
 Here you can choose what port will be used for subscriptions on the API. More info on subscriptions [here](/developer-guides/graphql-api/subscription/)
 
+---
+
 ## Iframe Integration
 
 ### Enable Receive
@@ -138,6 +144,8 @@ This setting defines if Rocket.Chat can send events to the parent window.
 
 Origin with protocol prefix, which commands are sent to e.g. `https://localhost`, or * to allow sending to anywhere.
 
+---
+
 ## Notifications
 
 ### Always notify mobile
@@ -147,6 +155,8 @@ Choose to always notify mobile device regardless of presence status.
 ### Max Room Members Before Disabling All Message Notifications
 
 Max number of members in room when notifications for all messages gets disabled. Users can still change per room setting to receive all notifications on an individual basis. (0 to disable)
+
+---
 
 ## REST API
 
@@ -197,6 +207,8 @@ This sets the maximum number of records the REST API should return when not set 
 
 This limits the amount of users that can be added to a Channel at the same time.
 
+---
+
 ## Reporting
 
 ### Send Statistics to Rocket.Chat
@@ -227,6 +239,8 @@ Should be a valid JSON where keys are languages containing a dictionary of key a
  }
 }
 ```
+
+---
 
 ## UTF8
 
