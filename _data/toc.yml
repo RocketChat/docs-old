@@ -186,6 +186,11 @@
       - Supported Servers Versions
     - Developing Apps:
       - Getting Started
+    - GraphQL API:
+       - Authentication
+       - Schema
+       - Setup
+       - Subscription
     - Realtime-API:
       - Method Calls:
         - Login

@@ -199,6 +199,11 @@ Here you can also find what articles are incomplete and missing.
     - Mobile Apps
         - Supporting SSL
         - Supported Servers Versions
+    - GraphQL API:
+        - Authentication
+        - Schema
+        - Setup
+        - Subscription
     - Realtime-API:
         - Method Calls:
             - Login
