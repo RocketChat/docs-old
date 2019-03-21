@@ -19,13 +19,13 @@ GraphiQL is available under `/graphiql` in your browser.
 A WebSocket connection can be used for communicating with GraphQL.
 One example would be the `chatMessageAdded` event (subscriptions).
 
-By default, this WebSocket connection can be established in unsecured mode, only (`ws://`). If you want to use the 
+By default, this WebSocket connection can be established in unsecured mode, only (`ws://`). If you want to use the
 secured version (`wss://`), there's a slight modification to be made:
 
-Currently, there's no way of connecting **directly** to the secured WebSocket. So you'll need to set up a kind of 
+Currently, there's no way of connecting **directly** to the secured WebSocket. So you'll need to set up a kind of
 reverse proxy, that takes a standard HTTP connection and upgrades it to a WebSocket.
 
-For example, for the nginx webserver, it could look like this: 
+For example, for the nginx webserver, it could look like this:
 
 ```
 server {
