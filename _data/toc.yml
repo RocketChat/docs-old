@@ -24,8 +24,8 @@
   - Rocket.Chat Cloud
   - PaaS Deployments:
     - Aliyun
-    - AWS
-      - EKS 
+    - AWS:
+      - EKS
     - Cloudron.io
     - Digital Ocean
     - DPlatform
