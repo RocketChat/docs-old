@@ -24,8 +24,8 @@
   - Rocket.Chat Cloud
   - PaaS Deployments:
     - Aliyun
-    - AWS
-      - EKS 
+    - AWS:
+      - EKS
     - Cloudron.io
     - Digital Ocean
     - DPlatform
@@ -186,6 +186,11 @@
       - Supported Servers Versions
     - Developing Apps:
       - Getting Started
+    - GraphQL API:
+       - Authentication
+       - Schema
+       - Setup
+       - Subscription
     - Realtime-API:
       - Method Calls:
         - Login
