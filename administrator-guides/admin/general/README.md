@@ -124,6 +124,8 @@ This setting enables the GraphQL API on your server.
 
 Here you can choose what port will be used for subscriptions on the API. More info on subscriptions [here](/developer-guides/graphql-api/subscription/)
 
+> **Note**: Cannot currently use the same port that Rocket.Chat is running on.
+
 - - -
 
 ## Iframe Integration
