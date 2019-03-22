@@ -102,6 +102,8 @@ Identifies the version of AWS Signature that you want to support for authenticat
 
 Time after which Amazon S3 generated URLs will no longer be valid (in seconds). If set to less than 5 seconds, this field will be ignored.
 
+> If you run into issues with files not loading consistently for some users located further from server location.  Increasing this time might help.
+
 - - -
 
 ## FileSystem
