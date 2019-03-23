@@ -296,6 +296,7 @@
         - getDeletedMessages
         - getMessage
         - getMessageReadReceipts
+        - getPinnedMessages
         - pinMessage
         - postMessage
         - react

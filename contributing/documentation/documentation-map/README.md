@@ -307,6 +307,7 @@ Here you can also find what articles are incomplete and missing.
             - getDeletedMessages
             - getMessage
             - getMessageReadReceipts
+            - getPinnedMessages
             - pinMessage
             - postMessage
             - react

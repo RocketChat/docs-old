@@ -6,6 +6,7 @@
 | `/api/v1/chat.getDeletedMessages`  | Retrieves the deleted messages since specific date.  | [Link](getdeletedmessages/) |
 | `/api/v1/chat.getMessage` | Retrieves a single chat message. | [Link](getmessage/) |
 | `/api/v1/chat.getMessageReadReceipts` | Retrieves message read receipts. | [Link](getmessagereadreceipts/) |
+| `/api/v1/chat.getPinnedMessages` | Retrieve pinned messages from a room. | [Link](getpinnedmessages/) |
 | `/api/v1/chat.ignoreUser` | Ignores an user from a chat. | [Link](ignoreuser/) |
 | `/api/v1/chat.pinMessage` | Pins a chat message to the message's channel. | [Link](pinmessage/) |
 | `/api/v1/chat.postMessage` | Posts a new chat message. | [Link](postmessage/) |
