@@ -82,8 +82,8 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### SNAP improvements
 
-- **Mentors**: TBD
-- **Description**: The most popular Rocket.Chat deployment method in the world is via snaps.  Snaps are containerised software packages that are simple to create and install. The aim of this project is improve our snap installation process and features, bringing better support for our ARM architecture deployment, and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for loadbalancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replicaset and possible firewall configuration.
+- **Mentors**: @lucia.guevgeozian
+- **Description**: The most popular Rocket.Chat deployment method in the world is via snaps. Snaps are containerised software packages that are simple to create and install. The aim of this project is improve our snap installation process and features, bringing better support for our ARM architecture deployment, and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for loadbalancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replicaset and possible firewall configuration.
 - **Desirable Skills:**  Familiarity with Linux. Good shell scripting skills. Aware of DevOps and containers based deployment technology.
 
 ### Service Accounts in Rocket.Chat
