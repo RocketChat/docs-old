@@ -117,13 +117,6 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Mentors** @TBD
 - **Description:** The goal of this project is to enhance the current test infrastructure in the RocketChat repos and pipelines.  Currently, there is some very minimal unit testing that needs to be expanded, and no integration or system level tests or infrastructure to support them.  This project could focus on one of the repos, possibly the Android code base, or all.  Once a test infrastructure and best practice is established, the goal is that no new code gets merged unless it has new tests that will be run at build time, and it passes all of the previous tests.
 
-### Custom Notifications in Android
-
-- **Mentors:** @TBD
-- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Android>
-- **Description:** The web client currently has the flexibility of customizing the notifications per channel, but the Android client lacks this feature. This project aims to bring this feature into the Android client. Users would be able to mute specific channels and configure if they want to receive notifications when they are mentioned or for every notification, etc. Snooze functionality can also be implemented as an extension of this project.
-- **Desirable Skills:**  Familiarity with Android development, specifically the Rocket.Chat.Android code base.
-
 ### iOS Voice Over Accessibility
 
 - **Mentors:** @bruno.quadros
