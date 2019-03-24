@@ -34,15 +34,32 @@ With some file types, curl will upload the file as `application/octet-stream`. Y
 
 ```javascript
 {
-  "file": {
-    "_id": "WnAnmopPPDgSQ5EDp",
-    "name": "temp.txt",
-    "size": 9,
-    "type": "text/plain",
+  "message": {
+    "_id": "HxX7qtrm6azSaMChG",
     "rid": "GENERAL",
-    "userId": "abJaoNiibGs7gP9fe",
-    "_updatedAt": "2019-03-20T21:04:17.737Z",
-    "description": "Simple text file"
+    "ts": "2019-03-24T20:28:02.501Z",
+    "msg": "This is a message with a file and I want to test it",
+    "file": {
+      "_id": "RwiWv3waLHfXLW3mj",
+      "name": "temp.txt",
+      "type": "text/plain"
+    },
+    "attachments": [
+      {
+        "ts": "1970-01-01T00:00:00.000Z",
+        "title": "temp.txt",
+        "title_link": "/file-upload/RwiWv3waLHfXLW3mj/temp.txt",
+        "title_link_download": true,
+        "type": "file",
+        "description": "Simple text file"
+      }
+    ],
+    "u": {
+      "_id": "abJaoNiibGs7gP9fe",
+      "username": "knrt10",
+      "name": "knrt10"
+    },
+    "_updatedAt": "2019-03-24T20:28:02.558Z"
   },
   "success": true
 }
@@ -89,7 +106,8 @@ Date: Sun, 28 Jan 2018 11:08:18 GMT
 Connection: keep-alive
 Transfer-Encoding: chunked
 
-{"file":{"_id":"WnAnmopPPDgSQ5EDp","name":"temp.txt","size":9,"type":"text/plain","rid":"GENERAL","userId":"abJaoNiibGs7gP9fe","_updatedAt":"2019-03-20T21:04:17.737Z","description": "Simple text file"},"success": true}
+{"message":{"_id":"HxX7qtrm6azSaMChG","rid":"GENERAL","ts":"2019-03-24T20:28:02.501Z",
+"msg":"This is a message with a file and I want to test it","file":{"_id":"RwiWv3waLHfXLW3mj","name":"temp.txt","type":"text/plain"},"attachments":[{"ts": "1970-01-01T00:00:00.000Z","title":"temp.txt","title_link":"/file-upload/RwiWv3waLHfXLW3mj/temp.txt","title_link_download":true,"type":"file","description":"Simple text file"}],"u":{"_id":"abJaoNiibGs7gP9fe","username":"knrt10","name": "knrt10"},"_updatedAt": "2019-03-24T20:28:02.558Z"},"success": true}
 ```
 
 ## Change Log
