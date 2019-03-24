@@ -40,7 +40,7 @@ Please include the following information in order to promote effective fixing.
 - Actual behavior
 - Can the bug consistently be reproduced? If so, how?
 - Relevant errors and other log output
-- Screen shots as necessary
+- Screenshots as necessary
 
 Here are some links to help you register your bug in the right place:
 
@@ -67,8 +67,8 @@ To collect logs from your browser press <kbd>Ctrl/Cmd</kbd> + <kbd>Shift</kbd> +
 
 ##### Server
 
-To collect logs from your browser as an Admin log into your Rocket.Chat. From there click the arrow by your avatar and go to Administration. Once there you will see: `View Logs`.
+To collect logs from your browser as an Admin logs into your Rocket.Chat. From there click the arrow by your avatar and go to Administration. Once there you will see: `View Logs`.
 
-Often its useful to open this in another browser and reproduce the problem again and you will see an exception pop up in the logs.
+Often it's useful to open this in another browser and reproduce the problem again and you will see an exception pop up in the logs.
 
-Also consider your web server logs and general system logs.
+Also, consider your web server logs and general system logs.
