@@ -23,7 +23,7 @@ For offline discussions, we have a discussion forum:
 
 <https://forums.rocket.chat/c/gsoc/gsoc2019>
 
-If you have ideas and proposals that are not on our idea list, or if a mentor is not available, please email to:
+If you have ideas and proposals that are not on our idealist, or if a mentor is not available, please email to:
 
    gsoc@rocket.chat
 
@@ -106,23 +106,23 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description:** Adding the functionality of newsfeed, which is similar to a customized read-only channel for every user. Every user (follower) can follow other users (followed user). Posts from the followed user appear in the newsfeed of their followers. Posts are threaded discussions, started by the followed user in any public channel (origin channel), their follower can or cannot be a part of the origin channel, but this post comes up in their wall with a permalink to the original post in the origin channel. This helps in discovering new conversations. Interns are encouraged to propose extensions to this like wall, where a user can post threads that show up in their follower's feed, status updates, etc. Automated tests should be written to cover the added functionality.
 - **Desirable Skills:**  Familiarity with JavaScript development & Rocket.Chat code base
 
-### Rocket.chat Articles
+### Rocket.Chat Articles
 
 - **Mentors:** @bizzbyster, @karan.bedi
-- **Description:** For every deployment of Rocket.chat, there is a team or community that generates a lot of content. Rocket.chat itself is the repository for much of that content but the rest typically resides in other applications such as github or jira or google docs, many of which are third party services and so the content is not owned by the community that hosts the Rocket.chat server. In one particular scenario, a user may want to write an article and "publish" it to groups or contacts within Rocket.chat. Today that would have to be done typically using a third party service. What if instead article creation, searching, and storage were integrated with Rocket.chat such that each user could maintain his or her own library of articles and contacts of that user could subscribe to see new articles posted by that user and to discuss those articles using something like Rocket.chat Threads. By default, each Rocket.chat user would essentially hav their own "blog" which could be accessed via a permalink including links to each "article." In general, the purpose of this project is to develop a minimum integration with another open source publishing platform (such as <https://github.com/TryGhost/Ghost>) that allows users (or bots or service accounts) to write and publish articles that get stored on a location configured by the Rocket.chat administrator so that the community maintains ownership of more of the content it generates.
+- **Description:** For every deployment of Rocket.Chat, there is a team or community that generates a lot of content. Rocket.Chat itself is the repository for much of that content but the rest typically resides in other applications such as github or jira or google docs, many of which are third-party services and so the content is not owned by the community that hosts the Rocket.Chat server. In one particular scenario, a user may want to write an article and "publish" it to groups or contacts within Rocket.Chat. Today that would have to be done typically using a third-party service. What if instead article creation, searching, and storage were integrated with Rocket.Chat such that each user could maintain his or her own library of articles and contacts of that user could subscribe to see new articles posted by that user and to discuss those articles using something like Rocket.Chat Threads. By default, each Rocket.Chat user would essentially have their own "blog" which could be accessed via a permalink including links to each "article." In general, the purpose of this project is to develop a minimum integration with another open source publishing platform (such as <https://github.com/TryGhost/Ghost>) that allows users (or bots or service accounts) to write and publish articles that get stored on a location configured by the Rocket.Chat administrator so that the community maintains ownership of more of the content it generates.
 - **Desirable Skills:**  Familiarity with JavaScript development & Rocket.Chat code base & interest in exploring integrations with publishing open source projects.
 
 ### Improved Test Automation in Rocket.Chat Repos
 
 - **Mentors** @TBD
-- **Description:** The goal of this project is to enhance the current test infrastructure in the RocketChat repos and pipelines.  Currently, there is some very minimal unit testing that needs to be expanded, and no integration or system level tests or infrastructure to support them.  This project could focus on one of the repos, possibly the Android code base, or all.  Once a test infrastructure and best practice is established, the goal is that no new code gets merged unless it has new tests that will be run at build time, and it passes all of the previous tests.
+- **Description:** The goal of this project is to enhance the current test infrastructure in the RocketChat repos and pipelines.  Currently, there is some very minimal unit testing that needs to be expanded, and no integration or system level tests or infrastructure to support them.  This project could focus on one of the repos, possibly the Android code base, or all.  Once a test infrastructure and best practice are established, the goal is that no new code gets merged unless it has new tests that will be run at build time, and it passes all of the previous tests.
 
-### iOS Voice Over Accessibility
+### iOS VoiceOver Accessibility
 
 - **Mentors:** @bruno.quadros
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.iOS>
 - **Description:** VoiceOver is a gesture-based screen reader that lets you enjoy using iPhone even if you don’t see the screen. This is especially important for those with low or no vision. We want to make Rocket.Chat for everyone. A blind user should be able to easily add servers, change servers, read messages and send messages, as well as other additional functions such as editing profile and creating channels. A minimum acceptable scope is to be determined.
-- **Desirable Skills:** We are looking for an undergraduate student who is familiar with team work, developing iOS Apps using UIKit and Swift, as well as writing maintainable code with Unit Tests and having some familiarity with Voice Over and Accessibility.
+- **Desirable Skills:** We are looking for an undergraduate student who is familiar with teamwork, developing iOS Apps using UIKit and Swift, as well as writing maintainable code with Unit Tests and having some familiarity with VoiceOver and Accessibility.
 
 ### Ability to Rebrand Android and iOS Apps
 
@@ -133,7 +133,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 ### Data Doctor: A database sanitizer tool for Rocket.Chat
 
 - **Mentors:** @diego.sampaio,  @sing.li
-- **Description:**  Rocket.Chat's data backend is MongoDB, a NoSQL database. NoSQL databases enable application developers to quickly add and change data schemas for new features without imposing rigid integrity constraints.   While effective for small projects,  this can create varied data inconsistency in long-lasting production server projects such as Rocket.Chat.   Causes such as buggy code versions, crashes during migrations and/or schema updates, core customizations, and inadvertent DB admin modifications can all lead to a non-deterministic data schema. Some corrupted schema may break code, while others can go years without being detected.  The goal of this project is to create a tool to help sanitize in production Rocket.Chat databases.  Depending on the ingenuity of the tool design, the same code can one day be integrated into Rocket.Chat as a data integrity layer.
+- **Description:**  Rocket.Chat's data backend is MongoDB, a NoSQL database. NoSQL databases enable application developers to quickly add and change data schemas for new features without imposing rigid integrity constraints.   While effective for small projects,  this can create varied data inconsistency in long-lasting production server projects such as Rocket.Chat.   Causes such as buggy code versions, crashes during migrations and/or schema updates, core customizations, and inadvertent DB admin modifications can all lead to a non-deterministic data schema. Some corrupted schema may break the code, while others can go years without being detected.  The goal of this project is to create a tool to help sanitize in production Rocket.Chat databases.  Depending on the ingenuity of the tool design, the same code can one day be integrated into Rocket.Chat as a data integrity layer.
 - **Desirable Skills:**  Familiarity with database concepts and administration.  Fluent with NodeJS and Javascript. Love hacking.
 
 ### Asana Rocket.Chat App
@@ -185,13 +185,13 @@ The leaderboard project **itself** is open source, created and maintained by our
 ### BOTs UX: Improve the User Experience with bots by adding support for persistent menus, webviews, and rich messaging features
 
 - **Mentors**: @bizzbyster
-- **Description**: Rocket.chat trails both team and consumer chat platforms like Slack and Facebook Messenger/WeChat in terms of the richness of user interface components supported by bots. The goal of this project would be to add rich messages, persistent menus, welcome pages, webviews and other components to the Android, iOS, and web clients to allow chatbots to become comparable to web apps in terms of usability and UX.
-- **Desirable Skills**: Interest UI/UX and chatbots. Experience in iOS, Android, or web client front ends development.  Excited to participate in the full life cycle development process in an open source community context.
+- **Description**: Rocket.Chat trails both team and consumer chat platforms like Slack and Facebook Messenger/WeChat in terms of the richness of user interface components supported by bots. The goal of this project would be to add rich messages, persistent menus, welcome pages, webviews and other components to the Android, iOS, and web clients to allow chatbots to become comparable to web apps in terms of usability and UX.
+- **Desirable Skills**: Interest UI/UX and chatbots. Experience in iOS, Android, or web client front end development.  Excited to participate in the full life cycle development process in an open source community context.
 
 ### Integration of Rocket.Chat with Existing Phone/Voice Networks
 
 - **Mentors**: TBD
-- **Description**: Deep VoIP integration of Rocket.Chat with modern software and hardware SIP switches and VoIP SaaS. Intelligently add access to phone networks and SMS channels to the Rocket.Chat workflow.  Enable multi-channel conferences with chat + phone calls + video.  Empower Live chat with voice calls in workflow.
+- **Description**: Deep VoIP integration of Rocket.Chat with modern software and hardware SIP switches and VoIP SaaS. Intelligently add access to phone networks and SMS channels to the Rocket.Chat workflow.  Enable multi-channel conferences with chat + phone calls + video.  Empower Live chat with voice calls in the workflow.
 - **Desirable Skills**: Familiar with SIP development. Fluent in VoIP concepts and practices. Ability to rapidly code in JavaScript and Linux shell.  Wide open mind for new ideas.
 
 ### Open Source Office Suite Integration
