@@ -3,6 +3,7 @@
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
 | `/api/v1/groups.addAll` | Adds all of the users on the server to a private group. | [Link](addall/) |
+| `/api/v1/groups.addLeader` | Gives the role of Leader for a user in the current group. | [Link](addleader/) |
 | `/api/v1/groups.addModerator` | Gives the role of moderator to a user in a group. | [Link](addmoderator/) |
 | `/api/v1/groups.addOwner` | Gives the role of owner to a user in a group. | [Link](addowner/) |
 | `/api/v1/groups.archive` | Archives a private group. | [Link](archive/) |
@@ -23,6 +24,7 @@
 | `/api/v1/groups.members`  | Gets the users of participants of a private group. | [Link](members/) |
 | `/api/v1/groups.messages`  | Retrieves all group messages.  | [Link](messages/)  |
 | `/api/v1/groups.open` | Adds the private group back to the list of groups. | [Link](open/) |
+| `/api/v1/groups.removeLeader` | Removes the role of Leader for a user in the current group. | [Link](removeleader/) |
 | `/api/v1/groups.removeModerator` | Removes the role of moderator from a user in a group. | [Link](removemoderator/) |
 | `/api/v1/groups.removeOwner` | Removes the role of owner from a user in a group. | [Link](removeowner/) |
 | `/api/v1/groups.rename` | Changes the name of the private group. | [Link](rename/) |
