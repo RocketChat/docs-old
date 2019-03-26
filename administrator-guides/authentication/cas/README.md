@@ -35,4 +35,4 @@ The **CAS Version** must be matched to the *CAS Server* provider. Most modern pr
 # Notes
 
 1. CAS by ja-sig requires ssl/tls for all connections.
-2. Any Drupal 7 or 8 site can serve as a compatible CAS Server. See (drupal.org/project/cas)[https://www.drupal.org/project/cas].
+2. Any Drupal 7 or 8 site can serve as a compatible CAS Server. See [drupal.org/project/cas](https://www.drupal.org/project/cas).
