@@ -1,5 +1,7 @@
 # Using Bots
 
+test
+
 ![Rocket.Chat Bots Banner](./banner.png){:style="width='100%' height='auto'"}
 
 Rocket.Chat supports chatbot and messaging automation integrations, enabling
