@@ -13,8 +13,7 @@ just comment on it and we will add an [In Progress label][progress_label].
 
 This Should work now
 
-If you already have a work in progress pull request open for that issue you can simply link that issue on your pull request or 
-write `Closes #ISSUE_NUMBER` where the `ISSUE_NUMBER` is the number in the end of the link url.
+If you already have a work in progress pull request open for that issue you can simply link that issue on your pull request or write `Closes #ISSUE_NUMBER` where the `ISSUE_NUMBER` is the number in the end of the link url.
 
 **Where to Find Tasks:**
 
