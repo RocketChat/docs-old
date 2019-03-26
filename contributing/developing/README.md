@@ -6,12 +6,15 @@ we strongly suggest reading GitHub's excellent guide
 ["Contributing to Open Source"][contributing].
 
 ## Getting Started
-
 You can find our projects [here](https://github.com/RocketChat).
 Go to the Issues tab and when you find something you would like to work on
 just comment on it and we will add an [In Progress label][progress_label].
 
-If you already have a work in progress pull request open for that issue you can simply link that issue on your pull request or write `Closes #ISSUE_NUMBER` where the `ISSUE_NUMBER` is the number in the end of the link url.
+#CRASH THAT LINTER
+
+If you already have a work in progress pull request open for that issue you can simply link that issue on your pull request or 
+* I Like Rockets
+write `Closes #ISSUE_NUMBER` where the `ISSUE_NUMBER` is the number in the end of the link url.
 
 **Where to Find Tasks:**
 
@@ -22,7 +25,7 @@ Check our [developer guides](../../developer-guides/)
 for more detailed information about pull requests, workflow and API docs.
 
 ## Priority Features and/or Bug fixes
-
+this should not be allowed
 If you want a feature or bug fix to be developed with a higher priority:
 
 - [Contact us directly](https://rocket.chat/contact) to sponsor it's development
