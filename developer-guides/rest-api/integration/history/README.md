@@ -1,6 +1,7 @@
 # Integrations History
 
-Lists all history of the specified integration. Requires the permission `manage-integrations`. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/) along with [Query and Fields Query Parameters](../../query-and-fields-info/).
+Lists all history of the specified integration. Requires the permission `manage-outgoing-integrations` or `manage-own-outgoing-integrations`.
+It will return the integrations based on user permission. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/) along with [Query and Fields Query Parameters](../../query-and-fields-info/).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -31,4 +32,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
+| 1.1.0 | Separate permissions in `incoming` and `outgoing`. |
 | 0.53.0 | Added |
