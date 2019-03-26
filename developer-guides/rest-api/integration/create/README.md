@@ -1,6 +1,6 @@
 # Create Integration
 
-Creates an integration, if the callee has the permissions. Requires `manage-incoming-integrations` or `manage-own-incoming-integrations` permissions to be able to create incoming integrations and `manage-outgoing-integrations` or `manage-own-outgoing-integrations` to be able to create outgoing integrations.
+Creates an integration, if the callee has the permissions. Requires `manage-incoming-integrations` AND `manage-own-incoming-integrations` permissions to be able to create incoming integrations and `manage-outgoing-integrations` AND `manage-own-outgoing-integrations` to be able to create outgoing integrations.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
