@@ -23,6 +23,8 @@ The class should have a method called **process_incoming_request**, this method 
 
 The **process_incoming_request** method should return an object with a property **content** containing a valid Rocket.Chat message or an object with a property **error** that will be returned as the response of the request in JSON format and status code **400**.
 
+A valid Rocket.Chat message can contain a **text** field which will be the body of the message. If you want to redirect the message to a different channel to the one indicated by the webhook token, you can specify a **channel** field which accepts a room id or, if prefixed with a "#" or "@", a channel name or a user.
+
 To help debug your script, you can use the **console** methods to log information.  More information about console can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/Console/log). To view the logs go to Administration -> View Logs.
 
 ```javascript
@@ -175,6 +177,7 @@ class Script {
               '  pr ls [open|closed|all]  List Pull Requests',
             '```'
           ].join('\n')
+          // "channel": "#name-of-channel",
           // "attachments": [{
           //   "color": "#FF0000",
           //   "author_name": "Rocket.Cat",

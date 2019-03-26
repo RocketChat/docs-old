@@ -6,6 +6,8 @@ Our native mobile applications have a maximum of 3 major servers versions being 
 
 | iOS Version | Supported releases |
 |:-----------:|:------------------:|
+|    3.3.1    |        0.62+       |
+|    3.3.0    |        0.62+       |
 |    3.2.0    |        0.62+       |
 |    3.1.1    |        0.62+       |
 |    3.1.0    |        0.62+       |
@@ -23,6 +25,7 @@ Our native mobile applications have a maximum of 3 major servers versions being 
 
 | Android Version | Supported releases |
 |:-----------:|:------------------:|
+|    3.3.0    |        0.62+       |
 |    3.2.0    |        0.62+       |
 |    3.1.1    |        0.62+       |
 |    3.1.0    |        0.62+       |
