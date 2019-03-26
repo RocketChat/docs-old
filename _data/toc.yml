@@ -24,7 +24,7 @@
   - Rocket.Chat Cloud
   - PaaS Deployments:
     - Aliyun
-    - AWS
+    - AWS:
       - EKS
     - Cloudron.io
     - Digital Ocean
@@ -306,6 +306,7 @@
         - unPinMessage
         - unStarMessage
         - update
+        - ignoreUser
       - Commands:
         - get
         - list

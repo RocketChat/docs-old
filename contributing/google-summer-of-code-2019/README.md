@@ -11,11 +11,13 @@ redirect_from:
 
 ## How to apply
 
-GSoC 2019 students application opens March 25th, 2019.  See [GSoC timeline](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#timeline) for more details.
+Student application has opened.  Plese go to [Official GSoC application site](https://summerofcode.withgoogle.com/) to register and apply.   Dealine for application and final proposal is April 9, 2019.   Please see [GSoC timeline](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#timeline) for more details.
 
-Start planning your proposal now! Check out our [list of ideas](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#project-ideas) for some inspiration.
+Strudents are encouraged to submit their draft proposals as early as possible.  You may work with your mentors and fellow students to improve the draft proposal until submission deadline of April 9, 2019.
 
-Meet the mentors and students for GSoC 2019 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
+For ideas, check out our [list of ideas](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#project-ideas) for some inspiration.
+
+Come meet our global community of 200+ mentors and students for GSoC 2019 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
 
 <https://open.rocket.chat/channel/gsoc2019>
 
@@ -31,7 +33,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 <https://github.com/RocketChat/Rocket.Chat>
 
-Enthusiasm and interest are extremely high this year; candidate students have already started to interact with our community and contributing to the projects!   We are maintaining a real-time updated leaderboard for at-a-glance student (candidates) contribution here:
+Enthusiasm and interest are extremely high this year; over 100 candidate students have already started to interact with our community and contributing to the projects!  Together, they have already contributed over 100 merged PRs to our various projects.  We are maintaining a real-time updated leaderboard for at-a-glance student (candidates) contribution here:
 
 <https://gsoc.rocket.chat/>
 
@@ -85,13 +87,13 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 - **Mentors**: @martin.schoeler
 - **Project repository**: <https://github.com/RocketChat/docs>
-- **Description**: Create an easy-to-use interface to let the user explore, test and get info about the existing endpoints of the Rocket.Chat's APIs. The user will be able to connect and make requests directly from the UI, also being able to change the arguments of the requests and testing different flows of the APIs.
+- **Description**: Create an easy-to-use interface to let the user explore, test and get info about the existing endpoints of the Rocket.Chat's APIs. The user will be able to connect and make requests directly from the UI, also being able to change the arguments of the requests and testing different flows of the APIs. This interface will require that the docs are consistent with the code, and follows  specific patterns. Generating the API docs from the source code is an essential part of this project.
 - **Desirable Skills**: Familiarity with Jekyll and Rocket.Chat Rest API.
 
 ### SNAP improvements
 
-- **Mentors**: TBD
-- **Description**: The most popular Rocket.Chat deployment method in the world is via snaps.  Snaps are containerized software packages that are simple to create and install. The aim of this project is to improve our snap installation process and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for load balancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replica set and possible firewall configuration. Improvements in our ARM architecture support is also desirable.
+- **Mentors**: @lucia.guevgeozian
+- **Description**: The most popular Rocket.Chat deployment method in the world is via snaps. Snaps are containerised software packages that are simple to create and install. The aim of this project is improve our snap installation process and features, bringing better support for our ARM architecture deployment, and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for loadbalancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replicaset and possible firewall configuration.
 - **Desirable Skills:**  Familiarity with Linux. Good shell scripting skills. Aware of DevOps and containers based deployment technology.
 
 ### Service Accounts in Rocket.Chat
@@ -116,13 +118,6 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 - **Mentors** @TBD
 - **Description:** The goal of this project is to enhance the current test infrastructure in the RocketChat repos and pipelines.  Currently, there is some very minimal unit testing that needs to be expanded, and no integration or system level tests or infrastructure to support them.  This project could focus on one of the repos, possibly the Android code base, or all.  Once a test infrastructure and best practice is established, the goal is that no new code gets merged unless it has new tests that will be run at build time, and it passes all of the previous tests.
-
-### Custom Notifications in Android
-
-- **Mentors:** @TBD
-- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Android>
-- **Description:** The web client currently has the flexibility of customizing the notifications per channel, but the Android client lacks this feature. This project aims to bring this feature into the Android client. Users would be able to mute specific channels and configure if they want to receive notifications when they are mentioned or for every notification, etc. Snooze functionality can also be implemented as an extension of this project.
-- **Desirable Skills:**  Familiarity with Android development, specifically the Rocket.Chat.Android code base.
 
 ### iOS Voice Over Accessibility
 
