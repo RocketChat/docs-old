@@ -1,4 +1,4 @@
-FROM rocketchat/rubylint
+FROM singli/rubylint
 
 LABEL "com.github.actions.name"="Lint markdown and check Jekyll files"
 LABEL "com.github.actions.description"="Lint markdown and check jekyill files integrity recursively - via ruby gems"
