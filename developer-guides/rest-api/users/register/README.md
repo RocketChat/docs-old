@@ -19,10 +19,7 @@
 ```bash
 curl -H "Content-type:application/json" \
      http://localhost:3000/api/v1/users.register \
-     -d '{ "username": "rogersmith" }' \
-     -d '{ "email": "roger@example.com" }' \
-     -d '{ "pass": "passw0rd" }' \
-     -d '{ "name": "Roger Smith" }'
+     -d '{ "username": "rogersmith", "email": "roger@example.com", "pass": "passw0rd", "name": "Roger Smith"}'
 ```
 
 ## Example Result

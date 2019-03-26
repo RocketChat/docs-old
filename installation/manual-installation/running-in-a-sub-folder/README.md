@@ -33,6 +33,7 @@ In our example we used the `/chat` as subfolder (it's parsed out of the ROOT_URL
 - The ProxyPassReverse can be used inside a Location-tag and the first parameter must be omitted in this case.
 - You don't need to configure a Location for the root folder `/` when using Rocket.Chat in a subfolder (it's likely configured for other stuff already in this case).
 - For the those curious about the details: the mentioned path-handling is in `webapp.js`, search for `Unknown path`.
+- Please make sure that the modules `rewrite`, `proxy_http` and `proxy_wstunnel` are enabled in the apache configuration. Otherwise the websocket calls will return a 500 http response.
 
 ## Running the application
 

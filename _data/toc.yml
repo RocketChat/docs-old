@@ -11,17 +11,21 @@
     - Community Maintainers
   - Google Summer of Code 2017
   - Google Summer of Code 2018
+  - Google Summer of Code 2019
   - Promoting
   - Reporting Issues
   - Security:
     - Responsible Disclosure Policy
   - Translating
+  - Website:
+    - Webinars
 - Getting Support
 - Installation:
   - Rocket.Chat Cloud
   - PaaS Deployments:
     - Aliyun
-    - AWS
+    - AWS:
+      - EKS
     - Cloudron.io
     - Digital Ocean
     - DPlatform
@@ -40,6 +44,7 @@
     - Sloppy.io
     - WeDeploy
     - D2C.io
+    - Syncloud.org
   - Docker containers:
     - Generic Linux
     - systemd
@@ -57,6 +62,7 @@
         - AutoSSL
     - Mongo Options
     - Mongo Versions
+    - Mongo Replicas
     - Configuring SSL Reverse Proxy
     - PM2, Systemd, Upstart
     - Running in a sub folder
@@ -78,10 +84,12 @@
   - Connecting to a Server
   - Registration
   - Login
+  - Talking to users from another server
   - Channels
   - Messaging
   - Channel Actions
   - Managing your Account
+  - End to End Encryption
   - Voice and Video Conferencing
 - Administrator guides:
   - Account Settings
@@ -98,6 +106,7 @@
     - Editing Emails Content
     - Mailer
     - Direct Reply
+  - Federation
   - File Upload:
     - Amazon S3
     - Google Cloud Storage
@@ -124,12 +133,13 @@
     - Guggy
     - Jenkins
     - Jira
+    - MicroBadger
+    - NextCloud and WebDAV
     - NewRelic
     - nixstats
     - Osticket
     - PagerDuty
     - Prometheus
-    - ReplyGif
     - ReviewBoard
     - RunDeck
     - Sentry
@@ -139,7 +149,7 @@
     - Uptime Robot
   - Google Cloud:
     - Auto Translate
-  - Google Drive
+  # - Google Drive
   - Setting Up Video Conferencing
   - Livechat:
     - Livechat Queues
@@ -147,6 +157,7 @@
   - Notifications:
     - Push Notifications
   - Permissions
+  - Custom Fields
   - Plug-ins:
     - Drupal
     - Pidgin
@@ -170,8 +181,16 @@
     - Internationalization
     - Livechat API
     - Mobile Apps:
+      - Analytics & Data Usage
       - Supporting SSL
       - Supported Servers Versions
+    - Developing Apps:
+      - Getting Started
+    - GraphQL API:
+       - Authentication
+       - Schema
+       - Setup
+       - Subscription
     - Realtime-API:
       - Method Calls:
         - Login
@@ -219,6 +238,7 @@
         - registerGuest
         - sendMessageLivechat
         - sendOfflineMessage
+        - streamlivechatroom
     - Rest API:
       - Assets:
         - setAsset
@@ -232,28 +252,36 @@
         - twitter
       - Channels:
         - addAll
+        - AddLeader
         - addModerator
         - addOwner
         - archive
         - close
         - counters
         - create
+        - delete
         - files
         - getAllUserMentionsByChannel
         - getIntegrations
         - history
         - info
         - invite
+        - join
         - kick
         - leave
         - list.joined
         - list
         - members
+        - messages
+        - moderators
+        - online
         - open
+        - removeLeader
         - removeModerator
         - removeOwner
         - rename
         - roles
+        - setAnnouncement
         - setCustomFields
         - setDefault
         - setDescription
@@ -265,6 +293,7 @@
         - unarchive
       - Chat:
         - delete
+        - getDeletedMessages
         - getMessage
         - getMessageReadReceipts
         - pinMessage
@@ -277,18 +306,23 @@
         - unPinMessage
         - unStarMessage
         - update
+        - ignoreUser
       - Commands:
         - get
         - list
         - run
+      - Emoji Custom:
+        - get
       - Groups:
         - addAll
+        - addLeader
         - addModerator
         - addOwner
         - archive
         - close
         - counters
         - create
+        - delete
         - files
         - getIntegrations
         - history
@@ -298,11 +332,16 @@
         - leave
         - list
         - listAll
+        - members
+        - messages
+        - moderators
         - open
+        - removeLeader
         - removeModerator
         - removeOwner
         - rename
         - roles
+        - setAnnouncement
         - setCustomFields
         - setDescription
         - setPurpose
@@ -319,30 +358,49 @@
         - list.everyone
         - list
         - members
+        - messages
         - messages.others
         - open
         - setTopic
       - Integration:
         - create
+        - history
         - list
         - remove
       - Livechat:
+        - agent
+        - config
+        - custom-fields
         - department
+        - message
+        - room
         - sms-incoming
         - users
+        - video-call
+        - visitor
       - Miscellaneous:
         - directory
         - info
+        - shield.svg
         - spotlight
         - statistics
         - statistics.list
       - Permissions:
         - list
         - update
+      - Roles:
+        - create
+        - list
+        - addUserToRole
+      - Push:
+        - push.token
+        - deletePushToken
       - Rooms:
         - cleanHistory
         - favorite
         - get
+        - info
+        - leave
         - saveNotification
         - upload
       - Settings:
@@ -377,9 +435,13 @@
         - resetAvatar
         - setAvatar
         - set-preferences
+        - setActiveStatus
         - update
         - updateOwnBasicInfo
+      - Video Conference:
+        - jitsi-update-timeout
       - Offset and Count and Sort Info
+      - Rate Limiter
       - Query and Fields Info
       - Personal Access Tokens
     - Schema Definition
@@ -394,6 +456,7 @@
   - Bots Architecture
   - Creating Bot Users
   - Configure Bot Environment
+  - Running a bBot Bot
   - Running a Hubot Bot
   - Running a Botkit Bot
   - Running a Rasa Bot

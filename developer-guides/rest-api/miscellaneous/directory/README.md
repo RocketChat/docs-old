@@ -5,16 +5,23 @@ It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-coun
 along with [Query and Fields Query Parameters](../../query-and-fields-info/).
 
 | URL | Requires Auth | HTTP Method |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- |
 | `/api/v1/directory` | `yes` | `GET` |
+
+## Payload
+
+| Argument | Example | Required | Description |
+| :--- | :--- | :--- | :--- |
+| `query` | `{"text": "rocket", "type": "users", "workspace": "local"}` | Required | When `type` is `users` you can send an additional `workspace` field, that can be `local` (default) or `all`. `workspace=all` will work only if [Federation](../../../../administrator-guides/federation) is enabled. |
 
 ## Example Call
 
 ```bash
-curl -H "X-Auth-Token: ijFlJ1yfidXhwEYY284Anoq_iEsOeMMVCupzNhX22tB" \
+curl -G -H "X-Auth-Token: ijFlJ1yfidXhwEYY284Anoq_iEsOeMMVCupzNhX22tB" \
           -H "X-User-Id: hw5DThnhQmxDWnavu" \
           -H "Content-type: application/json" \
-          http://localhost:3000/api/v1/directory?query={"text": "rocket", "type": "users"}
+          http://localhost:3000/api/v1/directory \
+          --data-urlencode 'query={"text": "rocket", "type": "users", "workspace": "local"}'
 ```
 
 ## Example Result
@@ -77,5 +84,6 @@ curl -H "X-Auth-Token: ijFlJ1yfidXhwEYY284Anoq_iEsOeMMVCupzNhX22tB" \
 
 | Version | Description |
 | :--- | :--- |
+| 1.0.0 | Added `workspace` query param |
 | 0.65.0 | Added Pagination fields: `count`, `total`, `offset` |
 | 0.64.0 | Added |
