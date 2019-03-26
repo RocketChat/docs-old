@@ -11,11 +11,13 @@ redirect_from:
 
 ## How to apply
 
-GSoC 2019 students application opens March 25th, 2019.  See [GSoC timeline](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#timeline) for more details.
+Student application has opened.  Plese go to [Official GSoC application site](https://summerofcode.withgoogle.com/) to register and apply.   Dealine for application and final proposal is April 9, 2019.   Please see [GSoC timeline](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#timeline) for more details.
 
-Start planning your proposal now! Check out our [list of ideas](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#project-ideas) for some inspiration.
+Strudents are encouraged to submit their draft proposals as early as possible.  You may work with your mentors and fellow students to improve the draft proposal until submission deadline of April 9, 2019.
 
-Meet the mentors and students for GSoC 2019 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
+For ideas, check out our [list of ideas](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#project-ideas) for some inspiration.
+
+Come meet our global community of 200+ mentors and students for GSoC 2019 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
 
 <https://open.rocket.chat/channel/gsoc2019>
 
@@ -31,7 +33,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 <https://github.com/RocketChat/Rocket.Chat>
 
-Enthusiasm and interest are extremely high this year; candidate students have already started to interact with our community and contributing to the projects!   We are maintaining a real-time updated leaderboard for at-a-glance student (candidates) contribution here:
+Enthusiasm and interest are extremely high this year; over 100 candidate students have already started to interact with our community and contributing to the projects!  Together, they have already contributed over 100 merged PRs to our various projects.  We are maintaining a real-time updated leaderboard for at-a-glance student (candidates) contribution here:
 
 <https://gsoc.rocket.chat/>
 
