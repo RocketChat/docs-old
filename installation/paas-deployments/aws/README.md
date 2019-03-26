@@ -161,10 +161,9 @@ return 301 https://$host$request_uri;
 3. Add ubuntu user to docker group to use Docker as a non-root user.
     `sudo usermod -aG docker ubuntu`
 4. Install Docker Compose:
-    `sudo -i`
-    `curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-compose-Linux-x86_64 > /usr/local/bin/docker-compose`
-    `chmod +x /usr/local/bin/docker-compose`
-    `exit`
+    ```sudo -i curl -L https://github.com/docker/compose/releases/download/1.24.0-rc3/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose```
+    ```chmod +x /usr/local/bin/docker-compose```
+    ```exit```
 5. Logout, and log back in again.
     `exit`
 6. SSH to your instance again following the directions above
