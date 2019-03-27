@@ -3,10 +3,11 @@
 ## Installation
 
 You can install our Bamboo Integration Rocket.Chat App from your Rocket.Chat Administration area.
-* Go to **Administration** > **Apps**
-* Search for the **Bamboo Integration** and click on the item
-* Click on the **Install** button
-* Click on **Activate**
+
+- Go to **Administration** > **Apps**
+- Search for the **Bamboo Integration** and click on the item
+- Click on the **Install** button
+- Click on **Activate**
 
 Now that you have the app installed in your server, it is time to configure the integration with your Bamboo instance.
 
@@ -22,14 +23,15 @@ Go to any channel or private group and execute the slashcommand `/bamboo install
 
 After that, your Rocket.Chat will start receiving the configured notifications.
 
->**Note**: Not all Build/Deployment events are supported by the Bamboo Integration at the time of this writing. Unsupported events will not result in any notification sent in Rocket.Chat. The list of supported events is as follows:
-* Plans:
-  * All Builds Completed
-  * Failed Builds and First Successful
-* Jobs:
-  * All Jobs Completed
-  * Failed Jobs and First Successful
-  * Job Error
-* Deployments:
-  * Deployment Started and Finished
-  * Deployment Failed
+**Note**: Not all Build/Deployment events are supported by the Bamboo Integration at the time of this writing. Unsupported events will not result in any notification sent in Rocket.Chat. The list of supported events is as follows:
+
+- Plans:
+  - All Builds Completed
+  - Failed Builds and First Successful
+- Jobs:
+  - All Jobs Completed
+  - Failed Jobs and First Successful
+  - Job Error
+- Deployments:
+  - Deployment Started and Finished
+  - Deployment Failed
