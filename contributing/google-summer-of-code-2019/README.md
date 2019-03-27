@@ -142,6 +142,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 - **Mentors**: @douglas.gubert, @rodrigok
 - **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Asana, using Slashcommands, custom API endpoints, custom Settings, etc.
+
 ### Admin webview page integration on React Native app (Rocket.Chat Experimental)
 
 - **Mentors**: @diegolmello
