@@ -27,7 +27,6 @@ Now go to your Bitbucket repository and [create a new Webhook](https://confluenc
 
 ![Example of Webhook creation](./image2.png)
 
-
 After that Bitbucket will send notifications on some events to the connected channel or private room.
 
 > **Note**: Only some of the available events are interpreted by the Rocket.Chat App. Those are **Repository Push, Pull Request Opened, Approved, Merged** and **Declined**. Any webhook sent to Rocket.Chat from other events will not result in any kind of notification being sent.
