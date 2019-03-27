@@ -59,8 +59,8 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Google Calendar Rocket.Chat App
 
-- **Mentors**: @d-gubert, @rodrigok
-- **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Google Calendar, using Slash commands, custom API endpoints, custom Settings, etc.
+- **Mentors**: @douglas.gubert, @rodrigok
+- **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Google Calendar, using Slashcommands, custom API endpoints, custom Settings, etc.
 - **Desirable Skills**: Familiarity with TypeScript.
 
 ### Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)
@@ -140,9 +140,8 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Asana Rocket.Chat App
 
-- **Mentors**: @d-gubert, @rodrigok
-- **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Asana, using Slash commands, custom API endpoints, custom Settings, etc.
-
+- **Mentors**: @douglas.gubert, @rodrigok
+- **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Asana, using Slashcommands, custom API endpoints, custom Settings, etc.
 ### Admin webview page integration on React Native app (Rocket.Chat Experimental)
 
 - **Mentors**: @diegolmello
@@ -172,7 +171,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Allow Rocket.Chat Apps to use their own NPM modules
 
-- **Mentors**: @d-gubert, @rodrigok
+- **Mentors**: @douglas.gubert, @rodrigok
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Apps-engine>
 - **Description**: Currently the Rocket.Chat Apps Engine does not support that apps include their own `node_modules` dependencies, which can be very limiting in some use cases. The goal of this project is to modify our engine so that it can properly install and manage an app's dependencies, enabling app developers to unleash their full potential.
 - **Desirable Skills**: Solid understanding of JavaScript and some familiarity with TypeScript. Familiarity with TypeScript's compiler is definitely a plus.
