@@ -26,12 +26,12 @@ After that, your Rocket.Chat will start receiving the configured notifications.
 **Note**: Not all Build/Deployment events are supported by the Bamboo Integration at the time of this writing. Unsupported events will not result in any notification sent in Rocket.Chat. The list of supported events is as follows:
 
 - Plans:
-  - All Builds Completed
-  - Failed Builds and First Successful
+    - All Builds Completed
+    - Failed Builds and First Successful
 - Jobs:
-  - All Jobs Completed
-  - Failed Jobs and First Successful
-  - Job Error
+    - All Jobs Completed
+    - Failed Jobs and First Successful
+    - Job Error
 - Deployments:
-  - Deployment Started and Finished
-  - Deployment Failed
+    - Deployment Started and Finished
+    - Deployment Failed
