@@ -116,7 +116,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Improved Test Automation in Rocket.Chat Repos
 
-- **Mentors** @TBD
+- **Mentors** @jaytat, @eric.rosenthal
 - **Description:** The goal of this project is to enhance the current test infrastructure in the RocketChat repos and pipelines.  Currently, there is some very minimal unit testing that needs to be expanded, and no integration or system level tests or infrastructure to support them.  This project could focus on one of the repos, possibly the Android code base, or all.  Once a test infrastructure and best practice is established, the goal is that no new code gets merged unless it has new tests that will be run at build time, and it passes all of the previous tests.
 
 ### iOS Voice Over Accessibility
@@ -128,7 +128,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Ability to Rebrand Android and iOS Apps
 
-- **Mentors:** @TBD
+- **Mentors:** @jaytat, @bizzbyster
 - **Description:** Implement a way for administrators to rebrand their instances of rocketchat - product name, icons, colors, etc. - for the android and ios apps, which currently do not support this. Besides adding this capability, another goal would be to make this branding across all the OS’s easy for an administrator that may not be too tech savvy. Ideally, this would only be a few easy steps. Besides this ease-of-use improvement, this would also make it less likely that people will fork rocket to put in their own branding.
 - **Desirable Skills:**  Familiarity with Android and/or iOS development, specifically the Rocket.Chat.Android/Rocket.Chat.iOS code bases.
 
@@ -186,7 +186,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### BOTs UX: Improve the User Experience with bots by adding support for persistent menus, webviews, and rich messaging features
 
-- **Mentors**: @bizzbyster
+- **Mentors**: @bizzbyster, @eric.rosenthal
 - **Description**: Rocket.chat trails both team and consumer chat platforms like Slack and Facebook Messenger/WeChat in terms of the richness of user interface components supported by bots. The goal of this project would be to add rich messages, persistent menus, welcome pages, webviews and other components to the Android, iOS, and web clients to allow chatbots to become comparable to web apps in terms of usability and UX.
 - **Desirable Skills**: Interest UI/UX and chatbots. Experience in iOS, Android, or web client front ends development.  Excited to participate in the full life cycle development process in an open source community context.
 
@@ -215,7 +215,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### iOS contacts sync, invites & dynamic links
 
-- **Mentors**: @TBD
+- **Mentors**: @bizzbyster, @eric.rosenthal
 - **Description**: In the Rocket.Chat native iOS application, add the functionality of listing all the contacts of a user, syncing in background these contacts with the server using existing APIs and displaying the intersection with public accounts on server. Integrating the APIs to invite users that do not have an account (via email/phone) or inviting via other applications on the phone. Support dynamic links in iOS app, allow the creation of links such that when invited through one, after installation of the app it opens a DM with the inviter, etc. `These functionalities are already implemented for Android in a fork.`
 - **Desirable Skills**: Familiarity with iOS development.
 
