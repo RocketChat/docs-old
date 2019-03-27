@@ -116,7 +116,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Improved Test Automation in Rocket.Chat Repos
 
-- **Mentors** @jaytat, @eric.rosenthal
+- **Mentors** @jaytat0, @eric.rosenthal
 - **Description:** The goal of this project is to enhance the current test infrastructure in the RocketChat repos and pipelines.  Currently, there is some very minimal unit testing that needs to be expanded, and no integration or system level tests or infrastructure to support them.  This project could focus on one of the repos, possibly the Android code base, or all.  Once a test infrastructure and best practice is established, the goal is that no new code gets merged unless it has new tests that will be run at build time, and it passes all of the previous tests.
 
 ### iOS Voice Over Accessibility
@@ -128,7 +128,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Ability to Rebrand Android and iOS Apps
 
-- **Mentors:** @jaytat, @bizzbyster
+- **Mentors:** @jaytat0, @bizzbyster
 - **Description:** Implement a way for administrators to rebrand their instances of rocketchat - product name, icons, colors, etc. - for the android and ios apps, which currently do not support this. Besides adding this capability, another goal would be to make this branding across all the OS’s easy for an administrator that may not be too tech savvy. Ideally, this would only be a few easy steps. Besides this ease-of-use improvement, this would also make it less likely that people will fork rocket to put in their own branding.
 - **Desirable Skills:**  Familiarity with Android and/or iOS development, specifically the Rocket.Chat.Android/Rocket.Chat.iOS code bases.
 
