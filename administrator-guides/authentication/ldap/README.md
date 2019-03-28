@@ -49,6 +49,21 @@ If you need to auth users from subgroups in LDAP use this filter:
 
 When you enable LDAP the login form will login users via LDAP instead the internal account system.
 
+### LDAP Auth - Single Forest - Multiple Domains 
+If you need to auth users from multiple domains using active directory, the LDAP configuration should be set up to use a domain controller that is also a Global Catalog.
+For LDAP lookup performance, it's recommended that the AD/DSGC and Rocket-Chat On-premises server are hosted at the same site.
+
+To setup, Rocket Chat to Authenticate Users from Multiple Domains follow the receipt bellow :)
+
+ - Create an LDAP bind account at the forest root domain with a secure password
+ - Create the LDAP access authorization group preferably at the forest root domain
+ - Setup Rocket Chat Server LDAP Server to IP or Hostname of your Domain Controller_Global Catalog Server
+ - Setup LDAP Connection Port to 3268 if using LDAP or 3269 if using LDAPS ( For LDAPS you need to import your internal CA/ADCS certificate into the rocket-chat on-prem server)
+ - Setup the LDAP bind account, and group access authorization settings by distinguished names ( It can be obtained from active directory using the attribute editor )
+ - Setup LDAP filters per preference
+
+Test your multiple domain authentication 
+
 ### LDAPS - SSL Connection
 
 Use stunnel to create a secure connection to the LDAP server. Create a new configuration file /etc/stunnel/ldaps.conf with following content:
@@ -90,4 +105,6 @@ Every rocket.chat-user has to have an email. So either the LDAP users have an em
 
 ## References
 
-MS LDAP Info: <https://msdn.microsoft.com/en-us/library/windows/desktop/aa746475(v=vs.85).aspx>
+MS LDAP Filter Info: <https://msdn.microsoft.com/en-us/library/windows/desktop/aa746475(v=vs.85).aspx>
+MS AD Domain Services Info: <https://docs.microsoft.com/en-us/windows/desktop/ad/using-active-directory-domain-services>
+Spotfire LDAP Port Configuration: <http://informatics.perkinelmer.com/Support/KnowledgeBase/details/Default.aspx?TechNote=3142>
