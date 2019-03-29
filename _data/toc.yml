@@ -147,6 +147,11 @@
     - Travis CI
     - Trello
     - Uptime Robot
+  - Rocket.Chat Apps:
+    - Jira Server Integration
+    - Bitbucket Server Integration
+    - Bamboo Integration
+    - Confluence Server Integration
   - Google Cloud:
     - Auto Translate
   # - Google Drive
