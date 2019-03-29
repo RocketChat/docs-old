@@ -268,7 +268,7 @@ sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
 
 ### How do I change other environmental variables in my snap?
 
-Starting from relase 0.73 is possible to overwrite any rocket.chat environmental variables dropping files ending in `.env` in $SNAP_COMMON directroy (`/var/snap/rocketchat-server/common/`), for example you can create a file to change SMTP settings:
+Starting from release 0.73, it is possible to overwrite any rocket.chat environmental variables by dropping files ending in `.env` in $SNAP_COMMON directroy (`/var/snap/rocketchat-server/common/`), for example you can create a file to change SMTP settings:
 
 ```bash
 cat /var/snap/rocketchat-server/common/overwrite-smtp.env
