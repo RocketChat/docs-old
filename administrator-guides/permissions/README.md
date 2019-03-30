@@ -42,18 +42,22 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | add-user-to-any-c-room | Permission to add a user to a public channel.
 | add-user-to-any-p-room | Permission to add a user to a private channel.
 | add-user-to-joined-room | Permission to add a user to a joined channel.
+| api-bypass-rate-limit | **spaceholder**
 | archive-room | Permission to archive a channel.
 | assign-admin-role | Permission to promote user to Admin. Requires view-user-administration permission. Accessible from Administration -> Users.
+| assign-roles | **spaceholder**
 | auto-translate | Permission to use the [Auto Translate Tool](../google-cloud/auto-translate). Accessible from Administration -> Message -> Auto Translate.
 | ban-user | Permission to ban a user.
 | bulk-create-c | Permission to bulk create public channels.
 | bulk-register-user | Permission to bulk add users.
+| call-management | **spaceholder**
 | clean-channel-history | Permission to prune a channel's messages and/or files.
 | close-livechat-room | Permission to close your own live chat channels.
-| close-others-livechat-room | Permission to close others live chat channels .
+| close-others-livechat-room | Permission to close others live chat channels.
 | create-c | Permission to create public channels.
 | create-d | Permission to start direct messages.
 | create-p | Permission to create private groups.
+| create-personal-access-tokens | **spaceholder**
 | create-user | Permission to create new users. Accessible from Administration -> Users. Click the + sign found on the top right hand corner of the Users list to create a new user.
 | delete-c | Permission to delete public channels.
 | delete-d | Permission to delete direct messages.
@@ -69,20 +73,26 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | edit-room-retention-policy | Permission to edit's a room's retention policy.
 | force-delete-message | Permission to forcefully delete messages, independent of any deletion blocking setting.
 | join-without-join-code | Permission to bypass join codes when entering a channel with a join code set.
+| leave-c | **spaceholder**
+| leave-p | **spaceholder**
 | mail-messages | Permission to use the "Mail Messages" tool in the channel actions menu.
 | manage-apps | Permission to manage all apps. Accessible from Administration -> Apps.
 | manage-assets | Permission to manage assets. Must also be admin Accessible from Administration -> Assets.
+| manage-cloud | **spaceholder**
 | manage-emoji | Permission to add custom emojis to the server. Accessible from Administration -> Custom Emoji.
 | manage-integrations | Permission to manage all integrations. Accessible from Administration -> Integrations.
 | manage-oauth-apps | Permission to manage OAuth apps. Accessible from Administration -> OAuth.
 | manage-own-integrations | User can create and edit own integration - webhooks.
 | manage-sounds | Permission to manage sounds. Accessible from Administration -> Custom Sounds.
 | mention-all | Permission to mention everyone in a channel.
+| mention-here | **spaceholder**
 | mute-user | Permission to mute other users in the same channel.
 | pin-message | Permission to pin a message in a channel.
 | post-readonly | Permission to post messages on read only channels.
 | preview-c-room | Permission to preview public channels.
+| remove-closed-livechat-rooms | **spaceholder**
 | remove-user | Permission to remove users from channels.
+| reset-other-user-e2e-key | **spaceholder**
 | run-import | Permission to use the data importer tools. Must also be an admin. Accessible from Administration -> Import.
 | run-migration | Permission to run migrations.
 | save-others-livechat-room-info | Permission to add additional information to both the visitor and livechat rooms.
@@ -91,7 +101,10 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | set-moderator | Permission to set moderators for channels.
 | set-owner | Permission to set other users as owner of a public channel.
 | set-react-when-readonly | Permission to react to messages in only channels.
+| set-readonly | **spaceholder**
 | snippet-message | Permission to create message snippets.
+| start-discussion | **spaceholder**
+| start-discussion-other-user | **spaceholder**
 | unarchive-room | Permission to unarchive channels.
 | user-generate-access-token | Permission to create authorization tokens for users.
 | view-broadcast-member-list | Permission to view the list of users in a broadcast channel.
@@ -102,6 +115,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | view-join-code | Permission to view the join code of channels.
 | view-joined-room | Permission to view current joined channels.
 | view-l-room | Permission to view live chat channel.
+| view-livechat-analytics | **spaceholder**
 | view-livechat-manager | Permission to view other livechat managers.
 | view-livechat-rooms | Permission to view list of live chat channels.
 | view-logs | Permission to view logs. Accessible from Administration -> View Logs.
