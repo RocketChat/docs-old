@@ -231,6 +231,12 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: We've been working on our new Livechat solution and it's time to add two great new features that will make Livechat even more powerful: voice and video calls! The idea is to integrate Livechat with the providers already supported in Rocket.Chat, such as Jitsi, WebRTC, BigBlueButton and so on. With these two new features, Livechat users will be able to initiate video and audio calls between them and Livechat agents.
 - **Desirable Skills**: Familiarity with Rocket.Chat/Livechat development, ReactJS/PreactJS, Voice and Video communication
 
+### Alexa Skill(s)
+
+- **Mentors**: @sing.li
+- **Description**: Bring access of Rocket.Chat into the world of 100 million+ Alexa enabled devices.  The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Alexa ecosystem - powered by open source Rocket.Chat.   Google Home/Assistant devices support, if possible, should also be considered concurrently.
+- **Desirable Skills**: Familiarity with Alexa skills development. Experience with interfacing external sources and systems into Alexa skills. Passion for global converstational interaction enablement. Familiarity with Google Action development ideal.
+
 ## Timeline
 
 [GSoC 2019 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
