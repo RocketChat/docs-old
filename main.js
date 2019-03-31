@@ -284,6 +284,29 @@
     }
   }
 
+  // make code blocks editable
+  (function () {
+    var url = window.location.href;
+
+    makePreEditable();
+
+    window.addEventListener('click', function() {
+      if (url !== window.location.href) {
+        url = window.location.href;
+        setTimeout(function() {
+          makePreEditable();
+        }, 2000)
+      }
+    })
+
+    function makePreEditable() {
+      var pres = document.querySelectorAll('pre');
+      pres.forEach(function(pre) {
+        pre.setAttribute('contenteditable', 'true');
+      });
+    }
+  })();
+
   (function () {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
