@@ -83,11 +83,11 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: The goal of Real-Time Visitor Monitoring is to provide an important feature for the Live chat team by displaying a list of visitors who are browsing the website where the Livechat widget is installed. Having this feature, it will be possible to track important information related to visitors, such as the current page, location, time on site, local time, and so on, even though the visitor has not yet started a conversation with an agent. In addition, an agent will be able to start a conversation with a specific visitor directly from the list, improving the proactivity of the Live chat team.
 - **Desirable Skills**: Familiarity with Rocket.Chat/Livechat development.
 
-### Interactive APIs documentation
+### API Playground: Interactive APIs documentation
 
 - **Mentors**: @martin.schoeler, @marcos.defendi
 - **Project repository**: <https://github.com/RocketChat/docs>
-- **Description**: Create an easy-to-use interface to let the user explore, test and get info about the existing endpoints of the Rocket.Chat's APIs. The user will be able to connect and make requests directly from the UI, also being able to change the arguments of the requests and testing different flows of the APIs. This interface will require that the docs are consistent with the code, and follows  specific patterns. Generating the API docs from the source code or finding a way to ensure consistency on the API docs is an essential part of this project.
+- **Description**: Create an easy-to-use interface to let the user explore, test and get info about the existing endpoints of the Rocket.Chat's APIs - an API playground. The user will be able to connect and make requests directly from the UI, also being able to change the arguments of the requests and testing different flows of the APIs.  Since our server APIs change constantly, it is important that the subset of API documentation within the playground is in precise synchronization with the code. This will require the integration of a documentation generation library. 
 - **Desirable Skills**: Familiarity with Jekyll and Rocket.Chat Rest API.
 
 ### SNAP improvements
