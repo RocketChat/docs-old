@@ -87,7 +87,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 - **Mentors**: @martin.schoeler, @marcos.defendi
 - **Project repository**: <https://github.com/RocketChat/docs>
-- **Description**: Create an easy-to-use interface to let the user explore, test and get info about the existing endpoints of the Rocket.Chat's APIs - an API playground. The user will be able to connect and make requests directly from the UI, also being able to change the arguments of the requests and testing different flows of the APIs.  Since our server APIs change constantly, it is important that the subset of API documentation within the playground is in precise synchronization with the code. This will require the integration of a documentation generation library. 
+- **Description**: Create an easy-to-use interface to let the user explore, test and get info about the existing endpoints of the Rocket.Chat's APIs - an API playground. The user will be able to connect and make requests directly from the UI, also being able to change the arguments of the requests and testing different flows of the APIs.  Since our server APIs change constantly, it is important that the subset of API documentation within the playground is in precise synchronization with the code. This will require the integration of a documentation generation library.
 - **Desirable Skills**: Familiarity with Jekyll and Rocket.Chat Rest API.
 
 ### SNAP improvements
