@@ -22,10 +22,3 @@ This is a quick guide on how to run the docs site locally, for a more in depth g
 - Run `bundle install`.
 - Start the server with `bundle exec "jekyll serve --incremental --safe"`.
 
-## Linting your changes locally:
-
-You should always lint your changes to find errors locally before pushing your changes.   This only takes seconds, from the `docs` directory:
-
-```
-bundle exec "mdl ./ -r ~MD004 -i -g"
-```
