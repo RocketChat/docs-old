@@ -1,0 +1,28 @@
+{
+  "name": "rocketchat.docs",
+  "version": "1.0.0",
+  "description": "Guides for developing and modifying Rocket.Chat's code --- layout: home permalink: /index.html ---",
+  "main": "main.js",
+  "scripts": {
+    "lint": "bundle exec \"mdl ./ -r ~MD004 -i -g\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run lint"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RocketChat/docs.git"
+  },
+  "author": "lolimay <1404363070@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RocketChat/docs/issues"
+  },
+  "homepage": "https://github.com/RocketChat/docs#readme",
+  "devDependencies": {
+    "husky": "^1.3.1"
+  }
+}
