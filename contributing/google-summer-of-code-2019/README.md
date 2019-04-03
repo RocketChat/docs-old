@@ -72,7 +72,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Improve Rocket.Chat Auto-Translate feature
 
-- **Mentors**: @marceloschmidt
+- **Mentors**: @marcelo.schmidt
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/rocketchat-autotranslate>
 - **Description**: One of the most popular features in Rocket.Chat is auto-translate, where users can set their language preference to have all messages translated.  This feature works by translating every incoming message into the user language of choice. We would like the student to make it possible for the package also to translate every message the user sends into another language. As a plus, if the student can implement a channel language setting, it would be superb.
 - **Desirable Skills:**  Familiarity with Rocket.Chat development and meteor packages.
@@ -83,11 +83,11 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: The goal of Real-Time Visitor Monitoring is to provide an important feature for the Live chat team by displaying a list of visitors who are browsing the website where the Livechat widget is installed. Having this feature, it will be possible to track important information related to visitors, such as the current page, location, time on site, local time, and so on, even though the visitor has not yet started a conversation with an agent. In addition, an agent will be able to start a conversation with a specific visitor directly from the list, improving the proactivity of the Live chat team.
 - **Desirable Skills**: Familiarity with Rocket.Chat/Livechat development.
 
-### Interactive APIs documentation
+### API Playground: Interactive APIs documentation
 
 - **Mentors**: @martin.schoeler, @marcos.defendi
 - **Project repository**: <https://github.com/RocketChat/docs>
-- **Description**: Create an easy-to-use interface to let the user explore, test and get info about the existing endpoints of the Rocket.Chat's APIs. The user will be able to connect and make requests directly from the UI, also being able to change the arguments of the requests and testing different flows of the APIs. This interface will require that the docs are consistent with the code, and follows  specific patterns. Generating the API docs from the source code or finding a way to ensure consistency on the API docs is an essential part of this project.
+- **Description**: Create an easy-to-use interface to let the user explore, test and get info about the existing endpoints of the Rocket.Chat's APIs - an API playground. The user will be able to connect and make requests directly from the UI, also being able to change the arguments of the requests and testing different flows of the APIs.  Since our server APIs change constantly, it is important that the subset of API documentation within the playground is in precise synchronization with the code. This will require the integration of a documentation generation library.
 - **Desirable Skills**: Familiarity with Jekyll and Rocket.Chat Rest API.
 
 ### SNAP improvements
@@ -230,6 +230,12 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Mentors**: @renatobecker
 - **Description**: We've been working on our new Livechat solution and it's time to add two great new features that will make Livechat even more powerful: voice and video calls! The idea is to integrate Livechat with the providers already supported in Rocket.Chat, such as Jitsi, WebRTC, BigBlueButton and so on. With these two new features, Livechat users will be able to initiate video and audio calls between them and Livechat agents.
 - **Desirable Skills**: Familiarity with Rocket.Chat/Livechat development, ReactJS/PreactJS, Voice and Video communication
+
+### Alexa Skill(s)
+
+- **Mentors**: @sing.li
+- **Description**: Bring access of Rocket.Chat into the world of 100 million+ Alexa enabled devices.  The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Alexa ecosystem - powered by open source Rocket.Chat.   Google Home/Assistant devices support, if possible, should also be considered concurrently.
+- **Desirable Skills**: Familiarity with Alexa skills development. Experience with interfacing external sources and systems into Alexa skills. Passion for global converstational interaction enablement. Familiarity with Google Action development ideal.
 
 ## Timeline
 
