@@ -18,7 +18,7 @@ These next commands will check that configuration is set up correctly before sta
 sudo snap set rocketchat-server caddy-url=https://<your-domain-name>
 sudo snap set rocketchat-server caddy=enable
 sudo snap set rocketchat-server https=enable
-sudo rocketchat-server.initcaddy
+sudo snap run rocketchat-server.initcaddy
 ```
 
 If no errors where found is safe to restart rocket.chat and Caddy:
@@ -34,7 +34,7 @@ In case you don't want to configure SSL for your site, or want to remove SSL con
 sudo snap set rocketchat-server https=disable
 sudo snap set rocketchat-server caddy-url=http://<your-domain-name>
 sudo snap set rocketchat-server caddy=enable
-sudo rocketchat-server.initcaddy
+sudo snap run rocketchat-server.initcaddy
 ```
 
 If no errors where found is safe to restart rocket.chat and Caddy:
