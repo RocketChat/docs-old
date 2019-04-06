@@ -9,10 +9,10 @@ setting enabled: `Discussion_enabled`.
 
 ## Payload
 
-| `parentRoomId`  | `GENERAL`  | Required | Parent room id of the discussion. |
-| `name` | `discussion name`  | Required | Discussion name.  |
+| `prid`  | `GENERAL`  | Required | Parent room id of the discussion. |
+| `t_name` | `discussion name`  | Required | Discussion name.  |
 | `users` | `['rocket.cat']` | Optional| Array of users to join in the discussion, if not provide will be an empry array(Note: if provided, it must be an array). |
-| `parentMessageId` | `aobEgbghXfe543keqG` | Optional | Parent message id(if the discussion comes from a message). |
+| `pmid` | `aobEgbghXfe543keqG` | Optional | Parent message id(if the discussion comes from a message). |
 | `reply` | `reply of this discussion` | Optional | The reply of the discussion. |
 
 ## Example Call
@@ -22,7 +22,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-Type: application/json" \
      http://localhost:3000/api/v1/rooms.createDiscussion  \
-     -d '{ "parentRoomId": "GENERAL", "name": "Discussion Name"}'
+     -d '{ "prid": "GENERAL", "t_name": "Discussion Name"}'
 ```
 
 ## Example Result
