@@ -304,9 +304,12 @@ Here you can also find what articles are incomplete and missing.
             - unarchive
         - Chat:
             - delete
+            - followMessage
             - getDeletedMessages
             - getMessage
             - getMessageReadReceipts
+            - getThreadMessages
+            - getThreadsList
             - pinMessage
             - postMessage
             - react
@@ -314,6 +317,7 @@ Here you can also find what articles are incomplete and missing.
             - search
             - starMessage
             - sendMessage
+            - unfollowMessage
             - unPinMessage
             - unStarMessage
             - update
