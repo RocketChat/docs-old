@@ -18,72 +18,80 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 ```json
 {
-    "roles": [
-        {
-            "_id": "admin",
-            "scope": "Users",
-            "description": "Admin",
-            "protected": true
-        },
-        {
-            "_id": "moderator",
-            "scope": "Subscriptions",
-            "description": "Moderator",
-            "protected": true
-        },
-        {
-            "_id": "leader",
-            "scope": "Subscriptions",
-            "description": "Leader",
-            "protected": true
-        },
-        {
-            "_id": "owner",
-            "scope": "Subscriptions",
-            "description": "Owner",
-            "protected": true
-        },
-        {
-            "_id": "user",
-            "scope": "Users",
-            "description": "",
-            "protected": true
-        },
-        {
-            "_id": "bot",
-            "scope": "Users",
-            "description": "",
-            "protected": true
-        },
-        {
-            "_id": "guest",
-            "scope": "Users",
-            "description": "",
-            "protected": true
-        },
-        {
-            "_id": "anonymous",
-            "scope": "Users",
-            "description": "",
-            "protected": true
-        },
-        {
-            "_id": "livechat-agent",
-            "name": "livechat-agent",
-            "scope": "Users"
-        },
-        {
-            "_id": "livechat-manager",
-            "name": "livechat-manager",
-            "scope": "Users"
-        },
-        {
-            "_id": "livechat-guest",
-            "name": "livechat-guest",
-            "scope": "Users"
-        }
-    ],
-    "success": true
+  "roles": [
+    {
+      "_id": "admin",
+      "description": "Admin",
+      "mandatory2fa": false,
+      "protected": true,
+      "scope": "Users"
+    },
+    {
+      "_id": "moderator",
+      "description": "Moderator",
+      "mandatory2fa": false,
+      "protected": true,
+      "scope": "Subscriptions"
+    },
+    {
+      "_id": "leader",
+      "description": "Leader",
+      "mandatory2fa": false,
+      "protected": true,
+      "scope": "Subscriptions"
+    },
+    {
+      "_id": "owner",
+      "description": "Owner",
+      "mandatory2fa": false,
+      "protected": true,
+      "scope": "Subscriptions"
+    },
+    {
+      "_id": "user",
+      "description": "",
+      "mandatory2fa": false,
+      "protected": true,
+      "scope": "Users"
+    },
+    {
+      "_id": "bot",
+      "description": "",
+      "mandatory2fa": false,
+      "protected": true,
+      "scope": "Users"
+    },
+    {
+      "_id": "guest",
+      "description": "",
+      "mandatory2fa": false,
+      "protected": true,
+      "scope": "Users"
+    },
+    {
+      "_id": "anonymous",
+      "description": "",
+      "mandatory2fa": false,
+      "protected": true,
+      "scope": "Users"
+    },
+    {
+      "_id": "livechat-agent",
+      "name": "livechat-agent",
+      "scope": "Users"
+    },
+    {
+      "_id": "livechat-manager",
+      "name": "livechat-manager",
+      "scope": "Users"
+    },
+    {
+      "_id": "livechat-guest",
+      "name": "livechat-guest",
+      "scope": "Users"
+    }
+  ],
+  "success": true
 }
 ```
 
@@ -91,4 +99,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
+| 1.0.0 | Added mandatory2fa property |
 | 0.70.0 | Added |
