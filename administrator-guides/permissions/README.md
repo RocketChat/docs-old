@@ -10,11 +10,11 @@ Permission changes are immediate and transparent. Users do not need to logout, l
 
 A `Role` is a set of permissions that can be given to users. Rocket.Chat already comes with a set of default roles that can be edited. You can also create new roles for users.
 
-When someone is registered in a Rocket.Chat server, it will normally receive the `user`. If the user is a bot or a guest from a livechat channel, it can receive different roles. Also the first user of a server always receives the role of `admin`.
+When someone is registered in a Rocket.Chat server, it will normally receive the `user`. If the user is a bot or a guest from a live chat channel, it can receive different roles. Also, the first user of a server always receives the role of `admin`.
 
-Roles can have different scopes. Currently we have two scopes `Global` and `Rooms`. The permissions of the `Global` roles are valid for the whole server, while the `Rooms` roles only applies to individual channels, where a user have to be elected to that role in that channel.
+Roles can have different scopes. Currently, we have two scopes `Global` and `Rooms`. The permissions of the `Global` roles are valid for the whole server, while the `Rooms` roles only apply to individual channels, where a user have to be elected to that role in that channel.
 
-An example of `Global` role would be an `admin`, that have permissions valid for the whole server, while a `moderator` that have a `Rooms` role would have permissions only in a channel that they were elected for that role.
+An example of `Global` role would be an `admin`, that have permissions valid for the whole server, while a `moderator` that has a `Rooms` role would have permissions only in a channel that they were elected for that role.
 
 Also, by default roles are shown as little tags on the side of a username on messages.
 
