@@ -59,13 +59,13 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Google Calendar Rocket.Chat App
 
-- **Mentors**: @douglas.gubert, @rodrigok
+- **Mentors**: @douglas.gubert, @rodrigo.nascimento
 - **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Google Calendar, using Slashcommands, custom API endpoints, custom Settings, etc.
 - **Desirable Skills**: Familiarity with TypeScript.
 
 ### Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)
 
-- **Mentors**: @diegolmello
+- **Mentors**: @diego.mello
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
 - **Description**: Share extensions enables iOS or Android OS to share content between apps. This project aims to implement a share extension for React Native client to let users share data into Rocket.Chat from other apps. For example, a user should be able to send photos from the camera roll to a Rocket.Chat channel without opening the RC client.
 - **Desirable Skills:**  Familiarity with React Native, iOS and Android development and Rocket.Chat.ReactNative code base.
@@ -140,39 +140,39 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Asana Rocket.Chat App
 
-- **Mentors**: @douglas.gubert, @rodrigok
+- **Mentors**: @douglas.gubert, @rodrigo.nascimento
 - **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Asana, using Slashcommands, custom API endpoints, custom Settings, etc.
 
 ### Admin webview page integration on React Native app (Rocket.Chat Experimental)
 
-- **Mentors**: @diegolmello
+- **Mentors**: @diego.mello
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
 - **Description**: The goal of this project is integration with Rocket.Chat's admin webview page when the user has access. This helps administrators to change their servers behavior without the need to open Rocket.Chat on the web or the mobile version on their devices.
 - **Desirable Skills:**  Familiarity with React Native development and Rocket.Chat.ReactNative code base.
 
 ### Improve notifications on React Native app (Rocket.Chat Experimental)
 
-- **Mentors**: @diegolmello
+- **Mentors**: @diego.mello
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
 - **Description**: For better user experience, we need to group notifications by channel and allow the user to reply directly from the notification. Also, we should show notifications from other channels when the user is using the app.
 - **Desirable Skills:**  Familiarity with React Native, iOS and Android development and Rocket.Chat.ReactNative code base.
 
 ### Implement theming on React Native app (Rocket.Chat Experimental)
 
-- **Mentors**: @diegolmello
+- **Mentors**: @diego.mello
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
 - **Description**: Themes, like dark mode, are very popular and everywhere right now, but the Rocket.Chat React Native app lacks the feature of applying different themes. This project aims to bring different themes like dark mode and black mode into the existing React Native client.
 
 ### Implement slash commands on React Native app (Rocket.Chat Experimental)
 
-- **Mentors**: @diegolmello
+- **Mentors**: @diego.mello
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
 - **Description**: In mobile apps, users must be able to do what they want in fewer taps as possible. Slash commands are faster ways to trigger trivial actions, like invite a user or archive a channel, and it should be available on React Native client.
 - **Desirable Skills:**  Familiarity with React Native development, specifically the Rocket.Chat.ReactNative code base.
 
 ### Allow Rocket.Chat Apps to use their own NPM modules
 
-- **Mentors**: @douglas.gubert, @rodrigok
+- **Mentors**: @douglas.gubert, @rodrigo.nascimento
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Apps-engine>
 - **Description**: Currently the Rocket.Chat Apps Engine does not support that apps include their own `node_modules` dependencies, which can be very limiting in some use cases. The goal of this project is to modify our engine so that it can properly install and manage an app's dependencies, enabling app developers to unleash their full potential.
 - **Desirable Skills**: Solid understanding of JavaScript and some familiarity with TypeScript. Familiarity with TypeScript's compiler is definitely a plus.
@@ -204,7 +204,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Users Directory integration plus custom fields editor and search
 
-- **Mentors**: @marceloschmidt
+- **Mentors**: @marcelo.schmidt
 - **Description**: Rocket.Chat already allows for users to add custom fields through a setting that accepts a JSON. We would like to create an interface to manage these custom fields. Each custom field must be composed of label, type (one of predefined: string, number, picklist, money, etc.), and an option to determine if this field must be displayed on registration or not. On Users Directory, users must be able to select multiple records from the results and do one of the possible actions: add to existing channel or group and create new channel or group; if only one record is selected, it should also be possible to start a direct message with the selected user.
 - **Desirable Skills**: Familiarity with Rocket.Chat development.
 
