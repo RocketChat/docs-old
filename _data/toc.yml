@@ -24,7 +24,8 @@
   - Rocket.Chat Cloud
   - PaaS Deployments:
     - Aliyun
-    - AWS
+    - AWS:
+      - EKS
     - Cloudron.io
     - Digital Ocean
     - DPlatform
@@ -83,6 +84,7 @@
   - Connecting to a Server
   - Registration
   - Login
+  - Talking to users from another server
   - Channels
   - Messaging
   - Channel Actions
@@ -104,6 +106,7 @@
     - Editing Emails Content
     - Mailer
     - Direct Reply
+  - Federation
   - File Upload:
     - Amazon S3
     - Google Cloud Storage
@@ -144,6 +147,11 @@
     - Travis CI
     - Trello
     - Uptime Robot
+  - Rocket.Chat Apps:
+    - Jira Server Integration
+    - Bitbucket Server Integration
+    - Bamboo Integration
+    - Confluence Server Integration
   - Google Cloud:
     - Auto Translate
   # - Google Drive
@@ -183,6 +191,11 @@
       - Supported Servers Versions
     - Developing Apps:
       - Getting Started
+    - GraphQL API:
+       - Authentication
+       - Schema
+       - Setup
+       - Subscription
     - Realtime-API:
       - Method Calls:
         - Login
@@ -244,6 +257,7 @@
         - twitter
       - Channels:
         - addAll
+        - AddLeader
         - addModerator
         - addOwner
         - archive
@@ -267,6 +281,7 @@
         - moderators
         - online
         - open
+        - removeLeader
         - removeModerator
         - removeOwner
         - rename
@@ -283,6 +298,7 @@
         - unarchive
       - Chat:
         - delete
+        - getDeletedMessages
         - getMessage
         - getMessageReadReceipts
         - pinMessage
@@ -295,6 +311,7 @@
         - unPinMessage
         - unStarMessage
         - update
+        - ignoreUser
       - Commands:
         - get
         - list
@@ -306,6 +323,7 @@
         - update
       - Groups:
         - addAll
+        - addLeader
         - addModerator
         - addOwner
         - archive
@@ -326,6 +344,7 @@
         - messages
         - moderators
         - open
+        - removeLeader
         - removeModerator
         - removeOwner
         - rename
