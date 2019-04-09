@@ -72,7 +72,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Improve Rocket.Chat Auto-Translate feature
 
-- **Mentors**: @marceloschmidt
+- **Mentors**: @marcelo.schmidt
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/rocketchat-autotranslate>
 - **Description**: One of the most popular features in Rocket.Chat is auto-translate, where users can set their language preference to have all messages translated.  This feature works by translating every incoming message into the user language of choice. We would like the student to make it possible for the package also to translate every message the user sends into another language. As a plus, if the student can implement a channel language setting, it would be superb.
 - **Desirable Skills:**  Familiarity with Rocket.Chat development and meteor packages.
