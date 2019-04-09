@@ -99,5 +99,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
-| 0.70.0 | Added mandatory2fa property |
+| 0.73.0 | Added mandatory2fa property |
 | 0.70.0 | Added |
