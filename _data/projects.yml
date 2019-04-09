@@ -37,6 +37,7 @@
     Livechat: livechat/
     File Upload: file-upload/
     Integrations: integrations/
+    Rocket.Chat Apps: rocket-chat-apps/
 
 -
   name: Developer Guides

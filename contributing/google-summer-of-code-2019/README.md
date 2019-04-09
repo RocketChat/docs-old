@@ -11,11 +11,13 @@ redirect_from:
 
 ## How to apply
 
-GSoC 2019 students application opens March 25th, 2019.  See [GSoC timeline](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#timeline) for more details.
+Student application has opened.  Please go to [Official GSoC application site](https://summerofcode.withgoogle.com/) to register and apply.   Deadline for application and final proposal is April 9, 2019.   Please see [GSoC timeline](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#timeline) for more details.
 
-Start planning your proposal now! Check out our [list of ideas](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#project-ideas) for some inspiration.
+Students are encouraged to submit their draft proposals as early as possible.  You may work with your mentors and fellow students to improve the draft proposal until submission deadline of April 9, 2019.
 
-Meet the mentors and students for GSoC 2019 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
+For ideas, check out our [list of ideas](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#project-ideas) for some inspiration.
+
+Come meet our global community of 200+ mentors and students for GSoC 2019 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
 
 <https://open.rocket.chat/channel/gsoc2019>
 
@@ -23,7 +25,7 @@ For offline discussions, we have a discussion forum:
 
 <https://forums.rocket.chat/c/gsoc/gsoc2019>
 
-If you have ideas and proposals that are not on our idea list, or if a mentor is not available, please email to:
+If you have ideas and proposals that are not on our ideas list, or if a mentor is not available, please email to:
 
    gsoc@rocket.chat
 
@@ -31,7 +33,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 <https://github.com/RocketChat/Rocket.Chat>
 
-Enthusiasm and interest are extremely high this year; candidate students have already started to interact with our community and contributing to the projects!   We are maintaining a real-time updated leaderboard for at-a-glance student (candidates) contribution here:
+Enthusiasm and interest are extremely high this year; over 100 candidate students have already started to interact with our community and contributing to the projects!  Together, they have already contributed over 100 merged PRs to our various projects.  We are maintaining a real-time updated leaderboard for at-a-glance student (candidates) contribution here:
 
 <https://gsoc.rocket.chat/>
 
@@ -57,8 +59,8 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Google Calendar Rocket.Chat App
 
-- **Mentors**: @d-gubert, @rodrigok
-- **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Google Calendar, using Slash commands, custom API endpoints, custom Settings, etc.
+- **Mentors**: @douglas.gubert, @rodrigok
+- **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Google Calendar, using Slashcommands, custom API endpoints, custom Settings, etc.
 - **Desirable Skills**: Familiarity with TypeScript.
 
 ### Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)
@@ -70,7 +72,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Improve Rocket.Chat Auto-Translate feature
 
-- **Mentors**: @marceloschmidt
+- **Mentors**: @marcelo.schmidt
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/rocketchat-autotranslate>
 - **Description**: One of the most popular features in Rocket.Chat is auto-translate, where users can set their language preference to have all messages translated.  This feature works by translating every incoming message into the user language of choice. We would like the student to make it possible for the package also to translate every message the user sends into another language. As a plus, if the student can implement a channel language setting, it would be superb.
 - **Desirable Skills:**  Familiarity with Rocket.Chat development and meteor packages.
@@ -81,17 +83,17 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: The goal of Real-Time Visitor Monitoring is to provide an important feature for the Live chat team by displaying a list of visitors who are browsing the website where the Livechat widget is installed. Having this feature, it will be possible to track important information related to visitors, such as the current page, location, time on site, local time, and so on, even though the visitor has not yet started a conversation with an agent. In addition, an agent will be able to start a conversation with a specific visitor directly from the list, improving the proactivity of the Live chat team.
 - **Desirable Skills**: Familiarity with Rocket.Chat/Livechat development.
 
-### Interactive APIs documentation
+### API Playground: Interactive APIs documentation
 
-- **Mentors**: @martin.schoeler
+- **Mentors**: @martin.schoeler, @marcos.defendi
 - **Project repository**: <https://github.com/RocketChat/docs>
-- **Description**: Create an easy-to-use interface to let the user explore, test and get info about the existing endpoints of the Rocket.Chat's APIs. The user will be able to connect and make requests directly from the UI, also being able to change the arguments of the requests and testing different flows of the APIs.
+- **Description**: Create an easy-to-use interface to let the user explore, test and get info about the existing endpoints of the Rocket.Chat's APIs - an API playground. The user will be able to connect and make requests directly from the UI, also being able to change the arguments of the requests and testing different flows of the APIs.  Since our server APIs change constantly, it is important that the subset of API documentation within the playground is in precise synchronization with the code. This will require the integration of a documentation generation library.
 - **Desirable Skills**: Familiarity with Jekyll and Rocket.Chat Rest API.
 
 ### SNAP improvements
 
-- **Mentors**: TBD
-- **Description**: The most popular Rocket.Chat deployment method in the world is via snaps.  Snaps are containerized software packages that are simple to create and install. The aim of this project is to improve our snap installation process and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for load balancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replica set and possible firewall configuration. Improvements in our ARM architecture support is also desirable.
+- **Mentors**: @lucia.guevgeozian
+- **Description**: The most popular Rocket.Chat deployment method in the world is via snaps. Snaps are containerised software packages that are simple to create and install. The aim of this project is improve our snap installation process and features, bringing better support for our ARM architecture deployment, and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for loadbalancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replicaset and possible firewall configuration.
 - **Desirable Skills:**  Familiarity with Linux. Good shell scripting skills. Aware of DevOps and containers based deployment technology.
 
 ### Service Accounts in Rocket.Chat
@@ -114,15 +116,8 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Improved Test Automation in Rocket.Chat Repos
 
-- **Mentors** @TBD
+- **Mentors** @jaytat0, @eric.rosenthal
 - **Description:** The goal of this project is to enhance the current test infrastructure in the RocketChat repos and pipelines.  Currently, there is some very minimal unit testing that needs to be expanded, and no integration or system level tests or infrastructure to support them.  This project could focus on one of the repos, possibly the Android code base, or all.  Once a test infrastructure and best practice is established, the goal is that no new code gets merged unless it has new tests that will be run at build time, and it passes all of the previous tests.
-
-### Custom Notifications in Android
-
-- **Mentors:** @TBD
-- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Android>
-- **Description:** The web client currently has the flexibility of customizing the notifications per channel, but the Android client lacks this feature. This project aims to bring this feature into the Android client. Users would be able to mute specific channels and configure if they want to receive notifications when they are mentioned or for every notification, etc. Snooze functionality can also be implemented as an extension of this project.
-- **Desirable Skills:**  Familiarity with Android development, specifically the Rocket.Chat.Android code base.
 
 ### iOS Voice Over Accessibility
 
@@ -133,7 +128,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Ability to Rebrand Android and iOS Apps
 
-- **Mentors:** @TBD
+- **Mentors:** @jaytat0, @bizzbyster
 - **Description:** Implement a way for administrators to rebrand their instances of rocketchat - product name, icons, colors, etc. - for the android and ios apps, which currently do not support this. Besides adding this capability, another goal would be to make this branding across all the OS’s easy for an administrator that may not be too tech savvy. Ideally, this would only be a few easy steps. Besides this ease-of-use improvement, this would also make it less likely that people will fork rocket to put in their own branding.
 - **Desirable Skills:**  Familiarity with Android and/or iOS development, specifically the Rocket.Chat.Android/Rocket.Chat.iOS code bases.
 
@@ -145,8 +140,8 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Asana Rocket.Chat App
 
-- **Mentors**: @d-gubert, @rodrigok
-- **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Asana, using Slash commands, custom API endpoints, custom Settings, etc.
+- **Mentors**: @douglas.gubert, @rodrigok
+- **Description**: The [Rocket.Chat Apps Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine) is here to make it easier to extend Rocket.Chat's functionality without having to deep dive into the code base. The goal of this project is to leverage the Apps Engine capabilities to create an integration with Asana, using Slashcommands, custom API endpoints, custom Settings, etc.
 
 ### Admin webview page integration on React Native app (Rocket.Chat Experimental)
 
@@ -177,7 +172,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Allow Rocket.Chat Apps to use their own NPM modules
 
-- **Mentors**: @d-gubert, @rodrigok
+- **Mentors**: @douglas.gubert, @rodrigok
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Apps-engine>
 - **Description**: Currently the Rocket.Chat Apps Engine does not support that apps include their own `node_modules` dependencies, which can be very limiting in some use cases. The goal of this project is to modify our engine so that it can properly install and manage an app's dependencies, enabling app developers to unleash their full potential.
 - **Desirable Skills**: Solid understanding of JavaScript and some familiarity with TypeScript. Familiarity with TypeScript's compiler is definitely a plus.
@@ -191,7 +186,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### BOTs UX: Improve the User Experience with bots by adding support for persistent menus, webviews, and rich messaging features
 
-- **Mentors**: @bizzbyster
+- **Mentors**: @bizzbyster, @eric.rosenthal
 - **Description**: Rocket.chat trails both team and consumer chat platforms like Slack and Facebook Messenger/WeChat in terms of the richness of user interface components supported by bots. The goal of this project would be to add rich messages, persistent menus, welcome pages, webviews and other components to the Android, iOS, and web clients to allow chatbots to become comparable to web apps in terms of usability and UX.
 - **Desirable Skills**: Interest UI/UX and chatbots. Experience in iOS, Android, or web client front ends development.  Excited to participate in the full life cycle development process in an open source community context.
 
@@ -220,7 +215,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### iOS contacts sync, invites & dynamic links
 
-- **Mentors**: @TBD
+- **Mentors**: @bizzbyster, @eric.rosenthal
 - **Description**: In the Rocket.Chat native iOS application, add the functionality of listing all the contacts of a user, syncing in background these contacts with the server using existing APIs and displaying the intersection with public accounts on server. Integrating the APIs to invite users that do not have an account (via email/phone) or inviting via other applications on the phone. Support dynamic links in iOS app, allow the creation of links such that when invited through one, after installation of the app it opens a DM with the inviter, etc. `These functionalities are already implemented for Android in a fork.`
 - **Desirable Skills**: Familiarity with iOS development.
 
@@ -229,6 +224,18 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Mentors**: @karlitschek or someone else from Nextcloud
 - **Description**: It's already possible to share a file from Nextcloud into Rocket.Chat. But the authentication is a bit clumsy. It would be great to have a single real sign in. So you only need to sign into Rocket.Chat and are automatically signed in Nextcloud of both talks to the same directory of course.
 - **Desirable Skills**: Familiarity with Rocket.Chat and Nextcloud development.
+
+### Livechat: Voice and Video Calls
+
+- **Mentors**: @renatobecker
+- **Description**: We've been working on our new Livechat solution and it's time to add two great new features that will make Livechat even more powerful: voice and video calls! The idea is to integrate Livechat with the providers already supported in Rocket.Chat, such as Jitsi, WebRTC, BigBlueButton and so on. With these two new features, Livechat users will be able to initiate video and audio calls between them and Livechat agents.
+- **Desirable Skills**: Familiarity with Rocket.Chat/Livechat development, ReactJS/PreactJS, Voice and Video communication
+
+### Alexa Skill(s)
+
+- **Mentors**: @sing.li
+- **Description**: Bring access of Rocket.Chat into the world of 100 million+ Alexa enabled devices.  The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Alexa ecosystem - powered by open source Rocket.Chat.   Google Home/Assistant devices support, if possible, should also be considered concurrently.
+- **Desirable Skills**: Familiarity with Alexa skills development. Experience with interfacing external sources and systems into Alexa skills. Passion for global converstational interaction enablement. Familiarity with Google Action development ideal.
 
 ## Timeline
 
