@@ -30,12 +30,25 @@ Here you can also find what articles are incomplete and missing.
 
 - Contributing
     - Developing
-    - Google Summer of Code
+    - Documentation
+        - Community Maintainers
+        - Contribution Guidelines
+        - Documentation Map
+        - Drafts
+            - Feature Change Draft
+            - New Feature Draft
+        - Markdown Styleguide
+        - Missing and Outdated List
+    - Google Summer of Code 2017
+    - Google Summer of Code 2018
+    - Google Summer of Code 2019
     - Promoting
     - Reporting Issues
     - Security:
         - Responsible Disclosure Policy
     - Translating
+    - Website
+        - Webinars
 - Getting Support
 - Installation:
     - Rocket.Chat Cloud
