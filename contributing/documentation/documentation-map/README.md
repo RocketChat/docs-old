@@ -109,14 +109,16 @@ Here you can also find what articles are incomplete and missing.
         - Windows Server:
 
 - User guides:
-    - Connecting to a Server
-    - Registration
-    - Login
-    - Channels
-    - Messaging
     - Channel Actions
+    - Channels
+    - Connecting to a Server
+    - End to End Encryption
+    - Login
     - Managing your Account
-    - Voice and Video Calls
+    - Messaging
+    - Registration
+    - Talk to Users From Other Server
+    - Voice and Video Conferencing
 - Administrator guides:
     - Account Settings
     - <span class="missing">[Analytics](../missing-and-outdated-list/index.html#analytics)</span>
