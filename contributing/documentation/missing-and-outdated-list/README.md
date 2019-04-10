@@ -6,10 +6,6 @@ All the missing and outdated articles on the documentation map will be listed an
 
 These items are not in any particular order.
 
-## Internationalization
-
-This article is empty. There we should explain how to use the `i18n` system to handle the translations of Rocket.Chat.
-
 ## Testing
 
 In this article we explained how to start the end to end and unit tests in Rocket.Chat. We need to add instructions on how to create new tests for new features.
@@ -51,10 +47,6 @@ Add instructions on how to import data from a cloud hosted hipchat.
 ## Schema Definition
 
 Add more details on what is this doc about.
-
-## Authentication
-
-Add a little introduction and a list of links for the articles inside this folder.
 
 ## Analytics
 

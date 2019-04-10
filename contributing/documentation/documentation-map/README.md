@@ -220,15 +220,16 @@ Here you can also find what articles are incomplete and missing.
     - Deeplink
     - Deprecation
     - Iframe Integration:
-        - <span class="missing">[Authentication](../missing-and-outdated-list/index.html#Authentication)</span>
+        - Authentication
         - Commands
         - Events
     - Embedded Layout
-    - <span class="missing">[Internationalization](../missing-and-outdated-list/index.html#Internationalization)</span>
+    - Internationalization
     - Livechat API
     - Mobile Apps
-        - Supporting SSL
+        - Analytics
         - Supported Servers Versions
+        - Supporting SSL
     - GraphQL API:
         - Authentication
         - Schema
@@ -236,41 +237,44 @@ Here you can also find what articles are incomplete and missing.
         - Subscription
     - Realtime-API:
         - Method Calls:
-            - Login
-            - Logout
-            - Register User
-            - Get User Roles
-            - List Custom Emoji
-            - Load History
-            - Get Room Roles
-            - Get Subscriptions
-            - Get Rooms
-            - Get Public Settings
-            - Get Permissions
-            - User Presence
-            - Notify Room Stream
-            - Create Direct Message
-            - Send Message
-            - Delete Message
-            - Update Message
-            - Pin Message
-            - Unpin Message
-            - Set Reaction
-            - Create Channels
-            - Create Private Groups
-            - Delete Rooms
             - Archive Rooms
-            - Unarchive Rooms
+            - Create Channels
+            - Create Direct Message
+            - Create Private Groups
+            - Delete Message
+            - Delete Rooms
+            - Favoriting Rooms
+            - Get Permissions
+            - Get Public Settings
+            - Get Room Roles
+            - Get Rooms
+            - Get Subscriptions
+            - Get User Roles
+            - Hiding Rooms
             - Joining Channels
             - Leaving Rooms
-            - Hiding Rooms
+            - List Custom Emoji
+            - Load History
+            - Login
+            - Logout
+            - Notify Room Stream
             - Opening Rooms
-            - Favoriting Rooms
+            - Pin Message
+            - Register User
             - Save Room Settings
+            - Send Message
+            - Set Reaction
+            - Star Message
+            - Unarchive Rooms
+            - Unpin Message
+            - Update Message
+            - User Presence
         - Subscriptions:
             - Stream Notify All
-            - Stream Notify User
+            - Stream Notify Logged
             - Stream Notify Room
+            - Stream Notify Room Users
+            - Stream Notify User
             - Stream Room Messages
         - The Message Object
         - The Room Object
@@ -279,7 +283,8 @@ Here you can also find what articles are incomplete and missing.
             - registerGuest
             - sendMessageLivechat
             - sendOfflineMessage
-        - Rest API:
+            - streamLiveChatroom
+    - Rest API:
         - Assets:
             - setAsset
             - unsetAsset
@@ -352,7 +357,7 @@ Here you can also find what articles are incomplete and missing.
             - get
             - list
             - run
-        -Emoji Custom:
+    -Emoji Custom:
             - get
         - Groups:
             - addAll
@@ -481,17 +486,18 @@ Here you can also find what articles are incomplete and missing.
         - Rate Limiter
         - Query and Fields Info
         - Personal Access Tokens
-        - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
-        - <span class="incomplete">[Testing](../missing-and-outdated-list#Testing)</span>
-        - Troubleshooting
-        - UI and Theming:
+    - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
+    - <span class="incomplete">[Testing](../missing-and-outdated-list#Testing)</span>
+    - Troubleshooting
+    - UI and Theming:
         - Colors
         - Components
         - Themes
-        - GraphQL API:
-            - Authentication
-            - Schema
-            - Subscription
+    - GraphQL API:
+        - Authentication
+        - Schema
+        - Setup
+        - Subscription
 - Bots:
     - Bots FAQ
     - Bots Architecture
