@@ -111,9 +111,10 @@ Here you can also find what articles are incomplete and missing.
     - Authentication:
         - CAS
         - Ldap
-        - <span class="incomplete">[Oauth](../missing-and-outdated-list/index.html#oauth)</span>
+        - Oauth
         - SAML
-        - <span class="missing">[WordPress](../missing-and-outdated-list/index.html#WordPress)</span>
+            - Oracle Cloud
+        - WordPress
         - <span class="missing">[Custom Oauth](../missing-and-outdated-list/index.html#custom-oauth)</span>
         - <span class="missing">[Using Rocket.Chat as an Oauth provider](../missing-and-outdated-list/index.html#using-rocketchat-as-an-oauth-provider)</span>
         - <span class="missing">[oauth2 o365](../missing-and-outdated-list/index.html#oauth2-o365)</span>
@@ -121,7 +122,7 @@ Here you can also find what articles are incomplete and missing.
         - <span class="missing">[Layout](../missing-and-outdated-list/index.html#Layout)</span>
         - <span class="missing">[Assets](../missing-and-outdated-list/index.html#Assets)</span>
     - <span class="missing">[Custom Emoji](../missing-and-outdated-list/index.html#adding-custom-emoji)</span>
-    - <span class="missing">[Custom Fields](../missing-and-outdated-list/index.html#custom-fields)</span>
+    - Custom Fields
     - <span class="missing">[Custom Sounds](../missing-and-outdated-list/index.html#adding-custom-sounds)</span>
     - Database-Migration
     - Email:
@@ -129,16 +130,21 @@ Here you can also find what articles are incomplete and missing.
         - Editing Emails Content
         - Mailer
         - Direct Reply
+    - Federation
     - File Upload:
         - Amazon S3
         - Google Cloud Storage
         - Minio
+        - WebDav
         - <span class="missing">[GridFS](../missing-and-outdated-list/index.html#GridFS)</span>
         - <span class="missing">[Local File System](../missing-and-outdated-list/index.html#Local-File-System)</span>
     - <span class="missing">[General Settings](../missing-and-outdated-list/index.html#General-Settings)</span>
         - <span class="missing">[General Section](../missing-and-outdated-list/index.html#General-Section)</span>
         - <span class="missing">[Message Section](../missing-and-outdated-list/index.html#Message-Section)</span>
-    - Hubot
+    - <span class="missing">[Hubot](../missing-and-outdated-list/index.html#Hubot)</span>
+    - Google Cloud
+        - Auto Translate
+    - Google Drive
     - Import:
         - CSV
         - HipChat:
@@ -173,6 +179,7 @@ Here you can also find what articles are incomplete and missing.
     - Jitsi Video Bridge
     - Livechat:
         - Livechat Queues
+        - Omnichannel Intergration
     - Notifications:
         - Push Notifications
     - <span class="incomplete">[Permissions](../missing-and-outdated-list/index.html#Permissions)</span>
@@ -181,7 +188,15 @@ Here you can also find what articles are incomplete and missing.
         - Pidgin
     - Create the First Admin
     - Restoring an Admin
+    - Retention Policies
+    - Rocket Chat Apps
+        - Bamboo Integration
+        - Bitbucket Server Integration
+        - Confluence Server Integration
+        - Jira Server Integration
     - Settings Via Env Vars
+    - Setting Up Video Conferencing
+    - Youtube Broadcasting
 - Developer guides:
     - Quick Start
     - Branches and Releases

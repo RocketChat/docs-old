@@ -52,10 +52,6 @@ Add instructions on how to import data from a cloud hosted hipchat.
 
 Add more details on what is this doc about.
 
-## Wordpress
-
-Explain how the Wordpress Authentication works and how to set it up.
-
 ## Authentication
 
 Add a little introduction and a list of links for the articles inside this folder.
@@ -90,13 +86,13 @@ Create a guide on how to use the `General` setting section.
 
 Create a guide on how to use the `Message` setting section.
 
-## Oauth
-
-Missing meteor Oauth section.
-
 ## Adding Custom Emoji
 
 Create a guide on how to add custom emojis to Rocket.Chat.
+
+## Hubot
+
+Create a guide on how to add Hubot to Rocket.Chat.
 
 ## Adding Custom Sounds
 
@@ -117,7 +113,3 @@ Create a guide on how to use Rocket.Chat as an Oauth provider.
 ## Oauth2 O365
 
 Create documentation on how to use oauth2 o365 authentication service with Rocket.Chat. You can find info on this issue <https://github.com/RocketChat/Rocket.Chat/issues/6809>
-
-## Custom Fields
-
-Create documentation on how to add custom fields to Rocket.Chat and how they work.
