@@ -23,7 +23,7 @@ Open soruce contributions from students have already reach an all time high, wit
 
 <https://gsoc.rocket.chat/>
 
-Our community of mentors is now hard-at-work right now going through every one of the proposals, and will be contacting students for a video chat prior to deciding on proposal selection and slot assignments.  All students are encouraged to continue their engagement with our community, and contribute to our open source projects.
+Our community of mentors is hard-at-work right now going through every one of the proposals, and will be contacting students for a video chat prior to deciding on proposal selection and slot assignments.  All students are encouraged to continue their engagement with our community, and contribute to our open source projects.
 
 ### About Rocket.Chat GSoC 2019
 
