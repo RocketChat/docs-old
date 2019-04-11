@@ -11,9 +11,21 @@ redirect_from:
 
 ## How to apply
 
-Student application has opened.  Please go to [Official GSoC application site](https://summerofcode.withgoogle.com/) to register and apply.   Deadline for application and final proposal is April 9, 2019.   Please see [GSoC timeline](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#timeline) for more details.
+Applications for the GSoC 2019 season have now closed.   Please see [GSoC timeline](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#timeline) for more details.
 
-Students are encouraged to submit their draft proposals as early as possible.  You may work with your mentors and fellow students to improve the draft proposal until submission deadline of April 9, 2019.
+### Update on April 10, 2019
+
+This year, Rocket.Chat received a record breaking ONE HUNDRED AND TWO proposals from students studying at every corner of the globe.  It is the first year we attempted to build a students + mentors community prior to submission deadline.  Thanks to an enthusiastic and dedicated students community, we are successful in creating a GSoC 2019 community of TWO HUNDRED AND FIFTY members on our dedicated community server channel:
+
+<https://open.rocket.chat/channel/gsoc2019>
+
+Open soruce contributions from students have already reach an all time high, with over ONE HUNDRED AND THIRTY students signed up for our real-time contribution tracking leaderboard:
+
+<https://gsoc.rocket.chat/>
+
+Our community of mentors is now hard-at-work right now going through every one of the proposals, and will be contacting students for a video chat prior to deciding on proposal selection and slot assignments.  All students are encouraged to continue their engagement with our community, and contribute to our open source projects.
+
+### About Rocket.Chat GSoC 2019
 
 For ideas, check out our [list of ideas](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#project-ideas) for some inspiration.
 
