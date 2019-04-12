@@ -1,4 +1,4 @@
-# Asset Unset Asset by name
+# Unset Asset
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
