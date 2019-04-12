@@ -16,7 +16,10 @@
     "type": "git",
     "url": "git+ssh://git@github.com/RocketChat/docs.git"
   },
-  "author": "lolimay <1404363070@qq.com>",
+  "author": {
+    "name": "Rocket.Chat",
+    "url": "https://rocket.chat/"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/RocketChat/docs/issues"
