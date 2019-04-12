@@ -1,5 +1,7 @@
 # Unset Asset
 
+Unset an asset by name. Requires `manage-assets` permission.
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/assets.unsetAsset` | `yes` | `POST` |

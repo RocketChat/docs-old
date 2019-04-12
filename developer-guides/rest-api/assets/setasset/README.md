@@ -1,5 +1,7 @@
 # Set Asset
 
+Set an asset by name. Requires `manage-assets` permission.
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/assets.setAsset` | `yes` | `POST` |
