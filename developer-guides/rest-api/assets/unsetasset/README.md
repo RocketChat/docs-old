@@ -22,6 +22,7 @@ Unset an asset by name. Requires `manage-assets` permission.
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      http://localhost:3000/api/v1/assets.unsetAsset \
+     -H "Content-Type:application/json" \
      -d '{ "assetName": "logo", "refreshAllClients": true}'
 ```
 
