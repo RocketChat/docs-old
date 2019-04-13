@@ -4,7 +4,7 @@
 
 [Most](https://github.com/RocketChat/Rocket.Chat/issues/4091)\* use of color in Rocket.Chat can be customised by changing color settings under Administration > Layout > Colors. We encourage developers to use the defined variables in their contributions (instead of hard-coding colors), to allow site owners to change the color scheme with consistent results.
 
-See the [theme variables file](https://github.com/RocketChat/Rocket.Chat/blob/develop/packages/rocketchat-theme/server/variables.js) for current available color settings. All color settings are available to Less files as variables, as long as the Less files were compiled using the `addPackageAsset` method of `rocketchat-theme`.
+See the [theme variables file](https://github.com/RocketChat/Rocket.Chat/blob/develop/app/theme/server/variables.js) for current available color settings. All color settings are available to Less files as variables, as long as the Less files were compiled using the `addPackageAsset` method of `rocketchat-theme`.
 
 - - -
 
