@@ -33,32 +33,33 @@ Semi-transparent black or white, used in components to shade/tint the background
 
 The primary palette of the app. Contributions and modifications to components should make use of these colors.
 
-- content-background-color
-- primary-background-color
-- primary-font-color
-- primary-action-color
-- secondary-background-color
-- secondary-font-color
-- secondary-action-color
-- component-color
-- success-color
-- pending-color
-- error-color
-- selection-color
+- content-background-color <span style="color: #FFFFFF">**#FFFFFF**</span>
+- primary-background-color <span style="color: #04436A">**#04436A**</span>
+- primary-font-color <span style="color: #444444">**#444444**</span>
+- primary-action-color <span style="color: #1d74f5">**#1d74f5**</span>
+- secondary-background-color <span style="color: #F4F4F4">**#F4F4F4**</span>
+- secondary-font-color <span style="color: #A0A0A0">**#A0A0A0**</span>
+- secondary-action-color <span style="color: #DDDDDD">**#DDDDDD**</span>
+- component-color <span style="color: #f2f3f5">**#f2f3f5**</span>
+- success-color <span style="color: #4dff4d">**#4dff4d**</span>
+- pending-color <span style="color: #FCB316">**#FCB316**</span>
+- error-color <span style="color: #BC2031">**#BC2031**</span>
+- selection-color <span style="color: #02ACEC">**#02ACEC**</span>
+- attention-color <span style="color: #9C27B0">**#9C27B0**</span>
 
 ### Minor Colors
 
 A set of minor colors for specific use cases will inherit from the major colors by default but can be used by admins who want more granular control over the color scheme.
 
-- tertiary-background-color _defaults to component-color_
-- tertiary-font-color _defaults to transparent-light_
-- link-font-color _defaults to primary-action-color_
-- info-font-color _defaults to secondary-font-color_
-- custom-scrollbar-color _defaults to transparent-dark_
-- status-online  _defaults to success-color_
-- status-away _defaults to pending-color_
-- status-busy _defaults to error-color_
-- status-offline _defaults to transparent-darker_
+- tertiary-background-color &nbsp; _defaults to component-color_
+- tertiary-font-color &nbsp; _defaults to transparent-light_
+- link-font-color &nbsp; _defaults to primary-action-color_
+- info-font-color &nbsp; _defaults to secondary-font-color_    
+- custom-scrollbar-color &nbsp; _defaults to transparent-dark_
+- status-online  &nbsp; _defaults to success-color_
+- status-away &nbsp; _defaults to pending-color_
+- status-busy &nbsp; _defaults to error-color_
+- status-offline &nbsp; _defaults to transparent-darker_
 
 ### Dark UI
 
