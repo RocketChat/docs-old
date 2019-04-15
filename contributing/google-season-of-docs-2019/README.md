@@ -23,13 +23,11 @@ For offline discussions, we have a discussion forum:
 
 <https://forums.rocket.chat/c/gsod/gsod2019>
 
-If you have questions and prefer email, please write us at:
-
-    gsod+2019@rocket.chat
+If you have questions and prefer email, please write us at:  gsod+2019@rocket.chat
 
 ## Project Ideas
 
 ### Application Programming Interfaces (APIs) Documentation Playground
 
 - **Mentors**: @martin.schoeler, @marcos.defendi
-- **Description**: When developing applications, developers can use a rich set of Application Programming Interfaces (APIs) offered by ROcket.Chat to control every aspect of Rocket.Chat's operation. The documentation for this set of APIs mixes automated generation with hand crafted usage descriptions, application scenarios, and coding examples. The "playground" makes this documentation comes alive.  Developer can visit the API page and actually interact with the API directly through the documentation page.  You will work with two mentors specialized in API coding and documentatation generation for this project.
+- **Description**: When developing applications, developers can use a rich set of Application Programming Interfaces (APIs) offered by Rocket.Chat to control every aspect of Rocket.Chat's operation. The documentation for this set of APIs mixes automated generation with hand crafted usage descriptions, application scenarios, and coding examples. The "playground" makes this documentation comes alive.  Developer can visit the API page and actually interact with the API directly through the documentation page.  You will work with two mentors specialized in API coding and documentatation generation for this project.
