@@ -35,4 +35,4 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 ### Android Kotlin Software Development Kit (Kotlin SDK) documentation
 
 - **Mentors**: @filipe.brito, @rafael.kellermann
-- **Description**: Modern Android mobile developer typically uses Kotlin to create their mobile apps.  To make developing Rocket.Chat integrated and compatible Android apps simpler,  Rocket.Chat has created an comprehensive Software Development Kit (SDK) for Kotlin. This project will involve the documentation for the SDK features and API.   You will be working closely with Rocket.Chat mobile leads, the developers who actually coded the SDK, during your term. 
+- **Description**: Modern Android mobile developers typically use Kotlin to create their mobile apps.  To make developing Rocket.Chat integrated and compatible Android apps simpler,  Rocket.Chat has created a comprehensive Software Development Kit (SDK) for Kotlin. This project will involve the detailed documentation for the SDK features, application scenarios, and APIs.   You will be working closely with Rocket.Chat mobile leads, the developers who actually coded the SDK, during your term.
