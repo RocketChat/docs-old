@@ -58,7 +58,6 @@ Here you can also find what articles are incomplete and missing.
         - Sandstorm.io
         - Scalingo
         - Sloppy.io
-        - WeDeploy
     - Docker containers:
         - Generic Linux
         - systemd
@@ -411,8 +410,10 @@ Here you can also find what articles are incomplete and missing.
             - deletePushToken
         - Rooms:
             - cleanHistory
+            - createDiscussion
             - favorite
             - get
+            - getDiscussions
             - info
             - leave
             - saveNotification
