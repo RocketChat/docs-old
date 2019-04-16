@@ -32,7 +32,7 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 - **Mentors**: @martin.schoeler, @marcos.defendi
 - **Description**: When developing applications, developers can use a rich set of Application Programming Interfaces (APIs) offered by Rocket.Chat to control every aspect of Rocket.Chat's operation. The documentation for this set of APIs mixes automated generation with hand crafted usage descriptions, application scenarios, and coding examples. The "playground" makes this documentation comes alive.  Developer can visit the API page and actually interact with the API directly through the documentation page.  You will work with two mentors specialized in API coding and documentatation generation for this project.
 
-### Android Kotlin SDK documentation
+### Android Kotlin Software Development Kit (Kotlin SDK) documentation
 
 - **Mentors**: @filipe.brito, @rafael.kellermann
-- **Description**: Document all the implementation of Android Kotlin SDK.
+- **Description**: Modern Android mobile developer typically uses Kotlin to create their mobile apps.  To make developing Rocket.Chat integrated and compatible Android apps simpler,  Rocket.Chat has created an comprehensive Software Development Kit (SDK) for Kotlin. This project will involve the documentation for the SDK features and API.   You will be working closely with Rocket.Chat mobile leads, the developers who actually coded the SDK, during your term. 
