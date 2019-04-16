@@ -36,3 +36,13 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 
 - **Mentors**: @filipe.brito, @rafael.kellermann
 - **Description**: Document all the implementation of Android Kotlin SDK.
+
+### JS SDK documentation
+
+- **Mentors**: TBD
+- **Description**: Document all the implementation of JS SDK.
+
+### Apps Engine guides
+
+- **Mentors**: TBD
+- **Description**: Create guides of how to start developing apps for Rocket.Chat
