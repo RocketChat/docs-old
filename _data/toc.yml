@@ -311,6 +311,8 @@
         - search
         - starMessage
         - sendMessage
+        - syncThreadMessages
+        - syncThreadsList
         - unfollowMessage
         - unPinMessage
         - unStarMessage

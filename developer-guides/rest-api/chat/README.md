@@ -17,6 +17,8 @@
 | `/api/v1/chat.search` | Search for messages in a channel. | [Link](search/)        |
 | `/api/v1/chat.starMessage` | Stars a chat message for the authenticated user. | [Link](starmessage/) |
 | `/api/v1/chat.sendMessage`   | Send new chat message.                         | [Link](sendmessage/)   |
+| `/api/v1/chat.syncThreadMessages` | Retrieves synced thread's messages.   | [Link](syncthreadmessages/)  |
+| `/api/v1/chat.syncThreadsList`  | Retrieves thread's synced channel threads.  | [Link](syncthreadslist/)  |
 | `/api/v1/chat.unfollowMessage`  | Unfollows an existing chat message. | [Link](unfollowmessage/)  |
 | `/api/v1/chat.unPinMessage` | Removes the pinned status of the provided chat message. | [Link](unpinmessage/) |
 | `/api/v1/chat.unStarMessage` | Removes the star on the chat message for the authenticated user. | [Link](unstarmessage/) |

@@ -167,6 +167,8 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.search`                 | Search for messages in a channel.                                | [Link](chat/search/)                    |
 | `/api/v1/chat.starMessage`            | Stars a chat message for the authenticated user.                 | [Link](chat/starmessage/)               |
 | `/api/v1/chat.sendMessage`            | Send new chat message.                                           | [Link](chat/sendmessage/)               |
+| `/api/v1/chat.syncThreadMessages`     | Retrieves synced thread's messages.                              | [Link](chat/syncthreadmessages/)        |
+| `/api/v1/chat.syncThreadsList`        | Retrieves thread's synced channel threads.                       | [Link](chat/syncthreadslist/)           |
 | `/api/v1/chat.unfollowMessage`        | Unfollows an existing chat message.                              | [Link](chat/unfollowmessage/)           |
 | `/api/v1/chat.unPinMessage`           | Removes the pinned status of the provided chat message.          | [Link](chat/unpinmessage/)              |
 | `/api/v1/chat.unStarMessage`          | Removes the star on the chat message for the authenticated user. | [Link](chat/unstarmessage/)             |
