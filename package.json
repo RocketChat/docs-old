@@ -4,6 +4,7 @@
   "description": "Guides for developing and modifying Rocket.Chat's code --- layout: home permalink: /index.html ---",
   "main": "main.js",
   "scripts": {
+    "start": "bundle exec \"jekyll serve --incremental --safe\"",
     "lint": "bundle exec \"mdl ./ -r ~MD004 -i -g\""
   },
   "husky": {

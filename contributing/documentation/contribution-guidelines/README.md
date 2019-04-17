@@ -54,8 +54,8 @@ When making small changes like typos and such, there is no problem to edit the f
 - Fork the appropriate repository to your account.
 - This is usually [here](https://github.com/RocketChat/docs).
 - Clone your fork.
-- Run `bundle install` inside of the cloned docs folder.
-- Start the server with `bundle exec "jekyll serve --incremental --safe"`.
+- Run `bundle install` AND `npm install` inside of the cloned docs folder.
+- Start the server with `bundle exec "jekyll serve --incremental --safe"` Or `npm start`.
 - Before starting read our [Markdown Style Guide](../markdown-styleguide).
 - Make your changes locally.
 - Run the markdown linter tool with `mdl .` on the root directory of the project.

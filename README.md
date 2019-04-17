@@ -19,6 +19,6 @@ This is a quick guide on how to run the docs site locally, for a more in depth g
 - Fork the [https://github.com/RocketChat/docs](https://github.com/RocketChat/docs) repository.
 - Clone your forked repository to your local enviroment.
 - Run `cd docs/`to enter the cloned docs folder.
-- Run `bundle install`.
-- Start the server with `bundle exec "jekyll serve --incremental --safe"`.
+- Run `bundle install` AND `npm install`.
+- Start the server with `bundle exec "jekyll serve --incremental --safe"` Or `npm start`.
 
