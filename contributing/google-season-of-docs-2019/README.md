@@ -46,3 +46,7 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 
 - **Mentors**: TBD
 - **Description**: Create guides of how to start developing apps for Rocket.Chat
+
+### Bot Guides
+- **Mentors**: @sing.li @reetp
+- **Description**: Create guides on creating and using bots with RocketChat
