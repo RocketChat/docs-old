@@ -47,7 +47,6 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 - **Mentors**: TBD
 - **Description**: Create guides of how to start developing apps for Rocket.Chat
 
-### Bot Guides
+### The Bot Docs
 - **Mentors**: @reetp @sing.li
-- **Description**: The Bot Docs
-Working with core developers and the open source community advocates in the Rocket.Chat community this is your opportunity to join us and dive into the exciting world of Chatbots and Machine Learning (ML). Bots are tomorrows technology, today. Automating and simplifying life for both user and provider, the demand for this technology and how to develop and deploy, is huge. Rocket.Chat has integrated support for bots created via different programming languages and deployment methods to leverage the power of Rocket.Chat. This includes leading services and frameworks such as Dialogflow, Botpress, RASA, Botkit, hubot, and bbot. Documenting this in a clear and precise manner, from bot development and usage through to more advanced deployments, is a huge task and vital to Rocket.Chat and its users.
+- **Description**: Working with core developers and the open source community advocates in the Rocket.Chat community this is your opportunity to join us and dive into the exciting world of Chatbots and Machine Learning (ML). Bots are tomorrows technology, today. Automating and simplifying life for both user and provider, the demand for this technology and how to develop and deploy, is huge. Rocket.Chat has integrated support for bots created via different programming languages and deployment methods to leverage the power of Rocket.Chat. This includes leading services and frameworks such as Dialogflow, Botpress, RASA, Botkit, hubot, and bbot. Documenting this in a clear and precise manner, from bot development and usage through to more advanced deployments, is a huge task and vital to Rocket.Chat and its users.
