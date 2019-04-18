@@ -1,4 +1,4 @@
-# Info
+# Directory
 
 A method, that searches by users or channels on all users and channels available on server.
 It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/)
