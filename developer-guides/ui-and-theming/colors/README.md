@@ -54,7 +54,7 @@ A set of minor colors for specific use cases will inherit from the major colors 
 - tertiary-background-color &nbsp; _defaults to component-color_
 - tertiary-font-color &nbsp; _defaults to transparent-light_
 - link-font-color &nbsp; _defaults to primary-action-color_
-- info-font-color &nbsp; _defaults to secondary-font-color_    
+- info-font-color &nbsp; _defaults to secondary-font-color_
 - custom-scrollbar-color &nbsp; _defaults to transparent-dark_
 - status-online  &nbsp; _defaults to success-color_
 - status-away &nbsp; _defaults to pending-color_
