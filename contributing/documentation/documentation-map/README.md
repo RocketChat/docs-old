@@ -174,7 +174,7 @@ Here you can also find what articles are incomplete and missing.
         - Livechat Queues
     - Notifications:
         - Push Notifications
-    - <span class="incomplete">[Permissions](../missing-and-outdated-list/index.html#Permissions)</span>
+    - Permissions
     - Plug-ins:
         - Drupal
         - Pidgin
