@@ -1,6 +1,6 @@
 # Developing
 
-First of all, thank you for your interest in contributing to Rocket Chat.
+First of all, thank you for your interest in contributing to Rocket.Chat.
 If this is the first Open Source project you will contribute to,
 we strongly suggest reading GitHub's excellent guide
 ["Contributing to Open Source"][contributing].
@@ -16,16 +16,16 @@ If you already have a work in progress pull request open for that issue you can 
 **Where to Find Tasks:**
 
 Want a simple task to get you started?
-[We maintain a list of those][easy_label]!
+[We maintain a list of those][easy_label]! Or just search for issues tagged contrib:easy
 
 Check our [developer guides](../../developer-guides/)
 for more detailed information about pull requests, workflow and API docs.
 
 ## Priority Features and/or Bug fixes
 
-If you want a feature or bug fix to be developed with a certain priority:
+If you want a feature or bug fix to be developed with a higher priority:
 
-- [Contact us directly](https://rocket.chat/contact) to sponsor development
+- [Contact us directly](https://rocket.chat/contact) to sponsor it's development
 - [Add a bounty](https://www.bountysource.com/teams/rocketchat) to it
 
 [contributing]: https://guides.github.com/activities/contributing-to-open-source/

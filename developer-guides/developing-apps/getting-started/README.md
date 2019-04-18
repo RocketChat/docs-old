@@ -2,6 +2,10 @@
 
 Here you will find how to use some basic commands of the cli, as well as adding a description file to it.
 
+## Recent webinar on Getting Started with Rocket.Chat Apps Development
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PaFPeD6QG9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Rocket.Chat App Engine CLI
 
 It all starts with the apps engine [Command Line Interface (CLI)](https://github.com/RocketChat/Rocket.Chat.Apps-cli). This is the tool that will be used to create, run and publish your app.

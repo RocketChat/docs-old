@@ -58,7 +58,6 @@ Here you can also find what articles are incomplete and missing.
         - Sandstorm.io
         - Scalingo
         - Sloppy.io
-        - WeDeploy
     - Docker containers:
         - Generic Linux
         - systemd
@@ -199,6 +198,11 @@ Here you can also find what articles are incomplete and missing.
     - Mobile Apps
         - Supporting SSL
         - Supported Servers Versions
+    - GraphQL API:
+        - Authentication
+        - Schema
+        - Setup
+        - Subscription
     - Realtime-API:
         - Method Calls:
             - Login
@@ -258,6 +262,7 @@ Here you can also find what articles are incomplete and missing.
             - twitter
         - Channels:
             - addAll
+            - addLeader
             - addModerator
             - addOwner
             - archive
@@ -281,6 +286,7 @@ Here you can also find what articles are incomplete and missing.
             - messages
             - online
             - open
+            - removeLeader
             - removeModerator
             - removeOwner
             - rename
@@ -297,6 +303,7 @@ Here you can also find what articles are incomplete and missing.
             - unarchive
         - Chat:
             - delete
+            - getDeletedMessages
             - getMessage
             - getMessageReadReceipts
             - pinMessage
@@ -309,6 +316,7 @@ Here you can also find what articles are incomplete and missing.
             - unPinMessage
             - unStarMessage
             - update
+            - ignoreUser
         - Commands:
             - get
             - list
@@ -320,6 +328,7 @@ Here you can also find what articles are incomplete and missing.
             - update
         - Groups:
             - addAll
+            - addLeader
             - addModerator
             - addOwner
             - archive
@@ -340,6 +349,7 @@ Here you can also find what articles are incomplete and missing.
             - messages
             - moderators
             - open
+            - removeLeader
             - removeModerator
             - removeOwner
             - rename
@@ -399,8 +409,10 @@ Here you can also find what articles are incomplete and missing.
             - deletePushToken
         - Rooms:
             - cleanHistory
+            - createDiscussion
             - favorite
             - get
+            - getDiscussions
             - info
             - leave
             - saveNotification
