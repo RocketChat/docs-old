@@ -12,6 +12,7 @@
   - Google Summer of Code 2017
   - Google Summer of Code 2018
   - Google Summer of Code 2019
+  - Google Season of Docs 2019
   - Promoting
   - Reporting Issues
   - Security:
@@ -42,7 +43,6 @@
     - Sandstorm.io
     - Scalingo
     - Sloppy.io
-    - WeDeploy
     - D2C.io
     - Syncloud.org
   - Docker containers:
@@ -317,7 +317,10 @@
         - list
         - run
       - Emoji Custom:
-        - get
+        - create
+        - delete
+        - list
+        - update
       - Groups:
         - addAll
         - addLeader
@@ -402,8 +405,10 @@
         - deletePushToken
       - Rooms:
         - cleanHistory
+        - createDiscussion
         - favorite
         - get
+        - getDiscussions
         - info
         - leave
         - saveNotification
