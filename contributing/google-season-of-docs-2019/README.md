@@ -19,7 +19,7 @@ This year's Season of Docs is a pilot that accepts only a limited number of appl
 
 ## How to apply
 
-Application for technical writers opens April 30, 2019. See [Google Season of Docs 2019 timeline](https://developers.google.com/season-of-docs/docs/timeline) for more details.
+Application for technical writers opens *May 29, 2019*. See [Google Season of Docs 2019 timeline](https://developers.google.com/season-of-docs/docs/timeline) for more details.
 
 Start planning your proposal now! Check out our [list of ideas](https://rocket.chat/docs/contributing/google-season-of-docs-2019/#project-ideas) for some inspiration.
 
