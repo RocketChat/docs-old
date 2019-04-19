@@ -9,6 +9,14 @@ redirect_from:
 
 # Google Season of Docs 2019
 
+[Season of Docs](https://g.co/seasonofdocs) is Google's annual program that fosters collaboration between open source projects and technical writers. It's happening for the first time in 2019!
+
+Season of Docs is a unique program that pairs technical writers with open source mentors to introduce the technical writer to an open source community and provide guidance while the writer works on a real world open source project. The technical writer in turn provides documentation expertise to the open source organization.
+
+Projects can cover a wide range of fields including Cloud computing, operating systems, graphics, medicine, programming languages, robotics, science, security and many more. Season of Docs is not a recruiting program or an internship but it does provide an invaluable experience and looks great on a resume!
+
+This year's Season of Docs is a pilot that accepts only a limited number of applications, so don't wait to the last minute to prepare!
+
 ## How to apply
 
 Application for technical writers opens April 30, 2019. See [Google Season of Docs 2019 timeline](https://developers.google.com/season-of-docs/docs/timeline) for more details.
