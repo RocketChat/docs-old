@@ -37,6 +37,21 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 - **Mentors**: @filipe.brito, @rafael.kellermann
 - **Description**: Modern Android mobile developers typically use Kotlin to create their mobile apps.  To make developing Rocket.Chat integrated and compatible Android apps simpler,  Rocket.Chat has created a comprehensive Software Development Kit (SDK) for Kotlin. This project will involve the detailed documentation for the SDK features, application scenarios, and APIs.   You will be working closely with Rocket.Chat mobile leads, the developers who actually coded the SDK, during your term.
 
+### The Bot Docs
+
+- **Mentors**: @reetp @sing.li
+- **Description**: Working with core developers and the open source community advocates in the Rocket.Chat community this is your opportunity to join us and dive into the exciting world of Chatbots and Machine Learning (ML). Bots are tomorrows technology, today. Automating and simplifying life for both user and provider, the demand for this technology and how to develop and deploy, is huge. Rocket.Chat has integrated support for bots created via different programming languages and deployment methods to leverage the power of Rocket.Chat. This includes leading services and frameworks such as Dialogflow, Botpress, RASA, Botkit, hubot, and bbot. Documenting this in a clear and precise manner, from bot development and usage through to more advanced deployments, is a huge task and vital to Rocket.Chat and its users.
+
+### Security documentation
+
+- **Mentors**: @markus.kirsch @rodrigok
+- **Description**: We at Rocket.Chat take pride in taking extra efforts in providing a true open source and secure messenging solution. Transparency and trust are key features of our products. This is an exciting opportunity to work with our team of experts to create a comprehensive documentation of the security features of Rocket.chat and create implementation guides for configuring Rocket.Chat to follow compliance regimes such as GDPR, HIPAA and NIST.
+
+### Rocket.Chat Experimental (React Native client) documentation
+
+- **Mentors**: @diego.mello
+- **Description**: Document all features of Rocket.Chat Experimental
+
 ### JS SDK documentation
 
 - **Mentors**: TBD
@@ -46,18 +61,3 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 
 - **Mentors**: TBD
 - **Description**: Create guides of how to start developing apps for Rocket.Chat
-
-### The Bot Docs
-
-- **Mentors**: @reetp @sing.li
-- **Description**: Working with core developers and the open source community advocates in the Rocket.Chat community this is your opportunity to join us and dive into the exciting world of Chatbots and Machine Learning (ML). Bots are tomorrows technology, today. Automating and simplifying life for both user and provider, the demand for this technology and how to develop and deploy, is huge. Rocket.Chat has integrated support for bots created via different programming languages and deployment methods to leverage the power of Rocket.Chat. This includes leading services and frameworks such as Dialogflow, Botpress, RASA, Botkit, hubot, and bbot. Documenting this in a clear and precise manner, from bot development and usage through to more advanced deployments, is a huge task and vital to Rocket.Chat and its users.
-
-### Security documentation
-
-- **Mentors**: @markus.kirsch
-- **Description**: We at Rocket.Chat take pride in taking extra efforts in providing a true open source and secure messenging solution. Transparency and trust are key features of our products. This is an exciting opportunity to work with our team of experts to create a comprehensive documentation of the security features of Rocket.chat and create implementation guides for configuring Rocket.Chat to follow compliance regimes such as GDPR, HIPAA and NIST.
-
-### Rocket.Chat Experimental (React Native client) documentation
-
-- **Mentors**: @diego.mello
-- **Description**: Document all features of Rocket.Chat Experimental

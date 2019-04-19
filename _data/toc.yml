@@ -317,7 +317,10 @@
         - list
         - run
       - Emoji Custom:
-        - get
+        - create
+        - delete
+        - list
+        - update
       - Groups:
         - addAll
         - addLeader
