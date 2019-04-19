@@ -1,5 +1,7 @@
 # User Create
 
+Create a new user. Requires `create-user` permission.
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/users.create` | `yes` | `POST` |
