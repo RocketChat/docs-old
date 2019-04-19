@@ -1,5 +1,7 @@
 # Login with Facebook
 
+Authenticate with Facebook.
+
 | URL             | Requires Auth | HTTP Method |
 | :-------------- | :------------ | :---------- |
 | `/api/v1/login` | `no`          | `POST`      |

@@ -1,5 +1,7 @@
 # Login with Google
 
+Authenticate with Google.
+
 | URL             | Requires Auth | HTTP Method |
 | :-------------- | :------------ | :---------- |
 | `/api/v1/login` | `no`          | `POST`      |

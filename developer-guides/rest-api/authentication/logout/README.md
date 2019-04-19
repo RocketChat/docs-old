@@ -1,5 +1,7 @@
 # Logout
 
+Invalidate your REST API authentication token.
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |
 | `/api/v1/logout` | `yes` | `POST` |

@@ -1,5 +1,7 @@
 # Login with Twitter
 
+Authenticate with Twitter.
+
 | URL             | Requires Auth | HTTP Method |
 | :-------------- | :------------ | :---------- |
 | `/api/v1/login` | `no`          | `POST`      |

@@ -1,5 +1,7 @@
 # Login
 
+Login with your username and password.
+
 | URL             | Requires Auth | HTTP Method |
 | :-------------- | :------------ | :---------- |
 | `/api/v1/login` | `no`          | `POST`      |
