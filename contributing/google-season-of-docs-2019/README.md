@@ -47,6 +47,11 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 - **Mentors**: @markus.kirsch @rodrigok
 - **Description**: We at Rocket.Chat take pride in taking extra efforts in providing a true open source and secure messenging solution. Transparency and trust are key features of our products. This is an exciting opportunity to work with our team of experts to create a comprehensive documentation of the security features of Rocket.chat and create implementation guides for configuring Rocket.Chat to follow compliance regimes such as GDPR, HIPAA and NIST.
 
+### Project leadership directions and roadmaps
+
+- **Mentors**: @gabriel.engel  @marcelo.schmidt
+- **Description**: Transparency is a cornerstone value of many open source projects.  Rocket.Chat aims to support this value by offering a set of frequently updated project directional documents - including roadmaps, visionary, strategy and white papers.  These will incorporate input from the wider community through interactive feedback as well as regular reviews. A system will be implemented to present this content in various consumable formats. You will be working with Rocket.Chat's leadership team in formulating and authoring of these documents.
+
 ### Rocket.Chat Experimental (React Native client) documentation
 
 - **Mentors**: @diego.mello
