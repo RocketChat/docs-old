@@ -54,7 +54,8 @@ curl -H "Content-type:application/json" \
             ],
             "settings": {
                 "preferences": {}
-              }
+              },
+            "avatarUrl": "http://localhost:3000/avatar/test"
         }
    }
 }
@@ -64,5 +65,6 @@ curl -H "Content-type:application/json" \
 
 | Version | Description |
 | :--- | :--- |
+| 1.0.0 | Added `avatarUrl` property to response |
 | 0.64.0 | Added `me` property to response |
 | 0.63.0 | Added |
