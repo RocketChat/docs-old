@@ -8,7 +8,7 @@ Create a new user. Requires `create-user` permission.
 
 **Note**
 
-- To save `customFields` you must first define the `customFields` in admin panel (Accounts -> Registration -> Custom fields)
+- To save `customFields` you must first define the `customFields` in admin panel (Accounts -> Registration -> Custom fields).
 
 ## Payload
 
@@ -63,6 +63,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
       ],
       "_updatedAt": "2016-09-13T14:57:56.175Z",
       "name": "name",
+      "settings": {},
       "customFields": {
          "twitter": "@userstwitter"
       }
@@ -70,6 +71,10 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
    "success": true
 }
 ```
+
+**Note**
+
+- The `customFields` will not be returned if it does not exist on the server.
 
 ## Change Log
 
