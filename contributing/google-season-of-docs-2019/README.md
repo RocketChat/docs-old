@@ -41,6 +41,12 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 - **Description**: When developing applications, developers can use a rich set of Application Programming Interfaces (APIs) offered by Rocket.Chat to control every aspect of Rocket.Chat's operation. The documentation for this set of APIs mixes automated generation with hand crafted usage descriptions, application scenarios, and coding examples. The "playground" makes this documentation comes alive.  Developer can visit the API page and actually interact with the API directly through the documentation page. We already have a hand-crafted set of API docs that is maintained by our community but they tend to become obsolete as API changes. This project will replace the legacy documentation.  You will work with two mentors specialized in API coding and documentatation generation for this project.
 - **Related Material**: [Our existing REST API documentation](https://rocket.chat/docs/developer-guides/rest-api/)
 
+### Security documentation
+
+- **Mentors**: @markus.kirsch @rodrigok
+- **Description**: We at Rocket.Chat take pride in taking extra efforts in providing a true open source and secure messenging solution. Transparency and trust are key features of our products. This is an exciting opportunity to work with our team of experts to create a comprehensive documentation of the security features of Rocket.chat and create implementation guides for configuring Rocket.Chat to follow compliance regimes such as GDPR, HIPAA and NIST. The focus is on creating a new set of documentation based on the existing material and new features that since have been deployed.
+- **Related Material**:  [Rocket.Chat Security Overview](https://rocket.chat/docs/contributing/security/), [Rocket.Chat GDPR features](https://rocket.chat/2018/05/20/gdpr/)
+
 ### Android Kotlin Software Development Kit (Kotlin SDK) documentation
 
 - **Mentors**: @filipe.brito, @rafael.kellermann
@@ -58,13 +64,6 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 - **Mentors**: @gabriel.engel  @marcelo.schmidt
 - **Description**: Transparency is a cornerstone value of many open source projects.  Rocket.Chat aims to support this value by offering a set of frequently updated project directional documents - including roadmaps, visionary, strategy and white papers.  These will incorporate input from the wider community through interactive feedback as well as regular reviews. This documenation currently exists in bits and pieces, but is not in an easy to digest/understand format.  A system will be implemented to present this content in various consumable formats. You will be working with Rocket.Chat's leadership team in formulating and authoring of these documents.
 - **Related Material**:  [Project roadmap on our Github repository](https://github.com/RocketChat/Rocket.Chat/projects/30), [Livechat component roadmap](https://github.com/orgs/RocketChat/projects/20)
-
-### Security documentation
-
-- **Mentors**: @markus.kirsch @rodrigok
-- **Description**: We at Rocket.Chat take pride in taking extra efforts in providing a true open source and secure messenging solution. Transparency and trust are key features of our products. This is an exciting opportunity to work with our team of experts to create a comprehensive documentation of the security features of Rocket.chat and create implementation guides for configuring Rocket.Chat to follow compliance regimes such as GDPR, HIPAA and NIST. The focus is on creating a new set of documentation based on the existing material and new features that since have been deployed.
-- **Related Material**:  [Rocket.Chat Security Overview](https://rocket.chat/docs/contributing/security/), [Rocket.Chat GDPR features](https://rocket.chat/2018/05/20/gdpr/)
-
 
 ### Rocket.Chat Experimental (React Native client) documentation
 
