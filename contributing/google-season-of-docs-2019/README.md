@@ -62,7 +62,9 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 ### Security documentation
 
 - **Mentors**: @markus.kirsch @rodrigok
-- **Description**: We at Rocket.Chat take pride in taking extra efforts in providing a true open source and secure messenging solution. Transparency and trust are key features of our products. This is an exciting opportunity to work with our team of experts to create a comprehensive documentation of the security features of Rocket.chat and create implementation guides for configuring Rocket.Chat to follow compliance regimes such as GDPR, HIPAA and NIST.
+- **Description**: We at Rocket.Chat take pride in taking extra efforts in providing a true open source and secure messenging solution. Transparency and trust are key features of our products. This is an exciting opportunity to work with our team of experts to create a comprehensive documentation of the security features of Rocket.chat and create implementation guides for configuring Rocket.Chat to follow compliance regimes such as GDPR, HIPAA and NIST. The focus is on creating a new set of documentation based on the existing material and new features that since have been deployed.
+- **Related Material**:  [Rocket.Chat Security Overview](https://rocket.chat/docs/contributing/security/), [Rocket.Chat GDPR features](https://rocket.chat/2018/05/20/gdpr/)
+
 
 ### Rocket.Chat Experimental (React Native client) documentation
 
