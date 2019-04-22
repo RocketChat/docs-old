@@ -71,13 +71,14 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 - **Description**: React Native is one of the hottest frameworks nowadays. It allows developers to write fully native mobile applications  using only Javascript and inherits all the ease of development features from the ReactJS community. At Rocket.Chat we have our own client implemented using RN and it's availbale on App Store and Google Play as Rocket.Chat Experimental. This project aims to build user documentation for all the features we have implemented so far. This documentation does not exist today. You will be working with our lead React Native developer during this project.
 - **Related Material**:  [Rocket.Chat Experimental](https://github.com/RocketChat/Rocket.Chat.ReactNative), [Rocket.Chat Experimental on App Store](https://itunes.apple.com/br/app/rocket-chat-experimental/id1272915472?mt=8), [Rocket.Chat Experimental on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)
 
-### JS SDK documentation
-
-- **Mentors**: TBD
-- **Description**: Document all the implementation of JS SDK.
-
 ### Apps-Engine guides
 
 - **Mentors**: @d-gubert @rodrigok
 - **Description**: The Apps-Engine is a framework that enables developers to integrate new functionality to Rocket.Chat without having to deep dive in the code base, and makes it possible to distribute your Rocket.Chat Apps to the wide community of users! And in order to improve the developer experience when making those apps, we need to improve our docs so they guide people smoothly through the available features. You will be working with Rocket.Chat Apps leads to extend the guides and docs that already exist, focusing on the DX of the community.
 - **Related Material**: [Getting Started with Rocket.Chat Apps](https://rocket.chat/docs/developer-guides/developing-apps/getting-started/), [Rocket.Chat Apps-Engine API Reference](https://rocketchat.github.io/Rocket.Chat.Apps-engine/)
+
+### JS SDK documentation
+
+- **Mentors**: @rodrigok
+- **Description**: Document all the implementation of JS SDK.
+- **Related Material**: [JS SDK repository](https://github.com/RocketChat/Rocket.Chat.js.SDK)
