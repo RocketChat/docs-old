@@ -75,7 +75,8 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 - **Mentors**: TBD
 - **Description**: Document all the implementation of JS SDK.
 
-### Apps Engine guides
+### Apps-Engine guides
 
-- **Mentors**: TBD
-- **Description**: Create guides of how to start developing apps for Rocket.Chat
+- **Mentors**: @d-gubert @rodrigok
+- **Description**: The Apps-Engine is a framework that enables developers to integrate new functionality to Rocket.Chat without having to deep dive in the code base, and makes it possible to distribute your Rocket.Chat Apps to the wide community of users! And in order to improve the developer experience when making those apps, we need to improve our docs so they guide people smoothly through the available features. You will be working with Rocket.Chat Apps leads to extend the guides and docs that already exist, focusing on the DX of the community.
+- **Related Material**: [Getting Started with Rocket.Chat Apps](https://rocket.chat/docs/developer-guides/developing-apps/getting-started/), [Rocket.Chat Apps-Engine API Reference](https://rocketchat.github.io/Rocket.Chat.Apps-engine/)
