@@ -68,7 +68,7 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 ### Rocket.Chat Experimental (React Native client) documentation
 
 - **Mentors**: @diego.mello @renato.becker
-- **Description**: React Native is one of the hottest frameworks nowadays. It allows to develop fully native mobile applications using only Javascript and inherits all ReactJS community. At Rocket.Chat we have our own client implemented using RN and it's availbale on App Store and Google Play as Rocket.Chat Experimental. This project aims to document all the features implemented so far.
+- **Description**: React Native is one of the hottest frameworks nowadays. It allows developers to write fully native mobile applications  using only Javascript and inherits all the ease of development features from the ReactJS community. At Rocket.Chat we have our own client implemented using RN and it's availbale on App Store and Google Play as Rocket.Chat Experimental. This project aims to build user documentation for all the features we have implemented so far. This documentation does not exist today. You will be working with our lead React Native developer during this project.
 - **Related Material**:  [Rocket.Chat Experimental](https://github.com/RocketChat/Rocket.Chat.ReactNative), [Rocket.Chat Experimental on App Store](https://itunes.apple.com/br/app/rocket-chat-experimental/id1272915472?mt=8), [Rocket.Chat Experimental on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)
 
 ### JS SDK documentation
