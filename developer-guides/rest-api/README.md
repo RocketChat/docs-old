@@ -153,9 +153,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | Url                                   | Short Description                                                | Details Page                            |
 | :------------------------------------ | :--------------------------------------------------------------- | :-------------------------------------- |
 | `/api/v1/chat.delete`                 | Deletes an existing chat message.                                | [Link](chat/delete/)                    |
+| `/api/v1/chat.followMessage`          | Follows an existing chat message.                                | [Link](chat/followmessage/)             |
 | `/api/v1/chat.getDeletedMessages`     | Retrieves the deleted messages since specific date.              | [Link](chat/getdeletedmessages/)        |
 | `/api/v1/chat.getMessage`             | Retrieves a single chat message.                                 | [Link](chat/getmessage/)                |
 | `/api/v1/chat.getMessageReadReceipts` | Retrieves message read receipts.                                 | [Link](chat/getmessagereadreceipts/)    |
+| `/api/v1/chat.getThreadMessages`      | Retrieves thread's messages.                                     | [Link](chat/getthreadmessages/)         |
+| `/api/v1/chat.getThreadsList`         | Retrieves channel's threads.                                     | [Link](chat/getthreadslist/)            |
 | `/api/v1/chat.ignoreUser`             | Ignores an user from a chat.                                     | [Link](chat/ignoreuser/)                |
 | `/api/v1/chat.pinMessage`             | Pins a chat message to the message's channel.                    | [Link](chat/pinmessage/)                |
 | `/api/v1/chat.postMessage`            | Posts a new chat message.                                        | [Link](chat/postmessage/)               |
@@ -164,6 +167,9 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.search`                 | Search for messages in a channel.                                | [Link](chat/search/)                    |
 | `/api/v1/chat.starMessage`            | Stars a chat message for the authenticated user.                 | [Link](chat/starmessage/)               |
 | `/api/v1/chat.sendMessage`            | Send new chat message.                                           | [Link](chat/sendmessage/)               |
+| `/api/v1/chat.syncThreadMessages`     | Retrieves synced thread's messages.                              | [Link](chat/syncthreadmessages/)        |
+| `/api/v1/chat.syncThreadsList`        | Retrieves thread's synced channel threads.                       | [Link](chat/syncthreadslist/)           |
+| `/api/v1/chat.unfollowMessage`        | Unfollows an existing chat message.                              | [Link](chat/unfollowmessage/)           |
 | `/api/v1/chat.unPinMessage`           | Removes the pinned status of the provided chat message.          | [Link](chat/unpinmessage/)              |
 | `/api/v1/chat.unStarMessage`          | Removes the star on the chat message for the authenticated user. | [Link](chat/unstarmessage/)             |
 | `/api/v1/chat.update`                 | Updates the text of the chat message.                            | [Link](chat/update/)                    |
