@@ -1,6 +1,6 @@
 # Get thread messages
 
-Get thread messages. It supports ONLY the [Offset and Count](../../offset-and-count-and-sort-info/).
+Get thread messages. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/) along with [Query and Fields Query Parameters](../../query-and-fields-info/).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -61,6 +61,9 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
             "channels": []
         }
     ],
+    "count": 2,
+    "offset": 0,
+    "total": 2,
     "success": true
 }
 ```
