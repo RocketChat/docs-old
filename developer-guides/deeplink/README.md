@@ -8,14 +8,14 @@ This is done using a special url that the applications are registered to handle.
 
 There are two prefixes available:
 
-* https://go.rocket.chat
-* rocketchat://
+* `https://go.rocket.chat1
+* `rocketchat://`
 
 We call `https://go.rocket.chat` links go links. Links here will work across web, mobile and desktop clients.
 
 The alternative will only be handled by mobile and desktop clients.
 
-In all examples below https://go.rocket.chat/ is interchangeable with rocketchat://
+In all examples below `https://go.rocket.chat/` is interchangeable with `rocketchat://`
 
 ## Authentication
 
@@ -23,7 +23,7 @@ These links can be used for adding a server to your client in one click.  This m
 
 You can also include credentials to make it add the server and auto log them in.
 
-Authentication links start with: https://go.rocket.chat/auth
+Authentication links start with: `https://go.rocket.chat/auth`
 
 **Params:**
 
@@ -35,17 +35,21 @@ Authentication links start with: https://go.rocket.chat/auth
 
 Link directly to server:
 
-> https://go.rocket.chat/auth?host=open.rocket.chat
+```
+https://go.rocket.chat/auth?host=open.rocket.chat
+```
 
 Link directly to server and authenticate:
 
-> https://go.rocket.chat/auth?host=foo.bar.com&token=123abc&userId=1234abcd
+```
+https://go.rocket.chat/auth?host=foo.bar.com&token=123abc&userId=1234abcd
+```
 
 ## Channel / Group / DM
 
 You can also link directly to a room.
 
-These links start with: https://go.rocket.chat/room
+These links start with: `https://go.rocket.chat/room`
 
 **Params:**
 
@@ -55,4 +59,6 @@ These links start with: https://go.rocket.chat/room
 
 **Example:**
 
-> https://go.rocket.chat/room?host=open.rocket.chat&rid=GENERAL&path=channel/general
+```
+https://go.rocket.chat/room?host=open.rocket.chat&rid=GENERAL&path=channel/general
+```
