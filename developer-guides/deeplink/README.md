@@ -15,7 +15,7 @@ We call `https://go.rocket.chat` links go links. Links here will work across web
 
 The alternative will only be handled by mobile and desktop clients.
 
-In all examples below https://go.rocket.chat is interchangeable with rocketchat:// 
+In all examples below https://go.rocket.chat/ is interchangeable with rocketchat:// 
 
 ## Authentication
 
