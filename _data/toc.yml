@@ -298,9 +298,12 @@
         - unarchive
       - Chat:
         - delete
+        - followMessage
         - getDeletedMessages
         - getMessage
         - getMessageReadReceipts
+        - getThreadMessages
+        - getThreadsList
         - pinMessage
         - postMessage
         - react
@@ -308,6 +311,9 @@
         - search
         - starMessage
         - sendMessage
+        - syncThreadMessages
+        - syncThreadsList
+        - unfollowMessage
         - unPinMessage
         - unStarMessage
         - update

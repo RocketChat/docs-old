@@ -41,6 +41,12 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 - **Description**: When developing applications, developers can use a rich set of Application Programming Interfaces (APIs) offered by Rocket.Chat to control every aspect of Rocket.Chat's operation. The documentation for this set of APIs mixes automated generation with hand crafted usage descriptions, application scenarios, and coding examples. The "playground" makes this documentation comes alive.  Developer can visit the API page and actually interact with the API directly through the documentation page. We already have a hand-crafted set of API docs that is maintained by our community but they tend to become obsolete as API changes. This project will replace the legacy documentation.  You will work with two mentors specialized in API coding and documentatation generation for this project.
 - **Related Material**: [Our existing REST API documentation](https://rocket.chat/docs/developer-guides/rest-api/)
 
+### Security documentation
+
+- **Mentors**: @markus.kirsch @rodrigok
+- **Description**: We at Rocket.Chat take pride in taking extra efforts in providing a true open source and secure messenging solution. Transparency and trust are key features of our products. This is an exciting opportunity to work with our team of experts to create a comprehensive documentation of the security features of Rocket.chat and create implementation guides for configuring Rocket.Chat to follow compliance regimes such as GDPR, HIPAA and NIST. The focus is on creating a new set of documentation based on the existing material and new features that since have been deployed.
+- **Related Material**:  [Rocket.Chat Security Overview](https://rocket.chat/docs/contributing/security/), [Rocket.Chat GDPR features](https://rocket.chat/2018/05/20/gdpr/)
+
 ### Android Kotlin Software Development Kit (Kotlin SDK) documentation
 
 - **Mentors**: @filipe.brito, @rafael.kellermann
@@ -50,7 +56,7 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 ### The Bot Docs
 
 - **Mentors**: @reetp @sing.li
-- **Description**: Working with core developers and the open source community advocates in the Rocket.Chat community this is your opportunity to join us and dive into the exciting world of Chatbots and Machine Learning (ML). Bots are tomorrows technology, today. Automating and simplifying life for both user and provider, the demand for this technology and how to develop and deploy, is huge. Rocket.Chat has integrated support for bots created via different programming languages and deployment methods to leverage the power of Rocket.Chat. This includes leading services and frameworks such as Dialogflow, Botpress, RASA, Botkit, hubot, and bbot. Documenting this in a clear and precise manner, from bot development and usage through to more advanced deployments, is a huge task and vital to Rocket.Chat and its users.  We do already have scattered docs, in the form of developers READMEs, for the subprojects.  A major part of this project is to better organize, unify, and improve them for end user consumption.
+- **Description**: Working with core developers and the best open source community advocates in the Rocket.Chat community this is your opportunity to join us and dive into the exciting world of Chatbots and Machine Learning (ML). Bots are tomorrows technology, today. Automating and simplifying life for both user and provider, the demand for this technology and how to develop and deploy, is huge. Rocket.Chat has integrated support for bots created via different programming languages and deployment methods to leverage the power of Rocket.Chat. This includes leading services and frameworks such as Dialogflow, Botpress, RASA, Botkit, hubot, and bbot. Documenting this in a clear and precise manner, from bot development and usage through to more advanced deployments, is a huge task and vital to Rocket.Chat and its users.  We do already have scattered docs, in the form of developers READMEs, for the subprojects.  A major part of this project is to better organize, unify, and improve them for end user consumption.
 - **Related Material**:  BOT projects we have ongoing that needs to be unified in the new documentation. [alexa](https://github.com/RocketChat/alexa-rocketchat), [hubot](https://github.com/RocketChat/hubot-rocketchat), [chatops-gitsy](https://github.com/RocketChat/hubot-gitsy), [botpress](https://github.com/RocketChat/botpress-channel-rocketchat), [rasa](https://github.com/RocketChat/rasa-kick-starter), [bbot](http://bbot.chat/), [botkit](https://github.com/RocketChat/botkit-rocketchat-connector), [BOTswana](https://github.com/RocketChat/botswana-snap), and [Bot in Rocket.Chat overview plus roadmap](https://rocket.chat/bots)
 
 ### Project leadership directions and roadmaps
@@ -59,22 +65,20 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 - **Description**: Transparency is a cornerstone value of many open source projects.  Rocket.Chat aims to support this value by offering a set of frequently updated project directional documents - including roadmaps, visionary, strategy and white papers.  These will incorporate input from the wider community through interactive feedback as well as regular reviews. This documenation currently exists in bits and pieces, but is not in an easy to digest/understand format.  A system will be implemented to present this content in various consumable formats. You will be working with Rocket.Chat's leadership team in formulating and authoring of these documents.
 - **Related Material**:  [Project roadmap on our Github repository](https://github.com/RocketChat/Rocket.Chat/projects/30), [Livechat component roadmap](https://github.com/orgs/RocketChat/projects/20)
 
-### Security documentation
-
-- **Mentors**: @markus.kirsch @rodrigok
-- **Description**: We at Rocket.Chat take pride in taking extra efforts in providing a true open source and secure messenging solution. Transparency and trust are key features of our products. This is an exciting opportunity to work with our team of experts to create a comprehensive documentation of the security features of Rocket.chat and create implementation guides for configuring Rocket.Chat to follow compliance regimes such as GDPR, HIPAA and NIST.
-
 ### Rocket.Chat Experimental (React Native client) documentation
 
-- **Mentors**: @diego.mello
-- **Description**: Document all features of Rocket.Chat Experimental
+- **Mentors**: @diego.mello @renato.becker
+- **Description**: React Native is one of the hottest frameworks nowadays. It allows developers to write fully native mobile applications  using only Javascript and inherits all the ease of development features from the ReactJS community. At Rocket.Chat we have our own client implemented using RN and it's availbale on App Store and Google Play as Rocket.Chat Experimental. This project aims to build user documentation for all the features we have implemented so far. This documentation does not exist today. You will be working with our lead React Native developer during this project.
+- **Related Material**:  [Rocket.Chat Experimental](https://github.com/RocketChat/Rocket.Chat.ReactNative), [Rocket.Chat Experimental on App Store](https://itunes.apple.com/br/app/rocket-chat-experimental/id1272915472?mt=8), [Rocket.Chat Experimental on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)
+
+### Apps-Engine guides
+
+- **Mentors**: @d-gubert @rodrigok
+- **Description**: The Apps-Engine is a framework that enables developers to integrate new functionality to Rocket.Chat without having to deep dive in the code base, and makes it possible to distribute your Rocket.Chat Apps to the wide community of users! And in order to improve the developer experience when making those apps, we need to improve our docs so they guide people smoothly through the available features. You will be working with Rocket.Chat Apps leads to extend the guides and docs that already exist, focusing on the DX of the community.
+- **Related Material**: [Getting Started with Rocket.Chat Apps](https://rocket.chat/docs/developer-guides/developing-apps/getting-started/), [Rocket.Chat Apps-Engine API Reference](https://rocketchat.github.io/Rocket.Chat.Apps-engine/)
 
 ### JS SDK documentation
 
-- **Mentors**: TBD
-- **Description**: Document all the implementation of JS SDK.
-
-### Apps Engine guides
-
-- **Mentors**: TBD
-- **Description**: Create guides of how to start developing apps for Rocket.Chat
+- **Mentors**: @rodrigok, @ggazzo
+- **Description**: The JS SDK is a library of code written in JS that offers an easier interface to communicate with a Rocket.Chat server provinding APIs to be called from a JS code that executes commands on the server, like send a message, or retrive data, like get the list of rooms, abstracting all the logic necessary to handle the communication with the server side. You will be working with Rocket.Chat backend and frontend leads to improve the documentation of all JS SDK methods, from the initial setup of how to get the library and install it to the list of methods, how to use them and the expected returned data. Current documentation is under the SDK repository README.
+- **Related Material**: [JS SDK repository](https://github.com/RocketChat/Rocket.Chat.js.SDK), [Mention in BOT's Docs](https://rocket.chat/docs/bots/bots-architecture/#rocketchat-js-sdk), [NPM Package](https://www.npmjs.com/package/@rocket.chat/sdk), [Documentation](https://github.com/RocketChat/Rocket.Chat.js.SDK/blob/master/README.md)
