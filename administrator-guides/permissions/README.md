@@ -1,4 +1,4 @@
-# Permission
+# Permissions
 
 Rocket.Chat has a vast and customizable permissions system. Most of the actions a user can make requires a certain permission so you can customize what users can do and see.
 

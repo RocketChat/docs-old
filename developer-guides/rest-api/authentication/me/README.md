@@ -72,14 +72,21 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
         "twitter": "@userstwi"
     },
   "avatarUrl": "http://localhost:3000/avatar/test",
+  "customFields": {
+      "twitter": "@userstwi"
+  },
   "success": true
 }
 ```
+
+**Note**
+
+- The `customFields` will not be returned if it does not exist on the server.
 
 ## Change Log
 
 | Version | Description |
 | :--- | :--- |
 | 1.0.0 | Added `avatarUrl` property to response |
-| 0.68.0 | Added `customFields` property. Return if it exists on server |
+| 0.68.0 | Added `customFields` property. |
 | 0.48.0 | Added |
