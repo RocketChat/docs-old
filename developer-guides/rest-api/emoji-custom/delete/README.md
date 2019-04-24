@@ -1,16 +1,14 @@
-# User Delete Own Account
-
-Deletes your own user. Requires `Allow Users to Delete Own Account` enabled. Accessible from Administration -> Accounts.
+# Emoji Custom delete
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/users.deleteOwnAccount` | `yes` | `POST` |
+| `/api/v1/emoji-custom.delete` | `yes` | `POST` |
 
 ## Payload
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `password` | `BsNr28znDkG8aeo7W` | Required | The password of user (encrypted in SHA256). |
+| `emojiId` | `ByehQjC44FwMeiLbX` | Required | The custom emoji id to be deleted. |
 
 ## Example Call
 
@@ -18,8 +16,8 @@ Deletes your own user. Requires `Allow Users to Delete Own Account` enabled. Acc
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type:application/json" \
-     http://localhost:3000/api/v1/users.deleteOwnAccount \
-     -d '{ "password": "BsNr28znDkG8aeo7W" }'
+     http://localhost:3000/api/v1/emoji-custom.delete \
+     -d '{ "emojiId": "ByehQjC44FwMeiLbX" }'
 ```
 
 ## Example Result
@@ -34,4 +32,4 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
-| 0.67.0 | Added |
+| 0.74.0 | Added |

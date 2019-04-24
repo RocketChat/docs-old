@@ -18,12 +18,6 @@ In this article we explained how to start the end to end and unit tests in Rocke
 
 This style guide needs to be converted to CSS, since the base is almost the same.
 
-## Permissions
-
-Not all permissions are listed on this article, and some of the permissions listed there don't have a description.
-
-And Fix the markdown table on that article.
-
 ## GridFS
 
 Tell how the GridFS file storage mode works and how to configure it.
