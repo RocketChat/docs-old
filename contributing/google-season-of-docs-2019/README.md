@@ -56,7 +56,7 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 ### The Bot Docs
 
 - **Mentors**: @reetp @sing.li
-- **Description**: Working with core developers and the open source community advocates in the Rocket.Chat community this is your opportunity to join us and dive into the exciting world of Chatbots and Machine Learning (ML). Bots are tomorrows technology, today. Automating and simplifying life for both user and provider, the demand for this technology and how to develop and deploy, is huge. Rocket.Chat has integrated support for bots created via different programming languages and deployment methods to leverage the power of Rocket.Chat. This includes leading services and frameworks such as Dialogflow, Botpress, RASA, Botkit, hubot, and bbot. Documenting this in a clear and precise manner, from bot development and usage through to more advanced deployments, is a huge task and vital to Rocket.Chat and its users.  We do already have scattered docs, in the form of developers READMEs, for the subprojects.  A major part of this project is to better organize, unify, and improve them for end user consumption.
+- **Description**: Working with core developers and the best open source community advocates in the Rocket.Chat community this is your opportunity to join us and dive into the exciting world of Chatbots and Machine Learning (ML). Bots are tomorrows technology, today. Automating and simplifying life for both user and provider, the demand for this technology and how to develop and deploy, is huge. Rocket.Chat has integrated support for bots created via different programming languages and deployment methods to leverage the power of Rocket.Chat. This includes leading services and frameworks such as Dialogflow, Botpress, RASA, Botkit, hubot, and bbot. Documenting this in a clear and precise manner, from bot development and usage through to more advanced deployments, is a huge task and vital to Rocket.Chat and its users.  We do already have scattered docs, in the form of developers READMEs, for the subprojects.  A major part of this project is to better organize, unify, and improve them for end user consumption.
 - **Related Material**:  BOT projects we have ongoing that needs to be unified in the new documentation. [alexa](https://github.com/RocketChat/alexa-rocketchat), [hubot](https://github.com/RocketChat/hubot-rocketchat), [chatops-gitsy](https://github.com/RocketChat/hubot-gitsy), [botpress](https://github.com/RocketChat/botpress-channel-rocketchat), [rasa](https://github.com/RocketChat/rasa-kick-starter), [bbot](http://bbot.chat/), [botkit](https://github.com/RocketChat/botkit-rocketchat-connector), [BOTswana](https://github.com/RocketChat/botswana-snap), and [Bot in Rocket.Chat overview plus roadmap](https://rocket.chat/bots)
 
 ### Project leadership directions and roadmaps
@@ -67,15 +67,18 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 
 ### Rocket.Chat Experimental (React Native client) documentation
 
-- **Mentors**: @diego.mello
-- **Description**: Document all features of Rocket.Chat Experimental
+- **Mentors**: @diego.mello @renato.becker
+- **Description**: React Native is one of the hottest frameworks nowadays. It allows developers to write fully native mobile applications  using only Javascript and inherits all the ease of development features from the ReactJS community. At Rocket.Chat we have our own client implemented using RN and it's availbale on App Store and Google Play as Rocket.Chat Experimental. This project aims to build user documentation for all the features we have implemented so far. This documentation does not exist today. You will be working with our lead React Native developer during this project.
+- **Related Material**:  [Rocket.Chat Experimental](https://github.com/RocketChat/Rocket.Chat.ReactNative), [Rocket.Chat Experimental on App Store](https://itunes.apple.com/br/app/rocket-chat-experimental/id1272915472?mt=8), [Rocket.Chat Experimental on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)
+
+### Apps-Engine guides
+
+- **Mentors**: @d-gubert @rodrigok
+- **Description**: The Apps-Engine is a framework that enables developers to integrate new functionality to Rocket.Chat without having to deep dive in the code base, and makes it possible to distribute your Rocket.Chat Apps to the wide community of users! And in order to improve the developer experience when making those apps, we need to improve our docs so they guide people smoothly through the available features. You will be working with Rocket.Chat Apps leads to extend the guides and docs that already exist, focusing on the DX of the community.
+- **Related Material**: [Getting Started with Rocket.Chat Apps](https://rocket.chat/docs/developer-guides/developing-apps/getting-started/), [Rocket.Chat Apps-Engine API Reference](https://rocketchat.github.io/Rocket.Chat.Apps-engine/)
 
 ### JS SDK documentation
 
-- **Mentors**: TBD
-- **Description**: Document all the implementation of JS SDK.
-
-### Apps Engine guides
-
-- **Mentors**: TBD
-- **Description**: Create guides of how to start developing apps for Rocket.Chat
+- **Mentors**: @rodrigok, @ggazzo
+- **Description**: The JS SDK is a library of code written in JS that offers an easier interface to communicate with a Rocket.Chat server provinding APIs to be called from a JS code that executes commands on the server, like send a message, or retrive data, like get the list of rooms, abstracting all the logic necessary to handle the communication with the server side. You will be working with Rocket.Chat backend and frontend leads to improve the documentation of all JS SDK methods, from the initial setup of how to get the library and install it to the list of methods, how to use them and the expected returned data. Current documentation is under the SDK repository README.
+- **Related Material**: [JS SDK repository](https://github.com/RocketChat/Rocket.Chat.js.SDK), [Mention in BOT's Docs](https://rocket.chat/docs/bots/bots-architecture/#rocketchat-js-sdk), [NPM Package](https://www.npmjs.com/package/@rocket.chat/sdk), [Documentation](https://github.com/RocketChat/Rocket.Chat.js.SDK/blob/master/README.md)
