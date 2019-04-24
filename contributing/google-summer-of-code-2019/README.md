@@ -161,6 +161,13 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description:** Adding the functionality of newsfeed, which is similar to a customized read-only channel for every user. Every user (follower) can follow other users (followed user). Posts from the followed user appear in the newsfeed of their followers. Posts are threaded discussions, started by the followed user in any public channel (origin channel), their follower can or cannot be a part of the origin channel, but this post comes up in their wall with a permalink to the original post in the origin channel. This helps in discovering new conversations. Interns are encouraged to propose extensions to this like wall, where a user can post threads that show up in their follower's feed, status updates, etc. Automated tests should be written to cover the added functionality.
 - **Desirable Skills:**  Familiarity with JavaScript development & Rocket.Chat code base
 
+### Improve end-to-end testing infrastructure for React Native app (Rocket.Chat Experimental)
+
+- **Mentors**: @diegolmello, @renatobecker
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
+- **Description**: E2E testing is important to keep the entire app working throughout the implementation of new features. Currently there's 219 E2E tests developed and passing on iOS only and they aren't working on CI, because we need an E2E dedicated and configured server. This project aims to improve testing infrastructure by adding Android capability and making test to pass on CI. Also we need to make sure all tests are passing as fast as possible. If there's any time left, the student must add even more tests.
+- **Desirable Skills:**  Familiarity with React Native and Rocket.Chat.ReactNative code base.
+
 ### Rocket.chat Articles
 
 - **Mentors:** @bizzbyster, @karan.bedi
