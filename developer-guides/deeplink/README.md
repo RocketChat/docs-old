@@ -9,13 +9,13 @@ This is done using a special url that the applications are registered to handle.
 There are two prefixes available:
 
 * https://go.rocket.chat
-* rocketchat:// 
+* rocketchat://
 
 We call `https://go.rocket.chat` links go links. Links here will work across web, mobile and desktop clients.
 
 The alternative will only be handled by mobile and desktop clients.
 
-In all examples below https://go.rocket.chat/ is interchangeable with rocketchat:// 
+In all examples below https://go.rocket.chat/ is interchangeable with rocketchat://
 
 ## Authentication
 
