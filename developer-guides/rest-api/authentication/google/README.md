@@ -1,5 +1,7 @@
 # Login with Google
 
+Authenticate with Google.
+
 | URL             | Requires Auth | HTTP Method |
 | :-------------- | :------------ | :---------- |
 | `/api/v1/login` | `no`          | `POST`      |
@@ -51,7 +53,8 @@ curl -H "Content-type:application/json" \
           ],
           "settings": {
               "preferences": {}
-            }
+            },
+          "avatarUrl": "http://localhost:3000/avatar/test"
       }
    }
 }
@@ -61,6 +64,7 @@ curl -H "Content-type:application/json" \
 
 | Version | Description |
 | :--- | :--- |
+| 1.0.0 | Added `avatarUrl` property to response |
 | 0.64.0 | Added `me` property to response |
 | 0.60.0 | Added |
 

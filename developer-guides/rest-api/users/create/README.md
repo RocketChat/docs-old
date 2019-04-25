@@ -63,10 +63,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
       ],
       "_updatedAt": "2016-09-13T14:57:56.175Z",
       "name": "name",
-      "settings": {},
-      "customFields": {
-         "twitter": "@userstwitter"
-      }
+      "settings": {}
    },
    "success": true
 }
