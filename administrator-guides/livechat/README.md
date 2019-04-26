@@ -4,7 +4,7 @@ Rocket.Chat had minimal Livechat as a feature for a long time.
 
 Recently the demand for production-grade Livechat has increased, so we started a complete rewrite of the package.
 
-This document contains instructions on setting up the new Livechat  _work-in-progress_ version.
+This document contains instructions on setting up the new Livechat _work-in-progress_ version.
 
 ## Introduction
 
@@ -14,7 +14,7 @@ Livechat package adds the ability to embed a pop-up support chat to your website
 
 ### Enable Livechat feature
 
-First, you have enable the Livechat feature on your Rocket.Chat instance. Go to `Administration > Settings > Livechat` and enable it.
+First, you have to enable the Livechat feature on your Rocket.Chat instance. Go to `Administration > Settings > Livechat` and enable it.
 
 ![image](https://cloud.githubusercontent.com/assets/8591547/14460567/97c6609c-0094-11e6-8f7e-da9a7c08ba51.png)
 
@@ -28,9 +28,9 @@ At *Livechat manager* you'll have the following configuration options:
 
 #### User Management
 
-You can add new livechat manager users and agents.
+You can add new Livechat manager users and agents.
 
-In order to start receiving incoming live chats you need to add livechat agents.
+To start receiving incoming live chats you need to add Livechat agents.
 
 #### Departments
 
@@ -38,13 +38,13 @@ You can have the following behavior depending on how many departments you have c
 
 - No departments: all Livechat agents will receive incoming chats using a round robin rule;
 - One department: all incoming chats will be offered to agents **only** on that department using a round robin rule;
-- More than one department: the visitor will have to choose with what department he wants to talk to at registration.
+- More than one department: the visitor will have to choose what department he wants to talk to at registration.
 
 #### Triggers
 
 You can configure how your Livechat widget will be triggered and what it will do on your website.
 
-You can set a condition (e.g. user access a url) and an action (e.g. send a message with the text "hello").
+You can set a condition (e.g. user access a URL) and an action (e.g. send a message with the text "hello").
 
 ![image](https://cloud.githubusercontent.com/assets/20868078/24811185/50fa9214-1b9b-11e7-86e4-27e2b90dcf99.png)
 
@@ -68,11 +68,11 @@ To customize the appearance of your Livechat widget goto Livechat -> Appearance
 
 #### Integrations
 
-You can use webhooks to easily integrate livechat with your CRM.
+You can use webhooks to easily integrate Livechat with your CRM.
 
-The Rocket.Chat will send a POST to the webhook URL when the livechat ends or you receive a new offline message.
+The Rocket.Chat will send a POST to the WebHook URL when the Livechat ends or you receive a new offline message.
 
-Here is an example of the JSON data sent on the end of a livechat session:
+Here is an example of the JSON data sent at the end of a Livechat session:
 
 ```
 {
@@ -127,7 +127,7 @@ Here is an example of the JSON data sent on the end of a livechat session:
 }
 ```
 
-Here is an example of the JSON data sent on a livechat offline message:
+Here is an example of the JSON data sent on a Livechat offline message:
 
 ```
 {
@@ -141,7 +141,7 @@ Here is an example of the JSON data sent on a livechat offline message:
 }
 ```
 
-The field **Secret Token** is sent to a header `X-RocketChat-Livechat-Token` so you can validate if the request became from the livechat.
+The field **Secret Token** is sent to a header `X-RocketChat-Livechat-Token` so you can validate if the request became from the Livechat.
 
 If your endpoint returns a response status other than 200, Rocket.Chat will retry 10 times waiting 10 seconds between retries.
 

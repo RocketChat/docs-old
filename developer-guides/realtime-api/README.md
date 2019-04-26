@@ -1,8 +1,12 @@
 # Realtime API
 
-**IMPORTANT!** These docs are based on an unreleased version of the API. If you want to try it out, point your client to **wss://open.rocket.chat/websocket**.
+Point your client to the Websocket of the server you want to connect to:
 
-Our realtime API is composed of two elements: [Method Calls][1] and [Subscriptions][2]. Both of them are supported directly in the websocket connection.
+```
+wss://[ABC.DOMAIN.COM]/websocket
+```
+
+Our real-time API is composed of two elements: [Method Calls][1] and [Subscriptions][2]. Both of them are supported directly in the websocket connection.
 
 To make it possible to have everything working on the same connection we use RPC with the following format.
 

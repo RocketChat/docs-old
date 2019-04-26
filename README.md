@@ -1,3 +1,4 @@
+Guides for developing and modifying Rocket.Chat's code
 ---
 layout: home
 permalink: /index.html
@@ -5,18 +6,26 @@ permalink: /index.html
 
 # Rocket.Chat Docs
 
-## What would you like to do?
+This is the official repository for Rocket.Chat Documentation.
 
-- [Learn how to use Rocket.Chat](user-guides/)
-- [Get support](getting-support/)
-- [Install Rocket.Chat](installation/)
-- [Administer your installation](administrator-guides/)
-- [Contribute to the project](contributing/)
+## How to run Rocket.Chat Docs locally:
 
-![image](mockup.png)
+This is a quick guide on how to run the docs site locally, for a more in depth guide please look [here]( contributing/documentation)
 
-## What is Rocket.Chat?
+- Install ruby (version 2.6 or higher recommended, if using any version prior to 2.5 you will need to install bundler with `gem install bundler`). If the above fails, try specifing the version by runnning `gem install bundler -v [VERSION]` as per the `BUNDLED WITH [VERSION]` definition in Gemfile.lock file.
+- This step is for only macOS users:
+    - You will need to have either `xcode` or the `xcode command line tools` installed. To install the command tools use `xcode-select --install`. Don't forget to accept the `sudo xcodebuild -license` command.
+    - Depending on your setup you might need to install [nokogiri](http://www.nokogiri.org/tutorials/installing_nokogiri.html) and its dependencies manually.
+- Fork the [https://github.com/RocketChat/docs](https://github.com/RocketChat/docs) repository.
+- Clone your forked repository to your local enviroment.
+- Run `cd docs/`to enter the cloned docs folder.
+- Run `bundle install`.
+- Start the server with `bundle exec "jekyll serve --incremental --safe"`.
 
-Rocket.Chat is a Web Chat Server, developed in JavaScript, using the [Meteor](https://www.meteor.com/install) fullstack framework.
+## Linting your changes locally:
 
-It is a great solution for communities and companies wanting to privately host their own chat service or for developers looking forward to build and evolve their own chat platforms.
+You should always lint your changes to find errors locally before pushing your changes.   This only takes seconds, from the `docs` directory:
+
+```
+bundle exec "mdl ./ -r ~MD004 -i -g"
+```

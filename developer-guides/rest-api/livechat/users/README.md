@@ -10,7 +10,7 @@ Get a list of agents or managers.
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `type` | `agent` | Required | Can be either `agent` or `department`. |
+| `type` | `agent` | Required | Can be either `agent` or `manager`. |
 
 ## Example Call
 
@@ -56,7 +56,7 @@ Register a new agent or manager.
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `type` | `agent` | Required | Can be either `agent` or `department`. |
+| `type` | `agent` | Required | Can be either `agent` or `manager`. |
 
 ## Example payload
 
@@ -105,7 +105,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `type` | `agent` | Required | Can be either `agent` or `department`. |
+| `type` | `agent` | Required | Can be either `agent` or `manager`. |
 | `_id` | `SQafHvoFPuB57NmBD` | Required | The user `_id`. |
 
 ## Example Call
@@ -144,7 +144,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `type` | `agent` | Required | Can be either `agent` or `department`. |
+| `type` | `agent` | Required | Can be either `agent` or `manager`. |
 | `_id` | `SQafHvoFPuB57NmBD` | Required | The user `_id`. |
 
 ## Example Call

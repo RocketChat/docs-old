@@ -48,28 +48,34 @@ When the state of the `release-candidate` branch is ready to become a real relea
 
 The release process is as follows:
 
-    $ git checkout master
-    Switched to branch 'master'
-    $ git merge --no-ff release-candidate
-    Merge made by recursive.
-    (Summary of changes)
-    $ git tag -a [version number]
+```bash
+$ git checkout master
+Switched to branch 'master'
+$ git merge --no-ff release-candidate
+Merge made by recursive.
+(Summary of changes)
+$ git tag -a [version number]
+```
 
 To keep the changes made in the release branch, we need to merge those back into develop, though. In Git:
 
-    $ git checkout develop
-    Switched to branch 'develop'
-    $ git merge --no-ff release-candidate
-    Merge made by recursive.
-    (Summary of changes)
+```bash
+$ git checkout develop
+Switched to branch 'develop'
+$ git merge --no-ff release-candidate
+Merge made by recursive.
+(Summary of changes)
+```
 
 To create the new `release-candidate` based on `develop`:
 
-    $ git checkout release-candidate
-    Switched to branch 'release-candidate'
-    $ git merge --no-ff develop
-    Merge made by recursive.
-    (Summary of changes)
+```bash
+$ git checkout release-candidate
+Switched to branch 'release-candidate'
+$ git merge --no-ff develop
+Merge made by recursive.
+(Summary of changes)
+```
 
 Every team member should strive to thoroughly test the `release-candidate` branch, especially regarding issues they've worked on. Any bug-fixes applied to `release-candidate` should immediately be cherry-picked into `develop`.
 
@@ -81,27 +87,31 @@ Hotfix branches are very much like release branches in that they are also meant 
 
 Hotfix branches are created from the `master` branch:
 
-    $ git checkout -b hotfix-[current-version].[sub-version] master
-    Switched to a new branch "hotfix-X.X.X"
+```bash
+$ git checkout -b hotfix-[current-version].[sub-version] master
+Switched to a new branch "hotfix-X.X.X"
+```
 
 Then, fix the bug and commit the fix. Later, merge the bugfix into `master` and also into `release-candidate` (and `develop` if the bugfix cannot wait for the release branch to be finished).
 
-    $ git commit -m "Fixed severe production problem"
-    [hotfix-X.X.X abc12d3] Fixed severe production problem
-    5 files changed, 32 insertions(+), 17 deletions(-)
+```bash
+$ git commit -m "Fixed severe production problem"
+[hotfix-X.X.X abc12d3] Fixed severe production problem
+5 files changed, 32 insertions(+), 17 deletions(-)
 
-    $ git checkout master
-    Switched to branch 'master'
-    $ git merge --no-ff hotfix-X.X.X
-    Merge made by recursive.
-    (Summary of changes)
-    $ git tag -a [current-version].[sub-version]
+$ git checkout master
+Switched to branch 'master'
+$ git merge --no-ff hotfix-X.X.X
+Merge made by recursive.
+(Summary of changes)
+$ git tag -a [current-version].[sub-version]
 
-    $ git checkout release-candidate
-    Switched to branch 'release-candidate'
-    $ git merge --no-ff hotfix-X.X.X
-    Merge made by recursive.
-    (Summary of changes)
+$ git checkout release-candidate
+Switched to branch 'release-candidate'
+$ git merge --no-ff hotfix-X.X.X
+Merge made by recursive.
+(Summary of changes)
+```
 
 ## Error reporting
 

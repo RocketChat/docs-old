@@ -12,17 +12,14 @@
 | `email` | `roger@example.com` | Required | The email for the user. |
 | `pass` | `passw0rd` | Required | The password for the user. |
 | `name` | `Roger Smith` | Required | The name of the user. |
-| `secretURL` | `http://localhost:3000/secret/registration/url` | Optional | URL provided to users for registration |
+| `secretURL` | `Jjwjg6gouWLXhMGKW` | Optional | String appended to secret registration URL (if using). |
 
 ## Example Call
 
 ```bash
 curl -H "Content-type:application/json" \
      http://localhost:3000/api/v1/users.register \
-     -d '{ "username": "rogersmith" }' \
-     -d '{ "email": "roger@example.com" }' \
-     -d '{ "pass": "passw0rd" }' \
-     -d '{ "name": "Roger Smith" }'
+     -d '{ "username": "rogersmith", "email": "roger@example.com", "pass": "passw0rd", "name": "Roger Smith"}'
 ```
 
 ## Example Result

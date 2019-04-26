@@ -18,16 +18,6 @@ In this article we explained how to start the end to end and unit tests in Rocke
 
 This style guide needs to be converted to CSS, since the base is almost the same.
 
-## Internal Hubot
-
-Instructions on how to use and develop hubot scripts are needed in this article.
-
-## Permissions
-
-Not all permissions are listed on this articles, and some of the permissions listed there don't have a description.
-
-And Fix the markdown table on that article.
-
 ## GridFS
 
 Tell how the GridFS file storage mode works and how to configure it.
@@ -40,19 +30,9 @@ Tell how the GridFS file storage mode works and how to configure it.
 
 Add more updating guides for different environments.
 
-## Voice and Video Calls
-
-Add proper instructions on how to use the video conference tools (both jitsi and WebRTC). Today we only have the requirements to run the WebRTC tool.
-
-Also differentiate jitsi from WebRTC.
-
-## ScreenSharing
-
-Add instructions on how to use screen-sharing.
-
 ## RedHat
 
-This section should be completed with the details on how to instal Rocket.Chat on RedHat.
+This section should be completed with the details on how to install Rocket.Chat on RedHat.
 
 ## Releases
 
@@ -64,7 +44,7 @@ Add instructions on how to import data from a cloud hosted hipchat.
 
 ## Schema Definition
 
-Add more details on what is this doc is about.
+Add more details on what is this doc about.
 
 ## Wordpress
 
@@ -126,43 +106,11 @@ Create a guide on how to create custom oauth apps.
 
 ## Using Rocket.Chat as an Oauth provider
 
-Create a guide on how to use Rocket.Chat as a Oauth provider.
-
-## channels.files
-
-Create documentation on how the `channels.files` REST API endpoint works
-
-## groups.files
-
-Create documentation on how the `groups.files` REST API endpoint works
-
-## im.files
-
-Create documentation on how the `im.files` REST API endpoint works
-
-## channels.members
-
-Create documentation on how the `channels.members` REST API endpoint works
-
-## groups.members
-
-Create documentation on how the `groups.members` REST API endpoint works
-
-## im.members
-
-Create documentation on how the `im.members` REST API endpoint works
+Create a guide on how to use Rocket.Chat as an Oauth provider.
 
 ## Oauth2 O365
 
 Create documentation on how to use oauth2 o365 authentication service with Rocket.Chat. You can find info on this issue <https://github.com/RocketChat/Rocket.Chat/issues/6809>
-
-## channels.delete
-
-Create documentation on how the `channels.delete` REST API endpoint works
-
-## groups.delete
-
-Create documentation on how the `groups.delete` REST API endpoint works
 
 ## Custom Fields
 

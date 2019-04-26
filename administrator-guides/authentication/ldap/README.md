@@ -1,6 +1,6 @@
 # LDAP
 
-To configure LDAP authentication, go to /admin/LDAP, enable LDAP and add configurations to connect with your LDAP server.
+To configure LDAP authentication, go to LDAP section of administration settings, enable LDAP and add configurations to connect with your LDAP server.
 
 ## Examples:
 
@@ -83,6 +83,10 @@ We're not experts on LDAP, so there might be lots of features we don't know abou
 ### I cannot login even everything looks good
 
 If you cannot login without getting any error messages (the last thing in log you see is `Attempt to bind <correct dn of user>`), make sure the username of your ldap account does not match any username of a local account. For example if you created a local user with username `joe`, then enable ldap and try to login with username `joe` (who exists on your ldap server), it will silently fail without any error message in your log simply saying username or password do not match. You cannot login with `joe` by your ldap password nor by your local password any more.
+
+### No users are created even everything looks good
+
+Every rocket.chat-user has to have an email. So either the LDAP users have an email or you have to set a default domain using the field "default domain".
 
 ## References
 

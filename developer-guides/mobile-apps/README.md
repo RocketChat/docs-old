@@ -39,36 +39,48 @@ Since this app is built with Cordova, the same requirements apply:
 
 ### Install Cordova
 
-    $ sudo npm install -g cordova
+```bash
+$ sudo npm install -g cordova
+```
 
 Additional information here: <https://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html>
 
 ### Install dependencies
 
-    $ sudo npm install -g underscore
-    $ sudo npm install -g coffee
+```bash
+$ sudo npm install -g underscore
+$ sudo npm install -g coffee
+```
 
 ### Get the App
 
 Clone the `Rocket.Chat.Cordova` repo:
 
-    $ git clone https://github.com/RocketChat/Rocket.Chat.Cordova
-    $ cd Rocket.Chat.Cordova
+```bash
+$ git clone https://github.com/RocketChat/Rocket.Chat.Cordova
+$ cd Rocket.Chat.Cordova
+```
 
 ### Create/Edit conf files
 
-    $ echo 'Bugsnag.apiKey = "YOUR-API-KEY-HERE";' > www/js/bugsnag_apikey.js
-    $ echo 'window.ANDROID_SENDER_ID = "YOUR-ANDROID-ID-HERE";' > www/shared/js/android_sender_id.js
+```bash
+$ echo 'Bugsnag.apiKey = "YOUR-API-KEY-HERE";' > www/js/bugsnag_apikey.js
+$ echo 'window.ANDROID_SENDER_ID = "YOUR-ANDROID-ID-HERE";' > www/shared/js/android_sender_id.js
+```
 
 ### Install app dependencies
 
-    $ sudo npm install
+```bash
+$ sudo npm install
+```
 
 ### Build the Android App
 
 In theory this is as simple as:
 
-    $ cordova build android
+```bash
+$ cordova build android
+```
 
 But if you get some errors (which seems kinda normal), make sure you have installed the SDK or tools in the Requirements section. Even though meteor may install it's own version of the SDK or tools, you still need the standalone version installed and the environment variables set for the Cordova build to succeed.
 
@@ -76,14 +88,18 @@ But if you get some errors (which seems kinda normal), make sure you have instal
 
 If there are a lot of `cannot find module` build problems, try adding and removing the cordova android platform:
 
-    $ cordova platform remove android
-    $ cordova platform add android
+```bash
+$ cordova platform remove android
+$ cordova platform add android
+```
 
 ### Test the App on an Emulator or Device
 
-SDKs for mobile platforms often come bundled with emulators that execute a device image, so that you can launch the app from the home screen and see how it interacts with many platform features. This command rebuild the app and view it within android's emulator:
+SDKs for mobile platforms often come bundled with emulators that execute a device image, so that you can launch the app from the home screen and see how it interacts with many platform features. This command rebuilds the app and views it within android's emulator:
 
-    $ cordova emulate android
+```bash
+$ cordova emulate android
+```
 
 You may need to first associate a device with an emulator.
 
@@ -91,9 +107,11 @@ You may need to first associate a device with an emulator.
 
 Alternately, you can plug the handset into your computer and test the app directly:
 
-    $ cordova run android
+```bash
+$ cordova run android
+```
 
-You would have to enable a USB debugging option on the device, and perhaps add a USB driver depending on your development environmnent.
+You would have to enable a USB debugging option on the device, and perhaps add a USB driver depending on your development environment.
 
 ### Run the app
 
@@ -110,7 +128,7 @@ You must have at least 4GB of RAM (16 GB recommended) and 10 GB of disk space av
 Then:
 
 ```shell
-    $ docker pull rocketchat/meteor12androidbuilder
+$ docker pull rocketchat/meteor12androidbuilder
 ```
 
 Follow the instructions [of the docker image](https://hub.docker.com/r/rocketchat/meteor12androidbuilder/).

@@ -23,15 +23,8 @@ If you need full control of your deployment, here are some guides for specific e
 - [Hyper.sh](hyper-sh/)
 - [IBM Bluemix](ibm-bluemix/)
 - [Sloppy.io](sloppy-io/)
-- [D2C.io](d2c-io)
-
-## Manual Installation
-
-- [CentOS](../../installation/manual-installation/centos/)
-- [Debian](../../installation/manual-installation/debian/)
-- [FreeBSD](../../installation/manual-installation/freebsd/)
-- [Ubuntu](../../installation/manual-installation/ubuntu/)
-- [Windows Server](../../installation/manual-installation/windows-server/)
+- [D2C.io](d2c-io/)
+- [Syncloud.org](syncloud-org/)
 
 ## Automation Tools
 

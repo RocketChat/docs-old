@@ -6,21 +6,23 @@ The CSV importer allows you to import your own plain text files, however it does
 
 The zip file must be a **flat zip**, which means there can **not** be a "root" or "sub" folder in which the items reside in the zip file. The importer looks for the files `channels.csv` and `users.csv` immediately inside the zip and not inside of any folder. If you have any questions about this, please ask in [#support channel on the Community server](https://open.rocket.chat/channel/support).
 
-    fileToImport.zip
-    ├── channels.csv
-    ├── users.csv
-    ├── general
-    │   └── messages.csv
-    ├── otherChannelName
-    │   ├── canBeAnyNameButHasToHave.csv
-    │   ├── theDotCSV.csv
-    │   └── asTheFileExt.csv
-    ├── privateArea
-    │   └── messages.csv
-    └── random
-        ├── dateTimeStamp1.csv
-        ├── dateTimeStamp2.csv
-        └── dateTimeStamp3.csv
+```
+fileToImport.zip
+├── channels.csv
+├── users.csv
+├── general
+│   └── messages.csv
+├── otherChannelName
+│   ├── canBeAnyNameButHasToHave.csv
+│   ├── theDotCSV.csv
+│   └── asTheFileExt.csv
+├── privateArea
+│   └── messages.csv
+└── random
+   ├── dateTimeStamp1.csv
+   ├── dateTimeStamp2.csv
+   └── dateTimeStamp3.csv
+```
 
 ## channels.csv Format
 
@@ -54,7 +56,7 @@ graywolf336,graywolf336@example.com,GrayWolf336
 
 ## Message Files
 
-The message csv files require a **very** specific format. Each line contains a new message, every piece of information is **requires** quotes to surround it, there can not be any spaces between the commas. The details required are:
+The message csv files require a **very** specific format. Each line contains a new message, every piece of information is **requires** quotes to surround it, there cannot be any spaces between the commas. The details required are:
 
 1. Username who sent the message
 2. The timestamp in milliseconds
@@ -62,7 +64,7 @@ The message csv files require a **very** specific format. Each line contains a n
 
 ```csv
 "bradley.hilton","1479162481336","this is a test message"
-"billy.bob","1479162481654","this is a another message, a test message"
+"billy.bob","1479162481654","this is another message, a test message"
 ```
 
 ## Importing

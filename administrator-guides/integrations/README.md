@@ -7,7 +7,7 @@ With *Scripts* you can point any WebHook to Rocket.Chat and process the request 
 - Go to your admin page
 - Go to Integrations
 - Create a **New Integration** and select **Incoming WebHook**
-- Select the channel were you will receive the alerts (you can override in messages)
+- Select the channel where you will receive the alerts (you can override in messages)
 - Set **Script Enabled** to **True**
 - Paste your script inside the **Script** field
 - Save the integration
@@ -19,9 +19,11 @@ The script should be in **ES2015 / ECMAScript 6**
 
 The script expects a global class called **Script**, this class will be instantiated just **one** time (on the first execution) and kept in memory
 
-The class should have a method called **process_incoming_request**, this method will be called every time your server receive a new request, will be called with an Object as parameter containing the **request** property.
+The class should have a method called **process_incoming_request**, this method will be called every time your server receives a new request, will be called with an Object as parameter containing the **request** property.
 
 The **process_incoming_request** method should return an object with a property **content** containing a valid Rocket.Chat message or an object with a property **error** that will be returned as the response of the request in JSON format and status code **400**.
+
+A valid Rocket.Chat message can contain a **text** field which will be the body of the message. If you want to redirect the message to a different channel to the one indicated by the webhook token, you can specify a **channel** field which accepts a room id or, if prefixed with a "#" or "@", a channel name or a user.
 
 To help debug your script, you can use the **console** methods to log information.  More information about console can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/Console/log). To view the logs go to Administration -> View Logs.
 
@@ -92,7 +94,7 @@ class Script {
 
 ## Outgoing WebHook Scripting
 
-With *Scripts* you can process all messages from a channel and change how Rocket.Chat will do the request or cancel the request. You can cancel the request and return a message or just do nothing. You can do another requests inside the script using the global helper **HTTP**.
+With *Scripts* you can process all messages from a channel and change how Rocket.Chat will do the request or cancel the request. You can cancel the request and return a message or just do nothing. You can do another request inside the script using the global helper **HTTP**.
 
 The response of the request will execute the script too, calling another method so you can process the response as you can do in **Incoming WebHooks**
 
@@ -175,6 +177,7 @@ class Script {
               '  pr ls [open|closed|all]  List Pull Requests',
             '```'
           ].join('\n')
+          // "channel": "#name-of-channel",
           // "attachments": [{
           //   "color": "#FF0000",
           //   "author_name": "Rocket.Cat",

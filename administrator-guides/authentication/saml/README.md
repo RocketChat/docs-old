@@ -10,11 +10,11 @@ This is the unique name for your application as a Service Provider (SP) for SAML
 
 ### Custom Entry Point (IDP SSO Redirect URL)
 
-This is the URL provided by your IdP for logging in. In SAML-terminology, the is the location (URL) of the SingleLogoutService with the Redirect binding (urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect).
+This is the URL provided by your IdP for logging in. In SAML-terminology, the is the location (URL) of the SingleSignOnService with the Redirect binding (urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect).
 
 ### IDP SLO Redirect URL
 
-This is the URL provided by your IdP for logging out. In SAML-terminology, the is the location (URL) of the SingleSignOnService with the Redirect binding (urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect).
+This is the URL provided by your IdP for logging out. In SAML-terminology, the is the location (URL) of the SingleLogoutService with the Redirect binding (urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect).
 
 ### Custom Issuer (SP entityID)
 
@@ -30,17 +30,20 @@ This is the idp providers public certificate that is used to verify the SAML req
 
 The public part of the self-signed certificate you created for encrypting your SAML transactions. [Example of self-signed certificate on the SimpleSAMLphp website here.](https://simplesamlphp.org/docs/stable/simplesamlphp-sp#section_1_1)
 
+Format for this is PEM WITH `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.
+
 ### Private Key Contents (SP Signing Private Key)
 
 The private key matching the self-signed certificate you created as PKCS#1 PEM.
+Format for this is PEM WITH `-----BEGIN PRIVATE KEY-----` and `-----END PRIVATE KEY-----`.
 
 ### SAML assertion
 
-You will have to send email field in your assertion or it will not work. If the email matches existing user it will overwrite the users username with username value if that is in your assertion.
+You will have to send email field in your assertion or it will not work. If the email matches existing user it will overwrite the user's username with username value if that is in your assertion.
 
 ## SimpleSAMLphp IdP Configuration
 
-As a popular open source IdP, SimpleSAMLphp can be used to provide an authentication endpoint for Rocket.Chat and the built in SAML support. Assuming you have a SimpleSAMLphp IdP up and running - [quickstart intructions here](https://simplesamlphp.org/docs/stable/simplesamlphp-idp) - you can find the metadata for the Rocket.Chat SAML Service Provider (SP) here, where 'my-app' is whatever you put in the 'Custom Provider' box in the Rocket.Chat SAML admin page:
+As a popular open source IdP, SimpleSAMLphp can be used to provide an authentication endpoint for Rocket.Chat and the built in SAML support. Assuming you have a SimpleSAMLphp IdP up and running - [quickstart instructions here](https://simplesamlphp.org/docs/stable/simplesamlphp-idp) - you can find the metadata for the Rocket.Chat SAML Service Provider (SP) here, where 'my-app' is whatever you put in the 'Custom Provider' box in the Rocket.Chat SAML admin page:
 
 `https://my-rocketchat-domain.tld/_saml/metadata/my-app`
 

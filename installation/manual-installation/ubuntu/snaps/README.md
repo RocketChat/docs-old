@@ -2,11 +2,13 @@
 
 ## Installation
 
+Installing a snap on Ubuntu is as easy as
+
 ```
 sudo snap install rocketchat-server
 ```
 
-Then browse to localhost:3000 and setup RocketChat.
+Then browse to `http://localhost:3000` and setup Rocket.Chat.
 
 Snaps are secure. Rocket.Chat and all of its dependencies are isolated from the rest of your system. Snaps also auto update when we release a new version. So no need more hassle updating.
 
@@ -18,22 +20,34 @@ sudo apt-get install snapd
 
 ## FAQ
 
-If you have questions about snaps best place to ask them is in: [#ubuntu-snap](https://open.rocket.chat/channel/ubuntu-snap)
+If you have questions about snaps best place to ask them is at the [#ubuntu-snap](https://open.rocket.chat/channel/ubuntu-snap) channel.
+
+### When will my snap installation get the latest release?
+
+Snaps are one of our biggest install base. They are also auto updating.  As a result we like to spend more time testing before releasing. Updated Snaps are usually released around the 15th of the month - around 2 weeks after a new release. This gives us time to look for issues so you don't have to.
+
+If you have special requirements and really need to use the latest release immediately then please consider another installation method e.g docker
 
 ### How do I access my site at a different port?  How do I enable TLS/SSL with my snap?
 
-Check out our guide for enabling caddy: [here](../../../../installation/manual-installation/ubuntu/snaps/autossl/)
+Check out our guide for enabling caddy [here](../../../../installation/manual-installation/ubuntu/snaps/autossl/).
 
-### Ubuntu 16.04 LTS gives message "snap not found", whats wrong?
+### Ubuntu 16.04 LTS gives message "snap not found", what's wrong?
 
-Make sure you're using x64 or amd64 (or armhf) images, especially on VPS or VMs. x86 is 32 bit and not supported.
+Make sure you're using x64 or amd64 (or armhf) images, especially on VPS or VMs. x86 (32-bit) is not supported.
 
-### How do I manually update to new release?
+### How do I manually update to a new release?
 
-Updates happen automatically usually in a 6 hour window from time of release.  If you want it quicker you can do:
+While updates happen automatically usually within 6 hours from time of release, you can update manually by issuing this command:
 
 ```
 sudo snap refresh rocketchat-server
+```
+
+### How do I revert to the previous version of Rocket.Chat?
+
+```
+sudo snap revert rocketchat-server
 ```
 
 ### How do I tell if Rocket.Chat is actually running?
@@ -41,134 +55,168 @@ sudo snap refresh rocketchat-server
 You can check on the status of Rocket.Chat with:
 
 ```
-sudo systemctl status snap.rocketchat-server.rocketchat-server.service
+sudo service snap.rocketchat-server.rocketchat-server status
 ```
 
-You can also check on the status of Mongo running in the snap with:
+You can also check on the status of Mongo and Caddy:
 
 ```
-sudo systemctl status snap.rocketchat-server.rocketchat-mongo.service
+sudo service snap.rocketchat-server.rocketchat-mongo status
+sudo service snap.rocketchat-server.rocketchat-caddy status
 ```
 
 ### How can I view the logs?
 
-To see the logs from rocket.chat
+To see the logs from Rocket.Chat:
 
 ```
-sudo journalctl -u snap.rocketchat-server.rocketchat-server
+sudo journalctl -f -u snap.rocketchat-server.rocketchat-server
 ```
 
-To see the logs from mongo
+To see the logs from Mongo or Caddy:
 
 ```
-sudo journalctl -u snap.rocketchat-server.rocketchat-mongo
+sudo journalctl -f -u snap.rocketchat-server.rocketchat-mongo
+sudo journalctl -f -u snap.rocketchat-server.rocketchat-caddy
 ```
 
 ### I need to restart Rocket.Chat, how do I do this?
 
-```
-sudo systemctl restart snap.rocketchat-server.rocketchat-server
-```
-
-Also can restart Mongo via:
+To restart Rocket.Chat:
 
 ```
-sudo systemctl restart snap.rocketchat-server.rocketchat-mongo
+sudo service snap.rocketchat-server.rocketchat-server restart
+```
+
+Mongo and Caddy can similarly be restarted:
+
+```
+sudo service snap.rocketchat-server.rocketchat-mongo restart
+sudo service snap.rocketchat-server.rocketchat-caddy restart
 ```
 
 ### What is the restart policy?
 
-The snaps policy is to restart on failure.
+The snap's policy is to restart on failure.
 
 ### How do I backup my snap data?
 
-#### 1. Make a quick and easy backup via:
-
-```
-sudo snap run rocketchat-server.backupdb
-```
-
-#### 2. You will then see a bunch of output text followed by:
-
-```
-A backup of your data can be found at /var/snap/rocketchat-server/<version>/backup.tgz
-```
-
-#### 3. Copy `backup.tgz` to a different system for safekeeping.
-
-### How do I restore backup data to my snap?
-
-#### 1. Assuming you have your `backup.tgz` file (see above), simply extract it to a desired location (e.g., ~/backup_data)
-
-```
-cd ~
-mkdir backup_data
-cd backup_data
-tar zxvf /path/to/your/backup.tgz
-```
-
-This will create the following directory tree where you can find the extracted backup data:
-`~/backup_data/var/snap/rocketchat-server/<version>/dump/parties`
-
-#### 2. Confirm your database name
-
-The snap database name should be `parties`, but just to be safe:
-
-```
-sudo /snap/rocketchat-server/current/bin/mongo
-(...)
-> show dbs
-local    0.000GB
-parties  0.004GB
-> exit
-```
-
-#### 3. Shutdown Rocket.Chat
-
-Before you start to restore make sure Rocket.Chat isn't running.
+#### 1. Stop your rocketchat-server:
 
 ```
 sudo service snap.rocketchat-server.rocketchat-server stop
 ```
 
-#### 4. Use `mongorestore` to restore your backup data back into your snap database
-
-#### Important: before proceeding, consult <https://docs.mongodb.com/manual/reference/program/mongorestore/> to learn about additional options and the non-overwriting behavior of `mongorestore` when the target database already exists.
-
-##### Please note: at the time of writing, mongorestore required openssl version 1.0.2 specifically. If you see an error like this - `(...) version 'OPENSSL_1.0.2' not found (required by /snap/rocketchat-server/current/bin/mongorestore)` - simply install the required openssl version to continue.
-
-When you are ready, run the following command (replacing `<version>` with the appropriate directory name):
+*Please note: while the rocketchat-server service should be stopped, the rocketchat-mongo service should be kept running!*
 
 ```
-sudo /snap/rocketchat-server/current/bin/mongorestore --db parties \
-~/backup_data/var/snap/rocketchat-server/<version>/dump/parties/
+sudo service snap.rocketchat-server.rocketchat-mongo status | grep Active
+   Active: active (running) (...)
 ```
 
-#### 5. Restart your services
+#### 2. Issue this backup command:
 
 ```
-sudo service snap.rocketchat-server.rocketchat-mongo  restart
-sudo service snap.rocketchat-server.rocketchat-server restart
-sudo service snap.rocketchat-server.rocketchat-caddy  restart
+sudo snap run rocketchat-server.backupdb
+```
+
+#### 3. If all goes well, you will see some output similar to:
+
+```
+[+] A backup of your data can be found at /var/snap/rocketchat-server/common/backup/rocketchat_backup_<timestamp>.tar.gz
+```
+
+#### 4. Start your rocketchat-server:
+
+```
+sudo service snap.rocketchat-server.rocketchat-server start
+```
+
+#### 4. Copy your backup file to a different system for safekeeping!
+
+### How do I restore backup data to my snap?
+
+#### 1. Stop your rocketchat-server:
+
+```
+sudo service snap.rocketchat-server.rocketchat-server stop
+```
+
+*Please note: while the rocketchat-server service should be stopped, the rocketchat-mongo service should be kept running!*
+
+```
+sudo service snap.rocketchat-server.rocketchat-mongo status | grep Active
+   Active: active (running) (...)
+```
+
+#### 2. Copy your backup file to the snap's common folder:
+
+```
+sudo cp rocketchat_backup.tgz /var/snap/rocketchat-server/common/
+```
+
+#### 3. Issue this restore command:
+
+```
+sudo snap run rocketchat-server.restoredb /var/snap/rocketchat-server/common/rocketchat_backup.tgz
+```
+
+#### 4. If you are replacing an existing database, you will be warned:
+
+```
+*** ATTENTION ***
+* Your current database WILL BE DROPPED prior to the restore!
+* Would you like to make a backup of the current database before proceeding?
+* (y/n/Q)>
+```
+
+- Press `y` and `Enter` to make a backup of the database in its current state.
+- Press `n` and `Enter` to continue *without a backup* of the database in its current state.
+- Press any key and/or `Enter` to quit the restore process without making any changes.
+
+#### 5. If you choose to proceed and all goes well, you will see some output similar to:
+
+```
+[*] Extracting backup file...
+[*] Restoring data...
+[*] Preparing database...
+[+] Restore completed! Please restart the snap.rocketchat services to verify.
+```
+
+*If something goes wrong, you will instead be presented with a path to the relevant log file to help remedy errors. In this case, the database may not be usable until a restore is successfully performed.*
+
+#### 6. Start your rocketchat-server:
+
+```
+sudo service snap.rocketchat-server.rocketchat-server start
+```
+
+## How do I add option to mount media?
+
+Note that the interface providing the ability to access removable media is not automatically connected upon install, so if you'd like to use external storage (or otherwise use a device in `/media` for data), you need to give the snap permission to access removable media by connecting that interface:
+
+```
+sudo snap connect rocketchat-server:removable-media
 ```
 
 ### What folders do snaps use?
 
-- Your actual snap files for each version of Rocket.Chat are copied to: `/var/lib/snapd/snaps` and they are mounted read only
-- Your snap common directory is: `/var/snap/rocketchat-server/common/` file upload to disk, and database is stored here.
-- Your snap data directory is `/var/snap/rocketchat-server/<version>` this is a versioned folder.
+- Your actual snap files for each version of Rocket.Chat are copied to: `/var/lib/snapd/snaps` and they are mounted in read-only mode.
+- Your snap common directory is: `/var/snap/rocketchat-server/common/`; file uploads to disk and the database are stored here.
+- Your snap data directory is `/var/snap/rocketchat-server/<version>`; this is a versioned folder.
+- You can access the current snap data directory at `/var/snap/rocketchat-server/current`.
 
-### I want to manually move a previous version of Rocket.Chat how do I do this?
+### How do I remove a specific previous version of Rocket.Chat?
 
-You can do this via:
+You can do this by issuing the following command, where `N` is the desired version:
 
 ```
-snap remove --revision=35 rocketchat-server
+snap remove --revision=N rocketchat-server
 ```
 
-<!--### I need to install snaps on a computer with out a network, how do I get the snaps?
+<!--### I need to install snaps on a computer without a network, how do I get the snaps?
 
-You will need two things.  First you need the ubuntu-core snap.  This is a base snap that is normally auto downloaded if you are connected to the internet.  You can get this via:
+You will need two things.  First, you need the ubuntu-core snap.  This is a base snap that is normally auto downloaded if you are connected to the internet.  You can get this via:
 
 ```
 curl -X GET -H "Content-Type: application/json" -H "X-Ubuntu-Series: 16" -H "X-Ubuntu-Architecture: amd64" "https://search.apps.ubuntu.com/api/v1/snaps/details/ubuntu-core?channel=stable&confinement=strict"
@@ -184,7 +232,7 @@ curl -X GET -H "Content-Type: application/json" -H "X-Ubuntu-Series: 16" -H "X-U
 
 -->
 
-### I need to add in a tool like strace to debug what's happening in my snap.  How do I do this?
+### How do I add a tool like strace to debug what's happening in my snap?
 
 ```
 snapcraft prime
@@ -193,3 +241,44 @@ cp /usr/bin/strace prime
 snap run <snap.app> --shell
 sudo ./strace
 ```
+
+### How do I change rocket.chat PORT, MONGO_URL and MONGO_OPLOG_URL in my snap?
+
+Starting from release 0.73, it is possible to configure these environmental variables through snap hooks like this:
+
+```bash
+sudo snap set rocketchat-server port=<another-port>
+sudo snap set rocketchat-server mongo-url=mongodb://<your-url>:<your-port>/<your-db-name>
+sudo snap set rocketchat-server mongo-oplog-url=mongodb://<your-url>:<your-port>/local
+```
+
+Remember to restart rocket.chat service after setting new values:
+
+```bash
+sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
+```
+
+This is an example to run rocket.chat on port 4000 instead of 3000 and set database name to rocketchat instead of parties:
+
+```bash
+sudo snap set rocketchat-server port=4000
+sudo snap set rocketchat-server mongo-url=mongodb://localhost:27017/rocketchat
+sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
+```
+
+### How do I change other environmental variables in my snap?
+
+Starting from release 0.73, it is possible to overwrite any rocket.chat environmental variables dropping files ending in `.env` in $SNAP_COMMON directory (`/var/snap/rocketchat-server/common/`), for example, you can create a file to change SMTP settings:
+
+```bash
+cat /var/snap/rocketchat-server/common/overwrite-smtp.env
+OVERWRITE_SETTING_SMTP_Host=my.smtp.server.com
+```
+
+Remember to restart rocket.chat service after creating .env files:
+
+```bash
+sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
+```
+
+More than one .env file is allowed, and more than one environmental variable defined per file is allowed.

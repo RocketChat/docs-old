@@ -58,27 +58,24 @@ Here you can also find what articles are incomplete and missing.
         - Sandstorm.io
         - Scalingo
         - Sloppy.io
-        - WeDeploy
     - Docker containers:
         - Generic Linux
         - systemd
+        - High Availability Install
         - Available Images
         - Docker Compose
     - Manual Installation:
         - CentOS
         - Debian
-        - FreeBSD:
-        - Universal
         - MacOSX
         - Multiple Instances to Improve Performance
+        - Migrating Meteor Mongo
         - OpenSUSE
         - <span class="incomplete">[RedHat](../missing-and-outdated-list/index.html#redhat)</span>
         - Ubuntu:
             - Snaps:
                 - AutoSSl
-        - Windows 10 Pro
-        - Windows Server:
-            - <span class="incomplete">[Releases](../missing-and-outdated-list/index.html#releases)</span>
+        - Mongo Options
         - Configuring SSL Reverse Proxy
         - PM2, Systemd, Upstart
         - Running in a sub folder
@@ -91,6 +88,11 @@ Here you can also find what articles are incomplete and missing.
     - <span class="incomplete">[Updating](../missing-and-outdated-list/index.html#updating)</span>
         - From 0.x.x to 0.40.0
     - Minimum Requirements
+    - Community Supported Install:
+        - FreeBSD
+            - Universal
+        - Windows 10 Pro
+        - Windows Server:
 
 - User guides:
     - Connecting to a Server
@@ -100,8 +102,7 @@ Here you can also find what articles are incomplete and missing.
     - Messaging
     - Channel Actions
     - Managing your Account
-    - <span class="incomplete">[Voice and Video Calls](../missing-and-outdated-list/index.html#voice-and-video-calls)</span>
-    - <span class="missing">[ScreenSharing](../missing-and-outdated-list/index.html#screensharing)</span>
+    - Voice and Video Calls
 - Administrator guides:
     - Account Settings
     - <span class="missing">[Analytics](../missing-and-outdated-list/index.html#analytics)</span>
@@ -129,6 +130,7 @@ Here you can also find what articles are incomplete and missing.
         - Direct Reply
     - File Upload:
         - Amazon S3
+        - Google Cloud Storage
         - Minio
         - <span class="missing">[GridFS](../missing-and-outdated-list/index.html#GridFS)</span>
         - <span class="missing">[Local File System](../missing-and-outdated-list/index.html#Local-File-System)</span>
@@ -160,7 +162,6 @@ Here you can also find what articles are incomplete and missing.
         - Osticket
         - PagerDuty
         - Prometheus
-        - ReplyGif
         - ReviewBoard
         - RunDeck
         - Sentry
@@ -168,29 +169,40 @@ Here you can also find what articles are incomplete and missing.
         - Travis CI
         - Trello
         - uptimerobot
-    - <span class="missing">[Internal Hubot](../missing-and-outdated-list/index.html#Internal-Hubot)</span>
     - Jitsi Video Bridge
     - Livechat:
         - Livechat Queues
     - Notifications:
         - Push Notifications
-    - <span class="incomplete">[Permissions](../missing-and-outdated-list/index.html#Permissions)</span>
+    - Permissions
     - Plug-ins:
         - Drupal
         - Pidgin
     - Create the First Admin
+    - Restoring an Admin
+    - Settings Via Env Vars
 - Developer guides:
     - Quick Start
     - Branches and Releases
     - Code Styleguide:
         - <span class="incomplete">[Less](../missing-and-outdated-list/index.html#Less)</span>
+    - Deeplink
+    - Deprecation
     - Iframe Integration:
         - <span class="missing">[Authentication](../missing-and-outdated-list/index.html#Authentication)</span>
         - Commands
         - Events
+    - Embedded Layout
     - <span class="missing">[Internationalization](../missing-and-outdated-list/index.html#Internationalization)</span>
     - Livechat API
     - Mobile Apps
+        - Supporting SSL
+        - Supported Servers Versions
+    - GraphQL API:
+        - Authentication
+        - Schema
+        - Setup
+        - Subscription
     - Realtime-API:
         - Method Calls:
             - Login
@@ -206,6 +218,7 @@ Here you can also find what articles are incomplete and missing.
             - Get Permissions
             - User Presence
             - Notify Room Stream
+            - Create Direct Message
             - Send Message
             - Delete Message
             - Update Message
@@ -236,33 +249,51 @@ Here you can also find what articles are incomplete and missing.
             - sendMessageLivechat
             - sendOfflineMessage
         - Rest API:
+        - Assets:
+            - setAsset
+            - unsetAsset
         - Authentication:
+            - facebook
+            - forgotPassword
+            - google
             - login
             - logout
             - me
+            - twitter
         - Channels:
             - addAll
+            - addLeader
             - addModerator
             - addOwner
             - archive
-            - cleanHistory
             - close
+            - counters
             - create
-            - <span class="missing">[delete](../missing-and-outdated-list/index.html#channelsdelete)</span>
-            - <span class="missing">[files](../missing-and-outdated-list/index.html#channelsfiles)</span>
+            - delete
+            - files
+            - getAllUserMentionsByChannel
             - getIntegrations
             - history
             - info
             - invite
+            - join
             - kick
             - leave
             - list.joined
             - list
-            - <span class="missing">[members](../missing-and-outdated-list/index.html#channelsmembers)</span>
+            - members
+            - moderators
+            - messages
+            - online
             - open
+            - removeLeader
             - removeModerator
             - removeOwner
             - rename
+            - roles
+            - setAnnouncement
+            - setCustomFields
+            - setDefault
             - setDescription
             - setJoinCode
             - setPurpose
@@ -272,27 +303,46 @@ Here you can also find what articles are incomplete and missing.
             - unarchive
         - Chat:
             - delete
+            - followMessage
+            - getDeletedMessages
             - getMessage
+            - getMessageReadReceipts
+            - getThreadMessages
+            - getThreadsList
             - pinMessage
             - postMessage
             - react
+            - reportMessage
+            - search
             - starMessage
+            - sendMessage
+            - syncThreadMessages
+            - syncThreadsList
+            - unfollowMessage
             - unPinMessage
             - unStarMessage
             - update
+            - ignoreUser
         - Commands:
             - get
             - list
             - run
+        - Emoji Custom:
+            - create
+            - delete
+            - list
+            - update
         - Groups:
             - addAll
+            - addLeader
             - addModerator
             - addOwner
             - archive
             - close
+            - counters
             - create
-            - <span class="missing">[delete](../missing-and-outdated-list/index.html#groupsdelete)</span>
-            - <span class="missing">[files](../missing-and-outdated-list/index.html#groupsfiles)</span>
+            - delete
+            - files
             - getIntegrations
             - history
             - info
@@ -300,11 +350,18 @@ Here you can also find what articles are incomplete and missing.
             - kick
             - leave
             - list
-            - <span class="missing">[members](../missing-and-outdated-list/index.html#groupsmembers)</span>
+            - listAll
+            - members
+            - messages
+            - moderators
             - open
+            - removeLeader
             - removeModerator
             - removeOwner
             - rename
+            - roles
+            - setAnnouncement
+            - setCustomFields
             - setDescription
             - setPurpose
             - setReadOnly
@@ -313,42 +370,97 @@ Here you can also find what articles are incomplete and missing.
             - unarchive
         - Im:
             - close
-            - <span class="missing">[files](../missing-and-outdated-list/index.html#imfiles)</span>
-
+            - counters
+            - create
+            - files
             - history
             - list.everyone
             - list
-            - <span class="missing">[members](../missing-and-outdated-list/index.html#immembers)</span>
+            - members
+            - messages
             - messages.others
             - open
             - setTopic
         - Integration:
             - create
+            - history
             - list
             - remove
         - Livechat:
+            - agent
+            - config
+            - custom-fields
             - department
+            - message
+            - room
             - sms-incoming
             - users
+            - video-call
         - Miscellaneous:
+            - directory
             - info
+            - shield.svg
+            - spotlight
+            - statistics
+            - statistics.list
+        - Permissions:
+            - list-all
+            - update
+        - Roles:
+            - create
+            - list
+            - addUserToRole
+        - Push:
+            - push.token
+            - deletePushToken
+        - Rooms:
+            - cleanHistory
+            - createDiscussion
+            - favorite
+            - get
+            - getDiscussions
+            - info
+            - leave
+            - saveNotification
+            - upload
         - Settings:
             - get
             - update
+            - oauth
+        - Subscriptions:
+            - get
+            - getOne
+            - read
+            - unread
         - Users:
             - create
             - createToken
             - delete
+            - deleteOwnAccount
+            - forgotPassword
+            - generatePersonalAccessToken
             - getAvatar
+            - getPersonalAccessTokens
             - getPresence
+            - get-preferences
+            - getUsernameSuggestion
             - info
             - list
+            - regeneratePersonalAccessToken
             - register
+            - removePersonalAccessToken
             - resetAvatar
             - setAvatar
+            - set-preferences
+            - setActiveStatus
             - update
+            - updateOwnBasicInfo
+        - Video Conference:
+            - jitsi-update-timeout
         - Offset and Count and Sort Info
+        - Rate Limiter
         - Query and Fields Info
+        - Personal Access Tokens
         - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
         - <span class="incomplete">[Testing](../missing-and-outdated-list#Testing)</span>
         - Troubleshooting
@@ -356,5 +468,19 @@ Here you can also find what articles are incomplete and missing.
         - Colors
         - Components
         - Themes
+        - GraphQL API:
+            - Authentication
+            - Schema
+            - Subscription
+- Bots:
+    - Bots FAQ
+    - Bots Architecture
+    - Creating Bot Users
+    - Configure Bot Environment
+    - Running a bBot Bot
+    - Running a Hubot Bot
+    - Running a Botkit Bot
+    - Running a Rasa Bot
+    - Running a Botpress Bot
 - Community Cookbook:
     - Remote Video Monitoring

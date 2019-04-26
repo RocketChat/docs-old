@@ -1,6 +1,6 @@
 # Group Add Owner
 
-Gives the role of owner for a user in the currrent group.
+Gives the role of owner for a user in the current group.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

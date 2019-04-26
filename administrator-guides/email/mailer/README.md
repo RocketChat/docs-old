@@ -10,7 +10,7 @@ Then you can write a subject and a body for the email. When writing the body you
 
 You can add the following brackets to the email body:
 
-- `[unsubscribe]` This will create a unsubscribe link. The email body __must__ have a unsubscribe link.
+- `[unsubscribe]` This will create an unsubscribe link. The email body __must__ have a unsubscribe link.
 
 - `[name]` : This will get the full name of the user that is receiving the email;
 
@@ -18,4 +18,4 @@ You can add the following brackets to the email body:
 
 - `[lname]` : This will get the last name of the user that is receiving the email;
 
-- `[name]` : This will get the email address of the user that is receiving the email;
+- `[email]` : This will get the email address of the user that is receiving the email;

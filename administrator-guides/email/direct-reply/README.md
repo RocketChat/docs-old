@@ -54,9 +54,11 @@ Email body in languages **other than English** may also work until and unless `O
 Quoted headers aren't picked up if the email client breaks it up into multiple
 lines.  GMail breaks up any lines over 80 characters for you.
 
-    On <date>, <author>
-    wrote:
-    > blah
+```
+On <date>, <author>
+wrote:
+> blah
+```
 
 Not to mention that we're searching for "on" and "wrote".  It won't work
 with other languages.
@@ -68,25 +70,29 @@ Possible solution: While replying, remove everything else than your actual messa
 Lines starting with `-` or `_` sometimes mark the beginning of
 signatures:
 
-    Hello
+```
+Hello
 
-    --
-    Rick
+--
+Rick
+```
 
 Not everyone follows this convention:
 
-    Hello
+```
+Hello
 
-    Mr Rick Olson
-    Galactic President Superstar Mc Awesomeville
-    GitHub
+Mr Rick Olson
+Galactic President Superstar Mc Awesomeville
+GitHub
 
-    **********************DISCLAIMER***********************************
-    * Note: blah blah blah                                            *
-    **********************DISCLAIMER***********************************
+**********************DISCLAIMER***********************************
+* Note: blah blah blah                                            *
+**********************DISCLAIMER***********************************
+```
 
 ## Problem?
 
-Your message didn't posted? Or got `Invalid Email.` in Admin console?
+Your message wasn't posted? Or got `Invalid Email.` in Admin console?
 This most likely means that email format was not as we expected it to be.
 There is a possibility that you were blocked or message/room was deleted.

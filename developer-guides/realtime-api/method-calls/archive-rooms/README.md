@@ -1,6 +1,6 @@
 # Archive Rooms
 
-Archving a room marks it as read only and then removes it from the channel list on the left.
+Archiving a room marks it as read only and then removes it from the channel list on the left.
 
 ## Requirements
 

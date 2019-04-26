@@ -1,28 +1,95 @@
-- project:
-  name: "Rocket.Chat"
-  icon: "rocketchat"
-  description: "The Rocket.Chat Server."
+-
+  name: User Guides
+  icon: user.svg
+  description: Guides for the basic usage of Rocket.Chat.
+  path: user-guides/
   pages:
-    - [true, "Installing & Upgrading", "/installation/"]
-    - [true, "User Guides", "/user-guides/"]
-    - [true, "Administrator Guides", "/administrator-guides/"]
-    - [true, "Developer Guides", "/developer-guides/"]
-    - [false, "Project on GitHub", "https://github.com/RocketChat/Rocket.Chat"]
-    - [false, "Documentation on GitHub", "https://github.com/RocketChat/docs"]
-- project:
-  name: "Rocket.Chat Android"
-  icon: "android"
-  description: "The Rocket.Chat Android."
+    Connecting to a Server: connecting-to-a-server/
+    Registration: registration/
+    Channels: channels/
+    Messaging: messaging/
+    Managing your Account: managing-your-account/
+    Talking to users from another server: talking-to-users-from-another-server/
+
+-
+  name: Installation Guides
+  icon: install.svg
+  description: Guides for installing and deploying Rocket.Chat
+  path: installation/
   pages:
-    - [false, "Project on GitHub", "https://github.com/RocketChat/Rocket.Chat.Android"]
-- project:
-  name: "Rocket.Chat iOS"
-  icon: "apple"
-  description: "The Rocket.Chat iOS."
+    Cloud: rocket-chat-cloud/
+    PaaS Deployments: paas-deployments/
+    Docker Containers: docker-containers/
+    Manual Installation: manual-installation/
+    Updating: updating/
+    Community Guides: community-supported-installation/
+
+-
+  name: Administrator Guides
+  icon: admin.svg
+  description: Guides for managing and configuring Rocket.Chat
+  path: administrator-guides/
   pages:
-    - [false, "Project on GitHub", "https://github.com/RocketChat/Rocket.Chat.iOS"]
-- project:
-  name: "Rocket.Chat Documentation"
-  description: "The Rocket.Chat Documentation."
+    Account Settings: account-settings/
+    Email: email/
+    Federation: federation/
+    Permissions: permissions/
+    Livechat: livechat/
+    File Upload: file-upload/
+    Integrations: integrations/
+    Rocket.Chat Apps: rocket-chat-apps/
+
+-
+  name: Developer Guides
+  icon: developers.svg
+  description: Guides for developing and modifying Rocket.Chat's code
+  path: developer-guides/
   pages:
-    - [false, "Documentation on GitHub", "https://github.com/RocketChat/docs"]
+    Quick Start: quick-start/
+    Branches and Releases: branches-and-releases/
+    Testing: testing/
+    Rest API: rest-api/
+    Realtime API: realtime-api/
+    Livechat API: livechat-api/
+    GraphQL API: graphql-api/
+
+-
+  name: Bots
+  icon: install.svg
+  description: Guides for using bots in Rocket.Chat
+  path: bots/
+  pages:
+    Bots Architecture: bots-architecture/
+    Bots FAQ: bots-faq/
+    Configuring Bots: configure-bot-environment/
+    Creating Bots Users: creating-bot-users/
+
+-
+  name: Contributing
+  icon: contributing.svg
+  description: Guides for contributing to Rocket.Chat
+  path: contributing/
+  pages:
+    Developing: developing/
+    Reporting Issues: reporting-issues/
+    Documentation: documentation/
+    Security: security/
+    Translating: translating/
+
+-
+  name: Getting Support
+  icon: getting-support.svg
+  description: Guides getting support for Rocket.Chat
+  path: getting-support/
+
+-
+  name: Android
+  icon: android.png
+  description: Native Android client for Rocket.Chat
+  path: https://github.com/RocketChat/Rocket.Chat.Android
+
+-
+  name: iOS
+  icon: ios.png
+  description: Native iOS client for Rocket.Chat
+  path: https://github.com/RocketChat/Rocket.Chat.iOS
