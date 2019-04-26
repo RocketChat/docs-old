@@ -26,6 +26,10 @@ curl "http://localhost:3000/api/v1/rooms.upload/GENERAL" \
     -H "X-User-Id: hw5DThnhQmxDWnavu"
 ```
 
+**Note: For some file types if uploading via curl you may need to set the mime type.**
+
+With some file types it will set to `application/octet-stream`. You can can pass like this: `-F "file=@file.wav;type=audio/wav"`
+
 ## Example Result
 
 ```json
