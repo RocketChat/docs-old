@@ -39,7 +39,7 @@ class Script {
         let body = request.content.message.text
 
         if(!body) {
-          if(request.content.message.sticker.emoji) {
+          if(request.content.message.hasOwnProperty("sticker") && request.content.message.sticker.emoji) {
             // It's a sticker
             body = request.content.message.sticker.emoji
         } else {
