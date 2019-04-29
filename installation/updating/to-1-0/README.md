@@ -15,3 +15,17 @@ MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=rs01
 ```
 
 For more information [see here](https://rocket.chat/docs/installation/manual-installation/mongo-replicas/)
+
+## Mongo Authentication
+
+If you are using mongo authentication you might also need to add the clustermonitor role to your user. 
+
+You can execute something like:
+
+```
+admin = db.getSiblingDB("admin");
+admin.grantRolesToUser('OPLOGUSER',[{ role: "clusterMonitor", db: "admin" }])
+admin.grantRolesToUser('ROCKETUSER',[{ role: "clusterMonitor", db: "admin" }])
+```
+
+Replace the users with the names you have chosen for your users.
