@@ -1,4 +1,4 @@
-# User Get Avatar
+# Get Avatar
 
 | URL                       | Requires Auth | HTTP Method |
 | :------------------------ | :------------ | :---------- |

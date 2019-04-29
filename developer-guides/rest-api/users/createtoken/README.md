@@ -1,4 +1,4 @@
-# User Create Token
+# Create Token
 
 Create a user authentication token. Requires `user-generate-access-token` permission.
 

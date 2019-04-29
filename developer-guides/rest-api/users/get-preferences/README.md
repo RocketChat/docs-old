@@ -1,4 +1,4 @@
-# User Get Preferences
+# Get Preferences
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
