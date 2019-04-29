@@ -90,7 +90,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Livechat: Real-Time Visitor Monitoring
 
-- **Mentors**: @renatobecker
+- **Mentors**: @renatobecker, @diegolmello
 - **Description**: The goal of Real-Time Visitor Monitoring is to provide an important feature for the Live chat team by displaying a list of visitors who are browsing the website where the Livechat widget is installed. Having this feature, it will be possible to track important information related to visitors, such as the current page, location, time on site, local time, and so on, even though the visitor has not yet started a conversation with an agent. In addition, an agent will be able to start a conversation with a specific visitor directly from the list, improving the proactivity of the Live chat team.
 - **Desirable Skills**: Familiarity with Rocket.Chat/Livechat development.
 
