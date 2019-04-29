@@ -1,5 +1,7 @@
 # User Remove Personal Access Token
 
+Remove a personal access token. Requires `create-personal-access-tokens` permission.
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/users.removePersonalAccessToken` | `yes` | `POST` |
