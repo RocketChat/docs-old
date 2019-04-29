@@ -18,7 +18,7 @@ For more information [see here](https://rocket.chat/docs/installation/manual-ins
 
 ## Mongo Authentication
 
-If you are using mongo authentication you might also need to add the clustermonitor role to your user. 
+If you are using mongo authentication you might also need to add the clustermonitor role to your user.
 
 You can execute something like:
 
