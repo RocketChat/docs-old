@@ -101,6 +101,24 @@ RocketChat(function() {
 });
 ```
 
+#### _Change widget visibility_
+
+You can either hide or show widget in your website. To hide widget use the following code.
+
+```javascript
+RocketChat(function() {
+    this.hideWidget();
+});
+```
+
+To show widget use the following code.
+
+```javascript
+RocketChat(function() {
+    this.showWidget();
+});
+```
+
 ### Events
 
 #### _onChatMaximized_
@@ -189,6 +207,7 @@ RocketChat(function() {
 
 | Version | Description                                                                                                                                            |
 | :------ | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.1.0   | Added `showWidget` and `hideWidget` method |
 | 1.0.0   | Added `setLanguage` method |
 | 0.66.0  | Added `setGuestToken`, `setGuestName`, `setGuestEmail` and `registerGuest` methods.                                                                    |
 | 0.53.0  | Added callback events and the ability to pass a flag to `setCustomField` so the value passed does not get wrote if there is already an existing value. |
