@@ -1,5 +1,7 @@
 # User Get Personal Access Tokens
 
+Gets the user’s personal access tokens. Requires `create-personal-access-tokens` permission.
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/users.getPersonalAccessTokens` | `yes` | `GET` |
