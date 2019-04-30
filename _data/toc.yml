@@ -12,6 +12,7 @@
   - Google Summer of Code 2017
   - Google Summer of Code 2018
   - Google Summer of Code 2019
+  - Google Season of Docs 2019
   - Promoting
   - Reporting Issues
   - Security:
@@ -42,7 +43,6 @@
     - Sandstorm.io
     - Scalingo
     - Sloppy.io
-    - WeDeploy
     - D2C.io
     - Syncloud.org
   - Docker containers:
@@ -73,6 +73,7 @@
   - Mobile and Desktop Apps
   - Updating:
     - From 0.x.x to 0.40.0
+    - Updating to 1.0
   - Minimum Requirements
   - Community Supported Installation:
     - FreeBSD:
@@ -298,9 +299,12 @@
         - unarchive
       - Chat:
         - delete
+        - followMessage
         - getDeletedMessages
         - getMessage
         - getMessageReadReceipts
+        - getThreadMessages
+        - getThreadsList
         - pinMessage
         - postMessage
         - react
@@ -308,6 +312,9 @@
         - search
         - starMessage
         - sendMessage
+        - syncThreadMessages
+        - syncThreadsList
+        - unfollowMessage
         - unPinMessage
         - unStarMessage
         - update
@@ -317,7 +324,10 @@
         - list
         - run
       - Emoji Custom:
-        - get
+        - create
+        - delete
+        - list
+        - update
       - Groups:
         - addAll
         - addLeader
@@ -402,8 +412,10 @@
         - deletePushToken
       - Rooms:
         - cleanHistory
+        - createDiscussion
         - favorite
         - get
+        - getDiscussions
         - info
         - leave
         - saveNotification

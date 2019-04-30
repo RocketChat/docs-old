@@ -1,5 +1,7 @@
 # User Generate Personal Access Token
 
+Generate Personal Access Token. Requires `create-personal-access-tokens` permission.
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/users.generatePersonalAccessToken` | `yes` | `POST` |

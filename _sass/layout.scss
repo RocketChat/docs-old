@@ -706,8 +706,9 @@ td > code {
   }
 
   .content .wrapper{
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
+    max-width: 100%;
   }
 
   .mobile-search {
@@ -731,6 +732,7 @@ td > code {
     height: 38px;
     padding: 10px 6px;
     cursor: pointer;
+    margin-left: 10px;
   }
 
   .burger span {

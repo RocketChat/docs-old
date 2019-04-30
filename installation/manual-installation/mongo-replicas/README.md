@@ -1,6 +1,6 @@
 # Configure a replica set for MongoDB
 
-Rocket.Chat uses the [MongoDB replica set](http://docs.mongodb.org/manual/replication/) **OPTIONALLY** to improve performance via Meteor Oplog tailing.
+Rocket.Chat uses the [MongoDB replica set](http://docs.mongodb.org/manual/replication/) to improve performance via Meteor Oplog tailing.
 
 To configure the replica set:
 

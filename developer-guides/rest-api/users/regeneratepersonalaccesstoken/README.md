@@ -1,5 +1,7 @@
 # User Regenerate Personal Access Token
 
+Regenerate a user personal access token. Requires `create-personal-access-tokens` permission.
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/users.regeneratePersonalAccessToken` | `yes` | `POST` |
