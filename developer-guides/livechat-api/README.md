@@ -203,11 +203,37 @@ RocketChat(function() {
 });
 ```
 
+#### _onWidgetHidden_
+
+Fired when widget is hidden.
+
+```javascript
+RocketChat(function() {
+    this.onWidgetHidden(function(data) {
+        // do whatever you want
+        console.log('chat widget hidden');
+    });
+});
+```
+
+#### _onWidgetShown_
+
+Fired when widget is shown.
+
+```javascript
+RocketChat(function() {
+    this.onWidgetShown(function(data) {
+        // do whatever you want
+        console.log('chat widget shown');
+    });
+});
+```
+
 ## Change Log
 
 | Version | Description                                                                                                                                            |
 | :------ | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1.1.0   | Added `showWidget` and `hideWidget` method |
+| 1.1.0   | Added `showWidget` and `hideWidget` methods along with `onWidgetHidden` and `onWidgetShown` events|
 | 1.0.0   | Added `setLanguage` method |
 | 0.66.0  | Added `setGuestToken`, `setGuestName`, `setGuestEmail` and `registerGuest` methods.                                                                    |
 | 0.53.0  | Added callback events and the ability to pass a flag to `setCustomField` so the value passed does not get wrote if there is already an existing value. |
