@@ -33,7 +33,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 ## Bad Request Example Result
 
-If the user is already a leader, will return a `400 bad request` status.
+If the user is already a leader, it will return a `400 bad request` status.
 
 ```json
 {
