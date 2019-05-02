@@ -1,5 +1,7 @@
 # Get Preferences
 
+Gets all preferences of the user.
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/users.getPreferences` | `yes` | `GET` |
