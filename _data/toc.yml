@@ -60,6 +60,7 @@
     - Ubuntu:
       - Snaps:
         - AutoSSL
+    - Univention Corporate Server (UCS)
     - Mongo Options
     - Mongo Versions
     - Mongo Replicas
