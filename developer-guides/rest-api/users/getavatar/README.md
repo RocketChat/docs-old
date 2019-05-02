@@ -1,5 +1,7 @@
 # Get Avatar
 
+Gets the URL for a user’s avatar.
+
 | URL                       | Requires Auth | HTTP Method |
 | :------------------------ | :------------ | :---------- |
 | `/api/v1/users.getAvatar` | `no`          | `GET`       |
@@ -10,10 +12,22 @@
 | :--------------------- | :------------------ | :------- | :------------------------------ |
 | `userId` or `username` | `BsNr28znDkG8aeo7W` | Required | The id or username of the user. |
 
-## Example Call
+## Example Call - Via userId
 
 ```bash
 curl http://localhost:3000/api/v1/users.getAvatar?userId=BsNr28znDkG8aeo7W
+```
+
+## Example Result
+
+```
+http://localhost:3000/avatar/bobsmith
+```
+
+## Example Call - Via username
+
+```bash
+curl http://localhost:3000/api/v1/users.getAvatar?username=bobsmith
 ```
 
 ## Example Result
