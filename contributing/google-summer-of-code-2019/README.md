@@ -19,7 +19,7 @@ This year, Rocket.Chat received a record breaking ONE HUNDRED AND TWO proposals 
 
 <https://open.rocket.chat/channel/gsoc2019>
 
-Open soruce contributions from students have already reach an all time high, with over ONE HUNDRED AND THIRTY students signed up for our real-time contribution tracking leaderboard:
+Open source contributions from students have already reach an all time high, with over ONE HUNDRED AND THIRTY students signed up for our real-time contribution tracking leaderboard:
 
 <https://gsoc.rocket.chat/>
 
