@@ -1,5 +1,7 @@
 # Set Avatar
 
+Set a user’s avatar by uploading a file or providing a URL.
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/users.setAvatar` | `yes` | `POST` |
