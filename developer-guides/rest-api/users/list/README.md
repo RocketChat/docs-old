@@ -1,6 +1,6 @@
 # List
 
-Gets all of the users in the system and their information, the result is only limited to what the callee has access to view.
+Gets all of the users in the system and their information, the result is only limited to what the callee has access to view (Requires `view-d-room` permission at least).
 It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/) along with [Query and Fields Query Parameter](../../query-and-fields-info/).
 
 | URL | Requires Auth | HTTP Method |
@@ -14,7 +14,7 @@ It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-coun
 | `fields` | `{ name: 1, email: 0 }` | Optional | Field include hash (value of `1` to include, `0` to exclude). |
 | `query` | `{ active: true, type: { $in: ['user', 'bot'] } }` | Optional | Query filter hash. |
 
-## Other Users Example Call
+## Example Call
 
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
@@ -22,7 +22,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      http://localhost:3000/api/v1/users.list
 ```
 
-## Example Result Regular User Callee
+## Example Result - Regular User Callee
 
 ```json
 {
@@ -47,7 +47,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
-## Example Result Admin Callee
+## Example Result - Admin Callee
 
 ```json
 {
