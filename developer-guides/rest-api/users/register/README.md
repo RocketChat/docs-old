@@ -1,5 +1,7 @@
 # Register
 
+Register a new user.
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/users.register` | `no` | `POST` |
@@ -27,13 +29,43 @@ curl -H "Content-type:application/json" \
 ```json
 {
   "user": {
-    "_id": "nSYqWzZ4GsKTX4dyK",
+    "_id": "Jh9qrMxNvkYbsmEds",
+    "createdAt": "2019-05-03T11:24:57.877Z",
+    "services": {
+      "password": {
+        "bcrypt": "$2b$10$YhP9IDJcDZ2NRS26jtRSD.x3YGA06BTknPoEuNM0Oaf8rb4WVWssC",
+        "reset": {
+          "token": "aKi5dCZ-8CNDFJ7xWg7mleefozXLBr9Sjnbhh6aHtbD",
+          "email": "roger@example.com",
+          "when": "2019-05-03T11:24:58.614Z",
+          "reason": "enroll"
+        }
+      },
+      "email": {
+        "verificationTokens": [
+          {
+            "token": "flg2bqOwouqKtM11Hc_IEKpQUUnDJ-WKEDVZL5rkpYh",
+            "address": "roger@example.com",
+            "when": "2019-05-03T11:24:58.574Z"
+          }
+        ]
+      }
+    },
+    "emails": [
+      {
+        "address": "roger@example.com",
+        "verified": false
+      }
+    ],
     "type": "user",
     "status": "offline",
     "active": true,
-    "name": "Example User",
-    "utcOffset": 0,
-    "username": "example"
+    "_updatedAt": "2019-05-03T11:24:58.625Z",
+    "roles": [
+      "user"
+    ],
+    "name": "Roger Smith",
+    "username": "rogersmith"
   },
   "success": true
 }
