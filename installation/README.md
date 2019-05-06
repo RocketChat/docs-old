@@ -1,9 +1,12 @@
-# Installing and Updating
+# Installing and updating
 
-Check how to install or update Rocket.Chat on your server:
+We can host your Rocket.Chat server in our cloud, you can find Rocket.Chat in different marketplaces or you can install it using many base operating systems, docker, snap and more.
+Find a guide below that matches your needs.
 
 - [Rocket.Chat Cloud](rocket-chat-cloud/)
 - [PaaS Deployments](paas-deployments/)
 - [Using Docker](docker-containers/)
-- [Manual Installation](manual-installation/)
+- [Using Kubernetes helm chart](helm-chart/)
+- [Using snap](snap/)
+- [Manual install](manual-installation/)
 - [Updating](updating/)

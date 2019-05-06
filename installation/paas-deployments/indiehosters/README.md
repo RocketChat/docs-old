@@ -1,5 +1,5 @@
 # Deploying Rocket.Chat on IndieHosters
 
-Get your Rocket.Chat instance hosted in a "as a Service" style. You register and we manage it for you! (updates, backup...)
+You can get your Rocket.Chat instance hosted and manage in IndieHosters. Check out thir website to confirm they are open to new registrations.
 
-[![Rocket.Chat on IndieHosters](https://indie.host/signup.png)](https://indiehosters.net/shop/product/rocket-chat-21)
+[Rocket.Chat on IndieHosters](https://indie.host/shop/)
