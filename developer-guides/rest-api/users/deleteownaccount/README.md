@@ -1,4 +1,4 @@
-# User Delete Own Account
+# Delete Own Account
 
 Deletes your own user. Requires `Allow Users to Delete Own Account` enabled. Accessible from Administration -> Accounts.
 
