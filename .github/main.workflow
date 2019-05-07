@@ -1,6 +1,6 @@
 workflow "Lint and Check" {
   resolves = ["Markdown Linter and Link Checker"]
-  on = "push"
+  on = "gollum"
 }
 
 action "Markdown Linter and Link Checker" {
