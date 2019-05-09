@@ -49,7 +49,7 @@ Some high calibre open source contributors were not selected for GSoC; to accomo
 |SShi-qi Mei|Performance optimizations for ReactNative Client|
 |Prajval Raval|Google Action for Google Home and Server-side improvements to support VUI|
 
-This, in combination, allowed us to accomodate a total of **TWENTY TWO** great students this summer season.
+This, in combination, allowed us to accomodate a total of **TWENTY TWO** ethusiastic students this summer season.
 
 ### Update on April 10, 2019
 
