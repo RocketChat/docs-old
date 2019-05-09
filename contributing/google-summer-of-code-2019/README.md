@@ -28,7 +28,7 @@ Applications for the GSoC 2019 season have now closed.   Please see [GSoC timeli
 |Kapil Gautam|Integrating Google Calendar with Rocket.Chat|Douglas Gubert, Rodrigo Nascimento|
 |Upendra Reddy|Improve User Experience with Bots in Android App|James Hepburn, Peter Lepeska|
 |Govind Dixit|Improve Test Automation in Rocket.Chat Android Repository|Eric Rosenthal, James Hepburn|
-|Jon Goodrum|Improve Rocket.Chat Auto-Translate feature|Marcelo Schmidt|
+|Jon Goodrum|Improve Rocket.Chat Auto-Translate feature|Marcelo Schmidt, Sing Li|
 |Ilarion Halushk|Improve end-to-end testing infrastructure for ReactNative client|Diego Mello, Diego Sampaio|
 |Amish Mittal|Implemenation of Newsfeed in Rocket.Chat|Devin Toth, Eric Rosenthal|
 |Djorkaeff|Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)|Diego Sampaio, Diego Mello|
