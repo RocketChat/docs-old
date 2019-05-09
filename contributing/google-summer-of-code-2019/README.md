@@ -89,7 +89,7 @@ Enthusiasm and interest are extremely high this year; over 100 candidate student
 
 The leaderboard project **itself** is open source, created and maintained by our student (candidates).  All potential GSoC organizations are welcome to use and deploy it (the project has a super friendly MIT license - just like Rocket.Chat).
 
-<https://github.com/shubhsherl/GSoC-Contribution-Leaderboard>
+<https://github.com/lolimay/GSoC-Contribution-Leaderboard-Node>
 
 ## Project Ideas
 
