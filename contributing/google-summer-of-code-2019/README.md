@@ -13,9 +13,47 @@ redirect_from:
 
 Applications for the GSoC 2019 season have now closed.   Please see [GSoC timeline](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#timeline) for more details.
 
+### Update on May 8, 2019
+
+2019 is an incredible year for GSoC at Rocket.Chat. Thanks to the ethusiastic early support from students and community (mentors), Google has graciously granted us **SEVENTEEN** project slots. This far surpasses any record from prior years.  As a result, we are delighted to welcome these 17 active community members to work with us during the GSoC 2019 season:
+
+|Student|Project|Mentors|
+|-------|-------|-------|
+|Rudrank Riyam|VoiceOver Accessibility in Rocket.Chat iOS application|Matheus Cardoso, Samar Sunkaria|
+|Noor Binte Amir|Theme Support for Rocket.Chat Android App|Filipe Brito|
+|Aditya Bhardwaj|Service Accounts|Karen Bedi, Peter Lepeska|
+|Shubham Singh|Rocket.Chat Articles|Peter Lepeska, Karen Bedi|
+|Kautilya Tripath|Livechat: Real-time Visitor Monitoring|Renato Becker, Diego Mello|
+|Fongang Rodrique|Interactive APIs documenation|Martin Schoeler, Marcos Defendi|
+|Kapil Gautam|Integrating Google Calendar with Rocket.Chat|Douglas Gubert, Rodrigo Nascimento|
+|Upendra Reddy|Improve User Experience with Bots in Android App|James Hepburn, Peter Lepeska|
+|Govind Dixit|Improve Test Automation in Rocket.Chat Android Repository|Eric Rosenthal, James Hepburn|
+|Jon Goodrum|Improve Rocket.Chat Auto-Translate feature|Marcelo Schmidt, Sing Li|
+|Ilarion Halushk|Improve end-to-end testing infrastructure for ReactNative client|Diego Mello, Diego Sampaio|
+|Amish Mittal|Implemenation of Newsfeed in Rocket.Chat|Devin Toth, Eric Rosenthal|
+|Djorkaeff|Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)|Diego Sampaio, Diego Mello|
+|Pranav Pandey|Enhancing ReactNative App with new features|Guilherme Gazzo, Diego Mello|
+|Utkarsh Barsaiyan|Deeper Nextcloud Integration|Tasso Evangelista, Roeland Douma, Gulherme Gazzo|
+|Tuan|Apple Watch App|Samar Sunkaria, Thiago Sanchez|
+|Ashish Jha|Alexa Skill for Rocket.Chat|Sing Li, Gabriel Engel|
+
+It was a very difficult decision for many mentors to select from the large number of highly qualified students (we were able to engage the students early on in the GSoC cycle with open source contributions via the [GSoC Leaderboard](https://gsoc.rocket.chat/) ). 
+
+Some high calibre open source contributors were not selected for GSoC; to accomodate these exceptional students,  our community member [Viasat](https://www.viasat.com/) has agreed to sponsor an additional FOUR projects this season.  Rocket.Chat has in addition sponsored ONE qualified student with special circumstances to work with us for the term.
+
+|Student|Sponsored Project|
+|-------|-------|
+|Shloak Aggarwal|Rocket.Chat iOS Contact Sync|
+|Kailash Bhalaki|ReactNative Social Features|
+|Divyanshu Bhargava|Making Rocket.Chat Android native app wonderful for consumers|
+|SShi-qi Mei|Performance optimizations for ReactNative Client|
+|Prajval Raval|Google Action for Google Home and Server-side improvements to support VUI|
+
+This, in combination, allowed us to accomodate a total of **TWENTY TWO** ethusiastic students this summer season.
+
 ### Update on April 10, 2019
 
-This year, Rocket.Chat received a record breaking ONE HUNDRED AND TWO proposals from students studying at every corner of the globe.  It is the first year we attempted to build a students + mentors community prior to submission deadline.  Thanks to an enthusiastic and dedicated students community, we are successful in creating a GSoC 2019 community of TWO HUNDRED AND FIFTY members on our dedicated community server channel:
+This year, Rocket.Chat received a record breaking **ONE HUNDRED AND TWO** proposals from students studying at every corner of the globe.  It is the first year we attempted to build a students + mentors community prior to submission deadline.  Thanks to an enthusiastic and dedicated students community, we are successful in creating a GSoC 2019 community of **TWO HUNDRED AND FIFTY** members on our dedicated community server channel:
 
 <https://open.rocket.chat/channel/gsoc2019>
 
