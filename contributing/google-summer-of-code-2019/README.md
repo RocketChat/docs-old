@@ -37,7 +37,7 @@ Applications for the GSoC 2019 season have now closed.   Please see [GSoC timeli
 |Tuan|Apple Watch App|Samar Sunkaria, Thiago Sanchez|
 |Ashish Jha|Alexa Skill for Rocket.Chat|Sing Li, Gabriel Engel|
 
-It was a very difficult decision for many mentors to select from the large number of highly qualified students (we were able to engage the students early on in the GSoC cycle with open source contributions via the [GSoC Leaderboard](https://gsoc.rocket.chat/) ). 
+It was a very difficult decision for many mentors to select from the large number of highly qualified students (we were able to engage the students early on in the GSoC cycle with open source contributions via the [GSoC Leaderboard](https://gsoc.rocket.chat/) ).
 
 Some high calibre open source contributors were not selected for GSoC; to accomodate these exceptional students,  our community member [Viasat](https://www.viasat.com/) has agreed to sponsor an additional FOUR projects this season.  Rocket.Chat has in addition sponsored ONE qualified student with special circumstances to work with us for the term.
 
