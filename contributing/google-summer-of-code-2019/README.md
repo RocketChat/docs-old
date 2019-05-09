@@ -19,23 +19,23 @@ Applications for the GSoC 2019 season have now closed.   Please see [GSoC timeli
 
 |Student|Project|Mentors|
 |-------|-------|-------|
-|Rudrank Riyam|VoiceOver Accessibility in Rocket.Chat iOS application||
-|Noor Binte Amir|Theme Support for Rocket.Chat Android App||
-|Aditya Bhardwaj|Service Accounts||
-|Shubham Singh|Rocket.Chat Articles||
-|Kautilya Tripath|Livechat: Real-time Visitor Monitoring||
-|Fongang Rodrique|Interactive APIs documenation||
-|Kapil Gautam|Integrating Google Calendar with Rocket.Chat||
-|Upendra Reddy|Improve User Experience with Bots in Android App||
-|Govind Dixit|Improve Test Automation in Rocket.Chat Android Repository||
-|Jon Goodrum|Improve Rocket.Chat Auto-Translate feature||
-|Ilarion Halushk|Improve end-to-end testing infrastructure for ReactNative client||
-|Amish Mittal|Implemenation of Newsfeed in Rocket.Chat||
-|Djorkaeff|Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)||
-|Pranav Pandey|Enhancing ReactNative App with new features||
-|Utkarsh Barsaiyan|Deeper Nextcloud Integration||
-|Tuan|Apple Watch App||
-|Ashish Jha|Alexa Skill for Rocket.Chat||
+|Rudrank Riyam|VoiceOver Accessibility in Rocket.Chat iOS application|Matheus Cardoso, Samar Sunkaria|
+|Noor Binte Amir|Theme Support for Rocket.Chat Android App|Filipe Brito|
+|Aditya Bhardwaj|Service Accounts|Karen Bedi, Peter Lepeska|
+|Shubham Singh|Rocket.Chat Articles|Peter Lepeska, Karen Bedi|
+|Kautilya Tripath|Livechat: Real-time Visitor Monitoring|Renato Becker, Diego Mello|
+|Fongang Rodrique|Interactive APIs documenation|Martin Schoeler, Marcos Defendi|
+|Kapil Gautam|Integrating Google Calendar with Rocket.Chat|Douglas Gubert, Rodrigo Nascimento|
+|Upendra Reddy|Improve User Experience with Bots in Android App|James Hepburn, Peter Lepeska|
+|Govind Dixit|Improve Test Automation in Rocket.Chat Android Repository|Eric Rosenthal, James Hepburn|
+|Jon Goodrum|Improve Rocket.Chat Auto-Translate feature|Marcelo Schmidt|
+|Ilarion Halushk|Improve end-to-end testing infrastructure for ReactNative client|Diego Mello, Diego Sampaio|
+|Amish Mittal|Implemenation of Newsfeed in Rocket.Chat|Devin Toth|
+|Djorkaeff|Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)|Diego Sampaio, Diego Mello|
+|Pranav Pandey|Enhancing ReactNative App with new features|Guilherme Gazzo, Diego Mello|
+|Utkarsh Barsaiyan|Deeper Nextcloud Integration|Tasso Evangelista, Roeland Douma, Gulherme Gazzo|
+|Tuan|Apple Watch App|Samar Sunkaria, Thiago Sanchez|
+|Ashish Jha|Alexa Skill for Rocket.Chat|Sing Li, Gabriel Engel|
 
 It was a very difficult decision for many mentors to select from the large number of highly qualified students (we were able to engage the students early on in the GSoC cycle with open source contributions via the [GSoC Leaderboard](https://gsoc.rocket.chat/) ). Some great open source contributors were not selected for GSoC; to accomodate these exceptional students,  our community member [Viasat](https://www.viasat.com/) has agreed to sponsor an additional FOUR projects this season.  Rocket.Chat has in addition sponsored ONE qualified student with special circumstances to work with us for the term.
 
