@@ -51,7 +51,7 @@ Some high calibre open source contributors were not selected for GSoC; to accomo
 
 This, in combination, allowed us to accomodate a total of **TWENTY TWO** ethusiastic students this summer season.
 
-All students and mentors are now busy mutually bonding and with our core team and greater community.  Each mentor is also working with his/her student on refining the weekly and monthly milestones/deliverables within the proposal to better reflect achievable project objectives as well as making them measurable for the monthly evaluations. Meanwhile, all our students are continuing to contribute to the Rocket.Chat open source project(s) as they have been since the start of the GSoC cycle.
+All students and mentors are now busy mutually bonding and with our core team and greater community.  Each mentor is also working with his/her student on refining the weekly and monthly milestones/deliverables within the proposal to better reflect achievable project objectives as well as making them measurable for the monthly evaluations. Meanwhile, all our students are continuing to contribute to the Rocket.Chat open source project(s) as they have been doing since the start of the GSoC 2019 cycle.
 
 ### Update on April 10, 2019
 
