@@ -13,6 +13,42 @@ redirect_from:
 
 Applications for the GSoC 2019 season have now closed.   Please see [GSoC timeline](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#timeline) for more details.
 
+### Update on May 8, 2019
+
+2019 is an incredible year for GSoC in Rocket.Chat. Thanks to the ethusiastic early support from students and community (mentors), Google has graciously granted us **SEVENTEEN** project slots. This far surpasses any record from prior years.  As a result, we are delighted to welcome these 17 active community members to work with us during the GSoC 2019 season:
+
+|Student|Project|Mentors|
+|-------|-------|-------|
+|Rudrank Riyam|VoiceOver Accessibility in Rocket.Chat iOS application||
+|Noor Binte Amir|Theme Support for Rocket.Chat Android App||
+|Aditya Bhardwaj|Service Accounts||
+|Shubham Singh|Rocket.Chat Articles||
+|Kautilya Tripath|Livechat: Real-time Visitor Monitoring||
+|Fongang Rodrique|Interactive APIs documenation||
+|Kapil Gautam|Integrating Google Calendar with Rocket.Chat||
+|Upendra Reddy|Improve User Experience with Bots in Android App||
+|Govind Dixit|Improve Test Automation in Rocket.Chat Android Repository||
+|Jon Goodrum|Improve Rocket.Chat Auto-Translate feature||
+|Ilarion Halushk|Improve end-to-end testing infrastructure for ReactNative client||
+|Amish Mittal|Implemenation of Newsfeed in Rocket.Chat||
+|Djorkaeff|Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)||
+|Pranav Pandey|Enhancing ReactNative App with new features||
+|Utkarsh Barsaiyan|Deeper Nextcloud Integration||
+|Tuan|Apple Watch App||
+|Ashish Jha|Alexa Skill for Rocket.Chat||
+
+It was a very difficult decision for many mentors to select from the large number of highly qualified students (we were able to engage the students early on in the GSoC cycle with open source contributions via the [GSoC Leaderboard](https://gsoc.rocket.chat/) ). Some great open source contributors were not selected for GSoC; to accomodate these exceptional students,  our community member [Viasat](https://www.viasat.com/) has agreed to sponsor an additional FOUR projects this season.  Rocket.Chat has in addition sponsored ONE qualified student with special circumstances to work with us for the term.
+
+|Student|Sponsored Project|
+|-------|-------|
+|Shloak Aggarwal|Rocket.Chat iOS Contact Sync|
+|Kailash Bhalaki|ReactNative Social Features|
+|Divyanshu Bhargava|Making Rocket.Chat Android native app wonderful for consumers|
+|SShi-qi Mei|Performance optimizations for ReactNative Client|
+|Prajval Raval|Google Action for Google Home and Server-side improvements to support VUI|
+
+This, in combination, allowed us to accomodate a total of **TWENTY TWO** great students this summer season.
+
 ### Update on April 10, 2019
 
 This year, Rocket.Chat received a record breaking ONE HUNDRED AND TWO proposals from students studying at every corner of the globe.  It is the first year we attempted to build a students + mentors community prior to submission deadline.  Thanks to an enthusiastic and dedicated students community, we are successful in creating a GSoC 2019 community of TWO HUNDRED AND FIFTY members on our dedicated community server channel:
