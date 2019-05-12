@@ -22,13 +22,13 @@ Once you have installed Node, run the following command in your terminal to inst
 npm install -g @rocket.chat/apps-cli
 ```
 
-It will take a while to install the CLI depending upon your internet connection. After installation, run the following command to verfiy the installation.
+It will take a while to install the CLI depending upon your internet connection. After installation, run the following command to verify the installation.
 
 ```sh
 rc-apps -v
 # @rocket.chat/apps-cli/1.4.0 darwin-x64 node-v10.15.3
 ```
-Note that the response may vary depending upon your machine and environment but it should look similar. Now, you are all set to create your first app. 
+Note that the response may vary depending upon your machine and environment, but it should look similar. Now, you are all set to create your first app. 
 
 
 ### Creating an Example App
