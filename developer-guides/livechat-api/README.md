@@ -91,6 +91,16 @@ RocketChat(function() {
 });
 ```
 
+#### _Set Language for Widget_
+
+There are number of language options, which you can choose from to set language for your widget. To check supported languages refer [here](https://github.com/RocketChat/Rocket.Chat.Livechat/tree/dev/src/i18n). To set language of widget use the following code.
+
+```javascript
+RocketChat(function() {
+    this.setLanguage('af');
+});
+```
+
 ### Events
 
 #### _onChatMaximized_
@@ -179,6 +189,7 @@ RocketChat(function() {
 
 | Version | Description                                                                                                                                            |
 | :------ | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.0.0   | Added `setLanguage` method |
 | 0.66.0  | Added `setGuestToken`, `setGuestName`, `setGuestEmail` and `registerGuest` methods.                                                                    |
 | 0.53.0  | Added callback events and the ability to pass a flag to `setCustomField` so the value passed does not get wrote if there is already an existing value. |
 | 0.36.0  | Added `setTheme` method                                                                                                                                |

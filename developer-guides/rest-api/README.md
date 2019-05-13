@@ -153,9 +153,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | Url                                   | Short Description                                                | Details Page                            |
 | :------------------------------------ | :--------------------------------------------------------------- | :-------------------------------------- |
 | `/api/v1/chat.delete`                 | Deletes an existing chat message.                                | [Link](chat/delete/)                    |
+| `/api/v1/chat.followMessage`          | Follows an existing chat message.                                | [Link](chat/followmessage/)             |
 | `/api/v1/chat.getDeletedMessages`     | Retrieves the deleted messages since specific date.              | [Link](chat/getdeletedmessages/)        |
 | `/api/v1/chat.getMessage`             | Retrieves a single chat message.                                 | [Link](chat/getmessage/)                |
 | `/api/v1/chat.getMessageReadReceipts` | Retrieves message read receipts.                                 | [Link](chat/getmessagereadreceipts/)    |
+| `/api/v1/chat.getThreadMessages`      | Retrieves thread's messages.                                     | [Link](chat/getthreadmessages/)         |
+| `/api/v1/chat.getThreadsList`         | Retrieves channel's threads.                                     | [Link](chat/getthreadslist/)            |
 | `/api/v1/chat.ignoreUser`             | Ignores an user from a chat.                                     | [Link](chat/ignoreuser/)                |
 | `/api/v1/chat.pinMessage`             | Pins a chat message to the message's channel.                    | [Link](chat/pinmessage/)                |
 | `/api/v1/chat.postMessage`            | Posts a new chat message.                                        | [Link](chat/postmessage/)               |
@@ -164,6 +167,9 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.search`                 | Search for messages in a channel.                                | [Link](chat/search/)                    |
 | `/api/v1/chat.starMessage`            | Stars a chat message for the authenticated user.                 | [Link](chat/starmessage/)               |
 | `/api/v1/chat.sendMessage`            | Send new chat message.                                           | [Link](chat/sendmessage/)               |
+| `/api/v1/chat.syncThreadMessages`     | Retrieves synced thread's messages.                              | [Link](chat/syncthreadmessages/)        |
+| `/api/v1/chat.syncThreadsList`        | Retrieves thread's synced channel threads.                       | [Link](chat/syncthreadslist/)           |
+| `/api/v1/chat.unfollowMessage`        | Unfollows an existing chat message.                              | [Link](chat/unfollowmessage/)           |
 | `/api/v1/chat.unPinMessage`           | Removes the pinned status of the provided chat message.          | [Link](chat/unpinmessage/)              |
 | `/api/v1/chat.unStarMessage`          | Removes the star on the chat message for the authenticated user. | [Link](chat/unstarmessage/)             |
 | `/api/v1/chat.update`                 | Updates the text of the chat message.                            | [Link](chat/update/)                    |
@@ -221,8 +227,10 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | Url                              | Short Description                                        | Details Page                    |
 | :------------------------------- | :------------------------------------------------------- | :------------------------------ |
 | `/api/v1/rooms.cleanHistory`     | Cleans up a room's history, requires special permission. | [Link](rooms/cleanhistory/)     |
+| `/api/v1/rooms.createDiscussion` | Creates a new discussion.                                | [Link](rooms/creatediscussion/) |
 | `/api/v1/rooms.favorite`         | Favorite/Unfavorite room.                                | [Link](rooms/favorite/)         |
 | `/api/v1/rooms.get`              | Gets rooms.                                              | [Link](rooms/get/)              |
+| `/api/v1/rooms.getDiscussions`   | Gets room's discussions.                                 | [Link](rooms/getdiscussions/)   |
 | `/api/v1/rooms.info`             | Gets info from a room.                                   | [Link](rooms/info/)             |
 | `/api/v1/rooms.leave`            | Leaves a room.                                           | [Link](rooms/leave/)            |
 | `/api/v1/rooms.saveNotification` | Sets the notifications settings of specific channel.     | [Link](rooms/savenotification/) |
@@ -238,9 +246,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Emoji Custom
 
-| Url                     | Short Description                              | Details Page               |
-| :---------------------- | :--------------------------------------------- | :---------------------     |
-| `/api/v1/emoji-custom`  | List the custom emojis available.              | [Link](emoji-custom/get/)  |
+| Url                             | Short Description                              | Details Page                 |
+| :------------------------------ | :--------------------------------------------- | :--------------------------- |
+| `/api/v1/emoji-custom.list`     | List the custom emojis available.              | [Link](emoji-custom/list/)   |
+| `/api/v1/emoji-custom.create`   | Create new custom emoji.                       | [Link](emoji-custom/create/) |
+| `/api/v1/emoji-custom.delete`   | Delete an existent custom emoji.               | [Link](emoji-custom/delete/) |
+| `/api/v1/emoji-custom.update`   | Update an existent custom emoji.               | [Link](emoji-custom/update/) |
 
 ### Settings
 
@@ -285,3 +296,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 ### Ruby
 
 - [rocketchat-ruby](https://github.com/abrom/rocketchat-ruby)
+
+### Clojure
+
+- [rocketchat-clojure](https://github.com/MalloZup/missile)

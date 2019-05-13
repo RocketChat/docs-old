@@ -58,7 +58,6 @@ Here you can also find what articles are incomplete and missing.
         - Sandstorm.io
         - Scalingo
         - Sloppy.io
-        - WeDeploy
     - Docker containers:
         - Generic Linux
         - systemd
@@ -175,7 +174,7 @@ Here you can also find what articles are incomplete and missing.
         - Livechat Queues
     - Notifications:
         - Push Notifications
-    - <span class="incomplete">[Permissions](../missing-and-outdated-list/index.html#Permissions)</span>
+    - Permissions
     - Plug-ins:
         - Drupal
         - Pidgin
@@ -304,9 +303,12 @@ Here you can also find what articles are incomplete and missing.
             - unarchive
         - Chat:
             - delete
+            - followMessage
             - getDeletedMessages
             - getMessage
             - getMessageReadReceipts
+            - getThreadMessages
+            - getThreadsList
             - pinMessage
             - postMessage
             - react
@@ -314,6 +316,9 @@ Here you can also find what articles are incomplete and missing.
             - search
             - starMessage
             - sendMessage
+            - syncThreadMessages
+            - syncThreadsList
+            - unfollowMessage
             - unPinMessage
             - unStarMessage
             - update
@@ -322,8 +327,11 @@ Here you can also find what articles are incomplete and missing.
             - get
             - list
             - run
-        -Emoji Custom:
-            - get
+        - Emoji Custom:
+            - create
+            - delete
+            - list
+            - update
         - Groups:
             - addAll
             - addLeader
@@ -407,8 +415,10 @@ Here you can also find what articles are incomplete and missing.
             - deletePushToken
         - Rooms:
             - cleanHistory
+            - createDiscussion
             - favorite
             - get
+            - getDiscussions
             - info
             - leave
             - saveNotification
