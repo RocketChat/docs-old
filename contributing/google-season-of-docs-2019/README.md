@@ -35,10 +35,10 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 
 ## Project Ideas
 
-### Application Programming Interfaces (APIs) Documentation Playground (GSoC follow up)
+### Application Programming Interfaces (APIs) Documentation
 
 - **Mentors**: @martin.schoeler, @marcos.defendi
-- **Description**: When developing applications, developers can use a rich set of Application Programming Interfaces (APIs) offered by Rocket.Chat to control every aspect of Rocket.Chat's operation. The documentation for this set of APIs mixes automated generation with hand crafted usage descriptions, application scenarios, and coding examples. The "playground" makes this documentation comes alive.  Developer can visit the API page and actually interact with the API directly through the documentation page. We already have a hand-crafted set of API docs that is maintained by our community but they tend to become obsolete as API changes. This project will replace the legacy documentation. You will work with two mentors specialized in API coding and documentation generation for this project.
+- **Description**: When developing applications, developers can use a rich set of Application Programming Interfaces (APIs) offered by Rocket.Chat to control every aspect of Rocket.Chat's operation. The documentation for this set of APIs mixes automated generation with hand crafted usage descriptions, application scenarios, and coding examples. By September 2019, Rocket.Chat should have a "playground" that makes this documentation comes alive.  Developers will be able to visit the API page in the "playround" and actually interact with the API directly through the documentation page. We already have a hand-crafted set of API docs that is maintained by our community but they tend to become obsolete as API changes. This project will replace the legacy documentation. You will work with two mentors specialized in API coding and documentation generation for this project.
 - In this project, we will **not** be creating the playground or the docs generation systems, that will be handled by the Google Summer of Code student ([See the GSoC Project]()). Our API docs were written without the idea of a playground to test it. The objective of this project is to improve the structure and wording of the API docs to reflect the new playground system.
 - **Related Material**: [Our existing REST API documentation](https://rocket.chat/docs/developer-guides/rest-api/)
 
