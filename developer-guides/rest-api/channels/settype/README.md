@@ -22,8 +22,8 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "Content-type: application/json" \
      http://localhost:3000/api/v1/channels.setType \
      -d '{ "roomId": "ByehQjC44FwMeiLbX", "type": "p" }'
-     
-or 
+
+or
 
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
