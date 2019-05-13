@@ -186,6 +186,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 ### Alexa Skill(s)
 
 - **Mentors**: @sing.li  @gabriel.engel
+- **Project repository**: <https://github.com/RocketChat/alexa-rocketchat>
 - **Description**: Bring access of Rocket.Chat into the world of 100 million+ Alexa enabled devices.  The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Alexa ecosystem - powered by open source Rocket.Chat.   Google Home/Assistant devices support, if possible, should also be considered concurrently.
 - **Desirable Skills**: Familiarity with Alexa skills development. Experience with interfacing external sources and systems into Alexa skills. Passion for global converstational interaction enablement. Familiarity with Google Action development ideal.
 
