@@ -28,8 +28,8 @@ It will take a while to install the CLI depending upon your internet connection.
 rc-apps -v
 # @rocket.chat/apps-cli/1.4.0 darwin-x64 node-v10.15.3
 ```
-Note that the response may vary depending upon your machine and environment, but it should look similar. Now, you are all set to create your first app. 
 
+Note that the response may vary depending upon your machine and environment, but it should look similar. Now, you are all set to create your first app.
 
 ### Creating an Example App
 
@@ -100,13 +100,11 @@ To submit your App simply run:
 
 When you submit an App, there is a three-step process that takes places. The first step, you submit the App to the Marketplace (explained below). Secondly, you will receive an email that asks for you to approve or reject the App submission (more on this later as well). Finally, after you approve the entry, then our staff will review it and determine whether it is approved or not.
 
-
 ## Webinar on Getting Started with Rocket.Chat Apps Development
 
 We recently had an incredible seminar on getting started with Rocket.Chat apps development. In this seminar, our amazing developers will help you understand the Apps CLI basics and how you can jump right into apps development.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PaFPeD6QG9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 ## Start Developing
 
