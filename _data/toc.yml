@@ -60,6 +60,7 @@
     - Ubuntu:
       - Snaps:
         - AutoSSL
+    - Univention Corporate Server (UCS)
     - Mongo Options
     - Mongo Versions
     - Mongo Replicas
@@ -73,6 +74,7 @@
   - Mobile and Desktop Apps
   - Updating:
     - From 0.x.x to 0.40.0
+    - Updating to 1.0
   - Minimum Requirements
   - Community Supported Installation:
     - FreeBSD:
@@ -91,6 +93,7 @@
   - Managing your Account
   - End to End Encryption
   - Voice and Video Conferencing
+  - Experimental App
 - Administrator guides:
   - Account Settings
   - Authentication:
