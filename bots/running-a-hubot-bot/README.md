@@ -12,7 +12,7 @@ for Hubot projects, that can generate a bot using the Rocket.Chat adapter,
 however it does use the latest versions of Hubot or our adapter module, which
 enable asynchronous processing in ES6 Javascript, along with various bug fixes.
 
-In all cases you first need to[configure the environment](../configure-bot-environment)
+In all cases, you first need to [configure the environment](../configure-bot-environment).
 
 Deployment examples below use either the boilerplate or a Docker instance.
 
