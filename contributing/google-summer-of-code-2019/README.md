@@ -13,13 +13,53 @@ redirect_from:
 
 Applications for the GSoC 2019 season have now closed.   Please see [GSoC timeline](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#timeline) for more details.
 
+### Update on May 8, 2019
+
+2019 is an incredible year for GSoC at Rocket.Chat. Thanks to the ethusiastic early support from students and community (mentors), Google has graciously granted us **SEVENTEEN** project slots. This far surpasses any record from prior years.  As a result, we are delighted to welcome these 17 active community members to work with us during the GSoC 2019 season:
+
+|Student|Project|Mentors|
+|-------|-------|-------|
+|Rudrank Riyam|VoiceOver Accessibility in Rocket.Chat iOS application|Matheus Cardoso, Samar Sunkaria|
+|Noor Binte Amir|Theme Support for Rocket.Chat Android App|Filipe Brito|
+|Aditya Bhardwaj|Service Accounts|Karen Bedi, Peter Lepeska|
+|Shubham Singh|Rocket.Chat Articles|Peter Lepeska, Karen Bedi|
+|Kautilya Tripath|Livechat: Real-time Visitor Monitoring|Renato Becker, Diego Mello|
+|Fongang Rodrique|Interactive APIs documenation|Martin Schoeler, Marcos Defendi|
+|Kapil Gautam|Integrating Google Calendar with Rocket.Chat|Douglas Gubert, Rodrigo Nascimento|
+|Upendra Reddy|Improve User Experience with Bots in Android App|James Hepburn, Peter Lepeska|
+|Govind Dixit|Improve Test Automation in Rocket.Chat Android Repository|Eric Rosenthal, James Hepburn|
+|Jon Goodrum|Improve Rocket.Chat Auto-Translate feature|Marcelo Schmidt, Sing Li|
+|Ilarion Halushk|Improve end-to-end testing infrastructure for ReactNative client|Diego Mello, Diego Sampaio|
+|Amish Mittal|Implemenation of Newsfeed in Rocket.Chat|Devin Toth, Eric Rosenthal|
+|Djorkaeff|Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)|Diego Sampaio, Diego Mello|
+|Pranav Pandey|Enhancing ReactNative App with new features|Guilherme Gazzo, Diego Mello|
+|Utkarsh Barsaiyan|Deeper Nextcloud Integration|Tasso Evangelista, Roeland Douma, Gulherme Gazzo|
+|Tuan|Apple Watch App|Samar Sunkaria, Thiago Sanchez|
+|Ashish Jha|Alexa Skill for Rocket.Chat|Sing Li, Gabriel Engel|
+
+It was a very difficult decision for many mentors to select from the large number of highly qualified students (we were able to engage the students early on in the GSoC cycle with open source contributions via the [GSoC Leaderboard](https://gsoc.rocket.chat/) ).
+
+Some high calibre open source contributors were not selected for GSoC; to accomodate these exceptional students,  our community member [Viasat](https://www.viasat.com/) has agreed to sponsor an additional FOUR projects this season.  Rocket.Chat has in addition sponsored ONE qualified student with special circumstances to work with us for the term.
+
+|Student|Sponsored Project|
+|-------|-------|
+|Shloak Aggarwal|Rocket.Chat iOS Contact Sync|
+|Kailash Bhalaki|ReactNative Social Features|
+|Divyanshu Bhargava|Making Rocket.Chat Android native app wonderful for consumers|
+|SShi-qi Mei|Performance optimizations for ReactNative Client|
+|Prajval Raval|Google Action for Google Home and Server-side improvements to support VUI|
+
+This, in combination, allowed us to accomodate a total of **TWENTY TWO** ethusiastic students this summer season.
+
+All students and mentors are now busy mutually bonding and with our core team and greater community.  Each mentor is also working with his/her student on refining the weekly and monthly milestones/deliverables within the proposal to better reflect achievable project objectives as well as making them measurable for the monthly evaluations. Meanwhile, all our students are continuing to contribute to the Rocket.Chat open source project(s) as they have been doing since the start of the GSoC 2019 cycle.
+
 ### Update on April 10, 2019
 
-This year, Rocket.Chat received a record breaking ONE HUNDRED AND TWO proposals from students studying at every corner of the globe.  It is the first year we attempted to build a students + mentors community prior to submission deadline.  Thanks to an enthusiastic and dedicated students community, we are successful in creating a GSoC 2019 community of TWO HUNDRED AND FIFTY members on our dedicated community server channel:
+This year, Rocket.Chat received a record breaking **ONE HUNDRED AND TWO** proposals from students studying at every corner of the globe.  It is the first year we attempted to build a students + mentors community prior to submission deadline.  Thanks to an enthusiastic and dedicated students community, we are successful in creating a GSoC 2019 community of **TWO HUNDRED AND FIFTY** members on our dedicated community server channel:
 
 <https://open.rocket.chat/channel/gsoc2019>
 
-Open soruce contributions from students have already reach an all time high, with over ONE HUNDRED AND THIRTY students signed up for our real-time contribution tracking leaderboard:
+Open source contributions from students have already reach an all time high, with over ONE HUNDRED AND THIRTY students signed up for our real-time contribution tracking leaderboard:
 
 <https://gsoc.rocket.chat/>
 
@@ -51,7 +91,7 @@ Enthusiasm and interest are extremely high this year; over 100 candidate student
 
 The leaderboard project **itself** is open source, created and maintained by our student (candidates).  All potential GSoC organizations are welcome to use and deploy it (the project has a super friendly MIT license - just like Rocket.Chat).
 
-<https://github.com/shubhsherl/GSoC-Contribution-Leaderboard>
+<https://github.com/lolimay/GSoC-Contribution-Leaderboard-Node>
 
 ## Project Ideas
 
@@ -90,7 +130,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Livechat: Real-Time Visitor Monitoring
 
-- **Mentors**: @renatobecker
+- **Mentors**: @renatobecker, @diegolmello
 - **Description**: The goal of Real-Time Visitor Monitoring is to provide an important feature for the Live chat team by displaying a list of visitors who are browsing the website where the Livechat widget is installed. Having this feature, it will be possible to track important information related to visitors, such as the current page, location, time on site, local time, and so on, even though the visitor has not yet started a conversation with an agent. In addition, an agent will be able to start a conversation with a specific visitor directly from the list, improving the proactivity of the Live chat team.
 - **Desirable Skills**: Familiarity with Rocket.Chat/Livechat development.
 
@@ -146,6 +186,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 ### Alexa Skill(s)
 
 - **Mentors**: @sing.li  @gabriel.engel
+- **Project repository**: <https://github.com/RocketChat/alexa-rocketchat>
 - **Description**: Bring access of Rocket.Chat into the world of 100 million+ Alexa enabled devices.  The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Alexa ecosystem - powered by open source Rocket.Chat.   Google Home/Assistant devices support, if possible, should also be considered concurrently.
 - **Desirable Skills**: Familiarity with Alexa skills development. Experience with interfacing external sources and systems into Alexa skills. Passion for global converstational interaction enablement. Familiarity with Google Action development ideal.
 
