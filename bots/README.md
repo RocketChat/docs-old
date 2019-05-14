@@ -22,32 +22,16 @@ For more details, see the [Bots Architecture section](bots-architecture/).
 
 ## Bots types
 
-Depending on where bot's logic is defined, bots can be internal and external.
-
-**Internal** bots run as an app attached to the instance and are tightly coupled with
-the architecture of Rocket.Chat. Generally, this type of bots has limited features
-for conversational UI but can provide deeper integration with the messaging platform.
-Internal bots can be used to provide simple command driven interfaces for Rocket.Chat users.
-
-**External** bots are hosted outside of your Rocket.Chat instance and their working logic
-is defined by their provider. External bots are best suited to heavy messaging interactions and
-setups where maintenance or processes are independent of Rocket.Chat.
-
-### Bots types support in Rocket.Chat
+Rocket.Chat only supports **external** bots. External bots are hosted outside of your Rocket.Chat instance and their working logic is defined by their provider. External bots are best suited to heavy messaging interactions and setups where maintenance or processes are independent of Rocket.Chat.
 
 Rocket.Chat supports for multiple bot frameworks and platforms, including:
-[bBot](http://bbot.chat/), [Hubot](https://hubot.github.com/), [Botkit](https://botkit.ai/),
-[Botpress](https://botpress.io/).
+[bBot](http://bbot.chat/), [Hubot](https://hubot.github.com/), [Botkit](https://botkit.ai/), [Botpress](https://botpress.io/).
 
 ## How are bots hosted?
 
 The hosting for **external** bots depends on the platform. For example, Hubot can be
 launched on any Node.js environment, but you have to set it up yourself (using Heroku or
 Glitch services). Another bot platforms like Botkit provide their own services for hosting and provisioning bots. They just need a configuration to connect to your Rocket.Chat instance.
-
-**Internal** bots are hosted as part of the Rocket.Chat instance, either on-premise
-or in the same cloud container. Their provisioning and operation is dependent on the
-Rocket.Chat server.
 
 ## Getting Started
 
