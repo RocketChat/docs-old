@@ -20,16 +20,14 @@ the collection of messages for their user account, creating a stream that is upd
 
 For more details, see the [Bots Architecture section](bots-architecture/).
 
-## Bots types
+## How are bots hosted?
 
-Rocket.Chat only supports **external** bots. External bots are hosted outside of your Rocket.Chat instance and their working logic is defined by their provider. External bots are best suited to heavy messaging interactions and setups where maintenance or processes are independent of Rocket.Chat.
+Rocket.Chat supports bots that are hosted outside of your Rocket.Chat instance. Their working logic is defined by their provider. 
 
 Rocket.Chat supports for multiple bot frameworks and platforms, including:
 [bBot](http://bbot.chat/), [Hubot](https://hubot.github.com/), [Botkit](https://botkit.ai/), [Botpress](https://botpress.io/).
 
-## How are bots hosted?
-
-The hosting for **external** bots depends on the platform. For example, Hubot can be
+The hosting for bots depends on the platform. For example, Hubot can be
 launched on any Node.js environment, but you have to set it up yourself (using Heroku or
 Glitch services). Another bot platforms like Botkit provide their own services for hosting and provisioning bots. They just need a configuration to connect to your Rocket.Chat instance.
 
