@@ -11,17 +11,22 @@
     - Community Maintainers
   - Google Summer of Code 2017
   - Google Summer of Code 2018
+  - Google Summer of Code 2019
+  - Google Season of Docs 2019
   - Promoting
   - Reporting Issues
   - Security:
     - Responsible Disclosure Policy
   - Translating
+  - Website:
+    - Webinars
 - Getting Support
 - Installation:
   - Rocket.Chat Cloud
   - PaaS Deployments:
     - Aliyun
-    - AWS
+    - AWS:
+      - EKS
     - Cloudron.io
     - Digital Ocean
     - DPlatform
@@ -38,7 +43,6 @@
     - Sandstorm.io
     - Scalingo
     - Sloppy.io
-    - WeDeploy
     - D2C.io
     - Syncloud.org
   - Docker containers:
@@ -56,6 +60,7 @@
     - Ubuntu:
       - Snaps:
         - AutoSSL
+    - Univention Corporate Server (UCS)
     - Mongo Options
     - Mongo Versions
     - Mongo Replicas
@@ -69,6 +74,7 @@
   - Mobile and Desktop Apps
   - Updating:
     - From 0.x.x to 0.40.0
+    - To 1.0
   - Minimum Requirements
   - Community Supported Installation:
     - FreeBSD:
@@ -80,12 +86,14 @@
   - Connecting to a Server
   - Registration
   - Login
+  - Talking to users from another server
   - Channels
   - Messaging
   - Channel Actions
   - Managing your Account
   - End to End Encryption
   - Voice and Video Conferencing
+  - Experimental App
 - Administrator guides:
   - Account Settings
   - Authentication:
@@ -101,6 +109,7 @@
     - Editing Emails Content
     - Mailer
     - Direct Reply
+  - Federation
   - File Upload:
     - Amazon S3
     - Google Cloud Storage
@@ -141,9 +150,14 @@
     - Travis CI
     - Trello
     - Uptime Robot
+  - Rocket.Chat Apps:
+    - Jira Server Integration
+    - Bitbucket Server Integration
+    - Bamboo Integration
+    - Confluence Server Integration
   - Google Cloud:
     - Auto Translate
-  - Google Drive
+  # - Google Drive
   - Setting Up Video Conferencing
   - Livechat:
     - Livechat Queues
@@ -180,6 +194,11 @@
       - Supported Servers Versions
     - Developing Apps:
       - Getting Started
+    - GraphQL API:
+       - Authentication
+       - Schema
+       - Setup
+       - Subscription
     - Realtime-API:
       - Method Calls:
         - Login
@@ -241,6 +260,7 @@
         - twitter
       - Channels:
         - addAll
+        - AddLeader
         - addModerator
         - addOwner
         - archive
@@ -254,6 +274,7 @@
         - history
         - info
         - invite
+        - join
         - kick
         - leave
         - list.joined
@@ -261,7 +282,9 @@
         - members
         - messages
         - moderators
+        - online
         - open
+        - removeLeader
         - removeModerator
         - removeOwner
         - rename
@@ -278,8 +301,12 @@
         - unarchive
       - Chat:
         - delete
+        - followMessage
+        - getDeletedMessages
         - getMessage
         - getMessageReadReceipts
+        - getThreadMessages
+        - getThreadsList
         - pinMessage
         - postMessage
         - react
@@ -287,15 +314,25 @@
         - search
         - starMessage
         - sendMessage
+        - syncThreadMessages
+        - syncThreadsList
+        - unfollowMessage
         - unPinMessage
         - unStarMessage
         - update
+        - ignoreUser
       - Commands:
         - get
         - list
         - run
+      - Emoji Custom:
+        - create
+        - delete
+        - list
+        - update
       - Groups:
         - addAll
+        - addLeader
         - addModerator
         - addOwner
         - archive
@@ -316,6 +353,7 @@
         - messages
         - moderators
         - open
+        - removeLeader
         - removeModerator
         - removeOwner
         - rename
@@ -376,8 +414,10 @@
         - deletePushToken
       - Rooms:
         - cleanHistory
+        - createDiscussion
         - favorite
         - get
+        - getDiscussions
         - info
         - leave
         - saveNotification
@@ -415,9 +455,13 @@
         - resetAvatar
         - setAvatar
         - set-preferences
+        - setActiveStatus
         - update
         - updateOwnBasicInfo
+      - Video Conference:
+        - jitsi-update-timeout
       - Offset and Count and Sort Info
+      - Rate Limiter
       - Query and Fields Info
       - Personal Access Tokens
     - Schema Definition
@@ -428,7 +472,6 @@
       - Components
       - Themes
 - Bots:
-  - Bots FAQ
   - Bots Architecture
   - Creating Bot Users
   - Configure Bot Environment

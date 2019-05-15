@@ -17,7 +17,7 @@ Enter:
 
 Once filled, click "Save changes".
 
-![SMTP server configuration.](email-1.png)
+![SMTP server configuration.](https://user-images.githubusercontent.com/20342522/53436704-a4989080-39b0-11e9-8ea6-f320affc798f.png)
 
 ## Test changes
 

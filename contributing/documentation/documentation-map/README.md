@@ -58,7 +58,6 @@ Here you can also find what articles are incomplete and missing.
         - Sandstorm.io
         - Scalingo
         - Sloppy.io
-        - WeDeploy
     - Docker containers:
         - Generic Linux
         - systemd
@@ -175,7 +174,7 @@ Here you can also find what articles are incomplete and missing.
         - Livechat Queues
     - Notifications:
         - Push Notifications
-    - <span class="incomplete">[Permissions](../missing-and-outdated-list/index.html#Permissions)</span>
+    - Permissions
     - Plug-ins:
         - Drupal
         - Pidgin
@@ -199,6 +198,11 @@ Here you can also find what articles are incomplete and missing.
     - Mobile Apps
         - Supporting SSL
         - Supported Servers Versions
+    - GraphQL API:
+        - Authentication
+        - Schema
+        - Setup
+        - Subscription
     - Realtime-API:
         - Method Calls:
             - Login
@@ -258,6 +262,7 @@ Here you can also find what articles are incomplete and missing.
             - twitter
         - Channels:
             - addAll
+            - addLeader
             - addModerator
             - addOwner
             - archive
@@ -271,6 +276,7 @@ Here you can also find what articles are incomplete and missing.
             - history
             - info
             - invite
+            - join
             - kick
             - leave
             - list.joined
@@ -278,7 +284,9 @@ Here you can also find what articles are incomplete and missing.
             - members
             - moderators
             - messages
+            - online
             - open
+            - removeLeader
             - removeModerator
             - removeOwner
             - rename
@@ -295,8 +303,12 @@ Here you can also find what articles are incomplete and missing.
             - unarchive
         - Chat:
             - delete
+            - followMessage
+            - getDeletedMessages
             - getMessage
             - getMessageReadReceipts
+            - getThreadMessages
+            - getThreadsList
             - pinMessage
             - postMessage
             - react
@@ -304,15 +316,25 @@ Here you can also find what articles are incomplete and missing.
             - search
             - starMessage
             - sendMessage
+            - syncThreadMessages
+            - syncThreadsList
+            - unfollowMessage
             - unPinMessage
             - unStarMessage
             - update
+            - ignoreUser
         - Commands:
             - get
             - list
             - run
+        - Emoji Custom:
+            - create
+            - delete
+            - list
+            - update
         - Groups:
             - addAll
+            - addLeader
             - addModerator
             - addOwner
             - archive
@@ -333,6 +355,7 @@ Here you can also find what articles are incomplete and missing.
             - messages
             - moderators
             - open
+            - removeLeader
             - removeModerator
             - removeOwner
             - rename
@@ -381,7 +404,7 @@ Here you can also find what articles are incomplete and missing.
             - statistics
             - statistics.list
         - Permissions:
-            - list
+            - list-all
             - update
         - Roles:
             - create
@@ -392,8 +415,10 @@ Here you can also find what articles are incomplete and missing.
             - deletePushToken
         - Rooms:
             - cleanHistory
+            - createDiscussion
             - favorite
             - get
+            - getDiscussions
             - info
             - leave
             - saveNotification
@@ -428,9 +453,13 @@ Here you can also find what articles are incomplete and missing.
             - resetAvatar
             - setAvatar
             - set-preferences
+            - setActiveStatus
             - update
             - updateOwnBasicInfo
+        - Video Conference:
+            - jitsi-update-timeout
         - Offset and Count and Sort Info
+        - Rate Limiter
         - Query and Fields Info
         - Personal Access Tokens
         - <span class="incomplete">[Schema Definition](../missing-and-outdated-list#Schema-Definition)</span>
@@ -440,6 +469,10 @@ Here you can also find what articles are incomplete and missing.
         - Colors
         - Components
         - Themes
+        - GraphQL API:
+            - Authentication
+            - Schema
+            - Subscription
 - Bots:
     - Bots FAQ
     - Bots Architecture

@@ -1,8 +1,14 @@
 # Forgot Password
 
+Send email to reset your password.
+
 | URL                            | Requires Auth | HTTP Method |
 | :----------------------------- | :------------ | :---------- |
 | `/api/v1/users.forgotPassword` | `no`          | `POST`      |
+
+**Note**
+
+- Please ensure that you have completed the configuration of the Email; otherwise, your users will not receive the mail normally. Accessible from Administration -> Email.
 
 ## Payload
 

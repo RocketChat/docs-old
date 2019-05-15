@@ -1,6 +1,6 @@
 # Configure a replica set for MongoDB
 
-Rocket.Chat uses the [MongoDB replica set](http://docs.mongodb.org/manual/replication/) **OPTIONALLY** to improve performance via Meteor Oplog tailing.
+Rocket.Chat uses the [MongoDB replica set](http://docs.mongodb.org/manual/replication/) to improve performance via Meteor Oplog tailing.
 
 To configure the replica set:
 
@@ -61,6 +61,26 @@ Hit enter, you should see your prompt turn into `rs01:PRIMARY>`, this indicates 
 ```
 rs01:PRIMARY> exit
 bye
+```
+
+Depending on your network settings, including /etc/hosts and DNS, if you have configured Rocket.Chat to use localhost:27017 you may see an error similar to this:
+
+`[conn1] created this configuration for initiation : { _id: "rs0", version: 1, members: [ { _id: 0, host: "test:27017" } ] }`
+
+rs.initiate() may be defaulting to the host name e.g. 'test'
+
+You can force a different hostname as follows:
+
+```
+rs.initiate({ _id: 'rs01', members: [ { _id: 0, host: 'localhost:27017' } ]})
+```
+
+You should get a response similar to:
+
+```
+> rs.initiate({ _id: 'rs01', members: [ { _id: 0, host: 'localhost:27017' } ]})
+{ "ok" : 1 }
+rs0:OTHER>
 ```
 
 ## Reconfigure and restart Rocket.Chat service
