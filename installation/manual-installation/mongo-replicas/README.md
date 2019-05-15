@@ -2,19 +2,7 @@
 
 Rocket.Chat uses the [MongoDB replica set](http://docs.mongodb.org/manual/replication/) to improve performance via Meteor Oplog tailing.
 
-To configure the replica set:
-
-## For older MongoDB versions (2.4 and below)
-
-Append `replSet=rs01` into `mongod.conf` file:
-
-```bash
-echo replSet=rs01 | sudo tee -a /etc/mongod.conf
-```
-
-## For new MongoDB versions (2.6 and above)
-
-Using YAML syntax add this section into `mongod.conf`:
+To configure the replica set using YAML syntax add this section into `mongod.conf`:
 
 ```bash
 echo -e "replication:\n  replSetName: \"rs01\"" | sudo tee -a /etc/mongod.conf
