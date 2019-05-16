@@ -16,6 +16,13 @@ echo replSet=rs01 | sudo tee -a /etc/mongod.conf
 
 Using YAML syntax add this section into `mongod.conf`:
 
+```yaml
+replication:
+  replSetName: "rs01"
+```
+
+for example by running this command:
+
 ```bash
 echo -e "replication:\n  replSetName: \"rs01\"" | sudo tee -a /etc/mongod.conf
 ```
