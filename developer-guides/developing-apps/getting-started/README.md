@@ -12,7 +12,7 @@ Before installing the CLI make sure that you have [Node](https://nodejs.org/en/)
 
 ```sh
 node -v
-# v10.15.3 
+# v10.15.3
 # It should return you a valid version.
 ```
 
