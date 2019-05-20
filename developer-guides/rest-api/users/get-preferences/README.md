@@ -1,4 +1,6 @@
-# User Get Preferences
+# Get Preferences
+
+Gets all preferences of the user.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
