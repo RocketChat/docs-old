@@ -22,5 +22,5 @@ Send an email to cloud.support@rocket.chat with the  address of your workspace. 
 
 ### Can I deploy to another region?
 
-Yes, we are happy we expanded to Europe region as well, you can now choose to deploy Rocket.Chat in US, Europe or both.
+Yes, we recently added a European Region.  So you can now choose US or EU.
 If you would like to see a certain region please let us know.
