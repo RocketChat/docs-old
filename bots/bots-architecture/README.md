@@ -7,7 +7,7 @@ and a chatbot framework or platform. Not all bot frameworks operate the same
 way, but the general concepts apply. See below for more detailed definitions.
 
 This would apply to **external** bots. For a definition of external vs internal
-bots, see the [Bots FAQ](../bots-faq).
+bots, see the [Bots Overview](../).
 
 ## Users and Bots
 

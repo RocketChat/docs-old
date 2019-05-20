@@ -68,11 +68,9 @@ Imagine a situation where Rocket.Chat, the main Meteor application exposes only 
 Grant also exposes an endpoint that shows which providers are enabled and used so you can make only those visible in your application.
 
 We also created a few packages to have something to start with: <br/>
-[`rocketchat:grant-facebook`](https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/rocketchat-grant-facebook) <br/>
-[`rocketchat:grant-google`](https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/rocketchat-grant-google) <br/>
-[`rocketchat:grant-github`](https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/rocketchat-grant-github) <br/>
+[`rocketchat:grant-facebook`](https://github.com/RocketChat/Rocket.Chat/tree/develop/app/grant-facebook) <br/>
+[`rocketchat:grant-google`](https://github.com/RocketChat/Rocket.Chat/tree/develop/app/grant-google) <br/>
+[`rocketchat:grant-github`](https://github.com/RocketChat/Rocket.Chat/tree/develop/app/grant-github) <br/>
 
 If anyone wants to contribute by adding more grants, here is a [npm package with several integrations](https://github.com/simov/grant#150-supported-providers--oauth-playground)
-
-
 

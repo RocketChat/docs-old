@@ -1,4 +1,4 @@
-# User Delete
+# Delete
 
 Deletes an existing user. Requires `delete-user` permission.
 

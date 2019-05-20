@@ -35,11 +35,20 @@ If you have questions and prefer email, please write us at:  gsod+2019@rocket.ch
 
 ## Project Ideas
 
-### Application Programming Interfaces (APIs) Documentation Playground
+### Application Programming Interfaces (APIs) Documentation
 
 - **Mentors**: @martin.schoeler, @marcos.defendi
-- **Description**: When developing applications, developers can use a rich set of Application Programming Interfaces (APIs) offered by Rocket.Chat to control every aspect of Rocket.Chat's operation. The documentation for this set of APIs mixes automated generation with hand crafted usage descriptions, application scenarios, and coding examples. The "playground" makes this documentation comes alive.  Developer can visit the API page and actually interact with the API directly through the documentation page. We already have a hand-crafted set of API docs that is maintained by our community but they tend to become obsolete as API changes. This project will replace the legacy documentation.  You will work with two mentors specialized in API coding and documentatation generation for this project.
+- **Description**: When developing applications, developers can use a rich set of Application Programming Interfaces (APIs) offered by Rocket.Chat to control every aspect of Rocket.Chat's operation. The documentation for this set of APIs mixes automated generation with hand crafted usage descriptions, application scenarios, and coding examples. By September 2019, Rocket.Chat should have a "playground" that makes this documentation comes alive.  Developers will be able to visit the API page in the "playround" and actually interact with the API directly through the documentation page. We already have a hand-crafted set of API docs that is maintained by our community but they tend to become obsolete as API changes. This project will replace the legacy documentation. You will work with two mentors specialized in API coding and documentation generation for this project.
+- In this project, we will **not** be creating the playground or the docs generation systems, that will be handled by the Google Summer of Code student ([See the GSoC Project]()). Our API docs were written without the idea of a playground to test it. The objective of this project is to improve the structure and wording of the API docs to reflect the new playground system.
 - **Related Material**: [Our existing REST API documentation](https://rocket.chat/docs/developer-guides/rest-api/)
+
+### Administration/Settings Documentation
+
+- **Mentors**: @martin.schoeler, @marcos.defendi
+- **Description**: Given the huge amount of features and customizability of Rocket.Chat we currently lack documentation for a great part of our admin section. This project aims on the completion of the administration documentation, and it can be broken down in two parts, the configuration and the admin tools part:
+- **Configuration**: We need to complete our settings, fortunately we already have the skeleton for that documentation on [This Pull Request](https://github.com/RocketChat/docs/pull/1095) but will also like a professional opinion on this structure, or help to improve it. We can _cherry-pick_ each file, so no need to work on all articles at once.
+- **Admin Tools**: In the administration section we have a set of tools to help admins manage their server, things like: user management, permission control, mailer, etc...
+- **Related Material**: [Our existing Admin documentation](https://rocket.chat/docs/administrator-guides/)
 
 ### Security documentation
 
