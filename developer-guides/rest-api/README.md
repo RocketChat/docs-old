@@ -49,7 +49,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 | Url                                           | Short Description                                               | Details Page                                 |
 | :-------------------------------------------- | :-------------------------------------------------------------- | :------------------------------------------- |
-| `/api/v1/users.active`                        | Gets all active users.                                          | [Link](users/active/)                        |
+| `/api/v1/users.presence`                        | Gets all connected users presence.                                          | [Link](users/presence/)                        |
 | `/api/v1/users.create`                        | Create a new user.                                              | [Link](users/create/)                        |
 | `/api/v1/users.createToken`                   | Create a user authentication token.                             | [Link](users/createtoken/)                   |
 | `/api/v1/users.delete`                        | Deletes an existing user.                                       | [Link](users/delete/)                        |

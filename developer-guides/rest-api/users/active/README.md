@@ -1,17 +1,17 @@
-# User Active
+# Users Presence
 
-Gets all active users.
+Gets all connected users presence.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/users.active` | `yes` | `GET` |
+| `/api/v1/users.presence` | `yes` | `GET` |
 
 ## Other Users Example Call
 
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
-     http://localhost:3000/api/v1/users.active
+     http://localhost:3000/api/v1/users.presence
 ```
 
 ## Example Result
@@ -42,4 +42,4 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
-| 0.73.0 | Added |
+| 1.1.0 | Added |
