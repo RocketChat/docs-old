@@ -130,7 +130,7 @@ sudo systemctl enable rocketchat && sudo systemctl start rocketchat
 
 ## Optional configurations
 
-[Configure firewall rule]
+[Configure firewall rule](../optional-configurations)
 [Configure a HTTP reverse proxy to access Rocket.Chat server](../configuring-ssl-reverse-proxy/)
 [Configure mongo access control]
 [Configure production values for mongodb]
@@ -138,3 +138,17 @@ sudo systemctl enable rocketchat && sudo systemctl start rocketchat
 ## Configure your Rocket.Chat server
 
 Open a web browser and access the configured ROOT_URL (`http://your-host-name.com-as-accessed-from-internet:3000`), follow the configuration steps to set an admin account and your organization and server info.
+
+## ZLIB version problem
+
+Some users had experienced problems starting rocketchat server in CentOS because their zlib version is not compatible with rocket.chat.
+
+If you find an error message similar to the following in the logs:
+
+```bash
+Exception in callback of async function: Error: /lib64/libz.so.1: version `ZLIB_1.2.9' not found
+```
+
+Add this environmental variable in the Rocket.Chat service file (/usr/lib/systemd/system/rocketchat.service):
+
+Environment=LD_PRELOAD=/opt/Rocket.Chat/programs/server/npm/node_modules/sharp/vendor/lib/libz.so
