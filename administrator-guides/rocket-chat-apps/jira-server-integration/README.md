@@ -34,4 +34,5 @@ To connect a channel or private group, execute the slashcommand `/jira-server co
 A channel or private group can be connected to as many Jira Projects as you want; similarly, a Jira Project can be connected to as many channels or private groups as you want;
 
 ### Jira Cloud
+
 All of the above commands work as long as you substitute `/jira-server` with `/jira`
