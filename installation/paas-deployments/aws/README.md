@@ -160,94 +160,20 @@ return 301 https://$host$request_uri;
     `sudo wget -qO- https://get.docker.com/ | sh`
 3. Add ubuntu user to docker group to use Docker as a non-root user.
     `sudo usermod -aG docker ubuntu`
-4. Install Docker Compose:
-    `sudo -i`
-    `curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-compose-Linux-x86_64 > /usr/local/bin/docker-compose`
-    `chmod +x /usr/local/bin/docker-compose`
+4. Logout, and log back in again.
     `exit`
-5. Logout, and log back in again.
-    `exit`
-6. SSH to your instance again following the directions above
+5. SSH to your instance again following the directions above
 
-### 7. Set up Docker Containers
 
-1. Create local directories
-    `sudo mkdir -p /var/www/rocket.chat/data/runtime/db`
-    `sudo mkdir -p /var/www/rocket.chat/data/dump`
-2. Create docker-compose.yml, **replacing the ROOT_URL of ABC.DOMAIN.COM with your site**
-    `sudo nano /var/www/rocket.chat/docker-compose.yml`
+### 7. Starting the docker containers
 
-```
-db:
-    image: mongo:3.0
-    volumes:
-    - ./data/runtime/db:/data/db
-    - ./data/dump:/dump
-    command: mongod --smallfiles
+- Create the docker instance for MongoDB
+   - `sudo docker run -d --network rc --restart unless-stopped --name rocketchat-mongo -v /var/lib/docker/volumes/rocketchat/_data:/data/db:z -v /var/lib/docker/volumes/rocketchat/dump/_data:/dump:z mongo:latest mongod --smallfiles --oplogSize 128 --replSet rs1 --storageEngine=mmapv1`
+   - `sudo docker exec -d rocketchat-mongo bash -c 'echo -e "replication:\n  replSetName: \"rs01\"" | tee -a /etc/mongod.conf && mongo --eval "printjson(rs.initiate())"'`
 
-rocketchat:
-    image: rocketchat/rocket.chat:latest
-    environment:
-    - MONGO_URL=mongodb://db:27017/rocketchat
-    - ROOT_URL=https://<ABC.DOMAIN.COM>
-    links:
-    - db:db
-    ports:
-    - 3000:3000
-```
-
-- Write & Exit
-
-### 8. Automatic start & restarting with Upstart
-
-- Create upstart job for MongoDB
-
-`sudo nano /etc/init/rocketchat_mongo.conf`
-
-```bash
-description "MongoDB service manager for Rocket.Chat"
-
-# Start MongoDB after docker is running
-start on (started docker)
-stop on runlevel [!2345]
-
-# Automatically Respawn with finite limits
-respawn
-respawn limit 99 5
-
-# Path to our app
-chdir /var/www/rocket.chat
-
-script
-    # Showtime
-    exec /usr/local/bin/docker-compose up db
-end script
-```
-
-- Save and Exit.
-- Create the upstart job for Rocket.Chat
-
-`sudo nano /etc/init/rocketchat_app.conf`
-
-```
-description "Rocket.Chat service manager"
-
-# Start Rocket.Chat only after mongo job is running
-start on (started rocketchat_mongo)
-stop on runlevel [!2345]
-
-# Automatically Respawn with finite limits
-respawn
-respawn limit 99 5
-
-# Path to our app
-chdir /var/www/rocket.chat
-
-script
-    # Bring up Rocket.Chat app
-    exec /usr/local/bin/docker-compose up rocketchat
-end script
-```
+- Create the docker instance for Rocket Chat
+  - Replace <ABC.DOMAIN.COM> with your domain name
+`sudo docker run -d --network rc --restart unless-stopped --name rocketchat --link rocketchat-mongo -e "MONGO_URL=mongodb://rocketchat-mongo:27017/rocketchat" -e MONGO_OPLOG_URL=mongodb://rocketchat-mongo:27017/local?replSet=rs01 -e ROOT_URL=http://<ABC.DOMAIN.COM>:3000 -p 3000:3000 rocketchat/rocket.chat:latest`
 
 ### 9. Reboot & Test
 
@@ -258,10 +184,7 @@ end script
 3. Check status of docker
     sudo docker ps -a`
     - When it's up and running, you should see 2 images, one for Rocket.Chat and one for mongo.
-    - If you don't see the containers yet, don't panic. It may take a few minutes to download and setup the containers. If you still don't see the images listed with the above `docker` command, check the logs of your upstart jobs.
-  `sudo cat /var/log/upstart/rocketchat_mongo.log`
-  `sudo cat /var/log/upstart/rocketchat_app.log`
-    - While the services are starting and downloading, the end of the logs (particularly rocketchat_app.log) will likely show the status of Download/Extract/Pull. If there are other errors, you will likely see this information in the log.
+    - If you don't see the containers yet, don't panic. It may take a few minutes to download and setup the containers. 
 
 ### 10. Use it
 
