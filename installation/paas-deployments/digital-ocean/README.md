@@ -1,11 +1,6 @@
 # Deploying Rocket.Chat on Digital Ocean
 
-Digital Ocean offers plain jane KVM VPS backed by SSDs.  There needs to be no specialized configuration.
+You can now install Rocket.Chat on DigitalOcean using a 1-Click install from the DigitalOcean Marketplace.
 
-If you are not using Docker, follow these instructions:
+[![do-btn-blue](https://user-images.githubusercontent.com/51996/58146107-50512580-7c1a-11e9-8ec9-e032ba387c2a.png)](https://marketplace.digitalocean.com/apps/rocket-chat?action=deploy&refcode=1940fe28bd31)
 
-- Use Ubuntu 14.x LTS VPS instance, for ease of use. For [Ubuntu](../../../installation/manual-installation/ubuntu/).
-
-- For [CentOS](../../../installation/manual-installation/centos/)
-
-If you are using Docker, follow these instructions: [Deploy Rocket.Chat on Linux with Docker](../../../installation/docker-containers/)

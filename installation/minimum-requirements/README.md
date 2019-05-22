@@ -15,7 +15,7 @@ The following are sized for the minimal cost deployment unit available for bare-
 - Intel Xeon E5-2603 v4 (or equivalent) [1.7 GHz, 6 cores, $213 USD]
 - 4 GB RAM
 - 500 GB hard disk or larger
-- Ubuntu 14.04 LTS (with or without docker)
+- Ubuntu 18.04 LTS (with or without docker)
 
 The above minimal hardware configuration is ideal for corporate or group with up to 1,000 users, up to 300 concurrently active and moderate level of mixed uploads, sharing, and bot activities.
 
