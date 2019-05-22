@@ -1,5 +1,7 @@
 # Deploying Rocket.Chat on Aliyun
 
+**Note: Has not yet been updated to work with 1.0**
+
 You can install Rocket.Chat to Ubuntu VPS on Aliyun.
 
 The recommended VPS configuration is:
