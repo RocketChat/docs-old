@@ -1,6 +1,6 @@
 # Installing and updating
 
-We can host your Rocket.Chat server in our cloud, you can find Rocket.Chat in different marketplaces or you can install it using many base operating systems, docker, snap and more.
+Rocket.Chat can be hosted on our Cloud, installed from a variety of marketplaces, or installed on your own server. 
 Find a guide below that matches your needs.
 
 - [Rocket.Chat Cloud](rocket-chat-cloud/)
