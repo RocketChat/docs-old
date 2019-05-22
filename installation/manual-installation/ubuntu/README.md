@@ -122,7 +122,7 @@ sudo sed -i "s/^#  engine:/  engine: mmapv1/"  /etc/mongod.conf
 ```
 
 ```bash
-sudo sed -i "s/^#replication:/replication:\n  replSetName: rs01/" /etc/mongod.conf 
+sudo sed -i "s/^#replication:/replication:\n  replSetName: rs01/" /etc/mongod.conf
 ```
 
 ```bash

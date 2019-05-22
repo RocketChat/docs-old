@@ -7,7 +7,6 @@ Instead of using the standard Docker commands, you may wish for a bit more autom
 - Edit `image: rocketchat/rocket.chat:develop` to specify which image you wish to use (see section [Docker Images Available](../available-images/) )
 - Edit `ROOT_URL` to match your domain name or IP address
 
-
 You can download our docker-compose.yaml:
 
 ```bash

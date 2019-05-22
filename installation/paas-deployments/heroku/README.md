@@ -15,7 +15,6 @@ To add any service to an app, even if it is free, you will need to register a va
 
 Try clicking the button below, and either login or create a new account, then follow all prompts.
 
-
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/RocketChat/Rocket.Chat/tree/master)
 
 If everything goes well, you will have your own instance of Rocket.Chat running.

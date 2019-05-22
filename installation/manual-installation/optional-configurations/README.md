@@ -1,4 +1,4 @@
-## Firewall configuration
+# Firewall configuration
 
 If you are using firewalld and not using a reverse proxy, you may have to allow traffic to port 3000:
 
