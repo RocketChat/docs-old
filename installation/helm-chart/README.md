@@ -1,4 +1,5 @@
 # Installing Rocket.Chat Chart on Kubernetes using Helm
+
 **Note: Has not yet been updated to work with 1.0**
 Helm is a tool that streamlines installing and managing Kubernetes applications. Think of it like apt/yum/homebrew for Kubernetes, helm uses a packaging format called charts. A chart is a collection of files that describe a related set of Kubernetes resources. The Rocket.Chat helm chart packages Rocket.Chat server and mongodb.
 
