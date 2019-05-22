@@ -1,5 +1,7 @@
 # Deploying Rocket.Chat on Google Compute Engine
 
+**Note: Has not yet been updated to work with 1.0**
+
 1. Create a compute instance with a Linux image (i.e the default Debian)
 
 2. SSH to the instance (note: connect by SSH or connect in browser on port other than 80)
