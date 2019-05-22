@@ -1,13 +1,27 @@
 # Deploying Rocket.Chat on D2C.io
 
-D2C is a platform which automates routines in building the infrastructure for applications. It support different cloud providers or you can use your own hosts.
+**Note: Has not yet been updated to work with 1.0**
 
-You will need to sign up and create the host for the Rocket.Chat application.
+## Supported cloud providers
+
+- AWS
+- Digital Ocean
+- Vultr
+
+## Supported operation systems and other requirements for connecting own servers:
+
+- OS: Ubuntu server 14.04, 16.04; Debian 8, 9
+- We strongly recommend to use a kernel with version >= 4.0 for better Docker performance using OverlayFS, otherwise the storage driver - will be "devicemapper"
+- Free disk space: 5 Gb
+- Opened incoming ssh port
+- For the Weave network to work, you must open ports 6783, 6784 (TCP/UDP)
 
 ## Deploy
 
-Check these sites for more instructions:
+Single click deployment:
 
-![d2c stackhub](https://d2c.io/stackhub/rocketchat)
+[![Deploy](https://github.com/mastappl/images/blob/master/deployTo.png)](https://panel.d2c.io/?import=https://github.com/d2cio/rocketchat-stack/archive/master.zip/)
 
-![d2c github](https://github.com/d2cio/rocketchat-stack)
+### Demo
+
+![How to deploy a stack](https://github.com/mastappl/images/blob/master/rocketchat.gif)
