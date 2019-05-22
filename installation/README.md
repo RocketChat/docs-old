@@ -7,6 +7,6 @@ Find a guide below that matches your needs.
 - [PaaS Deployments](paas-deployments/)
 - [Using Docker](docker-containers/)
 - [Using Kubernetes helm chart](helm-chart/)
-- [Using snap](snap/)
+- [Using snap](manual-installation/ubuntu/snaps/)
 - [Manual install](manual-installation/)
 - [Updating](updating/)

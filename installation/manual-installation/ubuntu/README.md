@@ -4,9 +4,9 @@
 
 Snaps are the easiest way for you to get your server up and running on all supported Linux distributions (Ubuntu, etc).
 
-Find out more information about installing using snaps [here](../../../installation/snaps/).
+Find out more information about installing using snaps [here](snaps/)
 
-If you would like to enable TLS on your site like this `https://yoursite.com` when using the snap, please see [here](../../../installation/snaps/autossl/)
+If you would like to enable TLS on your site like this `https://yoursite.com` when using the snap, please see [here](snaps/autossl/)
 
 ## Manual install
 
