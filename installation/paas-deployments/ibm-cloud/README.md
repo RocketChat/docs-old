@@ -4,8 +4,8 @@ IBM Cloud have various options for hosting Rocket.Chat, Docker container on a Ku
 
 ## Prerequisite
 
-- an IBM Cloud account, unfortunatelly to deploy mongodb the free account will not be enough
-- the ibm cloud command line client (ibmcloud) installed
+- An IBM Cloud account
+- The IBM Cloud command line client (ibmcloud) installed
 - git
 
 ## Deploying Rocket.Chat
