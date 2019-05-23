@@ -1,7 +1,5 @@
 # Deploying Rocket.Chat on Google Compute Engine
 
-**Note: Has not yet been updated to work with 1.0**
-
 1. Create a compute instance with a Linux image (i.e the default Debian)
 
 2. SSH to the instance (note: connect by SSH or connect in browser on port other than 80)
@@ -9,12 +7,35 @@
 3. run the following to install docker:
      `sudo wget -qO- https://get.docker.com/ | sh`
 
-4. install a docker image for mongo db
-    `sudo docker run --name db -d mongo --smallfiles`
+4. Create a container network
+    `docker network create chatNetwork` 
 
-5. install a docker image for rocketchat and connect it to mongodb. `ROOT_URL` should be substituted for your own domain:
+5. install a docker image for mongo db
+    ```
+    sudo docker run --name mongo --network chatNetwork -d mongo \
+    --smallfiles --oplogSize 128 --replSet rs0 --storageEngine=mmapv1
+    ```
 
-   `sudo docker run --name rocketchat -p 80:3000 --env ROOT_URL=https://www.test.com --env MONGO_URL=mongodb://db/rocketchat --link db -d rocketchat/rocket.chat`
+6. Configure a mongo db replica set
+    - Login to the docker container
+    ```
+    sudo docker exec -it mongo mongo
+    ```
+    - Enter following command to create replica set
+    ```
+    rs.initiate({ _id: 'rs0', members: [ { _id: 0, host: 'localhost:27017' } ]})
+    ```
+    - Exit the container using the `ctrl+c` / `exit` command
+
+7. install a docker image for rocketchat and connect it to mongodb. `ROOT_URL` should be substituted for your own domain:
+
+   ```
+   docker run --name rocketchat -d -p 80:3000 \
+    --network chatNetwork --env PORT=3000 \
+    --env ROOT_URL=https://www.test.com \
+    --env MONGO_URL=mongodb://mongo:27017/rocketchat \
+    --env MONGO_OPLOG_URL=mongodb://mongo:27017/local rocket.chat:latest
+    ```
 
    You are now running rocket chat on compute engine. You can open a browser with the external IP of the instance.
 
@@ -25,6 +46,6 @@ If you want the containers to start each time the instance reboots configure the
 
 ```
 key: "startup-script"
-value "sudo docker start db;
+value "sudo docker start mongo;
 sudo docker start rocketchat"
 ```
