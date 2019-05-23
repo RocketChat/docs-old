@@ -2,33 +2,40 @@
 
 ![Bots Architecture Diagram](./diagram.png){:style="width='100%' height='auto'"}
 
-The above diagram illustrates the relationship between a Rocket.Chat server
-and a chatbot framework or platform. Not all bot frameworks operate the same
-way, but the general concepts apply. See below for more detailed definitions.
+The above diagram illustrates the general concepts of how a Rocket.Chat server
+communicates with a chatbot framework or platform. These concepts are applicable
+to [**external**](../) bots.
 
-This would apply to **external** bots. For a definition of external vs internal
-bots, see the [Bots Overview](../).
+Bots architecture consists of two main parts: Rocket.Chat host and [bot host](#bots-host).
+These two parts are connected with each other via [Rocket Chat SDK](#rocketchat-sdk) methods.
+Bot host consists of SDK, [adapter](#framework-adapter), [framework](#bot-framework) and,
+optionally, external [services](#external-services).
+
+A bot, being subscribed to room's messages (all or specific ones) handles these
+messages and responds back to the user. The conversational model is based on message
+streams and can be described as: `if bot hears <this>, then say <that>`.
 
 ## Users and Bots
 
-Bots in Rocket.Chat require a user account, with the `bot` role. Other than
-having certain specific permissions, they are mostly treated just like regular
-users within the Rocket.Chat instance. Users with a bot role will also have a
-"Bot" tag displayed, so they can't play tricks on us humans.
+Bots in Rocket.Chat require a user account with the `bot` role. Other than having
+a specific set of permissions, bots accounts are treated like regular user accounts
+within the Rocket.Chat instance. However, to prevent possible confusion, bots also
+have a "Bot" label to outline their specific functions.
 
 ## Bot Admin
 
-Admins (and only admins) can create and configure the bot account and role
-permissions. They set which user fields the bots have access to for privacy
-and security and the credentials a bot uses to connect. We're working on better
-management views for bots and the future potential of user-activated bots.
+Admins (and only admins) can create the bot account and configure role
+permissions. This includes setting the credentials a bot uses to connect
+as well as which user fields the bots have access to for privacy and security.
+Rocket.Chat team works on improving management views for bots and enhancing
+the future potential of user-activated bots.
 
-## Hosting Bots
+## Bots Host
 
-External bots are either hosted by the chatbot platform or a custom host set up
-by their creator (e.g. using Heroku, Glitch or Docker). Node.js is a popular
-language in the space, so we provide utilities catered for Node development, but
-not all bots run on Node.js.
+External bots can be hosted on either the chatbot platform or a custom host
+(e.g. Heroku, Glitch, Docker) and use any programming language of your choice.
+The most popular one is Node.JS: Rocket.Chat provides utilities catered for
+Node.JS to simplify and streamline the development process.
 
 ## Message Streams
 
@@ -37,31 +44,34 @@ emitted by the server's streamer. Bots subscribe to the collection of messages
 for their own user account, creating a stream that is updated every time a
 message is sent either directly to them or any room they are joined in.
 
-## Rocket.Chat JS SDK
+## Rocket.Chat SDK
 
-The SDK is a Node.js module that provides an interface for external applications
+The SDK is a module that provides an interface for external applications
 to subscribe to message streams, send messages and call methods on the
-Rocket.Chat server (via WebSockets / DDP). It would be a dependency of most bots
-built on Node.js and we're working on a Python translation as well.
+Rocket.Chat server (via WebSockets / DDP). SDK would be a dependency of
+most bots. Currently, Rocket.Chat provides SDK for JS/Node.JS, Java, Go,
+and Kotlin. Python SDK is in progress. The full list of SDKs is available
+[here](https://github.com/search?q=topic%3Arocketchat-sdk+org%3ARocketChat&type=Repositories).
 
-## Framework Adapters
+## Framework Adapter
 
-Adapters, sometimes referred to as **connectors** or **middleware**, provide the
+Adapter (also referred as **connector** or **middleware**) provides the
 parsing of message schemas and methods between the chatbot framework and the
-Rocket.Chat SDK. Once loaded into a project, they allow bot creators to compose
-interactions in the framework's terms, ignoring the specific requirements of
+Rocket.Chat SDK. Once loaded into a project, the adapter allows bot creators to
+build interactions in the framework's terms, ignoring the specific requirements of
 Rocket.Chat.
 
-## Bot Frameworks
+## Bot Framework
 
-Bot frameworks such as Hubot, Botkit, Rasa and Botpress each provide unique
-approaches to composing conversational interfaces. Some run their own hosting
-for bots, some just provide the code for you to run yourself. Due to the magic
-of adapters, our architecture is mostly independent to your choice of framework.
+Bot framework (such as Hubot, Botkit, Rasa or Botpress) provides unique
+approaches to composing conversational interfaces. Some frameworks run their own
+hosting for bots, others provide the code for you to run hosting on your own.
+Due to the magic of adapters, our architecture is mostly independent to your
+choice of framework.
 
 ## External Services
 
 Bots often call external services to provide data or conversational processing.
-This is conducted from scripts implementing the bot's framework utilities,
-whether it's the bot's own platform provider or NLP service, or some other API,
-like a weather service or your own business logic provider.
+This is conducted from scripts implementing the bot's framework utilities. For
+example, the bot's own platform provider, NLP service, any external API
+(e.g. a weather service), or your own business logic provider.
