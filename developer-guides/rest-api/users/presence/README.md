@@ -12,7 +12,6 @@ Gets all connected users presence.
 | :--- | :--- | :--- | :--- |
 | `from` | `2019-05-22T12:11:45.392Z` | Optional | The last date you got a status change |
 
-
 ## All users presence example call
 
 If you don't pass `from` parameter, you'll get a list of all users presence and the result will
