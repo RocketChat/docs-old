@@ -8,25 +8,30 @@
      `sudo wget -qO- https://get.docker.com/ | sh`
 
 4. Create a container network
-    `docker network create chatNetwork` 
+    `docker network create chatNetwork`
 
 5. install a docker image for mongo db
+
     ```
     sudo docker run --name mongo --network chatNetwork -d mongo \
     --smallfiles --oplogSize 128 --replSet rs0 --storageEngine=mmapv1
     ```
 
 6. Configure a mongo db replica set
+
+    * Login to the docker container
+
+    ```
+    sudo docker exec -it mongo mongo
+    ```
     
-* Login to the docker container
-```
-sudo docker exec -it mongo mongo
-```
-* Enter following command to create replica set
-```
-rs.initiate({ _id: 'rs0', members: [ { _id: 0, host: 'localhost:27017' } ]})
-```
-* Exit the container using the `ctrl+c` / `exit` command
+    * Enter following command to create replica set
+    
+    ```
+    rs.initiate({ _id: 'rs0', members: [ { _id: 0, host: 'localhost:27017' } ]})
+    ```
+    
+    * Exit the container using the ctrl+c / exit command
 
 7. install a docker image for rocketchat and connect it to mongodb. `ROOT_URL` should be substituted for your own domain:
 
