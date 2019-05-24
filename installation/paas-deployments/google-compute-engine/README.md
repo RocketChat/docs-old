@@ -7,7 +7,7 @@
 3. Select a linux image (Default Debian/ ubuntu)
 4. Allow HTTP/S Traffic
 
-## 2. SSH to the instance 
+## 2. SSH to the instance
 
 Connect to the instance by SSH or connect via browser on port other than 80
 
@@ -15,7 +15,7 @@ Connect to the instance by SSH or connect via browser on port other than 80
 
 `sudo wget -qO- https://get.docker.com/ | sh`
 
-## 4. Create a container network 
+## 4. Create a container network
 
 `docker network create chatNetwork`
 
@@ -36,7 +36,7 @@ Execute this following script to create a replica set
 
 Exit docker container
 
-## 7. install a docker image for rocketchat 
+## 7. install a docker image for rocketchat
 
 `ROOT_URL` should be substituted for your own domain:
 
