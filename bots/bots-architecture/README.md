@@ -17,8 +17,8 @@ streams and can be described as: `if bot hears <this>, then say <that>`.
 
 ## Users and Bots
 
-Bots in Rocket.Chat require a user account with the `bot` role. Other than having
-a specific set of permissions, bots accounts are treated like regular user accounts
+Bots in Rocket.Chat require user accounts with the `bot` role. Other than having
+a specific set of permissions, bot accounts are treated like regular user accounts
 within the Rocket.Chat instance. However, to prevent possible confusion, bots also
 have a "Bot" label to outline their specific functions.
 
@@ -69,9 +69,18 @@ hosting for bots, others provide the code for you to run hosting on your own.
 Due to the magic of adapters, our architecture is mostly independent to your
 choice of framework.
 
+## Bot Scaling
+
+Users interact with your bot via requests. The more users, the more concurrent requests
+your bot must handle. Otherwise, it fails. The degree of bot's scalability mostly depends
+on the chosen [framework](#bot-framework) and technologies it uses under the hood. To ensure
+that growing amount of users will not cause architectural and performance problems, you
+should choose your bot's framework wisely and think on potential scalability issues even
+before you start implementing your bot's logic
+
 ## External Services
 
 Bots often call external services to provide data or conversational processing.
 This is conducted from scripts implementing the bot's framework utilities. For
-example, the bot's own platform provider, NLP service, any external API
-(e.g. a weather service), or your own business logic provider.
+example, the bot's own platform provider, CRM, NLP (Natural Language Processing) service,
+any external API (e.g. a weather service), or your own business logic provider.
