@@ -162,9 +162,9 @@ Run:
 ```
 docker-compose up -d mongo-init-replica
 ```
+
 This container's job is just to run the command to initialize the replica set.
 It will run the command and remove itself (it will not stay running)
-
 
 ## Start your Rocket.Chat server
 
