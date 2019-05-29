@@ -22,7 +22,7 @@ For more details, see the [Bots Architecture section](bots-architecture/).
 
 ## How are bots hosted?
 
-Rocket.Chat supports bots that are hosted outside of your Rocket.Chat instance. Their working logic is defined by their provider. 
+Rocket.Chat supports bots that are hosted outside of your Rocket.Chat instance. Their working logic is defined by their provider.
 
 Rocket.Chat supports for multiple bot frameworks and platforms, including:
 [bBot](http://bbot.chat/), [Hubot](https://hubot.github.com/), [Botkit](https://botkit.ai/), [Botpress](https://botpress.io/).

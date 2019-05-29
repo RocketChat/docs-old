@@ -8,7 +8,7 @@ to [**external**](../) bots.
 
 Bots architecture consists of two main parts: Rocket.Chat host and [bot host](#bots-host).
 These two parts are connected with each other via [Rocket Chat SDK](#rocketchat-sdk) methods.
-Bot host runs externally to the Rocket.Chat host and consists of SDK, [adapter](#framework-adapter), 
+Bot host runs externally to the Rocket.Chat host and consists of SDK, [adapter](#framework-adapter),
 [framework](#bot-framework) and, typically, external [services](#external-services).
 
 A bot, being subscribed to room's messages (all or specific ones) handles these
