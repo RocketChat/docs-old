@@ -1,7 +1,5 @@
 # Deploying Rocket.Chat on Aliyun
 
-**Note: Has not yet been updated to work with 1.0**
-
 You can install Rocket.Chat to Ubuntu VPS on Aliyun.
 
 The recommended VPS configuration is:
@@ -96,21 +94,40 @@ mkdir dump
 Create a `docker-compose.yml` file with the following content:
 
 ```
-db:
-  image: mongo
-  volumes:
-    - $PWD/data:/data/db
-    - $PWD/dump:/dump
-  command: mongod --smallfiles
-web:
-  image: rocketchat/rocket.chat
-  environment:
-    - MONGO_URL=mongodb://db:27017/rocketchat
-    - ROOT_URL=http://your-ip-address:8818
-  links:
-    - db:db
-  ports:
-    - 8818:3000
+version: '2'
+
+services:
+  rocketchat:
+    image: rocket.chat:latest
+    restart: unless-stopped
+    volumes:
+      - ./uploads:/app/uploads
+    environment:
+      - PORT=3000
+      - ROOT_URL=http://chat.inumio.com
+      - MONGO_URL=mongodb://mongo:27017/rocketchat
+      - MONGO_OPLOG_URL=mongodb://mongo:27017/local
+      - Accounts_UseDNSDomainCheck=True
+    depends_on:
+      - mongo
+    ports:
+      - 8818:3000
+
+  mongo:
+    image: mongo
+    restart: unless-stopped
+    volumes:
+     - $PWD/data:/data/db
+     - $PWD/dump:/dump
+    command: mongod --smallfiles --oplogSize 128 --replSet rs0 --storageEngine=mmapv1
+
+  # this container's job is just run the command to initialize the replica set.
+  # it will run the command and remove himself (it will not stay running)
+  mongo-init-replica:
+    image: mongo
+    command: 'bash -c "for i in `seq 1 30`; do mongo mongo/rocketchat --eval \"rs.initiate({ _id: ''rs0'', members: [ { _id: 0, host: ''localhost:27017'' } ]})\" && s=$$? && break || s=$$?; echo \"Tried $$i times. Waiting 5 secs...\"; sleep 5; done; (exit $$s)"'
+    depends_on:
+      - mongo
 ```
 
 Make sure you customize the file with `your-ip-address` in the `MONGO_URL` env variable.
@@ -131,19 +148,30 @@ docker pull rocketchat/rocket.chat
 Run:
 
 ```
-docker-compose up -d db
+docker-compose up -d mongo
 ```
 
 Mongo supports 24 x 7 operations and live backup.  You should not need to restart it too frequently.  See  [mongodb documentations](https://docs.mongodb.org/manual/) for proper operation and management of a mongo server.
 
 Wait a couple of minute for mongo to start properly.
 
+## Start the mongodb replica
+
+Run:
+
+```
+docker-compose up -d mongo-init-replica
+```
+
+This container's job is just to run the command to initialize the replica set.
+It will run the command and remove itself (it will not stay running)
+
 ## Start your Rocket.Chat server
 
 Now start the Rocket.Chat server:
 
 ```
-docker-compose up -d web
+docker-compose up -d rocketchat
 ```
 
 Rocket.Chat should be ready in a minute or two.
