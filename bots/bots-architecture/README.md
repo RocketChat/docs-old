@@ -76,7 +76,7 @@ approaches to create conversational interfaces and allow developers
 to focus on the design and management of complex bot logic.
 
 Most of framworks can be run on your own bot host. There are also frameworks
-distributed as SaaS (Software as a Service), so they work in the cloud.
+that operate as SaaS (Software as a Service), so they work in the cloud.
 
 Most of the popular frameworks have adapters created by the Rocket.Chat's community.
 
@@ -86,7 +86,7 @@ In production, hundreds or thousands of users can be carrying out conversations 
 at the same time. The ability to scale a bot from one conversation to many concurrent ones
 is essential.
 
-Bot frameworks/platforms support varying degrees of scalability. To ensure that growing amount
+Bot frameworks/platforms support varying degrees of scalability. To ensure that growing number
 of users will not cause architectural and performance problems, you should choose your bot's
 framework wisely. For example, considerng potential scalability issues even before you start
 implementing your bot's logic
