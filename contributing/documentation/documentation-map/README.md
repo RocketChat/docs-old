@@ -196,8 +196,8 @@ Here you can also find what articles are incomplete and missing.
     - <span class="missing">[Internationalization](../missing-and-outdated-list/index.html#Internationalization)</span>
     - Livechat API
     - Mobile Apps
+        - Client Compatibility Matrix
         - Supporting SSL
-        - Supported Servers Versions
     - GraphQL API:
         - Authentication
         - Schema
