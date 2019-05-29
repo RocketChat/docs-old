@@ -435,6 +435,7 @@
         - read
         - unread
       - Users:
+        - presence
         - create
         - createToken
         - delete

@@ -20,9 +20,9 @@ Applications for the GSoC 2019 season have now closed.   Please see [GSoC timeli
 |Student|Project|Mentors|
 |-------|-------|-------|
 |Rudrank Riyam|VoiceOver Accessibility in Rocket.Chat iOS application|Matheus Cardoso, Samar Sunkaria|
-|Noor Binte Amir|Theme Support for Rocket.Chat Android App|Filipe Brito|
+|Noor Binte Amir|Theme Support for Rocket.Chat Android App|Filipe Brito, Peter Nguyen, Balaji Sanjeevi, Renji Raj|
 |Aditya Bhardwaj|Service Accounts|Karen Bedi, Peter Lepeska|
-|Shubham Singh|Rocket.Chat Articles|Peter Lepeska, Karen Bedi|
+|Shubham Singh|Rocket.Chat Articles|Peter Lepeska, Karen Bedi, Ramkumar KB, Jian Hou|
 |Kautilya Tripath|Livechat: Real-time Visitor Monitoring|Renato Becker, Diego Mello|
 |Fongang Rodrique|Interactive APIs documenation|Martin Schoeler, Marcos Defendi|
 |Kapil Gautam|Integrating Google Calendar with Rocket.Chat|Douglas Gubert, Rodrigo Nascimento|
@@ -30,11 +30,11 @@ Applications for the GSoC 2019 season have now closed.   Please see [GSoC timeli
 |Govind Dixit|Improve Test Automation in Rocket.Chat Android Repository|Eric Rosenthal, James Hepburn|
 |Jon Goodrum|Improve Rocket.Chat Auto-Translate feature|Marcelo Schmidt, Sing Li|
 |Ilarion Halushk|Improve end-to-end testing infrastructure for ReactNative client|Diego Mello, Diego Sampaio|
-|Amish Mittal|Implemenation of Newsfeed in Rocket.Chat|Devin Toth, Eric Rosenthal|
+|Amish Mittal|Implemenation of Newsfeed in Rocket.Chat|Devin Toth, Peter Lepeska|
 |Djorkaeff|Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)|Diego Sampaio, Diego Mello|
 |Pranav Pandey|Enhancing ReactNative App with new features|Guilherme Gazzo, Diego Mello|
 |Utkarsh Barsaiyan|Deeper Nextcloud Integration|Tasso Evangelista, Roeland Douma, Gulherme Gazzo|
-|Tuan|Apple Watch App|Samar Sunkaria, Thiago Sanchez|
+|Tuan|Apple Watch App|Samar Sunkaria, Thiago Sanchez, Balaji Sanjeevi, Renji Raj|
 |Ashish Jha|Alexa Skill for Rocket.Chat|Sing Li, Gabriel Engel|
 
 It was a very difficult decision for many mentors to select from the large number of highly qualified students (we were able to engage the students early on in the GSoC cycle with open source contributions via the [GSoC Leaderboard](https://gsoc.rocket.chat/) ).

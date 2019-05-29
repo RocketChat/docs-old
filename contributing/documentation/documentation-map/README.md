@@ -433,6 +433,7 @@ Here you can also find what articles are incomplete and missing.
             - read
             - unread
         - Users:
+            - presence
             - create
             - createToken
             - delete
