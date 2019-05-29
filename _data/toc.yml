@@ -177,6 +177,7 @@
 - Developer guides:
     - Quick Start
     - Branches and Releases
+    - Client Compatibility Matrix
     - Code Styleguide:
       - less
     - Deeplink
@@ -190,7 +191,6 @@
     - Livechat API
     - Mobile Apps:
       - Analytics & Data Usage
-      - Client Compatibility Matrix
       - Supporting SSL
     - Developing Apps:
       - Getting Started
