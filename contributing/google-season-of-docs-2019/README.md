@@ -19,9 +19,9 @@ This year's Season of Docs is a pilot that accepts only a limited number of appl
 
 ## How to apply
 
-Application for technical writers opens *May 29, 2019*. See [Google Season of Docs 2019 timeline](https://developers.google.com/season-of-docs/docs/timeline) for more details.
+Application for technical writers is now open.  Deadline for application is _June 28, 2019_.  See [Google Season of Docs 2019 timeline](https://developers.google.com/season-of-docs/docs/timeline) for more details.
 
-Start planning your proposal now! Check out our [list of ideas](https://rocket.chat/docs/contributing/google-season-of-docs-2019/#project-ideas) for some inspiration.
+Write and submit your proposal now! Check out our [list of ideas](https://rocket.chat/docs/contributing/google-season-of-docs-2019/#project-ideas) for some inspiration.
 
 Meet the mentors and fellow writers for GSoD 2019 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
 
@@ -32,6 +32,10 @@ For offline discussions, we have a discussion forum:
 <https://forums.rocket.chat/c/gsod/gsod2019>
 
 If you have questions and prefer email, please write us at:  gsod+2019@rocket.chat
+
+### Update on May 28, 2019
+
+Application for technical writers has opened.  Plesae use this [form](https://forms.gle/Fxr2nW4TCiyESHbo8) to apply.  Response during this exploration month has been generally positive.  Several project teams are already engaging with interested writers to discuss open source work in general and details of their projects in particular. Some of the writers have already warmed up and started to contribute documentaion fix PRs to our repositories.  We have created a [call-to-action blog](https://rocket.chat/2019/05/21/rocket-chat-in-season-of-docs/) for our participation in the program.   Mentors of projects with interested writers have started to assist them in creating their project proposals.
 
 ## Project Ideas
 
