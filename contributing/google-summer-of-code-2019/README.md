@@ -15,7 +15,7 @@ Applications for the GSoC 2019 season have now closed.   Please see [GSoC timeli
 
 ### Update on May 28, 2019
 
-Coding has begun!  This year continues to be the most active and productive GSoC year at Rocket.Chat.  During the bonding period, our students continued to assist community in public channels, interact with core team, contribute to bug fixes and documenation updates.  They have also worked with their mentors to add detaied schedule to their proposal, reflecting measurable goals/milestones.  Coding and detailed design work has started across all active projects.  In addition, we are happy to welcome a team of community mentors from Credit Suisse Singapore, already well experienced with our core and native mobile code bases, to assist us this season.
+Coding has begun!  This year continues to be the most active and productive GSoC year at Rocket.Chat.  During the bonding period, our students continued to assist community in public channels, interact with core team, contribute to bug fixes and documenation updates.  They have also worked with their mentors to add detailed schedule to their proposal, reflecting measurable goals/milestones.  Coding and detailed design work have started across all active projects.  In addition, we are happy to welcome a team of community mentors from Credit Suisse Singapore, already well experienced with our core and native mobile code bases, to assist us this season.
 
 Unfortunately, during this time, we had to remove one student from the program due to extended inactivity.
 
