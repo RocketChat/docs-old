@@ -184,6 +184,7 @@ Here you can also find what articles are incomplete and missing.
 - Developer guides:
     - Quick Start
     - Branches and Releases
+    - Client Compatibility Matrix
     - Code Styleguide:
         - <span class="incomplete">[Less](../missing-and-outdated-list/index.html#Less)</span>
     - Deeplink
@@ -197,7 +198,6 @@ Here you can also find what articles are incomplete and missing.
     - Livechat API
     - Mobile Apps
         - Supporting SSL
-        - Supported Servers Versions
     - GraphQL API:
         - Authentication
         - Schema
@@ -433,6 +433,7 @@ Here you can also find what articles are incomplete and missing.
             - read
             - unread
         - Users:
+            - presence
             - create
             - createToken
             - delete
