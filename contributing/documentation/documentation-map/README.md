@@ -120,7 +120,7 @@ Here you can also find what articles are incomplete and missing.
         - <span class="missing">[Layout](../missing-and-outdated-list/index.html#Layout)</span>
         - <span class="missing">[Assets](../missing-and-outdated-list/index.html#Assets)</span>
     - <span class="missing">[Custom Emoji](../missing-and-outdated-list/index.html#adding-custom-emoji)</span>
-    - <span class="missing">[Custom Fields](../missing-and-outdated-list/index.html#custom-fields)</span>
+    - Custom Fields
     - <span class="missing">[Custom Sounds](../missing-and-outdated-list/index.html#adding-custom-sounds)</span>
     - Database-Migration
     - Email:
