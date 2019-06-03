@@ -265,6 +265,7 @@ Here you can also find what articles are incomplete and missing.
             - addLeader
             - addModerator
             - addOwner
+            - anonymousread
             - archive
             - close
             - counters
