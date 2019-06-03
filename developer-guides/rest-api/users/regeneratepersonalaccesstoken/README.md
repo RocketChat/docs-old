@@ -1,4 +1,4 @@
-# User Regenerate Personal Access Token
+# Regenerate Personal Access Token
 
 Regenerate a user personal access token. Requires `create-personal-access-tokens` permission.
 

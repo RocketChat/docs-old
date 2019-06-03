@@ -1,4 +1,4 @@
-# User Update
+# Update
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
