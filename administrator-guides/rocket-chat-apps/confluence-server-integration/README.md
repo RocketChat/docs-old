@@ -23,6 +23,8 @@ Go to any channel or private-group and execute the slashcommand `/confluence-ser
 
 After that your Rocket.Chat will be connected to your Confluence instance.
 
+Add the @rocket.cat user to the specific room and give him rights to write messages.
+
 >**Note**: We advise against using your own Confluence user in the installation process. That is because the Rocket.Chat App has to persist the credentials to be able to search for spaces later on. We recommend creating a new user for the installation.
 
 In order to enable notifications, you have to connect a channel or private group to one or more Confluence Spaces; whenever a page is created or updated in this Space a notification will be sent to the channel or private group they’ve been connected to.
