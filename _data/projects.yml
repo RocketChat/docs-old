@@ -60,7 +60,6 @@
   path: bots/
   pages:
     Bots Architecture: bots-architecture/
-    Bots FAQ: bots-faq/
     Configuring Bots: configure-bot-environment/
     Creating Bots Users: creating-bot-users/
 
