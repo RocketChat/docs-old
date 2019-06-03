@@ -178,22 +178,40 @@ return 301 https://$host$request_uri;
     `sudo nano /var/www/rocket.chat/docker-compose.yml`
 
 ```
-db:
-    image: mongo:3.0
-    volumes:
-    - ./data/runtime/db:/data/db
-    - ./data/dump:/dump
-    command: mongod --smallfiles
+version: '2'
 
-rocketchat:
-    image: rocketchat/rocket.chat:latest
+services:
+  rocketchat:
+    image: rocket.chat:latest
+    restart: unless-stopped
+    volumes:
+      - ./uploads:/app/uploads
     environment:
-    - MONGO_URL=mongodb://db:27017/rocketchat
-    - ROOT_URL=https://<ABC.DOMAIN.COM>
-    links:
-    - db:db
+      - PORT=3000
+      - ROOT_URL=https://<ABC.DOMAIN.COM>
+      - MONGO_URL=mongodb://mongo:27017/rocketchat
+      - MONGO_OPLOG_URL=mongodb://mongo:27017/local
+      - Accounts_UseDNSDomainCheck=True
+    depends_on:
+      - mongo
     ports:
-    - 3000:3000
+      - 3000:3000
+
+  mongo:
+    image: mongo
+    restart: unless-stopped
+    volumes:
+     - .data/runtime/db:/data/db
+     - ./data/dump:/dump
+    command: mongod --smallfiles --oplogSize 128 --replSet rs0 --storageEngine=mmapv1
+
+  # this container's job is just to run the command to initialize the replica set.
+  # it will run the command and remove himself (it will not stay running)
+  mongo-init-replica:
+    image: mongo
+    command: 'bash -c "for i in `seq 1 30`; do mongo mongo/rocketchat --eval \"rs.initiate({ _id: ''rs0'', members: [ { _id: 0, host: ''localhost:27017'' } ]})\" && s=$$? && break || s=$$?; echo \"Tried $$i times. Waiting 5 secs...\"; sleep 5; done; (exit $$s)"'
+    depends_on:
+      - mongo
 ```
 
 - Write & Exit
@@ -220,7 +238,7 @@ chdir /var/www/rocket.chat
 
 script
     # Showtime
-    exec /usr/local/bin/docker-compose up db
+    exec /usr/local/bin/docker-compose up mongo
 end script
 ```
 
