@@ -13,6 +13,12 @@ redirect_from:
 
 Applications for the GSoC 2019 season have now closed.   Please see [GSoC timeline](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#timeline) for more details.
 
+### Update on May 28, 2019
+
+Coding has begun!  This year continues to be the most active and productive GSoC year at Rocket.Chat.  During the bonding period, our students continued to assist community in public channels, interact with core team, contribute to bug fixes and documenation updates.  They have also worked with their mentors to add detailed schedule to their proposal, reflecting measurable goals/milestones.  Coding and detailed design work have started across all active projects.  In addition, we are happy to welcome a team of community mentors from Credit Suisse Singapore, already well experienced with our core and native mobile code bases, to assist us this season.
+
+Unfortunately, during this time, we had to remove one student from the program due to extended inactivity.
+
 ### Update on May 8, 2019
 
 2019 is an incredible year for GSoC at Rocket.Chat. Thanks to the ethusiastic early support from students and community (mentors), Google has graciously granted us **SEVENTEEN** project slots. This far surpasses any record from prior years.  As a result, we are delighted to welcome these 17 active community members to work with us during the GSoC 2019 season:
@@ -20,9 +26,9 @@ Applications for the GSoC 2019 season have now closed.   Please see [GSoC timeli
 |Student|Project|Mentors|
 |-------|-------|-------|
 |Rudrank Riyam|VoiceOver Accessibility in Rocket.Chat iOS application|Matheus Cardoso, Samar Sunkaria|
-|Noor Binte Amir|Theme Support for Rocket.Chat Android App|Filipe Brito|
+|Noor Binte Amir|Theme Support for Rocket.Chat Android App|Filipe Brito, Peter Nguyen, Balaji Sanjeevi, Renji Raj|
 |Aditya Bhardwaj|Service Accounts|Karen Bedi, Peter Lepeska|
-|Shubham Singh|Rocket.Chat Articles|Peter Lepeska, Karen Bedi|
+|Shubham Singh|Rocket.Chat Articles|Peter Lepeska, Karen Bedi, Ramkumar KB, Jian Hou|
 |Kautilya Tripath|Livechat: Real-time Visitor Monitoring|Renato Becker, Diego Mello|
 |Fongang Rodrique|Interactive APIs documenation|Martin Schoeler, Marcos Defendi|
 |Kapil Gautam|Integrating Google Calendar with Rocket.Chat|Douglas Gubert, Rodrigo Nascimento|
@@ -30,11 +36,11 @@ Applications for the GSoC 2019 season have now closed.   Please see [GSoC timeli
 |Govind Dixit|Improve Test Automation in Rocket.Chat Android Repository|Eric Rosenthal, James Hepburn|
 |Jon Goodrum|Improve Rocket.Chat Auto-Translate feature|Marcelo Schmidt, Sing Li|
 |Ilarion Halushk|Improve end-to-end testing infrastructure for ReactNative client|Diego Mello, Diego Sampaio|
-|Amish Mittal|Implemenation of Newsfeed in Rocket.Chat|Devin Toth, Eric Rosenthal|
+|Amish Mittal|Implemenation of Newsfeed in Rocket.Chat|Devin Toth, Peter Lepeska|
 |Djorkaeff|Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)|Diego Sampaio, Diego Mello|
 |Pranav Pandey|Enhancing ReactNative App with new features|Guilherme Gazzo, Diego Mello|
 |Utkarsh Barsaiyan|Deeper Nextcloud Integration|Tasso Evangelista, Roeland Douma, Gulherme Gazzo|
-|Tuan|Apple Watch App|Samar Sunkaria, Thiago Sanchez|
+|Tuan|Apple Watch App|Samar Sunkaria, Thiago Sanchez, Balaji Sanjeevi, Renji Raj|
 |Ashish Jha|Alexa Skill for Rocket.Chat|Sing Li, Gabriel Engel|
 
 It was a very difficult decision for many mentors to select from the large number of highly qualified students (we were able to engage the students early on in the GSoC cycle with open source contributions via the [GSoC Leaderboard](https://gsoc.rocket.chat/) ).
