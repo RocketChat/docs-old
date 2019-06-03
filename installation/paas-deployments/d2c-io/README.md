@@ -1,5 +1,7 @@
 # Deploying Rocket.Chat on D2C.io
 
+**Note: Has not yet been updated to work with 1.0**
+
 ## Supported cloud providers
 
 - AWS
