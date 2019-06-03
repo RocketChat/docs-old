@@ -120,7 +120,7 @@ Here you can also find what articles are incomplete and missing.
         - <span class="missing">[Layout](../missing-and-outdated-list/index.html#Layout)</span>
         - <span class="missing">[Assets](../missing-and-outdated-list/index.html#Assets)</span>
     - <span class="missing">[Custom Emoji](../missing-and-outdated-list/index.html#adding-custom-emoji)</span>
-    - <span class="missing">[Custom Fields](../missing-and-outdated-list/index.html#custom-fields)</span>
+    - Custom Fields
     - <span class="missing">[Custom Sounds](../missing-and-outdated-list/index.html#adding-custom-sounds)</span>
     - Database-Migration
     - Email:
@@ -184,6 +184,7 @@ Here you can also find what articles are incomplete and missing.
 - Developer guides:
     - Quick Start
     - Branches and Releases
+    - Client Compatibility Matrix
     - Code Styleguide:
         - <span class="incomplete">[Less](../missing-and-outdated-list/index.html#Less)</span>
     - Deeplink
@@ -197,7 +198,6 @@ Here you can also find what articles are incomplete and missing.
     - Livechat API
     - Mobile Apps
         - Supporting SSL
-        - Supported Servers Versions
     - GraphQL API:
         - Authentication
         - Schema
@@ -433,6 +433,7 @@ Here you can also find what articles are incomplete and missing.
             - read
             - unread
         - Users:
+            - presence
             - create
             - createToken
             - delete

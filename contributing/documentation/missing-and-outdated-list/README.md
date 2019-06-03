@@ -111,7 +111,3 @@ Create a guide on how to use Rocket.Chat as an Oauth provider.
 ## Oauth2 O365
 
 Create documentation on how to use oauth2 o365 authentication service with Rocket.Chat. You can find info on this issue <https://github.com/RocketChat/Rocket.Chat/issues/6809>
-
-## Custom Fields
-
-Create documentation on how to add custom fields to Rocket.Chat and how they work.

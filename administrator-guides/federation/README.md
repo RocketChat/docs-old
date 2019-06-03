@@ -95,12 +95,10 @@ You'll have to add two DNS records:
 In Amazon Route 53 it would look something like this:
 ![image](https://user-images.githubusercontent.com/51996/53998274-c1496c80-4104-11e9-8571-3288fc7b2cc8.png)
 
-#### TXT Record
+#### Public Key TXT Record
 
 - Host: `rocketchat-public-key.mydomain.com`
 - Value: `<my public key, as shown on the configuration screen>`
-
-When both of those entries are added to the DNS records, you should be able to be found by other peers after the propagation.
 
 NOTE: Some DNS providers won't allow the full public key string to be entered so, after saving, we recommend making sure the string is complete, starting as `-----BEGIN PUBLIC KEY-----` and ending as `-----END PUBLIC KEY-----`. If that is not the case, follow your provider's instructions. For example, AWS's Route 53 needs the string to be split in two pieces, like this:
 
@@ -108,6 +106,17 @@ NOTE: Some DNS providers won't allow the full public key string to be entered so
 "-----BEGIN PUBLIC KEY-----...."
 "...-----END PUBLIC KEY-----"
 ```
+
+#### Optional: protocol TXT Record
+
+We recommend using `HTTPS` for all kinds of communications but sometimes that is not possible. If needed, you can add a `rocketchat-protocol` entry with the desired protocol, `http` or `https`.
+
+- Host: `rocketchat-protocol.mydomain.com`
+- Value: `http`
+
+#### Conclusion
+
+When at least the SRV and the Public Key TXT records are added to the DNS records, you should be able to be found by other peers after the propagation.
 
 ### Alternative: registering on Hub
 
