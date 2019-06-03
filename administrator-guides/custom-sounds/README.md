@@ -1,8 +1,8 @@
 # Custom Sounds
 
-Rocket.Chat allows you to add cutom sound that can be used as notification sound by other users for different channels.
+Rocket.Chat allows you to add cutom sound files that can be used as notification's sound. Users can customize their notification sound preferences for specific channels.
 
-You can add your own mp3 files.
+Sound files should be uploaded in the mp3 format.
 
 ## Add a custom sound
 
