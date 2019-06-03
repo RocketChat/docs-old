@@ -18,12 +18,6 @@ In this article we explained how to start the end to end and unit tests in Rocke
 
 This style guide needs to be converted to CSS, since the base is almost the same.
 
-## Permissions
-
-Not all permissions are listed on this article, and some of the permissions listed there don't have a description.
-
-And Fix the markdown table on that article.
-
 ## GridFS
 
 Tell how the GridFS file storage mode works and how to configure it.
@@ -117,7 +111,3 @@ Create a guide on how to use Rocket.Chat as an Oauth provider.
 ## Oauth2 O365
 
 Create documentation on how to use oauth2 o365 authentication service with Rocket.Chat. You can find info on this issue <https://github.com/RocketChat/Rocket.Chat/issues/6809>
-
-## Custom Fields
-
-Create documentation on how to add custom fields to Rocket.Chat and how they work.
