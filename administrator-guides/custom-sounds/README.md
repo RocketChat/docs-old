@@ -15,8 +15,7 @@ Sound files should be uploaded in the mp3 format.
 
 ## Using custom sound
 
-- To use the added sound as a notification for an channel select `Notifications Preferences` from the `More` section of the channel.
-- Select the sound in the dropdown available in the front of the `Sound` field.
+See [Notification Preferences](../../user-guides/channels/#notifications-preferences) to use this custom sound as notification.
 
 ## Delete/Edit custom sound
 
