@@ -4,6 +4,8 @@ If you are a server administrator, here are a few guides on how to setup your in
 
 - [Account Settings](account-settings/)
 - [Authentication](authentication/)
+- [Custom Emoji](custom-emoji/)
+- [Custom Fields](custom-fields/)
 - [Database-Migration](database-migration/)
 - [Email](email/)
 - [Federation](federation/)

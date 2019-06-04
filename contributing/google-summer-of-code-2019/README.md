@@ -13,6 +13,12 @@ redirect_from:
 
 Applications for the GSoC 2019 season have now closed.   Please see [GSoC timeline](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#timeline) for more details.
 
+### Update on May 28, 2019
+
+Coding has begun!  This year continues to be the most active and productive GSoC year at Rocket.Chat.  During the bonding period, our students continued to assist community in public channels, interact with core team, contribute to bug fixes and documenation updates.  They have also worked with their mentors to add detailed schedule to their proposal, reflecting measurable goals/milestones.  Coding and detailed design work have started across all active projects.  In addition, we are happy to welcome a team of community mentors from Credit Suisse Singapore, already well experienced with our core and native mobile code bases, to assist us this season.
+
+Unfortunately, during this time, we had to remove one student from the program due to extended inactivity.
+
 ### Update on May 8, 2019
 
 2019 is an incredible year for GSoC at Rocket.Chat. Thanks to the ethusiastic early support from students and community (mentors), Google has graciously granted us **SEVENTEEN** project slots. This far surpasses any record from prior years.  As a result, we are delighted to welcome these 17 active community members to work with us during the GSoC 2019 season:
@@ -141,12 +147,6 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: Create an easy-to-use interface to let the user explore, test and get info about the existing endpoints of the Rocket.Chat's APIs - an API playground. The user will be able to connect and make requests directly from the UI, also being able to change the arguments of the requests and testing different flows of the APIs.  Since our server APIs change constantly, it is important that the subset of API documentation within the playground is in precise synchronization with the code. This will require the integration of a documentation generation library.
 - **Desirable Skills**: Familiarity with Jekyll and Rocket.Chat Rest API.
 
-### SNAP improvements
-
-- **Mentors**: @lucia.guevgeozian  @sing.li
-- **Description**: The most popular Rocket.Chat deployment method in the world is via snaps. Snaps are containerised software packages that are simple to create and install. The aim of this project is improve our snap installation process and features, bringing better support for our ARM architecture deployment, and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for loadbalancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replicaset and possible firewall configuration.
-- **Desirable Skills:**  Familiarity with Linux. Good shell scripting skills. Aware of DevOps and containers based deployment technology.
-
 ### Service Accounts in Rocket.Chat
 
 - **Mentors:** @karan.bedi, @bizzbyster
@@ -160,7 +160,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### iOS Voice Over Accessibility
 
-- **Mentors:** @rafael.kellermann  @matheus.cardoso
+- **Mentors:**  @matheus.cardoso
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.iOS>
 - **Description:** VoiceOver is a gesture-based screen reader that lets you enjoy using iPhone even if you don’t see the screen. This is especially important for those with low or no vision. We want to make Rocket.Chat for everyone. A blind user should be able to easily add servers, change servers, read messages and send messages, as well as other additional functions such as editing profile and creating channels. A minimum acceptable scope is to be determined.
 - **Desirable Skills:** We are looking for an undergraduate student who is familiar with team work, developing iOS Apps using UIKit and Swift, as well as writing maintainable code with Unit Tests and having some familiarity with Voice Over and Accessibility.
@@ -170,12 +170,6 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Mentors:** @jaytat0, @bizzbyster
 - **Description:** Implement a way for administrators to rebrand their instances of rocketchat - product name, icons, colors, etc. - for the android and ios apps, which currently do not support this. Besides adding this capability, another goal would be to make this branding across all the OS’s easy for an administrator that may not be too tech savvy. Ideally, this would only be a few easy steps. Besides this ease-of-use improvement, this would also make it less likely that people will fork rocket to put in their own branding.
 - **Desirable Skills:**  Familiarity with Android and/or iOS development, specifically the Rocket.Chat.Android/Rocket.Chat.iOS code bases.
-
-### iOS contacts sync, invites & dynamic links
-
-- **Mentors**: @bizzbyster, @eric.rosenthal
-- **Description**: In the Rocket.Chat native iOS application, add the functionality of listing all the contacts of a user, syncing in background these contacts with the server using existing APIs and displaying the intersection with public accounts on server. Integrating the APIs to invite users that do not have an account (via email/phone) or inviting via other applications on the phone. Support dynamic links in iOS app, allow the creation of links such that when invited through one, after installation of the app it opens a DM with the inviter, etc. `These functionalities are already implemented for Android in a fork.`
-- **Desirable Skills**: Familiarity with iOS development.
 
 ### Livechat: Voice and Video Calls
 
@@ -217,10 +211,17 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Implement iOS and Android share extension for React Native app (Rocket.Chat Experimental)
 
-- **Mentors**: @diegolmello
+- **Mentors**: @diego.sampaio, @diegolmello
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
 - **Description**: Share extensions enables iOS or Android OS to share content between apps. This project aims to implement a share extension for React Native client to let users share data into Rocket.Chat from other apps. For example, a user should be able to send photos from the camera roll to a Rocket.Chat channel without opening the RC client.
 - **Desirable Skills:**  Familiarity with React Native, iOS and Android development and Rocket.Chat.ReactNative code base.
+
+### Improve performance and implement slash commands on React Native app (Rocket.Chat Experimental)
+
+- **Mentors**: @guilherme.gazzo, @diegolmello
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
+- **Description**: In mobile apps, users must be able to do what they want in fewer taps as possible. Slash commands are faster ways to trigger trivial actions, like invite a user or archive a channel, and it should be available on React Native client.
+- **Desirable Skills:**  Familiarity with React Native development, specifically the Rocket.Chat.ReactNative code base.
 
 ### Allow Rocket.Chat Apps to use their own NPM modules
 
@@ -272,22 +273,27 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
 - **Description**: Themes, like dark mode, are very popular and everywhere right now, but the Rocket.Chat React Native app lacks the feature of applying different themes. This project aims to bring different themes like dark mode and black mode into the existing React Native client.
 
-### Implement slash commands on React Native app (Rocket.Chat Experimental)
-
-- **Mentors**: @diegolmello
-- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
-- **Description**: In mobile apps, users must be able to do what they want in fewer taps as possible. Slash commands are faster ways to trigger trivial actions, like invite a user or archive a channel, and it should be available on React Native client.
-- **Desirable Skills:**  Familiarity with React Native development, specifically the Rocket.Chat.ReactNative code base.
-
 ### Integration of Rocket.Chat with Existing Phone/Voice Networks
 
 - **Mentors**: TBD
 - **Description**: Deep VoIP integration of Rocket.Chat with modern software and hardware SIP switches and VoIP SaaS. Intelligently add access to phone networks and SMS channels to the Rocket.Chat workflow.  Enable multi-channel conferences with chat + phone calls + video.  Empower Live chat with voice calls in workflow.
 - **Desirable Skills**: Familiar with SIP development. Fluent in VoIP concepts and practices. Ability to rapidly code in JavaScript and Linux shell.  Wide open mind for new ideas.
 
+### iOS contacts sync, invites & dynamic links
+
+- **Mentors**: @zi.lin, @eric.rosenthal
+- **Description**: In the Rocket.Chat native iOS application, add the functionality of listing all the contacts of a user, syncing in background these contacts with the server using existing APIs and displaying the intersection with public accounts on server. Integrating the APIs to invite users that do not have an account (via email/phone) or inviting via other applications on the phone. Support dynamic links in iOS app, allow the creation of links such that when invited through one, after installation of the app it opens a DM with the inviter, etc. `These functionalities are already implemented for Android in a fork.`
+- **Desirable Skills**: Familiarity with iOS development.
+
+### SNAP improvements
+
+- **Mentors**: @lucia.guevgeozian
+- **Description**: The most popular Rocket.Chat deployment method in the world is via snaps. Snaps are containerised software packages that are simple to create and install. The aim of this project is improve our snap installation process and features, bringing better support for our ARM architecture deployment, and expand our configuration options to set up Rocket.Chat in more diverse layouts adding support for loadbalancing between instances where Rocket.Chat will only be bound to the loopback interface, regular backups for our database configured as a replicaset and possible firewall configuration.
+- **Desirable Skills:**  Familiarity with Linux. Good shell scripting skills. Aware of DevOps and containers based deployment technology.
+
 ### Data Doctor: A database sanitizer tool for Rocket.Chat
 
-- **Mentors:** @diego.sampaio,  @sing.li
+- **Mentors:** TBD
 - **Description:**  Rocket.Chat's data backend is MongoDB, a NoSQL database. NoSQL databases enable application developers to quickly add and change data schemas for new features without imposing rigid integrity constraints.   While effective for small projects,  this can create varied data inconsistency in long-lasting production server projects such as Rocket.Chat.   Causes such as buggy code versions, crashes during migrations and/or schema updates, core customizations, and inadvertent DB admin modifications can all lead to a non-deterministic data schema. Some corrupted schema may break code, while others can go years without being detected.  The goal of this project is to create a tool to help sanitize in production Rocket.Chat databases.  Depending on the ingenuity of the tool design, the same code can one day be integrated into Rocket.Chat as a data integrity layer.
 - **Desirable Skills:**  Familiarity with database concepts and administration.  Fluent with NodeJS and Javascript. Love hacking.
 
