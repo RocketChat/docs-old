@@ -88,10 +88,6 @@ Create a guide on how to use the `Message` setting section.
 
 Missing meteor Oauth section.
 
-## Adding Custom Emoji
-
-Create a guide on how to add custom emojis to Rocket.Chat.
-
 ## Adding Custom Sounds
 
 Create a guide on how to add custom sounds to Rocket.Chat.

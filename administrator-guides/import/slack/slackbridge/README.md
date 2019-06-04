@@ -20,4 +20,4 @@ Once enabled and added to rooms, SlackBridge will clone the room in Rocket.Chat 
 3. Add your API Token, copied in step 4 above
 4. Restart you Rocket.chat server
 
-When done, you can now invite/add the bot to the channel or private group you want to mirror from 
+When done, you can now invite/add the bot to the channel or private group you want to mirror from
