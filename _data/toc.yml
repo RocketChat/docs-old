@@ -99,7 +99,8 @@
   - Authentication:
     - CAS
     - Ldap
-    - Oauth
+    - Oauth:
+      - Okta
     - SAML:
       - Oracle Cloud
     - WordPress
