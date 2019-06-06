@@ -8,7 +8,7 @@ Create a client in Keycloak.
 2. Select the client protocol as openid-connect
 3. Select the client access type as confidential
 4. Standard flow implemented: ON
-5. Valid Redirect URL: `http:{Rocket.Chat_ip_address}:port/*`
+5. Valid Redirect URL: `http:{Rocket.Chat_server_address}/*`
 
 The following image shows the minimal configurations needed to setup Keycloak as an Identity Provider to Rocket.Chat.
 
