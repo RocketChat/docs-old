@@ -121,7 +121,7 @@ Here you can also find what articles are incomplete and missing.
         - <span class="missing">[Assets](../missing-and-outdated-list/index.html#Assets)</span>
     - Custom Emoji
     - Custom Fields
-    - <span class="missing">[Custom Sounds](../missing-and-outdated-list/index.html#adding-custom-sounds)</span>
+    - Custom Sounds
     - Database-Migration
     - Email:
         - Setup

@@ -88,10 +88,6 @@ Create a guide on how to use the `Message` setting section.
 
 Missing meteor Oauth section.
 
-## Adding Custom Sounds
-
-Create a guide on how to add custom sounds to Rocket.Chat.
-
 ## Auto Translation
 
 Create a guide on how to set up auto translation and use it.
