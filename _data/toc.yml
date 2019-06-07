@@ -100,10 +100,12 @@
     - CAS
     - Ldap
     - Oauth
+      - Keycloak
     - SAML:
       - Oracle Cloud
     - WordPress
   - Custom Emoji
+  - Custom Sounds
   - Database-Migration
   - Email:
     - Setup
