@@ -99,7 +99,8 @@
   - Authentication:
     - CAS
     - Ldap
-    - Oauth
+    - Oauth:
+      - Okta
       - Keycloak
     - SAML:
       - Oracle Cloud
