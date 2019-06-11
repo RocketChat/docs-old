@@ -356,7 +356,11 @@ services:
 
 Save and Exit.
 
-- - -
+Start the services by:
+
+```bash
+docker-compose up -d
+```
 
 ## 7. Automatic Startup & Crash Recovery
 
