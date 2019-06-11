@@ -24,7 +24,7 @@ This guide covers the following:
 #### In AWS Services, go to **EC2**, **Instances**, and **Launch Instance**
 
 1. Choose an AMI
-    - Select **Ubuntu Server 14.04 LTS** AMI
+    - Select **Ubuntu Server 16.04 LTS** AMI
 2. Choose an Instance Type
     - Select Type: **t2.micro** and click **Next**
 3. Configure Instance Details
@@ -161,9 +161,8 @@ return 301 https://$host$request_uri;
 3. Add ubuntu user to docker group to use Docker as a non-root user.
     `sudo usermod -aG docker ubuntu`
 4. Install Docker Compose:
-    `sudo -i`
-    `curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-compose-Linux-x86_64 > /usr/local/bin/docker-compose`
-    `chmod +x /usr/local/bin/docker-compose`
+    `sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-Linux-x86_64" -o /usr/local/bin/docker-compose`
+    `sudo chmod +x /usr/local/bin/docker-compose`
     `exit`
 5. Logout, and log back in again.
     `exit`
@@ -212,6 +211,12 @@ services:
     command: 'bash -c "for i in `seq 1 30`; do mongo mongo/rocketchat --eval \"rs.initiate({ _id: ''rs0'', members: [ { _id: 0, host: ''localhost:27017'' } ]})\" && s=$$? && break || s=$$?; echo \"Tried $$i times. Waiting 5 secs...\"; sleep 5; done; (exit $$s)"'
     depends_on:
       - mongo
+```
+
+Start the services by:
+
+```bash
+docker-compose up -d
 ```
 
 - Write & Exit
