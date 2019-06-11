@@ -110,7 +110,7 @@ Press **Y** when prompted to proceed with the install.
 **Install Docker-Compose version 1.24.0 (64 bit) via cURL**
 
 ```
-sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-Linux-x86_64" -o /usr/local/bin/docker-compose
 
 ```
 
