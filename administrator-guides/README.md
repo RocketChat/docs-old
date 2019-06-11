@@ -6,6 +6,7 @@ If you are a server administrator, here are a few guides on how to setup your in
 - [Authentication](authentication/)
 - [Custom Emoji](custom-emoji/)
 - [Custom Fields](custom-fields/)
+- [Custom Sounds](custom-sounds/)
 - [Database-Migration](database-migration/)
 - [Email](email/)
 - [Federation](federation/)
