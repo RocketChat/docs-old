@@ -107,10 +107,11 @@ Press **Y** when prompted to proceed with the install.
 **Install Docker**
 <https://docs.docker.com/linux/step_one/>
 
-**Install Docker-Compose version 1.4.2 (64 bit) via cURL**
+**Install Docker-Compose version 1.24.0 (64 bit) via cURL**
 
 ```
-sudo curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-compose-Linux-x86_64 > /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
 ```
 
 **Set the executable permissions:**
@@ -119,7 +120,7 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-co
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-**Notes:** We're using version 1.4.2 for this guide. If you wish to try a newer version, you will need to edit the cURL command to reflect the alternate version number. If you get a "Permission denied" error, your `/usr/local/bin` directory probably isn't writable and you'll need to install Compose as the superuser. Run `sudo -i`, then the two commands above, then `exit`. (credit: docker compose docs)
+**Notes:** We're using version 1.24.0 for this guide. If you wish to try a newer version, you will need to edit the cURL command to reflect the alternate version number. If you get a "Permission denied" error, your `/usr/local/bin` directory probably isn't writable and you'll need to install Compose as the superuser. Run `sudo -i`, then the two commands above, then `exit`. (credit: docker compose docs)
 
 **Confirm docker-compose is properly installed**
 
