@@ -203,10 +203,10 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Livechat
 
-| Url                            | Short Description                                             | Details Page                   |
-| :----------------------------- | :------------------------------------------------------------ | :----------------------------- |
-| `/api/v1/livechat/inquiries`   | Retrieves a list of open inquiries.                           | [Link](livechat/inquiries/)    |
-| `/api/v1/livechat/inquiry.take`| Take an open inquiry.                                         | [Link](livechat/inquiry-take/) |
+| Url                              | Short Description                                             | Details Page                     |
+| :------------------------------- | :------------------------------------------------------------ | :------------------------------- |
+| `/api/v1/livechat/inquiries.list`| Retrieves a list of open inquiries.                           | [Link](livechat/inquiries-list/) |
+| `/api/v1/livechat/inquiries.take`| Take an open inquiry.                                         | [Link](livechat/inquiries-take/) |
 
 ### Permissions
 

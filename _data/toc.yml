@@ -393,8 +393,8 @@
         - config
         - custom-fields
         - department
-        - inquiries
-        - inquiry.take
+        - inquiries.list
+        - inquiries.take
         - message
         - room
         - sms-incoming

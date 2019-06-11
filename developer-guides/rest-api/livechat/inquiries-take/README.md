@@ -4,7 +4,7 @@ Takes an open inquiry.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/livechat/inquiry.take` | `yes` | `POST` |
+| `/api/v1/livechat/inquiries.take` | `yes` | `POST` |
 
 ## Payload
 
@@ -23,7 +23,7 @@ Takes an open inquiry.
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type: application/json" \
-     http://localhost:3000/api/v1/livechat/inquiry.take \
+     http://localhost:3000/api/v1/livechat/inquiries.take \
      -d '{ "inquiryId": "ByehQjC44FwMeiLbX" }'
 ```
 
