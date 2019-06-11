@@ -6,6 +6,13 @@ Lists all of the open livechat inquiries. It supports the [Offset, Count, and So
 | :--- | :--- | :--- |
 | `/api/v1/livechat/inquiries.list` | `yes` | `GET` |
 
+
+## Query Parameters
+
+| Argument | Example | Required | Description |
+| :--- | :--- | :--- | :--- |
+| `department` | `ByehQjC44FwMeiLbX` | Optional | The department's id or name |
+
 ## Example Call
 
 ```bash
@@ -19,11 +26,20 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```json
 {
     "inquiries": [
-         {
-            "_id": "HRp7pesRnHFAejg5o",
-            "rid": "v4nfSYsfCokwbRi6R",
+          {
+            "_id": "GpxfRo8TaPHfsnnC5",
+            "rid": "EbQjtCosHJWLQmQYT",
             "name": "Marcos Defendi",
-            "ts": "2019-06-11T12:33:45.511Z",
+            "ts": "2019-06-11T19:01:57.424Z",
+            "department": "jHFgdJyJWstB9M2ik",
+            "status": "open"
+        },
+        {
+            "_id": "9dCi64GkwWE389xCm",
+            "rid": "ZpjCcbRwPPdnhKWW5",
+            "name": "Marcos Defendi",
+            "ts": "2019-06-11T19:00:43.124Z",
+            "department": "gDDAjeJb7BhHzzEQ8",
             "status": "open"
         }
     ],
