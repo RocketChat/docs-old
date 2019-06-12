@@ -54,7 +54,7 @@ Use the workaround below to upgrade from versions previous to 1.0.0. The followi
 $ kubectl delete deployment my-rocketchat-rocketchat --cascade=false
 ```
 
-#### Follow these steps to manually upgrade:
+### Follow these steps to manually upgrade:
 
 We recommend setting up another set of k8s resources, test that the upgrade is correct and then remove resources from previous version.
 
