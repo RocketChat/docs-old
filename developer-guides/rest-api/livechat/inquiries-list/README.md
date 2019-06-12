@@ -6,7 +6,6 @@ Lists all of the open livechat inquiries. It supports the [Offset, Count, and So
 | :--- | :--- | :--- |
 | `/api/v1/livechat/inquiries.list` | `yes` | `GET` |
 
-
 ## Query Parameters
 
 | Argument | Example | Required | Description |
