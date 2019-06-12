@@ -45,48 +45,51 @@ $ helm install --name my-rocketchat -f values.yaml stable/rocketchat
 
 ## Upgrading
 
-Rocket.Chat version 1.x requires a MongoDB ReplicaSet to be configured. When using the dependent `stable/mongodb` chart (`mongodb.enabled=true`), enabling ReplicaSet will drop the PVC and create new ones. After upgrade there will be a backup of your current MongoDB in a volume called rocketchat-mongodump, you can restore it after the upgrade and optionally restore it during upgrade.
+Rocket.Chat version 1.x requires a MongoDB ReplicaSet to be configured. When using the dependent `stable/mongodb` chart (`mongodb.enabled=true`), enabling ReplicaSet will drop the PVC and create new ones.
 
 Backwards compatibility is not guaranteed unless you modify the labels used on the chart's deployments.
-Use the workaround below to upgrade from versions previous to 1.0.0. The following example assumes that the release name is rocketchat:
+Use the workaround below to upgrade from versions previous to 1.0.0. The following example assumes that the release name is my-rocketchat:
 
 ```console
-$ kubectl delete deployment rocketchat-rocketchat --cascade=false
+$ kubectl delete deployment my-rocketchat-rocketchat --cascade=false
 ```
 
-```console
-$ helm upgrade \
---set mongodb.mongodbRootPassword=<password previously configured> \
---set mongodb.mongodbPassword=<password previously configured> \
---set backupDatabase=true \
---set restoreDatabase=true \
---set <other values previously configured on installation> \ 
-stable/rocketchat
+#### Follow these steps to manually upgrade:
+
+We recommend setting up another set of k8s resources, test that the upgrade is correct and then remove resources from previous version.
+
+- Create a backup of the Rocket.Chat database:
+
+```bash
+$ kubectl exec <my-rocketchat-mongodb-pod> -- sh -c 'mongodump -u<mongodbUsername> -p<mongodbPassword> --archive=/tmp/rocketchat-db-bkup.gz --gzip --db <mongodbDatabase>'
 ```
 
-After upgrade, if you find any error, you can restore the rocketchat db using this pod with the backup volume mounted and run the following command from inside the pod:
+- Copy the backup file to working directory:
 
-```
-apiVersion: v1
-kind: Pod
-metadata:
-  name: test-restore
-spec:
-  containers:
-  - name: for-restore
-    image: bitnami/mongodb
-    volumeMounts:
-    - name: mongodump
-      mountPath: "/dump"
-  volumes:
-  - name: mongodump
-    persistentVolumeClaim:
-      claimName: rocketchat-mongodump
+```bash
+$ kubectl cp <my-rocketchat-mongodb-pod>:/tmp/rocketchat-db-bkup.gz .
 ```
 
-```console
-$ mongorestore --drop --host rocketchat-mongodb --username <mongodb.mongodbUsername> --password <mongodb.mongodbPassword> --db <mongodb.mongodbDatabase> --archive=/dump/rocketchat-db-bkup.gz --gzip
+- Install the new helm chart with Rocket.Chat version > 1.0 following instructions below, use a different name but keep your previously configured mongodbUsername, mongodbPassword and mongodbDatabase:
+
+```bash
+$ helm install --set mongodb.mongodbUsername=rocketchat,mongodb.mongodbPassword=changeme,mongodb.mongodbDatabase=rocketchat,mongodb.mongodbRootPassword=root-changeme --name my-rocketchat-1 stable/rocketchat
 ```
 
-In the last command `host` is the name of the rocketchat mongodb service. You may want to delete the extra replicaset for rocketchat from before the upgrade.
+- Copy the database backup file from working directory to the new mongodb pod:
 
+```bash
+$ kubectl cp rocketchat-db-bkup.gz  my-rocketchat-1-mongodb-primary-0:/tmp
+```
+
+- Restore the database:
+
+```bash
+$ kubectl exec my-rocketchat-1-mongodb-primary-0 -- sh -c 'mongorestore -u<mongodbUsername> -p<mongodbPassword> --archive=/tmp/rocketchat-db-bkup.gz --gzip --db <mongodbDatabase>'
+```
+
+- Check that the database was restored succesfully and remember to give access to db local to mongodbUsername:
+
+```bash
+kubectl exec my-rocketchat-1-mongodb-primary-0 -- sh -c 'mongo <mongodbDatabase> -u<mongodbUsername> -p<mongodbPassword>  --eval="printjson(db.runCommand( { listCollections: 1.0, nameOnly: true } ))"'
+```
