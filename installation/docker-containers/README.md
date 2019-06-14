@@ -107,10 +107,11 @@ Press **Y** when prompted to proceed with the install.
 **Install Docker**
 <https://docs.docker.com/linux/step_one/>
 
-**Install Docker-Compose version 1.4.2 (64 bit) via cURL**
+**Install Docker-Compose version 1.24.0 (64 bit) via cURL**
 
 ```
-sudo curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-compose-Linux-x86_64 > /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-Linux-x86_64" -o /usr/local/bin/docker-compose
+
 ```
 
 **Set the executable permissions:**
@@ -119,7 +120,7 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-co
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-**Notes:** We're using version 1.4.2 for this guide. If you wish to try a newer version, you will need to edit the cURL command to reflect the alternate version number. If you get a "Permission denied" error, your `/usr/local/bin` directory probably isn't writable and you'll need to install Compose as the superuser. Run `sudo -i`, then the two commands above, then `exit`. (credit: docker compose docs)
+**Notes:** We're using version 1.24.0 for this guide. If you wish to try a newer version, you will need to edit the cURL command to reflect the alternate version number. If you get a "Permission denied" error, your `/usr/local/bin` directory probably isn't writable and you'll need to install Compose as the superuser. Run `sudo -i`, then the two commands above, then `exit`. (credit: docker compose docs)
 
 **Confirm docker-compose is properly installed**
 
@@ -291,38 +292,61 @@ sudo nano /var/www/rocket.chat/docker-compose.yml
 ```
 
 ```
-db:
-  image: mongo
-  volumes:
-    - ./data/runtime/db:/data/db
-    - ./data/dump:/dump
-  command: mongod --smallfiles
+version: '2'
 
-rocketchat:
-  image: rocketchat/rocket.chat:latest
-  environment:
-    - MONGO_URL=mongodb://db:27017/rocketchat
-    - ROOT_URL=https://chat.inumio.com
-    - Accounts_UseDNSDomainCheck=True
-  links:
-    - db:db
-  ports:
-    - 3000:3000
+services:
+  rocketchat:
+    image: rocket.chat:latest
+    command: bash -c 'for i in `seq 1 30`; do node main.js && s=$$? && break || s=$$?; echo "Tried $$i times. Waiting 5 secs..."; sleep 5; done; (exit $$s)'
+    restart: unless-stopped
+    volumes:
+      - ./uploads:/app/uploads
+    environment:
+      - PORT=3000
+      - ROOT_URL=http://chat.inumio.com
+      - MONGO_URL=mongodb://mongo:27017/rocketchat
+      - MONGO_OPLOG_URL=mongodb://mongo:27017/local
+      - Accounts_UseDNSDomainCheck=True
+    depends_on:
+      - mongo
+    ports:
+      - 3000:3000
 
-hubot:
-  image: rocketchat/hubot-rocketchat:latest
-  environment:
-    - ROCKETCHAT_URL=165.114.165.21:3000
-    - ROCKETCHAT_ROOM=GENERAL
-    - ROCKETCHAT_USER=Botname
-    - ROCKETCHAT_PASSWORD=BotPassw0rd
-    - BOT_NAME=Botname
-    - EXTERNAL_SCRIPTS=hubot-help,hubot-seen,hubot-links,hubot-greetings
-  links:
-    - rocketchat:rocketchat
-# this is used to expose the hubot port for notifications on the host on port 3001, e.g. for hubot-jenkins-notifier
-  ports:
-    - 3001:8080
+  mongo:
+    image: mongo
+    restart: unless-stopped
+    volumes:
+     - ./data/db:/data/db
+     - ./data/dump:/dump
+    command: mongod --smallfiles --oplogSize 128 --replSet rs0 --storageEngine=mmapv1
+
+  # this container's job is just run the command to initialize the replica set.
+  # it will run the command and remove himself (it will not stay running)
+  mongo-init-replica:
+    image: mongo
+    command: 'bash -c "for i in `seq 1 30`; do mongo mongo/rocketchat --eval \"rs.initiate({ _id: ''rs0'', members: [ { _id: 0, host: ''localhost:27017'' } ]})\" && s=$$? && break || s=$$?; echo \"Tried $$i times. Waiting 5 secs...\"; sleep 5; done; (exit $$s)"'
+    depends_on:
+      - mongo
+
+  # hubot, the popular chatbot (add the bot user first and change the password before starting this image)
+  hubot:
+    image: rocketchat/hubot-rocketchat:latest
+    restart: unless-stopped
+    environment:
+      - ROCKETCHAT_URL=165.114.165.21:3000
+      - ROCKETCHAT_ROOM=GENERAL
+      - ROCKETCHAT_USER=bot
+      - ROCKETCHAT_PASSWORD=botpassword
+      - BOT_NAME=bot
+  # you can add more scripts as you'd like here, they need to be installable by npm
+      - EXTERNAL_SCRIPTS=hubot-help,hubot-seen,hubot-links,hubot-diagnostics
+    depends_on:
+      - rocketchat
+    volumes:
+      - ./scripts:/home/hubot/scripts
+  # this is used to expose the hubot port for notifications on the host on port 3001, e.g. for hubot-jenkins-notifier
+    ports:
+      - 3001:8080
 ```
 
 - Edit the ROOT_URL value to be your FQDN.
@@ -332,7 +356,11 @@ hubot:
 
 Save and Exit.
 
-- - -
+Start the services by:
+
+```bash
+docker-compose up -d
+```
 
 ## 7. Automatic Startup & Crash Recovery
 
@@ -358,7 +386,7 @@ chdir /var/www/rocket.chat
 
 script
     # Showtime
-    exec /usr/local/bin/docker-compose up db
+    exec /usr/local/bin/docker-compose up mongo
 end script
 ```
 

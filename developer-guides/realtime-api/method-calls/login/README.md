@@ -31,7 +31,7 @@ That information should be saved locally in order to automatically authenticate 
 
 ## Username and Password
 
-The user has an account directly with the RC server. It's important to say that we must not pass the user password as plain-text, applying a hashing algorithm makes things better (`sha-256`).
+The user has an account directly with the RC server. It's important to say that we must not pass the user password as plain-text, applying a hashing algorithm makes things better (`sha-256`). Make sure your digest is lower-case!
 
 Request
 
