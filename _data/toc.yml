@@ -394,6 +394,8 @@
         - config
         - custom-fields
         - department
+        - inquiries.list
+        - inquiries.take
         - message
         - room
         - sms-incoming

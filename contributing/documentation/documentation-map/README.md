@@ -391,6 +391,8 @@ Here you can also find what articles are incomplete and missing.
             - config
             - custom-fields
             - department
+            - inquiries.list
+            - inquiries.take
             - message
             - room
             - sms-incoming
