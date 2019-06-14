@@ -60,6 +60,7 @@
     - Ubuntu:
       - Snaps:
         - AutoSSL
+    - Univention Corporate Server (UCS)
     - Mongo Options
     - Mongo Versions
     - Mongo Replicas
@@ -73,6 +74,7 @@
   - Mobile and Desktop Apps
   - Updating:
     - From 0.x.x to 0.40.0
+    - To 1.0
   - Minimum Requirements
   - Community Supported Installation:
     - FreeBSD:
@@ -91,15 +93,20 @@
   - Managing your Account
   - End to End Encryption
   - Voice and Video Conferencing
+  - Experimental App
 - Administrator guides:
   - Account Settings
   - Authentication:
     - CAS
     - Ldap
-    - Oauth
+    - Oauth:
+      - Okta
+      - Keycloak
     - SAML:
       - Oracle Cloud
     - WordPress
+  - Custom Emoji
+  - Custom Sounds
   - Database-Migration
   - Email:
     - Setup
@@ -132,6 +139,7 @@
     - Google-Calendar
     - Guggy
     - Jenkins
+    - JFrog Xray
     - Jira
     - MicroBadger
     - NextCloud and WebDAV
@@ -174,6 +182,7 @@
 - Developer guides:
     - Quick Start
     - Branches and Releases
+    - Client Compatibility Matrix
     - Code Styleguide:
       - less
     - Deeplink
@@ -188,7 +197,6 @@
     - Mobile Apps:
       - Analytics & Data Usage
       - Supporting SSL
-      - Supported Servers Versions
     - Developing Apps:
       - Getting Started
     - GraphQL API:
@@ -386,6 +394,8 @@
         - config
         - custom-fields
         - department
+        - inquiries.list
+        - inquiries.take
         - message
         - room
         - sms-incoming
@@ -432,6 +442,7 @@
         - read
         - unread
       - Users:
+        - presence
         - create
         - createToken
         - delete
@@ -468,7 +479,6 @@
       - Components
       - Themes
 - Bots:
-  - Bots FAQ
   - Bots Architecture
   - Creating Bot Users
   - Configure Bot Environment
