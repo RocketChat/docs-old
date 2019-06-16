@@ -8,6 +8,32 @@ If you are an end-user and not a dev or a tester, [create a New Feature Request]
 
 > All API calls in the documentation are made using `curl`.  However, you are free to use Java / Python / PHP / Golang / Ruby / Swift / Objective-C / Rust / Scala / C# or any other programming languages.
 
+1. [Production Security Concerns](#production-security-concerns)
+   1. [Miscellaneous Information](#miscellaneous-information)     
+   2. [Assets](#assets)  
+   3. [Authentication](#authentication)  
+   4. [Users](#users)  
+   5. [Channels](#channels)  
+   6. [Groups](#groups)  
+   7. [Chat](#chat)  
+   8. [IM](#im)  
+   9. [Integrations](#integrations)  
+   10. [Roles](#roles)  
+   11. [Push Token](#push-token) 
+   12. [Rooms](#rooms) 
+   13. [Command Methods](#command-methods) 
+   14. [Emoji Custom](#emoji-custom)
+   15. [Settings](#settings) 
+   16. [Video Conference](#video-conference) 
+   17. [Subscriptions](#subscriptions) 
+2. [Language specific wrappers](#language-specific-wrappers) 
+   1. [Java](#java) 
+   2. [PHP](#php)
+   3. [Python](#python)
+   4. [Ruby](#ruby)
+   5. [Clojure](#clojure)
+
+
 ## Production Security Concerns
 
 When calling a production Rocket.Chat server, ensure it is running via HTTPS and has a valid SSL Certificate. The login method requires you to post your username and password in plaintext, which is why we highly suggest only calling the REST login API over HTTPS. Also, few things to note:
