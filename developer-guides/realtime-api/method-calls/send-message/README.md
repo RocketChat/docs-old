@@ -37,9 +37,9 @@ In order to find out which storage system is used for the uploaded files, we nee
 
 Sending a file is a bit more complex. It involves two method calls and some HTTP requests. The flow is:
 
-- Send a `slingshot/uploadRequest` method call with some initial information about the upload (see example bellow)
+- Send a `slingshot/uploadRequest` method call with some initial information about the upload (see example below)
 - Use the returned information about the storage service to upload the file content (see example below)
-- Send a `sendFileMessage` method call with the extra information about the upload (see example bellow)
+- Send a `sendFileMessage` method call with the extra information about the upload (see example below)
 
 First request (`slingshot/uploadRequest`):
 
