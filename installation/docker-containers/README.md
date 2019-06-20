@@ -4,7 +4,7 @@ Docker-Ubuntu 16.04 LTS (64 bit) VPS with Nginx SSL and Hubot
 
 ## Introduction
 
-This guide will walk you through installation and configuration of a Docker based Rocket Chat instance on Ubuntu 16.04 (64 bit) VPS, using Nginx as a reverse SSL proxy, Hubot chatbot, and necessary scripts for automatic restart and crash recovery.
+This guide will walk you through installation and configuration of a Docker based Rocket Chat instance on Ubuntu 16.04 LTS (64 bit) VPS, using Nginx as a reverse SSL proxy, Hubot chatbot, and necessary scripts for automatic restart and crash recovery.
 
 For people new to docker here's a quick primer: Docker is a program to allow other programs and their dependencies to be run in a type of virtual container. Using this deployment guide, you do not need to download any of the rocket chat program files manually whatsoever. Docker will get everything that is needed for Rocket Chat to run. If you follow this guide closely, it provides everything from start to finish needed to install, create, and run your own Rocket Chat web instance with nginx handling SSL termination, and a Hubot chatbot keeping your general chat channel warm on those cold winter mornings.
 
