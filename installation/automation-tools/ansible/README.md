@@ -57,8 +57,8 @@ So, now you've got Ansible installed, you can get ready to deploy Rocket.Chat!
 - The system you're deploying to must run one of the following operating systems:
     - EL 7 (RHEL/CentOS)
     - Debian 8 (Jessie) LTS
-    - Ubuntu 14.04 LTS
-    - Ubuntu 15.04
+    - Ubuntu 16.04 LTS
+    - Ubuntu 19.04
 
   Future releases of the [official Rocket.Chat Ansible role](https://galaxy.ansible.com/RocketChat/Server/#readme) will include other Linux distributions/releases and other operating systems. If you'd like to see your OS of choice supported, feel free to [raise an issue](https://github.com/RocketChat/Rocket.Chat.Ansible/issues) to ask if it can be added.
 
