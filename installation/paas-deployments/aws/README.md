@@ -165,6 +165,9 @@ return 301 https://$host$request_uri;
     `curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-compose-Linux-x86_64 > /usr/local/bin/docker-compose`
     `chmod +x /usr/local/bin/docker-compose`
     `exit`
+    (If you installed a latest version of Docker Compose, you have to update the linux kernel of ubuntu 14.04 by:
+    `sudo apt-get install linux-generic-lts-xenial`
+    `sudo reboot`)
 5. Logout, and log back in again.
     `exit`
 6. SSH to your instance again following the directions above
@@ -276,10 +279,11 @@ end script
 3. Check status of docker
     sudo docker ps -a`
     - When it's up and running, you should see 2 images, one for Rocket.Chat and one for mongo.
-    - If you don't see the containers yet, don't panic. It may take a few minutes to download and setup the containers. If you still don't see the images listed with the above `docker` command, check the logs of your upstart jobs.
+    - If you don't see the containers yet, don't panic. It may take a few minutes to download and setup the containers. If you still don't see the containers listed with the above `docker` command, check the logs of your upstart jobs.
   `sudo cat /var/log/upstart/rocketchat_mongo.log`
   `sudo cat /var/log/upstart/rocketchat_app.log`
     - While the services are starting and downloading, the end of the logs (particularly rocketchat_app.log) will likely show the status of Download/Extract/Pull. If there are other errors, you will likely see this information in the log.
+4. If you see errors in `rocketchat_app.log`, try `docker-compose down` and wait for a minute and check again.
 
 ### 10. Use it
 
