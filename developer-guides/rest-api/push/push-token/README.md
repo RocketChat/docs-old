@@ -10,10 +10,11 @@ Save new push token on the server.
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `id`      | `id`      | Optional | A record id for the Application/Token document to update. If this does not exist, will return 404. |
-| `type`    | `gcm`     | Required | Can be `apn` or `gcm` |
-| `value`   | `TOKEN`   | Required | The Token |
-| `appName` | `appName` | Required | The name of the application to associate the token with |
+| `id`      | `id`                | Optional | A record id for the Application/Token document to update. If this does not exist, will return 404. If not specified, a new document will be created |
+| `type`    | `gcm`               | Required | Can be `apn` or `gcm` |
+| `value`   | `TOKEN`             | Required | The Token |
+| `appName` | `appName`           | Required | The name of the application to associate the token with |
+| `userId`  | `aobEdbYhXfu5hkeqG` | Optional | the user id to associate with the token and application. If none is included no user will be associated |
 
 ## Example Call
 
