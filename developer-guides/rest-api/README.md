@@ -34,6 +34,14 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/assets.setAsset`   | Set an asset image by name.                        | [Link](assets/setasset/)                   |
 | `/api/v1/assets.unsetAsset` | Unset an asset by name                             | [Link](assets/unsetasset/)                 |
 
+### AutoTranslate
+
+| Url                                             | Short Description                                  | Details Page                                 |
+| :---------------------------------------------- | :------------------------------------------------- | :------------------------------------------- |
+| `/api/v1/autotranslate.getSupportedLanguages`   | Get the supported languages by the autotranslate.  | [Link](autotranslate/getsupportedlanguages/) |
+| `/api/v1/autotranslate.saveSetttings`           | Save some settings about autotranslate.            | [Link](autotranslate/savesettings/)          |
+| `/api/v1/autotranslate.translateMessage`        | Translate the message.                             | [Link](autotranslate/translatemessage/)      |
+
 ### Authentication
 
 | Url                       | Short Description                                  | Details Page                               |
