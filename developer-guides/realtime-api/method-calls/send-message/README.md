@@ -33,7 +33,6 @@ For sending a file we now recommend using the rest api:
 
 [See rooms.upload](../../../rest-api/rooms/upload/)
 
-
 ## See Also
 
 - [The Message Object][1]
