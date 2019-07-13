@@ -412,6 +412,7 @@ Here you can also find what articles are incomplete and missing.
             - create
             - list
             - addUserToRole
+            - getUsersInRole
         - Push:
             - push.token
             - deletePushToken

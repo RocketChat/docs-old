@@ -222,6 +222,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/roles.create`   | Create a new role in the system. | [Link](roles/create/)   |
 | `/api/v1/roles.list` | Gets all the roles in the system. | [Link](roles/list/) |
 | `/api/v1/roles.addUserToRole` | Assign a role to an user. | [Link](roles/addusertorole/) |
+| `/api/v1/roles.getUsersInRole` | Gets the users that belongs to a role. | [Link](roles/getusersinrole/) |
 
 ### Push Token
 
