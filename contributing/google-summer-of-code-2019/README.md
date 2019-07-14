@@ -15,7 +15,7 @@ Applications for the GSoC 2019 season have now closed.   Please see [GSoC timeli
 
 ### Update on July 10, 2019
 
-First evaluation has completed! Coding continues in a feverish pace.  Progress has smooth across the 19 projects. Projects are ontrack based on weekly mini-milestones agreed between mentors and students. Mentors are busy making sure that every student receive their detailed evaluation and payment.  Students have also completed evaluation for their mentor(s).  Many students are preparing their project for interim demo and reviews by our core team. During this first evaluation, we have decided to fail one student due to no communications with mentor.  We also had to remove a mentor due to lack of available participation time.
+First evaluation has completed! Coding continues at a feverish pace.  Progress has been smooth across the 19 projects. Projects are ontrack based on weekly mini-milestones agreed between mentors and students. Mentors are busy making sure that every student receive his/her detailed evaluation and payment.  Students have also completed evaluation for their mentor(s).  Many students are preparing their project for interim demo and reviews by our core team. During this first evaluation, we have decided to fail one student due to no communications with mentor.  We also had to remove a mentor due to lack of available participation time.
 
 ### Update on May 28, 2019
 
