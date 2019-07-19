@@ -49,7 +49,7 @@ OPTIONS
   install                   Install latest RocketChat server version
   update                    Update RocketChat server from current version to latest version
   check-updates             Check for updates of RocketChat server
-  upgrade-rocketchatctl     Upgrade the rocketchatctl command line tool             
+  upgrade-rocketchatctl     Upgrade the rocketchatctl command line tool.       
 
 FOR UNATTENDED INSTALLATION
   --root-url=ROOT_URL       the public URL where RocketChat server will be accessible on the Internet (REQUIRED)
