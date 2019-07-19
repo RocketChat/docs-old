@@ -7,7 +7,7 @@ Once you have your rocketchat server installed and running, you can use the same
 Furthermore, rocketchatctl optionally installs a loadbalancer/proxy with auto SSL provided by Let's Encrypt.
 
 Check it out here:
-https://github.com/RocketChat/install.sh
+<https://github.com/RocketChat/install.sh>
 
 ## Enviroment
 
@@ -49,11 +49,11 @@ OPTIONS
   install                   Install latest RocketChat server version
   update                    Update RocketChat server from current version to latest version
   check-updates             Check for updates of RocketChat server
-  upgrade-rocketchatctl     Upgrade the rocketchatctl command line tool                   
+  upgrade-rocketchatctl     Upgrade the rocketchatctl command line tool                 
 
 FOR UNATTENDED INSTALLATION
   --root-url=ROOT_URL       the public URL where RocketChat server will be accessible on the Internet (REQUIRED)
-  --port=PORT               port for the RocketChat server, default value 3000   
+  --port=PORT               port for the RocketChat server, default value 3000
   --webserver=WEBSERVER     webserver to install as reverse proxy for RocketChat server, options are caddy/traefik/none (REQUIRED)
   --letsencrypt-email=EMAIL e-mail address to use for SSL certificates (REQUIRED if webserver is not none)
   --version=VERSION         RocketChat server version to install, default latest
@@ -104,7 +104,7 @@ And update to the latest release:
 rocketchatctl update
 ```
 
-The update option creates a temporary backup directory, download the latest rocketchat release, starts it and checks that is healthy querying the info api. In case something goes wrong in the startup process, the previous installed version from backup is resotored and a error message is displayed. 
+The update option creates a temporary backup directory, download the latest rocketchat release, starts it and checks that is healthy querying the info api. In case something goes wrong in the startup process, the previous installed version from backup is resotored and a error message is displayed.
 
 ### Upgrade rockectchatctl
 
@@ -113,11 +113,11 @@ This option will download the latest version available for rocketchatctl in the 
 ```bash
 rocketchatctl upgrade-rockectchatctl
 ```
-___
+
+---
 
 #### **Use rocketchatctl to automate your previously Rocket.Chat manual installation deployments !**
 
 Check out our webinar about it here:
 
-<a href="https://www.youtube.com/watch?v=fY593awNrKk" target="_blank"><img src="http://img.youtube.com/vi/fY593awNrKk/0.jpg" 
-alt="RocketChatCTL Webinar" width="240" height="180" border="10" /></a>
+<a href="https://www.youtube.com/watch?v=fY593awNrKk" target="_blank"><img src="http://img.youtube.com/vi/fY593awNrKk/0.jpg" alt="RocketChatCTL Webinar" width="240" height="180" border="10" /></a>
