@@ -170,6 +170,7 @@ your_domain.com {
         }
 }
 ```
+
 ## Multi Instance Nginx reverse proxy 
 
 Here is a link to a [Nginx multi instance reverse proxy example] (../../installation/manual-installation/multiple-instances-to-improve-performance)
