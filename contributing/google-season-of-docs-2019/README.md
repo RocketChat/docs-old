@@ -19,7 +19,7 @@ This year's Season of Docs is a pilot that accepts only a limited number of appl
 
 ## How to apply
 
-Application for technical writers is now open.  Deadline for application is _June 28, 2019_.  See [Google Season of Docs 2019 timeline](https://developers.google.com/season-of-docs/docs/timeline) for more details.
+Application for technical writers is now closed for the 2019 season.  See [Google Season of Docs 2019 timeline](https://developers.google.com/season-of-docs/docs/timeline) for more details.
 
 Write and submit your proposal now! Check out our [list of ideas](https://rocket.chat/docs/contributing/google-season-of-docs-2019/#project-ideas) for some inspiration.
 
@@ -32,6 +32,10 @@ For offline discussions, we have a discussion forum:
 <https://forums.rocket.chat/c/gsod/gsod2019>
 
 If you have questions and prefer email, please write us at:  gsod+2019@rocket.chat
+
+### Update on July 10, 2019
+
+Application for technical writers has closed.  During the past month, technical writers have continued to approach us regarding project details. Several mentors have engaged with their prospective writer(s) in assisting with proposal; and several writers have already started to contribute (typos and small fixes) to our docs.   We have received a total of TWENTY THREE proposals (one was a submission to the wrong org), and have started the evaluation process with the project mentors.  Of the technical writers who have reached out to us, we continue to engage with them and explore project details and interim contributions.  We plan to finalize our own selections by July 18th and submit them prior to the final selections deadline.
 
 ### Update on May 28, 2019
 
