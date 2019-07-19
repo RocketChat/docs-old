@@ -2,9 +2,9 @@
 
 rocketchatctl is a command line tool written in bash to help you install and configure a RocketChat server in a Linux host, it will take care of everything needed for the server to run, configure extra repositories and install needed libraries to install the correct node version and mongo server, and it will also set up directories and permissions, and configure the systemd files for these new services.
 
-Moreover, once you have your rocketchat server installed and running, you can use the same command to easily keep that Rocketchat server installation up to date, rocketchatctl can check for Rocketchat updates available and update it to the latest release.
+Once you have your rocketchat server installed and running, you can use the same command to easily keep that Rocketchat server installation up to date, rocketchatctl can check for Rocketchat updates available and update it to the latest release.
 
-rocketchatctl not only handles dependency installation and configuration, optionally installs a loadbalancer/proxy with auto SSL provided by Let's Encrypt.
+Furthermore, rocketchatctl optionally installs a loadbalancer/proxy with auto SSL provided by Let's Encrypt.
 
 Check it out here:
 https://github.com/RocketChat/install.sh
@@ -58,7 +58,7 @@ FOR UNATTENDED INSTALLATION
   --letsencrypt-email=EMAIL e-mail address to use for SSL certificates (REQUIRED if webserver is not none)
   --version=VERSION         RocketChat server version to install, default latest
   --install-node            in case node installed, sets node to RocketChat server recommended version, default behavoir cancel RocketChat server installation
-  --use-mongo               in case mongo installed, and storage engine configured is mmapv1, skip mongo installation but uses systems mongo for RocketChat server                           database, default database name rocketchat
+  --use-mongo               in case mongo installed, and storage engine configured is mmapv1, skip mongo installation but uses systems mongo for RocketChat server database, default database name rocketchat
 ```
 
 ## How to use it
@@ -86,7 +86,7 @@ rocketchatctl install
 Or if you want to use your mongo server, change node to the current needed version for Rocket.Chat, listen in a different port, and install another release, you can for example use these command:
 
 ```bash
-rocketchatctl install -root-url=https://www.example.com --webserver=none --use-mongo --install-node --port=4000 --version=1.0.3
+rocketchatctl install --root-url=https://www.example.com --webserver=none --use-mongo --install-node --port=4000 --version=1.0.3
 ```
 
 ### Update Rocket.Chat
@@ -115,7 +115,7 @@ rocketchatctl upgrade-rockectchatctl
 ```
 ___
 
-### **Use rocketchatctl to automate your previously Rocket.Chat manual installation deployments !**
+#### **Use rocketchatctl to automate your previously Rocket.Chat manual installation deployments !**
 
 Check out our webinar about it here:
 
