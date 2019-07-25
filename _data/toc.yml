@@ -51,6 +51,7 @@
     - High Availability Install
     - Available Images
     - Docker Compose
+  - RocketChatCTL
   - Manual Installation:
     - CentOS
     - Debian
@@ -99,10 +100,14 @@
   - Authentication:
     - CAS
     - Ldap
-    - Oauth
+    - Oauth:
+      - Okta
+      - Keycloak
     - SAML:
       - Oracle Cloud
     - WordPress
+  - Custom Emoji
+  - Custom Sounds
   - Database-Migration
   - Email:
     - Setup
@@ -135,6 +140,7 @@
     - Google-Calendar
     - Guggy
     - Jenkins
+    - JFrog Xray
     - Jira
     - MicroBadger
     - NextCloud and WebDAV
@@ -177,6 +183,7 @@
 - Developer guides:
     - Quick Start
     - Branches and Releases
+    - Client Compatibility Matrix
     - Code Styleguide:
       - less
     - Deeplink
@@ -191,7 +198,6 @@
     - Mobile Apps:
       - Analytics & Data Usage
       - Supporting SSL
-      - Supported Servers Versions
     - Developing Apps:
       - Getting Started
     - GraphQL API:
@@ -389,6 +395,8 @@
         - config
         - custom-fields
         - department
+        - inquiries.list
+        - inquiries.take
         - message
         - room
         - sms-incoming
@@ -435,6 +443,7 @@
         - read
         - unread
       - Users:
+        - presence
         - create
         - createToken
         - delete

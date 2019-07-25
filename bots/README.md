@@ -22,7 +22,7 @@ For more details, see the [Bots Architecture section](bots-architecture/).
 
 ## How are bots hosted?
 
-Rocket.Chat supports bots that are hosted outside of your Rocket.Chat instance. Their working logic is defined by their provider. 
+Rocket.Chat supports bots that are hosted outside of your Rocket.Chat instance. Their working logic is defined by their provider.
 
 Rocket.Chat supports for multiple bot frameworks and platforms, including:
 [bBot](http://bbot.chat/), [Hubot](https://hubot.github.com/), [Botkit](https://botkit.ai/), [Botpress](https://botpress.io/).
@@ -38,7 +38,7 @@ These are the basic steps for using bots with Rocket.Chat:
 1. A bot user is [created by an admin](creating-bot-users/) on the server;
 2. The bot is running as [a separate process](bots-architecture/) using your chosen framework or platform;
 3. The bot environment is pre-configured with [environment variables](configure-bot-environment/);
-4. The bot's behaviour is defined via scripts according to the requirements of your framework. For example, check the details on how to [run a bBot bot](running-a-bbot-bot/).
+4. The bot's behavior is defined via scripts according to the requirements of your framework. For example, check the details on how to [run a bBot bot](running-a-bbot-bot/).
 
 ## Next steps
 
