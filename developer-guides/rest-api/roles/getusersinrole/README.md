@@ -13,7 +13,6 @@ Gets the users that belongs to a role. It supports the [Offset and Count Only](.
 | `role` | `admin` | Required | The role. |
 | `roomId` | `GENERAL` | Optional | The room's id. |
 
-
 ## Example call to get all the roles
 
 ```bash
