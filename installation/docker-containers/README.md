@@ -296,7 +296,7 @@ version: '2'
 
 services:
   rocketchat:
-    image: rocket.chat:latest
+    image: rocketchat/rocket.chat:latest
     command: bash -c 'for i in `seq 1 30`; do node main.js && s=$$? && break || s=$$?; echo "Tried $$i times. Waiting 5 secs..."; sleep 5; done; (exit $$s)'
     restart: unless-stopped
     volumes:
