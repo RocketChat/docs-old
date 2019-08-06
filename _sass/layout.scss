@@ -161,10 +161,14 @@ blockquote {
   border-radius: 2px;
 }
 
+#content-default .wrapper {
+  padding: 0 24px;
+}
+
 .wrapper {
   flex: 1 1 100%;
   overflow: hidden;
-  padding: 0 15px;
+  padding: 0 24px;
 
   &.main {
     display: flex;
@@ -360,7 +364,7 @@ main.home {
 
   ul {
     list-style: none;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 16px;
     padding: 0;
   }
 
