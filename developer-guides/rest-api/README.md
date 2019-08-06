@@ -49,6 +49,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 | Url                                           | Short Description                                               | Details Page                                 |
 | :-------------------------------------------- | :-------------------------------------------------------------- | :------------------------------------------- |
+| `/api/v1/users.presence`                        | Gets all connected users presence.                                          | [Link](users/presence/)                        |
 | `/api/v1/users.create`                        | Create a new user.                                              | [Link](users/create/)                        |
 | `/api/v1/users.createToken`                   | Create a user authentication token.                             | [Link](users/createtoken/)                   |
 | `/api/v1/users.delete`                        | Deletes an existing user.                                       | [Link](users/delete/)                        |
@@ -199,6 +200,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/integrations.history` | Lists all history of the specified integration.               | [Link](integration/history/)|
 | `/api/v1/integrations.list`    | Lists all of the integrations.                                | [Link](integration/list/)   |
 | `/api/v1/integrations.remove`  | Removes an integration.                                       | [Link](integration/remove/) |
+
+### Livechat
+
+| Url                              | Short Description                                             | Details Page                     |
+| :------------------------------- | :------------------------------------------------------------ | :------------------------------- |
+| `/api/v1/livechat/inquiries.list`| Retrieves a list of open inquiries.                           | [Link](livechat/inquiries-list/) |
+| `/api/v1/livechat/inquiries.take`| Take an open inquiry.                                         | [Link](livechat/inquiries-take/) |
 
 ### Permissions
 
