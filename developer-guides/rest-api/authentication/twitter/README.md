@@ -16,7 +16,6 @@ Authenticate with Twitter.
 | `appSecret`         | `hash`                          | Required | The secret provided by twitter for app        |
 | `appId`             | `hash`                          | Required | The id provided by twitter for app            |
 | `expiresIn`         | `200`                           | Required | Lifetime of token(in seconds)                 |
-| `identity`          | `{id: '1', name: 'rocket.cat'}` | Optional | Twitter user identity                          |
 
 ## Example Call - As JSON
 
