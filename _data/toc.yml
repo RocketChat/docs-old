@@ -399,6 +399,7 @@
         - inquiries.take
         - message
         - room
+        - rooms
         - sms-incoming
         - users
         - video-call
