@@ -43,7 +43,7 @@ A bot host can manage and run many different bots as well as many instances of a
 The bot host typically manages connections to [external services](#external-services)
 as well.
 
-### Bots platforms and frameworks
+### Bot platforms and frameworks
 
 Rocket.Chat supports multiple bot frameworks and platforms, including:
 [bBot](http://bbot.chat/),
@@ -53,7 +53,7 @@ Rocket.Chat supports multiple bot frameworks and platforms, including:
 
 The hosting for bots depends on the platform. For example, Hubot can be launched on any
 Node.js environment, but you have to set it up yourself (using Heroku or Glitch services).
-Another bot platforms like Botkit provide their own services for hosting and provisioning bots.
+Other bot platforms like Botkit provide their own services for hosting and provisioning bots.
 They just need a configuration to connect to your Rocket.Chat instance.
 
 ## Message Streams
