@@ -25,11 +25,11 @@ Bot creators design the bot's logic with the help of the framework they are fami
 This logic defines different conversational patterns that the bot should handle as well as
 the messages that the bot should respond to.
 
-When the bot knows how and when to respond to user's messages, it should be connected to
-live users on the Rocket.Chat host, so that it will be able to do its job. To make
-this connection, bot creators use adapters that can translate the logic defined via the
-framework's means and rules to the format that the Rocket.Chat host understands. Adapters
-use Rocket.Chat SDK to communicate with the Rocket.Chat host.
+Once the bot has been programmed to respond to user's messages, it can be connected to
+live users on the Rocket.Chat host, so that it can do its job. To make this connection,
+bot creators use adapters that can translate the logic defined via the framework's means
+and rules to the format that the Rocket.Chat host understands. Adapters use Rocket.Chat SDK
+to communicate with the Rocket.Chat host.
 
 ## Users and Bots
 
