@@ -7,7 +7,7 @@ Rocket.Chat.Android comes with three built-in themes to choose from.
 
 ![Built-in Themes](images/AppThemes.jpg?raw=true "Built-in Theme")
 
-You can add custom themes from inside the app. In order to have greater control over themeing, you can also add your own theme library to Rocket.Chat.Android.
+You can add custom themes from inside the app. In order to have greater control over theming, you can also add your own theme library to Rocket.Chat.Android.
 
 # Adding Themes to Rocket.Chat.Android
 
