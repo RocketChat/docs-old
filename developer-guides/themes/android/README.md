@@ -206,4 +206,20 @@ For every theme added, you need to define an integer array inside the resources 
         <item>@color/darkColorBackground</item>
 </integer-array>
 ```
-Colors that were not redefined are used from the base theme.
+Colors that are not redefined are used from the base theme.
+
+### Include Library in App Module
+
+To add your library to the app:
+
+1. Open **Gradle Scripts > build.gradle(Module: app)**.
+2. Under **implementation project(':themelibrary')**, add **implementation project(':pastelthemelibrary')**.
+3. Click **Sync Now**>.
+
+### Adding New Themes to the App
+
+1. Open **app > java > chat.rocket.android > thememanager > infrastructure > ThemesRepository.kt**.
+2. Inside the **init** block, add your new themes.
+
+#### Sample:
+
