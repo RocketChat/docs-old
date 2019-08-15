@@ -78,7 +78,7 @@ The custom attribute added into attrs.xml for this purpose is *colorBackgroundIs
 
 1. Right click on **pastelthemelibrary > res > values** and go to **New > Values resource file**.
 2. Set File Name as *bools* and click **OK**. This file will hold a boolean value for every theme you want to define.
-3. Suppose the theme you are going to define is called *DarkPastelTheme*. Add the following item inside the resource tag in bools.xml.
+3. Suppose the theme you are going to define is called *DarkPastelTheme*. Add the following item inside the resources tag in bools.xml.
 
 ```xml
 <bool name="darkPastelIsDark">true</bool>
@@ -124,3 +124,13 @@ Before defining colors for your theme, pick a base theme from the built-in theme
 33. colorAuxiliaryTint
 
 Some of these colors will be the same but it is good practice to define them all so it is easier to check what color is assigned to any item. The recommended convention for color names is *theme name + color* in camel case. For example, *colorAccent* for *darkPastelTheme* will be defined as *darkPastelColorAccent*.
+
+1. Right click on **pastelthemelibrary > res > values** and go to **New > Values resource file**.
+2. Set File Name as *colors* and click **OK**. This file will hold all the colors for your themes.
+3. Add all your colors inside the resources tag. For Example:
+
+```xml
+<resources>
+    <color name="darkPastelColorAccent">#FF9E80</color>
+</resources>
+```
