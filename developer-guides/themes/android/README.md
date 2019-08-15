@@ -141,5 +141,5 @@ All of these colors will be assigned either to custom attributes defined in *att
 2. Right click on the attribute and click **Find usages**.
 3. In the **Find** tab, double click on a child node to see its usage. The image shows one of the usages of *colorBottomSheetFragmentHeading*:
 
-![Custom Attribute Find Usages Example](images/CustomAttributeFindUsage.jpg?raw=true "Built-in Theme")
+![Custom Attribute Find Usages Example](images/CustomAttributeFindUsage.PNG?raw=true "Built-in Theme")
 
