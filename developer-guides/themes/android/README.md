@@ -134,3 +134,12 @@ Some of these colors will be the same but it is good practice to define them all
     <color name="darkPastelColorAccent">#FF9E80</color>
 </resources>
 ```
+### Deciding colors for Custom Attributes
+
+All of these colors will be assigned either to custom attributes defined in *attrs.xml* or android style attributes such as *colorPrimary*. To find where a custom attribute is used in the app:
+1. Go to **app > res > values > attrs.xml**.
+2. Right click on the attribute and click **Find usages**.
+3. In the **Find** tab, double click on a child node to see its usage. The image shows one of the usages of *colorBottomSheetFragmentHeading*:
+
+![Custom Attribute Find Usages Example](images/CustomAttributeFindUsage.jpg?raw=true "Built-in Theme")
+
