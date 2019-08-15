@@ -213,13 +213,34 @@ Colors that are not redefined are used from the base theme.
 To add your library to the app:
 
 1. Open **Gradle Scripts > build.gradle(Module: app)**.
-2. Under **implementation project(':themelibrary')**, add **implementation project(':pastelthemelibrary')**.
+2. Under 
+```xml
+implementation project(':themelibrary')
+```
+Add:
+```xml
+implementation project(':pastelthemelibrary')
+```
+
 3. Click **Sync Now**>.
 
 ### Adding New Themes to the App
 
 1. Open **app > java > chat.rocket.android > thememanager > infrastructure > ThemesRepository.kt**.
-2. Inside the **init** block, add your new themes.
+2. Inside the **init** block, define your new theme and add it to the *themeList*.
 
 #### Sample:
 
+```kotlin
+init {
+        val theme1 = Theme("AppTheme", R.array.AppThemePreview, false)
+        val theme2 = Theme("DarkTheme", R.array.DarkThemePreview, true)
+        val theme3 = Theme("BlackTheme", R.array.BlackThemePreview, true)
+        val theme4 = Theme("DarkPastelTheme", R.array.DarkPastelThemePreview, true)
+        themeList.add(theme1)
+        themeList.add(theme2)
+        themeList.add(theme3)
+        themeList.add(theme4)
+        ...
+    }
+```
