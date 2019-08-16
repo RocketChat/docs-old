@@ -21,7 +21,7 @@ To select a theme, tap its row. The Themes Activity has the following main compo
 
 ![Theme Info Item](images/ThemeInfoItem.jpg?raw=true "Theme Info Item")
 
-On the top-left is the name of the current theme. On it's right, you can see that date that it was last changed. Under these two items is bar previewing the primary colors that make up the current theme.
+On the top-left is the name of the current theme. On it's right, you can see the date that it was last changed. Under these two items is a bar previewing the primary colors that make up the current theme.
 
 ### Reverting to Default Theme
 
