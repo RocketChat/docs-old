@@ -8,8 +8,9 @@ to [**external**](../) bots.
 
 Bots architecture consists of two main parts: Rocket.Chat host and [bot host](#bots-host).
 These two parts are connected with each other via [Rocket Chat SDK](#rocketchat-sdk) methods.
-Bot host runs externally to the Rocket.Chat host and consists of SDK, [adapter](#framework-adapter),
-[framework](#bot-framework) and, typically, external [services](#external-services).
+Bot host runs externally to the Rocket.Chat host and consists of the bot infrastructure and,
+typically, external [services](#external-services). The bot infrastructure, in turn,
+consists of SDK, [adapter](#framework-adapter), and [framework](#bot-framework).
 
 A bot, being subscribed to room's messages (all or specific ones) handles these
 messages and responds back to the user in an interactive manner. The conversational model
@@ -17,6 +18,19 @@ can be designed and managed by tooling and frameworks on the bot host.
 
 Today, many bots are created using bot frameworks or platforms based on popular programming
 languages, such as NodeJS and Python.
+
+## How Bots Architecture works
+
+Bot creators design the bot's logic with the help of their favorite framework.
+This logic defines behavioral interaction with users, giving the bot context-awareness.
+Context-awareness helps the bot to identify user's intents, understand what the user is
+looking for so that they can simulate more personalized human-like conversation.
+
+With the ability to listen to and respond to messages, the bot can be integrated into
+the Rocket.Chat host, so that it can engage with users in a conversational manner. To perform
+this connection, bot creators use adapters that can translate the logic defined via the
+framework's powers to the format that the Rocket.Chat host understands. Adapters use
+Rocket.Chat SDK methods to communicate with the Rocket.Chat host.
 
 ## Users and Bots
 
@@ -43,6 +57,19 @@ A bot host can manage and run many different bots as well as many instances of a
 The bot host typically manages connections to [external services](#external-services)
 as well.
 
+### Bot platforms and frameworks
+
+Rocket.Chat supports multiple bot frameworks and platforms, including:
+[bBot](http://bbot.chat/),
+[Hubot](https://hubot.github.com/),
+[Botkit](https://botkit.ai/),
+[Botpress](https://botpress.io/).
+
+The hosting for bots depends on the platform. For example, Hubot can be launched on any
+Node.js environment, but you have to set it up yourself (using Heroku or Glitch services).
+Other bot platforms like Botkit provide their own services for hosting and provisioning bots.
+They just need a configuration to connect to your Rocket.Chat instance.
+
 ## Message Streams
 
 Every user in Rocket.Chat has a collection for their messages that can be
@@ -65,7 +92,7 @@ that is used to link the framework with the Rocket.Chat host.
 
 An adapter allows bot creators to design and build bot interactions according to the
 framework's rules and practices without dealing with the low-level programming
-details of the communication with the Rocket.Chat host.
+details and methods of the communication with the Rocket.Chat host.
 
 Adapters use Rocket.Chat SDK to communicate with the Rocket.Chat host.
 
