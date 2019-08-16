@@ -151,7 +151,6 @@ This will help you decide what color to define for each Custom Attribute.
 ```xml
 <resources>
     <color name="darkPastelColorAccent">#FF9E80</color>
-    <color name="darkPastelColorChannelTitle">#B9F6CA</color>
     <color name="darkPastelColorTimestampText">#B388FF</color>
 </resources>
 ```
@@ -178,7 +177,6 @@ To override a style, define a new style with a base theme style as its parent.
 <resources>
     <style name="DarkPastelTheme" parent="DarkTheme">
         <item name="colorAccent">@color/darkPastelColorAccent</item>
-        <item name="colorChannelTitle">@color/darkPastelColorChannelTitle</item>
         <item name="colorTimestampText">@color/darkPastelColorTimestampText</item>
         <item name="appTheme">@style/DarkPastelTheme</item>
         <item name="colorBackgroundIsDark">@bool/darkPastelIsDark</item>
@@ -244,3 +242,7 @@ init {
         ...
     }
 ```
+
+Now you can build the android project and run it. Your theme will be added under **App Themes** in the Themes Activity!
+
+![New Theme Library Example](images/NewThemeSample.jpg?raw=true "New Theme Library Example")
