@@ -167,6 +167,7 @@
   - Setting Up Video Conferencing
   - Livechat:
     - Livechat Queues
+    - Livechat Visitors
     - Omnichannel Integration
   - Notifications:
     - Push Notifications
@@ -398,6 +399,7 @@
         - inquiries.list
         - inquiries.take
         - message
+        - realtime visitors
         - room
         - rooms
         - sms-incoming

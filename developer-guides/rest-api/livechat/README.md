@@ -26,6 +26,11 @@ Manage Livechat related data:
 | `/api/v1/livechat/message/:_id` | `DELETE` | Delete a Livechat message. | [info](message/index.html#removes-a-livechat-message) |
 | `/api/v1/livechat/messages.history/:rid` | `GET` | Load Livechat messages history. | [info](message/index.html#load-livechat-messages-history) |
 | `/api/v1/livechat/offline.message` | `POST` | Send a new Livechat offline message. | [info](message/index.html#send-a-new-livechat-offline-message) |
+| `/api/v1/livechat/session.updateVisitCount` | `POST` | Update session count for visitor. | [info](realtime-visitors/index.html#update-visitor-page-count) |
+| `/api/v1/livechat/session.visitorInfo` | `GET` | Get visitor session information. | [info](realtime-visitors/index.html#get-visitor-session-information) |
+| `/api/v1/livechat/session.addLocationData` | `POST` | Add location data to user sesssion. | [info](realtime-visitors/index.html#add-user-location-data) |
+| `/api/v1/livechat/session.updateVisitorSessionOnRegister` | `POST` | Update user session information on registering. | [info](realtime-visitors/index.html#update-visitor-session-information-on-register) |
+| `/api/v1/livechat/session.updateSessionStatus` | `POST` | Update session status. | [info](realtime-visitors/index.html#update-session-status) |
 | `/api/v1/livechat/rooms` | `GET` | Retrieves a list of livechat rooms.  | [info](rooms/)  |
 | `/api/v1/livechat/room` | `GET` | Get the Livechat room data or open a new room. | [info](room/index.html) |
 | `/api/v1/livechat/room.close` | `POST` | Close a Livechat room. | [info](room/index.html#close-livechat-room) |
