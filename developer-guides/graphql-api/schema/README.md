@@ -1,5 +1,7 @@
 # GraphQL API Schema
 
+> _Support to GraphQL API was removed in version `2.0.0`_
+
 To see the GraphQL schema of the Rocket.Chat GraphQL API, you should use some GraphQL graphical tool. <br/>
 These tools are able to show the schema, using the [Instropection tool](https://graphql.org/learn/introspection/) of GraphQL.<br/>
 You can use the instrospection queries to show the schema, but by a graphical tool is easier.<br/>
