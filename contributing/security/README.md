@@ -6,7 +6,7 @@ Given the nature of Chat, we understand each person using Rocket.Chat has some e
 
 ## If you find a Security Issue
 
-> Please email the details to Rocket.Chat's security team at `security@rocket.chat`
+> Please email the details to Rocket.Chat's security team at `security@rocket.chat` or report directly into our [HackerOne Program.](https://hackerone.com/rocket_chat)
 
 Our security team will respond to confirm receipt of your message, review and plan the mitigation of the issue appropriately, as well as set a timeline for a new release or patch.
 
@@ -16,7 +16,7 @@ We follow responsible disclosure and will credit researchers when a security iss
 - You make a good faith effort to avoid privacy violations, destruction of data and interruption or degradation of our service during your research.
 - You give us reasonable time to respond to your report and carry out remediation.
 - We credit the first researcher to report an issue. Additionally, we reserve the right to only acknowledge researchers who discover issues in Rocket.Chat projects or related services, if we determine the issue to be of a high or critical severity, or if there has been continued research or contributions made by the reporter.
-- We will credit you with your name and a "no-follow" link to the address of your choosing (e.g. Twitter or personal website).
+- We will credit you with your name and a "no-follow" link to the address of your choosing (e.g. Twitter or personal website). As a token of our gratitude for your assistance, we also offer an [original Rocket.Chat Shirt](https://shop.spreadshirt.com/rocketchat) to every first reporter of a security problem that was not yet known to us. We may limit this reward to one item per person and depending on the availability of the item. Please refrain from requesting additional compensation for reporting vulnerabilities.
 - We will not bring any lawsuit or begin law enforcement investigation into you if you follow these parameters.
 
 ## What details should you include when reporting a Security Issue
