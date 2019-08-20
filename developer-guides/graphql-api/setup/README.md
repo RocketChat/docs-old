@@ -1,5 +1,7 @@
 # GraphQL API Setup
 
+> _Support to GraphQL API was removed in version `2.0.0`_
+
 ## General information
 
 In order to be able to use the GraphQL API, this feature has to be enabled by the administrator. In the admin panel,

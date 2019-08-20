@@ -8,7 +8,7 @@ If you are interested in quickly deploying an instance, you can try one of the o
 
 - [Sandstorm](https://apps.sandstorm.io/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0), you can have a server for your family and friends running in 4 seconds.
 - [Cloudron](https://cloudron.io/appstore.html#chat.rocket.cloudronapp), you can install and receive automatic updates on your Cloudron Smartserver.
-- [Heroku one click deploy](https://heroku.com/deploy?template=https://github.com/RocketChat/Rocket.Chat/tree/master), you can run and operate a small server instance on their FREE (or low cost) plans.
+- [Heroku one click deploy](https://heroku.com/deploy?template=https://github.com/RocketChat/Rocket.Chat/tree/master).
 
 ## Managed Deployments
 
@@ -23,8 +23,8 @@ If you need full control of your deployment, here are some guides for specific e
 - [Hyper.sh](hyper-sh/)
 - [IBM Bluemix](ibm-bluemix/)
 - [Sloppy.io](sloppy-io/)
-- [D2C.io](d2c-io)
-- [Syncloud.org](syncloud-org)
+- [D2C.io](d2c-io/)
+- [Syncloud.org](syncloud-org/)
 
 ## Automation Tools
 

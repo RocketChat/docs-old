@@ -58,7 +58,6 @@ Here you can also find what articles are incomplete and missing.
         - Sandstorm.io
         - Scalingo
         - Sloppy.io
-        - WeDeploy
     - Docker containers:
         - Generic Linux
         - systemd
@@ -120,9 +119,9 @@ Here you can also find what articles are incomplete and missing.
     - <span class="missing">[Customizing the UI](../missing-and-outdated-list/index.html#Customizing-the-UI)</span>:
         - <span class="missing">[Layout](../missing-and-outdated-list/index.html#Layout)</span>
         - <span class="missing">[Assets](../missing-and-outdated-list/index.html#Assets)</span>
-    - <span class="missing">[Custom Emoji](../missing-and-outdated-list/index.html#adding-custom-emoji)</span>
-    - <span class="missing">[Custom Fields](../missing-and-outdated-list/index.html#custom-fields)</span>
-    - <span class="missing">[Custom Sounds](../missing-and-outdated-list/index.html#adding-custom-sounds)</span>
+    - Custom Emoji
+    - Custom Fields
+    - Custom Sounds
     - Database-Migration
     - Email:
         - Setup
@@ -175,7 +174,7 @@ Here you can also find what articles are incomplete and missing.
         - Livechat Queues
     - Notifications:
         - Push Notifications
-    - <span class="incomplete">[Permissions](../missing-and-outdated-list/index.html#Permissions)</span>
+    - Permissions
     - Plug-ins:
         - Drupal
         - Pidgin
@@ -185,6 +184,7 @@ Here you can also find what articles are incomplete and missing.
 - Developer guides:
     - Quick Start
     - Branches and Releases
+    - Client Compatibility Matrix
     - Code Styleguide:
         - <span class="incomplete">[Less](../missing-and-outdated-list/index.html#Less)</span>
     - Deeplink
@@ -198,7 +198,6 @@ Here you can also find what articles are incomplete and missing.
     - Livechat API
     - Mobile Apps
         - Supporting SSL
-        - Supported Servers Versions
     - GraphQL API:
         - Authentication
         - Schema
@@ -304,10 +303,13 @@ Here you can also find what articles are incomplete and missing.
             - unarchive
         - Chat:
             - delete
+            - followMessage
             - getDeletedMessages
             - getMessage
             - getMessageReadReceipts
             - getPinnedMessages
+            - getThreadMessages
+            - getThreadsList
             - pinMessage
             - postMessage
             - react
@@ -315,6 +317,9 @@ Here you can also find what articles are incomplete and missing.
             - search
             - starMessage
             - sendMessage
+            - syncThreadMessages
+            - syncThreadsList
+            - unfollowMessage
             - unPinMessage
             - unStarMessage
             - update
@@ -323,8 +328,11 @@ Here you can also find what articles are incomplete and missing.
             - get
             - list
             - run
-        -Emoji Custom:
-            - get
+        - Emoji Custom:
+            - create
+            - delete
+            - list
+            - update
         - Groups:
             - addAll
             - addLeader
@@ -384,8 +392,11 @@ Here you can also find what articles are incomplete and missing.
             - config
             - custom-fields
             - department
+            - inquiries.list
+            - inquiries.take
             - message
             - room
+            - rooms
             - sms-incoming
             - users
             - video-call
@@ -408,8 +419,10 @@ Here you can also find what articles are incomplete and missing.
             - deletePushToken
         - Rooms:
             - cleanHistory
+            - createDiscussion
             - favorite
             - get
+            - getDiscussions
             - info
             - leave
             - saveNotification
@@ -424,6 +437,7 @@ Here you can also find what articles are incomplete and missing.
             - read
             - unread
         - Users:
+            - presence
             - create
             - createToken
             - delete
