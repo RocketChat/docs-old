@@ -207,6 +207,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :------------------------------- | :------------------------------------------------------------ | :------------------------------- |
 | `/api/v1/livechat/inquiries.list`| Retrieves a list of open inquiries.                           | [Link](livechat/inquiries-list/) |
 | `/api/v1/livechat/inquiries.take`| Take an open inquiry.                                         | [Link](livechat/inquiries-take/) |
+| `/api/v1/livechat/rooms`         | Retrieves a list of livechat rooms.                           | [Link](livechat/rooms/)          |
 
 ### Permissions
 
