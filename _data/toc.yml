@@ -311,6 +311,7 @@
         - getDeletedMessages
         - getMessage
         - getMessageReadReceipts
+        - getPinnedMessages
         - getThreadMessages
         - getThreadsList
         - pinMessage
