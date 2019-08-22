@@ -34,11 +34,11 @@ NOTE: to avoid creating multiple accounts for bot emails, you can use Gmail `+ad
 
 To make the process of coding a bot easier and faster, you may want to check our existing guides below to quickly deploy a basic bot instance. As an advanced alternative, you can create your bot from the scratch using your favorite framework.
 
-- [Running a bBot Bot](running-a-bbot-bot/)
-- [Running a Hubot Bot](running-a-hubot-bot/)
-- [Running a Botkit Bot](running-a-botkit-bot/)
-- [Running a Rasa Bot](running-a-rasa-bot/)
-- [Running a Botpress Bot](running-a-botpress-bot/)
+- [Running a Hubot Bot](../running-a-hubot-bot/)
+- [Running a Botkit Bot](../running-a-botkit-bot/)
+- [Running a Rasa Bot](../running-a-rasa-bot/)
+- [Running a Botpress Bot](../running-a-botpress-bot/)
+- [Running a bBot Bot](../running-a-bbot-bot/)
 
 Regardless of the option you choose, to make your bot work you will need credentials of the bot user you created on the previous step.
 
