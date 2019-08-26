@@ -60,10 +60,16 @@ An info button is provided at the right of the **Custom Themes** drop-down. Long
 
 Tap one of the palette colors. A dialog with colors will pop up. Tapping a color will save the color attribute.
 
+![Custom Themes Edit Colors](images/CustomThemesEditColors.jpg?raw=true "Custom Themes Edit Colors")
+
 ### Remove Custom Theme
 
 If you don't need a custom theme, swipe it left or right to remove it. If the theme is currently applied, the app will revert to default theme.
 
 ### Apply Custom Theme
 
-To apply a custom theme, tap the theme name and you're done.
+To apply a custom theme, tap the theme name and you're done. Customize colors to get themes like the one's below:
+
+Lilac                 |  Gold Green         |  Peach Grey
+:-------------------------:|:-------------------------:|:-------------------------:
+![Lilac Theme](images/LilacTheme.jpg?raw=true "Lilac Theme")|  ![Gold Green Theme](images/GoldGreenTheme.jpg?raw=true "Gold Green Theme")|  ![Peach Grey Theme](images/PeachGreyTheme.jpg?raw=true "Peach Grey Theme")
