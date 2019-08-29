@@ -11,8 +11,8 @@ This document outlines the steps required to create your first bot with Rocket.C
 
 ### 1. Create a bot user
 
-In order to talk to your chatbot there must be a user account pre-configured on the Rocket.Chat server that the bot can
-log in to.
+In order to talk to your chatbot there must be a user account pre-configured on the Rocket.Chat server that the bot can log in to.
+
 To create the account you need to have admin privileges:
 
 1. In the topbar, click the three dots (Options) and then click **Administration**
@@ -40,10 +40,8 @@ To make the process of coding a bot easier and faster, you may want to check our
 - [Running a Botpress Bot](../running-a-botpress-bot/)
 - [Running a bBot Bot](../running-a-bbot-bot/)
 
-Regardless of the option you choose, to make your bot work you will need credentials of the bot user you created on the previous step.
+Regardless of the option you choose, to make your bot work you will need credentials of the bot user you created in the previous step.
 
 ### 3. Talk to your bot
 
-Your bot will *usually* respond to all messages addressed directly to the bot user (depending on the particular bot framework). For example, messages prepended with `BOT_NAME` or a preconfigured `BOT_ALIAS`.
-
-If the bot is configured to listen to direct messages (`RESPOND_TO_DM=true`), the prepend is added automatically so the bot can respond to all messages in the direct messages channel.
+If the bot is configured to listen to direct messages (`RESPOND_TO_DM=true`), and messages are prepended with `BOT_NAME` or a preconfigured `BOT_ALIAS`, the bot will *usually* respond to all messages addressed directly to the bot user (depending on the particular bot framework).

@@ -22,9 +22,10 @@ languages, such as NodeJS and Python.
 ## How Bots Architecture works
 
 Bot creators design the bot's logic with the help of their favorite framework.
-This logic defines behavioral interaction with users, giving the bot context-awareness.
-Context-awareness helps the bot to identify user's intents and understand what the user is
-looking for so that they can simulate more personalized human-like conversation.
+This logic defines behavioral interaction with users, giving the bot ability to
+recognize the context of the conversation. In this way, the bot can focus on what
+users want to achieve and even take a proactive approach in finding the right solution
+and creating better user experience.
 
 With the ability to listen to and respond to messages, the bot can be integrated into
 the Rocket.Chat host so that it can engage with users in a conversational manner. To perform
