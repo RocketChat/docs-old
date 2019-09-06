@@ -307,6 +307,7 @@ Here you can also find what articles are incomplete and missing.
             - getDeletedMessages
             - getMessage
             - getMessageReadReceipts
+            - getPinnedMessages
             - getThreadMessages
             - getThreadsList
             - pinMessage
@@ -395,6 +396,7 @@ Here you can also find what articles are incomplete and missing.
             - inquiries.take
             - message
             - room
+            - rooms
             - sms-incoming
             - users
             - video-call
