@@ -26,14 +26,21 @@ _follow these instructions to get a simple Telegram Bot setup_
 class Script {
     process_incoming_request({ request }) {
         // UNCOMMENT THE BELOW LINE TO DEBUG IF NEEDED.
-        //console.log(request.content);
+        // console.log(request.content);
         if ('edited_message' in request.content) {
             request.content.message = request.content.edited_message;
         }
-        let who = request.content.message.from.username
-        let icon_url = '/avatar/' + request.content.message.from.username + '.jpg'
+        let from = request.content.message.from;
+        let who = from.username
+        let icon_url = '/avatar/' + from.username + '.jpg'
         if(!who)  {
-          who = `${request.content.message.from.first_name} ${request.content.message.from.last_name}`
+          if (from.first_name && from.last_name) {
+            who = `${from.first_name} ${from.last_name}`
+          } else if (from.first_name) {
+            who = from.first_name
+          } else {
+            who = from.last_name
+          }
           icon_url = `/avatar/${request.content.message.from.first_name}.jpg`
         }
         let body = request.content.message.text
