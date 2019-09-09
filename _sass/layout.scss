@@ -161,11 +161,14 @@ blockquote {
   border-radius: 2px;
 }
 
+#content-default .wrapper {
+  padding: 0 24px;
+}
+
 .wrapper {
-  max-width: $content-width;
-  margin: 0 auto;
   flex: 1 1 100%;
   overflow: hidden;
+  padding: 0 24px;
 
   &.main {
     display: flex;
@@ -321,10 +324,10 @@ main.home {
 }
 
 .toc {
-  width: $toc-width;
   overflow-y: auto;
   padding:  1em 1em 1em 0;
   font-size: 14px;
+  word-break: break-word;
 
   li {
     font-weight: normal;
@@ -361,11 +364,13 @@ main.home {
 
   ul {
     list-style: none;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 16px;
+    padding: 0;
   }
 
   & > ul {
     margin: 0;
+    padding: 0;
   }
 
   .level-0 {
@@ -428,6 +433,10 @@ main.home {
   }
 }
 
+.toc-wrapper {
+  width: 25%;
+}
+
 .content {
   flex: 1 1 100%;
   overflow: hidden;
@@ -436,8 +445,7 @@ main.home {
 
   .wrapper {
     padding-right: 1em;
-    max-width: 70%;
-    margin: 0 0 0 65px;
+    max-width: 88%;
   }
 }
 
@@ -450,10 +458,11 @@ main.home {
   color: $grey-dark;
 }
 
-.article-toc-wrapper{
-  width: 18%;
+.article-toc-wrapper {
   position: fixed;
-  left: 82vw;
+  left: 90vw;
+  max-width: 8%;
+  word-break: break-word;
   .inline_toc {
     border-left: 2px solid #ddd;
     font-size: 13px;
