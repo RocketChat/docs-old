@@ -51,6 +51,7 @@
     - High Availability Install
     - Available Images
     - Docker Compose
+  - RocketChatCTL
   - Manual Installation:
     - CentOS
     - Debian
@@ -99,11 +100,14 @@
   - Authentication:
     - CAS
     - Ldap
-    - Oauth
+    - Oauth:
+      - Okta
+      - Keycloak
     - SAML:
       - Oracle Cloud
     - WordPress
   - Custom Emoji
+  - Custom Sounds
   - Database-Migration
   - Email:
     - Setup
@@ -308,6 +312,7 @@
         - getDeletedMessages
         - getMessage
         - getMessageReadReceipts
+        - getPinnedMessages
         - getThreadMessages
         - getThreadsList
         - pinMessage
@@ -392,8 +397,11 @@
         - config
         - custom-fields
         - department
+        - inquiries.list
+        - inquiries.take
         - message
         - room
+        - rooms
         - sms-incoming
         - users
         - video-call
@@ -476,6 +484,7 @@
       - Themes
 - Bots:
   - Bots Architecture
+  - Create a Bot
   - Creating Bot Users
   - Configure Bot Environment
   - Running a bBot Bot

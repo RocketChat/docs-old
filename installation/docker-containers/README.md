@@ -1,10 +1,10 @@
 # Docker Containers
 
-Docker-Ubuntu 14.04 (64 bit) VPS with Nginx SSL and Hubot
+Docker-Ubuntu 16.04 LTS (64 bit) VPS with Nginx SSL and Hubot
 
 ## Introduction
 
-This guide will walk you through installation and configuration of a Docker based Rocket Chat instance on Ubuntu 14.04 (64 bit) VPS, using Nginx as a reverse SSL proxy, Hubot chatbot, and necessary scripts for automatic restart and crash recovery.
+This guide will walk you through installation and configuration of a Docker based Rocket Chat instance on Ubuntu 16.04 LTS (64 bit) VPS, using Nginx as a reverse SSL proxy, Hubot chatbot, and necessary scripts for automatic restart and crash recovery.
 
 For people new to docker here's a quick primer: Docker is a program to allow other programs and their dependencies to be run in a type of virtual container. Using this deployment guide, you do not need to download any of the rocket chat program files manually whatsoever. Docker will get everything that is needed for Rocket Chat to run. If you follow this guide closely, it provides everything from start to finish needed to install, create, and run your own Rocket Chat web instance with nginx handling SSL termination, and a Hubot chatbot keeping your general chat channel warm on those cold winter mornings.
 
@@ -29,7 +29,7 @@ This guide is designed for everyone, however, it is intentionally detailed to he
 
 This guide is written assuming that you're starting with:
 
-- a clean new installation of Ubuntu 14.04 (64 bit)
+- a clean new installation of Ubuntu 16.04 LTS (64 bit)
 - properly configured DNS that resolves requests to your domain name
 
 - - -
@@ -107,10 +107,11 @@ Press **Y** when prompted to proceed with the install.
 **Install Docker**
 <https://docs.docker.com/linux/step_one/>
 
-**Install Docker-Compose version 1.4.2 (64 bit) via cURL**
+**Install Docker-Compose version 1.24.0 (64 bit) via cURL**
 
 ```
-sudo curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-compose-Linux-x86_64 > /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-Linux-x86_64" -o /usr/local/bin/docker-compose
+
 ```
 
 **Set the executable permissions:**
@@ -119,7 +120,7 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-co
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-**Notes:** We're using version 1.4.2 for this guide. If you wish to try a newer version, you will need to edit the cURL command to reflect the alternate version number. If you get a "Permission denied" error, your `/usr/local/bin` directory probably isn't writable and you'll need to install Compose as the superuser. Run `sudo -i`, then the two commands above, then `exit`. (credit: docker compose docs)
+**Notes:** We're using version 1.24.0 for this guide. If you wish to try a newer version, you will need to edit the cURL command to reflect the alternate version number. If you get a "Permission denied" error, your `/usr/local/bin` directory probably isn't writable and you'll need to install Compose as the superuser. Run `sudo -i`, then the two commands above, then `exit`. (credit: docker compose docs)
 
 **Confirm docker-compose is properly installed**
 
@@ -355,7 +356,11 @@ services:
 
 Save and Exit.
 
-- - -
+Start the services by:
+
+```bash
+docker-compose up -d
+```
 
 ## 7. Automatic Startup & Crash Recovery
 
