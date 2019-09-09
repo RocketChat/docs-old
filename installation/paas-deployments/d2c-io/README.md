@@ -1,7 +1,5 @@
 # Deploying Rocket.Chat on D2C.io
 
-**Note: Has not yet been updated to work with 1.0**
-
 ## Supported cloud providers
 
 - AWS
@@ -21,9 +19,13 @@
 
 ## Deploy
 
-Single click deployment:
+Single click deployment. Version 0:
 
 [![Deploy](https://raw.githubusercontent.com/mastappl/images/master/deployTo.png)](https://panel.d2c.io/?import=https://github.com/d2cio/rocketchat-stack/archive/master.zip/)
+
+Single click deployment. Version 1:
+
+[![Deploy](https://raw.githubusercontent.com/mastappl/images/master/deployTo.png)](https://panel.d2c.io/?import=https://github.com/d2cio/rocketchat-replicaset-stack/archive/master.zip)
 
 ### Demo
 

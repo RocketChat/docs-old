@@ -4,6 +4,8 @@ Rocket.Chat is a middle tier application server, by itself it does not handle SS
 
 **Note:** You must use the outside https address for the value at ```ROOT_URL``` in [[Section 3|Deploy-Rocket.Chat-without-docker#3-download-rocketchat]] above.  This includes the `https://` and leave off the port number.  So instead of ```ROOT_URL=http://localhost:3000``` use something like ```https://your_hostname.com```
 
+**Note:** When setting up a reverse proxy in front of your Rocket.Chat server you need to configure Rocket.Chat to use the correct clientAddress. The rate limiter (and maybe other features) will not work properly if this is not done. Set ```HTTP_FORWARDED_COUNT``` Environment variable to the correct number of proxies in front of Rocket.Chat. If you are using snap there's a documentation how to do it [here](https://rocket.chat/docs/installation/manual-installation/ubuntu/snaps/#how-do-i-change-other-environmental-variables-in-my-snap)
+
 ## Running behind a nginx SSL Reverse Proxy
 
 **Note:** These instructions were written for Ubuntu.  For Amazon Linux, the conf file for the proxy goes in `/etc/nginx/conf.d/` and needs to have a discrete name ending in `.conf` and nginx is installed using `yum -y install nginx`.
