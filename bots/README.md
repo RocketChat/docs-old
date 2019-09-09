@@ -14,22 +14,18 @@ of permissions.
 
 ## How do bots send and receive messages?
 
-Rocket.Chat's framework (Meteor) has built-in utilities for streaming updates to data collections.
-Every user in Rocket.Chat has such a collection for their messages. Bots subscribe to
-the collection of messages for their user account, creating a stream that is updated every time a message is sent either directly to them or any room they are joined in.
+Bots in Rocket.Chat cannot send messages to users on thir own. Instead, they subscribe to
+so-called collections of messages that every user has. The subscription creates a stream
+that is updated every time messages are sent either directly to bots or any room they are joined in.
 
-For more details, see the [Bots Architecture section](bots-architecture/).
+For more details, see the [Bots Architecture section](bots-architecture/#message-streams).
 
 ## How are bots hosted?
 
-Rocket.Chat supports bots that are hosted outside of your Rocket.Chat instance. Their working logic is defined by their provider.
+Rocket.Chat supports bots that are hosted _outside_ of your Rocket.Chat instance.
+The working logic of these bots is defined by their provider.
 
-Rocket.Chat supports for multiple bot frameworks and platforms, including:
-[bBot](http://bbot.chat/), [Hubot](https://hubot.github.com/), [Botkit](https://botkit.ai/), [Botpress](https://botpress.io/).
-
-The hosting for bots depends on the platform. For example, Hubot can be
-launched on any Node.js environment, but you have to set it up yourself (using Heroku or
-Glitch services). Another bot platforms like Botkit provide their own services for hosting and provisioning bots. They just need a configuration to connect to your Rocket.Chat instance.
+For more details, see the [Bots Architecture section](bots-architecture/#bot-platforms-and-frameworks).
 
 ## Getting Started
 
