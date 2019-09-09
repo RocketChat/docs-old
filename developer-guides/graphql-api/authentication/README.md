@@ -1,5 +1,7 @@
 # GraphQL API Authentication
 
+> _Support to GraphQL API was removed in version `2.0.0`_
+
 **Note**
 
 > To be able to use the GraphQL API, a login by GraphQL is needed (Tokens provided by REST API are different from the tokens of the GraphQL API).

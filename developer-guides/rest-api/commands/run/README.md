@@ -13,6 +13,7 @@ Execute a slash command in the specified room.
 | `command` | `unmute`            | Required                           | The name of the command to be executed. |
 | `roomId`  | `ByehQjC44FwMeiLbX` | Required                           | The ID of the room.                     |
 | `params`  | `@user123`          | Optional <br> Default: `undefined` | Parameters of the command if required.  |
+| `tmid`    | `Hsj2435g4bvrj4bjh` | Optional                           | The ID of the thread to run the command.|
 
 ## Example Call
 
@@ -21,7 +22,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type: application/json" \
      http://localhost:3000/api/v1/commands.run \
-     -d '{"command":"unmute","roomId":"ByehQjC44FwMeiLbX","params":"@user123"}'
+     -d '{"command":"unmute","roomId":"ByehQjC44FwMeiLbX","params":"@user123", "tmid": "Hsj2435g4bvrj4bjh"}'
 ```
 
 ## Example Result
@@ -34,6 +35,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 ## Change Log
 
-| Version | Description |
-| :------ | :---------- |
-| 0.60.2  | Added       |
+| Version | Description           |
+| :------ | :-------------------- |
+| 2.0.0   | Added `tmid` property |
+| 0.60.2  | Added                 |
