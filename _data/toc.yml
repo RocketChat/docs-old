@@ -269,6 +269,7 @@
         - AddLeader
         - addModerator
         - addOwner
+        - anonymousread
         - archive
         - close
         - counters
