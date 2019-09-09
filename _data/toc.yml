@@ -51,6 +51,7 @@
     - High Availability Install
     - Available Images
     - Docker Compose
+  - RocketChatCTL
   - Manual Installation:
     - CentOS
     - Debian
@@ -272,6 +273,7 @@
         - AddLeader
         - addModerator
         - addOwner
+        - anonymousread
         - archive
         - close
         - counters
@@ -314,6 +316,7 @@
         - getDeletedMessages
         - getMessage
         - getMessageReadReceipts
+        - getPinnedMessages
         - getThreadMessages
         - getThreadsList
         - pinMessage
@@ -402,6 +405,7 @@
         - inquiries.take
         - message
         - room
+        - rooms
         - sms-incoming
         - users
         - video-call
@@ -484,6 +488,7 @@
       - Themes
 - Bots:
   - Bots Architecture
+  - Create a Bot
   - Creating Bot Users
   - Configure Bot Environment
   - Running a bBot Bot

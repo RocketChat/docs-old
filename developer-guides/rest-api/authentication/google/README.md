@@ -15,7 +15,6 @@ Authenticate with Google.
 | `idToken`     | `hash`                          | Required | Id token provided by google auth      |
 | `expiresIn`   | `200`                           | Required | Lifetime of token(in seconds)         |
 | `scope`       | `profile`                       | Optional | Google scopes for API                 |
-| `identity`    | `{id: '1', name: 'rocket.cat'}` | Optional | Google user identity                  |
 
 ## Example Call - As JSON
 
