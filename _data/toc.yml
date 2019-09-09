@@ -423,6 +423,7 @@
         - create
         - list
         - addUserToRole
+        - getUsersInRole
       - Push:
         - push.token
         - deletePushToken
