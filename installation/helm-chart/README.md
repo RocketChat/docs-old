@@ -10,7 +10,7 @@ Helm is a tool that streamlines installing and managing Kubernetes applications.
 - Rocket.Chat chart installs mongodb chart (stable/mongodb)
 - Authentication for mongodb is enabled by default (usePassword : true)
 - Two persistent volumes will be created, one for mongodb that will store Rocket.Chat data and one for Rocket.Chat uploads
-- If not set, a random password will be generated for the root user in mongodb, and no custom user, password and database will be creted for Rocket.Chat so we recommend installing this chart setting those parameters.
+- If not set, a random password will be generated for the root user in mongodb, and no custom user, password and database will be created for Rocket.Chat so we recommend installing this chart setting those parameters.
 
 ### Install Rocket.Chat chart and configure mongodbUsername, mongodbPassword, mongodbDatabase and mongodbRootPassword:
 
