@@ -40,6 +40,17 @@ To activate Unread Mode you must go to Preferences under My Account and change t
 
 When someone mentions you with `@username`, `@all` or `@here`, a symbol or a number will appear alongside the channel name.  If you were mentioned, an `@` will show.  If someone mentions `@all` or `@here` a number will show up showing the number of times you were mentioned.
 
+### Notifications Preferences
+
+There is a number of settings about notifications that a user can customize specifically to channels. One can find these settings in the `Notifications Preferences` under the `More` section of the channel whose notification settings is to change.
+
+- **Mute/Receive alerts:** User can choose to receive or not any notifications from a channel.
+- **Mute/Receive mentions:** User can choose not to receive notifications for mentions while receiving notifications for messages in a channel.
+- **Hide/Show counter:** User can choose whether to show the number of unread messages for a channel.
+- **Notification sound:** Currently, users can also choose a sound for notifications besides the alerts for the `Desktop` whereas `Mobile` currently supports only the alerts. One can select when to play the audio, duration of the audio and also the audio itself.
+
+> There are some default choices for audio provided by Rocket chat. However, you also get to choose custom audio files for the same. Get further information about [Custom Sounds](../../administrator-guides/custom-sounds).
+
 ## Joining new channels and starting direct messages
 
 There are three ways of joining a public channel, you can either search for it, be invited to it or be mentioned in it.

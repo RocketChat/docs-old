@@ -12,6 +12,7 @@
   - Google Summer of Code 2017
   - Google Summer of Code 2018
   - Google Summer of Code 2019
+  - Google Season of Docs 2019
   - Promoting
   - Reporting Issues
   - Security:
@@ -24,7 +25,8 @@
   - Rocket.Chat Cloud
   - PaaS Deployments:
     - Aliyun
-    - AWS
+    - AWS:
+      - EKS
     - Cloudron.io
     - Digital Ocean
     - DPlatform
@@ -41,7 +43,6 @@
     - Sandstorm.io
     - Scalingo
     - Sloppy.io
-    - WeDeploy
     - D2C.io
     - Syncloud.org
   - Docker containers:
@@ -50,6 +51,7 @@
     - High Availability Install
     - Available Images
     - Docker Compose
+  - RocketChatCTL
   - Manual Installation:
     - CentOS
     - Debian
@@ -59,6 +61,7 @@
     - Ubuntu:
       - Snaps:
         - AutoSSL
+    - Univention Corporate Server (UCS)
     - Mongo Options
     - Mongo Versions
     - Mongo Replicas
@@ -72,6 +75,7 @@
   - Mobile and Desktop Apps
   - Updating:
     - From 0.x.x to 0.40.0
+    - To 1.0
   - Minimum Requirements
   - Community Supported Installation:
     - FreeBSD:
@@ -83,27 +87,34 @@
   - Connecting to a Server
   - Registration
   - Login
+  - Talking to users from another server
   - Channels
   - Messaging
   - Channel Actions
   - Managing your Account
   - End to End Encryption
   - Voice and Video Conferencing
+  - Experimental App
 - Administrator guides:
   - Account Settings
   - Authentication:
     - CAS
     - Ldap
-    - Oauth
+    - Oauth:
+      - Okta
+      - Keycloak
     - SAML:
       - Oracle Cloud
     - WordPress
+  - Custom Emoji
+  - Custom Sounds
   - Database-Migration
   - Email:
     - Setup
     - Editing Emails Content
     - Mailer
     - Direct Reply
+  - Federation
   - File Upload:
     - Amazon S3
     - Google Cloud Storage
@@ -129,12 +140,12 @@
     - Google-Calendar
     - Guggy
     - Jenkins
+    - JFrog Xray
     - Jira
     - MicroBadger
     - NextCloud and WebDAV
     - NewRelic
     - nixstats
-    - Osticket
     - PagerDuty
     - Prometheus
     - ReviewBoard
@@ -144,6 +155,11 @@
     - Travis CI
     - Trello
     - Uptime Robot
+  - Rocket.Chat Apps:
+    - Jira Server Integration
+    - Bitbucket Server Integration
+    - Bamboo Integration
+    - Confluence Server Integration
   - Google Cloud:
     - Auto Translate
   # - Google Drive
@@ -166,6 +182,7 @@
 - Developer guides:
     - Quick Start
     - Branches and Releases
+    - Client Compatibility Matrix
     - Code Styleguide:
       - less
     - Deeplink
@@ -180,9 +197,13 @@
     - Mobile Apps:
       - Analytics & Data Usage
       - Supporting SSL
-      - Supported Servers Versions
     - Developing Apps:
       - Getting Started
+    - GraphQL API:
+       - Authentication
+       - Schema
+       - Setup
+       - Subscription
     - Realtime-API:
       - Method Calls:
         - Login
@@ -242,11 +263,16 @@
         - logout
         - me
         - twitter
+      - AutoTranslate:
+        - getSupportedLanguages
+        - saveSettings
+        - translateMessage
       - Channels:
         - addAll
         - AddLeader
         - addModerator
         - addOwner
+        - anonymousread
         - archive
         - close
         - counters
@@ -285,8 +311,13 @@
         - unarchive
       - Chat:
         - delete
+        - followMessage
+        - getDeletedMessages
         - getMessage
         - getMessageReadReceipts
+        - getPinnedMessages
+        - getThreadMessages
+        - getThreadsList
         - pinMessage
         - postMessage
         - react
@@ -294,15 +325,22 @@
         - search
         - starMessage
         - sendMessage
+        - syncThreadMessages
+        - syncThreadsList
+        - unfollowMessage
         - unPinMessage
         - unStarMessage
         - update
+        - ignoreUser
       - Commands:
         - get
         - list
         - run
       - Emoji Custom:
-        - get
+        - create
+        - delete
+        - list
+        - update
       - Groups:
         - addAll
         - addLeader
@@ -362,8 +400,11 @@
         - config
         - custom-fields
         - department
+        - inquiries.list
+        - inquiries.take
         - message
         - room
+        - rooms
         - sms-incoming
         - users
         - video-call
@@ -382,13 +423,16 @@
         - create
         - list
         - addUserToRole
+        - getUsersInRole
       - Push:
         - push.token
         - deletePushToken
       - Rooms:
         - cleanHistory
+        - createDiscussion
         - favorite
         - get
+        - getDiscussions
         - info
         - leave
         - saveNotification
@@ -406,6 +450,7 @@
         - read
         - unread
       - Users:
+        - presence
         - create
         - createToken
         - delete
@@ -442,8 +487,8 @@
       - Components
       - Themes
 - Bots:
-  - Bots FAQ
   - Bots Architecture
+  - Create a Bot
   - Creating Bot Users
   - Configure Bot Environment
   - Running a bBot Bot

@@ -18,4 +18,4 @@ You can add the following brackets to the email body:
 
 - `[lname]` : This will get the last name of the user that is receiving the email;
 
-- `[name]` : This will get the email address of the user that is receiving the email;
+- `[email]` : This will get the email address of the user that is receiving the email;

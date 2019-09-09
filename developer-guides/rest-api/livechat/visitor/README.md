@@ -82,7 +82,7 @@ curl http://localhost:3000/api/v1/livechat/visitor/iNKE8a6k6cjbqWhWd
 curl -X POST \
      -H "Content-type:application/json" \
      http://localhost:3000/api/v1/livechat/visitor \
-    -d '{"visitor": {"name": Livechat Visitor, "email": "visitor@rocket.chat", "token": "iNKE8a6k6cjbqWhWd", "phone": "55 51 5555-5555", customFields": [{ "key": "address", "value": "Rocket.Chat street", "overwrite": true }] }'
+    -d '{"visitor": {"name": "Livechat Visitor", "email": "visitor@rocket.chat", "token": "iNKE8a6k6cjbqWhWd", "phone": "55 51 5555-5555", "customFields": [{ "key": "address", "value": "Rocket.Chat street", "overwrite": true }] }'
 ```
 
 ## Example Result

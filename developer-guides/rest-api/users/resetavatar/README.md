@@ -1,4 +1,4 @@
-# User Reset Avatar
+# Reset Avatar
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

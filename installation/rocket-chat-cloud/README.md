@@ -22,4 +22,5 @@ Send an email to cloud.support@rocket.chat with the  address of your workspace. 
 
 ### Can I deploy to another region?
 
-Currently we only have a region available in the US.  In the future we plan to expand this.  If you would like to see a certain region please let us know.
+Yes, we recently added a European Region.  So you can now choose US or EU.
+If you would like to see a certain region please let us know.
