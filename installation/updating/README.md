@@ -72,7 +72,7 @@ You can see older major changes here:
 
 Any version after v1.0.x requires replicasets/oplogging enabled on Mongo.
 
-eg. https://rocket.chat/docs/installation/manual-installation/mongo-replicas
+eg. <https://rocket.chat/docs/installation/manual-installation/mongo-replicas>
 
 ### Upgrading the database
 
@@ -80,7 +80,7 @@ Due to Mongo DB schema changes between versions it is recommended to upgrade you
 
 Do *not* backup from one version and try to restore to another eg:
 
-You have Rocket.Chat 0.65.x 
+You have Rocket.Chat 0.65.x
 
 Do not try to backup the database and restore to direct to another version e.g. Rocket.Chat 1.2.x
 
