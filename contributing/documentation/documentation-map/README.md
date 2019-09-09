@@ -260,6 +260,10 @@ Here you can also find what articles are incomplete and missing.
             - logout
             - me
             - twitter
+        - AutoTranslate:
+            - getSupportedLanguages
+            - saveSettings
+            - translateMessage
         - Channels:
             - addAll
             - addLeader
