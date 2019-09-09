@@ -264,11 +264,16 @@
         - logout
         - me
         - twitter
+      - AutoTranslate:
+        - getSupportedLanguages
+        - saveSettings
+        - translateMessage
       - Channels:
         - addAll
         - AddLeader
         - addModerator
         - addOwner
+        - anonymousread
         - archive
         - close
         - counters
@@ -311,6 +316,7 @@
         - getDeletedMessages
         - getMessage
         - getMessageReadReceipts
+        - getPinnedMessages
         - getThreadMessages
         - getThreadsList
         - pinMessage
@@ -482,6 +488,7 @@
       - Themes
 - Bots:
   - Bots Architecture
+  - Create a Bot
   - Creating Bot Users
   - Configure Bot Environment
   - Running a bBot Bot
