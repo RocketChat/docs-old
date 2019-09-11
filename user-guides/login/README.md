@@ -10,4 +10,4 @@ You can log in using either your `username` or `email` and `password`.
 
 ## OAuth Log in
 
-Your server's system administrator enables OAuth login. If an OAuth service is enabled, click the icon for that service (i.e., GitHub or Google), and then follow the on-screen prompts to log in. 
+Your server's system administrator enables OAuth login. If an OAuth service is enabled, click the icon for that service (i.e., GitHub or Google), and then follow the on-screen prompts to log in.
