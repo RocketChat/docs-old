@@ -1,9 +1,13 @@
 # Logging in to a server
 
-To login to a server you will need to first [register](../registration/) an account.
+To login to a server [register](../registration/) an account manually or with a pre-configured OAuth service.
 
-## Manual login
+## Manual Log in
 
-To login manually you must have used the [manual registration method](../registration/) or have set a `password` in your account settings.
+In order to manually login, you must have used the [manual registration method](../registration/) or have set a `password` in your account settings.
 
 You can login using either your `username` or `email` and `password`.
+
+## OAuth Log in
+
+OAuth log in is enabled by your server's system administrator. If an OAuth service is enabled, click the icon for that service (i.e. GitHub or Google), and then follow the on-screen prompts to log in. 
