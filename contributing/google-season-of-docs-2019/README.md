@@ -46,7 +46,9 @@ Application for technical writers has opened.  Please use this [form](https://fo
 ### Application Programming Interfaces (APIs) Documentation
 
 - **Mentors**: @martin.schoeler, @marcos.defendi
+
 - **Description**: When developing applications, developers can use a rich set of Application Programming Interfaces (APIs) offered by Rocket.Chat to control every aspect of Rocket.Chat's operation. The documentation for this set of APIs mixes automated generation with hand-crafted usage descriptions, application scenarios, and coding examples. By September 2019, Rocket.Chat should have a "playground" that makes this documentation comes alive.  Developers will be able to visit the API page in the "playground" and actually interact with the API directly through the documentation page. We already have a hand-crafted set of API docs that is maintained by our community but they tend to become obsolete as API changes. This project will replace the legacy documentation. You will work with two mentors specialized in API coding and documentation generation for this project.
+
 - In this project, we will **not** be creating the playground or the docs generation systems, that will be handled by the Google Summer of Code student ([See the GSoC Project]()). Our API docs were written without the idea of a playground to test it. The objective of this project is to improve the structure and wording of the API docs to reflect the new playground system.
 - **Related Material**: [Our existing REST API documentation](https://rocket.chat/docs/developer-guides/rest-api/)
 
@@ -61,7 +63,9 @@ Application for technical writers has opened.  Please use this [form](https://fo
 ### Security documentation
 
 - **Mentors**: @markus.kirsch @rodrigok
-- **Description**: We at Rocket.Chat take pride in taking extra efforts in providing a truly open source and secure messaging solution. Transparency and trust are key features of our products. This is an exciting opportunity to work with our team of experts to create a comprehensive documentation of the security features of Rocket.chat and create implementation guides for configuring Rocket.Chat to follow compliance regimes such as GDPR, HIPAA, and NIST. The focus is on creating a new set of documentation based on the existing material and new features that since have been deployed.
+
+- **Description**: We at Rocket.Chat take pride in taking extra efforts in providing a true open source and secure messaging solution. Transparency and trust are key features of our products. This is an exciting opportunity to work with our team of experts to create a comprehensive documentation of the security features of Rocket.chat and create implementation guides for configuring Rocket.Chat to follow compliance regimes such as GDPR, HIPAA and NIST. The focus is on creating a new set of documentation based on the existing material and new features that since have been deployed.
+
 - **Related Material**:  [Rocket.Chat Security Overview](https://rocket.chat/docs/contributing/security/), [Rocket.Chat GDPR features](https://rocket.chat/2018/05/20/gdpr/)
 
 ### Android Kotlin Software Development Kit (Kotlin SDK) documentation
@@ -79,13 +83,14 @@ Application for technical writers has opened.  Please use this [form](https://fo
 ### Project leadership directions and roadmaps
 
 - **Mentors**: @gabriel.engel  @marcelo.schmidt
-- **Description**: Transparency is a cornerstone value of many open source projects.  Rocket.Chat aims to support this value by offering a set of frequently updated project directional documents - including roadmaps, visionary, strategy and white papers.  These will incorporate input from the wider community through interactive feedback as well as regular reviews. This documentation currently exists in bits and pieces but is not in an easy to digest/understand format.  A system will be implemented to present this content in various consumable formats. You will be working with Rocket.Chat's leadership team in formulating and authoring of these documents.
+- **Description**: Transparency is a cornerstone value of many open source projects.  Rocket.Chat aims to support this value by offering a set of frequently updated project directional documents - including roadmaps, visionary, strategy and white papers.  These will incorporate input from the wider community through interactive feedback as well as regular reviews. This documentation currently exists in bits and pieces, but is not in an easy to digest/understand format.  A system will be implemented to present this content in various consumable formats. You will be working with Rocket.Chat's leadership team in formulating and authoring of these documents.
 - **Related Material**:  [Project roadmap on our Github repository](https://github.com/RocketChat/Rocket.Chat/projects/30), [Livechat component roadmap](https://github.com/orgs/RocketChat/projects/20)
 
 ### Rocket.Chat Experimental (React Native client) documentation
 
 - **Mentors**: @diego.mello @renato.becker
-- **Description**: React Native is one of the hottest frameworks nowadays. It allows developers to write fully native mobile applications using only Javascript and inherits all the ease of development features from the ReactJS community. At Rocket.Chat we have our own client implemented using RN and it's available on App Store and Google Play as Rocket.Chat Experimental. This project aims to build user documentation for all the features we have implemented so far. This documentation does not exist today. You will be working with our lead React Native developer during this project.
+
+- **Description**: React Native is one of the hottest frameworks nowadays. It allows developers to write fully native mobile applications  using only Javascript and inherits all the ease of development features from the ReactJS community. At Rocket.Chat we have our own client implemented using RN and it's available on App Store and Google Play as Rocket.Chat Experimental. This project aims to build user documentation for all the features we have implemented so far. This documentation does not exist today. You will be working with our lead React Native developer during this project.
 - **Related Material**:  [Rocket.Chat Experimental](https://github.com/RocketChat/Rocket.Chat.ReactNative), [Rocket.Chat Experimental on App Store](https://itunes.apple.com/br/app/rocket-chat-experimental/id1272915472?mt=8), [Rocket.Chat Experimental on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)
 
 ### Apps-Engine guides
