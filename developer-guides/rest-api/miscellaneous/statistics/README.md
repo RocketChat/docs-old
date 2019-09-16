@@ -1,6 +1,6 @@
-# Info
+# Statistics
 
-Statistics about the Rocket.Chat server.
+Statistics about the Rocket.Chat server. Requires `view-statistics` permission.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

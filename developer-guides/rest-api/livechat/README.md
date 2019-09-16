@@ -13,6 +13,8 @@ Manage Livechat related data:
 | `/api/v1/livechat/department/:_id` | `GET` | Retrieve a Livechat department data. | [info](department/index.html#get-info-about-a-department) |
 | `/api/v1/livechat/department/:_id` | `PUT` | Updates a Livechat department data. | [info](department/index.html#update-a-department) |
 | `/api/v1/livechat/department/:_id` | `DELETE` | Delete a Livechat department. | [info](department/index.html#removes-a-department) |
+| `/api/v1/livechat/inquiries.list` | `GET` | Retrieves a list of open inquiries. | [info](inquiries-list/) |
+| `/api/v1/livechat/inquiries.take` | `POST` | Take an open inquiry. | [info](inquiries-take/) |
 | `/api/v1/livechat/sms-incoming/:service` | `POST` | Send SMS messages to Rocket.Chat. | [info](sms-incoming/) |
 | `/api/v1/livechat/agent.info/:rid/:token` | `GET` | Retrieve the current Livechat agent data. | [info](agent/index.html) |
 | `/api/v1/livechat/agent.next/:token` | `GET` | Request the next Livechat agent available. | [info](agent/index.html#request-the-next-livechat-agent-available) |
@@ -24,6 +26,7 @@ Manage Livechat related data:
 | `/api/v1/livechat/message/:_id` | `DELETE` | Delete a Livechat message. | [info](message/index.html#removes-a-livechat-message) |
 | `/api/v1/livechat/messages.history/:rid` | `GET` | Load Livechat messages history. | [info](message/index.html#load-livechat-messages-history) |
 | `/api/v1/livechat/offline.message` | `POST` | Send a new Livechat offline message. | [info](message/index.html#send-a-new-livechat-offline-message) |
+| `/api/v1/livechat/rooms` | `GET` | Retrieves a list of livechat rooms.  | [info](rooms/)  |
 | `/api/v1/livechat/room` | `GET` | Get the Livechat room data or open a new room. | [info](room/index.html) |
 | `/api/v1/livechat/room.close` | `POST` | Close a Livechat room. | [info](room/index.html#close-livechat-room) |
 | `/api/v1/livechat/room.transfer` | `POST` | Transfer a Livechat room to another agent or department. | [info](room/index.html#transfer-livechat-room) |

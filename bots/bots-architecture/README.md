@@ -2,33 +2,74 @@
 
 ![Bots Architecture Diagram](./diagram.png){:style="width='100%' height='auto'"}
 
-The above diagram illustrates the relationship between a Rocket.Chat server
-and a chatbot framework or platform. Not all bot frameworks operate the same
-way, but the general concepts apply. See below for more detailed definitions.
+The above diagram illustrates the general concepts of how a Rocket.Chat server
+communicates with a chatbot framework or platform. These concepts are applicable
+to [**external**](../) bots.
 
-This would apply to **external** bots. For a definition of external vs internal
-bots, see the [Bots FAQ](../bots-faq).
+Bots architecture consists of two main parts: Rocket.Chat host and [bot host](#bots-host).
+These two parts are connected with each other via [Rocket Chat SDK](#rocketchat-sdk) methods.
+Bot host runs externally to the Rocket.Chat host and consists of the bot infrastructure and,
+typically, external [services](#external-services). The bot infrastructure, in turn,
+consists of SDK, [adapter](#framework-adapter), and [framework](#bot-framework).
+
+A bot, being subscribed to room's messages (all or specific ones) handles these
+messages and responds back to the user in an interactive manner. The conversational model
+can be designed and managed by tooling and frameworks on the bot host.
+
+Today, many bots are created using bot frameworks or platforms based on popular programming
+languages, such as NodeJS and Python.
+
+## How Bots Architecture works
+
+Bot creators design the bot's logic with the help of their favorite framework.
+This logic defines behavioral interaction with users, giving the bot ability to
+recognize the context of the conversation. In this way, the bot can focus on what
+users want to achieve and even take a proactive approach in finding the right solution
+and creating better user experience.
+
+With the ability to listen to and respond to messages, the bot can be integrated into
+the Rocket.Chat host so that it can engage with users in a conversational manner. To perform
+this connection, bot creators use adapters that can translate the logic defined via the
+framework's powers to the format that the Rocket.Chat host understands. Adapters use
+Rocket.Chat SDK methods to communicate with the Rocket.Chat host.
 
 ## Users and Bots
 
-Bots in Rocket.Chat require a user account, with the `bot` role. Other than
-having certain specific permissions, they are mostly treated just like regular
-users within the Rocket.Chat instance. Users with a bot role will also have a
-"Bot" tag displayed, so they can't play tricks on us humans.
+Bots in Rocket.Chat require user accounts with the `bot` role. Other than having
+a specific set of permissions, bot accounts are treated like regular user accounts
+within the Rocket.Chat host. However, to prevent possible user confusion, messages
+from online bots are marked with a default "Bot" label.
 
 ## Bot Admin
 
-Admins (and only admins) can create and configure the bot account and role
-permissions. They set which user fields the bots have access to for privacy
-and security and the credentials a bot uses to connect. We're working on better
-management views for bots and the future potential of user-activated bots.
+Admins (and only admins) can create the bot account and configure role
+permissions. This includes setting the credentials a bot uses to connect
+as well as which user fields the bots have access to for privacy and security.
+Rocket.Chat team works on improving management views for bots and enhancing
+the future potential of user-activated bots.
 
-## Hosting Bots
+## Bots Host
 
-External bots are either hosted by the chatbot platform or a custom host set up
-by their creator (e.g. using Heroku, Glitch or Docker). Node.js is a popular
-language in the space, so we provide utilities catered for Node development, but
-not all bots run on Node.js.
+A bot host is a machine where bots run. It can be a bare-metal server, a network
+cluster, a virtualized environment or cloud-based.
+
+A bot host can manage and run many different bots as well as many instances of any bot.
+
+The bot host typically manages connections to [external services](#external-services)
+as well.
+
+### Bot platforms and frameworks
+
+Rocket.Chat supports multiple bot frameworks and platforms, including:
+[bBot](http://bbot.chat/),
+[Hubot](https://hubot.github.com/),
+[Botkit](https://botkit.ai/),
+[Botpress](https://botpress.io/).
+
+The hosting for bots depends on the platform. For example, Hubot can be launched on any
+Node.js environment, but you have to set it up yourself (using Heroku or Glitch services).
+Other bot platforms like Botkit provide their own services for hosting and provisioning bots.
+They just need a configuration to connect to your Rocket.Chat instance.
 
 ## Message Streams
 
@@ -37,31 +78,52 @@ emitted by the server's streamer. Bots subscribe to the collection of messages
 for their own user account, creating a stream that is updated every time a
 message is sent either directly to them or any room they are joined in.
 
-## Rocket.Chat JS SDK
+## Rocket.Chat SDK
 
-The SDK is a Node.js module that provides an interface for external applications
-to subscribe to message streams, send messages and call methods on the
-Rocket.Chat server (via WebSockets / DDP). It would be a dependency of most bots
-built on Node.js and we're working on a Python translation as well.
+The SDK is a low-level software module that offers an interface for external
+consumers to subscribe to message streams, send messages, and call methods on the
+Rocket.Chat server via WebSockets / DDP.
 
-## Framework Adapters
+Bot framework adapter are written using the SDK.
 
-Adapters, sometimes referred to as **connectors** or **middleware**, provide the
-parsing of message schemas and methods between the chatbot framework and the
-Rocket.Chat SDK. Once loaded into a project, they allow bot creators to compose
-interactions in the framework's terms, ignoring the specific requirements of
-Rocket.Chat.
+## Framework Adapter
 
-## Bot Frameworks
+An adapter (also referred as **connector** or **middleware**) is a software component
+that is used to link the framework with the Rocket.Chat host.
 
-Bot frameworks such as Hubot, Botkit, Rasa and Botpress each provide unique
-approaches to composing conversational interfaces. Some run their own hosting
-for bots, some just provide the code for you to run yourself. Due to the magic
-of adapters, our architecture is mostly independent to your choice of framework.
+An adapter allows bot creators to design and build bot interactions according to the
+framework's rules and practices without dealing with the low-level programming
+details and methods of the communication with the Rocket.Chat host.
+
+Adapters use Rocket.Chat SDK to communicate with the Rocket.Chat host.
+
+## Bot Framework
+
+Bot frameworks (such as Hubot, Botkit, Rasa or Botpress) provide unique
+approaches to create conversational interfaces and allow developers
+to focus on the design and management of complex bot logic.
+
+Most of framworks can be run on your own bot host. There are also frameworks
+that operate as SaaS (Software as a Service), so they work in the cloud.
+
+Most of the popular frameworks have adapters created by the Rocket.Chat's community.
+
+## Bot Scaling
+
+In production, hundreds or thousands of users can be carrying out conversations with a bot
+at the same time. The ability to scale a bot from one conversation to many concurrent ones
+is essential.
+
+Bot frameworks/platforms support varying degrees of scalability. To ensure that growing number
+of users will not cause architectural and performance problems, you should choose your bot's
+framework wisely. For example, considerng potential scalability issues even before you start
+implementing your bot's logic
 
 ## External Services
 
-Bots often call external services to provide data or conversational processing.
-This is conducted from scripts implementing the bot's framework utilities,
-whether it's the bot's own platform provider or NLP service, or some other API,
-like a weather service or your own business logic provider.
+The value of most production bots relies on their ability to access and manipulate external
+data and systems (services). External services, like databases, scheduling systems, CRM, NLP
+can be used to provide data or conversational processing.
+
+The framework simplifies connection of a bot with these services and ensures ease of access to
+them through the bot host.

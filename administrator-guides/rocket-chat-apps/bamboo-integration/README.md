@@ -1,10 +1,10 @@
-# Bamboo Integration
+# Atlassian Bamboo Integration
 
 ## Installation
 
 You can install our Bamboo Integration Rocket.Chat App from your Rocket.Chat Administration area.
 
-- Go to **Administration** > **Apps**
+- Go to **Administration** > **Marketplace**
 - Search for the **Bamboo Integration** and click on the item
 - Click on the **Install** button
 - Click on **Activate**
