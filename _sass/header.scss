@@ -1,3 +1,15 @@
+body:not(.home){
+  .app-header_wrap .container {
+    max-width: unset;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .app-header_logo {
+    min-width: 32%;
+  }
+}
+
 .app-header {
     height: 4.3em;
   }

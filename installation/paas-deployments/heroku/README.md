@@ -1,15 +1,19 @@
 # Deploying Rocket.Chat on Heroku
 
-Two ways to deploy Rocket.Chat to Heroku:
+Heroku is a container-based cloud Platform as a Service, provides for free 1 dyno, an instance of the application, in this case Rocket.Chat server, running and responding to requests.
+
+There are two ways to deploy Rocket.Chat to Heroku:
 
 - easy one click
 - customized command line
 
+Note mongolab's free sandbox plan does not support oplog tailing and from Rocket.Chat version 1 oplog tailing is required.
+
+To add any service to an app, even if it is free, you will need to register a valid credit card with Heroku.  Rocket.Chat needs both mongolab and logenteries services.
+
 ## One Click automatic deploy
 
 Try clicking the button below, and either login or create a new account, then follow all prompts.
-
-[One-Click Deploy](https://heroku.com/deploy?template=https://github.com/RocketChat/Rocket.Chat/tree/master)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/RocketChat/Rocket.Chat/tree/master)
 
@@ -106,8 +110,6 @@ git push heroku master
 
 ### Caveats
 
-- To add any service to an app, even if it is free, you will need to register a valid credit card with Heroku.  Rocket.Chat needs both mongolab and logenteries services.
 - Heroku (actually CloudFoundry) uses custom buildpacks to stage applications. The buildpack used by Rocket.Chat can take a very long time to build - since it needs to download Meteor and build the server image every time.
 - You *must*  set the ROOT_URL environment variable, as shown above, otherwise the server side will crash.
-- Note mongolab's free sandbox plan does not support oplog tailing - check other plans if you need oplog.
 - If you are scaling to multi-dynos on Heroku, and you have clients/customers still using older browsers that do not support WebSocket, you need to be mindful of sticky session support (BETA) on Heroku - see [sticky sessions on Heroku](https://devcenter.heroku.com/articles/session-affinity).

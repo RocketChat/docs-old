@@ -51,6 +51,7 @@
     - High Availability Install
     - Available Images
     - Docker Compose
+  - RocketChatCTL
   - Manual Installation:
     - CentOS
     - Debian
@@ -74,7 +75,7 @@
   - Mobile and Desktop Apps
   - Updating:
     - From 0.x.x to 0.40.0
-    - Updating to 1.0
+    - To 1.0
   - Minimum Requirements
   - Community Supported Installation:
     - FreeBSD:
@@ -99,10 +100,14 @@
   - Authentication:
     - CAS
     - Ldap
-    - Oauth
+    - Oauth:
+      - Okta
+      - Keycloak
     - SAML:
       - Oracle Cloud
     - WordPress
+  - Custom Emoji
+  - Custom Sounds
   - Database-Migration
   - Email:
     - Setup
@@ -135,12 +140,12 @@
     - Google-Calendar
     - Guggy
     - Jenkins
+    - JFrog Xray
     - Jira
     - MicroBadger
     - NextCloud and WebDAV
     - NewRelic
     - nixstats
-    - Osticket
     - PagerDuty
     - Prometheus
     - ReviewBoard
@@ -177,6 +182,7 @@
 - Developer guides:
     - Quick Start
     - Branches and Releases
+    - Client Compatibility Matrix
     - Code Styleguide:
       - less
     - Deeplink
@@ -191,7 +197,6 @@
     - Mobile Apps:
       - Analytics & Data Usage
       - Supporting SSL
-      - Supported Servers Versions
     - Developing Apps:
       - Getting Started
     - GraphQL API:
@@ -258,11 +263,16 @@
         - logout
         - me
         - twitter
+      - AutoTranslate:
+        - getSupportedLanguages
+        - saveSettings
+        - translateMessage
       - Channels:
         - addAll
         - AddLeader
         - addModerator
         - addOwner
+        - anonymousread
         - archive
         - close
         - counters
@@ -305,6 +315,7 @@
         - getDeletedMessages
         - getMessage
         - getMessageReadReceipts
+        - getPinnedMessages
         - getThreadMessages
         - getThreadsList
         - pinMessage
@@ -389,8 +400,11 @@
         - config
         - custom-fields
         - department
+        - inquiries.list
+        - inquiries.take
         - message
         - room
+        - rooms
         - sms-incoming
         - users
         - video-call
@@ -409,6 +423,7 @@
         - create
         - list
         - addUserToRole
+        - getUsersInRole
       - Push:
         - push.token
         - deletePushToken
@@ -435,6 +450,7 @@
         - read
         - unread
       - Users:
+        - presence
         - create
         - createToken
         - delete
@@ -471,8 +487,8 @@
       - Components
       - Themes
 - Bots:
-  - Bots FAQ
   - Bots Architecture
+  - Create a Bot
   - Creating Bot Users
   - Configure Bot Environment
   - Running a bBot Bot
