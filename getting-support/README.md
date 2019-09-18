@@ -6,8 +6,6 @@ The following paragraphs will tell you about limits of the support the core team
 
 ## Supported versions of Rocket.Chat
 
-> Always update to latest stable version before reporting any bugs or before ask the community.
-
 > In case of security-relevant bugs we might decide to backport patches to older releases on a case-by-case basis. Please understand though, that those will be rare exceptions. If you want to play it safe, upgrade to latest stable.
 
 Rocket.Chat provides Support for, at least, 3 months for each release. Rocket.Chat provides Support for 6 months to latest releases of each major version, e.g. 1.3 is the latest release of major version 1.x before major version 2.0. Rocket.Chat may provide a longer period of support depending on the necessity, check the table below verify the final support date of each release version.
@@ -22,6 +20,8 @@ Rocket.Chat provides Support for, at least, 3 months for each release. Rocket.Ch
 | **Rocket.Chat 1.3** | **July 2019** | **January 2020** |
 | Rocket.Chat 2.0     | August 2019   | TBD              |
 
+> Always update to latest stable version before reporting any bugs or before ask the community.
+
 ## Supported versions of MongoDB
 
 Each Rocket.Chat release supports different versions of MongoDB, the table below presents the support of MongoDB versions for each major Rocket.Chat release in addition of the deprecated version that will be removed on next or nexts versions.
@@ -34,6 +34,7 @@ Each Rocket.Chat release supports different versions of MongoDB, the table below
 | Rocket.Chat 2 | 3.4, 3.6, 4.0              | 3.4                        |
 
 The upgrade guides avaiable from the official MongoDB documentation are listed bellow. Bare in mind that it's not possible to skip a version when upgrading, e.g. to upgrade from 3.2 to 3.6 it's necessary to upgrade from 3.2 to 3.4 first and than to 3.6.
+
 - [Upgrade Replicat Set to 3.4](https://docs.mongodb.com/manual/release-notes/3.4-upgrade-replica-set/)
 - [Upgrade Replicat Set to 3.6](https://docs.mongodb.com/manual/release-notes/3.6-upgrade-replica-set/)
 - [Upgrade Replicat Set to 4.0](https://docs.mongodb.com/manual/release-notes/4.0-upgrade-replica-set/)
