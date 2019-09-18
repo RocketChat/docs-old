@@ -39,17 +39,24 @@ Each Rocket.Chat release supports different versions of MongoDB, the table below
 
 The ecosystem of browsers has been, and still is, an ever evolving field of change. Since the rate of change is tremendous, we also have to limit the support to recent browsers. We're usually quite good with that but some older browsers just don't support some features that we build upon. That is why we limit or support for browsers in the following way:
 
-- We support the latest 2 versions of each browser
-- We do not support or work around bugs in browsers that are not supported anymore by their developers
+We support the following desktop browsers and versions:
+| Browser                     | Supported Versions  |
+|-----------------------------|---------------------|
+| Google Chrome               | Latest 3 versions   |
+| Mozilla Firefox             | Latest 3 versions   |
+| Apple Safari                | Latest 2 versions   |
+| Microsoft Edge              | Latest 2 versions   |
+| Microsoft Internet Explorer | Latest version only |
 
-There may be small exceptions in rare cases but the above is the general rule.
+> There may be small exceptions in rare cases.
 
 That being said, here's how you can find out if **your** browser version is still supported (all lists include an indication if a specific browser version is still supported or not):
 
 - [Version history of Mozilla Firefox](https://en.wikipedia.org/wiki/Firefox_version_history)
 - [Version history of Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome_version_history)
-- [Version history of Microsoft Internet Explorer](https://en.wikipedia.org/wiki/Internet_Explorer_version_history)
 - [Version history of Apple Safari](https://en.wikipedia.org/wiki/Safari_version_history)
+- [Version history of Microsoft Edge](https://en.wikipedia.org/wiki/Microsoft_Edge#Release_history)
+- [Version history of Microsoft Internet Explorer](https://en.wikipedia.org/wiki/Internet_Explorer_version_history)
 
 ## Community support
 
