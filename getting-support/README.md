@@ -6,9 +6,34 @@ The following paragraphs will tell you about limits of the support the core team
 
 ## Supported versions of Rocket.Chat
 
-As of now, only the [latest stable](https://rocket.chat/download) version of Rocket.Chat is supported. This means that you should always update to latest stable before reporting any bugs or before you ask the community.
+> Always update to latest stable version before reporting any bugs or before ask the community.
 
-In case of security-relevant bugs we might decide to backport patches to older releases on a case-by-case basis. Please understand though, that those will be rare exceptions. If you want to play it safe, upgrade to latest stable.
+> In case of security-relevant bugs we might decide to backport patches to older releases on a case-by-case basis. Please understand though, that those will be rare exceptions. If you want to play it safe, upgrade to latest stable.
+
+Rocket.Chat provides Support for, at least, 3 months for each release. Rocket.Chat provides Support for 6 months to latest releases of each major version, e.g. 1.3 is the latest release of major version 1.x before major version 2.0. Rocket.Chat may provide a longer period of support depending on the necessity, check the table below verify the final support date of each release version.
+
+> Rocket.Chat only provides support for version 1.x or later.
+
+| Release             | Release Date  | End of Life Date |
+|---------------------|---------------|------------------|
+| Rocket.Chat 1.0     | April 2019    | July 2019        |
+| Rocket.Chat 1.1     | May 2019      | August 2019      |
+| Rocket.Chat 1.2     | June 2019     | September 2019   |
+| **Rocket.Chat 1.3** | **July 2019** | **January 2020** |
+| Rocket.Chat 2.0     | August 2019   | TBD              |
+
+## Supported versions of MongoDB
+
+Each Rocket.Chat release supports different versions of MongoDB, the table below presents the support of MongoDB versions for each major Rocket.Chat release in addition of the deprecated version that will be removed on next or nexts versions.
+
+> Rocket.Chat only adds or removes support of MongoDB versions on major releases so the minor versions are ommited on table below.
+
+| Release       | MongoDB Supported Versions | MongoDB Deprecated Version |
+|---------------|----------------------------|----------------------------|
+| Rocket.Chat 1 | 3.2, 3.4, 3.6, 4.0         | 3.2                        |
+| Rocket.Chat 2 | 3.4, 3.6, 4.0              | 3.4                        |
+
+> It's possible to bypass the MongoDB version check by using the environment variable `BYPASS_MONGO_VALIDATION=true`. Bare in mind that this work around should be used only when extrictly necessary and may prevent some functionalities to work propertly or even prevent the server to start.
 
 ## Supported browser versions
 
