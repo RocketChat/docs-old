@@ -35,7 +35,7 @@ Make sure to use a valid `JSON` where `keys` are the `field names` containing a 
 
 In this example we are setting two new fields, we will go over each proadressperty of these fields:
 
-- **type**: This defines the type of the field, currently we have 2 types: `select` and `text`. Where `select` creates a dropdown list and `text` creates a plain text form. If you put a url into the text field it will be interpreted as hyperlink (it will be clickable).
+- **type**: This defines the type of the field, currently we have 2 types: `select` and `text`. Where `select` creates a dropdown list and `text` creates a plain text form. If you put a url into the text field, it will be interpreted as hyperlink (it will be clickable in the userinfo tab).
 
 - **defaultValue**: This is to be used with a `select` form type. This sets the default option for the list.
 
