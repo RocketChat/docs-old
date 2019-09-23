@@ -15,7 +15,7 @@ This guide covers the following:
 5. [Configure Nginx with TLS/SSL](#5-configure-nginx-web-server-with-tlsssl)
 6. [Install Docker & Docker Compose](#6-install-docker--docker-compose)
 7. [Set up Docker Containers](#7-set-up-docker-containers)
-8. [Automatic start with Upstart](#8-automatic-start--restarting-with-upstart)
+8. [Automatic start & restarting with Systemd](#8-automatic-start--restarting-with-systemd)
 9. [Use it!](#9-use-it)
 
 ### 1. Launch an EC2 instance
