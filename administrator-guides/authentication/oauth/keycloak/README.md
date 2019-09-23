@@ -46,5 +46,30 @@ Now logout from Rocket.Chat to view the keycloak based login option visible in t
 
 ![Key Cloak Federation][Key Cloak Federation]
 
+## Mapping non-federated keycloak user roles to Rocket.Chat roles
+
+This section documents how client-specific roles of keycloak managed user can be mapped to Rocket.Chat roles. This does not work for federated users (e.g. LDAP managed users).
+
+For this example, we map the `admin` and `livechat-manager` role, as documented in [Permissions](https://rocket.chat/docs/administrator-guides/permissions/).
+
+First we add the required roles to the client
+
+![Client Roles Configurations][Client Roles Configurations]
+
+then we have to add a mapper entry, that maps our client roles to OpenId, passing the value to Rocket.Chat
+
+![Client Roles Mapper Roles][Client Roles Mapper Roles]
+
+Now in order to grant the Rocket.Chat role to a user, we have to modify the users Role Mappings.
+
+![User Role Mapping][User Role Mapping]
+
+The roles are only synced on first login, and not being refreshed on each login.
+Please see the [bug report](https://github.com/RocketChat/Rocket.Chat/issues/15225) for
+current state.
+
 [Client Configurations]: client_configurations.png
 [Key Cloak Federation]: keycloak_federation.png
+[Client Roles Configurations]: client_roles_configurations.png
+[Client Roles Mapper Roles]: client_roles_mapper_roles.png
+[User Role Mapping]: user_role_mapping.png

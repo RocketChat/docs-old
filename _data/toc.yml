@@ -146,7 +146,6 @@
     - NextCloud and WebDAV
     - NewRelic
     - nixstats
-    - Osticket
     - PagerDuty
     - Prometheus
     - ReviewBoard
@@ -200,11 +199,6 @@
       - Supporting SSL
     - Developing Apps:
       - Getting Started
-    - GraphQL API:
-       - Authentication
-       - Schema
-       - Setup
-       - Subscription
     - Realtime-API:
       - Method Calls:
         - Login
@@ -264,11 +258,16 @@
         - logout
         - me
         - twitter
+      - AutoTranslate:
+        - getSupportedLanguages
+        - saveSettings
+        - translateMessage
       - Channels:
         - addAll
         - AddLeader
         - addModerator
         - addOwner
+        - anonymousread
         - archive
         - close
         - counters
@@ -419,6 +418,7 @@
         - create
         - list
         - addUserToRole
+        - getUsersInRole
       - Push:
         - push.token
         - deletePushToken
@@ -483,6 +483,7 @@
       - Themes
 - Bots:
   - Bots Architecture
+  - Create a Bot
   - Creating Bot Users
   - Configure Bot Environment
   - Running a bBot Bot

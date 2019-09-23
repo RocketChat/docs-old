@@ -53,7 +53,7 @@ server {
         proxy_set_header Host $http_host;
 
         proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forward-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forward-Proto http;
         proxy_set_header X-Nginx-Proxy true;
 
@@ -172,3 +172,7 @@ your_domain.com {
         }
 }
 ```
+
+## Multi Instance Nginx reverse proxy
+
+Here is a link to a [Nginx multi instance reverse proxy example] (../../installation/manual-installation/multiple-instances-to-improve-performance)
