@@ -8,7 +8,7 @@ The following paragraphs will tell you about limits of the support the core team
 
 > In case of security-relevant bugs we might decide to backport patches to older releases on a case-by-case basis. Please understand though, that those will be rare exceptions. If you want to play it safe, upgrade to latest stable.
 
-Rocket.Chat provides Support for, at least, 3 months for each release. Rocket.Chat provides Support for 6 months to latest releases of each major version, e.g. 1.3 is the latest release of major version 1.x before major version 2.0. Rocket.Chat may provide a longer period of support depending on the necessity, check the table below verify the final support date of each release version.
+Rocket.Chat provides Support for, at least, 3 months for each release. Rocket.Chat provides Support for 6 months to latest releases of each major version, e.g. 1.3 is the latest release of major version 1.x before major version 2.0. Rocket.Chat may provide a longer period of support depending on the necessity, check the table below to verify the final support date of each release version.
 
 > Rocket.Chat only provides support for version 1.x or later.
 
