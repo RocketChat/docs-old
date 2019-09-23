@@ -20,7 +20,7 @@ Rocket.Chat provides Support for, at least, 3 months for each release. Rocket.Ch
 | **Rocket.Chat 1.3** | **July 2019** | **January 2020** |
 | Rocket.Chat 2.0     | August 2019   | TBD              |
 
-> Always update to latest stable version before reporting any bugs or before ask the community.
+> Always update to latest stable version before reporting any bugs or before ask for help from community.
 
 ## Supported versions of MongoDB
 
