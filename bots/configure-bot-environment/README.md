@@ -1,8 +1,8 @@
 # Configure bot environments
 
 Regardless of bot type (e.g. Hubot, Botkit, Rasa, etc.), Rocket.Chat SDK requires you to make some configuration.
-This configuration can be stored in an `.env` file, for local development, for example.
-In production they would need to be set on server startup.
+This configuration can be stored in a `.env` file, for local development, for example.
+In production, they would need to be set on server startup.
 
 The following is the list of all the environmental variables you can use in your project. Variables marked with an asterisk (`*`) are mandatory.
 
@@ -34,7 +34,7 @@ Environment Variable | Description
 
 ## Common set of variables
 
-Nost of the bots you create will listen and respond to direct messages and all new public channels and
+Most of the bots you create will listen and respond to direct messages and all new public channels and
 private groups:
 
 - `RESPOND_TO_DM=true`
