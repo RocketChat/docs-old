@@ -28,10 +28,10 @@ Each Rocket.Chat release supports different versions of MongoDB, the table below
 
 > Rocket.Chat only adds or removes support of MongoDB versions on major releases so the minor versions are ommited on table below.
 
-| Release       | MongoDB Supported Versions | MongoDB Deprecated Version |
-|---------------|----------------------------|----------------------------|
-| Rocket.Chat 1 | 3.2, 3.4, 3.6, 4.0         | 3.2                        |
-| Rocket.Chat 2 | 3.4, 3.6, 4.0              | 3.4                        |
+| Release         | MongoDB Supported Versions | MongoDB Deprecated Version |
+|-----------------|----------------------------|----------------------------|
+| Rocket.Chat 1.x | 3.2, 3.4, 3.6, 4.0         | 3.2                        |
+| Rocket.Chat 2.x | 3.4, 3.6, 4.0              | 3.4                        |
 
 The upgrade guides avaiable from the official MongoDB documentation are listed bellow. Bare in mind that it's not possible to skip a version when upgrading, e.g. to upgrade from 3.2 to 3.6 it's necessary to upgrade from 3.2 to 3.4 first and than to 3.6.
 
