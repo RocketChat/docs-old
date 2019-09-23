@@ -16,8 +16,7 @@ This guide covers the following:
 6. [Install Docker & Docker Compose](#6-install-docker--docker-compose)
 7. [Set up Docker Containers](#7-set-up-docker-containers)
 8. [Automatic start with Upstart](#8-automatic-start--restarting-with-upstart)
-9. [Reboot & Test](#9-reboot--test)
-10. [Use it!](#10-use-it)
+9. [Use it!](#9-use-it)
 
 ### 1. Launch an EC2 instance
 
