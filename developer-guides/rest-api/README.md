@@ -57,7 +57,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 | Url                                           | Short Description                                               | Details Page                                 |
 | :-------------------------------------------- | :-------------------------------------------------------------- | :------------------------------------------- |
-| `/api/v1/users.presence`                        | Gets all connected users presence.                                          | [Link](users/presence/)                        |
+| `/api/v1/users.presence`                      | Gets all connected users presence.                              | [Link](users/presence/)                      |
 | `/api/v1/users.create`                        | Create a new user.                                              | [Link](users/create/)                        |
 | `/api/v1/users.createToken`                   | Create a user authentication token.                             | [Link](users/createtoken/)                   |
 | `/api/v1/users.delete`                        | Deletes an existing user.                                       | [Link](users/delete/)                        |
@@ -74,6 +74,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/users.regeneratePersonalAccessToken` | Regenerate a user personal access token.                        | [Link](users/regeneratepersonalaccesstoken/) |
 | `/api/v1/users.register`                      | Register a new user.                                            | [Link](users/register/)                      |
 | `/api/v1/users.removePersonalAccessToken`     | Remove a personal access token.                                 | [Link](users/removepersonalaccesstoken/)     |
+| `/api/v1/users.requestDataDownload`           | Request your personal data.                                     | [Link](users/requestdatadownload/)           |
 | `/api/v1/users.resetAvatar`                   | Reset a user's avatar                                           | [Link](users/resetavatar/)                   |
 | `/api/v1/users.setAvatar`                     | Set a user's avatar                                             | [Link](users/setavatar/)                     |
 | `/api/v1/users.setPreferences`                | Set user's preferences                                          | [Link](users/set-preferences/)               |

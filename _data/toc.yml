@@ -463,6 +463,7 @@
         - regeneratePersonalAccessToken
         - register
         - removePersonalAccessToken
+        - requestDataDownload
         - resetAvatar
         - setAvatar
         - set-preferences
