@@ -4,10 +4,11 @@
 
 ## What are bots in Rocket.Chat?
 
-Bots (or Chatbots) are pieces of software that provide automated messaging in a
-chat platform. They are useful for running pre-defined (scripted) interactions to provide
-support, conversational workflow or on-boarding with multi-channel, multi-user, public and
-private interactions. Bots can also be integrated with external services.
+Bots (or Chatbots) are pieces of software or software systems that provide automated messaging to a chat
+platform. They typically add value by integrating large external services such as CRM and big data sources.
+Bots provide a friendly conversational interface that users on chat platforms are already familiar with,
+which also brings simplicity to complex systems. Besides, bots add automation, natural language understanding,
+and machine learning possibilities.
 
 In Rocket.Chat, a bot is a special user account with the `bot` role and a specific set
 of permissions.
@@ -22,8 +23,8 @@ For more details, see the [Bots Architecture section](bots-architecture/#message
 
 ## How are bots hosted?
 
-Rocket.Chat supports bots that are hosted _outside_ of your Rocket.Chat instance.
-The working logic of these bots is defined by their provider.
+Like most chatbot platforms, Rocket.Chat supports bots that are hosted outside of your Rocket.Chat instance,
+running on an external server.
 
 For more details, see the [Bots Architecture section](bots-architecture/#bot-platforms-and-frameworks).
 
