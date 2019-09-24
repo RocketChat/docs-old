@@ -9,6 +9,7 @@ If you receive an alert that you have an invalid Site URL.  This means that some
 This usually happens when someone changes the setting.  To resolve this you will need to modify the site url.
 
 Setting the following environment variables will correct this issue:
+
 ```
 OVERWRITE_SETTING_Site_Url=https://the-address-you-use-to-access
 ROOT_URL=https://the-address-you-use-to-access
