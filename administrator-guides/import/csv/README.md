@@ -44,7 +44,7 @@ The `channels.csv` requires a **very** specific structure and layout. Each line 
 
 The `users.csv` is a file which contains the user details, each line containing a new user and the user details is:
 
-1. Username
+1. Username (must not contain @ and some other special characters)
 2. Email
 3. Name
 
@@ -75,3 +75,5 @@ Once you have that all set up and zipped, then you can start the import process.
 2. Choose your `.zip` file and wait until Rocket.Chat can read it (it can take a few minutes, depending on the size of the file)
 3. Deselect any items you **don't** want to import
 4. At the top of the page, click on Start Importing
+
+When you have problems during the Import, click on "View Logs" in the admin section to get the detailed error messages.
