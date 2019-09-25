@@ -92,7 +92,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | preview-c-room | Permission to preview public channels.
 | remove-closed-livechat-rooms | Permission to close livechat rooms. Requires view-livechat-rooms permission. Accessible from Livechat -> Current Chats.
 | remove-user | Permission to remove users from channels.
-| reset-other-user-e2e-key | Permission to set E2E key. See [End to End Encryption](https://rocket.chat/docs/user-guides/end-to-end-encryption/).
+| reset-other-user-e2e-key | Permission to set E2E key. See [End to End Encryption](../end-to-end-encryption/).
 | run-import | Permission to use the data importer tools. Must also be an admin. Accessible from Administration -> Import.
 | run-migration | Permission to run migrations.
 | save-others-livechat-room-info | Permission to add additional information to both the visitor and livechat rooms.

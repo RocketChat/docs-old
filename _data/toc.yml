@@ -92,11 +92,11 @@
   - Messaging
   - Channel Actions
   - Managing your Account
-  - End to End Encryption
   - Voice and Video Conferencing
   - Experimental App
 - Administrator guides:
   - Account Settings
+  - End to End Encryption
   - Authentication:
     - CAS
     - Ldap
