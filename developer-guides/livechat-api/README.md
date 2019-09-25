@@ -101,6 +101,24 @@ RocketChat(function() {
 });
 ```
 
+#### _Change widget visibility_
+
+You can either hide or show widget in your website. To hide widget use the following code.
+
+```javascript
+RocketChat(function() {
+    this.hideWidget();
+});
+```
+
+To show widget use the following code.
+
+```javascript
+RocketChat(function() {
+    this.showWidget();
+});
+```
+
 ### Events
 
 #### _onChatMaximized_
@@ -185,6 +203,19 @@ RocketChat(function() {
 });
 ```
 
+#### _onWidgetHidden_
+
+Fired when widget is hidden.
+
+```javascript
+RocketChat(function() {
+    this.onWidgetHidden(function(data) {
+        // do whatever you want
+        console.log('chat widget hidden');
+    });
+});
+```
+
 #### _onAssignAgent_
 
 Fired when an agent is assigned to the chat.
@@ -196,6 +227,19 @@ RocketChat(function() {
 
         // do whatever you want
         console.log('Agent assigned');
+    });
+});
+```
+
+#### _onWidgetShown_
+
+Fired when widget is shown.
+
+```javascript
+RocketChat(function() {
+    this.onWidgetShown(function(data) {
+        // do whatever you want
+        console.log('chat widget shown');
     });
 });
 ```
@@ -220,6 +264,8 @@ RocketChat(function() {
 | Version | Description                                                                                                                                            |
 | :------ | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1.3.0   | Added `onAssignAgent` and `onAgentStatusChange` methods. |
+| 1.1.0   | Added `showWidget` and `hideWidget` methods along with `onWidgetHidden` and `onWidgetShown` events|
+| 1.0.0   | Added `setLanguage` method |
 | 1.0.0   | Added `setLanguage` methods |
 | 0.66.0  | Added `setGuestToken`, `setGuestName`, `setGuestEmail` and `registerGuest` methods.                                                                    |
 | 0.53.0  | Added callback events and the ability to pass a flag to `setCustomField` so the value passed does not get wrote if there is already an existing value. |
