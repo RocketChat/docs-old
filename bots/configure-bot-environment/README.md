@@ -1,10 +1,10 @@
 # Configure bot environments
 
-Regardless of bot type (e.g. Hubot, Botkit, Rasa, etc.), Rocket.Chat SDK requires you to make some configuration.
+Regardless of bot type (e.g. Hubot, Botkit, Rasa, etc.), the Rocket.Chat SDK requires you to create a configuration with some variables for your environment.
 This configuration can be stored in a `.env` file, for local development, for example.
 In production, they would need to be set on server startup.
 
-The following is the list of all the environmental variables you can use in your project. Variables marked with an asterisk (`*`) are mandatory.
+The following is a list of all the environmental variables you can use in your project. Variables marked with an asterisk (`*`) are mandatory.
 
 Environment Variable | Description
 :---- | :----
@@ -15,6 +15,7 @@ Environment Variable | Description
 `ROCKETCHAT_PASSWORD` *| The bot user's password.
 `LISTEN_ON_ALL_PUBLIC` | Stream callbacks receive messages from all public channels (true/false). Default: `false` (only rooms the bot has joined).
 `ROCKETCHAT_ROOM`      | Stream callbacks receive messages from the listed channel name/s. Default: `GENERAL`. Accepts a comma separated list. Allows the bot to listen and respond to messages _from all newly created private groups_ where the bot's user has been added as a member. Should be empty if `LISTEN_ON_ALL_PUBLIC=true`
+**Responding to channels and DMS** |
 `RESPOND_TO_LIVECHAT`  | Stream callbacks receive messages from Livechat (true/false). Default: `false`.
 `RESPOND_TO_DM`        | Stream callbacks receive DMs with bot (true/false). Default: `false`.
 `RESPOND_TO_EDITED`    | Stream callbacks receive edited messages (true/false). Default: `false`.
@@ -34,8 +35,8 @@ Environment Variable | Description
 
 ## Common set of variables
 
-Most of the bots you create will listen and respond to direct messages and all new public channels and
-private groups:
+The common set for the majority of bots is to listen and respond to direct messages and all new public
+channels and private groups:
 
 - `RESPOND_TO_DM=true`
 - `LISTEN_ON_ALL_PUBLIC=true`

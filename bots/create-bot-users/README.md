@@ -1,10 +1,14 @@
-# Create Bot Users
+# Create a Bot User
 
 In order to talk to your chatbot there must be a bot user pre-configured on the Rocket.Chat server.
 
 ## Create a User on the Server
 
-An admin user is required to create the account for the bot to login to.
+An admin user is required to create a special user account which the bot will use
+to login and listen for messages or send messages.
+
+You must login to your Rocket.Chat server as an Admin user and then create a
+new user:
 
 1. From **Administration** > **Users** menu
 2. Select `+` to make a new user
