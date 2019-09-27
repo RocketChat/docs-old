@@ -102,7 +102,7 @@ Use the following symbols to format text as desired:
 
 * Bold: `*Lorem ipsum dolor*`
 * Italic: `_Lorem ipsum dolor_`
-* Strike: `~Lorem ipsum dolor~` ;
+* Strike: `~Lorem ipsum dolor~`
 * Inline code: `` `Lorem ipsum dolor` ``
 * Image: `![Alt text](https://rocket.chat/favicon.ico)`
 * Link: `[Lorem ipsum dolor](https://www.rocket.chat/)` or `<https://www.rocket.chat/ |Lorem ipsum dolor>`
