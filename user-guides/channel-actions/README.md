@@ -18,7 +18,7 @@ Favoriting a channel moves it to a **Favorites** section on the channels list, m
 
 ## Channel Info
 
-Here you can see all kinds of information about the current channel. If you have admin permissions, you can edit the following:
+Here you can see all kinds of information about the current channel. If you admin permissions, you can edit this information. These are the channel info options:
 
 - __Channel Name__: The name of the channel, how users see the title and find the channel via search.
 
