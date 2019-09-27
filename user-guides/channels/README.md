@@ -87,10 +87,12 @@ A pop-up opens.  You can set the name of that channel, choose if the channel is 
 
 In read-only channels, messages can only be sent by users with write permissions. All users can react to messages in this channel. Read-only channels are most suitable for announcements and voting.
 
-
 Broadcasted channels behave like read-only channels, with only users with the right permission being able to post there. The differences to a read-only channel are:
 
 - Users without permission (the same one to post on read-only channels) inside this channel won't be able to see each other in the user list.
+
 - Users without permission won't be able to react to messages.
+
 - Every message contains a reply button that redirects the user to a direct message with the user that posted the message.
+
 - This channel cannot be converted to a read-only or open channel again.

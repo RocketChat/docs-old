@@ -1,6 +1,6 @@
 # Channel Actions
 
-Inside channels, you can also do more than post messages and upload files. Increase your interaction with messages through Channel actions.  
+Inside channels, you can also do more than post messages and upload files. Increase your interaction with messages through Channel actions.
 
 ## Find channel actions
 
@@ -51,7 +51,8 @@ You can use these commands before or after entering search terms:
 - `from:me` to search for messages only created by the current user.
 
 - `from:user.name` to search for messages created by a specific user. The username entered must be the format without spaces (i.e., "john.doe" and not "John Doe.") Search for any mentions of a user by searching for their username.
-`has:star` returns messages that are starred by the current user.
+
+- `has:star` returns messages that are starred by the current user.
 
 - `is:pinned` or `has:pin` returns messages that pin in the current channel.
 
@@ -61,10 +62,12 @@ You can use these commands before or after entering search terms:
 
 - `before:dd/mm/yyyy`, `after:dd/mm/yyyy` and `on:dd/mm/yyyy` return message that were created before, after, or on the provided date.
 
-		Dashes `dd-mm-yyyy` or dots `dd.mm.yyyy` can be used instead of slashes.
-`order:asc`, `order:ascend`, or `order:ascending` sorts messages by ascending timestamp.
+    Dashes `dd-mm-yyyy` or dots `dd.mm.yyyy` can be used instead of slashes.
+
+- `order:asc`, `order:ascend`, or `order:ascending` sorts messages by ascending timestamp.
 
 - `order:desc`, `order:descend`, or `order:descending` sorts messages by descending timestamp.
+
 		You can also jump to where a message is located by hovering the mouse over the search result and selecting `jump to message.`
 
 ### Regex
