@@ -88,6 +88,7 @@ To insert an emoji, click the **smiley face icon** in the message box. Browse th
 You can also insert emojis by inputting an [emoji code](https://www.webfx.com/tools/emoji-cheat-sheet/).
 
 ### Emoticons
+
 Rocket.Chat changes common emoticons, or symbols used to represent emoji, to the equivalent emoji. For example, `:)` converts to the `:smiley:` emoji.
 
 ### Disabling emojis
