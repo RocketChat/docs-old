@@ -4,6 +4,7 @@ If you are a server administrator, here are a few guides on how to setup your in
 
 - [Account Settings](account-settings/)
 - [Authentication](authentication/)
+- [End to End Encryption](end-to-end-encryption/)
 - [Custom Emoji](custom-emoji/)
 - [Custom Fields](custom-fields/)
 - [Custom Sounds](custom-sounds/)
