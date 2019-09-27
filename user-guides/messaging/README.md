@@ -20,7 +20,7 @@ To get the attention of a specific team member in a channel, type `@` followed b
 
 You can also notify everyone in a channel by typing `@all`. We recommend using `@all` sparingly. Although notifying everyone in the channel is useful for announcements, not every message requires this.
 
-## Sending attachments
+## Send attachments
 
 You can send a variety of attachments on your messages, like files, audio, links, videos, and many more.
 
