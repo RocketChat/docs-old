@@ -179,6 +179,7 @@
   - Retention Policies
   - Settings Via Env Vars
   - Youtube Broadcasting
+  - Troubleshooting
 - Developer guides:
     - Quick Start
     - Branches and Releases
@@ -199,11 +200,6 @@
       - Supporting SSL
     - Developing Apps:
       - Getting Started
-    - GraphQL API:
-       - Authentication
-       - Schema
-       - Setup
-       - Subscription
     - Realtime-API:
       - Method Calls:
         - Login
