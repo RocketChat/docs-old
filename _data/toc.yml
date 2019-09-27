@@ -179,6 +179,7 @@
   - Retention Policies
   - Settings Via Env Vars
   - Youtube Broadcasting
+  - Troubleshooting
 - Developer guides:
     - Quick Start
     - Branches and Releases
@@ -483,9 +484,8 @@
       - Themes
 - Bots:
   - Bots Architecture
-  - Create a Bot
-  - Creating Bot Users
   - Configure Bot Environment
+  - Create and run a Bot
   - Running a bBot Bot
   - Running a Hubot Bot
   - Running a Botkit Bot

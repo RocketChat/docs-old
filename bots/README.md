@@ -4,10 +4,11 @@
 
 ## What are bots in Rocket.Chat?
 
-Bots (or Chatbots) are pieces of software that provide automated messaging in a
-chat platform. They are useful for running pre-defined (scripted) interactions to provide
-support, conversational workflow or on-boarding with multi-channel, multi-user, public and
-private interactions. Bots can also be integrated with external services.
+Bots (or Chatbots) are pieces of software or software systems that provide automated messaging to a chat
+platform. They typically add value by integrating large external services such as CRM and big data sources.
+Bots provide a friendly conversational interface that users on chat platforms are already familiar with,
+which also brings simplicity to complex systems. Besides, bots add automation, natural language understanding,
+and machine learning possibilities.
 
 In Rocket.Chat, a bot is a special user account with the `bot` role and a specific set
 of permissions.
@@ -22,8 +23,8 @@ For more details, see the [Bots Architecture section](bots-architecture/#message
 
 ## How are bots hosted?
 
-Rocket.Chat supports bots that are hosted _outside_ of your Rocket.Chat instance.
-The working logic of these bots is defined by their provider.
+Like most chatbot platforms, Rocket.Chat supports bots that are hosted outside of your Rocket.Chat instance,
+running on an external server.
 
 For more details, see the [Bots Architecture section](bots-architecture/#bot-platforms-and-frameworks).
 
@@ -31,7 +32,7 @@ For more details, see the [Bots Architecture section](bots-architecture/#bot-pla
 
 These are the basic steps for using bots with Rocket.Chat:
 
-1. A bot user is [created by an admin](creating-bot-users/) on the server;
+1. A bot user is [created by an admin](create-and-run-a-bot/) on the server;
 2. The bot is running as [a separate process](bots-architecture/) using your chosen framework or platform;
 3. The bot environment is pre-configured with [environment variables](configure-bot-environment/);
 4. The bot's behavior is defined via scripts according to the requirements of your framework. For example, check the details on how to [run a bBot bot](running-a-bbot-bot/).
@@ -42,8 +43,8 @@ Get yourself familiar with [Bots Architecture](bots-architecture/).
 
 ## Quick Links
 
-- [Creating Bot Users](creating-bot-users/)
-- [Configuring the Bot Environment](configure-bot-environment/)
+- [Configure the Bot Environment](configure-bot-environment/)
+- [Create a Bot](create-and-run-a-bot/)
 - [Running a bBot Bot](running-a-bbot-bot/)
 - [Running a Hubot Bot](running-a-hubot-bot/)
 - [Running a Botkit Bot](running-a-botkit-bot/)
