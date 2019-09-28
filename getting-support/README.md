@@ -10,17 +10,24 @@ The following paragraphs will tell you about limits of the support the core team
 
 Rocket.Chat provides Support for, at least, 3 months for each release. Rocket.Chat provides Support for 6 months to latest releases of each major version, e.g. 1.3 is the latest release of major version 1.x before major version 2.0. Rocket.Chat may provide a longer period of support depending on the necessity, check the table below to verify the final support date of each release version.
 
+By "Support" we mean that Rocket.Chat will provide only security fixes and answer support tickets related to configuration and usage for the versions listed below. Bugs not related to security issues will be fixed only in new versions.
+
 > Rocket.Chat only provides support for version 1.x or later.
 
-| Release             | Release Date  | End of Life Date |
-|---------------------|---------------|------------------|
-| Rocket.Chat 1.0     | April 2019    | July 2019        |
-| Rocket.Chat 1.1     | May 2019      | August 2019      |
-| Rocket.Chat 1.2     | June 2019     | September 2019   |
-| **Rocket.Chat 1.3** | **July 2019** | **January 2020** |
-| Rocket.Chat 2.0     | August 2019   | TBD              |
+| Release             | Release Date   | End of Life Date |
+|---------------------|----------------|------------------|
+| Rocket.Chat 1.0     | April 2019     | July 2019        |
+| Rocket.Chat 1.1     | May 2019       | August 2019      |
+| Rocket.Chat 1.2     | June 2019      | September 2019   |
+| **Rocket.Chat 1.3** | **July 2019**  | **January 2020** |
+| Rocket.Chat 2.0     | August 2019    | November 2019    |
+| Rocket.Chat 2.1     | September 2019 | TBD              |
 
 > Always update to latest stable version before reporting any bugs or before ask for help from community.
+
+### Cloud users
+
+Rocket.Chat manages upgrades and provides support to Rocket.Chat Cloud users regardless of the release version. If a Rocket.Chat Cloud user with an outdated server version sends in a support request, his server might be upgraded to the latest stable version without acknowledgement to ensure best performance.
 
 ## Supported versions of MongoDB
 
@@ -46,6 +53,7 @@ The upgrade guides avaiable from the official MongoDB documentation are listed b
 The ecosystem of browsers has been, and still is, an ever evolving field of change. Since the rate of change is tremendous, we also have to limit the support to recent browsers. We're usually quite good with that but some older browsers just don't support some features that we build upon. That is why we limit or support for browsers in the following way:
 
 We support the following desktop browsers and versions:
+
 | Browser                     | Supported Versions  |
 |-----------------------------|---------------------|
 | Google Chrome               | Latest 3 versions   |
