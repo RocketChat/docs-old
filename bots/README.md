@@ -46,7 +46,7 @@ Get yourself familiar with [Bots Architecture](bots-architecture/).
 - [Configure the Bot Environment](configure-bot-environment/)
 - [Create a Bot](create-and-run-a-bot/)
 - [Running a bBot Bot](running-a-bbot-bot/)
-- [Running a Hubot Bot](running-a-hubot-bot/)
+- [Running a Hubot Bot](create-and-run-a-bot/hubot-bot/)
 - [Running a Botkit Bot](running-a-botkit-bot/)
 - [Running a Rasa Bot](running-a-rasa-bot/)
 - [Running a Botpress Bot](running-a-botpress-bot/)
