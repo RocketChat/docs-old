@@ -125,6 +125,14 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | :------- | :------------------ | :------- | :-------------------- |
 | `_id`    | `SQafHvoFPuB57NmBD` | Required | The department `_id`. |
 
+## Query Parameter
+
+| Argument           | Example             | Required                 | Description                   |
+| :----------------- | :------------------ | :----------------------- | :---------------------------- |
+| `includeAgents`    | `true`              | Optional(default **true**) | If agents should be included. |
+
+**Note:** The `agents` field will only be returned if the user has the `view-livechat-departments` permission.
+
 ## Example Call
 
 ```bash
@@ -165,6 +173,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :------ | :---------- |
+| 2.2.0   | Added  `includeAgents` query parameter  |
 | 0.42.0  | Added       |
 
 ## Update a department
