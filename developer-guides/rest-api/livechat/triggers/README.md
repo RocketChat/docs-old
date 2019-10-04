@@ -16,7 +16,6 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      http://localhost:3000/api/v1/livechat/triggers
 ```
 
-
 ## Example Result
 
 ```json
@@ -59,7 +58,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | :------ | :---------- |
 | 2.2.0   | Added       |
 
-## Get a Livechat Trigger 
+## Get a Livechat Trigger
 
 Get a Livechat Trigger by id.
 
@@ -74,7 +73,6 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      http://localhost:3000/api/v1/livechat/triggers/Lk52shJFYyb55trw8
 ```
-
 
 ## Example Result
 
