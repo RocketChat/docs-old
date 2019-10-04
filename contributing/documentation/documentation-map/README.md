@@ -395,6 +395,7 @@ Here you can also find what articles are incomplete and missing.
             - inquiries.list
             - inquiries.take
             - message
+            - office-hours
             - room
             - rooms
             - sms-incoming

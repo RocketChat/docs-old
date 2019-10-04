@@ -400,6 +400,7 @@
         - inquiries.list
         - inquiries.take
         - message
+        - office-hours
         - room
         - rooms
         - sms-incoming
