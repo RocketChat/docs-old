@@ -403,6 +403,7 @@
         - room
         - rooms
         - sms-incoming
+        - triggers
         - users
         - video-call
         - visitor
