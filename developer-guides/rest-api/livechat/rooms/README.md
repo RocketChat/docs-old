@@ -100,3 +100,90 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | Version | Description |
 | :--- | :--- |
 | 2.0.0 | Added |
+
+## Get a Livechat Room
+
+Get a Livechat Room
+
+| URL | Requires Auth | HTTP Method |
+| :--- | :--- | :--- |
+| `/api/v1/livechat/rooms/_id` | `yes` | `GET` |
+
+## Url Parameters
+
+| Argument | Example | Required | Description |
+| :--- | :--- | :--- | :--- |
+| `_id` | `b32h3b2hhwb25d` | Required | The Room's Id |
+
+## Example Call
+
+```bash
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
+     -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+     http://localhost:3000/api/v1/livechat/rooms/b32h3b2hhwb25d
+```
+
+## Example Result
+
+```json
+{
+    "room": {
+        "_id": "qhDYCAG9PTLfgtyB6",
+        "msgs": 3,
+        "usersCount": 2,
+        "lm": "2019-10-01T17:11:59.409Z",
+        "fname": "Marcos Defendi",
+        "t": "l",
+        "ts": "2019-10-01T17:11:58.657Z",
+        "v": {
+            "_id": "5Py4hbXCiyiBPkcmA",
+            "username": "guest-2",
+            "token": "er106l4rwmqmj9loelswh",
+            "status": "offline"
+        },
+        "cl": false,
+        "waitingResponse": true,
+        "_updatedAt": "2019-10-01T18:13:17.495Z",
+        "servedBy": {
+            "_id": "bp9s6p76ocZ9QCkbz",
+            "username": "marcos",
+            "ts": "2019-10-01T17:11:58.733Z"
+        },
+        "lastMessage": {
+            "_id": "uZnAP6NGo9yihBk5j",
+            "rid": "qhDYCAG9PTLfgtyB6",
+            "msg": "ds",
+            "token": "er106l4rwmqmj9loelswh",
+            "alias": "Marcos Defendi",
+            "ts": "2019-10-01T17:11:59.409Z",
+            "u": {
+                "_id": "5Py4hbXCiyiBPkcmA",
+                "username": "guest-2",
+                "name": "Marcos Defendi"
+            },
+            "_updatedAt": "2019-10-01T17:11:59.498Z",
+            "mentions": [],
+            "channels": []
+        },
+        "metrics": {
+            "v": {
+                "lq": "2019-10-01T17:11:59.409Z"
+            },
+            "chatDuration": 3678.74
+        },
+        "closedAt": "2019-10-01T18:13:17.397Z",
+        "closedBy": {
+            "_id": "5Py4hbXCiyiBPkcmA",
+            "username": "guest-2"
+        },
+        "closer": "visitor"
+    },
+    "success": true
+}
+```
+
+## Change Log
+
+| Version | Description |
+| :--- | :--- |
+| 2.2.0 | Added |
