@@ -25,9 +25,24 @@ By "Support" we mean that Rocket.Chat will provide only security fixes and answe
 
 > Always update to latest stable version before reporting any bugs or before ask for help from community.
 
-### Cloud users
+### Rocket.Chat Cloud customers
 
 Rocket.Chat manages upgrades and provides support to Rocket.Chat Cloud users regardless of the release version. If a Rocket.Chat Cloud user with an outdated server version sends in a support request, his server might be upgraded to the latest stable version without acknowledgement to ensure best performance.
+
+### Rocket.Chat Services
+
+Rocket.Chat Services include services such as our push gateway, marketplace, and other services managed by Rocket.Chat.
+
+October 1st our services will no longer continue to guarantee support for Rocket.Chat 0.x. After this date you may receive errors or warnings about incompatibility.
+
+3 months after a new major release, e.g. 2.x, the last major release, e.g. 1.x, will have the Services support deprecated and you may receive warnings about the deprecation.
+5 months after the deprecation the support will be removed and you may receive errors and warnings about incompatibility.
+
+| Release         | Cloud Service Support Deprecation | Cloud Service Support End of Life |
+|-----------------|-----------------------------------|-----------------------------------|
+| Rocket.Chat 0.x | August 2019                       | January 2020                      |
+| Rocket.Chat 1.x | November 2019                     | April 2020                        |
+| Rocket.Chat 2.x | TBD                               | TBD                               |
 
 ## Supported versions of MongoDB
 
