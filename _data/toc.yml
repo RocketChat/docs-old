@@ -310,6 +310,7 @@
         - delete
         - followMessage
         - getDeletedMessages
+        - getMentionedMessages
         - getMessage
         - getMessageReadReceipts
         - getPinnedMessages
