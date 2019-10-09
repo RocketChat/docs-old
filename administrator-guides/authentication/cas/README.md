@@ -2,7 +2,7 @@
 
 Central Authentication Service (CAS) allows users to use one set of credentials to sign into many sites. Rocket.Chat comes preloaded with an easy-to-use method of integration with an existing CAS server.
 
-## Setup
+## Set up
 
 These settings are in the `CAS` setting page under `Administration`.
 
@@ -10,7 +10,7 @@ These settings are in the `CAS` setting page under `Administration`.
 
 - SSO Base URL: `https://<<CAS_website_url>>/cas`
 
-The SSO Base URL should point towards the URL of the CAS service. If in doubt, navigate to the CAS service and remove 'login' (if existing) from the end of the URL.
+The SSO Base URL should point towards the URL of the CAS service. When in doubt, navigate to the CAS service and remove 'login' (if existing) from the end of the URL.
 
 - SSO Login URL: `https://<<CAS_website_url>>/cas/login`
 
