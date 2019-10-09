@@ -309,6 +309,7 @@ Here you can also find what articles are incomplete and missing.
             - getMessage
             - getMessageReadReceipts
             - getPinnedMessages
+            - getStarredMessages
             - getThreadMessages
             - getThreadsList
             - pinMessage
