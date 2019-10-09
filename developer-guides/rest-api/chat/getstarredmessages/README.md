@@ -25,25 +25,25 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```json
 {
     "messages": [
-		{
-			"_id": "ePeoiJQ3Qfc4556TW",
-			"rid": "GENERAL",
-			"msg": "fsdfs",
-			"ts": "2019-10-09T19:17:21.883Z",
-			"u": {
-				"_id": "rocketchat.internal.admin.test",
-				"username": "rocketchat.internal.admin.test",
-				"name": "RocketChat Internal Admin Test"
-			},
-			"_updatedAt": "2019-10-09T19:17:25.196Z",
-			"mentions": [],
-			"channels": [],
-			"starred": [
-				{
-				"_id": "rocketchat.internal.admin.test"
-				}
-			]
-		}
+        {
+            "_id": "ePeoiJQ3Qfc4556TW",
+            "rid": "GENERAL",
+            "msg": "fsdfs",
+            "ts": "2019-10-09T19:17:21.883Z",
+            "u": {
+                "_id": "rocketchat.internal.admin.test",
+                "username": "rocketchat.internal.admin.test",
+                "name": "RocketChat Internal Admin Test"
+            },
+            "_updatedAt": "2019-10-09T19:17:25.196Z",
+            "mentions": [],
+            "channels": [],
+            "starred": [
+                {
+                "_id": "rocketchat.internal.admin.test"
+                }
+            ]
+        }
     ],
     "count": 2,
     "offset": 0,
