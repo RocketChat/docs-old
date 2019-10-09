@@ -37,7 +37,7 @@ curl http://localhost:3000/api/v1/livechat/appearance
             "valueSource": "meteorSettingsValue",
             "meteorSettingsValue": ""
         }
-		// ...
+        // ...
     ],
     "success": true
 }
