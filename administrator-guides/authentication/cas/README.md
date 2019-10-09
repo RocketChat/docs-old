@@ -6,7 +6,7 @@ Central Authentication Service (CAS) allows users to use one set of credentials 
 
 These settings are in the `CAS` setting page under `Administration`.
 
-NOTE: CAS by ja-sig requires SSL/TLS for all connections.
+**NOTE**: CAS by ja-sig requires SSL/TLS for all connections.
 
 - SSO Base URL: `https://<<CAS_website_url>>/cas`
 
@@ -18,6 +18,6 @@ The SSO Login URL should point towards the CAS service login page. This is usual
 
 - CAS Version: `(1.0|2.0)`
 
-Select the CAS version used by your CAS provider, most modern providers use `CAS 2.0`
+Select the CAS version used by your CAS provider. Most modern providers use `CAS 2.0`
 
-NOTE: You may have to allow your Rocket.Chat site to connect to your CAS, so the best approach is to use the CAS Management Service.
+**NOTE**: You may have to allow your Rocket.Chat site to connect to your CAS, so the best approach is to use the CAS Management Service.
