@@ -305,6 +305,7 @@ Here you can also find what articles are incomplete and missing.
             - delete
             - followMessage
             - getDeletedMessages
+            - getMentionedMessages
             - getMessage
             - getMessageReadReceipts
             - getPinnedMessages
