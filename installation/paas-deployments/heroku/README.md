@@ -25,7 +25,7 @@ If not, please raise an issue.
 
 Prepare for updates:
 
-```
+```bash
 # create local repo pointing to the Heroku remote
 heroku git:clone --app YOUR_HEROKU_APPNAME && cd YOUR_HEROKU_APPNAME
 
@@ -35,7 +35,7 @@ git remote add origin https://github.com/RocketChat/Rocket.Chat
 
 From now on you can simply update your Heroku instance by running:
 
-```
+```bash
 cd YOUR_HEROKU_APPNAME
 git pull origin master # pull down the latest version from GitHub
 git push heroku master # push all updates back to your Heroku app instance
@@ -58,30 +58,36 @@ git clone https://github.com/RocketChat/Rocket.Chat
 
 Change into the `Rocket.Chat` directory, and create your Heroku app:
 
-```
-heroku apps:create  --addons mongolab:sandbox,logentries:le_tryit -b https://github.com/RocketChat/heroku-buildpack-meteor <your app name>
+```bash
+APP=<your app name> # Rocket.Chat will become accessible at https://<your app name>.herokuapp.com/
+heroku apps:create --addons mongolab:shared-cluster-1,logentries:le_tryit --region eu -b https://github.com/RocketChat/heroku-buildpack-meteor $APP
 ```
 
-Choose \<your app name> carefully, as your Rocket.Chat will then be accessible at:
-
-```
-https://<your app name>.herokuapp.com/
-```
+Omit the region switch if you want to create the Heroku app in the US region instead of the EU region.
+Note that this adds a paid mongolab addon (the cheapeast available) as RocketChat requires oplog tailing which isn't supported by the free mongolab addon.
 
 Next, you *MUST* set the ROOT_URL environment variable:
 
-```
-heroku config:add ROOT_URL=https://<your app name>.herokuapp.com/
+```bash
+heroku config:add ROOT_URL=https://$APP.herokuapp.com/ -a $APP
 ```
 
-If your app failed to start, check and make sure you have ROOT_URL set.
+Then you have to create a database user for accessing the oplog. Sign into your Heroku account, click on "Resources" and then on "mLab MongoDB" and follow these instructions: https://docs.mlab.com/oplog/#creating-a-database-user-to-access-the-oplog. Leave the default username `oplog-reader` and choose a database password without special characters (but make it long).
+
+Next provide the oplog URL to Rocket.Chat e.g.:
+
+```bash
+heroku config:add MONGO_OPLOG_URL=mongodb://oplog-reader:<dbpassword>@ds12345678-a0.mlab.com:12345,ds12345678-a1.mlab.com:12345/local?replicaSet=rs-ds12345678&authSource=admin -a $APP
+```
+
+Take care to provide the password you've chosen for the `oplog-reader` user instead of `<dbpassword>` and instead of `ds12345678` provide the cluster number which is listed in your mLab MongoDB dashboard.
 
 Heroku app deployment is triggered by git commits - to Heroku's repos, and not GitHub.
 
 You are almost ready to deploy and stage your own instance. But you must first wire up the git repos to Heroku.
 
 ```
-git remote add heroku https://git.heroku.com/<your app name>.git
+git remote add heroku https://git.heroku.com/$APP.git
 ```
 
 Finally, deploy and stage your app by:
@@ -93,23 +99,11 @@ git push heroku master
 Rocket.Chat should now be running.
 
 ### Got Problems
-
-- Set the repository as the buildpack URL:
-
-```
-heroku buildpacks:set https://github.com/AdmitHub/meteor-buildpack-horse.git
-```
-
-- Then try again
-
-```
-git push heroku master
-```
-
-- Still got problems, please raise an issue.
+* If you don't finish the oplog setup you will get an error message in the log: `Unable to find Mongodb Oplog. You must run the server with oplog enabled.`
+* If your app failed to start, also check and make sure you have `ROOT_URL` set.
+* Still got problems? Please raise an issue.
 
 ### Caveats
 
 - Heroku (actually CloudFoundry) uses custom buildpacks to stage applications. The buildpack used by Rocket.Chat can take a very long time to build - since it needs to download Meteor and build the server image every time.
-- You *must*  set the ROOT_URL environment variable, as shown above, otherwise the server side will crash.
 - If you are scaling to multi-dynos on Heroku, and you have clients/customers still using older browsers that do not support WebSocket, you need to be mindful of sticky session support (BETA) on Heroku - see [sticky sessions on Heroku](https://devcenter.heroku.com/articles/session-affinity).
