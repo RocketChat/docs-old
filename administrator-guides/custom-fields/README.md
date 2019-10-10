@@ -1,6 +1,6 @@
 # Custom fields
 
-In Rocket.Chat you can set customized fields for user registration. By adding a field `address` or `role`, where the user could select from various roles of a company, for example.
+In Rocket.Chat you can set customized fields for user registration. By adding an `address` or `role` field, where the user could select from various roles of a company, for example.
 
 **Note**: Currently you may need some basic understanding of Javascript, and Rocket.Chat's internal working structure to set other custom fields than in the example below. A more _user-friendly_ interface is planned for the future.
 
@@ -39,7 +39,7 @@ In the example above we set two new fields with the following properties:
 
 - **defaultValue**: used with a `select` form type to set the default option for the list.
 
-- **options**: used with a `select` form type for the values that should be on the dropdown list, which follows the pattern `["item1", "item2","item3"]`. Use a [javascript Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) to create it.
+- **options**: used with a `select` form type for the values that should be on the dropdown list, which follows the `["item1", "item2","item3"]` pattern. Use a [javascript Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) to create it.
 
 - **required**: defines if the field is required for registration; use `true` or `false` in this property.
 
@@ -55,6 +55,6 @@ In the example above we set two new fields with the following properties:
 
 - **public**: defines the field as visible for other users when looking at this user's profile.
 
-- **private**: defines the field as private, so only users with the permission `view-full-other-user-info` can see this field when viewing this user's profile.
+- **private**: defines the field as private, so only users with `view-full-other-user-info` permission can see this field when viewing this user's profile.
 
 **Note**: Fields work with `tabs` for indentation, avoid using `spaces`.
