@@ -1,21 +1,21 @@
 # Mailer
 
-You can send email to users inside your Rocket.Chat server using the __Mailer__ tool.
-The address from whom the email will be sent can be set by filling the __From__ field.
-By checking the __Dry Run__ option a email will be only sent to the address in __From__.
+Use the Mailer tool to send email to users inside your Rocket.Chat server.
 
-You can also filter to who the email will be sent by using a valid user __Query__ <!-- TODO: Create a page for Queries? --> on the __Query__ field.
+Use the `From` field to set the address to send the email. Check the `Dry Run`option to send the email only to the address defined in `From`. 
 
-Then you can write a subject and a body for the email. When writing the body you can add __Brackets__ to add dynamic data to the body.
+You can also filter who receives the email by using a valid user query <!-- TODO: Create a page for Queries? --> in the `Query` field.
 
-You can add the following brackets to the email body:
+Then, you can write a subject and a body for the email. When you write the body, add brackets to add dynamic data to the body.
 
-- `[unsubscribe]` This will create an unsubscribe link. The email body __must__ have a unsubscribe link.
+Add the following brackets to the email body:
 
-- `[name]` : This will get the full name of the user that is receiving the email;
+- `[unsubscribe]`: creates an unsubscribe link. The email body __must__ have an unsubscribe link.
 
-- `[fname]` : This will get the first name of the user that is receiving the email;
+- `[name]`: uses the full name of the user that receives the email
 
-- `[lname]` : This will get the last name of the user that is receiving the email;
+- `[fname]`: uses the first name of the user that receives the email
 
-- `[email]` : This will get the email address of the user that is receiving the email;
+- `[lname]`: uses the last name of the user that receives the email
+
+- `[email]`: uses the email address of the user that receives the email
