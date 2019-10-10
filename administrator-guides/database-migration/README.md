@@ -1,4 +1,4 @@
-# Database migration
+# Database Migration
 
 As features are added to Rocket.Chat, the database schema may change between versions.
 
