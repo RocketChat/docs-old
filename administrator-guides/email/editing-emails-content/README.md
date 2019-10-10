@@ -1,4 +1,4 @@
-# Edit Email Content
+# Edit your Email Content
 
 Almost all predefined emails sent to users in your Rocket.Chat server can be customized.
 
