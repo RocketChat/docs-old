@@ -7,6 +7,6 @@ There are several choices for file storage:
 - [Google Cloud Storage](google-cloud-storage/)
 - [WebDAV](webdav/)
 - [Minio](minio/) - Self-hosted S3 compatible object storage
-- Local file system
+- Local File System
 
 To change the system from the default GridFS, select the option you prefer from the `Storage Type` section.
