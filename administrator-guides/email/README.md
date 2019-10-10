@@ -2,7 +2,7 @@
 
 Here you find various Email settings and tools:
 
-- [Setup](setup/)
-- [Editing Emails Content](editing-emails-content/)
+- [Email configuration](setup/)
+- [Editing Emails content](editing-emails-content/)
 - [Mailer](mailer/)
-- [Direct Reply](direct-reply/)
+- [Direct reply](direct-reply/)
