@@ -11,7 +11,7 @@ To configure LDAP authentication, go to LDAP section of *Administration Settings
 
 Use the following configurations until more input fields are added to LDAP. These configurations are based on the assumptions above, replace them to reflect your environment.
 
-## Log on with username
+## Log on with Username
 
 - LDAP_Enable = True
 - LDAP_Dn = dc=domain,dc=com
@@ -27,7 +27,7 @@ If you need to auth users from subgroups in LDAP use this filter:
 
 `{"filter": "(&(objectCategory=person)(objectclass=user)(memberOf:1.2.840.113556.1.4.1941:=CN=ROCKET_ACCESS,CN=Users,DC=domain,DC=com)(sAMAccountName=#{username}))", "scope": "sub", "userDN": "rocket.service@domain.com", "password": "urpass"}`
 
-## Log on with email address
+## Log on with Email Address
 
 - LDAP_Enable = True
 - LDAP_Dn = dc=domain,dc=com
@@ -37,7 +37,7 @@ If you need to auth users from subgroups in LDAP use this filter:
 
 `{"filter": "(&(objectCategory=person)(objectclass=user)(memberOf=CN=ROCKET_ACCESS,CN=Users,DC=domain,DC=com)(mail=#{username}))", "scope": "sub", "userDN": "rocket.service@domain.com", "password": "urpass"}`
 
-## Log on with either email address or username:
+## Log on with Email Address or Username:
 
 - LDAP_Enable = True
 - LDAP_Dn = dc=domain,dc=com
