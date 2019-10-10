@@ -1,4 +1,4 @@
-# Custom fields
+# Custom Fields
 
 In Rocket.Chat you can set customized fields for user registration. By adding an `address` or `role` field, where the user could select from various roles of a company, for example.
 
