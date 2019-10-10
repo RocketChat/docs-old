@@ -26,7 +26,7 @@ These settings are in the `Accounts` setting page under `Administration`.
 
 - Callback URL: `<<website_url>>/_oauth/google?close`
 
-### Google Setup
+### Google Set up
 
 1. Go to the [Google Developer Console](https://console.developers.google.com), and create a new project
 2. Set up your project by creating an "OAuth 2.0 client ID" (under `APIs & Auth` and `Credentials`)
