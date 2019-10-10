@@ -1,6 +1,6 @@
 # Email
 
-Here you will find various settings and tools related to email
+Here you find various Email settings and tools:
 
 - [Setup](setup/)
 - [Editing Emails Content](editing-emails-content/)
