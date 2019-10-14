@@ -7,7 +7,7 @@ There are two ways to deploy Rocket.Chat to Heroku:
 - easy one click
 - customized command line
 
-Note mongolab's free sandbox plan does not support oplog tailing and from Rocket.Chat version 1 oplog tailing is required.
+**Note mongolab's free sandbox plan does not support oplog tailing. Starting with Rocket.Chat version 1 oplog tailing is required.**
 
 To add any service to an app, even if it is free, you will need to register a valid credit card with Heroku.  Rocket.Chat needs both mongolab and logenteries services.
 
@@ -19,7 +19,7 @@ Try clicking the button below, and either login or create a new account, then fo
 
 If everything goes well, you will have your own instance of Rocket.Chat running.
 
-If not, please raise an issue.
+If not, please visit our [community forums](https://forums.rocket.chat).
 
 ### Update existing One-Click Heroku Deployment
 
