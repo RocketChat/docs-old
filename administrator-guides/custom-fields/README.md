@@ -57,6 +57,6 @@ In this example we are setting two new fields, we will go over each proadressper
 
 - **private**: This defines the field as private, so only users with the permission `view-full-other-user-info` will be able to see this field when viewing that user profile.
 
-- **hideFromForm**: This defines the field as visible for editing in the registration form or profile form. Default `false`. 
+- **hideFromForm**: This defines the field as visible for editing in the registration form. Default `false`. 
 
 > Note: Please use `tabs` for indentation, if you use `spaces` for indentation the fields will not work.
