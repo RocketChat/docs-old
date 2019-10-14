@@ -1,8 +1,8 @@
 # Email
 
-Here you will find various settings and tools related to email
+Here you find various Email settings and tools:
 
-- [Setup](setup/)
-- [Editing Emails Content](editing-emails-content/)
+- [Email Configuration](setup/)
+- [Edit Email Content](editing-emails-content/)
 - [Mailer](mailer/)
-- [Direct Reply](direct-reply/)
+- [Direct Email Reply](direct-reply/)
