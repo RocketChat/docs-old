@@ -12,7 +12,7 @@ After entering a valid Rocket.Chat server address, the [registration](../registr
 
 To connect to a Rocket.Chat server using the desktop app:
 
-1. [Download](https://rocket.chat/download) the app specific to your operating system. 
+1. [Download](https://rocket.chat/download) the app specific to your operating system.
 2. Install and open the app.
 3. The server connect screen appears. To connect to a server, enter a valid server address and click **Connect**.
 
