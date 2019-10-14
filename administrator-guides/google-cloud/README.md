@@ -1,7 +1,5 @@
 # Google Cloud Features
 
-Rocket.Chat have integrations with a number of Google Cloud Features.
-
-Here you will find how to use them on your server.
+This guide will help you use Google Cloud Features with your Rocket.Chat server:
 
 [Auto Translate](auto-translate/)
