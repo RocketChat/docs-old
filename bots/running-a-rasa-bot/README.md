@@ -6,7 +6,7 @@ with minimal training data. The bots are based on a machine learning model train
 ## Quickstart
 
 Rasa is developed with Python. For the most part you dont need to know python to design the basic conversational flows in Rasa. 
-You will need python knowledge when creating custom action in Rasa which calls external actions. The fastest way to start with 
+You will need python knowledge when creating custom actions in Rasa which calls external actions. The fastest way to start with 
 Rasa is using [rasa-starter-rocketchat](https://github.com/RocketChat/rasa-kick-starter). The starter kit uses webhooks to
 communicate between Rasa and Rocket.Chat.
 
@@ -91,15 +91,13 @@ Rasa bot can be started via the Docker or Rasa CLI.
     rasa run
     ```
 
-#### 5. Make Rasa Bot accessible by Rocket.Chat
-
 The Rasa bot should be reachable via Rocket.Chat.
 
 *  If you are following the tutorial with docker-compose file then following is the URL to access the Rasa bot.
+
     ```bash
     http://bot_rasa:5005
     ```
-    
 
 * If you are trying to connect to a standalone Rocker.Chat instance or using Rasa CLI, lets user ngrok to get a 
 public url for the Rasa Bot.
@@ -114,6 +112,7 @@ public url for the Rasa Bot.
     ```
     
     Following will be the output of ngrok
+    
     ```sh                                                                                                                                                                                                      
     Session Status                online                                                                                                                                                                        
     Session Expires               7 hours, 59 minutes                                                                                                                                                           
@@ -123,6 +122,7 @@ public url for the Rasa Bot.
     Forwarding                    http://e3d5a17b.ngrok.io -> http://localhost:5005                                                                                                                             
     Forwarding                    https://e3d5a17b.ngrok.io -> http://localhost:5005  
     ```
+    
     Copy the http URL provided by ngrok: `http://e3d5a17b.ngrok.io`
 
 ### 6. Configure Rocket.Chat webhook
