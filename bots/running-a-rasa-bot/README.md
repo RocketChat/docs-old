@@ -33,6 +33,7 @@ user management page or can use the following script to create the bot user.
 Run the following command to create the RASA bot.
 
 **Note:** Please replace the user name and password of the RocketChat admin and bot user accordingly.
+
 ```sh
 python3 scripts/bot_config.py -an admin_username -ap admin_password -bn bot_username -bp bot_pass -r http://rocketchaturl
 ```
@@ -48,6 +49,7 @@ python3 scripts/bot_config.py -an admin -ap admin -bn bot_rasa -bp bot_rasa -r h
 * Configure the Credentials file
 
     Update your `credentials.yml` file inside the `bot_rasa` folder with Rasa bot's username and password.
+    
     ```sh
     rocketchat:
       user: "bot_rasa"
@@ -62,17 +64,17 @@ python3 scripts/bot_config.py -an admin -ap admin -bn bot_rasa -bp bot_rasa -r h
 
     * **If using Docker**
 
-        ```sh
-        docker run -it -v $(pwd)/bot_rasa:/app rasa/rasa train
-        ```
+    ```sh
+    docker run -it -v $(pwd)/bot_rasa:/app rasa/rasa train
+    ```
 
     * **If using Rasa CLI**
 
-        ```bash
-        pip3 install rasa
-        cd bot_rasa
-        rasa train
-        ``` 
+    ```bash
+    pip3 install rasa
+    cd bot_rasa
+    rasa train
+    ```
 
 ### 4. Start Rasa server
 
@@ -93,7 +95,7 @@ Rasa bot can be started via the Docker or Rasa CLI.
 
 The Rasa bot should be reachable via Rocket.Chat.
 
-*  If you are following the tutorial with docker-compose file then following is the URL to access the Rasa bot.
+* If you are following the tutorial with docker-compose file then following is the URL to access the Rasa bot.
 
     ```bash
     http://bot_rasa:5005
@@ -114,9 +116,9 @@ public url for the Rasa Bot.
     Following will be the output of ngrok
 
     ```sh
-    Session Status                online                                                                                                                                                                        
+    Session Status                online
     Session Expires               7 hours, 59 minutes
-    Version                       2.3.30                                                                                                                                                                        
+    Version                       2.3.30
     Region                        United States (us)
     Web Interface                 http://127.0.0.1:4040
     Forwarding                    http://e3d5a17b.ngrok.io -> http://localhost:5005
