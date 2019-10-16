@@ -21,7 +21,6 @@ ssh root@your_droplet_ip
 Once you are connected you should see something like:
 
 ```
-```
 Rocket.Chat is the leading open source team chat software solution. Free, unlimited and completely customizable with on-premises and SaaS cloud hosting. 
 Replace email, HipChat & Slack with the ultimate team chat software solution.
 
@@ -42,7 +41,7 @@ Replace email, HipChat & Slack with the ultimate team chat software solution.
 
  Looking for how to use Rocket.Chat? Be sure to check our docs: https://rocket.chat/docs
 
- Checkout our Digital Ocean docs: https://rocket.chat/docs/installation/paas-deployments/digital-ocean/#deploying-rocketchat-on-digital-ocean
+ Checkout our Digital Ocean docs: https://rocket.chat/docs/installation/paas-deployments/digital-ocean/
 
  Need some help? Join our community forums https://forums.rocket.chat
 ```
