@@ -49,13 +49,13 @@ python3 scripts/bot_config.py -an admin -ap admin -bn bot_rasa -bp bot_rasa -r h
 * Configure the Credentials file
 
     Update your `credentials.yml` file inside the `bot_rasa` folder with Rasa bot's username and password.
-    
-    ```sh
-    rocketchat:
-      user: "bot_rasa"
-      password: "bot_rasa"
-      server_url: "http://localhost:3000"
-    ```
+
+```sh
+rocketchat:
+  user: "bot_rasa"
+  password: "bot_rasa"
+  server_url: "http://localhost:3000"
+```
 
 * Train the Machine Learning Model
 
@@ -101,8 +101,7 @@ The Rasa bot should be reachable via Rocket.Chat.
     http://bot_rasa:5005
     ```
 
-* If you are trying to connect to a standalone Rocker.Chat instance or using Rasa CLI, lets user ngrok to get a
-public url for the Rasa Bot.
+* If you are trying to connect to a standalone Rocker.Chat instance or using Rasa CLI, lets user ngrok to get a public url for the Rasa Bot.
 
     Install ngrok via: https://ngrok.com/download
 
