@@ -8,6 +8,7 @@ Manage Livechat related data:
 | `/api/v1/livechat/users/:type` | `POST` | Create a new Livechat agent or manager. | [info](users/index.html#register-new-agent-or-manager) |
 | `/api/v1/livechat/users/:type/:_id` | `GET` | Retrieve agent or manager data. | [info](users/index.html#get-info-about-an-agent-or-manager) |
 | `/api/v1/livechat/users/:type/:_id` | `DELETE` | Removes a Livechat agent or manager. | [info](users/index.html#removes-an-agent-or-manager) |
+| `/api/v1/livechat/users.queue` | `GET` | Retrieves users queue. | [info](users) |
 | `/api/v1/livechat/department` | `GET` | Get a list of Livechat departments. | [info](department/index.html#list-departments) |
 | `/api/v1/livechat/department` | `POST` | Creates a new Livechat department. | [info](department/index.html#register-a-new-department) |
 | `/api/v1/livechat/department/:_id` | `GET` | Retrieve a Livechat department data. | [info](department/index.html#get-info-about-a-department) |
