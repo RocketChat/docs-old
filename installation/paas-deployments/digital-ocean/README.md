@@ -4,8 +4,6 @@ You can now install Rocket.Chat on DigitalOcean using a 1-Click install from the
 
 [![do-btn-blue](https://user-images.githubusercontent.com/51996/58146107-50512580-7c1a-11e9-8ec9-e032ba387c2a.png)](https://marketplace.digitalocean.com/apps/rocket-chat?action=deploy&refcode=1940fe28bd31)
 
----
-
 After you create your 1-Click install using the Rocket.Chat app in DigitalOcean Marketplace, you'll likely want a registered domain name to access Rocket.Chat.
 
 We recommend setting up an A record from your domain to your servers IP address. Ex: chat.mycompany.com
