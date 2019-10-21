@@ -6,13 +6,13 @@ The CSV importer allows you to import your own plain text files, however it does
 
 The zip file must be a **flat zip**, which means there can **not** be a "root" or "sub" folder in which the items reside in the zip file. The importer looks for the files `channels.csv` and `users.csv` immediately inside the zip and not inside of any folder. If you have any questions about this, please ask in [#support channel on the Community server](https://open.rocket.chat/channel/support).
 
-The **directmessage** directory is a special directory name, check **Direct Messages** section below.
+The **directmessages** directory is a special directory name, check **Direct Messages** section below.
 
 ```
 fileToImport.zip
 ├── channels.csv
 ├── users.csv
-├── directmessage
+├── directmessages
 │   └── messages.csv
 ├── general
 │   └── messages.csv
