@@ -20,7 +20,7 @@ docker-compose up -d mongo-init-replica
 docker-compose up -d rocketchat
 ```
 
-Access http://localhost:3000/
+Access <http://localhost:3000/>
 
 Create an `admin` user with the password `admin`.
 
@@ -103,16 +103,16 @@ http://bot_rasa:5005
 
 * If you are trying to connect to a standalone Rocker.Chat instance or using Rasa CLI, lets user ngrok to get a public url for the Rasa Bot.
 
-    Install ngrok via: https://ngrok.com/download
+Install ngrok via: <https://ngrok.com/download>
 
-    After downloading the ngrok navigate to the ngrok file in the downloded content and execute the following command.
-    This will provide a public URL to the Rasa bot
+After downloading the ngrok navigate to the ngrok file in the downloded content and execute the following command.
+This will provide a public URL to the Rasa bot
 
 ```bash
 ./ngork http 5005
 ```
 
-    Following will be the output of ngrok
+Following will be the output of ngrok
 
 ```sh
 Session Status                online
@@ -124,7 +124,7 @@ Forwarding                    http://e3d5a17b.ngrok.io -> http://localhost:5005
 Forwarding                    https://e3d5a17b.ngrok.io -> http://localhost:5005
 ```
 
-    Copy the http URL provided by ngrok: `http://e3d5a17b.ngrok.io`
+Copy the http URL provided by ngrok: `http://e3d5a17b.ngrok.io`
 
 ### 6. Configure Rocket.Chat webhook
 
