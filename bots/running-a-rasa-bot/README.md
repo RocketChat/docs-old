@@ -62,19 +62,19 @@ rocketchat:
     The Rasa bots machine learning model can built by using either Rasa CLI or Docker. After the training a machine
     learning model will be created inside the `bot_rasa/models` folder.
 
-    * **If using Docker**
+* **If using Docker**
 
-    ```sh
-    docker run -it -v $(pwd)/bot_rasa:/app rasa/rasa train
-    ```
+```sh
+docker run -it -v $(pwd)/bot_rasa:/app rasa/rasa train
+```
 
-    * **If using Rasa CLI**
+* **If using Rasa CLI**
 
-    ```bash
-    pip3 install rasa
-    cd bot_rasa
-    rasa train
-    ```
+```bash
+pip3 install rasa
+cd bot_rasa
+rasa train
+```
 
 ### 4. Start Rasa server
 
@@ -82,24 +82,24 @@ Rasa bot can be started via the Docker or Rasa CLI.
 
 * **If using Docker-compose**
 
-    ```sh
-    docker-compose up -d bot_rasa
-    ```
+```sh
+docker-compose up -d bot_rasa
+```
 
 * **If using Rasa CLI**
 
-    ```python
-    cd bot_rasa
-    rasa run
-    ```
+```python
+cd bot_rasa
+rasa run
+```
 
 The Rasa bot should be reachable via Rocket.Chat.
 
 * If you are following the tutorial with docker-compose file then following is the URL to access the Rasa bot.
 
-    ```bash
-    http://bot_rasa:5005
-    ```
+```bash
+http://bot_rasa:5005
+```
 
 * If you are trying to connect to a standalone Rocker.Chat instance or using Rasa CLI, lets user ngrok to get a public url for the Rasa Bot.
 
@@ -108,21 +108,21 @@ The Rasa bot should be reachable via Rocket.Chat.
     After downloading the ngrok navigate to the ngrok file in the downloded content and execute the following command.
     This will provide a public URL to the Rasa bot
 
-    ```bash
-    ./ngork http 5005
-    ```
+```bash
+./ngork http 5005
+```
 
     Following will be the output of ngrok
 
-    ```sh
-    Session Status                online
-    Session Expires               7 hours, 59 minutes
-    Version                       2.3.30
-    Region                        United States (us)
-    Web Interface                 http://127.0.0.1:4040
-    Forwarding                    http://e3d5a17b.ngrok.io -> http://localhost:5005
-    Forwarding                    https://e3d5a17b.ngrok.io -> http://localhost:5005
-    ```
+```sh
+Session Status                online
+Session Expires               7 hours, 59 minutes
+Version                       2.3.30
+Region                        United States (us)
+Web Interface                 http://127.0.0.1:4040
+Forwarding                    http://e3d5a17b.ngrok.io -> http://localhost:5005
+Forwarding                    https://e3d5a17b.ngrok.io -> http://localhost:5005
+```
 
     Copy the http URL provided by ngrok: `http://e3d5a17b.ngrok.io`
 
