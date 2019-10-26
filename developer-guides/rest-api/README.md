@@ -169,6 +169,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.getMessage`             | Retrieves a single chat message.                                 | [Link](chat/getmessage/)                |
 | `/api/v1/chat.getMessageReadReceipts` | Retrieves message read receipts.                                 | [Link](chat/getmessagereadreceipts/)    |
 | `/api/v1/chat.getPinnedMessages`      | Retrieve pinned messages from a room.                            | [Link](chat/getpinnedmessages/)         |
+| `/api/v1/chat.getSnippetedMessageById`| Retrieves snippeted message by id.                               | [Link](chat/getsnippetedmessagebyid/)   |
 | `/api/v1/chat.getStarredMessages`     | Retrieves starred messages.                                      | [Link](chat/getstarredmessages/)        |
 | `/api/v1/chat.getThreadMessages`      | Retrieves thread's messages.                                     | [Link](chat/getthreadmessages/)         |
 | `/api/v1/chat.getThreadsList`         | Retrieves channel's threads.                                     | [Link](chat/getthreadslist/)            |
