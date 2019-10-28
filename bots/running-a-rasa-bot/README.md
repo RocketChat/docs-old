@@ -16,7 +16,7 @@ Clone the quick start guide with the following command to get started  with the 
 
 ### Create Rocket.Chat Bot
 
-You can either manually login to Rocket.Chat and create a bot user via the user management page or you can use the following 
+You can either manually login to Rocket.Chat and create a bot user via the user management page or you can use the following
 script to create the bot user inside the starter kit repository.
 
 Note: Please replace the user name and password of the RocketChat admin and bot user accordingly.
@@ -36,8 +36,8 @@ rocketchat:
   server_url: "http://localhost:3000"
 ```
 
-* Train the bot's Machine Learning Model by using the following command.After the training a machine learning model will 
-be created inside the `bot_rasa/models` folder.
+* Train the bot's Machine Learning Model by using the following command.After the training a machine learning model will
+ be created inside the `bot_rasa/models` folder.
 
 ```sh
 docker run -it -v $(pwd)/bot_rasa:/app rasa/rasa train
@@ -49,8 +49,8 @@ docker run -it -v $(pwd)/bot_rasa:/app rasa/rasa train
 docker-compose up -d bot_rasa
 ```
 
-* The Rasa bot should be reachable via Rocket.Chat. If the Rocket.Chat(Docker) is running in the same machine 
-then the bot's URL is: `http://bot_rasa:5005`. Otherwise let's use ngrok to get a public url for the Rasa Bot.
+* The Rasa bot should be reachable via Rocket.Chat. If the Rocket.Chat(Docker) is running in the same machine
+ then the bot's URL is: `http://bot_rasa:5005`. Otherwise let's use ngrok to get a public url for the Rasa Bot.
 
 Install ngrok via: <https://ngrok.com/download>
 
@@ -86,6 +86,7 @@ Channel: #general
 URLs: {http://ngrok_public_url}/webhooks/rocketchat/webhook
 Post as: bot_rasa
 ```
+
 Note: Replace the URL field accordingly and `Save` the changes.
 
 ### Talk to the Bot
