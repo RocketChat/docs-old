@@ -4,7 +4,7 @@ Use a web browser, the Rocket.Chat desktop/mobile application, or your choice of
 
 ## Use a web browser
 
-To connect to a Rocket.Chat server through a web browser, enter the desired server address in the browser's address bar such as `https://open.rocket.chat.com`.
+To connect to a Rocket.Chat server through a web browser, enter the desired server address in the browser's address bar.
 
 After entering a valid Rocket.Chat server address, the [registration](../registration/) and [log in](../login/) page appears. Enter your credentials to log in or register to become a member of that server.
 
