@@ -17,7 +17,7 @@ for example by running this command:
 echo -e "replication:\n  replSetName: \"rs01\"" | sudo tee -a /etc/mongod.conf
 ```
 
-## Restart MongoDB and inititate the replica set
+## Restart MongoDB and initiate the replica set
 
 Restart MongoDB service:
 
