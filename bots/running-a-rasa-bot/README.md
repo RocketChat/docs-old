@@ -1,7 +1,7 @@
 # Running a Rasa Bot
 
 Rasa is the leading open-source machine learning toolkit that lets developers expand bots beyond answering simple questions
-with minimal training data. At the core Rasa bot has a machine learning model trained on example conversations.
+with minimal training data. At the core Rasa bot has a machine learning model which trained on example conversations.
 
 ## Quickstart
 
@@ -17,9 +17,9 @@ Clone the quick start guide with the following command to get started  with the 
 ### Create Rocket.Chat Bot
 
 You can either manually login to Rocket.Chat and create a bot user via the user management page or you can use the following
-script to create the bot user inside the starter kit repository.
+script to create the bot user.
 
-Note: Please replace the user name and password of the RocketChat admin and bot user accordingly.
+Note: Please replace the username and password of the RocketChat admin and bot user accordingly.
 
 ```sh
 python3 scripts/bot_config.py -an admin_username -ap admin_password -bn bot_username -bp bot_pass -r http://rocketchaturl
@@ -27,7 +27,7 @@ python3 scripts/bot_config.py -an admin_username -ap admin_password -bn bot_user
 
 ### Configure Rasa Bot
 
-* Update the `credentials.yml` file inside the `bot_rasa` folder with Rasa bot's username and password.
+* Update the `credentials.yml` file inside the `bot_rasa` folder with Rasa bot's username, password, and Rocket.Chat URL.
 
 ```sh
 rocketchat:
@@ -36,14 +36,14 @@ rocketchat:
   server_url: "http://localhost:3000"
 ```
 
-* Train the bot's Machine Learning Model by using the following command.After the training a machine learning model will
+* Train the bot's Machine Learning Model by using the following command. After the training a machine learning model will
  be created inside the `bot_rasa/models` folder.
 
 ```sh
 docker run -it -v $(pwd)/bot_rasa:/app rasa/rasa train
 ```
 
-* Use the following command to start the Rasa bot.
+* Use the following command to start the Rasa bot(Server).
 
 ```sh
 docker-compose up -d bot_rasa
@@ -83,7 +83,7 @@ Go to `Administration > New Integration > Outgoing webhook` and inside the confi
 Event Trigger: Message Sent
 Enabled: True
 Channel: #general
-URLs: {http://ngrok_public_url}/webhooks/rocketchat/webhook
+URLs: http://ngrok_public_url/webhooks/rocketchat/webhook
 Post as: bot_rasa
 ```
 
