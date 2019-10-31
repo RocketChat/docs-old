@@ -228,7 +228,7 @@ Description=MongoDB for Rocket.Chat
 [Service]
 User=root
 WorkingDirectory=/var/www/rocket.chat
-ExecStart=/usr/local/bin/docker-compose up db
+ExecStart=/usr/local/bin/docker-compose up mongo
 Restart=on-failure
 RestartSec=120s
 ```
