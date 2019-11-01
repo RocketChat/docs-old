@@ -36,7 +36,7 @@ To make the process of coding a bot easier and faster, you may want to check our
 
 - [Running a Hubot Bot](../running-a-hubot-bot/)
 - [Running a Botkit Bot](../running-a-botkit-bot/)
-- [Running a Rasa Bot](../running-a-rasa-bot/)
+- [Running a Rasa Bot](./rasa-bot/)
 - [Running a Botpress Bot](../running-a-botpress-bot/)
 - [Running a bBot Bot](../running-a-bbot-bot/)
 

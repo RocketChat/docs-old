@@ -489,11 +489,11 @@
 - Bots:
   - Bots Architecture
   - Configure Bot Environment
-  - Create and run a Bot
+  - Create and run a Bot:
+    - Rasa Bot
   - Running a bBot Bot
   - Running a Hubot Bot
   - Running a Botkit Bot
-  - Running a Rasa Bot
   - Running a Botpress Bot
 - Community Cookbook:
   - Remote Video Monitoring
