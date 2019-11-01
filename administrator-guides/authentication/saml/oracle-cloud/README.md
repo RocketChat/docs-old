@@ -47,8 +47,10 @@ Before clicking on **Finish**, click the **Download Identity Provider Metadata**
 ![Rocket.Chat Settings][RocketChatSettings]
 
 There are two Rocket.Chat settings that need to be copied from the IDP Metadata you just downloaded: *Custom Entry Point* and *IDP SLO Redirect URL*.
-For the first one, locate the tag **SingleLogoutService** and copy the value of the *Location* attribute.
-For the second param, locate the tag **md:SingleLogoutService** and copy the value of the *Location* attribute.
+
+For the first one, locate the tag **md:SingleSignOnService** and copy the value of the *Location* attribute, (ends with `/idp/sso`).
+
+For the second param, locate the tag **md:SingleLogoutService** and copy the value of the *Location* attribute (ends with `/idp/slo`).
 
 There may be multiple occurences of those tags in the XML file, so make sure that the copied URLS end with `/idp/sso` and `/idp/slo` and not `/sp/sso` and `/sp/slo`.
 
