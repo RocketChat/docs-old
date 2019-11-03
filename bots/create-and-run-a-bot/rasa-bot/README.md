@@ -20,7 +20,7 @@ cd rasa-kick-starter/
 
 **2. configure the bot**
 
-* open `rasa-kick-starter/bot_rasa` folder and update the `credentials.yml` file with Rasa bot's username, password, and Rocket.Chat URL:
+* open the `rasa-kick-starter/bot_rasa` folder and update the `credentials.yml` file with Rasa bot's username, password, and Rocket.Chat URL:
 
 ```yaml
 rocketchat:
@@ -52,7 +52,7 @@ Attaching to rasa-kick-starter_bot_rasa_1
 bot_rasa_1            | 2019-10-31 21:23:24 INFO     root  - Starting Rasa server on http://localhost:5005
 ```
 
-Open your browser and navigate to the `http://localhost:5005`. You should see the response from the running Rasa bot:
+Open your browser and navigate to `http://localhost:5005`. You should see the response from the running Rasa bot:
 
 ```
 Hello from Rasa: 1.5.0a1
@@ -93,7 +93,7 @@ Select `Message Sent` Event Trigger from the dropdown list. Complete the configu
 * URLs: `http://<ngrok_public_url>/webhooks/rocketchat/webhook`
 * Post as: `<RASA USER NAME>`
 
-**NOTE**: Make sure to replace the URL with a valid public URL obtained on the previous step using ngrok.
+**NOTE**: Make sure you replaced the URL with a valid public URL obtained on the previous step using ngrok.
 
 Click `Save changes` in the top right corner.
 
