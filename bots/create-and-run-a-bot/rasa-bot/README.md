@@ -93,7 +93,7 @@ Select `Message Sent` Event Trigger from the dropdown list. Complete the configu
 * URLs: `http://<ngrok_public_url>/webhooks/rocketchat/webhook`
 * Post as: `<RASA USER NAME>`
 
-**NOTE**: Make sure you replaced the URL with a valid public URL obtained on the previous step using ngrok.
+**NOTE**: Make sure you replace the URL with a valid public URL obtained on the previous step using ngrok.
 
 Click `Save changes` in the top right corner.
 
