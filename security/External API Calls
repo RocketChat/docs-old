@@ -84,5 +84,3 @@ Rocket.Chat makes API calls with [Webdav](https://docs.nextcloud.com/server/12.0
 Rocket.Chat makes API calls to obtain Auth data from [Wordpress](https://developer.wordpress.org/rest-api/) for the [Custom OAuth service](https://rocket.chat/docs/administrator-guides/authentication/wordpress/).
 ## YouTube&reg;
 Rocket.Chat makes API calls to [YouTube](https://developers.google.com/youtube/v3/live/getting-started) to obtain the user ID for the [Livestream service](https://rocket.chat/docs/administrator-guides/youtube-broadcasting/).
-External_API_Calls_README.md
-Displaying External_API_Calls_README.md.
