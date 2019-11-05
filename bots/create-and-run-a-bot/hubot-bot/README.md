@@ -19,69 +19,68 @@ or via the package scripts locally using `npm run local` or `yarn local`.
 
 Navigate to the folder where you want to work with the bot and proceed with the following steps:
 
-1. **clone the boilerplate repo and install dependencies**
+**1. clone the boilerplate repo and install dependencies**
 
-    ```
-    git clone https://github.com/RocketChat/hubot-rocketchat-boilerplate
-    cd hubot-rocketchat-boilerplate
-    npm install
-    ```
+```
+git clone https://github.com/RocketChat/hubot-rocketchat-boilerplate
+cd hubot-rocketchat-boilerplate
+npm install
+```
 
-2. **create a `.env` file with the following content:**
+**2. create a `.env` file with the following content**
 
-    ```
-    export ROCKETCHAT_URL=myserver.com
-    export ROCKETCHAT_USER=mybotuser
-    export ROCKETCHAT_PASSWORD=mypassword
-    export ROCKETCHAT_ROOM=general
-    export ROCKETCHAT_USESSL=true
-    ```
+```
+export ROCKETCHAT_URL=myserver.com
+export ROCKETCHAT_USER=mybotuser
+export ROCKETCHAT_PASSWORD=mypassword
+export ROCKETCHAT_ROOM=general
+export ROCKETCHAT_USESSL=true
+```
 
-    Adjust the content to fit your server and user credentials. Make sure `mybotuser` has `BOT` role on the server. For more information about that, please refer to [this page](../#1-create-a-bot-user).
+Adjust the content to fit your server and user credentials. Make sure `mybotuser` has `BOT` role on the server. For more information about that, please refer to [this page](../#1-create-a-bot-user).
 
-3. **run the bot**
+**3. run the bot**
 
-    ```
-    source .env
-    bin/hubot
-    ```
-    
-    After executing the last command, hubot will try to connect to the Rocket.Chat instance and then will
-listen to messages in `general` room:
+```
+source .env
+bin/hubot
+```
 
-    ```
-    bin/hubot
-    audited 390 packages in 1.929s
-    found 1 low severity vulnerability
-    run `npm audit fix` to fix them, or `npm audit` for details
-    [Fri Sep 27 2019 23:24:19 GMT+0300 (Eastern European Summer Time)] INFO [startup] Rocket.Chat adapter in use
-    [Fri Sep 27 2019 23:24:19 GMT+0300 (Eastern European Summer Time)] INFO [startup] Respond to name: Hubot
-    [Fri Sep 27 2019 23:24:19 GMT+0300 (Eastern European Summer Time)] INFO [startup] Respond to alias: mybotuser
-    [Fri Sep 27 2019 23:24:19 GMT+0300 (Eastern European Summer Time)] INFO [connect] Connecting { username: 'mybotuser',
-    password: 'mypassword',
-    ldap: false,
-    host: 'myserver.com',
-    useSsl: true,
-    timeout: 20000,
-    rooms: [ 'general' ],
-    allPublic: false,
-    dm: true,
-    livechat: false,
-    edited: false,
-    integrationId: 'js.SDK',
-    roomCacheMaxSize: 10,
-    roomCacheMaxAge: 300000,
-    dmCacheMaxSize: 10,
-    dmCacheMaxAge: 100000 }
-    [Fri Sep 27 2019 23:24:19 GMT+0300 (Eastern European Summer Time)] INFO [connect] Connected
-    [Fri Sep 27 2019 23:24:19 GMT+0300 (Eastern European Summer Time)] INFO [login] Logging in mybotuser
-    [Fri Sep 27 2019 23:24:20 GMT+0300 (Eastern European Summer Time)] INFO [subscribe] Preparing subscription: stream-room-messages: __my_messages__
-    [Fri Sep 27 2019 23:24:20 GMT+0300 (Eastern European Summer Time)] INFO [subscribe] Stream ready: 2
-    [Fri Sep 27 2019 23:24:20 GMT+0300 (Eastern European Summer Time)] INFO [reactive] Listening for change events in collection stream-room-messages
-    [Fri Sep 27 2019 23:24:20 GMT+0300 (Eastern European Summer Time)] INFO [joinRoom] Calling (async): ["GENERAL"]
-    ```
+After executing the last command, hubot will try to connect to the Rocket.Chat instance and then will listen to messages in `general` room:
 
-4. **talk to your bot**
+```
+bin/hubot
+audited 390 packages in 1.929s
+found 1 low severity vulnerability
+run `npm audit fix` to fix them, or `npm audit` for details
+[Fri Sep 27 2019 23:24:19 GMT+0300 (Eastern European Summer Time)] INFO [startup] Rocket.Chat adapter in use
+[Fri Sep 27 2019 23:24:19 GMT+0300 (Eastern European Summer Time)] INFO [startup] Respond to name: Hubot
+[Fri Sep 27 2019 23:24:19 GMT+0300 (Eastern European Summer Time)] INFO [startup] Respond to alias: mybotuser
+[Fri Sep 27 2019 23:24:19 GMT+0300 (Eastern European Summer Time)] INFO [connect] Connecting { username: 'mybotuser',
+password: 'mypassword',
+ldap: false,
+host: 'myserver.com',
+useSsl: true,
+timeout: 20000,
+rooms: [ 'general' ],
+allPublic: false,
+dm: true,
+livechat: false,
+edited: false,
+integrationId: 'js.SDK',
+roomCacheMaxSize: 10,
+roomCacheMaxAge: 300000,
+dmCacheMaxSize: 10,
+dmCacheMaxAge: 100000 }
+[Fri Sep 27 2019 23:24:19 GMT+0300 (Eastern European Summer Time)] INFO [connect] Connected
+[Fri Sep 27 2019 23:24:19 GMT+0300 (Eastern European Summer Time)] INFO [login] Logging in mybotuser
+[Fri Sep 27 2019 23:24:20 GMT+0300 (Eastern European Summer Time)] INFO [subscribe] Preparing subscription: stream-room-messages: __my_messages__
+[Fri Sep 27 2019 23:24:20 GMT+0300 (Eastern European Summer Time)] INFO [subscribe] Stream ready: 2
+[Fri Sep 27 2019 23:24:20 GMT+0300 (Eastern European Summer Time)] INFO [reactive] Listening for change events in collection stream-room-messages
+[Fri Sep 27 2019 23:24:20 GMT+0300 (Eastern European Summer Time)] INFO [joinRoom] Calling (async): ["GENERAL"]
+```
+
+**4. talk to your bot**
 
 On the server, login as a regular user (not the BOT user), go to `general` room, and try the following commands:
 
@@ -152,8 +151,7 @@ There are executables for different environments that all run the Hubot binary:
 * `bin/hubot.cmd` - for Windows
 * `Procfile` - for Heroku
 
-Before running, make sure your production environment has the required 
-environment variables for the adapter, url, user, name and pass. As an alternative,
+Before running, make sure your production environment has the required environment variables for the adapter, url, user, name and pass. As an alternative,
 you can add them as command-line parameters, like `-a rocketchat`.
 
 Environmental variables should be populated on the server before the launch
@@ -180,49 +178,49 @@ the bot's username or in direct messages without the bot's username.
 
 ### Deployment using Docker
 
-1. **clone the hubot repo and go into the clonned directory**
+**1. clone the hubot repo and go into the clonned directory**
 
-    ```
-    git clone git@github.com:RocketChat/hubot-rocketchat.git
-    cd hubot-rocketchat
-    ```
+```
+git clone git@github.com:RocketChat/hubot-rocketchat.git
+cd hubot-rocketchat
+```
 
-2. **start the Docker container**
+**2. start the Docker container**
 
-    ```
-    docker run -it -e ROCKETCHAT_URL=your rocketchat instance>:<port> \
-        -e ROCKETCHAT_ROOM='' \
-        -e LISTEN_ON_ALL_PUBLIC=true \
-        -e RESPOND_TO_DM=true \
-        -e ROCKETCHAT_USER=mybotuser \
-        -e ROCKETCHAT_PASSWORD=mybotpassword \
-        -e HUBOT_NAME=bot \
-        -e EXTERNAL_SCRIPTS=hubot-help,hubot-diagnostics \
-        rocketchat/hubot-rocketchat
-    ```
+```
+docker run -it -e ROCKETCHAT_URL=your rocketchat instance>:<port> \
+    -e ROCKETCHAT_ROOM='' \
+    -e LISTEN_ON_ALL_PUBLIC=true \
+    -e RESPOND_TO_DM=true \
+    -e ROCKETCHAT_USER=mybotuser \
+    -e ROCKETCHAT_PASSWORD=mybotpassword \
+    -e HUBOT_NAME=bot \
+    -e EXTERNAL_SCRIPTS=hubot-help,hubot-diagnostics \
+    rocketchat/hubot-rocketchat
+```
 
-    On the container launch, hubot will try to connect to the Rocket.Chat instance and then will
-    listen to messages in all public rooms:
+On the container launch, hubot will try to connect to the Rocket.Chat instance and then will
+listen to messages in all public rooms:
 
-    ```
-    [Sun Sep 29 2019 16:49:54 GMT+0000 (UTC)] INFO Starting Rocketchat adapter version 1.0.11...
-    [Sun Sep 29 2019 16:49:54 GMT+0000 (UTC)] INFO Once connected to rooms I will respond to the name: rocketbot
-    [Sun Sep 29 2019 16:49:54 GMT+0000 (UTC)] INFO I will also respond to my Rocket.Chat username as an alias: mybotuser
-    [Sun Sep 29 2019 16:49:54 GMT+0000 (UTC)] WARNING No services ROCKETCHAT_ROOM provided to Hubot, using
-    [Sun Sep 29 2019 16:49:54 GMT+0000 (UTC)] INFO Connecting To: <rocketchat_instance>
-    [Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO Successfully connected!
-    [Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO
-    [Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO Logging In
-    [Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO Successfully Logged In
-    [Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO rid:  []
-    [Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO All rooms joined.
-    [Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO Preparing Meteor Subscriptions..
-    [Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO Subscribing to Room: __my_messages__
-    [Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO Successfully subscribed to messages
-    [Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO Setting up reactive message list...
-    ```
+```
+[Sun Sep 29 2019 16:49:54 GMT+0000 (UTC)] INFO Starting Rocketchat adapter version 1.0.11...
+[Sun Sep 29 2019 16:49:54 GMT+0000 (UTC)] INFO Once connected to rooms I will respond to the name: rocketbot
+[Sun Sep 29 2019 16:49:54 GMT+0000 (UTC)] INFO I will also respond to my Rocket.Chat username as an alias: mybotuser
+[Sun Sep 29 2019 16:49:54 GMT+0000 (UTC)] WARNING No services ROCKETCHAT_ROOM provided to Hubot, using
+[Sun Sep 29 2019 16:49:54 GMT+0000 (UTC)] INFO Connecting To: <rocketchat_instance>
+[Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO Successfully connected!
+[Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO
+[Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO Logging In
+[Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO Successfully Logged In
+[Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO rid:  []
+[Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO All rooms joined.
+[Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO Preparing Meteor Subscriptions..
+[Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO Subscribing to Room: __my_messages__
+[Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO Successfully subscribed to messages
+[Sun Sep 29 2019 16:49:55 GMT+0000 (UTC)] INFO Setting up reactive message list...
+```
 
-3. **talk to your bot**
+**3. talk to your bot**
 
 On the server, login as a regular user (not the BOT user), go to `general` or any other room, and try the following command:
 
@@ -242,10 +240,8 @@ Both commands result in the same output:
 
 #### Important notes
 
-- The first time you run the docker container, the image needs to be pulled from the public docker registry,
-which takes some time. Subsequent runs are super fast.
-- If you are not running Linux (i.e. if you are on a Mac or PC), you cannot use $PWD to mount the volumes.
-Instead, [read the *If you are using Boot2Docker...* note](https://docs.docker.com/userguide/dockervolumes/) to determine the absolute path where you must place the git-cloned directory.
+- The first time you run the docker container, the image needs to be pulled from the public docker registry, which takes some time. Subsequent runs are super fast.
+- If you are not running Linux (i.e. if you are on a Mac or PC), you cannot use $PWD to mount the volumes. Instead, [read the *If you are using Boot2Docker...* note](https://docs.docker.com/userguide/dockervolumes/) to determine the absolute path where you must place the git-cloned directory.
 
 #### Adding scripts
 
@@ -260,8 +256,8 @@ docker run -it -e ROCKETCHAT_URL=your rocketchat instance>:<port> \
     -e ROCKETCHAT_PASSWORD=mybotpassword \
     -e HUBOT_NAME=bot \
     -e EXTERNAL_SCRIPTS=hubot-help,hubot-diagnostics \
-	-v $PWD/scripts:/home/hubot/scripts \
-	rocketchat/hubot-rocketchat
+    -v $PWD/scripts:/home/hubot/scripts \
+    rocketchat/hubot-rocketchat
 ```
 
 ### Deployment using Yeoman
@@ -301,26 +297,26 @@ using the same development version of the adapter in multiple bots.
 
 If you want to use docker-compose for this task, add this for v0.1.4 adapter (this must be inserted in your docker-compose.yml):
 
-    ```
-    # hubot, the popular chatbot (add the bot user first and change the password before starting this image)
-    hubot:
-    image: rocketchat/hubot-rocketchat:v0.1.4
-    environment:
-        - ROCKETCHAT_URL=your-rocket-chat-instance-ip:3000 (e.g. 192.168.2.240:3000)
-        - ROCKETCHAT_ROOM=general
-        - RESPOND_TO_DM=true
-        - ROCKETCHAT_USER=username-of-your-bot
-        - ROCKETCHAT_PASSWORD=yourpass
-        - BOT_NAME=bot
-        - GOOGLE_API_KEY=yourgoogleapikey
-    # you can add more scripts as you'd like here, they need to be installable by npm
-        - EXTERNAL_SCRIPTS=hubot-help,hubot-seen,hubot-links,hubot-diagnostics,hubot-google,hubot-reddit,hubot-bofh,hubot-bookmark,hubot-shipit,hubot-maps
-    links:
-        - rocketchat:rocketchat
-    # this is used to expose the hubot port for notifications on the host on port 3001, e.g. for hubot-jenkins-notifier
-    ports:
-        - 3001:8080
-    ```
+```
+# hubot, the popular chatbot (add the bot user first and change the password before starting this image)
+hubot:
+image: rocketchat/hubot-rocketchat:v0.1.4
+environment:
+    - ROCKETCHAT_URL=your-rocket-chat-instance-ip:3000 (e.g. 192.168.2.240:3000)
+    - ROCKETCHAT_ROOM=general
+    - RESPOND_TO_DM=true
+    - ROCKETCHAT_USER=username-of-your-bot
+    - ROCKETCHAT_PASSWORD=yourpass
+    - BOT_NAME=bot
+    - GOOGLE_API_KEY=yourgoogleapikey
+# you can add more scripts as you'd like here, they need to be installable by npm
+    - EXTERNAL_SCRIPTS=hubot-help,hubot-seen,hubot-links,hubot-diagnostics,hubot-google,hubot-reddit,hubot-bofh,hubot-bookmark,hubot-shipit,hubot-maps
+links:
+    - rocketchat:rocketchat
+# this is used to expose the hubot port for notifications on the host on port 3001, e.g. for hubot-jenkins-notifier
+ports:
+    - 3001:8080
+```
 
 If you want your bot to listen to all public rooms and all private rooms it is joined to, leave the env `ROCKETCHAT_ROOM` empty like in the example above and set the env `LISTEN_ON_ALL_PUBLIC=true`.
 
@@ -354,7 +350,7 @@ of Rocket.Chat (v0.35+). Please report an issue, if you find specific version mi
 
 NOTE: releases between 0.35.0 and 0.37.1 are not recommended for hubot operations.
 
-Rocket.Chat adapter v1 uses CoffeeScript, which makes extention of classes in 
+Rocket.Chat adapter v1 uses CoffeeScript, which makes extention of classes in
 JavaScript ES6 troublesome.
 
 v1 versions of the adapter are only compatible with 0.37.1 and higher of Rocket.Chat Server. However, you
@@ -393,8 +389,6 @@ Once received, the bot:
 
 * parses the distribution
 * concurrently ssh to remote Kubernetes controllers and spawns the specified number of test bot instances to start the load test
-
-----
 
 Q: The architecture of hubot-rocketchat looks interesting, can you tell me more about it?
 A: Sure, it is based on hubot-meteorchat. hubot-meteorchat is the hubot integration project for Meteor based chats and real-time messaging systems. Its driver based architecture simplifies creation and customization of adapter for new systems. For example, the hubot-rocketchat integration is just hubot-meteorchat + Rocket.Chat driver.
