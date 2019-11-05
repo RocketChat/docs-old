@@ -30,6 +30,3 @@ These are resource that you can find outside Rocket.Chat's Security Documentatio
 ### Rocket.Chat Handbook
 
 - [Company Security Policy](https://rocket.chat/handbook/operations/security-policy/)
-- [Channel Actions](channel-actions/)
-- [Managing your Account](managing-your-account/)
-- [End to End Encryption](end-to-end-encryption/)
