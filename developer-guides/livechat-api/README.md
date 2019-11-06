@@ -119,6 +119,24 @@ RocketChat(function() {
 });
 ```
 
+#### _Change widget window state_
+
+You can either open or close then widget in your website. To open widget(default state) use the following code.
+
+```javascript
+RocketChat(function() {
+    this.maximizeWidget();
+});
+```
+
+To close the widget use the following code.
+
+```javascript
+RocketChat(function() {
+    this.minimizeWidget();
+});
+```
+
 ### Events
 
 #### _onChatMaximized_
@@ -263,6 +281,7 @@ RocketChat(function() {
 
 | Version | Description                                                                                                                                            |
 | :------ | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2.2.0   | Added `maximizeWidget` and `minimizeWidget` methods. |
 | 1.3.0   | Added `onAssignAgent` and `onAgentStatusChange` methods. |
 | 1.1.0   | Added `showWidget` and `hideWidget` methods along with `onWidgetHidden` and `onWidgetShown` events|
 | 1.0.0   | Added `setLanguage` method |

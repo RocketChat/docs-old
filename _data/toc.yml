@@ -90,6 +90,7 @@
   - Talking to users from another server
   - Channels
   - Messaging
+  - Message Actions
   - Channel Actions
   - Managing your Account
   - End to End Encryption
@@ -309,9 +310,11 @@
         - delete
         - followMessage
         - getDeletedMessages
+        - getMentionedMessages
         - getMessage
         - getMessageReadReceipts
         - getPinnedMessages
+        - getStarredMessages
         - getThreadMessages
         - getThreadsList
         - pinMessage
@@ -402,6 +405,7 @@
         - room
         - rooms
         - sms-incoming
+        - triggers
         - users
         - video-call
         - visitor

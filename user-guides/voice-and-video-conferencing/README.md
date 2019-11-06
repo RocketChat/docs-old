@@ -1,21 +1,24 @@
 # Voice and Video Conferencing
 
-In Rocket.Chat you have the ability to start video and audio conferences.
+In Rocket. Chat start video and audio conferences using [Jitsi Meet](https://jitsi.org/jitsi-meet/)
 
-This is done by using [Jitsi Meet](https://jitsi.org/jitsi-meet/) through Rocket.Chat.
+**Note:** This feature must be enabled by the server's administrator. See [Setting up video conferencing](../../administrator-guides/setting-up-video-conferencing).
 
-> Note: For this feature to be available for normal users, the server admin must activate it before. Please see [Setting up video conferencing](../../administrator-guides/setting-up-video-conferencing)
+## Start a Jitsi meet
 
-## Starting a Video Conference
+To start a Jitsi meet:
 
-To start a video conference you can simply open the channel actions menu (the three dots on the top right) and select `Video Chat`.
+Go to the channel or user that you want to start a video conference.
+Access the channel actions menu and then select **Video Chat**. A Jitsi meet starts in a new tab or through the Jitsi app on mobile.
 
-> If you cant see the `Video Chat` option on the channel actions menu, please contact your system admin, since video conferencing can be allowed only on private channels or on all channels depending on the server configuration.
+**Note:** If you can't see the **Video Chat** option on the channel actions menu, please contact your system admin, since video conferencing can be allowed only on private channels or on all channels depending on the server configuration.
 
-Other users will be able to join via `Click to Join!` button that is sent as a message on the channel that the conference is being held.
+Other users can join the meeting using the **Click to Join!** option that sends to the channel or user.
 
 ## Screen Sharing
 
-You can start screen sharing by selecting `Share screen` in the jitsi widget.
+To share your screen during a Jitsi meet, select **Share Screen**. Choose what browser, desktop, or tab you want to share in the conference.
 
-> Note: In Firefox screen sharing works out of the box, but if you are using chrome, please install this [extension](https://chrome.google.com/webstore/detail/rocketchat-screen-share/nocfbnnmjnndkbipkabodnheejiegccf) to be able to screen share.
+To end a screen share, click **End share**.
+
+To use screen share in Chrome, install this [extension](https://chrome.google.com/webstore/detail/rocketchat-screen-share/nocfbnnmjnndkbipkabodnheejiegccf).
