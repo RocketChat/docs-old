@@ -310,9 +310,11 @@
         - delete
         - followMessage
         - getDeletedMessages
+        - getMentionedMessages
         - getMessage
         - getMessageReadReceipts
         - getPinnedMessages
+        - getStarredMessages
         - getThreadMessages
         - getThreadsList
         - pinMessage
@@ -403,6 +405,7 @@
         - room
         - rooms
         - sms-incoming
+        - triggers
         - users
         - video-call
         - visitor
