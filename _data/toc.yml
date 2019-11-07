@@ -490,10 +490,10 @@
   - Bots Architecture
   - Configure Bot Environment
   - Create and run a Bot
-  - Running a bBot Bot
   - Running a Hubot Bot
-  - Running a Botkit Bot
+  - Botkit Bot
   - Running a Rasa Bot
   - Running a Botpress Bot
+  - Running a bBot Bot
 - Community Cookbook:
   - Remote Video Monitoring
