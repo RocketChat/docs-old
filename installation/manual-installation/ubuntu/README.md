@@ -97,7 +97,7 @@ cat << EOF |sudo tee -a /lib/systemd/system/rocketchat.service
 Description=The Rocket.Chat server
 After=network.target remote-fs.target nss-lookup.target nginx.target mongod.target
 [Service]
-ExecStart=/usr/local/bin/node /opt/Rocket.Chat/main.js
+ExecStart=/usr/local/bin/node /opt/Rocket.Chat/bundle/main.js
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=rocketchat
