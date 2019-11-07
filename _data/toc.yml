@@ -489,9 +489,9 @@
 - Bots:
   - Bots Architecture
   - Configure Bot Environment
-  - Create and run a Bot
-  - Running a Hubot Bot
-  - Botkit Bot
+  - Create and run a Bot:
+    - Botkit Bot
+    - Hubot Bot
   - Running a Rasa Bot
   - Running a Botpress Bot
   - Running a bBot Bot
