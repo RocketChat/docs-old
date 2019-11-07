@@ -48,7 +48,7 @@ Get yourself familiar with [Bots Architecture](bots-architecture/).
 - [Running a Botkit Bot](create-and-run-a-bot/botkit-bot/)
 - [Running a Hubot Bot](create-and-run-a-bot/hubot-bot/)
 - [Running a Botpress Bot](create-and-run-a-bot/botpress-bot/)
-- [Running a Rasa Bot](running-a-rasa-bot/)
+- [Running a Rasa Bot](create-and-run-a-bot/rasa-bot/)
 - [Running a bBot Bot](running-a-bbot-bot/)
 
 ## References

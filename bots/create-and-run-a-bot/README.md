@@ -36,8 +36,8 @@ To make the process of coding a bot easier and faster, you may want to check our
 
 - [Running a Botkit Bot](./botkit-bot/)
 - [Running a Hubot Bot](./hubot-bot/)
-- [Running a Rasa Bot](../running-a-rasa-bot/)
 - [Running a Botpress Bot](./botpress-bot/)
+- [Running a Rasa Bot](./rasa-bot/)
 - [Running a bBot Bot](../running-a-bbot-bot/)
 
 Regardless of the option you choose, to make your bot work you will need credentials of the bot user you created in the previous step.
