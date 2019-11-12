@@ -4,7 +4,7 @@ Rocket.Chat does not have native integration with WhatsApp. However, it is possi
 
 ## Step 1
 
-Create an account at (Twilio)[https://twilio.com/whatsapp/request-access].
+Create an account at [Twilio](https://twilio.com/whatsapp/request-access).
 
 ## Step 2
 
