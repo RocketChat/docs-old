@@ -1,7 +1,8 @@
 # Run a Rocket.Chat SDK Bot
 
 This bot is a simple example of how you can use [Rocket.Chat JS SDK](https://github.com/RocketChat/Rocket.Chat.js.SDK) methods directly. It
-does not handle errors, different messsage types, server resets and other production situations. 
+does not handle errors, different messsage types, server resets and other production
+situations.
 
 ## Quick start guide
 
@@ -18,75 +19,77 @@ npm install @rocket.chat/sdk
 
 **2. create bot files**
 
-To proceed with the simplest setup, you need to create two files: the first one will be responsible for working logic of the bot. Another one will contain a map with responses. 
+To proceed with the simplest setup, you need to create two files: the first one will be
+responsible for working logic of the bot. Another one will contain a map with responses.
 
 1. create a `server.js` file with the following content:
 
-    ```js
-    const { driver } = require('@rocket.chat/sdk');
-    const respmap  = require('./reply');
+```js
+const { driver } = require('@rocket.chat/sdk');
+const respmap  = require('./reply');
 
-    // Environment Setup
-    const HOST = '<ROCKETCHAT HOST>';
-    const USER = '<BOT USER NAME>';
-    const PASS = '<BOT USER PASS>';
-    const BOTNAME = '<ROCKET CHAT BOT ALIAS>';
-    const SSL = '<SSL USAGE>';
-    const ROOMS = ['<ROCKETCHAT CHANNEL>']; 
-    var myUserId;
+// Environment Setup
+const HOST = '<ROCKETCHAT HOST>';
+const USER = '<BOT USER NAME>';
+const PASS = '<BOT USER PASS>';
+const BOTNAME = '<ROCKET CHAT BOT ALIAS>';
+const SSL = '<SSL USAGE>';
+const ROOMS = ['<ROCKETCHAT CHANNEL>'];
+var myUserId;
 
-    // Bot configuration
-    const runbot = async () => {
-        const conn = await driver.connect({ host: HOST, useSsl: SSL })
-        myUserId = await driver.login({ username: USER, password: PASS });
-        const roomsJoined = await driver.joinRooms( ROOMS );
-        console.log('joined rooms');
+// Bot configuration
+const runbot = async () => {
+    const conn = await driver.connect({ host: HOST, useSsl: SSL })
+    myUserId = await driver.login({ username: USER, password: PASS });
+    const roomsJoined = await driver.joinRooms( ROOMS );
+    console.log('joined rooms');
 
-        const subscribed = await driver.subscribeToMessages();
-        console.log('subscribed');
-        
-        const msgloop = await driver.reactToMessages( processMessages );
-        console.log('connected and waiting for messages');
+    const subscribed = await driver.subscribeToMessages();
+    console.log('subscribed');
 
-        const sent = await driver.sendToRoom( BOTNAME + ' is listening ...', ROOMS[0]);
-        console.log('Greeting message sent');
+    const msgloop = await driver.reactToMessages( processMessages );
+    console.log('connected and waiting for messages');
+
+    const sent = await driver.sendToRoom( BOTNAME + ' is listening ...', ROOMS[0]);
+    console.log('Greeting message sent');
+}
+
+// Process messages
+const processMessages = async(err, message, messageOptions) => {
+if (!err) {
+    if (message.u._id === myUserId) return;
+    const roomname = await driver.getRoomName(message.rid);
+
+    console.log('got message ' + message.msg)
+    var response;
+    if (message.msg in respmap) {
+        response = respmap[message.msg];
     }
-
-    // Process messages
-    const processMessages = async(err, message, messageOptions) => {
-    if (!err) {
-        if (message.u._id === myUserId) return;
-        const roomname = await driver.getRoomName(message.rid);
-
-        console.log('got message ' + message.msg)
-        var response;
-        if (message.msg in respmap) {
-            response = respmap[message.msg];
-        } 
-        const sentmsg = await driver.sendToRoomId(response, message.rid)
-        }
+    const sentmsg = await driver.sendToRoomId(response, message.rid)
     }
+}
 
-    runbot()
-    ```
+runbot()
+```
 
-    **NOTE:** Adjust the `Environment Setup` section content to fit your server and user credentials.
-    
-    Make sure `<BOT USER NAME>` has `BOT` role on the server.
-    For more information about that, please refer to [this page](../#1-create-a-bot-user).
+**NOTE:** Adjust the `Environment Setup` section content to fit your server and user
+credentials.
+
+Make sure `<BOT USER NAME>` has `BOT` role on the server.
+For more information about that, please refer to [this page](../#1-create-a-bot-user).
 
 1. create a `reply.js` file with the following content:
 
-    ```js
-    const respmap = {
-        "hi" : "hey",
-        "u da bot" : "no, YOU da bot",
-        "no u da bot" : "Come'on - YOU DA BOT!!",
-        "I give up" : "ok. silly human :rolleyes:"
-    };
+```js
+const respmap = {
+    "hi" : "hey",
+    "u da bot" : "no, YOU da bot",
+    "no u da bot" : "Come'on - YOU DA BOT!!",
+    "I give up" : "ok. silly human :rolleyes:"
+};
 
-    module.exports = respmap;
-    ```
+module.exports = respmap;
+```
 
 **3. run the bot**
 
