@@ -183,7 +183,7 @@ Retrieve the visitor info
 
 | URL                                      | Requires Auth | HTTP Method |
 | :--------------------------------------- | :------------ | :---------- |
-| `/api/v1/livechat/visitors.info`           | `yes`          | `GET`       |
+| `/api/v1/livechat/visitors.info`         | `yes`         | `GET`       |
 
 ## Query Parameter
 
