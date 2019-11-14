@@ -13,7 +13,7 @@ In this guide, we will go over all settings in the _Accounts_ Section.
 - **Allow User Email Change**: Setting this to false will block users from changing their email
 - **Allow User Password Change**: Setting this to false will block users from changing their password.
 
-<!-- - __Custom Fields to Show in User Info__: link to dedicated custom field document -->
+- **Custom Fields to Show in User Info**: [Custom Fields](https://rocket.chat/docs/administrator-guides/custom-fields/)
 
 - **Login Expiration in Days**: After this number of days of inactivity the user will be logged out.
 - **Show form-based Login**: Setting this to false will remove the login form from the login screen. This setting is useful when you are using a third-party login system.
