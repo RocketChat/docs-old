@@ -53,6 +53,13 @@
     Livechat API: livechat-api/
 
 -
+  name: Security
+  icon: install.svg
+  description: Security documentation
+  path: security/
+  pages:
+
+-
   name: Bots
   icon: install.svg
   description: Guides for using bots in Rocket.Chat

@@ -812,6 +812,15 @@ h6:hover .header-link {
 
 @media all and (min-width: 2000px) {
   .article-toc-wrapper{
-    left: 70vw;
+    left: 80vw;
+  }
+}
+
+@media (min-width: 2000px) {
+  .wrapper.main {
+    width: 90%;
+  }
+  .article-toc-wrapper {
+    max-width: 100%;
   }
 }
