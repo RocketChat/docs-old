@@ -315,6 +315,7 @@
         - getMessage
         - getMessageReadReceipts
         - getPinnedMessages
+        - getSnippetedMessageById
         - getStarredMessages
         - getThreadMessages
         - getThreadsList
