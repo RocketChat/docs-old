@@ -14,7 +14,6 @@ Authenticate with Facebook.
 | `accessToken` | `hash`                          | Required | Access token provided by facebook oauth   |
 | `secret`      | `hash`                          | Required | The secret provided by facebook for app   |
 | `expiresIn`   | `200`                           | Required | Lifetime of token(in seconds)             |
-| `identity`    | `{id: '1', name: 'rocket.cat'}` | Optional | Facebook user identity                    |
 
 ## Example Call - As JSON
 

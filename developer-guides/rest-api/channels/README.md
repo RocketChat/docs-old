@@ -8,6 +8,7 @@ These methods apply to public channels only. Use `groups.*` methods for private 
 | `/api/v1/channels.addLeader` | Gives the role of Leader for a user in the current channel. | [Link](addleader/) |
 | `/api/v1/channels.addModerator` | Gives the role of moderator to a user in a channel. | [Link](addmoderator/) |
 | `/api/v1/channels.addOwner` | Gives the role of owner to a user in a channel. | [Link](addowner/) |
+| `/api/v1/channels.anonymousread` | Gets the messages in public channels to an anonymous user  | [Link](anonymousread/)  |
 | `/api/v1/channels.archive` | Archives a channel. | [Link](archive/) |
 | `/api/v1/channels.close` | Removes a channel from a user's list of channels. | [Link](close/) |
 | `/api/v1/channels.counters` | Gets channel counters. | [Link](counters/) |

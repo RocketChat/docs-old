@@ -8,9 +8,9 @@ Under Administration Settings -> Apps -> Giphy
 
 ![Giphy Preview](https://i.imgur.com/v5dYBMo.gif)
 
-Thanks to **Reiske.Tech**
+Thanks to **RocketBooster**
 
-- <https://apis.reiske.tech/giphy>
+- <https://apps.rocketbooster.net/giphy>
 
 ## GifRocket
 

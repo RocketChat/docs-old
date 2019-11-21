@@ -10,10 +10,10 @@ Post a message with attached file to a dedicated room.
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `:rid` | `GENERAL` | Required | Room ID where to post a message |
 | `file` | `$HOME/example.txt` | Required | A file name to upload |
 | `msg` | `This is a message with a file` | Optional | A message text |
 | `description` | `Simple text file` | Optional | A description of the file |
+| `tmid` | `vg3h21v31v23` | Optional | The thread message id (if you want upload a file to a thread) |
 
 ## Example Call
 

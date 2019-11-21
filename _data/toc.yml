@@ -51,6 +51,7 @@
     - High Availability Install
     - Available Images
     - Docker Compose
+  - RocketChatCTL
   - Manual Installation:
     - CentOS
     - Debian
@@ -89,6 +90,7 @@
   - Talking to users from another server
   - Channels
   - Messaging
+  - Message Actions
   - Channel Actions
   - Managing your Account
   - End to End Encryption
@@ -99,7 +101,8 @@
   - Authentication:
     - CAS
     - Ldap
-    - Oauth
+    - Oauth:
+      - Okta
       - Keycloak
     - SAML:
       - Oracle Cloud
@@ -144,7 +147,6 @@
     - NextCloud and WebDAV
     - NewRelic
     - nixstats
-    - Osticket
     - PagerDuty
     - Prometheus
     - ReviewBoard
@@ -166,6 +168,7 @@
   - Livechat:
     - Livechat Queues
     - Omnichannel Integration
+    - Whatsapp Twilio
   - Notifications:
     - Push Notifications
   - Permissions
@@ -178,6 +181,7 @@
   - Retention Policies
   - Settings Via Env Vars
   - Youtube Broadcasting
+  - Troubleshooting
 - Developer guides:
     - Quick Start
     - Branches and Releases
@@ -198,11 +202,6 @@
       - Supporting SSL
     - Developing Apps:
       - Getting Started
-    - GraphQL API:
-       - Authentication
-       - Schema
-       - Setup
-       - Subscription
     - Realtime-API:
       - Method Calls:
         - Login
@@ -262,11 +261,16 @@
         - logout
         - me
         - twitter
+      - AutoTranslate:
+        - getSupportedLanguages
+        - saveSettings
+        - translateMessage
       - Channels:
         - addAll
         - AddLeader
         - addModerator
         - addOwner
+        - anonymousread
         - archive
         - close
         - counters
@@ -307,8 +311,12 @@
         - delete
         - followMessage
         - getDeletedMessages
+        - getMentionedMessages
         - getMessage
         - getMessageReadReceipts
+        - getPinnedMessages
+        - getSnippetedMessageById
+        - getStarredMessages
         - getThreadMessages
         - getThreadsList
         - pinMessage
@@ -393,9 +401,13 @@
         - config
         - custom-fields
         - department
+        - inquiries.list
+        - inquiries.take
         - message
         - room
+        - rooms
         - sms-incoming
+        - triggers
         - users
         - video-call
         - visitor
@@ -413,6 +425,7 @@
         - create
         - list
         - addUserToRole
+        - getUsersInRole
       - Push:
         - push.token
         - deletePushToken
@@ -478,12 +491,12 @@
       - Themes
 - Bots:
   - Bots Architecture
-  - Creating Bot Users
   - Configure Bot Environment
+  - Create and run a Bot:
+    - Botkit Bot
+    - Hubot Bot
+    - Botpress Bot
+    - Rasa Bot
   - Running a bBot Bot
-  - Running a Hubot Bot
-  - Running a Botkit Bot
-  - Running a Rasa Bot
-  - Running a Botpress Bot
 - Community Cookbook:
   - Remote Video Monitoring

@@ -1,4 +1,4 @@
-# Jira Server Integration
+# Atlassian Jira Server Integration
 
 Here you will find how to install and use the Jira Server Integration.
 
@@ -6,7 +6,7 @@ Here you will find how to install and use the Jira Server Integration.
 
 You can install our Jira Server Integration Rocket.Chat App from your Rocket.Chat Administration area.
 
-- Go to **Administration > Apps**
+- Go to **Administration > Marketplace**
 - Search for the **Jira Server Integration** and click on the item
 - Click on the **Install** button
 - Click on **Activate**

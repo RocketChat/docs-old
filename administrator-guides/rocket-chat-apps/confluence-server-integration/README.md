@@ -1,10 +1,10 @@
-# Confluence Server Integration
+# Atlassian Confluence Server Integration
 
 ## Installation
 
 You can install our Confluence Server Integration Rocket.Chat App from your Rocket.Chat Administration area.
 
-- Go to **Administration** > **Apps**
+- Go to **Administration** > **Marketplace**
 - Search for the **Confluence Server Integration** and click on the item
 - Click on the **Install** button
 - Click on **Activate**

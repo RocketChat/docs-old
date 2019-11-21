@@ -13,6 +13,10 @@ redirect_from:
 
 Applications for the GSoC 2019 season have now closed.   Please see [GSoC timeline](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#timeline) for more details.
 
+### Update on July 10, 2019
+
+First evaluation has completed! Coding continues at a feverish pace.  Progress has been smooth across the projects. Projects are ontrack based on weekly mini-milestones agreed between mentors and students. Mentors are busy making sure that every student receive his/her detailed evaluation and payment.  Students have also completed evaluation for their mentor(s).  Many students are preparing their project for interim demo and reviews by our core team. During this first evaluation, we have decided to fail one student due to no communications with mentor.  We also had to remove a mentor due to lack of available participation time.
+
 ### Update on May 28, 2019
 
 Coding has begun!  This year continues to be the most active and productive GSoC year at Rocket.Chat.  During the bonding period, our students continued to assist community in public channels, interact with core team, contribute to bug fixes and documenation updates.  They have also worked with their mentors to add detailed schedule to their proposal, reflecting measurable goals/milestones.  Coding and detailed design work have started across all active projects.  In addition, we are happy to welcome a team of community mentors from Credit Suisse Singapore, already well experienced with our core and native mobile code bases, to assist us this season.

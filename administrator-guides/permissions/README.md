@@ -61,10 +61,10 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | create-user | Permission to create new users. Accessible from Administration -> Users. Click the + sign found on the top right hand corner of the Users list to create a new user.
 | delete-c | Permission to delete public channels.
 | delete-d | Permission to delete direct messages.
-| delete-message | Permission to delete a message within a channel. See [deleting messages](../../user-guides/messaging/#deleting-messages).
+| delete-message | Permission to delete a message within a channel.
 | delete-p | Permission to delete private channels.
 | delete-user | Permission to delete users.
-| edit-message | Permission to edit a message. See [editing messages](../../user-guides/messaging/#editing-messages).
+| edit-message | Permission to edit a message.
 | edit-other-user-active-status | Permission to enable or disable other accounts. Accessible from Administration -> Users.
 | edit-other-user-info | Permission to change other user's name, username or email address. Accessible from Administration -> Users.
 | edit-other-user-password | Permission to modify other user's passwords. Requires edit-other-user-info permission. Accessible from Administration -> Users.
