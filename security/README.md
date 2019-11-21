@@ -25,7 +25,7 @@ These are resource that you can find outside Rocket.Chat's Security Documentatio
 
 ### Our Website
 
-- [Security Solution](https://rocket.chat/https://rocket.chat/security)
+- [Security Solution](https://rocket.chat/security)
 
 ### Rocket.Chat Handbook
 
