@@ -91,6 +91,52 @@ RocketChat(function() {
 });
 ```
 
+#### _Set Language for Widget_
+
+There are number of language options, which you can choose from to set language for your widget. To check supported languages refer [here](https://github.com/RocketChat/Rocket.Chat.Livechat/tree/dev/src/i18n). To set language of widget use the following code.
+
+```javascript
+RocketChat(function() {
+    this.setLanguage('af');
+});
+```
+
+#### _Change widget visibility_
+
+You can either hide or show widget in your website. To hide widget use the following code.
+
+```javascript
+RocketChat(function() {
+    this.hideWidget();
+});
+```
+
+To show widget use the following code.
+
+```javascript
+RocketChat(function() {
+    this.showWidget();
+});
+```
+
+#### _Change widget window state_
+
+You can either open or close then widget in your website. To open widget(default state) use the following code.
+
+```javascript
+RocketChat(function() {
+    this.maximizeWidget();
+});
+```
+
+To close the widget use the following code.
+
+```javascript
+RocketChat(function() {
+    this.minimizeWidget();
+});
+```
+
 ### Events
 
 #### _onChatMaximized_
@@ -175,10 +221,71 @@ RocketChat(function() {
 });
 ```
 
+#### _onWidgetHidden_
+
+Fired when widget is hidden.
+
+```javascript
+RocketChat(function() {
+    this.onWidgetHidden(function(data) {
+        // do whatever you want
+        console.log('chat widget hidden');
+    });
+});
+```
+
+#### _onAssignAgent_
+
+Fired when an agent is assigned to the chat.
+
+```javascript
+RocketChat(function() {
+    this.onAssignAgent(function(data) {
+        // data is an object containing the following fields: name, username and status
+
+        // do whatever you want
+        console.log('Agent assigned');
+    });
+});
+```
+
+#### _onWidgetShown_
+
+Fired when widget is shown.
+
+```javascript
+RocketChat(function() {
+    this.onWidgetShown(function(data) {
+        // do whatever you want
+        console.log('chat widget shown');
+    });
+});
+```
+
+#### _onAgentStatusChange_
+
+Fired when the status of the current agent changes.
+
+```javascript
+RocketChat(function() {
+    this.onAgentStatusChange(function(data) {
+        // data is an object containing the following fields: name, username and status
+
+        // do whatever you want
+        console.log('The status of the agent has changed');
+    });
+});
+```
+
 ## Change Log
 
 | Version | Description                                                                                                                                            |
 | :------ | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2.2.0   | Added `maximizeWidget` and `minimizeWidget` methods. |
+| 1.3.0   | Added `onAssignAgent` and `onAgentStatusChange` methods. |
+| 1.1.0   | Added `showWidget` and `hideWidget` methods along with `onWidgetHidden` and `onWidgetShown` events|
+| 1.0.0   | Added `setLanguage` method |
+| 1.0.0   | Added `setLanguage` methods |
 | 0.66.0  | Added `setGuestToken`, `setGuestName`, `setGuestEmail` and `registerGuest` methods.                                                                    |
 | 0.53.0  | Added callback events and the ability to pass a flag to `setCustomField` so the value passed does not get wrote if there is already an existing value. |
 | 0.36.0  | Added `setTheme` method                                                                                                                                |

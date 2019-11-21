@@ -1,4 +1,4 @@
-# User Get Username Suggestion
+# Get Username Suggestion
 
 Gets a suggestion a new username to user.
 

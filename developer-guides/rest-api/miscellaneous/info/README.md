@@ -4,12 +4,12 @@ A simple method, requires no authentication, that returns information about the 
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/info` | `no` | `GET` |
+| `/api/info` | `no` | `GET` |
 
 ## Example Call
 
 ```bash
-curl http://localhost:3000/api/v1/info
+curl http://localhost:3000/api/info
 ```
 
 ## Example Result

@@ -1,4 +1,4 @@
-# Info
+# Directory
 
 A method, that searches by users or channels on all users and channels available on server.
 It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/)
@@ -68,7 +68,7 @@ curl -H "X-Auth-Token: ijFlJ1yfidXhwEYY284Anoq_iEsOeMMVCupzNhX22tB" \
             "ts": "2018-05-15T19:10:54.689Z",
             "name": "general",
             "usernames": [
-                "rocketchat.internal.admin.test"
+                "rocketchat.internal.admin.test",
                 "editedusernameuser.test.1526941091574"
             ]
         }

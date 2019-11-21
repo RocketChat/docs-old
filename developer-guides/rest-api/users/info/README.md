@@ -1,4 +1,4 @@
-# User Information
+# Info
 
 Retrieves information about a user, the result is only limited to what the callee has access to view.
 It supports  [Fields Query Parameter](../../query-and-fields-info/) with the `userRooms` field, that returns the rooms that the user is part of.

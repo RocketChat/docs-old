@@ -1,6 +1,6 @@
 # Channel Members List
 
-Lists all channel users. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/) along with [Query and Fields Query Parameters](../../query-and-fields-info/).
+Lists all channel users. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

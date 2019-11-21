@@ -37,6 +37,7 @@
     Livechat: livechat/
     File Upload: file-upload/
     Integrations: integrations/
+    Rocket.Chat Apps: rocket-chat-apps/
 
 -
   name: Developer Guides
@@ -50,7 +51,13 @@
     Rest API: rest-api/
     Realtime API: realtime-api/
     Livechat API: livechat-api/
-    GraphQL API: graphql-api/
+
+-
+  name: Security
+  icon: install.svg
+  description: Security documentation
+  path: security/
+  pages:
 
 -
   name: Bots
@@ -59,9 +66,8 @@
   path: bots/
   pages:
     Bots Architecture: bots-architecture/
-    Bots FAQ: bots-faq/
+    Create a Bot: create-and-run-a-bot/
     Configuring Bots: configure-bot-environment/
-    Creating Bots Users: creating-bot-users/
 
 -
   name: Contributing

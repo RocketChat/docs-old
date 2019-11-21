@@ -1,5 +1,7 @@
 # Login with Facebook
 
+Authenticate with Facebook.
+
 | URL             | Requires Auth | HTTP Method |
 | :-------------- | :------------ | :---------- |
 | `/api/v1/login` | `no`          | `POST`      |
@@ -12,7 +14,6 @@
 | `accessToken` | `hash`                          | Required | Access token provided by facebook oauth   |
 | `secret`      | `hash`                          | Required | The secret provided by facebook for app   |
 | `expiresIn`   | `200`                           | Required | Lifetime of token(in seconds)             |
-| `identity`    | `{id: '1', name: 'rocket.cat'}` | Optional | Facebook user identity                    |
 
 ## Example Call - As JSON
 
@@ -50,7 +51,8 @@ curl -H "Content-type:application/json" \
             ],
             "settings": {
                 "preferences": {}
-              }
+              },
+            "avatarUrl": "http://localhost:3000/avatar/test"
         }
     }
 }
@@ -60,5 +62,6 @@ curl -H "Content-type:application/json" \
 
 | Version | Description |
 | :--- | :--- |
+| 1.0.0 | Added `avatarUrl` property to response |
 | 0.64.0 | Added `me` property to response |
 | 0.63.0 | Added |

@@ -1,5 +1,7 @@
 # Login with Twitter
 
+Authenticate with Twitter.
+
 | URL             | Requires Auth | HTTP Method |
 | :-------------- | :------------ | :---------- |
 | `/api/v1/login` | `no`          | `POST`      |
@@ -14,7 +16,6 @@
 | `appSecret`         | `hash`                          | Required | The secret provided by twitter for app        |
 | `appId`             | `hash`                          | Required | The id provided by twitter for app            |
 | `expiresIn`         | `200`                           | Required | Lifetime of token(in seconds)                 |
-| `identity`          | `{id: '1', name: 'rocket.cat'}` | Optional | Twitter user identity                          |
 
 ## Example Call - As JSON
 
@@ -52,7 +53,8 @@ curl -H "Content-type:application/json" \
             ],
             "settings": {
                 "preferences": {}
-              }
+              },
+            "avatarUrl": "http://localhost:3000/avatar/test"
         }
    }
 }
@@ -62,5 +64,6 @@ curl -H "Content-type:application/json" \
 
 | Version | Description |
 | :--- | :--- |
+| 1.0.0 | Added `avatarUrl` property to response |
 | 0.64.0 | Added `me` property to response |
 | 0.63.0 | Added |

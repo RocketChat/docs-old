@@ -1,5 +1,7 @@
 # Login
 
+Login with your username and password.
+
 | URL             | Requires Auth | HTTP Method |
 | :-------------- | :------------ | :---------- |
 | `/api/v1/login` | `no`          | `POST`      |
@@ -11,11 +13,11 @@
 | `user` | `foo@bar.com` OR `myusername` | Required | Your username or email |
 | `password` | `my$up3erP@ssw0rd` | Required | Your password |
 
-## Notes
+**Notes**
 
--> **You will need to provide the `authToken` and `userId` for any of the authenticated methods.** <br/>
--> **If your user has two-factor(2FA) authentication enabled, you must send a request like [this](#example-call---when-two-factor2fa-authentication-is-enabled).** <br/>
--> **If LDAP authentication is enabled, you must maintain the login in the same way as you normally do. Similarly if 2FA is enabled for an LDAP user. Everything stays the same.** <br/>
+- **You will need to provide the `authToken` and `userId` for any of the authenticated methods.** <br/>
+- **If your user has two-factor(2FA) authentication enabled, you must send a request like [this](#example-call---when-two-factor2fa-authentication-is-enabled).** <br/>
+- **If LDAP authentication is enabled, you must maintain the login in the same way as you normally do. Similarly if 2FA is enabled for an LDAP user. Everything stays the same.** <br/>
 
 ## Example Call - As Form Data
 
@@ -84,7 +86,8 @@ curl -H "Content-type:application/json" \
             ],
             "settings": {
                 "preferences": {}
-              }
+              },
+            "avatarUrl": "http://localhost:3000/avatar/test"
         }
    }
 }
@@ -94,5 +97,6 @@ curl -H "Content-type:application/json" \
 
 | Version | Description |
 | :--- | :--- |
+| 1.0.0 | Added `avatarUrl` property to response |
 | 0.64.0 | Added `me` property to response |
 | 0.60.0 | Added |

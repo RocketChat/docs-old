@@ -12,7 +12,7 @@ Then browse to `http://localhost:3000` and setup Rocket.Chat.
 
 Snaps are secure. Rocket.Chat and all of its dependencies are isolated from the rest of your system. Snaps also auto update when we release a new version. So no need more hassle updating.
 
-On Ubuntu 14.04LTS, install `snapd` first:
+On Ubuntu 16.04LTS, install `snapd` first:
 
 ```
 sudo apt-get install snapd
@@ -32,11 +32,11 @@ If you have special requirements and really need to use the latest release immed
 
 Check out our guide for enabling caddy [here](../../../../installation/manual-installation/ubuntu/snaps/autossl/).
 
-### Ubuntu 16.04 LTS gives message "snap not found", whats wrong?
+### Ubuntu 16.04 LTS gives message "snap not found", what's wrong?
 
 Make sure you're using x64 or amd64 (or armhf) images, especially on VPS or VMs. x86 (32-bit) is not supported.
 
-### How do I manually update to new release?
+### How do I manually update to a new release?
 
 While updates happen automatically usually within 6 hours from time of release, you can update manually by issuing this command:
 
@@ -214,9 +214,9 @@ You can do this by issuing the following command, where `N` is the desired versi
 snap remove --revision=N rocketchat-server
 ```
 
-<!--### I need to install snaps on a computer with out a network, how do I get the snaps?
+<!--### I need to install snaps on a computer without a network, how do I get the snaps?
 
-You will need two things.  First you need the ubuntu-core snap.  This is a base snap that is normally auto downloaded if you are connected to the internet.  You can get this via:
+You will need two things.  First, you need the ubuntu-core snap.  This is a base snap that is normally auto downloaded if you are connected to the internet.  You can get this via:
 
 ```
 curl -X GET -H "Content-Type: application/json" -H "X-Ubuntu-Series: 16" -H "X-Ubuntu-Architecture: amd64" "https://search.apps.ubuntu.com/api/v1/snaps/details/ubuntu-core?channel=stable&confinement=strict"
@@ -244,7 +244,7 @@ sudo ./strace
 
 ### How do I change rocket.chat PORT, MONGO_URL and MONGO_OPLOG_URL in my snap?
 
-Starting from relase 0.73 is possible to configure these environmental variables through snap hooks like this:
+Starting from release 0.73, it is possible to configure these environmental variables through snap hooks like this:
 
 ```bash
 sudo snap set rocketchat-server port=<another-port>
@@ -268,7 +268,7 @@ sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
 
 ### How do I change other environmental variables in my snap?
 
-Starting from relase 0.73 is possible to overwrite any rocket.chat environmental variables dropping files ending in `.env` in $SNAP_COMMON directroy (`/var/snap/rocketchat-server/common/`), for example you can create a file to change SMTP settings:
+Starting from release 0.73, it is possible to overwrite any rocket.chat environmental variables dropping files ending in `.env` in $SNAP_COMMON directory (`/var/snap/rocketchat-server/common/`), for example, you can create a file to change SMTP settings:
 
 ```bash
 cat /var/snap/rocketchat-server/common/overwrite-smtp.env

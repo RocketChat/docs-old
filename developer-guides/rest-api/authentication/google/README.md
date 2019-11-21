@@ -1,5 +1,7 @@
 # Login with Google
 
+Authenticate with Google.
+
 | URL             | Requires Auth | HTTP Method |
 | :-------------- | :------------ | :---------- |
 | `/api/v1/login` | `no`          | `POST`      |
@@ -13,7 +15,6 @@
 | `idToken`     | `hash`                          | Required | Id token provided by google auth      |
 | `expiresIn`   | `200`                           | Required | Lifetime of token(in seconds)         |
 | `scope`       | `profile`                       | Optional | Google scopes for API                 |
-| `identity`    | `{id: '1', name: 'rocket.cat'}` | Optional | Google user identity                  |
 
 ## Example Call - As JSON
 
@@ -51,7 +52,8 @@ curl -H "Content-type:application/json" \
           ],
           "settings": {
               "preferences": {}
-            }
+            },
+          "avatarUrl": "http://localhost:3000/avatar/test"
       }
    }
 }
@@ -61,6 +63,7 @@ curl -H "Content-type:application/json" \
 
 | Version | Description |
 | :--- | :--- |
+| 1.0.0 | Added `avatarUrl` property to response |
 | 0.64.0 | Added `me` property to response |
 | 0.60.0 | Added |
 

@@ -1,4 +1,4 @@
-# User Set Photo/Avatar
+# Set Avatar
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

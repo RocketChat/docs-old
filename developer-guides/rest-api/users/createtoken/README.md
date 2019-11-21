@@ -1,4 +1,10 @@
-# User Create Token
+# Create Token
+
+**IMPORTANT**
+<br>
+To be able to use this endpoint you must set the ENV VAR (CREATE_TOKENS_FOR_USERS).
+
+Create a user authentication token. Requires `user-generate-access-token` permission.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -10,7 +16,7 @@
 | :--- | :--- | :--- | :--- |
 | `userId` or `username` | `BsNr28znDkG8aeo7W` | Required | The id or username of the user. |
 
-## Example Call
+## Example Call - Via userId
 
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
@@ -32,8 +38,31 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
+## Example Call - Via username
+
+```bash
+curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
+     -H "X-User-Id: aobEdbYhXfu5hkeqG" \
+     -H "Content-type:application/json" \
+     http://localhost:3000/api/v1/users.createToken \
+     -d '{ "username": "test" }'
+```
+
+## Example Result
+
+```json
+{
+  "data": {
+    "userId": "BsNr28znDkG8aeo7W",
+    "authToken": "2jdk99wuSjXPO201XlAks9sjDjAhSJmskAKW301mSuj9Sk",
+  },
+  "success": true
+}
+```
+
 ## Change Log
 
 | Version | Description |
 | :--- | :--- |
+| 2.1.0 | Added ENV VAR to be able to use this endpoint (process.env.CREATE_TOKENS_FOR_USERS). |
 | 0.56.0 | Added |

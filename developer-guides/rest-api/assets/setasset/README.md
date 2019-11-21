@@ -1,4 +1,6 @@
-# Asset Set Asset by name
+# Set Asset
+
+Set an asset by name. Requires `manage-assets` permission.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

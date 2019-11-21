@@ -1,5 +1,7 @@
 # Deploying Rocket.Chat on IBM Bluemix
 
+**Note: Has not yet been updated to work with 1.0**
+
 IBM Bluemix includes three separate cloud platforms
 
 - CloudFoundry Runtimes

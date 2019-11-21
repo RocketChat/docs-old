@@ -1,4 +1,4 @@
-# Permission Methods
+# Permissions Methods
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |

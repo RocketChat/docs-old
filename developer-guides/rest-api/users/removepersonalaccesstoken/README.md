@@ -1,4 +1,6 @@
-# User Remove Personal Access Token
+# Remove Personal Access Token
+
+Remove a personal access token. Requires `create-personal-access-tokens` permission.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

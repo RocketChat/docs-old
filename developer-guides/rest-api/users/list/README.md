@@ -1,4 +1,4 @@
-# User List
+# List
 
 Gets all of the users in the system and their information, the result is only limited to what the callee has access to view.
 It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/) along with [Query and Fields Query Parameter](../../query-and-fields-info/).

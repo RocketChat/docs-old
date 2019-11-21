@@ -12,8 +12,9 @@ one channel whereas the other one allows for sending to more than one channel at
 
 | Argument                    | Example                                 | Required      | Description                                                                                                 |
 | :-------------------------- | :-------------------------------------- | :------------ | :---------------------------------------------------------------------------------------------------------- |
-| `message._id`               | `ByehQjC44FwMeiLbX`                     | <br> Required | The _id of message.                                                             |
+| `message._id`               | `ByehQjC44FwMeiLbX`                     | <br> Required | The _id of message.                                                                                         |
 | `message.rid`               | `ByehQjC44FwMeiLbX`                     | <br> Required | The room id of where the message is to be sent.                                                             |
+| `message.tmid`              | `ByehQCh2435MeiLbX`                     | Optional      | The message's id to create a thread.                                                                        |
 | `message.msg`               | `Sample message`                        | Optional      | The text of the message to send, is optional because of attachments.                                        |
 | `message.alias`             | `Some Name`                             | Optional      | This will cause the message's name to appear as the given alias, but your username will still display.      |
 | `message.emoji`             | `:smirk:`                               | Optional      | If provided, this will make the avatar on this message be an emoji. [Emoji Cheetsheet](http://emoji.codes/) |

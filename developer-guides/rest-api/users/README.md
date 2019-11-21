@@ -2,6 +2,7 @@
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
+| `/api/v1/users.presence` | Gets all connected users presence. | [Link](presence/) |
 | `/api/v1/users.create` | Create a new user. | [Link](create/) |
 | `/api/v1/users.createToken` | Create a user authentication token. | [Link](createtoken/) |
 | `/api/v1/users.delete` | Deletes an existing user. | [Link](delete/) |
@@ -18,6 +19,7 @@
 | `/api/v1/users.regeneratePersonalAccessToken` | Regenerate a user personal access token. | [Link](regeneratepersonalaccesstoken/) |
 | `/api/v1/users.register` | Register a new user. | [Link](register/) |
 | `/api/v1/users.removePersonalAccessToken`  | Remove a personal access token.  | [Link](removepersonalaccesstoken/) |
+| `/api/v1/users.requestDataDownload`  | Request users download data.  | [Link](requestDataDownload/) |
 | `/api/v1/users.resetAvatar` | Reset a user's avatar | [Link](resetavatar/) |
 | `/api/v1/users.setAvatar` | Set a user's avatar | [Link](setavatar/) |
 | `/api/v1/users.setPreferences` | Set a user's preferences | [Link](set-preferences/) |

@@ -1,7 +1,7 @@
 # Running a Hubot bot
 
 Developers should start with (or at least reference) our example Hubot
-demonstrating usage of the Rocket.Chat adaptor:
+demonstrating usage of the Rocket.Chat adapter:
 [hubot-rocketchat-boilerplate](https://github.com/RocketChat/hubot-rocketchat-boilerplate)
 
 See [GitHub's own documentation](https://hubot.github.com/) for examples on
@@ -12,7 +12,7 @@ for Hubot projects, that can generate a bot using the Rocket.Chat adapter,
 however it does use the latest versions of Hubot or our adapter module, which
 enable asynchronous processing in ES6 Javascript, along with various bug fixes.
 
-In all cases you first need to[configure the environment](../configure-bot-environment)
+In all cases, you first need to [configure the environment](../configure-bot-environment).
 
 Deployment examples below use either the boilerplate or a Docker instance.
 
@@ -58,7 +58,7 @@ export ROCKETCHAT_USE_SSL=true
 
 Adjust the content to fit your server and user credentials. Make sure `mybotuser`
 has **BOT role** on the server, if you don't know what that means,
-[click here](../creating-bot-users).
+[click here](../create-and-run-a-bot/).
 
 Then run the bot:
 

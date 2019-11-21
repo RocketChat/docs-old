@@ -10,7 +10,7 @@ Events available:
 {
     "msg": "sub",
     "id": "unique-id",
-    "name": "stream-notify-user",
+    "name": "stream-notify-room-users",
     "params":[
         "user-id/event",
         false

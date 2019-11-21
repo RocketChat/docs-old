@@ -1,4 +1,4 @@
-# User Update own basic information
+# Update own basic information
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

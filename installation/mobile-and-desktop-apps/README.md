@@ -68,7 +68,9 @@ The experimental app for Android can be found on Google Play. Just search for `R
 
 ### React Native iOS App
 
-Currently you can only access the react native app in Apple's [TestFlight](https://developer.apple.com/testflight/). If you are interested in testing this app please send an email to `testflight@rocket.chat` with your email to be used on TestFilght.
+The experimental app for iOS can be found on the App Store. Just search for `Rocket.Chat Experimental`
+
+[Rocket.Chat Experimental on App Store](https://itunes.apple.com/us/app/rocket-chat-experimental/id1272915472)
 
 - - -
 

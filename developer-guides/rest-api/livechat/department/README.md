@@ -72,7 +72,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -X POST \
      -H "Content-type:application/json" \
      http://localhost:3000/api/v1/livechat/department \
-    -d '{"department": {"enabled": false, "showOnRegistration": true, "name": "new from api" }, "agents": [{ "agentId": "SQafHvoFPuB57NmBD", "username": "john.doe" }] }'
+    -d '{"department": {"enabled": false, "showOnRegistration": true, "name": "new from api", email: "john@doe.com", showOnOfflineForm: true }, "agents": [{ "agentId": "SQafHvoFPuB57NmBD", "username": "john.doe" }] }'
 ```
 
 ## Example Result
@@ -106,6 +106,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :------ | :---------- |
+| 1.0.0   | New fields for department updated |
 | 0.42.0  | Added       |
 
 ## Get info about a department
