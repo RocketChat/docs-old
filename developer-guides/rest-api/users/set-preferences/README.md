@@ -90,3 +90,9 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
     }
 }
 ```
+
+## Change Log
+
+| Version | Description |
+| :--- | :--- |
+| 2.3.0 | Added `desktopNotificationRequireInteraction` property. |
