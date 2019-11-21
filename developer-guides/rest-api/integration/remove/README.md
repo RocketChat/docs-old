@@ -1,6 +1,7 @@
 # Remove Integration
 
-Removes an integration from the server. Requires `manage-integrations` or `manage-own-integrations` permissions.
+Removes an integration from the server. Requires `manage-incoming-integrations` or `manage-own-incoming-integrations` permissions to be able to remove
+incoming integrations and `manage-outgoing-integrations` or `manage-own-outgoing-integrations` to be able to remove outgoing integrations.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -54,4 +55,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
+| 1.1.0 | Separate permissions in `incoming` and `outgoing`. |
 | 0.49.0 | Added |
