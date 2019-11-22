@@ -15,7 +15,7 @@ Upload sound filesin the MP3 format.
 
 ## Use your Custom Sound
 
-See [Notification Preferences](../../user-guides/channels/#notifications-preferences) to use this custom sound as a notification.
+See [Notification Preferences](../../user-guide/channels/#notifications-preferences) to use this custom sound as a notification.
 
 ## Delete/Edit Custom Sound
 

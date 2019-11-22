@@ -2,13 +2,13 @@
   name: User Guides
   icon: user.svg
   description: Guides for the basic usage of Rocket.Chat.
-  path: user-guides/
+  path: user-guide/
   pages:
     Connecting to a Server: connect-to-a-server/
     Registration: registration/
     Channels: channels/
     Messaging: messages/
-    Managing your Account: manager-your-account/
+    Managing your Account: manage-your-account/
     Talking to users from another server: talk-to-users-from-another-server/
 
 -
