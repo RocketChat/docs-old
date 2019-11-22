@@ -84,18 +84,17 @@
     - Windows Server
     - OpenSUSE
 - User guides:
-  - Connecting to a Server
+  - Connect to a Server
   - Registration
   - Login
-  - Talking to users from another server
   - Channels
+  - Channel Actions
   - Messaging
   - Message Actions
-  - Channel Actions
-  - Managing your Account
-  - End to End Encryption
   - Voice and Video Conferencing
-  - Experimental App
+  - Manage your Account
+  - Talk to users from another server
+  - End to End Encryption
 - Administrator guides:
   - Account Settings
   - Authentication:
