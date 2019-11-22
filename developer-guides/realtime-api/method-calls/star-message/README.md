@@ -39,4 +39,4 @@ The only parameter that needs to be passed in is an object with the `_id`, `rid`
 
 - [Starring Messages User Guide][1]
 
-[1]: ../../../../user-guides/messaging/
+[1]: ../../../../user-guides/messages/

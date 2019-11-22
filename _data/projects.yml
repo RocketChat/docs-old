@@ -4,12 +4,12 @@
   description: Guides for the basic usage of Rocket.Chat.
   path: user-guides/
   pages:
-    Connecting to a Server: connecting-to-a-server/
+    Connecting to a Server: connect-to-a-server/
     Registration: registration/
     Channels: channels/
-    Messaging: messaging/
-    Managing your Account: managing-your-account/
-    Talking to users from another server: talking-to-users-from-another-server/
+    Messaging: messages/
+    Managing your Account: manager-your-account/
+    Talking to users from another server: talk-to-users-from-another-server/
 
 -
   name: Installation Guides

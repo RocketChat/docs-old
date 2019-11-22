@@ -55,4 +55,4 @@ The response of a message being pinned is a new chat message which contains the 
 
 - [Pinning Messages User Guide][1]
 
-[1]: ../../../../user-guides/messaging/
+[1]: ../../../../user-guides/messages/

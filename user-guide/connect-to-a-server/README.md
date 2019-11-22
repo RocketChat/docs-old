@@ -22,7 +22,7 @@ After entering a valid Rocket.Chat server address, the [registration](../registr
 
 When using a Rocket.Chat desktop application you can connect to multiple Rocket.Chat servers.
 
-To add a new server, click the **plus** icon below the server list on the left sidebar and follow the [instructions](../connecting-to-a-server/) to connect to a Rocket.Chat server.
+To add a new server, click the **plus** icon below the server list on the left sidebar and follow the [instructions](../connect-to-a-server/) to connect to a Rocket.Chat server.
 
 ## Use the mobile app
 

@@ -132,4 +132,4 @@ After that step, other peers should be able to find you in the Rocket.Chat Feder
 
 ## Using Rocket.Chat Federation
 
-Click [here](../../user-guides/talking-to-users-from-another-server/) to learn how to use Rocket.Chat Federation.
+Click [here](../../user-guides/talk-to-users-from-another-server/) to learn how to use Rocket.Chat Federation.
