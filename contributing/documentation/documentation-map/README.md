@@ -309,6 +309,7 @@ Here you can also find what articles are incomplete and missing.
             - getMessage
             - getMessageReadReceipts
             - getPinnedMessages
+            - getSnippetedMessageById
             - getStarredMessages
             - getThreadMessages
             - getThreadsList
@@ -458,6 +459,7 @@ Here you can also find what articles are incomplete and missing.
             - regeneratePersonalAccessToken
             - register
             - removePersonalAccessToken
+            - requestDataDownload
             - resetAvatar
             - setAvatar
             - set-preferences
