@@ -104,8 +104,8 @@ Open `config` folder and create `channel-rocketchat.json` file with the followin
 ```
 
 Adjust the content to fit your server and user credentials.
-Make sure `mybotuser` has `BOT` role on the server.
-For more information about that, please refer to [this page](../#1-create-a-bot-user).
+Make sure `mybotuser` has a `BOT` role on the server.
+For more information on how to create a bot user please refer to [this page](../#1-create-a-bot-user).
 
 **3. run the bot**
 
@@ -200,7 +200,7 @@ LISTEN TRIGGERED
 
 **4. talk to your bot**
 
-On the server, login as a regular user (not the BOT user), go to `general` room, and task to your
+On the server, login as a regular user (not the BOT user), go to `general` room, and talk to your
 newly created bot:
 
 ![Botpress bot responses to user messages](./images/botpress-bot-responses.png)
