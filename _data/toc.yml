@@ -168,6 +168,7 @@
   - Livechat:
     - Livechat Queues
     - Omnichannel Integration
+    - Whatsapp Twilio
   - Notifications:
     - Push Notifications
   - Permissions
@@ -314,6 +315,7 @@
         - getMessage
         - getMessageReadReceipts
         - getPinnedMessages
+        - getSnippetedMessageById
         - getStarredMessages
         - getThreadMessages
         - getThreadsList
@@ -467,6 +469,7 @@
         - regeneratePersonalAccessToken
         - register
         - removePersonalAccessToken
+        - requestDataDownload
         - resetAvatar
         - setAvatar
         - set-preferences
@@ -494,6 +497,7 @@
     - Hubot Bot
     - Botpress Bot
     - Rasa Bot
+    - RocketChat SDK Bot
   - Running a bBot Bot
 - Community Cookbook:
   - Remote Video Monitoring

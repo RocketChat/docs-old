@@ -13,7 +13,6 @@ Environment Variable | Description
 `ROCKETCHAT_AUTH`      | Authorization method for a bot. Default: `password`. Set to `ldap` to enable LDAP login for bot users.
 `ROCKETCHAT_USER` *    | The bot's username (account name users will summon the bot with). Must be registered on your Rocket.Chat server and granted `bot` role.
 `ROCKETCHAT_PASSWORD` *| The bot user's password.
-`LISTEN_ON_ALL_PUBLIC` | Stream callbacks receive messages from all public channels (true/false). Default: `false` (only rooms the bot has joined).
 `ROCKETCHAT_ROOM`      | Stream callbacks receive messages from the listed channel name/s. Default: `GENERAL`. Accepts a comma separated list. Allows the bot to listen and respond to messages _from all newly created private groups_ where the bot's user has been added as a member. Should be empty if `LISTEN_ON_ALL_PUBLIC=true`
 **Responding to channels and DMS** |
 `RESPOND_TO_LIVECHAT`  | Stream callbacks receive messages from Livechat (true/false). Default: `false`.
@@ -39,7 +38,6 @@ The common set for the majority of bots is to listen and respond to direct messa
 channels and private groups:
 
 - `RESPOND_TO_DM=true`
-- `LISTEN_ON_ALL_PUBLIC=true`
 - `ROCKETCHAT_ROOM=''`
 
 Be aware you *must* add the bot's user as a member of the new private group(s) before it will respond.
