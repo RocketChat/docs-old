@@ -8,7 +8,6 @@ Manage Livechat related data:
 | `/api/v1/livechat/users/:type` | `POST` | Create a new Livechat agent or manager. | [info](users/index.html#register-new-agent-or-manager) |
 | `/api/v1/livechat/users/:type/:_id` | `GET` | Retrieve agent or manager data. | [info](users/index.html#get-info-about-an-agent-or-manager) |
 | `/api/v1/livechat/users/:type/:_id` | `DELETE` | Removes a Livechat agent or manager. | [info](users/index.html#removes-an-agent-or-manager) |
-| `/api/v1/livechat/users.queue` | `GET` | Retrieves users queue. | [info](users) |
 | `/api/v1/livechat/department` | `GET` | Get a list of Livechat departments. | [info](department/index.html#list-departments) |
 | `/api/v1/livechat/department` | `POST` | Creates a new Livechat department. | [info](department/index.html#register-a-new-department) |
 | `/api/v1/livechat/department/:_id` | `GET` | Retrieve a Livechat department data. | [info](department/index.html#get-info-about-a-department) |
@@ -28,6 +27,7 @@ Manage Livechat related data:
 | `/api/v1/livechat/messages.history/:rid` | `GET` | Load Livechat messages history. | [info](message/index.html#load-livechat-messages-history) |
 | `/api/v1/livechat/offline.message` | `POST` | Send a new Livechat offline message. | [info](message/index.html#send-a-new-livechat-offline-message) |
 | `/api/v1/livechat/rooms` | `GET` | Retrieves a list of livechat rooms.  | [info](rooms/)  |
+| `/api/v1/livechat/queue` | `GET` | Retrieves a list of queued chats. | [info](queue) |
 | `/api/v1/livechat/room` | `GET` | Get the Livechat room data or open a new room. | [info](room/index.html) |
 | `/api/v1/livechat/room.close` | `POST` | Close a Livechat room. | [info](room/index.html#close-livechat-room) |
 | `/api/v1/livechat/room.transfer` | `POST` | Transfer a Livechat room to another agent or department. | [info](room/index.html#transfer-livechat-room) |
