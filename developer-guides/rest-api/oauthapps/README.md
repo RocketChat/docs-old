@@ -1,5 +1,4 @@
-
-### OAuthApps Endpoints
+# OAuthApps Endpoints
 
 | Url                             | Short Description                         | Details Page       |
 | :------------------------------ | :---------------------------------------- | :----------------  |
