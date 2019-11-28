@@ -30,9 +30,9 @@ Starred messages are per chat room and are not global; each room has its list of
 
 ## Pin messages
 
-Pin a message to a channel to make that message easily accessible to all user's on the channel. To pin a message, select the **Pin Message** option in the message actions menu. Remove already pinned messages by selecting **Remove Pin**.
+Pin a message to a channel to make that message easily accessible to all users on the channel. To pin a message, select the **Pin Message** option in the message actions menu. Remove already pinned messages by selecting **Remove Pin**.
 
-_The administrator of a Rocket.Chat team sets the permissions for who can pin messages in a channel. By default, only administrators, moderators, and owners of the channel can pin messages ._
+_The administrator of a Rocket.Chat team sets the permissions for who can pin messages in a channel. By default, only administrators, moderators, and owners of the channel can pin messages._
 
 ## Reactions
 
@@ -40,7 +40,7 @@ You can react to messages with emoji.
 
 To add a reaction to a message, go to the message, click on the **smiley face icon** on the right of the message and then choose an emoji.
 
-You can see other user's emoji reactions beneath the message. To react with the same emoji as another user, click the emoji. You can also remove your reaction by clicking on your emoji.
+You can see other users’ emoji reactions beneath the message. To react with the same emoji as another user, click the emoji. You can also remove your reaction by clicking on your emoji.
 
 ## Permalink a message
 
