@@ -223,6 +223,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/livechat/inquiries.take`| Take an open inquiry.                                         | [Link](livechat/inquiries-take/) |
 | `/api/v1/livechat/rooms`         | Retrieves a list of livechat rooms.                           | [Link](livechat/rooms/)          |
 
+### OAuthApps
+
+| Url                             | Short Description                         | Details Page                 |
+| :------------------------------ | :---------------------------------------- | :--------------------------  |
+| `/api/v1/oauthApps.getOne`      | Retrieves an OAuth App by id or client id.| [Link](oauthapps/getone/)    |
+| `/api/v1/oauthApps.list`        | Retrieves a list of OAuth Apps.           | [Link](oauthapps/list)       |
+
 ### Permissions
 
 | Url                             | Short Description                | Details Page                 |

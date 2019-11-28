@@ -418,6 +418,9 @@
         - spotlight
         - statistics
         - statistics.list
+      - OAuthApps:
+        - getOne
+        - list
       - Permissions:
         - list
         - update
