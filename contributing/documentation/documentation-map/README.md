@@ -387,6 +387,7 @@ Here you can also find what articles are incomplete and missing.
             - setTopic
         - Integration:
             - create
+            - getOne
             - history
             - list
             - remove

@@ -393,6 +393,7 @@
         - setTopic
       - Integration:
         - create
+        - getOne
         - history
         - list
         - remove
