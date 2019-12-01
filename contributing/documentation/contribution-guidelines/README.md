@@ -11,7 +11,7 @@ When looking for something to work on, you have two options:
 
 ### 1. The Documentation Map
 
-You can find a map of all the files on the documentation [here](../documentation-map). There you can find what articles are missing or incomplete. This page was created so is easier for the Rocket.Chat team and the community to know the status of the documentation and what they can do to improve it.
+You can find a map of all the files on the documentation [here](../documentation-map). There you can find what articles are missing or incomplete. This page was created so that it is easier for the Rocket.Chat team and the community to know the status of the documentation and what they can do to improve it.
 
 Missing articles will be marked as <span style="color:red"> red </span>
 
