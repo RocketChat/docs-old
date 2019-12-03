@@ -1,4 +1,4 @@
-### Custom Sounds Endpoints
+# Custom Sounds Endpoints
 
 | Url                         | Short Description                                  | Details Page                               |
 | :-------------------------- | :------------------------------------------------- | :----------------------------------------- |
