@@ -3,9 +3,6 @@ permalink: /user-guide/
 redirect_from:
       - /user-guides/
 ---
-
-
-
 # User Guide
 
 From connecting to a server, using channels, and messaging other Rocket.Chat users -- learn how to get the most out of Rocket.Chat .
