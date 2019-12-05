@@ -1,4 +1,4 @@
-# Talking to users from another server
+# Talk to users from another server
 
 Once you have [added your server to the Federated Network](../../administrator-guides/federation) you can talk to users from server who have done the same.
 
