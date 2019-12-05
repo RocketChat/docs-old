@@ -48,5 +48,6 @@ Rocket.Chat is very grateful for the following people who have responsibly discl
 - [Steeve Barbeau](https://twitter.com/steevebarbeau), October/2017
 - [Johann Helbling](https://mobile.twitter.com/jhelblinghh), August 2019
 - [Maik Stegemann](https://twitter.com/sectex_), November 2019
+- ant_pyne, November 2
 
 Thank you all very much!
