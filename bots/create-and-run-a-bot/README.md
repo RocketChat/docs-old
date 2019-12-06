@@ -18,14 +18,14 @@ To create the account you need to have admin privileges:
 1. In the topbar, click the three dots (Options) and then click **Administration**
 2. Select **Users** from the left sidebar
 3. Click `+` (Add User) button in the right sidebar
-4. In the profile window that appears, fill in *Name*, *Username*, *Email* and *Password* fields
+4. In the profile window that appears, fill in *Name*, *Username* and *Email* fields
 5. Enable *Verified* toggle under the *Email* field
-6. Disable *Require password change* toggle under the *Password* field
+6. Keep *Set Random Password* and *Require password change* enabled
 7. Select `bot` from the `Add Role` dropdown menu and click *Add Role* button to the right
 8. Disable *Join default channels* and *Send welcome email* checkboxes
 9. Click *Save*
 
-Once saved, the bot will be configured with the username and password set on step 4. You can use `ROCKETCHAT_USER` and
+Once saved, the bot will be configured with the username and password set on step 4 and the temporary password be sent to the email address you registered. You can use `ROCKETCHAT_USER` and
 `ROCKETCHAT_PASSWORD` [environmental variables](../configure-bot-environment) to log in to Rocket.Chat server with this username and password pair.
 
 NOTE: to avoid creating multiple accounts for bot emails, you can use Gmail `+address` alias. For example: `youremail+botnam@gmail.com`. [See this issue for more](https://github.com/RocketChat/Rocket.Chat/issues/7125).
