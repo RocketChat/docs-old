@@ -9,7 +9,7 @@ Furthermore, rocketchatctl optionally installs a loadbalancer/proxy with auto SS
 Check it out here:
 <https://github.com/RocketChat/install.sh>
 
-## Enviroment
+## Environment
 
 Currently rocketchatctl is supported in these Linux distributions:
 

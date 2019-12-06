@@ -305,9 +305,12 @@ Here you can also find what articles are incomplete and missing.
             - delete
             - followMessage
             - getDeletedMessages
+            - getMentionedMessages
             - getMessage
             - getMessageReadReceipts
             - getPinnedMessages
+            - getSnippetedMessageById
+            - getStarredMessages
             - getThreadMessages
             - getThreadsList
             - pinMessage
@@ -398,6 +401,7 @@ Here you can also find what articles are incomplete and missing.
             - room
             - rooms
             - sms-incoming
+            - triggers
             - users
             - video-call
         - Miscellaneous:
@@ -455,6 +459,7 @@ Here you can also find what articles are incomplete and missing.
             - regeneratePersonalAccessToken
             - register
             - removePersonalAccessToken
+            - requestDataDownload
             - resetAvatar
             - setAvatar
             - set-preferences
