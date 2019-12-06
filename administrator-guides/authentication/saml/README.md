@@ -22,20 +22,20 @@ The URI that is the unique identifier of your service. By convention, this is al
 
 `https://my-rocketchat-domain.tld/_saml/metadata/my-app`
 
-### Custom Certificate (IDP Signing Certificate)
+### Custom Certificate (IdP Signing Certificate)
 
-This is the idp providers public certificate that is used to verify the SAML requests. Format for this is PEM without BEGIN CERTIFICATE and END CERTIFICATE
+This is the Identity providers public certificate. It is used by rocketchat to verify the SAML requests (response) validity. Format is PEM **WITHOUT** `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.
 
 ### Public Cert Contents (SP Signing Certificate)
 
-The public part of the self-signed certificate you created for encrypting your SAML transactions. [Example of self-signed certificate on the SimpleSAMLphp website here.](https://simplesamlphp.org/docs/stable/simplesamlphp-sp#section_1_1)
+The public part of the self-signed certificate you created for encrypting your SAML transactions. Format is PEM **WITH** `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.
 
-Format for this is PEM WITH `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.
+See [Example of self-signed certificate on the SimpleSAMLphp website here.](https://simplesamlphp.org/docs/stable/simplesamlphp-sp#section_1_1) on how to create the resp. keys.
 
 ### Private Key Contents (SP Signing Private Key)
 
-The private key matching the self-signed certificate you created as PKCS#1 PEM.
-Format for this is PEM WITH `-----BEGIN PRIVATE KEY-----` and `-----END PRIVATE KEY-----`.
+The private key part of the SP Signing Certificate. It is used to encrypt your
+SAML requests. Format is PEM **WITH** `-----BEGIN PRIVATE KEY-----` and `-----END PRIVATE KEY-----`.
 
 ### SAML assertion
 
@@ -57,8 +57,8 @@ You should now see your SP on the SimpleSAMLphp Federation page, listed as a tru
 
 The following attribute are required when returning the user information to Rocket Chat:
 
-| Idp Returned Attribute Name | Usage |
-| ------ | ------ |
-| cn | User's Full Name |
-| email | User's Email Address |
-| username | User's username |
+| Idp Returned Attribute Name | Usage                |
+| --------------------------- | -------------------- |
+| cn                          | User's Full Name     |
+| email                       | User's Email Address |
+| username                    | User's username      |

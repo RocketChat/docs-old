@@ -30,12 +30,16 @@ Login to Rocket.Chat with an administrator account and navigate to SAML page.
 3. Set *IDP SLO Redirect URL* to `<keycloak-url>/auth/realms/ElexisEnvironment/protocol/saml`
 4. Set *Custom Issuer* to `<custom-issuer>`
 
+### Optional (recommended)
+
+To validate that the correct IdP signed the SAML, set *Custom Certificate (IDP Signing Certificate)* to the `<keycloak-realm>` RS256 certificate. The respective certificate can be found here: ![Keycloak SAML Realm RS256 Certificate]
+
 ## TODO 
 
 * Mapping of Attributes
 * Certs (?) - what about them??
-
+* End SAML session setup currently does not seem to work correctly
 
 [Keycloak SAML Configuration Basic]: keycloak-saml-configuration-basic.png
-
+[Keycloak SAML Realm RS256 Certificate]: keycloak-saml-realm-256-certificate.png
 
