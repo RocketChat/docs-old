@@ -1,0 +1,171 @@
+# External API Calls
+
+Rocket.Chat comes with a range of features that call APIs for different external services. This provides more information about the data sent by Rocket.Chat services in API calls to external services.
+
+## Any URL
+
+Rocket.Chat makes API calls to URLs with data for external [Livechat&reg;](https://rocket.chat/docs/administrator-guides/livechat/) queues.
+
+## Apple&reg;
+
+Rocket.Chat makes API calls to [Apple](https://developer.apple.com/documentation/) with data such as user ID, user name, and the message for [Push Notifications](https://martinschoeler.github.io/docs/administrator-guides/notifications/push-notifications/).
+
+## Atlassian CROWD&reg;
+
+Rocket.Chat makes API calls with user name, email, and password data to authenticate [Crowd](https://www.atlassian.com/software/crowd). Check the [integrations with Atlassian&reg;](https://rocket.chat/atlassian) for more information.
+
+## AWS S3 Storage
+
+Rocket.Chat makes API calls with file paths for file uploads from [AWS S3 Storage&reg;](https://docs.aws.amazon.com/AmazonS3/latest/dev/Introduction.html). Check the [configuration available for Amazon S3&reg;](https://rocket.chat/docs/administrator-guides/file-upload/amazon-s3/) for more information.
+
+## BBB Web Conferencing
+
+Since [Rocket.Chat 0.69](https://rocket.chat/2018/09/07/0-69-release/), Rocket.Chat supports [Big Blue Button&reg; Web Conferencing](https://docs.bigbluebutton.org/) and makes API calls to obtain data, such as the meeting ID.
+
+## Blockstack&reg;
+
+Rocket.Chat makes API calls to get Auth data from [Blockstack](https://blockstack.org/) for the Custom OAuth service. Check the [Rocket.Chat OAuth Provider configuration](https://rocket.chat/docs/administrator-guides/authentication/oauth/) for more information.
+
+## Boonex Dolphin&reg;
+
+Rocket.Chat makes API calls to get Auth data from [Boonex Dolphin](https://www.boonex.com/trac/dolphin/wiki) for the Custom OAuth service. Check the [integration of Boonex Dolphin&reg; OAuth](https://www.boonex.com/n/rocket-chat-adds-boonex-dolphin-oauth-to-core-pack) for more information.
+
+## Bugsnag&reg;
+
+Rocket.Chat makes API calls to [Bugsnag](https://www.bugsnag.com/) to send error reports based on data from error stacks. Check [Bugsnag Error Reporting API](https://docs.bugsnag.com/product/integrations/) for more information.
+
+## CAS
+
+Rocket.Chat makes API calls to get Auth data from Central Authentication Service (CAS) servers for the Custom OAuth service. Check the [Rocket.Chat CAS configuration](https://rocket.chat/docs/administrator-guides/authentication/cas/) for more information.
+
+## Chatpal Search&reg;
+
+Rocket.Chat makes API calls to [Chatpal Search](https://chatpal.io/) with data from messages (id, rid, text, type), rooms (id, name, announcement, description, topic), and users (id, username, name, email).
+
+## Datadog&reg;
+
+Rocket.Chat makes API calls to [Datadog](https://www.datadoghq.com/) with metrics, such as the time-to-execute callbacks. Check the [_Datadog Introduction to Integration_](https://docs.datadoghq.com/getting_started/integrations/) for more information.
+
+## DEEPL&reg;
+
+Rocket.Chat makes API calls from the autotranslate service to [DEEPL](https://www.deepl.com/en/docs-api.html) with data from message content and attachments descriptions.
+
+## Dialogflow&reg;
+
+Rocket.Chat makes API calls to [Dialogflow](https://dialogflow.com/) to obtain data such as visitor, agent, messages, custom fields, and tags for the [Livechat](https://rocket.chat/docs/administrator-guides/livechat/) service.
+
+## Drupal&reg;
+
+Rocket.Chat makes API calls to obtain Auth data from [Drupal](https://www.drupal.org/home) for the Custom OAuth service. Check the [Rocket.Chat module for Drupal 8 and 7](https://www.drupal.org/project/rocket_chat) for more information.
+
+## Facebook&reg;
+
+Rocket.Chat makes API calls to obtain Auth data from [Facebook](https://developers.facebook.com/docs/apis-and-sdks) for the [Custom OAuth service](https://rocket.chat/docs/administrator-guides/livechat/omnichannel-integration/). The [Livechat Omnichannel service](https://rocket.chat/docs/administrator-guides/livechat/omnichannel-integration/) also sends APIs to obtain data, such as visitor, agent, messages, custom fields, and tags.
+
+## GitHub&reg;
+
+Rocket.Chat makes API calls to obtain Auth data from [GitHub](https://github.com/) for the Custom OAuth service. Check the [Rocket.Chat OAuth Provider configuration](https://rocket.chat/docs/administrator-guides/authentication/oauth/#github) for more information.
+
+## GitLab Inc.&reg;
+
+Rocket.Chat makes API calls to obtain Auth data from [GitLab](https://about.gitlab.com/stages-devops-lifecycle/) for the Custom OAuth service. Check the [Integration with GitLab&reg;](https://rocket.chat/docs/administrator-guides/integrations/gitlab/) for more information.
+
+## Google&reg;
+
+Rocket.Chat makes API calls to obtain Auth data from [Google](https://developers.google.com/docs/api) for the Custom OAuth service. Check the [Rocket.Chat OAuth Provider Configuration](https://rocket.chat/docs/administrator-guides/authentication/oauth/#google) for more information. Rocket.Chat also makes API calls to Google with data like user ID, user name, and the message for [Push Notifications](https://martinschoeler.github.io/docs/administrator-guides/notifications/push-notifications/).
+
+## Google Cloud&trade; Storage
+
+Rocket.Chat makes API calls with paths to obtain files from [Google Cloud](https://cloud.google.com/storage/docs/access-control/iam-reference). Check the [requirements to configure Google Cloud Storage&trade;](https://rocket.chat/docs/administrator-guides/file-upload/google-cloud-storage/) for more information.
+
+## Google NLP
+
+Rocket.Chat makes API calls to [Google for Natural Language Processing](https://cloud.google.com/natural-language/) with tbe message content to detect [sentiments](https://cloud.google.com/natural-language/docs/analyzing-sentiment).
+
+## Google Translate&trade;
+
+Rocket.Chat makes API calls to [Google Translate](https://cloud.google.com/translate/docs/) with data from message content and attachments descriptions. Check the [Auto Translate configuration](https://rocket.chat/docs/administrator-guides/google-cloud/auto-translate/) for more information.
+
+## Google Vision
+
+Rocket.Chat makes API calls to [Google Vision](https://cloud.google.com/vision/docs/) with image data and file paths to detect images.
+
+## LDAP&reg;
+
+Rocket.Chat makes API calls to [LDAP](https://ldap.com/) to obtain data such as user name and password. Read [LDAP configuration in Rocket.Chat](https://rocket.chat/docs/administrator-guides/authentication/ldap/) for more information.
+
+## LinkedIn&reg;
+
+Rocket.Chat makes API calls to obtain Auth data from [LinkedIn](https://developer.linkedin.com/docs/rest-api#) for the Custom OAuth service. Read [Rocket.Chat OAuth Provider Configuration](https://rocket.chat/docs/administrator-guides/authentication/oauth/#linkedin) for more information.
+
+## Meteor&reg;
+
+Rocket.Chat makes API calls to obtain Auth data from [Meteor](https://docs.meteor.com/) for the Custom OAuth service.
+
+## Mobex&reg;
+
+Rocket.Chat makes API calls to [Mobex](https://www.mobex.biz/full-features/) with the message content from the SMS service.
+
+## Rocket.Chat Avatars
+
+Rocket.Chat makes API calls to obtain avatars from URLs. Read how to [set an avatar in Rocket.Chat](https://rocket.chat/docs/developer-guides/rest-api/users/setavatar/#providing-a-url) for more information.
+
+## Rocket.Chat Cloud
+
+Rocket.Chat makes API calls with data like organization email, site name, redirects URIs, and platform version and deployment to register the workspace into [Rocket.Chat Cloud](https://rocket.chat/docs/installation/rocket-chat-cloud/).
+
+## Rocket.Chat Collector
+
+Rocket.Chat makes API calls with Cron statistics for the [Rocket.Chat Statistics Collector](https://rocket.chat/docs/developer-guides/rest-api/miscellaneous/statistics/).
+
+## Rocket.Chat Federation
+
+Rocket.Chat makes API calls with data like users, rooms, messages, and subscriptions to any other [Rocket.Chat Federation Server](https://rocket.chat/docs/administrator-guides/federation/).
+
+## Rocket.Chat Releases
+
+Rocket.Chat makes API calls with platform data to check the version and obtain [new release updates](https://github.com/RocketChat/Rocket.Chat/releases).
+
+## Rocket.Chat WebHooks
+
+Rocket.Chat makes API calls to any URL with data from messages and rooms for the [Rocket.Chat WebHooks](https://rocket.chat/docs/administrator-guides/integrations/).
+
+## Livechat WebHooks
+
+Rocket.Chat makes API calls to [Livechat WebHooks](https://rocket.chat/docs/administrator-guides/livechat/) with data like visitor, agent, messages, custom fields, and tags.
+
+## RD Station&reg;
+
+Rocket.Chat makes API calls with data such as visitor, agent, messages, custom fields, and tags to send messages to [RD Station](https://developers.rdstation.com/en/overview).
+
+## Slack&reg;
+
+Rocket.Chat makes API calls to [Slack](https://api.slack.com/) to [import Slack data into Rocket.Chat](https://rocket.chat/docs/administrator-guides/import/slack/).
+
+## Tokenpass&reg;
+
+Rocket.Chat makes API calls to obtain Auth data from [Tokenpass](https://www.programmableweb.com/api/tokenly-tokenpass) for the Custom OAuth service. Rocket.Chat also sends data to obtain [Tokenpass balances](https://rocket.chat/2017/09/22/rocketchat-and-tokenly-partner/).
+
+## Twilio&reg;
+
+Rocket.Chat makes API calls to [Twilio](https://www.twilio.com/docs/sms) with message content from the [SMS service](https://rocket.chat/docs/developer-guides/rest-api/livechat/sms-incoming/#twilio-payload).
+
+## Twitter&reg;
+
+Rocket.Chat makes API calls to obtain Auth data from [Twitter](https://developer.twitter.com/en/docs/api-reference-index) for the [Custom OAuth service](https://rocket.chat/docs/developer-guides/rest-api/authentication/twitter/).
+
+## Voxtelesys&reg;
+
+Rocket.Chat makes API calls to send SMS through [Voxtelesys](https://development.voxtelesys.com).
+
+## Webdav&reg;
+
+Rocket.Chat makes API calls with [Webdav](https://docs.nextcloud.com/server/12.0/developer_manual/client_apis/WebDAV/index.html) credentials for the [File Upload service](https://rocket.chat/docs/administrator-guides/file-upload/webdav/).
+
+## Wordpress&reg;
+
+Rocket.Chat makes API calls to obtain Auth data from [Wordpress](https://developer.wordpress.org/rest-api/) for the [Custom OAuth service](https://rocket.chat/docs/administrator-guides/authentication/wordpress/).
+
+## YouTube&reg;
+
+Rocket.Chat makes API calls to [YouTube](https://developers.google.com/youtube/v3/live/getting-started) to obtain the user ID for the [Livestream service](https://rocket.chat/docs/administrator-guides/youtube-broadcasting/).
