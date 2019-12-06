@@ -25,9 +25,24 @@ By "Support" we mean that Rocket.Chat will provide only security fixes and answe
 
 > Always update to latest stable version before reporting any bugs or before ask for help from community.
 
-### Cloud users
+### Rocket.Chat Cloud customers
 
 Rocket.Chat manages upgrades and provides support to Rocket.Chat Cloud users regardless of the release version. If a Rocket.Chat Cloud user with an outdated server version sends in a support request, his server might be upgraded to the latest stable version without acknowledgement to ensure best performance.
+
+### Rocket.Chat Services
+
+Rocket.Chat Services include services such as our push gateway, marketplace, and other services managed by Rocket.Chat.
+
+October 1st our services will no longer continue to guarantee support for Rocket.Chat 0.x. After this date you may receive errors or warnings about incompatibility.
+
+3 months after a new major release, e.g. 2.x, the last major release, e.g. 1.x, will have the Services support deprecated and you may receive warnings about the deprecation.
+5 months after the deprecation the support will be removed and you may receive errors and warnings about incompatibility.
+
+| Release         | Cloud Service Support Deprecation | Cloud Service Support End of Life |
+|-----------------|-----------------------------------|-----------------------------------|
+| Rocket.Chat 0.x | August 2019                       | January 2020                      |
+| Rocket.Chat 1.x | November 2019                     | April 2020                        |
+| Rocket.Chat 2.x | TBD                               | TBD                               |
 
 ## Supported versions of MongoDB
 
@@ -40,13 +55,13 @@ Each Rocket.Chat release supports different versions of MongoDB, the table below
 | Rocket.Chat 1.x | 3.2, 3.4, 3.6, 4.0         | 3.2                        |
 | Rocket.Chat 2.x | 3.4, 3.6, 4.0              | 3.4                        |
 
-The upgrade guides avaiable from the official MongoDB documentation are listed bellow. Bare in mind that it's not possible to skip a version when upgrading, e.g. to upgrade from 3.2 to 3.6 it's necessary to upgrade from 3.2 to 3.4 first and than to 3.6.
+The upgrade guides available from the official MongoDB documentation are listed below. Bare in mind that it's not possible to skip a version when upgrading, e.g. to upgrade from 3.2 to 3.6 it's necessary to upgrade from 3.2 to 3.4 first and than to 3.6.
 
 - [Upgrade Replicat Set to 3.4](https://docs.mongodb.com/manual/release-notes/3.4-upgrade-replica-set/)
 - [Upgrade Replicat Set to 3.6](https://docs.mongodb.com/manual/release-notes/3.6-upgrade-replica-set/)
 - [Upgrade Replicat Set to 4.0](https://docs.mongodb.com/manual/release-notes/4.0-upgrade-replica-set/)
 
-> It's possible to bypass the MongoDB version check by using the environment variable `BYPASS_MONGO_VALIDATION=true`. Bare in mind that this work around should be used only when extrictly necessary and may prevent some functionalities to work propertly or even prevent the server to start.
+> It's possible to bypass the MongoDB version check by using the environment variable `BYPASS_MONGO_VALIDATION=true`. Bare in mind that this work around should be used only when extrictly necessary and may prevent some functionalities to work properly or even prevent the server to start.
 
 ## Supported browser versions
 

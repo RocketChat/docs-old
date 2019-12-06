@@ -5,9 +5,12 @@
 | `/api/v1/chat.delete` | Deletes an existing chat message. | [Link](delete/) |
 | `/api/v1/chat.followMessage` | Follows an existing chat message. | [Link](followmessage/)           |
 | `/api/v1/chat.getDeletedMessages`  | Retrieves the deleted messages since specific date.  | [Link](getdeletedmessages/) |
+| `/api/v1/chat.getMentionedMessages`  | Retrieves the mentioned messages.  | [Link](getmentionedmessages/) |
 | `/api/v1/chat.getMessage` | Retrieves a single chat message. | [Link](getmessage/) |
 | `/api/v1/chat.getMessageReadReceipts` | Retrieves message read receipts. | [Link](getmessagereadreceipts/) |
 | `/api/v1/chat.getPinnedMessages` | Retrieve pinned messages from a room. | [Link](getpinnedmessages/) |
+| `/api/v1/chat.getSnippetedMessageById`| Retrieves snippeted message by id.  | [Link](getsnippetedmessagebyid/) |
+| `/api/v1/chat.getStarredMessages`  | Retrieves the starred messages.  | [Link](getstarredmessages/) |
 | `/api/v1/chat.getThreadMessages`| Retrieves thread's messages. | [Link](getthreadmessages/)  |
 | `/api/v1/chat.getThreadsList`  | Retrieves channel's threads.  | [Link](getthreadslist/)  |
 | `/api/v1/chat.ignoreUser` | Ignores an user from a chat. | [Link](ignoreuser/) |
