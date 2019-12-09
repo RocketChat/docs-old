@@ -34,11 +34,14 @@ Login to Rocket.Chat with an administrator account and navigate to SAML page.
 
 To validate that the correct IdP signed the SAML, set *Custom Certificate (IDP Signing Certificate)* to the `<keycloak-realm>` RS256 certificate. The respective certificate can be found here: ![Keycloak SAML Realm RS256 Certificate]
 
-## TODO 
+## Caveat
+
+* End SAML session setup currently does not seem to work correctly, see https://github.com/RocketChat/Rocket.Chat/issues/14881
+
+## Open Topics
 
 * Mapping of Attributes
 * Certs (?) - what about them??
-* End SAML session setup currently does not seem to work correctly
 
 [Keycloak SAML Configuration Basic]: keycloak-saml-configuration-basic.png
 [Keycloak SAML Realm RS256 Certificate]: keycloak-saml-realm-256-certificate.png
