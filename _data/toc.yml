@@ -90,6 +90,7 @@
   - Talking to users from another server
   - Channels
   - Messaging
+  - Message Actions
   - Channel Actions
   - Managing your Account
   - End to End Encryption
@@ -167,6 +168,7 @@
   - Livechat:
     - Livechat Queues
     - Omnichannel Integration
+    - Whatsapp Twilio
   - Notifications:
     - Push Notifications
   - Permissions
@@ -179,6 +181,7 @@
   - Retention Policies
   - Settings Via Env Vars
   - Youtube Broadcasting
+  - Troubleshooting
 - Developer guides:
     - Quick Start
     - Branches and Releases
@@ -199,11 +202,6 @@
       - Supporting SSL
     - Developing Apps:
       - Getting Started
-    - GraphQL API:
-       - Authentication
-       - Schema
-       - Setup
-       - Subscription
     - Realtime-API:
       - Method Calls:
         - Login
@@ -313,9 +311,12 @@
         - delete
         - followMessage
         - getDeletedMessages
+        - getMentionedMessages
         - getMessage
         - getMessageReadReceipts
         - getPinnedMessages
+        - getSnippetedMessageById
+        - getStarredMessages
         - getThreadMessages
         - getThreadsList
         - pinMessage
@@ -406,6 +407,7 @@
         - room
         - rooms
         - sms-incoming
+        - triggers
         - users
         - video-call
         - visitor
@@ -467,6 +469,7 @@
         - regeneratePersonalAccessToken
         - register
         - removePersonalAccessToken
+        - requestDataDownload
         - resetAvatar
         - setAvatar
         - set-preferences
@@ -488,13 +491,13 @@
       - Themes
 - Bots:
   - Bots Architecture
-  - Create a Bot
-  - Creating Bot Users
   - Configure Bot Environment
+  - Create and run a Bot:
+    - Botkit Bot
+    - Hubot Bot
+    - Botpress Bot
+    - Rasa Bot
+    - RocketChat SDK Bot
   - Running a bBot Bot
-  - Running a Hubot Bot
-  - Running a Botkit Bot
-  - Running a Rasa Bot
-  - Running a Botpress Bot
 - Community Cookbook:
   - Remote Video Monitoring

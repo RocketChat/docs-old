@@ -313,7 +313,7 @@ services:
       - 3000:3000
 
   mongo:
-    image: mongo
+    image: mongo:4.0
     restart: unless-stopped
     volumes:
      - ./data/db:/data/db

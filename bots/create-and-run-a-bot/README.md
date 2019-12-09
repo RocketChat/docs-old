@@ -1,4 +1,4 @@
-# Create a Bot
+# Create and run a Bot
 
 This document outlines the steps required to create your first bot with Rocket.Chat.
 
@@ -26,7 +26,7 @@ To create the account you need to have admin privileges:
 9. Click *Save*
 
 Once saved, the bot will be configured with the username and password set on step 4. You can use `ROCKETCHAT_USER` and
-`ROCKETCHAT_PASSWORD` environmental variables to log in to Rocket.Chat server with this username and password pair.
+`ROCKETCHAT_PASSWORD` [environmental variables](../configure-bot-environment) to log in to Rocket.Chat server with this username and password pair.
 
 NOTE: to avoid creating multiple accounts for bot emails, you can use Gmail `+address` alias. For example: `youremail+botnam@gmail.com`. [See this issue for more](https://github.com/RocketChat/Rocket.Chat/issues/7125).
 
@@ -34,10 +34,10 @@ NOTE: to avoid creating multiple accounts for bot emails, you can use Gmail `+ad
 
 To make the process of coding a bot easier and faster, you may want to check our existing guides below to quickly deploy a basic bot instance. As an advanced alternative, you can create your bot from the scratch using your favorite framework.
 
-- [Running a Hubot Bot](../running-a-hubot-bot/)
-- [Running a Botkit Bot](../running-a-botkit-bot/)
-- [Running a Rasa Bot](../running-a-rasa-bot/)
-- [Running a Botpress Bot](../running-a-botpress-bot/)
+- [Running a Botkit Bot](./botkit-bot/)
+- [Running a Hubot Bot](./hubot-bot/)
+- [Running a Botpress Bot](./botpress-bot/)
+- [Running a Rasa Bot](./rasa-bot/)
 - [Running a bBot Bot](../running-a-bbot-bot/)
 
 Regardless of the option you choose, to make your bot work you will need credentials of the bot user you created in the previous step.

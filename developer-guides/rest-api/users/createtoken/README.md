@@ -1,5 +1,9 @@
 # Create Token
 
+**IMPORTANT**
+<br>
+To be able to use this endpoint you must set the ENV VAR (CREATE_TOKENS_FOR_USERS).
+
 Create a user authentication token. Requires `user-generate-access-token` permission.
 
 | URL | Requires Auth | HTTP Method |
@@ -60,4 +64,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
+| 2.1.0 | Added ENV VAR to be able to use this endpoint (process.env.CREATE_TOKENS_FOR_USERS). |
 | 0.56.0 | Added |

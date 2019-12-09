@@ -1,7 +1,7 @@
 # Running a Hubot bot
 
 Developers should start with (or at least reference) our example Hubot
-demonstrating usage of the Rocket.Chat adaptor:
+demonstrating usage of the Rocket.Chat adapter:
 [hubot-rocketchat-boilerplate](https://github.com/RocketChat/hubot-rocketchat-boilerplate)
 
 See [GitHub's own documentation](https://hubot.github.com/) for examples on
@@ -58,7 +58,7 @@ export ROCKETCHAT_USE_SSL=true
 
 Adjust the content to fit your server and user credentials. Make sure `mybotuser`
 has **BOT role** on the server, if you don't know what that means,
-[click here](../creating-bot-users).
+[click here](../create-and-run-a-bot/).
 
 Then run the bot:
 

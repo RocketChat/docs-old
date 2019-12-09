@@ -15,9 +15,8 @@ This guide covers the following:
 5. [Configure Nginx with TLS/SSL](#5-configure-nginx-web-server-with-tlsssl)
 6. [Install Docker & Docker Compose](#6-install-docker--docker-compose)
 7. [Set up Docker Containers](#7-set-up-docker-containers)
-8. [Automatic start with Upstart](#8-automatic-start--restarting-with-upstart)
-9. [Reboot & Test](#9-reboot--test)
-10. [Use it!](#10-use-it)
+8. [Automatic start & restarting with Systemd](#8-automatic-start--restarting-with-systemd)
+9. [Use it!](#9-use-it)
 
 ### 1. Launch an EC2 instance
 
@@ -216,72 +215,60 @@ services:
 
 - Write & Exit
 
-### 8. Automatic start & restarting with Upstart
+### 8. Automatic start & restarting with Systemd
 
-- Create upstart job for MongoDB
+- Create unit file for MongoDB
 
-`sudo nano /etc/init/rocketchat_mongo.conf`
+`sudo nano /etc/systemd/system/rocketchat_mongo.service`
 
 ```bash
-description "MongoDB service manager for Rocket.Chat"
+[Unit]
+Description=MongoDB for Rocket.Chat
 
-# Start MongoDB after docker is running
-start on (started docker)
-stop on runlevel [!2345]
-
-# Automatically Respawn with finite limits
-respawn
-respawn limit 99 5
-
-# Path to our app
-chdir /var/www/rocket.chat
-
-script
-    # Showtime
-    exec /usr/local/bin/docker-compose up mongo
-end script
+[Service]
+User=root
+WorkingDirectory=/var/www/rocket.chat
+ExecStart=/usr/local/bin/docker-compose up db
+Restart=on-failure
+RestartSec=120s
 ```
 
 - Save and Exit.
-- Create the upstart job for Rocket.Chat
+- Create the unit file for Rocket.Chat
 
-`sudo nano /etc/init/rocketchat_app.conf`
+`sudo nano /etc/systemd/system/rocketchat.service`
 
-```
-description "Rocket.Chat service manager"
+```bash
+[Unit]
+Description=Rocket.Chat Service
+After=rocketchat_mongo
 
-# Start Rocket.Chat only after mongo job is running
-start on (started rocketchat_mongo)
-stop on runlevel [!2345]
-
-# Automatically Respawn with finite limits
-respawn
-respawn limit 99 5
-
-# Path to our app
-chdir /var/www/rocket.chat
-
-script
-    # Bring up Rocket.Chat app
-    exec /usr/local/bin/docker-compose up rocketchat
-end script
+[Service]
+User=root
+WorkingDirectory=/var/www/rocket.chat
+ExecStart=/usr/local/bin/docker-compose up rocketchat
+Restart=on-failure
+RestartSec=120s
 ```
 
-### 9. Reboot & Test
+Now we need to make systemd aware of these files:
+`systemctl daemon-reload`
 
-1. Restart
-    `sudo reboot`
-2. Wait a minute or so and login with SSH again
-    `ssh -i <path_to_key_file.pem> ubuntu@<public_ip_address>`
-3. Check status of docker
-    sudo docker ps -a`
-    - When it's up and running, you should see 2 images, one for Rocket.Chat and one for mongo.
-    - If you don't see the containers yet, don't panic. It may take a few minutes to download and setup the containers. If you still don't see the images listed with the above `docker` command, check the logs of your upstart jobs.
-  `sudo cat /var/log/upstart/rocketchat_mongo.log`
-  `sudo cat /var/log/upstart/rocketchat_app.log`
-    - While the services are starting and downloading, the end of the logs (particularly rocketchat_app.log) will likely show the status of Download/Extract/Pull. If there are other errors, you will likely see this information in the log.
+Now we need to enable them so they will automatically start:
 
-### 10. Use it
+```
+systemctl enable rocketchat
+systemctl enable rocketchat_mongo
+```
+
+Finally start them:
+
+```
+systemctl start rocketchat_mongo
+systemctl start rocketchat
+```
+
+### 9. Use it
 
 1. Login to your site at `https://ABC.DOMAIN.COM`
     - Note: the first user to login will be an administrator

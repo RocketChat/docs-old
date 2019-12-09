@@ -1,26 +1,26 @@
-# Custom Sounds
+# Custom sounds
 
-Rocket.Chat allows you to add custom sound files that can be used as notification's sound. Users can customize their notification sound preferences for specific channels.
+Rocket.Chat allows you to add custom sound files that can be used as notification sound. Users can customize their notification sound preferences for specific channels.
 
-Sound files should be uploaded in the mp3 format.
+Upload sound filesin the MP3 format.
 
-## Add a custom sound
+## Add a Custom Sound
 
-- Go to the Administration tab
-- Select the Custom Sounds
-- Click on the Add symbol (+) in the right side bar
-- Enter a name for the sound
-- Browse and choose a mp3 file
-- Press the SAVE button
+- Go to the `Administration` tab
+- Select your Custom Sounds
+- Click on the Add symbol (**+**) in the right side bar
+- Enter a name for you sound
+- Browse and choose a MP3 file
+- Press **Save**
 
-## Using custom sound
+## Use your Custom Sound
 
-See [Notification Preferences](../../user-guides/channels/#notifications-preferences) to use this custom sound as notification.
+See [Notification Preferences](../../user-guides/channels/#notifications-preferences) to use this custom sound as a notification.
 
-## Delete/Edit custom sound
+## Delete/Edit Custom Sound
 
-Search and click on the sound you want to delete in the Custom Sound section under Administration tab.
+Search and click on the sound you want to delete in the `Custom Sound` section under the `Administration` tab.
 
-Press the DELETE or EDIT button to delete or update the selected sound respectively.
+Press **Delete** or **Edit** to delete or update the selected sound, respectively.
 
-> Admins might have set the [permissions](../permissions) about who can manage these sounds.
+**Note**: Admins can set who has the [permissions](../permissions) to manage these sounds.

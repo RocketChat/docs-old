@@ -198,11 +198,6 @@ Here you can also find what articles are incomplete and missing.
     - Livechat API
     - Mobile Apps
         - Supporting SSL
-    - GraphQL API:
-        - Authentication
-        - Schema
-        - Setup
-        - Subscription
     - Realtime-API:
         - Method Calls:
             - Login
@@ -310,9 +305,12 @@ Here you can also find what articles are incomplete and missing.
             - delete
             - followMessage
             - getDeletedMessages
+            - getMentionedMessages
             - getMessage
             - getMessageReadReceipts
             - getPinnedMessages
+            - getSnippetedMessageById
+            - getStarredMessages
             - getThreadMessages
             - getThreadsList
             - pinMessage
@@ -403,6 +401,7 @@ Here you can also find what articles are incomplete and missing.
             - room
             - rooms
             - sms-incoming
+            - triggers
             - users
             - video-call
         - Miscellaneous:
@@ -460,6 +459,7 @@ Here you can also find what articles are incomplete and missing.
             - regeneratePersonalAccessToken
             - register
             - removePersonalAccessToken
+            - requestDataDownload
             - resetAvatar
             - setAvatar
             - set-preferences
@@ -479,10 +479,6 @@ Here you can also find what articles are incomplete and missing.
         - Colors
         - Components
         - Themes
-        - GraphQL API:
-            - Authentication
-            - Schema
-            - Subscription
 - Bots:
     - Bots FAQ
     - Bots Architecture
