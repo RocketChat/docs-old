@@ -337,6 +337,8 @@
         - get
         - list
         - run
+      - Custom User Status:
+        - list
       - Emoji Custom:
         - create
         - delete

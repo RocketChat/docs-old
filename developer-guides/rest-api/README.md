@@ -268,6 +268,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/commands.list` | Lists all available slash commands.            | [Link](commands/list/) |
 | `/api/v1/commands.run`  | Execute a slash command in the specified room. | [Link](commands/run/)  |
 
+### Custom User Status
+
+| Url                               | Short Description                              | Details Page                   |
+| :-------------------------------- | :--------------------------------------------- | :----------------------------- |
+| `/api/v1/custom-user-status.list` | Lists all available custom user's status.      | [Link](custom-user-status/list/) |
+
 ### Emoji Custom
 
 | Url                             | Short Description                              | Details Page                 |
