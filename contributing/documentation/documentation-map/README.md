@@ -423,6 +423,7 @@ Here you can also find what articles are incomplete and missing.
             - push.token
             - deletePushToken
         - Rooms:
+            - adminRooms
             - cleanHistory
             - createDiscussion
             - favorite

@@ -250,6 +250,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 | Url                              | Short Description                                        | Details Page                    |
 | :------------------------------- | :------------------------------------------------------- | :------------------------------ |
+| `/api/v1/rooms.adminRooms`       | Retrieve all rooms (requires special permission).        | [Link](rooms/adminrooms/)       |
 | `/api/v1/rooms.cleanHistory`     | Cleans up a room's history, requires special permission. | [Link](rooms/cleanhistory/)     |
 | `/api/v1/rooms.createDiscussion` | Creates a new discussion.                                | [Link](rooms/creatediscussion/) |
 | `/api/v1/rooms.favorite`         | Favorite/Unfavorite room.                                | [Link](rooms/favorite/)         |
