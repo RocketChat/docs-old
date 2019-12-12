@@ -131,9 +131,6 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
             "username": "marcos"
         }
     ],
-    "count": 2,
-    "offset": 0,
-    "total": 2,
     "success": true
 }
 ```
@@ -142,4 +139,4 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :------ | :---------- |
-| 2.2.0   | Added       |
+| 3.0.0   | Added       |
