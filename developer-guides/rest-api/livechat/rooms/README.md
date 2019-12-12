@@ -17,13 +17,14 @@ Retrieves a list of livechat rooms. It supports the [Offset, Count, and Sort Que
 | `closedAt` | `{"start": "2018-01-26T00:11:22.345Z", "end": "2018-01-26T00:11:22.345Z"}` | Optional | An object representing when the room was closed(Can also be filtered only with `start` or `end`) |
 | `tags` | `['rocket', 'chat']` | Optional | A list of tags |
 | `customFields` | `{"docId": "aobEdbYhXfu5hkeqG"}` | Optional | An object with custom fields to be filtered(previously created and populated at custom fields endpoints) |
+| `roomName` | `room name` | Optional | The room's name |
 
 ## Example Call
 
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
-     http://localhost:3000/api/v1/livechat/rooms?agents[]=teste&departamentId=123&open=true&createdAt={"start": "2018-01-26T00:11:22.345Z", "end": "2018-01-26T00:11:22.345Z"}&closedAt={"start": "2018-01-26T00:11:22.345Z", "end": "2018-01-26T00:11:22.345Z"}&tags[]=rocket&customFields={"docId": "031041"}&count=3&offset=1&sort={"_updatedAt": 1}&fields={"msgs": 1}
+     http://localhost:3000/api/v1/livechat/rooms?agents[]=teste&departamentId=123&open=true&createdAt={"start": "2018-01-26T00:11:22.345Z", "end": "2018-01-26T00:11:22.345Z"}&closedAt={"start": "2018-01-26T00:11:22.345Z", "end": "2018-01-26T00:11:22.345Z"}&tags[]=rocket&customFields={"docId": "031041"}&count=3&offset=1&sort={"_updatedAt": 1}&fields={"msgs": 1}&roomName=test
 ```
 
 ## Example Result
@@ -99,4 +100,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
+| 3.0.0 | Added support to the parameter `roomName` |
 | 2.0.0 | Added |
