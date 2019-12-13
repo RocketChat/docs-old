@@ -395,8 +395,7 @@ Here you can also find what articles are incomplete and missing.
             - config
             - custom-fields
             - department
-            - inquiries.list
-            - inquiries.take
+            - inquiries
             - message
             - room
             - rooms

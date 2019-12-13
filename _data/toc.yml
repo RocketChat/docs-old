@@ -401,8 +401,7 @@
         - config
         - custom-fields
         - department
-        - inquiries.list
-        - inquiries.take
+        - inquiries
         - message
         - room
         - rooms
