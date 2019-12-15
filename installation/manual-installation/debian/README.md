@@ -35,7 +35,7 @@ Install build tools, MongoDB, nodejs and graphicsmagick:
 sudo apt-get install -y build-essential mongodb-org nodejs graphicsmagick
 ```
 
-Using npm install inherits and n, and the node version requiere by Rocket.Chat:
+Using npm install inherits and n, and the node version requiered by Rocket.Chat:
 
 ```bash
 sudo npm install -g inherits n && sudo n 8.11.4
