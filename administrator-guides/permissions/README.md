@@ -80,9 +80,11 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | manage-assets | Permission to manage assets. Must also be admin Accessible from Administration -> Assets.
 | manage-cloud | Permission to manage cloud. Requires view-user-administration permission. Accessible from Administration -> Cloud.
 | manage-emoji | Permission to add custom emojis to the server. Accessible from Administration -> Custom Emoji.
-| manage-integrations | Permission to manage all integrations. Accessible from Administration -> Integrations.
+| manage-outgoing-integrations | Permission to manage all outgoing integrations. Accessible from Administration -> Integrations.
+| manage-incoming-integrations | Permission to manage all incoming integrations. Accessible from Administration -> Integrations.
 | manage-oauth-apps | Permission to manage OAuth apps. Accessible from Administration -> OAuth.
-| manage-own-integrations | User can create and edit own integration - webhooks.
+| manage-own-outgoing-integrations | User can create and edit own outgoing integration - webhooks.
+| manage-own-incoming-integrations | User can create and edit own incoming integration - webhooks.
 | manage-sounds | Permission to manage sounds. Accessible from Administration -> Custom Sounds.
 | mention-all | Permission to mention everyone in a channel.
 | mention-here | Permission to notify active users in a channel.
