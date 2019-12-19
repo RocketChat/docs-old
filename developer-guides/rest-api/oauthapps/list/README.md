@@ -4,14 +4,14 @@ Retrieves all OAuth Apss
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/oauthApps.list` | `yes` | `GET` |
+| `/api/v1/oauth-apps.list` | `yes` | `GET` |
 
 ## Example
 
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
-     http://localhost:3000/api/v1/oauthApps.list
+     http://localhost:3000/api/v1/oauth-apps.list
 ```
 
 ## Example Result
