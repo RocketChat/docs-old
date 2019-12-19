@@ -311,6 +311,7 @@
         - delete
         - followMessage
         - getDeletedMessages
+        - getDiscussions
         - getMentionedMessages
         - getMessage
         - getMessageReadReceipts
