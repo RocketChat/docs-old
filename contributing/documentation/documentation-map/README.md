@@ -305,7 +305,7 @@ Here you can also find what articles are incomplete and missing.
             - delete
             - followMessage
             - getDeletedMessages
-            - getDiscussionsOfARoom
+            - getDiscussions
             - getMentionedMessages
             - getMessage
             - getMessageReadReceipts

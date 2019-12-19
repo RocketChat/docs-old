@@ -166,7 +166,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.delete`                 | Deletes an existing chat message.                                | [Link](chat/delete/)                    |
 | `/api/v1/chat.followMessage`          | Follows an existing chat message.                                | [Link](chat/followmessage/)             |
 | `/api/v1/chat.getDeletedMessages`     | Retrieves the deleted messages since specific date.              | [Link](chat/getdeletedmessages/)        |
-| `/api/v1/chat.getDiscussionsOfARoom`  | Retrieves the discussions messages of a room.                    | [Link](chat/getdiscussionsofaroom/)     |
+| `/api/v1/chat.getDiscussions`         | Retrieves the discussions messages of a room.                    | [Link](chat/getDiscussions/)            |
 | `/api/v1/chat.getMentionedMessages`   | Retrieves mentioned messages.                                    | [Link](chat/getmentionedmessages/)      |
 | `/api/v1/chat.getMessage`             | Retrieves a single chat message.                                 | [Link](chat/getmessage/)                |
 | `/api/v1/chat.getMessageReadReceipts` | Retrieves message read receipts.                                 | [Link](chat/getmessagereadreceipts/)    |

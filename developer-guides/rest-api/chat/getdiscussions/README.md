@@ -4,7 +4,7 @@ Retrieve the discussions of a room. It supports the [Offset, Count, and Sort Que
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/chat.getDiscussionsOfARoom` | `yes` | `GET` |
+| `/api/v1/chat.getDiscussions` | `yes` | `GET` |
 
 ## Query Parameters
 
@@ -17,7 +17,7 @@ Retrieve the discussions of a room. It supports the [Offset, Count, and Sort Que
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
-     http://localhost:3000/api/v1/chat.getDiscussionsOfARoom?roomId=ByehQjC44FwMeiLbX
+     http://localhost:3000/api/v1/chat.getDiscussions?roomId=ByehQjC44FwMeiLbX
 ```
 
 ## Example Result
