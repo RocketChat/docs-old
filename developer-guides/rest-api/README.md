@@ -311,6 +311,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :----------------------------------------------- | :---------------------------------------------------------- | :-----------------------------------------     |
 | `/api/v1/video-conference/jitsi.update-timeout`  | Updates the timeout of Jitsi video conference in a channel. | [Link](video-conference/jitsi-update-timeout)  |
 
+### Webdav
+
+| Url                                  | Short Description                            | Details Page                   |
+| :----------------------------------- | :------------------------------------------- | :----------------------------  |
+| `/api/v1/webdav.getMyAccounts`       | Retrieves the user's webdav accounts.        | [Link](webdav/getmyaccounts)   |
+
 ## Language specific wrappers
 
 ### Java
