@@ -333,6 +333,10 @@ Here you can also find what articles are incomplete and missing.
             - get
             - list
             - run
+        - Custom Sounds:
+            - list
+        - Custom User Status:
+            - list
         - Emoji Custom:
             - create
             - delete
@@ -413,6 +417,9 @@ Here you can also find what articles are incomplete and missing.
             - spotlight
             - statistics
             - statistics.list
+        - OAuthApps:
+            - get
+            - list
         - Permissions:
             - list-all
             - update
@@ -470,6 +477,8 @@ Here you can also find what articles are incomplete and missing.
             - updateOwnBasicInfo
         - Video Conference:
             - jitsi-update-timeout
+        - Webdav:
+            - getMyAccounts
         - Offset and Count and Sort Info
         - Rate Limiter
         - Query and Fields Info
