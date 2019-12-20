@@ -305,6 +305,7 @@ Here you can also find what articles are incomplete and missing.
             - delete
             - followMessage
             - getDeletedMessages
+            - getDiscussions
             - getMentionedMessages
             - getMessage
             - getMessageReadReceipts
@@ -411,6 +412,9 @@ Here you can also find what articles are incomplete and missing.
             - spotlight
             - statistics
             - statistics.list
+        - OAuthApps:
+            - get
+            - list
         - Permissions:
             - list-all
             - update

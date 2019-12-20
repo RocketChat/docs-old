@@ -311,6 +311,7 @@
         - delete
         - followMessage
         - getDeletedMessages
+        - getDiscussions
         - getMentionedMessages
         - getMessage
         - getMessageReadReceipts
@@ -418,6 +419,9 @@
         - spotlight
         - statistics
         - statistics.list
+      - OAuthApps:
+        - get
+        - list
       - Permissions:
         - list
         - update
