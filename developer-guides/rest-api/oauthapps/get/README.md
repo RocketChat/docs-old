@@ -4,7 +4,7 @@ Retrieves an OAuth App by id or client id
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/oauth-apps.getOne` | `yes` | `GET` |
+| `/api/v1/oauth-apps.get` | `yes` | `GET` |
 
 ## Query Parameters
 
@@ -18,7 +18,7 @@ Retrieves an OAuth App by id or client id
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
-     http://localhost:3000/api/v1/oauth-apps.getOne?appId=jn32kjnnd0943j4njk
+     http://localhost:3000/api/v1/oauth-apps.get?appId=jn32kjnnd0943j4njk
 ```
 
 ## Example Result
@@ -47,4 +47,4 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
-| 3.0.0 | Added |
+| 2.4.0 | Added |
