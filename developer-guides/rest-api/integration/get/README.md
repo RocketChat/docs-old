@@ -4,7 +4,7 @@ Retrieves an integration by id.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/integrations.getOne` | `yes` | `GET` |
+| `/api/v1/integrations.get` | `yes` | `GET` |
 
 ## Query Parameters
 
@@ -18,7 +18,7 @@ Retrieves an integration by id.
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
-     http://localhost:3000/api/v1/integrations.getOne?integrationId=ByehQjC44FwMeiLbX
+     http://localhost:3000/api/v1/integrations.get?integrationId=ByehQjC44FwMeiLbX
 ```
 
 ## Example Result
@@ -116,4 +116,4 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
-| 3.0.0 | Added |
+| 2.4.0 | Added |

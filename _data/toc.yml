@@ -394,7 +394,7 @@
         - setTopic
       - Integration:
         - create
-        - getOne
+        - get
         - history
         - list
         - remove
