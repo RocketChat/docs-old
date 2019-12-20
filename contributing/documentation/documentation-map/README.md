@@ -332,6 +332,8 @@ Here you can also find what articles are incomplete and missing.
             - get
             - list
             - run
+        - Custom User Status:
+            - list
         - Emoji Custom:
             - create
             - delete
