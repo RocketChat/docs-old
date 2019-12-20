@@ -239,4 +239,4 @@ curl http://localhost:3000/api/v1/livechat/visitors.chatHistory/room/room-id/vis
 
 | Version | Description |
 | :------ | :---------- |
-| 3.0.0   | Added       |
+| 2.4.0   | Added       |
