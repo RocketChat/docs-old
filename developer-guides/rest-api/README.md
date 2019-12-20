@@ -166,6 +166,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.delete`                 | Deletes an existing chat message.                                | [Link](chat/delete/)                    |
 | `/api/v1/chat.followMessage`          | Follows an existing chat message.                                | [Link](chat/followmessage/)             |
 | `/api/v1/chat.getDeletedMessages`     | Retrieves the deleted messages since specific date.              | [Link](chat/getdeletedmessages/)        |
+| `/api/v1/chat.getDiscussions`         | Retrieves the discussions messages of a room.                    | [Link](chat/getdiscussions/)            |
 | `/api/v1/chat.getMentionedMessages`   | Retrieves mentioned messages.                                    | [Link](chat/getmentionedmessages/)      |
 | `/api/v1/chat.getMessage`             | Retrieves a single chat message.                                 | [Link](chat/getmessage/)                |
 | `/api/v1/chat.getMessageReadReceipts` | Retrieves message read receipts.                                 | [Link](chat/getmessagereadreceipts/)    |
@@ -229,6 +230,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/livechat/inquiries.take`| Take an open inquiry.                                         | [Link](livechat/inquiries-take/) |
 | `/api/v1/livechat/rooms`         | Retrieves a list of livechat rooms.                           | [Link](livechat/rooms/)          |
 
+### OAuthApps
+
+| Url                             | Short Description                         | Details Page                 |
+| :------------------------------ | :---------------------------------------- | :--------------------------  |
+| `/api/v1/oauth-apps.get`        | Retrieves an OAuth App by id or client id.| [Link](oauthapps/get/)       |
+| `/api/v1/oauth-apps.list`       | Retrieves a list of OAuth Apps.           | [Link](oauthapps/list)       |
+
 ### Permissions
 
 | Url                             | Short Description                | Details Page                 |
@@ -274,6 +282,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/commands.list` | Lists all available slash commands.            | [Link](commands/list/) |
 | `/api/v1/commands.run`  | Execute a slash command in the specified room. | [Link](commands/run/)  |
 
+### Custom User Status
+
+| Url                               | Short Description                              | Details Page                   |
+| :-------------------------------- | :--------------------------------------------- | :----------------------------- |
+| `/api/v1/custom-user-status.list` | Lists all available custom user's status.      | [Link](custom-user-status/list/) |
+
 ### Emoji Custom
 
 | Url                             | Short Description                              | Details Page                 |
@@ -308,6 +322,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | Url                                              | Short Description                                           | Details Page                                   |
 | :----------------------------------------------- | :---------------------------------------------------------- | :-----------------------------------------     |
 | `/api/v1/video-conference/jitsi.update-timeout`  | Updates the timeout of Jitsi video conference in a channel. | [Link](video-conference/jitsi-update-timeout)  |
+
+### Webdav
+
+| Url                                  | Short Description                            | Details Page                   |
+| :----------------------------------- | :------------------------------------------- | :----------------------------  |
+| `/api/v1/webdav.getMyAccounts`       | Retrieves the user's webdav accounts.        | [Link](webdav/getmyaccounts)   |
 
 ## Language specific wrappers
 

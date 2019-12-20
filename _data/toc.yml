@@ -311,6 +311,7 @@
         - delete
         - followMessage
         - getDeletedMessages
+        - getDiscussions
         - getMentionedMessages
         - getMessage
         - getMessageReadReceipts
@@ -338,6 +339,8 @@
         - list
         - run
       - Custom Sounds:
+        - list
+      - Custom User Status:
         - list
       - Emoji Custom:
         - create
@@ -420,6 +423,9 @@
         - spotlight
         - statistics
         - statistics.list
+      - OAuthApps:
+        - get
+        - list
       - Permissions:
         - list
         - update
@@ -480,6 +486,8 @@
         - updateOwnBasicInfo
       - Video Conference:
         - jitsi-update-timeout
+      - Webdav:
+        - getMyAccounts
       - Offset and Count and Sort Info
       - Rate Limiter
       - Query and Fields Info
