@@ -37,7 +37,7 @@ export ROCKETCHAT_ROOM=general
 export ROCKETCHAT_USESSL=true
 ```
 
-Adjust the content to fit your server and user credentials. Make sure `mybotuser` has `BOT` role on the server. For more information about that, please refer to [this page](../#1-create-a-bot-user).
+Adjust the content to fit your server and user credentials. Make sure `mybotuser` has a `BOT` role on the server. For more information on how to create a bot user please refer to [this page](../#1-create-a-bot-user).
 
 **3. run the bot**
 
