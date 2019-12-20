@@ -338,6 +338,8 @@
         - get
         - list
         - run
+      - Custom Sounds:
+        - list
       - Custom User Status:
         - list
       - Emoji Custom:

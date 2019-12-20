@@ -190,6 +190,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.unStarMessage`          | Removes the star on the chat message for the authenticated user. | [Link](chat/unstarmessage/)             |
 | `/api/v1/chat.update`                 | Updates the text of the chat message.                            | [Link](chat/update/)                    |
 
+### Custom Sounds
+
+| Url                         | Short Description                                  | Details Page                               |
+| :-------------------------- | :------------------------------------------------- | :----------------------------------------- |
+| `/api/v1/custom-sounds.list`| Retrieves a list of custom sounds.                 | [Link](custom-sounds/list)                 |
+
 ### IM
 
 | Url                          | Short Description                                             | Details Page                |
