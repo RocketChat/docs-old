@@ -399,6 +399,7 @@
         - setTopic
       - Integration:
         - create
+        - get
         - history
         - list
         - remove
