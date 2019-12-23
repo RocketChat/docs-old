@@ -26,6 +26,7 @@ Manage Livechat related data:
 | `/api/v1/livechat/message/:_id` | `PUT` | Updates a Livechat message data. | [info](message/index.html#updates-a-livechat-message) |
 | `/api/v1/livechat/message/:_id` | `DELETE` | Delete a Livechat message. | [info](message/index.html#removes-a-livechat-message) |
 | `/api/v1/livechat/messages.history/:rid` | `GET` | Load Livechat messages history. | [info](message/index.html#load-livechat-messages-history) |
+| `/api/v1/livechat/office-hours` | `GET` | Get a list of office hours. | [info](office-hours) |
 | `/api/v1/livechat/offline.message` | `POST` | Send a new Livechat offline message. | [info](message/index.html#send-a-new-livechat-offline-message) |
 | `/api/v1/livechat/rooms` | `GET` | Retrieves a list of livechat rooms.  | [info](rooms/)  |
 | `/api/v1/livechat/queue` | `GET` | Retrieves a list of queued chats. | [info](queue) |
