@@ -408,6 +408,7 @@
         - config
         - custom-fields
         - department
+        - integrations.settings
         - inquiries.list
         - inquiries.take
         - message
