@@ -2,6 +2,7 @@
 
 | Url | Method | Short Description | Details Page |
 | :--- | :--- | :--- | :--- |
+| `/api/v1/rooms.adminRooms` | `GET`  | Retrieve all rooms (requires special permission).  | [Link](adminrooms/)  |
 | `/api/v1/rooms.cleanHistory` | `POST` | Cleans up a room's history, requires special permission. | [Link](cleanhistory/) |
 | `/api/v1/rooms.createDiscussion` | `POST` | Creates a new discussion. | [Link](creatediscussion/) |
 | `/api/v1/rooms.favorite` | `POST` | Favorite/Unfavorite room. |[Link](favorite/) |
