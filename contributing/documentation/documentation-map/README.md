@@ -305,9 +305,14 @@ Here you can also find what articles are incomplete and missing.
             - delete
             - followMessage
             - getDeletedMessages
+            - getDiscussions
+            - getMentionedMessages
             - getMessage
             - getMessageReadReceipts
             - getPinnedMessages
+            - getSnippetedMessages
+            - getSnippetedMessageById
+            - getStarredMessages
             - getThreadMessages
             - getThreadsList
             - pinMessage
@@ -328,6 +333,10 @@ Here you can also find what articles are incomplete and missing.
             - get
             - list
             - run
+        - Custom Sounds:
+            - list
+        - Custom User Status:
+            - list
         - Emoji Custom:
             - create
             - delete
@@ -398,6 +407,7 @@ Here you can also find what articles are incomplete and missing.
             - room
             - rooms
             - sms-incoming
+            - triggers
             - users
             - video-call
         - Miscellaneous:
@@ -407,6 +417,9 @@ Here you can also find what articles are incomplete and missing.
             - spotlight
             - statistics
             - statistics.list
+        - OAuthApps:
+            - get
+            - list
         - Permissions:
             - list-all
             - update
@@ -455,6 +468,7 @@ Here you can also find what articles are incomplete and missing.
             - regeneratePersonalAccessToken
             - register
             - removePersonalAccessToken
+            - requestDataDownload
             - resetAvatar
             - setAvatar
             - set-preferences
@@ -463,6 +477,8 @@ Here you can also find what articles are incomplete and missing.
             - updateOwnBasicInfo
         - Video Conference:
             - jitsi-update-timeout
+        - Webdav:
+            - getMyAccounts
         - Offset and Count and Sort Info
         - Rate Limiter
         - Query and Fields Info
