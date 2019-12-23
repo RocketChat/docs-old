@@ -399,6 +399,7 @@ Here you can also find what articles are incomplete and missing.
             - remove
         - Livechat:
             - agent
+            - appearance
             - config
             - custom-fields
             - department

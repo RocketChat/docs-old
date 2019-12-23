@@ -405,6 +405,7 @@
         - remove
       - Livechat:
         - agent
+        - appearance
         - config
         - custom-fields
         - department
