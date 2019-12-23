@@ -393,17 +393,21 @@ Here you can also find what articles are incomplete and missing.
             - setTopic
         - Integration:
             - create
+            - get
             - history
             - list
             - remove
         - Livechat:
             - agent
+            - appearance
             - config
             - custom-fields
             - department
+            - integrations.settings
             - inquiries.list
             - inquiries.take
             - message
+            - office-hours
             - room
             - rooms
             - sms-incoming
@@ -432,6 +436,7 @@ Here you can also find what articles are incomplete and missing.
             - push.token
             - deletePushToken
         - Rooms:
+            - adminRooms
             - cleanHistory
             - createDiscussion
             - favorite
