@@ -171,6 +171,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.getMessage`             | Retrieves a single chat message.                                 | [Link](chat/getmessage/)                |
 | `/api/v1/chat.getMessageReadReceipts` | Retrieves message read receipts.                                 | [Link](chat/getmessagereadreceipts/)    |
 | `/api/v1/chat.getPinnedMessages`      | Retrieve pinned messages from a room.                            | [Link](chat/getpinnedmessages/)         |
+| `/api/v1/chat.getSnippetedMessages`   | Retrieves snippeted messages.                                    | [Link](chat/getsnippetedmessages/)      |
 | `/api/v1/chat.getSnippetedMessageById`| Retrieves snippeted message by id.                               | [Link](chat/getsnippetedmessagebyid/)   |
 | `/api/v1/chat.getStarredMessages`     | Retrieves starred messages.                                      | [Link](chat/getstarredmessages/)        |
 | `/api/v1/chat.getThreadMessages`      | Retrieves thread's messages.                                     | [Link](chat/getthreadmessages/)         |
@@ -189,6 +190,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.unPinMessage`           | Removes the pinned status of the provided chat message.          | [Link](chat/unpinmessage/)              |
 | `/api/v1/chat.unStarMessage`          | Removes the star on the chat message for the authenticated user. | [Link](chat/unstarmessage/)             |
 | `/api/v1/chat.update`                 | Updates the text of the chat message.                            | [Link](chat/update/)                    |
+
+### Custom Sounds
+
+| Url                         | Short Description                                  | Details Page                               |
+| :-------------------------- | :------------------------------------------------- | :----------------------------------------- |
+| `/api/v1/custom-sounds.list`| Retrieves a list of custom sounds.                 | [Link](custom-sounds/list)                 |
 
 ### IM
 
@@ -224,6 +231,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/livechat/inquiries.list`| Retrieves a list of open inquiries.                           | [Link](livechat/inquiries-list/) |
 | `/api/v1/livechat/inquiries.take`| Take an open inquiry.                                         | [Link](livechat/inquiries-take/) |
 | `/api/v1/livechat/rooms`         | Retrieves a list of livechat rooms.                           | [Link](livechat/rooms/)          |
+
+### OAuthApps
+
+| Url                             | Short Description                         | Details Page                 |
+| :------------------------------ | :---------------------------------------- | :--------------------------  |
+| `/api/v1/oauth-apps.get`        | Retrieves an OAuth App by id or client id.| [Link](oauthapps/get/)       |
+| `/api/v1/oauth-apps.list`       | Retrieves a list of OAuth Apps.           | [Link](oauthapps/list)       |
 
 ### Permissions
 
@@ -270,6 +284,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/commands.list` | Lists all available slash commands.            | [Link](commands/list/) |
 | `/api/v1/commands.run`  | Execute a slash command in the specified room. | [Link](commands/run/)  |
 
+### Custom User Status
+
+| Url                               | Short Description                              | Details Page                   |
+| :-------------------------------- | :--------------------------------------------- | :----------------------------- |
+| `/api/v1/custom-user-status.list` | Lists all available custom user's status.      | [Link](custom-user-status/list/) |
+
 ### Emoji Custom
 
 | Url                             | Short Description                              | Details Page                 |
@@ -304,6 +324,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | Url                                              | Short Description                                           | Details Page                                   |
 | :----------------------------------------------- | :---------------------------------------------------------- | :-----------------------------------------     |
 | `/api/v1/video-conference/jitsi.update-timeout`  | Updates the timeout of Jitsi video conference in a channel. | [Link](video-conference/jitsi-update-timeout)  |
+
+### Webdav
+
+| Url                                  | Short Description                            | Details Page                   |
+| :----------------------------------- | :------------------------------------------- | :----------------------------  |
+| `/api/v1/webdav.getMyAccounts`       | Retrieves the user's webdav accounts.        | [Link](webdav/getmyaccounts)   |
 
 ## Language specific wrappers
 
