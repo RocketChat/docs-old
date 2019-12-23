@@ -27,6 +27,7 @@ Manage Livechat related data:
 | `/api/v1/livechat/messages.history/:rid` | `GET` | Load Livechat messages history. | [info](message/index.html#load-livechat-messages-history) |
 | `/api/v1/livechat/offline.message` | `POST` | Send a new Livechat offline message. | [info](message/index.html#send-a-new-livechat-offline-message) |
 | `/api/v1/livechat/rooms` | `GET` | Retrieves a list of livechat rooms.  | [info](rooms/)  |
+| `/api/v1/livechat/queue` | `GET` | Retrieves a list of queued chats. | [info](queue) |
 | `/api/v1/livechat/room` | `GET` | Get the Livechat room data or open a new room. | [info](room/index.html) |
 | `/api/v1/livechat/room.close` | `POST` | Close a Livechat room. | [info](room/index.html#close-livechat-room) |
 | `/api/v1/livechat/room.transfer` | `POST` | Transfer a Livechat room to another agent or department. | [info](room/index.html#transfer-livechat-room) |
