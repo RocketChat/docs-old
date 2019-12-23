@@ -441,6 +441,7 @@
         - push.token
         - deletePushToken
       - Rooms:
+        - adminRooms
         - cleanHistory
         - createDiscussion
         - favorite
