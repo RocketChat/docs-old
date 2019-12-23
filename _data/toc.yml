@@ -399,6 +399,7 @@
         - setTopic
       - Integration:
         - create
+        - get
         - history
         - list
         - remove
@@ -408,6 +409,7 @@
         - config
         - custom-fields
         - department
+        - integrations.settings
         - inquiries.list
         - inquiries.take
         - message
@@ -440,6 +442,7 @@
         - push.token
         - deletePushToken
       - Rooms:
+        - adminRooms
         - cleanHistory
         - createDiscussion
         - favorite
