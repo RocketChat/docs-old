@@ -24,6 +24,8 @@ Manage Livechat related data:
 | `/api/v1/livechat/config/:token` | `GET` | Get basic Livechat widget configuration info and additional visitor data. | [info](config/index.html) |
 | `/api/v1/livechat/custom.field` | `POST` | Send a Livechat custom field. | [info](custom-fields/index.html#send-a-livechat-custom-field) |
 | `/api/v1/livechat/custom.fields` | `POST` | Send an array of Livechat custom fields. | [info](custom-fields/index.html#send-an-array-of-livechat-custom-fields) |
+| `/api/v1/livechat/custom-fields` | `GET` | Get a list of Livechat custom fields. | [info](custom-fields/index.html#list-livechat-custom-fields) |
+| `/api/v1/livechat/custom-fields/:_id` | `GET` | Get a Livechat custom field. | [info](custom-fields/index.html#get-info-about-a-custom-field) |
 | `/api/v1/livechat/message` | `POST` | Send a new Livechat message. | [info](message/index.html) |
 | `/api/v1/livechat/message/:_id` | `PUT` | Updates a Livechat message data. | [info](message/index.html#updates-a-livechat-message) |
 | `/api/v1/livechat/message/:_id` | `DELETE` | Delete a Livechat message. | [info](message/index.html#removes-a-livechat-message) |
