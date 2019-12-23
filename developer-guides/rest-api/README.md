@@ -74,6 +74,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/users.regeneratePersonalAccessToken` | Regenerate a user personal access token.                        | [Link](users/regeneratepersonalaccesstoken/) |
 | `/api/v1/users.register`                      | Register a new user.                                            | [Link](users/register/)                      |
 | `/api/v1/users.removePersonalAccessToken`     | Remove a personal access token.                                 | [Link](users/removepersonalaccesstoken/)     |
+| `/api/v1/users.requestDataDownload`           | Request users download data.                                    | [Link](users/requestDataDownload/)           |
 | `/api/v1/users.resetAvatar`                   | Reset a user's avatar                                           | [Link](users/resetavatar/)                   |
 | `/api/v1/users.setAvatar`                     | Set a user's avatar                                             | [Link](users/setavatar/)                     |
 | `/api/v1/users.setPreferences`                | Set user's preferences                                          | [Link](users/set-preferences/)               |
@@ -165,10 +166,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.delete`                 | Deletes an existing chat message.                                | [Link](chat/delete/)                    |
 | `/api/v1/chat.followMessage`          | Follows an existing chat message.                                | [Link](chat/followmessage/)             |
 | `/api/v1/chat.getDeletedMessages`     | Retrieves the deleted messages since specific date.              | [Link](chat/getdeletedmessages/)        |
+| `/api/v1/chat.getDiscussions`         | Retrieves the discussions messages of a room.                    | [Link](chat/getdiscussions/)            |
 | `/api/v1/chat.getMentionedMessages`   | Retrieves mentioned messages.                                    | [Link](chat/getmentionedmessages/)      |
 | `/api/v1/chat.getMessage`             | Retrieves a single chat message.                                 | [Link](chat/getmessage/)                |
 | `/api/v1/chat.getMessageReadReceipts` | Retrieves message read receipts.                                 | [Link](chat/getmessagereadreceipts/)    |
 | `/api/v1/chat.getPinnedMessages`      | Retrieve pinned messages from a room.                            | [Link](chat/getpinnedmessages/)         |
+| `/api/v1/chat.getSnippetedMessages`   | Retrieves snippeted messages.                                    | [Link](chat/getsnippetedmessages/)      |
+| `/api/v1/chat.getSnippetedMessageById`| Retrieves snippeted message by id.                               | [Link](chat/getsnippetedmessagebyid/)   |
 | `/api/v1/chat.getStarredMessages`     | Retrieves starred messages.                                      | [Link](chat/getstarredmessages/)        |
 | `/api/v1/chat.getThreadMessages`      | Retrieves thread's messages.                                     | [Link](chat/getthreadmessages/)         |
 | `/api/v1/chat.getThreadsList`         | Retrieves channel's threads.                                     | [Link](chat/getthreadslist/)            |
@@ -186,6 +190,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/chat.unPinMessage`           | Removes the pinned status of the provided chat message.          | [Link](chat/unpinmessage/)              |
 | `/api/v1/chat.unStarMessage`          | Removes the star on the chat message for the authenticated user. | [Link](chat/unstarmessage/)             |
 | `/api/v1/chat.update`                 | Updates the text of the chat message.                            | [Link](chat/update/)                    |
+
+### Custom Sounds
+
+| Url                         | Short Description                                  | Details Page                               |
+| :-------------------------- | :------------------------------------------------- | :----------------------------------------- |
+| `/api/v1/custom-sounds.list`| Retrieves a list of custom sounds.                 | [Link](custom-sounds/list)                 |
 
 ### IM
 
@@ -209,6 +219,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | Url                            | Short Description                                             | Details Page                |
 | :----------------------------- | :------------------------------------------------------------ | :-------------------------- |
 | `/api/v1/integrations.create`  | Creates an integration.                                       | [Link](integration/create/) |
+| `/api/v1/integrations.get`     | Gets an integration.                                          | [Link](integration/get/)    |
 | `/api/v1/integrations.history` | Lists all history of the specified integration.               | [Link](integration/history/)|
 | `/api/v1/integrations.list`    | Lists all of the integrations.                                | [Link](integration/list/)   |
 | `/api/v1/integrations.remove`  | Removes an integration.                                       | [Link](integration/remove/) |
@@ -220,6 +231,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/livechat/inquiries.list`| Retrieves a list of open inquiries.                           | [Link](livechat/inquiries-list/) |
 | `/api/v1/livechat/inquiries.take`| Take an open inquiry.                                         | [Link](livechat/inquiries-take/) |
 | `/api/v1/livechat/rooms`         | Retrieves a list of livechat rooms.                           | [Link](livechat/rooms/)          |
+
+### OAuthApps
+
+| Url                             | Short Description                         | Details Page                 |
+| :------------------------------ | :---------------------------------------- | :--------------------------  |
+| `/api/v1/oauth-apps.get`        | Retrieves an OAuth App by id or client id.| [Link](oauthapps/get/)       |
+| `/api/v1/oauth-apps.list`       | Retrieves a list of OAuth Apps.           | [Link](oauthapps/list)       |
 
 ### Permissions
 
@@ -266,6 +284,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/commands.list` | Lists all available slash commands.            | [Link](commands/list/) |
 | `/api/v1/commands.run`  | Execute a slash command in the specified room. | [Link](commands/run/)  |
 
+### Custom User Status
+
+| Url                               | Short Description                              | Details Page                   |
+| :-------------------------------- | :--------------------------------------------- | :----------------------------- |
+| `/api/v1/custom-user-status.list` | Lists all available custom user's status.      | [Link](custom-user-status/list/) |
+
 ### Emoji Custom
 
 | Url                             | Short Description                              | Details Page                 |
@@ -300,6 +324,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | Url                                              | Short Description                                           | Details Page                                   |
 | :----------------------------------------------- | :---------------------------------------------------------- | :-----------------------------------------     |
 | `/api/v1/video-conference/jitsi.update-timeout`  | Updates the timeout of Jitsi video conference in a channel. | [Link](video-conference/jitsi-update-timeout)  |
+
+### Webdav
+
+| Url                                  | Short Description                            | Details Page                   |
+| :----------------------------------- | :------------------------------------------- | :----------------------------  |
+| `/api/v1/webdav.getMyAccounts`       | Retrieves the user's webdav accounts.        | [Link](webdav/getmyaccounts)   |
 
 ## Language specific wrappers
 

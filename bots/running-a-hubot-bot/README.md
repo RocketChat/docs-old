@@ -1,7 +1,7 @@
 # Running a Hubot bot
 
 Developers should start with (or at least reference) our example Hubot
-demonstrating usage of the Rocket.Chat adaptor:
+demonstrating usage of the Rocket.Chat adapter:
 [hubot-rocketchat-boilerplate](https://github.com/RocketChat/hubot-rocketchat-boilerplate)
 
 See [GitHub's own documentation](https://hubot.github.com/) for examples on
