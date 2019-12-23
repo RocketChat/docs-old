@@ -19,6 +19,7 @@ Manage Livechat related data:
 | `/api/v1/livechat/sms-incoming/:service` | `POST` | Send SMS messages to Rocket.Chat. | [info](sms-incoming/) |
 | `/api/v1/livechat/agent.info/:rid/:token` | `GET` | Retrieve the current Livechat agent data. | [info](agent/index.html) |
 | `/api/v1/livechat/agent.next/:token` | `GET` | Request the next Livechat agent available. | [info](agent/index.html#request-the-next-livechat-agent-available) |
+| `/api/v1/livechat/agents/:agentId/departments` | `GET` | Get the agent departments. | [info](agent/index.html#get-agent-departments) |
 | `/api/v1/livechat/config/:token` | `GET` | Get basic Livechat widget configuration info and additional visitor data. | [info](config/index.html) |
 | `/api/v1/livechat/custom.field` | `POST` | Send a Livechat custom field. | [info](custom-fields/index.html#send-a-livechat-custom-field) |
 | `/api/v1/livechat/custom.fields` | `POST` | Send an array of Livechat custom fields. | [info](custom-fields/index.html#send-an-array-of-livechat-custom-fields) |
