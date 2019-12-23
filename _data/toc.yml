@@ -168,6 +168,7 @@
   - Livechat:
     - Livechat Queues
     - Omnichannel Integration
+    - Whatsapp Twilio
   - Notifications:
     - Push Notifications
   - Permissions
@@ -310,9 +311,14 @@
         - delete
         - followMessage
         - getDeletedMessages
+        - getDiscussions
+        - getMentionedMessages
         - getMessage
         - getMessageReadReceipts
         - getPinnedMessages
+        - getSnippetedMessages
+        - getSnippetedMessageById
+        - getStarredMessages
         - getThreadMessages
         - getThreadsList
         - pinMessage
@@ -333,6 +339,10 @@
         - get
         - list
         - run
+      - Custom Sounds:
+        - list
+      - Custom User Status:
+        - list
       - Emoji Custom:
         - create
         - delete
@@ -403,6 +413,7 @@
         - room
         - rooms
         - sms-incoming
+        - triggers
         - users
         - video-call
         - visitor
@@ -413,6 +424,9 @@
         - spotlight
         - statistics
         - statistics.list
+      - OAuthApps:
+        - get
+        - list
       - Permissions:
         - list
         - update
@@ -464,6 +478,7 @@
         - regeneratePersonalAccessToken
         - register
         - removePersonalAccessToken
+        - requestDataDownload
         - resetAvatar
         - setAvatar
         - set-preferences
@@ -472,6 +487,8 @@
         - updateOwnBasicInfo
       - Video Conference:
         - jitsi-update-timeout
+      - Webdav:
+        - getMyAccounts
       - Offset and Count and Sort Info
       - Rate Limiter
       - Query and Fields Info
@@ -486,11 +503,12 @@
 - Bots:
   - Bots Architecture
   - Configure Bot Environment
-  - Create and run a Bot
+  - Create and run a Bot:
+    - Botkit Bot
+    - Hubot Bot
+    - Botpress Bot
+    - Rasa Bot
+    - RocketChat SDK Bot
   - Running a bBot Bot
-  - Running a Hubot Bot
-  - Running a Botkit Bot
-  - Running a Rasa Bot
-  - Running a Botpress Bot
 - Community Cookbook:
   - Remote Video Monitoring

@@ -1,6 +1,6 @@
 # Restoring an Admin User
 
-You might accidently lost access to an important admin user (or the only admin in the server) and need to restore it without using another admin user. This guide will help you in this process.
+You might accidentally lost access to an important admin user (or the only admin in the server) and need to restore it without using another admin user. This guide will help you in this process.
 
 _Note: To do this, you will need access to the database_
 

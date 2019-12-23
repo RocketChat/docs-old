@@ -35,7 +35,10 @@ Manage Livechat related data:
 | `/api/v1/livechat/room.forward` | `POST` | Allow Livechat Agents to forward a Livechat room to another agent, department or return it back to the Queue. | [info](room/index.html#forward-livechat-room) |
 | `/api/v1/livechat/room.survey` | `POST` | Send a Livechat survey to Rocket.Chat. | [info](room/index.html#send-the-livechat-survey) |
 | `/api/v1/livechat/transcript` | `POST` | Request a Livechat transcript. | [info](transcript/) |
+| `/api/v1/livechat/triggers` | `GET` | Get the Livechat triggers. | [info](triggers/) |
+| `/api/v1/livechat/triggers/:_id` | `GET` | Get a Livechat trigger. | [info](triggers/) |
 | `/api/v1/livechat/video.call/:token` | `GET` | Request a new video call room. | [info](video-call/) |
 | `/api/v1/livechat/visitor` | `POST` | Register a new Livechat visitor. | [info](visitor/index.html) |
 | `/api/v1/livechat/visitor/:token` | `GET` | Retrieve a visitor data. | [info](visitor/index.html) |
 | `/api/v1/livechat/page.visited` | `POST` | Send visitor navigation history to Rocket.Chat. | [info](visitor/index.html#send-visitor-navigation-history) |
+| `/api/v1/livechat/visitors.chatHistory/room/room-id/visitor/visitor-id` | `GET` | Gets the visitor chat history. | [info](visitor/index.html#get-the-visitor-chat-history) |
