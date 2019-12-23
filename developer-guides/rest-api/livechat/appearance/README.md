@@ -47,4 +47,4 @@ curl http://localhost:3000/api/v1/livechat/appearance
 
 | Version | Description |
 | :------ | :---------- |
-| 2.0.0  | Added       |
+| 2.2.0  | Added       |
