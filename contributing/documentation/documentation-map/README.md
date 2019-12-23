@@ -403,9 +403,8 @@ Here you can also find what articles are incomplete and missing.
             - config
             - custom-fields
             - department
+            - inquiries
             - integrations.settings
-            - inquiries.list
-            - inquiries.take
             - message
             - office-hours
             - room

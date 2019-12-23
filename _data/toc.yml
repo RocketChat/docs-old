@@ -409,9 +409,8 @@
         - config
         - custom-fields
         - department
+        - inquiries
         - integrations.settings
-        - inquiries.list
-        - inquiries.take
         - message
         - office-hours
         - room
