@@ -40,3 +40,4 @@ Manage Livechat related data:
 | `/api/v1/livechat/visitor/:token` | `GET` | Retrieve a visitor data. | [info](visitor/index.html) |
 | `/api/v1/livechat/page.visited` | `POST` | Send visitor navigation history to Rocket.Chat. | [info](visitor/index.html#send-visitor-navigation-history) |
 | `/api/v1/livechat/appearance` | `GET` | Get the settings about Livechat Widget Appearance. | [info](appearance) |
+| `/api/v1/livechat/visitors.chatHistory/room/room-id/visitor/visitor-id` | `GET` | Gets the visitor chat history. | [info](visitor/index.html#get-the-visitor-chat-history) |
