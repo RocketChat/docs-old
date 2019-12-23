@@ -118,7 +118,6 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | :--- | :--- |
 | 1.2.0 | Added |
 
-
 ## Livechat Get one inquiry by room id
 
 Get one inquiry by room id.
@@ -143,7 +142,7 @@ Get one inquiry by room id.
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type: application/json" \
-     http://localhost:3000/api/v1/livechat/inquiries.getOne?roomId=ByehQjC44FwMeiLbX 
+     http://localhost:3000/api/v1/livechat/inquiries.getOne?roomId=ByehQjC44FwMeiLbX
 ```
 
 ## Example Result
@@ -174,5 +173,5 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
-| 3.0.0 | Added |
+| 2.4.0 | Added |
 
