@@ -1,6 +1,6 @@
 # List Invites
 
-Lists all of the invites on the server. Requires the `create-invite-links` permission. 
+Lists all of the invites on the server. Requires the `create-invite-links` permission.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

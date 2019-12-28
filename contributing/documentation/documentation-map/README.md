@@ -397,6 +397,12 @@ Here you can also find what articles are incomplete and missing.
             - history
             - list
             - remove
+        - Invites:
+            - findOrCreateInvite
+            - listInvites
+            - removeInvite
+            - useInviteToken
+            - validateInviteToken
         - Livechat:
             - agent
             - appearance

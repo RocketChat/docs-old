@@ -403,6 +403,12 @@
         - history
         - list
         - remove
+      - Invites:
+        - findOrCreateInvite
+        - listInvites
+        - removeInvite
+        - useInviteToken
+        - validateInviteToken
       - Livechat:
         - agent
         - appearance
