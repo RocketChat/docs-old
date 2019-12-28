@@ -224,6 +224,16 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/integrations.list`    | Lists all of the integrations.                                | [Link](integration/list/)   |
 | `/api/v1/integrations.remove`  | Removes an integration.                                       | [Link](integration/remove/) |
 
+### Invites
+
+| Url                             | Short Description                                                          | Details Page                         |
+| :------------------------------ | :------------------------------------------------------------------------- | :----------------------------------- |
+| `/api/v1/findOrCreateInvite`    | Created a new Invite or returns an existing one with the same parameters.  | [Link](invites/findOrCreateInvite/)  |
+| `/api/v1/listInvites`           | Lists all of the invite tokens.                                            | [Link](invites/listInvites/)         |
+| `/api/v1/removeInvite`          | Removes an invite.                                                         | [Link](invites/removeInvite/)        |
+| `/api/v1/useInviteToken`        | Report to the server that an invite token was used.                        | [Link](invites/useInviteToken/)      |
+| `/api/v1/validateInviteToken`   | Checks if an invite token is valid.                                        | [Link](invites/validateInviteToken/) |
+
 ### Livechat
 
 | Url                              | Short Description                                             | Details Page                     |
