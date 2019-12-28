@@ -27,7 +27,6 @@ jobs:
           ${{ runner.os }}-gem-
 
     - name: Install dependencies
-      if: steps.gem-cache.outputs.cache-hit != 'true'
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3 --deployment
