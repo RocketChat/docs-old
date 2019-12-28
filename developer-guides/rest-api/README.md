@@ -236,11 +236,11 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Livechat
 
-| Url                              | Short Description                                             | Details Page                                      |
-| :------------------------------- | :------------------------------------------------------------ | :------------------------------------------------ |
-| `/api/v1/livechat/inquiries.list`| Retrieves a list of open inquiries.                           | [Link](livechat/inquiries/#inquiries-list)        |
-| `/api/v1/livechat/inquiries.take`| Take an open inquiry.                                         | [Link](livechat/inquiries/#livechat-take-inquiry) |
-| `/api/v1/livechat/rooms`         | Retrieves a list of livechat rooms.                           | [Link](livechat/rooms/)                           |
+| Url                              | Short Description                   | Details Page                                      |
+| :------------------------------- | :-----------------------------------| :------------------------------------------------ |
+| `/api/v1/livechat/inquiries.list`| Retrieves a list of open inquiries. | [Link](livechat/inquiries/#inquiries-list)        |
+| `/api/v1/livechat/inquiries.take`| Take an open inquiry.               | [Link](livechat/inquiries/#livechat-take-inquiry) |
+| `/api/v1/livechat/rooms`         | Retrieves a list of livechat rooms. | [Link](livechat/rooms/)                           |
 
 ### OAuthApps
 
