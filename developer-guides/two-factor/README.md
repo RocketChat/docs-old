@@ -42,26 +42,26 @@ When a call that requires two factor is made it will return an error `totp-requi
 
 ```JSON
 {
-	"msg": "result",
-	"id": "1",
-	"error": {
-		"isClientSafe": true,
-		"error": "totp-required",
-		"reason": "TOTP Required",
-		"details": {
-			"method": "email",
-			"codeGenerated": false,
-			"codeCount": 1,
-			"codeExpires": [
-				"2019-12-31T22:05:22.159Z"
-			],
-			"availableMethods": [
-				"email"
-			]
-		},
-		"message": "TOTP Required [totp-required]",
-		"errorType": "Meteor.Error"
-	}
+  "msg": "result",
+  "id": "1",
+  "error": {
+    "isClientSafe": true,
+    "error": "totp-required",
+    "reason": "TOTP Required",
+    "details": {
+      "method": "email",
+      "codeGenerated": false,
+      "codeCount": 1,
+      "codeExpires": [
+        "2019-12-31T22:05:22.159Z"
+      ],
+      "availableMethods": [
+        "email"
+      ]
+    },
+    "message": "TOTP Required [totp-required]",
+    "errorType": "Meteor.Error"
+  }
 }
 ```
 
