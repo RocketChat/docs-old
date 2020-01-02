@@ -202,9 +202,10 @@
       - Supporting SSL
     - Developing Apps:
       - Getting Started
-    - Two Factor
+    - Two Factor:
+      - Realtime API
+      - REST API
     - Realtime API:
-      - Two Factor
       - Method Calls:
         - Login
         - Logout
@@ -253,7 +254,6 @@
         - sendOfflineMessage
         - streamlivechatroom
     - Rest API:
-      - Two Factor
       - Assets:
         - setAsset
         - unsetAsset
