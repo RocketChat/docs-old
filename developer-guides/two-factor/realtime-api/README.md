@@ -2,7 +2,7 @@
 
 Visit [the Two Factor Authorization page](../../two-factor) for general information about Two Factor Authorization.
 
-### Errors
+## Errors
 
 When a call that requires two factor is made it will return an error `totp-require`. The details object will list the method that has been required (email on this example) so it's possible to inform the user to check his email for the code.
 
@@ -37,73 +37,73 @@ When a call that requires two factor is made it will return an error `totp-requi
 }
 ```
 
-### Calling a method with Two Factor
+## Calling a method with Two Factor
 
 After receive the error it's necessary to pass the informed code to the API. For that we need to call a new method called `callWithTwoFactorRequired` passing the information as an object:
 
-#### Request
+### Request
 
 * **code**: (string) The code informed by the user;
 * **ddpMethod**: (string) The original method called;
 * **method**: (string) The desired method to check the Two Factor, usually the same from the error;
 * **params**: (any[]) An array of parameters used for the original method;
 
-#### Result
+### Result
 
 * If the two factor was accepted the **result** and the **error** will came from the original method;
 * If the two factor was not accepted the **error** `totp-invalid` will be returned;
 
-#### Example
+### Example
 
 ```javascript
 Meteor.call('callWithTwoFactorRequired', { code, ddpMethod, method, params: args }, (error, result) => {});
 ```
 
-### Requesting a new email code
+## Requesting a new email code
 
 If the user didn't receive the code it's possible to request the server to send a new code via email by calling the DDP Method `sendEmailCode` passing the user's email or username. It's required to pass the email or username because this Method can be called when the user is not logged in.
 
-#### Request
+### Request
 
 * **sendEmailCode**: (string) The user's username or email
 
-#### Result
+### Result
 
 * If success: **array of emails** to where the code was sent;
 * If error: **error-parameter-required** if the parameter `emailOrUsername` was not provided;
 * If error: **error-invalid-user** if the user was not found with the provided `emailOrUsername`;
 
-#### Example
+### Example
 
 ```javascript
 Meteor.call('sendEmailCode', emailOrUsername, (error, result) => {});
 ```
 
-### Enabling the Two Factor via Email
+## Enabling the Two Factor via Email
 
 It's possible to enable the email check by calling the Method `2fa:enable-email`. Note that the two factor via email will only work if the user has at least one verified email.
 
-#### Result
+### Result
 
 * If success: **true** is returned;
 * If error: **not-authorized** if the user is not logged in;
 
-#### Example
+### Example
 
 ```javascript
 Meteor.call('2fa:enable-email', (error, result) => {});
 ```
 
-### Disabling the Two Factor via Email
+## Disabling the Two Factor via Email
 
 It's possible to disabled the email check by calling the Method `2fa:disable-email`. Note this Method requires the two factor to be executed.
 
-#### Result
+### Result
 
 * If success: **true** is returned;
 * If error: A two factor verification error is returned;
 
-#### Example
+### Example
 
 ```javascript
 Meteor.call('2fa:disable-email', (error, result) => {});
