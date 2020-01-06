@@ -38,6 +38,6 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description                |
 | :------ | :------------------------- |
-| 3.0.0   | Added `triggerId` property |
+| 2.5.0   | Added `triggerId` property |
 | 2.0.0   | Added `tmid` property      |
 | 0.60.2  | Added                      |
