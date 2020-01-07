@@ -161,7 +161,7 @@ return 301 https://$host$request_uri;
     `sudo usermod -aG docker ubuntu`
 4. Install Docker Compose:
     `sudo -i`
-    `curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-compose-Linux-x86_64 > /usr/local/bin/docker-compose`
+    `curl -L https://github.com/docker/compose/releases/download/1.25.0/docker-compose-Linux-x86_64 > /usr/local/bin/docker-compose`
     `chmod +x /usr/local/bin/docker-compose`
     `exit`
 5. Logout, and log back in again.
@@ -197,7 +197,7 @@ services:
       - 3000:3000
 
   mongo:
-    image: mongo
+    image: mongo:3.4
     restart: unless-stopped
     volumes:
      - .data/runtime/db:/data/db
@@ -207,7 +207,7 @@ services:
   # this container's job is just to run the command to initialize the replica set.
   # it will run the command and remove himself (it will not stay running)
   mongo-init-replica:
-    image: mongo
+    image: mongo:3.4
     command: 'bash -c "for i in `seq 1 30`; do mongo mongo/rocketchat --eval \"rs.initiate({ _id: ''rs0'', members: [ { _id: 0, host: ''localhost:27017'' } ]})\" && s=$$? && break || s=$$?; echo \"Tried $$i times. Waiting 5 secs...\"; sleep 5; done; (exit $$s)"'
     depends_on:
       - mongo
