@@ -231,6 +231,9 @@ WorkingDirectory=/var/www/rocket.chat
 ExecStart=/usr/local/bin/docker-compose up db
 Restart=on-failure
 RestartSec=120s
+
+[Install]
+WantedBy=multi-user.target
 ```
 
 - Save and Exit.
@@ -249,6 +252,9 @@ WorkingDirectory=/var/www/rocket.chat
 ExecStart=/usr/local/bin/docker-compose up rocketchat
 Restart=on-failure
 RestartSec=120s
+
+[Install]
+WantedBy=multi-user.target
 ```
 
 Now we need to make systemd aware of these files:
