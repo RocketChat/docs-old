@@ -4,3 +4,6 @@
 
 [https://github.com/pavel-kazhavets/AlertmanagerRocketChat](https://github.com/pavel-kazhavets/AlertmanagerRocketChat)
 
+Another integration that creates more concise messages:
+
+[https://github.com/puzzle/prometheus-rocket-chat](https://github.com/puzzle/prometheus-rocket-chat)
