@@ -4,6 +4,11 @@
 <br>
 To be able to use this endpoint you must set the ENV VAR (CREATE_TOKENS_FOR_USERS).
 
+Example if you use snaps:
+
+    echo "CREATE_TOKENS_FOR_USERS=true" > /var/snap/rocketchat-server/common/create-tokens.env
+    sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
+        
 Create a user authentication token. Requires `user-generate-access-token` permission.
 
 | URL | Requires Auth | HTTP Method |
