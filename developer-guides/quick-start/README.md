@@ -2,13 +2,15 @@
 
 ## On Linux/Mac
 
-You can run Rocket.Chat for development on a Linux or a Mac. The following instruction has been tested on a new Ubuntu 18.04 LTS installation.
+You can run Rocket.Chat for development on a Linux or a Mac. The following instruction has been tested on a new Ubuntu 18.04 LTS installation.    Try to find and use a *NEW Ubuntu server installation* with no other un-necessary software installed, not a "Desktop" or "Client" installation.
 
-During the build, memory usage will be nearly 8G, this is the minimum level of RAM recommended for development workstations.
+*DO NOT* use a system where you already have nodeJS installed to avoid problems.
 
-Note that there is no need to install mongo, nodejs, or npm on the base operating system.
+During the build, memory usage will be nearly 8G, this is the minimum level of RAM recommended for development workstations.  (If you are not doing any development, and just deploying a Rocket.Chat server - the RAM required can be as low as 1G.)
 
-Development should be performed under a regular user account (not `root`) on Linux.  There should be no need to run `sudo` at all.
+IMPORTANT:  Note that there is no need to install mongo, nodejs, or npm on the base operating system.  If you have any of these already installed; start over, or use another CLEAN system.
+
+Development should be performed under a regular user account (not `root`) on Linux.  There should be no need to run `sudo` at all.   Running `sudo`, even once,  during the installation -- may mess up file permissions in irreversable manner.
 
 You may notice build WARNINGs related to _peer dependencies_  or other transitive dependencies.  They are typically safe to ignore unless you are coding the feature or modules that require them.
 
@@ -36,7 +38,7 @@ You may notice build WARNINGs related to _peer dependencies_  or other transitiv
 
     `meteor npm install`
 
-5. Start building (can take 5 minutes, please be patient)
+5. Start building (the first build can *take 30 or more minutes*, and you may see various warnings or minor errors --  please be patient;  subsequent dev builds after the first will be 5 minutes or less)
 
     `meteor npm start`
 
