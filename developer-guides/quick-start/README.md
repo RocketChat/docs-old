@@ -18,7 +18,7 @@ You may notice build WARNINGs related to _peer dependencies_  or other transitiv
 
     `sudo apt install g++ build-essential git curl python-minimal`
 
-2. Install meteor 
+2. Install meteor
 
     `curl https://install.meteor.com/ | sh`
 
