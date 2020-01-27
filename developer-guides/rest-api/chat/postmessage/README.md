@@ -1,6 +1,7 @@
 # Post a chat message
 
-## IMPORTANT ##
+## IMPORTANT
+
 You only can send `alias` and `avatar` properties if your user has the `bot` role. We implement this rule to avoid users to impersonate other users.
 
 | URL                        | Requires Auth | HTTP Method |

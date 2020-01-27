@@ -4,7 +4,8 @@ The difference between `chat.postMessage` and `chat.sendMessage` is that `chat.s
 for passing a value for `_id` and the other one doesn't. Also, `chat.sendMessage` only sends it to
 one channel whereas the other one allows for sending to more than one channel at a time.
 
-## IMPORTANT ##
+## IMPORTANT
+
 You only can send `alias` and `avatar` properties if your user has the `bot` role. We implemented this rule to avoid users to impersonate other users.
 
 | URL                        | Requires Auth | HTTP Method |
