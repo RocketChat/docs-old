@@ -21,7 +21,10 @@ By "Support" we mean that Rocket.Chat will provide only security fixes and answe
 | Rocket.Chat 1.2     | June 2019      | September 2019   |
 | **Rocket.Chat 1.3** | **July 2019**  | **January 2020** |
 | Rocket.Chat 2.0     | August 2019    | November 2019    |
-| Rocket.Chat 2.1     | September 2019 | TBD              |
+| Rocket.Chat 2.1     | September 2019 | December 2019    |
+| Rocket.Chat 2.2     | October 2019   | January 2020     |
+| Rocket.Chat 2.3     | November 2019  | February 2020    |
+| Rocket.Chat 2.4     | December 2019  | TBD              |
 
 > Always update to latest stable version before reporting any bugs or before ask for help from community.
 
