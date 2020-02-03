@@ -51,17 +51,17 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: The goal of Real-Time Visitor Monitoring is to provide an important feature for the Live chat team by displaying a list of visitors who are browsing the website where the Livechat widget is installed. Having this feature, it will be possible to track important information related to visitors, such as the current page, location, time on site, local time, and so on, even though the visitor has not yet started a conversation with an agent. In addition, an agent will be able to start a conversation with a specific visitor directly from the list, improving the proactivity of the Live chat team.
 - **Desirable Skills**: Familiarity with Rocket.Chat/Livechat development.
 
-### Improve Documentation Framework
+### Improve Documentation Framework (Versioning)
 
-- **Mentors**: @martinscholeler
-- **Description**: Revamp the documentation generation and hosting framework on Jekyll to ease the barrier of entry for contributors trying to run the enviornment on their own machines.   Making it more contributor friendly.  In addition, add support for multi-lingual AND multi-releases for documentation.
-- **Desirable Skills**: Familiarity with Ruby on Rails development.  Working knowledge of Jekyll and documentation generation framwork highly useful.
+- **Mentors**: [@martin.scholeler](https://open.rocket.chat/direct/martin.schoeler), [@guilherme.cruz](https://open.rocket.chat/direct/guilherme.cruz)
+- **Description**: The main objective of this project is to add a versioning capacity to the documentation, while maintaining a relatively simple file structure and ease of use. In addition, add support for multi-lingual documentation and increase the ease of use of the documentation generation and hosting framework to ease the barrier of entry for contributors trying to run the environment on their own machines, making it more contributor friendly.
+- **Desirable Skills**: Familiarity with Ruby on Rails development. Working knowledge of Jekyll and documentation generation framework highly useful.
 
 ### Ability to Rebrand ReactNative Mobile Apps
 
 - **Mentors:** @jaytat0, @bizzbyster
-- **Description:** Implement a way for administrators to rebrand their instances of rocketchat - product name, icons, colors, etc. - for the android and ios apps, which currently do not support this. Besides adding this capability, another goal would be to make this branding across all the OS’s easy for an administrator that may not be too tech savvy. Ideally, this would only be a few easy steps. Besides this ease-of-use improvement, this would also make it less likely that people will fork rocket to put in their own branding.
-- **Desirable Skills:**  Familiarity with ReactNative development is absolutely necessary.  Candadite should have both iOS and Android experience.
+- **Description:** Implement a way for administrators to rebrand their instances of Rocket.Chat - product name, icons, colors, etc. - for the android and iOS apps, which currently do not support this. Besides adding this capability, another goal would be to make this branding across all the OS’s easy for an administrator that may not be too tech savvy. Ideally, this would only be a few easy steps. Besides this ease-of-use improvement, this would also make it less likely that people will fork rocket to put in their own branding.
+- **Desirable Skills:**  Familiarity with ReactNative development is absolutely necessary.  Candidate should have both iOS and Android experience.
 
 ### Omnichannel: Support for Voice and Video Calls
 
@@ -74,7 +74,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Mentors**: @ashish.jha @prajval.raval
 - **Project repository**: <https://github.com/RocketChat/alexa-rocketchat>
 - **Description**: Bring access of Rocket.Chat into the world of 100 million+ Alexa enabled devices.  The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Alexa ecosystem - powered by open source Rocket.Chat.   Google Home/Assistant devices support, if possible, should also be considered concurrently.
-- **Desirable Skills**: Familiarity with Alexa skills development. Experience with interfacing external sources and systems into Alexa skills. Passion for global converstational interaction enablement. Familiarity with Google Action development ideal.
+- **Desirable Skills**: Familiarity with Alexa skills development. Experience with interfacing external sources and systems into Alexa skills. Passion for global conversational interaction enablement. Familiarity with Google Action development ideal.
 
 ### Omnichannel:  Chatbot support for RASA and Dialogflow
 
