@@ -94,22 +94,26 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: Rocket.Chat is currently capable of importing data exported from Slack and HipChat, but there's no importer for Mattermost data. This is a valuable feature that the application is still missing.
 
 ### Apple Watch App
--- **Mentors**: @djorkaeff.alexandre @diego.mello
+
+- **Mentors**: @djorkaeff.alexandre @diego.mello
 - **Description**: Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such as viewing the chat rooms and reading the messages. Let the user ask Siri to read the latest messages, send messages or respond to a message.
 - **Desirable Skills**: Familiarity with WatchKit development on WatchOS & SiriKit, Familiarity with React Native.
 
 ### Target oficial/experimental using GitHub CI
--- **Mentors**: @djorkaeff.alexandre @diego.mello
+
+- **Mentors**: @djorkaeff.alexandre @diego.mello
 - **Description**: Create build of our 4 apps on GitHubCI, 2 Android Apps and 2 iOS Apps (Official and Experimental).
 - **Desirable Skills**: Familiarity with ReactNative, FastLane, Android & iOS build apps.
 
 ### Add Analytics to Mobile Apps
--- **Mentors**: @djorkaeff.alexandre @diego.mello
+
+- **Mentors**: @djorkaeff.alexandre @diego.mello
 - **Description**: We use Firebase to track some analytics, now we want to know data like 'how many people clicked on login?'. You need to add firebase analytics to our app and add track analytics of the most important features and events.
 - **Desirable Skills**: Familiarity with ReactNative and Firebase Analytics.
 
 ### Share Location on Mobile Apps
--- **Mentors**: @djorkaeff.alexandre @diego.mello
+
+- **Mentors**: @djorkaeff.alexandre @diego.mello
 - **Description**: We have this feature on our web client, server has an implementation about this, you only need to implement this feature on our Mobile Client and ability to select and share a location (based or not on user's location), custom message to show the location shared and need to be able to open this location on maps apps.
 - **Desirable Skills**: Familiarity with ReactNative and Rocket.Chat codebase.
 
