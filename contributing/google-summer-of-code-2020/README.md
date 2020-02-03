@@ -117,6 +117,18 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: We have this feature on our web client, server has an implementation about this, you only need to implement this feature on our Mobile Client and ability to select and share a location (based or not on user's location), custom message to show the location shared and need to be able to open this location on maps apps.
 - **Desirable Skills**: Familiarity with ReactNative and Rocket.Chat codebase.
 
+### Uber Rocket.Chat App
+
+- **Mentors**: [@marcos.defendi](https://open.rocket.chat/direct/marcos.defendi)
+- **Description**: The goal of this project is allow users to call their Uber rides directly from Rocket.Chat.
+- **Desirable Skills**: Familiarity with Typescript and OOP concepts.
+
+### Vocabulary Booster Rocket.Chat App
+
+- **Mentors**: [@marcos.defendi](https://open.rocket.chat/direct/marcos.defendi)
+- **Description**: The goal of this project is to provide the user a way to improve his vocabulary in a certain language (English, for now), by sending him a message with a "new" word in certain periods of time (configurable). After that, the app should validate if the user has learned the meaning of the word, sending the definition and some word options, or some sentence with the word and a gap to fill. Also the app would show the user's performance. There are some API's to get the words and the meanings. e.g ([WordsAPI](https://www.wordsapi.com/), [Datamuse](https://www.datamuse.com/api/), [Oxford](https://developer.oxforddictionaries.com/), etc) (needs to be evaluated deeply)
+- **Desirable Skills**: Familiarity with Typescript and OOP concepts.
+
 ## Timeline
 
 [GSoC 2020 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
