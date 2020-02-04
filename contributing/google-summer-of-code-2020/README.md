@@ -145,6 +145,14 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: The goal of this project is to provide the user a way to improve his vocabulary in a certain language (English, for now), by sending him a message with a "new" word in certain periods of time (configurable). After that, the app should validate if the user has learned the meaning of the word, sending the definition and some word options, or some sentence with the word and a gap to fill. Also the app would show the user's performance. There are some API's to get the words and the meanings. e.g ([WordsAPI](https://www.wordsapi.com/), [Datamuse](https://www.datamuse.com/api/), [Oxford](https://developer.oxforddictionaries.com/), etc) (needs to be evaluated deeply)
 - **Desirable Skills**: Familiarity with Typescript and OOP concepts.
 
+### OAuth/Account integration
+- **Mentors**: [@shiqi.mei](https://open.rocket.chat/direct/shiqi.mei) and [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert)
+- **Description**: Enable Apps to provide custom OAuth providers for Rocket.Chat
+
+### Assets installation (emoji and sounds)
+- **Mentor**: [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento) and [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert)
+- **Description**: Enable Apps to provide custom assets as emojis and sounds for use on the various related features on Rocket.Chat
+
 ## Timeline
 
 [GSoC 2020 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
