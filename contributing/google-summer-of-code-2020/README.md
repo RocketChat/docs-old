@@ -81,8 +81,20 @@ The leaderboard project **itself** is open source, created and maintained by our
 ### Omnichannel:  Chatbot support for RASA and Dialogflow
 
 - **Mentors**: @renatobecker
-- **Description**: The goal of this project would be to chatbot framework support for popular BOT frameworks - RASA and Dialogflow.
-- **Desirable Skills**: Experience in working with Dialogflow or RASA desirable.  Ideally an experienced Python developer with some Javascript skills.
+- **Description**: The goal of this project would be to create new integrations to interact with popular BOT frameworks - RASA and Dialogflow. Also, support and adapt rich messages to the formats of these platforms, as well as the formats supported by Rocket.Chat.
+- **Desirable Skills**: Experience in working with Chatbots communication. Familiarity with Typescript and, ideally, experience with Javascript.
+
+### Omnichannel: Add screen sharing feature in the Livechat widget
+
+- **Mentors**: @renatobecker
+- **Description**: Add a new interface between Rocket.Chat and the Omnichannel Livechat widget, allowing Agents to get real-time screenshare on customer's devices. For this initial version, we will also create an integration with the Cobrowse.io, which will be the first screen sharing supplier supported.
+- **Desirable Skills**: Experience with Javascript and React.JS.
+
+### Omnichannel: Create integration with Zoho Desk CRM
+
+- **Mentors**: @renatobecker
+- **Description**: In order to have a complete customer service experience, it is essential to have quick access to customer data, create service tickets, etc. The aim of this project is to provide that experience by creating an integration between Rocket.Chat and Zoho CRM, a complete CRM platform that will bring an even richer experience to the Omnichannel Customer Service.
+- **Desirable Skills**: REST, Experience with Javascript and familiarity with Typescript.
 
 ### Nextcloud Video Management
 
