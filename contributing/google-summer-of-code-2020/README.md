@@ -71,10 +71,17 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Alexa Skill(s) Improvement
 
-- **Mentors**: @ashish.jha @prajval.raval
-- **Project repository**: <https://github.com/RocketChat/alexa-rocketchat>
-- **Description**: Bring access of Rocket.Chat into the world of 100 million+ Alexa enabled devices.  The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Alexa ecosystem - powered by open source Rocket.Chat.   Google Home/Assistant devices support, if possible, should also be considered concurrently.
-- **Desirable Skills**: Familiarity with Alexa skills development. Experience with interfacing external sources and systems into Alexa skills. Passion for global conversational interaction enablement. Familiarity with Google Action development ideal.
+- **Mentors**: @ashish.jha @prajval.raval1
+- **Project repository**: <https://github.com/RocketChat/alexa-rc-multiserver-client>
+- **Description**: Bring access of Rocket.Chat into the world of 100 million+ Alexa enabled devices. The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Alexa ecosystem - powered by open source Rocket.Chat. The project will aim towards making current Rocket.Chat multisever proxy and Alexa client more secure for production and and publishing of Alexa Skill of on its store, of course while adding/upgrading features such as APL, Localisation, Dialog Management, Proactive events etc. This project will also focus on making current documentation more streamlined and "easy to refer" for newcomers.
+- **Desirable Skills**: Familiarity with Alexa Skills development, NodeJS Server Development and Rocket.Chat source code. Experience with interfacing external sources and systems into Alexa Skills. Passion for global converstational interaction enablement.
+
+### Google Action Improvement
+
+- **Mentors**: @ashish.jha @prajval.raval1
+- **Project repository**: <https://github.com/RocketChat/google-action-rocketchat>
+- **Description**: Bring access of Rocket.Chat into the world of 1 Billion+ Google Assistant enabled devices. The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Google Assistant ecosystem - powered by open source Rocket.Chat. The project will aim towards making current action compaitable with Multisever proxy and publishing of Google Action of on its store, of course while adding more features to it such as Interactive Canvas, App Actions etc.  This project will also focus on making current documentation more streamlined and "easy to refer" for newcomers.
+- **Desirable Skills**: Familiarity with Google Actions development, Dialogflow, NodeJS Server Development and Rocket.Chat source code. Experience with interfacing external sources and systems into Google Action. Passion for global converstational interaction enablement.
 
 ### Omnichannel:  Chatbot support for RASA and Dialogflow
 
