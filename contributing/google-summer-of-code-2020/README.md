@@ -146,10 +146,12 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Desirable Skills**: Familiarity with Typescript and OOP concepts.
 
 ### OAuth/Account integration
+
 - **Mentors**: [@shiqi.mei](https://open.rocket.chat/direct/shiqi.mei) and [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert)
 - **Description**: Enable Apps to provide custom OAuth providers for Rocket.Chat
 
 ### Assets installation (emoji and sounds)
+
 - **Mentor**: [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento) and [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert)
 - **Description**: Enable Apps to provide custom assets as emojis and sounds for use on the various related features on Rocket.Chat
 
