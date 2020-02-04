@@ -114,6 +114,13 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: We have this feature on our web client, server has an implementation about this, you only need to implement this feature on our Mobile Client and ability to select and share a location (based or not on user's location), custom message to show the location shared and need to be able to open this location on maps apps.
 - **Desirable Skills**: Familiarity with ReactNative and Rocket.Chat codebase.
 
+### Mobile Apps Accessibility
+
+- **Mentors:**  [@matheus.cardoso](https://open.rocket.chat/direct/matheus.cardoso)
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
+- **Description:** Android and iOS both support gesture-based screen readers that let you enjoy using the phone even if you don’t see the screen. This is especially important for those with low or no vision. We want to make Rocket.Chat for everyone. A blind user should be able to easily add servers, change servers, read messages and send messages, as well as other additional functions such as editing profile and creating channels. The proposal should contain a per-screen study of the current App's state of accessibility (what is missing and what needs to be improved), and a roadmap to take it to a delightful state.
+- **Desirable Skills:** We are looking for a student who is familiar with team work, developing mobile Apps using React Native and JavaScript, as well as writing maintainable code with Unit Tests and having some familiarity with Voice Over (iOS), TalkBack (Android) and Accessibility. Knowledge of Swift/Objective-C and Kotlin/Java may be needed for some of the trickier tasks.
+
 ### Uber Rocket.Chat App
 
 - **Mentors**: [@marcos.defendi](https://open.rocket.chat/direct/marcos.defendi)
