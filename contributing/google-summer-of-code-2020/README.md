@@ -45,23 +45,11 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ## Project Ideas
 
-### Omnichannel: Real-Time Visitor Monitoring
-
-- **Mentors**: @renatobecker
-- **Description**: The goal of Real-Time Visitor Monitoring is to provide an important feature for the Live chat team by displaying a list of visitors who are browsing the website where the Livechat widget is installed. Having this feature, it will be possible to track important information related to visitors, such as the current page, location, time on site, local time, and so on, even though the visitor has not yet started a conversation with an agent. In addition, an agent will be able to start a conversation with a specific visitor directly from the list, improving the proactivity of the Live chat team.
-- **Desirable Skills**: Familiarity with Rocket.Chat/Livechat development.
-
 ### Improve Documentation Framework (Versioning)
 
 - **Mentors**: [@martin.scholeler](https://open.rocket.chat/direct/martin.schoeler), [@guilherme.cruz](https://open.rocket.chat/direct/guilherme.cruz)
 - **Description**: The main objective of this project is to add a versioning capacity to the documentation, while maintaining a relatively simple file structure and ease of use. In addition, add support for multi-lingual documentation and increase the ease of use of the documentation generation and hosting framework to ease the barrier of entry for contributors trying to run the environment on their own machines, making it more contributor friendly.
 - **Desirable Skills**: Familiarity with Ruby on Rails development. Working knowledge of Jekyll and documentation generation framework highly useful.
-
-### Ability to Rebrand ReactNative Mobile Apps
-
-- **Mentors:** @jaytat0, @bizzbyster
-- **Description:** Implement a way for administrators to rebrand their instances of Rocket.Chat - product name, icons, colors, etc. - for the android and iOS apps, which currently do not support this. Besides adding this capability, another goal would be to make this branding across all the OS’s easy for an administrator that may not be too tech savvy. Ideally, this would only be a few easy steps. Besides this ease-of-use improvement, this would also make it less likely that people will fork rocket to put in their own branding.
-- **Desirable Skills:**  Familiarity with ReactNative development is absolutely necessary.  Candidate should have both iOS and Android experience.
 
 ### Omnichannel: Support for Voice and Video Calls
 
@@ -102,18 +90,13 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: Add the ability to manage and access recorded and previously live streamed video within the Rocket.Chat integrated Nextcloud environment. Similar to Youtube but with a chat-centric access interface.
 - **Desirable Skills**: Familiarity with Rocket.Chat and Nextcloud development.  Deep understanding of current digital streaming and recorded media standards a big plus.
 
-### Mattermost Data Importer
-
-- **Mentors**: TBD
-- **Description**: Rocket.Chat is currently capable of importing data exported from Slack and HipChat, but there's no importer for Mattermost data. This is a valuable feature that the application is still missing.
-
 ### Apple Watch App
 
 - **Mentors**: @djorkaeff.alexandre @diego.mello
 - **Description**: Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such as viewing the chat rooms and reading the messages. Let the user ask Siri to read the latest messages, send messages or respond to a message.
 - **Desirable Skills**: Familiarity with WatchKit development on WatchOS & SiriKit, Familiarity with React Native.
 
-### Target oficial/experimental using GitHub CI
+### Target official/experimental Mobile apps using GitHub Actions (CI)
 
 - **Mentors**: @djorkaeff.alexandre @diego.mello
 - **Description**: Create build of our 4 apps on GitHubCI, 2 Android Apps and 2 iOS Apps (Official and Experimental).
