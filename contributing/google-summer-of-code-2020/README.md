@@ -49,7 +49,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 - **Mentors**: [@martin.scholeler](https://open.rocket.chat/direct/martin.schoeler), [@guilherme.cruz](https://open.rocket.chat/direct/guilherme.cruz)
 - **Description**: The main objective of this project is to add a versioning capacity to the documentation, while maintaining a relatively simple file structure and ease of use. In addition, add support for multi-lingual documentation and increase the ease of use of the documentation generation and hosting framework to ease the barrier of entry for contributors trying to run the environment on their own machines, making it more contributor friendly.
-- **Desirable Skills**: Familiarity with Ruby on Rails development. Working knowledge of Jekyll and documentation generation framework highly useful.
+- **Desirable Skills**: Familiarity with Javascript development. Working knowledge of Jekyll and documentation generation framework highly useful.
 
 ### Omnichannel: Support for Voice and Video Calls
 
