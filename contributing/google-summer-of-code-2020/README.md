@@ -71,10 +71,24 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Alexa Skill(s) Improvement
 
-- **Mentors**: @ashish.jha @prajval.raval
+- **Mentors**: @ashish.jha @prajval.raval1
 - **Project repository**: <https://github.com/RocketChat/alexa-rocketchat>
-- **Description**: Bring access of Rocket.Chat into the world of 100 million+ Alexa enabled devices.  The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Alexa ecosystem - powered by open source Rocket.Chat.   Google Home/Assistant devices support, if possible, should also be considered concurrently.
-- **Desirable Skills**: Familiarity with Alexa skills development. Experience with interfacing external sources and systems into Alexa skills. Passion for global conversational interaction enablement. Familiarity with Google Action development ideal.
+- **Description**: Bring access of Rocket.Chat into the world of 100 million+ Alexa enabled devices. The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Alexa ecosystem - powered by open source Rocket.Chat. Google Home/Assistant devices support, if possible, should also be considered concurrently. The focus will be on devoting more time to improve the features which add more advantage and serve a frictionless experience when used via voice compared to features which have a limited use and are better performed using a GUI.
+- **Desirable Skills**: Familiarity with Alexa skills development and conversational design. NodeJS Server Development and Rocket.Chat source code. Experience with interfacing external sources and systems into Alexa skills. Passion for global conversational interaction enablement. Familiarity with Google Action development ideal.
+
+### Add Support for Bixby
+
+- **Mentors**: @ashish.jha @prajval.raval1
+- **Project repository**: <https://github.com/RocketChat/alexa-rc-multiserver-client>
+- **Description**: Last year we explored the possibilities of having a Rocket.Chat Amazon Alexa Skill and a Rocket.Chat Action on Google. This project should aim to explore adding a Samsung Bixby Capsule for Rocket.Chat. Bixby is a next-generation, conversational assistant platform that was created to help users get things done in a more efficient, personalized and natural way. The way Bixby focuses on a multimodal approach from the very start could help eliminate the nuances involved in building an intricate voice-only experience.
+- **Desirable Skills**: Familiarity with VUI/Bixby development. Experience with interfacing external sources and systems into Alexa skills. Passion for global conversational interaction enablement. Familiarity with Javascript ideal.
+
+### Google Action Improvement
+
+- **Mentors**: @ashish.jha @prajval.raval1
+- **Project repository**: <https://github.com/RocketChat/google-action-rocketchat>
+- **Description**: Bring access of Rocket.Chat into the world of 1 Billion+ Google Assistant enabled devices. The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Google Assistant ecosystem - powered by open source Rocket.Chat. The project will aim towards making current action compaitable with Multisever proxy and publishing of Google Action of on its store, of course while adding more features to it such as Interactive Canvas, App Actions etc.  This project will also focus on making current documentation more streamlined and "easy to refer" for newcomers.
+- **Desirable Skills**: Familiarity with Google Actions development, Dialogflow, NodeJS Server Development and Rocket.Chat source code. Experience with interfacing external sources and systems into Google Action. Passion for global converstational interaction enablement.
 
 ### Omnichannel:  Chatbot support for RASA and Dialogflow
 
