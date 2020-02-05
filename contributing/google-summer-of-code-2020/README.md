@@ -88,6 +88,15 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: We've been working on our new Omnichannel solution and it's time to add two great new features that will make Omnichannel even more powerful: voice and video calls! The idea is to integrate Omnichannel with the providers already supported in Rocket.Chat, such as Jitsi, WebRTC, BigBlueButton and so on. With these two new features, Omnichannel users will be able to initiate video and audio calls between them and Omnichannel agents.
 - **Desirable Skills**: Familiarity with Rocket.Chat/Omnichannel development, ReactJS/PreactJS, Voice and Video communication
 
+### Houston Improvements - Rocket.Chat release/changelog generator
+- **Mentors**: [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio) and [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Houston>
+- **Description**: Huston is the CLI tooling we use to release new versions of Rocket.Chat and to generate our change logs from merged pull requests. We want to:
+  - Rewrite the tooling in TypeScript;
+  - Improve the changelog generation getting more information from the PRs like description, images, etc;
+  - Accept a new format of PR titles;
+  - Add a validation system for PRs titles via GitHub Actions;
+
 ### Alexa Skill(s) Improvement
 
 - **Mentors**: @ashish.jha @prajval.raval1
