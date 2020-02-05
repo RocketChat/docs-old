@@ -51,26 +51,6 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: The main objective of this project is to add a versioning capacity to the documentation, while maintaining a relatively simple file structure and ease of use. In addition, add support for multi-lingual documentation and increase the ease of use of the documentation generation and hosting framework to ease the barrier of entry for contributors trying to run the environment on their own machines, making it more contributor friendly.
 - **Desirable Skills**: Familiarity with Javascript development. Working knowledge of Jekyll and documentation generation framework highly useful.
 
-### Omnichannel: Support for Voice and Video Calls
-
-- **Mentors**: @gazzo, @tazzo
-- **Description**: We've been working on our new Omnichannel solution and it's time to add two great new features that will make Omnichannel even more powerful: voice and video calls! The idea is to integrate Omnichannel with the providers already supported in Rocket.Chat, such as Jitsi, WebRTC, BigBlueButton and so on. With these two new features, Omnichannel users will be able to initiate video and audio calls between them and Omnichannel agents.
-- **Desirable Skills**: Familiarity with Rocket.Chat/Omnichannel development, ReactJS/PreactJS, Voice and Video communication
-
-### Alexa Skill(s) Improvement
-
-- **Mentors**: @ashish.jha @prajval.raval1
-- **Project repository**: <https://github.com/RocketChat/alexa-rocketchat>
-- **Description**: Bring access of Rocket.Chat into the world of 100 million+ Alexa enabled devices. The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Alexa ecosystem - powered by open source Rocket.Chat. Google Home/Assistant devices support, if possible, should also be considered concurrently. The focus will be on devoting more time to improve the features which add more advantage and serve a frictionless experience when used via voice compared to features which have a limited use and are better performed using a GUI.
-- **Desirable Skills**: Familiarity with Alexa skills development and conversational design. NodeJS Server Development and Rocket.Chat source code. Experience with interfacing external sources and systems into Alexa skills. Passion for global conversational interaction enablement. Familiarity with Google Action development ideal.
-
-### Add Support for Bixby
-
-- **Mentors**: @ashish.jha @prajval.raval1
-- **Project repository**: <https://github.com/RocketChat/alexa-rc-multiserver-client>
-- **Description**: Last year we explored the possibilities of having a Rocket.Chat Amazon Alexa Skill and a Rocket.Chat Action on Google. This project should aim to explore adding a Samsung Bixby Capsule for Rocket.Chat. Bixby is a next-generation, conversational assistant platform that was created to help users get things done in a more efficient, personalized and natural way. The way Bixby focuses on a multimodal approach from the very start could help eliminate the nuances involved in building an intricate voice-only experience.
-- **Desirable Skills**: Familiarity with VUI/Bixby development. Experience with interfacing external sources and systems into Alexa skills. Passion for global conversational interaction enablement. Familiarity with Javascript ideal.
-
 ### Google Action Improvement
 
 - **Mentors**: @ashish.jha @prajval.raval1
@@ -101,6 +81,26 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Mentors**: @renatobecker
 - **Description**: In order to have a complete customer service experience, it is essential to have quick access to customer data, create service tickets, etc. The aim of this project is to provide that experience by creating an integration between Rocket.Chat and Zoho CRM, a complete CRM platform that will bring an even richer experience to the Omnichannel Customer Service.
 - **Desirable Skills**: REST, Experience with Javascript and familiarity with Typescript.
+
+### Omnichannel: Support for Voice and Video Calls
+
+- **Mentors**: @gazzo, @tazzo
+- **Description**: We've been working on our new Omnichannel solution and it's time to add two great new features that will make Omnichannel even more powerful: voice and video calls! The idea is to integrate Omnichannel with the providers already supported in Rocket.Chat, such as Jitsi, WebRTC, BigBlueButton and so on. With these two new features, Omnichannel users will be able to initiate video and audio calls between them and Omnichannel agents.
+- **Desirable Skills**: Familiarity with Rocket.Chat/Omnichannel development, ReactJS/PreactJS, Voice and Video communication
+
+### Alexa Skill(s) Improvement
+
+- **Mentors**: @ashish.jha @prajval.raval1
+- **Project repository**: <https://github.com/RocketChat/alexa-rocketchat>
+- **Description**: Bring access of Rocket.Chat into the world of 100 million+ Alexa enabled devices. The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Alexa ecosystem - powered by open source Rocket.Chat. Google Home/Assistant devices support, if possible, should also be considered concurrently. The focus will be on devoting more time to improve the features which add more advantage and serve a frictionless experience when used via voice compared to features which have a limited use and are better performed using a GUI.
+- **Desirable Skills**: Familiarity with Alexa skills development and conversational design. NodeJS Server Development and Rocket.Chat source code. Experience with interfacing external sources and systems into Alexa skills. Passion for global conversational interaction enablement. Familiarity with Google Action development ideal.
+
+### Add Support for Bixby
+
+- **Mentors**: @ashish.jha @prajval.raval1
+- **Project repository**: <https://github.com/RocketChat/alexa-rc-multiserver-client>
+- **Description**: Last year we explored the possibilities of having a Rocket.Chat Amazon Alexa Skill and a Rocket.Chat Action on Google. This project should aim to explore adding a Samsung Bixby Capsule for Rocket.Chat. Bixby is a next-generation, conversational assistant platform that was created to help users get things done in a more efficient, personalized and natural way. The way Bixby focuses on a multimodal approach from the very start could help eliminate the nuances involved in building an intricate voice-only experience.
+- **Desirable Skills**: Familiarity with VUI/Bixby development. Experience with interfacing external sources and systems into Alexa skills. Passion for global conversational interaction enablement. Familiarity with Javascript ideal.
 
 ### Apps-CLI: Generate boilerplate components
 
@@ -163,6 +163,12 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: The goal of this project is to provide the user a way to improve his vocabulary in a certain language (English, for now), by sending him a message with a "new" word in certain periods of time (configurable). After that, the app should validate if the user has learned the meaning of the word, sending the definition and some word options, or some sentence with the word and a gap to fill. Also the app would show the user's performance. There are some API's to get the words and the meanings. e.g ([WordsAPI](https://www.wordsapi.com/), [Datamuse](https://www.datamuse.com/api/), [Oxford](https://developer.oxforddictionaries.com/), etc) (needs to be evaluated deeply)
 - **Desirable Skills**: Familiarity with Typescript and OOP concepts.
 
+### Salesforce Rocket.Chat App
+
+- **Mentors**: @sstetak, @dlassalle
+- **Description**: Create a Rocket.Chat app that will allow customers and Chatbots to interact through Rocket.Chat with CRM tools, primarily Salesforce.  This will allow organizations to provide access to the information and tools they already are using in Salesforce through a chat interface.
+- **Desirable Skills**: Familiarity with Rocket.Chat development, knowledge of Salesforce or other CRM tools.
+
 ### Rocket.Chat Mobile site
 
 - **Mentors**: @kb0304, @jaytat0
@@ -178,12 +184,6 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 - **Mentor**: [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento) and [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert)
 - **Description**: Enable Apps to provide custom assets as emojis and sounds for use on the various related features on Rocket.Chat
-
-### Salesforce Rocket.Chat App
-
-- **Mentors**: @sstetak, @dlassalle
-- **Description**: Create a Rocket.Chat app that will allow customers and Chatbots to interact through Rocket.Chat with CRM tools, primarily Salesforce.  This will allow organizations to provide access to the information and tools they already are using in Salesforce through a chat interface.
-- **Desirable Skills**: Familiarity with Rocket.Chat development, knowledge of Salesforce or other CRM tools.
 
 ## Timeline
 
