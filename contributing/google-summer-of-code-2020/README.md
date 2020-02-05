@@ -196,6 +196,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: Currently there is no way for an admin to know during the installation of an App which Apps-Engine features are going to be used and what kind of access the app will have to the workspace's data. The idea is for the App to provide a manifest with the features and access it is going to require, and the Apps-Engine will only allow the defined features to be used by the App.
 
 ### Improve test coverage and enable visual regression tests
+
 - **Mentors**:[@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo) and [@tasso.pinto](https://open.rocket.chat/direct/tasso.evangelista)
 - **Description**: Re-enable all current skipped tests, start a visual regression test for each relevant UI part using the same tooling (Cypress) and add tests to features without tests.
 
