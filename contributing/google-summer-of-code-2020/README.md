@@ -19,7 +19,7 @@ For students, application for the GSoC 2020 season opens on March 16, 2020.   Pl
 
 For ideas, check out our growing [list of ideas](#project-ideas) for some inspiration.
 
-Come meet our global community of 350+ mentors and students for GSoC 2019 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
+Come meet our global community of potential mentors and students for GSoC 2020 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
 
 <https://open.rocket.chat/channel/gsoc2020>
 
