@@ -96,6 +96,18 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: In order to have a complete customer service experience, it is essential to have quick access to customer data, create service tickets, etc. The aim of this project is to provide that experience by creating an integration between Rocket.Chat and Zoho CRM, a complete CRM platform that will bring an even richer experience to the Omnichannel Customer Service.
 - **Desirable Skills**: REST, Experience with Javascript and familiarity with Typescript.
 
+### Apps-CLI: Generate boilerplate components
+
+- **Mentors**: @douglas.gubert @shiqi.mei
+- **Description**: Add commands to the Rocket.Chat Apps-CLI that generate the boilerplate needed to add new components to the app being developed, such as Slash commands, API endpoints, etc.
+- **Desirable Skills**: Experience with Javascript and familiarity with Typescript.
+
+### Apps-CLI: Hot reload apps during development
+
+- **Mentors**: @douglas.gubert @shiqi.mei
+- **Description**: Add the option to the Rocket.Chat Apps-CLI to support apps development by hot-reloading the app in the development server on file saving.
+- **Desirable Skills**: Experience with Javascript and familiarity with Typescript.
+
 ### Nextcloud Video Management
 
 - **Mentors**: @guilherme.gazzo
