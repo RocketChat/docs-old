@@ -185,6 +185,11 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Mentor**: [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento) and [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert)
 - **Description**: Enable Apps to provide custom assets as emojis and sounds for use on the various related features on Rocket.Chat
 
+### Federation Whitelisting
+
+- **Mentor**: [@alan.sikora](https://open.rocket.chat/direct/alan.sikora)
+- **Description**: Enable Federation-enabled servers to whitelist other servers, avoiding unwanted chat requests and improving security
+
 ## Timeline
 
 [GSoC 2020 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
