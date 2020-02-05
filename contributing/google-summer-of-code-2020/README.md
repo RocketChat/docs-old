@@ -93,10 +93,10 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Mentors**: [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio) and [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Houston>
 - **Description**: Huston is the CLI tooling we use to release new versions of Rocket.Chat and to generate our change logs from merged pull requests. We want to:
-  * Rewrite the tooling in TypeScript;
-  * Improve the changelog generation getting more information from the PRs like description, images, etc;
-  * Accept a new format of PR titles;
-  * Add a validation system for PRs titles via GitHub Actions;
+    * Rewrite the tooling in TypeScript;
+    * Improve the changelog generation getting more information from the PRs like description, images, etc;
+    * Accept a new format of PR titles;
+    * Add a validation system for PRs titles via GitHub Actions;
 
 ### Alexa Skill(s) Improvement
 
@@ -243,9 +243,6 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 - **Mentors**: [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo) and [@tasso.pinto](https://open.rocket.chat/direct/tasso.evangelista)
 - **Description**: A new UI component to be rendered outside the room view allowing users to listen to the room’s videos when navigating to other rooms.
-UI to listen to audio files outside the room (like telegram) + "user is recording audio" indicator (as the typing one)
-Mentor: Tasso and Gazzo
-A new UI component to be rendered outside the room view allowing users to listen to the room’s audios when navigating to other rooms. Additions like listening speed are welcome.
 
 ### UI to listen to audio files outside the room (like telegram) + "user is recording audio" indicator (as the typing one)
 
