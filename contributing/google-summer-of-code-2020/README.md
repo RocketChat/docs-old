@@ -88,6 +88,16 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: We've been working on our new Omnichannel solution and it's time to add two great new features that will make Omnichannel even more powerful: voice and video calls! The idea is to integrate Omnichannel with the providers already supported in Rocket.Chat, such as Jitsi, WebRTC, BigBlueButton and so on. With these two new features, Omnichannel users will be able to initiate video and audio calls between them and Omnichannel agents.
 - **Desirable Skills**: Familiarity with Rocket.Chat/Omnichannel development, ReactJS/PreactJS, Voice and Video communication
 
+### Houston Improvements - Rocket.Chat release/changelog generator
+
+- **Mentors**: [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio) and [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Houston>
+- **Description**: Huston is the CLI tooling we use to release new versions of Rocket.Chat and to generate our change logs from merged pull requests. We want to:
+    * Rewrite the tooling in TypeScript;
+    * Improve the changelog generation getting more information from the PRs like description, images, etc;
+    * Accept a new format of PR titles;
+    * Add a validation system for PRs titles via GitHub Actions;
+
 ### Alexa Skill(s) Improvement
 
 - **Mentors**: @ashish.jha @prajval.raval1
@@ -166,7 +176,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 ### Create F-Droid build
 
 - **Mentors**: @djorkaeff.alexandre @diego.mello
-- **Description**: Create a build for the other store for Android apps: https://f-droid.org/
+- **Description**: Create a build for the other store for Android apps: <https://f-droid.org/>
 - **Desirable Skills**: Familiarity with Android development, React Native and Rocket.Chat codebase.
 
 ### Use Lingohub on mobile apps
@@ -238,10 +248,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 ### UI to see videos outside the room,  using popouts
 
 - **Mentors**: [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo) and [@tasso.pinto](https://open.rocket.chat/direct/tasso.evangelista)
-- **Description**: A new UI component to be rendered outside the room view allowing users to listen to the room’s videos when navigating to other rooms. 
-UI to listen to audio files outside the room (like telegram) + "user is recording audio" indicator (as the typing one)
-Mentor: Tasso and Gazzo
-A new UI component to be rendered outside the room view allowing users to listen to the room’s audios when navigating to other rooms. Additions like listening speed are welcome.
+- **Description**: A new UI component to be rendered outside the room view allowing users to listen to the room’s videos when navigating to other rooms.
 
 ### UI to listen to audio files outside the room (like telegram) + "user is recording audio" indicator (as the typing one)
 
