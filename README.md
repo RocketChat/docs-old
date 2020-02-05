@@ -3,25 +3,32 @@
 This is the official repository for Rocket.Chat Documentation.
 
 ## Requirements
- - Ruby >= 2.3 (Recommended >= 2.5)
- - [bundler](https://bundler.io/) gem installed (>= 1.17.3)
+
+- Ruby >= 2.3 (Recommended >= 2.5)
+- [bundler](https://bundler.io/) gem installed (>= 1.17.3)
 
 ## Contributing
+
 This is a quick guide on how to run the docs site locally, for a more in depth guide please look [here](contributing/documentation).
 
 ## Installation
+
 Install `bundler` using your terminal, run:
+
 ```bash
 $ gem install bundler --version 1.17.3
 ```
 
 And install the dependencies (also on terminal):
+
 ```bash
 $ bundle install
 ```
 
 ## Running locally
+
 Start the server using your terminal:
+
 ```bash
 $ jekyll serve --incremental --safe
 ```
