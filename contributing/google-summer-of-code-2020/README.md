@@ -191,6 +191,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: Enable Federation-enabled servers to whitelist other servers, avoiding unwanted chat requests and improving security
 
 ### Permissions system - Feature Manifest
+
 - **Mentors**: [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert) and [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
 - **Description**: Currently there is no way for an admin to know during the installation of an App which Apps-Engine features are going to be used and what kind of access the app will have to the workspace's data. The idea is for the App to provide a manifest with the features and access it is going to require, and the Apps-Engine will only allow the defined features to be used by the App.
 
