@@ -255,6 +255,11 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Mentors**: [@tasso.pinto](https://open.rocket.chat/direct/tasso.evangelista) and [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo)
 - **Description**: A new UI component to be rendered outside the room view allowing users to listen to the room’s audios when navigating to other rooms. Additions like listening speed are welcome.
 
+### Pre-installed apps
+
+- **Mentors**: [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert) and [@shiqi.mei](https://open.rocket.chat/direct/shiqi.mei)
+- **Description**: Make Rocket.Chat have a list of default apps that are going to be installed during the first run of the server.
+
 ## Timeline
 
 [GSoC 2020 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
