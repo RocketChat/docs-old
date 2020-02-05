@@ -201,6 +201,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: Re-enable all current skipped tests, start a visual regression test for each relevant UI part using the same tooling (Cypress) and add tests to features without tests.
 
 ### Lightweight UI for single room access (embedded UI)
+
 - **Mentors**:[@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo) and [@tasso.pinto](https://open.rocket.chat/direct/tasso.evangelista)
 - **Description**: Rocket.Chat already has an option to load the UI as embedded layout, although it still loads a lot of unnecessary data, the objective here is to find the most efficient way to render a single room UI with the minimum data possible in a way that the UI can be embedded in a website using an iframe and be performatic when reloading within the site navigation
 
