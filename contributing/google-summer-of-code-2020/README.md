@@ -195,7 +195,6 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Mentors**: [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert) and [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
 - **Description**: Currently there is no way for an admin to know during the installation of an App which Apps-Engine features are going to be used and what kind of access the app will have to the workspace's data. The idea is for the App to provide a manifest with the features and access it is going to require, and the Apps-Engine will only allow the defined features to be used by the App.
 
-
 ## Timeline
 
 [GSoC 2020 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
