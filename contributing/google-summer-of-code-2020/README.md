@@ -84,6 +84,12 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: The goal of this project would be to create new integrations to interact with popular BOT frameworks - RASA and Dialogflow. Also, support and adapt rich messages to the formats of these platforms, as well as the formats supported by Rocket.Chat.
 - **Desirable Skills**: Experience in working with Chatbots communication. Familiarity with Typescript and, ideally, experience with Javascript.
 
+### Omnichannel: Support for Live Agent and Chatbot Handoff
+
+- **Mentors**: @sstetak, @dlassalle
+- **Description**: Enhance Omnichannel Rocket.Chat to support the use of Chatbots, powered by NLP such as Dialogflow, in front of a larger existing infrastructure of Care Live Agents.  Enabling customers to use the Rocket.Chat client embedded in a website that directs them to a Chatbot.  If the Chatbot is unable to solve their issue, Rocket.Chat will seamlessly route them to a Live Agent through Rocket.Chat’s queues or another third-party system such as Salesforce.  At the end of the conversation the customer will be reconnected to the chatbot for additional support or survey purposes.
+- **Desirable Skills**: Familiarity with Rocket.Chat development, NLP or Chatbot experience
+
 ### Omnichannel: Add screen sharing feature in the Livechat widget
 
 - **Mentors**: @renatobecker
@@ -154,6 +160,12 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 - **Mentor**: [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento) and [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert)
 - **Description**: Enable Apps to provide custom assets as emojis and sounds for use on the various related features on Rocket.Chat
+
+### Salesforce Rocket.Chat App
+
+- **Mentors**: @sstetak, @dlassalle
+- **Description**: Create a Rocket.Chat app that will allow customers and Chatbots to interact through Rocket.Chat with CRM tools, primarily Salesforce.  This will allow organizations to provide access to the information and tools they already are using in Salesforce through a chat interface.
+- **Desirable Skills**: Familiarity with Rocket.Chat development, knowledge of Salesforce or other CRM tools.
 
 ## Timeline
 
