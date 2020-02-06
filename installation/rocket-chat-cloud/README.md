@@ -43,3 +43,6 @@ We currently have:
 * EU (Frankfurt)
 
 If you would like to see a region that we don't have available please let us know.
+
+## Additional Info
+You can find additional information in our support knowledge base found here: https://desk.rocket.chat/portal/kb/rocket-chat/cloud-account
