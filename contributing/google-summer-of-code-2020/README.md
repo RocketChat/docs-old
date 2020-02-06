@@ -88,6 +88,16 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: We've been working on our new Omnichannel solution and it's time to add two great new features that will make Omnichannel even more powerful: voice and video calls! The idea is to integrate Omnichannel with the providers already supported in Rocket.Chat, such as Jitsi, WebRTC, BigBlueButton and so on. With these two new features, Omnichannel users will be able to initiate video and audio calls between them and Omnichannel agents.
 - **Desirable Skills**: Familiarity with Rocket.Chat/Omnichannel development, ReactJS/PreactJS, Voice and Video communication
 
+### Houston Improvements - Rocket.Chat release/changelog generator
+
+- **Mentors**: [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio) and [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Houston>
+- **Description**: Huston is the CLI tooling we use to release new versions of Rocket.Chat and to generate our change logs from merged pull requests. We want to:
+    * Rewrite the tooling in TypeScript;
+    * Improve the changelog generation getting more information from the PRs like description, images, etc;
+    * Accept a new format of PR titles;
+    * Add a validation system for PRs titles via GitHub Actions;
+
 ### Alexa Skill(s) Improvement
 
 - **Mentors**: @ashish.jha @prajval.raval1
@@ -130,19 +140,19 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 - **Mentors**: @djorkaeff.alexandre @diego.mello
 - **Description**: Create build of our 4 apps on GitHubCI, 2 Android Apps and 2 iOS Apps (Official and Experimental).
-- **Desirable Skills**: Familiarity with ReactNative, FastLane, Android & iOS build apps.
+- **Desirable Skills**: Familiarity with React Native, FastLane, Android & iOS build apps.
 
 ### Add Analytics to Mobile Apps
 
 - **Mentors**: @djorkaeff.alexandre @diego.mello
 - **Description**: We use Firebase to track some analytics, now we want to know data like 'how many people clicked on login?'. You need to add firebase analytics to our app and add track analytics of the most important features and events.
-- **Desirable Skills**: Familiarity with ReactNative and Firebase Analytics.
+- **Desirable Skills**: Familiarity with React Native and Firebase Analytics.
 
 ### Share Location on Mobile Apps
 
 - **Mentors**: @djorkaeff.alexandre @diego.mello
 - **Description**: We have this feature on our web client, server has an implementation about this, you only need to implement this feature on our Mobile Client and ability to select and share a location (based or not on user's location), custom message to show the location shared and need to be able to open this location on maps apps.
-- **Desirable Skills**: Familiarity with ReactNative and Rocket.Chat codebase.
+- **Desirable Skills**: Familiarity with React Native and Rocket.Chat codebase.
 
 ### Mobile Apps Accessibility
 
@@ -150,6 +160,30 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
 - **Description:** Android and iOS both support gesture-based screen readers that let you enjoy using the phone even if you don’t see the screen. This is especially important for those with low or no vision. We want to make Rocket.Chat for everyone. A blind user should be able to easily add servers, change servers, read messages and send messages, as well as other additional functions such as editing profile and creating channels. The proposal should contain a per-screen study of the current App's state of accessibility (what is missing and what needs to be improved), and a roadmap to take it to a delightful state.
 - **Desirable Skills:** We are looking for a student who is familiar with team work, developing mobile Apps using React Native and JavaScript, as well as writing maintainable code with Unit Tests and having some familiarity with Voice Over (iOS), TalkBack (Android) and Accessibility. Knowledge of Swift/Objective-C and Kotlin/Java may be needed for some of the trickier tasks.
+
+### Audio improvements on mobile apps
+
+- **Mentors**: @djorkaeff.alexandre @diego.mello
+- **Description**: A new UI component to be rendered outside the room view allowing users to listen to the room’s audios when navigating to other rooms. Additions like listening speed are welcome.
+- **Desirable Skills**: Familiarity with React Native and Rocket.Chat codebase.
+
+### Full-screen composer option to send/edit long messages on mobile apps
+
+- **Mentors**: @djorkaeff.alexandre @diego.mello
+- **Description**: A full-screen composer that could be opened from the current composer to provide a larger area for text input or edition, good to send or edit large texts.
+- **Desirable Skills**: Familiarity with React Native and Rocket.Chat codebase.
+
+### Create F-Droid build
+
+- **Mentors**: @djorkaeff.alexandre @diego.mello
+- **Description**: Create a build for the other store for Android apps: <https://f-droid.org/>
+- **Desirable Skills**: Familiarity with Android development, React Native and Rocket.Chat codebase.
+
+### Use Lingohub on mobile apps
+
+- **Mentors**: @djorkaeff.alexandre @diego.mello
+- **Description**: Share Lingohub keys with the web client.
+- **Desirable Skills**: Familiarity with React Native and Rocket.Chat codebase.
 
 ### Uber Rocket.Chat App
 
@@ -189,6 +223,42 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 - **Mentor**: [@alan.sikora](https://open.rocket.chat/direct/alan.sikora)
 - **Description**: Enable Federation-enabled servers to whitelist other servers, avoiding unwanted chat requests and improving security
+
+### Permissions system - Feature Manifest
+
+- **Mentors**: [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert) and [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
+- **Description**: Currently there is no way for an admin to know during the installation of an App which Apps-Engine features are going to be used and what kind of access the app will have to the workspace's data. The idea is for the App to provide a manifest with the features and access it is going to require, and the Apps-Engine will only allow the defined features to be used by the App.
+
+### Download Manager on Desktop App
+
+- **Mentors**: [@tasso.evangelista](https://open.rocket.chat/direct/tasso.evangelista) and [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo)
+- **Description**: With the React/Redux/Redux-Saga stack coming to the Electron-based app, a richer user experience is achievable through [Rocket.Chat's Fuselage components](https://github.com/RocketChat/Rocket.Chat.Fuselage). A long-awaited feature is the management of file downloads with some tracking of download progress and ability to cancel/restart.
+- **Desirable Skills**: Some knowledge about the concept of CSS-in-JS and popular implementations for React (e.g. [Styled Components](https://styled-components.com/), [Emotion](https://emotion.sh/docs/introduction)) as well basic understanding about the [Electron framework](https://www.electronjs.org/).
+
+### Improve test coverage and enable visual regression tests
+
+- **Mentors**:[@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo) and [@tasso.pinto](https://open.rocket.chat/direct/tasso.evangelista)
+- **Description**: Re-enable all current skipped tests, start a visual regression test for each relevant UI part using the same tooling (Cypress) and add tests to features without tests.
+
+### Lightweight UI for single room access (embedded UI)
+
+- **Mentors**:[@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo) and [@tasso.pinto](https://open.rocket.chat/direct/tasso.evangelista)
+- **Description**: Rocket.Chat already has an option to load the UI as embedded layout, although it still loads a lot of unnecessary data, the objective here is to find the most efficient way to render a single room UI with the minimum data possible in a way that the UI can be embedded in a website using an iframe and be performatic when reloading within the site navigation
+
+### UI to see videos outside the room,  using popouts
+
+- **Mentors**: [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo) and [@tasso.pinto](https://open.rocket.chat/direct/tasso.evangelista)
+- **Description**: A new UI component to be rendered outside the room view allowing users to listen to the room’s videos when navigating to other rooms.
+
+### UI to listen to audio files outside the room (like telegram) + "user is recording audio" indicator (as the typing one)
+
+- **Mentors**: [@tasso.pinto](https://open.rocket.chat/direct/tasso.evangelista) and [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo)
+- **Description**: A new UI component to be rendered outside the room view allowing users to listen to the room’s audios when navigating to other rooms. Additions like listening speed are welcome.
+
+### Pre-installed apps
+
+- **Mentors**: [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert) and [@shiqi.mei](https://open.rocket.chat/direct/shiqi.mei)
+- **Description**: Make Rocket.Chat have a list of default apps that are going to be installed during the first run of the server.
 
 ## Timeline
 
