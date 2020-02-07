@@ -472,28 +472,30 @@
         - read
         - unread
       - Users:
-        - presence
         - create
         - createToken
         - delete
         - deleteOwnAccount
         - forgotPassword
         - generatePersonalAccessToken
+        - get-preferences
         - getAvatar
         - getPersonalAccessTokens
         - getPresence
-        - get-preferences
+        - getStatus
         - getUsernameSuggestion
         - info
         - list
+        - presence
         - regeneratePersonalAccessToken
         - register
         - removePersonalAccessToken
         - requestDataDownload
         - resetAvatar
-        - setAvatar
         - set-preferences
         - setActiveStatus
+        - setAvatar
+        - setStatus
         - update
         - updateOwnBasicInfo
       - Video Conference:
