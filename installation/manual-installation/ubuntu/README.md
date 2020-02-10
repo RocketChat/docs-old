@@ -12,10 +12,10 @@ If you would like to enable TLS on your site like this `https://yoursite.com` wh
 
 This installation guide was tested in the following environment:
 
-- Rocket.Chat 1.0.2
+- Rocket.Chat 3.0.0
 - OS: Ubuntu 18.04 LTS and Ubuntu 19.04
 - Mongodb 4.0.9
-- NodeJS 8.11.4
+- NodeJS 12.14.0
 
 ## Install necessary dependency packages
 
@@ -36,7 +36,7 @@ echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/
 Configure Node.js to be installed via package manager:
 
 ```bash
-sudo apt-get -y update && sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
+sudo apt-get -y update && sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
 ```
 
 Install build tools, MongoDB, nodejs and graphicsmagick:
@@ -54,7 +54,7 @@ sudo apt-get install -y npm
 Using npm install inherits and n, and the node version requiere by Rocket.Chat:
 
 ```bash
-sudo npm install -g inherits n && sudo n 8.11.4
+sudo npm install -g inherits n && sudo n 12.14.0
 ```
 
 ## Install Rocket.Chat
