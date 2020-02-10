@@ -12,6 +12,7 @@
   - Google Summer of Code 2017
   - Google Summer of Code 2018
   - Google Summer of Code 2019
+  - Google Summer of Code 2020
   - Google Season of Docs 2019
   - Promoting
   - Reporting Issues
@@ -90,6 +91,7 @@
   - Talking to users from another server
   - Channels
   - Messaging
+  - Message Actions
   - Channel Actions
   - Managing your Account
   - End to End Encryption
@@ -167,6 +169,7 @@
   - Livechat:
     - Livechat Queues
     - Omnichannel Integration
+    - WhatsApp Twilio
   - Notifications:
     - Push Notifications
   - Permissions
@@ -179,6 +182,7 @@
   - Retention Policies
   - Settings Via Env Vars
   - Youtube Broadcasting
+  - Troubleshooting
 - Developer guides:
     - Quick Start
     - Branches and Releases
@@ -199,12 +203,10 @@
       - Supporting SSL
     - Developing Apps:
       - Getting Started
-    - GraphQL API:
-       - Authentication
-       - Schema
-       - Setup
-       - Subscription
-    - Realtime-API:
+    - Two Factor:
+      - Realtime API
+      - REST API
+    - Realtime API:
       - Method Calls:
         - Login
         - Logout
@@ -313,9 +315,14 @@
         - delete
         - followMessage
         - getDeletedMessages
+        - getDiscussions
+        - getMentionedMessages
         - getMessage
         - getMessageReadReceipts
         - getPinnedMessages
+        - getSnippetedMessages
+        - getSnippetedMessageById
+        - getStarredMessages
         - getThreadMessages
         - getThreadsList
         - pinMessage
@@ -336,6 +343,10 @@
         - get
         - list
         - run
+      - Custom Sounds:
+        - list
+      - Custom User Status:
+        - list
       - Emoji Custom:
         - create
         - delete
@@ -392,20 +403,30 @@
         - setTopic
       - Integration:
         - create
+        - get
         - history
         - list
         - remove
+      - Invites:
+        - findOrCreateInvite
+        - listInvites
+        - removeInvite
+        - useInviteToken
+        - validateInviteToken
       - Livechat:
         - agent
+        - appearance
         - config
         - custom-fields
         - department
-        - inquiries.list
-        - inquiries.take
+        - inquiries
+        - integrations.settings
         - message
+        - office-hours
         - room
         - rooms
         - sms-incoming
+        - triggers
         - users
         - video-call
         - visitor
@@ -416,6 +437,9 @@
         - spotlight
         - statistics
         - statistics.list
+      - OAuthApps:
+        - get
+        - list
       - Permissions:
         - list
         - update
@@ -428,6 +452,7 @@
         - push.token
         - deletePushToken
       - Rooms:
+        - adminRooms
         - cleanHistory
         - createDiscussion
         - favorite
@@ -467,6 +492,7 @@
         - regeneratePersonalAccessToken
         - register
         - removePersonalAccessToken
+        - requestDataDownload
         - resetAvatar
         - setAvatar
         - set-preferences
@@ -475,6 +501,8 @@
         - updateOwnBasicInfo
       - Video Conference:
         - jitsi-update-timeout
+      - Webdav:
+        - getMyAccounts
       - Offset and Count and Sort Info
       - Rate Limiter
       - Query and Fields Info
@@ -488,13 +516,13 @@
       - Themes
 - Bots:
   - Bots Architecture
-  - Create a Bot
-  - Creating Bot Users
   - Configure Bot Environment
+  - Create and run a Bot:
+    - Botkit Bot
+    - Hubot Bot
+    - Botpress Bot
+    - Rasa Bot
+    - RocketChat SDK Bot
   - Running a bBot Bot
-  - Running a Hubot Bot
-  - Running a Botkit Bot
-  - Running a Rasa Bot
-  - Running a Botpress Bot
 - Community Cookbook:
   - Remote Video Monitoring

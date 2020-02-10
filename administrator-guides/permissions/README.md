@@ -61,10 +61,10 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | create-user | Permission to create new users. Accessible from Administration -> Users. Click the + sign found on the top right hand corner of the Users list to create a new user.
 | delete-c | Permission to delete public channels.
 | delete-d | Permission to delete direct messages.
-| delete-message | Permission to delete a message within a channel. See [deleting messages](../../user-guides/messaging/#deleting-messages).
+| delete-message | Permission to delete a message within a channel.
 | delete-p | Permission to delete private channels.
 | delete-user | Permission to delete users.
-| edit-message | Permission to edit a message. See [editing messages](../../user-guides/messaging/#editing-messages).
+| edit-message | Permission to edit a message.
 | edit-other-user-active-status | Permission to enable or disable other accounts. Accessible from Administration -> Users.
 | edit-other-user-info | Permission to change other user's name, username or email address. Accessible from Administration -> Users.
 | edit-other-user-password | Permission to modify other user's passwords. Requires edit-other-user-info permission. Accessible from Administration -> Users.
@@ -80,9 +80,11 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | manage-assets | Permission to manage assets. Must also be admin Accessible from Administration -> Assets.
 | manage-cloud | Permission to manage cloud. Requires view-user-administration permission. Accessible from Administration -> Cloud.
 | manage-emoji | Permission to add custom emojis to the server. Accessible from Administration -> Custom Emoji.
-| manage-integrations | Permission to manage all integrations. Accessible from Administration -> Integrations.
+| manage-outgoing-integrations | Permission to manage all outgoing integrations. Accessible from Administration -> Integrations.
+| manage-incoming-integrations | Permission to manage all incoming integrations. Accessible from Administration -> Integrations.
 | manage-oauth-apps | Permission to manage OAuth apps. Accessible from Administration -> OAuth.
-| manage-own-integrations | User can create and edit own integration - webhooks.
+| manage-own-outgoing-integrations | User can create and edit own outgoing integration - webhooks.
+| manage-own-incoming-integrations | User can create and edit own incoming integration - webhooks.
 | manage-sounds | Permission to manage sounds. Accessible from Administration -> Custom Sounds.
 | mention-all | Permission to mention everyone in a channel.
 | mention-here | Permission to notify active users in a channel.

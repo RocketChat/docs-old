@@ -198,11 +198,6 @@ Here you can also find what articles are incomplete and missing.
     - Livechat API
     - Mobile Apps
         - Supporting SSL
-    - GraphQL API:
-        - Authentication
-        - Schema
-        - Setup
-        - Subscription
     - Realtime-API:
         - Method Calls:
             - Login
@@ -310,9 +305,14 @@ Here you can also find what articles are incomplete and missing.
             - delete
             - followMessage
             - getDeletedMessages
+            - getDiscussions
+            - getMentionedMessages
             - getMessage
             - getMessageReadReceipts
             - getPinnedMessages
+            - getSnippetedMessages
+            - getSnippetedMessageById
+            - getStarredMessages
             - getThreadMessages
             - getThreadsList
             - pinMessage
@@ -333,6 +333,10 @@ Here you can also find what articles are incomplete and missing.
             - get
             - list
             - run
+        - Custom Sounds:
+            - list
+        - Custom User Status:
+            - list
         - Emoji Custom:
             - create
             - delete
@@ -389,20 +393,30 @@ Here you can also find what articles are incomplete and missing.
             - setTopic
         - Integration:
             - create
+            - get
             - history
             - list
             - remove
+        - Invites:
+            - findOrCreateInvite
+            - listInvites
+            - removeInvite
+            - useInviteToken
+            - validateInviteToken
         - Livechat:
             - agent
+            - appearance
             - config
             - custom-fields
             - department
-            - inquiries.list
-            - inquiries.take
+            - inquiries
+            - integrations.settings
             - message
+            - office-hours
             - room
             - rooms
             - sms-incoming
+            - triggers
             - users
             - video-call
         - Miscellaneous:
@@ -412,6 +426,9 @@ Here you can also find what articles are incomplete and missing.
             - spotlight
             - statistics
             - statistics.list
+        - OAuthApps:
+            - get
+            - list
         - Permissions:
             - list-all
             - update
@@ -424,6 +441,7 @@ Here you can also find what articles are incomplete and missing.
             - push.token
             - deletePushToken
         - Rooms:
+            - adminRooms
             - cleanHistory
             - createDiscussion
             - favorite
@@ -460,6 +478,7 @@ Here you can also find what articles are incomplete and missing.
             - regeneratePersonalAccessToken
             - register
             - removePersonalAccessToken
+            - requestDataDownload
             - resetAvatar
             - setAvatar
             - set-preferences
@@ -468,6 +487,8 @@ Here you can also find what articles are incomplete and missing.
             - updateOwnBasicInfo
         - Video Conference:
             - jitsi-update-timeout
+        - Webdav:
+            - getMyAccounts
         - Offset and Count and Sort Info
         - Rate Limiter
         - Query and Fields Info
@@ -479,10 +500,6 @@ Here you can also find what articles are incomplete and missing.
         - Colors
         - Components
         - Themes
-        - GraphQL API:
-            - Authentication
-            - Schema
-            - Subscription
 - Bots:
     - Bots FAQ
     - Bots Architecture

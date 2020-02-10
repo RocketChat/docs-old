@@ -3,7 +3,7 @@
 ## Introduction
 
 Minio is an object storage server built for cloud applications and DevOps. Minio is S3 compatible and provides an open source
-alternative to AWS S3. You can [download and install](https://minio.io/downloads) Minio pretty quickly. Minio also provides [official Docker image](https://hub.docker.com/r/minio/minio/). For further details, check out [Minio documentation website](https://docs.minio.io/).
+alternative to AWS S3. You can [download and install](https://minio.io/downloads) Minio pretty quickly. Minio also provides an [official Docker image](https://hub.docker.com/r/minio/minio/). For further details, check out [Minio documentation website](https://docs.minio.io/).
 
 ## AccessKey and SecretKey
 
@@ -32,11 +32,11 @@ Once you install and deploy Minio server, you can get the AccessKey and SecretKe
 2017-01-24T19:53:21.142030994Z Drive Capacity: 262 GiB Free, 303 GiB Total
 ```
 
-To override Minio's auto-generated keys, you may pass secret and access keys explicitly as environment variables. Explained [here](https://docs.minio.io/docs/minio-docker-quickstart-guide)
+To override Minio auto-generated keys, you may pass secret and access keys explicitly as environment variables. Find more details [here](https://docs.minio.io/docs/minio-docker-quickstart-guide).
 
 ## Setup Rocket.Chat to use Minio
 
-To setup Minio as the file storage server in Rocket.Chat, go to `File Uploads` section under `administration`, then set `Storage Type: GridFS (default)` to `AmazonS3`. Next, access the AmazonS3 menu and update the following details:
+To setup Minio as the file storage server in Rocket.Chat, go to `File Uploads` section under `Administration`, then set `Storage Type: GridFS (default)` to `AmazonS3`. Next, access the `AmazonS3` menu and update the following details:
 
 | Configuration Name   | Description                                               |
 | -------------------- | --------------------------------------------------------- |
@@ -49,10 +49,10 @@ To setup Minio as the file storage server in Rocket.Chat, go to `File Uploads` s
 | Force Path Style     | true (this may not be needed if using ssl)                |
 | URLs expiration time | 0 (if you want that your files don't have an expiry date) |
 
-## Production setup
+## Set up Production
 
-In production you can use a reverse proxy with Minio server. Check out the documentation for [Nginx](https://docs.minio.io/docs/setup-nginx-proxy-with-minio#main), [Apache](https://docs.minio.io/docs/setup-apache-http-proxy-with-minio-server) and [Apache2](https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension).
+In production, you can use a reverse proxy with Minio server. Check out the documentation for [Nginx](https://docs.minio.io/docs/setup-nginx-proxy-with-minio#main), [Apache](https://docs.minio.io/docs/setup-apache-http-proxy-with-minio-server) and [Apache2](https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension).
 
 You can secure access to Minio server with TLS. Check out the documentation [here](https://docs.minio.io/docs/how-to-secure-access-to-minio-server-with-tls).
 
-**Note** If you specify a different region in Minio, make sure it is the same as an S3 region.  Full list of regions found [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions).
+**Note**: If you specify a different region in Minio, make sure it is the same as the S3 region. Find a full list of regions [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions).

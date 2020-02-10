@@ -1,34 +1,40 @@
 # OAuth Provider Configuration
 
-Rocket.Chat supports several different ways to authenticate, beyond the basic username/password authentication. Most of these authentication providers require a `clientID` and a `secret`. Below are brief descriptions of how to set up each provider.
+Rocket.Chat supports several different ways to authenticate, beyond the basic username/password authentication. Most authentication providers require a `clientID` and a `secret`. Below are brief descriptions of how to set up each provider.
 
 These settings are in the `Accounts` setting page under `Administration`.
 
 ## Facebook
 
-- Callback url: `<<website_url>>/_oauth/facebook?close`
+- Callback URL: `<<website_url>>/_oauth/facebook?close`
 
 ## GitHub
 
-- Callback url: `<<website_url>>/_oauth/github?close`
+- Callback URL: `<<website_url>>/_oauth/github?close`
 
-### GitHub Setup
+### GitHub Set up
 
-Go to your [Application Settings](https://github.com/settings/applications), and under the "Developer applications" tab, click the "Register new application" button. Fill in the form, taking care to make sure you use the correct callback url. _**Note: If your callback url is wrong, GitHub will not display an error, instead you will fail to log in with a "No matching login attempt found." error.**_
+1. Go to your [Application Settings](https://github.com/settings/applications)
+2. Under the `Developer applications` tab, click the **Register new application** button
+3. Fill in the form, and make sure you use the correct callback URL.
+
+**Note**: If your callback URL is wrong, GitHub does not display any error. Instead of logging in, you receive an error message saying "No matching login attempt found."
 
 ## GitLab
 
 ## Google
 
-- Callback url: `<<website_url>>/_oauth/google?close`
+- Callback URL: `<<website_url>>/_oauth/google?close`
 
-### Google Setup
+### Google Set up
 
-Go to the [Google Developer Console](https://console.developers.google.com) and create a new project. Setup your project by creating an "OAuth 2.0 client ID" (under "APIs & auth" and "Credentials"). After that, make sure you setup a "Product name" in the OAuth consent screen. Make sure to select Web App as application type. Otherwise you won't be able to provide a callback URL
+1. Go to the [Google Developer Console](https://console.developers.google.com), and create a new project
+2. Set up your project by creating an "OAuth 2.0 client ID" (under `APIs & Auth` and `Credentials`)
+3. After that, make sure you define a **Product Name** in the OAuth consent screen, and select **Web App** as application type. Otherwise, you won't be able to provide a callback URL
 
 ## LinkedIn
 
-- Callback url: `<<website_url>>/_oauth/linkedin`
+- Callback URL: `<<website_url>>/_oauth/linkedin`
 
 ## Meteor
 
@@ -36,4 +42,4 @@ TBD.
 
 ## Twitter
 
-- Callback url: `<<website_url>>/_oauth/twitter`
+- Callback URL: `<<website_url>>/_oauth/twitter`

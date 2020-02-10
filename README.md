@@ -1,31 +1,44 @@
-Guides for developing and modifying Rocket.Chat's code
----
-layout: home
-permalink: /index.html
----
-
 # Rocket.Chat Docs
 
 This is the official repository for Rocket.Chat Documentation.
 
-## How to run Rocket.Chat Docs locally:
+## Requirements
 
-This is a quick guide on how to run the docs site locally, for a more in depth guide please look [here]( contributing/documentation)
+- Ruby >= 2.3 (Recommended >= 2.5)
+- [bundler](https://bundler.io/) gem installed (>= 1.17.3)
 
-- Install ruby (version 2.6 or higher recommended, if using any version prior to 2.5 you will need to install bundler with `gem install bundler`). If the above fails, try specifing the version by runnning `gem install bundler -v [VERSION]` as per the `BUNDLED WITH [VERSION]` definition in Gemfile.lock file.
-- This step is for only macOS users:
-    - You will need to have either `xcode` or the `xcode command line tools` installed. To install the command tools use `xcode-select --install`. Don't forget to accept the `sudo xcodebuild -license` command.
-    - Depending on your setup you might need to install [nokogiri](http://www.nokogiri.org/tutorials/installing_nokogiri.html) and its dependencies manually.
-- Fork the [https://github.com/RocketChat/docs](https://github.com/RocketChat/docs) repository.
-- Clone your forked repository to your local enviroment.
-- Run `cd docs/`to enter the cloned docs folder.
-- Run `bundle install`.
-- Start the server with `bundle exec "jekyll serve --incremental --safe"`.
+## Contributing
+
+This is a quick guide on how to run the docs site locally, for a more in depth guide please look [here](contributing/documentation).
+
+## Installation
+
+Install `bundler` using your terminal, run:
+
+```bash
+$ gem install bundler --version 1.17.3
+```
+
+And install the dependencies (also on terminal):
+
+```bash
+$ bundle install
+```
+
+## Running locally
+
+Start the server using your terminal:
+
+```bash
+$ jekyll serve --incremental --safe
+```
+
+The application will be available on browser at `http://localhost:4000`.
 
 ## Linting your changes locally:
 
-You should always lint your changes to find errors locally before pushing your changes.   This only takes seconds, from the `docs` directory:
+You should always lint your changes to find errors locally before pushing your changes. This only takes seconds, from the `docs` directory you can run on terminal:
 
-```
-bundle exec "mdl ./ -r ~MD004 -i -g"
+```bash
+$ mdl ./ -r ~MD004 -i -g
 ```
