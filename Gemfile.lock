@@ -267,11 +267,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  anemone
-  github-pages (>= 104)
-  html-proofer
-  mdl
-  rake
+  anemone (~> 0.7)
+  github-pages (~> 198.0)
+  html-proofer (~> 3.11)
+  mdl (~> 0.5)
+  rake (~> 12.3)
 
 BUNDLED WITH
-   1.17.1
+   1.17.3
