@@ -35,4 +35,4 @@ curl -H "X-Auth-Token: 40tB-Cn5YQJ74QMlQXi4Zf4E_-e0P5CrklU2pWOtV9M" \
 
 | Version | Description |
 | :--- | :--- |
-| `2.1`| Created|
+| `1.2.0`| Created|
