@@ -12,7 +12,7 @@ Update an existent custom user status.
 | Argument   | Example           | Required | Description |
 | :--------- | :---------------- | :------- | :---------- |
 | `_id`      | `AG7DSB2H32YHS`   | Required | The id of the custom user status. |
-| `name`     | `my-custom-status` | Optional | The name of the custom user status. |
+| `name`     | `my-custom-status` | Required | The name of the custom user status. |
 | `statusType`  | `online`     | Optional | The status of the custom user status. |
 
 ## Example Call
