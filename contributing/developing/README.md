@@ -1,5 +1,6 @@
 ---
 official: true
+permalink: /contributing/developing/
 ---
 
 # Developing
