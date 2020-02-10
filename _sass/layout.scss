@@ -165,6 +165,29 @@ blockquote {
   padding: 0 24px;
 }
 
+.tag-container {
+  display: flex;
+}
+
+.tag {
+  margin-right: 8px;
+  margin-left: 0;
+  color: #fff;
+
+
+
+  &.official {
+    background-color: #F5455C;
+  }
+  &.community {
+    background-color: #1D74F5;
+  }
+  &.enterprise {
+    background-color: #2DE0A5;
+    color: $space;
+  }
+}
+
 .wrapper {
   flex: 1 1 100%;
   overflow: hidden;
