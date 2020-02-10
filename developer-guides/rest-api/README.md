@@ -297,9 +297,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### Custom User Status
 
-| Url                               | Short Description                              | Details Page                   |
-| :-------------------------------- | :--------------------------------------------- | :----------------------------- |
-| `/api/v1/custom-user-status.list` | Lists all available custom user's status.      | [Link](custom-user-status/list/) |
+| Url                                 | Short Description                              | Details Page                       |
+| :---------------------------------- | :--------------------------------------------- | :-----------------------------     |
+| `/api/v1/custom-user-status.list`   | Lists all available custom user's status.      | [Link](custom-user-status/list/)   |
+| `/api/v1/custom-user-status.create` | Create new custom custom user's status.        | [Link](custom-user-status/create/) |
+| `/api/v1/custom-user-status.delete` | Delete an existent custom custom user's status.| [Link](custom-user-status/delete/) |
+| `/api/v1/custom-user-status.update` | Update an existent custom custom user's status.| [Link](custom-user-status/update/) |
 
 ### Emoji Custom
 
