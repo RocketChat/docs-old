@@ -84,7 +84,7 @@ You must add two DNS records:
 #### SRV Record
 
 - Service: `_rocketchat`
-- Protocol: `_tcp`
+- Protocol: `_http`
 - Name: `mydomain.com`
 - Weight: `1`
 - Priority: `1`
