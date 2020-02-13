@@ -15,7 +15,6 @@ These are resource that you can find outside Rocket.Chat's Security Documentatio
 - [Privacy Policy](https://rocket.chat/privacy)
 - [Terms of Service](https://rocket.chat/terms)
 - [GDPR](https://rocket.chat/gdpr)
-- [Rocket.Chat processing activities]()
 
 ### Community
 
