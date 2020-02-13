@@ -350,6 +350,7 @@ services:
     ports:
       - 3001:8080
 ```
+
 {% endcapture %}
 
 {% capture enterprise_dockerfile %}
@@ -423,6 +424,7 @@ services:
     ports:
       - 3001:8080
 ```
+
 {% endcapture %}
 
 {% include tab-container.html item1_content=standard_dockerfile item1_title="Standard Version" item2_content=enterprise_dockerfile item2_title="Enterprise Version"  %}
