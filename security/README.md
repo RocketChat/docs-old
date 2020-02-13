@@ -4,7 +4,7 @@ Here you can find all Rocket.Chat security Related Documentation
 
 ## Learn more
 
-- Add Links HERE!
+- [Security Solutions](https://rocket.chat/security)
 
 ## Outside Resources
 
