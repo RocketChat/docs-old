@@ -116,29 +116,28 @@ Edit ```/etc/apache2/sites-enabled/rocketchat.conf``` and be sure to use your ac
 
 ```
 <VirtualHost *:443>
+    ServerAdmin it@domain.com
+    ServerName chat.domain.com
+    
+    LogLevel info
+    ErrorLog /var/log/chat.domain.com_error.log
+    TransferLog /var/log/chat.domain.com_access.log
 
-ServerAdmin it@domain.com
-ServerName chat.domain.com
-ErrorLog /var/log/chat.domain.com_error.log
-TransferLog /var/log/chat.domain.com_access.log
-LogLevel info
-SSLEngine On
-SSLCertificateFile /etc/ssl/certs/chat.domain.com.crt
-SSLCertificateKeyFile /etc/ssl/private/chat.domain.com.key
-SSLCertificateChainFile /etc/ssl/certs/intermediate.ca.pem
+    SSLEngine On
+    SSLCertificateFile /etc/ssl/certs/chat.domain.com.crt
+    SSLCertificateKeyFile /etc/ssl/private/chat.domain.com.key
 
-<Location />
-        Order allow,deny
-        Allow from all
-</Location>
+    <Location />
+        Require all granted
+    </Location>
 
-RewriteEngine On
-RewriteCond %{HTTP:Upgrade} =websocket [NC]
-RewriteRule /(.*)           ws://localhost:3000/$1 [P,L]
-RewriteCond %{HTTP:Upgrade} !=websocket [NC]
-RewriteRule /(.*)           http://localhost:3000/$1 [P,L]
+    RewriteEngine On
+    RewriteCond %{HTTP:Upgrade} =websocket [NC]
+    RewriteRule /(.*)           ws://localhost:3000/$1 [P,L]
+    RewriteCond %{HTTP:Upgrade} !=websocket [NC]
+    RewriteRule /(.*)           http://localhost:3000/$1 [P,L]
 
-ProxyPassReverse / http://localhost:3000/
+    ProxyPassReverse /          http://localhost:3000/
 </VirtualHost>
 ```
 
