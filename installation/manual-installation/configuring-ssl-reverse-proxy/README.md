@@ -118,7 +118,7 @@ Edit ```/etc/apache2/sites-enabled/rocketchat.conf``` and be sure to use your ac
 <VirtualHost *:443>
     ServerAdmin it@domain.com
     ServerName chat.domain.com
-    
+
     LogLevel info
     ErrorLog /var/log/chat.domain.com_error.log
     TransferLog /var/log/chat.domain.com_access.log
