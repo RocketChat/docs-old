@@ -12,6 +12,7 @@
   - Google Summer of Code 2017
   - Google Summer of Code 2018
   - Google Summer of Code 2019
+  - Google Summer of Code 2020
   - Google Season of Docs 2019
   - Promoting
   - Reporting Issues
@@ -168,7 +169,7 @@
   - Livechat:
     - Livechat Queues
     - Omnichannel Integration
-    - Whatsapp Twilio
+    - WhatsApp Twilio
   - Notifications:
     - Push Notifications
   - Permissions
@@ -202,7 +203,10 @@
       - Supporting SSL
     - Developing Apps:
       - Getting Started
-    - Realtime-API:
+    - Two Factor:
+      - Realtime API
+      - REST API
+    - Realtime API:
       - Method Calls:
         - Login
         - Logout

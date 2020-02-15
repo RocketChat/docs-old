@@ -1,3 +1,8 @@
+---
+official: true
+permalink: /contributing/developing/
+---
+
 # Developing
 
 First of all, thank you for your interest in contributing to Rocket.Chat.

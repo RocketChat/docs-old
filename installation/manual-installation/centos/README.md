@@ -2,10 +2,10 @@
 
 This installation guide was tested in the following environment:
 
-- Rocket.Chat 1.0.2
+- Rocket.Chat 3.0.0
 - OS: CentOS 7.6
 - Mongodb 4.0.9
-- NodeJS 8.11.4
+- NodeJS 12.14.0
 
 ## Install necessary dependency packages
 
@@ -29,7 +29,7 @@ EOF
 Configure Node.js to be installed via package manager:
 
 ```bash
-sudo yum install -y curl && curl -sL https://rpm.nodesource.com/setup_8.x | sudo bash -
+sudo yum install -y curl && curl -sL https://rpm.nodesource.com/setup_12.x | sudo bash -
 ```
 
 Install build tools, MongoDB, nodejs and graphicsmagick:
@@ -45,7 +45,7 @@ sudo yum install -y epel-release && sudo yum install -y GraphicsMagick
 Using npm install inherits and n, and the node version required by Rocket.Chat:
 
 ```bash
-sudo npm install -g inherits n && sudo n 8.11.4
+sudo npm install -g inherits n && sudo n 12.14.0
 ```
 
 ## Install Rocket.Chat
