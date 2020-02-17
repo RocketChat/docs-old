@@ -18,6 +18,12 @@ just comment on it and we will add an [In Progress label][progress_label].
 
 If you already have a work in progress pull request open for that issue you can simply link that issue on your pull request or write `Closes #ISSUE_NUMBER` where the `ISSUE_NUMBER` is the number in the end of the link url.
 
+**Assigned Issues:**
+
+Sometimes you'll stumble upon issues that have an Assignee. Assignees are trusted people that are responsible for that issue (usually core team members).
+
+But that doesn't mean you can't contribute! Every issue is open and any help is welcome. Feel free to work on anything you want. Your are encouraged to discuss your progress with the community in the comments, it doesn't mean other people can't work on it also. Don't be discouraged to tackle something you feel like doing.
+
 **Where to Find Tasks:**
 
 Want a simple task to get you started?
