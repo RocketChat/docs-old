@@ -342,6 +342,7 @@
       - Commands:
         - get
         - list
+        - preview
         - run
       - Custom Sounds:
         - list
