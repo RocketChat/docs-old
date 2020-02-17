@@ -40,5 +40,5 @@ Fetches the command's preview data or executes the preview item
 
 | Version | Description                         |
 | :------ | :---------------------------------- |
-| 2.5.0   | Added `tmid` and `triggerId` fields |
+| 3.0.0   | Added `tmid` and `triggerId` fields |
 | 0.65.0  | Added                               |
