@@ -71,4 +71,4 @@ Rocket.Chat recommends the following setting preferences to enable you to view a
 * Enable the **Allow Message Editing** and **Keep Per Message Editing History** to see a history of all messages and not only the last edit made.
 * Disable **Allow Message Deleting**, otherwise messages deleted show only the *message deleted* status and you cannot see the complete message history.
 
-![](auditing-preferences.png)
+![](audit-settings.png)
