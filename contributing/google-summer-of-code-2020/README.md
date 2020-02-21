@@ -11,11 +11,13 @@ redirect_from:
 
 ## How to apply
 
-Rocket.Chat will be applying to become a mentoring organization for Google Summer of Code in 2020.
+Rocket.Chat is proud to be an official mentor organization for Google Summer of Code 2020!
 
-For students, application for the GSoC 2020 season opens on March 16, 2020.   Please see [GSoC timeline](#timeline) for more details.
+Students interested in joining us this summer shoud check out our [list of project ideas](#project-ideas) and start discussion with mentors about their project immediately.  See the section [About GSoC 2020](#about-gsoc-2020) for more information.
 
-### About Rocket.Chat GSoC 2020
+Official application for the GSoC 2020 season opens on March 16, 2020.   Please see [GSoC timeline](#timeline) for more details.
+
+### About GSoC 2020
 
 For ideas, check out our growing [list of ideas](#project-ideas) for some inspiration.
 
