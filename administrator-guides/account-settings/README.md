@@ -4,22 +4,27 @@ In this section, you can modify various settings about the accounts of the users
 
 In this guide, we will go over all settings in the _Accounts_ Section.
 
+These are the basic Account configuration settings. Most of the options are either `True` or `False` depending on whether you want the setting enabled or not.
+
 - **Allow anonymous read**: Setting this to true will allow people to use the chat without having to create an account or log in. Anonymous users will be only allowed to read messages on public channels.
 - **Allow anonymous write**: This will allow Anonymous users to post messages on public channels.
 - **Allow users to delete own account**: Setting this to true allows users to delete their account. When a user is deleted all their messages are deleted too.
 - **Allow User Profile Change**: Setting this to false will block users from changing information on their profile.
 - **Allow User Avatar Change**: Setting this to false will block users from changing their avatar.
+- **Allow Name Change**: Setting this to false will block users from changing their name.
 - **Allow User Username Change**: Setting this to false will block users from changing their username.
-- **Allow User Email Change**: Setting this to false will block users from changing their email
+- **Allow User Email Change**: Setting this to false will block users from changing their email.
 - **Allow User Password Change**: Setting this to false will block users from changing their password.
-
-<!-- - __Custom Fields to Show in User Info__: link to dedicated custom field document -->
-
-- **Login Expiration in Days**: After this number of days of inactivity the user will be logged out.
-- **Show form-based Login**: Setting this to false will remove the login form from the login screen. This setting is useful when you are using a third-party login system.
+- **Custom Fields to Show in User Info**: Other fields to be displayed in the user info. Please see more at [Custom fields](../custom-fields)
+- **Login Expiration in Days**: After this number of days of inactivity, the user will be logged out.
+- **Show Default Login Form**: Setting this to false will remove the login form from the login screen. This setting is useful when you are using a third-party login system.
 - **Placeholder for email or username login field**: This will change the placeholder for the _email or username_ field on the login screen.
 - **Placeholder for password login field**: This will change the placeholder for the _password_ field on the login screen.
-- **Forget user session on window close**: This will log out users when they close the window containing Rocket.Chat
+- **Forget user session on window close**: This will log out users when they close the window running Rocket.Chat
+- **Fields to Consider in Search**: Specifies the fields to be considered when searching for users. Default is _username, name_.
+- **Default Directory Listing**: This will set the default directory to be listed.
+
+Clicking on the <button>`Reset`</button> button will reset all these basic configurations back to their default value.
 
 ## Avatar
 
