@@ -11,6 +11,7 @@ This guide covers the following:
 ### In AWS Services, go to **EC2**, **Instances**, and **Launch Instance**
 
 1. Choose an AMI
+
     - Select **Ubuntu Server 14.04 LTS** AMI
 2. Choose an Instance Type
     - Select Type: **t2.micro** and click **Next**
@@ -49,18 +50,21 @@ This guide covers the following:
 ### We will use **Let's Encrypt** to get a free & open-source SSL certificate
 
 - SSH to your instance:
+
     ```shell
     ssh -i <path_to_key_file.pem> ubuntu@<public_ip_address>
     ```
 
     Note: You may replace <public_ip_address> with domain name if your DNS has resolved.
 - Clone the **letsencrypt** repository from github. (If it is available via a package manager, you may use that).
+
     ```shell
     sudo git clone https://github.com/letsencrypt/letsencrypt /opt/letsencrypt
     ```
 
     This will copy the **letsencypt** repository to `/opt/letsencrypt`
 - Confirm no applications are listening to port 80:
+
     ```shell
     netstat -na | grep ':80.*LISTEN'
     ```
@@ -90,6 +94,7 @@ _Note: Second (or more) domain is optional._
     - **fullchain.pem** - both the above certs (This will be your **certificate file**)
     - **privkey.pem** - certificate's private key (This will be your **certificate key file**).
 - Confirm by listing the following directory:
+
     ```shell
     sudo ls /etc/letsencrypt/live/<domain.com>
     ```
@@ -97,15 +102,20 @@ _Note: Second (or more) domain is optional._
 ## Configure Nginx web server with TLS/SSL
 
 1. Install Nginx web server.
+
     ```shell
     sudo apt-get install nginx
     ```
+
 2. Backup the default config file for reference:
+
     ```shell
     cd /etc/nginx/sites-available
     sudo mv default default.reference
     ```
+
 3. Create a new site configuration for Rocket.Chat:
+
     ```shell
     sudo nano /etc/nginx/sites-available/default
     ```
@@ -148,17 +158,23 @@ _Note: Second (or more) domain is optional._
     - Explanation: remove the listen to port 80 by default and replace with port 443 ssl as well as giving the path to the certificate. Restrict to certain SSL protocols and ciphers (you may add more if you like). In the location section, use Nginx as a proxy to forward to port 3000 (where Rocket.Chat is set up. Create a second server block listening on port 80 that will redirect to https."
     - Write & exit
     - Stop Nginx:
+
         ```shell
         sudo service nginx stop
         ```
+
     - Test starting Nginx to make sure there are no syntax errors in your configuration file. If there are errors in your file, it will give you a clue as to the issue.
+
         ```shell
         sudo nginx -t
         ```
+
     - If the syntax test is successful, Start Nginx:
+
         ```shell
         sudo service nginx start
         ```
+
     - Confirm that it is running properly by opening a web browser and going to your domain name. You will get a page stating **502 Bad Gateway** This is expected. Look above, next to the domain name, you should see a lock icon. If you click this, you should be able to see the certificates, where your browser will verify that Let's Encrypt Authority X1 issued this website's certificate, as well as a report of which cipher is being used.
     - Note: The certificate will expire in 90 days
     - ** TODO: Add script for auto-renewal of certificate.
@@ -166,40 +182,52 @@ _Note: Second (or more) domain is optional._
 ## Install Docker & Docker Compose
 
 1. SSH to your instance
+
     ```shell
     ssh -i <path_to_key_file.pem> ubuntu@<public_ip_address>
     ```
 
     Note: You may replace <public_ip_address> with domain name if your DNS has resolved.
 2. Install Docker (and any dependencies)
+
     ```shell
     sudo wget -qO- https://get.docker.com/ | sh
     ```
+
 3. Add ubuntu user to docker group to use Docker as a non-root user.
+
     ```shell
     sudo usermod -aG docker ubuntu
     ```
+
 4. Install Docker Compose:
+
     ```shell
     sudo -i
     curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
     chmod +x /usr/local/bin/docker-compose
     exit
     ```
+
 5. Logout, and log back in again.
+
     ```shell
     exit
     ```
+
 6. SSH to your instance again following the directions above
 
 ## Set up Docker containers
 
 1. Create local directories
+
     ```shell
     sudo mkdir -p /var/www/rocket.chat/data/runtime/db
     sudo mkdir -p /var/www/rocket.chat/data/dump
     ```
+
 2. Create docker-compose.yml, **replacing the ROOT_URL of ABC.DOMAIN.COM with your site**
+
     ```shell
     sudo nano /var/www/rocket.chat/docker-compose.yml
     ```
@@ -253,10 +281,12 @@ _Note: Second (or more) domain is optional._
 
     - Write & Exit
 3. Start containers:
+
     ```shell
     cd /var/www/rocket.chat
     docker-compose up -d
     ```
+
 ## Use it
 
 1. Login to your site at `https://ABC.DOMAIN.COM`
