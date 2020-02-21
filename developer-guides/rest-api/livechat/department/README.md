@@ -1,6 +1,7 @@
 # List departments
 
 Get a list of departments.
+It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/).
 
 | URL                           | Requires Auth | HTTP Method |
 | :---------------------------- | :------------ | :---------- |
@@ -35,9 +36,10 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 ## Change Log
 
-| Version | Description |
-| :------ | :---------- |
-| 0.42.0  | Added       |
+| Version | Description                 |
+| :------ | :-------------------------- |
+| 2.2.0   | Added support to pagination |
+| 0.42.0  | Added                       |
 
 ## Register a new department
 
@@ -51,6 +53,8 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 {
   "department": {
     "enabled": false,
+    "showOnRegistration": true,
+    "email": "email@email.com",
     "showOnRegistration": true,
     "name": "new from api",
     "description": "created from api"
@@ -121,6 +125,14 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | :------- | :------------------ | :------- | :-------------------- |
 | `_id`    | `SQafHvoFPuB57NmBD` | Required | The department `_id`. |
 
+## Query Parameter
+
+| Argument           | Example             | Required                 | Description                   |
+| :----------------- | :------------------ | :----------------------- | :---------------------------- |
+| `includeAgents`    | `true`              | Optional(default **true**) | If agents should be included. |
+
+**Note:** The `agents` field will only be returned if the user has the `view-livechat-departments` permission.
+
 ## Example Call
 
 ```bash
@@ -161,6 +173,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :------ | :---------- |
+| 2.2.0   | Added  `includeAgents` query parameter  |
 | 0.42.0  | Added       |
 
 ## Update a department

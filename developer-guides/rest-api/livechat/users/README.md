@@ -1,6 +1,6 @@
 # List agents or managers
 
-Get a list of agents or managers.
+Get a list of agents or managers. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -42,6 +42,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
+| 2.2.0   | Added support to pagination |
 | 0.42.0 | Added |
 
 ## Register new agent or manager
