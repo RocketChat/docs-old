@@ -4,7 +4,7 @@ If you are embedding Rocket.Chat in your site, you can change Rocket.Chat's layo
 
 Example <https://open.rocket.chat/channel/general?layout=embedded>
 
-Adding this to the URL will change the layout of Rocket.Chat to a more "simplistic" view, hiding the left side bar with the channel lists and account management buttons.
+Adding this to the URL will change the layout of Rocket.Chat to a more "simplistic" view, hiding the left side bar with the channel lists and account management buttons. Adittionaly, you can enable the top navbar in the embedded layout by going to "Administration -> Layout -> Interface -> Show top navbar in embedded layout".
 
 Setting a URL to embedded mode will "lock" that view in a single channel (since the user will not have access to the channel lists).
 

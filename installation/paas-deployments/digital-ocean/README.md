@@ -8,7 +8,7 @@ After you create your 1-Click install using the Rocket.Chat app in DigitalOcean 
 
 We recommend setting up an A record from your domain to your servers IP address. Ex: chat.mycompany.com
 
-Rocket.Chat will not work with HTTPS out of the box because certificates are unique for each instalation, but with this setup HTTPS will be available using Let's Encrypt certificates.
+Rocket.Chat will not work with HTTPS out of the box because certificates are unique for each installation, but with this setup HTTPS will be available using Let's Encrypt certificates.
 
 After the Rocket.Chat One-Click is finished and your domain is setup. You will need to login to your droplet to finish setup.
 
