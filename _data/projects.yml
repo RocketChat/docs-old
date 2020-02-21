@@ -34,6 +34,7 @@
     Email: email/
     Federation: federation/
     Permissions: permissions/
+    Message Auditing: message-auditing/
     Livechat: livechat/
     File Upload: file-upload/
     Integrations: integrations/
