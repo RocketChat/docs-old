@@ -161,7 +161,7 @@ return 301 https://$host$request_uri;
     `sudo usermod -aG docker ubuntu`
 4. Install Docker Compose:
     `sudo -i`
-    `curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-compose-Linux-x86_64 > /usr/local/bin/docker-compose`
+    `curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`
     `chmod +x /usr/local/bin/docker-compose`
     `exit`
 5. Logout, and log back in again.
