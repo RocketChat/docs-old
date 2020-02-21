@@ -2,7 +2,7 @@
 
 The Message Auditing Panel includes the following features, allowing you or specified users to:
 
-* Review messages between users in the Message Auditing Panel. 
+* Review messages between users in the Message Auditing Panel.
 * Check details in the Auditing Log about the individuals who used the Message Auditing Panel.
 
 You access the Message Auditing Panel and the Message Auditing Log from the Administration UI.
@@ -26,7 +26,7 @@ On the **Permissions** screen in the Administrator UI, do the following to assig
 
 ## Review Messages in the Message Auditing Panel
 
-To open the Message Auditing Panel, click **Message Auditing** in the Administration UI. 
+To open the Message Auditing Panel, click **Message Auditing** in the Administration UI.
 
 To search for a specific message, use the **Message** field.
 
