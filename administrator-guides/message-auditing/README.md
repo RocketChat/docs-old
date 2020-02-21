@@ -1,53 +1,74 @@
-# Message Auditing
+# Message Auditing Panel
 
-Message auditing is only available for Enterprise and Gold versions of Rocket.Chat.
+The Message Auditing Panel includes the following features, allowing you or specified users to:
 
-Message auditing in Rocket.Chat provides two exclusive features:
+* Review messages between users in the Message Auditing Panel. 
+* Check details in the Auditing Log about the individuals who used the Message Auditing Panel.
 
-* **Message Auditing Panel**: allows you to assign specific roles to users, who can audit the conversations between any given users within any time range.
-* **Message Auditing Log**: allows specific users to check the details about who used the Message Auditing Panel and the actual auditing results.
+You access the Message Auditing Panel and the Message Auditing Log from the Administration UI.
 
-Both the Message Auditing Panel and the Message Auditing Log are available in the Administration UI.
+This feature is only available with the Enterprise and Gold versions of Rocket.Chat.
 
 ![](auditing-UI.png)
 
-Use the **Permissions** screen to grant access to `can-audit` and `can-audit-log` for a specific role, Admin role for instance. Roles available include `auditor` and `auditor-log`, which you can assign to people who should be able to perform and verify message inspection, respectively.
+## Assigning Message Auditing Permissions to Specific Users
+
+The Auditor or Auditor Log roles have permissions to use Message Auditing features.
+
+You assign permissions to use the Message Auditing Panel or Auditing Log to such roles as the Admin role. 
+
+On the **Permissions** screen in the Administrator UI, do the following to assign access:
+
+* For access to the Message Auditing Panel, select the `can-audit` option.
+* For access to the Message Auditing Log, select the `can-audit-log` option.
 
 ![](auditing-roles.png)
 
-## Message Auditing Panel
+## Reviewing Messages in the Message Auditing Panel
 
-From the Administration UI, click **Message Auditing** to open the panel. Use the **Message** field to search for a specific message.
+To open the Message Auditing Panel, click **Message Auditing** in the Administration UI. 
 
-You can look through all messages within a specified period of time, in public channels, private rooms and direct messages. The panel allows you to specify the details of your search by **Direct Messages** or **Others**.
+To search for a specific message, use the **Message** field.
+
+To narrow the details of your search, select the **Direct Messages** or **Others** message option.
 
 ![](auditing-toggle.png)
 
-### Direct Messages
+### Searching for Direct Messages
 
-If you choose to check through Direct Messages, all you need is to:
-
-* Fill in the information about sender and receiver (mandatory)
-* Fill in the time range (mandatory)
-* Click **Apply**
+* Enter the information about sender and receiver (mandatory).
+* Enter the time range (mandatory).
+* Click **Apply**.
 
 ![](direct-messages.png)
 
-If you choose to check through Others, the panel requires you to:
-* Fill in a room name (mandatory)
-* Fill in the time range (mandatory)
-* Click **Apply**
+### Searching for Other Message Types
+
+The **Others** search option includes messages sent within a selected time range, in public channels or in private rooms. 
+
+* Fill in a room name (mandatory).
+* Fill in the time range (mandatory).
+* Click **Apply**.
 
 ![](auditing-others.png)
 
-### Results
+### Search Results
 
-The Message Auditing Panels returns all messages that match the search values defined in the fields. Therefore, all fields are mandatory and must specify time range, sender, receiver, or room name.
+The Message Auditing Panel returns all messages that match the search values defined in the mandatory fields for each option. 
 
-The auditor does not have to be a participant in the room to be able to read the messages. However, the auditor cannot read encrypted messages of other users if they are not included in the conversation.
+Note that the auditor does not have to be a participant in the room to be able to read the messages. However, the auditor cannot read the encrypted messages of other users if they are not included in the conversation.
 
-## Message Auditing Log
+## Reviewing the Message Auditing Log
 
-You must have the `auditor-log` role or the `can-audit-log` permission to use the Message Auditing Log and check the details about who used the Message Auditing Panel with the auditing results returned. 
+To check the details about who used the Message Auditing Panel and their search results, you must have the `auditor-log` role or the `can-audit-log` permission. 
 
 ![](audit-log.png)
+
+## Auditing Edits and Deletions
+
+Rocket.Chat recommends the following setting preferences to enable you to view any modified or removed messages. In the Administration UI, click **Administration**, and scroll down to **Messages** on the left-side menu. Make sure to set your message preferences as follows:
+
+* Enable the **Allow Message Editing** and **Keep Per Message Editing History** to see a history of all messages and not only the last edit made.
+* Disable **Allow Message Deleting**, otherwise messages deleted show only the *message deleted* status and you cannot see the complete message history. 
+
+![](auditing-preferences.png)
