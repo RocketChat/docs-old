@@ -225,60 +225,11 @@ services:
 
 - Write & Exit
 
-### 8. Automatic start & restarting with Systemd
+3. Start containers:
+    `cd /var/www/rocket.chat`
+    `docker-compose up -d`
 
-- Create unit file for MongoDB
-
-`sudo nano /etc/systemd/system/rocketchat_mongo.service`
-
-```bash
-[Unit]
-Description=MongoDB for Rocket.Chat
-
-[Service]
-User=root
-WorkingDirectory=/var/www/rocket.chat
-ExecStart=/usr/local/bin/docker-compose up db
-Restart=on-failure
-RestartSec=120s
-```
-
-- Save and Exit.
-- Create the unit file for Rocket.Chat
-
-`sudo nano /etc/systemd/system/rocketchat.service`
-
-```bash
-[Unit]
-Description=Rocket.Chat Service
-After=rocketchat_mongo
-
-[Service]
-User=root
-WorkingDirectory=/var/www/rocket.chat
-ExecStart=/usr/local/bin/docker-compose up rocketchat
-Restart=on-failure
-RestartSec=120s
-```
-
-Now we need to make systemd aware of these files:
-`systemctl daemon-reload`
-
-Now we need to enable them so they will automatically start:
-
-```
-systemctl enable rocketchat
-systemctl enable rocketchat_mongo
-```
-
-Finally start them:
-
-```
-systemctl start rocketchat_mongo
-systemctl start rocketchat
-```
-
-### 9. Use it
+### 8. Use it
 
 1. Login to your site at `https://ABC.DOMAIN.COM`
     - Note: the first user to login will be an administrator
