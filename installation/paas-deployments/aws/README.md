@@ -6,21 +6,9 @@ This guide covers the following:
 2. Hosting a domain name with Amazon Route 53
 3. Securing your server with a free SSL certificate from Let's Encrypt
 
-## Table of Contents
+## Launch an EC2 instance
 
-1. [Launch an EC2 Instance](#1-launch-an-ec2-instance)
-2. [Allocate an Elastic IP](#2-allocate-an-elastic-ip)
-3. [Configure DNS with AWS Route 53](#3-configure-dns-w-aws-route-53)
-4. [Get an SSL Certificate from Let's Encrypt](#4-get-an-ssl-certificate-from-lets-encrypt)
-5. [Configure Nginx with TLS/SSL](#5-configure-nginx-web-server-with-tlsssl)
-6. [Install Docker & Docker Compose](#6-install-docker--docker-compose)
-7. [Set up Docker Containers](#7-set-up-docker-containers)
-8. [Automatic start & restarting with Systemd](#8-automatic-start--restarting-with-systemd)
-9. [Use it!](#9-use-it)
-
-### 1. Launch an EC2 instance
-
-#### In AWS Services, go to **EC2**, **Instances**, and **Launch Instance**
+### In AWS Services, go to **EC2**, **Instances**, and **Launch Instance**
 
 1. Choose an AMI
     - Select **Ubuntu Server 14.04 LTS** AMI
@@ -39,26 +27,26 @@ This guide covers the following:
 8. Key Pairs
     - Choose an existing key pair or create a new one and **Launch Instance**
 
-### 2. Allocate an Elastic IP
+## Allocate an Elastic IP
 
-#### In AWS Services, go to **EC2** and **Elastic IPs**
+### In AWS Services, go to **EC2** and **Elastic IPs**
 
 1. Select **Allocate New Address**
 2. Search for your instance, and click **Associate**
 3. In the details below, copy the **Public DNS** value. You will need it in the DNS step. (It should be in this format: ec2-11-222-33-44.us-west-2.compute.amazonaws.com)
 
-### 3. Configure DNS w/ AWS Route 53
+## Configure DNS w/ AWS Route 53
 
-#### In AWS Services, go to **Route 53**
+### In AWS Services, go to **Route 53**
 
 - **Create Hosted Zone**
 - Enter Domain Name and select Type: **Public Hosted Zone**, then **Create**
 - Select your new Hosted Zone and **Create Record Set**
 - Enter the subdomain (if desired), select Type **CNAME**, enter the Public DNS name from the above step to the value field and click **Create**
 
-### 4. Get an SSL certificate from Let's Encrypt
+## Get an SSL certificate from Let's Encrypt
 
-#### We will use **Let's Encrypt** to get a free & open-source SSL certificate
+### We will use **Let's Encrypt** to get a free & open-source SSL certificate
 
 - SSH to your instance:
     ```shell
@@ -106,7 +94,7 @@ _Note: Second (or more) domain is optional._
     sudo ls /etc/letsencrypt/live/<domain.com>
     ```
 
-### 5. Configure Nginx web server with TLS/SSL
+## Configure Nginx web server with TLS/SSL
 
 1. Install Nginx web server.
     ```shell
@@ -175,7 +163,7 @@ _Note: Second (or more) domain is optional._
     - Note: The certificate will expire in 90 days
     - ** TODO: Add script for auto-renewal of certificate.
 
-### 6. Install Docker & Docker Compose
+## Install Docker & Docker Compose
 
 1. SSH to your instance
     ```shell
@@ -204,7 +192,7 @@ _Note: Second (or more) domain is optional._
     ```
 6. SSH to your instance again following the directions above
 
-### 7. Set up Docker Containers
+## Set up Docker containers
 
 1. Create local directories
     ```shell
@@ -269,7 +257,7 @@ _Note: Second (or more) domain is optional._
     cd /var/www/rocket.chat
     docker-compose up -d
     ```
-### 8. Use it
+## Use it
 
 1. Login to your site at `https://ABC.DOMAIN.COM`
     - Note: the first user to login will be an administrator
