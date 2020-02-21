@@ -115,7 +115,7 @@ Now we are ready to plug in a few things and run our helm install:
 * mongodb.mongodbPassword - make sure to set to your own password
 * repo - use the repo part of the container image path you copied earlier.
 
-Example of image path
+Example of image path, the path changes based on the AWS region and version installed, so be sure you check the image details of your subscription
 
 ```
 217273820646.dkr.ecr.us-east-1.amazonaws.com/c87d63fd-e44d-4368-82e0-24bd42b21a84/cg-2246218297/rocket.chat:0.71.1-latest
@@ -135,8 +135,9 @@ helm install --name=rc \
 --set mongodb.mongodbUsername=rocketchat \
 --set mongodb.mongodbPassword=superSecure \
 --set mongodb.mongodbDatabase=rocketchat \
---set repo=217273820646.dkr.ecr.us-east-1.amazonaws.com/046e16ad-a193-4c5b-9f1f-d2619d9c5cd6/cg-1684305143/rocket.chat.enterprise \
---set tag=0.71.1-latest \
+--set mongodb.mongodbRootPassword=superSecureToo \
+--set image.repository=217273820646.dkr.ecr.us-east-1.amazonaws.com/046e16ad-a193-4c5b-9f1f-d2619d9c5cd6/cg-1684305143/rocket.chat.enterprise \
+--set image.tag=0.71.1-latest \
 --set ingress.enabled=true \
 --set host=your-hostname.your-domain.com \
 --set ingress.annotations."kubernetes\.io/ingress\.class"=traefik \

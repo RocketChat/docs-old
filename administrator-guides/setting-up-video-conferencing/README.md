@@ -16,7 +16,7 @@ group video chat, audio chat, and screen sharing experience out of the box.
 
 To enable Jitsi:
 
-Go to `Administation -> SETTINGS -> Video Conference` then set `Enabled`  to `True`.
+Go to `Administration -> SETTINGS -> Video Conference` then set `Enabled`  to `True`.
 
 From there you can set where video conferences can be held (channels, private rooms and direct messages).
 

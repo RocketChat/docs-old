@@ -21,7 +21,10 @@ By "Support" we mean that Rocket.Chat will provide only security fixes and answe
 | Rocket.Chat 1.2     | June 2019      | September 2019   |
 | **Rocket.Chat 1.3** | **July 2019**  | **January 2020** |
 | Rocket.Chat 2.0     | August 2019    | November 2019    |
-| Rocket.Chat 2.1     | September 2019 | TBD              |
+| Rocket.Chat 2.1     | September 2019 | December 2019    |
+| Rocket.Chat 2.2     | October 2019   | January 2020     |
+| Rocket.Chat 2.3     | November 2019  | February 2020    |
+| Rocket.Chat 2.4     | December 2019  | TBD              |
 
 > Always update to latest stable version before reporting any bugs or before ask for help from community.
 
@@ -55,13 +58,13 @@ Each Rocket.Chat release supports different versions of MongoDB, the table below
 | Rocket.Chat 1.x | 3.2, 3.4, 3.6, 4.0         | 3.2                        |
 | Rocket.Chat 2.x | 3.4, 3.6, 4.0              | 3.4                        |
 
-The upgrade guides avaiable from the official MongoDB documentation are listed bellow. Bare in mind that it's not possible to skip a version when upgrading, e.g. to upgrade from 3.2 to 3.6 it's necessary to upgrade from 3.2 to 3.4 first and than to 3.6.
+The upgrade guides available from the official MongoDB documentation are listed below. Bare in mind that it's not possible to skip a version when upgrading, e.g. to upgrade from 3.2 to 3.6 it's necessary to upgrade from 3.2 to 3.4 first and than to 3.6.
 
 - [Upgrade Replicat Set to 3.4](https://docs.mongodb.com/manual/release-notes/3.4-upgrade-replica-set/)
 - [Upgrade Replicat Set to 3.6](https://docs.mongodb.com/manual/release-notes/3.6-upgrade-replica-set/)
 - [Upgrade Replicat Set to 4.0](https://docs.mongodb.com/manual/release-notes/4.0-upgrade-replica-set/)
 
-> It's possible to bypass the MongoDB version check by using the environment variable `BYPASS_MONGO_VALIDATION=true`. Bare in mind that this work around should be used only when extrictly necessary and may prevent some functionalities to work propertly or even prevent the server to start.
+> It's possible to bypass the MongoDB version check by using the environment variable `BYPASS_MONGO_VALIDATION=true`. Bare in mind that this work around should be used only when extrictly necessary and may prevent some functionalities to work properly or even prevent the server to start.
 
 ## Supported browser versions
 

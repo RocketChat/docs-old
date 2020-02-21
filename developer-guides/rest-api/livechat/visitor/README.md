@@ -176,3 +176,167 @@ curl -X POST \
 | Version | Description |
 | :------ | :---------- |
 | 0.70.0  | Added       |
+
+## Get the visitor info
+
+Retrieve the visitor info
+
+| URL                                      | Requires Auth | HTTP Method |
+| :--------------------------------------- | :------------ | :---------- |
+| `/api/v1/livechat/visitors.info`         | `yes`         | `GET`       |
+
+## Query Parameter
+
+| Argument    | Example             | Required | Description           |
+| :---------- | :------------------ | :------- | :-------------------- |
+| `visitorId` | `iNKE8a6k6cjbqWhWd` | Required | The visitor's id.        |
+
+## Example Call
+
+```bash
+curl http://localhost:3000/api/v1/livechat/visitors.info?visitorId=iNKE8a6k6cjbqWhWd
+```
+
+## Example Result
+
+```json
+{
+    "visitor": {
+        "_id": "L64iXAKtGaPfusnem",
+        "username": "guest-4",
+        "_updatedAt": "2019-10-21T19:36:47.960Z",
+        "token": "hzf48867bv9lwjzigk2tk"
+    },
+    "success": true
+}
+```
+
+## Change Log
+
+| Version | Description |
+| :------ | :---------- |
+| 2.3.0   | Added       |
+
+## Get the visitor navigation history
+
+Retrieve the visitor navigation history
+
+| URL                                      | Requires Auth | HTTP Method |
+| :--------------------------------------- | :------------ | :---------- |
+| `/api/v1/livechat/visitors.pagesVisited` | `yes`          | `GET`       |
+
+## Query Parameter
+
+| Argument | Example             | Required | Description           |
+| :------- | :------------------ | :------- | :-------------------- |
+| `roomId` | `iNKE8a6k6cjbqWhWd` | Required | The room's id.        |
+
+## Example Call
+
+```bash
+curl http://localhost:3000/api/v1/livechat/visitors.pagesVisited?roomId=iNKE8a6k6cjbqWhWd
+```
+
+## Example Result
+
+```json
+{
+    "pages": [
+        {
+            "_id": "7sixPtdqiCcfSRrWJ",
+            "t": "livechat_navigation_history",
+            "rid": "wBCg9ZgXT7Mvqz5Xu",
+            "ts": "2019-10-21T19:51:22.298Z",
+            "msg": "App test - http://localhost:8601/",
+            "u": {
+                "_id": "rocket.cat",
+                "username": "rocket.cat"
+            },
+            "groupable": false,
+            "navigation": {
+                "page": {
+                    "change": "url",
+                    "title": "Test",
+                    "location": {
+                        "href": "http://localhost:8601/"
+                    }
+                },
+                "token": "9vcfr6wb3sllv5t14d9x3"
+            },
+            "_hidden": true,
+            "_updatedAt": "2019-10-21T19:51:22.298Z"
+        }
+    ],
+    "success": true
+}
+```
+
+## Change Log
+
+| Version | Description |
+| :------ | :---------- |
+| 2.3.0   | Added       |
+
+## Get the visitor chat history
+
+Retrieve the visitor chat history. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/).
+
+| URL                                                                     | Requires Auth | HTTP Method |
+| :---------------------------------------------------------------------- | :------------ | :---------- |
+| `/api/v1/livechat/visitors.chatHistory/room/room-id/visitor/visitor-id` | `yes`          | `GET`       |
+
+## Query Parameter
+
+| Argument    | Example             | Required | Description           |
+| :---------- | :------------------ | :------- | :-------------------- |
+| `roomId`    | `iNKE8a6k6cjbqWhWd` | Required | The room's id.        |
+| `visitorId` | `iNKE8a6k6cjbqWhWd` | Required | The visitor's id.     |
+
+## Example Call
+
+```bash
+curl http://localhost:3000/api/v1/livechat/visitors.chatHistory/room/room-id/visitor/visitor-id
+```
+
+## Example Result
+
+```json
+{
+  "history": [
+    {
+      "_id": "Yjc62ZSoWiHB8Q6xr",
+      "msgs": 1,
+      "usersCount": 2,
+      "lm": "2019-12-09T20:30:32.058Z",
+      "fname": "Visitor 1575554334960",
+      "t": "l",
+      "ts": "2019-12-09T20:30:32.058Z",
+      "v": {
+        "_id": "sAvPE8bjCJP5YwPnN",
+        "username": "guest-2",
+        "token": "iNKE8a6k6cjbqWhWd",
+        "status": "online"
+      },
+      "cl": false,
+      "open": true,
+      "waitingResponse": true,
+      "_updatedAt": "2019-12-09T20:30:32.808Z",
+      "servedBy": {
+        "_id": "w6YjbdZHjghjfNBAg",
+        "username": "marcos.defendi",
+        "ts": "2019-12-09T20:30:32.166Z"
+      }
+    }
+  ],
+  "count": 1,
+  "offset": 0,
+  "total": 14,
+  "success": true
+}
+```
+
+## Change Log
+
+| Version | Description |
+| :------ | :---------- |
+| 2.4.0   | Added       |
