@@ -77,7 +77,7 @@ Vagrant.configure(2) do |config|
 
     npm install nave -g
     npm install pm2 -g
-    nave usemain 8.9.3
+    nave usemain 12.14.0
 
     curl https://install.meteor.com/ | sh
 

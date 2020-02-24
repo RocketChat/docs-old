@@ -1,0 +1,40 @@
+name: Build and test with Rake
+
+on: [push]
+
+# env:
+#   NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of html-proofer
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+
+    - uses: actions/cache@v1
+      id: gem-cache
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gem-
+
+    - name: Install dependencies
+      run: |
+        gem install bundler
+        bundle install --jobs 4 --retry 3 --deployment
+
+    - name: Lint
+      run: |
+        bundle exec mdl ./ -r ~MD004 -i -g
+
+    - name: Build and test with Rake
+      run: |
+        bundle exec "rake test"

@@ -165,6 +165,29 @@ blockquote {
   padding: 0 24px;
 }
 
+.tag-container {
+  display: flex;
+}
+
+.tag {
+  margin-right: 8px;
+  margin-left: 0;
+  color: #fff;
+
+
+
+  &.official {
+    background-color: #F5455C;
+  }
+  &.community {
+    background-color: #1D74F5;
+  }
+  &.enterprise {
+    background-color: #2DE0A5;
+    color: $space;
+  }
+}
+
 .wrapper {
   flex: 1 1 100%;
   overflow: hidden;
@@ -822,5 +845,46 @@ h6:hover .header-link {
   }
   .article-toc-wrapper {
     max-width: 100%;
+  }
+}
+
+
+// Tabs
+
+.tab-container {
+
+
+  .tabs-titles {
+    display: flex;
+    border-bottom: 1px $grey-link solid;
+
+    .tab-title {
+      padding: 8px 8px;
+      margin-right: 16px;
+      margin-bottom: -3px;
+      font-weight: 600;
+      cursor: default;
+      color: #000;
+    }
+
+    .tab-title.current {
+      border-bottom: 5px $brand solid;
+      color: $brand;
+    }
+  }
+
+  .tabs-contents {
+    padding-top: 16px;
+    .tab.current {
+      .tab-content {
+        display: block;
+      }
+    }
+  }
+
+  .tab {
+    .tab-content {
+      display: none;
+    }
   }
 }
