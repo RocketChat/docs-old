@@ -68,7 +68,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Omnichannel: Support for Live Agent and Chatbot Handoff
 
-- **Mentors**: @sstetak, @dlassalle
+- **Mentors**: @steve.stetak, @dlassalle
 - **Description**: Enhance Omnichannel Rocket.Chat to support the use of Chatbots, powered by NLP such as Dialogflow, in front of a larger existing infrastructure of Care Live Agents.  Enabling customers to use the Rocket.Chat client embedded in a website that directs them to a Chatbot.  If the Chatbot is unable to solve their issue, Rocket.Chat will seamlessly route them to a Live Agent through Rocket.Chat’s queues or another third-party system such as Salesforce.  At the end of the conversation the customer will be reconnected to the chatbot for additional support or survey purposes.
 - **Desirable Skills**: Familiarity with Rocket.Chat development, NLP or Chatbot experience
 
@@ -201,7 +201,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Salesforce Rocket.Chat App
 
-- **Mentors**: @sstetak, @dlassalle
+- **Mentors**: @steve.stetak, @dlassalle
 - **Description**: Create a Rocket.Chat app that will allow customers and Chatbots to interact through Rocket.Chat with CRM tools, primarily Salesforce.  This will allow organizations to provide access to the information and tools they already are using in Salesforce through a chat interface.
 - **Desirable Skills**: Familiarity with Rocket.Chat development, knowledge of Salesforce or other CRM tools.
 
