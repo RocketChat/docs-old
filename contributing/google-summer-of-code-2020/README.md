@@ -11,11 +11,13 @@ redirect_from:
 
 ## How to apply
 
-Rocket.Chat will be applying to become a mentoring organization for Google Summer of Code in 2020.
+Rocket.Chat is proud to be an official mentor organization for Google Summer of Code 2020!
 
-For students, application for the GSoC 2020 season opens on March 16, 2020.   Please see [GSoC timeline](#timeline) for more details.
+Students interested in joining us this summer shoud check out our [list of project ideas](#project-ideas) and start discussion with mentors about their project immediately.  See the section [About GSoC 2020](#about-gsoc-2020) for more information.
 
-### About Rocket.Chat GSoC 2020
+Official application for the GSoC 2020 season opens on March 16, 2020.   Please see [GSoC timeline](#timeline) for more details.
+
+### About GSoC 2020
 
 For ideas, check out our growing [list of ideas](#project-ideas) for some inspiration.
 
@@ -66,7 +68,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Omnichannel: Support for Live Agent and Chatbot Handoff
 
-- **Mentors**: @sstetak, @dlassalle
+- **Mentors**: @steve.stetak, @dlassalle
 - **Description**: Enhance Omnichannel Rocket.Chat to support the use of Chatbots, powered by NLP such as Dialogflow, in front of a larger existing infrastructure of Care Live Agents.  Enabling customers to use the Rocket.Chat client embedded in a website that directs them to a Chatbot.  If the Chatbot is unable to solve their issue, Rocket.Chat will seamlessly route them to a Live Agent through Rocket.Chat’s queues or another third-party system such as Salesforce.  At the end of the conversation the customer will be reconnected to the chatbot for additional support or survey purposes.
 - **Desirable Skills**: Familiarity with Rocket.Chat development, NLP or Chatbot experience
 
@@ -199,7 +201,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Salesforce Rocket.Chat App
 
-- **Mentors**: @sstetak, @dlassalle
+- **Mentors**: @steve.stetak, @dlassalle
 - **Description**: Create a Rocket.Chat app that will allow customers and Chatbots to interact through Rocket.Chat with CRM tools, primarily Salesforce.  This will allow organizations to provide access to the information and tools they already are using in Salesforce through a chat interface.
 - **Desirable Skills**: Familiarity with Rocket.Chat development, knowledge of Salesforce or other CRM tools.
 

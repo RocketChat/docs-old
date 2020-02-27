@@ -170,6 +170,7 @@
     - Livechat Queues
     - Omnichannel Integration
     - WhatsApp Twilio
+  - Message Auditing
   - Notifications:
     - Push Notifications
   - Permissions
@@ -342,6 +343,7 @@
       - Commands:
         - get
         - list
+        - preview
         - run
       - Custom Sounds:
         - list

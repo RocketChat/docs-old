@@ -4,7 +4,7 @@ Here you can find all Rocket.Chat security Related Documentation
 
 ## Learn more
 
-- Add Links HERE!
+- [Security Solutions](https://rocket.chat/security)
 
 ## Outside Resources
 
@@ -15,7 +15,6 @@ These are resource that you can find outside Rocket.Chat's Security Documentatio
 - [Privacy Policy](https://rocket.chat/privacy)
 - [Terms of Service](https://rocket.chat/terms)
 - [GDPR](https://rocket.chat/gdpr)
-- [Rocket.Chat processing activities]()
 
 ### Community
 
