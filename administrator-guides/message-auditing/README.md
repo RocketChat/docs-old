@@ -70,10 +70,10 @@ To check the details about who used the Message Auditing Panel and their search 
 
 ## Check Historical Edits and Deletions
 
-Rocket.Chat recommends the following setting preferences to enable you to view any modified or removed messages. 
+Rocket.Chat recommends the following setting preferences to enable you to view any modified or removed messages.
 
 * Got to the Administration UI ![](administrator-ui.png).
-* Click **Administration**. 
+* Click **Administration**.
 * Scroll down to **Messages** on the left-side menu.
 
 ![](audit-settings.png)
