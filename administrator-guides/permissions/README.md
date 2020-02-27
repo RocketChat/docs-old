@@ -52,6 +52,8 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | bulk-register-user | Permission to bulk add users.
 | call-management | Permission to start a meeting. Requires Video Conference -> BigBlueButton enabled. Accessible from More -> BBB Video Chat -> Start Meeting.
 | clean-channel-history | Permission to prune a channel's messages and/or files.
+| clean-group-history | Permission to prune a group's messages and/or files.
+| clean-direct-history | Permission to prune direct messages and/or files.
 | close-livechat-room | Permission to close your own live chat channels.
 | close-others-livechat-room | Permission to close others live chat channels.
 | create-c | Permission to create public channels.
