@@ -1,3 +1,9 @@
+---
+official: true
+enterprise: true
+permalink: /administrator-guides/message-auditing/
+---
+
 # Message Auditing Panel
 
 The Message Auditing Panel includes the following features, allowing you or specified users to:

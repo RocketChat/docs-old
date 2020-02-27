@@ -11,6 +11,7 @@ If you are a server administrator, here are a few guides on how to setup your in
 - [Email](email/)
 - [Federation](federation/)
 - [File Upload](file-upload/)
+- [Message Auditing](message-auditing/)
 - [Import](import/)
 - [Integrations](integrations/)
 - [Rocket.Chat Apps](rocket-chat-apps/)
