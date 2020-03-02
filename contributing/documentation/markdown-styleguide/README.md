@@ -139,8 +139,8 @@ Bulleted lists should start on the beginning of the line.
 ```markdown
 Some text
 
-    * List item
-    * List item
+    - List item
+    - List item
 ```
 
 **Correct**:
@@ -148,8 +148,8 @@ Some text
 ```markdown
 Some test
 
-* List item
-* List item
+- List item
+- List item
 ```
 
 ### MD007 - Unordered list indentation
@@ -159,15 +159,15 @@ List items should be indented using 4 spaces.
 **Wrong**:
 
 ```markdown
-* List item
-    * Nested list item indented by 3 spaces
+- List item
+    - Nested list item indented by 3 spaces
 ```
 
 **Correct**:
 
 ```markdown
-* List item
-    * Nested list item indented by 4 spaces
+- List item
+    - Nested list item indented by 4 spaces
 ```
 
 ### MD009 - No trailing spaces
@@ -402,9 +402,9 @@ There should be only one space after a list marker.
 **Wrong**:
 
 ```markdown
-*Foo
-*Bar
-*Baz
+-Foo
+-Bar
+-Baz
 
 1.  Foo
 1.  Bar
@@ -414,16 +414,16 @@ There should be only one space after a list marker.
 **Correct**:
 
 ```markdown
-* Foo
-* Bar
-* Baz
+- Foo
+- Bar
+- Baz
 
 1. Foo
 1. Bar
 1. Baz
 
 1. Foo
-* Bar
+- Bar
 1. Baz
 ```
 
@@ -469,8 +469,8 @@ Lists should be surrounded by blank lines.
 
 ```markdown
 Some text
-* Some
-* List
+- Some
+- List
 
 1. Some
 2. List
@@ -482,8 +482,8 @@ Some text
 ```markdown
 Some text
 
-* Some
-* List
+- Some
+- List
 
 1. Some
 2. List
