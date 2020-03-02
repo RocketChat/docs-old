@@ -26,10 +26,21 @@ These are the basic Account configuration settings. Most of the options are eith
 
 Clicking on the <button>`Reset`</button> button will reset all these basic configurations back to their default value.
 
+## Default User Preferences
+
+- **Enable Auto Away**: When set to True, it will automatically change the User's status to Away they exit Rocket.Chat.
+- **Idle Time Limit**: Sets how long _in miliseconds_ for a User to go idle.
+- **Notification Duration**: This will set how long _in miliseconds_ for a notification to be displayed.
+- **Require Interaction to Dismiss Desktop Notification**: Enabling this will set the notification prompt active untill the User interacts with it.
+- 
+
 ## Avatar
 
 - **Resize Avatar**: Set this to true to resize users avatars to a predefined size. You need ImageMagick or GraphicsMagick installed on your server for this feature to work.
 - **Avatar Size**: The desired size after the avatar resizing. The unit is pixels (px).
+- **Avatar External Provider URL**: Lets you set a url from which avatars can be loaded.
+- **Avatar cache time**: This will set how long _in miliseconds_ you want user's avatar to be cached.
+- **Block Unauthenticated Access to Avatars**: Enabling this will restrict access to user's avatar for those that are not authenticated.
 - **Set Default Avatar**: If this setting is set to true, Rocket.Chat will try to find a default avatar based on OAuth Account or Gravatar.
 
 ## Iframe
@@ -38,7 +49,9 @@ These settings are related to the Iframe Integration, please see the [Iframe int
 
 ## Registration
 
-- **Default username prefix suggestion**: This is the prefix that will be suggested when a user is creating a username.
+- **Send email to user when user is activated**: When enabled, an email will be sent to the user after their account has been activated.
+- **Send email to user when user is deactivated**: If set to True, users will get an email after account deactivation.
+- **Default username prefix suggestion**: This is the prefix that will be suggested when a user is creating a username. Default is `user`.
 - **Require Name For Signup**: If this is set to true, the name of the user will be required to create an account.
 - **Require Password Confirmation**: If this is set to true, the user will have to input his password twice when registering.
 - **Email Verification**: If this is set to true, users will have to confirm their email via a confirmation email sent to their email. (For this setting work, the SMTP settings must be already set up. See [Email Configuration](../email/setup))
@@ -52,10 +65,12 @@ These settings are related to the Iframe Integration, please see the [Iframe int
     - Disabled: The form will be disabled and users won't be able to register through it;
     - Secret URL: The form will be only accessible using a specific URL;
 - **Registration Form Secret URL**: String to be added to the secret URL. Is recommended to use a random string for that. Example: `https://open.rocket.chat/register/[secret_hash]`.
+- **Invite URL Type**: URL type can either be direct or through a proxy.
 - **Registration Form Link Replacement Text**: Text to be shown in place of the registration form when the registration form is disabled.
 - **Registration with Authentication Services**: Set this to true to allow registration with third-party authentication services like Google or Twitter.
 - **Default Roles for Authentication Services**: Default roles users will be given when registering through authentication services.
 - **Password Reset**: Set this to true to allow users to reset their password.
+- **Custom Fields**: A valid `JSON` of key values pairs of additional fields to be added during user registration.
 
 ## Two Factor Authentication
 
