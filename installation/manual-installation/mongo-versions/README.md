@@ -1,6 +1,6 @@
 # Supported Mongo Versions
 
-Rocket.Chat currently requires MongoDB from version 3.2 and higher. We recommend using version 3.6.9.
+Rocket.Chat currently requires MongoDB from version 3.6 and higher. [Support of MongoDB 3.2 will be removed from Rocket Chat 2.0.0 and MongoDB 3.4 will be removed from Rocket Chat 4.x](https://github.com/RocketChat/Rocket.Chat/pull/15199). We recommend using version 3.6.9.
 
 **Note** <br>
 Without mongodb version we can't ensure you are running a compatible version.
@@ -14,6 +14,4 @@ db.runCommand({ grantRolesToUser: "YOUR_USER" , roles: [{role: "clusterMonitor",
 
 ## Supported Storage Engines
 
-The Storage engine recommended for Rocket.Chat is [MMAPv1](https://docs.mongodb.com/manual/core/mmapv1/).
-
-We are currently testing [WiredTiger](http://www.wiredtiger.com/) for better performance with larger servers, but for now you should stick to MMAPv1 for large installs.
+The Storage engine recommended for Rocket.Chat is [WiredTiger](https://docs.mongodb.com/manual/core/wiredtiger/).
