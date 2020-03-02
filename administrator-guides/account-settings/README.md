@@ -32,7 +32,6 @@ Clicking on the <button>`Reset`</button> button will reset all these basic confi
 - **Idle Time Limit**: Sets how long _in miliseconds_ for a User to go idle.
 - **Notification Duration**: This will set how long _in miliseconds_ for a notification to be displayed.
 - **Require Interaction to Dismiss Desktop Notification**: Enabling this will set the notification prompt active untill the User interacts with it.
-- 
 
 ## Avatar
 
