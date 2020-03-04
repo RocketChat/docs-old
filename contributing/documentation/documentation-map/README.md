@@ -31,6 +31,7 @@ Here you can also find what articles are incomplete and missing.
 - Contributing
     - Developing
     - Google Summer of Code
+    - Google Season of Docs
     - Promoting
     - Reporting Issues
     - Security:

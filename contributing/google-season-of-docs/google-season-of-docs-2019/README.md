@@ -1,10 +1,3 @@
----
-permalink: /contributing/google-season-of-docs-2019/
-
-redirect_from:
-  - /contributing/google-season-of-docs/
----
-
 [![Google Season of Docs 2019](https://github.com/Sing-Li/bbug/raw/master/images/gsodlogo.png)](https://developers.google.com/season-of-docs/)
 
 # Google Season of Docs 2019
@@ -21,7 +14,7 @@ This year's Season of Docs is a pilot that accepts only a limited number of appl
 
 Application for technical writers is now closed for the 2019 season.  See [Google Season of Docs 2019 timeline](https://developers.google.com/season-of-docs/docs/timeline) for more details.
 
-Write and submit your proposal now! Check out our [list of ideas](https://rocket.chat/docs/contributing/google-season-of-docs-2019/#project-ideas) for some inspiration.
+Write and submit your proposal now! Check out our [list of ideas](#project-ideas) for some inspiration.
 
 Meet the mentors and fellow writers for GSoD 2019 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
 
@@ -49,7 +42,7 @@ Application for technical writers has opened.  Please use this [form](https://fo
 
 - **Description**: When developing applications, developers can use a rich set of Application Programming Interfaces (APIs) offered by Rocket.Chat to control every aspect of Rocket.Chat's operation. The documentation for this set of APIs mixes automated generation with hand-crafted usage descriptions, application scenarios, and coding examples. By September 2019, Rocket.Chat should have a "playground" that makes this documentation comes alive.  Developers will be able to visit the API page in the "playground" and actually interact with the API directly through the documentation page. We already have a hand-crafted set of API docs that is maintained by our community but they tend to become obsolete as API changes. This project will replace the legacy documentation. You will work with two mentors specialized in API coding and documentation generation for this project.
 
-- In this project, we will **not** be creating the playground or the docs generation systems, that will be handled by the Google Summer of Code student ([See the GSoC Project]()). Our API docs were written without the idea of a playground to test it. The objective of this project is to improve the structure and wording of the API docs to reflect the new playground system.
+- In this project, we will **not** be creating the playground or the docs generation systems, that will be handled by the Google Summer of Code student ([See the GSoC Project](/contributing/google-summer-of-code/google-summer-of-code-2019/#api-playground-interactive-apis-documentation)). Our API docs were written without the idea of a playground to test it. The objective of this project is to improve the structure and wording of the API docs to reflect the new playground system.
 - **Related Material**: [Our existing REST API documentation](https://rocket.chat/docs/developer-guides/rest-api/)
 
 ### Administration/Settings Documentation
