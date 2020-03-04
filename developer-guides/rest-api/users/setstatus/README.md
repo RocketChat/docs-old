@@ -6,7 +6,6 @@ Sets a user Status when the status message and state is given.
 | :--- | :--- | :--- |
 | `/api/v1/users.setStatus` | `yes` | `POST` |
 
-
 ## Arguments
 
 | Argument | Example | Required | Description |
