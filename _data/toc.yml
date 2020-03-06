@@ -162,6 +162,9 @@
     - Bitbucket Server Integration
     - Bamboo Integration
     - Confluence Server Integration
+  - White Labeling:
+    - Basic White Labeling
+    - Advanced White Labeling
   - Google Cloud:
     - Auto Translate
   # - Google Drive
