@@ -360,7 +360,7 @@ The following screens are available to be edited:
 - **Terms of Service:** By default this screen is accessed on the links under the login page, here you can set the terms of service of your server. Can also be accessed via YOUR-SERVER-URL/terms-of-service
 - **Privacy Policy:** By default this screen is accessed on the links under the login page, here you can set the privacy policy  of your server. Can also be accessed via YOUR-SERVER-URL/privacy-policy
 - **Legal Notice:** By default this screen is accessed on the links under the login page, here you can set the legal notice  of your server. Can also be accessed via YOUR-SERVER-URL/legal-notice
-- **Side navigation footer:** This is the logo on the left sidebar. We recommend using the images set on your [Assets](link-to-assets) for better consistency.
+- **Side navigation footer:** This is the logo on the left sidebar. We recommend using the images set on your [Assets](#assets) for better consistency.
 
 ### Fonts
 
