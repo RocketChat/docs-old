@@ -45,17 +45,21 @@ Open the "_Route 53_" service dashboard:
 We will use Let's Encrypt to get a free & open-source SSL certificate:
 
 1. SSH to your instance:
+
     ```shell
     ssh -i <path_to_key_file.pem> ubuntu@<public_ip_address>
     ```
 
     Note: You may replace <public_ip_address> with domain name if your DNS has resolved.
 2. Install `certbot` using `apt`:
+
     ```shell
     sudo apt update
     sudo apt install certbot
     ```
+
 3. Obtain certificate from Let's Encrypt:
+
     ```shell
     sudo certbot certonly --standalone --email <emailaddress@email.com> -d <domain.com> -d <subdomain.domain.com>
     ```
@@ -67,15 +71,20 @@ We will use Let's Encrypt to get a free & open-source SSL certificate:
 ## Configure Nginx web server with TLS/SSL
 
 1. Install Nginx web server:
+
     ```shell
     sudo apt-get install nginx
     ```
+
 2. Backup the default config file for reference:
+
     ```shell
     cd /etc/nginx/sites-available
     sudo mv default default.reference
     ```
+
 3. Create a new site configuration for Rocket.Chat:
+
     ```shell
     sudo nano /etc/nginx/sites-available/default
     ```
@@ -123,9 +132,11 @@ We will use Let's Encrypt to get a free & open-source SSL certificate:
 
     Make sure to replace `ABC.DOMAIN.COM` with your domain (it appears 4 times). Make sure to update it in the path to your key files as well:
 4. Test the Nginx configuration to make sure there are no syntax errors:
+
     ```shell
     sudo nginx -t
     ```
+
 5. If the syntax test went successful, restart Nginx:
 
     ```shell
@@ -137,6 +148,7 @@ Confirm that it is running properly by opening a web browser and going to your d
 ## Install Docker & Docker Compose
 
 1. Install Docker (and any dependencies)
+
     ```shell
     sudo apt-get update
     sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
@@ -147,7 +159,9 @@ Confirm that it is running properly by opening a web browser and going to your d
     sudo apt-get update
     sudo apt-get install docker-ce docker-ce-cli containerd.io
     ```
+
 2. Install `docker-compose`:
+
     ```shell
     sudo curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
     sudo chmod +x /usr/local/bin/docker-compose
@@ -156,11 +170,14 @@ Confirm that it is running properly by opening a web browser and going to your d
 ## Set up Docker containers
 
 1. Create local directories
+
     ```shell
     sudo mkdir -p /opt/docker/rocket.chat/data/runtime/db
     sudo mkdir -p /opt/docker/rocket.chat/data/dump
     ```
+
 2. Create the `docker-compose.yml` file, again make sure to replace `ABC.DOMAIN.COM` with your actual domain name:
+
     ```shell
     sudo nano /opt/docker/rocket.chat/docker-compose.yml
     ```
@@ -218,12 +235,16 @@ Confirm that it is running properly by opening a web browser and going to your d
         depends_on:
         - mongo
     ```
+
 3. Start containers:
+
     ```shell
     cd /opt/docker/rocket.chat
     sudo docker-compose up -d
     ```
+
 4. Wait a bit for the replica set to be initialized for MongoDB (about 30-60 seconds) and confirm Rocket.Chat is running properly:
+
     ```shell
     sudo docker-compose logs -f rocketchat
     ```
