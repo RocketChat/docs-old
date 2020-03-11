@@ -4,7 +4,7 @@ This guide will focus on customizations that non technical users can make to the
 
 ## Layout
 
-Here is where most of the changes to the ui will happen. Found in the administration menu.
+Here is where most of the changes to the UI will happen. Found in the administration menu.
 
 ### Colors
 
