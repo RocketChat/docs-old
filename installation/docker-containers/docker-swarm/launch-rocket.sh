@@ -58,9 +58,14 @@ echo "Run…"
 echo
 echo "docker stack ps ${DOCKER_STACK_NAME}"
 echo
-echo "   …to check on your stack, or run …"
+echo "   …to check on your stack, or…"
 echo
-echo "docker service ls"
+echo "                            docker service ls"
 echo
-echo "                                   …to see every service on your swarm."
-
+echo "                              …to see every service currently running on your swarm."
+echo
+echo "Run…"
+echo
+echo "docker stack rm ${DOCKER_STACK_NAME}"
+echo
+echo "   …to remove your stack from the swarm."
