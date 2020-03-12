@@ -16,6 +16,6 @@ l1fmyk2gp7je        yourmob_rocketchat-mongo-replicator   replicated          0/
 e2s85hb98j7i        yourmob_traefik                       replicated          1/1                 traefik:latest
 *:80->80/tcp, *:443->443/tcp, *:8080->8080/tcp
 1egi5h42f4jc        yourmob_traefik-ssl-exporter          replicated          1/1                 ldez/traefik-certs-dumper:latest
-
 ```
+
   6. In your browser, open `rocketchat.${DOMAIN_WITH_DNS_HANDLED_BY_CLOUDFLARE}` to use the RocketChat web application and `traefik.${DOMAIN_WITH_DNS_HANDLED_BY_CLOUDFLARE}` to use the Traefik dashboard.  You can join this RocketChat server in the desktop or mobile apps at the same url you view the web app.
