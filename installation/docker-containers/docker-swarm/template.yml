@@ -45,6 +45,7 @@ services:
         - "traefik.http.services.rocketchat-https.loadbalancer.server.port=3000"
     volumes:
       - ./rocketchat/uploads:/app/uploads
+      - ./traefik/ssl:/certs:ro
     environment:
       - PORT=3000
       - ROOT_URL=http://rocketchat.${DOMAIN_WITH_DNS_HANDLED_BY_CLOUDFLARE}:3000
@@ -53,6 +54,8 @@ services:
 
   rocketchat-hubot:
     image: rocketchat/hubot-rocketchat:latest
+    networks:
+     - rocketchat
     deploy:
       restart_policy:
         condition: any
@@ -66,9 +69,13 @@ services:
       - EXTERNAL_SCRIPTS=hubot-help,hubot-seen,hubot-links,hubot-diagnostics
     volumes:
       - ./rocketchat/hubot-scripts:/home/hubot/scripts
-    # this is used to expose the hubot port for notifications on the host on port 3001, e.g. for hubot-jenkins-notifier - and should be forwarded through traefik over tcp:
     ports:
       - 3001:8080
+## this swarm listen port is used to expose the hubot service's internal port
+## for notifications to the service on port 3001, e.g. for hubot-jenkins-notifier
+## it should really be forwarded through traefik over tcp
+## (really, only traefik should need to have a ports section
+## except traefik doesn't route UDP traffic - yet.  So we leave it as an example.)
 
   traefik:
     image: traefik
@@ -77,16 +84,16 @@ services:
       - "--api.dashboard=true"
       - "--certificatesresolvers.cloudflarecerts.acme.email=${LETS_ENCRYPT_EMAIL_ADDRESS}"
       - "--certificatesresolvers.cloudflarecerts.acme.storage=/acme.json"
-      ## watch out for Let'sEncrypt rate limiting
-      ## that's why we use the staging server
-      ## comment out the 'caserver' line below to pull trusted certs
+## watch out for Let's Encrypt rate limiting
+## that's why we default to the staging server, after all
+## comment out the 'caserver' line below to pull trusted certs if you want them
       - "--certificatesresolvers.cloudflarecerts.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory"
       - "--certificatesresolvers.cloudflarecerts.acme.dnschallenge=true"
       - "--certificatesresolvers.cloudflarecerts.acme.dnschallenge.provider=cloudflare"
       - "--certificatesresolvers.cloudflarecerts.acme.dnschallenge.resolvers=1.1.1.1:53, 1.0.0.1:53"
       - "--entrypoints.plainhttp.address=:80"
       - "--entrypoints.encryptedhttp.address=:443"
-      - "--log.level=ERROR"
+      - "--log.level=DEBUG"
       - "--log.format=json"
       - "--accesslog=true"
       - "--providers.docker.endpoint=unix:///var/run/docker.sock"
