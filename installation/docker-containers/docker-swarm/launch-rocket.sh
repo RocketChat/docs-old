@@ -1,6 +1,10 @@
 #!/bin/sh
 echo "Let's configure your RocketChat stack"
 echo
+echo "You will need an api token with Zone Edit privileges for a domain with dns served by Cloudflare."
+echo "This can be done with a free account."
+echo "You will need to have registered hosts at rocketchat. and traefik. for that domain.
+echo
 echo "Please read Let's Encrypt's document on Rate Limiting before you proceed"
 echo "https://letsencrypt.org/docs/rate-limits/"
 echo
@@ -15,7 +19,6 @@ echo "Please enter the password for the traefik dashboard user: "
 htpasswdoutput=$(htpasswd -n $traefikuser)
 STRLENGTH=$(echo $traefikuser | wc -m)
 hashedpassword=${htpasswdoutput:$STRLENGTH}
-echo $hashedpassword
 echo "making stack folders"
 mkdir logs
 mkdir logs/rocketchat
