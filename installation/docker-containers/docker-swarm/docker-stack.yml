@@ -86,7 +86,7 @@ services:
       - "--certificatesresolvers.cloudflarecerts.acme.dnschallenge.resolvers=1.1.1.1:53, 1.0.0.1:53"
       - "--entrypoints.plainhttp.address=:80"
       - "--entrypoints.encryptedhttp.address=:443"
-      - "--log.level=DEBUG"
+      - "--log.level=ERROR"
       - "--log.format=json"
       - "--accesslog=true"
       - "--providers.docker.endpoint=unix:///var/run/docker.sock"
@@ -115,13 +115,6 @@ services:
         - "traefik.http.routers.traefik.entrypoints=plainhttp"
         - 'traefik.http.routers.traefik.rule=Host("traefik.${DOMAIN_WITH_DNS_HANDLED_BY_CLOUDFLARE}") && (PathPrefix("/api") || PathPrefix("/dashboard"))'
         - "traefik.http.middlewares.traefik-auth.basicauth.users=${TRAEFIK_USER}:${HASHED_TRAEFIK_PASSWORD}"
-        ##
-        ## the traefik dashboard password must be hashed with htpasswd, like so:
-        ##
-        ## $ htpasswd -bn ${TRAEFIK_USER} yourpassword
-        ##
-        ## ${HASHED_TRAEFIK_PASSWORD} should be set to what that returns
-        ##
         - "traefik.http.routers.traefik-https.middlewares=traefik-auth"
         - "traefik.http.middlewares.traefik-force-secure.redirectscheme.scheme=https"
         - "traefik.http.routers.traefik.middlewares=traefik-force-secure"
@@ -156,8 +149,6 @@ services:
 
 networks:
   rocketchat:
-    driver: overlay
-  swarmpit:
     driver: overlay
   traefik:
     driver: overlay
