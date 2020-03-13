@@ -477,6 +477,7 @@ Here you can also find what articles are incomplete and missing.
             - list
             - regeneratePersonalAccessToken
             - register
+            - removeOtherTokens
             - removePersonalAccessToken
             - requestDataDownload
             - resetAvatar

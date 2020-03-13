@@ -73,6 +73,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/users.list`                          | All of the users and their information, limited to permissions. | [Link](users/list/)                          |
 | `/api/v1/users.regeneratePersonalAccessToken` | Regenerate a user personal access token.                        | [Link](users/regeneratepersonalaccesstoken/) |
 | `/api/v1/users.register`                      | Register a new user.                                            | [Link](users/register/)                      |
+| `/api/v1/users.removeOtherTokens`             | Remove all other user tokens                                    | [Link](users/removeOtherTokens/)             |
 | `/api/v1/users.removePersonalAccessToken`     | Remove a personal access token.                                 | [Link](users/removepersonalaccesstoken/)     |
 | `/api/v1/users.requestDataDownload`           | Request users download data.                                    | [Link](users/requestDataDownload/)           |
 | `/api/v1/users.resetAvatar`                   | Reset a user's avatar                                           | [Link](users/resetavatar/)                   |

@@ -493,6 +493,7 @@
         - list
         - regeneratePersonalAccessToken
         - register
+        - removeOtherTokens
         - removePersonalAccessToken
         - requestDataDownload
         - resetAvatar
