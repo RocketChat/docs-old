@@ -52,6 +52,7 @@
     - High Availability Install
     - Available Images
     - Docker Compose
+    - Docker Swarm
   - RocketChatCTL
   - Manual Installation:
     - CentOS
