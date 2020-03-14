@@ -190,10 +190,10 @@ Edit ```/etc/apache2/sites-enabled/rocketchat.conf``` and be sure to use your ac
     SSLEngine On
     SSLCertificateFile /etc/ssl/certs/chat.domain.com.crt
     SSLCertificateKeyFile /etc/ssl/private/chat.domain.com.key
-    
+
     Header add Set-Cookie "ROUTEID=.%{BALANCER_WORKER_ROUTE}e; path=/" env=BALANCER_ROUTE_CHANGED
     ProxyPreserveHost On
-    
+
     <Proxy balancer://http>
         BalancerMember http://localhost:3000 route=1
         BalancerMember http://localhost:3001 route=2
@@ -207,7 +207,6 @@ Edit ```/etc/apache2/sites-enabled/rocketchat.conf``` and be sure to use your ac
         ...
         ProxySet stickysession=ROUTEID
     </Proxy>
-
 
     <Location />
         Require all granted
