@@ -164,6 +164,66 @@ server {
 
 Now restart Nginx: `service nginx restart`
 
+## Update your Apache proxy config
+
+Run this as root (to enable the necessary modules to use proxy balancer):
+
+```shell
+a2enmod proxy_html
+a2enmod proxy_balancer
+a2enmod headers
+a2enmod session
+a2enmod session_cookie
+```
+
+Edit ```/etc/apache2/sites-enabled/rocketchat.conf``` and be sure to use your actual hostname in lieu of the sample hostname "your_hostname.com" below.
+
+```
+<VirtualHost *:443>
+    ServerAdmin it@domain.com
+    ServerName chat.domain.com
+
+    LogLevel info
+    ErrorLog /var/log/chat.domain.com_error.log
+    TransferLog /var/log/chat.domain.com_access.log
+
+    SSLEngine On
+    SSLCertificateFile /etc/ssl/certs/chat.domain.com.crt
+    SSLCertificateKeyFile /etc/ssl/private/chat.domain.com.key
+
+    Header add Set-Cookie "ROUTEID=.%{BALANCER_WORKER_ROUTE}e; path=/" env=BALANCER_ROUTE_CHANGED
+    ProxyPreserveHost On
+
+    <Proxy balancer://http>
+        BalancerMember http://localhost:3000 route=1
+        BalancerMember http://localhost:3001 route=2
+        ...
+        ProxySet stickysession=ROUTEID
+    </Proxy>
+
+    <Proxy balancer://ws>
+        BalancerMember ws://localhost:3000 route=1
+        BalancerMember ws://localhost:3001 route=2
+        ...
+        ProxySet stickysession=ROUTEID
+    </Proxy>
+
+    <Location />
+        Require all granted
+    </Location>
+
+    RewriteEngine On
+    RewriteCond %{HTTP:Upgrade} =websocket [NC]
+    RewriteRule /(.*)           balancer://ws/$1 [P,L]
+    RewriteCond %{HTTP:Upgrade} !=websocket [NC]
+    RewriteRule /(.*)           balancer://http/$1 [P,L]
+
+    ProxyPassReverse /          http://localhost/
+</VirtualHost>
+```
+
+Now restart Apache: `systemctl restart apache2.service`
+
 Visit `https://your_hostname.com` just as before the update. **Ooh, so fast!**
 
 To confirm you're actually using both services like you'd expect, you can stop one rocketchat
