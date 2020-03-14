@@ -175,6 +175,7 @@ a2enmod headers
 a2enmod session
 a2enmod session_cookie
 ```
+
 Edit ```/etc/apache2/sites-enabled/rocketchat.conf``` and be sure to use your actual hostname in lieu of the sample hostname "your_hostname.com" below.
 
 ```
