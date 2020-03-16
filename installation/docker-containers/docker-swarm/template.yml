@@ -48,7 +48,7 @@ services:
       - ./traefik/ssl:/certs:ro
     environment:
       - PORT=3000
-      - ROOT_URL=http://rocketchat.${DOMAIN_WITH_DNS_HANDLED_BY_CLOUDFLARE}:3000
+      - ROOT_URL=https://rocketchat.${DOMAIN_WITH_DNS_HANDLED_BY_CLOUDFLARE}
       - MONGO_URL=mongodb://${DOCKER_STACK_NAME}_rocketchat-mongo:27017/rocketchat
       - MONGO_OPLOG_URL=mongodb://${DOCKER_STACK_NAME}_rocketchat-mongo:27017/local
 
