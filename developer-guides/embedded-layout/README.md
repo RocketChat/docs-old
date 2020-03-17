@@ -12,4 +12,4 @@ Embedded layout works wonders when using with [Iframe integration](../iframe-int
 
 You can test this feature by going to <https://open.rocket.chat> entering a channel and adding `?layout=embedded` to the URL.
 
-_Note: If you want to stop users from accessing other channels, embedded layout alone will not work, since the user could change the URL of the embedded view via browser tools. For that you should edit the user permissions so he cant see other channels_
+_Note: If you want to stop users from accessing other channels, embedded layout alone will not work, since the user could change the URL of the embedded view via browser tools. For that you should edit the user permissions so they can't see other channels_
