@@ -15,7 +15,7 @@ Rocket.Chat is proud to be an official mentor organization for Google Summer of 
 
 Students interested in joining us this summer shoud check out our [list of project ideas](#project-ideas) and start discussion with mentors about their project immediately.  See the section [About GSoC 2020](#about-gsoc-2020) for more information.
 
-Official application for the GSoC 2020 season opens on March 16, 2020.   Please see [GSoC timeline](#timeline) for more details.
+Application is **now open**.  Students should register and submit their proposals via their [GSoC Dashboard](https://summerofcode.withgoogle.com/dashboard/).   All proposals must be finalized by March 31st.   Please see [GSoC timeline](#timeline) for more details.
 
 ### About GSoC 2020
 
@@ -207,7 +207,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Rocket.Chat Mobile site
 
-- **Mentors**: @kb0304, @jaytat0
+- **Mentors**: @kb0304
 - **Description**: A client build for mobile-web, lite in size and functionality to bring down the site load time, with a better UI/UX customized for mobile screens.
 - **Desirable Skills**: Familiarity with Rocket.Chat and Responsive Design
 
