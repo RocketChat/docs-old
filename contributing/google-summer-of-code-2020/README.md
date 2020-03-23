@@ -15,7 +15,7 @@ Rocket.Chat is proud to be an official mentor organization for Google Summer of 
 
 Students interested in joining us this summer shoud check out our [list of project ideas](#project-ideas) and start discussion with mentors about their project immediately.  See the section [About GSoC 2020](#about-gsoc-2020) for more information.
 
-Official application for the GSoC 2020 season opens on March 16, 2020.   Please see [GSoC timeline](#timeline) for more details.
+Application is **now open**.  Students should register and submit their proposals via their [GSoC Dashboard](https://summerofcode.withgoogle.com/dashboard/).   All proposals must be finalized by March 31st.   Please see [GSoC timeline](#timeline) for more details.
 
 ### About GSoC 2020
 
@@ -46,6 +46,12 @@ The leaderboard project **itself** is open source, created and maintained by our
 <https://github.com/lolimay/GSoC-Contribution-Leaderboard-Node>
 
 ## Project Ideas
+
+### Advanced Rocket.Chat administrators and operations toolkit
+
+- **Mentors**: [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio), [@sing.li](https://open.rocket.chat/direct/sing.li)
+- **Description**: Administration and management of a Rocket.Chat server is a very complex task, especially for servers that are utilized by thousdands of users on a daily basis.  There exists many administrative and operational activities that require access to the system in ways that are not currently supported by our Administrative dashboard.  This project creates small, standalone tools, to address this need. These tools will be immediately useful for anyone operating one-or-more large Rocket.Chat server(s) worldwide.
+- **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReactJS or Vue.js ideal.  Must have database skills, ideally MongoDB.
 
 ### Improve Documentation Framework (Versioning)
 
@@ -207,7 +213,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Rocket.Chat Mobile site
 
-- **Mentors**: @kb0304, @jaytat0
+- **Mentors**: @kb0304
 - **Description**: A client build for mobile-web, lite in size and functionality to bring down the site load time, with a better UI/UX customized for mobile screens.
 - **Desirable Skills**: Familiarity with Rocket.Chat and Responsive Design
 
