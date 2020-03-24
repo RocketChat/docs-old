@@ -19,6 +19,7 @@
 | `/api/v1/users.list` | All of the users and their information, limited to permissions. | [Link](list/) |
 | `/api/v1/users.regeneratePersonalAccessToken` | Regenerate a user personal access token. | [Link](regeneratepersonalaccesstoken/) |
 | `/api/v1/users.register` | Register a new user. | [Link](register/) |
+| `/api/v1/users.removeOtherTokens` | Remove all other user tokens  | [Link](removeOtherTokens/)   |
 | `/api/v1/users.removePersonalAccessToken`  | Remove a personal access token.  | [Link](removepersonalaccesstoken/) |
 | `/api/v1/users.requestDataDownload`  | Request users download data.  | [Link](requestDataDownload/) |
 | `/api/v1/users.resetAvatar` | Reset a user's avatar | [Link](resetavatar/) |
