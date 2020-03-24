@@ -105,6 +105,7 @@ The leaderboard project **itself** is open source, created and maintained by our
     * ~Improve the changelog generation getting more information from the PRs like description, images, etc;~ (already done)
     * Accept a new format of PR titles (conventional changelog);
     * Add a validation system for PRs titles via GitHub Actions;
+    * Add a tooling to preview the generated changelog for the PR
     * Add new top level of separation for product type (like Enterprise and Community) based on labels
 
 ### Alexa Skill(s) Improvement
