@@ -5,6 +5,7 @@
 | `/api/v1/users.presence` | Gets all connected users presence. | [Link](presence/) |
 | `/api/v1/users.create` | Create a new user. | [Link](create/) |
 | `/api/v1/users.createToken` | Create a user authentication token. | [Link](createtoken/) |
+| `/api/v1/users.deactivateIdle` | Deactivate idle users. | [Link](deactivateIdle/) |
 | `/api/v1/users.delete` | Deletes an existing user. | [Link](delete/) |
 | `/api/v1/users.deleteOwnAccount` | Deletes your own user. | [Link](deleteownaccount/) |
 | `/api/v1/users.forgotPassword`  | Send email to reset your password. | [Link](forgotpassword/) |
