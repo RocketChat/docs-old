@@ -15,7 +15,7 @@ Rocket.Chat is proud to be an official mentor organization for Google Summer of 
 
 Students interested in joining us this summer shoud check out our [list of project ideas](#project-ideas) and start discussion with mentors about their project immediately.  See the section [About GSoC 2020](#about-gsoc-2020) for more information.
 
-Official application for the GSoC 2020 season opens on March 16, 2020.   Please see [GSoC timeline](#timeline) for more details.
+Application is **now open**.  Students should register and submit their proposals via their [GSoC Dashboard](https://summerofcode.withgoogle.com/dashboard/).   All proposals must be finalized by March 31st.   Please see [GSoC timeline](#timeline) for more details.
 
 ### About GSoC 2020
 
@@ -47,6 +47,12 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ## Project Ideas
 
+### Advanced Rocket.Chat administrators and operations toolkit
+
+- **Mentors**: [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio), [@sing.li](https://open.rocket.chat/direct/sing.li)
+- **Description**: Administration and management of a Rocket.Chat server is a very complex task, especially for servers that are utilized by thousdands of users on a daily basis.  There exists many administrative and operational activities that require access to the system in ways that are not currently supported by our Administrative dashboard.  This project creates small, standalone tools, to address this need. These tools will be immediately useful for anyone operating one-or-more large Rocket.Chat server(s) worldwide.
+- **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReactJS or Vue.js ideal.  Must have database skills, ideally MongoDB.
+
 ### Improve Documentation Framework (Versioning)
 
 - **Mentors**: [@martin.scholeler](https://open.rocket.chat/direct/martin.schoeler), [@guilherme.cruz](https://open.rocket.chat/direct/guilherme.cruz)
@@ -66,11 +72,11 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Description**: The goal of this project would be to create new integrations to interact with popular BOT frameworks - RASA and Dialogflow. Also, support and adapt rich messages to the formats of these platforms, as well as the formats supported by Rocket.Chat.
 - **Desirable Skills**: Experience in working with Chatbots communication. Familiarity with Typescript and, ideally, experience with Javascript.
 
-### Omnichannel: Support for Live Agent and Chatbot Handoff
+### Omnichannel: Live Agent and Chatbot Handoff App
 
-- **Mentors**: @steve.stetak, @dlassalle
-- **Description**: Enhance Omnichannel Rocket.Chat to support the use of Chatbots, powered by NLP such as Dialogflow, in front of a larger existing infrastructure of Care Live Agents.  Enabling customers to use the Rocket.Chat client embedded in a website that directs them to a Chatbot.  If the Chatbot is unable to solve their issue, Rocket.Chat will seamlessly route them to a Live Agent through Rocket.Chat’s queues or another third-party system such as Salesforce.  At the end of the conversation the customer will be reconnected to the chatbot for additional support or survey purposes.
-- **Desirable Skills**: Familiarity with Rocket.Chat development, NLP or Chatbot experience
+- **Mentors**: @steve.stetak, @dlassalle, @renatobecker
+- **Description**: Enhance Omnichannel Rocket.Chat to support the use of Chatbots, powered by NLP such as Dialogflow, in front of a larger existing infrastructure of Care Live Agents.  Enabling customers to use the Rocket.Chat client embedded in a website that directs them to a Chatbot.  If the Chatbot is unable to solve their issue, Rocket.Chat will seamlessly route them to a Live Agent through a third-party queue system such as Salesforce using an Rocket.Chat App. At the end of the conversation the customer will be reconnected to the chatbot for additional support or survey purposes, all within the same chat client window.
+- **Desirable Skills**: Familiarity with Rocket.Chat development, Salesforce, and NLP or Chatbot experience
 
 ### Omnichannel: Add screen sharing feature in the Livechat widget
 
@@ -96,9 +102,11 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Houston>
 - **Description**: Huston is the CLI tooling we use to release new versions of Rocket.Chat and to generate our change logs from merged pull requests. We want to:
     * Rewrite the tooling in TypeScript;
-    * Improve the changelog generation getting more information from the PRs like description, images, etc;
-    * Accept a new format of PR titles;
+    * ~Improve the changelog generation getting more information from the PRs like description, images, etc;~ (already done)
+    * Accept a new format of PR titles (conventional changelog);
     * Add a validation system for PRs titles via GitHub Actions;
+    * Add a tooling to preview the generated changelog for the PR
+    * Add new top level of separation for product type (like Enterprise and Community) based on labels
 
 ### Alexa Skill(s) Improvement
 
@@ -201,13 +209,13 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ### Salesforce Rocket.Chat App
 
-- **Mentors**: @steve.stetak, @dlassalle
+- **Mentors**: @steve.stetak, @dlassalle, @renatobecker
 - **Description**: Create a Rocket.Chat app that will allow customers and Chatbots to interact through Rocket.Chat with CRM tools, primarily Salesforce.  This will allow organizations to provide access to the information and tools they already are using in Salesforce through a chat interface.
 - **Desirable Skills**: Familiarity with Rocket.Chat development, knowledge of Salesforce or other CRM tools.
 
 ### Rocket.Chat Mobile site
 
-- **Mentors**: @kb0304, @jaytat0
+- **Mentors**: @kb0304
 - **Description**: A client build for mobile-web, lite in size and functionality to bring down the site load time, with a better UI/UX customized for mobile screens.
 - **Desirable Skills**: Familiarity with Rocket.Chat and Responsive Design
 

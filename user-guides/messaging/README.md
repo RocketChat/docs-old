@@ -42,7 +42,7 @@ _Remember that the server administrator can block certain file types from being 
 
 When using Rocket.Chat through a web browser give Rocket.Chat permission to use your microphone.
 
-To start recording, click on the **Create new Audio Message** or the option in the attachment menu or the microphone inside the message box. To stop recording, click the green checkmark. The audio message automatically sends. You can choose to pay or download the message.
+To start recording, click on the **Create new Audio Message** or the option in the attachment menu or the microphone inside the message box. To stop recording, click the green checkmark. The audio message automatically sends. You can choose to play or download the message.
 
 ### Video
 

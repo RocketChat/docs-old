@@ -480,6 +480,7 @@
         - presence
         - create
         - createToken
+        - deactivateIdle
         - delete
         - deleteOwnAccount
         - forgotPassword
@@ -494,6 +495,7 @@
         - list
         - regeneratePersonalAccessToken
         - register
+        - removeOtherTokens
         - removePersonalAccessToken
         - requestDataDownload
         - resetAvatar

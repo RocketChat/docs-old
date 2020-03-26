@@ -464,6 +464,7 @@ Here you can also find what articles are incomplete and missing.
             - presence
             - create
             - createToken
+            - deactivateIdle
             - delete
             - deleteOwnAccount
             - forgotPassword
@@ -478,6 +479,7 @@ Here you can also find what articles are incomplete and missing.
             - list
             - regeneratePersonalAccessToken
             - register
+            - removeOtherTokens
             - removePersonalAccessToken
             - requestDataDownload
             - resetAvatar

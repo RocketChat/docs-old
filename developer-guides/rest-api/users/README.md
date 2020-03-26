@@ -5,6 +5,7 @@
 | `/api/v1/users.presence` | Gets all connected users presence. | [Link](presence/) |
 | `/api/v1/users.create` | Create a new user. | [Link](create/) |
 | `/api/v1/users.createToken` | Create a user authentication token. | [Link](createtoken/) |
+| `/api/v1/users.deactivateIdle` | Deactivate idle users. | [Link](deactivateIdle/) |
 | `/api/v1/users.delete` | Deletes an existing user. | [Link](delete/) |
 | `/api/v1/users.deleteOwnAccount` | Deletes your own user. | [Link](deleteownaccount/) |
 | `/api/v1/users.forgotPassword`  | Send email to reset your password. | [Link](forgotpassword/) |
@@ -19,6 +20,7 @@
 | `/api/v1/users.list` | All of the users and their information, limited to permissions. | [Link](list/) |
 | `/api/v1/users.regeneratePersonalAccessToken` | Regenerate a user personal access token. | [Link](regeneratepersonalaccesstoken/) |
 | `/api/v1/users.register` | Register a new user. | [Link](register/) |
+| `/api/v1/users.removeOtherTokens` | Remove all other user tokens  | [Link](removeOtherTokens/)   |
 | `/api/v1/users.removePersonalAccessToken`  | Remove a personal access token.  | [Link](removepersonalaccesstoken/) |
 | `/api/v1/users.requestDataDownload`  | Request users download data.  | [Link](requestDataDownload/) |
 | `/api/v1/users.resetAvatar` | Reset a user's avatar | [Link](resetavatar/) |
