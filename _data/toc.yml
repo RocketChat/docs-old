@@ -489,6 +489,7 @@
         - getPersonalAccessTokens
         - getPresence
         - get-preferences
+        - getStatus
         - getUsernameSuggestion
         - info
         - list
@@ -501,6 +502,7 @@
         - setAvatar
         - set-preferences
         - setActiveStatus
+        - setStatus
         - update
         - updateOwnBasicInfo
       - Video Conference:
