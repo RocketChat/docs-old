@@ -19,7 +19,7 @@ Sets a user Status when the status message and state is given.
 curl -H "X-Auth-Token: 40tB-Cn5YQJ74QMlQXi4Zf4E_-e0P5CrklU2pWOtV9M" \
      -H "X-User-Id: uunbZHiuEnib8Pawj" \
      -d '{"message":"My status update", "status": "online"}' \
-     https://graphql.rocket.chat/api/v1/users.setStatus
+     http://localhost:3000/api/v1/users.setStatus
 ```
 
 ## Example Result

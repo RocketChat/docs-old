@@ -472,6 +472,7 @@ Here you can also find what articles are incomplete and missing.
             - getPersonalAccessTokens
             - getPresence
             - get-preferences
+            - getStatus
             - getUsernameSuggestion
             - info
             - list
@@ -483,6 +484,7 @@ Here you can also find what articles are incomplete and missing.
             - setAvatar
             - set-preferences
             - setActiveStatus
+            - setStatus
             - update
             - updateOwnBasicInfo
         - Video Conference:
