@@ -223,7 +223,7 @@ Mentoring interest from core team has been reduced this year, while community me
 
 ### Rocket.Chat Mobile site
 
-- **Mentors**: @kb0304
+- **Mentors**: @karan.bedi
 - **Description**: A client build for mobile-web, lite in size and functionality to bring down the site load time, with a better UI/UX customized for mobile screens.
 - **Desirable Skills**: Familiarity with Rocket.Chat and Responsive Design
 
