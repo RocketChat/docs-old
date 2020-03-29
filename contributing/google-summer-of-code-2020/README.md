@@ -51,7 +51,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 We have recnetly arranged for the TOP 8 student contributors to meet one on one with Rocket.Chat's project lead Gabriel Engel and great remote fun was had by all.
 
-Mentoring interest from core team has been reduced this year, while community mentor participation is at an all time high.  Proposals for projects are streaming steadily in since application open, the volume of incoming proposals is reduced compared to prior year - but the percentage of high quality propsals has increased.  
+Mentoring interest from core team has been reduced this year, while community mentor participation is at an all time high.  Proposals for projects are streaming steadily in since application open, the volume of incoming proposals is reduced compared to prior year - but the percentage of high quality propsals has increased.
 
 ## Project Ideas
 
