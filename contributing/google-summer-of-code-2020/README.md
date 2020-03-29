@@ -203,6 +203,12 @@ Mentoring interest from core team has been reduced this year, while community me
 - **Description**: Share Lingohub keys with the web client.
 - **Desirable Skills**: Familiarity with React Native and Rocket.Chat codebase.
 
+### Image/Video Content Moderation Rocket.Chat App using Machine Learning
+
+- **Mentors**: @johnathan.handoyo @jethro.lam @matheus.cardoso
+- **Description**: Create a Rocket.Chat App that can classify videos and images as SFW or NSFW and block them based on user or admin settings.
+- **Desirable Skills**: Familiarity with Rocket.Chat Apps and Machine Learning/Deep Learning or existing image classification services.
+
 ### Uber Rocket.Chat App
 
 - **Mentors**: [@marcos.defendi](https://open.rocket.chat/direct/marcos.defendi)
