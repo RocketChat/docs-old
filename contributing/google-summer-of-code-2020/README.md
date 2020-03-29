@@ -102,9 +102,11 @@ The leaderboard project **itself** is open source, created and maintained by our
 - **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Houston>
 - **Description**: Huston is the CLI tooling we use to release new versions of Rocket.Chat and to generate our change logs from merged pull requests. We want to:
     * Rewrite the tooling in TypeScript;
-    * Improve the changelog generation getting more information from the PRs like description, images, etc;
-    * Accept a new format of PR titles;
+    * ~Improve the changelog generation getting more information from the PRs like description, images, etc;~ (already done)
+    * Accept a new format of PR titles (conventional changelog);
     * Add a validation system for PRs titles via GitHub Actions;
+    * Add a tooling to preview the generated changelog for the PR
+    * Add new top level of separation for product type (like Enterprise and Community) based on labels
 
 ### Alexa Skill(s) Improvement
 
