@@ -92,7 +92,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :-------------------------------------------- | :----------------------------------------------------------- | :---------------------------------------------- |
 | `/api/v1/channels.addAll`                     | Adds all of the users on the server to a channel.            | [Link](channels/addall/)                        |
 | `/api/v1/channels.addLeader`                  | Gives the role of Leader for a user in the current channel.  | [Link](channels/addleader/)                     |
-| `/api/v1/channels.addOwner `                  | Gives the role of owner for a user in the current channel.   | [Link](channels/addowner/)                      |
+| `/api/v1/channels.addOwner`                  | Gives the role of owner for a user in the current channel.   | [Link](channels/addowner/)                      |
 | `/api/v1/channels.anonymousread`              | Gets the messages in public channels to an anonymous user    | [Link](channels/anonymousread/)                 |
 | `/api/v1/channels.archive`                    | Archives a channel.                                          | [Link](channels/archive/)                       |
 | `/api/v1/channels.cleanHistory`               | Cleans up a channel's history, requires special permission.  | [Link](channels/cleanhistory/)                  |
