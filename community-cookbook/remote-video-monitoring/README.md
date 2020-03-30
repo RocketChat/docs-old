@@ -1,6 +1,6 @@
 ---
-redirect_from: /user-guides/remote-video-monitoring/
-permalink: /community-cookbook/remote-video-monitoring/
+permalink: "/community-cookbook/remote-video-monitoring/"
+redirect_from: "/user-guides/remote-video-monitoring/"
 ---
 
 # Remote Video Monitoring
