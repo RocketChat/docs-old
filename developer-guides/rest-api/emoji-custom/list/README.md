@@ -1,7 +1,7 @@
 ---
-    permalink: /developer-guides/rest-api/emoji-custom/list/
-    redirect_from:
-      - /developer-guides/rest-api/emoji-custom/get/
+permalink: "/developer-guides/rest-api/emoji-custom/list/"
+redirect_from:
+- "/developer-guides/rest-api/emoji-custom/get/"
 ---
 
 # Emoji custom list
