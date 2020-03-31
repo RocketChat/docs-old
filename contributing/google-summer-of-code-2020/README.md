@@ -10,13 +10,29 @@ redirect_from:
 
 ## How to apply
 
-### IMPORTANT: Proposal submission deadline is March 31st, 2020.  Register and submit your proposal now at [GSoC Dashboard](https://summerofcode.withgoogle.com/dashboard/).
+Application for Google Summer of Code 2020 is now closed.  Please see [GSoC timeline](#timeline) for more details.
 
-Rocket.Chat is proud to be an official mentor organization for Google Summer of Code 2020!
+### Update March 31st, 2020
 
-Students interested in joining us this summer shoud check out our [list of project ideas](#project-ideas) and start discussion with mentors about their project immediately.  See the section [About GSoC 2020](#about-gsoc-2020) for more information.
+First, we would like to thank all GSoC 2020 students for their ethusiastic support for Rocket.Chat.  This year we have received a total of **86** proposals, including **81** final proposals. In the final pool, there are 13 proposals that are spam, without content, or not related to our projects.
 
-Application is **now open**.  Students should register and submit their proposals via their [GSoC Dashboard](https://summerofcode.withgoogle.com/dashboard/).   All proposals must be finalized by March 31st.   Please see [GSoC timeline](#timeline) for more details.
+Over the next month, our mentors will be reviewing the received proposals.  Google Summer of Code will be announcing the selected projects and students on May 4th, 2020.  Please see [GSoC timeline](#timeline) for more details.
+
+Meanwhile, we continue to introduce all active and incoming students to open source in general, and Rocket.Chat's ecosystem of open source projects in particular.   Students will continue to make meaningful open source contributions in the form issues & PR for our projects and interact with Rocket.Chat's vibrant community + team.
+
+### Update March 29th, 2020
+
+Enthusiasm and interest from students are all time high this year; over 112 candidate students have already started to interact with our community and contributing to the repositories!  Together, they have already contributed over 100 issues and over 50 merged PRs to our various projects.  We are maintaining a real-time updated leaderboard for at-a-glance student (candidates) contribution here:
+
+<https://gsoc.rocket.chat/>
+
+The leaderboard project **itself** is open source, created and maintained by our former GSoC student (now mentor and team member).  All potential GSoC organizations are welcome to use and deploy it (the project has a super friendly MIT license - just like Rocket.Chat).
+
+<https://github.com/lolimay/GSoC-Contribution-Leaderboard-Node>
+
+We have recnetly arranged for the TOP 8 student contributors to meet one on one with Rocket.Chat's project lead Gabriel Engel and great remote fun was had by all.
+
+Mentoring interest from core team has been reduced this year, while community mentor participation is at an all time high.  Proposals for projects are streaming steadily in since application open, the volume of incoming proposals is reduced compared to prior year - but the percentage of high quality propsals has increased.
 
 ### About GSoC 2020
 
@@ -37,20 +53,6 @@ If you have ideas and proposals that are not on our ideas list, or if a mentor i
 Interested students are also encouraged to interact with our contributor community on GitHub:
 
 <https://github.com/RocketChat/Rocket.Chat>
-
-### Update March 29th, 2020
-
-Enthusiasm and interest from students are all time high this year; over 112 candidate students have already started to interact with our community and contributing to the repositories!  Together, they have already contributed over 100 issues and over 50 merged PRs to our various projects.  We are maintaining a real-time updated leaderboard for at-a-glance student (candidates) contribution here:
-
-<https://gsoc.rocket.chat/>
-
-The leaderboard project **itself** is open source, created and maintained by our former GSoC student (now mentor and team member).  All potential GSoC organizations are welcome to use and deploy it (the project has a super friendly MIT license - just like Rocket.Chat).
-
-<https://github.com/lolimay/GSoC-Contribution-Leaderboard-Node>
-
-We have recnetly arranged for the TOP 8 student contributors to meet one on one with Rocket.Chat's project lead Gabriel Engel and great remote fun was had by all.
-
-Mentoring interest from core team has been reduced this year, while community mentor participation is at an all time high.  Proposals for projects are streaming steadily in since application open, the volume of incoming proposals is reduced compared to prior year - but the percentage of high quality propsals has increased.
 
 ## Project Ideas
 
