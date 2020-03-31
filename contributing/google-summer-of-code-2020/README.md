@@ -18,7 +18,7 @@ First, we would like to thank all GSoC 2020 students for their ethusiastic suppo
 
 Over the next month, our mentors will be reviewing the received proposals.  Google Summer of Code will be announcing the selected projects and students on May 4th, 2020.  Please see [GSoC timeline](#timeline) for more details.
 
-Meanwhile, we continue to introduce all active and incoming students to open source in general, and Rocket.Chat's ecosystem of open source projects in particular.   Students will continue to make meaningful open source contributions in the form issues & PR for our projects and interact with Rocket.Chat's vibrant community + team.
+Meanwhile, we continue to introduce all active and incoming students to open source in general, and Rocket.Chat's ecosystem of open source projects in particular.   Students will continue to make meaningful open source contributions in the form of issues & PR for our projects and interact with Rocket.Chat's vibrant community + team.
 
 ### Update March 29th, 2020
 
