@@ -14,7 +14,7 @@ Application for Google Summer of Code 2020 is now closed.  Please see [GSoC time
 
 ### Update March 31st, 2020
 
-First, we would like to thank all GSoC 2020 students for their ethusiastic support for Rocket.Chat.  This year we have received a total of XX proposals.  With XX final proposals. In the final pool, there are XX proposals that are spam or not related to our projects. 
+First, we would like to thank all GSoC 2020 students for their ethusiastic support for Rocket.Chat.  This year we have received a total of **86** proposals, including **81** final proposals. In the final pool, there are 13 proposals that are spam, without content, or not related to our projects.
 
 Over the next month, our mentors will be reviewing the received proposals.  Google Summer of Code will be announcing the selected projects and students on May 4th, 2020.  Please see [GSoC timeline](#timeline) for more details.
 
@@ -33,7 +33,6 @@ The leaderboard project **itself** is open source, created and maintained by our
 We have recnetly arranged for the TOP 8 student contributors to meet one on one with Rocket.Chat's project lead Gabriel Engel and great remote fun was had by all.
 
 Mentoring interest from core team has been reduced this year, while community mentor participation is at an all time high.  Proposals for projects are streaming steadily in since application open, the volume of incoming proposals is reduced compared to prior year - but the percentage of high quality propsals has increased.
-
 
 ### About GSoC 2020
 
