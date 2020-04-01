@@ -10,7 +10,8 @@ Create a direct message session with another user.
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `username` | `rocket.cat` | Required | The username to open a direct message session |
+| `username` | `rocket.cat` | | The username to open a direct message session, required if `usernames` is not provided|
+| `usernames` | `rocket.cat, anotheruser` | | List of usernames to open a multiple direct message session, required if `username` is not provided |
 
 ## Example Call
 
@@ -27,21 +28,12 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```json
 {
     "room": {
-        "_id": "Lymsiu4Mn6xjTAan4RtMDEYc28fQ5aHpf4",
-        "_updatedAt": "2018-03-26T19:11:50.711Z",
-        "t": "d",
-        "msgs": 0,
-        "ts": "2018-03-26T19:11:50.711Z",
-        "meta": {
-            "revision": 0,
-            "created": 1522094603745,
-            "version": 0
-        },
-        "$loki": 65,
-        "usernames": [
-            "rocket.cat",
-            "user.test"
-        ]
+          "t": "d",
+          "rid": "PMrDaS4axRqkjY7errocket.cat",
+          "usernames": [
+               "g1",
+               "rocket.cat"
+          ]
     },
     "success": true
 }
@@ -52,3 +44,4 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | Version | Description |
 | :--- | :--- |
 | 0.59.0| Added |
+| 3.0.1| Added usernames fields |
