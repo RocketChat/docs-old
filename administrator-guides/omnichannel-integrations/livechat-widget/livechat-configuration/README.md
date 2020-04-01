@@ -2,7 +2,7 @@
 
 The **Livechat Manager** provides the following configuration options:
 
-## User Management REVISIT
+## User Management
 
 You can add new Livechat manager users and agents.
 
@@ -52,15 +52,21 @@ The **Scope** field defines whether the custom field value applies to only one c
 
 Depending on the scope, the custom field appears on different places in the room info. The picture below shows the custom field location if the scope is set to `Room`.
 
-![](ADD PICTURE]
+![image](administrator-guides\omnichannel-integrations\livechat-widget\livechat-configuration\scope-field.png)
 
 ## Installation
 
 Go to **Livechat Manager > Installation**
 
-![image](https://cloud.githubusercontent.com/assets/51996/20235285/80d6e250-a853-11e6-83b9-b73f0be0bd97.png)
+![image](administrator-guides\omnichannel-integrations\livechat-widget\livechat-configuration\livechat-installation.png)
 
 Then copy the code displayed into the source code of your website. You may modify it to meet your specific requirements.
+
+![image](administrator-guides\omnichannel-integrations\livechat-widget\livechat-configuration\installation-script.png)
+
+Add the script to a respective page. You can have multiple scripts on the same website, for example, if you want to set custom fields to a widget only on a specific page of the website.
+
+**Note:** It is impossible to open multiple Livechat sessions from the same website. If you want your visitor to be able to submit another Livechat request from a different page, they need to send the current session first, and then start a new one on a respective page.
 
 ## Appearance
 
