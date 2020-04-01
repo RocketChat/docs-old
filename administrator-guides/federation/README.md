@@ -81,7 +81,7 @@ Let's suppose we have a domain named `mydomain.com`, and my Rocket.Chat server i
 
 You must add two DNS records:
 
-#### SRV Record (pre 2.0.0-rc.0)
+#### SRV Record (before 2.0.0-rc.0)
 
 - Service: `_rocketchat`
 - Protocol: `_tcp`
@@ -92,7 +92,7 @@ You must add two DNS records:
 - Target: `chat.mydomain.com`
 - Port: `80`
 
-#### SRV Record (2.0.0-rc.0 or earlier)
+#### SRV Record (2.0.0-rc.0 or newer)
 
 - Service: `_rocketchat`
 - Protocol: `_http` or `_https`
