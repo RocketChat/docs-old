@@ -44,4 +44,4 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | Version | Description |
 | :--- | :--- |
 | 0.59.0| Added |
-| 3.0.1| Added usernames fields |
+| 3.1.0| Added usernames fields |
