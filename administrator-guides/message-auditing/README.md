@@ -11,7 +11,7 @@ The Message Auditing Panel includes the following features, allowing you or spec
 * Review messages between users in the Message Auditing Panel.
 * Check details in the Auditing Log about the individuals who used the Message Auditing Panel.
 
-You access the Message Auditing Panel and the Message Auditing Log from the Administration UI ![](administrator-ui.png).
+You access the Message Auditing Panel and the Message Auditing Log from the Administration UI (kebab menu).
 
 This feature is only available with the Enterprise and Gold versions of Rocket.Chat.
 
@@ -21,7 +21,7 @@ This feature is only available with the Enterprise and Gold versions of Rocket.C
 
 The Auditor or Auditor Log roles have permissions to use Message Auditing features.
 
-You assign permissions to use the Message Auditing Panel or Auditing Log to such roles as the Admin role.
+You assign permissions to use the Message Auditing Panel or Auditing Log to such roles as the admin role.
 
 On the **Permissions** screen in the Administration UI, do the following to assign access:
 
@@ -78,7 +78,7 @@ To check the details about who used the Message Auditing Panel and their search 
 
 Rocket.Chat recommends the following setting preferences to enable you to view any modified or removed messages.
 
-* Got to the Administration UI ![](administrator-ui.png).
+* Got to the Administration UI (kebab menu).
 * Click **Administration**.
 * Scroll down to **Messages** on the left-side menu.
 
@@ -88,4 +88,3 @@ Make sure to set your message preferences as follows:
 
 * Enable **Allow Message Editing** and **Keep Per Message Editing History** to see a history of all messages and not only the last edit made.
 * Disable **Allow Message Deleting**, otherwise messages show only the *message deleted* status and you cannot see the complete message history.
-
