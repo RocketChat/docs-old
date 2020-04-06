@@ -26,8 +26,10 @@ To create a user in Rocket.Chat server:
 From the Administrator menu, you can make a user as a Secondary Administrator. In the primary administrator’s unavailability, the secondary administrator will be able to add/edit users, disable/enable them. 
 1. In **Administration > Users**, select a user. 
 2. From the Ellipsis menu, select **Make an Admin**. The selected user will be made admin. 
+
 ![makeanadmin](./makeanadminRC.gif)
 3. You can also do this procedure from the **Edit** menu > **Role** drop-down. Select Admin from the drop-down to make the user an admin. 
+
 ![selectrole](./selectrole.png)
 
 
@@ -38,6 +40,7 @@ In case a user has forgotten their password, as an administrator you can reset t
 2. Click **Edit**. 
 3. At the password section, toggle the **Set random password and send by email option**. The option must turn Green once you toggle it. 
   <img width="40%" height="40%" src="resetuserpassword.png">
+  
 4. Click **Save**. The selected user will get an email with a temporary password. Users can log in with their temporary password and then can change their password on the server. 
   <img width="40%" height="40%" src="resetuserpassword2.png">
 
