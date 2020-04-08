@@ -27,6 +27,4 @@ If you click on one of those listed users, you will invite them to your server w
 
 ![Chat](./chat.png)
 
-From now on, you can invite that user to any other room, public or private. Those channels are going to be replicated to the remote server, without the messages history.
-
-As a reminder, if you invite a remote user to a public channel, this channel will be created as private on the remote server, so you can be sure only invited users will be able to see that channel content.
+From now on, you can invite that user only to private rooms or discussions. Those channels are going to be replicated to the remote server, without the messages history.
