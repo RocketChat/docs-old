@@ -20,7 +20,6 @@ Once created, the room will appear in the direct message section of the rooms li
 
 ![Room list](./room-list.png)
 
-
 ## Configurations
 
 Multi-users direct message rooms’ actions and options remain the same as in [**direct (1-on-1) messages**](../channels/#direct-messages), except for the ability to execute actions like: ignore, mute, block or remove.
@@ -40,11 +39,13 @@ Look under __Administration -> Message__:
 
 ![Admin](./admin.png)
 
-
 Our recommendation is a maximum of 8 users, but you can change the limit for your own needs.
 
-> **Important**: Since direct messages between multiple users are still a type of direct messages, for the first version of this feature, we decided to keep the same behaviors as a simple direct message as much as possible.
-	We have established a few rules to mimic this behavior:
+**Important**:
+Since direct messages between multiple users are still a type of direct messages, for the first version of this feature, we decided to keep the same behaviors as a simple direct message as much as possible.
+
+We have established a few rules to mimic this behavior:
+
 - You cannot create multiple direct message rooms with the same users combination;
 - You cannot change the room's name;
 - There is no description or topic fields;
