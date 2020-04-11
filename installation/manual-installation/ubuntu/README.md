@@ -72,7 +72,7 @@ tar -xzf /tmp/rocket.chat.tgz -C /tmp
 Install (this guide uses /opt but feel free to choose a different directory):
 
 ```bash
-cd /tmp/bundle/programs/server && npm install
+cd /tmp/bundle/programs/server && sudo npm install
 ```
 
 ```bash
