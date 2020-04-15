@@ -84,7 +84,7 @@ Interested students are also encouraged to interact with our contributor communi
 ### Omnichannel: Live Agent and Chatbot Handoff App
 
 - **Mentors**: @steve.stetak, @dlassalle, @renatobecker
-- **Description**: Enhance Omnichannel Rocket.Chat to support the use of Chatbots, powered by NLP such as Dialogflow, in front of a larger existing infrastructure of Care Live Agents.  Enabling customers to use the Rocket.Chat client embedded in a website that directs them to a Chatbot.  If the Chatbot is unable to solve their issue, Rocket.Chat will seamlessly route them to a Live Agent through a third-party queue system such as Salesforce using an Rocket.Chat App. At the end of the conversation the customer will be reconnected to the chatbot for additional support or survey purposes, all within the same chat client window.
+- **Description**: Enhance Omnichannel Rocket.Chat with an app to support the use of Chatbots, powered by NLP such as Dialogflow, in front of a larger existing infrastructure of Care Live Agents.  The focus of this app being the seamless transfer between Bot, Live Agent, and Bot again.  If the Chatbot is unable to solve their issue, the app will seamlessly route them to a Live Agent through a third-party queue system such as Salesforce. At the end of the conversation, the customer will be reconnected back to the chatbot for additional support or CSAT survey purposes, all within the same chat client window for the customer.
 - **Desirable Skills**: Familiarity with Rocket.Chat development, Salesforce, and NLP or Chatbot experience
 
 ### Omnichannel: Add screen sharing feature in the Livechat widget
@@ -221,12 +221,6 @@ Interested students are also encouraged to interact with our contributor communi
 - **Mentors**: [@marcos.defendi](https://open.rocket.chat/direct/marcos.defendi), @renatobecker
 - **Description**: The goal of this project is to provide the user a way to improve his vocabulary in a certain language (English, for now), by sending him a message with a "new" word in certain periods of time (configurable). After that, the app should validate if the user has learned the meaning of the word, sending the definition and some word options, or some sentence with the word and a gap to fill. Also the app would show the user's performance. There are some API's to get the words and the meanings. e.g ([WordsAPI](https://www.wordsapi.com/), [Datamuse](https://www.datamuse.com/api/), [Oxford](https://developer.oxforddictionaries.com/), etc) (needs to be evaluated deeply)
 - **Desirable Skills**: Familiarity with Typescript and OOP concepts.
-
-### Salesforce Rocket.Chat App
-
-- **Mentors**: @steve.stetak, @dlassalle, @renatobecker
-- **Description**: Create a Rocket.Chat app that will allow customers and Chatbots to interact through Rocket.Chat with CRM tools, primarily Salesforce.  This will allow organizations to provide access to the information and tools they already are using in Salesforce through a chat interface.
-- **Desirable Skills**: Familiarity with Rocket.Chat development, knowledge of Salesforce or other CRM tools.
 
 ### Rocket.Chat Mobile site
 
