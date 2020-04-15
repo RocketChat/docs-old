@@ -163,7 +163,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Add Analytics to Mobile Apps
 
-- **Mentors**: @djorkaeff.alexandre @diego.mello
+- **Mentors**: @noorul.ameen @djorkaeff.alexandre @diego.mello
 - **Description**: We use Firebase to track some analytics, now we want to know data like 'how many people clicked on login?'. You need to add firebase analytics to our app and add track analytics of the most important features and events.
 - **Desirable Skills**: Familiarity with React Native and Firebase Analytics.
 
@@ -182,13 +182,13 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Audio improvements on mobile apps
 
-- **Mentors**: @djorkaeff.alexandre @diego.mello
+- **Mentors**: @nathan.khoo @djorkaeff.alexandre @diego.mello
 - **Description**: A new UI component to be rendered outside the room view allowing users to listen to the room’s audios when navigating to other rooms. Additions like listening speed are welcome.
 - **Desirable Skills**: Familiarity with React Native and Rocket.Chat codebase.
 
 ### Full-screen composer option to send/edit long messages on mobile apps
 
-- **Mentors**: @djorkaeff.alexandre @diego.mello
+- **Mentors**: @rowan.work @ramkumar.kb @diego.mello
 - **Description**: A full-screen composer that could be opened from the current composer to provide a larger area for text input or edition, good to send or edit large texts.
 - **Desirable Skills**: Familiarity with React Native and Rocket.Chat codebase.
 
