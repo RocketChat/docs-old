@@ -143,7 +143,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Rocket.Chat Mobile site
 
-- **Mentors**: @karan.bedi
+- **Mentors**: @karan.bedi @eric.rosenthal
 - **Description**: A client build for mobile-web, lite in size and functionality to bring down the site load time, with a better UI/UX customized for mobile screens.
 - **Desirable Skills**: Familiarity with Rocket.Chat and Responsive Design
 
