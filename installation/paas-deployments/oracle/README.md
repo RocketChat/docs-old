@@ -79,13 +79,13 @@ Replace email, HipChat & Slack with the ultimate team chat software solution.
 
 ### Setting up HTTPS
 
-Out of the box you can access Rocket.Chat server at: <http://Instance-Public-IP:3000>, but we recommend you to finish the Traefik loadbalancer configuration to handle HTTPS. Run this command to fetch Let's Encrypt certificates for your installation:
+Out of the box you can access Rocket.Chat server at: `http://Instance-Public-IP:3000`, but we recommend you to finish the Traefik loadbalancer configuration to handle HTTPS. Run this command to fetch Let's Encrypt certificates for your installation:
 
 ```bash
 rocketchatctl configure --lets-encrypt --root-url=https://chat.yourcompany.com --letsencrypt-email=admin@yourcompany.com
 ```
 
-You can then access at: <https://chat.yourcompany.com< replacing chat.yourcompany.com with the address you set in your DNS.
+You can then access at: `https://chat.yourcompany.com` replacing `chat.yourcompany.com` with the address you set in your DNS.
 
 The Loadbalancer will redirect HTTP to HTTPS.
 
