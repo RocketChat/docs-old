@@ -54,6 +54,7 @@ Here you can also find what articles are incomplete and missing.
         - Koozali
         - Layershift
         - OpenShift
+        - Oracle
         - ReadySpace
         - Sandstorm.io
         - Scalingo
