@@ -6,27 +6,27 @@ The Rocket.Chat App installs a Linux image with everything needed for the Rocket
 
 To be able to install the image from the marketplace you will need to login to your Oracle Cloud Infrastructure account, after that go the main Menu and select Marketplace and Applications:
 
-![Login](oracledocs1.jpg) ![Marketplace](oracledocs2.jpg)
+![Login](oracledocs1.png) ![Marketplace](oracledocs2.png)
 
 Select the Rocket.Chat application, you will see lots of information about the image including usage instructions to follow once the instance is already running, choose a compartiment for the installation and launch your instance:
 
-![RocketChatApp](oracledocs3.jpg)  ![LaunchInstance](oracledocs4.jpg)
+![RocketChatApp](oracledocs3.png)  ![LaunchInstance](oracledocs4.png)
 
 This application will run in a compute instance, you can change the shape of it to fit your usage needs, find more information of our minimum resource recommendations [here](https://rocket.chat/docs/installation/minimum-requirements/#minimum-requirements-for-server-deployment).
 
-![ComputeInstance](oracledocs5.jpg)
+![ComputeInstance](oracledocs5.png)
 
 Wait for the provisioning stage to be finished and you will find information about your instance you will need later, like the public IP and the subnet where it's running, the image running in your instance allows traffic to Rocket.Chat required ports using iptables rules, but you need to edit the security group associted to the subnet where the instance is running for the traffic to actually go through:
 
-![InstanceInfo](oracledocs6.jpg)  ![Subnet](oracledocs7.jpg)  ![SecurityGroup](oracledocs8.jpg)  
+![InstanceInfo](oracledocs6.png)  ![Subnet](oracledocs7.png)  ![SecurityGroup](oracledocs8.png)  
 
 Finally add the following ports to the security group 3000, 443 and optionally 80 (you can edit this later and adapt it to your architecture designs):
 
-![Ports](oracledocs9.jpg)
+![Ports](oracledocs9.png)
 
 And that should be all you need to do in the Oracle account, now move to the new instance running, you’ll likely want a registered domain name to access Rocket.Chat and secure the access.
 
-## Configuring your Rocket.Chat server: Setting up HTTPS, Backups and Upgrades
+### Configuring your Rocket.Chat server: Setting up HTTPS, Backups and Upgrades
 
 In the image you will find rocketchatctl, a command line tool written in bash to help you configure Rocket.Chat HTTPS access among other things, you can use this command to easily keep that Rocket.Chat server installation up to date, schedule backups and periodically check for Rocket.Chat updates available and update it to the latest release.
 
@@ -67,7 +67,7 @@ Replace email, HipChat & Slack with the ultimate team chat software solution.
  Need some help? Join our community forums https://forums.rocket.chat
 ```
 
-### Setting up HTTPS
+#### Setting up HTTPS
 
 Out of the box you can access Rocket.Chat server at: http://Instance-Public-IP:3000, but we recommend you to finish the Traefik loadbalancer configuration to handle HTTPS. Run this command to fetch Let's Encrypt certificates for your installation:
 
@@ -79,7 +79,7 @@ You can then access at: https://chat.yourcompany.com replacing chat.yourcompany.
 
 The Loadbalancer will redirect HTTP to HTTPS.
 
-### Backup and Upgrade Rocket.Chat version
+#### Backup and Upgrade Rocket.Chat version
 
 See available option for rocketchatctl:
 
