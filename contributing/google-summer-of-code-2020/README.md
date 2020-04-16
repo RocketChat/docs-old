@@ -68,7 +68,6 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description**: With the React/Redux/Redux-Saga stack coming to the Electron-based app, a richer user experience is achievable through [Rocket.Chat's Fuselage components](https://github.com/RocketChat/Rocket.Chat.Fuselage). A long-awaited feature is the management of file downloads with some tracking of download progress and ability to cancel/restart.
 - **Desirable Skills**: Some knowledge about the concept of CSS-in-JS and popular implementations for React (e.g. [Styled Components](https://styled-components.com/), [Emotion](https://emotion.sh/docs/introduction)) as well basic understanding about the [Electron framework](https://www.electronjs.org/).
 
-
 ### Omnichannel:  Chatbot support for RASA and Dialogflow
 
 - **Mentors**: @renatobecker, [@marcos.defendi](https://open.rocket.chat/direct/marcos.defendi)
@@ -192,6 +191,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 - **Mentors**: [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert) and [@shiqi.mei](https://open.rocket.chat/direct/shiqi.mei)
 - **Description**: Make Rocket.Chat have a list of default apps that are going to be installed during the first run of the server.
+
 ### Improve Documentation Framework (Versioning)
 
 - **Mentors**: [@martin.scholeler](https://open.rocket.chat/direct/martin.schoeler), [@guilherme.cruz](https://open.rocket.chat/direct/guilherme.cruz)
@@ -210,6 +210,7 @@ Interested students are also encouraged to interact with our contributor communi
 - **Mentors**: @djorkaeff.alexandre @diego.mello
 - **Description**: Share Lingohub keys with the web client.
 - **Desirable Skills**: Familiarity with React Native and Rocket.Chat codebase.
+
 ### Share Location on Mobile Apps
 
 - **Mentors**: @djorkaeff.alexandre @diego.mello
