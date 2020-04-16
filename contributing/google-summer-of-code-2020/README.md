@@ -62,18 +62,11 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description**: Administration and management of a Rocket.Chat server is a very complex task, especially for servers that are utilized by thousdands of users on a daily basis.  There exists many administrative and operational activities that require access to the system in ways that are not currently supported by our Administrative dashboard.  This project creates small, standalone tools, to address this need. These tools will be immediately useful for anyone operating one-or-more large Rocket.Chat server(s) worldwide.
 - **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReactJS or Vue.js ideal.  Must have database skills, ideally MongoDB.
 
-### Improve Documentation Framework (Versioning)
+### Download Manager on Desktop App
 
-- **Mentors**: [@martin.scholeler](https://open.rocket.chat/direct/martin.schoeler), [@guilherme.cruz](https://open.rocket.chat/direct/guilherme.cruz)
-- **Description**: The main objective of this project is to add a versioning capacity to the documentation, while maintaining a relatively simple file structure and ease of use. In addition, add support for multi-lingual documentation and increase the ease of use of the documentation generation and hosting framework to ease the barrier of entry for contributors trying to run the environment on their own machines, making it more contributor friendly.
-- **Desirable Skills**: Familiarity with Javascript development. Working knowledge of Jekyll and documentation generation framework highly useful.
-
-### Google Action Improvement
-
-- **Mentors**: @ashish.jha @prajval.raval1
-- **Project repository**: <https://github.com/RocketChat/google-action-rocketchat>
-- **Description**: Bring access of Rocket.Chat into the world of 1 Billion+ Google Assistant enabled devices. The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Google Assistant ecosystem - powered by open source Rocket.Chat. The project will aim towards making current action compaitable with Multisever proxy and publishing of Google Action of on its store, of course while adding more features to it such as Interactive Canvas, App Actions etc.  This project will also focus on making current documentation more streamlined and "easy to refer" for newcomers.
-- **Desirable Skills**: Familiarity with Google Actions development, Dialogflow, NodeJS Server Development and Rocket.Chat source code. Experience with interfacing external sources and systems into Google Action. Passion for global converstational interaction enablement.
+- **Mentors**: [@tasso.evangelista](https://open.rocket.chat/direct/tasso.evangelista) and [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo)
+- **Description**: With the React/Redux/Redux-Saga stack coming to the Electron-based app, a richer user experience is achievable through [Rocket.Chat's Fuselage components](https://github.com/RocketChat/Rocket.Chat.Fuselage). A long-awaited feature is the management of file downloads with some tracking of download progress and ability to cancel/restart.
+- **Desirable Skills**: Some knowledge about the concept of CSS-in-JS and popular implementations for React (e.g. [Styled Components](https://styled-components.com/), [Emotion](https://emotion.sh/docs/introduction)) as well basic understanding about the [Electron framework](https://www.electronjs.org/).
 
 ### Omnichannel:  Chatbot support for RASA and Dialogflow
 
@@ -93,30 +86,6 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description**: Add a new interface between Rocket.Chat and the Omnichannel Livechat widget, allowing Agents to get real-time screenshare on customer's devices. For this initial version, we will also create an integration with the Cobrowse.io, which will be the first screen sharing supplier supported.
 - **Desirable Skills**: Experience with Javascript and React.JS.
 
-### Omnichannel: Create integration with Zoho Desk CRM
-
-- **Mentors**: @renatobecker
-- **Description**: In order to have a complete customer service experience, it is essential to have quick access to customer data, create service tickets, etc. The aim of this project is to provide that experience by creating an integration between Rocket.Chat and Zoho CRM, a complete CRM platform that will bring an even richer experience to the Omnichannel Customer Service.
-- **Desirable Skills**: REST, Experience with Javascript and familiarity with Typescript.
-
-### Omnichannel: Support for Voice and Video Calls
-
-- **Mentors**: @gazzo, @tazzo
-- **Description**: We've been working on our new Omnichannel solution and it's time to add two great new features that will make Omnichannel even more powerful: voice and video calls! The idea is to integrate Omnichannel with the providers already supported in Rocket.Chat, such as Jitsi, WebRTC, BigBlueButton and so on. With these two new features, Omnichannel users will be able to initiate video and audio calls between them and Omnichannel agents.
-- **Desirable Skills**: Familiarity with Rocket.Chat/Omnichannel development, ReactJS/PreactJS, Voice and Video communication
-
-### Houston Improvements - Rocket.Chat release/changelog generator
-
-- **Mentors**: [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio) and [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
-- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Houston>
-- **Description**: Huston is the CLI tooling we use to release new versions of Rocket.Chat and to generate our change logs from merged pull requests. We want to:
-    * Rewrite the tooling in TypeScript;
-    * ~Improve the changelog generation getting more information from the PRs like description, images, etc;~ (already done)
-    * Accept a new format of PR titles (conventional changelog);
-    * Add a validation system for PRs titles via GitHub Actions;
-    * Add a tooling to preview the generated changelog for the PR
-    * Add new top level of separation for product type (like Enterprise and Community) based on labels
-
 ### Alexa Skill(s) Improvement
 
 - **Mentors**: @ashish.jha @prajval.raval1
@@ -124,61 +93,17 @@ Interested students are also encouraged to interact with our contributor communi
 - **Description**: Bring access of Rocket.Chat into the world of 100 million+ Alexa enabled devices. The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Alexa ecosystem - powered by open source Rocket.Chat. Google Home/Assistant devices support, if possible, should also be considered concurrently. The focus will be on devoting more time to improve the features which add more advantage and serve a frictionless experience when used via voice compared to features which have a limited use and are better performed using a GUI.
 - **Desirable Skills**: Familiarity with Alexa skills development and conversational design. NodeJS Server Development and Rocket.Chat source code. Experience with interfacing external sources and systems into Alexa skills. Passion for global conversational interaction enablement. Familiarity with Google Action development ideal.
 
-### Add Support for Bixby
-
-- **Mentors**: @ashish.jha @prajval.raval1
-- **Project repository**: <https://github.com/RocketChat/alexa-rc-multiserver-client>
-- **Description**: Last year we explored the possibilities of having a Rocket.Chat Amazon Alexa Skill and a Rocket.Chat Action on Google. This project should aim to explore adding a Samsung Bixby Capsule for Rocket.Chat. Bixby is a next-generation, conversational assistant platform that was created to help users get things done in a more efficient, personalized and natural way. The way Bixby focuses on a multimodal approach from the very start could help eliminate the nuances involved in building an intricate voice-only experience.
-- **Desirable Skills**: Familiarity with VUI/Bixby development. Experience with interfacing external sources and systems into Alexa skills. Passion for global conversational interaction enablement. Familiarity with Javascript ideal.
-
-### Apps-CLI: Generate boilerplate components
-
-- **Mentors**: @douglas.gubert @shiqi.mei
-- **Description**: Add commands to the Rocket.Chat Apps-CLI that generate the boilerplate needed to add new components to the app being developed, such as Slash commands, API endpoints, etc.
-- **Desirable Skills**: Experience with Javascript and familiarity with Typescript.
-
 ### Apps-CLI: Hot reload apps during development
 
 - **Mentors**: @douglas.gubert @shiqi.mei
 - **Description**: Add the option to the Rocket.Chat Apps-CLI to support apps development by hot-reloading the app in the development server on file saving.
 - **Desirable Skills**: Experience with Javascript and familiarity with Typescript.
 
-### Nextcloud Video Management
-
-- **Mentors**: @guilherme.gazzo
-- **Description**: Add the ability to manage and access recorded and previously live streamed video within the Rocket.Chat integrated Nextcloud environment. Similar to Youtube but with a chat-centric access interface.
-- **Desirable Skills**: Familiarity with Rocket.Chat and Nextcloud development.  Deep understanding of current digital streaming and recorded media standards a big plus.
-
-### Apple Watch App
-
-- **Mentors**: @djorkaeff.alexandre @diego.mello
-- **Description**: Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such as viewing the chat rooms and reading the messages. Let the user ask Siri to read the latest messages, send messages or respond to a message.
-- **Desirable Skills**: Familiarity with WatchKit development on WatchOS & SiriKit, Familiarity with React Native.
-
-### Target official/experimental Mobile apps using GitHub Actions (CI)
-
-- **Mentors**: @djorkaeff.alexandre @diego.mello
-- **Description**: Create build of our 4 apps on GitHubCI, 2 Android Apps and 2 iOS Apps (Official and Experimental).
-- **Desirable Skills**: Familiarity with React Native, FastLane, Android & iOS build apps.
-
 ### Add Analytics to Mobile Apps
 
 - **Mentors**: @noorul.ameen @djorkaeff.alexandre @diego.mello
 - **Description**: We use Firebase to track some analytics, now we want to know data like 'how many people clicked on login?'. You need to add firebase analytics to our app and add track analytics of the most important features and events.
 - **Desirable Skills**: Familiarity with React Native and Firebase Analytics.
-
-### Share Location on Mobile Apps
-
-- **Mentors**: @djorkaeff.alexandre @diego.mello
-- **Description**: We have this feature on our web client, server has an implementation about this, you only need to implement this feature on our Mobile Client and ability to select and share a location (based or not on user's location), custom message to show the location shared and need to be able to open this location on maps apps.
-- **Desirable Skills**: Familiarity with React Native and Rocket.Chat codebase.
-
-### Mobile Apps Accessibility
-
-- **Mentors:**  [@matheus.cardoso](https://open.rocket.chat/direct/matheus.cardoso)
-- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
-- **Description:** Android and iOS both support gesture-based screen readers that let you enjoy using the phone even if you don’t see the screen. This is especially important for those with low or no vision. We want to make Rocket.Chat for everyone. A blind user should be able to easily add servers, change servers, read messages and send messages, as well as other additional functions such as editing profile and creating channels. The proposal should contain a per-screen study of the current App's state of accessibility (what is missing and what needs to be improved), and a roadmap to take it to a delightful state.
-- **Desirable Skills:** We are looking for a student who is familiar with team work, developing mobile Apps using React Native and JavaScript, as well as writing maintainable code with Unit Tests and having some familiarity with Voice Over (iOS), TalkBack (Android) and Accessibility. Knowledge of Swift/Objective-C and Kotlin/Java may be needed for some of the trickier tasks.
 
 ### Audio improvements on mobile apps
 
@@ -197,12 +122,6 @@ Interested students are also encouraged to interact with our contributor communi
 - **Mentors**: @djorkaeff.alexandre @diego.mello
 - **Description**: Create a build for the other store for Android apps: <https://f-droid.org/>
 - **Desirable Skills**: Familiarity with Android development, React Native and Rocket.Chat codebase.
-
-### Use Lingohub on mobile apps
-
-- **Mentors**: @djorkaeff.alexandre @diego.mello
-- **Description**: Share Lingohub keys with the web client.
-- **Desirable Skills**: Familiarity with React Native and Rocket.Chat codebase.
 
 ### Image/Video Content Moderation Rocket.Chat App using Machine Learning
 
@@ -248,12 +167,6 @@ Interested students are also encouraged to interact with our contributor communi
 - **Mentors**: [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert) and [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
 - **Description**: Currently there is no way for an admin to know during the installation of an App which Apps-Engine features are going to be used and what kind of access the app will have to the workspace's data. The idea is for the App to provide a manifest with the features and access it is going to require, and the Apps-Engine will only allow the defined features to be used by the App.
 
-### Download Manager on Desktop App
-
-- **Mentors**: [@tasso.evangelista](https://open.rocket.chat/direct/tasso.evangelista) and [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo)
-- **Description**: With the React/Redux/Redux-Saga stack coming to the Electron-based app, a richer user experience is achievable through [Rocket.Chat's Fuselage components](https://github.com/RocketChat/Rocket.Chat.Fuselage). A long-awaited feature is the management of file downloads with some tracking of download progress and ability to cancel/restart.
-- **Desirable Skills**: Some knowledge about the concept of CSS-in-JS and popular implementations for React (e.g. [Styled Components](https://styled-components.com/), [Emotion](https://emotion.sh/docs/introduction)) as well basic understanding about the [Electron framework](https://www.electronjs.org/).
-
 ### Improve test coverage and enable visual regression tests
 
 - **Mentors**:[@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo) and [@tasso.pinto](https://open.rocket.chat/direct/tasso.evangelista)
@@ -278,6 +191,93 @@ Interested students are also encouraged to interact with our contributor communi
 
 - **Mentors**: [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert) and [@shiqi.mei](https://open.rocket.chat/direct/shiqi.mei)
 - **Description**: Make Rocket.Chat have a list of default apps that are going to be installed during the first run of the server.
+
+### Improve Documentation Framework (Versioning)
+
+- **Mentors**: [@martin.scholeler](https://open.rocket.chat/direct/martin.schoeler), [@guilherme.cruz](https://open.rocket.chat/direct/guilherme.cruz)
+- **Description**: The main objective of this project is to add a versioning capacity to the documentation, while maintaining a relatively simple file structure and ease of use. In addition, add support for multi-lingual documentation and increase the ease of use of the documentation generation and hosting framework to ease the barrier of entry for contributors trying to run the environment on their own machines, making it more contributor friendly.
+- **Desirable Skills**: Familiarity with Javascript development. Working knowledge of Jekyll and documentation generation framework highly useful.
+
+### Google Action Improvement
+
+- **Mentors**: @ashish.jha @prajval.raval1
+- **Project repository**: <https://github.com/RocketChat/google-action-rocketchat>
+- **Description**: Bring access of Rocket.Chat into the world of 1 Billion+ Google Assistant enabled devices. The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Google Assistant ecosystem - powered by open source Rocket.Chat. The project will aim towards making current action compaitable with Multisever proxy and publishing of Google Action of on its store, of course while adding more features to it such as Interactive Canvas, App Actions etc.  This project will also focus on making current documentation more streamlined and "easy to refer" for newcomers.
+- **Desirable Skills**: Familiarity with Google Actions development, Dialogflow, NodeJS Server Development and Rocket.Chat source code. Experience with interfacing external sources and systems into Google Action. Passion for global converstational interaction enablement.
+
+### Use Lingohub on mobile apps
+
+- **Mentors**: @djorkaeff.alexandre @diego.mello
+- **Description**: Share Lingohub keys with the web client.
+- **Desirable Skills**: Familiarity with React Native and Rocket.Chat codebase.
+
+### Share Location on Mobile Apps
+
+- **Mentors**: @djorkaeff.alexandre @diego.mello
+- **Description**: We have this feature on our web client, server has an implementation about this, you only need to implement this feature on our Mobile Client and ability to select and share a location (based or not on user's location), custom message to show the location shared and need to be able to open this location on maps apps.
+- **Desirable Skills**: Familiarity with React Native and Rocket.Chat codebase.
+
+### Mobile Apps Accessibility
+
+- **Mentors:**  [@matheus.cardoso](https://open.rocket.chat/direct/matheus.cardoso)
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.ReactNative>
+- **Description:** Android and iOS both support gesture-based screen readers that let you enjoy using the phone even if you don’t see the screen. This is especially important for those with low or no vision. We want to make Rocket.Chat for everyone. A blind user should be able to easily add servers, change servers, read messages and send messages, as well as other additional functions such as editing profile and creating channels. The proposal should contain a per-screen study of the current App's state of accessibility (what is missing and what needs to be improved), and a roadmap to take it to a delightful state.
+- **Desirable Skills:** We are looking for a student who is familiar with team work, developing mobile Apps using React Native and JavaScript, as well as writing maintainable code with Unit Tests and having some familiarity with Voice Over (iOS), TalkBack (Android) and Accessibility. Knowledge of Swift/Objective-C and Kotlin/Java may be needed for some of the trickier tasks.
+
+### Omnichannel: Create integration with Zoho Desk CRM
+
+- **Mentors**: @renatobecker
+- **Description**: In order to have a complete customer service experience, it is essential to have quick access to customer data, create service tickets, etc. The aim of this project is to provide that experience by creating an integration between Rocket.Chat and Zoho CRM, a complete CRM platform that will bring an even richer experience to the Omnichannel Customer Service.
+- **Desirable Skills**: REST, Experience with Javascript and familiarity with Typescript.
+
+### Omnichannel: Support for Voice and Video Calls
+
+- **Mentors**: @gazzo, @tazzo
+- **Description**: We've been working on our new Omnichannel solution and it's time to add two great new features that will make Omnichannel even more powerful: voice and video calls! The idea is to integrate Omnichannel with the providers already supported in Rocket.Chat, such as Jitsi, WebRTC, BigBlueButton and so on. With these two new features, Omnichannel users will be able to initiate video and audio calls between them and Omnichannel agents.
+- **Desirable Skills**: Familiarity with Rocket.Chat/Omnichannel development, ReactJS/PreactJS, Voice and Video communication
+
+### Houston Improvements - Rocket.Chat release/changelog generator
+
+- **Mentors**: [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio) and [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
+- **Project repository**: <https://github.com/RocketChat/Rocket.Chat.Houston>
+- **Description**: Huston is the CLI tooling we use to release new versions of Rocket.Chat and to generate our change logs from merged pull requests. We want to:
+    * Rewrite the tooling in TypeScript;
+    * ~Improve the changelog generation getting more information from the PRs like description, images, etc;~ (already done)
+    * Accept a new format of PR titles (conventional changelog);
+    * Add a validation system for PRs titles via GitHub Actions;
+    * Add a tooling to preview the generated changelog for the PR
+    * Add new top level of separation for product type (like Enterprise and Community) based on labels
+
+### Add Support for Bixby
+
+- **Mentors**: @ashish.jha @prajval.raval1
+- **Project repository**: <https://github.com/RocketChat/alexa-rc-multiserver-client>
+- **Description**: Last year we explored the possibilities of having a Rocket.Chat Amazon Alexa Skill and a Rocket.Chat Action on Google. This project should aim to explore adding a Samsung Bixby Capsule for Rocket.Chat. Bixby is a next-generation, conversational assistant platform that was created to help users get things done in a more efficient, personalized and natural way. The way Bixby focuses on a multimodal approach from the very start could help eliminate the nuances involved in building an intricate voice-only experience.
+- **Desirable Skills**: Familiarity with VUI/Bixby development. Experience with interfacing external sources and systems into Alexa skills. Passion for global conversational interaction enablement. Familiarity with Javascript ideal.
+
+### Apps-CLI: Generate boilerplate components
+
+- **Mentors**: @douglas.gubert @shiqi.mei
+- **Description**: Add commands to the Rocket.Chat Apps-CLI that generate the boilerplate needed to add new components to the app being developed, such as Slash commands, API endpoints, etc.
+- **Desirable Skills**: Experience with Javascript and familiarity with Typescript.
+
+### Nextcloud Video Management
+
+- **Mentors**: @guilherme.gazzo
+- **Description**: Add the ability to manage and access recorded and previously live streamed video within the Rocket.Chat integrated Nextcloud environment. Similar to Youtube but with a chat-centric access interface.
+- **Desirable Skills**: Familiarity with Rocket.Chat and Nextcloud development.  Deep understanding of current digital streaming and recorded media standards a big plus.
+
+### Apple Watch App
+
+- **Mentors**: @djorkaeff.alexandre @diego.mello
+- **Description**: Create an Apple Watch application that replicates the most basic features we have in our iOS mobile client, such as viewing the chat rooms and reading the messages. Let the user ask Siri to read the latest messages, send messages or respond to a message.
+- **Desirable Skills**: Familiarity with WatchKit development on WatchOS & SiriKit, Familiarity with React Native.
+
+### Target official/experimental Mobile apps using GitHub Actions (CI)
+
+- **Mentors**: @djorkaeff.alexandre @diego.mello
+- **Description**: Create build of our 4 apps on GitHubCI, 2 Android Apps and 2 iOS Apps (Official and Experimental).
+- **Desirable Skills**: Familiarity with React Native, FastLane, Android & iOS build apps.
 
 ## Timeline
 
