@@ -6,14 +6,14 @@ The Rocket.Chat App installs a Linux image with everything needed for the Rocket
 
 To be able to install the image from the marketplace you will need to login to your Oracle Cloud Infrastructure account, after that go the main Menu and select Marketplace and Applications:
 
-<p float="left">
+<p style="display: flex" float="left">
   <img src="./oracledocs1.png" width="400" />
   <img src="./oracledocs2.png" width="400" />
 </p>
 
 Select the Rocket.Chat application, you will see lots of information about the image including usage instructions to follow once the instance is already running, choose a compartiment for the installation and launch your instance:
 
-<p float="left">
+<p style="display: flex" float="left">
   <img src="./oracledocs3.png" width="400" />
   <img src="./oracledocs4.png" width="400" />
 </p>
@@ -24,7 +24,7 @@ This application will run in a compute instance, you can change the shape of it 
 
 Wait for the provisioning stage to be finished and you will find information about your instance you will need later, like the public IP and the subnet where it's running, the image running in your instance allows traffic to Rocket.Chat required ports using iptables rules, but you need to edit the security group associted to the subnet where the instance is running for the traffic to actually go through:
 
-<p float="left">
+<p style="display: flex" float="left">
   <img src="./oracledocs6.png" width="270" />
   <img src="./oracledocs7.png" width="270" />
   <img src="./oracledocs8.png" width="270" />
