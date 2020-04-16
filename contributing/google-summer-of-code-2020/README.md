@@ -260,6 +260,7 @@ Interested students are also encouraged to interact with our contributor communi
 - **Mentors**: @douglas.gubert @shiqi.mei
 - **Description**: Add commands to the Rocket.Chat Apps-CLI that generate the boilerplate needed to add new components to the app being developed, such as Slash commands, API endpoints, etc.
 - **Desirable Skills**: Experience with Javascript and familiarity with Typescript.
+
 ### Nextcloud Video Management
 
 - **Mentors**: @guilherme.gazzo
