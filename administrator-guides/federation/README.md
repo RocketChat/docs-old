@@ -59,10 +59,6 @@ When a server receives the message, it uses the Server B private key and the Ser
 
 So, let's say the message ended up on Server C: this server won't have Server B private key to decrypt it, so the message can't be read at all.
 
-### Hub URL
-
-This usually remains as is. This is the Hub URL, where your server will register and confirm domain ownership if you are not using DNS discovery method.
-
 ### Discovery Method
 
 How are you going to be found in the Rocket.Chat Federated Network? You can choose through DNS or, as a fallback, the Rocket.Chat Hub.
@@ -77,27 +73,24 @@ You have two ways to add your server to the Rocket.Chat Federated Network:
 
 To add your server to the Federated Network using the DNS, fill all the configuration fields required. Make sure to pick `true` on the `Enabled`, and select **DNS** as your `Discovery Method` option, save and follow the guide below.
 
-Let's suppose we have a domain named `mydomain.com`, and my Rocket.Chat server is hosted at `chat.mydomain.com`, port `80`.
+Let's suppose we have a domain named `mydomain.com`, and my Rocket.Chat server is hosted at `chat.mydomain.com`, port `443`.
 
 You must add two DNS records:
 
-#### SRV Record
+#### SRV Record (2.0.0 or newer)
 
 - Service: `_rocketchat`
-- Protocol: `_tcp`
-- Name: `mydomain.com`
+- Protocol: `_https`
+- Name: `chat.mydomain.com`
 - Weight: `1`
 - Priority: `1`
 - TTL: `1 hour`
 - Target: `chat.mydomain.com`
-- Port: `80`
-
-In Amazon Route 53, it would look something like this:
-![image](https://user-images.githubusercontent.com/51996/53998274-c1496c80-4104-11e9-8571-3288fc7b2cc8.png)
+- Port: `443`
 
 #### Public Key TXT Record
 
-- Host: `rocketchat-public-key.mydomain.com`
+- Host: `rocketchat-public-key.chat.mydomain.com`
 - Value: `<my public key, as shown on the configuration screen>`
 
 **Note**: Some DNS providers do not allow to enter the full public key string. So, after saving, make sure the string is complete: it  starts as `-----BEGIN PUBLIC KEY-----` and ends as `-----END PUBLIC KEY-----`. If that is not the case, follow your provider's instructions. For example, AWS Route 53 needs to split the string in two pieces, as follows:
@@ -107,16 +100,16 @@ In Amazon Route 53, it would look something like this:
 "...-----END PUBLIC KEY-----"
 ```
 
-#### Optional: Protocol TXT Record
+#### If you use http instead of https
 
-We recommend to use `HTTPS` for all kinds of communications, but sometimes that is not possible. If you need, add a `rocketchat-protocol` entry with the desired protocol, `http` or `https`.
+We recommend to use `HTTPS` for all kinds of communications, but sometimes that is not possible. If you need, in the SRV DNS entry replace:
 
-- Host: `rocketchat-protocol.mydomain.com`
-- Value: `http`
+- the protocol: change `_https` to `_http`
+- the port: change `443` to `80`
 
 #### Conclusion
 
-When at least the SRV and the Public Key TXT records are added to the DNS records, other peers should be able to find you after the propagation.
+When the SRV and the Public Key TXT records are added to the DNS records, other peers should be able to find you after the propagation.
 
 ### Alternative: Register on Hub
 
