@@ -4,4 +4,3 @@
 
 Read the [Prometheus Alertmanager installation guide](<https://github.com/pavel-kazhavets/AlertmanagerRocketChat>
 ) for detailed instructions.
-

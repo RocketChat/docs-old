@@ -71,6 +71,7 @@ class Script {
 
 2. Change the following URL with your token and incoming webhook URL, and execute it in your regular browser:
 `https://api.telegram.org/bot[myauthorization-token]/setwebhook?url=[Incoming_Webhook_Link_from_Rocket.Chat]`
+
 3. You should receive the following message:
 `{ "ok": true, "result": true, "description": "Webhook successfully set" }` (or similar)
 
@@ -81,7 +82,9 @@ class Script {
 1. Create the outgoing webhook and specify the channel with the following URL: `https://api.telegram.org/bot[myauthorization-token]/sendMessage?chat_id=[chat-id]`
 
 2. Paste the outgoing webhook below
+
 3. Enable listening at the Bot with **/privacy** (Here's an[example](http://i.imgur.com/xSjdAAy.jpg?1))
+
 4. Add Bot to Telegram group and enjoy the best cross-platform communication.
 
 ```javascript

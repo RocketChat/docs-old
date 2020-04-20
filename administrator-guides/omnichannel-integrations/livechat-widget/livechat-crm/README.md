@@ -2,7 +2,7 @@
 
 You can use webhooks to easily integrate LiveChat with your CRM.
 
-**Note**  For Magento 2 CRM solutions, also see the Magento 2 section below.  
+**Note**:  For Magento 2 CRM solutions, also see the Magento 2 section below.
 
 When a LiveChat session ends or if you receive a new offline message, Rocket.Chat sends a `POST` to the webhook URL.
 
@@ -83,9 +83,9 @@ If your endpoint returns a response status other than 200, Rocket.Chat retries 1
 
 ## Magento 2
 
-If your CRM solution is Magento 2, it requires **RequireJS** to load JavaScript resources. Complete the following steps:
+If your CRM solution is Magento 2, it requires **RequireJS** to load JavaScript resources.
 
-1. Change the change the widget code slightly to look like:
+You need to change the widget code slightly to look like this:
 
 ```js
    <script defer="defer" async="async" type="text/javascript">
@@ -100,6 +100,6 @@ If your CRM solution is Magento 2, it requires **RequireJS** to load JavaScript 
     </script>
 ```
 
-2. Replace the `https://rc.example.com/` with your Rocket.Chat (sub-)domain, and paste the code into your `/app/design/frontend/Theme_provider/theme_name/Magento_Theme/templates/root.phtml` theme file before the closing `</html>` tag. 
+Then replace the `https://rc.example.com/` with your Rocket.Chat (sub-)domain, and paste the code into your `/app/design/frontend/Theme_provider/theme_name/Magento_Theme/templates/root.phtml` theme file before the closing `</html>` tag.
 
-3. Flush your PHP OpCode cache, and you are ready to go.
+Finally, flush your PHP OpCode cache, and you are ready to go.

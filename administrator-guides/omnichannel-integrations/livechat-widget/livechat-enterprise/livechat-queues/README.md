@@ -1,4 +1,4 @@
-# Livechat Queues
+# LiveChat Queues
 
 There are three queue types on Rocket.Chat:
 
@@ -22,11 +22,11 @@ A new incoming chat routes to `agent-2`, and so on, until all agents have one ch
 
 ## Manual Selection
 
-With this queue method active, agents have a new `Incoming Livechats` section:
+With this queue method active, agents have a new section called `Incoming LiveChats`:
 
 ![image](https://cloud.githubusercontent.com/assets/8620042/15939957/a10bb994-2e3f-11e6-81ff-9b5c96046137.png)
 
-Each new chat on the `Incoming Livechats` section is available to **all** agents. So any agent can
+Each new chat on the `Incoming LiveChats` section is available to **all** agents. So any agent can
 take a new incoming chat.
 
 When the agent clicks the incoming LiveChat, the system show the preview of the chat containing the messages sent by the visitor. The agent can then decide if they wish to take the chat or not.
@@ -56,7 +56,7 @@ After receiving the return from the endpoint in the format described above, Live
 
 ## Agent Utilization Limit
 
-With the Agent Utilization Limit feature, you control how many chats a LiveChat agent attends simultaneously. 
+With the Agent Utilization Limit feature, you control how many chats a LiveChat agent attends simultaneously.
 
 Where there are more incoming LiveChat sessions than the  specified number, they fall into a waiting queue, and visitors receive a Waiting Queue message.
 
