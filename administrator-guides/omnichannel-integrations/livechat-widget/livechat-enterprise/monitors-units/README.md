@@ -1,39 +1,39 @@
 # Monitors
 
-The monitor role is designed for a person assigned to supervise the specified department or departments, without receiving permissions to manage the omnichannel itself, which makes the role different from the livechat manager.
+LiveChat monitors supervise specified departments without receiving permissions to manage the Omnichannel itself, which makes this role different from that of the LiveChat manager.
 
-The Monitor role is assigned by an admin or a livechat manager (this is defined by the permissions) either:
+With the appropriate permissions, LiveChat managers or admins assign the monitor role from one of the following areas of LiveChat:
 
-- through **Livechat Settings**:
+- **Livechat Settings**:
 [image]administrator-guides\omnichannel-integrations\livechat-widget\livechat-enterprise\monitor-role\edit-monitor.png]
 
-- or through editing a user under **Administration > Users > Edit**:
+- **Administration > Users > Edit**:
 [image](administrator-guides\omnichannel-integrations\livechat-widget\livechat-enterprise\monitor-role\edit-monitor.png)
 
 ## Units
 
-Unit is a selection of departments (or a single department) to be monitored by specific monitors.
+Monitors can supervise units, which are selected departments or a single department.
 
-This is the best alternative for scenarios when there are several departments running and you want a head of a department to be able to monitor the Livechat activity for their relevant department.
+This is best practice in scenarios which include several departments running. In this scenario, you can assign the department head to monitor the LiveChat activity for their department.
 
-This way the monitor is able to see the chat list, agents, analytics, add or remove agents, but not to see all the irrelevant Livechat settings or manage  other chats.
+The monitor sees the chat list, agents, analytics, added or removed agents, but does see other LiveChat settings or manage other chats. See the details about monitor settings below.
 
 [image](administrator-guides\omnichannel-integrations\livechat-widget\livechat-enterprise\monitor-role\edit-units.png])
 
-- **Visibility** allows you to select the unit to be public or private. Note that when public, monitors from other units can see the chat rooms of your unit in their list of chat rooms. If you want the list of chat rooms to be only visible to the monitor assigned to this unit, make it private.
+- **Visibility** settings allow you to set the unit in public or private mode. Note that with a public setting, monitors from other units can see a public unit's chat rooms in their chat room list. If a unit is set to private, monitors of other units do not see that unit's chat rooms.
 
-For example, we created two units named after the relevant departments: _Support_ and _Customer Success_.
+    For example, if we create two units named for their deaprtments: _Support_ and _Customer Success_, the examples below show what chat room lists look like when units are set to public or private mode:
 
-This is how the chat list look likes if our units (_Customer Success and Support)) are both public, to one of the monitors who is only assigned to one unit:
+    - The chat room list when our units (_Customer Success and Support)) are both public, as it appears to a monitor assigned to only one of the units:
 
-[image](administrator-guides\omnichannel-integrations\livechat-widget\livechat-enterprise\monitor-role\public-unit.png)
+    [image](administrator-guides\omnichannel-integrations\livechat-widget\livechat-enterprise\monitor-role\public-unit.png)
 
-And this is how the chat list looks like when one unit (_Customer Success_) is set private, to the sumonitor who  assigned only to the _Support_ unit:
+    - The chat room lists when one of the units (_Customer Success_) is set to private, and the monitor assigned only to the _Support_ unit looks at it:
 
-[image](administrator-guides\omnichannel-integrations\livechat-widget\livechat-enterprise\monitors-units\private-unit.png)
+    [image](administrator-guides\omnichannel-integrations\livechat-widget\livechat-enterprise\monitors-units\private-unit.png)
 
-- **Monitors** allows you to add any valid user to be a monitor with access to Livechat rooms, department settings, working hours. Monitors can manage Livechat and agents. Unless the users have admin rights or specific permissions granted, they cannot manage the appearance, routing rules and other omnichannel configurations.
+- **Monitors** settings allows you to add any valid user to be a monitor with access to LiveChat rooms, department settings, working hours. Monitors can manage LiveChat and agents. Unless the users have admin rights or specific permissions granted, they cannot manage LiveChat appearance, routing rules and other omnichannel configurations.
 
-- **Selected Monitors** shows the monitors assigned to this unit.
+- **Selected Monitors** shows the monitors assigned to a specified unit.
 
-- **Selected Departments** show the  departments added to this unit and assigned to the specified supervisors. To  add more departments, select from the list of **Available Departments**.
+- **Selected Departments** show the  departments added to a specified unit and assigned to the specified supervisors. To add more departments, select them from the list of **Available Departments**.

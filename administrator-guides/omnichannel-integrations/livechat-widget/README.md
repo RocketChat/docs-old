@@ -1,8 +1,8 @@
 # Livechat Widget
 
-The Livechat Widget adds the ability to embed a pop-up support chat to your website. Click on the following links to find specific details about:
+A Livechat widget integration embeds a pop-up support chat on your website. For details, click the following links:
 
-- [Livechat Activation](<\livechat-activation\README.md>)
-- [Livechat Configuration](\livechat-configuration\README.md)
-- [CRM Integrations](livechat-crm\README.md)
-- [Special Features for Enterprise Users](\livechat-enterprise\README.md)
+- [Activate Livechat](<livechat-activation\README.md>)
+- [Configure Livechat](<livechat-configuration\README.md>)
+- [CRM Integrations](<livechat-crm\README.md>)
+- [Special Features for Enterprise Users](<livechat-enterprise\README.md>)

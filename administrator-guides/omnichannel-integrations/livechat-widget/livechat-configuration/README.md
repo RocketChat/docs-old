@@ -4,37 +4,41 @@ The **Livechat Manager** provides the following configuration options:
 
 ## User Management
 
-You can add new Livechat manager users and agents.
+You can add new LiveChat manager users and agents.
 
-To start receiving incoming Livechat sessions, you need to add Livechat agents.
+To start receiving incoming LiveChat sessions, add LiveChat agents.
 
 ## Departments
 
-You can have the following behavior depending on how many departments you created:
+Configure the following behavior depending on how many departments you create. Note that agents in environments with a single or no department receive calls that are equally distributed, using the [round robin rule](https://digitalcrm.com/lead-assignment-using-round-robin-in-crm-software/):
 
-- **No departments**: incoming chats are offered to the agent with the least number of active Livechat sessions, applying the [round robin rule](https://digitalcrm.com/lead-assignment-using-round-robin-in-crm-software/).
+- **No departments**: agents with the least number of active Livechat sessions receive the incoming chats.
 
-- **One department**: all incoming chats are offered **only** to agents in the specified department, applying the round robin rule.
+- **One department**: only agents in the specified department receive the incoming chats.
 
-- **More than one department**: the visitor has to choose which department he wants to chat with upon registration.
+- **More than one department**: upon registration, visitors choose the department with which they want to chat.
 
 ## Triggers
 
-You can configure how to trigger your Livechat Widget and what it does on your website.
+You can configure triggers for your LiveChat widget to enable the following settings on your website:
 
 ![image](https://cloud.githubusercontent.com/assets/20868078/24811185/50fa9214-1b9b-11e7-86e4-27e2b90dcf99.png)
 
-- **Run only once for each visitor** - if enabled, it runs only once per a browser session, and then only after the client removes his data/clears the chat on his side, and then reloads the page.
+- **Run only once for each visitor** where the widget runs only once per browser session, and then only after clients remove their data or clear the chat on their side, and then reload the page.
 
 - **Name** and **Description** are only visible to the Livechat managers and agents.
 
-- **Condition** - you can choose the time (in seconds) after which the widget shows up on the website, or a certain URL indicating the page on which the widget is triggered to open right away.
+- **Condition** where you can choose the time (in seconds) after which the widget shows up on the website or specify a URL to immediately open the page on which the widget is triggered.
 
 ## Custom Fields
 
-This feature allows the admin to create custom fields using the Livechat API. The custom fields appear in the UI only on the agent's side, so only the agent can edit them. You can see an example of how to configure custom fields on the [Livechat API page](../../developer-guides/livechat-api/#set-custom-field).
+With this feature, administrators can create custom fields using the LiveChat API.
 
-**Note**: Custom fields only work if set through Livechat API as well, so be careful to enter the same names both in the **Admin UI** and the **API script**:
+Custom fields appear in the UI only on the agent's side, so only agents can edit them.
+
+For an example of how to configure custom fields, see the [Livechat API page](../../developer-guides/livechat-api/#set-custom-field).
+
+**Note**: Custom fields only work if set through LiveChat API as well, so be careful to enter the same names both in the **Admin UI** and the **API script**:
 
 ```s
 RocketChat(function() {
@@ -56,20 +60,24 @@ Depending on the scope, the custom field appears on different places in the room
 
 ## Installation
 
-Go to **Livechat Manager > Installation**
+* Go to **Livechat Manager > Installation**
 
 ![image](administrator-guides\omnichannel-integrations\livechat-widget\livechat-configuration\livechat-installation.png)
 
-Then copy the code displayed into the source code of your website. You may modify it to meet your specific requirements.
+* Copy the code displayed into your website's source code. Modify it to meet your specific requirements.
 
 ![image](administrator-guides\omnichannel-integrations\livechat-widget\livechat-configuration\installation-script.png)
 
-Add the script to a respective page. You can have multiple scripts on the same website, for example, if you want to set custom fields to a widget only on a specific page of the website.
+* Add the script to a respective page. You can have multiple scripts on the same website, for example, if you want to set custom fields to a widget only on a specific page of the website.
 
-**Note:** It is impossible to open multiple Livechat sessions from the same website. If you want your visitor to be able to submit another Livechat request from a different page, they need to send the current session first, and then start a new one on a respective page.
+**Note:** You cannot open multiple LiveChat sessions from the same website. If you want your visitor to submit another LiveChat request from a different page, they need to send the current session first, and then start a new one on a respective page.
 
 ## Appearance
 
-To customize the appearance of your Livechat widget go to **Livechat > Appearance**
+1. To customize the appearance of your LiveChat widget, go to **Livechat > Appearance**.
 
 ![image](https://cloud.githubusercontent.com/assets/51996/20235293/a9c34ca8-a853-11e6-8042-9f742b91938e.png)
+
+2. Complete the fields on the **Appearance** page.
+
+3. Click **Save**.

@@ -1,8 +1,8 @@
-# Enterprise Features for Livechat
+# Enterprise Features for LiveChat
 
-The Livechat Widget is armed with special features that are unique for our Enterprise users. The features include:
+Enterprise users (only) can use these special LiveChat features:
 
-- [Canned Responses](\canned-responses\README.md)
-- [Livechat Queues](\livechat-queues\README.md)
-- [Monitors and Units](\monitors-units\README.md)
-- [Tags](\livechat-tags\README.md)
+- [Canned Responses](<canned-responses\README.md>)
+- [Livechat Queues](<livechat-queues\README.md>)
+- [Monitors and Units](<monitors-units\README.md>)
+- [Tags](<livechat-tags\README.md>)

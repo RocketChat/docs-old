@@ -1,10 +1,14 @@
 # CRM Integrations
 
-You can use webhooks to easily integrate Livechat with your CRM.
+You can use webhooks to easily integrate LiveChat with your CRM.
 
-Rocket.Chat sends a `POST` to the webhook URL when a Livechat session ends, or you receive a new offline message.
+**Note**  For Magento 2 CRM solutions, also see the Magento 2 section below.  
 
-Here is an example of the JSON data sent at the end of a Livechat session:
+When a LiveChat session ends or if you receive a new offline message, Rocket.Chat sends a `POST` to the webhook URL.
+
+See the following JSON examples:
+
+* Example of JSON data sent at the end of a LiveChat session:
 
 ```json
 {
@@ -59,7 +63,7 @@ Here is an example of the JSON data sent at the end of a Livechat session:
 }
 ```
 
-The following is an example of the JSON data sent on a Livechat offline message:
+* Example of the JSON data sent on a LiveChat offline message:
 
 ```json
 {
@@ -73,13 +77,15 @@ The following is an example of the JSON data sent on a Livechat offline message:
 }
 ```
 
-The **Secret Token** field sends a request to a `X-RocketChat-Livechat-Token` header, so you can validate if the request actually came from the Livechat.
+The **Secret Token** field sends a request to a `X-RocketChat-Livechat-Token` header, so you can validate if the request actually came from the LiveChat.
 
 If your endpoint returns a response status other than 200, Rocket.Chat retries 10 times with 10-second interval between each attempt.
 
 ## Magento 2
 
-If your CRM solution is Magento 2, bear in mind that it relies on **RequireJS** to load JavaScript resources, so we need to change the widget code a little to look like:
+If your CRM solution is Magento 2, it requires **RequireJS** to load JavaScript resources. Complete the following steps:
+
+1. Change the change the widget code slightly to look like:
 
 ```js
    <script defer="defer" async="async" type="text/javascript">
@@ -94,4 +100,6 @@ If your CRM solution is Magento 2, bear in mind that it relies on **RequireJS** 
     </script>
 ```
 
-Replace the `https://rc.example.com/` with your Rocket.Chat (sub-)domain, and paste the code into your `/app/design/frontend/Theme_provider/theme_name/Magento_Theme/templates/root.phtml` theme file before the closing `</html>` tag. Flush your PHP OpCode cache, and you are ready to go.
+2. Replace the `https://rc.example.com/` with your Rocket.Chat (sub-)domain, and paste the code into your `/app/design/frontend/Theme_provider/theme_name/Magento_Theme/templates/root.phtml` theme file before the closing `</html>` tag. 
+
+3. Flush your PHP OpCode cache, and you are ready to go.

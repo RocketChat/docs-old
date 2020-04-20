@@ -1,16 +1,16 @@
 # Omnichannel Integrations
 
-Our goal is to promote a complete and personalized Omnichannel solution that enables you to integrate Rocket.Chat with your website, email, SMS, social networks with chatbot automatization, or any other desired channel - all on the same spot.
+With Rocket.Chat's Omnichannel solution, you can centralize your communication channels by integrating Rocket.Chat with your website, email, SMS, and social network.
 
 Rocket.Chat provides the following solutions for a seamless Omnichannel experience:
 
-- **LiveChat Widget** is a web-based chat tool that lets you chat with your website visitors. Read the [Livechat Widget documentation](<livechat-widget/README.md>) for detailed information.
+- **LiveChat Widget** integrations enable a web-based chat tool that allows you to chat with your website visitors. For more details, see [LiveChat Widget](<livechat-widget/README.md>).
 
-- **Facebook Messenger** integration is also available. Read [Facebook Integration](<facebook-integration/README.md>) for more details.
+- **Facebook Messenger** integrations are also available. For more details, see [Facebook Integration](<facebook-integration/README.md>).
 
-- **WhatsApp** integration is available through **Twilio**'s programmable SMS. Read [Whatsapp/Twilio Integration](<whatsapp-twilio/README.md>) to learn all the details.
+- **WhatsApp** integration is available through **Twilio**'s programmable SMS. For more details, see [Whatsapp/Twilio Integration](<whatsapp-twilio/README.md>).
 
-- **Incoming webhook scripts** allow you to configure a wide range of integration possibilities within Rocket.Chat. Read [Incoming Webhook Scripting](<all-integrations\README.md>) for detailed structions. More information for each integration is also available below:
+- **Incoming webhook scripts** allow you to configure a wide range of integration possibilities within Rocket.Chat. For more details, see [Incoming Webhook Scripting](all-integrations\README.md). Additional information for each integration is available below:
 
   - [Appveyor](<all-integrations/appveyor/README.md>)
   - [Azure Alerts](<all-integrations/azure-alerts/README.md>)

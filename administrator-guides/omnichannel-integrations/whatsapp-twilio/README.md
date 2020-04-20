@@ -1,22 +1,26 @@
 # WhatsApp Integration / Twilio
 
-Rocket.Chat does not have a native integration with WhatsApp. However, it is possible to achieve a basic level of integration by using a third-party tool. This integration allows you to use Rocket.Chat with WhatsApp through Twilio's programmable SMS.
+Rocket.Chat does not have a native integration with WhatsApp. However, you can use a third-party tool, Twilio's programmable SMS, to achieve a basic level of integration. To use Rocket.Chat with WhatsApp, complete the following steps.
 
-- Create an account at [Twilio](https://twilio.com/whatsapp/request-access).
+1. Create an account at [Twilio](https://twilio.com/whatsapp/request-access).
 
-- Log into your Twilio account. The default landing page is the **Dashboard** for your account. On the left side panel, click on the **All Products and Services** icon to expand it.
+2. Log in to your Twilio account. The default landing page is the **Dashboard** for your account.
 
-- Click **Programmable SMS** and then **WhatsApp**.
+3. On the left side panel, click the **All Products and Services** icon to expand it.
 
-- For production purposes, you must have your account approved by WhatsApp (see the **Senders** link on the same section). In the meantime, you can do the same configuration in the _Sandbox_ environment provided by Twilio. Click **Sandbox**.
+4. Click **Programmable SMS** and then **WhatsApp**.
 
-- In **Sandbox Configuration**, enter your Rocket.Chat server details in the **When a message comes in** field. The format should be:
+5. For production purposes, you must have your account approved by WhatsApp. See the **Senders** link on the same section.
 
-`https://<SERVER_URL>/api/v1/livechat/sms-incoming/twilio`
+6. While you wait for approval, you can complete the same configuration in the _Sandbox_ environment provided by Twilio. Click **Sandbox**.
 
-That's it!
+7. In **Sandbox Configuration**, enter your Rocket.Chat server details in the **When a message comes in** field. The format should be:
 
-Useful links:
+    `https://<SERVER_URL>/api/v1/livechat/sms-incoming/twilio`
+
+    You are now ready to use RocketChat with WhatsApp.
+
+For more information about Twilio, see these links:
 
 - <https://twilio.com>
 - <https://twilio.com/whatsapp/request-access>
