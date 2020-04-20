@@ -5,9 +5,13 @@ Follow the following instructions for a simple Telegram Bot setup.
 ## Get Started
 
 1. Open the **Telegram** chat in your browser or mobile phone
+
 2. Add the **BotFather** user
+
 3. Click **Start**
+
 4. Click **/newbot**
+
 5. Follow the instructions
 
 ![instructions](http://i.imgur.com/8y9SG49.jpg?1)
@@ -15,10 +19,12 @@ Follow the following instructions for a simple Telegram Bot setup.
 ## Get the Token
 
 1. Wait for the Token (displayed as [myauthorization-token])
+
 2. Go to the **Administration Portal** of Rocket.Chat and find the **Integrations** page
+
 3. Create a new **Incoming Webhook** following these instructions
-    - Enable script
-    - Paste the following javascript
+    * Enable script
+    * Paste the following javascript
 
 ### Incoming Webhook for Rocket.Chat
 
@@ -85,7 +91,7 @@ class Script {
 
 3. Enable listening at the Bot with **/privacy** (Here's an[example](http://i.imgur.com/xSjdAAy.jpg?1))
 
-4. Add Bot to Telegram group and enjoy the best cross-platform communication.
+4. Add Bot to Telegram group and enjoy the best cross-platform communication
 
 ```javascript
 class Script {

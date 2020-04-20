@@ -5,9 +5,11 @@ LiveChat monitors supervise specified departments without receiving permissions 
 With the appropriate permissions, LiveChat managers or admins assign the monitor role from one of the following areas of LiveChat:
 
 * **LiveChat Settings**:
-[image]administrator-guides\omnichannel-integrations\livechat-widget\livechat-enterprise\monitor-role\edit-monitor.png]
+
+[image](administrator-guides\omnichannel-integrations\livechat-widget\livechat-enterprise\monitor-role\edit-monitor.png)
 
 * **Administration > Users > Edit**:
+
 [image](administrator-guides\omnichannel-integrations\livechat-widget\livechat-enterprise\monitor-role\edit-monitor.png)
 
 ## Units

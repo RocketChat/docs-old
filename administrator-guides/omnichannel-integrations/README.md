@@ -4,9 +4,9 @@ With Rocket.Chat's Omnichannel solution, you can centralize your communication c
 
 Rocket.Chat provides the following solutions for a seamless Omnichannel experience:
 
-* **LiveChat Widget** integrations enable a web-based chat tool that allows you to chat with your website visitors. For more details, see [LiveChat Widget](<livechat-widget/README.md>).
+* **LiveChat Widget** is a web-based chat tool that allows you to chat with your website visitors. For more details, see [LiveChat Widget](<livechat-widget/README.md>).
 * **Facebook Messenger** integrations are also available. For more details, see [Facebook Integration](<facebook-integration/README.md>).
-* **WhatsApp** integration is available through **Twilio**'s programmable SMS. For more details, see [Whatsapp/Twilio Integration](<whatsapp-twilio/README.md>).
+* **WhatsApp** integration is possible through **Twilio**'s programmable SMS. For more details, see [Whatsapp/Twilio Integration](<whatsapp-twilio/README.md>).
 * **Incoming webhook scripts** allow you to configure a wide range of integration possibilities within Rocket.Chat. For more details, see [Incoming Webhook Scripting](all-integrations\README.md). Additional information for each integration is available below:
 
   * [Appveyor](<all-integrations/appveyor/README.md>)
