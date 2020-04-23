@@ -27,7 +27,10 @@ To change the online color of the Livechat widget, use the following code:
 RocketChat(function() {
     this.setTheme({
         color: '#04436A', // widget title background color
-        fontColor: '#FFFFFF' // widget title font color
+        fontColor: '#FFFFFF', // widget title font color
+        iconColor: '#1d74f5', // widget icon color
+        title: "Welcome to Rocket.Chat", // default widget title when the status of service is online
+        offlineTitle: "Service is offline", // default widget title when the status of service is online
     });
 });
 ```
@@ -79,15 +82,15 @@ To register the visitor without using the registration form, you can use the fol
 ```javascript
 RocketChat(function() {
     this.registerGuest({
-      token: 'FHwaLnp8fzjMupSAj', // The token field is not required. If it is not passed, a new token will be generated
-      name: 'visitor Name',
-      email: 'sample@rocket.chat',
-      department: 'my_department', // The department field is not required,
-      customFields: [ // The customFields field is not required. If it is passed it needs to be an Array, where each item needs to be an object with key and value fields
+        token: 'FHwaLnp8fzjMupSAj', // The token field is not required. If it is not passed, a new token will be generated
+        name: 'visitor Name',
+        email: 'sample@rocket.chat',
+        department: 'my_department', // The department field is not required,
+        customFields: [ // The customFields field is not required. If it is passed it needs to be an Array, where each item needs to be an object with key and value fields
             {key:  'my_custom_field_a', value: 'my_custom_field_a_value'},
             {key:  'my_custom_field_b', value: 'my_custom_field_b_value'}
-     ]
-  });
+        ]
+    });
 });
 ```
 
@@ -101,9 +104,43 @@ RocketChat(function() {
 });
 ```
 
+#### _Set a default Agent before starting a new conversation_
+
+The widget allows setting a specific agent before the conversation starts, to do this follow these steps:
+
+```javascript
+RocketChat(function() {
+    this.setAgent({
+        _id: 'h24yNtyoCmvp96wgt',
+        username: 'rocket.chat',
+  });
+});
+```
+
+#### _Initialize the widget by configuring all available properties in just one call_
+
+The widget allows configuring all the settings in just one method, the following properties are acceptable:
+
+```javascript
+RocketChat(function() {
+    this.initialize({
+        theme: {
+            color: '#04436A',
+            fontColor: '#FFFFFF',
+            iconColor: '#1d74f5',
+            title: "Welcome to Rocket.Chat",
+           offlineTitle: "Service is offline",
+        },
+        department: 'sales',
+        guestToken: 'FHwaLnp8fzjMupSAj',
+        language: 'en',
+  });
+});
+```
+
 #### _Change widget visibility_
 
-You can either hide or show widget in your website. To hide widget use the following code.
+You can either hide or show widget in your website. To hide widget use the following code:
 
 ```javascript
 RocketChat(function() {
@@ -121,7 +158,7 @@ RocketChat(function() {
 
 #### _Change widget window state_
 
-You can either open or close then widget in your website. To open widget(default state) use the following code.
+You can either open or close then widget in your website. To open widget(default state) use the following code:
 
 ```javascript
 RocketChat(function() {
@@ -281,11 +318,11 @@ RocketChat(function() {
 
 | Version | Description                                                                                                                                            |
 | :------ | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 3.1.0   | Added `setAgent` and `initialize` methods. Also, improved the `setTheme` method adding more options to customize the widget |
 | 2.2.0   | Added `maximizeWidget` and `minimizeWidget` methods. |
 | 1.3.0   | Added `onAssignAgent` and `onAgentStatusChange` methods. |
 | 1.1.0   | Added `showWidget` and `hideWidget` methods along with `onWidgetHidden` and `onWidgetShown` events|
 | 1.0.0   | Added `setLanguage` method |
-| 1.0.0   | Added `setLanguage` methods |
 | 0.66.0  | Added `setGuestToken`, `setGuestName`, `setGuestEmail` and `registerGuest` methods.                                                                    |
 | 0.53.0  | Added callback events and the ability to pass a flag to `setCustomField` so the value passed does not get wrote if there is already an existing value. |
 | 0.36.0  | Added `setTheme` method                                                                                                                                |
