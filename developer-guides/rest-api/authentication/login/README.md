@@ -12,6 +12,7 @@ Login with your username and password.
 | :--------- | :----------------- | :------- | :------------ |
 | `user` | `foo@bar.com` OR `myusername` | Required | Your username or email |
 | `password` | `my$up3erP@ssw0rd` | Required | Your password |
+| `resume` | `authtoken` | Required | Your authtoken |
 
 **Notes**
 
@@ -43,6 +44,14 @@ curl -H "Content-type:application/json" \
 curl -H "Content-type:application/json" \
       http://localhost:3000/api/v1/login \
       -d '{ "user": "my@email.com", "password": "mypassword" }'
+```
+
+## Example Call - When you ahve the auth token saved
+
+```bash
+curl -H "Content-type:application/json" \
+      http://localhost:3000/api/v1/login \
+      -d '{ "resume" : "8h2mKAwxB3AQrFSjLVKMooJyjdCFaA7W45sWlHP8IzO" }'
 ```
 
 ## Example Call - When two-factor(2FA) authentication is enabled
