@@ -2,20 +2,20 @@
 
 ## Guides
 
-- [Quick Start](quick-start/)
-- [Branches and Releases](branches-and-releases/)
-- [Livechat API](livechat-api/)
-- [REST API](rest-api/)
-- [Developing Apps](developing-apps/)
-- [Iframe Integration](iframe-integration/)
-- [Realtime API](realtime-api/)
-- [Testing](testing/)
-- [Troubleshooting](troubleshooting/)
-- [Deprecation](deprecation/)
+* [Quick Start](quick-start.md)
+* [Branches and Releases](branches-and-releases.md)
+* [Livechat API](livechat-api.md)
+* [REST API](rest-api/)
+* [Developing Apps](developing-apps/)
+* [Iframe Integration](iframe-integration/)
+* [Realtime API](realtime-api/)
+* [Testing](testing.md)
+* [Troubleshooting](troubleshooting.md)
+* [Deprecation](deprecation.md)
 
-**Important information**:
-On Rocket.Chat rooms can be referenced as:
+**Important information**: On Rocket.Chat rooms can be referenced as:
 
-- Channels
-- Groups
-- Direct messages
+* Channels
+* Groups
+* Direct messages
+
