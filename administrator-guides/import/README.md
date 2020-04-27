@@ -6,5 +6,4 @@ Import data from other services
 
 [Hipchat](hipchat/)
 
-[CSV](csv.md)
-
+[CSV](csv/)

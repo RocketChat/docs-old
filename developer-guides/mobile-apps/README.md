@@ -1,5 +1,4 @@
 # Mobile apps
 
-* [Analytics](analytics.md)
-* [Supporting Ssl](supporting-ssl.md)
-
+- [Analytics](./analytics/)
+- [Supporting Ssl](./supporting-ssl/)
