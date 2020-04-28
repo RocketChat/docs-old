@@ -44,6 +44,13 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
+**NB**:
+
+- Invite will only be successful when called by a user with `admin` rights.
+- The _admin user_ must not belong to the channel to invite others.
+- Users with `owner` or `moderator` permissions can invite others.
+- Normal users cannot invite others whether they are members in the channel or not.
+
 ## Change Log
 
 | Version | Description |
