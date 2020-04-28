@@ -6,23 +6,12 @@ This guide covers the following:
 2. Hosting a domain name with Amazon Route 53
 3. Securing your server with a free SSL certificate from Let's Encrypt
 
-## Table of Contents
+## Launch an EC2 instance
 
-1. [Launch an EC2 Instance](#1-launch-an-ec2-instance)
-2. [Allocate an Elastic IP](#2-allocate-an-elastic-ip)
-3. [Configure DNS with AWS Route 53](#3-configure-dns-w-aws-route-53)
-4. [Get an SSL Certificate from Let's Encrypt](#4-get-an-ssl-certificate-from-lets-encrypt)
-5. [Configure Nginx with TLS/SSL](#5-configure-nginx-web-server-with-tlsssl)
-6. [Install Docker & Docker Compose](#6-install-docker--docker-compose)
-7. [Set up Docker Containers](#7-set-up-docker-containers)
-8. [Automatic start & restarting with Systemd](#8-automatic-start--restarting-with-systemd)
-9. [Use it!](#9-use-it)
-
-### 1. Launch an EC2 instance
-
-#### In AWS Services, go to **EC2**, **Instances**, and **Launch Instance**
+### In AWS Services, go to **EC2**, **Instances**, and **Launch Instance**
 
 1. Choose an AMI
+
     - Select **Ubuntu Server 14.04 LTS** AMI
 2. Choose an Instance Type
     - Select Type: **t2.micro** and click **Next**
@@ -39,44 +28,60 @@ This guide covers the following:
 8. Key Pairs
     - Choose an existing key pair or create a new one and **Launch Instance**
 
-### 2. Allocate an Elastic IP
+## Allocate an Elastic IP
 
-#### In AWS Services, go to **EC2** and **Elastic IPs**
+### In AWS Services, go to **EC2** and **Elastic IPs**
 
 1. Select **Allocate New Address**
 2. Search for your instance, and click **Associate**
 3. In the details below, copy the **Public DNS** value. You will need it in the DNS step. (It should be in this format: ec2-11-222-33-44.us-west-2.compute.amazonaws.com)
 
-### 3. Configure DNS w/ AWS Route 53
+## Configure DNS w/ AWS Route 53
 
-#### In AWS Services, go to **Route 53**
+### In AWS Services, go to **Route 53**
 
 - **Create Hosted Zone**
 - Enter Domain Name and select Type: **Public Hosted Zone**, then **Create**
 - Select your new Hosted Zone and **Create Record Set**
 - Enter the subdomain (if desired), select Type **CNAME**, enter the Public DNS name from the above step to the value field and click **Create**
 
-### 4. Get an SSL certificate from Let's Encrypt
+## Get an SSL certificate from Let's Encrypt
 
-#### We will use **Let's Encrypt** to get a free & open-source SSL certificate
+### We will use **Let's Encrypt** to get a free & open-source SSL certificate
 
 - SSH to your instance:
-    `ssh -i <path_to_key_file.pem> ubuntu@<public_ip_address>`
+
+    ```shell
+    ssh -i <path_to_key_file.pem> ubuntu@<public_ip_address>
+    ```
+
     Note: You may replace <public_ip_address> with domain name if your DNS has resolved.
 - Clone the **letsencrypt** repository from github. (If it is available via a package manager, you may use that).
-     `sudo git clone https://github.com/letsencrypt/letsencrypt /opt/letsencrypt`
+
+    ```shell
+    sudo git clone https://github.com/letsencrypt/letsencrypt /opt/letsencrypt
+    ```
+
     This will copy the **letsencypt** repository to `/opt/letsencrypt`
 - Confirm no applications are listening to port 80:
-    `netstat -na | grep ':80.*LISTEN'`
+
+    ```shell
+    netstat -na | grep ':80.*LISTEN'
+    ```
+
     If any processes are returned, kill them.
 - Get Certificate from Let's Encrypt
     Change to Let's Encrypt repository location
-    `cd /opt/letsencrypt`
+
+    ```shell
+    cd /opt/letsencrypt
+    ```
+
     Run the Standalone plugin. (This will open a web server listening on port 80 to validate the server).
 
-```
-./letsencrypt-auto certonly --standalone --email <emailaddress@email.com> -d <domain.com> -d <subdomain.domain.com>
-```
+    ```shell
+    ./letsencrypt-auto certonly --standalone --email <emailaddress@email.com> -d <domain.com> -d <subdomain.domain.com>
+    ```
 
 _Note: Second (or more) domain is optional._
 
@@ -88,187 +93,201 @@ _Note: Second (or more) domain is optional._
     - **chain.pem** - Let's Encrypt chain certificate
     - **fullchain.pem** - both the above certs (This will be your **certificate file**)
     - **privkey.pem** - certificate's private key (This will be your **certificate key file**).
-  Confirm by listing the following directory
-  `sudo ls /etc/letsencrypt/live/<domain.com>`
+- Confirm by listing the following directory:
 
-### 5. Configure Nginx web server with TLS/SSL
+    ```shell
+    sudo ls /etc/letsencrypt/live/<domain.com>
+    ```
+
+## Configure Nginx web server with TLS/SSL
 
 1. Install Nginx web server.
-    `sudo apt-get install nginx`
-2. Edit the Nginx configuration file.
-    - Backup the default config file for reference:
-    `cd /etc/nginx/sites-available`
-    `sudo mv default default.reference`
-    - Create a new file with the following contents. Replace `ABC.DOMAIN.COM` with your domain (it appears 4 times below). Make sure to update it in the path to your key files as well.
 
-   `sudo nano /etc/nginx/sites-available/default`
+    ```shell
+    sudo apt-get install nginx
+    ```
 
-```bash
-server {
-listen 443 ssl;
-server_name <ABC.DOMAIN.COM>;
-ssl_certificate /etc/letsencrypt/live/<ABC.DOMAIN.COM>/fullchain.pem;
-ssl_certificate_key /etc/letsencrypt/live/<ABC.DOMAIN.COM>/privkey.pem;
-ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
-ssl_prefer_server_ciphers on;
-ssl_ciphers 'EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH';
-root /usr/share/nginx/html;
-index index.html index.htm;
-# Make site accessible from http://localhost/
-server_name localhost;
-location / {
-    proxy_pass http://localhost:3000/;
-    proxy_http_version 1.1;
-    proxy_set_header Upgrade $http_upgrade;
-    proxy_set_header Connection "upgrade";
-    proxy_set_header Host $http_host;
-    proxy_set_header X-Real-IP $remote_addr;
-    proxy_set_header X-Forward-For $proxy_add_x_forwarded_for;
-    proxy_set_header X-Forward-Proto http;
-    proxy_set_header X-Nginx-Proxy true;
-    proxy_redirect off;
-}
-}
-server {
-listen 80;
-server_name <ABC.DOMAIN.COM>;
-return 301 https://$host$request_uri;
-}
-```
+2. Backup the default config file for reference:
 
-```
-- Explanation: remove the listen to port 80 by default and replace with port 443 ssl as well as giving the path to the certificate. Restrict to certain SSL protocols and ciphers (you may add more if you like). In the location section, use Nginx as a proxy to forward to port 3000 (where Rocket.Chat is set up. Create a second server block listening on port 80 that will redirect to https."
-- Write & exit
-- Stop Nginx:
-`sudo service nginx stop`
-- Test starting Nginx to make sure there are no syntax errors in your configuration file. If there are errors in your file, it will give you a clue as to the issue.
-`sudo nginx -t`
-- If the syntax test is successful, Start Nginx:
-`sudo service nginx start`
-- Confirm that it is running properly by opening a web browser and going to your domain name. You will get a page stating **502 Bad Gateway** This is expected. Look above, next to the domain name, you should see a lock icon. If you click this, you should be able to see the certificates, where your browser will verify that Let's Encrypt Authority X1 issued this website's certificate, as well as a report of which cipher is being used.
-- Note: The certificate will expire in 90 days
-- ** TODO: Add script for auto-renewal of certificate.
-```
+    ```shell
+    cd /etc/nginx/sites-available
+    sudo mv default default.reference
+    ```
 
-### 6. Install Docker & Docker Compose
+3. Create a new site configuration for Rocket.Chat:
+
+    ```shell
+    sudo nano /etc/nginx/sites-available/default
+    ```
+
+    ```bash
+    server {
+    listen 443 ssl;
+    server_name <ABC.DOMAIN.COM>;
+    ssl_certificate /etc/letsencrypt/live/<ABC.DOMAIN.COM>/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/<ABC.DOMAIN.COM>/privkey.pem;
+    ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+    ssl_prefer_server_ciphers on;
+    ssl_ciphers 'EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH';
+    root /usr/share/nginx/html;
+    index index.html index.htm;
+    # Make site accessible from http://localhost/
+    server_name localhost;
+    location / {
+        proxy_pass http://localhost:3000/;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header Host $http_host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forward-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forward-Proto http;
+        proxy_set_header X-Nginx-Proxy true;
+        proxy_redirect off;
+    }
+    }
+    server {
+    listen 80;
+    server_name <ABC.DOMAIN.COM>;
+    return 301 https://$host$request_uri;
+    }
+    ```
+
+    Make sure to replace `ABC.DOMAIN.COM` with your domain (it appears 4 times below). Make sure to update it in the path to your key files as well:
+
+    - Explanation: remove the listen to port 80 by default and replace with port 443 ssl as well as giving the path to the certificate. Restrict to certain SSL protocols and ciphers (you may add more if you like). In the location section, use Nginx as a proxy to forward to port 3000 (where Rocket.Chat is set up. Create a second server block listening on port 80 that will redirect to https."
+    - Write & exit
+    - Stop Nginx:
+
+        ```shell
+        sudo service nginx stop
+        ```
+
+    - Test starting Nginx to make sure there are no syntax errors in your configuration file. If there are errors in your file, it will give you a clue as to the issue.
+
+        ```shell
+        sudo nginx -t
+        ```
+
+    - If the syntax test is successful, Start Nginx:
+
+        ```shell
+        sudo service nginx start
+        ```
+
+    - Confirm that it is running properly by opening a web browser and going to your domain name. You will get a page stating **502 Bad Gateway** This is expected. Look above, next to the domain name, you should see a lock icon. If you click this, you should be able to see the certificates, where your browser will verify that Let's Encrypt Authority X1 issued this website's certificate, as well as a report of which cipher is being used.
+    - Note: The certificate will expire in 90 days
+    - ** TODO: Add script for auto-renewal of certificate.
+
+## Install Docker & Docker Compose
 
 1. SSH to your instance
-    `ssh -i <path_to_key_file.pem> ubuntu@<public_ip_address>`
+
+    ```shell
+    ssh -i <path_to_key_file.pem> ubuntu@<public_ip_address>
+    ```
+
     Note: You may replace <public_ip_address> with domain name if your DNS has resolved.
 2. Install Docker (and any dependencies)
-    `sudo wget -qO- https://get.docker.com/ | sh`
+
+    ```shell
+    sudo wget -qO- https://get.docker.com/ | sh
+    ```
+
 3. Add ubuntu user to docker group to use Docker as a non-root user.
-    `sudo usermod -aG docker ubuntu`
+
+    ```shell
+    sudo usermod -aG docker ubuntu
+    ```
+
 4. Install Docker Compose:
-    `sudo -i`
-    `curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-compose-Linux-x86_64 > /usr/local/bin/docker-compose`
-    `chmod +x /usr/local/bin/docker-compose`
-    `exit`
+
+    ```shell
+    sudo -i
+    curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+    chmod +x /usr/local/bin/docker-compose
+    exit
+    ```
+
 5. Logout, and log back in again.
-    `exit`
+
+    ```shell
+    exit
+    ```
+
 6. SSH to your instance again following the directions above
 
-### 7. Set up Docker Containers
+## Set up Docker containers
 
 1. Create local directories
-    `sudo mkdir -p /var/www/rocket.chat/data/runtime/db`
-    `sudo mkdir -p /var/www/rocket.chat/data/dump`
+
+    ```shell
+    sudo mkdir -p /var/www/rocket.chat/data/runtime/db
+    sudo mkdir -p /var/www/rocket.chat/data/dump
+    ```
+
 2. Create docker-compose.yml, **replacing the ROOT_URL of ABC.DOMAIN.COM with your site**
-    `sudo nano /var/www/rocket.chat/docker-compose.yml`
 
-```
-version: '2'
+    ```shell
+    sudo nano /var/www/rocket.chat/docker-compose.yml
+    ```
 
-services:
-  rocketchat:
-    image: rocket.chat:latest
-    restart: unless-stopped
-    volumes:
-      - ./uploads:/app/uploads
-    environment:
-      - PORT=3000
-      - ROOT_URL=https://<ABC.DOMAIN.COM>
-      - MONGO_URL=mongodb://mongo:27017/rocketchat
-      - MONGO_OPLOG_URL=mongodb://mongo:27017/local
-      - Accounts_UseDNSDomainCheck=True
-    depends_on:
-      - mongo
-    ports:
-      - 3000:3000
+    ```
+    version: '2'
 
-  mongo:
-    image: mongo
-    restart: unless-stopped
-    volumes:
-     - .data/runtime/db:/data/db
-     - ./data/dump:/dump
-    command: mongod --smallfiles --oplogSize 128 --replSet rs0 --storageEngine=mmapv1
+    services:
+    rocketchat:
+        image: rocket.chat:latest
+        restart: unless-stopped
+        volumes:
+        - ./uploads:/app/uploads
+        environment:
+        - PORT=3000
+        - ROOT_URL=https://<ABC.DOMAIN.COM>
+        - MONGO_URL=mongodb://mongo:27017/rocketchat
+        - MONGO_OPLOG_URL=mongodb://mongo:27017/local
+        - Accounts_UseDNSDomainCheck=True
+        depends_on:
+        - mongo
+        ports:
+        - 3000:3000
 
-  # this container's job is just to run the command to initialize the replica set.
-  # it will run the command and remove himself (it will not stay running)
-  mongo-init-replica:
-    image: mongo
-    command: 'bash -c "for i in `seq 1 30`; do mongo mongo/rocketchat --eval \"rs.initiate({ _id: ''rs0'', members: [ { _id: 0, host: ''localhost:27017'' } ]})\" && s=$$? && break || s=$$?; echo \"Tried $$i times. Waiting 5 secs...\"; sleep 5; done; (exit $$s)"'
-    depends_on:
-      - mongo
-```
+    mongo:
+        image: mongo:4.0
+        restart: unless-stopped
+        command: mongod --smallfiles --oplogSize 128 --replSet rs0 --storageEngine=mmapv1
+        volumes:
+        - ./data/runtime/db:/data/db
+        - ./data/dump:/dump
 
-- Write & Exit
+    # this container's job is just to run the command to initialize the replica set.
+    # it will run the command and remove himself (it will not stay running)
+    mongo-init-replica:
+        image: mongo:4.0
+        command: >
+        bash -c
+            "for i in `seq 1 30`; do
+            mongo mongo/rocketchat --eval \"
+                rs.initiate({
+                _id: 'rs0',
+                members: [ { _id: 0, host: 'localhost:27017' } ]})\" &&
+            s=$$? && break || s=$$?;
+            echo \"Tried $$i times. Waiting 5 secs...\";
+            sleep 5;
+            done; (exit $$s)"
+        depends_on:
+        - mongo
+    ```
 
-### 8. Automatic start & restarting with Systemd
+    - Write & Exit
+3. Start containers:
 
-- Create unit file for MongoDB
+    ```shell
+    cd /var/www/rocket.chat
+    docker-compose up -d
+    ```
 
-`sudo nano /etc/systemd/system/rocketchat_mongo.service`
-
-```bash
-[Unit]
-Description=MongoDB for Rocket.Chat
-
-[Service]
-User=root
-WorkingDirectory=/var/www/rocket.chat
-ExecStart=/usr/local/bin/docker-compose up db
-Restart=on-failure
-RestartSec=120s
-```
-
-- Save and Exit.
-- Create the unit file for Rocket.Chat
-
-`sudo nano /etc/systemd/system/rocketchat.service`
-
-```bash
-[Unit]
-Description=Rocket.Chat Service
-After=rocketchat_mongo
-
-[Service]
-User=root
-WorkingDirectory=/var/www/rocket.chat
-ExecStart=/usr/local/bin/docker-compose up rocketchat
-Restart=on-failure
-RestartSec=120s
-```
-
-Now we need to make systemd aware of these files:
-`systemctl daemon-reload`
-
-Now we need to enable them so they will automatically start:
-
-```
-systemctl enable rocketchat
-systemctl enable rocketchat_mongo
-```
-
-Finally start them:
-
-```
-systemctl start rocketchat_mongo
-systemctl start rocketchat
-```
-
-### 9. Use it
+## Use it
 
 1. Login to your site at `https://ABC.DOMAIN.COM`
     - Note: the first user to login will be an administrator

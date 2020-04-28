@@ -57,9 +57,10 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 | Url                                           | Short Description                                               | Details Page                                 |
 | :-------------------------------------------- | :-------------------------------------------------------------- | :------------------------------------------- |
-| `/api/v1/users.presence`                        | Gets all connected users presence.                                          | [Link](users/presence/)                        |
+| `/api/v1/users.presence`                      | Gets all connected users presence.                              | [Link](users/presence/)                      |
 | `/api/v1/users.create`                        | Create a new user.                                              | [Link](users/create/)                        |
 | `/api/v1/users.createToken`                   | Create a user authentication token.                             | [Link](users/createtoken/)                   |
+| `/api/v1/users.deactivateIdle`                | Deactivate idle users.                                          | [Link](users/deactivateIdle/)                |
 | `/api/v1/users.delete`                        | Deletes an existing user.                                       | [Link](users/delete/)                        |
 | `/api/v1/users.deleteOwnAccount`              | Deletes your own user.                                          | [Link](users/deleteownaccount/)              |
 | `/api/v1/users.forgotPassword`                | Send email to reset your password.                              | [Link](users/forgotpassword/)                |
@@ -68,16 +69,19 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/users.getPersonalAccessTokens`       | Gets the user's personal access tokens.                         | [Link](users/getpersonalaccesstokens/)       |
 | `/api/v1/users.getPreferences`                | Gets all preferences of user.                                   | [Link](users/get-preferences/)               |
 | `/api/v1/users.getPresence`                   | Gets the online presence of a user.                             | [Link](users/getpresence/)                   |
+| `/api/v1/users.getStatus` | Gets the user's status. | [Link](users/getstatus/) |
 | `/api/v1/users.getUsernameSuggestion`         | Gets a suggestion a new username to user.                       | [Link](users/getusernamesuggestion/)         |
 | `/api/v1/users.info`                          | Gets a user's information, limited to the caller's permissions. | [Link](users/info/)                          |
 | `/api/v1/users.list`                          | All of the users and their information, limited to permissions. | [Link](users/list/)                          |
 | `/api/v1/users.regeneratePersonalAccessToken` | Regenerate a user personal access token.                        | [Link](users/regeneratepersonalaccesstoken/) |
 | `/api/v1/users.register`                      | Register a new user.                                            | [Link](users/register/)                      |
+| `/api/v1/users.removeOtherTokens`             | Remove all other user tokens                                    | [Link](users/removeOtherTokens/)             |
 | `/api/v1/users.removePersonalAccessToken`     | Remove a personal access token.                                 | [Link](users/removepersonalaccesstoken/)     |
 | `/api/v1/users.requestDataDownload`           | Request users download data.                                    | [Link](users/requestDataDownload/)           |
 | `/api/v1/users.resetAvatar`                   | Reset a user's avatar                                           | [Link](users/resetavatar/)                   |
 | `/api/v1/users.setAvatar`                     | Set a user's avatar                                             | [Link](users/setavatar/)                     |
 | `/api/v1/users.setPreferences`                | Set user's preferences                                          | [Link](users/set-preferences/)               |
+| `/api/v1/users.setStatus` | Set the user's status | [Link](users/setstatus/) |
 | `/api/v1/users.setActiveStatus`               | Set a user's active status.                                     | [Link](users/setactivestatus/)               |
 | `/api/v1/users.update`                        | Update an existing user.                                        | [Link](users/update/)                        |
 | `/api/v1/users.updateOwnBasicInfo`            | Update basic information of own user.                           | [Link](users/updateownbasicinfo/)            |

@@ -54,6 +54,7 @@ Here you can also find what articles are incomplete and missing.
         - Koozali
         - Layershift
         - OpenShift
+        - Oracle
         - ReadySpace
         - Sandstorm.io
         - Scalingo
@@ -464,6 +465,7 @@ Here you can also find what articles are incomplete and missing.
             - presence
             - create
             - createToken
+            - deactivateIdle
             - delete
             - deleteOwnAccount
             - forgotPassword
@@ -472,17 +474,20 @@ Here you can also find what articles are incomplete and missing.
             - getPersonalAccessTokens
             - getPresence
             - get-preferences
+            - getStatus
             - getUsernameSuggestion
             - info
             - list
             - regeneratePersonalAccessToken
             - register
+            - removeOtherTokens
             - removePersonalAccessToken
             - requestDataDownload
             - resetAvatar
             - setAvatar
             - set-preferences
             - setActiveStatus
+            - setStatus
             - update
             - updateOwnBasicInfo
         - Video Conference:

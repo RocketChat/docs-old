@@ -1,8 +1,7 @@
 ---
-permalink: /contributing/google-season-of-docs-2019/
-
+permalink: "/contributing/google-season-of-docs-2019/"
 redirect_from:
-  - /contributing/google-season-of-docs/
+- "/contributing/google-season-of-docs/"
 ---
 
 [![Google Season of Docs 2019](https://github.com/Sing-Li/bbug/raw/master/images/gsodlogo.png)](https://developers.google.com/season-of-docs/)
