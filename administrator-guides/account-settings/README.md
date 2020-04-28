@@ -32,6 +32,32 @@ Clicking on the <button>`Reset`</button> button will reset all these basic confi
 - **Idle Time Limit**: Sets how long _in miliseconds_ for a User to go idle.
 - **Notification Duration**: This will set how long _in miliseconds_ for a notification to be displayed.
 - **Require Interaction to Dismiss Desktop Notification**: Enabling this will set the notification prompt active untill the User interacts with it.
+- **Audio Notifications Default Alert**: A dropdown to select when to play the default audio notification. Default to _Mentions_.
+- **Desktop Notifications Default Alert**: Lets you set when the desktop notificaion alert is triggered. Default is _All messages_. THis only concerns the groups and channels the user belongs to.
+- **Mobile Notifications Default Alert**: Sets when the default notification alert will play on mobile devices.
+- **Unread Tray Icon Alert**: Setting this to false will stop the unread tray icon from displaying.
+- **Use Emojis**: Setting this to false will disable the use of emojis.
+- **Convert ASCII to Emoji**: When this is true, ASCII characters will be converted to emoji.
+- **Auto Load Images**: Seting this to false will prevent images from auto loading when a room/chat is opened.
+- **Save Mobile Bandwidth**: When enabled acts like a data saver.
+- **Collapse Embedded Media by Default**: Setting this to true will cause embedded media cards to collapse.
+- **Hide Usernames**: When enabled, it'll hind usernames in conversation rooms.
+- **Hide Roles**: When set to true, user roles like _admin_, _moderator_ will not be shown in chat rooms.
+- **Hide Right Sidebar with Click**: Setting this true will give ability for the right sidebar to be hidden.
+- **Hide Avatars**: Enabling this will make users avatar not to show in chat.
+- **Group by Type**: This lets you group converstions by type.
+- **Sidebar Channel List Mode**: Lets you choose from _Extended, Medium, Condensed_ how the sidebar should be.
+- **Hide Avatars in Sidebar**: Enabling this will disable avatars from showing at the sidebar.
+- **Unread on top**: Setting this to true will display all unread messages at the top.
+- **Group favorites**: Setting this to false will disable favoriting groups.
+- **Enter key Behaviour**: Let's you configure the action of the Enter key.
+- **MessageBox View Mode**: Lets you select how message boxes appear.
+- **Offline Email Notifications**: Lets you set when users should recieve email notifications.
+- **New Room Notification**: Configures the notification when a new room is created/joined.
+- **New Message Notification**: Lets you select the notification for new messages.
+- **Mute Focused Conversations**: When set to true, no notification will be sent for focused/open conversations.
+- **Notifications sound volume**: Lets you set the notification volume.
+- **Group discussions**: When set to true allows for group discussion.
 
 ## Avatar
 
@@ -45,6 +71,12 @@ Clicking on the <button>`Reset`</button> button will reset all these basic confi
 ## Iframe
 
 These settings are related to the Iframe Integration, please see the [Iframe integration page](../../developer-guides/iframe-integration) for more details.
+
+## Password Policy
+
+**Enable Password Policy**: When this is set to true, new passwords must follow the corresponding configured polices.
+
+The various settings that fall under this have simple descriptions for understanding.
 
 ## Registration
 
