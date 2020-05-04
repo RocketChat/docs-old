@@ -127,6 +127,24 @@ Some DNS providers will not allow setting `_https` or `_http` on SRV records, so
 * Host: `rocketchat-tcp-protocol.chat.mydomain.com`
 * Value: `https` or `http`
 
+#### Test your configuration from cli
+
+From your cli, issue the following commands and make sure the answers look like the following:
+
+```
+dig srv _rocketchat._https.chat.mydomain.com
+...
+;; ANSWER SECTION:
+_rocketchat._https.chat.mydomain.com. 1800 IN SRV	1 1 443 chat.mydomain.com.
+...
+
+dig -t txt rocketchat-public-key.chat.mydomain.com
+...
+;; ANSWER SECTION:
+rocketchat-public-key.chat.mydomain.com. 1799 IN TXT "-----BEGIN PUBLIC KEY----- THEPUBLICKEY :) -----END PUBLIC KEY-----"
+...
+```
+
 #### Conclusion
 
 When the SRV and the Public Key TXT records are added to the DNS records, other peers should be able to find you after the propagation.
