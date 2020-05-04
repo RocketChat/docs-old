@@ -20,6 +20,7 @@ Now that you have the app installed in your server, it is time to configure the 
 - For other users to be able to use the Zoom App, their Rocket.Chat registered emails need to be the same as registered at Zoom.
 
 ### Step 1: JWT App at Zoom Marketplace
+
 You'll need to create a new JWT app at [Zoom's Marketplace](https://marketplace.zoom.us/).
 
 - Sign in at [marketplace.zoom.us](https://marketplace.zoom.us/)
@@ -30,6 +31,7 @@ You'll need to create a new JWT app at [Zoom's Marketplace](https://marketplace.
 - At the App Credentials tab page, *get the app's API Key and API Secret*.
 
 ### Step 2: Configure the Slash command at Rocket.Chat
+
 - Go to the settings of the Zoom App in **Administration > Apps > Zoom**
 - Place the API Key and API Secret at their respective fields and save.
 
