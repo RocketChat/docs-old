@@ -1,8 +1,7 @@
 ---
-permalink: /contributing/google-summer-of-code-2019/
-
+permalink: "/contributing/google-summer-of-code-2019/"
 redirect_from:
-  - /contributing/google-summer-of-code/
+- "/contributing/google-summer-of-code/"
 ---
 
 [![Google Summer of Code 2019](https://github.com/Sing-Li/bbug/raw/master/images/gsoclogo.jpg)](https://summerofcode.withgoogle.com/)

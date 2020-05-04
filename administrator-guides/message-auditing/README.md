@@ -1,7 +1,7 @@
 ---
+permalink: "/administrator-guides/message-auditing/"
 official: true
 enterprise: true
-permalink: /administrator-guides/message-auditing/
 ---
 
 # Message Auditing Panel
