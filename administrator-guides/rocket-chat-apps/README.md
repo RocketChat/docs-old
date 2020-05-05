@@ -8,9 +8,10 @@ If you have enabled Rocket.Chat Apps on your server, you can access our marketpl
 
 >**Note**: Different Rocket.Chat Apps might have different installation steps.
 
-## Atlassian Bundle
+## Enterprise Bundle
 
 - [Jira Server Integration](jira-server-integration/)
 - [Bitbucket Server Integration](bitbucket-server-integration/)
 - [Bamboo Integration](bamboo-integration/)
 - [Confluence Server Integration](confluence-server-integration/)
+- [Zoom](zoom/)
