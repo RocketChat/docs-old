@@ -12,6 +12,33 @@ redirect_from:
 
 Application for Google Summer of Code 2020 is now closed.  Please see [GSoC timeline](#timeline) for more details.
 
+### Update on May 5, 2020
+
+2020 is another exciting year for GSoC at Rocket.Chat. Thanks to the ethusiastic early support from students and community, the program has managed to sustain momentum despite COVID-19 downturn and reduced participation from core. Google has graciously granted us **SEVEN** project slots. As a result, we are delighted to welcome these 7 active community members to work with us during the GSoC 2020 season:
+
+|Student|Project|Mentors|
+|-------|-------|-------|
+|Ashwani Yadav|Omnichannel: Add screen sharing feature in the Livechat widget|Guilherme Gazzo, Renato Becker, Tasso Evangelista, Marcos Defendi|
+|Ritwiz Sinha|Apps-CLI: Hot reload apps during development|Douglas Gubert, Shiqi Mei, Rodrigo Nascimento|
+|Ezequiel Reis|Full-screen composer option to send/edit long messages on mobile apps|Djorkaeff Alexandre, Ramkumar Kalpathy,  Diego Mello|, Rowan S|
+|Govind Dixit|Create F-Droid build|Diego Mello, Djorkaeff Alexandre|
+|Adarsh Naidu|Alexa Skill(s) Improvement|Ashish Jha, Prajval Raval, Weng Wei|
+|Murtaza Patrawala|Omnichannel: Chatbot support for RASA and Dialogflow| Renato Becker, Marcos Defendi, David Lassalle, Steve Stetak|
+|Taimur Azhar|Download manager on desktop app|Tasso Evangelista, Guilherme Gazzo, Eduarda Cunha, Gabriel Henriques|
+
+It was a very difficult decision for us to select *seven* from the large number of highly qualified students (we were able to engage the students early on in the GSoC cycle with open source contributions via the [GSoC Leaderboard](https://gsoc.rocket.chat/) ).
+
+While some high calibre open source contributors were not selected for GSoC; to accomodate these exceptional students,  our community member [Viasat](https://www.viasat.com/) has agreed to sponsor an additional TWO projects this season.
+
+|Student|Sponsored Project|Mentors|
+|-------|-------|-------|
+|Subham Sahoo|Live agent and chatbot handoff app|David Lassalle, Steve Stetak, Renato Becker, Marcos Defendi|
+|Kashish Jayasi|Rocket.Chat mobile site|Peter Lepeska, Eric Rosenthal, Karan Bedi|
+
+This, in combination, allowed us to accomodate a total of **NINE** ethusiastic students this summer season.
+
+All students and mentors are now busy mutually bonding and with our core team and greater community.  Each mentor is also working with his/her student on refining the weekly and monthly milestones/deliverables within the proposal to better reflect achievable project objectives as well as making them measurable for the monthly evaluations. Meanwhile, all our students are continuing to contribute to the Rocket.Chat open source project(s) as they have been doing since the start of the GSoC 2019 cycle. Many are also engaging with community members on the various public channels of our 24 x 7 [community team server](https://open.rocket.chat).
+
 ### Update March 31st, 2020
 
 First, we would like to thank all GSoC 2020 students for their ethusiastic support for Rocket.Chat.  This year we have received a total of **86** proposals, including **81** final proposals. In the final pool, there are 13 proposals that are spam, without content, or not related to our projects.
