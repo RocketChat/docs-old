@@ -50,7 +50,7 @@ For a user to be able to invite others, they must have any of the following perm
 
 - `Add User to Any Public Channel`: Set to true for _admin_ role by default.
 - `Add User to Any Private Channel`: Not enabled for any role by default.
-- `Add User to Any Joined Channel`: Enabled for _admin, moderator, owner_ by default. 
+- `Add User to Any Joined Channel`: Enabled for _admin, moderator, owner_ by default.
 
 ## Change Log
 
