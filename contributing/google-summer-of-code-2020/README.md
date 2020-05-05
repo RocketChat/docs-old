@@ -28,7 +28,7 @@ Application for Google Summer of Code 2020 is now closed.  Please see [GSoC time
 
 It was a very difficult decision for us to select *seven* from the large number of highly qualified students (we were able to engage the students early on in the GSoC cycle with open source contributions via the [GSoC Leaderboard](https://gsoc.rocket.chat/) ).
 
-While some high calibre open source contributors were not selected for GSoC; to accomodate these exceptional students,  our community member [Viasat](https://www.viasat.com/) has agreed to sponsor an additional TWO projects this season.  
+While some high calibre open source contributors were not selected for GSoC; to accomodate these exceptional students,  our community member [Viasat](https://www.viasat.com/) has agreed to sponsor an additional TWO projects this season.
 
 |Student|Sponsored Project|Mentors|
 |-------|-------|-------|
