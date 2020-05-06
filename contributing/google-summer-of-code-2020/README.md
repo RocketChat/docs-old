@@ -20,7 +20,7 @@ Application for Google Summer of Code 2020 is now closed.  Please see [GSoC time
 |-------|-------|-------|
 |Ashwani Yadav|Omnichannel: Add screen sharing feature in the Livechat widget|Guilherme Gazzo, Renato Becker, Tasso Evangelista, Marcos Defendi|
 |Ritwiz Sinha|Apps-CLI: Hot reload apps during development|Douglas Gubert, Shiqi Mei, Rodrigo Nascimento|
-|Ezequiel Reis|Full-screen composer option to send/edit long messages on mobile apps|Djorkaeff Alexandre, Ramkumar Kalpathy,  Diego Mello|, Rowan S|
+|Ezequiel Reis|Full-screen composer option to send/edit long messages on mobile apps|Djorkaeff Alexandre, Ramkumar Kalpathy,  Diego Mello, Rowan Youngson|
 |Govind Dixit|Create F-Droid build|Diego Mello, Djorkaeff Alexandre|
 |Adarsh Naidu|Alexa Skill(s) Improvement|Ashish Jha, Prajval Raval, Weng Wei|
 |Murtaza Patrawala|Omnichannel: Chatbot support for RASA and Dialogflow| Renato Becker, Marcos Defendi, David Lassalle, Steve Stetak|
