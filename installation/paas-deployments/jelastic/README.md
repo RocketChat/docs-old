@@ -1,8 +1,7 @@
 # Deploying Rocket.Chat on Jelastic
-Rocket.Chat is installed automatically as an application based on prebuilt Docker containers on Jelastic PaaS which supports Java, PHP, Node.js, Ruby, Python, Docker and Kubernetes, available as public, private on-premise, virtual private, hybrid and multi-cloud.  
-  
-&nbsp;  
-&nbsp;  
+
+Rocket.Chat is installed automatically as an application based on prebuilt Docker containers on Jelastic PaaS which supports Java, PHP, Node.js, Ruby, Python, Docker and Kubernetes, available as public, private on-premise, virtual private, hybrid and multi-cloud.
+
 ## Rocket.Chat Deployment to the Cloud
 
 Get your Jelastic account at any of available [hosting provider](https://jelastic.cloud/).
@@ -13,26 +12,25 @@ Click the **DEPLOY TO JELASTIC** button, specify your email address within the w
 
 > **Note:** If you are already registered at Jelastic, you can deploy this application by [importing](https://docs.jelastic.com/environment-import) the  [package manifest raw link](https://raw.githubusercontent.com/jelastic-jps/rocket-chat/master/manifest.jps) or find Rocket.Chat application in the [Marketplace](https://docs.jelastic.com/marketplace) within the [dashboard](https://docs.jelastic.com/dashboard-guide).
 
-  
 ## Installation Process
 
-In the opened confirmation window at Jelastic dashboard, if required change:  
+In the opened confirmation window at Jelastic dashboard, if required change:
 
-* __Environment__ name  
+* __Environment__ name
 
-* __Display Name__  
+* __Display Name__
 
-* destination __[Region](https://docs.jelastic.com/environment-regions)__ if several are available  
+* destination __[Region](https://docs.jelastic.com/environment-regions)__ if several are available
 
 and click on __Install__.
 
-<p align="left"> 
+<p align="left">
 <img src="https://github.com/jelastic-jps/rocket-chat/raw/master/images/install.png" width="500">
 </p>
 
 Once the deployment is finished, you’ll see an appropriate success pop-up.
 
-<p align="left"> 
+<p align="left">
 <img src="https://github.com/jelastic-jps/rocket-chat/raw/master/images/success.png" width="350">
 </p>
 
@@ -42,6 +40,6 @@ For production mode, the installation will require a custom domain and traffic e
 
 The installation process itself looks simple.
 
-<p align="left"> 
+<p align="left">
 <img src="https://github.com/jelastic-jps/rocket-chat/raw/master/images/rocketchat.gif" width="1920">
 </p>
