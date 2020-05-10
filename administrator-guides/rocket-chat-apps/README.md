@@ -2,9 +2,17 @@
 
 Here you will find all guides about installing and managing Rocket.Chat Apps
 
-## Installing Apps
+## Where to find Rocket.chat Apps?
 
-If you have enabled Rocket.Chat Apps on your server, you can access our marketplace directly from the Admin Panel. Alternatively you can access our [marketplace](https://rocket.chat/marketplace) via browser.
+There are a number of apps available to increase the quality of your team workflow. You can add gif to spice up the chat or connect it with GitLab so that the team gets notified of new code changes. 
+
+You can browse these apps either on our [marketplace webpage](https://rocket.chat/marketplace) or access it directly from the Admin Panel.
+
+## How to install Rocket.chat Apps?
+
+In order to install Rocket.chat apps from the marketplace, first you need to register your workplace (even if it is community addition) on [Rocket Chat Cloud](https://cloud.rocket.chat/).
+
+Once your workplace is registered, you can install the apps from the marketpace from the Admin panel of your Rocket Chat instance.
 
 >**Note**: Different Rocket.Chat Apps might have different installation steps.
 
