@@ -2,6 +2,14 @@
 
 Adds a user to the channel.
 
+**NB:**
+
+For a user to be able to invite others, they must to match at least one of the premises below.
+
+- If the user is part of a room of any type and has the `add-user-to-joined-room` permission.
+- If the user is part of a public room (`t: 'c'`) and has the `add-user-to-any-c-room` permission.
+- If the user is part of a private room (`t: 'p'`) and has the `add-user-to-any-p-room` permission.
+
 | URL                       | Requires Auth | HTTP Method |
 | :------------------------ | :------------ | :---------- |
 | `/api/v1/channels.invite` | `yes`         | `POST`      |
@@ -43,14 +51,6 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
   "success": true
 }
 ```
-
-**NB:**
-
-For a user to be able to invite others, they must have any of the following permissions enabled depending on the group or channel type.
-
-- `Add User to Any Public Channel`: Set to true for _admin_ role by default.
-- `Add User to Any Private Channel`: Not enabled for any role by default.
-- `Add User to Any Joined Channel`: Enabled for _admin, moderator, owner_ by default.
 
 ## Change Log
 
