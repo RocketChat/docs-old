@@ -2,7 +2,7 @@
 
 Adds a user to the channel.
 
-**NB:**
+**Required Permissions**
 
 For a user to be able to invite others, they must to match at least one of the premises below.
 
