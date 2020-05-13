@@ -15,7 +15,7 @@ Currently rocketchatctl is supported in these Linux distributions:
 
 - Supported OS:
 
-    Ubuntu 18.04 and 19.04\
+    Ubuntu 18.04, 19.04, 20.04\
     CentOS 7\
     Debian 9
 
