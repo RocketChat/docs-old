@@ -2,9 +2,10 @@
 
 **IMPORTANT**
 <br>
-To be able to use this endpoint you must set the ENV VAR (CREATE_TOKENS_FOR_USERS).
+To be able to use this endpoint you must set the ENV VAR (CREATE_TOKENS_FOR_USERS=true).
 
-Create a user authentication token. Requires `user-generate-access-token` permission.
+Create a user authentication token. This is the same type of session token a user would get via login and will expire the same way.
+Requires `user-generate-access-token` permission.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
