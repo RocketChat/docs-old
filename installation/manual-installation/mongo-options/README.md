@@ -14,6 +14,7 @@ export MONGO_OPTIONS='{"sslCA":["'${TLS_CRT}'"],"sslCert":"'${PEM}'","sslKey":"'
 You might want to do this, for example, if you're backing Rocket Chat with a TLS-secured Mongo [replica set](https://docs.mongodb.com/manual/replication/) and need to pass certificates/PEM files, etc. to connect to it.
 
 If you see the following error during startup:
+
 ```
 MongoTimeoutError: Server selection timed out after 10000 ms
 ```
