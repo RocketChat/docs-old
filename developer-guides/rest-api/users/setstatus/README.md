@@ -11,7 +11,7 @@ Sets a user Status when the status message and state is given.
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `message` | `My status update.` | Required | The user's status message. |
-| `status` | `online` | Optional | The user's status like `online`, `away`, `busy`, `invisible`. |
+| `status` | `online` | Optional | The user's status like `online`, `away`, `busy`, `offline`. |
 
 ## Example Call
 
