@@ -4,7 +4,7 @@ Here you will find all guides about installing and managing Rocket.Chat Apps
 
 ## Where to find Rocket.chat Apps?
 
-There are a number of apps available to increase the quality of your team workflow. You can add gif to spice up the chat or connect it with GitLab so that the team gets notified of new code changes. 
+There are a number of apps available to increase the quality of your team workflow. You can add gif to spice up the chat or connect it with GitLab so that the team gets notified of new code changes.
 
 You can browse these apps either on our [marketplace webpage](https://rocket.chat/marketplace) or access it directly from the Admin Panel.
 
