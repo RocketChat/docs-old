@@ -48,7 +48,6 @@ Here you can also find what articles are incomplete and missing.
         - Galaxy
         - Google Computer Engine
         - Heroku
-        - Hyper.sh
         - IBM Bluemix
         - IndieHosters
         - Koozali
