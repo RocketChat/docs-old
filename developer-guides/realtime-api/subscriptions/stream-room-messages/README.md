@@ -13,7 +13,9 @@ This is the room messages stream. You just need the room ID for subscribing.
     ]
 }
 ```
+
 Unsuscribe from a room
+
  ```json
 {
     "msg": "unsub",
