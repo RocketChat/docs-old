@@ -8,4 +8,4 @@ Rocket.Chat can be installed on [Cloudron](https://cloudron.io) from the [Cloudr
 
 The source code for the Rocket.Chat package can be found [here](https://git.cloudron.io/cloudron/rocketchat-app).
 
-There is a demo at [https://my-demo.cloudron.me](https://my-demo.cloudron.me) (username: cloudron password: cloudron).
+There is a demo at [https://my.demo.cloudron.io](https://my.demo.cloudron.io) (username: cloudron password: cloudron).
