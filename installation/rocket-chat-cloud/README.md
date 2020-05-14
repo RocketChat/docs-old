@@ -20,7 +20,7 @@ Currently only credit/debit cards are accepted.
 
 ### How can I change my card info?
 
-If you need to change your card information please access the billing section of the [Cloud Console](https://cloud.rocket.chat).  
+If you need to change your card information please access the billing section of the [Cloud Console](https://cloud.rocket.chat).
 
 Note: You currently can't delete the last payment method if you have an active subscription.
 
@@ -39,10 +39,11 @@ Send an email to cloud.support@rocket.chat with the address of your workspace.  
 ### What regions do you have available?
 
 We currently have:
-* US (Virginia)
-* EU (Frankfurt)
+
+- US (Virginia)
+- EU (Frankfurt)
 
 If you would like to see a region that we don't have available please let us know.
 
 ## Additional Info
-You can find additional information in our support knowledge base found here: https://desk.rocket.chat/portal/kb/rocket-chat/cloud-account
+You can find additional information in our support knowledge base found here: <https://desk.rocket.chat/portal/kb/rocket-chat/cloud-account>
