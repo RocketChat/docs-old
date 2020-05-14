@@ -22,7 +22,7 @@ You may notice build WARNINGs related to _peer dependencies_  or other transitiv
 
     `curl https://install.meteor.com/ | sh`
 
-   (Under some circumstances, you may need to install a specific (older) release of Meteor instead of the latest, always check the `.meteor/release` file of the Github code repository to determine if you need to do this before you intall meteor)
+   (Under some circumstances, you may need to install a specific (older) release of Meteor instead of the latest, always check the `.meteor/release` file of the Github code repository to determine if you need to do this before you install meteor)
 
     There is no need to install `node` or `npm`, as meteor already includes them.  Verify by:
 

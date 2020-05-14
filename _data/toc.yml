@@ -34,7 +34,6 @@
     - Galaxy
     - Google Computer Engine
     - Heroku
-    - Hyper.sh
     - IBM Bluemix
     - IndieHosters
     - Koozali
@@ -162,6 +161,9 @@
     - Bitbucket Server Integration
     - Bamboo Integration
     - Confluence Server Integration
+  - White Labeling:
+    - Basic White Labeling
+    - Advanced White Labeling
   - Google Cloud:
     - Auto Translate
   # - Google Drive
@@ -170,6 +172,7 @@
     - Livechat Queues
     - Omnichannel Integration
     - WhatsApp Twilio
+  - Message Auditing
   - Notifications:
     - Push Notifications
   - Permissions
@@ -203,7 +206,10 @@
       - Supporting SSL
     - Developing Apps:
       - Getting Started
-    - Realtime-API:
+    - Two Factor:
+      - Realtime API
+      - REST API
+    - Realtime API:
       - Method Calls:
         - Login
         - Logout
@@ -339,6 +345,7 @@
       - Commands:
         - get
         - list
+        - preview
         - run
       - Custom Sounds:
         - list
@@ -441,10 +448,11 @@
         - list
         - update
       - Roles:
-        - create
-        - list
         - addUserToRole
+        - create
         - getUsersInRole
+        - list
+        - sync
       - Push:
         - push.token
         - deletePushToken
@@ -475,6 +483,7 @@
         - presence
         - create
         - createToken
+        - deactivateIdle
         - delete
         - deleteOwnAccount
         - forgotPassword
@@ -483,17 +492,20 @@
         - getPersonalAccessTokens
         - getPresence
         - get-preferences
+        - getStatus
         - getUsernameSuggestion
         - info
         - list
         - regeneratePersonalAccessToken
         - register
+        - removeOtherTokens
         - removePersonalAccessToken
         - requestDataDownload
         - resetAvatar
         - setAvatar
         - set-preferences
         - setActiveStatus
+        - setStatus
         - update
         - updateOwnBasicInfo
       - Video Conference:

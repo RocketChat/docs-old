@@ -29,11 +29,17 @@ Make sure to use a valid `JSON`, where `keys` are the `field names` containing a
   "required": true,
   "minLength": 2,
   "maxLength": 10
+ },
+ "crmUserId": {
+  "type": "text",
+  "required": false,
+  "minLength": 12,
+  "sendToIntegrations": true,
  }
 }
 ```
 
-In the example above we set two new fields with the following properties:
+In the example above we set three new fields with the following properties:
 
 - **type**: defines the type of the field, currently there are 2 types: `select` and `text`, where `select` creates a dropdown list, and `text` creates a plain text form.
 
@@ -56,5 +62,7 @@ In the example above we set two new fields with the following properties:
 - **public**: defines the field as visible for other users when looking at this user's profile.
 
 - **private**: defines the field as private, so only users with `view-full-other-user-info` permission can see this field when viewing this user's profile.
+
+- **sendToIntegrations**: define the field as shareable with external applications, such as Omnichannel integrations.
 
 **Note**: Fields work with `tabs` for indentation, avoid using `spaces`.

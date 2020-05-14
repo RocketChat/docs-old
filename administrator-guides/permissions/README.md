@@ -12,25 +12,25 @@ A `Role` is a set of permissions that can be given to users. Rocket.Chat already
 
 When someone is registered in a Rocket.Chat server, it will normally receive the `user`. If the user is a bot or a guest from a livechat channel, it can receive different roles. Also the first user of a server always receives the role of `admin`.
 
-Roles can have different scopes. Currently we have two scopes `Global` and `Rooms`. The permissions of the `Global` roles are valid for the whole server, while the `Rooms` roles only applies to individual channels, where a user have to be elected to that role in that channel.
+Roles can have different scopes. Currently we have two scopes `Users` and `Subscriptions`. The permissions of the `Users` roles are valid for the whole server, while the `Subscriptions` roles only apply to individual channels, where a user have to be elected to that role in that channel.
 
-An example of `Global` role would be an `admin`, that have permissions valid for the whole server, while a `moderator` that have a `Rooms` role would have permissions only in a channel that they were elected for that role.
+An example of `Users` role would be an `admin`, that have permissions valid for the whole server, while a `moderator` that have a `Subscriptions` role would have permissions only in a channel that they were elected for that role.
 
 Also, by default roles are shown as little tags on the side of a username on messages.
 
 ### Default Roles
 
-- **admin** `(Global)` - Have access to all settings and administrator tools.
-- **moderator** `(Rooms)` - Have moderation permissions for a channel. Has to be elected by a channel owner.
-- **owner** `(Rooms)` - Have owner permissions for a channel. When a user creates a channel they become the owner of that channel. They can also elect more owners for that channel.
-- **user** `(Global)` - Normal user rights. Most users receive this role when registering.
-- **bot** `(Global)` - Special Role for bot users, with some permissions related to bot functionality.
-- **leader** `(Rooms)` - it doesn't have any special permissions, but is used when setting a `leader` to a channel. Leaders appear on the header of a channel.
-- **anonymous** `(Global)` - unauthenticated users that access the server when the `Allow Anonymous Read` setting is activated.
-- **guest** `(Global)` - anonymous users that want to write and participate in channels when the `Allow Anonymous Read` and `Allow Anonymous Write` settings are activated.
-- **livechat-agent** `(Global)` - Agents of livechat. They can answer to livechat requests.
-- **livechat-manager** `(Global)` - Manager of livechat, they can manage agents and guest.
-- **livechat-guest** `(Global)` - Users coming from a livechat channel.
+- **admin** `(Users)` - Have access to all settings and administrator tools.
+- **moderator** `(Subscriptions)` - Have moderation permissions for a channel. Has to be elected by a channel owner.
+- **owner** `(Subscriptions)` - Have owner permissions for a channel. When a user creates a channel they become the owner of that channel. They can also elect more owners for that channel.
+- **user** `(Users)` - Normal user rights. Most users receive this role when registering.
+- **bot** `(Users)` - Special Role for bot users, with some permissions related to bot functionality.
+- **leader** `(Subscriptions)` - it doesn't have any special permissions, but is used when setting a `leader` to a channel. Leaders appear on the header of a channel.
+- **anonymous** `(Users)` - unauthenticated users that access the server when the `Allow Anonymous Read` setting is activated.
+- **guest** `(Users)` - anonymous users that want to write and participate in channels when the `Allow Anonymous Read` and `Allow Anonymous Write` settings are activated.
+- **livechat-agent** `(Users)` - Agents of livechat. They can answer to livechat requests.
+- **livechat-manager** `(Users)` - Manager of livechat, they can manage agents and guest.
+- **livechat-guest** `(Users)` - Users coming from a livechat channel.
 
 ## Permissions Available
 

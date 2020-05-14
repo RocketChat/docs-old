@@ -10,6 +10,7 @@ Here you'll learn how to use [Rocket.Chat](https://rocket.chat/) as a user.
 - [Login](login/)
 - [Talking to users from another server](talking-to-users-from-another-server/)
 - [Using Channels](channels/)
+- [Direct Messages between multiple users](direct-messages-between-multiple-users/)
 - [Messaging](messaging/)
 - [Message Actions](message-actions/)
 - [Channel Actions](channel-actions/)

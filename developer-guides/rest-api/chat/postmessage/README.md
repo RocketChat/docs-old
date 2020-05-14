@@ -1,5 +1,9 @@
 # Post a chat message
 
+## IMPORTANT
+
+You only can send `alias` and `avatar` properties if your user has the `bot` role. We implement this rule to avoid users to impersonate other users.
+
 | URL                        | Requires Auth | HTTP Method |
 | :------------------------- | :------------ | :---------- |
 | `/api/v1/chat.postMessage` | `yes`         | `POST`      |
@@ -138,6 +142,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description                                                                  |
 | :------ | :--------------------------------------------------------------------------- |
+| 2.4.0   | Added validation on user's identity                                          |
 | 0.49.0  | The `channel` can now be a room's id.                                        |
 | 0.48.0  | Information about the sent message is now returned.                          |
 | 0.17.0  | Messages aren't always processed as from BOT and urls are parsed by default. |

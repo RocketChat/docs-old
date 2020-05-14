@@ -1,8 +1,8 @@
 ---
-    permalink: /developer-guides/rest-api/rooms/cleanhistory/
-    redirect_from:
-      - /developer-guides/rest-api/channels/cleanhistory
-      - /developer-guides/rest-api/channels/cleanhistory/
+permalink: "/developer-guides/rest-api/rooms/cleanhistory/"
+redirect_from:
+- "/developer-guides/rest-api/channels/cleanhistory"
+- "/developer-guides/rest-api/channels/cleanhistory/"
 ---
 
 # Rooms Clean History

@@ -1,6 +1,10 @@
 # End to End Encryption
 
-> Note: This feature is currently in alpha.  Its also not yet supported on mobile
+> Note: This feature is currently in beta.
+> Encrypted messages of encrypted rooms will not be found by search operations.
+> The mobile apps may not support the encypted messages (currently under implementation).
+> Bots may not be able to see encrypted messages until they implement support for it.
+> Uploads will not be encrypted in this version.
 
 ## Getting started
 

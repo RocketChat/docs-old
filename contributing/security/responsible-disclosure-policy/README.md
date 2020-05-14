@@ -1,10 +1,10 @@
 ---
-permalink: /contributing/security/responsible-disclosure-policy/
-
+permalink: "/contributing/security/responsible-disclosure-policy/"
 redirect_from:
-  - /contributing/security/responsibledisclosurepolicy
-  - /contributing/security/responsibledisclosurepolicy/
+- "/contributing/security/responsibledisclosurepolicy"
+- "/contributing/security/responsibledisclosurepolicy/"
 ---
+
 # Responsible Disclosure Policy
 
 Please email the details to Rocket.Chat's security team at security@rocket.chat. You will then receive an e-mail with instruction on how to proceed with the disclosure.

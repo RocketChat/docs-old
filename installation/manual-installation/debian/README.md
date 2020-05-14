@@ -2,10 +2,10 @@
 
 This installation guide was tested in the following environment:
 
-- Rocket.Chat 1.0.2
+- Rocket.Chat 3.0.0
 - OS: Debian 9.7
 - Mongodb 4.0.9
-- NodeJS 8.11.4
+- NodeJS 12.14.0
 
 ## Install necessary dependency packages
 
@@ -26,7 +26,7 @@ echo "deb http://repo.mongodb.org/apt/debian stretch/mongodb-org/4.0 main" | sud
 Configure Node.js to be installed via package manager:
 
 ```bash
-sudo apt-get -y update && sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
+sudo apt-get -y update && sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
 ```
 
 Install build tools, MongoDB, nodejs and graphicsmagick:
@@ -38,7 +38,7 @@ sudo apt-get install -y build-essential mongodb-org nodejs graphicsmagick
 Using npm install inherits and n, and the node version requiere by Rocket.Chat:
 
 ```bash
-sudo npm install -g inherits n && sudo n 8.11.4
+sudo npm install -g inherits n && sudo n 12.14.0
 ```
 
 ## Install Rocket.Chat
@@ -92,7 +92,7 @@ WantedBy=multi-user.target
 EOF
 ```
 
-Open the Rocket.Chat service file just created (`/usr/lib/systemd/system/rocketchat.service`) using sudo and your favourite text editor, and change the ROOT_URL environmental variable to reflect the URL you want to use for accessing the server (optionally change MONGO_URL, MONGO_OPLOG_URL and PORT):
+Open the Rocket.Chat service file just created (`/lib/systemd/system/rocketchat.service`) using sudo and your favourite text editor, and change the ROOT_URL environmental variable to reflect the URL you want to use for accessing the server (optionally change MONGO_URL, MONGO_OPLOG_URL and PORT):
 
 ```bash
 MONGO_URL=mongodb://localhost:27017/rocketchat?replicaSet=rs01

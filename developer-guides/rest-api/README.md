@@ -21,7 +21,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | Url                       | Short Description                                         | Details Page                           |
 | :------------------------ | :-------------------------------------------------------- | :------------------------------------- |
 | `/api/info`               | Information about the Rocket.Chat server.                 | [Link](miscellaneous/info/)            |
-| `/api/v1/directory`       | Search by users or channels on all server.                | [Link](miscellaneous/directory/)       |
+| `/api/v1/directory`       | Search by all users and channels available on server.     | [Link](miscellaneous/directory/)       |
 | `/api/v1/shield.svg`      | Gets the shield svg(badge) to add in your website.        | [Link](miscellaneous/shield-svg/)      |
 | `/api/v1/spotlight`       | Searches for users or rooms that are visible to the user. | [Link](miscellaneous/spotlight/)       |
 | `/api/v1/statistics`      | Statistics about the Rocket.Chat server.                  | [Link](miscellaneous/statistics/)      |
@@ -57,9 +57,10 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 | Url                                           | Short Description                                               | Details Page                                 |
 | :-------------------------------------------- | :-------------------------------------------------------------- | :------------------------------------------- |
-| `/api/v1/users.presence`                        | Gets all connected users presence.                                          | [Link](users/presence/)                        |
+| `/api/v1/users.presence`                      | Gets all connected users presence.                              | [Link](users/presence/)                      |
 | `/api/v1/users.create`                        | Create a new user.                                              | [Link](users/create/)                        |
 | `/api/v1/users.createToken`                   | Create a user authentication token.                             | [Link](users/createtoken/)                   |
+| `/api/v1/users.deactivateIdle`                | Deactivate idle users.                                          | [Link](users/deactivateIdle/)                |
 | `/api/v1/users.delete`                        | Deletes an existing user.                                       | [Link](users/delete/)                        |
 | `/api/v1/users.deleteOwnAccount`              | Deletes your own user.                                          | [Link](users/deleteownaccount/)              |
 | `/api/v1/users.forgotPassword`                | Send email to reset your password.                              | [Link](users/forgotpassword/)                |
@@ -68,16 +69,19 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/users.getPersonalAccessTokens`       | Gets the user's personal access tokens.                         | [Link](users/getpersonalaccesstokens/)       |
 | `/api/v1/users.getPreferences`                | Gets all preferences of user.                                   | [Link](users/get-preferences/)               |
 | `/api/v1/users.getPresence`                   | Gets the online presence of a user.                             | [Link](users/getpresence/)                   |
+| `/api/v1/users.getStatus` | Gets the user's status. | [Link](users/getstatus/) |
 | `/api/v1/users.getUsernameSuggestion`         | Gets a suggestion a new username to user.                       | [Link](users/getusernamesuggestion/)         |
 | `/api/v1/users.info`                          | Gets a user's information, limited to the caller's permissions. | [Link](users/info/)                          |
 | `/api/v1/users.list`                          | All of the users and their information, limited to permissions. | [Link](users/list/)                          |
 | `/api/v1/users.regeneratePersonalAccessToken` | Regenerate a user personal access token.                        | [Link](users/regeneratepersonalaccesstoken/) |
 | `/api/v1/users.register`                      | Register a new user.                                            | [Link](users/register/)                      |
+| `/api/v1/users.removeOtherTokens`             | Remove all other user tokens                                    | [Link](users/removeOtherTokens/)             |
 | `/api/v1/users.removePersonalAccessToken`     | Remove a personal access token.                                 | [Link](users/removepersonalaccesstoken/)     |
 | `/api/v1/users.requestDataDownload`           | Request users download data.                                    | [Link](users/requestDataDownload/)           |
 | `/api/v1/users.resetAvatar`                   | Reset a user's avatar                                           | [Link](users/resetavatar/)                   |
 | `/api/v1/users.setAvatar`                     | Set a user's avatar                                             | [Link](users/setavatar/)                     |
 | `/api/v1/users.setPreferences`                | Set user's preferences                                          | [Link](users/set-preferences/)               |
+| `/api/v1/users.setStatus` | Set the user's status | [Link](users/setstatus/) |
 | `/api/v1/users.setActiveStatus`               | Set a user's active status.                                     | [Link](users/setactivestatus/)               |
 | `/api/v1/users.update`                        | Update an existing user.                                        | [Link](users/update/)                        |
 | `/api/v1/users.updateOwnBasicInfo`            | Update basic information of own user.                           | [Link](users/updateownbasicinfo/)            |
@@ -88,6 +92,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :-------------------------------------------- | :----------------------------------------------------------- | :---------------------------------------------- |
 | `/api/v1/channels.addAll`                     | Adds all of the users on the server to a channel.            | [Link](channels/addall/)                        |
 | `/api/v1/channels.addLeader`                  | Gives the role of Leader for a user in the current channel.  | [Link](channels/addleader/)                     |
+| `/api/v1/channels.addOwner`                   | Gives the role of owner for a user in the current channel.   | [Link](channels/addowner/)                      |
 | `/api/v1/channels.anonymousread`              | Gets the messages in public channels to an anonymous user    | [Link](channels/anonymousread/)                 |
 | `/api/v1/channels.archive`                    | Archives a channel.                                          | [Link](channels/archive/)                       |
 | `/api/v1/channels.cleanHistory`               | Cleans up a channel's history, requires special permission.  | [Link](channels/cleanhistory/)                  |
@@ -124,6 +129,8 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.setTopic`                   | Sets a channel's topic.                                      | [Link](channels/settopic/)                      |
 | `/api/v1/channels.setType`                    | Sets the type of room the channel should be.                 | [Link](channels/settype/)                       |
 | `/api/v1/channels.unarchive`                  | Unarchives a channel.                                        | [Link](channels/unarchive/)                     |
+| `/api/v1/channels.addOwner`                   | Gives the role of owner for a user in the current channel.   | [Link](channels/addowner/)                      |
+| `/api/v1/channels.removeOwner`                | Removes the role of owner from a user in the current channel.| [Link](channels/removeowner/)                   |
 
 ### Groups
 
@@ -158,6 +165,8 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.setTopic`        | Sets a private group's topic.                      | [Link](groups/settopic/)       |
 | `/api/v1/groups.setType`         | Sets the type of room this group will be.          | [Link](groups/settype/)        |
 | `/api/v1/groups.unarchive`       | Unarchives a private group.                        | [Link](groups/unarchive/)      |
+| `/api/v1/groups.addOwner`        | Gives the role of owner for a user in the current group.| [Link](groups/addowner/)  |
+| `/api/v1/groups.removeOwner`     | Removes the role of owner from a user in the current Group.| [Link](groups/removeowner/) |
 
 ### Chat
 
@@ -262,6 +271,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :--------------------------- | :------------------------------- | :-------------------------- |
 | `/api/v1/roles.create`   | Create a new role in the system. | [Link](roles/create/)   |
 | `/api/v1/roles.list` | Gets all the roles in the system. | [Link](roles/list/) |
+| `/api/v1/roles.sync` | Gets all the roles in the system which are updated after a given date. | [Link](roles/sync/) |
 | `/api/v1/roles.addUserToRole` | Assign a role to an user. | [Link](roles/addusertorole/) |
 | `/api/v1/roles.getUsersInRole` | Gets the users that belongs to a role. | [Link](roles/getusersinrole/) |
 

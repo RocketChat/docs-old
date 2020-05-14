@@ -11,11 +11,10 @@ exclude_rule 'MD033'
 exclude_rule 'MD036'
 exclude_rule 'MD040'
 exclude_rule 'MD041'
+exclude_rule 'MD046'
 
 rule 'MD003', :style => :atx
 rule 'MD007', :indent => 4
 rule 'MD029', :style => :ordered
 rule 'MD035', :style => "- - -"
 rule 'MD004', :style => :fenced
-
-

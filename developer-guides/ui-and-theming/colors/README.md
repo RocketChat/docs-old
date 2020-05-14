@@ -22,8 +22,8 @@ Semi-transparent black or white, used in components to shade/tint the background
 
 - transparent-dark
 - transparent-darker
-- transparent-ight
-- transparent-ighter
+- transparent-light
+- transparent-lighter
 
 #### Alpha Colors Example
 

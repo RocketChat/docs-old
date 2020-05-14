@@ -11,7 +11,7 @@ It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-coun
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `fields` | `{ name: 1, email: 0 }` | Optional | Field include hash (value of `1` to include, `0` to exclude). |
+| `fields` | `{ name: 1, emails: 0 }` | Optional | Field include hash (value of `1` to include, `0` to exclude). |
 | `query` | `{ active: true, type: { $in: ['user', 'bot'] } }` | Optional | Query filter hash. |
 
 ## Other Users Example Call
