@@ -1,6 +1,6 @@
 # Supported Mongo Versions
 
-Rocket.Chat currently requires MongoDB from version 3.2 and higher. We recommend using version 3.6.9.
+Rocket.Chat currently requires MongoDB from version 3.4 and higher. We recommend using version 3.6.9.
 
 **Note** <br>
 Without mongodb version we can't ensure you are running a compatible version.
