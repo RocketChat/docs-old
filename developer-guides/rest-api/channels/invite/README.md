@@ -2,6 +2,14 @@
 
 Adds a user to the channel.
 
+**Required Permissions**
+
+For a user to be able to invite others, they must to match at least one of the premises below.
+
+- If the user is part of a room of any type and has the `add-user-to-joined-room` permission.
+- If the user is part of a public room (`t: 'c'`) and has the `add-user-to-any-c-room` permission.
+- If the user is part of a private room (`t: 'p'`) and has the `add-user-to-any-p-room` permission.
+
 | URL                       | Requires Auth | HTTP Method |
 | :------------------------ | :------------ | :---------- |
 | `/api/v1/channels.invite` | `yes`         | `POST`      |

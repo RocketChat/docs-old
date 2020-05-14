@@ -92,6 +92,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :-------------------------------------------- | :----------------------------------------------------------- | :---------------------------------------------- |
 | `/api/v1/channels.addAll`                     | Adds all of the users on the server to a channel.            | [Link](channels/addall/)                        |
 | `/api/v1/channels.addLeader`                  | Gives the role of Leader for a user in the current channel.  | [Link](channels/addleader/)                     |
+| `/api/v1/channels.addOwner`                   | Gives the role of owner for a user in the current channel.   | [Link](channels/addowner/)                      |
 | `/api/v1/channels.anonymousread`              | Gets the messages in public channels to an anonymous user    | [Link](channels/anonymousread/)                 |
 | `/api/v1/channels.archive`                    | Archives a channel.                                          | [Link](channels/archive/)                       |
 | `/api/v1/channels.cleanHistory`               | Cleans up a channel's history, requires special permission.  | [Link](channels/cleanhistory/)                  |
@@ -128,6 +129,8 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.setTopic`                   | Sets a channel's topic.                                      | [Link](channels/settopic/)                      |
 | `/api/v1/channels.setType`                    | Sets the type of room the channel should be.                 | [Link](channels/settype/)                       |
 | `/api/v1/channels.unarchive`                  | Unarchives a channel.                                        | [Link](channels/unarchive/)                     |
+| `/api/v1/channels.addOwner`                   | Gives the role of owner for a user in the current channel.   | [Link](channels/addowner/)                      |
+| `/api/v1/channels.removeOwner`                | Removes the role of owner from a user in the current channel.| [Link](channels/removeowner/)                   |
 
 ### Groups
 
@@ -162,6 +165,8 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.setTopic`        | Sets a private group's topic.                      | [Link](groups/settopic/)       |
 | `/api/v1/groups.setType`         | Sets the type of room this group will be.          | [Link](groups/settype/)        |
 | `/api/v1/groups.unarchive`       | Unarchives a private group.                        | [Link](groups/unarchive/)      |
+| `/api/v1/groups.addOwner`        | Gives the role of owner for a user in the current group.| [Link](groups/addowner/)  |
+| `/api/v1/groups.removeOwner`     | Removes the role of owner from a user in the current Group.| [Link](groups/removeowner/) |
 
 ### Chat
 
