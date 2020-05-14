@@ -97,9 +97,6 @@ $(document).ready(function() {
 
 
   if(location.pathname !== '/' && location.pathname !== '/docs/'){
-
-
-
     var app = new senna.App();
 
     app.setBasePath(path);
@@ -151,6 +148,12 @@ $(document).ready(function() {
 
     $('#my_toc li').on('click', function () {
       $(this).addClass(' active');
+    })
+
+    $('.tab-title').on('click', function (e) {
+      var tabNumber = e.currentTarget.dataset.item;
+      $('.current').removeClass('current')
+      $(`.item-${tabNumber}`).addClass(' current');
     })
   }
 });

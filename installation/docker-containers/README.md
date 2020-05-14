@@ -287,11 +287,13 @@ sudo mkdir -p /var/www/rocket.chat/data/dump
 
 **Create the docker-compose.yml file:**
 
+{% capture standard_dockerfile %}
+
 ```
 sudo nano /var/www/rocket.chat/docker-compose.yml
 ```
 
-```
+```docker
 version: '2'
 
 services:
@@ -348,6 +350,84 @@ services:
     ports:
       - 3001:8080
 ```
+
+{% endcapture %}
+
+{% capture enterprise_dockerfile %}
+
+If you have an enterprise license key, you will have to add it to your configuration file, as well as using the `rocket.chat.enterprise:1.3.2`.
+
+Your dockerfile will look like this
+
+> Remember to change the `ROCKETCHAT_LICENSE` environment variable!
+
+```
+sudo nano /var/www/rocket.chat/docker-compose.yml
+```
+
+```docker
+version: '2'
+
+services:
+  rocketchat:
+    image: rocket.chat.enterprise:1.3.2
+    command: bash -c 'for i in `seq 1 30`; do node main.js && s=$$? && break || s=$$?; echo "Tried $$i times. Waiting 5 secs..."; sleep 5; done; (exit $$s)'
+    restart: unless-stopped
+    volumes:
+      - ./uploads:/app/uploads
+    environment:
+      - PORT=3000
+      - ROOT_URL=http://chat.inumio.com
+      - MONGO_URL=mongodb://mongo:27017/rocketchat
+      - MONGO_OPLOG_URL=mongodb://mongo:27017/local
+      - Accounts_UseDNSDomainCheck=True
+    depends_on:
+      - mongo
+    ports:
+      - 3000:3000
+
+  mongo:
+    image: mongo:4.0
+    restart: unless-stopped
+    volumes:
+     - ./data/db:/data/db
+     - ./data/dump:/dump
+    command: mongod --smallfiles --oplogSize 128 --replSet rs0 --storageEngine=mmapv1
+
+  # this container's job is just run the command to initialize the replica set.
+  # it will run the command and remove himself (it will not stay running)
+  mongo-init-replica:
+    image: mongo
+    command: 'bash -c "for i in `seq 1 30`; do mongo mongo/rocketchat --eval \"rs.initiate({ _id: ''rs0'', members: [ { _id: 0, host: ''localhost:27017'' } ]})\" && s=$$? && break || s=$$?; echo \"Tried $$i times. Waiting 5 secs...\"; sleep 5; done; (exit $$s)"'
+    depends_on:
+      - mongo
+
+  # hubot, the popular chatbot (add the bot user first and change the password before starting this image)
+  hubot:
+    image: rocketchat/hubot-rocketchat:latest
+    restart: unless-stopped
+    environment:
+      - ROCKETCHAT_URL=165.114.165.21:3000
+      - ROCKETCHAT_ROOM=GENERAL
+      # PLEASE INSERT YOUR LICENCE KEY HERE:
+      - ROCKETCHAT_LICENSE=INSERT_YOUR_KEY_HERE
+      - ROCKETCHAT_USER=bot
+      - ROCKETCHAT_PASSWORD=botpassword
+      - BOT_NAME=bot
+  # you can add more scripts as you'd like here, they need to be installable by npm
+      - EXTERNAL_SCRIPTS=hubot-help,hubot-seen,hubot-links,hubot-diagnostics
+    depends_on:
+      - rocketchat
+    volumes:
+      - ./scripts:/home/hubot/scripts
+  # this is used to expose the hubot port for notifications on the host on port 3001, e.g. for hubot-jenkins-notifier
+    ports:
+      - 3001:8080
+```
+
+{% endcapture %}
+
+{% include tab-container.html item1_content=standard_dockerfile item1_title="Standard Version" item2_content=enterprise_dockerfile item2_title="Enterprise Version"  %}
 
 - Edit the ROOT_URL value to be your FQDN.
 - Edit the ROCKETCHAT_URL to be your *public* IP address. Keep the port (3000) the same.

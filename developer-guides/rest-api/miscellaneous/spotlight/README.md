@@ -1,8 +1,8 @@
 ---
-    permalink: /developer-guides/rest-api/miscellaneous/spotlight/
-    redirect_from:
-      - /developer-guides/rest-api/spotlight
-      - /developer-guides/rest-api/spotlight/
+permalink: "/developer-guides/rest-api/miscellaneous/spotlight/"
+redirect_from:
+- "/developer-guides/rest-api/spotlight"
+- "/developer-guides/rest-api/spotlight/"
 ---
 
 # Spotlight

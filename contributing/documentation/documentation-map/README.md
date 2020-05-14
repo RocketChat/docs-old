@@ -48,12 +48,12 @@ Here you can also find what articles are incomplete and missing.
         - Galaxy
         - Google Computer Engine
         - Heroku
-        - Hyper.sh
         - IBM Bluemix
         - IndieHosters
         - Koozali
         - Layershift
         - OpenShift
+        - Oracle
         - ReadySpace
         - Sandstorm.io
         - Scalingo
@@ -433,10 +433,11 @@ Here you can also find what articles are incomplete and missing.
             - list-all
             - update
         - Roles:
-            - create
-            - list
             - addUserToRole
+            - create
             - getUsersInRole
+            - list
+            - sync
         - Push:
             - push.token
             - deletePushToken
@@ -464,6 +465,7 @@ Here you can also find what articles are incomplete and missing.
             - presence
             - create
             - createToken
+            - deactivateIdle
             - delete
             - deleteOwnAccount
             - forgotPassword
@@ -472,17 +474,20 @@ Here you can also find what articles are incomplete and missing.
             - getPersonalAccessTokens
             - getPresence
             - get-preferences
+            - getStatus
             - getUsernameSuggestion
             - info
             - list
             - regeneratePersonalAccessToken
             - register
+            - removeOtherTokens
             - removePersonalAccessToken
             - requestDataDownload
             - resetAvatar
             - setAvatar
             - set-preferences
             - setActiveStatus
+            - setStatus
             - update
             - updateOwnBasicInfo
         - Video Conference:
