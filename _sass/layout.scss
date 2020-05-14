@@ -670,6 +670,11 @@ main.home {
     line-height: 24px;
     text-align: left;
     width: 228px;
+    transition: all $tranitions;
+  }
+
+  & a:hover {
+    color: $brand-dark;
   }
 }
 
