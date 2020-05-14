@@ -433,10 +433,11 @@ Here you can also find what articles are incomplete and missing.
             - list-all
             - update
         - Roles:
-            - create
-            - list
             - addUserToRole
+            - create
             - getUsersInRole
+            - list
+            - sync
         - Push:
             - push.token
             - deletePushToken

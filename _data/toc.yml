@@ -445,10 +445,11 @@
         - list
         - update
       - Roles:
-        - create
-        - list
         - addUserToRole
+        - create
         - getUsersInRole
+        - list
+        - sync
       - Push:
         - push.token
         - deletePushToken
