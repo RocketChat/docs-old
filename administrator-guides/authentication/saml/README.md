@@ -41,6 +41,9 @@ Format for this is PEM WITH `-----BEGIN PRIVATE KEY-----` and `-----END PRIVATE 
 
 You must to send the **Email** field in your assertion, or it doesn't work. When the email matches the existing user, it overwrites the user's username with the username value, if that is in your assertion.
 
+### SAML Encryption
+SAML Assertions encryption on **either** site might not work and cause signature validation to fail. See [#10556](https://github.com/RocketChat/Rocket.Chat/issues/10556) for a more up to date information to this issue.
+
 ## SimpleSAMLphp IdP Configuration
 
 As a popular open source IdP, SimpleSAMLphp can be used to provide an authentication endpoint for Rocket.Chat and the build in SAML support. Assuming that you have a SimpleSAMLphp IdP up and running - [quickstart instructions here](https://simplesamlphp.org/docs/stable/simplesamlphp-idp), you can find the metadata for the Rocket.Chat SAML Service Provider (SP) here, where 'my-app' is whatever you put in the **Custom Provider** box in the Rocket.Chat SAML admin page:
