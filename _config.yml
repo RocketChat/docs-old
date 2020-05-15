@@ -16,7 +16,7 @@ defaults:
     layout: default
 description: Rocket.Chat user, admin, API, integration, plugin and contributing documentation.
 url: https://rocket.chat/docs
-version: 99
+version: 101
 sass:
   style: compressed
   sass_dir: _sass
