@@ -34,7 +34,6 @@
     - Galaxy
     - Google Computer Engine
     - Heroku
-    - Hyper.sh
     - IBM Bluemix
     - IndieHosters
     - Koozali
@@ -162,6 +161,9 @@
     - Bitbucket Server Integration
     - Bamboo Integration
     - Confluence Server Integration
+  - White Labeling:
+    - Basic White Labeling
+    - Advanced White Labeling
   - Google Cloud:
     - Auto Translate
   # - Google Drive
@@ -446,10 +448,11 @@
         - list
         - update
       - Roles:
-        - create
-        - list
         - addUserToRole
+        - create
         - getUsersInRole
+        - list
+        - sync
       - Push:
         - push.token
         - deletePushToken

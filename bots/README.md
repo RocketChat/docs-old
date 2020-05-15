@@ -15,7 +15,7 @@ of permissions.
 
 ## How do bots send and receive messages?
 
-Bots in Rocket.Chat cannot send messages to users on thir own. Instead, they subscribe to
+Bots in Rocket.Chat cannot send messages to users on their own. Instead, they subscribe to
 so-called collections of messages that every user has. The subscription creates a stream
 that is updated every time messages are sent either directly to bots or any room they are joined in.
 

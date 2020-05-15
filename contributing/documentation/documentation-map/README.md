@@ -48,7 +48,6 @@ Here you can also find what articles are incomplete and missing.
         - Galaxy
         - Google Computer Engine
         - Heroku
-        - Hyper.sh
         - IBM Bluemix
         - IndieHosters
         - Koozali
@@ -434,10 +433,11 @@ Here you can also find what articles are incomplete and missing.
             - list-all
             - update
         - Roles:
-            - create
-            - list
             - addUserToRole
+            - create
             - getUsersInRole
+            - list
+            - sync
         - Push:
             - push.token
             - deletePushToken

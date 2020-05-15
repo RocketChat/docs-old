@@ -14,4 +14,13 @@ This is the room messages stream. You just need the room ID for subscribing.
 }
 ```
 
+Unsuscribe from a room
+
+ ```json
+{
+    "msg": "unsub",
+    "id": "ddp-room",
+}
+```
+
 If you want to subscribe to a user's messages stream, just pass `__my_messages__` as the room ID.
