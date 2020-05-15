@@ -2,8 +2,8 @@
 
 This API is intended to be used for having a Livechat conversation;
 
-- First of all you need to generate a visitor token (any random string);
-- Call [livechat:getInitialData](getinitialdata/) passing `visitorToken` as first argument, the response will be an object containing a Livechat [configuration object](getinitialdata/#response) with following properties:
+* First of all you need to generate a visitor token \(any random string\);
+* Call [livechat:getInitialData](getinitialdata.md) passing `visitorToken` as first argument, the response will be an object containing a Livechat [configuration object](getinitialdata.md#response) with following properties:
 
 | Field | Type | Description |
 | :--- | :--- | :--- |
@@ -32,8 +32,9 @@ This API is intended to be used for having a Livechat conversation;
 | `transcriptMessage` | `String` | The message to be displayed when asking about transcript |
 | `agentData` | `Object` | The current agent attending the chart |
 
-- Call [livechat:registerGuest](registerguest/) to register guest and get the response containing the visitor's data.
-- Before sending the first message you have to generate a random `room _id`;
-- Now you can send messages to method [sendMessageLivechat](sendmessagelivechat/)
-- Subscribe to: [stream-room-messages](../subscriptions/stream-room-messages/) and `stream-livechat-room`
-- Get agent info by calling `livechat:getAgentData`
+* Call [livechat:registerGuest](registerguest.md) to register guest and get the response containing the visitor's data.
+* Before sending the first message you have to generate a random `room _id`;
+* Now you can send messages to method [sendMessageLivechat](sendmessagelivechat.md)
+* Subscribe to: [stream-room-messages](../subscriptions/stream-room-messages.md) and `stream-livechat-room`
+* Get agent info by calling `livechat:getAgentData`
+

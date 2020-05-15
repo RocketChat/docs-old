@@ -10,7 +10,7 @@ This guide covers the following:
 
 Log into AWS console, open the ["_EC2_" service](https://console.aws.amazon.com/ec2/), click on "_Instances_" in the left sidebar and click on "_Launch Instance_" to setup a new EC2 instance. Now follow the steps below:
 
-1. In the first step search for "_Ubuntu Server 18.04 LTS_" with "_64-bit (x86)_" architecture and click on "_Select_"
+1. In the first step search for "_Ubuntu Server 18.04 LTS_" with "_64-bit \(x86\)_" architecture and click on "_Select_"
 2. Select an instance type of your choice and click "_Next_"
 3. Adjust the instance details as needed or keep the defaults. Proceed with "_Next_"
 4. Adjust the storage size and configuration as needed and click on "_Next_"
@@ -29,7 +29,7 @@ Back in the ["_EC2_" service](https://console.aws.amazon.com/ec2/) dashboard, cl
 4. Select your instance and click "_Associate_"
 5. In the details below, copy the "_Public DNS_". You will need it in the DNS step.
 
-    (It should be in a format like this: `ec2-18-197-161-168.eu-central-1.compute.amazonaws.com`)
+   \(It should be in a format like this: `ec2-18-197-161-168.eu-central-1.compute.amazonaws.com`\)
 
 ## Configure DNS w/ AWS Route 53
 
@@ -38,7 +38,7 @@ Open the "_Route 53_" service dashboard:
 1. Create a new hosted zone by clicking on "_Create Hosted Zone_":
 2. Enter your domain name and select "_Public Hosted Zone_" as type, then click on "_Create"_
 3. Select your newly created zone and click on "_Create Record Set_"
-4. Enter "_www_" as subdomain (if desired), select Type "_CNAME_", enter the Public DNS name from the above step to the value field and click "_Create_"
+4. Enter "_www_" as subdomain \(if desired\), select Type "_CNAME_", enter the Public DNS name from the above step to the value field and click "_Create_"
 
 ## Get an SSL certificate from Let's Encrypt
 
@@ -46,50 +46,53 @@ We will use Let's Encrypt to get a free & open-source SSL certificate:
 
 1. SSH to your instance:
 
-    ```shell
+   ```text
     ssh -i <path_to_key_file.pem> ubuntu@<public_ip_address>
-    ```
+   ```
 
-    Note: You may replace <public_ip_address> with domain name if your DNS has resolved.
+   Note: You may replace  with domain name if your DNS has resolved.
+
 2. Install `certbot` using `apt`:
 
-    ```shell
+   ```text
     sudo apt update
     sudo apt install certbot
-    ```
+   ```
 
 3. Obtain certificate from Let's Encrypt:
 
-    ```shell
+   ```text
     sudo certbot certonly --standalone --email <emailaddress@email.com> -d <domain.com> -d <subdomain.domain.com>
-    ```
+   ```
 
-    Note: Second (or more) domain is optional.
+   Note: Second \(or more\) domain is optional.
+
 4. Optional step: restrict access using security groups
+
     If you would like to restrict traffic to your instance on AWS, you may now adjust the security groups again. Make sure you allow "_TCP/22_" from your current location for the SSH connection, as well as "_TCP/443_" from the location you wish to use to access from.
 
 ## Configure Nginx web server with TLS/SSL
 
 1. Install Nginx web server:
 
-    ```shell
+   ```text
     sudo apt-get install nginx
-    ```
+   ```
 
 2. Backup the default config file for reference:
 
-    ```shell
+   ```text
     cd /etc/nginx/sites-available
     sudo mv default default.reference
-    ```
+   ```
 
 3. Create a new site configuration for Rocket.Chat:
 
-    ```shell
+   ```text
     sudo nano /etc/nginx/sites-available/default
-    ```
+   ```
 
-    ```
+   ```text
     server {
         listen 443 ssl;
 
@@ -128,28 +131,29 @@ We will use Let's Encrypt to get a free & open-source SSL certificate:
 
         return 301 https://$host$request_uri;
     }
-    ```
+   ```
 
-    Make sure to replace `ABC.DOMAIN.COM` with your domain (it appears 4 times). Make sure to update it in the path to your key files as well:
+   Make sure to replace `ABC.DOMAIN.COM` with your domain \(it appears 4 times\). Make sure to update it in the path to your key files as well:
+
 4. Test the Nginx configuration to make sure there are no syntax errors:
 
-    ```shell
+   ```text
     sudo nginx -t
-    ```
+   ```
 
 5. If the syntax test went successful, restart Nginx:
 
-    ```shell
+   ```text
     sudo systemctl restart nginx
-    ```
+   ```
 
 Confirm that it is running properly by opening a web browser and going to your domain name. You will get a page stating "_502 Bad Gateway_". This is expected, since the Rocket.Chat backend is not yet running. Make sure the SSL connection is working properly by clicking the lock icon next to the address bar, make sure it's valid and issued by "_Let's Encrypt Authority X3_".
 
 ## Install Docker & Docker Compose
 
-1. Install Docker (and any dependencies)
+1. Install Docker \(and any dependencies\)
 
-    ```shell
+   ```text
     sudo apt-get update
     sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -158,31 +162,31 @@ Confirm that it is running properly by opening a web browser and going to your d
     sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
     sudo apt-get update
     sudo apt-get install docker-ce docker-ce-cli containerd.io
-    ```
+   ```
 
 2. Install `docker-compose`:
 
-    ```shell
+   ```text
     sudo curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
     sudo chmod +x /usr/local/bin/docker-compose
-    ```
+   ```
 
 ## Set up Docker containers
 
 1. Create local directories
 
-    ```shell
+   ```text
     sudo mkdir -p /opt/docker/rocket.chat/data/runtime/db
     sudo mkdir -p /opt/docker/rocket.chat/data/dump
-    ```
+   ```
 
 2. Create the `docker-compose.yml` file, again make sure to replace `ABC.DOMAIN.COM` with your actual domain name:
 
-    ```shell
+   ```text
     sudo nano /opt/docker/rocket.chat/docker-compose.yml
-    ```
+   ```
 
-    ```
+   ```text
     version: '2'
 
     services:
@@ -234,22 +238,24 @@ Confirm that it is running properly by opening a web browser and going to your d
             done; (exit $$s)"
         depends_on:
         - mongo
-    ```
+   ```
 
 3. Start containers:
 
-    ```shell
+   ```text
     cd /opt/docker/rocket.chat
     sudo docker-compose up -d
-    ```
+   ```
 
-4. Wait a bit for the replica set to be initialized for MongoDB (about 30-60 seconds) and confirm Rocket.Chat is running properly:
+4. Wait a bit for the replica set to be initialized for MongoDB \(about 30-60 seconds\) and confirm Rocket.Chat is running properly:
 
-    ```shell
+   ```text
     sudo docker-compose logs -f rocketchat
-    ```
+   ```
 
 ## Use it
 
 1. Login to your site at `https://ABC.DOMAIN.COM`
+
     Note: the first user to login will be an administrator user.
+
