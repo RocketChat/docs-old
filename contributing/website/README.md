@@ -2,4 +2,5 @@
 
 Guides on how to contribute to Rocket.Chat's website.
 
-- [Webinars](webinars/)
+* [Webinars](webinars.md)
+

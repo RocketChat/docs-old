@@ -2,9 +2,9 @@
 
 Rocket.Chat uses Two Factor to authorize important actions. There are a list of possible sources for the two factor code:
 
-* **Authenticator App**: like Google Authenticator or Authy (need to be configured by the user);
-* **Email**: users will receive the code via email (configured by default and enabled for those users with verified emails);
-* **Password***: it's not a two factor by it self, but a fallback for the cases where the user has no other option configure;
+* **Authenticator App**: like Google Authenticator or Authy \(need to be configured by the user\);
+* **Email**: users will receive the code via email \(configured by default and enabled for those users with verified emails\);
+* **Password\***: it's not a two factor by it self, but a fallback for the cases where the user has no other option configure;
 
 > \* The password fallback is disabled for the login process, so the login will not require the password twice when the user has no other two factor method configure.
 
@@ -12,7 +12,7 @@ Any **DDP Method** or **REST call** may have the two factor requirement, for tha
 
 ## Remember Me
 
-By default, after a two factor validation, the client used (a hash of user-agent + ip address) will be trusted for 5 minutes. It's configurable via admin panel.
+By default, after a two factor validation, the client used \(a hash of user-agent + ip address\) will be trusted for 5 minutes. It's configurable via admin panel.
 
 Some methods may disable this feature forcing the api to always require the two factor for that method/endpoint. The method to disable the two factor by email and the login are examples.
 
@@ -22,7 +22,7 @@ We are using the error `totp-required` for compatibility purposes, it doesn't me
 
 ## Personal Access Tokens
 
-Personal Access Tokens are tokens created by the users (when enabled by the server) commonly used to give access to other applications, bots, etc. Those tokens does not expires and they have the option to **bypass** the Two Factor (required by default) allowing users to use their integrations without restrictions when needed.
+Personal Access Tokens are tokens created by the users \(when enabled by the server\) commonly used to give access to other applications, bots, etc. Those tokens does not expires and they have the option to **bypass** the Two Factor \(required by default\) allowing users to use their integrations without restrictions when needed.
 
 Now it's the two factor is required to create personal access tokens.
 
@@ -30,8 +30,9 @@ Now it's the two factor is required to create personal access tokens.
 
 ## DDP Methods
 
-Visit [the Two Factor Authorization page at realtime section](./realtime-api) for more information about.
+Visit [the Two Factor Authorization page at realtime section](realtime-api.md) for more information about.
 
 ## REST API
 
-Visit [the Two Factor Authorization page at rest section](./rest-api) for more information about.
+Visit [the Two Factor Authorization page at rest section](rest-api.md) for more information about.
+

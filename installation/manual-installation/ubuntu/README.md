@@ -2,20 +2,20 @@
 
 ## Recommended Fastest Server Install via Snaps
 
-Snaps are the easiest way for you to get your server up and running on all supported Linux distributions (Ubuntu, etc).
+Snaps are the easiest way for you to get your server up and running on all supported Linux distributions \(Ubuntu, etc\).
 
 Find out more information about installing using snaps [here](snaps/)
 
-If you would like to enable TLS on your site like this `https://yoursite.com` when using the snap, please see [here](snaps/autossl/)
+If you would like to enable TLS on your site like this `https://yoursite.com` when using the snap, please see [here](snaps/autossl.md)
 
 ## Manual install
 
 This installation guide was tested in the following environment:
 
-- Rocket.Chat 3.0.0
-- OS: Ubuntu 18.04 LTS and Ubuntu 19.04
-- Mongodb 4.0.9
-- NodeJS 12.14.0
+* Rocket.Chat 3.0.0
+* OS: Ubuntu 18.04 LTS and Ubuntu 19.04
+* Mongodb 4.0.9
+* NodeJS 12.14.0
 
 ## Install necessary dependency packages
 
@@ -69,7 +69,7 @@ curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
 tar -xzf /tmp/rocket.chat.tgz -C /tmp
 ```
 
-Install (this guide uses /opt but feel free to choose a different directory):
+Install \(this guide uses /opt but feel free to choose a different directory\):
 
 ```bash
 cd /tmp/bundle/programs/server && npm install
@@ -108,7 +108,7 @@ WantedBy=multi-user.target
 EOF
 ```
 
-Open the Rocket.Chat service file just created (`/lib/systemd/system/rocketchat.service`) using sudo and your favourite text editor, and change the ROOT_URL environmental variable to reflect the URL you want to use for accessing the server (optionally change MONGO_URL, MONGO_OPLOG_URL and PORT):
+Open the Rocket.Chat service file just created \(`/lib/systemd/system/rocketchat.service`\) using sudo and your favourite text editor, and change the ROOT\_URL environmental variable to reflect the URL you want to use for accessing the server \(optionally change MONGO\_URL, MONGO\_OPLOG\_URL and PORT\):
 
 ```bash
 MONGO_URL=mongodb://localhost:27017/rocketchat?replicaSet=rs01
@@ -117,7 +117,7 @@ ROOT_URL=http://your-host-name.com-as-accessed-from-internet:3000
 PORT=3000
 ```
 
-Setup storage engine and replication for MongoDB (mandatory for versions > 1), and enable and start MongoDB and Rocket.Chat:
+Setup storage engine and replication for MongoDB \(mandatory for versions &gt; 1\), and enable and start MongoDB and Rocket.Chat:
 
 ```bash
 sudo sed -i "s/^#  engine:/  engine: mmapv1/"  /etc/mongod.conf
@@ -141,11 +141,9 @@ sudo systemctl enable rocketchat && sudo systemctl start rocketchat
 
 ## Optional configurations
 
-[Configure firewall rule](../optional-configurations)
-[Configure a HTTP reverse proxy to access Rocket.Chat server](../configuring-ssl-reverse-proxy/)
-[Configure mongo access control]
-[Configure production values for mongodb]
+[Configure firewall rule](../optional-configurations.md) [Configure a HTTP reverse proxy to access Rocket.Chat server](../configuring-ssl-reverse-proxy.md) \[Configure mongo access control\] \[Configure production values for mongodb\]
 
 ## Configure your Rocket.Chat server
 
-Open a web browser and access the configured ROOT_URL (`http://your-host-name.com-as-accessed-from-internet:3000`), follow the configuration steps to set an admin account and your organization and server info.
+Open a web browser and access the configured ROOT\_URL \(`http://your-host-name.com-as-accessed-from-internet:3000`\), follow the configuration steps to set an admin account and your organization and server info.
+
