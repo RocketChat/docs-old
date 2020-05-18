@@ -12,7 +12,7 @@ You only can send `alias` and `avatar` properties if your user has the `bot` rol
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `roomId`    `channel` | `ByehQjC44FwMeiLbX`    `#general` |   Required | The room id of where the message is to be sent.    The channel name with the prefix in front of it. |
+| `roomId`    `channel` | `ByehQjC44FwMeiLbX`    `#general` OR `@eric` |   Required | The room id of where the message is to be sent.    The channel name with the prefix in front of it.  # refers to channel, however @ refers to username |
 | `text` | `Sample message` | Optional | The text of the message to send, is optional because of attachments. |
 | `alias` | `Some Name` | Optional | This will cause the message's name to appear as the given alias, but your username will still display. |
 | `emoji` | `:smirk:` | Optional | If provided, this will make the avatar on this message be an emoji. [Emoji Cheetsheet](http://emoji.codes/) |
