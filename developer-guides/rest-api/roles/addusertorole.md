@@ -20,7 +20,7 @@ Assign a role to an user. Optionally, you can set this role to a room.
 curl -H "Content-type:application/json" \
      -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
-     http://localhost:3000/api/v1/roles.create \
+     http://localhost:3000/api/v1/roles.addUserToRole \
      -d '{ "roleName": "guest" }' \
      -d '{ "username": "rocket.chat" }' \
      -d '{ "roomId": "dK7vNYXMdHGLdukpL" }' \
