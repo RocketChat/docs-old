@@ -6,6 +6,14 @@ Get all opened rooms for this user.
 | :--- | :--- | :--- |
 | `/api/v1/rooms.get` | `yes` | `GET` |
 
+## Query Parameters
+
+| Argument | Example | Required | Description |
+| :--- | :--- | :--- | :--- |
+| `updatedSince` | `2017-11-25T15:08:17.248Z` | Optional | Date as ISO string |
+
+When you provide the `updatedSince` query parameter in the URL then the `update` and `remove` in the response will contain only those updated and removed since this date and time.
+
 ## Example Call to get all of the rooms
 
 ```bash
