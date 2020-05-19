@@ -26,6 +26,8 @@ whitelist:
 - jekyll-redirect-from
 markdown: kramdown
 highlighter: rouge
+include:
+- .gitbook
 exclude:
 - Gemfile
 - Gemfile.lock

@@ -44,7 +44,7 @@ Replace email, HipChat & Slack with the ultimate team chat software solution.
  Need some help? Join our community forums https://forums.rocket.chat
 ```
 
-Besides the recommended setup you can out of the box access Rocket.Chat server at: [http://Droplet-IP:3000](http://Droplet-IP:3000>)
+Besides the recommended setup you can out of the box access Rocket.Chat server at: [http://Droplet-IP:3000](http://Droplet-IP:3000)
 
 ## Setting up HTTPS
 
