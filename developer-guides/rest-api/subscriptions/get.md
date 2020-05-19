@@ -8,9 +8,9 @@ Get all subscriptions. Please note that the **unread** counter value depends on 
 
 ## Query Parameters
 
-| Argument | Example | Required | Description |
-| :--- | :--- | :--- | :--- |
-| `updatedSince` | `2017-11-25T15:08:17.248Z` | Optional | Date as ISO string |
+| Argument | Example | Required | Description | Valid Format(s) |
+| :--- | :--- | :--- | :--- | :--- |
+| `updatedSince` | `2017-11-25T15:08:17.248Z` | Optional | Date and time from which to fetch changes | ISO 8601 datetime. Optional seconds, optional milliseconds, optional timezone, always with colon time separators |
 
 Both of these have the same result structure, however when you provide the `updatedSince` query parameter then the `update` will contain only those updated and `remove` will contain those which have been removed.
 
