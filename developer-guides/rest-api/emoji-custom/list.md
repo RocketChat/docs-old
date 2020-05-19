@@ -14,8 +14,6 @@ List all custom emojis available. It supports the [Query Parameters only](../que
 
 ## Query Parameters
 
-One of roomId or roomName is required.
-
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `updatedSince` | `2017-11-25T15:08:17.248Z` | Optional | Date as ISO string |
