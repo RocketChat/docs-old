@@ -6,6 +6,13 @@ Mark any room \(channel, group and DMs\) as read.
 | :--- | :--- | :--- |
 | `/api/v1/subscriptions.read` | `yes` | `POST` |
 
+## Payload
+
+| Argument   | Example            | Required | Description   | Valid Format(s) |
+| :--------- | :----------------- | :------- | :------------ | :-------------- |
+| `rid` | `L6su9mxwdDkvdSaT9hvzu8z6mHFigiXy6Y` OR `GENERAL` | Required | A valid `rid` for a channel, group or DM | Alphanumeric mixed-case string |
+
+
 ## Example Call
 
 ```bash
