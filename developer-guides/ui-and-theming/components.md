@@ -11,14 +11,14 @@ _Describe usage for template development contributions_
 _Provide example usage and html structure / class names of nested elements_
 
 * Content
-  * Admin Link
-  * Input Line
-  * Button
+    * Admin Link
+    * Input Line
+    * Button
 * Account Box
-  * Status
-  * Account Link
+    * Status
+    * Account Link
 * Rooms List
-  * Header
-  * Item
-  * Item List
+    * Header
+    * Item
+    * Item List
 

@@ -23,7 +23,7 @@ But that doesn't mean you can't contribute! Every issue is open and any help is 
 
 Want a simple task to get you started? [We maintain a list of those](https://github.com/RocketChat/Rocket.Chat/labels/contrib%3A%20easy)! Or just search for issues tagged contrib:easy
 
-Check our [developer guides](../developer-guides/) for more detailed information about pull requests, workflow and API docs.
+Check our [developer guides](../../developer-guides/) for more detailed information about pull requests, workflow and API docs.
 
 ## Priority Features and/or Bug fixes
 
@@ -31,4 +31,3 @@ If you want a feature or bug fix to be developed with a higher priority:
 
 * [Contact us directly](https://rocket.chat/contact) to sponsor it's development
 * [Add a bounty](https://www.bountysource.com/teams/rocketchat) to it
-
