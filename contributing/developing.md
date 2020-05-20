@@ -31,4 +31,3 @@ If you want a feature or bug fix to be developed with a higher priority:
 
 * [Contact us directly](https://rocket.chat/contact) to sponsor it's development
 * [Add a bounty](https://www.bountysource.com/teams/rocketchat) to it
-

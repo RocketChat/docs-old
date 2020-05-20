@@ -14,8 +14,7 @@ redirect_from:
 
 Applications for the GSoC 2018 season have now closed.
 
-UPDATE September 8, 2018   
-
+UPDATE September 8, 2018
 
 The final list of successful 2018 GSoC Rocket.Chat projects and students/mentors is now [officially](https://summerofcode.withgoogle.com/organizations/6355544806260736/) available.
 
@@ -32,19 +31,19 @@ Our own final tabulation of the status for GSoC projects is as follows:
 | PASS | Samar Sunkaria | Support for theming the Rocket.Chat iOS app | Matheus Cardoso, Filipe Alvarenga |
 | WITHDREW | De Sheng Chuan | Data integrity and consistency | Diego Sampaio, Rodrigo Nascimento, Sing Li |
 
-UPDATE August 20, 2018   
- This final term has been a term full of changes. One good student - who had been doing great work up to this third term- has had health issues, been hospitalized, and is unable to complete his project. Upon advice from GSoC admin, he withdrew from the project and may resume outside of GSoC upon his recovery.   
- The "turn around projects" in the second term continued to show major improvement this term - due mainly to the hard work of the affected students.   
+UPDATE August 20, 2018
+ This final term has been a term full of changes. One good student - who had been doing great work up to this third term- has had health issues, been hospitalized, and is unable to complete his project. Upon advice from GSoC admin, he withdrew from the project and may resume outside of GSoC upon his recovery.
+ The "turn around projects" in the second term continued to show major improvement this term - due mainly to the hard work of the affected students.
  Mentors and students are busy this term wrapping up their work, preparing for final GSoC evaluation requirements, plus scheduling presentations of their completed work to the larger Rocket.Chat team. Many of the presentations are recorded and are available [here](https://youtu.be/pnz2LCtCeMM), [here](https://www.youtube.com/watch?v=nlsTyJZbKSM), [here](https://www.youtube.com/watch?v=kuDlwnlX67k) and [here](https://ufile.io/jvmbh). As a final result for 2018, one out of our eight GSoC students has withdrawn, and mentors gave final passes to the other seven GSoC projects. Of the four independently funded projects, three passed and one failed \(due to the student's disappearance\). We congratulate the students and mentors on their achievements and sincerely hope all students now have enough of a taste of open source \(and Rocket.Chat in particular\) to continue on their life-long open source contribution as they embark on their next phase of personal development. We will continue to work through the backlog of GSoC project stories on the blog this term.
 
-UPDATE July 15, 2018   
- Mentors and students continued to work towards their objectives during this second evaluation period. Due to internal organizational staff changes and other organization operational factors, three problematic projects were identified during this period. Extensive administrative intervention and turn-around was necessary to "salvage" these projects.   
+UPDATE July 15, 2018
+ Mentors and students continued to work towards their objectives during this second evaluation period. Due to internal organizational staff changes and other organization operational factors, three problematic projects were identified during this period. Extensive administrative intervention and turn-around was necessary to "salvage" these projects.
  Thankfully, the GSoC students worked with us every step of the way as we reassign mentors and realign mutually agreed project scopes. As a result, the \(new in some cases\) project mentors have decided to pass all enrolled students - both GSoC and independently funded projects for this term. Internally, the projects' blog post series is lagging significantly behind, we are working to catch up as soon as possible.
 
-UPDATE June 15, 2018   
+UPDATE June 15, 2018
  The first evaluation period has come and gone. Our students have been coding feverishly over the past months and many of them have already demonstrated their work to their mentors and teams. We are proud to report that during this evaluation, our mentors have decided to pass all eight of the GSoC students. Our Rocket.Chat-sponsored projects also reported all passes for the three students. We have started to create blog stories around the projects featuring our students - the first story should be available in the next week or two. Due to some internal project logistical problems, one of the students has agreed, together with his mentors and team to switch topic from the second term onwards - to another one of his accepted final proposals - our list below has been amended to reflect the change. We have, through our working partner, been able to fund an additional \(to the 11 that we already have\) highly capable but non-GSoC selected student to work on a Rocket.Chat-related topic.
 
-UPDATE April 25, 2018, AMENDED June 15, 2018   
+UPDATE April 25, 2018, AMENDED June 15, 2018
  The list of [official GSoC 2018 accepted students and projects](https://summerofcode.withgoogle.com/organizations/6355544806260736/) is now available. First, we would like to sincerely thank every student who has submitted a proposal and many who had worked on PRs and assisted in our open source community - please continue the excellent work. Of the 93 proposals we received, there were many high quality ones. We have also interacted with many of the students in the prior month. The decision-making was difficult and mentors were competitive this year. Ultimately, EIGHT of the top students/proposals this year are accepted for GSoC 2018 \(thank you, Google!\):
 
 | Student | Project | Mentors |
@@ -68,13 +67,13 @@ In addition, due to the sheer number of high quality entrants, Rocket.Chat has d
 
 All of the eleven students have been contacted by mentors and have started the community bonding period.
 
-UPDATE April 2, 2018 -   
+UPDATE April 2, 2018 -
  2018 is an incredible GSoC year for us, we have received a total of NINETY THREE proposals from students studying at every corner of the globe - Brazil, Turkey, USA, Armenia, India, China, Singapore, Hong Kong and more. Thank you, GSoC students, for the overwhelming interest on our project. Proposal topics covered almost all of the suggestions on our idea list - and even a few original ones. Our TWENTY FIVE Rocket.Chat core, guest, and community mentors are hard-at-work right now going through every one of the proposals, and will be contacting students for a video chat prior to deciding on proposal selection and slot assignments. Please keep in touch with us and continue to contribute to the Rocket.Chat project during this time.
 
-UPDATE March 24, 2018 -   
+UPDATE March 24, 2018 -
  Students PLEASE NOTE that your final proposal is due on March 27th. It must be in PDF format and submitted via the official GSoC Dashboard. Your Rocket.Chat Core and Guest Industry mentors are looking forward to receive and review your final proposals.
 
-UPDATE March 12, 2018 -   
+UPDATE March 12, 2018 -
  Proposal submission for GSoC 2018 has started! Interested students should visit the [GSoC 2018 site](https://summerofcode.withgoogle.com/) to apply and submit their proposals. See the _Project Ideas_ section below for some interesting ideas.
 
 You can email the mentor\(s\) directly for discussion and further information. You can also find them, most of the time, on our [community server](https://open.rocket.chat/) for real-time chat. Many of the mentors are fluent in both Portuguese and English.
@@ -206,15 +205,15 @@ Interested students are also encouraged to interact with our contributor communi
 
 Some projects that you can submit proposals for include:
 
-**Decentralized Crypto Exchange in Rocket.Chat**
+##### Decentralized Crypto Exchange in Rocket.Chat
 
 * **Description:** Starting either from scratch or utilizing one of the compatible license open source DEX code bases – create a functional Decentralized Exchange within Rocket.Chat. You will create a DEX that takes advantage of strong cryptographic identity solutions such as Blockstack ID and wallet integration such as Metamask or ARK wallet in your work.
 
-**IPFS storage solution in Rocket.Chat**
+##### IPFS storage solution in Rocket.Chat
 
 * **Description:**  Integrate IPFS into Rocket.Chat as a viable storage provider. Ideally IPFS can be used as a storage provider for uploaded Rocket.Chat contents. In addition, the ability to access IPFS within Rocket.Chat, to supply files that can be shared between users of Rocket.Chat is also essential. Leveraging integration with strong cryptographic identities such as Blockstack ID, the solution should include strong data-at-rest encryption of decentralized contents.  Use of decentralized storage abstraction frameworks such as Blockstack Gaia should be considered to simplify this work.  Use of IPFS as a decentralized storage for Rocket.Chat’s data should also be considered within the term.
 
-**Cryptocurrency Wallet and/or Portfolio Management in Rocket.Chat**
+##### Cryptocurrency Wallet and/or Portfolio Management in Rocket.Chat
 
 * **Description:** Enable the integration of wallet\(s\) such as Metamask,  MyEtherWallet,  ARK or other wallets or crypto portfolio management system within Rocket.Chat.
 * **Desirable Skills:** Looking for a unique fringe-dropout university student already committed to our inevitable decentralized future powered by Web 3.0 and continued blockchain technology innovations. While maintaining a high score on all your subjects, you should be finding your existing university education ridiculously limiting, and already have experience hacking smart contracts, minting tokens for friends and family, hacking ethereum, and trading cryptokitties. You eat truffle for breakfast and ride the open zepplin to school every day. Recent government \(perhaps your own government\) baseless advances into this area has significantly disturbed you. You already realized that you are way ahead of your time. And you will recognize this GSoC 2018 project to be the absolutely not-to-miss opportunity of your life.
@@ -285,11 +284,10 @@ Some projects that you can submit proposals for include:
 
 * **Mentors:** Mrinal Dhar \(@mrinal.dhar\)
 * **Description:** Implement a calendar within Rocket.Chat for scheduling events and reminders, offering standalone functionality as well as integration with other calendars out there \(Google Calendar, for example\). Desirable features:
-  * Ability to schedule events and set up alerts for them.
-  * Automatically detect dates and time from messages and allow creating events from them. For example: In the message "Lets meet tomorrow", "tomorrow" should be automatically highlighted and user can then schedule an event by clicking on it.
-  * In a conversation, allow each user to select preferred time-slots and automatically schedule an event based on everyone's preferences.
-  * A consolidated events view that lists all scheduled events for a particular day, week or month.
-  * Integration with Google Calendar
-  * Ability to search for an event
+    * Ability to schedule events and set up alerts for them.
+    * Automatically detect dates and time from messages and allow creating events from them. For example: In the message "Lets meet tomorrow", "tomorrow" should be automatically highlighted and user can then schedule an event by clicking on it.
+    * In a conversation, allow each user to select preferred time-slots and automatically schedule an event based on everyone's preferences.
+    * A consolidated events view that lists all scheduled events for a particular day, week or month.
+    * Integration with Google Calendar
+    * Ability to search for an event
 * **Desirable Skills:** Familiarity with JavaScript development required. Previous experience with NLP \(Natural Language Processing\) or AI \(Artificial Intelligence\) would be helpful.
-
