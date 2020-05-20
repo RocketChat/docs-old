@@ -35,14 +35,14 @@ Things you'll need to do afterwards on your own, **especially if you want a prod
 * Configure email on the server \(so Rocket can request account validation\)
 * Secure the server \(e.g. get rid of the default user on a VM, etc.\)
 * Monitor the server so you can respond if it goes down
-  * Rocket.Chat availability
-  * MongoDB availability
-  * nginx availability
+    * Rocket.Chat availability
+    * MongoDB availability
+    * nginx availability
 * Configure MongoDB for production use
-  * Use an XFS volume
-  * Use persistent \(e.g. non-local\) storage if you're using a VM
-  * Configure replica sets
-  * Consider setting /sys/kernel/mm/transparent\_hugepage/enabled to "never" as recommended by Mongo at startup
+    * Use an XFS volume
+    * Use persistent \(e.g. non-local\) storage if you're using a VM
+    * Configure replica sets
+    * Consider setting /sys/kernel/mm/transparent\_hugepage/enabled to "never" as recommended by Mongo at startup
 * Set up periodic updates for the system
 
 ## Acquire a VM with OpenSUSE Leap 42.2

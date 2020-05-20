@@ -13,9 +13,9 @@ You can find a list of issues [here](https://github.com/RocketChat/Rocket.Chat.D
 When you create a new pull request, we expect some requirements to be met.
 
 * Follow this naming convention for Pull Requests:
-  * When adding new documentation, add `New Documentation:` before the title. E.g. `New Documentation: Authentication Guide`.
-  * When fixing documentation, add `Fix Documentation:` before the title. E.g. `Fix Documentation: Authentication Guide`.
-  * When updating documentation, add `Update Documentation:` before the title. E.g. `Update Documentation: Authentication Guide`.
+    * When adding new documentation, add `New Documentation:` before the title. E.g. `New Documentation: Authentication Guide`.
+    * When fixing documentation, add `Fix Documentation:` before the title. E.g. `Fix Documentation: Authentication Guide`.
+    * When updating documentation, add `Update Documentation:` before the title. E.g. `Update Documentation: Authentication Guide`.
 * If your Pull Request closes an issue you need to write `Closes #ISSUE_NUMBER` where the `ISSUE_NUMBER` is the number in the end of the link url that will link your pull request to the issue, when merged will close that issue.
 * For each pull request made, we run tests to check if there are any broken links. You can find how to run these tests locally [here](https://docs.rocket.chat/developer-guides/testing/#testing)
 

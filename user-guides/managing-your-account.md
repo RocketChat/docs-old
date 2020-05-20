@@ -24,16 +24,16 @@ Enable or disable all desktop notifications, test desktop notifications, and con
 
 * The global notification duration in seconds
 * Enter key behaviour:
-  * Normal mode \(send with Enter\)
-  * Alternative mode \(send with Enter + Ctrl/Alt/Shift/CMD\)
-  * Desktop mode \(only sends with Enter on desktop\)
+    * Normal mode \(send with Enter\)
+    * Alternative mode \(send with Enter + Ctrl/Alt/Shift/CMD\)
+    * Desktop mode \(only sends with Enter on desktop\)
 * View mode
-  * Normal: The default spacing between messages
-  * Cozy: More space between messages \(less on the screen\)
-  * Compact: Less space between messages \(more on the screen\)
+    * Normal: The default spacing between messages
+    * Cozy: More space between messages \(less on the screen\)
+    * Compact: Less space between messages \(more on the screen\)
 * Offline Email Notifications
-  * Disabled
-  * Every Mention/Direct Message
+    * Disabled
+    * Every Mention/Direct Message
 
 As well as enable or disable the following preferences:
 
