@@ -100,3 +100,4 @@ curl -H "Content-type:application/json" \
 | 1.0.0 | Added `avatarUrl` property to response |
 | 0.64.0 | Added `me` property to response |
 | 0.60.0 | Added |
+

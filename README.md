@@ -1,45 +1,16 @@
-# Rocket.Chat Docs
+---
+description: Here you can find all the docs about Rocket.Chat server and client.
+---
 
-This is the official repository for Rocket.Chat Documentation.
+# Rocket.Chat Documentation
 
-## Requirements
+{% page-ref page="user-guides/" %}
 
-* Ruby &gt;= 2.3 \(Recommended &gt;= 2.5\)
-* [bundler](https://bundler.io/) gem installed \(&gt;= 1.17.3\)
+{% page-ref page="administrator-guides/" %}
 
-## Contributing
+{% page-ref page="developer-guides/" %}
 
-This is a quick guide on how to run the docs site locally, for a more in depth guide please look [here](contributing/documentation/).
+{% page-ref page="installation/" %}
 
-## Installation
 
-Install `bundler` using your terminal, run:
-
-```bash
-$ gem install bundler --version 1.17.3
-```
-
-And install the dependencies \(also on terminal\):
-
-```bash
-$ bundle install
-```
-
-## Running locally
-
-Start the server using your terminal:
-
-```bash
-$ jekyll serve --incremental --safe
-```
-
-The application will be available on browser at `http://localhost:4000`.
-
-## Linting your changes locally:
-
-You should always lint your changes to find errors locally before pushing your changes. This only takes seconds, from the `docs` directory you can run on terminal:
-
-```bash
-$ mdl ./ -r ~MD004 -i -g
-```
 
