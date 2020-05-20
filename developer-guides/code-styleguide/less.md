@@ -11,8 +11,8 @@
 * Prefer line comments \(`//`\) to block comments.
 * Prefer comments on their own line. Avoid end-of-line comments.
 * Write detailed comments for code that isn't self-documenting:
-    * Uses of z-index
-    * Compatibility or browser-specific hacks
+  * Uses of z-index
+  * Compatibility or browser-specific hacks
 
 ## Formatting
 
@@ -637,3 +637,4 @@ blockquote {
     background-color: #ffffff;
 }
 ```
+

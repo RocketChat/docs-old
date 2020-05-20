@@ -270,12 +270,12 @@ Interested students are also encouraged to interact with our contributor communi
 * **Mentors**: [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio) and [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
 * **Project repository**: [https://github.com/RocketChat/Rocket.Chat.Houston](https://github.com/RocketChat/Rocket.Chat.Houston)
 * **Description**: Huston is the CLI tooling we use to release new versions of Rocket.Chat and to generate our change logs from merged pull requests. We want to:
-    * Rewrite the tooling in TypeScript;
-    * ~Improve the changelog generation getting more information from the PRs like description, images, etc;~ \(already done\)
-    * Accept a new format of PR titles \(conventional changelog\);
-    * Add a validation system for PRs titles via GitHub Actions;
-    * Add a tooling to preview the generated changelog for the PR
-    * Add new top level of separation for product type \(like Enterprise and Community\) based on labels
+  * Rewrite the tooling in TypeScript;
+  * ~Improve the changelog generation getting more information from the PRs like description, images, etc;~ \(already done\)
+  * Accept a new format of PR titles \(conventional changelog\);
+  * Add a validation system for PRs titles via GitHub Actions;
+  * Add a tooling to preview the generated changelog for the PR
+  * Add new top level of separation for product type \(like Enterprise and Community\) based on labels
 
 #### Add Support for Bixby
 
@@ -323,3 +323,4 @@ Interested students are also encouraged to interact with our contributor communi
 **April 27th 18:00 UTC** Accepted student proposals announced
 
 ...
+

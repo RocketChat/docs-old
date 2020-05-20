@@ -454,10 +454,10 @@ Unread Counter Style:
 Here you will be able to change most of the logos on your server. Found in the administration menu.
 
 * logo \(svg, png, jpg\)
-    * Changes the logo on the footer of the left sidebar
-    * Changes the logo on the login page
+  * Changes the logo on the footer of the left sidebar
+  * Changes the logo on the login page
 * login background \(svg, png, jpg\)
-    * Changes the background of the login page
+  * Changes the background of the login page
 
 The next items are mostly icons for different operational systems and platforms, we recommend using the same image with the specified size and format on each item: Favicons are used in the browser tabs and as the icon for the server on the desktop application:
 
@@ -487,3 +487,4 @@ Tiles on Microsoft Windows 10 start menu:
 Safari pinned tab Icon:
 
 * safari pinned tab \(svg\)
+

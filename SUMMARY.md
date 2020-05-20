@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Rocket.Chat Docs](README.md)
+* [Rocket.Chat Documentation](README.md)
 * [Developer Guides](developer-guides/README.md)
   * [Embedded Layout](developer-guides/embedded-layout.md)
   * [Realtime API](developer-guides/realtime-api/README.md)
@@ -559,6 +559,4 @@
   * [Remote Video Monitoring](community-cookbook/remote-video-monitoring.md)
 * [Contributor Covenant Code of Conduct](code_of_conduct.md)
 * [Documentation Contribution Guidelines](contributing-1.md)
-* [actions](actions/README.md)
-  * [Markdown Linter](actions/lint.md)
 

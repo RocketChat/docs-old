@@ -85,11 +85,11 @@ Rocket.Chat is built on top of Node.js v8.9.3. So we need to install this first.
 
 1. Open the _Windows SDK 7.1 Command Prompt_ by pressing Start, typing its name, and clicking on it in the search results \(Note: It needs to be the SDK Command Prompt\)
 2. Now enter the following, replacing:
-    * \[Installation Path\] with the location you placed the Rocket.Chat files
-    * \[Port to Use\] with the port for the Rocket.Chat server to use, such as `3000`
-    * \[Rocket.Chat URL\] with the URL you will use for Rocket.Chat, such as `rocketchat.example.com`
-    * \[Address to MongoDB\] with the IP Address of your MongoDB. \(NOTE: If you didn't install Mongo on another computer, use `localhost`\)
-    * \[MongoDB Database\] with the name of the database you would like to use, such as `rocketchat`
+   * \[Installation Path\] with the location you placed the Rocket.Chat files
+   * \[Port to Use\] with the port for the Rocket.Chat server to use, such as `3000`
+   * \[Rocket.Chat URL\] with the URL you will use for Rocket.Chat, such as `rocketchat.example.com`
+   * \[Address to MongoDB\] with the IP Address of your MongoDB. \(NOTE: If you didn't install Mongo on another computer, use `localhost`\)
+   * \[MongoDB Database\] with the name of the database you would like to use, such as `rocketchat`
 
 ```text
 > SetEnv /x86

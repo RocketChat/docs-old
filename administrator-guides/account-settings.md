@@ -92,9 +92,9 @@ The various settings that fall under this have simple descriptions for understan
 * **Use Default Blocked Domains List**: Will block the email domains listed on this [file](https://github.com/RocketChat/Rocket.Chat/blob/develop/packages/rocketchat-lib/server/lib/defaultBlockedDomainsList.js)
 * **Use DNS Domain Check**: When this is set to true, users won't be able to register with invalid domains.
 * **Registration Form**: This will change how the registration form is presented. Currently, there are 3 options:
-    * Public: The form will be public and anyone will be able to access;
-    * Disabled: The form will be disabled and users won't be able to register through it;
-    * Secret URL: The form will be only accessible using a specific URL;
+  * Public: The form will be public and anyone will be able to access;
+  * Disabled: The form will be disabled and users won't be able to register through it;
+  * Secret URL: The form will be only accessible using a specific URL;
 * **Registration Form Secret URL**: String to be added to the secret URL. Is recommended to use a random string for that. Example: `https://open.rocket.chat/register/[secret_hash]`.
 * **Invite URL Type**: URL type can either be direct or through a proxy.
 * **Registration Form Link Replacement Text**: Text to be shown in place of the registration form when the registration form is disabled.

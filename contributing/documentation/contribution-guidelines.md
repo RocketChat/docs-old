@@ -13,12 +13,11 @@ You can find a list of issues [here](https://github.com/RocketChat/Rocket.Chat.D
 When you create a new pull request, we expect some requirements to be met.
 
 * Follow this naming convention for Pull Requests:
-    * When adding new documentation, add `New Documentation:` before the title. E.g. `New Documentation: Authentication Guide`.
-    * When fixing documentation, add `Fix Documentation:` before the title. E.g. `Fix Documentation: Authentication Guide`.
-    * When updating documentation, add `Update Documentation:` before the title. E.g. `Update Documentation: Authentication Guide`.
+  * When adding new documentation, add `New Documentation:` before the title. E.g. `New Documentation: Authentication Guide`.
+  * When fixing documentation, add `Fix Documentation:` before the title. E.g. `Fix Documentation: Authentication Guide`.
+  * When updating documentation, add `Update Documentation:` before the title. E.g. `Update Documentation: Authentication Guide`.
 * If your Pull Request closes an issue you need to write `Closes #ISSUE_NUMBER` where the `ISSUE_NUMBER` is the number in the end of the link url that will link your pull request to the issue, when merged will close that issue.
 * For each pull request made, we run tests to check if there are any broken links. You can find how to run these tests locally [here](https://docs.rocket.chat/developer-guides/testing/#testing)
-
 
 ### Testing Changes
 
@@ -42,7 +41,7 @@ After that you need to build the documentation, from the root of the docs folder
 
 `gitbook build .`
 
-This will generate a folder called "_book" with the builded docs.
+This will generate a folder called "\_book" with the builded docs.
 
 Then serve the builded book using:
 
@@ -51,3 +50,4 @@ Then serve the builded book using:
 This will serve the book to the url `http://localhost:4000/`
 
 Find out more on [GitBook Cli's repository](https://github.com/GitbookIO/gitbook-cli)
+

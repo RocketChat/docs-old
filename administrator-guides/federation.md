@@ -11,16 +11,16 @@ When enabling federation on your server, your server becomes part of the Rocket.
 ## Features
 
 * **Current**
-    * Invite users from remote servers
-    * Direct chats between servers
-    * Public, private and broadcast rooms with remote users from any number of servers
-    * Read receipts, notifications and alerts distributed to remote servers
-    * Mute/Unmute remote users
-    * Share files among servers
+  * Invite users from remote servers
+  * Direct chats between servers
+  * Public, private and broadcast rooms with remote users from any number of servers
+  * Read receipts, notifications and alerts distributed to remote servers
+  * Mute/Unmute remote users
+  * Share files among servers
 * **Confirmed Next Features**
-    * Encrypted rooms
-    * Whitelist servers to communicate with
-    * Better federation set-up process, with helpers to validate the configuration
+  * Encrypted rooms
+  * Whitelist servers to communicate with
+  * Better federation set-up process, with helpers to validate the configuration
 
 ## Configuration
 
