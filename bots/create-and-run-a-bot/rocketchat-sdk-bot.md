@@ -1,6 +1,6 @@
 # Run a Rocket.Chat SDK Bot
 
-This bot is a simple example of how you can use [Rocket.Chat JS SDK](https://github.com/RocketChat/Rocket.Chat.js.SDK) methods directly. It is extremely basic and does not handle errors, different messsage types, server resets and other production situations.
+This bot is a simple example of how you can use [Rocket.Chat JS SDK](https://github.com/RocketChat/Rocket.Chat.js.SDK) methods directly. It is extremely basic and does not handle errors, different message types, server resets and other production situations.
 
 ## Quick start guide
 

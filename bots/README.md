@@ -2,6 +2,8 @@
 
 ![Rocket.Chat Bots Banner](../.gitbook/assets/banner.png)
 
+![Rocket.Chat Bots Banner](../.gitbook/assets/banner.png)
+
 ## What are bots in Rocket.Chat?
 
 Bots \(or Chatbots\) are pieces of software or software systems that provide automated messaging to a chat platform. They typically add value by integrating large external services such as CRM and big data sources. Bots provide a friendly conversational interface that users on chat platforms are already familiar with, which also brings simplicity to complex systems. Besides, bots add automation, natural language understanding, and machine learning possibilities.
