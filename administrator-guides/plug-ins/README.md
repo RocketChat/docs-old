@@ -4,6 +4,6 @@ Integrate Rocket.Chat \(or Live Chat\) features into popular applications via th
 
 ## Authentication
 
-* [Drupal](https://rocket.chat/docs/administrator-guides/plug-ins/drupal/)
-* [Pidgin](https://rocket.chat/docs/administrator-guides/plug-ins/pidgin/)
+* [Drupal](https://docs.rocket.chat/administrator-guides/plug-ins/drupal/)
+* [Pidgin](https://docs.rocket.chat/administrator-guides/plug-ins/pidgin/)
 

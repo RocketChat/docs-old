@@ -42,7 +42,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | add-user-to-any-c-room | Permission to add a user to a public channel. |
 | add-user-to-any-p-room | Permission to add a user to a private channel. |
 | add-user-to-joined-room | Permission to add a user to a joined channel. |
-| api-bypass-rate-limit | Permission to call api without rate limitation. See [Rate Limiter](https://rocket.chat/docs/developer-guides/rest-api/rate-limiter/). |
+| api-bypass-rate-limit | Permission to call api without rate limitation. See [Rate Limiter](https://docs.rocket.chat/developer-guides/rest-api/rate-limiter/). |
 | archive-room | Permission to archive a channel. |
 | assign-admin-role | Permission to promote user to Admin. Requires view-user-administration permission. Accessible from Administration -&gt; Users. |
 | assign-roles | Permission to assign roles for a user. Requires view-user-administration permission. Accessible from Administration -&gt; Users. |
@@ -94,7 +94,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | preview-c-room | Permission to preview public channels. |
 | remove-closed-livechat-rooms | Permission to close livechat rooms. Requires view-livechat-rooms permission. Accessible from Livechat -&gt; Current Chats. |
 | remove-user | Permission to remove users from channels. |
-| reset-other-user-e2e-key | Permission to set E2E key. See [End to End Encryption](https://rocket.chat/docs/user-guides/end-to-end-encryption/). |
+| reset-other-user-e2e-key | Permission to set E2E key. See [End to End Encryption](https://docs.rocket.chat/user-guides/end-to-end-encryption/). |
 | run-import | Permission to use the data importer tools. Must also be an admin. Accessible from Administration -&gt; Import. |
 | run-migration | Permission to run migrations. |
 | save-others-livechat-room-info | Permission to add additional information to both the visitor and livechat rooms. |

@@ -4,7 +4,7 @@ You may find that Rocket.Chat slows down once you have a lot of concurrent users
 
 While it's possible to scale out by adding more servers \(and this is recommended for HA purposes\), you can achieve better utilization of your existing hardware by running multiple instances of the Rocket.Chat application \(Node.js/Meteor app\) on your current host\(s\). Of course, you only want to do this if you're already running on a multi-core machine. A reasonable rule-of-thumb may be to run `N-1` Rocket.Chat instances, where `N=num_cores`.
 
-Running multiple instances of Rocket.Chat on a single host requires a reverse proxy in front of your application. This tutorial assumes that you've already followed the tutorial for [Running behind a Nginx SSL Reverse Proxy](https://rocket.chat/docs/installation/manual-installation/configuring-ssl-reverse-proxy).
+Running multiple instances of Rocket.Chat on a single host requires a reverse proxy in front of your application. This tutorial assumes that you've already followed the tutorial for [Running behind a Nginx SSL Reverse Proxy](https://docs.rocket.chat/installation/manual-installation/configuring-ssl-reverse-proxy).
 
 There's essentially just three steps:
 
@@ -113,7 +113,7 @@ upstream backend {
 }
 ```
 
-Now just replace `proxy_pass http://IP:3000/;` with `proxy_pass http://backend;`. Updating the [sample Nginx configuration](https://rocket.chat/docs/installation/manual-installation/configuring-ssl-reverse-proxy#running-behind-a-nginx-ssl-reverse-proxy) would result in a config like this:
+Now just replace `proxy_pass http://IP:3000/;` with `proxy_pass http://backend;`. Updating the [sample Nginx configuration](https://docs.rocket.chat/installation/manual-installation/configuring-ssl-reverse-proxy#running-behind-a-nginx-ssl-reverse-proxy) would result in a config like this:
 
 ```text
     # HTTPS Server

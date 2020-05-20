@@ -12,7 +12,7 @@ Select the Rocket.Chat application, you will see lots of information about the i
 
 ![](../../.gitbook/assets/oracledocs3.png) ![](../../.gitbook/assets/oracledocs3.png)
 
-This application will run in a compute instance, you can change the shape of it to fit your usage needs, find more information of our minimum resource recommendations [here](https://rocket.chat/docs/installation/minimum-requirements/#minimum-requirements-for-server-deployment).
+This application will run in a compute instance, you can change the shape of it to fit your usage needs, find more information of our minimum resource recommendations [here](https://docs.rocket.chat/installation/minimum-requirements/#minimum-requirements-for-server-deployment).
 
 ![ComputeInstance](../../.gitbook/assets/oracledocs5.png)
 
@@ -62,7 +62,7 @@ Replace email, HipChat & Slack with the ultimate team chat software solution.
 
   Keep your RocketChat server updated using rocketchatctl update. Run rocketchatctl -h to see the full list of available options.
 
- Looking for how to use Rocket.Chat? Be sure to check our docs: https://rocket.chat/docs
+ Looking for how to use Rocket.Chat? Be sure to check our docs: https://docs.rocket.chat
 
  Need some help? Join our community forums https://forums.rocket.chat
 ```

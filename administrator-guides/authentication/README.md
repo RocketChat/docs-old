@@ -1,10 +1,10 @@
 # Authentication
 
-* [CAS](https://rocket.chat/docs/administrator-guides/authentication/cas/)
-* [LDAP](https://rocket.chat/docs/administrator-guides/authentication/ldap/)
-* [Oauth](https://rocket.chat/docs/administrator-guides/authentication/oauth/)
-* [SAML](https://rocket.chat/docs/administrator-guides/authentication/saml/)
-* [Wordpress](https://rocket.chat/docs/administrator-guides/authentication/wordpress/)
+* [CAS](https://docs.rocket.chat/administrator-guides/authentication/cas/)
+* [LDAP](https://docs.rocket.chat/administrator-guides/authentication/ldap/)
+* [Oauth](https://docs.rocket.chat/administrator-guides/authentication/oauth/)
+* [SAML](https://docs.rocket.chat/administrator-guides/authentication/saml/)
+* [Wordpress](https://docs.rocket.chat/administrator-guides/authentication/wordpress/)
 
 ## External Authentication
 

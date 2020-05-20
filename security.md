@@ -18,9 +18,9 @@ These are resource that you can find outside Rocket.Chat's Security Documentatio
 
 ### Community
 
-* [Report Vulnerabilities](https://rocket.chat/docs/contributing/security/)
+* [Report Vulnerabilities](https://docs.rocket.chat/contributing/security/)
 * [Code of Conduct](https://rocket.chat/code-of-conduct)
-* [Contributions](https://rocket.chat/docs/contributing/security/#whitehat-hall-of-fame)
+* [Contributions](https://docs.rocket.chat/contributing/security/#whitehat-hall-of-fame)
 
 ### Our Website
 

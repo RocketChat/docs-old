@@ -19,7 +19,7 @@ New feature requests should be posted in the [forums](https://forums.rocket.chat
 
 ### Before reporting a new issue
 
-1. [Read the Documentation](https://rocket.chat/docs/) carefully all the way through.
+1. [Read the Documentation](https://docs.rocket.chat/) carefully all the way through.
 2. Make sure you are running the latest version of Rocket.Chat. It's very likely simply updating will resolve your issue.
 3. Try to narrow it down to reproducible steps. If we can reproduce it, we will be able to fix the issue a lot quicker.
 4. Look at all of your logs for errors. See below for how to gather logs.

@@ -22,7 +22,7 @@ This year's Season of Docs is a pilot that accepts only a limited number of appl
 
 Application for technical writers is now closed for the 2019 season. See [Google Season of Docs 2019 timeline](https://developers.google.com/season-of-docs/docs/timeline) for more details.
 
-Write and submit your proposal now! Check out our [list of ideas](https://rocket.chat/docs/contributing/google-season-of-docs-2019/#project-ideas) for some inspiration.
+Write and submit your proposal now! Check out our [list of ideas](https://docs.rocket.chat/contributing/google-season-of-docs-2019/#project-ideas) for some inspiration.
 
 Meet the mentors and fellow writers for GSoD 2019 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
 
@@ -49,7 +49,7 @@ Application for technical writers has opened. Please use this [form](https://for
 * **Mentors**: @martin.schoeler, @marcos.defendi
 * **Description**: When developing applications, developers can use a rich set of Application Programming Interfaces \(APIs\) offered by Rocket.Chat to control every aspect of Rocket.Chat's operation. The documentation for this set of APIs mixes automated generation with hand-crafted usage descriptions, application scenarios, and coding examples. By September 2019, Rocket.Chat should have a "playground" that makes this documentation comes alive. Developers will be able to visit the API page in the "playground" and actually interact with the API directly through the documentation page. We already have a hand-crafted set of API docs that is maintained by our community but they tend to become obsolete as API changes. This project will replace the legacy documentation. You will work with two mentors specialized in API coding and documentation generation for this project.
 * In this project, we will **not** be creating the playground or the docs generation systems, that will be handled by the Google Summer of Code student \([See the GSoC Project](google-season-of-docs-2019.md)\). Our API docs were written without the idea of a playground to test it. The objective of this project is to improve the structure and wording of the API docs to reflect the new playground system.
-* **Related Material**: [Our existing REST API documentation](https://rocket.chat/docs/developer-guides/rest-api/)
+* **Related Material**: [Our existing REST API documentation](https://docs.rocket.chat/developer-guides/rest-api/)
 
 #### Administration/Settings Documentation
 
@@ -57,13 +57,13 @@ Application for technical writers has opened. Please use this [form](https://for
 * **Description**: Given the huge amount of features and customizability of Rocket.Chat we currently lack documentation for a great part of our admin section. This project aims at the completion of the administration documentation, and it can be broken down in two parts, the configuration, and the admin tools part:
 * **Configuration**: We need to complete our settings, fortunately, we already have the skeleton for that documentation on [This Pull Request](https://github.com/RocketChat/docs/pull/1095) but will also like a professional opinion on this structure, or help to improve it. We can _cherry-pick_ each file, so no need to work on all articles at once.
 * **Admin Tools**: In the administration section we have a set of tools to help admins manage their server, things like user management, permission control, mailer, etc...
-* **Related Material**: [Our existing Admin documentation](https://rocket.chat/docs/administrator-guides/)
+* **Related Material**: [Our existing Admin documentation](https://docs.rocket.chat/administrator-guides/)
 
 #### Security documentation
 
 * **Mentors**: @markus.kirsch @rodrigok
 * **Description**: We at Rocket.Chat take pride in taking extra efforts in providing a true open source and secure messaging solution. Transparency and trust are key features of our products. This is an exciting opportunity to work with our team of experts to create a comprehensive documentation of the security features of Rocket.chat and create implementation guides for configuring Rocket.Chat to follow compliance regimes such as GDPR, HIPAA and NIST. The focus is on creating a new set of documentation based on the existing material and new features that since have been deployed.
-* **Related Material**: [Rocket.Chat Security Overview](https://rocket.chat/docs/contributing/security/), [Rocket.Chat GDPR features](https://rocket.chat/2018/05/20/gdpr/)
+* **Related Material**: [Rocket.Chat Security Overview](https://docs.rocket.chat/contributing/security/), [Rocket.Chat GDPR features](https://rocket.chat/2018/05/20/gdpr/)
 
 #### Android Kotlin Software Development Kit \(Kotlin SDK\) documentation
 
@@ -93,11 +93,11 @@ Application for technical writers has opened. Please use this [form](https://for
 
 * **Mentors**: @d-gubert @rodrigok
 * **Description**: The Apps-Engine is a framework that enables developers to integrate new functionality to Rocket.Chat without having to deep dive in the code base, and makes it possible to distribute your Rocket.Chat Apps to the wide community of users! And in order to improve the developer experience when making those apps, we need to improve our docs so they guide people smoothly through the available features. You will be working with Rocket.Chat Apps leads to extend the guides and docs that already exist, focusing on the DX of the community.
-* **Related Material**: [Getting Started with Rocket.Chat Apps](https://rocket.chat/docs/developer-guides/developing-apps/getting-started/), [Rocket.Chat Apps-Engine API Reference](https://rocketchat.github.io/Rocket.Chat.Apps-engine/)
+* **Related Material**: [Getting Started with Rocket.Chat Apps](https://docs.rocket.chat/developer-guides/developing-apps/getting-started/), [Rocket.Chat Apps-Engine API Reference](https://rocketchat.github.io/Rocket.Chat.Apps-engine/)
 
 #### JS SDK documentation
 
 * **Mentors**: @rodrigok, @ggazzo
 * **Description**: The JS SDK is a library of code written in JS that offers an easier interface to communicate with a Rocket.Chat server providing APIs to be called from a JS code that executes commands on the server, like send a message, or retrieve data, like get the list of rooms, abstracting all the logic necessary to handle the communication with the server side. You will be working with Rocket.Chat backend and frontend leads to improve the documentation of all JS SDK methods, from the initial setup of how to get the library and install it to the list of methods, how to use them and the expected returned data. Current documentation is under the SDK repository README.
-* **Related Material**: [JS SDK repository](https://github.com/RocketChat/Rocket.Chat.js.SDK), [Mention in BOT's Docs](https://rocket.chat/docs/bots/bots-architecture/#rocketchat-js-sdk), [NPM Package](https://www.npmjs.com/package/@rocket.chat/sdk), [Documentation](https://github.com/RocketChat/Rocket.Chat.js.SDK/blob/master/README.md)
+* **Related Material**: [JS SDK repository](https://github.com/RocketChat/Rocket.Chat.js.SDK), [Mention in BOT's Docs](https://docs.rocket.chat/bots/bots-architecture/#rocketchat-js-sdk), [NPM Package](https://www.npmjs.com/package/@rocket.chat/sdk), [Documentation](https://github.com/RocketChat/Rocket.Chat.js.SDK/blob/master/README.md)
 
