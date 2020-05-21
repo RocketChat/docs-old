@@ -14,8 +14,8 @@ You only can send `alias` and `avatar` properties if your user has the `bot` rol
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `message._id` | `ByehQjC44FwMeiLbX` |   Required | The \_id of message. |
-| `message.rid` | `ByehQjC44FwMeiLbX` |   Required | The room id of where the message is to be sent. |
+| `message._id` | `ByehQjC44FwMeiLbX` | Required | The \_id of message. |
+| `message.rid` | `ByehQjC44FwMeiLbX` | Required | The room id of where the message is to be sent. |
 | `message.tmid` | `ByehQCh2435MeiLbX` | Optional | The message's id to create a thread. |
 | `message.msg` | `Sample message` | Optional | The text of the message to send, is optional because of attachments. |
 | `message.alias` | `Some Name` | Optional | This will cause the message's name to appear as the given alias, but your username will still display. |

@@ -14,12 +14,12 @@ This is the room messages stream. You just need the room ID for subscribing.
 }
 ```
 
-Unsuscribe from a room
+To unsubscribe from a room, send "unsub", along with the ID of the previous subscribe message.
 
 ```javascript
 {
     "msg": "unsub",
-    "id": "ddp-room",
+    "id": "unique-id",
 }
 ```
 

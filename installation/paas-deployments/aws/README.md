@@ -50,7 +50,7 @@ We will use Let's Encrypt to get a free & open-source SSL certificate:
     ssh -i <path_to_key_file.pem> ubuntu@<public_ip_address>
    ```
 
-   Note: You may replace  with domain name if your DNS has resolved.
+   Note: You may replace with domain name if your DNS has resolved.
 
 2. Install `certbot` using `apt`:
 
@@ -69,7 +69,7 @@ We will use Let's Encrypt to get a free & open-source SSL certificate:
 
 4. Optional step: restrict access using security groups
 
-    If you would like to restrict traffic to your instance on AWS, you may now adjust the security groups again. Make sure you allow "_TCP/22_" from your current location for the SSH connection, as well as "_TCP/443_" from the location you wish to use to access from.
+   If you would like to restrict traffic to your instance on AWS, you may now adjust the security groups again. Make sure you allow "_TCP/22_" from your current location for the SSH connection, as well as "_TCP/443_" from the location you wish to use to access from.
 
 ## Configure Nginx web server with TLS/SSL
 
@@ -257,5 +257,5 @@ Confirm that it is running properly by opening a web browser and going to your d
 
 1. Login to your site at `https://ABC.DOMAIN.COM`
 
-    Note: the first user to login will be an administrator user.
+   Note: the first user to login will be an administrator user.
 

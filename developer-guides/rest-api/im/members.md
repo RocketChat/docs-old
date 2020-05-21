@@ -10,7 +10,7 @@ Lists the users of participants of a direct message. It supports the [Offset, Co
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `roomId`    `username` | `ByehQjC44FwMeiLbX`    `user` |   Required | The room id.    The user name. |
+| `roomId`    `username` | `ByehQjC44FwMeiLbX`    `user` | Required | The room id.    The user name. |
 
 ## Example Call
 

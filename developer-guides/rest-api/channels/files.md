@@ -10,7 +10,7 @@ Retrieves the files from a channel. It supports the [Offset, Count, and Sort Que
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `roomId`    `roomName` | `ByehQjC44FwMeiLbX`    `test` |   Required | The room id.    The room name. |
+| `roomId`    `roomName` | `ByehQjC44FwMeiLbX`    `test` | Required | The room id.    The room name. |
 
 ## Example Call
 

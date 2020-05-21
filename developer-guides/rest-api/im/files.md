@@ -10,7 +10,7 @@ Retrieves the files from a direct message. It supports the [Offset, Count, and S
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `roomId`    `username` | `ByehQjC44FwMeiLbX`    `user` |   Required | The room id.    The user name. |
+| `roomId`    `username` | `ByehQjC44FwMeiLbX`    `user` | Required | The room id.    The user name. |
 
 ## Example Call
 

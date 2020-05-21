@@ -12,7 +12,7 @@ Requires `view-broadcast-member-list` if room is a broadcast.
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `roomId`    `roomName` | `ByehQjC44FwMeiLbX`    `user` |   Required | The room id.    The room name. |
+| `roomId`    `roomName` | `ByehQjC44FwMeiLbX`    `user` | Required | The room id.    The room name. |
 
 ## Example Call
 
