@@ -27,18 +27,23 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 {
   "room": {
     "_id": "ByehQjC44FwMeiLbX",
-    "ts": "2016-11-30T21:23:04.737Z",
-    "t": "c",
     "name": "testing",
-    "usernames": [
-      "testing",
-      "testing1",
-      "testing2"
-    ],
-    "msgs": 1,
-    "default": true,
-    "_updatedAt": "2016-12-09T12:50:51.575Z",
-    "lm": "2016-12-09T12:50:51.555Z"
+    "fname": "testing",
+    "t": "c",
+    "msgs": 0,
+    "usersCount": 2,
+    "u": {
+      "_id": "HKKPmF8rZh45GMHWH",
+      "username": "marcos.defendi"
+    },
+    "customFields": {},
+    "broadcast": false,
+    "encrypted": false,
+    "ts": "2020-05-21T13:14:07.070Z",
+    "ro": false,
+    "default": false,
+    "sysMes": true,
+    "_updatedAt": "2020-05-21T13:14:07.096Z"
   },
   "success": true
 }
