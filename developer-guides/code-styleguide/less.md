@@ -28,7 +28,7 @@
 * Try to not use `!important`.
 * Lowercase, always :\)
 
-**Bad**
+### **Bad**
 
 ```css
 blockquote {
@@ -65,7 +65,7 @@ blockquote {
 }
 ```
 
-**Good**
+### **Good**
 
 ```css
 blockquote {
@@ -109,9 +109,9 @@ blockquote {
 
 ## Selectors
 
-### Create an empty line before selectors.
+### Create an empty line before selectors
 
-**Bad**
+#### **Bad**
 
 ```css
 .class {
@@ -122,7 +122,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .class {
@@ -134,9 +134,9 @@ blockquote {
 }
 ```
 
-### Use a single space after selectors.
+### Use a single space after selectors
 
-**Bad**
+#### **Bad**
 
 ```css
 .class{
@@ -144,7 +144,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .class {
@@ -152,9 +152,9 @@ blockquote {
 }
 ```
 
-### Add an empty line before nested selectors.
+### Add an empty line before nested selectors
 
-**Bad**
+#### **Bad**
 
 ```css
 .class {
@@ -165,7 +165,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .class {
@@ -177,9 +177,9 @@ blockquote {
 }
 ```
 
-### Use an empty line before non-nested selectors.
+### Use an empty line before non-nested selectors
 
-**Bad**
+#### **Bad**
 
 ```css
 .class {
@@ -194,7 +194,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .class {
@@ -210,9 +210,9 @@ blockquote {
 }
 ```
 
-### Don’t add whitespaces inside of the brackets within attribute selectors.
+### Don’t add whitespaces inside of the brackets within attribute selectors
 
-**Bad**
+#### **Bad**
 
 ```css
 .input[ type="text" ] {
@@ -220,7 +220,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .input[type="text"] {
@@ -228,9 +228,9 @@ blockquote {
 }
 ```
 
-### Don’t add a whitespace between operators within attribute selectors.
+### Don’t add a whitespace between operators within attribute selectors
 
-**Bad**
+#### **Bad**
 
 ```css
 .input[type = "text" ] {
@@ -238,7 +238,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .input[type="text"] {
@@ -246,9 +246,9 @@ blockquote {
 }
 ```
 
-### Always use a single space between the combinators of selectors.
+### Always use a single space between the combinators of selectors
 
-**Bad**
+#### **Bad**
 
 ```css
 .class>.button {
@@ -256,7 +256,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .class > .button {
@@ -264,9 +264,9 @@ blockquote {
 }
 ```
 
-### Add a newline after the commas of selector lists.
+### Add a newline after the commas of selector lists
 
-**Bad**
+#### **Bad**
 
 ```css
 .class,  .another, .another-class {
@@ -274,7 +274,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .class,
@@ -284,9 +284,9 @@ blockquote {
 }
 ```
 
-### Don’t add a whitespace inside of the parentheses within pseudo-class selectors.
+### Don’t add a whitespace inside of the parentheses within pseudo-class selectors
 
-**Bad**
+#### **Bad**
 
 ```css
 .class:not( .another ) {
@@ -294,7 +294,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .class:not(.another) {
@@ -302,9 +302,9 @@ blockquote {
 }
 ```
 
-### Double colon for applicable pseudo-elements.
+### Double colon for applicable pseudo-elements
 
-**Bad**
+#### **Bad**
 
 ```css
 .class:before {
@@ -316,7 +316,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .class::before {
@@ -330,9 +330,9 @@ blockquote {
 
 ## Properties
 
-### Don’t add empty line in first/last property or in between properties.
+### Don’t add empty line in first/last property or in between properties
 
-**Bad**
+#### **Bad**
 
 ```css
 .room-list {
@@ -345,7 +345,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .room-list {
@@ -355,15 +355,15 @@ blockquote {
 }
 ```
 
-### Don't add properties in single-line. Use one property per line.
+### Don't add properties in single-line. Use one property per line
 
-**Bad**
+#### **Bad**
 
 ```css
 .sumbit {color: #ffffff; background-color: #000000;}
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .sumbit {
@@ -372,15 +372,15 @@ blockquote {
 }
 ```
 
-### No empty blocks.
+### No empty blocks
 
-**Bad**
+#### **Bad**
 
 ```css
 .button {}
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .button {
@@ -388,9 +388,9 @@ blockquote {
 }
 ```
 
-### Longhand properties must be combined into one shorthand property.
+### Longhand properties must be combined into one shorthand property
 
-**Bad**
+#### **Bad**
 
 ```css
 .class {
@@ -400,7 +400,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .class {
@@ -408,9 +408,9 @@ blockquote {
 }
 ```
 
-### Don’t use shorthand properties that override related longhand properties.
+### Don’t use shorthand properties that override related longhand properties
 
-**Example**
+#### **Example**
 
 ```css
 .class {
@@ -419,9 +419,9 @@ blockquote {
 }
 ```
 
-### Always add a trailing semicolon in the end of a declaration.
+### Always add a trailing semicolon in the end of a declaration
 
-**Bad**
+#### **Bad**
 
 ```css
 .another-class {
@@ -430,7 +430,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .another-class {
@@ -439,9 +439,9 @@ blockquote {
 }
 ```
 
-### Add a newline after the colon of declarations.
+### Add a newline after the colon of declarations
 
-**Bad**
+#### **Bad**
 
 ```css
 .another-class {
@@ -449,7 +449,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .another-class {
@@ -459,9 +459,9 @@ blockquote {
 }
 ```
 
-### Don’t duplicate properties within declaration blocks.
+### Don’t duplicate properties within declaration blocks
 
-**Bad**
+#### **Bad**
 
 ```css
 .another-class {
@@ -471,7 +471,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .another-class {
@@ -480,9 +480,9 @@ blockquote {
 }
 ```
 
-### Don’t duplicate selectors along the file.
+### Don’t duplicate selectors along the file
 
-**Bad**
+#### **Bad**
 
 ```css
 .some-class {
@@ -497,7 +497,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .some-class {
@@ -507,9 +507,9 @@ blockquote {
 }
 ```
 
-### Add a whitespace before bang \(!\) declaration.
+### Add a whitespace before bang \(!\) declaration
 
-**Bad**
+#### **Bad**
 
 ```css
 .class {
@@ -517,7 +517,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .class {
@@ -525,9 +525,9 @@ blockquote {
 }
 ```
 
-### Use spaces around calc operators.
+### Use spaces around calc operators
 
-**Bad**
+#### **Bad**
 
 ```css
 .class {
@@ -535,7 +535,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .class {
@@ -543,9 +543,9 @@ blockquote {
 }
 ```
 
-### Remove units for zero lengths.
+### Remove units for zero lengths
 
-**Bad**
+#### **Bad**
 
 ```css
 .button {
@@ -553,7 +553,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .button {
@@ -561,9 +561,9 @@ blockquote {
 }
 ```
 
-### Use a leading zero for fractional numbers css than 1.
+### Use a leading zero for fractional numbers css than 1
 
-**Bad**
+#### **Bad**
 
 ```css
 .message-form {
@@ -571,7 +571,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .message-form {
@@ -579,9 +579,9 @@ blockquote {
 }
 ```
 
-### Don’t add trailing zeros in numbers.
+### Don’t add trailing zeros in numbers
 
-**Bad**
+#### **Bad**
 
 ```css
 .flex-tab {
@@ -589,7 +589,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .flex-tab {
@@ -597,9 +597,9 @@ blockquote {
 }
 ```
 
-### Don’t add newlines in strings.
+### Don’t add newlines in strings
 
-**Bad**
+#### **Bad**
 
 ```css
 .nav-link::before {
@@ -608,7 +608,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .nav-link::before {
@@ -618,11 +618,11 @@ blockquote {
 
 ## Colors
 
-### Lowercase, always.
+### Lowercase, always
 
-### Long notation.
+### Long notation
 
-**Bad**
+#### **Bad**
 
 ```css
 .another-class {
@@ -630,7 +630,7 @@ blockquote {
 }
 ```
 
-**Good**
+#### **Good**
 
 ```css
 .another-class {

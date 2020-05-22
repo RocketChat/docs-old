@@ -1,6 +1,6 @@
 # Bots Overview
 
-![Rocket.Chat Bots Banner](../.gitbook/assets/banner.png){:style="width='100%' height='auto'"}
+![Rocket.Chat Bots Banner](../.gitbook/assets/banner.png)
 
 ## What are bots in Rocket.Chat?
 

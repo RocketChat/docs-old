@@ -3,4 +3,3 @@
 if(location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") {
   location="https://docs.rocket.chat" + location.pathname.replace('/docs','')
 }
-ß

@@ -47,7 +47,7 @@ Now logout from Rocket.Chat to view the keycloak based login option visible in t
 
 This section documents how client-specific roles of keycloak managed user can be mapped to Rocket.Chat roles. This does not work for federated users \(e.g. LDAP managed users\).
 
-For this example, we map the `admin` and `livechat-manager` role, as documented in [Permissions](https://rocket.chat/docs/administrator-guides/permissions/).
+For this example, we map the `admin` and `livechat-manager` role, as documented in [Permissions](https://docs.rocket.chat/administrator-guides/permissions/).
 
 First we add the required roles to the client
 

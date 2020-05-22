@@ -61,13 +61,13 @@ A suggested approach for including custom templates and helpers is to use the `'
 
 Here's an example replacing the unauthorized page template:
 
- **In `package.js`** 
+**In `package.js`**
 
 ```javascript
     api.addFiles(['views/notAuthorized.html', 'client.coffee'], 'client');
 ```
 
- **In `views/notAuthorized.html`** 
+**In `views/notAuthorized.html`**
 
 ```markup
 <template name="myNotAuthorized">
@@ -75,7 +75,7 @@ Here's an example replacing the unauthorized page template:
 </template>
 ```
 
- **In `client.coffee`** 
+**In `client.coffee`**
 
 ```coffeescript
 Template.myNotAuthorized.replaces 'notAuthorized'

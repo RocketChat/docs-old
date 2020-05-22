@@ -358,7 +358,7 @@ Learn more about hubot-meteorchat and other available drivers [at this link](htt
 
 ## Contributions and discussions
 
-Please see [our documentation on contributing](https://rocket.chat/docs/contributing/developing/), then [visit the issues](https://github.com/RocketChat/hubot-rocketchat-boilerplate/issues) to share your needs or ideas.
+Please see [our documentation on contributing](https://docs.rocket.chat/contributing/developing/), then [visit the issues](https://github.com/RocketChat/hubot-rocketchat-boilerplate/issues) to share your needs or ideas.
 
 If you want to contribute to the development or improvement of this adapter, pull requests are welcome.
 

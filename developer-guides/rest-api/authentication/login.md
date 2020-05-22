@@ -13,11 +13,11 @@ Login with your username and password.
 | `user` | `foo@bar.com` OR `myusername` | Required | Your username or email |
 | `password` | `my$up3erP@ssw0rd` | Required | Your password |
 
-**Notes**
+### Notes
 
-* **You will need to provide the `authToken` and `userId` for any of the authenticated methods.**  
-* **If your user has two-factor\(2FA\) authentication enabled, you must send a request like** [**this**](login.md#example-call---when-two-factor2fa-authentication-is-enabled)**.**  
-* **If LDAP authentication is enabled, you must maintain the login in the same way as you normally do. Similarly if 2FA is enabled for an LDAP user. Everything stays the same.**  
+* **You will need to provide the `authToken` and `userId` for any of the authenticated methods.**
+* **If your user has two-factor\(2FA\) authentication enabled, you must send a request like** [**this**](login.md#example-call---when-two-factor2fa-authentication-is-enabled)**.**
+* **If LDAP authentication is enabled, you must maintain the login in the same way as you normally do. Similarly if 2FA is enabled for an LDAP user. Everything stays the same.**
 
 ## Example Call - As Form Data
 

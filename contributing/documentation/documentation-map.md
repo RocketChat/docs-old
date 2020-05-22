@@ -8,25 +8,13 @@ Red Colored Text means that this article is missing from the documentation and n
 
 Orange Colored Text means that this article is in the documentation but is incomplete or outdated.
 
-  
-  
-  span.missing {  
-        color: red;  
-  }  
-  
-  span.missing a {  
-        color: red;  
-  }  
-  
-  span.incomplete {  
-      color: orange;  
-  }  
-  
-  span.incomplete a {  
-        color: orange;  
-  }  
-  
+span.missing { color: red; }
 
+span.missing a { color: red; }
+
+span.incomplete { color: orange; }
+
+span.incomplete a { color: orange; }
 
 * Contributing
   * Developing
@@ -84,7 +72,7 @@ Orange Colored Text means that this article is in the documentation but is incom
     * Openshift
     * Vagrant
   * Mobile and Desktop Apps
-  * [Updating](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
+  * [Updating](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/%20%20missing-and-outdated-list/index.html)
     * From 0.x.x to 0.40.0
   * Minimum Requirements
   * Community Supported Install:
@@ -137,8 +125,8 @@ Orange Colored Text means that this article is in the documentation but is incom
     * [Message Section](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
   * Hubot
   * Import:
-    * CSV
     * HipChat:
+    * CSV
       * [Cloud](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
       * Enterprise
     * Slack:
@@ -241,7 +229,7 @@ Orange Colored Text means that this article is in the documentation but is incom
       * registerGuest
       * sendMessageLivechat
       * sendOfflineMessage
-    * Rest API:
+  * Rest API:
     * Assets:
       * setAsset
       * unsetAsset
@@ -497,9 +485,9 @@ Orange Colored Text means that this article is in the documentation but is incom
     * Query and Fields Info
     * Personal Access Tokens
     * [Schema Definition](missing-and-outdated-list.md)
-    * [Testing](missing-and-outdated-list.md)
-    * Troubleshooting
-    * UI and Theming:
+  * [Testing](missing-and-outdated-list.md)
+  * Troubleshooting
+  * UI and Theming:
     * Colors
     * Components
     * Themes

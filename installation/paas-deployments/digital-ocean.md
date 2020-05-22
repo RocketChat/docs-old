@@ -37,14 +37,14 @@ Replace email, HipChat & Slack with the ultimate team chat software solution.
 
  Keep your RocketChat server updated using rocketchatctl update. Run rocketchatctl -h to see the full list of available options.
 
- Looking for how to use Rocket.Chat? Be sure to check our docs: https://rocket.chat/docs
+ Looking for how to use Rocket.Chat? Be sure to check our docs: https://docs.rocket.chat
 
- Checkout our Digital Ocean docs: https://rocket.chat/docs/installation/paas-deployments/digital-ocean/
+ Checkout our Digital Ocean docs: https://docs.rocket.chat/installation/paas-deployments/digital-ocean/
 
  Need some help? Join our community forums https://forums.rocket.chat
 ```
 
-Besides the recommended setup you can out of the box access Rocket.Chat server at: [http://Droplet-IP:3000](http://Droplet-IP:3000>)
+Besides the recommended setup you can out of the box access Rocket.Chat server at: [http://Droplet-IP:3000](http://Droplet-IP:3000)
 
 ## Setting up HTTPS
 

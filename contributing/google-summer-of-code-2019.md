@@ -12,7 +12,7 @@ redirect_from:
 
 ### How to apply
 
-Applications for the GSoC 2019 season have now closed. Please see [GSoC timeline](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#timeline) for more details.
+Applications for the GSoC 2019 season have now closed. Please see [GSoC timeline](https://docs.rocket.chat/contributing/google-summer-of-code-2019/#timeline) for more details.
 
 #### Update on July 10, 2019
 
@@ -78,7 +78,7 @@ Our community of mentors is hard-at-work right now going through every one of th
 
 #### About Rocket.Chat GSoC 2019
 
-For ideas, check out our [list of ideas](https://rocket.chat/docs/contributing/google-summer-of-code-2019/#project-ideas) for some inspiration.
+For ideas, check out our [list of ideas](https://docs.rocket.chat/contributing/google-summer-of-code-2019/#project-ideas) for some inspiration.
 
 Come meet our global community of 200+ mentors and students for GSoC 2019 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
 

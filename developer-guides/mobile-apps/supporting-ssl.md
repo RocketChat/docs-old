@@ -13,9 +13,9 @@ This doc has been broken down into two separate sections, walking you through ei
 
 ## The Rocket.Chat server is publicly accessible on the internet
 
-If your server is publicly accessible, it is recommended that you use a service like [Let's Encrypt](https://letsencrypt.org/) to obtain your SSL certificates. A detailed guide for configuring your choice of SSL Reverse proxy servers is provided here: [Configuring SSL Reverse Proxy](https://rocket.chat/docs/installation/manual-installation/configuring-ssl-reverse-proxy/)
+If your server is publicly accessible, it is recommended that you use a service like [Let's Encrypt](https://letsencrypt.org/) to obtain your SSL certificates. A detailed guide for configuring your choice of SSL Reverse proxy servers is provided here: [Configuring SSL Reverse Proxy](https://docs.rocket.chat/installation/manual-installation/configuring-ssl-reverse-proxy/)
 
-**If you are using Ubuntu**, this can be configured automatically with the help of Snaps. A guide for which is provided here: [Installing Rocket.Chat on Ubuntu with Snaps](https://rocket.chat/docs/installation/manual-installation/ubuntu/snaps/)
+**If you are using Ubuntu**, this can be configured automatically with the help of Snaps. A guide for which is provided here: [Installing Rocket.Chat on Ubuntu with Snaps](https://docs.rocket.chat/installation/manual-installation/ubuntu/snaps/)
 
 ## The Rocket.Chat server is not accessible on the internet
 
@@ -75,7 +75,7 @@ openssl x509 -req -in mydomain.com.csr -CA Rocket.Chat-root.crt -CAkey Rocket.Ch
 
 The `mydomain.com.crt` and `mydomain.com.key` files generated above will be used as the certificate and the private key to configure SSL.
 
-A detailed guide for configuring your choice of SSL Reverse proxy servers is provided here: [Configuring SSL Reverse Proxy](https://rocket.chat/docs/installation/manual-installation/configuring-ssl-reverse-proxy/)
+A detailed guide for configuring your choice of SSL Reverse proxy servers is provided here: [Configuring SSL Reverse Proxy](https://docs.rocket.chat/installation/manual-installation/configuring-ssl-reverse-proxy/)
 
 ## Step 4: Trusting Certificate Authority
 

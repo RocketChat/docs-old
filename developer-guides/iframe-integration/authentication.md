@@ -20,9 +20,9 @@ The choice of which property `API URL` will return depends on how the third-part
 
 #### Using Rocket.Chat API
 
-If you have the user's password stored \(or it is the same between your third party system and Rocket.Chat\), you can use [Rocket.Chat's REST APIs](https://rocket.chat/docs/developer-guides/rest-api/authentication/login/) to log in the user, this way you will get an `authToken` back from Rocket.Chat that should be returned as `loginToken` by your endpoint.
+If you have the user's password stored \(or it is the same between your third party system and Rocket.Chat\), you can use [Rocket.Chat's REST APIs](https://docs.rocket.chat/developer-guides/rest-api/authentication/login/) to log in the user, this way you will get an `authToken` back from Rocket.Chat that should be returned as `loginToken` by your endpoint.
 
-At this point, if the user does not have a Rocket.Chat account yet, you can either use Rocket.Chat API to [create an user](https://rocket.chat/docs/developer-guides/rest-api/users/create/) using a admin account or [register him](https://rocket.chat/docs/developer-guides/rest-api/users/register/).
+At this point, if the user does not have a Rocket.Chat account yet, you can either use Rocket.Chat API to [create an user](https://docs.rocket.chat/developer-guides/rest-api/users/create/) using a admin account or [register him](https://docs.rocket.chat/developer-guides/rest-api/users/register/).
 
 After you log the user in, you should return a payload like the following:
 

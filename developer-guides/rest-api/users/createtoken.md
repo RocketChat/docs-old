@@ -1,7 +1,6 @@
 # Create Token
 
-**IMPORTANT**   
- To be able to use this endpoint you must set the ENV VAR \(CREATE\_TOKENS\_FOR\_USERS=true\).
+**IMPORTANT** To be able to use this endpoint you must set the ENV VAR \(CREATE\_TOKENS\_FOR\_USERS=true\).
 
 Create a user authentication token. This is the same type of session token a user would get via login and will expire the same way. Requires `user-generate-access-token` permission.
 

@@ -11,8 +11,7 @@ this.add('Accounts_AllowAnonymousRead', false, {
   });
 ```
 
-means that the setting labeled "Allow anonymous read" in the section "Accounts" has `_id` equal to `'Accounts_AllowAnonymousRead'`. The second argument is the default value \(`false`\). The third argument specifies the variable's type and whether it is public, hidden, and so on.   
- To set a color, you can send
+means that the setting labeled "Allow anonymous read" in the section "Accounts" has `_id` equal to `'Accounts_AllowAnonymousRead'`. The second argument is the default value \(`false`\). The third argument specifies the variable's type and whether it is public, hidden, and so on. To set a color, you can send
 
 ```text
 {

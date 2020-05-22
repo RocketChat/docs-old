@@ -1,6 +1,8 @@
 # Bots Architecture
 
-![Bots Architecture Diagram](../.gitbook/assets/diagram.png){:style="width='100%' height='auto'"}
+![Bots Architecture Diagram](../.gitbook/assets/diagram.png)
+
+![Bots Architecture Diagram](../.gitbook/assets/diagram.png)
 
 The above diagram illustrates the general concepts of how a Rocket.Chat server communicates with a chatbot framework or platform. These concepts are applicable to [**external**](./) bots.
 
