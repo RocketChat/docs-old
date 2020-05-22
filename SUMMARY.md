@@ -432,6 +432,7 @@
   * [Minimum Requirements for Server Deployment](installation/minimum-requirements.md)
   * [Mobile and Desktop Apps](installation/mobile-and-desktop-apps.md)
 * [Administrator Guides](administrator-guides/README.md)
+  * [CDN](administrator-guides/cdn.md)
   * [White-Labeling Rocket.Chat](administrator-guides/white-labeling/README.md)
     * [Advanced White-Labeling](administrator-guides/white-labeling/advanced-white-labeling.md)
     * [Basic White-labeling](administrator-guides/white-labeling/basic-white-labeling.md)
