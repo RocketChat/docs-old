@@ -8,7 +8,7 @@ Gets all connected users presence.
 
 ## Query Parameters
 
-| Argument | Example | Required | Description | Valid Format(s) |
+| Argument | Example | Required | Description | Valid Format\(s\) |
 | :--- | :--- | :--- | :--- | :--- |
 | `from` | `2019-05-22T12:11:45.392Z` | Optional | The last date you got a status change | ISO 8601 datetime. Timezone, milliseconds and seconds are optional |
 

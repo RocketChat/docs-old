@@ -8,7 +8,7 @@ Get all subscriptions. Please note that the **unread** counter value depends on 
 
 ## Query Parameters
 
-| Argument | Example | Required | Description | Valid Format(s) |
+| Argument | Example | Required | Description | Valid Format\(s\) |
 | :--- | :--- | :--- | :--- | :--- |
 | `updatedSince` | `2017-11-25T15:08:17.248Z` | Optional | Date and time from which to fetch changes | ISO 8601 datetime. Optional seconds, optional milliseconds, optional timezone, always with colon time separators |
 

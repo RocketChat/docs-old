@@ -13,10 +13,9 @@ If you would like to enable TLS on your site like this `https://yoursite.com` wh
 This installation guide was tested in the following environment:
 
 * Rocket.Chat 3.0.0
-* OS: Ubuntu 18.04 LTS, Ubuntu 19.04 and Ubuntu 20.04(Latest)
+* OS: Ubuntu 18.04 LTS, Ubuntu 19.04 and Ubuntu 20.04\(Latest\)
 * Mongodb 4.0.9
 * NodeJS 12.14.0
-
 
 ## Install necessary dependency packages
 

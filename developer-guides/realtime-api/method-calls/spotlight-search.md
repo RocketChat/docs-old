@@ -2,8 +2,6 @@
 
 Search for rooms or users.
 
-
-
 ## Requirements
 
 | Logged In | Permission | Setting |
@@ -110,6 +108,5 @@ Search for rooms or users.
         ]
     }
 }
-
 ```
 

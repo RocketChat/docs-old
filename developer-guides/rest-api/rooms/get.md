@@ -1,6 +1,6 @@
 # Rooms Get
 
-Get all opened rooms (all joined public & private channels and all DMs) for this user.
+Get all opened rooms \(all joined public & private channels and all DMs\) for this user.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

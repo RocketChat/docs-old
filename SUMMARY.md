@@ -449,6 +449,7 @@
     * [WordPress oAuth Setup](administrator-guides/authentication/wordpress.md)
     * [LDAP](administrator-guides/authentication/ldap.md)
     * [SAML](administrator-guides/authentication/saml/README.md)
+      * [Active Directory Federation Services](administrator-guides/authentication/saml/active-directory-federation-services.md)
       * [Oracle Identity Cloud Service](administrator-guides/authentication/saml/oracle-cloud.md)
     * [CAS](administrator-guides/authentication/cas.md)
   * [Google Cloud Features](administrator-guides/google-cloud/README.md)

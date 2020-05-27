@@ -2,8 +2,7 @@
 
 List all public settings.
 
-It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/)
-along with [Query and Fields Query Parameters](../../query-and-fields-info/).
+It supports the [Offset, Count, and Sort Query Parameters](https://github.com/RocketChat/docs/tree/76dab9a719fdb2d09343eb5dff3f622d8bdc64f7/developer-guides/offset-and-count-and-sort-info/README.md) along with [Query and Fields Query Parameters](https://github.com/RocketChat/docs/tree/76dab9a719fdb2d09343eb5dff3f622d8bdc64f7/developer-guides/query-and-fields-info/README.md).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

@@ -18,7 +18,7 @@ Avatars are fetched from the server for each room and user, and gives the client
 
 ## Notes
 
-* Whilst this is a RESTful endpoint, this sits separately from the [REST API](rest-api/README.md) in the server codebase, and behaves slightly differently.
+* Whilst this is a RESTful endpoint, this sits separately from the [REST API](rest-api/) in the server codebase, and behaves slightly differently.
 * The `rc_uid` and `rc_token` can alternately be provided as cookies \(already present in the web interface\), but not as auth headers.
 * When requesting the avatar of a user, if they have a custom avatar set, this will override user choices of format or size
 * If no uploaded avatar exists for a user, a default one will be generated for them based on the initial of their username in a randomly coloured square
