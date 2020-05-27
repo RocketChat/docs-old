@@ -2,6 +2,7 @@
 
 * [Rocket.Chat Documentation](README.md)
 * [Developer Guides](developer-guides/README.md)
+  * [Avatars](developer-guides/avatars.md)
   * [Embedded Layout](developer-guides/embedded-layout.md)
   * [Realtime API](developer-guides/realtime-api/README.md)
     * [Method Calls](developer-guides/realtime-api/method-calls/README.md)
