@@ -6,6 +6,7 @@
   * [Embedded Layout](developer-guides/embedded-layout.md)
   * [Realtime API](developer-guides/realtime-api/README.md)
     * [Method Calls](developer-guides/realtime-api/method-calls/README.md)
+      * [Spotlight \(search\)](developer-guides/realtime-api/method-calls/spotlight-search.md)
       * [Set Reaction](developer-guides/realtime-api/method-calls/set-reaction.md)
       * [User Presence](developer-guides/realtime-api/method-calls/user-presence.md)
       * [Delete Rooms](developer-guides/realtime-api/method-calls/delete-rooms.md)

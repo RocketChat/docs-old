@@ -49,15 +49,15 @@ The primary palette of the app. Contributions and modifications to components sh
 
 A set of minor colors for specific use cases will inherit from the major colors by default but can be used by admins who want more granular control over the color scheme.
 
-* tertiary-background-color   _defaults to component-color_
-* tertiary-font-color   _defaults to transparent-light_
-* link-font-color   _defaults to primary-action-color_
-* info-font-color   _defaults to secondary-font-color_
-* custom-scrollbar-color   _defaults to transparent-dark_
-* status-online    _defaults to success-color_
-* status-away   _defaults to pending-color_
-* status-busy   _defaults to error-color_
-* status-offline   _defaults to transparent-darker_
+* tertiary-background-color   _defaults to component-color_
+* tertiary-font-color   _defaults to transparent-light_
+* link-font-color   _defaults to primary-action-color_
+* info-font-color   _defaults to secondary-font-color_
+* custom-scrollbar-color   _defaults to transparent-dark_
+* status-online    _defaults to success-color_
+* status-away   _defaults to pending-color_
+* status-busy   _defaults to error-color_
+* status-offline   _defaults to transparent-darker_
 
 ### Dark UI
 

@@ -4,7 +4,7 @@ Use the Mailer tool to send email to users inside your Rocket.Chat server.
 
 Use the `From` field to set the address to send the email. Check the `Dry Run`option to send the email only to the address defined in `From`.
 
-You can also filter who receives the email by using a valid user query  in the `Query` field.
+You can also filter who receives the email by using a valid user query in the `Query` field.
 
 Then, you can write a subject and a body for the email. When you write the body, add brackets to add dynamic data to the body.
 
