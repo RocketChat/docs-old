@@ -18,6 +18,5 @@ Notifications of direct messages to you or if you are mentioned by @username are
 
 ## Mentions
 
-@username - notify this person
-@all - notify all members of this room or channel
-@here - notify all members of this room or channel who are online
+@username - notify this person @all - notify all members of this room or channel @here - notify all members of this room or channel who are online
+
