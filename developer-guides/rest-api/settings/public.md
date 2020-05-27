@@ -2,9 +2,18 @@
 
 List all public settings.
 
+It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info/)
+along with [Query and Fields Query Parameters](../../query-and-fields-info/).
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/settings.public` | `no` | `GET` |
+
+## Query Parameters
+
+| Argument | Example | Required | Description | Format |
+| :--- | :--- | :--- | :--- | :--- |
+| `query` | `{"_id":{"$in":["LDAP_Enable", "Jitsi_Enabled"]}}` | Optional | Query for named properties | URL encoded JSON object |
 
 ## Example Call
 

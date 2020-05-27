@@ -13,7 +13,7 @@ Save new push token on the server.
 | `id` | `id` | Optional | A record id for the Application/Token document to update. If this does not exist, will return 404. |
 | `type` | `gcm` | Required | Can be `apn` or `gcm` |
 | `value` | `TOKEN` | Required | The Token |
-| `appName` | `appName` | Required | The name of the application to associate the token with |
+| `appName` | `com.example.rocketchat` | Required | The name of the application to associate the token with |
 
 ## Example Call
 

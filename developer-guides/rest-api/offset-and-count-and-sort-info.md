@@ -4,9 +4,11 @@ Starting in version `0.49`, some of the endpoints support the query parameters `
 
 ## Query Parameter Information
 
-* `offset` - number of items to "skip" in the query, is zero based so it starts off at `0` being the first item.
-* `count` - the number of items to "get" in the query, is one based so to get only one you would pass in `1`. If you want to get all of the records, then pass in `0` but this will only work if the setting \(see below\) allows it.
-* `sort` - specify the order in which the results should be returned. Sort hash uses attribute name for key and value of `1` for asc, `-1` for desc.
+| Parameter | Example | Description | Format |
+| :--- | :--- | :--- | :--- |
+| `offset` | `50` | Number of items to "skip" in the query, i.e. requests return `count` items, skipping the first `offset` items | Positive integer |
+| `count` | `50` | How many items to return. | Integer |
+| `sort` | `{"value": -1, "_id": 1}` | List of fields to order by, and in which direction | JSON object, with properties listed in desired order, with values of `1` for ascending, or `-1` for descending.|
 
 ## Settings
 
