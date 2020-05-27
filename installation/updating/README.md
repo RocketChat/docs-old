@@ -1,6 +1,6 @@
 # Update
 
-Usually you can update Rocket.Chat server pretty easily
+Usually you can update Rocket.Chat server pretty easily.
 
 ## Docker installation
 
@@ -54,7 +54,7 @@ Start the service:
 sudo systemctl start rocketchat
 ```
 
-Please also have a look at the installation documentation for your method of deployment to check for paragraphs that refers to installation.
+Please also have a look at the installation documentation for your method of deployment to check for paragraphs that refer to the process of updating.
 
 There might be some major changes when we introduce big new features or modifications, you can always take a look on the [releases page](https://github.com/RocketChat/Rocket.Chat/releases) to see what has been changed, broken or added to Rocket.Chat.
 
