@@ -6,5 +6,6 @@ A Rocket.Chat App is an integration or a plugin which is created in an isolated 
 
 Below are a few guides which will help you get started with Rocket.Chat App CLI to create and publish your own applications.
 
-- [Getting Started](getting-started/)
-- [Rocket.Chat Apps TypeScript Definitions Documentation](https://rocketchat.github.io/Rocket.Chat.Apps-engine/)
+* [Getting Started](getting-started.md)
+* [Rocket.Chat Apps TypeScript Definitions Documentation](https://rocketchat.github.io/Rocket.Chat.Apps-engine/)
+

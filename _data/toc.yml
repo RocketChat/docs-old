@@ -12,6 +12,7 @@
   - Google Summer of Code 2017
   - Google Summer of Code 2018
   - Google Summer of Code 2019
+  - Google Summer of Code 2020
   - Google Season of Docs 2019
   - Promoting
   - Reporting Issues
@@ -33,7 +34,6 @@
     - Galaxy
     - Google Computer Engine
     - Heroku
-    - Hyper.sh
     - IBM Bluemix
     - IndieHosters
     - Koozali
@@ -51,6 +51,7 @@
     - High Availability Install
     - Available Images
     - Docker Compose
+    - Docker Swarm
   - RocketChatCTL
   - Manual Installation:
     - CentOS
@@ -90,6 +91,7 @@
   - Talking to users from another server
   - Channels
   - Messaging
+  - Message Actions
   - Channel Actions
   - Managing your Account
   - End to End Encryption
@@ -146,7 +148,6 @@
     - NextCloud and WebDAV
     - NewRelic
     - nixstats
-    - Osticket
     - PagerDuty
     - Prometheus
     - ReviewBoard
@@ -161,6 +162,9 @@
     - Bitbucket Server Integration
     - Bamboo Integration
     - Confluence Server Integration
+  - White Labeling:
+    - Basic White Labeling
+    - Advanced White Labeling
   - Google Cloud:
     - Auto Translate
   # - Google Drive
@@ -168,6 +172,8 @@
   - Livechat:
     - Livechat Queues
     - Omnichannel Integration
+    - WhatsApp Twilio
+  - Message Auditing
   - Notifications:
     - Push Notifications
   - Permissions
@@ -180,6 +186,7 @@
   - Retention Policies
   - Settings Via Env Vars
   - Youtube Broadcasting
+  - Troubleshooting
 - Developer guides:
     - Quick Start
     - Branches and Releases
@@ -200,12 +207,10 @@
       - Supporting SSL
     - Developing Apps:
       - Getting Started
-    - GraphQL API:
-       - Authentication
-       - Schema
-       - Setup
-       - Subscription
-    - Realtime-API:
+    - Two Factor:
+      - Realtime API
+      - REST API
+    - Realtime API:
       - Method Calls:
         - Login
         - Logout
@@ -264,11 +269,16 @@
         - logout
         - me
         - twitter
+      - AutoTranslate:
+        - getSupportedLanguages
+        - saveSettings
+        - translateMessage
       - Channels:
         - addAll
         - AddLeader
         - addModerator
         - addOwner
+        - anonymousread
         - archive
         - close
         - counters
@@ -309,8 +319,14 @@
         - delete
         - followMessage
         - getDeletedMessages
+        - getDiscussions
+        - getMentionedMessages
         - getMessage
         - getMessageReadReceipts
+        - getPinnedMessages
+        - getSnippetedMessages
+        - getSnippetedMessageById
+        - getStarredMessages
         - getThreadMessages
         - getThreadsList
         - pinMessage
@@ -330,7 +346,12 @@
       - Commands:
         - get
         - list
+        - preview
         - run
+      - Custom Sounds:
+        - list
+      - Custom User Status:
+        - list
       - Emoji Custom:
         - create
         - delete
@@ -387,19 +408,30 @@
         - setTopic
       - Integration:
         - create
+        - get
         - history
         - list
         - remove
+      - Invites:
+        - findOrCreateInvite
+        - listInvites
+        - removeInvite
+        - useInviteToken
+        - validateInviteToken
       - Livechat:
         - agent
+        - appearance
         - config
         - custom-fields
         - department
-        - inquiries.list
-        - inquiries.take
+        - inquiries
+        - integrations.settings
         - message
+        - office-hours
         - room
+        - rooms
         - sms-incoming
+        - triggers
         - users
         - video-call
         - visitor
@@ -410,17 +442,23 @@
         - spotlight
         - statistics
         - statistics.list
+      - OAuthApps:
+        - get
+        - list
       - Permissions:
         - list
         - update
       - Roles:
-        - create
-        - list
         - addUserToRole
+        - create
+        - getUsersInRole
+        - list
+        - sync
       - Push:
         - push.token
         - deletePushToken
       - Rooms:
+        - adminRooms
         - cleanHistory
         - createDiscussion
         - favorite
@@ -446,6 +484,7 @@
         - presence
         - create
         - createToken
+        - deactivateIdle
         - delete
         - deleteOwnAccount
         - forgotPassword
@@ -454,20 +493,26 @@
         - getPersonalAccessTokens
         - getPresence
         - get-preferences
+        - getStatus
         - getUsernameSuggestion
         - info
         - list
         - regeneratePersonalAccessToken
         - register
+        - removeOtherTokens
         - removePersonalAccessToken
+        - requestDataDownload
         - resetAvatar
         - setAvatar
         - set-preferences
         - setActiveStatus
+        - setStatus
         - update
         - updateOwnBasicInfo
       - Video Conference:
         - jitsi-update-timeout
+      - Webdav:
+        - getMyAccounts
       - Offset and Count and Sort Info
       - Rate Limiter
       - Query and Fields Info
@@ -481,12 +526,13 @@
       - Themes
 - Bots:
   - Bots Architecture
-  - Creating Bot Users
   - Configure Bot Environment
+  - Create and run a Bot:
+    - Botkit Bot
+    - Hubot Bot
+    - Botpress Bot
+    - Rasa Bot
+    - RocketChat SDK Bot
   - Running a bBot Bot
-  - Running a Hubot Bot
-  - Running a Botkit Bot
-  - Running a Rasa Bot
-  - Running a Botpress Bot
 - Community Cookbook:
   - Remote Video Monitoring

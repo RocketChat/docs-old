@@ -1,12 +1,13 @@
-# File Storages
+# File Upload
 
-There are several choices for file storage
+There are several choices for file storage:
 
-- GridFS
-- [Amazon S3](amazon-s3/)
-- [Google Cloud Storage](google-cloud-storage/)
-- [WebDAV](webdav/)
-- [Minio](minio/) - selfhosted S3 compatible object storage
-- Local file system
+* GridFS
+* [Amazon S3](amazon-s3.md)
+* [Google Cloud Storage](google-cloud-storage.md)
+* [WebDAV](webdav.md)
+* [Minio](minio.md) - Self-hosted S3 compatible object storage
+* Local File System
 
-To change the system that you want to use from the default GridFS select the option from the "Storage Type" section.
+To change the system from the default GridFS, select the option you prefer from the `Storage Type` section.
+
