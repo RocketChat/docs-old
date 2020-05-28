@@ -18,7 +18,7 @@
   * [Logging into a server](user-guides/login.md)
 * [Administrator Guides](administrator-guides/README.md)
   * [CDN](administrator-guides/cdn.md)
-  * [White-Labeling Rocket.Chat](administrator-guides/white-labeling/README.md)
+  * [White-Labeling](administrator-guides/white-labeling/README.md)
     * [Advanced White-Labeling](administrator-guides/white-labeling/advanced-white-labeling.md)
     * [Basic White-labeling](administrator-guides/white-labeling/basic-white-labeling.md)
   * [Livechat](administrator-guides/livechat/README.md)
