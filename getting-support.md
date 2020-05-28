@@ -118,5 +118,5 @@ Remember to have a little patience. Support is provided by other members of the 
 
 ## Reporting bugs
 
-If you think you have found a bug. Please see [Reporting Issues](contributing/reporting-issues.md)
+If you think you have found a bug. Please see [Reporting Issues](contributors/contributing/reporting-issues.md)
 

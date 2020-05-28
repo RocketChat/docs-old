@@ -1,4 +1,4 @@
-# Contributors Guides
+# How can I help?
 
 ## How can I help?
 

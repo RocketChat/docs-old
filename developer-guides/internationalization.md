@@ -6,7 +6,7 @@ When developing in Rocket.Chat, you have the ablilty to add strings to our trans
 
 For selecting strings for the correct language we use the [TAP:i18n](https://github.com/TAPevents/tap-i18n) meteor package.
 
-For managing contributions from the translators community we use [lingohub](https://lingohub.com/). If you are interested in contributing to Rocket.Chat translations please see [Translating](../contributing/translating.md)
+For managing contributions from the translators community we use [lingohub](https://lingohub.com/). If you are interested in contributing to Rocket.Chat translations please see [Translating](../contributors/contributing/translating.md)
 
 ## Adding Strings to the Translation Files
 

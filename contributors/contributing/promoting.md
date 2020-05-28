@@ -1,3 +1,7 @@
+---
+description: Help promote Rocket.Chat
+---
+
 # Promoting
 
 Help promote Rocket.Chat
