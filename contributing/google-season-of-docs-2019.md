@@ -4,11 +4,11 @@ redirect_from:
   - /contributing/google-season-of-docs/
 ---
 
-# README
+# Google Season of Docs 2019
 
 [![Google Season of Docs 2019](https://github.com/Sing-Li/bbug/raw/master/images/gsodlogo.png)](https://developers.google.com/season-of-docs/)
 
-## Google Season of Docs 2019
+## 
 
 [Season of Docs](https://g.co/seasonofdocs) is Google's annual program that fosters collaboration between open source projects and technical writers. It's happening for the first time in 2019!
 

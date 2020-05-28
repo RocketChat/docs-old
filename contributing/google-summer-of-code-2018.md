@@ -4,11 +4,11 @@ redirect_from:
   - /contributing/google-summer-of-code/
 ---
 
-# README
+# Google Summer of Code 2018
 
 [![Google Summer of Code 2018](https://github.com/Sing-Li/bbug/raw/master/images/gsoclogo.jpg)](https://summerofcode.withgoogle.com/)
 
-## Google Summer of Code 2018
+## 
 
 ### How to apply
 
