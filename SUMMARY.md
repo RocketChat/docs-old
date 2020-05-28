@@ -479,7 +479,7 @@
   * [Google Summer of Code 2019](contributing/google-summer-of-code-2019.md)
   * [Google Season of Docs 2019](contributing/google-season-of-docs-2019.md)
   * [Google Summer of Code 2020](contributing/google-summer-of-code-2020.md)
-* [Security Guides](security-1.md)
+* [Security Guides](security.md)
 * [Installing and updating](installation/README.md)
   * [Manual Installation](installation/manual-installation/README.md)
     * [Rocket.Chat on Debian](installation/manual-installation/debian.md)

@@ -1,4 +1,8 @@
-# Rocket.Chat Security Documentation
+---
+description: Rocket.Chat Security Documentation
+---
+
+# Security Guides
 
 Here you can find all Rocket.Chat security Related Documentation
 
