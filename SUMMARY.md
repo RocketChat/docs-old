@@ -560,6 +560,5 @@
   * [Create a Bot User](bots/create-bot-users.md)
   * [Running a Rasa Bot](bots/running-a-rasa-bot.md)
   * [Running a Hubot bot](bots/running-a-hubot-bot.md)
-* [LICENSE](license.md)
 * [Getting Support](getting-support.md)
 
