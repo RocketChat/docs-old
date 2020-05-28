@@ -12,14 +12,12 @@ Rocket.Chat provides Support for, at least, 3 months for each release. Rocket.Ch
 
 By "Support" we mean that Rocket.Chat will provide only security fixes and answer support tickets related to configuration and usage for the versions listed below. Bugs not related to security issues will be fixed only in new versions.
 
-> Rocket.Chat only provides support for version 1.x or later.
-
 | Release | Release Date | End of Life Date |
 | :--- | :--- | :--- |
 | Rocket.Chat 1.0 | April 2019 | July 2019 |
 | Rocket.Chat 1.1 | May 2019 | August 2019 |
 | Rocket.Chat 1.2 | June 2019 | September 2019 |
-| **Rocket.Chat 1.3** | **July 2019** | **January 2020** |
+| Rocket.Chat 1.3 | July 2019 | January 2020 |
 | Rocket.Chat 2.0 | August 2019 | November 2019 |
 | Rocket.Chat 2.1 | September 2019 | December 2019 |
 | Rocket.Chat 2.2 | October 2019 | January 2020 |

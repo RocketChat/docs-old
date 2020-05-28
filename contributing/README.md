@@ -1,4 +1,6 @@
-# How can I help?
+# Contributors Guides
+
+## How can I help?
 
 There are multiple ways you can help - even if you don't write code, you can still contribute. We are always looking for assistance with creating or updating documentation, testing our web, desktop and mobile apps, and reporting bugs.
 
