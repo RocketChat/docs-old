@@ -26,6 +26,8 @@ whitelist:
 - jekyll-redirect-from
 markdown: kramdown
 highlighter: rouge
+liquid:
+  error_mode: lax
 include:
 - .gitbook
 exclude:
