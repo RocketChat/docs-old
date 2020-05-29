@@ -51,7 +51,7 @@ Only for Ubuntu 19.04 install npm:
 sudo apt-get install -y npm
 ```
 
-Using npm install inherits and n, and the node version requiere by Rocket.Chat:
+Using npm install inherits and n, and the node version required by Rocket.Chat:
 
 ```bash
 sudo npm install -g inherits n && sudo n 12.14.0
