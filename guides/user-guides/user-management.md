@@ -117,7 +117,7 @@ If you want to close this window and do not remove the user, click the **[![](im
 
   ![](img/DeletedMsg.png)
 
-To close this window, just click the **[ ![](img/BtnOk.png)]** or **[ ![](img/BtnX.png)]** button.
+To close this window, just click the **[![](img/BtnOk.png)]** or **[ ![](img/BtnX.png)]** button.
 
 Next, we will look at how to change a user role.
 
@@ -126,20 +126,19 @@ Next, we will look at how to change a user role.
 The function of user roles is to define which system resources it will have access, to change these roles, follow the steps described bellow.
 Select the desired user, more information about that particular user will be displayed in a menu on the right side of the screen.
 
- 
+ ![](img/AdminAreaUsersUserInfo.png)
 
-Click the **[ ]** button, the menu with the information that has been added to the user's profile will be displayed.
+Click the **[![](img/btnEdit.png)]** button, the menu with the information that has been added to the user's profile will be displayed.
 
- 
+  ![](img/EditUsers.png)
 
-To change the roles linked to a user, access the Roles combobox and select the desired option. In this example we will give the user administrative powers, for that we will select **"Admin"**.
+To change the roles linked to a user, access the **Roles** combobox and select the desired option. In this example we will give the user administrative powers, for that we will select **"Admin"**.
 
- 
+  ![](img/Roles.png)
 
-Finally, click the **[ ]** button to make changes.
+Finally, click the **[![](img/btnSave.png)]** button to make changes.
 
 After saving, the role will be displayed in the user profile, as shown in the screenshot below the **"Role"** field.
 
- 
-
+   ![](img/UsersInfoRoles.png)
 
