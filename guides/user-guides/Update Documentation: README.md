@@ -16,5 +16,5 @@ Here you'll learn how to use [Rocket.Chat](https://rocket.chat/) as a user.
 * [Channel Actions](channel-actions.md)
 * [Managing your Account](managing-your-account.md)
 * [End to End Encryption](end-to-end-encryption.md)
-* [User Management](new-documentation:-user-management.md)
+* [User Management](https://github.com/pietro-ps/docs/blob/master/guides/user-guides/New%20Documentation:%20user%20management.md)
 
