@@ -4,19 +4,20 @@ The purpose of this document is to demonstrate how to perform some management ac
 This guide assumes that the administrator has already completed the installation and basic configuration of your Rocket.Chat server.
 After starting your Rocket.Chat instance and logging in, you will see the system home screen.
 
+![](img/HomeScreen.png)
  
 
-To access the administrative area, click on the **options [ ]** button and select the “Administration” option.
+To access the administrative area, click on the **options [![](img/BtnOptions.png)]** button and select the “Administration” option.
 
- 
+ ![](img/HomeScreenAdminOpt.png)
 
 The home page of the administrative area will be displayed, as shown in the screenshot below:
 
- 
+ ![](img/AdminArea.png)
 
-To access the users panel, in the menu on the left, click the **Users [ ]** button, the following screen will be displayed:
+To access the users panel, in the menu on the left, click the **Users [![](img/BtnUsers.png)]** button, the following screen will be displayed:
 
- 
+  ![](img/AdminAreaUsers.png)
 
 In this guide, we will check:
 
@@ -27,7 +28,7 @@ In this guide, we will check:
 - How to remove users;
 - How to change a user roles.
 
-Next we will analyze how to carry out the procedures mentioned.
+Next we will analyze how to carry out the mentioned procedures.
 
 ## Creating a new user
 
