@@ -29,12 +29,12 @@ To access the users panel, in the menu on the left, click the **Users [![](img/B
 
 In this guide, we will check:
 
-- How to create a new user;
-- How to reset a user password;
-- How to disable users;
-- How to enable users;
-- How to remove users;
-- How to change a user roles.
+- [How to create a new user](#creating-a-new-user);
+- [How to reset a user password](#reseting-passwords);
+- [How to disable users](#disabling-users);
+- [How to enable users](#enabling-users);
+- [How to remove users](#removing-users);
+- [How to change a user roles](#changing-users-roles).
 
 Next we will analyze how to carry out the mentioned procedures.
 
