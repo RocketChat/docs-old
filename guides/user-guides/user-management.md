@@ -11,7 +11,7 @@ After starting your Rocket.Chat instance and logging in, you will see the system
 To access the administrative area, click on the **options [![](img/BtnOptions.png)]** button and select the “Administration” option.
 
 <p align="center">
-  <img src="img/HomeScreenAdminOpt.png" height="400">
+  <img src="img/HomeScreenAdminOpt.png">
 </p>
 
 The home page of the administrative area will be displayed, as shown in the screenshot below:
@@ -104,7 +104,7 @@ To disable a particular user, select it, more information about it will be displ
 Click on the **[![](img/BtnOptionsLight.png)]** button, a menu with some options will be displayed, to disable a user click on the **[![](img/BtnDeactivate.png)]** option, as shown below:
 
 <p align="center">
-  <img src="img/OptDeactivate.png" height="400">
+  <img src="img/OptDeactivate.png">
 </p>
 
 Next, we will look at how to enable a user.
@@ -120,7 +120,7 @@ To enable a particular user, select them, more information about it will be disp
 Click on the **[![](img/BtnOptionsLight.png)]** button, a menu with some options will be displayed, to enable a user click on the **[![](img/BtnActivate.png)]** option, as shown below:
 
 <p align="center">
-  <img src="img/OptActivate.png" height="400">
+  <img src="img/OptActivate.png">
 </p>
 
 Next, we will look at how to remove a user.
@@ -173,7 +173,7 @@ Click the **[![](img/btnEdit.png)]** button, the menu with the information that 
 To change the roles linked to a user, access the **Roles** combobox and select the desired option. In this example we will give the user administrative powers, for that we will select **"Admin"**.
 
 <p align="center">
-  <img src="img/Roles.png" height="400">
+  <img src="img/Roles.png">
 </p>
 
 Finally, click the **[![](img/btnSave.png)]** button to make changes.
