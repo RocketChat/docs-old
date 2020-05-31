@@ -34,7 +34,7 @@ In this guide, we will check:
 - [How to disable users](#disabling-users);
 - [How to enable users](#enabling-users);
 - [How to remove users](#removing-users);
-- [How to change a user roles](#changing-users-roles).
+- [How to change a user role](#changing-users-roles).
 
 Next we will analyze how to carry out the mentioned procedures.
 
