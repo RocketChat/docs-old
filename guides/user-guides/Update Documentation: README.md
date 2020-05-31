@@ -16,5 +16,5 @@ Here you'll learn how to use [Rocket.Chat](https://rocket.chat/) as a user.
 * [Channel Actions](channel-actions.md)
 * [Managing your Account](managing-your-account.md)
 * [End to End Encryption](end-to-end-encryption.md)
-* [User Management](New-Documentation:-User-Management.md)
+* [User Management](new-documentation:-user-management.md)
 
