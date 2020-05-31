@@ -4,7 +4,9 @@ The purpose of this document is to demonstrate how to perform some management ac
 This guide assumes that the administrator has already completed the installation and basic configuration of your Rocket.Chat server.
 After starting your Rocket.Chat instance and logging in, you will see the system home screen.
 
-  ![](img/HomeScreen.png)
+<p align="center">
+  <img src="img/HomeScreen.png">
+</p>
 
 To access the administrative area, click on the **options [![](img/BtnOptions.png)]** button and select the “Administration” option.
 
@@ -142,3 +144,4 @@ After saving, the role will be displayed in the user profile, as shown in the sc
 
    ![](img/UsersInfoRoles.png)
 
+This concludes the scope of this guide.
