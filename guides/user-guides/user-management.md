@@ -158,8 +158,8 @@ Next, we will look at how to change a user role.
 
 ## Changing users roles
 
-The function of user roles is to define which system resources it will have access, to change these roles, follow the steps described bellow.
-Select the desired user, more information about that particular user will be displayed in a menu on the right side of the screen.
+Roles are used to define which system resources the user will have access, for more information about roles, check this [page](https://docs.rocket.chat/guides/administrator-guides/permissions#roles).
+To change roles, select the desired user, more information about the profile selected will be displayed in a menu on the right side of the screen.
 
 <p align="center">
   <img src="img/AdminAreaUsersUserInfo.png" height="400">
