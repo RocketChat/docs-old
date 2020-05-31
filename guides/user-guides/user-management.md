@@ -2,6 +2,7 @@
 
 The purpose of this document is to demonstrate how to perform some management actions on Rocket.Chat users. 
 This guide assumes that the administrator has already completed the installation and basic configuration of your Rocket.Chat server.
+
 After starting your Rocket.Chat instance and logging in, you will see the system home screen.
 
 <p align="center">
