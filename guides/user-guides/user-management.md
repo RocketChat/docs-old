@@ -185,4 +185,4 @@ After saving, the role will be displayed in the user profile, as shown in the sc
   <img src="img/UsersInfoRoles.png" height="400">
 </p>
 
-This concludes the scope of this guide.
+This concludes the scope of this guide, for more information about Rocket.Chat and to have access to more documentation, visit https://docs.rocket.chat/.
