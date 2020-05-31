@@ -79,12 +79,11 @@ Next, we will look at how to disable a user.
 
 To disable a particular user, select it, more information about it will be displayed in a menu on the right side of the screen.
 
- 
+  ![](img/AdminAreaUsersUserInfo.png)
 
-Click on the **[ ]** button, a menu with some options will be displayed, to disable a user click on the **[ ]** option, as shown below:
+Click on the **[![](img/BtnOptionsLight.png)]** button, a menu with some options will be displayed, to disable a user click on the **[![](img/BtnDeactivate.png)]** option, as shown below:
 
- 
-
+  ![](img/OptDeactivate.png)
 
 Next, we will look at how to enable a user.
 
@@ -92,11 +91,11 @@ Next, we will look at how to enable a user.
 
 To enable a particular user, select them, more information about it will be displayed in a menu on the right side of the screen.
 
- 
+ ![](img/AdminAreaUsersUserInfo.png)
 
-Click on the **[ ]** button, a menu with some options will be displayed, to enable a user click on the **[ ]** option, as shown below:
+Click on the **[![](img/BtnOptionsLight.png)]** button, a menu with some options will be displayed, to enable a user click on the **[![](img/BtnActivate.png)]** option, as shown below:
 
- 
+  ![](img/OptActivate.png)
 
 Next, we will look at how to remove a user.
 
@@ -104,21 +103,21 @@ Next, we will look at how to remove a user.
 
 To remove a particular user, select them, more information about it will be displayed in a menu on the right side of the screen.
 
- 
+ ![](img/AdminAreaUsersUserInfo.png)
 
-Click on the **[ ]** button, a menu with some options will be displayed, to remove a user click on the **[ ]** option, as shown below:
+Click on the **[![](img/BtnOptionsLight.png)]** button, a menu with some options will be displayed, to remove a user click on the **[![](img/BtnDelete.png)]** option, as shown below:
 
- 
+  ![](img/OptDelete.png)
 
 An alert message will be displayed to confirm the user deletion. Note that after performing this action, the user will be permanently deleted.
 
- 
+  ![](img/AreYouSureMsg.png)
 
-If you want to close this window and do not remove the user, click the **[ ]** button. However, if you are sure you want to remove the user click on the **[ ]** button, the user will be deleted and the notification below will be displayed.
+If you want to close this window and do not remove the user, click the **[![](img/BtnCancel.png)]** button. However, if you are sure that you want to remove the user click on the **[![](img/BtnDelete2.png)]** button, the user will be deleted and the notification below will be displayed.
 
- 
+  ![](img/DeletedMsg.png)
 
-To close this window, just click the **[ ]** or **[ ]** button.
+To close this window, just click the **[ ![](img/BtnOk.png)]** or **[ ![](img/BtnX.png)]** button.
 
 Next, we will look at how to change a user role.
 
