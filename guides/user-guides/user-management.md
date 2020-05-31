@@ -50,7 +50,7 @@ Complete the form as exemplified:
 - **Join default channels [![](img/BtnEnabled.png)]:** Determines whether this user will automatically be inserted into standard channels;
 - **Send welcome email [![](img/BtnEnabled.png)]:** If active, this option will send a welcome message to the registered email.
 
-If you want to close this window click on the **[![](img/btnSave.png)]** button, but if you prefer to save this information and create the user click on the **[![](img/btnSave.png)]** button.
+If you want to close this window click on the **[![](img/btnCancel.png)]** button, but if you prefer to save this information and create the user click on the **[![](img/btnSave.png)]** button.
 
   ![](img/AddUser.png)
  
