@@ -50,7 +50,7 @@ Complete the form as exemplified:
 - **Join default channels [![](img/BtnEnabled.png)]:** Determines whether this user will automatically be inserted into standard channels;
 - **Send welcome email [![](img/BtnEnabled.png)]:** If active, this option will send a welcome message to the registered email.
 
-If you want to close this window click on the **[![](img/btnCancel.png)]** button, but if you prefer to save this information and create the user click on the **[![](img/btnSave.png)]** button.
+If you want to close this window click on the **[![](img/BtnCancel.png)]** button, but if you prefer to save this information and create the user click on the **[![](img/btnSave.png)]** button.
 
   ![](img/AddUser.png)
  
@@ -66,12 +66,12 @@ To reset a user password, select it, more information about it will be displayed
 
  ![](img/AdminAreaUsersAdded.png)
 
-Click the **[ ]** button, the menu with the information that has been added to the user profile will be displayed.
+Click the **[![](img/btnEdit.png)]** button, the menu with the information that has been added to the user profile will be displayed.
 
  ![](img/EditUsers.png)
 
-To reset the password, simply activate the option Require password change **[![](img/btnEdit.png)]** so that the user is required to change their own password at the next login.
-Finally, click the **[ ]** button to make changes.
+To reset the password, simply activate the option **Require password change [![](img/BtnEnabled.png)]** so that the user is required to change their own password at the next login.
+Finally, click the **[![](img/btnSave.png)]** button to make changes.
 
 Next, we will look at how to disable a user.
 
