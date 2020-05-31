@@ -137,19 +137,19 @@ To remove a particular user, select them, more information about it will be disp
 Click on the **[![](img/BtnOptionsLight.png)]** button, a menu with some options will be displayed, to remove a user click on the **[![](img/BtnDelete.png)]** option, as shown below:
 
 <p align="center">
-  <img src="img/OptDelete.png" height="400">
+  <img src="img/OptDelete.png">
 </p>
 
 An alert message will be displayed to confirm the user deletion. Note that after performing this action, the user will be permanently deleted.
 
 <p align="center">
-  <img src="img/AreYouSureMsg.png" height="400">
+  <img src="img/AreYouSureMsg.png">
 </p>
 
 If you want to close this window and do not remove the user, click the **[![](img/BtnCancel.png)]** button. However, if you are sure that you want to remove the user click on the **[![](img/BtnDelete2.png)]** button, the user will be deleted and the notification below will be displayed.
 
 <p align="center">
-  <img src="img/DeletedMsg.png" height="400">
+  <img src="img/DeletedMsg.png">
 </p>
 
 To close this window, just click the **[![](img/BtnOk.png)]** or **[ ![](img/BtnX.png)]** button.
