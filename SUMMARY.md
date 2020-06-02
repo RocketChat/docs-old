@@ -571,5 +571,6 @@
 
 * [Getting Started](apps-development/getting-started.md)
 * [App lifecycle](apps-development/app-lifecycle.md)
+* [Event Interfaces](apps-development/event-interfaces.md)
 * [Apps-Engine API Reference](https://rocketchat.github.io/Rocket.Chat.Apps-engine)
 
