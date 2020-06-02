@@ -567,3 +567,9 @@
   * [Google Season of Docs 2019](contributors/gsoc/google-season-of-docs-2019.md)
   * [Google Summer of Code 2020](contributors/gsoc/google-summer-of-code-2020.md)
 
+## Apps Development
+
+* [Getting Started](apps-development/getting-started.md)
+* [App lifecycle](apps-development/app-lifecycle.md)
+* [Apps-Engine API Reference](https://rocketchat.github.io/Rocket.Chat.Apps-engine)
+
