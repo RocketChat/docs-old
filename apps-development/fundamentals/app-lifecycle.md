@@ -1,4 +1,4 @@
-# App lifecycle
+# App Lifecycle
 
 ## Introduction
 
