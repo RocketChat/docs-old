@@ -6,6 +6,8 @@ Helm is a tool that streamlines installing and managing Kubernetes applications.
 
 ## Default settings for Rocket.Chat helm chart
 
+test
+
 * Rocket.Chat chart installs rocketchat server \(stable/rocketchat\)
 * Rocket.Chat chart installs mongodb chart \(stable/mongodb\)
 * Authentication for mongodb is enabled by default \(usePassword : true\)
