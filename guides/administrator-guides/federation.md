@@ -122,7 +122,7 @@ Some DNS providers will not allow setting `_https` or `_http` on SRV records, so
 * Target: `chat.mydomain.com`
 * Port: `443`
 
-#### Legacy Support: protocol TXT Record (if not provided, HTTPS will be use)
+#### Legacy Support: protocol TXT Record \(if not provided, HTTPS will be use\)
 
 * Host: `rocketchat-tcp-protocol.chat.mydomain.com`
 * Value: `https` or `http`
