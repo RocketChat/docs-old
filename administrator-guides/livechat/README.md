@@ -18,13 +18,13 @@ First, you have to enable the Livechat feature on your Rocket.Chat instance. Go 
 
 ![image](https://cloud.githubusercontent.com/assets/8591547/14460567/97c6609c-0094-11e6-8f7e-da9a7c08ba51.png)
 
-Now the admin will have access to *Livechat manager* through a new menu called `Livechat` at the top left corner drop down menu.
+Now the admin will have access to _Livechat manager_ through a new menu called `Livechat` at the top left corner drop down menu.
 
 ![image](https://cloud.githubusercontent.com/assets/8591547/14460616/d8213bbc-0094-11e6-85cd-cc061ab1fb1d.png)
 
 ### Configure Livechat feature
 
-At *Livechat manager* you'll have the following configuration options:
+At _Livechat manager_ you'll have the following configuration options:
 
 #### User Management
 
@@ -36,25 +36,25 @@ To start receiving incoming live chats you need to add Livechat agents.
 
 You can have the following behavior depending on how many departments you have created:
 
-- No departments: all Livechat agents will receive incoming chats using a round robin rule;
-- One department: all incoming chats will be offered to agents **only** on that department using a round robin rule;
-- More than one department: the visitor will have to choose what department he wants to talk to at registration.
+* No departments: all Livechat agents will receive incoming chats using a round robin rule;
+* One department: all incoming chats will be offered to agents **only** on that department using a round robin rule;
+* More than one department: the visitor will have to choose what department he wants to talk to at registration.
 
 #### Triggers
 
 You can configure how your Livechat widget will be triggered and what it will do on your website.
 
-You can set a condition (e.g. user access a URL) and an action (e.g. send a message with the text "hello").
+You can set a condition \(e.g. user access a URL\) and an action \(e.g. send a message with the text "hello"\).
 
 ![image](https://cloud.githubusercontent.com/assets/20868078/24811185/50fa9214-1b9b-11e7-86e4-27e2b90dcf99.png)
 
 #### Custom Fields
 
-You can configure custom fields to be sent by the client. You can see an example on the [Livechat API page](../../developer-guides/livechat-api/#set-custom-field).
+You can configure custom fields to be sent by the client. You can see an example on the [Livechat API page](../../developer-guides/livechat-api.md#set-custom-field).
 
 #### Installation
 
-Go to the Livechat Manager -> Installation
+Go to the Livechat Manager -&gt; Installation
 
 ![image](https://cloud.githubusercontent.com/assets/51996/20235285/80d6e250-a853-11e6-83b9-b73f0be0bd97.png)
 
@@ -62,7 +62,7 @@ Then copy the code displayed into the source code of your website. You may modif
 
 #### Appearance
 
-To customize the appearance of your Livechat widget goto Livechat -> Appearance
+To customize the appearance of your Livechat widget goto Livechat -&gt; Appearance
 
 ![image](https://cloud.githubusercontent.com/assets/51996/20235293/a9c34ca8-a853-11e6-8042-9f742b91938e.png)
 
@@ -74,7 +74,7 @@ The Rocket.Chat will send a POST to the WebHook URL when the Livechat ends or yo
 
 Here is an example of the JSON data sent at the end of a Livechat session:
 
-```
+```text
 {
     "type": "LivechatSession",
     "_id": "fasd6f5a4sd6f8a4sdf",
@@ -129,7 +129,7 @@ Here is an example of the JSON data sent at the end of a Livechat session:
 
 Here is an example of the JSON data sent on a Livechat offline message:
 
-```
+```text
 {
     "type": "LivechatOfflineMessage",
     "sentAt": "2016-06-01T19:55:53.867Z",
@@ -147,11 +147,11 @@ If your endpoint returns a response status other than 200, Rocket.Chat will retr
 
 #### Widget Embedding
 
-##### Magento 2
+**Magento 2**
 
 Magento 2 depends on **RequireJS** to load JavaScript resources, so we need to change the widget code a little to look like:
 
-```
+```text
    <script defer="defer" async="async" type="text/javascript">
         require([ 'jquery' ], function ($) {
             (function(w, d, s, u) {
@@ -164,5 +164,5 @@ Magento 2 depends on **RequireJS** to load JavaScript resources, so we need to c
     </script>
 ```
 
-Replace the `https://rc.example.com/` with your Rocket.Chat (sub-)domain, and paste the code into your theme file `/app/design/frontend/Theme_provider/theme_name/Magento_Theme/templates/root.phtml` right before the closing `</html>` tag.
-Flush your PHP OpCode cache, and you are ready to go.
+Replace the `https://rc.example.com/` with your Rocket.Chat \(sub-\)domain, and paste the code into your theme file `/app/design/frontend/Theme_provider/theme_name/Magento_Theme/templates/root.phtml` right before the closing `</html>` tag. Flush your PHP OpCode cache, and you are ready to go.
+

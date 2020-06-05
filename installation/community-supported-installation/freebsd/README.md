@@ -1,14 +1,14 @@
 # Deploying Rocket.Chat on FreeBSD
 
-_Note: This is a community supported installation method. You can discuss about this in the [forum thread](https://forums.rocket.chat/t/freebsd-installation-guide/651)._
+_Note: This is a community supported installation method. You can discuss about this in the_ [_forum thread_](https://forums.rocket.chat/t/freebsd-installation-guide/651)_._
 
 ## Prerequisites
 
 Valid for:
 
-- FreeBSD 10.3-RELEASE
+* FreeBSD 10.3-RELEASE
 
-(64bit, meteor's development scripts will not compile under 32bit)
+\(64bit, meteor's development scripts will not compile under 32bit\)
 
 _Please use a fresh system without traces of node or npm. Most of my initial problems came from old and/or special versions of node/npm/meteor_
 
@@ -16,7 +16,7 @@ _Please use a fresh system without traces of node or npm. Most of my initial pro
 
 You need to install the following packages either as root or via sudo:
 
-```
+```text
 $ sudo pkg install git scons python gcc48 gmake npm bash wget
 ```
 
@@ -24,13 +24,12 @@ Also install mongodb if you will be running the database setup on this server as
 
 If you get the following output:
 
-```
+```text
 The package management tool is not yet installed on your system.
 Do you want to fetch and install it now? [y/N]:
 ```
 
-It's just because the pkg-ng binary package system have not been setup / bootstraped yet.
-Simply choose yes (y) here. And press enter.
+It's just because the pkg-ng binary package system have not been setup / bootstraped yet. Simply choose yes \(y\) here. And press enter.
 
 ### Installing pm2
 
@@ -38,7 +37,7 @@ We need pm2 later to daemonize or Rocket.Chat build.
 
 Now, install pm2:
 
-```
+```text
 $ sudo npm install pm2 -g
 $ sudo pm2 startup freebsd
 ```
@@ -47,7 +46,7 @@ $ sudo pm2 startup freebsd
 
 This user will be the one used for running Rocket.chat server.
 
-```
+```text
 $ adduser
 Username: rocketchat
 Full name: User used for running rocket chat
@@ -82,19 +81,19 @@ Be sure to save the password somewhere safe if you will need to login as the Roc
 
 ### Switch to the newly created user
 
-```
+```text
 $ su -l rocketchat
 ```
 
-(Or what ever username you picked).
+\(Or what ever username you picked\).
 
-## Building the dev_bundle
+## Building the dev\_bundle
 
 ### Setting up the environment
 
 Set some environment Variables to make the build work under FreeBSD:
 
-```
+```text
 $ export MAKE_CMD=gmake
 $ export CXX=clang++
 $ export CC=clang
@@ -106,31 +105,31 @@ $ export CC=clang
 
 We need a fork of meteor which allows us to set `MAKE_CMD` as mentioned before:
 
-```
+```text
 $ cd $HOME
 $ git clone -b freebsd https://github.com/williambr/meteor
 ```
 
 Meteor comes with scripts to build it:
 
-```
+```text
 $ cd meteor
 $ ./scripts/build-mongo-for-dev-bundle.sh
 $ ./scripts/build-node-for-dev-bundle.sh
 $ ./scripts/generate-dev-bundle.sh
 ```
 
-(These commands might take a long time to run depending on your hardware)
+\(These commands might take a long time to run depending on your hardware\)
 
 After compiling the development bundles above test out the meteor setup
 
-```
+```text
 $ ./meteor --version
 ```
 
 This should give you output:
 
-```
+```text
 It's the first time you've run Meteor from a git checkout.
 I will download a kit containing all of Meteor's dependencies.
 Skipping download and installing kit from /usr/home/rocketchat/meteor2/dev_bundle_FreeBSD_amd64_0.5.16.tar.gz
@@ -138,27 +137,27 @@ Skipping download and installing kit from /usr/home/rocketchat/meteor2/dev_bundl
 Unreleased, running from a checkout at 9719021 (HEAD -> freebsd, origin/freebsd)
 ```
 
-This should output no errors (Also version numbers might change).
+This should output no errors \(Also version numbers might change\).
 
 #### Troubleshooting
 
 That should run without problems. If you run into issues check the following:
 
-- is the Environment setup right?
-- Are the scripts running in bash?
-- do I have `gmake` installed?
+* is the Environment setup right?
+* Are the scripts running in bash?
+* do I have `gmake` installed?
 
 ## Running Rocket.Chat
 
 First, we need the `meteor` binary in our `$PATH`
 
-```
+```text
 $ export PATH=$PATH:$HOME/meteor
 ```
 
 Next, we need to download Rocket.chat:
 
-```
+```text
 $ cd $HOME
 $ git clone https://github.com/RocketChat/Rocket.Chat.git
 $ cd Rocket.Chat
@@ -166,20 +165,19 @@ $ cd Rocket.Chat
 
 We need to install bcrypt separately.
 
-```
+```text
 $ npm install --clang=1 bcrypt
 ```
 
 After that: Go ahead and start Rocket.Chat!
 
-```
+```text
 $ meteor
 ```
 
-The first launch of Rocket.Chat might take some time as its installing dependencies.
-If all goes well you would see output like this:
+The first launch of Rocket.Chat might take some time as its installing dependencies. If all goes well you would see output like this:
 
-```
+```text
 => App running at: http://localhost:3000/
 I20160422-21:52:50.733(2)? ➔ System ➔ startup
 I20160422-21:52:50.734(2)? ➔ +----------------------------------------+
@@ -195,27 +193,27 @@ I20160422-21:52:50.739(2)? ➔ +----------------------------------------+
 
 If you would like to have the Rocket.chat daemon running while signed out. You could use tmux to keep it running.
 
-### Install tmux (optional)
+### Install tmux \(optional\)
 
-```
+```text
 $ sudo pkg install tmux
 ```
 
 Start a tmux session and run Rocket.Chat
 
-```
+```text
 $ tmux (when tmux is running)
 $ meteor
 ```
 
 This will run Rocket.chat inside a tmux session allowing you to disconnect from the terminal and let the daemon running.
 
-- Press `ctrl+b d` to exit the tmux session.
-- And use `tmux a` to access the session again.
+* Press `ctrl+b d` to exit the tmux session.
+* And use `tmux a` to access the session again.
 
 To read more about using tmux see this page:
 
-<http://man.openbsd.org/OpenBSD-current/man1/tmux.1>
+[http://man.openbsd.org/OpenBSD-current/man1/tmux.1](http://man.openbsd.org/OpenBSD-current/man1/tmux.1)
 
 Or look up one of the many tmux guides online.
 
@@ -227,13 +225,14 @@ If you run into problems with `fibers` check your `node` and `npm` version. Then
 
 ### Notes
 
-- This guide is tested in a FreeBSD 10.3-RELEASE jail.
-- Ensure you don't expose the mongoDB instance to the internet without setting up security for it!
+* This guide is tested in a FreeBSD 10.3-RELEASE jail.
+* Ensure you don't expose the mongoDB instance to the internet without setting up security for it!
 
 ## Thanks
 
-- Filias Heidt
-- Matt Olander
-- William Grzybowski
-- Cory Smelosky
-- Sing Li
+* Filias Heidt
+* Matt Olander
+* William Grzybowski
+* Cory Smelosky
+* Sing Li
+

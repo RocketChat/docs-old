@@ -20,22 +20,22 @@ You must first enable developer mode, and allow non-Google Play APK installation
 
 If you have the Google Play version installed already, you must uninstall it first.
 
-(please add instructions to change package id)
+\(please add instructions to change package id\)
 
 #### How does it work?
 
-This app is a shim.  It presents a screen to collect the server URL of your choice, and then loads Rocket.Chat into a webview using that URL.  It can also save and manage a list of such server URLs.
+This app is a shim. It presents a screen to collect the server URL of your choice, and then loads Rocket.Chat into a webview using that URL. It can also save and manage a list of such server URLs.
 
-In addition, this app replaces your Android device's webview with an up-to-date webview from the crosswalk-project.  This enables devices with old Android versions, as far back as 4.0, to run Rocket.Chat.
+In addition, this app replaces your Android device's webview with an up-to-date webview from the crosswalk-project. This enables devices with old Android versions, as far back as 4.0, to run Rocket.Chat.
 
 ### Requirements
 
 Since this app is built with Cordova, the same requirements apply:
 
-- **Node.js**
-- **Android SDK**:
-    - This tool will not work unless you have the absolute latest updates for all Android SDK components.
-    - Also you will need the SDK's tools and platform-tools directories on your system path otherwise Android support will fail.
+* **Node.js**
+* **Android SDK**:
+  * This tool will not work unless you have the absolute latest updates for all Android SDK components.
+  * Also you will need the SDK's tools and platform-tools directories on your system path otherwise Android support will fail.
 
 ### Install Cordova
 
@@ -43,7 +43,7 @@ Since this app is built with Cordova, the same requirements apply:
 $ sudo npm install -g cordova
 ```
 
-Additional information here: <https://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html>
+Additional information here: [https://cordova.apache.org/docs/en/4.0.0/guide\_cli\_index.md.html](https://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html)
 
 ### Install dependencies
 
@@ -82,9 +82,9 @@ In theory this is as simple as:
 $ cordova build android
 ```
 
-But if you get some errors (which seems kinda normal), make sure you have installed the SDK or tools in the Requirements section. Even though meteor may install it's own version of the SDK or tools, you still need the standalone version installed and the environment variables set for the Cordova build to succeed.
+But if you get some errors \(which seems kinda normal\), make sure you have installed the SDK or tools in the Requirements section. Even though meteor may install it's own version of the SDK or tools, you still need the standalone version installed and the environment variables set for the Cordova build to succeed.
 
-**NOTE**: for android build, this Cordova build only supports android-22 target which is Android 5.1.1.  NO OTHER target is supported at this time.  Please make sure you have SDK Platform, SDK build tools for API 22 installed.
+**NOTE**: for android build, this Cordova build only supports android-22 target which is Android 5.1.1. NO OTHER target is supported at this time. Please make sure you have SDK Platform, SDK build tools for API 22 installed.
 
 If there are a lot of `cannot find module` build problems, try adding and removing the cordova android platform:
 
@@ -117,17 +117,17 @@ You would have to enable a USB debugging option on the device, and perhaps add a
 
 And you'll see an UI that allows you to connect to a custom server instance.
 
-Have fun! ;)
+Have fun! ;\)
 
 ## Build for Android with Docker
 
-In order to build Rocket.Chat for Android, you must have docker installed on your Linux (or OS/X) system.
+In order to build Rocket.Chat for Android, you must have docker installed on your Linux \(or OS/X\) system.
 
-You must have at least 4GB of RAM (16 GB recommended) and 10 GB of disk space available.
+You must have at least 4GB of RAM \(16 GB recommended\) and 10 GB of disk space available.
 
 Then:
 
-```shell
+```text
 $ docker pull rocketchat/meteor12androidbuilder
 ```
 
@@ -136,3 +136,4 @@ Follow the instructions [of the docker image](https://hub.docker.com/r/rocketcha
 ### Additional Information
 
 Check out the [How to submit your Android app to the Play Store](https://github.com/meteor/meteor/wiki/How-to-submit-your-Android-app-to-Play-Store) guide on the Meteor Wiki for additional information.
+

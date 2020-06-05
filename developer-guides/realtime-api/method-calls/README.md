@@ -8,7 +8,7 @@ Example: Create a private room
 
 Method call
 
-```json
+```javascript
 {
     "msg": "method",
     "id": "42",
@@ -19,7 +19,7 @@ Method call
 
 Response
 
-```json
+```javascript
 {
     "msg": "result",
     "id": "42",
@@ -28,3 +28,4 @@ Response
 ```
 
 The provided ID is the only way to recognize to which call a response is been given.
+
