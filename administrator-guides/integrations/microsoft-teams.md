@@ -9,7 +9,7 @@
 
 _**Note:** I would advise to create New Team so not all members in your organisation have access to this Integration_
 
-\_\_
+
 
 1. **Create Incoming Webhook with Default parameters:**
 
