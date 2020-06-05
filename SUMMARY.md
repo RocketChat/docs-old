@@ -68,7 +68,6 @@
   * [Rocket.Chat Cloud](installation/rocket-chat-cloud.md)
   * [Minimum Requirements for Server Deployment](installation/minimum-requirements.md)
   * [Mobile and Desktop Apps](installation/mobile-and-desktop-apps.md)
-  * [Micro services setup](installation/micro-services-setup.md)
 * [Getting Support](getting-support.md)
 
 ## Guides
