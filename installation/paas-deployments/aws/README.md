@@ -117,8 +117,8 @@ We will use Let's Encrypt to get a free & open-source SSL certificate:
             proxy_set_header Connection "upgrade";
             proxy_set_header Host $http_host;
             proxy_set_header X-Real-IP $remote_addr;
-            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-            proxy_set_header X-Forwarded-Proto http;
+            proxy_set_header X-Forward-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forward-Proto http;
             proxy_set_header X-Nginx-Proxy true;
             proxy_redirect off;
         }

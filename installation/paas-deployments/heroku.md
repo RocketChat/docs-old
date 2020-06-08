@@ -62,7 +62,7 @@ Change into the `Rocket.Chat` directory, and create your Heroku app:
 heroku apps:create  --addons mongolab:sandbox,logentries:le_tryit -b https://github.com/RocketChat/heroku-buildpack-meteor <your app name>
 ```
 
-Choose carefully, as your Rocket.Chat will then be accessible at:
+Choose  carefully, as your Rocket.Chat will then be accessible at:
 
 ```text
 https://<your app name>.herokuapp.com/
