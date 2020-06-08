@@ -39,6 +39,6 @@ rocketchat:
 ### Create Loadbalancer
 
 * Now setup up a [reverse proxy](../manual-installation/configuring-ssl-reverse-proxy.md) on each host to terminate ssl on each rocket.chat node or terminate ssl on the loadbalancer, this is up to you.
-* Here is a link to a \[Nginx multi instance reverse proxy example\] \(../../installation/manual-installation/multiple-instances-to-improve-performance\)
+* See [Nginx multi instance reverse proxy example](https://docs.rocket.chat/installation/manual-installation/multiple-instances-to-improve-performance#update-your-nginx-proxy-config)
 * Setup a loadbalancer to reach each instance on 443 or 3000 \(depends on the choice above\)
 

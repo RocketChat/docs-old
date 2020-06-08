@@ -13,25 +13,19 @@ You can download our docker-compose.yaml:
 curl -L https://raw.githubusercontent.com/RocketChat/Rocket.Chat/develop/docker-compose.yml -o docker-compose.yml
 ```
 
-Start the mongodb server by:
+Start the stack with:
 
 ```bash
-docker-compose up -d mongo
+docker-compose up -d 
 ```
 
-The first time you start mongo, you'll also need to initialize it before being able to use Rocket.Chat. Ensure that mongo is in the running state, then:
+This will:
 
-```bash
-docker-compose up -d mongo-init-replica
-```
+* Start a MongoDB service named `mongo`.
+* Start a service named `mongo-init-replica` that will wait for `mongo` to be ready, connect to it, initialize it and terminate itself \(`mongo` will keep running\).
+* Start a service `rocketchat`, that will also wait for `mongo` to be ready, the `mongo-init-replica` to initialize, and then run Rocket.Chat.
 
 Mongo supports 24 x 7 operations and live backup. You should not need to restart it too frequently. See [mongodb documentations](https://docs.mongodb.org/manual/) for proper operation and management of a mongo server.
-
-Once you're sure that mongodb is up and running:
-
-```bash
-docker-compose up -d rocketchat
-```
 
 Optionally, if you want to manage your messages and configuration information, edit the file again to uncomment the volume mounts. Make sure you have a `data` subdirectory to mount and store the data.
 
