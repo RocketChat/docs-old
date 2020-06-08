@@ -14,9 +14,15 @@ redirect_from:
 
 Application for Google Summer of Code 2020 is now closed. Please see [GSoC timeline](google-summer-of-code-2020.md#timeline) for more details.
 
-#### Update on May 5, 2020
+**Update June 8, 2020**
 
-2020 is another exciting year for GSoC at Rocket.Chat. Thanks to the ethusiastic early support from students and community, the program has managed to sustain momentum despite COVID-19 downturn and reduced participation from core. Google has graciously granted us **SEVEN** project slots. As a result, we are delighted to welcome these 7 active community members to work with us during the GSoC 2020 season:
+Coding has started on June 1st.  All mentors and students are busy getting the first month  milestones of the project under way.   Many of them are engaged daily via our [24 x7  community community server](https://open.rocket.chat)  
+  
+We have two community sponsored projects with students dropping out during this time,   one due to family obligations and another due to prolonged funding uncertainty,  and replacement students have been located  for these projects.
+
+**Updated June 8, 2020 ; Original on May 5, 2020**
+
+2020 is another exciting year for GSoC at Rocket.Chat. Thanks to the enthusiastic early support from students and community, the program has managed to sustain momentum despite COVID-19 downturn and reduced participation from core. Google has graciously granted us **SEVEN** project slots. As a result, we are delighted to welcome these 7 active community members to work with us during the GSoC 2020 season:
 
 | Student | Project | Mentors |
 | :--- | :--- | :--- |
@@ -30,14 +36,22 @@ Application for Google Summer of Code 2020 is now closed. Please see [GSoC timel
 
 It was a very difficult decision for us to select _seven_ from the large number of highly qualified students \(we were able to engage the students early on in the GSoC cycle with open source contributions via the [GSoC Leaderboard](https://gsoc.rocket.chat/) \).
 
-While some high calibre open source contributors were not selected for GSoC; to accomodate these exceptional students, our community member [Viasat](https://www.viasat.com/) has agreed to sponsor an additional TWO projects this season.
+While some high calibre open source contributors were not selected for GSoC; to accommodate these exceptional students, our community member Credit Suisse APAC has agreed to sponsor an additional THREE projects this season.
+
+| Student | Sponsored Project | Mentors |
+| :--- | :--- | :--- |
+| Neil Agarwal | Audio Improvements on mobile apps | Nathan Khoo, Diego Mello, Djorkaeff Alexandre |
+| Youssef Muhamad | Add Analytics to Mobile Apps | Noorul Ameen,  Diego Mello, Djorkaeff Alexandre |
+| Shreyansh Singh Tomar | Content Moderation Rocket.Chat App \(Machine Learning\) | John Eric Sobrepena, Karan Bedi |
+
+Furthermore,  Viasat,  one of Rocket.Chat's  long-time community supporters, has agreed to sponsor TWO projects this season.
 
 | Student | Sponsored Project | Mentors |
 | :--- | :--- | :--- |
 | Subham Sahoo | Live agent and chatbot handoff app | David Lassalle, Steve Stetak, Renato Becker, Marcos Defendi |
 | Kashish Jayasi | Rocket.Chat mobile site | Peter Lepeska, Eric Rosenthal, Karan Bedi |
 
-This, in combination, allowed us to accomodate a total of **NINE** ethusiastic students this summer season.
+This, in combination, allowed us to accommodate a total of **TWELVE** enthusiastic students this summer season.
 
 All students and mentors are now busy mutually bonding and with our core team and greater community. Each mentor is also working with his/her student on refining the weekly and monthly milestones/deliverables within the proposal to better reflect achievable project objectives as well as making them measurable for the monthly evaluations. Meanwhile, all our students are continuing to contribute to the Rocket.Chat open source project\(s\) as they have been doing since the start of the GSoC 2019 cycle. Many are also engaging with community members on the various public channels of our 24 x 7 [community team server](https://open.rocket.chat).
 
