@@ -126,6 +126,7 @@ Edit `/etc/apache2/sites-enabled/rocketchat.conf` and be sure to use your actual
     SSLEngine On
     SSLCertificateFile /etc/ssl/certs/chat.domain.com.crt
     SSLCertificateKeyFile /etc/ssl/private/chat.domain.com.key
+    SSLCertificateChainFile /etc/ssl/certs/intermediate.ca.pem
 
     <Location />
         Require all granted
