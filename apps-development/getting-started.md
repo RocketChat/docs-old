@@ -184,7 +184,7 @@ Where:
 
 `user_password` is the password of your admin user.
 
-If you want to update the app deployed in your Rocket.Chat instance after making changes to it, you can run: 
+If you want to update the app deployed in your Rocket.Chat instance after making changes to it, you can run:
 
 ```text
 rc-apps deploy --url http://localhost:3000 --username user_username --password user_password --update

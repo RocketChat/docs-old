@@ -16,7 +16,7 @@ curl -L https://raw.githubusercontent.com/RocketChat/Rocket.Chat/develop/docker-
 Start the stack with:
 
 ```bash
-docker-compose up -d 
+docker-compose up -d
 ```
 
 This will:

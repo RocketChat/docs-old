@@ -8,5 +8,3 @@ description: Fundamental concepts to help you develop killer apps with advanced 
 
 {% page-ref page="event-interfaces.md" %}
 
-
-
