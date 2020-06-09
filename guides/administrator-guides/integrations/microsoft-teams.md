@@ -66,7 +66,9 @@ class Script {
    * **Callback URL** - Paste the URL here we copied from Rocket.Chat.
    * **Description** - A detailed string that will appear in the profile card and the team-level App dashboard.
    * **Profile Picture** \(optional\) an app icon for your webhook.
-   * Select the **Create** button from lower right corner of the pop-up window and the outgoing webhook will be added to the current team's channels. _**Note :**_ _The Name We mentioned above will be the bot name so when you send message to Rocket.Chat Mention to Bot example @namebot_
+   * Select the **Create** button from lower right corner of the pop-up window and the outgoing webhook will be added to the current team's channels. 
+
+   _**Note :**_ _The Name We mentioned above will be the bot name so when you send message to Rocket.Chat Mention to Bot example @namebot_
 
    \_\_
 
