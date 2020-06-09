@@ -106,7 +106,7 @@ class Script {
                       context: 'http://schema.org/extensions',
                       type: 'MessageCard',
                     //  text: '{\'<b>' + request.data.user_name+ '</b>:': \"Isravel - Hello World\"}';
-						text: request.data.user_name.bold() + ": " + request.data.text,
+						          text: request.data.user_name.bold() + ": " + request.data.text,
                       //                      text: encodeURIComponent( request.data.user_name.bold() + request.data.text)
                     },
                  //   method: 'GET'
