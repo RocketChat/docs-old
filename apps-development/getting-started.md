@@ -162,7 +162,7 @@ Now that you have your App ready, you can test it before submitting it.
 
 To test your app, you need a Rocket.Chat server running locally on your machine and an admin user in it.
 
-See [Installing Rocket.Chat for Developing](../quick-start.md) to run Rocket.Chat in develop mode. Enable Apps development mode by navigating to `Administration > General` then scroll down to Apps and click on the `True` radio button over the Enable development mode.
+See [Installing Rocket.Chat for Developing](https://github.com/rajsardhara/docs/tree/b860555d1fffd2ad6f2b7851966128088a466f54/quick-start.md) to run Rocket.Chat in develop mode. Enable Apps development mode by navigating to `Administration > General` then scroll down to Apps and click on the `True` radio button over the Enable development mode.
 
 or run it in preview mode with docker using the command:
 
@@ -184,7 +184,7 @@ Where:
 
 `user_password` is the password of your admin user.
 
-If you want to update the app deployed in your Rocket.Chat instance after making changes to it, you can run: 
+If you want to update the app deployed in your Rocket.Chat instance after making changes to it, you can run:
 
 ```text
 rc-apps deploy --url http://localhost:3000 --username user_username --password user_password --update

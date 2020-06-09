@@ -110,6 +110,7 @@
     * [Google Auto Translate](guides/administrator-guides/google-cloud/auto-translate.md)
   * [Incoming WebHook Scripting](guides/administrator-guides/integrations/README.md)
     * [Simple Telegram Bot:](guides/administrator-guides/integrations/telegram.md)
+    * [Microsoft Teams](guides/administrator-guides/integrations/microsoft-teams.md)
     * [Google Calendar](guides/administrator-guides/integrations/google-calendar.md)
     * [Nixstats notification](guides/administrator-guides/integrations/nixstats.md)
     * [GitHub](guides/administrator-guides/integrations/github.md)

@@ -10,7 +10,7 @@ To be able to install the image from the marketplace you will need to login to y
 
 Select the Rocket.Chat application, you will see lots of information about the image including usage instructions to follow once the instance is already running, choose a compartiment for the installation and launch your instance:
 
-![](../../.gitbook/assets/oracledocs3.png) ![](../../.gitbook/assets/oracledocs3.png)
+![](../../.gitbook/assets/oracledocs3%20%281%29.png) ![](../../.gitbook/assets/oracledocs3.png)
 
 This application will run in a compute instance, you can change the shape of it to fit your usage needs, find more information of our minimum resource recommendations [here](https://docs.rocket.chat/installation/minimum-requirements/#minimum-requirements-for-server-deployment).
 

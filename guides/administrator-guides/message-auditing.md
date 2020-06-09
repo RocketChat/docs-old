@@ -11,7 +11,7 @@ The Message Auditing Panel includes the following features, allowing you or spec
 * Review messages between users in the Message Auditing Panel.
 * Check details in the Auditing Log about the individuals who used the Message Auditing Panel.
 
-You access the Message Auditing Panel and the Message Auditing Log from the Administration UI ![](../../.gitbook/assets/administrator-ui.png).
+You access the Message Auditing Panel and the Message Auditing Log from the Administration UI ![](../../.gitbook/assets/administrator-ui%20%281%29.png).
 
 This feature is only available with the Enterprise and Gold versions of Rocket.Chat.
 
@@ -62,7 +62,7 @@ The Message Auditing Panel returns all messages that match the search values def
 
 Note that the auditor does not have to be a participant in the room to be able to read the messages. However, the auditor cannot read the encrypted messages of other users if they are not included in the conversation. In this case, Rocket.Chat recommends that you disable message encryption:
 
-* Go to the Administration UI ![](../../.gitbook/assets/administrator-ui.png).
+* Go to the Administration UI ![](../../.gitbook/assets/administrator-ui%20%282%29.png).
 * Click **Administration**.
 * Scroll down to **E2E Encryption** on the left-side menu.
 
