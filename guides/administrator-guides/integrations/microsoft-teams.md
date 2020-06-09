@@ -10,14 +10,13 @@
 _**Note:** I would advise to create New Team so not all members in your organisation have access to this Integration_
 
 1. **Create Incoming Webhook with Default parameters:**
+   * Go to **Integrations** --&gt; Create **New integration** --&gt; Select **Incoming WebHook**
+   * Assign **Name**
+   * Assign **Post to Channel** \(This will be the Channel where you want to recieve msg from Teams\)
+   * Assign **Post as** \(Create Bot user and add bot the above mentioned Channel\)
+   * Copy and paste below script in **Script** section.
 
-* Go to **Integrations** --&gt; Create **New integration** --&gt; Select **Incoming WebHook**
-* Assign **Name**
-* Assign **Post to Channel** \(This will be the Channel where you want to recieve msg from Teams\)
-* Assign **Post as** \(Create Bot user and add bot the above mentioned Channel\)
-* Copy and paste below script in **Script** section.
 
-class Script { process\_incoming\_request\({ request }\) { // UNCOMMENT THE BELOW LINE TO DEBUG IF NEEDED. // console.log\(request.content\); if \('edited\_message' in request.content\) { request.content = request.content; } let from = request.content.from; let who = from.name; let icon\_url = '/avatar/' + from.name + '.jpg' let body = request.content.text.slice\(16\);
 
 ```text
 class Script {
