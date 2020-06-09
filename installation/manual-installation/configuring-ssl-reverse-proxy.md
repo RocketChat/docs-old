@@ -110,6 +110,8 @@ Lock down permissions: `chmod 400 /etc/ssl/private/chat.domain.com.key`
 
 Add your certificate to `/etc/ssl/certs/chat.domain.com.crt`
 
+Add your intermediate to `/etc/ssl/certs/intermediate.ca.pem`
+
 Edit `/etc/apache2/sites-enabled/rocketchat.conf` and be sure to use your actual hostname in lieu of the sample hostname "your\_hostname.com" below.
 
 ```text
