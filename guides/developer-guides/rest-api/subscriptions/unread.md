@@ -1,4 +1,4 @@
-# Read
+# Unread
 
 Mark messages as unread by roomId or from a message. NOTE: You can send `roomId` or the id of the message \(`firstUnreadMessage._id`\) you want from it to be unread.
 
