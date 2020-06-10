@@ -6,7 +6,7 @@ Here you'll learn how to use [Rocket.Chat](https://rocket.chat/) as a user.
 
 * [Connecting to a server](connecting-to-a-server.md)
 * [Registration](registration.md)
-* [Rocket.Chat Experimental App](experimental-app.md)
+* [Rocket.Chat Experimental App]()
 * [Login](login.md)
 * [Talking to users from another server](talking-to-users-from-another-server.md)
 * [Using Channels](channels.md)

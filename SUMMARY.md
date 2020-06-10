@@ -83,7 +83,6 @@
   * [Manage your account](guides/user-guides/managing-your-account.md)
   * [Messages](guides/user-guides/messaging.md)
   * [Registering an account](guides/user-guides/registration.md)
-  * [Rocket.Chat Experimental \(React Native\)](guides/user-guides/experimental-app.md)
   * [Voice and Video Conferencing](guides/user-guides/voice-and-video-conferencing.md)
   * [Logging into a server](guides/user-guides/login.md)
 * [Administrator Guides](guides/administrator-guides/README.md)
