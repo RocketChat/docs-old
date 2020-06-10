@@ -176,7 +176,6 @@
   * [Custom sounds](guides/administrator-guides/custom-sounds.md)
   * [Restoring an Admin User](guides/administrator-guides/restoring-an-admin.md)
   * [Permissions](guides/administrator-guides/permissions.md)
-  * [README](guides/administrator-guides/google-drive.md)
   * [Notifications](guides/administrator-guides/notifications/README.md)
     * [Push Notifications](guides/administrator-guides/notifications/push-notifications.md)
   * [Database Migration](guides/administrator-guides/database-migration.md)
