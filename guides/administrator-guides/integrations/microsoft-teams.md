@@ -16,8 +16,6 @@ _**Note:** I would advise to create New Team so not all members in your organisa
    * Assign **Post as** \(Create Bot user and add bot the above mentioned Channel\)
    * Copy and paste below script in **Script** section.
 
-
-
 ```text
 class Script {
     process_incoming_request({ request }) {
@@ -51,11 +49,9 @@ class Script {
 }
 ```
 
-2. **Save** and then open your **Incoming WebHook** You should be able to see **Webhook URL** just **copy** that, We will need that during Creating **Outgoing WebHook** in MS Teams.
+1. **Save** and then open your **Incoming WebHook** You should be able to see **Webhook URL** just **copy** that, We will need that during Creating **Outgoing WebHook** in MS Teams.
 
 ## Create Outgoing WebHook in MS Teams:
-
-
 
 1. Select the appropriate team and select **Manage team** from the \(**•••**\) drop-down menu.
 2. Choose the **Apps** tab from the navigation bar.
@@ -75,7 +71,6 @@ class Script {
 ## Create Incoming WebHook in MS Teams:
 
 1. Navigate to the **Team** where you want to add the webhook and select \(**•••**\) **More Options** from the top navigation bar and Select **Apps** and select **More apps**.
-
    * Choose **Connectors** from the drop-down menu and search for **Incoming Webhook**.
    * Select the **Configure** button, provide a name, and, optionally, upload an image avatar for your webhook.
    * Select appropriate **Teams** and **Channel**.
@@ -85,7 +80,6 @@ class Script {
 ## Create Outgoing Webhook in Rocket.Chat:
 
 1. Create **Outgoing WebHook** from Integration:
-
    * Select **Message Sent** as **Event Trigger**
    * Select the **Channel** \(same as mentioned in Incoming Webhook\)
    * Paste the **URL** we copied from Microsoft Teams
@@ -108,7 +102,7 @@ class Script {
                       context: 'http://schema.org/extensions',
                       type: 'MessageCard',
                     //  text: '{\'<b>' + request.data.user_name+ '</b>:': \"Isravel - Hello World\"}';
-						          text: request.data.user_name.bold() + ": " + request.data.text,
+                                  text: request.data.user_name.bold() + ": " + request.data.text,
                       //                      text: encodeURIComponent( request.data.user_name.bold() + request.data.text)
                     },
                  //   method: 'GET'

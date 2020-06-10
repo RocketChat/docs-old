@@ -131,11 +131,11 @@ Some DNS providers will not allow setting `_https` or `_http` on SRV records, so
 
 From your cli, issue the following commands and make sure the answers look like the following:
 
-```
+```text
 dig srv _rocketchat._https.chat.mydomain.com
 ...
 ;; ANSWER SECTION:
-_rocketchat._https.chat.mydomain.com. 1800 IN SRV	1 1 443 chat.mydomain.com.
+_rocketchat._https.chat.mydomain.com. 1800 IN SRV    1 1 443 chat.mydomain.com.
 ...
 
 dig -t txt rocketchat-public-key.chat.mydomain.com

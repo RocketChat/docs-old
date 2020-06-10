@@ -142,5 +142,6 @@ Transfer-Encoding: chunked
 
 | Version | Description |
 | :--- | :--- |
-| 1.0.0  | Return Message object on file upload |
+| 1.0.0 | Return Message object on file upload |
 | 0.62.0 | Added |
+

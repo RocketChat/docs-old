@@ -1,4 +1,4 @@
-# Integrations
+# Incoming WebHook Scripting
 
 Rocket.Chat supports WebHooks to integrate tools and services you like into the platform. WebHooks are simple event-notifications via HTTP POST. This way any application implementing a WebHook is able to POST a message to a Rocket.Chat instance and much more.
 
@@ -9,13 +9,13 @@ Available integrations:
 * Incoming WebHook → Let an external service send a request to Rocket.Chat to be processed.
 * Outgoing WebHook → Let Rocket.Chat trigger and optionally send a request to an external service and process the response.
 
-By default the WebHooks is designed to post a message only. The *message* is part of a JSON structure, which has the same format as described in the API documentation on how to [“Post a chat message”](/6.%20Developer%20Guides/REST%20API/Chat/postMessage.md).
+By default the WebHooks is designed to post a message only. The _message_ is part of a JSON structure, which has the same format as described in the API documentation on how to [“Post a chat message”](https://github.com/RocketChat/docs/tree/c10e358cc8b71eda177f74a929801d70e21b1b91/6.%20Developer%20Guides/REST%20API/Chat/postMessage.md).
 
-If you would like more power and control over various features of Rocket.Chat, aside from sending and receiving messages, take a look at [Rocket.Chat Apps](/apps-development/getting-started.md).
+If you would like more power and control over various features of Rocket.Chat, aside from sending and receiving messages, take a look at [Rocket.Chat Apps](../../../apps-development/getting-started.md).
 
 ## Incoming WebHook Scripting
 
-WebHooks can be handled by *ES2015 / ECMAScript 6* scripts to process the request, to print a customized messages or cancel the request to prevent undesired messages.
+WebHooks can be handled by _ES2015 / ECMAScript 6_ scripts to process the request, to print a customized messages or cancel the request to prevent undesired messages.
 
 ### How to create a new Incoming WebHook
 
@@ -32,7 +32,7 @@ WebHooks can be handled by *ES2015 / ECMAScript 6* scripts to process the reques
 
 The script should be in **ES2015 / ECMAScript 6**.
 
-The script expects a global class called **Script**, this class will be instantiated just **one** time (on the first execution) and kept in memory.
+The script expects a global class called **Script**, this class will be instantiated just **one** time \(on the first execution\) and kept in memory.
 
 The **process\_incoming\_request** method should return an object with a property **content** containing a valid Rocket.Chat message or an object with a property **error** that will be returned as the response of the request in JSON format and status code **400**.
 
@@ -107,7 +107,7 @@ class Script {
 
 ## Outgoing WebHook Scripting
 
-Several different events may trigger an outgoing WebHook. You can preprocess the hook with a *Script*. This script may decide if it does nothing, returns a message immediately or sends a request to an external service.
+Several different events may trigger an outgoing WebHook. You can preprocess the hook with a _Script_. This script may decide if it does nothing, returns a message immediately or sends a request to an external service.
 
 The response of the request will execute the script too, calling another method so you can process the response just as in **Incoming WebHooks**.
 
@@ -126,7 +126,7 @@ The response of the request will execute the script too, calling another method 
 
 The script should be in **ES2015 / ECMAScript 6**.
 
-The script expects a global class called **Script**, this class will be instantiated just **one** time (on the first execution) and kept in memory.
+The script expects a global class called **Script**, this class will be instantiated just **one** time \(on the first execution\) and kept in memory.
 
 The class can have a method called **prepare\_outgoing\_request**, this method will be called for every message in configured channel or can be filtered by the **Trigger Words**, will be called with an Object as parameter containing the **request** property.
 
@@ -260,3 +260,4 @@ class Script {
   }
 }
 ```
+

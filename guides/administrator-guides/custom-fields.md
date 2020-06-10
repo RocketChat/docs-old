@@ -62,10 +62,11 @@ The list of custom fields shown on the user's info panel can be configured under
 
 The list of fields needs to be specified as JSON array in the form
 
-```
+```text
 [{"label1":"key2"},{"label2":"key2"},...]
 ```
 
 A label can by any text, the key needs to be a custom field name defined above.
 
 Fields are only shown if the user has the permission to view private fields or if the field is set to `"public":true`.
+

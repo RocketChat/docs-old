@@ -14,7 +14,7 @@ The configuration should be done as follows:
 
 ![](../../../../.gitbook/assets/adfs_1.png)
 
-1. Add the private key certificate related to the ADFS server.   
+1. Add the private key certificate related to the ADFS server.
 
    Important: ADFS uses .pfx certificate extensions \(widely used on Windows landscapes\) and Rocket.Chat uses .pem files. So, before setting the certificate here, it must be converted.
 
