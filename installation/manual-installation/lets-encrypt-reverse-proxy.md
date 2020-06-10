@@ -33,10 +33,12 @@ Add the follow lines of code to the rockertchat.conf file and change the “exam
 upstream backend {
     server 127.0.0.1:3000;
 }
+
 server {
     server_name example.com;
+
     location / {
-   proxy_pass http://backend/;
+        proxy_pass http://backend/;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection "upgrade";
@@ -47,7 +49,8 @@ server {
         proxy_set_header X-Forward-Proto http;
         proxy_set_header X-Nginx-Proxy true;
 
-        proxy_redirect off; }
+        proxy_redirect off;
+    }
 }
 
 ```
