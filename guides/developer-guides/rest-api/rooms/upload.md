@@ -107,15 +107,34 @@ Connection: keep-alive
 Transfer-Encoding: chunked
 
 {
-"message":
-{"_id": "HxX7qtrm6azSaMChG",
-"rid": "GENERAL","ts":"2019-03-24T20:28:02.501Z",
-"msg": "This is a message with a file and I want to test it","file":{"_id":"RwiWv3waLHfXLW3mj","name":"temp.txt","type":"text/plain"},
-"attachments":
-[{"ts": "1970-01-01T00:00:00.000Z","title":"temp.txt","title_link":"/file-upload/RwiWv3waLHfXLW3mj/temp.txt","title_link_download":true,"type":"file","description":"Simple text file"}],
-"u": {"_id":"abJaoNiibGs7gP9fe","username":"knrt10","name": "knrt10"},
-"_updatedAt": "2019-03-24T20:28:02.558Z"},
-"success": true
+    "message": {
+        "_id": "HxX7qtrm6azSaMChG",
+        "rid": "GENERAL",
+        "ts": "2019-03-24T20:28:02.501Z",
+        "msg": "This is a message with a file and I want to test it",
+        "file": {
+            "_id": "RwiWv3waLHfXLW3mj",
+            "name": "temp.txt",
+            "type": "text/plain"
+        },
+        "attachments": [
+            {
+                "ts": "1970-01-01T00:00:00.000Z",
+                "title": "temp.txt",
+                "title_link": "/file-upload/RwiWv3waLHfXLW3mj/temp.txt",
+                "title_link_download": true,
+                "type": "file",
+                "description": "Simple text file"
+            }
+        ],
+        "u": {
+            "_id": "abJaoNiibGs7gP9fe",
+            "username": "knrt10",
+            "name": "knrt10"
+        },
+        "_updatedAt": "2019-03-24T20:28:02.558Z"
+    },
+    "success": true
 }
 ```
 
@@ -125,4 +144,3 @@ Transfer-Encoding: chunked
 | :--- | :--- |
 | 1.0.0  | Return Message object on file upload |
 | 0.62.0 | Added |
-
