@@ -1,4 +1,4 @@
-# Documentation Contribution Guidelines
+# Contribution Guidelines
 
 First of all, thank you for your interest in contributing to Rocket.Chat Docs. If this is the first Open Source project you will contribute to, we strongly suggest reading GitHub's excellent guide ["Contributing to Open Source"](https://guides.github.com/activities/contributing-to-open-source/).
 
@@ -29,7 +29,9 @@ Simply fork our docs repository, [create a space](https://docs.gitbook.com/getti
 
 #### Run it locally
 
-> Note: we do not recommend this method since GitBook Cli is deprecated and it takes a long time to build
+{% hint style="info" %}
+We do not recommend this method since GitBook Cli is deprecated and it takes a long time to build.
+{% endhint %}
 
 When making small changes like typos and such, there is no problem to edit the file directly on GitHub, but if you are making bigger changes or adding new files to the docs, we recommend following this workflow
 

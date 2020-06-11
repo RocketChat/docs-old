@@ -1,4 +1,8 @@
-# Documentation Status Map
+---
+description: Documentation Status Map
+---
+
+# Status Map
 
 This is a map of all of the Rocket.Chat Documentation articles
 

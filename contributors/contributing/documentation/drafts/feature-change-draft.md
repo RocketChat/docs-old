@@ -1,4 +1,8 @@
-# Feature Change Documentation Draft Template
+---
+description: Feature Change Documentation Draft Template
+---
+
+# Feature Change Template
 
 If you created a pull request and believe that it could change something already documented, use this template to create a draft for the documentation.
 

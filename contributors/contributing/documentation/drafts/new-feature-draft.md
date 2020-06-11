@@ -1,4 +1,8 @@
-# New Feature Documentation Draft Template
+---
+description: New Feature Documentation Draft Template
+---
+
+# New Feature Template
 
 If you have created a pull request creating a new feature please use this template to create a draft of the documentation.
 

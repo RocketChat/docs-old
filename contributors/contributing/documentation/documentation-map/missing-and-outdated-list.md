@@ -1,6 +1,10 @@
-# In depth missing articles list
+---
+description: In depth missing articles list
+---
 
-This list is a complement of the [Documentation Map](documentation-map.md).
+# Missing Articles
+
+This list is a complement of the [Documentation Map](./).
 
 All the missing and outdated articles on the documentation map will be listed and linked to here.
 
