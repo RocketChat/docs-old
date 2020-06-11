@@ -4,7 +4,7 @@ This repository hosts some templates for provision Rocket Chat in OpenShift.
 
 [http://developers.redhat.com/](http://developers.redhat.com/)
 
-## Installation on Container Development Kit\(CDK\)
+## Installation on Container Development Kit \(CDK\)
 
 * Download and install CDK
 * Download and install the OpenShift Client tool

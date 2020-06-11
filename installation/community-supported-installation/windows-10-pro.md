@@ -1,4 +1,8 @@
-# Installing on Windows 10 Pro 64bit with Docker for Windows
+---
+description: Installing on Windows 10 Pro 64bit with Docker for Windows
+---
+
+# Windows 10
 
 _Note: This is a community supported installation method. You can discuss about this in the_ [_forum thread_](https://forums.rocket.chat/t/windows-10-pro-installation-guide/408)_._
 

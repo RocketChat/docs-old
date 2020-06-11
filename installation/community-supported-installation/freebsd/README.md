@@ -1,4 +1,8 @@
-# Deploying Rocket.Chat on FreeBSD
+---
+description: Deploying Rocket.Chat on FreeBSD
+---
+
+# FreeBSD
 
 _Note: This is a community supported installation method. You can discuss about this in the_ [_forum thread_](https://forums.rocket.chat/t/freebsd-installation-guide/651)_._
 

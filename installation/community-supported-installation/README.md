@@ -1,4 +1,8 @@
-# Community Supported Installation Methods
+---
+description: Community Supported Installation Methods
+---
+
+# Nonofficial Methods
 
 The installation methods in this folder are not officially supported by Rocket.Chat, so we can't assure that these are working or updated.
 
@@ -10,4 +14,6 @@ You can also check their respective forum pages under [Community Guides](https:/
 * [Windows 10 Pro](windows-10-pro.md)
 * [Windows Server 2012](windows-server.md)
 * [OpenSUSE](opensuse.md)
+
+
 

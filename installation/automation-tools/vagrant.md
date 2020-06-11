@@ -1,4 +1,8 @@
-# Deploying Rocket.Chat on Vagrant with Ubuntu
+---
+description: Deploying Rocket.Chat on Vagrant with Ubuntu
+---
+
+# Vagrant
 
 ```bash
 # -*- mode: ruby -*-

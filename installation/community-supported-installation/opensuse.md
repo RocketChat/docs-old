@@ -1,4 +1,8 @@
-# Install and Run Rocket.Chat on OpenSUSE Leap 42.2
+---
+description: Install and Run Rocket.Chat on OpenSUSE Leap 42.2
+---
+
+# OpenSUSE Leap 42.2
 
 _Note: This is a community supported installation method. You can discuss about this in the_ [_forum thread_](https://forums.rocket.chat/t/opensuse-installation-guide/657)_._
 

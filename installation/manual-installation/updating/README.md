@@ -1,16 +1,10 @@
-# Update
+---
+description: Updating Manual Installation
+---
+
+# Updating
 
 Usually you can update Rocket.Chat server pretty easily.
-
-## Docker installation
-
-Just pull the new image.
-
-## Snap installation
-
-Refresh the snap.
-
-## Manual installation
 
 Stop Rocket.Chat service:
 

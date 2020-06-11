@@ -1,6 +1,8 @@
-# Rocket.Chat
+---
+description: Deploy Rocket.Chat to Linux that run on systemd
+---
 
-Deploy [Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) to Linux that run on systemd \(RedHat, Centos, Ubuntu, CoreOS and so on\).
+# systemd
 
 ## Prerequisite
 
