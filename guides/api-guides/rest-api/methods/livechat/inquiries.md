@@ -1,6 +1,6 @@
 # Inquiries List
 
-Lists all of the open livechat inquiries. It supports the [Offset, Count, and Sort Query Parameters](../offset-and-count-and-sort-info.md).
+Lists all of the open livechat inquiries. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info.md).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

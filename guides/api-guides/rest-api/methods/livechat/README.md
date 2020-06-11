@@ -1,4 +1,4 @@
-# Livechat Methods
+# Omnichannel \(Livechat\)
 
 Manage Livechat related data:
 

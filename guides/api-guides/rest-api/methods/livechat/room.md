@@ -1,4 +1,4 @@
-# Dealing with Livechat rooms
+# Room
 
 Get the Livechat room data or open a new room.
 

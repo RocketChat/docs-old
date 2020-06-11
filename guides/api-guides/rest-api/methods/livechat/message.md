@@ -1,4 +1,4 @@
-# Dealing with Livechat messages
+# Message
 
 Send a new Livechat message
 

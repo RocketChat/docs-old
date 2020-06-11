@@ -1,4 +1,4 @@
-# Dealing with Livechat Custom Fields
+# Custom Field
 
 ## Send a Livechat custom field
 
@@ -96,7 +96,7 @@ curl -X POST \
 
 ## List livechat custom fields
 
-Get a list of Livechat custom fields. It supports the [Offset, Count, and Sort Query Parameters](../offset-and-count-and-sort-info.md).
+Get a list of Livechat custom fields. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info.md).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

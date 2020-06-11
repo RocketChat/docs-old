@@ -1,8 +1,8 @@
-# Livechat Triggers
+# Triggers
 
 ## Get the Livechat Triggers
 
-Lists all Livechat triggers. It supports the [Offset, Count, and Sort Query Parameters](../offset-and-count-and-sort-info.md).
+Lists all Livechat triggers. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info.md).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

@@ -1,4 +1,4 @@
-# Dealing with Livechat visitors
+# Visitors
 
 Retrieve a visitor data
 
@@ -279,7 +279,7 @@ curl http://localhost:3000/api/v1/livechat/visitors.pagesVisited?roomId=iNKE8a6k
 
 ## Get the visitor chat history
 
-Retrieve the visitor chat history. It supports the [Offset, Count, and Sort Query Parameters](../offset-and-count-and-sort-info.md).
+Retrieve the visitor chat history. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info.md).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

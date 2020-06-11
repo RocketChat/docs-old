@@ -1,4 +1,4 @@
-# Livechat office hours
+# Office Hours
 
 Get Livechat office hours
 

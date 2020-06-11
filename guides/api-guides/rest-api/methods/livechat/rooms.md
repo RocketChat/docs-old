@@ -1,6 +1,6 @@
-# Get a list of livechat rooms
+# Rooms
 
-Retrieves a list of livechat rooms. It supports the [Offset, Count, and Sort Query Parameters](../offset-and-count-and-sort-info.md) along with [Fields Query Parameters](../query-and-fields-info.md).
+Retrieves a list of livechat rooms. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info.md) along with [Fields Query Parameters](../../query-and-fields-info.md).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

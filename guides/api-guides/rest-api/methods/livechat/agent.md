@@ -1,4 +1,4 @@
-# Dealing with Livechat agents
+# Agent Info
 
 Retrieve the current Livechat agent data.
 

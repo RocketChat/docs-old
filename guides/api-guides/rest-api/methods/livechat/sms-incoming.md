@@ -1,4 +1,4 @@
-# Save a SMS message on Rocket.Chat
+# SMS Incoming
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

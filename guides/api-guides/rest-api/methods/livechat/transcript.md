@@ -1,4 +1,4 @@
-# Dealing with Livechat transcript
+# Transcript
 
 Request a Livechat transcript
 

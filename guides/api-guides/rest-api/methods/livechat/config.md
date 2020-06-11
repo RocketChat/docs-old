@@ -1,4 +1,4 @@
-# Livechat configuration data
+# Config
 
 Get Livechat widget configuration info and additional visitor data
 

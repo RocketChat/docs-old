@@ -1,4 +1,4 @@
-# Query, Fields, and Sort Information
+# Query and Fields
 
 Starting in version `0.49`, some of the endpoints support the query parameters `query` and `fields`. These two fields are special in that they accept a json object. If an invalid json object is passed, the request will fail.
 

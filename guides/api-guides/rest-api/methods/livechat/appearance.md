@@ -1,4 +1,4 @@
-# Livechat appearance data
+# Appearance
 
 Get Livechat widget settings about appearance
 

@@ -1,10 +1,10 @@
-# Livechat API
+# Livechat Widget API
 
 ## Usage
 
-Livechat API code must be inserted after the Livechat installation script and wrapped as a callback of `RocketChat();` function.
+Livechat Widget API code must be inserted after the Livechat Widget installation script and wrapped as a callback of `RocketChat();` function.
 
-You can call multiple Livechat APIs on the same page.
+You can call multiple Livechat Widget APIs on the same page.
 
 ### Methods
 

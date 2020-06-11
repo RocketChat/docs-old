@@ -237,19 +237,19 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
-| `/api/v1/findOrCreateInvite` | Created a new Invite or returns an existing one with the same parameters. | [Link](invites/findorcreateinvite.md) |
-| `/api/v1/listInvites` | Lists all of the invite tokens. | [Link](invites/listinvites.md) |
-| `/api/v1/removeInvite` | Removes an invite. | [Link](invites/removeinvite.md) |
-| `/api/v1/useInviteToken` | Report to the server that an invite token was used. | [Link](invites/useinvitetoken.md) |
-| `/api/v1/validateInviteToken` | Checks if an invite token is valid. | [Link](invites/validateinvitetoken.md) |
+| `/api/v1/findOrCreateInvite` | Created a new Invite or returns an existing one with the same parameters. | [Link](methods/invites/findorcreateinvite.md) |
+| `/api/v1/listInvites` | Lists all of the invite tokens. | [Link](methods/invites/listinvites.md) |
+| `/api/v1/removeInvite` | Removes an invite. | [Link](methods/invites/removeinvite.md) |
+| `/api/v1/useInviteToken` | Report to the server that an invite token was used. | [Link](methods/invites/useinvitetoken.md) |
+| `/api/v1/validateInviteToken` | Checks if an invite token is valid. | [Link](methods/invites/validateinvitetoken.md) |
 
 ### Livechat
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
-| `/api/v1/livechat/inquiries.list` | Retrieves a list of open inquiries. | [Link](livechat/inquiries.md#inquiries-list) |
-| `/api/v1/livechat/inquiries.take` | Take an open inquiry. | [Link](livechat/inquiries.md#livechat-take-inquiry) |
-| `/api/v1/livechat/rooms` | Retrieves a list of livechat rooms. | [Link](livechat/rooms.md) |
+| `/api/v1/livechat/inquiries.list` | Retrieves a list of open inquiries. | [Link](methods/livechat/inquiries.md#inquiries-list) |
+| `/api/v1/livechat/inquiries.take` | Take an open inquiry. | [Link](methods/livechat/inquiries.md#livechat-take-inquiry) |
+| `/api/v1/livechat/rooms` | Retrieves a list of livechat rooms. | [Link](methods/livechat/rooms.md) |
 
 ### OAuthApps
 
@@ -324,12 +324,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 | Url | Method | Short Description | Details Page |
 | :--- | :--- | :--- | :--- |
-| `/api/v1/settings` | `GET` | Lists all private settings. | [Link](settings/get.md) |
-| `/api/v1/settings.public` | `GET` | Lists all public settings. | [Link](settings/public.md) |
-| `/api/v1/settings.oauth` | `GET` | Return list of all available oauth services. | [Link](settings/oauth.md) |
-| `/api/v1/service.configurations` | `GET` | Lists all service configurations. | [Link](settings/service-configuration.md) |
-| `/api/v1/settings/:_id` | `GET` | Gets a setting. | [Link](settings/get-by-id.md) |
-| `/api/v1/settings/:_id` | `POST` | Updates a setting. | [Link](settings/update.md) |
+| `/api/v1/settings` | `GET` | Lists all private settings. | [Link](methods/settings/get.md) |
+| `/api/v1/settings.public` | `GET` | Lists all public settings. | [Link](methods/settings/public.md) |
+| `/api/v1/settings.oauth` | `GET` | Return list of all available oauth services. | [Link](methods/settings/oauth.md) |
+| `/api/v1/service.configurations` | `GET` | Lists all service configurations. | [Link](methods/settings/service-configuration.md) |
+| `/api/v1/settings/:_id` | `GET` | Gets a setting. | [Link](methods/settings/get-by-id.md) |
+| `/api/v1/settings/:_id` | `POST` | Updates a setting. | [Link](methods/settings/update.md) |
 
 ### Subscriptions
 
