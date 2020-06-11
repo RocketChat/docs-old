@@ -231,6 +231,8 @@
     * [Create Private Groups](api/realtime-api/method-calls/create-private-groups.md)
     * [Delete Message](api/realtime-api/method-calls/delete-message.md)
     * [Delete Rooms](api/realtime-api/method-calls/delete-rooms.md)
+    * [E2E](api/realtime-api/e2e/README.md)
+      * [Fetch E2E Keys](developer-guides/realtime-api/method-calls/e2e.fetch-my-keys/README.md)
     * [Favoriting Rooms](api/realtime-api/method-calls/favoriting-rooms.md)
     * [Get Permissions](api/realtime-api/method-calls/get-permissions.md)
     * [Get Public Settings](api/realtime-api/method-calls/get-public-settings.md)
