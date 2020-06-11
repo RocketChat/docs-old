@@ -1,4 +1,4 @@
-# Settings oAuth
+# oAuth
 
 A simple method, requires no authentication, that returns list of all available oauth services.
 

@@ -1,4 +1,4 @@
-# Private Settings Get
+# Private Settings
 
 List all private settings.
 

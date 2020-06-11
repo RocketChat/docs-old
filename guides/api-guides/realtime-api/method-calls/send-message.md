@@ -31,7 +31,7 @@ The `sendMessage` is described as:
 
 For sending a file we now recommend using the rest api:
 
-[See rooms.upload](../../rest-api/rooms/upload.md)
+[See rooms.upload](../../rest-api/methods/rooms/upload.md)
 
 ## See Also
 

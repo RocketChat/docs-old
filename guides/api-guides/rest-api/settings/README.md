@@ -1,4 +1,4 @@
-# Settings Methods
+# Settings
 
 You can get and update the settings via the REST API, only if you have permission to.
 
@@ -10,4 +10,6 @@ You can get and update the settings via the REST API, only if you have permissio
 | `/api/v1/service.configurations` | `GET` | Lists all service configurations. | [Link](service-configuration.md) |
 | `/api/v1/settings/:_id` | `GET` | Gets a setting. | [Link](get-by-id.md) |
 | `/api/v1/settings/:_id` | `POST` | Updates a setting. | [Link](update.md) |
+
+
 

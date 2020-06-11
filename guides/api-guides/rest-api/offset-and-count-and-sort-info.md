@@ -1,4 +1,8 @@
-# Offset and Count Information
+---
+description: 'Count, Offset and Sort'
+---
+
+# Pagination
 
 Starting in version `0.49`, some of the endpoints support the query parameters `offset`, `count` and `sort`. However, the defaults are different per server due to configuration settings.
 

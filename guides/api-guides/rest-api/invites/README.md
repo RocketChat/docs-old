@@ -1,4 +1,4 @@
-# Invite Methods
+# Invite
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
