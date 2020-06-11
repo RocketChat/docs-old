@@ -6,6 +6,12 @@ Oracle Identity Cloud Service is integrated as a SAML Identity Provider. For det
 
 ## Step by Step configuration of Oracle Identity Cloud Service
 
+### Before you begin
+
+Before you create your IDCS application, make sure you have enabled SAML per the [SAML Documentation](../README.md). You will need to have entered a _Custom Provider_ and a _Custom Issuer_ URL on the SAML settings page in Rocket.Chat. 
+
+**Note:** Leave the _Custom Entry Point_ and _IDP SLO Redirect URL_ values as the default values for now. We will obtain these URLs below, but you must save the SAML settings with your _Custom Issuer_ URL so you can visit this URL and obtain values that are necessary when creating the IDCS application below.
+
 ### Adding a new Application
 
 On your Oracle Cloud Applications Dashboard, find a button to add a new application. It should open the following pop-up:
@@ -38,7 +44,11 @@ Before clicking on **Finish**, click the **Download Identity Provider Metadata**
 
 ![](../../../../.gitbook/assets/rocketchatsettings.png)
 
-There are two Rocket.Chat settings that need to be copied from the IDP Metadata you just downloaded: _Custom Entry Point_ and _IDP SLO Redirect URL_. For the first one, locate the tag **SingleLogoutService** and copy the value of the _Location_ attribute. For the second param, locate the tag **md:SingleLogoutService** and copy the value of the _Location_ attribute.
+There are two Rocket.Chat settings that need to be copied from the IDP Metadata you just downloaded: *Custom Entry Point* and *IDP SLO Redirect URL*.
+
+For the first one, locate the tag **md:SingleSignOnService** and copy the value of the *Location* attribute, (ends with `/idp/sso`).
+
+For the second param, locate the tag **md:SingleLogoutService** and copy the value of the *Location* attribute (ends with `/idp/slo`).
 
 There may be multiple occurences of those tags in the XML file, so make sure that the copied URLS end with `/idp/sso` and `/idp/slo` and not `/sp/sso` and `/sp/slo`.
 
