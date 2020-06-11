@@ -1,4 +1,4 @@
-# Rocket.Chat css Styleguide
+# CSS Styleguide
 
 * [Comments](less.md#comments)
 * [Formatting](less.md#formatting)
