@@ -538,8 +538,6 @@ The purpose of the integration script is to transform data in one format \(the f
 
 Note that data comes _into_ your script from GitHub as the `request.content` object.
 
-The Handlebars template used by Rocket.Chat to render messages from a JSON object may also be useful, and can be found [here](https://github.com/RocketChat/Rocket.Chat/blob/master/packages/rocketchat-message-attachments/client/messageAttachment.html).
-
 ### Send commands to GitHub
 
 `This script only works for public repositories`

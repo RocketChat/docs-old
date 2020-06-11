@@ -106,7 +106,7 @@
     * [CAS](guides/administrator-guides/authentication/cas.md)
   * [Google Cloud Features](guides/administrator-guides/google-cloud/README.md)
     * [Google Auto Translate](guides/administrator-guides/google-cloud/auto-translate.md)
-  * [Incoming WebHook](guides/administrator-guides/integrations/README.md)
+  * [Integrations WebHooks](guides/administrator-guides/integrations/README.md)
     * [Add Jira notifications via WebHook](guides/administrator-guides/integrations/jira.md)
     * [AppVeyor](guides/administrator-guides/integrations/appveyor.md)
     * [Azure Alerts](guides/administrator-guides/integrations/azure-alerts.md)
