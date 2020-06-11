@@ -10,19 +10,19 @@ redirect_from:
 
 ## How to apply
 
-Applications for the GSoC 2019 season have now closed. Please see [GSoC timeline](https://docs.rocket.chat/contributing/google-summer-of-code-2019/#timeline) for more details.
+Applications for the GSoC 2019 season have now closed. Please see GSoC timeline for more details.
 
-### Update on July 10, 2019
+#### Update on July 10, 2019
 
 First evaluation has completed! Coding continues at a feverish pace. Progress has been smooth across the projects. Projects are ontrack based on weekly mini-milestones agreed between mentors and students. Mentors are busy making sure that every student receive his/her detailed evaluation and payment. Students have also completed evaluation for their mentor\(s\). Many students are preparing their project for interim demo and reviews by our core team. During this first evaluation, we have decided to fail one student due to no communications with mentor. We also had to remove a mentor due to lack of available participation time.
 
-### Update on May 28, 2019
+#### Update on May 28, 2019
 
 Coding has begun! This year continues to be the most active and productive GSoC year at Rocket.Chat. During the bonding period, our students continued to assist community in public channels, interact with core team, contribute to bug fixes and documenation updates. They have also worked with their mentors to add detailed schedule to their proposal, reflecting measurable goals/milestones. Coding and detailed design work have started across all active projects. In addition, we are happy to welcome a team of community mentors from Credit Suisse Singapore, already well experienced with our core and native mobile code bases, to assist us this season.
 
 Unfortunately, during this time, we had to remove one student from the program due to extended inactivity.
 
-### Update on May 8, 2019
+#### Update on May 8, 2019
 
 2019 is an incredible year for GSoC at Rocket.Chat. Thanks to the ethusiastic early support from students and community \(mentors\), Google has graciously granted us **SEVENTEEN** project slots. This far surpasses any record from prior years. As a result, we are delighted to welcome these 17 active community members to work with us during the GSoC 2019 season:
 
@@ -62,7 +62,7 @@ This, in combination, allowed us to accomodate a total of **TWENTY TWO** ethusia
 
 All students and mentors are now busy mutually bonding and with our core team and greater community. Each mentor is also working with his/her student on refining the weekly and monthly milestones/deliverables within the proposal to better reflect achievable project objectives as well as making them measurable for the monthly evaluations. Meanwhile, all our students are continuing to contribute to the Rocket.Chat open source project\(s\) as they have been doing since the start of the GSoC 2019 cycle.
 
-### Update on April 10, 2019
+#### Update on April 10, 2019
 
 This year, Rocket.Chat received a record breaking **ONE HUNDRED AND TWO** proposals from students studying at every corner of the globe. It is the first year we attempted to build a students + mentors community prior to submission deadline. Thanks to an enthusiastic and dedicated students community, we are successful in creating a GSoC 2019 community of **TWO HUNDRED AND FIFTY** members on our dedicated community server channel:
 
@@ -74,7 +74,7 @@ Open source contributions from students have already reach an all time high, wit
 
 Our community of mentors is hard-at-work right now going through every one of the proposals, and will be contacting students for a video chat prior to deciding on proposal selection and slot assignments. All students are encouraged to continue their engagement with our community, and contribute to our open source projects.
 
-### About Rocket.Chat GSoC 2019
+#### About Rocket.Chat GSoC 2019
 
 For ideas, check out our [list of ideas](https://docs.rocket.chat/contributing/google-summer-of-code-2019/#project-ideas) for some inspiration.
 
@@ -308,15 +308,5 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ## Timeline
 
-[GSoC 2019 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
-
-**February 26 - March 25** Potential student participants discuss application ideas with mentoring organizations
-
-**March 25 18:00 UTC** Student application period begins - [_How to write a Proposal_](https://google.github.io/gsocguides/student/writing-a-proposal.html)
-
-**April 9 18:00 UTC** Student application deadline
-
-**May 6 18:00 UTC** Accepted student proposals announced
-
-...
+{% embed url="https://developers.google.com/open-source/gsoc/timeline" %}
 

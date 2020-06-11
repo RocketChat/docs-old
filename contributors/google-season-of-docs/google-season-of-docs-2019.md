@@ -32,11 +32,11 @@ For offline discussions, we have a discussion forum:
 
 If you have questions and prefer email, please write us at: gsod+2019@rocket.chat
 
-### Update on July 10, 2019
+#### Update on July 10, 2019
 
 Application for technical writers has closed. During the past month, technical writers have continued to approach us regarding project details. Several mentors have engaged with their prospective writer\(s\) in assisting with proposal; and several writers have already started to contribute \(typos and small fixes\) to our docs. We have received a total of TWENTY THREE proposals \(one was a submission to the wrong org\), and have started the evaluation process with the project mentors. Of the technical writers who have reached out to us, we continue to engage with them and explore project details and interim contributions. We plan to finalize our own selections by July 18th and submit them prior to the final selections deadline.
 
-### Update on May 28, 2019
+#### Update on May 28, 2019
 
 Application for technical writers has opened. Please use this [form](https://forms.gle/Fxr2nW4TCiyESHbo8) to apply. Response during this exploration month has been generally positive. Several project teams are already engaging with interested writers to discuss open source work in general and details of their projects in particular. Some of the writers have already warmed up and started to contribute documentation fix PRs to our repositories. We have created a [call-to-action blog](https://rocket.chat/2019/05/21/rocket-chat-in-season-of-docs/) for our participation in the program. Mentors of projects with interested writers have started to assist them in creating their project proposals.
 

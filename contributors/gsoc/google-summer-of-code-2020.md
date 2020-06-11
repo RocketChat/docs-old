@@ -53,7 +53,7 @@ This, in combination, allowed us to accommodate a total of **TWELVE** enthusiast
 
 All students and mentors are now busy mutually bonding and with our core team and greater community. Each mentor is also working with his/her student on refining the weekly and monthly milestones/deliverables within the proposal to better reflect achievable project objectives as well as making them measurable for the monthly evaluations. Meanwhile, all our students are continuing to contribute to the Rocket.Chat open source project\(s\) as they have been doing since the start of the GSoC 2019 cycle. Many are also engaging with community members on the various public channels of our 24 x 7 [community team server](https://open.rocket.chat).
 
-### Update March 31st, 2020
+#### Update March 31st, 2020
 
 First, we would like to thank all GSoC 2020 students for their ethusiastic support for Rocket.Chat. This year we have received a total of **86** proposals, including **81** final proposals. In the final pool, there are 13 proposals that are spam, without content, or not related to our projects.
 
@@ -61,7 +61,7 @@ Over the next month, our mentors will be reviewing the received proposals. Googl
 
 Meanwhile, we continue to introduce all active and incoming students to open source in general, and Rocket.Chat's ecosystem of open source projects in particular. Students will continue to make meaningful open source contributions in the form of issues & PR for our projects and interact with Rocket.Chat's vibrant community + team.
 
-### Update March 29th, 2020
+#### Update March 29th, 2020
 
 Enthusiasm and interest from students are all time high this year; over 112 candidate students have already started to interact with our community and contributing to the repositories! Together, they have already contributed over 100 issues and over 50 merged PRs to our various projects. We are maintaining a real-time updated leaderboard for at-a-glance student \(candidates\) contribution here:
 
@@ -75,7 +75,7 @@ We have recnetly arranged for the TOP 8 student contributors to meet one on one 
 
 Mentoring interest from core team has been reduced this year, while community mentor participation is at an all time high. Proposals for projects are streaming steadily in since application open, the volume of incoming proposals is reduced compared to prior year - but the percentage of high quality propsals has increased.
 
-### About GSoC 2020
+#### About GSoC 2020
 
 For ideas, check out our growing [list of ideas](google-summer-of-code-2020.md#project-ideas) for some inspiration.
 
@@ -322,17 +322,5 @@ Interested students are also encouraged to interact with our contributor communi
 
 ## Timeline
 
-[GSoC 2020 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
-
-**Feb 20** List of accepted mentoring organizations published.
-
-**February 20 - March 16** Potential student participants discuss application ideas with mentoring organizations
-
-**March 16 18:00 UTC** Student application period begins - [_How to write a Proposal_](https://google.github.io/gsocguides/student/writing-a-proposal.html)
-
-**March 31st 18:00 UTC** Student application deadline
-
-**April 27th 18:00 UTC** Accepted student proposals announced
-
-...
+{% embed url="https://developers.google.com/open-source/gsoc/timeline" %}
 
