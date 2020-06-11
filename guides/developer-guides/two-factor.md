@@ -30,9 +30,9 @@ Now it's the two factor is required to create personal access tokens.
 
 ## DDP Methods
 
-Visit [the Two Factor Authorization page at realtime section](../api-guides/realtime-api/realtime-api.md) for more information about.
+Visit [the Two Factor Authorization page at realtime section](../api-guides/realtime-api/2fa.md) for more information about.
 
 ## REST API
 
-Visit [the Two Factor Authorization page at rest section](../api-guides/rest-api/rest-api.md) for more information about.
+Visit [the Two Factor Authorization page at rest section](../api-guides/rest-api/2fa.md) for more information about.
 
