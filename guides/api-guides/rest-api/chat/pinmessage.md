@@ -1,4 +1,4 @@
-# Pins a Chat Message
+# Pins Message
 
 Pins a chat message to the message's channel.
 

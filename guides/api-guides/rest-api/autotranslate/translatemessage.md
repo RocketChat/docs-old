@@ -1,4 +1,8 @@
-# Auto Translate Translate Message
+---
+description: Auto Translate Translate Message
+---
+
+# Translate Message
 
 Translate the provided message.
 

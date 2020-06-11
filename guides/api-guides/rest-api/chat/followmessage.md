@@ -1,4 +1,4 @@
-# Follows a Chat Message
+# Follows Message
 
 Follows a chat message to the message's channel.
 

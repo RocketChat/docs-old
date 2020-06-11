@@ -1,4 +1,4 @@
-# Integrations get one
+# Get
 
 Retrieves an integration by id.
 

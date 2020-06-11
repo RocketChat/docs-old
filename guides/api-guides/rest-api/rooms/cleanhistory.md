@@ -3,9 +3,10 @@ permalink: /developer-guides/rest-api/rooms/cleanhistory/
 redirect_from:
   - /developer-guides/rest-api/channels/cleanhistory
   - /developer-guides/rest-api/channels/cleanhistory/
+description: REST API Clean History Methods
 ---
 
-# Rooms Clean History
+# Clean History
 
 Cleans up a room, removing messages from the provided time range.
 

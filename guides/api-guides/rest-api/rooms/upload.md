@@ -1,4 +1,8 @@
-# Rooms Upload
+---
+description: REST API Upload Methods
+---
+
+# Upload
 
 Post a message with attached file to a dedicated room.
 

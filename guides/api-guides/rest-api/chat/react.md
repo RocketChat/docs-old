@@ -1,4 +1,8 @@
-# Chat Message Reactions
+---
+description: Chat Message Reactions
+---
+
+# React
 
 Toggles the authenticated user's reaction to the provided message.
 

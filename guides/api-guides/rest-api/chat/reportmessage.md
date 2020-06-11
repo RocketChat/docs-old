@@ -1,4 +1,4 @@
-# Chat Report Message
+# Report Message
 
 Reports a message.
 

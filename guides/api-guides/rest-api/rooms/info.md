@@ -1,3 +1,7 @@
+---
+description: REST API Rooms Info Methods
+---
+
 # Rooms Info
 
 Retrieves the information about the room. It supports [Fields Query Parameters](../query-and-fields-info.md) **only**.

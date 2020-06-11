@@ -1,4 +1,4 @@
-# Get a Single Chat Message
+# Get Message
 
 Retrieves a single chat message by the provided id. Callee must have permission to access the room where the message resides.
 

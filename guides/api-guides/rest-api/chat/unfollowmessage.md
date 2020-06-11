@@ -1,4 +1,4 @@
-# Unfollow a Chat Message
+# Unfollow Message
 
 Unfollow a chat message to the message's channel.
 

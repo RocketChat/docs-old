@@ -1,4 +1,8 @@
-# Rooms Leave
+---
+description: REST API Leave Methods
+---
+
+# Leave
 
 Causes the callee to be removed from the room.
 

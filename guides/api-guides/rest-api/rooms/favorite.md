@@ -1,4 +1,8 @@
-# Rooms Favorite
+---
+description: REST API Favorite Methods
+---
+
+# Favorite
 
 Favorite or unfavorite room.
 

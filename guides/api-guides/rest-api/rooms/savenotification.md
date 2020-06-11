@@ -1,4 +1,8 @@
-# Rooms Save Notification
+---
+description: REST API Save Notification Methods
+---
+
+# Save Notification
 
 Sets the notifications settings of specific channel.
 

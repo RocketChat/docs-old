@@ -1,4 +1,8 @@
-# Chat Message Delete
+---
+description: Chat Message Delete
+---
+
+# Delete
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

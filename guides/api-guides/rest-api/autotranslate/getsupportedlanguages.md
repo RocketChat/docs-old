@@ -1,4 +1,8 @@
-# Auto Translate Get Supported Languages
+---
+description: Auto Translate Get Supported Languages
+---
+
+# Get Supported Languages
 
 Get the supported languages by the autotranslate.
 

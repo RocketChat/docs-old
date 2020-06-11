@@ -1,4 +1,4 @@
-# Chat Message Update
+# Update
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

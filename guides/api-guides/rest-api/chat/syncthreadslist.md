@@ -1,4 +1,4 @@
-# Synced thread list
+# Sync Thread List
 
 List all custom emojis available. It supports the [Query, Fields](../query-and-fields-info.md#query-example) and [sort](../offset-and-count-and-sort-info.md).
 

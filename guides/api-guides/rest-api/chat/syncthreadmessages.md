@@ -1,6 +1,6 @@
-# Synced thread's messages
+# Sync Thread Messages
 
-List all custom emojis available. It supports the [Query, Fields](../query-and-fields-info.md#query-example) and [sort](../offset-and-count-and-sort-info.md).
+It supports the [Query, Fields](../query-and-fields-info.md#query-example) and [sort](../offset-and-count-and-sort-info.md).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

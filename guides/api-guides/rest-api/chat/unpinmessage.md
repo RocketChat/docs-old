@@ -1,4 +1,4 @@
-# Unpins a Chat Message
+# Unpins Message
 
 Removes the pinned status of the provided chat message.
 

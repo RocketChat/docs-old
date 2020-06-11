@@ -1,4 +1,4 @@
-# Unstar a Chat Message
+# Unstar Message
 
 Unstars the chat message for the authenticated user.
 

@@ -1,4 +1,4 @@
-# Star a Chat Message
+# Star Message
 
 Stars a chat message for the authenticated user.
 

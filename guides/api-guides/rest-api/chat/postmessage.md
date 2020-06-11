@@ -1,4 +1,4 @@
-# Post a chat message
+# Post Message
 
 ## IMPORTANT
 

@@ -1,4 +1,8 @@
-# Rooms Get
+---
+description: REST API Get Methods
+---
+
+# Get
 
 Get all opened rooms \(all joined public & private channels and all DMs\) for this user.
 

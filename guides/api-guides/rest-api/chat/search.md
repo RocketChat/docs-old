@@ -1,4 +1,4 @@
-# Search for messages in a channel
+# Search
 
 Search for messages in a channel by id and text message.
 

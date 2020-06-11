@@ -1,4 +1,4 @@
-# Ignore user
+# Ignore User
 
 Ignores an user in a chat. If you pass ignore as false, the user will be unignored.
 

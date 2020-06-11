@@ -1,4 +1,8 @@
-# Auto Translate Save Settings
+---
+description: Auto Translate Save Settings
+---
+
+# Save Settings
 
 Save some settings about autotranslate.
 
