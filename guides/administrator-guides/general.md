@@ -22,14 +22,10 @@ If you want to use a CDN to load the assets of your server, insert here your CDN
 
 This will define if all assets from the server will come from a CDN.
 
-<!-- ### Document Domain
-
-_FILL HERE_ -->
-
 ### Enable Favorite Rooms
 
-- **Yes**: Users will be able to favorite public, private and direct channels.
-- **No**: Users won't be able to favorite channels.
+* **Yes**: Users will be able to favorite public, private and direct channels.
+* **No**: Users won't be able to favorite channels.
 
 ### First Channel After Login
 
@@ -41,10 +37,9 @@ Will not use OpLog to sync cache even when it's available
 
 ### Force SSL
 
-You can use this setting to force SSL on your server. We **Strongly Discourage** the usage of this setting, this should
-be done at the reverse proxy level by redirecting to https.
+You can use this setting to force SSL on your server. We **Strongly Discourage** the usage of this setting, this should be done at the reverse proxy level by redirecting to https.
 
-> *Caution!* _Force SSL_ should never be used with reverse proxy. If you have a reverse proxy, you should do the redirect THERE. This option exists for deployments like Heroku, that does not allow the redirect configuration at the reverse proxy.
+> _Caution!_ _Force SSL_ should never be used with reverse proxy. If you have a reverse proxy, you should do the redirect THERE. This option exists for deployments like Heroku, that does not allow the redirect configuration at the reverse proxy.
 
 ### Google Tag Manager Id
 
@@ -78,25 +73,23 @@ This sets the URL of the server.
 
 ### Store Last Message
 
- Store last message sent on each room. This will enable the viewing of the last message on the left sidebar (should be on by default)
+Store last message sent on each room. This will enable the viewing of the last message on the left sidebar \(should be on by default\)
 
 ### Unread Count
 
 This setting changes the behavior of the unread counter
 
-- **All messages**: All messages will be counted on the counter, regardless if they are a mention or not.
-- **User mentions only**: Only mentions using `@yourUsername` will be counted on the counter.
-- **Group mentions only**: Only group mentions using `@all` or `@here` will be counted on the counter.
-- **User and group mentions only**: All mentions will be counted, this includes `@all`, `@here` and `@yourUsername`
+* **All messages**: All messages will be counted on the counter, regardless if they are a mention or not.
+* **User mentions only**: Only mentions using `@yourUsername` will be counted on the counter.
+* **Group mentions only**: Only group mentions using `@all` or `@here` will be counted on the counter.
+* **User and group mentions only**: All mentions will be counted, this includes `@all`, `@here` and `@yourUsername`
 
 ### Unread Count for Direct Messages
 
 This setting changes the behavior of the unread counter on Direct Messages
 
-- **All messages**: All messages sent by another user will be counted on the counter.
-- **Mentions only**: Only mentions using `@yourUsername` will be counted on the counter.
-
-- - -
+* **All messages**: All messages sent by another user will be counted on the counter.
+* **Mentions only**: Only mentions using `@yourUsername` will be counted on the counter.
 
 ## Apps
 
@@ -104,11 +97,9 @@ This setting changes the behavior of the unread counter on Direct Messages
 
 Use this setting to enable the Rocket.Chat Apps Framework. This allows you to add Rocket.Chat Apps from our Marketplace to your server.
 
-- - -
-
 ## GraphQL API
 
-Settings related to our GraphQL API. You can find more info on our GraphQL API [here](/developer-guides/graphql-api/)
+Settings related to our GraphQL API. You can find more info on our GraphQL API [here](https://github.com/RocketChat/docs/tree/25edcde0b00af8d5f89889dbb0d911ccfe76a1d1/developer-guides/graphql-api/README.md)
 
 ### GraphQL CORS
 
@@ -122,11 +113,9 @@ This setting enables the GraphQL API on your server.
 
 ### GraphQL Subscription Port
 
-Here you can choose what port will be used for subscriptions on the API. More info on subscriptions [here](/developer-guides/graphql-api/subscription/)
+Here you can choose what port will be used for subscriptions on the API. More info on subscriptions [here](https://github.com/RocketChat/docs/tree/25edcde0b00af8d5f89889dbb0d911ccfe76a1d1/developer-guides/graphql-api/subscription/README.md)
 
 > **Note**: Cannot currently use the same port that Rocket.Chat is running on.
-
-- - -
 
 ## Iframe Integration
 
@@ -136,7 +125,7 @@ This setting defines if a parent window can send commands to Rocket.Chat.
 
 ### Receive Origins
 
-Origins with protocol prefix, separated by commas, which are allowed to receive commands e.g. `https://localhost`, `http://localhost`, or * to allow receiving from anywhere.
+Origins with protocol prefix, separated by commas, which are allowed to receive commands e.g. `https://localhost`, `http://localhost`, or \* to allow receiving from anywhere.
 
 ### Enable Send
 
@@ -144,9 +133,7 @@ This setting defines if Rocket.Chat can send events to the parent window.
 
 ### Send Target Origin
 
-Origin with protocol prefix, which commands are sent to e.g. `https://localhost`, or * to allow sending to anywhere.
-
-- - -
+Origin with protocol prefix, which commands are sent to e.g. `https://localhost`, or \* to allow sending to anywhere.
 
 ## Notifications
 
@@ -156,9 +143,7 @@ Choose to always notify mobile device regardless of presence status.
 
 ### Max Room Members Before Disabling All Message Notifications
 
-Max number of members in room when notifications for all messages gets disabled. Users can still change per room setting to receive all notifications on an individual basis. (0 to disable)
-
-- - -
+Max number of members in room when notifications for all messages gets disabled. Users can still change per room setting to receive all notifications on an individual basis. \(0 to disable\)
 
 ## REST API
 
@@ -166,8 +151,8 @@ Max number of members in room when notifications for all messages gets disabled.
 
 This setting affects the `count` query parameter. See more at [Offset and Count Information](https://rocket.chat/docs/developer-guides/rest-api/offset-and-count-and-sort-info/#offset-and-count-information)
 
-- **Yes**: Allows the usage of the number `0` as `count` parameter. Setting `count` to `0` will return **ALL** the data from that endpoint
-- **No**: Setting the number `0` on `count`, will return `0` results.
+* **Yes**: Allows the usage of the number `0` as `count` parameter. Setting `count` to `0` will return **ALL** the data from that endpoint
+* **No**: Setting the number `0` on `count`, will return `0` results.
 
 > Should calls to the REST API be allowed to return everything in one call?
 
@@ -209,8 +194,6 @@ This sets the maximum number of records the REST API should return when not set 
 
 This limits the amount of users that can be added to a Channel at the same time.
 
-- - -
-
 ## Reporting
 
 ### Send Statistics to Rocket.Chat
@@ -231,7 +214,7 @@ With this setting you can configure custom translations for your server.
 
 Should be a valid JSON where keys are languages containing a dictionary of key and translations. Example:
 
-```json
+```javascript
 {
  "en": {
   "Channels": "Rooms"
@@ -242,23 +225,17 @@ Should be a valid JSON where keys are languages containing a dictionary of key a
 }
 ```
 
-- - -
-
 ## UTF8
-
-<!-- ### UTF8 Names Slugify
-
-- **Yes**: _FILL HERE_
-- **No**: _FILL HERE_ -->
 
 ### UTF8 Names Validation
 
 RegExp that will be used to validate usernames and channel names
 
->**Note**: If you are having problems with names when creating channels (when using non-english characters for example) changing these values will probably fix it.
+> **Note**: If you are having problems with names when creating channels \(when using non-english characters for example\) changing these values will probably fix it.
 
 ## Update
 
 ### Update Latest Available Version
 
 Whenever we have a new version available, it will show up on this field.
+
