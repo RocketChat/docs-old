@@ -13,7 +13,7 @@ By default the WebHooks is designed to post a message only. The _message_ is par
 
 If you would like more power and control over various features of Rocket.Chat, aside from sending and receiving messages, take a look at [Rocket.Chat Apps](../../../apps-development/getting-started.md).
 
-## Incoming WebHook Scripting
+## Incoming WebHook Script
 
 WebHooks can be handled by _ES2015 / ECMAScript 6_ scripts to process the request, to print a customized messages or cancel the request to prevent undesired messages.
 
@@ -109,17 +109,17 @@ class Script {
 
 ## Outgoing WebHook Script
 
-Several different events may trigger an outgoing WebHook. You can preprocess the hook with a _Script_. This script may decide if it does nothing, returns a message immediately or sends a request to an external service.
+Use Scripts to process all messages from a channel, and change how Rocket.Chat makes or cancels the request. You can cancel the request and return a message, or just do nothing. Also, you can make another request inside the script by using the **HTTP** global helper.
 
-The response of the request will execute the script too, calling another method so you can process the response just as in **Incoming WebHooks**.
+The response of the request also executes the script, calling another method so you can process the response, just like in **Incoming WebHooks**
 
 ### Create a new Outgoing WebHook
 
 * Go to your **Admin Panel**
 * Go to **Integrations**
 * Create a **New Integration** and select **Outgoing WebHook**
-* Select the channel where you will use the commands and receive the responses
-* Put the URL you want to call in **URLs**, you can modify this URL inside the script
+* Select the channel where you prefer to use the commands and receive the responses
+* Enter the URL you want to call in **URLs**, you can modify this URL inside the script
 * Set **Script Enabled** to `true`
 * Paste your script inside the **Script** field
 * Save your integration
@@ -128,15 +128,15 @@ The response of the request will execute the script too, calling another method 
 
 The script should be in **ES2015 / ECMAScript 6**.
 
-The script expects a global class called **Script**, this class will be instantiated just **one** time \(on the first execution\) and kept in memory.
+The script expects a global class called **Script**. This class is instantiated once, only on the first execution, and kept in memory.
 
-The class can have a method called **prepare\_outgoing\_request**, this method will be called for every message in configured channel or can be filtered by the **Trigger Words**, will be called with an Object as parameter containing the **request** property.
+The class has a method called `prepare_outgoing_request`, this method is called for every message in the configured channel, or it can be filtered by **Trigger Words**. It is called with an Object as parameter a that contains the `request` property.
 
-The **prepare\_outgoing\_request** method should return an object with, at least, properties **url** and **method**, or you can change the request object and return it. You can return nothing to cancel the request or return a **message**.
+The `prepare_outgoing_request`method returns an object with, at least, `url`and `method` properties. You can also change the request object, and return it. It is possible even to return nothing and cancel the request, or return a message.
 
-The class can have a method called **process\_outgoing\_response**, this method will be called for every response of the request, will be called with an Object as parameter containing the **request** property \(the object you returned in the previous method\) and **response** property.
+This class has a method named `process_outgoing_response`. It is called for every response of the request, with an Object as a parameter that contains the `request` property, i.e. the object you returned in the previous method, and a  `response` property.
 
-The **process\_outgoing\_response** method can return nothing to proceed the default processing, can return **false** to stop or an object with the property **content** containing a valid Rocket.Chat message.
+The `process_outgoing_response` method can return nothing to proceed the default processing, return `false` to stop it, or an object with the `content` property that contains a valid Rocket.Chat message.
 
 ```javascript
 /* exported Script */
