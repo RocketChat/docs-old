@@ -1,4 +1,4 @@
-# Fetch E2E Keys
+# Fetch My Keys
 
 This method returns the user's private and public keys stored on the server.
 

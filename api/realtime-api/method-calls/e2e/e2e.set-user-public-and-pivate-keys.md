@@ -1,4 +1,4 @@
-# Set User E2E Public and Private Keys
+# Set User Public and Private Keys
 
 This method changes the user private and public keys on the server.
 

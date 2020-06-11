@@ -1,4 +1,4 @@
-# Set Room Key Id
+# Set Room Key ID
 
 This method marks an existing room as encrypted.
 

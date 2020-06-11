@@ -1,2 +1,2 @@
-# E2E Encryption
+# End-to-End Encryption
 
