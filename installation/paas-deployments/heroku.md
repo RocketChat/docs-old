@@ -1,4 +1,8 @@
-# Deploying Rocket.Chat on Heroku
+---
+description: Deploying Rocket.Chat on Heroku
+---
+
+# Heroku
 
 Heroku is a container-based cloud Platform as a Service, provides for free 1 dyno, an instance of the application, in this case Rocket.Chat server, running and responding to requests.
 

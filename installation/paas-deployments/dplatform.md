@@ -1,4 +1,8 @@
-# Deploying Rocket.Chat on DPlatform
+---
+description: Deploying Rocket.Chat on DPlatform
+---
+
+# DPlatform
 
 **Note: Has not yet been updated to work with 1.0**
 

@@ -1,4 +1,8 @@
-# Deploying Rocket.Chat on Scalingo
+---
+description: Deploying Rocket.Chat on Scalingo
+---
+
+# Scalingo
 
 Deploy your own Rocket.Chat server instantly on [Scalingo](https://scalingo.com)
 

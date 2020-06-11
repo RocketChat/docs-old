@@ -1,8 +1,20 @@
-# Deploying Rocket.Chat on Koozali SME
+---
+description: Deploying Rocket.Chat on Koozali SME
+---
 
-**Note: Has not yet been updated to work with 1.0**
+# Koozali SME
+
+![](../../.gitbook/assets/image%20%282%29.png)
+
+{% hint style="info" %}
+**Has not yet been updated to work with 1.0**
+{% endhint %}
 
 Add Rocket.Chat to this world famous time tested small enterprise server today:
 
-[![Koozali SME](https://raw.githubusercontent.com/Sing-Li/bbug/master/images/koozali.png)](https://wiki.contribs.org/Rocket_Chat)
+{% embed url="https://wiki.contribs.org/Rocket\_Chat" %}
+
+{% embed url="https://wiki.contribs.org/Rocket\_Chat:Contrib" %}
+
+
 

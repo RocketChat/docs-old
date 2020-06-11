@@ -1,4 +1,8 @@
-# Installing Rocket.Chat Chart on Kubernetes using Helm
+---
+description: Installing Rocket.Chat Chart on Kubernetes using Helm
+---
+
+# Kubernetes using Helm
 
 > **WARNING**: Upgrading to chart version 1.1.0 \(Rocket.Chat 1.0.3\) might require extra steps to retain the MongoDB data. See [Upgrading](helm-chart.md#upgrading) for more details.
 

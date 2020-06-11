@@ -1,4 +1,8 @@
-# Minimum Requirements for Server Deployment
+---
+description: Minimum Requirements for Server Deployment
+---
+
+# Server Minimum Requirements
 
 Actual requirement varies greatly with:
 
