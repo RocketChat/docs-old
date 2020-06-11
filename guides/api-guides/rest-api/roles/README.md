@@ -1,3 +1,7 @@
+---
+description: REST API Roles Methods
+---
+
 # Roles
 
 | Url | Short Description | Details Page |

@@ -1,4 +1,4 @@
-# Two Factor Authorization
+# Two Factor Authentication
 
 Rocket.Chat uses Two Factor to authorize important actions. There are a list of possible sources for the two factor code:
 
@@ -28,11 +28,11 @@ Now it's the two factor is required to create personal access tokens.
 
 > The bypass should be used carefully because it gives super powers to who gain access to the token
 
-## DDP Methods
+## Realtime API
 
-Visit [the Two Factor Authorization page at realtime section](../api-guides/realtime-api/2fa.md) for more information about.
+Visit the [Two Factor Authentication](../api-guides/realtime-api/2fa.md) page at Realtime API guides for more information.
 
 ## REST API
 
-Visit [the Two Factor Authorization page at rest section](../api-guides/rest-api/2fa.md) for more information about.
+Visit the [Two Factor Authentication](../api-guides/rest-api/2fa.md) page at REAT API guides for more information.
 

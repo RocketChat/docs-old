@@ -1,4 +1,4 @@
-# Rooms Favorite/Unfavorite
+# Rooms Favorite
 
 Favorite or unfavorite room.
 

@@ -1,4 +1,8 @@
-# Channel Methods
+---
+description: REST API Channels Methods
+---
+
+# Channels
 
 These methods apply to public channels only. Use `groups.*` methods for private channels.
 

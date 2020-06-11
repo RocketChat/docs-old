@@ -1,4 +1,4 @@
-# Rooms create discussion
+# Rooms Create Discussion
 
 Creates a new discussion for room. It requires at least one of the following permissions: `start-discussion` OR `start-discussion-other-user`, AND must be with the following setting enabled: `Discussion_enabled`.
 

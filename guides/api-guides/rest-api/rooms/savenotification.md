@@ -1,4 +1,4 @@
-# Rooms save notification POST
+# Rooms Save Notification
 
 Sets the notifications settings of specific channel.
 

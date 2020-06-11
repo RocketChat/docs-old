@@ -1,6 +1,6 @@
 # Two Factor Authentication
 
-Visit the [Two Factor Authorization](../../developer-guides/two-factor.md) page for general information.
+Visit the [Two Factor Authentication](../../developer-guides/two-factor.md) guide for general information.
 
 ## Errors
 

@@ -1,4 +1,8 @@
-# Emoji Custom Methods
+---
+description: REST API Custom Emoji Methods
+---
+
+# Custom Emoji
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |

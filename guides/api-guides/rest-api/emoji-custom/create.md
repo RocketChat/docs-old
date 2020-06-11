@@ -1,4 +1,4 @@
-# Emoji Custom create
+# Create
 
 Create new custom emoji.
 

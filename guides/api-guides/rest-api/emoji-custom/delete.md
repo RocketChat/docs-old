@@ -1,4 +1,4 @@
-# Emoji Custom delete
+# Delete
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |

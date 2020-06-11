@@ -1,4 +1,8 @@
-# Push Token Methods
+---
+description: REST API Push Token Methods
+---
+
+# Push Token
 
 | Url | Method | Short Description | Details Page |
 | :--- | :--- | :--- | :--- |

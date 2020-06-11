@@ -1,4 +1,8 @@
-# Group Methods
+---
+description: REST API Groups Methods
+---
+
+# Groups
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |

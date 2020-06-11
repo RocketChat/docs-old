@@ -1,3 +1,7 @@
+---
+description: REST API Rooms Methods
+---
+
 # Rooms
 
 | Url | Method | Short Description | Details Page |

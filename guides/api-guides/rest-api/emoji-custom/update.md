@@ -1,4 +1,4 @@
-# Emoji Custom update
+# Update
 
 Update an existent custom emoji.
 

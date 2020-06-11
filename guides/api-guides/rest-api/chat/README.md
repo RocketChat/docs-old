@@ -1,4 +1,8 @@
-# Chat Methods
+---
+description: REST API Chat Methods
+---
+
+# Chat
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |

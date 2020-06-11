@@ -1,4 +1,8 @@
-# Assets Methods
+---
+description: REST API Assets Methods
+---
+
+# Assets
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |

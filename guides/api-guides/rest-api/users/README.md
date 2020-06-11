@@ -1,4 +1,8 @@
-# User Methods
+---
+description: REST API Users Methods
+---
+
+# Users
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |

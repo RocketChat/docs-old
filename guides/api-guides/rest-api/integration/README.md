@@ -1,3 +1,7 @@
+---
+description: REST API Integration Methods
+---
+
 # Integration
 
 | Url | Short Description | Details Page |

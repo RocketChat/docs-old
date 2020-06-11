@@ -4,7 +4,7 @@ redirect_from:
   - /developer-guides/rest-api/emoji-custom/get/
 ---
 
-# Emoji custom list
+# List
 
 List all custom emojis available. It supports the [Query Parameters only](../query-and-fields-info.md#query-example).
 
