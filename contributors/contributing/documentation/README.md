@@ -1,12 +1,14 @@
 ---
-description: Documentation Contribution Guidelines
+description: >-
+  Here you will find all that you need to know to start contributing to
+  Rocket.Chat documentation.
 ---
 
 # Documenting
 
-Here you will find all that you need to know to start contributing to Rocket.Chat documentation.
+First of all, thank you for your interest in contributing to Rocket.Chat Docs. If this is the first Open Source project you will contribute to, we strongly suggest reading GitHub's excellent guide:
 
-First of all, thank you for your interest in contributing to Rocket.Chat Docs. If this is the first Open Source project you will contribute to, we strongly suggest reading GitHub's excellent guide ["Contributing to Open Source"](https://guides.github.com/activities/contributing-to-open-source/).
+{% embed url="https://opensource.guide/how-to-contribute/" %}
 
 ## Finding something to work on
 
