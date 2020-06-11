@@ -20,9 +20,10 @@ Once your workplace is registered, you can install the apps from the marketpace 
 
 ## Enterprise Bundle
 
-* [Atlassian Bamboo Integration](bamboo-integration.md)
-* [Atlassian Bitbucket Server Integration](bitbucket-server-integration.md)
-* [Atlassian Confluence Server Integration](confluence-server-integration.md)
-* [Atlassian Jira Server Integration](jira-server-integration.md)
-* [Zoom Integration](zoom.md)
+* Atlassian
+  * [Bamboo](atlassian/bamboo-integration.md)
+  * [Bitbucket Server](atlassian/bitbucket-server-integration.md)
+  * [Confluence Server](atlassian/confluence-server-integration.md)
+  * [Jira Server](atlassian/jira-server-integration.md)
+* [Zoom](zoom.md)
 

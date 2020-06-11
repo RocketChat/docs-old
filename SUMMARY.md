@@ -531,11 +531,12 @@
   * [Running a Rasa Bot](guides/bots/running-a-rasa-bot.md)
   * [Running a Hubot bot](guides/bots/running-a-hubot-bot.md)
 * [Apps Guides](guides/rocket-chat-apps/README.md)
-  * [Atlassian Bamboo Integration](guides/rocket-chat-apps/bamboo-integration.md)
-  * [Atlassian Bitbucket Server Integration](guides/rocket-chat-apps/bitbucket-server-integration.md)
-  * [Atlassian Confluence Server Integration](guides/rocket-chat-apps/confluence-server-integration.md)
-  * [Atlassian Jira Server Integration](guides/rocket-chat-apps/jira-server-integration.md)
-  * [Zoom Integration](guides/rocket-chat-apps/zoom.md)
+  * [Atlassian](guides/rocket-chat-apps/atlassian/README.md)
+    * [Bamboo Integration](guides/rocket-chat-apps/atlassian/bamboo-integration.md)
+    * [Bitbucket Server](guides/rocket-chat-apps/atlassian/bitbucket-server-integration.md)
+    * [Confluence Server](guides/rocket-chat-apps/atlassian/confluence-server-integration.md)
+    * [Jira Server](guides/rocket-chat-apps/atlassian/jira-server-integration.md)
+  * [Zoom](guides/rocket-chat-apps/zoom.md)
 
 ## Contributors
 
