@@ -9,7 +9,7 @@ Available integrations:
 * Incoming WebHook → Let an external service send a request to Rocket.Chat to be processed.
 * Outgoing WebHook → Let Rocket.Chat trigger and optionally send a request to an external service and process the response.
 
-By default the WebHooks is designed to post a message only. The _message_ is part of a JSON structure, which has the same format as described in the API documentation on how to [“Post a chat message”](https://github.com/RocketChat/docs/tree/c10e358cc8b71eda177f74a929801d70e21b1b91/6.%20Developer%20Guides/REST%20API/Chat/postMessage.md).
+By default the WebHooks is designed to post a message only. The _message_ is part of a JSON structure, which has the same format as described in the API documentation on how to [“Post a chat message”](/postMessage.md).
 
 If you would like more power and control over various features of Rocket.Chat, aside from sending and receiving messages, take a look at [Rocket.Chat Apps](../../../apps-development/getting-started.md).
 
@@ -19,11 +19,11 @@ WebHooks can be handled by _ES2015 / ECMAScript 6_ scripts to process the reques
 
 ### How to create a new Incoming WebHook
 
-* Go to your admin page
-* Go to Integrations
+* Go to your **Admin Panel**
+* Go to **Integrations**
 * Create a **New Integration** and select **Incoming WebHook**
-* Select the channel where you will receive the alerts \(you can override in messages\)
-* Set **Script Enabled** to **True**
+* Select the channel where you prefer to receive the alerts; it is possible to override in messages.
+* Set **Script Enabled** to `true`
 * Paste your script inside the **Script** field
 * Save the integration
 * Use the generated **WebHook URL** to POST messages to Rocket.Chat
@@ -32,7 +32,7 @@ WebHooks can be handled by _ES2015 / ECMAScript 6_ scripts to process the reques
 
 The script should be in **ES2015 / ECMAScript 6**.
 
-The script expects a global class called **Script**, this class will be instantiated just **one** time \(on the first execution\) and kept in memory.
+The script expects a global class called `Script`. This class is instantiated once, only on the first execution, and kept in memory.
 
 The **process\_incoming\_request** method should return an object with a property **content** containing a valid Rocket.Chat message or an object with a property **error** that will be returned as the response of the request in JSON format and status code **400**.
 
