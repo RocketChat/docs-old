@@ -31,11 +31,11 @@ When you create a new pull request, we expect some requirements to be met.
 
 To test your changes you have 2 options:
 
-#### Fork and use GitBook Github integration
+#### OPTION 1: Fork and use GitBook
 
-Simply fork our docs repository, [create a space](https://docs.gitbook.com/getting-started/quick-start) and activate the [GitHub integration](https://docs.gitbook.com/integrations/github) on your fork
+Simply fork our docs repository, [create a space](https://docs.gitbook.com/getting-started/quick-start) and activate the [GitHub Integration](https://docs.gitbook.com/integrations/github) on your fork.
 
-#### Run it locally
+#### OPTION 2: Run it locally
 
 {% hint style="info" %}
 We do not recommend this method since GitBook Cli is deprecated and it takes a long time to build.
@@ -43,19 +43,25 @@ We do not recommend this method since GitBook Cli is deprecated and it takes a l
 
 When making small changes like typos and such, there is no problem to edit the file directly on GitHub, but if you are making bigger changes or adding new files to the docs, we recommend following this workflow
 
-Install GitBook's client package using npm
+Install GitBook's client package using NPM.
 
-`npm install -g gitbook-cli`
+```
+npm install -g gitbook-cli
+```
 
 After that you need to build the documentation, from the root of the docs folder do:
 
-`gitbook build .`
+```
+gitbook build .
+```
 
 This will generate a folder called "\_book" with the builded docs.
 
 Then serve the builded book using:
 
-`gitbook serve .`
+```text
+gitbook serve .
+```
 
 This will serve the book to the url `http://localhost:4000/`
 
