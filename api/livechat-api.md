@@ -314,11 +314,25 @@ RocketChat(function() {
 });
 ```
 
+#### _onServiceOffline_
+
+Fired when a visitor tries to start a new conversation and the Livechat service is offline.
+
+```javascript
+RocketChat(function() {
+    this.onServiceOffline(function(data) {
+        // do whatever you want
+        console.log('The Livechat service is offline');
+    });
+});
+```
+
 ## Change Log
 
 | Version | Description |
 | :--- | :--- |
 | 3.1.0 | Added `setAgent` and `initialize` methods. Also, improved the `setTheme` method adding more options to customize the widget |
+| 3.0.0 | Added `onServiceOffline` callback |
 | 2.2.0 | Added `maximizeWidget` and `minimizeWidget` methods. |
 | 1.3.0 | Added `onAssignAgent` and `onAgentStatusChange` methods. |
 | 1.1.0 | Added `showWidget` and `hideWidget` methods along with `onWidgetHidden` and `onWidgetShown` events |
