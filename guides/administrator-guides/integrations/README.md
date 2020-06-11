@@ -34,11 +34,13 @@ The script should be in **ES2015 / ECMAScript 6**.
 
 The script expects a global class called `Script`. This class is instantiated once, only on the first execution, and kept in memory.
 
-The **process\_incoming\_request** method should return an object with a property **content** containing a valid Rocket.Chat message or an object with a property **error** that will be returned as the response of the request in JSON format and status code **400**.
+The class has a method called `process_incoming_request`, your server calls this method every time is receives a new request. It is called with an Object as a parameter with the `request`property.
 
-A valid Rocket.Chat message can contain a **text** field which will be the body of the message. If you want to redirect the message to a different channel to the one indicated by the webhook token, you can specify a **channel** field which accepts a room id or, if prefixed with a "\#" or "@", a channel name or a user.
+The `process_incoming_request`method returns an object with a `content`property that contains valid Rocket.Chat message, or an object with an `error` property that returns as the response to the request in JSON format and Code 400 status.
 
-To help debug your script, you can use the **console** methods to log information. More information about console can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/Console/log). To view the logs go to Administration -&gt; View Logs.
+A valid Rocket.Chat message can contain a `text` field that is the body of the message. When you redirect the message to a channel other than the one indicated by the Webhook token, you can specify a `channel` field, which accepts room id or, if prefixed with "#" or "@", channel name or user.
+
+You can use the `console` methods to log information to help debug your script. Find more information about the console [here](https://developer.mozilla.org/en-US/docs/Web/API/Console/log). To view the logs, go to `Administration > View Logs`.
 
 ```javascript
 /* exported Script */
