@@ -555,8 +555,6 @@
     * [Creating Drafts](contributors/contributing/documentation/drafts/README.md)
       * [New Feature Template](contributors/contributing/documentation/drafts/new-feature-draft.md)
       * [Feature Change Template](contributors/contributing/documentation/drafts/feature-change-draft.md)
-    * [Community maintainers](contributors/contributing/documentation/community-maintainers.md)
-    * [Contribution Guidelines](contributors/contributing/documentation/contribution-guidelines.md)
     * [Status Map](contributors/contributing/documentation/documentation-map/README.md)
       * [Missing Articles](contributors/contributing/documentation/documentation-map/missing-and-outdated-list.md)
     * [Markdown Style Guide](contributors/contributing/documentation/markdown-styleguide.md)
