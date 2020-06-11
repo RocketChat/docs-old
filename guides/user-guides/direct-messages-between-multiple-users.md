@@ -1,4 +1,8 @@
-# Direct messages between multiple users
+---
+description: Direct messages between multiple users
+---
+
+# Multi-users Direct Message
 
 The feature allows the creation of direct message rooms between several users to exchange messages and files.
 
