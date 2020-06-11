@@ -1,3 +1,7 @@
+---
+description: Atlassian Jira Server Integration
+---
+
 # Jira Server
 
 Here you will find how to install and use the Jira Server Integration.

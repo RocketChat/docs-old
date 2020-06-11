@@ -1,3 +1,7 @@
+---
+description: Atlassian Confluence Server Integration
+---
+
 # Confluence Server
 
 ## Installation

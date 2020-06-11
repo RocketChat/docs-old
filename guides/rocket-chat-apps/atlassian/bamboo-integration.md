@@ -1,4 +1,8 @@
-# Bamboo Integration
+---
+description: Atlassian Bamboo Integration
+---
+
+# Bamboo
 
 ## Installation
 

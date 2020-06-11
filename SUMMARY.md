@@ -532,7 +532,7 @@
   * [Running a Hubot bot](guides/bots/running-a-hubot-bot.md)
 * [Apps Guides](guides/rocket-chat-apps/README.md)
   * [Atlassian](guides/rocket-chat-apps/atlassian/README.md)
-    * [Bamboo Integration](guides/rocket-chat-apps/atlassian/bamboo-integration.md)
+    * [Bamboo](guides/rocket-chat-apps/atlassian/bamboo-integration.md)
     * [Bitbucket Server](guides/rocket-chat-apps/atlassian/bitbucket-server-integration.md)
     * [Confluence Server](guides/rocket-chat-apps/atlassian/confluence-server-integration.md)
     * [Jira Server](guides/rocket-chat-apps/atlassian/jira-server-integration.md)

@@ -1,3 +1,7 @@
+---
+description: Atlassian Bitbucket Server Integration
+---
+
 # Bitbucket Server
 
 Here you will find how to install and use the Bitbucket Server Integration.
