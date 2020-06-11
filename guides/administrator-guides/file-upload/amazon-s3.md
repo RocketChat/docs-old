@@ -17,7 +17,7 @@ Set set the following _CORS Configuration_ to your bucket:
 </CORSConfiguration>
 ```
 
-**Note**: Replace `*ROCKET_CHAT_DOMAIN*` with the domain of your Rocket Chat installation, e.g. `https://chat.example.com`. If for some reason you want to make your CORS configuration ridiculously insecure, you can set it to `*` to allow CORS requests from any host on the Internet, but do so at your own risk.
+**Note**: Replace `*ROCKET_CHAT_DOMAIN*` with the domain of your Rocket.Chat installation, e.g. `https://chat.example.com`. If for some reason you want to make your CORS configuration ridiculously insecure, you can set it to `*` to allow CORS requests from any host on the Internet, but do so at your own risk.
 
 ## Basic Configuration
 

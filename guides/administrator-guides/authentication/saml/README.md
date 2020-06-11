@@ -58,7 +58,7 @@ As a popular open source IdP, SimpleSAMLphp can be used to provide an authentica
 
 ## IdP Attribute Mapping
 
-Use the following attributes required to return user information to Rocket Chat:
+Use the following attributes required to return user information to Rocket.Chat:
 
 | Idp Returned Attribute Name | Usage |
 | :--- | :--- |

@@ -14,7 +14,7 @@ You can browse these apps either on our [marketplace](https://rocket.chat/market
 
 In order to install Rocket.Chat apps from the marketplace, first you need to register your workplace \(even if it is community addition\) on [Rocket.Chat Cloud](https://cloud.rocket.chat/).
 
-Once your workplace is registered, you can install the apps from the marketpace from the Admin panel of your Rocket Chat instance.
+Once your workplace is registered, you can install the apps from the marketpace from the Admin panel of your Rocket.Chat instance.
 
 > **Note**: Different Rocket.Chat Apps might have different installation steps.
 

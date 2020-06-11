@@ -11,7 +11,7 @@ export KEY=$(cat /pems/mongo.key | awk '{printf "%s\\n",$0} END {print ""}')
 export MONGO_OPTIONS='{"sslCA":["'${TLS_CRT}'"],"sslCert":"'${PEM}'","sslKey":"'${KEY}'"}'
 ```
 
-You might want to do this, for example, if you're backing Rocket Chat with a TLS-secured Mongo [replica set](https://docs.mongodb.com/manual/replication/) and need to pass certificates/PEM files, etc. to connect to it.
+You might want to do this, for example, if you're backing Rocket.Chat with a TLS-secured Mongo [replica set](https://docs.mongodb.com/manual/replication/) and need to pass certificates/PEM files, etc. to connect to it.
 
 If you see the following error during startup:
 

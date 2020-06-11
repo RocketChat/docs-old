@@ -1,6 +1,6 @@
 # OpenShift
 
-This repository hosts some templates for provision Rocket Chat in OpenShift.
+This repository hosts some templates for provision Rocket.Chat in OpenShift.
 
 [http://developers.redhat.com/](http://developers.redhat.com/)
 

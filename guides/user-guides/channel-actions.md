@@ -33,9 +33,9 @@ If a [retention policy](../administrator-guides/retention-policies.md) is active
 
 ## Search Messages
 
-Rocket Chat search supports basic search commands which work like Gmail search.
+Rocket.Chat search supports basic search commands which work like Gmail search.
 
-Rocket Chat also supports the use of "[regular expressions](https://en.wikipedia.org/wiki/Regular_expression)." Regular expressions provide flexibility and the ability to search chat entries in any language, even ones which are traditionally a challenge like "CJK" languages \(Chinese, Japanese, Korean\).
+Rocket.Chat also supports the use of "[regular expressions](https://en.wikipedia.org/wiki/Regular_expression)." Regular expressions provide flexibility and the ability to search chat entries in any language, even ones which are traditionally a challenge like "CJK" languages \(Chinese, Japanese, Korean\).
 
 ### Basic Search Commands
 
