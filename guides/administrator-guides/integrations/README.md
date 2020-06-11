@@ -17,7 +17,7 @@ If you would like more power and control over various features of Rocket.Chat, a
 
 WebHooks can be handled by _ES2015 / ECMAScript 6_ scripts to process the request, to print a customized messages or cancel the request to prevent undesired messages.
 
-### How to create a new Incoming WebHook
+### Create a new Incoming WebHook
 
 * Go to your **Admin Panel**
 * Go to **Integrations**
@@ -105,20 +105,20 @@ class Script {
 }
 ```
 
-## Outgoing WebHook Scripting
+## Outgoing WebHook Script
 
 Several different events may trigger an outgoing WebHook. You can preprocess the hook with a _Script_. This script may decide if it does nothing, returns a message immediately or sends a request to an external service.
 
 The response of the request will execute the script too, calling another method so you can process the response just as in **Incoming WebHooks**.
 
-### How to create a new Outgoing WebHook
+### Create a new Outgoing WebHook
 
-* Go to your admin page
-* Go to Integrations
+* Go to your **Admin Panel**
+* Go to **Integrations**
 * Create a **New Integration** and select **Outgoing WebHook**
 * Select the channel where you will use the commands and receive the responses
 * Put the URL you want to call in **URLs**, you can modify this URL inside the script
-* Set **Script Enabled** to **True**
+* Set **Script Enabled** to `true`
 * Paste your script inside the **Script** field
 * Save your integration
 
@@ -260,4 +260,3 @@ class Script {
   }
 }
 ```
-
