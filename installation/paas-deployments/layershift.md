@@ -1,4 +1,8 @@
-# Deploying Rocket.Chat on Layershift
+---
+description: Deploying Rocket.Chat on Layershift
+---
+
+# Layershift
 
 Layershift offers scalable cloud containers on SSD servers, backed up by industry leading SLA including regular backups and 99.99% uptime guarantee.
 

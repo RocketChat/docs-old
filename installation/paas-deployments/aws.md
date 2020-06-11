@@ -1,4 +1,8 @@
-# Deploying Rocket.Chat on Amazon Web Services
+---
+description: Deploying Rocket.Chat on Amazon Web Services
+---
+
+# AWS
 
 This guide covers the following:
 

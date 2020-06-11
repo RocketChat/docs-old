@@ -1,4 +1,8 @@
-# Deploying Rocket.Chat on Digital Ocean
+---
+description: Deploying Rocket.Chat on Digital Ocean
+---
+
+# Digital Ocean
 
 You can now install Rocket.Chat on DigitalOcean using a 1-Click install from the DigitalOcean Marketplace.
 

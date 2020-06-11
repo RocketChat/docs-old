@@ -1,4 +1,8 @@
-# Deploying Rocket.Chat on IBM Bluemix
+---
+description: Deploying Rocket.Chat on IBM Bluemix
+---
+
+# IBM Bluemix
 
 **Note: Has not yet been updated to work with 1.0**
 

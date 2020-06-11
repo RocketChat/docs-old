@@ -1,4 +1,8 @@
-# Installing Rocket.Chat on AWS from AWS Marketplace
+---
+description: Installing Rocket.Chat from AWS Marketplace
+---
+
+# AWS Marketplace
 
 Here we will guide you through installing in AWS in an EKS cluster using our AWS Marketplace container.
 
