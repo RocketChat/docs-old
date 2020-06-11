@@ -76,8 +76,6 @@ Setext style H2
 ---------------
 ```
 
-### ATX style H3
-
 **Correct**:
 
 ```text
