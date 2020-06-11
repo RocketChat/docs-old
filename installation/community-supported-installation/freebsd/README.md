@@ -67,7 +67,7 @@ Use a random password? (yes/no) [no]: yes
 Lock out the account after creation? [no]: *press enter*
 Username   : rocketchat
 Password   : <random>
-Full Name  : User used for running Rocket chat
+Full Name  : User used for running Rocket.Chat
 Uid        : 1001
 Class      :
 Groups     : rocketchat
