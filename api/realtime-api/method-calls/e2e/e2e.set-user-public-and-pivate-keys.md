@@ -35,13 +35,6 @@ This method changes the user private and public keys on the server.
 }
 ```
 
-## See Also
-
-* [Get Users of Room Without Key](https://github.com/RocketChat/docs/tree/0f8db37bf9b56438fec3e87a94f192f3585e92e8/developer-guides/realtime-api/method-calls/e2e.get-users-of-room-without-key)
-* [Set Room Key ID](https://github.com/RocketChat/docs/tree/0f8db37bf9b56438fec3e87a94f192f3585e92e8/developer-guides/realtime-api/method-calls/e2e.set-room-key-id)
-* [Fetch My Keys](https://github.com/RocketChat/docs/tree/0f8db37bf9b56438fec3e87a94f192f3585e92e8/developer-guides/realtime-api/method-calls/e2e.fetch-my-keys)
-* [Update Group Key](https://github.com/RocketChat/docs/tree/0f8db37bf9b56438fec3e87a94f192f3585e92e8/developer-guides/realtime-api/method-calls/e2e.update-group-key)
-
 ## Change Log
 
 | Version | Description |

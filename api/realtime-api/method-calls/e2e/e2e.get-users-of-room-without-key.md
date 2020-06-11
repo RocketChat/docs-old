@@ -47,13 +47,6 @@ This method returns all users of an encrypted room that don't yet have the E2E k
 }
 ```
 
-## See Also
-
-* \[Fetch My Keys\]\[1\]
-* [Set Room Key ID](https://github.com/RocketChat/docs/tree/0f8db37bf9b56438fec3e87a94f192f3585e92e8/developer-guides/realtime-api/method-calls/e2e.set-room-key-id)
-* [Set User Public And Private Keys](https://github.com/RocketChat/docs/tree/0f8db37bf9b56438fec3e87a94f192f3585e92e8/developer-guides/realtime-api/method-calls/e2e.set-user-public-and-private-keys)
-* [Update Group Key](https://github.com/RocketChat/docs/tree/0f8db37bf9b56438fec3e87a94f192f3585e92e8/developer-guides/realtime-api/method-calls/e2e.update-group-key)
-
 ## Change Log
 
 | Version | Description |
