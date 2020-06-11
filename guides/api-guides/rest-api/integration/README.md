@@ -1,4 +1,4 @@
-# Integration Methods
+# Integration
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |

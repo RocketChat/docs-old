@@ -1,4 +1,4 @@
-# The Message object
+# The Message Object
 
 The message object is the very soul of a conversation. It encapsulates all the information need in order to represent a single entry on a message list.
 

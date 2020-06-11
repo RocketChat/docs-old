@@ -1,4 +1,8 @@
-# REST API Authentication
+---
+description: REST API Authentication
+---
+
+# Authentication
 
 The authentication with the REST API is a two step process.
 

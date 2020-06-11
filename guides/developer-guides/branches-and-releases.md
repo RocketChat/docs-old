@@ -1,4 +1,4 @@
-# Rocket.Chat Workflow
+# Development Workflow
 
 1. Start working on an issue you’re assigned to. If you’re not assigned to any issue, find the issue with the highest priority you can work on, by relevant label and assign it to yourself. Priority is given by milestones. You should always check issues in the current milestone, then short-term, middle-term and long-term in that order.
 2. You are responsible for the issue that you're assigned to. If you are not able to do it or you believe you won't make it to the selected milestone, talk to your team, lead or manager to have it reassigned or postponed.

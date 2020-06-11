@@ -1,4 +1,4 @@
-# Quick start for code developers
+# Quick Start
 
 ## On Linux/Mac
 

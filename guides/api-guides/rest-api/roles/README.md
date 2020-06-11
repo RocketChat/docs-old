@@ -1,4 +1,4 @@
-# Roles Methods
+# Roles
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |

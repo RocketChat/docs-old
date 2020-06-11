@@ -1,4 +1,4 @@
-# Rooms Methods
+# Rooms
 
 | Url | Method | Short Description | Details Page |
 | :--- | :--- | :--- | :--- |
