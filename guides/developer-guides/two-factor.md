@@ -30,9 +30,9 @@ Now it's the two factor is required to create personal access tokens.
 
 ## Realtime API
 
-Visit the [Two Factor Authentication](../api-guides/realtime-api/2fa.md) page at Realtime API guides for more information.
+Visit the [Two Factor Authentication](../../api/realtime-api/2fa.md) page at Realtime API guides for more information.
 
 ## REST API
 
-Visit the [Two Factor Authentication](../api-guides/rest-api/2fa.md) page at REAT API guides for more information.
+Visit the [Two Factor Authentication](../../api/rest-api/2fa.md) page at REAT API guides for more information.
 
