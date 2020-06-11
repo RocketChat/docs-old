@@ -6,7 +6,7 @@
 * [Branches and Releases](branches-and-releases.md)
 * [Livechat API](livechat-api.md)
 * [REST API](rest-api/)
-* [Developing Apps](developing-apps/)
+* [Developing Apps]()
 * [Iframe Integration](iframe-integration/)
 * [Realtime API](realtime-api/)
 * [Testing](testing.md)

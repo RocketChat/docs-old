@@ -506,8 +506,6 @@
     * [Two Factor Authorization](guides/developer-guides/two-factor/realtime-api.md)
     * [Two Factor Authorization](guides/developer-guides/two-factor/rest-api.md)
   * [Troubleshooting](guides/developer-guides/troubleshooting.md)
-  * [Developing Rocket.Chat Apps](guides/developer-guides/developing-apps/README.md)
-    * [Getting Started](guides/developer-guides/developing-apps/getting-started.md)
   * [Livechat API](guides/developer-guides/livechat-api.md)
   * [Schema Definition](guides/developer-guides/schema-definition.md)
   * [Rocket.Chat Workflow](guides/developer-guides/branches-and-releases.md)
