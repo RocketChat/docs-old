@@ -1,4 +1,4 @@
-# Rocket.Chat REST API
+# REST API
 
 The REST API allows you to control and extend Rocket.Chat with ease.
 

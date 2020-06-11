@@ -227,7 +227,7 @@
       * [stream-room-messages](guides/developer-guides/realtime-api/subscriptions/stream-room-messages.md)
     * [The Message object](guides/developer-guides/realtime-api/the-message-object.md)
     * [The Room Object](guides/developer-guides/realtime-api/the-room-object.md)
-  * [Rocket.Chat REST API](guides/developer-guides/rest-api/README.md)
+  * [REST API](guides/developer-guides/rest-api/README.md)
     * [Rooms Methods](guides/developer-guides/rest-api/rooms/README.md)
       * [Rooms save notification POST](guides/developer-guides/rest-api/rooms/savenotification.md)
       * [Rooms Admin Rooms](guides/developer-guides/rest-api/rooms/adminrooms.md)

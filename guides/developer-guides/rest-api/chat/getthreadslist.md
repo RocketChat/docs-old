@@ -1,4 +1,4 @@
-# Get channel threads
+# Get Channel Threads
 
 Get channel threads. It supports the [Offset, Count, and Sort Query Parameters](../offset-and-count-and-sort-info.md) along with [Query and Fields Query Parameters](../query-and-fields-info.md).
 
