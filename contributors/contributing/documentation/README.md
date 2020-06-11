@@ -6,8 +6,6 @@ description: Documentation Contribution Guidelines
 
 Here you will find all that you need to know to start contributing to Rocket.Chat documentation.
 
-## Contribution Guidelines
-
 First of all, thank you for your interest in contributing to Rocket.Chat Docs. If this is the first Open Source project you will contribute to, we strongly suggest reading GitHub's excellent guide ["Contributing to Open Source"](https://guides.github.com/activities/contributing-to-open-source/).
 
 ## Finding something to work on
@@ -61,7 +59,7 @@ This will serve the book to the url `http://localhost:4000/`
 
 Find out more on [GitBook Cli's repository](https://github.com/GitbookIO/gitbook-cli)
 
-## Community maintainers
+## Community Maintainers
 
 We are looking for community maintainers for the Rocket.Chat documentation. Maintainers will be added to a special team with write permissions. These permissions consist of opening, closing, tagging and editing issues and pull requests, create and delete non protected branches on the docs repository.
 
