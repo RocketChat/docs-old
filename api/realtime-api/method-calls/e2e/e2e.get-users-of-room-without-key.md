@@ -2,21 +2,19 @@
 
 This method returns all users of an encrypted room that don't yet have the E2E key on their subscription.
 
-
 ## Requirements
 
-| Logged In | Permission                 | Setting |
-| --------- | -------------------------- | ------- |
-| Yes       | _none_                     | _none_  |
+| Logged In | Permission | Setting |
+| :--- | :--- | :--- |
+| Yes | _none_ | _none_ |
 
 ## Payload
 
 1. String - the id of the room to get the users from.
 
-
 ## Example Call
 
-```json
+```javascript
 {
     "msg": "method",
     "method": "e2e.getUsersOfRoomWithoutKey",
@@ -29,7 +27,7 @@ This method returns all users of an encrypted room that don't yet have the E2E k
 
 ## Example Response
 
-```json
+```javascript
 {
     "msg": "result",
     "id": "8",
@@ -51,22 +49,14 @@ This method returns all users of an encrypted room that don't yet have the E2E k
 
 ## See Also
 
-- [Fetch My Keys][1]
-- [Set Room Key ID][2]
-- [Set User Public And Private Keys][3]
-- [Update Group Key][4]
-
-[2]: ../e2e.fetch-my-keys
-
-[2]: ../e2e.set-room-key-id/
-
-[3]: ../e2e.set-user-public-and-private-keys/
-
-[4]: ../e2e.update-group-key/
-
+* \[Fetch My Keys\]\[1\]
+* [Set Room Key ID](https://github.com/RocketChat/docs/tree/0f8db37bf9b56438fec3e87a94f192f3585e92e8/developer-guides/realtime-api/method-calls/e2e.set-room-key-id)
+* [Set User Public And Private Keys](https://github.com/RocketChat/docs/tree/0f8db37bf9b56438fec3e87a94f192f3585e92e8/developer-guides/realtime-api/method-calls/e2e.set-user-public-and-private-keys)
+* [Update Group Key](https://github.com/RocketChat/docs/tree/0f8db37bf9b56438fec3e87a94f192f3585e92e8/developer-guides/realtime-api/method-calls/e2e.update-group-key)
 
 ## Change Log
 
 | Version | Description |
 | :--- | :--- |
 | 0.70.0 | Added |
+
