@@ -151,12 +151,6 @@
     * [CSV Import](guides/administrator-guides/import/csv.md)
   * [Federation](guides/administrator-guides/federation.md)
   * [Account Settings](guides/administrator-guides/account-settings.md)
-  * [Rocket.Chat Apps](guides/administrator-guides/rocket-chat-apps/README.md)
-    * [Zoom Integration](guides/administrator-guides/rocket-chat-apps/zoom.md)
-    * [Atlassian Jira Server Integration](guides/administrator-guides/rocket-chat-apps/jira-server-integration.md)
-    * [Atlassian Bamboo Integration](guides/administrator-guides/rocket-chat-apps/bamboo-integration.md)
-    * [Atlassian Bitbucket Server](guides/administrator-guides/rocket-chat-apps/bitbucket-server-integration.md)
-    * [Atlassian Confluence Server Integration](guides/administrator-guides/rocket-chat-apps/confluence-server-integration.md)
   * [Plug-ins](guides/administrator-guides/plug-ins/README.md)
     * [Drupal Plug-in](guides/administrator-guides/plug-ins/drupal.md)
     * [Pidgin Plug-in](guides/administrator-guides/plug-ins/pidgin.md)
@@ -536,6 +530,12 @@
   * [Create a Bot User](guides/bots/create-bot-users.md)
   * [Running a Rasa Bot](guides/bots/running-a-rasa-bot.md)
   * [Running a Hubot bot](guides/bots/running-a-hubot-bot.md)
+* [Apps Guides](guides/rocket-chat-apps/README.md)
+  * [Atlassian Bamboo Integration](guides/rocket-chat-apps/bamboo-integration.md)
+  * [Atlassian Bitbucket Server Integration](guides/rocket-chat-apps/bitbucket-server-integration.md)
+  * [Atlassian Confluence Server Integration](guides/rocket-chat-apps/confluence-server-integration.md)
+  * [Atlassian Jira Server Integration](guides/rocket-chat-apps/jira-server-integration.md)
+  * [Zoom Integration](guides/rocket-chat-apps/zoom.md)
 
 ## Contributors
 

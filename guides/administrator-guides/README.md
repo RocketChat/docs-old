@@ -14,7 +14,7 @@ If you are a server administrator, here are a few guides on how to setup your in
 * [Message Auditing](message-auditing.md)
 * [Import](import/)
 * [Integrations](integrations/)
-* [Rocket.Chat Apps](rocket-chat-apps/)
+* [Rocket.Chat Apps](../rocket-chat-apps/)
 * [Setting up Video Conferencing](setting-up-video-conferencing.md)
 * [Livechat](livechat/)
 * [Notifications](notifications/)
