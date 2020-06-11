@@ -1,4 +1,4 @@
-# Slack Import
+# Slack
 
 To import your current Slack data into Rocket.Chat:
 
