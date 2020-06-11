@@ -46,9 +46,9 @@ $ sudo npm install pm2 -g
 $ sudo pm2 startup freebsd
 ```
 
-## Add user for Rocket.chat
+## Add user for Rocket.Chat
 
-This user will be the one used for running Rocket.chat server.
+This user will be the one used for running Rocket.Chat server.
 
 ```text
 $ adduser
@@ -59,7 +59,7 @@ Login group [rocketchat]: *press enter*
 Login group is rocketchat. Invite rocketchat into other groups? []: *press enter*
 Login class [default]: *press enter*
 Shell (sh csh tcsh git-shell bash rbash nologin) [sh]: bash
-Home directory [/home/rocketchat]: *press enter, or pick where you want your Rocket.chat installation to be*
+Home directory [/home/rocketchat]: *press enter, or pick where you want your Rocket.Chat installation to be*
 Home directory permissions (Leave empty for default): *press enter*
 Use password-based authentication? [yes]: *press enter*
 Use an empty password? (yes/no) [no]: *press enter*
@@ -81,7 +81,7 @@ adduser: INFO: Password for (rocketchat) is: qGn&j9nXBx&j*C#u
 Add another user? (yes/no): no
 ```
 
-Be sure to save the password somewhere safe if you will need to login as the Rocket.chat user in the future.
+Be sure to save the password somewhere safe if you will need to login as the Rocket.Chat user in the future.
 
 ### Switch to the newly created user
 
@@ -159,7 +159,7 @@ First, we need the `meteor` binary in our `$PATH`
 $ export PATH=$PATH:$HOME/meteor
 ```
 
-Next, we need to download Rocket.chat:
+Next, we need to download Rocket.Chat:
 
 ```text
 $ cd $HOME
@@ -195,7 +195,7 @@ I20160422-21:52:50.739(2)? ➔ |                                        |
 I20160422-21:52:50.739(2)? ➔ +----------------------------------------+
 ```
 
-If you would like to have the Rocket.chat daemon running while signed out. You could use tmux to keep it running.
+If you would like to have the Rocket.Chat daemon running while signed out. You could use tmux to keep it running.
 
 ### Install tmux \(optional\)
 
@@ -210,7 +210,7 @@ $ tmux (when tmux is running)
 $ meteor
 ```
 
-This will run Rocket.chat inside a tmux session allowing you to disconnect from the terminal and let the daemon running.
+This will run Rocket.Chat inside a tmux session allowing you to disconnect from the terminal and let the daemon running.
 
 * Press `ctrl+b d` to exit the tmux session.
 * And use `tmux a` to access the session again.
