@@ -9,7 +9,7 @@
     * [AWS](installation/paas-deployments/aws.md)
     * [Cloudron.io](installation/paas-deployments/cloudron-io.md)
     * [D2C.io](installation/paas-deployments/d2c-io.md)
-    * [DigitalOcean](installation/paas-deployments/digital-ocean.md)
+    * [DigitalOcean](installation/paas-deployments/digitalocean.md)
     * [DPlatform](installation/paas-deployments/dplatform.md)
     * [Galaxy](installation/paas-deployments/galaxy.md)
     * [Google Cloud Platform](installation/paas-deployments/google-computer-engine.md)
