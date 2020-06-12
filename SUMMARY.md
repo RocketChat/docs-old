@@ -67,6 +67,7 @@
     * [Windows Server](installation/community-supported-installation/windows-server.md)
   * [Minimum Requirements](installation/minimum-requirements.md)
   * [Mobile and Desktop Apps](installation/mobile-and-desktop-apps.md)
+  * [Micro services setup \[beta\]](installation/micro-services-setup-beta.md)
 * [Getting Support](getting-support.md)
 
 ## Guides

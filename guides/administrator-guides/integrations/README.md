@@ -9,7 +9,7 @@ Available integrations:
 * Incoming WebHook → Let an external service send a request to Rocket.Chat to be processed.
 * Outgoing WebHook → Let Rocket.Chat trigger and optionally send a request to an external service and process the response.
 
-By default the WebHooks is designed to post a message only. The _message_ is part of a JSON structure, which has the same format as described in the API documentation on how to [“Post a chat message”](/postMessage.md).
+By default the WebHooks is designed to post a message only. The _message_ is part of a JSON structure, which has the same format as described in the API documentation on how to [“Post a chat message”](https://github.com/RocketChat/docs/tree/b7618ca0d2caba0b7cf23266d2704d2f7f55cce4/postMessage.md).
 
 If you would like more power and control over various features of Rocket.Chat, aside from sending and receiving messages, take a look at [Rocket.Chat Apps](../../../apps-development/getting-started.md).
 
@@ -38,7 +38,7 @@ The class has a method called `process_incoming_request`, your server calls this
 
 The `process_incoming_request`method returns an object with a `content`property that contains valid Rocket.Chat message, or an object with an `error` property that returns as the response to the request in JSON format and Code 400 status.
 
-A valid Rocket.Chat message can contain a `text` field that is the body of the message. When you redirect the message to a channel other than the one indicated by the Webhook token, you can specify a `channel` field, which accepts room id or, if prefixed with "#" or "@", channel name or user.
+A valid Rocket.Chat message can contain a `text` field that is the body of the message. When you redirect the message to a channel other than the one indicated by the Webhook token, you can specify a `channel` field, which accepts room id or, if prefixed with "\#" or "@", channel name or user.
 
 You can use the `console` methods to log information to help debug your script. Find more information about the console [here](https://developer.mozilla.org/en-US/docs/Web/API/Console/log). To view the logs, go to `Administration > View Logs`.
 
@@ -134,7 +134,7 @@ The class has a method called `prepare_outgoing_request`, this method is called 
 
 The `prepare_outgoing_request`method returns an object with, at least, `url`and `method` properties. You can also change the request object, and return it. It is possible even to return nothing and cancel the request, or return a message.
 
-This class has a method named `process_outgoing_response`. It is called for every response of the request, with an Object as a parameter that contains the `request` property, i.e. the object you returned in the previous method, and a  `response` property.
+This class has a method named `process_outgoing_response`. It is called for every response of the request, with an Object as a parameter that contains the `request` property, i.e. the object you returned in the previous method, and a `response` property.
 
 The `process_outgoing_response` method can return nothing to proceed the default processing, return `false` to stop it, or an object with the `content` property that contains a valid Rocket.Chat message.
 
@@ -262,3 +262,4 @@ class Script {
   }
 }
 ```
+
