@@ -592,8 +592,8 @@ Code blocks should be fenced.
 **Correct**:
 
 ```text
-` ` `
+```
 codeblock using fences.
-` ` `
+```
 ```
 
