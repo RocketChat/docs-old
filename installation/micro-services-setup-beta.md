@@ -1,4 +1,10 @@
-# Micro services setup \[beta\]
+# Microservices Setup \[beta\]
+
+{% hint style="info" %}
+This guide is currently only valid for a special distribution of the Rocket.Chat. 
+
+The feature will be release for **General Availability** on the **Enterprise Edition v4.0**
+{% endhint %}
 
 ### Pre-requisites
 
