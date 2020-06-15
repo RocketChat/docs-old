@@ -226,6 +226,7 @@
 * [Schema Definition](api/schema-definition/README.md)
   * [The Room Object](api/schema-definition/the-room-object.md)
   * [The Message Object](api/schema-definition/the-message-object.md)
+* [Schema Definition v2](api/schema-definition-v2.md)
 * [Realtime API](api/realtime-api/README.md)
   * [Method Calls](api/realtime-api/method-calls/README.md)
     * [Archive Rooms](api/realtime-api/method-calls/archive-rooms.md)
