@@ -200,7 +200,6 @@
     * [Iframe integration: Sending commands](guides/developer/iframe-integration/commands.md)
   * [Two Factor Authentication](guides/developer/two-factor.md)
   * [Troubleshooting](guides/developer/troubleshooting.md)
-  * [Schema Definition](guides/developer/schema-definition.md)
 * [Bots Guides](guides/bots/README.md)
   * [Create and run a Bot](guides/bots/create-and-run-a-bot/README.md)
     * [Run a Hubot bot](guides/bots/create-and-run-a-bot/hubot-bot.md)
@@ -224,6 +223,7 @@
 
 ## API
 
+* [Schema Definition](api/schema-definition.md)
 * [Realtime API](api/realtime-api/README.md)
   * [Method Calls](api/realtime-api/method-calls/README.md)
     * [Archive Rooms](api/realtime-api/method-calls/archive-rooms.md)
