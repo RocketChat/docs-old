@@ -10,7 +10,7 @@ Pinning a message allows administrators and owners of rooms to easily store mess
 
 ## Example Call
 
-The only parameter that needs to be passed in is the [Message Object](../the-message-object.md) and as of release `0.46` you need to send the entire message object otherwise an internal error will happen \([fixed via pull request \#5087](https://github.com/RocketChat/Rocket.Chat/pull/5087)\).
+The only parameter that needs to be passed in is the [Message Object](../../schema-definition/the-message-object.md) and as of release `0.46` you need to send the entire message object otherwise an internal error will happen \([fixed via pull request \#5087](https://github.com/RocketChat/Rocket.Chat/pull/5087)\).
 
 ```javascript
 {
@@ -23,7 +23,7 @@ The only parameter that needs to be passed in is the [Message Object](../the-mes
 
 ## Example Response
 
-The response of a message being pinned is a new chat message which contains the broadcast of the message pinning. See [Message Object Details](../the-message-object.md) for information about the response format.
+The response of a message being pinned is a new chat message which contains the broadcast of the message pinning. See [Message Object Details](../../schema-definition/the-message-object.md) for information about the response format.
 
 ```javascript
 {
@@ -53,6 +53,6 @@ The response of a message being pinned is a new chat message which contains the 
 
 ## See Also
 
-* [The Message Object](../the-message-object.md)
+* [The Message Object](../../schema-definition/the-message-object.md)
 * [Pinning Messages User Guide](../../../guides/user-guides/messaging.md)
 

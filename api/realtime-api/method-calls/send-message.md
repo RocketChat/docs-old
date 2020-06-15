@@ -35,7 +35,7 @@ For sending a file we now recommend using the rest api:
 
 ## See Also
 
-* [The Message Object](../the-message-object.md)
+* [The Message Object](../../schema-definition/the-message-object.md)
 * [Delete Message Method](delete-message.md)
 * [Update Message Method](update-message.md)
 

@@ -10,7 +10,7 @@ Updating a message is what should be called when a user "edits" a message, passi
 
 ## Example Call
 
-The only parameter that needs to be passed in is the [Message Object](../the-message-object.md) which contains the updated message properties, such as the text.
+The only parameter that needs to be passed in is the [Message Object](../../schema-definition/the-message-object.md) which contains the updated message properties, such as the text.
 
 ```javascript
 {
@@ -37,7 +37,7 @@ As mentioned in requirements, you must be logged in to be able to edit a message
 
 ## See Also
 
-* [The Message Object](../the-message-object.md)
+* [The Message Object](../../schema-definition/the-message-object.md)
 * [Send Message Method](send-message.md)
 * [Delete Message Method](delete-message.md)
 

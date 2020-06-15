@@ -1,4 +1,4 @@
-# Method: livechat:sendOfflineMessage
+# livechat:sendOfflineMessage
 
 ## DDP message
 

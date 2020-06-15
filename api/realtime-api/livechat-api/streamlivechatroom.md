@@ -1,4 +1,4 @@
-# Method: stream-livechat-room
+# stream-livechat-room
 
 ## DDP message
 

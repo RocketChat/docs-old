@@ -1,4 +1,4 @@
-# Method: livechat:getInitialData
+# livechat:getInitialData
 
 ## DDP message
 

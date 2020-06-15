@@ -10,7 +10,7 @@ The `remove` field is a collection of room id identifying the rooms that were re
 
 ## Update field
 
-The `update` field is a collection of `room` and its content varies according to the `room type`. You can read more about the `room` object on [its own page](../the-room-object.md).
+The `update` field is a collection of `room` and its content varies according to the `room type`. You can read more about the `room` object on [its own page](../../schema-definition/the-room-object.md).
 
 ## Example call
 

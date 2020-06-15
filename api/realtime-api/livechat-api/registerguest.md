@@ -1,4 +1,4 @@
-# Method: livechat:registerGuest
+# livechat:registerGuest
 
 ## DDP message
 

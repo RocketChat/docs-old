@@ -1,4 +1,4 @@
-# Method: sendMessageLivechat
+# sendMessageLivechat
 
 ## DDP message
 

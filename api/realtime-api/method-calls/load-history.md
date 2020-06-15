@@ -11,7 +11,7 @@ This method accepts 4 parameters in the following order:
 
 The result is composed of the `messages` collection and the `unreadNotLoaded`counter.
 
-The `message` object is fairly complex and have [its own section describing it](../the-message-object.md). The `unreadNotLoaded` counts the quantity of unread messages not loaded by the call.
+The `message` object is fairly complex and have [its own section describing it](../../schema-definition/the-message-object.md). The `unreadNotLoaded` counts the quantity of unread messages not loaded by the call.
 
 Examples:
 
