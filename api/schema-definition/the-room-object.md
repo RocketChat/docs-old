@@ -1,4 +1,4 @@
-# The Room Object
+# Room
 
 The room object represents any form of communication between two or more users. There are at least two fields on the room object.
 

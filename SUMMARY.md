@@ -224,8 +224,9 @@
 ## API
 
 * [Schema Definition](api/schema-definition/README.md)
-  * [The Room Object](api/schema-definition/the-room-object.md)
-  * [The Message Object](api/schema-definition/the-message-object.md)
+  * [Room](api/schema-definition/the-room-object.md)
+  * [Message](api/schema-definition/the-message-object.md)
+  * [User](api/schema-definition/user.md)
 * [Schema Definition v2 \(Draft\)](api/schema-definition-v2/README.md)
   * [IEvent](api/schema-definition-v2/i-event.md)
   * [EventContext](api/schema-definition-v2/event-context.md)
