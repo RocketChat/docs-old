@@ -10,7 +10,7 @@ description: >-
 Typescript interface definition:
 
 ```typescript
-export interface IEvent<T extends EDataDefinition> {
+interface IEvent<T extends EDataDefinition> {
 	_id: string;
 	_cid?: string;
 	_pids: Array<string>;
