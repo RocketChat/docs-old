@@ -31,7 +31,7 @@ Important: ADFS uses .pfx certificate extensions \(widely used on Windows landsc
 ![](../../../../.gitbook/assets/adfs_1%20%281%29.png)
 
 * Forms authentication: If this option is selected as 'primary', a login form provided by ADFS will be called by the SAML assertion in order to perform the login operation. For this method, the recommended "Custom Authn Context" in Rocket.Chat should be _**urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport**_
-* Windows authentication: if this option is selected as **'**primary', ADFS will be expected the login assertion to be done on Windows Domain level. In order to set a full SSO scenario between Rocket.Chat and ADFS, the recommended "Custom Authn Context" should be _**urn:federation:authentication:windows**_
+* Windows authentication: if this option is selected as **'**primary', ADFS will expect the login assertions on Windows Domain level. In order to set a full SSO scenario between Rocket.Chat and ADFS, the recommended "Custom Authn Context" should be _**urn:federation:authentication:windows**_
 
 
 
