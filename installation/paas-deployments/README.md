@@ -20,7 +20,7 @@ If you need full control of your deployment, here are some guides for specific e
 * [Meteor Galaxy](galaxy.md)
 * [Google Compute Engine](google-computer-engine.md)
 * [Heroku](heroku.md)
-* [IBM Bluemix](ibm-bluemix.md)
+* [IBM Cloud](ibm-cloud.md)
 * [Sloppy.io](sloppy-io.md)
 * [D2C.io](d2c-io.md)
 * [Syncloud.org](syncloud-org.md)
