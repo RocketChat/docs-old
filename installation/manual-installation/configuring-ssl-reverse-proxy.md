@@ -32,7 +32,7 @@ upstream backend {
 
 # HTTPS Server
 server {
-    listen 443;
+    listen 443 ssl http2;
     server_name your_hostname.com;
 
     # You can increase the limit if your need to.
