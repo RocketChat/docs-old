@@ -50,6 +50,7 @@ Rocket.Chat is very grateful for the following people who have responsibly discl
 * [Maik Stegemann](https://twitter.com/sectex_), November 2019
 * [Dipmalya Pyne](https://www.linkedin.com/in/dipmalya-pyne/), November 2019  
 * [Karthik](https://twitter.com/86Karthik86?s=03), May 2020
+* [ALK Surya Teja](https://www.linkedin.com/in/alk-surya-teja-59b677146/), June 2020
 
 Thank you all very much!
 
