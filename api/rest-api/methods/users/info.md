@@ -31,7 +31,8 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
     "active": true,
     "name": "Example User",
     "utcOffset": 0,
-    "username": "example"
+    "username": "example",
+    "avatarETag": "thwftThP3Band942S",
   },
   "success": true
 }
@@ -89,7 +90,8 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
     "statusConnection": "offline",
     "utcOffset": 0,
     "username": "example",
-     "rooms": [
+    "avatarETag": "thwftThP3Band942S",
+    "rooms": [
         {
             "_id": "PoffwDEebAwcmS5A8",
             "rid": "GENERAL",
