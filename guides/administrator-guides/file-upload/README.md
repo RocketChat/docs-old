@@ -39,7 +39,7 @@ Use this setting to define what types of files the users will be able to upload.
 
 ## Amazon S3
 
-You can find a more detailed guide on how to set your Amazon S3 server [here](https://github.com/RocketChat/docs/tree/25edcde0b00af8d5f89889dbb0d911ccfe76a1d1/administrator-guides/file-upload/amazon-s3/README.md).
+You can find a more detailed guide on how to set your Amazon S3 server [here](amazon-s3.md).
 
 ### Access Key
 
@@ -105,7 +105,7 @@ The local path for where the uploaded files will be stored.
 
 ## Google Cloud Storage
 
-Settings used when configuring a Google Cloud Storage server. You can find more details in [here](https://github.com/RocketChat/docs/tree/25edcde0b00af8d5f89889dbb0d911ccfe76a1d1/administrator-guides/file-upload/google-cloud-storage/README.md)
+Settings used when configuring a Google Cloud Storage server. You can find more details in [here](google-cloud-storage.md)
 
 ### Google Storage Access Id
 
