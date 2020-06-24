@@ -586,6 +586,7 @@
   * [App Lifecycle](apps-development/fundamentals/app-lifecycle.md)
   * [Event Interfaces](apps-development/fundamentals/event-interfaces.md)
 * [Recipes](apps-development/recipes/README.md)
+  * [Making HTTP Requests](apps-development/recipes/making-http-requests.md)
   * [Storing User Input](apps-development/recipes/storing-user-input.md)
 * [Apps-Engine API Reference](https://rocketchat.github.io/Rocket.Chat.Apps-engine)
 
