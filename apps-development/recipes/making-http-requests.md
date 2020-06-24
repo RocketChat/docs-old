@@ -151,10 +151,10 @@ Now, when you run the slashcommand `/get https://jsonplaceholder.typicode.com/to
 
 ```javascript
 {
-"userId": 1,
-"id": 1,
-"title": "delectus aut autem",
-"completed": false
+    "userId": 1,
+    "id": 1,
+    "title": "delectus aut autem",
+    "completed": false
 }
 ```
 
