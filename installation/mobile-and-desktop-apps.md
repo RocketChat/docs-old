@@ -8,7 +8,7 @@ Here you can find the Electron based Desktop Apps:
 
 ### Windows
 
-Can be found [here](https://rocket.chat/download)
+Can be found [here](https://rocket.chat/install)
 
 ### macOS
 
