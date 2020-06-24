@@ -65,7 +65,7 @@ Optionally, you can store the GET request in a constant to `console.log` it when
 
 ```typescript
 const response = await http.get(url);
-console.log(response.data);
+console.log("result: " + response.data);
 ```
 
 ## Register the slashcommand
@@ -129,7 +129,7 @@ In the `HTTPRequestCommand.ts`, add the following private method:
     }
 ```
 
-This function **\[1\]** gets the user who called the command \(in this case, yours\), **\[2\]** selects the room in which the command was run, sets the received string as the message and then **\[4\]** sends the message in the room.
+This function **\[1\]** gets the user who called the command \(in this case, yours\), **\[2\]** selects the room in which the command was run, **\[3\]** sets the received string as the message and then **\[4\]** sends the message in the room.
 
 > To know more about messaging, you can go to the [IMessageBuilder docs](https://rocketchat.github.io/Rocket.Chat.Apps-engine/interfaces/imessagebuilder.html).
 
