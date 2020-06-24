@@ -38,7 +38,7 @@ Properties description:
 * `cid`: This is also part of the context, holds the of the context \(like the room id\)
 * `t`: The type of the event, details in [EventTypeDescriptor](event-type-descriptor.md)
 * `dHash`: The hash of some or all of the properties on `d`, depending on the event type
-* `d`: The event's data, the payload, details in [EDataDefinition](e-data-definition/)
+* `d`: The event's data, the payload, details in [EDataDefinition](event-data-definition/)
 * `_updatedAt`: When this event was updated
 
 Example of types "room" and "msg":
