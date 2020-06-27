@@ -14,5 +14,5 @@ export interface IEventDataRoom {
 
 | Property | What is it? |
 | :--- | :--- |
-| room | Holds an [IRoom](../room.md) interface, which is related to the legacy [Room](../../schema-definition/the-room-object.md) definition. |
+| room | Holds an [IRoom](../../room.md) interface, which is related to the legacy [Room](../../../schema-definition/the-room-object.md) definition. |
 
