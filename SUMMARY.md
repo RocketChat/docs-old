@@ -577,10 +577,10 @@
   * [Translating](contributors/contributing/translating.md)
 * [Code of Conduct](contributors/code_of_conduct.md)
 * [Google Summer of Code](contributors/gsoc/README.md)
-  * [Google Summer of Code 2017](contributors/gsoc/google-summer-of-code-2017.md)
-  * [Google Summer of Code 2018](contributors/gsoc/google-summer-of-code-2018.md)
-  * [Google Summer of Code 2019](contributors/gsoc/google-summer-of-code-2019.md)
   * [Google Summer of Code 2020](contributors/gsoc/google-summer-of-code-2020.md)
+  * [Google Summer of Code 2019](contributors/gsoc/google-summer-of-code-2019.md)
+  * [Google Summer of Code 2018](contributors/gsoc/google-summer-of-code-2018.md)
+  * [Google Summer of Code 2017](contributors/gsoc/google-summer-of-code-2017.md)
 * [Google Season of Docs](contributors/google-season-of-docs/README.md)
   * [Google Season of Docs 2019](contributors/google-season-of-docs/google-season-of-docs-2019.md)
 
