@@ -29,7 +29,7 @@ export interface IEventDataMessage {
 | Property | What is it? |
 | :--- | :--- |
 | t | The type descriptor of the message, more in [EventMessageTypeDescriptor](../eventmessagetypedescriptor.md) |
-| u | This holds the user which emitted this message, you can see the definition in [IUser](../iuser.md) |
+| u | This holds the user which emitted this message, you can see the definition in [IUser](../user.md) |
 | msg | The actual message, the text |
 | mentions | \[OPTIONAL\] Holds the user mentions related to this message |
 | channels | \[OPTIONAL\] Holds the channel mentions related to this message |

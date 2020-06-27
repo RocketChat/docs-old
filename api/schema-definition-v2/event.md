@@ -5,9 +5,9 @@ description: >-
   events.
 ---
 
-# IEvent
+# Event
 
-Typescript interface definition:
+### Interface Definition
 
 ```typescript
 interface IEvent<T extends EDataDefinition> {

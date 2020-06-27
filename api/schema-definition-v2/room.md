@@ -4,9 +4,9 @@ description: >-
   the current event system state.
 ---
 
-# IRoom
+# Room
 
-The interface definition is:
+### Interface Definition
 
 ```typescript
 export interface IRoom {

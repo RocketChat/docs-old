@@ -224,13 +224,13 @@
 ## API
 
 * [Schema Definition](api/schema-definition/README.md)
+  * [User](api/schema-definition/user.md)
   * [Room](api/schema-definition/the-room-object.md)
   * [Message](api/schema-definition/the-message-object.md)
-  * [User](api/schema-definition/user.md)
 * [Schema Definition v2 \(Draft\)](api/schema-definition-v2/README.md)
-  * [IUser](api/schema-definition-v2/iuser.md)
-  * [IRoom](api/schema-definition-v2/i-room.md)
-  * [IEvent](api/schema-definition-v2/i-event.md)
+  * [User](api/schema-definition-v2/user.md)
+  * [Room](api/schema-definition-v2/room.md)
+  * [Event](api/schema-definition-v2/event.md)
   * [EventContext](api/schema-definition-v2/event-context.md)
   * [EventTypeDescriptor](api/schema-definition-v2/event-type-descriptor.md)
   * [EventMessageTypeDescriptor](api/schema-definition-v2/eventmessagetypedescriptor.md)
