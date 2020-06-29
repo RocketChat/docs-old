@@ -14,7 +14,7 @@ Working with Helm and Kubernetes is especially simple if you are using Ubuntu 20
 $ microk8s.helm3
 ```
 
-> Helm 3 no long includes a default repository.  Make sure you [add the stable respository ](https://helm.sh/docs/intro/quickstart/#initialize-a-helm-chart-repository)to your Helm 3 instance.
+> **NOTE:**  Helm 3 no long includes a default chart repository.  Make sure you [add the stable chart repository ](https://helm.sh/docs/intro/quickstart/#initialize-a-helm-chart-repository)to your Helm 3 instance.
 
 ## Default settings for Rocket.Chat helm chart
 
