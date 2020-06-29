@@ -597,3 +597,7 @@
   * [Storing User Input](apps-development/recipes/storing-user-input.md)
 * [Apps-Engine API Reference](https://rocketchat.github.io/Rocket.Chat.Apps-engine)
 
+---
+
+* [Bot Glossary](bot-glossary.md)
+
