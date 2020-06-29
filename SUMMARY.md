@@ -200,6 +200,7 @@
   * [Two Factor Authentication](guides/developer/two-factor.md)
   * [Troubleshooting](guides/developer/troubleshooting.md)
 * [Bots Guides](guides/bots/README.md)
+  * [Bot Glossary](guides/bots/bot-glossary.md)
   * [Create and run a Bot](guides/bots/create-and-run-a-bot/README.md)
     * [Run a Hubot bot](guides/bots/create-and-run-a-bot/hubot-bot.md)
     * [Run a Botkit Bot](guides/bots/create-and-run-a-bot/botkit-bot.md)
@@ -596,8 +597,4 @@
   * [Making HTTP Requests](apps-development/recipes/making-http-requests.md)
   * [Storing User Input](apps-development/recipes/storing-user-input.md)
 * [Apps-Engine API Reference](https://rocketchat.github.io/Rocket.Chat.Apps-engine)
-
----
-
-* [Bot Glossary](bot-glossary.md)
 
