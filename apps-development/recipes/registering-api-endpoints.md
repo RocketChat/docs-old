@@ -8,9 +8,9 @@ In this recipe, we will register a public API endpoint that receives data from e
 
 ## Register an API endpoint
 
-First of all, let create a new Rocket.Chat app from the ground using `rc-apps create.` \(If `rc-apps` is an unrecognized command, please check out the [Getting Started](https://docs.rocket.chat/apps-development/getting-started) section to make initial preparations first\).
+First of all, let's create a new Rocket.Chat app from scratch using `rc-apps create.` \(If `rc-apps` is an unrecognized command, please check out the [Getting Started](https://docs.rocket.chat/apps-development/getting-started) section to make initial preparations first\).
 
-In the main App class, let's implement the `extendConfiguration` method, within which we use `configuration.api.provideApi` to register a new API endpoint `new Endpoint(this)`.
+In the main App class, we need to implement the `extendConfiguration` method, within which we use `configuration.api.provideApi` to register a new API endpoint `new Endpoint(this)`.
 
 ```typescript
 // Main App Class
