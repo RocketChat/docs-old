@@ -10,6 +10,8 @@ description: >-
 
 {% page-ref page="storing-user-input.md" %}
 
+{% page-ref page="registering-api-endpoints.md" %}
+
 
 
 
