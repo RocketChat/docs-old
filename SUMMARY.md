@@ -596,5 +596,6 @@
 * [Recipes](apps-development/recipes/README.md)
   * [Making HTTP Requests](apps-development/recipes/making-http-requests.md)
   * [Storing User Input](apps-development/recipes/storing-user-input.md)
+  * [Registering API endpoints](apps-development/recipes/registering-api-endpoints.md)
 * [Apps-Engine API Reference](https://rocketchat.github.io/Rocket.Chat.Apps-engine)
 
