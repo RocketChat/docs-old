@@ -4,7 +4,7 @@ Instead of using the standard Docker commands, you may wish for a bit more autom
 
 * Make sure you have [Docker](https://docs.docker.com/install) and [Docker-compose](https://docs.docker.com/compose/install/) installed and operational.
 * Create `docker-compose.yml` based on [our example](https://github.com/RocketChat/Rocket.Chat/blob/develop/docker-compose.yml).  This is the ONLY file you will need.  You can create this file on your own machine by copy and pasting the content.
-* Edit `image: rocketchat/rocket.chat:develop` to specify which image you wish to use \(see section [Docker Images Available](available-images.md) \)
+* Edit `image: rocketchat/rocket.chat:latest` to specify which image you wish to use \(see section [Docker Images Available](available-images.md) \)
 * Edit `ROOT_URL` to match your domain name or IP address
 
 You can download our docker-compose.yaml:
@@ -38,7 +38,7 @@ docker-compose up -d hubot
 To update the `rocketchat` docker image to the latest version, you can use the following commands. Your data should not be affected by this, since it's located in the `mongo` image.
 
 ```text
-docker pull rocketchat/rocket.chat:develop
+docker pull rocketchat/rocket.chat:latest
 docker-compose stop rocketchat
 docker-compose rm rocketchat
 docker-compose up -d rocketchat
