@@ -4,7 +4,7 @@
 
 ### Allow Invalid Self-Signed Certs
 
-Allow invalid and self-signed SSL certificate's for link validation and previews.
+Allow invalid and self-signed SSL certificates for link validation and previews.
 
 ### Bugsnag API Key
 
