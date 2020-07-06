@@ -19,7 +19,6 @@
     * [IndieHosters](installation/paas-deployments/indiehosters.md)
     * [Jelastic](installation/paas-deployments/jelastic.md)
     * [Koozali SME](installation/paas-deployments/koozali.md)
-    * [Layershift](installation/paas-deployments/layershift.md)
     * [OpenShift](installation/paas-deployments/openshift.md)
     * [Oracle Cloud](installation/paas-deployments/oracle.md)
     * [ReadySpace](installation/paas-deployments/readyspace.md)
