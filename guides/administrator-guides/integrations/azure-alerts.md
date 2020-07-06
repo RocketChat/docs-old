@@ -64,6 +64,7 @@ class Script {
 This example shows basic processing of azure alerts that will give you the necessary information as to what happened and what is the current status, along with a status color to get an idea at a quick glimpse of the message.
 
 For newer created alerts the azure webhooks can be process by the following script:
+
 ```javascript
 class Script {
     // this script was tested with AzureMonitorMetricAlert version 2.0 and should work for

@@ -17,6 +17,8 @@ To add any service to an app, even if it is free, you will need to register a va
 
 ## One Click automatic deploy
 
+> NOTE:   You will need a plan that minimally supports 2 dynos and 4 GB of memory to comfortably build and deploy Rocket.Chat on Heroku.
+
 Try clicking the button below, and either login or create a new account, then follow all prompts.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/RocketChat/Rocket.Chat/tree/master)
