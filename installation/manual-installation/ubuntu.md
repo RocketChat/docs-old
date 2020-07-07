@@ -4,9 +4,9 @@
 
 Snaps are the easiest way for you to get your server up and running on all supported Linux distributions \(Ubuntu, etc\).
 
-Find out more information about installing using snaps [here](snaps/)
+Find out more information about installing using snaps [here](../snaps/)
 
-If you would like to enable TLS on your site like this `https://yoursite.com` when using the snap, please see [here](snaps/autossl.md)
+If you would like to enable TLS on your site like this `https://yoursite.com` when using the snap, please see [here](../snaps/autossl.md)
 
 ## Manual install
 
@@ -141,7 +141,7 @@ sudo systemctl enable rocketchat && sudo systemctl start rocketchat
 
 ## Optional configurations
 
-[Configure firewall rule](../optional-configurations.md) [Configure a HTTP reverse proxy to access Rocket.Chat server](../configuring-ssl-reverse-proxy.md) \[Configure mongo access control\] \[Configure production values for mongodb\]
+[Configure firewall rule](optional-configurations.md) [Configure a HTTP reverse proxy to access Rocket.Chat server](configuring-ssl-reverse-proxy.md) \[Configure mongo access control\] \[Configure production values for mongodb\]
 
 ## Configure your Rocket.Chat server
 
