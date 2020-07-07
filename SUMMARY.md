@@ -2,9 +2,9 @@
 
 * [Welcome to Rocket.Chat Docs](README.md)
 * [Installing and Updating](installation/README.md)
+  * [Rocket.Chat Cloud](installation/rocket-chat-cloud.md)
   * [Snaps](installation/snaps/README.md)
     * [Auto SSL with Snaps](installation/snaps/autossl.md)
-  * [Rocket.Chat Cloud](installation/rocket-chat-cloud.md)
   * [PaaS Deployments](installation/paas-deployments/README.md)
     * [Aliyun](installation/paas-deployments/aliyun.md)
     * [AWS Marketplace](installation/paas-deployments/eks.md)
