@@ -22,3 +22,5 @@ export enum EventMessageTypeDescriptor {
 | MESSAGE\_PINNED | A message that was pinned to a channel |
 | DISCUSSION\_CREATED | When a discussion is created, this message type is assigned |
 
+
+

@@ -4,7 +4,7 @@ description: >-
   the current event system state.
 ---
 
-# Room
+# IRoom
 
 ### Interface Definition
 
