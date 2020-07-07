@@ -6,6 +6,6 @@ In these guides we will be talking about customizations without changing the sou
 
 We will be separating these guides into 2 categories: basic and advanced.
 
-* [Basic White-Labeling](./)
-* [Advanced White-Labeling](./)
+* [Basic White-Labeling](./advanced-white-labeling)
+* [Advanced White-Labeling](./basic-white-labeling)
 
