@@ -19,7 +19,7 @@ const persistenceRead = read.getPersistenceRead();
 For `persistence: IPersistence`, you can only obtain it through parameter approach, which means you can not  persist data within a method \(typically is an event handler that you are going to implement\) if the method doesn't have a `persistence: IPersistence` parameter.
 
 ```typescript
-someMethod(context, read: IRead, persistence: IPersistence) {
+function someMethod(context, read: IRead, persistence: IPersistence) {
     console.log(persistence); // The only way to fetch a persistence writer object
 }
 ```
