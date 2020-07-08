@@ -1,6 +1,6 @@
 # Getting Support
 
-Setting up and running a software is not always an easy thing. We get that. That's why we try to help everybody as good as possible with their instance of Rocket.Chat. And while we do like to help everybody, it just isn't feasible in any case. That is why we have to limit the support by the core team to some extent.
+Setting up and running software is not always an easy thing. We get that. That's why we try to help everybody as good as possible with their instance of Rocket.Chat. And while we do like to help everybody, it just isn't feasible in any case. That is why we have to limit the support by the core team to some extent.
 
 The following paragraphs will tell you about limits of the support the core team can give as well as where to find the community to help you and how you yourself can contribute by reporting bugs to us on GitHub.
 
@@ -17,25 +17,29 @@ By "Support" we mean that Rocket.Chat will provide only security fixes and answe
 | Rocket.Chat 1.0 | April 2019 | July 2019 |
 | Rocket.Chat 1.1 | May 2019 | August 2019 |
 | Rocket.Chat 1.2 | June 2019 | September 2019 |
-| Rocket.Chat 1.3 | July 2019 | January 2020 |
+| **Rocket.Chat 1.3 \(LTS\)** | **July 2019** | **January 2020** |
 | Rocket.Chat 2.0 | August 2019 | November 2019 |
 | Rocket.Chat 2.1 | September 2019 | December 2019 |
 | Rocket.Chat 2.2 | October 2019 | January 2020 |
 | Rocket.Chat 2.3 | November 2019 | February 2020 |
-| Rocket.Chat 2.4 | December 2019 | June 2020 |
-| Rocket.Chat 3.0 | February 2020 | TBD |
+| **Rocket.Chat 2.4 \(LTS\)** | **December 2019** | **June 2020** |
+| Rocket.Chat 3.0 | February 2020 | April 2020 |
+| Rocket.Chat 3.1 | March 2020 | May 2020 |
+| Rocket.Chat 3.2 | April 2020 | June 2020 |
+| Rocket.Chat 3.3 | May 2020 | July 2020 |
+| Rocket.Chat 3.4 | June 2020 | TBD |
 
 > Always update to latest stable version before reporting any bugs or before ask for help from community.
 
 ### Rocket.Chat Cloud customers
 
-Rocket.Chat manages upgrades and provides support to Rocket.Chat Cloud users regardless of the release version. If a Rocket.Chat Cloud user with an outdated server version sends in a support request, his server might be upgraded to the latest stable version without acknowledgement to ensure best performance.
+Rocket.Chat manages upgrades and provides support to Rocket.Chat Cloud users regardless of the release version. If a Rocket.Chat Cloud user with an outdated server version sends in a support request, his server might be upgraded to the latest stable version without acknowledgment to ensure the best performance.
 
 ### Rocket.Chat Services
 
-Rocket.Chat Services include services such as our push gateway, marketplace, and other services managed by Rocket.Chat.
+Rocket.Chat Services include services such as our push gateway, the marketplace, and other services managed by Rocket.Chat.
 
-October 1st our services will no longer continue to guarantee support for Rocket.Chat 0.x. After this date you may receive errors or warnings about incompatibility.
+October 1st our services will no longer continue to guarantee support for Rocket.Chat 0.x. After this date, you may receive errors or warnings about incompatibility.
 
 3 months after a new major release, e.g. 2.x, the last major release, e.g. 1.x, will have the Services support deprecated and you may receive warnings about the deprecation. 5 months after the deprecation the support will be removed and you may receive errors and warnings about incompatibility.
 
