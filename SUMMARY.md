@@ -598,6 +598,7 @@
   * [App Lifecycle](apps-development/fundamentals/app-lifecycle.md)
   * [Event Interfaces](apps-development/fundamentals/event-interfaces.md)
 * [Recipes](apps-development/recipes/README.md)
+  * [Sub-command pattern](apps-development/recipes/sub-command-pattern.md)
   * [Making HTTP Requests](apps-development/recipes/making-http-requests.md)
   * [Storing User Input](apps-development/recipes/storing-user-input.md)
   * [Registering API endpoints](apps-development/recipes/registering-api-endpoints.md)
