@@ -55,12 +55,7 @@ For Cloud customers, the file sharing \(images, audio, videos etc\) between Live
 To fix this issue go to Settings -&gt; File Upload -&gt; Amazon S3 -&gt; Enable the “Proxy Uploads” setting.  
 
 
-## 
-
-  
-
-
-That's it!
+**That's it!**
 
 Important Links:
 
