@@ -1,3 +1,7 @@
+---
+description: Rocket.Chat Enterprise Feature
+---
+
 # Priority queue
 
 ## Priority queue
