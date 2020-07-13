@@ -32,11 +32,11 @@ Rocket.Chat's hosted offering uses our official Docker images, which makes this 
 
 {% page-ref page="docker-containers/" %}
 
-### Scaleability
+### Scalability
 
-The usage of Docker-based management softwares like Kubernetes, Rancher or OpenShift makes the scaleability of the Rocket.Chat containered instances easy and possible to distribute load among different físical or virtual machines.
+The usage of Docker-based management software like Kubernetes, Rancher or OpenShift makes the scalability of the Rocket.Chat containerized instances easy and possible to distribute load among different physical or virtual machines.
 
-The Rocket.Chat hosting makes usage of this approach to manage our cloud-hosted instances with a high level of reliability and flexibility, we use the same expertise to provide documentation on how to deal with the high scale installations.
+Rocket.Chat's hosted offering makes usage of this approach to manage our cloud-hosted instances with a high level of reliability and flexibility, we use the same expertise to provide documentation on how to deal with the high scale installations.
 
 To ensure the support for high **scale installations** or with more than **1 instance** or **2000 users** we limited the Official support to installations based on one of those managers:
 
