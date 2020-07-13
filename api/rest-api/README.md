@@ -153,7 +153,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/groups.members` | Gets the users of participants of a private group. | [Link](methods/groups/members.md) |
 | `/api/v1/groups.messages` | Retrieves all group messages. | [Link](methods/groups/messages.md) |
 | `/api/v1/groups.moderators` | List all moderators of a group. | [Link](methods/groups/moderators.md) |
-| `/api/v1/groups.online` | List all online users of a group. | [Link](methods/groups/online.md) |
+| `/api/v1/groups.online` | List all online users of a group. | [Link](https://github.com/RocketChat/docs/tree/aeb4dd8de5017b7cd9c9d9367a0e2155f911ba5a/api/rest-api/methods/groups/online.md) |
 | `/api/v1/groups.open` | Adds the private group back to the list of groups. | [Link](methods/groups/open.md) |
 | `/api/v1/groups.removeLeader` | Removes the role of Leader for a user in the current group. | [Link](methods/groups/removeleader.md) |
 | `/api/v1/groups.rename` | Changes the name of the private group. | [Link](methods/groups/rename.md) |

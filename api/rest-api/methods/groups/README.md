@@ -27,7 +27,7 @@ description: REST API Groups Methods
 | `/api/v1/groups.moderators` | List all moderators of a group. | [Link](moderators.md) |
 | `/api/v1/groups.members` | Gets the users of participants of a private group. | [Link](members.md) |
 | `/api/v1/groups.messages` | Retrieves all group messages. | [Link](messages.md) |
-| `/api/v1/groups.online` | List all online users of a group. | [Link](online.md) |
+| `/api/v1/groups.online` | List all online users of a group. | [Link](https://github.com/RocketChat/docs/tree/aeb4dd8de5017b7cd9c9d9367a0e2155f911ba5a/api/rest-api/methods/groups/online.md) |
 | `/api/v1/groups.open` | Adds the private group back to the list of groups. | [Link](open.md) |
 | `/api/v1/groups.removeLeader` | Removes the role of Leader for a user in the current group. | [Link](removeleader.md) |
 | `/api/v1/groups.removeModerator` | Removes the role of moderator from a user in a group. | [Link](removemoderator.md) |
