@@ -15,5 +15,13 @@ Another long-awaited feature launched by this implementation is the ability to d
 
 New setting to define the behavior of the new Business Hours system:
 
+![](../../../.gitbook/assets/86484314-588bf780-bd2c-11ea-9718-17acdde71b18-1-.png)
+
+Go to Omnichannel &gt; Business Hours
+
+![](../../../.gitbook/assets/86484498-b9b3cb00-bd2c-11ea-97e6-2a9bc8acd534.png)
+
+
+
 
 
