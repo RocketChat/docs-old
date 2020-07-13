@@ -606,3 +606,7 @@
   * [Registering API endpoints](apps-development/recipes/registering-api-endpoints.md)
 * [Apps-Engine API Reference](https://rocketchat.github.io/Rocket.Chat.Apps-engine)
 
+## Rocket.Chat SaaS
+
+* [FAQ](rocket.chat-saas/faq.md)
+
