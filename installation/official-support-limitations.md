@@ -25,8 +25,7 @@ Ensuring that the installation is running the Docker image provided by the Rocke
 1. Problems during the compilation process
 2. Problems during the installation process
 3. Missing or outdated dependencies
-4. ~~Problems on the OS level \(may remove\)~~
-5. Installation of non-official versions
+4. Installation of non-official versions
 
 Rocket.Chat's hosted offering uses our official Docker images, which makes this installation method the most widely tested version ensuring quick fixes and a more efficient way to reproduce problems leading to the most efficient support flow.
 
