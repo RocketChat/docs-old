@@ -2,6 +2,8 @@
 
 * [Welcome to Rocket.Chat Docs](README.md)
 * [Installing and Updating](installation/README.md)
+  * [Official support limitations](installation/official-support-limitations.md)
+  * [Minimum Requirements](installation/minimum-requirements.md)
   * [Rocket.Chat Cloud](installation/rocket-chat-cloud.md)
   * [Snaps](installation/snaps/README.md)
     * [Auto SSL with Snaps](installation/snaps/autossl.md)
@@ -62,7 +64,6 @@
       * [Deploying Rocket.Chat Server Binaries on a FreeBSD system](installation/community-supported-installation/freebsd/universal.md)
     * [Windows 10](installation/community-supported-installation/windows-10-pro.md)
     * [Windows Server](installation/community-supported-installation/windows-server.md)
-  * [Minimum Requirements](installation/minimum-requirements.md)
   * [Mobile and Desktop Apps](installation/mobile-and-desktop-apps.md)
   * [Microservices Setup \[beta\]](installation/micro-services-setup-beta.md)
 * [Getting Support](getting-support.md)
