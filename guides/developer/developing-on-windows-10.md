@@ -2,18 +2,18 @@
 
 Microsoft finally released Windows Subsystem for Linux 2 \([WSL 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-index)\) in June of 2020.   Before this time, development of large and complex NodeJS based servers/full-stack applications such as Rocket.Chat on Windows is close to impossible.
 
-WSL 2 is a complete architectural overhaul of Linux on Windows, installing a full genuine Linux kernel \(built by Microsoft\) alongside the classic Windows kernel. The Linux kernel and Windows kernel can now share system resources, such as memory and CPU, at a granularity not previously possible.  It also includes major performance optimization on cross-subsystems file sharing, boot, and other developer-relevant areas.
+WSL 2 is a complete architectural overhaul of Linux on Windows, installing a full genuine Linux kernel \(built by Microsoft\) alongside the classic Windows kernel. The Linux kernel and Windows kernel can now share system resources, such as memory and CPU, at a granularity not previously possible.  It also includes major performance optimization on cross-subsystems file sharing, boot, and other developer-relevant areas.  
+  
+You must be using **Windows 10, version 2004 or later** to take advantage of WSL 2, and to setup Rocket.Chat development.
 
 ![](../../.gitbook/assets/msinfo.png)
-
-You must be using **Windows 10, version 2004 or later** to take advantage of WSL 2, and to setup Rocket.Chat development.    
 
 ### Before you start
 
 The following are prerequisites for developing Rocket.Chat on Windows 10:
 
-1. Make sure you have Windows 10, version 2004 or later
-2. Install and configure WSL 2 by following [Microsoft documentation,](https://docs.microsoft.com/en-us/windows/wsl/install-win10)  making sure to select **Ubuntu 20.04 LTS** distribution as your choice of Linux
+1. Make sure you have **Windows 10, version 2004** or later
+2. Install and configure **WSL 2** by following [Microsoft documentation,](https://docs.microsoft.com/en-us/windows/wsl/install-win10)  making sure to select **Ubuntu 20.04 LTS** distribution as your choice of Linux
 3. Download and install the latest [Linux Kernel Updates](https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel)
 
 ###  Machine requirement
