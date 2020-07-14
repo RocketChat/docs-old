@@ -4,7 +4,6 @@
 * [Installing and Updating](installation/README.md)
   * [Official support limitations](installation/official-support-limitations.md)
   * [Minimum Requirements](installation/minimum-requirements.md)
-  * [Rocket.Chat Cloud](installation/rocket-chat-cloud.md)
   * [Snaps](installation/snaps/README.md)
     * [Auto SSL with Snaps](installation/snaps/autossl.md)
   * [PaaS Deployments](installation/paas-deployments/README.md)
