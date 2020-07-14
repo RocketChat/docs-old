@@ -1,6 +1,4 @@
-# Quick Start
-
-## On Linux
+# Quick Start on Linux
 
 You can run Rocket.Chat for development on a Linux machine or VM. The following instruction has been tested on a new Ubuntu 18.04 LTS installation. Try to find and use a _NEW Ubuntu server installation_ with no other un-necessary software installed, not a "Desktop" or "Client" installation.
 
