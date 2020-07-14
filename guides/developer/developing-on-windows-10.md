@@ -4,6 +4,8 @@ Microsoft finally released Windows Subsystem for Linux 2 \([WSL 2](https://docs.
 
 WSL 2 is a complete architectural overhaul of Linux on Windows, installing a full genuine Linux kernel \(built by Microsoft\) alongside the classic Windows kernel. The Linux kernel and Windows kernel can now share system resources, such as memory and CPU, at a granularity not previously possible.  It also includes major performance optimization on cross-subsystems file sharing, boot, and other developer-relevant areas.
 
+![](../../.gitbook/assets/msinfo.png)
+
 You must be using **Windows 10, version 2004 or later** to take advantage of WSL 2, and to setup Rocket.Chat development.    
 
 ### Before you start
@@ -65,9 +67,9 @@ Building Rocket.Chat code requires a minimum of 8 GB of RAM memory on the Linux 
 
 When the server is ready, you will see a box with "Server Running" title:
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/apprun.png)
 
-This means that a Rocket.Chat server is running from your computer. To access the server, navigate to
+This means that a Rocket.Chat server is running from your computer. To access the server,  use Chrome, Brave, or Firefox browser, and navigate to
 
 `http://localhost:3000`
 
@@ -80,7 +82,10 @@ Other references:
 
 On Windows 10, the best coding environment to use is Visual Studio Code.  Install [Visual Studio Code](https://code.visualstudio.com/download) from Windows.   Make sure you also install the VS Code extension named  [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)    Optionally install the [Windows Terminal](https://www.microsoft.com/en-ca/p/windows-terminal-preview/9n0dx20hk701?rtc=1) extension 
 
-Editing files is relatively simple. After you run `git clone`, the files from the repository are saved on your computer. You can go to the cloned repository folder and edit or add files to Rocket.Chat. From a WSL shell, you can start Visual Studio for Code using command `code .`  .  
+Editing files is relatively simple. After you run `git clone`, the files from the repository are saved on your computer. You can go to the cloned repository folder and edit or add files to Rocket.Chat. From a WSL shell, you can start Visual Studio for Code using command `code .`  .
+
+![](../../.gitbook/assets/vscode.png)
+
   
 When you make changes to Rocket.Chat the server will automatically rebuild.
 
