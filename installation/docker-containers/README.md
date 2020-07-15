@@ -1,6 +1,8 @@
-# Docker Containers
+---
+description: Docker-Ubuntu 16.04 LTS (64 bit) VPS with Nginx SSL and Hubot
+---
 
-Docker-Ubuntu 16.04 LTS \(64 bit\) VPS with Nginx SSL and Hubot
+# Docker Containers
 
 ## Introduction
 

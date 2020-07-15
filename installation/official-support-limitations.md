@@ -31,9 +31,9 @@ Rocket.Chat's own cloud uses our official Docker images, which makes this instal
 
 {% page-ref page="docker-containers/" %}
 
-### Scalability
+## Scalability
 
-The usage of Docker-compatible containers orchestration/management systems such as Kubernetes, Rancher, or OpenShift can facilitate scaling of containerized Rocket.Chat instances making it possible to distribute load among different physical bare-metal servers or virtual machines.
+The usage of Docker-compatible containers orchestration/management systems such as Kubernetes, Rancher, or OpenShift can facilitate the scaling of containerized Rocket.Chat instances making it possible to distribute load among different physical bare-metal servers or virtual machines.
 
 Rocket.Chat's own cloud uses this approach to manage cloud-hosted instances with a high level of reliability and flexibility, we leverage the same expertise to provide documentation on how to configure and deploy scaled installations.
 
@@ -60,7 +60,7 @@ Production deployments should continually collect metrics regarding the installa
 
 ## Versions
 
-Rocket.Chat cuts a new release every single month, please check the Getting Support for more information about the release cycles and make sure you are running a supported version before contacting support.
+Rocket.Chat cuts a new release every single month, please check the Getting Support for more information about the release cycles and make sure you are running a supported version.
 
 {% page-ref page="../getting-support.md" %}
 
