@@ -16,17 +16,43 @@ Only installations matching these minimum requirements can be covered by our SLA
 
 In order to eliminate environment issues of missing, outdated, or mismatching dependencies, specific operating system issues, or problems during manual installations, we strongly recommend using our official Docker images.
 
-[Docker](https://www.docker.com/) is widely used to package applications in containers and distribute them as images, providing abstraction and isolation layers from the OS \(operational system\). It allows the application to be shipped with a specific version of the OS compatibility layer and his own dependencies already installed and configured.
-
 {% hint style="info" %}
-Rocket.Chat's own cloud uses our official Docker images, which makes this installation method the most widely tested version. 
+Rocket.Chat's own cloud uses our official Docker images, which makes this installation method the most tested.
 {% endhint %}
+
+[Docker](https://www.docker.com/) is widely used to package applications in containers and distribute them as images, providing abstraction and isolation layers from the OS \(operational system\). It allows the application to be shipped with a specific version of the OS compatibility layer and his own dependencies already installed and configured.
 
 {% page-ref page="docker-containers/" %}
 
 ## Scalability
 
-#### Containers Orchestration
+### Multiple processes
+
+We recommend running multiple application processes to maximize the usage of all available cores. Although you can use either Virtual Machines or containers to do so, we recommend and only support the usage of Docker containers.
+
+Virtual machines and containers differ in several ways, but the primary difference is that containers provide a way to virtualize an OS so that multiple workloads can run on a single OS instance. With VMs, the hardware is being virtualized to run multiple OS instances. Containers’ speed, agility, and portability make them yet another tool to help streamline software development.
+
+#### Performance benefits of containers
+
+**Faster startup time**
+
+A containerized application usually starts in a couple of seconds. Virtual machines could take a couple of minutes.
+
+**Better resource distribution**
+
+Containers use up only as many system resources as they need at a given time. Virtual machines usually require some resources to be permanently allocated before the virtual machine starts. For this reason, virtual machines tie up resources on the host, even if they are not actually using them. Containers allow host resources to be distributed in an optimal way.
+
+**Direct hardware access**
+
+Applications running inside virtual machines generally cannot access hardware like graphics cards on the host in order to speed processing. containerized applications can.
+
+**Less redundancy**
+
+With virtual machines, you have to install an entire guest operating system, which duplicates a lot of the components already running on your host server. Containers don't require this.
+
+{% embed url="https://www.backblaze.com/blog/vm-vs-containers/" %}
+
+### Containers orchestration
 
 The usage of Docker-compatible containers orchestration/management systems such as Kubernetes, Rancher, or OpenShift can facilitate the scaling of containerized Rocket.Chat instances making it possible to distribute load among different physical bare-metal servers or virtual machines.
 
@@ -55,7 +81,7 @@ Production deployments should continually collect metrics regarding the installa
 
 ## Versions
 
-Rocket.Chat cuts a new release every single month, please check the Getting Support for more information about the release cycles and make sure you are running a supported version.
+Rocket.Chat cuts a new release every month, please check the link below for more information about the release cycles and make sure you are running a supported version.
 
 {% page-ref page="../getting-support.md" %}
 
