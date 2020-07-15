@@ -104,6 +104,7 @@
       * [Active Directory Federation Services](guides/administrator-guides/authentication/saml/active-directory-federation-services.md)
       * [Oracle Identity Cloud Service](guides/administrator-guides/authentication/saml/oracle-cloud.md)
     * [CAS](guides/administrator-guides/authentication/cas.md)
+    * [Single Sign On \(Iframe\)](guides/administrator-guides/authentication/single-sign-on-iframe.md)
   * [Google Cloud Features](guides/administrator-guides/google-cloud/README.md)
     * [Google Auto Translate](guides/administrator-guides/google-cloud/auto-translate.md)
   * [Integrations WebHooks](guides/administrator-guides/integrations/README.md)

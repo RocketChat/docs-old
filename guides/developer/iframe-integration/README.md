@@ -2,7 +2,7 @@
 
 ## Use your own login page to login users in Rocket.Chat
 
-If you want to authenticate users using the iframe integration, go to `Administration > Accounts > Iframe` and enable it:
+If you want to authenticate users using your own login page in place of the Rocket.Chat's login page via the iframe integration, go to `Administration > Accounts > Iframe` and enable it:
 
 * [How to use iframe integration for authentication](authentication.md)
 
