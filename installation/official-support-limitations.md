@@ -41,7 +41,7 @@ We require, for **scaled installations** \(with more than **one instance** or mo
 
 1. SUSE Rancher
 2. Red Hat Openshift
-3. Kubernetes and Helm \(Managed by a cloud platform such as AWS, Google Cloud, etc, or self-managed\)
+3. Kubernetes and Helm _\(Managed by a cloud platform such as AWS, Google Cloud, etc, or self-managed\)_
 4. docker-compose
 
 At this time, no other containers orchestration/management technologies will be supported by our Support team for any issues related to **scaled installations**.
