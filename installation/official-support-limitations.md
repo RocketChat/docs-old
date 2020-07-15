@@ -48,7 +48,7 @@ At this time, no other containers orchestration/management technologies will be 
 
 ## Hardware
 
-The minimum hardware requirements are described in the Minimum Requirements page, the support is limited to installations matching those requirements.
+The minimum hardware requirements are described on the page below. 
 
 {% page-ref page="hardware-requirements.md" %}
 
