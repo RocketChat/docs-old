@@ -16,14 +16,14 @@ In order to obtain official support from our team, we have a minimum set of requ
 
 Only installations matching these minimum requirements can be covered by our SLAs and our paid Support Policy, some requirements may vary depending on the installation size as described in the following sections.
 
-## Versions
+## Rocket.Chat versions
 
 Rocket.Chat provides support for, at least, 3 months for each release. Rocket.Chat provides support for 6 months to the latest releases of each major version, e.g. 1.3 is the latest release of major version 1.x before major version 2.0. Rocket.Chat may provide a longer period of support depending on the necessity, check the table below to verify the final support date of each release version.
 
 By "support" we mean that Rocket.Chat will provide only security fixes and answer support tickets related to configuration and usage for the versions listed below. Bugs not related to security issues will be fixed only in new versions.
 
 {% hint style="info" %}
-In case of security-relevant bugs we might decide to backport patches to older releases on a case-by-case basis. Please understand though, that those will be rare exceptions. If you want to play it safe, upgrade to the latest stable.
+In case of security-relevant bugs, we might decide to backport patches to older releases on a case-by-case basis. Please understand though, that those will be rare exceptions. If you want to play it safe, upgrade to the latest stable.
 {% endhint %}
 
 | Rocket.Chat Release | Release Date | End of Life Date |
@@ -112,6 +112,14 @@ That being said, here's how you can find out if **your** browser version is stil
 * [Version history of Microsoft Edge](https://en.wikipedia.org/wiki/Microsoft_Edge#Release_history)
 * [Version history of Microsoft Internet Explorer](https://en.wikipedia.org/wiki/Internet_Explorer_version_history)
 
+## Hardware requirements
+
+The support is limited to installations matching the requirements described in the [Minimum Requirements](installation/minimum-requirements.md) page.
+
+## Monitoring
+
+We require monitoring for all supported installations. All installations must continually collect [Metrics](https://github.com/RocketChat/Rocket.Chat.Metrics) regarding the installation's instances and database. Rocket.Chat supports the industry-standard Prometheus + Grafana monitoring stack. Grafana dashboards required for support are available in the [Metrics](https://github.com/RocketChat/Rocket.Chat.Metrics) repository.
+
 ## Data access
 
 We do not require access to the servers, instances, or databases to provide support, but we may require access to the logs if we consider them necessary to identify the problem.
@@ -121,10 +129,6 @@ Types of logs we may require:
 1. Server logs
 2. Web browser logs
 3. Mobile logs
-
-## Monitoring
-
-We require monitoring for all supported installations. All installations must continually collect [Metrics](https://github.com/RocketChat/Rocket.Chat.Metrics) regarding the installation's instances and database. Rocket.Chat supports the industry-standard Prometheus + Grafana monitoring stack. Grafana dashboards required for support are available in the [Metrics](https://github.com/RocketChat/Rocket.Chat.Metrics) repository.
 
 ## Community support
 
