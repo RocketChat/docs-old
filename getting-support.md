@@ -43,7 +43,7 @@ October 1st our services will no longer continue to guarantee support for Rocket
 
 3 months after a new major release, e.g. 2.x, the last major release, e.g. 1.x, will have the Services support deprecated and you may receive warnings about the deprecation. 5 months after the deprecation the support will be removed and you may receive errors and warnings about incompatibility.
 
-Cloud Service Support:
+#### Cloud Service Support
 
 | Release | Deprecation Date | End of Life Date |
 | :--- | ---: | ---: |
@@ -58,7 +58,7 @@ Each Rocket.Chat release supports different versions of MongoDB, the table below
 
 > Rocket.Chat only adds or removes support of MongoDB versions on major releases so the minor versions are ommited on table below.
 
-MongoDB Support
+#### MongoDB Support
 
 | Release | Supported Versions | Deprecated Version |
 | :--- | ---: | ---: |
