@@ -4,6 +4,7 @@
 * [LDAP](https://docs.rocket.chat/administrator-guides/authentication/ldap/)
 * [Oauth](https://docs.rocket.chat/administrator-guides/authentication/oauth/)
 * [SAML](https://docs.rocket.chat/administrator-guides/authentication/saml/)
+* [Single Sign On \(Iframe\)](single-sign-on-iframe.md)
 * [Wordpress](https://docs.rocket.chat/administrator-guides/authentication/wordpress/)
 
 ## External Authentication
