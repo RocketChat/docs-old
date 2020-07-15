@@ -112,9 +112,9 @@ That being said, here's how you can find out if **your** browser version is stil
 * [Version history of Microsoft Edge](https://en.wikipedia.org/wiki/Microsoft_Edge#Release_history)
 * [Version history of Microsoft Internet Explorer](https://en.wikipedia.org/wiki/Internet_Explorer_version_history)
 
-## Hardware requirements
+## Hardware
 
-The support is limited to installations matching the requirements described in the [Minimum Requirements](installation/hardware-requirements.md) page.
+The support is limited to installations matching the requirements described in the [Minimum ](installation/hardware-requirements.md)[Hardware](installation/hardware-requirements.md) [Requirements](installation/hardware-requirements.md) page.
 
 ## Monitoring
 
