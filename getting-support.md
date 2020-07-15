@@ -12,7 +12,7 @@ Rocket.Chat provides Support for, at least, 3 months for each release. Rocket.Ch
 
 By "Support" we mean that Rocket.Chat will provide only security fixes and answer support tickets related to configuration and usage for the versions listed below. Bugs not related to security issues will be fixed only in new versions.
 
-| Release | Release Date | End of Life Date |
+| Rocket.Chat Release | Release Date | End of Life Date |
 | :--- | ---: | ---: |
 |  1.0 | Apr 2019 | Jul 2019 |
 | 1.1 | May 2019 | Aug 2019 |
@@ -45,7 +45,7 @@ October 1st our services will no longer continue to guarantee support for Rocket
 
 #### Cloud Service Support
 
-| Release | Deprecation Date | End of Life Date |
+| Rocket.Chat Release | Deprecation Date | End of Life Date |
 | :--- | ---: | ---: |
 | 0.x | Aug 2019 | Jan 2020 |
 | 1.x | Nov 2019 | Apr 2020 |
@@ -60,7 +60,7 @@ Each Rocket.Chat release supports different versions of MongoDB, the table below
 
 #### MongoDB Support
 
-| Release | Supported Versions | Deprecated Version |
+| Rocket.Chat Release | Supported Versions | Deprecated Version |
 | :--- | ---: | ---: |
 | 1.x | 3.2, 3.4, 3.6, 4.0 | 3.2 |
 | 2.x | 3.4, 3.6, 4.0 | 3.4 |
