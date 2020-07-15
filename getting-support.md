@@ -13,21 +13,21 @@ Rocket.Chat provides Support for, at least, 3 months for each release. Rocket.Ch
 By "Support" we mean that Rocket.Chat will provide only security fixes and answer support tickets related to configuration and usage for the versions listed below. Bugs not related to security issues will be fixed only in new versions.
 
 | Release | Release Date | End of Life Date |
-| :--- | :--- | :--- |
-| Rocket.Chat 1.0 | April 2019 | July 2019 |
-| Rocket.Chat 1.1 | May 2019 | August 2019 |
-| Rocket.Chat 1.2 | June 2019 | September 2019 |
-| **Rocket.Chat 1.3 \(LTS\)** | **July 2019** | **January 2020** |
-| Rocket.Chat 2.0 | August 2019 | November 2019 |
-| Rocket.Chat 2.1 | September 2019 | December 2019 |
-| Rocket.Chat 2.2 | October 2019 | January 2020 |
-| Rocket.Chat 2.3 | November 2019 | February 2020 |
-| **Rocket.Chat 2.4 \(LTS\)** | **December 2019** | **June 2020** |
-| Rocket.Chat 3.0 | February 2020 | April 2020 |
-| Rocket.Chat 3.1 | March 2020 | May 2020 |
-| Rocket.Chat 3.2 | April 2020 | June 2020 |
-| Rocket.Chat 3.3 | May 2020 | July 2020 |
-| Rocket.Chat 3.4 | June 2020 | TBD |
+| :--- | ---: | ---: |
+|  1.0 | Apr 2019 | Jul 2019 |
+| 1.1 | May 2019 | Aug 2019 |
+| 1.2 | Jun 2019 | Sep 2019 |
+| **1.3 \(LTS\)** | **Jul 2019** | **Jan 2020** |
+| 2.0 | Aug 2019 | Nov 2019 |
+| 2.1 | Sep 2019 | Dec 2019 |
+| 2.2 | Oct 2019 | Jan 2020 |
+| 2.3 | Nov 2019 | Feb 2020 |
+| **2.4 \(LTS\)** | **Dec 2019** | **Jun 2020** |
+| 3.0 | Feb 2020 | Apr 2020 |
+| 3.1 | Mar 2020 | May 2020 |
+| 3.2 | Apr 2020 | Jun 2020 |
+| 3.3 | May 2020 | Jul 2020 |
+| 3.4 | Jun 2020 | TBD |
 
 > Always update to latest stable version before reporting any bugs or before ask for help from community.
 
@@ -43,12 +43,14 @@ October 1st our services will no longer continue to guarantee support for Rocket
 
 3 months after a new major release, e.g. 2.x, the last major release, e.g. 1.x, will have the Services support deprecated and you may receive warnings about the deprecation. 5 months after the deprecation the support will be removed and you may receive errors and warnings about incompatibility.
 
-| Release | Cloud Service Support Deprecation | Cloud Service Support End of Life |
-| :--- | :--- | :--- |
-| Rocket.Chat 0.x | August 2019 | January 2020 |
-| Rocket.Chat 1.x | November 2019 | April 2020 |
-| Rocket.Chat 2.x | May 2020 | October 2020 |
-| Rocket.Chat 3.x | TBD | TBD |
+Cloud Service Support:
+
+| Release | Deprecation Date | End of Life Date |
+| :--- | ---: | ---: |
+| 0.x | Aug 2019 | Jan 2020 |
+| 1.x | Nov 2019 | Apr 2020 |
+| 2.x | May 2020 | Oct 2020 |
+| 3.x | TBD | TBD |
 
 ## Supported versions of MongoDB
 
@@ -56,11 +58,13 @@ Each Rocket.Chat release supports different versions of MongoDB, the table below
 
 > Rocket.Chat only adds or removes support of MongoDB versions on major releases so the minor versions are ommited on table below.
 
-| Release | MongoDB Supported Versions | MongoDB Deprecated Version |
-| :--- | :--- | :--- |
-| Rocket.Chat 1.x | 3.2, 3.4, 3.6, 4.0 | 3.2 |
-| Rocket.Chat 2.x | 3.4, 3.6, 4.0 | 3.4 |
-| Rocket.Chat 3.x | 3.4, 3.6, 4.0 | 3.4 |
+MongoDB Support
+
+| Release | Supported Versions | Deprecated Version |
+| :--- | ---: | ---: |
+| 1.x | 3.2, 3.4, 3.6, 4.0 | 3.2 |
+| 2.x | 3.4, 3.6, 4.0 | 3.4 |
+| 3.x | 3.4, 3.6, 4.0 | 3.4 |
 
 The upgrade guides available from the official MongoDB documentation are listed below. Bare in mind that it's not possible to skip a version when upgrading, e.g. to upgrade from 3.2 to 3.6 it's necessary to upgrade from 3.2 to 3.4 first and than to 3.6.
 
