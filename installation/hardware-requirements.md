@@ -2,7 +2,7 @@
 description: Minimum Requirements for Server Deployment
 ---
 
-# Minimum Requirements
+# Hardware Requirements
 
 Actual requirement varies greatly with:
 

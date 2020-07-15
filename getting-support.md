@@ -114,7 +114,7 @@ That being said, here's how you can find out if **your** browser version is stil
 
 ## Hardware requirements
 
-The support is limited to installations matching the requirements described in the [Minimum Requirements](installation/minimum-requirements.md) page.
+The support is limited to installations matching the requirements described in the [Minimum Requirements](installation/hardware-requirements.md) page.
 
 ## Monitoring
 
