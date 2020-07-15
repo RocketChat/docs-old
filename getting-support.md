@@ -31,7 +31,7 @@ By "Support" we mean that Rocket.Chat will provide only security fixes and answe
 
 > Always update to latest stable version before reporting any bugs or before ask for help from community.
 
-### Rocket.Chat Cloud customers
+### Rocket.Chat Cloud
 
 Rocket.Chat manages upgrades and provides support to Rocket.Chat Cloud users regardless of the release version. If a Rocket.Chat Cloud user with an outdated server version sends in a support request, his server might be upgraded to the latest stable version without acknowledgment to ensure the best performance.
 
