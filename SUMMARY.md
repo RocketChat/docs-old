@@ -2,7 +2,7 @@
 
 * [Welcome to Rocket.Chat Docs](README.md)
 * [Installing and Updating](installation/README.md)
-  * [Official Recommendations](installation/official-support-limitations.md)
+  * [Official Recommendations](installation/official-recommendations.md)
   * [Hardware Requirements](installation/hardware-requirements.md)
   * [Snaps](installation/snaps/README.md)
     * [Auto SSL with Snaps](installation/snaps/autossl.md)
