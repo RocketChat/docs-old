@@ -1,8 +1,8 @@
 ---
-description: Requirements for official support from the Rocket.Chat team
+description: Official Production Deployment Recommendations
 ---
 
-# Official support limitations
+# Official Recommendations
 
 ## Introduction
 
@@ -48,27 +48,17 @@ At this time, no other containers orchestration/management technologies will be 
 
 ### Monitoring
 
-We require monitoring for all supported installations. All installations must continually collect [Metrics](https://github.com/RocketChat/Rocket.Chat.Metrics) regarding the installation's instances and database. Rocket.Chat supports the industry-standard Prometheus + Grafana monitoring stack. Grafana dashboards required for support are available in the [Metrics](https://github.com/RocketChat/Rocket.Chat.Metrics) repository.
+Production deployments should continually collect metrics regarding the installation's instances and database. Rocket.Chat supports and recommends the industry-standard Prometheus + Grafana monitoring stack. Grafana dashboards are available in the [Metrics](https://github.com/RocketChat/Rocket.Chat.Metrics) repository.
 
-### Hardware requirements
+## Hardware requirements
 
-The minimum hardware requirements are described in the [Minimum Requirements](minimum-requirements.md) page, the support is limited to installations matching those requirements.
+The minimum hardware requirements are described in the Minimum Requirements page, the support is limited to installations matching those requirements.
 
 {% page-ref page="minimum-requirements.md" %}
 
-## Data access
-
-We do not require access to the servers, instances or databases to provide support, but we may require access to the logs if we consider them necessary to identify the problem.
-
-Types of logs we may require:
-
-1. Server logs
-2. Web browser logs
-3. Mobile logs
-
 ## Versions
 
-Rocket.Chat cuts a new release every single month, please check the [Getting Support](../getting-support.md) for more information about the release cycles and make sure you are running a supported version before contacting support.
+Rocket.Chat cuts a new release every single month, please check the Getting Support for more information about the release cycles and make sure you are running a supported version before contacting support.
 
 {% page-ref page="../getting-support.md" %}
 
