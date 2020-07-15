@@ -4,7 +4,7 @@ Setting up and running software is not always an easy thing. We get that. That's
 
 The following paragraphs will tell you about limits of the support the core team can give as well as where to find the community to help you and how you yourself can contribute by reporting bugs to us on GitHub.
 
-## Supported versions of Rocket.Chat
+## Supported versions
 
 > In case of security-relevant bugs we might decide to backport patches to older releases on a case-by-case basis. Please understand though, that those will be rare exceptions. If you want to play it safe, upgrade to latest stable.
 
