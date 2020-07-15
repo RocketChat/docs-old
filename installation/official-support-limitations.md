@@ -46,15 +46,17 @@ We require, for **scaled installations** \(with more than **one instance** or mo
 
 At this time, no other containers orchestration/management technologies will be supported by our Support team for any issues related to **scaled installations**.
 
-### Monitoring
-
-Production deployments should continually collect metrics regarding the installation's instances and database. Rocket.Chat supports and recommends the industry-standard Prometheus + Grafana monitoring stack. Grafana dashboards are available in the [Metrics](https://github.com/RocketChat/Rocket.Chat.Metrics) repository.
-
 ## Hardware requirements
 
 The minimum hardware requirements are described in the Minimum Requirements page, the support is limited to installations matching those requirements.
 
 {% page-ref page="minimum-requirements.md" %}
+
+## Monitoring
+
+Production deployments should continually collect metrics regarding the installation's instances and database. Rocket.Chat supports and recommends the industry-standard Prometheus + Grafana monitoring stack. Grafana dashboards are available in the [Metrics](https://github.com/RocketChat/Rocket.Chat.Metrics) repository.
+
+{% embed url="https://github.com/RocketChat/Rocket.Chat.Metrics" %}
 
 ## Versions
 
