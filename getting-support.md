@@ -16,6 +16,19 @@ In order to obtain official support from our team, we have a minimum set of requ
 
 Only installations matching these minimum requirements can be covered by our SLAs and our paid Support Policy, some requirements may vary depending on the installation size as described in the following sections.
 
+## Environment
+
+We require the installation to run the Docker image provided by the Rocket.Chat team, this makes it possible to isolate external factors. It ensures that the support request refers to our application and not to the following factors.
+
+1. Problems during the compilation process
+2. Problems during the installation process
+3. Missing or outdated dependencies
+4. Installation of non-official versions
+
+This ensures we can provide quick fixes and a more efficient way to reproduce problems leading to the most efficient support flow possible.
+
+{% page-ref page="installation/docker-containers/" %}
+
 ## Rocket.Chat versions
 
 Rocket.Chat provides support for, at least, 3 months for each release. Rocket.Chat provides support for 6 months to the latest releases of each major version, e.g. 1.3 is the latest release of major version 1.x before major version 2.0. Rocket.Chat may provide a longer period of support depending on the necessity, check the table below to verify the final support date of each release version.
