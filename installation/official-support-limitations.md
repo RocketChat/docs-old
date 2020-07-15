@@ -46,7 +46,7 @@ We require, for **scaled installations** \(with more than **one instance** or mo
 
 At this time, no other containers orchestration/management technologies will be supported by our Support team for any issues related to **scaled installations**.
 
-## Hardware requirements
+## Hardware
 
 The minimum hardware requirements are described in the Minimum Requirements page, the support is limited to installations matching those requirements.
 
