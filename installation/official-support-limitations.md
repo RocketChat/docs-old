@@ -12,26 +12,21 @@ Only installations matching these minimum requirements can be covered by our SLA
 
 ## Environment
 
-In order to isolate external issues of missing or outdated dependencies, specific operational system issues, or problems during the manual installations we limited our official support to only installations using our Docker Images that follows our [Getting Support](../getting-support.md) guide.
+#### Docker Container
 
-We may expand this in the future once we find other options suitable for the above isolation.
-
-### Why Docker?
+In order to eliminate environment issues of missing, outdated, or mismatching dependencies, specific operating system issues, or problems during manual installations, we strongly recommend using our official Docker images.
 
 [Docker](https://www.docker.com/) is widely used to package applications in containers and distribute them as images, providing abstraction and isolation layers from the OS \(operational system\). It allows the application to be shipped with a specific version of the OS compatibility layer and his own dependencies already installed and configured.
 
-We require the installation to run the Docker image provided by the Rocket.Chat team, this makes it possible to isolate external factor. It ensures that the support request refers to our application and not to the following factors.
-
-1. Problems during the compilation process
-2. Problems during the installation process
-3. Missing or outdated dependencies
-4. Installation of non-official versions
-
-Rocket.Chat's own cloud uses our official Docker images, which makes this installation method the most widely tested version. This ensures we can provide quick fixes and a more efficient way to reproduce problems leading to the most efficient support flow possible.
+{% hint style="info" %}
+Rocket.Chat's own cloud uses our official Docker images, which makes this installation method the most widely tested version. 
+{% endhint %}
 
 {% page-ref page="docker-containers/" %}
 
 ## Scalability
+
+#### Containers Orchestration
 
 The usage of Docker-compatible containers orchestration/management systems such as Kubernetes, Rancher, or OpenShift can facilitate the scaling of containerized Rocket.Chat instances making it possible to distribute load among different physical bare-metal servers or virtual machines.
 
