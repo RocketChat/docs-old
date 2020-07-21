@@ -84,6 +84,13 @@ If you want to remove the card information before canceling your subscription, p
 
 No, credit/debit card is the only payment method we accept at the moment.
 
+## Domain Change
+
+For SaaS Silver and Gold plans, customers are allowed to setup custom domain for their workspaces. The steps below describes the process to setup a custom domain.
+
+1. Set up a CNAME DNS record for "domain\_you\_want" pointing to "**cdns.use1.cloud.rocket.chat**" \(for US region\) and to "**cdns.euc1.cloud.rocket.chat**" \(for EU region\).
+2. Once done, let us know via submitting a ticket here on our Helpdesk or dropping us an email to [support@rocket.chat](mailto:support@rocket.chat) and our Cloud engineers will configure your instance accordingly.
+
 
 
 #### 
