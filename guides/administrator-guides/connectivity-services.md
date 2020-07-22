@@ -11,7 +11,9 @@ Rocket.Chat Cloud provides a list of features/services such as
 
 In order to use those services, Rocket.Chat server must be connected to [cloud.rocket.chat](https://cloud.rocket.chat/). Below are the steps required to connect and synchronize a Rocket.Chat self hosted server to our cloud infrastructure.
 
-#### Important: the steps below are required _only_ for self managed instances. Rocket.Chat SaaS workspaces are always connected to our Cloud infrastructure.
+#### Important 1: the steps below are required _only_ for self managed instances. Rocket.Chat SaaS workspaces are always connected to our Cloud infrastructure.
+
+**Important 2: In order to connect your server to our Cloud, your Rocket.Chat server must be at least on version 1.3.2.**
 
 ## Registration steps
 
@@ -49,15 +51,21 @@ Fill up the "Email" field with the email related to your Rocket.Chat Cloud accou
 
 8. The "Connect" button will set the connection between your Rocket.Chat server and Rocket.Chat Cloud console. When the connection is successful, the _Connectivity Services_ panel will look like this:
 
+
+
 ![](../../.gitbook/assets/c_10.png)
+
+**Important: For some cases, the following error might be triggered after hitting the "Connect" button:**
+
+![](../../.gitbook/assets/screenshot_490.png)
+
+**Please disregard this error as it is getting incorrectly triggered from Rocket.Chat server side.**
 
 9. Finally, in order to ensure the synchronization between Rocket.Chat server and Rocket.Chat Cloud, hit the "Sync" button as this will trigger the synchronization framework. 
 
 This is recommended right after registering your server. The newly registered workspace will be listed in the "Workspace" section at [cloud.rocket.chat](https://cloud.rocket.chat/)
 
 ![](../../.gitbook/assets/screenshot_481.png)
-
-
 
 
 
