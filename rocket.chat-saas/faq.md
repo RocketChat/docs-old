@@ -82,14 +82,28 @@ If you want to remove the card information before canceling your subscription, p
 
 #### Can I use other payment method rather than credit/debit card?
 
-No, credit/debit card is the only payment method we accept at the moment.
+Credit/debit card is the only payment method we accept at the moment.
 
-## Domain Change
+For companies paying up-front for a specific period we do provide invoices to pay by wire transfer. 
 
-For SaaS Silver and Gold plans, customers are allowed to setup custom domain for their workspaces. The steps below describes the process to setup a custom domain.
+#### How can I have more than one Cloud workspaces under the same Cloud account?
 
-1. Set up a CNAME DNS record for "domain\_you\_want" pointing to "**cdns.use1.cloud.rocket.chat**" \(for US region\) and to "**cdns.euc1.cloud.rocket.chat**" \(for EU region\).
-2. Once done, let us know via submitting a ticket here on our Helpdesk or dropping us an email to [support@rocket.chat](mailto:support@rocket.chat) and our Cloud engineers will configure your instance accordingly.
+Adding more instances to your Cloud account can only be done by our engineers. Reach out to us at support@rocket.chat and specify the following data for the new workspace you want to add:
+
+* workspace name
+* SaaS plan and billing period \(monthly or annual payment\)
+* number of seats
+* region of the deployment \(US or EU\)
+
+#### How to change Cloud account email?
+
+Cloud account email can be changed at cloud.rocket.chat on the Profile page. If you have difficulties changing the email of the account owner contact us at support@rocket.chat. The request must be sent from the original account owner email. 
+
+#### How to request a custom domain?  
+
+To request a custom domain, set up a CNAME DNS record for the domain name you want to have pointing to "**cdns.use1.cloud.rocket.chat**" \(for US region\) and to "**cdns.euc1.cloud.rocket.chat**" \(for EU region\). Afterwards, send us an email to support@rocket.chat so we could make respective changes to your workspace. 
+
+Please note that custom domain is available in Silver and Gold plans only on SaaS offering. 
 
 
 
