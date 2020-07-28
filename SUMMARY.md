@@ -95,6 +95,7 @@
     * [Omnichannel Queue Types](guides/administrator-guides/omnichannel/livechat-queues.md)
     * [Integrating Livechat with Facebook Messenger](guides/administrator-guides/omnichannel/omnichannel-integration.md)
     * [WhatsApp Integration / Twilio](guides/administrator-guides/omnichannel/whatsapp-twilio.md)
+    * [Canned responses](guides/administrator-guides/omnichannel/canned-responses.md)
   * [Authentication](guides/administrator-guides/authentication/README.md)
     * [OAuth Provider Configuration](guides/administrator-guides/authentication/oauth/README.md)
       * [Okta Identity Cloud Service](guides/administrator-guides/authentication/oauth/okta.md)
