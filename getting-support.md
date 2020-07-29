@@ -50,11 +50,12 @@ In case of security-relevant bugs, we might decide to backport patches to older 
 | 2.2 | Oct 2019 | Jan 2020 |
 | 2.3 | Nov 2019 | Feb 2020 |
 | **2.4 \(LTS\)** | **Dec 2019** | **Jun 2020** |
-| 3.0 | Feb 2020 | Apr 2020 |
-| 3.1 | Mar 2020 | May 2020 |
-| 3.2 | Apr 2020 | Jun 2020 |
-| 3.3 | May 2020 | Jul 2020 |
-| 3.4 | Jun 2020 | TBD |
+| 3.0 | Feb 2020 | May 2020 |
+| 3.1 | Mar 2020 | Jun 2020 |
+| 3.2 | Apr 2020 | Jul 2020 |
+| 3.3 | May 2020 | Aug 2020 |
+| 3.4 | Jun 2020 | Sep 2020 |
+| 3.5 | July 2020 | TBD |
 
 > Always update to latest stable version before reporting any bugs or before ask for help from community.
 
