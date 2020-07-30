@@ -69,6 +69,8 @@
 
 ## Guides
 
+* [Mobile Apps](guides/mobile-apps/README.md)
+  * [Whitelabeling mobile apps](guides/mobile-apps/whitelabeling-mobile-apps.md)
 * [User Guides](guides/user-guides/README.md)
   * [Channel Actions](guides/user-guides/channel-actions.md)
   * [Channels](guides/user-guides/channels.md)
