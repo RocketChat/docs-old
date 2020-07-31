@@ -1,10 +1,10 @@
 # Terms of Service
 
-_Effective date: June 11, 2019_
+_Effective date: August 2nd, 2019_
 
 ## Terms
 
-These Customer Terms of Service (the “Customer Terms”) describe your rights and responsibilities when using Rocket.Chat Services (the "Services"), such as Rocket.Chat Cloud Hosting, Support Plans, or any other services we may provide to you, the customer. These terms **do not** apply to on-premises installation of Rocket.Chat. Please read them carefully. 
+These Customer Terms of Service (the “Customer Terms”) describe your rights and responsibilities when using Rocket.Chat Services (the "Services"), such as Rocket.Chat Cloud Hosting, Support Plans, Marketplace or any other services we may provide to you, the customer. Some sections of these terms only apply to specific Services, as indicated by the headings of the respective paragraph. These Customer Terms **do not** apply to on-premises installation of Rocket.Chat. Please read the Customer Terms carefully. 
 
 **Legal Binding**
 
@@ -12,7 +12,7 @@ These Customer Terms form a part of a binding "Contract" between Customer and us
 
 **Customer Data**
 
-When a User (including you) submits content or information to the Services, such as messages or files (“User Data”), you acknowledge and agree that the Customer Data is owned by Rocket.Chat he retains ownership of any intellectual property rights in that content. 
+When a User (including you) submits content or information to the Services, such as messages or files (“User Data”), the Customer retains ownership of any intellectual property rights in that content. 
 
 With regards to Services operated directly by Rocket.Chat:
 
@@ -57,45 +57,74 @@ You may not:
 
 **Limitation of Liability**
 
-If we believe that there is a violation of the User Terms or any of our other policies that can simply be remedied by removal of certain Customer Data or taking other action, we may directly step in and take what we determine to be appropriate action (including disabling your account) if we believe there is a credible risk of harm to us, the Services, Users, or any third parties. IN NO EVENT WILL YOU OR WE HAVE ANY LIABILITY TO THE OTHER FOR ANY LOST PROFITS OR REVENUES OR FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, COVER OR PUNITIVE DAMAGES HOWEVER CAUSED, WHETHER IN CONTRACT, TORT OR UNDER ANY OTHER THEORY OF LIABILITY, AND WHETHER OR NOT THE PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. YOU WILL HAVE NO FINANCIAL LIABILITY TO US FOR A BREACH OF THESE USER TERMS. OUR MAXIMUM AGGREGATE LIABILITY TO YOU FOR ANY BREACH OF THE USER TERMS IS ONE HUNDRED DOLLARS ($100) IN THE AGGREGATE. THE FOREGOING DISCLAIMERS WILL NOT APPLY TO THE EXTENT PROHIBITED BY APPLICABLE LAW AND DO NOT LIMIT EITHER PARTY’S RIGHT TO SEEK AND OBTAIN EQUITABLE RELIEF.
+If we believe that there is a violation of the Customer Terms or any of our other policies that can simply be remedied by removal of certain Customer Data or taking other action, we may directly step in and take what we determine to be appropriate action (including disabling your account) if we believe there is a credible risk of harm to us, the Services, Users, or any third parties. 
+To the maximum extent permitted by law, Rocket.Chat offers the Products “AS IS” and “AS AVAILABLE”, and Rocket.Chat hereby disclaims all warranties, whether express, implied or statutory, including but not limited to any implied warranties of title, non-infringement, merchantability or fitness for a particular purpose, relating to these Terms. You may have other statutory rights, in which case the duration of any statutory warranties will be limited to the maximum extent permitted by law.
+IN NO EVENT WILL YOU OR WE HAVE ANY LIABILITY TO THE OTHER FOR ANY LOST PROFITS OR REVENUES OR FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, COVER OR PUNITIVE DAMAGES HOWEVER CAUSED, WHETHER IN CONTRACT, TORT OR UNDER ANY OTHER THEORY OF LIABILITY, AND WHETHER OR NOT THE PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. OUR MAXIMUM AGGREGATE LIABILITY TO YOU FOR ANY BREACH OF THE CUSTOMER TERMS IS ONE HUNDRED DOLLARS ($100) IN THE AGGREGATE. THE FOREGOING DISCLAIMERS WILL NOT APPLY TO THE EXTENT PROHIBITED BY APPLICABLE LAW AND DO NOT LIMIT EITHER PARTY’S RIGHT TO SEEK AND OBTAIN EQUITABLE RELIEF.
 
 **General Provisions**
 
 **Email and Rocket.Chat Messages**
 
-Except as otherwise set forth herein, all notices under the User Terms will be by email, although we may instead choose to provide notice to Users through the Services (e.g., a bot notification). Notices to Rocket.Chat should be sent to contact@rocket.chat. A notice will be deemed to have been duly given (a) the day after it is sent, in the case of a notice sent through email; and (b) the same day, in the case of a notice sent through the Services.
+Except as otherwise set forth herein, all notices under the Customer Terms will be by email, although we may instead choose to provide notice to Customers through the Services (e.g., a bot notification). Notices to Rocket.Chat should be sent to contact@rocket.chat. A notice will be deemed to have been duly given (a) the day after it is sent, in the case of a notice sent through email; and (b) the same day, in the case of a notice sent through the Services.
 
 **Privacy Policy**
 
-Please review our Privacy Policy for more information on how we collect and use data relating to the use and performance of our products.
+Please review our Privacy Policy for more information on how we collect and use data relating to the use and performance of our products and services.
 
 **Modifications**
 
-As our business evolves, we may change these User Terms. If we make a material change to the User Terms, we will provide you with reasonable notice prior to the change taking effect either by emailing the email address associated with your account or by messaging you through the Services. You can review the most current version of the User Terms at any time by visiting this page. Any material revisions to these User Terms will become effective on the date set forth in our notice, and all other changes will become effective on the date we publish the change. If you use the Services after the effective date of any changes, that use will constitute your acceptance of the revised terms and conditions.
+As our business evolves, we may change these Customer Terms. If we make a material change to the Customer Terms, we will provide you with reasonable notice prior to the change taking effect either by emailing the email address associated with your account or by messaging you through the Services. You can review the most current version of the Customer Terms at any time by visiting this page. Any material revisions to these Customer Terms will become effective on the date set forth in our notice, and all other changes will become effective on the date we publish the change. If you use the Services after the effective date of any changes, that use will constitute your acceptance of the revised terms and conditions.
 
 **Waiver**
 
-No failure or delay by either party in exercising any right under the User Terms will constitute a waiver of that right. No waiver under the User Terms will be effective unless made in writing and signed by an authorized representative of the party being deemed to have granted the waiver.
+No failure or delay by either party in exercising any right under the Customer Terms will constitute a waiver of that right. No waiver under the Customer Terms will be effective unless made in writing and signed by an authorized representative of the party being deemed to have granted the waiver.
 
 **Severability**
 
-The User Terms will be enforced to the fullest extent permitted under applicable law. If any provision of the User Terms is held by a court of competent jurisdiction to be contrary to law, the provision will be modified by the court and interpreted so as best to accomplish the objectives of the original provision to the fullest extent permitted by law, and the remaining provisions of the User Terms will remain in effect.
+The Customer Terms will be enforced to the fullest extent permitted under applicable law. If any provision of the Customer Terms is held by a court of competent jurisdiction to be contrary to law, the provision will be modified by the court and interpreted so as best to accomplish the objectives of the original provision to the fullest extent permitted by law, and the remaining provisions of the Customer Terms will remain in effect.
 
 **Assignment**
 
-You may not assign any of your rights or delegate your obligations under these User Terms, whether by operation of law or otherwise, without the prior written consent of us (not to be unreasonably withheld). We may assign these User Terms in their entirety (including all terms and conditions incorporated herein by reference), without your consent, to a corporate affiliate or in connection with a merger, acquisition, corporate reorganization, or sale of all or substantially all of our assets.
+You may not assign any of your rights or delegate your obligations under these Customer Terms, whether by operation of law or otherwise, without the prior written consent of us (not to be unreasonably withheld). We may assign these Customer Terms in their entirety (including all terms and conditions incorporated herein by reference), without your consent, to a corporate affiliate or in connection with a merger, acquisition, corporate reorganization, or sale of all or substantially all of our assets.
 
 **Governing Law; Venue; Waiver of Jury Trial; Fees**
 
-The User Terms, and any disputes arising out of or related hereto, will be governed exclusively by the applicable governing law of California, without regard to conflicts of laws rules or the United Nations Convention on the International Sale of Goods. In any action or proceeding to enforce rights under the User Terms, the prevailing party will be entitled to recover its reasonable costs and attorney’s fees.
+The Customer Terms, and any disputes arising out of or related hereto, will be governed exclusively by the applicable governing law of California, without regard to conflicts of laws rules or the United Nations Convention on the International Sale of Goods. In any action or proceeding to enforce rights under the Customer Terms, the prevailing party will be entitled to recover its reasonable costs and attorney’s fees.
+
+**Rocket.Chat Marketplace; Specific Provisions**
+Rocket.Chat Marketplace is an online marketplace for plugins, addons and extensions ("Apps") that work with Rocket.Chat´s products. The following sections govern specific provisions regarding the Marketplace in the context of these Customer Terms.
+
+***App Listing***
+The listing for each App will identify the provider of the App (“Vendor”), which may be Rocket.Chat or a third party. Apps for which Rocket.Chat is the Vendor are "Rocket.Chat Apps,” and Apps for which the Vendor is a third party are “Third Party Apps”. 
+
+***Orders***
+You can place Orders on the Marketplace. Your Order will identify the Vendor, your authorized scope of use of the App and license or subscription term, as applicable. For any Third Party App, you agree that Rocket.Chat is the Vendor’s commercial agent and that you are required to make any related payments directly to Rocket.Chat, except where Third Party Apps may be enabled or paid for through a third party Vendor’s own website and this is indicated in the App listing. Once you complete your Order, Rocket.Chat will provide you with access to the applicable Apps. Apps are provided on a license or subscription basis and you do not acquire any ownership rights in the Marketplace or the Apps. 
+You may terminate your Order of an App under these Terms, for no reason or any reason, by providing notice of termination to us no later than fourteen (14) days after the Order date for such App. In the event you terminate your initial Order, we will refund you the amount paid under the Order. This termination and refund right applies only to your initial Order of the App and only if you exercise your termination right within the period specified above, and does not apply to Additional Services. The Marketplace may also offer free trial periods for Apps. After expiration of the trial period, if you do not place an Order for the App, the App will cease to function and you must cease using and delete your copies of the App.
+
+***Usage of Apps***
+Without limiting the disclaimers, restrictions or other provisions in these Terms of Use, usage of Apps is subject to license or subscription terms, privacy policies and other applicable terms specified by the Vendor (“Vendor Terms”). Vendor Terms are typically included on the App’s listing page or presented through the Order process. You may not use an App if you do not agree to the relevant Vendor Terms.  
+Third Party Apps are subject to the third party’s Vendor Terms, not Rocket.Chat Terms. By ordering, installing or enabling any Third Party App, you are entering into the Vendor Terms directly with the applicable third party Vendor. Any support and maintenance of Third Party Apps will be provided by the applicable Vendor to the extent described in the applicable Vendor Terms.
+
+***Access to Data***
+If you place an Order for Apps, you authorize Vendors to access or use certain data in the applicable Rocket.Chat Products. This may include transmitting, transferring, modifying or deleting such data, or storing such data on Vendor or third party systems. 
+For Rocket.Chat Apps, this access and use is covered by our privacy policy.
+Any third party Vendor’s use of accessed data (whether data in the Rocket.Chat Products or separately collected from you or your device) is subject to the applicable Vendor Terms. You are solely responsible for your decision to permit any third party Vendor or Third Party App to access or use data to which you’ve granted access. It is your responsibility to carefully review the Vendor Terms, as provided by the applicable third party Vendor.
+
+***Responsibilities***
+You represent and warrant that you have all necessary authority to enter into and be legally bound by these Terms of Use, to place any Orders and to authorize Vendors to access and use your data and information.
+
+***Marketplace Disclaimers and Liability***
+Third party Vendors are solely responsible for their Apps and any related content or materials included in their Apps. Rocket.Chat has no liability or responsibility whatsoever for any Third Party Apps, even if Rocket.Chat has reviewed, certified, or approved the Third Party App. Any use of Third Party Apps is at your sole discretion and risk. Vendors are solely responsible for the information they provide.
+At any time, Rocket.Chat may remove an App from the Marketplace in accordance with applicable policies, and Vendors may also update, modify or remove their own Apps at any time.
+Rocket.Chat makes no guarantee that any Apps will work properly with Rocket.Chat Products as they change over time.
 
 **Entire Agreement**
 
-The User Terms, including any terms incorporated by reference into the User Terms, constitute the entire agreement between you and us and supersede all prior and contemporaneous agreements, proposals or representations, written or oral, concerning its subject matter. To the extent of any conflict or inconsistency between the provisions in these User Terms and any pages referenced in these User Terms, the terms of these User Terms will first prevail, followed by the pages referenced in these User Terms (e.g., the Privacy Policy). 
+The Customer Terms, including any terms incorporated by reference into the Customer Terms, constitute the entire agreement between you and us and supersede all prior and contemporaneous agreements, proposals or representations, written or oral, concerning its subject matter. To the extent of any conflict or inconsistency between the provisions in these Customer Terms and any pages referenced in these Customer Terms, the terms of these Customer Terms will first prevail, followed by the pages referenced in these Customer Terms (e.g., the Privacy Policy). 
 
 **Contacting Rocket.Chat**
 
-Please also feel free to contact us if you have any questions about Rocket.Chat’s User Terms of Service. You may contact us at contact@rocket.chat or at our mailing address below:
+Please also feel free to contact us if you have any questions about Rocket.Chat’s Customer Terms of Service. You may contact us at contact@rocket.chat or at our mailing address below:
 
 Rocket.Chat Technologies Corp.
 2711 Centerville Road, Suite 400
