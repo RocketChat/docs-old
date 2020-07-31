@@ -616,3 +616,7 @@
 
 * [FAQ](rocket.chat-saas/faq.md)
 
+## Legal
+
+* [Terms of Service](legal/terms.md)
+
