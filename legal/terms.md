@@ -1,6 +1,6 @@
 # Terms of Service
 
-_Effective date: January 29, 2019_
+_Effective date: June 11, 2019_
 
 ## Terms
 
@@ -12,9 +12,15 @@ These Customer Terms form a part of a binding "Contract" between Customer and us
 
 **Customer Data**
 
-When a User (including you) submits content or information to the Services, such as messages or files (“Customer Data”), you acknowledge and agree that the Customer Data is owned by Rocket.Chat. Rocket.Chat may provision or deprovision access to the Services, enable or disable third party integrations, manage permissions, retention and export settings, transfer or assign workspaces, share channels, or consolidate this workspace or channels with other workspaces or channels, and these choices and instructions may result in the access, use, disclosure, modification or deletion of certain or all Customer Data. 
+When a User (including you) submits content or information to the Services, such as messages or files (“User Data”), you acknowledge and agree that the Customer Data is owned by Rocket.Chat he retains ownership of any intellectual property rights in that content. 
 
-You may access, import, and export all your Customer Data, including private channels and direct messages through your Account preferences panel. You may also request that your account is deleted, together with all messages you have previously sent and your personal information, such as names and email addresses.
+With regards to Services operated directly by Rocket.Chat:
+
+When a User uploads or otherwise submits content to our Services, he gives Rocket.Chat a worldwide license to use, host, store, reproduce, modify, create derivative works (e.g. as translations, adaptations or other changes we make so that the content in question works better with the Services), communicate, publish, perform, display and distribute such content. The rights a User grants in this license are for the limited purpose of operating and improving the Services, and to develop new ones. (For a more thorough description of the limited purposes we use a User’s personal data, please refer to our Privacy Policy.) This license does not expire even if you stop using the Services (for example, so that Rocket.Chat can deliver a message that you sent to another User before you stopped using our Services). If User employs the Services to share content with others, anyone he has shared content with (including the general public, in certain circumstances) may have access to the content, depending on the channels and the way the content was shared.
+
+Rocket.Chat may provision or deprovision access to the Services, enable or disable third party integrations, manage permissions, retention and export settings, transfer or assign workspaces, share channels, or consolidate this workspace or channels with other workspaces or channels, and these choices and instructions may result in the access, use, disclosure, modification or deletion of certain or all User Data.
+
+You may access, import, and export all your UserCustomer Data, including private channels and direct messages through your Account preferences panel. You may also request that your account is deleted, together with all the messagesall messages you have previously sent and your personal information, such as names and email addresses.
 
 **Legal Age**
 
