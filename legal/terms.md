@@ -1,10 +1,10 @@
 # Terms of Service
 
-_Effective date: May 22, 2018_
+_Effective date: January 29, 2019_
 
 ## Terms
 
-These Customer Terms of Service (the “Customer Terms”) describe your rights and responsibilities when using Rocket.Chat Services (the "Services"), such as Rocket.Chat Cloud Hosting, Support Plans, or any other services we may provide to you, the customer. Please read them carefully. 
+These Customer Terms of Service (the “Customer Terms”) describe your rights and responsibilities when using Rocket.Chat Services (the "Services"), such as Rocket.Chat Cloud Hosting, Support Plans, or any other services we may provide to you, the customer. These terms **do not** apply to on-premises installation of Rocket.Chat. Please read them carefully. 
 
 **Legal Binding**
 
