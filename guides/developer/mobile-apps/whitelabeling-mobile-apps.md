@@ -75,7 +75,7 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
   * cd android/app
   * keytool -genkeypair -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
 * Credentials will be prompted
-  * ![](../../.gitbook/assets/15.png)
+  * ![](../../../.gitbook/assets/15.png)
 * Set \`KEYSTORE\_PASSWORD\` and \`KEY\_PASSWORD\` on [./android/gradle.properties](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/single-server/android/gradle.properties) with the passwords you were prompted
 
 ### Generating Android app on Firebase
@@ -99,7 +99,7 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 
 * Go to your Rocket.Chat admin page &gt; Push
 * Disable “Gateway” and press “Save changes”
-  * ![](../../.gitbook/assets/21.png)
+  * ![](../../../.gitbook/assets/21.png)
 * Also disable “Production”, if you’re trying in debug mode
 * Expand “Credentials and Keys” section
 
@@ -108,7 +108,7 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 * Go to Cloud Messaging on Firebase settings
 * Copy “Server Key” token from Firebase into “GCM API Key”
 * Copy “Sender ID” into “GCM Project Number”
-* ![](../../.gitbook/assets/22.png)
+* ![](../../../.gitbook/assets/22.png)
 
 ### Configuring iOS
 
@@ -146,7 +146,7 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 * Visit [https://developer.apple.com/account](https://developer.apple.com/account/resources/certificates/list)
 * Enter your credentials
 * Click on Certificates, Identifiers & Profiles
-  * ![](../../.gitbook/assets/23.png)
+  * ![](../../../.gitbook/assets/23.png)
 
 ### Creating an App Identifier
 
@@ -168,7 +168,7 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 * Visit [https://developer.apple.com/account/resources/identifiers/list](https://developer.apple.com/account/resources/identifiers/list)
 * Click on the first identifier you created
 * On “Push Notifications”, click “Configure”
-* ![](../../.gitbook/assets/30.png)
+* ![](../../../.gitbook/assets/30.png)
 
 #### 
 

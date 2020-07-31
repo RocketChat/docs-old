@@ -69,8 +69,6 @@
 
 ## Guides
 
-* [Mobile Apps](guides/mobile-apps/README.md)
-  * [Whitelabeling mobile apps](guides/mobile-apps/whitelabeling-mobile-apps.md)
 * [User Guides](guides/user-guides/README.md)
   * [Channel Actions](guides/user-guides/channel-actions.md)
   * [Channels](guides/user-guides/channels.md)
@@ -189,6 +187,7 @@
     * [CSS Styleguide](guides/developer/code-styleguide/less.md)
   * [Internationalization](guides/developer/internationalization.md)
   * [Mobile apps](guides/developer/mobile-apps/README.md)
+    * [Whitelabeling mobile apps](guides/developer/mobile-apps/whitelabeling-mobile-apps.md)
     * [Supporting SSL for development on Rocket.Chat](guides/developer/mobile-apps/supporting-ssl.md)
     * [Analytics & Data Usage](guides/developer/mobile-apps/analytics.md)
   * [UI and Theming](guides/developer/ui-and-theming/README.md)
