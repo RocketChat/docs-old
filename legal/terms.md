@@ -1,8 +1,6 @@
 # Terms of Service
 
-_Effective date: May 27th, 2020_
-
-## Terms
+_Effective date: July 4th, 2020_
 
 These Customer Terms of Service (the “Customer Terms”) describe your rights and responsibilities when using Rocket.Chat Services (the "Services"), such as Rocket.Chat Cloud Hosting, Support Plans, Marketplace or any other services we may provide to you, the customer. Some sections of these terms only apply to specific Services, as indicated by the headings of the respective paragraph. These Customer Terms **do not** apply to on-premises installation of Rocket.Chat. Please read the Customer Terms carefully. 
 
@@ -70,6 +68,19 @@ IN NO EVENT WILL YOU OR WE HAVE ANY LIABILITY TO THE OTHER FOR ANY LOST PROFITS 
 
 Except as otherwise set forth herein, all notices under the Customer Terms will be by email, although we may instead choose to provide notice to Customers through the Services (e.g., a bot notification). Notices to Rocket.Chat should be sent to contact@rocket.chat. A notice will be deemed to have been duly given (a) the day after it is sent, in the case of a notice sent through email; and (b) the same day, in the case of a notice sent through the Services.
 
+**TERM; TERMINATION.**
+
+***Term.*** These Customer Terms will begin on the Effective Date and will continue until terminated by either party as outlined in this Section (the "**Term**").
+
+***Suspension or Termination Rights.*** You may terminate these Customer Terms at any time upon 30 days' written notice to Rocket.Chat. Either party may terminate these Customer Terms immediately upon 30 days’ written notice to the other party in the event of any material breach of this Agreement (including without limitation, any failure to pay any amounts when due hereunder) by such party where such material breach is not cured during such notice period.
+Either party may terminate these Customer Terms, without notice, (i) upon the institution by or against the other party of insolvency, receivership or bankruptcy proceedings (provided such proceedings are not dismissed within one hundred twenty (120) days of such institution), (ii) upon the other party's making an assignment for the benefit of creditors, or (iii) upon the other party's dissolution or ceasing to do business without a successor.
+
+***Refund Policy.***
+You are entitled to a full refund of pre-paid fees if you terminate your initial order within 30 days of the order date.
+You are also entitled to a refund in the event that You terminate this Agreement after 30 days of the order date pursuant to a material breach by Rocket.Chat. In this case, Rocket.Chat will refund You a pro-rated, undiscounted portion of pre-paid Fees for Services not actually received by You as of the date of such termination.
+
+***Effect of Termination.*** Unless You are entitled for a refund as described above, Termination shall not relieve You of the obligation to pay any fees or other amounts accrued or payable to Rocket.Chat through the end of the Term. Without prejudice to any other rights, upon termination, You must cease all use of the Services, Software, and Documentation and destroy or return (upon request by Rocket.Chat) all copies of the Services, Software, and Documentation. You further acknowledge and agree that You will retrieve Your Data or copies of Your Data from Rocket.Chat within thirty (30) business days of the termination of these Customer Terms. Unless in accordance with our internal policies, contractual, legal, or other obligation, You acknowledge and agree that Rocket.Chat has the right to delete Your Data, including any and all copies thereof. Your Data, once deleted, will not be able to be recovered.
+
 **Privacy Policy**
 
 Please review our Privacy Policy for more information on how we collect and use data relating to the use and performance of our products and services.
@@ -123,7 +134,7 @@ Rocket.Chat makes no guarantee that any Apps will work properly with Rocket.Chat
 
 **Entire Agreement**
 
-The Customer Terms, including any terms incorporated by reference into the Customer Terms, constitute the entire agreement between you and us and supersede all prior and contemporaneous agreements, proposals or representations, written or oral, concerning its subject matter. To the extent of any conflict or inconsistency between the provisions in these Customer Terms and any pages referenced in these Customer Terms, the terms of these Customer Terms will first prevail, followed by the pages referenced in these Customer Terms (e.g., the Privacy Policy). 
+The Customer Terms, including any terms or order forms incorporated by reference into the Customer Terms, constitute the entire agreement between you and us and supersede all prior and contemporaneous agreements, proposals or representations, written or oral, concerning its subject matter. To the extent of any conflict or inconsistency between the provisions in these Customer Terms and any pages referenced in these Customer Terms, the terms of these Customer Terms will first prevail, followed by the pages referenced in these Customer Terms (e.g., the Privacy Policy). 
 
 **Contacting Rocket.Chat**
 
