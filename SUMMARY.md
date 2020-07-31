@@ -85,7 +85,7 @@
 * [Administrator Guides](guides/administrator-guides/README.md)
   * [General](guides/administrator-guides/general.md)
   * [CDN](guides/administrator-guides/cdn.md)
-  * [White-Labeling](guides/administrator-guides/white-labeling/README.md)
+  * [White-Labeling \(Server and Web App\)](guides/administrator-guides/white-labeling/README.md)
     * [Advanced White-Labeling](guides/administrator-guides/white-labeling/advanced-white-labeling.md)
     * [Basic White-labeling](guides/administrator-guides/white-labeling/basic-white-labeling.md)
   * [Connectivity Services](guides/administrator-guides/connectivity-services.md)
