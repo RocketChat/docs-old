@@ -1,6 +1,6 @@
 # Terms of Service
 
-_Effective date: March 16th, 2020_
+_Effective date: May 27th, 2020_
 
 ## Terms
 
@@ -20,7 +20,7 @@ When a User uploads or otherwise submits content to our Services, he gives Rocke
 
 Rocket.Chat may provision or deprovision access to the Services, enable or disable third party integrations, manage permissions, retention and export settings, transfer or assign workspaces, share channels, or consolidate this workspace or channels with other workspaces or channels, and these choices and instructions may result in the access, use, disclosure, modification or deletion of certain or all User Data.
 
-You may access, import, and export all your UserCustomer Data, including private channels and direct messages through your Account preferences panel. You may also request that your account is deleted, together with all the messagesall messages you have previously sent and your personal information, such as names and email addresses.
+You may access, import, and export all your User Customer Data, including private channels and direct messages through your Account preferences panel. You may also request that your account is deleted, together with all the messagesall messages you have previously sent and your personal information, such as names and email addresses.
 
 **Legal Age**
 
@@ -55,6 +55,8 @@ You may not:
  - use contact or other user information obtained from the Services (including email addresses) to contact Users outside of the Services without their express permission or authority or to create or distribute mailing lists or other collections of contact or user profile information for Users for use outside of the Services; or
  - authorize, permit, enable, induce or encourage any third party to do any of the above.
 
+**API Fair Use**
+Many of our services work via API calls managed under a central infrastructure of us. You may not place excessive API calls or otherwise deliberately try to overburden this API system. We may throttle your use of the APIs in case we deem it necessary to facilitate an overall acceptable service level across our infrastructure (e.g. such as in the case of continued, excessive API usage). We may monitor use of the APIs for compliance with these rules, and we may deny you access to the API or shut down your Integration if you try to go around or break the policies we set. If your Service Order includes a defined API limit or minimum, then the Service Order controls.
 
 **Limitation of Liability**
 
@@ -128,6 +130,6 @@ The Customer Terms, including any terms incorporated by reference into the Custo
 Please also feel free to contact us if you have any questions about Rocket.Chat’s Customer Terms of Service. You may contact us at contact@rocket.chat or at our mailing address below:
 
 Rocket.Chat Technologies Corp.
-2711 Centerville Road, Suite 400
+251 Little Falls Rd
 Wilmington, DE, 19808
 USA
