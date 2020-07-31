@@ -1,6 +1,6 @@
 # Terms of Service
 
-_Effective date: August 2nd, 2019_
+_Effective date: March 16th, 2020_
 
 ## Terms
 
@@ -35,6 +35,7 @@ You must:
  - upload and disseminate only Customer Data to which you own all required rights under law and under contractual and fiduciary relationships (such as proprietary and confidential information learned or disclosed as part of employment relationships or under nondisclosure agreements) and do so only consistent with applicable law;
  - keep passwords and all other login information confidential;
  - monitor and control all activity conducted through your account in connection with the Services;
+ - use the proper functions that come with your account to interact with your workspace and subscription (e.g. renewal and cancellation of workspace), or - in emergency case these are not available to you - you must  properly identify yourself to us before we can make these changes for you. We cannot make these changes just by receiving an email alone.
  - promptly notify us if you become aware of or reasonably suspect any illegal or unauthorized activity or a security breach involving your accounts, including any loss, theft, or unauthorized disclosure or use of a username, password, or account; and
  - comply in all respects with all applicable terms of the third party applications that you access or subscribe to in connection with the Services.
 
