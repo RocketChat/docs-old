@@ -1,4 +1,4 @@
-# White-Labeling
+# White-Labeling \(Server and Web App\)
 
 When using Rocket.Chat you have a plethora of customization options, ranging from basic color switching to full css control. Here you will find all the guides you need to customize your Rocket.Chat Server.
 

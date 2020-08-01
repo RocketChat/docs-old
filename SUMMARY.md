@@ -85,7 +85,7 @@
 * [Administrator Guides](guides/administrator-guides/README.md)
   * [General](guides/administrator-guides/general.md)
   * [CDN](guides/administrator-guides/cdn.md)
-  * [White-Labeling](guides/administrator-guides/white-labeling/README.md)
+  * [White-Labeling \(Server and Web App\)](guides/administrator-guides/white-labeling/README.md)
     * [Advanced White-Labeling](guides/administrator-guides/white-labeling/advanced-white-labeling.md)
     * [Basic White-labeling](guides/administrator-guides/white-labeling/basic-white-labeling.md)
   * [Connectivity Services](guides/administrator-guides/connectivity-services.md)
@@ -95,6 +95,7 @@
     * [Omnichannel Queue Types](guides/administrator-guides/omnichannel/livechat-queues.md)
     * [Integrating Livechat with Facebook Messenger](guides/administrator-guides/omnichannel/omnichannel-integration.md)
     * [WhatsApp Integration / Twilio](guides/administrator-guides/omnichannel/whatsapp-twilio.md)
+    * [Canned responses](guides/administrator-guides/omnichannel/canned-responses.md)
   * [Authentication](guides/administrator-guides/authentication/README.md)
     * [OAuth Provider Configuration](guides/administrator-guides/authentication/oauth/README.md)
       * [Okta Identity Cloud Service](guides/administrator-guides/authentication/oauth/okta.md)
@@ -186,6 +187,7 @@
     * [CSS Styleguide](guides/developer/code-styleguide/less.md)
   * [Internationalization](guides/developer/internationalization.md)
   * [Mobile apps](guides/developer/mobile-apps/README.md)
+    * [Whitelabeling mobile apps](guides/developer/mobile-apps/whitelabeling-mobile-apps.md)
     * [Supporting SSL for development on Rocket.Chat](guides/developer/mobile-apps/supporting-ssl.md)
     * [Analytics & Data Usage](guides/developer/mobile-apps/analytics.md)
   * [UI and Theming](guides/developer/ui-and-theming/README.md)
@@ -613,4 +615,8 @@
 ## Rocket.Chat SaaS
 
 * [FAQ](rocket.chat-saas/faq.md)
+
+## Legal
+
+* [Terms of Service](legal/terms.md)
 
