@@ -1,4 +1,4 @@
-# Manage your account
+# My Account
 
 Manage Your Rocket.Chat account settings through the browser, desktop, and mobile apps.
 
@@ -6,17 +6,44 @@ Manage Your Rocket.Chat account settings through the browser, desktop, and mobil
 
 To access and manage your Rocket.Chat account on a server:
 
-[Log in](login.md) to the server with your username and password. Click your profile picture and select **My Account**.
+[Log in](../login.md) to the server with your username and password. Click your profile picture and select **My Account**.
 
 Account settings changed on a single server **do not** change settings on a different server.
 
 You can change the following account settings:
 
+![](../../../.gitbook/assets/user_panel_3.png)
+
 ## Preferences
+
+In the _Preferences_ section the end user has the ability to configure and set his own user preferences on Rocket.Chat server.
 
 ### Localization
 
 Set the language to use for the Rocket.Chat user interface.
+
+### User Presence
+
+Enable Auto Away: This setting enables the auto away functionality, which changes the status to _away_ after an idle period. The idle time limit is configured in the field below \(in seconds\)
+
+![](../../../.gitbook/assets/screenshot_524.png)
+
+### Notifications
+
+### 
+
+This section allows the end user to change his notification preferences.
+
+* Require Interaction to Dismiss Desktop Notification: This setting enables the possibility to disable the desktop notification while Rocket.Chat is being used
+* Show Desktop Notifications: User can select for which types of messages the notifications should be triggered \(for both browser and desktop app notifications\)
+* Push Mobile Notifications: User can select for which types of messages the notifications should be triggered \(for mobile notification\)
+* Offline Email Notifications
+
+![](../../../.gitbook/assets/user_panel_4.png)
+
+### Sidebar
+
+Group discussions: Controls the ability to group discussions in the sidebar
 
 ### Messages
 

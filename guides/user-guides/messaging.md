@@ -92,7 +92,7 @@ Rocket.Chat changes common emoticons, or symbols used to represent emoji, to the
 
 ### Disabling emojis
 
-Emojis can be enabled/disabled in [Your Account](managing-your-account.md) settings under the **Messages** section.
+Emojis can be enabled/disabled in [Your Account](user-panel/managing-your-account.md) settings under the **Messages** section.
 
 When graphical emojis are disabled, emoji keywords and shortcuts display as regular text.
 
