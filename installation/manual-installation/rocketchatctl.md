@@ -63,13 +63,13 @@ FOR UNATTENDED INSTALLATION
 You can run `rocketchatctl install` directly curling the install.sh script from our website, install.sh will download rocketchatctl save it in /usr/local/bin and call rocketchatctl with the install option, this installation will be interactive:
 
 ```bash
-bash -c "$(curl https://rocket.chat/install.sh)"
+bash -c "$(curl https://install.rocket.chat)"
 ```
 
 In case you want to have an unattended install, use unattended install flags with install.sh script like this:
 
 ```bash
-bash -c "$(curl https://rocket.chat/install.sh)" -s --root-url=https://www.example.com --webserver=traefik --letsencrypt-email=myemail@mydomain.com
+bash -c "$(curl https://install.rocket.chat)" -s --root-url=https://www.example.com --webserver=traefik --letsencrypt-email=myemail@mydomain.com
 ```
 
 If you already have rocketchatctl installed just run:
