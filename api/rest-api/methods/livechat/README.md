@@ -46,6 +46,7 @@ Manage Livechat related data:
 | `/api/v1/livechat/visitor` | `POST` | Register a new Livechat visitor. | [info](visitor.md) |
 | `/api/v1/livechat/visitor/:token` | `GET` | Retrieve a visitor data. | [info](visitor.md) |
 | `/api/v1/livechat/visitors.info` | `GET` | Retrieve a visitor info. | [info](visitor.md) |
+| `/api/v1/livechat/visitor/search` | `GET` | Search for a Visitor. | [info](visitor.md#search-for-a-visitor) |
 | `/api/v1/livechat/page.visited` | `POST` | Send visitor navigation history to Rocket.Chat. | [info](visitor.md#send-visitor-navigation-history) |
 | `/api/v1/livechat/appearance` | `GET` | Get the settings about Livechat Widget Appearance. | [info](appearance.md) |
 | `/api/v1/livechat/visitors.pagesVisited` | `GET` | Gets the visitor navigation history. | [info](visitor.md#get-the-visitor-navigation-history) |
