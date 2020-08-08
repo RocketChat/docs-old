@@ -341,3 +341,57 @@ curl http://localhost:3000/api/v1/livechat/visitors.chatHistory/room/room-id/vis
 | :--- | :--- |
 | 2.4.0 | Added |
 
+## Search for a Visitor
+
+Search for a Visitor using their name, username, email and phone.
+
+| URL | Requires Auth | HTTP Method |
+| :--- | :--- | :--- |
+| `/api/v1/livechat/visitor/search` | `yes` | `GET` |
+
+## Query Parameter
+
+| Argument | Example | Required | Description |
+| :--- | :--- | :--- | :--- |
+| `email` | `iNKE8a6k6cjbqWhWd` | Optional | The visitor's email. |
+| `phone` | `iNKE8a6k6cjbqWhWd` | Optional | The visitor's phone. |
+| `username` | `iNKE8a6k6cjbqWhWd` | Optional | The visitor's username. |
+| `name` | `iNKE8a6k6cjbqWhWd` | Optional | The visitor's name. |
+
+## Example Call
+
+```bash
+curl http://localhost:3000/api/v1/livechat/visitor/search?email=joey@friends.com&phone=1234567890&username=joey&name=joey
+```
+
+## Example Result
+
+```javascript
+{
+  "visitor": {
+    "_id": "KQv3cHgvW7CDQtGap",
+    "username": "joey",
+    "_updatedAt": "2020-08-08T14:13:40.349Z",
+    "token": "l6dqox950jkypv1c77dg2i",
+    "visitorEmails": [
+      {
+        "address": "joey@friends.com"
+      }
+    ],
+    "phone": [
+      {
+        "phoneNumber": "1234567890"
+      }
+    ],
+    "name": "joey"
+  },
+  "success": true
+}
+```
+
+## Change Log
+
+| Version | Description |
+| :--- | :--- |
+| 3.5.0 | Added |
+
