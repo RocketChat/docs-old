@@ -341,50 +341,52 @@ curl http://localhost:3000/api/v1/livechat/visitors.chatHistory/room/room-id/vis
 | :--- | :--- |
 | 2.4.0 | Added |
 
-## Search for a Visitor
+## Search for Visitors
 
-Search for a Visitor using their name, username, email and phone.
+Search for a Visitor using their name, username, email or phone. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info.md).
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/livechat/visitor/search` | `yes` | `GET` |
+| `/api/v1/livechat/visitors/search` | `yes` | `GET` |
 
 ## Query Parameter
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `email` | `iNKE8a6k6cjbqWhWd` | Optional | The visitor's email. |
-| `phone` | `iNKE8a6k6cjbqWhWd` | Optional | The visitor's phone. |
-| `username` | `iNKE8a6k6cjbqWhWd` | Optional | The visitor's username. |
-| `name` | `iNKE8a6k6cjbqWhWd` | Optional | The visitor's name. |
+| `term` | `guest-1@company.com` | Optional | The visitor's name, username, email or phone  |
 
 ## Example Call
 
 ```bash
-curl http://localhost:3000/api/v1/livechat/visitor/search?email=joey@friends.com&phone=1234567890&username=joey&name=joey
+curl http://localhost:3000/api/v1/livechat/visitor/search?term=guest-1@company.com
 ```
 
 ## Example Result
 
 ```javascript
 {
-  "visitor": {
-    "_id": "KQv3cHgvW7CDQtGap",
-    "username": "joey",
-    "_updatedAt": "2020-08-08T14:13:40.349Z",
-    "token": "l6dqox950jkypv1c77dg2i",
-    "visitorEmails": [
-      {
-        "address": "joey@friends.com"
-      }
-    ],
-    "phone": [
-      {
-        "phoneNumber": "1234567890"
-      }
-    ],
-    "name": "joey"
-  },
+  "visitors": [
+    {
+      "_id": "KQv3cHgvW7CDQtGap",
+      "username": "guest-1",
+      "_updatedAt": "2020-08-08T14:13:40.349Z",
+      "token": "l6dqox950jkypv1c77dg2i",
+      "visitorEmails": [
+        {
+          "address": "guest-1@company.com"
+        }
+      ],
+      "phone": [
+        {
+          "phoneNumber": "912235665456"
+        }
+      ],
+      "name": "joey"
+    }
+  ],
+  "count": 1,
+  "offset": 0,
+  "total": 1,
   "success": true
 }
 ```
