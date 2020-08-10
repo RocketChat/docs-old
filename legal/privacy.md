@@ -1,13 +1,8 @@
 # Privacy Policy
 
-_Effective date: December 18, 2017_
+_Effective date: August 2nd, 2019_
 
-Privacy Policy
-==============
-
-_Effective date: June 11, 2018_
-
-Rocket.Chat Technologies Corp. ("us", "we", or "our") operates the https://rocket.chat website, the https://open.rocket.chat community server and the Rocket.Chat mobile applications (the "Service").
+Rocket.Chat Technologies Corp. ("us", "we", or "our") operates the https://rocket.chat website, the https://open.rocket.chat community server, the Marketplace, incl. associated Rocket.Chat Apps, Rocket.Chat´s Cloud Offering and the Rocket.Chat mobile applications (the "Service").
 
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
@@ -19,7 +14,7 @@ Definitions
 
   * Service
 
-    Service means the https://rocket.chat website, the https://open.rocket.chat community server and the Rocket.Chat mobile application operated by Rocket.Chat Technologies Corp.
+    Service means the https://rocket.chat website, the https://open.rocket.chat community server, the Rocket.Chat Marketplace, incl. associated Rocket.Chat Apps, and the Rocket.Chat mobile application operated by Rocket.Chat Technologies Corp.
 
   * Personal Data
 
@@ -56,8 +51,7 @@ We collect several different types of information for various purposes to provid
 
 ### Types of Data Collected
 
-Personal Data
-*************
+#### Personal Data
 
 While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:
 
@@ -65,26 +59,36 @@ While using our Service, we may ask you to provide us with certain personally id
   * First name and last name
   * Cookies and Usage Data
 
-We may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you. You may opt out of receiving any, or all, of these communications from us by following the unsubscribe link or instructions provided in any email we send or by contacting us.
+We may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you, if you have provided consent to this processing. You may in the future withdraw that consent of receiving any, or all, of these communications from us by following the unsubscribe link or instructions provided in any email we send or by contacting us.
 
-Usage Data
-**********
+#### Account Data
+Some Services may allow or require that you register for a personalized account. Account data may include in addition your account name, authentication information, registration date, contact information and any other information associated with your account.
 
-We may also collect information that your browser sends whenever you visit our Service or when you access the Service by or through a mobile device ("Usage Data").
+#### Usage Data
+
+We may also collect information that your browser sends whenever you visit our Service or when you access the Service, incl. by or through a mobile device ("Usage Data").
 
 This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
 
 When you access the Service by or through a mobile device, this Usage Data may include information such as the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.
 
-Location Data
-*************
+#### Location Data
 
 We may use and store information about your location if you give us permission to do so (“Location Data”). We use this data to provide features of our Service, to improve and customize our Service.
 
 You can enable or disable location services when you use our Service at any time, through your device settings.
 
-Tracking &amp; Cookies Data
-************
+#### App Data
+
+When you use the Marketplace, you may choose to install Apps provided by Rocket.Chat. These Apps generally request instance-related data, such as software version, amount of users, and similar. Depending on the purpose and your actual usage of the App (e.g. enabling certain features), Personal Data may however be processed. The description of the App will make the types of personal data sufficiently clear as well as any potential deviations from this policy.
+ 
+For Third Party Apps on the Marketplace, the Vendor will provide you with a specific privacy policy that governs his Third Party App.
+
+#### Content you provide
+
+When you use our Services you may provide content into that service (e.g. upload file)
+
+#### Tracking &amp; Cookies Data
 
 We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.
 
@@ -110,7 +114,7 @@ Rocket.Chat Technologies Corp. uses the collected data for various purposes:
   * To gather analysis or valuable information so that we can improve our Service
   * To monitor the usage of our Service
   * To detect, prevent and address technical issues
-  * To provide you with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless you have opted not to receive such information
+  * To provide you with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about if you have provided consent to receive this information or the processing is in our legitimate interests and it's not overridden by your rights.
 
 Legal Basis for Processing Personal Data Under General Data Protection
 Regulation (GDPR)
@@ -130,8 +134,7 @@ Rocket.Chat Technologies Corp. may process your Personal Data because:
 Retention of Data
 -----------------
 
-Rocket.Chat Technologies Corp. will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal
-agreements and policies.
+Rocket.Chat Technologies Corp. will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
 
 Rocket.Chat Technologies Corp. will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of our Service, or we are legally obligated to retain this data for longer time periods.
 
@@ -140,11 +143,7 @@ Transfer of Data
 
 Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.
 
-If you are located outside United States and choose to provide information to us, please note that we transfer the data, including Personal Data, to United States and process it there.
-
-Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
-
-Rocket.Chat Technologies Corp. will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
+If you are located outside United States and choose to provide information to us, please note that we transfer the data, including Personal Data, to the United States or other jurisdictions deemed not not have an adequate level of data protection deemed by the competent authorities of your residence. Rocket.Chat Technologies Corp. will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
 
 Disclosure of Data
 ------------------
@@ -222,6 +221,21 @@ We may use third-party Service Providers to monitor and analyze the use of our S
     Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.
 
     For more information on the privacy practices of Google, please visit the Google Privacy &amp; Terms web page: <https://policies.google.com/privacy?hl=en>
+    
+  * Firebase
+
+    Firebase is analytics service provided by Google Inc.
+
+    You may opt-out of certain Firebase features through your mobile device
+    settings, such as your device advertising settings or by following the
+    instructions provided by Google in their Privacy Policy:
+    <https://policies.google.com/privacy?hl=en>
+
+    We also encourage you to review the Google's policy for safeguarding your
+    data: <https://support.google.com/analytics/answer/6004245>. For more
+    information on what type of information Firebase collects, please visit
+    please visit the Google Privacy &amp; Terms web page:
+    <https://policies.google.com/privacy?hl=en>
 
 Links to Other Sites
 --------------------
@@ -238,6 +252,17 @@ Our Service does not address anyone under the age of 18 ("Children").
 
 We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your child has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.
 
+Specific Provisions to our Cloud Offerings
+------------------------------
+
+For our Cloud Offerings, we act as a Data Processor for our Customers, who are the Data Controllers of the instances they have licensed and administer. You as a user generally will be bound by the Data Controller´s policies. For theses instances, please direct your data privacy questions to the Data Controller.
+
+With regards to some of our Cloud Products, Customers have certain options to select the processing location of data and to configure the privacy-relevant settings of the instance. 
+
+Where required, we also offer to sign Standard Contractual Clauses approved by the European Commission to guarantee an adequate level of data protection or other mechanisms relevant for the Customer.
+
+The amount of Personal Data we process with our Cloud Offerings is limited to what the Customer and his users enter into the Service and the purposes of processing such data are strictly limited to providing and improving the Service and in accordance with the Data Controller´s instructions.
+
 Changes to This Privacy Policy
 ------------------------------
 
@@ -252,5 +277,5 @@ Contact Us
 
 If you have any questions about this Privacy Policy, please contact us:
 
-  * By email: privacy@rocket.chat
+  * Rocket.Chat´s Data Protection Officer by email: privacy@rocket.chat
   * By visiting this page on our website: https://rocket.chat/contact
