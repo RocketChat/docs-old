@@ -1,6 +1,6 @@
 # Privacy Policy
 
-_Effective date: September 20th, 2019_
+_Effective date: November 21st, 2019_
 
 Rocket.Chat Technologies Corp. ("us", "we", or "our") operates the https://rocket.chat website, the https://open.rocket.chat community server, the Marketplace, incl. associated Rocket.Chat Apps, Rocket.Chat´s Cloud Offering and the Rocket.Chat mobile applications (the "Service").
 
@@ -59,7 +59,7 @@ While using our Service, we may ask you to provide us with certain personally id
   * First name and last name
   * Cookies and Usage Data
 
-We may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you, if you have provided consent to this processing. You may in the future withdraw that consent of receiving any, or all, of these communications from us by following the unsubscribe link or instructions provided in any email we send or by contacting us.
+We may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you, if you have provided consent to this processing or if we can base this processing on a legitimate interest that is not overridden by your fundamental rights. You may in the future withdraw that consent or object to receiving any, or all, of these communications from us by following the unsubscribe link or instructions provided in any email we send or by contacting us.
 
 #### Account Data
 Some Services may allow or require that you register for a personalized account. Account data may include in addition your account name, authentication information, registration date, contact information and any other information associated with your account.
@@ -80,7 +80,7 @@ You can enable or disable location services when you use our Service at any time
 
 #### App Data
 
-When you use the Marketplace, you may choose to install Apps provided by Rocket.Chat. These Apps generally request instance-related data, such as software version, amount of users, and similar. Depending on the purpose and your actual usage of the App (e.g. enabling certain features), Personal Data may however be processed. The description of the App will make the types of personal data sufficiently clear as well as any potential deviations from this policy.
+When you use the Marketplace, you may choose to install Apps provided by Rocket.Chat. These Apps generally request instance-related and therefore nonpersonal data, such as software version, amount of users, and similar. Depending on the purpose and your actual usage of the App (e.g. enabling certain features), Personal Data may however be processed. E.g. you enable an integration, which processes your users´information. The description of the App will make the types of personal data sufficiently clear as well as any potential deviations from this policy.
  
 For Third Party Apps on the Marketplace, the Vendor will provide you with a specific privacy policy that governs his Third Party App.
 
@@ -88,7 +88,7 @@ For Third Party Apps on the Marketplace, the Vendor will provide you with a spec
 
 When you use our Services you may provide content into that service (e.g. upload file, send a message).
 
-#### Tracking &amp; Cookies Data
+#### Tracking & Cookies Data
 
 We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.
 
@@ -259,11 +259,20 @@ Specific Provisions to our Cloud Offerings
 
 For our Cloud Offerings, we act as a Data Processor for our Customers, who are the Data Controllers of the instances they have licensed and administer. You as a user generally will be bound by the Data Controller´s policies. For theses instances, please direct your data privacy questions to the Data Controller.
 
-With regards to some of our Cloud Products, Customers have certain options to select the processing location of data and to configure the privacy-relevant settings of the instance. 
+With regards to some of our Cloud Products, Customers have certain options to select the processing location of data and to configure the privacy-relevant settings of the instance. If you are the customer of one of these instances, you can contact us and get more information on where your instance is running.
+
+We generally offer two regions:
+
+- hosting in the United States
+- hosting in the European Union
+
+Other regions may be added over time.
 
 Where required, we also offer to sign Standard Contractual Clauses approved by the European Commission to guarantee an adequate level of data protection or other mechanisms relevant for the Customer.
 
-The amount of Personal Data we process with our Cloud Offerings is limited to what the Customer and his users enter into the Service and the purposes of processing such data are strictly limited to providing and improving the Service and in accordance with the Data Controller´s instructions.
+The amount of Personal Data we process with our Cloud Offerings is limited to what the Customer and his users enter into the Service. In the cloud offering, we will not process the cookie or analytics data described above. The purposes of processing the data are strictly limited to providing and improving the Service and in accordance with the Data Controller´s instructions. We never access workspace data (i.e. the actual content the customer is entering in his instance), unless the customer asks us to in form of a support request, we are bound by a valid law enforcement request or to protect our own interests, such as investigating potential abuse of the service.
+
+Once your usage of our cloud offering ceases, we will remove all your data, including backups, after a short grace period - or immediately, if you tell us to.
 
 Changes to This Privacy Policy
 ------------------------------
