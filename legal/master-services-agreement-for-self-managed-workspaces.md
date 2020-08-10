@@ -1,5 +1,9 @@
 # Master Services Agreement for Self Managed Workspaces
 
+_Effective date: May 27th, 2020_
+
+# **ROCKET.CHAT MASTER SERVICES AGREEMENT**
+
 This Master Services Agreement (the "**Agreement**"), is entered as of _________________ (the “**Effective Date**”), by and between ______________________, whose address is _______________; an entity (“**You,**” “**Your**,” or “**Customer**”) and Rocket.Chat Technologies Corp. (“**Rocket.Chat**”). In this Agreement, Customer and Rocket.Chat may be individually referred to as “**party**” and collectively referred to as “**parties**.”
 
 The Agreement covers the provision of services by Rocket.Chat to You for self-managed (otherwise known as "on-premise") deployment of Rocket.Chat and generally comes with an Order Form that specifies services and product editions. It does explicitly not cover the mere provision of the Community Edition of our product or any other edition of our product which does not come with a reference to this agreement.
@@ -44,13 +48,16 @@ The Agreement covers the provision of services by Rocket.Chat to You for self-ma
 
 **3. LICENSE RESTRICTIONS; OBLIGATIONS.**
 
-**3.1 License Restrictions.** You may not (i) provide, make available to, or permit individuals other than Your Users to use or access the Services, the Software, or Documentation, in whole or in part; (ii) use the Services or Software to store or transmit infringing, libelous, unlawful, or tortious material or to store or transmit material in violation of third party rights, including privacy rights; (iii) use the Services or Software to violate any rights of others; (iv) use the Services or Software to store or transmit malicious code, Trojan horses, malware, spam, viruses, or other destructive technology ("**Viruses**"); (v) interfere with, impair, or disrupt the integrity or performance of the Services or any other third party’s use of the Services or (vi) alter, circumvent, or provide the means to alter or circumvent the Services or Software, including technical limitations, recurring fees, or usage limits.
+**3.1 License Restrictions.** You may not (i) provide, make available to, or permit individuals other than Your Users to use or access the Services, the Software, or Documentation, in whole or in part; (ii) use the Services or Software to store or transmit infringing, libelous, unlawful, or tortious material or to store or transmit material in violation of third party rights, including privacy rights; (iii) use the Services or Software to violate any rights of others; (iv) use the Services or Software to store or transmit malicious code, Trojan horses, malware, spam, viruses, or other destructive technology ("**Viruses**"); (v) interfere with, impair, or disrupt the integrity or performance of the Services or any other third party’s use of the Services or (vi) alter, circumvent, or provide the means to alter or circumvent the Services or Software, including technical limitations, recurring fees, or usage limits. 
 
 **3.2 Your Obligations.** You acknowledge, agree, and warrant that: (i) You will be responsible for Your and Your Users’ activity and compliance with this Agreement, and if You become aware of any violation, You will immediately terminate the offending party’s access to the Services, Software, and Documentation and notify Rocket.Chat; (ii) You and Your Users will comply with all applicable local, state, federal, and international laws; (iii) You are legally able to process Your Data and are able to legally provide Your Data to Rocket.Chat and its Affiliates, including obtaining appropriate consents or rights for such processing, as outlined further herein, and have the right to access and use Your infrastructure if requested by You, including any system or network, to obtain the Services and Software and will be solely responsible for the accuracy, security, quality, integrity, and legality of the same; and (iv) You will keep your registration information, billing information, passwords and technical data accurate, complete, secure and current for the Term of this Agreement.
 
 **3.3 Representations and Warranties**. Each party represents and warrants that: (i) such party has the full power and authority to enter into this Agreement; (ii) this Agreement is duly authorized by all necessary action and has been duly executed and delivered; (iii) such party is in compliance with all applicable requirements of law, other than where the failure to be in compliance would not have a material adverse effect upon such party’s execution, delivery or performance of this Agreement or consummation of the transactions contemplated hereby; and (iv) such party has not entered into any agreement with any other entity that contains restrictive provisions that may impair its ability to perform its obligations under this Agreement.
 
- 
+**3.4 API Fair Use**
+Many of our services work via API calls managed under a central infrastructure of us. You may not place excessive API calls or otherwise deliberately try to overburden this API system. We may throttle your use of the APIs in case we deem it necessary to facilitate an overall acceptable service level across our infrastructure (e.g. such as in the case of continued, excessive API usage). We may monitor use of the APIs for compliance with these rules, and we may deny you access to the API or shut down your Integration if you try to go around or break the policies we set. If your Service Order includes a defined API limit or minimum, then the Service Order controls. 
+
+
 
 **4. PROPRIETARY RIGHTS.**
 
@@ -138,10 +145,6 @@ TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, (I) IN NO EVENT WILL ROCKET.C
 
 **12.9 Governing Law.** This Agreement shall be governed by the laws of the State of Delaware and of the United States, without regard to any conflict of law provisions, except that the United Nations Convention on the International Sale of Goods and the provisions of the Uniform Computer Information Transactions Act shall not apply to this Agreement. You hereby consent to the jurisdiction of the state and federal courts of Delaware. If this Agreement is translated into a language other than English and there are conflicts between the translations of this Agreement, you agree that the English version of this Agreement shall prevail and control.
 
- 
-
 **12.10 Third Party Rights.** Other than as expressly provided herein, this Agreement does not create any rights for any person who is not a party to it, and no person not a party to this Agreement may enforce any of its terms or rely on an exclusion or limitation contained in it.
-
- 
 
 **12.11 Relationship of the Parties.** The parties are independent contractors. This Agreement does not create a partnership, franchise, joint venture, agency, fiduciary, or employment relationship between the parties.
