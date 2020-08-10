@@ -128,3 +128,19 @@ To enable 2FA, you need to:
 * Copy your backup code somewhere safe if you need to access it in the future without the authentication app. Click **Send** to finish.
 * To disable the 2FA, click on **Stop two-factor authentication**.
 
+## Personal Access Tokens
+
+The personal access token section allows the user to create his personal tokens to consume Rocket.Chat API, for example.
+
+![](../../../.gitbook/assets/screenshot_565.png)
+
+To create your personal access token, hit the _Add_ button
+
+![](../../../.gitbook/assets/pat_1.png)
+
+After creating the token, it will be listed as below:
+
+![](../../../.gitbook/assets/screenshot_566.png)
+
+The two highlighted icons are, respectively: _refresh_ \(it will refresh and generate a new token\) and _delete_
+
