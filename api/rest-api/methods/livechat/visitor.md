@@ -369,8 +369,6 @@ curl http://localhost:3000/api/v1/livechat/visitors.search?term=guest-1@company.
     {
       "_id": "KQv3cHgvW7CDQtGap",
       "username": "guest-1",
-      "_updatedAt": "2020-08-08T14:13:40.349Z",
-      "token": "l6dqox950jkypv1c77dg2i",
       "visitorEmails": [
         {
           "address": "guest-1@company.com"
