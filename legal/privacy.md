@@ -1,6 +1,6 @@
 # Privacy Policy
 
-_Effective date: April 9th, 2020_
+_Effective date: June 5th, 2020_
 
 Rocket.Chat Technologies Corp. ("us", "we", or "our") operates the https://rocket.chat website, the https://open.rocket.chat community server, the Marketplace, incl. associated Rocket.Chat Apps, Rocket.Chat´s Cloud Offering and the Rocket.Chat mobile applications (the "Service").
 
@@ -112,7 +112,7 @@ When you use our Services you may provide content into that service (e.g. upload
 
 #### Tracking & Cookies Data
 
-We use cookies and similar tracking technologies to track the activity on our Service and hold certain information. We DO NOT track activity in your self-managed instances nor do we track it on an individual in our hosted offering. We do monitor aggregated activity data on our infrastructure, but it is not personal tracking in the sense of this paragraph. We do perform tracking on our community server.
+We use cookies and similar tracking technologies to track the activity on our Service and hold certain information. We DO NOT track activity in your self-managed instances. We regularly do monitor aggregated activity data on our infrastructure, but it is not tracking of individual users in the sense of this paragraph, which only occurs when we have a legitimate interest to do so (e.g. for security and compliance purposes).  We do perform regular tracking on our community server.
 
 Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.
 
@@ -240,11 +240,12 @@ We employ the following subprocessors to process personal data
 
 | Subprocessor                              | Purpose                                                                                                                                        |
 |-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| Amazon Web Services                       | underlying infrastructure of our hosted offering, marketplace and open community server,  as well as other services such as push notifications |
+| Amazon Web Services, OVH                       | underlying infrastructure of our hosted offering, marketplace and open community server,  as well as other services such as push notifications. We use a mixed deployment. Generally speaking, after June 2020 all workspaces run on OVH. Reach out to support if you want to know the concrete subprocessor for your case. |
 | Stripe                                    | payment processor                                                                                                                              |
 | ZOHO                                      | email marketing, newsletter, CRM, customer support                                                                                             |
 | Apple Push Notification Service, Firebase | push notification gateways                                                                                                                     |
 | Mailchimp                                 | email marketing                                                                                                                                |
+| PRVolt                                 | email marketing                                                                                                                                |
 
 ### Analytics
 
@@ -302,7 +303,7 @@ Other regions may be added over time.
 
 Where required, we also offer to sign Standard Contractual Clauses approved by the European Commission to guarantee an adequate level of data protection or other mechanisms relevant for the Customer.
 
-The amount of Personal Data we process with our Cloud Offerings is limited to what the Customer and his users enter into the Service. In the cloud offering, we will not process the cookie or analytics data described above. The purposes of processing the data are strictly limited to providing and improving the Service and in accordance with the Data Controller´s instructions. We never access workspace data (i.e. the actual content the customer is entering in his instance), unless the customer asks us to in form of a support request, we are bound by a valid law enforcement request or to protect our own interests, such as investigating potential abuse of the service.
+The amount of Personal Data we process with our Cloud Offerings is limited to what the Customer and his users enter into the Service. In the cloud offering, we will not process the personalized cookie or analytics data described above. The purposes of processing the data are strictly limited to providing and improving the Service and in accordance with the Data Controller´s instructions. We never access workspace data (i.e. the actual content the customer is entering in his instance), unless the customer asks us to in form of a support request, we are bound by a valid law enforcement request or to protect our own interests, such as investigating potential abuse of the service.
 
 Once your usage of our cloud offering ceases, we will remove all your data, including backups, after a short grace period - or immediately, if you tell us to.
 
