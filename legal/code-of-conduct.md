@@ -1,4 +1,4 @@
-# Code of Conduct
+# Code of Conduct for our communities and open server
 
 _Effective date: September 06, 2019_
 
