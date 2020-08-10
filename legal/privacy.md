@@ -1,6 +1,6 @@
 # Privacy Policy
 
-_Effective date: November 21st, 2019_
+_Effective date: April 9th, 2020_
 
 Rocket.Chat Technologies Corp. ("us", "we", or "our") operates the https://rocket.chat website, the https://open.rocket.chat community server, the Marketplace, incl. associated Rocket.Chat Apps, Rocket.Chat´s Cloud Offering and the Rocket.Chat mobile applications (the "Service").
 
@@ -8,6 +8,26 @@ This page informs you of our policies regarding the collection, use, and disclos
 
 We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy
 Policy have the same meanings as in our Terms and Conditions.
+
+Summary
+-----------
+
+  * Administrators are responsible for user privacy, we help administrators
+
+    There are basically two ways of using Rocket.Chat: self-managed (also known as on-premises deployment) on your own or someone else´s infrastructure or via our hosted offering. In both cases, the administrator of that instance - or the organization behind the administrator - is the person responsible to ensure privacy of Rocket.Chat users. We aim to help by providing features in our products and services to make that job easier. We also provide this policy to explain what we do as a "helping hand"/data processor for administrators in case we process personal data of users.
+    
+  * You remain in control of your personal data
+      
+    We cannot access your personal data in a self-managed instance of Rocket.Chat. Our code is open source, there are no back doors whatsoever. You are however free to connect a self-managed instance to other services, e.g. our marketplace or push notification gateway, where this privacy policy applies. You can also connect it to third party services, such as external authentication services, in which case their privacy policy applies. It is your choice and you are not forced to do so. In our hosted offering, we only process your data for the purposes of providing you the service in the name of the administrator. Administrators are still in full control over the configuration of their instance.
+
+  * We don´t sell your data
+
+    We do not sell your personal data. Our business model is to provide you with a free edition and we charge you for extra services or features, according to the plan you choose. What you process within Rocket.Chat is yours and stays yours.
+    
+  * Our community server is for testing purposes
+  
+    Our community server https://open.rocket.chat is a testing ground for our users and we use it to test and analyze new features. We track user activity in there with the trackers described below - including google analytics - to learn how our service is used and to improve our product.
+    
 
 Definitions
 -----------
@@ -58,11 +78,11 @@ While using our Service, we may ask you to provide us with certain personally id
   * Email address
   * First name and last name
   * Cookies and Usage Data
-
+  
 We may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you, if you have provided consent to this processing or if we can base this processing on a legitimate interest that is not overridden by your fundamental rights. You may in the future withdraw that consent or object to receiving any, or all, of these communications from us by following the unsubscribe link or instructions provided in any email we send or by contacting us.
 
 #### Account Data
-Some Services may allow or require that you register for a personalized account. Account data may include in addition your account name, authentication information, registration date, contact information and any other information associated with your account.
+Some Services may allow or require that you register for a personalized account. Account data may include in addition your account name, authentication information, registration date, contact information, payment information and any other information associated with your account.
 
 #### Usage Data
 
@@ -72,15 +92,17 @@ This Usage Data may include information such as your computer's Internet Protoco
 
 When you access the Service by or through a mobile device, this Usage Data may include information such as the type of mobile device you use, the IP address of your mobile device, your mobile operating system, the app version, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.
 
+As a byproduct of the usage data within a Rocket.Chat instance, Administrators may chose to share aggregated and therefore anonymous, non-personal data with us to help us learn more about how our product is being used. The information shared is the same information as is shown on the "info"-page of the administration panel of an instance. E.g. this statistics sharing would transmit the total # of channels, but it would not transmit the actual channel names, and so on, preserving privacy of your workspace. This is completely optional to use and can be activated and deactivated any time.
+
 #### Location Data
 
-We may use and store information about your location if you give us permission to do so (“Location Data”). We use this data to provide features of our Service, to improve and customize our Service.
+We may use and store information about your location if you give us permission to do so (“Location Data”). We use this data to provide features of our Service (only to allow you to share your location to another user via Rocket.Chat, if it was enabled by the administrator).
 
 You can enable or disable location services when you use our Service at any time, through your device settings.
 
 #### App Data
 
-When you use the Marketplace, you may choose to install Apps provided by Rocket.Chat. These Apps generally request instance-related and therefore nonpersonal data, such as software version, amount of users, and similar. Depending on the purpose and your actual usage of the App (e.g. enabling certain features), Personal Data may however be processed. E.g. you enable an integration, which processes your users´information. The description of the App will make the types of personal data sufficiently clear as well as any potential deviations from this policy.
+When you use the Marketplace, you may choose to install Apps provided by Rocket.Chat. These Apps process data from your instance of Rocket.Chat and therefore nonpersonal data, such as software version, amount of users, and similar. Depending on the purpose and your actual usage of the App (e.g. enabling certain features), Personal Data may however be processed. E.g. you enable an integration, which processes your users´information. The description of the App will make the types of personal data sufficiently clear as well as any potential deviations from this policy.
  
 For Third Party Apps on the Marketplace, the Vendor will provide you with a specific privacy policy that governs his Third Party App.
 
@@ -90,7 +112,7 @@ When you use our Services you may provide content into that service (e.g. upload
 
 #### Tracking & Cookies Data
 
-We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.
+We use cookies and similar tracking technologies to track the activity on our Service and hold certain information. We DO NOT track activity in your self-managed instances nor do we track it on an individual in our hosted offering. We do monitor aggregated activity data on our infrastructure, but it is not personal tracking in the sense of this paragraph. We do perform tracking on our community server.
 
 Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.
 
@@ -116,10 +138,9 @@ Rocket.Chat Technologies Corp. uses the collected data for various purposes:
   * To detect, prevent and address technical issues
   * To provide you with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about if you have provided consent to receive this information or the processing is in our legitimate interests and it's not overridden by your rights.
 
-We do not process content data beyond providing you the service.
+We do not process content data beyond the purpose of providing you the service.
 
-Legal Basis for Processing Personal Data Under General Data Protection
-Regulation (GDPR)
+Legal Basis for Processing Personal Data Under General Data Protection Regulation (GDPR)
 ----------------------------------------------------------------------------------------
 
 If you are from the European Economic Area (EEA), Rocket.Chat Technologies Corp. legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Data we collect and the
@@ -173,8 +194,7 @@ Security of Data
 
 The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.
 
-"Do Not Track" Signals Under California Online Privacy Protection Act
-(CalOPPA)
+"Do Not Track" Signals Under California Online Privacy Protection Act (CalOPPA)
 -------------------------------------------------------------------------------
 
 We do not support Do Not Track ("DNT"). Do Not Track is a preference you can set in your web browser to inform websites that you do not want to be tracked.
@@ -207,16 +227,28 @@ Please note that we may ask you to verify your identity before responding to suc
 
 You have the right to complain to a Data Protection Authority about our collection and use of your Personal Data. For more information, please contact your local data protection authority in the European Economic Area (EEA).
 
-Service Providers
+Service Providers and Subprocessors
 -----------------
 
 We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.
 
 These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.
 
+### Subprocessors
+
+We employ the following subprocessors to process personal data
+
+| Subprocessor                              | Purpose                                                                                                                                        |
+|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| Amazon Web Services                       | underlying infrastructure of our hosted offering, marketplace and open community server,  as well as other services such as push notifications |
+| Stripe                                    | payment processor                                                                                                                              |
+| ZOHO                                      | email marketing, newsletter, CRM, customer support                                                                                             |
+| Apple Push Notification Service, Firebase | push notification gateways                                                                                                                     |
+| Mailchimp                                 | email marketing                                                                                                                                |
+
 ### Analytics
 
-We may use third-party Service Providers to monitor and analyze the use of our Service.
+We may use third-party Service Providers to monitor and analyze the use of our Service. 
 
   * Google Analytics
 
