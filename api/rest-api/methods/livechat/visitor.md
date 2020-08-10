@@ -347,7 +347,7 @@ Search for a Visitor using their name, username, email or phone. It supports the
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/livechat/visitors/search` | `yes` | `GET` |
+| `/api/v1/livechat/visitors.search` | `yes` | `GET` |
 
 ## Query Parameter
 
@@ -358,7 +358,7 @@ Search for a Visitor using their name, username, email or phone. It supports the
 ## Example Call
 
 ```bash
-curl http://localhost:3000/api/v1/livechat/visitor/search?term=guest-1@company.com
+curl http://localhost:3000/api/v1/livechat/visitors.search?term=guest-1@company.com
 ```
 
 ## Example Result
@@ -395,5 +395,5 @@ curl http://localhost:3000/api/v1/livechat/visitor/search?term=guest-1@company.c
 
 | Version | Description |
 | :--- | :--- |
-| 3.5.0 | Added |
+| 3.6.0 | Added |
 
