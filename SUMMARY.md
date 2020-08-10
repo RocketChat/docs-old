@@ -628,4 +628,5 @@
 * [Censorship and Harmful Content](legal/censorship-and-harmful-content.md)
 * [Guidelines for Law Enforcement](legal/guidelines-for-law-enforcement.md)
 * [Server Lookup](legal/server-lookup.md)
+* [DMCA Policy](legal/dmca-policy.md)
 

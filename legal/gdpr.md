@@ -8,7 +8,7 @@ Rocket.Chat has implemented various updates and changes to its codebase in prepa
 
 A summary of Rocket.Chat's overall GDPR readiness strategy for this project can be found below:
 
-[#9769](https://github.com/RocketChat/Rocket.Chat/issues/9769)
+[\#9769](https://github.com/RocketChat/Rocket.Chat/issues/9769)
 
 Our public statement can also be found on [GitHub](https://github.com/RocketChat/Rocket.Chat/issues/10823).
 
@@ -16,18 +16,15 @@ The following are some of the more recent GDPR updates that are now part of the 
 
 ## Right of Access
 
-[#9767](https://github.com/RocketChat/Rocket.Chat/issues/9767)
-(implemented [#9906](https://github.com/RocketChat/Rocket.Chat/pull/9906))
+[\#9767](https://github.com/RocketChat/Rocket.Chat/issues/9767) \(implemented [\#9906](https://github.com/RocketChat/Rocket.Chat/pull/9906)\)
 
 ## Right to be forgotten/erased
 
-[#9766](https://github.com/RocketChat/Rocket.Chat/issues/9766)
-(implemented [#9947](https://github.com/RocketChat/Rocket.Chat/pull/9947))
+[\#9766](https://github.com/RocketChat/Rocket.Chat/issues/9766) \(implemented [\#9947](https://github.com/RocketChat/Rocket.Chat/pull/9947)\)
 
 ## Data Portability
 
-[#9768](https://github.com/RocketChat/Rocket.Chat/issues/9768)
-(implemented in [#9906](https://github.com/RocketChat/Rocket.Chat/pull/9906))
+[\#9768](https://github.com/RocketChat/Rocket.Chat/issues/9768) \(implemented in [\#9906](https://github.com/RocketChat/Rocket.Chat/pull/9906)\)
 
 ## Other rights
 
@@ -35,16 +32,15 @@ Other rights for the data subjects are either covered by features already built 
 
 ### Right to Rectification
 
-The codebase can be configured to support user modification/correction/rectification of any data supplied (entered) by the user.
+The codebase can be configured to support user modification/correction/rectification of any data supplied \(entered\) by the user.
 
 ### Right to restriction of processing
 
-This is outside the scope of the open source software project, and is up to the controller ( administrator / deployer / operator of the the server system) to enforce.
+This is outside the scope of the open source software project, and is up to the controller \( administrator / deployer / operator of the the server system\) to enforce.
 
 ### Right to Object
 
-This is outside the scope of the open source software project, and is up to the controller ( administrator / deployer / operator of the server system) to enforce.
-
+This is outside the scope of the open source software project, and is up to the controller \( administrator / deployer / operator of the server system\) to enforce.
 
 ## Community compliance
 
@@ -55,3 +51,4 @@ Meanwhile, we would welcome any advice, input, or questions you may have regardi
 Thank you!
 
 The Rocket.Chat Team
+
