@@ -97,26 +97,6 @@ This setting changes the behavior of the unread counter on Direct Messages
 
 Use this setting to enable the Rocket.Chat Apps Framework. This allows you to add Rocket.Chat Apps from our Marketplace to your server.
 
-## GraphQL API
-
-Settings related to our GraphQL API. You can find more info on our GraphQL API [here](https://github.com/RocketChat/docs/tree/25edcde0b00af8d5f89889dbb0d911ccfe76a1d1/developer-guides/graphql-api/README.md)
-
-### GraphQL CORS
-
-Use this setting to enable [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) for the GraphQL API. Enabling CORS will make the server only accept API Calls from specific origins.
-
-> **Note:** Currently our GraphQL CORS accepts all domains. Setting this to false, will make your server only accept requests from the same domain of said server. E.g. `rocket.chat` server will only accept requests from the `rocket.chat` domain.
-
-### GraphQL Enabled
-
-This setting enables the GraphQL API on your server.
-
-### GraphQL Subscription Port
-
-Here you can choose what port will be used for subscriptions on the API. More info on subscriptions [here](https://github.com/RocketChat/docs/tree/25edcde0b00af8d5f89889dbb0d911ccfe76a1d1/developer-guides/graphql-api/subscription/README.md)
-
-> **Note**: Cannot currently use the same port that Rocket.Chat is running on.
-
 ## Iframe Integration
 
 ### Enable Receive
