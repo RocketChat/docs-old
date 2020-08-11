@@ -6,7 +6,12 @@ _Effective date: July 4th, 2020_
 
 ## **ROCKET.CHAT MASTER SERVICES AGREEMENT FOR SELF-MANAGED DEPLOYMENTS**
 
-This Master Services Agreement \(the "**Agreement**"\), is entered as of **\_** \(the “**Effective Date**”\), by and between **\_\_**, whose address is _**\_**_; an entity \(“**You,**” “**Your**,” or “**Customer**”\) and Rocket.Chat Technologies Corp. \(“**Rocket.Chat**”\). In this Agreement, Customer and Rocket.Chat may be individually referred to as “**party**” and collectively referred to as “**parties**.”
+This Master Services Agreement \(the "**Agreement**"\), is entered as of  
+**\___________________________________** \(the “**Effective Date**”\),  
+by and between **\_______________________________________________\_**,  
+whose address is _**\_____________________________________________________________**_;  
+an entity \(“**You,**” “**Your**,” or “**Customer**”\) 
+and Rocket.Chat Technologies Corp. \(“**Rocket.Chat**”\). In this Agreement, Customer and Rocket.Chat may be individually referred to as “**party**” and collectively referred to as “**parties**.”
 
 The Agreement covers the provision of services by Rocket.Chat to You for self-managed \(otherwise known as "on-premise"\) deployment of Rocket.Chat and generally comes with an Order Form that specifies services and product editions. It does explicitly not cover the mere provision of the Community Edition of our product or any other edition of our product which does not come with a reference to this agreement.
 
@@ -135,4 +140,3 @@ TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, \(I\) IN NO EVENT WILL ROCKET
 **12.10 Third Party Rights.** Other than as expressly provided herein, this Agreement does not create any rights for any person who is not a party to it, and no person not a party to this Agreement may enforce any of its terms or rely on an exclusion or limitation contained in it.
 
 **12.11 Relationship of the Parties.** The parties are independent contractors. This Agreement does not create a partnership, franchise, joint venture, agency, fiduciary, or employment relationship between the parties.
-
