@@ -171,7 +171,7 @@ curl -X DELETE \
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `token` | `iNKE8a6k6cjbqWhWd` | Required | The visitor `token`. |
-| `ts` |  | Optional | The timestamp to start loading. |
+| `ls` |  | Optional | The timestamp to start loading. |
 | `end` |  | Optional | The timestamp limit to load. |
 | `limit` |  | Optional | The number of messages to load. |
 
