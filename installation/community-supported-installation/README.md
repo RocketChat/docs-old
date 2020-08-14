@@ -14,7 +14,7 @@ You can also check their respective forum pages under [Community Guides](https:/
 * [Windows 10 Pro](windows-10-pro.md)
 * [Windows Server 2012](windows-server.md)
 * [OpenSUSE](opensuse.md)
-* [Kali](https://docs.rocket.chat/installation/community-supported-installation/kali-linux)
+* [Kali](kali-linux.md)
 
 
 
