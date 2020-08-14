@@ -58,6 +58,7 @@
     * [Docker Compose](installation/docker-containers/docker-compose.md)
     * [High Availability](installation/docker-containers/high-availability-install.md)
   * [Nonofficial Methods](installation/community-supported-installation/README.md)
+    * [Kali Linux](installation/community-supported-installation/kali-linux.md)
     * [OpenSUSE Leap 42.2](installation/community-supported-installation/opensuse.md)
     * [FreeBSD](installation/community-supported-installation/freebsd/README.md)
       * [Deploying Rocket.Chat Server Binaries on a FreeBSD system](installation/community-supported-installation/freebsd/universal.md)
