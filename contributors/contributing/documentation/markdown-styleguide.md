@@ -86,7 +86,7 @@ Setext style H2
 
 ### MD004 - Unordered list style
 
-Lists should be created using dashes.
+Lists should be created using asterisks.
 
 **Wrong**:
 

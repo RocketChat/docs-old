@@ -1,8 +1,6 @@
-# Quick Start
+# Quick Start on Linux
 
-## On Linux/Mac
-
-You can run Rocket.Chat for development on a Linux or a Mac. The following instruction has been tested on a new Ubuntu 18.04 LTS installation. Try to find and use a _NEW Ubuntu server installation_ with no other un-necessary software installed, not a "Desktop" or "Client" installation.
+You can run Rocket.Chat for development on a Linux machine or VM. The following instruction has been tested on a new Ubuntu 18.04 LTS installation. Try to find and use a _NEW Ubuntu server installation_ with no other un-necessary software installed, not a "Desktop" or "Client" installation.
 
 _DO NOT_ use a system where you already have nodeJS installed to avoid problems.
 

@@ -124,6 +124,8 @@ export class LiftoffCommand implements ISlashCommand {
 }
 ```
 
+> You can learn more about organising complex slash commands in our [Sub-command pattern](recipes/sub-command-pattern.md) recipe
+
 #### Registering the slashcommand
 
 After adding our slashcomamnd logic, we have to register the slashcommand in out app by extending its configuration:

@@ -63,6 +63,64 @@ class Script {
 
 This example shows basic processing of azure alerts that will give you the necessary information as to what happened and what is the current status, along with a status color to get an idea at a quick glimpse of the message.
 
+For newer created alerts the azure webhooks can be process by the following script:
+
+```javascript
+class Script {
+    // this script was tested with AzureMonitorMetricAlert version 2.0 and should work for
+    // "conditionType": "MultipleResourceMultipleMetricCriteria"
+    process_incoming_request({ request }) {
+        // console is a global helper to improve debug
+        console.log(JSON.stringify(request.content, null, 4));
+
+        var alertColor = "warning";
+        var condition = request.content.data.context.condition;
+        var conditionFields = [];
+
+        if(request.content.data.status === "Deactivated"){ alertColor = "good"; }
+        else if (request.content.data.status === "Activated") {
+            alertColor = "danger";
+            console.log(condition.allOf);
+            for (const cond of condition.allOf) {
+                console.log(cond);
+                conditionFields.push({
+                    title: "Condition: " + cond.metricName,
+                    value: cond.metricValue + " " + cond.operator + " " + cond.threshold + " ("
+                        + (cond.metricUnit ? cond.metricUnit + ", " : "")
+                        + cond.timeAggregation + ")"
+                        + " for more than " + condition.windowSize,
+                });
+            }
+        }
+
+        return {
+            content:{
+                username: "Azure",
+                text: "Azure Alert Notification",
+                attachments: [{
+                    title: request.content.data.context.name,
+                    pretext: request.content.data.context.description,
+                    title_link: request.content.data.context.portalLink,
+                    text: request.content.data.context.resourceGroupName + ": " + request.content.data.context.resourceName,
+                    color: alertColor,
+                    fields: [
+                        {
+                            title: "Status",
+                            value: request.content.data.status + "   @ " + request.content.data.context.timestamp
+                        },
+                        {
+                            title: "Severity",
+                            value: request.content.data.context.severity,
+                        },
+                        ...conditionFields,
+                    ]
+                }]
+            }
+        };
+    }
+}
+```
+
 The schema of the incoming message as of the official [Azure Alert Webhook Docs](https://azure.microsoft.com/en-us/documentation/articles/insights-webhooks-alerts/) is:
 
 ```javascript

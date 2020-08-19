@@ -37,7 +37,8 @@ curl -G -H "X-Auth-Token: ijFlJ1yfidXhwEYY284Anoq_iEsOeMMVCupzNhX22tB" \
                 }
             ],
             "name": "EditedRealNameuser.test.1523623548558",
-            "username": "editedusernameuser.test.1523623548558"
+            "username": "editedusernameuser.test.1523623548558",
+            "avatarETag": "6YbLtc4v9b4conXon"
         }
     ],
     "count": 1,

@@ -32,14 +32,16 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
          "name":"Rocket.Cat",
          "username":"rocket.cat",
          "status":"online",
-         "utcOffset":0
+         "utcOffset":0,
+         "avatarETag": "5BB9B5ny5DkKdrwkq"
       },
       {
          "_id":"rocketchat.internal.admin.test",
          "name":"RocketChat Internal Admin Test",
          "username":"rocketchat.internal.admin.test",
          "status":"online",
-         "utcOffset":-2
+         "utcOffset":-2,
+         "avatarETag": "iEbEm4bTT327NJjXt"
       }
    ],
    "full": true,
@@ -69,14 +71,16 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
          "name":"Rocket.Cat",
          "username":"rocket.cat",
          "status":"online",
-         "utcOffset":0
+         "utcOffset":0,
+         "avatarETag": "5BB9B5ny5DkKdrwkq"
       },
       {
          "_id":"rocketchat.internal.admin.test",
          "name":"RocketChat Internal Admin Test",
          "username":"rocketchat.internal.admin.test",
          "status":"online",
-         "utcOffset":-2
+         "utcOffset":-2,
+         "avatarETag": "iEbEm4bTT327NJjXt"
       }
    ],
    "full": false,

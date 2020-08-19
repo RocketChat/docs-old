@@ -12,9 +12,13 @@ redirect_from:
 
 Application for Google Summer of Code 2020 is now closed. Please see [GSoC timeline](google-summer-of-code-2020.md#timeline) for more details.
 
+#### Update July 12, 2020
+
+First evaluation has completed! All students have passed this first term.  Most projects have students that are tracking or exceeding planned schedules.  There is one project that is slightly lagging and we will keep a watchful eye on it this second term.  Progress has been relatively smooth across the projects.  Mentors are busy making sure that every student receive his/her  evaluation and payment. Students have also completed evaluation for their mentor\(s\).  Some project\(s\) have decided to start mini virtual daily stand-ups to keep closer tab on progress once past GSoC mid-way mark.  Two mentors have withdrawn from participation, one has left the Rocket.Chat organization/community altogether, another due to unanticipated personal obligations. 
+
 **Update June 8, 2020**
 
-Coding has started on June 1st. All mentors and students are busy getting the first month milestones of the project under way. Many of them are engaged daily via our [24 x7 community community server](https://open.rocket.chat)
+Coding has started on June 1st. All mentors and students are busy getting the first month milestones of the project under way. Many of them are engaged daily via our [24 x 7 community community server](https://open.rocket.chat)
 
 We have two community sponsored projects with students dropping out during this time, one due to family obligations and another due to prolonged funding uncertainty, and replacement students have been located for these projects.
 

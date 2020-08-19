@@ -54,7 +54,8 @@ curl -H "X-Auth-Token: 6eWs4ECxUITYYoZ_bAYK5OE2srkxAepQqQA1cGGv3jK" \
       "_id": "rocket.cat",
       "name": "Rocket.Cat",
       "username": "rocket.cat",
-      "status": "online"
+      "status": "online",
+      "avatarETag": "5BB9B5ny5DkKdrwkq"
     }
   ],
   "rooms": [],
