@@ -6,7 +6,7 @@ Now you can enjoy ultra-lightweight `Rocket.Chat` side by side with IRC, ICQ, Ya
 
 Try the alpha Rocket.Chat for Pidgin Plugin today. Please help improve the plug-in and report bugs or feedback.
 
-Installation instructions [here](https://bitbucket.org/EionRobb/purple-rocketchat#readme).
+Installation instructions [here](https://github.com/EionRobb/purple-rocketchat#readme).
 
 Download plugin DLL [here](https://eion.robbmob.com/librocketchat.dll).
 
