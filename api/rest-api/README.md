@@ -95,7 +95,6 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.addOwner` | Gives the role of owner for a user in the current channel. | [Link](methods/channels/addowner.md) |
 | `/api/v1/channels.anonymousread` | Gets the messages in public channels to an anonymous user | [Link](methods/channels/anonymousread.md) |
 | `/api/v1/channels.archive` | Archives a channel. | [Link](methods/channels/archive.md) |
-| `/api/v1/channels.cleanHistory` | Cleans up a channel's history, requires special permission. | [Link](https://github.com/RocketChat/docs/tree/4f704d5da4a2d5bcfe2cd2d2591edd12f5d41cd6/developer-guides/rest-api/channels/cleanhistory/README.md) |
 | `/api/v1/channels.close` | Removes a channel from a user's list of channels. | [Link](methods/channels/close.md) |
 | `/api/v1/channels.counters` | Gets channel counters. | [Link](methods/channels/counters.md) |
 | `/api/v1/channels.create` | Creates a new channel. | [Link](methods/channels/create.md) |
@@ -263,7 +262,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
-| `/api/v1/permissions.listAll` | Lists permissions on the server. | [Link](https://github.com/RocketChat/docs/tree/4f704d5da4a2d5bcfe2cd2d2591edd12f5d41cd6/developer-guides/rest-api/permissions/list-all/README.md) |
+| `/api/v1/permissions.listAll` | Lists permissions on the server. | [Link](methods/permissions/listall.md) |
 | `/api/v1/permissions.update` | Edits permissions on the server. | [Link](methods/permissions/update.md) |
 
 ### Roles

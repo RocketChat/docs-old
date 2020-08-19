@@ -14,18 +14,18 @@ This guide is designed for everyone, however, it is intentionally detailed to he
 
 ## What we'll cover in this guide
 
-1. [Securing the server: Firewall basics \(optional\)](https://github.com/RocketChat/docs/blob/master/installation/docker-containers/README.md#1-securing-the-server-firewall-basics-optional-recommended)
-2. [Securing the server: Fail2Ban IDS \(optional\)](https://github.com/RocketChat/docs/blob/master/installation/docker-containers/README.md#2-securing-the-server-fail2ban-optional-recommended)
-3. [Installing Docker and Docker-Compose](https://github.com/RocketChat/docs/blob/master/installation/docker-containers/README.md#3-installing-docker-and-docker-compose)
-4. [Editing the hosts file](https://github.com/RocketChat/docs/blob/master/installation/docker-containers/README.md#4-editing-the-hosts-file)
-5. [Installing Nginx SSL Reverse Proxy](https://github.com/RocketChat/docs/blob/master/installation/docker-containers/README.md#5-installing-nginx--ssl-certificate)
-6. [Creating docker-compose.yml](https://github.com/RocketChat/docs/blob/master/installation/docker-containers/README.md#6-create-the-docker-composeyml-file--local-directories)
-7. [Automatic start-up, and crash recovery](https://github.com/RocketChat/docs/blob/master/installation/docker-containers/README.md#7-automatic-startup--crash-recovery)
-8. [Reboot & Status check](https://github.com/RocketChat/docs/blob/master/installation/docker-containers/README.md#8-reboot-and-status-check)
-9. [Registering & Configuring Hubot, the chat robot](https://github.com/RocketChat/docs/blob/master/installation/docker-containers/README.md#9-registering--configuring-hubot-the-chat-robot)
-10. [FAQ & Troubleshooting](https://github.com/RocketChat/docs/blob/master/installation/docker-containers/README.md#10-troubleshooting--faq)
-11. [TODO](https://github.com/RocketChat/docs/blob/master/installation/docker-containers/README.md#11-todo)
-12. [Known Issues](https://github.com/RocketChat/docs/blob/master/installation/docker-containers/README.md#12-known-issues)
+1. [Securing the server: Firewall basics \(optional\)](#1-securing-the-server-firewall-basics-optional-recommended)
+2. [Securing the server: Fail2Ban IDS \(optional\)](#2-securing-the-server-fail2ban-optional-recommended)
+3. [Installing Docker and Docker-Compose](#3-installing-docker-and-docker-compose)
+4. [Editing the hosts file](#4-editing-the-hosts-file)
+5. [Installing Nginx SSL Reverse Proxy](#5-installing-nginx--ssl-certificate)
+6. [Creating docker-compose.yml](#6-create-the-docker-composeyml-file--local-directories)
+7. [Automatic start-up, and crash recovery](#7-automatic-startup--crash-recovery)
+8. [Reboot & Status check](#8-reboot-and-status-check)
+9. [Registering & Configuring Hubot, the chat robot](#9-registering--configuring-hubot-the-chat-robot)
+10. [FAQ & Troubleshooting](#10-troubleshooting--faq)
+11. [TODO](#11-todo)
+12. [Known Issues](#12-known-issues)
 
 ## Prerequisites
 

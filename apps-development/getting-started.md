@@ -170,7 +170,7 @@ Now that you have your App ready, you can test it before submitting it.
 
 To test your app, you need a Rocket.Chat server running locally on your machine and an admin user in it.
 
-See [Installing Rocket.Chat for Developing](https://github.com/RocketChat/docs/tree/ec114736ec53cc927e2cbddeddbe07b652e2b70f/quick-start.md) to run Rocket.Chat in develop mode. Enable Apps development mode by navigating to `Administration > General` then scroll down to Apps and click on the `True` radio button over the Enable development mode.
+See [Installing Rocket.Chat for Developing](../guides/developer/quick-start.md) to run Rocket.Chat in develop mode. Enable Apps development mode by navigating to `Administration > General` then scroll down to Apps and click on the `True` radio button over the Enable development mode.
 
 or run it in preview mode with docker using the command:
 
