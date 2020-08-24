@@ -432,12 +432,16 @@ Fenced code blocks should be surrounded by blank lines.
 ```text
 Some text
 ```
+
 Code block
-```
+
+```text
 
 ```
+
 Another code block
-```
+
+```text
 Some more text
 ```
 
@@ -445,15 +449,17 @@ Some more text
 
 ```text
 Some text
-
 ```
+
 Code block
-```
+
+```text
 
 ```
+
 Another code block
-```
 
+```text
 Some more text
 ```
 
@@ -592,8 +598,12 @@ Code blocks should be fenced.
 **Correct**:
 
 ```text
+
 ```
+
 codeblock using fences.
-```
+
+```text
+
 ```
 
