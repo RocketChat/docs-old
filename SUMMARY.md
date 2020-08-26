@@ -181,6 +181,7 @@
   * [Database Migration](guides/administrator-guides/database-migration.md)
   * [Retention Policies](guides/administrator-guides/retention-policies.md)
 * [Security and Compliance Guides](guides/security/README.md)
+  * [Security fixes and updates](guides/security/security-updates.md)
   * [Compliance Resources](guides/security/compliance-resources.md)
 * [Developer Guides](guides/developer/README.md)
   * [Quick Start on Linux](guides/developer/quick-start.md)
