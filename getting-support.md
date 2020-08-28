@@ -57,7 +57,13 @@ In case of security-relevant bugs, we might decide to backport patches to older 
 | 3.4 | [3.4.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.4.3) | Jun 2020 | Sep 2020 |
 | 3.5 | [3.5.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.5.4) | July 2020 | TBD |
 
-> Always update to latest stable version before reporting any bugs or before ask for help from community.
+{% hint style="warning" %}
+Always update to the latest stable version before reporting any bugs or before ask for help from the community.
+{% endhint %}
+
+{% hint style="info" %}
+**LTS** means "Long Time Support" and it's used to identify the last **minor** version before a **major** version, e.g. 2.4 is the last minor before 3.x. A new major version means that the version introduced a braking change and requires attention on the upgrade, so we maintain the support of the previous version for a longer time in order to give you more time to plan and test the upgrade.
+{% endhint %}
 
 ### Rocket.Chat Cloud
 
