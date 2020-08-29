@@ -40,8 +40,9 @@ Please make sure to follow new version updates by subscribing to our newsletters
         <p>v.3.4.2</p>
       </td>
       <td style="text-align:left"><b>(RCE) </b>Fixed an issue where thread starting messages could be used
-        to insert and execute code. Thanks to</td>
-      <td style="text-align:left">Rocket.Chat server</td>
+        to insert and execute code. Thanks to Pawel Wylecial of REDTEAM.PL</td>
+      <td
+      style="text-align:left">Rocket.Chat server</td>
     </tr>
   </tbody>
 </table>
