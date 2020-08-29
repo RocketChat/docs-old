@@ -10,40 +10,9 @@ Please make sure to follow new version updates by subscribing to our newsletters
 
 **Issues**
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>ID</b>
-      </th>
-      <th style="text-align:left"><b>Severity</b>
-      </th>
-      <th style="text-align:left"><b>Affected Versions</b>
-      </th>
-      <th style="text-align:left"><b>Fix Release Date</b>
-      </th>
-      <th style="text-align:left"><b>Fix Versions</b>
-      </th>
-      <th style="text-align:left"><b>Issue Details</b>
-      </th>
-      <th style="text-align:left"><b>Issue Platform</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">RC-2020-0001</td>
-      <td style="text-align:left">High</td>
-      <td style="text-align:left">v3.4.x</td>
-      <td style="text-align:left">2020-07-25</td>
-      <td style="text-align:left">
-        <p>v.3.5</p>
-        <p>v.3.4.2</p>
-      </td>
-      <td style="text-align:left"><b>(RCE) </b>Fixed an issue where thread starting messages could be used
-        to insert and execute code. Thanks to Pawel Wylecial of REDTEAM.PL</td>
-      <td
-      style="text-align:left">Rocket.Chat server</td>
-    </tr>
-  </tbody>
-</table>
+{% hint style="danger" %}
+**RC-2020-0001 - High Severity issue** fixed at **2020-07-25**  
+Rocket.Chat Server - affects **3.4.x**, ****fixed on **3.5** and **3.4.2**  
+**\(RCE\)** Fixed an issue where thread starting messages could be used to insert and execute code. Thanks to Pawel Wylecial of [REDTEAM.PL](http://redteam.pl/)
+{% endhint %}
 
