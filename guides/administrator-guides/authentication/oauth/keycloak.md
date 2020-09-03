@@ -14,7 +14,7 @@ The following image shows the minimal configurations needed to setup Keycloak as
 
 ![](../../../../.gitbook/assets/client_configurations.png)
 
-After saving the changes a new credentials tab will be created for the client. This credentials tab will provide the client secrets which will be used when configuring the Rocket.Chat
+After saving the changes a new credentials tab will be created for the client. This credentials tab will provide the client secrets which will be used when configuring the Rocket.Chat.
 
 ## Configuring Rocket.Chat
 
@@ -37,7 +37,9 @@ The URL paths provided in the below configurations can be also obtained by navig
 10. Secret: Secret key provided in the credentials tab when creating the Rocket.Chat client
 11. Button Text: `Login with Keycloak`
 
-Leave the rest of the configurations as default.
+Leave the rest of the configurations as default.   Click the blue button Save Changes at the top.
+
+Next, make sure you enable the new Keycloak provider.   And click the Refresh OAuth Services button.
 
 Now logout from Rocket.Chat to view the keycloak based login option visible in the login page.
 
