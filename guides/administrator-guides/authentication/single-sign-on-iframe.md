@@ -1,4 +1,4 @@
-# Single Sign On \(Iframe\)
+# iframe based Single Sign On
 
 ## Introduction
 

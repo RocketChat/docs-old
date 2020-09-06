@@ -1,2 +1,2 @@
-# Open ID Connect
+# OpenID Connect
 
