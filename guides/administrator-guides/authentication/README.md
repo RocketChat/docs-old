@@ -1,11 +1,18 @@
 # Authentication
 
-* [CAS](https://docs.rocket.chat/administrator-guides/authentication/cas/)
-* [LDAP](https://docs.rocket.chat/administrator-guides/authentication/ldap/)
-* [Oauth](https://docs.rocket.chat/administrator-guides/authentication/oauth/)
-* [SAML](https://docs.rocket.chat/administrator-guides/authentication/saml/)
-* [Single Sign On \(Iframe\)](single-sign-on-iframe.md)
-* [Wordpress](https://docs.rocket.chat/administrator-guides/authentication/wordpress/)
+{% page-ref page="oauth/" %}
+
+{% page-ref page="open-id-connect/" %}
+
+{% page-ref page="ldap.md" %}
+
+{% page-ref page="saml/" %}
+
+{% page-ref page="cas.md" %}
+
+{% page-ref page="single-sign-on-iframe.md" %}
+
+
 
 ## External Authentication
 

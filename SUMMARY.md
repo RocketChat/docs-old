@@ -99,7 +99,7 @@
     * [WhatsApp Integration / Twilio](guides/administrator-guides/omnichannel/whatsapp-twilio.md)
     * [Canned responses](guides/administrator-guides/omnichannel/canned-responses.md)
   * [Authentication](guides/administrator-guides/authentication/README.md)
-    * [OAuth Provider Configuration](guides/administrator-guides/authentication/oauth/README.md)
+    * [OAuth](guides/administrator-guides/authentication/oauth/README.md)
       * [WordPress OAuth Setup](guides/administrator-guides/authentication/oauth/wordpress.md)
     * [OpenID Connect](guides/administrator-guides/authentication/open-id-connect/README.md)
       * [Gluu Server 4.0](guides/administrator-guides/authentication/open-id-connect/gluu-server-4.0.md)
