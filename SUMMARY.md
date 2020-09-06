@@ -107,6 +107,8 @@
       * [Okta Identity Cloud Service](guides/administrator-guides/authentication/open-id-connect/okta.md)
     * [LDAP](guides/administrator-guides/authentication/ldap.md)
     * [SAML](guides/administrator-guides/authentication/saml/README.md)
+      * [Rocket.Chat server settings](guides/administrator-guides/authentication/saml/rocket.chat-server-settings.md)
+      * [Simple SAML php](guides/administrator-guides/authentication/saml/simple-saml-php.md)
       * [Active Directory Federation Services](guides/administrator-guides/authentication/saml/active-directory-federation-services.md)
       * [Oracle Identity Cloud Service](guides/administrator-guides/authentication/saml/oracle-cloud.md)
     * [CAS](guides/administrator-guides/authentication/cas.md)
