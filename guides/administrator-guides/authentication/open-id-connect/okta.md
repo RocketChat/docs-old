@@ -1,6 +1,10 @@
+---
+description: Open ID Connect
+---
+
 # Okta Identity Cloud Service
 
-Okta Identity Cloud Service can be integrated as an OAuth OpenID Identity Provider for Rocket.Chat.
+Okta Identity Cloud Service can be integrated as an Identity Provider for Rocket.Chat via its Open ID Connect support.
 
 ## Rocket.Chat Settings
 

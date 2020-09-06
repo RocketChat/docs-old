@@ -1,6 +1,6 @@
 # Keycloak
 
-## Configuring Keycloak Identity Provider
+## Configuring Keycloak OpenID Connect
 
 Create a client in Keycloak.
 

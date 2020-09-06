@@ -1,4 +1,4 @@
-# WordPress oAuth Setup
+# WordPress OAuth Setup
 
 The easiest way to configure Rocket.Chat using WordPress as your identity backend is to use the MiniOrange oAuth Plugin Version 2.5.6 or higher: [https://wordpress.org/plugins/miniorange-oauth-20-server/](https://wordpress.org/plugins/miniorange-oauth-20-server/)
 
