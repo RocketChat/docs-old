@@ -10,11 +10,13 @@ redirect_from:
 
 ## How to apply
 
-Application for Google Summer of Code 2020 is now closed. Please see [GSoC timeline](google-summer-of-code-2020.md#timeline) for more details.
+Application for Google Summer of Code 2020 is now closed. 
 
 #### Update September 8, 2020
 
-The GSoC 2020 season has completed with one of the best experience ever for many of the participating students and mentors.   
+The GSoC 2020 season has completed with one of the best experience ever for many of the participating students and mentors. 
+
+The final list of successful  Google Summer of Code 2020 Rocket.Chat projects and students/mentors is now [officially](https://summerofcode.withgoogle.com/organizations/4685162459168768/#5623423331467264) available.  
   
 Of the **seven official** GSoC projects, every student has managed to pass their final evaluation.    
 Congratulations to all the students of 2020 and their tireless mentors!        
