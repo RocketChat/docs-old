@@ -601,6 +601,7 @@
   * [Translating](contributors/contributing/translating.md)
 * [Code of Conduct](contributors/code_of_conduct.md)
 * [Google Summer of Code](contributors/gsoc/README.md)
+  * [Google Summer of Code 2021](contributors/gsoc/google-summer-of-code-2021.md)
   * [Google Summer of Code 2020](contributors/gsoc/google-summer-of-code-2020.md)
   * [Google Summer of Code 2019](contributors/gsoc/google-summer-of-code-2019.md)
   * [Google Summer of Code 2018](contributors/gsoc/google-summer-of-code-2018.md)
