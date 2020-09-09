@@ -21,7 +21,7 @@ Congratulations to all the students of 2020 and their tireless mentors!
   
 Of the **five additional** sponsored projects, **one** student : the problematic one noted in the previous term, has been **failed** by his mentors.    
   
-In this final term, we encouraged students to prepare a 30 minutes demo and presentation of their project to our community and core team.  Reception was incredible!   The list of invitees topped 80!   Most presentations were well attended.  Students showed off their work proudly alongside their mentors.   
+In this final term, we encouraged students to prepare a 30 minutes demo and presentation of their project for our community and core team.  Reception was incredible!   The list of invitees topped 80!   Most presentations were well attended.  Students showed off their work proudly alongside their mentors.   
   
 For many students,  it was the very first presentation experience in their entire life  - and having it in front such a supportive audience made it extremely fulfilling.     Attendees are delighted to discover the excellent work \(and exciting features\) that the student undertook.  
   
