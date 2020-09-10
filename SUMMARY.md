@@ -72,7 +72,8 @@
 ## Guides
 
 * [User Guides](guides/user-guides/README.md)
-  * [Channel Actions](guides/user-guides/channel-actions.md)
+  * [Channel Actions](guides/user-guides/channel-actions/README.md)
+    * [Invite Links](guides/user-guides/channel-actions/invite-links.md)
   * [Channels](guides/user-guides/channels.md)
   * [Connect to a server](guides/user-guides/connecting-to-a-server.md)
   * [Multi-users Direct Message](guides/user-guides/direct-messages-between-multiple-users.md)
