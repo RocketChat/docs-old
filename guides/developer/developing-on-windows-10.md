@@ -35,7 +35,7 @@ Building Rocket.Chat code requires a minimum of 8 GB of RAM memory on the Linux 
 1. Open a **WSL 2 shell** \(not Powershell\). Update Linux `sudo apt-get update sudo apt-get dist-upgrade`
 2. Install tools required
 
-   `sudo apt-get build-essential git curl python-minimal`
+   `sudo apt-get install build-essential git curl python-minimal`
 
 3. Install meteor
 
