@@ -652,7 +652,8 @@
 
 * [Terms of Service](legal/terms.md)
 * [Master Services Agreement for Self Managed Workspaces](legal/master-services-agreement-for-self-managed-workspaces.md)
-* [Privacy Policy](legal/privacy.md)
+* [Privacy Policy](legal/privacy/README.md)
+  * [Subprocessors](legal/privacy/subprocessors.md)
 * [Code of Conduct](legal/code-of-conduct.md)
 * [GDPR](legal/gdpr.md)
 * [Censorship and Harmful Content](legal/censorship-and-harmful-content.md)
