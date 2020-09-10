@@ -14,7 +14,7 @@ We also do not want to be the judges on what constitutes the “right” way to 
 
 Sometimes, our organization receives a request from a law enforcement body with the aim to produce a certain set of user data to aid in a criminal investigation. Or there might be a request to take down content that has been deemed illegal. We treat these requests very carefully and - where we are able and obliged to help - bring this to the attention of the administrator of the instance. Oftentimes, we cannot do anything though.
 
-That is because we have no way to access or control Rocket.Chat servers. Our platform is open source and has no backdoors or whatsoever to allow us to remotely access your installations. In case of instances hoste by us for others, we forward them to the respective administrator. Where the request is about content on a server directly under our control, such as our Open Server, you can contact us directly under legal@rocket.chat.\).
+That is because we have no way to access or control Rocket.Chat servers. Our platform is open source and has no backdoors or whatsoever to allow us to remotely access your installations. In case of instances hosted by us for others, we forward them to the respective administrator. Where the request is about content on a server directly under our control, such as our Open Server, you can contact us directly under [legal@rocket.chat](mailto:legal@rocket.chat).
 
 ### Resources for Administrators Be Notified About Harmful Content
 
@@ -51,12 +51,12 @@ As an ultimate resort, you may want to reach out to the law enforcement body in 
 * Blacklisting certain words or phrases
 * Notifying your users of applicable policies via e.g. pinning messages or adding an announcement to the room
 * Requiring confirmation of user registration by an administrator, to prevent unvetted users from posting messages
-* Enabling end-to-end encryption: with end-to-end encryption enabled, only an encrypted string of the message is stored on the server. This however prevents content auditing via administrators and moves responsibility for content moderation to users.
+* Enabling or disabling end-to-end encryption: with end-to-end encryption enabled, only an encrypted string of the message is stored on the server. This however prevents content auditing via administrators and moves responsibility for content moderation to users.
 * Turning on GoogleVision integration for image uploads, which has options to block images containing graphic or adult content
 
-All of these features are optional to choose, so you have the total flexibility in what to apply in your specific case. Let us know which kind of features you are currently missing - but would find useful - by opening feature requests in our Github repository \(link\).
+All of these features are optional to choose, so you have the total flexibility in what to apply in your specific case. Let us know which kind of features you are currently missing - but would find useful - by opening feature requests in [our Github repository](https://github.com/RocketChat/feature-requests).
 
-**For law enforcement:** We sometimes receive requests from law enforcement to remove content from certain Rocket.Chat instances. We have published guidelines for law enforcement \(link\), how we deal with requests and what to consider before submitting a request to us as the legal entity behind Rocket.Chat.
+**For law enforcement:** We sometimes receive requests from law enforcement to remove content from certain Rocket.Chat instances. We have published [guidelines for law enforcement](https://docs.rocket.chat/legal/guidelines-for-law-enforcement), how we deal with requests and what to consider before submitting a request to us as the legal entity behind Rocket.Chat.
 
 **In summary:** In most cases, we cannot remove the majority of content, because it is outside of our control on servers we do not have \(and do not want\) access to. If the content in question is on our Open Server, we remove it if it is a breach of our code of conduct or if we are compelled by a law enforcement request. For servers hosted by us and under control of our customers, we remove content after notifying and in collaboration with the instance owner. For questions or contact, please use [legal@rocket.chat](mailto:legal@rocket.chat)
 
