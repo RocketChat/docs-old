@@ -653,6 +653,7 @@
 * [Terms of Service](legal/terms.md)
 * [Master Services Agreement for Self Managed Workspaces](legal/master-services-agreement-for-self-managed-workspaces.md)
 * [Privacy Policy](legal/privacy/README.md)
+  * [Data Processing Agreement](legal/privacy/data-processing-agreement.md)
   * [Subprocessors](legal/privacy/subprocessors.md)
 * [Code of Conduct](legal/code-of-conduct.md)
 * [GDPR](legal/gdpr.md)
