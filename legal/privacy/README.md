@@ -1,6 +1,6 @@
 # Privacy Policy
 
-_Effective date: August 12th, 2020_
+_Effective date: September 11th, 2020_
 
 Rocket.Chat Technologies Corp. \("us", "we", or "our"\) operates the [https://rocket.chat](https://rocket.chat) website, the [https://open.rocket.chat](https://open.rocket.chat) community server, the Marketplace, incl. associated Rocket.Chat Apps, Rocket.Chat´s Cloud Offering and the Rocket.Chat mobile applications \(the "Service"\).
 
@@ -216,16 +216,9 @@ These third parties have access to your Personal Data only to perform these task
 
 ### Subprocessors
 
-We employ the following subprocessors to process personal data
+A list of our current subprocessors can be found here: 
 
-| Subprocessor | Purpose |
-| :--- | :--- |
-| Amazon Web Services, OVH | underlying infrastructure of our hosted offering, marketplace and open community server,  as well as other services such as push notifications. We use a mixed deployment. Generally speaking, after June 2020 all workspaces run on OVH. Reach out to support if you want to know the concrete subprocessor for your case. |
-| Stripe | payment processor |
-| ZOHO | email marketing, newsletter, CRM, customer support |
-| Apple Push Notification Service, Firebase | push notification gateways |
-| Mailchimp | email marketing |
-| PRVolt | email marketing |
+[Rocket.Chat subprocessor list](https://docs.rocket.chat/legal/privacy/subprocessors)
 
 ### Analytics
 
