@@ -35,7 +35,7 @@ Building Rocket.Chat code requires a minimum of 8 GB of RAM memory on the Linux 
 1. Open a **WSL 2 shell** \(not Powershell\). Update Linux `sudo apt-get update sudo apt-get dist-upgrade`
 2. Install tools required
 
-   `sudo apt-get install build-essential git curl python-minimal`
+   `sudo apt-get install build-essential git curl`
 
 3. Install meteor
 
@@ -67,7 +67,7 @@ Building Rocket.Chat code requires a minimum of 8 GB of RAM memory on the Linux 
 
 When the server is ready, you will see a box with "Server Running" title:
 
-![](../../.gitbook/assets/apprun.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 This means that a Rocket.Chat server is running from your computer. To access the server,  use Chrome, Brave, or Firefox browser, and navigate to
 
