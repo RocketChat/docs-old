@@ -482,6 +482,7 @@
       * [Open](api/rest-api/methods/im/open.md)
       * [Set Topic](api/rest-api/methods/im/settopic.md)
     * [Omnichannel \(Livechat\)](api/rest-api/methods/livechat/README.md)
+      * [Total service time by department](api/rest-api/methods/livechat/total-service-time-by-department.md)
       * [Average waiting time by department](api/rest-api/methods/livechat/average-waiting-time-by-department.md)
       * [Total of transferred chats by department](api/rest-api/methods/livechat/total-of-transferred-chats-by-department.md)
       * [Agents total service time](api/rest-api/methods/livechat/untitled.md)
