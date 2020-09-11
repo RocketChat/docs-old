@@ -1,12 +1,12 @@
 ---
-description: Gives the average service time per agent
+description: Gives the average waiting time sorted by department
 ---
 
-# Agents average service time
+# Average waiting time by department
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `api/v1/livechat/analytics/agents/average-service-time` | `YES` | `GET` |
+| `api/v1/livechat/analytics/departments/average-waiting-time` | `YES` | `GET` |
 
 ### Headers
 
@@ -29,7 +29,7 @@ description: Gives the average service time per agent
 ### Example Call
 
 ```bash
-curl --location --request GET 'http://localhost:3000/api/v1/livechat/analytics/agents/average-service-time?start=2020-02-12T00:11:22.345Z&end=2020-02-18T23:59:22.345Z' \
+curl --location --request GET 'http://localhost:3000/api/v1/livechat/analytics/departments/average-waiting-time?start=2020-02-12T00:11:22.345Z&end=2020-02-18T23:59:22.345Z' \
 --header 'X-Auth-Token: myauth-token' \
 --header 'X-User-Id: myuser-name'
 ```
@@ -38,7 +38,7 @@ curl --location --request GET 'http://localhost:3000/api/v1/livechat/analytics/a
 
 ```javascript
 {
-    "agents": [],
+    "departments": [],
     "count": 0,
     "offset": 0,
     "total": 0,

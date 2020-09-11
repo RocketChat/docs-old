@@ -1,12 +1,14 @@
 ---
-description: Gives the average service time per agent
+description: Gives the total service time sorted by agent
 ---
 
-# Agents average service time
+# Agents total service time
+
+## 
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `api/v1/livechat/analytics/agents/average-service-time` | `YES` | `GET` |
+| `api/v1/livechat/analytics/agents/total-service-time` | `YES` | `GET` |
 
 ### Headers
 
@@ -24,12 +26,12 @@ description: Gives the average service time per agent
 
 #### Notes
 
-* \*\* The API will return a blank page if the correct headers are not sent
+*  The API will return a blank page if the correct headers are not sent
 
 ### Example Call
 
 ```bash
-curl --location --request GET 'http://localhost:3000/api/v1/livechat/analytics/agents/average-service-time?start=2020-02-12T00:11:22.345Z&end=2020-02-18T23:59:22.345Z' \
+curl --location --request GET 'http://localhost:3000/api/v1/livechat/analytics/agents/total-service-time?start=2020-02-12T00:11:22.345Z&end=2020-02-18T23:59:22.345Z' \
 --header 'X-Auth-Token: myauth-token' \
 --header 'X-User-Id: myuser-name'
 ```
