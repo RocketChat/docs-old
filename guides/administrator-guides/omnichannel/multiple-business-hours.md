@@ -1,27 +1,42 @@
----
-description: Rocket.Chat Enterprise Feature
----
+# Business Hours
 
-# Multiple Business Hours
+The feature turns on the omnichannel toggle for the set business hours automatically. You will be able to receive omnichannel conversations after. The toggle will be turned off during off-hours. The enterprise workspaces have an option to set up multiple business hours according to different time zones and their business needs. Community workspaces can only set up one set of business hours.
 
-This implementation adds the ability to set up multiple `Business Hours` configurations. A new setting will define the behavior of the `Business Hours` system. There are two options available:
+To access **Business** **Hours** settings:
 
-* Single: This setting manages all Omnichannel agents. This option is suitable when there is only one team of agents.
-* Multiple: This setting allows managers to set up multiple `Business Hours` configurations. This option is suitable when then Teams of agents are grouped per department. Each department is allowed to have just one `Business Hour` configuration.
+1. Goto the dots menu and hit **Omnichannel**. Omnichannel settings will open up.
 
-Another long-awaited feature launched by this implementation is the ability to define different timezones by `Business hours`
+![](../../../.gitbook/assets/0%20%281%29.png)
 
-### Configuration
+1. Hit **Business** **Hours.**
 
-New setting to define the behavior of the new Business Hours system:
+![](../../../.gitbook/assets/1%20%281%29.png)
 
-![](../../../.gitbook/assets/86484314-588bf780-bd2c-11ea-9718-17acdde71b18-1-.png)
+To add a new set of hours to your workspace:
 
-Go to Omnichannel &gt; Business Hours
+1. Click the add button.
 
-![](../../../.gitbook/assets/86484498-b9b3cb00-bd2c-11ea-97e6-2a9bc8acd534.png)
+![](../../../.gitbook/assets/2%20%281%29.png)
 
+1. Name your new set of hours and select the department you are setting your business hours for.
 
+![](../../../.gitbook/assets/3%20%281%29.png)
 
+1. Select your timezone.
 
+![](../../../.gitbook/assets/4%20%281%29.png)
+
+1. Select open days of the week and business hours for each day.
+
+![](../../../.gitbook/assets/5%20%281%29.png)
+
+Note that if you are an agent who is in a conversation with a customer and you have reached the closing hour, you'll still finish the last conversation. After you have closed this conversation, the omnichannel toggle will be set to off automatically.
+
+1. Hit **Save.**
+
+![](../../../.gitbook/assets/6%20%281%29.png)
+
+Your new set of **Business** **Hours** are saved, as shown below:
+
+![](../../../.gitbook/assets/7%20%281%29.png)
 

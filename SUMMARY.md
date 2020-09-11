@@ -93,7 +93,7 @@
     * [Basic White-labeling](guides/administrator-guides/white-labeling/basic-white-labeling.md)
   * [Connectivity Services](guides/administrator-guides/connectivity-services.md)
   * [Omnichannel](guides/administrator-guides/omnichannel/README.md)
-    * [Multiple Business Hours](guides/administrator-guides/omnichannel/multiple-business-hours.md)
+    * [Business Hours](guides/administrator-guides/omnichannel/multiple-business-hours.md)
     * [Priority queue](guides/administrator-guides/omnichannel/priority-queue.md)
     * [Omnichannel Queue Types](guides/administrator-guides/omnichannel/livechat-queues.md)
     * [Integrating Livechat with Facebook Messenger](guides/administrator-guides/omnichannel/omnichannel-integration.md)
