@@ -72,7 +72,7 @@ Manage Livechat related data:
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
-| `/livechat/analytics/agents/average-service-time` | agent average service time | \[Link\] \(\#\) |
+| `/livechat/analytics/agents/average-service-time` | agent average service time | [Info ](https://docs.rocket.chat/api/rest-api/methods/livechat/agents-available-for-service-time) |
 | `/livechat/analytics/agents/total-service-time` | agent total service time | Link |
 | `/livechat/analytics/agents/available-for-service-history` | \#\# | Link |
 
