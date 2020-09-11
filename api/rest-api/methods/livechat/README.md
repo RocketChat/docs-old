@@ -51,4 +51,49 @@ Manage Livechat related data:
 | `/api/v1/livechat/appearance` | `GET` | Get the settings about Livechat Widget Appearance. | [info](appearance.md) |
 | `/api/v1/livechat/visitors.pagesVisited` | `GET` | Gets the visitor navigation history. | [info](visitor.md#get-the-visitor-navigation-history) |
 | `/api/v1/livechat/visitors.chatHistory/room/room-id/visitor/visitor-id` | `GET` | Gets the visitor chat history. | [info](visitor.md#get-the-visitor-chat-history) |
+|  |  |  |  |
+
+
+
+#### dashboard
+
+| Url | Short Description | Details Page |
+| :--- | :--- | :--- |
+| `/livechat/analytics/dashboard/conversation-totalizers` | conversation totalizer | \[Link\] \(\#\) |
+| `/livechat/analytics/dashboard/agent-productivity-totalizers` | agent productivity totalizers | Link |
+| `/livechat/analytics/dashboard/chats-totalizers` | chats totalizers | Link |
+| `/livechat/analytics/dashboard/charts/chats` | chats chart | Link |
+| `/livechat/analytics/dashboard/charts/chats-per-agent` | chats per agent chart | Link |
+| \`/livechat/analytics/dashboard/charts/agents-status | agent status chart | Link |
+| `/livechat/analytics/dashboard/charts/chats-per-department` | chats per department chart | Link |
+| `/livechat/analytics/dashboard/charts/timings` | timings | Link |
+
+#### Agents
+
+| Url | Short Description | Details Page |
+| :--- | :--- | :--- |
+| `/livechat/analytics/agents/average-service-time` | agent average service time | \[Link\] \(\#\) |
+| `/livechat/analytics/agents/total-service-time` | agent total service time | Link |
+| `/livechat/analytics/agents/available-for-service-history` | \#\# | Link |
+
+#### Departments
+
+| Url | Short Description | Details Page |
+| :--- | :--- | :--- |
+| `/livechat/analytics/departments/ammount-of-chats` | ammount of chats | \[Link\] \(\#\) |
+| `/livechat/analytics/departments/average-service-time` | average service time | \[Link\] \(\#\) |
+| `/livechat/analytics/departments/average-chat-duration-time` | average chats duration | \[Link\] \(\#\) |
+| `/livechat/analytics/departments/total-service-time` | total service time | \[Link\] \(\#\) |
+| `/livechat/analytics/departments/average-waiting-time` | avg waiting time | \[Link\] \(\#\) |
+| `/livechat/analytics/departments/total-transferred-chats` | total transferred chats | \[Link\] \(\#\) |
+| `/livechat/analytics/departments/total-abandoned-chats` | total abandoned chats | \[Link\] \(\#\) |
+| `/livechat/analytics/departments/percentage-abandoned-chats` | percentage of abandoned chats | \[Link\] \(\#\) |
+
+#### Livechat
+
+| Url | Short Description | Details Page |
+| :--- | :--- | :--- |
+| `/api/v1/livechat/inquiries.list` | Retrieves a list of open inquiries. | [Link](methods/livechat/inquiries.md#inquiries-list) |
+| `/api/v1/livechat/inquiries.take` | Take an open inquiry. | [Link](methods/livechat/inquiries.md#livechat-take-inquiry) |
+| `/api/v1/livechat/rooms` | Retrieves a list of livechat rooms. | [Link](methods/livechat/rooms.md) |
 

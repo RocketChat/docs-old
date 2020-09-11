@@ -482,6 +482,7 @@
       * [Open](api/rest-api/methods/im/open.md)
       * [Set Topic](api/rest-api/methods/im/settopic.md)
     * [Omnichannel \(Livechat\)](api/rest-api/methods/livechat/README.md)
+      * [Agents available for service time](api/rest-api/methods/livechat/agents-available-for-service-time.md)
       * [Agent Info](api/rest-api/methods/livechat/agent.md)
       * [Appearance](api/rest-api/methods/livechat/appearance.md)
       * [Config](api/rest-api/methods/livechat/config.md)

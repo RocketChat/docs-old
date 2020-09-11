@@ -54,7 +54,7 @@ From here scroll to the bottom and toggle encrypted on
 
 ### How can I tell if the room is encrypted?
 
-If the room is using End to End Encryption you should see a key icon in the top right next to the other icons. If you hold your mouse over the icon, you will see the text "E2E Enabled".
+If the room is using End to End Encryption you should see a key icon by the channel name.
 
 ![ ](../../.gitbook/assets/e2e-keybychannel.png)
 
@@ -63,3 +63,4 @@ If the room is using End to End Encryption you should see a key icon in the top 
 You will see a key icon by the username.
 
 ![ ](../../.gitbook/assets/e2e-keybymessage.png)
+
