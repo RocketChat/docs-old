@@ -49,7 +49,7 @@ Building Rocket.Chat code requires a minimum of 8 GB of RAM memory on the Linux 
 
    `meteor npm -v`
 
-4. Get rocket.chat code 
+4. Make sure  you are on the WSL 2 filesystem, `pwd` should return `/home/yourusername` Get rocket.chat code: 
 
    `git clone https://github.com/RocketChat/Rocket.Chat.git`
 
