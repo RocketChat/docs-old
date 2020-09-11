@@ -8,9 +8,5 @@ Omnichannel is the part of Rocket.Chat where Rocket.Chat integrates with several
 
 
 
-* link to Livechat section \(partially missing docs\)
-* link to Facebook integration section \(existing doc with updated screenshots\)
-* link to Whatsapp/Twilio integration section \(existing doc\)
-* Link to SMS integration section \(no doc yet\)
-* Link to 360Dialog integration section \(no doc yet\)
+
 
