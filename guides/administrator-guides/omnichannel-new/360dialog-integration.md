@@ -1,2 +1,0 @@
-# 360Dialog integration
-

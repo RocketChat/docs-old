@@ -1,2 +1,0 @@
-# Whatsapp/Twilio integration
-
