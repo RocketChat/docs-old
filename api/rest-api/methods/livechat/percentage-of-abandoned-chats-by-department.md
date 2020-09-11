@@ -4,11 +4,7 @@ description: Gives back the percentage of abandoned chats per department
 
 # Percentage of abandoned chats by department
 
-## 
-
-URL
-
-| Requires Auth | HTTP Method |  |
+| URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `api/v1/livechat/analytics/departments/percentage-abandoned-chats` | `YES` | `GET` |
 
