@@ -86,7 +86,7 @@ Manage Livechat related data:
 | `/livechat/analytics/departments/total-service-time` | total service time | [Info](https://docs.rocket.chat/api/rest-api/methods/livechat/total-service-time-by-department) |
 | `/livechat/analytics/departments/average-waiting-time` | avg waiting time | [Info](https://docs.rocket.chat/api/rest-api/methods/livechat/average-waiting-time-by-department) |
 | `/livechat/analytics/departments/total-transferred-chats` | total transferred chats | [Info](https://docs.rocket.chat/api/rest-api/methods/livechat/total-of-transferred-chats-by-department) |
-| `/livechat/analytics/departments/total-abandoned-chats` | total abandoned chats | \[Link\] \(\#\) |
+| `/livechat/analytics/departments/total-abandoned-chats` | total abandoned chats | [Info](https://docs.rocket.chat/api/rest-api/methods/livechat/total-abandoned-chats-by-department) |
 | `/livechat/analytics/departments/percentage-abandoned-chats` | percentage of abandoned chats | [Info](https://docs.rocket.chat/api/rest-api/methods/livechat/percentage-of-abandoned-chats-by-department) |
 
 #### Livechat
