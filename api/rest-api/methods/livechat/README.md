@@ -78,16 +78,16 @@ Manage Livechat related data:
 
 #### Departments
 
-| Url | Short Description |  |  |  |  |  |  |  | Details Page |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `/livechat/analytics/departments/ammount-of-chats` | ammount of chats |  |  |  |  |  |  |  | \[Link\] \(\#\) |
-| `/livechat/analytics/departments/average-service-time` | average service time |  |  |  |  |  |  |  | \[Link\] \(\#\) |
-| `/livechat/analytics/departments/average-chat-duration-time` | average chats duration |  |  |  |  |  |  |  | \[Link\] \(\#\) |
-| `/livechat/analytics/departments/total-service-time` | total service time |  |  |  |  |  |  |  | \[Link\] \(\#\) |
-| `/livechat/analytics/departments/average-waiting-time` | avg waiting time |  |  |  |  |  |  |  | \[Link\] \(\#\) |
-| `/livechat/analytics/departments/total-transferred-chats` | total transferred chats |  |  |  |  |  |  |  | \[Link\] \(\#\) |
-| `/livechat/analytics/departments/total-abandoned-chats` | total abandoned chats |  |  |  |  |  |  |  | \[Link\] \(\#\) |
-| `/livechat/analytics/departments/percentage-abandoned-chats` | percentage of abandoned chats |  |  |  |  |  |  |  | [Info](https://docs.rocket.chat/api/rest-api/methods/livechat/percentage-of-abandoned-chats-by-department) |
+| Url | Short Description | Details Page |
+| :--- | :--- | :--- |
+| `/livechat/analytics/departments/ammount-of-chats` | ammount of chats | Info |
+| `/livechat/analytics/departments/average-service-time` | average service time | \[Link\] \(\#\) |
+| `/livechat/analytics/departments/average-chat-duration-time` | average chats duration | [Info](https://docs.rocket.chat/api/rest-api/methods/livechat/average-chat-duration-by-department) |
+| `/livechat/analytics/departments/total-service-time` | total service time | [Info](https://docs.rocket.chat/api/rest-api/methods/livechat/total-service-time-by-department) |
+| `/livechat/analytics/departments/average-waiting-time` | avg waiting time | [Info](https://docs.rocket.chat/api/rest-api/methods/livechat/average-waiting-time-by-department) |
+| `/livechat/analytics/departments/total-transferred-chats` | total transferred chats | [Info](https://docs.rocket.chat/api/rest-api/methods/livechat/total-of-transferred-chats-by-department) |
+| `/livechat/analytics/departments/total-abandoned-chats` | total abandoned chats | \[Link\] \(\#\) |
+| `/livechat/analytics/departments/percentage-abandoned-chats` | percentage of abandoned chats | [Info](https://docs.rocket.chat/api/rest-api/methods/livechat/percentage-of-abandoned-chats-by-department) |
 
 #### Livechat
 
