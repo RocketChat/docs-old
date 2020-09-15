@@ -2,7 +2,7 @@
 
 Retrieves the messages from any direct message in the server. It supports the [Offset, Count, and Sort Query Parameters](../../offset-and-count-and-sort-info.md) along with [Query and Fields Query Parameter](../../query-and-fields-info.md).
 
-For this method to work the `Enable Direct Message History Endpoint` setting must be true, and the user calling this method must have the `view-room-administration` permission.
+For this method to work, the `Enable Direct Message History Endpoint` setting (from the admin panel: `General > REST API > Enable Direct Message History Endpoint`) must be set to true, and the user calling this method must have the `view-room-administration` permission.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
