@@ -26,8 +26,8 @@ For more details, see the [Bots Architecture section](bots-architecture.md#bot-p
 
 All bots share the common properties described above.  However, historical evolution driven by user and business demand has segregated bots into two major distinct categories:
 
-* chat-ops bots  Typically deployed in team-chat or group-chat environments to fascilitate the operation of external systems \(such as a development shop's CI pipelines,  gitlab/github builds, etc\).  These bots will report on status of workflows and empower chat users to trigger operations and workflows on these external systems   Chat-ops bots link _chat_  to _operations_.  
-* omnichannel bots  Typically backed by big data, CRMs, as well as machine learning engines to facilitate plus supplement customer facing workflows and functions. These bots are deployed across channels \(works in live chat, as readily as Whatsapp, as readily as Apple Business Chat; and works in harmony with human service agents\) to carry our their tasks.  
+* chat-ops bots  Typically deployed in team-chat or group-chat environments to fascilitate the operation of external systems \(such as a development shop's CI pipelines,  gitlab/github builds, etc\).  These bots will report on status of workflows and empower chat users to trigger or control operational workflows on these external systems   Chat-ops bots link _chat_  to _operations_.  
+* omnichannel bots  Typically backed by big data, CRMs, as well as machine learning engines to facilitate or supplement customer facing workflows and functions. These bots are deployed across channels \(works in live chat, as readily as Whatsapp, as readily as Apple Business Chat; and works in harmony with human service agents\) to carry our their tasks.  
 
 ## Getting Started
 
