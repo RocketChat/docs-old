@@ -94,6 +94,7 @@
   * [Omnichannel](guides/administrator-guides/omnichannel/README.md)
     * [Current Chats](guides/administrator-guides/omnichannel/current-chats.md)
     * [Managers](guides/administrator-guides/omnichannel/managers.md)
+    * [Agents](guides/administrator-guides/omnichannel/agents.md)
     * [Departments](guides/administrator-guides/omnichannel/departments.md)
     * [Business Hours](guides/administrator-guides/omnichannel/multiple-business-hours.md)
     * [Priority queue](guides/administrator-guides/omnichannel/priority-queue.md)

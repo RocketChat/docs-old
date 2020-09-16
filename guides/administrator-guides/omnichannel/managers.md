@@ -10,25 +10,25 @@ To access **Managers** settings:
 
 Go to Omnichannel panel settings, as shown below:
 
-![](../../../.gitbook/assets/0%20%284%29.png)
+![](../../../.gitbook/assets/0%20%285%29.png)
 
 Settings appear, as shown below:
 
-![](../../../.gitbook/assets/1%20%284%29.png)
+![](../../../.gitbook/assets/1%20%285%29.png)
 
 **To assign a user the manager role:**
 
 1. Select the user from the drop-down, as shown below:
 
-![](../../../.gitbook/assets/2%20%284%29.png)
+![](../../../.gitbook/assets/2%20%285%29.png)
 
 2. Hit **Add**.
 
-![](../../../.gitbook/assets/3%20%284%29.png)
+![](../../../.gitbook/assets/3%20%285%29.png)
 
 3. The user has the manager role now, as shown below:
 
-![](../../../.gitbook/assets/4%20%284%29.png)
+![](../../../.gitbook/assets/4%20%285%29.png)
 
 **To Search a manager by name:**
 
