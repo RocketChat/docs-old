@@ -1,6 +1,4 @@
-# Untitled
-
-## Current Chats
+# Current Chats
 
 Current Chats contain all the conversations that you have received. If a chat was not deleted, it appears here. You have various filters available to you to sort these conversations.
 
