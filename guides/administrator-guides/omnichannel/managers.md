@@ -1,6 +1,10 @@
-# Untitled
+---
+description: >-
+  In this menu, you can assign any user the manager role. You can also search
+  for a user in the list of managers.
+---
 
-In this menu, you can assign any user the manager role. You can also search for a user in the list of managers.
+# Managers
 
 To access **Managers** settings:
 
