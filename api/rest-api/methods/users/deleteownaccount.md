@@ -11,6 +11,7 @@ Deletes your own user. Requires `Allow Users to Delete Own Account` enabled. Acc
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `password` | `BsNr28znDkG8aeo7W` | Required | The password of user \(encrypted in SHA256\). |
+| `confirmRelinquish` | `true` | Optional Default: `false` | Deletes own account even if user is the last owner of a room. |
 
 ## Example Call
 
@@ -34,5 +35,6 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
+| 3.7.0 | Added `confirmRelinquish` to the payload. |
 | 0.67.0 | Added |
 
