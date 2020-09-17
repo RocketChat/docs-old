@@ -53,6 +53,6 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
-| 0.35.0 | Added |
 | 3.7.0 | Added `confirmRelinquish` to the payload. |
+| 0.35.0 | Added |
 
