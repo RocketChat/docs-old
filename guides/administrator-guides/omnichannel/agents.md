@@ -10,7 +10,7 @@ To access **Agents** settings:
 
 Go to Omnichannel panel settings, as shown below:
 
-![](../../../.gitbook/assets/0%20%284%29.png)
+![](../../../.gitbook/assets/0%20%285%29.png)
 
 Settings appear, as shown below:
 
@@ -28,7 +28,7 @@ Settings appear, as shown below:
 
 1. The user has the Agent role now, as shown below:
 
-![](../../../.gitbook/assets/4%20%284%29.png)
+![](../../../.gitbook/assets/4%20%285%29.png)
 
 **To Search an agent by name:**
 
@@ -40,5 +40,5 @@ Enter the agent’s name in the search bar, as shown below:
 
 To remove a user from the list of agents, hit **remove**, as shown below:
 
-![](../../../.gitbook/assets/6%20%284%29.png)
+![](../../../.gitbook/assets/6%20%285%29.png)
 
