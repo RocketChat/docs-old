@@ -16,7 +16,7 @@ Settings appear, as shown below:
 
 ![](../../../.gitbook/assets/1%20%284%29.png)
 
-**To assign a user the agent role:**
+## **To assign a user the agent role:**
 
 1. Select the user from the drop-down, as shown below:
 
@@ -30,13 +30,13 @@ Settings appear, as shown below:
 
 ![](../../../.gitbook/assets/4%20%285%29.png)
 
-**To Search an agent by name:**
+## **To Search an agent by name:**
 
 Enter the agent’s name in the search bar, as shown below:
 
 ![](../../../.gitbook/assets/5%20%285%29.png)
 
-**To remove a user from the agent's list:**
+## **To remove a user from the agent's list:**
 
 To remove a user from the list of agents, hit **remove**, as shown below:
 

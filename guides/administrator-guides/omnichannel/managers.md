@@ -16,7 +16,7 @@ Settings appear, as shown below:
 
 ![](../../../.gitbook/assets/image%20%2825%29.png)
 
-**To assign a user the manager role:**
+## **To assign a user the manager role:**
 
 1. Select the user from the drop-down, as shown below:
 
@@ -30,7 +30,7 @@ Settings appear, as shown below:
 
 ![](../../../.gitbook/assets/image%20%2824%29.png)
 
-**To Search a manager by name:**
+## **To Search a manager by name:**
 
 Enter the manager’s name in the search bar, as shown below:
 
