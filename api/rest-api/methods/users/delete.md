@@ -11,6 +11,7 @@ Deletes an existing user. Requires `delete-user` permission.
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `userId` or `username` | `BsNr28znDkG8aeo7W` | Required | The id or username of the user. |
+| `confirmRelinquish` | `true` | Optional Default: `false` | Deletes user even if it is the last owner of a room. |
 
 ## Example Call - Via userId
 

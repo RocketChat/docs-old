@@ -10,6 +10,7 @@
 | :--- | :--- | :--- | :--- |
 | `activeStatus` | `true` | Required | The value of the active status. |
 | `userId` | `5HmCfpoB7jp2uibTC` | Required | The user's id to be changed. |
+| `confirmRelinquish` | `true` | Optional Default: `false` | Allows user to be deactivated even if it is the last owner of a room. |
 
 ## Example call
 
