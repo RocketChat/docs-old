@@ -365,6 +365,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 ### Python
 
 * [rocketchat\_API](https://github.com/jadolg/rocketchat_API)
+* [rocket-python](https://github.com/Pipoline/rocket-python)
 
 ### Ruby
 
