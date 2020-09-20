@@ -97,6 +97,7 @@
     * [Agents](guides/administrator-guides/omnichannel/agents.md)
     * [Departments](guides/administrator-guides/omnichannel/departments.md)
     * [Custom Fields](guides/administrator-guides/omnichannel/custom-fields.md)
+    * [Livechat Triggers](guides/administrator-guides/omnichannel/livechat-triggers.md)
     * [Business Hours](guides/administrator-guides/omnichannel/multiple-business-hours.md)
     * [Monitors](guides/administrator-guides/omnichannel/monitors.md)
     * [Priority queue](guides/administrator-guides/omnichannel/priority-queue.md)
