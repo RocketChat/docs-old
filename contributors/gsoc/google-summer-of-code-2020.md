@@ -71,7 +71,7 @@ Furthermore, Viasat, one of Rocket.Chat's long-time community supporters, has ag
 
 | Student | Sponsored Project | Mentors |
 | :--- | :--- | :--- |
-| Subham Sahoo | Live agent and chatbot handoff app | David Lassalle, Steve Stetak, Renato Becker, Marcos Defendi |
+| Prajval Raval | Live agent and chatbot handoff app | David Lassalle, Steve Stetak, Renato Becker, Marcos Defendi |
 | Kashish Jayasi | Rocket.Chat mobile site | Peter Lepeska, Eric Rosenthal, Karan Bedi |
 
 This, in combination, allowed us to accommodate a total of **TWELVE** enthusiastic students this summer season.
