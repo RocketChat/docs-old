@@ -11,8 +11,22 @@ Please make sure to follow new version updates by subscribing to our newsletters
 **Issues**
 
 {% hint style="danger" %}
+**RC-2020-0003 - High Severity issue** fixed at **2020-08-29**  
+Rocket.Chat Server - affects **3.4.x**, ****fixed on **3.6**  
+_Details will be added with the next release_
+{% endhint %}
+
+{% hint style="info" %}
+**RC-2020-0002 - Low Severity issue** fixed at **2020-08-29**  
+Rocket.Chat Server - affects **3.x**, ****fixed on **3.6**   
+_Details will be added with the next release_
+{% endhint %}
+
+{% hint style="danger" %}
 **RC-2020-0001 - High Severity issue** fixed at **2020-07-25**  
 Rocket.Chat Server - affects **3.4.x**, ****fixed on **3.5** and **3.4.2**  
 **\(RCE\)** Fixed an issue where thread starting messages could be used to insert and execute code. Thanks to Pawel Wylecial of [REDTEAM.PL](http://redteam.pl/)
 {% endhint %}
+
+
 
