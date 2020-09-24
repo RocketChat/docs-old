@@ -2,9 +2,7 @@
 
 This page lists Rocket.Chat's current subprocessors for personal data and is updated on a regular basis.
 
-Last update: 10.09.2020
-
-
+Last update: 24.09.2020
 
 <table>
   <thead>
