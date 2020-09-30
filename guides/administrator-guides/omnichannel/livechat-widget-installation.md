@@ -1,6 +1,6 @@
 ---
 description: >-
-  In this section, you will learn how to install the livechat widget on your
+  In this section, you can learn how to install the livechat widget on your
   website.
 ---
 
