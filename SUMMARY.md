@@ -93,6 +93,7 @@
   * [Connectivity Services](guides/administrator-guides/connectivity-services.md)
   * [Omnichannel](guides/administrator-guides/omnichannel/README.md)
     * [Current Chats](guides/administrator-guides/omnichannel/current-chats.md)
+    * [Analytics](guides/administrator-guides/omnichannel/analytics.md)
     * [Real-time Monitoring](guides/administrator-guides/omnichannel/real-time-monitoring.md)
     * [Managers](guides/administrator-guides/omnichannel/managers.md)
     * [Agents](guides/administrator-guides/omnichannel/agents.md)
