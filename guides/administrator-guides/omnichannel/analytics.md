@@ -10,7 +10,7 @@ To access **Analytics** settings:
 
 Go to Analytics in the omnichannel panel settings, as shown below:
 
-![](../../../.gitbook/assets/0%20%2810%29.png)
+![](../../../.gitbook/assets/0%20%2811%29.png)
 
 ## To view conversation history:
 
