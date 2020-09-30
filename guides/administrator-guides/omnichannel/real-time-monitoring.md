@@ -86,7 +86,7 @@ It represents the average time the agents spend serving chats in the current day
 
 ### **Average of Response Time:** 
 
-If the select chat pickup method is auto-selection, the chat is automatically assigned to an agent. This matrix represents the average of agents' responses to all the conversations that are automatically assigned to them.
+If the selected chat pickup method is auto-selection, the chat is automatically assigned to an agent. This matrix represents the average of agents' responses to all the conversations that are automatically assigned to them.
 
 ### **Average of First Response Time:** 
 
