@@ -104,6 +104,7 @@
     * [Livechat Appearance](guides/administrator-guides/omnichannel/livechat-appearance.md)
     * [Business Hours](guides/administrator-guides/omnichannel/multiple-business-hours.md)
     * [Monitors](guides/administrator-guides/omnichannel/monitors.md)
+    * [Units](guides/administrator-guides/omnichannel/units.md)
     * [Priority queue](guides/administrator-guides/omnichannel/priority-queue.md)
     * [Omnichannel Queue Types](guides/administrator-guides/omnichannel/livechat-queues.md)
     * [Integrating Livechat with Facebook Messenger](guides/administrator-guides/omnichannel/omnichannel-integration.md)

@@ -22,11 +22,11 @@ You can customize the widget in the following four states.
 4. Show your agent’s information if you want. This information is the username.
 5. Show your agent’s email address if you prefer, as shown below:
 
-![](../../../.gitbook/assets/1%20%2812%29.png)
+![](../../../.gitbook/assets/1%20%2813%29.png)
 
 So according to the above settings, during online hours, your livechat widget appears, as shown below:
 
-![](../../../.gitbook/assets/2%20%2811%29.png)
+![](../../../.gitbook/assets/2%20%2812%29.png)
 
 ## Omnichannel Offline
 
