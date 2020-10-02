@@ -4,7 +4,7 @@ description: >-
   system, e.g., CRM, Zoho, etc
 ---
 
-# Webhook
+# Webhooks
 
 To access **Webhooks** settings:
 

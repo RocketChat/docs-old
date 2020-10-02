@@ -102,7 +102,7 @@
     * [Livechat Triggers](guides/administrator-guides/omnichannel/livechat-triggers.md)
     * [Livechat Widget Installation](guides/administrator-guides/omnichannel/livechat-widget-installation.md)
     * [Omnichannel Appearance](guides/administrator-guides/omnichannel/livechat-appearance.md)
-    * [Webhook](guides/administrator-guides/omnichannel/webhook.md)
+    * [Webhooks](guides/administrator-guides/omnichannel/webhook.md)
     * [Business Hours](guides/administrator-guides/omnichannel/multiple-business-hours.md)
     * [Monitors](guides/administrator-guides/omnichannel/monitors.md)
     * [Units](guides/administrator-guides/omnichannel/units.md)
