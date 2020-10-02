@@ -4,11 +4,11 @@ description: >-
   livechat widget.
 ---
 
-# Livechat Appearance
+# Omnichannel Appearance
 
-To access **Livechat Appearance** settings:
+To access **Omnichannel Appearance** settings:
 
-Go to **Livechat Appearance** in the omnichannel panel settings, as shown below:
+Go to **Omnichannel Appearance** in the omnichannel panel settings, as shown below:
 
 ![](../../../.gitbook/assets/0%20%2812%29.png)
 
