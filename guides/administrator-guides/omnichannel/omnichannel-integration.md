@@ -1,4 +1,4 @@
-# Integrating Livechat with Facebook Messenger
+# Facebook Messenger
 
 If your organization wishes to communicate with users of Facebook Messenger, you can enable an integration within Rocket.Chat to do so. First, you will need to request an API key from Rocket.Chat Support, then set it up within your Administration area.
 
