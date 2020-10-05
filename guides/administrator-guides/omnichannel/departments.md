@@ -108,3 +108,11 @@ Your newly created department is displayed in the list of departments, as shown 
 
 ![](../../../.gitbook/assets/26%20%281%29.png)
 
+
+
+You can have the following behavior depending on how many departments you have created:
+
+* No departments: all Livechat agents will receive incoming chats using a round-robin rule;
+* One department: all incoming chats will be offered to agents **only** on that department using a round-robin rule;
+* More than one department: the visitor will have to choose what department he wants to talk to at registration.
+
