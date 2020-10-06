@@ -25,7 +25,7 @@ The new unit creation pane will appear.
 ![](../../../.gitbook/assets/2%20%2811%29.png)
 
 1. Name your new unit.
-2. Set its visibility. Private/Public
+2. Set its visibility. Private/Public. A private unit will be available only for you.
 3. Add the desired departments to your unit.
 4. Assign monitors.
 5. Hit **Save**.
