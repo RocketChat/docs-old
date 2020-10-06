@@ -24,7 +24,7 @@ Send an email to [omni@rocket.chat](mailto:omni@rocket.chat) to request an API k
 
  
 
-![](../../.gitbook/assets/image%20%2847%29.png)
+![](../../.gitbook/assets/image%20%2853%29.png)
 
 5. Return to the main Rocket.Chat interface. Go to Omnichannel panel settings, as shown below:
 
@@ -38,7 +38,7 @@ Send an email to [omni@rocket.chat](mailto:omni@rocket.chat) to request an API k
 
 8. Enable the pages you'd like to get messages from, as shown below:
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+![](../../.gitbook/assets/image%20%2850%29.png)
 
 
 
