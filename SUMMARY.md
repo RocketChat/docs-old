@@ -107,7 +107,7 @@
     * [Business Hours](guides/administrator-guides/omnichannel/multiple-business-hours.md)
     * [Monitors](guides/administrator-guides/omnichannel/monitors.md)
     * [Units](guides/administrator-guides/omnichannel/units.md)
-    * [Priority queue](guides/administrator-guides/omnichannel/priority-queue.md)
+    * [Priorities](guides/administrator-guides/omnichannel/priority-queue.md)
     * [Omnichannel Queue Types](guides/administrator-guides/omnichannel/livechat-queues.md)
     * [WhatsApp Integration / Twilio](guides/administrator-guides/omnichannel/whatsapp-twilio.md)
     * [Canned responses](guides/administrator-guides/omnichannel/canned-responses.md)

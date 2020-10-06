@@ -2,9 +2,7 @@
 description: Rocket.Chat Enterprise Feature
 ---
 
-# Priority queue
-
-## Priority queue
+# Priorities
 
 The Omnichannel "Priorities" menu provides a new form to manage the priorities, as shown below:
 
