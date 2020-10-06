@@ -48,39 +48,68 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 
 ### General setup
 
-* Open [RocketChatRN.xcworkspace](https://github.com/RocketChat/Rocket.Chat.ReactNative/tree/single-server/ios/RocketChatRN.xcworkspace) on Xcode \(11.3.1 or newer\)
+* Open [RocketChatRN.xcworkspace](https://github.com/RocketChat/Rocket.Chat.ReactNative/tree/single-server/ios/RocketChatRN.xcworkspace) on Xcode \(11.7 or newer\)
 * On General tab, select “RocketChatRN” and change Display Name, Bundle Identifier, Version and Build
 
-![](https://lh4.googleusercontent.com/MkQgCQjPBm9advGEabvKiVS6fRQkBhlRu1015pqyVV9FN9BfZQUScrfRFdJ7D6YbgYqbP772Jc78BQ_RFlVlV4eZ9WPzP6ySG585DDv5_h06ALs4Zu_C3lGeNB8raAEszkUSjI_h)
+![](../../../.gitbook/assets/screen-shot-2020-10-05-at-16.42.41.png)
 
 * Select “ShareRocketChatRN” and change the same properties
-  * Note: Bundle Identifier is different from the previous target
+  * `Display Name` and `Bundle Identifier` are different from the previous target
+  * `Version` and `Build` must be the same on all targets
 
-![](https://lh4.googleusercontent.com/r95i-C7pxnSGB-3hcMsh0_WLlKBxtGUhpu2njxFo3w4zyT8iaxer9wx2V2QJMEyO7kMpEDHjKO1X6TEZ58ZytuxwCowiN3t4LOBKCni7hhmKYDTu0eJeRQRmIZ5ONydpT5ZFW9Ee)
+![](../../../.gitbook/assets/screen-shot-2020-10-05-at-16.42.50.png)
 
-* On Signing and Capabilities, check “Automatically manage signing” and select your app group
+* Select “NotificationService” and change the same properties
+  * `Display Name` and `Bundle Identifier` are different from the previous target
+  * `Version` and `Build` must be the same on all targets
 
-![](https://lh3.googleusercontent.com/FwWPu6TcW9d65VixPBeX-Reuau9BVWphP_WtV8z2OrpcmoOFJdVXrayhZfNiOs23DiNGcI8PLRPdZ3znt1dKlCTLfSoMUquovCLCez4jfmqzbooennB8GTivLM3Bq60tJiYsidl6)
+![](../../../.gitbook/assets/screen-shot-2020-10-05-at-16.42.59.png)
 
-* Select “ShareRocketChatRN” and check “Automatically manage signing”
+* On Signing and Capabilities, check “Automatically manage signing”, select your app group and add a keychain group
 
-![](https://lh5.googleusercontent.com/U2on_V-J-2js8Wd9wdsKHvolLnBCcXng8Kv1iQGEWelNEk0GfRmtFuC5danHbP23C__nevRb40L1EzODt2foAfB-IwaNR4cGWneM12bHjaLoFtuB1yZdl5589EjRFzi3ZMw_m_QF)
+![](../../../.gitbook/assets/screen-shot-2020-10-05-at-16.39.48.png)
 
-* Set the same app group on RocketChatRN/Info.plist and ShareRocketChatRN/Info.plist
+* Select “ShareRocketChatRN”, check “Automatically manage signing”, select your app group and add the same keychain group
 
-![](https://lh3.googleusercontent.com/o3iotTRPf5V7C6PZiZ9SYwWR_suvnW8mflVSABFaRaRzRuKm4SBRrbLiAVceStFpj7WWGs3xNJO_2cqT7EeRxet9fQoX7MYuUWjLfOBhScEXt5HZVB1XEQxtYrH5Oh8juv1Iz0hu)
+![](../../../.gitbook/assets/screen-shot-2020-10-05-at-16.39.33.png)
+
+* Select “NotificationService”, check “Automatically manage signing”, select your app group and add the same keychain group
+
+![](../../../.gitbook/assets/screen-shot-2020-10-05-at-16.39.58.png)
+
+* Set the same app group on `RocketChatRN/Info.plist`, `ShareRocketChatRN/Info.plist` and `NotificationService/Info.plist`
 
 ![](https://lh5.googleusercontent.com/BEV_JFzqUS3OX5mStoT1ParmsmQtRhtnHTGrBhzkHq-Lrf3rabjg1pnDlUqmEDaHXySmHzE-Iqtn07gL7FN6wGrbTAiLu3JFC5yN6qW1C3u3HnSqDQWZQ08hmp0jXhjplLeKmcyr)
 
-* Change the app icon on Images.xcassets/App Icon
+![](https://lh3.googleusercontent.com/o3iotTRPf5V7C6PZiZ9SYwWR_suvnW8mflVSABFaRaRzRuKm4SBRrbLiAVceStFpj7WWGs3xNJO_2cqT7EeRxet9fQoX7MYuUWjLfOBhScEXt5HZVB1XEQxtYrH5Oh8juv1Iz0hu)
+
+![](../../../.gitbook/assets/image%20%2841%29.png)
+
+* Set the same keychain group on `RocketChatRN/Info.plist`, `ShareRocketChatRN/Info.plist` and `NotificationService/Info.plist`
+
+![](../../../.gitbook/assets/image%20%2836%29.png)
+
+![](../../../.gitbook/assets/image%20%2834%29.png)
+
+![](../../../.gitbook/assets/image%20%2837%29.png)
+
+* It needs to be the same on all entitlements
+
+![](../../../.gitbook/assets/image%20%2839%29.png)
+
+![](../../../.gitbook/assets/image%20%2844%29.png)
+
+![](../../../.gitbook/assets/image%20%2842%29.png)
+
+* Change the app icon on `Images.xcassets/App Icon`
 
 ![](https://lh6.googleusercontent.com/sEyF_kaGjBtal_IW-pV657Hku-sSPPrUFwSgbW2VllV_tEHBGcfIuu6IJ5UN33q9UdE2q_Q9xC4TDiC7ERoe37OfYYhA333y5T5Dqo0jV9h5dvTj5uN2l2JadhLg7fEripLwgn-B)
 
-* Change the app splash screen on Images.xcassets/Launch Screen Icon
+* Change the app splash screen on `Images.xcassets/Launch Screen Icon`
 
 ![](https://lh4.googleusercontent.com/42ftYBrzF-r8eBeCpACkUAFzRbU4DOcuVHgXLqGdDCIGsv7J9v4pGHcUM-P6coWftTXkCiX0_u3J-c-0v92R23Bztknnq94WJ1FV5eGXyF53VNf06hFSuMlIEOmhAEPcLh2sXq65)
 
-* Set your Bugsnag API key on RocketChatRN/Info.plist
+* Set your Bugsnag API key on `RocketChatRN/Info.plist`
 
 ![](https://lh4.googleusercontent.com/vuLbbqHeK_lJC7y5zHt2Y_XNI_VRkhKu3Ee8CduE1TSGIQuvbc7EEKwvgXBD7CwvOa_QPIJFRnnDL-2j2wTwRe0neey8bP3wvuchTAQXgUBARrPh44ajgDScJXneKDw412aoQZ8e)
 
@@ -103,7 +132,9 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 
 ![](https://lh6.googleusercontent.com/aOiSAtt1YF-nsaZIHhKesYjdTzlsEN3T-mqZ2fvBvZJV95jl6LfBBjT0hS8ufaAyHytAdn-0yhjjkJ8kGLJ1RIZJvGYIpNtUon6_WPaSA7GZ-yyDslpCKSDUtnYaK8E0l4Z4mR1O)
 
-* Move the file to “ShareRocketChatRN” folder as well
+* Add it to all targets
+
+![](../../../.gitbook/assets/image%20%2843%29.png)
 
 ### Running the app
 
@@ -112,11 +143,13 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
   * `cd ios`
   * `pod install`
   * `cd ..`
-  * `react-native run-ios`
+  * `yarn ios`
 
 ## Android
 
 ### General setup
+
+_**Note:** we have two Android flavours: play \(used on Google Play\) and foss \(free of any proprietary libs\). This document contains instructions to the play favour._
 
 * Set `APPLICATIONID`, `VERSIONNAME`, `VERSIONCODE` and `BugsnagAPIKey` on [./android/gradle.properties](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/single-server/android/gradle.properties)
 * Change `ic_launcher.png` and `ic_notification.png` on the folders [./android/app/src/main/res/mipmap\*](https://github.com/RocketChat/Rocket.Chat.ReactNative/tree/single-server/android/app/src/main/res)
@@ -160,15 +193,17 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 
 ![](https://lh6.googleusercontent.com/t4_xn2ud8KnPKDfQ4r2Hk7jo4bYs85ZQ8LmYFeFwD6tB3qt3a8U1l3x1HsFcDE0yRKe1PI8AXDD-4J-8QoQMarD7riUwO3hjF4YURBKOe8hlJZHRCvt1E49TxVVZSkPSAfKg7OFB)
 
-* Download config file and move it as instructed
+* Download config file and move it as instructed, but to `android/app/src/play` instead.
 
 ![](https://lh5.googleusercontent.com/k7CjPaIbiBvkd3wY1Exl6FGZsmC5blK8pNW3fycI9NAVZ9rWwdVNHtSTV6EWHQFasep9tOf0k0nEE36khTIxgtTr4se2_NM6lJmgeM20M5lhMPupoc0BjhouH7B7X3jnP5CvgMg6)
+
+![](../../../.gitbook/assets/image%20%2833%29.png)
 
 ### Running the app
 
 * Execute the following on project terminal
   * `yarn`
-  * `react-native run-android`
+  * `yarn android`
 * The app will build on the simulator or device, but it won’t start automatically
 
 ### Optional: Start the app automatically after build
@@ -267,6 +302,10 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 * This time, select only App Groups under Capabilities
 * Click “Continue” and then “Register”
 
+### Create an App Identifier for our Notification Service
+
+![](../../../.gitbook/assets/image%20%2838%29.png)
+
 ### Creating an App Group
 
 * Visit [https://developer.apple.com/account/resources/identifiers/list](https://developer.apple.com/account/resources/identifiers/list)
@@ -288,7 +327,7 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 * On “App Groups”, click “Configure”
 * Select the App Group you created and click “Continue”
 * Click “Save”
-* Repeat these steps for the second identifier you created for the Share Extension
+* Repeat these steps for the second identifier you created for the Share Extension and NotificationService
 
 ### Creating Push Notifications certificates
 
