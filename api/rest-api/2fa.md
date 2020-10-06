@@ -77,6 +77,41 @@ If the user didn't receive the code it's possible to request the server to send 
 await APIClient.v1.post('users.2fa.sendEmailCode', undefined, {emailOrUsername: '{{emailOrUsername}}'});
 ```
 
+## Handling password fallback
+
+If an api request returns TOTP Required with a method *password*, then the API user's password is required to authenticate the request:
+
+```javascript
+// Error example
+{
+  "success":false,
+  "error":"TOTP Required [totp-required]",
+  "errorType":"totp-required",
+  "details":{
+    "method":"password",
+    "codeGenerated":false,
+    "availableMethods":[]
+  }
+}
+```
+
+### Request \(new headers\)
+
+The request must be resubmitted to the same end-point with the two additional headers
+
+* **X-2fa-code**: \(string\) The API user's password sha256 hashed;
+* **X-2fa-method**: 'password';
+
+```bash
+curl -H "X-Auth-Token: $YOUR_AUTH_TOEKN" \
+     -H "X-User-Id: $YOUR_USER_ID" \
+     -H "Content-type:application/json" \
+     -H "X-2fa-code:$SHA_256_HASH_OF_API_USER_PASSWORD" \
+     -H "X-2fa-method:password" \
+     http://localhost:3000/api/v1/users.update \
+     -d '{"userId": "SOME_USER_ID", "data": { "requirePasswordChange": false }}'   
+```
+
 ## Enabling the Two Factor via Email
 
 It's possible to enable the email check by calling the endpoint `users.2fa.enable-email` via POST. Note that the two factor via email will only work if the user has at least one verified email.
