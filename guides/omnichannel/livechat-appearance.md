@@ -10,7 +10,7 @@ To access **Omnichannel Appearance** settings:
 
 Go to **Omnichannel Appearance** in the omnichannel panel settings, as shown below:
 
-![](../../../.gitbook/assets/0%20%2812%29.png)
+![](../../.gitbook/assets/0%20%2812%29.png)
 
 You can customize the widget in the following four states.
 
@@ -22,11 +22,11 @@ You can customize the widget in the following four states.
 4. Show your agent’s information if you want. This information is the username.
 5. Show your agent’s email address if you prefer, as shown below:
 
-![](../../../.gitbook/assets/1%20%2813%29.png)
+![](../../.gitbook/assets/1%20%2813%29.png)
 
 So according to the above settings, during online hours, your livechat widget appears, as shown below:
 
-![](../../../.gitbook/assets/2%20%2812%29.png)
+![](../../.gitbook/assets/2%20%2812%29.png)
 
 ## Omnichannel Offline
 
@@ -40,7 +40,7 @@ Customize the appears of your livechat widget here, for the hours when none of y
 6. Set the email address where you want to receive your offline messages.
 7. Set success message to display to the visitor when they have sent their message offline.
 
-![](../../../.gitbook/assets/3%20%2811%29.png)
+![](../../.gitbook/assets/3%20%2811%29.png)
 
 So your livechat widget appears according to the above settings, during offline hours.
 
@@ -53,7 +53,7 @@ Here you set up the fields you want to show on the registration form.
 3. Show the Email field.
 4. Show any message on the registration form if you want. It appears right under the widget title.
 
-![](../../../.gitbook/assets/4%20%2811%29.png)
+![](../../.gitbook/assets/4%20%2811%29.png)
 
 ## Conversation Finished
 
@@ -62,5 +62,5 @@ Here you set up the fields you want to show on the registration form.
 
 As shown below:
 
-![](../../../.gitbook/assets/5%20%2811%29.png)
+![](../../.gitbook/assets/5%20%2811%29.png)
 

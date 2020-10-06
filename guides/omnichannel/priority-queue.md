@@ -6,11 +6,11 @@ description: Rocket.Chat Enterprise Feature
 
 The Omnichannel "Priorities" menu provides a new form to manage the priorities, as shown below:
 
-![](../../../.gitbook/assets/p1.png)
+![](../../.gitbook/assets/p1.png)
 
 Priority Form:
 
-![](../../../.gitbook/assets/p2.png)
+![](../../.gitbook/assets/p2.png)
 
 Each priority has its own\(unique\) `Estimated due time` field\(time in minutes\), so once a priority is associated with an `Inquiry/room`, this field will be used to set the queue inquiry order. As the priority is not mandatory, the Omnichannel queues will have inquiries with and without priorities. To support both possibilities, I refactored the structure of the fields that are used to sort the queues as displayed below
 
@@ -26,7 +26,7 @@ This value represents the estimated time that the inquiry should be attended by 
 
 Also, the agents and managers can change the inquiry priority through the `room info panel`:
 
-![](../../../.gitbook/assets/p3.png)
+![](../../.gitbook/assets/p3.png)
 
 When the room priority is changed, the fields described above are updated. The same happends when a priority’s `estimated due time field` is updated. Then, all inquiries associated with the priority will also be updated and this change will reflect in the queue.
 
