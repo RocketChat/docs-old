@@ -193,6 +193,7 @@
   * [Business Hours](guides/omnichannel/multiple-business-hours.md)
   * [Monitors](guides/omnichannel/monitors.md)
   * [Units](guides/omnichannel/units.md)
+  * [Tags](guides/omnichannel/tags.md)
   * [Priorities](guides/omnichannel/priority-queue.md)
   * [Omnichannel Queue Types](guides/omnichannel/livechat-queues.md)
   * [WhatsApp Integration / Twilio](guides/omnichannel/whatsapp-twilio.md)
