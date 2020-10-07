@@ -62,7 +62,17 @@ Please follow the steps given [here](https://docs.rocket.chat/guides/omnichannel
 
 ### External Frame
 
+If you have an app that you want to integrate with Rocket.Chat and use that app to embed an   iFrame in Rocket.Chat to interact with your CRM, you can do so using External Frame.
+
+1. Enable external frame.
+2.  Add the URL of your external frame.
+3. Enter the encryption key, as shown beow:
+
+![](../../.gitbook/assets/image%20%2858%29.png)
+
 ### Facebook
+
+
 
 ### GDPR
 
