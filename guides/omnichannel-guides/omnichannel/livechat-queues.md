@@ -5,11 +5,11 @@ There are four types of queue types on Rocket.Chat:
 * [Auto Selection \[default\]](livechat-queues.md#auto-selection)
 * [Manual Selection](livechat-queues.md#manual-selection)
 * [External Service](livechat-queues.md#external-service)
-* Load Balancing
+* Load Balancing \(Enterprise-only feature\)
 
 ## Auto Selection
 
-Each new chat will be routed to the agent that are accepting chats with the lower count. If there are more then one available agent with the same count the chat will get the first in order.
+Each new chat will be routed to the agent that are accepting chats with the lower count. If there is more then one available agent with the same count the chat will get the first in order.
 
 Consider the following department configuration:
 
