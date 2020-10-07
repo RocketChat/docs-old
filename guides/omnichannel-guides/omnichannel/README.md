@@ -147,9 +147,14 @@ Detail of every setting is listed below:
 1. Select your preferred routing method. \(Please refer to [this](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel/livechat-queues) article for information on  types of routing methods used in rocket chat.\)
 2. Enable acceptance of incoming omnichannel requests even if there are no online agents if you want.
 3. Enable if you want the routing system to attempt to find a bot agent before addressing new conversations to a human agent.
-4. Set the limit of Max number of items displayed in the queue if you want.
+4. Set the limit of **Max number of items displayed in the queue** if you want.
 5. Enable if you want to show the livechat queue to all the agents.
 6. Mention your External Queue Service URL if your _Omnichannel Routing Method_ is **External** **Service**.
+7. Enter **Secret Token**.
+8. Enable the **Waiting queue** if you want.
+9. Enter the **max. number of simultaneous chats** that you want your agents to attend.
+10. The **Number of recent chats to calculate estimated wait time** defines the number of last served rooms that will be used to calculate queue wait times.
+11. Enable **The Last-Chatted Agent Prrefered** setting allocates chats to the agent who previously interacted with the same visitor if the agent is available when the chat starts.
 
 
 
