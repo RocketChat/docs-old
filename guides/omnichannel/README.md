@@ -96,6 +96,15 @@ If you are a GDPR complaint company and want to allow your visitors to request t
 
 ### Livechat
 
+1. Set the title of your widget.
+2. Set the color of the title bar of your widget.
+3. Enable message character limit.
+4. Set the allowed message character length.
+5. Display offline form.
+6. Validate email address. 
+
+![](../../.gitbook/assets/image%20%2861%29.png)
+
 ### RD Station
 
 ### Routing
