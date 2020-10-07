@@ -5,7 +5,7 @@ description: >-
   Rocket.chat.
 ---
 
-# OmniChannel Admin Guide
+# Omnichannel Admin's Guide
 
 
 
@@ -140,7 +140,7 @@ We setup your token, and when a new livechat conversation starts, your visitor i
 
 ### Routing
 
-Routing allows you to define the behaviour of your livechat queues. 
+Routing allows you to define the behavior of your livechat queues. 
 
 
 

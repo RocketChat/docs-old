@@ -1,4 +1,4 @@
-# Omnichannel Queue Types
+# Queue Types
 
 There are three types of queue types on Rocket.Chat:
 
