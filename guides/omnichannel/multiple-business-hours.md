@@ -1,3 +1,7 @@
+---
+description: Multiple Business Hours is Rocket.Chat Enterprise Feature
+---
+
 # Business Hours
 
 The feature turns on the omnichannel toggle for the set business hours automatically. You will be able to receive omnichannel conversations after. The toggle will be turned off during off-hours. The enterprise workspaces have an option to set up multiple business hours according to different time zones and their business needs. Community workspaces can only set up one set of business hours.
