@@ -1,2 +1,2 @@
-# Omnichannel Manger Guides
+# Omnichannel Manager Guides
 
