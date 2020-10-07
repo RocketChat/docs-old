@@ -179,6 +179,7 @@
   * [Database Migration](guides/administrator-guides/database-migration.md)
   * [Retention Policies](guides/administrator-guides/retention-policies.md)
 * [Omnichannel Guides](guides/omnichannel-guides/README.md)
+  * [Omnichannel Manger Guides](guides/omnichannel-guides/omnichannel-manger-guides.md)
   * [OmniChannel Admin Guide](guides/omnichannel-guides/omnichannel/README.md)
     * [Current Chats](guides/omnichannel-guides/omnichannel/current-chats.md)
     * [Analytics](guides/omnichannel-guides/omnichannel/analytics.md)
