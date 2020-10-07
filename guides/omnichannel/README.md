@@ -72,6 +72,22 @@ If you have an app that you want to integrate with Rocket.Chat and use that app 
 
 ### Facebook
 
+If your organization wishes to communicate with users of Facebook, you can enable integration within Rocket.Chat to do so.
+
+First, you will need to request an API key from Rocket.Chat Support then set it up within your Administration area.
+
+Send an email to [omni@rocket.chat](mailto:omni@rocket.chat) to request an API key. These are processed as time allows, and may take a few days, but you should have your key and secret soon enough.
+
+
+
+1. Enable Facebook integration.
+2. Enter your _OmniChannel API Key_ 
+3. _Enter OmniChannel API Secret_. **Save** the changes.
+
+‌
+
+![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-MIz0NPAavAh0lU_m6WU%2F-MIz2cI9LQb6iNIthxPa%2Fimage.png?alt=media&token=b082edb1-8ac9-4f9b-84d5-5434d74bbbbf)
+
 
 
 ### GDPR
