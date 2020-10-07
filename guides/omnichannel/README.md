@@ -58,6 +58,8 @@ The feature turns on the omnichannel toggle for the set business hours automatic
 
 ### CRM Integration
 
+Please follow the steps given [here](https://docs.rocket.chat/guides/omnichannel/webhook).
+
 ### External Frame
 
 ### Facebook
