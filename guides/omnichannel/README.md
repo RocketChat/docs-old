@@ -94,7 +94,7 @@ Send an email to [omni@rocket.chat](mailto:omni@rocket.chat) to request an API k
 
 If you are a GDPR complaint company and want to allow your visitors to request to remove their data, Rocket.chat allows you to do that for all your incoming chats, as shown below:
 
-![](../../.gitbook/assets/image%20%2859%29.png)
+![](../../.gitbook/assets/image%20%2860%29.png)
 
 ### Livechat
 
@@ -107,7 +107,7 @@ If you are a GDPR complaint company and want to allow your visitors to request t
 
 as shown below:
 
-![](../../.gitbook/assets/image%20%2864%29.png)
+![](../../.gitbook/assets/image%20%2866%29.png)
 
 ### 
 
@@ -122,17 +122,27 @@ Now customize the appears of your livechat widget here, for the hours when none 
 
 as shown below:
 
-![](../../.gitbook/assets/image%20%2861%29.png)
+![](../../.gitbook/assets/image%20%2862%29.png)
 
 Some more settings that you can customise according to your needs are shown below:
 
-![](../../.gitbook/assets/image%20%2862%29.png)
+![](../../.gitbook/assets/image%20%2863%29.png)
 
 
 
 ### RD Station
 
+This is a CRM integration with RD Station. 
+
+We setup your token, and when a new livechat conversation starts, your visitor information is sent to the RD station. 
+
+![](../../.gitbook/assets/image%20%2859%29.png)
+
 ### Routing
+
+Routing allows you to define the behaviour of your livechat queues. 
+
+
 
 ### Sessions
 
