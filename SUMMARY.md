@@ -177,7 +177,7 @@
     * [Push Notifications](guides/administrator-guides/notifications/push-notifications.md)
   * [Database Migration](guides/administrator-guides/database-migration.md)
   * [Retention Policies](guides/administrator-guides/retention-policies.md)
-* [Omnichannel Guides](guides/omnichannel/README.md)
+* [OmniChannel Guides](guides/omnichannel/README.md)
   * [Current Chats](guides/omnichannel/current-chats.md)
   * [Analytics](guides/omnichannel/analytics.md)
   * [Real-time Monitoring](guides/omnichannel/real-time-monitoring.md)
