@@ -88,9 +88,11 @@ Send an email to [omni@rocket.chat](mailto:omni@rocket.chat) to request an API k
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-MIz0NPAavAh0lU_m6WU%2F-MIz2cI9LQb6iNIthxPa%2Fimage.png?alt=media&token=b082edb1-8ac9-4f9b-84d5-5434d74bbbbf)
 
-
-
 ### GDPR
+
+If you are a GDPR complaint company and want to allow your visitors to request to remove their data, Rocket.chat allows you to do that for all your incoming chats, as shown below:
+
+![](../../.gitbook/assets/image%20%2859%29.png)
 
 ### Livechat
 
