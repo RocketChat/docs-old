@@ -49,7 +49,11 @@ Now the admin will have access to _**Omnichannel Panel Settings**_ **** through 
 
 ### Business Hour
 
-1. 
+The feature turns on the omnichannel toggle for the set business hours automatically. And you will be able to receive omnichannel conversations after. The toggle will be turned off during off-hours. The enterprise workspaces have an option to set up multiple business hours according to different time zones and their business needs. Community workspaces can only set up one set of business hours.
+
+1. Enable business hours.
+2. Choose multiple business hours according to your enterprise needs.
+
 ![](../../.gitbook/assets/image%20%2857%29.png)
 
 ### CRM Integration
