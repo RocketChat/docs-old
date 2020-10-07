@@ -5,7 +5,7 @@ description: >-
   Rocket.chat.
 ---
 
-# OmniChannel Guides
+# OmniChannel Admin Guide
 
 
 
