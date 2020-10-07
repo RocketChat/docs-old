@@ -20,7 +20,7 @@ Send an email to [omni@rocket.chat](mailto:omni@rocket.chat) to request an API k
 
 2. Search '**OmniChannel'** in **Settings** and on the **OmniChannel Administration Settings** page, find the **Facebook** section. 
 3. Enable Facebook integration.
-4. enter your _OmniChannel API Key_ and _OmniChannel API Secret_. **Save** the changes.
+4. Enter your _OmniChannel API Key_ and _OmniChannel API Secret_. **Save** the changes.
 
  
 
