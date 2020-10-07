@@ -49,6 +49,9 @@ Now the admin will have access to _**Omnichannel Panel Settings**_ **** through 
 
 ### Business Hour
 
+1. 
+![](../../.gitbook/assets/image%20%2857%29.png)
+
 ### CRM Integration
 
 ### External Frame
