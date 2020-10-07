@@ -35,6 +35,18 @@ Now the admin will have access to _**Omnichannel Panel Settings**_ **** through 
 
 ### **OmniChannel Basic Settings** 
 
+1. Enable Omnichannel on your Rocket.Chat instance.
+2. Enable/Disable request comment from the agent when closing a conversation.
+3.  Enable/Disable acceptance of new omnichannel requests when the agent is idle
+4. Enable/Disable continuous sound notification for new omnichannel room/conversation.
+5. Enable/Disable file uploads in livechat widget.
+6. Enable/Disable asking the visitor if they would like a trascript of the conversation.
+7. Enter the message to show when asking for a transcript.
+
+![](../../.gitbook/assets/image%20%2854%29.png)
+
+
+
 ### Business Hour
 
 ### CRM Integration
