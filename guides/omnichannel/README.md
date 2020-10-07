@@ -7,6 +7,8 @@ description: >-
 
 # OmniChannel Guides
 
+
+
 Rocket.Chat had minimal Livechat as a feature for a long time.
 
 Recently the demand for production-grade Livechat has increased, so we did a complete rewrite of the package.
@@ -103,7 +105,30 @@ If you are a GDPR complaint company and want to allow your visitors to request t
 5. Display offline form.
 6. Validate email address. 
 
+as shown below:
+
+![](../../.gitbook/assets/image%20%2864%29.png)
+
+### 
+
+Now customize the appears of your livechat widget here, for the hours when none of your agents are online/working.
+
+1. Set **Offline Form Unavailable Message**, if any.
+2. Set **Offline Tittle.**
+3. Set Title ****bar **Color** for offline widget.
+4. Give instructions, if any.
+5. Set the email address where you want to receive your offline messages.
+6. Set success message to display to the visitor when they have sent their message offline
+
+as shown below:
+
 ![](../../.gitbook/assets/image%20%2861%29.png)
+
+Some more settings that you can customise according to your needs are shown below:
+
+![](../../.gitbook/assets/image%20%2862%29.png)
+
+
 
 ### RD Station
 
