@@ -158,9 +158,22 @@ Detail of every setting is listed below:
 
 
 
-![](../../../.gitbook/assets/image%20%2869%29.png)
+![](../../../.gitbook/assets/image%20%2870%29.png)
 
 ### Sessions
+
+Sessions allow you to decide how you want to handle your chat sessions when an agent goes offline.
+
+1. You can either forward the chat to another agent, close it or do nothing.
+2. Mention the amount of time in seconds that you want to wait before you want to consider that the agent has abandoned the chat.
+3. Enter the message to display to the visitor on closing the session.
+4. Mention the time you want to wait to consider visitor abandonment?
+5. Enable automatic closing of rooms abandoned by the visitor if you want.
+6. Enter the message to display to the visitor when room is automatically closed by visitor inactivity.
+
+As shown below:
+
+![](../../../.gitbook/assets/image%20%2869%29.png)
 
 
 

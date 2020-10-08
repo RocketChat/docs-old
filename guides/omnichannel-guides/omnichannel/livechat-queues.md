@@ -1,6 +1,6 @@
 # Queue Types
 
-There are four types of queue types on Rocket.Chat:
+There are four types of queue on Rocket.Chat:
 
 * [Auto Selection \[default\]](livechat-queues.md#auto-selection)
 * [Manual Selection](livechat-queues.md#manual-selection)
