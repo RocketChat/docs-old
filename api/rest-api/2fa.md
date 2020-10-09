@@ -105,9 +105,9 @@ The request must be resubmitted to the same end-point with the two additional he
 ```bash
 curl -H "X-Auth-Token: $YOUR_AUTH_TOKEN" \
      -H "X-User-Id: $YOUR_USER_ID" \
-     -H "Content-type:application/json" \
-     -H "X-2fa-code:$SHA_256_HASH_OF_API_USER_PASSWORD" \
-     -H "X-2fa-method:password" \
+     -H "Content-type: application/json" \
+     -H "X-2fa-code: $SHA_256_HASH_OF_API_USER_PASSWORD" \
+     -H "X-2fa-method: password" \
      http://localhost:3000/api/v1/users.update \
      -d '{"userId": "SOME_USER_ID", "data": { "requirePasswordChange": false }}'   
 ```
@@ -141,4 +141,3 @@ It's possible to disabled the email check by calling the endpoint `users.2fa.dis
 ```javascript
 await APIClient.v1.post('users.2fa.disable-email');
 ```
-
