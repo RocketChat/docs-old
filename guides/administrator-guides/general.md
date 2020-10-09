@@ -211,7 +211,7 @@ Should be a valid JSON where keys are languages containing a dictionary of key a
 
 RegExp that will be used to validate usernames and channel names
 
-> **Note**: If you are having problems with names when creating channels \(when using non-english characters for example\) changing these values will probably fix it. For example using `\S+` should allow any non-space character to be part of a name.
+> **Note**: If you are having problems with names when creating channels \(when using non-english characters for example\) changing these values will probably fix it. For example using `[\w_-]+` should allow any non-space character to be part of a name.
 
 ## Update
 
