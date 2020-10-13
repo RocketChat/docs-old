@@ -6,6 +6,6 @@ In these guides we will be talking about customizations without changing the sou
 
 We will be separating these guides into 2 categories: basic and advanced.
 
-* [Basic White-Labeling](https://github.com/RocketChat/docs/tree/54edfe57b136920830fc16204e8fcb650d8cee5c/guides/administrator-guides/white-labeling/advanced-white-labeling/README.md)
-* [Advanced White-Labeling](https://github.com/RocketChat/docs/tree/54edfe57b136920830fc16204e8fcb650d8cee5c/guides/administrator-guides/white-labeling/basic-white-labeling/README.md)
+* [Basic White-Labeling](https://github.com/RocketChat/docs/blob/master/guides/administrator-guides/white-labeling/basic-white-labeling.md)
+* [Advanced White-Labeling](https://github.com/RocketChat/docs/blob/master/guides/administrator-guides/white-labeling/advanced-white-labeling.md)
 
