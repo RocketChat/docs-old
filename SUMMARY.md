@@ -497,7 +497,7 @@
       * [Messages](api/rest-api/methods/im/messages.md)
       * [Open](api/rest-api/methods/im/open.md)
       * [Set Topic](api/rest-api/methods/im/settopic.md)
-    * [Omnichannel \(Livechat\)](api/rest-api/methods/livechat/README.md)
+    * [Omnichannel](api/rest-api/methods/livechat/README.md)
       * [Average chat duration by department](api/rest-api/methods/livechat/average-chat-duration-by-department.md)
       * [Total service time by department](api/rest-api/methods/livechat/total-service-time-by-department.md)
       * [Average waiting time by department](api/rest-api/methods/livechat/average-waiting-time-by-department.md)
