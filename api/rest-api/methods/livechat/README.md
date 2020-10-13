@@ -80,7 +80,7 @@ Manage Livechat related data:
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
-| `/livechat/analytics/departments/ammount-of-chats` | ammount of chats | Info |
+| `/livechat/analytics/departments/ammount-of-chats` | amount of chats | Info |
 | `/livechat/analytics/departments/average-service-time` | average service time | \[Link\] \(\#\) |
 | `/livechat/analytics/departments/average-chat-duration-time` | average chats duration | [Info](https://docs.rocket.chat/api/rest-api/methods/livechat/average-chat-duration-by-department) |
 | `/livechat/analytics/departments/total-service-time` | total service time | [Info](https://docs.rocket.chat/api/rest-api/methods/livechat/total-service-time-by-department) |
@@ -96,4 +96,6 @@ Manage Livechat related data:
 | `/api/v1/livechat/inquiries.list` | Retrieves a list of open inquiries. | [Link](methods/livechat/inquiries.md#inquiries-list) |
 | `/api/v1/livechat/inquiries.take` | Take an open inquiry. | [Link](methods/livechat/inquiries.md#livechat-take-inquiry) |
 | `/api/v1/livechat/rooms` | Retrieves a list of livechat rooms. | [Link](methods/livechat/rooms.md) |
+
+
 
