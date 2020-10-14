@@ -55,20 +55,9 @@ Manage Livechat related data:
 
 
 
-#### dashboard
+#### Dashboard
 
-| Url | Short Description | Details Page |
-| :--- | :--- | :--- |
-| `/livechat/analytics/dashboard/conversation-totalizers` | conversation totalizer | \[Link\] \(\#\) |
-| `/livechat/analytics/dashboard/agent-productivity-totalizers` | agent productivity totalizers | Link |
-| `/livechat/analytics/dashboard/chats-totalizers` | chats totalizers | Link |
-| `/livechat/analytics/dashboard/charts/chats` | chats chart | Link |
-| `/livechat/analytics/dashboard/charts/chats-per-agent` | chats per agent chart | Link |
-| \`/livechat/analytics/dashboard/charts/agents-status | agent status chart | Link |
-| `/livechat/analytics/dashboard/charts/chats-per-department` | chats per department chart | Link |
-| `/livechat/analytics/dashboard/charts/timings` | timings | Link |
-
-#### Agents
+Agents
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
@@ -76,7 +65,7 @@ Manage Livechat related data:
 | `/livechat/analytics/agents/total-service-time` | agent total service time | Link |
 | `/livechat/analytics/agents/available-for-service-history` | \#\# | Link |
 
-#### Departments
+Departments
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
