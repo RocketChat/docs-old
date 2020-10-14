@@ -1,6 +1,6 @@
 # Guidelines for Law Enforcement
 
-Last updated: January 31st 2020
+Last updated: October 14th, 2020
 
 These guidelines are intended for law enforcement authorities seeking information about Rocket.Chat accounts. More general information is available in our [Privacy Policy](https://rocket.chat/privacy) and [Terms of Service](https://rocket.chat/terms).
 
@@ -8,17 +8,40 @@ These guidelines are intended for law enforcement authorities seeking informatio
 
 Rocket.Chat is a free and open source team chat collaboration platform that allows users to communicate securely in real-time on web, desktop or mobile and to customize their interface with a range of plugins, themes and integrations with other key software. Anyone in the world can download and run a Rocket.Chat server at any time.
 
-As such, you need to be aware that any Rocket.Chat server may be operated by arbitrary businesses, groups or individuals with no relationship to Rocket.Chat Technologies Corp.
+As a platform, Rocket.Chat can be deployed various ways. The interaction on the platform between users happens via user accounts.
 
-In particular:
+## **Deployment options**
 
-* Rocket.Chat Technologies Corp. do not have access to these servers.
-* Rocket.Chat Technologies Corp. does not and cannot control or regulate how these servers are operated.
-* Rocket.Chat Technologies Corp. cannot access, determine or regulate any contents or information flow on these servers.
+In short, there are three relevant deployment options of Rocket.Chat, that affect the process for requesting information:
+
+1. servers hosted by us \(Rocket.Chat Technologies Corp.\) and managed by us directly \(such as our community server\)
+2. servers hosted by us, but managed by a customer \(our hosted offering\)
+3. servers hosted by a third party \(private servers\)
+
+The third option - private servers - is the most common one.
+
+How can you find out, which deployment is being used?
+
+We offer a server lookup, which checks if the server is hosted by us \(options 1 and 2\) or not \(option 3\). Please check [here](https://rocket.chat/server-lookup) for the lookup form.
+
+## **Private servers**
+
+You need to be aware that any private Rocket.Chat server may be operated by arbitrary businesses, groups or individuals with no relationship to Rocket.Chat Technologies Corp.  
+**In particular:**
+
+* **Rocket.Chat Technologies Corp. do not have access to these servers.**
+* **Rocket.Chat Technologies Corp. does not and cannot control or regulate how these servers are operated.**
+* **Rocket.Chat Technologies Corp. cannot access, determine or regulate any contents or information flow on these servers.**
+
+Administrators of private servers may opt-in to register their servers for additional connected services by Rocket.Chat \(e.g. push notifications for mobile devices\).
+
+The registration requires a working email address, a name or pseudonym and the server URL. More information is generally not available. We do not store content that passes through our gateways to provide the connectivity services.
+
+## **Servers under control of Rocket.Chat**
 
 For total transparency, Rocket.Chat Technologies Corp. owns and operates only one publicly available Rocket.Chat server in the world. The server that Rocket.Chat Technologies Corp. operates can only be accessed at:
 
-[https://open.rocket.chat](https://open.rocket.chat)
+**​**[**https://open.rocket.chat**](https://open.rocket.chat/)**​**
 
 That server is subject to our [Code of Conduct](https://rocket.chat/code-of-conduct).
 
@@ -26,19 +49,33 @@ Any other Rocket.Chat server you access is not operated by Rocket.Chat Technolog
 
 That said, Rocket.Chat Technologies Corp. provides a cloud service for hosting Rocket.Chat instances. The user data, messages and files on those instances are subject to our [Terms of Use](https://rocket.chat/terms).
 
-To know if an instance belongs to Rocket.Chat cloud, please contact us or use domain information systems.
+To know if an instance belongs to Rocket.Chat cloud, please contact us, use the aforementioned server lookup or use domain information systems.
 
-## What account information does Rocket.Chat have?
+What account information does Rocket.Chat have?
 
-Rocket.Chat does **not** keep a log of IPs used to access either Community Server or Rocket.Chat Cloud instances.
+Rocket.Chat does not keep a log of IPs used to access either Community Server or Rocket.Chat Cloud instances.
 
-### Community Server
+**Community Server**
 
-When someone registers an account at our community server, hosted at [https://open.rocket.chat](https://open.rocket.chat), we ask for a name, an e-mail and a password, and they have to verify their e-mail address. Rocket.Chat does not monitor any public or private channels activities other than for the company's own use, such as the \#general, \#support and \#dev public channels.
+When someone registers an account at our community server, hosted at [https://open.rocket.chat](https://open.rocket.chat/), we ask for a name, an e-mail and a password, and they have to verify their e-mail address. Rocket.Chat does not monitor any public or private channels activities other than for the company's own use, such as the \#general, \#support and \#dev public channels.
 
-### Rocket.Chat Cloud
+We do not keep a log of IPs.
 
-When someone signs up for a Rocket.Chat Cloud server, we ask for a name, e-mail, workspace name and domain they'd like to use. The e-mail is then verified before the instance is deployed. Every message and file sent is stored within Rocket.Chat cloud servers and databases hosted with Google Cloud Platform and/or Amazon Web Services. Rocket.Chat does not monitor the activity in Cloud servers.
+**Rocket.Chat Cloud**
+
+When someone signs up for a Rocket.Chat Cloud server, we ask for a name, e-mail, workspace name and domain they'd like to use. The e-mail is then verified before the instance is deployed. Every message and file sent is stored within Rocket.Chat cloud servers and databases hosted with a third party hosting provider. Rocket.Chat does not actively scan the content activity in Cloud servers.
+
+## **Individual user account information**
+
+Rocket.Chat is a platform and the interaction between individuals on the platform happens based on user accounts, e.g. in the format of:
+
+_firstname.lastname_
+
+These accounts are unique to the deployed instance of the Rocket.Chat platform. So if information is requested for an individual user account of the platform, this information goes only as far as the scope of that specific, individual instance of Rocket.Chat. 
+
+**To identify the proper user account, the specific instance therefore must be named as well \(generally in form of the URL\).**
+
+The aforementioned restrictions with regards to the deployment options apply to users as well. User information cannot be produced by us for user accounts of private Rocket.Chat servers. Requests for such information should be targeted at the administrator of the private server. If the administrator is unknown, the request should be targeted at the owner of the DNS record of the private server domain.
 
 ## Data retention information
 
@@ -78,7 +115,7 @@ Yes. Rocket.Chat's policy is to notify users of requests for their Rocket.Chat a
 
 Requests for user account information in accordance with applicable law, are required to include the following information:
 
-* Include the Rocket.Chat server URL and @username of the subject Rocket.Chat account in question;
+* **Include the Rocket.Chat server URL \(!\)** and @username of the subject Rocket.Chat account in question;
 * Provide details about what specific information is requested \(e.g., messages, files, account information\) and its relationship to your investigation;
 * Include a valid official email address \(e.g., name@agency.gov\) so we may get back in touch with you upon receipt of your legal process;
 * Be issued on law enforcement letterhead.
@@ -115,7 +152,7 @@ Please include all of the following information:
 * Any specific Rocket.Chat messages you would like us to review;
 * The specific information requested and why that information is necessary to prevent the emergency;
 * The signature of the submitting law enforcement officer; and
-* All other available details or context regarding the particular circumstances.
+* All other available details or context regarding the particular circumstances \(e.g. names of channels, timeframe for which information is requested, etc.\)
 
 ## Contact information
 
@@ -124,4 +161,6 @@ Our address details are:
 Rocket.Chat Technologies Corp. 251 Little Falls Drive, Wilmington, DE, 19808
 
 Receipt of correspondence is for convenience only and does not waive any objections, including the lack of jurisdiction or proper service.
+
+Electronic communication should go to: [legal@rocket.chat](mailto:legal@rocket.chat)
 
