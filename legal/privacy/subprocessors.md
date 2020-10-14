@@ -18,11 +18,16 @@ Last update: 24.09.2020
         <p></p>
         <p>OVH</p>
       </td>
-      <td style="text-align:left">underlying infrastructure of our hosted offering, marketplace and open
-        community server, as well as other services such as push notifications.
-        We use a mixed deployment. Generally speaking, after June 2020 all workspaces
-        run on OVH. Please reach out to support if you want to know the concrete
-        subprocessor for your case.</td>
+      <td style="text-align:left">
+        <p>underlying infrastructure of our hosted offering, marketplace and open
+          community server, as well as other services such as push notifications.
+          We use a mixed deployment. Generally speaking, after June 2020 all workspaces
+          run on OVH.</p>
+        <p>The location of from where an instance of our hosted offering is deployed
+          is determined by the customer during onboarding.</p>
+        <p>Please reach out to support if you want to know the concrete subprocessor
+          for your case.</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">Stripe</td>

@@ -4,8 +4,7 @@
 
 {% page-ref page="simple-saml-php.md" %}
 
-{% page-ref page="keycloak.md" %}
-
 {% page-ref page="active-directory-federation-services.md" %}
 
 {% page-ref page="oracle-cloud.md" %}
+
