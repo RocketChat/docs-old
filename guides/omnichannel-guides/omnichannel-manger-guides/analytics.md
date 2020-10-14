@@ -64,7 +64,7 @@ You can also see the **percentage of conversations**, an **average of chat durat
 
 ### Details of productivity matrices:
 
-![](../../../.gitbook/assets/10%20%284%29.png)
+![](../../../.gitbook/assets/image%20%2871%29.png)
 
 **Average of Response Time:** This matrix represents the average of your agent’s team’s responses to all the conversations that are automatically assigned to them during a selected time.
 
@@ -76,5 +76,5 @@ You can also see the **Average of First Response Time**, **Best First Response T
 
 ![](../../../.gitbook/assets/11%20%284%29.png)
 
-![](../../../.gitbook/assets/12%20%284%29.png)
+![](../../../.gitbook/assets/image%20%2872%29.png)
 
