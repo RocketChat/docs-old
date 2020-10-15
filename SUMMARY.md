@@ -202,6 +202,7 @@
     * [Tags](guides/omnichannel-guides/omnichannel-manger-guides/tags.md)
     * [Priorities](guides/omnichannel-guides/omnichannel-manger-guides/priority-queue.md)
 * [Security and Compliance Guides](guides/security/README.md)
+  * [End-to-End Encryption Algorithms](guides/security/end-to-end-encryption-algorithms.md)
   * [Security fixes and updates](guides/security/security-updates.md)
   * [Compliance Resources](guides/security/compliance-resources.md)
 * [Developer Guides](guides/developer/README.md)
