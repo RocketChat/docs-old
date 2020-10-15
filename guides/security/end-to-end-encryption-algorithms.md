@@ -70,20 +70,19 @@ Note that if the receiving client does not have the session key in its local sto
 For saving a newly generated public key to the database for the current user.  
 **Request:** 
 
- `key = {`
+`key = {`
 
- `RSA-PubKey: “&lt; The generated public key for a client>”,`
+`RSA-PubKey: “&lt; The generated public key for a client>”,`
 
- `RSA-EPrivKey: “&lt;` **``**`Generated private key, encrypted using the master key>”`
+`RSA-EPrivKey: “&lt;` **``**`Generated private key, encrypted using the master key>”`
 
- `}`      
+`}`  
 
 
 The keys have been converted from ArrayBuffer to String format before sending them.  
 
 
 **Response:** null   
-  
 
 
 ### 2. fetchGroupE2EKey\(rid\) 
@@ -99,7 +98,6 @@ For fetching the encrypted session key for a conversation, for the current user.
 **Response:**
 
  The **E2EE** session key for the current user, for that conversation.      
-  
 
 
 ### 3. fetchKeychain\(userId\) 
@@ -109,19 +107,18 @@ For fetching the public key of a user \(to be used for encrypting the session ke
 
 **Request:** 
 
- `userId = The id of a user.`      
+`userId = The id of a user`  
 
 
 **Response:**
 
- `{`
+`{`
 
- `RSA-PubKey: “&lt; The public key for that user>”,`
+`RSA-PubKey: “&lt; The public key for that user>”,`
 
- `RSA-EPrivKey: “&lt; The private key, encrypted using the master key>”`
+`RSA-EPrivKey: “&lt; The private key, encrypted using the master key>”`
 
- `}`      
-  
+`}`   
 
 
 ### 4. updateGroupE2EKey\(rid, uid, key\) 
@@ -130,17 +127,16 @@ For saving an encrypted session key to the database, for a user.
 
 **Request:** 
 
- `rid = The room id of a conversation (either of direct or private).`
+ `rid = The room id of a conversation (either of direct or private)`
 
- `uid = The id of a user.`
+`uid = The id of a user`
 
- `key = The E2EE Session key for that user, for that conversation.`      
+`key = The E2EE Session key for that user, for that conversation`    
 
 
 **Response:**
 
- `{ RocketChat subscription object }`      
-  
+`{ RocketChat subscription object }`  
 
 
 ### 5. emptyKeychain\(\) 
@@ -162,14 +158,13 @@ Fetches current user’s public and encrypted private keys from the server datab
 
 **Response:**
 
-    `{`
+ `{`
 
- `RSA-PubKey: “&lt;The public key for current user>”,`
+`RSA-PubKey: “&lt;The public key for current user>”,`
 
- `RSA-EPrivKey: “&lt;The private key, encrypted using the master key>”`
+`RSA-EPrivKey: “&lt;The private key, encrypted using the master key>”`
 
- `}`     **``**  
-
+`}`
 
 ## REST API routes for encryption-related requests 
 
