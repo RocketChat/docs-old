@@ -7,7 +7,7 @@ description: >-
 
 # End-to-End Encryption Algorithms
 
-## Encryption Process Overview ****
+## Encryption Process Overview
 
 First of all, upon login, the client auto-generates the encryption password and asks the user to save it. This password is used to generate a secure 256-bit **AES-CBC** encryption key, called “**Master** **Key**”.
 
