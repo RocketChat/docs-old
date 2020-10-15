@@ -28,7 +28,7 @@ Send an email to cloud.support@rocket.chat with the address of your workspace. N
 
 **How do I view the push usage for my workspace?**
 
-To view the push usage for your workspace you need to login to the Cloud Console \(cloud.rocket.chat\) : navigate to Workspaces and click on the workspace you'd like to see usage for.
+To view the push usage for your workspace you need to login to the Cloud Console \([cloud.rocket.chat](https://cloud.rocket.chat)\): navigate to Workspaces and click on the workspace you'd like to see usage for.
 
 ![](../.gitbook/assets/image%20%2873%29.png)
 
