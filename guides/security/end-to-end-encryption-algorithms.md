@@ -166,7 +166,7 @@ Fetches current user’s public and encrypted private keys from the server datab
 
 `}`
 
-## REST API routes for encryption-related requests 
+## REST API routes for encryption-related requests
 
 Each route directly corresponds to one server DDP method described above. These routes follow the same naming system as the DDP methods described above. Please refer to the above description to know more about the individual request/response pairs for each route.   
 
