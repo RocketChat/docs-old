@@ -26,6 +26,12 @@ Send an email to cloud.support@rocket.chat with the address of your workspace. N
 
 ## Cloud Accounts
 
+**How do I view the push usage for my workspace?**
+
+To view the push usage for your workspace you need to login to the Cloud Console \(cloud.rocket.chat\) : navigate to Workspaces and click on the workspace you'd like to see usage for.
+
+![](../.gitbook/assets/image%20%2873%29.png)
+
 #### I already canceled my workspace but it is still in the “Cancelling” status and is accessible.
 
 Please, note that in case you cancel your workspace in the middle of billing period it will be accessible and in the “Cancelling” status till the end of your billing period.
