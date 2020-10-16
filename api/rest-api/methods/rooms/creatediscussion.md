@@ -12,7 +12,13 @@ Creates a new discussion for room. It requires at least one of the following per
 
 ## Payload
 
-\| `prid` \| `GENERAL` \| Required \| Parent room id of the discussion. \| \| `t_name` \| `discussion name` \| Required \| Discussion name. \| \| `users` \| `['rocket.cat']` \| Optional\| Array of users to join in the discussion, if not provide will be an empry array\(Note: if provided, it must be an array\). \| \| `pmid` \| `aobEgbghXfe543keqG` \| Optional \| Parent message id\(if the discussion comes from a message\). \| \| `reply` \| `reply of this discussion` \| Optional \| The reply of the discussion. \|
+| Argument | Example | Required | Description |
+| :--- | :--- | :--- | :--- |
+| `prid` | `GENERAL` | Required | Parent room id of the discussion. |
+| `t_name` | `discussion name` | Required | Discussion name. |
+| `users` | `['rocket.cat']` | Optional | Array of users to join in the discussion, if not provide will be an empry array\(Note: if provided, it must be an array\). |
+| `pmid` | `aobEgbghXfe543keqG` | Optional | Parent message id\(if the discussion comes from a message\). |
+| `reply` | `reply of this discussion` | Optional | The reply of the discussion. |
 
 ## Example Call
 
