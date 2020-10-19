@@ -10,32 +10,32 @@ redirect_from:
 
 ## How to apply
 
-Application for Google Summer of Code 2020 is now closed. 
+Application for Google Summer of Code 2020 is now closed.
 
 #### Update September 8, 2020
 
-The GSoC 2020 season has completed with one of the best experience ever for many of the participating students and mentors. 
+The GSoC 2020 season has completed with one of the best experience ever for many of the participating students and mentors.
 
-The final list of successful  Google Summer of Code 2020 Rocket.Chat projects and students/mentors is now [officially](https://summerofcode.withgoogle.com/organizations/4685162459168768/#5623423331467264) available.  
-  
-Of the **seven official** GSoC projects, every student has managed to pass their final evaluation.    
-Congratulations to all the students of 2020 and their tireless mentors!        
-  
-Of the **five additional** sponsored projects, **one** student : the problematic one noted in the previous term, has been **failed** by his mentors.    
-  
-In this final term, we encouraged students to prepare a 30 minutes demo and presentation of their project for our community and core team.  Reception was incredible!   The list of invitees topped 80!   Most presentations were well attended.  Students showed off their work proudly alongside their mentors.   
-  
-For many students,  it was the very first presentation experience in their entire life  - and having it in front such a supportive audience made it extremely fulfilling.     Attendees are delighted to discover the excellent work \(and exciting features\) that the student undertook.  
-  
-From the crop of excellent 2020 students,  the Rocket.Chat team made an internship offer to one student and he has accepted and became a member of our team.  Our long time community contributor,  Viasat, has also independently made an offer to another student this year.
+The final list of successful Google Summer of Code 2020 Rocket.Chat projects and students/mentors is now [officially](https://summerofcode.withgoogle.com/organizations/4685162459168768/#5623423331467264) available.
+
+Of the **seven official** GSoC projects, every student has managed to pass their final evaluation.  
+Congratulations to all the students of 2020 and their tireless mentors!
+
+Of the **five additional** sponsored projects, **one** student : the problematic one noted in the previous term, has been **failed** by his mentors.
+
+In this final term, we encouraged students to prepare a 30 minutes demo and presentation of their project for our community and core team. Reception was incredible! The list of invitees topped 80! Most presentations were well attended. Students showed off their work proudly alongside their mentors.
+
+For many students, it was the very first presentation experience in their entire life - and having it in front such a supportive audience made it extremely fulfilling. Attendees are delighted to discover the excellent work \(and exciting features\) that the student undertook.
+
+From the crop of excellent 2020 students, the Rocket.Chat team made an internship offer to one student and he has accepted and became a member of our team. Our long time community contributor, Viasat, has also independently made an offer to another student this year.
 
 #### Update August 4, 2020
 
-Second evaluation has completed.  Once again, all mentors have decided to pass their students for this term. Of note is one potentially problematic student, mentor agreed to monitor the situation for the final term.  Another student has pre-arranged with his mentor to start the term early and has completed his work by this evaluation.
+Second evaluation has completed. Once again, all mentors have decided to pass their students for this term. Of note is one potentially problematic student, mentor agreed to monitor the situation for the final term. Another student has pre-arranged with his mentor to start the term early and has completed his work by this evaluation.
 
 #### Update July 12, 2020
 
-First evaluation has completed! All students have passed this first term.  Most projects have students that are tracking or exceeding planned schedules.  There is one project that is slightly lagging and we will keep a watchful eye on it this second term.  Progress has been relatively smooth across the projects.  Mentors are busy making sure that every student receive his/her  evaluation and payment. Students have also completed evaluation for their mentor\(s\).  Some project\(s\) have decided to start mini virtual daily stand-ups to keep closer tab on progress once past GSoC mid-way mark.  Two mentors have withdrawn from participation, one has left the Rocket.Chat organization/community altogether, another due to unanticipated personal obligations. 
+First evaluation has completed! All students have passed this first term. Most projects have students that are tracking or exceeding planned schedules. There is one project that is slightly lagging and we will keep a watchful eye on it this second term. Progress has been relatively smooth across the projects. Mentors are busy making sure that every student receive his/her evaluation and payment. Students have also completed evaluation for their mentor\(s\). Some project\(s\) have decided to start mini virtual daily stand-ups to keep closer tab on progress once past GSoC mid-way mark. Two mentors have withdrawn from participation, one has left the Rocket.Chat organization/community altogether, another due to unanticipated personal obligations.
 
 **Update June 8, 2020**
 
@@ -347,5 +347,5 @@ Interested students are also encouraged to interact with our contributor communi
 
 ## Timeline
 
-{% embed url="https://developers.google.com/open-source/gsoc/timeline" %}
+{% embed url="https://developers.google.com/open-source/gsoc/timeline" caption="" %}
 

@@ -503,7 +503,7 @@
       * [Total service time by department](api/rest-api/methods/livechat/total-service-time-by-department.md)
       * [Average waiting time by department](api/rest-api/methods/livechat/average-waiting-time-by-department.md)
       * [Total of transferred chats by department](api/rest-api/methods/livechat/total-of-transferred-chats-by-department.md)
-      * [Agents total service time](api/rest-api/methods/livechat/untitled.md)
+      * [Agents total service time](api/rest-api/methods/livechat/agents-total-service-time.md)
       * [Agents average service time](api/rest-api/methods/livechat/agents-average-service-time.md)
       * [Total abandoned chats by department](api/rest-api/methods/livechat/total-abandoned-chats-by-department.md)
       * [Percentage of abandoned chats by department](api/rest-api/methods/livechat/percentage-of-abandoned-chats-by-department.md)
