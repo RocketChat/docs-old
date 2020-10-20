@@ -1,6 +1,6 @@
-# Compliance Resources
+# Compliance Resources and Certifications
 
-On this page, we provide you with resources around compliance of Rocket.Chat with industry standards, regulations and best practices. Contact our specialists for further information under [security@rocket.chat](mailto:security@rocket.chat).
+On this page, we provide you with resources around compliance of Rocket.Chat with industry standards, regulations and best practices. Also our certifications are listed here. Contact our specialists for further information under [security@rocket.chat](mailto:security@rocket.chat).
 
 ## Compliance certifications
 
@@ -8,7 +8,7 @@ On this page, we provide you with resources around compliance of Rocket.Chat wit
 
 ![](../../.gitbook/assets/27001-small.png)
 
-Rocket.Chat is ISO 27001 certified. ISO 27001 is an internationally recognized standard for information security management systems. Our organization is audited on an annual basis by an independent third-party auditor to verify the design and operational effectiveness of the management system.
+**Rocket.Chat is ISO 27001 certified**. ISO 27001 is an internationally recognized standard for information security management systems. Our organization is audited on an annual basis by an independent third-party auditor to verify the design and operational effectiveness of the management system.
 
 * Certificate: 
 

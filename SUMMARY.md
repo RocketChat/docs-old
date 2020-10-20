@@ -204,7 +204,7 @@
 * [Security and Compliance Guides](guides/security/README.md)
   * [End-to-End Encryption Algorithms](guides/security/end-to-end-encryption-algorithms.md)
   * [Security fixes and updates](guides/security/security-updates.md)
-  * [Compliance Resources](guides/security/compliance-resources.md)
+  * [Compliance Resources and Certifications](guides/security/compliance-resources.md)
 * [Developer Guides](guides/developer/README.md)
   * [Quick Start on Linux](guides/developer/quick-start.md)
   * [Developing on Windows 10](guides/developer/developing-on-windows-10.md)
