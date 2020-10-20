@@ -18,7 +18,7 @@ If you struggle to handle leads and clients in a multi-channel environment, you 
 * Facebook Messenger
 * Live Chat, and so on. 
 
-Omnichannel area of Rocket.Chat has two main users. 
+Omnichannel area of Rocket.Chat has two main users.
 
 1. [Admins](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel)
 2. [Managers](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel-manger-guides)
