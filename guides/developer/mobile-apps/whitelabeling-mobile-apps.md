@@ -16,7 +16,7 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 * Make sure you have both iOS and Google developer accounts and the respective development environments working
   * You can follow this guide: [https://reactnative.dev/docs/getting-started](https://reactnative.dev/docs/getting-started)
 * Clone [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)
-* Checkout `single-server` branch
+* Checkout `single-server` branch (git clone -b single-server https://github.com/RocketChat/Rocket.Chat.ReactNative)
 
 ## General
 
