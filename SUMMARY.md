@@ -652,6 +652,7 @@
 
 ## Rocket.Chat SaaS
 
+* [Create your new Cloud Account](rocket.chat-saas/create-new-cloud-account.md)
 * [FAQ](rocket.chat-saas/faq.md)
 
 ## Legal
