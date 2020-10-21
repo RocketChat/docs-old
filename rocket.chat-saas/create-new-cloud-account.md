@@ -4,7 +4,7 @@ description: >-
   workspace. Its available both for self-managed as well as SaaS customers.
 ---
 
-# Create your new Cloud Account
+# Create your new cloud account
 
 If you are a self-managed customer cloud console account is optional but if you are a SaaS customer, it is created by default when you first create your workspace with us.
 
