@@ -1,14 +1,14 @@
 ---
 description: >-
-  Cloud console account gives you limited access to manage your rocket.chat
-  workspace. Its available both for self-managed as well as SaaS customers.
+  Cloud account gives you limited access to manage your rocket.chat workspace.
+  It's available both for self-managed as well as SaaS customers.
 ---
 
 # Create your new cloud account
 
-If you are a self-managed customer cloud console account is optional but if you are a SaaS customer, it is created by default when you first create your workspace with us.
+If you are a self-managed customer cloud  account is optional but if you are a SaaS customer, it is created by default when you first create your workspace with us.
 
-## To create a new cloud console account:
+## To create a new cloud account:
 
 * Go to rocket.chat
 * Click Pricing.
@@ -57,11 +57,11 @@ If you are a self-managed customer cloud console account is optional but if you 
 
 ![](../.gitbook/assets/image%20%2880%29.png)
 
-* As soon as you click **Continue** on the password page, rocket.chat will start creating your workspace, as shown below:
+* As soon as you click **Continue** on the password page, rocket.chat will start creating your cloud account, as shown below:
 
 ![](../.gitbook/assets/image%20%2882%29.png)
 
-* Copy and share the link to your new rocket.chat workspace with your colleagues. Hit **Start now** to set up your rocket.chat workspace.
+* Copy and share the link to your new rocket.chat cloud account with your colleagues. Hit **Start now** to set up your new rocket.chat cloud account.
 
 ![](../.gitbook/assets/image%20%2877%29.png)
 
