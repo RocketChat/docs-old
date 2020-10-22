@@ -654,7 +654,8 @@
 
 * [Create your new cloud account](rocket.chat-saas/create-new-cloud-account.md)
 * [Cloud account Setup Wizard](rocket.chat-saas/set-up-your-new-cloud-account.md)
-* [Manage your workspace on cloud account](rocket.chat-saas/manage-your-workspace-on-cloud-account.md)
+* [Manage your cloud account](rocket.chat-saas/manage-your-workspace-on-cloud-account/README.md)
+  * [Workspaces](rocket.chat-saas/manage-your-workspace-on-cloud-account/workspaces.md)
 * [FAQ](rocket.chat-saas/faq.md)
 
 ## Legal
