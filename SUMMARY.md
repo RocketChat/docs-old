@@ -656,6 +656,11 @@
 * [Cloud account Setup Wizard](rocket.chat-saas/set-up-your-new-cloud-account.md)
 * [Manage your cloud account](rocket.chat-saas/manage-your-workspace-on-cloud-account/README.md)
   * [Workspaces](rocket.chat-saas/manage-your-workspace-on-cloud-account/workspaces.md)
+  * [Profile](rocket.chat-saas/manage-your-workspace-on-cloud-account/profile.md)
+  * [Invoices](rocket.chat-saas/manage-your-workspace-on-cloud-account/invoices.md)
+  * [Payment Methods](rocket.chat-saas/manage-your-workspace-on-cloud-account/payment-methods.md)
+  * [Support](rocket.chat-saas/manage-your-workspace-on-cloud-account/support.md)
+  * [Organization Settings](rocket.chat-saas/manage-your-workspace-on-cloud-account/organization-settings.md)
 * [FAQ](rocket.chat-saas/faq.md)
 
 ## Legal
