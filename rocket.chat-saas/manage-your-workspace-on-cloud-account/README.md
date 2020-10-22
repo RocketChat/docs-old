@@ -14,7 +14,3 @@ To access your rocket.chat cloud account:
 
 ![](../../.gitbook/assets/image%20%2892%29.png)
 
-As soon as you login, you will see the list of workspaces linked to your cloud account, as shown below:
-
-![](../../.gitbook/assets/image%20%2891%29.png)
-
