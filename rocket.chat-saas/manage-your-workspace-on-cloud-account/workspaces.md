@@ -10,5 +10,5 @@ Click the Add button to add your self-managed workspace.
 
 ![](../../.gitbook/assets/image%20%2896%29.png)
 
-And contact us if you want to add several SaaS workspaces under the same account.
+If you want to have multiple cloud workspaces under the same cloud account, please reach out to us at [support@rocket.chat](mailto:support@rocket.chat)
 
