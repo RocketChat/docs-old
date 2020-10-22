@@ -13,13 +13,13 @@ If you are a self-managed customer cloud  account is optional but if you are a S
 * Go to rocket.chat
 * Click Pricing.
 
-![](../.gitbook/assets/image%20%2876%29.png)
+![](../.gitbook/assets/image%20%2877%29.png)
 
 
 
 * Hit SaaS.
 
-![](../.gitbook/assets/image%20%2879%29.png)
+![](../.gitbook/assets/image%20%2881%29.png)
 
 * Select your desired SaaS package. Note that if you select **Bronze** or **Silver** you will proceed with a full-featured **Gold** trial.
 *  You will be directed cloud.rocket.chat website.
@@ -30,7 +30,7 @@ If you are a self-managed customer cloud  account is optional but if you are a S
 3. Enter your email address.
 4. Click continue.
 
-![](../.gitbook/assets/image%20%2881%29.png)
+![](../.gitbook/assets/image%20%2886%29.png)
 
 * Please enter your workspace details on the next window:
 
@@ -47,7 +47,7 @@ If you are a self-managed customer cloud  account is optional but if you are a S
 
 * You are notified that a verification email has been sent to your email address.
 
-![](../.gitbook/assets/image%20%2878%29.png)
+![](../.gitbook/assets/image%20%2880%29.png)
 
 * Open your email account and confirm your email address. 
 
@@ -55,13 +55,13 @@ If you are a self-managed customer cloud  account is optional but if you are a S
 
 * After you confirm your email you are taken to password setup, as shown below:
 
-![](../.gitbook/assets/image%20%2880%29.png)
+![](../.gitbook/assets/image%20%2884%29.png)
 
 * As soon as you click **Continue** on the password page, rocket.chat will start creating your cloud account, as shown below:
 
-![](../.gitbook/assets/image%20%2882%29.png)
+![](../.gitbook/assets/image%20%2887%29.png)
 
 * Copy and share the link to your new rocket.chat cloud account with your colleagues. Hit **Start now** to set up your new rocket.chat cloud account.
 
-![](../.gitbook/assets/image%20%2877%29.png)
+![](../.gitbook/assets/image%20%2879%29.png)
 
