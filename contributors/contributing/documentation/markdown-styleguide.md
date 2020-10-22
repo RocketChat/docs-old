@@ -571,7 +571,7 @@ There shouldn't have spaces inside code span elements.
 
 ### MD039 - No spaces inside link text
 
-There shouldn't have spaces inside link texts.
+There shouldn't be spaces inside link texts.
 
 **Wrong**:
 
@@ -597,13 +597,7 @@ Code blocks should be fenced.
 
 **Correct**:
 
-```text
-
-```
-
-codeblock using fences.
-
-```text
-
-```
+    ```
+    codeblock using fences.
+    ```
 
