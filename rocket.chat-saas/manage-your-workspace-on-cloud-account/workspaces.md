@@ -1,3 +1,7 @@
+---
+description: You can manage your workspaces here.
+---
+
 # Workspaces
 
 As soon as you log in, you will see the list of workspaces linked to your cloud account, as shown below:
