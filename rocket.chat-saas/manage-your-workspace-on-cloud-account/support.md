@@ -2,7 +2,7 @@
 
 To get support from us, click **Support**, as shown below:
 
-![](../../.gitbook/assets/image%20%28120%29.png)
+![](../../.gitbook/assets/image%20%28121%29.png)
 
 
 
@@ -20,9 +20,9 @@ Click sign up, as shown below:
 
 Enter your name and email address.
 
-![](../../.gitbook/assets/image%20%28111%29.png)
-
 ![](../../.gitbook/assets/image%20%28112%29.png)
+
+![](../../.gitbook/assets/image%20%28114%29.png)
 
 You receive the following invitation email.
 
@@ -30,9 +30,9 @@ You receive the following invitation email.
 
 Accept it and you are directed to the registration link, where you can set up your password, as shown below:
 
-![](../../.gitbook/assets/image%20%28117%29.png)
-
 ![](../../.gitbook/assets/image%20%28118%29.png)
+
+![](../../.gitbook/assets/image%20%28119%29.png)
 
 You can create a new ticket in the My Area tab, as shown below:
 
@@ -44,7 +44,7 @@ If you want to obtain service under the service-level agreement \(SLA\), please 
 
 You can also make use of our knowledge base and check out the articles here:
 
-![](../../.gitbook/assets/image%20%28114%29.png)
+![](../../.gitbook/assets/image%20%28117%29.png)
 
 
 
