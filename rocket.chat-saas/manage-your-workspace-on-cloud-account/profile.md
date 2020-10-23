@@ -12,7 +12,7 @@ To manage your profile:
 2. Change your password.
 3. Save changes, as shown below:
 
-![](../../.gitbook/assets/image%20%2899%29.png)
+![](../../.gitbook/assets/image%20%28103%29.png)
 
 
 
