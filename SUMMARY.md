@@ -634,6 +634,7 @@
   * [Google Summer of Code 2018](contributors/gsoc/google-summer-of-code-2018.md)
   * [Google Summer of Code 2017](contributors/gsoc/google-summer-of-code-2017.md)
 * [Google Season of Docs](contributors/google-season-of-docs/README.md)
+  * [Github Sponsorship](contributors/google-season-of-docs/github-sponsorship.md)
   * [Google Season of Docs 2019](contributors/google-season-of-docs/google-season-of-docs-2019.md)
 
 ## Apps Development
