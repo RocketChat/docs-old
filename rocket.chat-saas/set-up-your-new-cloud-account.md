@@ -52,7 +52,7 @@ To enter your server information:
 1. Read and agree to the Terms and Privacy Policy.
 2. Hit **Continue**, as shown below:
 
-![](../.gitbook/assets/image%20%2890%29%20%281%29.png)
+![](../.gitbook/assets/image%20%2893%29.png)
 
 Verify your password to continue.
 
