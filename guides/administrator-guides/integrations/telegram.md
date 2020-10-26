@@ -24,6 +24,17 @@ _follow these instructions to get a simple Telegram Bot setup_
 
 ```javascript
 class Script {
+    addQuotePrefix(str) {
+        let tmp = str.split('\n'),
+            res = [];
+
+        for (const frag of tmp) {
+            res.push(`> ${frag}`);
+        }
+
+        return res.join('\n');
+    }
+
     process_incoming_request({ request }) {
         // UNCOMMENT THE BELOW LINE TO DEBUG IF NEEDED.
         // console.log(request.content);
@@ -52,6 +63,17 @@ class Script {
         } else {
            return {}
           }
+        }
+
+        if(request.content.message.reply_to_message) {
+          	var quotedMessage = 
+                "*" +
+                request.content.message.reply_to_message.from.username +
+                "*\n" +
+                request.content.message.reply_to_message.text;
+          
+          	quotedMessage = this.addQuotePrefix(quotedMessage);
+            body = quotedMessage + '\n' + body;
         }
 
         return {
