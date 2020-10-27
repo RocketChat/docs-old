@@ -75,7 +75,7 @@
   * [Channels](guides/user-guides/channels.md)
   * [Connect to a server](guides/user-guides/connecting-to-a-server.md)
   * [Multi-users Direct Message](guides/user-guides/direct-messages-between-multiple-users.md)
-  * [End to End Encryption](guides/user-guides/end-to-end-encryption.md)
+  * [End to End Encryption Guide](guides/user-guides/end-to-end-encryption.md)
   * [User Panel](guides/user-guides/user-panel/README.md)
     * [My Account](guides/user-guides/user-panel/managing-your-account.md)
   * [Logging into a server](guides/user-guides/login.md)
