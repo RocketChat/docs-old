@@ -20,5 +20,5 @@ If you want to have multiple cloud workspaces under the same cloud account, plea
 
 If you click on a workspace, you can check the following details.
 
-![](../../.gitbook/assets/image%20%28111%29.png)
+
 
