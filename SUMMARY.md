@@ -289,7 +289,7 @@
     * [Create Private Groups](api/realtime-api/method-calls/create-private-groups.md)
     * [Delete Message](api/realtime-api/method-calls/delete-message.md)
     * [Delete Rooms](api/realtime-api/method-calls/delete-rooms.md)
-    * [End-to-End Encryption](api/realtime-api/method-calls/e2e/README.md)
+    * [End-to-End Encryption API](api/realtime-api/method-calls/e2e/README.md)
       * [Fetch My Keys](api/realtime-api/method-calls/e2e/e2e.fetch-my-keys.md)
       * [Get Users of Room Without Key](api/realtime-api/method-calls/e2e/e2e.get-users-of-room-without-key.md)
       * [Set Room Key ID](api/realtime-api/method-calls/e2e/e2e.set-room-key-id.md)
