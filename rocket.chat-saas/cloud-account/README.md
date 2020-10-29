@@ -8,3 +8,11 @@ description: >-
 
 The following topics give you all the information you need regarding the setup and usage of your new rocket.chat cloud account.
 
+{% page-ref page="create-new-cloud-account.md" %}
+
+{% page-ref page="set-up-your-new-cloud-account.md" %}
+
+{% page-ref page="manage-your-workspace-on-cloud-account/" %}
+
+
+
