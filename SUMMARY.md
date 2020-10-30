@@ -85,7 +85,6 @@
   * [Talking to users from another server](guides/user-guides/talking-to-users-from-another-server.md)
   * [Voice and Video Conferencing](guides/user-guides/voice-and-video-conferencing.md)
 * [Administrator Guides](guides/administrator-guides/README.md)
-  * [Untitled](guides/administrator-guides/untitled.md)
   * [General](guides/administrator-guides/general.md)
   * [CDN](guides/administrator-guides/cdn.md)
   * [White-Labeling \(Server and Web App\)](guides/administrator-guides/white-labeling/README.md)
