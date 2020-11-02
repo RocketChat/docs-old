@@ -21,10 +21,10 @@ It stores the files on the FileSystem of the server where your rocket.chat insta
 If you want to have two separate virtual/physical servers you will somehow have to share the folder too where your files are stored using for example NFS. It will require a lot of configurations.
 
 {% hint style="info" %}
-We recommend **FileSystem** only when you are using a single virtual/physical server.
+We suggest **FileSystem** only when you are running a single rocket.chat instance. 
 {% endhint %}
 
 {% hint style="info" %}
-What we suggest as the best option for the file upload system are **Amazon** **S3** and **Google Cloud Storage**.
+What we recommend as the best option for the file upload system are **Amazon** **S3** and **Google Cloud Storage**.
 {% endhint %}
 
