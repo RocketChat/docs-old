@@ -18,7 +18,7 @@ Though GridFS is used in rocket.chat for file storage because MongoDB offers thi
 
 It stores the files on the FileSystem of the server where your rocket.chat instance is running. It is a good option but the problem arises when you start to scale. Because if you decide to have multiple rocket.chat servers to support a larger number of users, the FileSystem needs to be shared between all the rocket.chat servers.
 
-If you want to have two separate virtual/physical servers you will somehow have to share the folder too where your files are stored using for example  NFS. It will require a lot of configurations.
+If you want to have two separate virtual/physical servers you will somehow have to share the folder too where your files are stored using for example NFS. It will require a lot of configurations.
 
 {% hint style="info" %}
 We recommend **FileSystem** only when you are using a single virtual/physical server.
