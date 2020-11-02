@@ -11,7 +11,7 @@ GridFS by default uses two collections **fs.files** and **fs.chunks** to store t
 Though GridFS is used in rocket.chat for file storage because MongoDB offers this functionality with zero configuration but GridFS is not recommended for day to day file storage needs in a production environment because it puts an immense amount of load on the database.
 
 {% hint style="info" %}
-**GridFS** is only sustainable if you are using Retention Policy and only storing a small number of files per week which are not hefty but it is not recommended by us.
+**GridFS** is only sustainable if you are using Retention Policy and only storing a small number of files per week which are not hefty but it is not recommended by us because it is not scable. 
 {% endhint %}
 
 ## FileSystem
@@ -24,5 +24,7 @@ If you want to have two separate virtual/physical servers you will somehow have 
 We recommend **FileSystem** only when you are using a single virtual/physical server.
 {% endhint %}
 
-
+{% hint style="info" %}
+What we suggest as the best option for the file upload system are S3 and Google Cloud Storage.
+{% endhint %}
 
