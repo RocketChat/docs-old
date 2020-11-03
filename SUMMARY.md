@@ -104,6 +104,7 @@
       * [Simple SAML php](guides/administrator-guides/authentication/saml/simple-saml-php.md)
       * [Active Directory Federation Services](guides/administrator-guides/authentication/saml/active-directory-federation-services.md)
       * [Oracle Identity Cloud Service](guides/administrator-guides/authentication/saml/oracle-cloud.md)
+      * [Keycloak](guides/administrator-guides/authentication/saml/keycloak.md)
     * [CAS](guides/administrator-guides/authentication/cas.md)
     * [iframe based Single Sign On](guides/administrator-guides/authentication/single-sign-on-iframe.md)
   * [Google Cloud Features](guides/administrator-guides/google-cloud/README.md)
