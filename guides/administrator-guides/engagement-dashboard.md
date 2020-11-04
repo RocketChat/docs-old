@@ -36,7 +36,7 @@ Select the time period for which you want to check your new user, as shown below
 
 ![](../../.gitbook/assets/image%20%28131%29.png)
 
-New users matrix represents the total number of new users during the selected period of time, as shown below:
+New users matrix represents the total number of new users for the selected period of time, as shown below:
 
 ![](../../.gitbook/assets/image%20%28136%29.png)
 
