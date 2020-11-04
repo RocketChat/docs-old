@@ -179,6 +179,7 @@
     * [Push Notifications](guides/administrator-guides/notifications/push-notifications.md)
   * [Database Migration](guides/administrator-guides/database-migration.md)
   * [Retention Policies](guides/administrator-guides/retention-policies.md)
+  * [Engagement Dashboard](guides/administrator-guides/engagement-dashboard.md)
 * [Omnichannel Guides](guides/omnichannel-guides/README.md)
   * [Omnichannel Admin's Guide](guides/omnichannel-guides/omnichannel/README.md)
     * [Queue Types](guides/omnichannel-guides/omnichannel/livechat-queues.md)
