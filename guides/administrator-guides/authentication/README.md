@@ -4,7 +4,7 @@
 
 {% page-ref page="open-id-connect/" %}
 
-{% page-ref page="ldap.md" %}
+{% page-ref page="ldap/" %}
 
 {% page-ref page="saml/" %}
 
