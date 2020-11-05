@@ -4,15 +4,11 @@
 
 {% page-ref page="open-id-connect/" %}
 
-{% page-ref page="ldap/" %}
-
 {% page-ref page="saml/" %}
 
 {% page-ref page="cas.md" %}
 
 {% page-ref page="single-sign-on-iframe.md" %}
-
-
 
 ## External Authentication
 

@@ -15,7 +15,7 @@ Please make sure to follow new version updates by subscribing to our newsletters
 {% hint style="danger" %}
 **2020-0004 - High Severity issue** fixed at **2020-10-01**  
 Rocket.Chat Desktop Client - affects **2.x**, ****fixed on **3.0**  
-_details will be added with next release_
+**\(RCE\)** Fixed via context isolation an issue where link preload could be used to execute code.
 {% endhint %}
 
 {% hint style="danger" %}
