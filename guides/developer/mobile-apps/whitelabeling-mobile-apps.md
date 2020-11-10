@@ -17,6 +17,7 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
   * You can follow this guide: [https://reactnative.dev/docs/getting-started](https://reactnative.dev/docs/getting-started)
 * Clone [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)
 * Checkout `single-server` branch
+  * Note: this branch is updated after every release, so we can guarantee it's stable.
 
 ## General
 
@@ -152,13 +153,9 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 _**Note:** we have two Android flavours: play \(used on Google Play\) and foss \(free of any proprietary libs\). This document contains instructions to the play favour._
 
 * Set `APPLICATIONID`, `VERSIONNAME`, `VERSIONCODE` and `BugsnagAPIKey` on [./android/gradle.properties](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/single-server/android/gradle.properties)
-* Change `ic_launcher.png` and `ic_notification.png` on the folders [./android/app/src/main/res/mipmap\*](https://github.com/RocketChat/Rocket.Chat.ReactNative/tree/single-server/android/app/src/main/res)
-
-![](https://lh3.googleusercontent.com/Rs0TvtiY5uyg0rfRt2RXr_TSMey2oKtFDChx9iwUnLu9ZIw3qJ37JsLvtT6XYV9sWD7X3vuBY_GZqHc47Ut2ferCdp67O3lgSbcuqDbzjIA2IY05ZFHOWjHbZj-ftXN9kNND-V18)
-
-### 
-
-* Change [./android/app/src/main/res/drawable-xxxhdpi/splash.png](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/single-server/android/app/src/main/res/drawable-xxxhdpi/splash.png)
+* Generate a [new image asset](https://developer.android.com/studio/write/image-asset-studio) for `ic_notification` on the folders [./android/app/src/main/res/drawable\*](https://github.com/RocketChat/Rocket.Chat.ReactNative/tree/single-server/android/app/src/main/res)
+* Generate a [new image asset](https://developer.android.com/studio/write/image-asset-studio) for `ic_launcher` on the folders [./android/app/src/play/res/mipmap\*](https://github.com/RocketChat/Rocket.Chat.ReactNative/tree/single-server/android/app/src/play/res)
+* Change [./android/app/src/play/res/drawable-xxhdpi/splash.png](https://github.com/RocketChat/Rocket.Chat.ReactNative/tree/single-server/android/app/src/play/res/drawable-xxhdpi)
 * Change `strings/app_name` and `strings/share_extension_name` on [./android/app/src/main/res/values/strings.xml](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/single-server/android/app/src/main/res/values/strings.xml)
 
 ![](https://lh6.googleusercontent.com/pFW-aGmA9PheAjKFE4_Q0SaHDg6kA_FbGXmSLSa8hSjwLLz1HGJmEyCx__EsZZiIqSJBybOyG4LOYAjDMN02tRq0vD2qcn2Vzv6iSF-WsO08GY6HWlmiB-t03RBbR6kPIa5XXicB)
@@ -210,7 +207,7 @@ _**Note:** we have two Android flavours: play \(used on Google Play\) and foss \
 
 * Android starts the app based on package’s Activity, but we changed the application id, so it won’t work
 * For it to work, you have to change all references to `chat.rocket.reactnative` on `.java` files and on manifest
-* Change all references as on this commit: [https://github.com/RocketChat/Rocket.Chat.ReactNative/commit/518e56379d88937d7f9a572c7bd61716a4d0b7fe](https://github.com/RocketChat/Rocket.Chat.ReactNative/commit/518e56379d88937d7f9a572c7bd61716a4d0b7fe)
+* Change all references as on this commit \(compare it against `play` folder\): [https://github.com/RocketChat/Rocket.Chat.ReactNative/commit/518e56379d88937d7f9a572c7bd61716a4d0b7fe](https://github.com/RocketChat/Rocket.Chat.ReactNative/commit/518e56379d88937d7f9a572c7bd61716a4d0b7fe)
 
 ## Push notification
 
