@@ -6,7 +6,7 @@ If you are contributing to Rocket.Chat and will likely be working less than 50 h
 
 Gitpod runs a shared environment SaaS for developers working on open source projects.  Please be respectful of other developers' need and support Gitpod on their commercial side if you are able to.  
   
-Gitpod hosts the entire development and you will be able to contribute to Rocket.Chat wherever and whenever you have access to a browser;  even from Internet Cafes and Chromebooks.
+Gitpod hosts the entire development environment and you will be able to contribute to Rocket.Chat wherever and whenever you have access to a browser;  even from Internet Cafes and Chromebooks.
 
 ### Step by step
 
