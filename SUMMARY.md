@@ -98,7 +98,7 @@
       * [Gluu Server 4.0](guides/administrator-guides/authentication/open-id-connect/gluu-server-4.0.md)
       * [Keycloak](guides/administrator-guides/authentication/open-id-connect/keycloak.md)
       * [Okta Identity Cloud Service](guides/administrator-guides/authentication/open-id-connect/okta.md)
-    * [LDAP](guides/administrator-guides/authentication/ldap.md)
+    * [LDAP](guides/administrator-guides/authentication/ldap/README.md)
     * [SAML](guides/administrator-guides/authentication/saml/README.md)
       * [Rocket.Chat server settings](guides/administrator-guides/authentication/saml/rocket.chat-server-settings.md)
       * [Simple SAML php](guides/administrator-guides/authentication/saml/simple-saml-php.md)
