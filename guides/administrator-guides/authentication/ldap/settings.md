@@ -8,7 +8,7 @@ Turns LDAP Authentication ON or OFF.
 
 #### Login Fallback
 
-Enable this option to also allow regular password users to login on Rocket.Chat. It will also let LDAP users to continue using Rocket.Chat if the LDAP server is down.
+Enable this option to also allow regular password users to log in on Rocket.Chat. It will also let LDAP users continue using Rocket.Chat if the LDAP server is down.
 
 #### Find user after login
 
@@ -24,7 +24,7 @@ The LDAP connection Port, usually 389 or 636.
 
 #### Reconnect
 
-Try to reconnect automatically when connection is interrupted by some reason while executing operations
+Try to reconnect automatically when the connection is interrupted by some reason while executing operations
 
 #### Encryption
 
@@ -40,7 +40,7 @@ The encryption method used to secure communications to the LDAP server.
 
 #### Reject Unauthorized
 
-Disable this option to allow certificates that can not be verified. Usually Self Signed Certificates will require this option disabled to work
+Disable this option to allow certificates that can not be verified. Usually, Self Signed Certificates will require this option disabled to work
 
 #### Base DN
 
@@ -82,7 +82,7 @@ The password for the User DN above.
 
 #### Sync User Active State
 
-Determine if users should be enabled or disabled on Rocket.Chat based on the LDAP status. The 'pwdAccountLockedTime' attribute will be used to determine if the user is disabled. This setting is not yet compatible with all LDAP Servers, so if you don't use the 'pwdAccountLockedTime' attribute, you may want to disable it completely.
+Determine if users should be enabled or disabled on Rocket.Chat, based on the LDAP status. The 'pwdAccountLockedTime' attribute will be used to determine if the user is disabled. This setting is not yet compatible with all LDAP Servers, so if you don't use the 'pwdAccountLockedTime' attribute, you may want to disable it completely.
 
 ## Role Mapping \(Enterprise only\)
 
@@ -105,11 +105,11 @@ You need to use an object format where the object key must be the LDAP group and
 
 If the validation should occur for each login.
 
-Be careful with this setting because it will overwrite the user roles in each login, otherwise this will be validated only at the moment of user creation.
+Be careful with this setting because it will overwrite the user roles in each login, otherwise, this will be validated only at the moment of user creation.
 
-#### Default role to user
+#### Default role to the user
 
-The default RC role to be applied to user if the user has some LDAP group that is not mapped.
+The default RC role to be applied to the user if the user has some LDAP group that is not mapped.
 
 #### LDAP query to get user groups
 
@@ -119,7 +119,7 @@ LDAP query to get the LDAP groups that the user is part of.
 
 #### Username Field
 
-Which field will be used as username for new users. Usually `sAMAccountName` or `uid`. Leave empty to let the user pick their own Rocket.Chat username. You can use template tags too, for example:
+Which field will be used as a username for new users. Usually `sAMAccountName` or `uid`. Leave empty to let the user pick their own Rocket.Chat username. You can use template tags too, for example:
 
 ```text
 #{givenName}.#{sn}
@@ -127,27 +127,27 @@ Which field will be used as username for new users. Usually `sAMAccountName` or 
 
 #### Unique Identifier Field
 
-Which field will be used to link the LDAP user and the Rocket.Chat user. You can inform multiple values separated by comma to try to get the value from LDAP record.
+Which field will be used to link the LDAP user and the Rocket.Chat user. You can inform multiple values separated by a comma to try to get the value from the LDAP record.
 
 #### Default Domain
 
-If provided the Default Domain will be used to create an unique email for users where email was not imported from LDAP. The email will be mounted as `username@default_domain` or `unique_id@default_domain`.
+If provided the Default Domain will be used to create a unique email for users where email was not imported from LDAP. The email will be mounted as `username@default_domain` or `unique_id@default_domain`.
 
 #### Merge Existing Users
 
-**Caution!** When importing a user from LDAP and an user with same username already exists the LDAP info and password will be set into the existing user. This will let LDAP users take over password accounts with the same username.
+**Caution!** When importing a user from LDAP and a user with the same username already exists the LDAP info and password will be set into the existing user. This will let LDAP users take over password accounts with the same username.
 
 #### Sync User Data
 
-Keep user data in sync with server on **login** or on **background sync** \(eg: name, email and custom fields\).
+Keep user data in sync with a server on **login** or on **background sync** \(eg: name, email, and custom fields\).
 
 #### User Data Field Map
 
 Configure how user account fields \(like email\) are populated from a record in LDAP \(once found\).
 
-As an example, `{"cn":"name", "mail":"email"}` will choose a person's human readable name from the cn attribute, and their email from the mail attribute.
+As an example, `{"cn":"name", "mail":"email"}` will choose a person's human-readable name from the cn attribute, and their email from the mail attribute.
 
-Additionally it is possible to use variables, for example, the following object will use a combination of the user's first name and last name for the rocket chat.
+Additionally, it is possible to use variables, for example, the following objectives will use a combination of the user's first name and last name for the rocket chat.
 
 ```text
 {
@@ -191,11 +191,11 @@ Enable this feature to automatically add users to a channel based on their LDAP 
 
 #### Channel Admin
 
-When the above setting cause a channel to be created automatically during an user sync, this setting will determine what user will become the admin of the channel.
+When the above setting causes a channel to be created automatically during user sync, this setting will determine what user will become the admin of the channel.
 
 #### LDAP Group Channel Map
 
-The map of LDAP groups to Rocket.Chat channels, in JSON format. As an example, the following object will add any user in the LDAP group "employee" to the general channel on Rocket.Chat.
+The map of LDAP groups to Rocket.Chat channels, in JSON format. As an example, the following objective will add any user in the LDAP group "employee" to the general channel on Rocket.Chat.
 
 ```text
 {
@@ -205,7 +205,7 @@ The map of LDAP groups to Rocket.Chat channels, in JSON format. As an example, t
 
 #### Auto Remove Users from Channels
 
-Enabling this will remove any users in a channel that do not have the corresponding LDAP group! This will happen in every login and background sync, so removing a group on LDAP will not instantly remove access to channels on Rocket.Chat.
+Enabling this will remove any users in a channel that does not have the corresponding LDAP group! This will happen in every login and background sync, so removing a group on LDAP will not instantly remove access to channels on Rocket.Chat.
 
 #### Sync User Avatar
 
@@ -225,7 +225,7 @@ The interval between synchronizations, using the [Cron Text](https://bunkat.gith
 
 #### Background Sync Import New Users
 
-Will import all users \(based on your filter criteria\) that exists in LDAP and does not exists in Rocket.Chat
+Will import all users \(based on your filter criteria\) that exist in LDAP and does not exist in Rocket.Chat
 
 #### Background Sync Update Existing Users
 
@@ -233,13 +233,13 @@ Will sync the avatar, fields, username, etc \(based on your configuration\) of a
 
 #### Execute Synchronization Now
 
-Will execute the Background Sync now rather than wait the Sync Interval even if Background Sync is False. This Action is asynchronous, please see the logs for more information about the process.
+Will execute the Background Sync now rather than wait for the Sync Interval even if Background Sync is False. This Action is asynchronous, please see the logs for more information about the process.
 
 ## Timeouts
 
 #### Timeout \(ms\)
 
-How many mileseconds to wait for a search result before returning an error.
+How many milliseconds to wait for a search result before returning an error.
 
 #### Connection Timeout \(ms\)
 
@@ -269,9 +269,9 @@ ou:dn:=ROCKET_CHAT
 
 #### Search Field
 
-The LDAP attribute that identifies the LDAP user who attempts authentication. This field should be `sAMAccountName` for most Active Directory installations, but it may be `uid` for other LDAP solutions, such as OpenLDAP. You can use `mail` to identify users by email or whatever attribute you want.
+The LDAP attribute that identifies the LDAP user who attempts authentication. This field should be`sAMAccountName`for most Active Directory installations, but it may be`uid`for other LDAP solutions, such as OpenLDAP. You can use`mail`to identify users by email or whatever attribute you want.
 
-You can use multiple values separated by comma to allow users to login using multiple identifiers like username or email.
+You can use multiple values separated by a comma to allow users to login using multiple identifiers like username or email.
 
 #### Search Page Size
 
@@ -285,7 +285,7 @@ The maximum number of entries to return. **Attention** This number must be large
 
 #### Enable LDAP User Group Filter
 
-Restrict access to users in a LDAP group Useful for allowing OpenLDAP servers without a **memberOf** filter to restrict access by groups.
+Restrict access to users in an LDAP group Useful for allowing OpenLDAP servers without a **memberOf** filter to restrict access by groups.
 
 #### Group ObjectClass
 

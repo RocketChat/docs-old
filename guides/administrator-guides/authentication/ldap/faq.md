@@ -8,9 +8,9 @@ This error means that the login attempt was successful, but a subsequent search 
 
 You need to use the "Sync User Active State" setting under Advanced Sync, but it is not yet compatible with all LDAP Servers.
 
-### I cannot login even everything looks good
+### I cannot log in even everything looks good
 
-If you cannot login without getting any error messages \(the last thing in log you see is `Attempt to bind <correct dn of user>`\), make sure the username of your ldap account does not match any username of a local account. For example if you created a local user with username `joe`, then enable ldap and try to login with username `joe` \(who exists on your ldap server\), it will silently fail without any error message in your log simply saying username or password do not match. You cannot login with `joe` by your ldap password nor by your local password any more.
+If you cannot log in without getting any error messages \(the last thing in the log you see is `Attempt to bind <correct dn of user>`\), make sure the username of your LDAP account does not match any username of a local account. For example if you created a local user with a username`joe`, then enable LDAP and try to login with a username `joe` \(who exists on your LDAP server\), it will silently fail without any error message in your log simply saying username or password do not match. You cannot log in by`joe,`your LDAP password nor by your local password anymore.
 
 ### No users are created even if everything looks good
 

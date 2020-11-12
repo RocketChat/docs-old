@@ -6,7 +6,7 @@ Turns LDAP Authentication ON or OFF.
 
 ### Login Fallback
 
-Enable this option to also allow regular password users to login on Rocket.Chat. It will also let LDAP users to continue using Rocket.Chat if the LDAP server is down.
+Enable this option to also allow regular password users to log in on Rocket.Chat. It will also let LDAP users continue using Rocket.Chat if the LDAP server is down.
 
 ### Find user after login
 
@@ -22,7 +22,7 @@ The LDAP connection Port, usually 389 or 636.
 
 ### Reconnect
 
-Try to reconnect automatically when connection is interrupted by some reason while executing operations
+Try to reconnect automatically when the connection is interrupted by some reason while executing operations
 
 ### Encryption
 
@@ -38,7 +38,7 @@ The encryption method used to secure communications to the LDAP server.
 
 ### Reject Unauthorized
 
-Disable this option to allow certificates that can not be verified. Usually Self Signed Certificates will require this option disabled to work
+Disable this option to allow certificates that can not be verified. Usually, Self Signed Certificates will require this option disabled to work
 
 ### Base DN
 
@@ -48,7 +48,7 @@ The fully qualified Distinguished Name \(DN\) of an LDAP subtree you want to sea
  ou=Users+ou=Projects,dc=Example,dc=com
 ```
 
-If you specify restricted user groups, only users that belong to those groups will be in scope. We recommend that you specify the top level of your LDAP directory tree as your domain base and use search filter to control access.
+If you specify restricted user groups, only users that belong to those groups will be in scope. We recommend that you specify the top level of your LDAP directory tree as your domain base and use a search filter to control access.
 
 ### Internal Log Level
 

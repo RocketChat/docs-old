@@ -1,45 +1,45 @@
 # Examples
 
-* Host = ldap.domain.com
-* Group = CN=ROCKET\_ACCESS,CN=Users,DC=domain,DC=com \(Access Control Group\)
-* Proxy User = rocket.service@domain.com or CN=rocket service,CN=Users,DC=domain,DC=com \(DN or userPrincipalName\)
-* Proxy User password = urpass \(Proxy Users password
+* `Host = ldap.domain.com`
+* `Group = CN=ROCKET_ACCESS,CN=Users,DC=domain,DC=com (Access Control Group)`
+* `Proxy User = rocket.service@domain.com or CN=rocket service,CN=Users,DC=domain,DC=com (DN or userPrincipalName)`
+* `Proxy User password = urpass (Proxy Users password)`
 
 For now \(until we add more input fields to LDAP\) set it like this: \(This is based on the above assumptions, replace with your environment\)
 
-## Log on with username
+## Log on with a username
 
-* LDAP\_Enable = True
-* LDAP\_Dn = dc=domain,dc=com
-* LDAP\_Url = ldap://ldapserver
-* LDAP\_Port = 389
-* LDAP\_Bind\_Search =
+* `LDAP_Enable = True`
+* `LDAP_Dn = dc=domain,dc=com`
+* `LDAP_Url = ldap://ldapserver`
+* `LDAP_Port = 389`
+* `LDAP_Bind_Search =`
 
-{"filter": "\(&\(objectCategory=person\)\(objectclass=user\)\(memberOf=CN=ROCKET\_ACCESS,CN=Users,DC=domain,DC=com\)\(sAMAccountName=\#{username}\)\)", "scope": "sub", "userDN": "rocket.service@domain.com", "password": "urpass"}
+`{"filter": "(&(objectCategory=person)(objectclass=user)(memberOf=CN=ROCKET_ACCESS,CN=Users,DC=domain,DC=com)(sAMAccountName=#{username}))", "scope": "sub", "userDN": "rocket.service@domain.com", "password": "urpass"}`
 
 If you need to auth users from subgroups in LDAP use this filter:
 
-* LDAP\_Bind\_search = {"filter": "\(&\(objectCategory=person\)\(objectclass=user\)\(memberOf:1.2.840.113556.1.4.1941:=CN=ROCKET\_ACCESS,CN=Users,DC=domain,DC=com\)\(sAMAccountName=\#{username}\)\)", "scope": "sub", "userDN": "rocket.service@domain.com", "password": "urpass"}
+`LDAP_Bind_search = {"filter": "(&(objectCategory=person)(objectclass=user)(memberOf:1.2.840.113556.1.4.1941:=CN=ROCKET_ACCESS,CN=Users,DC=domain,DC=com)(sAMAccountName=#{username}))", "scope": "sub", "userDN": "rocket.service@domain.com", "password": "urpass"}`
 
 ## Log on with email address
 
-* LDAP\_Enable = True
-* LDAP\_Dn = dc=domain,dc=com
-* LDAP\_Url = ldap://ldapserver
-* LDAP\_Port = 389
-* LDAP\_Bind\_Search =
+* `LDAP_Enable = True`
+* `LDAP_Dn = dc=domain,dc=com`
+* `LDAP_Url = ldap://ldapserver`
+* `LDAP_Port = 389`
+* `LDAP_Bind_Search =`
 
-{"filter": "\(&\(objectCategory=person\)\(objectclass=user\)\(memberOf=CN=ROCKET\_ACCESS,CN=Users,DC=domain,DC=com\)\(mail=\#{username}\)\)", "scope": "sub", "userDN": "rocket.service@domain.com", "password": "urpass"}
+`{"filter": "(&(objectCategory=person)(objectclass=user)(memberOf=CN=ROCKET_ACCESS,CN=Users,DC=domain,DC=com)(mail=#{username}))", "scope": "sub", "userDN": "rocket.service@domain.com", "password": "urpass"}`
 
 ## Log on with either email address or username
 
-* LDAP\_Enable = True
-* LDAP\_Dn = dc=domain,dc=com
-* LDAP\_Url = ldap://ldapserver
-* LDAP\_Port = 389
-* LDAP\_Bind\_Search =
+* `LDAP_Enable = True`
+* `LDAP_Dn = dc=domain,dc=com`
+* `LDAP_Url = ldap://ldapserver`
+* `LDAP_Port = 389`
+* `LDAP_Bind_Search =`
 
-{"filter": "\(&\(objectCategory=person\)\(objectclass=user\)\(memberOf=CN=ROCKET\_ACCESS,CN=Users,DC=domain,DC=com\)\(\|\(mail=\#{username}\)\(sAMAccountName=\#{username}\)\)\)", "scope": "sub", "userDN": "rocket.service@domain.com", "password": "urpass"}
+`{"filter": "(&(objectCategory=person)(objectclass=user)(memberOf=CN=ROCKET_ACCESS,CN=Users,DC=domain,DC=com)(|(mail=#{username})(sAMAccountName=#{username})))", "scope": "sub", "userDN": "rocket.service@domain.com", "password": "urpass"}`
 
 ## Log in
 
@@ -67,6 +67,6 @@ ENABLED=1
 
 Finally on the Rocket.Chat server under /admin/LDAP set
 
-* LDAP\_Url = localhost
-* LDAP\_Port = 389
+* `LDAP_Url = localhost`
+* `LDAP_Port = 389`
 
