@@ -1,4 +1,4 @@
-# LDAP Settings
+# Settings
 
 ## Basic Settings
 
@@ -36,9 +36,7 @@ The encryption method used to secure communications to the LDAP server.
 | StartTLS | Upgrade to encrypted communication once connected |
 | SSL/LDAPS | Encrypted from the start |
 
-
 #### CA Cert
-
 
 #### Reject Unauthorized
 
@@ -46,9 +44,11 @@ Disable this option to allow certificates that can not be verified. Usually Self
 
 #### Base DN
 
-The fully qualified Distinguished Name (DN) of an LDAP subtree you want to search for users and groups. You can add as many as you like; however, each group must be defined in the same domain base as the users that belong to it. Example:
+The fully qualified Distinguished Name \(DN\) of an LDAP subtree you want to search for users and groups. You can add as many as you like; however, each group must be defined in the same domain base as the users that belong to it. Example:
 
-	 ou=Users+ou=Projects,dc=Example,dc=com
+```text
+ ou=Users+ou=Projects,dc=Example,dc=com
+```
 
 If you specify restricted user groups, only users that belong to those groups will be in scope. We recommend that you specify the top level of your LDAP directory tree as your domain base and use search filter to control access.
 
@@ -68,15 +68,15 @@ Disable Authentication to skip binding the user DN and password.
 
 #### User DN
 
-The LDAP user that performs user lookups to authenticate other users when they sign in.
-This is typically a service account created specifically for third-party integrations. Use a fully qualified name, such as
+The LDAP user that performs user lookups to authenticate other users when they sign in. This is typically a service account created specifically for third-party integrations. Use a fully qualified name, such as
 
-	cn=Administrator,cn=Users,dc=Example,dc=com
+```text
+cn=Administrator,cn=Users,dc=Example,dc=com
+```
 
 #### Password
 
 The password for the User DN above.
-
 
 ## Advanced Sync
 
@@ -84,8 +84,7 @@ The password for the User DN above.
 
 Determine if users should be enabled or disabled on Rocket.Chat based on the LDAP status. The 'pwdAccountLockedTime' attribute will be used to determine if the user is disabled. This setting is not yet compatible with all LDAP Servers, so if you don't use the 'pwdAccountLockedTime' attribute, you may want to disable it completely.
 
-
-## Role Mapping (Enterprise only)
+## Role Mapping \(Enterprise only\)
 
 #### Role mapping from LDAP to Rocket.Chat.
 
@@ -93,12 +92,14 @@ Use this setting to map LDAP groups into Rocket.Chat roles.
 
 You need to use an object format where the object key must be the LDAP group and the object value must be an array of RC roles. Example:
 
-	{
-		'ldapRole': [
-			'rcRole',
-			'anotherRCRole'
-		]
-	}
+```text
+{
+    'ldapRole': [
+        'rcRole',
+        'anotherRCRole'
+    ]
+}
+```
 
 #### Validate mapping for each login
 
@@ -118,11 +119,11 @@ LDAP query to get the LDAP groups that the user is part of.
 
 #### Username Field
 
-Which field will be used as username for new users. Usually `sAMAccountName` or `uid`.
-Leave empty to let the user pick their own Rocket.Chat username.
-You can use template tags too, for example:
+Which field will be used as username for new users. Usually `sAMAccountName` or `uid`. Leave empty to let the user pick their own Rocket.Chat username. You can use template tags too, for example:
 
-	#{givenName}.#{sn}
+```text
+#{givenName}.#{sn}
+```
 
 #### Unique Identifier Field
 
@@ -138,20 +139,22 @@ If provided the Default Domain will be used to create an unique email for users 
 
 #### Sync User Data
 
-Keep user data in sync with server on **login** or on **background sync** (eg: name, email and custom fields).
+Keep user data in sync with server on **login** or on **background sync** \(eg: name, email and custom fields\).
 
 #### User Data Field Map
 
-Configure how user account fields (like email) are populated from a record in LDAP (once found).
+Configure how user account fields \(like email\) are populated from a record in LDAP \(once found\).
 
 As an example, `{"cn":"name", "mail":"email"}` will choose a person's human readable name from the cn attribute, and their email from the mail attribute.
 
 Additionally it is possible to use variables, for example, the following object will use a combination of the user's first name and last name for the rocket chat.
 
-	{
-		"#{givenName} #{sn}": "name",
-		"mail": "email"
-	}
+```text
+{
+    "#{givenName} #{sn}": "name",
+    "mail": "email"
+}
+```
 
 #### Sync LDAP Groups
 
@@ -175,36 +178,34 @@ The mapping of LDAP groups to Rocket.Chat roles, in JSON format.
 
 As an example, the following object will map the rocket-admin LDAP group to Rocket.Chat's "admin" role and the "tech-support" group to the "support" role.
 
-	{
-		"rocket-admin":"admin",
-		"tech-support":"support"
-	}
-
+```text
+{
+    "rocket-admin":"admin",
+    "tech-support":"support"
+}
+```
 
 #### Auto Sync LDAP Groups to Channels
 
 Enable this feature to automatically add users to a channel based on their LDAP group.
 
-
 #### Channel Admin
 
 When the above setting cause a channel to be created automatically during an user sync, this setting will determine what user will become the admin of the channel.
 
-
 #### LDAP Group Channel Map
 
-The map of LDAP groups to Rocket.Chat channels, in JSON format.
-As an example, the following object will add any user in the LDAP group "employee" to the general channel on Rocket.Chat.
+The map of LDAP groups to Rocket.Chat channels, in JSON format. As an example, the following object will add any user in the LDAP group "employee" to the general channel on Rocket.Chat.
 
-
-	{
-		"employee":"general"
-	}
+```text
+{
+    "employee":"general"
+}
+```
 
 #### Auto Remove Users from Channels
 
 Enabling this will remove any users in a channel that do not have the corresponding LDAP group! This will happen in every login and background sync, so removing a group on LDAP will not instantly remove access to channels on Rocket.Chat.
-
 
 #### Sync User Avatar
 
@@ -224,28 +225,27 @@ The interval between synchronizations, using the [Cron Text](https://bunkat.gith
 
 #### Background Sync Import New Users
 
-Will import all users (based on your filter criteria) that exists in LDAP and does not exists in Rocket.Chat
+Will import all users \(based on your filter criteria\) that exists in LDAP and does not exists in Rocket.Chat
 
 #### Background Sync Update Existing Users
 
-Will sync the avatar, fields, username, etc (based on your configuration) of all users already imported from LDAP on every **Sync Interval**
+Will sync the avatar, fields, username, etc \(based on your configuration\) of all users already imported from LDAP on every **Sync Interval**
 
 #### Execute Synchronization Now
 
-Will execute the Background Sync now rather than wait the Sync Interval even if Background Sync is False.
-This Action is asynchronous, please see the logs for more information about the process.
+Will execute the Background Sync now rather than wait the Sync Interval even if Background Sync is False. This Action is asynchronous, please see the logs for more information about the process.
 
 ## Timeouts
 
-#### Timeout (ms)
+#### Timeout \(ms\)
 
 How many mileseconds to wait for a search result before returning an error.
 
-#### Connection Timeout (ms)
+#### Connection Timeout \(ms\)
 
-#### Idle Timeout (ms)
+#### Idle Timeout \(ms\)
 
-How many milliseconds to wait after the latest LDAP operation before closing the connection. (Each operation will open a new connection)
+How many milliseconds to wait after the latest LDAP operation before closing the connection. \(Each operation will open a new connection\)
 
 ## User Search
 
@@ -255,11 +255,15 @@ If specified, only users that match this filter will be allowed to log in. If no
 
 E.g. for Active Directory
 
-	memberOf=cn=ROCKET_CHAT,ou=General Groups
+```text
+memberOf=cn=ROCKET_CHAT,ou=General Groups
+```
 
-E.g. for OpenLDAP (extensible match search)
+E.g. for OpenLDAP \(extensible match search\)
 
-	ou:dn:=ROCKET_CHAT
+```text
+ou:dn:=ROCKET_CHAT
+```
 
 #### Scope
 
@@ -275,20 +279,17 @@ The maximum number of entries each result page will return to be processed
 
 #### Search Size Limit
 
-The maximum number of entries to return.
-**Attention** This number must be larger than the one on **Search Page Size**
+The maximum number of entries to return. **Attention** This number must be larger than the one on **Search Page Size**
 
-## User Search (Group Validation)
+## User Search \(Group Validation\)
 
 #### Enable LDAP User Group Filter
 
-Restrict access to users in a LDAP group
-Useful for allowing OpenLDAP servers without a **memberOf** filter to restrict access by groups.
+Restrict access to users in a LDAP group Useful for allowing OpenLDAP servers without a **memberOf** filter to restrict access by groups.
 
 #### Group ObjectClass
 
-The **objectclass** that identify the groups.
-E.g. **OpenLDAP**:groupOfUniqueNames
+The **objectclass** that identify the groups. E.g. **OpenLDAP**:groupOfUniqueNames
 
 #### Group ID Attribute
 
@@ -300,8 +301,9 @@ E.g. **OpenLDAP**:uniqueMember
 
 #### Group Member Format
 
-E.g. **OpenLDAP**:uid=#{username},ou=users,o=Company,c=com
+E.g. **OpenLDAP**:uid=\#{username},ou=users,o=Company,c=com
 
 #### Group name
 
 Group name to which the user should belong.
+

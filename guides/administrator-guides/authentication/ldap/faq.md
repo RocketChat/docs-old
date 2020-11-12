@@ -1,4 +1,4 @@
-# LDAP FAQ / Troubleshooting
+# FAQ
 
 ## What's the "Bind successful but user was not found via search" error?
 
@@ -7,7 +7,6 @@ This error means that the login attempt was successful, but a subsequent search 
 ## How do I stop disabled LDAP users from logging in on Rocket.Chat?
 
 You need to use the "Sync User Active State" setting under Advanced Sync, but it is not yet compatible with all LDAP Servers.
-
 
 ### I cannot login even everything looks good
 

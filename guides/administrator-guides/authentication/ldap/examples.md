@@ -1,6 +1,4 @@
-# LDAP Examples
-
-
+# Examples
 
 * Host = ldap.domain.com
 * Group = CN=ROCKET\_ACCESS,CN=Users,DC=domain,DC=com \(Access Control Group\)
@@ -71,3 +69,4 @@ Finally on the Rocket.Chat server under /admin/LDAP set
 
 * LDAP\_Url = localhost
 * LDAP\_Port = 389
+
