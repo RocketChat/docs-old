@@ -2,7 +2,7 @@
 
 ## Timeout \(ms\)
 
-How many mileseconds to wait for a search result before returning an error.
+How many milliseconds to wait for a search result before returning an error.
 
 ## Connection Timeout \(ms\)
 

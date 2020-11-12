@@ -149,7 +149,7 @@ If the validation should occur for each login.
 
 Be careful with this setting because it will overwrite the user roles in each login, otherwise, this will be validated only at the moment of user creation.
 
-### Default role to user
+### Default role to the user
 
 The default RC role to be applied to the user if the user has some LDAP group that is not mapped.
 
