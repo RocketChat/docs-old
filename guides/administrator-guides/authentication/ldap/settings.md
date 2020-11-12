@@ -78,7 +78,7 @@ cn=Administrator,cn=Users,dc=Example,dc=com
 
 The password for the User DN above.
 
-## Advanced Sync
+## Enhanced Sync 
 
 #### Sync User Active State
 
