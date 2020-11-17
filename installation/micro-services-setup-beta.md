@@ -113,7 +113,7 @@ Set the following environment variables to enable Prometheus metrics:
 
 | Variable | Default | Description |
 | :--- | :--- | :--- |
-| `MS_METRICS` | `false` | Enabled Prometheus metrics endpoint
+| `MS_METRICS` | `false` | Enable Prometheus metrics endpoint
 | `MS_METRICS_PORT` | `9458` | Port of Prometheus metrics endpoint
 
 ### Reverse proxy
