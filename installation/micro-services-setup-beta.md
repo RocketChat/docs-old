@@ -3,10 +3,10 @@
 {% hint style="info" %}
 This guide is currently only valid for a special distribution of the Rocket.Chat.
 
-The feature will be release for **General Availability** on the **Enterprise Edition v4.0**
+The feature will be released for **General Availability** on the **Enterprise Edition v4.0**
 {% endhint %}
 
-### Pre-requisites
+## Pre-requisites
 
 * NATS
   * Please refer to [NATS Docker installation](https://docs.nats.io/nats-server/nats_docker) on how to deploy NATS
@@ -20,18 +20,18 @@ The following environment variables should be set for Rocket.Chat services as we
 
 | Variable | Value | Description |
 | :--- | :--- | :--- |
-| `TRANSPORTER` | `nats://nats:4222` | NATS address
-| `DISABLE_WATCH_DB` | `true` | Disables internal DB watcher and rely on `mongodb-stream-hub`
-| `DISABLE_PRESENCE_MONITOR` | `true` | Disables precense monitoring and rely on the `presence-service`
-| `INTERNAL_SERVICES_ONLY` | `true` | Do not run external services on rocket.chat process
+| `TRANSPORTER` | `nats://nats:4222` | NATS address |
+| `DISABLE_WATCH_DB` | `true` | Disables internal DB watcher and rely on `mongodb-stream-hub` |
+| `DISABLE_PRESENCE_MONITOR` | `true` | Disables presence monitoring and rely on the `presence-service` |
+| `INTERNAL_SERVICES_ONLY` | `true` | Do not run external services on rocket.chat process |
 
-### Micro services
+## Micro services
 
 Rocket.Chat micro services are composed by a few Docker containers:
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/micro-services-deployment-v0.1-2x-1-.png)
 
-#### Accounts
+### Accounts
 
 {% hint style="info" %}
 Can be scaled to multiple containers
@@ -39,7 +39,7 @@ Can be scaled to multiple containers
 
 Responsible for user authentications
 
-```
+```text
 docker run \
 --name accounts-service \
 -e MONGO_URL=mongodb://mongo/rocketchat?replicaSet=rs01 \
@@ -47,15 +47,15 @@ docker run \
 rocketchat/account-service:latest
 ```
 
-#### Authorization
+### Authorization
 
 {% hint style="info" %}
 Can be scaled to multiple containers
 {% endhint %}
 
-Responsible for validate access to features
+Responsible for the validation of access to features
 
-```
+```text
 docker run \
 --name authorization-service \
 -e MONGO_URL=mongodb://mongo/rocketchat?replicaSet=rs01 \
@@ -63,7 +63,7 @@ docker run \
 rocketchat/authorization-service:latest
 ```
 
-#### DDP Streamer
+### DDP Streamer
 
 {% hint style="info" %}
 Can be scaled to multiple containers
@@ -71,7 +71,7 @@ Can be scaled to multiple containers
 
 Web socket interface between server and clients
 
-```
+```text
 docker run \
 --name ddp-streamer \
 -e MONGO_URL=mongodb://mongo/rocketchat?replicaSet=rs01 \
@@ -79,11 +79,15 @@ docker run \
 rocketchat/ddp-streamer-service:latest
 ```
 
-#### MongoDB Stream Hub
+### MongoDB Stream Hub
+
+{% hint style="danger" %}
+Can not be scaled to multiple containers
+{% endhint %}
 
 Receives real time data from MongoDB and emits that data to the system.
 
-```
+```text
 docker run \
 --name mongodb-stream-hub \
 -e MONGO_URL=mongodb://mongo/rocketchat?replicaSet=rs01 \
@@ -91,15 +95,15 @@ docker run \
 rocketchat/stream-hub-service:latest
 ```
 
-#### Presence
+### Presence
 
 {% hint style="info" %}
 Can be scaled to multiple containers
 {% endhint %}
 
-Controls and update users presence status.
+Controls and update users' presence status.
 
-```
+```text
 docker run \
 --name presence-service \
 -e MONGO_URL=mongodb://mongo/rocketchat?replicaSet=rs01 \
@@ -107,18 +111,18 @@ docker run \
 rocketchat/presence-service:latest
 ```
 
-#### Environment variables common to all services
+### Environment variables common to all services
 
 Set the following environment variables to enable Prometheus metrics:
 
 | Variable | Default | Description |
 | :--- | :--- | :--- |
-| `MS_METRICS` | `false` | Enable Prometheus metrics endpoint
-| `MS_METRICS_PORT` | `9458` | Port of Prometheus metrics endpoint
+| `MS_METRICS` | `false` | Enable Prometheus metrics endpoint |
+| `MS_METRICS_PORT` | `9458` | Port of Prometheus metrics endpoint |
 
-### Reverse proxy
+## Reverse proxy
 
-Once all services are up and running the web socket connections should be targeted to "ddp-streamer" containers, the configuration depends on the reverse proxy you have set up, but you need to change the following routes:
+Once all services are up and running the web socket connections should be targeted to `ddp-streamer` containers, the configuration depends on the reverse proxy you have set up, but you need to change the following routes:
 
 * `/sockjs`
 * `/websocket`
@@ -140,3 +144,4 @@ spec:
           servicePort: 3000
         path: /(sockjs|websocket)
 ```
+
