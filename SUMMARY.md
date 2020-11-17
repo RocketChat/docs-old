@@ -211,6 +211,7 @@
     * [Units](guides/omnichannel-guides/omnichannel-manger-guides/units.md)
     * [Tags](guides/omnichannel-guides/omnichannel-manger-guides/tags.md)
     * [Priorities](guides/omnichannel-guides/omnichannel-manger-guides/priority-queue.md)
+* [Mobile Guides](guides/mobile-guides.md)
 * [Security and Compliance Guides](guides/security/README.md)
   * [Compliance Resources and Certifications](guides/security/compliance-resources.md)
   * [Security fixes and updates](guides/security/security-updates.md)
