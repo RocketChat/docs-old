@@ -1,7 +1,7 @@
 # Microservices Setup \[beta\]
 
 {% hint style="info" %}
-This guide is currently only valid for a special distribution of the Rocket.Chat. 
+This guide is currently only valid for a special distribution of the Rocket.Chat.
 
 The feature will be release for **General Availability** on the **Enterprise Edition v4.0**
 {% endhint %}
@@ -15,6 +15,15 @@ The feature will be release for **General Availability** on the **Enterprise Edi
     * [Change Standalone to WiredTiger](https://docs.mongodb.com/manual/tutorial/change-standalone-wiredtiger/)
 * Rocket.Chat
   * The setting **Use REST instead of websocket for Meteor calls** under _Admin &gt; General &gt; REST API_, _must_ be **enabled**.
+
+The following environment variables should be set for Rocket.Chat services as well:
+
+| Variable | Value | Description |
+| :--- | :--- | :--- |
+| `TRANSPORTER` | `nats://nats:4222` | NATS address
+* `DISABLE_WATCH_DB` | `true` | Disables internal DB watcher and rely on `mongodb-stream-hub`
+* `DISABLE_PRESENCE_MONITOR` | `true` | Disables precense monitoring and rely on the `presence-service`
+* `INTERNAL_SERVICES_ONLY` | `true` | Do not run external services on rocket.chat process
 
 ### Micro services
 
@@ -35,7 +44,7 @@ docker run \
 --name accounts-service \
 -e MONGO_URL=mongodb://mongo/rocketchat?replicaSet=rs01 \
 -e TRANSPORTER=nats://nats:4222 \
-registry.rocket.chat/microservices_accounts-service:latest
+rocketchat/account-service:latest
 ```
 
 #### Authorization
@@ -51,7 +60,7 @@ docker run \
 --name authorization-service \
 -e MONGO_URL=mongodb://mongo/rocketchat?replicaSet=rs01 \
 -e TRANSPORTER=nats://nats:4222 \
-registry.rocket.chat/microservices_authorization-service:latest
+rocketchat/authorization-service:latest
 ```
 
 #### DDP Streamer
@@ -67,7 +76,7 @@ docker run \
 --name ddp-streamer \
 -e MONGO_URL=mongodb://mongo/rocketchat?replicaSet=rs01 \
 -e TRANSPORTER=nats://nats:4222 \
-registry.rocket.chat/microservices_ddp-streamer:latest
+rocketchat/ddp-streamer-service:latest
 ```
 
 #### MongoDB Stream Hub
@@ -79,7 +88,7 @@ docker run \
 --name mongodb-stream-hub \
 -e MONGO_URL=mongodb://mongo/rocketchat?replicaSet=rs01 \
 -e TRANSPORTER=nats://nats:4222 \
-registry.rocket.chat/microservices_mongodb-stream-hub:latest
+rocketchat/stream-hub-service:latest
 ```
 
 #### Presence
@@ -95,8 +104,17 @@ docker run \
 --name presence-service \
 -e MONGO_URL=mongodb://mongo/rocketchat?replicaSet=rs01 \
 -e TRANSPORTER=nats://nats:4222 \
-registry.rocket.chat/microservices_presence-service:latest
+rocketchat/presence-service:latest
 ```
+
+#### Environment variables common to all services
+
+Set the following environment variables to enable Prometheus metrics:
+
+| Variable | Default | Description |
+| :--- | :--- | :--- |
+| `MS_METRICS` | `false` | Enabled Prometheus metrics endpoint
+| `MS_METRICS_PORT` | `9458` | Port of Prometheus metrics endpoint
 
 ### Reverse proxy
 
@@ -122,4 +140,3 @@ spec:
           servicePort: 3000
         path: /(sockjs|websocket)
 ```
-
