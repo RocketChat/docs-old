@@ -17,15 +17,15 @@ To set up your desired provider:
 
 ![](../../../../.gitbook/assets/image%20%28150%29.png)
 
-### Facebook
+## Facebook
 
 * Callback URL: `<<website_url>>/_oauth/facebook?close`
 
-### GitHub
+## GitHub
 
 * Callback URL: `<<website_url>>/_oauth/github?close`
 
-#### GitHub Set up
+### GitHub Set up
 
 1. Go to your [Application Settings](https://github.com/settings/applications)
 2. Under the `Developer applications` tab, click the **Register new application** button
@@ -33,29 +33,29 @@ To set up your desired provider:
 
 **Note**: If your callback URL is wrong, GitHub does not display any error. Instead of logging in, you receive an error message saying "No matching login attempt found."
 
-### Google
+## Google
 
 * Callback URL: `<<website_url>>/_oauth/google?close`
 
-#### Google Set up
+### Google Set up
 
 1. Go to the [Google Developer Console](https://console.developers.google.com), and create a new project
 2. Set up your project by creating an "OAuth 2.0 client ID" \(under `APIs & Auth` and `Credentials`\)
 3. After that, make sure you define a **Product Name** in the OAuth consent screen, and select **Web App** as application type. Otherwise, you won't be able to provide a callback URL
 
-### Apple
+## Apple
 
 
 
-### LinkedIn
+## LinkedIn
 
 * Callback URL: `<<website_url>>/_oauth/linkedin`
 
-### Twitter
+## Twitter
 
 * Callback URL: `<<website_url>>/_oauth/twitter`
 
-### Wordpress
+## Wordpress
 
 Please follow the instructions [here](https://docs.rocket.chat/guides/administrator-guides/authentication/oauth/wordpress).
 
