@@ -7,11 +7,15 @@ description: >-
 
 # OAuth
 
- Below are brief descriptions of how to set up some of the most widely used provider.
-
 To set up your desired provider:
 
-1. These settings are in the `Accounts` setting page under `Administration`.
+1. Go to **Administration.**
+
+![](../../../../.gitbook/assets/image%20%2830%29.png)
+
+2. Search '**OAuth'** in **Settings** and open it.
+
+![](../../../../.gitbook/assets/image%20%28150%29.png)
 
 ## Facebook
 
@@ -29,8 +33,6 @@ To set up your desired provider:
 
 **Note**: If your callback URL is wrong, GitHub does not display any error. Instead of logging in, you receive an error message saying "No matching login attempt found."
 
-## GitLab
-
 ## Google
 
 * Callback URL: `<<website_url>>/_oauth/google?close`
@@ -41,15 +43,19 @@ To set up your desired provider:
 2. Set up your project by creating an "OAuth 2.0 client ID" \(under `APIs & Auth` and `Credentials`\)
 3. After that, make sure you define a **Product Name** in the OAuth consent screen, and select **Web App** as application type. Otherwise, you won't be able to provide a callback URL
 
+## Apple
+
+
+
 ## LinkedIn
 
 * Callback URL: `<<website_url>>/_oauth/linkedin`
 
-## Meteor
-
-TBD.
-
 ## Twitter
 
 * Callback URL: `<<website_url>>/_oauth/twitter`
+
+## Wordpress
+
+Please follow the instructions here.
 
