@@ -56,6 +56,7 @@ Rocket.Chat is very grateful for the following people who have responsibly discl
 * [Robert Grösser](https://github.com/qchn), August 2020
 * [Vladica Savic](https://twitter.com/vsavic), August 2020
 * Ivars Vids, September 2020
+* [Nikhil Mittal](https://twitter.com/c0d3g33k), Oktober 2020
 
 Thank you all very much!
 
