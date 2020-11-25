@@ -66,13 +66,13 @@ class Script {
         }
 
         if(request.content.message.reply_to_message) {
-          	var quotedMessage = 
+              var quotedMessage = 
                 "*" +
                 request.content.message.reply_to_message.from.username +
                 "*\n" +
                 request.content.message.reply_to_message.text;
-          
-          	quotedMessage = this.addQuotePrefix(quotedMessage);
+
+              quotedMessage = this.addQuotePrefix(quotedMessage);
             body = quotedMessage + '\n' + body;
         }
 
