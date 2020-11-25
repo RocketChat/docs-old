@@ -1,6 +1,6 @@
 # Info
 
-Retrieves information about a user, the result is only limited to what the callee has access to view. It supports [Fields Query Parameter](../../query-and-fields-info.md) with the `userRooms` field, that returns the rooms that the user is part of.
+Retrieves information about a user, the result is only limited to what the callee has access to view. It supports [Fields Query Parameter](../../query-and-fields-info.md) with the `userRooms` field, that returns the rooms that the user is part of. The `rooms` field returns the `unread` property and this field is variable, based on the setting `Unread_Count` (`Admin Panel` => `General` => `Unread_Count`), this setting provides the ability to choose between options to count the unread messages.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
@@ -96,13 +96,15 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
             "_id": "PoffwDEebAwcmS5A8",
             "rid": "GENERAL",
             "name": "general",
-            "t": "c"
+            "t": "c",
+            "unread": 1
         },
         {
             "_id": "hr93s8GcJedZbkeaH",
             "rid": "oaqXoFLru3YLuau2J",
             "name": "test",
             "t": "c",
+            "unread": 1,
             "roles": [
                 "owner"
             ]
@@ -117,6 +119,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
+| 3.4.0  | Added `unread` property inside `rooms` object |
 | 0.70.0 | Added `rooms` property to response if the user request it and has the `view-other-user-channels` permission |
 | 0.49.0 | Updated to support `userId` or `username` |
 | 0.48.0 | Renamed to `users.info` |
