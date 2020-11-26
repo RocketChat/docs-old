@@ -5,7 +5,7 @@ This installation guide was tested in the following environment:
 * Rocket.Chat 3.0.0
 * OS: Debian 9.7
 * Mongodb 4.0.9
-* NodeJS 12.14.0
+* NodeJS 12.18.4
 
 ## Install necessary dependency packages
 
@@ -38,7 +38,7 @@ sudo apt-get install -y build-essential mongodb-org nodejs graphicsmagick
 Using npm install inherits and n, and the node version required by Rocket.Chat:
 
 ```bash
-sudo npm install -g inherits n && sudo n 12.14.0
+sudo npm install -g inherits n && sudo n 12.18.4
 ```
 
 ## Install Rocket.Chat
