@@ -5,9 +5,9 @@ This installation guide was tested in the following environment:
 * Rocket.Chat 3.5.1
 * OS: Kali Rolling 2020.2
 * Mongodb 4.0.19
-* NodeJS 12.14.0
+* NodeJS 12.18.4
 
-As Kali is a distribution based on Debian the installation process is pretty the same, only adding some MongoDB dependencies installation. 
+As Kali is a distribution based on Debian the installation process is pretty the same, only adding some MongoDB dependencies installation.
 
 ## Install necessary dependency packages
 
@@ -40,7 +40,7 @@ sudo apt-get install -y build-essential libcurl3 mongodb-org-server mongodb-org 
 Using npm install inherits and n, and the node version required by Rocket.Chat:
 
 ```bash
-sudo npm install -g inherits n && sudo n 12.14.0
+sudo npm install -g inherits n && sudo n 12.18.4
 ```
 
 ## Install Rocket.Chat
@@ -132,4 +132,3 @@ sudo systemctl enable rocketchat && sudo systemctl start rocketchat
 ## Configure your Rocket.Chat server
 
 Open a web browser and access the configured ROOT\_URL \(`http://your-host-name.com-as-accessed-from-internet:3000`\), follow the configuration steps to set an admin account and your organization and server info.
-
