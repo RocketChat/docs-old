@@ -79,7 +79,7 @@ sudo chown -R rocketchat:rocketchat /opt/Rocket.Chat
 cat << EOF |sudo tee -a /lib/systemd/system/rocketchat.service
 [Unit]
 Description=The Rocket.Chat server
-After=network.target remote-fs.target nss-lookup.target nginx.target mongod.target
+After=network.target remote-fs.target nss-lookup.target nginx.service mongod.service
 [Service]
 ExecStart=/usr/local/bin/node /opt/Rocket.Chat/main.js
 StandardOutput=syslog
