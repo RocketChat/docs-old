@@ -18,7 +18,7 @@ Currently rocketchatctl is supported in these Linux distributions:
 
 And installs these software versions, but this can change for future rocketchatctl versions:
 
-* Node version: 12.14.0
+* Node version: 12.18.4
 * Mongo version: 4.0.10
 * Web Proxy/Loadbalancer optional:
 
@@ -81,7 +81,7 @@ rocketchatctl install
 Or if you want to use your mongo server, change node to the current needed version for Rocket.Chat, listen in a different port, and install another release, you can for example use these command:
 
 ```bash
-rocketchatctl install --root-url=https://www.example.com --webserver=none --use-mongo --install-node --port=4000 --version=3.0.0
+rocketchatctl install --root-url=https://www.example.com --webserver=none --use-mongo --install-node --port=4000 --version=3.9.0
 ```
 
 ### Update Rocket.Chat
@@ -90,7 +90,7 @@ Check for release updates:
 
 ```bash
 rocketchatctl check-updates
-Current update available for RocketChat server: from 3.0.3 to 3.2.1
+Current update available for RocketChat server: from 3.8.0 to 3.9.0
 ```
 
 And update to the latest release:
@@ -112,4 +112,3 @@ rocketchatctl upgrade-rockectchatctl
 #### **Use rocketchatctl to automate your previously Rocket.Chat manual installation deployments !**
 
 Check out our webinar about it here:
-

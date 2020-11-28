@@ -2,7 +2,7 @@
 
 This installation guide was tested in the following environment:
 
-* Rocket.Chat 3.0.0
+* Rocket.Chat 3.9.0
 * OS: Debian 9.7
 * Mongodb 4.0.9
 * NodeJS 12.18.4
@@ -130,4 +130,3 @@ sudo systemctl enable rocketchat && sudo systemctl start rocketchat
 ## Configure your Rocket.Chat server
 
 Open a web browser and access the configured ROOT\_URL \(`http://your-host-name.com-as-accessed-from-internet:3000`\), follow the configuration steps to set an admin account and your organization and server info.
-
