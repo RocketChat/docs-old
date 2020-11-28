@@ -1,8 +1,8 @@
 # Amazon S3
 
-Set set the following _CORS Configuration_ to your bucket. 
+Set set the following _CORS Configuration_ to your bucket.
 
-XML format (if using the old AWS console Interface):
+XML format \(if using the old AWS console Interface\):
 
 ```markup
 <?xml version="1.0" encoding="UTF-8"?>
@@ -19,9 +19,9 @@ XML format (if using the old AWS console Interface):
 </CORSConfiguration>
 ```
 
-JSON format (if using the new AWS console Interface):
+JSON format \(if using the new AWS console Interface\):
 
-```js
+```javascript
 [
   {
     "AllowedHeaders": [

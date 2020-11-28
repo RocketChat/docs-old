@@ -1,6 +1,6 @@
 # Notifications
 
-Use the **Bell** icon to configure notifications whithin your channel or room. Other preferences are available in the `Personel Settings` dialog. Make sure your preferences include Receiving unread messages to get notifications.
+Use the **Bell** icon to configure notifications within your channel or room. Other preferences are available in the`Personel Settings`dialog. Make sure your preferences include Receiving unread messages to get notifications.
 
 ## Desktop
 
