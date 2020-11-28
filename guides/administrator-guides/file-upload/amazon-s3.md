@@ -5,18 +5,24 @@ Set set the following _CORS Configuration_ to your bucket.
 XML format \(if using the old AWS console Interface\):
 
 ```markup
-<?xml version="1.0" encoding="UTF-8"?>
-<CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
-    <CORSRule>
-        <AllowedOrigin>*ROCKET_CHAT_DOMAIN*</AllowedOrigin>
-        <AllowedMethod>PUT</AllowedMethod>
-        <AllowedMethod>POST</AllowedMethod>
-        <AllowedMethod>GET</AllowedMethod>
-        <AllowedMethod>HEAD</AllowedMethod>
-        <MaxAgeSeconds>3000</MaxAgeSeconds>
-        <AllowedHeader>*</AllowedHeader>
-    </CORSRule>
-</CORSConfiguration>
+[
+    {
+        "AllowedHeaders": [
+            "*"  
+        ],
+        "AllowedMethods": [
+            "PUT",
+            "POST",
+            "GET",
+            "HEAD"
+        ],  
+        "AllowedOrigins": [
+            "*ROCKET_CHAT_DOMAIN*"
+        ],  
+        "ExposeHeaders": [], 
+        "MaxAgeSeconds": 3000
+    } 
+]
 ```
 
 JSON format \(if using the new AWS console Interface\):
