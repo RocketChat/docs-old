@@ -67,6 +67,10 @@ docker run \
 rocketchat/ddp-streamer-service:latest
 ```
 
+{% hint style="info" %}
+DDP Streamer should be scaled from the beginning.  \(One per 500 concurrent users should be good enough\)
+{% endhint %}
+
 ### MongoDB Stream Hub
 
 {% hint style="danger" %}
@@ -83,9 +87,15 @@ docker run \
 rocketchat/stream-hub-service:latest
 ```
 
-### Presence
+### Presence 
 
-Controls and update users' presence status.
+Controls and update users' presence status. 
+
+{% hint style="success" %}
+In a situation where you have a huge amount of data/users, you can get away with not running it to reduce the traffic of presence processing. If you are not running it, the user's online/offline status and notification will not work properly. 
+{% endhint %}
+
+
 
 ```text
 docker run \
