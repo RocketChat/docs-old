@@ -84,7 +84,7 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 
 ![](https://lh3.googleusercontent.com/o3iotTRPf5V7C6PZiZ9SYwWR_suvnW8mflVSABFaRaRzRuKm4SBRrbLiAVceStFpj7WWGs3xNJO_2cqT7EeRxet9fQoX7MYuUWjLfOBhScEXt5HZVB1XEQxtYrH5Oh8juv1Iz0hu)
 
-![](../../../.gitbook/assets/image%20%2841%29.png)
+![](../../../.gitbook/assets/image%20%2835%29%20%281%29.png)
 
 * Set the same keychain group on `RocketChatRN/Info.plist`, `ShareRocketChatRN/Info.plist` and `NotificationService/Info.plist`
 

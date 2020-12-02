@@ -24,7 +24,7 @@ Important: ADFS uses .pfx certificate extensions \(widely used on Windows landsc
 
 3. Set the _Custom Authn Context_ and _User Data Field Map_ according the scenario you have on your Active Directory Federation services
 
-![](../../../../.gitbook/assets/adfs_3%20%281%29.png)
+![](../../../../.gitbook/assets/adfs_3%20%281%29%20%281%29.png)
 
 **Important:** The Custom Authorization context fields must match the authentication methods selected on ADFS. Microsoft Federation Services provides two authentication methods: Forms authentication and Windows Authentication. 
 

@@ -597,8 +597,10 @@ Code blocks should be fenced.
 
 **Correct**:
 
-<pre>
+```text
+
 ```text
     codeblock using indentation.
 ```
-</pre>
+```
+

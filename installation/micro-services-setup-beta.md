@@ -25,17 +25,13 @@ The following environment variables should be set for Rocket.Chat services as we
 | `DISABLE_PRESENCE_MONITOR` | `true` | Disables presence monitoring and rely on the `presence-service` |
 | `INTERNAL_SERVICES_ONLY` | `true` | Do not run external services on rocket.chat process |
 
-## Micro services
+## Microservices
 
-Rocket.Chat micro services are composed by a few Docker containers:
+Rocket.Chat microservices are composed of a few Docker containers:
 
 ![](../.gitbook/assets/micro-services-deployment-v0.1-2x-1-.png)
 
 ### Accounts
-
-{% hint style="info" %}
-Can be scaled to multiple containers
-{% endhint %}
 
 Responsible for user authentications
 
@@ -49,10 +45,6 @@ rocketchat/account-service:latest
 
 ### Authorization
 
-{% hint style="info" %}
-Can be scaled to multiple containers
-{% endhint %}
-
 Responsible for the validation of access to features
 
 ```text
@@ -64,10 +56,6 @@ rocketchat/authorization-service:latest
 ```
 
 ### DDP Streamer
-
-{% hint style="info" %}
-Can be scaled to multiple containers
-{% endhint %}
 
 Web socket interface between server and clients
 
@@ -85,7 +73,7 @@ rocketchat/ddp-streamer-service:latest
 Can not be scaled to multiple containers
 {% endhint %}
 
-Receives real time data from MongoDB and emits that data to the system.
+Receives real-time data from MongoDB and emits that data to the system.
 
 ```text
 docker run \
@@ -96,10 +84,6 @@ rocketchat/stream-hub-service:latest
 ```
 
 ### Presence
-
-{% hint style="info" %}
-Can be scaled to multiple containers
-{% endhint %}
 
 Controls and update users' presence status.
 

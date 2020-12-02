@@ -151,3 +151,4 @@ Exception in callback of async function: Error: /lib64/libz.so.1: version `ZLIB_
 Add this environmental variable in the Rocket.Chat service file \(/usr/lib/systemd/system/rocketchat.service\):
 
 Environment=LD\_PRELOAD=/opt/Rocket.Chat/programs/server/npm/node\_modules/sharp/vendor/lib/libz.so
+

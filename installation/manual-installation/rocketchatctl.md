@@ -112,3 +112,4 @@ rocketchatctl upgrade-rockectchatctl
 #### **Use rocketchatctl to automate your previously Rocket.Chat manual installation deployments !**
 
 Check out our webinar about it here:
+
