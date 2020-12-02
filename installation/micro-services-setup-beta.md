@@ -139,3 +139,12 @@ spec:
         path: /(sockjs|websocket)
 ```
 
+## Summary:
+
+To summarize it:
+
+1. You just need to deploy the reverse proxy to split the communication.
+2. Run all the above services pointing to the NATS and the MongoDB.
+3. Deploy NATS.
+4. Run Rocket.Chat according to the above-mentioned variables.
+
