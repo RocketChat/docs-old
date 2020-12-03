@@ -57,6 +57,7 @@ Rocket.Chat is very grateful for the following people who have responsibly discl
 * [Vladica Savic](https://twitter.com/vsavic), August 2020
 * Ivars Vids, September 2020
 * [Nikhil Mittal](https://twitter.com/c0d3g33k), Oktober 2020
+* [Kunal Narsale](http://linkedin.com/in/kunal-n-3b9587135), December 2020
 
 Thank you all very much!
 
