@@ -14,7 +14,7 @@ The feature will be released for **General Availability** on the **Enterprise Ed
   * Storage Engine needs to be [WiredTiger](https://docs.mongodb.com/manual/core/wiredtiger/):
     * [Change Standalone to WiredTiger](https://docs.mongodb.com/manual/tutorial/change-standalone-wiredtiger/)
 * Rocket.Chat
-  * The setting **Use REST instead of websocket for Meteor calls** under _Admin &gt; General &gt; REST API_, _must_ be **enabled**.
+  * The setting **Use REST instead of WebSocket for Meteor calls** under _Admin &gt; General &gt; REST API_, _must_ be **enabled**.
 
 The following environment variables should be set for Rocket.Chat services as well:
 
