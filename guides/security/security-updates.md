@@ -13,6 +13,12 @@ Please make sure to follow new version updates by subscribing to our newsletters
 \*\*\*\*
 
 {% hint style="danger" %}
+**2020-0005 - Critical Severity issue** fixed at **2020-12-05**  
+Rocket.Chat Server - affects **0.x, 1.x, 2.x**, **3.x,** fixed on **3.9.11 / hotfix versions for prior major releases**  
+_Details of the security issue will be added later as per the responsible disclosure policy._
+{% endhint %}
+
+{% hint style="danger" %}
 **2020-0004 - High Severity issue** fixed at **2020-10-01**  
 Rocket.Chat Desktop Client - affects **2.x**, ****fixed on **3.0**  
 **\(RCE\)** Fixed via context isolation an issue where link preload could be used to execute code.
