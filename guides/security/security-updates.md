@@ -14,7 +14,7 @@ Please make sure to follow new version updates by subscribing to our newsletters
 
 {% hint style="danger" %}
 **2020-0005 - Critical Severity issue** fixed at **2020-12-05**  
-Rocket.Chat Server - affects **0.x, 1.x, 2.x**, **3.x,** fixed on **3.9.11 / hotfix versions for prior major releases**  
+Rocket.Chat Server - affects **0.x, 1.x, 2.x**, **3.x,** fixed on **3.9.1 / 3.8.3 / 3.7.3 / 2.4.13 / 1.3.4 / 0.74.4**  
 _Details of the security issue will be added later as per the responsible disclosure policy._
 {% endhint %}
 
