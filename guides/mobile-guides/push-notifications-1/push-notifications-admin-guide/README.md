@@ -36,7 +36,7 @@ To check user preferences for push notifications:
 
 ![](../../../../.gitbook/assets/image%20%2821%29.png)
 
-3. Set **Mobile Notifications Default Alert** to Mentions. It will send notifications in case of a mention or only of the threads the user has subscribed to intentionally. 
+3. Set **Mobile Notifications Default Alert** to Mentions. It will send notifications in case of a mention of user's name or only of the threads the user has subscribed to intentionally. 
 
 ![](../../../../.gitbook/assets/image%20%2841%29.png)
 
@@ -46,11 +46,33 @@ We suggest you should check the push notification configuration in user preferen
 
 ## Enable Push Notifications
 
+To enable push notifications:
+
+1. Go to **Administration.**
+
+![](../../../../.gitbook/assets/image%20%2830%29.png)
+
+2. Search '**Push'** in **Settings.**
+
+![](../../../../.gitbook/assets/image%20%2851%29.png)
+
+3. **Enable** push notifications. 
+
+4. **Enable** your Gateway. \(_Option not available on a cloud server_\)
+
+{% hint style="info" %}
+If you are on a cloud server, you dont get to choose as there is a default rocket.chat gateway. On a self-hosted server, you have an option to either use rocket.chat gateway or configure your own.
+{% endhint %}
+
+5. Enable **Production**.
+
+6. You are all set to send a test push to your user now.
+
+![](../../../../.gitbook/assets/image%20%2846%29.png)
+
 ## Check the count of notification used per month
 
-## Set default user preferences \(admin and users\)
 
-These are universal for all the users until individual users change them for themselves. 
 
 ## Enable push notifications for channels
 
