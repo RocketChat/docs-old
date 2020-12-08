@@ -54,7 +54,7 @@ To enable push notifications:
 
 2. Search '**Push'** in **Settings.**
 
-![](../../../../.gitbook/assets/image%20%2860%29.png)
+![](../../../../.gitbook/assets/image%20%28122%29.png)
 
 3. **Enable** push notifications. 
 
@@ -72,13 +72,13 @@ If you are on a cloud server, you dont get to choose as there is a default rocke
 To successfully send a test push to your user, you will have to be logged in to the server on your mobile client and then close or minimize the application. 
 {% endhint %}
 
-![](../../../../.gitbook/assets/image%20%2846%29.png)
+![](../../../../.gitbook/assets/image%20%2851%29.png)
 
 ### Privacy
 
 In Privacy, you can configure what amount of information you want your push notification to have. 
 
-![](../../../../.gitbook/assets/image%20%2851%29.png)
+![](../../../../.gitbook/assets/image%20%2860%29.png)
 
 {% hint style="info" %}
 Above are the default settings. If they are set up like this, the channel/Group/Username/Message will show. If you turn on the last toggle, Your notification won't show any information at all. It will just say, "You received a message".
