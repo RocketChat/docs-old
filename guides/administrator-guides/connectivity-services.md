@@ -9,11 +9,17 @@ Rocket.Chat Cloud provides a list of features/services such as
 * Omnichannel proxy
 * Automatic license synchronization 
 
-In order to use those services, Rocket.Chat server must be connected to [cloud.rocket.chat](https://cloud.rocket.chat/). Below are the steps required to connect and synchronize a Rocket.Chat self hosted server to our cloud infrastructure.
+In order to use those services, Rocket.Chat server must be connected to [cloud.rocket.chat](https://cloud.rocket.chat/). Below are the steps required to connect and synchronize a Rocket.Chat self**-**hosted server to our cloud infrastructure.
 
-#### Important 1: the steps below are required _only_ for self managed instances. Rocket.Chat SaaS workspaces are always connected to our Cloud infrastructure.
 
-**Important 2: In order to connect your server to our Cloud, your Rocket.Chat server must be at least on version 1.3.2.**
+
+{% hint style="info" %}
+#### The steps below are required only for self-managed instances. Rocket.Chat SaaS workspaces are always connected to our Cloud infrastructure.
+{% endhint %}
+
+{% hint style="info" %}
+In order to connect your server to our Cloud, your Rocket.Chat server must be at least on version 1.3.2.
+{% endhint %}
 
 ## Registration steps
 
