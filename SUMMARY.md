@@ -214,6 +214,7 @@
   * [Push Notifications](guides/mobile-guides/push-notifications-1/README.md)
     * [Push Notifications Admin Guide](guides/mobile-guides/push-notifications-1/push-notifications-admin-guide.md)
     * [Push Notifications User Guide](guides/mobile-guides/push-notifications-1/push-notifications-user-guide.md)
+    * [Push Notification Security](guides/mobile-guides/push-notifications-1/push-notification-security.md)
 * [Security and Compliance Guides](guides/security/README.md)
   * [Compliance Resources and Certifications](guides/security/compliance-resources.md)
   * [Security fixes and updates](guides/security/security-updates.md)
