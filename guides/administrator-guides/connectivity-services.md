@@ -9,12 +9,10 @@ Rocket.Chat Cloud provides a list of features/services such as
 * Omnichannel proxy
 * Automatic license synchronization 
 
-In order to use those services, Rocket.Chat server must be connected to [cloud.rocket.chat](https://cloud.rocket.chat/). Below are the steps required to connect and synchronize a Rocket.Chat self**-**hosted server to our cloud infrastructure.
-
-
+In order to use those services, Rocket.Chat server must be connected to [cloud.rocket.chat](https://cloud.rocket.chat/). Below are the steps required to connect and synchronize a Rocket.Chat self-hosted server to our cloud infrastructure.
 
 {% hint style="info" %}
-#### The steps below are required only for self-managed instances. Rocket.Chat SaaS workspaces are always connected to our Cloud infrastructure.
+The steps below are required only for self-managed instances. Rocket.Chat SaaS workspaces are always connected to our Cloud infrastructure.
 {% endhint %}
 
 {% hint style="info" %}
@@ -23,9 +21,11 @@ In order to connect your server to our Cloud, your Rocket.Chat server must be at
 
 ## Registration steps
 
+### If you don't have a cloud account yet:
+
 1. Go to [cloud.rocket.chat](https://cloud.rocket.chat/) and create a new account
 
-![](../../.gitbook/assets/c_3.png)
+![](../../.gitbook/assets/image%20%28154%29.png)
 
 2. Fill up the registration form and "Register"
 
@@ -33,9 +33,9 @@ In order to connect your server to our Cloud, your Rocket.Chat server must be at
 
 3. A verification email will be sent in order to activate your new Cloud account 
 
-![](../../.gitbook/assets/c_5.png)
+![](../../.gitbook/assets/image%20%28155%29.png)
 
-4. The verification link will forward to cloud.rocket.chat. After the validation, you will be logged into your Cloud console. In order to register your self hosted workspace, please select the "Register self-managed" button
+4. The verification link will forward to cloud.rocket.chat. After the validation, you will be logged into your Cloud console. In order to register your self-hosted workspace, please select the "Register self-managed" button
 
 ![](../../.gitbook/assets/c_6.png)
 
