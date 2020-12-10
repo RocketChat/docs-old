@@ -81,7 +81,7 @@ In Privacy, you can configure what amount of information you want your push noti
 ![](../../../../.gitbook/assets/image%20%2891%29.png)
 
 {% hint style="info" %}
-Above are the default settings. If they are set up like this, the channel/Group/Username/Message will show. If you turn on the last toggle, Your notification won't show any information at all. It will just say, "You received a message".
+Above are the default settings. If **Fetch full message content from the server on receipt** is enabled and you're running the Enterprise Edition, the notification payload that is sent through the Apple Push Notification service or Firebase Cloud Messaging service contains no message content. Instead, it contains only the message ID which is then used by the mobile app to fetch the message content from the [Rocket.Chat](http://rocket.chat/) server to display the notification. If something happens and the app cannot reach the server in time, a generic push notification message is shown. When the setting is disabled, the whole message content is sent via push notification payload so the mobile app can display the notification right away.
 {% endhint %}
 
 
