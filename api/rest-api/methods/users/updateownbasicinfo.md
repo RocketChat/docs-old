@@ -4,9 +4,15 @@
 | :--- | :--- | :--- |
 | `/api/v1/users.updateOwnBasicInfo` | `yes` | `POST` |
 
-Note that to update the password or email for the user you must send `currentPassword` property encrypted in SHA256 together in payload.
+**Note**
+
+* To update the password or email for the user you must send `currentPassword` property encrypted in SHA256 together in payload.
+* To save customFields you must first define the customFields in admin panel (Accounts -> Registration -> Custom fields)
+
 
 **WARNING:** This API does not work when the server contains custom fields. There's a bug report [here](https://github.com/RocketChat/Rocket.Chat/issues/11154) related to that.
+
+
 
 ## Payload
 
@@ -17,7 +23,7 @@ Note that to update the password or email for the user you must send `currentPas
 | `data.username` | `example` | Optional | The username for the user. |
 | `data.currentPassword` | `5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5@w0rd` | Optional | The password for the user encrypted in SHA256. |
 | `data.newPassword` | `passw0rd` | Optional | The new password for the user |
-| `data.customFields` | `{ twitter: '@example' }` | Optional   Default: `undefined` | Any custom fields the user should have on their account. |
+| `customFields` | `{ twitter: '@example' }` | Optional   Default: `undefined` | Any custom fields the user should have on their account. |
 
 ## Example Call
 
