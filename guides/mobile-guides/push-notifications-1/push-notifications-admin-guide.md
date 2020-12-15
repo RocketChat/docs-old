@@ -14,11 +14,11 @@ To subscribe to  a push notification package:
 
 3. Login with your GitHub account
 
-4. Login with cloud
+4. Login with [Rocket.Chat Cloud](https://cloud.rocket.chat/)
 
-5. Select their workspace from the list
+5. Select **the workspace you want to apply the cap to**
 
-6. We apply the cap from that your selected sponsorship to your workspace
+6. The cap will be applied automatically with the respective limit according to the selected sponsorship perk.
 
 ## Set default user preferences \(admin and users\)
 
