@@ -26,7 +26,7 @@ In Privacy, you can configure what amount of information you want your push noti
 
 \*\*\*\*
 
-![](../../../.gitbook/assets/image%20%28156%29.png)
+![](../../../.gitbook/assets/image%20%28160%29.png)
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-MNzbyGrcLT-zbYvvICD%2F-MNze_IPgEDo_oOUzi8I%2Fimage.png?alt=media&token=053aa749-50ef-4b1d-912e-c795ecc7c58f)
 
