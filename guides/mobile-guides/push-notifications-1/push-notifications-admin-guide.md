@@ -78,6 +78,18 @@ To successfully send a test push to your user, you will have to be logged in to 
 
 In Privacy, you can configure what amount of information you want your push notification to have. 
 
+1. Go to **Administration.**
+
+![](../../../.gitbook/assets/image%20%2830%29.png)
+
+2. Search '**Push'** in **Settings.**
+
+![](../../../.gitbook/assets/image%20%28137%29.png)
+
+3. Go to **Privacy** 
+
+![](../../../.gitbook/assets/image%20%28156%29.png)
+
 ![](../../../.gitbook/assets/image%20%2891%29.png)
 
 {% hint style="info" %}
