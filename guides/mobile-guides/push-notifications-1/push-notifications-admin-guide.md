@@ -88,7 +88,7 @@ In Privacy, you can configure what amount of information you want your push noti
 
 3. Go to **Privacy** 
 
-![](../../../.gitbook/assets/image%20%28160%29.png)
+![](../../../.gitbook/assets/image%20%28165%29.png)
 
 ![](../../../.gitbook/assets/image%20%2891%29.png)
 
@@ -106,15 +106,15 @@ Make sure you have agreed to terms and conditions.
 
 2. Search '**Setup Wizard'** in **Settings.**
 
-![](../../../.gitbook/assets/image%20%28159%29.png)
+![](../../../.gitbook/assets/image%20%28163%29.png)
 
 3. Go to '**Cloud Info'** 
 
-![](../../../.gitbook/assets/image%20%28158%29.png)
+![](../../../.gitbook/assets/image%20%28162%29.png)
 
 4. Turn the **Cloud Service Privacy Terms Agreement** toggle on.
 
-![](../../../.gitbook/assets/image%20%28157%29.png)
+![](../../../.gitbook/assets/image%20%28160%29.png)
 
 {% hint style="info" %}
 If **Cloud Service Privacy Terms Agreement** is not toggled ON the push won't work.
@@ -134,7 +134,39 @@ When you purchase any package of push notifications as a self-managed customer, 
 
 ## Check the count of notification used per month
 
+To check the count of notification used per month:
 
+1. Go to [cloud.rocket.chat](http://cloud.rocket.chat/)  
+
+![](../../../.gitbook/assets/image%20%28157%29.png)
+
+2. Go to Workspaces and select the workspace you want to check count for. 
+
+3. Push notifications block will show the number of used notifications per your current limit per month.
+
+![](../../../.gitbook/assets/image%20%28158%29.png)
 
 ## Enable push notifications for channels
+
+Users can configure what notifications they want to receive on mobile for each channel. 
+
+To enable push notifications for channels:
+
+1. Open room actions
+
+![](../../../.gitbook/assets/image%20%28161%29.png)
+
+2. Notification preferences
+
+![](../../../.gitbook/assets/image%20%28166%29.png)
+
+3. Mobile
+
+![](../../../.gitbook/assets/image%20%28164%29.png)
+
+
+
+4. Select what type of notifications you want to receive.
+
+![](../../../.gitbook/assets/image%20%28159%29.png)
 
