@@ -98,9 +98,11 @@ Above are the default settings. If **Fetch full message content from the server 
 
 ## Connect to cloud
 
-When you purchase any package of push notifications as a self-managed customer, you need to connect your mobile device to our cloud. 
+When you purchase any package of push notifications as a self-managed customer, you need to connect your workspace to our cloud. 
 
-Please follow the [link](https://docs.rocket.chat/guides/administrator-guides/connectivity-services) for all the information you need regarding the setup.
+1. Go to connectivity services, check if you are connected. Cloud workspace should be connected by default. 
+2. If not go to [connectivity services](https://docs.rocket.chat/guides/administrator-guides/connectivity-services) and follow the guide. 
+3. Once done go to Push and send a test message to your user.
 
 ## Check the count of notification used per month
 
