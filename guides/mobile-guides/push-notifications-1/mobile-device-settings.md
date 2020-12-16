@@ -31,7 +31,7 @@ Step 2:  Notifications
 
 ![](../../../.gitbook/assets/image%20%28169%29.png)
 
-Step 3: Make sure the toggle for Allow Notifications is ON and you have the sound ON for the notifications. Select whether you want to show the app badge on the lock screen.
+Step 3: Make sure the toggle for Allow Notifications is ON, and you have the sound ON for the notifications. Select whether you want to show the app badge on the lock screen.
 
 ![](../../../.gitbook/assets/image%20%28172%29.png)
 
