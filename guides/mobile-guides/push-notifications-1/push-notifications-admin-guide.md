@@ -20,6 +20,10 @@ To subscribe to  a push notification package:
 
 6. The cap will be applied automatically with the respective limit according to the selected sponsorship perk.
 
+{% hint style="info" %}
+Please note that only **one** sponsorship subscription can be applied to a workspace. You can not stack a few subscriptions to get more push messages. If you need more than 20k you will need to contact our sales representative at [sales@rocket.chat](mailto:sales@rocket.chat)
+{% endhint %}
+
 ## Set default user preferences \(admin and users\)
 
 {% hint style="info" %}
