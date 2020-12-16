@@ -23,3 +23,5 @@ Step 4: Make sure you have the sound ON for the notifications. Select whether yo
 
 ## Push Notification Setting for Apple 
 
+
+

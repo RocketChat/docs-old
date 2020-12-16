@@ -1,6 +1,6 @@
 # Push Notifications Admin Guide
 
-By default, the community users have 10k push notifications for free. If you are a deployment that uses mobile clients a lot, you might feel the need to extend your per month push notification limit. To subscribe to your desired push notification bundle you first need to [subscribe to our cloud account](https://docs.rocket.chat/guides/administrator-guides/connectivity-services) if you don't have one. 
+By default, the community users have 10k push notifications for free. If you are a deployment that uses mobile clients a lot, you might feel the need to extend your per month push notification limit. To subscribe to your desired push notification bundle, you first need to [subscribe to our cloud account](https://docs.rocket.chat/guides/administrator-guides/connectivity-services) if you don't have one. 
 
 ## Subscribe a Package
 
@@ -36,7 +36,7 @@ To check user preferences for push notifications:
 
 ![](../../../.gitbook/assets/image%20%2821%29.png)
 
-3. Set **Mobile Notifications Default Alert** to Mentions. It will send notifications in case of a mention of user's name or only of the threads the user has subscribed to intentionally. 
+3. Set **Mobile Notifications Default Alert** to Mentions. It will send notifications in case of a mention of the user's name or only the threads the user has intentionally subscribed to. 
 
 ![](../../../.gitbook/assets/image%20%2841%29.png)
 
@@ -61,7 +61,7 @@ To enable push notifications:
 4. **Enable** your Gateway. \(_Option not available on a cloud server_\)
 
 {% hint style="info" %}
-If you are on a cloud server, you dont get to choose as there is a default rocket.chat gateway. On a self-hosted server, you have an option to either use rocket.chat gateway or configure your own.
+If you are on a cloud server, you don't get to choose as there is a default rocket.chat gateway. On a self-hosted server, you have an option to either use rocket.chat gateway or configure your own.
 {% endhint %}
 
 5. Enable **Production**.
@@ -93,7 +93,7 @@ In Privacy, you can configure what amount of information you want your push noti
 ![](../../../.gitbook/assets/image%20%2891%29.png)
 
 {% hint style="info" %}
-Above are the default settings. If **Fetch full message content from the server on receipt** is enabled and you're running the Enterprise Edition, the notification payload that is sent through the Apple Push Notification service or Firebase Cloud Messaging service contains no message content. Instead, it contains only the message ID which is then used by the mobile app to fetch the message content from the [Rocket.Chat](http://rocket.chat/) server to display the notification. If something happens and the app cannot reach the server in time, a generic push notification message is shown. When the setting is disabled, the whole message content is sent via push notification payload so the mobile app can display the notification right away.
+Above are the default settings. If **Fetch full message content from the server on the receipt** is enabled and you're running the Enterprise Edition, the notification payload sent through the Apple Push Notification service or Firebase Cloud Messaging service contains no message content. Instead, it contains only the message ID, which is then used by the mobile app to fetch the message content from the [Rocket.Chat](http://rocket.chat/) server to display the notification. If something happens and the app cannot reach the server in time, a generic push notification message is shown. When the setting is disabled, the whole message content is sent via push notification payload so the mobile app can display the notification right away.
 {% endhint %}
 
 ## Cloud Service Privacy Terms Agreement
@@ -117,7 +117,7 @@ Make sure you have agreed to terms and conditions.
 ![](../../../.gitbook/assets/image%20%28160%29.png)
 
 {% hint style="info" %}
-If **Cloud Service Privacy Terms Agreement** is not toggled ON the push won't work.
+If **Cloud Service Privacy Terms Agreement** is not toggled ON, the push won't work.
 {% endhint %}
 
 5. Hit **Save**.
@@ -128,9 +128,9 @@ If **Cloud Service Privacy Terms Agreement** is not toggled ON the push won't wo
 
 When you purchase any package of push notifications as a self-managed customer, you need to connect your workspace to our cloud. 
 
-1. Go to connectivity services, check if you are connected. Cloud workspace should be connected by default. 
-2. If not go to [connectivity services](https://docs.rocket.chat/guides/administrator-guides/connectivity-services) and follow the guide. 
-3. Once done go to Push and send a test message to your user.
+1. Go to connectivity services; check if you are connected. Cloud workspace should be connected by default. 
+2. If not, go to [connectivity services](https://docs.rocket.chat/guides/administrator-guides/connectivity-services) and follow the guide. 
+3. Once done, go to Push and send a test message to your user.
 
 ## Check the count of notification used per month
 
@@ -169,4 +169,8 @@ To enable push notifications for channels:
 4. Select what type of notifications you want to receive.
 
 ![](../../../.gitbook/assets/image%20%28159%29.png)
+
+{% hint style="info" %}
+On some channels notifications can stop if the number of users exceeds the set limit. The limit is set in the Administration -&gt; General -&gt; Notifications.
+{% endhint %}
 
