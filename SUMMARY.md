@@ -58,6 +58,7 @@
     * [systemd](installation/docker-containers/systemd.md)
     * [Docker Compose](installation/docker-containers/docker-compose.md)
     * [High Availability](installation/docker-containers/high-availability-install.md)
+    * [MongoDB mmap to wiredTiger migration](installation/docker-containers/mongodb-mmap-to-wiredtiger-migration.md)
   * [Nonofficial Methods](installation/community-supported-installation/README.md)
     * [OpenSUSE Leap 42.2](installation/community-supported-installation/opensuse.md)
     * [FreeBSD](installation/community-supported-installation/freebsd/README.md)
