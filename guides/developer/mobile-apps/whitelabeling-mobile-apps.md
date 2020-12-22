@@ -171,7 +171,7 @@ Here we will show you how to customize:
 
 ![](../../../.gitbook/assets/image%20%28177%29.png)
 
-* Set `APPLICATIONID`, `VERSIONCODE` and `BugsnagAPIKey` on `./android/gradle.properties`
+* Set `APPLICATION_ID`, `VERSIONCODE` and `BugsnagAPIKey` on `./android/gradle.properties`
 * Generate a [new image asset](https://developer.android.com/studio/write/image-asset-studio) for `ic_notification` and target `main`
 * Generate a [new image asset](https://developer.android.com/studio/write/image-asset-studio) for `ic_launcher` and target `experimental`
 * Change splash screen background and notification text color on `./android/app/src/experimental/res/values/colors.xml`
