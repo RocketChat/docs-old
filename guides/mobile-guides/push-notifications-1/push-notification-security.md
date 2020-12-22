@@ -1,4 +1,8 @@
-# Push Notification Security
+---
+description: Enterprise/Gold Feature
+---
+
+# Secured Push Notification
 
 Instead of sending the message content through push gateway, Apple**,** and Google, the Secured Push Notification sends just the ID of the message. 
 
