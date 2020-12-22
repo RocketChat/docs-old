@@ -4,7 +4,7 @@ description: Enterprise/Gold Feature
 
 # Secured Push Notification
 
-Instead of sending the message content through push gateway, Apple**,** and Google, the Secured Push Notification sends just the ID of the message. 
+Instead of sending the message content through push gateway, Apple**,** and Google, if you are running Enterprise/Gold edition the Secured Push Notification sends just the ID of the message. 
 
 Once the ID reaches the user’s device, the message is retrieved from Rocket.Chat server and the notification is created.
 
