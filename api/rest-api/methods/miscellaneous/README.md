@@ -14,4 +14,5 @@ Just some generic information, such as information about the server and authenti
 | `/api/v1/spotlight` | Searches for users or rooms that are visible to the user. | [Link](spotlight.md) |
 | `/api/v1/statistics` | Statistics about the Rocket.Chat server. | [Link](statistics.md) |
 | `/api/v1/statistics.list` | Selectable statistics about the Rocket.Chat server. | [Link](statistics-list.md) |
+| `/api/v1/instances.get` | Gets all running instances. | [Link](methods/miscellaneous/instances-get.md) |
 
