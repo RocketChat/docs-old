@@ -670,6 +670,9 @@
   * [Storing User Input](apps-development/recipes/storing-user-input.md)
   * [Registering API endpoints](apps-development/recipes/registering-api-endpoints.md)
 * [Slack Compatibility](apps-development/slack-compatibility.md)
+* [UIKit](apps-development/uikit/README.md)
+  * [UIKit building blocks](apps-development/uikit/uikit-building-blocks.md)
+  * [Slack Compatibility Layer's unsupported properties](apps-development/uikit/slack-compatibility-layers-unsupported-properties.md)
 * [Apps-Engine API Reference](https://rocketchat.github.io/Rocket.Chat.Apps-engine)
 
 ## Rocket.Chat SaaS
