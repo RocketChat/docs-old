@@ -140,7 +140,7 @@ URLs: http://ngrok_public_url/webhooks/rocketchat/webhook
 
 ### Example
 
-Type `@bot_rasa hello` to start a conversation with the Rasa bot ![example](../../.gitbook/assets/rasa_bot_example%20%281%29.png)
+Type `@bot_rasa hello` to start a conversation with the Rasa bot ![example](../../.gitbook/assets/rasa_bot_example%20%281%29%20%281%29.png)
 
 ### Additional Information
 
