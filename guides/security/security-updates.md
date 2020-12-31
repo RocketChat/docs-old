@@ -6,16 +6,40 @@ Do you want to report a security issue yourself? Please have a look at our [Resp
 
 New issues are listed below, at first without details to give administrators and users sufficient time to upgrade. Details to the issue are added in with the next version release, e.g.: fixes introduced in version x.1 will be added when version x.2 is available.
 
+{% hint style="info" %}
+Providing fixes for legacy versions of Rocket.Chat becomes increasingly difficult due to the code differences, which is why we focus on providing fixes for the most recent versions only. Please see our [support policy](https://docs.rocket.chat/getting-support), which outlines our supported versions.
+{% endhint %}
+
 Please make sure to follow new version updates by subscribing to our newsletters or activating the announcement feature for new releases directly in the Rocket.Chat server administration settings. We recommend updating to the newest version as soon as possible to always have the newest security fixes.
 
 **Issues**
 
 \*\*\*\*
 
+{% hint style="warning" %}
+**2020-0007 - Medium Severity issue** fixed at **2020-11-28**  
+Rocket.Chat Server - affects **all,** fixed on **3.9.**  
+\(**Self-XSS**\) An issue with the drag and drop functionality was fixed that - under certain circumstances - could be used as part of possible self-xss attack_._ 
+
+Thanks a lot to Jorge Cardona for reporting this.
+
+CVE-ID: CVE-2020-8292	__
+{% endhint %}
+
+{% hint style="danger" %}
+**2020-0006 - Critical Severity issue** fixed at **2020-12-18**  
+Rocket.Chat Server - affects **1.x, 2.x**, **3.x,** fixed on **3.9.3 / 3.8.4 / 3.7.4 / 2.4.14 / 1.3.5**  
+**\(XSS\)** A vulnerability in the message renderer was fixed that allowed for possible XSS attacks. More details [here](https://rocket.chat/xss-vulnerability-hotfix-available-for-all-affected-versions).
+
+CVE-ID:  __CVE-2020-8288
+{% endhint %}
+
 {% hint style="danger" %}
 **2020-0005 - Critical Severity issue** fixed at **2020-12-05**  
 Rocket.Chat Server - affects **0.x, 1.x, 2.x**, **3.x,** fixed on **3.9.1 / 3.8.3 / 3.7.3 / 2.4.13 / 1.3.4 / 0.74.4**  
-_Details of the security issue will be added later as per the responsible disclosure policy._
+**\(Authentication bypass\)** A SAML vulnerability was fixed that allowed adding custom SAML providers. More details [here](https://rocket.chat/saml-security-hotfix-available/).
+
+CVE-ID: CVE-2020-29594
 {% endhint %}
 
 {% hint style="danger" %}
