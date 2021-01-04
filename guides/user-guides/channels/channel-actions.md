@@ -29,7 +29,7 @@ Here you can see all kinds of information about the current channel. If you admi
 * **Archived**: Tells if a channel is archived, and toggles the archived status of a channel. Nobody can post messages in an archived channel, and channel search will not find that channel.
 * **Password**: Tells whether a channel has a password and let you set the password. If a channel has a password, other users need to enter the password to become a member of the channel.
 
-If a [retention policy](../administrator-guides/retention-policies.md) is active on this channel, a red warning box appears saying when messages or files are deleted.
+If a [retention policy](../../administrator-guides/retention-policies.md) is active on this channel, a red warning box appears saying when messages or files are deleted.
 
 ## Search Messages
 
@@ -106,7 +106,7 @@ This section details a list of all different types of lists specific to channels
 
 ## Streaming
 
-If the feature [Youtube Livestream](../administrator-guides/youtube-broadcasting.md) is enabled, the **Streaming** Tab activates on the channel actions menu.
+If the feature [Youtube Livestream](../../administrator-guides/youtube-broadcasting.md) is enabled, the **Streaming** Tab activates on the channel actions menu.
 
 Through the **Streaming** tab, owners of the channel of server admins can start streaming or add another stream to the channel using a URL.
 
