@@ -72,13 +72,13 @@
 ## Guides
 
 * [User Guides](guides/user-guides/README.md)
-  * [Channels](guides/user-guides/channels/README.md)
-    * [Channel Actions](guides/user-guides/channels/channel-actions.md)
   * [Connect to a Rocket.Chat server](guides/user-guides/connecting-to-a-server.md)
-  * [Multi-users Direct Message](guides/user-guides/direct-messages-between-multiple-users.md)
-  * [End to End Encryption Guide](guides/user-guides/end-to-end-encryption.md)
   * [User Panel](guides/user-guides/user-panel/README.md)
     * [My Account](guides/user-guides/user-panel/managing-your-account.md)
+  * [Channels](guides/user-guides/channels/README.md)
+    * [Channel Actions](guides/user-guides/channels/channel-actions.md)
+  * [Multi-users Direct Message](guides/user-guides/direct-messages-between-multiple-users.md)
+  * [End to End Encryption Guide](guides/user-guides/end-to-end-encryption.md)
   * [Logging into a server](guides/user-guides/login.md)
   * [Message Actions](guides/user-guides/message-actions.md)
   * [Messages](guides/user-guides/messaging.md)
