@@ -35,7 +35,7 @@ Rocket.Chat is very grateful for the following people who have responsibly discl
 * [Kamran Saifullah](https://pk.linkedin.com/in/kamransaifullah786), November/2015.
 * [Sabri Haddouche](https://github.com/pwnsdx), November/2015.
 * [Dennis Brakhane](https://inoio.de), February/2016.
-* [Jeandre Le Roux](https://www.theblazehen.com/stories/about-me/index.html), April/2016.
+* Jeandre Le Roux, April/2016.
 * [Matthias Brun](https://redguard.ch), May/2016.
 * [Michal Marek](https://github.com/ecneladis), May/2016.
 * [Sam Whited](https://github.com/SamWhited), July/2016.
@@ -43,7 +43,7 @@ Rocket.Chat is very grateful for the following people who have responsibly discl
 * [Sachin Wagh\(@tiger\_tigerboy\)](https://secur1tyadvisory.wordpress.com), September/2016
 * [Yury Maryshev, Mikhail Klyuchnikov, Alexandr Shvetsov](https://www.ptsecurity.com), October/2016
 * [Matthew Bryant](https://thehackerblog.com), October/2016
-* [Joe DeMesy](https://badwith.computer), October/2016
+* Joe DeMesy, October/2016
 * [Shubham Shah](https://shubs.io), October/2016
 * [Steeve Barbeau](https://twitter.com/steevebarbeau), October/2017
 * [Johann Helbling](https://mobile.twitter.com/jhelblinghh), August 2019
