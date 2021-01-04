@@ -2,7 +2,7 @@
 
 To get support from us, click **Support**, as shown below:
 
-![](../../../.gitbook/assets/image%20%28115%29%20%282%29%20%281%29.png)
+![](../../../.gitbook/assets/image%20%28115%29%20%282%29%20%282%29%20%281%29.png)
 
 
 

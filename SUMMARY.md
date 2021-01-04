@@ -82,6 +82,7 @@
   * [Logging into a server](guides/user-guides/login.md)
   * [Message Actions](guides/user-guides/message-actions.md)
   * [Messages](guides/user-guides/messaging.md)
+  * [Off-the-record \(OTR\) Messaging Guide](guides/user-guides/off-the-record-otr-messaging-guide.md)
   * [Registering an account](guides/user-guides/registration.md)
   * [Talking to users from another server](guides/user-guides/talking-to-users-from-another-server.md)
   * [Voice and Video Conferencing](guides/user-guides/voice-and-video-conferencing.md)

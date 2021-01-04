@@ -28,7 +28,7 @@ Send an email to [omni@rocket.chat](mailto:omni@rocket.chat) to request an API k
 
 5. Return to the main Rocket.Chat interface. Go to Omnichannel panel settings, as shown below:
 
-![](../../../.gitbook/assets/0%20%288%29%20%285%29.png)
+![](../../../.gitbook/assets/0%20%288%29%20%285%29%20%285%29.png)
 
 
 
