@@ -79,7 +79,6 @@
     * [Channel Actions](guides/user-guides/channels/channel-actions.md)
   * [Multi-users Direct Message](guides/user-guides/direct-messages-between-multiple-users.md)
   * [End to End Encryption Guide](guides/user-guides/end-to-end-encryption.md)
-  * [Logging into a server](guides/user-guides/login.md)
   * [Message Actions](guides/user-guides/message-actions.md)
   * [Messages](guides/user-guides/messaging.md)
   * [Off-the-record \(OTR\) Messaging Guide](guides/user-guides/off-the-record-otr-messaging-guide.md)
