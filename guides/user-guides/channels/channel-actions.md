@@ -20,22 +20,22 @@ Favoriting a channel moves it to a **Favorites** section on the channels list, m
 
 Here you can see all kinds of information about the current channel. If you admin permissions, you can edit this information. These are the channel info options:
 
-* **Channel Name**: The name of the channel, how users see the title and find the channel via search.
+* **Channel Name**: The channel's name, how users see the title and find the channel via search.
 * **Topic**: The topic shows next to the title on the channel header. Great for giving more info about the channel.
 * **Announcement**: Announcements post in a bar under the channel header.
 * **Description**: The description of the channel.
-* **Private**: Tells whether a channel is private, and can set the channel to private or public.
-* **Read Only**: Tells whether a channel is read-only, and toggles the read-only status on the channel. In read-only channels, only people with admin permissions can post messages. Good for announcements channels.
-* **Archived**: Tells if a channel is archived, and toggles the archived status of a channel. Nobody can post messages in an archived channel, and channel search will not find that channel.
-* **Password**: Tells whether a channel has a password and let you set the password. If a channel has a password, other users need to enter the password to become a member of the channel.
+* **Private**: Tells whether a channel is private and can set the channel to private or public.
+* **Read Only**: Tells whether a channel is read-only and toggles the read-only status on the channel. In read-only channels, only people with admin permissions can post messages. Good for announcements channels.
+* **Archived**: Tells if a channel is archived and toggles the archived status of a channel. Nobody can post messages in an archived channel, and channel search will not find that channel.
+* **Password**: Tells whether a channel has a password and let you set the password. If a channel has a password, other users need to enter the password to become a channel's member.
 
-If a [retention policy](../../administrator-guides/retention-policies.md) is active on this channel, a red warning box appears saying when messages or files are deleted.
+If a [retention policy](../../administrator-guides/retention-policies.md) is active on this channel, a red warning box appears stating when messages or files are deleted.
 
 ## Search Messages
 
 Rocket.Chat search supports basic search commands which work like Gmail search.
 
-Rocket.Chat also supports the use of "[regular expressions](https://en.wikipedia.org/wiki/Regular_expression)." Regular expressions provide flexibility and the ability to search chat entries in any language, even ones which are traditionally a challenge like "CJK" languages \(Chinese, Japanese, Korean\).
+Rocket.Chat also supports the use of "[regular expressions](https://en.wikipedia.org/wiki/Regular_expression)." Regular expressions provide flexibility to search chat entries in any language, even the ones traditionally a challenge like "CJK" languages \(Chinese, Japanese, Korean\).
 
 ### Basic Search Commands
 
@@ -47,7 +47,7 @@ You can use these commands before or after entering search terms:
 * `is:pinned` or `has:pin` returns messages that pin in the current channel.
 * `has:url` or `has:link` returns messages that contain a link.
 * `has:location` or `has:map` returns messages that have a location attached.
-* `before:dd/mm/yyyy`, `after:dd/mm/yyyy` and `on:dd/mm/yyyy` return message that were created before, after, or on the provided date.
+* `before:dd/mm/yyyy`, `after:dd/mm/yyyy` and `on:dd/mm/yyyy` return message that was created before, after, or on the provided date.
 
   Dashes `dd-mm-yyyy` or dots `dd.mm.yyyy` can be used instead of slashes. `order:asc`, `order:ascend`, or `order:ascending` sorts messages by ascending timestamp.
 
@@ -93,7 +93,7 @@ These options are on the channel notifications tab:
 * **Mobile**: Controls push notification behavior when using any mobile app.
 * **Email**: Set whether an email sends whenever someone mentions you or posts a message, or disable email notifications.
 * **Unread Room Status**: Control whether the channel on the channel list highlights when there is a new message or mention.
-* **Unread Tray Icon**: Controls whether the tray icon highlights when there are new messages or mentions on the current channel.
+* **Unread Tray Icon**: Controls whether the tray icon highlights new messages or mentions on the current channel.
 
 ## Message list options
 
@@ -102,7 +102,7 @@ This section details a list of all different types of lists specific to channels
 * **Files List**: A list of all the files uploaded to the current channel.
 * **Mentions**: All messages that mentioned you on the current channel.
 * **Starred Messages**: All messages that you have starred in the current channel.
-* **Pinned Messages**: All messages pinned to the current channel.
+* **Pinned Messages**: All messages are pinned to the current channel.
 
 ## Streaming
 
@@ -112,16 +112,16 @@ Through the **Streaming** tab, owners of the channel of server admins can start 
 
 ### Start a stream
 
-_Note: Depending on the settings of the server, you might be only able to link live streams from Youtube. In doubt always ask your server's admin._
+_Note: Depending on the settings of the server, you might be only able to link live streams from Youtube. In doubt ,always ask your server's admin._
 
 1. Press the **Broadcast my Camera** button.
 2. Login with a Google account. Remember that streaming must be activated through your Youtube account. For more information, see [Introduction to live streaming](https://support.google.com/youtube/answer/2474026?hl=en) Google guide\).
 
-To add a different Livestream, get the URL \(must be from Youtube\) for the stream, enter it into the **Livestream source** field and hit save.
+To add a different Livestream, get the URL \(must be from Youtube\) for the stream, enter it into the **Livestream source** field, and hit save.
 
-You can also add a message for whenever the stream is unavailable in the **Livestream not available message** field.
+You can also add a message whenever the stream is unavailable in the **Livestream not available message** field.
 
-To add a stream with no video and only audio, use the **Enable audio only button**.
+To add a stream with no video and only audio, use the **Enable audio-only button**.
 
 ### \(Users\) Start a Live Stream
 
