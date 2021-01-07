@@ -16,7 +16,6 @@
     * [Galaxy](installation/paas-deployments/galaxy.md)
     * [Google Cloud Platform](installation/paas-deployments/google-computer-engine.md)
     * [Google Compute Engine](installation/paas-deployments/google-compute-engine.md)
-    * [Heroku](installation/paas-deployments/heroku.md)
     * [IBM Cloud](installation/paas-deployments/ibm-cloud.md)
     * [IndieHosters](installation/paas-deployments/indiehosters.md)
     * [Jelastic](installation/paas-deployments/jelastic.md)
