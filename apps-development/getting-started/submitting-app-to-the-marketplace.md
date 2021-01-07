@@ -16,7 +16,7 @@ If your app is free, it will go under review. If it's a paid app, you will be ta
 When you submit an App, there is a three-step process that takes place. In the first step, you submit the App to the Marketplace \(explained below\). Secondly, you will receive an email that asks for you to approve or reject the App submission \(more on this later as well\). Finally, after you approve the entry, then our staff will review it and determine whether it is approved or not.
 {% endhint %}
 
-App Submission to Market Place.
+## App Submission to Market Place
 
 
 
