@@ -73,6 +73,8 @@
 
 * [User Guides](guides/user-guides/README.md)
   * [Connect to a Rocket.Chat server](guides/user-guides/connecting-to-a-server.md)
+  * [Registering an account](guides/user-guides/registration.md)
+  * [End to End Encryption Guide](guides/user-guides/end-to-end-encryption.md)
   * [User Panel](guides/user-guides/user-panel/README.md)
     * [My Account](guides/user-guides/user-panel/managing-your-account.md)
   * [Channels](guides/user-guides/channels/README.md)
@@ -81,8 +83,6 @@
   * [Messages](guides/user-guides/messaging/README.md)
     * [Message Actions](guides/user-guides/messaging/message-actions.md)
     * [Off-the-record \(OTR\) Messaging Guide](guides/user-guides/messaging/off-the-record-otr-messaging-guide.md)
-  * [End to End Encryption Guide](guides/user-guides/end-to-end-encryption.md)
-  * [Registering an account](guides/user-guides/registration.md)
   * [Talking to users from another server](guides/user-guides/talking-to-users-from-another-server.md)
   * [Voice and Video Conferencing](guides/user-guides/voice-and-video-conferencing.md)
 * [Administrator Guides](guides/administrator-guides/README.md)
@@ -660,7 +660,10 @@
 
 ## Apps Development
 
-* [Getting Started](apps-development/getting-started.md)
+* [Rocket.Chat App](apps-development/getting-started/README.md)
+  * [Rocket.Chat App Engine CLI](apps-development/getting-started/rocket.chat-app-engine-cli.md)
+  * [Creating an Example App](apps-development/getting-started/creating-an-example-app.md)
+  * [Submitting App to the Marketplace](apps-development/getting-started/submitting-app-to-the-marketplace.md)
 * [Fundamentals](apps-development/fundamentals/README.md)
   * [App Lifecycle](apps-development/fundamentals/app-lifecycle.md)
   * [Event Interfaces](apps-development/fundamentals/event-interfaces.md)
