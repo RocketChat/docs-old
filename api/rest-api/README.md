@@ -368,7 +368,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### PHP
 
-* [rocket-php](https://github.com/alekseykuleshov/rocket-chat)
+* [rocketchat-php](https://github.com/alekseykuleshov/rocket-chat)
 
 ### Python
 
