@@ -12,8 +12,6 @@ Currently the Rocket.Chat servers and Marketplace allow submission of zip files,
 
 ## 
 
-## 
-
 
 
 

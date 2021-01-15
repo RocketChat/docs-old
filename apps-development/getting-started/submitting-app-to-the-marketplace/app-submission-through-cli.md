@@ -10,3 +10,5 @@ To submit your App simply run:
 If your app is free, it will go under review. If it's a paid app, you will be taken to Rocket.Chat  Publish Portal.
 {% endhint %}
 
+
+
