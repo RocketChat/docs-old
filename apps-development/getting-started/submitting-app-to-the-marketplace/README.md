@@ -10,8 +10,6 @@ When you submit an App, there is a three-step process that takes place. In the f
 
 Currently the Rocket.Chat servers and Marketplace allow submission of zip files, these files can be created by running `rc-apps package` which packages your app and creates the zip file under `dist` folder.
 
-## 
-
 
 
 
