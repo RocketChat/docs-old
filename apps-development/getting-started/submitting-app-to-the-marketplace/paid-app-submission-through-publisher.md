@@ -58,9 +58,5 @@ Then  you get notified to review your app,  as shown below:
 
 ![](../../../.gitbook/assets/image%20%28192%29.png)
 
-You log in to your cloud account and approve it. After your approval, rocket.chat reviews it, and you will be notified via email that your app is now listed. 
-
-
-
-
+You log in to your cloud account and approve it. After your approval, rocket.chat reviews it, and you will be notified via email that your app is now listed.
 
