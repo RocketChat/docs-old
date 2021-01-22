@@ -37,20 +37,20 @@ On the Twilio console, go to “Programmable SMS Dashboard” and copy the “AC
 
 ## Step 6
 
-Go to Rocket.Chat Server -&gt; Settings -&gt; SMS -&gt; Set to “Enabled” and select “Twilio” as service  
+Go to Rocket.Chat Server -&gt; Administration -&gt; Settings-&gt; SMS -&gt; Set to “Enabled” and select “Twilio” as service  
 
 
-![](https://lh6.googleusercontent.com/CFafwWBXuHFDLUFiXmo5EtiExJjZMo_KH6qnHs_k61zWJasoEsB4GZqpuf5QCwdQzxTeU1ytz0KM8eY5aV86_guoCTjBjoS4VjtZKT-TpHdK0JcuURvgPu35rHi0kIXHQ9uAc2ZC)
+![](../../../.gitbook/assets/image%20%28207%29.png)
 
 ## Step 7
 
-Go to Rocket.Chat Server -&gt; Settings -&gt; SMS -&gt; Section “Twilio” and add the “Account SID” and Auth Token you had copied on Step 5.After that, the Livechat+Whatsapp integration will be working properly in both directions  
+Go to Rocket.Chat Server -&gt; Administration -&gt; Settings -&gt; SMS -&gt; Section “Twilio” and add the “Account SID” and Auth Token you had copied on Step 5. After that, the Livechat+Whatsapp integration will be working properly in both directions.  
   
 ****
 
 ## Step 8 \(For SaaS customers only\)
 
-For Cloud customers, the file sharing \(images, audio, videos etc\) between LiveChat and Whatsapp might not work properly. 
+For Cloud customers, the file-sharing \(images, audio, videos, etc\) between LiveChat and Whatsapp might not work properly. 
 
 To fix this issue go to Settings -&gt; File Upload -&gt; Amazon S3 -&gt; Enable the “Proxy Uploads” setting.  
 
