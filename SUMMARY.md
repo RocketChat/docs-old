@@ -211,6 +211,7 @@
     * [Units](guides/omnichannel-guides/omnichannel-manger-guides/units.md)
     * [Tags](guides/omnichannel-guides/omnichannel-manger-guides/tags.md)
     * [Priorities](guides/omnichannel-guides/omnichannel-manger-guides/priority-queue.md)
+  * [Omnichannel Agent's Guides](guides/omnichannel-guides/omnichannel-agents-guides.md)
 * [Mobile Guides](guides/mobile-guides/README.md)
   * [Push Notifications](guides/mobile-guides/push-notifications-1/README.md)
     * [Push Notifications Admin Guide](guides/mobile-guides/push-notifications-1/push-notifications-admin-guide.md)
