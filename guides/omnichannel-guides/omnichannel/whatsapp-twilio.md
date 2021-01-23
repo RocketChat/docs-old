@@ -40,7 +40,7 @@ On the Twilio console, go to “Programmable SMS Dashboard” and copy the “AC
 Go to Rocket.Chat Server -&gt; Administration -&gt; Settings-&gt; SMS -&gt; Set to “Enabled” and select “Twilio” as service  
 
 
-![](../../../.gitbook/assets/image%20%28207%29.png)
+![](../../../.gitbook/assets/image%20%28210%29.png)
 
 ## Step 7
 
