@@ -6,13 +6,13 @@ description: Migrate your existing mmap based MongoDB instance into a wiredTiger
 
 Starting with the major release 4.X.Y of Rocket.Chat, MongoDB has to be setup with a _WiredTiger_ storage engine rather than the deprecated _mmapv1_ one. This is mandatory, if you plan to upgrade to one of the future Rocket.Chat versions and has to be prepared before initiating the application upgrade.
 
-If you are using a Docker setup, [click here to find an alternative article](https://docs.rocket.chat/installation/docker-containers/mongodb-mmap-to-wiredtiger-migration) in our docs about migration. 
+If you are using a Docker setup, [click here to find an alternative article](https://docs.rocket.chat/installation/docker-containers/mongodb-mmap-to-wiredtiger-migration) in our docs about migration.
 
-### Requirements
+## Requirements
 
 * MongoDB instance with _mmap_ storage engine
 
-### Quick usage
+## Quick usage
 
 1. Stop running Rocket.Chat
 2. Create a database dump from the _mmapv1_ MongoDB \(also to have a backup in place\)
@@ -20,39 +20,39 @@ If you are using a Docker setup, [click here to find an alternative article](htt
 4. Import the dump into the new _wiredTiger_ MongoDB
 5. Start Rocket.Chat
 
-### Detailed usage
+## Detailed usage
 
 1. Stop Rocket.Chat service to ensure a consistent database dump:
 
-   ```shell
+   ```text
    systemctl stop rocketchat
    ```
 
 2. Create a database dump from the current _mmapv1_ MongoDB:
 
-   ```shell
+   ```text
    mongodump --archive=~/mmapdump.gz --gzip
    ```
 
 3. Stop MongoDB service:
 
-   ```shell
+   ```text
    systemctl stop mongod
    ```
 
 4. Delete the _mmapv1_ based data files of your existing MongoDB:
 
-   ```shell
+   ```text
    rm -rf /var/lib/mongodb/*
    ```
 
 5. Adjust MongoDB configuration to make use of _wiredTiger_ storage engine:
 
-   ```shell
+   ```text
    vi /etc/mongod.conf
    ```
 
-   ```
+   ```text
    [...]
    engine: wiredTiger
    [...]
@@ -60,24 +60,25 @@ If you are using a Docker setup, [click here to find an alternative article](htt
 
 6. Start MongoDB service again:
 
-   ```shell
+   ```text
    systemctl start mongod
    ```
 
 7. Import dump back into \(_wiredTiger_\) MongoDB:
 
-   ```shell
+   ```text
    mongorestore --drop --archive=~/mmapdump.gz --gzip --noIndexRestore
    ```
 
 8. Repair databases and rebuild indices:
 
-   ```shell
+   ```text
    mongo --eval 'db.repairDatabase()'
    ```
 
 9. Start Rocket.Chat service:
 
-   ```shell
+   ```text
    systemctl start rocketchat
    ```
+
