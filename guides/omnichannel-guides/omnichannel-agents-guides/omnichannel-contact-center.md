@@ -9,7 +9,7 @@ description: >-
 
 Click **Contact Center** to access Omnichannel Contact Center settings, as shown below:
 
-![](../../../.gitbook/assets/image%20%28217%29.png)
+![](../../../.gitbook/assets/image%20%28219%29.png)
 
 {% hint style="info" %}
 It allows you to pull up visitor information and chats for purposes like set tags of an old conversation, send broadcast messages, etc.
@@ -33,7 +33,7 @@ You can search a contact using their Name, phone and, email address.
 
 Click on a contact to view its information .and edit it, as shown below:
 
-![](../../../.gitbook/assets/image%20%28218%29.png)
+![](../../../.gitbook/assets/image%20%28220%29.png)
 
 ### Create a new Contact
 
@@ -51,7 +51,7 @@ To create a new contact:
 
 It appears in the search, as shown below:
 
-![](../../../.gitbook/assets/image%20%28219%29.png)
+![](../../../.gitbook/assets/image%20%28221%29.png)
 
 ## Chats
 
@@ -59,17 +59,21 @@ All the chats you have taken appear under Chats,  as shown below:
 
 ![](../../../.gitbook/assets/image%20%28190%29.png)
 
+{% hint style="info" %}
+No open chat appears in the Contact Center. A chat appears in the Contact Center as soon as it is closed because Contact Center only deals with the archived chats.   
+{% endhint %}
+
 You can click to open a chat to view it: 
 
 ![](../../../.gitbook/assets/image%20%28216%29.png)
 
 ![](../../../.gitbook/assets/image%20%28182%29.png)
 
-Go to the visitor info and edit its details as shown below:
+Go to the **Visitor Info** and click **Edit** your chat's details as shown below:
 
+![](../../../.gitbook/assets/image%20%28218%29.png)
 
+You can edit any details you want here. 
 
-{% hint style="info" %}
-No open chat appears in the Contact Center. A chat appears in the Contact Center as soon as it is closed because Contact Center only deals with the archived chats.         
-{% endhint %}
+![](../../../.gitbook/assets/image%20%28217%29.png)
 
