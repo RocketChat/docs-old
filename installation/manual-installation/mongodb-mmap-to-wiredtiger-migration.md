@@ -24,63 +24,60 @@ If you are using a Docker setup, [click here to find an alternative article](htt
 
 1. Stop Rocket.Chat service to ensure a consistent database dump:
 
-   ```text
-    systemctl stop rocketchat
+   ```shell
+   systemctl stop rocketchat
    ```
 
 2. Create a database dump from the current _mmapv1_ MongoDB:
 
-   ```text
-    mongodump --archive=~/mmapdump.gz --gzip
+   ```shell
+   mongodump --archive=~/mmapdump.gz --gzip
    ```
 
 3. Stop MongoDB service:
 
-   ```text
-    systemctl stop mongod
+   ```shell
+   systemctl stop mongod
    ```
 
 4. Delete the _mmapv1_ based data files of your existing MongoDB:
 
-```text
-    rm -rf /var/lib/mongodb/*
-```
-
-1. Adjust MongoDB configuration to make use of _wiredTiger_ storage engine:
-
-```text
-    vi /etc/mongod.conf
-```
-
-```text
-    [...]
-    engine: wiredTiger
-    [...]
-```
-
-1. Start MongoDB service again:
-
-   ```text
-    systemctl start mongod
+   ```shell
+   rm -rf /var/lib/mongodb/*
    ```
 
-2. Import dump back into \(_wiredTiger_\) MongoDB:
+5. Adjust MongoDB configuration to make use of _wiredTiger_ storage engine:
 
-   ```text
-    mongorestore --drop --archive=~/mmapdump.gz --gzip --noIndexRestore
+   ```shell
+   vi /etc/mongod.conf
    ```
 
-3. Repair databases and rebuild indices:
-
-   ```text
-    mongo --eval 'db.repairDatabase()'
+   ```
+   [...]
+   engine: wiredTiger
+   [...]
    ```
 
-4. Start Rocket.Chat service:
+6. Start MongoDB service again:
 
-   ```text
-    systemctl start rocketchat
+   ```shell
+   systemctl start mongod
    ```
 
+7. Import dump back into \(_wiredTiger_\) MongoDB:
 
+   ```shell
+   mongorestore --drop --archive=~/mmapdump.gz --gzip --noIndexRestore
+   ```
 
+8. Repair databases and rebuild indices:
+
+   ```shell
+   mongo --eval 'db.repairDatabase()'
+   ```
+
+9. Start Rocket.Chat service:
+
+   ```shell
+   systemctl start rocketchat
+   ```
