@@ -52,6 +52,7 @@
     * [Setting up Process Managers and Init Systems](installation/manual-installation/pm2-systemd-upstart.md)
     * [Configuring SSL Reverse Proxy](installation/manual-installation/configuring-ssl-reverse-proxy.md)
     * [Configure a replica set for MongoDB](installation/manual-installation/mongo-replicas.md)
+    * [MongoDB mmap to wiredTiger migration](installation/manual-installation/mongodb-mmap-to-wiredtiger-migration.md)
     * [Supported Mongo Versions](installation/manual-installation/mongo-versions.md)
   * [Docker Containers](installation/docker-containers/README.md)
     * [Available Images](installation/docker-containers/available-images.md)
