@@ -1,8 +1,8 @@
 ---
 description: >-
-  The contact center servers as a directory for agents to access
-  contacts/visitor's information and achieved conversation (that they served in
-  the past) at any moment.
+  The contact center serves as a directory for omnichannel agents to access
+  contacts/visitor's information and archived conversation (that they have
+  served in the past) at any moment.
 ---
 
 # Omnichannel Contact Center
@@ -21,7 +21,7 @@ Once you click on the **Contact Center** button following screen appears:
 
 ## Contacts
 
-Under contacts, you can see all the contacts you have been serving as a livechat agent.
+Under contacts, you can see all the contacts you have been serving as an omnichannel agent.
 
 ![](../../../.gitbook/assets/image%20%28214%29.png)
 
@@ -31,7 +31,7 @@ You can search a contact using their Name, phone and, email address.
 
 ### View Contact Information
 
-Click on a contact to view its information .and edit it, as shown below:
+Click on a contact to view its information and edit it, as shown below:
 
 ![](../../../.gitbook/assets/image%20%28220%29.png)
 
@@ -49,18 +49,18 @@ To create a new contact:
 
 
 
-It appears in the search, as shown below:
+It appears in the search, as it shows:
 
 ![](../../../.gitbook/assets/image%20%28221%29.png)
 
 ## Chats
 
-All the chats you have taken appear under Chats,  as shown below:
+All the chats you have taken appear under Chats, as you see below:
 
 ![](../../../.gitbook/assets/image%20%28190%29.png)
 
 {% hint style="info" %}
-No open chat appears in the Contact Center. A chat appears in the Contact Center as soon as it is closed because Contact Center only deals with the archived chats.   
+No open chat appears in the **Contact Center**. A chat appears in the **Contact** **Center** as soon as it is closed because **Contact Center** only deals with the archived chats.   
 {% endhint %}
 
 You can click to open a chat to view it: 
