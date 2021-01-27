@@ -14,7 +14,77 @@ Please make sure to follow new version updates by subscribing to our newsletters
 
 **Issues**
 
-\*\*\*\*
+{% hint style="warning" %}
+**2020-0015 - Medium Severity issue** fixed at **2020-01-26.**
+
+Rocket.Chat Server / LiveChat - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
+
+**\(Authentication\)** An issue with the Live Chat could potentially allow a user without the proper permission to modify a setting.
+{% endhint %}
+
+{% hint style="danger" %}
+**2020-0014 - Critical Severity issue** fixed at **2020-01-26.**
+
+Rocket.Chat Server / LiveChat - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
+
+**\(Authentication\)** An issue with the Live Chat accepting invalid parameters  could potentially allow unauthenticated access to messages and user tokens.
+{% endhint %}
+
+{% hint style="danger" %}
+**2020-0013 - High Severity issue** fixed at **2020-01-26.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
+
+**\(XSS\)** An issue with the message parser could potentially lead to XSS.
+{% endhint %}
+
+{% hint style="warning" %}
+**2020-0013 - Medium Severity issue** fixed at **2020-01-26.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
+
+**\(XSS\)** An issue with the rendering of the user profile could potentially lead to XSS.
+{% endhint %}
+
+{% hint style="info" %}
+**2020-0012 - Low Severity issue** fixed at **2020-01-26.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
+
+**\(System Information Disclosure\)** A method was removed, that could be called by unauthenticated users to potentially gather information about the target host.
+{% endhint %}
+
+{% hint style="info" %}
+**2020-0011 - Low Severity issue** fixed at **2020-01-26.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
+
+**\(User enumeration\)** A method could be called by unauthenticated users, potentially leading to user enumeration.
+{% endhint %}
+
+{% hint style="danger" %}
+**2020-0010 - High Severity issue** fixed at **2020-01-26.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
+
+**\(Authentication\)** An issue with invite-tokens could allow unauthenticated users to guess a valid invite token.
+{% endhint %}
+
+{% hint style="warning" %}
+**2020-0009 - Medium Severity issue** fixed at **2020-01-26**
+
+Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
+
+**\(Information Disclosure\)** An issue with a real time method could lead to leakage of message IDs.
+{% endhint %}
+
+{% hint style="danger" %}
+**2020-0008 - High Severity issue** fixed at **2020-01-26**
+
+Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
+
+**\(Information Disclosure\)** An issue with the return of a real time method could lead to unauthorized leaks of message content.
+{% endhint %}
 
 {% hint style="warning" %}
 **2020-0007 - Medium Severity issue** fixed at **2020-11-28**  
