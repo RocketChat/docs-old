@@ -13,7 +13,7 @@
 | `confirmRelinquish` | `true` | Optional Default: `false` | Allows user to be deactivated even if it is the last owner of a room. |    
 
 **Note:**    
-If `activeStatus=false` & `confirmRelinquish=true` and the user is the last remaining owner of a room, a new owner will be chosen randomly.
+If `activeStatus=false` & `confirmRelinquish=true` and the user is the last remaining owner of a room, the oldest member of that room will be chosen as the new owner.
 
 ## Example call
 
@@ -22,7 +22,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type:application/json" \
      http://localhost:3000/api/v1/users.setActiveStatus \
-     -d '{"activeStatus": false, "userId": "5HmCfpoB7jp2uibTC", "confirmRelinquish": true}'
+     -d '{"activeStatus": false, "userId": "5HmCfpoB7jp2uibTC"}'
 ```
 
 ## Example Result
