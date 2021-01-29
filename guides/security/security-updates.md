@@ -15,7 +15,7 @@ Please make sure to follow new version updates by subscribing to our newsletters
 **Issues**
 
 {% hint style="warning" %}
-**2020-0015 - Medium Severity issue** fixed at **2020-01-26.**
+**2020-0015 - Medium Severity issue** fixed at **2021-01-26.**
 
 Rocket.Chat Server / LiveChat - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
@@ -23,7 +23,7 @@ Rocket.Chat Server / LiveChat - affects **all,** fixed on **3.11, 3.10.5, 3.9.7,
 {% endhint %}
 
 {% hint style="danger" %}
-**2020-0014 - Critical Severity issue** fixed at **2020-01-26.**
+**2020-0014 - Critical Severity issue** fixed at **2021-01-26.**
 
 Rocket.Chat Server / LiveChat - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
@@ -31,7 +31,7 @@ Rocket.Chat Server / LiveChat - affects **all,** fixed on **3.11, 3.10.5, 3.9.7,
 {% endhint %}
 
 {% hint style="danger" %}
-**2020-0013 - High Severity issue** fixed at **2020-01-26.**
+**2020-0013 - High Severity issue** fixed at **2021-01-26.**
 
 Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
@@ -39,7 +39,7 @@ Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 {% endhint %}
 
 {% hint style="warning" %}
-**2020-0013 - Medium Severity issue** fixed at **2020-01-26.**
+**2020-0013 - Medium Severity issue** fixed at **2021-01-26.**
 
 Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
@@ -47,7 +47,7 @@ Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 {% endhint %}
 
 {% hint style="info" %}
-**2020-0012 - Low Severity issue** fixed at **2020-01-26.**
+**2020-0012 - Low Severity issue** fixed at **2021-01-26.**
 
 Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
@@ -55,7 +55,7 @@ Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 {% endhint %}
 
 {% hint style="info" %}
-**2020-0011 - Low Severity issue** fixed at **2020-01-26.**
+**2020-0011 - Low Severity issue** fixed at **2021-01-26.**
 
 Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
@@ -63,7 +63,7 @@ Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 {% endhint %}
 
 {% hint style="danger" %}
-**2020-0010 - High Severity issue** fixed at **2020-01-26.**
+**2020-0010 - High Severity issue** fixed at **2021-01-26.**
 
 Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
@@ -71,7 +71,7 @@ Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 {% endhint %}
 
 {% hint style="warning" %}
-**2020-0009 - Medium Severity issue** fixed at **2020-01-26**
+**2020-0009 - Medium Severity issue** fixed at **2021-01-26**
 
 Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
@@ -79,7 +79,7 @@ Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 {% endhint %}
 
 {% hint style="danger" %}
-**2020-0008 - High Severity issue** fixed at **2020-01-26**
+**2020-0008 - High Severity issue** fixed at **2021-01-26**
 
 Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
