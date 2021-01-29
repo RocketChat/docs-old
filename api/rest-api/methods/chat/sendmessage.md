@@ -4,7 +4,8 @@ The difference between `chat.postMessage` and `chat.sendMessage` is that `chat.s
 
 ## IMPORTANT
 
-You only can send `alias` and `avatar` properties if your user has the `bot` role. We implemented this rule to avoid users to impersonate other users.
+You can only send `alias` and `avatar` properties if your user has the `message-impersonate` permission. We implemented this rule to avoid users to impersonate other users.
+By default, only the `bot` role has this permission, but that can be changed in `admin/permissions`.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
