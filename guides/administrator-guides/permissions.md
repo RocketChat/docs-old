@@ -88,6 +88,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | manage-sounds | Permission to manage sounds. Accessible from Administration -&gt; Custom Sounds. |
 | mention-all | Permission to mention everyone in a channel. |
 | mention-here | Permission to notify active users in a channel. |
+| message-impersonate | Permission to impersonate other users using message alias. Accesisble from Administration -&gt; Permissions. |
 | mute-user | Permission to mute other users in the same channel. |
 | pin-message | Permission to pin a message in a channel. |
 | post-readonly | Permission to post messages on read only channels. |
