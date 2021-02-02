@@ -1,7 +1,7 @@
 ---
 description: >-
-  You can receive emails from within your Rocket.Chat, on an email address your
-  administration has configured inside Rocket.Chat.
+  You can receive emails inside your Rocket.Chat from your contacts, on an email
+  address your administration has configured within Rocket.Chat.
 ---
 
 # Email Inbox \(Email as a Channel\)
@@ -12,11 +12,11 @@ As soon as your contact sends an email to the registered email address, it will 
 
 ![](../../../.gitbook/assets/image%20%28222%29.png)
 
-Click **Take it!** to take it off of the **Queued Chats** and be able to reply it:
+Click **Take it!** to take it off of the **Queued Chats** and be able to reply to it:
 
 ![](../../../.gitbook/assets/image%20%28223%29.png)
 
- As soon as you take it it will appear in **Chats in Progress** and you can click **Reply via Email** to reply it. 
+ As soon as you take it, it will appear in **Chats in Progress** and, you can click **Reply via Email** to reply to it. 
 
 ![](../../../.gitbook/assets/image%20%28227%29.png)
 
