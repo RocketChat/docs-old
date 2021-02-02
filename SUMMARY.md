@@ -276,7 +276,15 @@
     * [Confluence Server](guides/rocket-chat-apps/atlassian/confluence-server-integration.md)
     * [Jira Server](guides/rocket-chat-apps/atlassian/jira-server-integration.md)
   * [Zoom](guides/rocket-chat-apps/zoom.md)
-* [Brand and Visual Guidelines](guides/brand-and-visual-guidelines.md)
+* [Brand and Visual Guidelines](guides/brand-and-visual-guidelines/README.md)
+  * [Logo](guides/brand-and-visual-guidelines/logo.md)
+  * [Typography](guides/brand-and-visual-guidelines/typography.md)
+  * [Colors](guides/brand-and-visual-guidelines/colors.md)
+  * [Patterns](guides/brand-and-visual-guidelines/patterns.md)
+  * [Iconography](guides/brand-and-visual-guidelines/iconography.md)
+  * [Photos](guides/brand-and-visual-guidelines/photos.md)
+  * [Compositionsed](guides/brand-and-visual-guidelines/compositionsed.md)
+  * [Brand Usage Examples](guides/brand-and-visual-guidelines/brand-usage-examples.md)
 
 ## API
 
