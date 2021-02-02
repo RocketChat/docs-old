@@ -216,6 +216,7 @@
     * [Omnichannel Contact Center](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-contact-center.md)
     * [Omnichannel Chats](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chats.md)
     * [Omnichannel Queue](guides/omnichannel-guides/omnichannel-agents-guides/untitled.md)
+    * [Email Inbox \(Email as a Channel\)](guides/omnichannel-guides/omnichannel-agents-guides/email-inbox-email-as-a-channel.md)
 * [Mobile Guides](guides/mobile-guides/README.md)
   * [Push Notifications](guides/mobile-guides/push-notifications-1/README.md)
     * [Push Notifications Admin Guide](guides/mobile-guides/push-notifications-1/push-notifications-admin-guide.md)
