@@ -4,7 +4,7 @@
 
 After you log in and wish to start taking omnichannel chats, you can make yourself **Available** as an omnichannel agent by clicking the **Chat** button, as shown below:
 
-![](../../../.gitbook/assets/image%20%28231%29.png)
+![](../../../.gitbook/assets/image%20%28236%29.png)
 
 You can now see the omnichannel chats queue and are available to take the chats:
 
