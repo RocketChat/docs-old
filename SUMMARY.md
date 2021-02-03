@@ -194,6 +194,7 @@
     * [Queue Types](guides/omnichannel-guides/omnichannel/livechat-queues.md)
     * [WhatsApp Integration / Twilio](guides/omnichannel-guides/omnichannel/whatsapp-twilio.md)
     * [Canned responses](guides/omnichannel-guides/omnichannel/canned-responses.md)
+    * [Omnichannel Email Inbox Account Configuration](guides/omnichannel-guides/omnichannel/omnichannel-email-inbox-account-configuration.md)
   * [Omnichannel Manager's Guides](guides/omnichannel-guides/omnichannel-manger-guides/README.md)
     * [Current Chats](guides/omnichannel-guides/omnichannel-manger-guides/current-chats.md)
     * [Analytics](guides/omnichannel-guides/omnichannel-manger-guides/analytics.md)
