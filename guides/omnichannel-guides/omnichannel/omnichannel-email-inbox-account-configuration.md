@@ -24,11 +24,11 @@ Enter the following details:
 
 1. Add **Name** of the email inbox
 2. Specify the **Email** address
-3. Assign it to a **Department** 
+3. Assign it to a **Department;** it is optional 
 4. Configure SMTP server
-5. Toggle switch **Connect with SSL/TLS**
+5. Toggle switch **Connect with SSL/TLS;** it is optional 
 6.  Configure IMAP server and
-7. Toggle switch **Connect with SSL/TLS** for IMAP as well
+7. Toggle switch **Connect with SSL/TLS** for IMAP**;** it is optional 
 8. Hit **Save**
 
 ![](../../../.gitbook/assets/image%20%28240%29.png)
