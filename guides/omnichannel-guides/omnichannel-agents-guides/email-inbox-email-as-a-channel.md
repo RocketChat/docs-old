@@ -46,6 +46,10 @@ They are invited to the channel,  as shown below:
 
 ![](../../../.gitbook/assets/image%20%28244%29.png)
 
+{% hint style="info" %}
+As soon as the fellow omnichannel agent is invited to an email inbox, they are all able to see all the old conversation that has happened before they arrival to that email inbox.
+{% endhint %}
+
 And you can conversate with them internally on the same channel. 
 
 ![](../../../.gitbook/assets/image%20%28246%29.png)
