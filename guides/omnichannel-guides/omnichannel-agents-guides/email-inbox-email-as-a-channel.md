@@ -50,7 +50,11 @@ And you can conversate with them internally on the same channel.
 
 ![](../../../.gitbook/assets/image%20%28246%29.png)
 
+![](../../../.gitbook/assets/image%20%28247%29.png)
+
 {% hint style="info" %}
 As stated above, to talk to your contact, you need to click **Reply via Email**. Every message sent without clicking the button will remain internal.
 {% endhint %}
+
+
 
