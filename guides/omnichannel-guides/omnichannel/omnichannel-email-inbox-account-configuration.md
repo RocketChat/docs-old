@@ -31,7 +31,7 @@ Enter the following details:
 
 Your email inbox is set up and, your agents can receive emails within Rocket.Chat now, as shown below:
 
-![](../../../.gitbook/assets/image%20%28253%29.png)
+![](../../../.gitbook/assets/image%20%28255%29.png)
 
  
 
