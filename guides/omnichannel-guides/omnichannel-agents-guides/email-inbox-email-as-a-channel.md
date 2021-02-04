@@ -21,7 +21,7 @@ Click **Take it!** to take it off of the **Queued Chats** and be able to reply t
 ![](../../../.gitbook/assets/image%20%28227%29.png)
 
 {% hint style="info" %}
-Note that if you type without clicking **Reply via Email**, your contact will **NOT** receive your reply at all.
+Note that if you type without clicking **Reply via Email**, your contact will **NOT** receive your reply at all. 
 {% endhint %}
 
 Type your message and hit send. 
@@ -35,4 +35,22 @@ It appears on your Rocket.Chat interface as shown below:
 Your contact receives the message in email instantly.
 
 ![](../../../.gitbook/assets/image%20%28225%29.png)
+
+## Invite a fellow agent to an email inbox
+
+Suppose you get an email and you need the assistance of your fellow agent on it; you can invite them to this inbox using `/intvite @username`
+
+![](../../../.gitbook/assets/image%20%28245%29.png)
+
+They are invited to the channel,  as shown below:
+
+![](../../../.gitbook/assets/image%20%28244%29.png)
+
+And you can conversate with them internally on the same channel. 
+
+![](../../../.gitbook/assets/image%20%28246%29.png)
+
+{% hint style="info" %}
+As stated above, to talk to your contact, you need to click **Reply via Email**. Every message sent without clicking the button will remain internal.
+{% endhint %}
 
