@@ -1,7 +1,3 @@
----
-description: (Core Feature)
----
-
 # Omnichannel Email Inbox Account Configuration
 
 As an omnichannel administrator, you can configure and manage omnichannel email inboxes or email accounts for the email channels.
