@@ -1,6 +1,6 @@
 # Omnichannel Agent's Guides
 
-Being a livechat agent, you can log in to the server using your Id and password and land on the home screen, as shown below:
+Being an omnichannel agent, you can log in to the server using your Id and password and land on the home screen, as shown below:
 
 ![](../../../.gitbook/assets/image%20%28208%29.png)
 
