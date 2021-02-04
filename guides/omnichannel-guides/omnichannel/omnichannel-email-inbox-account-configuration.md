@@ -18,7 +18,7 @@ To set up a new email inbox:
 
 3. Click **+ New Email Inbox**:
 
-![](../../../.gitbook/assets/image%20%28238%29.png)
+![](../../../.gitbook/assets/image%20%28252%29.png)
 
 Enter the following details:
 
@@ -35,7 +35,7 @@ Enter the following details:
 
 Your email inbox is set up and, your agents can receive emails within Rocket.Chat now, as shown below:
 
-![](../../../.gitbook/assets/image%20%28237%29.png)
+![](../../../.gitbook/assets/image%20%28253%29.png)
 
  
 
