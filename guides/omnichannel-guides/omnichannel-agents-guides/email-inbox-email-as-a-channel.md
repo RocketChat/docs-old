@@ -50,11 +50,26 @@ And you can conversate with them internally on the same channel.
 
 ![](../../../.gitbook/assets/image%20%28246%29.png)
 
-![](../../../.gitbook/assets/image%20%28247%29.png)
+![](../../../.gitbook/assets/image%20%28248%29.png)
 
 {% hint style="info" %}
-As stated above, to talk to your contact, you need to click **Reply via Email**. Every message sent without clicking the button will remain internal.
+As stated above, to talk to your contact, you need to click **Reply via Email**. Every message sent without clicking the button remains internal.
 {% endhint %}
 
+## Sending an Attachment
 
+To send an attachment:
+
+1. The agent first needs to upload the file in the channel, as shown below:
+
+![](../../../.gitbook/assets/image%20%28249%29.png)
+
+2. Click **Send via Email as attachment**
+
+![](../../../.gitbook/assets/image%20%28247%29.png)
+
+  
+****It appears in the email of your omnichannel contact, as shown below:
+
+![](../../../.gitbook/assets/image%20%28251%29.png)
 
