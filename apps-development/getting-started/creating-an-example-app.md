@@ -47,7 +47,7 @@ Now let's add some functionality to it
 
 #### Adding a Slashcommand
 
-A Slashcommand is a way to call the app installed in Rocket.Chat. You app can have multiple slashcommands and subcommands. In our example, we will add the `liftoff` slashcommand and it will be called like this by the user inside the chat:
+A Slashcommand is a way to call the app installed in Rocket.Chat. Your app can have multiple slashcommands and subcommands. In our example, we will add the `liftoff` slashcommand and it will be called like this by the user inside the chat:
 
 ```text
 /liftoff
