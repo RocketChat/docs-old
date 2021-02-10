@@ -7,11 +7,3 @@ description: >-
 
 # BigBlueButton \(BBB\) Admin Guide
 
-BigBlueButton offers the core features one would expect from a web conferencing system, including
-
-* real-time sharing of audio, video, screen
-* public/private chat
-* Upload of PDF and Microsoft Office documents
-* Interactive whiteboard
-* Integration with phone systems
-
