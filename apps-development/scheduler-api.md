@@ -104,7 +104,7 @@ To stop a job, all you have to do is pass the id of the job you want to stop
 
 It will stop the running job \(if any\).
 
-### Canceling all jobs from the all
+### Canceling all jobs from the app
 
 To stop all the current running jobs from the app:
 
