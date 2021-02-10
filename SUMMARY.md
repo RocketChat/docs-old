@@ -185,7 +185,7 @@
   * [Video Conferencing](guides/administrator-guides/setting-up-video-conferencing/README.md)
     * [BigBlueButton \(BBB\) Admin Guide](guides/administrator-guides/setting-up-video-conferencing/big-blue-button-bbb-admin-guide.md)
     * [Jitsi Meet Admin Guide](guides/administrator-guides/setting-up-video-conferencing/jitsi-meet-admin-guide.md)
-    * [Rocket.Chat Admin Guide](guides/administrator-guides/setting-up-video-conferencing/rocket.chat-admin-guide.md)
+    * [Rocket.Chat Meet Admin Guide](guides/administrator-guides/setting-up-video-conferencing/rocket.chat-admin-guide.md)
   * [Custom sounds](guides/administrator-guides/custom-sounds.md)
   * [Restoring an Admin User](guides/administrator-guides/restoring-an-admin.md)
   * [Permissions](guides/administrator-guides/permissions.md)

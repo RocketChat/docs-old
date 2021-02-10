@@ -1,4 +1,4 @@
-# Rocket.Chat Admin Guide
+# Rocket.Chat Meet Admin Guide
 
 ## Rocket.Chat Meet \(Powered by WebRTC\)
 
