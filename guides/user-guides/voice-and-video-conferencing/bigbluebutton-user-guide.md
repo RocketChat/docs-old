@@ -5,7 +5,7 @@ description: >-
   management systems.
 ---
 
-# BigBlueButton \(BBB\) Admin Guide
+# BigBlueButton User Guide
 
 BigBlueButton offers the core features one would expect from a web conferencing system, including
 
