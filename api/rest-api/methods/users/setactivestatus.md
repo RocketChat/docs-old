@@ -10,9 +10,9 @@
 | :--- | :--- | :--- | :--- |
 | `activeStatus` | `true` | Required | The value of the active status. |
 | `userId` | `5HmCfpoB7jp2uibTC` | Required | The user's id to be changed. |
-| `confirmRelinquish` | `true` | Optional Default: `false` | Allows user to be deactivated even if it is the last owner of a room. |    
+| `confirmRelinquish` | `true` | Optional Default: `false` | Allows user to be deactivated even if it is the last owner of a room. |
 
-**Note:**    
+**Note:**  
 If `activeStatus=false` & `confirmRelinquish=true` and the user is the last remaining owner of a room, the oldest member of that room will be chosen as the new owner.
 
 ## Example call
@@ -43,3 +43,4 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 | :--- | :--- |
 | 3.7.0 | Added `confirmRelinquish` to the payload. |
 | 0.75.0 | Added. |
+

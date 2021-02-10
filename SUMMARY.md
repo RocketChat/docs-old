@@ -690,6 +690,7 @@
   * [Storing User Input](apps-development/recipes/storing-user-input.md)
   * [Registering API endpoints](apps-development/recipes/registering-api-endpoints.md)
 * [Slack Compatibility](apps-development/slack-compatibility.md)
+* [Scheduler API](apps-development/scheduler-api.md)
 * [Permission System](apps-development/permission-system.md)
 * [UIKit](apps-development/uikit/README.md)
   * [UIKit building blocks](apps-development/uikit/uikit-building-blocks.md)

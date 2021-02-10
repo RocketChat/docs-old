@@ -62,7 +62,7 @@ The Message Auditing Panel returns all messages that match the search values def
 
 Note that the auditor does not have to be a participant in the room to be able to read the messages. However, the auditor cannot read the encrypted messages of other users if they are not included in the conversation. In this case, Rocket.Chat recommends that you disable message encryption:
 
-* Go to the Administration UI ![](../../.gitbook/assets/administrator-ui%20%282%29%20%282%29%20%282%29.png).
+* Go to the Administration UI ![](../../.gitbook/assets/administrator-ui%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png).
 * Click **Administration**.
 * Scroll down to **E2E Encryption** on the left-side menu.
 
