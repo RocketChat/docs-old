@@ -35,7 +35,7 @@ description: >-
 
 10. Hit **Save**.
 
-![](../../../.gitbook/assets/image%20%28239%29.png)
+![](../../../.gitbook/assets/image%20%28253%29.png)
 
 BigBlueButton is successfully configured on your server.  
 

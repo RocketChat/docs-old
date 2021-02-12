@@ -10,7 +10,9 @@ To enable Jitsi:
 
 Go to `Administration -> SETTINGS -> Video Conference` then set `Enabled` to `True`.
 
-From there you can set where video conferences can be held \(channels, private rooms, and direct messages\).
+![](../../../.gitbook/assets/image%20%28239%29.png)
+
+Here, you can set where video conferences can be held \(channels, private rooms, and direct messages\).
 
 ### How to set up your own Jitsi Meet server
 
@@ -18,7 +20,7 @@ In some use-cases, where the Jitsi.org infrastructure may be remote or inaccessi
 
 You can find extensive instructions on setting up a Jitsi Meet servers stack at the [official Jisti Meet repository](https://github.com/jitsi/jitsi-meet).
 
-After setting your Jitsi Meet Server you can set the meeting Domain to the one on your server.
+After setting your Jitsi Meet Server, you can set the meeting Domain to the one on your server.
 
 ## 
 
