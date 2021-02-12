@@ -21,7 +21,21 @@ description: >-
 
 ![](../../../.gitbook/assets/image%20%28231%29.png)
 
-4. 
+4. Enable BigBlueButton.
 
+5. Enter **Domain** name [https://bbb.rocket.chat](https://bbb.rocket.chat)
 
+6. Enter your **Secret Token**. \(Follow the [instructions](https://docs.bigbluebutton.org/admin/bbb-conf.html) and generate your secret token in BBB CLI\)
+
+7.  Enable BigBlueButton for **Direct Messages** if you want \(default\)
+
+8. Enable BigBlueButton for **Private Channels** \(default\)
+
+9. Enable BigBlueButton for **Public Channels**
+
+10. Hit **Save**.
+
+![](../../../.gitbook/assets/image%20%28239%29.png)
+
+BigBlueButton is successfully configured on your server.  
 
