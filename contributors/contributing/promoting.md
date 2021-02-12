@@ -45,6 +45,7 @@ Here are some nice blog posts about our project for you to get some inspiration:
 * [http://liminality.xyz/self-hosting/](http://liminality.xyz/self-hosting/)
 * [https://www.rosehosting.com/blog/install-rocketchat-on-an-ubuntu-14-04-vps/](https://www.rosehosting.com/blog/install-rocketchat-on-an-ubuntu-14-04-vps/)
 * [https://thishosting.rocks/how-to-install-rocket-chat-on-ubuntu-and-use-it-on-your-wordpress/](https://thishosting.rocks/how-to-install-rocket-chat-on-ubuntu-and-use-it-on-your-wordpress/)
+* [https://linuxstans.com/install-configure-rocket-chat-centos-8/](https://linuxstans.com/install-configure-rocket-chat-centos-8/)
 
 ## Presentations
 
