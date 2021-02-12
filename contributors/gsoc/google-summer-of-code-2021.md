@@ -16,7 +16,7 @@ Please see [Official GSoC 2021 schedule ](https://developers.google.com/open-sou
 
 ## About GSoC 2021
 
-For project  ideas, check out our growing [list of ideas](google-summer-of-code-2020.md#project-ideas) for some inspiration.
+For project  ideas, check out our growing [list of ideas ](google-summer-of-code-2018.md#project-ideas)for some inspiration.
 
 Come meet our global community of potential mentors and students for GSoC 2021 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
 
@@ -30,9 +30,14 @@ If you have ideas and proposals that are not on our ideas list, or if a mentor i
 
 gsoc@rocket.chat
 
-Interested students are also encouraged to interact with our core team and contributor community on GitHub:
-
-[https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
+Interested students are also encouraged to interact with our core team and contributor community on GitHub:  
+  
+[https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)  
+  
+[https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)  
+  
+[https://github.com/RocketChat/Rocket.Chat.Electron](https://github.com/RocketChat/Rocket.Chat.Electron)[  
+](https://github.com/RocketChat/Rocket.Chat.ReactNative)
 
 ## Project Ideas
 
