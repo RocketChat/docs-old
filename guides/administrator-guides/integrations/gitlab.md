@@ -384,5 +384,5 @@ See: ${data.object_attributes.url}`
 
 This example contains code for several hooks. It can easily be extended with more. Source: [https://github.com/malko/rocketchat-gitlab-hook](https://github.com/malko/rocketchat-gitlab-hook).
 
-GitLab webhook help: [https://gitlab.com/help/web\_hooks/web\_hooks](https://gitlab.com/help/web_hooks/web_hooks)
+GitLab webhook help: [https://gitlab.ghgsat.com/help/user/project/integrations/webhooks#webhooks](https://gitlab.ghgsat.com/help/user/project/integrations/webhooks#webhooks)
 
