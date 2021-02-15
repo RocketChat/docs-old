@@ -89,7 +89,7 @@ A pop-up opens. You can set the name of that channel, choose if the channel is p
 
 In read-only channels, messages can only be sent by users with write permissions. All users can react to messages in this channel. Read-only channels are most suitable for announcements and voting.
 
-Encrypted channels, messages will be end to end encrypted. See: [End to End Encryption](../end-to-end-encryption.md) for details.
+Encrypted channels, messages will be end to end encrypted. See: [End to End Encryption](../security-bundle/end-to-end-encryption.md) for details.
 
 Broadcasted channels behave like read-only channels, with only users with the right permission being able to post there. The differences to a read-only channel are:
 
