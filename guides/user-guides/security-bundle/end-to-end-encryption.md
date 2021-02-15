@@ -1,4 +1,4 @@
-# End to End Encryption Guide
+# End to End Encryption User Guide
 
 > Note: This feature is currently in beta. Encrypted messages of encrypted rooms will not be found by search operations. Bots may not be able to see encrypted messages until they implement support for it. File uploads will not be encrypted in this version.
 
