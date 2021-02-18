@@ -9,7 +9,7 @@ description: >-
 
 ## **To Enable DLP App:**
 
-![](../../.gitbook/assets/image%20%28258%29.png)
+![](../../.gitbook/assets/image%20%28258%29%20%281%29.png)
 
 1. Go to **Administration** 
 
@@ -21,7 +21,7 @@ description: >-
 
 3. Search the DLP app and enable it. 
 
-![](../../.gitbook/assets/image%20%28254%29.png)
+![](../../.gitbook/assets/image%20%28258%29.png)
 
 5. Click and open to view DLP app details.
 

@@ -20,7 +20,7 @@ Go to Analytics in the omnichannel panel settings, as shown below:
 
   2. Select your desired department.
 
-![](../../../.gitbook/assets/8%20%286%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![](../../../.gitbook/assets/8%20%286%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
  3. Select your desired start date and end date.
 
@@ -56,7 +56,7 @@ You can also see the **percentage of conversations**, an **average of chat durat
 
 2.  Select your desired department.
 
-![](../../../.gitbook/assets/8%20%286%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![](../../../.gitbook/assets/8%20%286%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 3. Select your desired start date and end date.
 
