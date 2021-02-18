@@ -53,7 +53,11 @@ Interested students are also encouraged to interact with our core team and contr
 * **Description**: This project aims to create a new kind of channel where instead of sending messages, users would be able to create task cards with several custom fields. Those tasks would then work as a thread header, allowing comments in the format of a thread. The basic additional information for a task message would be an assigned user and a status. The channel header should also list options to filter the tasks by those fields.
 * **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReacJS is ideal.
 
+### Ephemeral messages
 
+* **Mentors:** [**@kevin.aleman**](https://open.rocket.chat/direct/EeTm6vJYv9KSiNwq9)\*\*\*\*
+* **Description:** This project aims to create a kind of channel in which the messages sent will vanish after a configured amount of time. This would be a room \(channel\) setting, in which you can define how long the messages are going to last. Messages from here cannot be retrieved after its deletion and the deletion cannot be deactivated, just postponed.
+* **Desirable skills:** Familiarity with JS Full Stack webapp development. Experience with MongoDB and PM2 are ideal.
 
 
 
