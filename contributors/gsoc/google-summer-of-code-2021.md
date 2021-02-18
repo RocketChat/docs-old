@@ -73,7 +73,21 @@ Interested students are also encouraged to interact with our core team and contr
 * * [Apps-Engine E2E Testing Folder on Rocket.Chat side](https://github.com/RocketChat/Rocket.Chat/tree/develop/tests/end-to-end/apps)
 * **Desirable Skills:** Familiarity with JavaScript. Experience with TypeScript and end-to-end testing are better.
 
-\*\*\*\*
+### App: Bad-Words Filter
 
+* **Mentors:** [@marcelo.schmidt](https://open.rocket.chat/marceloschmidt)\*\*\*\*
+* **Description:** Rocket.Chat currently uses a third-party package to filter bad words. This poses a few problems, such as having to update the package every so often, having to check which words have been added or excluded in newer versions and deciding if we would like to keep blocking or allowing words. This project is for building an App that can be enabled in our Marketplace that will filter out a list of default bad words but will allow admins to add or delete words from that list.  ****
+* **Desirable Skills**: Familiarity with JavaScript and TypeScript. Knowledge in how to build Rocket.Chat Apps is a plus.
 
+### **App: Speech-to-Text**
+
+* **Mentors:** [@marcelo.schmidt](https://open.rocket.chat/marceloschmidt)\*\*\*\*
+* **Description:** This project aims to save a text version of an audio in the file metadata. This should be done server-side upon receiving the audio. 
+* **Desirable Skills**: Familiarity with JavaScript and TypeScript. Knowledge in how to build Rocket.Chat Apps is a plus.
+
+### App: Global Translation
+
+* **Mentors:** [@marcelo.schmidt](https://open.rocket.chat/marceloschmidt)\*\*\*\*
+* **Description:** Rocket.Chat currently uses a package to provide message translations. This project aims to build that funcionality on an app, thus reducing the codebase of Rocket.Chat and allowing for easier configuration.  
+* **Desirable Skills**: Familiarity with JavaScript and TypeScript. Knowledge in how to build Rocket.Chat Apps is a plus.
 
