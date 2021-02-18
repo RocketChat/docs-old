@@ -43,7 +43,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### Voice Channels
 
-* **Mentors**: [@pierre.lehnen](https://open.rocket.chat/direct/pierre.lehnen), [@douglas.fabris](https://open.rocket.chat/direct/douglas.fabris)
+* **Mentors**: [@douglas.fabris](https://open.rocket.chat/direct/douglas.fabris), [@pierre.lehnen](https://open.rocket.chat/direct/pierre.lehnen)
 * **Description**: The ability to create voice channels would allow users to quickly enter and leave pre-existing voice calls from Rocket.Chat's own UI, enabling a more practical usage of audio features for team collaboration. This project would add the UI elements and integrate them with an established audio plataform to handle the calls.
 * **Desirable Skills**: Familiarity with nodeJS fullstack webapp development.
 
@@ -55,7 +55,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### Ephemeral messages
 
-* **Mentors:** [**@kevin.aleman**](https://open.rocket.chat/direct/EeTm6vJYv9KSiNwq9)\*\*\*\*
+* **Mentors:** [**@kevin.aleman**](https://open.rocket.chat/direct/EeTm6vJYv9KSiNwq9)
 * **Description:** This project aims to create a kind of channel in which the messages sent will vanish after a configured amount of time. This would be a room \(channel\) setting, in which you can define how long the messages are going to last. Messages from here cannot be retrieved after its deletion and the deletion cannot be deactivated, just postponed.
 * **Desirable skills:** Familiarity with JS Full Stack webapp development. Experience with MongoDB and PM2 are ideal.
 
@@ -72,4 +72,6 @@ Interested students are also encouraged to interact with our core team and contr
 * **Mentors:** [@gabriel.henriques](https://open.rocket.chat/direct/gabriel.henriques)
 * **Description:** This project aims to improve the Image upload feature, allowing users to crop images before sending it to a channel. Adding text and the possibility to draw on images could be implemented too.
 * **Desirable Skills:** Experience with Javascript and React + Hooks. TypeScript is a plus.
+
+
 
