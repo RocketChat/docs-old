@@ -41,18 +41,6 @@ Interested students are also encouraged to interact with our core team and contr
 
 ## Project Ideas
 
-### Advanced Rocket.Chat administrators and operations toolkit
-
-* **Mentors**: [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio), [@sing.li](https://open.rocket.chat/direct/sing.li)
-* **Description**: Administration and management of a Rocket.Chat server is a very complex task, especially for servers that are utilized by thousdands of users on a daily basis.  There exists many administrative and operational activities that require access to the system in ways that are not currently supported by our Administrative dashboard.  This project creates small, standalone tools, to address this need. These tools will be immediately useful for anyone operating one-or-more large Rocket.Chat server\(s\) worldwide.
-* **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReactJS or Vue.js ideal.  Must have database skills, ideally MongoDB.
-
-### Download Manager on Desktop App
-
-* **Mentors**: [@tasso.evangelista](https://open.rocket.chat/direct/tasso.evangelista) and [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo)
-* **Description**: With the React/Redux/Redux-Saga stack coming to the Electron-based app, a richer user experience is achievable through [Rocket.Chat's Fuselage components](https://github.com/RocketChat/Rocket.Chat.Fuselage). A long-awaited feature is the management of file downloads with some tracking of download progress and ability to cancel/restart.
-* **Desirable Skills**: Some knowledge about the concept of CSS-in-JS and popular implementations for React \(e.g. [Styled Components](https://styled-components.com/), [Emotion](https://emotion.sh/docs/introduction)\) as well basic understanding about the [Electron framework](https://www.electronjs.org/).
-
 ### Voice Channels
 
 * **Mentors**: [@pierre.lehnen](https://open.rocket.chat/direct/pierre.lehnen)
