@@ -67,3 +67,9 @@ Interested students are also encouraged to interact with our core team and contr
 * * [Apps-Engine E2E Testing Folder on Rocket.Chat side](https://github.com/RocketChat/Rocket.Chat/tree/develop/tests/end-to-end/apps)
 * **Desirable Skills:** Familiarity with JavaScript. Experience with TypeScript and end-to-end testing are better.
 
+### Image Editing/Cropping on Upload
+
+* **Mentors:** [@gabriel.henriques](https://open.rocket.chat/direct/gabriel.henriques)
+* **Description:** This project aims to improve the Image upload feature, allowing users to crop images before sending it to a channel. Adding text and the possibility to draw on images could be implemented too.
+* **Desirable Skills:** Experience with Javascript and React + Hooks. TypeScript is a plus.
+
