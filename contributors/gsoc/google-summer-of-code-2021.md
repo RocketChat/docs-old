@@ -53,5 +53,19 @@ Interested students are also encouraged to interact with our core team and contr
 * **Description**: With the React/Redux/Redux-Saga stack coming to the Electron-based app, a richer user experience is achievable through [Rocket.Chat's Fuselage components](https://github.com/RocketChat/Rocket.Chat.Fuselage). A long-awaited feature is the management of file downloads with some tracking of download progress and ability to cancel/restart.
 * **Desirable Skills**: Some knowledge about the concept of CSS-in-JS and popular implementations for React \(e.g. [Styled Components](https://styled-components.com/), [Emotion](https://emotion.sh/docs/introduction)\) as well basic understanding about the [Electron framework](https://www.electronjs.org/).
 
+### Voice Channels
+
+* **Mentors**: [@pierre.lehnen](https://open.rocket.chat/direct/pierre.lehnen)
+* **Description**: The ability to create voice channels would allow users to quickly enter and leave pre-existing voice calls from Rocket.Chat's own UI, enabling a more practical usage of audio features for team collaboration. This project would add the UI elements and integrate them with an established audio plataform to handle the calls.
+* **Desirable Skills**: Familiarity with nodeJS fullstack webapp development.
+
+### Task Channels
+
+* **Mentors**: [@pierre.lehnen](https://open.rocket.chat/direct/pierre.lehnen)
+* **Description**: This project aims to create a new kind of channel where instead of sending messages, users would be able to create task cards with several custom fields. Those tasks would then work as a thread header, allowing comments in the format of a thread. The basic additional information for a task message would be an assigned user and a status. The channel header should also list options to filter the tasks by those fields.
+* **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReacJS is ideal.
+
+
+
 
 
