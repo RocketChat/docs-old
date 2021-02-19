@@ -128,3 +128,17 @@ Interested students are also encouraged to interact with our core team and contr
   * Option to import missing strings into the target language to easily add translations
   * Integrate the script on CI to block PR from merge if there are new strings without translations
 
+### **Stop notifications and Notifications schedule**
+
+* **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
+* **Project repository:** [https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
+* **Desirable Skills:** JavaScript/TypeScript, React, React Native,, Rocket.Chat codebase
+* **Description:** This feature consists of two new options for the end-users:
+  * **Stop Notifications:** A list of options to stop notifications for a certain time \(30min, 1h, 2h, 24h, custom date/hour\).
+  * **Notifications Schedule:** Option to configure \(in user's settings\) the availability time where notifications will be sent:
+    * With the option to configure for every day from X time to Y time
+    * With the option to configure for weekdays from X time to Y time
+    * With the option to configure X and Y times for each day of the week manually
+    * The same settings should be available for the workspace admin to configure a default value for all users
+    * The implementation should cover the web and mobile applications
+
