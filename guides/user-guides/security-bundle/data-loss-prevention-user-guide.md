@@ -7,5 +7,5 @@ description: >-
 
 # Data Loss Prevention User Guide
 
-Suppose 
+If you are in a channel in your Rocket.Chat where sensitive information, such as a credit card number is sent by a
 

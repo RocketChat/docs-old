@@ -36,8 +36,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)
 
-[https://github.com/RocketChat/Rocket.Chat.Electron](https://github.com/RocketChat/Rocket.Chat.Electron)[
-](https://github.com/RocketChat/Rocket.Chat.ReactNative)
+[https://github.com/RocketChat/Rocket.Chat.Electron](https://github.com/RocketChat/Rocket.Chat.Electron)[ ](https://github.com/RocketChat/Rocket.Chat.ReactNative)
 
 ## Project Ideas
 
@@ -76,7 +75,7 @@ Interested students are also encouraged to interact with our core team and contr
 ### App: Bad-Words Filter
 
 * **Mentors:** [@marcelo.schmidt](https://open.rocket.chat/marceloschmidt)\*\*\*\*
-* **Description:** Rocket.Chat currently uses a third-party package to filter bad words. This poses a few problems, such as having to update the package every so often, having to check which words have been added or excluded in newer versions and deciding if we would like to keep blocking or allowing words. This project is for building an App that can be enabled in our Marketplace that will filter out a list of default bad words but will allow admins to add or delete words from that list.  ****
+* **Description:** Rocket.Chat currently uses a third-party package to filter bad words. This poses a few problems, such as having to update the package every so often, having to check which words have been added or excluded in newer versions and deciding if we would like to keep blocking or allowing words. This project is for building an App that can be enabled in our Marketplace that will filter out a list of default bad words but will allow admins to add or delete words from that list.  _\*\*_
 * **Desirable Skills**: Familiarity with JavaScript and TypeScript. Knowledge in how to build Rocket.Chat Apps is a plus.
 
 ### **App: Speech-to-Text**
@@ -102,3 +101,4 @@ Interested students are also encouraged to interact with our core team and contr
 * **Mentors**: [@rafaelferreira](https://open.rocket.chat/direct/rafaelferreira), [@murtaza.patrawala](https://open.rocket.chat/direct/murtaza.patrawala)
 * **Description:** The outcome expected from this project is to support Video and Audio calls in one of the native Omnichannel entry points called [LiveChat](https://github.com/RocketChat/Rocket.Chat.Livechat). LiveChat is a small and lightweight application designed to provide B2C communication between Agents and website visitors and is developed with [PreactJS](https://preactjs.com/), which means that any ReactJS developer will be able to implement the new features using [WebRTC](https://webrtc.org/) framework.
 * **Desirable Skills**: Experience with JavaScript, ReactJS and WebRTC and WebSocket API.
+
