@@ -102,3 +102,29 @@ Interested students are also encouraged to interact with our core team and contr
 * **Description:** The outcome expected from this project is to support Video and Audio calls in one of the native Omnichannel entry points called [LiveChat](https://github.com/RocketChat/Rocket.Chat.Livechat). LiveChat is a small and lightweight application designed to provide B2C communication between Agents and website visitors and is developed with [PreactJS](https://preactjs.com/), which means that any ReactJS developer will be able to implement the new features using [WebRTC](https://webrtc.org/) framework.
 * **Desirable Skills**: Experience with JavaScript, ReactJS and WebRTC and WebSocket API.
 
+### **Houston Improvements - Rocket.Chat release/changelog generator**
+
+* **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
+* **Project repository:**[ ****https://github.com/RocketChat/Rocket.Chat.Houston](https://github.com/RocketChat/Rocket.Chat.Houston)
+* **Desirable Skills:** TypeScript, Git, Shell
+* **Description:** Huston is the CLI tooling we use to release new versions of Rocket.Chat and generate our changelogs from merged pull requests. We want to:
+  * Rewrite the tooling in TypeScript;
+  * Accept a new format of PR titles \(conventional changelog\);
+  * Add a validation system for PRs titles via GitHub Actions;
+  * Add tooling to preview the generated changelog for the PR
+  * Add new top level of separation for product type \(like Enterprise and Community\) based on labels
+  * Support dependent repositories to import their changelogs, for example, import the changelogs of apps engine
+
+### **Language tools**
+
+* **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
+* **Project repository:** [https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
+* **Desirable Skills:** JavaScript / TypeScript
+* **Description:** Create internal scripts to extract translation strings from the source code and give some options:
+  * Check if all strings are translated in the target languages \(en by default\)
+  * List strings present in the target language that are not in the code anymore
+  * Option to render a completion chart for all languages
+  * Option to remove strings from all languages based on a target one
+  * Option to import missing strings into the target language to easily add translations
+  * Integrate the script on CI to block PR from merge if there are new strings without translations
+
