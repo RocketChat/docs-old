@@ -19,15 +19,15 @@ description: >-
 
 3. Search the DLP app and enable it. 
 
-![](../../.gitbook/assets/image%20%28263%29.png)
+![](../../.gitbook/assets/image%20%28266%29.png)
 
 5. Click and open to view DLP app details.
 
-![](../../.gitbook/assets/image%20%28264%29.png)
+![](../../.gitbook/assets/image%20%28267%29.png)
 
 6. Define the rules as Regular expressions. Add each Regular Expression on a new line.
 
-![](../../.gitbook/assets/image%20%28260%29.png)
+![](../../.gitbook/assets/image%20%28261%29.png)
 
 {% hint style="info" %}
 Through DLP features, admins can create a list of regular expressions to be monitored in Rocket.Chat and it can be applied to any conversation.  
@@ -37,17 +37,27 @@ It’s also possible to select the rooms to apply the DLP app. If you have chann
 
 7. Mention the channel name in **Moderator Channel** to which you want the blacklisted messages to be forwarded to, as shown below:
 
-![](../../.gitbook/assets/image%20%28254%29.png)
+![](../../.gitbook/assets/image%20%28260%29.png)
 
-8. Mention any channels that you dont want to be monitored under Content Control type **Ignore Channels** if any, as shown below:
+8. Mention any channels that you don't want to be monitored under Content Control type **Ignore Channels** if any, as shown below:
 
-![](../../.gitbook/assets/image%20%28262%29.png)
+![](../../.gitbook/assets/image%20%28265%29.png)
 
 Or mention the channels only which you want to be monitored under Content Control type **Target Channels,** as shown below:
 
-![](../../.gitbook/assets/image%20%28261%29.png)
+![](../../.gitbook/assets/image%20%28263%29.png)
 
-9.
+9. Toggle switch Censor only Sensitive Information to only replace sensitive information by hashtags. Switch it off to censor the full message containing that sensitive information. 
 
+![](../../.gitbook/assets/image%20%28262%29.png)
 
+10. Mention the message you want the blacklisted message to replaced by temporarily in the room until the blacklisted message has been approved by moderators. Set the title of this temporary message here.
+
+11. This message will be shown if the user clicks on the  **More info** button under the  blacklisted message in a room until the blacklisted message gets approved, as shown below:
+
+![](../../.gitbook/assets/image%20%28269%29.png)
+
+12. This message will be shown in place of the blacklisted message in a channel, when a moderator has rejected the blacklisted message.
+
+![](../../.gitbook/assets/image%20%28268%29.png)
 
