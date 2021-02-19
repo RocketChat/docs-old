@@ -151,3 +151,15 @@ Interested students are also encouraged to interact with our core team and contr
   * New properties to allow define new actions like \`recording\` or \`uploading\`, changing the current implementations to support and send those 2 new events and improve the end-user experience
   * Support specifies a context for the typing, allowing it to be shown inside a thread when users are typing in that context instead of in the main room.
 
+### **Use Lingohub on mobile apps**
+
+* **Mentors:** [@diego.mello](https://open.rocket.chat/direct/diego.mello)
+* **Description:** Share Lingohub translation strings with the web client, so the same contributor is able to translate both frontend and mobile apps.
+* **Desirable Skills:** Familiarity with React Native and Rocket.Chat codebase
+
+### **Support share location on mobile apps**
+
+* **Mentors:** [@diego.mello](https://open.rocket.chat/direct/diego.mello)
+* **Description:** Add support for sharing a current location from mobile apps. Mobile apps are going to fetch the current location and add coordinates as a message. Mobile apps are also going to show the appropriate map image.
+* **Desirable Skills:** Familiarity with React Native and Rocket.Chat codebase
+
