@@ -19,11 +19,11 @@ description: >-
 
 3. Search the DLP app and enable it. 
 
-![](../../.gitbook/assets/image%20%28266%29.png)
+![](../../.gitbook/assets/image%20%28267%29.png)
 
 5. Click and open to view DLP app details.
 
-![](../../.gitbook/assets/image%20%28267%29.png)
+![](../../.gitbook/assets/image%20%28268%29.png)
 
 6. Define the rules as Regular expressions. Add each Regular Expression on a new line.
 
@@ -41,23 +41,31 @@ It’s also possible to select the rooms to apply the DLP app. If you have chann
 
 8. Mention any channels that you don't want to be monitored under Content Control type **Ignore Channels** if any, as shown below:
 
-![](../../.gitbook/assets/image%20%28265%29.png)
+![](../../.gitbook/assets/image%20%28266%29.png)
 
 Or mention the channels only which you want to be monitored under Content Control type **Target Channels,** as shown below:
 
 ![](../../.gitbook/assets/image%20%28263%29.png)
 
-9. Toggle switch Censor only Sensitive Information to only replace sensitive information by hashtags. Switch it off to censor the full message containing that sensitive information. 
+9. Toggle switch **Censor only Sensitive Information** to only replace sensitive information by hashtags. Switch it off to censor the full message containing that sensitive information. 
 
 ![](../../.gitbook/assets/image%20%28262%29.png)
 
-10. Mention the message you want the blacklisted message to replaced by temporarily in the room until the blacklisted message has been approved by moderators. Set the title of this temporary message here.
+10. Set the title of this temporary message under **Custom Blacklisted Message title** that you want the blacklisted message to replaced by temporarily in the channel until the blacklisted message has been approved by moderators.
 
-11. This message will be shown if the user clicks on the  **More info** button under the  blacklisted message in a room until the blacklisted message gets approved, as shown below:
+![](../../.gitbook/assets/image%20%28270%29.png)
 
-![](../../.gitbook/assets/image%20%28269%29.png)
+11. **Custom Pending approval message** will be shown if the user clicks on the  **More info** button under the  blacklisted message in a room until the blacklisted message gets approved, as shown below:
 
-12. This message will be shown in place of the blacklisted message in a channel, when a moderator has rejected the blacklisted message.
+![](../../.gitbook/assets/image%20%28272%29.png)
 
-![](../../.gitbook/assets/image%20%28268%29.png)
+12. **Custom Rejected Message** will be shown in place of the blacklisted message in a channel when a moderator has rejected the blacklisted message.
+
+![](../../.gitbook/assets/image%20%28271%29.png)
+
+13. Hit **Save changes** to save your settings.
+
+![](../../.gitbook/assets/image%20%28264%29.png)
+
+
 
