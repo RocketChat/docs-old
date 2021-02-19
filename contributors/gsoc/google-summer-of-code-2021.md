@@ -54,7 +54,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### Ephemeral messages
 
-* **Mentors:** [**@kevin.aleman**](https://open.rocket.chat/direct/EeTm6vJYv9KSiNwq9)
+* **Mentors:** [@kevin.aleman](https://open.rocket.chat/direct/EeTm6vJYv9KSiNwq9)
 * **Description:** This project aims to create a kind of channel in which the messages sent will vanish after a configured amount of time. This would be a room \(channel\) setting, in which you can define how long the messages are going to last. Messages from here cannot be retrieved after its deletion and the deletion cannot be deactivated, just postponed.
 * **Desirable skills:** Familiarity with JS Full Stack webapp development. Experience with MongoDB and PM2 are ideal.
 
@@ -141,4 +141,13 @@ Interested students are also encouraged to interact with our core team and contr
     * With the option to configure X and Y times for each day of the week manually
     * The same settings should be available for the workspace admin to configure a default value for all users
     * The implementation should cover the web and mobile applications
+
+### **New statuses for user actions/events \(Typing 2.0\)**
+
+* **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento), [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo)
+* **Project repository:** [https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
+* **Desirable Skills:** JavaScript/TypeScript, React, React Native,, Rocket.Chat codebase
+* **Description:** Improve the current \`Typing\` functionality to support, on web and mobile applications, two new things:
+  * New properties to allow define new actions like \`recording\` or \`uploading\`, changing the current implementations to support and send those 2 new events and improve the end-user experience
+  * Support specifies a context for the typing, allowing it to be shown inside a thread when users are typing in that context instead of in the main room.
 
