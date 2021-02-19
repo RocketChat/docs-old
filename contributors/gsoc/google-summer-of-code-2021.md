@@ -43,12 +43,12 @@ Interested students are also encouraged to interact with our core team and contr
 ### Voice Channels
 
 * **Mentors**: [@douglas.fabris](https://open.rocket.chat/direct/douglas.fabris), [@pierre.lehnen](https://open.rocket.chat/direct/pierre.lehnen)
-* **Description**: The ability to create voice channels would allow users to quickly enter and leave pre-existing voice calls from Rocket.Chat's own UI, enabling a more practical usage of audio features for team collaboration. This project would add the UI elements and integrate them with an established audio plataform to handle the calls.
+* **Description**: The ability to create voice channels would allow users to quickly enter and leave pre-existing voice calls from Rocket.Chat's own UI, enabling a more practical usage of audio features for team collaboration. This project would add the UI elements and integrate them with an established audio platform to handle the calls.
 * **Desirable Skills**: Familiarity with nodeJS fullstack webapp development.
 
 ### Task Channels
 
-* **Mentors**: [@pierre.lehnen](https://open.rocket.chat/direct/pierre.lehnen)
+* **Mentors**: [@pierre.lehnen](https://open.rocket.chat/direct/pierre.lehnen), [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo)
 * **Description**: This project aims to create a new kind of channel where instead of sending messages, users would be able to create task cards with several custom fields. Those tasks would then work as a thread header, allowing comments in the format of a thread. The basic additional information for a task message would be an assigned user and a status. The channel header should also list options to filter the tasks by those fields.
 * **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReacJS is ideal.
 
