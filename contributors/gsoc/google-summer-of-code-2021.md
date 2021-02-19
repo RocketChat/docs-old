@@ -163,3 +163,9 @@ Interested students are also encouraged to interact with our core team and contr
 * **Description:** Add support for sharing a current location from mobile apps. Mobile apps are going to fetch the current location and add coordinates as a message. Mobile apps are also going to show the appropriate map image.
 * **Desirable Skills:** Familiarity with React Native and Rocket.Chat codebase
 
+### Add a bundler to the Apps-Compiler
+
+* **Mentors**: [@douglas.gubert ](https://open.rocket.chat/douglas.gubert)
+* **Description**: Currently the Apps-Compiler package uses the bare TypeScript compiler to process apps' code and generate the JS version. This has some limitations, e.g. we can't "simply" bundle the whole app in a single file, we can't bundle npm packages, and so on. By changing this compiler into a proper bundler \(Webpack, Rollup, etc.\), we would have access to a richer ecosystem of tooling to handle the compilation process of Rocket.Chat Apps.
+* **Desirable Skills**: JS/TS, familiarity with bundlers \(using them, not necessarily writing one\) would be interesting
+
