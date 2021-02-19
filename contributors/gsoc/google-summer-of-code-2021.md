@@ -36,7 +36,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)
 
-[https://github.com/RocketChat/Rocket.Chat.Electron](https://github.com/RocketChat/Rocket.Chat.Electron)[    
+[https://github.com/RocketChat/Rocket.Chat.Electron](https://github.com/RocketChat/Rocket.Chat.Electron)[
 ](https://github.com/RocketChat/Rocket.Chat.ReactNative)
 
 ## Project Ideas
@@ -82,13 +82,13 @@ Interested students are also encouraged to interact with our core team and contr
 ### **App: Speech-to-Text**
 
 * **Mentors:** [@marcelo.schmidt](https://open.rocket.chat/marceloschmidt)\*\*\*\*
-* **Description:** This project aims to save a text version of an audio in the file metadata. This should be done server-side upon receiving the audio. 
+* **Description:** This project aims to save a text version of an audio in the file metadata. This should be done server-side upon receiving the audio.
 * **Desirable Skills**: Familiarity with JavaScript and TypeScript. Knowledge in how to build Rocket.Chat Apps is a plus.
 
 ### App: Global Translation
 
 * **Mentors:** [@marcelo.schmidt](https://open.rocket.chat/marceloschmidt)\*\*\*\*
-* **Description:** Rocket.Chat currently uses a package to provide message translations. This project aims to build that funcionality on an app, thus reducing the codebase of Rocket.Chat and allowing for easier configuration.  
+* **Description:** Rocket.Chat currently uses a package to provide message translations. This project aims to build that funcionality on an app, thus reducing the codebase of Rocket.Chat and allowing for easier configuration.
 * **Desirable Skills**: Familiarity with JavaScript and TypeScript. Knowledge in how to build Rocket.Chat Apps is a plus.
 
 ### Channel Discovery
@@ -97,3 +97,8 @@ Interested students are also encouraged to interact with our core team and contr
 * **Description:** The idea is to add a page where you can discover new channels. This will allow users to find channels based on: Total number of users, number of messages, search for specific topics, if the channel has been trending lately, and any more ideas we can think of. The whole idea of this project is to improve communities using Rocket.Chat and add a sprinkle of social aspect to Rocket.Chat.
 * **Desirable Skills**: Familiarity with JavaScript, React and TypeScript. Knowledge in how to use Rocket.Chat fuselage is a plus
 
+### Introduce Video and Audio calls to LiveChat
+
+* **Mentors**: [@rafaelferreira](https://open.rocket.chat/direct/rafaelferreira), [@murtaza.patrawala](https://open.rocket.chat/direct/murtaza.patrawala)
+* **Description:** The outcome expected from this project is to support Video and Audio calls in one of the native Omnichannel entry points called [LiveChat](https://github.com/RocketChat/Rocket.Chat.Livechat). LiveChat is a small and lightweight application designed to provide B2C communication between Agents and website visitors and is developed with [PreactJS](https://preactjs.com/), which means that any ReactJS developer will be able to implement the new features using [WebRTC](https://webrtc.org/) framework.
+* **Desirable Skills**: Experience with JavaScript, ReactJS and WebRTC and WebSocket API.
