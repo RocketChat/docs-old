@@ -100,7 +100,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### Channel Discovery
 
-* **Mentors:** [**@martin.schoeler**](https://open.rocket.chat/direct/martin.schoeler)
+* **Mentors:** [@martin.schoeler](https://open.rocket.chat/direct/martin.schoeler)
 * **Description:** The idea is to add a page where you can discover new channels. This will allow users to find channels based on: Total number of users, number of messages, search for specific topics, if the channel has been trending lately, and any more ideas we can think of. The whole idea of this project is to improve communities using Rocket.Chat and add a sprinkle of social aspect to Rocket.Chat.
 * **Desirable Skills**: Familiarity with JavaScript, React and TypeScript. Knowledge in how to use Rocket.Chat fuselage is a plus
 
@@ -175,4 +175,10 @@ Interested students are also encouraged to interact with our core team and contr
 * **Mentors:** [@marcelo.schmidt](https://open.rocket.chat/marceloschmidt)
 * **Description:** Rocket.Chat currently uses a package to provide message translations. This project aims to build that funcionality on an app, thus reducing the codebase of Rocket.Chat and allowing for easier configuration.
 * **Desirable Skills**: Familiarity with JavaScript and TypeScript. Knowledge in how to build Rocket.Chat Apps is a plus.
+
+### **UiKit Playground**
+
+* **Mentors:** [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo), [@tasso.evangelista](https://open.rocket.chat/direct/tasso.evangelista)
+* **Description:** Develop an application/playground that allows developers to test UiKit Blocks and Interactions. Should allow developers to generate code used by Rocket.Chat apps and edit the content to preview the result
+* **Desirable Skills:** JavaScript/TypeScript
 
