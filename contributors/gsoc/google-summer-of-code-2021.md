@@ -127,10 +127,10 @@ Interested students are also encouraged to interact with our core team and contr
 * **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
 * **Project repository:**[ ****https://github.com/RocketChat/Rocket.Chat.Houston](https://github.com/RocketChat/Rocket.Chat.Houston)
 * **Desirable Skills:** TypeScript, Git, Shell
-* **Description:** Huston is the CLI tooling we use to release new versions of Rocket.Chat and generate our changelogs from merged pull requests. We want to:
-  * Rewrite the tooling in TypeScript;
-  * Accept a new format of PR titles \(conventional changelog\);
-  * Add a validation system for PRs titles via GitHub Actions;
+* **Description:** Houston is the CLI tooling we use to release new versions of Rocket.Chat and generate our changelogs from merged pull requests. We want to:
+  * Rewrite the tooling in TypeScript
+  * Accept a new format of PR titles \(conventional changelog\)
+  * Add a validation system for PRs titles via GitHub Actions
   * Add tooling to preview the generated changelog for the PR
   * Add new top level of separation for product type \(like Enterprise and Community\) based on labels
   * Support dependent repositories to import their changelogs, for example, import the changelogs of apps engine
