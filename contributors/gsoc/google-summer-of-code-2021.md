@@ -4,7 +4,7 @@
 
 ## How to apply
 
-Rocket.Chat has applied and intend to become a mentoring organization once again for the  2021 Google Summer of Code \(GSoC\) program.
+Rocket.Chat has applied and intends to become a mentoring organization once again for the  2021 Google Summer of Code \(GSoC\) program.
 
 Student application for GSoC 2021 will begin March 29, 2021.
 
@@ -62,7 +62,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### Poll App Mega Extensions
 
-* **Mentors:**  [@ramkumar.kb](https://open.rocket.chat/direct/ramkumar.kb), @[diego.sampaio](https://open.rocket.chat/direct/diego.sampaio)
+* **Mentors:**  [@ramkumar.kb](https://open.rocket.chat/direct/ramkumar.kb), [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio)
 * **Description:**  The[ poll app](https://github.com/RocketChat/rocket.chat.app-poll) already allows anyone to instantly create engaging rich interaction polls within any chat room.  This project aims to expand its scope and capabilities in a huge way: making it a tool for enhance participate engagement and for interactive educational / information delivery.  Some initial ideas include:
 * **Desirable Skills:** The sky is not even the limit for this project.  Will need a hot-shot all round challenge-loving student already familiar with JavaScript, TypeScript, React, and Rocket.Chat + Fuselage codebase.
   **Desirable Skills:** The sky is not even the limit for this project.  Will need a hot-shot all round challenge-loving student already familiar with JavaScript, TypeScript, React, and Rocket.Chat + Fuselage codebase.
