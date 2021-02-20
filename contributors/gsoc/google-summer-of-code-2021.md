@@ -60,6 +60,13 @@ Interested students are also encouraged to interact with our core team and contr
 * * [Apps-Engine E2E Testing Folder on Rocket.Chat side](https://github.com/RocketChat/Rocket.Chat/tree/develop/tests/end-to-end/apps)
 * **Desirable Skills:** Familiarity with JavaScript. Experience with TypeScript and end-to-end testing are better.
 
+### Poll App Mega Extensions
+
+* **Mentors:**  [@ramkumar.kb](https://open.rocket.chat/direct/ramkumar.kb), @[diego.sampaio](https://open.rocket.chat/direct/diego.sampaio)
+* **Description:**  The[ poll app](https://github.com/RocketChat/rocket.chat.app-poll) already allows anyone to instantly create engaging rich interaction polls within any chat room.  This project aims to expand its scope and capabilities in a huge way: making it a tool for enhance participate engagement and for interactive educational / information delivery.  Some initial ideas include:
+* **Desirable Skills:** The sky is not even the limit for this project.  Will need a hot-shot all round challenge-loving student already familiar with JavaScript, TypeScript, React, and Rocket.Chat + Fuselage codebase.
+  **Desirable Skills:** The sky is not even the limit for this project.  Will need a hot-shot all round challenge-loving student already familiar with JavaScript, TypeScript, React, and Rocket.Chat + Fuselage codebase.
+
 ### **Use Lingohub on mobile apps**
 
 * **Mentors:** [@diego.mello](https://open.rocket.chat/direct/diego.mello)
