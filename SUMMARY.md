@@ -683,7 +683,7 @@
 
 * [Rocket.Chat App](apps-development/getting-started/README.md)
   * [Rocket.Chat App Engine CLI](apps-development/getting-started/rocket.chat-app-engine-cli.md)
-  * [Creating an Example App](apps-development/getting-started/creating-an-example-app.md)
+  * [Creating an App](apps-development/getting-started/creating-an-example-app.md)
   * [App Submission to the Marketplace](apps-development/getting-started/submitting-app-to-the-marketplace/README.md)
     * [App Submission through CLI](apps-development/getting-started/submitting-app-to-the-marketplace/app-submission-through-cli.md)
     * [Paid App Submission \(through Publisher\)](apps-development/getting-started/submitting-app-to-the-marketplace/paid-app-submission-through-publisher.md)

@@ -1,4 +1,4 @@
-# Creating an Example App
+# Creating an App
 
 The development tools provide a command to quickly scaffold a new Rocket.Chat App. Simply run `rc-apps create` and a small form will ask you to provide information about the app you are developing, like its name \(in this example we will call it `liftoff`\), app's description, and developer info. This information will be placed in a file called `app.json` in the project's root folder.
 
