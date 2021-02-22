@@ -11,7 +11,7 @@ Joins yourself to the channel.
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |
-| `joinCode` | `1234` | Required | The join code of the room |
+| `joinCode` | `1234` | Optional | The join code of the room |
 
 ## Example Call
 
