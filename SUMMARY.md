@@ -477,6 +477,7 @@
     * [Custom User Status](api/rest-api/methods/custom-user-status/README.md)
       * [Custom User Status List](api/rest-api/methods/custom-user-status/list.md)
     * [Groups](api/rest-api/methods/groups/README.md)
+      * [Group Online](api/rest-api/methods/groups/group-online.md)
       * [Get Integrations](api/rest-api/methods/groups/getintegrations.md)
       * [Group Add All](api/rest-api/methods/groups/addall.md)
       * [Group Add Leader](api/rest-api/methods/groups/addleader.md)
