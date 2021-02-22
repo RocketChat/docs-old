@@ -1,4 +1,8 @@
-# Contact Center
+---
+description: REST Endpoints to deal with Omnichannel Contacts
+---
+
+# Contact
 
 ## Get the contact info
 
