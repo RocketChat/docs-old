@@ -4,7 +4,7 @@
 
 ## How to apply
 
-Rocket.Chat has applied and intends to become a mentoring organization once again for the  2021 Google Summer of Code \(GSoC\) program.
+Rocket.Chat has applied and intends to become a mentoring organization once again for the 2021 Google Summer of Code \(GSoC\) program.
 
 Student application for GSoC 2021 will begin March 29, 2021.
 
@@ -52,20 +52,17 @@ Interested students are also encouraged to interact with our core team and contr
 * **Description**: The ability to create voice channels would allow users to quickly enter and leave pre-existing voice calls from Rocket.Chat's own UI, enabling a more practical usage of audio features for team collaboration. This project would add the UI elements and integrate them with an established audio platform to handle the calls.
 * **Desirable Skills**: Familiarity with nodeJS fullstack webapp development.
 
-
 ### Decentralised Storage Integration
 
 * **Mentors:** [@murtaza.patrawala](https://open.rocket.chat/direct/murtaza.patrawala) 
 * **Description:** The goal of this project is to add new decentralised P2P based storage providers within [Rocket.Chat](http://rocket.Chat). Decentralised solutions not only provide more security, but they are also more cost effective. Some example of decentralised solutions include Filecoin, Saicoin, Storj, etc. Via this project, the files uploaded on Rocket.Chat should be stored on the decentralised network and the uploaded files should be accessible within Rocket.Chat.
 * **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with [Rocket.Chat](http://rocket.Chat) codebase and/or with any of the decentralised solution providers is ideal.
 
-
 ### Omnichannel: Help Center
 
 * **Mentors:** [@murtaza.patrawala](https://open.rocket.chat/direct/murtaza.patrawala)
-* **Description:** This project aims to add a Help Center within the Omnichannel Domain of Rocket.Chat. This will allow the creation of content that will answer people’s simple questions faster. The focus of this project would be to provide an interface to create content (similar to how we can create an article on a Blogging platform like Medium) and then make allow users/agents and customers to search within these contents which will quickly answer their questions. This project will add a self-serve support layer that will help with scaling by automatically resolving repetitive questions with the help of such articles and guides, leading to faster answers for the customers and fewer questions to users/agents.
+* **Description:** This project aims to add a Help Center within the Omnichannel Domain of Rocket.Chat. This will allow the creation of content that will answer people’s simple questions faster. The focus of this project would be to provide an interface to create content \(similar to how we can create an article on a Blogging platform like Medium\) and then make allow users/agents and customers to search within these contents which will quickly answer their questions. This project will add a self-serve support layer that will help with scaling by automatically resolving repetitive questions with the help of such articles and guides, leading to faster answers for the customers and fewer questions to users/agents.
 * **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReactJS is ideal.
-
 
 ### Apps-Engine E2E Testing
 
@@ -80,6 +77,7 @@ Interested students are also encouraged to interact with our core team and contr
 * **Mentors:**  [@ramkumar.kb](https://open.rocket.chat/direct/ramkumar.kb), [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio)
 * **Description:**  The[ poll app](https://github.com/RocketChat/rocket.chat.app-poll) already allows anyone to instantly create engaging rich interaction polls within any chat room.  This project aims to expand its scope and capabilities in a **huge** way: making it a tool for enhancing participants engagement and for interactive educational / information delivery.  Some initial ideas include:
 * **Desirable Skills:** The sky is _not even the limit_ for this project.  Will need a hot-shot all round challenge-loving student already familiar with JavaScript, TypeScript, React, and Rocket.Chat + Fuselage codebase.
+
   **Desirable Skills:** The sky is _not even the limit_ for this project.  Will need a hot-shot all round challenge-loving student already familiar with JavaScript, TypeScript, React, and Rocket.Chat + Fuselage codebase.
 
 ### **Use Lingohub on mobile apps**
@@ -140,7 +138,7 @@ Interested students are also encouraged to interact with our core team and contr
 ### **Houston Improvements - Rocket.Chat release/changelog generator**
 
 * **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
-* **Project repository:**[ ****https://github.com/RocketChat/Rocket.Chat.Houston](https://github.com/RocketChat/Rocket.Chat.Houston)
+* **Project repository:**[ _\*\*_https://github.com/RocketChat/Rocket.Chat.Houston](https://github.com/RocketChat/Rocket.Chat.Houston)
 * **Desirable Skills:** TypeScript, Git, Shell
 * **Description:** Houston is the CLI tooling we use to release new versions of Rocket.Chat and generate our changelogs from merged pull requests. We want to:
   * Rewrite the tooling in TypeScript
@@ -197,13 +195,11 @@ Interested students are also encouraged to interact with our core team and contr
 * **Description:** This is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery. The goal of this platform is to provide an easier way to collaborate over any Github, Gitlab and others repository hosting services. The focus will be to add new features like User Management, Administration Module, etc - also improve the current features which add more advantage and provide a friction-less experience to all the fellow developers.
 * **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReactJS and ExpressJS is ideal.
 
-
 ### Community Collaboration Platform: Mobile app
 
 * **Mentors:**  [@sing.li](https://open.rocket.chat/direct/sing.li) [@murtaza.patrawala](https://open.rocket.chat/direct/murtaza.patrawala)
 * **Description:** This is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery. The goal of this platform is to provide an easier way to collaborate over any Github, Gitlab and others repository hosting services. The focus here will be to create a cross-platform mobile app for this platform
 * **Desirable Skills**: Familiarity with React Native, iOS and Android development.
-
 
 ### **UiKit Playground**
 
