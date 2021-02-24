@@ -13,7 +13,7 @@ If you are in a channel in your Rocket.Chat where sensitive information, such as
 
 
 
-![](../../../.gitbook/assets/image%20%28284%29.png)
+![](../../../.gitbook/assets/image%20%28285%29.png)
 
 It appears as 
 
@@ -27,11 +27,15 @@ A warning is also displayed.
 
 you are given an explanation with a status, as shown below:  
 
-![](../../../.gitbook/assets/image%20%28286%29.png)
+![](../../../.gitbook/assets/image%20%28287%29.png)
 
+If you are a moderator and have access to your company's data-loss-prevention channel, you can go ahead and approve it, as shown below:
 
+![](../../../.gitbook/assets/image%20%28288%29.png)
 
+and it starts appearing in the chat:
 
+![](../../../.gitbook/assets/image%20%28283%29.png)
 
 
 
