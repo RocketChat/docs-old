@@ -4,7 +4,7 @@
 
 ## How to apply
 
-Rocket.Chat has applied and intend to become a mentoring organization once again for the  2021 Google Summer of Code \(GSoC\) program.
+Rocket.Chat has applied and intends to become a mentoring organization once again for the  2021 Google Summer of Code \(GSoC\) program.
 
 Student application for GSoC 2021 will begin March 29, 2021.
 
@@ -75,6 +75,13 @@ Interested students are also encouraged to interact with our core team and contr
 * * [Apps-Engine E2E Testing Folder on Rocket.Chat side](https://github.com/RocketChat/Rocket.Chat/tree/develop/tests/end-to-end/apps)
 * **Desirable Skills:** Familiarity with JavaScript. Experience with TypeScript and end-to-end testing are better.
 
+### Poll App Mega Extensions
+
+* **Mentors:**  [@ramkumar.kb](https://open.rocket.chat/direct/ramkumar.kb), [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio)
+* **Description:**  The[ poll app](https://github.com/RocketChat/rocket.chat.app-poll) already allows anyone to instantly create engaging rich interaction polls within any chat room.  This project aims to expand its scope and capabilities in a **huge** way: making it a tool for enhancing participants engagement and for interactive educational / information delivery.  Some initial ideas include:
+* **Desirable Skills:** The sky is _not even the limit_ for this project.  Will need a hot-shot all round challenge-loving student already familiar with JavaScript, TypeScript, React, and Rocket.Chat + Fuselage codebase.
+  **Desirable Skills:** The sky is _not even the limit_ for this project.  Will need a hot-shot all round challenge-loving student already familiar with JavaScript, TypeScript, React, and Rocket.Chat + Fuselage codebase.
+
 ### **Use Lingohub on mobile apps**
 
 * **Mentors:** [@diego.mello](https://open.rocket.chat/direct/diego.mello)
@@ -108,7 +115,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### Channel Discovery
 
-* **Mentors:** [**@martin.schoeler**](https://open.rocket.chat/direct/martin.schoeler)
+* **Mentors:** [@martin.schoeler](https://open.rocket.chat/direct/martin.schoeler)
 * **Description:** The idea is to add a page where you can discover new channels. This will allow users to find channels based on: Total number of users, number of messages, search for specific topics, if the channel has been trending lately, and any more ideas we can think of. The whole idea of this project is to improve communities using Rocket.Chat and add a sprinkle of social aspect to Rocket.Chat.
 * **Desirable Skills**: Familiarity with JavaScript, React and TypeScript. Knowledge in how to use Rocket.Chat fuselage is a plus
 
@@ -135,10 +142,10 @@ Interested students are also encouraged to interact with our core team and contr
 * **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
 * **Project repository:**[ ****https://github.com/RocketChat/Rocket.Chat.Houston](https://github.com/RocketChat/Rocket.Chat.Houston)
 * **Desirable Skills:** TypeScript, Git, Shell
-* **Description:** Huston is the CLI tooling we use to release new versions of Rocket.Chat and generate our changelogs from merged pull requests. We want to:
-  * Rewrite the tooling in TypeScript;
-  * Accept a new format of PR titles \(conventional changelog\);
-  * Add a validation system for PRs titles via GitHub Actions;
+* **Description:** Houston is the CLI tooling we use to release new versions of Rocket.Chat and generate our changelogs from merged pull requests. We want to:
+  * Rewrite the tooling in TypeScript
+  * Accept a new format of PR titles \(conventional changelog\)
+  * Add a validation system for PRs titles via GitHub Actions
   * Add tooling to preview the generated changelog for the PR
   * Add new top level of separation for product type \(like Enterprise and Community\) based on labels
   * Support dependent repositories to import their changelogs, for example, import the changelogs of apps engine
@@ -184,7 +191,6 @@ Interested students are also encouraged to interact with our core team and contr
 * **Description:** Rocket.Chat currently uses a package to provide message translations. This project aims to build that funcionality on an app, thus reducing the codebase of Rocket.Chat and allowing for easier configuration.
 * **Desirable Skills**: Familiarity with JavaScript and TypeScript. Knowledge in how to build Rocket.Chat Apps is a plus.
 
-
 ### Community Collaboration Platform: Improvements
 
 * **Mentors:**  [@sing.li](https://open.rocket.chat/direct/sing.li) [@murtaza.patrawala](https://open.rocket.chat/direct/murtaza.patrawala)
@@ -197,3 +203,11 @@ Interested students are also encouraged to interact with our core team and contr
 * **Mentors:**  [@sing.li](https://open.rocket.chat/direct/sing.li) [@murtaza.patrawala](https://open.rocket.chat/direct/murtaza.patrawala)
 * **Description:** This is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery. The goal of this platform is to provide an easier way to collaborate over any Github, Gitlab and others repository hosting services. The focus here will be to create a cross-platform mobile app for this platform
 * **Desirable Skills**: Familiarity with React Native, iOS and Android development.
+
+
+### **UiKit Playground**
+
+* **Mentors:** [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo), [@tasso.evangelista](https://open.rocket.chat/direct/tasso.evangelista)
+* **Description:** Develop an application/playground that allows developers to test UiKit Blocks and Interactions. Should allow developers to generate code used by Rocket.Chat apps and edit the content to preview the result
+* **Desirable Skills:** JavaScript/TypeScript
+

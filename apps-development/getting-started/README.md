@@ -16,7 +16,7 @@ Rocket.Chat provides an Apps Engine CLI which helps you easily create, deploy, a
 
 ## Webinar on Getting Started with Rocket.Chat Apps Development
 
-We recently had an [incredible webinar](https://www.youtube.com/watch?v=PaFPeD6QG9k) on getting started with Rocket.Chat apps development. In this webinar, our amazing developers will help you understand the Apps CLI basics and how you can jump right into apps development.
+We had a webinar some time ago on how to get started with Rocket.Chat Apps development. It is a bit outdated, but can get you through the basics. And updated guide can be found at [Creating an App](creating-an-example-app.md).
 
 [You can watch it here](https://www.youtube.com/watch?v=PaFPeD6QG9k).
 

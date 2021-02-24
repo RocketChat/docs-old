@@ -477,6 +477,7 @@
     * [Custom User Status](api/rest-api/methods/custom-user-status/README.md)
       * [Custom User Status List](api/rest-api/methods/custom-user-status/list.md)
     * [Groups](api/rest-api/methods/groups/README.md)
+      * [Group Online](api/rest-api/methods/groups/group-online.md)
       * [Get Integrations](api/rest-api/methods/groups/getintegrations.md)
       * [Group Add All](api/rest-api/methods/groups/addall.md)
       * [Group Add Leader](api/rest-api/methods/groups/addleader.md)
@@ -683,7 +684,7 @@
 
 * [Rocket.Chat App](apps-development/getting-started/README.md)
   * [Rocket.Chat App Engine CLI](apps-development/getting-started/rocket.chat-app-engine-cli.md)
-  * [Creating an Example App](apps-development/getting-started/creating-an-example-app.md)
+  * [Creating an App](apps-development/getting-started/creating-an-example-app.md)
   * [App Submission to the Marketplace](apps-development/getting-started/submitting-app-to-the-marketplace/README.md)
     * [App Submission through CLI](apps-development/getting-started/submitting-app-to-the-marketplace/app-submission-through-cli.md)
     * [Paid App Submission \(through Publisher\)](apps-development/getting-started/submitting-app-to-the-marketplace/paid-app-submission-through-publisher.md)
