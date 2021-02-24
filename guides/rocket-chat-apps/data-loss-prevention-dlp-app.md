@@ -51,7 +51,7 @@ Or mention the channels only which you want to be monitored under Content Contro
 
 ![](../../.gitbook/assets/image%20%28262%29.png)
 
-10. Set the title of this temporary message under **Custom Blacklisted Message title** that you want the blacklisted message to replaced by temporarily in the channel until the blacklisted message has been approved by moderators.
+10. Set the title of this temporary message under **Custom Blacklisted Message title** that you want the blacklisted message to be replaced by temporarily in the channel until the blacklisted message has been approved by moderators.
 
 ![](../../.gitbook/assets/image%20%28269%29%20%281%29.png)
 
@@ -67,5 +67,5 @@ Or mention the channels only which you want to be monitored under Content Contro
 
 ![](../../.gitbook/assets/image%20%28264%29.png)
 
-
+Your DLP app functional now. 
 
