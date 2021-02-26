@@ -207,3 +207,15 @@ Interested students are also encouraged to interact with our core team and contr
 * **Description:** Develop an application/playground that allows developers to test UiKit Blocks and Interactions. Should allow developers to generate code used by Rocket.Chat apps and edit the content to preview the result
 * **Desirable Skills:** JavaScript/TypeScript
 
+### **Omnichannel: Livechat Widget Accessible Mode**
+
+* **Mentors:** [@rafaelferreira](https://open.rocket.chat/direct/rafaelferreira)
+* **Project repository:** [https://github.com/RocketChat/Rocket.Chat.Livechat](https://github.com/RocketChat/Rocket.Chat.Livechat)
+* **Desirable Skills:** Accessibility, React, SCSS
+* **Description:** Omnichannel users, including users with visual disabilities, must be able to perceive content at the Livechat widget. The main idea here is to give some options to Livechat widget users to active "Accessible mode", which means:
+  * High contrast colors.
+  * Icons accompanying text.
+  * Bigger highlight over selected text or cursor active/hover using "tab" key.
+  * Show a better solution when an Agent is typing.
+  * Etc.
+
