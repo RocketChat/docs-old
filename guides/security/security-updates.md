@@ -15,6 +15,30 @@ Please make sure to follow new version updates by subscribing to our newsletters
 **Issues**
 
 {% hint style="warning" %}
+**2020-0018 - Medium Severity issue** fixed at **2021-02-27.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.12, 3.11.2, 3.10.6**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy._
+{% endhint %}
+
+{% hint style="danger" %}
+**2020-0017 - Critical Severity issue** fixed at **2021-02-27.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.12, 3.11.2, 3.10.6**
+
+_**\(SAML-related fix\)** Details about this security fix will be provided later as per our responsible disclosure policy._
+{% endhint %}
+
+{% hint style="info" %}
+**2020-0016 - Low Severity issue** fixed at **2021-02-27.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.12, 3.11.2, 3.10.6**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy._
+{% endhint %}
+
+{% hint style="warning" %}
 **2020-0015 - Medium Severity issue** fixed at **2021-01-26.**
 
 Rocket.Chat Server / LiveChat - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
