@@ -58,6 +58,8 @@ Rocket.Chat is very grateful for the following people who have responsibly discl
 * Ivars Vids, September 2020
 * [Nikhil Mittal](https://twitter.com/c0d3g33k), Oktober 2020
 * [Kunal Narsale](http://linkedin.com/in/kunal-n-3b9587135), December 2020
+* [Shubham Panchal](https://www.linkedin.com/in/shubham-panchal-636744161/), December 2020
+* [Jorge Cardona](https://jorge-cardona.github.io), November 2020
 
 Thank you all very much!
 

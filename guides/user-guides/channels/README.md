@@ -2,7 +2,7 @@
 
 Conversations in Rocket.Chat occur in **channels**. Channels are chat rooms with useful features designed to increase communication and collaboration.
 
-There are three kinds of channels: [public channels](channels.md#public-channels), [private groups](channels.md#private-groups), and [direct \(1-on-1\) messages](channels.md#direct-messages).
+There are three kinds of channels: [public channels](./#public-channels), [private groups](./#private-groups), and [direct \(1-on-1\) messages](./#direct-messages).
 
 ## Public channels
 
@@ -22,7 +22,7 @@ Private groups are joined through invitation only. The administrator sets the pe
 
 **Direct messages \(DMs\)** are a private 1-on-1 conversation between team members. They can be sent to any user on your server.
 
-**Direct Messages Between Multiple Users** There is a feature that allows you to chat with multiple users inside a DM. For more info check: [Direct Messages Between Multiple Users](direct-messages-between-multiple-users.md).
+**Direct Messages Between Multiple Users** There is a feature that allows you to chat with multiple users inside a DM. For more info check: [Direct Messages Between Multiple Users](../direct-messages-between-multiple-users.md).
 
 ## Listing channels
 
@@ -51,7 +51,7 @@ There are several notification settings a user can customize to channels. To fin
 * **Hide/Show counter:** Show the number of unread messages for a channel.
 * **Notification sound:** Choose a sound for notifications besides the alerts default **Desktop**.  Mobile currently supports only the alerts inside your mobile device. You can also select when to play the alert, duration of the alert, and the alert itself.
 
-> There are some default choices for audio provided by Rocket.Chat. However, you also get to choose custom audio files for the same. Get further information about [Custom Sounds](../administrator-guides/custom-sounds.md).
+> There are some default choices for audio provided by Rocket.Chat. However, you also get to choose custom audio files for the same. Get further information about [Custom Sounds](../../administrator-guides/custom-sounds.md).
 
 ## Joining new channels and starting direct messages
 
@@ -89,7 +89,7 @@ A pop-up opens. You can set the name of that channel, choose if the channel is p
 
 In read-only channels, messages can only be sent by users with write permissions. All users can react to messages in this channel. Read-only channels are most suitable for announcements and voting.
 
-Encrypted channels, messages will be end to end encrypted. See: [End to End Encryption](end-to-end-encryption.md) for details.
+Encrypted channels, messages will be end to end encrypted. See: [End to End Encryption](../security-bundle/end-to-end-encryption.md) for details.
 
 Broadcasted channels behave like read-only channels, with only users with the right permission being able to post there. The differences to a read-only channel are:
 

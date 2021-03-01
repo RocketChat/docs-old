@@ -4,12 +4,12 @@
 
 ## Prerequisites
 
-* Rocketchat server accessible like e.g. [https://r.example.com](https://r.example.com)
+* Rocket.Chat server accessible like e.g. [https://r.example.com](https://r.example.com)
 * Keycloak server accessible like e.g. [https://sso.example.com](https://sso.example.com)
 
 Keycloak:
 
-* Decide / set up a realm you want to use, e.g. `master`. The realm will be referenced by the placeholder `<realm>`.
+* Decide/set up a realm you want to use, e.g. `master`. The realm will be referenced by the placeholder `<realm>`.
 
 ## Setting up Rocketchat
 
@@ -24,12 +24,12 @@ Go to the SAML settings in Rocketchat administration:
 
 Go to `https://r.example.com/_saml/metadata/keycloak` - you should get an XML file. Save the raw file to your disk. Go to keycloak and open the "Add Client" dialogue. Select the SAML protocol, and import the XML file from the previous step. You will be redirected to a partially pre-filled client setting page. The client ID referenced by Keycloak should be the same as the metadata URL.
 
-Create client, and now revisit it's settings:
+Create client, and now revisit its settings:
 
 * Check out Valid Redirect URIs - make sure that it is set to `https://r.example.com/_saml/validate/keycloak`.
 * Set the `Name ID Format` to `email`.
 * Go to the `SAML Keys` tab, and make sure that the public key \(certificate\) is the same as the Rocketchat's public key. Note that the `-----BEGIN/END CERTIFICATE-----` header/footer is not supposed to be part of the Keycloak's public key view, but the rest should be the same. If they are not the same, save the Rocketchat public key one into a text file, and import it from Keycloak - use the import PEM functionality.
-* Go to Mappers tab, and create mappers for required data that Rocketchat expects. You shouldn't need `email` or `username`, but you probably need `cn`.
+* Go to the Mappers tab, and create mappers for the required data that Rocketchat expects. You shouldn't need `email` or `username`, but you probably need `cn`.
 
   Click Create, and choose the type `User Property` and set the `SAML Attribute NameFormat` to `basic`. For the first name, set `Name` and `Property` to `firstName`, and `SAML Attribute name` to `cn`.
 

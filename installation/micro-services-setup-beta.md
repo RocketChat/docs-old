@@ -21,7 +21,7 @@ The following environment variables should be set for Rocket.Chat services as we
 | Variable | Value | Description |
 | :--- | :--- | :--- |
 | `TRANSPORTER` | `nats://nats:4222` | NATS address |
-| `DISABLE_WATCH_DB` | `true` | Disables internal DB watcher and rely on `mongodb-stream-hub` |
+| `DISABLE_DB_WATCH` | `true` | Disables internal DB watcher and rely on `mongodb-stream-hub` |
 | `DISABLE_PRESENCE_MONITOR` | `true` | Disables presence monitoring and rely on the `presence-service` |
 | `INTERNAL_SERVICES_ONLY` | `true` | Do not run external services on rocket.chat process |
 
