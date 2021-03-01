@@ -76,8 +76,6 @@ Setext style H2
 ---------------
 ```
 
-### ATX style H3
-
 **Correct**:
 
 ```text
@@ -88,7 +86,7 @@ Setext style H2
 
 ### MD004 - Unordered list style
 
-Lists should be created using dashes.
+Lists should be created using asterisks.
 
 **Wrong**:
 
@@ -101,9 +99,9 @@ Lists should be created using dashes.
 **Correct**:
 
 ```text
-- Item 1
-- Item 2
-- Item 3
+* Item 1
+* Item 2
+* Item 3
 ```
 
 ### MD005 - No inconsistent indentation for list items at the same level
@@ -113,19 +111,19 @@ Lists should have consistent indentation, usually this rule will be triggered be
 **Wrong**:
 
 ```text
-- Item 1
-    - Nested Item 1
-    - Nested Item 2
-    - A misaligned item
+* Item 1
+      * Nested Item 1
+      * Nested Item 2
+     * A misaligned item
 ```
 
 **Correct**:
 
 ```text
-- Item 1
-    - Nested Item 1
-    - Nested Item 2
-    - Nested Item 3
+* Item 1
+    * Nested Item 1
+    * Nested Item 2
+    * Nested Item 3
 ```
 
 ### MD006 - Consider starting bulleted lists at the beginning of the line
@@ -137,14 +135,14 @@ Bulleted lists should start on the beginning of the line.
 ```text
 Some text
 
-    * List item
-    * List item
+  * List item
+  * List item
 ```
 
 **Correct**:
 
 ```text
-Some test
+Some text
 
 * List item
 * List item
@@ -193,7 +191,7 @@ When creating links you should use the `[]` surrounding the text and `()` surrou
 **Correct**:
 
 ```text
-    [Correct link syntax](http://www.example.com/)
+[Correct link syntax](http://www.example.com/)
 ```
 
 ### MD012 - No multiple consecutive blank lines
@@ -433,13 +431,17 @@ Fenced code blocks should be surrounded by blank lines.
 
 ```text
 Some text
-`` `
-Code block
-`` `
+```
 
-`` `
+Code block
+
+```text
+
+```
+
 Another code block
-`` `
+
+```text
 Some more text
 ```
 
@@ -447,15 +449,17 @@ Some more text
 
 ```text
 Some text
+```
 
-`` `
 Code block
-`` `
 
-`` `
+```text
+
+```
+
 Another code block
-`` `
 
+```text
 Some more text
 ```
 
@@ -594,8 +598,9 @@ Code blocks should be fenced.
 **Correct**:
 
 ```text
-` ` `
-codeblock using fences.
-` ` `
+
+```text
+    codeblock using indentation.
+```
 ```
 

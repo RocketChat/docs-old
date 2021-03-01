@@ -2,7 +2,7 @@
 
 You can use Google's translation engine to translate every message received on a channel.
 
-For that you will need a Google Translation API key, you can find how to get one and pricing for it's usage from the [Official Google API documentation](https://cloud.google.com/translate/pricing).
+For that you will need a Google Translation API key, you can find how to get one and pricing for its usage from the [Official Google API documentation](https://cloud.google.com/translate/pricing).
 
 ## Getting the key
 

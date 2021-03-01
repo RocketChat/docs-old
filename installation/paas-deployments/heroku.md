@@ -1,17 +1,23 @@
-# Deploying Rocket.Chat on Heroku
+---
+description: Deploying Rocket.Chat on Heroku
+---
 
-Heroku is a container-based cloud Platform as a Service, provides for free 1 dyno, an instance of the application, in this case Rocket.Chat server, running and responding to requests.
+# Heroku
+
+Heroku is a container-based cloud Platform as a Service.  In minutes, you can deploy a Rocket.Chat server, running and responding to requests.
 
 There are two ways to deploy Rocket.Chat to Heroku:
 
 * easy one click
 * customized command line
 
-**Note mongolab's free sandbox plan does not support oplog tailing. Starting with Rocket.Chat version 1 oplog tailing is required.**
+To add any service to an app, even if it is free, you will need to register a valid credit card with Heroku. Rocket.Chat needs both mLab and logenteries services.
 
-To add any service to an app, even if it is free, you will need to register a valid credit card with Heroku. Rocket.Chat needs both mongolab and logenteries services.
+> **NOTE:**   Make sure you select a mLab plan that supports oplog tailing.  Rocket.Chat requires oplog tailing.
 
 ## One Click automatic deploy
+
+> **NOTE**:   You will need a plan that minimally supports 2 dynos and 4 GB of memory to comfortably build and deploy Rocket.Chat on Heroku.
 
 Try clicking the button below, and either login or create a new account, then follow all prompts.
 

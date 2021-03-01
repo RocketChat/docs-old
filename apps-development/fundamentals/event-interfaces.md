@@ -4,7 +4,7 @@
 
 ### Interfaces
 
-[Interfaces](https://www.typescriptlang.org/docs/handbook/interfaces.html#class-types) is a typescript feature that can enforce a class meets a particular contract. The Rocket.Chat Apps-Engine provides various kinds of event interfaces that you can implement one or more of them for your app.
+[Interfaces](https://www.typescriptlang.org/docs/handbook/interfaces.html#class-types) are a typescript feature that can enforce a class meets a particular contract. The Rocket.Chat Apps-Engine provides various kinds of event interfaces that you can implement one or more of them for your app.
 
 Implementing an event interface if you want to listen to this event and handle its payload data. Typically, each interface contains one method that will be called before/after a Rocket.Chat event.
 
@@ -64,7 +64,25 @@ export class MessageEventsApp extends App implements IPreMessageSentPrevent {
 
 #### Result
 
-This simple app tries to prevent any message sending on this server. In the real world, you might want to prevent messages according to the payload data provided instead of preventing all messages on the server.
+![Message prevented by app](../../.gitbook/assets/image%20%2818%29.png)
+
+And you will see this in the server console
+
+```javascript
+A Rocket.Chat App prevented the message sending. {
+    _id: 'sikKmLrZoQRaFzBwg',
+   rid: 'MCpMFsFqPfWhKGxXQ',
+   msg: "This message won't be sent",
+   ts: 2020-06-24T14:07:02.690Z,
+   u: {
+       _id: '2oKGD8QfRhyue62nX',
+       username: 'random.user',
+       name: undefined
+   }
+}
+```
+
+This simple app tries to prevent any message sending on this server. In the real world, you might \(most likely\) want to prevent messages according to the payload data provided instead of preventing all messages on the server.
 
 ### IPostMessageSent
 
@@ -87,8 +105,8 @@ export class MessageEventsApp extends App implements IPostMessageSent {
             return;
         }
 
-        const general: IRoom | undefined = await read.getRoomReader().getByName('general');
-        const messageBuilder: IMessageBuilder = modify.getCreator().startMessage({
+        const general = await read.getRoomReader().getByName('general');
+        const messageBuilder = modify.getCreator().startMessage({
             text: `@${message.sender.username} said "${message.text}" in #${message.room.displayName}`,
         } as IMessage);
 
@@ -103,7 +121,9 @@ export class MessageEventsApp extends App implements IPostMessageSent {
 
 #### Result
 
-This app is going forward all messages which are not belong to the room`#general` to `#general`.
+![Message redirected to \#general \(top\) from \#another-channel \(bottom\)](../../.gitbook/assets/image%20%2817%29.png)
+
+This app is going to forward all messages sent to other channels, private groups or DMs to `#general`
 
 ## References
 

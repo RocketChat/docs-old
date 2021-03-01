@@ -56,3 +56,17 @@ In the example above we set three new fields with the following properties:
 
 **Note**: Fields work with `tabs` for indentation, avoid using `spaces`.
 
+## Show custom fields on the user's info
+
+The list of custom fields shown on the user's info panel can be configured under `Administration -> Accounts -> Custom Fields to show in User Info`.
+
+The list of fields needs to be specified as JSON array in the form
+
+```text
+[{"label1":"key2"},{"label2":"key2"},...]
+```
+
+A label can by any text, the key needs to be a custom field name defined above.
+
+Fields are only shown if the user has the permission to view private fields or if the field is set to `"public":true`.
+

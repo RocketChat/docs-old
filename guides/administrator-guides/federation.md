@@ -13,7 +13,7 @@ When enabling federation on your server, your server becomes part of the Rocket.
 * **Current**
   * Invite users from remote servers
   * Direct chats between servers
-  * Public, private and broadcast rooms with remote users from any number of servers
+  * Private and broadcast rooms with remote users from any number of servers
   * Read receipts, notifications and alerts distributed to remote servers
   * Mute/Unmute remote users
   * Share files among servers
@@ -21,6 +21,7 @@ When enabling federation on your server, your server becomes part of the Rocket.
   * Encrypted rooms
   * Whitelist servers to communicate with
   * Better federation set-up process, with helpers to validate the configuration
+  * Public rooms with remote users from any number of servers
 
 ## Configuration
 
@@ -131,11 +132,11 @@ Some DNS providers will not allow setting `_https` or `_http` on SRV records, so
 
 From your cli, issue the following commands and make sure the answers look like the following:
 
-```
+```text
 dig srv _rocketchat._https.chat.mydomain.com
 ...
 ;; ANSWER SECTION:
-_rocketchat._https.chat.mydomain.com. 1800 IN SRV	1 1 443 chat.mydomain.com.
+_rocketchat._https.chat.mydomain.com. 1800 IN SRV    1 1 443 chat.mydomain.com.
 ...
 
 dig -t txt rocketchat-public-key.chat.mydomain.com

@@ -46,3 +46,13 @@ SETTINGS_HIDDEN=FileUpload_GoogleStorage_AccessId,FileUpload_GoogleStorage_Secre
 
 **Be careful with this setting some settings like `FileUpload_Storage_Type` are needed by the client so cannot be hidden**
 
+## **Wizard Required** Settings
+
+Example:
+
+You can force settings to be required on wizard pages by using the `SETTINGS_REQUIRED_ON_WIZARD` environment variable
+
+```text
+SETTINGS_REQUIRED_ON_WIZARD=Organization_Type,Organization_Name
+```
+

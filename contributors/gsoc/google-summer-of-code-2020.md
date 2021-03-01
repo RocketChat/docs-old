@@ -10,11 +10,36 @@ redirect_from:
 
 ## How to apply
 
-Application for Google Summer of Code 2020 is now closed. Please see [GSoC timeline](google-summer-of-code-2020.md#timeline) for more details.
+Application for Google Summer of Code 2020 is now closed.
+
+#### Update September 8, 2020
+
+The GSoC 2020 season has completed with one of the best experience ever for many of the participating students and mentors.
+
+The final list of successful Google Summer of Code 2020 Rocket.Chat projects and students/mentors is now [officially](https://summerofcode.withgoogle.com/organizations/4685162459168768/#5623423331467264) available.
+
+Of the **seven official** GSoC projects, every student has managed to pass their final evaluation.  
+Congratulations to all the students of 2020 and their tireless mentors!
+
+Of the **five additional** sponsored projects, **one** student : the problematic one noted in the previous term, has been **failed** by his mentors.
+
+In this final term, we encouraged students to prepare a 30 minutes demo and presentation of their project for our community and core team. Reception was incredible! The list of invitees topped 80! Most presentations were well attended. Students showed off their work proudly alongside their mentors.
+
+For many students, it was the very first presentation experience in their entire life - and having it in front such a supportive audience made it extremely fulfilling. Attendees are delighted to discover the excellent work \(and exciting features\) that the student undertook.
+
+From the crop of excellent 2020 students, the Rocket.Chat team made an internship offer to one student and he has accepted and became a member of our team. Our long time community contributor, Viasat, has also independently made an offer to another student this year.
+
+#### Update August 4, 2020
+
+Second evaluation has completed. Once again, all mentors have decided to pass their students for this term. Of note is one potentially problematic student, mentor agreed to monitor the situation for the final term. Another student has pre-arranged with his mentor to start the term early and has completed his work by this evaluation.
+
+#### Update July 12, 2020
+
+First evaluation has completed! All students have passed this first term. Most projects have students that are tracking or exceeding planned schedules. There is one project that is slightly lagging and we will keep a watchful eye on it this second term. Progress has been relatively smooth across the projects. Mentors are busy making sure that every student receive his/her evaluation and payment. Students have also completed evaluation for their mentor\(s\). Some project\(s\) have decided to start mini virtual daily stand-ups to keep closer tab on progress once past GSoC mid-way mark. Two mentors have withdrawn from participation, one has left the Rocket.Chat organization/community altogether, another due to unanticipated personal obligations.
 
 **Update June 8, 2020**
 
-Coding has started on June 1st. All mentors and students are busy getting the first month milestones of the project under way. Many of them are engaged daily via our [24 x7 community community server](https://open.rocket.chat)
+Coding has started on June 1st. All mentors and students are busy getting the first month milestones of the project under way. Many of them are engaged daily via our [24 x 7 community community server](https://open.rocket.chat)
 
 We have two community sponsored projects with students dropping out during this time, one due to family obligations and another due to prolonged funding uncertainty, and replacement students have been located for these projects.
 
@@ -46,14 +71,14 @@ Furthermore, Viasat, one of Rocket.Chat's long-time community supporters, has ag
 
 | Student | Sponsored Project | Mentors |
 | :--- | :--- | :--- |
-| Subham Sahoo | Live agent and chatbot handoff app | David Lassalle, Steve Stetak, Renato Becker, Marcos Defendi |
+| Prajval Raval | Live agent and chatbot handoff app | David Lassalle, Steve Stetak, Renato Becker, Marcos Defendi |
 | Kashish Jayasi | Rocket.Chat mobile site | Peter Lepeska, Eric Rosenthal, Karan Bedi |
 
 This, in combination, allowed us to accommodate a total of **TWELVE** enthusiastic students this summer season.
 
 All students and mentors are now busy mutually bonding and with our core team and greater community. Each mentor is also working with his/her student on refining the weekly and monthly milestones/deliverables within the proposal to better reflect achievable project objectives as well as making them measurable for the monthly evaluations. Meanwhile, all our students are continuing to contribute to the Rocket.Chat open source project\(s\) as they have been doing since the start of the GSoC 2019 cycle. Many are also engaging with community members on the various public channels of our 24 x 7 [community team server](https://open.rocket.chat).
 
-### Update March 31st, 2020
+#### Update March 31st, 2020
 
 First, we would like to thank all GSoC 2020 students for their ethusiastic support for Rocket.Chat. This year we have received a total of **86** proposals, including **81** final proposals. In the final pool, there are 13 proposals that are spam, without content, or not related to our projects.
 
@@ -61,7 +86,7 @@ Over the next month, our mentors will be reviewing the received proposals. Googl
 
 Meanwhile, we continue to introduce all active and incoming students to open source in general, and Rocket.Chat's ecosystem of open source projects in particular. Students will continue to make meaningful open source contributions in the form of issues & PR for our projects and interact with Rocket.Chat's vibrant community + team.
 
-### Update March 29th, 2020
+#### Update March 29th, 2020
 
 Enthusiasm and interest from students are all time high this year; over 112 candidate students have already started to interact with our community and contributing to the repositories! Together, they have already contributed over 100 issues and over 50 merged PRs to our various projects. We are maintaining a real-time updated leaderboard for at-a-glance student \(candidates\) contribution here:
 
@@ -75,7 +100,7 @@ We have recnetly arranged for the TOP 8 student contributors to meet one on one 
 
 Mentoring interest from core team has been reduced this year, while community mentor participation is at an all time high. Proposals for projects are streaming steadily in since application open, the volume of incoming proposals is reduced compared to prior year - but the percentage of high quality propsals has increased.
 
-### About GSoC 2020
+#### About GSoC 2020
 
 For ideas, check out our growing [list of ideas](google-summer-of-code-2020.md#project-ideas) for some inspiration.
 
@@ -322,17 +347,5 @@ Interested students are also encouraged to interact with our contributor communi
 
 ## Timeline
 
-[GSoC 2020 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
-
-**Feb 20** List of accepted mentoring organizations published.
-
-**February 20 - March 16** Potential student participants discuss application ideas with mentoring organizations
-
-**March 16 18:00 UTC** Student application period begins - [_How to write a Proposal_](https://google.github.io/gsocguides/student/writing-a-proposal.html)
-
-**March 31st 18:00 UTC** Student application deadline
-
-**April 27th 18:00 UTC** Accepted student proposals announced
-
-...
+{% embed url="https://developers.google.com/open-source/gsoc/timeline" caption="" %}
 

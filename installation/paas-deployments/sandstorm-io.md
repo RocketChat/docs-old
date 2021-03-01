@@ -1,4 +1,8 @@
-# Deploying Rocket.Chat on Sandstorm.io
+---
+description: Deploying Rocket.Chat on Sandstorm.io
+---
+
+# Sandstorm.io
 
 Host your own Rocket.Chat server in four seconds flat:
 

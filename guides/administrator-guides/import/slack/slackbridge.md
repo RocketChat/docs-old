@@ -17,7 +17,7 @@ To enable it, you have to create a Custom Bot in Slack and add it to the desired
 1. Go to `https://[your_host]/admin/SlackBridge`
 2. Enable SlackBridge
 3. Add your API Token, copied in step 4 above
-4. Restart you Rocket.chat server
+4. Restart you Rocket.Chat server
 
 When done, you can now invite/add the bot to the channel or private group you want to mirror from
 

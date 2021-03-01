@@ -178,7 +178,7 @@ class Script {
 
 After saving the data you can use the following commands to retrieve data.
 
-`ns servers list` to list your servers with their ID's and load average.
+`ns servers list` to list your servers with their IDs and load average.
 
 ![](https://github.com/NIXStats/Nixstats-integrations/blob/master/rocketchat/serverlist.png)
 

@@ -82,20 +82,6 @@ Interested students are also encouraged to interact with our contributor communi
 
 [https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
 
-## Timeline
-
-[GSoC 2018 Timeline](https://developers.google.com/open-source/gsoc/timeline) next due dates:
-
-**February 12 - March 12** Potential student participants discuss application ideas with mentoring organizations
-
-**March 12 16:00 UTC** Student application period begins - [_How to write a Proposal_](https://google.github.io/gsocguides/student/writing-a-proposal.html)
-
-**March 27 16:00 UTC** Student application deadline
-
-**April 23 16:00 UTC** Accepted student proposals announced
-
-...
-
 ## Project Ideas
 
 ### Global Search
@@ -193,15 +179,15 @@ Interested students are also encouraged to interact with our contributor communi
 
 Some projects that you can submit proposals for include:
 
-**Decentralized Crypto Exchange in Rocket.Chat**
+### **Decentralized Crypto Exchange in Rocket.Chat**
 
 * **Description:** Starting either from scratch or utilizing one of the compatible license open source DEX code bases – create a functional Decentralized Exchange within Rocket.Chat. You will create a DEX that takes advantage of strong cryptographic identity solutions such as Blockstack ID and wallet integration such as Metamask or ARK wallet in your work.
 
-**IPFS storage solution in Rocket.Chat**
+### **IPFS storage solution in Rocket.Chat**
 
 * **Description:**  Integrate IPFS into Rocket.Chat as a viable storage provider. Ideally IPFS can be used as a storage provider for uploaded Rocket.Chat contents. In addition, the ability to access IPFS within Rocket.Chat, to supply files that can be shared between users of Rocket.Chat is also essential. Leveraging integration with strong cryptographic identities such as Blockstack ID, the solution should include strong data-at-rest encryption of decentralized contents.  Use of decentralized storage abstraction frameworks such as Blockstack Gaia should be considered to simplify this work.  Use of IPFS as a decentralized storage for Rocket.Chat’s data should also be considered within the term.
 
-**Cryptocurrency Wallet and/or Portfolio Management in Rocket.Chat**
+### **Cryptocurrency Wallet and/or Portfolio Management in Rocket.Chat**
 
 * **Description:** Enable the integration of wallet\(s\) such as Metamask,  MyEtherWallet,  ARK or other wallets or crypto portfolio management system within Rocket.Chat.
 * **Desirable Skills:** Looking for a unique fringe-dropout university student already committed to our inevitable decentralized future powered by Web 3.0 and continued blockchain technology innovations. While maintaining a high score on all your subjects, you should be finding your existing university education ridiculously limiting, and already have experience hacking smart contracts, minting tokens for friends and family, hacking ethereum, and trading cryptokitties. You eat truffle for breakfast and ride the open zepplin to school every day. Recent government \(perhaps your own government\) baseless advances into this area has significantly disturbed you. You already realized that you are way ahead of your time. And you will recognize this GSoC 2018 project to be the absolutely not-to-miss opportunity of your life.
@@ -279,4 +265,8 @@ Some projects that you can submit proposals for include:
   * Integration with Google Calendar
   * Ability to search for an event
 * **Desirable Skills:** Familiarity with JavaScript development required. Previous experience with NLP \(Natural Language Processing\) or AI \(Artificial Intelligence\) would be helpful.
+
+## Timeline
+
+{% embed url="https://developers.google.com/open-source/gsoc/timeline" %}
 

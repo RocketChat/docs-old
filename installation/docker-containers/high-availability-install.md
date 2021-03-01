@@ -1,4 +1,8 @@
-# Guide to install Rocket.Chat as HA with mongodb replicaset as backend
+---
+description: Install Rocket.Chat as HA with mongodb replicaset as backend
+---
+
+# High Availability
 
 ## Install MongoDB Replicaset
 
