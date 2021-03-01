@@ -23,7 +23,7 @@ A warning is also displayed.
 
  If you click on **More Info**, 
 
-![](../../../.gitbook/assets/image%20%28281%29.png)
+![](../../../.gitbook/assets/image%20%28284%29.png)
 
 you are given an explanation with a status, as shown below:  
 

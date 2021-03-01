@@ -131,8 +131,14 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### App: Bad-Words Filter
 
-* **Mentors:** [@marcelo.schmidt](https://open.rocket.chat/marceloschmidt)
-* **Description:** Rocket.Chat currently uses a third-party package to filter bad words. This poses a few problems, such as having to update the package every so often, having to check which words have been added or excluded in newer versions and deciding if we would like to keep blocking or allowing words. This project is for building an App that can be enabled in our Marketplace that will filter out a list of default bad words but will allow admins to add or delete words from that list.  _\*\*_
+* **Mentors:** [@marcelo.schmidt](https://open.rocket.chat/marceloschmidt) and [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert)
+* **Description:** Rocket.Chat currently uses a third-party package to filter bad words. This poses a few problems, such as having to update the package every so often, having to check which words have been added or excluded in newer versions and deciding if we would like to keep blocking or allowing words. This project is for building an App that can be enabled in our Marketplace that will filter out a list of default bad words but will allow admins to add or delete words from that list. The app will need to cover the following requirements:
+  * Create a UI for managing the App settings
+  * Load a list of words from a URL
+  * Add/Remove words from a list
+  * Add/Remove channels where the bad words filtering is enabled \(with a toggle for "all channels"\)
+  * Provide statistics on blocked words and offending users
+  * Automatically deactivate users that go above a certain threshold
 * **Desirable Skills**: Familiarity with JavaScript and TypeScript. Knowledge in how to build Rocket.Chat Apps is a plus.
 
 ### **Houston Improvements - Rocket.Chat release/changelog generator**
