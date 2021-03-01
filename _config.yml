@@ -1,33 +1,36 @@
-title: "Rocket.Chat Documentation"
-description: Rocket.Chat user, admin, API, integration, plugin and contributing documentation.
-
-# leave trailing slash off
-url: https://rocket.chat/docs
-
-# bump if alterting styles or js
-version: 40
-
+---
+title: Rocket.Chat Documentation
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  - scope:
-      type: ""
-    values:
-      layout: "default"
-
+- scope:
+    path: ''
+    type: ''
+  values:
+    layout: default
+description: Rocket.Chat user, admin, API, integration, plugin and contributing documentation.
+url: https://rocket.chat/docs
+version: 101
 sass:
   style: compressed
   sass_dir: _sass
-
 plugins:
-  - jekyll-redirect-from
-
+- jekyll-redirect-from
 whitelist:
-  - jekyll-redirect-from
-
+- jekyll-redirect-from
 markdown: kramdown
-
 highlighter: rouge
-
+liquid:
+  error_mode: lax
+include:
+- .gitbook
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor
+- Gemfile
+- Gemfile.lock
+- vendor
