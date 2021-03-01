@@ -152,3 +152,12 @@ Add this environmental variable in the Rocket.Chat service file \(/usr/lib/syste
 
 Environment=LD\_PRELOAD=/opt/Rocket.Chat/programs/server/npm/node\_modules/sharp/vendor/lib/libz.so
 
+## Troubleshooting
+
+**502 Bad Gateway**
+
+If your installing Rocket.Chat on CentOS or RHEL you may encounter a 502 Bad Gateway error after setting up setup a reverse proxy with Nginx. To fix this you need to enable loopback for your upstream in SELinux.
+
+```
+setsebool -P httpd_can_network_connect 1
+```
