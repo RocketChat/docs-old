@@ -8,4 +8,3 @@ We will be separating these guides into 2 categories: basic and advanced.
 
 * [Basic White-Labeling](https://docs.rocket.chat/guides/administrator-guides/white-labeling/basic-white-labeling)
 * [Advanced White-Labeling](https://docs.rocket.chat/guides/administrator-guides/white-labeling/advanced-white-labeling)
-
