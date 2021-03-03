@@ -1,4 +1,4 @@
-# Remove other tokens
+# Register
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
