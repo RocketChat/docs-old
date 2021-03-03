@@ -223,5 +223,11 @@ Interested students are also encouraged to interact with our core team and contr
   * Icons accompanying text.
   * Bigger highlight over selected text or cursor active/hover using "tab" key.
   * Show a better solution when an Agent is typing.
-  * Etc.
+  * Etc
+
+### **Matrix Interoperability : migrating to native support**
+
+* **Mentors:**  [@sing.li](https://open.rocket.chat/direct/sing.li) [@gabriel.engel](https://open.rocket.chat/direct/gabriel.engel)
+* **Desirable Skills:** Familiarity with matrix.org protocol; skilled in rust, golang, and TypeScript development 
+* **Description:** Explore and improve existing Rocket.Chat to Matrix.org bridge\(s\)   Investigate current state of development in dendrite and hydrogen.  Start the work on migrating to  native support of the matrix protocols.
 
