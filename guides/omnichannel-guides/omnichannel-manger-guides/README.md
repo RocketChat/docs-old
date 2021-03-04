@@ -1,6 +1,6 @@
 # Omnichannel Manager's Guides
 
-Being a livechat manger you can access omnichannel livechat settings, as shown below:
+Being a livechat manager, you can access omnichannel livechat settings, as shown below:
 
 ![](../../../.gitbook/assets/image%20%2867%29.png)
 
@@ -10,7 +10,7 @@ Being a livechat manger you can access omnichannel livechat settings, as shown b
 
 ![](../../../.gitbook/assets/image%20%2868%29.png)
 
-The detail of each individual menu is given in their respective article. 
+The detail of each menu is given in their respective article. 
 
 
 

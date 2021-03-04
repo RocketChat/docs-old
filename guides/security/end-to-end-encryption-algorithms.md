@@ -9,6 +9,10 @@ description: >-
 
 ## Encryption Process Overview
 
+{% hint style="info" %}
+End-to-end encryption and its related features \(as listed below\) are currently in beta mode. If you come across problems and areas for improvement, please submit an issue in Github.
+{% endhint %}
+
 First of all, upon login, the client auto-generates the encryption password and asks the user to save it. This password is used to generate a secure 256-bit **AES-CBC** encryption key, called “**Master** **Key**”.
 
 For using end to end encryption \(**E2EE**\), the client \(**C**\) of a user \(**U**\) needs to have a Public-Private key pair \(**Ku, Kr**\). This key pair is generated when the user logs in with a client for the first time. The public key is sent to the server and stored in the database in the User model. The private key is first encrypted using the Master key and then sent to the server for storing in the User model database. If a public-private key pair already exists in the database for the user, instead of generating it again, it is downloaded from the server. The downloaded public key is used as-is, and the encrypted private key is first decrypted using the master key. If the master key has not been decrypted client-side already, the user is prompted to enter the master key again.
@@ -204,6 +208,12 @@ To add an additional layer of security, there exists another feature for push no
 This means to request the push message content from the server to display it and it does not pass any message content - encrypted or not - via Google/Apple/other push gateways. Instead, the message content itself is fetched by and within the Rocket.Chat client itself. What passes via the gateways is only the information, that a new message should be fetched and then shown as a push notification. Once this is received by the client, the client will fetch the content. This way you can prevent that the message content \(even in encrypted form\) passes via a separate gateway. 
 
 Note: This feature is **Enterprise Edition only**.
+
+## Off-the record Messaging \(OTR\) encryption specifications
+
+OTR is closely related to End-to-End-Encryption. It uses the same ciphers, but instead uses only the participant´s local session storage to store the keys.
+
+Keys are exchanged, when the OTR invitation is accepted by the counterpart, that is why all participants need to be online. Messages from an OTR session are removed when the session storage is cleared.
 
   
 
