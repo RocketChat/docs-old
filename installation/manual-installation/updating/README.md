@@ -18,6 +18,12 @@ Remove the installation folder, usually in /opt:
 sudo rm -rf /opt/Rocket.Chat
 ```
 
+Update the node version required by Rocket.Chat:
+
+```text
+sudo n install 12.18.4
+```
+
 Download Rocket.Chat latest version:
 
 ```text
