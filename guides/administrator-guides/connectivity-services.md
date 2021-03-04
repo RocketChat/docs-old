@@ -66,7 +66,7 @@ Fill up the "Email" field with the email related to your Rocket.Chat Cloud accou
 This is recommended right after registering your server. The newly registered workspace will be listed in the "Workspace" section at [cloud.rocket.chat](https://cloud.rocket.chat/)
 
 {% hint style="success" %}
-If you are an enterprise customer \(self-hosted Enterprise or Pro-licensed\), we create a cloud account for you. Please login to their workspace, insert the cloud registration code you received in the welcome email, and then hit **Login to** [**Rocket.Chat**](http://rocket.chat/) **Cloud**
+If you are an enterprise customer \(self-hosted Enterprise or Pro-licensed\), we create a cloud account for you. Please login to your workspace, insert the cloud registration code you received in the welcome email, and then hit **Login to** [**Rocket.Chat**](http://rocket.chat/) **Cloud**
 {% endhint %}
 
 

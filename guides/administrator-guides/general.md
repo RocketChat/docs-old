@@ -140,7 +140,7 @@ This setting affects the `count` query parameter. See more at [Offset and Count 
 
 Here you can set what origins are allowed to make requests to your server.
 
-> You can use `*` to accept from all origins. For multiple Origins use a comma separated list. E.g `domain1.com, domain2.com, domain3.com`
+> You can use `*` to accept from all origins. For multiple Origins use a comma separated list. E.g `https://domain1.com, https://domain2.com, https://domain3.com`
 
 ### Default Count
 
@@ -150,7 +150,7 @@ The default count for REST API results if the consumer did not provided any.
 
 Use this setting to enable [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) for the REST API. Enabling CORS will make the server only accept API Calls from specific origins.
 
-> **Note**: Setting this to false, will make your server only accept requests from the same domain of said server. E.g. `rocket.chat` server will only accept requests from the `rocket.chat` domain.
+> **Note**: Setting this to `false`, will make your server only accept requests from the same domain of said server. E.g. `rocket.chat` server will only accept requests from the `rocket.chat` domain.
 
 ### Enable Direct Message History Endpoint
 

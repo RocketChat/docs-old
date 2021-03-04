@@ -24,7 +24,7 @@ Enable `Omnichannel`. Using canned responses in regular conversations with other
 
 Select the department. Canned responses can be created **per department** as shown below**,** or **per agent** right in an omnichannel conversation. ****Click on the canned responses icon \(top right corner\) to create a new canned response.
 
-![](../../../.gitbook/assets/screenshot-2020-07-28-at-00.28.04%20%281%29.png)
+![](../../../.gitbook/assets/screenshot-2020-07-28-at-00.28.04%20%281%29%20%281%29.png)
 
 _If you want to use canned responses outside the Omnichannel, create an empty department. Note that you will need to define which user roles should be able to use the responses; by default this permission is assigned to livechat-agent, livechat-manager, livechat-monitor and admin roles_
 

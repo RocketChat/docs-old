@@ -37,5 +37,5 @@ The only parameter that needs to be passed in is an object with the `_id`, `rid`
 
 ## See Also:
 
-* [Starring Messages User Guide](../../../guides/user-guides/messaging.md)
+* [Starring Messages User Guide](../../../guides/user-guides/messaging/)
 
