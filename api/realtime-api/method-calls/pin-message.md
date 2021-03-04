@@ -54,5 +54,5 @@ The response of a message being pinned is a new chat message which contains the 
 ## See Also
 
 * [The Message Object](../../schema-definition/the-message-object.md)
-* [Pinning Messages User Guide](../../../guides/user-guides/messaging.md)
+* [Pinning Messages User Guide](../../../guides/user-guides/messaging/)
 

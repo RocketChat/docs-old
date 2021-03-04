@@ -122,7 +122,7 @@ Get one inquiry by room id.
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/livechat/inquiries.getOne` | `yes` | `POST` |
+| `/api/v1/livechat/inquiries.getOne` | `yes` | `GET` |
 
 ## Query Parameters
 

@@ -5,9 +5,13 @@ description: >-
   and supplements the user guide.
 ---
 
-# End-to-End Encryption Algorithms
+# End-to-End Encryption Specifications
 
 ## Encryption Process Overview
+
+{% hint style="info" %}
+End-to-end encryption and its related features \(as listed below\) are currently in beta mode. If you come across problems and areas for improvement, please submit an issue in Github.
+{% endhint %}
 
 First of all, upon login, the client auto-generates the encryption password and asks the user to save it. This password is used to generate a secure 256-bit **AES-CBC** encryption key, called “**Master** **Key**”.
 
@@ -181,6 +185,36 @@ Each route directly corresponds to one server DDP method described above. These 
 
 `POST e2e.emptyKeychain()`
 
-`POST e2e.updateGroupE2EKey(uid, rid, key)`  
+`POST e2e.updateGroupE2EKey(uid, rid, key)`
+
+## Push Notifications of End-to-End encrypted messages
+
+Push Notifications for messages of an E2EE room just contain the encrypted payload of a message, the job of decrypting this content before shown is done locally by the mobile clients \(iOS/Android\).
+
+### Process
+
+Push notifications are sent by the server. The server however doesn't store the unencrypted content of any message from a E2EE room, because only the encrypted string is stored on the server. These encrypted strings only can be decrypted using the private key of a user that is stored locally on clients. 
+
+When a new push notification from a E2EE message arrives, it has a messageType: '`e2e`'. The mobile client then starts the process of decrypting the message that is within the push payload, checking for the locally stored private key of a user and the E2EE key of the room that the message came from. If both are found, the message is the decrypted locally on the device and then shows the plaintext message. In this process, only the encrypted message content passed via the push notification gateways.
+
+This feature is available in our **Community Edition.**
+
+### Fetching full message content from server on receipt \(Enterprise Edition only\)
+
+To add an additional layer of security, there exists another feature for push notifications: 
+
+`Fetch full message content from the server on receipt` 
+
+This means to request the push message content from the server to display it and it does not pass any message content - encrypted or not - via Google/Apple/other push gateways. Instead, the message content itself is fetched by and within the Rocket.Chat client itself. What passes via the gateways is only the information, that a new message should be fetched and then shown as a push notification. Once this is received by the client, the client will fetch the content. This way you can prevent that the message content \(even in encrypted form\) passes via a separate gateway. 
+
+Note: This feature is **Enterprise Edition only**.
+
+## Off-the record Messaging \(OTR\) encryption specifications
+
+OTR is closely related to End-to-End-Encryption. It uses the same ciphers, but instead uses only the participant´s local session storage to store the keys.
+
+Keys are exchanged, when the OTR invitation is accepted by the counterpart, that is why all participants need to be online. Messages from an OTR session are removed when the session storage is cleared.
+
+  
 
 
