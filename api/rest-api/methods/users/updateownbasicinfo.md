@@ -9,10 +9,7 @@
 * To update the password or email for the user you must send `currentPassword` property encrypted in SHA256 together in payload.
 * To save customFields you must first define the customFields in admin panel (Accounts -> Registration -> Custom fields)
 
-
 **WARNING:** This API does not work when the server contains custom fields. There's a bug report [here](https://github.com/RocketChat/Rocket.Chat/issues/11154) related to that.
-
-
 
 ## Payload
 
