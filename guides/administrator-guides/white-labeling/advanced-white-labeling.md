@@ -24,11 +24,11 @@ This script runs after the user has logged out.
 
 ### Custom Script for Logged Out Users
 
-Custom Script that will run whenever a user that is not logged in access your server url. e.g. \(whenever you enter the login page\)
+Custom Script that will run whenever a user that is not logged in accesses your server url. e.g. \(whenever you enter the login page\)
 
 ### Custom Script for Logged In Users
 
-Custom Script that will run whenever a user that is logged in access your server url \(eg. opens a browser page or the desktop app\)
+Custom Script that will run whenever a user that is logged in accesses your server url \(eg. opens a browser page or the desktop app\)
 
 ## Email Templates
 

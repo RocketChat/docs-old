@@ -10,7 +10,7 @@ Unpinning a message allows administrators and owners of rooms to remove pinned i
 
 ## Example Call
 
-The only parameter that needs to be passed in is the [Message Object](../../../guides/user-guides/messaging.md) and as of release `0.46` you need to send the entire message object otherwise an internal error will happen \([fixed via pull request \#5087](https://github.com/RocketChat/Rocket.Chat/pull/5087)\).
+The only parameter that needs to be passed in is the [Message Object](../../../guides/user-guides/messaging/) and as of release `0.46` you need to send the entire message object otherwise an internal error will happen \([fixed via pull request \#5087](https://github.com/RocketChat/Rocket.Chat/pull/5087)\).
 
 ```javascript
 {
@@ -23,7 +23,7 @@ The only parameter that needs to be passed in is the [Message Object](../../../g
 
 ## Example Response
 
-The response of a message being pinned is a new chat message which contains the broadcast of the message pinning. See [Message Object Details](../../../guides/user-guides/messaging.md) for information about the response format.
+The response of a message being pinned is a new chat message which contains the broadcast of the message pinning. See [Message Object Details](../../../guides/user-guides/messaging/) for information about the response format.
 
 ```javascript
 {
@@ -53,5 +53,5 @@ The response of a message being pinned is a new chat message which contains the 
 
 ## See Also
 
-* [Pinning Messages User Guide](../../../guides/user-guides/messaging.md)
+* [Pinning Messages User Guide](../../../guides/user-guides/messaging/)
 

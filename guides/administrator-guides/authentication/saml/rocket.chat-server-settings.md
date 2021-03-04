@@ -16,7 +16,7 @@ This is the URL provided by your IdP for logging out. In SAML-terminology, it re
 
 ### Custom Issuer \(SP entityID\)
 
-The URI that is the unique identifier of your service. By convention, this is also the URL of your \(unedited\) metadata. Again, where you set Custom Provider to 'my-app', this will be:
+The URI is the unique identifier of your service. By convention, this is also the URL of your \(unedited\) metadata. Again, where you set Custom Provider to 'my-app', this will be:
 
 `https://my-rocketchat-domain.tld/_saml/metadata/my-app`
 
@@ -32,17 +32,17 @@ Format for this is PEM WITH `-----BEGIN CERTIFICATE-----` and `-----END CERTIFIC
 
 ### Private Key Contents \(SP Signing Private Key\)
 
-The private key matching the self-signed certificate you created as PKCS\#1 PEM. Format for this is PEM WITH `-----BEGIN PRIVATE KEY-----` and `-----END PRIVATE KEY-----`.
+The private key matches the self-signed certificate you created as PKCS\#1 PEM. Format for this is PEM WITH `-----BEGIN PRIVATE KEY-----` and `-----END PRIVATE KEY-----`.
 
 ### SAML Assertion
 
-You must to send the **Email** field in your assertion, or it doesn't work. When the email matches the existing user, it overwrites the user's username with the username value, if that is in your assertion.
+You must send the **Email** field in your assertion, or it doesn't work. When the email matches the existing user, it overwrites the user's username with the username value, if that is in your assertion.
 
 ### SAML Encryption
 
-SAML Assertions encryption on **either** site might not work and cause signature validation to fail. See [\#10556](https://github.com/RocketChat/Rocket.Chat/issues/10556) for a more up to date information to this issue.
+SAML Assertions encryption on **either** site might not work and cause signature validation to fail. See [\#10556](https://github.com/RocketChat/Rocket.Chat/issues/10556) for more up to date information on this issue.
 
-As a popular open source IdP, SimpleSAMLphp can be used to provide an authentication endpoint for Rocket.Chat and the build in SAML support. Assuming that you have a SimpleSAMLphp IdP up and running - [quickstart instructions here](https://simplesamlphp.org/docs/stable/simplesamlphp-idp), you can find the metadata for the Rocket.Chat SAML Service Provider \(SP\) here, where 'my-app' is whatever you put in the **Custom Provider** box in the Rocket.Chat SAML admin page:
+As a popular open-source IdP, SimpleSAMLphp can be used to provide an authentication endpoint for Rocket.Chat and the build-in SAML support. Assuming that you have a SimpleSAMLphp IdP up and running - [quickstart instructions here](https://simplesamlphp.org/docs/stable/simplesamlphp-idp), you can find the metadata for the Rocket.Chat SAML Service Provider \(SP\) here, where 'my-app' is whatever you put in the **Custom Provider** box in the Rocket.Chat SAML admin page:
 
 `https://my-rocketchat-domain.tld/_saml/metadata/my-app`
 

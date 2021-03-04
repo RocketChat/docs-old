@@ -91,7 +91,7 @@ Application for technical writers has opened. Please use this [form](https://for
 
 * **Mentors**: @d-gubert @rodrigok
 * **Description**: The Apps-Engine is a framework that enables developers to integrate new functionality to Rocket.Chat without having to deep dive in the code base, and makes it possible to distribute your Rocket.Chat Apps to the wide community of users! And in order to improve the developer experience when making those apps, we need to improve our docs so they guide people smoothly through the available features. You will be working with Rocket.Chat Apps leads to extend the guides and docs that already exist, focusing on the DX of the community.
-* **Related Material**: [Getting Started with Rocket.Chat Apps](https://docs.rocket.chat/developer-guides/developing-apps/getting-started/), [Rocket.Chat Apps-Engine API Reference](https://rocketchat.github.io/Rocket.Chat.Apps-engine/)
+* **Related Material**: [Getting Started with Rocket.Chat Apps](https://docs.rocket.chat/guides/developer/mobile-apps), [Rocket.Chat Apps-Engine API Reference](https://rocketchat.github.io/Rocket.Chat.Apps-engine/)
 
 ### JS SDK documentation
 
