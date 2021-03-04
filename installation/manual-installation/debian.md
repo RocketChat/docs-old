@@ -29,10 +29,10 @@ Configure Node.js to be installed via package manager:
 sudo apt-get -y update && sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
 ```
 
-Install build tools, MongoDB, nodejs and graphicsmagick:
+Install build tools, MongoDB, nodejs, fontconfig and graphicsmagick:
 
 ```bash
-sudo apt-get install -y build-essential mongodb-org nodejs graphicsmagick
+sudo apt-get install -y build-essential mongodb-org nodejs fontconfig graphicsmagick
 ```
 
 Using npm install inherits and n, and the node version required by Rocket.Chat:
