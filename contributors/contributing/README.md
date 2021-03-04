@@ -14,7 +14,7 @@ To help improve our **documentation**, please see [contribution guides](document
 
 **Bloggers and news writers**, feel free to [spread the word](promoting.md)!
 
-## Code of Conduct
+## Contributor Covenant Code of Conduct
 
 This project adheres to the [Contributor Covenant](http://contributor-covenant.org) code of conduct. By participating, you are expected to uphold this code. Please report unacceptable behaviour to team@rocket.chat
 

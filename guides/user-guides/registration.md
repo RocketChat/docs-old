@@ -1,6 +1,6 @@
 # Registering an account
 
-To access any Rocket.Chat server, register an account manually or by using one of the many supported OAuth services \(if the desired server has enabled these services\). After successfully registering, you can [log in](login.md) to the server.
+To access any Rocket.Chat server, register an account manually or by using one of the many supported OAuth services \(if the desired server has enabled these services\). After successfully registering, you can [log in]() to the server.
 
 ## Manual registration
 
