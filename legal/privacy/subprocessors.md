@@ -2,7 +2,7 @@
 
 This page lists Rocket.Chat's current subprocessors for personal data and is updated on a regular basis.
 
-Last update: 24.09.2020
+Last update: 23rd October,2020
 
 <table>
   <thead>
@@ -47,6 +47,10 @@ Last update: 24.09.2020
     </tr>
     <tr>
       <td style="text-align:left">PRVolt</td>
+      <td style="text-align:left">email marketing</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Yesware</td>
       <td style="text-align:left">email marketing</td>
     </tr>
   </tbody>
