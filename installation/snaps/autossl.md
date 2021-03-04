@@ -21,7 +21,7 @@ sudo snap set rocketchat-server https=enable
 sudo snap run rocketchat-server.initcaddy
 ```
 
-If no errors where found is safe to restart rocket.chat and Caddy:
+If no errors were found, it is safe to restart rocket.chat and Caddy:
 
 ```bash
 sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
@@ -37,7 +37,7 @@ sudo snap set rocketchat-server caddy=enable
 sudo snap run rocketchat-server.initcaddy
 ```
 
-If no errors where found is safe to restart rocket.chat and Caddy:
+If no errors were found, it is safe to restart rocket.chat and Caddy:
 
 ```bash
 sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
@@ -62,7 +62,7 @@ Then, edit the Caddyfile found at `/var/snap/rocketchat-server/current/Caddyfile
 
 Replace `_caddy-url_` and `_port_` with your site information. For instance, let's say I have example-domain.com pointing at my server.
 
-First, be sure that your DNS has finished resolving before **before** attempting to enable SSL. If your DNS is not working yet, you could be instantly [throttled by Let's Encrypt](https://caddyserver.com/docs/automatic-https#testing) for _up to a week_. To test your DNS you can use http:
+First, be sure that your DNS has finished resolving **before** attempting to enable SSL. If your DNS is not working yet, you could be instantly [throttled by Let's Encrypt](https://caddyserver.com/docs/automatic-https#testing) for _up to a week_. To test your DNS you can use http:
 
 ```bash
 http://example-domain.com

@@ -1,6 +1,6 @@
 # Guidelines for Law Enforcement
 
-Last updated: October 14th, 2020
+Last updated: February 21st, 2021
 
 These guidelines are intended for law enforcement authorities seeking information about Rocket.Chat accounts. More general information is available in our [Privacy Policy](https://rocket.chat/privacy) and [Terms of Service](https://rocket.chat/terms).
 
@@ -14,15 +14,19 @@ As a platform, Rocket.Chat can be deployed various ways. The interaction on the 
 
 In short, there are three relevant deployment options of Rocket.Chat, that affect the process for requesting information:
 
-1. servers hosted by us \(Rocket.Chat Technologies Corp.\) and managed by us directly \(such as our community server\)
+1. servers hosted by us \(Rocket.Chat Technologies Corp.\) and managed by us directly \(such as our community servers\)
 2. servers hosted by us, but managed by a customer \(our hosted offering\)
 3. servers hosted by a third party \(private servers\)
 
-The third option - private servers - is the most common one.
+The third option - private server - is the most common one.
+
+{% hint style="info" %}
+For clarification purposes: a **server,** on which Rocket.Chat is running, ****can contain various **instances** of Rocket.Chat, depending on the configuration. An instance of Rocket.Chat is each a unique community of users communicating with each other. In the following, we refer to **servers**, that run whichever number of Rocket.Chat instances \(1 or more\).
+{% endhint %}
 
 How can you find out, which deployment is being used?
 
-We offer a server lookup, which checks if the server is hosted by us \(options 1 and 2\) or not \(option 3\). Please check [here](https://rocket.chat/server-lookup) for the lookup form.
+We offer a lookup, which checks if the server is hosted by us \(options 1 and 2\) or not \(option 3\). Please check [here](https://rocket.chat/server-lookup) for the lookup form.
 
 ## **Private servers**
 
@@ -47,13 +51,13 @@ That server is subject to our [Code of Conduct](https://rocket.chat/code-of-cond
 
 Any other Rocket.Chat server you access is not operated by Rocket.Chat Technologies Corp. and is subjected to the usage warning above.
 
-That said, Rocket.Chat Technologies Corp. provides a cloud service for hosting Rocket.Chat instances. The user data, messages and files on those instances are subject to our [Terms of Use](https://rocket.chat/terms).
+That said, Rocket.Chat Technologies Corp. provides a cloud service for hosting Rocket.Chat servers. The user data, messages and files on those servers are subject to our [Terms of Use](https://rocket.chat/terms).
 
-To know if an instance belongs to Rocket.Chat cloud, please contact us, use the aforementioned server lookup or use domain information systems.
+To know if a server belongs to Rocket.Chat cloud, please contact us, use the aforementioned server lookup or use domain information systems.
 
 What account information does Rocket.Chat have?
 
-Rocket.Chat does not keep a log of IPs used to access either Community Server or Rocket.Chat Cloud instances.
+Rocket.Chat does not keep a log of IPs used to access either Community Server or Rocket.Chat Cloud servers.
 
 **Community Server**
 
@@ -63,7 +67,7 @@ We do not keep a log of IPs.
 
 **Rocket.Chat Cloud**
 
-When someone signs up for a Rocket.Chat Cloud server, we ask for a name, e-mail, workspace name and domain they'd like to use. The e-mail is then verified before the instance is deployed. Every message and file sent is stored within Rocket.Chat cloud servers and databases hosted with a third party hosting provider. Rocket.Chat does not actively scan the content activity in Cloud servers.
+When someone signs up for a Rocket.Chat Cloud server, we ask for a name, e-mail, workspace name and domain they'd like to use. The e-mail is then verified before the server is deployed. Every message and file sent is stored within Rocket.Chat cloud servers and databases hosted with a third party hosting provider. Rocket.Chat does not actively scan the content activity in Cloud servers.
 
 ## **Individual user account information**
 
@@ -71,9 +75,9 @@ Rocket.Chat is a platform and the interaction between individuals on the platfor
 
 _firstname.lastname_
 
-These accounts are unique to the deployed instance of the Rocket.Chat platform. So if information is requested for an individual user account of the platform, this information goes only as far as the scope of that specific, individual instance of Rocket.Chat. 
+These accounts are unique to the deployed server of the Rocket.Chat platform. So if information is requested for an individual user account of the platform, this information goes only as far as the scope of that specific, individual server of Rocket.Chat. 
 
-**To identify the proper user account, the specific instance therefore must be named as well \(generally in form of the URL\).**
+**To identify the proper user account, the specific server therefore must be named as well \(generally in form of the URL\).**
 
 The aforementioned restrictions with regards to the deployment options apply to users as well. User information cannot be produced by us for user accounts of private Rocket.Chat servers. Requests for such information should be targeted at the administrator of the private server. If the administrator is unknown, the request should be targeted at the owner of the DNS record of the private server domain.
 
