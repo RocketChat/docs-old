@@ -1,4 +1,4 @@
-# Delete
+# Deactivate Idle
 
 Deactivate Idle users. Requires `edit-other-user-active-status` permission.
 

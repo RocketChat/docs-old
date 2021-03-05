@@ -40,11 +40,10 @@ Here are some nice blog posts about our project for you to get some inspiration:
 
 * [http://www.thehacktoday.com/how-to-install-rocket-chat-make-your-own-chatting-website](http://www.thehacktoday.com/how-to-install-rocket-chat-make-your-own-chatting-website)
 * [https://sameroom.io/blog/self-hosted-team-chat-options-and-alternatives](https://sameroom.io/blog/self-hosted-team-chat-options-and-alternatives)
-* [http://blog.geekgonecrazy.com/2015/09/19/osx-setup/\#rocketchat](http://blog.geekgonecrazy.com/2015/09/19/osx-setup/#rocketchat)
 * [https://snowulf.com/2015/09/25/why-slack-when-you-can-rocket-chat/](https://snowulf.com/2015/09/25/why-slack-when-you-can-rocket-chat/)
-* [http://liminality.xyz/self-hosting/](http://liminality.xyz/self-hosting/)
 * [https://www.rosehosting.com/blog/install-rocketchat-on-an-ubuntu-14-04-vps/](https://www.rosehosting.com/blog/install-rocketchat-on-an-ubuntu-14-04-vps/)
 * [https://thishosting.rocks/how-to-install-rocket-chat-on-ubuntu-and-use-it-on-your-wordpress/](https://thishosting.rocks/how-to-install-rocket-chat-on-ubuntu-and-use-it-on-your-wordpress/)
+* [https://linuxstans.com/install-configure-rocket-chat-centos-8/](https://linuxstans.com/install-configure-rocket-chat-centos-8/)
 
 ## Presentations
 
