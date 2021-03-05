@@ -2,7 +2,7 @@
 
 In Rocket. Chat start video and audio conferences using [Jitsi Meet](https://jitsi.org/jitsi-meet/)
 
-**Note:** This feature must be enabled by the server's administrator. See [Setting up video conferencing](../administrator-guides/setting-up-video-conferencing.md).
+**Note:** This feature must be enabled by the server's administrator. See [Setting up video conferencing](../administrator-guides/setting-up-video-conferencing/).
 
 ## Start a Jitsi meet
 
@@ -12,7 +12,7 @@ Go to the channel or user that you want to start a video conference. Access the 
 
 **Note:** If you can't see the **Video Chat** option on the channel actions menu, please contact your system admin, since video conferencing can be allowed only on private channels or on all channels depending on the server configuration.
 
-Other users can join the meeting using the **Click to Join!** option that sends to the channel or user.
+Other users can join the meeting using the **Click to Join!** an option that sends to the channel or user.
 
 ## Screen Sharing
 

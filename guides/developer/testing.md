@@ -29,6 +29,6 @@ password: "rocketchat.internal.admin.test"
 On another terminal window, run the test with the command bellow:
 
 ```text
-meteor npm run chimp-test
+meteor npm run test
 ```
 
