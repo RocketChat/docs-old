@@ -1,8 +1,12 @@
-# Guide to install Rocket.Chat as HA with mongodb replicaset as backend
+---
+description: Install Rocket.Chat as HA with mongodb replicaset as backend
+---
+
+# High Availability
 
 ## Install MongoDB Replicaset
 
-* Use [https://medium.com/@gargar454/deploy-a-mongodb-cluster-in-steps-9-using-docker-49205e231319\#.8dfln7n8c](mailto:https://medium.com/@gargar454/deploy-a-mongodb-cluster-in-steps-9-using-docker-49205e231319#.8dfln7n8c) to setup the mongodb replicaset
+* Use [https://medium.com/@gargar454/deploy-a-mongodb-cluster-in-steps-9-using-docker-49205e231319\#.8dfln7n8c](https://medium.com/@gargar454/deploy-a-mongodb-cluster-in-steps-9-using-docker-49205e231319#.8dfln7n8c) to setup the mongodb replicaset
 * Create a user called oploguser with rights on local oplog database:
 
   `db.createUser({user: "oploguser", pwd: "password", roles: [{role: "read", db: "local"}]})`
@@ -25,7 +29,7 @@ rocketchat:
     environment:
         - PORT=3000
         - ROOT_URL=https://chat.domain.de
-        - MONGO_URL=mongodb://rocket:password@rocket-1:27017,rocket-2:27017,rocket-3:27017/rocketchat?authSource=admin&replicaSet=rs0&readPreference=nearest&w=majority
+        - MONGO_URL=mongodb://rocket:password@rocket-1:27017,rocket-2:27017,rocket-3:27017/rocketchat?authSource=admin&replicaSet=rs0&w=majority
         - MONGO_OPLOG_URL=mongodb://oploguser:password@rocket-1:27017,rocket-2:27017,rocket-3:27017/local?authSource=admin&replicaSet=rs0
         - INSTANCE_IP=<ip of the local instance>
     ports:
@@ -39,6 +43,6 @@ rocketchat:
 ### Create Loadbalancer
 
 * Now setup up a [reverse proxy](../manual-installation/configuring-ssl-reverse-proxy.md) on each host to terminate ssl on each rocket.chat node or terminate ssl on the loadbalancer, this is up to you.
-* Here is a link to a \[Nginx multi instance reverse proxy example\] \(../../installation/manual-installation/multiple-instances-to-improve-performance\)
+* See [Nginx multi instance reverse proxy example](https://docs.rocket.chat/installation/manual-installation/multiple-instances-to-improve-performance#update-your-nginx-proxy-config)
 * Setup a loadbalancer to reach each instance on 443 or 3000 \(depends on the choice above\)
 

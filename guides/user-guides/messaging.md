@@ -4,7 +4,7 @@ This page explains the ins and outs of messaging in Rocket.Chat.
 
 ## Compose messages
 
-To compose a message in Rocket.Chat, go the channel or user you want to send a message. Type the message box and press Enter or the **Send** Button.
+To compose a message in Rocket.Chat, go to the channel or user you want to send a message. Type the message box and press Enter or the **Send** Button.
 
 If you want to add new lines of text, press Shift + Enter to add a new line.
 
@@ -74,7 +74,7 @@ Create Google docs, slides, and sheets by clicking to corresponding file type in
 
 ## Links
 
-URL's to other sites automatically generate a preview of that site's content. Copy and paste the link into the message box to create the preview.
+URLs to other sites automatically generate a preview of that site's content. Copy and paste the link into the message box to create the preview.
 
 ## Location
 
@@ -92,7 +92,7 @@ Rocket.Chat changes common emoticons, or symbols used to represent emoji, to the
 
 ### Disabling emojis
 
-Emojis can be enabled/disabled in [Your Account](managing-your-account.md) settings under the **Messages** section.
+Emojis can be enabled/disabled in [Your Account](user-panel/managing-your-account.md) settings under the **Messages** section.
 
 When graphical emojis are disabled, emoji keywords and shortcuts display as regular text.
 
@@ -103,7 +103,7 @@ Use the following symbols to format text as desired:
 * Bold: `*Lorem ipsum dolor*`
 * Italic: `_Lorem ipsum dolor_`
 * Strike: `~Lorem ipsum dolor~`
-* Inline code: ```Lorem ipsum dolor``` 
+* Inline code: ``` `Lorem ipsum dolor` ``` 
 * Image: `![Alt text](https://rocket.chat/favicon.ico)`
 * Link: `[Lorem ipsum dolor](https://www.rocket.chat/)` or `<https://www.rocket.chat/ |Lorem ipsum dolor>`
 

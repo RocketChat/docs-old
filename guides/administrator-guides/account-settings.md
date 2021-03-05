@@ -70,7 +70,7 @@ Clicking on the `Reset` button will reset all these basic configurations back to
 
 ## Iframe
 
-These settings are related to the Iframe Integration, please see the [Iframe integration page](../developer-guides/iframe-integration/) for more details.
+These settings are related to the Iframe Integration, please see the [Iframe integration page](../developer/iframe-integration/) for more details.
 
 ## Password Policy
 

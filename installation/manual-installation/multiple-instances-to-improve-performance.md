@@ -136,8 +136,8 @@ server {
         proxy_set_header Host $http_host;
 
         proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forward-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forward-Proto http;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto https;
         proxy_set_header X-Nginx-Proxy true;
 
         proxy_redirect off;

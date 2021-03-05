@@ -1,4 +1,8 @@
-# Deploying Rocket.Chat on Google Compute Engine
+---
+description: Deploying Rocket.Chat on Google Compute Engine
+---
+
+# Google Compute Engine
 
 ## 1. Create a compute instance
 

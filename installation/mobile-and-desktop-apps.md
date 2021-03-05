@@ -8,7 +8,7 @@ Here you can find the Electron based Desktop Apps:
 
 ### Windows
 
-Can be found [here](https://rocket.chat/download)
+Can be found [here](https://rocket.chat/install)
 
 ### macOS
 
@@ -36,49 +36,39 @@ You can find the download for the latest releases [here](https://github.com/Rock
 
 ## Mobile Apps
 
-You can find 3 kinds of mobile apps:
+![](../.gitbook/assets/ic_launcher-web%20%281%29.png)
 
-* **Native apps:** The Native apps of their respective platform. They are faster than the hybrid apps.
-* **React Native:** Experimental apps using the _React Native_ technology. They are faster than the hybrid apps.
-* **Hybrid \(cordova\) Apps:** These are slower hybrid apps, they are basically a wrapper for the webpage with some extra features.
+### Rocket.Chat
 
-### Native iOS App \(Rocket.Chat+\)
+This is the official version of our mobile apps both on Google Play and App Store.
 
-The app for iOS \(iPhone, iPad, iPod touch\) can be found on the App Store. Just search for `Rocket.Chat+`
+[Rocket.Chat on App Store](https://apps.apple.com/us/app/rocket-chat/id1148741252)
 
-[Rocket.Chat+ on App Store](https://itunes.apple.com/us/app/rocket-chat/id1148741252?mt=8)
+[Rocket.Chat on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.android)
 
-### Native Android App \(Rocket.Chat Beta\)
+#### Rocket.Chat Beta
 
-The app for Android can be found on Google Play. Just search for `Rocket.Chat Beta`
+Beta versions of our apps are available on Google Play beta and TestFlight. Help us testing new features!
+
+[Rocket.Chat Beta on TestFlight](https://testflight.apple.com/join/3gcYeoMr)
 
 [Rocket.Chat Beta on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.android)
 
-### React Native Android App
+![](../.gitbook/assets/ic_launcher-web.png)
 
-The experimental app for Android can be found on Google Play. Just search for `Rocket.Chat Experimental`
+### Rocket.Chat Experimental
 
-[![Rocket.Chat Experimental on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)
+The Experimental version of our mobile apps is developed using the same technologies and code of the official version. We use it to try new features and get feedback from our users. Only stable features land the official version.
 
-### React Native iOS App
+[Rocket.Chat Experimental on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)
 
-The experimental app for iOS can be found on the App Store. Just search for `Rocket.Chat Experimental`
+_Note: iOS version isn't available on App Store anymore._
 
-[Rocket.Chat Experimental on App Store](https://itunes.apple.com/us/app/rocket-chat-experimental/id1272915472)
+#### Rocket.Chat Experimental Beta
 
-### Adding servers to Android and iOS mobile clients
+Beta versions of our apps are available on Google Play beta and TestFlight. Help us testing new features!
 
-When using most of the apps, you will be prompted to add the server to be used on the app. Enter the URL to your Rocket.Chat server \(e.g. [https://open.rocket.chat](https://open.rocket.chat)\) to initialize the app.
+[Rocket.Chat Experimental Beta on TestFlight](https://testflight.apple.com/join/7I3dLCNT)
 
-### Android and iOS Legacy Users running Rocket.Chat server on a Sandstorm Grain
-
-_Note: this guide is for the legacy \(cordova\) app. It might not be up to date._
-
-1. On your phone in a browser open Sandstorm and open the Rocket.Chat grain.
-2. Open the hamburger menu \(upper-left\) and choose "Get Webkey". \(On the desktop view, you would click the key icon in the topbar.\)
-3. Optionally enter a label \(e.g. "phone"\) and then click "create".
-4. You'll be presented with a URL, aka a "webkey". Long-press on this URL, then choose "copy link address".
-5. Open the Rocket.Chat app.
-6. Paste in the copied URL \(the whole thing!\) as your Rocket.Chat server address.
-7. That's it! No password is needed, since an authorization token is encoded into the URL.
+[Rocket.Chat Experimental Beta on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)
 

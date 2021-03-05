@@ -35,7 +35,7 @@ Rocket.Chat is very grateful for the following people who have responsibly discl
 * [Kamran Saifullah](https://pk.linkedin.com/in/kamransaifullah786), November/2015.
 * [Sabri Haddouche](https://github.com/pwnsdx), November/2015.
 * [Dennis Brakhane](https://inoio.de), February/2016.
-* [Jeandre Le Roux](https://www.theblazehen.com/stories/about-me/index.html), April/2016.
+* Jeandre Le Roux, April/2016.
 * [Matthias Brun](https://redguard.ch), May/2016.
 * [Michal Marek](https://github.com/ecneladis), May/2016.
 * [Sam Whited](https://github.com/SamWhited), July/2016.
@@ -43,13 +43,23 @@ Rocket.Chat is very grateful for the following people who have responsibly discl
 * [Sachin Wagh\(@tiger\_tigerboy\)](https://secur1tyadvisory.wordpress.com), September/2016
 * [Yury Maryshev, Mikhail Klyuchnikov, Alexandr Shvetsov](https://www.ptsecurity.com), October/2016
 * [Matthew Bryant](https://thehackerblog.com), October/2016
-* [Joe DeMesy](https://badwith.computer), October/2016
+* Joe DeMesy, October/2016
 * [Shubham Shah](https://shubs.io), October/2016
 * [Steeve Barbeau](https://twitter.com/steevebarbeau), October/2017
 * [Johann Helbling](https://mobile.twitter.com/jhelblinghh), August 2019
 * [Maik Stegemann](https://twitter.com/sectex_), November 2019
 * [Dipmalya Pyne](https://www.linkedin.com/in/dipmalya-pyne/), November 2019  
 * [Karthik](https://twitter.com/86Karthik86?s=03), May 2020
+* [ALK Surya Teja](https://www.linkedin.com/in/alk-surya-teja-59b677146/), June 2020
+* [Virendra Yadav](https://www.linkedin.com/in/virendra-yadav-9232b115a/), June 2020
+* Pawel Wylecial of [REDTEAM.PL](https://redteam.pl), July 2020
+* [Robert Grösser](https://github.com/qchn), August 2020
+* [Vladica Savic](https://twitter.com/vsavic), August 2020
+* Ivars Vids, September 2020
+* [Nikhil Mittal](https://twitter.com/c0d3g33k), Oktober 2020
+* [Kunal Narsale](http://linkedin.com/in/kunal-n-3b9587135), December 2020
+* [Shubham Panchal](https://www.linkedin.com/in/shubham-panchal-636744161/), December 2020
+* [Jorge Cardona](https://jorge-cardona.github.io), November 2020
 
 Thank you all very much!
 

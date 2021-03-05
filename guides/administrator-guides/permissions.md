@@ -106,7 +106,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | set-readonly | Permission to set room read-only. Accessible from Room Info -&gt; Edit. |
 | snippet-message | Permission to create message snippets. |
 | start-discussion | Permission to start a discussion. |
-| start-discussion-other-user | Permission to start a discussion \(Equivalent to start-discussion at this stage\). |
+| start-discussion-other-user | Permission to start a discussion, which gives permission to the user to create a discussion from a message sent by another user as well. |
 | unarchive-room | Permission to unarchive channels. |
 | user-generate-access-token | Permission to create authorization tokens for users. |
 | view-broadcast-member-list | Permission to view the list of users in a broadcast channel. |

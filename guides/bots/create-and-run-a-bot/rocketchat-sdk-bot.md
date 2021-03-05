@@ -126,8 +126,8 @@ subscribed
 connected and waiting for messages
 [getRoomIdByNameOrId] Calling (cached): general
 [getRoomIdByNameOrId] Success: "GENERAL"
-[sendMessage] Calling (async): [{"msg":"Rocket Chat BOT is listening ...","bot":{"i":"js.SDK"},"rid":"GENERAL"}]
-[sendMessage] Success: {"msg":"Rocket Chat BOT is listening ...","bot":{"i":"js.SDK"},"rid":"GENERAL","ts":{"$date":1573598821912},"u":{"_id":"GDJn6Exf9LpK2Pp5n","username":"botUser"},"mentions":[],"channels":[],"_updatedAt":{"$date":1573598821920},"_id":"6yTcbcNKuMDBdPsFc"}
+[sendMessage] Calling (async): [{"msg":"Rocket.Chat BOT is listening ...","bot":{"i":"js.SDK"},"rid":"GENERAL"}]
+[sendMessage] Success: {"msg":"Rocket.Chat BOT is listening ...","bot":{"i":"js.SDK"},"rid":"GENERAL","ts":{"$date":1573598821912},"u":{"_id":"GDJn6Exf9LpK2Pp5n","username":"botUser"},"mentions":[],"channels":[],"_updatedAt":{"$date":1573598821920},"_id":"6yTcbcNKuMDBdPsFc"}
 Greeting message sent
 [received] Message in room GENERAL
 ```

@@ -1,4 +1,8 @@
-# Deploying Rocket.Chat on IBM Cloud
+---
+description: Deploying Rocket.Chat on IBM Cloud
+---
+
+# IBM Cloud
 
 IBM Cloud have various options for hosting Rocket.Chat, Docker container on a Kubernetes cluster, VMWare, Bare Metal Server, but the instructions below will focus in creating a Cloud Foundry Rocket.Chat app.
 

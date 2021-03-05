@@ -1,4 +1,8 @@
-# Deploying Rocket.Chat on Oracle Cloud Infrastructure
+---
+description: Deploying Rocket.Chat on Oracle Cloud Infrastructure
+---
+
+# Oracle Cloud
 
 You can install Rocket.Chat on Oracle infrastructure using the Rocket.Chat application from the Oracle Cloud Marketplace, it is a very easy install. Find our listing in Oracle's marketplace [here](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/72006881).
 
@@ -10,7 +14,7 @@ To be able to install the image from the marketplace you will need to login to y
 
 Select the Rocket.Chat application, you will see lots of information about the image including usage instructions to follow once the instance is already running, choose a compartiment for the installation and launch your instance:
 
-![](../../.gitbook/assets/oracledocs3.png) ![](../../.gitbook/assets/oracledocs3.png)
+![](../../.gitbook/assets/oracledocs3%20%281%29.png) ![](../../.gitbook/assets/oracledocs3.png)
 
 This application will run in a compute instance, you can change the shape of it to fit your usage needs, find more information of our minimum resource recommendations [here](https://docs.rocket.chat/installation/minimum-requirements/#minimum-requirements-for-server-deployment).
 

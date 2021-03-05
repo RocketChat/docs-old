@@ -2,7 +2,7 @@
 
 Rocket.Chat is a rapidly-moving FOSS project. We maintain 3 Docker images for the diverse needs of our global user community. To use these images you will need to have [Docker](https://docs.docker.com/install/) installed and operational.
 
-Discovering existing releases: You can select the release you need from our [GitHub Release Page](https://github.com/RocketChat/Rocket.Chat/releases). Here's a description of our [current branching strategy](../../guides/developer-guides/branches-and-releases.md).
+Discovering existing releases: You can select the release you need from our [GitHub Release Page](https://github.com/RocketChat/Rocket.Chat/releases). Here's a description of our [current branching strategy](../../guides/developer/branches-and-releases.md).
 
 ## Official image \(stable and tested\)
 

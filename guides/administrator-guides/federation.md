@@ -13,7 +13,7 @@ When enabling federation on your server, your server becomes part of the Rocket.
 * **Current**
   * Invite users from remote servers
   * Direct chats between servers
-  * Public, private and broadcast rooms with remote users from any number of servers
+  * Private and broadcast rooms with remote users from any number of servers
   * Read receipts, notifications and alerts distributed to remote servers
   * Mute/Unmute remote users
   * Share files among servers
@@ -21,6 +21,7 @@ When enabling federation on your server, your server becomes part of the Rocket.
   * Encrypted rooms
   * Whitelist servers to communicate with
   * Better federation set-up process, with helpers to validate the configuration
+  * Public rooms with remote users from any number of servers
 
 ## Configuration
 
@@ -106,6 +107,44 @@ We recommend to use `HTTPS` for all kinds of communications, but sometimes that 
 
 * the protocol: change `_https` to `_http`
 * the port: change `443` to `80`
+
+#### Legacy Support: If your DNS provider does not support SRV records with `_http` or `_https`
+
+Some DNS providers will not allow setting `_https` or `_http` on SRV records, so we have support for those cases, using our old DNS record resolution method.
+
+#### Legacy Support: SRV Record
+
+* Service: `_rocketchat`
+* Protocol: `_tcp`
+* Name: `chat.mydomain.com`
+* Weight: `1`
+* Priority: `1`
+* TTL: `1 hour`
+* Target: `chat.mydomain.com`
+* Port: `443`
+
+#### Legacy Support: protocol TXT Record \(if not provided, HTTPS will be use\)
+
+* Host: `rocketchat-tcp-protocol.chat.mydomain.com`
+* Value: `https` or `http`
+
+#### Test your configuration from cli
+
+From your cli, issue the following commands and make sure the answers look like the following:
+
+```text
+dig srv _rocketchat._https.chat.mydomain.com
+...
+;; ANSWER SECTION:
+_rocketchat._https.chat.mydomain.com. 1800 IN SRV    1 1 443 chat.mydomain.com.
+...
+
+dig -t txt rocketchat-public-key.chat.mydomain.com
+...
+;; ANSWER SECTION:
+rocketchat-public-key.chat.mydomain.com. 1799 IN TXT "-----BEGIN PUBLIC KEY----- THEPUBLICKEY :) -----END PUBLIC KEY-----"
+...
+```
 
 #### Conclusion
 

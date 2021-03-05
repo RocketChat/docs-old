@@ -1,4 +1,8 @@
-# Deploying Rocket.Chat on D2C.io
+---
+description: Deploying Rocket.Chat on D2C.io
+---
+
+# D2C.io
 
 ## Supported cloud providers
 

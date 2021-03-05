@@ -1,4 +1,4 @@
-# CSV Import
+# CSV
 
 The CSV importer allows you to import your own plain text files, however it does require the zip file to be in a specific format for the importer to understand.
 

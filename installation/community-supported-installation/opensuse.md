@@ -1,4 +1,8 @@
-# Install and Run Rocket.Chat on OpenSUSE Leap 42.2
+---
+description: Install and Run Rocket.Chat on OpenSUSE Leap 42.2
+---
+
+# OpenSUSE Leap 42.2
 
 _Note: This is a community supported installation method. You can discuss about this in the_ [_forum thread_](https://forums.rocket.chat/t/opensuse-installation-guide/657)_._
 
@@ -376,8 +380,8 @@ server {
     proxy_set_header Connection "upgrade";
     proxy_set_header Host $http_host;
     proxy_set_header X-Real-IP $remote_addr;
-    proxy_set_header X-Forward-For $proxy_add_x_forwarded_for;
-    proxy_set_header X-Forward-Proto http;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto https;
     proxy_set_header X-Nginx-Proxy true;
     proxy_redirect off;
   }

@@ -46,9 +46,7 @@ Here are some links to help you register your bug in the right place:
 
 [Rocket.Chat Server](https://github.com/RocketChat/Rocket.Chat/issues/new/choose)
 
-[Rocket.Chat Android App](https://github.com/RocketChat/Rocket.Chat.Android/issues/new)
-
-[Rocket.Chat iOS App](https://github.com/RocketChat/Rocket.Chat.iOS/issues/new)
+[Rocket.Chat Mobile Apps](https://github.com/RocketChat/Rocket.Chat.ReactNative/issues/new)
 
 [Rocket.Chat Electron desktop app](https://github.com/RocketChat/Rocket.Chat.Electron)
 

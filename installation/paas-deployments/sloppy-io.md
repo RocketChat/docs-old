@@ -1,4 +1,10 @@
-# Deploying Rocket.Chat on Sloppy.io
+---
+description: Deploying Rocket.Chat on Sloppy.io
+---
+
+# Sloppy.io
+
+> **NOTE:**  Has not yet been updated to work with 1.0+
 
 [sloppy.io](http://sloppy.io) is a CaaS \(Container as a Service\) Provider. You can deploy, scale and manage your dockerized applications in seconds. [Try it for free](http://sloppy.io/#signup)
 

@@ -2,11 +2,9 @@
 
 ![Bots Architecture Diagram](../../.gitbook/assets/diagram.png)
 
-![Bots Architecture Diagram](../../.gitbook/assets/diagram.png)
-
 The above diagram illustrates the general concepts of how a Rocket.Chat server communicates with a chatbot framework or platform. These concepts are applicable to [**external**](./) bots.
 
-Bots architecture consists of two main parts: Rocket.Chat host and [bot host](bots-architecture.md#bots-host). These two parts are connected with each other via [Rocket Chat SDK](bots-architecture.md#rocketchat-sdk) methods. Bot host runs externally to the Rocket.Chat host and consists of the bot infrastructure and, typically, external [services](bots-architecture.md#external-services). The bot infrastructure, in turn, consists of SDK, [adapter](bots-architecture.md#framework-adapter), and [framework](bots-architecture.md#bot-framework).
+Bots architecture consists of two main parts: Rocket.Chat host and [bot host](bots-architecture.md#bots-host). These two parts are connected with each other via [Rocket.Chat SDK](bots-architecture.md#rocketchat-sdk) methods. Bot host runs externally to the Rocket.Chat host and consists of the bot infrastructure and, typically, external [services](bots-architecture.md#external-services). The bot infrastructure, in turn, consists of SDK, [adapter](bots-architecture.md#framework-adapter), and [framework](bots-architecture.md#bot-framework).
 
 A bot, being subscribed to room's messages \(all or specific ones\) handles these messages and responds back to the user in an interactive manner. The conversational model can be designed and managed by tooling and frameworks on the bot host.
 

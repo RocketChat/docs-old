@@ -46,7 +46,7 @@ server {
     ssl_protocols TLSv1 TLSv1.1 TLSv1.2; # don’t use SSLv3 ref: POODLE
 
     location / {
-        proxy_pass http://backend/;
+        proxy_pass http://backend;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection "upgrade";
@@ -54,7 +54,7 @@ server {
 
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forward-Proto http;
+        proxy_set_header X-Forwarded-Proto https;
         proxy_set_header X-Nginx-Proxy true;
 
         proxy_redirect off;
@@ -78,7 +78,7 @@ location ~ ^/.* {
 
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
-    proxy_set_header X-Forward-Proto http;
+    proxy_set_header X-Forwarded-Proto http;
     proxy_set_header X-Nginx-Proxy true;
     proxy_http_version 1.1;
 
@@ -126,6 +126,7 @@ Edit `/etc/apache2/sites-enabled/rocketchat.conf` and be sure to use your actual
     SSLEngine On
     SSLCertificateFile /etc/ssl/certs/chat.domain.com.crt
     SSLCertificateKeyFile /etc/ssl/private/chat.domain.com.key
+    SSLCertificateChainFile /etc/ssl/certs/intermediate.ca.pem
 
     <Location />
         Require all granted
