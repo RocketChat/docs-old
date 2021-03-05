@@ -41,23 +41,34 @@ In case of security-relevant bugs, we might decide to backport patches to older 
 
 | Rocket.Chat Release | Latest Version | Released At | End of Life |
 | :--- | :--- | ---: | ---: |
-|  1.0 | [1.0.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.0.5) | Apr 2019 | Jul 2019 |
+| 1.0 | [1.0.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.0.5) | Apr 2019 | Jul 2019 |
 | 1.1 | [1.1.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.1.5) | May 2019 | Aug 2019 |
 | 1.2 | [1.2.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.2.4) | Jun 2019 | Sep 2019 |
-| **1.3 \(LTS\)** | [1.3.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.3.3) | **Jul 2019** | **Jan 2020** |
+| **1.3 \(LTS\)** | [1.3.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.3.5) | **Jul 2019** | **Jan 2020** |
 | 2.0 | [2.0.1](https://github.com/RocketChat/Rocket.Chat/releases/tag/2.0.1) | Aug 2019 | Nov 2019 |
 | 2.1 | [2.1.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/2.1.3) | Sep 2019 | Dec 2019 |
 | 2.2 | [2.2.1](https://github.com/RocketChat/Rocket.Chat/releases/tag/2.2.1) | Oct 2019 | Jan 2020 |
 | 2.3 | [2.3.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/2.3.3) | Nov 2019 | Feb 2020 |
-| **2.4 \(LTS\)** | [2.4.9](https://github.com/RocketChat/Rocket.Chat/releases/tag/2.4.9) | **Dec 2019** | **Jun 2020** |
-| 3.0 | [3.0.10](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.0.10) | Feb 2020 | May 2020 |
-| 3.1 | [3.1.1](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.1.1) | Mar 2020 | Jun 2020 |
-| 3.2 | [3.2.1](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.2.1) | Apr 2020 | Jul 2020 |
+| **2.4 \(LTS\)** | [2.4.14](https://github.com/RocketChat/Rocket.Chat/releases/tag/2.4.14) | **Dec 2019** | **Jun 2020** |
+| 3.0 | [3.0.13](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.0.13) | Jan 2020 | Apr 2020 |
+| 3.1 | [3.1.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.1.3) | Mar 2020 | Jun 2020 |
+| 3.2 | [3.2.2](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.2.2) | Apr 2020 | Jul 2020 |
 | 3.3 | [3.3.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.3.3) | May 2020 | Aug 2020 |
-| 3.4 | [3.4.1](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.4.1) | Jun 2020 | Sep 2020 |
-| 3.5 | [3.5.0](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.5.0) | July 2020 | TBD |
+| 3.4 | [3.4.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.4.3) | Jun 2020 | Sep 2020 |
+| 3.5 | [3.5.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.5.4) | Jul 2020 | Oct 2020 |
+| 3.6 | [3.6.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.6.3) | Aug 2020 | Nov 2020 |
+| 3.7 | [3.7.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.7.4) | Sep 2020 | Dec 2020 |
+| 3.8 | [3.8.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.8.5) | Oct 2020 | Jan 2021 |
+| 3.9 | [3.9.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.9.4) | Nov 2020 | Feb 2021 |
+| 3.10 | [3.10.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.10.3) | Dec 2020 | TBD |
 
-> Always update to latest stable version before reporting any bugs or before ask for help from community.
+{% hint style="warning" %}
+Always update to the latest stable version before reporting any bugs or before ask for help from the community.
+{% endhint %}
+
+{% hint style="info" %}
+**LTS** means "Long Time Support" and it's used to identify the last **minor** version before a **major** version, e.g. 2.4 is the last minor before 3.x. A new major version means that the version introduced a breaking change and requires attention on the upgrade, so we maintain the support of the previous version for a longer time in order to give you more time to plan and test the upgrade.
+{% endhint %}
 
 ### Rocket.Chat Cloud
 
@@ -133,6 +144,8 @@ The support is limited to installations matching the requirements described in t
 ## Monitoring
 
 We require monitoring for all supported installations. All installations must continually collect [Metrics](https://github.com/RocketChat/Rocket.Chat.Metrics) regarding the installation's instances and database. Rocket.Chat supports the industry-standard Prometheus + Grafana monitoring stack. Grafana dashboards required for support are available in the [Metrics](https://github.com/RocketChat/Rocket.Chat.Metrics) repository.
+
+Explanations about each metric/graph which help reading and interpreting the data can be found in this [dedicated document here](https://github.com/RocketChat/Rocket.Chat.Metrics/blob/master/metrics.md).
 
 ## Data access
 

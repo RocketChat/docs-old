@@ -35,11 +35,11 @@ Use this setting to define what types of files the users will be able to upload.
 * **AmazonS3**: Uses the [Amazon S3](./#amazon-s3) storage type
 * **Google Cloud Storage**: Uses the [Google Cloud Storage](./#google-cloud-storage) storage type
 * **WebDAV**: Uses the [WebDav](./#webdav) storage type
-* **FileSystem**: Uses the [FileSysyem](./#filesystem) storage type
+* **FileSystem**: Uses the [FileSystem](./#filesystem) storage type
 
 ## Amazon S3
 
-You can find a more detailed guide on how to set your Amazon S3 server [here](https://github.com/RocketChat/docs/tree/25edcde0b00af8d5f89889dbb0d911ccfe76a1d1/administrator-guides/file-upload/amazon-s3/README.md).
+You can find a more detailed guide on how to set your Amazon S3 server [here](amazon-s3.md).
 
 ### Access Key
 
@@ -99,13 +99,15 @@ Time after which Amazon S3 generated URLs will no longer be valid \(in seconds\)
 
 ## FileSystem
 
+
+
 ### System Path
 
 The local path for where the uploaded files will be stored.
 
 ## Google Cloud Storage
 
-Settings used when configuring a Google Cloud Storage server. You can find more details in [here](https://github.com/RocketChat/docs/tree/25edcde0b00af8d5f89889dbb0d911ccfe76a1d1/administrator-guides/file-upload/google-cloud-storage/README.md)
+Settings used when configuring a Google Cloud Storage server. You can find more details in [here](google-cloud-storage.md)
 
 ### Google Storage Access Id
 

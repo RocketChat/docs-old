@@ -353,7 +353,7 @@ Search for a Visitor using their name, username, email or phone. It supports the
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `term` | `guest-1@company.com` | Optional | The visitor's name, username, email or phone  |
+| `term` | `guest-1@company.com` | Optional | The visitor's name, username, email or phone |
 
 ## Example Call
 

@@ -7,7 +7,7 @@ redirect_from:
 
 # Responsible Disclosure Policy
 
-Please email the details to Rocket.Chat's security team at security@rocket.chat. You will then receive an e-mail with instruction on how to proceed with the disclosure.
+Please submit your findings directly into [our Hackerone program](https://hackerone.com/rocket_chat). Alternatively you can email the details to Rocket.Chat's security team at security@rocket.chat. You will then receive an e-mail with instruction on how to proceed with the disclosure.
 
 Please refrain from requesting compensation for reporting vulnerabilities. If you want we will publicly acknowledge your responsible disclosure on our [WhiteHat Hall of Fame](https://docs.rocket.chat/contributing/security/#whitehat-hall-of-fame). We also try to make the confidential issue public after the vulnerability is announced.
 

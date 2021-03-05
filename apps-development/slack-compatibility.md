@@ -14,7 +14,7 @@ Initialize your Rocket.Chat App with bindings that make it compatible with your 
 
 ## Installation
 
-First of all, you're gonna need to scaffold out a Rocket.Chat App directory, so make sure you follow our [Getting Started](getting-started.md) guide \(it's really quick\).
+First of all, you're gonna need to scaffold out a Rocket.Chat App directory, so make sure you follow our [Getting Started](getting-started/) guide \(it's really quick\).
 
 We're gonna build upon the example in our Getting Started guide with the LiftOff app. After you've created the new app with our [CLI](https://github.com/RocketChat/Rocket.Chat.Apps-cli), you should have the following folder structure:
 
