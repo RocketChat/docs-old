@@ -268,5 +268,5 @@ Some projects that you can submit proposals for include:
 
 ## Timeline
 
-{% embed url="https://developers.google.com/open-source/gsoc/timeline" %}
+{% embed url="https://developers.google.com/open-source/gsoc/timeline" caption="" %}
 
