@@ -534,7 +534,7 @@ class Script {
 The purpose of the integration script is to transform data in one format \(the format provided by your incoming service, such as GitHub\) into another format \(the format expected by Rocket.Chat\). Therefore, should you wish to customize either of the scripts presented above, you will need two resources:
 
 * [GitHub API specifications](https://developer.github.com/v3/)
-* [Specifications for Rocket.Chat integration message objects](https://github.com/RocketChat/docs/tree/0492569ecfbb133bf76abc8166af5d5c15166ec9/administrator-guides/integrations/index.html#incoming-script-details)
+* [Specifications for Rocket.Chat integration message objects](./#incoming-webhook-script)
 
 Note that data comes _into_ your script from GitHub as the `request.content` object.
 

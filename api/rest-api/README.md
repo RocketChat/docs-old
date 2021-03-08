@@ -26,6 +26,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/spotlight` | Searches for users or rooms that are visible to the user. | [Link](methods/miscellaneous/spotlight.md) |
 | `/api/v1/statistics` | Statistics about the Rocket.Chat server. | [Link](methods/miscellaneous/statistics.md) |
 | `/api/v1/statistics.list` | Selectable statistics about the Rocket.Chat server. | [Link](methods/miscellaneous/statistics-list.md) |
+| `/api/v1/instances.get` | Gets all running instances. | [Link](https://github.com/RocketChat/docs/tree/06af028aecca9430169baa3f517704a68deb6278/api/rest-api/methods/miscellaneous/instances-get.md) |
 
 ### Assets
 
@@ -95,7 +96,6 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.addOwner` | Gives the role of owner for a user in the current channel. | [Link](methods/channels/addowner.md) |
 | `/api/v1/channels.anonymousread` | Gets the messages in public channels to an anonymous user | [Link](methods/channels/anonymousread.md) |
 | `/api/v1/channels.archive` | Archives a channel. | [Link](methods/channels/archive.md) |
-| `/api/v1/channels.cleanHistory` | Cleans up a channel's history, requires special permission. | [Link](https://github.com/RocketChat/docs/tree/4f704d5da4a2d5bcfe2cd2d2591edd12f5d41cd6/developer-guides/rest-api/channels/cleanhistory/README.md) |
 | `/api/v1/channels.close` | Removes a channel from a user's list of channels. | [Link](methods/channels/close.md) |
 | `/api/v1/channels.counters` | Gets channel counters. | [Link](methods/channels/counters.md) |
 | `/api/v1/channels.create` | Creates a new channel. | [Link](methods/channels/create.md) |
@@ -263,7 +263,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
-| `/api/v1/permissions.listAll` | Lists permissions on the server. | [Link](https://github.com/RocketChat/docs/tree/4f704d5da4a2d5bcfe2cd2d2591edd12f5d41cd6/developer-guides/rest-api/permissions/list-all/README.md) |
+| `/api/v1/permissions.listAll` | Lists permissions on the server. | [Link](methods/permissions/listall.md) |
 | `/api/v1/permissions.update` | Edits permissions on the server. | [Link](methods/permissions/update.md) |
 
 ### Roles
@@ -353,6 +353,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :--- | :--- | :--- |
 | `/api/v1/webdav.getMyAccounts` | Retrieves the user's webdav accounts. | [Link](methods/webdav/getmyaccounts.md) |
 
+### Licenses
+
+| Url | Method | Short Description | Details Page |
+| :--- | :--- | :--- | :--- |
+| `/api/v1/licenses.get` | `GET` | Gets all active licenses. | [Link](https://github.com/RocketChat/docs/tree/06af028aecca9430169baa3f517704a68deb6278/api/rest-api/methods/licenses/get.md) |
+| `/api/v1/licenses.add` | `POST` | Adds a new license. | [Link](https://github.com/RocketChat/docs/tree/06af028aecca9430169baa3f517704a68deb6278/api/rest-api/methods/licenses/add.md) |
+
 ## Language specific wrappers
 
 ### Java
@@ -361,11 +368,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### PHP
 
-* [rocket-chat-rest-client](https://github.com/Fab1en/rocket-chat-rest-client)
+* [rocketchat-php](https://github.com/alekseykuleshov/rocket-chat)
 
 ### Python
 
 * [rocketchat\_API](https://github.com/jadolg/rocketchat_API)
+* [rocket-python](https://github.com/Pipoline/rocket-python)
 
 ### Ruby
 
@@ -375,3 +383,6 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 * [rocketchat-clojure](https://github.com/MalloZup/missile)
 
+### Golang
+
+* [rocketchat-golang](https://github.com/badkaktus/gorocket)

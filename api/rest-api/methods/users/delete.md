@@ -11,6 +11,7 @@ Deletes an existing user. Requires `delete-user` permission.
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `userId` or `username` | `BsNr28znDkG8aeo7W` | Required | The id or username of the user. |
+| `confirmRelinquish` | `true` | Optional Default: `false` | Deletes user even if it is the last owner of a room. |
 
 ## Example Call - Via userId
 
@@ -52,5 +53,6 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 | Version | Description |
 | :--- | :--- |
+| 3.7.0 | Added `confirmRelinquish` to the payload. |
 | 0.35.0 | Added |
 

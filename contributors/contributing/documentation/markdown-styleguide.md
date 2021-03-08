@@ -86,7 +86,7 @@ Setext style H2
 
 ### MD004 - Unordered list style
 
-Lists should be created using dashes.
+Lists should be created using asterisks.
 
 **Wrong**:
 
@@ -432,12 +432,16 @@ Fenced code blocks should be surrounded by blank lines.
 ```text
 Some text
 ```
+
 Code block
-```
+
+```text
 
 ```
+
 Another code block
-```
+
+```text
 Some more text
 ```
 
@@ -445,15 +449,17 @@ Some more text
 
 ```text
 Some text
-
 ```
+
 Code block
-```
+
+```text
 
 ```
+
 Another code block
-```
 
+```text
 Some more text
 ```
 
@@ -592,8 +598,9 @@ Code blocks should be fenced.
 **Correct**:
 
 ```text
-```
-codeblock using fences.
+
+```text
+    codeblock using indentation.
 ```
 ```
 

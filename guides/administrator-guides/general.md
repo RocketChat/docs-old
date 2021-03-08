@@ -97,26 +97,6 @@ This setting changes the behavior of the unread counter on Direct Messages
 
 Use this setting to enable the Rocket.Chat Apps Framework. This allows you to add Rocket.Chat Apps from our Marketplace to your server.
 
-## GraphQL API
-
-Settings related to our GraphQL API. You can find more info on our GraphQL API [here](https://github.com/RocketChat/docs/tree/25edcde0b00af8d5f89889dbb0d911ccfe76a1d1/developer-guides/graphql-api/README.md)
-
-### GraphQL CORS
-
-Use this setting to enable [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) for the GraphQL API. Enabling CORS will make the server only accept API Calls from specific origins.
-
-> **Note:** Currently our GraphQL CORS accepts all domains. Setting this to false, will make your server only accept requests from the same domain of said server. E.g. `rocket.chat` server will only accept requests from the `rocket.chat` domain.
-
-### GraphQL Enabled
-
-This setting enables the GraphQL API on your server.
-
-### GraphQL Subscription Port
-
-Here you can choose what port will be used for subscriptions on the API. More info on subscriptions [here](https://github.com/RocketChat/docs/tree/25edcde0b00af8d5f89889dbb0d911ccfe76a1d1/developer-guides/graphql-api/subscription/README.md)
-
-> **Note**: Cannot currently use the same port that Rocket.Chat is running on.
-
 ## Iframe Integration
 
 ### Enable Receive
@@ -160,7 +140,7 @@ This setting affects the `count` query parameter. See more at [Offset and Count 
 
 Here you can set what origins are allowed to make requests to your server.
 
-> You can use `*` to accept from all origins. For multiple Origins use a comma separated list. E.g `domain1.com, domain2.com, domain3.com`
+> You can use `*` to accept from all origins. For multiple Origins use a comma separated list. E.g `https://domain1.com, https://domain2.com, https://domain3.com`
 
 ### Default Count
 
@@ -170,7 +150,7 @@ The default count for REST API results if the consumer did not provided any.
 
 Use this setting to enable [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) for the REST API. Enabling CORS will make the server only accept API Calls from specific origins.
 
-> **Note**: Setting this to false, will make your server only accept requests from the same domain of said server. E.g. `rocket.chat` server will only accept requests from the `rocket.chat` domain.
+> **Note**: Setting this to `false`, will make your server only accept requests from the same domain of said server. E.g. `rocket.chat` server will only accept requests from the `rocket.chat` domain.
 
 ### Enable Direct Message History Endpoint
 
@@ -231,7 +211,7 @@ Should be a valid JSON where keys are languages containing a dictionary of key a
 
 RegExp that will be used to validate usernames and channel names
 
-> **Note**: If you are having problems with names when creating channels \(when using non-english characters for example\) changing these values will probably fix it.
+> **Note**: If you are having problems with names when creating channels \(when using non-english characters for example\) changing these values will probably fix it. For example using `[\w_-]+` should allow any non-space character to be part of a name.
 
 ## Update
 

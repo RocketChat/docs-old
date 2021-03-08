@@ -4,6 +4,15 @@
 
 Create a user authentication token. This is the same type of session token a user would get via login and will expire the same way. Requires `user-generate-access-token` permission.
 
+Example if you use snaps:
+
+  ```
+    echo "CREATE_TOKENS_FOR_USERS=true" > /var/snap/rocketchat-server/common/create-tokens.env
+    sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
+  ```
+
+Create a user authentication token. Requires `user-generate-access-token` permission.
+
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
 | `/api/v1/users.createToken` | `yes` | `POST` |

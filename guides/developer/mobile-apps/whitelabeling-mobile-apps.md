@@ -7,16 +7,23 @@ Here we will show you how to customize:
 * The App Icons
 * Splash Screens
 * App Name
-* Some colors
+* Colors
 
-Before starting, keep in mind that you will need an intermediate knowledge of Android/iOS development and basic Javascript knowledge.
+## Important
+
+* This document is updated after every release, so we can guarantee it's stable for production
+  * `develop` branch might be different from this
+* Keep in mind that you will need an **intermediate** knowledge of Android/iOS development and basic Javascript knowledge
+* Our repo contains targets/build flavors to build both our Experimental and Official apps
+  * Both apps are equal, but released at different pace on the stores
+  * If you see an Experimental folder, don't be scared of breaking anything. It's just a folder containing the assets for the non-official app
 
 ## Repo
 
 * Make sure you have both iOS and Google developer accounts and the respective development environments working
   * You can follow this guide: [https://reactnative.dev/docs/getting-started](https://reactnative.dev/docs/getting-started)
 * Clone [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)
-* Checkout `single-server` branch
+* Checkout `single-server` branch \(git clone -b single-server [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)\)
 
 ## General
 
@@ -48,39 +55,73 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 
 ### General setup
 
-* Open [RocketChatRN.xcworkspace](https://github.com/RocketChat/Rocket.Chat.ReactNative/tree/single-server/ios/RocketChatRN.xcworkspace) on Xcode \(11.3.1 or newer\)
+* Open [RocketChatRN.xcworkspace](https://github.com/RocketChat/Rocket.Chat.ReactNative/tree/single-server/ios/RocketChatRN.xcworkspace) on Xcode \(11.7 or newer\)
 * On General tab, select “RocketChatRN” and change Display Name, Bundle Identifier, Version and Build
+  * Note: as explained on Important section, we have two targets and we're going to cover the default one on this doc, which is the Experimental app.
 
-![](https://lh4.googleusercontent.com/MkQgCQjPBm9advGEabvKiVS6fRQkBhlRu1015pqyVV9FN9BfZQUScrfRFdJ7D6YbgYqbP772Jc78BQ_RFlVlV4eZ9WPzP6ySG585DDv5_h06ALs4Zu_C3lGeNB8raAEszkUSjI_h)
+![](../../../.gitbook/assets/screen-shot-2020-10-05-at-16.42.41.png)
 
 * Select “ShareRocketChatRN” and change the same properties
-  * Note: Bundle Identifier is different from the previous target
+  * `Display Name` and `Bundle Identifier` are different from the previous target
+  * `Version` and `Build` must be the same on all targets
 
-![](https://lh4.googleusercontent.com/r95i-C7pxnSGB-3hcMsh0_WLlKBxtGUhpu2njxFo3w4zyT8iaxer9wx2V2QJMEyO7kMpEDHjKO1X6TEZ58ZytuxwCowiN3t4LOBKCni7hhmKYDTu0eJeRQRmIZ5ONydpT5ZFW9Ee)
+![](../../../.gitbook/assets/screen-shot-2020-10-05-at-16.42.50.png)
 
-* On Signing and Capabilities, check “Automatically manage signing” and select your app group
+* Select “NotificationService” and change the same properties
+  * `Display Name` and `Bundle Identifier` are different from the previous target
+  * `Version` and `Build` must be the same on all targets
 
-![](https://lh3.googleusercontent.com/FwWPu6TcW9d65VixPBeX-Reuau9BVWphP_WtV8z2OrpcmoOFJdVXrayhZfNiOs23DiNGcI8PLRPdZ3znt1dKlCTLfSoMUquovCLCez4jfmqzbooennB8GTivLM3Bq60tJiYsidl6)
+![](../../../.gitbook/assets/screen-shot-2020-10-05-at-16.42.59.png)
 
-* Select “ShareRocketChatRN” and check “Automatically manage signing”
+* On Signing and Capabilities, check “Automatically manage signing”, select your app group and add a keychain group
 
-![](https://lh5.googleusercontent.com/U2on_V-J-2js8Wd9wdsKHvolLnBCcXng8Kv1iQGEWelNEk0GfRmtFuC5danHbP23C__nevRb40L1EzODt2foAfB-IwaNR4cGWneM12bHjaLoFtuB1yZdl5589EjRFzi3ZMw_m_QF)
+![](../../../.gitbook/assets/screen-shot-2020-10-05-at-16.39.48.png)
 
-* Set the same app group on RocketChatRN/Info.plist and ShareRocketChatRN/Info.plist
+* Select “ShareRocketChatRN”, check “Automatically manage signing”, select your app group and add the same keychain group
 
-![](https://lh3.googleusercontent.com/o3iotTRPf5V7C6PZiZ9SYwWR_suvnW8mflVSABFaRaRzRuKm4SBRrbLiAVceStFpj7WWGs3xNJO_2cqT7EeRxet9fQoX7MYuUWjLfOBhScEXt5HZVB1XEQxtYrH5Oh8juv1Iz0hu)
+![](../../../.gitbook/assets/screen-shot-2020-10-05-at-16.39.33.png)
+
+* Select “NotificationService”, check “Automatically manage signing”, select your app group and add the same keychain group
+
+![](../../../.gitbook/assets/screen-shot-2020-10-05-at-16.39.58.png)
+
+* Set the same app group on `RocketChatRN/Info.plist`, `ShareRocketChatRN/Info.plist` and `NotificationService/Info.plist`
 
 ![](https://lh5.googleusercontent.com/BEV_JFzqUS3OX5mStoT1ParmsmQtRhtnHTGrBhzkHq-Lrf3rabjg1pnDlUqmEDaHXySmHzE-Iqtn07gL7FN6wGrbTAiLu3JFC5yN6qW1C3u3HnSqDQWZQ08hmp0jXhjplLeKmcyr)
 
-* Change the app icon on Images.xcassets/App Icon
+![](https://lh3.googleusercontent.com/o3iotTRPf5V7C6PZiZ9SYwWR_suvnW8mflVSABFaRaRzRuKm4SBRrbLiAVceStFpj7WWGs3xNJO_2cqT7EeRxet9fQoX7MYuUWjLfOBhScEXt5HZVB1XEQxtYrH5Oh8juv1Iz0hu)
 
-![](https://lh6.googleusercontent.com/sEyF_kaGjBtal_IW-pV657Hku-sSPPrUFwSgbW2VllV_tEHBGcfIuu6IJ5UN33q9UdE2q_Q9xC4TDiC7ERoe37OfYYhA333y5T5Dqo0jV9h5dvTj5uN2l2JadhLg7fEripLwgn-B)
+![](../../../.gitbook/assets/image%20%2835%29%20%281%29.png)
 
-* Change the app splash screen on Images.xcassets/Launch Screen Icon
+* Set the same keychain group on `RocketChatRN/Info.plist`, `ShareRocketChatRN/Info.plist` and `NotificationService/Info.plist`
 
-![](https://lh4.googleusercontent.com/42ftYBrzF-r8eBeCpACkUAFzRbU4DOcuVHgXLqGdDCIGsv7J9v4pGHcUM-P6coWftTXkCiX0_u3J-c-0v92R23Bztknnq94WJ1FV5eGXyF53VNf06hFSuMlIEOmhAEPcLh2sXq65)
+![](../../../.gitbook/assets/image%20%2836%29.png)
 
-* Set your Bugsnag API key on RocketChatRN/Info.plist
+![](../../../.gitbook/assets/image%20%2834%29.png)
+
+![](../../../.gitbook/assets/image%20%2837%29.png)
+
+* It needs to be the same on all entitlements
+
+![](../../../.gitbook/assets/image%20%2839%29.png)
+
+![](../../../.gitbook/assets/image%20%2844%29.png)
+
+![](../../../.gitbook/assets/image%20%2842%29.png)
+
+* Change the app icon on `Experimental.xcassets/App Icon`
+
+![](../../../.gitbook/assets/image%20%28178%29%20%281%29.png)
+
+* Change the app splash screen on `Experimental.xcassets/Launch Screen Icon`
+
+![](../../../.gitbook/assets/image%20%28175%29.png)
+
+* Change the splash background colors on `Experimental.xcassets/splashBackgroundColor`
+
+![](../../../.gitbook/assets/image%20%28179%29.png)
+
+* Set your Bugsnag API key on `RocketChatRN/Info.plist`
 
 ![](https://lh4.googleusercontent.com/vuLbbqHeK_lJC7y5zHt2Y_XNI_VRkhKu3Ee8CduE1TSGIQuvbc7EEKwvgXBD7CwvOa_QPIJFRnnDL-2j2wTwRe0neey8bP3wvuchTAQXgUBARrPh44ajgDScJXneKDw412aoQZ8e)
 
@@ -103,32 +144,42 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 
 ![](https://lh6.googleusercontent.com/aOiSAtt1YF-nsaZIHhKesYjdTzlsEN3T-mqZ2fvBvZJV95jl6LfBBjT0hS8ufaAyHytAdn-0yhjjkJ8kGLJ1RIZJvGYIpNtUon6_WPaSA7GZ-yyDslpCKSDUtnYaK8E0l4Z4mR1O)
 
-* Move the file to “ShareRocketChatRN” folder as well
+* Add it to all targets
+
+![](../../../.gitbook/assets/image%20%2843%29.png)
 
 ### Running the app
 
 * Execute the following on project terminal
   * `yarn`
-  * `cd ios`
-  * `pod install`
-  * `cd ..`
-  * `react-native run-ios`
+  * `npx pod-install`
+  * `yarn ios`
 
 ## Android
 
 ### General setup
 
-* Set `APPLICATIONID`, `VERSIONNAME`, `VERSIONCODE` and `BugsnagAPIKey` on [./android/gradle.properties](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/single-server/android/gradle.properties)
-* Change `ic_launcher.png` and `ic_notification.png` on the folders [./android/app/src/main/res/mipmap\*](https://github.com/RocketChat/Rocket.Chat.ReactNative/tree/single-server/android/app/src/main/res)
+* Similarly to iOS, we have build flavours to generate our Official, Experimental and F-Droid versions of the app
+  * `experimental` and `official` folders contain app icons and splash screens
+  * `play` and `foss` folders contain necessary code to run the app with or without Google Play services, respectively
+    * `foss` build doesn't contain push notifications implemented
+  * `main` folder contains core implementations
+  * `debug` folder contains code to run the app in debug mode
+  * This doc is going to focus on building the Experimental app, so we're going to use `experimental`, `play` `debug`, and `main` folders
 
-![](https://lh3.googleusercontent.com/Rs0TvtiY5uyg0rfRt2RXr_TSMey2oKtFDChx9iwUnLu9ZIw3qJ37JsLvtT6XYV9sWD7X3vuBY_GZqHc47Ut2ferCdp67O3lgSbcuqDbzjIA2IY05ZFHOWjHbZj-ftXN9kNND-V18)
+![](../../../.gitbook/assets/image%20%28177%29.png)
 
-### 
+* Set `APPLICATION_ID`, `VERSIONCODE` and `BugsnagAPIKey` on `./android/gradle.properties`
+* Generate a [new image asset](https://developer.android.com/studio/write/image-asset-studio) for `ic_notification` and target `main`
+* Generate a [new image asset](https://developer.android.com/studio/write/image-asset-studio) for `ic_launcher` and target `experimental`
+* Change splash screen background and notification text color on `./android/app/src/experimental/res/values/colors.xml`
 
-* Change [./android/app/src/main/res/drawable-xxxhdpi/splash.png](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/single-server/android/app/src/main/res/drawable-xxxhdpi/splash.png)
-* Change `strings/app_name` and `strings/share_extension_name` on [./android/app/src/main/res/values/strings.xml](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/single-server/android/app/src/main/res/values/strings.xml)
+![](../../../.gitbook/assets/image%20%28180%29.png)
 
-![](https://lh6.googleusercontent.com/pFW-aGmA9PheAjKFE4_Q0SaHDg6kA_FbGXmSLSa8hSjwLLz1HGJmEyCx__EsZZiIqSJBybOyG4LOYAjDMN02tRq0vD2qcn2Vzv6iSF-WsO08GY6HWlmiB-t03RBbR6kPIa5XXicB)
+* Change splash screen logo on `./android/app/src/experimental/res/drawable-xxhdpi/splash.png`
+* Change app name and share extension name on `./android/app/src/main/res/values/strings.xml`
+
+![](../../../.gitbook/assets/image%20%28174%29.png)
 
 ### Generate upload key
 
@@ -141,7 +192,7 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 
 ![](../../../.gitbook/assets/15.png)
 
-* Set `KEYSTORE_PASSWORD` and `KEY_PASSWORD` on [./android/gradle.properties](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/single-server/android/gradle.properties) with the passwords you were prompted
+* Set `KEYSTORE_PASSWORD` and `KEY_PASSWORD` on ./android/gradle.properties with the passwords you were prompted
 
 ### Generating Android app on Firebase
 
@@ -164,18 +215,16 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 
 ![](https://lh5.googleusercontent.com/k7CjPaIbiBvkd3wY1Exl6FGZsmC5blK8pNW3fycI9NAVZ9rWwdVNHtSTV6EWHQFasep9tOf0k0nEE36khTIxgtTr4se2_NM6lJmgeM20M5lhMPupoc0BjhouH7B7X3jnP5CvgMg6)
 
+![](../../../.gitbook/assets/image%20%2833%29.png)
+
 ### Running the app
 
 * Execute the following on project terminal
   * `yarn`
-  * `react-native run-android`
-* The app will build on the simulator or device, but it won’t start automatically
-
-### Optional: Start the app automatically after build
-
-* Android starts the app based on package’s Activity, but we changed the application id, so it won’t work
-* For it to work, you have to change all references to `chat.rocket.reactnative` on `.java` files and on manifest
-* Change all references as on this commit: [https://github.com/RocketChat/Rocket.Chat.ReactNative/commit/518e56379d88937d7f9a572c7bd61716a4d0b7fe](https://github.com/RocketChat/Rocket.Chat.ReactNative/commit/518e56379d88937d7f9a572c7bd61716a4d0b7fe)
+  * `yarn android-whitelabel <YOURAPPID>`
+  * For example, the app created on this document would use `yarn android-whitelabel chat.rocket.whitelabel`
+* Note: this script uses `experimentalPlayDebug` build flavor. When you build your app on release mode, use `experimentalPlayRelease`
+  * Refer to [https://developer.android.com/studio/build/build-variants](https://developer.android.com/studio/build/build-variants) for more info about how it works
 
 ## Push notification
 
@@ -267,6 +316,10 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 * This time, select only App Groups under Capabilities
 * Click “Continue” and then “Register”
 
+### Create an App Identifier for our Notification Service
+
+![](../../../.gitbook/assets/image%20%2838%29.png)
+
 ### Creating an App Group
 
 * Visit [https://developer.apple.com/account/resources/identifiers/list](https://developer.apple.com/account/resources/identifiers/list)
@@ -288,7 +341,7 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 * On “App Groups”, click “Configure”
 * Select the App Group you created and click “Continue”
 * Click “Save”
-* Repeat these steps for the second identifier you created for the Share Extension
+* Repeat these steps for the second identifier you created for the Share Extension and NotificationService
 
 ### Creating Push Notifications certificates
 
@@ -297,8 +350,6 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 * On “Push Notifications”, click “Configure”
 
 ![](../../../.gitbook/assets/30.png)
-
-#### 
 
 #### Development SSL Certificate
 
@@ -337,6 +388,4 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 ![](https://lh3.googleusercontent.com/WCLBhK5CneauBC7xQH3atoiHS3HE9YvJ7IaC5hCdGQVh3sx8CtF2u4vjcBc1e-LVl0zWXTwhrXzct8HcGLAk6D3A7eZHYiVHTzsAGdMNZ2jGADKi0jwXFiYoVhOyytvfiRqm4HuV)
 
 * For simplicity, save it in the same folder of your CSR and .cer. You’ll need it later.
-
-
 

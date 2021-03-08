@@ -47,7 +47,7 @@ curl -X POST \
       "username": "guest-4",
       "name": "Livechat Visitor"
     },
-    "ts": "2018-09-14T13:31:33.201Z"
+    "ls": "2018-09-14T13:31:33.201Z"
   },
   "success": true
 }
@@ -105,7 +105,7 @@ curl -X PUT \
       "username": "guest-4",
       "name": "Livechat Visitor"
     },
-    "ts": "2018-09-14T13:31:33.201Z"
+    "ls": "2018-09-14T13:31:33.201Z"
   },
   "success": true
 }
@@ -142,7 +142,7 @@ curl -X DELETE \
 {
   "message": {
     "_id": "ZKWP8LfGnRHQ3ozWa",
-    "ts": "2018-09-14T13:31:33.279Z"
+    "ls": "2018-09-14T13:31:33.279Z"
   },
   "success": true
 }
@@ -171,7 +171,7 @@ curl -X DELETE \
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `token` | `iNKE8a6k6cjbqWhWd` | Required | The visitor `token`. |
-| `ts` |  | Optional | The timestamp to start loading. |
+| `ls` |  | Optional | The timestamp to start loading. |
 | `end` |  | Optional | The timestamp limit to load. |
 | `limit` |  | Optional | The number of messages to load. |
 
@@ -191,7 +191,7 @@ curl http://localhost:3000/api/v1/livechat/messages.history/KuACMJ5MpN6SfAFWg?to
     "msg": "editing livechat message..",
     "token": "iNKE8a6k6cjbqWhWd",
     "alias": "Livechat Visitor",
-    "ts": "2018-09-14T13:31:33.201Z",
+    "ls": "2018-09-14T13:31:33.201Z",
     "u": {
       "_id": "YgEoq2djbGdjjZnsL",
       "username": "guest-4",

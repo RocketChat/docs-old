@@ -63,7 +63,7 @@ span.incomplete a { color: orange; }
     * Multiple Instances to Improve Performance
     * Migrating Meteor Mongo
     * OpenSUSE
-    * [RedHat](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
+    * [RedHat](missing-and-outdated-list.md#redhat)
     * Ubuntu:
       * Snaps:
         * AutoSSl
@@ -76,7 +76,7 @@ span.incomplete a { color: orange; }
     * Openshift
     * Vagrant
   * Mobile and Desktop Apps
-  * [Updating](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/%20%20missing-and-outdated-list/index.html)
+  * [Updating](missing-and-outdated-list.md#updating)
     * From 0.x.x to 0.40.0
   * Minimum Requirements
   * Community Supported Install:
@@ -95,20 +95,20 @@ span.incomplete a { color: orange; }
   * Voice and Video Calls
 * Administrator guides:
   * Account Settings
-  * [Analytics](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
-  * [Auto Translation](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
+  * [Analytics](missing-and-outdated-list.md#analytics)
+  * [Auto Translation](missing-and-outdated-list.md#auto-translation)
   * Authentication:
     * CAS
     * Ldap
-    * [Oauth](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
+    * [Oauth](missing-and-outdated-list.md#oauth)
     * SAML
-    * [WordPress](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
-    * [Custom Oauth](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
-    * [Using Rocket.Chat as an Oauth provider](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
-    * [oauth2 o365](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
-  * [Customizing the UI](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html):
-    * [Layout](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
-    * [Assets](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
+    * [WordPress](missing-and-outdated-list.md#wordpress)
+    * [Custom Oauth](missing-and-outdated-list.md#custom-oauth)
+    * [Using Rocket.Chat as an Oauth provider](missing-and-outdated-list.md#using-rocketchat-as-an-oauth-provider)
+    * [oauth2 o365](missing-and-outdated-list.md#oauth2-o365)
+  * [Customizing the UI](missing-and-outdated-list.md#customizing-the-ui):
+    * [Layout](missing-and-outdated-list.md#layout)
+    * [Assets](missing-and-outdated-list.md#assets)
   * Custom Emoji
   * Custom Fields
   * Custom Sounds
@@ -122,11 +122,11 @@ span.incomplete a { color: orange; }
     * Amazon S3
     * Google Cloud Storage
     * Minio
-    * [GridFS](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
-    * [Local File System](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
-  * [General Settings](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
-    * [General Section](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
-    * [Message Section](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
+    * [GridFS](missing-and-outdated-list.md#gridfs)
+    * [Local File System](missing-and-outdated-list.md#local-file-system)
+  * [General Settings](missing-and-outdated-list.md#general-settings)
+    * [General Section](missing-and-outdated-list.md#general-section)
+    * [Message Section](missing-and-outdated-list.md#message-section)
   * Hubot
   * Import:
     * HipChat:
@@ -176,15 +176,15 @@ span.incomplete a { color: orange; }
   * Branches and Releases
   * Client Compatibility Matrix
   * Code Styleguide:
-    * [Less](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
+    * [Less](missing-and-outdated-list.md#less)
   * Deeplink
   * Deprecation
   * Iframe Integration:
-    * [Authentication](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
+    * [Authentication](missing-and-outdated-list.md#authentication)
     * Commands
     * Events
   * Embedded Layout
-  * [Internationalization](https://github.com/RocketChat/docs/tree/2aa90e0523ba4de4b8aa76d85bc6694671de8a03/contributing/documentation/missing-and-outdated-list/index.html)
+  * [Internationalization](missing-and-outdated-list.md#internationalization)
   * Livechat API
   * Mobile Apps
     * Supporting SSL

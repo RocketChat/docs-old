@@ -29,6 +29,17 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
    "success": true
 }
 ```
+# Bad Request Example Result
+
+If the channel is already archived, it will return a `400 bad request` status.
+
+```json
+{
+   "success": false,
+   "error": "The channel, {Channel name}, is archived [error-room-archived]",
+   "errorType": "error-room-archived"
+}
+```
 
 ## Change Log
 
