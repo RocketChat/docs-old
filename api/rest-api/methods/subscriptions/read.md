@@ -13,7 +13,9 @@ Mark any room \(channel, group and DMs\) as read.
 | `rid` `roomId` | `L6su9mxwdDkvdSaT9hvzu8z6mHFigiXy6Y` OR `GENERAL` | Required | A valid `roomId` for a channel, group or DM | Alphanumeric mixed-case string |
 
 ## Example Call
+
 Using `rid` as argument.
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
@@ -31,7 +33,9 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 ```
 
 ## Example Call
+
 Using `roomId` as argument.
+
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \

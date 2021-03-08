@@ -145,6 +145,8 @@ The support is limited to installations matching the requirements described in t
 
 We require monitoring for all supported installations. All installations must continually collect [Metrics](https://github.com/RocketChat/Rocket.Chat.Metrics) regarding the installation's instances and database. Rocket.Chat supports the industry-standard Prometheus + Grafana monitoring stack. Grafana dashboards required for support are available in the [Metrics](https://github.com/RocketChat/Rocket.Chat.Metrics) repository.
 
+Explanations about each metric/graph which help reading and interpreting the data can be found in this [dedicated document here](https://github.com/RocketChat/Rocket.Chat.Metrics/blob/master/metrics.md).
+
 ## Data access
 
 We do not require access to the servers, instances, or databases to provide support, but we may require access to the logs if we consider them necessary to identify the problem.
