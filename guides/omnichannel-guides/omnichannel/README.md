@@ -1,8 +1,8 @@
 ---
 description: >-
   OmniChannel adds the ability to receive conversations from a pop-up livechat
-  support on your website and your business facebook chat directly in
-  Rocket.chat.
+  support on your website or your business Facebook chat or any other channel
+  directly in Rocket.chat.
 ---
 
 # Omnichannel Admin's Guide
@@ -94,7 +94,7 @@ Send an email to [omni@rocket.chat](mailto:omni@rocket.chat) to request an API k
 
 If you are a GDPR complaint company and want to allow your visitors to request to remove their data, Rocket.chat allows you to do that for all your incoming chats, as shown below:
 
-![](../../../.gitbook/assets/image%20%2860%29.png)
+![](../../../.gitbook/assets/image%20%2861%29.png)
 
 ### Livechat
 

@@ -4,7 +4,7 @@ This page explains the ins and outs of messaging in Rocket.Chat.
 
 ## Compose messages
 
-To compose a message in Rocket.Chat, go the channel or user you want to send a message. Type the message box and press Enter or the **Send** Button.
+To compose a message in Rocket.Chat, go to the channel or user you want to send a message. Type the message box and press Enter or the **Send** Button.
 
 If you want to add new lines of text, press Shift + Enter to add a new line.
 
@@ -103,7 +103,7 @@ Use the following symbols to format text as desired:
 * Bold: `*Lorem ipsum dolor*`
 * Italic: `_Lorem ipsum dolor_`
 * Strike: `~Lorem ipsum dolor~`
-* Inline code: `Lorem ipsum dolor` 
+* Inline code: ``` `Lorem ipsum dolor` ``` 
 * Image: `![Alt text](https://rocket.chat/favicon.ico)`
 * Link: `[Lorem ipsum dolor](https://www.rocket.chat/)` or `<https://www.rocket.chat/ |Lorem ipsum dolor>`
 

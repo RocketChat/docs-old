@@ -79,7 +79,7 @@ await APIClient.v1.post('users.2fa.sendEmailCode', undefined, {emailOrUsername: 
 
 ## Handling password fallback
 
-If an api request returns TOTP Required with a method *password*, then the API user's password is required to authenticate the request:
+If an api request returns TOTP Required with a method _password_, then the API user's password is required to authenticate the request:
 
 ```javascript
 // Error example
@@ -109,7 +109,7 @@ curl -H "X-Auth-Token: $YOUR_AUTH_TOKEN" \
      -H "X-2fa-code: $SHA_256_HASH_OF_API_USER_PASSWORD" \
      -H "X-2fa-method: password" \
      http://localhost:3000/api/v1/users.update \
-     -d '{"userId": "SOME_USER_ID", "data": { "requirePasswordChange": false }}'   
+     -d '{"userId": "SOME_USER_ID", "data": { "requirePasswordChange": false }}'
 ```
 
 ## Enabling the Two Factor via Email
@@ -141,3 +141,4 @@ It's possible to disabled the email check by calling the endpoint `users.2fa.dis
 ```javascript
 await APIClient.v1.post('users.2fa.disable-email');
 ```
+

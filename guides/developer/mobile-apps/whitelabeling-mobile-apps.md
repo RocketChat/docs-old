@@ -7,16 +7,23 @@ Here we will show you how to customize:
 * The App Icons
 * Splash Screens
 * App Name
-* Some colors
+* Colors
 
-Before starting, keep in mind that you will need an intermediate knowledge of Android/iOS development and basic Javascript knowledge.
+## Important
+
+* This document is updated after every release, so we can guarantee it's stable for production
+  * `develop` branch might be different from this
+* Keep in mind that you will need an **intermediate** knowledge of Android/iOS development and basic Javascript knowledge
+* Our repo contains targets/build flavors to build both our Experimental and Official apps
+  * Both apps are equal, but released at different pace on the stores
+  * If you see an Experimental folder, don't be scared of breaking anything. It's just a folder containing the assets for the non-official app
 
 ## Repo
 
 * Make sure you have both iOS and Google developer accounts and the respective development environments working
   * You can follow this guide: [https://reactnative.dev/docs/getting-started](https://reactnative.dev/docs/getting-started)
 * Clone [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)
-* Checkout `single-server` branch
+* Checkout `single-server` branch \(git clone -b single-server [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)\)
 
 ## General
 
@@ -50,6 +57,7 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 
 * Open [RocketChatRN.xcworkspace](https://github.com/RocketChat/Rocket.Chat.ReactNative/tree/single-server/ios/RocketChatRN.xcworkspace) on Xcode \(11.7 or newer\)
 * On General tab, select “RocketChatRN” and change Display Name, Bundle Identifier, Version and Build
+  * Note: as explained on Important section, we have two targets and we're going to cover the default one on this doc, which is the Experimental app.
 
 ![](../../../.gitbook/assets/screen-shot-2020-10-05-at-16.42.41.png)
 
@@ -83,7 +91,7 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 
 ![](https://lh3.googleusercontent.com/o3iotTRPf5V7C6PZiZ9SYwWR_suvnW8mflVSABFaRaRzRuKm4SBRrbLiAVceStFpj7WWGs3xNJO_2cqT7EeRxet9fQoX7MYuUWjLfOBhScEXt5HZVB1XEQxtYrH5Oh8juv1Iz0hu)
 
-![](../../../.gitbook/assets/image%20%2841%29.png)
+![](../../../.gitbook/assets/image%20%2835%29%20%281%29.png)
 
 * Set the same keychain group on `RocketChatRN/Info.plist`, `ShareRocketChatRN/Info.plist` and `NotificationService/Info.plist`
 
@@ -101,13 +109,17 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 
 ![](../../../.gitbook/assets/image%20%2842%29.png)
 
-* Change the app icon on `Images.xcassets/App Icon`
+* Change the app icon on `Experimental.xcassets/App Icon`
 
-![](https://lh6.googleusercontent.com/sEyF_kaGjBtal_IW-pV657Hku-sSPPrUFwSgbW2VllV_tEHBGcfIuu6IJ5UN33q9UdE2q_Q9xC4TDiC7ERoe37OfYYhA333y5T5Dqo0jV9h5dvTj5uN2l2JadhLg7fEripLwgn-B)
+![](../../../.gitbook/assets/image%20%28178%29%20%281%29.png)
 
-* Change the app splash screen on `Images.xcassets/Launch Screen Icon`
+* Change the app splash screen on `Experimental.xcassets/Launch Screen Icon`
 
-![](https://lh4.googleusercontent.com/42ftYBrzF-r8eBeCpACkUAFzRbU4DOcuVHgXLqGdDCIGsv7J9v4pGHcUM-P6coWftTXkCiX0_u3J-c-0v92R23Bztknnq94WJ1FV5eGXyF53VNf06hFSuMlIEOmhAEPcLh2sXq65)
+![](../../../.gitbook/assets/image%20%28175%29.png)
+
+* Change the splash background colors on `Experimental.xcassets/splashBackgroundColor`
+
+![](../../../.gitbook/assets/image%20%28179%29.png)
 
 * Set your Bugsnag API key on `RocketChatRN/Info.plist`
 
@@ -140,28 +152,34 @@ Before starting, keep in mind that you will need an intermediate knowledge of An
 
 * Execute the following on project terminal
   * `yarn`
-  * `cd ios`
-  * `pod install`
-  * `cd ..`
+  * `npx pod-install`
   * `yarn ios`
 
 ## Android
 
 ### General setup
 
-_**Note:** we have two Android flavours: play \(used on Google Play\) and foss \(free of any proprietary libs\). This document contains instructions to the play favour._
+* Similarly to iOS, we have build flavours to generate our Official, Experimental and F-Droid versions of the app
+  * `experimental` and `official` folders contain app icons and splash screens
+  * `play` and `foss` folders contain necessary code to run the app with or without Google Play services, respectively
+    * `foss` build doesn't contain push notifications implemented
+  * `main` folder contains core implementations
+  * `debug` folder contains code to run the app in debug mode
+  * This doc is going to focus on building the Experimental app, so we're going to use `experimental`, `play` `debug`, and `main` folders
 
-* Set `APPLICATIONID`, `VERSIONNAME`, `VERSIONCODE` and `BugsnagAPIKey` on [./android/gradle.properties](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/single-server/android/gradle.properties)
-* Change `ic_launcher.png` and `ic_notification.png` on the folders [./android/app/src/main/res/mipmap\*](https://github.com/RocketChat/Rocket.Chat.ReactNative/tree/single-server/android/app/src/main/res)
+![](../../../.gitbook/assets/image%20%28177%29.png)
 
-![](https://lh3.googleusercontent.com/Rs0TvtiY5uyg0rfRt2RXr_TSMey2oKtFDChx9iwUnLu9ZIw3qJ37JsLvtT6XYV9sWD7X3vuBY_GZqHc47Ut2ferCdp67O3lgSbcuqDbzjIA2IY05ZFHOWjHbZj-ftXN9kNND-V18)
+* Set `APPLICATION_ID`, `VERSIONCODE` and `BugsnagAPIKey` on `./android/gradle.properties`
+* Generate a [new image asset](https://developer.android.com/studio/write/image-asset-studio) for `ic_notification` and target `main`
+* Generate a [new image asset](https://developer.android.com/studio/write/image-asset-studio) for `ic_launcher` and target `experimental`
+* Change splash screen background and notification text color on `./android/app/src/experimental/res/values/colors.xml`
 
-### 
+![](../../../.gitbook/assets/image%20%28180%29.png)
 
-* Change [./android/app/src/main/res/drawable-xxxhdpi/splash.png](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/single-server/android/app/src/main/res/drawable-xxxhdpi/splash.png)
-* Change `strings/app_name` and `strings/share_extension_name` on [./android/app/src/main/res/values/strings.xml](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/single-server/android/app/src/main/res/values/strings.xml)
+* Change splash screen logo on `./android/app/src/experimental/res/drawable-xxhdpi/splash.png`
+* Change app name and share extension name on `./android/app/src/main/res/values/strings.xml`
 
-![](https://lh6.googleusercontent.com/pFW-aGmA9PheAjKFE4_Q0SaHDg6kA_FbGXmSLSa8hSjwLLz1HGJmEyCx__EsZZiIqSJBybOyG4LOYAjDMN02tRq0vD2qcn2Vzv6iSF-WsO08GY6HWlmiB-t03RBbR6kPIa5XXicB)
+![](../../../.gitbook/assets/image%20%28174%29.png)
 
 ### Generate upload key
 
@@ -174,7 +192,7 @@ _**Note:** we have two Android flavours: play \(used on Google Play\) and foss \
 
 ![](../../../.gitbook/assets/15.png)
 
-* Set `KEYSTORE_PASSWORD` and `KEY_PASSWORD` on [./android/gradle.properties](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/single-server/android/gradle.properties) with the passwords you were prompted
+* Set `KEYSTORE_PASSWORD` and `KEY_PASSWORD` on ./android/gradle.properties with the passwords you were prompted
 
 ### Generating Android app on Firebase
 
@@ -193,7 +211,7 @@ _**Note:** we have two Android flavours: play \(used on Google Play\) and foss \
 
 ![](https://lh6.googleusercontent.com/t4_xn2ud8KnPKDfQ4r2Hk7jo4bYs85ZQ8LmYFeFwD6tB3qt3a8U1l3x1HsFcDE0yRKe1PI8AXDD-4J-8QoQMarD7riUwO3hjF4YURBKOe8hlJZHRCvt1E49TxVVZSkPSAfKg7OFB)
 
-* Download config file and move it as instructed, but to `android/app/src/play` instead.
+* Download config file and move it as instructed
 
 ![](https://lh5.googleusercontent.com/k7CjPaIbiBvkd3wY1Exl6FGZsmC5blK8pNW3fycI9NAVZ9rWwdVNHtSTV6EWHQFasep9tOf0k0nEE36khTIxgtTr4se2_NM6lJmgeM20M5lhMPupoc0BjhouH7B7X3jnP5CvgMg6)
 
@@ -203,14 +221,10 @@ _**Note:** we have two Android flavours: play \(used on Google Play\) and foss \
 
 * Execute the following on project terminal
   * `yarn`
-  * `yarn android`
-* The app will build on the simulator or device, but it won’t start automatically
-
-### Optional: Start the app automatically after build
-
-* Android starts the app based on package’s Activity, but we changed the application id, so it won’t work
-* For it to work, you have to change all references to `chat.rocket.reactnative` on `.java` files and on manifest
-* Change all references as on this commit: [https://github.com/RocketChat/Rocket.Chat.ReactNative/commit/518e56379d88937d7f9a572c7bd61716a4d0b7fe](https://github.com/RocketChat/Rocket.Chat.ReactNative/commit/518e56379d88937d7f9a572c7bd61716a4d0b7fe)
+  * `yarn android-whitelabel <YOURAPPID>`
+  * For example, the app created on this document would use `yarn android-whitelabel chat.rocket.whitelabel`
+* Note: this script uses `experimentalPlayDebug` build flavor. When you build your app on release mode, use `experimentalPlayRelease`
+  * Refer to [https://developer.android.com/studio/build/build-variants](https://developer.android.com/studio/build/build-variants) for more info about how it works
 
 ## Push notification
 
@@ -337,8 +351,6 @@ _**Note:** we have two Android flavours: play \(used on Google Play\) and foss \
 
 ![](../../../.gitbook/assets/30.png)
 
-#### 
-
 #### Development SSL Certificate
 
 * On “Development SSL Certificate”, click “Create Certificate”
@@ -376,6 +388,4 @@ _**Note:** we have two Android flavours: play \(used on Google Play\) and foss \
 ![](https://lh3.googleusercontent.com/WCLBhK5CneauBC7xQH3atoiHS3HE9YvJ7IaC5hCdGQVh3sx8CtF2u4vjcBc1e-LVl0zWXTwhrXzct8HcGLAk6D3A7eZHYiVHTzsAGdMNZ2jGADKi0jwXFiYoVhOyytvfiRqm4HuV)
 
 * For simplicity, save it in the same folder of your CSR and .cer. You’ll need it later.
-
-
 
