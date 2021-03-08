@@ -35,7 +35,7 @@ Use this setting to define what types of files the users will be able to upload.
 * **AmazonS3**: Uses the [Amazon S3](./#amazon-s3) storage type
 * **Google Cloud Storage**: Uses the [Google Cloud Storage](./#google-cloud-storage) storage type
 * **WebDAV**: Uses the [WebDav](./#webdav) storage type
-* **FileSystem**: Uses the [FileSysyem](./#filesystem) storage type
+* **FileSystem**: Uses the [FileSystem](./#filesystem) storage type
 
 ## Amazon S3
 
@@ -98,6 +98,8 @@ Time after which Amazon S3 generated URLs will no longer be valid \(in seconds\)
 > If you run into issues with files not loading consistently for some users located further from server location. Increasing this time might help.
 
 ## FileSystem
+
+
 
 ### System Path
 

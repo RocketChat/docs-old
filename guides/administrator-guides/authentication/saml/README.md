@@ -8,5 +8,3 @@
 
 {% page-ref page="oracle-cloud.md" %}
 
-
-

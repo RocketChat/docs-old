@@ -1,10 +1,10 @@
-# End to End Encryption
+# End to End Encryption Guide
 
-> Note: This feature is currently in beta. Encrypted messages of encrypted rooms will not be found by search operations. The mobile apps may not support the encypted messages \(currently under implementation\). Bots may not be able to see encrypted messages until they implement support for it. Uploads will not be encrypted in this version.
+> Note: This feature is currently in beta. Encrypted messages of encrypted rooms will not be found by search operations. Bots may not be able to see encrypted messages until they implement support for it. File uploads will not be encrypted in this version.
 
 ## Getting started
 
-Once your servers admin has enabled End to End Encryption as an option you will see a banner across the top of your interface like this:
+Once your server admin has enabled End to End Encryption as an option you will see a banner across the top of your interface like this:
 
 ![ ](../../.gitbook/assets/e2e-banner.png)
 

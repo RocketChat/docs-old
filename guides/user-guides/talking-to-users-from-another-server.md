@@ -1,6 +1,6 @@
 # Talking to users from another server
 
-Once you have [added your server to the Federated Network](../administrator-guides/federation.md) you can talk to users from server who have done the same.
+Once you have [added your server to the Federated Network](../administrator-guides/federation.md), you can talk to users from servers who have done the same.
 
 ## Using Rocket.Chat Federation
 
@@ -17,7 +17,7 @@ Then, you should be able to look for users on remote servers, called peers. You 
 * Username: `myfriendsusername@anotherdomain.com`
 * E-mail address: `joseph@remotedomain.com`
 
-If the remote server is within Rocket.Chat Federated Network, you will be able to see the users:
+If the remote server is within Rocket.Chat Federated Network; you will be able to see the users:
 
 ![Directory Search Result](../../.gitbook/assets/directory-result.png)
 
@@ -27,5 +27,5 @@ If you click on one of those listed users, you will invite them to your server w
 
 ![Chat](../../.gitbook/assets/chat.png)
 
-From now on, you can invite that user only to private rooms or discussions. Those channels are going to be replicated to the remote server, without the messages history.
+From now on, you can invite that user only to private rooms or discussions. Those channels are going to be replicated to the remote server, without the message history.
 

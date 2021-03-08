@@ -96,7 +96,7 @@ RocketChat(function() {
 
 #### _Set Language for Widget_
 
-There are number of language options, which you can choose from to set language for your widget. To check supported languages refer [here](https://github.com/RocketChat/Rocket.Chat.Livechat/tree/dev/src/i18n). To set language of widget use the following code.
+There are number of language options, which you can choose from to set language for your widget. To check supported languages refer [here](https://github.com/RocketChat/Rocket.Chat.Livechat/tree/develop/src/i18n). To set language of widget use the following code.
 
 ```javascript
 RocketChat(function() {
