@@ -1,6 +1,6 @@
 # Terms of Service
 
-_Effective date: February 27th, 2021_
+_Effective date: March 3rd, 2021_
 
 These Customer Terms of Service \(the “Customer Terms”\) describe your rights and responsibilities pertaining to Rocket.Chat Services \(the "Services"\), such as Rocket.Chat Cloud Hosting, Support Plans, Marketplace or any other services we may provide to you, the customer. Some sections of these Customer Terms only apply to specific Services, as indicated by the headings of the respective paragraph. These Customer Terms **do not** apply to on-premises installation of Rocket.Chat. Please read the Customer Terms carefully and **note that these Customer Terms include auto-renewal provisions and may limit your rights and liabilities.**
 
@@ -24,7 +24,9 @@ Rocket.Chat may provision or deprovision access to the Services, enable or disab
 
 **Legal Age**
 
-To the extent prohibited by applicable law, the Services are not intended for and should not be used by anyone under the age of sixteen. You represent that you are over the legal age. You may not access or use the Services for any purpose if the preceding sentence is not true. Without limiting the foregoing, you must be of legal working age.
+You \(in case of a natural person\) represent that you are over the legal age. You may not sign-up, access or use the Services for any purpose if the preceding sentence is not true. Without limiting the foregoing, you must be of legal working age.
+
+Your Users may be above or under the legal age, as per Your determination. You are responsible to comply with applicable laws regarding the minimum age for Your Users , depending on the context you allow them to access or use the Services.
 
 **Duties and Unacceptable Conduct**
 

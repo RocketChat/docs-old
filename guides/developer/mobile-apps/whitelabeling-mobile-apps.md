@@ -9,8 +9,6 @@ Here we will show you how to customize:
 * App Name
 * Colors
 
-
-
 ## Important
 
 * This document is updated after every release, so we can guarantee it's stable for production
@@ -25,7 +23,7 @@ Here we will show you how to customize:
 * Make sure you have both iOS and Google developer accounts and the respective development environments working
   * You can follow this guide: [https://reactnative.dev/docs/getting-started](https://reactnative.dev/docs/getting-started)
 * Clone [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)
-* Checkout `single-server` branch
+* Checkout `single-server` branch \(git clone -b single-server [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)\)
 
 ## General
 
@@ -93,7 +91,7 @@ Here we will show you how to customize:
 
 ![](https://lh3.googleusercontent.com/o3iotTRPf5V7C6PZiZ9SYwWR_suvnW8mflVSABFaRaRzRuKm4SBRrbLiAVceStFpj7WWGs3xNJO_2cqT7EeRxet9fQoX7MYuUWjLfOBhScEXt5HZVB1XEQxtYrH5Oh8juv1Iz0hu)
 
-![](../../../.gitbook/assets/image%20%2835%29%20%281%29%20%281%29.png)
+![](../../../.gitbook/assets/image%20%2835%29%20%281%29.png)
 
 * Set the same keychain group on `RocketChatRN/Info.plist`, `ShareRocketChatRN/Info.plist` and `NotificationService/Info.plist`
 
@@ -353,8 +351,6 @@ Here we will show you how to customize:
 
 ![](../../../.gitbook/assets/30.png)
 
-#### 
-
 #### Development SSL Certificate
 
 * On “Development SSL Certificate”, click “Create Certificate”
@@ -392,6 +388,4 @@ Here we will show you how to customize:
 ![](https://lh3.googleusercontent.com/WCLBhK5CneauBC7xQH3atoiHS3HE9YvJ7IaC5hCdGQVh3sx8CtF2u4vjcBc1e-LVl0zWXTwhrXzct8HcGLAk6D3A7eZHYiVHTzsAGdMNZ2jGADKi0jwXFiYoVhOyytvfiRqm4HuV)
 
 * For simplicity, save it in the same folder of your CSR and .cer. You’ll need it later.
-
-
 

@@ -8,6 +8,12 @@ You can set custom fields under `Administration > Accounts > Registration > Cust
 
 Custom fields show up when a user registers, and when an admin looks for that user's information.
 
+In order to display custom fields in user profiles you can use this syntax under `Administration > Accounts > Custom Fields to Show in User Info`
+
+```javascript
+[{"Designation": "designation"}, {"Department": "department"}]
+```
+
 For now, set custom fields using a [JSON object](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON).
 
 Make sure to use a valid `JSON`, where `keys` are the `field names` containing a dictionary of field settings. Example:

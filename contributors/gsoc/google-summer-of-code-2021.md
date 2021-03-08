@@ -87,11 +87,16 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### Poll App Mega Extensions
 
-- **Mentors:** [@ramkumar.kb](https://open.rocket.chat/direct/ramkumar.kb), [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio)
-- **Description:** The[ poll app](https://github.com/RocketChat/rocket.chat.app-poll) already allows anyone to instantly create engaging rich interaction polls within any chat room. This project aims to expand its scope and capabilities in a **huge** way: making it a tool for enhancing participants engagement and for interactive educational / information delivery. Some initial ideas include:
-- **Desirable Skills:** The sky is _not even the limit_ for this project. Will need a hot-shot all round challenge-loving student already familiar with JavaScript, TypeScript, React, and Rocket.Chat + Fuselage codebase.
-
-  **Desirable Skills:** The sky is _not even the limit_ for this project. Will need a hot-shot all round challenge-loving student already familiar with JavaScript, TypeScript, React, and Rocket.Chat + Fuselage codebase.
+* **Mentors:**  [@ramkumar.kb](https://open.rocket.chat/direct/ramkumar.kb), [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio)
+* **Description:**  The[ poll app](https://github.com/RocketChat/rocket.chat.app-poll) already allows anyone to instantly create engaging rich interaction polls within any chat room. This project aims to expand its scope and capabilities in a **huge** way: making it a tool for enhancing participant's engagement with interactive quizzes / trivias / live-polls. Some initial ideas include:
+* * Better bar-graph visualisation for the responses \(with a switch for anonymous responses - so 3 types: Open / Confidential / Mixed\)
+* * Ability to add user options in the poll response and show the response of those responses in a visual way \(e.g. word-cloud\)
+* * Ability to create different types of polls \(e.g. 1-to-5, Agree/Disagree, Overrated/Underrated\)
+* * Ability to add emoticons on the reponse options
+* * Ability to create `/poll live` or `/live-poll` feature - it has 2 parts \(prepare a set of questions before hand and retrieve it just before the live poll starts. During the live-poll a countdown timer for each question is shown and upon completion, the responses are shown visually\) a.k.a. multi-question version of the single poll feature
+* * \(Stretch Goal\) Ability to download the `live-poll` response, once the poll is over
+* * Enhance[ UIKit](https://docs.rocket.chat/apps-development/uikit) if needed, to meet the above goals
+* **Desirable Skills:** The sky is _not even the limit_ for this project. Will need a hot-shot all round challenge-loving student already familiar with JavaScript, TypeScript, React,[ current poll-app codebase](https://github.com/sampaiodiego/rocket.chat.app-poll) and [Rocket.Chat + Fuselage codebase](https://github.com/RocketChat/Rocket.Chat.Fuselage).
 
 ### **Use Lingohub on mobile apps**
 
@@ -156,16 +161,16 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### **Houston Improvements - Rocket.Chat release/changelog generator**
 
-- **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
-- **Project repository:**[ \_\*\*\_https://github.com/RocketChat/Rocket.Chat.Houston](https://github.com/RocketChat/Rocket.Chat.Houston)
-- **Desirable Skills:** TypeScript, Git, Shell
-- **Description:** Houston is the CLI tooling we use to release new versions of Rocket.Chat and generate our changelogs from merged pull requests. We want to:
-  - Rewrite the tooling in TypeScript
-  - Accept a new format of PR titles \(conventional changelog\)
-  - Add a validation system for PRs titles via GitHub Actions
-  - Add tooling to preview the generated changelog for the PR
-  - Add new top level of separation for product type \(like Enterprise and Community\) based on labels
-  - Support dependent repositories to import their changelogs, for example, import the changelogs of apps engine
+* **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
+* **Project repository:**[ \_\*\*\_https://github.com/RocketChat/Rocket.Chat.Houston](https://github.com/RocketChat/Rocket.Chat.Houston)
+* **Desirable Skills:** TypeScript, Git, Shell
+* **Description:** Houston is the CLI tooling we use to release new versions of Rocket.Chat and generate our changelogs from merged pull requests. We want to:
+  * Rewrite the tooling in TypeScript
+  * Accept a new format of PR titles \(conventional changelog\)
+  * Add a validation system for PRs titles via GitHub Actions
+  * Add tooling to preview the generated changelog for the PR
+  * Add new top level of separation for product type \(like Enterprise and Community\) based on labels
+  * Support dependent repositories to import their changelogs, for example, import the changelogs of apps engine
 
 ### Add a bundler to the Apps-Compiler
 
@@ -228,12 +233,25 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### **Omnichannel: Livechat Widget Accessible Mode**
 
-- **Mentors:** [@rafaelferreira](https://open.rocket.chat/direct/rafaelferreira)
-- **Project repository:** [https://github.com/RocketChat/Rocket.Chat.Livechat](https://github.com/RocketChat/Rocket.Chat.Livechat)
-- **Desirable Skills:** Accessibility, React, SCSS
-- **Description:** Omnichannel users, including users with visual disabilities, must be able to perceive content at the Livechat widget. The main idea here is to give some options to Livechat widget users to active "Accessible mode", which means:
-  - High contrast colors.
-  - Icons accompanying text.
-  - Bigger highlight over selected text or cursor active/hover using "tab" key.
-  - Show a better solution when an Agent is typing.
-  - Etc.
+* **Mentors:** [@rafaelferreira](https://open.rocket.chat/direct/rafaelferreira)
+* **Project repository:** [https://github.com/RocketChat/Rocket.Chat.Livechat](https://github.com/RocketChat/Rocket.Chat.Livechat)
+* **Desirable Skills:** Accessibility, React, SCSS
+* **Description:** Omnichannel users, including users with visual disabilities, must be able to perceive content at the Livechat widget. The main idea here is to give some options to Livechat widget users to active "Accessible mode", which means:
+  * High contrast colors.
+  * Icons accompanying text.
+  * Bigger highlight over selected text or cursor active/hover using "tab" key.
+  * Show a better solution when an Agent is typing.
+  * Etc
+
+### **Matrix Interoperability : migrating to native support**
+
+* **Mentors:**  [@sing.li](https://open.rocket.chat/direct/sing.li) [@gabriel.engel](https://open.rocket.chat/direct/gabriel.engel)
+* **Desirable Skills:** Familiarity with matrix.org protocol; skilled in rust, golang, and TypeScript development 
+* **Description:** Explore and improve existing Rocket.Chat to Matrix.org bridge\(s\)   Investigate current state of development in dendrite and hydrogen.  Start the work on migrating to  native support of the matrix protocols.
+
+### **Big Blue Button : replace embedded chat with Rocket.Chat**
+
+* **Mentors:**  [@sing.li](https://open.rocket.chat/direct/sing.li) [@gabriel.engel](https://open.rocket.chat/direct/gabriel.engel)
+* **Desirable Skills:** Familiarity with Big Blue Button; skilled in JavaScript, nodeJS and Meteor development 
+* **Description:**  The embedded chat in Big Blue Button is already a Meteor based chat with similar structure to Rocket.Chat.  However, other components in Big Blue Button also depends on the same Meteor stack working against the same MongoDB instance for proper operations. This project aims to create the ability to integrate an existing Rocket.Chat server into Big Blue Button, replacing the existing embedded chat component.
+

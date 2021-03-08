@@ -15,7 +15,7 @@ Please make sure to follow new version updates by subscribing to our newsletters
 **Issues**
 
 {% hint style="warning" %}
-**2020-0018 - Medium Severity issue** fixed at **2021-02-27.**
+**0019 - Medium Severity issue** fixed at **2021-02-27.**
 
 Rocket.Chat Server - affects **all,** fixed on **3.12, 3.11.2, 3.10.6**
 
@@ -23,7 +23,7 @@ _Details about this security fix will be provided later as per our responsible d
 {% endhint %}
 
 {% hint style="danger" %}
-**2020-0017 - Critical Severity issue** fixed at **2021-02-27.**
+**0018 - Critical Severity issue** fixed at **2021-02-27.**
 
 Rocket.Chat Server - affects **all,** fixed on **3.12, 3.11.2, 3.10.6**
 
@@ -31,7 +31,7 @@ _**\(SAML-related fix\)** Details about this security fix will be provided later
 {% endhint %}
 
 {% hint style="info" %}
-**2020-0016 - Low Severity issue** fixed at **2021-02-27.**
+**0017 - Low Severity issue** fixed at **2021-02-27.**
 
 Rocket.Chat Server - affects **all,** fixed on **3.12, 3.11.2, 3.10.6**
 
@@ -39,7 +39,7 @@ _Details about this security fix will be provided later as per our responsible d
 {% endhint %}
 
 {% hint style="warning" %}
-**2020-0015 - Medium Severity issue** fixed at **2021-01-26.**
+**0016 - Medium Severity issue** fixed at **2021-01-26.**
 
 Rocket.Chat Server / LiveChat - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
@@ -47,7 +47,7 @@ Rocket.Chat Server / LiveChat - affects **all,** fixed on **3.11, 3.10.5, 3.9.7,
 {% endhint %}
 
 {% hint style="danger" %}
-**2020-0014 - Critical Severity issue** fixed at **2021-01-26.**
+**0015 - Critical Severity issue** fixed at **2021-01-26.**
 
 Rocket.Chat Server / LiveChat - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
@@ -55,7 +55,7 @@ Rocket.Chat Server / LiveChat - affects **all,** fixed on **3.11, 3.10.5, 3.9.7,
 {% endhint %}
 
 {% hint style="danger" %}
-**2020-0013 - High Severity issue** fixed at **2021-01-26.**
+**0014 - High Severity issue** fixed at **2021-01-26.**
 
 Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
@@ -63,7 +63,7 @@ Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 {% endhint %}
 
 {% hint style="warning" %}
-**2020-0013 - Medium Severity issue** fixed at **2021-01-26.**
+**0013 - Medium Severity issue** fixed at **2021-01-26.**
 
 Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
@@ -71,7 +71,7 @@ Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 {% endhint %}
 
 {% hint style="info" %}
-**2020-0012 - Low Severity issue** fixed at **2021-01-26.**
+**0012 - Low Severity issue** fixed at **2021-01-26.**
 
 Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
@@ -79,7 +79,7 @@ Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 {% endhint %}
 
 {% hint style="info" %}
-**2020-0011 - Low Severity issue** fixed at **2021-01-26.**
+**0011 - Low Severity issue** fixed at **2021-01-26.**
 
 Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
@@ -87,7 +87,7 @@ Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 {% endhint %}
 
 {% hint style="danger" %}
-**2020-0010 - High Severity issue** fixed at **2021-01-26.**
+**0010 - High Severity issue** fixed at **2021-01-26.**
 
 Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
@@ -95,7 +95,7 @@ Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 {% endhint %}
 
 {% hint style="warning" %}
-**2020-0009 - Medium Severity issue** fixed at **2021-01-26**
+**0009 - Medium Severity issue** fixed at **2021-01-26**
 
 Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
@@ -103,7 +103,7 @@ Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 {% endhint %}
 
 {% hint style="danger" %}
-**2020-0008 - High Severity issue** fixed at **2021-01-26**
+**0008 - High Severity issue** fixed at **2021-01-26**
 
 Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
@@ -111,7 +111,7 @@ Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 {% endhint %}
 
 {% hint style="warning" %}
-**2020-0007 - Medium Severity issue** fixed at **2020-11-28**  
+**0007 - Medium Severity issue** fixed at **2020-11-28**  
 Rocket.Chat Server - affects **all,** fixed on **3.9.**  
 \(**Self-XSS**\) An issue with the drag and drop functionality was fixed that - under certain circumstances - could be used as part of possible self-xss attack_._ 
 
@@ -121,7 +121,7 @@ CVE-ID: CVE-2020-8292	__
 {% endhint %}
 
 {% hint style="danger" %}
-**2020-0006 - Critical Severity issue** fixed at **2020-12-18**  
+**0006 - Critical Severity issue** fixed at **2020-12-18**  
 Rocket.Chat Server - affects **1.x, 2.x**, **3.x,** fixed on **3.9.3 / 3.8.4 / 3.7.4 / 2.4.14 / 1.3.5**  
 **\(XSS\)** A vulnerability in the message renderer was fixed that allowed for possible XSS attacks. More details [here](https://rocket.chat/xss-vulnerability-hotfix-available-for-all-affected-versions).
 
@@ -129,7 +129,7 @@ CVE-ID:  __CVE-2020-8288
 {% endhint %}
 
 {% hint style="danger" %}
-**2020-0005 - Critical Severity issue** fixed at **2020-12-05**  
+**0005 - Critical Severity issue** fixed at **2020-12-05**  
 Rocket.Chat Server - affects **0.x, 1.x, 2.x**, **3.x,** fixed on **3.9.1 / 3.8.3 / 3.7.3 / 2.4.13 / 1.3.4 / 0.74.4**  
 **\(Authentication bypass\)** A SAML vulnerability was fixed that allowed adding custom SAML providers. More details [here](https://rocket.chat/saml-security-hotfix-available/).
 
@@ -137,25 +137,25 @@ CVE-ID: CVE-2020-29594
 {% endhint %}
 
 {% hint style="danger" %}
-**2020-0004 - High Severity issue** fixed at **2020-10-01**  
+**0004 - High Severity issue** fixed at **2020-10-01**  
 Rocket.Chat Desktop Client - affects **2.x**, ****fixed on **3.0**  
 **\(RCE\)** Fixed via context isolation an issue where link preload could be used to execute code.
 {% endhint %}
 
 {% hint style="danger" %}
-**RC-2020-0003 - High Severity issue** fixed at **2020-08-29**  
+**0003 - High Severity issue** fixed at **2020-08-29**  
 Rocket.Chat Server - affects **3.4.x**, ****fixed on **3.6**  
 **\(RCE\)** Fixed an issue where discussion messages could be used to insert and execute code.
 {% endhint %}
 
 {% hint style="info" %}
-**RC-2020-0002 - Low Severity issue** fixed at **2020-08-29**  
+**0002 - Low Severity issue** fixed at **2020-08-29**  
 Rocket.Chat Server - affects **3.x**, ****fixed on **3.6**   
 Added a missing X-Frame Options Header in the admin
 {% endhint %}
 
 {% hint style="danger" %}
-**RC-2020-0001 - High Severity issue** fixed at **2020-07-25**  
+**0001 - High Severity issue** fixed at **2020-07-25**  
 Rocket.Chat Server - affects **3.4.x**, ****fixed on **3.5** and **3.4.2**  
 **\(RCE\)** Fixed an issue where thread starting messages could be used to insert and execute code. Thanks to Pawel Wylecial of [REDTEAM](http://redteam.pl/)_.PL_
 {% endhint %}

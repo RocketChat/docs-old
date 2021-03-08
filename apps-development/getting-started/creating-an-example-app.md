@@ -22,7 +22,7 @@ You can check the [app-schema.json](https://github.com/RocketChat/Rocket.Chat.Ap
 }
 ```
 
-### Start Developing
+## Start Developing
 
 The basic creation of an App is based on extending the App class from the Rocket.Chat Apps definition library. Your class also has to implement the constructor and optionally the initialize function, for more details on those check the [App definition documentation](https://rocketchat.github.io/Rocket.Chat.Apps-engine/classes/app.html).
 
@@ -45,9 +45,9 @@ export class LiftoffApp extends App {
 
 Now let's add some functionality to it
 
-#### Adding a Slashcommand
+### Adding a Slashcommand
 
-A Slashcommand is a way to call the app installed in Rocket.Chat. You app can have multiple slashcommands and subcommands. In our example, we will add the `liftoff` slashcommand and it will be called like this by the user inside the chat:
+A Slashcommand is a way to call the app installed in Rocket.Chat. Your app can have multiple slashcommands and subcommands. In our example, we will add the `liftoff` slashcommand and it will be called like this by the user inside the chat:
 
 ```text
 /liftoff
@@ -87,7 +87,7 @@ export class LiftoffCommand implements ISlashCommand {
 
 > You can learn more about organising complex slash commands in our [Sub-command pattern](../recipes/sub-command-pattern.md) recipe
 
-#### Registering the slashcommand
+### Registering the slashcommand
 
 After adding our slashcomamnd logic, we have to register the slashcommand in out app by extending its configuration:
 
@@ -115,7 +115,7 @@ export class LiftoffApp extends App {
 
 We first had to import the `Liftoff` class and then register an instance of using the `provideSlashCommand` function. We pass the app's instance \(`this`\) so our slashcommand have access to all the functionalities of the app.
 
-#### Updating the app
+### Updating the app
 
 If you want to, for example, change the message sent to the room from `Time to lift off!` to `Lift off now!`, you have to simply save the modifications and run:
 
@@ -125,7 +125,7 @@ rc-apps deploy --url http://localhost:3000 --username <your_username> --password
 
 The app will be updated and by sending `/liftoff`, the message will reflect the change you have made in the app.
 
-### Testing the App
+## Testing the App
 
 Now that you have your App ready, you can test it before submitting it.
 
