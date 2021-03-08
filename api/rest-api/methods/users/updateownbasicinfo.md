@@ -7,7 +7,7 @@
 **Note**
 
 * To update the password or email for the user you must send `currentPassword` property encrypted in SHA256 together in payload.
-* To save customFields you must first define the customFields in admin panel (Accounts -> Registration -> Custom fields)
+* To save customFields you must first define the customFields in admin panel \(Accounts -&gt; Registration -&gt; Custom fields\)
 
 ## Payload
 
