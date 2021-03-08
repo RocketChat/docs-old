@@ -2,4 +2,5 @@
 .DS_Store
 .jekyll-metadata
 _site
+_book
 vendor/**
