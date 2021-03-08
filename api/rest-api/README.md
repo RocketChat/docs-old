@@ -26,6 +26,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/spotlight` | Searches for users or rooms that are visible to the user. | [Link](methods/miscellaneous/spotlight.md) |
 | `/api/v1/statistics` | Statistics about the Rocket.Chat server. | [Link](methods/miscellaneous/statistics.md) |
 | `/api/v1/statistics.list` | Selectable statistics about the Rocket.Chat server. | [Link](methods/miscellaneous/statistics-list.md) |
+| `/api/v1/instances.get` | Gets all running instances. | [Link](https://github.com/RocketChat/docs/tree/06af028aecca9430169baa3f517704a68deb6278/api/rest-api/methods/miscellaneous/instances-get.md) |
 
 ### Assets
 
@@ -352,6 +353,13 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | :--- | :--- | :--- |
 | `/api/v1/webdav.getMyAccounts` | Retrieves the user's webdav accounts. | [Link](methods/webdav/getmyaccounts.md) |
 
+### Licenses
+
+| Url | Method | Short Description | Details Page |
+| :--- | :--- | :--- | :--- |
+| `/api/v1/licenses.get` | `GET` | Gets all active licenses. | [Link](https://github.com/RocketChat/docs/tree/06af028aecca9430169baa3f517704a68deb6278/api/rest-api/methods/licenses/get.md) |
+| `/api/v1/licenses.add` | `POST` | Adds a new license. | [Link](https://github.com/RocketChat/docs/tree/06af028aecca9430169baa3f517704a68deb6278/api/rest-api/methods/licenses/add.md) |
+
 ## Language specific wrappers
 
 ### Java
@@ -360,11 +368,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### PHP
 
-* [rocket-chat-rest-client](https://github.com/Fab1en/rocket-chat-rest-client)
+* [rocketchat-php](https://github.com/alekseykuleshov/rocket-chat)
 
 ### Python
 
 * [rocketchat\_API](https://github.com/jadolg/rocketchat_API)
+* [rocket-python](https://github.com/Pipoline/rocket-python)
 
 ### Ruby
 

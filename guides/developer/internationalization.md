@@ -1,6 +1,6 @@
 # Internationalization
 
-When developing in Rocket.Chat, you have the ablilty to add strings to our translations files in wich later will be translated to other languages by our community translators.
+When developing in Rocket.Chat, you have the ability to add strings to our translations files in wich later will be translated to other languages by our community translators.
 
 ## Tools Used
 
