@@ -383,3 +383,6 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 * [rocketchat-clojure](https://github.com/MalloZup/missile)
 
+### Golang
+
+* [rocketchat-golang](https://github.com/badkaktus/gorocket)
