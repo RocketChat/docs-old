@@ -40,6 +40,8 @@ Interested students are also encouraged to interact with our core team and contr
 
 ## Project Ideas
 
+### Out of office settings with assigning deputy
+
 * **Mentors:** [@amol.babu](https://open.rocket.chat/direct/amol.babu), [@asrar](https://open.rocket.chat/direct/asrar), [@weng.wei](https://open.rocket.chat/direct/weng.wei)
 * **Description:** The focus of this project is to solve a very common but problem relating to Out of office functionality in Chat.
 
