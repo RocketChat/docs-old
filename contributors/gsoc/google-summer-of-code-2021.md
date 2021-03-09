@@ -40,6 +40,17 @@ Interested students are also encouraged to interact with our core team and contr
 
 ## Project Ideas
 
+- **Mentors:** [@amol.babu](https://open.rocket.chat/direct/amol.babu), [@asrar](https://open.rocket.chat/direct/asrar), [@weng.wei](https://open.rocket.chat/direct/weng.wei)
+- **Description:** The focus of this project is to solve a very common but problem relating to Out of office functionality in Chat.
+  The goal is : -
+  - Any user can create out of office settings in Rocket.Chat by giving from and to date with the auto reply message.
+  - User should be able to select the channels which would receieve the out of office notification.
+  - The out of office notification should only be sent to once for the first incoming message.
+  - User can also define his deputy from the list of eligible users.
+  - At the tome of out of office, selected deputy will be automatically added to channel and can reply on behalf of main user.
+  - After the out of office time ends, deputy should be auto removed from the channel.
+- **Desirable Skills:** Familiarity with Rocket.Chat, nodeJS, Experience with ReactJS. Must have database skills, ideally MongoDB.
+
 ### Ephemeral messages
 
 * **Mentors:** [@kevin.aleman](https://open.rocket.chat/direct/EeTm6vJYv9KSiNwq9)
