@@ -4,9 +4,9 @@
 
 ## How to apply
 
-Rocket.Chat has applied and intends to become a mentoring organization once again for the 2021 Google Summer of Code \(GSoC\) program.
+Rocket.Chat is delighted to participate as a mentoring organization for the 2021 Google Summer of Code \(GSoC\) program.
 
-Student application for GSoC 2021 will begin March 29, 2021.
+Student application for GSoC 2021 will begin **March 29, 2021**.
 
 In the meantime, any student interested in joining Rocket.Chat for the GSoC 2021 program is encouraged to visit our 24 x 7 GSoC 2021 community channel:
 
@@ -18,7 +18,7 @@ Please see [Official GSoC 2021 schedule ](https://developers.google.com/open-sou
 
 For project ideas, check out our growing [list of ideas ](google-summer-of-code-2021.md#project-ideas)for some inspiration.
 
-Come meet our global community of potential mentors and students for GSoC 2021 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
+Come meet our global **community of 230+ mentors and students** for GSoC 2021 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
 
 [https://open.rocket.chat/channel/gsoc2021](https://open.rocket.chat/channel/gsoc2021)
 
@@ -40,16 +40,19 @@ Interested students are also encouraged to interact with our core team and contr
 
 ## Project Ideas
 
-- **Mentors:** [@amol.babu](https://open.rocket.chat/direct/amol.babu), [@asrar](https://open.rocket.chat/direct/asrar), [@weng.wei](https://open.rocket.chat/direct/weng.wei)
-- **Description:** The focus of this project is to solve a very common but problem relating to Out of office functionality in Chat.
-  The goal is : -
-  - Any user can create out of office settings in Rocket.Chat by giving from and to date with the auto reply message.
-  - User should be able to select the channels which would receieve the out of office notification.
-  - The out of office notification should only be sent to once for the first incoming message.
-  - User can also define his deputy from the list of eligible users.
-  - At the tome of out of office, selected deputy will be automatically added to channel and can reply on behalf of main user.
-  - After the out of office time ends, deputy should be auto removed from the channel.
-- **Desirable Skills:** Familiarity with Rocket.Chat, nodeJS, Experience with ReactJS. Must have database skills, ideally MongoDB.
+* **Mentors:** [@amol.babu](https://open.rocket.chat/direct/amol.babu), [@asrar](https://open.rocket.chat/direct/asrar), [@weng.wei](https://open.rocket.chat/direct/weng.wei)
+* **Description:** The focus of this project is to solve a very common but problem relating to Out of office functionality in Chat.
+
+  The goal is : -
+
+  * Any user can create out of office settings in Rocket.Chat by giving from and to date with the auto reply message.
+  * User should be able to select the channels which would receieve the out of office notification.
+  * The out of office notification should only be sent to once for the first incoming message.
+  * User can also define his deputy from the list of eligible users.
+  * At the tome of out of office, selected deputy will be automatically added to channel and can reply on behalf of main user.
+  * After the out of office time ends, deputy should be auto removed from the channel.
+
+* **Desirable Skills:** Familiarity with Rocket.Chat, nodeJS, Experience with ReactJS. Must have database skills, ideally MongoDB.
 
 ### Ephemeral messages
 

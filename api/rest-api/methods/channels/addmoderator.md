@@ -35,7 +35,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 
 If the user is already a moderator, it will return a `400 bad request` status.
 
-```json
+```javascript
 {
     "success": false,
     "error": "User is already a moderator [error-user-already-moderator]",

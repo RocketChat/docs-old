@@ -68,13 +68,13 @@ You can see older major changes here:
 
 Any version after v1.0.x requires replicasets/oplogging enabled on Mongo.
 
-eg. <https://rocket.chat/docs/installation/manual-installation/mongo-replicas>
+eg. [https://rocket.chat/docs/installation/manual-installation/mongo-replicas](https://rocket.chat/docs/installation/manual-installation/mongo-replicas)
 
 ### Upgrading the database
 
 Due to Mongo DB schema changes between versions it is recommended to upgrade your database one Rocket.Chat version at a time to avoid database issues.
 
-Do *not* backup from one version and try to restore to another eg:
+Do _not_ backup from one version and try to restore to another eg:
 
 You have Rocket.Chat 0.65.x
 
@@ -82,14 +82,15 @@ Do not try to backup the database and restore to direct to another version e.g. 
 
 Follow this procedure:
 
-- Backup DB -> ~/Rocket/Backup/v0.65
-- Upgrade Rocket one version eg 0.65.x -> 0.66.x
-- Check for errors
-- Backup DB -> ~/Rocket/Backup/v0.66
-- Upgrade Rocket one version eg 0.66.x -> 0.67.x
-- Check for errors - if you discover any, stop and fix them or go back to the previous version and start again
-- Repeat
+* Backup DB -&gt; ~/Rocket/Backup/v0.65
+* Upgrade Rocket one version eg 0.65.x -&gt; 0.66.x
+* Check for errors
+* Backup DB -&gt; ~/Rocket/Backup/v0.66
+* Upgrade Rocket one version eg 0.66.x -&gt; 0.67.x
+* Check for errors - if you discover any, stop and fix them or go back to the previous version and start again
+* Repeat
 
-(this is a very good reason to keep reasonably up to date with Rocket.Chat versions)
+\(this is a very good reason to keep reasonably up to date with Rocket.Chat versions\)
 
 Please check the [Tags](https://github.com/RocketChat/Rocket.Chat/tags) or Releases as above for the required version infomation.
+

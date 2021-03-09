@@ -12,7 +12,7 @@ Sets the type of room this channel should be.
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |
 | `roomName` | `chat-room-name` | Required | The channel's name |
-| `type` | `c` _or_ `p` | Required | The type of room this channel should be, either `c` or `p`.  `c` is for channel and `p` is for private.|
+| `type` | `c` _or_ `p` | Required | The type of room this channel should be, either `c` or `p`.  `c` is for channel and `p` is for private. |
 
 ## Example Call
 

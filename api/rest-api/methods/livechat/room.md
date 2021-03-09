@@ -310,7 +310,7 @@ curl "http://localhost:3000/api/v1/livechat/room.visitor" \
   -d "{\"rid\":\"2xC3rGZRiJztFYP5t\",\"visitorId\":\"qpdxquZygF4j9aFTR\"}" \
   -H "X-User-Id: YE3xHYifqk4ic3e3B" \
   -H "X-Auth-Token: DVeIk8owiiudy0_lP981GkTWXLTARcCNkef5XuIDVY5" \
-  -H "Content-Type: application/json" 
+  -H "Content-Type: application/json"
 ```
 
 ## Example Result
@@ -335,3 +335,4 @@ curl "http://localhost:3000/api/v1/livechat/room.visitor" \
 | Version | Description |
 | :--- | :--- |
 | 3.6.0 | Added |
+

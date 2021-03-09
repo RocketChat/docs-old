@@ -6,10 +6,10 @@ Create a user authentication token. This is the same type of session token a use
 
 Example if you use snaps:
 
-  ```
+```text
     echo "CREATE_TOKENS_FOR_USERS=true" > /var/snap/rocketchat-server/common/create-tokens.env
     sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
-  ```
+```
 
 Create a user authentication token. Requires `user-generate-access-token` permission.
 

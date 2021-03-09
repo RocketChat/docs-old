@@ -386,3 +386,4 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 ### Golang
 
 * [rocketchat-golang](https://github.com/badkaktus/gorocket)
+
