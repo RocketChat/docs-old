@@ -1,12 +1,12 @@
 # File Upload FAQs
 
-## Why am I getting **Request Entity Too Large** error on file upload?
+## Why am I getting "**Request Entity Too Large"** error on file upload?
 
 The error shown below is when the upload limit is less than the size of the file in rocket.chat.
 
 ![](../../../.gitbook/assets/image%20%28178%29.png)
 
-If you are using nginx, it could be nginx limit that is throwing the following error not your rocket.chat limit.
+If you are using nginx as your load balancer, it could be nginx limit that is throwing the following error not your rocket.chat limit.
 
 ![](../../../.gitbook/assets/image%20%28281%29.png)
 
