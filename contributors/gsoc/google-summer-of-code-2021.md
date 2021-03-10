@@ -254,7 +254,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### **Big Blue Button : replace embedded chat with Rocket.Chat**
 
-* **Mentors:**  [@sing.li](https://open.rocket.chat/direct/sing.li) [@gabriel.engel](https://open.rocket.chat/direct/gabriel.engel)
+* **Mentors:**  [@fcecagno](https://open.rocket.chat/direct/fcecagno)  [@sing.li](https://open.rocket.chat/direct/sing.li)  [@gabriel.engel](https://open.rocket.chat/direct/gabriel.engel)
 * **Desirable Skills:** Familiarity with Big Blue Button; skilled in JavaScript, nodeJS and Meteor development 
 * **Description:**  The embedded chat in Big Blue Button is already a Meteor based chat with similar structure to Rocket.Chat.  However, other components in Big Blue Button also depends on the same Meteor stack working against the same MongoDB instance for proper operations. This project aims to create the ability to integrate an existing Rocket.Chat server into Big Blue Button, replacing the existing embedded chat component.
 
