@@ -63,6 +63,7 @@ In case of security-relevant bugs, we might decide to backport patches to older 
 | 3.10 | [3.10.6](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.10.6) | Dec 2020 | Mar 2021 |
 | 3.11 | [3.11.2](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.11.2) | Jan 2021 | May 2021 |
 | 3.12 | [3.12.1](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.12.1) | Feb 2021 | TBD |
+
 {% hint style="warning" %}
 Always update to the latest stable version before reporting any bugs or before ask for help from the community.
 {% endhint %}
