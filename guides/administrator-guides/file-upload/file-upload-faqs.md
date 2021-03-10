@@ -1,6 +1,6 @@
 # File Upload FAQs
 
-## Why am I getting "**Request Entity Too Large"** error on file upload?
+## Why am I getting the "**Request Entity Too Large"** error on file upload?
 
 The error shown below is when the upload limit is less than the size of the file in rocket.chat.
 
