@@ -165,7 +165,7 @@ Interested students are also encouraged to interact with our core team and contr
 ### **Houston Improvements - Rocket.Chat release/changelog generator**
 
 * **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
-* **Project repository:**[ \_\*\*\_https://github.com/RocketChat/Rocket.Chat.Houston](https://github.com/RocketChat/Rocket.Chat.Houston)
+* **Project repository:**[https://github.com/RocketChat/Rocket.Chat.Houston](https://github.com/RocketChat/Rocket.Chat.Houston)
 * **Desirable Skills:** TypeScript, Git, Shell
 * **Description:** Houston is the CLI tooling we use to release new versions of Rocket.Chat and generate our changelogs from merged pull requests. We want to:
   * Rewrite the tooling in TypeScript
