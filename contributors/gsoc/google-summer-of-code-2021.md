@@ -82,7 +82,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### Apps-Engine E2E Testing
 
-* **Mentors:** [@lolimay](https://open.rocket.chat/direct/shiqi.mei)
+* **Mentors:** [@lolimay](https://open.rocket.chat/direct/shiqi.mei), [@govind.dixit](https://github.com/GOVINDDIXIT)
 * **Description:** This project aims to improve Apps-Engine end-to-end testing by adding more testing cases. The Apps-Engine APIs should be covered as many as possible to ensure that APIs tested are working. This project requires you to work across multiple repos \([Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) and [Apps-Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine)\). Checkout these links for the context:
 * * [Apps-Engine E2E Testing GitHub Workflow](https://github.com/RocketChat/Rocket.Chat.Apps-engine/pull/366)
 * * [Apps-Engine E2E Testing Folder on Rocket.Chat side](https://github.com/RocketChat/Rocket.Chat/tree/develop/tests/end-to-end/apps)
