@@ -12,7 +12,7 @@ Example:
 FileUpload_Storage_Type=GoogleCloudStorage
 ```
 
-**Note: This only works if the setting isn't already set.  So this is most useful for setting on initial start.  If the setting already has a value you will need to use the syntax below**
+**Note: This only works if the setting isn't already set. So this is most useful for setting on initial start. If the setting already has a value you will need to use the syntax below**
 
 ## Overwrite Setting
 

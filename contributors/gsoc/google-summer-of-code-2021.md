@@ -142,7 +142,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 * **Mentors**: [@pierre.lehnen](https://open.rocket.chat/direct/pierre.lehnen), [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo)
 * **Description**: This project aims to create a new kind of channel where instead of sending messages, users would be able to create task cards with several custom fields. Those tasks would then work as a thread header, allowing comments in the format of a thread. The basic additional information for a task message would be an assigned user and a status. The channel header should also list options to filter the tasks by those fields.
-* **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReacJS is ideal.
+* **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReactJS is ideal.
 
 ### Image **Manipulation:** Editing/Cropping on Upload
 
@@ -257,4 +257,10 @@ Interested students are also encouraged to interact with our core team and contr
 * **Mentors:**  [@fcecagno](https://open.rocket.chat/direct/fcecagno)  [@sing.li](https://open.rocket.chat/direct/sing.li)  [@gabriel.engel](https://open.rocket.chat/direct/gabriel.engel)
 * **Desirable Skills:** Familiarity with Big Blue Button; skilled in JavaScript, nodeJS and Meteor development 
 * **Description:**  The embedded chat in Big Blue Button is already a Meteor based chat with similar structure to Rocket.Chat.  However, other components in Big Blue Button also depends on the same Meteor stack working against the same MongoDB instance for proper operations. This project aims to create the ability to integrate an existing Rocket.Chat server into Big Blue Button, replacing the existing embedded chat component.
+
+### **Channel's Calendar View**
+
+* **Mentors:** [@pierre.lehnen](https://open.rocket.chat/direct/pierre.lehnen)
+* **Desirable Skills:** Familiarity with nodeJS fullstack webapp development. Experience with ReactJS is ideal.
+* **Description:**  Create a new option to see your activity in a channel in the format of a calendar, listing any action you had on each day. The listed actions would be things like: "joined discussion X", "created discussion Y", "sent messages on thread Z". This will help users find messages that they know they read/sent on a specific day but don't remember where.
 
