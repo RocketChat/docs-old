@@ -83,22 +83,24 @@ Interested students are also encouraged to interact with our core team and contr
 ### Apps-Engine E2E Testing
 
 * **Mentors:** [@lolimay](https://open.rocket.chat/direct/shiqi.mei), [@govind.dixit](https://github.com/GOVINDDIXIT)
-* **Description:** This project aims to improve Apps-Engine end-to-end testing by adding more testing cases. The Apps-Engine APIs should be covered as many as possible to ensure that APIs tested are working. This project requires you to work across multiple repos \([Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) and [Apps-Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine)\). Checkout these links for the context:
-* * [Apps-Engine E2E Testing GitHub Workflow](https://github.com/RocketChat/Rocket.Chat.Apps-engine/pull/366)
-* * [Apps-Engine E2E Testing Folder on Rocket.Chat side](https://github.com/RocketChat/Rocket.Chat/tree/develop/tests/end-to-end/apps)
+* **Description:** This project aims to improve Apps-Engine end-to-end testing by adding more testing cases. The Apps-Engine APIs should be covered as many as possible to ensure that APIs tested are working. This project requires you to work across multiple repos \([Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) and [Apps-Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine)\). 
+  Checkout these links for the context:
+  * [Apps-Engine E2E Testing GitHub Workflow](https://github.com/RocketChat/Rocket.Chat.Apps-engine/pull/366)
+  * [Apps-Engine E2E Testing Folder on Rocket.Chat side](https://github.com/RocketChat/Rocket.Chat/tree/develop/tests/end-to-end/apps)
 * **Desirable Skills:** Familiarity with JavaScript. Experience with TypeScript and end-to-end testing are better.
 
 ### Poll App Mega Extensions
 
 * **Mentors:**  [@ramkumar.kb](https://open.rocket.chat/direct/ramkumar.kb), [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio)
-* **Description:**  The[ poll app](https://github.com/RocketChat/rocket.chat.app-poll) already allows anyone to instantly create engaging rich interaction polls within any chat room. This project aims to expand its scope and capabilities in a **huge** way: making it a tool for enhancing participant's engagement with interactive quizzes / trivias / live-polls. Some initial ideas include:
-* * Better bar-graph visualisation for the responses \(with a switch for anonymous responses - so 3 types: Open / Confidential / Mixed\)
-* * Ability to add user options in the poll response and show the response of those responses in a visual way \(e.g. word-cloud\)
-* * Ability to create different types of polls \(e.g. 1-to-5, Agree/Disagree, Overrated/Underrated\)
-* * Ability to add emoticons on the reponse options
-* * Ability to create `/poll live` or `/live-poll` feature - it has 2 parts \(prepare a set of questions before hand and retrieve it just before the live poll starts. During the live-poll a countdown timer for each question is shown and upon completion, the responses are shown visually\) a.k.a. multi-question version of the single poll feature
-* * \(Stretch Goal\) Ability to download the `live-poll` response, once the poll is over
-* * Enhance[ UIKit](https://docs.rocket.chat/apps-development/uikit) if needed, to meet the above goals
+* **Description:**  The[ poll app](https://github.com/RocketChat/rocket.chat.app-poll) already allows anyone to instantly create engaging rich interaction polls within any chat room. This project aims to expand its scope and capabilities in a **huge** way: making it a tool for enhancing participant's engagement with interactive quizzes / trivias / live-polls. 
+    Some initial ideas include:
+    * Better bar-graph visualisation for the responses \(with a switch for anonymous responses - so 3 types: Open / Confidential / Mixed\)
+    * Ability to add user options in the poll response and show the response of those responses in a visual way \(e.g. word-cloud\)
+    * Ability to create different types of polls \(e.g. 1-to-5, Agree/Disagree, Overrated/Underrated\)
+    * Ability to add emoticons on the reponse options
+    * Ability to create `/poll live` or `/live-poll` feature - it has 2 parts \(prepare a set of questions before hand and retrieve it just before the live poll starts. During the live-poll a countdown timer for each question is shown and upon completion, the responses are shown visually\) a.k.a. multi-question version of the single poll feature
+    * \(Stretch Goal\) Ability to download the `live-poll` response, once the poll is over
+    * Enhance[ UIKit](https://docs.rocket.chat/apps-development/uikit) if needed, to meet the above goals
 * **Desirable Skills:** The sky is _not even the limit_ for this project. Will need a hot-shot all round challenge-loving student already familiar with JavaScript, TypeScript, React,[ current poll-app codebase](https://github.com/sampaiodiego/rocket.chat.app-poll) and [Rocket.Chat + Fuselage codebase](https://github.com/RocketChat/Rocket.Chat.Fuselage).
 
 ### **Use Lingohub on mobile apps**
