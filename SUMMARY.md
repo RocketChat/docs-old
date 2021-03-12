@@ -158,6 +158,7 @@
     * [Minio](guides/administrator-guides/file-upload/minio.md)
     * [WebDAV](guides/administrator-guides/file-upload/webdav.md)
     * [Recommendations for File Upload](guides/administrator-guides/file-upload/recommendations-for-file-upload.md)
+    * [File Upload FAQs](guides/administrator-guides/file-upload/file-upload-faqs.md)
   * [Import](guides/administrator-guides/import/README.md)
     * [HipChat](guides/administrator-guides/import/hipchat/README.md)
       * [HipChat Cloud](guides/administrator-guides/import/hipchat/cloud.md)

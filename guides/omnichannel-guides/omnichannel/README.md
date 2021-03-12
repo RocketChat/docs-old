@@ -7,13 +7,11 @@ description: >-
 
 # Omnichannel Admin's Guide
 
-
-
 Rocket.Chat had minimal Livechat as a feature for a long time.
 
 Recently the demand for production-grade Livechat has increased, so we did a complete rewrite of the package.
 
-## Activation 
+## Activation
 
 ### Enable Livechat feature
 
@@ -23,31 +21,27 @@ To enable the Livechat feature on your Rocket.Chat instance:
 
 ![](../../../.gitbook/assets/image%20%2830%29.png)
 
-2. Search '**Omnichannel'** in **Settings** and enable it.
+1. Search '**Omnichannel'** in **Settings** and enable it.
 
 ![](../../../.gitbook/assets/image%20%2829%29.png)
 
-Now the admin will have access to _**Omnichannel Panel Settings**_ **** through a new menu called `Omnichannel` at the top left corner dropdown menu, as shown below:
+Now the admin will have access to _**Omnichannel Panel Settings**_ _\*\*_ through a new menu called `Omnichannel` at the top left corner dropdown menu, as shown below:
 
 ![](../../../.gitbook/assets/image%20%2832%29.png)
 
-
-
 ## Configuration
 
-### **OmniChannel Basic Settings** 
+### **OmniChannel Basic Settings**
 
 1. Enable Omnichannel on your Rocket.Chat instance.
 2. Enable/Disable request comment from the agent when closing a conversation.
-3.  Enable/Disable acceptance of new omnichannel requests when the agent is idle
+3. Enable/Disable acceptance of new omnichannel requests when the agent is idle
 4. Enable/Disable continuous sound notification for new omnichannel room/conversation.
 5. Enable/Disable file uploads in livechat widget.
 6. Enable/Disable asking the visitor if they would like a trascript of the conversation.
 7. Enter the message to show when asking for a transcript.
 
 ![](../../../.gitbook/assets/image%20%2854%29.png)
-
-
 
 ### Business Hour
 
@@ -64,10 +58,10 @@ Please follow the steps given [here](https://docs.rocket.chat/guides/omnichannel
 
 ### External Frame
 
-If you have an app that you want to integrate with Rocket.Chat and use that app to embed an   iFrame in Rocket.Chat to interact with your CRM, you can do so using External Frame.
+If you have an app that you want to integrate with Rocket.Chat and use that app to embed an iFrame in Rocket.Chat to interact with your CRM, you can do so using External Frame.
 
 1. Enable external frame.
-2.  Add the URL of your external frame.
+2. Add the URL of your external frame.
 3. Enter the encryption key, as shown beow:
 
 ![](../../../.gitbook/assets/image%20%2858%29.png)
@@ -80,8 +74,6 @@ First, you will need to request an API key from Rocket.Chat Support then set it 
 
 Send an email to [omni@rocket.chat](mailto:omni@rocket.chat) to request an API key. These are processed as time allows, and may take a few days, but you should have your key and secret soon enough.
 
-
-
 1. Enable Facebook integration.
 2. Enter your _OmniChannel API Key_ 
 3. _Enter OmniChannel API Secret_. **Save** the changes.
@@ -92,7 +84,7 @@ Send an email to [omni@rocket.chat](mailto:omni@rocket.chat) to request an API k
 
 ### GDPR
 
-If you are a GDPR complaint company and want to allow your visitors to request to remove their data, Rocket.chat allows you to do that for all your incoming chats, as shown below:
+If you are a GDPR compliant company and want to allow your visitors to request to remove their data, Rocket.chat allows you to do that for all your incoming chats, as shown below:
 
 ![](../../../.gitbook/assets/image%20%2861%29.png)
 
@@ -109,13 +101,11 @@ as shown below:
 
 ![](../../../.gitbook/assets/image%20%2866%29.png)
 
-### 
-
 Now customize the appears of your livechat widget here, for the hours when none of your agents are online/working.
 
 1. Set **Offline Form Unavailable Message**, if any.
 2. Set **Offline Tittle.**
-3. Set Title ****bar **Color** for offline widget.
+3. Set Title **\*\*bar** Color\*\* for offline widget.
 4. Give instructions, if any.
 5. Set the email address where you want to receive your offline messages.
 6. Set success message to display to the visitor when they have sent their message offline
@@ -128,19 +118,17 @@ Some more settings that you can customise according to your needs are shown belo
 
 ![](../../../.gitbook/assets/image%20%2863%29.png)
 
-
-
 ### RD Station
 
-This is a CRM integration with RD Station. 
+This is a CRM integration with RD Station.
 
-We setup your token, and when a new livechat conversation starts, your visitor information is sent to the RD station. 
+We setup your token, and when a new livechat conversation starts, your visitor information is sent to the RD station.
 
 ![](../../../.gitbook/assets/image%20%2859%29.png)
 
 ### Routing
 
-Routing allows you to define the behavior of your livechat queues. 
+Routing allows you to define the behavior of your livechat queues.
 
 Detail of every setting is listed below:
 
@@ -155,8 +143,6 @@ Detail of every setting is listed below:
 9. Enter the **max. number of simultaneous chats** that you want your agents to attend.
 10. The **Number of recent chats to calculate estimated wait time** defines the number of last served rooms that will be used to calculate queue wait times.
 11. Enable **The Last-Chatted Agent Prrefered** setting allocates chats to the agent who previously interacted with the same visitor if the agent is available when the chat starts.
-
-
 
 ![](../../../.gitbook/assets/image%20%2870%29.png)
 
@@ -174,18 +160,4 @@ Sessions allow you to decide how you want to handle your chat sessions when an a
 As shown below:
 
 ![](../../../.gitbook/assets/image%20%2869%29.png)
-
-
-
-
-
-#### 
-
-
-
-#### 
-
-
-
-#### 
 
