@@ -53,7 +53,7 @@ To search for a specific message by a user:
 
 The conversations pops up, as shown below:
 
-![](../../../.gitbook/assets/image%20%28297%29.png)
+![](../../../.gitbook/assets/image%20%28298%29.png)
 
 ### By Direct Messages
 
@@ -66,7 +66,7 @@ To search for a specific message by a user:
 
 The conversation pop up, as shown below:
 
-![](../../../.gitbook/assets/image%20%28301%29.png)
+![](../../../.gitbook/assets/image%20%28302%29.png)
 
 
 
@@ -84,7 +84,7 @@ To search for a specific omichannel conversation:
 
 The conversation pops up, as shown below:
 
-![](../../../.gitbook/assets/image%20%28298%29.png)
+![](../../../.gitbook/assets/image%20%28299%29.png)
 
 
 
@@ -92,20 +92,5 @@ The conversation pops up, as shown below:
 
 ![](../../../.gitbook/assets/audit-log.png)
 
-## 
 
-## Assign Message Auditing Permissions to Specific Users
-
-The Auditor or Auditor Log roles have permissions to use Message Auditing features.
-
-You assign permissions to use the Message Auditing Panel or Auditing Log to such roles as the Admin role.
-
-On the **Permissions** screen in the Administration UI, do the following to assign access:
-
-* For access to the Message Auditing Panel, select the `can-audit` option.
-* For access to the Message Auditing Log, select the `can-audit-log` option.
-
-![](../../../.gitbook/assets/auditing-roles.png)
-
-## 
 

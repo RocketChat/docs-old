@@ -8,11 +8,11 @@ However, the auditor cannot read the encrypted messages of other users. If you w
 
 * Go to the Administration UI.
 
-![](../../../.gitbook/assets/image%20%28296%29.png)
+![](../../../.gitbook/assets/image%20%28297%29.png)
 
 * Scroll down to **E2E Encryption** on the left-side menu and diable it, as shown below:
 
-![](../../../.gitbook/assets/image%20%28299%29.png)
+![](../../../.gitbook/assets/image%20%28300%29.png)
 
 
 
