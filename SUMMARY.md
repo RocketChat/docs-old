@@ -186,6 +186,7 @@
   * [Message Auditing Panel](guides/administrator-guides/message-auditing/README.md)
     * [Review All Message Auditing Panel Search Results](guides/administrator-guides/message-auditing/review-all-message-auditing-panelsearch-results.md)
     * [Review the Message Auditing Log](guides/administrator-guides/message-auditing/review-the-message-auditing-log.md)
+    * [Check Historical Edits and Deletions of Messages](guides/administrator-guides/message-auditing/check-historical-edits-and-deletions-of-messages.md)
   * [Video Conferencing](guides/administrator-guides/setting-up-video-conferencing/README.md)
     * [BigBlueButton \(BBB\) Admin Guide](guides/administrator-guides/setting-up-video-conferencing/big-blue-button-bbb-admin-guide.md)
     * [Jitsi Meet Admin Guide](guides/administrator-guides/setting-up-video-conferencing/jitsi-meet-admin-guide.md)
