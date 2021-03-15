@@ -2,33 +2,24 @@
 permalink: /administrator-guides/message-auditing/
 official: true
 enterprise: true
+description: Enterprise and Gold only feature
 ---
 
 # Message Auditing Panel
 
-The Message Auditing Panel includes the following features, allowing you or specified users to:
+It allows the authorized user to:
 
 * Review messages between users in the Message Auditing Panel.
 * Check details in the Auditing Log about the individuals who used the Message Auditing Panel.
 
-You access the Message Auditing Panel and the Message Auditing Log from the Administration UI ![](../../.gitbook/assets/administrator-ui%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%284%29%20%284%29%20%284%29.png).
+To access the message auditing panel:
 
-This feature is only available with the Enterprise and Gold versions of Rocket.Chat.
+1. Click your user icon
+2. Click **Message Auditing**
 
-![](../../.gitbook/assets/auditing-ui.png)
+as shown below:
 
-## Assign Message Auditing Permissions to Specific Users
-
-The Auditor or Auditor Log roles have permissions to use Message Auditing features.
-
-You assign permissions to use the Message Auditing Panel or Auditing Log to such roles as the Admin role.
-
-On the **Permissions** screen in the Administration UI, do the following to assign access:
-
-* For access to the Message Auditing Panel, select the `can-audit` option.
-* For access to the Message Auditing Log, select the `can-audit-log` option.
-
-![](../../.gitbook/assets/auditing-roles.png)
+![](../../.gitbook/assets/image%20%28281%29.png)
 
 ## Review Messages in the Message Auditing Panel
 
@@ -62,7 +53,7 @@ The Message Auditing Panel returns all messages that match the search values def
 
 Note that the auditor does not have to be a participant in the room to be able to read the messages. However, the auditor cannot read the encrypted messages of other users if they are not included in the conversation. In this case, Rocket.Chat recommends that you disable message encryption:
 
-* Go to the Administration UI ![](../../.gitbook/assets/administrator-ui%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%284%29%20%284%29%20%284%29%20%283%29.png).
+* Go to the Administration UI ![](../../.gitbook/assets/administrator-ui%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%284%29%20%284%29%20%284%29%20%284%29%20%283%29.png).
 * Click **Administration**.
 * Scroll down to **E2E Encryption** on the left-side menu.
 
@@ -78,7 +69,7 @@ To check the details about who used the Message Auditing Panel and their search 
 
 Rocket.Chat recommends the following setting preferences to enable you to view any modified or removed messages.
 
-* Got to the Administration UI ![](../../.gitbook/assets/administrator-ui%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%284%29%20%284%29%20%284%29%20%281%29.png).
+* Got to the Administration UI ![](../../.gitbook/assets/administrator-ui%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%284%29%20%284%29%20%284%29%20%284%29%20%281%29.png).
 * Click **Administration**.
 * Scroll down to **Messages** on the left-side menu.
 
@@ -88,4 +79,19 @@ Make sure to set your message preferences as follows:
 
 * Enable **Allow Message Editing** and **Keep Per Message Editing History** to see a history of all messages and not only the last edit made.
 * Disable **Allow Message Deleting**, otherwise messages show only the _message deleted_ status and you cannot see the complete message history.
+
+## Assign Message Auditing Permissions to Specific Users
+
+The Auditor or Auditor Log roles have permissions to use Message Auditing features.
+
+You assign permissions to use the Message Auditing Panel or Auditing Log to such roles as the Admin role.
+
+On the **Permissions** screen in the Administration UI, do the following to assign access:
+
+* For access to the Message Auditing Panel, select the `can-audit` option.
+* For access to the Message Auditing Log, select the `can-audit-log` option.
+
+![](../../.gitbook/assets/auditing-roles.png)
+
+## 
 
