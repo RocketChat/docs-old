@@ -44,9 +44,9 @@ To search for a specific message in a specific channel:
 
 To search for a specific message by users:
 
-1. Type the message string that you could remember in the **Message** field. 
+1. Type the message string that you want to check \(e.g. abusive language\) in the **Message** field. \(optional\)
 2. Enter the from and to dates under **Date** to specify the period of time in which you think the message was sent.
-3. Enter two usernames between whom the conversation you are looking for happened in the **Users** field. 
+3. Enter username \(works with one or multiple users\) between whom the conversation you are looking for happened in the **Users** field. 
 4. Hit **Apply**.
 
 ![](../../.gitbook/assets/image%20%28292%29.png)
