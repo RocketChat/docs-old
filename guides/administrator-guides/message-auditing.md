@@ -12,6 +12,8 @@ It allows the authorized user to:
 * Review messages between users in the Message Auditing Panel.
 * Check details in the Auditing Log about the individuals who used the Message Auditing Panel.
 
+even if they are not part of those conversations.
+
 To access the message auditing panel:
 
 1. Click your user icon
@@ -19,25 +21,43 @@ To access the message auditing panel:
 
 as shown below:
 
+![](../../.gitbook/assets/image%20%28290%29.png)
+
+The message auditing panel will open up, as shown below:
+
+![](../../.gitbook/assets/image%20%28291%29.png)
+
+## Search and Review Messages 
+
+### By Channel
+
+To search for a specific message in a specific channel:
+
+1. Type the message string that you could remember in the **Message** field. 
+2. Enter the from and to dates under **Date** to specify the period of time in which you think the message was sent.
+3. Select the channels in the **Channel** dropdown, to narrow the details of your search.
+4. Hit **Apply**.
+
 ![](../../.gitbook/assets/image%20%28281%29.png)
 
-## Review Messages in the Message Auditing Panel
+### By User
 
-* To open the Message Auditing Panel, click **Message Auditing** in the Administration UI.
-* To search for a specific message, use the **Message** field.
-* To narrow the details of your search, select the **Direct Messages** or **Others** message option.
+To search for a specific message by users:
 
-![](../../.gitbook/assets/auditing-toggle.png)
+1. Type the message string that you could remember in the **Message** field. 
+2. Enter the from and to dates under **Date** to specify the period of time in which you think the message was sent.
+3. Enter two usernames between whom the conversation you are looking for happened in the **Users** field. 
+4. Hit **Apply**.
 
-### Search for Direct Messages
+![](../../.gitbook/assets/image%20%28292%29.png)
 
-* Enter the information about sender and receiver \(mandatory\).
-* Enter the time range \(mandatory\).
-* Click **Apply**.
+The conversation pops up, as shown below:
 
-![](../../.gitbook/assets/direct-messages.png)
+![](../../.gitbook/assets/image%20%28289%29.png)
 
-### Search for Other Message Types
+### By Direct Messages
+
+### By Omnichannel
 
 The **Others** search option includes messages sent within a selected time range, in public channels or in private rooms.
 
