@@ -34,5 +34,5 @@ Visit the [Two Factor Authentication](../../api/realtime-api/2fa.md) page at Rea
 
 ## REST API
 
-Visit the [Two Factor Authentication](../../api/rest-api/2fa.md) page at REAT API guides for more information.
+Visit the [Two Factor Authentication](../../api/rest-api/2fa.md) page at REST API guides for more information.
 
