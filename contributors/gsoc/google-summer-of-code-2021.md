@@ -58,7 +58,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### Ephemeral messages
 
-* **Mentors:** [@kevin.aleman](https://open.rocket.chat/direct/EeTm6vJYv9KSiNwq9)
+* **Mentors:** [@kevin.aleman](https://open.rocket.chat/direct/kevin.aleman)
 * **Description:** This project aims to create a kind of channel in which the messages sent will vanish after a configured amount of time. This would be a room \(channel\) setting, in which you can define how long the messages are going to last. Messages from here cannot be retrieved after its deletion and the deletion cannot be deactivated, just postponed.
 * **Desirable skills:** Familiarity with JS Full Stack webapp development. Experience with MongoDB and PM2 are ideal.
 
@@ -130,7 +130,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### **App: Speech-to-Text**
 
-* **Mentors:** [@marcelo.schmidt](https://open.rocket.chat/marceloschmidt)
+* **Mentors:** [@marcelo.schmidt](https://open.rocket.chat/marcelo.schmidt)
 * **Description:** This project aims to save a text version of an audio in the file metadata. This should be done server-side upon receiving the audio.
 * **Desirable Skills**: Familiarity with JavaScript and TypeScript. Knowledge in how to build Rocket.Chat Apps is a plus.
 
@@ -154,7 +154,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### App: Bad-Words Filter
 
-* **Mentors:** [@marcelo.schmidt](https://open.rocket.chat/marceloschmidt) and [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert)
+* **Mentors:** [@marcelo.schmidt](https://open.rocket.chat/marcelo.schmidt) and [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert)
 * **Description:** Rocket.Chat currently uses a third-party package to filter bad words. This poses a few problems, such as having to update the package every so often, having to check which words have been added or excluded in newer versions and deciding if we would like to keep blocking or allowing words. This project is for building an App that can be enabled in our Marketplace that will filter out a list of default bad words but will allow admins to add or delete words from that list. The app will need to cover the following requirements:
   * Create a UI for managing the App settings
   * Load a list of words from a URL
@@ -214,7 +214,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### App: Global Translation
 
-* **Mentors:** [@marcelo.schmidt](https://open.rocket.chat/marceloschmidt)
+* **Mentors:** [@marcelo.schmidt](https://open.rocket.chat/marcelo.schmidt)
 * **Description:** Rocket.Chat currently uses a package to provide message translations. This project aims to build that funcionality on an app, thus reducing the codebase of Rocket.Chat and allowing for easier configuration.
 * **Desirable Skills**: Familiarity with JavaScript and TypeScript. Knowledge in how to build Rocket.Chat Apps is a plus.
 
