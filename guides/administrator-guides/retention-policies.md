@@ -19,11 +19,11 @@ Retention policies have two levels, global policies \(enforced everywhere\) and 
 
 To turn on retention policies, set `Enabled` to `True`.
 
-**Note**: If you wish to use per-channel policie,s but not a global policy, set all three `Applies to` options to `False`, but set the global `Enabled` option to `True`.
+**Note**: If you wish to use per-channel policies but not a global policy, set all three `Applies to` options to `False`, but set the global `Enabled` option to `True`.
 
 ### Global policies
 
-**Note**: Tweaking these settings without extreme caution can destroy **all message history across your server**. Please read this entire section **before** you turn the feature on.
+**Note**: Tweaking these settings without extreme caution can **destroy all message history across your server**. Please read this entire section **before** you turn the feature on.
 
 You can find the settings for this feature in `Retention Policy` in the Admin panel, under the `Global Policy` section.
 
@@ -40,7 +40,7 @@ Furthermore, there are three more options that allow you to specify how the poli
 
 ### Per-channel Policies
 
-**Note**: Tweaking these settings without extreme caution can destroy **all message history across your server**. Please read this entire section **before** you turn the feature on.
+**Note**: Tweaking these settings without extreme caution can **destroy all message history across your server**. Please read this entire section **before** you turn the feature on.
 
 Find the settings for this feature in the `Settings` screen of a channel, if you have the `edit-room-retention-policy` permission.
 
