@@ -48,10 +48,10 @@ Interested students are also encouraged to interact with our core team and contr
   The goal is : -
 
   * Any user can create out of office settings in Rocket.Chat by giving from and to date with the auto reply message.
-  * User should be able to select the channels which would receieve the out of office notification.
+  * User should be able to select the channels which would receive the out of office notification.
   * The out of office notification should only be sent to once for the first incoming message.
   * User can also define his deputy from the list of eligible users.
-  * At the tome of out of office, selected deputy will be automatically added to channel and can reply on behalf of main user.
+  * At the time of out of office, selected deputy will be automatically added to channel and can reply on behalf of main user.
   * After the out of office time ends, deputy should be auto removed from the channel.
 
 * **Desirable Skills:** Familiarity with Rocket.Chat, nodeJS, Experience with ReactJS. Must have database skills, ideally MongoDB.
@@ -94,13 +94,13 @@ Interested students are also encouraged to interact with our core team and contr
 * **Mentors:**  [@ramkumar.kb](https://open.rocket.chat/direct/ramkumar.kb), [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio)
 * **Description:**  The[ poll app](https://github.com/RocketChat/rocket.chat.app-poll) already allows anyone to instantly create engaging rich interaction polls within any chat room. This project aims to expand its scope and capabilities in a **huge** way: making it a tool for enhancing participant's engagement with interactive quizzes / trivias / live-polls. 
   Some initial ideas include:
-  * Better bar-graph visualisation for the responses \(with a switch for anonymous responses - so 3 types: Open / Confidential / Mixed\)
-  * Ability to add user options in the poll response and show the response of those responses in a visual way \(e.g. word-cloud\)
-  * Ability to create different types of polls \(e.g. 1-to-5, Agree/Disagree, Overrated/Underrated\)
-  * Ability to add emoticons on the reponse options
-  * Ability to create `/poll live` or `/live-poll` feature - it has 2 parts \(prepare a set of questions before hand and retrieve it just before the live poll starts. During the live-poll a countdown timer for each question is shown and upon completion, the responses are shown visually\) a.k.a. multi-question version of the single poll feature
-  * \(Stretch Goal\) Ability to download the `live-poll` response, once the poll is over
-  * Enhance[ UIKit](https://docs.rocket.chat/apps-development/uikit) if needed, to meet the above goals
+  * Better bar-graph visualisation for the responses \(with a switch for anonymous responses - so 3 types: Open / Confidential / Mixed\).
+  * Ability to add user options in the poll response and show the response of those responses in a visual way \(e.g. word-cloud\).
+  * Ability to create different types of polls \(e.g. 1-to-5, Agree/Disagree, Overrated/Underrated\).
+  * Ability to add emoticons on the reponse options.
+  * Ability to create `/poll live` or `/live-poll` feature - it has 2 parts \(prepare a set of questions before hand and retrieve it just before the live poll starts. During the live-poll a countdown timer for each question is shown and upon completion, the responses are shown visually\) a.k.a. multi-question version of the single poll feature.
+  * \(Stretch Goal\) Ability to download the `live-poll` response, once the poll is over.
+  * Enhance[ UIKit](https://docs.rocket.chat/apps-development/uikit) if needed, to meet the above goals.
 * **Desirable Skills:** The sky is _not even the limit_ for this project. Will need a hot-shot all round challenge-loving student already familiar with JavaScript, TypeScript, React,[ current poll-app codebase](https://github.com/sampaiodiego/rocket.chat.app-poll) and [Rocket.Chat + Fuselage codebase](https://github.com/RocketChat/Rocket.Chat.Fuselage).
 
 ### **Use Lingohub on mobile apps**
@@ -115,12 +115,12 @@ Interested students are also encouraged to interact with our core team and contr
 * **Project repository:** [https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
 * **Desirable Skills:** JavaScript / TypeScript
 * **Description:** Create internal scripts to extract translation strings from the source code and give some options:
-  * Check if all strings are translated in the target languages \(en by default\)
-  * List strings present in the target language that are not in the code anymore
-  * Option to render a completion chart for all languages
-  * Option to remove strings from all languages based on a target one
-  * Option to import missing strings into the target language to easily add translations
-  * Integrate the script on CI to block PR from merge if there are new strings without translations
+  * Check if all strings are translated in the target languages \(en by default\).
+  * List strings present in the target language that are not in the code anymore.
+  * Option to render a completion chart for all languages.
+  * Option to remove strings from all languages based on a target one.
+  * Option to import missing strings into the target language to easily add translations.
+  * Integrate the script on CI to block PR from merge if there are new strings without translations.
 
 ### Introduce Video and Audio calls to LiveChat
 
@@ -138,7 +138,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 * **Mentors:** [@martin.schoeler](https://open.rocket.chat/direct/martin.schoeler)
 * **Description:** The idea is to add a page where you can discover new channels. This will allow users to find channels based on: Total number of users, number of messages, search for specific topics, if the channel has been trending lately, and any more ideas we can think of. The whole idea of this project is to improve communities using Rocket.Chat and add a sprinkle of social aspect to Rocket.Chat.
-* **Desirable Skills**: Familiarity with JavaScript, React and TypeScript. Knowledge in how to use Rocket.Chat fuselage is a plus
+* **Desirable Skills**: Familiarity with JavaScript, React and TypeScript. Knowledge in how to use Rocket.Chat fuselage is a plus.
 
 ### Task Channels
 
@@ -156,26 +156,26 @@ Interested students are also encouraged to interact with our core team and contr
 
 * **Mentors:** [@marcelo.schmidt](https://open.rocket.chat/marcelo.schmidt) and [@douglas.gubert](https://open.rocket.chat/direct/douglas.gubert)
 * **Description:** Rocket.Chat currently uses a third-party package to filter bad words. This poses a few problems, such as having to update the package every so often, having to check which words have been added or excluded in newer versions and deciding if we would like to keep blocking or allowing words. This project is for building an App that can be enabled in our Marketplace that will filter out a list of default bad words but will allow admins to add or delete words from that list. The app will need to cover the following requirements:
-  * Create a UI for managing the App settings
-  * Load a list of words from a URL
-  * Add/Remove words from a list
-  * Add/Remove channels where the bad words filtering is enabled \(with a toggle for "all channels"\)
-  * Provide statistics on blocked words and offending users
-  * Automatically deactivate users that go above a certain threshold
+  * Create a UI for managing the App settings.
+  * Load a list of words from a URL.
+  * Add/Remove words from a list.
+  * Add/Remove channels where the bad words filtering is enabled \(with a toggle for "all channels"\).
+  * Provide statistics on blocked words and offending users.
+  * Automatically deactivate users that go above a certain threshold.
 * **Desirable Skills**: Familiarity with JavaScript and TypeScript. Knowledge in how to build Rocket.Chat Apps is a plus.
 
 ### **Houston Improvements - Rocket.Chat release/changelog generator**
 
 * **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
-* **Project repository:**[https://github.com/RocketChat/Rocket.Chat.Houston](https://github.com/RocketChat/Rocket.Chat.Houston)
+* **Project repository:** [https://github.com/RocketChat/Rocket.Chat.Houston](https://github.com/RocketChat/Rocket.Chat.Houston)
 * **Desirable Skills:** TypeScript, Git, Shell
 * **Description:** Houston is the CLI tooling we use to release new versions of Rocket.Chat and generate our changelogs from merged pull requests. We want to:
-  * Rewrite the tooling in TypeScript
-  * Accept a new format of PR titles \(conventional changelog\)
-  * Add a validation system for PRs titles via GitHub Actions
-  * Add tooling to preview the generated changelog for the PR
-  * Add new top level of separation for product type \(like Enterprise and Community\) based on labels
-  * Support dependent repositories to import their changelogs, for example, import the changelogs of apps engine
+  * Rewrite the tooling in TypeScript.
+  * Accept a new format of PR titles \(conventional changelog\).
+  * Add a validation system for PRs titles via GitHub Actions.
+  * Add tooling to preview the generated changelog for the PR.
+  * Add new top level of separation for product type \(like Enterprise and Community\) based on labels.
+  * Support dependent repositories to import their changelogs, for example, import the changelogs of apps engine.
 
 ### Add a bundler to the Apps-Compiler
 
@@ -191,11 +191,11 @@ Interested students are also encouraged to interact with our core team and contr
 * **Description:** This feature consists of two new options for the end-users:
   * **Stop Notifications:** A list of options to stop notifications for a certain time \(30min, 1h, 2h, 24h, custom date/hour\).
   * **Notifications Schedule:** Option to configure \(in user's settings\) the availability time where notifications will be sent:
-    * With the option to configure for every day from X time to Y time
-    * With the option to configure for weekdays from X time to Y time
-    * With the option to configure X and Y times for each day of the week manually
-    * The same settings should be available for the workspace admin to configure a default value for all users
-    * The implementation should cover the web and mobile applications
+    * With the option to configure for every day from X time to Y time.
+    * With the option to configure for weekdays from X time to Y time.
+    * With the option to configure X and Y times for each day of the week manually.
+    * The same settings should be available for the workspace admin to configure a default value for all users.
+    * The implementation should cover the web and mobile applications.
 
 ### **Support share location on mobile apps**
 
@@ -209,7 +209,7 @@ Interested students are also encouraged to interact with our core team and contr
 * **Project repository:** [https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
 * **Desirable Skills:** JavaScript/TypeScript, React, React Native,, Rocket.Chat codebase
 * **Description:** Improve the current \`Typing\` functionality to support, on web and mobile applications, two new things:
-  * New properties to allow define new actions like \`recording\` or \`uploading\`, changing the current implementations to support and send those 2 new events and improve the end-user experience
+  * New properties to allow define new actions like \`recording\` or \`uploading\`, changing the current implementations to support and send those 2 new events and improve the end-user experience.
   * Support specifies a context for the typing, allowing it to be shown inside a thread when users are typing in that context instead of in the main room.
 
 ### App: Global Translation
@@ -227,13 +227,13 @@ Interested students are also encouraged to interact with our core team and contr
 ### Community Collaboration Platform: Mobile app
 
 * **Mentors:**  [@sing.li](https://open.rocket.chat/direct/sing.li) [@murtaza.patrawala](https://open.rocket.chat/direct/murtaza.patrawala)
-* **Description:** This is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery. The goal of this platform is to provide an easier way to collaborate over any Github, Gitlab and others repository hosting services. The focus here will be to create a cross-platform mobile app for this platform
+* **Description:** This is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery. The goal of this platform is to provide an easier way to collaborate over any Github, Gitlab and others repository hosting services. The focus here will be to create a cross-platform mobile app for this platform.
 * **Desirable Skills**: Familiarity with React Native, iOS and Android development.
 
 ### **UiKit Playground**
 
 * **Mentors:** [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo), [@tasso.evangelista](https://open.rocket.chat/direct/tasso.evangelista)
-* **Description:** Develop an application/playground that allows developers to test UiKit Blocks and Interactions. Should allow developers to generate code used by Rocket.Chat apps and edit the content to preview the result
+* **Description:** Develop an application/playground that allows developers to test UiKit Blocks and Interactions. Should allow developers to generate code used by Rocket.Chat apps and edit the content to preview the result.
 * **Desirable Skills:** JavaScript/TypeScript
 
 ### **Omnichannel: Livechat Widget Accessible Mode**
@@ -257,7 +257,7 @@ Interested students are also encouraged to interact with our core team and contr
 ### **Big Blue Button : replace embedded chat with Rocket.Chat**
 
 * **Mentors:**  [@fcecagno](https://open.rocket.chat/direct/fcecagno)  [@sing.li](https://open.rocket.chat/direct/sing.li)  [@gabriel.engel](https://open.rocket.chat/direct/gabriel.engel)
-* **Desirable Skills:** Familiarity with Big Blue Button; skilled in JavaScript, nodeJS and Meteor development 
+* **Desirable Skills:** Familiarity with Big Blue Button; skilled in JavaScript, nodeJS and Meteor development.
 * **Description:**  The embedded chat in Big Blue Button is already a Meteor based chat with similar structure to Rocket.Chat.  However, other components in Big Blue Button also depends on the same Meteor stack working against the same MongoDB instance for proper operations. This project aims to create the ability to integrate an existing Rocket.Chat server into Big Blue Button, replacing the existing embedded chat component.
 
 ### **Channel's Calendar View**
