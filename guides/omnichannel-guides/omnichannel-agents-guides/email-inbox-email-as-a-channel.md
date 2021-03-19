@@ -38,7 +38,7 @@ Your contact receives the message in email instantly.
 
 ## Invite a fellow agent to an email inbox
 
-Suppose you get an email and you need the assistance of your fellow agent on it; you can invite them to this inbox using `/intvite @username`
+Suppose you get an email and you need the assistance of your fellow agent on it; you can invite them to this inbox using `/invite @username`.
 
 ![](../../../.gitbook/assets/image%20%28245%29.png)
 
@@ -68,12 +68,12 @@ To send an attachment:
 
 ![](../../../.gitbook/assets/image%20%28249%29.png)
 
-2. Click **Send via Email as attachment**
+2. Click **Send via Email as attachment**.
 
 ![](../../../.gitbook/assets/image%20%28247%29.png)
 
   
-****It appears in the email of your omnichannel contact, as shown below:
+**It appears in the email of your omnichannel contact, as shown below:**
 
 ![](../../../.gitbook/assets/image%20%28251%29.png)
 
