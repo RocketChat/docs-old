@@ -159,3 +159,5 @@ If you want to update the app deployed in your Rocket.Chat instance after making
 rc-apps deploy --url http://localhost:3000 --username user_username --password user_password --update
 ```
 
+> After version 1.9 of the App Engine CLI, the `--update` flag isn't strictly necessary for updating an existing App, you can just run the `deploy` command without it.
+
