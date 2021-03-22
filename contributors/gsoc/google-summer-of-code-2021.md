@@ -48,7 +48,7 @@ Interested students are also encouraged to interact with our core team and contr
   The goal is : -
 
   * Any user can create out of office settings in Rocket.Chat by giving from and to date with the auto reply message.
-  * User should be able to select the channels which would receieve the out of office notification.
+  * User should be able to select the channels which would receive the out of office notification.
   * The out of office notification should only be sent to once for the first incoming message.
   * User can also define his deputy from the list of eligible users.
   * At the tome of out of office, selected deputy will be automatically added to channel and can reply on behalf of main user.
@@ -230,11 +230,11 @@ Interested students are also encouraged to interact with our core team and contr
 * **Description:** This is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery. The goal of this platform is to provide an easier way to collaborate over any Github, Gitlab and others repository hosting services. The focus will be to add new features like User Management, Administration Module, etc - also improve the current features which add more advantage and provide a friction-less experience to all the fellow developers.
 * **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReactJS and ExpressJS is ideal.
 
-### Community Collaboration Platform: Mobile app
+### Community Collaboration Platform: Discourse integration
 
 * **Mentors:**  [@sing.li](https://open.rocket.chat/direct/sing.li) [@murtaza.patrawala](https://open.rocket.chat/direct/murtaza.patrawala)
-* **Description:** This is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery. The goal of this platform is to provide an easier way to collaborate over any Github, Gitlab and others repository hosting services. The focus here will be to create a cross-platform mobile app for this platform
-* **Desirable Skills**: Familiarity with React Native, iOS and Android development.
+* **Description:** This is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery. The goal of this platform is to provide an easier way to build a massive community collaborating over any Github, Gitlab and others repository hosting services. The focus on this project will be to add tightly integrated support for Discourse, the leading open source forum \(civilized discussion\) platform.  
+* **Desirable Skills**: Familiarity with  nodeJS fullstack webapp development, and Ruby on Rails.  Experience with Discourse and Discourse API programming a big plus. 
 
 ### **UiKit Playground**
 
