@@ -4,7 +4,7 @@ Rocket.Chat has a huge Codebase, anyone can get overwhelmed by going through it 
 
 ## Technologies we use at Rocket.Chat
 
-Rocket.Chat is built on web framework [MeteorJS](https://www.meteor.com/). It integrates with MongoDB which we use as the database for storing all data. For front end we use [ReactJS](http://reactjs.org/) library for most part and [Blaze Templates](https://guide.meteor.com/blaze.html) along with MeteorJS for some parts.
+Rocket.Chat is built on web framework [MeteorJS](https://www.meteor.com/). It integrates with MongoDB which we use as the database for storing all data. For front end we use [ReactJS](http://reactjs.org/) library for most part and [Blaze Templates](http://blazejs.org/guide/introduction.html) along with MeteorJS for some parts.
 
 ## Basic overview of Codebase
 
