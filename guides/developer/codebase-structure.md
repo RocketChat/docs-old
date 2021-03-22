@@ -24,7 +24,7 @@ We are porting all of our Meteor's front end implementation to ReactJS. To provi
 
 **packages** folder mainly contains modules (such as i18n for _internationalization_) consumed by Rocket.Chat and MeteorJS.
 
-**public** folder contains all the fonts, icons, svgs and sound files.
+**public** folder contains all the assets including fonts, icons, svgs and sound files.
 
 **server** contains code which can run only on a server-side NodeJS runtime. It mostly contains the _Meteor_ methods, code to run during server startup, database migrations, [cron job](https://en.wikipedia.org/wiki/Cron) code etc.
 
