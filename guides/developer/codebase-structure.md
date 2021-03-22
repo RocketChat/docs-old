@@ -1,10 +1,10 @@
 # Basics stucture of Codebase
 
-Rocket.Chat has a huge Codebase, anyone can get overwhelmed by going through it for the first time. This guide 
+Rocket.Chat has a huge Codebase, anyone can get overwhelmed by going through it for the first time. This guide should give you a basic overview and understanding of the codebase.
 
 ## Technologies we use at Rocket.Chat
 
-Rocket.Chat is built on web framework MeteorJS. It integrates with MongoDB which we use as the database for storing all data. For front end we use ReactJS library for most part and BlazeJS along with MeteorJS for some parts.
+Rocket.Chat is built on web framework [MeteorJS](https://www.meteor.com/). It integrates with MongoDB which we use as the database for storing all data. For front end we use [ReactJS](http://reactjs.org/) library for most part and [Blaze Templates](https://guide.meteor.com/blaze.html) along with MeteorJS for some parts.
 
 ## Basic overview of Codebase
 
@@ -14,14 +14,19 @@ We are porting all of our Meteor's front end implementation to ReactJS. To provi
 
 ## Folder Structure
 
-**app** folder contains all the major code for the Rocket.Chat, be it 3rd party integrations, features like custom Oauth and Omnichannel, BBB or Jitsi integration etc. This folder also contains all the models for MondoDB, in simple words, the backend structure and core functions to update the database along with all the API routes inside **api** folder.
+**app** folder contains all the major code for the Rocket.Chat, be it 3rd party integrations, features like custom Oauth and Omnichannel, BBB or Jitsi integration etc. This folder also contains all the models for MondoDB, the backend structure and core functions to update the database along with all the API endpoints (inside **api** folder).
 
-**Client** folder contains code for front end implementation using react. It has perfectly named sub folders, one can easily identify what front end code is in which folder, i.e sidebar folder has all front-end implementation for sidebar, views/admin and view/omnichannel have front end implementations for the same.
+**Client** folder contains code (which can run only on browsers) for frontend implementation using React. It has well named sub folders, through which one can easily identify what front end code is in which folder, for example - sidebar folder has all front-end implementation for sidebar, views/admin and view/omnichannel have front end implementations for the same.
 
 **definition** contains Type Declarations for the Typescript files in the codebase.
 
 **ee** contains all the enterprise features, like Omnichannel, LDAP authentication and usage.
 
-**packages** folder contains the i18n language packs and other essential packages.
+**packages** folder mainly contains modules (such as i18n for _internationalization_) consumed by Rocket.Chat and MeteorJS.
 
 **public** folder contains all the fonts, icons, svgs and sound files.
+
+**server** contains code which can run only on a server-side NodeJS runtime. It mostly contains the _Meteor_ methods, code to run during server startup, database migrations, [cron job](https://en.wikipedia.org/wiki/Cron) code etc.
+
+**tests** contains the code for unit tests (such as API endpoints), integration tests, end-to-end tests (such as UI tests using Cypress).
+
