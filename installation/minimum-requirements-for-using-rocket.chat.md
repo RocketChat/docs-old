@@ -53,10 +53,11 @@ If you’re curious about the technical requirements needed to run Rocket.Chat, 
 
 | **Browser** | **Requirements** |
 | :--- | :--- |
-| **Chrome** | **Version 66 or above** |
-| **Firefox** | **Version 60 or above** |
-| **Safari** | **Version 11.0 or above** |
-| **Microsoft Edge** | **Version 41 or above** |
+| **Google Chrome** | **Latest 3 versions** |
+| **Mozilla** **Firefox** | **Latest 3 versions** |
+| **Safari** | **Latest 2 versions** |
+| **Microsoft Edge** | **Latest 2 versions** |
+| **Microsoft Internet Explorer** | **Latest version only** |
 
 ### **Unsupported browsers and operating systems**
 
