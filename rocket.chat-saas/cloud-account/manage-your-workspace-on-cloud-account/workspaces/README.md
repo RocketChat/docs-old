@@ -1,5 +1,5 @@
 ---
-description: You can manage your workspaces here.
+description: You can manage your workspaces in workspaces.
 ---
 
 # Workspaces
