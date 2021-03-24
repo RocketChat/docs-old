@@ -3,6 +3,7 @@
 * [Welcome to Rocket.Chat Docs](README.md)
 * [Installing and Updating](installation/README.md)
   * [Official Recommendations](installation/official-recommendations.md)
+  * [Minimum Requirements for using Rocket.Chat](installation/minimum-requirements-for-using-rocket.chat.md)
   * [Hardware Requirements](installation/hardware-requirements.md)
   * [Snaps](installation/snaps/README.md)
     * [Auto SSL with Snaps](installation/snaps/autossl.md)
