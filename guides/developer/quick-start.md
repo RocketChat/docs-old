@@ -28,11 +28,11 @@ You may notice build WARNINGs related to _peer dependencies_ or other transitive
 
    `meteor npm -v`
 
-3. Get rocket.chat code 
+3. Get rocket.chat code
 
    `git clone https://github.com/RocketChat/Rocket.Chat.git`
 
-    \(you may want to fork the code on Github first, and then clone your fork\)
+   \(you may want to fork the code on Github first, and then clone your fork\)
 
 4. Install modules
 
@@ -61,14 +61,14 @@ Other references:
 
 Editing files is relatively simple. After you run `git clone`, the files from the repository are saved on your computer. You can go to the cloned repository folder and edit or add files to Rocket.Chat. When you make changes to Rocket.Chat the server will automatically rebuild.
 
-Sometimes changes can shut down the server, if that happens just run `meteor npm start` again.  
-  
-The Rocket.Chat code base is very large.  You may need to increase this [system parameter ](https://github.com/meteor/docs/blob/master/long-form/file-change-watcher-efficiency.md)on your operating system for the files-change watcher to operate efficiently.
+Sometimes changes can shut down the server, if that happens just run `meteor npm start` again.
+
+The Rocket.Chat code base is very large. You may need to increase this [system parameter ](https://github.com/meteor/docs/blob/master/long-form/file-change-watcher-efficiency.md)on your operating system for the files-change watcher to operate efficiently.
 
 ## On Windows
 
-Using Windows to develop is not recommended at this time, instead is better to create a Linux virtual machine and follow the steps mentioned above, but if for some reason you really need to build Rocket.Chat on Windows you can find a community supported guide over [here](../../installation/community-supported-installation/windows-server.md).  
-  
+Using Windows to develop is not recommended at this time, instead is better to create a Linux virtual machine and follow the steps mentioned above, but if for some reason you really need to build Rocket.Chat on Windows you can find a community supported guide over [here](../../installation/community-supported-installation/windows-server.md).
+
 We look forward to the official release of Windows Subsystem for Linux 2 \(WSL 2\) when Rocket.Chat development on Linux may finally become viable.
 
 ## See Also

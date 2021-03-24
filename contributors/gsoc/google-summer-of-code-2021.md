@@ -83,7 +83,7 @@ Interested students are also encouraged to interact with our core team and contr
 ### Apps-Engine E2E Testing
 
 * **Mentors:** [@lolimay](https://open.rocket.chat/direct/shiqi.mei), [@govind.dixit](https://github.com/GOVINDDIXIT)
-* **Description:** This project aims to improve Apps-Engine end-to-end testing by adding more testing cases. The Apps-Engine APIs should be covered as many as possible to ensure that APIs tested are working. This project requires you to work across multiple repos \([Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) and [Apps-Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine)\). 
+* **Description:** This project aims to improve Apps-Engine end-to-end testing by adding more testing cases. The Apps-Engine APIs should be covered as many as possible to ensure that APIs tested are working. This project requires you to work across multiple repos \([Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) and [Apps-Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine)\).
 
   Checkout these links for the context:
 
@@ -95,7 +95,7 @@ Interested students are also encouraged to interact with our core team and contr
 ### Poll App Mega Extensions
 
 * **Mentors:**  [@ramkumar.kb](https://open.rocket.chat/direct/ramkumar.kb), [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio)
-* **Description:**  The[ poll app](https://github.com/RocketChat/rocket.chat.app-poll) already allows anyone to instantly create engaging rich interaction polls within any chat room. This project aims to expand its scope and capabilities in a **huge** way: making it a tool for enhancing participant's engagement with interactive quizzes / trivias / live-polls. 
+* **Description:** The[ poll app](https://github.com/RocketChat/rocket.chat.app-poll) already allows anyone to instantly create engaging rich interaction polls within any chat room. This project aims to expand its scope and capabilities in a **huge** way: making it a tool for enhancing participant's engagement with interactive quizzes / trivias / live-polls.
 
   Some initial ideas include:
 
