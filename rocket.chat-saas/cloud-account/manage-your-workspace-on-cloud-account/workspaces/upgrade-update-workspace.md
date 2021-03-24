@@ -1,4 +1,4 @@
-# Upgrade/Update Workspace
+# Update Workspace
 
 To update your workspace to the latest version:
 
