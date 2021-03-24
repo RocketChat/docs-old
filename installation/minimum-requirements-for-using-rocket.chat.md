@@ -16,7 +16,7 @@ If you’re curious about the technical requirements needed to run Rocket.Chat, 
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><b>MacOS</b>
+      <td style="text-align:left"><b>macOS</b>
       </td>
       <td style="text-align:left"><b>OS X 10.11 or above</b>
       </td>
