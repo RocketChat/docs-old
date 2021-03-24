@@ -16,3 +16,7 @@ To download an invoice:
 
 ![](../../../.gitbook/assets/image%20%2898%29.png)
 
+{% hint style="info" %}
+Your workspace is on the Standard tiered plan paying monthly per 10 members— if you have two members you are still going to be charged for 10 members.
+{% endhint %}
+
