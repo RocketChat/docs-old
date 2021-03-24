@@ -12,5 +12,3 @@ Make sure to set your message preferences as follows:
 
 ![](../../../.gitbook/assets/image%20%28306%29.png)
 
-
-

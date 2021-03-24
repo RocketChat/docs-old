@@ -111,7 +111,7 @@ Here we will show you how to customize:
 
 * Change the app icon on `Experimental.xcassets/App Icon`
 
-![](../../../.gitbook/assets/image%20%28178%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%281%29.png)
+![](../../../.gitbook/assets/image%20%28178%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%282%29%20%283%29.png)
 
 * Change the app splash screen on `Experimental.xcassets/Launch Screen Icon`
 

@@ -18,7 +18,7 @@ Please see [Official GSoC 2021 schedule ](https://developers.google.com/open-sou
 
 For project ideas, check out our growing [list of ideas ](google-summer-of-code-2021.md#project-ideas)for some inspiration.
 
-Come meet our global **community of 230+ mentors and students** for GSoC 2021 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
+Come meet our global **community of 380+ mentors and students** for GSoC 2021 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
 
 [https://open.rocket.chat/channel/gsoc2021](https://open.rocket.chat/channel/gsoc2021)
 
@@ -42,7 +42,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### Out of office settings with assigning deputy
 
-* **Mentors:** [@amol.babu](https://open.rocket.chat/direct/amol.babu), [@asrar](https://open.rocket.chat/direct/asrar), [@weng.wei](https://open.rocket.chat/direct/weng.wei)
+* **Mentors:** [@amol.babu](https://open.rocket.chat/direct/amol.babu), [@asrar](https://open.rocket.chat/direct/asrar)
 * **Description:** The focus of this project is to solve a very common but problem relating to Out of office functionality in Chat.
 
   The goal is : -
@@ -83,17 +83,22 @@ Interested students are also encouraged to interact with our core team and contr
 ### Apps-Engine E2E Testing
 
 * **Mentors:** [@lolimay](https://open.rocket.chat/direct/shiqi.mei), [@govind.dixit](https://github.com/GOVINDDIXIT)
-* **Description:** This project aims to improve Apps-Engine end-to-end testing by adding more testing cases. The Apps-Engine APIs should be covered as many as possible to ensure that APIs tested are working. This project requires you to work across multiple repos \([Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) and [Apps-Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine)\). 
+* **Description:** This project aims to improve Apps-Engine end-to-end testing by adding more testing cases. The Apps-Engine APIs should be covered as many as possible to ensure that APIs tested are working. This project requires you to work across multiple repos \([Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) and [Apps-Engine](https://github.com/RocketChat/Rocket.Chat.Apps-engine)\).
+
   Checkout these links for the context:
+
   * [Apps-Engine E2E Testing GitHub Workflow](https://github.com/RocketChat/Rocket.Chat.Apps-engine/pull/366)
   * [Apps-Engine E2E Testing Folder on Rocket.Chat side](https://github.com/RocketChat/Rocket.Chat/tree/develop/tests/end-to-end/apps)
+
 * **Desirable Skills:** Familiarity with JavaScript. Experience with TypeScript and end-to-end testing are better.
 
 ### Poll App Mega Extensions
 
 * **Mentors:**  [@ramkumar.kb](https://open.rocket.chat/direct/ramkumar.kb), [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio)
-* **Description:**  The[ poll app](https://github.com/RocketChat/rocket.chat.app-poll) already allows anyone to instantly create engaging rich interaction polls within any chat room. This project aims to expand its scope and capabilities in a **huge** way: making it a tool for enhancing participant's engagement with interactive quizzes / trivias / live-polls. 
+* **Description:** The[ poll app](https://github.com/RocketChat/rocket.chat.app-poll) already allows anyone to instantly create engaging rich interaction polls within any chat room. This project aims to expand its scope and capabilities in a **huge** way: making it a tool for enhancing participant's engagement with interactive quizzes / trivias / live-polls.
+
   Some initial ideas include:
+
   * Better bar-graph visualisation for the responses \(with a switch for anonymous responses - so 3 types: Open / Confidential / Mixed\).
   * Ability to add user options in the poll response and show the response of those responses in a visual way \(e.g. word-cloud\).
   * Ability to create different types of polls \(e.g. 1-to-5, Agree/Disagree, Overrated/Underrated\).
@@ -101,6 +106,7 @@ Interested students are also encouraged to interact with our core team and contr
   * Ability to create `/poll live` or `/live-poll` feature - it has 2 parts \(prepare a set of questions before hand and retrieve it just before the live poll starts. During the live-poll a countdown timer for each question is shown and upon completion, the responses are shown visually\) a.k.a. multi-question version of the single poll feature.
   * \(Stretch Goal\) Ability to download the `live-poll` response, once the poll is over.
   * Enhance[ UIKit](https://docs.rocket.chat/apps-development/uikit) if needed, to meet the above goals.
+
 * **Desirable Skills:** The sky is _not even the limit_ for this project. Will need a hot-shot all round challenge-loving student already familiar with JavaScript, TypeScript, React,[ current poll-app codebase](https://github.com/sampaiodiego/rocket.chat.app-poll) and [Rocket.Chat + Fuselage codebase](https://github.com/RocketChat/Rocket.Chat.Fuselage).
 
 ### **Use Lingohub on mobile apps**
@@ -224,11 +230,12 @@ Interested students are also encouraged to interact with our core team and contr
 * **Description:** This is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery. The goal of this platform is to provide an easier way to collaborate over any Github, Gitlab and others repository hosting services. The focus will be to add new features like User Management, Administration Module, etc - also improve the current features which add more advantage and provide a friction-less experience to all the fellow developers.
 * **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReactJS and ExpressJS is ideal.
 
-### Community Collaboration Platform: Mobile app
+### Community Collaboration Platform: Discourse integration
 
 * **Mentors:**  [@sing.li](https://open.rocket.chat/direct/sing.li) [@murtaza.patrawala](https://open.rocket.chat/direct/murtaza.patrawala)
-* **Description:** This is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery. The goal of this platform is to provide an easier way to collaborate over any Github, Gitlab and others repository hosting services. The focus here will be to create a cross-platform mobile app for this platform.
-* **Desirable Skills**: Familiarity with React Native, iOS and Android development.
+
+* **Description:** This is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery. The goal of this platform is to provide an easier way to build a massive community collaborating over any Github, Gitlab and others repository hosting services. The focus on this project will be to add tightly integrated support for Discourse, the leading open source forum \(civilized discussion\) platform.  
+* **Desirable Skills**: Familiarity with  nodeJS fullstack webapp development, and Ruby on Rails.  Experience with Discourse and Discourse API programming a big plus. 
 
 ### **UiKit Playground**
 

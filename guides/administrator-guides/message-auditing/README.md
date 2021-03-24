@@ -13,7 +13,7 @@ It allows the authorized user to:
 * Check details in the Auditing Log about the individuals who used the Message Auditing Panel.
 
 {% hint style="info" %}
-Note that the auditor does not have to be a participant in the room to be able to read the messages. 
+Note that the auditor does not have to be a participant in the room to be able to read the messages.
 {% endhint %}
 
 To access the message auditing panel:
@@ -29,7 +29,7 @@ The message auditing panel will open up, as shown below:
 
 ![](../../../.gitbook/assets/image%20%28291%29.png)
 
-## Search and Review Messages 
+## Search and Review Messages
 
 ### By Channel
 
@@ -53,7 +53,7 @@ To search for a specific message by a user:
 
 The conversations pops up, as shown below:
 
-![](../../../.gitbook/assets/image%20%28298%29.png)
+![](../../../.gitbook/assets/image%20%28298%29%20%281%29%20%281%29.png)
 
 ### By Direct Messages
 
@@ -67,8 +67,6 @@ To search for a specific message by a user:
 The conversation pop up, as shown below:
 
 ![](../../../.gitbook/assets/image%20%28302%29.png)
-
-
 
 ### By Omnichannel
 
@@ -86,11 +84,5 @@ The conversation pops up, as shown below:
 
 ![](../../../.gitbook/assets/image%20%28299%29.png)
 
-
-
-
-
 ![](../../../.gitbook/assets/audit-log.png)
-
-
 

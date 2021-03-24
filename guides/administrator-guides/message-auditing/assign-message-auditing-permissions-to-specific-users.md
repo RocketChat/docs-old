@@ -11,5 +11,3 @@ On the **Permissions** screen in the Administration UI, do the following to assi
 
 ![](../../../.gitbook/assets/image%20%28293%29.png)
 
-## 
-

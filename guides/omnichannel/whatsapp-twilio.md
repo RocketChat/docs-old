@@ -22,35 +22,35 @@ On the first section, **Sandbox Configuration**, you'll need to enter your Rocke
 
 ## Step 4
 
-On the Twilio console, “Programmable SMS Dashboard” -&gt; “Whatsapp” -&gt; “Senders” -&gt; Select the Whatsapp number. This will open the “Configuration” screen, where the webhook configuration must be done in order to connect Twilio to Rocket.Chat Livechat
+On the Twilio console, “Programmable SMS Dashboard” -&gt; “WhatsApp” -&gt; “Senders” -&gt; Select the WhatsApp number. This will open the “Configuration” screen, where the webhook configuration must be done in order to connect Twilio to Rocket.Chat Livechat.
 
 ![](https://lh3.googleusercontent.com/GbyR6zJjFBGImq4vmbZa-nCMiCtgMrk_xcfcfBV5Hr6XN_-me-V1T06sTI1mqYWWz34gmCuplLyaONWLxfJFqmcsRRbQuafQAB9ayf9C-jLacGjW25-A1dBNnkLSksS7-u3uzRmK)
 
-The webhook must be configured following the steps mentioned at [https://rocket.chat/docs/developer-guides/rest-api/livechat/sms-incoming/\#payload](https://rocket.chat/docs/developer-guides/rest-api/livechat/sms-incoming/#payload). Important: the webhook POST URL should be set only on “WHEN A MESSAGE COMES IN” field  
+The webhook must be configured following the steps mentioned at [https://rocket.chat/docs/developer-guides/rest-api/livechat/sms-incoming/\#payload](https://rocket.chat/docs/developer-guides/rest-api/livechat/sms-incoming/#payload). Important: the webhook POST URL should be set only on “WHEN A MESSAGE COMES IN” field.  
 ****
 
 ## Step 5
 
-On the Twilio console, go to “Programmable SMS Dashboard” and copy the “ACCOUNT SID” and “AUTH TOKEN”
+On the Twilio console, go to “Programmable SMS Dashboard” and copy the “ACCOUNT SID” and “AUTH TOKEN”.
 
 ![](https://lh4.googleusercontent.com/A3r-v4jmxa3AtuEFQfjrjUGvs1hYVYj06BmwS8uVjL3e1xxzIQJrzwH7ON5zngx5AqCDFvJg3i_uYnfZL5_56xr2k3Iwv0-0_8kbFiAKx83CPSvhBAObbNL3PE1H1hffkZqdRbta)
 
 ## Step 6
 
-Go to Rocket.Chat Server -&gt; Settings -&gt; SMS -&gt; Set to “Enabled” and select “Twilio” as service  
+Go to Rocket.Chat Server -&gt; Settings -&gt; SMS -&gt; Set to “Enabled” and select “Twilio” as a service.  
 
 
 ![](https://lh6.googleusercontent.com/CFafwWBXuHFDLUFiXmo5EtiExJjZMo_KH6qnHs_k61zWJasoEsB4GZqpuf5QCwdQzxTeU1ytz0KM8eY5aV86_guoCTjBjoS4VjtZKT-TpHdK0JcuURvgPu35rHi0kIXHQ9uAc2ZC)
 
 ## Step 7
 
-Go to Rocket.Chat Server -&gt; Settings -&gt; SMS -&gt; Section “Twilio” and add the “Account SID” and Auth Token you had copied on Step 5.After that, the Livechat+Whatsapp integration will be working properly in both directions  
+Go to Rocket.Chat Server -&gt; Settings -&gt; SMS -&gt; Section “Twilio” and add the “Account SID” and Auth Token you had copied on Step 5.After that, the LiveChat+WhatsApp integration will be working properly in both directions.  
   
 ****
 
 ## Step 8 \(For SaaS customers only\)
 
-For Cloud customers, the file sharing \(images, audio, videos etc\) between LiveChat and Whatsapp might not work properly. 
+For Cloud customers, the file sharing \(images, audio, videos, etc\) between LiveChat and WhatsApp might not work properly. 
 
 To fix this issue go to Settings -&gt; File Upload -&gt; Amazon S3 -&gt; Enable the “Proxy Uploads” setting.  
 
