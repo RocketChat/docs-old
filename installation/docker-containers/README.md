@@ -122,6 +122,12 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo docker-compose --version
 ```
 
+**Notes:** For minimal distributions, or systems where `/usr/local/bin` is not part of the `$PATH` env you might need to symlink the binary into `/usr/bin` as well:
+
+```text
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+```
+
 ## 4. Editing the hosts file
 
 If your hostname.domain.tld is mapped to a publicly routable IP, it needs to be set to your local address, for example, 127.0.0.1. Please note that the order in which localhost and your hostname are placed in this file is important; make sure localhost is first.

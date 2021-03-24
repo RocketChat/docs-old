@@ -8,7 +8,7 @@ The error shown below is when the upload limit is less than the size of the file
 
 If you are using nginx as your load balancer, it could be nginx limit that is throwing the following error not your rocket.chat limit.
 
-![](../../../.gitbook/assets/image%20%28289%29.png)
+![](../../../.gitbook/assets/image%20%28289%29%20%281%29.png)
 
 Please follow the nginx instructions [here](https://www.cyberciti.biz/faq/linux-unix-bsd-nginx-413-request-entity-too-large/) to resolve this issue. 
 
