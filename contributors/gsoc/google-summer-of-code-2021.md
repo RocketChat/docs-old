@@ -230,12 +230,6 @@ Interested students are also encouraged to interact with our core team and contr
 * **Description:** This is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery. The goal of this platform is to provide an easier way to collaborate over any Github, Gitlab and others repository hosting services. The focus will be to add new features like User Management, Administration Module, etc - also improve the current features which add more advantage and provide a friction-less experience to all the fellow developers.
 * **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReactJS and ExpressJS is ideal.
 
-### Community Collaboration Platform: Discourse integration
-
-* **Mentors:**  [@sing.li](https://open.rocket.chat/direct/sing.li) [@murtaza.patrawala](https://open.rocket.chat/direct/murtaza.patrawala)
-* **Description:** This is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery. The goal of this platform is to provide an easier way to build a massive community collaborating over any Github, Gitlab and others repository hosting services. The focus on this project will be to add tightly integrated support for Discourse, the leading open source forum \(civilized discussion\) platform.  
-* **Desirable Skills**: Familiarity with  nodeJS fullstack webapp development, and Ruby on Rails.  Experience with Discourse and Discourse API programming a big plus. 
-
 ### **UiKit Playground**
 
 * **Mentors:** [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo), [@tasso.evangelista](https://open.rocket.chat/direct/tasso.evangelista)
