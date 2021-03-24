@@ -18,7 +18,7 @@ Please see [Official GSoC 2021 schedule ](https://developers.google.com/open-sou
 
 For project ideas, check out our growing [list of ideas ](google-summer-of-code-2021.md#project-ideas)for some inspiration.
 
-Come meet our global **community of 230+ mentors and students** for GSoC 2021 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
+Come meet our global **community of 380+ mentors and students** for GSoC 2021 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
 
 [https://open.rocket.chat/channel/gsoc2021](https://open.rocket.chat/channel/gsoc2021)
 
@@ -42,13 +42,13 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### Out of office settings with assigning deputy
 
-* **Mentors:** [@amol.babu](https://open.rocket.chat/direct/amol.babu), [@asrar](https://open.rocket.chat/direct/asrar), [@weng.wei](https://open.rocket.chat/direct/weng.wei)
+* **Mentors:** [@amol.babu](https://open.rocket.chat/direct/amol.babu), [@asrar](https://open.rocket.chat/direct/asrar)
 * **Description:** The focus of this project is to solve a very common but problem relating to Out of office functionality in Chat.
 
   The goal is : -
 
   * Any user can create out of office settings in Rocket.Chat by giving from and to date with the auto reply message.
-  * User should be able to select the channels which would receieve the out of office notification.
+  * User should be able to select the channels which would receive the out of office notification.
   * The out of office notification should only be sent to once for the first incoming message.
   * User can also define his deputy from the list of eligible users.
   * At the tome of out of office, selected deputy will be automatically added to channel and can reply on behalf of main user.
@@ -230,11 +230,11 @@ Interested students are also encouraged to interact with our core team and contr
 * **Description:** This is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery. The goal of this platform is to provide an easier way to collaborate over any Github, Gitlab and others repository hosting services. The focus will be to add new features like User Management, Administration Module, etc - also improve the current features which add more advantage and provide a friction-less experience to all the fellow developers.
 * **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReactJS and ExpressJS is ideal.
 
-### Community Collaboration Platform: Mobile app
+### Community Collaboration Platform: Discourse integration
 
 * **Mentors:**  [@sing.li](https://open.rocket.chat/direct/sing.li) [@murtaza.patrawala](https://open.rocket.chat/direct/murtaza.patrawala)
-* **Description:** This is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery. The goal of this platform is to provide an easier way to collaborate over any Github, Gitlab and others repository hosting services. The focus here will be to create a cross-platform mobile app for this platform
-* **Desirable Skills**: Familiarity with React Native, iOS and Android development.
+* **Description:** This is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery. The goal of this platform is to provide an easier way to build a massive community collaborating over any Github, Gitlab and others repository hosting services. The focus on this project will be to add tightly integrated support for Discourse, the leading open source forum \(civilized discussion\) platform.  
+* **Desirable Skills**: Familiarity with  nodeJS fullstack webapp development, and Ruby on Rails.  Experience with Discourse and Discourse API programming a big plus. 
 
 ### **UiKit Playground**
 
