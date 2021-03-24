@@ -368,11 +368,12 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 
 ### PHP
 
-* [rocket-chat-rest-client](https://github.com/Fab1en/rocket-chat-rest-client)
+* [rocketchat-php](https://github.com/alekseykuleshov/rocket-chat)
 
 ### Python
 
 * [rocketchat\_API](https://github.com/jadolg/rocketchat_API)
+* [rocket-python](https://github.com/Pipoline/rocket-python)
 
 ### Ruby
 
@@ -381,4 +382,8 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 ### Clojure
 
 * [rocketchat-clojure](https://github.com/MalloZup/missile)
+
+### Golang
+
+* [rocketchat-golang](https://github.com/badkaktus/gorocket)
 

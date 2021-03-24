@@ -2,7 +2,7 @@
 
 ## Master Services Agreement for Self Managed Workspaces
 
-_Effective date: February 4th, 2020_
+_Effective date: February 27th, 2021_
 
 ## **ROCKET.CHAT MASTER SERVICES AGREEMENT FOR SELF-MANAGED DEPLOYMENTS**
 

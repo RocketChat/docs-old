@@ -31,6 +31,18 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 }
 ```
 
+## Bad Request Example Result
+
+If the user is already a owner, it will return a `400 bad request` status.
+
+```javascript
+{
+    "success": false,
+    "error": "User is already a owner [error-user-already-owner]",
+    "errorType": "error-user-already-owner"
+}
+```
+
 ## Change Log
 
 | Version | Description |

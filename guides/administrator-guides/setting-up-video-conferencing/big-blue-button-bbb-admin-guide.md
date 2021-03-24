@@ -23,7 +23,7 @@ description: >-
 
 4. Enable BigBlueButton.
 
-5. Enter **Domain** name [https://bbb.rocket.chat](https://bbb.rocket.chat)
+5. Enter **Domain** name [https://bbb.yourownserver.com](https://bbb.yourownserver.com)
 
 6. Enter your **Secret Token**. \(Follow the [instructions](https://docs.bigbluebutton.org/admin/bbb-conf.html) and generate your secret token in BBB CLI\)
 
@@ -35,7 +35,7 @@ description: >-
 
 10. Hit **Save**.
 
-![](../../../.gitbook/assets/image%20%28253%29.png)
+![](../../../.gitbook/assets/image%20%28277%29.png)
 
 BigBlueButton is successfully configured on your server.  
 
