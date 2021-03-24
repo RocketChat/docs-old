@@ -46,7 +46,7 @@ If you’re curious about the technical requirements needed to run Rocket.Chat, 
 
 | **Operating System** | **Requirements** |
 | :--- | :--- |
-| **iOS** | **iOS 12.2 or above** |
+| **iOS** | **iOS 11** **or above** |
 | **Android** | **Android 6.0 or above** |
 
 ## **Web browsers**
