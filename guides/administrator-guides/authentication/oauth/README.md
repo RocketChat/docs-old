@@ -47,7 +47,7 @@ To set up your desired provider:
 
 To use Apple account for authentication:
 
-1. Turn on **Sing in with Apple**.
+1. Turn on **Sign in with Apple**.
 
 ![](../../../../.gitbook/assets/image%20%28152%29.png)
 
