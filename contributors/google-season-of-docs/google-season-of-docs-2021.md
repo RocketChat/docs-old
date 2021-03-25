@@ -30,3 +30,7 @@ If you have questions and prefer email, please write us at: gsod+2021@rocket.cha
 * **Description**: The JS SDK is a library of code written in JS that offers an easier interface to communicate with a Rocket.Chat server providing APIs to be called from a JS code that executes commands on the server, like send a message, or retrieve data, like get the list of rooms, abstracting all the logic necessary to handle the communication with the server side. You will be working with Rocket.Chat backend and frontend leads to improve the documentation of all JS SDK methods, from the initial setup of how to get the library and install it to the list of methods, how to use them and the expected returned data. Current documentation is under the SDK repository README.
 * **Related Material**: [JS SDK repository](https://github.com/RocketChat/Rocket.Chat.js.SDK), [Mention in BOT's Docs](https://docs.rocket.chat/bots/bots-architecture/#rocketchat-js-sdk), [NPM Package](https://www.npmjs.com/package/@rocket.chat/sdk), [Documentation](https://github.com/RocketChat/Rocket.Chat.js.SDK/blob/master/README.md)
 
+## Project Budget Details
+
+### Budget Items \(work in progress - placeholder\)
+
