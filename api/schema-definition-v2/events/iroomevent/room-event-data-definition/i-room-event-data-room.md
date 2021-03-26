@@ -8,7 +8,7 @@ The definition is:
 
 ```typescript
 export interface IEventDataRoom {
-	room: IRoom;
+    room: IRoom;
 }
 ```
 

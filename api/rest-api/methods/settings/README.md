@@ -11,5 +11,3 @@ You can get and update the settings via the REST API, only if you have permissio
 | `/api/v1/settings/:_id` | `GET` | Gets a setting. | [Link](get-by-id.md) |
 | `/api/v1/settings/:_id` | `POST` | Updates a setting. | [Link](update.md) |
 
-
-

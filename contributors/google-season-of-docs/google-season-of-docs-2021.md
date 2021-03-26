@@ -24,9 +24,9 @@ If you have questions and prefer email, please write us at: gsod+2021@rocket.cha
 
 ### Project Proposal
 
-## Developer Guides and API Docs Rewrite   \(work in progress - place holder\)
+## Developer Guides and API Docs Rewrite
 
-**Mentors:**   @rodrigok,  @ggazzo
+**Mentors:**   @reetp  @rodrigok  @ggazzo
 
 **Project description:** 
 
@@ -46,13 +46,17 @@ Current documentation is under the SDK repository README/Blah
 
 ### Measuring Success
 
-As with many open source projects, Rocket.Chat attracts a large number of young and often inexperienced developers. Rocker.Chat has an enormous and complex code base. New contributors often feel frustrated at being unable to get a test setup running quickly and can lose interest and look for an easier project.
+As with many open source projects, Rocket.Chat attracts a large number of young and often inexperienced developers.
 
-Currently the documentation on getting them started with a development environment is fragmented. Developers need to spend time on basic setup rather than coding, and it is frustrating for new users.
+Rocket.Chat has an enormous and complex code base. New contributors often feel frustrated at being unable to get a test setup running quickly and can lose interest and look for an easier project.
 
-We believe that better written documentation will reduce the time developers need to spend on development setup which can then be spent on actual coding issues.     
+Currently the documentation on getting them started with a development environment is fragmented. Developers need to spend time on basic setup rather than coding, and it is frustrating for new users..
+
+We believe that better written documentation will reduce the time existing developers need to spend on helping new developers with development setup which can then be spent on actual coding issues.     
   
-Rocket.Chat's documentation is currently hosted with gitbook and analytics in the form of  pageviews and ratings are available.    We will use these metrics to measure the success of this project:
+Rocket.Chat currently hosts documentation with gitbook and analytics in the form of Pageviews and Ratings are available. As we intend to create entirely new content pulling information from a variety of sources there will be no direct comparison of usages. However, we can check an overall views count of existing page content and then compare this with the new pages.  
+  
+We will use these metrics to measure the success of this project:
 
 * pageviews of the rewritten docs
 * percentage of rating above 4
@@ -60,12 +64,16 @@ Rocket.Chat's documentation is currently hosted with gitbook and analytics in th
 
 We will develop a benchmark of the above metrics against both:
 
-*  the docs before rewrite
+*  the documentation before rewrite
 * other Rocket.Chat documentation pages \(admin guides, user guides, and so on\)
 
-Gitbook also has full text indexed searches.   We will analyze search terms and results to establish metrics of "interest" in the newly rewritten documentation. We expect to see a significantly increased interest in the newly rewritten docs.
+Gitbook also has full text indexed searches and we will analyze search terms and results to establish additional metrics of "interest" in the new documentation. We expect to see significantly increased interest in the new documentation as we push to widen our community.
 
-In addition, we believe we will see a decrease in simple support requests, more pull requests and code contributions, leading to higher retention of new developers who want to try developing with Rocket.Chat
+In addition, we believe we will see a decrease in simple developer support requests, more pull requests and code contributions, and a higher retention of new developers who want to try developing with Rocket.Chat, especially for the GSoC 2022 season.  We will measure and track these metrics as indicators of the project's success:
+
+* \(normalized\) developer support requests
+* pull requests activities
+* retention of developers for the GSoC 2022 season
 
 ## Project Budget Details
 

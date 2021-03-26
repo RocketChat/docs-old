@@ -7,24 +7,24 @@ description: >-
 
 # IEvent
 
-### Interface Definition
+## Interface Definition
 
 ```typescript
 interface IEvent<T extends EDataDefinition> {
-	_id: string;
-	clid?: string;
-	pids: Array<string>;
-	v: number;
-	ts: Date;
-	src: string;
-	ct: EventContext;
-	cid: string;
-	t: EventTypeDescriptor;
-	dHash: string;
-	o: T;
-	d: T;
-	isLeaf?: boolean;
-	deletedAt?: Date;
+    _id: string;
+    clid?: string;
+    pids: Array<string>;
+    v: number;
+    ts: Date;
+    src: string;
+    ct: EventContext;
+    cid: string;
+    t: EventTypeDescriptor;
+    dHash: string;
+    o: T;
+    d: T;
+    isLeaf?: boolean;
+    deletedAt?: Date;
 }
 ```
 

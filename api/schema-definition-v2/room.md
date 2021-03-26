@@ -6,12 +6,12 @@ description: >-
 
 # IRoom
 
-### Interface Definition
+## Interface Definition
 
 ```typescript
 export interface IRoom {
-	_id: string;
-	federation: IFederationInfo;
+    _id: string;
+    federation: IFederationInfo;
 }
 ```
 

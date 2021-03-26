@@ -1,6 +1,6 @@
 # IUser
 
-### Interface Definition
+## Interface Definition
 
 ```typescript
 

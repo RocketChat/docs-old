@@ -8,7 +8,7 @@ The event context holds all the possible context types, currently we only have t
 
 ```typescript
 export enum EventContext {
-	ROOM = 'room',
+    ROOM = 'room',
 }
 ```
 

@@ -27,5 +27,3 @@ rc-apps -v
 
 Note that the response may vary depending upon your machine and environment, but it should look similar. Now, you are all set to create your first app.
 
-## 
-

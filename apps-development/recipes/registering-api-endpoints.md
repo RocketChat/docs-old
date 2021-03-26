@@ -70,10 +70,9 @@ export class Endpoint extends ApiEndpoint {
         return this.success(JSON.stringify({ messageId }));
     }
 }
-
 ```
 
-In the file `endpoint.ts`, we created a class that extends the base class `ApiEndpoint`.  We defined the path of the API endpoint by assigning the value `'api'`  to the public property `path`. 
+In the file `endpoint.ts`, we created a class that extends the base class `ApiEndpoint`. We defined the path of the API endpoint by assigning the value `'api'` to the public property `path`.
 
 Then, let's implement the method `post`**, which will be executed every time once the API endpoint receives an HTTP POST request from an external service.** Following our original idea - forwarding any data received to the \#general channel, we obtain the request content by `request.content` and create a message containing the request content, then send it to the channel `#general`.
 

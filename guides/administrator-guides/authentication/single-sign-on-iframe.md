@@ -10,7 +10,7 @@ There are two ways to use the Iframe integration for this purpose and we will de
 
 #### Embedding Rocket.Chat inside an Iframe
 
-If you already have the Rocket.Chat inside an iframe you can use call commands inside the Rocket.Chat's an iframe, [there is a command to login the user passing a token](../../developer/iframe-integration/commands.md#available-commands), for that you need to make your own way to retrieve the token from your own APIs and then pass it to the iframe. 
+If you already have the Rocket.Chat inside an iframe you can use call commands inside the Rocket.Chat's an iframe, [there is a command to login the user passing a token](../../developer/iframe-integration/commands.md#available-commands), for that you need to make your own way to retrieve the token from your own APIs and then pass it to the iframe.
 
 We suggest one common way, once your application loads:
 

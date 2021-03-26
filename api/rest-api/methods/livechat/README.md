@@ -53,9 +53,7 @@ Manage Livechat related data:
 | `/api/v1/livechat/visitors.chatHistory/room/room-id/visitor/visitor-id` | `GET` | Gets the visitor chat history. | [info](visitor.md#get-the-visitor-chat-history) |
 |  |  |  |  |
 
-
-
-#### Dashboard
+## Dashboard
 
 Agents
 
@@ -78,13 +76,11 @@ Departments
 | `/livechat/analytics/departments/total-abandoned-chats` | total abandoned chats | [Info](https://docs.rocket.chat/api/rest-api/methods/livechat/total-abandoned-chats-by-department) |
 | `/livechat/analytics/departments/percentage-abandoned-chats` | percentage of abandoned chats | [Info](https://docs.rocket.chat/api/rest-api/methods/livechat/percentage-of-abandoned-chats-by-department) |
 
-#### Livechat
+## Livechat
 
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
-| `/api/v1/livechat/inquiries.list` | Retrieves a list of open inquiries. | [Link](methods/livechat/inquiries.md#inquiries-list) |
-| `/api/v1/livechat/inquiries.take` | Take an open inquiry. | [Link](methods/livechat/inquiries.md#livechat-take-inquiry) |
-| `/api/v1/livechat/rooms` | Retrieves a list of livechat rooms. | [Link](methods/livechat/rooms.md) |
-
-
+| `/api/v1/livechat/inquiries.list` | Retrieves a list of open inquiries. | [Link](https://github.com/RocketChat/docs/tree/fd1bc8a323622675944962d313ea880ea26333d7/api/rest-api/methods/livechat/methods/livechat/inquiries.md#inquiries-list) |
+| `/api/v1/livechat/inquiries.take` | Take an open inquiry. | [Link](https://github.com/RocketChat/docs/tree/fd1bc8a323622675944962d313ea880ea26333d7/api/rest-api/methods/livechat/methods/livechat/inquiries.md#livechat-take-inquiry) |
+| `/api/v1/livechat/rooms` | Retrieves a list of livechat rooms. | [Link](https://github.com/RocketChat/docs/tree/fd1bc8a323622675944962d313ea880ea26333d7/api/rest-api/methods/livechat/methods/livechat/rooms.md) |
 

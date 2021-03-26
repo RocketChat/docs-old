@@ -7,5 +7,3 @@
 | `/api/v1/commands.run` | Execute a slash command in the specified room. | [Link](run.md) |
 | `/api/v1/commands.preview` | Gets the preview data for the command and execute preview item. | [Link](preview.md) |
 
-
-

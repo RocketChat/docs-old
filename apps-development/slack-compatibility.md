@@ -88,7 +88,7 @@ export class LiftOffApp extends App {
             }
         ],
     }
-    
+
     constructor(info: IAppInfo, logger: ILogger, accessors: IAppAccessors) {
         super(info, logger, accessors);
     }

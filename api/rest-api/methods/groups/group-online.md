@@ -10,13 +10,13 @@ description: >-
 | :--- | :--- | :--- |
 | `/api/v1/groups.online` | `yes` | `GET` |
 
-### Query Parameters
+## Query Parameters
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `query` | `{"_id":"5HmCfpoB7jp2uibTC"}` | Optional | See [Query Parameter](https://github.com/RocketChat/docs/blob/aeb4dd8de5017b7cd9c9d9367a0e2155f911ba5a/api/rest-api/query-and-fields-info.md) |
 
-### Example Call
+## Example Call
 
 ```text
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
@@ -24,7 +24,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 http://localhost:3000/api/v1/groups.online
 ```
 
-### Example Result
+## Example Result
 
 ```text
 {
@@ -42,7 +42,7 @@ http://localhost:3000/api/v1/groups.online
 }
 ```
 
-### Query Example Call
+## Query Example Call
 
 This example shows how to filter using group's id.
 
@@ -52,7 +52,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 http://localhost:3000/api/v1/groups.online?query={"_id": "5HmCfpoB7jp2uibTC"}
 ```
 
-### Query Example Result
+## Query Example Result
 
 ```text
 {
@@ -66,7 +66,7 @@ http://localhost:3000/api/v1/groups.online?query={"_id": "5HmCfpoB7jp2uibTC"}
 }
 ```
 
-### Change Log
+## Change Log
 
 | Version | Description |
 | :--- | :--- |

@@ -8,25 +8,25 @@ description: Gives the average waiting time sorted by department
 | :--- | :--- | :--- |
 | `api/v1/livechat/analytics/departments/average-waiting-time` | `YES` | `GET` |
 
-### Headers
+## Headers
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `X-User-Id` | `myuser-name` | Required | Your username hash \(returned after you log in through the API\) |
 | `X-Auth-Token` | `myauth-token` | Required | Your token \(returned after you log in through the API\) |
 
-### Parameters
+## Parameters
 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `start` | `2020-09-09T00:11:22.345Z` | Required | start date |
 | `end` | `2020-09-10T23:59:22.345Z` | Required | end date |
 
-#### Notes
+### Notes
 
 * \*\* The API will return a blank page if the correct headers are not sent
 
-### Example Call
+## Example Call
 
 ```bash
 curl --location --request GET 'http://localhost:3000/api/v1/livechat/analytics/departments/average-waiting-time?start=2020-02-12T00:11:22.345Z&end=2020-02-18T23:59:22.345Z' \
@@ -34,7 +34,7 @@ curl --location --request GET 'http://localhost:3000/api/v1/livechat/analytics/d
 --header 'X-User-Id: myuser-name'
 ```
 
-### Result
+## Result
 
 ```javascript
 {
@@ -46,5 +46,5 @@ curl --location --request GET 'http://localhost:3000/api/v1/livechat/analytics/d
 }
 ```
 
-### Change Log
+## Change Log
 

@@ -13,9 +13,7 @@ The EventContext is an enum, ready to accept more context types, as seen here:
 
 ```typescript
 export enum EventContext {
-	ROOM = 'room',
+    ROOM = 'room',
 }
 ```
-
-
 

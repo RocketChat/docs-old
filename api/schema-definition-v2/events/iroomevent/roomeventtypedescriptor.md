@@ -10,12 +10,12 @@ The RoomEventTypeDescriptor is an enum:
 
 ```typescript
 export enum RoomEventTypeDescriptor {
-	ROOM = 'room',
-	DELETE_ROOM = 'droom',
-	PRUNE_ROOM_MESSAGES = 'prune',
-	MESSAGE = 'msg',
-	EDIT_MESSAGE = 'emsg',
-	DELETE_MESSAGE = 'dmsg',
+    ROOM = 'room',
+    DELETE_ROOM = 'droom',
+    PRUNE_ROOM_MESSAGES = 'prune',
+    MESSAGE = 'msg',
+    EDIT_MESSAGE = 'emsg',
+    DELETE_MESSAGE = 'dmsg',
 }
 ```
 

@@ -8,7 +8,7 @@ The interface definition is:
 
 ```typescript
 export interface IEventDataUpdate<T extends EventDataDefinition> {
-	[key: string]: T;
+    [key: string]: T;
 }
 ```
 

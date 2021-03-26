@@ -6,7 +6,7 @@ This article will describe how to test the iFrame authentication, using a test t
 
 Download and start the _iframe-auth-example_ test service following the steps mentioned [here](https://github.com/RocketChat/iframe-auth-example)
 
-The test service code can be used as an example on how to setup the iFrame auth calls to Rocket.Chat. Code is available [here](https://github.com/RocketChat/iframe-auth-example/blob/master/index.js). 
+The test service code can be used as an example on how to setup the iFrame auth calls to Rocket.Chat. Code is available [here](https://github.com/RocketChat/iframe-auth-example/blob/master/index.js).
 
 ## Step 2
 
@@ -16,7 +16,7 @@ Configure Rocket.Chat server \(_Administration &gt; Accounts &gt; iFrame_\) as f
 
 ## Step 3
 
-Test the iFrame service by calling Rocket.Chat login URL \(in this example, _http://localhost:3000\)_
+Test the iFrame service by calling Rocket.Chat login URL \(in this example, [http://localhost:3000\](http://localhost:3000\)_\)_
 
 ![](../../../../.gitbook/assets/2020-08-12_10-58.png)
 

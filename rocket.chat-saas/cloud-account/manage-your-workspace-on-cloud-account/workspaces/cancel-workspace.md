@@ -30,7 +30,7 @@ If you change your mind within 15 days of your workspace getting canceled, pleas
 
 If you are an old rocket.chat customer; you might still be on the old billing model. You are charged for at the end of the month \(for the time you have used the service\) your billing cycle has ended,  as shown below:
 
-![](../../../../.gitbook/assets/image%20%28308%29%20%282%29%20%281%29.png)
+![](../../../../.gitbook/assets/image%20%28308%29%20%282%29%20%282%29%20%281%29.png)
 
 ### Pre-paid Billing
 

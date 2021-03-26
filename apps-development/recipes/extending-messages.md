@@ -99,7 +99,7 @@ export class ExtendMessageCommand implements ISlashCommand{
         const messageExtender = await this.getMessageExtender(context, modify, messageId); // [2]
         const value = 1;
         const img = new ImageAttachment('https://open.rocket.chat/images/logo/logo.svg'); // [3]
-        
+
         messageExtender.addCustomField('key', value); // [4]
         messageExtender.addAttachment(img); // [5]
 

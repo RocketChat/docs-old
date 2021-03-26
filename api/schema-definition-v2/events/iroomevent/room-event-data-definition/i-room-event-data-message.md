@@ -8,21 +8,21 @@ This payload holds the necessary message properties, the definition is:
 
 ```typescript
 export interface IEventDataMessage {
-	t: EventMessageTypeDescriptor;
-	u: IUser;
-	msg: string;
-	mentions?: Array<string>;
-	channels?: Array<string>;
-	reactions?: Array<object>;
-	drid?: string;
-	file?: {
-		_id: string;
-		name: string;
-		type: string;
-	};
-	pinned?: Array<object>;
-	starred?: Array<object>;
-	deleted?: boolean;
+    t: EventMessageTypeDescriptor;
+    u: IUser;
+    msg: string;
+    mentions?: Array<string>;
+    channels?: Array<string>;
+    reactions?: Array<object>;
+    drid?: string;
+    file?: {
+        _id: string;
+        name: string;
+        type: string;
+    };
+    pinned?: Array<object>;
+    starred?: Array<object>;
+    deleted?: boolean;
 }
 ```
 

@@ -6,13 +6,13 @@ description: >-
 
 # IRoomEvent
 
-### Interface Definition
+## Interface Definition
 
 ```typescript
 export interface IRoomEvent {
-	ct: EventContext.ROOM;
-	t: RoomEventTypeDescriptor;
-	d: EventRoomDataDefinition;
+    ct: EventContext.ROOM;
+    t: RoomEventTypeDescriptor;
+    d: EventRoomDataDefinition;
 }
 ```
 

@@ -10,7 +10,7 @@ The EventTypeDescriptor is an enum:
 
 ```typescript
 export enum EventTypeDescriptor {
-	PING = 'ping'
+    PING = 'ping'
 }
 ```
 
