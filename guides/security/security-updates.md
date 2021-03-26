@@ -14,14 +14,20 @@ Please make sure to follow new version updates by subscribing to our newsletters
 
 **Issues**
 
-\*\*\*\*
+{% hint style="danger" %}
+**0023 - High Severity issue** fixed at **2021-03-26.**
+
+Rocket.Chat Live.Chat - affects **all,** fixed on **3.13, 3.12.2, 3.11.3**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 3h5cty\)
+{% endhint %}
 
 {% hint style="info" %}
 **0022 - Low Severity issue** fixed at **2021-03-26.**
 
 Rocket.Chat Server - affects **all,** fixed on **3.13, 3.12.2, 3.11.3**
 
-_Details about this security fix will be provided later as per our responsible disclosure policy. Reference:_ 98bfae
+_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 98bfae\)
 {% endhint %}
 
 {% hint style="info" %}
