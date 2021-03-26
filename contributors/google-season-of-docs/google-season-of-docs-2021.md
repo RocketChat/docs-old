@@ -68,7 +68,7 @@ We will use these metrics to measure the success of this project:
 
 We will develop a benchmark of the above metrics against both:
 
-*  the documentation before rewrite
+* the documentation before rewrite
 * other Rocket.Chat documentation pages \(admin guides, user guides, and so on\)
 
 Gitbook also has full text indexed searches and we will analyze search terms and results to establish additional metrics of "interest" in the new documentation. We expect to see significantly increased interest in the new documentation as we push to widen our community.
@@ -85,8 +85,8 @@ In addition, we believe we will see a decrease in simple developer support reque
 
 We anticipate the budget for this project to be USD $12,000 comprising of:
 
-* Technical writer to re-structure and re-write the technical guides,  and to write the JS SDK documentation.     $8000
-* Stipend for 3 x Volunteers to help in proof reading and production of graphics and other assets.  $1500
+* Technical writer to re-structure and re-write the technical guides,  and to write the JS SDK documentation     $8000
+* Stipend for 3 x Volunteers to help in proof reading and production of graphics and other assets  $1500
 *  Project stickers and T-Shirts x 10      $200
 *  Contribution to downline non-profit for assistance with design and volunteer search    $300
 *  Organization's participation in administration, mentorship of doc systems and tech project, and reviewing of content      $2000
