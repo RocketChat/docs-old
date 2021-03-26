@@ -24,13 +24,39 @@ If you have questions and prefer email, please write us at: gsod+2021@rocket.cha
 
 ### Project Proposal
 
-### JS SDK documentation  \(work in progress - place holder\)
+## Developer Guides and API Docs Rewrite   \(work in progress - place holder\)
 
-* **Mentors**: @rodrigok, @ggazzo
-* **Description**: The JS SDK is a library of code written in JS that offers an easier interface to communicate with a Rocket.Chat server providing APIs to be called from a JS code that executes commands on the server, like send a message, or retrieve data, like get the list of rooms, abstracting all the logic necessary to handle the communication with the server side. You will be working with Rocket.Chat backend and frontend leads to improve the documentation of all JS SDK methods, from the initial setup of how to get the library and install it to the list of methods, how to use them and the expected returned data. Current documentation is under the SDK repository README.
-* **Related Material**: [JS SDK repository](https://github.com/RocketChat/Rocket.Chat.js.SDK), [Mention in BOT's Docs](https://docs.rocket.chat/bots/bots-architecture/#rocketchat-js-sdk), [NPM Package](https://www.npmjs.com/package/@rocket.chat/sdk), [Documentation](https://github.com/RocketChat/Rocket.Chat.js.SDK/blob/master/README.md)
+**Mentors:**   @rodrigok,  @ggazzo
+
+**Project description:** 
+
+Working with core developers and the community team at Rocket.Chat this is an opportunity to help other developers get to the code faster, and start working on code and contributing to Rocket.Chat more easily.  
+  
+Rocket.Chat has different methods and SDKs that can be difficult to navigate for new developers and it can take a lot of time to get them up to a point where they can contribute code.  
+  
+Documentation is scattered and fragmented and needs bringing together in an easy to read and understand format.  
+  
+This will include methods for setting up libraries such as the JS SDK, core server code, and mobile application development code   
+  
+This is an exciting opportunity to work on a cutting edge project with a dynamic group of experienced developers and team members.  
+  
+Current documentation is under the SDK repository README/Blah
+
+**Related Material**:  JS SDK repository, Mention in BOT's Docs, NPM Package, Documentation 
+
+### Measuring Success
+
+As with many open source projects, Rocket.Chat attracts a large number of young and often inexperienced developers. Rocker.Chat has an enormous and complex code base. New contributors often feel frustrated at being unable to get a test setup running quickly and can lose interest and look for an easier project.
+
+Currently the documentation on getting them started with a development environment is fragmented. Developers need to spend time on basic setup rather than coding, and it is frustrating for new users.
+
+We believe that better written documentation will reduce the time developers need to spend on development setup which can then be spent on actual coding issues.
+
+We believe we will see a decrease in simple support requests, more pull requests and code contributions, leading to higher retention of new developers who want to try developing with Rocket.Chat
 
 ## Project Budget Details
 
 ### Budget Items \(work in progress - placeholder\)
+
+Current budget for this project is around $12k
 
