@@ -7,10 +7,10 @@ If you click on a workspace, you can check the following details.
 #### 
 
 {% hint style="info" %}
-After your first sign up, you are given a 14 days' trial of the **Gold** plan. On the 15th day, you are charged according to your chosen plan.
+After your first sign-up, you are given a 14 days' trial of the **Gold** plan. On the 15th day, you are charged according to your chosen plan.
 {% endhint %}
 
 {% hint style="info" %}
-Your workspace is on the Standard tiered plan paying monthly per 10 members— if you have 2 members you are still going to be charged for 10 members
+Minimum volume or resources on Cloud provided per workspace is for 10 members so you will be billed accordingly even if you have less than 10 users
 {% endhint %}
 
