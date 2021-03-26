@@ -24,7 +24,7 @@ If you have questions and prefer email, please write us at: gsod+2021@rocket.cha
 
 ### Project Proposal
 
-## Developer Guides and API Docs Rewrite
+## Developer Guides and SDK Docs Rewrite
 
 **Mentors:**   @reetp  @rodrigok  @ggazzo
 
@@ -36,13 +36,17 @@ Rocket.Chat has different methods and SDKs that can be difficult to navigate for
   
 Documentation for setting up development environments is scattered and fragmented and needs bringing together in an easy to read and understand format.  
   
-This will include methods for setting up libraries such as the JS SDK, core server code, and mobile application development code   
+This will include methods for setting up libraries such as the JS SDK, core server code, and mobile application development code 
+
+In particular, our JS SDK is a library of code written in JS that offers an easier interface to communicate with a Rocket.Chat server providing APIs to be called from a JS code that executes commands on the server, like send a message, or retrieve data, like get the list of rooms, abstracting all the logic necessary to handle the communication with the server side.   
+  
+The writer  will be working with Rocket.Chat backend and frontend leads to improve the documentation of all JS SDK methods, from the initial setup of how to get the library and install it to the list of methods, how to use them and the expected returned data.   
   
 This is an exciting opportunity to work on a cutting edge project with a dynamic group of experienced developers and team members.  
   
-Current documentation is under the SDK repository README
+Current documentation is under the[ JS SDK repository README](https://github.com/RocketChat/Rocket.Chat.js.SDK)
 
-**Related Material**:  JS SDK repository, Mention in BOT's Docs, NPM Package, Documentation 
+**Related Material**:  [Existing developers guides](https://docs.rocket.chat/guides/developer),  [JS SDK repository](https://github.com/RocketChat/Rocket.Chat.js.SDK)  
 
 ### Measuring Success
 
