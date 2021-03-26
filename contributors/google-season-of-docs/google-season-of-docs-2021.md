@@ -81,7 +81,16 @@ In addition, we believe we will see a decrease in simple developer support reque
 
 ## Project Budget Details
 
-### Budget Items \(work in progress - placeholder\)
+### Budget Items 
 
-Current budget for this project is around $12k
+We anticipate the budget for this project to be USD $12,000   comprising of:
+
+* Technical writer to re-structure and re-write the technical guides,  and to write the JS SDK documentation.     $8300
+* Stipend for 3 x Volunteers to help in proof reading and production of graphics and other assets.  $1500
+*  Project stickers and T-Shirts x 10      $200
+*  Organization's participation in administration, mentorship of doc systems and tech project, and reviewing of content      $2000
+
+
+
+
 
