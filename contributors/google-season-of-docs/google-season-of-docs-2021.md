@@ -50,9 +50,22 @@ As with many open source projects, Rocket.Chat attracts a large number of young 
 
 Currently the documentation on getting them started with a development environment is fragmented. Developers need to spend time on basic setup rather than coding, and it is frustrating for new users.
 
-We believe that better written documentation will reduce the time developers need to spend on development setup which can then be spent on actual coding issues.
+We believe that better written documentation will reduce the time developers need to spend on development setup which can then be spent on actual coding issues.     
+  
+Rocket.Chat's documentation is currently hosted with gitbook and analytics in the form of  pageviews and ratings are available.    We will use these metrics to measure the success of this project:
 
-We believe we will see a decrease in simple support requests, more pull requests and code contributions, leading to higher retention of new developers who want to try developing with Rocket.Chat
+* pageviews of the rewritten docs
+* percentage of rating above 4
+* total count of ratings
+
+We will develop a benchmark of the above metrics against both:
+
+*  the docs before rewrite
+* other Rocket.Chat documentation pages \(admin guides, user guides, and so on\)
+
+Gitbook also has full text indexed searches.   We will analyze search terms and results to establish metrics of "interest" in the newly rewritten documentation. We expect to see a significantly increased interest in the newly rewritten docs.
+
+In addition, we believe we will see a decrease in simple support requests, more pull requests and code contributions, leading to higher retention of new developers who want to try developing with Rocket.Chat
 
 ## Project Budget Details
 
