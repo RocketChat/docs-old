@@ -26,7 +26,7 @@ If you have questions and prefer email, please write us at: gsod+2021@rocket.cha
 
 ## Developer Guides and SDK Docs Rewrite
 
-**Mentors:**   @reetp  @rodrigok  @ggazzo
+**Mentors:**   [@reetp](https://open.rocket.chat/direct/reetp) [ @rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)  [@ggazzo](https://open.rocket.chat/direct/guilherme.gazzo)
 
 **Project description:** 
 
@@ -83,11 +83,12 @@ In addition, we believe we will see a decrease in simple developer support reque
 
 ### Budget Items 
 
-We anticipate the budget for this project to be USD $12,000   comprising of:
+We anticipate the budget for this project to be USD $12,000 comprising of:
 
-* Technical writer to re-structure and re-write the technical guides,  and to write the JS SDK documentation.     $8300
+* Technical writer to re-structure and re-write the technical guides,  and to write the JS SDK documentation.     $8000
 * Stipend for 3 x Volunteers to help in proof reading and production of graphics and other assets.  $1500
 *  Project stickers and T-Shirts x 10      $200
+*  Contribution to downline non-profit for assistance with design and volunteer search    $300
 *  Organization's participation in administration, mentorship of doc systems and tech project, and reviewing of content      $2000
 
 
