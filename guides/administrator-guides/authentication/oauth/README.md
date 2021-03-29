@@ -31,7 +31,7 @@ To set up your desired provider:
 2. Under the `Developer applications` tab, click the **Register new application** button
 3. Fill in the form, and make sure you use the correct callback URL.
 
-**Note**: If your callback URL is wrong, GitHub does not display any error. Instead of logging in, you receive an error message saying "No matching login attempt found."
+**Note**: If your callback URL is wrong, GitHub does not display any error. Instead of logging in, you receive an error message saying, "No matching login attempt found."
 
 ## Google
 
@@ -41,13 +41,13 @@ To set up your desired provider:
 
 1. Go to the [Google Developer Console](https://console.developers.google.com), and create a new project
 2. Set up your project by creating an "OAuth 2.0 client ID" \(under `APIs & Auth` and `Credentials`\)
-3. After that, make sure you define a **Product Name** in the OAuth consent screen, and select **Web App** as application type. Otherwise, you won't be able to provide a callback URL
+3. After that, make sure you define a **Product Name** in the OAuth consent screen, and select **Web App** as the application type. Otherwise, you won't be able to provide a callback URL
 
 ## Apple
 
 To use Apple account for authentication:
 
-1. Turn on **Sing in with Apple**.
+1. Turn on **Sign in with Apple**.
 
 ![](../../../../.gitbook/assets/image%20%28152%29.png)
 
@@ -65,7 +65,7 @@ To use Apple account for authentication:
 
 * Callback URL: `<<website_url>>/_oauth/twitter`
 
-## Wordpress
+## WordPress
 
 Please follow the instructions [here](https://docs.rocket.chat/guides/administrator-guides/authentication/oauth/wordpress).
 
@@ -73,7 +73,7 @@ Please follow the instructions [here](https://docs.rocket.chat/guides/administra
 
 To add custom OAuth:
 
-1. Click **Add custom oauth**
+1. Click **Add custom oAuth**
 
 ![](../../../../.gitbook/assets/image%20%28151%29.png)
 
