@@ -17,7 +17,7 @@ Your publisher developer account is created, as shown below:
 
 1. Click **New App** to add a new app:
 
-![](../../../.gitbook/assets/image%20%28185%29%20%281%29.png)
+![](../../../.gitbook/assets/image%20%28185%29.png)
 
 ![](../../../.gitbook/assets/image%20%28188%29.png)
 

@@ -53,7 +53,7 @@ To search for a specific message by a user:
 
 The conversations pops up, as shown below:
 
-![](../../../.gitbook/assets/image%20%28298%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![](../../../.gitbook/assets/image%20%28298%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 ### By Direct Messages
 
