@@ -60,14 +60,14 @@ Specifically, **E2EE** uses:
 
  `msg: &lt;encrypted_message>,`
 
- `T: “e2e” }`    ****  
+ `T: “e2e” }`      
 This new object is sent to the other client. Note that the original message is not visible to anyone, and only the encrypted message is sent.   
 
 
 5. Client receives a message: When a message object is received, using the \``onClientMessageReceived` event, we intercept it and check whether the “t” type parameter of the message object is “**e2e**”, like we set when sending the message. If it is not, we don't need to decrypt it as it is a plaintext message and **E2EE** was not used. If it is an encrypted message, we take the “msg” parameter’s value and decrypt that message using the session key.   
 Note that if the receiving client does not have the session key in its local storage, it will have to download the encrypted session key from the server using the `fetchGroupE2EKey`\`method, and then decrypt it using its own private key, and then use this key for decryption of the incoming message. 
 
-## Server Methods ****
+## Server Methods 
 
 ### 1. `addKeyToChain(key)`
 
@@ -106,7 +106,7 @@ For fetching the encrypted session key for a conversation, for the current user.
 
 ### 3. fetchKeychain\(userId\) 
 
-For fetching the public key of a user \(to be used for encrypting the session key for that user\)  
+For fetching the public key of a user \(to be used for encrypting the session key for that user\).  
 
 
 **Request:** 
