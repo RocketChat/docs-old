@@ -109,12 +109,6 @@ Interested students are also encouraged to interact with our core team and contr
 
 * **Desirable Skills:** The sky is _not even the limit_ for this project. We will need a hot-shot all round challenge-loving student already familiar with JavaScript, TypeScript, React,[ current poll-app codebase](https://github.com/sampaiodiego/rocket.chat.app-poll) and [Rocket.Chat + Fuselage codebase](https://github.com/RocketChat/Rocket.Chat.Fuselage).
 
-### **Use Lingohub on mobile apps**
-
-* **Mentors:** [@diego.mello](https://open.rocket.chat/direct/diego.mello)
-* **Description:** Share Lingohub translation strings with the web client, so the same contributor can translate both frontend and mobile apps.
-* **Desirable Skills:** Familiarity with React Native and Rocket.Chat codebase
-
 ### **Language Power Tools**
 
 * **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
