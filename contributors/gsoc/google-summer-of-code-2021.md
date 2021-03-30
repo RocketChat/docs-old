@@ -203,12 +203,6 @@ Interested students are also encouraged to interact with our core team and contr
     * The same settings should be available for the workspace admin to configure a default value for all users
     * The implementation should cover the web and mobile applications
 
-### **Support share location on mobile apps**
-
-* **Mentors:** [@diego.mello](https://open.rocket.chat/direct/diego.mello)
-* **Description:** Add support for sharing a current location from mobile apps. Mobile apps are going to fetch the current location and add coordinates as a message. Mobile apps are also going to show the appropriate map image.
-* **Desirable Skills:** Familiarity with React Native and Rocket.Chat codebase
-
 ### **New statuses for user actions/events \(Typing 2.0\)**
 
 * **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento), [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo)
