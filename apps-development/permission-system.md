@@ -332,13 +332,13 @@ Permission name: `slashcommand`
 
 ### Register new HTTP endpoints
 
-Permission name: `apis`
+Permission name: `api`
 
 ```javascript
 {
   "permissions": [
     {
-      "name":"apis"
+      "name":"api"
     }
   ]
 }
