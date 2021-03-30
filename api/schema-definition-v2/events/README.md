@@ -1,4 +1,6 @@
 # Events
 
-Events are the core of our system now, everything goes through the events, which are unique and federable.
+Please find the document here: 
+
+[https://developer.rocket.chat/api/schema-definition-v2/events](https://developer.rocket.chat/api/schema-definition-v2/events)
 
