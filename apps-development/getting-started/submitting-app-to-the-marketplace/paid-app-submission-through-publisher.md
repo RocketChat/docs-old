@@ -17,7 +17,7 @@ Your publisher developer account is created, as shown below:
 
 1. Click **New App** to add a new app:
 
-![](../../../.gitbook/assets/image%20%28185%29.png)
+![](../../../.gitbook/assets/image%20%28185%29%20%282%29.png)
 
 ![](../../../.gitbook/assets/image%20%28188%29.png)
 
@@ -55,7 +55,7 @@ After we compile, you will be notified via email, as shown below:
 
 Then you get notified to review your app, as shown below:
 
-![](../../../.gitbook/assets/image%20%28192%29%20%281%29.png)
+![](../../../.gitbook/assets/image%20%28192%29%20%282%29%20%281%29.png)
 
 You log in to your cloud account and approve it. After your approval, rocket.chat reviews it, and you will be notified via email that your app is now listed.
 

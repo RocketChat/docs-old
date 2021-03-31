@@ -114,7 +114,8 @@ Interested students are also encouraged to interact with our core team and contr
 ### **Language Power Tools**
 
 * **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
-* **Project repository:** [https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
+* **Project Channel:** [https://open.rocket.chat/channel/88mhz95ppbsncn4pk](https://open.rocket.chat/channel/88mhz95ppbsncn4pk)
+* **Project Repository:** [https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
 * **Desirable Skills:** JavaScript / TypeScript
 * **Description:** Create internal scripts to extract translation strings from the source code and give some options:
   * Check if all strings are translated in the target languages \(en by default\)
@@ -169,7 +170,8 @@ Interested students are also encouraged to interact with our core team and contr
 ### **Houston Improvements - Rocket.Chat release/changelog generator**
 
 * **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
-* **Project repository:**[https://github.com/RocketChat/Rocket.Chat.Houston](https://github.com/RocketChat/Rocket.Chat.Houston)
+* **Project Channel:** [https://open.rocket.chat/channel/2dxywf7577zxgzark](https://open.rocket.chat/channel/2dxywf7577zxgzark)
+* **Project Repository:** [https://github.com/RocketChat/Rocket.Chat.Houston](https://github.com/RocketChat/Rocket.Chat.Houston)
 * **Desirable Skills:** TypeScript, Git, Shell
 * **Description:** Houston is the CLI tooling we use to release new versions of Rocket.Chat and generate our changelogs from merged pull requests. We want to:
   * Rewrite the tooling in TypeScript
