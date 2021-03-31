@@ -190,7 +190,8 @@ Interested students are also encouraged to interact with our core team and contr
 ### **Stop notifications and Notifications schedule**
 
 * **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
-* **Project repository:** [https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
+* **Project Channel:** [https://open.rocket.chat/channel/9nlxzwlfpcgzbfzl3](https://open.rocket.chat/channel/9nlxzwlfpcgzbfzl3)
+* **Project Repository:** [https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
 * **Desirable Skills:** JavaScript/TypeScript, React, React Native,, Rocket.Chat codebase
 * **Description:** This feature consists of two new options for the end-users:
   * **Stop Notifications:** A list of options to stop notifications for a certain time \(30min, 1h, 2h, 24h, custom date/hour\).
@@ -204,7 +205,8 @@ Interested students are also encouraged to interact with our core team and contr
 ### **New statuses for user actions/events \(Typing 2.0\)**
 
 * **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento), [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo)
-* **Project repository:** [https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
+* **Project Channel:** [https://open.rocket.chat/channel/mzbtnxgzodrofkxw8](https://open.rocket.chat/channel/mzbtnxgzodrofkxw8)
+* **Project Repository:** [https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
 * **Desirable Skills:** JavaScript/TypeScript, React, React Native,, Rocket.Chat codebase
 * **Description:** Improve the current \`Typing\` functionality to support, on web and mobile applications, two new things:
   * New properties to allow define new actions like \`recording\` or \`uploading\`, changing the current implementations to support and send those 2 new events and improve the end-user experience
