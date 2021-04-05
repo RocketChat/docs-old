@@ -1,6 +1,6 @@
 # Terms of Service
 
-_Effective date: March 3rd, 2021_
+_Effective date: April 5th, 2021_
 
 These Customer Terms of Service \(the “Customer Terms”\) describe your rights and responsibilities pertaining to Rocket.Chat Services \(the "Services"\), such as Rocket.Chat Cloud Hosting, Support Plans, Marketplace or any other services we may provide to you, the customer. Some sections of these Customer Terms only apply to specific Services, as indicated by the headings of the respective paragraph. These Customer Terms **do not** apply to on-premises installation of Rocket.Chat. Please read the Customer Terms carefully and **note that these Customer Terms include auto-renewal provisions and may limit your rights and liabilities.**
 
@@ -20,7 +20,7 @@ With regards to Services operated directly by Rocket.Chat:
 
 Customer hereby grants Rocket.Chat a worldwide license to use, host, store, reproduce, modify, create derivative works \(e.g. as translations, adaptations or other changes we make so that the content in question works better with the Services\), communicate, publish, perform, display and distribute User Data. Customer also represents and warrants it has the right to grant this license and has obtained any necessary consent from users and third parties regarding such User Data. The rights granted in this license are for the limited purpose of providing, operating and improving the Services, and to develop new ones. \(For a more thorough description of the limited purposes we use personal data, please refer to our Privacy Policy.\) This license does not expire even if you stop using the Services \(for example, so that Rocket.Chat can deliver a message that you sent to another user before you stopped using our Services\). If a user employs the Services to share content with others, anyone that user has shared content with \(including the general public, in certain circumstances\) may have access to the content, depending on the channels and the way the content was shared.
 
-Rocket.Chat may provision or deprovision access to the Services, enable or disable third party integrations, manage permissions, retention and export settings, transfer or assign workspaces, share channels, or consolidate this workspace or channels with other workspaces or channels, and these choices and instructions may result in the access, use, disclosure, modification or deletion of certain or all User Data.You may access, import, and export all your User Data, including private channels and direct messages through your account preferences panel. You may also request that your account is deleted, together with all the messages you have previously sent and your personal information, such as names and email addresses.
+Rocket.Chat may provision or deprovision access to the Services, set the version of the Service and update the Service, enable or disable third party integrations, manage permissions, retention and export settings, transfer or assign workspaces, share channels, or consolidate this workspace or channels with other workspaces or channels, and these choices and instructions may result in the access, use, disclosure, modification or deletion of certain or all User Data.You may access, import, and export all your User Data, including private channels and direct messages through your account preferences panel. You may also request that your account is deleted, together with all the messages you have previously sent and your personal information, such as names and email addresses.
 
 **Legal Age**
 
@@ -60,6 +60,10 @@ You may not:
 * authorize, permit, enable, induce or encourage any third party to do any of the above.
 
 **API Fair Use** Many of our services work via API calls managed under a central infrastructure of us. You may not place excessive API calls or otherwise deliberately try to overburden this API system. We may throttle your use of the APIs in case we deem it necessary to facilitate an overall acceptable service level across our infrastructure \(e.g. such as in the case of continued, excessive API usage\). We may monitor use of the APIs for compliance with these rules, and we may deny you access to the API or shut down your Integration if you try to go around or break the policies we set. If your Order Form includes a defined API limit or minimum, then the Order Form controls.
+
+**Supported and running versions**
+
+To provide you the Services in a consistent and secure manner, we regularly update our Services and only support the Rocket.Chat versions, that are within their support period as stated in our [support policy.](https://docs.rocket.chat/getting-support) Specifically for our Cloud Hosting, we automatically upgrade Rocket.Chat servers to stay within the supported version range and do not provide versions, that are beyond their End of Life term.
 
 **Limitation of Liability**
 
