@@ -1,25 +1,6 @@
 # stream-notify-all
 
-General user-wide stream.
+Please find the document here: 
 
-Events available:
-
-* roles-change
-* updateEmojiCustom
-* deleteEmojiCustom
-* updateAvatar
-* public-settings-changed
-* permissions-changed
-
-```javascript
-{
-    "msg": "sub",
-    "id": "unique-id",
-    "name": "stream-notify-all",
-    "params":[
-        "event",
-        false
-    ]
-}
-```
+[https://developer.rocket.chat/api/realtime-api/subscriptions/stream-notify-all](https://developer.rocket.chat/api/realtime-api/subscriptions/stream-notify-all)
 

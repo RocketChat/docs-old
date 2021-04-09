@@ -1,8 +1,6 @@
 # IUser
 
-### Interface Definition
+Please find the document here: 
 
-```typescript
-
-```
+[https://developer.rocket.chat/api/schema-definition-v2/user](https://developer.rocket.chat/api/schema-definition-v2/user)
 

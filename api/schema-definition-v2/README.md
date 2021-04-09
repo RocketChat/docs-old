@@ -1,10 +1,6 @@
 # Schema Definition v2 \(Draft\)
 
-{% hint style="info" %}
-This is a work in progress
-{% endhint %}
+Please find the document here: 
 
-### Pull Requests related to the schema v2
-
-* [https://github.com/RocketChat/Rocket.Chat/pull/15711](https://github.com/RocketChat/Rocket.Chat/pull/15711)
+[https://developer.rocket.chat/api/schema-definition-v2](https://developer.rocket.chat/api/schema-definition-v2)
 

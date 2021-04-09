@@ -4,8 +4,7 @@ description: REST API Push Token Methods
 
 # Push Token
 
-| Url | Method | Short Description | Details Page |
-| :--- | :--- | :--- | :--- |
-| `/api/v1/push.token` | `POST` | Saves push token. | [Link](push-token.md) |
-| `/api/v1/push.token` | `DELETE` | Removes push token. | [Link](deletepushtoken.md) |
+Please find the document here: 
+
+[https://developer.rocket.chat/api/rest-api/methods/push](https://developer.rocket.chat/api/rest-api/methods/push)
 

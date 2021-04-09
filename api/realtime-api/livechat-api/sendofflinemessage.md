@@ -1,8 +1,6 @@
 # livechat:sendOfflineMessage
 
-## DDP message
+Please find the document here: 
 
-```javascript
-{"msg":"method","method":"livechat:sendOfflineMessage","params":[{"name":"Visitor Name","email":"visitor@rocket.chat","message":"Hello!"}],"id":"3"}"
-```
+[https://developer.rocket.chat/api/realtime-api/livechat-api/sendofflinemessage](https://developer.rocket.chat/api/realtime-api/livechat-api/sendofflinemessage)
 

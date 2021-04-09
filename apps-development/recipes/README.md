@@ -12,7 +12,3 @@ description: >-
 
 {% page-ref page="registering-api-endpoints.md" %}
 
-
-
-
-

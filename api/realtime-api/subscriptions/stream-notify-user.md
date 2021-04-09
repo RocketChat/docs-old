@@ -1,25 +1,6 @@
 # stream-notify-user
 
-This is the user stream.
+Please find the document here: 
 
-Events available:
-
-* message
-* otr \(Off the Record Message\)
-* webrtc
-* notification
-* rooms-changed
-* subscriptions-changed
-
-```javascript
-{
-    "msg": "sub",
-    "id": "unique-id",
-    "name": "stream-notify-user",
-    "params":[
-        "user-id/event",
-        false
-    ]
-}
-```
+[https://developer.rocket.chat/api/realtime-api/subscriptions/stream-notify-user](https://developer.rocket.chat/api/realtime-api/subscriptions/stream-notify-user)
 

@@ -6,12 +6,7 @@ description: >-
 
 # IRoom
 
-### Interface Definition
+Please find the document here: 
 
-```typescript
-export interface IRoom {
-	_id: string;
-	federation: IFederationInfo;
-}
-```
+[https://developer.rocket.chat/api/schema-definition-v2/room](https://developer.rocket.chat/api/schema-definition-v2/room)
 

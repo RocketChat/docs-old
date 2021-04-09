@@ -4,15 +4,7 @@ description: This is the interface definition for room event's data
 
 # IRoomEventDataRoom
 
-The definition is:
+Please find the document here: 
 
-```typescript
-export interface IEventDataRoom {
-	room: IRoom;
-}
-```
-
-| Property | What is it? |
-| :--- | :--- |
-| room | Holds an [IRoom](../../../room.md) interface, which is related to the legacy [Room](../../../../schema-definition/the-room-object.md) definition. |
+[https://developer.rocket.chat/api/schema-definition-v2/events/iroomevent/room-event-data-definition/i-room-event-data-room](https://developer.rocket.chat/api/schema-definition-v2/events/iroomevent/room-event-data-definition/i-room-event-data-room)
 

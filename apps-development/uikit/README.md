@@ -4,5 +4,3 @@
 
 {% page-ref page="slack-compatibility-layers-unsupported-properties.md" %}
 
-
-

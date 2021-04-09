@@ -4,11 +4,7 @@ description: All the possible context types
 
 # EventContext
 
-The event context holds all the possible context types, currently we only have the `room` context, and it is defined as an ENUM, as seem below.
+Please find the document here: 
 
-```typescript
-export enum EventContext {
-	ROOM = 'room',
-}
-```
+[https://developer.rocket.chat/api/schema-definition-v2/events/eventcontext](https://developer.rocket.chat/api/schema-definition-v2/events/eventcontext)
 

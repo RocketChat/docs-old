@@ -1,6 +1,6 @@
 # Custom Sounds
 
-| Url | Short Description | Details Page |
-| :--- | :--- | :--- |
-| `/api/v1/custom-sounds.list` | Retrieves a list of custom sounds. | [Link](list.md) |
+Please find the document here: 
+
+[https://developer.rocket.chat/api/rest-api/methods/custom-sounds](https://developer.rocket.chat/api/rest-api/methods/custom-sounds)
 

@@ -6,5 +6,7 @@ description: >-
 
 # RoomEventDataDefinition
 
-Check this item's child sections to learn more about all the possible payloads.
+Please find the document here: 
+
+[https://developer.rocket.chat/api/schema-definition-v2/events/iroomevent/room-event-data-definition](https://developer.rocket.chat/api/schema-definition-v2/events/iroomevent/room-event-data-definition)
 

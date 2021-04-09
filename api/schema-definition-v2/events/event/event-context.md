@@ -7,15 +7,7 @@ description: >-
 
 # EventContext
 
-The context is important to be able to differently handle any number of types of events, even determine which ones need to be federated, for example.
+Please find the document here: 
 
-The EventContext is an enum, ready to accept more context types, as seen here:
-
-```typescript
-export enum EventContext {
-	ROOM = 'room',
-}
-```
-
-
+[https://developer.rocket.chat/api/schema-definition-v2/events/event/event-context](https://developer.rocket.chat/api/schema-definition-v2/events/event/event-context)
 
