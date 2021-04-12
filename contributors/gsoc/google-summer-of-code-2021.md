@@ -20,7 +20,7 @@ Please see the  [Official GSoC 2021 schedule ](https://developers.google.com/ope
 
 For project ideas, check out our growing [list of ideas ](google-summer-of-code-2021.md#project-ideas)for some inspiration.
 
- Meet our global **community of 425+ mentors and students** for GSoC 2021 and get some real-time help on the next steps. Please visit our 24 x 7 community server channel:
+ Meet our global **community of 470+ mentors and students** for GSoC 2021 and get some real-time help on the next steps. Please visit our 24 x 7 community server channel:
 
 [https://open.rocket.chat/channel/gsoc2021](https://open.rocket.chat/channel/gsoc2021)
 
