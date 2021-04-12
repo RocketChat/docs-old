@@ -225,6 +225,8 @@
     * [Tags](guides/omnichannel-guides/omnichannel-manger-guides/tags.md)
     * [Priorities](guides/omnichannel-guides/omnichannel-manger-guides/priority-queue.md)
   * [Omnichannel Agent's Guides](guides/omnichannel-guides/omnichannel-agents-guides/README.md)
+    * [Omnichannel Chat](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/README.md)
+      * [Omnichannel Chat Quick Actions](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/omnichannel-chat-quick-actions.md)
     * [Omnichannel Contact Center](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-contact-center.md)
     * [Omnichannel Queue](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chats.md)
     * [Email Inbox \(Email as a Channel\)](guides/omnichannel-guides/omnichannel-agents-guides/email-inbox-email-as-a-channel.md)
