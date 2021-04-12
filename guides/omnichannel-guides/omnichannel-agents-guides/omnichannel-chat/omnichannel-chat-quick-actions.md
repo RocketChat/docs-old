@@ -4,7 +4,7 @@ There are some quick actions you can perform in the chat, as shown below:
 
 ![](../../../../.gitbook/assets/image%20%28303%29.png)
 
-Please find their details below:
+Please find their details below.
 
 ## Add a Chat to Favorites
 
