@@ -38,7 +38,7 @@ If you want to forward a chat to the queue of any other department for any agent
 
 ### Forward to an Agent
 
-If you want to forward a chat to a particular agent to serve you can use the **Forward Chat** option and mention the user, as shown below:
+If you want to forward a chat to a particular agent \(from any department\) to serve you can use the **Forward Chat** option and mention the user, as shown below:
 
 ![](../../../../.gitbook/assets/image%20%28312%29.png)
 
