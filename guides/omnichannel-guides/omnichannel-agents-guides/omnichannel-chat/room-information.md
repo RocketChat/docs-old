@@ -4,7 +4,7 @@ The room information menu allows you to see different stats related to the conve
 
 To access the information click **Room Information**, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28319%29.png)
+![](../../../../.gitbook/assets/image%20%28320%29.png)
 
 Click Edit to add some further information:
 
