@@ -230,6 +230,7 @@
       * [Room Information](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/room-information.md)
       * [Canned Responses in Omnichannel Conversation](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/canned-responses-in-omnichannel-conversation.md)
       * [Search Messages in Omnichannel Conversation](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/search-messages-in-omnichannel-conversation.md)
+      * [Omnichannel Contact Information](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/omnichannel-contact-information.md)
     * [Omnichannel Contact Center](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-contact-center.md)
     * [Omnichannel Queue](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chats.md)
     * [Email Inbox \(Email as a Channel\)](guides/omnichannel-guides/omnichannel-agents-guides/email-inbox-email-as-a-channel.md)
