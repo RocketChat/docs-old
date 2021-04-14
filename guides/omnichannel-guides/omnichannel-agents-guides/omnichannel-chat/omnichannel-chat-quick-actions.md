@@ -44,7 +44,7 @@ If you want to forward a chat to a particular agent \(from any department\) to s
 
 ## Transcript
 
-You can forward the transcript of the chat to the omnichannel visitor the conversation belongs to, as shown below:
+The chat transcript will be sent to the omnichannel visitor as soon as the conversation ends, as shown below:
 
 ![](../../../../.gitbook/assets/image%20%28310%29.png)
 
