@@ -4,8 +4,6 @@
 
 Setting up your first team is easy and both community and enterprise clients can access the feature. Follow the steps below to create your very first team:
 
-
-
 * Click in Create New - Team
 
 ![](../../../.gitbook/assets/image%20%28337%29.png)
