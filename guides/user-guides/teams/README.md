@@ -13,5 +13,3 @@ Each team can have its own channels, which can be public or private. Teams allow
 Please visit our blog post to know all the details about [Teams](https://rocket.chat/blog/product/teams/)
 {% endhint %}
 
-\*\*\*\*
-
