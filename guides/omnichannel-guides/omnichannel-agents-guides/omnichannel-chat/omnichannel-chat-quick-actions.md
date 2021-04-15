@@ -2,7 +2,7 @@
 
 There are some quick actions you can perform in the chat, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28329%29.png)
+![](../../../../.gitbook/assets/image%20%28335%29.png)
 
 Please find their details below.
 
@@ -50,24 +50,24 @@ The chat transcript will be sent to the omnichannel visitor as soon as the conve
 
 ![](../../../../.gitbook/assets/image%20%28311%29.png)
 
-## Place Chat On-Hold
+## Place Chat On-Hold  ![](../../../../.gitbook/assets/image%20%28326%29.png) 
 
-When you are assisting chats, Omnichannel visitors can drop the conversation, but the chat will remain in your agent queue until it is closed. If this happens, you may have your service capacity compromised because you won't be able to pick up new conversations due to the limit of simultaneous chats per agent. To overcome this problem, you can place the chat on hold, as shown below: 
-
-![](../../../../.gitbook/assets/image%20%28315%29.png)
-
-![](../../../../.gitbook/assets/image%20%28316%29.png)
-
-![](../../../../.gitbook/assets/image%20%28328%29.png)
-
-If the omnichannel contact engages again, the routing algorithm will try to find you first to assign this conversation. \(In case you are busy serving other chats at maximum capacity, the chat will be assigned to the next available agent. 
-
-Or click Resume engage with the same contact again at any time, as shown below:
+When you are assisting chats, Omnichannel contacts can drop the conversation, but the chat will remain in your queue until it is closed. If this happens, you may have your service capacity compromised because you won't be able to pick up new conversations due to the limit of simultaneous chats per agent. To overcome this problem, you can place the chat on hold, as shown below: 
 
 ![](../../../../.gitbook/assets/image%20%28323%29.png)
 
+![](../../../../.gitbook/assets/image%20%28324%29.png)
+
+![](../../../../.gitbook/assets/image%20%28332%29.png)
+
+If the omnichannel contact engages again, the routing algorithm will try to find you first to assign this conversation. In case you are busy serving other chats at maximum capacity, the chat will be assigned to the next available agent. 
+
+Or click Resume engage with the same contact again at any time, as shown below:
+
+![](../../../../.gitbook/assets/image%20%28328%29.png)
+
 {% hint style="info" %}
-You can place the chat on-hold manually only when the last message was sent by you to the visitor.  
+You can place the chat on-hold manually only when the last message was sent by you to the contact.  
 {% endhint %}
 
 ## Close a Chat

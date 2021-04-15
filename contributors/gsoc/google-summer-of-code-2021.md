@@ -2,19 +2,29 @@
 
 [![Google Summer of Code 2020](https://github.com/Sing-Li/bbug/raw/master/images/gsoclogo.jpg)](https://summerofcode.withgoogle.com/)
 
+## 
+
+### Update April 15th 2021
+
+We are having a phenomenal Google Summer of Code season this year, participation and activities from student has been at an all-time-high.    The quality of student applicants have also seen a drastic improvement over prior years.    
+  
+On our [24 x 7 GSoC 2021 channel ](https://open.rocket.chat/channel/gsoc2021)- we have over **473 mentors, alumni and students** collaborating actively on GSoC projects.     On our[ GSoC leaderboard](https://gsoc.rocket.chat), we are tracking **221 students** actively contributing code to the Rocket.Chat open source ecosystem.     As of today, we have welcomed 17 new code committers to our projects.   A total of   **138  merged PRs**,   **179 open PRs,** and **315 issues** have been raised by GSoC 2021 students so far.  
+  
+To rally student spirit and assist them in creating their proposal, we organized a [Alumni Re-union Summit](https://community.rocket.chat/events/gsoc2021.html) where we invited former Rocket.Chat GSoC Alumni from all previous years to share tips.   **40 students** attended throughout the day to enjoy the talks from **12 alumni and mentors**.  Highlight talks included one from a Facebook engineer and a Brazilian open source movement champion.      
+  
+As of student application deadline on April 13th,   Rocket.Chat has received a total of **98 proposals** from interested students.   Mentors are now busy reviewing the proposals and continuing to keep the students engaged on contributing to the  Rocket.Chat open source ecosystem.
+
 ## How to apply
 
-Rocket.Chat is delighted to participate as a mentoring organization for the 2021 Google Summer of Code \(GSoC\) program.
+Application for GSoC 2021 is now closed.
 
-Student application for GSoC 2021 is now open!    Deadline for proposal submission is  **April 13 , 2021**
+Accepted student projects will be announced on **May 17th , 2021**
 
-Students are encouraged to submit draft proposals for mentor reviews and comments. 
-
-All students interested in joining Rocket.Chat for the GSoC 2021 program should visit our 24 x 7 GSoC 2021 community channel:
+Please see the  [Official GSoC 2021 schedule ](https://developers.google.com/open-source/gsoc/timeline)for more timeline details.  
+  
+Students continue to interact with mentors actively on our  24 x 7 GSoC 2021 community channel:
 
 [https://open.rocket.chat/channel/gsoc2021](https://open.rocket.chat/channel/gsoc2021)
-
-Please see the  [Official GSoC 2021 schedule ](https://developers.google.com/open-source/gsoc/timeline)for more timeline details.
 
 ## About GSoC 2021
 

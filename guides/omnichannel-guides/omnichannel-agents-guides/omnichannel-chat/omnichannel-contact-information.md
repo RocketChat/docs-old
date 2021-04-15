@@ -2,13 +2,15 @@
 
 Click **Contact Information** to view the contact details, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28326%29.png)
+![](../../../../.gitbook/assets/image%20%28329%29.png)
 
-![](../../../../.gitbook/assets/image%20%28320%29.png)
+![](../../../../.gitbook/assets/image%20%28327%29.png)
 
 ## Edit contact information
 
-Click Edit contact:
+Click Edit contact to add any contact details you want, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28318%29.png)
+![](../../../../.gitbook/assets/image%20%28325%29.png)
+
+![](../../../../.gitbook/assets/image%20%28322%29.png)
 

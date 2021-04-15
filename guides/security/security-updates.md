@@ -15,6 +15,30 @@ Please make sure to follow new version updates by subscribing to our newsletters
 **Issues**
 
 {% hint style="danger" %}
+**0026 - Critical Severity issue** fixed at **2021-04-14.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.13.2, 3.12.4, 3.11.4**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 3v299a\)
+{% endhint %}
+
+{% hint style="danger" %}
+**0025 - Critical Severity issue** fixed at **2021-04-14.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.13.2, 3.12.4, 3.11.4**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 3v29b6\)
+{% endhint %}
+
+{% hint style="danger" %}
+**0024 - Critical Severity issue** fixed at **2021-04-14.**
+
+Rocket.Chat Live.Chat - affects **all,** fixed on **3.13.2, 3.12.4, 3.11.4**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy. Variation of 0023. \(reference:_ 3h5cty\)
+{% endhint %}
+
+{% hint style="danger" %}
 **0023 - High Severity issue** fixed at **2021-03-26.**
 
 Rocket.Chat Live.Chat - affects **all,** fixed on **3.13, 3.12.2, 3.11.3**
@@ -27,7 +51,7 @@ _Details about this security fix will be provided later as per our responsible d
 
 Rocket.Chat Server - affects **all,** fixed on **3.13, 3.12.2, 3.11.3**
 
-_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 98bfae\)
+_\(**Self-XSS\)** An issue with SVG files not being sanitized allowed for potential self XSS. \(reference:_ 98bfae\)
 {% endhint %}
 
 {% hint style="info" %}
@@ -35,7 +59,7 @@ _Details about this security fix will be provided later as per our responsible d
 
 Rocket.Chat Server - affects **all,** fixed on **3.13, 3.12.2, 3.11.3**
 
-_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 6tr8gn\)
+_\(**Email enumeration\)** An issue with an API method allowed for potential email enumeration. \(reference:_ 6tr8gn\)
 {% endhint %}
 
 {% hint style="warning" %}
@@ -43,7 +67,7 @@ _Details about this security fix will be provided later as per our responsible d
 
 Rocket.Chat Server - affects **all,** fixed on **3.13, 3.12.2, 3.11.3**
 
-D_etails about this security fix will be provided later as per our responsible disclosure policy.  \(reference:_ 2q6wxz\)
+_\(**ReDOS\)** An issue with certain regular expressions could lead potentially to Denial of Service. \(reference:_ 2q6wxz\)
 {% endhint %}
 
 {% hint style="warning" %}
