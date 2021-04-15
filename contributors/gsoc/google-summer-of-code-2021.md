@@ -6,7 +6,7 @@
 
 ### Update April 15th 2021
 
-We are having a phenomenal Google Summer of Code season this year, participation and activities from student has been at an all-time-high.    The quality of student applicants have also seen a drastic improvement over prior years.    
+We are having a phenomenal Google Summer of Code season this year, participation from student is at an all-time-high.    The enthusiasm and aptitude of student applicants have also improved over prior years.    
   
 On our [24 x 7 GSoC 2021 channel ](https://open.rocket.chat/channel/gsoc2021)- we have over **473 mentors, alumni and students** collaborating actively on GSoC projects.     On our[ GSoC leaderboard](https://gsoc.rocket.chat), we are tracking **221 students** actively contributing code to the Rocket.Chat open source ecosystem.     As of today, we have welcomed 17 new code committers to our projects.   A total of   **138  merged PRs**,   **179 open PRs,** and **315 issues** have been raised by GSoC 2021 students so far.  
   
