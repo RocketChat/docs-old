@@ -8,7 +8,7 @@
 
 We are having a phenomenal Google Summer of Code season this year, participation from student is at an all-time-high.    The enthusiasm and aptitude of student applicants have also improved over prior years.    
   
-In our [24 x 7 GSoC 2021 channel ](https://open.rocket.chat/channel/gsoc2021)- we have over **473 mentors, alumni and students** collaborating actively on GSoC projects.     On our[ GSoC leaderboard](https://gsoc.rocket.chat), we are tracking **221 students** actively contributing code to the Rocket.Chat open source ecosystem.     As of today, we have welcomed **17 new code committers** to our projects. With a total of **138  merged PRs**, **179 open PRs,** and **315 issues** raised by GSoC 2021 students so far.  
+In our [24 x 7 GSoC 2021 channel ](https://open.rocket.chat/channel/gsoc2021)- we have over **473 mentors, alumni and students** collaborating actively on GSoC projects.     On our[ GSoC leaderboard](https://gsoc.rocket.chat), we are tracking **221 students** actively contributing code to the Rocket.Chat open source ecosystem.     As of today, we have welcomed **17 new code committers** to our projects. With a total of **138  merged PRs**, **182 open PRs,** and **246 issues** raised by GSoC 2021 students so far.  
   
 To rally student spirit and assist them in creating their proposal, we organized an [Alumni Re-union Summit](https://community.rocket.chat/events/gsoc2021.html) where we invited former Rocket.Chat GSoC Alumni from all previous years to share tips with this year's GSoC students. More than **20 students** attended throughout the day to enjoy the talks from **10 alumni and mentors**.  Highlight talks included one from a Facebook engineer and a Brazilian open source movement champion.      
   
