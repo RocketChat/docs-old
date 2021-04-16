@@ -82,6 +82,18 @@ sudo journalctl -f -u snap.rocketchat-server.rocketchat-mongo
 sudo journalctl -f -u snap.rocketchat-server.rocketchat-caddy
 ```
 
+### How do I schedule updates?
+
+If you don't want snaps just updating when available you can set when your snaps will update.
+
+The following example asks the system to only update snaps between 4.00am and 7.00am, and 7.00pm and 10:10pm:
+
+```text
+sudo snap set system refresh.timer=4:00-7:00,19:00-22:10
+```
+
+You can find more about your options in the [snapcraft documentation](https://snapcraft.io/docs/keeping-snaps-up-to-date#heading--controlling-updates).
+
 ### I need to restart Rocket.Chat, how do I do this?
 
 To restart Rocket.Chat:
