@@ -1,8 +1,8 @@
 ---
-description: Here you can find all the docs about Rocket.Chat server and client.
+description: Here you can find all the documentation about Rocket.Chat server and client.
 ---
 
-# Welcome to Rocket.Chat Documentation
+# Rocket.Chat Documentation
 
 Our developer guides and APIs have a home of their own now. Please find them [here](https://developer.rocket.chat/). 
 
