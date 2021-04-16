@@ -1,5 +1,7 @@
 ---
-description: Here you can find all the documentation about Rocket.Chat server and client.
+description: >-
+  Welcome! Here you can find all the documentation about Rocket.Chat server and
+  client.
 ---
 
 # Rocket.Chat Documentation
