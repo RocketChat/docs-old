@@ -14,7 +14,7 @@ Projects can cover a wide range of fields including Cloud computing, operating s
 
 #### Update April 16, 2021 
 
-Rocket.Chat has applied, but has not been selected for the 2021 Google Season fo Docs program.   We intend to try again in 2022, and like to thank Google for the kind consideration this year.
+Rocket.Chat has applied, but has not been selected for the 2021 Google Season of Docs program.   We intend to try again in 2022, and like to thank Google for the kind consideration this year.
 
 ### Project Proposal
 
