@@ -8,3 +8,7 @@ The Enterprise edition should bring all functionalities available in Community E
 * Mention teams
 * AD / LDAP Sync
 
+{% hint style="info" %}
+To be released in 3.14
+{% endhint %}
+
