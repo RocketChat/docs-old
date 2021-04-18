@@ -10,6 +10,22 @@
 * Add all team members to a channel
 * It’s possible to add users outside the team to the team’s channels
 
+To access channels within a team:
+
+* Click channel sign, as shown below:
+
+![](../../../../.gitbook/assets/image%20%28353%29.png)
+
+## To add an existing channel to a team
+
+* Click **Add Existing**
+
+![](../../../../.gitbook/assets/image%20%28341%29.png)
+
+
+
+
+
 {% hint style="info" %}
 It’s still possible for channels to exist that don’t belong to any team
 {% endhint %}

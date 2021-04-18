@@ -2,7 +2,7 @@
 
 Click **Team Information** to view and edit team information, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28341%29.png)
+![](../../../../.gitbook/assets/image%20%28342%29.png)
 
 * Click **Edit** to edit the following information
 
@@ -12,7 +12,7 @@ Click **Team Information** to view and edit team information, as shown below:
 * Teams can be public or private
 * Hit **Save**. 
 
-![](../../../../.gitbook/assets/image%20%28348%29.png)
+![](../../../../.gitbook/assets/image%20%28349%29.png)
 
 ## 
 

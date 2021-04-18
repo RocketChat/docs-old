@@ -2,5 +2,5 @@
 
 To **Hide** or **Leave** a team:
 
-![](../../../../.gitbook/assets/image%20%28350%29.png)
+![](../../../../.gitbook/assets/image%20%28351%29.png)
 
