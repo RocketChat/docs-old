@@ -13,11 +13,11 @@ Each team can have its own channels, which can be public or private. Teams allow
 
 * Following is the team's symbol
 
-![](../../../.gitbook/assets/image%20%28351%29.png)
+![](../../../.gitbook/assets/image%20%28354%29.png)
 
 * The homepage of a team is the main team’s channel, as shown below:
 
-![](../../../.gitbook/assets/image%20%28353%29.png)
+![](../../../.gitbook/assets/image%20%28356%29.png)
 
 {% hint style="info" %}
 Please visit our blog post to know all the details about [Teams](https://rocket.chat/blog/product/teams/)
