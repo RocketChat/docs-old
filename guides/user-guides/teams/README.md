@@ -15,7 +15,7 @@ Please visit our blog post to know all the details about [Teams](https://rocket.
 
 {% page-ref page="create-a-new-team/" %}
 
-{% page-ref page="create-a-new-team/teams-community-edition/" %}
+{% page-ref page="create-a-new-team/teams-community-edition.md" %}
 
 {% page-ref page="create-a-new-team/teams-enterprise-edition.md" %}
 

@@ -2,7 +2,7 @@
 
 ### **Steps to create your team in Rocket.Chat**
 
-Setting up your first team is easy and both community and enterprise clients can access the feature. Follow the steps below to create your very first team:
+Setting up your first team is easy, and both community and enterprise clients can access the feature. Follow the steps below to create your very first team:
 
 * Click in Create New - Team
 
@@ -15,4 +15,20 @@ Setting up your first team is easy and both community and enterprise clients can
 Your new Team is created, as shown below:
 
 ![](../../../../.gitbook/assets/image%20%28339%29.png)
+
+
+
+* Following is the team's symbol
+
+![](../../../../.gitbook/assets/image%20%28344%29.png)
+
+* The homepage of a team is the main team’s channel, as shown below:
+
+![](../../../../.gitbook/assets/image%20%28346%29.png)
+
+* You can mark a team favorite using the star
+
+![](../../../../.gitbook/assets/image%20%28342%29.png)
+
+## 
 
