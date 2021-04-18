@@ -16,16 +16,6 @@ Your new Team is created, as shown below:
 
 ![](../../../../.gitbook/assets/image%20%28339%29.png)
 
-
-
-* Following is the team's symbol
-
-![](../../../../.gitbook/assets/image%20%28344%29.png)
-
-* The homepage of a team is the main team’s channel, as shown below:
-
-![](../../../../.gitbook/assets/image%20%28346%29.png)
-
 * You can mark a team favorite using the star
 
 ![](../../../../.gitbook/assets/image%20%28342%29.png)
