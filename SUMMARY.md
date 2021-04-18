@@ -86,6 +86,8 @@
       * [Delete a Team](guides/user-guides/teams/create-a-new-team/delete-a-team.md)
       * [Hide or Leave a Team](guides/user-guides/teams/create-a-new-team/hide-or-leave-a-team.md)
       * [Teams Channels](guides/user-guides/teams/create-a-new-team/teams-community-edition.md)
+      * [Members](guides/user-guides/teams/create-a-new-team/members.md)
+      * [Team Administration](guides/user-guides/teams/create-a-new-team/team-administration.md)
       * [Teams Enterprise Edition](guides/user-guides/teams/create-a-new-team/teams-enterprise-edition.md)
   * [Channels](guides/user-guides/channels/README.md)
     * [Channel Actions](guides/user-guides/channels/channel-actions.md)

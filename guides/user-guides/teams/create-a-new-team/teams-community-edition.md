@@ -14,27 +14,5 @@
 It’s still possible for channels to exist that don’t belong to any team
 {% endhint %}
 
-Members
 
-* All regular users must be able to be part of multiple teams
-* It must be possible to view/add/remove team members
-* Team members must have roles \(owner, leader, moderator, member\)
-
-Administration / other sections
-
-* Add column teams in rooms page
-* Add column “Belongs to” in Channel tab in the Directory
-* Add checkbox teams in Administration &gt; Rooms page
-
-Other relevant
-
-* It will be necessary keeping track of how users join channels and teams
-* Team's name is required to be unique among teams and users; and  teams and channels; teams and teams;
-* It will be necessary to test how teams will work with federation
-* Measuring feature engagement through statistics collector
-
-Permissions
-
-* Create new teams
-* Permissions at team level
 
