@@ -1,4 +1,4 @@
-# Team's Channel-Auto-Join
+# Team's Channel Actions
 
 To access your team's channel actions:
 
@@ -24,6 +24,10 @@ To remove a channel from the team:
 
 {% hint style="info" %}
 Please note that after a channel is removed from the team, it is moved to the workspace.
+{% endhint %}
+
+{% hint style="info" %}
+If the _channel was a public channel_ inside a private team, then after removal from the team the _channel will be public_ in the workspace
 {% endhint %}
 
 ## Delete a channel
