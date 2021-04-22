@@ -51,7 +51,11 @@ Enable this setting to automatically remove roles from LDAP users that don't hav
 
 ### User Group Filter
 
-The LDAP search filter used to check if a user is in a group.
+The LDAP search filter is used to check if a user is in a group. If the search returns any results the user is considered to be in the group. When performing the search, the following strings, if present in the filter, will be substituted with data from the user and group whose membership status is being checked:
+
+* `#{username}` - Replaced with the username of the user in RocketChat
+* `#{groupName}` - Replaced with the name of the group in LDAP
+* `#{userdn}` - Replaced with the LDAP Distinguished Name of the user
 
 ### LDAP Group BaseDN
 
