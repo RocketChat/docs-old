@@ -8,7 +8,7 @@ Setting up your first team is easy, and both community and enterprise clients ca
 
 ![](../../../../.gitbook/assets/image%20%28337%29.png)
 
-* Define privacy and encryption options for your team. Include all members who should join the team. Click in **Create**
+* Define privacy and encryption options for your team. Include all members who should join the team. Click **Create**
 
 ![](../../../../.gitbook/assets/image%20%28338%29.png)
 
