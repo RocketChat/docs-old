@@ -14,7 +14,7 @@ We are porting all of our Meteor's front end implementation to ReactJS. To provi
 
 ## Folder Structure
 
-**app** folder contains all the major code for the Rocket.Chat, be it 3rd party integrations, features like custom Oauth and Omnichannel, BBB or Jitsi integration etc. This folder also contains all the models for MondoDB, the backend structure and core functions to update the database along with all the API endpoints (inside **api** folder).
+**app** folder contains all the major code for the Rocket.Chat, be it 3rd party integrations, features like custom Oauth and Omnichannel, BBB or Jitsi integration etc. This folder also contains all the models for MongoDB, the backend structure and core functions to update the database along with all the API endpoints (inside **api** folder).
 
 **Client** folder contains code (which can run only on browsers) for frontend implementation using React. It has well named sub folders, through which one can easily identify what front end code is in which folder, for example - sidebar folder has all front-end implementation for sidebar, views/admin and view/omnichannel have front end implementations for the same.
 
