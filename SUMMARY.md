@@ -90,7 +90,6 @@
         * [Create New Channel for a Team](guides/user-guides/teams/create-a-new-team/teams-community-edition/create-new-channel-for-a-team.md)
         * [Team's Channel-Auto-Join](guides/user-guides/teams/create-a-new-team/teams-community-edition/teams-channel-auto-join.md)
       * [Members](guides/user-guides/teams/create-a-new-team/members.md)
-      * [Team Administration](guides/user-guides/teams/create-a-new-team/team-administration.md)
       * [Teams Enterprise Edition](guides/user-guides/teams/create-a-new-team/teams-enterprise-edition.md)
   * [Channels](guides/user-guides/channels/README.md)
     * [Channel Actions](guides/user-guides/channels/channel-actions.md)
