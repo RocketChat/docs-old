@@ -81,7 +81,7 @@
   * [User Panel](guides/user-guides/user-panel/README.md)
     * [My Account](guides/user-guides/user-panel/managing-your-account.md)
   * [Teams](guides/user-guides/teams/README.md)
-    * [Create new Team](guides/user-guides/teams/create-a-new-team/README.md)
+    * [Create a new Team](guides/user-guides/teams/create-a-new-team/README.md)
       * [Team Information \(view and edit\)](guides/user-guides/teams/create-a-new-team/team-information-view-and-edit.md)
       * [Delete a Team](guides/user-guides/teams/create-a-new-team/delete-a-team.md)
       * [Hide or Leave a Team](guides/user-guides/teams/create-a-new-team/hide-or-leave-a-team.md)
