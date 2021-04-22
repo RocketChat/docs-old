@@ -133,6 +133,7 @@ Edit `/etc/apache2/sites-enabled/rocketchat.conf` and be sure to use your actual
     </Location>
 
     RewriteEngine On
+    RewriteCond %{HTTP:CONNECTION} Upgrade [NC]
     RewriteCond %{HTTP:Upgrade} =websocket [NC]
     RewriteRule /(.*)           ws://localhost:3000/$1 [P,L]
     RewriteCond %{HTTP:Upgrade} !=websocket [NC]
