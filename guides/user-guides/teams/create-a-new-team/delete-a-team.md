@@ -6,5 +6,3 @@ To delete a team go to Team Information and hit **Delete**
 
 ![](../../../../.gitbook/assets/image%20%28353%29.png)
 
-## 
-

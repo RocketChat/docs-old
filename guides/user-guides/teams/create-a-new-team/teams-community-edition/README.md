@@ -20,5 +20,3 @@ To access channels within a team:
 It’s still possible for channels to exist that don’t belong to any team
 {% endhint %}
 
-
-

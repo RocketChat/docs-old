@@ -16,7 +16,7 @@ You can mark a channel **Auto-join** for members to join them automatically, onc
 
 ## Remove from Team
 
-To remove a channel from the team: 
+To remove a channel from the team:
 
 ![](../../../../../.gitbook/assets/image%20%28359%29.png)
 
@@ -30,7 +30,7 @@ Please note that after a channel is removed from the team, it is moved to the wo
 
 To delete a team's channel:
 
-![](../../../../../.gitbook/assets/image%20%28343%29.png)
+![](../../../../../.gitbook/assets/image%20%28344%29%20%282%29.png)
 
 ![](../../../../../.gitbook/assets/image%20%28346%29.png)
 

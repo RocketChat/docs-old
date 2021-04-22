@@ -26,8 +26,6 @@ Copy the link and share it
 
 To add the users manually:
 
-
-
 ![](../../../../.gitbook/assets/image%20%28361%29.png)
 
 ![](../../../../.gitbook/assets/image%20%28350%29.png)
@@ -35,6 +33,4 @@ To add the users manually:
 ![](../../../../.gitbook/assets/image%20%28351%29.png)
 
 ![](../../../../.gitbook/assets/image%20%28366%29.png)
-
-
 

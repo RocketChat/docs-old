@@ -14,5 +14,3 @@ Click **Team Information** to view and edit team information, as shown below:
 
 ![](../../../../.gitbook/assets/image%20%28362%29.png)
 
-## 
-
