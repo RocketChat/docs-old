@@ -21,9 +21,9 @@ Each team can have its own channels, which can be public or private. Teams allow
 Please visit our blog post to know all the details about [Teams](https://rocket.chat/blog/product/teams/)
 {% endhint %}
 
-{% page-ref page="create-a-new-team/" %}
+{% page-ref page="create-a-new-team.md" %}
 
-{% page-ref page="create-a-new-team/teams-community-edition/" %}
+{% page-ref page="teams-community-edition/" %}
 
-{% page-ref page="create-a-new-team/teams-enterprise-edition.md" %}
+{% page-ref page="teams-enterprise-edition.md" %}
 
