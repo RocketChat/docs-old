@@ -89,7 +89,7 @@ The various settings that fall under this have simple descriptions for understan
 * **Manually Approve New Users**: If this is set to true, new users will have to wait for a user with the `view-user-administration` permission to approve their account before using Rocket.Chat.
 * **Allowed Domains List**:  This will block emails with different domains than the ones on this list.
 * **Blocked Domains List**:  This will block emails with domains that are on this list.
-* **Use Default Blocked Domains List**: Will block the email domains listed on this [file](https://github.com/RocketChat/Rocket.Chat/blob/develop/packages/rocketchat-lib/server/lib/defaultBlockedDomainsList.js)
+* **Use Default Blocked Domains List**: Will block the email domains listed on [here](https://github.com/RocketChat/Rocket.Chat/blob/develop/app/lib/server/lib/defaultBlockedDomainsList.js) 
 * **Use DNS Domain Check**: When this is set to true, users won't be able to register with invalid domains.
 * **Registration Form**: This will change how the registration form is presented. Currently, there are 3 options:
   * Public: The form will be public and anyone will be able to access;
