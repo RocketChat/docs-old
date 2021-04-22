@@ -10,6 +10,10 @@
 * Add all team members to a channel
 * It’s possible to add users outside the team to the team’s channels
 
+{% hint style="info" %}
+A team can have a maximum of 100 channels
+{% endhint %}
+
 To access channels within a team:
 
 * Click channel sign, as shown below:
