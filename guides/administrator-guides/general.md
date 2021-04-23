@@ -129,7 +129,7 @@ Max number of members in room when notifications for all messages gets disabled.
 
 ### Allow Getting Everything
 
-This setting affects the `count` query parameter. See more at [Offset and Count Information](https://rocket.chat/docs/developer-guides/rest-api/offset-and-count-and-sort-info/#offset-and-count-information).
+This setting affects the `count` query parameter. See more at [Offset and Count Information](https://developer.rocket.chat/api/rest-api/offset-and-count-and-sort-info)
 
 * **Yes**: Allows the usage of the number `0` as `count` parameter. Setting `count` to `0` will return **ALL** the data from that endpoint.
 * **No**: Setting the number `0` on `count`, will return `0` results.
@@ -158,7 +158,7 @@ This enables the `/api/v1/im.history.others` which allows the viewing of direct 
 
 ### Enable Shields
 
-Enables the usage of [Shields](https://rocket.chat/docs/developer-guides/rest-api/miscellaneous/shield-svg/#shield-svg) via API.
+Enables the usage of [Shields](https://developer.rocket.chat/api/rest-api/methods/miscellaneous/shield-svg) via API
 
 > Enabled shields are available at `/api/v1/shield.svg`
 

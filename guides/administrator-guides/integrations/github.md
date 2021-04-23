@@ -7,16 +7,16 @@ We can do 2 types of integrations with GitHub:
 
 ## Receive alerts
 
-1. Create a new **Incoming WebHook**
+1. Create a new **Incoming WebHook**.
 2. Select the channel where you will receive the alerts. You may wish to create a dedicated channel for your notifications.
 3. Select an account from which the alerts will be posted. You may wish to create a dedicated account just for notifications.
 4. Set the "Enable Scripts" option to `True`.
 5. Copy-paste one of the example scripts below.
 6. Save the integration. This will generate a webhook URL and secret for you.
-7. Go to your repository `Settings -> WebHooks & services -> Add WebHook`
-8. Paste your **WebHook URL** from Rocket.Chat into **Payload URL**
-9. Keep **Content type** as `application/json`
-10. Leave **Secret** empty and save
+7. Go to your repository `Settings -> WebHooks & services -> Add WebHook`.
+8. Paste your **WebHook URL** from Rocket.Chat into **Payload URL**.
+9. Keep **Content type** as `application/json`.
+10. Leave **Secret** empty and save.
 
 ### Example script 1:
 
