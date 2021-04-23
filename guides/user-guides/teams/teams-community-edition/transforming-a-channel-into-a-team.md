@@ -8,9 +8,15 @@ The channel owner is able to transform an existing channel in a team at any time
 
 To transform a channel into a team:
 
+![](../../../../.gitbook/assets/image%20%28379%29.png)
+
 ![](../../../../.gitbook/assets/image%20%28378%29.png)
 
+The channel is successfully converted into a team:
 
+![](../../../../.gitbook/assets/image%20%28383%29.png)
 
-
+{% hint style="info" %}
+Note that a private channel converts to a private team and a public channel converts to a public team. 
+{% endhint %}
 

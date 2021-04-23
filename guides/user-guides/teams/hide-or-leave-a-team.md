@@ -8,7 +8,7 @@ To **Hide** or **Leave** a team:
 
 To hide a team:
 
-![](../../../.gitbook/assets/image%20%28382%29.png)
+![](../../../.gitbook/assets/image%20%28384%29.png)
 
 ![](../../../.gitbook/assets/image%20%28340%29.png)
 
@@ -26,7 +26,7 @@ To leave a team:
 
  
 
-![](../../../.gitbook/assets/image%20%28380%29.png)
+![](../../../.gitbook/assets/image%20%28381%29.png)
 
 When leaving a team, you have the option to decide if you want to continue in teams channels or not, as shown below:
 
