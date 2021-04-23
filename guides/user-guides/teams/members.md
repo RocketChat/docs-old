@@ -26,9 +26,9 @@ Copy the link and share it
 
 To add the users manually:
 
-![](../../../.gitbook/assets/image%20%28340%29.png)
-
-![](../../../.gitbook/assets/image%20%28355%29.png)
-
 ![](../../../.gitbook/assets/image%20%28377%29.png)
+
+![](../../../.gitbook/assets/image%20%28379%29.png)
+
+![](../../../.gitbook/assets/image%20%28381%29.png)
 

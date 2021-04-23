@@ -89,6 +89,7 @@
       * [Add an existing channel to a team](guides/user-guides/teams/teams-community-edition/add-an-existing-channel-to-a-team.md)
       * [Create New Channel for a Team](guides/user-guides/teams/teams-community-edition/create-new-channel-for-a-team.md)
       * [Team's Channel Actions](guides/user-guides/teams/teams-community-edition/teams-channel-auto-join.md)
+      * [Transforming a channel into a team](guides/user-guides/teams/teams-community-edition/transforming-a-channel-into-a-team.md)
     * [Members](guides/user-guides/teams/members.md)
     * [Teams Enterprise Edition](guides/user-guides/teams/teams-enterprise-edition.md)
   * [Channels](guides/user-guides/channels/README.md)
