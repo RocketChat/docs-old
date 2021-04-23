@@ -106,19 +106,19 @@ What LDAP field will be used as **avatar** for users. Leave empty to use `thumbn
 
 ### Background Sync
 
-Enable periodic background sync
+Enable periodic background sync.
 
 ### Background Sync interval
 
-The interval between synchronizations, using the [Cron Text](https://bunkat.github.io/later/parsers.html#text) format,
+The interval between synchronizations, using the [Cron Text](https://bunkat.github.io/later/parsers.html#text) format.
 
 ### Background Sync Import New Users
 
-Will import all users \(based on your filter criteria\) that exist in LDAP and does not exist in Rocket.Chat
+Will import all users \(based on your filter criteria\) that exist in LDAP and do not exist in Rocket.Chat.
 
 ### Background Sync Update Existing Users
 
-Will sync the avatar, fields, username, etc \(based on your configuration\) of all users already imported from LDAP on every **Sync Interval**
+Will sync the avatar, fields, username, etc \(based on your configuration\) of all users already imported from LDAP on every **Sync Interval**.
 
 ### Execute Synchronization Now
 
