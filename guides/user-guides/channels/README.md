@@ -1,8 +1,16 @@
+---
+description: >-
+  Conversations in Rocket.Chat occur in channels. Channels are chat rooms with
+  useful features designed to increase communication and collaboration.
+---
+
 # Channels
 
-Conversations in Rocket.Chat occur in **channels**. Channels are chat rooms with useful features designed to increase communication and collaboration.
-
 There are three kinds of channels: [public channels](./#public-channels), [private groups](./#private-groups), and [direct \(1-on-1\) messages](./#direct-messages).
+
+Following is the team's symbol:
+
+## Create New Channel
 
 ## Public channels
 

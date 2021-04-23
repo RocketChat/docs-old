@@ -84,7 +84,7 @@ The password for the User DN above.
 
 Determine if users should be enabled or disabled on Rocket.Chat, based on the LDAP status. The 'pwdAccountLockedTime' attribute will be used to determine if the user is disabled. This setting is not yet compatible with all LDAP Servers, so if you don't use the 'pwdAccountLockedTime' attribute, you may want to disable it completely.
 
-## Role Mapping 
+## Role Mapping
 
 #### Role mapping from LDAP to Rocket.Chat.
 

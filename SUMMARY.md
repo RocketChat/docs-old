@@ -95,6 +95,7 @@
     * [Members](guides/user-guides/teams/members.md)
     * [Teams Enterprise Edition](guides/user-guides/teams/teams-enterprise-edition.md)
   * [Channels](guides/user-guides/channels/README.md)
+    * [Create a new Channel](guides/user-guides/channels/create-a-new-channel.md)
     * [Channel Actions](guides/user-guides/channels/channel-actions.md)
   * [Multi-users Direct Message](guides/user-guides/direct-messages-between-multiple-users.md)
   * [Messages](guides/user-guides/messaging/README.md)
