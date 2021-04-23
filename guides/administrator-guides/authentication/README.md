@@ -6,7 +6,7 @@
 
 {% page-ref page="saml/" %}
 
-{% page-ref page="cas.md" %}
+{% page-ref page="../settings/cas.md" %}
 
 {% page-ref page="single-sign-on-iframe.md" %}
 
