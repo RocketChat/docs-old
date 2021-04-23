@@ -4,7 +4,7 @@ The Message Auditing Panel returns all messages that match the search values def
 
 However, the auditor cannot read the encrypted messages of other users. If you want to audit these messages too Rocket.Chat recommends that you disable message encryption:
 
-* Go to the Administration UI.
+* Go to the Administration UI:
 
 ![](../../../.gitbook/assets/image%20%28297%29.png)
 

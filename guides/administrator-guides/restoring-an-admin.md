@@ -2,13 +2,13 @@
 
 You might accidentally lost access to an important admin user \(or the only admin in the server\) and need to restore it without using another admin user. This guide will help you in this process.
 
-_Note: To do this, you will need access to the database_
+_Note: To do this, you will need access to the database_.
 
 ## Finding the database
 
 ### Docker based installations
 
-Open Mongo shell within Mongo container
+Open Mongo shell within Mongo container.
 
 Change into docker-compose directory \(where your `docker-compose.yml` is located\):
 
@@ -17,7 +17,7 @@ cd /opt/docker/Rocket.Chat
 docker-compose run mongo bash
 ```
 
-or run
+or run:
 
 ```text
 docker exec -it -u root mongo-image /bin/bash
@@ -67,7 +67,7 @@ db.getCollection('users').update({username:"administrator"}, {$set: { "services"
 
 Then access `http://{your server url}/login-token/some-token-id-that-you-will-use-to-login-once` to login
 
-or you can update the admin password to `12345`
+or you can update the admin password to `12345`:
 
 ```javascript
 db.getCollection('users').update({username:"administrator"}, { $set: {"services" : { "password" : {"bcrypt" : "$2a$10$n9CM8OgInDlwpvjLKLPML.eizXIzLlRtgCh3GRLafOdR9ldAUh/KG" } } } })

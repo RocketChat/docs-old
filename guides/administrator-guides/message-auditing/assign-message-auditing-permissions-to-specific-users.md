@@ -6,8 +6,8 @@ As an admin, you assign permissions to use the Message Auditing Panel or Auditin
 
 On the **Permissions** screen in the Administration UI, do the following to assign access:
 
-* For access to the Message Auditing Panel, select the `can-audit` option.
-* For access to the Message Auditing Log, select the `can-audit-log` option.
+* For access to the Message Auditing Panel, select the `can-audit` option
+* For access to the Message Auditing Log, select the `can-audit-log` option
 
 ![](../../../.gitbook/assets/image%20%28293%29.png)
 

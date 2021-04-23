@@ -9,8 +9,8 @@ description: Enterprise and Gold only feature
 
 It allows the authorized user to:
 
-* Review messages between users in the Message Auditing Panel.
-* Check details in the Auditing Log about the individuals who used the Message Auditing Panel.
+* Review messages between users in the Message Auditing Panel
+* Check details in the Auditing Log about the individuals who used the Message Auditing Panel
 
 {% hint style="info" %}
 Note that the auditor does not have to be a participant in the room to be able to read the messages.
@@ -18,10 +18,10 @@ Note that the auditor does not have to be a participant in the room to be able t
 
 To access the message auditing panel:
 
-1. Click your user icon
-2. Click **Message Auditing**
+1. Click your user icon.
+2. Click **Message Auditing**.
 
-as shown below:
+As shown below:
 
 ![](../../../.gitbook/assets/image%20%28290%29.png)
 
