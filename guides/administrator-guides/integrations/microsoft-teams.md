@@ -16,7 +16,7 @@ _**Note:** I would advise to create New Team so not all members in your organisa
    * Assign **Post as** \(Create Bot user and add bot the above mentioned Channel\)
    * Copy and paste below script in **Script** section
 
-```text
+```javascript
 class Script {
     process_incoming_request({ request }) {
         // UNCOMMENT THE BELOW LINE TO DEBUG IF NEEDED.
@@ -86,7 +86,7 @@ class Script {
    * Select Bot **Post as** \(same as in Incoming Webhook\)
    * Paste Below **Script**:
 
-```text
+```javascript
 class Script {
         prepare_outgoing_request({ request }) {
           console.log(request.data);
