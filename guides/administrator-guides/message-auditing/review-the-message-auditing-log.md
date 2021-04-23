@@ -7,7 +7,7 @@ To access message editing log:
 1. Click your user icon.
 2. Click **Message Auditing log**.
 
-As shown below:
+as shown below:
 
 ![](../../../.gitbook/assets/image%20%28304%29.png)
 
