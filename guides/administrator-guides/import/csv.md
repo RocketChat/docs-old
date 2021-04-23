@@ -36,8 +36,8 @@ fileToImport.zip
 
 The `channels.csv` requires a **very** specific structure and layout. Each line contains information about one channel. Each line must include the channel name, the creator, whether it is private or public, and the members in the channel separated by a semicolon `;`. Quotes are _**required**_.
 
-1. Channel name
-2. Username of the channel creator
+1. Channel name.
+2. Username of the channel creator.
 3. Whether the channel is public or private. If the last argument is not `private` it is assumed the channel is public.
 4. List of users in the channel, separated by semicolons. If only the creator is in the channel, then there must be empty quotes.
 
@@ -50,7 +50,7 @@ The `channels.csv` requires a **very** specific structure and layout. Each line 
 
 ## users.csv Format
 
-The `users.csv` is a file which contains the user details, each line containing a new user and the user details is:
+The `users.csv` is a file which contains the user details, each line containing a new user and the user details are:
 
 1. Username \(must not contain @ and some other special characters\)
 2. Email
@@ -66,8 +66,8 @@ graywolf336,graywolf336@example.com,GrayWolf336
 
 The message csv files require a **very** specific format. Each line contains a new message, every piece of information is **requires** quotes to surround it, there cannot be any spaces between the commas. The details required are:
 
-1. Username who sent the message
-2. The timestamp in milliseconds
+1. Username who sent the message.
+2. The timestamp in milliseconds.
 3. The message, quotes are highly recommended especially if the message text contains a comma.
 
 ```text
@@ -79,9 +79,9 @@ The message csv files require a **very** specific format. Each line contains a n
 
 Direct Channels / Direct Messages are imported from a special directory named **directmessages** with a specific format based on the **Message Files** format. The details required are:
 
-1. Username who sent the message
-2. Username who received the message
-3. The timestamp in milliseconds
+1. Username who sent the message.
+2. Username who received the message.
+3. The timestamp in milliseconds.
 4. The message, quotes are highly recommended especially if the message text contains a comma.
 
 It's **required** to keep conversations in **distinct files**, for example, a conversation between user A and B compose a file \(`messages1.csv`\), and the conversation between user B and C compose another file \(`messages2.csv`\).
@@ -95,10 +95,10 @@ It's **required** to keep conversations in **distinct files**, for example, a co
 
 Once you have that all set up and zipped, then you can start the import process.
 
-1. Go to `https://[your_rocketchat]/admin/import/prepare/csv`
-2. Choose your `.zip` file and wait until Rocket.Chat can read it \(it can take a few minutes, depending on the size of the file\)
-3. Deselect any items you **don't** want to import
-4. At the top of the page, click on Start Importing
+1. Go to `https://[your_rocketchat]/admin/import/prepare/csv`.
+2. Choose your `.zip` file and wait until Rocket.Chat can read it \(it can take a few minutes, depending on the size of the file\).
+3. Deselect any items you **don't** want to import.
+4. At the top of the page, click on "Start Importing".
 
 When you have problems during the Import, click on "View Logs" in the admin section to get the detailed error messages.
 

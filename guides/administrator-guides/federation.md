@@ -128,9 +128,9 @@ Some DNS providers will not allow setting `_https` or `_http` on SRV records, so
 * Host: `rocketchat-tcp-protocol.chat.mydomain.com`
 * Value: `https` or `http`
 
-#### Test your configuration from cli
+#### Test your configuration from CLI
 
-From your cli, issue the following commands and make sure the answers look like the following:
+From your CLI, issue the following commands and make sure the answers look like the following:
 
 ```text
 dig srv _rocketchat._https.chat.mydomain.com
