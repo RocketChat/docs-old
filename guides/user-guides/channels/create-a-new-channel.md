@@ -2,7 +2,7 @@
 
 To create a new channel:
 
-![](../../../.gitbook/assets/image%20%28344%29.png)
+![](../../../.gitbook/assets/image%20%28385%29.png)
 
 
 
@@ -19,7 +19,7 @@ Broadcasted channels behave like read-only channels, with only users with the ri
 * Every message contains a reply button that redirects the user to a direct message with the user that posted the message.
 * This channel cannot be converted to a read-only or open channel again.
 
-![](../../../.gitbook/assets/image%20%28343%29.png)
+![](../../../.gitbook/assets/image%20%28344%29.png)
 
 Hit create and your new channel is created.
 
