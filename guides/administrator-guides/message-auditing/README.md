@@ -21,7 +21,7 @@ To access the message auditing panel:
 1. Click your user icon.
 2. Click **Message Auditing**.
 
-As shown below:
+as shown below:
 
 ![](../../../.gitbook/assets/image%20%28290%29.png)
 
