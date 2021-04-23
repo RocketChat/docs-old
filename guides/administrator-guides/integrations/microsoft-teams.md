@@ -14,7 +14,7 @@ _**Note:** I would advise to create New Team so not all members in your organisa
    * Assign **Name**
    * Assign **Post to Channel** \(This will be the Channel where you want to recieve msg from Teams\)
    * Assign **Post as** \(Create Bot user and add bot the above mentioned Channel\)
-   * Copy and paste below script in **Script** section.
+   * Copy and paste below script in **Script** section
 
 ```text
 class Script {

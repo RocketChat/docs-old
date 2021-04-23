@@ -2,16 +2,16 @@
 
 Add Nixstats notifications via a new WebHook in Rocket.Chat
 
-1. In Rocket.Chat go to "Administration"-&gt;"Integrations" and create "New Integration"
-2. Choose Incoming WebHook
-3. Follow all instructions like Enable, give it a name, link to channel etc. Set "Enable Script" to true and enter the javascript in the "Script" box
-4. Press Save changes and copy the _Webhook URL_ \(added just below the script box\)
-5. Go to [https://nixstats.com](https://nixstats.com) -&gt; Settings -&gt; Notification Contacts -&gt; Add \(or Edit a contact\) contact
-6. Paste the Rocket.Chat url you've copied in step 4
+1. In Rocket.Chat go to "Administration"-&gt;"Integrations" and create "New Integration".
+2. Choose Incoming WebHook.
+3. Follow all instructions like Enable, give it a name, link to channel etc. Set "Enable Script" to true and enter the javascript in the "Script" box.
+4. Press Save changes and copy the _Webhook URL_ \(added just below the script box\).
+5. Go to [https://nixstats.com](https://nixstats.com) -&gt; Settings -&gt; Notification Contacts -&gt; Add \(or Edit a contact\) contact.
+6. Paste the Rocket.Chat url you've copied in step 4.
 
 Paste this javascript in the "Script" textarea on Rocket.Chat webhook settings
 
-```text
+```js
 /* exported Script */
 /* globals console, _, s */
 
@@ -59,18 +59,18 @@ class Script {
 
 Add Nixstats notifications via a new WebHook in Rocket.Chat
 
-1. In Rocket.Chat go to "Administration"-&gt;"Integrations" and create "New Integration"
-2. Choose Outgoing WebHook
-3. Select **Message Sent** as Event trigger
-4. Enter **ns** as trigger word
-5. Enter `<https://api.eu.nixstats.com/v1/>` as URLs
-6. Avatar URL `<https://nixstats.com/images/favicon.png>`
+1. In Rocket.Chat go to "Administration"-&gt;"Integrations" and create "New Integration".
+2. Choose Outgoing WebHook.
+3. Select **Message Sent** as Event trigger.
+4. Enter **ns** as trigger word.
+5. Enter `<https://api.eu.nixstats.com/v1/>` as URLs.
+6. Avatar URL `<https://nixstats.com/images/favicon.png>`.
 7. **Token**, this is your nixstats API token, [create an API key](https://nixstats.com/settings/api).
-8. Script Enabled set to **True**
+8. Script Enabled set to **True**.
 
 Paste this javascript in the "Script" textarea on Rocket.Chat webhook settings
 
-```text
+```js
 /* exported Script */
 /* globals Store */
 

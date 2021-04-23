@@ -8,5 +8,5 @@ Follow the install instructions here:
 
 Screenshot with this integration:
 
-![image](../../../.gitbook/assets/google-calendar.png)
+![Google Calendar integration](../../../.gitbook/assets/google-calendar.png)
 

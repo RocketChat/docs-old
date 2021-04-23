@@ -97,7 +97,7 @@ class Script {
 ## Create Outgoing WebHook in Rocket.Chat
 
 * Create outgoing webhook and specify channel with the following url: `https://api.telegram.org/bot[myauthorization-token]/sendMessage?chat_id=[chat-id]`
-* chat-id should be your group id in Telegram, You can get it buy adding @RawDataBot to your group.
+* chat-id should be your group id in Telegram, You can get it buy adding @RawDataBot to your group
 
 ```javascript
 Message
