@@ -158,7 +158,7 @@ This enables the `/api/v1/im.history.others` which allows the viewing of direct 
 
 ### Enable Shields
 
-Enables the usage of [Shields](https://rocket.chat/docs/developer-guides/rest-api/miscellaneous/shield-svg/#shield-svg) via API
+Enables the usage of [Shields](https://developer.rocket.chat/api/rest-api/methods/miscellaneous/shield-svg) via API
 
 > Enabled shields are available at `/api/v1/shield.svg`
 
