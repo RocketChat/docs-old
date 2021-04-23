@@ -63,8 +63,8 @@ Clicking on the `Reset` button will reset all these basic configurations back to
 
 * **Resize Avatar**: Set this to true to resize users avatars to a predefined size. You need ImageMagick or GraphicsMagick installed on your server for this feature to work.
 * **Avatar Size**: The desired size after the avatar resizing. The unit is pixels \(px\).
-* **Avatar External Provider URL**: Lets you set a url from which avatars can be loaded.
-* **Avatar cache time**: This will set how long _in miliseconds_ you want user's avatar to be cached.
+* **Avatar External Provider URL**: Lets you set a URL from which avatars can be loaded.
+* **Avatar cache time**: This will set how long _in milliseconds_ you want user's avatar to be cached.
 * **Block Unauthenticated Access to Avatars**: Enabling this will restrict access to user's avatar for those that are not authenticated.
 * **Set Default Avatar**: If this setting is set to true, Rocket.Chat will try to find a default avatar based on OAuth Account or Gravatar.
 
@@ -81,7 +81,7 @@ The various settings that fall under this have simple descriptions for understan
 ## Registration
 
 * **Send email to user when user is activated**: When enabled, an email will be sent to the user after their account has been activated.
-* **Send email to user when user is deactivated**: If set to True, users will get an email after account deactivation.
+* **Send email to user when user is deactivated**: If set to true, users will get an email after account deactivation.
 * **Default username prefix suggestion**: This is the prefix that will be suggested when a user is creating a username. Default is `user`.
 * **Require Name For Signup**: If this is set to true, the name of the user will be required to create an account.
 * **Require Password Confirmation**: If this is set to true, the user will have to input his password twice when registering.
