@@ -225,7 +225,7 @@ The interval between synchronizations, using the [Cron Text](https://bunkat.gith
 
 #### Background Sync Import New Users
 
-Will import all users \(based on your filter criteria\) that exist in LDAP and does not exist in Rocket.Chat.
+Will import all users \(based on your filter criteria\) that exist in LDAP and do not exist in Rocket.Chat.
 
 #### Background Sync Update Existing Users
 
