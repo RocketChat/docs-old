@@ -11,5 +11,3 @@ The User Panel is divided into three main sections
   * The _Edit Status_ option allows the user to customize their status by adding a custom status message
 * **My Account and Logout**
 
-
-
