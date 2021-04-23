@@ -39,7 +39,7 @@ In order to connect your server to our Cloud, your Rocket.Chat server must be at
 
 ![](../../.gitbook/assets/c_6.png)
 
-5. A pop-up will be displayed in order to select the workspace type. 
+5. A pop-up will be displayed in order to select the workspace type: 
 
 * Internet Access: Rocket.Chat server that has a connection to the internet \(connected to the outside\)
 * No Internet Access: Special cases where Rocket.Chat server has no connection at all \(totally air-gapped\).
