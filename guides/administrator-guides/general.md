@@ -12,7 +12,7 @@ If you are integrating Bugsnag with Rocket.Chat, you should put your Bugsnag API
 
 ### CDN Prefix for JS/CSS
 
-Insert here the prefix for the CDN that should load the JS/CSS assets
+Insert here the prefix for the CDN that should load the JS/CSS assets.
 
 ### CDN Prefix
 
@@ -33,7 +33,7 @@ Insert here the name of the channel that the user will enter after logging in. S
 
 ### Force Disable OpLog for Cache
 
-Will not use OpLog to sync cache even when it's available
+Will not use OpLog to sync cache even when it's available.
 
 ### Force SSL
 
@@ -73,20 +73,20 @@ This sets the URL of the server.
 
 ### Store Last Message
 
-Store last message sent on each room. This will enable the viewing of the last message on the left sidebar \(should be on by default\)
+Store last message sent on each room. This will enable the viewing of the last message on the left sidebar \(should be on by default\).
 
 ### Unread Count
 
-This setting changes the behavior of the unread counter
+This setting changes the behavior of the unread counter.
 
 * **All messages**: All messages will be counted on the counter, regardless if they are a mention or not.
 * **User mentions only**: Only mentions using `@yourUsername` will be counted on the counter.
 * **Group mentions only**: Only group mentions using `@all` or `@here` will be counted on the counter.
-* **User and group mentions only**: All mentions will be counted, this includes `@all`, `@here` and `@yourUsername`
+* **User and group mentions only**: All mentions will be counted, this includes `@all`, `@here` and `@yourUsername`.
 
 ### Unread Count for Direct Messages
 
-This setting changes the behavior of the unread counter on Direct Messages
+This setting changes the behavior of the unread counter on Direct Messages.
 
 * **All messages**: All messages sent by another user will be counted on the counter.
 * **Mentions only**: Only mentions using `@yourUsername` will be counted on the counter.
@@ -129,9 +129,9 @@ Max number of members in room when notifications for all messages gets disabled.
 
 ### Allow Getting Everything
 
-This setting affects the `count` query parameter. See more at [Offset and Count Information](https://rocket.chat/docs/developer-guides/rest-api/offset-and-count-and-sort-info/#offset-and-count-information)
+This setting affects the `count` query parameter. See more at [Offset and Count Information](https://rocket.chat/docs/developer-guides/rest-api/offset-and-count-and-sort-info/#offset-and-count-information).
 
-* **Yes**: Allows the usage of the number `0` as `count` parameter. Setting `count` to `0` will return **ALL** the data from that endpoint
+* **Yes**: Allows the usage of the number `0` as `count` parameter. Setting `count` to `0` will return **ALL** the data from that endpoint.
 * **No**: Setting the number `0` on `count`, will return `0` results.
 
 > Should calls to the REST API be allowed to return everything in one call?
@@ -140,7 +140,7 @@ This setting affects the `count` query parameter. See more at [Offset and Count 
 
 Here you can set what origins are allowed to make requests to your server.
 
-> You can use `*` to accept from all origins. For multiple Origins use a comma separated list. E.g `https://domain1.com, https://domain2.com, https://domain3.com`
+> You can use `*` to accept from all origins. For multiple Origins use a comma separated list. E.g. `https://domain1.com, https://domain2.com, https://domain3.com`
 
 ### Default Count
 
@@ -158,17 +158,17 @@ This enables the `/api/v1/im.history.others` which allows the viewing of direct 
 
 ### Enable Shields
 
-Enables the usage of [Shields](https://rocket.chat/docs/developer-guides/rest-api/miscellaneous/shield-svg/#shield-svg) via API
+Enables the usage of [Shields](https://rocket.chat/docs/developer-guides/rest-api/miscellaneous/shield-svg/#shield-svg) via API.
 
 > Enabled shields are available at `/api/v1/shield.svg`
 
 ### Shield Types
 
-Types of shields to enable as a comma separated list, choose from `online`, `channel` or `*` for all
+Types of shields to enable as a comma separated list, choose from `online`, `channel` or `*` for all.
 
 ### Max Record Amount
 
-This sets the maximum number of records the REST API should return when not set to unlimited
+This sets the maximum number of records the REST API should return when not set to unlimited.
 
 ### User Limit for Adding All Users to Channel
 
@@ -209,7 +209,7 @@ Should be a valid JSON where keys are languages containing a dictionary of key a
 
 ### UTF8 Names Validation
 
-RegExp that will be used to validate usernames and channel names
+RegExp that will be used to validate usernames and channel names.
 
 > **Note**: If you are having problems with names when creating channels \(when using non-english characters for example\) changing these values will probably fix it. For example using `[\w_-]+` should allow any non-space character to be part of a name.
 

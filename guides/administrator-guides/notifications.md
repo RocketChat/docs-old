@@ -18,5 +18,5 @@ Notifications of direct messages or mentions by @username are sent by Email to y
 
 ## Mentions
 
-@username - notifies this person @all - notifies all members of this room or channel @here - notifies all members of this room or channel who are online
+@username - notifies this person @all - notifies all members of this room or channel @here - notifies all members of this room or channel who are online.
 

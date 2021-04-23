@@ -40,11 +40,11 @@ If the situation occurs where CDN stops working or the provided values are incor
 
 As the front end of Rocket.Chat may be inaccessible, the backend Mongo database can be updated to remove the CDN. The following Mongo commands should reset the value to the default state.
 
-```text
+```javascript
 db.rocketchat_settings.update({_id:"CDN_PREFIX"},{$set:{"value":""}})
 ```
 
-```text
+```javascript
 db.rocketchat_settings.update({_id:"CDN_JSCSS_PREFIX"},{$set:{"value":""}})
 ```
 
