@@ -1,6 +1,6 @@
 # Authentication
 
-{% page-ref page="oauth/" %}
+{% page-ref page="../settings/oauth/" %}
 
 {% page-ref page="open-id-connect/" %}
 

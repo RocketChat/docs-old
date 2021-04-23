@@ -85,7 +85,7 @@ The various settings that fall under this have simple descriptions for understan
 * **Default username prefix suggestion**: This is the prefix that will be suggested when a user is creating a username. Default is `user`.
 * **Require Name For Signup**: If this is set to true, the name of the user will be required to create an account.
 * **Require Password Confirmation**: If this is set to true, the user will have to input his password twice when registering.
-* **Email Verification**: If this is set to true, users will have to confirm their email via a confirmation email sent to their email. \(For this setting work, the SMTP settings must be already set up. See [Email Configuration](../email/setup.md)\)
+* **Email Verification**: If this is set to true, users will have to confirm their email via a confirmation email sent to their email. \(For this setting work, the SMTP settings must be already set up. See [Email Configuration](email/setup.md)\)
 * **Manually Approve New Users**: If this is set to true, new users will have to wait for a user with the `view-user-administration` permission to approve their account before using Rocket.Chat.
 * **Allowed Domains List**:  This will block emails with different domains than the ones on this list.
 * **Blocked Domains List**:  This will block emails with domains that are on this list.

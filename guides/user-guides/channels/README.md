@@ -8,7 +8,7 @@ description: >-
 
 Following is the team's symbol:
 
-![](../../../.gitbook/assets/image%20%28393%29.png)
+![](../../../.gitbook/assets/image%20%28394%29.png)
 
 ## Listing channels
 

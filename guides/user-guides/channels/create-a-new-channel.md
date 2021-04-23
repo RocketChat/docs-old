@@ -2,7 +2,7 @@
 
 To create a new channel:
 
-![](../../../.gitbook/assets/image%20%28385%29.png)
+![](../../../.gitbook/assets/image%20%28386%29.png)
 
 
 

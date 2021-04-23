@@ -36,7 +36,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 
 | Permission | Purpose |
 | :--- | :--- |
-| access-mailer | Permission to use the [Mailer Tool](../email/mailer.md). Accessible from Administration -&gt; Mailer. |
+| access-mailer | Permission to use the [Mailer Tool](../settings/email/mailer.md). Accessible from Administration -&gt; Mailer. |
 | access-permissions | Permission to create and edit roles and permissions. Accessible from Administration -&gt; Permissions. |
 | add-oauth-service | Permission to manage different OAuth services and apps. Accessible from Administration -&gt; OAuth Apps. |
 | add-user-to-any-c-room | Permission to add a user to a public channel. |

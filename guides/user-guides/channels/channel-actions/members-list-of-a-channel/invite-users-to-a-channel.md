@@ -7,7 +7,7 @@ To add a new user:
 1. Click **Members**
 2. Click **Invite** **Users**
 
-![](../../../../../.gitbook/assets/image%20%28387%29.png)
+![](../../../../../.gitbook/assets/image%20%28388%29.png)
 
 3. Copy the link and share it with your invitees
 
@@ -23,14 +23,14 @@ You can edit the expiration date and number of uses of your invite link**.**
 
 * Hit **Edit Invite**
 
-![](../../../../../.gitbook/assets/image%20%28391%29.png)
+![](../../../../../.gitbook/assets/image%20%28392%29.png)
 
 * Set the expiration date and number of uses of your invite link
 * Hit **Generate New Link**
 
-![](../../../../../.gitbook/assets/image%20%28392%29.png)
+![](../../../../../.gitbook/assets/image%20%28393%29.png)
 
 Your new link is generated with the selected attributes, as shown below:
 
-![](../../../../../.gitbook/assets/image%20%28388%29.png)
+![](../../../../../.gitbook/assets/image%20%28389%29.png)
 
