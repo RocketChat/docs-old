@@ -28,8 +28,6 @@ Go to Real-time Monitoring in the omnichannel panel settings, as shown below:
 
 Details of matrices are as follows:
 
-
-
 ![](../../../.gitbook/assets/5%20%289%29.png)
 
 ### **Total Conversations:** 
@@ -48,8 +46,6 @@ It represents the total number of messages received in all the current day conve
 
 It represents the total number of livechat users for your selected department for the current day.
 
-
-
 ![](../../../.gitbook/assets/6%20%288%29.png)
 
 ### **Total Abandoned Chats:** 
@@ -58,13 +54,11 @@ It represents the total number of conversations abandoned by the visitor for you
 
 ### **Average of Abandoned Chats:** 
 
-It represents the average of conversations abandoned by the visitor for your selected department's current day.
+It represents the average of conversations abandoned by the visitors for your selected department's current day.
 
 ### **Average of Chat Duration Time:** 
 
 It represents the average duration of all the conversations of your selected department for the current day.
-
-
 
 ![](../../../.gitbook/assets/7%20%286%29.png)
 
@@ -79,8 +73,6 @@ It represents how many hours the Omnichannel service was available during the da
 ### **Average of Service Time:** 
 
 It represents the average time the agents spend serving chats in the current day.
-
-
 
 ![](../../../.gitbook/assets/8%20%285%29.png)
 
@@ -98,6 +90,6 @@ This matrix represents the average of the agent's reaction to the assigned chats
 
 ### **Average of Waiting:** 
 
-It represents the average time your visitor spent in the waiting queue.  
+It represents the average time your visitors spent in the waiting queue.  
 ****
 

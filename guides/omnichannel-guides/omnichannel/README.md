@@ -17,7 +17,7 @@ Recently the demand for production-grade Livechat has increased, so we did a com
 
 To enable the Livechat feature on your Rocket.Chat instance:
 
-1. Go to **Administration.**
+1. Go to **Administration**.
 
 ![](../../../.gitbook/assets/image%20%2830%29.png)
 
@@ -35,7 +35,7 @@ Now the admin will have access to _**Omnichannel Panel Settings**_ _\*\*_ throug
 
 1. Enable Omnichannel on your Rocket.Chat instance.
 2. Enable/Disable request comment from the agent when closing a conversation.
-3. Enable/Disable acceptance of new omnichannel requests when the agent is idle
+3. Enable/Disable acceptance of new omnichannel requests when the agent is idle.
 4. Enable/Disable continuous sound notification for new omnichannel room/conversation.
 5. Enable/Disable file uploads in livechat widget.
 6. Enable/Disable asking the visitor if they would like a trascript of the conversation.
@@ -75,7 +75,7 @@ First, you will need to request an API key from Rocket.Chat Support then set it 
 Send an email to [omni@rocket.chat](mailto:omni@rocket.chat) to request an API key. These are processed as time allows, and may take a few days, but you should have your key and secret soon enough.
 
 1. Enable Facebook integration.
-2. Enter your _OmniChannel API Key_ 
+2. Enter your _OmniChannel API Key_. 
 3. _Enter OmniChannel API Secret_. **Save** the changes.
 
 ‌
@@ -108,7 +108,7 @@ Now customize the appears of your livechat widget here, for the hours when none 
 3. Set Title **\*\*bar** Color\*\* for offline widget.
 4. Give instructions, if any.
 5. Set the email address where you want to receive your offline messages.
-6. Set success message to display to the visitor when they have sent their message offline
+6. Set success message to display to the visitor when they have sent their message offline.
 
 as shown below:
 
@@ -132,7 +132,7 @@ Routing allows you to define the behavior of your livechat queues.
 
 Detail of every setting is listed below:
 
-1. Select your preferred routing method. \(Please refer to [this](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel/livechat-queues) article for information on  types of routing methods used in rocket chat.\)
+1. Select your preferred routing method. \(Please refer to [this](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel/livechat-queues) article for information on  types of routing methods used in rocket chat\).
 2. Enable acceptance of incoming omnichannel requests even if there are no online agents if you want.
 3. Enable if you want the routing system to attempt to find a bot agent before addressing new conversations to a human agent.
 4. Set the limit of **Max number of items displayed in the queue** if you want.
@@ -153,7 +153,7 @@ Sessions allow you to decide how you want to handle your chat sessions when an a
 1. You can either forward the chat to another agent, close it or do nothing.
 2. Mention the amount of time in seconds that you want to wait before you want to consider that the agent has abandoned the chat.
 3. Enter the message to display to the visitor on closing the session.
-4. Mention the time you want to wait to consider visitor abandonment?
+4. Mention the time you want to wait to consider visitor abandonment.
 5. Enable automatic closing of rooms abandoned by the visitor if you want.
 6. Enter the message to display to the visitor when room is automatically closed by visitor inactivity.
 
