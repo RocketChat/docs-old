@@ -28,11 +28,11 @@ You can use multiple values separated by comma to allow users to login using mul
 
 ### Search Page Size
 
-The maximum number of entries each result page will return to be processed
+The maximum number of entries each result page will return to be processed.
 
 ### Search Size Limit
 
-The maximum number of entries to return. **Attention** This number must be larger than the one on **Search Page Size**
+The maximum number of entries to return. **Attention**, this number must be larger than the one on **Search Page Size**.
 
 ## User Search \(Group Validation\)
 
