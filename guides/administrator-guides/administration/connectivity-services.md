@@ -25,19 +25,19 @@ In order to connect your server to our Cloud, your Rocket.Chat server must be at
 
 1. Go to [cloud.rocket.chat](https://cloud.rocket.chat/) and create a new account
 
-![](../../.gitbook/assets/image%20%28154%29.png)
+![](../../../.gitbook/assets/image%20%28154%29.png)
 
 2. Fill up the registration form and "Register"
 
-![](../../.gitbook/assets/c_4.png)
+![](../../../.gitbook/assets/c_4.png)
 
 3. A verification email will be sent in order to activate your new Cloud account 
 
-![](../../.gitbook/assets/image%20%28155%29.png)
+![](../../../.gitbook/assets/image%20%28155%29.png)
 
 4. The verification link will forward to cloud.rocket.chat. After the validation, you will be logged into your Cloud console. In order to register your self-hosted workspace, please select the "Register self-managed" button
 
-![](../../.gitbook/assets/c_6.png)
+![](../../../.gitbook/assets/c_6.png)
 
 5. A pop-up will be displayed in order to select the workspace type: 
 
@@ -48,18 +48,18 @@ In this document, we are covering only the "Internet Access" option
 
 6. When selecting the "Internet Access" option, a registration token will be generated. Copy the token as this will be used to register your Rocket.Chat server.
 
-![](../../.gitbook/assets/c_8.png)
+![](../../../.gitbook/assets/c_8.png)
 
 7. On your Rocket.Chat server, go to _Administration &gt; Connectivity Services._   
 Fill up the "Email" field with the email related to your Rocket.Chat Cloud account and in the "Token" field please paste the registration token generated. Finally, hit the "Connect" button.
 
-![](../../.gitbook/assets/c_9.png)
+![](../../../.gitbook/assets/c_9.png)
 
 8. It will set the connection between your Rocket.Chat server and Rocket.Chat Cloud console. When the connection is successful, the _Connectivity Services_ panel will look like this:
 
 
 
-![](../../.gitbook/assets/c_10.png)
+![](../../../.gitbook/assets/c_10.png)
 
 9. Finally, in order to ensure the synchronization between Rocket.Chat server and Rocket.Chat Cloud, hit the "Sync" button as this will trigger the synchronization framework. 
 
