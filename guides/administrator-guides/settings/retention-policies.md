@@ -1,4 +1,4 @@
-# Retention Policies
+# Retention Policy
 
 This feature adds the ability to set retention policies on channels and globally. Such retention policies can automatically remove old messages and files with custom rules.
 
