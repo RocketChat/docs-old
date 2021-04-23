@@ -8,7 +8,7 @@ Add Azure Alert notifications via a new WebHook in Rocket.Chat
 4. Press Save changes and copy the _Webhook URL_ \(added just below the script box\)
 5. Go to the azure portal and on the specific resource you want to enable Alerts for follow the steps for enabling Alerts and set the previously copied URL as the webhook URL for the Azure Alert. You can follow the steps shown here: [https://azure.microsoft.com/en-us/documentation/articles/insights-webhooks-alerts/](https://azure.microsoft.com/en-us/documentation/articles/insights-webhooks-alerts/)
 
-Paste this in javascript in the "Script" textarea on Rocket.Chat webhook settings:
+Paste this in javascript in the "Script" textarea on Rocket.Chat webhook settings
 
 ```javascript
 class Script {
