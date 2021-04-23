@@ -24,7 +24,7 @@ The LDAP connection Port, usually 389 or 636.
 
 #### Reconnect
 
-Try to reconnect automatically when the connection is interrupted by some reason while executing operations
+Try to reconnect automatically when the connection is interrupted by some reason while executing operations.
 
 #### Encryption
 
@@ -40,7 +40,7 @@ The encryption method used to secure communications to the LDAP server.
 
 #### Reject Unauthorized
 
-Disable this option to allow certificates that can not be verified. Usually, Self Signed Certificates will require this option disabled to work
+Disable this option to allow certificates that can not be verified. Usually, Self Signed Certificates will require this option disabled to work.
 
 #### Base DN
 
@@ -68,7 +68,7 @@ Disable Authentication to skip binding the user DN and password.
 
 #### User DN
 
-The LDAP user that performs user lookups to authenticate other users when they sign in. This is typically a service account created specifically for third-party integrations. Use a fully qualified name, such as
+The LDAP user that performs user lookups to authenticate other users when they sign in. This is typically a service account created specifically for third-party integrations. Use a fully qualified name, such as:
 
 ```text
 cn=Administrator,cn=Users,dc=Example,dc=com
@@ -84,7 +84,7 @@ The password for the User DN above.
 
 Determine if users should be enabled or disabled on Rocket.Chat, based on the LDAP status. The 'pwdAccountLockedTime' attribute will be used to determine if the user is disabled. This setting is not yet compatible with all LDAP Servers, so if you don't use the 'pwdAccountLockedTime' attribute, you may want to disable it completely.
 
-## Role Mapping 
+## Role Mapping
 
 #### Role mapping from LDAP to Rocket.Chat.
 
@@ -217,19 +217,19 @@ What LDAP field will be used as **avatar** for users. Leave empty to use `thumbn
 
 #### Background Sync
 
-Enable periodic background sync
+Enable periodic background sync.
 
 #### Background Sync interval
 
-The interval between synchronizations, using the [Cron Text](https://bunkat.github.io/later/parsers.html#text) format,
+The interval between synchronizations, using the [Cron Text](https://bunkat.github.io/later/parsers.html#text) format.
 
 #### Background Sync Import New Users
 
-Will import all users \(based on your filter criteria\) that exist in LDAP and does not exist in Rocket.Chat
+Will import all users \(based on your filter criteria\) that exist in LDAP and do not exist in Rocket.Chat.
 
 #### Background Sync Update Existing Users
 
-Will sync the avatar, fields, username, etc \(based on your configuration\) of all users already imported from LDAP on every **Sync Interval**
+Will sync the avatar, fields, username, etc \(based on your configuration\) of all users already imported from LDAP on every **Sync Interval**.
 
 #### Execute Synchronization Now
 
@@ -275,11 +275,11 @@ You can use multiple values separated by a comma to allow users to login using m
 
 #### Search Page Size
 
-The maximum number of entries each result page will return to be processed
+The maximum number of entries each result page will return to be processed.
 
 #### Search Size Limit
 
-The maximum number of entries to return. **Attention** This number must be larger than the one on **Search Page Size**
+The maximum number of entries to return. **Attention** This number must be larger than the one on **Search Page Size**.
 
 ## User Search \(Group Validation\)
 

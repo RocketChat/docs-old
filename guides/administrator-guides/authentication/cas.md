@@ -17,8 +17,8 @@ These settings are in the `CAS` settings page under `Administration`:
 or
 
 1. Log into your Rocket.Chat instance as a user with administrator privileges.
-2. Click the "Options" button \(3 dots at the top left of the screen\)
-3. Click the "Administration" link that drops down. \(If you do not see one of these links, you are not logged in as a user with enough privileges. Log out and back in with an admin user.\)
+2. Click the "Options" button \(3 dots at the top left of the screen\).
+3. Click the "Administration" link that drops down. \(If you do not see one of these links, you are not logged in as a user with enough privileges. Log out and back in with an admin user\).
 4. Click the "CAS" link on the left side of the administration section.
 
 Your Rocket.Chat instance is the _CAS client_. You must provide a compatible _CAS Server_.
