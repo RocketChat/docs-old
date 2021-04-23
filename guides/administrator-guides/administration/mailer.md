@@ -1,4 +1,4 @@
-# Invites
+# Mailer
 
 Document Under Development 
 

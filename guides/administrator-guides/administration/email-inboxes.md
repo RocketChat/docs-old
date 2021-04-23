@@ -1,4 +1,4 @@
-# Invites
+# Email Inboxes
 
 Document Under Development 
 

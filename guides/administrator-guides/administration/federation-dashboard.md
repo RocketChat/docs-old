@@ -1,4 +1,4 @@
-# Invites
+# Federation Dashboard
 
 Document Under Development 
 
