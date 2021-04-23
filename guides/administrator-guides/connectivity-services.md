@@ -46,7 +46,7 @@ In order to connect your server to our Cloud, your Rocket.Chat server must be at
 
 In this document, we are covering only the "Internet Access" option.
 
-6. When selecting the "Internet Access" option, a registration token will be generated. Copy the token as this will be used to register your Rocket.Chat server:
+6. When selecting the "Internet Access" option, a registration token will be generated. Copy the token as this will be used to register your Rocket.Chat server.
 
 ![](../../.gitbook/assets/c_8.png)
 
