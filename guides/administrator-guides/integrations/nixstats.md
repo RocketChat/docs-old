@@ -11,7 +11,7 @@ Add Nixstats notifications via a new WebHook in Rocket.Chat
 
 Paste this javascript in the "Script" textarea on Rocket.Chat webhook settings
 
-```js
+```javascript
 /* exported Script */
 /* globals console, _, s */
 
