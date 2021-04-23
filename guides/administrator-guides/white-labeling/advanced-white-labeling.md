@@ -2,17 +2,17 @@
 
 In these guides we will cover how to customize styling in more depth and how to add custom Javascript scripts to your server.
 
-Please use caution when using these settings, as the misuse of them can cause problems on your server
+Please use caution when using these settings, as the misuse of them can cause problems on your server.
 
 ## Custom CSS
 
-Can be found in Administration =&gt; Layout. This allows you to overwrite styling on ui. For the full maestry of this setting we recommend studying the source code, as seen that overwriting classes directly can lead to side effects on styling.
+Can be found in Administration =&gt; Layout. This allows you to overwrite styling on UI. For the full maestry of this setting we recommend studying the source code, as seen that overwriting classes directly can lead to side effects on styling.
 
 ### CSS Variables
 
 Rocket.Chat uses css variables to store key values when styling. Rocket.Chat recommends only overwriting the css variables, as you will have more control on what will be changed.
 
-You can find the full list of variables here
+You can find the full list of variables [here](https://github.com/RocketChat/Rocket.Chat/blob/84d547055ea1ce08e55d7a95ed99dd9c0be852b9/app/theme/client/imports/general/variables.css).
 
 ## Custom Scripts
 
@@ -24,19 +24,19 @@ This script runs after the user has logged out.
 
 ### Custom Script for Logged Out Users
 
-Custom Script that will run whenever a user that is not logged in accesses your server url. e.g. \(whenever you enter the login page\)
+Custom Script that will run whenever a user that is not logged in accesses your server url. E.g. \(whenever you enter the login page\)
 
 ### Custom Script for Logged In Users
 
-Custom Script that will run whenever a user that is logged in accesses your server url \(eg. opens a browser page or the desktop app\)
+Custom Script that will run whenever a user that is logged in accesses your server url \(eg. opens a browser page or the desktop app\).
 
 ## Email Templates
 
-Here you can configure various email settings, in this guide we will be going over only email templating sections. Found in the administration menu. Here you can use HTML for formatting. You can also use placeholders that will be changed to actual data when sending \(for example \[email\] will turn into the user's email\). You can also use Rocket.Chat internationalization engine by wrapping the sentence string with `{}`, see all our internationalization strings [here](https://github.com/RocketChat/Rocket.Chat/blob/develop/packages/rocketchat-i18n/i18n/en.i18n.json#L1198)
+Here you can configure various email settings, in this guide we will be going over only email templating sections. Found in the administration menu. Here you can use HTML for formatting. You can also use placeholders that will be changed to actual data when sending \(for example \[email\] will turn into the user's email\). You can also use Rocket.Chat internationalization engine by wrapping the sentence string with `{}`, see all our internationalization strings [here](https://github.com/RocketChat/Rocket.Chat/blob/develop/packages/rocketchat-i18n/i18n/en.i18n.json#L1198).
 
 ### Email Address Changed
 
-Informs that the user has changed the email Is triggered when the user changes the email You may use the following placeholders:
+Informs that the user has changed the email Is triggered when the user changes the email. You may use the following placeholders:
 
 * \[email\] for the user's email.
 * \[Site\_Name\] and \[Site\_URL\] for the Application Name and URL respectively.
