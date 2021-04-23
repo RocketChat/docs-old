@@ -23,23 +23,23 @@ In order to connect your server to our Cloud, your Rocket.Chat server must be at
 
 **If you don't have a cloud account yet:**
 
-1. Go to [cloud.rocket.chat](https://cloud.rocket.chat/) and create a new account:
+1. Go to [cloud.rocket.chat](https://cloud.rocket.chat/) and create a new account.
 
 ![](../../.gitbook/assets/image%20%28154%29.png)
 
-2. Fill up the registration form and "Register":
+2. Fill up the registration form and "Register".
 
 ![](../../.gitbook/assets/c_4.png)
 
-3. A verification email will be sent in order to activate your new Cloud account:
+3. A verification email will be sent in order to activate your new Cloud account.
 
 ![](../../.gitbook/assets/image%20%28155%29.png)
 
-4. The verification link will forward to cloud.rocket.chat. After the validation, you will be logged into your Cloud console. In order to register your self-hosted workspace, please select the "Register self-managed" button:
+4. The verification link will forward to cloud.rocket.chat. After the validation, you will be logged into your Cloud console. In order to register your self-hosted workspace, please select the "Register self-managed" button.
 
 ![](../../.gitbook/assets/c_6.png)
 
-5. A pop-up will be displayed in order to select the workspace type: 
+5. A pop-up will be displayed in order to select the workspace type. 
 
 * Internet Access: Rocket.Chat server that has a connection to the internet \(connected to the outside\)
 * No Internet Access: Special cases where Rocket.Chat server has no connection at all \(totally air-gapped\).
@@ -51,7 +51,7 @@ In this document, we are covering only the "Internet Access" option.
 ![](../../.gitbook/assets/c_8.png)
 
 7. On your Rocket.Chat server, go to _Administration &gt; Connectivity Services._   
-Fill up the "Email" field with the email related to your Rocket.Chat Cloud account and in the "Token" field please paste the registration token generated. Finally, hit the "Connect" button:
+Fill up the "Email" field with the email related to your Rocket.Chat Cloud account and in the "Token" field please paste the registration token generated. Finally, hit the "Connect" button.
 
 ![](../../.gitbook/assets/c_9.png)
 
