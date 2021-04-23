@@ -69,11 +69,19 @@ You can click to open a chat to view it:
 
 ![](../../../.gitbook/assets/image%20%28182%29.png)
 
-Go to the **Visitor Info** and click **Edit** your chat's details as shown below:
+Go to the **Room Information** and click **View full conversatio**n to open the conversation
 
-![](../../../.gitbook/assets/image%20%28218%29.png)
+![](../../../.gitbook/assets/image%20%28331%29.png)
+
+as shown below:
+
+![](../../../.gitbook/assets/image%20%28333%29.png)
+
+Click **Edit** to edit contact  details as shown below:
+
+![](../../../.gitbook/assets/image%20%28330%29.png)
 
 You can edit any details you want here. 
 
-![](../../../.gitbook/assets/image%20%28217%29.png)
+![](../../../.gitbook/assets/image%20%28336%29.png)
 

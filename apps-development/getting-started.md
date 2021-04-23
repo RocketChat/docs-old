@@ -63,7 +63,7 @@ You can check the [app-schema.json](https://github.com/RocketChat/Rocket.Chat.Ap
 
 ### Start Developing
 
-The basic creation of an App is based on extending the App class from the Rocket.Chat Apps definition library. Your class also has to implement the constructor and optionally the initialize function, for more details on those check the [App definition documentation](https://rocketchat.github.io/Rocket.Chat.Apps-engine/classes/app.html).
+The basic creation of an App is based on extending the App class from the Rocket.Chat Apps definition library. Your class also has to implement the constructor and optionally the initialize function, for more details on those check the [App definition documentation](https://rocketchat.github.io/Rocket.Chat.Apps-engine/classes/app.app-1.html).
 
 In this example, we already have our main file called `LiftoffApp.ts` that was generated when we first created our project:
 

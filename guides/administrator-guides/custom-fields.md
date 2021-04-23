@@ -47,7 +47,7 @@ Make sure to use a valid `JSON`, where `keys` are the `field names` containing a
 
 In the example above we set three new fields with the following properties:
 
-* **type**: defines the type of the field, currently there are 2 types: `select` and `text`, where `select` creates a dropdown list, and `text` creates a plain text form.
+* **type**: defines the type of the field, currently there are 2 types: `select` and `text`, where `select` creates a dropdown list, and `text` creates a plain text form. If you put a URL into the text field, it will be interpreted as a hyperlink \(it will be clickable in the userinfo tab\).
 * **defaultValue**: used with a `select` form type to set the default option for the list.
 * **options**: used with a `select` form type for the values that should be on the dropdown list, which follows the `["item1", "item2","item3"]` pattern. Use a [javascript Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) to create it.
 * **required**: defines if the field is required for registration; use `true` or `false` in this property.

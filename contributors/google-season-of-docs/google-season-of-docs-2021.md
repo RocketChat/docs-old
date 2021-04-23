@@ -12,15 +12,9 @@ Projects can cover a wide range of fields including Cloud computing, operating s
 
 ## How to apply
 
-Rocket.Chat intends to participate for the 2021 season. See [Google Season of Docs 2021 timeline](https://developers.google.com/season-of-docs/docs/timeline) for more details.
+#### Update April 16, 2021 
 
-We are currently developing a [project proposal](google-season-of-docs-2021.md#project-proposal) for this season.
-
-To meet the mentors and fellow writers for GSoD 2021 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
-
-[https://open.rocket.chat/channel/gsod2021](https://open.rocket.chat/channel/gsod2021)
-
-If you have questions and prefer email, please write us at: gsod+2021@rocket.chat
+Rocket.Chat has applied, but has not been selected for the 2021 Google Season of Docs program.   We intend to try again in 2022, and like to thank Google for the kind consideration this year.
 
 ### Project Proposal
 
