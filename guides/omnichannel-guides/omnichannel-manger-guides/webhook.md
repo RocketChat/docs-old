@@ -18,7 +18,7 @@ Go to **Webhooks** in the omnichannel panel settings, as shown below:
 
 ![](../../../.gitbook/assets/1%20%2814%29.png)
 
-If you select Chat Start
+If you select Chat Start.
 
 ![](../../../.gitbook/assets/2%20%2813%29.png)
 
@@ -28,7 +28,7 @@ Rocket.chat will send a webhook to the external system telling it that a new con
 
 Here is an example of the JSON data sent at the end of a Livechat session:
 
-```text
+```javascript
 {
     "type": "LivechatSession",
     "_id": "fasd6f5a4sd6f8a4sdf",
@@ -83,7 +83,7 @@ Here is an example of the JSON data sent at the end of a Livechat session:
 
 Here is an example of the JSON data sent on a Livechat offline message:
 
-```text
+```javascript
 {
     "type": "LivechatOfflineMessage",
     "sentAt": "2016-06-01T19:55:53.867Z",

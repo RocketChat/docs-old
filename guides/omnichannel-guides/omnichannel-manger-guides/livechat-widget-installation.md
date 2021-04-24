@@ -8,7 +8,7 @@ description: >-
 
 To access **Livechat Installation** settings:
 
-1. Go to **Livechat Installation** in the omnichannel panel settings, as shown below:
+Go to **Livechat Installation** in the omnichannel panel settings, as shown below:
 
 ![](../../../.gitbook/assets/0%20%2810%29.png)
 
