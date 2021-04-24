@@ -30,7 +30,7 @@ The new department's settings page will appear, as shown below:
 
 ![](../../../.gitbook/assets/5%20%282%29.png)
 
-4. Type in a description. It's optional.
+4. Type in the description. It's optional.
 
 ![](../../../.gitbook/assets/6%20%282%29.png)
 
