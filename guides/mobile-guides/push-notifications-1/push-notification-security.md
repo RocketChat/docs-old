@@ -16,17 +16,17 @@ Please note that this process works for both situations if the user is using Roc
 
 In Privacy, you can configure what amount of information you want your push notification to have.‌
 
-1. Go to **Administration.**
+1. Go to **Administration**.
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-MIu7bi07NaZFbYSpJXT%2F-MIuGig9NcK8dKxenTuF%2Fimage.png?alt=media&token=12c524f6-d316-404d-8d1c-8900b61b22fb)
 
-2. Search '**Push'** in **Settings.**
+2. Search '**Push**' in **Settings**.
 
 ​‌
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-MNoqPzvogBnNTSPZgYI%2F-MNowERLUMcrX9DNhVFy%2Fimage.png?alt=media&token=34db2493-3fc7-4c38-972b-52e0517731bf)
 
-3. Go to **Privacy**
+3. Go to **Privacy**.
 
 \*\*\*\*
 
