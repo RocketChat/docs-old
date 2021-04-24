@@ -12,11 +12,11 @@ Example:
 FileUpload_Storage_Type=GoogleCloudStorage
 ```
 
-**Note: This only works if the setting isn't already set. So this is most useful for setting on initial start. If the setting already has a value you will need to use the syntax below**
+**Note: This only works if the setting isn't already set. So this is most useful for setting on initial start. If the setting already has a value you will need to use the syntax below.**
 
 ## Overwrite Setting
 
-You can overwrite any setting by setting an environment variable prefixed with: `OVERWRITE_SETTING_`
+You can overwrite any setting by setting an environment variable prefixed with: `OVERWRITE_SETTING_`.
 
 Example:
 
@@ -34,25 +34,25 @@ Example:
 SETTINGS_BLOCKED=FileUpload_Storage_Type,FileUpload_GoogleStorage_AccessId,FileUpload_GoogleStorage_Secret
 ```
 
-**Even you as an admin will not be able to change this via the UI. If you want to change the setting you will need to remove it from the list and reboot the server**
+**Even you as an admin will not be able to change this via the UI. If you want to change the setting you will need to remove it from the list and reboot the server.**
 
 ## Hide Settings
 
-Example:
+You can hide settings from the client by using the `SETTINGS_HIDDEN` environment variable.
 
-You can hide settings from the client by using the `SETTINGS_HIDDEN` environment variable
+Example:
 
 ```text
 SETTINGS_HIDDEN=FileUpload_GoogleStorage_AccessId,FileUpload_GoogleStorage_Secret
 ```
 
-**Be careful with this setting some settings like `FileUpload_Storage_Type` are needed by the client so cannot be hidden**
+**Be careful with this setting some settings like `FileUpload_Storage_Type` are needed by the client so cannot be hidden.**
 
 ## **Wizard Required** Settings
 
-Example:
+You can force settings to be required on wizard pages by using the `SETTINGS_REQUIRED_ON_WIZARD` environment variable.
 
-You can force settings to be required on wizard pages by using the `SETTINGS_REQUIRED_ON_WIZARD` environment variable
+Example:
 
 ```text
 SETTINGS_REQUIRED_ON_WIZARD=Organization_Type,Organization_Name

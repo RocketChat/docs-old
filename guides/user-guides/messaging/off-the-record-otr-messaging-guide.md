@@ -1,4 +1,4 @@
-# Off-the-record \(OTR\) Messaging Guide
+# Off-the-record \(OTR\) Messaging User Guide
 
 {% hint style="info" %}
 This feature is currently in beta. Search operations will not find encrypted messages of encrypted rooms. The mobile apps and multi-DMs may not support the encrypted messages \(currently under implementation\). File Uploads will not be encrypted in this version.

@@ -28,8 +28,6 @@ Go to Real-time Monitoring in the omnichannel panel settings, as shown below:
 
 Details of matrices are as follows:
 
-
-
 ![](../../../.gitbook/assets/5%20%289%29.png)
 
 ### **Total Conversations:** 
@@ -42,13 +40,11 @@ It represents the total number of open conversations for your selected departmen
 
 ### **Total Messages:** 
 
-It represents the total number of messages received in all the current day conversations.
+It represents the total number of messages received in all the current-day conversations.
 
 ### **Total** **Visitors:** 
 
 It represents the total number of livechat users for your selected department for the current day.
-
-
 
 ![](../../../.gitbook/assets/6%20%288%29.png)
 
@@ -64,8 +60,6 @@ It represents the average of conversations abandoned by the visitor for your sel
 
 It represents the average duration of all the conversations of your selected department for the current day.
 
-
-
 ![](../../../.gitbook/assets/7%20%286%29.png)
 
 ### **Busiest Time:** 
@@ -79,8 +73,6 @@ It represents how many hours the Omnichannel service was available during the da
 ### **Average of Service Time:** 
 
 It represents the average time the agents spend serving chats in the current day.
-
-
 
 ![](../../../.gitbook/assets/8%20%285%29.png)
 

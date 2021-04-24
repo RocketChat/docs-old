@@ -32,5 +32,5 @@ db.migrations.update({_id: 'control'},{$set:{locked:false,version:19}})
 
 Restart Rocket.Chat and the migration should succeed now to the latest version.
 
-**Note**: certain new values that are vital to Rocket.Chat operations may remain unpopulated when you skip versions. For example, you may have to manually apply roles to users.
+**Note**: Certain new values that are vital to Rocket.Chat operations may remain unpopulated when you skip versions. For example, you may have to manually apply roles to users.
 

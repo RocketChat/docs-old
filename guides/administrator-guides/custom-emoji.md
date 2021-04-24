@@ -21,7 +21,7 @@ Custom emoji can be used to add in the message, react to other messages. These e
 
 ![Access emoji example](../../.gitbook/assets/access-emoji.png)
 
-You can also use these emojis using their name and aliases like `:hammy:` or `:savage:`
+You can also use these emojis using their name and aliases like `:hammy:` or `:savage:`.
 
 ## Delete/Edit custom emoji
 
@@ -29,5 +29,5 @@ Search and click on the emoji you want to delete in the Custom Emoji section und
 
 Press the DELETE or EDIT button to delete or update the selected emoji respectively.
 
-> Admins might have set the [permissions](permissions.md) about who can manage these emojis.
+> Admins might have set the [permissions](administration/permissions-1.md) about who can manage these emojis.
 

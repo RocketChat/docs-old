@@ -2,7 +2,7 @@
 
 In Rocket. Chat start video and audio conferences using [Jitsi Meet](https://jitsi.org/jitsi-meet/)
 
-**Note:** This feature must be enabled by the server's administrator. See [Setting up video conferencing](../../administrator-guides/setting-up-video-conferencing/).
+**Note:** This feature must be enabled by the server's administrator. See [Setting up video conferencing](../../administrator-guides/misc.-admin-guides/setting-up-video-conferencing/).
 
 ## Start a Jitsi meet
 

@@ -1,6 +1,6 @@
 # Talking to users from another server
 
-Once you have [added your server to the Federated Network](../administrator-guides/federation.md), you can talk to users from servers who have done the same.
+Once you have [added your server to the Federated Network](../administrator-guides/settings/federation.md), you can talk to users from servers who have done the same.
 
 ## Using Rocket.Chat Federation
 
