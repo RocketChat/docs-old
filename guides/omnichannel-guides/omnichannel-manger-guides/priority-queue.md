@@ -28,10 +28,10 @@ Your new priority is saved, as shown below:
 
 ![](../../../.gitbook/assets/image%20%2852%29.png)
 
-Each priority has its own\(unique\) `Estimated due time` field\(time in minutes\), so once a priority is associated with an `Inquiry/room`, this field will be used to set the queue inquiry order. As the priority is not mandatory, the Omnichannel queues will have inquiries with and without priorities. To support both possibilities, I refactored the structure of the fields that are used to sort the queues as displayed below
+Each priority has its own\(unique\) `Estimated due time` field\(time in minutes\), so once a priority is associated with an `Inquiry/room`, this field will be used to set the queue inquiry order. As the priority is not mandatory, the Omnichannel queues will have inquiries with and without priorities. To support both possibilities, I refactored the structure of the fields that are used to sort the queues as displayed below:
 
 **queueOrder:**  
-1 - default, is set when there is no priority associated with the room;  
+1 - default, is set when there is no priority associated with the room.
 0 - Is set when a priority is associated with a room, so inquiries with the `queueOrder = 0` will be attended before inquiries without associated priority.
 
 **estimatedWaitingTimeQueue:**  
