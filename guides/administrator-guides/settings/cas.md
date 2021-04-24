@@ -1,7 +1,5 @@
 # CAS
 
-## CAS
-
 Central Authentication Service \(CAS\) allows users to use one set of credentials to sign into many sites over many different protocols.
 
 Rocket.Chat includes a CAS plugin that allows you to use your existing CAS server for user authentication.

@@ -4,8 +4,6 @@ description: Rocket.Chat Enterprise feature
 
 # Canned responses
 
-
-
 Canned responses allow you to save message snippets that you can call with shortcuts \(preceded with `!`\) to communicate a quick note to your visitors in Omnichannel and for messaging in regular conversations inside your Rocket.Chat workspace. 
 
 Follow the steps to set up the canned responses:
