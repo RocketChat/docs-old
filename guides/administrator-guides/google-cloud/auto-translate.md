@@ -24,7 +24,7 @@ Now that you have your API key, it's time to set up the auto translate feature i
 
 To do that you can simply go to `Auto-Translate` under `Administration -> Message`, enable the setting and add your API key on the `Google API Key` field. After that save your settings and you're ready to go!
 
-Only users with the `auto-translate` permission will be able to use this feature. See [Permissions](../permissions.md)
+Only users with the `auto-translate` permission will be able to use this feature. See [Permissions](../administration/permissions-1.md)
 
 ## Enabling AutoTranslate on a Channel
 

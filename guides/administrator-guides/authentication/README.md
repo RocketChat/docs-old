@@ -1,12 +1,12 @@
 # Authentication
 
-{% page-ref page="oauth/" %}
+{% page-ref page="../settings/oauth/" %}
 
 {% page-ref page="open-id-connect/" %}
 
-{% page-ref page="saml/" %}
+{% page-ref page="../settings/saml/" %}
 
-{% page-ref page="cas.md" %}
+{% page-ref page="../settings/cas.md" %}
 
 {% page-ref page="single-sign-on-iframe.md" %}
 
