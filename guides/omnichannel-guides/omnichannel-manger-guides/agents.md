@@ -22,11 +22,11 @@ Settings appear, as shown below:
 
 ![](../../../.gitbook/assets/2%20%284%29.png)
 
-1. Hit **Add**.
+2. Hit **Add**.
 
 ![](../../../.gitbook/assets/3%20%284%29.png)
 
-1. The user has the Agent role now, as shown below:
+3. The user has the Agent role now, as shown below:
 
 ![](../../../.gitbook/assets/4%20%285%29.png)
 

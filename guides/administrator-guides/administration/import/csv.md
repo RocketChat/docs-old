@@ -1,12 +1,12 @@
 # CSV
 
-The CSV importer allows you to import your own plain text files, however it does require the zip file to be in a specific format for the importer to understand.
+The CSV importer allows you to import your own plain text files. However, it does require the zip file to be in a specific format for the importer to understand.
 
 ## The Zip File
 
-The zip file must be a **flat zip**, which means there can **not** be a "root" or "sub" folder in which the items reside in the zip file. The importer looks for the files `channels.csv` and `users.csv` immediately inside the zip and not inside of any folder. If you have any questions about this, please ask in [\#support channel on the Community server](https://open.rocket.chat/channel/support).
+The zip file must be a **flat zip**, which means there can **not** be a "root" or "sub" folder in which the items reside in the zip file. The importer looks for the files `channels.csv` and `users.csv` immediately inside the zip and not inside of any folder. If you have any questions about this, please ask in the [\#support channel on the Community server](https://open.rocket.chat/channel/support).
 
-The **directmessages** directory is a special directory name, check **Direct Messages** section below.
+The **directmessages** directory is a special directory name. Check the **Direct Messages** section below.
 
 ```text
 fileToImport.zip
@@ -38,7 +38,7 @@ The `channels.csv` requires a **very** specific structure and layout. Each line 
 
 1. Channel name
 2. Username of the channel creator
-3. Whether the channel is public or private. If the last argument is not `private` it is assumed the channel is public.
+3. Whether the channel is public or private. If the last argument is not `private` it is assumed the channel is public
 4. List of users in the channel, separated by semicolons. If only the creator is in the channel, then there must be empty quotes.
 
 ```text
@@ -50,7 +50,7 @@ The `channels.csv` requires a **very** specific structure and layout. Each line 
 
 ## users.csv Format
 
-The `users.csv` is a file which contains the user details, each line containing a new user and the user details is:
+The `users.csv` is a file that contains the user details, each line containing a new user, and the user details are:
 
 1. Username \(must not contain @ and some other special characters\)
 2. Email
@@ -64,11 +64,11 @@ graywolf336,graywolf336@example.com,GrayWolf336
 
 ## Message Files
 
-The message csv files require a **very** specific format. Each line contains a new message, every piece of information is **requires** quotes to surround it, there cannot be any spaces between the commas. The details required are:
+The message CSV files require a particular format. Each line contains a new message, every piece of information is **required** quotes to surround it, there cannot be any spaces between the commas. The details required are:
 
 1. Username who sent the message
 2. The timestamp in milliseconds
-3. The message, quotes are highly recommended especially if the message text contains a comma.
+3. The message, quotes are highly recommended, especially if the message text contains a comma.
 
 ```text
 "bradley.hilton","1479162481336","this is a test message"
@@ -82,9 +82,9 @@ Direct Channels / Direct Messages are imported from a special directory named **
 1. Username who sent the message
 2. Username who received the message
 3. The timestamp in milliseconds
-4. The message, quotes are highly recommended especially if the message text contains a comma.
+4. The message, quotes are highly recommended, especially if the message text contains a comma.
 
-It's **required** to keep conversations in **distinct files**, for example, a conversation between user A and B compose a file \(`messages1.csv`\), and the conversation between user B and C compose another file \(`messages2.csv`\).
+It's **required** to keep conversations in **distinct files;** for example, a conversation between user A and B compose a file \(`messages1.csv`\), and the conversation between user B and C compose another file \(`messages2.csv`\).
 
 ```text
 "bradley.hilton","billy.bob","1479162481336","this is a test message"

@@ -1,6 +1,6 @@
 # HipChat Cloud
 
-To start importing values from HipChat you first need to have an instance of Rocket.Chat running. You can do that by [your own](https://docs.rocket.chat/developer-guides/quick-start/).
+To start importing values from HipChat you first need to have an instance of Rocket.Chat running. You can do that on [your own](https://docs.rocket.chat/developer-guides/quick-start/).
 
 If you already have an instance running and administration privileges, you can follow these steps:
 
