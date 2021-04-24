@@ -8,11 +8,11 @@ Here is where most of the changes to the UI will happen. Found in the administra
 
 ### Colors
 
-Let’s start out with the most basic changes you can make to your server, changing colors. Rocket.Chat offers the ability to change most of its elements colors
+Let’s start out with the most basic changes you can make to your server, changing colors. Rocket.Chat offers the ability to change most of its elements colors.
 
 ### Error
 
-The Error variable will change these elements: The background on switch buttons \(when disabled\)
+The Error variable will change these elements: The background on switch buttons \(when disabled\).
 
 ![Disabled switch button](../../../.gitbook/assets/disabled-switch%20%281%29.png)
 
@@ -425,9 +425,9 @@ The content section allows you to change the HTML content of a number of screens
 * **Home Title:** The title on the header of the first screen that your users will see when they log in.
 * **Home Body:** The content of the first screen that your users will see when logging in.
 * **Login Terms:** This is the text under the login page.
-* **Terms of Service:** By default this screen is accessed on the links under the login page, here you can set the terms of service of your server. Can also be accessed via YOUR-SERVER-URL/terms-of-service
-* **Privacy Policy:** By default this screen is accessed on the links under the login page, here you can set the privacy policy  of your server. Can also be accessed via YOUR-SERVER-URL/privacy-policy
-* **Legal Notice:** By default this screen is accessed on the links under the login page, here you can set the legal notice  of your server. Can also be accessed via YOUR-SERVER-URL/legal-notice
+* **Terms of Service:** By default this screen is accessed on the links under the login page, here you can set the terms of service of your server. Can also be accessed via YOUR-SERVER-URL/terms-of-service.
+* **Privacy Policy:** By default this screen is accessed on the links under the login page, here you can set the privacy policy  of your server. Can also be accessed via YOUR-SERVER-URL/privacy-policy.
+* **Legal Notice:** By default this screen is accessed on the links under the login page, here you can set the legal notice  of your server. Can also be accessed via YOUR-SERVER-URL/legal-notice.
 * **Side navigation footer:** This is the logo on the left sidebar. We recommend using the images set on your [Assets](basic-white-labeling.md#assets) for better consistency.
 
 ### Fonts
@@ -439,19 +439,19 @@ Here you can define the font family for the system in a list separated by commas
 * **Display Roles:** Toggles the display of user roles by the usernames on messages
 * **Group Channels By Type:** Enabling this will separate the channels by category \(Channel, Private Room, DM or discussion\) on the left sidebar.
 * **Use Full Name Initials to Generate Default Avatar:** This will make so the default avatars are generated using the person Full Name instead of Username. E.g. By default the user `blue.ducks` with the name `Richards Nate` will have an avatar with the letters `BD`, if this setting is active, it will be `RN`.
-* **Use Real Name:** Enabling this will change the display of Usernames to Full Names
+* **Use Real Name:** Enabling this will change the display of Usernames to Full Names.
 * **Click to Create Direct Message:** Enabling this will make it so when you click an avatar, it will open a DM with the selected user.
 
 Unread Counter Style:
 
-* **Different Style for user mentions:** This will make the notification counter differentiate normal messages from mentions
-* **Same style for mentions:** This will make the counter mark mentions and normal messages as the same
-* **Allow Special Characters in Room Names:** This will enable the use of special characters like `! @ # $ % ^ & *` in room names
-* **Show top navbar in embedded layout:** This toggles the top navbar when using `?layout=embedded` in the end of the url
+* **Different Style for user mentions:** This will make the notification counter differentiate normal messages from mentions.
+* **Same style for mentions:** This will make the counter mark mentions and normal messages as the same.
+* **Allow Special Characters in Room Names:** This will enable the use of special characters like `! @ # $ % ^ & *` in room names.
+* **Show top navbar in embedded layout:** This toggles the top navbar when using `?layout=embedded` in the end of the url.
 
 ## Assets
 
-Here you will be able to change most of the logos on your server. Found in the administration menu.
+Here you will be able to change most of the logos on your server. Found in the administration menu:
 
 * logo \(svg, png, jpg\)
   * Changes the logo on the footer of the left sidebar

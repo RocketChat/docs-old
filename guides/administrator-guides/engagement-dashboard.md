@@ -10,11 +10,11 @@ Engagement Dashboard is an enterprise-only feature.
 
 To access the **Engagement Dashboard:**
 
-1. Go to **Administration.**
+1. Go to **Administration**:
 
 ![](../../.gitbook/assets/image%20%2830%29.png)
 
-  2.  Click **Engagement Dashboard**.
+  2.  Click **Engagement Dashboard**:
 
 ![](../../.gitbook/assets/image%20%28139%29%20%281%29%20%281%29.png)
 
@@ -22,7 +22,7 @@ As an administrator, you can see your _User_, _Messages_, and _Channels_ engagem
 
 ## User
 
-The user tab shows you the following engagement matrices.
+The user tab shows you the following engagement matrices:
 
 ![](../../.gitbook/assets/image%20%28129%29%20%281%29%20%281%29%20%281%29.png)
 
@@ -72,7 +72,7 @@ It represents the time by day or hour when your chat is busier, as shown below:
 
 ## Messages
 
-The Messages tab shows you the following engagement matrices.
+The Messages tab shows you the following engagement matrices:
 
 ![](../../.gitbook/assets/image%20%28138%29.png)
 
@@ -94,7 +94,7 @@ It represents the public, private, and top 5 most popular channel to which the m
 
 ## Channels
 
-This table shows you the count of _messages being sent_ and the _increment/decrement_ of count from the last interval for a selected period for **all** your channels. You can also download this information in a CSV file.
+This table shows you the count of _messages being sent_ and the _increment/decrement_ of count from the last interval for a selected period for **all** your channels. You can also download this information in a CSV file:
 
 ![](../../.gitbook/assets/image%20%28141%29.png)
 
