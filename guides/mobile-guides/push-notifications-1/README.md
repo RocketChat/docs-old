@@ -42,9 +42,9 @@ For iOS, you need an apple developer account that costs US$99 per year. Follow i
 
 ### Configuring Rocket.Chat
 
-* Go to "Administration", then "Push".
-* Set the Enable Gateway to False, then plug the information obtained from Apple and Google.
-* Restart server \(without this, it will not work\).
+* Go to "Administration", then "Push"
+* Set the Enable Gateway to False, then plug the information obtained from Apple and Google
+* Restart server \(without this, it will not work\)
 
 Now you should be able to send a text message. Make sure that you have logged in to the server once and then closed the app. You should see a test notification after you pressed the send button.
 
@@ -52,17 +52,17 @@ Now you should be able to send a text message. Make sure that you have logged in
 
 Rocket.Chat allows for additional privacy configurations on push notifications:
 
-* Show Channel/Group/Username in Notification: Default is "TRUE", disabling this setting prevents the Channel, Group, Discussion, and Username from being sent to the push notification gateway.
-* Show Message in Notification: Default is "TRUE", disabling this setting prevents the message content from being sent to the push notification gateway.
+* Show Channel/Group/Username in Notification: Default is "TRUE", disabling this setting prevents the Channel, Group, Discussion, and Username from being sent to the push notification gateway
+* Show Message in Notification: Default is "TRUE", disabling this setting prevents the message content from being sent to the push notification gateway
 
 If both settings are set to "FALSE", the user will receive a push notification without contextual information, as no such contextual information is sent to the push notification gateway in the first place. The user can then access the contextual information by opening the Rocket.Chat application. This is helpful in compliance-sensitive requirements like HIPAA to prevent sensitive information from being disclosed via push notification.
 
 ## General Observations
 
-* If you don't want notifications, you can disable the gateway and not provide keys.
-* You cannot compile your own applications and use the Rocket.Chat push gateway.
-* For iOS, you need to [convert](https://github.com/raix/push/blob/master/docs/IOS.md) both the .cer and .p12 files into .pem files.
-* Once everything is configured on the admin settings, the server must be restarted.
+* If you don't want notifications, you can disable the gateway and not provide keys
+* You cannot compile your own applications and use the Rocket.Chat push gateway
+* For iOS, you need to [convert](https://github.com/raix/push/blob/master/docs/IOS.md) both the .cer and .p12 files into .pem files
+* Once everything is configured on the admin settings, the server must be restarted
 
 ## FAQ
 
