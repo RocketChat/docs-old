@@ -22,15 +22,11 @@ Send an email to [omni@rocket.chat](mailto:omni@rocket.chat) to request an API k
 3. Enable Facebook integration.
 4. Enter your _OmniChannel API Key_ and _OmniChannel API Secret_. **Save** the changes.
 
- 
-
 ![](../../../.gitbook/assets/image%20%2853%29.png)
 
 5. Return to the main Rocket.Chat interface. Go to Omnichannel panel settings, as shown below:
 
 ![](../../../.gitbook/assets/0%20%288%29%20%285%29%20%285%29%20%285%29%20%285%29%20%285%29%20%284%29%20%284%29%20%281%29.png)
-
-
 
 6. Select Facebook Messenger and  Enable. You'll be prompted to log in. Be sure to use the credentials that are tied to the page you wish to receive messages from. You'll have to do a standard Facebook OAuth login and grant your Rocket.Chat instance access to your pages.
 

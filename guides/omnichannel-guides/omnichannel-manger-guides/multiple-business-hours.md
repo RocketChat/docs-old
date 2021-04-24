@@ -8,7 +8,7 @@ The feature turns on the omnichannel toggle for the set business hours automatic
 
 To access **Business** **Hours** settings:
 
-1. Goto the dots menu and hit **Omnichannel**. Omnichannel settings will open up.
+1. Go to the dots menu and hit **Omnichannel**. Omnichannel settings will open up.
 
 ![](../../../.gitbook/assets/0%20%282%29.png)
 
