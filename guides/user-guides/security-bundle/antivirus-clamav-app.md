@@ -1,7 +1,8 @@
 ---
 description: >-
-  ClamAV® is an open source (GPL) anti-virus engine used in a variety of
-  situations including email scanning, web scanning, and end point security.
+  This app enables forwarding uploaded files to an open-source antivirus
+  (ClamAV) application and prevents the upload from completing in Rocket.Chat in
+  case of virus.
 ---
 
 # Antivirus ClamAV App
