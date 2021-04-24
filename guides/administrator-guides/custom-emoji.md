@@ -21,7 +21,7 @@ Custom emoji can be used to add in the message, react to other messages. These e
 
 ![Access emoji example](../../.gitbook/assets/access-emoji.png)
 
-You can also use these emojis using their name and aliases like `:hammy:` or `:savage:`
+You can also use these emojis using their name and aliases like `:hammy:` or `:savage:`.
 
 ## Delete/Edit custom emoji
 

@@ -10,5 +10,5 @@ Installation instructions [here](https://github.com/EionRobb/purple-rocketchat#r
 
 Download plugin DLL [here](https://eion.robbmob.com/librocketchat.dll).
 
-Thanks to community member @eionrobb !
+Thanks to community member @eionrobb!
 

@@ -16,5 +16,5 @@ _Currently the admin needs a valid Google app with access to the Youtube API to 
 
 ## Livestream tab
 
-After a correct set up, the Livestream tab will now allow you to Broadcast your camera when editing the source url. When opening the popout, it might take a moment while we prepare the broadcast and livestream for your session, this will be indicated by the blinking icon and "Preparing" status displayed in the control bar. After that initial phase, the broadcast will be Ready and available to start with your click.
+After a correct set up, the Livestream tab will now allow you to Broadcast your camera when editing the source URL. When opening the popout, it might take a moment while we prepare the broadcast and livestream for your session, this will be indicated by the blinking icon and "Preparing" status displayed in the control bar. After that initial phase, the broadcast will be Ready and available to start with your click.
 

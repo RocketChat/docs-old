@@ -10,7 +10,7 @@ Then, you can write a subject and a body for the email. When you write the body,
 
 Add the following brackets to the email body:
 
-* `[unsubscribe]`: creates an unsubscribe link. The email body **must** have an unsubscribe link.
+* `[unsubscribe]`: creates an unsubscribe link. The email body **must** have an unsubscribe link
 * `[name]`: uses the full name of the user that receives the email
 * `[fname]`: uses the first name of the user that receives the email
 * `[lname]`: uses the last name of the user that receives the email
