@@ -62,7 +62,7 @@ When you are assisting chats, Omnichannel contacts can drop the conversation, bu
 
 If the omnichannel contact engages again, the routing algorithm will try to find you first to assign this conversation. In case you are busy serving other chats at maximum capacity, the chat will be assigned to the next available agent. 
 
-Or click Resume engage with the same contact again at any time, as shown below:
+Or click **Resume** engage with the same contact again at any time, as shown below:
 
 ![](../../../../.gitbook/assets/image%20%28328%29.png)
 

@@ -43,7 +43,7 @@ To create a new contact:
 
 ![](../../../.gitbook/assets/image%20%28212%29.png)
 
-2. Enter all the information and hit save. 
+2. Enter all the information and hit **Save**. 
 
 ![](../../../.gitbook/assets/image%20%28213%29.png)
 
@@ -55,7 +55,7 @@ It appears in the search, as it shows:
 
 ## Chats
 
-All the chats you have taken appear under Chats, as you see below:
+All the chats you have taken appear under **Chats**, as you see below:
 
 ![](../../../.gitbook/assets/image%20%28215%29%20%281%29.png)
 
@@ -69,7 +69,7 @@ You can click to open a chat to view it:
 
 ![](../../../.gitbook/assets/image%20%28182%29.png)
 
-Go to the **Room Information** and click **View full conversatio**n to open the conversation
+Go to the **Room Information** and click **View full conversation** to open the conversation.
 
 ![](../../../.gitbook/assets/image%20%28331%29.png)
 

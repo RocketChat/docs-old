@@ -8,7 +8,7 @@ Click **Contact Information** to view the contact details, as shown below:
 
 ## Edit contact information
 
-Click Edit contact to add any contact details you want, as shown below:
+Click **Edit** contact to add any contact details you want, as shown below:
 
 ![](../../../../.gitbook/assets/image%20%28325%29.png)
 

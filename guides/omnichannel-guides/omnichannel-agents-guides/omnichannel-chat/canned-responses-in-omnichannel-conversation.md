@@ -2,7 +2,7 @@
 
 To access canned responses and use them:
 
-* Click canned responses
+* Click **Canned** responses
 
 ![](../../../../.gitbook/assets/image%20%28315%29.png)
 
