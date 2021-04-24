@@ -61,11 +61,11 @@ Clicking on the `Reset` button will reset all these basic configurations back to
 
 ## Avatar
 
-* **Resize Avatar**: Set this to true to resize users avatars to a predefined size. You need ImageMagick or GraphicsMagick installed on your server for this feature to work.
+* **Resize Avatar**: Set this to true to resize user avatars to a predefined size. You need ImageMagick or GraphicsMagick installed on your server for this feature to work.
 * **Avatar Size**: The desired size after the avatar resizing. The unit is pixels \(px\).
-* **Avatar External Provider URL**: Lets you set a url from which avatars can be loaded.
-* **Avatar cache time**: This will set how long _in miliseconds_ you want user's avatar to be cached.
-* **Block Unauthenticated Access to Avatars**: Enabling this will restrict access to user's avatar for those that are not authenticated.
+* **Avatar External Provider URL**: Lets you set a URL from which avatars can be loaded.
+* **Avatar cache time**: This will set how long _in milliseconds_ you want users avatar to be cached.
+* **Block Unauthenticated Access to Avatars**: Enabling this will restrict access to users avatar for those that are not authenticated.
 * **Set Default Avatar**: If this setting is set to true, Rocket.Chat will try to find a default avatar based on OAuth Account or Gravatar.
 
 ## Iframe
@@ -81,7 +81,7 @@ The various settings that fall under this have simple descriptions for understan
 ## Registration
 
 * **Send email to user when user is activated**: When enabled, an email will be sent to the user after their account has been activated.
-* **Send email to user when user is deactivated**: If set to True, users will get an email after account deactivation.
+* **Send email to user when user is deactivated**: If set to `true`, users will get an email after account deactivation.
 * **Default username prefix suggestion**: This is the prefix that will be suggested when a user is creating a username. Default is `user`.
 * **Require Name For Signup**: If this is set to true, the name of the user will be required to create an account.
 * **Require Password Confirmation**: If this is set to true, the user will have to input his password twice when registering.
@@ -89,10 +89,10 @@ The various settings that fall under this have simple descriptions for understan
 * **Manually Approve New Users**: If this is set to true, new users will have to wait for a user with the `view-user-administration` permission to approve their account before using Rocket.Chat.
 * **Allowed Domains List**:  This will block emails with different domains than the ones on this list.
 * **Blocked Domains List**:  This will block emails with domains that are on this list.
-* **Use Default Blocked Domains List**: Will block the email domains listed on [here](https://github.com/RocketChat/Rocket.Chat/blob/develop/app/lib/server/lib/defaultBlockedDomainsList.js) 
+* **Use Default Blocked Domains List**: Will block the email domains listed [here](https://github.com/RocketChat/Rocket.Chat/blob/develop/app/lib/server/lib/defaultBlockedDomainsList.js) 
 * **Use DNS Domain Check**: When this is set to true, users won't be able to register with invalid domains.
 * **Registration Form**: This will change how the registration form is presented. Currently, there are 3 options:
-  * Public: The form will be public and anyone will be able to access;
+  * Public: The form will be public and anyone will be able to access it;
   * Disabled: The form will be disabled and users won't be able to register through it;
   * Secret URL: The form will be only accessible using a specific URL;
 * **Registration Form Secret URL**: String to be added to the secret URL. Is recommended to use a random string for that. Example: `https://open.rocket.chat/register/[secret_hash]`.
