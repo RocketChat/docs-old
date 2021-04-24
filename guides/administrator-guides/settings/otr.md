@@ -10,5 +10,5 @@ Off-the-record \(OTR\) Messaging is a feature that allows users to exchange **te
 
 As an administrator, you can enable/disable OTR for your workspace, as shown below:
 
-![](../../../.gitbook/assets/image%20%28385%29.png)
+![](../../../.gitbook/assets/image%20%28387%29.png)
 
