@@ -24,7 +24,7 @@ As soon as you take it, it will appear in **Chats in Progress** and, you can cli
 Note that if you type without clicking **Reply via Email**, your contact will **NOT** receive your reply at all.
 {% endhint %}
 
-Type your message and hit send.
+Type your message and hit **Send**.
 
 ![](../../../.gitbook/assets/image%20%28226%29.png)
 
@@ -68,7 +68,7 @@ To send an attachment:
 
 ![](../../../.gitbook/assets/image%20%28249%29.png)
 
-1. Click **Send via Email as attachment**.
+2. Click **Send via Email as attachment**.
 
 ![](../../../.gitbook/assets/image%20%28247%29.png)
 
