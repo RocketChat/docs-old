@@ -4,7 +4,7 @@
 
 {% page-ref page="open-id-connect/" %}
 
-{% page-ref page="saml/" %}
+{% page-ref page="../settings/saml/" %}
 
 {% page-ref page="../settings/cas.md" %}
 

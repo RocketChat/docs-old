@@ -8,7 +8,7 @@ Oracle Identity Cloud Service is integrated as a SAML Identity Provider. For a d
 
 ### Before you begin
 
-Before you create your IDCS application, make sure you have enabled SAML per the [SAML Documentation](../). You will need to have entered a _Custom Provider_ and a _Custom Issuer_ URL on the SAML settings page in Rocket.Chat.
+Before you create your IDCS application, make sure you have enabled SAML per the [SAML Documentation](../../authentication/). You will need to have entered a _Custom Provider_ and a _Custom Issuer_ URL on the SAML settings page in Rocket.Chat.
 
 **Note:** Leave the _Custom Entry Point_ and _IDP SLO Redirect URL_ values as the default values for now. We will obtain these URLs below, but you must save the SAML settings with your _Custom Issuer_ URL so you can visit this URL and obtain values that are necessary when creating the IDCS application below.
 
