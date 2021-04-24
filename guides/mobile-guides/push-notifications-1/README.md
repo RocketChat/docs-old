@@ -42,9 +42,9 @@ For iOS, you need an apple developer account that costs US$99 per year. Follow i
 
 ### Configuring Rocket.Chat
 
-* Go to "Administration", then "Push"
-* Set the Enable Gateway to False, then plug the information obtained from Apple and Google
-* Restart server \(without this, it will not work\)
+* Go to "Administration", then "Push".
+* Set the Enable Gateway to False, then plug the information obtained from Apple and Google.
+* Restart server \(without this, it will not work\).
 
 Now you should be able to send a text message. Make sure that you have logged in to the server once and then closed the app. You should see a test notification after you pressed the send button.
 
@@ -61,7 +61,7 @@ If both settings are set to "FALSE", the user will receive a push notification w
 
 * If you don't want notifications, you can disable the gateway and not provide keys.
 * You cannot compile your own applications and use the Rocket.Chat push gateway.
-* For iOS, you need to [convert](https://github.com/raix/push/blob/master/docs/IOS.md) both the .cer and .p12 files into .pem files
+* For iOS, you need to [convert](https://github.com/raix/push/blob/master/docs/IOS.md) both the .cer and .p12 files into .pem files.
 * Once everything is configured on the admin settings, the server must be restarted.
 
 ## FAQ
@@ -70,8 +70,8 @@ If both settings are set to "FALSE", the user will receive a push notification w
 
 If you are getting this message and are using our push gateway, please make sure:
 
-1. Your server version is greater or equal to 0.74.3
-2. Registered \(you can check this by going to `http://yourserver/admin/cloud`\)
+1. Your server version is greater or equal to 0.74.3.
+2. Registered \(you can check this by going to `http://yourserver/admin/cloud`\).
 
 _Thanks to @lvh1 and @lunitic for starting this doc_
 

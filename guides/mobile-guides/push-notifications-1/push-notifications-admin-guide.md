@@ -6,17 +6,17 @@ By default, the community users have 10k push notifications for free. If you are
 
 To subscribe to  a push notification package:
 
-1. Please goto to our [sponsorship page](https://sponsorship.rocket.chat/)
+1. Please go to to our [sponsorship page](https://sponsorship.rocket.chat/).
 
 2. Choose your desired package from the packages below:
 
 ![](../../../.gitbook/assets/image%20%281%29.png)
 
-3. Login with your GitHub account
+3. Login with your GitHub account.
 
-4. Login with [Rocket.Chat Cloud](https://cloud.rocket.chat/)
+4. Login with [Rocket.Chat Cloud](https://cloud.rocket.chat/).
 
-5. Select **the workspace you want to apply the cap to**
+5. Select **the workspace you want to apply the cap to**.
 
 6. The cap will be applied automatically with the respective limit according to the selected sponsorship perk.
 
@@ -32,11 +32,11 @@ Default user preferences are universal for all the users until individual users 
 
 To check user preferences for push notifications:
 
-1. Go to **Administration.**
+1. Go to **Administration**.
 
 ![](../../../.gitbook/assets/image%20%2830%29.png)
 
-2. Goto '**Account'** in **Settings** and scroll down to **Default User Preference.**
+2. Go to '**Account**' in **Settings** and scroll down to **Default User Preference**.
 
 ![](../../../.gitbook/assets/image%20%2821%29.png)
 
@@ -52,11 +52,11 @@ We suggest you should check the push notification configuration in user preferen
 
 To enable push notifications:
 
-1. Go to **Administration.**
+1. Go to **Administration**.
 
 ![](../../../.gitbook/assets/image%20%2830%29.png)
 
-2. Search '**Push'** in **Settings.**
+2. Search '**Push**' in **Settings**.
 
 ![](../../../.gitbook/assets/image%20%28137%29.png)
 
@@ -82,15 +82,15 @@ To successfully send a test push to your user, you will have to be logged in to 
 
 In Privacy, you can configure what amount of information you want your push notification to have. 
 
-1. Go to **Administration.**
+1. Go to **Administration**.
 
 ![](../../../.gitbook/assets/image%20%2830%29.png)
 
-2. Search '**Push'** in **Settings.**
+2. Search '**Push**' in **Settings**.
 
 ![](../../../.gitbook/assets/image%20%28137%29.png)
 
-3. Go to **Privacy** 
+3. Go to **Privacy**.
 
 ![](../../../.gitbook/assets/image%20%28165%29.png)
 
@@ -104,15 +104,15 @@ Above are the default settings. If **Fetch full message content from the server 
 
 Make sure you have agreed to terms and conditions.
 
-1. Go to **Administration.**
+1. Go to **Administration**.
 
 ![](../../../.gitbook/assets/image%20%2830%29.png)
 
-2. Search '**Setup Wizard'** in **Settings.**
+2. Search '**Setup Wizard**' in **Settings**.
 
 ![](../../../.gitbook/assets/image%20%28163%29.png)
 
-3. Go to '**Cloud Info'** 
+3. Go to '**Cloud Info**'. 
 
 ![](../../../.gitbook/assets/image%20%28162%29.png)
 
@@ -140,7 +140,7 @@ When you purchase any package of push notifications as a self-managed customer, 
 
 To check the count of notification used per month:
 
-1. Go to [cloud.rocket.chat](http://cloud.rocket.chat/)  
+1. Go to [cloud.rocket.chat](http://cloud.rocket.chat/).  
 
 ![](../../../.gitbook/assets/image%20%28157%29.png)
 
@@ -170,7 +170,7 @@ To enable push notifications for channels:
 
 
 
-4. Select what type of notifications you want to receive.
+4. Select what type of notifications you want to receive
 
 ![](../../../.gitbook/assets/image%20%28159%29.png)
 
