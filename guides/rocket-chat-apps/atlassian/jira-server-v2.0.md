@@ -10,11 +10,11 @@ This app lets you connect your channels or private groups to different projects 
 
 The following notifications are supported:
 
-* Project created;
-* Project deleted;
-* Issue created;
-* Issue transitioned;
-* Issue updated;
+* Project created
+* Project deleted
+* Issue created
+* Issue transitioned
+* Issue updated
 
 ## Installation
 
@@ -33,11 +33,11 @@ Now that you have the app installed in your server, it is time to configure the 
 
 ## Configuration
 
-Go to any channel or private group and execute the slashcommand `/jira-server`. You will be prompted with the _Room Preferences_ dialog_:_
+Go to any channel or private group and execute the slashcommand `/jira-server`. You will be prompted with the _Room Preferences_ dialog:
 
 ![Room Preferences dialog](../../../.gitbook/assets/image%20%2813%29.png)
 
-Here you can connect your channel or private group to different Jira Servers. The server list is currently empty as this is a fresh install, so let's connect to a new Jira Server
+Here you can connect your channel or private group to different Jira Servers. The server list is currently empty as this is a fresh install, so let's connect to a new Jira Server.
 
 ### Connecting to Jira Servers
 
@@ -70,5 +70,5 @@ If you want to manage your channel/private group integration, you can use the me
 ![Room Integration dialog menu](../../../.gitbook/assets/image%20%2810%29.png)
 
 * **Manage Connections** - Takes you to the [_Room Preferences_ dialog above](jira-server-v2.0.md#configuration). From there you can manage to which servers your channel/private group is connected, add new servers, etc.
-* **Reset Connections** - Will reset all connected servers and projects from this room. Use this if you no longer want to receive notifications on your channel/private group.
+* **Reset Connections** - Will reset all connected servers and projects from this room. Use this if you no longer want to receive notifications on your channel/private group
 

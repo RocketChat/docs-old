@@ -16,8 +16,8 @@ Now that you have the app installed in your server, it is time to configure the 
 
 ### Requirements
 
-* First, you'll need to have at least a [Pro account](https://zoom.us/pricing) for users \(besides you\) to be able to create Zoom links. Those users will need to be added to your Zoom account.
-* For other users to be able to use the Zoom App, their Rocket.Chat registered emails need to be the same as registered at Zoom.
+* First, you'll need to have at least a [Pro account](https://zoom.us/pricing) for users \(besides you\) to be able to create Zoom links. Those users will need to be added to your Zoom account
+* For other users to be able to use the Zoom App, their Rocket.Chat registered emails need to be the same as registered at Zoom
 
 ### Step 1: JWT App at Zoom Marketplace
 
@@ -27,13 +27,13 @@ You'll need to create a new JWT app at [Zoom's Marketplace](https://marketplace.
 * Go to "Develop" at the top of the screen and select "Build app" in the menu
 * Choose the "JWT" type and hit "Create"
 * Enter a name for the app and hit "Create"
-* Enter the Company Name and Developer Contact Information for your app and then hit "Continue".
-* At the App Credentials tab page, _get the app's API Key and API Secret_.
+* Enter the Company Name and Developer Contact Information for your app and then hit "Continue"
+* At the App Credentials tab page, _get the app's API Key and API Secret_
 
 ### Step 2: Configure the Slash command at Rocket.Chat
 
 * Go to the settings of the Zoom App in **Administration &gt; Apps &gt; Zoom**
-* Place the API Key and API Secret at their respective fields and save.
+* Place the API Key and API Secret at their respective fields and save
 
 ## Usage
 

@@ -9,11 +9,11 @@ description: >-
 
 ## **To Enable DLP App:**
 
-1. Go to **Administration** 
+1. Go to **Administration**. 
 
 ![](../../.gitbook/assets/image%20%28215%29.png)
 
-2. Marketplace
+2. Click on **Marketplace**.
 
 ![](../../.gitbook/assets/image%20%28257%29.png)
 
