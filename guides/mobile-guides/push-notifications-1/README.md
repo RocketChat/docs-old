@@ -70,8 +70,8 @@ If both settings are set to "FALSE", the user will receive a push notification w
 
 If you are getting this message and are using our push gateway, please make sure:
 
-1. Your server version is greater or equal to 0.74.3.
-2. Registered \(you can check this by going to `http://yourserver/admin/cloud`\).
+1. Your server version is greater or equal to 0.74.3
+2. Registered \(you can check this by going to `http://yourserver/admin/cloud`\)
 
 _Thanks to @lvh1 and @lunitic for starting this doc_
 
