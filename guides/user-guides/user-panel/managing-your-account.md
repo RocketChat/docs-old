@@ -16,7 +16,7 @@ You can change the following account settings:
 
 ## Preferences
 
-In the _Preferences_ section, the end-user has the ability to configure and set his own user preferences on Rocket.Chat server.
+In the _Preferences_ section, the end-user has the ability to configure and set their own user preferences on Rocket.Chat server.
 
 ### Localization
 
@@ -32,7 +32,7 @@ Enable Auto-Away: This setting enables the auto-away functionality, which change
 
 ### 
 
-This section allows the end-user to change his notification preferences.
+This section allows the end-user to change their notification preferences.
 
 * Require Interaction to Dismiss Desktop Notification: This setting enables the possibility to disable the desktop notification while Rocket.Chat is being used.
 * Show Desktop Notifications: User can select for which types of messages the notifications should be triggered \(for both browser and desktop app notifications\)
@@ -130,7 +130,7 @@ To enable 2FA, you need to:
 
 ## Personal Access Tokens
 
-The personal access token section allows the user to create his personal tokens to consume Rocket.Chat API, for example.
+The personal access token section allows the user to create their personal tokens to consume Rocket.Chat API, for example.
 
 ![](../../../.gitbook/assets/screenshot_565.png)
 
