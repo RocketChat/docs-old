@@ -10,11 +10,11 @@ This app lets you connect your channels or private groups to different projects 
 
 The following notifications are supported:
 
-* Project created;
-* Project deleted;
-* Issue created;
-* Issue transitioned;
-* Issue updated;
+* Project created
+* Project deleted
+* Issue created
+* Issue transitioned
+* Issue updated
 
 ## Installation
 
