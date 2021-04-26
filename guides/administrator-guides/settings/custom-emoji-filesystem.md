@@ -1,4 +1,4 @@
 # Custom Emoji Filesystem
 
-Document Under Development 
+Document Under Development
 

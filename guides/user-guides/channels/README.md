@@ -69,7 +69,5 @@ To hide a channel, hover your mouse over the channel in the list of channels on 
 
 ## Creating Channels
 
-
-
-A pop-up opens. 
+A pop-up opens.
 

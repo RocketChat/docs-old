@@ -14,13 +14,11 @@ Go to `Administration -> SETTINGS -> Video Conference` then set `Enabled` to `Tr
 
 Here, you can set where video conferences can be held \(channels, private rooms, and direct messages\).
 
-### How to set up your own Jitsi Meet server
+## How to set up your own Jitsi Meet server
 
 In some use-cases, where the Jitsi.org infrastructure may be remote or inaccessible, or where you require total privacy, setting up your own Jitsi Meet servers stack may be necessary.
 
 You can find extensive instructions on setting up a Jitsi Meet servers stack at the [official Jisti Meet repository](https://github.com/jitsi/jitsi-meet).
 
 After setting your Jitsi Meet Server, you can set the meeting Domain to the one on your server.
-
-## 
 

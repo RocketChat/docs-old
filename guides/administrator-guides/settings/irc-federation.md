@@ -1,4 +1,4 @@
 # IRC Federation
 
-Document Under Development 
+Document Under Development
 

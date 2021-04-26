@@ -13,19 +13,19 @@ description: >-
 
 ![](../../.gitbook/assets/image%20%28215%29.png)
 
-2. Marketplace
+2. **Marketplace**
 
 ![](../../.gitbook/assets/image%20%28257%29.png)
 
-3. Search the DLP app and enable it. 
+3. Search the DLP app and enable it
 
 ![](../../.gitbook/assets/image%20%28267%29.png)
 
-5. Click and open to view DLP app details.
+5. Click and open to view DLP app details
 
 ![](../../.gitbook/assets/image%20%28268%29.png)
 
-6. Define the rules as Regular expressions. Add each Regular Expression on a new line.
+6. Define the rules as Regular expressions. Add each Regular Expression on a new line
 
 ![](../../.gitbook/assets/image%20%28261%29.png)
 
@@ -63,7 +63,7 @@ Or mention the channels only which you want to be monitored under Content Contro
 
 ![](../../.gitbook/assets/image%20%28271%29.png)
 
-13. Hit **Save changes** to save your settings.
+13. Hit **Save changes** to save your settings
 
 ![](../../.gitbook/assets/image%20%28264%29.png)
 

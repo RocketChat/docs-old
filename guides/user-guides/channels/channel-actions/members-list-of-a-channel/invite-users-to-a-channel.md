@@ -1,6 +1,6 @@
 # Invite Users to a Channel
 
-It is the option used to invite users to your channel. 
+It is the option used to invite users to your channel.
 
 To add a new user:
 
@@ -9,12 +9,12 @@ To add a new user:
 
 ![](../../../../../.gitbook/assets/image%20%28392%29.png)
 
-3. Copy the link and share it with your invitees
+1. Copy the link and share it with your invitees
 
 ![](../../../../../.gitbook/assets/image%20%28386%29.png)
 
 {% hint style="info" %}
-The link works for the user who is already on your workspace or outside of it. In case your invitee is outside of your rocket.chat workspace, they can use this link to register to your workspace and then use the channel. 
+The link works for the user who is already on your workspace or outside of it. In case your invitee is outside of your rocket.chat workspace, they can use this link to register to your workspace and then use the channel.
 {% endhint %}
 
 ## Edit Invite Link
@@ -36,9 +36,7 @@ Your new link is generated with the selected attributes, as shown below:
 
 ## Permissions
 
- Please note that in order to use Invite Link Feature you need to have the **Create Invite Link** permission granted for your role. By default, it is **ON** for Admin, Owner, and Moderator roles. But you can always request your admin to change it as per your needs. 
+Please note that in order to use Invite Link Feature you need to have the **Create Invite Link** permission granted for your role. By default, it is **ON** for Admin, Owner, and Moderator roles. But you can always request your admin to change it as per your needs.
 
 ![](../../../../../.gitbook/assets/image%20%28398%29.png)
-
-
 

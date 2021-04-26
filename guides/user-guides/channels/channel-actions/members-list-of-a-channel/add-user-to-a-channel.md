@@ -1,6 +1,6 @@
 # Add User to a Channel
 
-It is the option used to add users who are already in your workspace. 
+It is the option used to add users who are already in your workspace.
 
 To add a new user:
 
@@ -9,15 +9,15 @@ To add a new user:
 
 ![](../../../../../.gitbook/assets/image%20%28399%29.png)
 
-3. Choose users from the drop-down:
+1. Choose users from the drop-down:
 
 ![](../../../../../.gitbook/assets/image%20%28343%29.png)
 
-4. Hit **Add users**
+1. Hit **Add users**
 
 ![](../../../../../.gitbook/assets/image%20%28391%29.png)
 
-The new users are added,  as shown below:
+The new users are added, as shown below:
 
 ![](../../../../../.gitbook/assets/image%20%28396%29.png)
 

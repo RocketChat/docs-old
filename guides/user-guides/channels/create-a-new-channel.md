@@ -4,8 +4,6 @@ To create a new channel:
 
 ![](../../../.gitbook/assets/image%20%28390%29.png)
 
-
-
 You can set the name of that channel, choose if the channel is public or private, set the channel to read-only, broadcast the channel, and invite users.
 
 In read-only channels, messages can only be sent by users with write permissions. All users can react to messages in this channel. Read-only channels are most suitable for announcements and voting.

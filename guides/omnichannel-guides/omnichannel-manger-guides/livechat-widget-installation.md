@@ -18,5 +18,5 @@ Go to **Livechat Installation** in the omnichannel panel settings, as shown belo
 
 ![](../../../.gitbook/assets/1%20%2811%29.png)
 
-2. Paste this code above the last **&lt;/body&gt;** tag on your site; the livechat widget will appear on the bottom right corner on your webpage.
+1. Paste this code above the last **&lt;/body&gt;** tag on your site; the livechat widget will appear on the bottom right corner on your webpage.
 

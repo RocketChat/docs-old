@@ -22,11 +22,11 @@ Settings appear, as shown below:
 
 ![](../../../.gitbook/assets/2%20%286%29.png)
 
-2. Hit **Add**.
+1. Hit **Add**.
 
 ![](../../../.gitbook/assets/3%20%285%29.png)
 
-3. The user has the Monitor role now, as shown below:
+1. The user has the Monitor role now, as shown below:
 
 ![](../../../.gitbook/assets/4%20%284%29.png)
 

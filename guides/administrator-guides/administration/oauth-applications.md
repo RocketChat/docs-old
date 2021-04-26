@@ -1,4 +1,4 @@
 # OAuth Applications
 
-Document Under Development 
+Document Under Development
 

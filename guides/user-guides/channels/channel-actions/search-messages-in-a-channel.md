@@ -4,7 +4,7 @@ Rocket.Chat search supports basic search commands which work like Gmail search.
 
 Rocket.Chat also supports the use of "[regular expressions](https://en.wikipedia.org/wiki/Regular_expression)." Regular expressions provide flexibility to search chat entries in any language, even the ones traditionally a challenge like "CJK" languages \(Chinese, Japanese, Korean\).
 
-### Basic Search Commands
+## Basic Search Commands
 
 You can use these commands before or after entering search terms:
 
@@ -22,7 +22,7 @@ You can use these commands before or after entering search terms:
 
   You can also jump to where a message is located by hovering the mouse over the search result and selecting `jump to message.`
 
-### Regex
+## Regex
 
 These references tell more about the powerful world of regex:
 

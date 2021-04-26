@@ -4,11 +4,11 @@ description: Rocket.Chat Enterprise feature
 
 # Canned responses
 
-Canned responses allow you to save message snippets that you can call with shortcuts \(preceded with `!`\) to communicate a quick note to your visitors in Omnichannel and for messaging in regular conversations inside your Rocket.Chat workspace. 
+Canned responses allow you to save message snippets that you can call with shortcuts \(preceded with `!`\) to communicate a quick note to your visitors in Omnichannel and for messaging in regular conversations inside your Rocket.Chat workspace.
 
 Follow the steps to set up the canned responses:
 
-Enable the feature under `Administration` -&gt; `Canned Responses`. 
+Enable the feature under `Administration` -&gt; `Canned Responses`.
 
 ![](../../../.gitbook/assets/canned_response_1.png)
 
@@ -16,11 +16,11 @@ Define which user roles should be able to view, create and delete the canned res
 
 ![](../../../.gitbook/assets/screenshot-2020-07-28-at-00.16.30.png)
 
-Enable `Omnichannel`. Using canned responses in regular conversations with other users of your workspace will require Omnichannel feature to be enabled. 
+Enable `Omnichannel`. Using canned responses in regular conversations with other users of your workspace will require Omnichannel feature to be enabled.
 
 ![](../../../.gitbook/assets/screenshot-2020-07-28-at-00.23.19.png)
 
-Select the department. Canned responses can be created **per department** as shown below**,** or **per agent** right in an omnichannel conversation. ****Click on the canned responses icon \(top right corner\) to create a new canned response.
+Select the department. Canned responses can be created **per department** as shown below**,** or **per agent** right in an omnichannel conversation. _\*\*_Click on the canned responses icon \(top right corner\) to create a new canned response.
 
 ![](../../../.gitbook/assets/screenshot-2020-07-28-at-00.28.04%20%281%29%20%281%29.png)
 
@@ -46,15 +46,11 @@ Try using a canned response in a conversation. Start your message with `!` and a
 
 ![](../../../.gitbook/assets/screenshot-2020-07-28-at-11.54.00.png)
 
-You can also use the same canned responses when talking to your peers outside Omnichannel. 
+You can also use the same canned responses when talking to your peers outside Omnichannel.
 
 ![](../../../.gitbook/assets/canned.gif)
 
-To delete or edit a canned response, open the canned responses dialog in the respective department. Select the response that you wish to delete or edit. 
+To delete or edit a canned response, open the canned responses dialog in the respective department. Select the response that you wish to delete or edit.
 
 ![](../../../.gitbook/assets/screenshot-2020-07-28-at-12.08.17.png)
-
-
-
-
 
