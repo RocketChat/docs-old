@@ -25,9 +25,9 @@ Finally, you would direct your users to download your custom version of the Rock
 
 The Rocket.Chat native application for Android supports the FCM system. Here's how you configure it:
 
-1. Create a Firebase project in the Firebase console if you don't already have one. Click Add project. If you already have an existing Google project associated with your mobile app, select it from the Project name drop-down menu. Otherwise, enter a project name to create a new project
-2. _Optional:_ Edit your Project ID. Your project is given a unique ID automatically, and it's used in publicly visible Firebase features such as database URLs and your Firebase Hosting subdomain. You can change it now if you want to use a specific subdomain
-3. Follow the remaining setup steps and click Create a project \(or Add Firebase if you're using an existing project\) to begin provisioning resources for your project. This typically takes a few minutes. When the process completes, you'll be taken to the project overview
+1. Create a Firebase project in the Firebase console if you don't already have one. Click Add project. If you already have an existing Google project associated with your mobile app, select it from the Project name drop-down menu. Otherwise, enter a project name to create a new project.
+2. _Optional:_ Edit your Project ID. Your project is given a unique ID automatically, and it's used in publicly visible Firebase features such as database URLs and your Firebase Hosting subdomain. You can change it now if you want to use a specific subdomain.
+3. Follow the remaining setup steps and click Create a project \(or Add Firebase if you're using an existing project\) to begin provisioning resources for your project. This typically takes a few minutes. When the process completes, you'll be taken to the project overview.
 
 Now that you have a project, you can add your Android app to it:
 
