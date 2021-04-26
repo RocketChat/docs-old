@@ -36,7 +36,7 @@ _The administrator of a Rocket.Chat team sets the permissions for who can pin me
 
 ## Reactions
 
-You can react to messages with emoji.
+You can react to messages with emojis.
 
 To add a reaction to a message, go to the message, click on the **smiley face icon** on the right of the message and then choose an emoji.
 
