@@ -1,4 +1,4 @@
 # Custom Emoji
 
-Document Under Development 
+Document Under Development
 

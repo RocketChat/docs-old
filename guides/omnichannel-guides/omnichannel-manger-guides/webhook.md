@@ -12,13 +12,13 @@ Go to **Webhooks** in the omnichannel panel settings, as shown below:
 
 ![](../../../.gitbook/assets/0%20%2814%29.png)
 
-1. Get the Webhook URL from the system you want to connect.
-2. Enter the secret token.
-3. Select the action/s you want this integration to have.
+1. Get the Webhook URL from the system you want to connect
+2. Enter the secret token
+3. Select the action/s you want this integration to have
 
 ![](../../../.gitbook/assets/1%20%2814%29.png)
 
-If you select Chat Start
+If you select Chat Start:
 
 ![](../../../.gitbook/assets/2%20%2813%29.png)
 

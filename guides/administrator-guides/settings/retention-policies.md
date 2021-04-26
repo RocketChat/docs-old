@@ -32,7 +32,7 @@ The policy is split up into three parts, a policy for all channels, one for all 
 * **Applies to channels/private groups/direct messages**: establishes whether the global retention policy should apply to this type. For example, if you only wish to prune messages in private groups, set this to `True` for private groups, and to `False` for all others.
 * **Maximum message age in channels/private groups/direct messages**: establishes how old messages maybe, in days. For example, to make the policy automatically delete all messages older than 30 days, enter `30`; to make the policy automatically delete all messages older than a year, enter `365`, etc.
 
-Furthermore, three more options  allow you to specify how the policy works:
+Furthermore, three more options allow you to specify how the policy works:
 
 * **Exclude pinned messages**: when set to `True`, pinned messages are not deleted. For example, when you pin a few messages with important links, these messages stay intact.
 * **Only delete files**: when set to `True`, messages are not deleted, but files are. They are replaced by a simple _File removed by automatic prune_ message. When used together with **Exclude pinned messages**, only unpinned files are deleted.

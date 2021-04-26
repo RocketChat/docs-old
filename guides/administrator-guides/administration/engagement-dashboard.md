@@ -14,7 +14,7 @@ To access the **Engagement Dashboard:**
 
 ![](../../../.gitbook/assets/image%20%2830%29.png)
 
-  2.  Click **Engagement Dashboard**.
+1. Click **Engagement Dashboard**.
 
 ![](../../../.gitbook/assets/image%20%28139%29%20%281%29%20%281%29.png)
 

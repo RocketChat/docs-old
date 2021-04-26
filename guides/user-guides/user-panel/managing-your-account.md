@@ -6,7 +6,7 @@ Manage Your Rocket.Chat account settings through the browser, desktop, and mobil
 
 To access and manage your Rocket.Chat account on a server:
 
-[Log in]() to the server with your username and password. Click your profile picture and select **My Account**.
+[Log in](managing-your-account.md) to the server with your username and password. Click your profile picture and select **My Account**.
 
 Account settings changed on a single server **do not** change settings on a different server.
 
@@ -29,8 +29,6 @@ Enable Auto-Away: This setting enables the auto-away functionality, which change
 ![](../../../.gitbook/assets/screenshot_524.png)
 
 ### Notifications
-
-### 
 
 This section allows the end-user to change their notification preferences.
 
