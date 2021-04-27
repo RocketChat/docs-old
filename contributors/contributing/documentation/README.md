@@ -62,9 +62,9 @@ After that you need to build the documentation, from the root of the docs folder
 gitbook build .
 ```
 
-This will generate a folder called "\_book" with the builded docs.
+This will generate a folder called "\_book" with the built docs.
 
-Then serve the builded book using:
+Then serve the built book using:
 
 ```text
 gitbook serve .

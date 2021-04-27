@@ -7,7 +7,7 @@ To import your current data from HipChat Server / Data Center into Rocket.Chat, 
 This is a copy from the HipChat Server / Data Center Documentation:
 
 1. Browse to the fully qualified domain name you've configured for your HipChat Server, for example `https://hipchat.yourcompany.com/`
-2. Log into the web user interface \(UI\) using your administrator email and password
+2. Log in to the web user interface \(UI\) using your administrator email and password
 3. Click **Server admin &gt; Export**
 4. To include files and one-to-one chat history in the export, select the checkboxes
 5. In the **Password** and **Confirm Password** fields, create a password to protect your archive file. You're required to provide this password when you import your data into HipChat Server. We don't store this password, so be sure to remember it
