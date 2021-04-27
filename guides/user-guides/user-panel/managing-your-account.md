@@ -6,7 +6,7 @@ Manage Your Rocket.Chat account settings through the browser, desktop, and mobil
 
 To access and manage your Rocket.Chat account on a server:
 
-[Log in](managing-your-account.md) to the server with your username and password. Click your profile picture and select **My Account**.
+[Log in](https://open.rocket.chat) to the server with your username and password. Click your profile picture and select **My Account**.
 
 Account settings changed on a single server **do not** change settings on a different server.
 
@@ -16,7 +16,7 @@ You can change the following account settings:
 
 ## Preferences
 
-In the _Preferences_ section, the end-user has the ability to configure and set their own user preferences on Rocket.Chat server.
+In the [_Preferences_](https://open.rocket.chat/account/preferences) section, the end-user has the ability to configure and set their own user preferences on Rocket.Chat server.
 
 ### Localization
 
@@ -33,8 +33,8 @@ Enable Auto-Away: This setting enables the auto-away functionality, which change
 This section allows the end-user to change their notification preferences.
 
 * Require Interaction to Dismiss Desktop Notification: This setting enables the possibility to disable the desktop notification while Rocket.Chat is being used.
-* Show Desktop Notifications: User can select for which types of messages the notifications should be triggered \(for both browser and desktop app notifications\)
-* Push Mobile Notifications: User can select for which types of messages the notifications should be triggered \(for mobile notification\)
+* Show Desktop Notifications: User can select the type of messages for which the notifications have to be triggered \(for both browser and desktop app notifications\)
+* Push Mobile Notifications: User can select the type of messages for which the notifications have to be triggered \(for mobile notification\)
 * Offline Email Notifications
 
 ![](../../../.gitbook/assets/user_panel_4.png)
