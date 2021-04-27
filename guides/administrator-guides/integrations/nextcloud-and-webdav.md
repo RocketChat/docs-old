@@ -18,5 +18,5 @@ Usually NextCloud WebDAV urls looks like this:
 
 `https://example.com/nextcloud/remote.php/dav/files/USERNAME/`
 
-You should then be ready to start sharing files to Rocket.Chat via WebDav Protocol!
+You should then be ready to start sharing files with Rocket.Chat via WebDav Protocol!
 

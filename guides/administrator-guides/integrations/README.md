@@ -34,7 +34,7 @@ The script should be in **ES2015 / ECMAScript 6**.
 
 The script expects a global class called `Script`. This class is instantiated once, only on the first execution, and kept in memory.
 
-The class has a method called `process_incoming_request`, your server calls this method every time is receives a new request. It is called with an Object as a parameter with the `request`property.
+The class has a method called `process_incoming_request`, your server calls this method every time it receives a new request. It is called with an Object as a parameter with the `request`property.
 
 The `process_incoming_request`method returns an object with a `content`property that contains valid Rocket.Chat message, or an object with an `error` property that returns as the response to the request in JSON format and Code 400 status.
 
