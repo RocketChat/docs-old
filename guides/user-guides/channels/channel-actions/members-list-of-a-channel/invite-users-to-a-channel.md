@@ -7,7 +7,7 @@ To add a new user:
 1. Click **Members**
 2. Click **Invite** **Users**
 
-![](../../../../../.gitbook/assets/image%20%28392%29.png)
+![](../../../../../.gitbook/assets/image%20%28407%29.png)
 
 1. Copy the link and share it with your invitees
 
@@ -23,12 +23,12 @@ You can edit the expiration date and number of uses of your invite link**.**
 
 * Hit **Edit Invite**
 
-![](../../../../../.gitbook/assets/image%20%28400%29.png)
+![](../../../../../.gitbook/assets/image%20%28413%29.png)
 
 * Set the expiration date and number of uses of your invite link
 * Hit **Generate New Link**
 
-![](../../../../../.gitbook/assets/image%20%28401%29.png)
+![](../../../../../.gitbook/assets/image%20%28414%29%20%281%29.png)
 
 Your new link is generated with the selected attributes, as shown below:
 
@@ -38,5 +38,5 @@ Your new link is generated with the selected attributes, as shown below:
 
 Please note that in order to use Invite Link Feature you need to have the **Create Invite Link** permission granted for your role. By default, it is **ON** for Admin, Owner, and Moderator roles. But you can always request your admin to change it as per your needs.
 
-![](../../../../../.gitbook/assets/image%20%28398%29.png)
+![](../../../../../.gitbook/assets/image%20%28411%29.png)
 

@@ -7,7 +7,7 @@ To add a new user:
 1. Click **Members**
 2. Click **Add** **Users**
 
-![](../../../../../.gitbook/assets/image%20%28399%29.png)
+![](../../../../../.gitbook/assets/image%20%28412%29.png)
 
 1. Choose users from the drop-down:
 
@@ -15,7 +15,7 @@ To add a new user:
 
 1. Hit **Add users**
 
-![](../../../../../.gitbook/assets/image%20%28391%29.png)
+![](../../../../../.gitbook/assets/image%20%28406%29.png)
 
 The new users are added, as shown below:
 

@@ -6,7 +6,7 @@ To access **Departments** settings:
 
 1. Go to the dots menu and hit **Omnichannel**. Omnichannel settings will open up.
 
-![](../../../.gitbook/assets/0%20%282%29%20%281%29.png)
+![](../../../.gitbook/assets/0%20%282%29.png)
 
 1. Hit **Departments.**
 

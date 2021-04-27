@@ -8,7 +8,7 @@ Through the **Streaming** tab, owners of the channel of server admins can start 
 
 ### Start a stream
 
-_Note: Depending on the settings of the server, you might be only able to link live streams from Youtube. In doubt ,always ask your server's admin._
+_Note: Depending on the settings of the server, you might be only able to link live streams from Youtube. In doubt, always ask your server's admin._
 
 1. Press the **Broadcast my Camera** button.
 2. Login with a Google account. Remember that streaming must be activated through your Youtube account. For more information, see [Introduction to live streaming](https://support.google.com/youtube/answer/2474026?hl=en) Google guide\).
