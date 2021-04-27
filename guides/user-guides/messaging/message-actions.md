@@ -10,7 +10,7 @@ To open the message actions menu, place your mouse over the message and click th
 
 To edit a message, click on the **edit** option on the message actions menu. You can also place your cursor in the message box and press the **Up arrow** to edit your last message.
 
-_The administrator of the Rocket.Chat server sets the permissions for who can edit messages from other users. By default, only administrators, moderators, and channel's owners can edit messages from other users._
+_The administrator of the Rocket.Chat server sets the permissions for who can edit messages from other users. By default, only administrators, moderators, and channel owners can edit messages from other users._
 
 ## Draft messages
 
@@ -36,7 +36,7 @@ _The administrator of a Rocket.Chat team sets the permissions for who can pin me
 
 ## Reactions
 
-You can react to messages with emoji.
+You can react to messages with emojis.
 
 To add a reaction to a message, go to the message, click on the **smiley face icon** on the right of the message, and then choose an emoji.
 

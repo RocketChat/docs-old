@@ -1,4 +1,4 @@
-# Remove a chnnel from Team
+# Remove a Channel from Team
 
 To remove a channel from the team:
 
