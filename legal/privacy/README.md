@@ -100,7 +100,7 @@ You can enable or disable location services when you use our Service at any time
 
 When you use the Marketplace, you may choose to install Apps provided by Rocket.Chat. These Apps process data from your instance of Rocket.Chat and therefore nonpersonal data, such as software version, amount of users, and similar. Depending on the purpose and your actual usage of the App \(e.g. enabling certain features\), Personal Data may however be processed. E.g. you enable an integration, which processes your users´information. The description of the App will make the types of personal data sufficiently clear as well as any potential deviations from this policy.
 
-For Third Party Apps on the Marketplace, the Vendor will provide you with a specific privacy policy that governs his Third Party App.
+For Third Party Apps on the Marketplace, the Vendor will provide you with a specific privacy policy that governs her/his Third Party App.
 
 #### Content you provide
 
@@ -279,7 +279,7 @@ Other regions may be added over time.
 
 Where required, we also offer to sign Standard Contractual Clauses approved by the European Commission to guarantee an adequate level of data protection or other mechanisms relevant for the Customer.
 
-The amount of Personal Data we process with our Cloud Offerings is limited to what the Customer and his users enter into the Service. In the cloud offering, we will not process the personalized cookie or analytics data described above. The purposes of processing the data are strictly limited to providing and improving the Service and in accordance with the Data Controller´s instructions. We never access workspace data \(i.e. the actual content the customer is entering in his instance\), unless the customer asks us to in form of a support request, we are bound by a valid law enforcement request or to protect our own interests, such as investigating potential abuse of the service.
+The amount of Personal Data we process with our Cloud Offerings is limited to what the Customer and her/his users enter into the Service. In the cloud offering, we will not process the personalized cookie or analytics data described above. The purposes of processing the data are strictly limited to providing and improving the Service and in accordance with the Data Controller´s instructions. We never access workspace data \(i.e. the actual content the customer is entering in her/his instance\), unless the customer asks us to in form of a support request, we are bound by a valid law enforcement request or to protect our own interests, such as investigating potential abuse of the service.
 
 Once your usage of our cloud offering ceases, we will remove all your data, including backups, after a short grace period - or immediately, if you tell us to.
 
