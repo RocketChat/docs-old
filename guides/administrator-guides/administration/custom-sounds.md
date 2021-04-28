@@ -2,14 +2,14 @@
 
 Rocket.Chat allows you to add custom sound files that can be used as notification sound. Users can customize their notification sound preferences for specific channels.
 
-Upload sound filesin the MP3 format.
+Upload sound files in the MP3 format.
 
 ## Add a Custom Sound
 
 * Go to the `Administration` tab
-* Select your Custom Sounds
-* Click on the Add symbol \(**+**\) in the right side bar
-* Enter a name for you sound
+* Select `Custom Sounds`
+* Click the Add symbol \(**+**\) on the top right.
+* Enter a name for your custom sound
 * Browse and choose a MP3 file
 * Press **Save**
 
