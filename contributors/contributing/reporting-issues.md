@@ -40,7 +40,7 @@ Please include the following information in order to promote effective fixing.
 * Actual behavior
 * Can the bug consistently be reproduced? If so, how?
 * Relevant errors and other log output
-* Screen shots as necessary
+* Screenshots are necessary
 
 Here are some links to help you register your bug in the right place:
 
