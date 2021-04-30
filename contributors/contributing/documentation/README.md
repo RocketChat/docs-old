@@ -24,12 +24,12 @@ When you create a new pull request, we expect some requirements to be met.
   * When adding new documentation, add _**New Documentation:**_ before the title. E.g. `New Documentation: Authentication Guide`
   * When fixing documentation, add _**Fix Documentation:**_ before the title. E.g. `Fix Documentation: Authentication Guide`
   * When updating documentation, add _**Update Documentation:**_ before the title. E.g. `Update Documentation: Authentication Guide`
-* If your Pull Request closes an issue you need to write `Closes #ISSUE_NUMBER` where the `ISSUE_NUMBER` is the number in the end of the link url that will link your pull request to the issue, when merged will close that issue.
+* If your Pull Request closes an issue you need to write `Closes #ISSUE_NUMBER` where the `ISSUE_NUMBER` is the number at the end of the link URL that will link your pull request to the issue, when merged will close that issue.
 * For each pull request made, we run tests to check if there are any broken links. You can find how to run these tests locally [here](https://docs.rocket.chat/developer-guides/testing/#testing).
 
 ### Creating Drafts
 
-When you create a new feature but for some reason can't create a full fledged documentation pull request, you can create a `draft` with is a single file pull request with critical information needed to create the desired documentation, after creating the draft, the documentation team will edit the pull request to suit the documentation standards.
+When you create a new feature but for some reason can't create a full-fledged documentation pull request, you can create a `draft` with is a single file pull request with critical information needed to create the desired documentation, after creating the draft, the documentation team will edit the pull request to suit the documentation standards.
 
 * [New Feature Template](new-feature-draft.md)
 * [Feature Change Template](feature-change-draft.md)
@@ -45,10 +45,10 @@ Simply fork our docs repository, [create a space](https://docs.gitbook.com/getti
 #### OPTION 2: Run it locally
 
 {% hint style="info" %}
-We do not recommend this method since GitBook Cli is deprecated and it takes a long time to build.
+We do not recommend this method since GitBook CLI is deprecated and it takes a long time to build.
 {% endhint %}
 
-When making small changes like typos and such, there is no problem to edit the file directly on GitHub, but if you are making bigger changes or adding new files to the docs, we recommend following this workflow
+When making small changes like typos and such, there is no problem editing the file directly on GitHub, but if you are making bigger changes or adding new files to the docs, we recommend following this workflow
 
 Install GitBook's client package using NPM.
 
@@ -62,9 +62,9 @@ After that you need to build the documentation, from the root of the docs folder
 gitbook build .
 ```
 
-This will generate a folder called "\_book" with the builded docs.
+This will generate a folder called "\_book" with the built docs.
 
-Then serve the builded book using:
+Then serve the buildt book using:
 
 ```text
 gitbook serve .
@@ -76,7 +76,7 @@ Find out more on [GitBook Cli's repository](https://github.com/GitbookIO/gitbook
 
 ## Community Maintainers
 
-We are looking for community maintainers for the Rocket.Chat documentation. Maintainers will be added to a special team with write permissions. These permissions consist of opening, closing, tagging and editing issues and pull requests, create and delete non protected branches on the docs repository.
+We are looking for community maintainers for the Rocket.Chat documentation. Maintainers will be added to a special team with write permissions. These permissions consist of opening, closing, tagging, and editing issues and pull requests, create and delete non-protected branches on the docs repository.
 
 The responsibilities of a maintainer are:
 
@@ -84,11 +84,11 @@ The responsibilities of a maintainer are:
 
 * **Labeling issues:** Label issues accordingly.
 * **Finding Duplicates:** finding and closing duplicate issues.
-* **Closing irrelevant/inappropriate issues:** Closing issues that are no longer needed, that are not relevant to the project and/or doesn't follow the issues guidelines.
-* **Doing first level contact:** Getting more information on the issues \(like version number or asking for clarification\) and closing them if they aren't relevant or if a question made by the maintainer wasn't answered in 2 days.
+* **Closing irrelevant/inappropriate issues:** Closing issues that are no longer needed, that are not relevant to the project, and/or don't follow the issues guidelines.
+* **Doing first-level contact:** Getting more information on the issues \(like version number or asking for clarification\) and closing them if they aren't relevant or if a question made by the maintainer wasn't answered in 2 days.
 
 ### Help with Contribution
 
-* **Help Manage Pull Requests:** help the author of the pull request with any problems \(like tests failing due markdown problems on the pull request\)
+* **Help Manage Pull Requests:** help the author of the pull request with any problems \(like tests failing due to markdown problems on the pull request\)
 * **Contributing!** Create pull requests to help maintain the documentation
 
