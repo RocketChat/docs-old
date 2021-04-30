@@ -29,5 +29,5 @@ To view logs:
 
 ![](../../../.gitbook/assets/image%20%28408%29%20%281%29.png)
 
-![](../../../.gitbook/assets/image%20%28409%29.png)
+![](../../../.gitbook/assets/image%20%28409%29%20%281%29.png)
 
