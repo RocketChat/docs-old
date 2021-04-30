@@ -1,6 +1,6 @@
 # File Upload
 
-In this article you will find all of the settings related to File Uploads.
+In this article, you will find all of the settings related to File Uploads.
 
 ## General Settings
 
@@ -49,7 +49,7 @@ Your Amazon Access Key ID \(optional\)
 
 Your Amazon Secret Access Key \(optional\)
 
-> **Note**: If no `AWSAccessKeyId` and `AWSSecretAccessKey` are set, the underlying AWS SDK will fallback to trying to retrieve credentials from the [usual locations](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-credentials-node.html).
+> **Note**: If no `AWSAccessKeyId` and `AWSSecretAccessKey` are set, the underlying AWS SDK will fall back, trying to retrieve credentials from the [usual locations](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-credentials-node.html).
 
 ### Acl
 
@@ -85,7 +85,7 @@ Proxy upload file transmissions through your server instead of direct access to 
 
 \(Optional\)
 
-If you have created your bucket on region different from the US Standard, you **have** to set their code here \(see a list of region codes [here](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions)\)
+If you have created your bucket on a region different from the US Standard, you **have** to set their code here \(see a list of region codes [here](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions)\)
 
 ### Signature Version
 
@@ -95,7 +95,7 @@ Identifies the version of AWS Signature that you want to support for authenticat
 
 Time after which Amazon S3 generated URLs will no longer be valid \(in seconds\). If set to less than 5 seconds, this field will be ignored.
 
-> If you run into issues with files not loading consistently for some users located further from server location. Increasing this time might help.
+> If you run into issues with files not loading consistently for some users located further from the server's location. Increasing this time might help.
 
 ## FileSystem
 
@@ -107,7 +107,7 @@ The local path for where the uploaded files will be stored.
 
 ## Google Cloud Storage
 
-Settings used when configuring a Google Cloud Storage server. You can find more details in [here](google-cloud-storage.md)
+Settings used when configuring a Google Cloud Storage server. You can find more details [here](google-cloud-storage.md)
 
 ### Google Storage Access Id
 
@@ -117,7 +117,7 @@ The access ID \(or username\) of the service account which has access to your Cl
 
 ### Google Storage Bucket Name
 
-The name of the bucket which the files should be uploaded to.
+The name of the bucket to which files should be uploaded .
 
 ### Proxy Avatars
 
@@ -221,7 +221,7 @@ The URL of the WebDAV server \([WebDAV URLs of Common Cloud Storage Services](ht
 
 ### Upload Folder Path
 
-WebDAV folder path which the files should be uploaded to.
+WebDAV folder path to which the files should be uploaded.
 
 ### WebDAV Username
 
