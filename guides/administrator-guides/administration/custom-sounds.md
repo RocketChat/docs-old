@@ -6,10 +6,10 @@ Upload sound files in MP3 format.
 
 ## Add a Custom Sound
 
-* Go to the `Administration` tab
-* Select your Custom Sounds
-* Click on the Add symbol \(**+**\) in the right sidebar
-* Enter a name for your sound
+* Go to the **Administration** tab
+* Select  **Custom Sounds**
+* Click  the **+** on the top right 
+* Enter a name for your custom sound
 * Browse and choose an MP3 file
 * Press **Save**
 
