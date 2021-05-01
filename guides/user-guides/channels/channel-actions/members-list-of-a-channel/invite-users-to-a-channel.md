@@ -28,7 +28,7 @@ You can edit the expiration date and number of uses of your invite link**.**
 * Set the expiration date and number of uses of your invite link
 * Hit **Generate New Link**
 
-![](../../../../../.gitbook/assets/image%20%28414%29%20%281%29%20%281%29.png)
+![](../../../../../.gitbook/assets/image%20%28414%29%20%281%29%20%281%29%20%281%29.png)
 
 Your new link is generated with the selected attributes, as shown below:
 
