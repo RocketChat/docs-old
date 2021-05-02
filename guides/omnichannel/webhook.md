@@ -1,7 +1,7 @@
 ---
 description: >-
   Webhooks allow you to integrate the rocket.chat omnichannel to any third-party
-  system, e.g., CRM, Zoho, etc
+  system, e.g., CRM, Zoho, etc.
 ---
 
 # Webhooks
@@ -14,7 +14,7 @@ Go to **Webhooks** in the omnichannel panel settings, as shown below:
 
 1. Get the Webhook URL from the system you want to connect.
 2. Enter the secret token.
-3. Select the action/s you want this integration to have.
+3. Select the actions you want this integration to have.
 
 ![](../../.gitbook/assets/1%20%2814%29.png)
 
