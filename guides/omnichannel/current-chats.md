@@ -6,7 +6,7 @@ To access **Current Chats** settings:
 
 Go to Omnichannel panel settings, as shown below:
 
-![](../../.gitbook/assets/0%20%283%29.png)
+![](../../.gitbook/assets/0%20%282%29.png)
 
 Settings appear, as shown below:
 

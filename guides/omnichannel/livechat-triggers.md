@@ -11,7 +11,7 @@ To access **Livechat Triggers** settings:
 
 Go to Omnichannel panel settings, as shown below:
 
-![](../../.gitbook/assets/0%20%288%29.png)
+![](../../.gitbook/assets/0%20%282%29.png)
 
 Livechat Triggers menu appears, as shown below:
 

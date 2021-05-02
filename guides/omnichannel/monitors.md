@@ -10,7 +10,7 @@ To access **Monitors** settings:
 
 Go to Omnichannel panel settings, as shown below:
 
-![](../../.gitbook/assets/0%20%284%29.png)
+![](../../.gitbook/assets/0%20%282%29.png)
 
 Settings appear, as shown below:
 

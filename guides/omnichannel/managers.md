@@ -10,7 +10,7 @@ To access **Managers** settings:
 
 Go to Omnichannel panel settings, as shown below:
 
-![](../../.gitbook/assets/0%20%286%29.png)
+![](../../.gitbook/assets/0%20%282%29.png)
 
 Settings appear, as shown below:
 
