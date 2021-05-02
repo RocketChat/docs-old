@@ -11,9 +11,7 @@ Click **Contact Center** to access Omnichannel Contact Center settings, as shown
 
 ![](../../../.gitbook/assets/image%20%28219%29.png)
 
-{% hint style="info" %}
 It allows you to pull up visitor information and chats for purposes like set tags of an old conversation, send broadcast messages, etc.
-{% endhint %}
 
 Once you click on the **Contact Center** button following screen appears:
 
@@ -59,9 +57,7 @@ All the chats you have taken appear under **Chats**, as you see below:
 
 ![](../../../.gitbook/assets/image%20%28215%29%20%281%29.png)
 
-{% hint style="info" %}
 No open chat appears in the **Contact Center**. A chat appears in the **Contact** **Center** as soon as it is closed because **Contact Center** only deals with archived chats.   
-{% endhint %}
 
 You can click to open a chat to view it: 
 
