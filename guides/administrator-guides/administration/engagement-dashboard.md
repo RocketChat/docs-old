@@ -16,7 +16,7 @@ To access the **Engagement Dashboard:**
 
 1. Click **Engagement Dashboard**.
 
-![](../../../.gitbook/assets/image%20%28139%29%20%281%29%20%282%29%20%282%29%20%282%29.png)
+![](../../../.gitbook/assets/image%20%28139%29%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
 
 As an administrator, you can see your _User_, _Messages_, and _Channels_ engagement here.
 
