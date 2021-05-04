@@ -17,4 +17,3 @@ BigBlueButton offers the core features one would expect from a web conferencing 
 
 If you have BigBlueButton configured on your server, follow the following instructions to use it as your web conferencing solution.
 
-1. 
