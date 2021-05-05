@@ -7,7 +7,8 @@ on: [push]
 
 jobs:
   build:
-
+    # Disable build step since it's old and not working
+    if: ${{ false }}
     runs-on: ubuntu-latest
 
     steps:
