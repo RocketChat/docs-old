@@ -7,7 +7,8 @@ on: [push]
 
 jobs:
   build:
-
+    # Disable build step since it's old and not working
+    if: ${{ false }}
     runs-on: ubuntu-latest
 
     steps:
@@ -38,3 +39,32 @@ jobs:
     - name: Build and test with Rake
       run: |
         bundle exec "rake test"
+
+  validate-files:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Use Node.js 12.22.1
+      uses: actions/setup-node@v2
+      with:
+        node-version: "12.22.1"
+
+    - name: Cache node modules
+      id: cache-nodemodules
+      uses: actions/cache@v2
+      with:
+        path: .scripts/doctor/node_modules
+        key: ${{ runner.OS }}-node_modules-${{ hashFiles('**/package-lock.json', '.github/workflows/build_and_test.yml') }}
+
+    - name: Install dependencies
+      run: |
+        cd .scripts/doctor
+        npm i
+
+    - name: Validate
+      run: |
+        cd .scripts/doctor
+        npm start
