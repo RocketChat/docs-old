@@ -6,7 +6,7 @@ description: Installing Rocket.Chat Chart on Kubernetes using Helm
 
 > **WARNING**: Upgrading to chart version 1.1.0 \(Rocket.Chat 1.0.3\) might require extra steps to retain the MongoDB data. See [Upgrading](helm-chart.md#upgrading) for more details.
 
-Helm is a tool that streamlines installing and managing Kubernetes applications. Think of it like apt/yum/homebrew for Kubernetes, helm uses a packaging format called charts. A chart is a collection of files that describe a related set of Kubernetes resources. The Rocket.Chat helm chart packages Rocket.Chat server and mongodb.  
+Helm is a tool that streamlines installing and managing Kubernetes applications. Think of it like apt/yum/homebrew for Kubernetes, helm uses a packaging format called charts. A chart is a collection of files that describe a related set of Kubernetes resources. The Rocket.Chat helm chart packages Rocket.Chat server and mongodb. Options for the Rocket.Chat helm chart can be found [here](https://artifacthub.io/packages/helm/helm-stable/rocketchat).  
   
 Working with Helm and Kubernetes is especially simple if you are using Ubuntu 20.04lts, 18.04lts, or 16.04lts.   See [microk8s installation ](https://microk8s.io/docs%20)details.      Helm 3 is the latest version, and it is already built into microk8s,  you can access it via the command:
 
@@ -27,7 +27,7 @@ $ microk8s.helm3
 ### Install Rocket.Chat chart and configure mongodbUsername, mongodbPassword, mongodbDatabase and mongodbRootPassword:
 
 ```bash
-$ helm install --set mongodb.mongodbUsername=rocketchat,mongodb.mongodbPassword=changeme,mongodb.mongodbDatabase=rocketchat,mongodb.mongodbRootPassword=root-changeme --name my-rocketchat stable/rocketchat
+$ helm install --set mongodb.mongodbUsername=rocketchat,mongodb.mongodbPassword=changeme,mongodb.mongodbDatabase=rocketchat,mongodb.mongodbRootPassword=root-changeme my-rocketchat stable/rocketchat
 ```
 
 * mongodbUsername: This user will have access to the rocketchat database \(mongodbDatabase\) and is authenticated using mongodbDatabase
@@ -37,16 +37,16 @@ $ helm install --set mongodb.mongodbUsername=rocketchat,mongodb.mongodbPassword=
 
 Is possible to check both passwords, mongodbPassword and mongodbRootPassword, in mongodb secret, use `kubectl get secrets`.
 
-#### If you would like to install other image than default for this chart, add to the command repository and the image you would like to install:
+#### If you would like to install a different image than the default for this chart, add to the command the image you would like to install:
 
 ```bash
-$ helm install --set mongodb.mongodbUsername=rocketchat,mongodb.mongodbPassword=changeme,mongodb.mongodbDatabase=rocketchat,mongodb.mongodbRootPassword=root-changeme,repository=<image-wanted> --name my-rocketchat stable/rocketchat
+$ helm install --set mongodb.mongodbUsername=rocketchat,mongodb.mongodbPassword=changeme,mongodb.mongodbDatabase=rocketchat,mongodb.mongodbRootPassword=root-changeme,repository=<image-wanted> my-rocketchat stable/rocketchat
 ```
 
 #### And if you only would like to install another version of rocket.chat image, add tag value to the command:
 
 ```bash
-$ helm install --set mongodb.mongodbUsername=rocketchat,mongodb.mongodbPassword=changeme,mongodb.mongodbDatabase=rocketchat,mongodb.mongodbRootPassword=root-changeme,tag=0.74.2 --name my-rocketchat stable/rocketchat
+$ helm install --set mongodb.mongodbUsername=rocketchat,mongodb.mongodbPassword=changeme,mongodb.mongodbDatabase=rocketchat,mongodb.mongodbRootPassword=root-changeme,image.pullPolicy=Always,image.tag=3.7.0 my-rocketchat stable/rocketchat
 ```
 
 #### Check rocketchat values.yaml file for more details and adjust to your needs, after you can install Rocket.Chat chart using this command, remember to set mongodbUsername, mongodbPassword, mongodbDatabase and mongodbRootPassword:
@@ -54,6 +54,12 @@ $ helm install --set mongodb.mongodbUsername=rocketchat,mongodb.mongodbPassword=
 ```bash
 $ helm install --name my-rocketchat -f values.yaml stable/rocketchat
 ```
+
+## Typical k8s/Helm Deployment on AWS EKS
+
+This is an example of how Rocket.Chat instances can be deployed in a very scalable, fault-tolerant and backed up configuration, suitable for critical production services. 
+
+![Multi Instance k8s/Helm Deployment on AWS EKS](../../.gitbook/assets/rocket-chat-aws-eks.svg)
 
 ## Upgrading
 
@@ -99,7 +105,7 @@ $ kubectl cp rocketchat-db-bkup.gz  my-rocketchat-1-mongodb-primary-0:/tmp
 $ kubectl exec my-rocketchat-1-mongodb-primary-0 -- sh -c 'mongorestore -u<mongodbUsername> -p<mongodbPassword> --archive=/tmp/rocketchat-db-bkup.gz --gzip --db <mongodbDatabase>'
 ```
 
-* Check that the database was restored succesfully:
+* Check that the database was restored successfully:
 
 ```bash
 kubectl exec my-rocketchat-1-mongodb-primary-0 -- sh -c 'mongo <mongodbDatabase> -u<mongodbUsername> -p<mongodbPassword>  --eval="printjson(db.runCommand( { listCollections: 1.0, nameOnly: true } ))"'
