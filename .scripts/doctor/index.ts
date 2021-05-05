@@ -59,7 +59,8 @@ export async function init(): Promise<void> {
 	const filesInSummaryAndDuplicated = [];
 
 	for (const file of files) {
-		const checksum = execSync(`md5 -q ${file}`).toString().replace('\n', '');
+		// const checksum = execSync(`md5 -q ${file}`).toString().replace('\n', '');
+		const checksum = execSync(`printf $(md5sum ${file})`).toString().replace('\n', '');
 
 		if (checksums.has(checksum)) {
 			const detail = `• ${file}\n↳ ${checksums.get(checksum)}`;
