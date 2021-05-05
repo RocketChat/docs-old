@@ -2,7 +2,7 @@
 
 Under **Invites**, you can view all the invite links generated to invite users to the workspace/channels.
 
-![](../../../.gitbook/assets/image%20%28349%29%20%281%29%20%281%29%20%281%29.png)
+![](../../../.gitbook/assets/image%20%28349%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 ## Delete a record
 
