@@ -14,6 +14,10 @@ const ignoreDirs = [
 	'.travis'
 ];
 
+const ignoreFiles = [
+	'SUMMARY.md'
+];
+
 async function recFindByExt(basePath: string, ext: string): Promise<string[]> {
 	if (ignoreDirs.includes(basePath)) {
 		return [];
@@ -22,7 +26,7 @@ async function recFindByExt(basePath: string, ext: string): Promise<string[]> {
 	try {
 		const ls = await fs.readdir(basePath, {withFileTypes: true});
 
-		const files = ls.filter((item) => item.isFile() && item.name.endsWith(ext)).map((file) => path.join(basePath, file.name));
+		const files = ls.filter((item) => item.isFile() && item.name.endsWith(ext) && !ignoreFiles.includes(item.name)).map((file) => path.join(basePath, file.name));
 		const directories = ls.filter((item) => item.isDirectory());
 
 		for (const directory of directories) {
@@ -59,8 +63,12 @@ export async function init(): Promise<void> {
 	const filesInSummaryAndDuplicated = [];
 
 	for (const file of files) {
-		// const checksum = execSync(`md5 -q ${file}`).toString().replace('\n', '');
-		const checksum = execSync(`printf $(md5sum ${file})`).toString().replace('\n', '');
+		let command = `md5 -q ${file}`;
+		if (process.platform === 'linux') {
+			command = `printf $(md5sum ${file})`;
+		}
+
+		const checksum = execSync(command).toString().replace('\n', '');
 
 		if (checksums.has(checksum)) {
 			const detail = `• ${file}\n↳ ${checksums.get(checksum)}`;
