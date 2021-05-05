@@ -65,4 +65,5 @@ jobs:
 
     - name: Validate
       run: |
+        cd .scripts/doctor
         npm start
