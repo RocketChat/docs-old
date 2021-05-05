@@ -1,7 +1,5 @@
 # Off-the-record \(OTR\) Messaging User Guide
 
-
-
 {% hint style="info" %}
 This feature is currently in beta. Search operations will not find encrypted messages of encrypted rooms. The mobile apps and multi-DMs may not support the encrypted messages \(currently under implementation\). File Uploads will not be encrypted in this version.
 {% endhint %}
@@ -20,10 +18,10 @@ In contrast to OTR, _end-to-end encrypted messages_ have a record on the server 
 
 Prerequisites for using OTR are:
 
-* OTR has been enabled by your server administrator \(if not, you will not be able to see OTR in the DM context menu\).
-* a direct message \(DM\) room with only one other participant.
-* you and your DM-partner have entered their [end-to-end encryption key](https://docs.rocket.chat/guides/user-guides/end-to-end-encryption).
-* you and your DM-partner are both online.
+* OTR has been enabled by your server administrator \(if not, you will not be able to see OTR in the DM context menu\)
+* a direct message \(DM\) room with only one other participant
+* you and your DM-partner have entered their [end-to-end encryption key](https://docs.rocket.chat/guides/user-guides/end-to-end-encryption)
+* you and your DM-partner are both online
 
 ## Starting an OTR conversation
 
