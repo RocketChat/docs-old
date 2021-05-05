@@ -87,7 +87,7 @@ export async function init(): Promise<void> {
 			const detail = `• ${file}\n↳ ${checksums.get(checksum)}`;
 
 			if (filesNotInSummary.includes(file)) {
-				filesNotInSummaryAndDuplicated.push(detail)
+				filesNotInSummaryAndDuplicated.push(file)
 			} else if (filesNotInSummary.includes(checksums.get(checksum) || '')) {
 				filesNotInSummaryAndDuplicated.push(checksums.get(checksum))
 			} else {
