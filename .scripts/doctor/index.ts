@@ -18,6 +18,19 @@ const ignoreFiles = [
 	'SUMMARY.md'
 ];
 
+function execSyncIgnoringExitCode(command: string): string | Error {
+	try {
+		return execSync(command).toString();
+	} catch (error) {
+		const result = error.stdout.toString();
+		if (result.startsWith('error: Could not access')) {
+			console.log(result);
+			return new Error;
+		}
+		return result;
+	}
+}
+
 async function recFindByExt(basePath: string, ext: string): Promise<string[]> {
 	if (ignoreDirs.includes(basePath)) {
 		return [];
@@ -53,16 +66,16 @@ export async function init(): Promise<void> {
 		}
 	}
 
-	const files = await recFindByExt('.', '.md');
+	const allFiles = await recFindByExt('.', '.md');
 
-	const filesNotInSummary = files.filter((file) => !links.includes(file));
+	const filesNotInSummary = allFiles.filter((file) => !links.includes(file));
 
 	const checksums = new Map<string, string>();
 
 	const filesNotInSummaryAndDuplicated = [];
 	const filesInSummaryAndDuplicated = [];
 
-	for (const file of files) {
+	for (const file of allFiles) {
 		let command = `md5 -q ${file}`;
 		if (process.platform === 'linux') {
 			command = `printf $(md5sum ${file})`;
@@ -75,7 +88,9 @@ export async function init(): Promise<void> {
 
 			if (filesNotInSummary.includes(file)) {
 				filesNotInSummaryAndDuplicated.push(detail)
-			} else if (!filesNotInSummary.includes(checksums.get(checksum) || '')) {
+			} else if (filesNotInSummary.includes(checksums.get(checksum) || '')) {
+				filesNotInSummaryAndDuplicated.push(checksums.get(checksum))
+			} else {
 				filesInSummaryAndDuplicated.push(detail)
 			}
 		} else {
@@ -83,14 +98,75 @@ export async function init(): Promise<void> {
 		}
 	}
 
-	console.log(`\n=== ${filesNotInSummary.length} files not in Summary ===\n`);
-	console.log(filesNotInSummary.join('\n'));
+	const filesWithPathDiffsOnly = [];
+	const filesNotInSummaryWithSingleDuplicate = [];
+	const filesNotInSummaryWithMultipleDuplicates = [];
+	const filesNotInSummaryWithoutDuplicates = [];
 
-	console.log(`\n=== ${filesNotInSummaryAndDuplicated.length} files not in Summary and duplicated ===\n`);
-	console.log(filesNotInSummaryAndDuplicated.join('\n'));
+	for (const file of filesNotInSummary) {
+		const fileName = path.parse(file).base;
+		const fileDir = file.split('/').slice(-2).join('/');
+
+		let filesWithSameName = allFiles.filter((f) => !filesNotInSummary.includes(f) && fileName === path.parse(f).base);
+
+		if (filesWithSameName.length > 1) {
+			filesWithSameName = allFiles.filter((f) => !filesNotInSummary.includes(f) && fileDir === f.split('/').slice(-2).join('/'));
+		}
+
+		if (filesWithSameName.length === 1) {
+			const command = `git diff -b --no-index --ignore-blank-lines --word-diff-regex=. --word-diff=porcelain --summary -U0 "${file}" "${filesWithSameName[0]}"`;
+
+			const result = execSyncIgnoringExitCode(command);
+			if (result instanceof Error) {
+				continue;
+			}
+
+			const changes = result.split('\n')
+				.splice(4)
+				.filter(i => (i.startsWith('-') || i.startsWith('+')) && !i.match(/^(-|\+)(\.\.?\/\.?)+$/))
+				.join('\n');
+
+			if (!changes) {
+				filesWithPathDiffsOnly.push(file);
+			}
+		}
+
+		if (!filesWithPathDiffsOnly.includes(file) && filesWithSameName.length === 1) {
+			filesNotInSummaryWithSingleDuplicate.push(`mv ${file} ${filesWithSameName[0]}`);
+		}
+
+		if (!filesWithPathDiffsOnly.includes(file) && filesWithSameName.length > 1) {
+			filesNotInSummaryWithMultipleDuplicates.push(`${file}\n${filesWithSameName.map((i) => {
+				const result = execSyncIgnoringExitCode(`git diff --no-index --exit-code --shortstat ${file} ${i}`);
+				if (!(result instanceof Error)) {
+					i = i + result.replace(/\n$/, '');
+				}
+				return '  -> ' + i;
+			}).join('\n')}\n`);
+		}
+
+		if (!filesWithPathDiffsOnly.includes(file) && !filesWithSameName.length) {
+			filesNotInSummaryWithoutDuplicates.push(file);
+		}
+	}
+
+	console.log(`\n=== ${filesNotInSummaryAndDuplicated.length} files not in Summary and duplicated (safe to remove) ===\n`);
+	console.log(filesNotInSummaryAndDuplicated.map((i) => 'rm '+i).join('\n'));
+
+	console.log(`\n=== ${filesWithPathDiffsOnly.length} files not in Summary and with diffs in paths only (safe to remove) ===\n`);
+	console.log(filesWithPathDiffsOnly.map((i) => 'rm '+i).join('\n'));
 
 	console.log(`\n=== ${filesInSummaryAndDuplicated.length} files in Summary and duplicated ===\n`);
 	console.log(filesInSummaryAndDuplicated.join('\n'));
+
+	console.log(`\n=== ${filesNotInSummaryWithSingleDuplicate.length} other files not in Summary with single duplicate identified ===\n`);
+	console.log(filesNotInSummaryWithSingleDuplicate.join('\n'));
+
+	console.log(`\n=== ${filesNotInSummaryWithMultipleDuplicates.length} other files not in Summary with multiple duplicates identified ===\n`);
+	console.log(filesNotInSummaryWithMultipleDuplicates.join('\n'));
+
+	console.log(`\n=== ${filesNotInSummaryWithoutDuplicates.length} other files not in Summary ===\n`);
+	console.log(filesNotInSummaryWithoutDuplicates.join('\n'));
 
 	if (filesNotInSummary.length) {
 		process.exit(1);
