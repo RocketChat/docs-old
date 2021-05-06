@@ -15,7 +15,8 @@ const ignoreDirs = [
 ];
 
 const ignoreFiles = [
-	'SUMMARY.md'
+	'SUMMARY.md',
+	'license.md'
 ];
 
 function execSyncIgnoringExitCode(command: string): string | Error {
@@ -118,6 +119,11 @@ export async function init(): Promise<void> {
 			if (fileName === 'README.md' || filesWithSameNameAndDir.length) {
 				filesWithSameName = filesWithSameNameAndDir;
 			}
+		}
+
+		// Try to find last dir path part with same name of the old file
+		if (!filesWithSameName.length) {
+			filesWithSameName = allFiles.filter((f) => !filesNotInSummary.includes(f) && fileName.replace('.md', '') === f.split('/').slice(-2, -1)[0]);
 		}
 
 		if (filesWithSameName.length === 1) {
