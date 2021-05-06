@@ -132,7 +132,7 @@ export async function init(): Promise<void> {
 		}
 
 		if (!filesWithPathDiffsOnly.includes(file) && filesWithSameName.length === 1) {
-			filesNotInSummaryWithSingleDuplicate.push(`mv ${file} ${filesWithSameName[0]}`);
+			filesNotInSummaryWithSingleDuplicate.push(`cp ${filesWithSameName[0]} ${file}`);
 		}
 
 		if (!filesWithPathDiffsOnly.includes(file) && filesWithSameName.length > 1) {
@@ -159,7 +159,7 @@ export async function init(): Promise<void> {
 	console.log(`\n=== ${filesInSummaryAndDuplicated.length} files in Summary and duplicated ===\n`);
 	console.log(filesInSummaryAndDuplicated.join('\n'));
 
-	console.log(`\n=== ${filesNotInSummaryWithSingleDuplicate.length} other files not in Summary with single duplicate identified ===\n`);
+	console.log(`\n=== ${filesNotInSummaryWithSingleDuplicate.length} other files not in Summary with single duplicate identified (copy new over old to compare) ===\n`);
 	console.log(filesNotInSummaryWithSingleDuplicate.join('\n'));
 
 	console.log(`\n=== ${filesNotInSummaryWithMultipleDuplicates.length} other files not in Summary with multiple duplicates identified ===\n`);
