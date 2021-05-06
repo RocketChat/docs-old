@@ -7,7 +7,7 @@ Rocket.Chat Cloud provides a list of features/services such as
 * [Rocket.Chat Push Notification Gateway](https://docs.rocket.chat/guides/administrator-guides/notifications/push-notifications#push-gateway)
 * [Rocket.Chat Marketplace](https://rocket.chat/marketplace)
 * Omnichannel proxy
-* Automatic license synchronization 
+* Automatic license synchronization
 
 In order to use those services, Rocket.Chat server must be connected to [cloud.rocket.chat](https://cloud.rocket.chat/). Below are the steps required to connect and synchronize a Rocket.Chat self-hosted server to our cloud infrastructure.
 
@@ -31,7 +31,7 @@ In order to connect your server to our Cloud, your Rocket.Chat server must be at
 
 ![](../../../.gitbook/assets/c_4.png)
 
-1. A verification email will be sent in order to activate your new Cloud account 
+1. A verification email will be sent in order to activate your new Cloud account
 
 ![](../../../.gitbook/assets/image%20%28155%29.png)
 
@@ -49,7 +49,7 @@ In this document, we are covering only the "Internet Access" option
 
 ![](../../../.gitbook/assets/c_8.png)
 
-1. On your Rocket.Chat server, go to _Administration &gt; Connectivity Services._   
+1. On your Rocket.Chat server, go to _Administration &gt; Connectivity Services._
 
    Fill up the "Email" field with the email related to your Rocket.Chat Cloud account and in the "Token" field please paste the registration token generated. Finally, hit the "Connect" button.
 
@@ -59,7 +59,7 @@ In this document, we are covering only the "Internet Access" option
 
 ![](../../../.gitbook/assets/c_10.png)
 
-1. Finally, in order to ensure the synchronization between Rocket.Chat server and Rocket.Chat Cloud, hit the "Sync" button as this will trigger the synchronization framework. 
+1. Finally, in order to ensure the synchronization between Rocket.Chat server and Rocket.Chat Cloud, hit the "Sync" button as this will trigger the synchronization framework.
 
 This is recommended right after registering your server. The newly registered workspace will be listed in the "Workspace" section at [cloud.rocket.chat](https://cloud.rocket.chat/)
 
