@@ -1,4 +1,8 @@
-# Atlassian Jira Server Integration
+---
+description: Atlassian Jira Server Integration
+---
+
+# Jira Server
 
 Here you will find how to install and use the Jira Server Integration.
 
@@ -17,9 +21,9 @@ Now that you have the app installed in your server, it is time to configure the 
 
 Go to any channel or private group and execute the slashcommand `/jira-server install JIRA_URL USER PASSWORD`, where:
 
-* **JIRA\_URL** is the base URL of your Jira server, e.g. `https://jira.example.com` or `https://example.com/jira`;
-* **USER** is the username of a user in your Jira with administrative rights;
-* **PASSWORD** is the password of the user mentioned above;
+* **JIRA\_URL** is the base URL of your Jira server, e.g. `https://jira.example.com` or `https://example.com/jira`
+* **USER** is the username of a user in your Jira with administrative rights
+* **PASSWORD** is the password of the user mentioned above
 
 After that your Rocket.Chat will be connected to your Jira instance.
 
@@ -29,10 +33,5 @@ In order to enable notifications, you have to connect a channel or private group
 
 To connect a channel or private group, execute the slashcommand `/jira-server connect`. You will receive an ephemeral message containing the list of projects in your Jira that are available for you to connect to. Now for every project you want to connect, you can run the slashcommand `/jira-server connect PROJECT_KEY`.
 
-> **Note** Your bot will need to be invited to any group or channel you connected with `/jira-server connect <Project Key>`. Example: `/invite @rocket.cat` will enable the `@rocket.cat` bot to post messages from the Jira connector into the group or channel connected.
-
 A channel or private group can be connected to as many Jira Projects as you want; similarly, a Jira Project can be connected to as many channels or private groups as you want;
 
-### Jira Cloud
-
-All of the above commands work as long as you substitute `/jira-server` with `/jira`
