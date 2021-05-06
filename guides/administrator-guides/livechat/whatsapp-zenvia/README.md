@@ -12,13 +12,13 @@ SMS Integration
 
 SMS -> Zenvia -> API Token: Authentication Token for Zenvia API
 
-SMS -> Zenvia -> Channel: Channel to be used with Zenvia API. Possible values are whatsapp, sms or facebook
+SMS -> Zenvia -> Channel: Channel to be used with Zenvia API. Possible values are whatsApp, sms or facebook
 
 SMS -> Zenvia -> From: Default "From" name for API calls
 
 **Description:**
 
-This feature is almost based on Twilio's integration, making it possible to integrate Omnichannel with Whatsapp, Facebook or SMS through Zenvia.
+This feature is almost based on Twilio's integration, making it possible to integrate Omnichannel with WhatsApp, Facebook or SMS through Zenvia.
 
 **How to use this feature:**
 
@@ -28,7 +28,7 @@ Ask access to the [Zenvia Sandbox](https://app.zenvia.com/home/sandbox).
 
 ## Step 2
 
-Create a new Sandbox choosing **Whatsapp** channel.
+Create a new Sandbox choosing **WhatsApp** channel.
 
 ## Step 3
 
