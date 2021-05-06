@@ -1,10 +1,10 @@
 # Messages
 
-This page explains the ins and outs of messaging in Rocket.Chat.
+This page explains the ins and outs of messaging in the Rocket.Chat.
 
 ## Compose messages
 
-To compose a message in Rocket.Chat, go to the channel or user you want to send a message. Type message in the message box and press Enter or the **Send** Button.
+To compose a message in the Rocket.Chat, go to the channel or user you want to send a message. Type message in the message box and press Enter or the **Send** Button.
 
 If you want to add new lines of text, press `Shift + Command` to add a new line.
 
@@ -18,7 +18,7 @@ Hold `Alt` or `Command` while pressing the right or left arrow keys to move the 
 
 To get the attention of a specific team member in a channel, type `@` followed by their username, for example, `@username`. The mentioned user sees a red badge on the channel or is notified via email or their mobile device if they're not online.
 
-You can also notify everyone in a channel by typing `@all`. Although notifying everyone in the channel is useful for announcements, not every message requires this. We recommend using `@all` sparingly
+You can also notify everyone in a channel by typing `@all`. Although notifying everyone in the channel is useful for announcements, not every message requires this. We recommend using `@all` sparingly.
 
 ## Send attachments
 
@@ -62,7 +62,7 @@ _Note:_ Google Drive features available only if the server's admin has enabled G
 
 Files can be uploaded from Google Drive to a room by selecting the **Select Files from Google Drive** option on the attachment menu. This opens a Google Drive file picker GUI with search and view modes. Select the required file, enter a title and description, and then click **Upload**.
 
-Files upload in the same format to Rocket.Chat as they are in Google Drive with exception to Google docs, slides and sheets which convert to pdfs upon upload.
+Files upload in the same format to Rocket.Chat as they are in Google Drive with exception to Google docs, slides and sheets which convert to pdf's upon upload.
 
 ### From Rocket.Chat to Google Drive
 
