@@ -12,7 +12,7 @@ SMS Integration
 
 SMS -> Zenvia -> API Token: Authentication Token for Zenvia API
 
-SMS -> Zenvia -> Channel: Channel to be used with Zenvia API. Possible values are whatsApp, sms or facebook
+SMS -> Zenvia -> Channel: Channel to be used with Zenvia API. Possible values are WhatsApp, sms or facebook
 
 SMS -> Zenvia -> From: Default "From" name for API calls
 
