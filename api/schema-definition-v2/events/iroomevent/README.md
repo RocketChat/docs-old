@@ -6,19 +6,7 @@ description: >-
 
 # IRoomEvent
 
-### Interface Definition
+Please find the document here: 
 
-```typescript
-export interface IRoomEvent {
-	ct: EventContext.ROOM;
-	t: RoomEventTypeDescriptor;
-	d: EventRoomDataDefinition;
-}
-```
-
-| Property | Description |
-| :--- | :--- |
-| ct | This is the context type, hardcoded to `EventContext.ROOM` \([EventContext](../eventcontext.md)\), because this is the room specialized event. |
-| t | The type of the event, in this case, one of the possibilities described on [RoomEventTypeDescriptor](roomeventtypedescriptor.md) |
-| d | The payload of the event, one of the [RoomEventDataDefinition](room-event-data-definition/) |
+[https://developer.rocket.chat/api/schema-definition-v2/events/iroomevent](https://developer.rocket.chat/api/schema-definition-v2/events/iroomevent)
 

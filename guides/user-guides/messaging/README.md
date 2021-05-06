@@ -4,9 +4,9 @@ This page explains the ins and outs of messaging in Rocket.Chat.
 
 ## Compose messages
 
-To compose a message in Rocket.Chat, go to the channel or user you want to send a message. Type the message box and press Enter or the **Send** Button.
+To compose a message in Rocket.Chat, go to the channel or user you want to send a message. Type message in the message box and press Enter or the **Send** Button.
 
-If you want to add new lines of text, press Shift + Enter to add a new line.
+If you want to add new lines of text, press `Shift + Command` to add a new line.
 
 ## Cursor movement
 
@@ -18,11 +18,11 @@ Hold `Alt` or `Command` while pressing the right or left arrow keys to move the 
 
 To get the attention of a specific team member in a channel, type `@` followed by their username, for example, `@username`. The mentioned user sees a red badge on the channel or is notified via email or their mobile device if they're not online.
 
-You can also notify everyone in a channel by typing `@all`. We recommend using `@all` sparingly. Although notifying everyone in the channel is useful for announcements, not every message requires this.
+You can also notify everyone in a channel by typing `@all`. Although notifying everyone in the channel is useful for announcements, not every message requires this. We recommend using `@all` sparingly
 
 ## Send attachments
 
-You can send a variety of attachments on your messages, like files, audio, links, videos, and many more.
+You can send a variety of attachments with your messages, like files, audio, links, videos, and many more.
 
 To access the attachment menu you can, click on the **plus** \(+\) icon on the message input.
 
@@ -40,13 +40,13 @@ _Remember that the server administrator can block certain file types from being 
 
 ### Audio
 
-When using Rocket.Chat through a web browser give Rocket.Chat permission to use your microphone.
+When using Rocket.Chat through a web browser, give Rocket.Chat permission to use your microphone.
 
-To start recording, click on the **Create new Audio Message** or the option in the attachment menu or the microphone inside the message box. To stop recording, click the green checkmark. The audio message automatically sends. You can choose to play or download the message.
+To start recording, click on **Create new Audio Message** or the option in the attachment menu or microphone icon inside the message box. To stop recording, click the green checkmark. The audio message automatically sends. You can choose to play or download the message.
 
 ### Video
 
-When using Rocket.Chat through a web browser give Rocket.Chat permission to use your webcam.
+When using Rocket.Chat through a web browser, give Rocket.Chat permission to use your webcam.
 
 To start recording, click on the **Create new Video Message** option in the attachment menu, then click the red circle icon.
 
@@ -78,7 +78,7 @@ URLs to other sites automatically generate a preview of that site's content. Cop
 
 ## Location
 
-To share your location, click **Share My Location**. A message generates a link to a Google Map of your location.
+To share your location, click **Share My Location**. A message with the link to your location on Google Maps is generated.
 
 ## Emoji
 

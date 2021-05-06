@@ -1,21 +1,6 @@
 # stream-notify-room
 
-This is a room stream.
+Please find the document here: 
 
-Replace event from one in the list Events available:
-
-* deleteMessage
-* typing
-
-```javascript
-{
-    "msg": "sub",
-    "id": "unique-id",
-    "name": "stream-notify-room",
-    "params":[
-        "room-id/event",
-        false
-    ]
-}
-```
+[https://developer.rocket.chat/api/realtime-api/subscriptions/stream-notify-room](https://developer.rocket.chat/api/realtime-api/subscriptions/stream-notify-room)
 

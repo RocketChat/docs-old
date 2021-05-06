@@ -8,7 +8,7 @@ description: >-
 
 To access **Livechat Installation** settings:
 
-1. Go to **Livechat Installation** in the omnichannel panel settings, as shown below:
+Go to **Livechat Installation** in the omnichannel panel settings, as shown below:
 
 ![](../../../.gitbook/assets/0%20%2810%29.png)
 
@@ -18,5 +18,5 @@ To access **Livechat Installation** settings:
 
 ![](../../../.gitbook/assets/1%20%2811%29.png)
 
-2. Paste this code above the last **&lt;/body&gt;** tag on your site; the livechat widget will appear on the bottom right corner on your webpage.
+1. Paste this code above the last **&lt;/body&gt;** tag on your site; the livechat widget will appear on the bottom right corner on your webpage.
 

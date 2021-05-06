@@ -1,9 +1,15 @@
 # Microservices Setup \[beta\]
 
 {% hint style="info" %}
-This guide is currently only valid for a special distribution of the Rocket.Chat.
+This feature is currently in the beta stage and can change without prior notice.
+{% endhint %}
 
-The feature will be released for **General Availability** on the **Enterprise Edition v4.0**
+{% hint style="info" %}
+The feature will be released for **General Availability** on the **Enterprise Edition v4.0.**
+{% endhint %}
+
+{% hint style="info" %}
+New in version 3.8. 
 {% endhint %}
 
 ## Pre-requisites
@@ -25,7 +31,7 @@ The following environment variables should be set for Rocket.Chat services as we
 | `DISABLE_PRESENCE_MONITOR` | `true` | Disables presence monitoring and rely on the `presence-service` |
 | `INTERNAL_SERVICES_ONLY` | `true` | Do not run external services on rocket.chat process |
 
-## Microservices
+## Micro Services
 
 Rocket.Chat microservices are composed of a few Docker containers:
 
@@ -87,7 +93,7 @@ docker run \
 rocketchat/stream-hub-service:latest
 ```
 
-### Presence 
+### Presence \(Optional\)
 
 Controls and update users' presence status. 
 

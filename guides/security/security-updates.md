@@ -14,12 +14,68 @@ Please make sure to follow new version updates by subscribing to our newsletters
 
 **Issues**
 
+{% hint style="danger" %}
+**0026 - Critical Severity issue** fixed at **2021-04-14.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.13.2, 3.12.4, 3.11.4**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 3v299a\)
+{% endhint %}
+
+{% hint style="danger" %}
+**0025 - Critical Severity issue** fixed at **2021-04-14.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.13.2, 3.12.4, 3.11.4**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 3v29b6\)
+{% endhint %}
+
+{% hint style="danger" %}
+**0024 - Critical Severity issue** fixed at **2021-04-14.**
+
+Rocket.Chat Live.Chat - affects **all,** fixed on **3.13.2, 3.12.4, 3.11.4**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy. Variation of 0023. \(reference:_ 3h5cty\)
+{% endhint %}
+
+{% hint style="danger" %}
+**0023 - High Severity issue** fixed at **2021-03-26.**
+
+Rocket.Chat Live.Chat - affects **all,** fixed on **3.13, 3.12.2, 3.11.3**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 3h5cty\)
+{% endhint %}
+
+{% hint style="info" %}
+**0022 - Low Severity issue** fixed at **2021-03-26.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.13, 3.12.2, 3.11.3**
+
+_\(**Self-XSS\)** An issue with SVG files not being sanitized allowed for potential self XSS. \(reference:_ 98bfae\)
+{% endhint %}
+
+{% hint style="info" %}
+**0021 - Low Severity issue** fixed at **2021-03-26.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.13, 3.12.2, 3.11.3**
+
+_\(**Email enumeration\)** An issue with an API method allowed for potential email enumeration. \(reference:_ 6tr8gn\)
+{% endhint %}
+
+{% hint style="warning" %}
+**0020 - Medium Severity issue** fixed at **2021-03-26.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.13, 3.12.2, 3.11.3**
+
+_\(**ReDOS\)** An issue with certain regular expressions could lead potentially to Denial of Service. \(reference:_ 2q6wxz\)
+{% endhint %}
+
 {% hint style="warning" %}
 **0019 - Medium Severity issue** fixed at **2021-02-27.**
 
 Rocket.Chat Server - affects **all,** fixed on **3.12, 3.11.2, 3.10.6**
 
-_Details about this security fix will be provided later as per our responsible disclosure policy._
+_\(**Authentication\)** An authentication issue allowed adding users to rooms without proper authorization. \(reference:_ 330zt5_\)_
 {% endhint %}
 
 {% hint style="danger" %}
@@ -27,7 +83,7 @@ _Details about this security fix will be provided later as per our responsible d
 
 Rocket.Chat Server - affects **all,** fixed on **3.12, 3.11.2, 3.10.6**
 
-_**\(SAML-related fix\)** Details about this security fix will be provided later as per our responsible disclosure policy._
+**\(SAML\)** A race condition in the SAML implementation could be exploited by an attacker. An issue with the token syntax could be exploited. \(reference: 397ymy\)
 {% endhint %}
 
 {% hint style="info" %}
@@ -35,7 +91,7 @@ _**\(SAML-related fix\)** Details about this security fix will be provided later
 
 Rocket.Chat Server - affects **all,** fixed on **3.12, 3.11.2, 3.10.6**
 
-_Details about this security fix will be provided later as per our responsible disclosure policy._
+_\(**Self-XSS\)** A sanitization issue  could be exploited for a Self-XSS exploit._
 {% endhint %}
 
 {% hint style="warning" %}

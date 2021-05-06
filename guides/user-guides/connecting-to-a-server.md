@@ -30,5 +30,5 @@ To connect to a Rocket.Chat server using a mobile client app [download](../../in
 
 Open the app. If this is your first time using the mobile app, the server connect screen appears. Press **Join a workspace**, enter a valid server address and then click **Connect**.
 
-After entering a valid Rocket.Chat server address, the [registration](registration.md) and [log in]() page appears. Enter your credentials to log in or register to become a member of that server.
+After entering a valid Rocket.Chat server address, the [registration](registration.md) and login page appear. Enter your credentials to log in or register to become a member of that server.
 

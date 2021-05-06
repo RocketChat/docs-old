@@ -18,12 +18,13 @@ To access **Tags** settings:
 ![](../../../.gitbook/assets/1%20%2815%29.png)
 
 1. Name your new Tag.
-2. Give a description.
-3. Select the department the new Tag belongs to, as shown below:
+2. Give a description:
+
+5.Select the department the new Tag belongs to, as shown below:
 
 ![](../../../.gitbook/assets/2%20%2814%29.png)
 
-1. Hit **Save**.
+6.Hit **Save**.
 
 ![](../../../.gitbook/assets/3%20%2814%29.png)
 

@@ -1,14 +1,6 @@
 # App Submission through CLI
 
-To submit your App simply run:
+Please find the document here: 
 
-`rc-apps submit`
-
-![](../../../.gitbook/assets/image%20%28186%29%20%281%29.png)
-
-{% hint style="info" %}
-If your app is free, it will go under review. If it's a paid app, you will be taken to Rocket.Chat  Publish Portal.
-{% endhint %}
-
-
+[https://developer.rocket.chat/apps-development/getting-started/submitting-app-to-the-marketplace/app-submission-through-cli](https://developer.rocket.chat/apps-development/getting-started/submitting-app-to-the-marketplace/app-submission-through-cli)
 

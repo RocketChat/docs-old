@@ -8,7 +8,7 @@ Once your server admin has enabled End to End Encryption as an option you will s
 
 ![ ](../../../.gitbook/assets/e2e-banner.png)
 
-If you click this banner you will be presented with a dialog containing a password. Rocket.Chat server does not know this password. So you will need to store it in your password manager along with your login password.
+If you click this banner you will be presented with a dialogue containing a password. Rocket.Chat server does not know this password. So you will need to store it in your password manager along with your login password.
 
 ![ ](../../../.gitbook/assets/e2e-alert.png)
 

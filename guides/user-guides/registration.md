@@ -1,6 +1,6 @@
 # Registering an account
 
-To access any Rocket.Chat server, register an account manually or by using one of the many supported OAuth services \(if the desired server has enabled these services\). After successfully registering, you can [log in]() to the server.
+To access any Rocket.Chat server, register an account manually or by using one of the many supported OAuth services \(if the desired server has enabled these services\). After successfully registering, you can log in to the server.
 
 ## Manual registration
 
@@ -20,7 +20,7 @@ If your server has configured OAuth services \(i.e. GitHub or Google\), use the 
 
 ## Choosing a username and display name
 
-After you have successfully registered, you will be asked to choose your username. Your username is your unique identifier for others to use to direct message or mention you. Your username is separate to your display name on the server.
+After you have successfully registered, you will be asked to choose your username. Your username is your unique identifier for others to use to direct message or mention you. Your username is separate from your display name on the server.
 
 Usernames on each Rocket.Chat server must be unique to that server. However, display names can repeat on the same server. For example, there can be only one user with the username `johnsmith` but there can be more than one user with the display name `John Smith`.
 

@@ -16,15 +16,15 @@ Click **Take it!** to take it off of the **Queued Chats** and be able to reply t
 
 ![](../../../.gitbook/assets/image%20%28223%29.png)
 
- As soon as you take it, it will appear in **Chats in Progress** and, you can click **Reply via Email** to reply to it. 
+As soon as you take it, it will appear in **Chats in Progress** and, you can click **Reply via Email** to reply to it.
 
 ![](../../../.gitbook/assets/image%20%28227%29.png)
 
 {% hint style="info" %}
-Note that if you type without clicking **Reply via Email**, your contact will **NOT** receive your reply at all. 
+Note that if you type without clicking **Reply via Email**, your contact will **NOT** receive your reply at all.
 {% endhint %}
 
-Type your message and hit send. 
+Type your message and hit **Send**
 
 ![](../../../.gitbook/assets/image%20%28226%29.png)
 
@@ -38,11 +38,11 @@ Your contact receives the message in email instantly.
 
 ## Invite a fellow agent to an email inbox
 
-Suppose you get an email and you need the assistance of your fellow agent on it; you can invite them to this inbox using `/intvite @username`
+Suppose you get an email and you need the assistance of your fellow agent on it; you can invite them to this inbox using `/invite @username`.
 
 ![](../../../.gitbook/assets/image%20%28245%29.png)
 
-They are invited to the channel,  as shown below:
+They are invited to the channel, as shown below:
 
 ![](../../../.gitbook/assets/image%20%28244%29.png)
 
@@ -50,7 +50,7 @@ They are invited to the channel,  as shown below:
 As soon as the fellow omnichannel agent is invited to an email inbox, they are all able to see all the old conversation that has happened before they arrival to that email inbox.
 {% endhint %}
 
-And you can conversate with them internally on the same channel. 
+And you can conversate with them internally on the same channel.
 
 ![](../../../.gitbook/assets/image%20%28246%29.png)
 
@@ -68,12 +68,11 @@ To send an attachment:
 
 ![](../../../.gitbook/assets/image%20%28249%29.png)
 
-2. Click **Send via Email as attachment**
+1. Click **Send via Email as attachment**
 
 ![](../../../.gitbook/assets/image%20%28247%29.png)
 
-  
-****It appears in the email of your omnichannel contact, as shown below:
+**It appears in the email of your omnichannel contact, as shown below:**
 
 ![](../../../.gitbook/assets/image%20%28251%29.png)
 

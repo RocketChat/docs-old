@@ -1,28 +1,14 @@
+---
+description: >-
+  Conversations in Rocket.Chat occur in channels. Channels are chat rooms with
+  useful features designed to increase communication and collaboration.
+---
+
 # Channels
 
-Conversations in Rocket.Chat occur in **channels**. Channels are chat rooms with useful features designed to increase communication and collaboration.
+Following is the team's symbol:
 
-There are three kinds of channels: [public channels](./#public-channels), [private groups](./#private-groups), and [direct \(1-on-1\) messages](./#direct-messages).
-
-## Public channels
-
-**Public channels** \(also called **channels** for short\) act as a base for all channel types. Use channels for conversations that are open to your entire team. Anyone on your team can join a channel.
-
-Channels make it easy to find what's going on with your team. New team members can join a channel and read all the information previously shared by other users.
-
-When in doubt, create a channel. Public conversations help you build a knowledge base of your organization with minimal effort. For example, create a channel for a company department or to discuss a specific programming language.
-
-## Private groups
-
-**Private groups** are closed channels. They are visible only to their members. Use private groups for subjects that are sensitive, confidential, or limited to a small group of team members.
-
-Private groups are joined through invitation only. The administrator sets the permissions that determine who can invite others to a private group. By default, only administrators, room owners, and moderators can invite others to private rooms.
-
-## Direct Messages
-
-**Direct messages \(DMs\)** are a private 1-on-1 conversation between team members. They can be sent to any user on your server.
-
-**Direct Messages Between Multiple Users** There is a feature that allows you to chat with multiple users inside a DM. For more info check: [Direct Messages Between Multiple Users](../direct-messages-between-multiple-users.md).
+![](../../../.gitbook/assets/image%20%28415%29.png)
 
 ## Listing channels
 
@@ -51,7 +37,7 @@ There are several notification settings a user can customize to channels. To fin
 * **Hide/Show counter:** Show the number of unread messages for a channel.
 * **Notification sound:** Choose a sound for notifications besides the alerts default **Desktop**.  Mobile currently supports only the alerts inside your mobile device. You can also select when to play the alert, duration of the alert, and the alert itself.
 
-> There are some default choices for audio provided by Rocket.Chat. However, you also get to choose custom audio files for the same. Get further information about [Custom Sounds](../../administrator-guides/custom-sounds.md).
+> There are some default choices for audio provided by Rocket.Chat. However, you also get to choose custom audio files for the same. Get further information about [Custom Sounds](../../administrator-guides/administration/custom-sounds.md).
 
 ## Joining new channels and starting direct messages
 
@@ -83,18 +69,5 @@ To hide a channel, hover your mouse over the channel in the list of channels on 
 
 ## Creating Channels
 
-To create a channel, you need to click on the plus `+` button that is alongside the channel search bar.
-
-A pop-up opens. You can set the name of that channel, choose if the channel is public or private, set the channel to read-only, broadcast the channel, and invite users.
-
-In read-only channels, messages can only be sent by users with write permissions. All users can react to messages in this channel. Read-only channels are most suitable for announcements and voting.
-
-Encrypted channels, messages will be end to end encrypted. See: [End to End Encryption](../security-bundle/end-to-end-encryption.md) for details.
-
-Broadcasted channels behave like read-only channels, with only users with the right permission being able to post there. The differences to a read-only channel are:
-
-* Users without permission \(the same one to post on read-only channels\) inside this channel won't be able to see each other in the user list.
-* Users without permission won't be able to react to messages.
-* Every message contains a reply button that redirects the user to a direct message with the user that posted the message.
-* This channel cannot be converted to a read-only or open channel again.
+A pop-up opens.
 

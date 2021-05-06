@@ -4,5 +4,7 @@ description: 'When an event has no data, it uses this interface.'
 
 # IEventDataEmpty
 
-When the payload on an event should be empty, this data type is used. And it is what is appears to be: empty.
+Please find the document here: 
+
+[https://developer.rocket.chat/api/schema-definition-v2/events/event/event-data-definition/i-event-data-empty](https://developer.rocket.chat/api/schema-definition-v2/events/event/event-data-definition/i-event-data-empty)
 

@@ -52,8 +52,10 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | bulk-register-user | Permission to bulk add users. |
 | call-management | Permission to start a meeting. Requires Video Conference -&gt; BigBlueButton enabled. Accessible from More -&gt; BBB Video Chat -&gt; Start Meeting. |
 | clean-channel-history | Permission to prune a channel's messages and/or files. |
+| clean-group-history | Permission to prune a group's messages and/or files.  |
+| clean-direct-history | Permission to prune direct messages and/or files. |
 | close-livechat-room | Permission to close your own live chat channels. |
-| close-others-livechat-room | Permission to close others live chat channels. |
+| close-others-livechat-room | Permission to close other live-chat channels. |
 | create-c | Permission to create public channels. |
 | create-d | Permission to start direct messages. |
 | create-p | Permission to create private groups. |
@@ -88,9 +90,10 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | manage-sounds | Permission to manage sounds. Accessible from Administration -&gt; Custom Sounds. |
 | mention-all | Permission to mention everyone in a channel. |
 | mention-here | Permission to notify active users in a channel. |
+|  message-impersonate  | Permission to impersonate other users using message alias. Accessible from Administration -&gt; Permissions. \| |
 | mute-user | Permission to mute other users in the same channel. |
 | pin-message | Permission to pin a message in a channel. |
-| post-readonly | Permission to post messages on read only channels. |
+| post-readonly | Permission to post messages on read-only channels. |
 | preview-c-room | Permission to preview public channels. |
 | remove-closed-livechat-rooms | Permission to close livechat rooms. Requires view-livechat-rooms permission. Accessible from Livechat -&gt; Current Chats. |
 | remove-user | Permission to remove users from channels. |

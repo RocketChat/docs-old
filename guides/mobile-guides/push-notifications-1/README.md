@@ -31,10 +31,10 @@ The Rocket.Chat native application for Android supports the FCM system. Here's h
 
 Now that you have a project, you can add your Android app to it:
 
-1. Click Add Firebase to your Android app and follow the setup steps. If you're importing an existing Google project, this may happen automatically, and you can [download the config file](http://support.google.com/firebase/answer/7015592).
-2. When prompted, enter your app's package name. It's important to enter the package name your app uses; this can only be set when you add an app to your Firebase project.
-3. During the process, you'll download a `google-services.json` file. You can [download this file](http://support.google.com/firebase/answer/7015592) again at any time.
-4. After you add the initialization code, run your app to send verification to the Firebase console that you've successfully installed Firebase.
+1. Click Add Firebase to your Android app and follow the setup steps. If you're importing an existing Google project, this may happen automatically, and you can [download the config file](http://support.google.com/firebase/answer/7015592)
+2. When prompted, enter your app's package name. It's important to enter the package name your app uses; this can only be set when you add an app to your Firebase project
+3. During the process, you'll download a `google-services.json` file. You can [download this file](http://support.google.com/firebase/answer/7015592) again at any time
+4. After you add the initialization code, run your app to send verification to the Firebase console that you've successfully installed Firebase
 
 ### Configuring for iOS
 
@@ -52,17 +52,17 @@ Now you should be able to send a text message. Make sure that you have logged in
 
 Rocket.Chat allows for additional privacy configurations on push notifications:
 
-* Show Channel/Group/Username in Notification: Default is "TRUE", disabling this setting prevents the Channel, Group, Discussion, and Username from being sent to the push notification gateway.
-* Show Message in Notification: Default is "TRUE", disabling this setting prevents the message content from being sent to the push notification gateway.
+* Show Channel/Group/Username in Notification: Default is "TRUE", disabling this setting prevents the Channel, Group, Discussion, and Username from being sent to the push notification gateway
+* Show Message in Notification: Default is "TRUE", disabling this setting prevents the message content from being sent to the push notification gateway
 
 If both settings are set to "FALSE", the user will receive a push notification without contextual information, as no such contextual information is sent to the push notification gateway in the first place. The user can then access the contextual information by opening the Rocket.Chat application. This is helpful in compliance-sensitive requirements like HIPAA to prevent sensitive information from being disclosed via push notification.
 
 ## General Observations
 
-* If you don't want notifications, you can disable the gateway and not provide keys.
-* You cannot compile your own applications and use the Rocket.Chat push gateway.
+* If you don't want notifications, you can disable the gateway and not provide keys
+* You cannot compile your own applications and use the Rocket.Chat push gateway
 * For iOS, you need to [convert](https://github.com/raix/push/blob/master/docs/IOS.md) both the .cer and .p12 files into .pem files
-* Once everything is configured on the admin settings, the server must be restarted.
+* Once everything is configured on the admin settings, the server must be restarted
 
 ## FAQ
 

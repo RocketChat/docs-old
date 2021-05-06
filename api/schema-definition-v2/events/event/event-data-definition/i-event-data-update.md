@@ -4,11 +4,7 @@ description: This is an interface that holds event updates
 
 # IEventDataUpdate
 
-The interface definition is:
+Please find the document here: 
 
-```typescript
-export interface IEventDataUpdate<T extends EventDataDefinition> {
-	[key: string]: T;
-}
-```
+[https://developer.rocket.chat/api/schema-definition-v2/events/event/event-data-definition/i-event-data-update](https://developer.rocket.chat/api/schema-definition-v2/events/event/event-data-definition/i-event-data-update)
 

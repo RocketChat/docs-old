@@ -21,9 +21,9 @@ Now that you have the app installed in your server, it is time to configure the 
 
 Go to any channel or private group and execute the slashcommand `/jira-server install JIRA_URL USER PASSWORD`, where:
 
-* **JIRA\_URL** is the base URL of your Jira server, e.g. `https://jira.example.com` or `https://example.com/jira`;
-* **USER** is the username of a user in your Jira with administrative rights;
-* **PASSWORD** is the password of the user mentioned above;
+* **JIRA\_URL** is the base URL of your Jira server, e.g. `https://jira.example.com` or `https://example.com/jira`
+* **USER** is the username of a user in your Jira with administrative rights
+* **PASSWORD** is the password of the user mentioned above
 
 After that your Rocket.Chat will be connected to your Jira instance.
 

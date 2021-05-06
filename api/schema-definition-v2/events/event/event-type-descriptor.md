@@ -6,15 +6,7 @@ description: >-
 
 # EventTypeDescriptor
 
-The EventTypeDescriptor is an enum:
+Please find the document here: 
 
-```typescript
-export enum EventTypeDescriptor {
-	PING = 'ping'
-}
-```
-
-| Descriptor | Why does it exist? |
-| :--- | :--- |
-| PING | The ping event is used to determine whether or not the server is alive. Still not being used, but it will be very important when federation is up using the new event system. |
+[https://developer.rocket.chat/api/schema-definition-v2/events/event/event-type-descriptor](https://developer.rocket.chat/api/schema-definition-v2/events/event/event-type-descriptor)
 
