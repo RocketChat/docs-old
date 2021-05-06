@@ -1,4 +1,4 @@
-# Zoom Integration
+# Zoom
 
 Here you will find information on how to install and use the Zoom App.
 

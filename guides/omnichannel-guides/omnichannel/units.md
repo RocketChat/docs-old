@@ -16,7 +16,7 @@ You can see the list of units.
 
 ## To create a new Unit:
 
-1. Hit New Unit.
+1. Hit **New Unit**.
 
 ![](../../../.gitbook/assets/1%20%2812%29.png)
 

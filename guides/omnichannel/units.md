@@ -10,19 +10,19 @@ To access **Units** settings:
 
 Go to **Units** in the omnichannel panel settings, as shown below:
 
-![](../../.gitbook/assets/0%20%2813%29.png)
+![](../../../.gitbook/assets/0%20%2813%29.png)
 
 You can see the list of units.
 
 ## To create a new Unit:
 
-1. Hit New Unit.
+1. Hit **New Unit**.
 
-![](../../.gitbook/assets/1%20%2812%29.png)
+![](../../../.gitbook/assets/1%20%2812%29.png)
 
 The new unit creation pane will appear.
 
-![](../../.gitbook/assets/2%20%2811%29.png)
+![](../../../.gitbook/assets/2%20%2811%29.png)
 
 1. Name your new unit.
 2. Set its visibility. Private/Public. A private unit will be available only for you.
@@ -32,9 +32,9 @@ The new unit creation pane will appear.
 
 As shown below:
 
-![](../../.gitbook/assets/3%20%2812%29.png)
+![](../../../.gitbook/assets/3%20%2812%29.png)
 
 Your newly created unit will appear in the list, as shown below:
 
-![](../../.gitbook/assets/4%20%2812%29.png)
+![](../../../.gitbook/assets/4%20%2812%29.png)
 

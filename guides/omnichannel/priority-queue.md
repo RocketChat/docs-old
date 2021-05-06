@@ -8,11 +8,11 @@ To access **Priorities** settings:
 
 Go to **Priorities** in the omnichannel panel settings, as shown below:
 
-![](../../.gitbook/assets/image%20%2849%29.png)
+![](../../../.gitbook/assets/image%20%2849%29.png)
 
 1. Click **Add** button.
 
-![](../../.gitbook/assets/image%20%2851%29.png)
+![](../../../.gitbook/assets/image%20%2848%29%20%281%29.png)
 
 2. Name your Priority.
 
@@ -22,11 +22,11 @@ Go to **Priorities** in the omnichannel panel settings, as shown below:
 
 5. Click **Save**.
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+![](../../../.gitbook/assets/image%20%2847%29%20%281%29.png)
 
 Your new priority is saved, as shown below:
 
-![](../../.gitbook/assets/image%20%2852%29.png)
+![](../../../.gitbook/assets/image%20%2852%29.png)
 
 Each priority has its own\(unique\) `Estimated due time` field\(time in minutes\), so once a priority is associated with an `Inquiry/room`, this field will be used to set the queue inquiry order. As the priority is not mandatory, the Omnichannel queues will have inquiries with and without priorities. To support both possibilities, I refactored the structure of the fields that are used to sort the queues as displayed below
 
@@ -42,7 +42,7 @@ This value represents the estimated time that the inquiry should be attended by 
 
 Also, the agents and managers can change the inquiry priority through the `room info panel`:
 
-![](../../.gitbook/assets/p3.png)
+![](../../../.gitbook/assets/p3.png)
 
 When room priority is changed, the fields described above are updated. The same happens when `estimated due time field` is updated. Then, all inquiries associated with the priority will also be updated and this change will reflect in the queue.
 

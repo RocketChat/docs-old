@@ -27,7 +27,7 @@ When enabling federation on your server, your server becomes part of the Rocket.
 
 When you open the Federation config screen, this is what you see:
 
-![Initial Federation Screen](../../.gitbook/assets/initial.png)
+![Initial Federation Screen](../../../.gitbook/assets/initial.png)
 
 The following is a brief explanation of each configuration option:
 
@@ -128,9 +128,9 @@ Some DNS providers will not allow setting `_https` or `_http` on SRV records, so
 * Host: `rocketchat-tcp-protocol.chat.mydomain.com`
 * Value: `https` or `http`
 
-#### Test your configuration from cli
+#### Test your configuration from CLI
 
-From your cli, issue the following commands and make sure the answers look like the following:
+From your CLI, issue the following commands and make sure the answers look like the following:
 
 ```text
 dig srv _rocketchat._https.chat.mydomain.com
@@ -164,5 +164,5 @@ After that step, other peers should be able to find you in the Rocket.Chat Feder
 
 ## Using Rocket.Chat Federation
 
-Click [here](../user-guides/talking-to-users-from-another-server.md) to learn how to use Rocket.Chat Federation.
+Click [here](../../user-guides/talking-to-users-from-another-server.md) to learn how to use Rocket.Chat Federation.
 

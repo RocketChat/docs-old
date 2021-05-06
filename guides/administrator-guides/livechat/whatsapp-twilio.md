@@ -20,7 +20,42 @@ On the first section, **Sandbox Configuration**, you'll need to enter your Rocke
 
 `https://<SERVER_URL>/api/v1/livechat/sms-incoming/twilio`
 
-That's it!
+## Step 4
+
+On the Twilio console, “Programmable SMS Dashboard” -&gt; “Whatsapp” -&gt; “Senders” -&gt; Select the Whatsapp number. This will open the “Configuration” screen, where the webhook configuration must be done in order to connect Twilio to Rocket.Chat Livechat
+
+![](../../../.gitbook/assets/image%20%28198%29.png)
+
+The webhook must be configured following the steps mentioned at [https://rocket.chat/docs/developer-guides/rest-api/livechat/sms-incoming/\#payload](https://rocket.chat/docs/developer-guides/rest-api/livechat/sms-incoming/#payload). Important: the webhook POST URL should be set only on “WHEN A MESSAGE COMES IN” field  
+****
+
+## Step 5
+
+On the Twilio console, go to “Programmable SMS Dashboard” and copy the “ACCOUNT SID” and “AUTH TOKEN” 
+
+![](../../../.gitbook/assets/image%20%28197%29.png)
+
+## Step 6
+
+Go to Rocket.Chat Server -&gt; Administration -&gt; Settings-&gt; SMS -&gt; Set to “Enabled” and select “Twilio” as service  
+
+
+![](../../../.gitbook/assets/image%20%28210%29.png)
+
+## Step 7
+
+Go to Rocket.Chat Server -&gt; Administration -&gt; Settings -&gt; SMS -&gt; Section “Twilio” and add the “Account SID” and Auth Token you had copied on Step 5. After that, the Livechat+Whatsapp integration will be working properly in both directions.  
+  
+****
+
+## Step 8 \(For SaaS customers only\)
+
+For Cloud customers, the file-sharing \(images, audio, videos, etc\) between LiveChat and Whatsapp might not work properly. 
+
+To fix this issue go to Settings -&gt; File Upload -&gt; Amazon S3 -&gt; Enable the “Proxy Uploads” setting.  
+
+
+**That's it!**
 
 Important Links:
 
