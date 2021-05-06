@@ -149,7 +149,9 @@ export async function init(): Promise<void> {
 		}
 
 		if (!filesWithPathDiffsOnly.includes(file) && filesWithSameName.length > 1) {
-			filesNotInSummaryWithMultipleDuplicates.push(`${file}\n${filesWithSameName.map((i) => {
+			const resultDate = execSyncIgnoringExitCode(`git log -1 --pretty="format:%cr" ${file}`);
+
+			filesNotInSummaryWithMultipleDuplicates.push(`${file} (changed ${resultDate})\n${filesWithSameName.map((i) => {
 				const result = execSyncIgnoringExitCode(`git diff --no-index --exit-code --shortstat ${file} ${i}`);
 				if (!(result instanceof Error)) {
 					i = result.replace(/\n$/, '').replace(/\s*\d+ file changed,/, '') + '  '+ i;
