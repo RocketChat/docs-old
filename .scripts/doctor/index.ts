@@ -104,6 +104,10 @@ export async function init(): Promise<void> {
 	const filesNotInSummaryWithoutDuplicates = [];
 
 	for (const file of filesNotInSummary) {
+		if (filesNotInSummaryAndDuplicated.includes(file)) {
+			continue;
+		}
+
 		const fileName = path.parse(file).base;
 		const fileDir = file.split('/').slice(-2).join('/');
 
@@ -126,7 +130,7 @@ export async function init(): Promise<void> {
 				.filter(i => (i.startsWith('-') || i.startsWith('+')) && !i.match(/^(-|\+)(\.\.?\/\.?)+$/))
 				.join('\n');
 
-			if (!changes) {
+			if (changes.length) {
 				filesWithPathDiffsOnly.push(file);
 			}
 		}
