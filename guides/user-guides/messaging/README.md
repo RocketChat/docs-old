@@ -62,7 +62,7 @@ _Note:_ Google Drive features available only if the server's admin has enabled G
 
 Files can be uploaded from Google Drive to a room by selecting the **Select Files from Google Drive** option on the attachment menu. This opens a Google Drive file picker GUI with search and view modes. Select the required file, enter a title and description, and then click **Upload**.
 
-Files upload in the same format to Rocket.Chat as they are in Google Drive with exception to Google docs, slides and sheets which convert to pdf's upon upload.
+Files are upload in the same format as they are stored in Google Drive with exception of Google Docs, Google Slides, and Google Sheets which are converted to pdf upon upload.
 
 ### From Rocket.Chat to Google Drive
 
