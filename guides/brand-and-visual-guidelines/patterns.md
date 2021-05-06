@@ -1,5 +1,5 @@
 ---
-description: Here you will find Guidelines about Rocket.Chat's Patterns
+description: Here you will find the Guidelines about Rocket.Chat's Patterns
 ---
 
 # Patterns
@@ -10,7 +10,7 @@ Our pattern style starts from pixel repetition within a modular grid. It is an i
 
 ### Producing a pattern
 
-Use the grid below to build new patterns within the language Rocket.chat visual. Our grid is simple and functional, always calculating 2 in 2. Below, examples of pattern grids of 8 modules, 6 modules and 4 modules.
+Use the grid below to build new patterns within the language Rocket.Chat visual. Our grid is simple and functional, always calculating 2 in 2. Below, examples of pattern grids of 8 modules, 6 modules and 4 modules.
 
 ![](../../.gitbook/assets/01_padrao.jpg)
 
