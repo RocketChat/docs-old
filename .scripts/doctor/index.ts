@@ -146,7 +146,7 @@ export async function init(): Promise<void> {
 			filesNotInSummaryWithMultipleDuplicates.push(`${file}\n${filesWithSameName.map((i) => {
 				const result = execSyncIgnoringExitCode(`git diff --no-index --exit-code --shortstat ${file} ${i}`);
 				if (!(result instanceof Error)) {
-					i = i + result.replace(/\n$/, '');
+					i = result.replace(/\n$/, '').replace(/\s*\d+ file changed,/, '') + '  '+ i;
 				}
 				return '  -> ' + i;
 			}).join('\n')}\n`);
