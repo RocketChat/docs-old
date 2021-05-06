@@ -113,8 +113,11 @@ export async function init(): Promise<void> {
 
 		let filesWithSameName = allFiles.filter((f) => !filesNotInSummary.includes(f) && fileName === path.parse(f).base);
 
-		if (filesWithSameName.length > 1) {
-			filesWithSameName = allFiles.filter((f) => !filesNotInSummary.includes(f) && fileDir === f.split('/').slice(-2).join('/'));
+		if (fileName === 'README.md' || filesWithSameName.length > 1) {
+			const filesWithSameNameAndDir = allFiles.filter((f) => !filesNotInSummary.includes(f) && fileDir === f.split('/').slice(-2).join('/'));
+			if (fileName === 'README.md' || filesWithSameNameAndDir.length) {
+				filesWithSameName = filesWithSameNameAndDir;
+			}
 		}
 
 		if (filesWithSameName.length === 1) {
