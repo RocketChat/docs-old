@@ -13,15 +13,15 @@ You can add your own image files that can be JPG, GIF, or PNG.
 * Browse and choose an image file
 * Press the SAVE button
 
-![Add emoji example](../../.gitbook/assets/example-add-emoji.png)
+![Add emoji example](../../../.gitbook/assets/example-add-emoji.png)
 
 ## Accessing custom emoji
 
 Custom emoji can be used to add in the message, react to other messages. These emojis can be found in the emoji picker under the Rocket.Chat icon.
 
-![Access emoji example](../../.gitbook/assets/access-emoji.png)
+![Access emoji example](../../../.gitbook/assets/access-emoji.png)
 
-You can also use these emojis using their name and aliases like `:hammy:` or `:savage:`.
+You can also use these emojis using their name and aliases like `:hammy:` or `:savage:`
 
 ## Delete/Edit custom emoji
 
@@ -29,5 +29,5 @@ Search and click on the emoji you want to delete in the Custom Emoji section und
 
 Press the DELETE or EDIT button to delete or update the selected emoji respectively.
 
-> Admins might have set the [permissions](administration/permissions-1.md) about who can manage these emojis.
+> Admins might have set the [permissions](../administration/permissions-1.md) about who can manage these emojis.
 
