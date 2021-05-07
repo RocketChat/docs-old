@@ -27,7 +27,7 @@ We require the installation to run the Docker image provided by the Rocket.Chat 
 
 This ensures we can provide quick fixes and a more efficient way to reproduce problems leading to the most efficient support flow possible.
 
-{% page-ref page="installation/docker-containers/" %}
+{% page-ref page="installing-and-updating/docker-containers/" %}
 
 ## Rocket.Chat versions
 
@@ -141,7 +141,7 @@ That being said, here's how you can find out if **your** browser version is stil
 
 ## Hardware
 
-The support is limited to installations matching the requirements described in the [Minimum ](installation/hardware-requirements.md)[Hardware](installation/hardware-requirements.md) [Requirements](installation/hardware-requirements.md) page.
+The support is limited to installations matching the requirements described in the [Minimum ](installing-and-updating/hardware-requirements.md)[Hardware](installing-and-updating/hardware-requirements.md) [Requirements](installing-and-updating/hardware-requirements.md) page.
 
 ## Monitoring
 
