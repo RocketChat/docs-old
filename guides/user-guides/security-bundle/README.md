@@ -7,7 +7,7 @@ The Rocket.Chat's Security Bundle is composed of the following tools:
 
 1. Data Loss Prevention app 
 2. Open-source Antivirus app
-3. E2E encryption ****
+3. E2E encryption
 
   
 
