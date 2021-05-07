@@ -2,7 +2,7 @@
 description: Fundamental concepts to help you develop killer apps with advanced features!
 ---
 
-# Fundamentals
+# Fundamentals of Apps
 
 {% page-ref page="app-lifecycle.md" %}
 
