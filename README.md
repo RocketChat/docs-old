@@ -6,9 +6,7 @@ description: >-
 
 # Rocket.Chat Documentation
 
-Our developer guides and APIs have a home of their own now. Please find them [here](https://developer.rocket.chat/). 
+Our developer guides and APIs have a home of their own now. Please find them [here](https://developer.rocket.chat/).
 
 {% page-ref page="contributors/google-summer-of-code/google-summer-of-code-2021.md" %}
-
-
 

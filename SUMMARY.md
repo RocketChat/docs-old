@@ -807,12 +807,12 @@
 
 ## Legal
 
-* [Terms of Service](legal/terms.md)
+* [Terms of Service](legal/terms-of-service.md)
 * [Master Services Agreement for Self Managed Workspaces](legal/master-services-agreement-for-self-managed-workspaces.md)
-* [Privacy Policy](legal/privacy/README.md)
-  * [Data Processing Agreement](legal/privacy/data-processing-agreement.md)
-  * [Subprocessors](legal/privacy/subprocessors.md)
-* [Code of Conduct for our services](legal/code-of-conduct.md)
+* [Privacy Policy](legal/privacy-policy/README.md)
+  * [Data Processing Agreement](legal/privacy-policy/data-processing-agreement.md)
+  * [Subprocessors](legal/privacy-policy/subprocessors.md)
+* [Code of Conduct for our services](legal/code-of-conduct-for-our-service.md)
 * [GDPR](legal/gdpr.md)
 * [Censorship and Harmful Content](legal/censorship-and-harmful-content.md)
 * [Guidelines for Law Enforcement](legal/guidelines-for-law-enforcement.md)
