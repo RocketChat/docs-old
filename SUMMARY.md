@@ -316,7 +316,6 @@
   * [End-to-End Encryption Specifications](guides/security/end-to-end-encryption-algorithms.md)
 * [Developer Guides](guides/developer/README.md)
   * [Contributors instant start on Gitpod](guides/developer/contributors-instant-start-on-gitpod.md)
-  * [Quick Start on Linux](guides/developer/quick-start.md)
   * [Developing on Windows 10](guides/developer/developing-on-windows-10.md)
   * [Development Workflow](guides/developer/branches-and-releases.md)
   * [Code Styleguide](guides/developer/code-styleguide/README.md)

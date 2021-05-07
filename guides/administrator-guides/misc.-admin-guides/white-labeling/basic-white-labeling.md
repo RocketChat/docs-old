@@ -14,7 +14,7 @@ Let’s start out with the most basic changes you can make to your server, chang
 
 The Error variable will change these elements: The background on switch buttons \(when disabled\)
 
-![Disabled switch button](../../../../.gitbook/assets/disabled-switch%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29.png)
+![Disabled switch button](../../../../.gitbook/assets/disabled-switch%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29.png)
 
 ```text
 The color of the line when you have unread messages (same day or another)
@@ -26,7 +26,7 @@ The color of the line when you have unread messages (same day or another)
 The close button in the audio upload area (inside message box)
 ```
 
-![Message box with audio recording](../../../../.gitbook/assets/audio-message-box%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%282%29.png)
+![Message box with audio recording](../../../../.gitbook/assets/audio-message-box%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%282%29.png)
 
 ```text
 The leave/delete button in the room info
@@ -62,7 +62,7 @@ Remove user from room button (user info -> more actions)
 
 The Error Light variable will change these elements: The border color when disabled
 
-![Disabled switch button](../../../../.gitbook/assets/disabled-switch%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%282%29.png)
+![Disabled switch button](../../../../.gitbook/assets/disabled-switch%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%282%29.png)
 
 ```text
 Icon on the burger menu in mobile-view
@@ -104,7 +104,7 @@ The switch button (when enabled)
 The done button in the audio upload area (inside message box)
 ```
 
-![Message box with audio recording](../../../../.gitbook/assets/audio-message-box%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29.png)
+![Message box with audio recording](../../../../.gitbook/assets/audio-message-box%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29.png)
 
 ### Success Light
 
@@ -200,13 +200,13 @@ The Alert Message Primary variable will change these elements: The thread icon a
 Border and font color in mail messages instructions (inside room -> more actions -> mail messages // when you haven't selected any messages)
 ```
 
-![Send messages by email alert](../../../../.gitbook/assets/mail-messages-blue-div%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%284%29%20%284%29%20%282%29.png)
+![Send messages by email alert](../../../../.gitbook/assets/mail-messages-blue-div%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%284%29%20%284%29%20%281%29%20%282%29.png)
 
 ### Alert Message Primary Background
 
 The Alert Message Primary Background variable will change these elements: Background color in mail messages instructions
 
-![Send messages by email alert](../../../../.gitbook/assets/mail-messages-blue-div%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%284%29%20%284%29%20%281%29.png)
+![Send messages by email alert](../../../../.gitbook/assets/mail-messages-blue-div%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%284%29%20%284%29%20%281%29%20%281%29.png)
 
 ### Alert Message Secondary
 
