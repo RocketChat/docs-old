@@ -25,7 +25,7 @@ To enable the Livechat feature on your Rocket.Chat instance:
 
 ![](../../../.gitbook/assets/image%20%2829%29.png)
 
-Now the admin will have access to _**Omnichannel Panel Settings**_ _\*\*_ through a new menu called `Omnichannel` at the top left corner dropdown menu, as shown below:
+Now the admin will have access to _**Omnichannel Panel Settings**_ through a new menu called `Omnichannel` at the top left corner dropdown menu, as shown below:
 
 ![](../../../.gitbook/assets/image%20%2832%29.png)
 
@@ -105,7 +105,7 @@ Now customize the appears of your livechat widget here, for the hours when none 
 
 1. Set **Offline Form Unavailable Message**, if any
 2. Set **Offline Tittle**
-3. Set Title **\*\*bar** Color\*\* for offline widget
+3. Set Title **bar color** for offline widget
 4. Give instructions, if any
 5. Set the email address where you want to receive your offline messages
 6. Set success message to display to the visitor when they have sent their message offline
