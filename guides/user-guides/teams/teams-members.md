@@ -1,4 +1,4 @@
-# Members
+# Teams Members
 
 {% hint style="info" %}
 All regular users must be able to be part of multiple teams

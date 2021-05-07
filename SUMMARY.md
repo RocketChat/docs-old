@@ -93,7 +93,7 @@
       * [Remove a Channel from Team](guides/user-guides/teams/teams-channels/remove-a-chnnel-from-team.md)
       * [Delete a Team's Channel](guides/user-guides/teams/teams-channels/delete-a-teams-channel.md)
       * [Transforming a channel into a team](guides/user-guides/teams/teams-channels/transforming-a-channel-into-a-team.md)
-    * [Members](guides/user-guides/teams/members.md)
+    * [Teams Members](guides/user-guides/teams/teams-members.md)
     * [Teams Enterprise Edition](guides/user-guides/teams/teams-enterprise-edition.md)
   * [Channels](guides/user-guides/channels/README.md)
     * [Create a new Channel](guides/user-guides/channels/create-a-new-channel.md)
