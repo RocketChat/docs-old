@@ -250,7 +250,6 @@
     * [White-Labeling \(Server and Web App\)](guides/administrator-guides/misc.-admin-guides/white-labeling/README.md)
       * [Advanced White-Labeling](guides/administrator-guides/misc.-admin-guides/white-labeling/advanced-white-labeling.md)
       * [Basic White-labeling](guides/administrator-guides/misc.-admin-guides/white-labeling/basic-white-labeling.md)
-    * [Connectivity Services](guides/administrator-guides/misc.-admin-guides/connectivity-services.md)
     * [Authentication](guides/administrator-guides/misc.-admin-guides/authentication/README.md)
       * [OpenID Connect](guides/administrator-guides/misc.-admin-guides/authentication/open-id-connect/README.md)
         * [Gluu Server 4.0](guides/administrator-guides/misc.-admin-guides/authentication/open-id-connect/gluu-server-4.0.md)
