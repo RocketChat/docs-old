@@ -21,7 +21,7 @@ If you need full control of your deployment, here are some guides for specific e
 * [IBM Cloud](ibm-cloud.md)
 * [Sloppy.io](sloppy-io.md)
 * [D2C.io](d2c-io.md)
-* [Syncloud.org](syncloud-org.md)
+* [Syncloud.org](syncloud.md)
 
 ## Automation Tools
 
