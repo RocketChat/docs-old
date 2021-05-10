@@ -267,6 +267,10 @@ sudo nginx -t
 
 ## 6. Create the docker-compose.yml file & local directories
 
+#### Create docker-compose.yml file:
+
+To create a docker-compose file, please follow the instructions [here](https://docs.rocket.chat/installing-and-updating/docker-containers/docker-compose).
+
 **Create the directories:**
 
 ```text
