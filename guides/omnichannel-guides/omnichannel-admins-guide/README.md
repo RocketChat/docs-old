@@ -25,7 +25,7 @@ To enable the Livechat feature on your Rocket.Chat instance:
 
 ![](../../../.gitbook/assets/image%20%2829%29.png)
 
-Now the admin will have access to _**Omnichannel Panel Settings**_ _\*\*_ through a new menu called `Omnichannel` at the top left corner dropdown menu, as shown below:
+Now the admin will have access to _**Omnichannel Panel Settings**_  through a new menu called `Omnichannel` at the top left corner dropdown menu, as shown below:
 
 ![](../../../.gitbook/assets/image%20%2832%29.png)
 
@@ -45,7 +45,7 @@ Now the admin will have access to _**Omnichannel Panel Settings**_ _\*\*_ throug
 
 ### Business Hour
 
-The feature turns on the omnichannel toggle for the set business hours automatically. And you will be able to receive omnichannel conversations after. The toggle will be turned off during off-hours. The enterprise workspaces have an option to set up multiple business hours according to different time zones and their business needs. Community workspaces can only set up one set of business hours.
+The feature turns on the omnichannel toggle for the set business hours automatically. And you will be able to receive omnichannel conversations after. The toggle will be turned off during off-hours. The enterprise workspaces can set up multiple business hours according to different time zones and their business needs. Community workspaces can only set up one set of business hours.
 
 1. Enable business hours
 2. Choose multiple business hours according to your enterprise needs
@@ -58,11 +58,11 @@ Please follow the steps given [here](https://docs.rocket.chat/guides/omnichannel
 
 ### External Frame
 
-If you have an app that you want to integrate with Rocket.Chat and use that app to embed an iFrame in Rocket.Chat to interact with your CRM, you can do so using External Frame.
+If you have an app that you want to integrate with Rocket.Chat and use that app to embed an iFrame in Rocket.Chat to interact with your CRM. You can do so using External Frame.
 
 1. Enable external frame
 2. Add the URL of your external frame
-3. Enter the encryption key, as shown beow:
+3. Enter the encryption key, as shown below:
 
 ![](../../../.gitbook/assets/image%20%2858%29.png)
 
@@ -101,11 +101,11 @@ as shown below:
 
 ![](../../../.gitbook/assets/image%20%2866%29.png)
 
-Now customize the appears of your livechat widget here, for the hours when none of your agents are online/working.
+Now customize the appears of your livechat widget here for the hours when none of your agents are online/working.
 
 1. Set **Offline Form Unavailable Message**, if any
 2. Set **Offline Tittle**
-3. Set Title **\*\*bar** Color\*\* for offline widget
+3. Set title bar **Color** for the offline widget
 4. Give instructions, if any
 5. Set the email address where you want to receive your offline messages
 6. Set success message to display to the visitor when they have sent their message offline
@@ -155,7 +155,7 @@ Sessions allow you to decide how you want to handle your chat sessions when an a
 3. Enter the message to display to the visitor on closing the session
 4. Mention the time you want to wait to consider visitor abandonment
 5. Enable automatic closing of rooms abandoned by the visitor if you want
-6. Enter the message to display to the visitor when room is automatically closed by visitor inactivity
+6. Enter the message to display to the visitor when the room is automatically closed by visitor inactivity
 
 As shown below:
 
