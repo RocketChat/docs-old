@@ -1,4 +1,4 @@
-# Installation of Twitter App
+# Twitter App Installation
 
  To install Twitter App:
 

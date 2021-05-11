@@ -365,7 +365,7 @@
     * [Jira Server](guides/rocket-chat-apps/atlassian/jira-server-integration.md)
   * [Zoom](guides/rocket-chat-apps/zoom.md)
   * [Twitter App](guides/rocket-chat-apps/twitter-app/README.md)
-    * [Installation of Twitter App](guides/rocket-chat-apps/twitter-app/installation-of-twitter-app.md)
+    * [Twitter App Installation](guides/rocket-chat-apps/twitter-app/twitter-app-installation.md)
 * [Brand and Visual Guidelines](guides/brand-and-visual-guidelines/README.md)
   * [Logo](guides/brand-and-visual-guidelines/logo.md)
   * [Typography](guides/brand-and-visual-guidelines/typography.md)
