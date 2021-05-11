@@ -26,7 +26,7 @@ The color of the line when you have unread messages (same day or another)
 The close button in the audio upload area (inside message box)
 ```
 
-![Message box with audio recording](../../../../.gitbook/assets/audio-message-box%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%285%29%20%285%29%20%285%29.png)
+![Message box with audio recording](../../../../.gitbook/assets/audio-message-box%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%285%29%20%285%29%20%285%29%20%281%29.png)
 
 ```text
 The leave/delete button in the room info
@@ -104,7 +104,7 @@ The switch button (when enabled)
 The done button in the audio upload area (inside message box)
 ```
 
-![Message box with audio recording](../../../../.gitbook/assets/audio-message-box%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%285%29%20%285%29%20%285%29%20%285%29.png)
+![Message box with audio recording](../../../../.gitbook/assets/audio-message-box%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%285%29%20%285%29%20%285%29%20%281%29%20%285%29.png)
 
 ### Success Light
 
