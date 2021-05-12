@@ -31,5 +31,5 @@ Following are the settings available:
 
 ![](../../../.gitbook/assets/image%20%28392%29.png)
 
-
+Your Twitter app is successfully configured.  
 
