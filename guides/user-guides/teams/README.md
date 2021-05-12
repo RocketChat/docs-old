@@ -23,7 +23,7 @@ Please visit our blog post to know all the details about [Teams](https://rocket.
 
 {% page-ref page="create-a-new-team.md" %}
 
-{% page-ref page="teams-community-edition/" %}
+{% page-ref page="teams-channels/" %}
 
 {% page-ref page="teams-enterprise-edition.md" %}
 

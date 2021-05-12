@@ -10,7 +10,7 @@ To access **Managers** settings:
 
 Go to Omnichannel panel settings, as shown below:
 
-![](../../../.gitbook/assets/0%20%288%29%20%285%29%20%285%29%20%285%29%20%285%29%20%285%29%20%284%29%20%284%29%20%281%29%20%284%29.png)
+![](../../../.gitbook/assets/0%20%288%29%20%285%29%20%285%29%20%285%29%20%285%29%20%285%29%20%284%29%20%284%29%20%281%29.png)
 
 Settings appear, as shown below:
 
@@ -22,11 +22,11 @@ Settings appear, as shown below:
 
 ![](../../../.gitbook/assets/2%20%285%29.png)
 
-2. Hit **Add**.
+1. Hit **Add**.
 
 ![](../../../.gitbook/assets/image%20%2826%29.png)
 
-3. The user has the manager role now, as shown below:
+1. The user has the manager role now, as shown below:
 
 ![](../../../.gitbook/assets/image%20%2824%29.png)
 

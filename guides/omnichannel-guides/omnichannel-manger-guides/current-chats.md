@@ -6,7 +6,7 @@ To access **Current Chats** settings:
 
 Go to Omnichannel panel settings, as shown below:
 
-![](../../../.gitbook/assets/0%20%288%29%20%285%29%20%285%29%20%285%29%20%285%29%20%285%29%20%284%29%20%284%29%20%281%29%20%287%29.png)
+![](../../../.gitbook/assets/0%20%288%29%20%285%29%20%285%29%20%285%29%20%285%29%20%285%29%20%284%29%20%284%29%20%281%29%20%283%29.png)
 
 Settings appear, as shown below:
 
@@ -38,7 +38,7 @@ To sort the conversations per Open/Closed Status, choose the desired status in t
 
 ![](../../../.gitbook/assets/5%20%283%29.png)
 
- and your conversations are sorted, as shown below:
+and your conversations are sorted, as shown below:
 
 ![](../../../.gitbook/assets/6%20%283%29.png)
 

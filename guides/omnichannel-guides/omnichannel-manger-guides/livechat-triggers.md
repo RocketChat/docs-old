@@ -11,7 +11,7 @@ To access **Livechat Triggers** settings:
 
 Go to Omnichannel panel settings, as shown below:
 
-![](../../../.gitbook/assets/0%20%288%29%20%285%29%20%285%29%20%285%29%20%285%29%20%285%29%20%284%29%20%284%29%20%281%29%20%286%29.png)
+![](../../../.gitbook/assets/0%20%288%29%20%285%29%20%285%29%20%285%29%20%285%29%20%285%29%20%284%29%20%284%29%20%281%29%20%281%29.png)
 
 Livechat Triggers menu appears, as shown below:
 
@@ -27,23 +27,23 @@ On the New Trigger screen:
 
 ![](../../../.gitbook/assets/3%20%288%29.png)
 
-2. Enable your new trigger.
+1. Enable your new trigger.
 
 ![](../../../.gitbook/assets/4%20%288%29.png)
 
-3. Please select whether you want to run it for each visitor or want it to be a recurring pop-open. \(e.g., If your user goes to a different website and comes back to the same website, it pops-open\)
+1. Please select whether you want to run it for each visitor or want it to be a recurring pop-open. \(e.g., If your user goes to a different website and comes back to the same website, it pops-open\)
 
 ![](../../../.gitbook/assets/5%20%288%29.png)
 
-4. Name your new trigger.
+1. Name your new trigger.
 
 ![](../../../.gitbook/assets/6%20%287%29.png)
 
-5. Mention its description.
+1. Mention its description.
 
 ![](../../../.gitbook/assets/7%20%285%29.png)
 
-6. Choose whether you want your livechat widget to pop-open once the user visits a particular page of your website in **Condition**.
+1. Choose whether you want your livechat widget to pop-open once the user visits a particular page of your website in **Condition**.
 
 ![](../../../.gitbook/assets/8%20%284%29.png)
 
@@ -55,7 +55,7 @@ Mention the time in seconds.
 
 ![](../../../.gitbook/assets/10%20%283%29.png)
 
-7. Mention the **Action** you want your livechat widget to take. For now, there is only one option of sending a message to the visitor.
+1. Mention the **Action** you want your livechat widget to take. For now, there is only one option of sending a message to the visitor.
 
 ![](../../../.gitbook/assets/11%20%283%29.png)
 
@@ -67,7 +67,7 @@ Type your message.
 
 ![](../../../.gitbook/assets/13%20%283%29.png)
 
-8. Hit **Save**.
+1. Hit **Save**.
 
 ![](../../../.gitbook/assets/14%20%283%29.png)
 
@@ -81,7 +81,7 @@ Your new livechat trigger is saved, as shown below:
 
 ![](../../../.gitbook/assets/16%20%283%29.png)
 
-  2. Click **Yes**.
+1. Click **Yes**.
 
 ![](../../../.gitbook/assets/17%20%283%29.png)
 
