@@ -1,4 +1,4 @@
-# Twitter App Administration Settings
+# Twitter App Configuration
 
 Search Twitter in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
 

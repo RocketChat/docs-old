@@ -366,7 +366,7 @@
   * [Zoom](guides/rocket-chat-apps/zoom.md)
   * [Twitter App](guides/rocket-chat-apps/twitter-app/README.md)
     * [Twitter App Installation](guides/rocket-chat-apps/twitter-app/twitter-app-installation.md)
-    * [Twitter App Administration Settings](guides/rocket-chat-apps/twitter-app/twitter-app-administration-settings.md)
+    * [Twitter App Configuration](guides/rocket-chat-apps/twitter-app/twitter-app-configuration.md)
 * [Brand and Visual Guidelines](guides/brand-and-visual-guidelines/README.md)
   * [Logo](guides/brand-and-visual-guidelines/logo.md)
   * [Typography](guides/brand-and-visual-guidelines/typography.md)
