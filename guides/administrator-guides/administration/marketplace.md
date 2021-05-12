@@ -7,3 +7,4 @@ You can access the marketplace in **Administration &gt; Marketplace**.
 {% hint style="info" %}
 You'll need to register your workspace in order toaccess the marketplace and install Rocket.Chat apps from the marketplace.
 {% endhint %}
+
