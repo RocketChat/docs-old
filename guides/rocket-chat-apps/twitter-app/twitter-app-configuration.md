@@ -45,7 +45,7 @@ The first step after the configuration is authentication with Twitter.
 
 2. As soon as you click Start Authentication the  Authentication process is started. Please authorize [Rocket.Chat](http://rocket.chat/)'s Twitter app to complete this process.
 
-![](../../../.gitbook/assets/image%20%28413%29.png)
+![](../../../.gitbook/assets/image%20%28414%29.png)
 
  
 
