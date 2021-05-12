@@ -13,6 +13,12 @@ Following are the settings available:
 3. You can set the **Welcome Message** that will be sent to visitors when they send their first message
 4. The **Conversation Finished Message** will be sent to visitors when the conversation is closed
 
+{% hint style="info" %}
+Only the agents of that particular department are able to see and take the chats.
+{% endhint %}
+
+ 
+
 ![](../../../../.gitbook/assets/image%20%28400%29.png)
 
 5.  You can choose to display the agent's name or username:
