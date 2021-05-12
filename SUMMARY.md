@@ -368,6 +368,7 @@
     * [Twitter App Installation](guides/rocket-chat-apps/twitter-app/twitter-app-installation.md)
     * [Twitter App Configuration](guides/rocket-chat-apps/twitter-app/twitter-app-configuration/README.md)
       * [Twitter App Authentication](guides/rocket-chat-apps/twitter-app/twitter-app-configuration/twitter-app-authentication.md)
+    * [Twitter App Agent's Guide](guides/rocket-chat-apps/twitter-app/twitter-app-agents-guide.md)
 * [Brand and Visual Guidelines](guides/brand-and-visual-guidelines/README.md)
   * [Logo](guides/brand-and-visual-guidelines/logo.md)
   * [Typography](guides/brand-and-visual-guidelines/typography.md)
