@@ -25,7 +25,7 @@ db:
   command: mongod --smallfiles --oplogSize 128
 
 rocketchat:
-  image: rocketchat/rocket.chat:latest
+  image: registry.rocket.chat/rocketchat/rocket.chat:latest
   environment:
     - PORT=3000
     - ROOT_URL=http://docker:3000

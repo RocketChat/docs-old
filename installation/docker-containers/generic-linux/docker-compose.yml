@@ -5,7 +5,7 @@ db:
     - ./data/dump:/dump
   command: mongod --smallfiles
 web:
-  image: rocketchat/rocket.chat
+  image: registry.rocket.chat/rocketchat/rocket.chat
   environment:
     - MONGO_URL=mongodb://db:27017/rocketchat
     - ROOT_URL=https://rocketchat.test

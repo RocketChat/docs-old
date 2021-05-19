@@ -25,7 +25,7 @@ description: Install Rocket.Chat as HA with mongodb replicaset as backend
 
 ```text
 rocketchat:
-    image: rocketchat/rocket.chat:latest
+    image: registry.rocket.chat/rocketchat/rocket.chat:latest
     environment:
         - PORT=3000
         - ROOT_URL=https://chat.domain.de
