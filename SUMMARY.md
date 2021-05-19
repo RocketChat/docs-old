@@ -355,6 +355,7 @@
   * [Running a Rasa Bot](guides/bots/running-a-rasa-bot.md)
   * [Running a Hubot bot](guides/bots/running-a-hubot-bot.md)
 * [Apps Guides](guides/rocket-chat-apps/README.md)
+  * [WhatsApp](guides/rocket-chat-apps/whatsapp.md)
   * [Data Loss Prevention \(DLP\) App Admin Guide](guides/rocket-chat-apps/data-loss-prevention-dlp-app.md)
   * [Poll](guides/rocket-chat-apps/poll.md)
   * [Atlassian](guides/rocket-chat-apps/atlassian/README.md)
