@@ -357,6 +357,7 @@
 * [Apps Guides](guides/rocket-chat-apps/README.md)
   * [WhatsApp](guides/rocket-chat-apps/whatsapp/README.md)
     * [WhatsApp Installation](guides/rocket-chat-apps/whatsapp/whatsapp-installation.md)
+    * [WhatsApp Configuration](guides/rocket-chat-apps/whatsapp/whatsapp-configuration.md)
   * [Data Loss Prevention \(DLP\) App Admin Guide](guides/rocket-chat-apps/data-loss-prevention-dlp-app.md)
   * [Poll](guides/rocket-chat-apps/poll.md)
   * [Atlassian](guides/rocket-chat-apps/atlassian/README.md)
