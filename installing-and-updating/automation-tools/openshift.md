@@ -12,7 +12,7 @@ This repository hosts some templates for provision Rocket.Chat in OpenShift.
 * Pull the Rocket.Chat Docker image from Docker Hub and tag/push to the internal OpenShift registry:
 
 ```bash
-docker pull rocketchat/rocket.chat
+docker pull registry.rocket.chat/rocketchat/rocket.chat
 docker tag rocketchat/rocket.chat hub.openshift.rhel-cdk.10.1.2.2.xip.io/openshift/rocket-chat
 docker push hub.openshift.rhel-cdk.10.1.2.2.xip.io/openshift/rocket-chat
 ```

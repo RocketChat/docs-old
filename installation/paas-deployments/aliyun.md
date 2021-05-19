@@ -144,7 +144,7 @@ This is done only the first time, or when you want to update Rocket.Chat.
 
 ```text
 docker pull mongo
-docker pull rocketchat/rocket.chat
+docker pull registry.rocket.chat/rocketchat/rocket.chat
 ```
 
 ## Start the mongodb database
