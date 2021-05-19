@@ -12,7 +12,7 @@
 
 3. You are notified about all the permissions the app would access. Click **Agree**.
 
-![](../../../.gitbook/assets/image%20%28401%29.png)
+![](../../../.gitbook/assets/image%20%28401%29%20%281%29.png)
 
  Twitter app is installed successfully, as shown below:
 

@@ -127,7 +127,7 @@
         * [SlackBridge](guides/administrator-guides/administration/import/slack/slackbridge.md)
       * [CSV](guides/administrator-guides/administration/import/csv.md)
     * [Users](guides/administrator-guides/administration/users.md)
-    * [Rooms](guides/administrator-guides/administration/rooms.md)
+    * [Rooms \(aka Channels\)](guides/administrator-guides/administration/rooms-aka-channels.md)
     * [Invites](guides/administrator-guides/administration/invites.md)
     * [Connectivity Services](guides/administrator-guides/administration/connectivity-services.md)
     * [View Logs](guides/administrator-guides/administration/view-logs.md)
