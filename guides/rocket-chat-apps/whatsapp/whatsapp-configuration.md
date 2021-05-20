@@ -2,30 +2,53 @@
 
 Search WhatsApp in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
 
-‌
-
 ![](../../../.gitbook/assets/image%20%28401%29.png)
 
 Click open your WhatApp instance to see the settings available to you as an administrator:‌
 
+![](../../../.gitbook/assets/image%20%28430%29.png)
+
 Following are the settings available:‌
 
-1. You can set a **Default Department**. Only the agents of this department are able to serve Twitter conversations
-2. You can set the **Service Unavailable Message** that will be sent to the user if some error occurs like if no agents are online
-3. You can set the **Welcome Message** that will be sent to visitors when they send their first message
-4. The **Conversation Finished Message** will be sent to visitors when the conversation is closed
+![](../../../.gitbook/assets/image%20%28434%29.png)
 
-Only the agents of that particular department are able to see and take the chats.‌
+* You can set a **Notification of undeliverable message**. It alerts the agent that a message was not delivered to the WhatsApp platform.
 
-![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-M_Smmb0Bu6gq6wawOuw%2F-M_Stlgw0ttpnNZnq_C3%2Fimage.png?alt=media&token=46f0898f-ff57-43e3-b1f9-0024a48157d4)‌
+![](../../../.gitbook/assets/image%20%28433%29.png)
 
-5. You can choose to display the agent's name or username:![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-M_Smmb0Bu6gq6wawOuw%2F-M_Su19-8PhV6L4oQxA-%2Fimage.png?alt=media&token=adb97dbd-4d48-4f91-937e-96c8226233e3)‌
+* You can choose to display the agent's name or username in **Agents Display Info**:
 
-6. You can enable/disable file sharing and also set a limit for maximum upload size![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-M_Smmb0Bu6gq6wawOuw%2F-M_Suy4iYq_RW-IItKhc%2Fimage.png?alt=media&token=5c8e4c75-d3af-4e7b-9f9e-1aec6443e883)‌
+![](../../../.gitbook/assets/image%20%28432%29.png)
 
-7. And you can select the type of files you wish the Agents and your Twitter Contacts can share under **Accepted Media Types**![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-M_Smmb0Bu6gq6wawOuw%2F-M_SvLNRNCkIAjxhx-oD%2Fimage.png?alt=media&token=d6dd72b7-e4ec-4b2c-9324-3e606c15c4ba)‌
+* You can enable/disable file sharing and also set a limit for maximum upload size.
 
-8. Hit **Save Changes** to save your settings![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-M_Smmb0Bu6gq6wawOuw%2F-M_SvskzGTDuXKScel1L%2Fimage.png?alt=media&token=5fa51b41-21ec-4899-aecf-1b1a7ae8d529)‌
+![](../../../.gitbook/assets/image%20%28438%29.png)
 
-Your Twitter app is successfully configured and you can see the new Twitter channel upon closing the administration panel, as shown below:![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-M_T-5N1Am8-DZvfXyhl%2F-M_VXxEmscC34HCBV7Iw%2Fimage.png?alt=media&token=8590d7a1-7145-4dee-a921-3420de3d4186)
+* You can provide a list of media types comma-separated. Please leave it blank for accepting all media types.
+
+![](../../../.gitbook/assets/image%20%28437%29.png)
+
+* For a better user experience, the app caches some Template Messages meta-data information. You can define the duration \(in minutes\) within which the app will automatically refresh its cache.
+
+![](../../../.gitbook/assets/image%20%28428%29.png)
+
+* Enter a endpoint url here under **Message Status Endpoint URL** where you want to receive the status of each messages exchanged.
+
+![](../../../.gitbook/assets/image%20%28440%29.png)
+
+* Filter the statuses you wish to receive at the endpoint \("Message Status Endpoint URL"\), based on Message Type.
+
+![](../../../.gitbook/assets/image%20%28429%29.png)
+
+* Following information is provided by 360Dialog and is updated by Rocket.Chat so you dont have to worry about it. 
+
+![](../../../.gitbook/assets/image%20%28431%29.png)
+
+* Hit **Save Changes** to save your settings.
+
+![](../../../.gitbook/assets/image%20%28435%29.png)
+
+‌Your WhatsApp is successfully configured and you can see the new WhatsApp channel upon closing the administration panel, as shown below:
+
+![](../../../.gitbook/assets/image%20%28436%29.png)
 
