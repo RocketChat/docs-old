@@ -4,11 +4,108 @@
 
 ## 
 
+### Update May 20th 2021
+
+2021 is an incredible year for GSoC at Rocket.Chat. Thanks to the enthusiastic early support from students and community \(mentors\), Google has graciously granted us **TWELVE** project slots.   The [official listing](https://summerofcode.withgoogle.com/organizations/5243748067311616/?sp-page=2) of students selected for these 12 projects is now published.   
+  
+We are delighted to welcome these 12 active community members to work with us during the GSoC 2021 season:
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Student</th>
+      <th style="text-align:left">Project</th>
+      <th style="text-align:left">Mentors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Ghulam Ghous</td>
+      <td style="text-align:left">Omnichannel Project: Live Chat Widget - Accessible Mode</td>
+      <td style="text-align:left">Rafael Fierra</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Kartik Gupta</td>
+      <td style="text-align:left">Speech-to-Text</td>
+      <td style="text-align:left">Marcelo Schmidt</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Darshil Patel</td>
+      <td style="text-align:left">Introducing Ephemeral Channels in Rocket.Chat</td>
+      <td style="text-align:left">Kevin Aleman</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Yash Rajpal</td>
+      <td style="text-align:left">App: Bad-Words Filter</td>
+      <td style="text-align:left">Douglas Guebert</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Dhruv Jain</td>
+      <td style="text-align:left">Introduce Audio calls to LiveChat</td>
+      <td style="text-align:left">Murtaza Patrawala</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Anant Bhasin</td>
+      <td style="text-align:left">E2E Testing for Android in Rocket.Chat.ReactNative</td>
+      <td style="text-align:left">Diego Mello</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Rahul Halder</td>
+      <td style="text-align:left">Voice Channels</td>
+      <td style="text-align:left">Douglas Fabris</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Aditya Mitra</td>
+      <td style="text-align:left">Out Of Office Settings with an Assigning Deputy</td>
+      <td style="text-align:left">Amol Babu</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Jean Staquet</td>
+      <td style="text-align:left">Task Channels</td>
+      <td style="text-align:left">Pierre Lehnen</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Adithya Vardhan</td>
+      <td style="text-align:left">Channels Discovery</td>
+      <td style="text-align:left">Martin Schoeler</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Rohan Lekhwani</td>
+      <td style="text-align:left">Poll App Mega Extensions</td>
+      <td style="text-align:left">Ramkumar KB</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Allan Juan</td>
+      <td style="text-align:left">Language Power Tools</td>
+      <td style="text-align:left">
+        <p>Rodrigo Nacimento</p>
+        <p></p>
+        <p></p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>
+
+Even with the generous slot assignment this year, it is still a very difficult decision for many mentors to select from the large number of highly qualified students \(we were able to engage the students early on in the GSoC cycle with open source contributions via the [GSoC Leaderboard](https://gsoc.rocket.chat) ; with **219 participating students**, **61 students with contributions**,  **21 code committers**, working on **196 Merged PRs**, **231 Open PRs**, and **290 Issues** so far\).  Several high calibre open source contributors were left out and not selected for GSoC;  to accommodate these exceptional students, Rocket.Chat has arranged to sponsor an **additional TWO** projects this season. 
+
+| Student | Sponsored Project |
+| :--- | :--- |
+| Sumukha Hegde | New statuses for user actions/events \(Typing 2.0\) |
+| Deepak Agarwal | Introduce Video  calls to LiveChat |
+
+All verified students are now interacting with their mentors and the greater Rocket.Chat community during the community bonding phase of the 2021 GSoC season.  
+
+
 ### Update April 15th 2021
 
 We are having a phenomenal Google Summer of Code season this year, participation from students is at an all-time-high.    The enthusiasm and aptitude of student applicants have also improved over prior years.    
   
-In our [24 x 7 GSoC 2021 channel ](https://open.rocket.chat/channel/gsoc2021)- we have over **473 mentors, alumni and students** collaborating actively on GSoC projects.     On our[ GSoC leaderboard](https://gsoc.rocket.chat), we are tracking **221 students** actively contributing code to the Rocket.Chat open source ecosystem.     As of today, we have welcomed **17 new code committers** to our projects. With a total of **138  merged PRs**, **182 open PRs,** and **246 issues** raised by GSoC 2021 students so far.  
+In our [24 x 7 GSoC 2021 channel ](https://open.rocket.chat/channel/gsoc2021)- we have over **473 mentors, alumni and students** collaborating actively on GSoC projects.     On our[ GSoC leaderboard](https://gsoc.rocket.chat), we are tracking **219 students** actively contributing code to the Rocket.Chat open source ecosystem.     As of today, we have welcomed **17 new code committers** to our projects. With a total of **138  merged PRs**, **182 open PRs,** and **246 issues** raised by GSoC 2021 students so far.  
   
 To rally student spirit and assist them in creating their proposal, we organized an [Alumni Re-union Summit](https://community.rocket.chat/events/gsoc2021.html) where we invited former Rocket.Chat GSoC Alumni from all previous years to share tips with this year's GSoC students. More than **20 students** attended throughout the day to enjoy the talks from **10 alumni and mentors**.  Highlight talks included one from a Facebook engineer and a Brazilian open source movement champion.      
   

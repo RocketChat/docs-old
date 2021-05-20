@@ -1,5 +1,5 @@
 ---
-description: Omnichannel Integration between Rocket.Chat and WhatsApp.
+description: Omnichannel Integration between Rocket.Chat and WhatsApp Business.
 ---
 
 # WhatsApp
