@@ -2,7 +2,7 @@
 
 To install  WhatsApp:‌
 
-1. Go to **Administration&gt;Marketplace** and search WhatsApp
+1. Go to **Administration&gt;Marketplace** and search WhatsApp.
 
 ![](../../../.gitbook/assets/image%20%28424%29.png)
 
