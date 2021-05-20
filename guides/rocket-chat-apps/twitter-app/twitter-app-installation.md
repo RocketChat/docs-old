@@ -22,3 +22,9 @@ It appears in the **Apps** menu on your Rocket.Chat administration panel, as sho
 
 ![](../../../.gitbook/assets/image%20%28405%29.png)
 
+{% hint style="info" %}
+Please note that Twitter is a paid app. The screenshots you see above are from our testing server that is why the price is $0.00.
+{% endhint %}
+
+![](../../../.gitbook/assets/image%20%28441%29.png)
+
