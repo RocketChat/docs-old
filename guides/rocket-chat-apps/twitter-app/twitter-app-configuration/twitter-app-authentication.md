@@ -1,3 +1,7 @@
+---
+description: Authorize Omni-Gateway to send and receive messages on behalf your account.
+---
+
 # Twitter App Authentication
 
 The first step after the configuration is authentication with Twitter. 
