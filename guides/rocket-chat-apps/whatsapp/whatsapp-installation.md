@@ -26,3 +26,5 @@ It appears in the **Apps** menu on your Rocket.Chat administration panel, as sho
 
 ![](../../../.gitbook/assets/image%20%28420%29.png)
 
+
+

@@ -32,15 +32,15 @@ Following are the settings available:‌
 
 ![](../../../../.gitbook/assets/image%20%28428%29.png)
 
-* Enter a endpoint url here under **Message Status Endpoint URL** where you want to receive the status of each messages exchanged.
+* Enter an endpoint URL here under **Message Status Endpoint URL**, where you want to receive the status of each message exchanged.
 
 ![](../../../../.gitbook/assets/image%20%28440%29.png)
 
-* Filter the statuses you wish to receive at the endpoint \("Message Status Endpoint URL"\), based on Message Type.
+* Filter the statuses you wish to receive at the endpoint \("Message Status Endpoint URL"\) based on Message Type.
 
 ![](../../../../.gitbook/assets/image%20%28429%29.png)
 
-* Following information is provided by 360Dialog and is updated by Rocket.Chat so you dont have to worry about it. 
+* The following information is provided by 360Dialog and is updated by Rocket.Chat, so you don't have to worry about it. 
 
 ![](../../../../.gitbook/assets/image%20%28431%29.png)
 
@@ -48,7 +48,7 @@ Following are the settings available:‌
 
 ![](../../../../.gitbook/assets/image%20%28435%29.png)
 
-‌Your WhatsApp is successfully configured and you can see the new WhatsApp channel upon closing the administration panel, as shown below:
+‌Your WhatsApp is successfully configured, and you can see the new WhatsApp channel upon closing the administration panel, as shown below:
 
 ![](../../../../.gitbook/assets/image%20%28436%29.png)
 
