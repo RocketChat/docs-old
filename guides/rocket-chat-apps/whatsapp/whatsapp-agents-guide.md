@@ -1,6 +1,6 @@
 # WhatsApp Agent's Guide
 
-If you have Twitter app integration in place and a user sends you a message using their Twitter account.
+If you have Twitter app integration in place and a user sends you a message using their WhatsApp account...
 
 {% hint style="info" %}
 Here are the shortcut you can use in WhatsApp Bot:  
