@@ -8,5 +8,5 @@ description: >-
 
 After configuration, you see the following message:
 
-![](../../../../../.gitbook/assets/image%20%28444%29.png)
+![](../../../../../.gitbook/assets/image%20%28449%29.png)
 
