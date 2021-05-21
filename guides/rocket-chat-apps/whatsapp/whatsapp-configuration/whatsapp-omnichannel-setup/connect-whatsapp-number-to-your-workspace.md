@@ -1,4 +1,4 @@
-# Connect WhatsApp Number
+# Connect WhatsApp Number to your Workspace
 
 After copying your newly generated API key on 360Dialog, come back to your Rocket.Chat workspace and click **Connect WhatsApp Number**.
 

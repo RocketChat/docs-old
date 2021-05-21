@@ -1,4 +1,4 @@
-# With 360Dialog Account
+# WhatsApp Set up With 360Dialog Account
 
 If you do have a 360Dialog account:
 
@@ -12,7 +12,7 @@ You are given the instructions to login your 360Dialog account and add your comp
 
 Please visit the below link to Connect your WhatsApp number after the above mentioned steps.
 
-{% page-ref page="connect-whatsapp-number.md" %}
+{% page-ref page="connect-whatsapp-number-to-your-workspace.md" %}
 
 
 

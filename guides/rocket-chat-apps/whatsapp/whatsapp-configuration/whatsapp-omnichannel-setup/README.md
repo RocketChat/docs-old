@@ -4,7 +4,7 @@ description: >-
   360Dialog account.
 ---
 
-# Omnichannel WhatsApp Setup
+# WhatsApp Omnichannel Setup
 
 After configuration, you see the following message:
 
