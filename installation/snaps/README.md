@@ -20,7 +20,7 @@ sudo apt-get install snapd
 
 To move between different major releases,  from 2.x to 3.x  or from 3.x to 4.x,  take a look at  [snap tracks](https://forums.rocket.chat/t/introducing-snap-tracks/5890).
 
-For major release 3.x and up, connect network-observe plug for mongo db
+For major release 3.x and up you might see app armor errors in your logs.  To stop that, you can connect network-observe plug for mongo db
 ```text
 sudo snap connect rocketchat-server:network-observe
 ```
