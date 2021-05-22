@@ -4,11 +4,41 @@
 
 ## 
 
+### Update May 20th 2021
+
+2021 is an incredible year for GSoC at Rocket.Chat. Thanks to the enthusiastic early support from students and community \(mentors\), Google has graciously granted us **TWELVE** project slots.   The [official listing](https://summerofcode.withgoogle.com/organizations/5243748067311616/?sp-page=2) of students selected for these 12 projects is now published.   
+  
+We are delighted to welcome these 12 active community members to work with us during the GSoC 2021 season:
+
+| Student | Project | Mentors |
+| :--- | :--- | :--- |
+| Ghulam Ghous | Omnichannel Project: Live Chat Widget - Accessible Mode | Rafael Fierra |
+| Kartik Gupta | Speech-to-Text | Marcelo Schmidt |
+| Darshil Patel | Introducing Ephemeral Channels in Rocket.Chat | Kevin Aleman |
+| Yash Rajpal | App: Bad-Words Filter | Douglas Guebert |
+| Dhruv Jain | Introduce Audio calls to LiveChat | Murtaza Patrawala |
+| Anant Bhasin | E2E Testing for Android in Rocket.Chat.ReactNative | Diego Mello |
+| Rahul Halder | Voice Channels | Douglas Fabris |
+| Aditya Mitra | Out Of Office Settings with an Assigning Deputy | Amol Babu |
+| Jean Staquet | Task Channels  | Pierre Lehnen |
+| Adithya Vardhan | Channels Discovery | Martin Schoeler |
+| Rohan Lekhwani | Poll App Mega Extensions | Ramkumar KB |
+| Allan Juan | Language Power Tools | Rodrigo Nascimento |
+
+Even with the generous slot assignment this year, it is still a very difficult decision for many mentors to select from the large number of highly qualified students \(we were able to engage the students early on in the GSoC cycle with open source contributions via the [GSoC Leaderboard](https://gsoc.rocket.chat) ; with **219 participating students**, **61 students with contributions**,  **21 code committers**, working on **196 Merged PRs**, **231 Open PRs**, and **290 Issues** so far\).  Several high calibre open source contributors were left out and not selected for GSoC;  to accommodate these exceptional students, Rocket.Chat has arranged to sponsor an **additional TWO** projects this season. 
+
+| Student | Sponsored Project |
+| :--- | :--- |
+| Sumukha Hegde | New statuses for user actions/events \(Typing 2.0\) |
+| Deepak Agarwal | Introduce Video  calls to LiveChat |
+
+All verified students are now interacting with their mentors and the greater Rocket.Chat community during the community bonding phase of the 2021 GSoC season.
+
 ### Update April 15th 2021
 
 We are having a phenomenal Google Summer of Code season this year, participation from students is at an all-time-high.    The enthusiasm and aptitude of student applicants have also improved over prior years.    
   
-In our [24 x 7 GSoC 2021 channel ](https://open.rocket.chat/channel/gsoc2021)- we have over **473 mentors, alumni and students** collaborating actively on GSoC projects.     On our[ GSoC leaderboard](https://gsoc.rocket.chat), we are tracking **221 students** actively contributing code to the Rocket.Chat open source ecosystem.     As of today, we have welcomed **17 new code committers** to our projects. With a total of **138  merged PRs**, **182 open PRs,** and **246 issues** raised by GSoC 2021 students so far.  
+In our [24 x 7 GSoC 2021 channel ](https://open.rocket.chat/channel/gsoc2021)- we have over **473 mentors, alumni and students** collaborating actively on GSoC projects.     On our[ GSoC leaderboard](https://gsoc.rocket.chat), we are tracking **219 students** actively contributing code to the Rocket.Chat open source ecosystem.     As of today, we have welcomed **17 new code committers** to our projects. With a total of **138  merged PRs**, **182 open PRs,** and **246 issues** raised by GSoC 2021 students so far.  
   
 To rally student spirit and assist them in creating their proposal, we organized an [Alumni Re-union Summit](https://community.rocket.chat/events/gsoc2021.html) where we invited former Rocket.Chat GSoC Alumni from all previous years to share tips with this year's GSoC students. More than **20 students** attended throughout the day to enjoy the talks from **10 alumni and mentors**.  Highlight talks included one from a Facebook engineer and a Brazilian open source movement champion.      
   

@@ -17,7 +17,7 @@ docker pull rocket.chat
 This is an image that is maintained at Rocket.Chat's own docker repository. The release may be from the develop or master branch.
 
 ```bash
-docker pull rocketchat/rocket.chat:latest
+docker pull registry.rocket.chat/rocketchat/rocket.chat:latest
 ```
 
 ## Specific Release Image
@@ -25,7 +25,7 @@ docker pull rocketchat/rocket.chat:latest
 This is an image that is maintained at Rocket.Chat's own docker repository. It is associated with a release build.
 
 ```bash
-docker pull rocketchat/rocket.chat:X.X.X
+docker pull registry.rocket.chat/rocketchat/rocket.chat:X.X.X
 ```
 
 ### Discovering existing releases
@@ -37,6 +37,6 @@ You can select the release you need from our [DockerHub Tags](https://hub.docker
 This is an image that is maintained at Rocket.Chat's own docker repository. It is updated from our `develop` \(untested\) branch, that is, absolute latest, for those who needs to work with latest code.
 
 ```bash
-docker pull rocketchat/rocket.chat:develop
+docker pull registry.rocket.chat/rocketchat/rocket.chat:develop
 ```
 

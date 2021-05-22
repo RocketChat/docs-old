@@ -6,7 +6,7 @@ description: >-
 
 # Channels
 
-Following is the team's symbol:
+Following is the channels's symbol:
 
 ![](../../../.gitbook/assets/image%20%28415%29.png)
 

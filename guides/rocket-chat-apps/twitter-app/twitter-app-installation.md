@@ -12,7 +12,7 @@
 
 3. You are notified about all the permissions the app would access. Click **Agree**.
 
-![](../../../.gitbook/assets/image%20%28398%29.png)
+![](../../../.gitbook/assets/image%20%28401%29%20%281%29.png)
 
  Twitter app is installed successfully, as shown below:
 
@@ -21,4 +21,10 @@
 It appears in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
 
 ![](../../../.gitbook/assets/image%20%28405%29.png)
+
+{% hint style="info" %}
+Please note that Twitter is a paid app. The screenshots you see above are from our testing server that is why the price is $0.00.
+{% endhint %}
+
+![](../../../.gitbook/assets/image%20%28444%29.png)
 

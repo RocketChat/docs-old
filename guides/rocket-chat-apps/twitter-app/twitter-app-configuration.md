@@ -35,3 +35,17 @@ Your Twitter app is successfully configured and you can see the new Twitter chan
 
 ![](../../../.gitbook/assets/image%20%28392%29.png)
 
+## Twitter App Authentication
+
+The first step after the configuration is authentication with Twitter. 
+
+1. Please click on the button shown below to start the Authentication Process with Twitter.
+
+![](../../../.gitbook/assets/image%20%28398%29.png)
+
+2. As soon as you click Start Authentication the  Authentication process is started. Please authorize [Rocket.Chat](http://rocket.chat/)'s Twitter app to complete this process.
+
+![](../../../.gitbook/assets/image%20%28414%29.png)
+
+ 
+

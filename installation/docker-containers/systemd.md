@@ -68,7 +68,7 @@ Restart=always
 TimeoutStartSec=0
 ExecStartPre=-/usr/bin/docker kill rocketchat
 ExecStartPre=-/usr/bin/docker rm rocketchat
-ExecStartPre=-/usr/bin/docker pull rocketchat/rocket.chat:latest
+ExecStartPre=-/usr/bin/docker pull registry.rocket.chat/rocketchat/rocket.chat:latest
 
 ExecStart=/usr/bin/docker run \
     --name rocketchat \
@@ -79,7 +79,7 @@ ExecStart=/usr/bin/docker run \
     --link mongo:mongo \
     --net=rocketchat_default \
     --expose 3000 \
-    rocketchat/rocket.chat:latest
+    registry.rocket.chat/rocketchat/rocket.chat:latest
 
 ExecStop=-/usr/bin/docker kill rocketchat
 ExecStop=-/usr/bin/docker rm rocketchat
