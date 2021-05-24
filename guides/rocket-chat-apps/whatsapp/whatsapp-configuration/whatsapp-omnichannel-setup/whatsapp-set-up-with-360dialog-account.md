@@ -14,5 +14,3 @@ Please visit the below link to Connect your WhatsApp number after the above ment
 
 {% page-ref page="connect-whatsapp-number-to-your-workspace.md" %}
 
-
-

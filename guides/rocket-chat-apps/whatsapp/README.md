@@ -18,5 +18,3 @@ description: Omnichannel Integration between Rocket.Chat and WhatsApp Business.
 
 {% page-ref page="whatsapp-agents-guide.md" %}
 
-
-
