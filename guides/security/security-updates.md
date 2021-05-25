@@ -14,12 +14,44 @@ Please make sure to follow new version updates by subscribing to our newsletters
 
 **Issues**
 
+{% hint style="warning" %}
+**0030 - Medium Severity issue** fixed at **2021-05-24.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.12.6, 3.13.4, 3.14.2**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 317v72\)
+{% endhint %}
+
+{% hint style="danger" %}
+**0029 - High Severity issue** fixed at **2021-05-24.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.12.6, 3.13.4, 3.14.2**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 79y67r\)
+{% endhint %}
+
+{% hint style="danger" %}
+**0028 - High Severity issue** fixed at **2021-05-24.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.12.6, 3.13.4, 3.14.2**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 3v29b6\)
+{% endhint %}
+
+{% hint style="warning" %}
+**0027 - Medium Severity issue** fixed at **2021-05-24.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.12.6, 3.13.4, 3.14.2**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 6tr8jg\)
+{% endhint %}
+
 {% hint style="danger" %}
 **0026 - Critical Severity issue** fixed at **2021-04-14.**
 
 Rocket.Chat Server - affects **all,** fixed on **3.13.2, 3.12.4, 3.11.4**
 
-_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 3v299a\)
+_\(**NoSQL injection**\) An unauthenticated method could be exploited for a potential NoSQL injection, resulting in potential account takeover. \(reference:_ 3v299a\)
 {% endhint %}
 
 {% hint style="danger" %}
@@ -27,7 +59,7 @@ _Details about this security fix will be provided later as per our responsible d
 
 Rocket.Chat Server - affects **all,** fixed on **3.13.2, 3.12.4, 3.11.4**
 
-_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 3v29b6\)
+_\(**NoSQL injection**\) An authenticated endpoint could be exploited for a potential NoSQL injection, resulting in potential account takeover. \(reference:_ 3v29b6\)
 {% endhint %}
 
 {% hint style="danger" %}
@@ -35,7 +67,7 @@ _Details about this security fix will be provided later as per our responsible d
 
 Rocket.Chat Live.Chat - affects **all,** fixed on **3.13.2, 3.12.4, 3.11.4**
 
-_Details about this security fix will be provided later as per our responsible disclosure policy. Variation of 0023. \(reference:_ 3h5cty\)
+_\(**XSS**\) An improper input sanitization in the livechat widget could be exploited for an XSS attack. Variation of 0023. \(reference:_ 3h5cty\)
 {% endhint %}
 
 {% hint style="danger" %}
@@ -43,11 +75,11 @@ _Details about this security fix will be provided later as per our responsible d
 
 Rocket.Chat Live.Chat - affects **all,** fixed on **3.13, 3.12.2, 3.11.3**
 
-_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 3h5cty\)
+_**\(XSS**\) An improper input sanitization in the livechat widget could be exploited for an XSS attack. \(reference:_ 3h5cty\)
 {% endhint %}
 
 {% hint style="info" %}
-**0022 - Low Severity issue** fixed at **2021-03-26.**
+**022 - Low Severity issue** fixed at **2021-03-26**
 
 Rocket.Chat Server - affects **all,** fixed on **3.13, 3.12.2, 3.11.3**
 
