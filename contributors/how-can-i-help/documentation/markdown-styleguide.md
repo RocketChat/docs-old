@@ -335,7 +335,7 @@ Blockquote should not have more than one space after the blockquote symbol \( `>
 **Correct**:
 
 ```text
-> This is a block quote with bad indentation
+> This is a block quote with good indentation
 > there should only be one.
 ```
 
