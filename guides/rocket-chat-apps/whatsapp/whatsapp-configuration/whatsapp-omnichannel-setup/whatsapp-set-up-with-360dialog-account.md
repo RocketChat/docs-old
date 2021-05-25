@@ -8,7 +8,7 @@ Click **Yes, I do**
 
 You are given the instructions to login your 360Dialog account and add your company's WhatsApp number, as shown below:
 
-![](../../../../../.gitbook/assets/image%20%28450%29.png)
+![](../../../../../.gitbook/assets/image%20%28467%29.png)
 
 Please visit the below link to Connect your WhatsApp number after the above mentioned steps.
 

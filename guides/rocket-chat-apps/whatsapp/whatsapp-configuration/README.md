@@ -28,7 +28,7 @@ Following are the settings available:‌
 
 ![](../../../../.gitbook/assets/image%20%28437%29.png)
 
-* For a better user experience, the app caches some Template Messages meta-data information. You can define the duration \(in minutes\) within which the app will automatically refresh its cache.
+* For a better user experience, the app caches some Template Messages meta-data information. You can define the duration \(in minutes\) within which the app will automatically refresh its cache.[  Further on template messages is available here](https://developer.rocket.chat/guides/developer/apps-dev-guides/whatsapp-integration).
 
 ![](../../../../.gitbook/assets/image%20%28428%29.png)
 
