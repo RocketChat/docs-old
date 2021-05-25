@@ -6,11 +6,11 @@ If you have WhatsApp integration in place and a user sends you a message using t
 
 it appears in your Rocket.Chat workspace just like any other omnichannel conversation, as shown below:
 
-![](../../../.gitbook/assets/image%20%28455%29%20%281%29.png)
+![](../../../.gitbook/assets/image%20%28442%29.png)
 
  Click **Take It!** to serve this conversation. You can also send to and receive files from your WhatsApp end-user, as shown below:
 
-![](../../../.gitbook/assets/image%20%28454%29.png)
+![](../../../.gitbook/assets/image%20%28441%29.png)
 
 ![](../../../.gitbook/assets/image%20%28465%29.png)
 
