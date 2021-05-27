@@ -1,6 +1,6 @@
 ---
 description: >-
-  Webhooks allow you to integrate the rocket.chat omnichannel to any third-party
+  Webhooks allow you to integrate the Rocket.Chat Omnichannel to any third-party
   system, e.g., CRM, Zoho, etc
 ---
 
