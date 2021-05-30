@@ -14,11 +14,11 @@ After copying your newly generated API key on 360Dialog, come back to your Rocke
 
 as shown below:
 
-![](../../../../../.gitbook/assets/image%20%28447%29%20%281%29.png)
+![](../../../../../.gitbook/assets/image%20%28447%29%20%281%29%20%281%29.png)
 
 Your WhatsApp number is now connected to Rocket.Chat, as shown below:
 
-![](../../../../../.gitbook/assets/image%20%28446%29.png)
+![](../../../../../.gitbook/assets/image%20%28446%29%20%281%29%20%281%29.png)
 
 Your WhatsApp end-users can use this number to communicate with you using WhatsApp.
 

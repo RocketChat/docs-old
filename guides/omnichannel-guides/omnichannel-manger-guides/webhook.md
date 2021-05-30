@@ -1,6 +1,6 @@
 ---
 description: >-
-  Webhooks allow you to integrate the rocket.chat omnichannel to any third-party
+  Webhooks allow you to integrate the Rocket.Chat Omnichannel to any third-party
   system, e.g., CRM, Zoho, etc
 ---
 
@@ -95,7 +95,7 @@ Here is an example of the JSON data sent on a Livechat offline message:
 }
 ```
 
-The field **Secret Token** is sent to a header `X-RocketChat-Livechat-Token` so you can validate if the request became from  Livechat.
+The field **Secret Token** is sent to a header `X-RocketChat-Livechat-Token` so you can validate if the request became from Livechat.
 
 If your endpoint returns a response status other than 200, Rocket.Chat will retry 10 times waiting 10 seconds between retries.
 

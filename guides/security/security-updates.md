@@ -14,6 +14,14 @@ Please make sure to follow new version updates by subscribing to our newsletters
 
 **Issues**
 
+{% hint style="danger" %}
+**0030 - High Severity issue** fixed at **2021-05-28.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.12.7, 3.13.5, 3.14.4**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 4bak1j\)
+{% endhint %}
+
 {% hint style="warning" %}
 **0030 - Medium Severity issue** fixed at **2021-05-24.**
 
