@@ -8,7 +8,7 @@ Click **No, I don't**
 
 You are given the instructions to create one, as shown below:
 
-![](../../../../../.gitbook/assets/image%20%28469%29%20%281%29.png)
+![](../../../../../.gitbook/assets/image%20%28469%29%20%281%29%20%281%29.png)
 
 {% hint style="info" %}
 Please follow the 360Dialog [documentation](https://docs.360dialog.com/360-client-hub/submission-process) to create your 360Dialog account.
