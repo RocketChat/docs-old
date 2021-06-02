@@ -8,5 +8,5 @@ description: >-
 
 Please find the document here: 
 
-[https://developer.rocket.chat/apps-development/getting-started](https://developer.rocket.chat/apps-development/getting-started)
+[https://developer.rocket.chat/apps-development/rocket.chat-app](https://developer.rocket.chat/apps-development/rocket.chat-app)
 
