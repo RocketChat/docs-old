@@ -18,6 +18,16 @@ Remove the installation folder, usually in /opt:
 sudo rm -rf /opt/Rocket.Chat
 ```
 
+Make sure you have the needed build packages
+Debian
+```text
+sudo apt-get install -y build-essential graphicsmagic
+```
+Centos
+```text
+sudo yum install -y gcc-c++ make
+```
+
 Update the node version required by Rocket.Chat:
 
 ```text
