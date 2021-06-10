@@ -1,15 +1,16 @@
-# Queue Types
+# Queue Types \(Routing Algorithm\)
 
-There are four types of queue on Rocket.Chat:
+There are the following types of queues in Rocket.Chat omnichannel solutions:
 
 * [Auto Selection \[default\]](livechat-queues.md#auto-selection)
 * [Manual Selection](livechat-queues.md#manual-selection)
 * [External Service](livechat-queues.md#external-service)
 * Load Balancing \(Enterprise-only feature\)
+* Load Rotation
 
 ## Auto Selection
 
-Each new chat will be routed to the agent that are accepting chats with the lower count. If there is more then one available agent with the same count the chat will get the first in order.
+Each new chat will be routed to the agent that are accepting chats with the lower count. If there is more than one available agent with the same count, the chat will get the first in order.
 
 Consider the following department configuration:
 
@@ -29,9 +30,9 @@ When the agent clicks on the incoming Livechat, the system will show the preview
 
 You can use an `External Service` to integrate your own agent routing rule into Livechat.
 
-Once you set up the `External Service` as the Livechat routing method, you must define the `External Queue Service URL` and `Secret Token` settings in Livechat admin panel.
+Once you set up the `External Service` as the Livechat routing method, you must define the `External Queue Service URL` and `Secret Token` settings in the omnichannel admin panel.
 
-Rocket.Chat will send a GET request to the `External Queue Service URL` and the setting `Secret Token` is sent as a header `X-RocketChat-Secret-Token`, so you can validate if the request became from the Rocket.Chat.
+Rocket.Chat will send a GET request to the `External Queue Service URL` and the setting `Secret Token` is sent as a header `X-RocketChat-Secret-Token`, so you can validate if the request came from the Rocket.Chat.
 
 If your endpoint returns a response status other than 200, Rocket.Chat will try 10 times until it receives a valid response.
 
@@ -44,9 +45,13 @@ Here is an example of the JSON data format that Livechat will wait for after sub
 }
 ```
 
-After receiving the return from the endpoint in the format described above, Livechat will check that the `username` field represents a valid Livechat agent and then follows the normal process flow.
+After receiving the return from the endpoint in the format described above, Livechat will check that the `username` the field represents a valid Livechat agent and then follows the normal process flow.
 
 ## Load Balancing
 
 Load Balancing is an enterprise-only feature. It is also an auto-assignment algorithm, but it will consider the agent's online status and the time they have been chatting, contrary to auto-selection, which only considers the agent's online status. For instance, an agent was away on a short break; once he comes back, he will be assigned more chats than his fellow agent. So in this way, the algorithm will maintain a chat load balance between agents.
+
+## Load Rotation
+
+Agent queues for service between online agents, without considering the previous chat's history attended or the number of open rooms in attendance. It's a mix between the Load Balancing and Auto Selection algorithms.
 

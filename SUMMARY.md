@@ -275,7 +275,7 @@
     * [CDN](guides/administrator-guides/misc.-admin-guides/cdn.md)
 * [Omnichannel Guides](guides/omnichannel-guides/README.md)
   * [Omnichannel Admin's Guide](guides/omnichannel-guides/omnichannel-admins-guide/README.md)
-    * [Queue Types](guides/omnichannel-guides/omnichannel-admins-guide/livechat-queues.md)
+    * [Queue Types \(Routing Algorithm\)](guides/omnichannel-guides/omnichannel-admins-guide/livechat-queues.md)
     * [WhatsApp Integration / Twilio](guides/omnichannel-guides/omnichannel-admins-guide/whatsapp-twilio.md)
     * [Omnichannel Email Inbox Account Configuration](guides/omnichannel-guides/omnichannel-admins-guide/omnichannel-email-inbox-account-configuration.md)
   * [Omnichannel Manager's Guides](guides/omnichannel-guides/omnichannel-manger-guides/README.md)
