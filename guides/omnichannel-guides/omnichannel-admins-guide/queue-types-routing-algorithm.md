@@ -5,7 +5,7 @@ There are the following types of queues in Rocket.Chat omnichannel solutions:
 * [Auto Selection \[default\]](queue-types-routing-algorithm.md#auto-selection)
 * [Manual Selection](queue-types-routing-algorithm.md#manual-selection)
 * [External Service](queue-types-routing-algorithm.md#external-service)
-* [Load Balancing] \(Enterprise-only feature\)(queue-types-routing-algorithm.md#load-balancing)
+* [Load Balancing \(Enterprise-only feature\)](queue-types-routing-algorithm.md#load-balancing)
 * [Load Rotation](queue-types-routing-algorithm.md#load-rotation)
 
 ## Auto Selection
