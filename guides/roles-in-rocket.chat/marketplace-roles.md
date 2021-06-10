@@ -10,6 +10,10 @@ There are three different roles within a Publisher.
 * Developer
 * Viewer
 
+as shown below:
+
+![](../../.gitbook/assets/image%20%28444%29.png)
+
 The Owner role is applied whenever someone creates a publisher. Each of the subsequent roles only applies to people they have invited.
 
 ### Publisher: Owner
