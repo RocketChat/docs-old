@@ -358,6 +358,7 @@
   * [Running a Hubot bot](guides/bots/running-a-hubot-bot.md)
 * [Apps Guides](guides/apps-guides/README.md)
   * [Omnichannel Apps](guides/apps-guides/omnichannel-apps/README.md)
+    * [Dialogflow App](guides/apps-guides/omnichannel-apps/dialogflow-app.md)
     * [Twitter App](guides/apps-guides/omnichannel-apps/twitter-app/README.md)
       * [Twitter App Installation](guides/apps-guides/omnichannel-apps/twitter-app/twitter-app-installation.md)
       * [Twitter App Configuration](guides/apps-guides/omnichannel-apps/twitter-app/twitter-app-configuration/README.md)
