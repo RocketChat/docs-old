@@ -12,5 +12,5 @@ To configure a bot user:
 
 3. Make sure the _Bot_ and _LiveChat Agent_ role is assigned to this user. 
 
-![](../../../../../.gitbook/assets/image%20%28452%29.png)
+![](../../../../../.gitbook/assets/image%20%28453%29.png)
 

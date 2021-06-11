@@ -8,39 +8,17 @@ Click open your Dialogflow app to see the settings available to you as an admini
 
 Following are the settings available:
 
-1. Set the name of the bot you have already configured in **Bot Username**.
+1. Set the[ name of the bot you have already configured](https://docs.rocket.chat/guides/apps-guides/omnichannel-apps/dialogflow-app/dialogflow-app-configuration/bot-user-configuration) in **Bot Username**. This is the user who will assist the conversations through Dialogflow integration. 
+2. **Project Id**, **Client Email**, **Private Key** are the credentials available inside your dialog flow instance. 
+3. Suppose, the omnichannel end user asks something that the bot is not trained to answer and fails. **Fallback Responses Limit** defines after how many failures of the conversation should be forwarded to a human agent. 
+4. Upon bot-to-liveagent handover, the visitor is transferred to **Target Department for Handover.**
+5. The Bot sends **Handover Message** to Visitor upon handover.
+6. The Bot sends **Service Unavailable Message** to Visitor if service is unavailable.
+7. The **Close Chat Message** is sent automatically when a chat is closed.
+8. If **Hide Quick Replies** enabled, then all quick-replies will hide when a visitor clicks on any one of them. 
+9. Hit **Save.**
 
+![](../../../../../.gitbook/assets/image%20%28452%29.png)
 
-
-1. You can set the **Service Unavailable Message** that will be sent to the user if some error occurs like if no agents are online
-2. You can set the **Welcome Message** that will be sent to visitors when they send their first message
-3. The **Conversation Finished Message** will be sent to visitors when the conversation is closed
-
-{% hint style="info" %}
-Only the agents of that particular department are able to see and take the chats.
-{% endhint %}
-
- 
-
-![](../../../../../.gitbook/assets/image%20%28400%29.png)
-
-5.  You can choose to display the agent's name or username:
-
-![](../../../../../.gitbook/assets/image%20%28399%29.png)
-
-6. You can enable/disable file sharing and also set a limit for maximum upload size
-
-![](../../../../../.gitbook/assets/image%20%28391%29.png)
-
-7. And you can select the type of files you wish the Agents and your Twitter Contacts can share under **Accepted Media Types**
-
-![](../../../../../.gitbook/assets/image%20%28394%29.png)
-
-8. Hit **Save Changes** to save your settings
-
-![](../../../../../.gitbook/assets/image%20%28393%29.png)
-
-Your Twitter app is successfully configured and you can see the new Twitter channel upon closing the administration panel, as shown below:
-
-![](../../../../../.gitbook/assets/image%20%28392%29.png)
+Dialogflow app is successfully configured.
 
