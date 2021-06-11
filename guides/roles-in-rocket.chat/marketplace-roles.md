@@ -22,9 +22,9 @@ The owner can do everything.
 
 An owner can change the role of another user, as shown below:
 
-![](../../.gitbook/assets/image%20%28451%29.png)
+![](../../.gitbook/assets/image%20%28457%29.png)
 
-![](../../.gitbook/assets/image%20%28450%29.png)
+![](../../.gitbook/assets/image%20%28453%29.png)
 
 ### Publisher: Developer
 

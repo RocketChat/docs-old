@@ -8,7 +8,7 @@ Click open your Dialogflow app to see the settings available to you as an admini
 
 Following are the settings available:
 
-1. You can set a **Bot Username**. 
+1. Set the name of the bot you have already configured in **Bot Username**.
 2. You can set the **Service Unavailable Message** that will be sent to the user if some error occurs like if no agents are online
 3. You can set the **Welcome Message** that will be sent to visitors when they send their first message
 4. The **Conversation Finished Message** will be sent to visitors when the conversation is closed
