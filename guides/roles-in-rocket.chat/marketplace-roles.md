@@ -20,6 +20,12 @@ The Owner role is applied whenever someone creates a publisher. Each of the subs
 
 The owner can do everything.
 
+An owner can change the role of another user, as shown below:
+
+![](../../.gitbook/assets/image%20%28447%29.png)
+
+![](../../.gitbook/assets/image%20%28444%29.png)
+
 ### Publisher: Developer
 
 The developer can read everything. However, the developer role can also update Apps \(can not create them, that requires an Owner\).
@@ -27,4 +33,6 @@ The developer can read everything. However, the developer role can also update A
 ### Publisher: Viewer
 
 The viewer role can read everything but can not update anything.
+
+
 
