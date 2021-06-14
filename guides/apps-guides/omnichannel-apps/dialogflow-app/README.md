@@ -7,7 +7,7 @@ description: >-
 
 # Dialogflow App
 
-Using Rocket.Chat and the Dialogflow Chatbot platform integration, you can set up and train your chatbot to respond to any query it's been trained for and act as an omnichannel agent.
+Using Rocket.Chat and the Dialogflow Chatbot platform integration, you can set up and train your chatbot to respond to any query it's been trained for and configure it to act as an omnichannel agent.
 
 {% page-ref page="dialogflow-app-installation.md" %}
 
