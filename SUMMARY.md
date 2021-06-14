@@ -358,6 +358,8 @@
   * [Running a Hubot bot](guides/bots/running-a-hubot-bot.md)
 * [Apps Guides](guides/apps-guides/README.md)
   * [Omnichannel Apps](guides/apps-guides/omnichannel-apps/README.md)
+    * [Rasa App](guides/apps-guides/omnichannel-apps/rasa-app/README.md)
+      * [Rasa App Installation](guides/apps-guides/omnichannel-apps/rasa-app/rasa-app-installation.md)
     * [Dialogflow App](guides/apps-guides/omnichannel-apps/dialogflow-app/README.md)
       * [Dialogflow App Installation](guides/apps-guides/omnichannel-apps/dialogflow-app/dialogflow-app-installation.md)
       * [Dialogflow App Configuration](guides/apps-guides/omnichannel-apps/dialogflow-app/dialogflow-app-configuration/README.md)
