@@ -1,6 +1,0 @@
-# Me
-
-Please find the document here: 
-
-[https://developer.rocket.chat/api/rest-api/methods/authentication/me](https://developer.rocket.chat/api/rest-api/methods/authentication/me)
-
