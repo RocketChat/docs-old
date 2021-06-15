@@ -1,0 +1,2 @@
+# Validate Invite Token
+
