@@ -360,6 +360,7 @@
   * [Omnichannel Apps](guides/apps-guides/omnichannel-apps/README.md)
     * [Rasa App](guides/apps-guides/omnichannel-apps/rasa-app/README.md)
       * [Rasa App Installation](guides/apps-guides/omnichannel-apps/rasa-app/rasa-app-installation.md)
+      * [Rasa App Configuration](guides/apps-guides/omnichannel-apps/rasa-app/rasa-app-configuration.md)
     * [Dialogflow App](guides/apps-guides/omnichannel-apps/dialogflow-app/README.md)
       * [Dialogflow App Installation](guides/apps-guides/omnichannel-apps/dialogflow-app/dialogflow-app-installation.md)
       * [Dialogflow App Configuration](guides/apps-guides/omnichannel-apps/dialogflow-app/dialogflow-app-configuration/README.md)
