@@ -16,7 +16,7 @@ We suggest one common way, once your application loads:
 
 1. Call your own API to retrieve the token, let's say `/api/rocketchat/token` 
 2. Your API will validate your own session, probably via cookies
-3. Your API will then call the [Rocket.Chat APIs](../../../../api/rest-api/) to check if the user exists
+3. Your API will then call the [Rocket.Chat APIs]() to check if the user exists
    1. If it doesn't exists call the Rocket.Chat APIs to create the user
 4. If the user exists, call the Rocket.Chat APIs to make the login and receive the token
 5. Return the token in your API response
