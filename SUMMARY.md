@@ -324,6 +324,7 @@
     * [Salesforce CRM Integration](guides/apps-guides/omnichannel-apps/salesforce-crm-integration/README.md)
       * [Salesforce CRM Installation](guides/apps-guides/omnichannel-apps/salesforce-crm-integration/salesforce-crm-installation.md)
       * [Salesforce CRM Configuration](guides/apps-guides/omnichannel-apps/salesforce-crm-integration/salesforce-crm-configuration.md)
+      * [Salesforce CRM Agent's Guide](guides/apps-guides/omnichannel-apps/salesforce-crm-integration/salesforce-crm-agents-guide.md)
     * [Dialogflow App](guides/apps-guides/omnichannel-apps/dialogflow-app/README.md)
       * [Dialogflow App Installation](guides/apps-guides/omnichannel-apps/dialogflow-app/dialogflow-app-installation.md)
       * [Dialogflow App Configuration](guides/apps-guides/omnichannel-apps/dialogflow-app/dialogflow-app-configuration/README.md)
