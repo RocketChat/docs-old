@@ -70,11 +70,11 @@ Clicking on the `Reset` button will reset all these basic configurations back to
 
 ## Iframe
 
-These settings are related to the Iframe Integration, please see the [Iframe integration page]() for more details.
+These settings are related to the Iframe Integration, please see the [Iframe integration page](https://developer.rocket.chat/guides/developer/iframe-integration) for more details.
 
 ## Password Policy
 
-**Enable Password Policy**: When this is set to true, new passwords must follow the corresponding configured polices.
+**Enable Password Policy**: When this is set to true, new passwords must follow the corresponding configured policies.
 
 The various settings that fall under this have simple descriptions for understanding.
 
