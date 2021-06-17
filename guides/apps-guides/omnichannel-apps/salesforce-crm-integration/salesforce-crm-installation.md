@@ -4,7 +4,7 @@ To install Salesforce CRM App:
 
 1. Go to **Administration&gt;Marketplace** and search Salesforce CRM
 
-![](../../../../.gitbook/assets/image%20%28468%29.png)
+![](../../../../.gitbook/assets/image%20%28484%29.png)
 
 2. Click **Install**
 
