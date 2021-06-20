@@ -2,7 +2,9 @@
 
 [![Google Summer of Code 2020](https://github.com/Sing-Li/bbug/raw/master/images/gsoclogo.jpg)](https://summerofcode.withgoogle.com/)
 
-## 
+### Update June 20th 2021
+
+Community bonding period is now officially over.   Coding has officially began on all projects.  Students are working towards the July 12 first evaluations.
 
 ### Update May 20th 2021
 
