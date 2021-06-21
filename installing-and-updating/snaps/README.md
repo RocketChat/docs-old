@@ -270,6 +270,14 @@ _If something goes wrong, you will instead be presented with a path to the relev
 sudo snap start rocketchat-server.rocketchat-server
 ```
 
+### How do I access the MongoDB shell?
+
+You might want to access the mongo shell shipped with our RocketChat snap. To do so, run:
+
+```text
+rocketchat-server.mongo
+```
+
 ## How do I add option to mount media?
 
 Note that the interface providing the ability to access removable media is not automatically connected upon install, so if you'd like to use external storage \(or otherwise use a device in `/media` for data\), you need to give the snap permission to access removable media by connecting that interface:
