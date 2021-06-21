@@ -32,7 +32,15 @@ If you have special requirements and really need to use the latest release immed
 
 ### How do I access my site at a different port?  How do I enable TLS/SSL with my snap?
 
-Check out our guide for enabling caddy [here](auto-ssl-with-snaps.md).
+You can change the default port \(port 3000\) to something else by changing the `port` configuration option. For example if you wanted to change the HTTP port to 8080 instead of 3000:
+
+```text
+sudo snap set rocketchat-server port=8080
+```
+
+Make sure you restart the `rocketchat-service` service afterwards for the change to take effect. Read [here](https://docs.rocket.chat/installing-and-updating/snaps#i-need-to-restart-rocket-chat-how-do-i-do-this) for more information on that. **Your only need to restart the RocketChat application itself, not the database or Caddy**.
+
+For enabling TLS/SSL, check out our guide for enabling caddy [here](auto-ssl-with-snaps.md).
 
 ### Ubuntu 16.04 LTS gives message "snap not found", what's wrong?
 
