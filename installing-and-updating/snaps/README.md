@@ -98,17 +98,27 @@ systemctl status snap.rocketchat-server.rocketchat-server
 
 ### How can I view the logs?
 
-To see the logs from Rocket.Chat:
+You can either use the `snap logs` command, or the systemd alternative, `journalctl`. Always refer to [this table](https://docs.rocket.chat/installing-and-updating/snaps#how-do-i-list-the-services-shipped-with-rocket-chat-snap) to know which service name to use where.
+
+Using `snap logs`:
 
 ```text
-sudo journalctl -f -u snap.rocketchat-server.rocketchat-server
+sudo snap logs -f rocketchat-server.rocketchat-server
+sudo snap logs -f rocketchat-server.rocketchat-mongo
+sudo snap logs -f rocketchat-server.rocketchat-caddy
+```
+
+To see the logs from Rocket.Chat using `journalctl`:
+
+```text
+sudo journalctl -fu snap.rocketchat-server.rocketchat-server
 ```
 
 To see the logs from Mongo or Caddy:
 
 ```text
-sudo journalctl -f -u snap.rocketchat-server.rocketchat-mongo
-sudo journalctl -f -u snap.rocketchat-server.rocketchat-caddy
+sudo journalctl -fu snap.rocketchat-server.rocketchat-mongo
+sudo journalctl -fu snap.rocketchat-server.rocketchat-caddy
 ```
 
 ### How do I schedule updates?
@@ -125,17 +135,33 @@ You can find more about your options in the [snapcraft documentation](https://sn
 
 ### I need to restart Rocket.Chat, how do I do this?
 
-To restart Rocket.Chat:
+This follows the similar structure as many of the previous questions. You can use both the `snap` command or `systemctl` to restart RocketChat. 
+
+With `snap` you get the additional benefit of restarting all of the services with a single command:
 
 ```text
-sudo service snap.rocketchat-server.rocketchat-server restart
+sudo snap restart rocketchat-server
+```
+
+You can also restart each service individually:
+
+```text
+sudo snap restart rocketchat-server.rocketchat-server
+sudo snap restart rocketchat-server.rocketchat-mongo
+sudo snap restart rocketchat-server.rocketchat-caddy
+```
+
+To restart Rocket.Chat using `systemctl`:
+
+```text
+sudo systemctl restart snap.rocketchat-server.rocketchat-server
 ```
 
 Mongo and Caddy can similarly be restarted:
 
 ```text
-sudo service snap.rocketchat-server.rocketchat-mongo restart
-sudo service snap.rocketchat-server.rocketchat-caddy restart
+sudo systemctl restart snap.rocketchat-server.rocketchat-mongo 
+sudo systemctl restart snap.rocketchat-server.rocketchat-caddy 
 ```
 
 ### What is the restart policy?
