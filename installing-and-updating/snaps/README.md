@@ -245,13 +245,13 @@ sudo rocketchat-server.restoredb /var/snap/rocketchat-server/common/rocketchat_b
 ```text
 *** ATTENTION ***
 * Your current database WILL BE DROPPED prior to the restore!
-* Would you like to make a backup of the current database before proceeding?
-* (y/n/Q)>
+* Do you want to continue?
+1) Yes
+2) No
+#?
 ```
 
-* Press `y` and `Enter` to make a backup of the database in its current state.
-* Press `n` and `Enter` to continue _without a backup_ of the database in its current state.
-* Press any key and/or `Enter` to quit the restore process without making any changes.
+Select 1 or 2 according to your need.
 
 #### 5. If you choose to proceed and all goes well, you will see some output similar to:
 
