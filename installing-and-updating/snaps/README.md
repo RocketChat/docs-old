@@ -181,61 +181,63 @@ The snap's policy is to restart on failure.
 #### 1. Stop your rocketchat-server:
 
 ```text
-sudo service snap.rocketchat-server.rocketchat-server stop
+sudo snap stop rocketchat-server.rocketchat-server
 ```
 
 _Please note: while the rocketchat-server service should be stopped, the rocketchat-mongo service should be kept running!_
 
 ```text
-sudo service snap.rocketchat-server.rocketchat-mongo status | grep Active
-   Active: active (running) (...)
+systemctl is-active snap.rocketchat-server.rocketchat-mongo
 ```
+
+You should get `active` as a response.
 
 #### 2. Issue this backup command:
 
 ```text
-sudo snap run rocketchat-server.backupdb
+sudo rocketchat-server.backupdb
 ```
 
-#### 3. If all goes well, you will see some output similar to:
+If all goes well, you will see some output similar to:
 
 ```text
 [+] A backup of your data can be found at /var/snap/rocketchat-server/common/backup/rocketchat_backup_<timestamp>.tar.gz
 ```
 
-#### 4. Start your rocketchat-server:
+#### 3. Start your rocketchat-server:
 
 ```text
-sudo service snap.rocketchat-server.rocketchat-server start
+sudo snap start rocketchat-server.rocketchat-server
 ```
 
-#### 4. Copy your backup file to a different system for safekeeping!
+#### 4. Copy your backup file to a different location or system for safekeeping!
 
 ### How do I restore backup data to my snap?
 
 #### 1. Stop your rocketchat-server:
 
 ```text
-sudo service snap.rocketchat-server.rocketchat-server stop
+sudo snap stop snap.rocketchat-server.rocketchat-server
 ```
 
 _Please note: while the rocketchat-server service should be stopped, the rocketchat-mongo service should be kept running!_
 
 ```text
-sudo service snap.rocketchat-server.rocketchat-mongo status | grep Active
-   Active: active (running) (...)
+systemctl is-active snap.rocketchat-server.rocketchat-mongo
 ```
+
+You should get `active` as a response.
 
 #### 2. Copy your backup file to the snap's common folder:
 
 ```text
-sudo cp rocketchat_backup.tgz /var/snap/rocketchat-server/common/
+sudo cp rocketchat_backup.tar.gz /var/snap/rocketchat-server/common/
 ```
 
 #### 3. Issue this restore command:
 
 ```text
-sudo snap run rocketchat-server.restoredb /var/snap/rocketchat-server/common/rocketchat_backup.tgz
+sudo rocketchat-server.restoredb /var/snap/rocketchat-server/common/rocketchat_backup.tgz
 ```
 
 #### 4. If you are replacing an existing database, you will be warned:
@@ -265,7 +267,7 @@ _If something goes wrong, you will instead be presented with a path to the relev
 #### 6. Start your rocketchat-server:
 
 ```text
-sudo service snap.rocketchat-server.rocketchat-server start
+sudo snap start rocketchat-server.rocketchat-server
 ```
 
 ## How do I add option to mount media?
