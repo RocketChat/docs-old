@@ -52,19 +52,48 @@ sudo snap refresh rocketchat-server
 sudo snap revert rocketchat-server
 ```
 
-### How do I tell if Rocket.Chat is actually running?
+### How do I list the services shipped with Rocket.Chat snap?
 
-You can check on the status of Rocket.Chat with:
+The Rocket.Chat snap provides three services. Outside of the snap context, globally, each service is named like `snap.<SnapName>.<SnapServiceName>`. Look at the table down below to have a better understanding.
+
+| Service | Snap Service Name | Systemd Service Name |
+| :--- | :--- | :--- |
+| MongoDB | rocketchat-mongo | snap.rocketchat-server.rocketchat-mongo |
+| Caddy | rocketchat-caddy | snap.rocketchat-server.rocketchat-caddy |
+| RocketChat | rocketchat-server | snap.rocketchat-server.rocketchat-server |
+
+You can check the list of services yourself with:
 
 ```text
-sudo service snap.rocketchat-server.rocketchat-server status
+snap info rocketchat-server
 ```
 
-You can also check on the status of Mongo and Caddy:
+Look for the `services` section.
+
+### How do I tell if Rocket.Chat is actually running?
+
+ You can check whether either or all of them are running or not with the following command:
+
+```bash
+snap services rocketchat-server
+```
+
+Look into the third column \(`Current`\) that logs the current state of the services.
+
+Another option is to use the `systemctl` command. To quickly check if a service is active or not, use the `is-active` subcommand or the more well-known `status` subcommand. See the above table to know the name of the service you want to inspect.
 
 ```text
-sudo service snap.rocketchat-server.rocketchat-mongo status
-sudo service snap.rocketchat-server.rocketchat-caddy status
+systemctl is-active snap.rocketchat-server.rocketchat-mongo
+systemctl is-active snap.rocketchat-server.rocketchat-caddy
+systemctl is-active snap.rocketchat-server.rocketchat-server
+```
+
+Or use the `status` subcommand:
+
+```text
+systemctl status snap.rocketchat-server.rocketchat-mongo
+systemctl status snap.rocketchat-server.rocketchat-caddy
+systemctl status snap.rocketchat-server.rocketchat-server
 ```
 
 ### How can I view the logs?
