@@ -64,19 +64,25 @@ If you are using a Docker setup, [click here to find an alternative article](htt
    systemctl start mongod
    ```
 
-7. Import dump back into \(_wiredTiger_\) MongoDB:
+7. If running with a Replica-Set in your mongo.conf initialize replica set
+
+   ```text
+   mongo --evel 'rs.initiate()'
+   ```
+
+8. Import dump back into \(_wiredTiger_\) MongoDB:
 
    ```text
    mongorestore --drop --archive=~/mmapdump.gz --gzip --noIndexRestore
    ```
 
-8. Repair databases and rebuild indices:
+9. Repair databases and rebuild indices:
 
    ```text
    mongo --eval 'db.repairDatabase()'
    ```
 
-9. Start Rocket.Chat service:
+10. Start Rocket.Chat service:
 
    ```text
    systemctl start rocketchat
