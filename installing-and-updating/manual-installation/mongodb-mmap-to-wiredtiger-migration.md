@@ -84,7 +84,7 @@ If you are using a Docker setup, [click here to find an alternative article](htt
 
 10. Start Rocket.Chat service:
 
-   ```text
-   systemctl start rocketchat
-   ```
+    ```text
+    systemctl start rocketchat
+    ```
 

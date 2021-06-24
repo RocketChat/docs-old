@@ -16,5 +16,5 @@ Rasa app is installed successfully**.**
 
 It appears in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28461%29%20%281%29.png)
+![](../../../../.gitbook/assets/image%20%28461%29%20%281%29%20%281%29.png)
 

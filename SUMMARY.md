@@ -376,6 +376,7 @@
   * [Security](contributors/how-can-i-help/security/README.md)
     * [Responsible Disclosure Policy](contributors/how-can-i-help/security/responsible-disclosure-policy.md)
   * [Translating](contributors/how-can-i-help/translating.md)
+  * [Donate](contributors/how-can-i-help/donate.md)
 * [Contributor Code of Conduct](contributors/contributor-code-of-conduct.md)
 * [Google Summer of Code](contributors/google-summer-of-code/README.md)
   * [Google Summer of Code 2021](contributors/google-summer-of-code/google-summer-of-code-2021.md)

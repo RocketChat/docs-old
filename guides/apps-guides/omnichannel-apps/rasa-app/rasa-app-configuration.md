@@ -2,7 +2,7 @@
 
 Search Rasa in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28461%29.png)
+![](../../../../.gitbook/assets/image%20%28461%29%20%281%29.png)
 
 Click open your Rasa app to see the settings available to you as an administrator.
 
