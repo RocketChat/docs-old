@@ -2,9 +2,15 @@
 
 [![Google Summer of Code 2020](https://github.com/Sing-Li/bbug/raw/master/images/gsoclogo.jpg)](https://summerofcode.withgoogle.com/)
 
-### Update June 20th 2021
+### Update June 25th 2021
 
 Community bonding period is now officially over.   Coding has officially began on all projects.  Students are working towards the July 12 first evaluations.
+
+To accommodate another highly qualified student, and keen interests from mentors, our long time community partner Credit Suisse APAC has sponsored an additional project.  This brings our total number of projects this season to **15**.
+
+| Student | Project | Mentors |
+| :--- | :--- | :--- |
+| Priya Bihani | Image Manipulation: Editing / Cropping on Upload | Gabriel Henriques, Tasso Evangelista |
 
 ### Update May 20th 2021
 
