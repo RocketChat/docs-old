@@ -10,11 +10,11 @@ To access **Business** **Hours** settings:
 
 1. Go to the dots menu and hit **Omnichannel**. Omnichannel settings will open up.
 
-![](../../../.gitbook/assets/0%20%282%29%20%281%29.png)
+![](../../../.gitbook/assets/image%20%28461%29.png)
 
 1. Hit **Business** **Hours.**
 
-![](../../../.gitbook/assets/1%20%281%29.png)
+![](../../../.gitbook/assets/image%20%28488%29.png)
 
 **To add a new set of hours to your workspace:**
 
