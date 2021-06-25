@@ -1,4 +1,4 @@
 redirects:  
     security: contributors/contributing/security/README.md
     guides/developer/quick-start: guides/developer/README.md
-    REST API: developer-docs/api/rest-api/README.md
+    rest api: developer-docs/api/rest-api/README.md
