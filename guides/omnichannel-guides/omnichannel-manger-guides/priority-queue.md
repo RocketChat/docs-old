@@ -6,10 +6,16 @@ description: >-
 
 # Priorities
 
+## 
+
 ## Priorities ![](../../../.gitbook/assets/2021-06-10_22-31-38.jpg) 
 
+{% hint style="info" %}
+An incoming chat, that has not yet been taken by the agent is called an 'inquiry'. After it's been taken by the agent it is referred to as 'room'
+{% endhint %}
+
   
-Chats associated with priorities will be sorted by the estimated due time which means high-priorities chats will appear in the queue before others with either low priorities or without any priority set.
+Inquiries associated with priorities will be sorted by the estimated due time which means high-priorities chats will appear in the queue before others with either low priorities or without any priority set.
 
 {% hint style="info" %}
 `Estimated Due Time` is an estimated time defined for customers to be served. If the estimated due time is, for instance, 10 minutes, the customer is supposed to wait in queue for up to 10 minutes until an agent takes the chat.
