@@ -11,7 +11,7 @@ description: >-
 ## Priorities ![](../../../.gitbook/assets/2021-06-10_22-31-38.jpg) 
 
 {% hint style="info" %}
-An incoming chat, that has not yet been taken by the agent is called an 'inquiry'. After it's been taken by the agent it is referred to as 'room'
+An incoming chat, that has not yet been taken by the agent is called an 'inquiry'. After it's been taken by the agent it is referred to as 'room'.
 {% endhint %}
 
   
