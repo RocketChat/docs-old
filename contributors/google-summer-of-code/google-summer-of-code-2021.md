@@ -16,7 +16,7 @@ The unsung heroine here is Aline Nunes, our senior Agilist, without whose help t
 ### Update June 25th 2021
 
   
-Community bonding period is now officially over.   Coding has officially began on all projects.  Students arUnsung heroine here is Aline Nunes, our own senior Agilist,  without whom these last minute mentor re-assignments would not have been possible.e working towards the July 12 first evaluations.
+Community bonding period is now officially over.   Coding has officially began on all projects.  Students are working towards the July 12 first evaluations.
 
 To accommodate another highly qualified student, and keen interests from mentors, our long time community partner Credit Suisse APAC has sponsored an additional project.  This brings our total number of projects this season to **15**.
 
