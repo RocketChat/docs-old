@@ -2,6 +2,15 @@
 
 [![Google Summer of Code 2020](https://github.com/Sing-Li/bbug/raw/master/images/gsoclogo.jpg)](https://summerofcode.withgoogle.com/)
 
+### Update July 11, 2021
+
+Due to sudden departure of an active mentor, we are in jeopardy of losing two key projects for the year.   Thankfully two heroines from Rocket.Chat's own Agile Planning and UI/UX team came forward and, together with mentors from our front-end team, saved the day for these projects.    The new mentors assignments are now reflected on these two projects.
+
+| Student | Project | Mentors |
+| :--- | :--- | :--- |
+| Ghulam Ghous | Omnichannel Project: Live Chat Widget - Accessible ModeL | Leticia Peuser, Tasso Evangelista |
+| Dhruv Jain | Introduce Audio calls to LiveChat | Murtaza Patrawala, Gabriel Henriques |
+
 ### Update June 25th 2021
 
 Community bonding period is now officially over.   Coding has officially began on all projects.  Students are working towards the July 12 first evaluations.
@@ -20,7 +29,7 @@ We are delighted to welcome these 12 active community members to work with us du
 
 | Student | Project | Mentors |
 | :--- | :--- | :--- |
-| Ghulam Ghous | Omnichannel Project: Live Chat Widget - Accessible Mode | Rafael Fierra |
+| Ghulam Ghous | Omnichannel Project: Live Chat Widget - Accessible Mode | Leticia Peuser |
 | Kartik Gupta | Speech-to-Text | Marcelo Schmidt |
 | Darshil Patel | Introducing Ephemeral Channels in Rocket.Chat | Kevin Aleman |
 | Yash Rajpal | App: Bad-Words Filter | Douglas Guebert |
