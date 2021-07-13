@@ -14,12 +14,36 @@ Please make sure to follow new version updates by subscribing to our newsletters
 
 **Issues**
 
+{% hint style="warning" %}
+**0034 - Medium Severity issue** fixed at **2021-07-13.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.14.6, 3.15.4, 3.16.3**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 3t33pd\)
+{% endhint %}
+
+{% hint style="warning" %}
+**0033 - Medium Severity issue** fixed at **2021-07-13.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.14.6, 3.15.4, 3.16.3**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 5nc7fh\)
+{% endhint %}
+
+{% hint style="warning" %}
+**0032 - Medium Severity issue** fixed at **2021-07-13.**
+
+Rocket.Chat Server - affects **all,** fixed on **3.14.6, 3.15.4, 3.16.3**
+
+_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 2x348d\)
+{% endhint %}
+
 {% hint style="danger" %}
-**0030 - High Severity issue** fixed at **2021-05-28.**
+**0031 - High Severity issue** fixed at **2021-05-28.**
 
 Rocket.Chat Server - affects **all,** fixed on **3.12.7, 3.13.5, 3.14.4**
 
-_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 4bak1j\)
+_\(**XSS**\) An issue with the HTML sanitizer could be exploited, leading to potential Cross-Site-Scripting. \(reference:_ 4bak1j\)
 {% endhint %}
 
 {% hint style="warning" %}
@@ -27,7 +51,7 @@ _Details about this security fix will be provided later as per our responsible d
 
 Rocket.Chat Server - affects **all,** fixed on **3.12.6, 3.13.4, 3.14.2**
 
-_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 317v72\)
+_\(**SSRF**\) A method could be called without authentication, leading to potential Server-side Request Forgery. \(reference:_ 317v72\)
 {% endhint %}
 
 {% hint style="danger" %}
@@ -35,7 +59,7 @@ _Details about this security fix will be provided later as per our responsible d
 
 Rocket.Chat Server - affects **all,** fixed on **3.12.6, 3.13.4, 3.14.2**
 
-_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 79y67r\)
+_\(**XSS**\) An improperly used front-end library together with a validation bypass in a function could be exploited, leading to potential Cross-Site-Scripting . \(reference:_ 79y67r\)
 {% endhint %}
 
 {% hint style="danger" %}
@@ -43,7 +67,7 @@ _Details about this security fix will be provided later as per our responsible d
 
 Rocket.Chat Server - affects **all,** fixed on **3.12.6, 3.13.4, 3.14.2**
 
-_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 3v29b6\)
+_\(**RCE**\) An API endpoint was vulnerable to NoSQL-injection attacks, leading to potential Remote Code Execution. \(reference:_ 3v29b6\)
 {% endhint %}
 
 {% hint style="warning" %}
@@ -51,7 +75,7 @@ _Details about this security fix will be provided later as per our responsible d
 
 Rocket.Chat Server - affects **all,** fixed on **3.12.6, 3.13.4, 3.14.2**
 
-_Details about this security fix will be provided later as per our responsible disclosure policy. \(reference:_ 6tr8jg\)
+_\(**IDOR**\) An IDOR vulnerability could be used to export data of other users. \(reference:_ 6tr8jg\)
 {% endhint %}
 
 {% hint style="danger" %}
