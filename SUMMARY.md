@@ -69,6 +69,7 @@
   * [Mobile and Desktop Apps](installing-and-updating/mobile-and-desktop-apps.md)
   * [Microservices Setup \[beta\]](installing-and-updating/micro-services-setup-beta.md)
 * [Getting Support](getting-support.md)
+* [Development Docs](development-docs.md)
 
 ## Guides
 
