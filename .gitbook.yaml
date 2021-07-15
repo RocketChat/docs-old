@@ -1,4 +1,6 @@
+root: ./
+
 redirects:  
     security: contributors/contributing/security/README.md
     guides/developer/quick-start: guides/developer/README.md
-    guides/developer/test: development-docs
+    guides/developer/test: development-docs.md
