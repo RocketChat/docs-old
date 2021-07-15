@@ -1,6 +1,5 @@
 redirects:  
     security: contributors/contributing/security/README.md
     guides/developer/quick-start: guides/developer/README.md
-    /404.md: https://docs.rocket.chat/
-    
+
  
