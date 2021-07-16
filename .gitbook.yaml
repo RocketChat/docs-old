@@ -9,9 +9,5 @@ redirects:
     guides/bots/create-and-run-a-bot/hubot-bot: development-docs.md
     apps-development/getting-started: development-docs.md
     api/rest-api: development-docs.md
-    guides/bots/create-and-run-a-bot/hubot-bot: development-docs.md
     
-    : development-docs.md
-    : development-docs.md
-    : development-docs.md
     
