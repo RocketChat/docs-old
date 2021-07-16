@@ -3,7 +3,7 @@ root: ./
 redirects:  
     security: contributors/contributing/security/README.md
     guides/developer/quick-start: development-docs.md
-    docs/api/: development-docs.md 
+    developer-guides/rest-api/: development-docs.md 
     docs/api/rest-api/: development-docs.md 
     docs/apps-development/: development-docs.md
     docs/guides/bots-guides/: development-docs.md
