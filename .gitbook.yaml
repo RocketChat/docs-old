@@ -3,8 +3,8 @@ root: ./
 redirects:  
     security: contributors/contributing/security/README.md
     guides/developer/quick-start: development-docs.md
-    docs/developer-guides/rest-api/: development-docs.md 
-    docs/guides/developer/mobile-apps/whitelabeling-mobile-apps: development-docs.md 
-    docs/apps-development/: development-docs.md
-    docs/guides/bots-guides/: development-docs.md
+    guides/developer-guides/rest-api/: development-docs.md 
+    guides/developer/mobile-apps/whitelabeling-mobile-apps: development-docs.md 
+    guides/apps-development/getting-started: development-docs.md
+    guides/bots/create-and-run-a-bot/hubot-bot: development-docs.md
     
