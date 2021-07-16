@@ -8,4 +8,10 @@ redirects:
     guides/apps-development/getting-started: development-docs.md
     guides/bots/create-and-run-a-bot/hubot-bot: development-docs.md
     apps-development/getting-started: development-docs.md
+    api/rest-api: development-docs.md
+    bots/create-and-run-a-bot/hubot-bot: development-docs.md
+    installation/paas-deployments/ibm-bluemix/: development-docs.md
+    : development-docs.md
+    : development-docs.md
+    : development-docs.md
     
