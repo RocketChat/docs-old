@@ -33,7 +33,7 @@ sudo yum install -y gcc-c++ make
 Update the node version required by Rocket.Chat:
 
 ```text
-sudo n install 12.18.4
+sudo n install 12.22.1
 ```
 
 Download Rocket.Chat latest version:
