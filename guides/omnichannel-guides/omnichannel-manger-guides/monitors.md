@@ -4,8 +4,8 @@ description: >-
   user in the list of Monitors and remove a user from the list.
 ---
 
-# Monitors ![](https://github.com/RocketChat/docs/blob/master/.gitbook/assets/EnterpriseEditionTag.jpg)
-
+# Monitors
+![](https://github.com/RocketChat/docs/blob/master/.gitbook/assets/EnterpriseEditionTag.jpg)
 To access **Monitors** settings:
 
 Go to Omnichannel panel settings, as shown below:
