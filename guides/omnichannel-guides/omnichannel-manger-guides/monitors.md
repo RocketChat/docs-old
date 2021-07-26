@@ -6,6 +6,10 @@ description: >-
 
 # Monitors
 
+![](../../../.gitbook/assets/enterprise.jpg)
+
+To access **Monitors** settings:
+
 To access **Monitors** settings:
 
 Go to Omnichannel panel settings, as shown below:
