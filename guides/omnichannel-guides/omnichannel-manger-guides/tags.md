@@ -7,6 +7,8 @@ description: >-
 
 # Tags
 
+![](../../../.gitbook/assets/enterprise.jpg)
+
 To access **Tags** settings:
 
 1. Go to **Tags** in the omnichannel panel settings, as shown below:
