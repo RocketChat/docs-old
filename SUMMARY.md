@@ -182,7 +182,7 @@
     * [Atlassian Crowd](guides/administrator-guides/settings/atlassian-crowd.md)
     * [Blockstack](guides/administrator-guides/settings/blockstack.md)
     * [Bots](guides/administrator-guides/settings/bots.md)
-    * [Canned responses](guides/administrator-guides/settings/canned-responses.md)
+    * [Canned Responses Admin Settings](guides/administrator-guides/settings/canned-responses-admin-settings.md)
     * [CAS](guides/administrator-guides/settings/cas.md)
     * [Custom Emoji Filesystem](guides/administrator-guides/settings/custom-emoji-filesystem.md)
     * [Discussion](guides/administrator-guides/settings/discussion.md)

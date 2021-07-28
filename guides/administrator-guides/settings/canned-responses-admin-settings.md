@@ -2,7 +2,7 @@
 description: Rocket.Chat Enterprise feature
 ---
 
-# Canned responses
+# Canned Responses Admin Settings
 
 ![](../../../.gitbook/assets/2021-06-10_22-31-38.jpg)
 
