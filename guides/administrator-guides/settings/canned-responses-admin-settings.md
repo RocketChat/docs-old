@@ -94,8 +94,6 @@ You can share your canned response according to your need.
 
 3. **Private**: Only you and Omnichannel managers can access your canned response.
 
- __
-
 ![](../../../.gitbook/assets/image%20%28511%29.png)
 
 Please hit **Save**. Your new canned response is ready to be used in omnichannel conversations now, as shown below:
