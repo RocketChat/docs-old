@@ -1,7 +1,5 @@
 # Create canned response from with in a chat
 
-## Create Canned Response: 
-
 If as an agent you have permission to create canned responses, you can create a canned response on the go in a conversation.
 
 To create a canned response in a conversation: 
