@@ -22,7 +22,7 @@ To enable canned responses on your workspace:
 
 2. Search **Canned Responses** in **Settings**, **Enable** it, and hit **Save Changes**:
 
-![](../../../.gitbook/assets/image%20%28502%29.png)
+![](../../../.gitbook/assets/image%20%28508%29.png)
 
 3. Define which user roles should be able to view, create and delete the canned responses. Go to `Administration` -&gt; `Permissions` and use search to filter the canned responses permissions only:
 
@@ -46,17 +46,17 @@ To create a canned response on your workspace:
 
 2. Click **Canned responses** and hit **Create Your First Canned Response**:
 
-![](../../../.gitbook/assets/image%20%28499%29.png)
+![](../../../.gitbook/assets/image%20%28503%29.png)
 
 Your new canned response screen is shown below:
 
-![](../../../.gitbook/assets/image%20%28506%29.png)
+![](../../../.gitbook/assets/image%20%28514%29.png)
 
 ### Shortcut
 
-Please set a Shortcut for your new canned response preceded by an exclamation mark \(!\), as shown below:
+Please set a Shortcut for your new canned response, as shown below:
 
-![](../../../.gitbook/assets/image%20%28491%29.png)
+![](../../../.gitbook/assets/image%20%28506%29.png)
 
 
 
@@ -64,17 +64,17 @@ Please set a Shortcut for your new canned response preceded by an exclamation ma
 
 Enter your message using any placeholders you want, as shown below:
 
-![](../../../.gitbook/assets/image%20%28490%29.png)
+![](../../../.gitbook/assets/image%20%28498%29.png)
 
 You can also preview the message at any time during the creation process:
 
-![](../../../.gitbook/assets/image%20%28494%29.png)
+![](../../../.gitbook/assets/image%20%28507%29.png)
 
 ### Tags
 
 You can set tags for your canned response if you want, as shown below:
 
-![](../../../.gitbook/assets/image%20%28505%29.png)
+![](../../../.gitbook/assets/image%20%28501%29.png)
 
 {% hint style="info" %}
 Canned responses tags help agents find canned responses specific to a particular topic.
@@ -86,7 +86,7 @@ You can share your canned response according to your need.
 
 1. **Public**: Anyone across your workspace can access your canned response.
 
-![](../../../.gitbook/assets/image%20%28503%29.png)
+![](../../../.gitbook/assets/image%20%28509%29.png)
 
 2. **Department**: Anyone in the selected department can access your canned response.
 
@@ -96,7 +96,13 @@ You can share your canned response according to your need.
 
  __
 
-Try using a canned response in a conversation. Start your message with `!` and a shortcut, or simply select the canned response from the drop-down list that will appear above your text field:
+![](../../../.gitbook/assets/image%20%28511%29.png)
+
+Please hit **Save**. Your new canned response is ready to be used in omnichannel conversations now, as shown below:
+
+![](../../../.gitbook/assets/image%20%28500%29.png)
+
+ Try using a canned response in a conversation. Start your message with `!` and a shortcut, or simply select the canned response from the drop-down list that will appear above your text field:
 
 ![](../../../.gitbook/assets/screenshot-2020-07-28-at-11.54.00.png)
 
