@@ -4,43 +4,97 @@ description: Rocket.Chat Enterprise feature
 
 # Canned responses
 
+![](../../../.gitbook/assets/2021-06-10_22-31-38.jpg)
+
+{% hint style="info" %}
 Canned responses allow you to save message snippets that you can call with shortcuts \(preceded with `!`\) to communicate a quick note to your visitors in Omnichannel and for messaging in regular conversations inside your Rocket.Chat workspace.
+{% endhint %}
 
-Follow the steps to set up the canned responses:
+As an omnichannel administrator, you can configure and manage omnichannel email inboxes or email accounts for the email channels.
 
-Enable the feature under `Administration` -&gt; `Canned Responses`.
+## Enable Canned Responses on your workspace
 
-![](../../../.gitbook/assets/canned_response_1.png)
+To enable canned responses on your workspace:
 
-Define which user roles should be able to view, create and delete the canned responses. Go to `Administration` -&gt; `Permissions` and use search to filter the canned responses permissions only:
+1. Go to **Administration**:
+
+![](../../../.gitbook/assets/image%20%28241%29.png)
+
+2. Search **Canned Responses** in **Settings**, **Enable** it, and hit **Save Changes**:
+
+![](../../../.gitbook/assets/image%20%28502%29.png)
+
+3. Define which user roles should be able to view, create and delete the canned responses. Go to `Administration` -&gt; `Permissions` and use search to filter the canned responses permissions only:
 
 ![](../../../.gitbook/assets/screenshot-2020-07-28-at-00.16.30.png)
 
-Enable `Omnichannel`. Using canned responses in regular conversations with other users of your workspace will require Omnichannel feature to be enabled.
+4. Enable `Omnichannel`. 
+
+{% hint style="info" %}
+Using canned responses in regular conversations with other users of your workspace will require the Omnichannel feature to be enabled.
+{% endhint %}
 
 ![](../../../.gitbook/assets/screenshot-2020-07-28-at-00.23.19.png)
 
-Select the department. Canned responses can be created **per department** as shown below**,** or **per agent** right in an omnichannel conversation. _\*\*_Click on the canned responses icon \(top right corner\) to create a new canned response.
+## Create a new Canned Response:
 
-![](../../../.gitbook/assets/screenshot-2020-07-28-at-00.28.04%20%281%29%20%281%29.png)
+To create a canned response on your workspace:
 
-_If you want to use canned responses outside the Omnichannel, create an empty department. Note that you will need to define which user roles should be able to use the responses; by default this permission is assigned to livechat-agent, livechat-manager, livechat-monitor and admin roles_
+1. Go to **Omnichannel**:
 
-Create a canned response:
+![](../../../.gitbook/assets/image%20%28493%29.png)
 
-**by editing a department:**
+2. Click **Canned responses** and hit **Create Your First Canned Response**:
 
-![](../../../.gitbook/assets/screenshot-2020-07-28-at-11.42.27.png)
+![](../../../.gitbook/assets/image%20%28499%29.png)
 
-![](../../../.gitbook/assets/screenshot-2020-07-28-at-11.43.49.png)
+Your new canned response screen is shown below:
 
-Fill in the shortcut and the text fields. Click Save and observe your new snippet appear in the list of available canned responses.
+![](../../../.gitbook/assets/image%20%28506%29.png)
 
-![](../../../.gitbook/assets/screenshot-2020-07-28-at-11.44.05.png)
+### Shortcut
 
-**directly in an Omnichannel conversation**:
+Please set a Shortcut for your new canned response preceded by an exclamation mark \(!\), as shown below:
 
-![](../../../.gitbook/assets/screenshot-2020-07-28-at-11.38.55.png)
+![](../../../.gitbook/assets/image%20%28491%29.png)
+
+
+
+### Message
+
+Enter your message using any placeholders you want, as shown below:
+
+![](../../../.gitbook/assets/image%20%28490%29.png)
+
+You can also preview the message at any time during the creation process:
+
+![](../../../.gitbook/assets/image%20%28494%29.png)
+
+### Tags
+
+You can set tags for your canned response if you want, as shown below:
+
+![](../../../.gitbook/assets/image%20%28505%29.png)
+
+{% hint style="info" %}
+Canned responses tags help agents find canned responses specific to a particular topic.
+{% endhint %}
+
+### Sharing
+
+You can share your canned response according to your need. 
+
+1. **Public**: Anyone across your workspace can access your canned response.
+
+![](../../../.gitbook/assets/image%20%28503%29.png)
+
+2. **Department**: Anyone in the selected department can access your canned response.
+
+![](../../../.gitbook/assets/image%20%28492%29.png)
+
+3. **Private**: Only you and Omnichannel managers can access your canned response.
+
+ __
 
 Try using a canned response in a conversation. Start your message with `!` and a shortcut, or simply select the canned response from the drop-down list that will appear above your text field:
 

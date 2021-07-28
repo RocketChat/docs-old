@@ -6,7 +6,7 @@ description: >-
 
 # Monitors
 
-![](../../../.gitbook/assets/enterprise.jpg)
+![](../../../.gitbook/assets/2021-06-10_22-31-38.jpg)
 
 To access **Monitors** settings:
 
@@ -14,7 +14,7 @@ To access **Monitors** settings:
 
 Go to Omnichannel panel settings, as shown below:
 
-![](../../../.gitbook/assets/0%20%288%29%20%285%29%20%285%29%20%285%29%20%285%29%20%285%29%20%284%29%20%284%29%20%281%29%20%285%29.png)
+![](../../../.gitbook/assets/0%20%288%29%20%285%29%20%285%29%20%285%29%20%285%29%20%285%29%20%284%29%20%284%29%20%281%29%20%2811%29.png)
 
 Settings appear, as shown below:
 

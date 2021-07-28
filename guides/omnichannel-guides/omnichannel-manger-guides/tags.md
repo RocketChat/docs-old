@@ -7,7 +7,7 @@ description: >-
 
 # Tags
 
-![](../../../.gitbook/assets/enterprise.jpg)
+![](../../../.gitbook/assets/2021-06-10_22-31-38.jpg)
 
 To access **Tags** settings:
 

@@ -4,7 +4,7 @@ description: 'Using units, you can group your departments for management purpose
 
 # Units
 
-![](../../../.gitbook/assets/enterprise.jpg)
+![](../../../.gitbook/assets/2021-06-10_22-31-38.jpg)
 
 Suppose you are a manager or a monitor and want to oversee multiple departments, you can make a unit of those departments and manage it.
 
