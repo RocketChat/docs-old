@@ -1,4 +1,4 @@
-# Canned Responses in Omnichannel Conversation
+# Canned Responses Agent Guide
 
 To access canned responses and use them:
 

@@ -300,7 +300,7 @@
     * [Omnichannel Chat](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/README.md)
       * [Omnichannel Chat Quick Actions](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/omnichannel-chat-quick-actions.md)
       * [Room Information](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/room-information.md)
-      * [Canned Responses in Omnichannel Conversation](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/canned-responses-in-omnichannel-conversation.md)
+      * [Canned Responses Agent Guide](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/canned-responses-agent-guide.md)
       * [Search Messages in Omnichannel Conversation](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/search-messages-in-omnichannel-conversation.md)
       * [Omnichannel Contact Information](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/omnichannel-contact-information.md)
     * [Omnichannel Contact Center](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-contact-center.md)
