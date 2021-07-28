@@ -96,7 +96,7 @@ You can filter canned responses by:
 
 To start using your newly created canned response, please check the Omnichannel Agent's guide for canned responses.
 
-{% page-ref page="../omnichannel-agents-guides/omnichannel-chat/canned-responses-agents-guide.md" %}
+{% page-ref page="../omnichannel-agents-guides/omnichannel-chat/canned-responses-agents-guide/" %}
 
 
 
