@@ -1,24 +1,26 @@
 # Canned Responses Agent's Guide
 
-Try using a canned response in a conversation. Start your message with `!` and a shortcut, or simply select the canned response from the drop-down list that will appear above your text field:
+![](../../../../.gitbook/assets/enterprise.jpg)
 
-![](../../../../.gitbook/assets/screenshot-2020-07-28-at-11.54.00.png)
+{% hint style="info" %}
+Canned responses allow you to call pre saved message snippets with shortcuts \(preceded with `!`\) to communicate a quick note to your visitors in Omnichannel conversations and for messaging in regular conversations inside your Rocket.Chat's workspace.
+{% endhint %}
 
-You can also use the same canned responses when talking to your peers outside Omnichannel.
+Try using a canned response in a conversation. Start your message with `!` and a shortcut, or you can select the canned response from the drop-down list that will appear above your text field:
+
+![](../../../../.gitbook/assets/image%20%28495%29.png)
+
+You can also use the same canned responses when talking to your peers outside Omnichannel if it is.
 
 ![](../../../../.gitbook/assets/canned.gif)
 
-To delete or edit a canned response, open the canned responses dialog in the respective department. Select the response that you wish to delete or edit.
+You can also access all the available canned responses for the current department or public by clicking **Canned Responses**, as shown below:
 
-![](../../../../.gitbook/assets/screenshot-2020-07-28-at-12.08.17.png)
+![](../../../../.gitbook/assets/image%20%28513%29.png)
 
-To access canned responses and use them:
+Hover your cursor over the canned response you want to use in your current chat and hit use:
 
-* Click **Canned Responses**
-
-![](../../../../.gitbook/assets/image%20%28315%29.png)
-
-You can also add new canned responses here. 
+![](../../../../.gitbook/assets/image%20%28511%29.png)
 
 
 
