@@ -303,7 +303,7 @@
       * [Room Information](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/room-information.md)
       * [Canned Responses Agent's Guide](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/canned-responses-agents-guide/README.md)
         * [Create canned response from with in a chat](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/canned-responses-agents-guide/create-canned-response-from-with-in-a-chat.md)
-        * [Create canned response from with in a chat](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/canned-responses-agents-guide/create-canned-response-from-with-in-a-chat-2.md)
+        * [Create canned response from a message](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/canned-responses-agents-guide/create-canned-response-from-a-message.md)
       * [Search Messages in Omnichannel Conversation](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/search-messages-in-omnichannel-conversation.md)
       * [Omnichannel Contact Information](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-chat/omnichannel-contact-information.md)
     * [Omnichannel Contact Center](guides/omnichannel-guides/omnichannel-agents-guides/omnichannel-contact-center.md)

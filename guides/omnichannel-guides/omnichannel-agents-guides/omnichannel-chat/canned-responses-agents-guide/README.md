@@ -8,7 +8,7 @@ Canned responses allow you to call pre-saved message snippets with shortcuts \(p
 
 Try using a canned response in a conversation. Start your message with `!` and a shortcut or you can select the canned response from the drop-down list that will appear above your text field:
 
-![](../../../../../.gitbook/assets/image%20%28496%29.png)
+![](../../../../../.gitbook/assets/image%20%28498%29.png)
 
 You can also use the same canned responses when talking to your peers outside Omnichannel if it is.
 
@@ -16,11 +16,11 @@ You can also use the same canned responses when talking to your peers outside Om
 
 You can also access all the available canned responses for the current department or public by clicking **Canned Responses**, as shown below:
 
-![](../../../../../.gitbook/assets/image%20%28515%29.png)
+![](../../../../../.gitbook/assets/image%20%28492%29.png)
 
 Hover your cursor over the canned response you want to use in your current chat and hit **Use**:
 
-![](../../../../../.gitbook/assets/image%20%28513%29.png)
+![](../../../../../.gitbook/assets/image%20%28527%29.png)
 
-
+![](../../../../../.gitbook/assets/image%20%28534%29.png)
 
