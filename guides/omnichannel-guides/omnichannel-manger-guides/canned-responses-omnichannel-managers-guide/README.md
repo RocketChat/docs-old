@@ -19,17 +19,17 @@ If you are using canned responses for the first time, please check the Rocket.Ch
 
 2. Click **Canned responses** and hit **Create Your First Canned Response**:
 
-![](../../../../.gitbook/assets/image%20%28538%29.png)
+![](../../../../.gitbook/assets/image%20%28543%29.png)
 
 Your new canned response screen is shown below:
 
-![](../../../../.gitbook/assets/image%20%28539%29.png)
+![](../../../../.gitbook/assets/image%20%28544%29.png)
 
 ### Shortcut
 
 Please set a Shortcut for your new canned response, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28522%29.png)
+![](../../../../.gitbook/assets/image%20%28526%29.png)
 
 
 
@@ -37,17 +37,17 @@ Please set a Shortcut for your new canned response, as shown below:
 
 Enter your message using any placeholders you want, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28510%29.png)
+![](../../../../.gitbook/assets/image%20%28513%29.png)
 
 You can also preview the message at any time during the creation process:
 
-![](../../../../.gitbook/assets/image%20%28524%29.png)
+![](../../../../.gitbook/assets/image%20%28528%29.png)
 
 ### Tags
 
 You can set tags for your canned response if you want, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28512%29.png)
+![](../../../../.gitbook/assets/image%20%28515%29.png)
 
 {% hint style="info" %}
 Canned responses tags help agents find canned responses specific to a particular topic.
@@ -59,7 +59,7 @@ You can share your canned response according to your need.
 
 1. **Public**: Anyone across your workspace can access your canned response.
 
-![](../../../../.gitbook/assets/image%20%28527%29.png)
+![](../../../../.gitbook/assets/image%20%28532%29.png)
 
 2. **Department**: Anyone in the selected department can access your canned response.
 
@@ -67,11 +67,11 @@ You can share your canned response according to your need.
 
 3. **Private**: Only you and Omnichannel managers can access your canned response.
 
-![](../../../../.gitbook/assets/image%20%28529%29.png)
+![](../../../../.gitbook/assets/image%20%28534%29.png)
 
 Please hit **Save**. Your new canned response is ready to be used in omnichannel conversations now, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28511%29.png)
+![](../../../../.gitbook/assets/image%20%28514%29.png)
 
   
   
@@ -83,7 +83,7 @@ You can filter canned responses by:
 
 1. **Search**: ****You can filter by shortcut or message text.
 
-![](../../../../.gitbook/assets/image%20%28536%29.png)
+![](../../../../.gitbook/assets/image%20%28541%29.png)
 
 2. **Sharing**: ****You can filter by sharing.
 
@@ -92,7 +92,7 @@ You can filter canned responses by:
   
 3. **Created By**: You can filter by name of the user who created the canned responses.
 
-![](../../../../.gitbook/assets/image%20%28504%29.png)
+![](../../../../.gitbook/assets/image%20%28505%29.png)
 
 Hit **Save**. Your new canned response is saved and ready to be used:
 

@@ -2,7 +2,7 @@
 
 Search Telegram in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
 
-![](../../../../../.gitbook/assets/image%20%28502%29.png)
+![](../../../../../.gitbook/assets/image%20%28503%29.png)
 
 Click open your Telegram app to see the settings available to you as an administrator: 
 
@@ -20,7 +20,7 @@ Only the agents of that particular department are able to see and take the chats
 
  
 
-![](../../../../../.gitbook/assets/image%20%28518%29.png)
+![](../../../../../.gitbook/assets/image%20%28521%29.png)
 
 6.  You can choose to display the agent's name or username:
 
@@ -36,7 +36,7 @@ Only the agents of that particular department are able to see and take the chats
 
 8. Hit **Save Changes** to save your settings
 
-![](../../../../../.gitbook/assets/image%20%28531%29.png)
+![](../../../../../.gitbook/assets/image%20%28536%29.png)
 
 Your Telegram app is successfully configured and you can see the new Telegram channel upon closing the administration panel, as shown below:
 
