@@ -20,7 +20,7 @@ You can also access all the available canned responses for the current departmen
 
 Hover your cursor over the canned response you want to use in your current chat and hit **Use**:
 
-![](../../../../../.gitbook/assets/image%20%28527%29.png)
+![](../../../../../.gitbook/assets/image%20%28529%29.png)
 
-![](../../../../../.gitbook/assets/image%20%28534%29.png)
+![](../../../../../.gitbook/assets/image%20%28536%29.png)
 
