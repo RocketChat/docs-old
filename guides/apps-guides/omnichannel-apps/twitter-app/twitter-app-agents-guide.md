@@ -1,6 +1,6 @@
 # Twitter App Agent's Guide
 
-If you have Twitter app integration in place and a user sends you a message using their Twitter account, as shown below:
+If you have Twitter app integration in place and a user sends you a message on your Twitter business page using their Twitter account, as shown below:
 
 ![](../../../../.gitbook/assets/1621376643503.jpg)
 
