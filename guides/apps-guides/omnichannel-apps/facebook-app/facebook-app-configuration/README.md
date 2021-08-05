@@ -2,7 +2,7 @@
 
 Search Facebook in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
 
-![](../../../../../.gitbook/assets/image%20%28501%29.png)
+![](../../../../../.gitbook/assets/image%20%28502%29.png)
 
 Click open your Facebook app to see the settings available to you as an administrator: 
 
@@ -22,7 +22,7 @@ Following are the settings available:
 
 4. Hit **Save Changes** to save your settings
 
-![](../../../../../.gitbook/assets/image%20%28531%29.png)
+![](../../../../../.gitbook/assets/image%20%28535%29.png)
 
 Your Facebook app is successfully configured and you can see the new Twitter channel upon closing the administration panel, as shown below:
 
