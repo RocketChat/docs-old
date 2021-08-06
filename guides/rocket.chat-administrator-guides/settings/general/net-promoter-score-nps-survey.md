@@ -22,11 +22,11 @@ Both actions can be dismissed by the user.
 
 ## How does NPS work?
 
-NPS surveys will be triggered each 6 month via Rocket.Chat cloud. The workspace needs to be registered in Rocket.Chat cloud, otherwise the survey will never be triggered.
+NPS surveys will be triggered every 6 months via Rocket.Chat cloud. The workspace needs to be registered in Rocket.Chat cloud, otherwise, the survey will never be triggered.
 
 All users in the workspace will receive the survey on the same day.
 
-Admins will get notified two months before the NPS is rolled out via in-app banner and alert via rocket.cat. That means admins can quickly turn off the NPS in case they prefer.
+Admins will get notified two months before the NPS is rolled out via in-app banner and alert via Rocket.Cat. That means admins can quickly turn off the NPS in case they prefer.
 
 It’s possible to check more details directly in the code [here](https://github.com/RocketChat/Rocket.Chat/blob/3.17.0/server/services/nps/service.ts).  
 
