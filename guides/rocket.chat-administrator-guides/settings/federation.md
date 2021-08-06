@@ -74,7 +74,7 @@ You have two ways to add your server to the Rocket.Chat Federated Network:
 
 To add your server to the Federated Network using the DNS, fill all the configuration fields required. Make sure to pick `true` on the `Enabled`, and select **DNS** as your `Discovery Method` option, save and follow the guide below.
 
-Let's suppose we have a domain named `mydomain.com`, and my Rocket.Chat server is hosted at `chat.mydomain.com`, port `443`.
+Let's suppose we have a domain named `mydomain.com`, and my Rocket.Chat server is hosted at `mydomain.com`, port `443`.
 
 You must add two DNS records:
 
@@ -82,16 +82,16 @@ You must add two DNS records:
 
 * Service: `_rocketchat`
 * Protocol: `_https`
-* Name: `chat.mydomain.com`
+* Name: `mydomain.com`
 * Weight: `1`
 * Priority: `1`
 * TTL: `1 hour`
-* Target: `chat.mydomain.com`
+* Target: `mydomain.com`
 * Port: `443`
 
 #### Public Key TXT Record
 
-* Host: `rocketchat-public-key.chat.mydomain.com`
+* Host: `rocketchat-public-key.mydomain.com`
 * Value: `<my public key, as shown on the configuration screen>`
 
 **Note**: Some DNS providers do not allow to enter the full public key string. So, after saving, make sure the string is complete: it starts as `-----BEGIN PUBLIC KEY-----` and ends as `-----END PUBLIC KEY-----`. If that is not the case, follow your provider's instructions. For example, AWS Route 53 needs to split the string in two pieces, as follows:
@@ -116,16 +116,16 @@ Some DNS providers will not allow setting `_https` or `_http` on SRV records, so
 
 * Service: `_rocketchat`
 * Protocol: `_tcp`
-* Name: `chat.mydomain.com`
+* Name: `mydomain.com`
 * Weight: `1`
 * Priority: `1`
 * TTL: `1 hour`
-* Target: `chat.mydomain.com`
+* Target: `mydomain.com`
 * Port: `443`
 
 #### Legacy Support: protocol TXT Record \(if not provided, HTTPS will be use\)
 
-* Host: `rocketchat-tcp-protocol.chat.mydomain.com`
+* Host: `rocketchat-tcp-protocol.mydomain.com`
 * Value: `https` or `http`
 
 #### Test your configuration from CLI
@@ -133,16 +133,16 @@ Some DNS providers will not allow setting `_https` or `_http` on SRV records, so
 From your CLI, issue the following commands and make sure the answers look like the following:
 
 ```text
-dig srv _rocketchat._https.chat.mydomain.com
+dig srv _rocketchat._https.mydomain.com
 ...
 ;; ANSWER SECTION:
-_rocketchat._https.chat.mydomain.com. 1800 IN SRV    1 1 443 chat.mydomain.com.
+_rocketchat._https.mydomain.com. 1800 IN SRV    1 1 443 mydomain.com.
 ...
 
-dig -t txt rocketchat-public-key.chat.mydomain.com
+dig -t txt rocketchat-public-key.mydomain.com
 ...
 ;; ANSWER SECTION:
-rocketchat-public-key.chat.mydomain.com. 1799 IN TXT "-----BEGIN PUBLIC KEY----- THEPUBLICKEY :) -----END PUBLIC KEY-----"
+rocketchat-public-key.mydomain.com. 1799 IN TXT "-----BEGIN PUBLIC KEY----- THEPUBLICKEY :) -----END PUBLIC KEY-----"
 ...
 ```
 
