@@ -30,3 +30,47 @@ You receive a success message with credentials, as shown below:
 
 ![](../../../../../.gitbook/assets/image%20%28540%29.png)
 
+
+
+## Subscribe/Unsubscribe
+
+After successful authentication, as an admin, you are subscribed to the Facebook page by default. But you can choose to unsubscribe if you want, as shown below:
+
+![](../../../../../.gitbook/assets/image%20%28564%29.png)
+
+![](../../../../../.gitbook/assets/image%20%28567%29.png)
+
+## Edit Page Configuration
+
+You can edit page configuration as shown below:
+
+![](../../../../../.gitbook/assets/image%20%28565%29.png)
+
+
+
+Following are the settings available:
+
+1. You can route all the conversations coming from this page to a specific **Department**. Only the agents of this department are able to serve Facebook conversations coming from this page.
+2. You can set the **Welcome Message** that will be sent to visitors when they send their first message.
+3. The **Conversation Finished Message** will be sent to visitors when the conversation is closed
+4. You can set the **Default message for offline service** that will be sent to your visitor when no agents are available online
+
+
+
+![](../../../../../.gitbook/assets/image%20%28566%29.png)
+
+## Slash Commands
+
+{% hint style="info" %}
+Here are the shortcuts you can use in Facebook Bot:
+
+1. **/facebook authorize** Starts the facebook authorization process
+2.  **/facebook unauthorize** Revoke facebook authorization 
+3. **/facebook edit pageId** Edit Page configuration for the given pageId 
+4. **/facebook help** Shows help message
+{% endhint %}
+
+
+
+
+
