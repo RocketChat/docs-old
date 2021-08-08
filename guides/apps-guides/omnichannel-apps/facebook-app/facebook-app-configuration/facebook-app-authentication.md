@@ -72,7 +72,3 @@ Here are the shortcuts you can use in Facebook Bot:
 4. **/facebook help** Shows help message
 {% endhint %}
 
-
-
-
-
