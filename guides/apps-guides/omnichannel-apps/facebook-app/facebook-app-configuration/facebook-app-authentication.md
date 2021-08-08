@@ -55,7 +55,9 @@ Following are the settings available:
 3. The **Conversation Finished Message** will be sent to visitors when the conversation is closed
 4. You can set the **Default message for offline service** that will be sent to your visitor when no agents are available online
 
-
+{% hint style="info" %}
+Only the agents of  this particular department are able to see and take the chats.
+{% endhint %}
 
 ![](../../../../../.gitbook/assets/image%20%28566%29.png)
 
