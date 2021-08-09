@@ -24,7 +24,7 @@ Following are the settings available:
 
 ![](../../../../../.gitbook/assets/image%20%28537%29.png)
 
-Your Facebook app is successfully configured and you can see the new Twitter channel upon closing the administration panel, as shown below:
+Your Facebook app is successfully configured and you can see the new Facebook channel upon closing the administration panel, as shown below:
 
 ![](../../../../../.gitbook/assets/image%20%28392%29.png)
 
