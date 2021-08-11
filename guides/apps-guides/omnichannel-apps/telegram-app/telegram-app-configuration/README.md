@@ -32,7 +32,7 @@ Only the agents of that particular department are able to see and take the chats
 
 8. And you can select the type of files you wish the Agents and your Twitter Contacts can share under **Accepted Media Types**
 
-![](../../../../../.gitbook/assets/image%20%28497%29.png)
+![](../../../../../.gitbook/assets/image%20%28570%29.png)
 
 8. Hit **Save Changes** to save your settings
 
