@@ -2,7 +2,7 @@
 
 Search Rasa in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28461%29%20%281%29.png)
+![](../../../../../.gitbook/assets/image%20%28461%29%20%281%29.png)
 
 Click open your Rasa app to see the settings available to you as an administrator.
 
@@ -18,7 +18,7 @@ Following are the settings available:
 8. If **Hide Quick Replies** enabled, then all quick-replies will hide when a visitor clicks on any one of them. 
 9. Hit **Save.**
 
-![](../../../../.gitbook/assets/image%20%28463%29.png)
+![](../../../../../.gitbook/assets/image%20%28463%29.png)
 
 Rasa app is successfully configured.
 

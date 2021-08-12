@@ -10,5 +10,5 @@ it appears in your Rocket.Chat workspace just like any other omnichannel convers
 
  Click **Take It!** to serve this conversation. You can also send to and receive files and voice notes from your Telegram end-user, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28583%29.png)
+![](../../../../.gitbook/assets/image%20%28584%29.png)
 
