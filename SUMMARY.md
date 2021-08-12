@@ -327,7 +327,6 @@
     * [Telegram App](guides/apps-guides/omnichannel-apps/telegram-app/README.md)
       * [Telegram App Installation](guides/apps-guides/omnichannel-apps/telegram-app/telegram-app-installation.md)
       * [Telegram App Configuration](guides/apps-guides/omnichannel-apps/telegram-app/telegram-app-configuration/README.md)
-        * [Telegram App Authentication](guides/apps-guides/omnichannel-apps/telegram-app/telegram-app-configuration/telegram-app-authentication.md)
         * [Delete Telegram App](guides/apps-guides/omnichannel-apps/telegram-app/telegram-app-configuration/delete-telegram-app.md)
       * [Telegram App Agent's Guide](guides/apps-guides/omnichannel-apps/telegram-app/telegram-app-agents-guide.md)
     * [Rasa App](guides/apps-guides/omnichannel-apps/rasa-app/README.md)
