@@ -12,5 +12,7 @@ Using Rocket.Chat and the Rasa Chatbot platform integration, you can set up and 
 
 {% page-ref page="rasa-app-configuration/" %}
 
+{% page-ref page="rasa-app-configuration/delete-rasa-app.md" %}
+
 
 
