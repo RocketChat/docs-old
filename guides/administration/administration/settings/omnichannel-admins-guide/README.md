@@ -15,15 +15,15 @@ To enable the Livechat feature on your Rocket.Chat instance:
 
 1. Go to **Administration**
 
-![](../../../../../.gitbook/assets/image%20%2830%29.png)
+![](../../../../../.gitbook/assets/image%20%28594%29.png)
 
-1. Search '**Omnichannel'** in **Settings** and enable it
+2. Search '**Omnichannel**' in **Settings** and enable it
 
 ![](../../../../../.gitbook/assets/image%20%2829%29.png)
 
-Now the admin will have access to _**Omnichannel Panel Settings**_  through a new menu called `Omnichannel` at the top left corner dropdown menu, as shown below:
+Now the admin will have access to _**Omnichannel Panel Settings**_  through a new menu called `Omnichannel`, as shown below:
 
-![](../../../../../.gitbook/assets/image%20%2832%29.png)
+![](../../../../../.gitbook/assets/image%20%28597%29.png)
 
 ## Configuration
 
