@@ -9,7 +9,7 @@ To access message editing log:
 
 as shown below:
 
-![](../../../../.gitbook/assets/image%20%28304%29.png)
+![](../../.gitbook/assets/image%20%28304%29.png)
 
-![](../../../../.gitbook/assets/image%20%28305%29.png)
+![](../../.gitbook/assets/image%20%28305%29.png)
 

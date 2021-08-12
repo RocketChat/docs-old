@@ -23,11 +23,11 @@ To access the message auditing panel:
 
 as shown below:
 
-![](../../../../.gitbook/assets/image%20%28290%29.png)
+![](../../.gitbook/assets/image%20%28290%29.png)
 
 The message auditing panel will open up, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28291%29.png)
+![](../../.gitbook/assets/image%20%28291%29.png)
 
 ## Search and Review Messages
 
@@ -40,7 +40,7 @@ To search for a specific message in a specific channel:
 3. Select the channels in the **Channel** dropdown, to narrow the details of your search.
 4. Hit **Apply**.
 
-![](../../../../.gitbook/assets/image%20%28281%29.png)
+![](../../.gitbook/assets/image%20%28281%29.png)
 
 ### By User
 
@@ -53,7 +53,7 @@ To search for a specific message by a user:
 
 The conversations pops up, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28298%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![](../../.gitbook/assets/image%20%28298%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 ### By Direct Messages
 
@@ -66,7 +66,7 @@ To search for a specific message by a user:
 
 The conversation pop up, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28302%29.png)
+![](../../.gitbook/assets/image%20%28302%29.png)
 
 ### By Omnichannel
 
@@ -82,7 +82,7 @@ To search for a specific omichannel conversation:
 
 The conversation pops up, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28299%29.png)
+![](../../.gitbook/assets/image%20%28299%29.png)
 
-![](../../../../.gitbook/assets/audit-log.png)
+![](../../.gitbook/assets/audit-log.png)
 
