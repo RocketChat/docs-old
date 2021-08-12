@@ -307,7 +307,7 @@
   * [Assign Message Auditing Permissions to Specific Users](guides/message-auditing/assign-message-auditing-permissions-to-specific-users.md)
 * [Message Auditing Log](guides/message-auditing-log.md)
 * [Apps Guides](guides/apps-guides/README.md)
-  * [WhatsApp Integration / Twilio](guides/apps-guides/whatsapp-integration-twilio.md)
+  * [SMS](guides/apps-guides/whatsapp-integration-twilio.md)
   * [Omnichannel Apps](guides/apps-guides/omnichannel-apps/README.md)
     * [Email Inboxes](guides/apps-guides/omnichannel-apps/email-inboxes/README.md)
       * [Email Inbox Admin Guide](guides/apps-guides/omnichannel-apps/email-inboxes/email-inbox-admin-guide.md)

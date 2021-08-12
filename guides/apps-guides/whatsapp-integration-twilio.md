@@ -1,6 +1,6 @@
-# WhatsApp Integration / Twilio
+# SMS
 
-Rocket.Chat does not have native integration with WhatsApp. However, it is possible to achieve a basic level of integration by using a third-party tool. In this guide, we'll quickly lay out how to integrate Rocket.Chat with WhatsApp using Twilio's programmable SMS.
+In this guide, we'll quickly lay out how to integrate Rocket.Chat with WhatsApp using Twilio's programmable SMS.
 
 ## Step 1
 
