@@ -349,6 +349,7 @@
       * [Facebook App Installation](guides/apps-guides/omnichannel-apps/facebook-app/facebook-app-installation.md)
       * [Facebook App Configuration](guides/apps-guides/omnichannel-apps/facebook-app/facebook-app-configuration/README.md)
         * [Facebook App Authentication](guides/apps-guides/omnichannel-apps/facebook-app/facebook-app-configuration/facebook-app-authentication.md)
+        * [Delete Facebook App](guides/apps-guides/omnichannel-apps/facebook-app/facebook-app-configuration/delete-facebook-app.md)
       * [Facebook App Agent's Guide](guides/apps-guides/omnichannel-apps/facebook-app/facebook-app-agents-guide.md)
     * [WhatsApp](guides/apps-guides/omnichannel-apps/whatsapp/README.md)
       * [WhatsApp Installation](guides/apps-guides/omnichannel-apps/whatsapp/whatsapp-installation.md)

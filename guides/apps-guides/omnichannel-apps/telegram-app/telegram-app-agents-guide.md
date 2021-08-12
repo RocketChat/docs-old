@@ -6,9 +6,9 @@ If you have Telegram app integration in place and a user sends you a message on 
 
 it appears in your Rocket.Chat workspace just like any other omnichannel conversation.
 
-![](../../../../.gitbook/assets/image%20%28578%29.png)
+![](../../../../.gitbook/assets/image%20%28579%29.png)
 
  Click **Take It!** to serve this conversation. You can also send to and receive files and voice notes from your Telegram end-user, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28579%29.png)
+![](../../../../.gitbook/assets/image%20%28580%29.png)
 
