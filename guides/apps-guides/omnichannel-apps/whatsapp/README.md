@@ -16,5 +16,7 @@ description: Omnichannel Integration between Rocket.Chat and WhatsApp Business.
 
 {% page-ref page="whatsapp-configuration/whatsapp-omnichannel-setup/whatsapp-set-up-with-360dialog-account.md" %}
 
+{% page-ref page="whatsapp-configuration/delete-whatsapp.md" %}
+
 {% page-ref page="whatsapp-agents-guide.md" %}
 
