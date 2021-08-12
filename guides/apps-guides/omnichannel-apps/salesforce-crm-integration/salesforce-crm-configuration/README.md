@@ -2,7 +2,7 @@
 
 Search Salesforce CRM Configuration in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28464%29.png)
+![](../../../../../.gitbook/assets/image%20%28464%29.png)
 
 Click open your Salesforce CRM app to see the settings available to you as an administrator.
 
@@ -17,7 +17,7 @@ Following are the settings available:
 7. **Salesforce Session Timeout\(in Minutes\)**: This should be the same as Session Timeout setting on your Salesforce Setting \( Setup --&gt; Session Settings --&gt; Session Timeout --&gt; Timeout Value \)
 8. Hit **Save.**
 
-![](../../../../.gitbook/assets/image%20%28466%29.png)
+![](../../../../../.gitbook/assets/image%20%28466%29.png)
 
 Rasa app is successfully configured.
 

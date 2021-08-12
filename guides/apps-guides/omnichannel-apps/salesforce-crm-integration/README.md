@@ -8,7 +8,7 @@ description: Integration between Rocket.Chat and Salesforce CRM platform.
 
 {% page-ref page="salesforce-crm-installation.md" %}
 
-{% page-ref page="salesforce-crm-configuration.md" %}
+{% page-ref page="salesforce-crm-configuration/" %}
 
 {% page-ref page="salesforce-crm-agents-guide.md" %}
 
