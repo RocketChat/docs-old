@@ -15,5 +15,7 @@ Using Rocket.Chat and the Dialogflow Chatbot platform integration, you can set u
 
 {% page-ref page="dialogflow-app-configuration/bot-user-configuration.md" %}
 
+{% page-ref page="dialogflow-app-configuration/delete-dialogflow-app.md" %}
+
 
 
