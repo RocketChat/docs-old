@@ -344,6 +344,7 @@
       * [Twitter App Installation](guides/apps-guides/omnichannel-apps/twitter-app/twitter-app-installation.md)
       * [Twitter App Configuration](guides/apps-guides/omnichannel-apps/twitter-app/twitter-app-configuration/README.md)
         * [Twitter App Authentication](guides/apps-guides/omnichannel-apps/twitter-app/twitter-app-configuration/twitter-app-authentication.md)
+        * [Delete Twitter App](guides/apps-guides/omnichannel-apps/twitter-app/twitter-app-configuration/delete-twitter-app.md)
       * [Twitter App Agent's Guide](guides/apps-guides/omnichannel-apps/twitter-app/twitter-app-agents-guide.md)
     * [Facebook App](guides/apps-guides/omnichannel-apps/facebook-app/README.md)
       * [Facebook App Installation](guides/apps-guides/omnichannel-apps/facebook-app/facebook-app-installation.md)
