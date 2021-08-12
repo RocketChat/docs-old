@@ -8,11 +8,14 @@ Click open your Telegram app to see the settings available to you as an administ
 
 Following are the settings available:
 
-1. Bot Token sent by Telegram during Bot user activation.
-2. You can set a **Default Department**. Only the agents of this department are able to serve Telegram conversations
-3. You can set the **Service Unavailable Message** that will be sent to the user if some error occurs like if no agents are online
-4. You can set the **Welcome Message** that will be sent to visitors when they send their first message
-5. The **Conversation Finished Message** will be sent to visitors when the conversation is closed
+**Bot Token** sent by Telegram during Bot user activation. You can find the instructions [here](https://core.telegram.org/bots#6-botfather).
+
+Other Settings include:
+
+1. You can set a **Default Department**. Only the agents of this department are able to serve Telegram conversations
+2. You can set the **Service Unavailable Message** that will be sent to the user if some error occurs like if no agents are online
+3. You can set the **Welcome Message** that will be sent to visitors when they send their first message
+4. The **Conversation Finished Message** will be sent to visitors when the conversation is closed
 
 {% hint style="info" %}
 Only the agents of that particular department are able to see and take the chats.
@@ -30,7 +33,7 @@ Only the agents of that particular department are able to see and take the chats
 
 ![](../../../../../.gitbook/assets/image%20%28391%29.png)
 
-8. And you can select the type of files you wish the Agents and your Twitter Contacts can share under **Accepted Media Types**
+8. And you can select the type of files you wish the Agents and your Telegram Contacts can share under **Accepted Media Types**
 
 ![](../../../../../.gitbook/assets/image%20%28570%29.png)
 
