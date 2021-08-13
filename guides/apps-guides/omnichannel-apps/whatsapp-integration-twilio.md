@@ -24,7 +24,7 @@ On the first section, **Sandbox Configuration**, you'll need to enter your Rocke
 
 On the Twilio console, “Programmable SMS Dashboard” -&gt; “Whatsapp” -&gt; “Senders” -&gt; Select the Whatsapp number. This will open the “Configuration” screen, where the webhook configuration must be done in order to connect Twilio to Rocket.Chat Livechat
 
-![](../../.gitbook/assets/image%20%28198%29.png)
+![](../../../.gitbook/assets/image%20%28198%29.png)
 
 The webhook must be configured following the steps mentioned at [https://rocket.chat/docs/developer-guides/rest-api/livechat/sms-incoming/\#payload](https://rocket.chat/docs/developer-guides/rest-api/livechat/sms-incoming/#payload). Important: the webhook POST URL should be set only on “WHEN A MESSAGE COMES IN” field  
 ****
@@ -33,14 +33,14 @@ The webhook must be configured following the steps mentioned at [https://rocket.
 
 On the Twilio console, go to “Programmable SMS Dashboard” and copy the “ACCOUNT SID” and “AUTH TOKEN” 
 
-![](../../.gitbook/assets/image%20%28197%29.png)
+![](../../../.gitbook/assets/image%20%28197%29.png)
 
 ## Step 6
 
 Go to Rocket.Chat Server -&gt; Administration -&gt; Settings-&gt; SMS -&gt; Set to “Enabled” and select “Twilio” as service  
 
 
-![](../../.gitbook/assets/image%20%28210%29.png)
+![](../../../.gitbook/assets/image%20%28210%29.png)
 
 ## Step 7
 
