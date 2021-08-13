@@ -2,7 +2,7 @@
 
 Please check the documentation here:
 
-{% page-ref page="../../apps-guides/omnichannel-apps/email-inboxes/email-inbox-admin-guide.md" %}
+{% page-ref page="../../app-guides/omnichannel-apps/email-inboxes/email-inbox-admin-guide.md" %}
 
 
 

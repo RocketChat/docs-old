@@ -20,7 +20,7 @@ Return to the main interface. Now any livechat agents you have will see any inco
 
 Please refer to the following documentation for further details on Rocket.Chat and Facebook.
 
-{% page-ref page="../apps-guides/omnichannel-apps/facebook-app/" %}
+{% page-ref page="../app-guides/omnichannel-apps/facebook-app/" %}
 
 
 

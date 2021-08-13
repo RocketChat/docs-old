@@ -2,7 +2,7 @@
 description: Here you will find all guides about installing and managing Rocket.Chat Apps
 ---
 
-# Apps Guides
+# App Guides
 
 ## Where to find Rocket.Chat Apps?
 
