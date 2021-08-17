@@ -106,9 +106,11 @@ Use the following symbols to format text as desired:
 * Inline code: `Lorem ipsum dolor`  
 * Image: `![Alt text](https://rocket.chat/favicon.ico)`
 * Link: `[Lorem ipsum dolor](https://www.rocket.chat/)` or `<https://www.rocket.chat/ |Lorem ipsum dolor>`
-* Code Block: ``````` Lorem ipsum dolor inside a block of code ``````` 
-* ```text
+* Code Block: `Lorem ipsum dolor inside a block of code` 
+  ````text
+  ```
   print("Lorem ipsum dolor")
   print("Multiline code style")
   ```
+  ````
 
