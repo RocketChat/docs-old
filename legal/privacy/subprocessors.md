@@ -15,7 +15,6 @@ Last update: 23rd October,2020
     <tr>
       <td style="text-align:left">
         <p>Amazon Web Services,</p>
-        <p></p>
         <p>OVH</p>
       </td>
       <td style="text-align:left">

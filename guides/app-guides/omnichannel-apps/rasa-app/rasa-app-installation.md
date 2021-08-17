@@ -6,7 +6,7 @@ To install Rasa App:
 
 ![](../../../../.gitbook/assets/image%20%28468%29.png)
 
-2. Click **Install**
+1. Click **Install**
 
 ![](../../../../.gitbook/assets/image%20%28469%29.png)
 

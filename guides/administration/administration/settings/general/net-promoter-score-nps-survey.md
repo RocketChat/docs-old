@@ -1,8 +1,8 @@
 # Net Promoter Score \(NPS\) survey
 
-This feature aims to assess user satisfaction and make the Rocket.Chat experience even more pleasant for users. 
+This feature aims to assess user satisfaction and make the Rocket.Chat experience even more pleasant for users.
 
-By allowing it to run on your workspace you are helping Rocket.Chat to: 
+By allowing it to run on your workspace you are helping Rocket.Chat to:
 
 * Build a better product & better user experience
 * Develop and prioritize features aligned with our users’ needs
@@ -10,8 +10,8 @@ By allowing it to run on your workspace you are helping Rocket.Chat to:
 
 ## **What users will see?**
 
-A banner will be exhibited with the question: “**How likely are you to recommend us to a friend or colleague?**” and a scale from 0-10 to collect the answer.  
-  
+A banner will be exhibited with the question: “**How likely are you to recommend us to a friend or colleague?**” and a scale from 0-10 to collect the answer.
+
 If the user clicks on a score, a modal will be exhibited to collect text feedback.
 
 Both actions can be dismissed by the user.
@@ -28,12 +28,11 @@ All users in the workspace will receive the survey on the same day.
 
 Admins will get notified two months before the NPS is rolled out via in-app banner and alert via Rocket.Cat. That means admins can quickly turn off the NPS in case they prefer.
 
-It’s possible to check more details directly in the code [here](https://github.com/RocketChat/Rocket.Chat/blob/3.17.0/server/services/nps/service.ts).  
-
+It’s possible to check more details directly in the code [here](https://github.com/RocketChat/Rocket.Chat/blob/3.17.0/server/services/nps/service.ts).
 
 ## How is NPS data collected?
 
-All feedback received through the NPS is anonymous. It does not collect any personal data. 
+All feedback received through the NPS is anonymous. It does not collect any personal data.
 
 The following data elements are transmitted via statistics collector:
 

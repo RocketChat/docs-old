@@ -4,8 +4,6 @@ To get support from us, click **Support**, as shown below:
 
 ![](../../../.gitbook/assets/image%20%28115%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%282%29%20%281%29%20%281%29.png)
 
-
-
 ## Ticketing System
 
 You are directed to rocket.chat ticketing system, as shown below:
@@ -45,6 +43,4 @@ If you want to obtain service under the service-level agreement \(SLA\), please 
 You can also make use of our knowledge base and check out the articles here:
 
 ![](../../../.gitbook/assets/image%20%28117%29.png)
-
-
 

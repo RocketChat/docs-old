@@ -8,7 +8,7 @@ it appears in your Rocket.Chat workspace just like any other omnichannel convers
 
 ![](../../../../.gitbook/assets/image%20%28442%29.png)
 
- Click **Take It!** to serve this conversation. You can also send to and receive files from your WhatsApp end-user, as shown below:
+Click **Take It!** to serve this conversation. You can also send to and receive files from your WhatsApp end-user, as shown below:
 
 ![](../../../../.gitbook/assets/image%20%28441%29.png)
 

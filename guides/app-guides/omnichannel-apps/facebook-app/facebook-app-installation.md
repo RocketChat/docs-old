@@ -7,7 +7,7 @@ To install Facebook App:
 
 ![](../../../../.gitbook/assets/image%20%28576%29.png)
 
-3. You are notified about all the permissions the app would access. Click **Agree**.
+1. You are notified about all the permissions the app would access. Click **Agree**.
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-M_S_NwTIbuGoUv-w4SR%2F-M_ScoA_OTPVMlMDjXlL%2Fimage.png?alt=media&token=a8aa5b13-ba19-41f9-86b0-c4563863e833)
 

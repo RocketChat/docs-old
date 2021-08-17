@@ -17,6 +17,6 @@ The channel is successfully converted into a team:
 ![](../../../../.gitbook/assets/image%20%28383%29.png)
 
 {% hint style="info" %}
-Note that a private channel converts to a private team and a public channel converts to a public team. 
+Note that a private channel converts to a private team and a public channel converts to a public team.
 {% endhint %}
 

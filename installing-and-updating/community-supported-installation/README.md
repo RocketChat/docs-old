@@ -16,5 +16,3 @@ You can also check their respective forum pages under [Community Guides](https:/
 * [OpenSUSE](opensuse.md)
 * [Kali](../manual-installation/kali-linux.md)
 
-
-

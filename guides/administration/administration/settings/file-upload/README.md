@@ -99,8 +99,6 @@ Time after which Amazon S3 generated URLs will no longer be valid \(in seconds\)
 
 ## FileSystem
 
-
-
 ### System Path
 
 The local path for where the uploaded files will be stored.
@@ -226,6 +224,4 @@ WebDAV folder path which the files should be uploaded to.
 ### WebDAV Username
 
 Username for the remote WebDav server.
-
-
 

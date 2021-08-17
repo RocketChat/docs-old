@@ -6,7 +6,7 @@ To install Salesforce CRM App:
 
 ![](../../../../.gitbook/assets/image%20%28485%29.png)
 
-2. Click **Install**
+1. Click **Install**
 
 ![](../../../../.gitbook/assets/image%20%28462%29.png)
 

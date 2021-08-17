@@ -14,5 +14,3 @@ Omnichannel Integration between Rocket.Chat and Facebook Messenger. With the Fac
 
 {% page-ref page="facebook-app-agents-guide.md" %}
 
-
-

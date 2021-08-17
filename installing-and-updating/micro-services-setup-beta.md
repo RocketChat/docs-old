@@ -9,7 +9,7 @@ The feature will be released for **General Availability** on the **Enterprise Ed
 {% endhint %}
 
 {% hint style="info" %}
-New in version 3.8. 
+New in version 3.8.
 {% endhint %}
 
 ## Pre-requisites
@@ -74,7 +74,7 @@ rocketchat/ddp-streamer-service:latest
 ```
 
 {% hint style="info" %}
-DDP Streamer should be scaled from the beginning.  \(One per 500 concurrent users should be good enough\)
+DDP Streamer should be scaled from the beginning. \(One per 500 concurrent users should be good enough\)
 {% endhint %}
 
 ### MongoDB Stream Hub
@@ -95,13 +95,11 @@ rocketchat/stream-hub-service:latest
 
 ### Presence \(Optional\)
 
-Controls and update users' presence status. 
+Controls and update users' presence status.
 
 {% hint style="success" %}
-In a situation where you have a huge amount of data/users, you can get away with not running it to reduce the traffic of presence processing. If you are not running it, the user's online/offline status and notification will not work properly. 
+In a situation where you have a huge amount of data/users, you can get away with not running it to reduce the traffic of presence processing. If you are not running it, the user's online/offline status and notification will not work properly.
 {% endhint %}
-
-
 
 ```text
 docker run \

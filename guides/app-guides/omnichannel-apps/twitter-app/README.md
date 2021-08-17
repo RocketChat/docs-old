@@ -12,5 +12,3 @@ description: Omnichannel Integration between Rocket.Chat and Twitter.
 
 {% page-ref page="twitter-app-agents-guide.md" %}
 
-
-

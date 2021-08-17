@@ -4,7 +4,7 @@ Search Telegram in the **Apps** menu on your Rocket.Chat administration panel, a
 
 ![](../../../../../.gitbook/assets/image%20%28505%29.png)
 
-Click open your Telegram app to see the settings available to you as an administrator: 
+Click open your Telegram app to see the settings available to you as an administrator:
 
 Following are the settings available:
 
@@ -21,23 +21,21 @@ Other Settings include:
 Only the agents of that particular department are able to see and take the chats.
 {% endhint %}
 
- 
-
 ![](../../../../../.gitbook/assets/image%20%28524%29.png)
 
-6.  You can choose to display the agent's name or username:
+1. You can choose to display the agent's name or username:
 
 ![](../../../../../.gitbook/assets/image%20%28399%29.png)
 
-7. You can enable/disable file sharing and also set a limit for maximum upload size
+1. You can enable/disable file sharing and also set a limit for maximum upload size
 
 ![](../../../../../.gitbook/assets/image%20%28391%29.png)
 
-8. And you can select the type of files you wish the Agents and your Telegram Contacts can share under **Accepted Media Types**
+1. And you can select the type of files you wish the Agents and your Telegram Contacts can share under **Accepted Media Types**
 
 ![](../../../../../.gitbook/assets/image%20%28570%29.png)
 
-8. Hit **Save Changes** to save your settings
+1. Hit **Save Changes** to save your settings
 
 ![](../../../../../.gitbook/assets/image%20%28544%29.png)
 

@@ -38,9 +38,9 @@ The above minimal virtual configuration, when not over-provisioned by the provid
 
 The above virtual configuration, when not over-provisioned by the provider, can accommodate small deployments of up to 500 users, up to 100 concurrently active and moderate levels of mixed uploads, sharing, and bot activities.
 
-## Really Small office Server 
+## Really Small office Server
 
-#### \(Under $100 on-premise server for small group\)
+### \(Under $100 on-premise server for small group\)
 
 * Raspberry Pi 3 or Pi 2 \($35 all-in-one system\)
 * 4 cores 1 GB memory

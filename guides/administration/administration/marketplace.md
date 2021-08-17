@@ -10,9 +10,7 @@ You can access the marketplace in **Administration &gt; Marketplace**.
 Your workspace should be \(registered and\) connected to Rocket.Chat Cloud in order to access the marketplace and install Rocket.Chat apps from it.
 {% endhint %}
 
-To find information on marketplace roles please check out this article. 
+To find information on marketplace roles please check out this article.
 
-{% embed url="https://docs.rocket.chat/guides/roles-in-rocket.chat/marketplace-roles" %}
-
-
+{% embed url="https://docs.rocket.chat/guides/roles-in-rocket.chat/marketplace-roles" caption="" %}
 

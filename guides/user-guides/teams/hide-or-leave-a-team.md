@@ -12,7 +12,7 @@ To hide a team:
 
 ![](../../../.gitbook/assets/image%20%28340%29.png)
 
-The team is hidden. 
+The team is hidden.
 
 {% hint style="info" %}
 To unhide a team, please search it in the spotlight.
@@ -22,15 +22,9 @@ To unhide a team, please search it in the spotlight.
 
 To leave a team:
 
-
-
- 
-
 ![](../../../.gitbook/assets/image%20%28381%29.png)
 
 When leaving a team, you have the option to decide if you want to continue in teams channels or not, as shown below:
 
 ![](../../../.gitbook/assets/image%20%28355%29.png)
-
-
 

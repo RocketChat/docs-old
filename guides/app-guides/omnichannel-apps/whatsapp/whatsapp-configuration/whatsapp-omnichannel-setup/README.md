@@ -10,5 +10,3 @@ After configuration, you see the following message:
 
 ![](../../../../../../.gitbook/assets/image%20%28449%29%20%281%29.png)
 
-
-

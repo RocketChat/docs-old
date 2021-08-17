@@ -20,7 +20,7 @@ as shown below:
 
 ![](../../../.gitbook/assets/image%20%28234%29.png)
 
-All the chats you are currently serving as an omnichannel agent appear in your queue: 
+All the chats you are currently serving as an omnichannel agent appear in your queue:
 
 {% hint style="info" %}
 As soon as you close them, they will disappear from the queue.

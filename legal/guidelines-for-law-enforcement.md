@@ -21,7 +21,7 @@ In short, there are three relevant deployment options of Rocket.Chat, that affec
 The third option - private server - is the most common one.
 
 {% hint style="info" %}
-For clarification purposes: a **server,** on which Rocket.Chat is running, ****can contain various **instances** of Rocket.Chat, depending on the configuration. An instance of Rocket.Chat is each a unique community of users communicating with each other. In the following, we refer to **servers**, that run whichever number of Rocket.Chat instances \(1 or more\).
+For clarification purposes: a **server,** on which Rocket.Chat is running, **\*\*can contain various** instances **of Rocket.Chat, depending on the configuration. An instance of Rocket.Chat is each a unique community of users communicating with each other. In the following, we refer to** servers\*\*, that run whichever number of Rocket.Chat instances \(1 or more\).
 {% endhint %}
 
 How can you find out, which deployment is being used?
@@ -75,7 +75,7 @@ Rocket.Chat is a platform and the interaction between individuals on the platfor
 
 _firstname.lastname_
 
-These accounts are unique to the deployed server of the Rocket.Chat platform. So if information is requested for an individual user account of the platform, this information goes only as far as the scope of that specific, individual server of Rocket.Chat. 
+These accounts are unique to the deployed server of the Rocket.Chat platform. So if information is requested for an individual user account of the platform, this information goes only as far as the scope of that specific, individual server of Rocket.Chat.
 
 **To identify the proper user account, the specific server therefore must be named as well \(generally in form of the URL\).**
 

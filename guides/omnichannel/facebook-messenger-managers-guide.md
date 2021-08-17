@@ -22,7 +22,3 @@ Please refer to the following documentation for further details on Rocket.Chat a
 
 {% page-ref page="../app-guides/omnichannel-apps/facebook-app/" %}
 
-
-
- 
-

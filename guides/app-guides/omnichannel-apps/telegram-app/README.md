@@ -12,5 +12,3 @@ description: Omnichannel Integration between Rocket.Chat and Telegram.
 
 {% page-ref page="telegram-app-agents-guide.md" %}
 
-
-

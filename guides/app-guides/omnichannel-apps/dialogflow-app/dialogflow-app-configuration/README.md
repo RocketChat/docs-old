@@ -4,7 +4,7 @@ Search Dialogflow in the **Apps** menu on your Rocket.Chat administration panel,
 
 ![](../../../../../.gitbook/assets/image%20%28444%29.png)
 
-Click open your Dialogflow app to see the settings available to you as an administrator: 
+Click open your Dialogflow app to see the settings available to you as an administrator:
 
 Following are the settings available:
 

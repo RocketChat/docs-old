@@ -18,7 +18,7 @@ To enable canned responses on your workspace:
 
 ![](../../../../.gitbook/assets/image%20%28241%29.png)
 
-2. Search **Canned Responses** in **Settings**, **Enable** it, and hit **Save Changes**:
+1. Search **Canned Responses** in **Settings**, **Enable** it, and hit **Save Changes**:
 
 ![](../../../../.gitbook/assets/image%20%28535%29.png)
 
@@ -28,7 +28,7 @@ Define which user roles should be able to view, create and delete the canned res
 
 ![](../../../../.gitbook/assets/image%20%28550%29.png)
 
-Please  enable `Omnichannel`
+Please enable `Omnichannel`
 
 {% hint style="info" %}
 Using canned responses in regular conversations with other users of your workspace will require the Omnichannel feature to be enabled.
@@ -39,6 +39,4 @@ Using canned responses in regular conversations with other users of your workspa
 Please check the omnichannel manager's guide for canned responses to save a new canned response for your workspace.
 
 {% page-ref page="../../../omnichannel/canned-responses-omnichannel-managers-guide/" %}
-
-
 

@@ -12,9 +12,7 @@ description: Deploying Rocket.Chat on Koozali SME
 
 Add Rocket.Chat to this world famous time tested small enterprise server today:
 
-{% embed url="https://wiki.contribs.org/Rocket\_Chat" %}
+{% embed url="https://wiki.contribs.org/Rocket\_Chat" caption="" %}
 
-{% embed url="https://wiki.contribs.org/Rocket\_Chat:Contrib" %}
-
-
+{% embed url="https://wiki.contribs.org/Rocket\_Chat:Contrib" caption="" %}
 

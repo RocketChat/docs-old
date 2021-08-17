@@ -4,9 +4,7 @@ description: You can manage your credit cards here.
 
 # Payment Methods
 
-
-
-You can add multiple credit cards here. 
+You can add multiple credit cards here.
 
 Add a new credit card, as shown below:
 
@@ -16,7 +14,7 @@ Delete a card, as shown below:
 
 ![](../../../.gitbook/assets/image%20%28120%29.png)
 
-Set a card as your default payment method. 
+Set a card as your default payment method.
 
 ![](../../../.gitbook/assets/image%20%28113%29.png)
 

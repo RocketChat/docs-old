@@ -12,9 +12,7 @@ The Rocket.Chat typeface family brings flexibility and recognition. Its primary 
 
 ![](../../.gitbook/assets/03_typo.jpg)
 
-
-
-### Type Scale
+## Type Scale
 
 We follow a 6px baseline grid for achieving a vertical rhythm on all block-level elements in the app.
 

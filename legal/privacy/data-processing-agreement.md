@@ -1,7 +1,5 @@
 # Data Processing Agreement
 
-
-
 Are you a Rocket.Chat customer and looking for a GDPR-compliant **data processing agreement \(DPA\)**?
 
 You can find one here:

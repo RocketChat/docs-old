@@ -20,5 +20,3 @@ Once your workplace is registered, you can install the apps from the marketplace
 Different Rocket.Chat Apps might have different installation steps.
 {% endhint %}
 
-
-

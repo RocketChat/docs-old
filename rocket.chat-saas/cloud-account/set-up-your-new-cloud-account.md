@@ -33,9 +33,7 @@ To configure your organization :
 
 ![](../../.gitbook/assets/image%20%2882%29.png)
 
-## Enter your server information 
-
-
+## Enter your server information
 
 To enter your server information:
 
@@ -63,8 +61,4 @@ Your workspace is ready. Click **Go to your workspace** to access it.
 ![](../../.gitbook/assets/image%20%2888%29.png)
 
 ![](../../.gitbook/assets/image%20%2878%29.png)
-
-
-
-
 

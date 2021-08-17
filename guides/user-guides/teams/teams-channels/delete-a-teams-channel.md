@@ -4,7 +4,7 @@ To delete a team's channel:
 
 ![](../../../../.gitbook/assets/image%20%28344%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%282%29%20%281%29%20%284%29.png)
 
-![](../../../../.gitbook/assets/image%20%28346%29.png)
+![](../../../../.gitbook/assets/image%20%28346%29%20%281%29.png)
 
 The channel is deleted as shown below:
 

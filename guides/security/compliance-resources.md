@@ -4,7 +4,7 @@ On this page, we provide you with resources around compliance of Rocket.Chat wit
 
 Each resource is tagged with a section to indicate the scope. Some resources only apply to our hosted services, others to our self-managed product or else.
 
-## Compliance certifications 
+## Compliance certifications
 
 ### ISO 27001 certification
 
@@ -42,6 +42,4 @@ Rocket.Chat has published a pre-filled questionnaire in the STAR-registry of the
 * Use cases: due diligence, security review
 
 ## Country-specific resources
-
-
 

@@ -11,11 +11,9 @@ To subscribe to a push notification package:
 
 ![](../../../../.gitbook/assets/image%20%281%29.png)
 
-3. Login with your GitHub account
-
-4. Login with [Rocket.Chat Cloud](https://cloud.rocket.chat/)
-
-5. Select **the workspace you want to apply the cap to**. The cap will be applied automatically with the respective limit according to the selected sponsorship perk.
+1. Login with your GitHub account
+2. Login with [Rocket.Chat Cloud](https://cloud.rocket.chat/)
+3. Select **the workspace you want to apply the cap to**. The cap will be applied automatically with the respective limit according to the selected sponsorship perk.
 
 {% hint style="info" %}
 Please note that only **one** sponsorship subscription can be applied to a workspace. You can not stack a few subscriptions to get more push messages. If you need more than 20k you will need to contact our sales representative at [sales@rocket.chat](mailto:sales@rocket.chat)
@@ -33,11 +31,11 @@ To check user preferences for push notifications:
 
 ![](../../../../.gitbook/assets/image%20%2830%29.png)
 
-2. Goto '**Account'** in **Settings** and scroll down to **Default User Preference**
+1. Goto '**Account'** in **Settings** and scroll down to **Default User Preference**
 
 ![](../../../../.gitbook/assets/image%20%2821%29.png)
 
-3. Set **Mobile Notifications Default Alert** to Mentions. It will send notifications in case of a mention of the user's name or only the threads the user has intentionally subscribed to. 
+1. Set **Mobile Notifications Default Alert** to Mentions. It will send notifications in case of a mention of the user's name or only the threads the user has intentionally subscribed to. 
 
 ![](../../../../.gitbook/assets/image%20%2841%29.png)
 
@@ -53,21 +51,19 @@ To enable push notifications:
 
 ![](../../../../.gitbook/assets/image%20%2830%29.png)
 
-2. Search '**Push'** in **Settings**
+1. Search '**Push'** in **Settings**
 
-![](../../../../.gitbook/assets/image%20%28137%29.png)
+![](../../../../.gitbook/assets/image%20%28137%29%20%281%29.png)
 
-3.  **Enable** push notifications
-
-4. **Enable** your Gateway \(_Option not available on a cloud server_\)
+1. **Enable** push notifications
+2. **Enable** your Gateway \(_Option not available on a cloud server_\)
 
 {% hint style="info" %}
 If you are on a cloud server, you don't get to choose as there is a default rocket.chat gateway. On a self-hosted server, you have an option to either use rocket.chat gateway or configure your own.
 {% endhint %}
 
-5. Enable **Production**
-
-6. You are all set to send a test push to your user now.
+1. Enable **Production**
+2. You are all set to send a test push to your user now.
 
 {% hint style="info" %}
 To successfully send a test push to your user, you will have to be logged in to the server on your mobile client and then close or minimize the application.
@@ -83,11 +79,11 @@ In Privacy, you can configure what amount of information you want your push noti
 
 ![](../../../../.gitbook/assets/image%20%2830%29.png)
 
-2. Search '**Push'** in **Settings**
+1. Search '**Push'** in **Settings**
 
 ![](../../../../.gitbook/assets/image%20%28137%29.png)
 
-3. Go to **Privacy** 
+1. Go to **Privacy** 
 
 ![](../../../../.gitbook/assets/image%20%28165%29.png)
 
@@ -105,15 +101,15 @@ Make sure you have agreed to terms and conditions.
 
 ![](../../../../.gitbook/assets/image%20%2830%29.png)
 
-2. Search '**Setup Wizard'** in **Settings**
+1. Search '**Setup Wizard'** in **Settings**
 
 ![](../../../../.gitbook/assets/image%20%28163%29.png)
 
-3. Go to '**Cloud Info'** 
+1. Go to '**Cloud Info'** 
 
 ![](../../../../.gitbook/assets/image%20%28162%29.png)
 
-4. Turn the **Cloud Service Privacy Terms Agreement** toggle on
+1. Turn the **Cloud Service Privacy Terms Agreement** toggle on
 
 ![](../../../../.gitbook/assets/image%20%28160%29.png)
 
@@ -121,7 +117,7 @@ Make sure you have agreed to terms and conditions.
 If **Cloud Service Privacy Terms Agreement** is not toggled ON, the push won't work.
 {% endhint %}
 
-5. Hit **Save changes**
+1. Hit **Save changes**
 
 ![](../../../../.gitbook/assets/image%20%28156%29.png)
 
@@ -141,9 +137,8 @@ To check the count of notification used per month:
 
 ![](../../../../.gitbook/assets/image%20%28157%29.png)
 
-2. Go to Workspaces and select the workspace you want to check count for.
-
-3. Push notifications block will show the number of used notifications per your current limit per month.
+1. Go to Workspaces and select the workspace you want to check count for.
+2. Push notifications block will show the number of used notifications per your current limit per month.
 
 ![](../../../../.gitbook/assets/image%20%28158%29.png)
 
@@ -157,15 +152,15 @@ To enable push notifications for channels:
 
 ![](../../../../.gitbook/assets/image%20%28161%29.png)
 
-2. Notification preferences
+1. Notification preferences
 
 ![](../../../../.gitbook/assets/image%20%28166%29.png)
 
-3. Mobile
+1. Mobile
 
 ![](../../../../.gitbook/assets/image%20%28164%29.png)
 
-4. Select what type of notifications you want to receive.
+1. Select what type of notifications you want to receive.
 
 ![](../../../../.gitbook/assets/image%20%28159%29.png)
 

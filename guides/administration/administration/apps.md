@@ -1,8 +1,8 @@
 # Apps
 
-You can view all of your installed Rocket.Chat Apps and manage them. 
+You can view all of your installed Rocket.Chat Apps and manage them.
 
-To access apps: 
+To access apps:
 
 ![](../../../.gitbook/assets/image%20%28385%29.png)
 

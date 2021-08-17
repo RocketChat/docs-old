@@ -8,5 +8,3 @@ When you are logged in to the server as an agent, have set your status to **Avai
 
 You can click **Take it!** to start serving this chat.
 
-
-

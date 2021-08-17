@@ -22,7 +22,7 @@ Your workspace is on the _standard tiered plan_ paying monthly per 10 members—
 
 To find more billing information, please follow the link to our [pricing](https://rocket.chat/pricing/).
 
-### Post-factum Billing
+## Post-factum Billing
 
 Please note that rocket.chat offers two pricing models. If you are an old customer, you might still be on the old pricing model where you are charged at the end of the month on which your billing period has ended, as shown below:
 
@@ -30,7 +30,7 @@ Please note that rocket.chat offers two pricing models. If you are an old custom
 
 This is the charge for the time you have actually used the workspace.
 
-### Advance Billing
+## Advance Billing
 
-If you are a new customer, you should be on the new pricing model and are charged in advance. 
+If you are a new customer, you should be on the new pricing model and are charged in advance.
 

@@ -1,6 +1,6 @@
 # Running in a sub folder with Apache
 
-> NOTE:   Running in a sub folder has been officially deprecated.  It will no longer be supported in upcoming 4.0 release.  See our [April 2020 announcement](https://forums.rocket.chat/t/support-for-installation-in-subdirectory-will-be-discontinued/6371).
+> NOTE: Running in a sub folder has been officially deprecated. It will no longer be supported in upcoming 4.0 release. See our [April 2020 announcement](https://forums.rocket.chat/t/support-for-installation-in-subdirectory-will-be-discontinued/6371).
 
 If you want to run your server in a subfolder like `https://your.domain.com/chat/` you have to setup a reverse proxy. See [Run Rocket.Chat behind a SSL Reverse Proxy](configuring-ssl-reverse-proxy.md)
 

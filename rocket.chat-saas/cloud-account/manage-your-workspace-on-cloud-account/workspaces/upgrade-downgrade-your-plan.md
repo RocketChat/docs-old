@@ -6,11 +6,11 @@ To upgrade/downgrade your plan:
 
 ![](../../../../.gitbook/assets/image%20%28147%29.png)
 
-2. Select your desired plan.
+1. Select your desired plan.
 
 ![](../../../../.gitbook/assets/image%20%28149%29.png)
 
-Your new plan is in place. 
+Your new plan is in place.
 
 ![](../../../../.gitbook/assets/image%20%28148%29.png)
 

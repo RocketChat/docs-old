@@ -10,12 +10,12 @@ Starting with the major release 4.X.Y of Rocket.Chat, MongoDB has to be setup wi
 
 [This project/repository](https://github.com/RocketChat/docker-mmap-to-wiredtiger-migration) aims to help out people migrating their existing dockerized, _mmap_ based MongoDB installation into a _WiredTiger_ one.
 
-### Requirements
+## Requirements
 
 * Docker-based Rocket.Chat deployment
 * MongoDB instance with _mmap_ storage engine
 
-### Quick usage
+## Quick usage
 
 1. Make sure you have met all requirements listed above.
 2. Create a database dump to ensure a backup is in place in case anything goes south!
@@ -24,15 +24,15 @@ Starting with the major release 4.X.Y of Rocket.Chat, MongoDB has to be setup wi
 5. Start up containers, wait for the migration to be completed.
 6. Once finished, Rocket.Chat should be up again - just running with a WiredTiger MongoDB storage engine now.
 
-### Detailed usage
+## Detailed usage
 
-#### Assumptions
+### Assumptions
 
 * Your existing `docker-compose.yml` file is located within `/opt/rocketchat`
 * Your "mongo" container has a `/data/db` volume mapped, that holds the existing \(mmap\) data files of MongoDB
 * Your "mongo" container has a `/dump` volume mapped, that is accessible from the host and can be used to store the backup/dump
 
-#### Step-by-step guide
+### Step-by-step guide
 
 1. Create a database dump of your existing MongoDB, save it on the host to have a backup just in case:
 
@@ -138,7 +138,7 @@ Starting with the major release 4.X.Y of Rocket.Chat, MongoDB has to be setup wi
     docker-compose logs -f mongo # ... check if the mongo one already took over
     ```
 
-### Help and support
+## Help and support
 
 If you encounter any problems during the migration or in case you have general feedback or improvement ideas, feel free to create an issue in [the GitHub repository](https://github.com/RocketChat/docker-mmap-to-wiredtiger-migration).
 

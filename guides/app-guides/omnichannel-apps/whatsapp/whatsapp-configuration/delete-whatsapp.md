@@ -2,7 +2,7 @@
 
 To delete the Whatsapp app from your workspace:
 
-Goto **Adminisitration**&gt;**Apps**&gt;**Whatsapp** 
+Goto **Adminisitration**&gt;**Apps**&gt;**Whatsapp**
 
 ![](../../../../../.gitbook/assets/image%20%28589%29.png)
 

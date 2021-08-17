@@ -34,5 +34,3 @@ The developer can read everything. However, the developer role can also update A
 
 The viewer role can read everything but can not update anything.
 
-
-

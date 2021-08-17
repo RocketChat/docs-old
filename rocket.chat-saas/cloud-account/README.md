@@ -14,5 +14,3 @@ The following topics give you all the information you need regarding the setup a
 
 {% page-ref page="manage-your-workspace-on-cloud-account/" %}
 
-
-

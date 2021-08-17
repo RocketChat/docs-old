@@ -14,5 +14,3 @@ To manage your profile:
 
 ![](../../../.gitbook/assets/image%20%28103%29.png)
 
-
-

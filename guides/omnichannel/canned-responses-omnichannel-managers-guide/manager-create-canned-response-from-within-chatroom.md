@@ -1,8 +1,8 @@
 # Manager create canned response from within chatroom
 
- You can create a canned response on the go from within a conversation.
+You can create a canned response on the go from within a conversation.
 
-To create a canned response in a conversation: 
+To create a canned response in a conversation:
 
 Click **Create**:
 

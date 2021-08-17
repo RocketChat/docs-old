@@ -14,7 +14,7 @@ We also do not want to be the judges on what constitutes the “right” way to 
 
 Sometimes, our organization receives a request from a law enforcement body with the aim to produce a certain set of user data to aid in a criminal investigation. Or there might be a request to take down content that has been deemed illegal. We treat these requests very carefully and - where we are able and obliged to help - bring this to the attention of the administrator of the instance. Oftentimes, we cannot do anything though.
 
-That is because we have no way to access or control self-managed Rocket.Chat servers. Self-managed means that Rocket.Chat is installed on a server we do not own. Our platform is open source and has no backdoors or whatsoever to allow us to remotely access your installations. 
+That is because we have no way to access or control self-managed Rocket.Chat servers. Self-managed means that Rocket.Chat is installed on a server we do not own. Our platform is open source and has no backdoors or whatsoever to allow us to remotely access your installations.
 
 In case of Rocket.Chat instances hosted by us for others, we forward reports to the respective administrator and if determined an obvious breach of terms of service we can terminate the hosting. Where the request is about content on a server directly under our control, such as our Open Server, you can contact us directly under [legal@rocket.chat](mailto:legal@rocket.chat) and we will take action.
 

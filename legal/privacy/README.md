@@ -124,7 +124,7 @@ Examples of Cookies we use:
 
 The following paragraph applies to data processing in Rocket.Chat workspaces and is for clarification purposes only. Self Managed workspaces and workspaces hosted by us differ in the kind of data we are processing from you, because in case of our hosted offering, all data put into the workspaces is technically processed on our infrastructure.
 
- There is also a difference between **registered**, self managed workspaces \(which consume services from us\) and **unregistered**, self managed workspaces. 
+There is also a difference between **registered**, self managed workspaces \(which consume services from us\) and **unregistered**, self managed workspaces.
 
 See the following table for a general distinction between the data that is processed in each case. Keep in mind that this can differ in individual circumstances, such as cases where apps are installed on unregistered workspaces via workarounds.
 
@@ -134,9 +134,9 @@ See the following table for a general distinction between the data that is proce
 | **Usage Data** | no | yes - as per the service you are consuming via your registration, e.g. push notifications via our gateway | yes - as part of using the hosted workspace on our infrastructure |
 | **App Data** | no | yes - if you install apps from the marketplace and based on the use case of the app. Third party apps have their own privacy policy. | yes - if you install apps from the marketplace and based on the use case of the app. Third party apps have their own privacy policy. |
 | **User content** | no | no - content is not processed, unless it falls under the aforementioned \(e.g. the content of a push notification sent via our gateway\) | yes - as part of using the hosted workspace on our infrastructure. End-to-end encrypted content is only stored in encrypted form. |
-| **Tracking and Cookies** | no | yes - tracking occurs on our end to monitor the consumption of the services you use \(Usage Data\). We do not track inside the workspace. | yes - tracking occurs to monitor the consumption of the services used.  |
+| **Tracking and Cookies** | no | yes - tracking occurs on our end to monitor the consumption of the services you use \(Usage Data\). We do not track inside the workspace. | yes - tracking occurs to monitor the consumption of the services used. |
 
-## Use of Personal Data 
+## Use of Personal Data
 
 Rocket.Chat Technologies Corp. uses the collected data for various purposes:
 

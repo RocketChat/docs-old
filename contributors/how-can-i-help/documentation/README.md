@@ -8,7 +8,7 @@ description: >-
 
 First of all, thank you for your interest in contributing to Rocket.Chat Docs. If this is the first Open Source project you will contribute to, we strongly suggest reading GitHub's excellent guide:
 
-{% embed url="https://opensource.guide/how-to-contribute/" %}
+{% embed url="https://opensource.guide/how-to-contribute/" caption="" %}
 
 ## Finding something to work on
 
@@ -52,13 +52,13 @@ When making small changes like typos and such, there is no problem editing the f
 
 Install GitBook's client package using NPM.
 
-```
+```text
 npm install -g gitbook-cli
 ```
 
 After that you need to build the documentation, from the root of the docs folder do:
 
-```
+```text
 gitbook build .
 ```
 

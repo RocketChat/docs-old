@@ -1,12 +1,10 @@
 # Github Sponsorship
 
+You don’t have to be a coder to contribute to Rocket.Chat. In fact, you don’t even have to be technical. Many of our community contributors support the Rocket.Chat open source project directly through Github Sponsorships.
 
-
-You don’t have to be a coder to contribute to Rocket.Chat. In fact, you don’t even have to be technical. Many of our community contributors support the Rocket.Chat open source project directly through Github Sponsorships.  
-  
 The following should answer the questions you may have regarding sponsorship.
 
-### How do I become a Rocket.Chat sponsor?
+## How do I become a Rocket.Chat sponsor?
 
 1. Go to [https://github.com/sponsors/RocketChat](https://github.com/sponsors/RocketChat)
 2. Select the sponsorship tier you want to

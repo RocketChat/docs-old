@@ -12,25 +12,21 @@ The first step after the configuration and resolving the dependencies is authent
 
 ![](../../../../../.gitbook/assets/image%20%28513%29.png)
 
-2. As soon as you click **Start Authentication** the  Authentication process is started. Please authorize [Rocket.Chat](http://rocket.chat/)'s Facebook app to complete this process.
+1. As soon as you click **Start Authentication** the  Authentication process is started. Please authorize [Rocket.Chat](http://rocket.chat/)'s Facebook app to complete this process.
 
 ![](../../../../../.gitbook/assets/image%20%28525%29.png)
 
-3. You are redirected to the following page where you can use your business email to authorize Facebook.
+1. You are redirected to the following page where you can use your business email to authorize Facebook.
 
 ![](../../../../../.gitbook/assets/image%20%28554%29.png)
 
-
-
-4. Confirm here.
+1. Confirm here.
 
 ![](../../../../../.gitbook/assets/image%20%28552%29.png)
 
 You receive a success message with credentials, as shown below:
 
 ![](../../../../../.gitbook/assets/image%20%28540%29.png)
-
-
 
 ## Subscribe/Unsubscribe
 
@@ -46,8 +42,6 @@ You can edit page configuration as shown below:
 
 ![](../../../../../.gitbook/assets/image%20%28565%29.png)
 
-
-
 Following are the settings available:
 
 1. You can route all the conversations coming from this page to a specific **Department**. Only the agents of this department are able to serve Facebook conversations coming from this page.
@@ -56,7 +50,7 @@ Following are the settings available:
 4. You can set the **Default message for offline service** that will be sent to your visitor when no agents are available online
 
 {% hint style="info" %}
-Only the agents of  this particular department are able to see and take the chats.
+Only the agents of this particular department are able to see and take the chats.
 {% endhint %}
 
 ![](../../../../../.gitbook/assets/image%20%28566%29.png)
@@ -67,7 +61,7 @@ Only the agents of  this particular department are able to see and take the chat
 Here are the shortcuts you can use in Facebook Bot:
 
 1. **/facebook authorize** Starts the facebook authorization process
-2.  **/facebook unauthorize** Revoke facebook authorization 
+2. **/facebook unauthorize** Revoke facebook authorization 
 3. **/facebook edit pageId** Edit Page configuration for the given pageId 
 4. **/facebook help** Shows help message
 {% endhint %}

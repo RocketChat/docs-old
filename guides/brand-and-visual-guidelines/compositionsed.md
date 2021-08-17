@@ -8,9 +8,7 @@ Our identity system is modular, inspired by the open source concept. Regardless 
 
 ![](../../.gitbook/assets/01_modular.jpg)
 
-
-
-### Dont's
+## Dont's
 
 ![](../../.gitbook/assets/02_modular.jpg)
 

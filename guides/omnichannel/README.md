@@ -7,7 +7,7 @@ description: >-
 
 # Omnichannel
 
-If you struggle to handle leads and clients in a multi-channel environment, you are losing valuable potential sales. That’s where Omnichannel comes into the picture. Omnichannel is a communication strategy essential to **acquire** and **retain** customers. It’s designed to create an exceptional customer experience across the company’s brands, building a better relationship with their audience. It gives consumers a choice to engage with companies on their favorite channels: 
+If you struggle to handle leads and clients in a multi-channel environment, you are losing valuable potential sales. That’s where Omnichannel comes into the picture. Omnichannel is a communication strategy essential to **acquire** and **retain** customers. It’s designed to create an exceptional customer experience across the company’s brands, building a better relationship with their audience. It gives consumers a choice to engage with companies on their favorite channels:
 
 * SMS 
 * Email
@@ -29,5 +29,5 @@ Being an omnichannel manager, you can access omnichannel settings, as shown belo
 
 ![](../../.gitbook/assets/image%20%2868%29.png)
 
-The detail of each menu is given in their respective article. 
+The detail of each menu is given in their respective article.
 

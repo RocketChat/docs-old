@@ -12,19 +12,19 @@ The first step after the configuration is authentication with Twitter.
 
 ![](../../../../../.gitbook/assets/image%20%28398%29.png)
 
-2. As soon as you click **Start Authentication** the  Authentication process is started. Please authorize [Rocket.Chat](http://rocket.chat/)'s Twitter app to complete this process.
+1. As soon as you click **Start Authentication** the  Authentication process is started. Please authorize [Rocket.Chat](http://rocket.chat/)'s Twitter app to complete this process.
 
 ![](../../../../../.gitbook/assets/image%20%28414%29.png)
 
-3. You will be redirected to the following page where you can use your business email to authorize Twitter.
+1. You will be redirected to the following page where you can use your business email to authorize Twitter.
 
 ![](../../../../../.gitbook/assets/image%20%28418%29.png)
 
-4. Confirm email.
+1. Confirm email.
 
 ![](../../../../../.gitbook/assets/image%20%28417%29.png)
 
-6. Authorize.
+1. Authorize.
 
 ![](../../../../../.gitbook/assets/image%20%28416%29.png)
 

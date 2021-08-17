@@ -1,7 +1,6 @@
 # Minimum Requirements for using Rocket.Chat
 
-If you’re curious about the technical requirements needed to run Rocket.Chat, read on to learn which operating systems \(OS\) and browsers we support.  
-****
+If you’re curious about the technical requirements needed to run Rocket.Chat, read on to learn which operating systems \(OS\) and browsers we support.
 
 ## **Desktop apps**
 
@@ -61,6 +60,5 @@ If you’re curious about the technical requirements needed to run Rocket.Chat, 
 
 ### **Unsupported browsers and operating systems**
 
-To deliver the best possible Rocket.Chat experience, and we keep our list of supported browsers and operating systems short. We don’t fix bugs or issues for unsupported browsers, so we do our best to block them from accessing Rocket.Chat.  
-
+To deliver the best possible Rocket.Chat experience, and we keep our list of supported browsers and operating systems short. We don’t fix bugs or issues for unsupported browsers, so we do our best to block them from accessing Rocket.Chat.
 

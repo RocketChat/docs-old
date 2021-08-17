@@ -1,12 +1,10 @@
 # Brand Usage Examples
 
-### Examples
+## Examples
 
 Below are some examples of how to use the new Rocket.Chat brand from online applications to offline. Be sure to maintain consistency in the application of all elements of the brand.
 
-
-
-### Brand in use
+## Brand in use
 
 ![](../../.gitbook/assets/01.jpg)
 

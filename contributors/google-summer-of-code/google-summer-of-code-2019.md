@@ -308,5 +308,5 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 ## Timeline
 
-{% embed url="https://developers.google.com/open-source/gsoc/timeline" %}
+{% embed url="https://developers.google.com/open-source/gsoc/timeline" caption="" %}
 

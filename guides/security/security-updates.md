@@ -155,7 +155,7 @@ Rocket.Chat Server - affects **all,** fixed on **3.12, 3.11.2, 3.10.6**
 
 Rocket.Chat Server - affects **all,** fixed on **3.12, 3.11.2, 3.10.6**
 
-_\(**Self-XSS\)** A sanitization issue  could be exploited for a Self-XSS exploit._
+_\(**Self-XSS\)** A sanitization issue could be exploited for a Self-XSS exploit._
 {% endhint %}
 
 {% hint style="warning" %}
@@ -171,7 +171,7 @@ Rocket.Chat Server / LiveChat - affects **all,** fixed on **3.11, 3.10.5, 3.9.7,
 
 Rocket.Chat Server / LiveChat - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 
-**\(Authentication\)** An issue with the Live Chat accepting invalid parameters  could potentially allow unauthenticated access to messages and user tokens.
+**\(Authentication\)** An issue with the Live Chat accepting invalid parameters could potentially allow unauthenticated access to messages and user tokens.
 {% endhint %}
 
 {% hint style="danger" %}
@@ -233,11 +233,11 @@ Rocket.Chat Server - affects **all,** fixed on **3.11, 3.10.5, 3.9.7, 3.8.8.**
 {% hint style="warning" %}
 **0007 - Medium Severity issue** fixed at **2020-11-28**  
 Rocket.Chat Server - affects **all,** fixed on **3.9.**  
-\(**Self-XSS**\) An issue with the drag and drop functionality was fixed that - under certain circumstances - could be used as part of possible self-xss attack_._ 
+\(**Self-XSS**\) An issue with the drag and drop functionality was fixed that - under certain circumstances - could be used as part of possible self-xss attack_._
 
 Thanks a lot to Jorge Cardona for reporting this.
 
-CVE-ID: CVE-2020-8292	__
+CVE-ID: CVE-2020-8292 \_\_
 {% endhint %}
 
 {% hint style="danger" %}
@@ -245,7 +245,7 @@ CVE-ID: CVE-2020-8292	__
 Rocket.Chat Server - affects **1.x, 2.x**, **3.x,** fixed on **3.9.3 / 3.8.4 / 3.7.4 / 2.4.14 / 1.3.5**  
 **\(XSS\)** A vulnerability in the message renderer was fixed that allowed for possible XSS attacks. More details [here](https://rocket.chat/xss-vulnerability-hotfix-available-for-all-affected-versions).
 
-CVE-ID:  __CVE-2020-8288
+CVE-ID: \_\_CVE-2020-8288
 {% endhint %}
 
 {% hint style="danger" %}
@@ -258,27 +258,25 @@ CVE-ID: CVE-2020-29594
 
 {% hint style="danger" %}
 **0004 - High Severity issue** fixed at **2020-10-01**  
-Rocket.Chat Desktop Client - affects **2.x**, ****fixed on **3.0**  
-**\(RCE\)** Fixed via context isolation an issue where link preload could be used to execute code.
+Rocket.Chat Desktop Client - affects **2.x**, **\*\*fixed on** 3.0    
+****\(RCE\)\*\* Fixed via context isolation an issue where link preload could be used to execute code.
 {% endhint %}
 
 {% hint style="danger" %}
 **0003 - High Severity issue** fixed at **2020-08-29**  
-Rocket.Chat Server - affects **3.4.x**, ****fixed on **3.6**  
-**\(RCE\)** Fixed an issue where discussion messages could be used to insert and execute code.
+Rocket.Chat Server - affects **3.4.x**, **\*\*fixed on** 3.6    
+****\(RCE\)\*\* Fixed an issue where discussion messages could be used to insert and execute code.
 {% endhint %}
 
 {% hint style="info" %}
 **0002 - Low Severity issue** fixed at **2020-08-29**  
-Rocket.Chat Server - affects **3.x**, ****fixed on **3.6**   
+Rocket.Chat Server - affects **3.x**, **\*\*fixed on** 3.6\*\*  
 Added a missing X-Frame Options Header in the admin
 {% endhint %}
 
 {% hint style="danger" %}
 **0001 - High Severity issue** fixed at **2020-07-25**  
-Rocket.Chat Server - affects **3.4.x**, ****fixed on **3.5** and **3.4.2**  
-**\(RCE\)** Fixed an issue where thread starting messages could be used to insert and execute code. Thanks to Pawel Wylecial of [REDTEAM](http://redteam.pl/)_.PL_
+Rocket.Chat Server - affects **3.4.x**, **\*\*fixed on** 3.5 **and** 3.4.2    
+****\(RCE\)\*\* Fixed an issue where thread starting messages could be used to insert and execute code. Thanks to Pawel Wylecial of [REDTEAM](http://redteam.pl/)_.PL_
 {% endhint %}
-
-
 

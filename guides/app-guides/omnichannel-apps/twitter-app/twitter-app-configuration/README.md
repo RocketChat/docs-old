@@ -4,7 +4,7 @@ Search Twitter in the **Apps** menu on your Rocket.Chat administration panel, as
 
 ![](../../../../../.gitbook/assets/image%20%28409%29.png)
 
-Click open your Twitter app to see the settings available to you as an administrator: 
+Click open your Twitter app to see the settings available to you as an administrator:
 
 Following are the settings available:
 
@@ -17,23 +17,21 @@ Following are the settings available:
 Only the agents of that particular department are able to see and take the chats.
 {% endhint %}
 
- 
-
 ![](../../../../../.gitbook/assets/image%20%28400%29.png)
 
-5.  You can choose to display the agent's name or username:
+1. You can choose to display the agent's name or username:
 
 ![](../../../../../.gitbook/assets/image%20%28399%29.png)
 
-6. You can enable/disable file sharing and also set a limit for maximum upload size
+1. You can enable/disable file sharing and also set a limit for maximum upload size
 
 ![](../../../../../.gitbook/assets/image%20%28391%29.png)
 
-7. And you can select the type of files you wish the Agents and your Twitter Contacts can share under **Accepted Media Types**
+1. And you can select the type of files you wish the Agents and your Twitter Contacts can share under **Accepted Media Types**
 
 ![](../../../../../.gitbook/assets/image%20%28394%29.png)
 
-8. Hit **Save Changes** to save your settings
+1. Hit **Save Changes** to save your settings
 
 ![](../../../../../.gitbook/assets/image%20%28393%29.png)
 

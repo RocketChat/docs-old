@@ -43,11 +43,9 @@ To create a new contact:
 
 ![](../../../.gitbook/assets/image%20%28212%29.png)
 
-2. Enter all the information and hit **Save**. 
+1. Enter all the information and hit **Save**. 
 
 ![](../../../.gitbook/assets/image%20%28213%29.png)
-
-
 
 It appears in the search, as it shows:
 
@@ -60,10 +58,10 @@ All the chats you have taken appear under **Chats**, as you see below:
 ![](../../../.gitbook/assets/image%20%28215%29%20%281%29.png)
 
 {% hint style="info" %}
-No open chat appears in the **Contact Center**. A chat appears in the **Contact** **Center** as soon as it is closed because **Contact Center** only deals with archived chats.   
+No open chat appears in the **Contact Center**. A chat appears in the **Contact** **Center** as soon as it is closed because **Contact Center** only deals with archived chats.
 {% endhint %}
 
-You can click to open a chat to view it: 
+You can click to open a chat to view it:
 
 ![](../../../.gitbook/assets/image%20%28216%29.png)
 
@@ -77,11 +75,11 @@ as shown below:
 
 ![](../../../.gitbook/assets/image%20%28333%29.png)
 
-Click **Edit** to edit contact  details as shown below:
+Click **Edit** to edit contact details as shown below:
 
 ![](../../../.gitbook/assets/image%20%28330%29.png)
 
-You can edit any details you want here. 
+You can edit any details you want here.
 
 ![](../../../.gitbook/assets/image%20%28336%29.png)
 

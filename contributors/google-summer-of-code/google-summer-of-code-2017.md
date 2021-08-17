@@ -178,5 +178,5 @@ We continue to be extremely optimistic going into the critical mid-term evaluati
 
 ## Timeline
 
-{% embed url="https://developers.google.com/open-source/gsoc/timeline" %}
+{% embed url="https://developers.google.com/open-source/gsoc/timeline" caption="" %}
 
