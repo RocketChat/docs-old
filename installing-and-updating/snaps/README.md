@@ -195,7 +195,7 @@ You should get `active` as a response.
 #### 2. Issue this backup command:
 
 ```text
-sudo rocketchat-server.backupdb
+sudo snap run rocketchat-server.backupdb
 ```
 
 If all goes well, you will see some output similar to:
@@ -237,7 +237,7 @@ sudo cp rocketchat_backup.tar.gz /var/snap/rocketchat-server/common/
 #### 3. Issue this restore command:
 
 ```text
-sudo rocketchat-server.restoredb /var/snap/rocketchat-server/common/rocketchat_backup.tgz
+sudo snap run rocketchat-server.restoredb /var/snap/rocketchat-server/common/rocketchat_backup.tgz
 ```
 
 #### 4. If you are replacing an existing database, you will be warned:
