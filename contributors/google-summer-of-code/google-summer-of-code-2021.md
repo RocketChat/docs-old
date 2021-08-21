@@ -4,7 +4,9 @@
 
 ### Update  August 21, 2021
 
-All 15 of our projects continued smoothly during these final weeks of the GSoC 2021 program.    Students and mentors worked hard together to finalize the \(now it has become a tradition\) [ Rocket.Chat GSoC 2021 Project Demos](https://www.youtube.com/playlist?list=PLee3gqXJQrFXGRepCnOATldI6q-bCsaLB)     This week,  students are preparing for their final GSoC submission and final mentor evaluation.   Next week, mentors will start their final evaluation. 
+All 15 of our projects continued smoothly during these final weeks of the GSoC 2021 program.    Students and mentors worked hard together to finalize the \(now it has become a tradition\) [ Rocket.Chat GSoC 2021 Project Demos](https://www.youtube.com/playlist?list=PLee3gqXJQrFXGRepCnOATldI6q-bCsaLB)    This is the very first time for some students, to present in front of a group.  And the audience this year is up to **120** Rocket.Chat community and team members, as well as fellow GSoC 2021 colleagues and mentors.    
+
+This week,  students are preparing for their final GSoC submission and final mentor evaluation.   Next week, mentors will start their final evaluation. 
 
 ### Update July 11, 2021
 
