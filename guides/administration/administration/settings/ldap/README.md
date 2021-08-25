@@ -145,10 +145,11 @@ description: >-
         group</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://docs.rocket.chat/guides/administration/administration/settings/saml"><b>SAML</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"></td>
+        <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
