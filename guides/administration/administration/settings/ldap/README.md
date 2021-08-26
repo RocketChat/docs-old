@@ -1,10 +1,3 @@
----
-description: >-
-  To configure LDAP authentication, go to the LDAP section of administration
-  settings, enable LDAP, and add configurations to connect with your LDAP
-  server.
----
-
 # LDAP
 
 {% hint style="info" %}

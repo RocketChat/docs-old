@@ -1,4 +1,4 @@
-# Sync Settings
+# LDAP Sync Settings
 
 ## Sync / Import
 

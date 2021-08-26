@@ -1,4 +1,4 @@
-# Authentication Settings
+# LDAP Authentication Settings
 
 ## Enable
 

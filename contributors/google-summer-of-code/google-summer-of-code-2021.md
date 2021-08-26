@@ -2,6 +2,12 @@
 
 [![Google Summer of Code 2020](https://github.com/Sing-Li/bbug/raw/master/images/gsoclogo.jpg)](https://summerofcode.withgoogle.com/)
 
+### Update  August 21, 2021
+
+All 15 of our projects continued smoothly during these final weeks of the GSoC 2021 program.    Students and mentors worked hard together to finalize the \(now it has become a tradition\) [ Rocket.Chat GSoC 2021 Project Demos](https://www.youtube.com/playlist?list=PLee3gqXJQrFXGRepCnOATldI6q-bCsaLB)    This is the very first time for some students, to present in front of a group.  And the audience this year is up to **120** Rocket.Chat community and team members, as well as fellow GSoC 2021 colleagues and mentors.    
+
+This week,  students are preparing for their final GSoC submission and final mentor evaluation.   Next week, mentors will start their final evaluation. 
+
 ### Update July 11, 2021
 
 Due to sudden departure of an active mentor, we are in jeopardy of losing two key projects for the year. Thankfully two heroines from Rocket.Chat's own Agile Planning and UI/UX team came forward and, together with mentors from our front-end team, saved the day for these projects. The new mentors assignments are now reflected on these two projects.
@@ -21,7 +27,7 @@ To accommodate another highly qualified student, and keen interests from mentors
 
 | Student | Project | Mentors |
 | :--- | :--- | :--- |
-| Priya Bihani | Image Manipulation: Editing / Cropping on Upload | Gabriel Henriques, Tasso Evangelista |
+| Priya Bihani | Image Manipulation: Editing / Cropping on Upload | Gabriel Henriques, Tasso Evangelista, Vibha Chawla |
 
 ### Update May 20th 2021
 
@@ -38,8 +44,8 @@ We are delighted to welcome these 12 active community members to work with us du
 | Dhruv Jain | Introduce Audio calls to LiveChat | Murtaza Patrawala |
 | Anant Bhasin | E2E Testing for Android in Rocket.Chat.ReactNative | Diego Mello |
 | Rahul Halder | Voice Channels | Douglas Fabris |
-| Aditya Mitra | Out Of Office Settings with an Assigning Deputy | Amol Babu |
-| Jean Staquet | Task Channels | Pierre Lehnen |
+| Aditya Mitra | Out Of Office Settings with an Assigning Deputy | Amol Babu, Asrar Zaman |
+| Jean Staquet | Task Channels  | Pierre Lehnen |
 | Adithya Vardhan | Channels Discovery | Martin Schoeler |
 | Rohan Lekhwani | Poll App Mega Extensions | Ramkumar KB |
 | Allan Juan | Language Power Tools | Rodrigo Nascimento |

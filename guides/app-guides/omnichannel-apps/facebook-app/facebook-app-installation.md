@@ -5,7 +5,7 @@ To install Facebook App:
 1. Go to **Administration&gt;Marketplace** and search Facebook
 2. Click **Install**
 
-![](../../../../.gitbook/assets/image%20%28576%29.png)
+![](../../../../.gitbook/assets/image%20%28576%29%20%281%29.png)
 
 1. You are notified about all the permissions the app would access. Click **Agree**.
 

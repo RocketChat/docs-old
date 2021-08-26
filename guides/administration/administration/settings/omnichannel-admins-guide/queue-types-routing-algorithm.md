@@ -8,6 +8,7 @@ There are the following types of queues in Rocket.Chat omnichannel solutions:
 * [Load Balancing](queue-types-routing-algorithm.md#load-balancing)![](../../../../../.gitbook/assets/2021-06-10_22-31-38%20%281%29.jpg) 
 * [Load Rotation](queue-types-routing-algorithm.md#load-rotation)![](../../../../../.gitbook/assets/2021-06-10_22-31-38%20%281%29%20%282%29.jpg) 
 
+
 ## Auto Selection
 
 Each new chat will be routed to the agent that are accepting chats with the lower count. If there is more than one available agent with the same count, the chat will get the first in order.

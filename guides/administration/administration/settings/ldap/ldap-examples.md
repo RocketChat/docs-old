@@ -1,4 +1,4 @@
-# Examples
+# LDAP Examples
 
 * `Host = ldap.domain.com`
 * `Group = CN=ROCKET_ACCESS,CN=Users,DC=domain,DC=com (Access Control Group)`
