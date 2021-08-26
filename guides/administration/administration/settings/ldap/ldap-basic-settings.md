@@ -1,4 +1,4 @@
-# Basic Settings
+# LDAP Basic Settings
 
 ### Enable
 

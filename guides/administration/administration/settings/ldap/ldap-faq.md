@@ -1,4 +1,4 @@
-# FAQ
+# LDAP FAQ
 
 ## What's the "Bind successful but user was not found via search" error?
 
