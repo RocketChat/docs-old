@@ -20,7 +20,7 @@ To configure LDAP authentication, go to the LDAP section of administration setti
         <td style="text-align:left">&lt;b&gt;&lt;/b&gt;</td>
     </tr>
     <tr>
-      <td style="text-align:left">Basic LDAP Login</td>
+      <td style="text-align:left">| Basic LDAP Login</td>
       <td style="text-align:left">Yes</td>
       <td style="text-align:left">Yes</td>
       <td style="text-align:left"></td>
