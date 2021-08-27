@@ -20,33 +20,39 @@ To configure LDAP authentication, go to the LDAP section of administration setti
         <td style="text-align:left">&lt;b&gt;&lt;/b&gt;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Basic Sync User Data</b>
+      <td style="text-align:left"><b>Basic LDAP Login</b>
       </td>
       <td style="text-align:left">Yes</td>
       <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Keep user data in sync with the server on the login</td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">User Data Field Map</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">
-        <p></p>
-        <p>(email, name, and username)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Login Fallback</b>
-      </td>
+      <td style="text-align:left">Login Fallback</td>
       <td style="text-align:left">Yes</td>
       <td style="text-align:left">Yes</td>
       <td style="text-align:left">This option allows regular password users to log in on Rocket.Chat. It
         will let LDAP users continue using Rocket.Chat if the LDAP server is down.</td>
     </tr>
     <tr>
+      <td style="text-align:left">Filter what LDAP users can log in</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">
+        <p>There are two settings to manage this: Search Filter and Group Filter</p>
+        <p></p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Merge with existing Rocket.Chat users</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Detect if the LDAP user is already registered on Rocket.Chat and use the
+        same user for both authentication types</td>
+    </tr>
+    <tr>
       <td style="text-align:left">
         <p></p>
-        <p><b>LDAP Encryption</b>
+        <p><b>LDAP encryptions </b>
         </p>
       </td>
       <td style="text-align:left">Yes</td>
@@ -54,58 +60,66 @@ To configure LDAP authentication, go to the LDAP section of administration setti
       <td style="text-align:left">The encryption method used to secure communications to the LDAP server</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Advanced Sync User Data</b>
+      <td style="text-align:left"><b>Sync User Data</b>
       </td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Advanced user data sync options</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Load information from the LDAP user to Rocket.Chat</td>
     </tr>
     <tr>
-      <td style="text-align:left">User Data Custom Field Map</td>
+      <td style="text-align:left">Load Basic User Data from LDAP</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Email, name, and username</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Load Custom User Data from LDAP</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Select any field you want to sync with RC</td>
+      <td style="text-align:left">Load any LDAP attribute to a custom field on Rocket.Chat</td>
     </tr>
     <tr>
-      <td style="text-align:left">Sync User Avatar</td>
+      <td style="text-align:left">Load Avatars</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Toggle avatar syncing on or off</td>
+      <td style="text-align:left">Load the user&apos;s avatar from an LDAP attribute</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Sync LDAP Groups to Roles</b>
+      <td style="text-align:left"><b>Advanced-Data Sync</b>
       </td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Role mapping from user groups</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Perform additional operations based on data from LDAP</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>User Search / Group Filter</b>
-      </td>
+      <td style="text-align:left">Load Roles</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">Yes</td>
-      <td style="text-align:left">The LDAP search filter is used to check if a user is in a group (filter
-        which LDAP users can log in at RC)</td>
+      <td style="text-align:left">You can map any LDAP group to a Rocket.Chat role</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Auto Sync LDAP Groups to Channels</b>
-      </td>
+      <td style="text-align:left">Auto-Subscribe to Channels</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Automatically add users to a channel based on their LDAP group</td>
+      <td style="text-align:left">You can map any LDAP group to a Rocket.Chat channel</td>
     </tr>
     <tr>
-      <td style="text-align:left">Teams Sync</td>
+      <td style="text-align:left">Auto-Unsubscribe from Channels</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Automatically add users to a team based on their LDAP group</td>
+      <td style="text-align:left">You can also remove users from Rocket.Chat channels on LDAP</td>
     </tr>
     <tr>
-      <td style="text-align:left">Auto Remove Users from Channels</td>
+      <td style="text-align:left">Auto-Join Teams</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Remove any users in a channel that does not have the corresponding LDAP
-        group</td>
+      <td style="text-align:left">You can map any LDAP group to a Rocket.Chat team</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Auto-Leave Teams</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">You can also remove users from Rocket.Chat teams on LDAP</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Background Sync</b>
