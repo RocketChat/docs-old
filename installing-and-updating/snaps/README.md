@@ -18,7 +18,7 @@ On Ubuntu 16.04LTS, install `snapd` first:
 sudo apt-get install snapd
 ```
 
-To move between different major releases,  from 2.x to 3.x  or from 3.x to 4.x,  take a look at  [snap tracks](https://forums.rocket.chat/t/introducing-snap-tracks/5890).
+To move between different major releases, from 2.x to 3.x or from 3.x to 4.x, take a look at [snap tracks](https://forums.rocket.chat/t/introducing-snap-tracks/5890).
 
 ## FAQ
 
@@ -80,7 +80,7 @@ Look for the `services` section.
 
 ### How do I tell if Rocket.Chat is actually running?
 
- You can check whether either or all of them are running or not with the following command:
+You can check whether either or all of them are running or not with the following command:
 
 ```bash
 snap services rocketchat-server
@@ -143,7 +143,7 @@ You can find more about your options in the [snapcraft documentation](https://sn
 
 ### I need to restart Rocket.Chat, how do I do this?
 
-This follows the similar structure as many of the previous questions. You can use both the `snap` command or `systemctl` to restart RocketChat. 
+This follows the similar structure as many of the previous questions. You can use both the `snap` command or `systemctl` to restart RocketChat.
 
 With `snap` you get the additional benefit of restarting all of the services with a single command:
 
@@ -169,7 +169,7 @@ Mongo and Caddy can similarly be restarted:
 
 ```text
 sudo systemctl restart snap.rocketchat-server.rocketchat-mongo 
-sudo systemctl restart snap.rocketchat-server.rocketchat-caddy 
+sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
 ```
 
 ### What is the restart policy?
