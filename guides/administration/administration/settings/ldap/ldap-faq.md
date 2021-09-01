@@ -28,14 +28,14 @@ The ability to integrate with your organization’s user directory service is im
 
 ## What will community users not be able to do anymore? Examples. 
 
-In order to access the re-factored advanced LDAP, SAML and, Oauth features workspaces will require an Enterprise license.  Advanced features include extended user attribute synchronization, group and team management, SAML integration, and advanced Oauth configuration. \(View full functionalities [here](https://docs.google.com/spreadsheets/d/10OUEXyQvuum3M2cbgOowaeIaYnPbSIcoTP0I7gDe8jk/edit?usp=sharing).\)  
+In order to access the re-factored advanced LDAP, SAML and, Oauth features workspaces will require an Enterprise license.  Advanced features include extended user attribute synchronization, group and team management, SAML integration, and advanced Oauth configuration. \(View full functionalities [here](https://docs.rocket.chat/guides/administration/administration/settings/ldap).\)  
 
 
 ## What will community users still be able to do? Examples. 
 
 Community users will be able to connect an LDAP service used by their organization to and sync user email, name, and username; use the fallback option and encrypted settings. Basic SAML sync options, and Oauth for all providers \(Apple, Dolphin, Drupal, Facebook, GitHub, GitHub, Enterprise, GitLab, Google, Linkedin, Meteor, Nextcloud, Tokenpass, Twitter, WordPress\) will continue available in Community Edition.  
   
-\(View full functionalities [here](https://docs.google.com/spreadsheets/d/10OUEXyQvuum3M2cbgOowaeIaYnPbSIcoTP0I7gDe8jk/edit?usp=sharing).\)
+\(View full functionalities [here](https://docs.rocket.chat/guides/administration/administration/settings/ldap).\)
 
 ## Will the move affect single sign-on capabilities? Please explain single sign-on. 
 
