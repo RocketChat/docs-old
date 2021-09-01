@@ -2,7 +2,7 @@
 
 ## What exactly will be moved from Community \(CE\) to Enterprise Edition \(EE\)? When? \(More than LDAP.\) 
 
-Rocket.Chat will be launching a re-factored set of advanced LDAP features by September 28th. The ability to connect to your LDAP server to sync user names and unique identifiers will remain in the Community Edition together with existing social login features.  All advanced LDAP features including extended user attribute sync, group/team management, background sync and SAML integration will move to the Enterprise edition.  This change will enable Rocket to support ongoing improvements to our suite of identity management solutions while continuing to make our basic LDAP directory synchronization codebase available for use and extension by the Rocket.Chat community.  
+Rocket.Chat will be launching a re-factored set of advanced LDAP features by September 28th. The ability to connect to your LDAP server to sync user names and unique identifiers will remain in the Community Edition together with existing social login features.  All advanced LDAP features including extended user attribute sync, group/team management, background sync, and SAML integration will move to the Enterprise edition.  This change will enable Rocket to support ongoing improvements to our suite of identity management solutions while continuing to make our basic LDAP directory synchronization codebase available for use and extension by the Rocket.Chat community.  
 
 
 ## What LDAP, Active Directory, OAuth, SAML mean, and how do these things work together?
@@ -23,7 +23,7 @@ Eg. Google, Facebook, LinkedIn, Twitter.
 
 ## Why is Identity Management \(and authentication/authorization services\)  important? 
 
-The ability to integrate with your organization’s user directory service is important for keeping your users’ access up to date at all times.  For example, when someone joins your organization their Rocket user can be created automatically and when they leave their user can be promptly deactivated.   This becomes more important with scale, the greater the count of users.  
+The ability to integrate with your organization’s user directory service is important for keeping your users’ access up to date at all times.  For example, when someone joins your organization their Rocket user can be created automatically, and when they leave their user can be promptly deactivated.   This becomes more important with scale, the greater the count of users.  
 
 
 ## What will community users not be able to do anymore? Examples. 
@@ -63,11 +63,11 @@ You need to use the "Sync User Active State" setting under Advanced Sync, but it
 
 ### I cannot log in even everything looks good
 
-If you cannot log in without getting any error messages \(the last thing in the log you see is `Attempt to bind <correct dn of user>`\), make sure the username of your LDAP account does not match any username of a local account. For example if you created a local user with a username`joe`, then enable LDAP and try to login with a username `joe` \(who exists on your LDAP server\), it will silently fail without any error message in your log simply saying username or password does not match. You cannot log in by`joe,`your LDAP password nor by your local password anymore.
+If you cannot log in without getting any error messages \(the last thing in the log you see is `Attempt to bind <correct dn of user>`\), make sure the username of your LDAP account does not match any username of a local account. For example, if you created a local user with a username`joe`, then enable LDAP and try to log in with a username `joe` \(who exists on your LDAP server\), it will silently fail without any error message in your log simply saying username or password does not match. You cannot log in by`joe,`your LDAP password nor by your local password anymore.
 
 ### No users are created even if everything looks good
 
-Every rocket.chat-user has to have an email. So either the LDAP users need to have an email or you have to set a default domain using the setting "default domain".
+Every rocket.chat user has to have an email. So either the LDAP users need to have an email or you have to set a default domain using the setting "default domain".
 
 ## References
 
