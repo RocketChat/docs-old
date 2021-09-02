@@ -24,7 +24,11 @@ The ability to integrate with your organization’s user directory service is im
 
 ## What will community users not be able to do anymore? Examples.
 
-In order to access the re-factored advanced LDAP, SAML and, Oauth features workspaces will require an Enterprise license.  Advanced features include extended user attribute synchronization, group and team management, SAML integration, and advanced Oauth configuration. \(View full functionalities [here](https://docs.rocket.chat/guides/administration/administration/settings/ldap).\)
+In order to access the re-factored advanced LDAP, SAML and, Oauth features workspaces will require an Enterprise license.  Advanced features include extended user attribute synchronization, group and team management, SAML integration, and advanced Oauth configuration.
+
+View full functionalities:
+
+{% page-ref page="./" %}
 
 ## What will community users still be able to do? Examples.
 
@@ -34,9 +38,9 @@ View full functionalities:
 
 {% page-ref page="./" %}
 
-## Will the move affect single sign-on capabilities? Please explain single sign-on.
+## Will the move affect Single Sign-On capabilities? Please explain single sign-on.
 
-Single sign-on \(SSO\) is an authentication scheme that allows a user to log in with a single ID and password to any of several related, yet independent, software systems. True single sign-on allows the user to log in once and access services without re-entering authentication factors. Workspaces that use social login capabilities \(users sign-on via Google, Linked In, etc.\) will not be impacted by this change.  
+Single Sign-On \(SSO\) is an authentication scheme that allows a user to log in with a single ID and password to any of several related, yet independent, software systems. True single sign-on allows the user to log in once and access services without re-entering authentication factors. Workspaces that use social login capabilities \(users sign-on via Google, Linked In, etc.\) will not be impacted by this change.  
 
 ## How will this affect my air-gapped \(no internet connection\) environment? Can’t we just pull from our intranet easily anyway?
 
@@ -60,7 +64,7 @@ If you cannot log in without getting any error messages \(the last thing in the 
 
 ### No users are created even if everything looks good
 
-Every rocket.chat user has to have an email. So either the LDAP users need to have an email or you have to set a default domain using the setting "default domain".
+Every Rocket.Chat user has to have an email. So either the LDAP users need to have an email or you have to set a default domain using the setting "default domain".
 
 ## References
 
