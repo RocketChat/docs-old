@@ -42,6 +42,10 @@ View full functionalities:
 
 Single Sign-On \(SSO\) is an authentication scheme that allows a user to log in with a single ID and password to any of several related, yet independent, software systems. True single sign-on allows the user to log in once and access services without re-entering authentication factors. Workspaces that use social login capabilities \(users sign-on via Google, Linked In, etc.\) will not be impacted by this change.  
 
+## I've contributed to building LDAP/SAML/Custom Oauth and now I can't use my code. What should I do?
+
+We are rewriting the LDAP feature to TypeScript and making improvements on top of it. It's natural that over time parts of the code will be changed. We recognize all portions of our platform had contributions from our community. For those who contributed to LDAP/SAML/Custom Oauth we will make sure it will not have a negative impact on their operation. Please contact @Muni.narayan on open server or [muni.narayan@rocket.chat](mailto:muni.narayan@rocket.chat)
+
 ## How will this affect my air-gapped \(no internet connection\) environment? Can’t we just pull from our intranet easily anyway?
 
 If the Rocket.Chat server is air-gapped but integrated with an internal LDAP server, then there is a need to apply an enterprise edition license to continue to use advanced LDAP/SAML/Oauth features when you upgrade.
@@ -65,10 +69,6 @@ If you cannot log in without getting any error messages \(the last thing in the 
 ### No users are created even if everything looks good
 
 Every Rocket.Chat user has to have an email. So either the LDAP users need to have an email or you have to set a default domain using the setting "default domain".
-
-## I've contributed to building LDAP/SAML/Custom Oauth and now I can't use my code. What should I do?
-
-We are rewriting the LDAP feature to TypeScript and making improvements on top of it. It's natural that over time parts of the code will be changed. We recognize all portions of our platform had contributions from our community. For those who contributed to LDAP/SAML/Custom Oauth we will make sure it will not have a negative impact on their operation. Please contact @Muni.narayan on open server or [muni.narayan@rocket.chat](mailto:muni.narayan@rocket.chat)
 
 ## References
 
