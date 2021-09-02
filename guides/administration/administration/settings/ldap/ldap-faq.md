@@ -66,6 +66,10 @@ If you cannot log in without getting any error messages \(the last thing in the 
 
 Every Rocket.Chat user has to have an email. So either the LDAP users need to have an email or you have to set a default domain using the setting "default domain".
 
+## I've contributed to building LDAP/SAML/Custom Oauth and now I can't use my code. What should I do?
+
+We are rewriting the LDAP feature to TypeScript and making improvements on top of it. It's natural that over time parts of the code will be changed. We recognize all portions of our platform had contributions from our community. For those who contributed to LDAP/SAML/Custom Oauth we will make sure it will not have a negative impact on their operation. Please contact @Muni.narayan on open server or [muni.narayan@rocket.chat](mailto:muni.narayan@rocket.chat)
+
 ## References
 
 MS LDAP Info: [https://msdn.microsoft.com/en-us/library/windows/desktop/aa746475\(v=vs.85\).aspx](https://msdn.microsoft.com/en-us/library/windows/desktop/aa746475%28v=vs.85%29.aspx)
