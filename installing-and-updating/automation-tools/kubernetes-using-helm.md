@@ -6,7 +6,7 @@ description: Installing Rocket.Chat Chart on Kubernetes using Helm
 
 > **WARNING**: Upgrading to chart version 1.1.0 \(Rocket.Chat 1.0.3\) might require extra steps to retain the MongoDB data. See [Upgrading](kubernetes-using-helm.md#upgrading) for more details.
 
-Helm is a tool that streamlines installing and managing Kubernetes applications. Think of it like apt/yum/homebrew for Kubernetes, helm uses a packaging format called charts. A chart is a collection of files that describe a related set of Kubernetes resources. The Rocket.Chat helm chart packages Rocket.Chat server and mongodb. Options for the Rocket.Chat helm chart can be found [here](https://artifacthub.io/packages/helm/helm-stable/rocketchat).  
+Helm is a tool that streamlines installing and managing Kubernetes applications. Think of it like apt/yum/homebrew for Kubernetes, helm uses a packaging format called charts. A chart is a collection of files that describe a related set of Kubernetes resources. The Rocket.Chat helm chart packages Rocket.Chat server and mongodb. Options for the Rocket.Chat helm chart can be found [here](https://artifacthub.io/packages/helm/rocketchat-server/rocketchat).  
   
 Working with Helm and Kubernetes is especially simple if you are using Ubuntu 20.04lts, 18.04lts, or 16.04lts.   See [microk8s installation ](https://microk8s.io/docs%20)details.      Helm 3 is the latest version, and it is already built into microk8s,  you can access it via the command:
 
