@@ -11,11 +11,11 @@ To configure LDAP authentication, go to the LDAP section of administration setti
 |         Filter what LDAP users can log in |  | Yes | There are two settings to manage this: Search Filter and Group Filter |
 |         Merge with existing Rocket.Chat users | Yes | Yes | Detect if the LDAP user is already registered on Rocket.Chat and use the same user for both authentication types |
 | LDAP encryptions | Yes | Yes | The encryption method used to secure communications to the LDAP server |
-| Sync User Data |  |  | Load information from the LDAP user to Rocket.Chat |
+| **Sync User Data** |  |  | Load information from the LDAP user to Rocket.Chat |
 |         Load Basic User Data from LDAP | Yes | Yes | Email, name, and username |
 |         Load Custom User Data from LDAP |  | Yes | Load any LDAP attribute to a custom field on Rocket.Chat |
 |         Load Avatars |  | Yes | Load the user's avatar from an LDAP attribute |
-|         Advanced-Data Sync |  |  | Perform additional operations based on data from LDAP |
+|         **Advanced-Data Sync** |  |  | Perform additional operations based on data from LDAP |
 |         Load Roles |  | Yes | You can map any LDAP group to a Rocket.Chat role |
 |         Auto-Subscribe to Channels |  | Yes | You can map any LDAP group to a Rocket.Chat channel |
 |         Auto-Unsubscribe from Channels |  | Yes | You can also remove users from Rocket.Chat channels on LDAP |
