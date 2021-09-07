@@ -67,7 +67,7 @@ If you are using a Docker setup, [click here to find an alternative article](htt
 7. If running with a Replica-Set in your mongo.conf initialize replica set
 
    ```text
-   mongo --evel 'rs.initiate()'
+   mongo --eval 'rs.initiate()'
    ```
 
 8. Import dump back into \(_wiredTiger_\) MongoDB:
