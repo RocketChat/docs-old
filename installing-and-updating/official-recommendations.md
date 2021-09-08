@@ -87,7 +87,7 @@ Production deployments should continually collect metrics regarding the installa
 
 Rocket.Chat cuts a new release every month, please check the link below for more information about the release cycles and make sure you are running a supported version.
 
-{% page-ref page="../getting-support.md" %}
+{% page-ref page="../getting-support/" %}
 
 
 

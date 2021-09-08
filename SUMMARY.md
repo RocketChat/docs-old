@@ -68,7 +68,9 @@
     * [Windows Server](installing-and-updating/community-supported-installation/windows-server.md)
   * [Mobile and Desktop Apps](installing-and-updating/mobile-and-desktop-apps.md)
   * [Microservices Setup \[beta\]](installing-and-updating/micro-services-setup-beta.md)
-* [Getting Support](getting-support.md)
+* [Getting Support](getting-support/README.md)
+  * [Asking for help](getting-support/asking-for-help.md)
+  * [Support FAQs](getting-support/support-faqs.md)
 * [Development Docs](development-docs.md)
 
 ## Guides
