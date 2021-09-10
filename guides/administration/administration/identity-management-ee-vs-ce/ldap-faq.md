@@ -1,8 +1,8 @@
 # Identity Management EE FAQ
 
-## What exactly will be moved from Community \(CE\) to Enterprise Edition \(EE\)? When? \(More than LDAP.\)
+## What exactly will be implemented on Enterprise Edition \(EE\) only? When will this be effective?
 
-Rocket.Chat will be launching a re-factored set of advanced LDAP features by September 28th. The ability to connect to your LDAP server to sync user names and unique identifiers will remain in the Community Edition together with existing social login features.  All advanced LDAP features including extended user attribute sync, group/team management, background sync, and SAML integration will move to the Enterprise edition.  This change will enable Rocket to support ongoing improvements to our suite of identity management solutions while continuing to make our basic LDAP directory synchronization codebase available for use and extension by the Rocket.Chat community.
+Rocket.Chat will be launching a re-factored set of advanced LDAP features by September 28th. The ability to connect to your LDAP server to sync user names and unique identifiers will remain in the Community Edition together with existing social login features.  Selected advanced LDAP features including extended user attribute sync, group/team management, background sync, and SAML integration will be implemented only in the Enterprise edition.  This change will enable Rocket.Chat to support ongoing improvements to our suite of identity management solutions while continuing to make our basic LDAP directory synchronization codebase available for use and extension by the Rocket.Chat community.
 
 ## What LDAP, Active Directory, OAuth, SAML mean, and how do these things work together?
 
@@ -24,7 +24,7 @@ The ability to integrate with your organization’s user directory service is im
 
 ## What will community users not be able to do anymore? Examples.
 
-In order to access the re-factored advanced LDAP, SAML and, Oauth features workspaces will require an Enterprise license.  Advanced features include extended user attribute synchronization, group and team management, SAML integration, and advanced Oauth configuration.
+In order to enjoy the complete suite of re-factored advanced LDAP, SAML and, Oauth features workspaces will require an Enterprise license.  These advanced features include extended user attribute synchronization, group and team management, SAML integration, and advanced Oauth configuration.
 
 View full functionalities:
 
@@ -38,7 +38,7 @@ View full functionalities:
 
 {% page-ref page="./" %}
 
-## Will the move affect Single Sign-On capabilities? Please explain single sign-on.
+## Will the new implementation affect Single Sign-On capabilities? Please explain single sign-on.
 
 Single Sign-On \(SSO\) is an authentication scheme that allows a user to log in with a single ID and password to any of several related, yet independent, software systems. True single sign-on allows the user to log in once and access services without re-entering authentication factors. Workspaces that use social login capabilities \(users sign-on via Google, Linked In, etc.\) will not be impacted by this change.  
 
@@ -48,7 +48,7 @@ We are rewriting the LDAP feature to TypeScript and making improvements on top o
 
 ## How will this affect my air-gapped \(no internet connection\) environment? Can’t we just pull from our intranet easily anyway?
 
-If the Rocket.Chat server is air-gapped but integrated with an internal LDAP server, then there is a need to apply an enterprise edition license to continue to use advanced LDAP/SAML/Oauth features when you upgrade.
+If the Rocket.Chat server is air-gapped but integrated with an internal LDAP server, then there is a need to apply an enterprise edition license to access the complete suite of  advanced LDAP/SAML/Oauth features when you upgrade.
 
 ## The reason a division of our team/company uses RC is for security, and/or it is air-gapped. This LDAP change doesn’t seem to affect us for our purposes – but will this have some sort of unanticipated effect on our security processes/ability to maintain data privacy? If so, please explain so we can consider it further.
 
