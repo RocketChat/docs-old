@@ -1,4 +1,4 @@
-# LDAP FAQ
+# Identity Management EE FAQ
 
 ## What exactly will be moved from Community \(CE\) to Enterprise Edition \(EE\)? When? \(More than LDAP.\)
 
