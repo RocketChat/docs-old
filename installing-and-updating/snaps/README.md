@@ -217,7 +217,7 @@ sudo snap start rocketchat-server.rocketchat-server
 #### 1. Stop your rocketchat-server:
 
 ```text
-sudo snap stop snap.rocketchat-server.rocketchat-server
+sudo snap stop rocketchat-server.rocketchat-server
 ```
 
 _Please note: while the rocketchat-server service should be stopped, the rocketchat-mongo service should be kept running!_
