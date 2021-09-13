@@ -32,7 +32,7 @@ description: 'List of available login methods and features.  Including:'
   * **Auto-Join Teams:** You can map any LDAP group to a Rocket.Chat team
   * **Auto-Leave Teams:** You can also remove users from Rocket.Chat teams on LDAP
 * **Background Sync:** Periodic background sync
-  * **Incremental Sync:** Give the option to use Incremental Sync \(better performance\)
+  * **Incremental Sync:** Give the option to use Incremental Sync \(will be implemented in a future release\)
   * **Sync User Active State:** Determine if users should be enabled or disabled on Rocket.Chat based on the LDAP status
   * **Auto logout:** Auto logout user on next sync when it's removed/disabled on LDAP group
 
@@ -72,11 +72,12 @@ description: 'List of available login methods and features.  Including:'
     * WordPress
 * **Basic Custom OAuth:** Basic login settings
   * Login via Custom OAuth protocol using a unique identifier
-  * Username Import
-  * Avatar import
+  * Load Name, Username and Email from OAuth
+  * Import Avatar from OAuth
 
 ### Enterprise
 
-* **Advanced Custom OAuth:** Extra login settings as mappings and import of extra information
-  * Role mapping
+* **Advanced Custom OAuth:** 
+  * Assign Rocket.Chat roles based on OAuth roles
+  * Join channels automatically based on OAuth roles
 
