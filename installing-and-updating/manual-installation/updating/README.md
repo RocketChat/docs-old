@@ -21,7 +21,7 @@ sudo rm -rf /opt/Rocket.Chat
 Make sure you have the needed build packages Debian
 
 ```text
-sudo apt-get install -y build-essential graphicsmagic
+sudo apt-get install -y build-essential graphicsmagick
 ```
 
 Centos
