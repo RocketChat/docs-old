@@ -14,7 +14,7 @@ Here is how the Live Poll looks in action. The time at which the Poll will end i
 
 ![](../../../../.gitbook/assets/poll/poll_live_poll_1.png)
 
-If you're outside of the UTC timezone, you can configure the Poll App to use your timezone. Refer the [configuration doc](../poll-app-configuration/settings.md) for more information.
+If you're outside of the UTC timezone, you can configure the Poll Plus App to use your timezone. Refer the [configuration doc](../poll-plus-app-configuration/settings.md) for more information.
 
 ## Late Retrieval
 

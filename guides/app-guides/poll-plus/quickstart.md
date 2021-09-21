@@ -27,5 +27,5 @@ In order to finish the poll, select the options menu available in the poll itsel
 ![](../../../.gitbook/assets/poll/poll_6.jpg)
 
 ## What's Next?
-- [Configure](./poll-app-configuration/settings.md) your Poll App using the Poll App settings.
+- [Configure](./poll-plus-app-configuration/settings.md) your Poll App using the Poll App settings.
 - For advanced usage, check out the [Guides](./guides/mixed-visibility-polls.md).

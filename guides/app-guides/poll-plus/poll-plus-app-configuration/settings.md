@@ -1,17 +1,17 @@
 # Settings
 
-The Poll app offers customization options through the App details page. 
+The Poll Plus app offers customization options through the App details page. 
 
-- Go to **Administration &gt; Apps &gt; Poll**.
+- Go to **Administration &gt; Apps &gt; Poll Plus**.
 - Navigate to the **Settings** section.
 
 ![](../../../../.gitbook/assets/poll/poll_settings.jpg)
 
 ### Use Name Attribute
-The Poll App provides you with an option to display the voter identity as either the full name or the username of the voter.
+The Poll Plus App provides you with an option to display the voter identity as either the full name or the username of the voter.
 
 ### Timezone
-Since Rocket.Chat is used globally, not everyone might be comfortable with UTC. The Poll App allows you to choose which timezone the poll finish times would be displayed in.
+Since Rocket.Chat is used globally, not everyone might be comfortable with UTC. The Poll Plus App allows you to choose which timezone the poll finish times would be displayed in.
 
 The default value for this setting is the UTC timezone.
 

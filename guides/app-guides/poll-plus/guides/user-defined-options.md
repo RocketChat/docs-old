@@ -1,6 +1,6 @@
 # User Defined Options
 
-The Poll App provides the poll creator to allow or disallow users from adding options to an already created poll.
+The Poll Plus App provides the poll creator to allow or disallow users from adding options to an already created poll.
 
 During poll creation, the creator can choose to allow or disallow users to add options to the poll.
 
