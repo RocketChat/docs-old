@@ -598,10 +598,10 @@ Code blocks should be fenced.
 **Correct**:
 
 ```text
-```text
-    codeblock using indentation.
-​
+     ```
+     codeblock.
+     ```
 ```
 
-\`\`\`
+
 
