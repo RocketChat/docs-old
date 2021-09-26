@@ -12,7 +12,7 @@ Some excellent use-cases for the Live Poll are stand-up and retro meetings. An a
 
 Here is how the Live Poll looks in action. The time at which the Poll will end is shown in the below figure.
 
-![](../../../../.gitbook/assets/poll_live_poll_1.png)
+![](../../../../.gitbook/assets/poll-plus/poll_live_poll_1.png)
 
 If you're outside of the UTC timezone, you can configure the Poll Plus App to use your timezone. Refer the [configuration doc](../poll-plus-app-configuration/settings.md) for more information.
 
@@ -24,7 +24,7 @@ To use the Late Retrieval feature make use of the `save` subcommand in the forma
 
 Post-creation of the Live Poll, a message along with the **poll id** to retrieve it will be visible only to the poll creator.
 
-![](../../../../.gitbook/assets/poll_live_poll_2.jpg)
+![](../../../../.gitbook/assets/poll-plus/poll_live_poll_2.jpg)
 
 Make use of the `/poll live load <id>` command to "play" the Live Poll. Here `<id>` is the poll id that was visible to the poll creator.
 

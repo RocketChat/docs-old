@@ -9,4 +9,4 @@ The following templates poll types are available:
 - Agree/Disagree Poll.
 - Emoji Rank Poll.
 
-![](../../../../.gitbook/assets/poll_template_based.gif)
+![](../../../../.gitbook/assets/poll-plus/poll_template_based.gif)

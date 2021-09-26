@@ -2,13 +2,13 @@
 
 After the installation, the Poll app will be available by using the slash command `/poll` in the message box of the channel you want to create the poll
 
-![](../../../.gitbook/assets/poll_3.jpg)
+![](../../../.gitbook/assets/poll-plus/poll_3.jpg)
 
 This page demonstrates a very basic usage of the Poll app. For more advanced usage and to explore the Poll App's complete capabilities, please refer to the [Guides](/guides/mixed-visibility-polls.md) section.
 
 After executing the `/poll` command, a pop-up will be triggered for the user to create the poll as below:
 
-![](../../../.gitbook/assets/poll_1.jpg)
+![](../../../.gitbook/assets/poll-plus/poll_1.jpg)
 
 - **Insert your question:** Field to add the question related to the poll.
 - **Options field:** The options available to reply the poll.
@@ -20,12 +20,12 @@ After executing the `/poll` command, a pop-up will be triggered for the user to 
 
 After creating the poll, the same will be available within the channel/room for the users to vote
 
-![](../../../.gitbook/assets/poll_5.jpg)
+![](../../../.gitbook/assets/poll-plus/poll_5.jpg)
 
 In order to finish the poll, select the options menu available in the poll itself and select "Finish poll"
 
-![](../../../.gitbook/assets/poll_6.jpg)
+![](../../../.gitbook/assets/poll-plus/poll_6.jpg)
 
 ## What's Next?
-- [Configure](./poll-plus-app-configuration/settings.md) your Poll App using the Poll App settings.
+- [Configure](./settings.md) your Poll App using the Poll App settings.
 - For advanced usage, check out the [Guides](./guides/mixed-visibility-polls.md).

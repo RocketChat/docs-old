@@ -8,9 +8,10 @@ You can install our _Poll Plus_ Rocket.Chat App from your Rocket.Chat Administra
 - Search for the **Poll Plus** app and click on the item.
 - Click on the **Install** button.
 
-![](../../../.gitbook/assets/poll_installation.jpg)
+<!-- Change image to Poll Plus from Marketplace -->
+![](../../../.gitbook/assets/poll-plus/poll_installation.jpg)
 
 ## What's Next?
 - Head over to [Quickstart](./quickstart.md) to see the Poll Plus App in action.
-- [Configure](./poll-plus-app-configuration/settings.md) your Poll App using the Poll Plus App settings.
+- [Configure](./settings.md) your Poll App using the Poll Plus App settings.
 - For advanced usage, check out the [Guides](./guides/mixed-visibility-polls.md).
