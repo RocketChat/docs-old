@@ -6,8 +6,8 @@ The word cloud feature makes use of a word cloud API for fetching these. If you 
 
 Word Cloud can be enabled by setting the word cloud property to **enabled** within the poll creation modal.
 
-![](../../../../.gitbook/assets/poll/poll_word_cloud.jpg)
+![](../../../../.gitbook/assets/poll_word_cloud.jpg)
 
 A complete user-flow for the word cloud feature has been shown below:
 
-![](../../../../.gitbook/assets/poll/poll_word_cloud.gif)
+![](../../../../.gitbook/assets/poll_word_cloud.gif)

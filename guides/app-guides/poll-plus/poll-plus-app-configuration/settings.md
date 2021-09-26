@@ -5,7 +5,7 @@ The Poll Plus app offers customization options through the App details page.
 - Go to **Administration &gt; Apps &gt; Poll Plus**.
 - Navigate to the **Settings** section.
 
-![](../../../../.gitbook/assets/poll/poll_settings.jpg)
+![](../../../../.gitbook/assets/poll_settings.jpg)
 
 ### Use Name Attribute
 The Poll Plus App provides you with an option to display the voter identity as either the full name or the username of the voter.
