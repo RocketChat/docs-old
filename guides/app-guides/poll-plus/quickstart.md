@@ -1,4 +1,4 @@
-## Quickstart
+# Quickstart
 
 After the installation, the Poll app will be available by using the slash command `/poll` in the message box of the channel you want to create the poll
 

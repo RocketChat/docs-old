@@ -359,7 +359,7 @@
   * [Poll Plus](guides/app-guides/poll-plus/README.md)
     * [Quickstart](guides/app-guides/poll-plus/quickstart.md)
     * [Configuration](guides/app-guides/poll-plus/settings.md)
-    * [Guides](guides/app-guides/poll-plus/README.md)
+    * [Guides](guides/app-guides/poll-plus/guides/README.md)
       * [Mixed Visibility Polls](guides/app-guides/poll-plus/guides/mixed-visibility-polls.md)
       * [Word Cloud](guides/app-guides/poll-plus/guides/word-cloud.md)
       * [User Defined Options](guides/app-guides/poll-plus/guides/user-defined-options.md)
