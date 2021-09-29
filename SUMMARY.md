@@ -356,6 +356,7 @@
         * [Delete Whatsapp](guides/app-guides/omnichannel-apps/whatsapp/whatsapp-configuration/delete-whatsapp.md)
       * [WhatsApp Agent's Guide](guides/app-guides/omnichannel-apps/whatsapp/whatsapp-agents-guide.md)
   * [Data Loss Prevention \(DLP\) App Admin Guide](guides/app-guides/data-loss-prevention-dlp-app.md)
+  * [Poll](guides/app-guides/poll.md)
   * [Poll Plus](guides/app-guides/poll-plus/README.md)
     * [Quickstart](guides/app-guides/poll-plus/quickstart.md)
     * [Configuration](guides/app-guides/poll-plus/settings.md)
