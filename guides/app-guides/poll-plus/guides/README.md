@@ -2,7 +2,7 @@
 description: Poll Plus Guides
 ---
 
-# Poll Plus Guides
+# Guides
 
 {% page-ref page="mixed-visibility-polls.md" %}
 

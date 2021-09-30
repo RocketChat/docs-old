@@ -22,8 +22,6 @@ The channels are added to the team, as shown below:
 
 If you select some channel you are not the owner of, you'll get the following message.
 
- 
-
 ![](../../../../.gitbook/assets/image%20%28502%29.png)
 
 {% hint style="warning" %}

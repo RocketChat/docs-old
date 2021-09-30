@@ -12,9 +12,9 @@ Some excellent use-cases for the Live Poll are stand-up and retro meetings. An a
 
 Here is how the Live Poll looks in action. The time at which the Poll will end is shown in the below figure.
 
-![](../../../../.gitbook/assets/poll-plus/poll_live_poll_1.png)
+![](../../../../.gitbook/assets/poll_live_poll_1.png)
 
-If you're outside of the UTC timezone, you can configure the Poll Plus App to use your timezone. Refer the [configuration doc](../poll-plus-app-configuration/settings.md) for more information.
+If you're outside of the UTC timezone, you can configure the Poll Plus App to use your timezone. Refer the [configuration doc](https://github.com/RocketChat/docs/tree/5b094b49dc67c76d97a30a786a914ee16d5772b0/guides/app-guides/poll-plus/poll-plus-app-configuration/settings.md) for more information.
 
 ## Late Retrieval
 
@@ -24,10 +24,11 @@ To use the Late Retrieval feature make use of the `save` subcommand in the forma
 
 Post-creation of the Live Poll, a message along with the **poll id** to retrieve it will be visible only to the poll creator.
 
-![](../../../../.gitbook/assets/poll-plus/poll_live_poll_2.jpg)
+![](../../../../.gitbook/assets/poll_live_poll_2.jpg)
 
 Make use of the `/poll live load <id>` command to "play" the Live Poll. Here `<id>` is the poll id that was visible to the poll creator.
 
 In case the user enters a wrong or non-existent Live Poll ID a notification message, only visible to the user, is sent within the room.
 
 Speaking of teachers using Rocket.Chat for exams, the Live Poll Late Retrieval features proves an excellent tool for teachers to create quizzes even weeks before and then schedule the quiz on D-day with ease. All this while having control over the time limit to answer each question.
+
