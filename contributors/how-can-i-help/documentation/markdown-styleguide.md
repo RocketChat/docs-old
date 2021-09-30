@@ -597,11 +597,9 @@ Code blocks should be fenced.
 
 **Correct**:
 
-````
+```text
 ```
 codeblock without indentation.
 ```
-````
-
-
+```
 
