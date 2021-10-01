@@ -4,7 +4,7 @@ Add Sentry notifications via a new WebHook in Rocket.Chat This script works for 
 
 1. In Rocket.Chat go to "Administration"-&gt;"Integrations" and create "New Integration".
 2. Choose Incoming WebHook.
-3. Follow all instructions like Enable, give it a name, link to channel etc. Bonus: add [https://avatars.io/twitter/getsentry/medium](https://avatars.io/twitter/getsentry/medium) as Avatar URL.
+3. Follow all instructions like Enable, give it a name, link to channel etc. Bonus: add [https://unavatar.io/twitter/getsentry](https://unavatar.io/twitter/getsentry) as Avatar URL.
 4. Set "Enable Script" to true and enter the javascript in the "Script" box.
 5. Press Save changes and copy the _Webhook URL_ \(added just below the script box\).
 6. Go to your Sentry project, ie. [https://app.getsentry.com/](https://app.getsentry.com/)&lt; organization &gt;/&lt; project &gt;/settings/plugins/ and enable the "WebHooks" integration. It's in the project "settings" under All Integrations. A WebHooks integration is added there when enabled.
