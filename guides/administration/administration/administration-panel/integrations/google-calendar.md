@@ -16,15 +16,15 @@ This integration uses Rocket.Chat incoming webhook. With this integration, you'l
 4. Enable the incoming webhook script. For the script, copy the contents of this file - [https://github.com/debdutdeb/rocketchat-google-calendar/blob/main/script.js](https://github.com/debdutdeb/rocketchat-google-calendar/blob/main/script.js)
 5. Go to the bottom of the page and click "save".
 
-![Initial Configuration](../../../../.gitbook/assets/screenshot0%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29.png)
+![Initial Configuration](../../../../../.gitbook/assets/screenshot0%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29.png)
 
-![Enable Script](../../../../.gitbook/assets/image%20%28560%29.png)
+![Enable Script](../../../../../.gitbook/assets/image%20%28560%29.png)
 
-![Save Webhook](../../../../.gitbook/assets/image%20%28510%29.png)
+![Save Webhook](../../../../../.gitbook/assets/image%20%28510%29.png)
 
 As soon as the webhook is saved, you'll notice a webhook URL - 
 
-![Webhook URL](../../../../.gitbook/assets/image%20%28523%29.png)
+![Webhook URL](../../../../../.gitbook/assets/image%20%28523%29.png)
 
 We'll need this in the next step.
 
@@ -60,7 +60,7 @@ Enter the appropriate values for the respective options.
 
 You'll then be asked to open a link. Click on it and use your Google account to authorize the app. 
 
-![rocketchat-google-calendar](../../../../.gitbook/assets/image%20%28541%29.png)
+![rocketchat-google-calendar](../../../../../.gitbook/assets/image%20%28541%29.png)
 
 Once you get the token, copy and paste it on the terminal and hit enter.
 

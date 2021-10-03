@@ -4,7 +4,7 @@ description: 'Using units, you can group your departments for management purpose
 
 # Units Manager's Guide
 
-![](../../.gitbook/assets/2021-06-10_22-31-38%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29.jpg)
+![](../../.gitbook/assets/2021-06-10_22-31-38%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%282%29.jpg)
 
 Suppose you are a manager or a monitor and want to oversee multiple departments, you can make a unit of those departments and manage it.
 

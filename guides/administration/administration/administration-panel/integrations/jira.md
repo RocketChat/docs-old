@@ -18,5 +18,5 @@ _Integration for Rocket.Chat that summarizes any JIRA issues mentioned._
 
 Example of Jira integration:
 
-![Jira integration](../../../../.gitbook/assets/jira-webhook.png)
+![Jira integration](../../../../../.gitbook/assets/jira-webhook.png)
 

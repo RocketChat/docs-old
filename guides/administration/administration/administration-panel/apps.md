@@ -4,9 +4,9 @@ You can view all of your installed Rocket.Chat Apps and manage them.
 
 To access apps: 
 
-![](../../../.gitbook/assets/image%20%28385%29.png)
+![](../../../../.gitbook/assets/image%20%28385%29.png)
 
-![](../../../.gitbook/assets/image%20%28389%29.png)
+![](../../../../.gitbook/assets/image%20%28389%29.png)
 
 Here you can :
 

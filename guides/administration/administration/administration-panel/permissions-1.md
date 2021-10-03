@@ -36,7 +36,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 
 | Permission | Purpose |
 | :--- | :--- |
-| `access-mailer` | Permission to use the [Mailer Tool](settings/email/mailer.md). Accessible from Administration -&gt; Mailer. |
+| `access-mailer` | Permission to use the [Mailer Tool](../settings/email/mailer.md). Accessible from Administration -&gt; Mailer. |
 | `access-permissions` | Permission to create and edit roles and permissions. Accessible from Administration -&gt; Permissions. |
 | `add-oauth-service` | Permission to manage different OAuth services and apps. Accessible from Administration -&gt; OAuth Apps. |
 | `add-user-to-any-c-room` | Permission to add a user to a public channel. |
@@ -46,7 +46,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | `archive-room` | Permission to archive a channel. |
 | `assign-admin-role` | Permission to promote user to Admin. Requires view-user-administration permission. Accessible from Administration -&gt; Users. |
 | `assign-roles` | Permission to assign roles for a user. Requires view-user-administration permission. Accessible from Administration -&gt; Users. |
-| `auto-translate` | Permission to use the [Auto Translate Tool](../misc.-admin-guides/google-cloud/auto-translate.md). Accessible from Administration -&gt; Message -&gt; Auto Translate. |
+| `auto-translate` | Permission to use the [Auto Translate Tool](../../misc.-admin-guides/google-cloud/auto-translate.md). Accessible from Administration -&gt; Message -&gt; Auto Translate. |
 | `ban-user` | Permission to ban a user. |
 | `bulk-create-c` | Permission to bulk create public channels. |
 | `bulk-register-user` | Permission to bulk add users. |

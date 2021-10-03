@@ -4,7 +4,7 @@ Rocket.Chat provides you with a lot of Rocket.Chat apps. They can be installed t
 
 You can access the marketplace in **Administration &gt; Marketplace**.
 
-![](../../../.gitbook/assets/image%20%28413%29.png)
+![](../../../../.gitbook/assets/image%20%28413%29.png)
 
 {% hint style="info" %}
 Your workspace should be \(registered and\) connected to Rocket.Chat Cloud in order to access the marketplace and install Rocket.Chat apps from it.

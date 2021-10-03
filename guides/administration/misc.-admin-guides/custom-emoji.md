@@ -29,5 +29,5 @@ Search and click on the emoji you want to delete in the Custom Emoji section und
 
 Press the DELETE or EDIT button to delete or update the selected emoji respectively.
 
-> Admins might have set the [permissions](../administration/permissions-1.md) about who can manage these emojis.
+> Admins might have set the [permissions](../administration/administration-panel/permissions-1.md) about who can manage these emojis.
 

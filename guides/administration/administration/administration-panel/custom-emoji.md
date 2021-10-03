@@ -7,7 +7,7 @@ Rocket.Chat allows you to add custom emoji files that can be used within Rocket.
 * Go to the **Administration** tab
 * Select  **Custom Emoji**
 
-![](../../../.gitbook/assets/image%20%28349%29.png)
+![](../../../../.gitbook/assets/image%20%28349%29.png)
 
 * Click  the **+** on the top right 
 * Enter a name for your custom emoji
