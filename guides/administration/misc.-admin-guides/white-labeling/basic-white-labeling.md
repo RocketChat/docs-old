@@ -1,6 +1,6 @@
 # Basic White-labeling
 
-This guide will focus on customizations that non technical users can make to their Rocket.Chat Server. To achieve this you will be using only the admin settings.
+This guide will focus on customizations that non-technical users can make to their Rocket.Chat Server. To achieve this you will be using only the admin settings.
 
 ## Layout
 

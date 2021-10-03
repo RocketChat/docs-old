@@ -249,7 +249,6 @@
   * [Misc. Admin Guides](guides/administration/misc.-admin-guides/README.md)
     * [Create the first administrator](guides/administration/misc.-admin-guides/create-the-first-admin.md)
     * [White-Labeling \(Server and Web App\)](guides/administration/misc.-admin-guides/white-labeling/README.md)
-      * [Advanced White-Labeling](guides/administration/misc.-admin-guides/white-labeling/advanced-white-labeling.md)
       * [Basic White-labeling](guides/administration/misc.-admin-guides/white-labeling/basic-white-labeling.md)
     * [Authentication](guides/administration/misc.-admin-guides/authentication/README.md)
       * [OpenID Connect](guides/administration/misc.-admin-guides/authentication/open-id-connect/README.md)
