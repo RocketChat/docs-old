@@ -1,4 +1,4 @@
-# Create the first administrator
+# Creating the first administrator
 
 After you deploy your server, the first user to register becomes the administrator, with power to set other users as administrators.
 

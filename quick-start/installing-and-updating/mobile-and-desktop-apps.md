@@ -36,7 +36,7 @@ You can find the download for the latest releases [here](https://github.com/Rock
 
 ## Mobile Apps
 
-![](../.gitbook/assets/ic_launcher-web%20%281%29.png)
+![](../../.gitbook/assets/ic_launcher-web%20%281%29.png)
 
 ### Rocket.Chat
 
@@ -54,7 +54,7 @@ Beta versions of our apps are available on Google Play beta and TestFlight. Help
 
 [Rocket.Chat Beta on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.android)
 
-![](../.gitbook/assets/ic_launcher-web.png)
+![](../../.gitbook/assets/ic_launcher-web.png)
 
 ### Rocket.Chat Experimental
 

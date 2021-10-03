@@ -6,7 +6,7 @@ Check out the subpages for information on how to configure LDAP / AD.
 
 Looking for the list of features and which ones are community or enterprise? Check the Identity Management page below.
 
-{% page-ref page="../../identity-management-ee-vs-ce/" %}
+{% page-ref page="../../../../quick-start/identity-management-ee-vs-ce/" %}
 
 
 

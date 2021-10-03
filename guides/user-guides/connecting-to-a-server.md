@@ -26,7 +26,7 @@ To add a new server, click the **plus** icon below the server list on the left s
 
 ## Use the mobile app
 
-To connect to a Rocket.Chat server using a mobile client app [download](../../installing-and-updating/mobile-and-desktop-apps.md#mobile-apps) the app for your mobile operating system. 
+To connect to a Rocket.Chat server using a mobile client app [download](../../quick-start/installing-and-updating/mobile-and-desktop-apps.md#mobile-apps) the app for your mobile operating system. 
 
 Open the app. If this is your first time using the mobile app, the server connect screen appears. Press **Join a workspace**, enter a valid server address and then click **Connect**.
 

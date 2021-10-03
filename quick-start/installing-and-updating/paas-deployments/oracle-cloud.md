@@ -10,23 +10,23 @@ The Rocket.Chat App installs a Linux image with everything needed for the Rocket
 
 To be able to install the image from the marketplace you will need to login to your Oracle Cloud Infrastructure account, after that go the main Menu and select Marketplace and Applications:
 
-![](../../.gitbook/assets/oracledocs1.png) ![](../../.gitbook/assets/oracledocs2.png)
+![](../../../.gitbook/assets/oracledocs1.png) ![](../../../.gitbook/assets/oracledocs2.png)
 
 Select the Rocket.Chat application, you will see lots of information about the image including usage instructions to follow once the instance is already running, choose a compartiment for the installation and launch your instance:
 
-![](../../.gitbook/assets/oracledocs3%20%281%29.png) ![](../../.gitbook/assets/oracledocs3.png)
+![](../../../.gitbook/assets/oracledocs3%20%281%29.png) ![](../../../.gitbook/assets/oracledocs3.png)
 
 This application will run in a compute instance, you can change the shape of it to fit your usage needs, find more information of our minimum resource recommendations [here](https://docs.rocket.chat/installation/minimum-requirements/#minimum-requirements-for-server-deployment).
 
-![ComputeInstance](../../.gitbook/assets/oracledocs5.png)
+![ComputeInstance](../../../.gitbook/assets/oracledocs5.png)
 
 Wait for the provisioning stage to be finished and you will find information about your instance you will need later, like the public IP and the subnet where it's running, the image running in your instance allows traffic to Rocket.Chat required ports using iptables rules, but you need to edit the security group associted to the subnet where the instance is running for the traffic to actually go through:
 
-![Ports](../../.gitbook/assets/oracledocs6.png) ![Ports](../../.gitbook/assets/oracledocs7.png) ![Ports](../../.gitbook/assets/oracledocs8.png)
+![Ports](../../../.gitbook/assets/oracledocs6.png) ![Ports](../../../.gitbook/assets/oracledocs7.png) ![Ports](../../../.gitbook/assets/oracledocs8.png)
 
 Finally add the following ports to the security group 3000, 443 and optionally 80 \(you can edit this later and adapt it to your architecture designs\):
 
-![Ports](../../.gitbook/assets/oracledocs9.png)
+![Ports](../../../.gitbook/assets/oracledocs9.png)
 
 And that should be all you need to do in the Oracle account, now move to the new instance running, you’ll likely want a registered domain name to access Rocket.Chat and secure the access.
 
