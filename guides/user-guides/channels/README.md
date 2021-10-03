@@ -37,7 +37,7 @@ There are several notification settings a user can customize to channels. To fin
 * **Hide/Show counter:** Show the number of unread messages for a channel.
 * **Notification sound:** Choose a sound for notifications besides the alerts default **Desktop**.  Mobile currently supports only the alerts inside your mobile device. You can also select when to play the alert, duration of the alert, and the alert itself.
 
-> There are some default choices for audio provided by Rocket.Chat. However, you also get to choose custom audio files for the same. Get further information about [Custom Sounds](../../administration/administration/administration-panel/custom-sounds.md).
+> There are some default choices for audio provided by Rocket.Chat. However, you also get to choose custom audio files for the same. Get further information about [Custom Sounds](../../administration/admin-panel/custom-sounds.md).
 
 ## Joining new channels and starting direct messages
 

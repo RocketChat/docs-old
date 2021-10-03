@@ -2,7 +2,7 @@
 
 ## Streaming
 
-If the feature [Youtube Livestream](../../../administration/administration/settings/youtube-broadcasting.md) is enabled, the **Streaming** Tab activates on the channel actions menu.
+If the feature [Youtube Livestream](../../../administration/settings/youtube-broadcasting.md) is enabled, the **Streaming** Tab activates on the channel actions menu.
 
 Through the **Streaming** tab, owners of the channel of server admins can start streaming or add another stream to the channel using a URL.
 

@@ -9,7 +9,7 @@ Canned responses allow you to save message snippets that you can call with short
   
 If you are using canned responses for the first time, please check the Rocket.Chat Admin's guide for canned responses or contact your workspace Administrator to enable canned responses on your workspace.
 
-{% page-ref page="../../administration/administration/settings/canned-responses-rocket.chat-admins-guides.md" %}
+{% page-ref page="../../administration/settings/canned-responses-rocket.chat-admins-guides.md" %}
 
 ## To create a new canned response on your workspace:
 
