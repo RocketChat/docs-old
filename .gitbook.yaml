@@ -7,6 +7,6 @@ redirects:
     guides/developer/mobile-apps/whitelabeling-mobile-apps: development-docs.md
     guides/apps-development/getting-started: development-docs.md
     guides/bots/create-and-run-a-bot/hubot-bot: development-docs.md
-    guides/administration/administration/identity-management-ee-vs-ce: quick-start/identity-management-ee-vs-ce.md
+    guides/administration/administration/identity-management-ee-vs-ce: quick-start/identity-management-ee-vs-ce/README.md
     apps-development/getting-started: development-docs.md
     api/rest-api: development-docs.md
