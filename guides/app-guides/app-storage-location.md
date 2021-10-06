@@ -22,7 +22,7 @@ When setting the storage to the filesystem, you have full control of the package
 * You have to provide the absolute path of the directory that will be used to store the packages in the configuration,
 * The Rocket.Chat server has to have read and write permissions to the path so it can manage the packages
 
-### Important: changing configuration when there are apps installed
+## Changing configuration when there are apps installed
 
 It is not recommended to change storage configuration when there are apps installed. As of right now, there is no migration mechanism to handle moving the packages between different storage methods. Doing so will result in apps not working properly.
 
