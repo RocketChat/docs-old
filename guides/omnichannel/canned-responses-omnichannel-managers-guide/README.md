@@ -1,12 +1,11 @@
 # Canned Responses Omnichannel Manager's Guide
 
-![](../../../.gitbook/assets/2021-06-10_22-31-38%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%282%29%20%283%29.jpg)
+![](../../../.gitbook/assets/2021-06-10_22-31-38%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%282%29%20%283%29%20%282%29.jpg)
 
 {% hint style="info" %}
 Canned responses allow you to save message snippets that you can call with shortcuts \(preceded with `!`\) to communicate a quick note to your visitors in Omnichannel and for messaging in regular conversations inside your Rocket.Chat's workspace.
 {% endhint %}
 
-  
 If you are using canned responses for the first time, please check the Rocket.Chat Admin's guide for canned responses or contact your workspace Administrator to enable canned responses on your workspace.
 
 {% page-ref page="../../administration/settings/canned-responses-rocket.chat-admins-guides.md" %}
@@ -17,7 +16,7 @@ If you are using canned responses for the first time, please check the Rocket.Ch
 
 ![](../../../.gitbook/assets/image%20%28502%29%20%281%29%20%281%29.png)
 
-2. Click **Canned responses** and hit **Create Your First Canned Response**:
+1. Click **Canned responses** and hit **Create Your First Canned Response**:
 
 ![](../../../.gitbook/assets/image%20%28551%29.png)
 
@@ -30,8 +29,6 @@ Your new canned response screen is shown below:
 Please set a Shortcut for your new canned response, as shown below:
 
 ![](../../../.gitbook/assets/image%20%28530%29.png)
-
-
 
 ### Message
 
@@ -55,42 +52,37 @@ Canned responses tags help agents find canned responses specific to a particular
 
 ### Sharing
 
-You can share your canned response according to your need. 
+You can share your canned response according to your need.
 
 1. **Public**: Anyone across your workspace can access your canned response.
 
 ![](../../../.gitbook/assets/image%20%28538%29.png)
 
-2. **Department**: Anyone in the selected department can access your canned response.
+1. **Department**: Anyone in the selected department can access your canned response.
 
 ![](../../../.gitbook/assets/image%20%28498%29.png)
 
-3. **Private**: Only you and Omnichannel managers can access your canned response.
+1. **Private**: Only you and Omnichannel managers can access your canned response.
 
-![](../../../.gitbook/assets/image%20%28506%29%20%282%29%20%282%29%20%282%29.png)
+![](../../../.gitbook/assets/image%20%28506%29%20%282%29%20%282%29%20%283%29.png)
 
 Please hit **Save**. Your new canned response is ready to be used in omnichannel conversations now, as shown below:
 
 ![](../../../.gitbook/assets/image%20%28517%29.png)
 
-  
-  
-
-
 ## Filtering Canned Responses:
 
 You can filter canned responses by:
 
-1. **Search**: ****You can filter by shortcut or message text.
+1. **Search**: _\*\*_You can filter by shortcut or message text.
 
 ![](../../../.gitbook/assets/image%20%28549%29.png)
 
-2. **Sharing**: ****You can filter by sharing.
+1. **Sharing**: _\*\*_You can filter by sharing.
 
 ![](../../../.gitbook/assets/image%20%28500%29.png)
 
-  
-3. **Created By**: You can filter by name of the user who created the canned responses.
+1. **Created By**: You can filter by name of the user who created the canned responses.
 
 ![](../../../.gitbook/assets/image%20%28507%29.png)
 

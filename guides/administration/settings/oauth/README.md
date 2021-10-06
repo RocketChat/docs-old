@@ -13,7 +13,7 @@ To set up your desired provider:
 
 ![](../../../../.gitbook/assets/image%20%2830%29.png)
 
-2. Search '**OAuth'** in **Settings** and open it.
+1. Search '**OAuth'** in **Settings** and open it.
 
 ![](../../../../.gitbook/assets/image%20%28153%29.png)
 
@@ -77,13 +77,11 @@ To add custom OAuth:
 
 ![](../../../../.gitbook/assets/image%20%28151%29.png)
 
-2.  Give a unique name for the custom oauth
+1. Give a unique name for the custom oauth
 
 ![](../../../../.gitbook/assets/image%20%28150%29.png)
 
 ## Refresh OAuth Services
 
 Click Refresh OAuth Services to refresh the options that are displayed on the login screen based on the settings you saved, as shown below:
-
-
 

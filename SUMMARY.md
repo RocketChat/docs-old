@@ -311,6 +311,7 @@
   * [Assign Message Auditing Permissions to Specific Users](guides/message-auditing/assign-message-auditing-permissions-to-specific-users.md)
 * [Message Auditing Log](guides/message-auditing-log.md)
 * [App Guides](guides/app-guides/README.md)
+  * [App Storage Location](guides/app-guides/app-storage-location.md)
   * [Omnichannel Apps](guides/app-guides/omnichannel-apps/README.md)
     * [SMS](guides/app-guides/omnichannel-apps/whatsapp-integration-twilio.md)
     * [Email Inboxes](guides/app-guides/omnichannel-apps/email-inboxes/README.md)

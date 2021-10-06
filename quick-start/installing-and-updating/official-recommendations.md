@@ -54,7 +54,7 @@ Applications running inside virtual machines generally cannot access hardware li
 
 With virtual machines, you have to install an entire guest operating system, which duplicates a lot of the components already running on your host server. Containers don't require this.
 
-{% embed url="https://www.backblaze.com/blog/vm-vs-containers/" %}
+{% embed url="https://www.backblaze.com/blog/vm-vs-containers/" caption="" %}
 
 ### Containers orchestration
 
@@ -73,7 +73,7 @@ At this time, no other containers orchestration/management technologies will be 
 
 ## Hardware
 
-The minimum hardware requirements are described on the page below. 
+The minimum hardware requirements are described on the page below.
 
 {% page-ref page="hardware-requirements.md" %}
 
@@ -81,13 +81,11 @@ The minimum hardware requirements are described on the page below.
 
 Production deployments should continually collect metrics regarding the installation's instances and database. Rocket.Chat supports and recommends the industry-standard Prometheus + Grafana monitoring stack. Grafana dashboards are available in the [Metrics](https://github.com/RocketChat/Rocket.Chat.Metrics) repository.
 
-{% embed url="https://github.com/RocketChat/Rocket.Chat.Metrics" %}
+{% embed url="https://github.com/RocketChat/Rocket.Chat.Metrics" caption="" %}
 
 ## Versions
 
 Rocket.Chat cuts a new release every month, please check the link below for more information about the release cycles and make sure you are running a supported version.
 
 {% page-ref page="../../getting-support/" %}
-
-
 

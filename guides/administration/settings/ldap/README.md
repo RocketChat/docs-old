@@ -8,5 +8,3 @@ Looking for the list of features and which ones are community or enterprise? Che
 
 {% page-ref page="../../../../quick-start/identity-management-ee-vs-ce/" %}
 
-
-

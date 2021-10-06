@@ -62,7 +62,7 @@ Remove user from room button (user info -> more actions)
 
 The Error Light variable will change these elements: The border color when disabled
 
-![Disabled switch button](../.gitbook/assets/disabled-switch%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%284%29%20%284%29.png)
+![Disabled switch button](../.gitbook/assets/disabled-switch%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%284%29%20%281%29.png)
 
 ```text
 Icon on the burger menu in mobile-view
@@ -104,7 +104,7 @@ The switch button (when enabled)
 The done button in the audio upload area (inside message box)
 ```
 
-![Message box with audio recording](../.gitbook/assets/audio-message-box%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%285%29%20%285%29%20%285%29%20%281%29%20%285%29.png)
+![Message box with audio recording](../.gitbook/assets/audio-message-box%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%285%29%20%285%29%20%285%29%20%281%29%20%286%29.png)
 
 ### Success Light
 
@@ -188,7 +188,7 @@ Checkbox background (Don't ask me again / modal)
 
 The Button Primary Light variable will change these elements: Checkbox border \(Don't ask me again / modal\)
 
-![Don&apos;t ask me again checkbox](../.gitbook/assets/checked-dont-ask-me-again%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%281%29.png)
+![Don&apos;t ask me again checkbox](../.gitbook/assets/checked-dont-ask-me-again%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%287%29.png)
 
 ### Alert Message Primary
 
@@ -200,19 +200,19 @@ The Alert Message Primary variable will change these elements: The thread icon a
 Border and font color in mail messages instructions (inside room -> more actions -> mail messages // when you haven't selected any messages)
 ```
 
-![Send messages by email alert](../.gitbook/assets/mail-messages-blue-div%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%284%29%20%284%29%20%281%29%20%281%29.png)
+![Send messages by email alert](../.gitbook/assets/mail-messages-blue-div%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%284%29%20%284%29%20%281%29%20%2810%29.png)
 
 ### Alert Message Primary Background
 
 The Alert Message Primary Background variable will change these elements: Background color in mail messages instructions
 
-![Send messages by email alert](../.gitbook/assets/mail-messages-blue-div%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%284%29%20%284%29%20%281%29%20%283%29.png)
+![Send messages by email alert](../.gitbook/assets/mail-messages-blue-div%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%284%29%20%284%29%20%281%29%20%284%29.png)
 
 ### Alert Message Secondary
 
 The Alert Message Secondary variable will change these elements: Border and font color in mail messages instructions
 
-![Clear section alert](../.gitbook/assets/clear-section-alert%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%284%29.png)
+![Clear section alert](../.gitbook/assets/clear-section-alert%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%282%29.png)
 
 ### Alert Message Secondary Background
 
@@ -224,7 +224,7 @@ The Alert Message Secondary Background variable will change these elements: Back
 
 The Alert Message Warning variable will change these elements: Border and font color in mail messages instructions error
 
-![Invalis email alert](../.gitbook/assets/email-error%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%281%29%20%286%29.png)
+![Invalis email alert](../.gitbook/assets/email-error%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%281%29%20%282%29.png)
 
 ```text
 Border and font color in prune messages warning (room -> more actions -> prune messages)
@@ -236,13 +236,13 @@ Border and font color in prune messages warning (room -> more actions -> prune m
 
 The Alert Message Warning Background variable will change these elements: Background color in mail messages instructions error
 
-![Invalis email alert](../.gitbook/assets/email-error%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%281%29%20%287%29.png)
+![Invalis email alert](../.gitbook/assets/email-error%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%281%29%20%2810%29.png)
 
 ```text
 Background color in prune messages warning
 ```
 
-![Delete all messages alert](../.gitbook/assets/delete-all-messages%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%284%29%20%285%29.png)
+![Delete all messages alert](../.gitbook/assets/delete-all-messages%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%284%29%20%286%29.png)
 
 ### Primary
 
@@ -278,7 +278,7 @@ Invites list ADMIN
 Name, details and price of apps on marketplace
 ```
 
-![List of apps](../.gitbook/assets/apps-list%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%283%29%20%283%29.png)
+![List of apps](../.gitbook/assets/apps-list%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%283%29%20%281%29.png)
 
 ### Primary Darkest
 

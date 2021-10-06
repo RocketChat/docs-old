@@ -18,13 +18,13 @@ Go to Analytics in the omnichannel panel settings, as shown below:
 
 ![](../../../.gitbook/assets/1%20%2810%29.png)
 
-  2. Select your desired department.
+1. Select your desired department.
 
-![](../../../.gitbook/assets/8%20%286%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![](../../../.gitbook/assets/8%20%286%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%282%29.png)
 
- 3. Select your desired start date and end date.
+1. Select your desired start date and end date.
 
-![](../../../.gitbook/assets/9%20%285%29%20%281%29%20%281%29.png)
+![](../../../.gitbook/assets/9%20%285%29%20%281%29.png)
 
 ### Details of conversation matrices:
 
@@ -54,13 +54,13 @@ You can also see the **percentage of conversations**, an **average of chat durat
 
 ![](../../../.gitbook/assets/7%20%287%29.png)
 
-2.  Select your desired department.
+1. Select your desired department.
 
 ![](../../../.gitbook/assets/8%20%286%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
-3. Select your desired start date and end date.
+1. Select your desired start date and end date.
 
-![](../../../.gitbook/assets/9%20%285%29%20%281%29.png)
+![](../../../.gitbook/assets/9%20%285%29%20%281%29%20%281%29.png)
 
 ### Details of productivity matrices:
 
