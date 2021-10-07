@@ -69,7 +69,7 @@ In case of security-relevant bugs, we might decide to backport patches to older 
 | 3.16 | [3.16.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.16.5) | Jun 2021 | Sep 2021 |
 | 3.17 | [3.17.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.17.3) | Jul 2021 | Oct 2021 |
 | **3.18 \(LTS\)** | [3.18.2](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.18.2) | **Aug 2021** | **Mar 2022** |
-| 4.0 | [4.0.0](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.0.0) | Sep 2021 | TBD |
+| 4.0 | [4.0.1](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.0.1) | Sep 2021 | TBD |
 
 {% hint style="warning" %}
 Always update to the latest stable version before reporting any bugs or before ask for help from the community.
@@ -98,7 +98,8 @@ October 1st our services will no longer continue to guarantee support for Rocket
 | 0.x | Aug 2019 | Jan 2020 |
 | 1.x | Nov 2019 | Apr 2020 |
 | 2.x | May 2020 | Oct 2020 |
-| 3.x | TBD | TBD |
+| 3.x | Jan 2022 | Jun 2022 |
+| 4.x | TBD | TBD |
 
 ## MongoDB versions
 
@@ -113,12 +114,16 @@ Each Rocket.Chat release supports different versions of MongoDB, the table below
 | 1.x | 3.2, 3.4, 3.6, 4.0 | 3.2 |
 | 2.x | 3.4, 3.6, 4.0 | 3.4 |
 | 3.x | 3.4, 3.6, 4.0 | 3.4 |
+| 4.x | 3.6, 4.0, 4.2, 4.4, 5.0 | 3.6, 4.0 |
 
 The upgrade guides available from the official MongoDB documentation are listed below. Bear in mind that it's not possible to skip a version when upgrading, e.g. to upgrade from 3.2 to 3.6 it's necessary to upgrade from 3.2 to 3.4 first and then to 3.6.
 
 * [Upgrade Replicat Set to 3.4](https://docs.mongodb.com/manual/release-notes/3.4-upgrade-replica-set/)
 * [Upgrade Replicat Set to 3.6](https://docs.mongodb.com/manual/release-notes/3.6-upgrade-replica-set/)
 * [Upgrade Replicat Set to 4.0](https://docs.mongodb.com/manual/release-notes/4.0-upgrade-replica-set/)
+* [Upgrade Replicat Set to 4.2](https://docs.mongodb.com/manual/release-notes/4.2-upgrade-replica-set/)
+* [Upgrade Replicat Set to 4.4](https://docs.mongodb.com/manual/release-notes/4.4-upgrade-replica-set/)
+* [Upgrade Replicat Set to 5.0](https://docs.mongodb.com/manual/release-notes/5.0-upgrade-replica-set/)
 
 > It's possible to bypass the MongoDB version check by using the environment variable `BYPASS_MONGO_VALIDATION=true`. Bare in mind that this work around should be used only when extrictly necessary and may prevent some functionalities to work properly or even prevent the server to start.
 
