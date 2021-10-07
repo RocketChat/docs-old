@@ -16,7 +16,7 @@ This tutorial is done with a local instance of the server running on [http://loc
 
 Do the following on your Rocket.Chat server to be able to connect to the CEET.
 
-1. From the Administration panel, navigate or search for **Setup Wizard** and accept the **Cloud Service Privacy Terms Agreement** and hit **Save changes**.
+1. From the **Administration** panel, navigate or search for **Setup Wizard** and accept the **Cloud Service Privacy Terms Agreement** and hit **Save changes**.
 
 ![](../../../../.gitbook/assets/image%20%28601%29.png)
 
@@ -50,7 +50,7 @@ To add a new workspace, click the **Register self-managed** button.
 
 ![](../../../../.gitbook/assets/image%20%28603%29.png)
 
-You're provided with a token. Copy the token and head back to your server's **Administration** panel where we left off.
+You're provided with a token. Copy the token and head back to your server's **Administration** panel, where we left off.
 
 ![](../../../../.gitbook/assets/image%20%28559%29.png)
 
@@ -68,7 +68,7 @@ You're provided with a token. Copy the token and head back to your server's **Ad
 
 ![](../../../../.gitbook/assets/image%20%28608%29.png)
 
-   2. You see an interface prompting you to paste the code you copied from your Rocket.Chat self-managed workspace. Hang in there. Let's get the code.
+   2. You see an interface prompting you to paste the code you copied from your Rocket.Chat self-managed workspace. Let's get the code now.
 
 ![](../../../../.gitbook/assets/image%20%28614%29.png)
 
@@ -88,7 +88,7 @@ You are then given another code to apply on your server. Copy that code, and go 
 
 ![](../../../../.gitbook/assets/image%20%28605%29.png)
 
-7. When all that is done, refresh the page, and you're able to see your workspace listed with the trial as **Active**.
+7. When all this is done, refresh the page, and you're able to see your workspace listed with the trial as **Active**.
 
 ![](../../../../.gitbook/assets/image%20%28561%29.png)
 
@@ -97,7 +97,7 @@ Back on the info section of your **Administration** panel, you should see you're
 ![](../../../../.gitbook/assets/image%20%28585%29.png)
 
 {% hint style="info" %}
-It is recommended to sync your server immediately after linking it to the cloud. To do that, head on to the **Connectivity Services** on your **Administration** panel and click on **Sync**.
+We recommend you to sync your server immediately after linking it to the cloud. To do that, head on to the **Connectivity Services** on your **Administration** panel and click on **Sync**.
 {% endhint %}
 
 ![](../../../../.gitbook/assets/image%20%28546%29.png)
