@@ -39,7 +39,7 @@ Starting with the major release 4.X.Y of Rocket.Chat, MongoDB has to be setup wi
    ```bash
     cd /opt/rocketchat
     docker-compose exec mongo mongodump --archive=/dump/mmap --gzip
-    cp /data/dump/mmap ~/mongo-mmap-dump.gzip
+    cp /opt/rocketchat/data/dump/mmap ~/mongo-mmap-dump.gzip
    ```
 
 2. Stop your existing Rocket.Chat system including all its services \(especially MongoDB\).
