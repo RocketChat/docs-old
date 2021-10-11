@@ -15,17 +15,17 @@ description: Deploying Rocket.Chat on D2C.io
 ## Supported operation systems and other requirements for connecting own servers:
 
 * OS: Ubuntu server 16.04/18.04; Debian 8/9
-* We strongly recommend to use a kernel with version &gt;= 4.0 for better Docker performance using OverlayFS, otherwise the storage driver - will be "devicemapper"
+* We strongly recommend to use a kernel with version >= 4.0 for better Docker performance using OverlayFS, otherwise the storage driver - will be "devicemapper"
 * Free disk space: 5 Gb
 * Opened incoming SSH port
-* For the Weave network to work, you must open ports 6783, 6784 \(TCP/UDP\)
+* For the Weave network to work, you must open ports 6783, 6784 (TCP/UDP)
 * For better performance, we recommend ensuring that VXLAN tunneling is allowed
 
 ## Deploy
 
 Single click deployment. Version 0:
 
-[![Deploy](https://raw.githubusercontent.com/mastappl/images/master/deployTo.png)](https://panel.d2c.io/?import=https://github.com/d2cio/rocketchat-stack/archive/master.zip/)
+[![Deploy](https://raw.githubusercontent.com/mastappl/images/master/deployTo.png)](https://panel.d2c.io/?import=https://github.com/d2cio/rocketchat-stack/archive/master.zip)
 
 Single click deployment. Version 1:
 
@@ -34,4 +34,3 @@ Single click deployment. Version 1:
 ### Demo
 
 ![How to deploy a stack](https://raw.githubusercontent.com/mastappl/images/master/rocketchat.gif)
-

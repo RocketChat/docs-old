@@ -2,7 +2,7 @@
 
 If you are facing any issue with Rocket.Chat, please ensure you follow the following steps before asking for support. It will save you a lot of time and hassle.
 
-First, you must ALWAYS test on the latest version of Rocket.Chat - you can also try [https://open.rocket.chat](https://open.rocket.chat/), which always runs development versions. A large number of issues are fixed with an update.
+First, you must ALWAYS test on the latest version of Rocket.Chat - you can also try [https://open.rocket.chat](https://open.rocket.chat), which always runs development versions. A large number of issues are fixed with an update.
 
 You will need some basic information to resolve your issue.
 
@@ -10,26 +10,28 @@ If you haven't got this information at hand, please get it first.
 
 At a minimum, you will need this:
 
-* Server Setup Information:
+*   Server Setup Information:
 
-  * Server hardware: VPS/hypervisor/bare metal
-  * Version of Rocket.Chat Server:
-  * Operating System: Ubuntu/Redhat etc
-  * Deployment Method: snap/docker/tar/etc
-  * Number of Running Instances:
-  * DB Replicaset Oplog:
-  * NodeJS Version:
-  * MongoDB Version:
+    * Server hardware: VPS/hypervisor/bare metal
+    * Version of Rocket.Chat Server:
+    * Operating System: Ubuntu/Redhat etc
+    * Deployment Method: snap/docker/tar/etc
+    * Number of Running Instances:
+    * DB Replicaset Oplog:
+    * NodeJS Version:
+    * MongoDB Version:
 
-* Client information:
 
-  * Client type: Electron app/React-Native app/Browser and version
+*   Client information:
 
-* A list of the steps requires to replicate the issue.
+    * Client type: Electron app/React-Native app/Browser and version
 
-  * If we can't replicate it we can't debug it.
 
-  \*\*\*\*
+*   A list of the steps requires to replicate the issue.
+
+    * If we can't replicate it we can't debug it.
+
+    ****
 
 ## **Contents**
 
@@ -73,14 +75,14 @@ If you opt for community's help instead of paid support, please notice that:
 * Please do **not** DM anyone unless you know them, or they DM you first
 * Please do **not** randomly use _@ people_ or _@all_  hoping to get attention
 * Abuse of these things will **not** get any help but can get you muted, blocked, or banned.
-* Don't open a bug yet. When you ask in the channels or forums then devs or other community helpers will tell you if you really need to open an issue. Frequently if there really is a problem you won't be the first one to experience it, so always check github carefully for duplicates. Use lots of different search terms and make sure you check closed Issues as well \(see below\).
-* Do not ask the same question in multiple channels.  Use the channel \(from mentioned\) that you think is most relevant to your issues. [Support](https://open.rocket.chat/channel/support), [React-Native](https://open.rocket.chat/channel/react-native), [Ubuntu Snap](https://open.roocket.chat/channel/ubuntu-snap),[Raspberry Pi](https://open.rocket.chat/channel/raspberrypi), [Omnichannel](https://open.rocket.chat/channel/omnichannel), [Desktop](https://open.rocket.chat/channel/desktop), [Federation](https://open.rocket.chat/channel/federation)
+* Don't open a bug yet. When you ask in the channels or forums then devs or other community helpers will tell you if you really need to open an issue. Frequently if there really is a problem you won't be the first one to experience it, so always check github carefully for duplicates. Use lots of different search terms and make sure you check closed Issues as well (see below).
+* Do not ask the same question in multiple channels.  Use the channel (from mentioned) that you think is most relevant to your issues. [Support](https://open.rocket.chat/channel/support), [React-Native](https://open.rocket.chat/channel/react-native), [Ubuntu Snap](https://open.roocket.chat/channel/ubuntu-snap),[Raspberry Pi](https://open.rocket.chat/channel/raspberrypi), [Omnichannel](https://open.rocket.chat/channel/omnichannel), [Desktop](https://open.rocket.chat/channel/desktop), [Federation](https://open.rocket.chat/channel/federation)
 
 ## **Is it a feature request?**
 
 If Rocket.Chat works but doesn't do something the way you want it to then this is a feature request **NOT** a bug. You can open a request in [Feature Requests](https://github.com/RocketChat/feature-requests). 
 
-## **Go through the documentation** 
+## **Go through the documentation **
 
 Please go through the relevant documentation at least twice. A lot of the answers can be found there. It is easy to miss the obvious because you _think_ you know the answer rather than reading to actually understand. 😃
 
@@ -120,7 +122,7 @@ Try some variations - you won't hit the sweet spot the first time usually. The m
 
 **Please don't open an Issue yet.**
 
-The next step is to ask your **well-documented** question in the [forums](https://forums.rocket.chat/) or [Rocket.Chat](https://open.rocket.chat/channel/support)
+The next step is to ask your **well-documented** question in the [forums](https://forums.rocket.chat) or [Rocket.Chat](https://open.rocket.chat/channel/support)
 
 ## How to report a bug
 
@@ -134,7 +136,7 @@ Don't hide things away because you are embarrassed. They are most likely going t
 
 Tell us about the problem you were originally trying to solve, not the problem that you are experiencing right now. Frequently the one you are experiencing now is the result of not understanding or being able to fix the original issue.
 
-[How to Report Bugs Effectively](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html) is a great read on the subject. 😉
+[How to Report Bugs Effectively](https://www.chiark.greenend.org.uk/\~sgtatham/bugs.html) is a great read on the subject. 😉
 
 ## Bug template
 
@@ -154,7 +156,7 @@ Server Set-up Information:
 
 Some background will help, and will avoid XY issues. Is it a fresh install? Is it an upgraded install? Has it always been broken? When it did the issue start? Did you make any changes that could have caused it?
 
-Make sure you post some BRIEF log snippets or use [https://pastebin.com/](https://pastebin.com/)
+Make sure you post some BRIEF log snippets or use [https://pastebin.com/](https://pastebin.com)
 
 Don't block up the channel with ridiculously long messages.
 
@@ -173,4 +175,3 @@ Remember, **you** are the one with the problem. They can just go back to work or
 Got this far with no solution? If you haven't already been told to do so then open an Issue with all the right information in the right repo.
 
 Please use the templates provided. Add all the relevant information. And please stick to facts, not opinions, assumptions, or guesses.
-

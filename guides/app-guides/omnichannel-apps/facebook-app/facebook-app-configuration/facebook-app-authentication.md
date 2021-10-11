@@ -10,25 +10,25 @@ The first step after the configuration and resolving the dependencies is authent
 
 1. Please click on the button shown below to start the authentication process with Facebook.
 
-![](../../../../../.gitbook/assets/image%20%28513%29.png)
+![](<../../../../../.gitbook/assets/image (513).png>)
 
-2. As soon as you click **Start Authentication** the  Authentication process is started. Please authorize [Rocket.Chat](http://rocket.chat/)'s Facebook app to complete this process.
+2\. As soon as you click **Start Authentication** the  Authentication process is started. Please authorize [Rocket.Chat](http://rocket.chat)'s Facebook app to complete this process.
 
-![](../../../../../.gitbook/assets/image%20%28525%29.png)
+![](<../../../../../.gitbook/assets/image (525).png>)
 
-3. You are redirected to the following page where you can use your business email to authorize Facebook.
+3\. You are redirected to the following page where you can use your business email to authorize Facebook.
 
-![](../../../../../.gitbook/assets/image%20%28554%29.png)
+![](<../../../../../.gitbook/assets/image (554).png>)
 
 
 
-4. Confirm here.
+4\. Confirm here.
 
-![](../../../../../.gitbook/assets/image%20%28552%29.png)
+![](<../../../../../.gitbook/assets/image (552).png>)
 
 You receive a success message with credentials, as shown below:
 
-![](../../../../../.gitbook/assets/image%20%28540%29.png)
+![](<../../../../../.gitbook/assets/image (540).png>)
 
 
 
@@ -36,30 +36,30 @@ You receive a success message with credentials, as shown below:
 
 After successful authentication, as an admin, you are subscribed to the Facebook page by default. But you can choose to unsubscribe if you want, as shown below:
 
-![](../../../../../.gitbook/assets/image%20%28564%29.png)
+![](<../../../../../.gitbook/assets/image (564).png>)
 
-![](../../../../../.gitbook/assets/image%20%28567%29.png)
+![](<../../../../../.gitbook/assets/image (567).png>)
 
 ## Edit Page Configuration
 
 You can edit page configuration as shown below:
 
-![](../../../../../.gitbook/assets/image%20%28565%29.png)
+![](<../../../../../.gitbook/assets/image (565).png>)
 
 
 
 Following are the settings available:
 
-1. You can route all the conversations coming from this page to a specific **Department**. Only the agents of this department are able to serve Facebook conversations coming from this page.
-2. You can set the **Welcome Message** that will be sent to visitors when they send their first message.
+1. You can route all the conversations coming from this page to a specific** Department**. Only the agents of this department are able to serve Facebook conversations coming from this page.
+2. You can set the** Welcome Message** that will be sent to visitors when they send their first message.
 3. The **Conversation Finished Message** will be sent to visitors when the conversation is closed
-4. You can set the **Default message for offline service** that will be sent to your visitor when no agents are available online
+4. You can set the **Default message for offline service **that will be sent to your visitor when no agents are available online
 
 {% hint style="info" %}
 Only the agents of  this particular department are able to see and take the chats.
 {% endhint %}
 
-![](../../../../../.gitbook/assets/image%20%28566%29.png)
+![](<../../../../../.gitbook/assets/image (566).png>)
 
 ## Slash Commands
 
@@ -71,4 +71,3 @@ Here are the shortcuts you can use in Facebook Bot:
 3. **/facebook edit pageId** Edit Page configuration for the given pageId 
 4. **/facebook help** Shows help message
 {% endhint %}
-

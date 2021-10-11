@@ -2,19 +2,18 @@
 
 To install Rasa App:
 
-1. Go to **Administration&gt;Marketplace** and search Rasa
+1. Go to **Administration>Marketplace** and search Rasa
 
-![](../../../../.gitbook/assets/image%20%28468%29.png)
+![](<../../../../.gitbook/assets/image (468).png>)
 
-2. Click **Install**
+2\. Click **Install**
 
-![](../../../../.gitbook/assets/image%20%28469%29.png)
+![](<../../../../.gitbook/assets/image (469).png>)
 
 Rasa app is installed successfully**.**
 
-![](../../../../.gitbook/assets/image%20%28460%29.png)
+![](<../../../../.gitbook/assets/image (460).png>)
 
 It appears in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28461%29%20%281%29%20%281%29.png)
-
+![](<../../../../.gitbook/assets/image (461) (1) (1).png>)

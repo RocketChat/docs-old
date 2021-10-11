@@ -24,7 +24,7 @@ You can also notify everyone in a channel by typing `@all`. Although notifying e
 
 You can send a variety of attachments with your messages, like files, audio, links, videos, and many more.
 
-To access the attachment menu you can, click on the **plus** \(+\) icon on the message input.
+To access the attachment menu you can, click on the **plus** (+) icon on the message input.
 
 ### Files
 
@@ -103,7 +103,6 @@ Use the following symbols to format text as desired:
 * Bold: `*Lorem ipsum dolor*`
 * Italic: `_Lorem ipsum dolor_`
 * Strike: `~Lorem ipsum dolor~`
-* Inline code: ```Lorem ipsum dolor```  
+* Inline code: `` `Lorem ipsum dolor`  `` 
 * Image: `![Alt text](https://rocket.chat/favicon.ico)`
 * Link: `[Lorem ipsum dolor](https://www.rocket.chat/)` or `<https://www.rocket.chat/ |Lorem ipsum dolor>`
-

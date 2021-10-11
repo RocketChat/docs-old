@@ -1,7 +1,3 @@
----
-description: Multiple Business Hours is Rocket.Chat Enterprise Feature
----
-
 # Business Hours Manager's Guide
 
 {% hint style="info" %}
@@ -14,37 +10,36 @@ To access **Business** **Hours** settings:
 
 1. Go to the dots menu and hit **Omnichannel**. Omnichannel settings will open up.
 
-![](../../.gitbook/assets/image%20%28499%29.png)
+![](<../../.gitbook/assets/image (499).png>)
 
-2. Hit **Business** **Hours.**
+2\. Hit **Business** **Hours.**
 
-![](../../.gitbook/assets/image%20%28488%29.png)
+![](<../../.gitbook/assets/image (488).png>)
 
 **To add a new set of hours to your workspace:**
 
 1. Click the add button.
 
-![](../../.gitbook/assets/2%20%281%29.png)
+![](<../../.gitbook/assets/2 (1).png>)
 
 1. Name your new set of hours and select the department you are setting your business hours for.
 
-![](../../.gitbook/assets/3%20%281%29.png)
+![](<../../.gitbook/assets/3 (1).png>)
 
 1. Select your timezone.
 
-![](../../.gitbook/assets/4%20%281%29.png)
+![](<../../.gitbook/assets/4 (1).png>)
 
 1. Select open days of the week and business hours for each day.
 
-![](../../.gitbook/assets/5%20%281%29.png)
+![](<../../.gitbook/assets/5 (1).png>)
 
 Note that if you are an agent who is in a conversation with a customer and you have reached the closing hour, you'll still finish the last conversation. After you have closed this conversation, the omnichannel toggle will be set to off automatically.
 
 1. Hit **Save.**
 
-![](../../.gitbook/assets/6%20%281%29.png)
+![](<../../.gitbook/assets/6 (1).png>)
 
 Your new set of **Business** **Hours** are saved, as shown below:
 
-![](../../.gitbook/assets/7%20%281%29.png)
-
+![](<../../.gitbook/assets/7 (1).png>)

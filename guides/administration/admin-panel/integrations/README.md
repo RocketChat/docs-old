@@ -9,7 +9,7 @@ Available integrations:
 * Incoming WebHook → Let an external service send a request to Rocket.Chat to be processed.
 * Outgoing WebHook → Let Rocket.Chat trigger and optionally send a request to an external service and process the response.
 
-By default the WebHooks is designed to post a message only. The _message_ is part of a JSON structure, which has the same format as described in the API documentation on how to [“Post a chat message”]().
+By default the WebHooks is designed to post a message only. The _message_ is part of a JSON structure, which has the same format as described in the API documentation on how to [“Post a chat message”](broken-reference).
 
 If you would like more power and control over various features of Rocket.Chat, aside from sending and receiving messages, take a look at [Rocket.Chat Apps](https://github.com/RocketChat/docs/tree/663a6019e9bf97ca60fde138cc8d6917dd32703e/apps-development/rocket.chat-app).
 
@@ -38,7 +38,7 @@ The class has a method called `process_incoming_request`, your server calls this
 
 The `process_incoming_request`method returns an object with a `content`property that contains valid Rocket.Chat message, or an object with an `error` property that returns as the response to the request in JSON format and Code 400 status.
 
-A valid Rocket.Chat message can contain a `text` field that is the body of the message. When you redirect the message to a channel other than the one indicated by the Webhook token, you can specify a `channel` field, which accepts room id or, if prefixed with "\#" or "@", channel name or user.
+A valid Rocket.Chat message can contain a `text` field that is the body of the message. When you redirect the message to a channel other than the one indicated by the Webhook token, you can specify a `channel` field, which accepts room id or, if prefixed with "#" or "@", channel name or user.
 
 You can use the `console` methods to log information to help debug your script. Find more information about the console [here](https://developer.mozilla.org/en-US/docs/Web/API/Console/log). To view the logs, go to `Administration > View Logs`.
 
@@ -138,7 +138,7 @@ This class has a method named `process_outgoing_response`. It is called for ever
 
 The `process_outgoing_response` method can return nothing to proceed the default processing, return `false` to stop it, or an object with the `content` property that contains a valid Rocket.Chat message.
 
-```javascript
+````javascript
 /* exported Script */
 /* globals console, _, s, HTTP */
 
@@ -261,5 +261,4 @@ class Script {
     };
   }
 }
-```
-
+````

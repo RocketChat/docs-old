@@ -1,15 +1,18 @@
 # Authentication
 
-{% page-ref page="open-id-connect/" %}
+{% content-ref url="open-id-connect/" %}
+[open-id-connect](open-id-connect/)
+{% endcontent-ref %}
 
-{% page-ref page="single-sign-on-iframe.md" %}
+{% content-ref url="single-sign-on-iframe.md" %}
+[single-sign-on-iframe.md](single-sign-on-iframe.md)
+{% endcontent-ref %}
 
 ## External Authentication
 
-If you need to automatically login users from your own website you can look at [Iframe integration page]() or you can use the REST API [Login]() in combination with [deeplinking]() and the resumeToken.
+If you need to automatically login users from your own website you can look at [Iframe integration page](broken-reference) or you can use the REST API [Login](broken-reference) in combination with [deeplinking](broken-reference) and the resumeToken.
 
-```text
+```
 # get the resumeToken from your REST API login - it's the authToken field
 https://yourown.rocket.chat/home?resumeToken=abcd123456789
 ```
-

@@ -11,7 +11,7 @@ Examples of things that aren't considered bugs:
 * Can't get the server installed
 * Want a new widget in Rocket.Chat
 
-If your issue falls into one of these categories, please see [Getting Support]()
+If your issue falls into one of these categories, please see [Getting Support](broken-reference)
 
 New feature requests should be posted in the [forums](https://forums.rocket.chat).
 
@@ -19,7 +19,7 @@ New feature requests should be posted in the [forums](https://forums.rocket.chat
 
 ### Before reporting a new issue
 
-1. [Read the Documentation](https://docs.rocket.chat/) carefully all the way through.
+1. [Read the Documentation](https://docs.rocket.chat) carefully all the way through.
 2. Make sure you are running the latest version of Rocket.Chat. It's very likely simply updating will resolve your issue.
 3. Try to narrow it down to reproducible steps. If we can reproduce it, we will be able to fix the issue a lot quicker.
 4. Look at all of your logs for errors. See below for how to gather logs.
@@ -33,8 +33,8 @@ Giving clear background information will help save a lot of time.
 
 Please include the following information to promote effective fixing.
 
-* Operating System / Version / Architecture \(64 bit?\)
-* Browser type and version, including any add-ons. \(e.g., AdBlocker, NoScript, etc.\)
+* Operating System / Version / Architecture (64 bit?)
+* Browser type and version, including any add-ons. (e.g., AdBlocker, NoScript, etc.)
 * Rocket.Chat version
 * Expected behavior
 * Actual behavior
@@ -54,7 +54,7 @@ Here are some links to help you register your bug in the right place:
 
 It can be done in two ways:
 
-1. `Administration` -&gt; `Info`
+1. `Administration` -> `Info`
 2. Your Rocket.Chat URL followed by `/api/info`
 
 #### Gathering Logs
@@ -70,4 +70,3 @@ To collect logs from your browser as an Admin, log into your Rocket.Chat. From t
 It is often useful to open this in another browser and reproduce the problem again, and you will see an exception pop up in the logs.
 
 Also, consider your web server logs and general system logs.
-

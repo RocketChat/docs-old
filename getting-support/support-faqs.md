@@ -11,28 +11,28 @@ Please use Chrome/ium and dev tools to check for the presence of a WebSocket.
 * Right Click, Inspect
 * Network, F5 to refresh
 * Look for the WS filter
-* Should see WebSocket
+*   Should see WebSocket
 
-  WebSocket - wss://open.rocket.chat/sockjs/123/pbiz45rm/websocket
+    WebSocket - wss://open.rocket.chat/sockjs/123/pbiz45rm/websocket
 
 Click it and look on the right for 'Headers'
 
 Has this got a green light?
 
-```text
+```
  Status Code: 101 Switching Protocols
 ```
 
 What do the headers say?
 
-```text
+```
 Response headers
  Connection: Upgrade
  Sec-WebSocket-Accept: nXd/PfaHuA1Kx/ggJWAAy+96Ee4=
  Upgrade: websocket
 ```
 
-\*\*\*\*
+****
 
 ## **Upgrading Rocket.Chat**
 
@@ -50,7 +50,7 @@ Upgrading Mongo
 * Then there are more leaps as you proceed trough 3.x and then again to 4.x
 * As of writing 3.4 is going EoL so you need to be on 3.6
 * For now I would get to 3.6 and then start preparing for 4.x
-* To convert from mmapv1 -&gt; wiredtiger you will need to backup, convert, restore
+* To convert from mmapv1 -> wiredtiger you will need to backup, convert, restore
 
 Upgrading Rocket
 
@@ -62,23 +62,22 @@ Now, theoretically apart from adding oplogs to Mongo for Rocket 1.x + you should
 
 Except..... those schema changes. If you are going to hit a problem, it will be one of those.
 
-The devs test changes from one version to another, and maybe even over a few versions. But not every single version up to latest or say 0.74.3 -&gt; 1.3.2
+The devs test changes from one version to another, and maybe even over a few versions. But not every single version up to latest or say 0.74.3 -> 1.3.2
 
 That's where it may go wrong.
 
 So a recommended path is something like this:
 
-```text
+```
 -> 0.73.x -> 1.0.x -> 1.32 -> 2.0.x -> 2.1.x
 ```
 
 Or possibly even more cautious:
 
-```text
+```
  -> 073.x - 1.0.x -> 1.1.x -> 1.2.x -> 1.3.x -> 2.0.x -> 2.1.x
 ```
 
-\( 'x' means the last patched version e.g. 1.3.2 Check [tags](https://github.com/RocketChat/Rocket.Chat/tags) or [releases](https://github.com/RocketChat/Rocket.Chat/releases) \)
+( 'x' means the last patched version e.g. 1.3.2 Check [tags](https://github.com/RocketChat/Rocket.Chat/tags) or [releases](https://github.com/RocketChat/Rocket.Chat/releases) )
 
 We have seen people make some big jumps. And some disasters too. If in doubt, take your time and a backup!😃
-
