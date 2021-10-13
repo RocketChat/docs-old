@@ -365,10 +365,6 @@ sudo reboot
 sudo docker ps -a
 ```
 
-```text
-[![docker ps -a](https://www.imageforge.us/images/c90bd55a7b357c20b18815a5560f43f3.png)](https://www.imageforge.us/image/60kNT)
-```
-
 As you can see, our three docker containers are up and running: Rocket.Chat, MongoDB, and Hubot. NOTE: You may see only one, or none at all if the downloads are still in progress. Be patient, and check it periodically. Eventually, it should look similar to our sample screenshot. If it does, congratulations, you did it! GREAT JOB!
 
 Next, let's try opening the web browser and going to your new chat room. Provided that your DNS is properly configured, you should be able to simply type your chatroom URL into the browser and open it up.
