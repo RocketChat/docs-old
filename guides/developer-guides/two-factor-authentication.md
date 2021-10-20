@@ -1,2 +1,0 @@
-# Two Factor Authentication
-
