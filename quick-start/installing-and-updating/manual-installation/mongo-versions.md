@@ -2,6 +2,8 @@
 
 Rocket.Chat currently requires MongoDB version 3.6 or higher. [Support of MongoDB 3.2 will has been removed from Rocket.Chat 2.0.0 and MongoDB 3.4 has been removed from Rocket.Chat 4.x](https://github.com/RocketChat/Rocket.Chat/pull/15199). We recommend using version 4.2.
 
+**Note** Rocket.Chat uses *mmapv1* engine which is not supported for Mongo versions >= 4.2.
+
 **Note** Without mongodb version we can't ensure you are running a compatible version. If you are running your mongodb with auth enabled and an **user different from admin** you may need to grant permissions for this user to check cluster data. You can do it via mongo shell running the following command replacing the string _YOUR_USER_ by the correct user\\'s name:
 
 ```
