@@ -122,6 +122,7 @@ Setup storage engine and replication for MongoDB \(mandatory for versions &gt; 1
 ```bash
 sudo sed -i "s/^#  engine:/  engine: mmapv1/"  /etc/mongod.conf
 ```
+***Note*** The `MMAPV1` storage engine is deprecated in MongoDB Versions >= 4.2.
 
 ```bash
 sudo sed -i "s/^#replication:/replication:\n  replSetName: rs01/" /etc/mongod.conf
