@@ -1,2 +1,0 @@
-# livechat:registerGuest
-

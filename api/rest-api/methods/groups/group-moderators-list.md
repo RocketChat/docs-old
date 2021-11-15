@@ -1,2 +1,0 @@
-# Group Moderators List
-

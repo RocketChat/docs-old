@@ -1,2 +1,0 @@
-# Get Channel Threads
-

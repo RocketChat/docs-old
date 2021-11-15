@@ -1,2 +1,0 @@
-# Agents average service time
-

@@ -1,2 +1,0 @@
-# Regenerate Personal Access Token
-

@@ -1,2 +1,0 @@
-# Get Personal Access Tokens
-

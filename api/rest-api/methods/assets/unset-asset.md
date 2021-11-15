@@ -1,2 +1,0 @@
-# Unset Asset
-

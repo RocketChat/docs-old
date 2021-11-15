@@ -1,2 +1,0 @@
-# Use Invite Token
-

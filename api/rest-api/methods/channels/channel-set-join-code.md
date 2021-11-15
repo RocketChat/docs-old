@@ -1,2 +1,0 @@
-# Channel Set Join Code
-

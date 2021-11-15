@@ -1,2 +1,0 @@
-# Generate Personal Access Token
-

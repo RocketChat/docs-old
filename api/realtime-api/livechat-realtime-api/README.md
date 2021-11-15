@@ -1,2 +1,0 @@
-# Livechat Realtime API
-

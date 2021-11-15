@@ -1,2 +1,0 @@
-# Remove Personal Access Token
-

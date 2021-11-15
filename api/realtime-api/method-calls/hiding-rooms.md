@@ -1,2 +1,0 @@
-# Hiding Rooms
-

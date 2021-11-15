@@ -1,2 +1,0 @@
-# Sync Thread List
-
