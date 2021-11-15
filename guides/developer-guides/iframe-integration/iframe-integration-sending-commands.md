@@ -1,2 +1,0 @@
-# Iframe integration: Sending commands
-
