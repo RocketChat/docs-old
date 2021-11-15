@@ -1,2 +1,0 @@
-# Running a Hubot bot
-

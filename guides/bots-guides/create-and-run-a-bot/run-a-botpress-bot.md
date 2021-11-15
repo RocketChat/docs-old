@@ -1,2 +1,0 @@
-# Run a Botpress Bot
-
