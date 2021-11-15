@@ -1,2 +1,0 @@
-# Slack Compatibility
-

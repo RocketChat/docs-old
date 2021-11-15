@@ -1,2 +1,0 @@
-# Sub-command pattern
-

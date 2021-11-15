@@ -1,2 +1,0 @@
-# Rocket.Chat App
-

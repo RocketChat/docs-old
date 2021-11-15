@@ -1,2 +1,0 @@
-# Storing User Input
-
