@@ -1,4 +1,0 @@
-# Info
-
-Document Under Development
-

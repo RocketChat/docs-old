@@ -1,4 +1,0 @@
-# SlackBridge
-
-Document Under Development
-

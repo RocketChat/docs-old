@@ -1,4 +1,0 @@
-# Blockstack
-
-Document Under Development
-

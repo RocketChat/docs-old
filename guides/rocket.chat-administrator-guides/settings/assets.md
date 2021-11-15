@@ -1,4 +1,0 @@
-# Assets
-
-Document Under Development
-

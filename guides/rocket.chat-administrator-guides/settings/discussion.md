@@ -1,4 +1,0 @@
-# Discussion
-
-Document Under Development
-

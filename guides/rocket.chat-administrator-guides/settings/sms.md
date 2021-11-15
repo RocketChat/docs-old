@@ -1,4 +1,0 @@
-# SMS
-
-Document Under Development
-

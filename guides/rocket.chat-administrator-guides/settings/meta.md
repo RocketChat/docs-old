@@ -1,4 +1,0 @@
-# Meta
-
-Document Under Development
-
