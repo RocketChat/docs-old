@@ -1,79 +1,42 @@
 ---
-description: >-
-  This feature allows you to view the chat flow (conversation) and your livechat
-  agents' performance (productivity) over a span of time that you choose.
+description: This section shows how to setup analytics on your server.
 ---
 
 # Analytics
 
-To access **Analytics** settings:
+To access analytics, go to **Administration > Analytics.**
 
-Go to Analytics in the omnichannel panel settings, as shown below:
+From there, you will have access to various configurations that can be done.
 
-![](<../../../.gitbook/assets/0 (3).png>)
+{% hint style="info" %}
+Remember to always hit **Save changes** to apply any changes made.
+{% endhint %}
 
-## To view conversation history:
+## Google Analytics
 
-1. Select Conversations from the drop-down.
+Lets you set up Google Analytics.
 
-![](<../../../.gitbook/assets/1 (10).png>)
+* **Enable**: When enabled, Google Analytics is active and you will be prompted to set a Tracking ID.
+* **Tracking ID: **Takes in your Google Analytics tracking ID.
 
-1. Select your desired department.
+## Features Enabled
 
-![](<../../../.gitbook/assets/8 (6) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
+Lets you set various properties to analyze and track.
 
-1. Select your desired start date and end date.
+* **Messages**: When set to true, actions users perform on messages will be tracked.
+* **Rooms**: When enabled, actions like; `create, leave, delete` on channels or groups will be tracked
+* **Users**: This Lets you track events related to actions on users like; `password reset times, profile picture change,` etc.
 
-![](<../../../.gitbook/assets/9 (5) (1) (2).png>)
+## Piwik
 
-### Details of conversation matrices:
+Gives you the ability to set up Matomo formerly Piwik for analytics.
 
-![](<../../../.gitbook/assets/4 (10).png>)
+* **Enable**: When set to true, it enables Piwik analytics on your server.
+* **URL**: The url where the Piwik resides, be sure to include the trailing slash. Example: `//piwik.rocket.chat/`
+* **Client ID**: The site id to be use for identifying your site. Example: `17`
+*   **Additional Piwik Sites**: Takes in additional Piwik website URLs and site IDs to track thesame data into different websites. Example;&#x20;
 
-**Total Conversations:** It represents the total number of conversations during the selected period of time.
-
-**Open Conversations:** It represents the total number of open conversations for your selected department during the chosen period.
-
-**Total Messages:** It represents the total number of messages received in all the conversations during a selected period.
-
-**Busiest Day:** It shows the day during which you received the most chats for your selected time.
-
-**Conversation Per Day:** It shows the average count of conversations you received per day.
-
-**Busiest Time:** It shows the hour during which you received most chats for your selected period of time.
-
-You can also see the **percentage of conversations**, an **average of chat duration**, and **total messages handled** by each one of your agents from your selected department, as shown below:
-
-![](<../../../.gitbook/assets/5 (10).png>)
-
-![](<../../../.gitbook/assets/6 (9).png>)
-
-## To view productivity history of your agents:
-
-1. Select Productivity from the drop-down.
-
-![](<../../../.gitbook/assets/7 (7).png>)
-
-1. Select your desired department.
-
-![](<../../../.gitbook/assets/8 (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
-
-1. Select your desired start date and end date.
-
-![](<../../../.gitbook/assets/9 (5) (1) (1).png>)
-
-### Details of productivity matrices:
-
-![](<../../../.gitbook/assets/image (62).png>)
-
-**Average of Response Time:** This matrix represents the average of your agent’s team’s responses to all the conversations that are automatically assigned to them during a selected time.
-
-**Average of First Response Time:** This matrix represents the average of the team’s first response to all the chats they pick up.
-
-**Average of Reaction Time:** This matrix represents the average of the team’s reaction to the assigned chats.
-
-You can also see the **Average of First Response Time**, **Best First Response Time**, **Average of Response Time**, and **Average of Reaction Time** of each one of your agents from your selected department, as shown below:
-
-![](<../../../.gitbook/assets/11 (4).png>)
-
-![](<../../../.gitbook/assets/image (63).png>)
+    `[ { "trackerURL" : "https://my.piwik.domain2/" , "siteId" : 42 }, { "trackerURL" : "https://my.piwik.domain3/" , "siteId" : 15 } ]`
+* **Prepend Domain**: Lets you set whether or not to prepend the site domain to the page title when tracking.
+* **All Subdomains**: Lets you track visitors across all subdomains.
+* **Hide Outgoing Links**: Takes in URLs, one domain per line without any separator to hide their clicks in the outlinks report.

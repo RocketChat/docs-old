@@ -7,8 +7,8 @@ _Effective date: February 27th, 2021_
 ## **ROCKET.CHAT MASTER SERVICES AGREEMENT FOR SELF-MANAGED DEPLOYMENTS**
 
 This Master Services Agreement (the "**Agreement**"), is entered as of\
-**\__\_** (the “**Effective Date**”),\
-by and between **\__\__**,\
+**\_\_\_** (the “**Effective Date**”),\
+by and between **\_\_\_\_**,\
 whose address is _\*\*\\_**\_**_\*\*\\_;\
 an entity (“**You,**” “**Your**,” or “**Customer**”) and Rocket.Chat Technologies Corp. (“**Rocket.Chat**”). In this Agreement, Customer and Rocket.Chat may be individually referred to as “**party**” and collectively referred to as “_\*parties\\_\*.”
 

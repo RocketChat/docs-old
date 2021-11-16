@@ -4,6 +4,12 @@ Last updated: February 21st, 2021
 
 These guidelines are intended for law enforcement authorities seeking information about Rocket.Chat accounts. More general information is available in our [Privacy Policy](https://rocket.chat/privacy) and [Terms of Service](https://rocket.chat/terms).
 
+{% hint style="info" %}
+#### Important Highlight from the page below
+
+All requests for user account information must **specify the server URL** (e.g. https://open.rocket.chat) where the user in question is registered. Requests without the server URL will be rejected.
+{% endhint %}
+
 ## What is Rocket.Chat?
 
 Rocket.Chat is a free and open source team chat collaboration platform that allows users to communicate securely in real-time on web, desktop or mobile and to customize their interface with a range of plugins, themes and integrations with other key software. Anyone in the world can download and run a Rocket.Chat server at any time.
@@ -75,7 +81,7 @@ Rocket.Chat is a platform and the interaction between individuals on the platfor
 
 _firstname.lastname_
 
-These accounts are unique to the deployed server of the Rocket.Chat platform. So if information is requested for an individual user account of the platform, this information goes only as far as the scope of that specific, individual server of Rocket.Chat. 
+These accounts are unique to the deployed server of the Rocket.Chat platform. So if information is requested for an individual user account of the platform, this information goes only as far as the scope of that specific, individual server of Rocket.Chat.&#x20;
 
 **To identify the proper user account, the specific server therefore must be named as well (generally in form of the URL).**
 
