@@ -20,7 +20,7 @@ It can also be downloaded [here](https://github.com/RocketChat/Rocket.Chat.Elect
 
 If you are on Ubuntu we recommend you install our snap via:
 
-```text
+```
 sudo snap install rocketchat-desktop
 ```
 
@@ -36,7 +36,7 @@ You can find the download for the latest releases [here](https://github.com/Rock
 
 ## Mobile Apps
 
-![](../../.gitbook/assets/ic_launcher-web%20%281%29.png)
+![](<../../.gitbook/assets/ic\_launcher-web (2).png>)
 
 ### Rocket.Chat
 
@@ -54,7 +54,7 @@ Beta versions of our apps are available on Google Play beta and TestFlight. Help
 
 [Rocket.Chat Beta on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.android)
 
-![](../../.gitbook/assets/ic_launcher-web.png)
+![](<../../.gitbook/assets/ic\_launcher-web (1).png>)
 
 ### Rocket.Chat Experimental
 
@@ -71,4 +71,3 @@ Beta versions of our apps are available on Google Play beta and TestFlight. Help
 [Rocket.Chat Experimental Beta on TestFlight](https://testflight.apple.com/join/7I3dLCNT)
 
 [Rocket.Chat Experimental Beta on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)
-

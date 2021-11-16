@@ -11,11 +11,11 @@ To set up your desired provider:
 
 1. Go to **Administration.**
 
-![](../../../../.gitbook/assets/image%20%2830%29.png)
+![](<../../../../.gitbook/assets/image (27).png>)
 
 1. Search '**OAuth'** in **Settings** and open it.
 
-![](../../../../.gitbook/assets/image%20%28153%29.png)
+![](<../../../../.gitbook/assets/image (132).png>)
 
 ## Facebook
 
@@ -40,7 +40,7 @@ To set up your desired provider:
 ### Google Set up
 
 1. Go to the [Google Developer Console](https://console.developers.google.com), and create a new project
-2. Set up your project by creating an "OAuth 2.0 client ID" \(under `APIs & Auth` and `Credentials`\)
+2. Set up your project by creating an "OAuth 2.0 client ID" (under `APIs & Auth` and `Credentials`)
 3. After that, make sure you define a **Product Name** in the OAuth consent screen, and select **Web App** as the application type. Otherwise, you won't be able to provide a callback URL
 
 ## Apple
@@ -49,7 +49,7 @@ To use Apple account for authentication:
 
 1. Turn on **Sign in with Apple**.
 
-![](../../../../.gitbook/assets/image%20%28152%29.png)
+![](<../../../../.gitbook/assets/image (133).png>)
 
 ## LinkedIn
 
@@ -75,13 +75,12 @@ To add custom OAuth:
 
 1. Click **Add custom oAuth**
 
-![](../../../../.gitbook/assets/image%20%28151%29.png)
+![](<../../../../.gitbook/assets/image (134).png>)
 
 1. Give a unique name for the custom oauth
 
-![](../../../../.gitbook/assets/image%20%28150%29.png)
+![](<../../../../.gitbook/assets/image (135).png>)
 
 ## Refresh OAuth Services
 
 Click Refresh OAuth Services to refresh the options that are displayed on the login screen based on the settings you saved, as shown below:
-

@@ -8,27 +8,27 @@ description: >-
 
 If a livechat conversation is initiated, it gets reflected in the matrices in real-time, as shown below:
 
-![](../../.gitbook/assets/0%20%289%29.png)
+![](<../../.gitbook/assets/0 (1).png>)
 
-![](../../.gitbook/assets/1%20%289%29.png)
+![](<../../.gitbook/assets/1 (9).png>)
 
 To access **Real-time Monitoring** settings:
 
 Go to Real-time Monitoring in the omnichannel panel settings, as shown below:
 
-![](../../.gitbook/assets/2%20%289%29.png)
+![](<../../.gitbook/assets/2 (9).png>)
 
 1. Select your desired department. You can select multiple departments if you want.
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](<../../.gitbook/assets/image (24).png>)
 
 1. Select the auto-refresh time from the dropdown.
 
-![](../../.gitbook/assets/4%20%289%29.png)
+![](<../../.gitbook/assets/4 (9).png>)
 
 Details of matrices are as follows:
 
-![](../../.gitbook/assets/5%20%289%29.png)
+![](<../../.gitbook/assets/5 (9).png>)
 
 ## **Total Conversations:**
 
@@ -46,7 +46,7 @@ It represents the total number of messages received in all the current-day conve
 
 It represents the total number of livechat users for your selected department for the current day.
 
-![](../../.gitbook/assets/6%20%288%29.png)
+![](<../../.gitbook/assets/6 (8).png>)
 
 ## **Total Abandoned Chats:**
 
@@ -60,7 +60,7 @@ It represents the average of conversations abandoned by the visitor for your sel
 
 It represents the average duration of all the conversations of your selected department for the current day.
 
-![](../../.gitbook/assets/7%20%286%29.png)
+![](<../../.gitbook/assets/7 (6).png>)
 
 ## **Busiest Time:**
 
@@ -74,7 +74,7 @@ It represents how many hours the Omnichannel service was available during the da
 
 It represents the average time the agents spend serving chats in the current day.
 
-![](../../.gitbook/assets/8%20%285%29.png)
+![](<../../.gitbook/assets/8 (5).png>)
 
 ## **Average of Response Time:**
 
@@ -91,4 +91,3 @@ This matrix represents the average of the agent's reaction to the assigned chats
 ## **Average of Waiting:**
 
 It represents the average time your visitor spent in the waiting queue.
-

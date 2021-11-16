@@ -2,9 +2,8 @@
 
 To Delete Telegram app from your workspace:
 
-Goto **Adminisitration**&gt;**Apps**&gt;**Telegram**
+Goto **Adminisitration**>**Apps**>**Telegram**
 
-![](../../../../../.gitbook/assets/image%20%28575%29.png)
+![](<../../../../../.gitbook/assets/image (570).png>)
 
-![](../../../../../.gitbook/assets/image%20%28578%29.png)
-
+![](<../../../../../.gitbook/assets/image (571).png>)

@@ -5,7 +5,7 @@ This integration uses Rocket.Chat incoming webhook. With this integration, you'l
 ### Prerequisites
 
 1. A Google Cloud Platform project with the Google Calendar API enabled. To create a project and enable an API, refer to [Create a project and enable the API](https://developers.google.com/workspace/guides/create-project).
-2. Prepare authorization credentials for a desktop application. To learn how to create credentials for a desktop application, refer to [Create credentials](https://developers.google.com/workspace/guides/create-credentials#desktop) \(make sure you download the JSON file\).
+2. Prepare authorization credentials for a desktop application. To learn how to create credentials for a desktop application, refer to [Create credentials](https://developers.google.com/workspace/guides/create-credentials#desktop) (make sure you download the JSON file).
 3. Create a dedicated channel for the event messages to be posted. You can use an existing channel as well.
 
 ### Prepare Incoming Webhook
@@ -16,15 +16,15 @@ This integration uses Rocket.Chat incoming webhook. With this integration, you'l
 4. Enable the incoming webhook script. For the script, copy the contents of this file - [https://github.com/debdutdeb/rocketchat-google-calendar/blob/main/script.js](https://github.com/debdutdeb/rocketchat-google-calendar/blob/main/script.js)
 5. Go to the bottom of the page and click "save".
 
-![Initial Configuration](../../../../.gitbook/assets/screenshot0%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29.png)
+![Initial Configuration](<../../../../.gitbook/assets/screenshot0 (4) (4) (4) (4) (4) (4) (4) (4) (4) (4).png>)
 
-![Enable Script](../../../../.gitbook/assets/image%20%28560%29.png)
+![Enable Script](<../../../../.gitbook/assets/image (554).png>)
 
-![Save Webhook](../../../../.gitbook/assets/image%20%28510%29.png)
+![Save Webhook](<../../../../.gitbook/assets/image (553).png>)
 
-As soon as the webhook is saved, you'll notice a webhook URL - 
+As soon as the webhook is saved, you'll notice a webhook URL -
 
-![Webhook URL](../../../../.gitbook/assets/image%20%28523%29.png)
+![Webhook URL](<../../../../.gitbook/assets/image (555).png>)
 
 We'll need this in the next step.
 
@@ -42,7 +42,7 @@ Edit your `bashrc`, `zshrc` or `fish` config and add `$(go env GOPATH)/bin` to y
 
 Use the help option to learn all the command line options and modify its execution process - `rocketchat-google-calendar -h`
 
-```text
+```
 Usage of ./rocketchat-google-calendar:
   -calendars string
         List of calendar IDs, separated by commas. (default "primary")
@@ -58,19 +58,18 @@ Usage of ./rocketchat-google-calendar:
 
 Enter the appropriate values for the respective options.
 
-You'll then be asked to open a link. Click on it and use your Google account to authorize the app. 
+You'll then be asked to open a link. Click on it and use your Google account to authorize the app.
 
-![rocketchat-google-calendar](../../../../.gitbook/assets/image%20%28541%29.png)
+![rocketchat-google-calendar](<../../../../.gitbook/assets/image (558).png>)
 
 Once you get the token, copy and paste it on the terminal and hit enter.
 
-Your integration should now be running. 
+Your integration should now be running.
 
 ### Notifying Once Every Day
 
 In the example command above, the event data is fetched from the Google servers every 5 minutes. You can change that behaviour however you like.
 
-One very common usecase is to be notified about all the meetings/events for each day, in the morning. You can acheive this by combining the two flags `-eventin` and `-waitfor`. 
+One very common usecase is to be notified about all the meetings/events for each day, in the morning. You can acheive this by combining the two flags `-eventin` and `-waitfor`.
 
 Use `24h` for both of those options. This way the integration program will fetch data every 24 hours, list the events that's going to occur in those 24 hours and send them to your Rocket.Chat server.
-

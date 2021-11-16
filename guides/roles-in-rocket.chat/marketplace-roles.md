@@ -12,7 +12,7 @@ There are three different roles within a Publisher.
 
 as shown below:
 
-![](../../.gitbook/assets/image%20%28446%29%20%282%29.png)
+![](<../../.gitbook/assets/image (446) (2) (1).png>)
 
 The Owner role is applied whenever someone creates a publisher. Each of the subsequent roles only applies to people they have invited.
 
@@ -22,17 +22,14 @@ The owner can do everything.
 
 An owner can change the role of another user, as shown below:
 
-![](../../.gitbook/assets/image%20%28459%29.png)
+![](<../../.gitbook/assets/image (454).png>)
 
-![](../../.gitbook/assets/image%20%28457%29.png)
+![](<../../.gitbook/assets/image (456).png>)
 
 ### Publisher: Developer
 
-The developer can read everything. However, the developer role can also update Apps \(can not create them, that requires an Owner\).
+The developer can read everything. However, the developer role can also update Apps (can not create them, that requires an Owner).
 
 ### Publisher: Viewer
 
 The viewer role can read everything but can not update anything.
-
-
-

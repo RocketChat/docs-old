@@ -20,8 +20,6 @@ You can cancel your Rocket.Chat workplace directly within the [Cloud Console](ht
 
 Send an email to cloud.support@rocket.chat with the address of your workspace. Note: The request will take some time to fullfill.
 
-
-
 ####
 
 ## Cloud Accounts
@@ -30,7 +28,7 @@ Send an email to cloud.support@rocket.chat with the address of your workspace. N
 
 To view the push usage for your workspace you need to login to the Cloud Console ([cloud.rocket.chat](https://cloud.rocket.chat)): navigate to Workspaces and click on the workspace you'd like to see usage for.
 
-![](<../.gitbook/assets/image (73).png>)
+![](<../.gitbook/assets/image (64).png>)
 
 #### I already canceled my workspace but it is still in the “Cancelling” status and is accessible.
 
@@ -44,19 +42,19 @@ If you want to end your subscription, please note that it can be done only by th
 \
 This will stop your subscription and hibernate your server (your server will still exist in case you want to get back to Rocket.Chat later).
 
-![](<../.gitbook/assets/cancel_cloud_subscription (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/cancel\_cloud\_subscription (1) (1) (1).png>)
 
-If you need a database dump or if you want to permanently delete your workspace and all the data associated with it - submit a ticket here on our Helpdesk or drop an email to [support@rocket.chat](mailto:support@rocket.chat) with the respective request. 
+If you need a database dump or if you want to permanently delete your workspace and all the data associated with it - submit a ticket here on our Helpdesk or drop an email to [support@rocket.chat](mailto:support@rocket.chat) with the respective request.
 
 #### How can I create one more workspace with the same Cloud account?
 
 Please, note that this can only be done by our Cloud engineers. If you want to create an additional workspace - submit a ticket here on our Helpdesk or drop us a letter at [support@rocket.chat](mailto:support@rocket.chat) - include workspace address you would like and the plan.\
 \
-**NOTE**: Additional workspaces are billed based on their individual usage.  So if you have 5 users on one and 10 on the other you will get billed for them both separately.
+**NOTE**: Additional workspaces are billed based on their individual usage. So if you have 5 users on one and 10 on the other you will get billed for them both separately.
 
 #### How can I change the ownership of the workspace?
 
-If you need to grant the ownership of your workspace to another person or to change the primary email of your workspace - submit a ticket here on our Helpdesk or drop us an email to [support@rocket.chat](mailto:support@rocket.chat) with the respective request. 
+If you need to grant the ownership of your workspace to another person or to change the primary email of your workspace - submit a ticket here on our Helpdesk or drop us an email to [support@rocket.chat](mailto:support@rocket.chat) with the respective request.
 
 **NOTE**: ticket should be submitted from the admin email address (the email address the workspace is registered under) and should contain the email address the ownership should be granted to/the email address it (admin one) should be changed to.
 
@@ -70,9 +68,9 @@ If, for example, you started your trial on December 1st, it expired on December 
 
 If your trial expired and you didn’t manage to add your payment method to continue subscription, navigate to Payment methods in your Cloud Console ([cloud.rocket.chat](https://cloud.rocket.chat)) -> click on **Add payment method** (top right corner) to add your card (credit/debit card is the only payment method we accept at the moment).
 
-![](<../.gitbook/assets/add_payment_method (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/add\_payment\_method (1) (1) (1) (1).png>)
 
-![](../.gitbook/assets/add_credit_card.png)
+![](<../.gitbook/assets/add\_credit\_card (1).png>)
 
 #### How to change workspace region?
 
@@ -80,9 +78,9 @@ Region is defined upon creation. Please, note that customers can not migrate the
 
 #### How can I change or remove my credit card data?
 
-Please, note that you can not delete the card that is the only one (default one) linked to your workspace as well as you can not delete card that was charged last - in both cases you will see the error message “Can't delete last payment option”. 
+Please, note that you can not delete the card that is the only one (default one) linked to your workspace as well as you can not delete card that was charged last - in both cases you will see the error message “Can't delete last payment option”.
 
-If you need to change the card - add it as a new payment method and make it the default one (after that you will be able to delete all other cards). 
+If you need to change the card - add it as a new payment method and make it the default one (after that you will be able to delete all other cards).
 
 If you want to remove the card information before canceling your subscription, please note that your payment data can only be deleted along with all the other data associated with your workspace. In order to request that, submit a ticket here on our Helpdesk or drop an email to [support@rocket.chat](mailto:support@rocket.chat).
 
@@ -90,7 +88,7 @@ If you want to remove the card information before canceling your subscription, p
 
 Credit/debit card is the only payment method we accept at the moment.
 
-For companies paying up-front for a specific period we do provide invoices to pay by wire transfer. 
+For companies paying up-front for a specific period we do provide invoices to pay by wire transfer.
 
 #### How can I have more than one Cloud workspaces under the same Cloud account?
 
@@ -103,24 +101,18 @@ Adding more instances to your Cloud account can only be done by our engineers. R
 
 #### How to change Cloud account email?
 
-Cloud account email can be changed at cloud.rocket.chat on the Profile page. If you have difficulties changing the email of the account owner contact us at support@rocket.chat. The request must be sent from the original account owner email. 
+Cloud account email can be changed at cloud.rocket.chat on the Profile page. If you have difficulties changing the email of the account owner contact us at support@rocket.chat. The request must be sent from the original account owner email.
 
-#### How to request a custom domain?  
+#### How to request a custom domain?
 
-To request a custom domain, set up a CNAME DNS record for the domain name you want to have pointing to "**cdns.use1.cloud.rocket.chat**" (for US region) and to "**cdns.euc1.cloud.rocket.chat**" (for EU region). Afterwards, send us an email to support@rocket.chat so we could make respective changes to your workspace. 
+To request a custom domain, set up a CNAME DNS record for the domain name you want to have pointing to "**cdns.use1.cloud.rocket.chat**" (for US region) and to "**cdns.euc1.cloud.rocket.chat**" (for EU region). Afterwards, send us an email to support@rocket.chat so we could make respective changes to your workspace.
 
-Please note that custom domain is available in Silver and Gold plans only on SaaS offering. 
-
-
+Please note that custom domain is available in Silver and Gold plans only on SaaS offering.
 
 ####
-
-
 
 ###
 
 ####
-
-
 
 ####

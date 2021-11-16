@@ -8,9 +8,8 @@ description: >-
 
 To access your rocket.chat cloud account:
 
-1. Go to [https://cloud.rocket.chat/](https://cloud.rocket.chat/)
+1. Go to [https://cloud.rocket.chat/](https://cloud.rocket.chat)
 2. Enter your email address and password.
-3.  Hit **Log** **in**.
+3. Hit **Log** **in**.
 
-![](../../../.gitbook/assets/image%20%2892%29.png)
-
+![](<../../../.gitbook/assets/image (83).png>)

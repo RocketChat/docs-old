@@ -17,7 +17,7 @@ To set up your first admin user:
 4. Enter the **Password**.
 5. Hit **Continue**, as shown below:
 
-![](<../../.gitbook/assets/image (89).png>)
+![](<../../.gitbook/assets/image (74).png>)
 
 ## Configuring your organization
 
@@ -26,43 +26,38 @@ To configure your organization :
 1. Choose **Organization Type**.
 2. Enter the **Organization Name**.
 3. Select your **Industry.**
-4. Select the **Size **of your organization.
+4. Select the \*\*Size \*\*of your organization.
 5. Choose your **Country**.
-6. Enter the URL of your official **Website**.  
+6. Enter the URL of your official **Website**.
 7. Hit **Continue**, as shown below:
 
-![](<../../.gitbook/assets/image (82).png>)
+![](<../../.gitbook/assets/image (76).png>)
 
-## Enter your server information 
-
-
+## Enter your server information
 
 To enter your server information:
 
 1. **Site** **Name** is populated automatically.
 2. Choose your **Language**.
-3. Select your** Server Type; **Public or Private team. 
+3. Select your\*\* Server Type; \*\*Public or Private team.
 4. Choose if you want to **Auto opt-in new users for Two Factor via Email**, or not.
 5. Hit **Continue**, as shown below:
 
-![](<../../.gitbook/assets/image (83).png>)
+![](<../../.gitbook/assets/image (77).png>)
 
 ## Register server
 
 1. Read and agree to the Terms and Privacy Policy.
 2. Hit **Continue**, as shown below:
 
-![](<../../.gitbook/assets/image (93).png>)
+![](<../../.gitbook/assets/image (78).png>)
 
 Verify your password to continue.
 
-![](<../../.gitbook/assets/image (76).png>)
+![](<../../.gitbook/assets/image (79).png>)
 
-Your workspace is ready. Click **Go to your workspace **to access it.
+Your workspace is ready. Click \*\*Go to your workspace \*\*to access it.
 
-![](<../../.gitbook/assets/image (88).png>)
+![](<../../.gitbook/assets/image (80).png>)
 
-![](<../../.gitbook/assets/image (78).png>)
-
-
-
+![](<../../.gitbook/assets/image (81).png>)

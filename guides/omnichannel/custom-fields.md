@@ -10,7 +10,7 @@ To access **Custom Fields** settings:
 
 Go to Omnichannel panel settings, as shown below:
 
-![](<../../.gitbook/assets/0 (8) (5) (5) (5) (5) (5) (4) (4) (1) (3).png>)
+![](<../../.gitbook/assets/0 (8) (5) (5) (5) (5) (5) (4) (4) (1) (4).png>)
 
 Custom Fields menu appears, as shown below:
 
@@ -48,7 +48,7 @@ The following page appears.
 
 6\. Set as a required field if you want.
 
-![](<../../.gitbook/assets/9 (3).png>)
+![](<../../.gitbook/assets/9 (2).png>)
 
 7\. The type of the Last Name field is Input.
 
@@ -76,7 +76,7 @@ It appears in the livechat widget, as shown below:
 
 If the visitor sends a message, it gets reflected in the **Visitor’s Info** as well.
 
-![](<../../.gitbook/assets/16 (2).png>)
+![](<../../.gitbook/assets/16 (1).png>)
 
 ## To delete a custom field:
 

@@ -4,12 +4,12 @@ To upgrade/downgrade your plan:
 
 1. Click **Change Plan**, as shown below:
 
-![](<../../../../.gitbook/assets/image (147).png>)
+![](<../../../../.gitbook/assets/image (129).png>)
 
 2\. Select your desired plan.
 
-![](<../../../../.gitbook/assets/image (149).png>)
+![](<../../../../.gitbook/assets/image (130).png>)
 
-Your new plan is in place. 
+Your new plan is in place.
 
-![](<../../../../.gitbook/assets/image (148).png>)
+![](<../../../../.gitbook/assets/image (131).png>)

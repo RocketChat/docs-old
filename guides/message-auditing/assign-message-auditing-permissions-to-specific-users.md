@@ -9,5 +9,4 @@ On the **Permissions** screen in the Administration UI, do the following to assi
 * For access to the Message Auditing Panel, select the `can-audit` option.
 * For access to the Message Auditing Log, select the `can-audit-log` option.
 
-![](../../.gitbook/assets/image%20%28293%29.png)
-
+![](<../../.gitbook/assets/image (298).png>)

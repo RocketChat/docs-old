@@ -6,23 +6,21 @@ description: >-
 
 # Create your new cloud account
 
-If you are a self-managed customer cloud  account is optional but if you are a SaaS customer, it is created by default when you first create your workspace with us.
+If you are a self-managed customer cloud account is optional but if you are a SaaS customer, it is created by default when you first create your workspace with us.
 
 ## To create a new cloud account:
 
 * Go to rocket.chat
 * Click Pricing.
 
-![](<../../.gitbook/assets/image (77).png>)
-
-
+![](<../../.gitbook/assets/image (65).png>)
 
 * Hit SaaS.
 
-![](<../../.gitbook/assets/image (81).png>)
+![](<../../.gitbook/assets/image (66).png>)
 
 * Select your desired SaaS package. Note that if you select **Bronze** or **Silver** you will proceed with a full-featured **Gold** trial.
-*  You will be directed cloud.rocket.chat website.
+* You will be directed cloud.rocket.chat website.
 * Enter your details as follows:
 
 1. Enter a coupon code if you have any.
@@ -30,7 +28,7 @@ If you are a self-managed customer cloud  account is optional but if you are a S
 3. Enter your email address.
 4. Click continue.
 
-![](<../../.gitbook/assets/image (86).png>)
+![](<../../.gitbook/assets/image (67).png>)
 
 * Please enter your workspace details on the next window:
 
@@ -40,27 +38,26 @@ If you are a self-managed customer cloud  account is optional but if you are a S
 4. Agree to the terms of service and privacy policy.
 5. Click **Launch Trial**.
 
-![](<../../.gitbook/assets/image (75).png>)
+![](<../../.gitbook/assets/image (68).png>)
 
-\
-
+\\
 
 * You are notified that a verification email has been sent to your email address.
 
-![](<../../.gitbook/assets/image (80).png>)
+![](<../../.gitbook/assets/image (69).png>)
 
-* Open your email account and confirm your email address. 
+* Open your email account and confirm your email address.
 
-![](<../../.gitbook/assets/image (74).png>)
+![](<../../.gitbook/assets/image (70).png>)
 
 * After you confirm your email you are taken to password setup, as shown below:
 
-![](<../../.gitbook/assets/image (84).png>)
+![](<../../.gitbook/assets/image (71).png>)
 
 * As soon as you click **Continue** on the password page, rocket.chat will start creating your cloud account, as shown below:
 
-![](<../../.gitbook/assets/image (87).png>)
+![](<../../.gitbook/assets/image (72).png>)
 
 * Copy and share the link to your new rocket.chat cloud account with your colleagues. Hit **Start now** to set up your new rocket.chat cloud account.
 
-![](<../../.gitbook/assets/image (79).png>)
+![](<../../.gitbook/assets/image (73).png>)

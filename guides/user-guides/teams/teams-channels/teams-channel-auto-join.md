@@ -4,7 +4,7 @@ To access your team's channel actions:
 
 * Click the menu, as shown below
 
-![](../../../../.gitbook/assets/image%20%28371%29.png)
+![](<../../../../.gitbook/assets/image (359).png>)
 
 ## Auto-join
 
@@ -16,5 +16,4 @@ For instance, you can use Auto-join to quickly include new members who have just
 You can mark a channel **Auto-join** for members to join them automatically, once they join a team.
 {% endhint %}
 
-![](../../../../.gitbook/assets/image%20%28352%29.png)
-
+![](<../../../../.gitbook/assets/image (360).png>)

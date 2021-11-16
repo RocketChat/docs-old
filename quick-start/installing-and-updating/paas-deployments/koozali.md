@@ -4,7 +4,7 @@ description: Deploying Rocket.Chat on Koozali SME
 
 # Koozali SME
 
-![](<../../../.gitbook/assets/image (2).png>)
+![](<../../../.gitbook/assets/image (2) (3).png>)
 
 {% hint style="info" %}
 **Has not yet been updated to work with 1.0**

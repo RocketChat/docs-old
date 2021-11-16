@@ -2,9 +2,8 @@
 
 To delete the Rasa app from your workspace:
 
-Goto **Adminisitration**&gt;**Apps**&gt;**Rasa**
+Goto **Adminisitration**>**Apps**>**Rasa**
 
-![](../../../../../.gitbook/assets/image%20%28586%29.png)
+![](<../../../../../.gitbook/assets/image (578).png>)
 
-![](../../../../../.gitbook/assets/image%20%28583%29.png)
-
+![](<../../../../../.gitbook/assets/image (579).png>)

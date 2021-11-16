@@ -41,13 +41,13 @@ Set the following:
 
 On your Okta Applications Dashboard, find the button to create a new app. It should open the following pop-up:
 
-![](../../../../../.gitbook/assets/addapp.png)
+![](../../../../../.gitbook/assets/AddApp.png)
 
 Select **OpenID Connect** and select **Create** to open the window to create the new integration.
 
 ### Create Integration
 
-!\[Create Integration\]\[CreateIntegration\]
+!\[Create Integration]\[CreateIntegration]
 
 The only information needed on this page is the **application name** and **redirect URI**. The URI you need to use here is the same one that is shown on the **callback URL** listed at the top of the page after creating the custom OAuth section in the Rocket.Chat settings. In this example the custom oauth will be called _okta_. This will result in a **redirect URI** of _`https://my-rocketchat-server.org/_oauth/okta`_.
 
@@ -63,5 +63,4 @@ Copy the **Client secret** to the Rocket.Chat **secret** field on the oauth sett
 
 Everything should be properly configured now. You can now assign users or groups users to your Integration app on the Okta Dashboard and then test the login on your Rocket.Chat instance.
 
-\[CreateIntegration\]: CreateIntegration.png
-
+\[CreateIntegration]: CreateIntegration.png

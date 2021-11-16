@@ -1,4 +1,4 @@
-# Microservices Setup \[beta\]
+# Microservices Setup \[beta]
 
 {% hint style="info" %}
 This feature is currently in the beta stage and can change without prior notice.
@@ -15,33 +15,33 @@ New in version 3.8.
 ## Pre-requisites
 
 * NATS
-  * Please refer to [NATS Docker installation](https://docs.nats.io/nats-server/nats_docker) on how to deploy NATS
+  * Please refer to [NATS Docker installation](https://docs.nats.io/nats-server/nats\_docker) on how to deploy NATS
 * MongoDB
   * Storage Engine needs to be [WiredTiger](https://docs.mongodb.com/manual/core/wiredtiger/):
     * [Change Standalone to WiredTiger](https://docs.mongodb.com/manual/tutorial/change-standalone-wiredtiger/)
 * Rocket.Chat
-  * The setting **Use REST instead of WebSocket for Meteor calls** under _Admin &gt; General &gt; REST API_, _must_ be **enabled**.
+  * The setting **Use REST instead of WebSocket for Meteor calls** under _Admin > General > REST API_, _must_ be **enabled**.
 
 The following environment variables should be set for Rocket.Chat services as well:
 
-| Variable | Value | Description |
-| :--- | :--- | :--- |
-| `TRANSPORTER` | `nats://nats:4222` | NATS address |
-| `DISABLE_DB_WATCH` | `true` | Disables internal DB watcher and rely on `mongodb-stream-hub` |
-| `DISABLE_PRESENCE_MONITOR` | `true` | Disables presence monitoring and rely on the `presence-service` |
-| `INTERNAL_SERVICES_ONLY` | `true` | Do not run external services on rocket.chat process |
+| Variable                   | Value              | Description                                                     |
+| -------------------------- | ------------------ | --------------------------------------------------------------- |
+| `TRANSPORTER`              | `nats://nats:4222` | NATS address                                                    |
+| `DISABLE_DB_WATCH`         | `true`             | Disables internal DB watcher and rely on `mongodb-stream-hub`   |
+| `DISABLE_PRESENCE_MONITOR` | `true`             | Disables presence monitoring and rely on the `presence-service` |
+| `INTERNAL_SERVICES_ONLY`   | `true`             | Do not run external services on rocket.chat process             |
 
 ## Micro Services
 
 Rocket.Chat microservices are composed of a few Docker containers:
 
-![](../../.gitbook/assets/micro-services-deployment-v0.1-2x-1-.png)
+![](<../../.gitbook/assets/Micro services deployment - v0.1@2x (1).png>)
 
 ### Accounts
 
 Responsible for user authentications
 
-```text
+```
 docker run \
 --name accounts-service \
 -e MONGO_URL=mongodb://mongo/rocketchat?replicaSet=rs01 \
@@ -53,7 +53,7 @@ rocketchat/account-service:latest
 
 Responsible for the validation of access to features
 
-```text
+```
 docker run \
 --name authorization-service \
 -e MONGO_URL=mongodb://mongo/rocketchat?replicaSet=rs01 \
@@ -65,7 +65,7 @@ rocketchat/authorization-service:latest
 
 Web socket interface between server and clients
 
-```text
+```
 docker run \
 --name ddp-streamer \
 -e MONGO_URL=mongodb://mongo/rocketchat?replicaSet=rs01 \
@@ -74,7 +74,7 @@ rocketchat/ddp-streamer-service:latest
 ```
 
 {% hint style="info" %}
-DDP Streamer should be scaled from the beginning. \(One per 500 concurrent users should be good enough\)
+DDP Streamer should be scaled from the beginning. (One per 500 concurrent users should be good enough)
 {% endhint %}
 
 ### MongoDB Stream Hub
@@ -85,7 +85,7 @@ Can not be scaled to multiple containers
 
 Receives real-time data from MongoDB and emits that data to the system.
 
-```text
+```
 docker run \
 --name mongodb-stream-hub \
 -e MONGO_URL=mongodb://mongo/rocketchat?replicaSet=rs01 \
@@ -93,7 +93,7 @@ docker run \
 rocketchat/stream-hub-service:latest
 ```
 
-### Presence \(Optional\)
+### Presence (Optional)
 
 Controls and update users' presence status.
 
@@ -101,7 +101,7 @@ Controls and update users' presence status.
 In a situation where you have a huge amount of data/users, you can get away with not running it to reduce the traffic of presence processing. If you are not running it, the user's online/offline status and notification will not work properly.
 {% endhint %}
 
-```text
+```
 docker run \
 --name presence-service \
 -e MONGO_URL=mongodb://mongo/rocketchat?replicaSet=rs01 \
@@ -113,10 +113,10 @@ rocketchat/presence-service:latest
 
 Set the following environment variables to enable Prometheus metrics:
 
-| Variable | Default | Description |
-| :--- | :--- | :--- |
-| `MS_METRICS` | `false` | Enable Prometheus metrics endpoint |
-| `MS_METRICS_PORT` | `9458` | Port of Prometheus metrics endpoint |
+| Variable          | Default | Description                         |
+| ----------------- | ------- | ----------------------------------- |
+| `MS_METRICS`      | `false` | Enable Prometheus metrics endpoint  |
+| `MS_METRICS_PORT` | `9458`  | Port of Prometheus metrics endpoint |
 
 ## Reverse proxy
 
@@ -127,7 +127,7 @@ Once all services are up and running the web socket connections should be target
 
 If using Kubernetes, an Ingress like the following can be used:
 
-```text
+```
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
@@ -151,4 +151,3 @@ To summarize it:
 2. Run all the above services pointing to the NATS and the MongoDB.
 3. Deploy NATS.
 4. Run Rocket.Chat according to the above-mentioned variables.
-

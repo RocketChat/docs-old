@@ -15,15 +15,15 @@ To enable the Livechat feature on your Rocket.Chat instance:
 
 1. Go to **Administration**
 
-![](../../../../.gitbook/assets/image%20%28594%29.png)
+![](<../../../../.gitbook/assets/image (586).png>)
 
 1. Search '**Omnichannel**' in **Settings** and enable it
 
-![](../../../../.gitbook/assets/image%20%2829%29.png)
+![](<../../../../.gitbook/assets/image (26).png>)
 
 Now the admin will have access to _**Omnichannel Panel Settings**_ through a new menu called `Omnichannel`, as shown below:
 
-![](../../../../.gitbook/assets/image%20%28597%29.png)
+![](<../../../../.gitbook/assets/image (587).png>)
 
 ## Configuration
 
@@ -37,7 +37,7 @@ Now the admin will have access to _**Omnichannel Panel Settings**_ through a new
 6. Enable/Disable asking the visitor if they would like a transcript of the conversation.
 7. Enter the message to show when asking for a transcript.
 
-![](../../../../.gitbook/assets/image%20%2854%29.png)
+![](<../../../../.gitbook/assets/image (46).png>)
 
 ### Business Hour
 
@@ -46,7 +46,7 @@ The feature turns on the omnichannel toggle for the set business hours automatic
 1. Enable business hours
 2. Choose multiple business hours according to your enterprise needs
 
-![](../../../../.gitbook/assets/image%20%2857%29.png)
+![](<../../../../.gitbook/assets/image (49).png>)
 
 ### CRM Integration
 
@@ -60,7 +60,7 @@ If you have an app that you want to integrate with Rocket.Chat and use that app 
 2. Add the URL of your external frame
 3. Enter the encryption key, as shown below:
 
-![](../../../../.gitbook/assets/image%20%2858%29.png)
+![](<../../../../.gitbook/assets/image (50).png>)
 
 ### Facebook
 
@@ -71,18 +71,18 @@ First, you will need to request an API key from Rocket.Chat Support then set it 
 Send an email to [omni@rocket.chat](mailto:omni@rocket.chat) to request an API key. These are processed as time allows, and may take a few days, but you should have your key and secret soon enough.
 
 1. Enable Facebook integration
-2. Enter your _OmniChannel API Key_ 
+2. Enter your _OmniChannel API Key_
 3. _Enter OmniChannel API Secret_. **Save** the changes
 
 ‌
 
-![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-MIz0NPAavAh0lU_m6WU%2F-MIz2cI9LQb6iNIthxPa%2Fimage.png?alt=media&token=b082edb1-8ac9-4f9b-84d5-5434d74bbbbf)
+![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-MIz0NPAavAh0lU\_m6WU%2F-MIz2cI9LQb6iNIthxPa%2Fimage.png?alt=media\&token=b082edb1-8ac9-4f9b-84d5-5434d74bbbbf)
 
 ### GDPR
 
 If you are a GDPR compliant company and want to allow your visitors to request to remove their data, Rocket.chat allows you to do that for all your incoming chats, as shown below:
 
-![](../../../../.gitbook/assets/image%20%2861%29.png)
+![](<../../../../.gitbook/assets/image (61) (1).png>)
 
 ### Livechat
 
@@ -95,7 +95,7 @@ If you are a GDPR compliant company and want to allow your visitors to request t
 
 as shown below:
 
-![](../../../../.gitbook/assets/image%20%2866%29.png)
+![](<../../../../.gitbook/assets/image (51).png>)
 
 Now customize the appears of your livechat widget here for the hours when none of your agents are online/working.
 
@@ -108,11 +108,11 @@ Now customize the appears of your livechat widget here for the hours when none o
 
 as shown below:
 
-![](../../../../.gitbook/assets/image%20%2862%29.png)
+![](<../../../../.gitbook/assets/image (52).png>)
 
 Some more settings that you can customize according to your needs are shown below:
 
-![](../../../../.gitbook/assets/image%20%2863%29.png)
+![](<../../../../.gitbook/assets/image (54).png>)
 
 ### RD Station
 
@@ -120,7 +120,7 @@ This is a CRM integration with RD Station.
 
 We set up your token, and when a new livechat conversation starts, your visitor information is sent to the RD station.
 
-![](../../../../.gitbook/assets/image%20%2859%29.png)
+![](<../../../../.gitbook/assets/image (56).png>)
 
 ### Routing
 
@@ -128,7 +128,7 @@ Routing allows you to define the behavior of your livechat queues.
 
 Detail of every setting is listed below:
 
-1. Select your preferred routing method \(Please refer to [this](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel/livechat-queues) article for information on  types of routing methods used in rocket chat\)
+1. Select your preferred routing method (Please refer to [this](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel/livechat-queues) article for information on types of routing methods used in rocket chat)
 2. Enable acceptance of incoming omnichannel requests even if there are no online agents if you want
 3. Enable if you want the routing system to attempt to find a bot agent before addressing new conversations to a human agent
 4. Set the limit of **Max number of items displayed in the queue** if you want
@@ -140,7 +140,7 @@ Detail of every setting is listed below:
 10. The **Number of recent chats to calculate estimated wait time** defines the number of last served rooms that will be used to calculate queue wait times
 11. Enable **The Last-Chatted Agent Prefered** setting allocates chats to the agent who previously interacted with the same visitor if the agent is available when the chat starts
 
-![](../../../../.gitbook/assets/image%20%2870%29.png)
+![](<../../../../.gitbook/assets/image (59).png>)
 
 ### Sessions
 
@@ -155,5 +155,4 @@ Sessions allow you to decide how you want to handle your chat sessions when an a
 
 As shown below:
 
-![](../../../../.gitbook/assets/image%20%2869%29.png)
-
+![](<../../../../.gitbook/assets/image (60).png>)

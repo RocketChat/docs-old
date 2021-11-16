@@ -8,7 +8,7 @@ description: >-
 
 Following is the channels's symbol:
 
-![](../../../.gitbook/assets/image%20%28415%29.png)
+![](<../../../.gitbook/assets/image (415) (1).png>)
 
 ## Listing channels
 
@@ -22,7 +22,7 @@ Channels with new messages appear bolded.
 
 When using the **Unread Mode**, a new section called **Unread** appears on the left sidebar. All channels with unread messages move to this new section until the messages have been reads.
 
-To activate Unread Mode, go to **My Account**&gt; **Preferences**. Change the **Sidebar channel list mode** setting to **Unread Rooms Mode**.
+To activate Unread Mode, go to **My Account**> **Preferences**. Change the **Sidebar channel list mode** setting to **Unread Rooms Mode**.
 
 ### Mentions
 
@@ -35,7 +35,7 @@ There are several notification settings a user can customize to channels. To fin
 * **Mute/Receive alerts:** Receive or mute any notifications from a channel.
 * **Mute/Receive mentions:** Receive or mute notifications for mentions while receiving notifications for messages in a channel.
 * **Hide/Show counter:** Show the number of unread messages for a channel.
-* **Notification sound:** Choose a sound for notifications besides the alerts default **Desktop**.  Mobile currently supports only the alerts inside your mobile device. You can also select when to play the alert, duration of the alert, and the alert itself.
+* **Notification sound:** Choose a sound for notifications besides the alerts default **Desktop**. Mobile currently supports only the alerts inside your mobile device. You can also select when to play the alert, duration of the alert, and the alert itself.
 
 > There are some default choices for audio provided by Rocket.Chat. However, you also get to choose custom audio files for the same. Get further information about [Custom Sounds](../../administration/admin-panel/custom-sounds.md).
 
@@ -47,7 +47,7 @@ For starting a direct message, you can either search the user you want to talk o
 
 To search for channels and users, use the search bar under your account box. Alternatively you can press Ctrl/Cmd + k to access the search bar quickly.
 
-A search will find channels \(including the ones you are part of\) and users. You can not search inside private channels.
+A search will find channels (including the ones you are part of) and users. You can not search inside private channels.
 
 When you click on a search result, the following can happen:
 
@@ -70,4 +70,3 @@ To hide a channel, hover your mouse over the channel in the list of channels on 
 ## Creating Channels
 
 A pop-up opens.
-

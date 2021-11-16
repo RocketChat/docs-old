@@ -9,25 +9,25 @@ description: >-
 
 ## **To Enable DLP App:**
 
-1. Go to** Administration **
+1. Go to\*\* Administration \*\*
 
-![](<../../.gitbook/assets/image (215).png>)
+![](<../../.gitbook/assets/image (249).png>)
 
 2\. **Marketplace**
 
-![](<../../.gitbook/assets/image (257).png>)
+![](<../../.gitbook/assets/image (254).png>)
 
 3\. Search the DLP app and enable it
 
-![](<../../.gitbook/assets/image (267).png>)
+![](<../../.gitbook/assets/image (256).png>)
 
 5\. Click and open to view DLP app details
 
-![](<../../.gitbook/assets/image (268).png>)
+![](<../../.gitbook/assets/image (257).png>)
 
 6\. Define the rules as Regular expressions. Add each Regular Expression on a new line
 
-![](<../../.gitbook/assets/image (261).png>)
+![](<../../.gitbook/assets/image (259).png>)
 
 {% hint style="info" %}
 Through DLP features, admins can create a list of regular expressions to be monitored in Rocket.Chat and it can be applied to any conversation.\
@@ -41,30 +41,30 @@ It’s also possible to select the rooms to apply the DLP app. If you have chann
 
 8\. Mention any channels that you don't want to be monitored under Content Control type **Ignore Channels** if any, as shown below:
 
-![](<../../.gitbook/assets/image (266).png>)
+![](<../../.gitbook/assets/image (261).png>)
 
 Or mention the channels only which you want to be monitored under Content Control type **Target Channels,** as shown below:
 
-![](<../../.gitbook/assets/image (263).png>)
-
-9\. Toggle switch **Censor only Sensitive Information** to only replace sensitive information by hashtags. Switch it off to censor the full message containing that sensitive information. 
-
 ![](<../../.gitbook/assets/image (262).png>)
 
-10\. Set the title of this temporary message under **Custom Blacklisted Message title **that you want the blacklisted message to be replaced by temporarily in the channel until the blacklisted message has been approved by moderators.
+9\. Toggle switch **Censor only Sensitive Information** to only replace sensitive information by hashtags. Switch it off to censor the full message containing that sensitive information.
+
+![](<../../.gitbook/assets/image (263).png>)
+
+10\. Set the title of this temporary message under \*\*Custom Blacklisted Message title \*\*that you want the blacklisted message to be replaced by temporarily in the channel until the blacklisted message has been approved by moderators.
 
 ![](<../../.gitbook/assets/image (269) (1).png>)
 
-11\. **Custom Pending approval message** will be shown if the user clicks on the  **More info **button under the  blacklisted message in a room until the blacklisted message gets approved, as shown below:
+11\. **Custom Pending approval message** will be shown if the user clicks on the \*\*More info \*\*button under the blacklisted message in a room until the blacklisted message gets approved, as shown below:
 
-![](<../../.gitbook/assets/image (272).png>)
+![](<../../.gitbook/assets/image (265).png>)
 
 12\. **Custom Rejected Message** will be shown in place of the blacklisted message in a channel when a moderator has rejected the blacklisted message.
 
-![](<../../.gitbook/assets/image (271).png>)
+![](<../../.gitbook/assets/image (267).png>)
 
-13\. Hit **Save changes **to save your settings
+13\. Hit \*\*Save changes \*\*to save your settings
 
-![](<../../.gitbook/assets/image (264).png>)
+![](<../../.gitbook/assets/image (268).png>)
 
-Your DLP app functional now. 
+Your DLP app functional now.

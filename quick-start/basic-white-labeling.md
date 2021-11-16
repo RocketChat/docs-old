@@ -12,47 +12,47 @@ Let’s start out with the most basic changes you can make to your server, chang
 
 ### Error
 
-The Error variable will change these elements: The background on switch buttons \(when disabled\)
+The Error variable will change these elements: The background on switch buttons (when disabled)
 
-![Disabled switch button](../.gitbook/assets/disabled-switch%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%284%29.png)
+![Disabled switch button](<../.gitbook/assets/disabled-switch (2) (2) (2) (2) (2) (3) (3) (3) (3) (3) (3) (3) (4) (6).png>)
 
-```text
+```
 The color of the line when you have unread messages (same day or another)
 ```
 
 ![Unread messages](../.gitbook/assets/unread-message.png) ![Unread messages in another day](../.gitbook/assets/new-day-unread-message.png)
 
-```text
+```
 The close button in the audio upload area (inside message box)
 ```
 
-![Message box with audio recording](../.gitbook/assets/audio-message-box%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%285%29%20%285%29%20%285%29%20%281%29.png)
+![Message box with audio recording](<../.gitbook/assets/audio-message-box (1) (2) (2) (2) (2) (2) (3) (3) (3) (3) (3) (3) (3) (5) (5) (5) (1) (6).png>)
 
-```text
+```
 The leave/delete button in the room info
 ```
 
 ![Leave and Delete buttons](../.gitbook/assets/leave-delete-buttons.png)
 
-```text
+```
 The busy status
 ```
 
 ![Busy status](../.gitbook/assets/busy-status.png)
 
-```text
+```
 Remove button inside the user preferences (Don't ask me again list)
 ```
 
 ![Remove button](../.gitbook/assets/remove-dont-ask-me-again.png)
 
-```text
+```
 Textbox with error on the text verification
 ```
 
 ![Text box with error](../.gitbook/assets/error-text-box.png)
 
-```text
+```
 Remove user from room button (user info -> more actions)
 ```
 
@@ -62,9 +62,9 @@ Remove user from room button (user info -> more actions)
 
 The Error Light variable will change these elements: The border color when disabled
 
-![Disabled switch button](../.gitbook/assets/disabled-switch%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%284%29%20%281%29.png)
+![Disabled switch button](<../.gitbook/assets/disabled-switch (2) (2) (2) (2) (2) (3) (3) (3) (3) (3) (3) (3) (4) (8).png>)
 
-```text
+```
 Icon on the burger menu in mobile-view
 ```
 
@@ -76,7 +76,7 @@ The Alert variable will change these elements: Warning icon
 
 ![Warning-image](../.gitbook/assets/warning-image.png)
 
-```text
+```
 Away status color
 ```
 
@@ -94,17 +94,17 @@ The Success variable will change these elements: The online status
 
 ![Online status](../.gitbook/assets/online-status.png)
 
-```text
+```
 The switch button (when enabled)
 ```
 
 ![Enabled switch button](../.gitbook/assets/enabled-switch.png)
 
-```text
+```
 The done button in the audio upload area (inside message box)
 ```
 
-![Message box with audio recording](../.gitbook/assets/audio-message-box%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%285%29%20%285%29%20%285%29%20%281%29%20%286%29.png)
+![Message box with audio recording](<../.gitbook/assets/audio-message-box (1) (2) (2) (2) (2) (2) (3) (3) (3) (3) (3) (3) (3) (5) (5) (5) (1) (8).png>)
 
 ### Success Light
 
@@ -118,77 +118,77 @@ The Button Primary variable will change these elements: The home page links colo
 
 ![Links list](../.gitbook/assets/home-links.png)
 
-```text
+```
 The clip icon color in files list
 ```
 
 ![Enabled switch button](../.gitbook/assets/files-list-clip.png)
 
-```text
+```
 Reply in Thread and Reactions button color (message actions / on hover)
 ```
 
 ![Reply in Thread and Reactions buttons](../.gitbook/assets/thread-reaction-message.png)
 
-```text
+```
 The room actions buttons color (on hover)
 ```
 
 ![Room action button hover](../.gitbook/assets/room-actions-hover.png)
 
-```text
+```
 The switch button in the room settings
 ```
 
 ![Enabled blue switch button](../.gitbook/assets/blue-switch-enabled.png)
 
-```text
+```
 The reply counter
 ```
 
 ![Reply counters](../.gitbook/assets/badger-thread.png)
 
-```text
+```
 Regular expression link in 'Search Messages'
 ```
 
 ![Regular expression link](../.gitbook/assets/regular-expression-link.png)
 
-```text
+```
 Record and Ok buttons in Video Message
 ```
 
 ![Record a video message box](../.gitbook/assets/video-message-box.png)
 
-```text
+```
 Directory active tab
 ```
 
 ![DIrectory active tab](../.gitbook/assets/directory-tabs.png)
 
-```text
+```
 Member list actions
 ```
 
 ![Add users and invite users button](../.gitbook/assets/add-users-invite-users.png)
 
-```text
+```
 Room info save button
 ```
 
 ![Reply in Thread and Reactions buttons](../.gitbook/assets/cancel-reset-save-buttons.png)
 
-```text
+```
 Checkbox background (Don't ask me again / modal)
 ```
 
-![Don&apos;t ask me again checkbox](../.gitbook/assets/checked-dont-ask-me-again%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
+![Don't ask me again checkbox](<../.gitbook/assets/checked-dont-ask-me-again (1) (2) (2) (2) (2) (2) (2) (1) (5).png>)
 
 ### Button Primary Light
 
-The Button Primary Light variable will change these elements: Checkbox border \(Don't ask me again / modal\)
+The Button Primary Light variable will change these elements: Checkbox border (Don't ask me again / modal)
 
-![Don&apos;t ask me again checkbox](../.gitbook/assets/checked-dont-ask-me-again%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%287%29.png)
+![Don't ask me again checkbox](<../.gitbook/assets/checked-dont-ask-me-again (1) (2) (2) (2) (2) (2) (2) (1) (8).png>)
 
 ### Alert Message Primary
 
@@ -196,53 +196,53 @@ The Alert Message Primary variable will change these elements: The thread icon a
 
 ![Replying in thread](../.gitbook/assets/replying-in-thread.png)
 
-```text
+```
 Border and font color in mail messages instructions (inside room -> more actions -> mail messages // when you haven't selected any messages)
 ```
 
-![Send messages by email alert](../.gitbook/assets/mail-messages-blue-div%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%284%29%20%284%29%20%281%29%20%2810%29.png)
+![Send messages by email alert](<../.gitbook/assets/mail-messages-blue-div (1) (2) (2) (2) (2) (2) (4) (4) (4) (1) (9).png>)
 
 ### Alert Message Primary Background
 
 The Alert Message Primary Background variable will change these elements: Background color in mail messages instructions
 
-![Send messages by email alert](../.gitbook/assets/mail-messages-blue-div%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%284%29%20%284%29%20%281%29%20%284%29.png)
+![Send messages by email alert](<../.gitbook/assets/mail-messages-blue-div (1) (2) (2) (2) (2) (2) (4) (4) (4) (1) (10).png>)
 
 ### Alert Message Secondary
 
 The Alert Message Secondary variable will change these elements: Border and font color in mail messages instructions
 
-![Clear section alert](../.gitbook/assets/clear-section-alert%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%282%29.png)
+![Clear section alert](<../.gitbook/assets/clear-section-alert (2) (2) (2) (2) (2) (1) (9).png>)
 
 ### Alert Message Secondary Background
 
 The Alert Message Secondary Background variable will change these elements: Background color in mail message instructions
 
-![Clear section alert](../.gitbook/assets/clear-section-alert%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%286%29.png)
+![Clear section alert](<../.gitbook/assets/clear-section-alert (2) (2) (2) (2) (2) (1) (10).png>)
 
 ### Alert Message Warning
 
 The Alert Message Warning variable will change these elements: Border and font color in mail messages instructions error
 
-![Invalis email alert](../.gitbook/assets/email-error%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%281%29%20%282%29.png)
+![Invalis email alert](<../.gitbook/assets/email-error (2) (2) (2) (2) (2) (4) (1) (9).png>)
 
-```text
+```
 Border and font color in prune messages warning (room -> more actions -> prune messages)
 ```
 
-![Delete all messages alert](../.gitbook/assets/delete-all-messages%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%284%29.png)
+![Delete all messages alert](<../.gitbook/assets/delete-all-messages (2) (2) (2) (2) (2) (4) (4) (3).png>)
 
 ### Alert Message Warning Background
 
 The Alert Message Warning Background variable will change these elements: Background color in mail messages instructions error
 
-![Invalis email alert](../.gitbook/assets/email-error%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%281%29%20%2810%29.png)
+![Invalis email alert](<../.gitbook/assets/email-error (2) (2) (2) (2) (2) (4) (1) (10).png>)
 
-```text
+```
 Background color in prune messages warning
 ```
 
-![Delete all messages alert](../.gitbook/assets/delete-all-messages%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%284%29%20%286%29.png)
+![Delete all messages alert](<../.gitbook/assets/delete-all-messages (2) (2) (2) (2) (2) (4) (4) (7).png>)
 
 ### Primary
 
@@ -250,35 +250,35 @@ The Primary variable will change these elements: Sidebar background
 
 ![Sidebar header](../.gitbook/assets/top-sidebar.png)
 
-```text
+```
 Directory channel/user list
 ```
 
 ![Channels list](../.gitbook/assets/directory-channels-list.png)
 
-```text
+```
 Rooms list ADMIN
 ```
 
 ![All rooms list](../.gitbook/assets/all-rooms-list.png)
 
-```text
+```
 Users list ADMIN
 ```
 
 ![Users list](../.gitbook/assets/users-list.png)
 
-```text
+```
 Invites list ADMIN
 ```
 
 ![List of invitation](../.gitbook/assets/invitation-token.png)
 
-```text
+```
 Name, details and price of apps on marketplace
 ```
 
-![List of apps](../.gitbook/assets/apps-list%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%283%29%20%281%29.png)
+![List of apps](<../.gitbook/assets/apps-list (2) (2) (2) (2) (2) (4) (3) (8).png>)
 
 ### Primary Darkest
 
@@ -286,7 +286,7 @@ The Primary Darkest variable will change these elements: On hover in rooms and u
 
 ![Active room](../.gitbook/assets/list-rooms-hover.png)
 
-```text
+```
 Search  on the top of sidebar -> text box background
 ```
 
@@ -298,7 +298,7 @@ The Primary Dark variable will change these elements: The open room
 
 ![Open room](../.gitbook/assets/active-room.png)
 
-```text
+```
 The border of text box in search option
 ```
 
@@ -310,55 +310,55 @@ The Primary Light variable will change these elements: Fonts and icons color/ si
 
 ![Sidebar](../.gitbook/assets/sidebar.png)
 
-```text
+```
 Search and rooms font color
 ```
 
 ![Sidebar search](../.gitbook/assets/search-box.png)
 
-```text
+```
 Directory/ channels list font color
 ```
 
 ![Directory/ channels list](../.gitbook/assets/directory-channel-list.png)
 
-```text
+```
 Directory/ users list font color
 ```
 
 ![Directory/ users list](../.gitbook/assets/directory-user-list.png)
 
-```text
+```
 Credits on emoji box footer
 ```
 
 ![Emoji Box](../.gitbook/assets/emoji-picker.png)
 
-```text
+```
 Admin tabs on hover
 ```
 
 ![Admin tabs on hover](../.gitbook/assets/admin-sidebar-hover.png)
 
-```text
+```
 Settings title on admin
 ```
 
 ![Search bar](../.gitbook/assets/settings-search-bar.png)
 
-```text
+```
 Font color in marketplace
 ```
 
-![Apps list](../.gitbook/assets/apps-list%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%284%29%20%283%29.png)
+![Apps list](<../.gitbook/assets/apps-list (2) (2) (2) (2) (2) (4) (3) (6).png>)
 
 ### Primary Light Medium
 
 The Primary Light Medium variable will change these elements: Don't ask me again unchecked border of checkbox
 
-![Don&apos;t ask me again checkbox](../.gitbook/assets/dont-ask-me-again.png)
+![Don't ask me again checkbox](../.gitbook/assets/dont-ask-me-again.png)
 
-```text
+```
 Invite users placeholder
 ```
 
@@ -370,25 +370,25 @@ The Primary Lightest variable will change these elements: directory hover on roo
 
 ![Directory/ channel list hover](../.gitbook/assets/directory-channel-list-hover.png)
 
-```text
+```
 directory hover on user
 ```
 
 ![Directory/ user list hover](../.gitbook/assets/directory-user-list-hover.png)
 
-```text
+```
 admin sidebar background
 ```
 
 ![Admin sidebar](../.gitbook/assets/administration-sidebar.png)
 
-```text
+```
 admin rooms list on hover
 ```
 
 ![Admin/ room list hover](../.gitbook/assets/admin-room-list.png)
 
-```text
+```
 admin users list on hover
 ```
 
@@ -396,11 +396,11 @@ admin users list on hover
 
 ### Content
 
-The Content variable will change these elements: color of the number of unread messages \(mobile view\)
+The Content variable will change these elements: color of the number of unread messages (mobile view)
 
 ![Burger menu with unread messages notification](../.gitbook/assets/6-unread-messages-burger.png)
 
-```text
+```
 color of the name, number and more actions when you have unread messages
 ```
 
@@ -412,7 +412,7 @@ The Link Active variable will change these elements: the hover and active color 
 
 ![Room action icons](../.gitbook/assets/active-link-room-actions.png)
 
-```text
+```
 the loader when you prune messages
 ```
 
@@ -426,8 +426,8 @@ The content section allows you to change the HTML content of a number of screens
 * **Home Body:** The content of the first screen that your users will see when logging in.
 * **Login Terms:** This is the text under the login page.
 * **Terms of Service:** By default this screen is accessed on the links under the login page, here you can set the terms of service of your server. Can also be accessed via YOUR-SERVER-URL/terms-of-service
-* **Privacy Policy:** By default this screen is accessed on the links under the login page, here you can set the privacy policy  of your server. Can also be accessed via YOUR-SERVER-URL/privacy-policy
-* **Legal Notice:** By default this screen is accessed on the links under the login page, here you can set the legal notice  of your server. Can also be accessed via YOUR-SERVER-URL/legal-notice
+* **Privacy Policy:** By default this screen is accessed on the links under the login page, here you can set the privacy policy of your server. Can also be accessed via YOUR-SERVER-URL/privacy-policy
+* **Legal Notice:** By default this screen is accessed on the links under the login page, here you can set the legal notice of your server. Can also be accessed via YOUR-SERVER-URL/legal-notice
 * **Side navigation footer:** This is the logo on the left sidebar. We recommend using the images set on your [Assets](basic-white-labeling.md#assets) for better consistency.
 
 ### Fonts
@@ -437,7 +437,7 @@ Here you can define the font family for the system in a list separated by commas
 ### User Interface
 
 * **Display Roles:** Toggles the display of user roles by the usernames on messages
-* **Group Channels By Type:** Enabling this will separate the channels by category \(Channel, Private Room, DM or discussion\) on the left sidebar.
+* **Group Channels By Type:** Enabling this will separate the channels by category (Channel, Private Room, DM or discussion) on the left sidebar.
 * **Use Full Name Initials to Generate Default Avatar:** This will make so the default avatars are generated using the person Full Name instead of Username. E.g. By default the user `blue.ducks` with the name `Richards Nate` will have an avatar with the letters `BD`, if this setting is active, it will be `RN`.
 * **Use Real Name:** Enabling this will change the display of Usernames to Full Names
 * **Click to Create Direct Message:** Enabling this will make it so when you click an avatar, it will open a DM with the selected user.
@@ -453,38 +453,37 @@ Unread Counter Style:
 
 Here you will be able to change most of the logos on your server. Found in the administration menu.
 
-* logo \(svg, png, jpg\)
+* logo (svg, png, jpg)
   * Changes the logo on the footer of the left sidebar
   * Changes the logo on the login page
-* login background \(svg, png, jpg\)
+* login background (svg, png, jpg)
   * Changes the background of the login page
 
 The next items are mostly icons for different operational systems and platforms, we recommend using the same image with the specified size and format on each item: Favicons are used in the browser tabs and as the icon for the server on the desktop application:
 
-* favicon \(ico\)
-* favicon \(svg\)
-* favicon 16x16 \(png\)
-* favicon 32x32 \(png\)
+* favicon (ico)
+* favicon (svg)
+* favicon 16x16 (png)
+* favicon 32x32 (png)
 
 Icons for the notifications on chrome in android:
 
-* android-chrome 192x192 \(png\)
-* android-chrome 512x512 \(png\)
+* android-chrome 192x192 (png)
+* android-chrome 512x512 (png)
 
 Icons for favorites on Iphone:
 
-* apple-touch-icon 180x180 \(png\)
-* apple-touch-icon-precomposed 180x180 \(png\)
+* apple-touch-icon 180x180 (png)
+* apple-touch-icon-precomposed 180x180 (png)
 
 Tiles on Microsoft Windows 10 start menu:
 
-* mstile 70x70 \(png\)
-* mstile 144x144 \(png\)
-* mstile 150x150 \(png\)
-* mstile 310x310 \(png\)
-* mstile 310x150 \(png\)
+* mstile 70x70 (png)
+* mstile 144x144 (png)
+* mstile 150x150 (png)
+* mstile 310x310 (png)
+* mstile 310x150 (png)
 
 Safari pinned tab Icon:
 
-* safari pinned tab \(svg\)
-
+* safari pinned tab (svg)
