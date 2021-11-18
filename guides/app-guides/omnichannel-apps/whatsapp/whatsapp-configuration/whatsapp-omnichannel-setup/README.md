@@ -6,7 +6,7 @@ description: >-
 
 # WhatsApp Omnichannel Setup
 
-After successfuconfiguration, you see the following message:
+After successful configuration, you see the following message:
 
 
 

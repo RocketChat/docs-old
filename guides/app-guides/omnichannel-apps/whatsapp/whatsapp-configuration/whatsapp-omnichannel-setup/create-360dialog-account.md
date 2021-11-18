@@ -4,9 +4,7 @@ If you don't have a 360Dialog account:
 
 Click **No, **
 
-![](<../../../../../../.gitbook/assets/image (468) (1) (1).png>)
-
-You are given the instructions to create one, as shown below:
+![](<../../../../../../.gitbook/assets/image (664).png>)
 
 ![](<../../../../../../.gitbook/assets/image (648).png>)
 
