@@ -16,7 +16,7 @@ This tutorial is done with a local instance of the server running on [http://loc
 
 Do the following on your Rocket.Chat server to be able to connect to the CEET.
 
-1. From the **Administration** panel, navigate or search for \*\*Setup Wizard \*\*and accept the **Cloud Service Privacy Terms Agreement** and hit **Save changes**.
+1. From the **Administration** panel, navigate or search for **Setup Wizard **and accept the **Cloud Service Privacy Terms Agreement** and hit **Save changes**.
 
 ![](<../../../../.gitbook/assets/image (626).png>)
 
@@ -40,7 +40,7 @@ This guide proceeds with creating a new account.
 5\. On the page, you are presented with an interface listing all your workspaces(if you have any).\
 To add a new workspace, click the **Register self-managed** button.
 
-![](<../../../../.gitbook/assets/image (651).png>)
+![](<../../../../.gitbook/assets/image (651) (1).png>)
 
 6\. Next, select whether or not your workspace is connected to the internet or not and hit **Continue**.
 
@@ -54,7 +54,7 @@ You're provided with a token. Copy the token and head back to your server's **Ad
 
 ![](<../../../../.gitbook/assets/image (603).png>)
 
-2\. Select the **Cloud Console** option and proceed with registering a new workspace.
+&#x20; 2\. Select the **Cloud Console** option and proceed with registering a new workspace.
 
 ![](<../../../../.gitbook/assets/image (669).png>)
 
@@ -68,27 +68,29 @@ You're provided with a token. Copy the token and head back to your server's **Ad
 
 ![](<../../../../.gitbook/assets/image (612).png>)
 
-2\. You see an interface prompting you to paste the code you copied from your Rocket.Chat self-managed workspace. Let's get the code now.
+&#x20;  2\. You see an interface prompting you to paste the code you copied from your Rocket.Chat self-managed workspace. Let's get the code now.
 
 ![](<../../../../.gitbook/assets/image (613).png>)
 
-3\. Back on your server, select the Register Offline option.
+&#x20;  3\. Back on your server, select the Register Offline option.&#x20;
 
 ![](<../../../../.gitbook/assets/image (660).png>)
 
-4\. A popup appears with the code needed. Copy it and go back to the cloud portal.
+&#x20;  4\. A popup appears with the code needed. Copy it and go back to the cloud portal.
 
 ![](<../../../../.gitbook/assets/image (615).png>)
 
-5\. Paste the code there and click continue.
+&#x20;  5\. Paste the code there and click continue.
 
 ![](<../../../../.gitbook/assets/image (671).png>)
 
 You are then given another code to apply on your server. Copy that code, and go to your **Administration** panel, paste it there, and hit **Finish Registration.**
 
-![](<../../../../.gitbook/assets/image (672).png>)
+![](<../../../../.gitbook/assets/image (672) (1).png>)
 
 Proceed with following the steps described in [#apply-enterprise-edition-trial](enterprise-edition-trial.md#apply-enterprise-edition-trial "mention") to activate the license on the workspace
+
+
 
 7\. When all this is done, refresh the page, and you're able to see your workspace listed with the trial as **Active**.
 
@@ -96,7 +98,7 @@ Proceed with following the steps described in [#apply-enterprise-edition-trial](
 
 Back on the info section of your **Administration** panel, you should see you're running an **Enterprise License**.
 
-![](<../../../../.gitbook/assets/image (648).png>)
+![](<../../../../.gitbook/assets/image (648) (1).png>)
 
 {% hint style="info" %}
 We recommend you to sync your server immediately after linking it to the cloud. To do that, head on to the **Connectivity Services** on your **Administration** panel and click on **Sync**.
@@ -118,11 +120,11 @@ If you have a Rocket.Chat workspace linked to the cloud already, there is a poss
 
 ![](<../../../../.gitbook/assets/image (630).png>)
 
-4\. Next, copy the code provided and head over to your workspace **Administration panel** > **Info** and click **Apply Offline License**.
+&#x20;  4\. Next, copy the code provided and head over to your workspace **Administration panel** > **Info** and click **Apply Offline License**.
 
 ![](<../../../../.gitbook/assets/image (656).png>)
 
-5\. Paste the code in the License field provided then **Apply License**
+&#x20;  5\. Paste the code in the License field provided then **Apply License**
 
 ![](<../../../../.gitbook/assets/image (655).png>)
 
@@ -140,21 +142,21 @@ From here, you can apply for an extension following any of the two steps describ
 
 ![](<../../../../.gitbook/assets/image (640).png>)
 
-2\. Then Click on the **banner** showing the availability for trial extension.
+&#x20;  2\. Then Click on the **banner** showing the availability for trial extension.
 
 ![](../../../../.gitbook/assets/cloud-portal.png)
 
-3\. Next enter your message or reason why you need the extension then hit **Send Request**. The request will be sent to sales where they will evaluate and respond.
+&#x20;  3\. Next enter your message or reason why you need the extension then hit **Send Request**. The request will be sent to sales where they will evaluate and respond.
 
-![](<../../../../.gitbook/assets/image (657).png>)
+![](<../../../../.gitbook/assets/image (657) (1).png>)
 
 ### Using UI
 
 1. From your cloud portal workspace, click on the kebab menu by the extreme right on the workspace you want to extend its trial.
 2. Then select the **Trial Extension** option on the dropdown that appears.
 
-![](<../../../../.gitbook/assets/image (666).png>)
+![](<../../../../.gitbook/assets/image (666) (1).png>)
 
-3\. Next enter your message or reason why you need the extension then hit **Send Request**. The request will be sent to sales where they will evaluate and respond.
+&#x20;  3\. Next enter your message or reason why you need the extension then hit **Send Request**. The request will be sent to sales where they will evaluate and respond.
 
-![](<../../../../.gitbook/assets/image (657).png>)
+![](<../../../../.gitbook/assets/image (657) (1).png>)

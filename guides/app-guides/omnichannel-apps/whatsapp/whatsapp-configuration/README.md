@@ -10,12 +10,11 @@ Click open your WhatApp instance to see the settings available to you as an admi
 
 Following are the settings available:‌
 
-![](<../../../../../.gitbook/assets/image (432).png>)
+![](<../../../../../.gitbook/assets/image (641).png>)
 
-* You can set a **Notification of undeliverable message**. It alerts the agent that a message was not delivered to the WhatsApp platform.
 
-![](<../../../../../.gitbook/assets/image (430).png>)
 
+* Notification to alert the agent that a message was not delivered to the WhatsApp platform.
 * You can choose to display the agent's name or username in **Agents Display Info**:
 
 ![](<../../../../../.gitbook/assets/image (433).png>)
@@ -28,7 +27,7 @@ Following are the settings available:‌
 
 ![](<../../../../../.gitbook/assets/image (435).png>)
 
-* For a better user experience, the app caches some Template Messages meta-data information. You can define the duration (in minutes) within which the app will automatically refresh its cache.[ Further information on template messages is available here](https://developer.rocket.chat/guides/developer/apps-dev-guides/whatsapp-integration).
+* For a better user experience, the app caches some Template Messages meta-data information. You can define the duration (in minutes) within which the app will automatically refresh its cache.[  Further information on template messages is available here](https://developer.rocket.chat/guides/developer/apps-dev-guides/whatsapp-integration).
 
 ![](<../../../../../.gitbook/assets/image (437).png>)
 
@@ -39,10 +38,6 @@ Following are the settings available:‌
 * Filter the statuses you wish to receive at the endpoint ("Message Status Endpoint URL") based on Message Type.
 
 ![](<../../../../../.gitbook/assets/image (439).png>)
-
-* The following information is provided by 360Dialog and is updated by Rocket.Chat, so you don't have to worry about it.
-
-![](<../../../../../.gitbook/assets/image (440).png>)
 
 * Hit **Save Changes** to save your settings.
 

@@ -6,6 +6,7 @@ description: >-
 
 # WhatsApp Omnichannel Setup
 
-After configuration, you see the following message:
+After successfuconfiguration, you see the following message:
 
-![](<../../../../../../.gitbook/assets/image (449) (1) (1).png>)
+
+
