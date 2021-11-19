@@ -8,7 +8,7 @@ it appears in your Rocket.Chat workspace just like any other omnichannel convers
 
 ![](<../../../../.gitbook/assets/image (452).png>)
 
-Click **Take It!** to serve this conversation. You can also send to and receive files from your WhatsApp end-user, as shown below:
+&#x20;Click **Take It!** to serve this conversation. You can also send to and receive files from your WhatsApp end-user, as shown below:
 
 ![](<../../../../.gitbook/assets/image (453).png>)
 
@@ -16,7 +16,11 @@ Click **Take It!** to serve this conversation. You can also send to and receive 
 
 {% hint style="info" %}
 Here are the shortcuts you can use in WhatsApp Bot:\
-1\. Type \*\*/whatsapp view-templates \*\*to see all Template messages.\
+1\. Type **/whatsapp view-templates **to see all Template messages.\
 2\. Type **/whatsapp send-template** to send a Template message\
 3.. Type **/whatsapp help** to see this shortcut again
+{% endhint %}
+
+{% hint style="info" %}
+Please follow this link to [configure and send template messages via slash command and UI.](https://developer.rocket.chat/reference/api/rest-api/endpoints/apps-endpoints/whatsapp-endpoints/whatsapp-omnichannel-integration-api#2.-via-slash-command-and-ui)
 {% endhint %}
