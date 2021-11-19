@@ -21,6 +21,6 @@ Here are the shortcuts you can use in WhatsApp Bot:\
 3.. Type **/whatsapp help** to see this shortcut again
 {% endhint %}
 
-{% hint style="info" %}
+## Send Template messages via slash command
+
 Please follow this link to [configure and send template messages via slash command and UI.](https://developer.rocket.chat/reference/api/rest-api/endpoints/apps-endpoints/whatsapp-endpoints/whatsapp-omnichannel-integration-api#2.-via-slash-command-and-ui)
-{% endhint %}
