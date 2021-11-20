@@ -20,4 +20,3 @@ To enable it, you have to create a Custom Bot in Slack and add it to the desired
 4. Restart your Rocket.Chat server
 
 When done, you can now invite/add the bot to the channel or private group you want to mirror from
-

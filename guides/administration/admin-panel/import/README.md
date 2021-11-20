@@ -24,8 +24,8 @@ To Import your data:
 
 ![](../../../../.gitbook/assets/2021-11-21\_00-06-49.png)
 
-[Slack](<Import from slack/>)
+{% embed url="https://docs.rocket.chat/guides/administration/admin-panel/import/Import%20from%20slack" %}
 
-[Hipchat](<Import from HipChat/>)
+{% embed url="https://docs.rocket.chat/guides/administration/admin-panel/import/Import%20from%20HipChat" %}
 
-[CSV](<import csv.md>)
+{% embed url="https://docs.rocket.chat/guides/administration/admin-panel/import/import%20csv" %}
