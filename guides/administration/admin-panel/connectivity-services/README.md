@@ -1,5 +1,13 @@
 # Connectivity Services
 
+To access this menu, go to **Administration** > **Connectivity Services.**
+
+as shown below:
+
+![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 copy.png>)
+
+![](../../../../.gitbook/assets/2021-11-21\_01-53-58.png)
+
 ## Introduction
 
 Rocket.Chat Cloud provides a list of features/services such as

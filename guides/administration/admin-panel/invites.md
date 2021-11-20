@@ -6,11 +6,11 @@ description: >-
 
 # Invites
 
-To access this menu, go to **Administration** > **Rooms**.
+To access this menu, go to **Administration** > **Invites**.
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 copy (2).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 copy (3).png>)
 
 ![](<../../../.gitbook/assets/image (349) (1) (1) (1) (1).png>)
 
