@@ -22,6 +22,27 @@ Copy the link and share it
 
 ![](<../../../.gitbook/assets/image (367).png>)
 
+### Edit Invite
+
+To edit an invite link:
+
+1. Click **Edit Invite:**
+
+![](../../../.gitbook/assets/2021-11-21\_01-37-12.png)
+
+2\. Select **Expiration (Days)** from drop-down
+
+3\. Select **Max number of uses**
+
+4\. Click **Generate New Link**\
+&#x20;
+
+![](../../../.gitbook/assets/2021-11-21\_01-47-40.png)
+
+{% hint style="info" %}
+To delete an invite link please follow this [link](https://docs.rocket.chat/guides/administration/admin-panel/invites#delete-a-record). This feature comes in handy when you have an invite link with an **Expiration** **date: Never**. In order to avoid abuse, you can revoke it by deleting the record.
+{% endhint %}
+
 ## **Add users**
 
 To add the users manually:
