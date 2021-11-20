@@ -4,7 +4,7 @@ description: Here you can view room details, edit rooms and delete rooms.
 
 # Rooms (aka Channels)
 
-To access this menu, go to **Administration** > **Users**.
+To access this menu, go to **Administration** > **Rooms**.
 
 as shown below:
 

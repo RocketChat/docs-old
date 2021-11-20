@@ -1,8 +1,22 @@
+---
+description: >-
+  Under Invites, you can view all the invite links generated to invite users to
+  the workspace/channels.
+---
+
 # Invites
 
-Under **Invites**, you can view all the invite links generated to invite users to the workspace/channels.
+To access this menu, go to **Administration** > **Rooms**.
+
+as shown below:
+
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 copy (2).png>)
 
 ![](<../../../.gitbook/assets/image (349) (1) (1) (1) (1).png>)
+
+{% hint style="info" %}
+Please follow the link to find out how these[ invite links](https://docs.rocket.chat/guides/user-guides/teams/teams-members#invite-link) are created.
+{% endhint %}
 
 ## Delete a record
 
