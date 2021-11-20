@@ -6,7 +6,7 @@ description: >-
 
 # Info
 
-To access this section, go to **Administration** > **Info**.
+To access this menu, go to **Administration** > **Info**.
 
 as shown below:
 
