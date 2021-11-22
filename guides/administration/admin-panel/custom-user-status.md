@@ -6,7 +6,7 @@ Rocket.Chat allows you to add your custom status other than the default status p
 
 To access this menu,&#x20;
 
-1. Go to **Administration** > **Custom Emoji**
+1. Go to **Administration** > **Custom User Status**
 
 as shown below:
 
