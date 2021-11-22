@@ -32,7 +32,7 @@ Once your custom status is added, it will show up along with the default status 
 
 To use a custom emoji that you've added, click on your avatar on the top left, and within the **status** menu, select your custom status.
 
-![](../../../.gitbook/assets/2021-11-22\_22-52-05.png)
+![](<../../../.gitbook/assets/2021-11-22\_22-52-05 (1).png>)
 
 ## Delete/Edit Custom Status
 
