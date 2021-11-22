@@ -20,9 +20,22 @@ WebHooks can be handled by _ES2015 / ECMAScript 6_ scripts to process the reques
 ### Create a new Incoming WebHook
 
 * Go to your **Admin Panel**
+
+![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 copy (1).png>)
+
 * Go to **Integrations**
-* Create a **New Integration** and select **Incoming WebHook**
-* Select the channel where you prefer to receive the alerts; it is possible to override in messages.
+
+![](<../../../../.gitbook/assets/2021-11-22\_22-27-32 (1).png>)
+
+* Create a **New **Integration&#x20;
+
+![](../../../../.gitbook/assets/2021-11-22\_22-29-03.png)
+
+* &#x20;Select **Incoming WebHook**
+
+![](../../../../.gitbook/assets/2021-11-22\_22-29-48.png)
+
+* Select the channel where you prefer to receive the alerts; it is possible to override messages.
 * Set **Script Enabled** to `true`
 * Paste your script inside the **Script** field
 * Save the integration
@@ -116,8 +129,21 @@ The response of the request also executes the script, calling another method so 
 ### Create a new Outgoing WebHook
 
 * Go to your **Admin Panel**
+
+![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 copy (2).png>)
+
 * Go to **Integrations**
-* Create a **New Integration** and select **Outgoing WebHook**
+
+![](../../../../.gitbook/assets/2021-11-22\_22-27-32.png)
+
+* Create a **New **Integration&#x20;
+
+![](<../../../../.gitbook/assets/2021-11-22\_22-29-03 (1).png>)
+
+* Select **Outgoing WebHook**
+
+![](../../../../.gitbook/assets/2021-11-22\_22-32-16.png)
+
 * Select the channel where you prefer to use the commands and receive the responses
 * Enter the URL you want to call in **URLs**, you can modify this URL inside the script
 * Set **Script Enabled** to `true`
