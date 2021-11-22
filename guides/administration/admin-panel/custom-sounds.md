@@ -1,17 +1,42 @@
+---
+description: >-
+  Rocket.Chat allows you to add custom sound files that can be used as a
+  notification sound.
+---
+
 # Custom sounds
 
-Rocket.Chat allows you to add custom sound files that can be used as a notification sound. Users can customize their notification sound preferences for specific channels.
-
-Upload sound files in MP3 format.
+{% hint style="info" %}
+You can customize your notification sound preferences for specific channels by uploading sound files in MP3 format and selecting them in [Notification Preferences](../../user-guides/channels/#notifications-preferences).
+{% endhint %}
 
 ## Add a Custom Sound
 
-* Go to the **Administration** tab
-* Select  **Custom Sounds**
-* Click  the **+** on the top right 
-* Enter a name for your custom sound
-* Browse and choose an MP3 file
-* Press **Save**
+To access this menu,&#x20;
+
+1. Go to **Administration** > **Custom Sounds**
+
+as shown below:
+
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 copy (1).png>)
+
+![](../../../.gitbook/assets/2021-11-22\_21-12-21.png)
+
+3\. Click  the **+** on the top right&#x20;
+
+![](<../../../.gitbook/assets/2021-11-22\_21-12-21 copy.png>)
+
+4\. Enter a name for your custom sound
+
+5\. Browse and choose an MP3 file
+
+6\. Hit **Save**
+
+![](../../../.gitbook/assets/2021-11-22\_21-26-55.png)
+
+Your sound is uploaded. as shown below:
+
+![](<../../../.gitbook/assets/2021-11-22\_21-38-23 (1).png>)
 
 ## Use your Custom Sound
 
@@ -23,5 +48,8 @@ Search and click on the sound you want to delete in the `Custom Sound` section u
 
 Press **Delete** or **Edit** to delete or update the selected sound, respectively.
 
-**Note**: Admins can set who has the [permissions](permissions-1.md) to manage these sounds.
+![](../../../.gitbook/assets/2021-11-22\_21-37-32.png)
 
+{% hint style="info" %}
+Admins can set who has the [permissions](permissions-1.md) to manage these sounds.
+{% endhint %}
