@@ -14,17 +14,15 @@ You can customize your notification sound preferences for specific channels by u
 
 To access this menu,&#x20;
 
-1. Go to **Administration** > **Custom Sounds**
-
-as shown below:
+1. Go to **Administration**&#x20;
 
 ![](<../../../.gitbook/assets/2021-11-20\_23-29-48 copy (1).png>)
 
+2\. Hit **Custom Sounds**
+
 ![](../../../.gitbook/assets/2021-11-22\_21-12-21.png)
 
-3\. Click  the **+** on the top right&#x20;
-
-![](<../../../.gitbook/assets/2021-11-22\_21-12-21 copy.png>)
+3\. Click the **+** on the top right&#x20;
 
 4\. Enter a name for your custom sound
 
