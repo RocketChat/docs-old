@@ -10,7 +10,7 @@ Click open your WhatApp instance to see the settings available to you as an admi
 
 Following are the settings available:‌
 
-![](<../../../../../.gitbook/assets/image (641).png>)
+![](<../../../../../.gitbook/assets/image (641) (1).png>)
 
 
 

@@ -155,7 +155,7 @@ From here, you can apply for an extension following any of the two steps describ
 1. From your cloud portal workspace, click on the kebab menu by the extreme right on the workspace you want to extend its trial.
 2. Then select the **Trial Extension** option on the dropdown that appears.
 
-![](<../../../../.gitbook/assets/image (666) (1).png>)
+![](<../../../../.gitbook/assets/image (666) (1) (1).png>)
 
 &#x20;  3\. Next enter your message or reason why you need the extension then hit **Send Request**. The request will be sent to sales where they will evaluate and respond.
 
