@@ -1,8 +1,10 @@
+---
+description: >-
+  With RocketChat OAuth Applications, you can set up custom applications to be
+  used for Open Authentication.
+---
+
 # OAuth Applications
-
-With RocketChat OAuth Applications, you can set up custom applications to be used for Open Authentication.
-
-Document Under Development
 
 To access this menu, go to **Administration** > **OAuth Applications.**
 
