@@ -203,7 +203,6 @@
     * [E2E Encryption](guides/administration/settings/e2e-encryption.md)
     * [Email](guides/administration/settings/email/README.md)
       * [Edit your Email Content](guides/administration/settings/email/editing-emails-content.md)
-      * [Mailer](guides/administration/settings/email/mailer.md)
       * [Direct Email reply](guides/administration/settings/email/direct-reply.md)
       * [Email Configuration](guides/administration/settings/email/setup.md)
     * [Enterprise](guides/administration/settings/enterprise.md)
