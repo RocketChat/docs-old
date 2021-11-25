@@ -13,7 +13,7 @@ description: >-
 
 ![](<../../../../.gitbook/assets/image (249).png>)
 
-1. **Video conference**&#x20;
+2\. Search **Video conference**&#x20;
 
 ![](<../../../../.gitbook/assets/image (250).png>)
 
