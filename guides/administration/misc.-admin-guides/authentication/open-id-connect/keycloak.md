@@ -12,7 +12,7 @@ Create a client in Keycloak.
 
 The following image shows the minimal configurations needed to setup Keycloak as an Identity Provider to Rocket.Chat.
 
-![](../../../../../.gitbook/assets/client_configurations.png)
+![](../../../../../.gitbook/assets/client\_configurations.png)
 
 After saving the changes a new credentials tab will be created for the client. This credentials tab will provide the client secrets which will be used when configuring the Rocket.Chat.
 
@@ -43,27 +43,26 @@ Next, make sure you enable the new Keycloak provider. And click the Refresh OAut
 
 Now logout from Rocket.Chat to view the keycloak based login option visible in the login page.
 
-![](../../../../../.gitbook/assets/keycloak_federation.png)
+![](../../../../../.gitbook/assets/keycloak\_federation.png)
 
 ## Mapping non-federated keycloak user roles to Rocket.Chat roles
 
-This section documents how client-specific roles of keycloak managed user can be mapped to Rocket.Chat roles. This does not work for federated users \(e.g. LDAP managed users\).
+This section documents how client-specific roles of keycloak managed user can be mapped to Rocket.Chat roles. This does not work for federated users (e.g. LDAP managed users).
 
 For this example, we map the `admin` and `livechat-manager` role, as documented in [Permissions](https://docs.rocket.chat/administrator-guides/permissions/).
 
 First we add the required roles to the client
 
-![](../../../../../.gitbook/assets/client_roles_configurations.png)
+![](../../../../../.gitbook/assets/client\_roles\_configurations.png)
 
 then we have to add a mapper entry, that maps our client roles to OpenId, passing the value to Rocket.Chat
 
-![](../../../../../.gitbook/assets/client_roles_mapper_roles.png)
+![](../../../../../.gitbook/assets/client\_roles\_mapper\_roles.png)
 
 Now in order to grant the Rocket.Chat role to a user, we have to modify the users Role Mappings.
 
-!\[User Role Mapping\]\[User Role Mapping\]
+!\[User Role Mapping]\[User Role Mapping]
 
 The roles are only synced on first login, and not being refreshed on each login. Please see the [bug report](https://github.com/RocketChat/Rocket.Chat/issues/15225) for current state.
 
-\[User Role Mapping\]: user\_role\_mapping.png
-
+\[User Role Mapping]: user\_role\_mapping.png

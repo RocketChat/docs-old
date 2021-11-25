@@ -10,7 +10,7 @@ Follow these steps:
 
 1. Go to [http://cloud.google.com/console/](http://cloud.google.com/console/)
 2. Create a Project and select it.
-3. On the navigation menu, go to "APIs & Services" =&gt; Dashboard Tab
+3. On the navigation menu, go to "APIs & Services" => Dashboard Tab
 4. Click on ENABLE APIS AND SERVICES and search for Cloud Translation API.
 5. Go to “Credentials” Tab
 6. Click on "Create credentials"
@@ -32,9 +32,8 @@ When you enable Auto Translate on a channel all messages written in a Google Tra
 
 > Note: only you will see the translated messages. Users who have not enabled Auto Translate will see the original, untranslated messages.
 
-To activate Auto Translate on a channel you must open the channel contextual menu \(the three dots on the top right of the screen\) and select Auto Translate, there you will be able to select your desired language.
+To activate Auto Translate on a channel you must open the channel contextual menu (the three dots on the top right of the screen) and select Auto Translate, there you will be able to select your desired language.
 
 After that you will note a new symbol on the header of the channel, that indicates the Auto Translate feature is active in this channel.
 
-You can also see the original message by opening the message action menu \(the three dots on the message hover\) and selecting `View Original Message`.
-
+You can also see the original message by opening the message action menu (the three dots on the message hover) and selecting `View Original Message`.

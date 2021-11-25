@@ -18,10 +18,10 @@ By navigating to the General section of the Administration system in Rocket.Chat
 
 This is a string that depending on the value provided will generate different outcomes.
 
-| Value | Example Url for Asset |
-| :--- | :--- |
-| cdn | /cdn/example-asset.js |
-| [http://cdn.domain.com](http://cdn.domain.com) | [http://cdn.domain.com/example-asset.js](http://cdn.domain.com/example-asset.js) |
+| Value                                            | Example Url for Asset                                                              |
+| ------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| cdn                                              | /cdn/example-asset.js                                                              |
+| [http://cdn.domain.com](http://cdn.domain.com)   | [http://cdn.domain.com/example-asset.js](http://cdn.domain.com/example-asset.js)   |
 | [https://cdn.domain.com](https://cdn.domain.com) | [https://cdn.domain.com/example-asset.js](https://cdn.domain.com/example-asset.js) |
 
 ### Use CDN Prefix for all assets
@@ -40,15 +40,14 @@ If the situation occurs where CDN stops working or the provided values are incor
 
 As the front end of Rocket.Chat may be inaccessible, the backend Mongo database can be updated to remove the CDN. The following Mongo commands should reset the value to the default state.
 
-```text
+```
 db.rocketchat_settings.update({_id:"CDN_PREFIX"},{$set:{"value":""}})
 ```
 
-```text
+```
 db.rocketchat_settings.update({_id:"CDN_JSCSS_PREFIX"},{$set:{"value":""}})
 ```
 
 ### Use a Browser Extension
 
 A browser extension can be used to rewrite URLs from the CDN address to the same location as where Rocket.Chat is running. Please take care when selecting an appropriate extension for your browser.
-

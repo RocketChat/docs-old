@@ -1,6 +1,6 @@
 # Restoring an Admin User
 
-You might accidentally lost access to an important admin user \(or the only admin in the server\) and need to restore it without using another admin user. This guide will help you in this process.
+You might accidentally lost access to an important admin user (or the only admin in the server) and need to restore it without using another admin user. This guide will help you in this process.
 
 _Note: To do this, you will need access to the database_
 
@@ -10,7 +10,7 @@ _Note: To do this, you will need access to the database_
 
 Open Mongo shell within Mongo container
 
-Change into docker-compose directory \(where your `docker-compose.yml` is located\):
+Change into docker-compose directory (where your `docker-compose.yml` is located):
 
 ```bash
 cd /opt/docker/Rocket.Chat
@@ -19,7 +19,7 @@ docker-compose run mongo bash
 
 or run
 
-```text
+```
 docker exec -it -u root mongo-image /bin/bash
 ```
 
@@ -27,7 +27,7 @@ Make sure to replace `mongo` with your MongoDB container name in case you use a 
 
 Login to mongo shell using :
 
-```text
+```
 mongo
 ```
 
@@ -59,7 +59,7 @@ use parties
 
 ## Updating the admin password
 
-You can either use a one time access token \(that will require the user to change his password\):
+You can either use a one time access token (that will require the user to change his password):
 
 ```javascript
 db.getCollection('users').update({username:"administrator"}, {$set: { "services":{"loginToken":{"token":"some-token-id-that-you-will-use-to-login-once"}}, "requirePasswordChange":true} })
@@ -84,4 +84,3 @@ db.users.update({username:"administrator"}, {$set: {'roles' : [ "admin" ]}})
 ```
 
 Again, make sure to replace `administrator` with the admin username in question.
-

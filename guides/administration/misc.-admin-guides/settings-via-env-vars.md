@@ -1,6 +1,6 @@
 # Managing Settings Using Environment Variables
 
-You can set any settings value via an environment variable when starting your server. You will only have to know the setting id and what type of setting it is \(boolean, string, integer, etc...\).
+You can set any settings value via an environment variable when starting your server. You will only have to know the setting id and what type of setting it is (boolean, string, integer, etc...).
 
 ## Set Setting
 
@@ -8,7 +8,7 @@ To set a setting for the first time you need only to add the env var `SETTING_ID
 
 Example:
 
-```text
+```
 FileUpload_Storage_Type=GoogleCloudStorage
 ```
 
@@ -20,7 +20,7 @@ You can overwrite any setting by setting an environment variable prefixed with: 
 
 Example:
 
-```text
+```
 OVERWRITE_SETTING_FileUpload_Storage_Type=GoogleCloudStorage
 ```
 
@@ -30,7 +30,7 @@ You can block a setting from being changed by specifying the `SETTINGS_BLOCKED` 
 
 Example:
 
-```text
+```
 SETTINGS_BLOCKED=FileUpload_Storage_Type,FileUpload_GoogleStorage_AccessId,FileUpload_GoogleStorage_Secret
 ```
 
@@ -42,7 +42,7 @@ Example:
 
 You can hide settings from the client by using the `SETTINGS_HIDDEN` environment variable
 
-```text
+```
 SETTINGS_HIDDEN=FileUpload_GoogleStorage_AccessId,FileUpload_GoogleStorage_Secret
 ```
 
@@ -54,7 +54,6 @@ Example:
 
 You can force settings to be required on wizard pages by using the `SETTINGS_REQUIRED_ON_WIZARD` environment variable
 
-```text
+```
 SETTINGS_REQUIRED_ON_WIZARD=Organization_Type,Organization_Name
 ```
-

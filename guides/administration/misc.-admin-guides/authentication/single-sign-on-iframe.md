@@ -14,7 +14,7 @@ If you already have the Rocket.Chat inside an iframe you can use call commands i
 
 We suggest one common way, once your application loads:
 
-1. Call your own API to retrieve the token, let's say `/api/rocketchat/token` 
+1. Call your own API to retrieve the token, let's say `/api/rocketchat/token`&#x20;
 2. Your API will validate your own session, probably via cookies
 3. Your API will then call the [Rocket.Chat APIs](broken-reference) to check if the user exists
    1. If it doesn't exists call the Rocket.Chat APIs to create the user

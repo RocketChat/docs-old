@@ -10,8 +10,7 @@ This usually happens when someone changes the setting. To resolve this you will 
 
 Setting the following environment variables will correct this issue:
 
-```text
+```
 OVERWRITE_SETTING_Site_Url=https://the-address-you-use-to-access
 ROOT_URL=https://the-address-you-use-to-access
 ```
-
