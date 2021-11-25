@@ -9,11 +9,11 @@ description: >-
 
 **To enable BBB:**
 
-1. Go to **Administration**
+1. Go to **Administration**&#x20;
 
 ![](<../../../../.gitbook/assets/image (249).png>)
 
-1. **Video conference**
+1. **Video conference**&#x20;
 
 ![](<../../../../.gitbook/assets/image (250).png>)
 
@@ -24,10 +24,12 @@ description: >-
 1. Enable BigBlueButton.
 2. Enter **Domain** name [https://bbb.yourownserver.com](https://bbb.yourownserver.com)
 3. Enter your **Secret Token**. (Follow the [instructions](https://docs.bigbluebutton.org/admin/bbb-conf.html) and generate your secret token in BBB CLI)
-4. Enable BigBlueButton for **Direct Messages** if you want (default)
-5. Enable BigBlueButton for **Private Channels** (default)
-6. Enable BigBlueButton for **Public Channels**
-7. Hit **Save**.
+4. **Always Open in New Window**: When enabled, video conferences will be triggered to open in a new window.
+5. **Enable for Direct Messages**: When set to true, this video conferencing setting is made available for direct messages.
+6. **Enable for Private Channels**: Makes available the use of video conferencing in private channels.
+7. **Enable for Public Channels**: When set to true, enables video conferencing in public channels
+8. **Enable for Teams**: Lets you enable video conferencing in teams,
+9. Hit **Save**.
 
 ![](<../../../../.gitbook/assets/image (277).png>)
 

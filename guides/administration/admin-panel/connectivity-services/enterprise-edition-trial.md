@@ -126,7 +126,7 @@ If you have a Rocket.Chat workspace linked to the cloud already, there is a poss
 
 &#x20;  5\. Paste the code in the License field provided then **Apply License**
 
-![](<../../../../.gitbook/assets/image (655).png>)
+![](<../../../../.gitbook/assets/image (655) (1).png>)
 
 ## Extending Enterprise Edition Trial
 

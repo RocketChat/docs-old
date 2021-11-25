@@ -1,4 +1,6 @@
-# Jitsi Meet Admin Guide
+# Jitsi Admin's Guide
+
+## Jitsi
 
 You can use the [Jitsi Meet](https://jitsi.org/jitsi-meet/) video conferencing platform embedded in Rocket.Chat.
 
@@ -10,11 +12,24 @@ To enable Jitsi:
 
 Go to `Administration -> SETTINGS -> Video Conference` then set `Enabled` to `True`.
 
-![](<../../../../.gitbook/assets/image (253).png>)
+* **Enabled**: Lets you enable the use of Jitsi.
+* **Domain**: Your Jitsi domain
+* **URL room prefix**: Lets you set the URL room prefix
+* **URL room suffix**: Your room sufix
+* **Enable room name hash**: Enables room hash when set to true. Recommended to enable if the Jitsi instance doesn't use any authentication mechanism.
+* **SSL**: Your jitsi SSL
+* **Always Open in New Window**: When enabled, video conferences will be triggered to open in a new window.
+* **Enable for Channels**: When set to true, enables video conferencing in channels
+* **Enable for Teams**: Lets you enable video conferencing in teams
+* **Chrome Extension Id**: Your Jitsi chrome extension Id
+* **Enable JWT auth**: Activate this to enable JWT auth
+* **Application ID (iss)**: Your Jitsi application ID
+* **Application Secret**: Your Jitsi app secret
+* **Limit token to Jitsi Room**: Lets you limit tokens to Jitsi Room
 
-Here, you can set where video conferences can be held (channels, private rooms, and direct messages).
+![](<../../../../.gitbook/assets/image (655).png>)
 
-## How to set up your own Jitsi Meet server
+### How to set up your own Jitsi Meet server
 
 In some use-cases, where the Jitsi.org infrastructure may be remote or inaccessible, or where you require total privacy, setting up your own Jitsi Meet servers stack may be necessary.
 

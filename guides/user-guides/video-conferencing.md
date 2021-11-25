@@ -1,8 +1,8 @@
-# Video Conferencing
+# Video Conferencing User's Guide
 
 In Rocket.Chat start video and audio conferences using [Jitsi Meet](https://jitsi.org/jitsi-meet/).
 
-**Note:** This feature must be enabled by the server's administrator. See [Setting up video conferencing](../../administration/misc.-admin-guides/setting-up-video-conferencing/).
+This feature must be enabled by the server's administrator. See [Setting up video conferencing](broken-reference).
 
 ## Start a Jitsi meet
 
@@ -21,4 +21,3 @@ To share your screen during a Jitsi meet, select **Share Screen**. Choose what b
 To end a screen share, click **End share**.
 
 To use screen share in Chrome, install this [extension](https://chrome.google.com/webstore/detail/rocketchat-screen-share/nocfbnnmjnndkbipkabodnheejiegccf).
-
