@@ -12,7 +12,7 @@ as shown below:
 
 ![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1).png>)
 
-![](<../../../.gitbook/assets/image (662).png>)
+![](<../../../.gitbook/assets/image (662) (1).png>)
 
 ## Deployment Info
 
@@ -40,13 +40,13 @@ To apply your offline license from the **License** card of the **Info** dashboar
 
 Click on the **Apply Offline License** at the bottom right of the card.
 
-![](<../../../.gitbook/assets/image (663).png>)
+![](<../../../.gitbook/assets/image (663) (1).png>)
 
 A modal is presented prompting you to paste the licence you got from the[ RocketChat Cloud Console](https://cloud.rocket.chat/home).
 
 Paste the license code and hit the **Apply license** button.
 
-![](<../../../.gitbook/assets/image (641).png>)
+![](<../../../.gitbook/assets/image (641) (1).png>)
 
 ### Change Offline License
 
@@ -54,7 +54,7 @@ To change your offline license from the **License** card of the **Info** dashboa
 
 Click on the **Change Offline License** at the bottom right of the card.
 
-![](<../../../.gitbook/assets/image (654).png>)
+![](<../../../.gitbook/assets/image (654) (1).png>)
 
 A modal is presented prompting you to paste the new licence you got from the[ RocketChat Cloud Console](https://cloud.rocket.chat/home).
 
@@ -105,11 +105,11 @@ When enabled, it shows a green checkmark :white\_check\_mark: across the feature
 
 To see more on federation settings, click on **Settings** at the bottom right of the federation card.
 
-![](<../../../.gitbook/assets/image (666).png>)
+![](<../../../.gitbook/assets/image (666) (1).png>)
 
 A modal is seen, fill the needed information and hit **Next**
 
-![](<../../../.gitbook/assets/image (653).png>)
+![](<../../../.gitbook/assets/image (653) (1).png>)
 
 * **Domain**: Add the domain name that your server should be linked to.
 * **Discovery Method**: A dropdown to select which discoverability mode to use e.g `DNS` or `HUB`
@@ -122,7 +122,7 @@ Next, continue by adding the given DNS records on your server then follow the gi
 
 More on federa**t**ion setup can be seen in [this section](../settings/federation.md).
 
-We also have a guide on [talking-to-users-from-another-server.md](../../user-guides/talking-to-users-from-another-server.md "mention").
+We also have a guide on [talking-to-users-from-another-server](../../user-guides/talking-to-users-from-another-server/ "mention").
 
 ## Download Info
 

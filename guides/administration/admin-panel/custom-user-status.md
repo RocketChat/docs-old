@@ -10,7 +10,7 @@ To access this menu,&#x20;
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 copy (1) (2).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 copy (1) (2) (1).png>)
 
 * Click  the **+** on the top right
 

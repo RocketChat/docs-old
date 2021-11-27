@@ -8,7 +8,7 @@ description: >-
 
 To access this menu, go to **Administration** > **OAuth Applications.**
 
-![](<../../../.gitbook/assets/image (652).png>)
+![](<../../../.gitbook/assets/image (652) (1).png>)
 
 This dashboard shows the various OAuth apps linked and `Zapier` comes by default for some automation.
 

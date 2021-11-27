@@ -49,7 +49,7 @@ The `/cas` and `/cas/login` URLs are the standard, but not required. Check with 
 
 After configuring, your registration and login pages will have the CAS button present.
 
-![](<../../../.gitbook/assets/image (649) (1).png>)
+![](<../../../.gitbook/assets/image (649) (1) (1).png>)
 
 ## Notes
 

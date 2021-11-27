@@ -41,8 +41,8 @@ It is the current Federation status, which can be one of the following:
 
 * **Could not enable, settings are not fully set :** make sure all the options are correctly filled and saved
 * **Booting... :** the federation is initializing
-* _\[HUB Only\]_ **Registering with Hub... :** the federation is trying to register with the Hub
-* _\[HUB Only\]_ **Disabled, could not register with Hub :** the federation could not register with the Hub
+* _\[HUB Only]_ **Registering with Hub... :** the federation is trying to register with the Hub
+* _\[HUB Only]_ **Disabled, could not register with Hub :** the federation could not register with the Hub
 * **Disabled :** the federation is disabled
 * **Running :** the federation is running and ready to communicate with other servers
 
@@ -78,7 +78,7 @@ Let's suppose we have a domain named `mydomain.com`, and my Rocket.Chat server i
 
 You must add two DNS records:
 
-#### SRV Record \(2.0.0 or newer\)
+#### SRV Record (2.0.0 or newer)
 
 * Service: `_rocketchat`
 * Protocol: `_https`
@@ -96,7 +96,7 @@ You must add two DNS records:
 
 **Note**: Some DNS providers do not allow to enter the full public key string. So, after saving, make sure the string is complete: it starts as `-----BEGIN PUBLIC KEY-----` and ends as `-----END PUBLIC KEY-----`. If that is not the case, follow your provider's instructions. For example, AWS Route 53 needs to split the string in two pieces, as follows:
 
-```text
+```
 "-----BEGIN PUBLIC KEY-----...."
 "...-----END PUBLIC KEY-----"
 ```
@@ -123,7 +123,7 @@ Some DNS providers will not allow setting `_https` or `_http` on SRV records, so
 * Target: `mydomain.com`
 * Port: `443`
 
-#### Legacy Support: protocol TXT Record \(if not provided, HTTPS will be use\)
+#### Legacy Support: protocol TXT Record (if not provided, HTTPS will be use)
 
 * Host: `rocketchat-tcp-protocol.mydomain.com`
 * Value: `https` or `http`
@@ -132,7 +132,7 @@ Some DNS providers will not allow setting `_https` or `_http` on SRV records, so
 
 From your CLI, issue the following commands and make sure the answers look like the following:
 
-```text
+```
 dig srv _rocketchat._https.mydomain.com
 ...
 ;; ANSWER SECTION:
@@ -152,7 +152,7 @@ When the SRV and the Public Key TXT records are added to the DNS records, other 
 
 ### Alternative: Register on Hub
 
-To add your server to the Federated Network using the Hub, fill all the configuration fields needed. Make sure to pick **true** on the `Enabled` field\), pick the **Hub** as your `Discovery Method` option, save and follow the guide below.
+To add your server to the Federated Network using the Hub, fill all the configuration fields needed. Make sure to pick **true** on the `Enabled` field), pick the **Hub** as your `Discovery Method` option, save and follow the guide below.
 
 #### Confirm Domain Ownership
 
@@ -164,5 +164,4 @@ After that step, other peers should be able to find you in the Rocket.Chat Feder
 
 ## Using Rocket.Chat Federation
 
-Click [here](../../user-guides/talking-to-users-from-another-server.md) to learn how to use Rocket.Chat Federation.
-
+Click [here](../../user-guides/talking-to-users-from-another-server/) to learn how to use Rocket.Chat Federation.
