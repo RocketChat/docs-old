@@ -4,11 +4,11 @@ Search Facebook in the **Apps** menu on your Rocket.Chat administration panel, a
 
 ![](<../../../../../.gitbook/assets/image (536).png>)
 
-Click open your Facebook app to see the settings available to you as an administrator:
+Click open your Facebook app to see the settings available to you as an administrator:&#x20;
 
 Following are the settings available:
 
-1\. You can choose to display the agent's name or username:
+1\.  You can choose to display the agent's name or username:
 
 ![](<../../../../../.gitbook/assets/image (402).png>)
 
@@ -20,10 +20,10 @@ Following are the settings available:
 
 ![](<../../../../../.gitbook/assets/image (404).png>)
 
-4\. Hit\*\* Save Changes\*\* to save your settings
+4\. Hit** Save Changes** to save your settings
 
 ![](<../../../../../.gitbook/assets/image (537).png>)
 
 Your Facebook app is successfully configured and you can see the new Facebook channel upon closing the administration panel, as shown below:
 
-![](<../../../../../.gitbook/assets/image (409).png>)
+![](../../../../../.gitbook/assets/2021-11-29\_01-14-57.png)

@@ -54,4 +54,4 @@ Only the agents of that particular department are able to see and take the chats
 
 Your Telegram app is successfully configured and you can see the new Telegram channel upon closing the administration panel, as shown below:
 
-![](../../../../../.gitbook/assets/2021-11-29\_01-14-57.png)
+![](<../../../../../.gitbook/assets/2021-11-29\_01-14-57 (1).png>)
