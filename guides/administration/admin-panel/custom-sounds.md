@@ -16,7 +16,7 @@ To access this menu,&#x20;
 
 1. Go to **Administration**&#x20;
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 copy (1) (1) (1).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 copy (1) (1) (1) (1).png>)
 
 2\. Hit **Custom Sounds**
 

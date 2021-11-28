@@ -18,7 +18,7 @@ To access channels within a team:
 
 * Click channel sign, as shown below:
 
-![](<../../../.gitbook/assets/image (352).png>)
+![](<../../../../.gitbook/assets/image (352).png>)
 
 {% hint style="info" %}
 It’s still possible for channels to exist that don’t belong to any team

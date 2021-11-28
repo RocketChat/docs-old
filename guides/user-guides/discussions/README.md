@@ -18,7 +18,7 @@ On the navigation menu, discussions can be seen under the heading **Discussions*
 Use discussions to tackle down all specific topics related conversations.
 {% endhint %}
 
-Say for example you have for example you have a team named **Engineering-Team**, and you created a channel under the engineering team named **Website-Development-Channel**, it makes sense to break down conversation about each feature of the site to discussions for example  **Website-Responsiveness-Discussion** where all the talk about the website's responsiveness will be talked about.
+Say for example you have a team named **Engineering-Team**, and you created a channel under the engineering team named **Website-Development-Channel.** It makes sense to break down conversation about each feature of the site to discussions for example **Website-Responsiveness-Discussion** where all the talk about the website's responsiveness is done.
 
 Another use case for creating discussions directly in a team for example is: Say we need to talk about arrangements for the engineering teams meeting, we can create an **Engineering-Meeting-Preparation** discussion tied directly to the engineering team.&#x20;
 

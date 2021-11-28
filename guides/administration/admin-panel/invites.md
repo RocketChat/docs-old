@@ -1,7 +1,7 @@
 ---
 description: >-
   Under Invites, you can view all the invite links generated to invite users to
-  the workspace/channels.
+  the team/channels.
 ---
 
 # Invites

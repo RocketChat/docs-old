@@ -25,8 +25,8 @@ Please visit our blog post to know all the details about [Teams](https://rocket.
 [create-a-new-team.md](create-a-new-team.md)
 {% endcontent-ref %}
 
-{% content-ref url="teams-channels.md" %}
-[teams-channels.md](teams-channels.md)
+{% content-ref url="teams-channels/" %}
+[teams-channels](teams-channels/)
 {% endcontent-ref %}
 
 {% content-ref url="teams-enterprise-edition.md" %}
