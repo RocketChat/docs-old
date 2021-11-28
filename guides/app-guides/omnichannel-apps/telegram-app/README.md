@@ -4,13 +4,23 @@ description: Omnichannel Integration between Rocket.Chat and Telegram.
 
 # Telegram App
 
-{% page-ref page="telegram-app-installation.md" %}
+{% hint style="success" %}
+**You must have the omnichannel feature enabled as well as have **[**agents**](https://docs.rocket.chat/guides/omnichannel/agents)** and **[**managers**](https://docs.rocket.chat/guides/omnichannel/managers)** assigned in order to receive and send omnichannel messages.**
+{% endhint %}
 
-{% page-ref page="telegram-app-configuration/" %}
+{% content-ref url="telegram-app-installation.md" %}
+[telegram-app-installation.md](telegram-app-installation.md)
+{% endcontent-ref %}
 
-{% page-ref page="telegram-app-configuration/delete-telegram-app.md" %}
+{% content-ref url="telegram-app-configuration/" %}
+[telegram-app-configuration](telegram-app-configuration/)
+{% endcontent-ref %}
 
-{% page-ref page="telegram-app-agents-guide.md" %}
+{% content-ref url="telegram-app-configuration/delete-telegram-app.md" %}
+[delete-telegram-app.md](telegram-app-configuration/delete-telegram-app.md)
+{% endcontent-ref %}
 
-
+{% content-ref url="telegram-app-agents-guide.md" %}
+[telegram-app-agents-guide.md](telegram-app-agents-guide.md)
+{% endcontent-ref %}
 
