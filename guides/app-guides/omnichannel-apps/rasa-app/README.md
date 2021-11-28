@@ -8,11 +8,19 @@ description: >-
 
 Using Rocket.Chat and the Rasa Chatbot platform integration, you can set up and train your chatbot to respond to any query it's been trained for and configure it to act as an omnichannel agent.
 
-{% page-ref page="rasa-app-installation.md" %}
+{% hint style="success" %}
+**You must have the **[**omnichannel feature**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#enable-omnichannel)** enabled as well as have **[**agents**](https://docs.rocket.chat/guides/omnichannel/agents)** and **[**managers**](https://docs.rocket.chat/guides/omnichannel/managers)** assigned in order to receive and send omnichannel messages.**
+{% endhint %}
 
-{% page-ref page="rasa-app-configuration/" %}
+{% content-ref url="rasa-app-installation.md" %}
+[rasa-app-installation.md](rasa-app-installation.md)
+{% endcontent-ref %}
 
-{% page-ref page="rasa-app-configuration/delete-rasa-app.md" %}
+{% content-ref url="rasa-app-configuration/" %}
+[rasa-app-configuration](rasa-app-configuration/)
+{% endcontent-ref %}
 
-
+{% content-ref url="rasa-app-configuration/delete-rasa-app.md" %}
+[delete-rasa-app.md](rasa-app-configuration/delete-rasa-app.md)
+{% endcontent-ref %}
 

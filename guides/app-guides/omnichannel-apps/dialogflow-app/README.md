@@ -9,13 +9,23 @@ description: >-
 
 Using Rocket.Chat and the Dialogflow Chatbot platform integration, you can set up and train your chatbot to respond to any query it's been trained for and configure it to act as an omnichannel agent.
 
-{% page-ref page="dialogflow-app-installation.md" %}
+{% hint style="success" %}
+**You must have the **[**omnichannel feature**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#enable-omnichannel)** enabled as well as have **[**agents**](https://docs.rocket.chat/guides/omnichannel/agents)** and **[**managers**](https://docs.rocket.chat/guides/omnichannel/managers)** assigned in order to receive and send omnichannel messages.**
+{% endhint %}
 
-{% page-ref page="dialogflow-app-configuration/" %}
+{% content-ref url="dialogflow-app-installation.md" %}
+[dialogflow-app-installation.md](dialogflow-app-installation.md)
+{% endcontent-ref %}
 
-{% page-ref page="dialogflow-app-configuration/bot-user-configuration.md" %}
+{% content-ref url="dialogflow-app-configuration/" %}
+[dialogflow-app-configuration](dialogflow-app-configuration/)
+{% endcontent-ref %}
 
-{% page-ref page="dialogflow-app-configuration/delete-dialogflow-app.md" %}
+{% content-ref url="dialogflow-app-configuration/bot-user-configuration.md" %}
+[bot-user-configuration.md](dialogflow-app-configuration/bot-user-configuration.md)
+{% endcontent-ref %}
 
-
+{% content-ref url="dialogflow-app-configuration/delete-dialogflow-app.md" %}
+[delete-dialogflow-app.md](dialogflow-app-configuration/delete-dialogflow-app.md)
+{% endcontent-ref %}
 

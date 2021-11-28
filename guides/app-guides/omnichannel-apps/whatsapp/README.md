@@ -4,19 +4,38 @@ description: Omnichannel Integration between Rocket.Chat and WhatsApp Business.
 
 # WhatsApp
 
-{% page-ref page="whatsapp-installation.md" %}
+{% hint style="success" %}
+**You must have the **[**omnichannel feature**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#enable-omnichannel)** enabled as well as have **[**agents**](https://docs.rocket.chat/guides/omnichannel/agents)** and **[**managers**](https://docs.rocket.chat/guides/omnichannel/managers)** assigned in order to receive and send omnichannel messages.**
+{% endhint %}
 
-{% page-ref page="whatsapp-configuration/" %}
+{% content-ref url="whatsapp-installation.md" %}
+[whatsapp-installation.md](whatsapp-installation.md)
+{% endcontent-ref %}
 
-{% page-ref page="whatsapp-configuration/whatsapp-omnichannel-setup/" %}
+{% content-ref url="whatsapp-configuration/" %}
+[whatsapp-configuration](whatsapp-configuration/)
+{% endcontent-ref %}
 
-{% page-ref page="whatsapp-configuration/whatsapp-omnichannel-setup/create-360dialog-account.md" %}
+{% content-ref url="whatsapp-configuration/whatsapp-omnichannel-setup/" %}
+[whatsapp-omnichannel-setup](whatsapp-configuration/whatsapp-omnichannel-setup/)
+{% endcontent-ref %}
 
-{% page-ref page="whatsapp-configuration/whatsapp-omnichannel-setup/connect-whatsapp-number-to-your-workspace.md" %}
+{% content-ref url="whatsapp-configuration/whatsapp-omnichannel-setup/create-360dialog-account.md" %}
+[create-360dialog-account.md](whatsapp-configuration/whatsapp-omnichannel-setup/create-360dialog-account.md)
+{% endcontent-ref %}
 
-{% page-ref page="whatsapp-configuration/whatsapp-omnichannel-setup/whatsapp-set-up-with-360dialog-account.md" %}
+{% content-ref url="whatsapp-configuration/whatsapp-omnichannel-setup/connect-whatsapp-number-to-your-workspace.md" %}
+[connect-whatsapp-number-to-your-workspace.md](whatsapp-configuration/whatsapp-omnichannel-setup/connect-whatsapp-number-to-your-workspace.md)
+{% endcontent-ref %}
 
-{% page-ref page="whatsapp-configuration/delete-whatsapp.md" %}
+{% content-ref url="whatsapp-configuration/whatsapp-omnichannel-setup/whatsapp-set-up-with-360dialog-account.md" %}
+[whatsapp-set-up-with-360dialog-account.md](whatsapp-configuration/whatsapp-omnichannel-setup/whatsapp-set-up-with-360dialog-account.md)
+{% endcontent-ref %}
 
-{% page-ref page="whatsapp-agents-guide.md" %}
+{% content-ref url="whatsapp-configuration/delete-whatsapp.md" %}
+[delete-whatsapp.md](whatsapp-configuration/delete-whatsapp.md)
+{% endcontent-ref %}
 
+{% content-ref url="whatsapp-agents-guide.md" %}
+[whatsapp-agents-guide.md](whatsapp-agents-guide.md)
+{% endcontent-ref %}
