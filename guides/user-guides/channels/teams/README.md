@@ -1,7 +1,7 @@
 ---
 description: >-
-  Now, instead of creating a channel for your company’s teams, you can easily
-  group your users as Teams on Rocket.Chat.
+  A team is a digital workspace where you and your teammates can collaborate and
+  work together. A team can have multiple channels in it.
 ---
 
 # Teams
