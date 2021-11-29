@@ -18,7 +18,7 @@ To create a direct message from the top menu:
 
 * Click on the **create **icon on the menu and select **Direct Message**
 
-![](<../../../.gitbook/assets/image (663).png>)
+![](<../../../.gitbook/assets/image (663) (1).png>)
 
 * You are then prompted to select the user you wish to open the message with. Select the user and hit **Create**
 
@@ -34,7 +34,7 @@ Say you are in the same **team**, **channel**, **discussion **or **thread** with
 
 * Click on the users icon by the top right of the said channel and a list of all the users is seen
 
-![](<../../../.gitbook/assets/image (685).png>)
+![](<../../../.gitbook/assets/image (685) (1).png>)
 
 * Click on the user you want to open a message with them and their profile is opened. Click on the **Direct Message** icon below their profile and a direct message is opened.
 

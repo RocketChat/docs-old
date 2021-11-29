@@ -26,7 +26,7 @@ Remember to hit **Save Changes** in order to apply any changes made.
 * **favicon 16x16 (png)**: Lets you set a favicon of size `16X16`
 * **favicon 32x32 (png)**: Lets you set a favicon of size `32x32`
 
-![](<../../../.gitbook/assets/image (638) (1).png>)
+![](<../../../.gitbook/assets/image (638) (1) (1).png>)
 
 * **android-chrome 192x192 (png)**: Lets you set the `192x192` icon displayed on Android Chrome browser.
 * **android-chrome 512x512 (png)**: Lets you set the `512x512` icon displayed on Android Chrome browser.

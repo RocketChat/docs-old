@@ -10,7 +10,7 @@ To star a message, click on the **options **across the message and select **Star
 
 Stared messages are identified by a small star ⭐ by the side
 
-![](<../../../../.gitbook/assets/image (668).png>)
+![](<../../../../.gitbook/assets/image (668) (1).png>)
 
 ## Unstarring a Message in a DM
 
@@ -26,4 +26,4 @@ To view all stared messages, click on the **Options **against your opened DM and
 
 And a list of all stared messages are shown
 
-![](<../../../../.gitbook/assets/image (638).png>)
+![](<../../../../.gitbook/assets/image (638) (1).png>)

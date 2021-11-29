@@ -44,7 +44,7 @@ The section allows you to change the HTML content of certain screens.
 * **Legal Notice:** By default this screen is accessed on the links under the login page, here you can set the legal notice of your server. Can also be accessed via YOUR-SERVER-URL/legal-notice.
 * **Side navigation footer:** This is the logo or text on the bottom left of the sidebar. We recommend using the images set on your [Assets](../../../quick-start/basic-white-labeling.md#assets) for better consistency.
 
-![](<../../../.gitbook/assets/image (670) (1).png>)
+![](<../../../.gitbook/assets/image (670) (1) (1).png>)
 
 ## Custom CSS
 
@@ -102,7 +102,7 @@ A list of variable names and some old minor colors used before. See the color se
 
 * **Display Roles:** Toggles the display of user roles shown beside the usernames on messages.
 
-![](<../../../.gitbook/assets/image (663) (1) (1).png>)
+![](<../../../.gitbook/assets/image (663) (1) (1) (1).png>)
 
 * **Group Channels By Type:** Enabling this will separate the channels by category (**Channel**, **Private Room**, **Direct Message** or **Discussion**) on the left sidebar.
 * **Use Full Name Initials to Generate Default Avatar:** This will make so the default avatars are generated using the person's Full Name instead of Username. E.g. By default the user `blue.ducks` with the name `Richards Nate` will have an avatar with the letters `BD`by default but if this setting is active, it will be `RN`.

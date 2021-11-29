@@ -86,7 +86,7 @@ You're provided with a token. Copy the token and head back to your server's **Ad
 
 You are then given another code to apply on your server. Copy that code, and go to your **Administration** panel, paste it there, and hit **Finish Registration.**
 
-![](<../../../../.gitbook/assets/image (672) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (672) (1) (1) (1).png>)
 
 Proceed with following the steps described in [#apply-enterprise-edition-trial](enterprise-edition-trial.md#apply-enterprise-edition-trial "mention") to activate the license on the workspace
 
