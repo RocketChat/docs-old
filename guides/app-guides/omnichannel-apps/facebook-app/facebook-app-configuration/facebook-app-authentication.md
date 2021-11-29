@@ -75,3 +75,7 @@ Here are the shortcuts you can use in Facebook Bot:
 3. **/facebook edit pageId** Edit Page configuration for the given pageId&#x20;
 4. **/facebook help** Shows help message
 {% endhint %}
+
+{% hint style="danger" %}
+Please note that when a Facebook Messenger users sends a message and there's no agent available on the server to chat, the conversation won't be created which means that when agents get back to work they will not know that someone was reaching out. So please make sure you have at least one agent online at all times.&#x20;
+{% endhint %}
