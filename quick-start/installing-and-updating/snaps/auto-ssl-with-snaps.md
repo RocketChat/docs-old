@@ -1,6 +1,10 @@
 # Auto SSL with Snaps
 
-We now include the option to enable Caddy in your snap. Caddy makes use of [Let's Encrypt](https://letsencrypt.org/) to automatically provide you SSL protection for your communications.
+{% hint style="info" %}
+If you're on ARM64 or 4.x track, please follow the instructions given at the end of this document.
+{% endhint %}
+
+We now include the option to enable Caddy in your snap. Caddy makes use of [Let's Encrypt](https://letsencrypt.org) to automatically provide you SSL protection for your communications.
 
 Starting from release 0.73 you can easily configure everything related to Caddy using snap hooks to ensure your DNS configuration is set up correctly before starting Caddy and Let's Encrypt support.
 
@@ -10,7 +14,7 @@ If you want to enable SSL and Let's Encrypt certificates you should:
 
 1. input a URL starting with HTTPS
 2. own the domain name you would like to use
-3. and have the correct DNS record set up to resolve your domain name to your public IP \(remember DNS records could take some time to propagate\).
+3. and have the correct DNS record set up to resolve your domain name to your public IP (remember DNS records could take some time to propagate).
 
 These next commands will check that configuration is set up correctly before starting the services:
 
@@ -94,7 +98,7 @@ proxy / localhost:3000 {
 }
 ```
 
-**Please note: using an IP address will not work for automatically enabling SSL. You must use a valid hostname \(**[**here's why**](https://caddyserver.com/docs/automatic-https)**\).**
+**Please note: using an IP address will not work for automatically enabling SSL. You must use a valid hostname (**[**here's why**](https://caddyserver.com/docs/automatic-https)**).**
 
 Now you can restart the Caddy service by running:
 
@@ -204,10 +208,23 @@ Remember to restart the Caddy service:
 sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
 ```
 
+### ARM64 or 4.x track
+
+To enable HTTPS, just set your site url and make sure you prefix it with `https`.
+
+```
+sudo snap set rocketchat-server siteurl=https://<your domain>
+```
+
+Now restart the daemons.
+
+```
+sudo snap restart rocketchat-server
+```
+
 ## Opening ports when running Rocket.Chat server from behind router
 
 For Caddy to be able to work from behind a router, the following ports need to be opened between the internet and the server. This is usually achieved through router software or web-interface.
 
 * HTTP: port **80**
 * HTTPS: port **443**
-
