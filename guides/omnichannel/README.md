@@ -18,6 +18,8 @@ If you struggle to handle leads and clients in a multi-channel environment, you 
 * Facebook Messenger
 * Live Chat, and so on.&#x20;
 
+{% embed url="https://docs.rocket.chat/guides/app-guides/omnichannel-apps" %}
+
 ## Omnichannel Activation
 
 ### Enable Omnichannel
