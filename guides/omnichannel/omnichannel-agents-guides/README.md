@@ -4,7 +4,7 @@ Being an omnichannel agent, you can log in to the server using your Id and passw
 
 ![](<../../../.gitbook/assets/image (202).png>)
 
-Make yourself available for entertaining chats by clicking the \*\*Chats \*\*toggle, as shown below:
+Make yourself available for entertaining chats by clicking the **Chats** toggle, as shown below:
 
 ![](<../../../.gitbook/assets/image (203).png>)
 

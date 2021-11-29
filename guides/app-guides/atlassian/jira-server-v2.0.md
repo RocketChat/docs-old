@@ -19,7 +19,7 @@ The following notifications are supported:
 ## Installation
 
 {% hint style="warning" %}
-\*\*Migrating from version 1.x: \*\*Please note that this is a _major_ version update, which means it includes breaking changes. You _will need_ to configure your connections again after the update.
+**Migrating from version 1.x:** Please note that this is a _major_ version update, which means it includes breaking changes. You _will need_ to configure your connections again after the update.
 {% endhint %}
 
 You can install our Jira Server Integration Rocket.Chat App from your Rocket.Chat Administration area.
@@ -33,7 +33,7 @@ Now that you have the app installed in your server, it is time to configure the 
 
 ## Configuration
 
-Go to any channel or private group and execute the slashcommand `/jira-server`. You will be prompted with the _Room Preferences_ dialog\_:\_
+Go to any channel or private group and execute the slashcommand `/jira-server`. You will be prompted with the _Room Preferences_ dialog_:_
 
 ![Room Preferences dialog](<../../../.gitbook/assets/image (5).png>)
 
@@ -57,7 +57,7 @@ Now we have to subscribe your channel to specific projects, so it starts receivi
 
 ### Subscribing to Jira Projects
 
-Go to the channel/private group that you want to receive notifications on and run the Jira slash command `/jira-server`. You will be prompted with the _Room Integration_ dialog:
+Go to the channel/private group that you want to receive notifications on and run the Jira slash command `/jira-server`.  You will be prompted with the _Room Integration_ dialog:
 
 ![Room Integration dialog](<../../../.gitbook/assets/image (12).png>)
 

@@ -20,7 +20,7 @@ Following are the settings available:
 
 ![](<../../../../../.gitbook/assets/image (404).png>)
 
-4\. Hit** Save Changes** to save your settings
+4\. Hit **Save Changes** to save your settings
 
 ![](<../../../../../.gitbook/assets/image (537).png>)
 

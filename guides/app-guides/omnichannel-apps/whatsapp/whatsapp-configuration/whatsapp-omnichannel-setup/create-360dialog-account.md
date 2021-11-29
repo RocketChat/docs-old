@@ -2,7 +2,7 @@
 
 If you don't have a 360Dialog account:
 
-Click **No, **
+Click **No,**&#x20;
 
 ![](<../../../../../../.gitbook/assets/image (664) (1).png>)
 

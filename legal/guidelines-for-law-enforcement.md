@@ -27,7 +27,7 @@ In short, there are three relevant deployment options of Rocket.Chat, that affec
 The third option - private server - is the most common one.
 
 {% hint style="info" %}
-For clarification purposes: a **server,** on which Rocket.Chat is running,** **can contain various **instances** of Rocket.Chat, depending on the configuration. An instance of Rocket.Chat is each a unique community of users communicating with each other. In the following, we refer to **servers**, that run whichever number of Rocket.Chat instances (1 or more).
+For clarification purposes: a **server,** on which Rocket.Chat is running, **** can contain various **instances** of Rocket.Chat, depending on the configuration. An instance of Rocket.Chat is each a unique community of users communicating with each other. In the following, we refer to **servers**, that run whichever number of Rocket.Chat instances (1 or more).
 {% endhint %}
 
 How can you find out, which deployment is being used?

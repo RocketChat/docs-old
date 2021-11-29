@@ -17,7 +17,7 @@ Remember to always hit **Save changes** to apply any changes made.
 Lets you set up Google Analytics.
 
 * **Enable**: When enabled, Google Analytics is active and you will be prompted to set a Tracking ID.
-* **Tracking ID: **Takes in your Google Analytics tracking ID.
+* **Tracking ID:** Takes in your Google Analytics tracking ID.
 
 ## Features Enabled
 

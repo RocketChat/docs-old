@@ -13,14 +13,14 @@ Remember to always **Save changes** and refresh to apply any customization made.
 This section has color settings and definitions you can edit or customize to have a different look on your UI elements.
 
 {% hint style="info" %}
-A list of RocketChat's pre-defined color variables can be found on** **[**the repository**.](https://github.com/RocketChat/Rocket.Chat/blob/b092bef8139f9db692872073ce9788c19b364780/app/theme/client/imports/general/variables.css)
+A list of RocketChat's pre-defined color variables can be found on **** [**the repository**.](https://github.com/RocketChat/Rocket.Chat/blob/b092bef8139f9db692872073ce9788c19b364780/app/theme/client/imports/general/variables.css)
 {% endhint %}
 
 Colors can be set using existing **Expressions** or **Color** by specifying it from the color picker provided.
 
 ![](<../../../.gitbook/assets/image (637) (1).png>)
 
-To learn more about setting colors, see the** **[**colors section of the Basic White-labeling guide**](../../../quick-start/basic-white-labeling.md#colors).
+To learn more about setting colors, see the **** [**colors section of the Basic White-labeling guide**](../../../quick-start/basic-white-labeling.md#colors).
 
 ## Content
 

@@ -54,10 +54,10 @@ You can edit page configuration as shown below:
 
 Following are the settings available:
 
-1. You can route all the conversations coming from this page to a specific** Department**. Only the agents of this department are able to serve Facebook conversations coming from this page.
-2. You can set the** Welcome Message** that will be sent to visitors when they send their first message.
+1. You can route all the conversations coming from this page to a specific **Department**. Only the agents of this department are able to serve Facebook conversations coming from this page.
+2. You can set the **Welcome Message** that will be sent to visitors when they send their first message.
 3. The **Conversation Finished Message** will be sent to visitors when the conversation is closed
-4. You can set the **Default message for offline service **that will be sent to your visitor when no agents are available online
+4. You can set the **Default message for offline service** that will be sent to your visitor when no agents are available online
 
 {% hint style="info" %}
 Only the agents of  this particular department are able to see and take the chats.

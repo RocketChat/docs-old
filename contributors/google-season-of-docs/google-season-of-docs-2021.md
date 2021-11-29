@@ -2,7 +2,7 @@
 
 [![Google Season of Docs 2019](https://github.com/Sing-Li/bbug/raw/master/images/gsodlogo.png)](https://developers.google.com/season-of-docs/)
 
-[Season of Docs](https://g.co/seasonofdocs) is Google's annual program that fosters collaboration between open source projects and technical writers. 
+[Season of Docs](https://g.co/seasonofdocs) is Google's annual program that fosters collaboration between open source projects and technical writers.&#x20;
 
 Season of Docs is a unique program that pairs technical writers with open source mentors to introduce the technical writer to an open source community and provide guidance while the writer works on a real-world open source project. The technical writer, in turn, provides documentation expertise to the open source organization.
 
@@ -12,7 +12,7 @@ Projects can cover a wide range of fields including Cloud computing, operating s
 
 ## How to apply
 
-#### Update April 16, 2021 
+#### Update April 16, 2021&#x20;
 
 Rocket.Chat has applied, but has not been selected for the 2021 Google Season of Docs program.   We intend to try again in 2022, and like to thank Google for the kind consideration this year.
 
@@ -20,9 +20,9 @@ Rocket.Chat has applied, but has not been selected for the 2021 Google Season of
 
 ## Developer Guides and SDK Docs Rewrite
 
-**Mentors: **  [@reetp](https://open.rocket.chat/direct/reetp) [ @rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)  [@ggazzo](https://open.rocket.chat/direct/guilherme.gazzo)
+**Mentors:**  [@reetp](https://open.rocket.chat/direct/reetp) [ @rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)  [@ggazzo](https://open.rocket.chat/direct/guilherme.gazzo)
 
-**Project description: **
+**Project description:**&#x20;
 
 Working with core developers and the community team at Rocket.Chat this is an opportunity to help other developers get to the code faster, and start working on code and contributing to Rocket.Chat more easily.\
 \
@@ -30,7 +30,7 @@ Rocket.Chat has different methods and SDKs that can be difficult to navigate for
 \
 Documentation for setting up development environments is scattered and fragmented and needs bringing together in an easy to read and understand format.\
 \
-This will include methods for setting up libraries such as the JS SDK, core server code, and mobile application development code 
+This will include methods for setting up libraries such as the JS SDK, core server code, and mobile application development code&#x20;
 
 In particular, our JS SDK is a library of code written in JS that offers an easier interface to communicate with a Rocket.Chat server providing APIs to be called from a JS code that executes commands on the server, like send a message, or retrieve data, like get the list of rooms, abstracting all the logic necessary to handle the communication with the server side. \
 \
@@ -40,7 +40,7 @@ This is an exciting opportunity to work on a cutting edge project with a dynamic
 \
 Current documentation is under the[ JS SDK repository README](https://github.com/RocketChat/Rocket.Chat.js.SDK)
 
-**Related Material**:  [Existing developers guides](https://docs.rocket.chat/guides/developer),  [JS SDK repository](https://github.com/RocketChat/Rocket.Chat.js.SDK)  
+**Related Material**:  [Existing developers guides](https://docs.rocket.chat/guides/developer),  [JS SDK repository](https://github.com/RocketChat/Rocket.Chat.js.SDK) &#x20;
 
 ### Measuring Success
 
@@ -75,15 +75,15 @@ In addition, we believe we will see a decrease in simple developer support reque
 
 ## Project Budget Details
 
-### Budget Items 
+### Budget Items&#x20;
 
 We anticipate the budget for this project to be USD $12,000 comprising of:
 
 * Technical writer to re-structure and re-write the technical guides,  and to write the JS SDK documentation     $8000
 * Stipend for 3 x Volunteers to help in proof reading and production of graphics and other assets  $1500
-*  Project stickers and T-Shirts x 10      $200
-*  Contribution to downline non-profit for assistance with design and volunteer search    $300
-*  Organization's participation in administration, mentorship of doc systems and tech project, and reviewing of content      $2000
+* &#x20;Project stickers and T-Shirts x 10      $200
+* &#x20;Contribution to downline non-profit for assistance with design and volunteer search    $300
+* &#x20;Organization's participation in administration, mentorship of doc systems and tech project, and reviewing of content      $2000
 
 
 

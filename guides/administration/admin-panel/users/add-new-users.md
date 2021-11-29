@@ -1,6 +1,6 @@
 # Add new users
 
-To access this menu, go to **Administration > Users > New **as shown below:
+To access this menu, go to **Administration > Users > New** as shown below:
 
 ![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 copy (1) (4).png>)
 

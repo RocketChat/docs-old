@@ -6,11 +6,11 @@ Are you a Rocket.Chat customer and looking for a GDPR-compliant **data processin
 
 You can find one here:
 
-[Link to Data Processing Agreement Signature Form](https://sign.zoho.com/signform?form_link=234b4d535f495623d70dd82f224c3e5934721c48021f650513e1c4b57fe79e962ee536c2f6aad51c7368f76df5cf60d50d6f45c9f7bd43ad1092195a08b56917819b6128a6e5c1bd#)
+[Link to Data Processing Agreement Signature Form](https://sign.zoho.com/signform?form\_link=234b4d535f495623d70dd82f224c3e5934721c48021f650513e1c4b57fe79e962ee536c2f6aad51c7368f76df5cf60d50d6f45c9f7bd43ad1092195a08b56917819b6128a6e5c1bd#)
 
 It is **pre-signed** and only needs to be signed from your end for your compliance purposes. It contains EU standard contract clauses as a data transfer mechanism for data controllers subject to EU law. Keep in mind that our privacy policy is already part of any customer agreement and therefore already is deemed sufficient by most jurisdictions as a "contractual agreement" to prescribe our processing of personal data.
 
-The DPA covers our hosted offering. The DPA can also cover cases of customers, that run a **self-managed instance** of Rocket.Chat, but **connect to Rocket.Chat services** such as the push notification gateway or the marketplace. For this, you generally need to **register your server. **In these cases, personal data is processed by us to provide you these services and you might be required by the applicable laws to have a DPA in place. Our DPA is flexible enough to cover for these cases as well.
+The DPA covers our hosted offering. The DPA can also cover cases of customers, that run a **self-managed instance** of Rocket.Chat, but **connect to Rocket.Chat services** such as the push notification gateway or the marketplace. For this, you generally need to **register your server.** In these cases, personal data is processed by us to provide you these services and you might be required by the applicable laws to have a DPA in place. Our DPA is flexible enough to cover for these cases as well.
 
 _Info: The DPA is not valid for individual Rocket.Chat users (individual persons). For them, only the privacy policy of their Rocket.Chat workspace (provided by the data controller) applies. This DPA also does not cover processing of third-party apps from our marketplace (beyond us providing the capability to consume such apps) and in case of multiple DPAs being submitted, only the most recent version applies._
 

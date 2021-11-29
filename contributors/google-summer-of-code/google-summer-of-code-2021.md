@@ -4,9 +4,9 @@
 
 ### Update  August 21, 2021
 
-All 15 of our projects continued smoothly during these final weeks of the GSoC 2021 program.    Students and mentors worked hard together to finalize the (now it has become a tradition) [ Rocket.Chat GSoC 2021 Project Demos](https://www.youtube.com/playlist?list=PLee3gqXJQrFXGRepCnOATldI6q-bCsaLB)    This is the very first time for some students, to present in front of a group.  And the audience this year is up to **120** Rocket.Chat community and team members, as well as fellow GSoC 2021 colleagues and mentors.    
+All 15 of our projects continued smoothly during these final weeks of the GSoC 2021 program.    Students and mentors worked hard together to finalize the (now it has become a tradition) [ Rocket.Chat GSoC 2021 Project Demos](https://www.youtube.com/playlist?list=PLee3gqXJQrFXGRepCnOATldI6q-bCsaLB)    This is the very first time for some students, to present in front of a group.  And the audience this year is up to **120** Rocket.Chat community and team members, as well as fellow GSoC 2021 colleagues and mentors.   &#x20;
 
-This week,  students are preparing for their final GSoC submission and final mentor evaluation.   Next week, mentors will start their final evaluation. 
+This week,  students are preparing for their final GSoC submission and final mentor evaluation.   Next week, mentors will start their final evaluation.&#x20;
 
 ### Update July 11, 2021
 
@@ -51,7 +51,7 @@ We are delighted to welcome these 12 active community members to work with us du
 | Rohan Lekhwani  | Poll App Mega Extensions                                | Ramkumar KB            |
 | Allan Juan      | Language Power Tools                                    | Rodrigo Nascimento     |
 
-Even with the generous slot assignment this year, it is still a very difficult decision for many mentors to select from the large number of highly qualified students (we were able to engage the students early on in the GSoC cycle with open source contributions via the [GSoC Leaderboard](https://gsoc.rocket.chat) ; with **219 participating students**, **61 students with contributions**,  **21 code committers**, working on **196 Merged PRs**, **231 Open PRs**, and **290 Issues** so far).  Several high calibre open source contributors were left out and not selected for GSoC;  to accommodate these exceptional students, Rocket.Chat has arranged to sponsor an **additional TWO** projects this season. 
+Even with the generous slot assignment this year, it is still a very difficult decision for many mentors to select from the large number of highly qualified students (we were able to engage the students early on in the GSoC cycle with open source contributions via the [GSoC Leaderboard](https://gsoc.rocket.chat) ; with **219 participating students**, **61 students with contributions**,  **21 code committers**, working on **196 Merged PRs**, **231 Open PRs**, and **290 Issues** so far).  Several high calibre open source contributors were left out and not selected for GSoC;  to accommodate these exceptional students, Rocket.Chat has arranged to sponsor an **additional TWO** projects this season.&#x20;
 
 | Student        | Sponsored Project                                 |
 | -------------- | ------------------------------------------------- |
@@ -64,9 +64,9 @@ All verified students are now interacting with their mentors and the greater Roc
 
 We are having a phenomenal Google Summer of Code season this year, participation from students is at an all-time-high.    The enthusiasm and aptitude of student applicants have also improved over prior years.  \
 \
-In our [24 x 7 GSoC 2021 channel ](https://open.rocket.chat/channel/gsoc2021)- we have over **473 mentors, alumni and students** collaborating actively on GSoC projects.     On our[ GSoC leaderboard](https://gsoc.rocket.chat), we are tracking** 219 students** actively contributing code to the Rocket.Chat open source ecosystem.     As of today, we have welcomed **17 new code committers** to our projects. With a total of **138  merged PRs**, **182 open PRs,** and **246 issues **raised by GSoC 2021 students so far.\
+In our [24 x 7 GSoC 2021 channel ](https://open.rocket.chat/channel/gsoc2021)- we have over **473 mentors, alumni and students** collaborating actively on GSoC projects.     On our[ GSoC leaderboard](https://gsoc.rocket.chat), we are tracking **219 students** actively contributing code to the Rocket.Chat open source ecosystem.     As of today, we have welcomed **17 new code committers** to our projects. With a total of **138  merged PRs**, **182 open PRs,** and **246 issues** raised by GSoC 2021 students so far.\
 \
-To rally student spirit and assist them in creating their proposal, we organized an [Alumni Re-union Summit](https://community.rocket.chat/events/gsoc2021.html) where we invited former Rocket.Chat GSoC Alumni from all previous years to share tips with this year's GSoC students. More than** 20 students** attended throughout the day to enjoy the talks from **10 alumni and mentors**.  Highlight talks included one from a Facebook engineer and a Brazilian open source movement champion.    \
+To rally student spirit and assist them in creating their proposal, we organized an [Alumni Re-union Summit](https://community.rocket.chat/events/gsoc2021.html) where we invited former Rocket.Chat GSoC Alumni from all previous years to share tips with this year's GSoC students. More than **20 students** attended throughout the day to enjoy the talks from **10 alumni and mentors**.  Highlight talks included one from a Facebook engineer and a Brazilian open source movement champion.    \
 \
 As of student application deadline on April 13th,   Rocket.Chat has received a total of **98 proposals** from interested students.   Mentors are now busy reviewing the proposals and continuing to keep the students engaged on contributing to the  Rocket.Chat open source ecosystem.
 
@@ -86,7 +86,7 @@ Students continue to interact with mentors actively on our  24 x 7 GSoC 2021 com
 
 For project ideas, check out our growing [list of ideas ](google-summer-of-code-2021.md#project-ideas)for some inspiration.
 
- Meet our global **community of 470+ mentors and students** for GSoC 2021 and get some real-time help on the next steps. Please visit our 24 x 7 community server channel:
+&#x20;Meet our global **community of 470+ mentors and students** for GSoC 2021 and get some real-time help on the next steps. Please visit our 24 x 7 community server channel:
 
 [https://open.rocket.chat/channel/gsoc2021](https://open.rocket.chat/channel/gsoc2021)
 
@@ -137,7 +137,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 ### Decentralized Storage Integration
 
-* **Mentors:** [@murtaza.patrawala](https://open.rocket.chat/direct/murtaza.patrawala) 
+* **Mentors:** [@murtaza.patrawala](https://open.rocket.chat/direct/murtaza.patrawala)&#x20;
 * **Description:** The goal of this project is to add new decentralized P2P-based storage providers within [Rocket.Chat](http://rocket.chat). Decentralized solutions not only provide more security but are also more cost-effective. Some examples of decentralized solutions include Filecoin, Saicoin, Storj, etc. Via this project, the files uploaded on Rocket.Chat should be stored on the decentralized network, and the uploaded files should be accessible within Rocket.Chat.
 * **Desirable Skills**: Familiarity with nodeJS full-stack web app development. Experience with [Rocket.Chat](http://rocket.chat) codebase and/or with any of the decentralized solution providers is ideal.
 
@@ -234,7 +234,7 @@ Interested students are also encouraged to interact with our core team and contr
 
 * **Mentors:** [@rodrigo.nascimento](https://open.rocket.chat/direct/rodrigo.nascimento)
 * **Project Channel:** [https://open.rocket.chat/channel/2dxywf7577zxgzark](https://open.rocket.chat/channel/2dxywf7577zxgzark)
-* **Project Repository: **[https://github.com/RocketChat/Rocket.Chat.Houston](https://github.com/RocketChat/Rocket.Chat.Houston)
+* **Project Repository:** [https://github.com/RocketChat/Rocket.Chat.Houston](https://github.com/RocketChat/Rocket.Chat.Houston)
 * **Desirable Skills:** TypeScript, Git, Shell
 * **Description:** Houston is the CLI tooling we use to release new versions of Rocket.Chat and generate our changelogs from merged pull requests. We want to:
   * Rewrite the tooling in TypeScript
@@ -290,8 +290,8 @@ Interested students are also encouraged to interact with our core team and contr
 ### Community Collaboration Platform: Discourse integration
 
 * **Mentors:**  [@sing.li](https://open.rocket.chat/direct/sing.li) [@murtaza.patrawala](https://open.rocket.chat/direct/murtaza.patrawala)
-* **Description:** This is a chat and networking platform that helps manage, grow and connect communities through messaging, content and discovery. The platform aims to provide an easier way to build a massive community collaborating over any Github, Gitlab, and other repository hosting services. The focus of this project will be to add tightly integrated support for Discourse, the leading open-source forum (civilized discussion) platform.  
-* **Desirable Skills**: Familiarity with nodeJS full stack web app development, and Ruby on Rails.  Experience with Discourse and Discourse API programming a big plus. 
+* **Description:** This is a chat and networking platform that helps manage, grow and connect communities through messaging, content and discovery. The platform aims to provide an easier way to build a massive community collaborating over any Github, Gitlab, and other repository hosting services. The focus of this project will be to add tightly integrated support for Discourse, the leading open-source forum (civilized discussion) platform. &#x20;
+* **Desirable Skills**: Familiarity with nodeJS full stack web app development, and Ruby on Rails.  Experience with Discourse and Discourse API programming a big plus.&#x20;
 
 ### **UiKit Playground**
 
@@ -314,13 +314,13 @@ Interested students are also encouraged to interact with our core team and contr
 ### **Matrix Interoperability: migrating to native support**
 
 * **Mentors:**  [@sing.li](https://open.rocket.chat/direct/sing.li) [@gabriel.engel](https://open.rocket.chat/direct/gabriel.engel)
-* **Desirable Skills:** Familiarity with matrix.org protocol; skilled in rust, golang, and TypeScript development 
+* **Desirable Skills:** Familiarity with matrix.org protocol; skilled in rust, golang, and TypeScript development&#x20;
 * **Description:** Explore and improve existing Rocket.Chat to Matrix.org bridge(s)   Investigate the current state of development in dendrite and hydrogen.  Start the work on migrating to native support of the matrix protocols.
 
 ### **Big Blue Button: replace embedded chat with Rocket.Chat**
 
 * **Mentors:**  [@fcecagno](https://open.rocket.chat/direct/fcecagno)  [@sing.li](https://open.rocket.chat/direct/sing.li)  [@gabriel.engel](https://open.rocket.chat/direct/gabriel.engel)
-* **Desirable Skills:** Familiarity with Big Blue Button; skilled in JavaScript, nodeJS and Meteor development 
+* **Desirable Skills:** Familiarity with Big Blue Button; skilled in JavaScript, nodeJS and Meteor development&#x20;
 * **Description:**  The embedded chat in Big Blue Button is already a Meteor based chat with a similar structure to Rocket.Chat.  However, other components in Big Blue Button also depend on the same Meteor stack working against the same MongoDB instance for proper operations. This project aims to create the ability to integrate an existing Rocket.Chat server into Big Blue Button, replacing the existing embedded chat component.
 
 ### **Channel's Calendar View**

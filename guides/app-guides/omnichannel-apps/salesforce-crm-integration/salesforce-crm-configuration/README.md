@@ -8,8 +8,8 @@ Click open your Salesforce CRM app to see the settings available to you as an ad
 
 Following are the settings available:
 
-1. \*\*Consumer Key \*\*is available inside your Salesforce instance.
-2. \*\*Private Key \*\*is also available inside your Salesforce instance.
+1. **Consumer Key** is available inside your Salesforce instance.&#x20;
+2. **Private Key** is also available inside your Salesforce instance.&#x20;
 3. **Salesforce Username**: This is the salesforce username used here for identification.
 4. **Display Contact information when assigning the agent to the chat**: If enabled, Salesforce contact information will be displayed to agents when they are assigned to chats.
 5. **Auto-Save/Update Contacts when a Chat Ends**: If enabled, the app will auto-save/update the visitor info on Salesforce once an agent closes the chat.

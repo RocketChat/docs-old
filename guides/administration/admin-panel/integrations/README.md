@@ -27,7 +27,7 @@ WebHooks can be handled by _ES2015 / ECMAScript 6_ scripts to process the reques
 
 ![](<../../../../.gitbook/assets/2021-11-22\_22-27-32 (1).png>)
 
-* Create a **New **Integration&#x20;
+* Create a **New** Integration&#x20;
 
 ![](../../../../.gitbook/assets/2021-11-22\_22-29-03.png)
 
@@ -136,7 +136,7 @@ The response of the request also executes the script, calling another method so 
 
 ![](../../../../.gitbook/assets/2021-11-22\_22-27-32.png)
 
-* Create a **New **Integration&#x20;
+* Create a **New** Integration&#x20;
 
 ![](<../../../../.gitbook/assets/2021-11-22\_22-29-03 (1).png>)
 

@@ -31,7 +31,7 @@ The deployment info card shows information related to your server deployment.t
 
 This shows the information patenting to the license of your server.
 
-* **License**: **This **hows the tags of the license you have active on your server.
+* **License**: **This** hows the tags of the license you have active on your server.
 * **Features**: The various features supported by the license on your server. Like `Omnichannel` `Auditing`, `Canned Responses`, `Engagement Dashboard`.
 
 ### Apply Offline License

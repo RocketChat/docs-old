@@ -7,7 +7,7 @@ description: >-
 # Custom sounds
 
 {% hint style="info" %}
-You can customize your notification sound preferences for specific channels by uploading sound files in MP3 format and selecting them in [Notification Preferences](../../user-guides/channels/#notifications-preferences).
+You can customize your notification sound preferences for specific channels by uploading sound files in MP3 format and selecting them in [Notification Preferences](../../user-guides/channels/channel/#notifications-preferences).
 {% endhint %}
 
 ## Add a Custom Sound
@@ -38,7 +38,7 @@ Your sound is uploaded. as shown below:
 
 ## Use your Custom Sound
 
-See [Notification Preferences](../../user-guides/channels/#notifications-preferences) to use this custom sound as a notification.
+See [Notification Preferences](../../user-guides/channels/channel/#notifications-preferences) to use this custom sound as a notification.
 
 ## Delete/Edit Custom Sound
 

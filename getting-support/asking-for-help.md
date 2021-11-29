@@ -62,7 +62,7 @@ Email: [support@rocket.chat](mailto:support@rocket.chat)
 
 ### **Seek free help**
 
-Patiently wait for a volunteer to consider helping you. 
+Patiently wait for a volunteer to consider helping you.&#x20;
 
 If you opt for community's help instead of paid support, please notice that:
 
@@ -80,9 +80,9 @@ If you opt for community's help instead of paid support, please notice that:
 
 ## **Is it a feature request?**
 
-If Rocket.Chat works but doesn't do something the way you want it to then this is a feature request **NOT** a bug. You can open a request in [Feature Requests](https://github.com/RocketChat/feature-requests). 
+If Rocket.Chat works but doesn't do something the way you want it to then this is a feature request **NOT** a bug. You can open a request in [Feature Requests](https://github.com/RocketChat/feature-requests).&#x20;
 
-## **Go through the documentation **
+## **Go through the documentation**&#x20;
 
 Please go through the relevant documentation at least twice. A lot of the answers can be found there. It is easy to miss the obvious because you _think_ you know the answer rather than reading to actually understand. 😃
 
@@ -114,7 +114,7 @@ e.g.
 
 `is: issue theme`
 
-Try some variations - you won't hit the sweet spot the first time usually. The more often you do this the better you will get at learning what to search for and how. 
+Try some variations - you won't hit the sweet spot the first time usually. The more often you do this the better you will get at learning what to search for and how.&#x20;
 
 ## Ask on the forums
 
@@ -142,7 +142,7 @@ Tell us about the problem you were originally trying to solve, not the problem t
 
 Use this as a template to ask your question. Get all the right information. It will help if you then have to submit a real Issue.
 
-[Complete a bug template](https://github.com/RocketChat/Rocket.Chat/issues/new?template=bug_report.md)
+[Complete a bug template](https://github.com/RocketChat/Rocket.Chat/issues/new?template=bug\_report.md)
 
 Server Set-up Information:
 
@@ -168,7 +168,7 @@ Here is a great example of a good bug report:
 
 Last, be patient. Answer the questions you are asked. They may appear odd, but they are probably for a good reason. Debugging is a logical process and you need to help establish the _facts_ first.
 
-Remember, **you** are the one with the problem. They can just go back to work or their wife and kids and ignore you. 
+Remember, **you** are the one with the problem. They can just go back to work or their wife and kids and ignore you.&#x20;
 
 ## **Open an Issue**
 

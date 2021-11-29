@@ -2,7 +2,7 @@
 
 ## Chats
 
-After you log in and wish to start taking omnichannel chats, you can make yourself \*\*Available \*\*as an omnichannel agent by clicking the **Chat** button, as shown below:
+After you log in and wish to start taking omnichannel chats, you can make yourself **Available** as an omnichannel agent by clicking the **Chat** button, as shown below:
 
 ![](<../../../.gitbook/assets/image (230).png>)
 
@@ -12,7 +12,7 @@ You can now see the omnichannel chats queue and are available to take the chats:
 
 ## Queue
 
-Click the \*\*Queue \*\*button to see the current omnichannel chats queue:
+Click the **Queue** button to see the current omnichannel chats queue:
 
 ![](<../../../.gitbook/assets/image (224).png>)
 
@@ -20,7 +20,7 @@ as shown below:
 
 ![](<../../../.gitbook/assets/image (226).png>)
 
-All the chats you are currently serving as an omnichannel agent appear in your queue:
+All the chats you are currently serving as an omnichannel agent appear in your queue:&#x20;
 
 {% hint style="info" %}
 As soon as you close them, they will disappear from the queue.

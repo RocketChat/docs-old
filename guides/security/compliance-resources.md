@@ -4,7 +4,7 @@ On this page, we provide you with resources around compliance of Rocket.Chat wit
 
 Each resource is tagged with a section to indicate the scope. Some resources only apply to our hosted services, others to our self-managed product or else.
 
-## Compliance certifications
+## Compliance certifications&#x20;
 
 ### ISO 27001 certification
 
@@ -16,7 +16,7 @@ Scope: **Hosted Offering, App Store, Software Development**
 
 **Rocket.Chat is ISO 27001 certified**. ISO 27001 is an internationally recognized standard for information security management systems. Our organization is audited on an annual basis by an independent third-party auditor to verify the design and operational effectiveness of the management system.
 
-* Certificate:
+* Certificate:&#x20;
 
 {% file src="../../.gitbook/assets/Certificate 2020.pdf" %}
 ISO 27001 certificate 2020
@@ -25,10 +25,10 @@ ISO 27001 certificate 2020
 * **Name**: ISO 27001 Information Security Management Systems
 * **Statement of applicability** ([link](https://drive.google.com/file/d/14tYG-sVDkw6hGZvxnRjSCEcCfJXdYetb/view?usp=sharing))
 *
-  * \_contains a list of controls and whether they are applicable or not \_
+  * _contains a list of controls and whether they are applicable or not_&#x20;
 * **Certifying body**: QMS Certification Services
 * **Validity**: July 2020 - July 2023
-* \*\*Use cases \*\*for Rocket.Chat users: due diligence, security review, regulatory compliance, internal audit, supply chain audit
+* **Use cases** for Rocket.Chat users: due diligence, security review, regulatory compliance, internal audit, supply chain audit
 
 ## Industry-specific resources
 
@@ -45,3 +45,4 @@ Rocket.Chat has published a pre-filled questionnaire in the STAR-registry of the
 * Use cases: due diligence, security review
 
 ## Country-specific resources
+

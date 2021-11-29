@@ -18,7 +18,7 @@ By default, 2FA is enabled with the email you used for signing up on the server.
 
 To enable 2FA on your account,&#x20;
 
-* Click on your** User Panel** then navigate down to **My Account**
+* Click on your **User Panel** then navigate down to **My Account**
 
 ![](<../../../.gitbook/assets/image (672).png>)
 
@@ -36,7 +36,7 @@ TOTP works by generating a unique numeric password with a standardized [algorith
 You can use apps like **Google Authenticator, Authy**, etc to generate and manage your codes.
 {% endhint %}
 
-* Click on the **Enable two-factor authentication via TOTP **to enable** **it
+* Click on the **Enable two-factor authentication via TOTP** to enable **** it
 
 ![](<../../../.gitbook/assets/image (668).png>)
 

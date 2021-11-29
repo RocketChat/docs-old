@@ -14,7 +14,7 @@ as shown below:
 
 Use the **`From`** field to set the address to send the email.&#x20;
 
-Check the **Dry Run **option to send the email only to the address defined in **`From`**.
+Check the **Dry Run** option to send the email only to the address defined in **`From`**.
 
 You can also filter who receives the email by using a valid user query in the **`Query`** field.
 

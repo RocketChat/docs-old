@@ -107,7 +107,7 @@ These settings are related to the Iframe Integration, please see the [Iframe int
 
 ## Password History
 
-* **Enable Password History: **When enabled, users won't be able to update their passwords to some of their most recently used passwords.
+* **Enable Password History:** When enabled, users won't be able to update their passwords to some of their most recently used passwords.
 * **Password History Length**: Lets you set number of most recently used passwords to prevent users from reusing them.
 
 ## Password Policy

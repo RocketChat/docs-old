@@ -16,7 +16,7 @@ it appears in your Rocket.Chat workspace just like any other omnichannel convers
 
 {% hint style="info" %}
 Here are the shortcuts you can use in WhatsApp Bot:\
-1\. Type **/whatsapp view-templates **to see all Template messages.\
+1\. Type **/whatsapp view-templates** to see all Template messages.\
 2\. Type **/whatsapp send-template** to send a Template message\
 3.. Type **/whatsapp help** to see this shortcut again
 {% endhint %}

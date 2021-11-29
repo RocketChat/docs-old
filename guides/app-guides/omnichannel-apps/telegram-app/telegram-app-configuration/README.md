@@ -8,7 +8,7 @@ Click open your Telegram app to see the settings available to you as an administ
 
 The following are the settings available:
 
-1. **Bot Token **sent by Telegram during Bot user activation. If you need help creating your telegram bot token, you can find the [instructions](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/telegram-app/telegram-app-configuration/generate-your-telegram-bot-token) here
+1. **Bot Token** sent by Telegram during Bot user activation. If you need help creating your telegram bot token, you can find the [instructions](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/telegram-app/telegram-app-configuration/generate-your-telegram-bot-token) here
 
 Other Settings include:
 
@@ -24,7 +24,7 @@ Find out how to [create a department](https://docs.rocket.chat/guides/omnichanne
 
 3\. You can set the **Service Unavailable Message** that will be sent to the user if some error occurs like if no agents are online
 
-4\. You can set the** Welcome Message** that will be sent to visitors when they send their first message
+4\. You can set the **Welcome Message** that will be sent to visitors when they send their first message
 
 5\. The **Conversation Finished Message** will be sent to visitors when the conversation is closed
 
@@ -48,7 +48,7 @@ Only the agents of that particular department are able to see and take the chats
 
 ![](<../../../../../.gitbook/assets/image (566).png>)
 
-8\. Hit** Save Changes** to save your settings
+8\. Hit **Save Changes** to save your settings
 
 ![](<../../../../../.gitbook/assets/image (535).png>)
 

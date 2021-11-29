@@ -1,8 +1,8 @@
 # Net Promoter Score (NPS) survey
 
-This feature aims to assess user satisfaction and make the Rocket.Chat experience even more pleasant for users. 
+This feature aims to assess user satisfaction and make the Rocket.Chat experience even more pleasant for users.&#x20;
 
-By allowing it to run on your workspace you are helping Rocket.Chat to: 
+By allowing it to run on your workspace you are helping Rocket.Chat to:&#x20;
 
 * Build a better product & better user experience
 * Develop and prioritize features aligned with our users’ needs
@@ -16,7 +16,7 @@ If the user clicks on a score, a modal will be exhibited to collect text feedbac
 
 Both actions can be dismissed by the user.
 
-![](https://lh6.googleusercontent.com/4BBASQyWUP1BM9x1Qouv-cxLUNY3TZBwobJV-N5LVzDZYxOjRmSOPDS9e2twv19d6D24UZhSjDwcwlK7H1U1em9OlWLaoueg0HcEUNcKIr6gSu0z6YGjAKovbj7E_YEA2aC3CmuW)
+![](https://lh6.googleusercontent.com/4BBASQyWUP1BM9x1Qouv-cxLUNY3TZBwobJV-N5LVzDZYxOjRmSOPDS9e2twv19d6D24UZhSjDwcwlK7H1U1em9OlWLaoueg0HcEUNcKIr6gSu0z6YGjAKovbj7E\_YEA2aC3CmuW)
 
 ![](https://lh5.googleusercontent.com/fbYrzTYf-5ybS8kbgjM6QFf7q8hjrHBf2KRrpiwoF1\_D1wBpBS2QjBnskXWmjvFXK-MWQj0VhHytBJaq9bJ1mqo887nENWgxim4y6BD4aoql6LZGEbBuqzUJwgAnKc3JSIFcoEky)
 
@@ -33,7 +33,7 @@ It’s possible to check more details directly in the code [here](https://github
 
 ## How is NPS data collected?
 
-All feedback received through the NPS is anonymous. It does not collect any personal data. 
+All feedback received through the NPS is anonymous. It does not collect any personal data.&#x20;
 
 The following data elements are transmitted via statistics collector:
 
@@ -51,8 +51,8 @@ The following data elements are transmitted via statistics collector:
 
 Our users have total freedom to disable the NPS survey. Simply follow the steps below to switch NPS off:
 
-* Within Rocket.Chat, access **Administration > General **
+* Within Rocket.Chat, access **Administration > General**&#x20;
 * **NPS** > Uncheck “**Enable NPS Survey**”
 * Once the setting is turned off, the NPS survey stays off indefinitely.
 
-![](https://lh5.googleusercontent.com/dy4TrUEoeGsj3rFes4or0m5hZ-Jvxp1mtz_zrt2f-Diaox-CTttatqaVWLkSpQ2TJt6n9j3Zd-yCf_RQS1H1zeH4M8gYPpLm2Gpk_lp50NulU56arxdL5zyQTZRzGG6uKlEr7KMY)
+![](https://lh5.googleusercontent.com/dy4TrUEoeGsj3rFes4or0m5hZ-Jvxp1mtz\_zrt2f-Diaox-CTttatqaVWLkSpQ2TJt6n9j3Zd-yCf\_RQS1H1zeH4M8gYPpLm2Gpk\_lp50NulU56arxdL5zyQTZRzGG6uKlEr7KMY)

@@ -43,9 +43,11 @@ To create a new contact:
 
 ![](<../../../.gitbook/assets/image (208).png>)
 
-2\. Enter all the information and hit **Save**.
+2\. Enter all the information and hit **Save**.&#x20;
 
 ![](<../../../.gitbook/assets/image (210).png>)
+
+
 
 It appears in the search, as it shows:
 
@@ -58,16 +60,16 @@ All the chats you have taken appear under **Chats**, as you see below:
 ![](<../../../.gitbook/assets/image (215) (1) (1).png>)
 
 {% hint style="info" %}
-No open chat appears in the **Contact Center**. A chat appears in the **Contact** **Center** as soon as it is closed because \*\*Contact Center \*\*only deals with archived chats.
+No open chat appears in the **Contact Center**. A chat appears in the **Contact** **Center** as soon as it is closed because **Contact Center** only deals with archived chats.  &#x20;
 {% endhint %}
 
-You can click to open a chat to view it:
+You can click to open a chat to view it:&#x20;
 
 ![](<../../../.gitbook/assets/image (213).png>)
 
 ![](<../../../.gitbook/assets/image (214).png>)
 
-Go to the \*\*Room Information \*\*and click **View full conversation** to open the conversation
+Go to the **Room Information** and click **View full conversation** to open the conversation
 
 ![](<../../../.gitbook/assets/image (336).png>)
 
@@ -75,10 +77,10 @@ as shown below:
 
 ![](<../../../.gitbook/assets/image (337).png>)
 
-Click **Edit** to edit contact details as shown below:
+Click **Edit** to edit contact  details as shown below:
 
 ![](<../../../.gitbook/assets/image (333).png>)
 
-You can edit any details you want here.
+You can edit any details you want here.&#x20;
 
 ![](<../../../.gitbook/assets/image (334).png>)

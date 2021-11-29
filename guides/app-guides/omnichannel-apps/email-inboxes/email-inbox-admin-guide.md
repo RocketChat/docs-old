@@ -20,11 +20,11 @@ Enter the following details:
 
 1. Add **Name** of the email inbox
 2. Specify the **Email** address
-3. Assign it to a \*\*Department; \*\*it is optional
+3. Assign it to a **Department;** it is optional&#x20;
 4. Configure SMTP server
-5. Toggle switch \*\*Connect with SSL/TLS; \*\*it is optional
-6. Configure IMAP server and
-7. Toggle switch \*\*Connect with SSL/TLS **for IMAP**; \*\*it is optional
+5. Toggle switch **Connect with SSL/TLS;** it is optional&#x20;
+6. &#x20;Configure IMAP server and
+7. Toggle switch **Connect with SSL/TLS** for IMAP**;** it is optional&#x20;
 8. Hit **Save**
 
 ![](<../../../../.gitbook/assets/image (234).png>)
@@ -32,3 +32,5 @@ Enter the following details:
 Your email inbox is set up and, your agents can receive emails within Rocket.Chat now, as shown below:
 
 ![](<../../../../.gitbook/assets/image (246).png>)
+
+&#x20;

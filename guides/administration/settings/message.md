@@ -9,7 +9,7 @@ Remember to hit **Save Changes** in order to apply any changes made.
 {% endhint %}
 
 * **Allow message Editing**: When enabled, users will have the ability to edit messages.
-* ** Block message editing after**: takes in time in minutes in which users are allowed to edit messages in which after they'll be unable.&#x20;
+* &#x20;**Block message editing after**: takes in time in minutes in which users are allowed to edit messages in which after they'll be unable.&#x20;
 * **Allow message deleting**: When enabled, users will be able to delete messages.&#x20;
 * **Block message deleting after**: Let's you set a duration in minutes in which users are allowed to delete messages.&#x20;
 * **Allow Unrecognized Slash Commands**: When enabled, unknown Slash Commands will be allowed.&#x20;

@@ -16,7 +16,7 @@ This tutorial is done with a local instance of the server running on [http://loc
 
 Do the following on your Rocket.Chat server to be able to connect to the CEET.
 
-1. From the **Administration** panel, navigate or search for **Setup Wizard **and accept the **Cloud Service Privacy Terms Agreement** and hit **Save changes**.
+1. From the **Administration** panel, navigate or search for **Setup Wizard** and accept the **Cloud Service Privacy Terms Agreement** and hit **Save changes**.
 
 ![](<../../../../.gitbook/assets/image (626).png>)
 
