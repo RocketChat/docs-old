@@ -122,7 +122,7 @@ Next, continue by adding the given DNS records on your server then follow the gi
 
 More on federa**t**ion setup can be seen in [this section](../settings/federation.md).
 
-We also have a guide on [talking-to-users-from-another-server.md](../../user-guides/talking-to-users-from-another-server.md "mention").
+We also have a guide on [Cross-server Federated Channels.md](<../../user-guides/Cross-server Federated Channels.md> "mention").
 
 ## Download Info
 

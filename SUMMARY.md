@@ -155,7 +155,7 @@
         * [Expand Thread](guides/user-guides/channels/threads/thread-actions/expand-thread.md)
         * [Following Threads](guides/user-guides/channels/threads/thread-actions/following-threads.md)
         * [Close Threads](guides/user-guides/channels/threads/thread-actions/close-threads.md)
-  * [Talking to users from another server](guides/user-guides/talking-to-users-from-another-server.md)
+  * [Cross-server Federated Channels](<guides/user-guides/Cross-server Federated Channels.md>)
   * [Security Bundle](guides/user-guides/security-bundle/README.md)
     * [End to End Encryption User Guide](guides/user-guides/security-bundle/end-to-end-encryption.md)
     * [Antivirus ClamAV App](guides/user-guides/security-bundle/antivirus-clamav-app.md)
