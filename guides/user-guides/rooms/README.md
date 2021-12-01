@@ -1,12 +1,14 @@
 ---
-description: Rocket.Chat organizes conversations across different topics called channels.
+description: >-
+  Rocket.Chat organizes conversations across different topics called rooms (aka
+  channels).
 ---
 
-# Channels
+# Rooms
 
-Channels make workflows structured, purpose-oriented and coherent. You can make them for any, subject, project, or team. Teams can share thoughts and information and push work ahead.
+Rooms make workflows structured, purpose-oriented and coherent. You can make them for any, subject, project, or team. Teams can share thoughts and information and push work ahead.
 
-## Types of channels in Rocket.Chat:
+## Types of Rooms in Rocket.Chat:
 
 {% embed url="https://docs.rocket.chat/guides/user-guides/channels/channel" %}
 
