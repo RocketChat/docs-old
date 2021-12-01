@@ -7,7 +7,7 @@ description: >-
 
 # Omnichannel
 
-If you struggle to handle leads and clients in a multi-channel environment, you lose valuable potential sales. That's where Omnichannel comes into the picture. Omnichannel is a communication strategy essential to **acquire** and **retain** customers. It is designed to create an exceptional customer experience across the company’s brands, building a better relationship with its audience. It gives consumers a choice to engage with companies on their favorite channels:&#x20;
+If you struggle to handle leads and clients in a multi-channel environment, you lose valuable potential sales. That's where Omnichannel comes into the picture. Omnichannel is a communication strategy essential to **acquire** and **retain** customers. It is designed to create an exceptional customer experience across the company’s brands, building a better relationship with its audience. It gives consumers a choice to engage with you on their favorite channels:&#x20;
 
 * SMS&#x20;
 * Email

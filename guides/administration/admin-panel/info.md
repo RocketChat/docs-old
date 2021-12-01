@@ -46,7 +46,7 @@ A modal is presented prompting you to paste the licence you got from the[ Rocket
 
 Paste the license code and hit the **Apply license** button.
 
-![](<../../../.gitbook/assets/image (641) (1).png>)
+![](<../../../.gitbook/assets/image (641) (1) (1).png>)
 
 ### Change Offline License
 
@@ -122,7 +122,7 @@ Next, continue by adding the given DNS records on your server then follow the gi
 
 More on federa**t**ion setup can be seen in [this section](../settings/federation.md).
 
-We also have a guide on [Cross-server Federated Channels.md](<../../user-guides/Cross-server Federated Channels.md> "mention").
+We also have a guide on [talking-to-users-from-another-server.md](../../user-guides/talking-to-users-from-another-server.md "mention").
 
 ## Download Info
 
