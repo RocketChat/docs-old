@@ -25,10 +25,10 @@ The user preview screen shows their name, username, any role tags they might hav
 
 
 
-{% content-ref url="../../channel/channel-actions/members-list-of-a-channel/add-user-to-a-channel.md" %}
-[add-user-to-a-channel.md](../../channel/channel-actions/members-list-of-a-channel/add-user-to-a-channel.md)
+{% content-ref url="../../channels/channel-actions/members-list-of-a-channel/add-user-to-a-channel.md" %}
+[add-user-to-a-channel.md](../../channels/channel-actions/members-list-of-a-channel/add-user-to-a-channel.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../channel/channel-actions/members-list-of-a-channel/invite-users-to-a-channel.md" %}
-[invite-users-to-a-channel.md](../../channel/channel-actions/members-list-of-a-channel/invite-users-to-a-channel.md)
+{% content-ref url="../../channels/channel-actions/members-list-of-a-channel/invite-users-to-a-channel.md" %}
+[invite-users-to-a-channel.md](../../channels/channel-actions/members-list-of-a-channel/invite-users-to-a-channel.md)
 {% endcontent-ref %}

@@ -10,7 +10,9 @@ Rooms make workflows structured, purpose-oriented and coherent. You can make the
 
 ## Types of Rooms in Rocket.Chat:
 
-{% embed url="https://docs.rocket.chat/guides/user-guides/channels/channel" %}
+
+
+{% embed url="https://docs.rocket.chat/guides/user-guides/rooms/channels" %}
 
 {% embed url="https://docs.rocket.chat/guides/user-guides/channels/teams" %}
 

@@ -6,7 +6,7 @@ description: Direct messages between multiple users
 
 The feature allows the creation of direct message rooms between several users to exchange messages and files.
 
-Unlike creating [**private groups**](../channel/), you do not need to specify the name or topic of the conversation; and you do not have to decide whether the room is read-only.
+Unlike creating [**private groups**](../channels/), you do not need to specify the name or topic of the conversation; and you do not have to decide whether the room is read-only.
 
 It works just like regular direct 1:1 messaging, the only difference is that multiple users are involved.
 
@@ -30,7 +30,7 @@ Once created, the room will appear in the direct message section of the rooms li
 
 ## Configurations
 
-Multi-users direct message rooms’ actions and options remain the same as in [**direct (1-on-1) messages**](../channel/), except for the ability to execute actions like: ignore, mute, block or remove.
+Multi-users direct message rooms’ actions and options remain the same as in [**direct (1-on-1) messages**](../channels/), except for the ability to execute actions like: ignore, mute, block or remove.
 
 The only user actions available are:
 
