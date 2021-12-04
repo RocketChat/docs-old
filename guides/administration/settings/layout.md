@@ -32,7 +32,7 @@ The section allows you to change the HTML content of certain screens.
 
 * **Show "Home Button"**: When enabled, the Home button will be shown on your server's navbar.
 
-![](<../../../.gitbook/assets/image (650) (1).png>)
+![](<../../../.gitbook/assets/image (650) (1) (1).png>)
 
 * **Home Body:** The content of the first screen that your users will see when logging in.
 
@@ -44,7 +44,7 @@ The section allows you to change the HTML content of certain screens.
 * **Legal Notice:** By default this screen is accessed on the links under the login page, here you can set the legal notice of your server. Can also be accessed via YOUR-SERVER-URL/legal-notice.
 * **Side navigation footer:** This is the logo or text on the bottom left of the sidebar. We recommend using the images set on your [Assets](../../../quick-start/basic-white-labeling.md#assets) for better consistency.
 
-![](<../../../.gitbook/assets/image (670) (1) (1).png>)
+![](<../../../.gitbook/assets/image (670) (1) (1) (1).png>)
 
 ## Custom CSS
 
@@ -80,7 +80,7 @@ if(window.location.pathname == '/home'){
 }
 ```
 
-![](<../../../.gitbook/assets/image (645) (1).png>)
+![](<../../../.gitbook/assets/image (645) (1) (1).png>)
 
 ## Fonts
 

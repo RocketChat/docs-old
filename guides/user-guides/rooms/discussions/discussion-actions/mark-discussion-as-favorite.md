@@ -10,12 +10,12 @@ To favorite a discussion, you can:
 
 * Click the **star** icon to the left of the discussion header while it is open.
 
-![](<../../../../../.gitbook/assets/image (676).png>)
+![](<../../../../../.gitbook/assets/image (676) (1).png>)
 
 * Click on the menu against the discussion and select **Favorite**.
 
-![](<../../../../../.gitbook/assets/image (647).png>)
+![](<../../../../../.gitbook/assets/image (647) (1).png>)
 
 The discussion will have the star highlighted after setting as favorite.
 
-![](<../../../../../.gitbook/assets/image (641) (1).png>)
+![](<../../../../../.gitbook/assets/image (641) (1) (1).png>)

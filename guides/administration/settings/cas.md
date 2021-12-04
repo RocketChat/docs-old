@@ -34,7 +34,7 @@ The `/cas` and `/cas/login` URLs are the standard, but not required. Check with 
 * **Always Sync User Data**: When set to true, it synchronizes external CAS User data into available attributes upon login. Note: Attributes are always synced upon account creation anyway.
 *   **Attribute Map**: Use this JSON input to build internal attributes (key) from external attributes (value). External attribute names enclosed with '%' will be interpolated in value strings.
 
-    Example, `{"email":"%email%", "name":"%firstname%, %lastname%"} `
+    Example, `{"email":"%email%", "name":"%firstname%, %lastname%"}`&#x20;
 
     The attribute map is always interpolated. In CAS 1.0 only the `username` attribute is available. Available internal attributes are: username, name, email, rooms; rooms is a comma-separated list of rooms to join upon user creation e.g: {"rooms": "%team%,%department%"} would join CAS users on creation to their team and department channel.
 
@@ -49,7 +49,7 @@ The `/cas` and `/cas/login` URLs are the standard, but not required. Check with 
 
 After configuring, your registration and login pages will have the CAS button present.
 
-![](<../../../.gitbook/assets/image (649) (1) (1).png>)
+![](<../../../.gitbook/assets/image (649) (1) (1) (1).png>)
 
 ## Notes
 

@@ -2,7 +2,7 @@
 description: Secure your account with two factor authentication.
 ---
 
-# Two Factor Authentication
+# Two Factor Authentication User Guide
 
 With the ability to extensively use Rocket.Chat on multiple platforms, there's also a risk of exposing your account details.
 
@@ -48,7 +48,7 @@ You can use apps like **Google Authenticator, Authy**, etc to generate and manag
 
 * When it's done, you are provided with some recovery codes you can copy and store for recovery purposes.
 
-![](<../../../.gitbook/assets/image (670).png>)
+![](<../../../.gitbook/assets/image (670) (1).png>)
 
 {% hint style="info" %}
 The look of this interface might appear differently depending on the license you have on your server, but the workflow remains the same.

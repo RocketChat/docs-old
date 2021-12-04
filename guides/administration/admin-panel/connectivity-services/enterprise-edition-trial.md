@@ -56,7 +56,7 @@ You're provided with a token. Copy the token and head back to your server's **Ad
 
 &#x20; 2\. Select the **Cloud Console** option and proceed with registering a new workspace.
 
-![](<../../../../.gitbook/assets/image (669) (1).png>)
+![](<../../../../.gitbook/assets/image (669) (1) (1).png>)
 
 3\. You are prompted to enter your Cloud Console Token. Remember the token we copied above? Paste it in the Token field and then click **Connect**.
 
@@ -94,11 +94,11 @@ Proceed with following the steps described in [#apply-enterprise-edition-trial](
 
 7\. When all this is done, refresh the page, and you're able to see your workspace listed with the trial as **Active**.
 
-![](<../../../../.gitbook/assets/image (636) (1).png>)
+![](<../../../../.gitbook/assets/image (636) (1) (1).png>)
 
 Back on the info section of your **Administration** panel, you should see you're running an **Enterprise License**.
 
-![](<../../../../.gitbook/assets/image (648) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (648) (1) (1) (1).png>)
 
 {% hint style="info" %}
 We recommend you to sync your server immediately after linking it to the cloud. To do that, head on to the **Connectivity Services** on your **Administration** panel and click on **Sync**.
@@ -155,7 +155,7 @@ From here, you can apply for an extension following any of the two steps describ
 1. From your cloud portal workspace, click on the kebab menu by the extreme right on the workspace you want to extend its trial.
 2. Then select the **Trial Extension** option on the dropdown that appears.
 
-![](<../../../../.gitbook/assets/image (666) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (666) (1) (1) (1) (1).png>)
 
 &#x20;  3\. Next enter your message or reason why you need the extension then hit **Send Request**. The request will be sent to sales where they will evaluate and respond.
 
