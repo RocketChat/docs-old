@@ -343,7 +343,7 @@
         * [Create canned response from a message](guides/omnichannel/omnichannel-agents-guides/omnichannel-chat/canned-responses-agents-guide/create-canned-response-from-a-message.md)
       * [Search Messages in Omnichannel Conversation](guides/omnichannel/omnichannel-agents-guides/omnichannel-chat/search-messages-in-omnichannel-conversation.md)
       * [Omnichannel Contact Information](guides/omnichannel/omnichannel-agents-guides/omnichannel-chat/omnichannel-contact-information.md)
-    * [Livechat Video/Audio Call](guides/omnichannel/omnichannel-agents-guides/livechat-video-audio-call.md)
+    * [Livechat Video/Audio Call Agent's Guide](guides/omnichannel/omnichannel-agents-guides/livechat-video-audio-call-agents-guide.md)
     * [Omnichannel Contact Center](guides/omnichannel/omnichannel-agents-guides/omnichannel-contact-center.md)
     * [Omnichannel Queue](guides/omnichannel/omnichannel-agents-guides/omnichannel-chats.md)
 * [Message Auditing Panel](guides/message-auditing/README.md)

@@ -15,3 +15,7 @@ Remember to hit **Save Changes** in order to apply any changes made.
 {% content-ref url="video-conference-(Admin's-Guide)/jitsi-admins-guide.md" %}
 [jitsi-admins-guide.md](video-conference-\(Admin's-Guide\)/jitsi-admins-guide.md)
 {% endcontent-ref %}
+
+{% content-ref url="video-conference-(Admin's-Guide)/omnichannel-video-audio-call-admins-guide.md" %}
+[omnichannel-video-audio-call-admins-guide.md](video-conference-\(Admin's-Guide\)/omnichannel-video-audio-call-admins-guide.md)
+{% endcontent-ref %}
