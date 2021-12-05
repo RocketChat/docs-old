@@ -156,3 +156,7 @@ Sessions allow you to decide how you want to handle your chat sessions when an a
 As shown below:
 
 ![](<../../../../.gitbook/assets/image (60).png>)
+
+### Video and Audio Call
+
+Make Jitsi, your Omnichannel call provider by going to **`Administration > Omnichannel > Video and Audio Call > Call Provider > Jitsi`**
