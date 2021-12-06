@@ -10,8 +10,8 @@ description: >-
 To enable Rocket.Chat video call feature, please contact your administrator or follow the instructions in the link below.&#x20;
 {% endhint %}
 
-{% content-ref url="../../administration/settings/video-conference-Admin's-Guide/omnichannel-video-audio-call-admins-guide.md" %}
-[omnichannel-video-audio-call-admins-guide.md](../../administration/settings/video-conference-Admin's-Guide/omnichannel-video-audio-call-admins-guide.md)
+{% content-ref url="../../administration/settings/video-conference-Admin-Guide/omnichannel-video-audio-call-admins-guide.md" %}
+[omnichannel-video-audio-call-admins-guide.md](../../administration/settings/video-conference-Admin-Guide/omnichannel-video-audio-call-admins-guide.md)
 {% endcontent-ref %}
 
 **To initiate a call within an omnichannel conversation:**

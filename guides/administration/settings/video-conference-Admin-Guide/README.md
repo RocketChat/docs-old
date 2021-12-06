@@ -1,4 +1,4 @@
-# Video Conference Admin's Guide
+# Video Conference Admin Guide
 
 This section lets you configure video conferencing for your server.
 
