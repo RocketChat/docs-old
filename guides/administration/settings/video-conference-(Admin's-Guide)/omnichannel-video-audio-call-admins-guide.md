@@ -1,5 +1,7 @@
 # Omnichannel Video/Audio Call Admin's Guide
 
+## Jitsi
+
 To configure Video/Audio Call on your Rocket.Chat workspace using Jitsi:
 
 1. Log in as an Admin
@@ -10,3 +12,20 @@ To configure Video/Audio Call on your Rocket.Chat workspace using Jitsi:
 3\. Make Jitsi, your Omnichannel call provider by going to **`Administration > Omnichannel > Video and Audio Call > Call Provider > Jitsi`**
 
 ![](https://t4207297.p.clickup-attachments.com/t4207297/261da57d-1d84-436c-98f5-39dadad9dacf/image.png)
+
+## WebRTC
+
+
+
+To configure Video/Audio Call on your Rocket.Chat workspace using WebRTC:
+
+1. Log in as an Admin
+2. Make WebRTC, your Omnichannel call provider by going to **`Administration > Omnichannel > Video and Audio Call > Call Provider > WebRTC`**
+
+![](../../../../.gitbook/assets/2021-12-06\_15-33-08.png)
+
+Please visit the link below to configure WebRTC on your Rocket.Chat server.
+
+{% content-ref url="../webrtc.md" %}
+[webrtc.md](../webrtc.md)
+{% endcontent-ref %}
