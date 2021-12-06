@@ -24,8 +24,11 @@ To configure Video/Audio Call on your Rocket.Chat workspace using WebRTC:
 
 ![](../../../../.gitbook/assets/2021-12-06\_15-33-08.png)
 
+{% hint style="info" %}
 Please visit the link below to configure WebRTC on your Rocket.Chat server.
+{% endhint %}
 
 {% content-ref url="../webrtc.md" %}
 [webrtc.md](../webrtc.md)
 {% endcontent-ref %}
+
