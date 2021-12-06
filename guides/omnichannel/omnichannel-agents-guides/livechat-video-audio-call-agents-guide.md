@@ -16,7 +16,7 @@ To enable Rocket.Chat video call feature, please contact your administrator or f
 
 **To initiate a call within an omnichannel conversation:**
 
-1. Click on the call button to initiate a call with the visitor.
+Click on the call button to initiate a call with the visitor.
 
 ![](https://t4207297.p.clickup-attachments.com/t4207297/e487e2fe-47e0-4585-bee8-2ff3d2a5ca1d/image.png)
 
@@ -26,7 +26,7 @@ To enable Rocket.Chat video call feature, please contact your administrator or f
 
 ![](<../../../.gitbook/assets/2021-12-05\_15-23-14 (2).png>)
 
-2.1 If the visitor accepts the call, the following screen appears where they can go ahead and hit **Join Call** to join the call.
+If the visitor accepts the call, the following screen appears where they can go ahead and hit **Join Call** to join the call.
 
 ![](<../../../.gitbook/assets/2021-12-05\_15-24-49 (1).png>)
 
@@ -54,10 +54,10 @@ When you click to join the call, Jitsi calling page opens in a new browser windo
 
 ![](<../../../.gitbook/assets/2021-12-05\_17-46-32 (1).png>)
 
-Enter you name and hit **Join meeting**, upon which the call starts:
+Enter you**r** name and hit **Join meeting**, upon which the call starts:
 
 ![](<../../../.gitbook/assets/2021-12-05\_17-50-24 (2).png>)
 
 {% hint style="info" %}
-Please note that for **WebRTC**, the flow would be just the same.
+Please note that for **WebRTC**, the flow is just the same.
 {% endhint %}
