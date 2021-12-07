@@ -18,4 +18,6 @@ Customize rate-limiting for methods and subscriptions to avoid a high load of We
 * **Limit by IP: interval time**: Takes in the interval for limiting IP.
 * **Limit by User:**&#x20;
 
-\
+## Feature Limiting
+
+* **Default number calls to the rate limiter for registering a user**: Number of default calls for user registering endpoints(REST and real-time API's), allowed within the time range defined in the API Rate Limiter section.
