@@ -56,7 +56,7 @@ You're provided with a token. Copy the token and head back to your server's **Ad
 
 &#x20; 2\. Select the **Cloud Console** option and proceed with registering a new workspace.
 
-![](<../../../../.gitbook/assets/image (669) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (669) (1) (1) (1).png>)
 
 3\. You are prompted to enter your Cloud Console Token. Remember the token we copied above? Paste it in the Token field and then click **Connect**.
 
