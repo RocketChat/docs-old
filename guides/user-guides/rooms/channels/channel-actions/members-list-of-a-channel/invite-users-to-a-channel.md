@@ -9,7 +9,7 @@ To add a new user:
 
 ![](<../../../../../../.gitbook/assets/image (407) (1).png>)
 
-1. Copy the link and share it with your invitees
+3\. Copy the link and share it with your invitees
 
 ![](<../../../../../../.gitbook/assets/image (388).png>)
 
@@ -36,6 +36,6 @@ Your new link is generated with the selected attributes, as shown below:
 
 ## Permissions
 
-Please note that in order to use Invite Link Feature you need to have the **Create Invite Link** permission granted for your role. By default, it is **ON** for Admin, Owner, and Moderator roles. But you can always request your admin to change it as per your needs.
+Please note that in order to use the **Invite** **Link** feature you need to have the **Create Invite Link** permission granted for your role. By default, it is **ON** for Admin, Owner, and Moderator roles. But you can always request your admin to change it as per your needs.
 
 ![](<../../../../../../.gitbook/assets/image (411) (1).png>)

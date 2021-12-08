@@ -49,5 +49,5 @@ Press **Delete** or **Edit** to delete or update the selected sound, respectivel
 ![](../../../.gitbook/assets/2021-11-22\_21-37-32.png)
 
 {% hint style="info" %}
-Admins can set who has the [permissions](permissions-1.md) to manage these sounds.
+Admins can set who has the [permissions](permissions.md) to manage these sounds.
 {% endhint %}

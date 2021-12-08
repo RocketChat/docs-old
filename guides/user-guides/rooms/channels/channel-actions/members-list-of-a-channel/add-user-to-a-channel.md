@@ -9,11 +9,11 @@ To add a new user:
 
 ![](<../../../../../../.gitbook/assets/image (412) (1).png>)
 
-1. Choose users from the drop-down:
+3\. Choose users from the drop-down:
 
 ![](<../../../../../../.gitbook/assets/image (669).png>)
 
-1. Hit **Add users**
+4\. Hit **Add users**
 
 ![](<../../../../../../.gitbook/assets/image (406) (1).png>)
 
@@ -21,4 +21,6 @@ The new users are added, as shown below:
 
 ![](<../../../../../../.gitbook/assets/image (386).png>)
 
-Invite Link
+{% content-ref url="invite-users-to-a-channel.md" %}
+[invite-users-to-a-channel.md](invite-users-to-a-channel.md)
+{% endcontent-ref %}
