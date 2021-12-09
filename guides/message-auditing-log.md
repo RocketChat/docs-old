@@ -11,4 +11,6 @@ as shown below:
 
 ![](<../.gitbook/assets/image (300).png>)
 
+Then set a start and end duration you want to view, then all the users and their various results are displayed as seen below.
+
 ![](<../.gitbook/assets/image (301).png>)

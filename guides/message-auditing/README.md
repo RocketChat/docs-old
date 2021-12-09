@@ -84,5 +84,3 @@ To search for a specific omichannel conversation:
 The conversation pops up, as shown below:
 
 ![](<../../.gitbook/assets/image (295).png>)
-
-![](../../.gitbook/assets/audit-log.png)

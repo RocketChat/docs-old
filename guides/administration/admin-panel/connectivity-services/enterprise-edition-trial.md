@@ -82,7 +82,7 @@ You're provided with a token. Copy the token and head back to your server's **Ad
 
 &#x20;  5\. Paste the code there and click continue.
 
-![](<../../../../.gitbook/assets/image (671) (1).png>)
+![](<../../../../.gitbook/assets/image (671) (1) (1).png>)
 
 You are then given another code to apply on your server. Copy that code, and go to your **Administration** panel, paste it there, and hit **Finish Registration.**
 

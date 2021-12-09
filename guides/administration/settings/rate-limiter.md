@@ -2,6 +2,10 @@
 
 To access this setting, go to **Administration** > **Settings** > **Rate Limiter**.
 
+![](../../../.gitbook/assets/administration-nav.png)
+
+![](<../../../.gitbook/assets/image (671).png>)
+
 ## API Rate Limiter <a href="#9f0duy7a3no" id="9f0duy7a3no"></a>
 
 * **Enable Rate Limiter**: Lets you enable API  rate limiter.
@@ -11,13 +15,23 @@ To access this setting, go to **Administration** > **Settings** > **Rate Limiter
 
 ## DDP Rate Limiter <a href="#ikikwb84ti" id="ikikwb84ti"></a>
 
-Customize rate-limiting for methods and subscriptions to avoid a high load of WebSocket messages on your server.
+Customize rate-limiting for methods and subscriptions to avoid a high load of WebSocket(A communication protocol that allows for simultaneous data transmission in one channel) messages on your server.
 
 * **Limit by IP: enabled**: Enables limit by IP.
-* **Limit by IP: requests allowed**: Lets you set the number of requests allowed.
-* **Limit by IP: interval time**: Takes in the interval for limiting IP.
-* **Limit by User:**&#x20;
+  * **Limit by IP: requests allowed**: Lets you set the number of requests allowed.
+  * **Limit by IP: interval time**: Takes in the interval for limiting IP.
+* **Limit by User:** Lets you enable DDP rate limiting by user
+  * **Limit by User: requests allowed**: The number of requests allowed
+  * **Limit by User: interval time**: The time interval in seconds for limiting the user
+* **Limit by User per Method**: When set to true, it enables limiting user's rate per method
+  * **Limit by User per Method: requests allowed**: The number of request allowed
+  * **Limit by User per Method: interval time**: The interval for limiting user per method&#x20;
+* **Limit by Connection per Method**: Lets you set connection limit by method
+  * **Limit by Connection per Method: requests allowed**: The number of request requests allowed&#x20;
+  * **Limit by Connection per Method: interval time**: Interval for limiting connection per method
 
 ## Feature Limiting
+
+Setting this up gets your sever full protection from email and username enumeration by brute force attack.
 
 * **Default number calls to the rate limiter for registering a user**: Number of default calls for user registering endpoints (REST and real-time API's), allowed within the time range defined in the API Rate Limiter section.
