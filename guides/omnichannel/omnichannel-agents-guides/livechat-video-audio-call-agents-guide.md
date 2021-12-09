@@ -10,21 +10,25 @@ description: >-
 To enable Rocket.Chat video call feature, please contact your administrator or follow the [instructions](https://docs.rocket.chat/guides/administration/settings/video-conference-admin-guide/omnichannel-video-audio-call-admins-guide).&#x20;
 {% endhint %}
 
+{% hint style="success" %}
+The following flow is for web users but both (Web and Mobile) user journeys are supported.
+{% endhint %}
+
 **To initiate a call within an omnichannel conversation:**
 
 Click on the call button to initiate a call with the visitor.
 
-![](https://t4207297.p.clickup-attachments.com/t4207297/e487e2fe-47e0-4585-bee8-2ff3d2a5ca1d/image.png)
+![](../../../.gitbook/assets/purpledevil0.png)
 
 ### Visitor's View
 
 &#x20;Your livechat visitor should get a notification on their side to **Accept** or **Decline** a call.
 
-![](../../../.gitbook/assets/2021-12-08\_18-54-06.png)
+![](../../../.gitbook/assets/purpledevil10.png)
 
 If the visitor accepts the call, the following screen appears where they can go ahead and hit **Join Call** to join the call.
 
-![](<../../../.gitbook/assets/2021-12-08\_18-56-24 (1).png>)
+![](../../../.gitbook/assets/purpledevil300.png)
 
 
 
@@ -44,13 +48,13 @@ Please note that because the above screen opens in a new browser window, the vis
 
 As an agent, you also see a **`Click to Join!` ** button in the chat.
 
-![](../../../.gitbook/assets/2021-12-05\_17-36-47.png)
+![](../../../.gitbook/assets/purpledevil400.png)
 
 When you click to join the call, Jitsi calling page opens in a new browser window:
 
 Enter your name and hit **Join meeting**, upon which the call starts:
 
-![](../../../.gitbook/assets/2021-12-08\_19-04-44.png)
+![](../../../.gitbook/assets/purpledevil500.png)
 
 {% hint style="info" %}
 Please note that for **WebRTC**, the flow is just the same.
