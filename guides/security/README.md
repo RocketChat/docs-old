@@ -12,7 +12,7 @@ If you still have questions, feel free to reach out to [security@rocket.chat](ma
 
 ## Product-related security information
 
-Security is built-in myriads of features in Rocket.Chat. Detailed information about each of the security features of our product can best be found via the **search** function of our Docs section. Use keywords \(e.g. OAuth, LDAP, Encryption\) to narrow your search.
+Security is built-in myriads of features in Rocket.Chat. Detailed information about each of the security features of our product can best be found via the **search** function of our Docs section. Use keywords (e.g. OAuth, LDAP, Encryption) to narrow your search.
 
 We have compiled summaries of important security aspects on the pages below:
 
@@ -33,7 +33,7 @@ Below are related resources in other sections of Rocket.Chat's Documentation.
 ### Privacy
 
 * [Privacy Policy](https://rocket.chat/privacy) - how we process personal data.
-* [Terms of Service](https://rocket.chat/terms) - legal documentation on how we provide services to you \(e.g. push notifications, etc.\).
+* [Terms of Service](https://rocket.chat/terms) - legal documentation on how we provide services to you (e.g. push notifications, etc.).
 * [GDPR](https://rocket.chat/gdpr) - a special page dedicated to GDPR requirements we implemented in 2018.
 
 ### Community
@@ -44,5 +44,4 @@ Below are related resources in other sections of Rocket.Chat's Documentation.
 
 ### Rocket.Chat Handbook
 
-* [Company Security Policy](https://rocket.chat/handbook/operations/security-policy/) - how we ourselves do security internally.
-
+* [Company Security Policy](https://handbook.rocket.chat/departments-operations/security/security-policy) - how we ourselves do security internally.
