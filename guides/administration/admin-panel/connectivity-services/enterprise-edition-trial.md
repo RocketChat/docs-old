@@ -104,7 +104,7 @@ Back on the info section of your **Administration** panel, you should see you're
 We recommend you to sync your server immediately after linking it to the cloud. To do that, head on to the **Connectivity Services** on your **Administration** panel and click on **Sync**.
 {% endhint %}
 
-![](<../../../../.gitbook/assets/image (639) (1).png>)
+![](<../../../../.gitbook/assets/image (639) (1) (1).png>)
 
 ## Apply Enterprise Edition Trial
 

@@ -28,7 +28,7 @@ The section allows you to change the HTML content of certain screens.
 
 * **Home Title:** The title on the header of the first screen that your users will see when they log in.
 
-![](<../../../.gitbook/assets/image (661) (1) (1).png>)
+![](<../../../.gitbook/assets/image (661) (1) (1) (1).png>)
 
 * **Show "Home Button"**: When enabled, the Home button will be shown on your server's navbar.
 

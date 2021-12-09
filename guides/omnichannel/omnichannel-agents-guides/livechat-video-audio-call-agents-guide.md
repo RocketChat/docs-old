@@ -7,12 +7,8 @@ description: >-
 # Livechat Video/Audio Call Agent's Guide
 
 {% hint style="info" %}
-To enable Rocket.Chat video call feature, please contact your administrator or follow the instructions in the link below.&#x20;
+To enable Rocket.Chat video call feature, please contact your administrator or follow the [instructions](https://docs.rocket.chat/guides/administration/settings/video-conference-admin-guide/omnichannel-video-audio-call-admins-guide).&#x20;
 {% endhint %}
-
-{% content-ref url="../../administration/settings/video-conference-Admin-Guide/omnichannel-video-audio-call-admins-guide.md" %}
-[omnichannel-video-audio-call-admins-guide.md](../../administration/settings/video-conference-Admin-Guide/omnichannel-video-audio-call-admins-guide.md)
-{% endcontent-ref %}
 
 **To initiate a call within an omnichannel conversation:**
 
@@ -36,7 +32,7 @@ Jitsi calling page opens in a new browser window where the visitor enters their 
 
 ![](../../../.gitbook/assets/2021-12-08\_18-57-02.png)
 
-upon which the call starts, as shown below:
+Upon which the call starts, as shown below:
 
 ![](../../../.gitbook/assets/2021-12-08\_19-00-51.png)
 
@@ -52,7 +48,7 @@ As an agent, you also see a **`Click to Join!` ** button in the chat.
 
 When you click to join the call, Jitsi calling page opens in a new browser window:
 
-Enter you**r** name and hit **Join meeting**, upon which the call starts:
+Enter your name and hit **Join meeting**, upon which the call starts:
 
 ![](../../../.gitbook/assets/2021-12-08\_19-04-44.png)
 

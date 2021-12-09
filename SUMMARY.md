@@ -295,7 +295,7 @@
     * [Video Conference Admin Guide](guides/administration/settings/video-conference-Admin-Guide/README.md)
       * [BigBlueButton (BBB) Admin Guide](guides/administration/settings/video-conference-Admin-Guide/big-blue-button-bbb-admin-guide.md)
       * [Jitsi Admin's Guide](guides/administration/settings/video-conference-Admin-Guide/jitsi-admins-guide.md)
-      * [Omnichannel Video/Audio Call Admin's Guide](guides/administration/settings/video-conference-Admin-Guide/omnichannel-video-audio-call-admins-guide.md)
+      * [Omnichannel Video/Audio Call Configuration](guides/administration/settings/video-conference-Admin-Guide/omnichannel-video-audio-call-admins-guide.md)
     * [Webdav Integration](guides/administration/settings/webdav-integration.md)
     * [WebRTC](guides/administration/settings/webrtc.md)
   * [Advanced Admin Settings](guides/administration/misc.-admin-guides/README.md)
