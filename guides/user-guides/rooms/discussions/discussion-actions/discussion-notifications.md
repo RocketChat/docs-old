@@ -8,7 +8,7 @@ By default, you get notified in a discussion whenever someone mentions you or us
 
 To access the notifications section of your discussion, click on the **bell icon** by the top right of your opened discussion.
 
-![](<../../../../../.gitbook/assets/image (665) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (665) (1) (1) (1).png>)
 
 The following options are on the discussion notifications tab:
 

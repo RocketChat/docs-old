@@ -55,3 +55,19 @@ Only the agents of that particular department are able to see and take the chats
 Your Telegram app is successfully configured and you can see the new Telegram channel upon closing the administration panel, as shown below:
 
 ![](<../../../../../.gitbook/assets/2021-11-29\_01-14-57 (1).png>)
+
+
+
+### Quick Replies
+
+You can also use quick reply buttons to send/receive quick replies on telegram.
+
+![](<../../../../../.gitbook/assets/telegram quick replies .png>)
+
+{% hint style="info" %}
+Please note that, for this configuration, you need to have a bot ([Dialogflow](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/dialogflow-app)/[RASA](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/rasa-app)) configured.
+{% endhint %}
+
+You also need to have **Assign new conversations to bot agent** toggled on for the setting to work.
+
+![](broken-reference) ![](<../../../../../.gitbook/assets/bot agent .png>)
