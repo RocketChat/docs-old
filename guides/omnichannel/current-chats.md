@@ -1,16 +1,30 @@
+---
+description: Current Chats contain all the conversations that you have received.
+---
+
 # Current Chats
 
-Current Chats contain all the conversations that you have received. If a chat was not deleted, it appears here. You have various filters available to you to sort these conversations.
+{% hint style="info" %}
+`View Omnichannel Contact Center` permission should be assigned to your role to manage access to the contact center. Please contact your administrator to grant/revoke access to Omnichannel Contact Center.
+{% endhint %}
+
+{% hint style="info" %}
+If a chat was not deleted, it appears here.
+{% endhint %}
+
+You have various filters available to you to sort these conversations.
 
 To access **Current Chats** settings:
 
 Go to Omnichannel panel settings, as shown below:
 
-![](<../../.gitbook/assets/0 (8) (5) (5) (5) (5) (5) (4) (4) (1) (8).png>)
+![](../../.gitbook/assets/2021-12-12\_16-43-07.png)
+
+
 
 Settings appear, as shown below:
 
-![](<../../.gitbook/assets/1 (3).png>)
+![](../../.gitbook/assets/2021-12-12\_16-51-49.png)
 
 Filters are explained below:
 
@@ -36,11 +50,15 @@ To sort the conversations per Department, enter the name in the field, and your 
 
 To sort the conversations per Open/Closed Status, choose the desired status in the field, as shown below:
 
-![](<../../.gitbook/assets/5 (3).png>)
+![](../../.gitbook/assets/purpledevil50550.png)
 
 and your conversations are sorted, as shown below:
 
 ![](<../../.gitbook/assets/6 (3).png>)
+
+{% hint style="success" %}
+Please note that you now have the ability to filter on-hold chats.
+{% endhint %}
 
 ## 5. Sort by From and To Date:
 
