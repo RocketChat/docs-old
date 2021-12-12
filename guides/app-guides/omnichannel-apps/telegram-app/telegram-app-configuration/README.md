@@ -34,29 +34,25 @@ Only the agents of that particular department are able to see and take the chats
 
 &#x20;
 
-![](<../../../../../.gitbook/assets/image (533).png>)
+![](<../../../../../.gitbook/assets/2021-12-12\_17-56-02 (3).png>)
 
 6\.  You can choose to display the agent's name or username:
 
-![](<../../../../../.gitbook/assets/image (402).png>)
+![](../../../../../.gitbook/assets/purpledevil505570.png)
 
 7\. You can enable/disable file sharing and also set a limit for maximum upload size
 
-![](<../../../../../.gitbook/assets/image (403).png>)
+![](../../../../../.gitbook/assets/purpledevi890.png)
 
 8\. And you can select the type of files you wish the Agents and your Telegram Contacts can share under **Accepted Media Types**
 
-![](<../../../../../.gitbook/assets/image (566).png>)
+![](../../../../../.gitbook/assets/purpledevi89890.png)
 
-8\. Hit **Save Changes** to save your settings
+9\. Hit **Save Changes** to save your settings and your Telegram app is successfully configured.
 
-![](<../../../../../.gitbook/assets/image (535).png>)
+![](../../../../../.gitbook/assets/purpledevi89891001000.png)
 
-Your Telegram app is successfully configured and you can see the new Telegram channel upon closing the administration panel, as shown below:
-
-![](<../../../../../.gitbook/assets/2021-11-29\_01-14-57 (1).png>)
-
-
+&#x20;You can see the new Telegram channel upon closing the administration panel.
 
 ### Quick Replies
 
@@ -68,6 +64,6 @@ You can also use quick reply buttons to send/receive quick replies on telegram.
 Please note that, for this configuration, you need to have a bot ([Dialogflow](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/dialogflow-app)/[RASA](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/rasa-app)) configured.
 {% endhint %}
 
-You also need to have **Assign new conversations to bot agent** toggled on for the setting to work.
+You also need to have [**Assign new conversations to bot agent**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#routing) **** toggled on for the setting to work&#x20;
 
-![](broken-reference) ![](<../../../../../.gitbook/assets/bot agent .png>)
+![](<../../../../../.gitbook/assets/bot agent .png>)
