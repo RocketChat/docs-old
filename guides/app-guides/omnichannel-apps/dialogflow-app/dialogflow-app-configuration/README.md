@@ -9,7 +9,7 @@ Click open your Dialogflow app to see the settings available to you as an admini
 Following are the settings available:
 
 1. Set the[ name of the bot you have already configured](https://docs.rocket.chat/guides/apps-guides/omnichannel-apps/dialogflow-app/dialogflow-app-configuration/bot-user-configuration) in **Bot Username**. This is the user who will assist the conversations through Dialogflow integration.&#x20;
-2. **Project Id**, **Environment** (The environment on which the bot is set up), **Client Email**, **Private Key** are the credentials available inside your dialog flow instance.
+2. **Project Id**, **Environment** (The [environment](https://cloud.google.com/dialogflow/es/docs/agents-versions) on which the bot is set up), **Client Email**, **Private Key** are the credentials available inside your dialog flow instance.
 
 ![](../../../../../.gitbook/assets/2021-12-12\_19-05-24.png)
 
