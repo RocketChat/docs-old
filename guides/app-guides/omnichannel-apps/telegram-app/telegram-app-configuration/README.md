@@ -61,7 +61,7 @@ You can also use quick reply buttons to send/receive quick replies on telegram.
 ![](<../../../../../.gitbook/assets/telegram quick replies .png>)
 
 {% hint style="info" %}
-Please note that, for this configuration, you need to have a bot ([Dialogflow](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/dialogflow-app)/[RASA](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/rasa-app)) configured.
+**If you don't yet have a chatbot solution ready to connect to Omnichannel or are interested in discovering** [**Rocket.Chat**](http://rocket.chat) **natively compatible solutions such as** [**Dialogflow**](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/dialogflow-app) **or** [**RASA**](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/rasa-app)**.  Check out our** [**marketplace**](https://rocket.chat/marketplace) **and learn more!**
 {% endhint %}
 
 You also need to have [**Assign new conversations to bot agent**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#routing) **** toggled on for the setting to work&#x20;
