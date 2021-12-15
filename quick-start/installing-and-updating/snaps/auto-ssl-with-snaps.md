@@ -1,14 +1,31 @@
 # Auto SSL with Snaps
 
-{% hint style="info" %}
-If you're on ARM64 or 4.x track, please follow the instructions given at the end of this document.
-{% endhint %}
-
 We now include the option to enable Caddy in your snap. Caddy makes use of [Let's Encrypt](https://letsencrypt.org) to automatically provide you SSL protection for your communications.
 
 Starting from release 0.73 you can easily configure everything related to Caddy using snap hooks to ensure your DNS configuration is set up correctly before starting Caddy and Let's Encrypt support.
 
 ## Configure everything using snap
+
+{% hint style="info" %}
+For 4.x latest AMD64 snaps or 3.x latest ARM64 snaps
+{% endhint %}
+
+Set the `SiteUrl` to your domain, make sure it is prefixed with `https`.
+
+```
+sudo snap set rocketchat-server siteurl=https://<your domain>
+```
+
+Now start Caddy and restart the snap services.
+
+```
+sudo systemctl enable --now snap.rocketchat-server.rocketchat-caddy 
+sudo snap restart rocketchat-server
+```
+
+{% hint style="info" %}
+For older snaps
+{% endhint %}
 
 If you want to enable SSL and Let's Encrypt certificates you should:
 
@@ -55,6 +72,26 @@ journalctl -r | grep caddy | less
 ```
 
 ## Configure Caddy yourself or use another http proxy
+
+{% hint style="info" %}
+For 4.x latest AMD64 snaps or 3.x latest ARM64 snaps
+{% endhint %}
+
+If you want to configure Caddy yourself, place the Caddyfile in `/var/snap/rocketchat-server/current/` directory and restart rocketchat-server.
+
+```
+sudo snap restart rocketchat-server
+```
+
+If you want to use some other reverse proxy, just disable Caddy by running
+
+```
+sudo systemctl disable snap.rocketchat-server.rocketchat-caddy
+```
+
+{% hint style="info" %}
+For older versions
+{% endhint %}
 
 In case you plan to use another https proxy or you prefer other options in Caddy configuration, you can disable caddy:
 
@@ -206,20 +243,6 @@ Remember to restart the Caddy service:
 
 ```bash
 sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
-```
-
-### ARM64 or 4.x track
-
-To enable HTTPS, just set your site url and make sure you prefix it with `https`.
-
-```
-sudo snap set rocketchat-server siteurl=https://<your domain>
-```
-
-Now restart the daemons.
-
-```
-sudo snap restart rocketchat-server
 ```
 
 ## Opening ports when running Rocket.Chat server from behind router
