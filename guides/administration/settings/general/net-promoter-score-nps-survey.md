@@ -26,7 +26,7 @@ NPS surveys will be triggered every 6 months via Rocket.Chat cloud. The workspac
 
 All users in the workspace will receive the survey on the same day.
 
-Admins will get notified two months before the NPS is rolled out via in-app banner and alert via Rocket.Cat. That means admins can quickly turn off the NPS in case they prefer.
+Admins will get notified one month before the NPS is rolled out via in-app banner and alert via Rocket.Cat. That means admins can quickly turn off the NPS in case they prefer.
 
 It’s possible to check more details directly in the code [here](https://github.com/RocketChat/Rocket.Chat/blob/3.17.0/server/services/nps/service.ts).\
 
