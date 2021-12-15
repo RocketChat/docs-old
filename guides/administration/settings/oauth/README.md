@@ -26,9 +26,6 @@ To use Apple account for authentication:
 ## Facebook
 
 * Callback URL: `<<website_url>>/_oauth/github?close`
-
-<!---->
-
 * Callback URL: `<<website_url>>/_oauth/facebook?close`
 
 ## GitHub
@@ -44,15 +41,6 @@ To use Apple account for authentication:
 
 ## GitLab
 
-* **Google Login**: Lets you enable Google OAuth for login
-* **Google Id**: The OAuth Id of you Google cloud OAuth app
-* **Google Secret**: Your Google secret gotten from the Google cloud console
-* **Callback URL**: Set to point at `<<your server url>>/_oauth/google`
-
-{% content-ref url="google-oauth-setup.md" %}
-[google-oauth-setup.md](google-oauth-setup.md)
-{% endcontent-ref %}
-
 * **OAuth Enable**: Lets you enable GitHub OAuth
 * **GitLab URL**: GitLab URL
 * **GitLab Id**: The GitLabId gotten from your GitLab app
@@ -67,11 +55,14 @@ To use Apple account for authentication:
 
 ## Google
 
-### Google Set up
+* **Google Login**: Lets you enable Google OAuth for login
+* **Google Id**: The OAuth Id of you Google cloud OAuth app
+* **Google Secret**: Your Google secret gotten from the Google cloud console
+* **Callback URL**: Set to point at `<<your server url>>/_oauth/google`
 
-1. Go to the [Google Developer Console](https://console.developers.google.com), and create a new project
-2. Set up your project by creating an "OAuth 2.0 client ID" (under `APIs & Auth` and `Credentials`)
-3. After that, make sure you define a **Product Name** in the OAuth consent screen, and select **Web App** as the application type. Otherwise, you won't be able to provide a callback URL
+{% content-ref url="google-oauth-setup.md" %}
+[google-oauth-setup.md](google-oauth-setup.md)
+{% endcontent-ref %}
 
 ## LinkedIn
 
