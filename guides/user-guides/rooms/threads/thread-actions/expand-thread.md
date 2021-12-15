@@ -4,7 +4,7 @@ Since threads appear by the site of any room it was created in, you can expand t
 
 To expand a thread, click on the **expand icon** on the thread's header
 
-![](<../../../../../.gitbook/assets/image (650) (1).png>)
+![](<../../../../../.gitbook/assets/image (650) (1) (1).png>)
 
 ## Collapse a Thread
 

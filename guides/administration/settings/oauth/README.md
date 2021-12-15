@@ -9,11 +9,9 @@ description: >-
 
 To set up your desired provider:
 
-1. Go to **Administration.**
+1. Go to **Administration > OAuth** as seen below.
 
-![](<../../../../.gitbook/assets/image (27).png>)
-
-1. Search '**OAuth'** in **Settings** and open it.
+![](<../../../../.gitbook/assets/image (682).png>)
 
 ![](<../../../../.gitbook/assets/image (132).png>)
 
@@ -26,6 +24,10 @@ To use Apple account for authentication:
 ![](<../../../../.gitbook/assets/image (133).png>)
 
 ## Facebook
+
+* Callback URL: `<<website_url>>/_oauth/github?close`
+
+<!---->
 
 * Callback URL: `<<website_url>>/_oauth/facebook?close`
 
@@ -42,6 +44,15 @@ To use Apple account for authentication:
 
 ## GitLab
 
+* **Google Login**: Lets you enable Google OAuth for login
+* **Google Id**: The OAuth Id of you Google cloud OAuth app
+* **Google Secret**: Your Google secret gotten from the Google cloud console
+* **Callback URL**: Set to point at `<<your server url>>/_oauth/google`
+
+{% content-ref url="google-oauth-setup.md" %}
+[google-oauth-setup.md](google-oauth-setup.md)
+{% endcontent-ref %}
+
 * **OAuth Enable**: Lets you enable GitHub OAuth
 * **GitLab URL**: GitLab URL
 * **GitLab Id**: The GitLabId gotten from your GitLab app
@@ -55,8 +66,6 @@ To use Apple account for authentication:
 {% endcontent-ref %}
 
 ## Google
-
-* Callback URL: `<<website_url>>/_oauth/google?close`
 
 ### Google Set up
 

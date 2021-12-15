@@ -40,7 +40,7 @@ This guide proceeds with creating a new account.
 5\. On the page, you are presented with an interface listing all your workspaces(if you have any).\
 To add a new workspace, click the **Register self-managed** button.
 
-![](<../../../../.gitbook/assets/image (651) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (651) (1) (1) (1).png>)
 
 6\. Next, select whether or not your workspace is connected to the internet or not and hit **Continue**.
 
@@ -140,7 +140,7 @@ From here, you can apply for an extension following any of the two steps describ
 
 1. Click on the instance you want to extend its trial.
 
-![](<../../../../.gitbook/assets/image (640) (1).png>)
+![](<../../../../.gitbook/assets/image (640) (1) (1).png>)
 
 &#x20;  2\. Then Click on the **banner** showing the availability for trial extension.
 
@@ -148,15 +148,15 @@ From here, you can apply for an extension following any of the two steps describ
 
 &#x20;  3\. Next enter your message or reason why you need the extension then hit **Send Request**. The request will be sent to sales where they will evaluate and respond.
 
-![](<../../../../.gitbook/assets/image (657) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (657) (1) (1) (1).png>)
 
 ### Using UI
 
 1. From your cloud portal workspace, click on the kebab menu by the extreme right on the workspace you want to extend its trial.
 2. Then select the **Trial Extension** option on the dropdown that appears.
 
-![](<../../../../.gitbook/assets/image (666) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (666) (1) (1) (1) (1) (1).png>)
 
 &#x20;  3\. Next enter your message or reason why you need the extension then hit **Send Request**. The request will be sent to sales where they will evaluate and respond.
 
-![](<../../../../.gitbook/assets/image (657) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (657) (1) (1) (1).png>)

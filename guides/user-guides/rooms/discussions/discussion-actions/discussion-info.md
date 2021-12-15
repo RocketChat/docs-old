@@ -10,7 +10,7 @@ To view discussion info:
 
 * Click on the info icon by the top right of the discussion while it is open
 
-![](<../../../../../.gitbook/assets/image (651).png>)
+![](<../../../../../.gitbook/assets/image (651) (1).png>)
 
 A sidebar is seen with basic information about the discussion.
 

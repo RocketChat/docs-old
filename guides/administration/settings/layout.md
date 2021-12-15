@@ -32,7 +32,7 @@ The section allows you to change the HTML content of certain screens.
 
 * **Show "Home Button"**: When enabled, the Home button will be shown on your server's navbar.
 
-![](<../../../.gitbook/assets/image (650) (1) (1).png>)
+![](<../../../.gitbook/assets/image (650) (1) (1) (1).png>)
 
 * **Home Body:** The content of the first screen that your users will see when logging in.
 
