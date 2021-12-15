@@ -10,7 +10,7 @@ All discussions created, are linked to a particular team or channel.
 
 To create a new discussion, click on the **create** icon on the menu and select **Discussion:**
 
-![](<../../../../.gitbook/assets/image (644).png>)
+![](<../../../../.gitbook/assets/image (644) (1).png>)
 
 Next fill in the required information and hit **Create**
 
@@ -37,7 +37,7 @@ A popup is shown with some information prefilled, complete the info and hit **Cr
 
 Your new discussion is created and ready for use.
 
-![](<../../../../.gitbook/assets/image (634).png>)
+![](<../../../../.gitbook/assets/image (634) (1).png>)
 
 {% hint style="success" %}
 When a discussion is created, anyone from that channel or team can see that a discussion was started and choose whether or not to join.

@@ -15,4 +15,4 @@ Blocked users will not be able to send you direct messages unless they are unblo
 
 After blocking a user, the room will indicate blocked too.
 
-![](<../../../../../.gitbook/assets/image (681).png>)
+![](<../../../../../.gitbook/assets/image (681) (1).png>)

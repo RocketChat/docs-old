@@ -4,13 +4,13 @@ In the [_Preferences_](https://open.rocket.chat/account/preferences) section, th
 
 To access this menu, Click on you **profile** and go to **My Account** > **Preferences**
 
-![](<../../../../.gitbook/assets/image (670) (1).png>)
+![](<../../../../.gitbook/assets/image (670) (1) (1).png>)
 
 ## Localization
 
 * **Language**: A dropdown that lets you set the language to use for the Rocket.Chat user interface.
 
-![](<../../../../.gitbook/assets/image (649).png>)
+![](<../../../../.gitbook/assets/image (649) (1).png>)
 
 ## User Presence
 
@@ -76,7 +76,7 @@ Configure the sound used for notifications
 
 Lets you download your data either as `HTML` or `JSON` format
 
-![](<../../../../.gitbook/assets/image (687).png>)
+![](<../../../../.gitbook/assets/image (687) (1).png>)
 
 When triggered, the request will be processed and a link to the exported file sent to your email.
 

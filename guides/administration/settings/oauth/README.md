@@ -17,21 +17,42 @@ To set up your desired provider:
 
 ![](<../../../../.gitbook/assets/image (132).png>)
 
+## Apple
+
+To use Apple account for authentication:
+
+1. Turn on **Sign in with Apple**.
+
+![](<../../../../.gitbook/assets/image (133).png>)
+
 ## Facebook
 
 * Callback URL: `<<website_url>>/_oauth/facebook?close`
 
 ## GitHub
 
-* Callback URL: `<<website_url>>/_oauth/github?close`
+* **OAuth Enable**: Lets you enable GitHub OAuth
+* **Client Id**: The Client Id gotten from your GitHub application setting section
+* **Client Secret**: The Client secrete gotten from your GitHub application setting section
+* **Github Callback URL**: `<<website_url>>/_oauth/github`
 
-### GitHub Set up
+{% content-ref url="github-oauth-setup.md" %}
+[github-oauth-setup.md](github-oauth-setup.md)
+{% endcontent-ref %}
 
-1. Go to your [Application Settings](https://github.com/settings/applications)
-2. Under the `Developer applications` tab, click the **Register new application** button
-3. Fill in the form, and make sure you use the correct callback URL.
+## GitLab
 
-**Note**: If your callback URL is wrong, GitHub does not display any error. Instead of logging in, you receive an error message saying, "No matching login attempt found."
+* **OAuth Enable**: Lets you enable GitHub OAuth
+* **GitLab URL**: GitLab URL
+* **GitLab Id**: The GitLabId gotten from your GitLab app
+* **Client Secret**: The Client secrete gotten from your GitLab application setting section
+* **Identity Path**: Set default to `/api/v4/user`
+* **Merge Users**: Whether or not to merge users
+* **Github Callback URL**: `<<website_url>>/_oauth/gitlab`
+
+{% content-ref url="gitlab-oauth-setup.md" %}
+[gitlab-oauth-setup.md](gitlab-oauth-setup.md)
+{% endcontent-ref %}
 
 ## Google
 
@@ -42,14 +63,6 @@ To set up your desired provider:
 1. Go to the [Google Developer Console](https://console.developers.google.com), and create a new project
 2. Set up your project by creating an "OAuth 2.0 client ID" (under `APIs & Auth` and `Credentials`)
 3. After that, make sure you define a **Product Name** in the OAuth consent screen, and select **Web App** as the application type. Otherwise, you won't be able to provide a callback URL
-
-## Apple
-
-To use Apple account for authentication:
-
-1. Turn on **Sign in with Apple**.
-
-![](<../../../../.gitbook/assets/image (133).png>)
 
 ## LinkedIn
 

@@ -271,6 +271,8 @@
     * [Meta](guides/administration/settings/meta.md)
     * [Mobile](guides/administration/settings/mobile.md)
     * [OAuth](guides/administration/settings/oauth/README.md)
+      * [GitLab OAuth Setup](guides/administration/settings/oauth/gitlab-oauth-setup.md)
+      * [GitHub OAuth Setup](guides/administration/settings/oauth/github-oauth-setup.md)
       * [WordPress OAuth Setup](guides/administration/settings/oauth/wordpress.md)
     * [Omnichannel Admin's Guide](guides/administration/settings/omnichannel-admins-guide/README.md)
       * [Queue Types (Routing Algorithm)](guides/administration/settings/omnichannel-admins-guide/queue-types-routing-algorithm.md)

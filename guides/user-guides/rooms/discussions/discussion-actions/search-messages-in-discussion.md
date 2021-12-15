@@ -4,7 +4,7 @@ You can search for messages in a discussion.&#x20;
 
 To do that, click on the search icon by the top right of your opened discussion.
 
-![](<../../../../../.gitbook/assets/image (661) (1).png>)
+![](<../../../../../.gitbook/assets/image (661) (1) (1).png>)
 
 ## Basic Search Commands
 
