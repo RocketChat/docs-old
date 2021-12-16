@@ -45,6 +45,10 @@ Follow this guides to generate your app passwords.
 GMail
 {% endembed %}
 
+{% hint style="info" %}
+For outlook accounts, disable the SSL option under SMTP.
+{% endhint %}
+
 {% embed url="https://support.microsoft.com/en-gb/account-billing/manage-app-passwords-for-two-step-verification-d6dc8c6d-4bf7-4851-ad95-6d07799387e9" %}
 Outlook
 {% endembed %}
