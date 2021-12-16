@@ -33,4 +33,26 @@ Your email inbox is set up and, your agents can receive emails within Rocket.Cha
 
 ![](<../../../../.gitbook/assets/image (246).png>)
 
-&#x20;
+## Configure Email Inbox with 2FA
+
+If you have two-factor authentication enabled on your email account, using your regular email password to connect will result in an error.
+
+For this, you need to generate an app password which is to be used instead of the normal password.
+
+Follow this guides to generate your app passwords.
+
+{% embed url="https://support.google.com/accounts/answer/185833?hl=en" %}
+GMail
+{% endembed %}
+
+{% embed url="https://support.microsoft.com/en-gb/account-billing/manage-app-passwords-for-two-step-verification-d6dc8c6d-4bf7-4851-ad95-6d07799387e9" %}
+Outlook
+{% endembed %}
+
+{% embed url="https://help.aol.com/articles/Create-and-manage-app-password" %}
+AOL Mail
+{% endembed %}
+
+{% embed url="https://help.yahoo.com/kb/generate-third-party-passwords-sln15241.html?guccounter=1" %}
+Yahoo Mail
+{% endembed %}
