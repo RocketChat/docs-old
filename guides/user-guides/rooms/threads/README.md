@@ -4,7 +4,7 @@ One of the downfalls of chat systems is that if you have a channel with a lot of
 
 Threads are identified following the threads symbol
 
-![](<../../../../.gitbook/assets/image (640) (1).png>)
+![](<../../../../.gitbook/assets/image (640) (1) (1).png>)
 
 {% hint style="success" %}
 The used on any communication room.

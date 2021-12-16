@@ -33,7 +33,7 @@ If your callback URL is wrong, GitHub does not display any error. Instead of log
 * Enable GitHub OAuth, fill in the credentials and hit **Save Changes** to commit
 *
 
-![](<../../../../.gitbook/assets/image (687).png>)
+![](<../../../../.gitbook/assets/image (687) (1).png>)
 
 After saving, you will find the GitHub OAuth button on the login and register page
 
