@@ -22,7 +22,8 @@ Enter the following details:
 2. Specify the **Email** address
 3. Assign it to a **Department;** it is optional&#x20;
 4. Configure SMTP server
-5. Toggle switch **Connect with SSL/TLS;** it is optional&#x20;
+5. Toggle switch **Connect with SSL/TLS;** it is optional \
+   **`Note`**`: For outlook accounts, disable the SSL option under SMTP.`
 6. &#x20;Configure IMAP server and
 7. Toggle switch **Connect with SSL/TLS** for IMAP**;** it is optional&#x20;
 8. Hit **Save**
@@ -37,17 +38,13 @@ Your email inbox is set up and, your agents can receive emails within Rocket.Cha
 
 If you have two-factor authentication enabled on your email account, using your regular email password to connect will result in an error.
 
-For this, you need to generate an app password which is to be used instead of the normal password.
+For this, you need to generate an app password that is to be used instead of the normal password.
 
-Follow this guides to generate your app passwords.
+Follow these guides to generate your app passwords.
 
 {% embed url="https://support.google.com/accounts/answer/185833?hl=en" %}
 GMail
 {% endembed %}
-
-{% hint style="info" %}
-For outlook accounts, disable the SSL option under SMTP.
-{% endhint %}
 
 {% embed url="https://support.microsoft.com/en-gb/account-billing/manage-app-passwords-for-two-step-verification-d6dc8c6d-4bf7-4851-ad95-6d07799387e9" %}
 Outlook
@@ -57,6 +54,4 @@ Outlook
 AOL Mail
 {% endembed %}
 
-{% embed url="https://help.yahoo.com/kb/generate-third-party-passwords-sln15241.html?guccounter=1" %}
-Yahoo Mail
-{% endembed %}
+****[**Yahoo Mail**](https://help.yahoo.com/kb/generate-manage-third-party-passwords-sln15241.html)****
