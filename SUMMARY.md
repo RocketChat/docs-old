@@ -270,6 +270,7 @@
     * [Meta](guides/administration/settings/meta.md)
     * [Mobile](guides/administration/settings/mobile.md)
     * [OAuth](guides/administration/settings/oauth/README.md)
+      * [Apple OAuth Setup](guides/administration/settings/oauth/apple-oauth-setup.md)
       * [NextCloud OAuth Setup](guides/administration/settings/oauth/nextcloud-oauth-setup.md)
       * [Facebook OAuth Setup](guides/administration/settings/oauth/facebook-oauth-setup.md)
       * [Google OAuth Setup](guides/administration/settings/oauth/google-oauth-setup.md)
