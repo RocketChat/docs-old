@@ -10,6 +10,8 @@ If you have found **security**, issue [report it](security/).
 
 Rocket.Chat is currently **translated** into more than twenty languages, but we've got a long way to go. If you'd like to assist us with this, please email our [translation team](mailto:translations@rocket.chat) to be invited to our [Lingohub](https://translate.lingohub.com) project.
 
+Be sure to check out our [contributor's guidelines. ](../contributor-guidelines.md)
+
 To help improve our **documentation**, please see [contribution guides](documentation/).
 
 **Bloggers and news writers**, feel free to [spread the word](promoting.md)!
@@ -17,4 +19,3 @@ To help improve our **documentation**, please see [contribution guides](document
 ## Contributor Covenant Code of Conduct
 
 This project adheres to the [Contributor Covenant](http://contributor-covenant.org) code of conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to team@rocket.chat
-

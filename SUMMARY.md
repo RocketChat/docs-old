@@ -460,6 +460,7 @@
   * [Translating](contributors/how-can-i-help/translating.md)
   * [Donate](contributors/how-can-i-help/donate.md)
 * [Contributor Code of Conduct](contributors/contributor-code-of-conduct.md)
+* [Contributor Guidelines](contributors/contributor-guidelines.md)
 * [Google Summer of Code](contributors/google-summer-of-code/README.md)
   * [Google Summer of Code 2021](contributors/google-summer-of-code/google-summer-of-code-2021.md)
   * [Google Summer of Code 2020](contributors/google-summer-of-code/google-summer-of-code-2020.md)
