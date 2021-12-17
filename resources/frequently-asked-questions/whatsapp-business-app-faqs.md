@@ -130,7 +130,9 @@ The 78$ price  already includes taxes**.**
 
 ## <mark style="color:red;">Billing Model</mark>
 
-How is the charge made? Trying to provide a better experience to our customers, Rocket.Chat will be responsible for sending a single invoice with any other charges that may be due Rocket.Chat.
+### **How is the charge made?**&#x20;
+
+Trying to provide a better experience to our customers, Rocket.Chat will be responsible for sending a single invoice with any other charges that may be due Rocket.Chat.
 
 ## <mark style="color:red;">**App installation**</mark>
 
@@ -221,7 +223,7 @@ A number can only be registered once in the API. If you need, you can migrate to
 
 One of Rocket.Chat’s strength is its integration flexibility capabilities. Meaning that a variety of chatbot solutions can now be natively integrated into Rocket.Chat’s Omnichannel and offer automated service on the WhatsApp for Business channel. Bring the power of chatbot automation to Rocket.Chat and provide personalized experiences for your customers in the world's most popular instant messaging app.
 
-### <mark style="color:red;">**Support**</mark>
+## <mark style="color:red;">**Support**</mark>
 
 ### **How to receive support for WhatsApp?**
 
