@@ -41,4 +41,4 @@ After saving, you will find the GitHub OAuth button on the login and register pa
 
 To register with GitHub, just click the button and accept access.
 
-![](<../../../../.gitbook/assets/image (643).png>)
+![](<../../../../.gitbook/assets/image (643) (1).png>)

@@ -6,7 +6,7 @@ Follow these steps to enable Google OAuth on your server.&#x20;
 
 * Go to the [Google Developer Console](https://console.developers.google.com), and create a new project if you don't have one yet
 
-![](<../../../../.gitbook/assets/image (657).png>)
+![](<../../../../.gitbook/assets/image (657) (1).png>)
 
 * Next, navigate to **APIs and services** > **OAuth consent screen**
 

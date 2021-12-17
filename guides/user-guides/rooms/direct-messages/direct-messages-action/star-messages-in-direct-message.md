@@ -6,7 +6,7 @@ You can star important messages to always be able to come back to them.
 
 To star a message, click on the **options** across the message and select **Star**&#x20;
 
-![](<../../../../../.gitbook/assets/image (643) (1).png>)
+![](<../../../../../.gitbook/assets/image (643) (1) (1).png>)
 
 Stared messages are identified by a small star ⭐ by the side
 
@@ -16,7 +16,7 @@ Stared messages are identified by a small star ⭐ by the side
 
 To un-star a message, click on the **options** across the message and select **Remove Star**&#x20;
 
-![](<../../../../../.gitbook/assets/image (673).png>)
+![](<../../../../../.gitbook/assets/image (673) (1).png>)
 
 ## Viewing Stared Messages in a DM
 
@@ -26,4 +26,4 @@ To view all stared messages, click on the **Options** against your opened DM and
 
 And a list of all stared messages are shown
 
-![](<../../../../../.gitbook/assets/image (638) (1).png>)
+![](<../../../../../.gitbook/assets/image (638) (1) (1).png>)

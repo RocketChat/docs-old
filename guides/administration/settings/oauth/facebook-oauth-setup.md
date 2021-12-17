@@ -42,7 +42,7 @@ You will be required to verify your account before proceeding if it is your firs
 
 ![](<../../../../.gitbook/assets/image (664).png>)
 
-* Copy the credentials from and fill them in the Google section of the OAuth configuration of your RocketChat server then hit **Save changes**
+* Copy the credentials and fill them in the Google section of the OAuth configuration on your RocketChat server then hit **Save changes**
 
 ![](<../../../../.gitbook/assets/image (686).png>)
 

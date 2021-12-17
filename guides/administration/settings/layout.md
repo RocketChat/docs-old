@@ -18,7 +18,7 @@ A list of RocketChat's pre-defined color variables can be found on **** [**the r
 
 Colors can be set using existing **Expressions** or **Color** by specifying it from the color picker provided.
 
-![](<../../../.gitbook/assets/image (637) (1).png>)
+![](<../../../.gitbook/assets/image (637) (1) (1).png>)
 
 To learn more about setting colors, see the **** [**colors section of the Basic White-labeling guide**](../../../quick-start/basic-white-labeling.md#colors).
 
