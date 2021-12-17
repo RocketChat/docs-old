@@ -18,7 +18,7 @@ To create a direct message from the top menu:
 
 * Click on the **create** icon on the menu and select **Direct Message**
 
-![](<../../../../.gitbook/assets/image (663) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (663) (1).png>)
 
 * You are then prompted to select the user you wish to open the message with. Select the user and hit **Create**
 

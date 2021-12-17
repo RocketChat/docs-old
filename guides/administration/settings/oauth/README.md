@@ -15,72 +15,23 @@ To set up your desired provider:
 
 ![](<../../../../.gitbook/assets/image (132).png>)
 
-## Apple
-
-To use Apple account for authentication:
-
-1. Turn on **Sign in with Apple**.
-
-![](<../../../../.gitbook/assets/image (133).png>)
-
-## Facebook
-
-* Callback URL: `<<website_url>>/_oauth/github?close`
-* Callback URL: `<<website_url>>/_oauth/facebook?close`
-
-## GitHub
-
-* **OAuth Enable**: Lets you enable GitHub OAuth
-* **Client Id**: The Client Id gotten from your GitHub application setting section
-* **Client Secret**: The Client secrete gotten from your GitHub application setting section
-* **Github Callback URL**: `<<website_url>>/_oauth/github`
-
-{% content-ref url="github-oauth-setup.md" %}
-[github-oauth-setup.md](github-oauth-setup.md)
-{% endcontent-ref %}
-
-## GitLab
-
-* **OAuth Enable**: Lets you enable GitHub OAuth
-* **GitLab URL**: GitLab URL
-* **GitLab Id**: The GitLabId gotten from your GitLab app
-* **Client Secret**: The Client secrete gotten from your GitLab application setting section
-* **Identity Path**: Set default to `/api/v4/user`
-* **Merge Users**: Whether or not to merge users
-* **Github Callback URL**: `<<website_url>>/_oauth/gitlab`
-
-{% content-ref url="gitlab-oauth-setup.md" %}
-[gitlab-oauth-setup.md](gitlab-oauth-setup.md)
-{% endcontent-ref %}
-
-## Google
-
-* **Google Login**: Lets you enable Google OAuth for login
-* **Google Id**: The OAuth Id of you Google cloud OAuth app
-* **Google Secret**: Your Google secret gotten from the Google cloud console
-* **Callback URL**: Set to point at `<<your server url>>/_oauth/google`
+## OAuth Methods
 
 {% content-ref url="google-oauth-setup.md" %}
 [google-oauth-setup.md](google-oauth-setup.md)
 {% endcontent-ref %}
 
-## LinkedIn
+{% content-ref url="gitlab-oauth-setup.md" %}
+[gitlab-oauth-setup.md](gitlab-oauth-setup.md)
+{% endcontent-ref %}
 
-* Callback URL: `<<website_url>>/_oauth/linkedin`
+{% content-ref url="github-oauth-setup.md" %}
+[github-oauth-setup.md](github-oauth-setup.md)
+{% endcontent-ref %}
 
-### LinkedIn Set up
-
-1. Go to the [Developers Linkedin](https://www.linkedin.com/developers/) and create a new app
-2. Go to Auth tab.
-3. Set up your project by creating an OAuth client ID and Client Secret.
-
-## Twitter
-
-* Callback URL: `<<website_url>>/_oauth/twitter`
-
-## WordPress
-
-Please follow the instructions [here](https://docs.rocket.chat/guides/administrator-guides/authentication/oauth/wordpress).
+{% content-ref url="wordpress.md" %}
+[wordpress.md](wordpress.md)
+{% endcontent-ref %}
 
 ## Add Custom OAuth
 
@@ -90,7 +41,7 @@ To add custom OAuth:
 
 ![](<../../../../.gitbook/assets/image (134).png>)
 
-1. Give a unique name for the custom oauth
+1. Give a unique name for the custom OAuth
 
 ![](<../../../../.gitbook/assets/image (135).png>)
 

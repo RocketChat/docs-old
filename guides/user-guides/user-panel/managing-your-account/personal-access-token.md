@@ -25,7 +25,7 @@ To create a personal access token:
 
 * When done, your code should be generated and ready for use.
 
-![](<../../../../.gitbook/assets/image (666) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (666) (1).png>)
 
 ## Delete Personal Access Token
 

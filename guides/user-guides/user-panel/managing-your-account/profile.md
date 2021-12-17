@@ -8,7 +8,7 @@ In this section, you can verify, edit and update your profile information
 
 To access this menu, Click on you **profile** and go to **My Account** > **Profile**
 
-![](<../../../../.gitbook/assets/image (686) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (686) (1).png>)
 
 * **Profile Picture**: Lets you upload a profile picture or use default avatar.
 * **Use URL for avatar**: Takes in a URL to fetch avatar from

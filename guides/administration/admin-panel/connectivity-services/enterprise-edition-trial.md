@@ -74,7 +74,7 @@ You're provided with a token. Copy the token and head back to your server's **Ad
 
 &#x20;  3\. Back on your server, select the Register Offline option.&#x20;
 
-![](<../../../../.gitbook/assets/image (660) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (660) (1).png>)
 
 &#x20;  4\. A popup appears with the code needed. Copy it and go back to the cloud portal.
 
@@ -140,7 +140,7 @@ From here, you can apply for an extension following any of the two steps describ
 
 1. Click on the instance you want to extend its trial.
 
-![](<../../../../.gitbook/assets/image (640) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (640) (1) (1).png>)
 
 &#x20;  2\. Then Click on the **banner** showing the availability for trial extension.
 
@@ -148,15 +148,15 @@ From here, you can apply for an extension following any of the two steps describ
 
 &#x20;  3\. Next enter your message or reason why you need the extension then hit **Send Request**. The request will be sent to sales where they will evaluate and respond.
 
-![](<../../../../.gitbook/assets/image (657) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (657) (1) (1) (1).png>)
 
 ### Using UI
 
 1. From your cloud portal workspace, click on the kebab menu by the extreme right on the workspace you want to extend its trial.
 2. Then select the **Trial Extension** option on the dropdown that appears.
 
-![](<../../../../.gitbook/assets/image (666) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (666) (1) (1) (1) (1) (1).png>)
 
 &#x20;  3\. Next enter your message or reason why you need the extension then hit **Send Request**. The request will be sent to sales where they will evaluate and respond.
 
-![](<../../../../.gitbook/assets/image (657) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (657) (1) (1) (1).png>)

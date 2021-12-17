@@ -14,6 +14,6 @@ To create a thread in any direct message:
 
 To view and interact with the threads you have in a direct message, click on the threads icon at the top right of the opened direct message bar.
 
-![](<../../../../../.gitbook/assets/image (687) (1) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (687) (1) (1).png>)
 
 When opened, a list of all the threads in that direct message room is seen

@@ -2,7 +2,7 @@
 
 You can view the list of members in a discussion by clicking on the people icon by the top tight of the discussion when it is open.
 
-![](<../../../../../.gitbook/assets/image (662) (1).png>)
+![](<../../../../../.gitbook/assets/image (662).png>)
 
 See more options regarding members in a discussion in this section.
 
