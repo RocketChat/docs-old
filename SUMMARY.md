@@ -3,7 +3,6 @@
 * [Rocket.Chat Documentation](README.md)
 * [Getting Support](getting-support/README.md)
   * [Asking for help](getting-support/asking-for-help.md)
-  * [Support FAQs](getting-support/support-faqs.md)
 * [Development Docs](development-docs.md)
 
 ## Quick Start
@@ -492,7 +491,13 @@
     * [Payment Methods](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/payment-methods.md)
     * [Support Ticketing System](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/support.md)
     * [Organization Settings](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/organization-settings.md)
-* [FAQ](rocket.chat-saas/faq.md)
+
+## Resources&#x20;
+
+* [Frequently Asked Questions](resources/frequently-asked-questions/README.md)
+  * [Cloud FAQs](<resources/frequently-asked-questions/Cloud Faqs.md>)
+  * [Support FAQs](resources/frequently-asked-questions/support-faqs.md)
+  * [Whatsapp Business App FAQs](resources/frequently-asked-questions/whatsapp-business-app-faqs.md)
 
 ## Legal
 
