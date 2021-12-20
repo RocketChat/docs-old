@@ -17,8 +17,18 @@ To set up your desired provider:
 
 ## OAuth Methods
 
+
+
+{% content-ref url="nextcloud-oauth-setup.md" %}
+[nextcloud-oauth-setup.md](nextcloud-oauth-setup.md)
+{% endcontent-ref %}
+
 {% content-ref url="google-oauth-setup.md" %}
 [google-oauth-setup.md](google-oauth-setup.md)
+{% endcontent-ref %}
+
+{% content-ref url="facebook-oauth-setup.md" %}
+[facebook-oauth-setup.md](facebook-oauth-setup.md)
 {% endcontent-ref %}
 
 {% content-ref url="gitlab-oauth-setup.md" %}

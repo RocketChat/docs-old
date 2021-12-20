@@ -2,7 +2,7 @@
 
 To view the info about the user you are in a direct message with, click on the **User Info** icon on the top right of the open conversation and the user's info is displayed.
 
-![](<../../../../../.gitbook/assets/image (667).png>)
+![](<../../../../../.gitbook/assets/image (667) (1).png>)
 
 * **Roles**: Shows the user's role
 * **Last Login**: Shows the date the user lastly logged in

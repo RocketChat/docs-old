@@ -8,11 +8,18 @@ description: >-
 
 The following topics give you all the information you need regarding the setup and usage of your new rocket.chat cloud account.
 
-{% page-ref page="create-new-cloud-account.md" %}
+{% content-ref url="create-new-cloud-account.md" %}
+[create-new-cloud-account.md](create-new-cloud-account.md)
+{% endcontent-ref %}
 
-{% page-ref page="set-up-your-new-cloud-account.md" %}
+{% content-ref url="set-up-your-new-cloud-account.md" %}
+[set-up-your-new-cloud-account.md](set-up-your-new-cloud-account.md)
+{% endcontent-ref %}
 
-{% page-ref page="manage-your-workspace-on-cloud-account/" %}
+{% content-ref url="manage-your-workspace-on-cloud-account/" %}
+[manage-your-workspace-on-cloud-account](manage-your-workspace-on-cloud-account/)
+{% endcontent-ref %}
 
-
-
+{% content-ref url="../../resources/frequently-asked-questions/whatsapp-business-app-faqs.md" %}
+[whatsapp-business-app-faqs.md](../../resources/frequently-asked-questions/whatsapp-business-app-faqs.md)
+{% endcontent-ref %}

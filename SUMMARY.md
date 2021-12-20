@@ -76,8 +76,7 @@
   * [Microservices Setup \[beta\]](quick-start/installing-and-updating/micro-services-setup-beta.md)
 * [Creating the first administrator](quick-start/creating-the-first-administrator.md)
 * [Basic White-labeling](quick-start/basic-white-labeling.md)
-* [Identity Management (EE vs CE)](quick-start/identity-management-ee-vs-ce/README.md)
-  * [Identity Management EE FAQ](quick-start/identity-management-ee-vs-ce/ldap-faq.md)
+* [Identity Management (EE vs CE)](quick-start/identity-management-ee-vs-ce.md)
 * [Plug-ins](quick-start/plug-ins/README.md)
   * [Drupal Plug-in](quick-start/plug-ins/drupal.md)
   * [Pidgin Plug-in](quick-start/plug-ins/pidgin.md)
@@ -499,6 +498,7 @@
   * [Cloud FAQs](<resources/frequently-asked-questions/Cloud Faqs.md>)
   * [Support FAQs](resources/frequently-asked-questions/support-faqs.md)
   * [Whatsapp Business App FAQs](resources/frequently-asked-questions/whatsapp-business-app-faqs.md)
+  * [Identity Management EE FAQ](resources/frequently-asked-questions/ldap-faq.md)
 
 ## Legal
 

@@ -4,9 +4,9 @@ description: 'List of available login methods and features.  Including:'
 
 # Identity Management (EE vs CE)
 
-* [LDAP / AD](./#ldap3)
-* [SAML](./#saml3)
-* [OAuth / Custom OAuth](./#oauth3)
+* [LDAP / AD](identity-management-ee-vs-ce.md#ldap3)
+* [SAML](identity-management-ee-vs-ce.md#saml3)
+* [OAuth / Custom OAuth](identity-management-ee-vs-ce.md#oauth3)
 
 ## **LDAP / AD** <a href="#ldap3" id="ldap3"></a>
 
@@ -80,3 +80,7 @@ description: 'List of available login methods and features.  Including:'
 * **Advanced Custom OAuth:**&#x20;
   * Assign Rocket.Chat roles based on OAuth roles
   * Join channels automatically based on OAuth roles
+
+{% content-ref url="../resources/frequently-asked-questions/ldap-faq.md" %}
+[ldap-faq.md](../resources/frequently-asked-questions/ldap-faq.md)
+{% endcontent-ref %}

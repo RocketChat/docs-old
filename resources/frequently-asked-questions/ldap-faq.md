@@ -32,8 +32,8 @@ In order to enjoy the complete suite of re-factored advanced LDAP, SAML and, Oau
 
 View full functionalities:
 
-{% content-ref url="./" %}
-[.](./)
+{% content-ref url="../../quick-start/identity-management-ee-vs-ce.md" %}
+[identity-management-ee-vs-ce.md](../../quick-start/identity-management-ee-vs-ce.md)
 {% endcontent-ref %}
 
 ## What will community users still be able to do? Examples.
@@ -42,13 +42,13 @@ Community users will be able to connect an LDAP service used by their organizati
 \
 View full functionalities:
 
-{% content-ref url="./" %}
-[.](./)
+{% content-ref url="../../quick-start/identity-management-ee-vs-ce.md" %}
+[identity-management-ee-vs-ce.md](../../quick-start/identity-management-ee-vs-ce.md)
 {% endcontent-ref %}
 
 ## Will the new implementation affect Single Sign-On capabilities? Please explain single sign-on.
 
-Single Sign-On (SSO) is an authentication scheme that allows a user to log in with a single ID and password to any of several related, yet independent, software systems. True single sign-on allows the user to log in once and access services without re-entering authentication factors. Workspaces that use social login capabilities (users sign-on via Google, Linked In, etc.) will not be impacted by this change.  
+Single Sign-On (SSO) is an authentication scheme that allows a user to log in with a single ID and password to any of several related, yet independent, software systems. True single sign-on allows the user to log in once and access services without re-entering authentication factors. Workspaces that use social login capabilities (users sign-on via Google, Linked In, etc.) will not be impacted by this change. &#x20;
 
 ## I've contributed to building LDAP/SAML/Custom Oauth and now I can't use my code. What should I do?
 
