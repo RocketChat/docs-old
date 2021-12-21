@@ -46,7 +46,7 @@ We won’t be able to serve air-gapped customers because the necessity to connec
 
 ### What costs will the customer have?&#x20;
 
-There will be 3 types of costs. App fee ($39/mo), 360dialog's monthly fee ($39/mo) + Facebook costs per template message used (variable depending on volume). Rocket.Chat does not charge any mark-up on variable costs. This price already includes taxes.
+There will be 3 types of costs. App fee ($39/mo), 360dialog's monthly fee ($39/mobile number/mo) + Facebook costs per template message used (variable depending on volume). Rocket.Chat does not charge any mark-up on variable costs. This price already includes taxes.
 
 ![](https://lh6.googleusercontent.com/lkoBbHYszMzb\_\_VE\_NgGjQ6iqGG7ZJclm5h8\_pmAp6CGBAnjAEdbYRQFLSRxS81wb7lDOZB3xjew-bc3aZMsvGN4sEb8Kh09TtITauPm9YX809Z6ae2c82gM1hjvsV1lZ\_Dp1KEH)
 

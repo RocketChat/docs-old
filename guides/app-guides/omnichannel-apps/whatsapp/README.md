@@ -43,7 +43,3 @@ It is a paid subscription and costs you $39 per month.&#x20;
 {% content-ref url="whatsapp-agents-guide.md" %}
 [whatsapp-agents-guide.md](whatsapp-agents-guide.md)
 {% endcontent-ref %}
-
-{% content-ref url="../../../../resources/frequently-asked-questions/whatsapp-business-app-faqs.md" %}
-[whatsapp-business-app-faqs.md](../../../../resources/frequently-asked-questions/whatsapp-business-app-faqs.md)
-{% endcontent-ref %}
