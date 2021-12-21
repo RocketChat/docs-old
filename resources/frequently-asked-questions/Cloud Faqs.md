@@ -4,7 +4,7 @@
 
 #### How long do trials last?
 
-Currently, trials last 30 days.
+Currently trials last 14 days.
 
 #### How can I convert from a trial to a paid plan?
 
