@@ -38,13 +38,13 @@ You can use apps like **Google Authenticator, Authy**, etc to generate and manag
 
 * Click on the **Enable two-factor authentication via TOTP** to enable **** it
 
-![](<../../../.gitbook/assets/image (668) (1).png>)
+![](<../../../.gitbook/assets/image (668) (1) (1).png>)
 
 *   Open up your TOTP application and scan the QR code or enter the given code manually.
 
     After that, you enter the generated code from the app into the field directly below then hit **Verify** to confirm
 
-![](<../../../.gitbook/assets/image (685).png>)
+![](<../../../.gitbook/assets/image (685) (1).png>)
 
 * When it's done, you are provided with some recovery codes you can copy and store for recovery purposes.
 

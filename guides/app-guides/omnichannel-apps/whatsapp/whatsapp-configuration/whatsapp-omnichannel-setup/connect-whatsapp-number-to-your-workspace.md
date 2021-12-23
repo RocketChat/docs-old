@@ -2,7 +2,7 @@
 
 After copying your newly generated API key on 360Dialog, come back to your Rocket.Chat workspace and click **Connect WhatsApp Number**.
 
-![](<../../../../../../.gitbook/assets/image (649) (1) (1) (1).png>)
+![](<../../../../../../.gitbook/assets/image (649) (1) (1) (1) (1).png>)
 
 1. Paste your API key in **API Key**,
 2. Associate this WhatsApp number to a specific **Department** if you want,
@@ -13,7 +13,7 @@ After copying your newly generated API key on 360Dialog, come back to your Rocke
 
 as shown below:
 
-![](<../../../../../../.gitbook/assets/image (662) (1) (1) (1).png>)
+![](<../../../../../../.gitbook/assets/image (662) (1) (1) (1) (1).png>)
 
 Your WhatsApp number is now connected to Rocket.Chat, as shown below:
 

@@ -12,7 +12,7 @@ as shown below:
 
 ![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1).png>)
 
-![](<../../../.gitbook/assets/image (662) (1) (1).png>)
+![](<../../../.gitbook/assets/image (662) (1) (1) (1).png>)
 
 ## Deployment Info
 
@@ -46,7 +46,7 @@ A modal is presented prompting you to paste the licence you got from the[ Rocket
 
 Paste the license code and hit the **Apply license** button.
 
-![](<../../../.gitbook/assets/image (641) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (641) (1) (1) (1) (1) (1).png>)
 
 ### Change Offline License
 

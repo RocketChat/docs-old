@@ -195,7 +195,7 @@ First, you need to copy your newly generated API key on 360Dialog. After that, c
 
 as shown below:
 
-![](<../../.gitbook/assets/image (662) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (662) (1) (1) (1) (1).png>)
 
 Your WhatsApp number is now connected to Rocket.Chat, as shown below:
 

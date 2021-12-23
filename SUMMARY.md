@@ -486,6 +486,7 @@
       * [Cancel Workspace](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/cancel-workspace.md)
       * [Update Workspace](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/upgrade-update-workspace.md)
       * [Workspace Details](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/workspace-details.md)
+      * [Apply Offline License](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/apply-offline-license.md)
       * [Upgrade/Downgrade your Plan](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/upgrade-downgrade-your-plan.md)
     * [Profile](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/profile.md)
     * [Invoices](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/invoices.md)

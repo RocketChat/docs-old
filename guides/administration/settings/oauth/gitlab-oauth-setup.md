@@ -20,8 +20,8 @@ Follow these steps to enable GitlLab OAuth on your server.&#x20;
 
 * After saving, you will now have the GitLab OAuth button on you login and register pages
 
-![](<../../../../.gitbook/assets/image (641).png>)
+![](<../../../../.gitbook/assets/image (641) (1).png>)
 
 When used for authentication, a prompt is gotten for users to accept access
 
-![](<../../../../.gitbook/assets/image (686) (1).png>)
+![](<../../../../.gitbook/assets/image (686) (1) (1).png>)
