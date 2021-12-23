@@ -276,6 +276,7 @@
       * [GitLab OAuth Setup](guides/administration/settings/oauth/gitlab-oauth-setup.md)
       * [GitHub OAuth Setup](guides/administration/settings/oauth/github-oauth-setup.md)
       * [WordPress OAuth Setup](guides/administration/settings/oauth/wordpress.md)
+      * [Other OAuth Setup](guides/administration/settings/oauth/other-oauth-setup.md)
     * [Omnichannel Admin's Guide](guides/administration/settings/omnichannel-admins-guide/README.md)
       * [Queue Types (Routing Algorithm)](guides/administration/settings/omnichannel-admins-guide/queue-types-routing-algorithm.md)
     * [OTR](guides/administration/settings/otr.md)
@@ -492,7 +493,7 @@
     * [Support Ticketing System](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/support.md)
     * [Organization Settings](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/organization-settings.md)
 
-## Resources&#x20;
+## Resources
 
 * [Frequently Asked Questions](resources/frequently-asked-questions/README.md)
   * [Cloud FAQs](<resources/frequently-asked-questions/Cloud Faqs.md>)
