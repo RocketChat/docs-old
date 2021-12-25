@@ -40,7 +40,7 @@ To test your changes you have 2 options:
 
 #### OPTION 1: Fork and use GitBook
 
-Simply fork our docs repository, [create a space](https://docs.gitbook.com/getting-started/quick-start) and activate the [GitHub Integration](https://docs.gitbook.com/integrations/github) on your fork.
+Simply fork our docs repository, [create a space](https://docs.gitbook.com/getting-started/quick-start) and activate the [GitHub Integration](https://docs.gitbook.com/integrations/git-sync) on your fork.
 
 #### OPTION 2: Run it locally
 
