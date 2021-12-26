@@ -29,7 +29,7 @@ When you create a new pull request, we expect some requirements to be met.
 
 ### Creating Drafts
 
-When you create a new feature but for some reason can't create a full-fledged documentation pull request, you can create a `draft` with is a single file pull request with critical information needed to create the desired documentation, after creating the draft, the documentation team will edit the pull request to suit the documentation standards.
+When you create a new feature but for some reason can't create a full-fledged documentation pull request, you can create a `draft` which is a single file pull request with critical information needed to create the desired documentation, after creating the draft, the documentation team will edit the pull request to suit the documentation standards.
 
 * [New Feature Template](new-feature-draft.md)
 * [Feature Change Template](feature-change-draft.md)
@@ -40,7 +40,7 @@ To test your changes you have 2 options:
 
 #### OPTION 1: Fork and use GitBook
 
-Simply fork our docs repository, [create a space](https://docs.gitbook.com/getting-started/quick-start) and activate the [GitHub Integration](https://docs.gitbook.com/integrations/github) on your fork.
+Simply fork our docs repository, [create a space](https://docs.gitbook.com/getting-started/quick-start) and activate the [GitHub Integration](https://docs.gitbook.com/integrations/git-sync) on your fork.
 
 #### OPTION 2: Run it locally
 
@@ -91,4 +91,3 @@ The responsibilities of a maintainer are:
 
 * **Help Manage Pull Requests:** help the author of the pull request with any problems \(like tests failing due to markdown problems on the pull request\)
 * **Contributing!** Create pull requests to help maintain the documentation
-
