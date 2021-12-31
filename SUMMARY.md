@@ -408,6 +408,7 @@
       * [Instagram App Configuration](guides/app-guides/omnichannel-apps/instagram-app/instagram-app-configuration/README.md)
         * [Instagram App Authentication](guides/app-guides/omnichannel-apps/instagram-app/instagram-app-configuration/instagram-app-authentication.md)
         * [Delete Instagram App](guides/app-guides/omnichannel-apps/instagram-app/instagram-app-configuration/delete-instagram-app.md)
+      * [Instagram App Agent's Guide](guides/app-guides/omnichannel-apps/instagram-app/instagram-app-agents-guide.md)
   * [Data Loss Prevention (DLP) App Admin Guide](guides/app-guides/data-loss-prevention-dlp-app.md)
   * [Poll](guides/app-guides/poll.md)
   * [Poll Plus](guides/app-guides/poll-plus/README.md)
