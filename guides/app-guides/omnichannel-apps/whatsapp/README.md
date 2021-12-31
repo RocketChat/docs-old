@@ -8,7 +8,7 @@ It is a paid subscription and costs you $39 per month.&#x20;
 
 ![](<../../../../.gitbook/assets/image (641) (1) (1) (1).png>)
 
-{% hint style="success" %}
+{% hint style="warning" %}
 **You must have the** [**omnichannel feature**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#enable-omnichannel) **enabled as well as have** [**agents**](https://docs.rocket.chat/guides/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/guides/omnichannel/managers) **assigned in order to receive and send omnichannel messages.**
 {% endhint %}
 

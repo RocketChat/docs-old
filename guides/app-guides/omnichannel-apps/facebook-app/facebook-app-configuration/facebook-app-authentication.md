@@ -6,7 +6,18 @@ description: >-
 
 # Facebook App Authentication
 
-The first step after the configuration and resolving the dependencies is authentication with Facebook.
+## Dependencies
+
+Before initiating the authentication process, please ensure all the dependencies stated below are met:
+
+1\. A Facebook Account. Click [here](https://www.facebook.com) to create one if you don't have it already.\
+2\. A Facebook page. This is the page from where your customers can message you. Click [here](https://www.facebook.com/pages/creation/) to create one if you don't have it already.\
+3\. Make sure your [Rocket.Chat](http://rocket.chat) instance is on a public address and is accessible by anyone on the internet. Goto \``Admin -> General -> Site Url`\` to confirm this.\
+4\. Lastly, Make sure your [Rocket.Chat](http://rocket.chat) instance is connected to [Rocket.Chat](http://rocket.chat) Cloud. Goto \``Admin -> Connectivity Services`\` to connect to Cloud.
+
+## Authentication
+
+The next step after the configuration and resolving the dependencies is authentication with Facebook.
 
 1. Please click on the button shown below to start the authentication process with Facebook.
 

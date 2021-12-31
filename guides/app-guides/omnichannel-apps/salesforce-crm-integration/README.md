@@ -4,8 +4,8 @@ description: Integration between Rocket.Chat and Salesforce CRM platform.
 
 # Salesforce CRM Integration
 
-{% hint style="success" %}
-**You must have the **[**omnichannel feature**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#enable-omnichannel)** enabled as well as have **[**agents**](https://docs.rocket.chat/guides/omnichannel/agents)** and **[**managers**](https://docs.rocket.chat/guides/omnichannel/managers)** assigned in order to receive and send omnichannel messages.**
+{% hint style="warning" %}
+**You must have the** [**omnichannel feature**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#enable-omnichannel) **enabled as well as have** [**agents**](https://docs.rocket.chat/guides/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/guides/omnichannel/managers) **assigned in order to receive and send omnichannel messages.**
 {% endhint %}
 
 {% content-ref url="salesforce-crm-installation.md" %}
