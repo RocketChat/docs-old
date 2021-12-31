@@ -407,7 +407,7 @@
       * [Instagram App Installation](guides/app-guides/omnichannel-apps/instagram-app/instagram-app-installation.md)
       * [Instagram App Configuration](guides/app-guides/omnichannel-apps/instagram-app/instagram-app-configuration/README.md)
         * [Instagram App Authentication](guides/app-guides/omnichannel-apps/instagram-app/instagram-app-configuration/instagram-app-authentication.md)
-        * [Page 1](guides/app-guides/omnichannel-apps/instagram-app/instagram-app-configuration/page-1.md)
+        * [Delete Instagram App](guides/app-guides/omnichannel-apps/instagram-app/instagram-app-configuration/delete-instagram-app.md)
   * [Data Loss Prevention (DLP) App Admin Guide](guides/app-guides/data-loss-prevention-dlp-app.md)
   * [Poll](guides/app-guides/poll.md)
   * [Poll Plus](guides/app-guides/poll-plus/README.md)

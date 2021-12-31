@@ -21,29 +21,33 @@ The first step after the configuration and resolving the dependencies is authent
 
 1. Please click on the button shown below to start the authentication process with Instagram.
 
-![](broken-reference)
+![](<../../../../../.gitbook/assets/2021-12-31\_17-24-46 (4).png>)
 
 2\. As soon as you click **Start Authentication** the authentication process is started. Please authorize [Rocket.Chat](http://rocket.chat)'s Instagram app to complete this process.
 
-![](<../../../../../.gitbook/assets/image (544).png>)
+![](../../../../../.gitbook/assets/2021-12-31\_17-24-46.png)
 
 3\. You are redirected to the following page where you can use your email to authorize Instagram.
 
 ![](<../../../../../.gitbook/assets/image (545).png>)
 
+4\. Confirm the Instagram business account you want to use with Rocket.Chat Omni Gateway. If you don’t have one yet, you can [create yours in just 30 seconds](https://www.facebook.com/pages/create/?ref\_type=registration\_form).
 
+![](../../../../../.gitbook/assets/2021-12-31\_18-10-57.png)
 
-4\. Confirm here.
+5\. In case you have multiple pages associated with your Instagram account it will prompt a selection box to choose the preferred page to connect.
 
-![](<../../../../../.gitbook/assets/2021-11-29\_01-14-57 (2).png>)
+![](../../../../../.gitbook/assets/2021-12-31\_18-11-21.png)
 
-At this step, you must have a Instagram page associated with the account. If you don’t have one yet, you can [create yours in just 30 seconds](https://www.facebook.com/pages/create/?ref\_type=registration\_form).
+6\. Determine what Rocket.Chat Omni Gateway can do with the pages you have selected.&#x20;
 
-In case you have multiple pages associated with your Instagram account it will prompt a selection box to choose the preferred page to connect.
+![](../../../../../.gitbook/assets/2021-12-31\_18-11-40.png)
+
+![](../../../../../.gitbook/assets/2021-12-31\_18-11-52.png)
 
 After successfully selecting your page, you will receive a success message with credentials, as shown below:
 
-![](<../../../../../.gitbook/assets/image (548).png>)
+![](<../../../../../.gitbook/assets/2021-12-31\_18-12-56 (7).png>)
 
 Try it out by sending a message to your Instagram page.
 
@@ -51,17 +55,15 @@ Try it out by sending a message to your Instagram page.
 
 After successful authentication, as an admin, you are subscribed to the Instagram page by default. But you can choose to unsubscribe if you want, as shown below:
 
-![](<../../../../../.gitbook/assets/image (559).png>)
+![](<../../../../../.gitbook/assets/2021-12-31\_18-12-56 (9).png>)
 
-![](<../../../../../.gitbook/assets/image (560).png>)
+![](<../../../../../.gitbook/assets/2021-12-31\_19-18-27 (1).png>)
 
 ## Edit Page Configuration
 
 You can edit page configuration as shown below:
 
-![](<../../../../../.gitbook/assets/image (561).png>)
-
-
+![](<../../../../../.gitbook/assets/2021-12-31\_18-12-56 (8).png>)
 
 Following are the settings available:
 
@@ -71,22 +73,22 @@ Following are the settings available:
 4. You can set the **Default message for offline service** that will be sent to your visitor when no agents are available online
 
 {% hint style="info" %}
-Only the agents of  this particular department are able to see and take the chats.
+Only the agents of this particular department are able to see and take the chats.
 {% endhint %}
 
-![](<../../../../../.gitbook/assets/image (563).png>)
+![](../../../../../.gitbook/assets/2021-12-31\_18-12-56.png)
 
 ## Slash Commands
 
 {% hint style="info" %}
 Here are the shortcuts you can use in Instagram Bot:
 
-1. **/Instagram authorize** Starts the Instagram authorization process
-2. &#x20;**/Instagram unauthorize** Revoke Instagram authorization&#x20;
+1. **/Instagram authorize** Starts the facebook authorization process to connect your instagram accounts
+2. &#x20;**/Instagram unauthorize** Revoke facebook authorization to remove all connected instagram accounts
 3. **/Instagram edit pageId** Edit Page configuration for the given pageId&#x20;
 4. **/Instagram help** Shows help message
 {% endhint %}
 
 {% hint style="danger" %}
-Please note that when a Instagram Messenger users sends a message and there's no agent available on the server to chat, the conversation won't be created. This means that when agents get back to work they will not know that someone was reaching out. So please make sure you have at least one agent online at all times.&#x20;
+Please note that when an Instagram user sends a message and there's no agent available on the server to chat, the conversation won't be created. This means that when agents get back to work they will not get to know that someone was reaching out. So please make sure you have at least one agent online at all times.&#x20;
 {% endhint %}

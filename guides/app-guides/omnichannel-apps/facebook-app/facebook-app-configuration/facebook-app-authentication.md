@@ -88,5 +88,5 @@ Here are the shortcuts you can use in Facebook Bot:
 {% endhint %}
 
 {% hint style="danger" %}
-Please note that when a Facebook Messenger users sends a message and there's no agent available on the server to chat, the conversation won't be created. This means that when agents get back to work they will not know that someone was reaching out. So please make sure you have at least one agent online at all times.&#x20;
+Please note that when a Facebook Messenger user sends a message and there's no agent available on the server to chat, the conversation won't be created. This means that when agents get back to work they will not get to know that someone was reaching out. So please make sure you have at least one agent online at all times.&#x20;
 {% endhint %}
