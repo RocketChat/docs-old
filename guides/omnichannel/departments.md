@@ -6,105 +6,66 @@ To access **Departments** settings:
 
 1. Go to the dots menu and hit **Omnichannel**. Omnichannel settings will open up.
 
-![](<../../.gitbook/assets/0 (2) (2).png>)
+![](../../.gitbook/assets/2022-01-01\_14-31-40.png)
 
-1. Hit **Departments.**
+2\. Hit **Departments.**
 
-![](<../../.gitbook/assets/1 (2).png>)
+![](../../.gitbook/assets/2022-01-01\_14-46-42.png)
 
-To add a new **Department**:
+### **Add a new Department**:
 
-1. Click **New** **Department**.
-
-![](<../../.gitbook/assets/2 (2).png>)
+Click +**New** on the top right of the screen.
 
 The new department's settings page will appear, as shown below:
 
-![](<../../.gitbook/assets/3 (2).png>)
+![](<../../.gitbook/assets/2022-01-01\_15-46-46 (4).png>)
 
-1. Enable a new department.
 
-![](<../../.gitbook/assets/4 (2).png>)
 
-1. Name your new department.
-
-![](<../../.gitbook/assets/5 (2).png>)
-
-1. Type in the description. It's optional.
-
-![](<../../.gitbook/assets/6 (2).png>)
-
-1. Allow your visitor to have the option to choose the department they want to talk to, as shown below:
-
-![](<../../.gitbook/assets/7 (2).png>)
-
-The option will appear to your customer in the livechat widget, as shown below:
+1. **Enable** your new department.
+2. **Name** your new department.
+3. Type in the **Description**. It's optional.
+4. **Show on registration page:** Allow your visitor to have the option to choose the department they want to talk to. The option will appear to your customer in the livechat widget, as shown below:
 
 ![](<../../.gitbook/assets/8 (1).png>)
 
-1. Forward your omnichannel conversations to the email address of your choice, during the hours you are offline, as shown below:
+5\. Forward your omnichannel conversations to the **Email** address of your choice, during the hours you are offline.
 
-![](../../.gitbook/assets/9.png)
-
-1. Enable the radio button below if you want your department to show offline during off business hours.
-
-![](<../../.gitbook/assets/10 (1).png>)
-
-If you enable it will appear in the widget, as shown below:
+6\. Enable the **Show on offline page** radio button if you want your department to show offline during off business hours. If you enable it will appear in the widget, as shown below:
 
 ![](<../../.gitbook/assets/11 (1).png>)
 
-1. Mention the name of the channel you want to direct the offline messages to.
+7\. **Send this department's Livechat offline messages to a channel:** Mention the name of the channel you want to direct the offline messages to.
 
-![](<../../.gitbook/assets/12 (1).png>)
+8\. **Max. number of simultaneous chats:** Assign the maximum number of simultaneous chats you want your agent to attend.
 
-1. Request your agent to set tags for the conversation for later searching purposes if you want.
+9\. **How Long to Wait to Consider Visitor Abandonment?:** Mention the number of seconds you want to wait to consider visitor abandonment.
 
-![](<../../.gitbook/assets/13 (1).png>)
+10\. **Custom message when room is automatically closed by visitor inactivity:** Mention the custom message you want to be displayed when the room is closed automatically by visitor inactivity.
 
-1. An agent can add conversation tags they want to use for this department.
+11\. **Waiting queue message:** Mention the custom message you want to be displayed when the user is waiting in the queue.
 
-![](<../../.gitbook/assets/14 (1).png>)
+12\. **List of departments allowed for forwarding:** List the name of departments you would like to forward your department's chat to.&#x20;
 
-![](<../../.gitbook/assets/15 (1).png>)
+13\. **Fallback department for forwarding:** You can configure fallback departments to receive conversations when the primary department (the one you are creating) is offline. If conversation is not answered due to unavailable agents, it's redirected to another department, thus reducing service response time and consequently increasing customer satisfaction in relation to the service provided.
 
-![](../../.gitbook/assets/16.png)
+14\. **Request tag(s) before closing conversation:** Request your agent to set tags for the conversation for later searching purposes if you want.
 
-1. Assign the maximum number of simultaneous chats you want your agent to attend.
+15\. **Conversation closing tags:** You as an administrator can add some conversation tags for this department.
 
-![](<../../.gitbook/assets/17 (1).png>)
+16\. **Business Hour:** After your new department is created, their assigned business hour will be displayed here.
 
-1. Mention the number of seconds you want to wait to consider visitor abandonment.
+17\. **Agents:** Assign the agents to this department.
 
-![](<../../.gitbook/assets/18 (1).png>)
+Successfully added agents would be listed, as shown below:
 
-1. Mention the custom message you want to be displayed when the room is closed automatically by visitor inactivity.
+![](../../.gitbook/assets/2022-01-01\_16-32-28.png)
 
-![](<../../.gitbook/assets/19 (1).png>)
-
-1. Mention the custom message you want to be displayed when the user is waiting in the queue.
-
-![](<../../.gitbook/assets/20 (1).png>)
-
-1. List the name of departments you would like to forward your department's chat to. ![](<../../.gitbook/assets/21 (1).png>)
-2.  After your new department is created, their assigned business hour will be displayed here.
-
-    ![](<../../.gitbook/assets/22 (1).png>)
-3. Assign the agents to this department, as shown below:
-
-![](<../../.gitbook/assets/23 (1).png>)
-
-1. Successfully added agents would be listed, as shown below:
-
-![](../../.gitbook/assets/24.png)
-
-1. Hit save.
-
-![](<../../.gitbook/assets/25 (1).png>)
+18\. Hit **Save**.
 
 Your newly created department is displayed in the list of departments, as shown below:
 
-![](../../.gitbook/assets/26.png)
+![](<../../.gitbook/assets/2022-01-01\_16-34-21 (3).png>)
 
 You can have the following behavior depending on how many departments you have created:
 

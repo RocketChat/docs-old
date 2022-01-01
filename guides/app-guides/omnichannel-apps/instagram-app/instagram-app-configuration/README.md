@@ -30,11 +30,23 @@ Following are the settings available:
 
 ![](../../../../../.gitbook/assets/2021-12-29\_17-34-16.png)
 
-5\. Instagram Handover Protocol Action
+### Handover protocol&#x20;
+
+If you have multiple Facebook app connected to a single Facebook account, then Facebook allows those apps to participate in a conversation by passing control of the conversation between them. This feature is known as Handover protocol and the documentation for this feature can be found [here](https://developers.facebook.com/docs/messenger-platform/instagram/features/handover-protocol). If you are using Handover protocol on your account, then this Instagram app allows you to perform some of the handover operations. There are two settings that control this behavior explained below:
+
+5\. **Instagram Handover Protocol Action:**
+
+It defines the action which should be performed while sending an agent's message to a thread, in order to get access to the thread.
 
 ![](../../../../../.gitbook/assets/2021-12-29\_17-42-55.png)
 
-6\. Instagram Handover Protocol Metadata
+{% hint style="info" %}
+**Take Thread Control** action will only work if you've configured Rocket.Chat Omni-gateway app as a **Primary Receiver** from Facebook Apps page settings.
+{% endhint %}
+
+6\. **Instagram Handover Protocol Metadata:**
+
+It defines the metadata to be passed along with thread control action requests. You can use this to pass some custom payload to other apps.
 
 ![](../../../../../.gitbook/assets/2021-12-29\_17-43-33.png)
 
