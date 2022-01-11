@@ -25,7 +25,7 @@ This section allows the end-user to change their notification preferences.
 
 * **Desktop Notifications**: Click the **Test Desktop Notification** to see how notifications will be displayed on Desktop.
 
-![](<../../../../.gitbook/assets/image (650) (1).png>)
+![](<../../../../.gitbook/assets/image (650) (1) (1).png>)
 
 * **Require Interaction to Dismiss Desktop Notification**: When enabled, notifications must be attended to before they can be dismissed. i.e they will remain in the notification panel always
 * **Show Desktop Notifications For**: Lets you select the type of messages for which the notifications have to be triggered (for both browser and desktop app notifications)
@@ -80,4 +80,4 @@ Lets you download your data either as `HTML` or `JSON` format
 
 When triggered, the request will be processed and a link to the exported file sent to your email.
 
-![](<../../../../.gitbook/assets/image (665) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (665) (1) (1) (1).png>)

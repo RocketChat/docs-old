@@ -15,7 +15,7 @@ Follow these steps to enable GitHub OAuth on your server.&#x20;
 If your callback URL is wrong, GitHub does not display any error. Instead of logging in, you receive an error message saying, "No matching login attempt found."
 {% endhint %}
 
-![](<../../../../.gitbook/assets/image (692).png>)
+![](<../../../../.gitbook/assets/image (692) (1).png>)
 
 * After creating your app, a screen is shown with your `client id` and a button you can use to generate you apps `secret`
 

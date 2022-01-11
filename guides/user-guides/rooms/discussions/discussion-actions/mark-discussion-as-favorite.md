@@ -14,8 +14,8 @@ To favorite a discussion, you can:
 
 * Click on the menu against the discussion and select **Favorite**.
 
-![](<../../../../../.gitbook/assets/image (647) (1).png>)
+![](<../../../../../.gitbook/assets/image (647) (1) (1).png>)
 
 The discussion will have the star highlighted after setting as favorite.
 
-![](<../../../../../.gitbook/assets/image (641) (1) (1) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (641) (1) (1) (1) (1) (1).png>)

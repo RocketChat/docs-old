@@ -24,8 +24,8 @@ Follow these steps to set up Nextcloud OAuth on your server.&#x20;
 
 * The Nextcloud OAuth button is now active on the register and login page
 
-![](<../../../../.gitbook/assets/image (657).png>)
+![](<../../../../.gitbook/assets/image (657) (1).png>)
 
 You now get the prompt to confirm when logging in with Nextcloud
 
-![](<../../../../.gitbook/assets/image (677).png>)
+![](<../../../../.gitbook/assets/image (677) (1).png>)

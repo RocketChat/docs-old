@@ -11,9 +11,9 @@ description: >-
 Before initiating the authentication process, please ensure all the dependencies stated below are met:\
 1\. An Instagram [Business Account](https://help.instagram.com/502981923235522?fbclid=IwAR0TNcoToWKAq8OTOH4VjUC75NSk8EyqFW2Xz5KWDX7SsYK-9rNYppMMnLs)\
 2\. A Facebook Account. Click [here](https://www.facebook.com) to create one, if you don't have it already.\
-2\. A Facebook Page connected to your Instagram account. Click [here](https://www.facebook.com/pages/creation/) to create a new Facebook Page and click [here](https://help.instagram.com/399237934150902?fbclid=IwAR1m2-JgIIGQBqmJG1vaVSAuOdIdM-hd5k9U-j7BaQ-t5x0WizKVEfr-gbQ) for a guide on how to connect your Facebook Page to your Instagram account.\
-3\. Make sure your [Rocket.Chat](http://rocket.chat) instance is on a public Address and is accessible by anyone on the internet. Goto \``Admin -> General -> Site Url`\` to confirm this.\
-4\. Lastly, Make sure your [Rocket.Chat](http://rocket.chat) instance is connected to [Rocket.Chat](http://rocket.chat) Cloud. Goto \``Admin -> Connectivity Services`\` to connect to Cloud.
+3\. A Facebook Page connected to your Instagram account. Click [here](https://www.facebook.com/pages/creation/) to create a new Facebook Page and click [here](https://help.instagram.com/399237934150902?fbclid=IwAR1m2-JgIIGQBqmJG1vaVSAuOdIdM-hd5k9U-j7BaQ-t5x0WizKVEfr-gbQ) for a guide on how to connect your Facebook Page to your Instagram account.\
+4\. Make sure your [Rocket.Chat](http://rocket.chat) instance is on a public Address and is accessible by anyone on the internet. Goto \``Admin -> General -> Site Url`\` to confirm this.\
+5\. Lastly, Make sure your [Rocket.Chat](http://rocket.chat) instance is connected to [Rocket.Chat](http://rocket.chat) Cloud. Goto \``Admin -> Connectivity Services`\` to connect to Cloud.
 
 ## Authentication
 

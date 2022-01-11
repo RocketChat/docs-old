@@ -9,7 +9,7 @@ In case You are using a workspace accessible through the internet please follow 
 * After accepting the cloud privacy terms at (**Setup Wizard** > **Cloud Info** > **Cloud Service Privacy Terms Agreement**) on your Rocket.Chat server
 * Navigate to  **Administration** > **Connectivity Services** and click **Register Offline** as shown below
 
-![](<../../../../.gitbook/assets/image (678).png>)
+![](<../../../../.gitbook/assets/image (678) (1).png>)
 
 * A pop up is shown, copy the code provided and move on to the next step
 
@@ -34,7 +34,7 @@ In case You are using a workspace accessible through the internet please follow 
 
 * On your local workspace, paste the code you got from the cloud portal and **Finish Registration**
 
-![](<../../../../.gitbook/assets/image (686).png>)
+![](<../../../../.gitbook/assets/image (686) (1).png>)
 
 {% hint style="info" %}
 We recommend you to sync your server immediately after linking it to the cloud. To do that, head on to the **Connectivity Services** on your **Administration** panel and click on **Sync**.

@@ -6,7 +6,7 @@
 
 Usually`sAMAccountName`or `uid` field will be used as username for new users. Leave empty to let the user pick their own Rocket.Chat username. You can use template tags too, for example:
 
-```text
+```
 #{givenName}.#{sn}
 ```
 
@@ -24,17 +24,17 @@ If provided the Default Domain will be used to create a unique email for users w
 
 ### Sync User Data
 
-Keep user data in sync with the server on **login** or on **background sync** \(eg: name, email, and custom fields\).
+Keep user data in sync with the server on **login** or on **background sync** (eg: name, email, and custom fields).
 
 ### User Data Field Map
 
-Configure how user account fields \(like email\) are populated from a record in LDAP \(once found\).
+Configure how user account fields (like email) are populated from a record in LDAP (once found).
 
 As an example, `{"cn":"name", "mail":"email"}` will choose a person's human-readable name from the cn attribute, and their email from the mail attribute.
 
 Additionally, it is possible to use variables, for example, the following object will use a combination of the user's first name and last name for the rocket chat.
 
-```text
+```
 {
     "#{givenName} #{sn}": "name",
     "mail": "email"
@@ -65,12 +65,13 @@ The LDAP BaseDN used to lookup if users are in a group.
 
 The mapping of LDAP groups to Rocket.Chat roles, in JSON format.
 
-As an example, the following object will map the rocket-admin LDAP group to Rocket.Chat's "admin" role and the "tech-support" group to the "support" role.
+As an example, the following object will map the rocket-admin LDAP group to Rocket.Chat's "admin" role and the "tech-support" group to the "support" role. It's also possible to map one group to multiple roles ("manager" group to "leader" and "moderator" roles).
 
-```text
+```
 {
-    "rocket-admin":"admin",
-    "tech-support":"support"
+	"rocket-admin": "admin",
+	"tech-support": "support",
+	"manager": ["leader", "moderator"]
 }
 ```
 
@@ -86,7 +87,7 @@ When the above setting causes a channel to be created automatically during user 
 
 The map of LDAP groups to Rocket.Chat channels, in JSON format. As an example, the following objectives will add any user in the LDAP group "employee" to the general channel on Rocket.Chat.
 
-```text
+```
 {
     "employee":"general"
 }
@@ -114,17 +115,17 @@ The interval between synchronizations, using the [Cron Text](https://bunkat.gith
 
 ### Background Sync Import New Users
 
-Will import all users \(based on your filter criteria\) that exist in LDAP and do not exist in Rocket.Chat.
+Will import all users (based on your filter criteria) that exist in LDAP and do not exist in Rocket.Chat.
 
 ### Background Sync Update Existing Users
 
-Will sync the avatar, fields, username, etc \(based on your configuration\) of all users already imported from LDAP on every **Sync Interval**.
+Will sync the avatar, fields, username, etc (based on your configuration) of all users already imported from LDAP on every **Sync Interval**.
 
 ### Execute Synchronization Now
 
 Will execute the Background Sync now rather than wait for the Sync Interval even if Background Sync is False. This Action is asynchronous, please see the logs for more information about the process.
 
-## Enhanced Sync \(Enterprise only\)
+## Enhanced Sync (Enterprise only)
 
 ### Sync User Active State
 
@@ -138,7 +139,7 @@ Use this setting to map LDAP groups into Rocket.Chat roles.
 
 You need to use an object format where the object key must be the LDAP group and the object value must be an array of RC roles. Example:
 
-```text
+```
 {
     'ldapRole': [
         'rcRole',
@@ -160,4 +161,3 @@ The default RC role to be applied to the user if the user has some LDAP group th
 ### LDAP query to get user groups
 
 LDAP query to get the LDAP groups that the user is part of.
-

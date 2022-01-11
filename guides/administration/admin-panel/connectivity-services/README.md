@@ -33,27 +33,38 @@ In order to connect your server to our Cloud, your Rocket.Chat server must be at
 
 1. Go to [cloud.rocket.chat](https://cloud.rocket.chat) and create a new account
 
-![](<../../../../.gitbook/assets/image (149).png>)
+![](<../../../../.gitbook/assets/image (647).png>)
 
-1. Fill up the registration form and "Register"
+* Fill up the registration form and **Register**
 
-![](../../../../.gitbook/assets/c\_4.png)
+![](<../../../../.gitbook/assets/image (665).png>)
 
-1. A verification email will be sent in order to activate your new Cloud account
+* A verification email will be sent in order to activate your new Cloud account
 
-![](<../../../../.gitbook/assets/image (150).png>)
+![](<../../../../.gitbook/assets/image (681).png>)
 
-1. The verification link will forward to cloud.rocket.chat. After the validation, you will be logged into your Cloud console. In order to register your self-hosted workspace, please select the "Register self-managed" button
+* The verification link will forward to cloud.rocket.chat. After the validation, you will be logged into your Cloud console. In order to register your self-hosted workspace, please select the "Register self-managed" button
 
-![](../../../../.gitbook/assets/c\_6.png)
+![](<../../../../.gitbook/assets/image (678).png>)
 
-1. A pop-up will be displayed in order to select the workspace type:
-2. Internet Access: Rocket.Chat server that has a connection to the internet (connected to the outside)
-3. No Internet Access: Special cases where Rocket.Chat server has no connection at all (totally air-gapped).
+* A pop-up will be displayed in order to select the workspace type:
 
-In this document, we are covering only the "Internet Access" option
+![](<../../../../.gitbook/assets/image (657).png>)
 
-1. When selecting the "Internet Access" option, a registration token will be generated. Copy the token as this will be used to register your Rocket.Chat server.
+1. **Internet Access**: Rocket.Chat server that has a connection to the internet (connected to the outside)
+2. **No Internet Access**: Special cases where Rocket.Chat server has no connection at all (totally air-gapped).
+
+{% hint style="info" %}
+In this document, we are covering only the **Internet Access** option.
+{% endhint %}
+
+See the guide on our offline option below.
+
+{% content-ref url="../../../../rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/apply-offline-license.md" %}
+[apply-offline-license.md](../../../../rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/apply-offline-license.md)
+{% endcontent-ref %}
+
+When selecting the "Internet Access" option, a registration token will be generated. Copy the token as this will be used to register your Rocket.Chat server.
 
 ![](../../../../.gitbook/assets/c\_8.png)
 

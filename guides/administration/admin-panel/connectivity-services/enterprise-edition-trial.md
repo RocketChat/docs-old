@@ -28,31 +28,29 @@ Before we continue, let's move on to create a Rocket.Chat cloud account. This wi
 
 ### Cloud Setup
 
-3\. Goto [https://cloud.rocket.chat/trial/ee ](https://cloud.rocket.chat/trial/ee)and create an account or sign in if you already have one.\
+3\. Go to [https://cloud.rocket.chat/trial/ee ](https://cloud.rocket.chat/trial/ee)and create an account or sign in if you already have one.\
 This guide proceeds with creating a new account.
 
-![](<../../../../.gitbook/assets/image (608).png>)
+![](<../../../../.gitbook/assets/image (648).png>)
 
 4\. You receive an email with a link to create your new workspace with the trial. Click or copy-paste the link in your browser to continue.
 
-![](<../../../../.gitbook/assets/image (609).png>)
+![](<../../../../.gitbook/assets/image (686).png>)
 
 5\. On the page, you are presented with an interface listing all your workspaces(if you have any).\
 To add a new workspace, click the **Register self-managed** button.
 
-![](<../../../../.gitbook/assets/image (651) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (672).png>)
 
-6\. Next, select whether or not your workspace is connected to the internet or not and hit **Continue**.
+6\. The next steps depend on whether or not your workspace is connected to the internet.
 
 ### Internet Access/Online
 
-1. If your server has internet access,
+1. If your server has internet access, follow the first option on the modal shown by **Copying the Token then Continue**
 
-![](<../../../../.gitbook/assets/image (602).png>)
+![](<../../../../.gitbook/assets/image (651).png>)
 
-You're provided with a token. Copy the token and head back to your server's **Administration** panel, where we left off.
-
-![](<../../../../.gitbook/assets/image (603).png>)
+After copying the token and head back to your server's **Administration** panel, where we left off.
 
 &#x20; 2\. Select the **Cloud Console** option and proceed with registering a new workspace.
 
@@ -64,13 +62,13 @@ You're provided with a token. Copy the token and head back to your server's **Ad
 
 ### No Internet Access/Offline
 
-1. To connect to a server without internet access, select the option and **Continue**.
+1. To connect with an air-gapped computer or a server without internet access, select the option and **Continue Offline**.
 
-![](<../../../../.gitbook/assets/image (612).png>)
+![](<../../../../.gitbook/assets/image (650).png>)
 
 &#x20;  2\. You see an interface prompting you to paste the code you copied from your Rocket.Chat self-managed workspace. Let's get the code now.
 
-![](<../../../../.gitbook/assets/image (613).png>)
+![](<../../../../.gitbook/assets/image (692).png>)
 
 &#x20;  3\. Back on your server, select the Register Offline option.&#x20;
 
@@ -86,7 +84,7 @@ You're provided with a token. Copy the token and head back to your server's **Ad
 
 You are then given another code to apply on your server. Copy that code, and go to your **Administration** panel, paste it there, and hit **Finish Registration.**
 
-![](<../../../../.gitbook/assets/image (672) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (672) (1) (1) (1) (1).png>)
 
 Proceed with following the steps described in [#apply-enterprise-edition-trial](enterprise-edition-trial.md#apply-enterprise-edition-trial "mention") to activate the license on the workspace
 
@@ -94,11 +92,11 @@ Proceed with following the steps described in [#apply-enterprise-edition-trial](
 
 7\. When all this is done, refresh the page, and you're able to see your workspace listed with the trial as **Active**.
 
-![](<../../../../.gitbook/assets/image (636) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (655).png>)
 
 Back on the info section of your **Administration** panel, you should see you're running an **Enterprise License**.
 
-![](<../../../../.gitbook/assets/image (648) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (648) (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
 We recommend you to sync your server immediately after linking it to the cloud. To do that, head on to the **Connectivity Services** on your **Administration** panel and click on **Sync**.
@@ -116,9 +114,9 @@ If you have a Rocket.Chat workspace linked to the cloud already, there is a poss
 2. Sort out the instance you wish to apply the trial on and click on the Apply button at the extreme right.
 3. Then click on **Apply Trial** to confirm the action.
 
-![Cloud portal](<../../../../.gitbook/assets/image (629).png>)
+![](<../../../../.gitbook/assets/image (663).png>)
 
-![](<../../../../.gitbook/assets/image (630).png>)
+![](<../../../../.gitbook/assets/image (642).png>)
 
 &#x20;  4\. Next, copy the code provided and head over to your workspace **Administration panel** > **Info** and click **Apply Offline License**.
 
@@ -140,23 +138,23 @@ From here, you can apply for an extension following any of the two steps describ
 
 1. Click on the instance you want to extend its trial.
 
-![](<../../../../.gitbook/assets/image (640) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (664).png>)
 
 &#x20;  2\. Then Click on the **banner** showing the availability for trial extension.
 
-![](../../../../.gitbook/assets/cloud-portal.png)
+![](<../../../../.gitbook/assets/image (677).png>)
 
 &#x20;  3\. Next enter your message or reason why you need the extension then hit **Send Request**. The request will be sent to sales where they will evaluate and respond.
 
-![](<../../../../.gitbook/assets/image (657) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (657) (1) (1) (1) (1) (1).png>)
 
 ### Using UI
 
 1. From your cloud portal workspace, click on the kebab menu by the extreme right on the workspace you want to extend its trial.
 2. Then select the **Trial Extension** option on the dropdown that appears.
 
-![](<../../../../.gitbook/assets/image (666) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (636).png>)
 
 &#x20;  3\. Next enter your message or reason why you need the extension then hit **Send Request**. The request will be sent to sales where they will evaluate and respond.
 
-![](<../../../../.gitbook/assets/image (657) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (657) (1) (1) (1) (1) (1).png>)
