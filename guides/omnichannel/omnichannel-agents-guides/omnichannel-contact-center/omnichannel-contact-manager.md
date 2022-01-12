@@ -31,4 +31,6 @@ The new payload you should use is down below. Notice the new `contactManager` pr
 
 ## To activate this feature:
 
-Just turn on this setting under `Admin -> Omnichannel -> Routing`![](https://t4207297.p.clickup-attachments.com/t4207297/56f08f20-23bd-455a-85c6-20ef56da189a/image.png)
+Just turn on this setting under **`Admin -> Omnichannel -> Routing`**
+
+![](https://t4207297.p.clickup-attachments.com/t4207297/56f08f20-23bd-455a-85c6-20ef56da189a/image.png)
