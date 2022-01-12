@@ -18,27 +18,27 @@ The following flow is for web users but both (Web and Mobile) user journeys are 
 
 Click on the call button to initiate a call with the visitor.
 
-![](../../../.gitbook/assets/purpledevil0.png)
+![](../../../../.gitbook/assets/purpledevil0.png)
 
 ### Visitor's View
 
 &#x20;Your livechat visitor should get a notification on their side to **Accept** or **Decline** a call.
 
-![](../../../.gitbook/assets/purpledevil10.png)
+![](../../../../.gitbook/assets/purpledevil10.png)
 
 If the visitor accepts the call, the following screen appears where they can go ahead and hit **Join Call** to join the call.
 
-![](../../../.gitbook/assets/purpledevil300.png)
+![](../../../../.gitbook/assets/purpledevil300.png)
 
 
 
 Jitsi calling page opens in a new browser window where the visitor enters their name and click **Join meeting**:
 
-![](../../../.gitbook/assets/2021-12-08\_18-57-02.png)
+![](../../../../.gitbook/assets/2021-12-08\_18-57-02.png)
 
 Upon which the call starts, as shown below:
 
-![](../../../.gitbook/assets/2021-12-08\_19-00-51.png)
+![](../../../../.gitbook/assets/2021-12-08\_19-00-51.png)
 
 {% hint style="info" %}
 Please note that because the above screen opens in a new browser window, the visitor can leave the call and join back again.&#x20;
@@ -48,13 +48,13 @@ Please note that because the above screen opens in a new browser window, the vis
 
 As an agent, you also see a **`Click to Join!` ** button in the chat.
 
-![](../../../.gitbook/assets/purpledevil400.png)
+![](../../../../.gitbook/assets/purpledevil400.png)
 
 When you click to join the call, Jitsi calling page opens in a new browser window:
 
 Enter your name and hit **Join meeting**, upon which the call starts:
 
-![](../../../.gitbook/assets/purpledevil500.png)
+![](../../../../.gitbook/assets/purpledevil500.png)
 
 {% hint style="info" %}
 Please note that for **WebRTC**, the flow is just the same.
