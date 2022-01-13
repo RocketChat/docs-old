@@ -29,3 +29,7 @@ Using Rocket.Chat and the Dialogflow Chatbot platform integration, you can set u
 [delete-dialogflow-app.md](dialogflow-app-configuration/delete-dialogflow-app.md)
 {% endcontent-ref %}
 
+{% content-ref url="dialogflow-app-configuration/upload-file-guide.md" %}
+[upload-file-guide.md](dialogflow-app-configuration/upload-file-guide.md)
+{% endcontent-ref %}
+
