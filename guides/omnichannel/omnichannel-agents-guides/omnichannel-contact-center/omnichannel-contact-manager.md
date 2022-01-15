@@ -7,27 +7,15 @@ This feature allows you to assign a dedicated contact person for a particular vi
 
 ### Using UI
 
-Using the contact center while creating or editing a contact.
+You can set a contact manager for a visitor/contact using the contact center while creating or editing a contact.
 
 ![](https://t4207297.p.clickup-attachments.com/t4207297/00d7fb58-0383-400a-bbb8-6fab83abbb54/image.png)
 
 ### Using API Endpoint
 
-Via [Register contact endpoint.](https://developer.rocket.chat/reference/api/rest-api/endpoints/omnichannel/livechat-endpoints/livechat-contact/register-omnichannel-contact)
+You can set a contact manager for a visitor/contact using [Register contact endpoint.](https://developer.rocket.chat/reference/api/rest-api/endpoints/omnichannel/livechat-endpoints/livechat-contact/register-omnichannel-contact)
 
-The new payload you should use is down below. Notice the new `contactManager` property.
 
-```json
-{
-   "name":"John Doe",
-   "phone":"1231231230",
-   "email":"john-doe@g.c",
-   "contactManager":{
-      "username":"murtaza9"
-   },
-   "token":"lrnvlha0gfi6ic0wysi5u3"
-}
-```
 
 ## To activate this feature:
 
