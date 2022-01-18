@@ -382,6 +382,7 @@
       * [Dialogflow App Installation](guides/app-guides/omnichannel-apps/dialogflow-app/dialogflow-app-installation.md)
       * [Dialogflow App Configuration](guides/app-guides/omnichannel-apps/dialogflow-app/dialogflow-app-configuration/README.md)
         * [Bot User Configuration](guides/app-guides/omnichannel-apps/dialogflow-app/dialogflow-app-configuration/bot-user-configuration.md)
+        * [Upload File To Ongoing Dialogflow Chats](guides/app-guides/omnichannel-apps/dialogflow-app/dialogflow-app-configuration/upload-file-to-ongoing-dialogflow-chats.md)
         * [Delete Dialogflow App](guides/app-guides/omnichannel-apps/dialogflow-app/dialogflow-app-configuration/delete-dialogflow-app.md)
     * [Twitter App](guides/app-guides/omnichannel-apps/twitter-app/README.md)
       * [Twitter App Installation](guides/app-guides/omnichannel-apps/twitter-app/twitter-app-installation.md)

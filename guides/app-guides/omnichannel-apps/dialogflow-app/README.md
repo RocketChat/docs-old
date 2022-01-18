@@ -25,11 +25,10 @@ Using Rocket.Chat and the Dialogflow Chatbot platform integration, you can set u
 [bot-user-configuration.md](dialogflow-app-configuration/bot-user-configuration.md)
 {% endcontent-ref %}
 
+{% content-ref url="dialogflow-app-configuration/upload-file-to-ongoing-dialogflow-chats.md" %}
+[upload-file-to-ongoing-dialogflow-chats.md](dialogflow-app-configuration/upload-file-to-ongoing-dialogflow-chats.md)
+{% endcontent-ref %}
+
 {% content-ref url="dialogflow-app-configuration/delete-dialogflow-app.md" %}
 [delete-dialogflow-app.md](dialogflow-app-configuration/delete-dialogflow-app.md)
 {% endcontent-ref %}
-
-{% content-ref url="dialogflow-app-configuration/upload-file-guide.md" %}
-[upload-file-guide.md](dialogflow-app-configuration/upload-file-guide.md)
-{% endcontent-ref %}
-
