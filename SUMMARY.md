@@ -410,7 +410,7 @@
       * [Instagram Direct Configuration](guides/app-guides/omnichannel-apps/instagram-direct/instagram-direct-configuration/README.md)
         * [Instagram Direct Authentication](guides/app-guides/omnichannel-apps/instagram-direct/instagram-direct-configuration/instagram-direct-authentication.md)
         * [Delete Instagram Direct](guides/app-guides/omnichannel-apps/instagram-direct/instagram-direct-configuration/delete-instagram-direct.md)
-      * [Instagram App Agent's Guide](guides/app-guides/omnichannel-apps/instagram-direct/instagram-app-agents-guide.md)
+      * [Instagram Direct Agent's Guide](guides/app-guides/omnichannel-apps/instagram-direct/instagram-direct-agents-guide.md)
   * [Data Loss Prevention (DLP) App Admin Guide](guides/app-guides/data-loss-prevention-dlp-app.md)
   * [Poll](guides/app-guides/poll.md)
   * [Poll Plus](guides/app-guides/poll-plus/README.md)

@@ -1,8 +1,8 @@
-# Instagram App Agent's Guide
+# Instagram Direct Agent's Guide
 
 
 
-If you have Instagram app integration in place and a user sends you a message on your Instagram business page using their Instagram account, as shown below:
+If you have Instagram Direct integration in place and a user sends you a message on your Instagram business page using their Instagram account, as shown below:
 
 ![](<../../../../.gitbook/assets/2021-12-31\_20-27-38 (1).png>)
 

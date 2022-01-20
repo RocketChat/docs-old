@@ -34,6 +34,6 @@ Please find more info on the official rollout page by Instagram Direct [here](ht
 [delete-instagram-direct.md](instagram-direct-configuration/delete-instagram-direct.md)
 {% endcontent-ref %}
 
-{% content-ref url="instagram-app-agents-guide.md" %}
-[instagram-app-agents-guide.md](instagram-app-agents-guide.md)
+{% content-ref url="instagram-direct-agents-guide.md" %}
+[instagram-direct-agents-guide.md](instagram-direct-agents-guide.md)
 {% endcontent-ref %}
