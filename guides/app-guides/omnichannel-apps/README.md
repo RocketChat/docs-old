@@ -50,6 +50,6 @@ Omnichannel apps give consumers a choice to engage with you on their favorite ch
 [whatsapp](whatsapp/)
 {% endcontent-ref %}
 
-{% content-ref url="instagram-app/" %}
-[instagram-app](instagram-app/)
+{% content-ref url="instagram-direct/" %}
+[instagram-direct](instagram-direct/)
 {% endcontent-ref %}

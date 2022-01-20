@@ -1,33 +1,32 @@
 ---
 description: >-
-  Authorise Omni-Gateway to send and receive Instagram messages on behalf your
-  account.
+  Authorize Omni-Gateway to send and receive Instagram Direct messages on behalf
+  of your account.
 ---
 
-# Instagram App Authentication
+# Instagram Direct Authentication
 
 ## Dependencies
 
 Before initiating the authentication process, please ensure all the dependencies stated below are met:\
 1\. An Instagram [Business Account](https://help.instagram.com/502981923235522?fbclid=IwAR0TNcoToWKAq8OTOH4VjUC75NSk8EyqFW2Xz5KWDX7SsYK-9rNYppMMnLs)\
 2\. A Facebook Account. Click [here](https://www.facebook.com) to create one, if you don't have it already.\
-3\. A Facebook Page connected to your Instagram account. Click [here](https://www.facebook.com/pages/creation/) to create a new Facebook Page and click [here](https://help.instagram.com/399237934150902?fbclid=IwAR1m2-JgIIGQBqmJG1vaVSAuOdIdM-hd5k9U-j7BaQ-t5x0WizKVEfr-gbQ) for a guide on how to connect your Facebook Page to your Instagram account.\
-4\. Make sure your [Rocket.Chat](http://rocket.chat) instance is on a public Address and is accessible by anyone on the internet. Goto \``Admin -> General -> Site Url`\` to confirm this.\
-5\. Lastly, Make sure your [Rocket.Chat](http://rocket.chat) instance is connected to [Rocket.Chat](http://rocket.chat) Cloud. Goto \``Admin -> Connectivity Services`\` to connect to Cloud.
+3\. A Facebook Page connected to your Instagram account. Click [here](https://www.facebook.com/pages/creation/) to create a new Facebook. Page and click [here](https://help.instagram.com/399237934150902?fbclid=IwAR1m2-JgIIGQBqmJG1vaVSAuOdIdM-hd5k9U-j7BaQ-t5x0WizKVEfr-gbQ) for a guide on how to connect your Facebook Page to your Instagram account.\
+4\. Enable Message Control Connected Tools Settings from your Instagram account on mobile. Click [here](https://developers.facebook.com/docs/messenger-platform/instagram/get-started#connected-tools-toggle) for more info.\
+5\. Make sure your [Rocket.Chat](http://rocket.chat) instance is on a public Address and is accessible by anyone on the internet. Goto \``Admin -> General -> Site Url`\` to confirm this.\
+6\. Lastly, Make sure your [Rocket.Chat](http://rocket.chat) instance is connected to [Rocket.Chat](http://rocket.chat) Cloud. Goto \``Admin -> Connectivity Services`\` to connect to Cloud.
 
 ## Authentication
 
-The first step after the configuration and resolving the dependencies is authentication with Instagram.
+The first step after the configuration and resolving the dependencies is authentication with Instagram Direct.
 
-1. Please click on the button shown below to start the authentication process with Instagram.
+1. Please click on the button shown below to start the authentication process with Instagram Direct.
 
-![](<../../../../../.gitbook/assets/2021-12-31\_17-24-46 (4).png>)
+![](<../../../../../.gitbook/assets/2022-01-20\_20-26-27 (2).png>)
 
-2\. As soon as you click **Start Authentication** the authentication process is started. Please authorize [Rocket.Chat](http://rocket.chat)'s Instagram app to complete this process.
+2\. As soon as you click **Start Authentication** the authentication process is started. Please authorize [Rocket.Chat](http://rocket.chat)'s Instagram Direct to complete this process.
 
-![](../../../../../.gitbook/assets/2021-12-31\_17-24-46.png)
-
-3\. You are redirected to the following page where you can use your email to authorize Instagram.
+3\. You are redirected to the following page where you can use your email to authorize Instagram Direct.
 
 ![](<../../../../../.gitbook/assets/image (545).png>)
 
@@ -35,7 +34,7 @@ The first step after the configuration and resolving the dependencies is authent
 
 ![](../../../../../.gitbook/assets/2021-12-31\_18-10-57.png)
 
-5\. In case you have multiple pages associated with your Instagram account it will prompt a selection box to choose the preferred page to connect.
+5\. In case you have multiple pages associated with your Instagram account, it will prompt a selection box to choose the preferred page to connect.
 
 ![](../../../../../.gitbook/assets/2021-12-31\_18-11-21.png)
 
@@ -83,7 +82,7 @@ Only the agents of this particular department are able to see and take the chats
 {% hint style="info" %}
 Here are the shortcuts you can use in Instagram Bot:
 
-1. **/Instagram authorize** Starts the facebook authorization process to connect your instagram accounts
+1. **/Instagram authorize** Starts the Facebook authorization process to connect your instagram accounts
 2. &#x20;**/Instagram unauthorize** Revoke facebook authorization to remove all connected instagram accounts
 3. **/Instagram edit pageId** Edit Page configuration for the given pageId&#x20;
 4. **/Instagram help** Shows help message

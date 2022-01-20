@@ -44,4 +44,4 @@ It defines the metadata to be passed along with thread control action requests. 
 
 Your Instagram Direct app is successfully configured and you can see the new Instagram channel upon closing the administration panel, as shown below:
 
-![](<../../../../../.gitbook/assets/2022-01-20\_20-26-27 (2).png>)
+![](<../../../../../.gitbook/assets/2022-01-20\_20-26-27 (2) (1).png>)
