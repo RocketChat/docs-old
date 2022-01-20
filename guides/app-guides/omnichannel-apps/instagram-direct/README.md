@@ -1,11 +1,11 @@
 ---
-description: Omnichannel Integration between Rocket.Chat and Instagram Direct.
+description: Omnichannel Integration between Rocket.Chat and Instagram Messenger API.
 coverY: 0
 ---
 
 # Instagram Direct
 
-With Instagram Direct, you can handle messages from your Instagram Direct contacts directly in Rocket.Chat. It works simply: your Instagram Direct customers contact you via Instagram Direct, you answer chats from Rocket.Chat. Some key features of this integration include sending messages with quick reply buttons, welcome messages(starting/closing chat), file sharing, and the correlation between your Instagram Direct pages and your Rocket.Chat departments.
+With Instagram Direct, you can handle messages from your Instagram Business Inbox directly in [Rocket.Chat](http://rocket.chat) It works simply: Instagram users reach out to you via Instagram Direct messages, you answer chats from Rocket.Chat. Some key features of this integration include sending messages with quick reply buttons, welcome messages(starting/closing chat), file sharing, and the correlation between your Instagram Direct pages and your Rocket.Chat departments.
 
 The Integration is available to the following Instagram Direct Professional Accounts:
 
