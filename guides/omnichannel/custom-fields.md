@@ -1,7 +1,7 @@
 ---
 description: >-
-  In this menu, you can add some additional fields to the registration form your
-  visitors fill when they start a livechat conversation.
+  In this menu, you can add some additional fields to the registration form that
+  your visitors fill out when they start a livechat conversation.
 ---
 
 # Custom Fields
@@ -16,70 +16,55 @@ Custom Fields menu appears, as shown below:
 
 ![](<../../.gitbook/assets/1 (7).png>)
 
-The registration form has **Name**, **Email**, and **I need Help With…**/Department fields by default, as shown below:
-
-![](<../../.gitbook/assets/2 (7).png>)
+{% hint style="info" %}
+The registration form has **Name**, **Email**, and **I need Help With…**/Department fields by default.
+{% endhint %}
 
 ## To add your custom field:
 
-1. Hit Add.
+Hit +New.
 
-![](<../../.gitbook/assets/3 (7).png>)
+![](../../.gitbook/assets/2022-01-23\_18-36-40.png)
 
-The following page appears.
+The **New Custom Field** page appears, as shown below:
 
-![](<../../.gitbook/assets/4 (7).png>)
+![](<../../.gitbook/assets/2022-01-23\_18-47-17 (1).png>)
 
-2\. Enter your desired **field** that you want to add to your livechat registration form. E.g., **last-name**
+* **Field:** Enter the desired **field** that you want to add to your livechat registration form. E.g., **last-name**. It is mandatory.
+* **Label:** Enter its label. E.g., **Last Name**. It is mandatory.
+* **Scope:** Select scope as **Visitor**.
+* **Visible:** Make it visible.
 
-![](<../../.gitbook/assets/5 (7).png>)
+![](../../.gitbook/assets/2022-01-23\_18-44-32.png)
 
-3\. Enter its label.
+## Enterprise Edition Settings ![](../../.gitbook/assets/2022-01-23\_20-47-25.png)
 
-![](<../../.gitbook/assets/6 (6).png>)
+{% hint style="warning" %}
+The rest of the settings (mentioned below) are **Enterprise** only.
+{% endhint %}
 
-4\. Select scope as **Visitor**.
-
-![](<../../.gitbook/assets/7 (4).png>)
-
-5\. Make it visible.
-
-![](<../../.gitbook/assets/8 (3).png>)
-
-6\. Set as a required field if you want.
-
-![](<../../.gitbook/assets/9 (2).png>)
-
-7\. The type of the Last Name field is Input.
-
-![](<../../.gitbook/assets/10 (2).png>)
-
-8\. Set the default value, if any.
-
-![](<../../.gitbook/assets/11 (2).png>)
-
-9\. Set it **Public**.
-
-![](<../../.gitbook/assets/12 (2).png>)
-
-10\. Hit Save.
-
-![](<../../.gitbook/assets/13 (2).png>)
+* Validation: Enter Validation.
+* Required: Set as a required field if you want.
+* Type: Choose the input type (Input/Select) of the field
+* Default value: Set the default value, if any.
+* Options: Comma-separated list used to select a pre-configured value. Spaces between elements are not accepted.
+* Public: Set it Public. Public custom fields will be displayed in external applications, such as Livechat, etc.
+* Hit Save.
 
 It is saved in the list of custom fields, as shown below:
 
-![](<../../.gitbook/assets/14 (2).png>)
+![](<../../.gitbook/assets/2022-01-23\_21-00-43 (1).png>)
 
 It appears in the livechat widget, as shown below:
 
-![](<../../.gitbook/assets/15 (2).png>)
+![](<../../.gitbook/assets/2022-01-23\_21-10-25 (3).png>)
 
 If the visitor sends a message, it gets reflected in the **Visitor’s Info** as well.
 
-![](<../../.gitbook/assets/16 (1).png>)
+![](../../.gitbook/assets/2022-01-23\_21-13-12.png)
 
 ## To delete a custom field:
 
 Hit remove.
 
-![](<../../.gitbook/assets/17 (2).png>)
+![](<../../.gitbook/assets/2022-01-23\_21-00-43 (2).png>)
