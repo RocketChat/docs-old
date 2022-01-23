@@ -59,7 +59,7 @@ It appears in the livechat widget, as shown below:
 
 ![](<../../.gitbook/assets/2022-01-23\_21-10-25 (3).png>)
 
-If the visitor sends a message, it gets reflected in the **Visitor’s Info** as well.
+If the contact sends a message, it gets reflected in the **Contact Information** as well.
 
 ![](../../.gitbook/assets/2022-01-23\_21-13-12.png)
 
