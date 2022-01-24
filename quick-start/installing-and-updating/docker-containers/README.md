@@ -6,16 +6,17 @@ description: Docker-Ubuntu 16.04 LTS (64 bit) VPS with Nginx SSL and Hubot
 
 ## Introduction
 
-This guide will walk you through the installation and configuration of a Docker-based Rocket.Chat instance on Ubuntu 16.04 LTS \(64 bit\) VPS, using Nginx as a reverse SSL proxy, Hubot chatbot, and necessary scripts for an automatic restart and crash recovery.
+This guide will walk you through the installation and configuration of a Docker-based Rocket.Chat instance on Ubuntu 16.04 LTS (64 bit) VPS, using Nginx as a reverse SSL proxy, Hubot chatbot, and necessary scripts for an automatic restart and crash recovery.
 
-For people new to docker here's a quick primer: Docker is a program to allow other programs and their dependencies to be run in a type of virtual container. Using this deployment guide, you do not need to download any of the rocket chat program files manually whatsoever. Docker will get everything that is needed for Rocket.Chat to run. If you follow this guide closely, it provides everything from start to finish needed to install, create, and run your own Rocket.Chat web instance with Nginx handling SSL termination, and a Hubot chatbot keeping your general chat channel warm on those cold winter mornings.
+For people new to docker here's a quick primer: Docker is a program that allows other programs and their dependencies to be run in a type of virtual container. Using this deployment guide, you do not need to download any of the rocket chat program files manually whatsoever.\
+Docker will get everything needed for Rocket.Chat to run. If you follow this guide closely, it provides everything from start to finish needed to install, create, and run your own Rocket.Chat web instance with Nginx handling SSL termination, and a Hubot chatbot keeping your general chat channel warm on those cold winter mornings.
 
 This guide is designed for everyone, however, it is intentionally detailed to help new users who may need a little extra guidance. If you're experienced with things like docker, Nginx, etc. you may prefer one of the other deployment guides found elsewhere on this wiki.
 
 ## What we'll cover in this guide
 
-1. [Securing the server: Firewall basics \(optional\)](./#1-securing-the-server-firewall-basics-optional-recommended)
-2. [Securing the server: Fail2Ban IDS \(optional\)](./#2-securing-the-server-fail2ban-optional-recommended)
+1. [Securing the server: Firewall basics (optional)](./#1-securing-the-server-firewall-basics-optional-recommended)
+2. [Securing the server: Fail2Ban IDS (optional)](./#2-securing-the-server-fail2ban-optional-recommended)
 3. [Installing Docker and Docker-Compose](./#3-installing-docker-and-docker-compose)
 4. [Editing the hosts file](./#4-editing-the-hosts-file)
 5. [Installing Nginx SSL Reverse Proxy](./#5-installing-nginx--ssl-certificate)
@@ -31,30 +32,42 @@ This guide is designed for everyone, however, it is intentionally detailed to he
 
 This guide is written assuming that you're starting with:
 
-* a clean new installation of Ubuntu 16.04 LTS \(64 bit\)
+* A clean new installation of Ubuntu 16.04 LTS (64 bit)
 * properly configured DNS that resolves requests to your domain name
 
-## 1. Securing the server: Firewall basics \(optional, recommended\)
+## 1. Securing the server: Firewall basics (optional, recommended)
 
-First, make sure UFW \(Uncomplicated Fire Wall\) is installed. It should be installed by default in Ubuntu, but if it’s not, you can install the package using apt-get. **IMPORTANT:** We're going to add a firewall rule to permit your SSH connection on port 22/tcp. That is the default SSH port. If you have changed it to something else, you must modify the rule below to reflect your required port number. Failure to do so will break your SSH connection and lock you out of the server as soon as you enable the firewall!
+First, make sure [UFW](https://en.wikipedia.org/wiki/Uncomplicated\_Firewall) (Uncomplicated FireWall) is installed. It should be installed by default in Ubuntu, but if it’s not, you can check if it is installed by running.
 
-**Confirm UFW is installed:**
+```
+apt -qq list ufc
+```
 
-```text
+It will return simple info about the package if it is found. \
+Otherwise, install the package by running
+
+```
 sudo apt-get install ufw
 ```
 
-_Set the default access rules:\*_
+{% hint style="info" %}
+**IMPORTANT**: We're going to add a firewall rule to permit your default SSH connection port on port 22/tcp.
+{% endhint %}
 
-```text
+In case you have the port changed on your device, be sure to use the corresponding port.\
+Failure to do so will break your SSH connection and log you out of the server as soon as you enable the firewall!
+
+_**Set the default access rules:**_
+
+```
 sudo ufw default deny incoming
 
 sudo ufw default allow outgoing
 ```
 
-**Set the service rules \(SSH / HTTPS\):**
+**Set the service rules (SSH / HTTPS):**
 
-```text
+```
 sudo ufw allow 22/tcp
 
 sudo ufw allow 443/tcp
@@ -62,35 +75,35 @@ sudo ufw allow 443/tcp
 
 **Enable the firewall:**
 
-```text
+```
 sudo ufw enable
 ```
 
 **Check the Firewall status:**
 
-```text
+```
 sudo ufw status
 ```
 
 **If you ever add or delete rules you should reload the firewall:**
 
-```text
+```
 sudo ufw reload
 ```
 
 **If you ever need to turn off the firewall:**
 
-```text
+```
 sudo ufw disable
 ```
 
-## 2. Securing the server: Fail2ban \(optional, recommended\)
+## 2. Securing the server: Fail2ban (optional, recommended)
 
-Fail2ban is an intrusion prevention software framework which protects computer servers from brute-force attacks.
+Fail2ban is an intrusion prevention software framework that protects computer servers from brute-force attacks.
 
 **Install:**
 
-```text
+```
 sudo apt-get update
 
 sudo apt-get install fail2ban
@@ -100,31 +113,35 @@ Press **Y** when prompted to proceed with the install.
 
 ## 3. Installing Docker and Docker-Compose
 
-**Install Docker** [https://docs.docker.com/linux/step\_one/](https://docs.docker.com/linux/step_one/)
+**Install Docker**
 
-**Install Docker-Compose version 1.24.0 \(64 bit\) via cURL**
+Follow this guide [https://docs.docker.com/linux/step\_one/](https://docs.docker.com/linux/step\_one/) to get Docker installed
 
-```text
+**Install Docker-Compose version 1.24.0 (64 bit) via cURL**
+
+```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-Linux-x86_64" -o /usr/local/bin/docker-compose
 ```
 
 **Set the executable permissions:**
 
-```text
+```
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-**Notes:** We're using version 1.24.0 for this guide. If you wish to try a newer version, you will need to edit the cURL command to reflect the alternate version number. If you get a "Permission denied" error, your `/usr/local/bin` directory probably isn't writable and you'll need to install Compose as the superuser. Run `sudo -i`, then the two commands above, then `exit`. \(credit: docker compose docs\)
+{% hint style="info" %}
+**Notes:** We're using version 1.24.0 for this guide. If you wish to try a newer version, you will need to edit the cURL command to reflect the alternate version number. If you get a "Permission denied" error, your `/usr/local/bin` directory probably isn't writable and you'll need to install Compose as the superuser. Run `sudo -i`, then the two commands above, then `exit`. (credit: docker compose docs)
+{% endhint %}
 
 **Confirm docker-compose is properly installed**
 
-```text
+```
 sudo docker-compose --version
 ```
 
 **Notes:** For minimal distributions, or systems where `/usr/local/bin` is not part of the `$PATH` env you might need to symlink the binary into `/usr/bin` as well:
 
-```text
+```
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ```
 
@@ -134,34 +151,34 @@ If your hostname.domain.tld is mapped to a publicly routable IP, it needs to be 
 
 **Edit the hosts file:**
 
-```text
+```
 sudo nano /etc/hosts
 ```
 
-```text
+```
 127.0.0.1    localhost.localdomain    localhost
 127.0.0.1    chat.inumio.com          chat
 ```
 
-Save and Exit. \(Press **CTRL-X** to save, **Y** for yes, then **ENTER** to save as current filename.\)
+Save and Exit. (Press **CTRL-X** to save, **Y** for yes, then **ENTER** to save as current filename.)
 
 ## 5. Installing Nginx & SSL certificate
 
 **Install Nginx**
 
-```text
+```
 sudo apt-get install nginx
 ```
 
-### 5a. Using a commercial SSL cert \(recommended\)
+### 5a. Using a commercial SSL cert (recommended)
 
-If you don't have a certificate already, you can grab one for free at [Let's Encrypt](https://letsencrypt.org/).
+If you don't have a certificate already, you can grab one for free at [Let's Encrypt](https://letsencrypt.org).
 
 Or, if you want to use a self-signed SSL cert instead, skip ahead to [Self-Signed SSL](./#5b-self-signed-ssl).
 
-**Install the private key \(created when you generated the CSR\):**
+**Install the private key (created when you generated the CSR):**
 
-```text
+```
 sudo nano /etc/nginx/certificate.key
 ```
 
@@ -169,13 +186,13 @@ Open the private key and Copy the entire private key text-block from the file th
 
 Save and Exit.
 
-**Install the SSL certificate \(note that this goes in certificate.**_**crt**_**, not .**_**key**_**\):**
+**Install the SSL certificate (note that this goes in certificate.**_**crt**_**, not .**_**key**_**):**
 
-```text
+```
 sudo nano /etc/nginx/certificate.crt
 ```
 
-Open the SSL Certificate provided by the SSL vendor \(will probably have a .crt or .pem extension\) and copy the entire text-block. Right click on the terminal window and select paste to paste it into nano.
+Open the SSL Certificate provided by the SSL vendor (will probably have a .crt or .pem extension) and copy the entire text-block. Right click on the terminal window and select paste to paste it into nano.
 
 Save and Exit.
 
@@ -185,13 +202,13 @@ If you acquired an SSL cert and installed it via the steps above, skip this step
 
 **Create and install a self-signed SSL certificate:**
 
-```text
+```
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/certificate.key -out /etc/nginx/certificate.crt
 ```
 
 **Follow the prompts.**
 
-Tip: It is **IMPORTANT** that the **Common Name** be set properly. Enter your fully qualified domain name \(FQDN\) here or, if you don’t have a FQDN, use your public IP address. For example, my FQDN for the chat server is `chat.inumio.com`.
+Tip: It is **IMPORTANT** that the **Common Name** be set properly. Enter your fully qualified domain name (FQDN) here or, if you don’t have a FQDN, use your public IP address. For example, my FQDN for the chat server is `chat.inumio.com`.
 
 Save and Exit.
 
@@ -199,19 +216,19 @@ Save and Exit.
 
 **Set permissions:**
 
-```text
+```
 sudo chmod 400 /etc/nginx/certificate.key
 ```
 
 **Generate Strong Diffie Helman group**
 
-```text
+```
 sudo openssl dhparam -out /etc/nginx/dhparams.pem 2048
 ```
 
 **Configure Nginx:**
 
-```text
+```
 sudo nano /etc/nginx/sites-available/default
 ```
 
@@ -255,13 +272,13 @@ Save and Exit.
 
 **Test the config & Restart nginx:**
 
-```text
+```
 sudo service nginx configtest && sudo service nginx restart
 ```
 
 **TIP:** You can pinpoint problems in your nginx config using the following command
 
-```text
+```
 sudo nginx -t
 ```
 
@@ -273,7 +290,7 @@ To create a docker-compose file, please follow the instructions [here](https://d
 
 **Create the directories:**
 
-```text
+```
 sudo mkdir -p /var/www/rocket.chat/data/runtime/db
 sudo mkdir -p /var/www/rocket.chat/data/dump
 ```
@@ -281,9 +298,9 @@ sudo mkdir -p /var/www/rocket.chat/data/dump
 **Create the docker-compose.yml file:**
 
 * Edit the ROOT\_URL value to be your FQDN.
-* Edit the ROCKETCHAT\_URL to be your _public_ IP address. Keep the port \(3000\) the same.
+* Edit the ROCKETCHAT\_URL to be your _public_ IP address. Keep the port (3000) the same.
 * Edit ROCKETCHAT\_USER, ROCKETCHAT\_PASSWORD, and BOT\_NAME.
-* If your Rocket.Chat docker instance is behind a proxy, set the additional env-variable "Accounts\_UseDNSDomainCheck" to "false" \(this only works, if these is a completely new deployment\)
+* If your Rocket.Chat docker instance is behind a proxy, set the additional env-variable "Accounts\_UseDNSDomainCheck" to "false" (this only works, if these is a completely new deployment)
 
 Save and Exit.
 
@@ -297,7 +314,7 @@ docker-compose up -d
 
 **Create the upstart job for MongoDB**
 
-```text
+```
 sudo nano /etc/init/rocketchat_mongo.conf
 ```
 
@@ -359,17 +376,17 @@ After the downloads are extracted, the total combined installation is around 800
 
 **Restart the server:**
 
-```text
+```
 sudo reboot
 ```
 
 **Reconnect via SSH, and do a systems check by viewing the docker containers:**
 
-```text
+```
 sudo docker ps -a
 ```
 
-```text
+```
 [![docker ps -a](https://www.imageforge.us/images/c90bd55a7b357c20b18815a5560f43f3.png)](https://www.imageforge.us/image/60kNT)
 ```
 
@@ -379,13 +396,13 @@ Next, let's try opening the web browser and going to your new chat room. Provide
 
 **First try with HTTPS:**
 
-```text
+```
 https://chat.inumio.com
 ```
 
 **If for some reason that fails, try HTTP:** **Open port 3000/tcp in the firewall, and reload to set the new policy**
 
-```text
+```
 sudo ufw allow 3000/tcp
 
 sudo ufw reload
@@ -393,7 +410,7 @@ sudo ufw reload
 
 **Try accessing in your web browser via HTTP**
 
-```text
+```
 http://chat.inumio.com:3000
 ```
 
@@ -409,13 +426,13 @@ No worries! In order to get your bot up and running, we must register it…
 
 Previously, we created the docker-compose.yml file. It's this file where we defined the basic attributes for Hubot. We set the bot name, password, room to join, and scripts to run. Before the bot can join the chat room, we must manually create the bot using the configuration details we provided in docker-compose.yml.
 
-[https://github.com/RocketChat/hubot-rocketchat\#creating-a-user-on-the-server](https://github.com/RocketChat/hubot-rocketchat#creating-a-user-on-the-server)
+[https://github.com/RocketChat/hubot-rocketchat#creating-a-user-on-the-server](https://github.com/RocketChat/hubot-rocketchat#creating-a-user-on-the-server)
 
 You can now optionally login and set some of the preferences, such as bot avatar. When finished, log out of the bot account.
 
 With the bot account created, you can force it to join by simply rebooting the server, upon which the init script should automatically launch your chat room, and the bot should join the “General” room.
 
-For basic command help, in the chat message box, type BOTNAME help \(where BOTNAME is your bot's name\).
+For basic command help, in the chat message box, type BOTNAME help (where BOTNAME is your bot's name).
 
 ## 10. Troubleshooting & FAQ
 
@@ -425,7 +442,7 @@ Q: _It works! But how do I add more functionality to the bot?_ A: You can add mo
 
 Find out more about Hubot scripts here: [https://github.com/RocketChat/hubot-rocketchat](https://github.com/RocketChat/hubot-rocketchat) and here: [https://github.com/hubot-scripts](https://github.com/hubot-scripts). Some of the available scripts for example: hubot-help, hubot-isup, hubot-4chan, hubot-strawpoll, hubot-seen, hubot-weather, hubot-hackerman, hubot-links, hubot-greetings, hubot-tell, hubot-geo, hubot-decides, hubot-praise, hubot-hello-ninja, hubot-thank-you, hubot-cool-ascii-faces, hubot-insulter, hubot-reddit
 
-Q: _How do I get email working?_ A: You need to configure SMTP parameters via the Administration UI \(from inside rocketchat\).
+Q: _How do I get email working?_ A: You need to configure SMTP parameters via the Administration UI (from inside rocketchat).
 
 ### TROUBLESHOOTING
 
@@ -435,13 +452,13 @@ Q: _How do I get email working?_ A: You need to configure SMTP parameters via th
 
 **Check the nginx logs for any errors or other clues**
 
-```text
+```
 sudo cat /var/log/nginx/error.log
 ```
 
 **Check the Firewall policy to make sure port 443 is open**
 
-```text
+```
 sudo ufw status
 ```
 
@@ -453,7 +470,7 @@ sudo ufw status
 
 **Check upstart jobs for log errors**
 
-```text
+```
 cd /var/log/upstart
 
 sudo cat rocketchat_mongo.log
@@ -463,11 +480,11 @@ sudo cat rocketchat_app.log
 
 Look for any errors in the output of those last two commands, which show the log contents of the upstart jobs we created in step 7.
 
-**Test your YML** [http://www.yamllint.com/](http://www.yamllint.com/) simply copy the contents of docker-compose.yml and paste into the tool.
+**Test your YML** [http://www.yamllint.com/](http://www.yamllint.com) simply copy the contents of docker-compose.yml and paste into the tool.
 
 **Try to start it manually**
 
-```text
+```
 cd /var/www/rocket.chat
 
 /usr/local/bin/docker-compose up
@@ -477,21 +494,17 @@ If docker-compose doesn't throw an error and instead launches the job, then the 
 
 **PROBLEM:** _When I upload a file the server crashes!_
 
-**POSSIBLE SOLUTION:** If you're running low on system resources, such as RAM, this can cause problems with not just performance, but stability. Make sure that you're not running out of memory, or have any other choke points, like not enough CPU, etc. One way to check is to issue the following command via SSH \(or console\) which runs TOP, a utility that will show valuable information about system resources and processes.
+**POSSIBLE SOLUTION:** If you're running low on system resources, such as RAM, this can cause problems with not just performance, but stability. Make sure that you're not running out of memory, or have any other choke points, like not enough CPU, etc. One way to check is to issue the following command via SSH (or console) which runs TOP, a utility that will show valuable information about system resources and processes.
 
-```text
+```
 sudo top
 ```
 
 With TOP running, try to replicate the problem while watching TOP for high loads, overloaded CPU, etc. While Rocket.Chat can be run on a single core with 512MB of memory, that's really not enough for stable performance. If you're seeing high values in TOP, consider upgrading your server to at least 1GB or RAM, or more.
 
-## 11. TODO
+## 11. KNOWN ISSUES
 
-* Add section for updating & backing up
-
-## 12. KNOWN ISSUES
-
-* \[FIXED\] Issue \#978: Avatars not saving, or crashing the server. [https://github.com/RocketChat/Rocket.Chat/issues/978](https://github.com/RocketChat/Rocket.Chat/issues/978)
+* \[FIXED] Issue #978: Avatars not saving, or crashing the server. [https://github.com/RocketChat/Rocket.Chat/issues/978](https://github.com/RocketChat/Rocket.Chat/issues/978)
 * If you are saving your avatars inside the container, they will be lost after a "docker pull" update job
 
 ## See Also
@@ -500,4 +513,3 @@ You can also deploy using Docker and Docker Compose by following one of these gu
 
 * [Docker Compose](docker-compose.md)
 * [Available Images](available-images.md)
-

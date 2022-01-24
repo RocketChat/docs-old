@@ -348,7 +348,7 @@
       * [Search Messages in Omnichannel Conversation](guides/omnichannel/omnichannel-agents-guides/omnichannel-chat/search-messages-in-omnichannel-conversation.md)
       * [Omnichannel Contact Information](guides/omnichannel/omnichannel-agents-guides/omnichannel-chat/omnichannel-contact-information.md)
     * [Livechat Video/Audio Call Agent's Guide](guides/omnichannel/omnichannel-agents-guides/livechat-video-audio-call-agents-guide.md)
-    * [Omnichannel Contact Center](guides/omnichannel/omnichannel-agents-guides/omnichannel-contact-center/README.md)
+    * [Omnichannel Contact Center](guides/omnichannel/omnichannel-agents-guides/omnichannel-contact-center.md)
       * [Omnichannel Contact Manager](guides/omnichannel/omnichannel-agents-guides/omnichannel-contact-center/omnichannel-contact-manager.md)
     * [Omnichannel Queue](guides/omnichannel/omnichannel-agents-guides/omnichannel-chats.md)
 * [Message Auditing Panel](guides/message-auditing/README.md)
