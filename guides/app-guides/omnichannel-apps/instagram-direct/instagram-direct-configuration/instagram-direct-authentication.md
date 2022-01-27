@@ -66,7 +66,7 @@ You can edit page configuration as shown below:
 
 Following are the settings available:
 
-1. You can route all the conversations coming from this page to a specific **Department**. Only the agents of this department are able to serve Instagram conversations coming from this page.
+1. You can route all the conversations coming from this page to a specific **** [**Department**](https://docs.rocket.chat/guides/omnichannel/departments). Only the agents of this department are able to serve Instagram conversations coming from this page.
 2. You can set the **Welcome Message** that will be sent to visitors when they send their first message.
 3. The **Conversation Finished Message** will be sent to visitors when the conversation is closed
 4. You can set the **Default message for offline service** that will be sent to your visitor when no agents are available online
