@@ -486,7 +486,7 @@
 
 * [Cloud Account](rocket.chat-saas/cloud-account/README.md)
   * [Create your new cloud account](rocket.chat-saas/cloud-account/create-new-cloud-account.md)
-  * [Cloud account Setup Wizard](rocket.chat-saas/cloud-account/set-up-your-new-cloud-account.md)
+  * [Registration and Onboarding (Self-hosted)](rocket.chat-saas/cloud-account/registration-and-onboarding-self-hosted.md)
   * [Manage your cloud account](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/README.md)
     * [Workspaces](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/README.md)
       * [Restart Workspace](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/restart-workspace.md)
