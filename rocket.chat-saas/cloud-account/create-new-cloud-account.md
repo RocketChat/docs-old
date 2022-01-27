@@ -14,13 +14,6 @@ If you are a self-managed customer cloud  account is optional but if you are a S
 
 ![](../../.gitbook/assets/2022-01-28\_00-59-16.png)
 
-
-
-
-
-\
-
-
 * You are notified that a verification email has been sent to your email address.
 
 ![](<../../.gitbook/assets/image (69).png>)
