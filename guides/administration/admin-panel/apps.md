@@ -21,7 +21,7 @@ Please note that category filters help you find apps based on your needs. You ca
 ![](../../../.gitbook/assets/2022-01-28\_00-07-07.png)
 
 {% hint style="info" %}
-Your workspace should be (registered and) connected to Rocket.Chat Cloud in order to access the marketplace and install Rocket.Chat apps from it. Use the login button at the top left to log in to Rocket.Chat Cloud.
+Your workspace should be (registered and) connected to Rocket.Chat Cloud in order to access the marketplace and install Rocket.Chat apps from it. Use the login button at the top right to log in to Rocket.Chat Cloud.
 {% endhint %}
 
 ## Marketplace
@@ -36,7 +36,7 @@ To find information on marketplace roles please check out this article.&#x20;
 
 ## Installed
 
-Under installed tab you can :
+Under the installed tab you can :
 
 * **Enable/Disable/Uninstall** any of your installed app.
 * View app details.
