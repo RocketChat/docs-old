@@ -12,8 +12,8 @@ The following topics give you all the information you need regarding the setup a
 [create-new-cloud-account.md](create-new-cloud-account.md)
 {% endcontent-ref %}
 
-{% content-ref url="registration-and-onboarding-self-hosted.md" %}
-[registration-and-onboarding-self-hosted.md](registration-and-onboarding-self-hosted.md)
+{% content-ref url="cloud-account-setup-wizard.md" %}
+[cloud-account-setup-wizard.md](cloud-account-setup-wizard.md)
 {% endcontent-ref %}
 
 {% content-ref url="manage-your-workspace-on-cloud-account/" %}

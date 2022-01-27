@@ -486,7 +486,6 @@
 
 * [Cloud Account](rocket.chat-saas/cloud-account/README.md)
   * [Create your new cloud account](rocket.chat-saas/cloud-account/create-new-cloud-account.md)
-  * [Registration and Onboarding (Self-hosted)](rocket.chat-saas/cloud-account/registration-and-onboarding-self-hosted.md)
   * [Manage your cloud account](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/README.md)
     * [Workspaces](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/README.md)
       * [Restart Workspace](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/restart-workspace.md)
@@ -500,6 +499,7 @@
     * [Payment Methods](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/payment-methods.md)
     * [Support Ticketing System](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/support.md)
     * [Organization Settings](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/organization-settings.md)
+  * [Cloud account setup wizard](rocket.chat-saas/cloud-account/cloud-account-setup-wizard.md)
 
 ## Resources
 
