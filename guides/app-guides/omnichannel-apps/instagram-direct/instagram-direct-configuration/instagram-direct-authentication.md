@@ -75,7 +75,7 @@ Following are the settings available:
 Only the agents of this particular department are able to see and take the chats.
 {% endhint %}
 
-![](../../../../../.gitbook/assets/2021-12-31\_18-12-56.png)
+![](../../../../../.gitbook/assets/2022-01-28\_00-00-27.png)
 
 ## Slash Commands
 

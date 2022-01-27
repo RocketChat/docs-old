@@ -12,10 +12,16 @@ as shown below:
 
 ![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1).png>)
 
-![](<../../../.gitbook/assets/2021-12-30\_00-54-38 (2).png>)
+![](../../../.gitbook/assets/2022-01-28\_00-12-09.png)
+
+{% hint style="success" %}
+Please note that category filters help you find apps based on your needs. You can choose between multiple categories within the filter to help you find the best app for your workspace users.
+{% endhint %}
+
+![](../../../.gitbook/assets/2022-01-28\_00-07-07.png)
 
 {% hint style="info" %}
-Your workspace should be (registered and) connected to Rocket.Chat Cloud in order to access the marketplace and install Rocket.Chat apps from it. Use the login button at the top left to login t Rocket.Chat Cloud.
+Your workspace should be (registered and) connected to Rocket.Chat Cloud in order to access the marketplace and install Rocket.Chat apps from it. Use the login button at the top left to log in to Rocket.Chat Cloud.
 {% endhint %}
 
 ## Marketplace
