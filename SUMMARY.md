@@ -288,7 +288,7 @@
       * [Active Directory Federation Services](guides/administration/settings/saml/active-directory-federation-services.md)
       * [Oracle Identity Cloud Service](guides/administration/settings/saml/oracle-cloud.md)
       * [Keycloak](guides/administration/settings/saml/keycloak.md)
-    * [Search](guides/administration/settings/untitled.md)
+    * [Search](guides/administration/settings/Search.md)
     * [Setup Wizard](guides/administration/settings/setup-wizard.md)
     * [SlackBridge](guides/administration/settings/slackbridge.md)
     * [Smarsh](guides/administration/settings/smarsh.md)
