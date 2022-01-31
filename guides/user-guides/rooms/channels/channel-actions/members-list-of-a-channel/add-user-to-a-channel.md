@@ -11,7 +11,7 @@ To add a new user:
 
 3\. Choose users from the drop-down:
 
-![](<../../../../../../.gitbook/assets/image (669).png>)
+![](<../../../../../../.gitbook/assets/image (669) (1).png>)
 
 4\. Hit **Add users**
 
