@@ -2,15 +2,14 @@
 
 To install Facebook App:
 
-1. Go to **Administration>Marketplace** and search Facebook
-2. Click **Install**
+Go to **Administration** > **Apps**.
 
-![](<../../../../.gitbook/assets/image (576) (1).png>)
+as shown below:
 
-3\. You are notified about all the permissions the app would access. Click **Agree**.
+![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1).png>)
 
-![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-M_S_NwTIbuGoUv-w4SR%2F-M_ScoA_OTPVMlMDjXlL%2Fimage.png?alt=media\&token=a8aa5b13-ba19-41f9-86b0-c4563863e833)
+Search Facebook under the **Marketplace** tab in **Apps** menu on your Rocket.Chat administration panel and install it.
 
-Facebook app is installed successfully and appears in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
+You are notified about all the permissions the app would access. Click **Agree**.
 
-![](<../../../../.gitbook/assets/image (573).png>)
+Facebook app is installed successfully.

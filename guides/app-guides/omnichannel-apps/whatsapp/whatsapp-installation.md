@@ -2,20 +2,14 @@
 
 To install WhatsApp:‌
 
-1. Go to **Administration>Marketplace** and search WhatsApp.
+Go to **Administration** > **Apps**.
 
-![](../../../../.gitbook/assets/2021-12-01\_18-09-09.png)
+as shown below:
 
-2\. Click **Install**
+![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1).png>)
 
-![](<../../../../.gitbook/assets/2021-12-01\_18-09-09 (2).png>)
+Search Whatsapp under the **Marketplace** tab in **Apps** menu on your Rocket.Chat administration panel and install it
 
-3\. You are notified about all the permissions the app would access. Click **Agree**.
+You are notified about all the permissions the app would access. Click **Agree**.
 
-‌
-
-![](<../../../../.gitbook/assets/image (426).png>)
-
-WhatsApp is installed successfully, and it appears in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
-
-![](<../../../../.gitbook/assets/image (428).png>)
+WhatsApp is installed successfully.

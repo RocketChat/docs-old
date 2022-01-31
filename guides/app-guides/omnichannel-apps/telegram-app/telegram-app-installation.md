@@ -2,15 +2,14 @@
 
 To install Telegram App:
 
-1. Go to **Administration>Marketplace** and search Telegram
-2. Click **Install**
+Go to **Administration** > **Apps**.
 
-![](<../../../../.gitbook/assets/image (564).png>)
+as shown below:
 
-1. You are notified about all the permissions the app would access. Click **Agree**.
+![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1).png>)
 
-![](<../../../../.gitbook/assets/image (401) (1) (1).png>)
+Search Telegram under the **Marketplace** tab in **Apps** menu on your Rocket.Chat administration panel and install it.
 
-Telegram app is installed successfully and appears in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
+You are notified about all the permissions the app would access. Click **Agree**.
 
-![](<../../../../.gitbook/assets/image (565).png>)
+The app is installed successfully.

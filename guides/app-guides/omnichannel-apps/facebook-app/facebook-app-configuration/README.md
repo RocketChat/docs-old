@@ -1,28 +1,20 @@
 # Facebook App Configuration
 
-Search Facebook in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
-
-![](<../../../../../.gitbook/assets/image (536).png>)
+Go to **Administration** > **Apps**. Go to the **Installed** tab and search _Facebook Messenger._
 
 Click open your Facebook app to see the settings available to you as an administrator:&#x20;
 
 Following are the settings available:
 
-1\.  You can choose to display the agent's name or username:
+![](<../../../../../.gitbook/assets/2022-02-01\_03-05-53 (1).png>)
 
-![](<../../../../../.gitbook/assets/image (402).png>)
+1\.  **Agents Display Name:** You can choose to display the agent's name or username.
 
-2\. You can enable/disable file sharing and also set a limit for maximum upload size
-
-![](<../../../../../.gitbook/assets/image (403).png>)
+2\. **File Upload Enabled:** You can enable/disable file sharing and also set a limit for maximum upload size.
 
 3\. And you can select the type of files you wish the Agents and your Facebook Contacts can share under **Accepted Media Types**
 
-![](<../../../../../.gitbook/assets/image (404).png>)
-
-4\. Hit **Save Changes** to save your settings
-
-![](<../../../../../.gitbook/assets/image (537).png>)
+4\. Hit **Save Changes** in the top right corner to save your settings
 
 Your Facebook app is successfully configured and you can see the new Facebook channel upon closing the administration panel, as shown below:
 

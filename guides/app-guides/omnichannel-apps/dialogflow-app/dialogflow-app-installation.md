@@ -2,16 +2,10 @@
 
 To install Dialogflow App:
 
-1. Go to **Administration>Marketplace** and search Dialogflow
+Go to **Administration** > **Apps**.
 
-![](<../../../../.gitbook/assets/image (457).png>)
+as shown below:
 
-2\. Click **Install**
+![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1).png>)
 
-![](<../../../../.gitbook/assets/image (458).png>)
-
-Dialogflow app is installed successfully\*\*.\*\*
-
-It appears in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
-
-![](<../../../../.gitbook/assets/image (459).png>)
+Search Dialogflow under the **Marketplace** tab in **Apps** menu on your Rocket.Chat administration panel and install it.
