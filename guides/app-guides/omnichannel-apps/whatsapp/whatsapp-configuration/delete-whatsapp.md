@@ -1,9 +1,9 @@
 # Delete Whatsapp
 
-To delete the Whatsapp app from your workspace:
+To delete Whatsapp from your workspace:
 
-Goto **Adminisitration**>**Apps**>**Whatsapp**
+Goto **Adminisitration>Apps>Installed>Instagram Direct**
 
-![](<../../../../../.gitbook/assets/image (584).png>)
+Hit **Uninstall**
 
-![](<../../../../../.gitbook/assets/image (585).png>)
+![](../../../../../.gitbook/assets/2022-02-01\_16-32-31.png)

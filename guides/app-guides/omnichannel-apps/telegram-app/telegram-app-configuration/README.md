@@ -4,15 +4,14 @@ Search Telegram in the **Apps** menu on your Rocket.Chat administration panel, a
 
 ![](<../../../../../.gitbook/assets/image (532).png>)
 
-Click open your Telegram app to see the settings available to you as an administrator:&#x20;
+Click open your Telegram app to see the settings available to you as an administrator.
 
 The following are the settings available:
 
-1. **Bot Token** sent by Telegram during Bot user activation. If you need help creating your telegram bot token, you can find the [instructions](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/telegram-app/telegram-app-configuration/generate-your-telegram-bot-token) here
+![](<../../../../../.gitbook/assets/2022-02-01\_16-04-42 (1).png>)
 
-Other Settings include:
-
-2\. You can set a **Default Department**. Only the agents of this department are able to serve Telegram conversations
+1. **Bot Token** sent by Telegram during Bot user activation. If you need help creating your telegram bot token, you can find the [instructions](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/telegram-app/telegram-app-configuration/generate-your-telegram-bot-token) here.
+2. You can set a **Default Department**. Only the agents of this department are able to serve Telegram conversations
 
 {% hint style="warning" %}
 If you don't have a department set up you won't receive any message.
@@ -32,27 +31,13 @@ Find out how to [create a department](https://docs.rocket.chat/guides/omnichanne
 Only the agents of that particular department are able to see and take the chats.
 {% endhint %}
 
-&#x20;
+6\. **Agents Display Name:** You can choose to display the agent's name or username.
 
-![](<../../../../../.gitbook/assets/2021-12-12\_17-56-02 (3).png>)
-
-6\.  You can choose to display the agent's name or username:
-
-![](../../../../../.gitbook/assets/purpledevil505570.png)
-
-7\. You can enable/disable file sharing and also set a limit for maximum upload size
-
-![](../../../../../.gitbook/assets/purpledevi890.png)
+7\. **File Upload Enabled:** You can enable/disable file sharing.
 
 8\. And you can select the type of files you wish the Agents and your Telegram Contacts can share under **Accepted Media Types**
 
-![](../../../../../.gitbook/assets/purpledevi89890.png)
-
-9\. Hit **Save Changes** to save your settings and your Telegram app is successfully configured.
-
-![](../../../../../.gitbook/assets/purpledevi89891001000.png)
-
-&#x20;You can see the new Telegram channel upon closing the administration panel.
+9\. Hit **Save Changes** in the top right corner to save your settings and your Telegram app is successfully configured. You can see the new Telegram channel upon closing the administration panel.
 
 ### Quick Replies
 

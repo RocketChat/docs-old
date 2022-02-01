@@ -12,4 +12,4 @@ Search Telegram under the **Marketplace** tab in **Apps** menu on your Rocket.Ch
 
 You are notified about all the permissions the app would access. Click **Agree**.
 
-The app is installed successfully.
+Your app is installed successfully.

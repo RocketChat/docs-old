@@ -1,12 +1,14 @@
 # WhatsApp Configuration
 
-Search WhatsApp in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
+To access the settings, go to **Administration** > **Apps**.
 
-![](<../../../../../.gitbook/assets/image (429).png>)
+as shown below:
+
+![](<../../../../../.gitbook/assets/2021-11-20\_23-29-48 (1).png>)
+
+Search Whatsapp under the **Installed** tab in **Apps** menu on your Rocket.Chat administration panel.&#x20;
 
 Click open your WhatApp instance to see the settings available to you as an administrator:‌
-
-![](<../../../../../.gitbook/assets/image (431).png>)
 
 Following are the settings available:‌
 
@@ -30,8 +32,6 @@ Before activating **Allow Quote Messages** feature, please ensure that you have 
 * **Allow List options for Quick Replies:** If enabled, messages with more than three quick reply options would be rendered as List options. Note: Max limit for list options is 10
 * **Custom label for all List Option buttons:** Define a custom label message which you want to display on all Quick reply options sent as List Message.
 * Hit **Save Changes** to save your settings.
-
-![](<../../../../../.gitbook/assets/2022-01-15\_19-53-39 (9).png>)
 
 ‌Your WhatsApp is successfully configured, and you can see the new WhatsApp channel upon closing the administration panel, as shown below:
 
