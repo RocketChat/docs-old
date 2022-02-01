@@ -1,9 +1,9 @@
 # Delete Salesforce CRM Integration
 
-To delete your Salesforce CRM Integration from your workspace:
+To delete the Dialogflow app from your workspace:
 
-Goto **Adminisitration**>**Apps**>**Salesforce CRM Integration**
+Goto **Adminisitration>Apps>Installed>Dialogflow**
 
-![](<../../../../../.gitbook/assets/image (580).png>)
+Hit **Uninstall**
 
-![](<../../../../../.gitbook/assets/image (581).png>)
+![](../../../../../.gitbook/assets/2022-02-01\_17-05-50.png)

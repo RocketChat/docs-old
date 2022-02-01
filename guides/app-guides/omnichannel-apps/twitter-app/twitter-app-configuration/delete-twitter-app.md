@@ -2,8 +2,8 @@
 
 To delete the Twitter app from your workspace:
 
-Goto **Adminisitration**>**Apps**>**Twitter**
+Goto **Adminisitration>Apps>Installed>Facebook Messenger**
 
-![](<../../../../../.gitbook/assets/image (575).png>)
+Hit **Uninstall**
 
-![](<../../../../../.gitbook/assets/image (577).png>)
+![](../../../../../.gitbook/assets/2022-02-01\_16-54-28.png)

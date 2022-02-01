@@ -2,8 +2,8 @@
 
 To delete the Dialogflow app from your workspace:
 
-Goto **Adminisitration**>**Apps**>**Dialogflow**
+Goto **Adminisitration>Apps>Installed>Dialogflow**
 
-![](<../../../../../.gitbook/assets/image (582).png>)
+Hit **Uninstall**
 
-![](<../../../../../.gitbook/assets/image (583).png>)
+![](../../../../../.gitbook/assets/2022-02-01\_16-57-48.png)
