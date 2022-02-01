@@ -2,8 +2,9 @@
 
 To delete Facebook app from your workspace:
 
-Goto **Adminisitration**>**Apps**>**Facebook**
+Goto **Adminisitration>Apps>Installed>Facebook Messenger**
 
-![](<../../../../../.gitbook/assets/image (574).png>)
+Hit **Uninstall**
 
-![](<../../../../../.gitbook/assets/image (579) (1) (1).png>)
+****![](../../../../../.gitbook/assets/2022-02-01\_16-38-15.png)****
+
