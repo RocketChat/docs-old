@@ -7,6 +7,10 @@ This installation guide was tested in the following environment:
 * Mongodb 4.0.19
 * NodeJS 12.18.4
 
+{% hint style="info" %}
+As from Rocket.Chat 4.4.0, NodeJS version 14.x.x is used.
+{% endhint %}
+
 As Kali is a distribution based on Debian the installation process is pretty the same, only adding some MongoDB dependencies installation.
 
 ## Install necessary dependency packages
@@ -31,7 +35,7 @@ Configure Node.js to be installed via package manager:
 sudo apt-get -y update && sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
 ```
 
-Install build tools, MongoDB and dependencies \(libcurl3 and mongoDB server\), nodejs and graphicsmagick:
+Install build tools, MongoDB and dependencies (libcurl3 and mongoDB server), nodejs and graphicsmagick:
 
 ```bash
 sudo apt-get install -y build-essential libcurl3 mongodb-org-server mongodb-org nodejs graphicsmagick
@@ -55,7 +59,7 @@ curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
 tar -xzf /tmp/rocket.chat.tgz -C /tmp
 ```
 
-Install \(this guide uses /opt but feel free to choose a different directory\):
+Install (this guide uses /opt but feel free to choose a different directory):
 
 ```bash
 cd /tmp/bundle/programs/server && npm install
@@ -94,7 +98,7 @@ WantedBy=multi-user.target
 EOF
 ```
 
-Open the Rocket.Chat service file just created \(`/lib/systemd/system/rocketchat.service`\) using sudo and your favourite text editor, and change the ROOT\_URL environmental variable to reflect the URL you want to use for accessing the server \(optionally change MONGO\_URL, MONGO\_OPLOG\_URL and PORT\):
+Open the Rocket.Chat service file just created (`/lib/systemd/system/rocketchat.service`) using sudo and your favourite text editor, and change the ROOT\_URL environmental variable to reflect the URL you want to use for accessing the server (optionally change MONGO\_URL, MONGO\_OPLOG\_URL and PORT):
 
 ```bash
 MONGO_URL=mongodb://localhost:27017/rocketchat?replicaSet=rs01
@@ -103,7 +107,7 @@ ROOT_URL=http://your-host-name.com-as-accessed-from-internet:3000
 PORT=3000
 ```
 
-Setup storage engine and replication for MongoDB \(mandatory for versions &gt; 1\), and enable and start MongoDB and Rocket.Chat:
+Setup storage engine and replication for MongoDB (mandatory for versions > 1), and enable and start MongoDB and Rocket.Chat:
 
 ```bash
 sudo sed -i "s/^#  engine:/  engine: wiredTiger/"  /etc/mongod.conf
@@ -127,9 +131,8 @@ sudo systemctl enable rocketchat && sudo systemctl start rocketchat
 
 ## Optional configurations
 
-[Configure firewall rule](optional-configurations.md) [Configure a HTTP reverse proxy to access Rocket.Chat server](configuring-ssl-reverse-proxy.md) \[Configure mongo access control\] \[Configure production values for mongodb\]
+[Configure firewall rule](optional-configurations.md) [Configure a HTTP reverse proxy to access Rocket.Chat server](configuring-ssl-reverse-proxy.md) \[Configure mongo access control] \[Configure production values for mongodb]
 
 ## Configure your Rocket.Chat server
 
-Open a web browser and access the configured ROOT\_URL \(`http://your-host-name.com-as-accessed-from-internet:3000`\), follow the configuration steps to set an admin account and your organization and server info.
-
+Open a web browser and access the configured ROOT\_URL (`http://your-host-name.com-as-accessed-from-internet:3000`), follow the configuration steps to set an admin account and your organization and server info.

@@ -7,6 +7,10 @@ This installation guide was tested in the following environment:
 * Mongodb 4.4.10
 * NodeJS 12.22.7
 
+{% hint style="info" %}
+As from Rocket.Chat 4.4.0, NodeJS version 14.0.0 is used.
+{% endhint %}
+
 ## Install necessary dependencies
 
 *   **MongoDB**

@@ -10,19 +10,23 @@ Check it out here: [https://github.com/RocketChat/install.sh](https://github.com
 
 ## Environment
 
-Currently rocketchatctl is supported in these Linux distributions:
+Currently, rocketchatctl is supported in these Linux distributions:
 
-* Supported OS:
+*   Supported OS:
 
-  Ubuntu 18.04, 19.04, 20.04 CentOS 7 Debian 9
+    Ubuntu 18.04, 19.04, 20.04 CentOS 7 Debian 9
 
 And installs these software versions, but this can change for future rocketchatctl versions:
 
 * Node version: 12.18.4
 * Mongo version: 4.0.10
-* Web Proxy/Loadbalancer optional:
+*   Web Proxy/Loadbalancer optional:
 
-  Traefik 1.7.12 Caddy 1.0.0
+    Traefik 1.7.12 Caddy 1.0.0
+
+{% hint style="info" %}
+Node version is always up to date. As from Rocket.Chat `V4.4.0`, Node version 14.x.x
+{% endhint %}
 
 We understand that some users could already have node, mongo, or even a webserver already installed in their servers, `rocketchatctl install` will check for previously installed versions of node and mongo in your system.
 
@@ -30,7 +34,7 @@ We understand that some users could already have node, mongo, or even a webserve
 
 Run `rocketchatctl help` and check options and flags:
 
-```text
+```
 rocketchatctl command line tool to install and update RocketChat server
 
 Usage: rocketchatctl [options] [--root-url=ROOT_URL --port=PORT --letsencrypt-email=EMAIL --webserver=WEBSERVER  --version=VERSION --install-node --use-mongo]
@@ -112,4 +116,3 @@ rocketchatctl upgrade-rockectchatctl
 #### **Use rocketchatctl to automate your previously Rocket.Chat manual installation deployments !**
 
 Check out our webinar about it here:
-

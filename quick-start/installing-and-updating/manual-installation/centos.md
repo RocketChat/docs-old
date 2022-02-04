@@ -7,6 +7,10 @@ This installation guide was tested in the following environment:
 * Mongodb 4.0.9
 * NodeJS 12.18.4
 
+{% hint style="info" %}
+As from Rocket.Chat 4.4.0, NodeJS version 14.x.x is used.
+{% endhint %}
+
 ## Install necessary dependency packages
 
 Update package list and configure yum to install the official MongoDB packages with the following yum repository file:
@@ -60,7 +64,7 @@ curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
 tar -xzf /tmp/rocket.chat.tgz -C /tmp
 ```
 
-Install \(this guide uses /opt but feel free to choose a different directory\):
+Install (this guide uses /opt but feel free to choose a different directory):
 
 ```bash
 cd /tmp/bundle/programs/server && npm install
@@ -99,7 +103,7 @@ WantedBy=multi-user.target
 EOF
 ```
 
-Open the Rocket.Chat service file just created \(`/usr/lib/systemd/system/rocketchat.service`\) using sudo and your favourite text editor, and change the ROOT\_URL environmental variable to reflect the URL you want to use for accessing the server \(optionally change MONGO\_URL, MONGO\_OPLOG\_URL and PORT\):
+Open the Rocket.Chat service file just created (`/usr/lib/systemd/system/rocketchat.service`) using sudo and your favourite text editor, and change the ROOT\_URL environmental variable to reflect the URL you want to use for accessing the server (optionally change MONGO\_URL, MONGO\_OPLOG\_URL and PORT):
 
 ```bash
 MONGO_URL=mongodb://localhost:27017/rocketchat?replicaSet=rs01
@@ -108,7 +112,7 @@ ROOT_URL=http://your-host-name.com-as-accessed-from-internet:3000
 PORT=3000
 ```
 
-Setup storage engine and replication for MongoDB \(mandatory for versions &gt; 1\), and enable and start MongoDB and Rocket.Chat:
+Setup storage engine and replication for MongoDB (mandatory for versions > 1), and enable and start MongoDB and Rocket.Chat:
 
 ```bash
 sudo sed -i "s/^#  engine:/  engine: mmapv1/"  /etc/mongod.conf
@@ -132,11 +136,11 @@ sudo systemctl enable rocketchat && sudo systemctl start rocketchat
 
 ## Optional configurations
 
-[Configure firewall rule](optional-configurations.md) [Configure a HTTP reverse proxy to access Rocket.Chat server](configuring-ssl-reverse-proxy.md) \[Configure mongo access control\] \[Configure production values for mongodb\]
+[Configure firewall rule](optional-configurations.md) [Configure a HTTP reverse proxy to access Rocket.Chat server](configuring-ssl-reverse-proxy.md) \[Configure mongo access control] \[Configure production values for mongodb]
 
 ## Configure your Rocket.Chat server
 
-Open a web browser and access the configured ROOT\_URL \(`http://your-host-name.com-as-accessed-from-internet:3000`\), follow the configuration steps to set an admin account and your organization and server info.
+Open a web browser and access the configured ROOT\_URL (`http://your-host-name.com-as-accessed-from-internet:3000`), follow the configuration steps to set an admin account and your organization and server info.
 
 ## ZLIB version problem
 
@@ -148,7 +152,7 @@ If you find an error message similar to the following in the logs:
 Exception in callback of async function: Error: /lib64/libz.so.1: version `ZLIB_1.2.9' not found
 ```
 
-Add this environmental variable in the Rocket.Chat service file \(/usr/lib/systemd/system/rocketchat.service\):
+Add this environmental variable in the Rocket.Chat service file (/usr/lib/systemd/system/rocketchat.service):
 
 Environment=LD\_PRELOAD=/opt/Rocket.Chat/programs/server/npm/node\_modules/sharp/vendor/lib/libz.so
 
@@ -158,7 +162,6 @@ Environment=LD\_PRELOAD=/opt/Rocket.Chat/programs/server/npm/node\_modules/sharp
 
 If your installing Rocket.Chat on CentOS or RHEL you may encounter a 502 Bad Gateway error after setting up setup a reverse proxy with Nginx. To fix this you need to enable loopback for your upstream in SELinux.
 
-```text
+```
 setsebool -P httpd_can_network_connect 1
 ```
-

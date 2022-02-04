@@ -8,61 +8,65 @@ Usually you can update Rocket.Chat server pretty easily.
 
 Stop Rocket.Chat service:
 
-```text
+```
 sudo systemctl stop rocketchat
 ```
 
 Remove the installation folder, usually in /opt:
 
-```text
+```
 sudo rm -rf /opt/Rocket.Chat
 ```
 
 Make sure you have the needed build packages Debian
 
-```text
+```
 sudo apt-get install -y build-essential graphicsmagick
 ```
 
 Centos
 
-```text
+```
 sudo yum install -y gcc-c++ make
 ```
 
 Update the node version required by Rocket.Chat:
 
-```text
-sudo n install 12.22.1
+{% hint style="info" %}
+As from Rocket.Chat `V4`, node version migrated from `12.x.x` to `14.x.x`
+{% endhint %}
+
+```
+sudo n install 14.0.0
 ```
 
 Download Rocket.Chat latest version:
 
-```text
+```
 curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
 ```
 
-```text
+```
 tar -xzf /tmp/rocket.chat.tgz -C /tmp
 ```
 
 Install it and set right permissions to Rocket.Chat folder:
 
-```text
+```
 cd /tmp/bundle/programs/server && npm install
 ```
 
-```text
+```
 sudo mv /tmp/bundle /opt/Rocket.Chat
 ```
 
-```text
+```
 sudo chown -R rocketchat:rocketchat /opt/Rocket.Chat
 ```
 
 Start the service:
 
-```text
+```
 sudo systemctl start rocketchat
 ```
 
@@ -94,15 +98,14 @@ Do not try to backup the database and restore to direct to another version e.g. 
 
 Follow this procedure:
 
-* Backup DB -&gt; ~/Rocket/Backup/v0.65
-* Upgrade Rocket one version eg 0.65.x -&gt; 0.66.x
+* Backup DB -> \~/Rocket/Backup/v0.65
+* Upgrade Rocket one version eg 0.65.x -> 0.66.x
 * Check for errors
-* Backup DB -&gt; ~/Rocket/Backup/v0.66
-* Upgrade Rocket one version eg 0.66.x -&gt; 0.67.x
+* Backup DB -> \~/Rocket/Backup/v0.66
+* Upgrade Rocket one version eg 0.66.x -> 0.67.x
 * Check for errors - if you discover any, stop and fix them or go back to the previous version and start again
 * Repeat
 
-\(this is a very good reason to keep reasonably up to date with Rocket.Chat versions\)
+(this is a very good reason to keep reasonably up to date with Rocket.Chat versions)
 
 Please check the [Tags](https://github.com/RocketChat/Rocket.Chat/tags) or Releases as above for the required version infomation.
-
