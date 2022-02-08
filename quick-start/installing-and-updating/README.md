@@ -1,14 +1,19 @@
-# Installing and Updating
+# Deploying and Updating
 
-Rocket.Chat can be hosted on our Cloud, installed from a variety of marketplaces, or installed on your own server. Find a guide below that matches your needs.
+Rocket.Chat can be hosted on our Cloud, installed from a variety of marketplaces, or manually installed on your own server. Find a guide below that matches your needs.
 
-{% page-ref page="snaps/" %}
+{% content-ref url="simple-deployment-methods/docker-and-docker-compose/docker-containers/" %}
+[docker-containers](simple-deployment-methods/docker-and-docker-compose/docker-containers/)
+{% endcontent-ref %}
 
-{% page-ref page="paas-deployments/" %}
+{% content-ref url="simple-deployment-methods/snaps/" %}
+[snaps](simple-deployment-methods/snaps/)
+{% endcontent-ref %}
 
-{% page-ref page="automation-tools/" %}
+{% content-ref url="simple-deployment-methods/manual-installation/" %}
+[manual-installation](simple-deployment-methods/manual-installation/)
+{% endcontent-ref %}
 
-{% page-ref page="manual-installation/" %}
-
-{% page-ref page="docker-containers/" %}
-
+{% content-ref url="other-deployment-methods/paas-deployments/" %}
+[paas-deployments](other-deployment-methods/paas-deployments/)
+{% endcontent-ref %}
