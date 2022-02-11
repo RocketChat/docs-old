@@ -476,6 +476,7 @@
 * [Contributor Code of Conduct](contributors/contributor-code-of-conduct.md)
 * [Contributor Guidelines](contributors/contributor-guidelines.md)
 * [Google Summer of Code](contributors/google-summer-of-code/README.md)
+  * [Google Summer of Code 2022](contributors/google-summer-of-code/google-summer-of-code-2022.md)
   * [Google Summer of Code 2021](contributors/google-summer-of-code/google-summer-of-code-2021.md)
   * [Google Summer of Code 2020](contributors/google-summer-of-code/google-summer-of-code-2020.md)
   * [Google Summer of Code 2019](contributors/google-summer-of-code/google-summer-of-code-2019.md)
