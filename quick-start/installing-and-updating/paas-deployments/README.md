@@ -13,17 +13,17 @@ If you are interested in quickly deploying an instance, you can try one of the o
 
 If you need full control of your deployment, here are some guides for specific environments:
 
-* [Aliyun](aliyun.md)
+* [Aliyun](../other-deployment-methods/community-supported-installation/aliyun.md)
 * [Amazon Web Services](aws.md)
 * [Digital Ocean](digitalocean.md)
-* [Meteor Galaxy](galaxy.md)
+* [Meteor Galaxy](../other-deployment-methods/community-supported-installation/galaxy.md)
 * [Google Compute Engine](broken-reference)
 * [IBM Cloud](ibm-cloud.md)
 * [Sloppy.io](broken-reference)
-* [D2C.io](d2c-io.md)
-* [Syncloud.org](syncloud.md)
+* [D2C.io](../other-deployment-methods/community-supported-installation/d2c-io.md)
+* [Syncloud.org](../other-deployment-methods/community-supported-installation/syncloud.md)
 
 ## Automation Tools
 
-* [Ansible](../../automation-tools/ansible.md)
-* [Vagrant](../../automation-tools/vagrant.md)
+* [Ansible](../scaling-rocket.chat/automation-tools/ansible.md)
+* [Vagrant](../scaling-rocket.chat/automation-tools/vagrant.md)

@@ -1,22 +1,20 @@
----
-description: Official Production Deployment Recommendations
----
+# Introduction/Prerequisites
 
-# Official Recommendations
+Regardless of the platform you wish to deploy on or the method of deployment, you may want to make the best choices in either case. See in this section our official recommendations, the necessary requirements to run a Rocket.Chat instance and the various properties we judge on to better choose a deployment method.
 
-## Introduction
+## Official Recommendation
 
 {% hint style="success" %}
-We offer a variety of Deployment methods, and we recommend you set up using our [Docker &  Docker Compose](../simple-deployment-methods/docker-and-docker-compose/) guide for several reasons mentioned below.
+We offer a variety of Deployment methods, and we recommend you set up using our [Docker &  Docker Compose](../rapid-deployment-methods/docker-and-docker-compose/) guide for several reasons mentioned below.
 {% endhint %}
 
 In order to obtain official support from our team, we have a minimum set of requirements. These requirements are necessary for us to access essential system information, to provide an SLA, to answer questions, or to provide a solution for the problem.
 
 Only installations matching these minimum requirements can be covered by our SLAs and our paid Support Policy, some requirements may vary depending on the installation size as described in the following sections.
 
-## Environment
+### Environment
 
-### Docker Container
+#### Docker Container
 
 In order to eliminate environmental issues of missing, outdated, or mismatching dependencies, specific operating system issues, or problems during manual installations, we strongly recommend using our official Docker images.
 
@@ -26,13 +24,13 @@ Rocket.Chat's own cloud uses our official Docker images, which makes this instal
 
 [Docker](https://www.docker.com) is widely used to package applications in containers and distribute them as images, providing abstraction and isolation layers from the OS (operational system). It allows the application to be shipped with a specific version of the OS compatibility layer and his own dependencies already installed and configured.
 
-{% content-ref url="../simple-deployment-methods/docker-and-docker-compose/docker-containers/" %}
-[docker-containers](../simple-deployment-methods/docker-and-docker-compose/docker-containers/)
+{% content-ref url="../rapid-deployment-methods/docker-and-docker-compose/docker-containers/" %}
+[docker-containers](../rapid-deployment-methods/docker-and-docker-compose/docker-containers/)
 {% endcontent-ref %}
 
-## Why Docker?
+### Why Docker?
 
-### Considerations
+#### Considerations
 
 #### Scalability
 
@@ -95,8 +93,8 @@ At this time, no other containers orchestration/management technologies will be 
 
 The minimum hardware requirements are described on the page below.
 
-{% content-ref url="hardware-requirements.md" %}
-[hardware-requirements.md](hardware-requirements.md)
+{% content-ref url="../hardware-requirements.md" %}
+[hardware-requirements.md](../hardware-requirements.md)
 {% endcontent-ref %}
 
 ## Monitoring

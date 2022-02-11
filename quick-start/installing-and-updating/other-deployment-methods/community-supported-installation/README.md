@@ -11,8 +11,8 @@ As we know, there are people who use these methods, so we will leave them open f
 You can also check their respective forum pages under [Community Guides](https://forums.rocket.chat/c/community-guides) category.
 
 * [FreeBSD](freebsd/)
-* [Windows 10 Pro](windows-10-pro.md)
+* [Windows 10 Pro](../windows-10-pro.md)
 * [Windows Server 2012](windows-server.md)
 * [OpenSUSE](opensuse.md)
-* [Kali](../../simple-deployment-methods/manual-installation/debian-based-distros/kali-linux.md)
+* [Kali](../manual-installation/debian-based-distros/kali-linux.md)
 

@@ -2,7 +2,7 @@
 
 RocketChat offers a series of deployment methods and making a choice on which to use can get a little conflicting
 
-Although we recommend using [Docker and Docker Compose](../simple-deployment-methods/docker-and-docker-compose/), you may want to know when best to consider any of the other deployment methods.
+Although we recommend using [Docker and Docker Compose](../rapid-deployment-methods/docker-and-docker-compose/), you may want to know when best to consider any of the other deployment methods.
 
 {% hint style="info" %}
 **Deployment Methods**: Docker, Snap, Manual, Ansible, etc

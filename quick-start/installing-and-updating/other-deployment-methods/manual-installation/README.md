@@ -2,7 +2,7 @@
 
 Here you can find guides on how to manually install and manage Rocket.Chat server in different Operational systems:
 
-* [CentOS](../../advanced-deployment-methods/centos.md)
+* [CentOS](broken-reference)
 * [Debian](debian-based-distros/debian.md)
 * [Multiple Instances to Improve Performance](extras/multiple-instances-to-improve-performance.md)
 * [Migrating Meteor Mongo](extras/migrating-meteor-mongo.md)
