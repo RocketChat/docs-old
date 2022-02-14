@@ -25,5 +25,5 @@ If you need full control of your deployment, here are some guides for specific e
 
 ## Automation Tools
 
-* [Ansible](../scaling-rocket.chat/automation-tools/ansible.md)
-* [Vagrant](../scaling-rocket.chat/automation-tools/vagrant.md)
+* [Ansible](../../scaling-rocket.chat/automation-tools/ansible.md)
+* [Vagrant](../../scaling-rocket.chat/automation-tools/vagrant.md)

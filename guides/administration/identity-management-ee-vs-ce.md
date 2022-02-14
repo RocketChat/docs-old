@@ -81,6 +81,6 @@ description: 'List of available login methods and features.  Including:'
   * Assign Rocket.Chat roles based on OAuth roles
   * Join channels automatically based on OAuth roles
 
-{% content-ref url="../resources/frequently-asked-questions/ldap-faq.md" %}
-[ldap-faq.md](../resources/frequently-asked-questions/ldap-faq.md)
+{% content-ref url="../../resources/frequently-asked-questions/ldap-faq.md" %}
+[ldap-faq.md](../../resources/frequently-asked-questions/ldap-faq.md)
 {% endcontent-ref %}

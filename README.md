@@ -20,8 +20,8 @@ This user guide incorporates a description of the features and capabilities, mod
 [installing-and-updating](quick-start/installing-and-updating/)
 {% endcontent-ref %}
 
-{% content-ref url="quick-start/creating-the-first-administrator.md" %}
-[creating-the-first-administrator.md](quick-start/creating-the-first-administrator.md)
+{% content-ref url="quick-start/environment-configuration/creating-the-first-administrator.md" %}
+[creating-the-first-administrator.md](quick-start/environment-configuration/creating-the-first-administrator.md)
 {% endcontent-ref %}
 
 {% content-ref url="guides/user-guides/connecting-to-a-server.md" %}
@@ -72,8 +72,8 @@ This user guide incorporates a description of the features and capabilities, mod
 [message-auditing](guides/message-auditing/)
 {% endcontent-ref %}
 
-{% content-ref url="quick-start/identity-management-ee-vs-ce.md" %}
-[identity-management-ee-vs-ce.md](quick-start/identity-management-ee-vs-ce.md)
+{% content-ref url="guides/administration/identity-management-ee-vs-ce.md" %}
+[identity-management-ee-vs-ce.md](guides/administration/identity-management-ee-vs-ce.md)
 {% endcontent-ref %}
 
 {% content-ref url="guides/administration/settings/federation.md" %}
@@ -82,8 +82,8 @@ This user guide incorporates a description of the features and capabilities, mod
 
 ## Minimum Requirements
 
-{% content-ref url="quick-start/installing-and-updating/mobile-and-desktop-apps/minimum-requirements-for-using-rocket.chat.md" %}
-[minimum-requirements-for-using-rocket.chat.md](quick-start/installing-and-updating/mobile-and-desktop-apps/minimum-requirements-for-using-rocket.chat.md)
+{% content-ref url="quick-start/mobile-and-desktop-apps/minimum-requirements-for-using-rocket.chat.md" %}
+[minimum-requirements-for-using-rocket.chat.md](quick-start/mobile-and-desktop-apps/minimum-requirements-for-using-rocket.chat.md)
 {% endcontent-ref %}
 
 {% content-ref url="quick-start/installing-and-updating/hardware-requirements.md" %}

@@ -32,8 +32,8 @@ In order to enjoy the complete suite of re-factored advanced LDAP, SAML and, Oau
 
 View full functionalities:
 
-{% content-ref url="../../quick-start/identity-management-ee-vs-ce.md" %}
-[identity-management-ee-vs-ce.md](../../quick-start/identity-management-ee-vs-ce.md)
+{% content-ref url="../../guides/administration/identity-management-ee-vs-ce.md" %}
+[identity-management-ee-vs-ce.md](../../guides/administration/identity-management-ee-vs-ce.md)
 {% endcontent-ref %}
 
 ## What will community users still be able to do? Examples.
@@ -42,8 +42,8 @@ Community users will be able to connect an LDAP service used by their organizati
 \
 View full functionalities:
 
-{% content-ref url="../../quick-start/identity-management-ee-vs-ce.md" %}
-[identity-management-ee-vs-ce.md](../../quick-start/identity-management-ee-vs-ce.md)
+{% content-ref url="../../guides/administration/identity-management-ee-vs-ce.md" %}
+[identity-management-ee-vs-ce.md](../../guides/administration/identity-management-ee-vs-ce.md)
 {% endcontent-ref %}
 
 ## Will the new implementation affect Single Sign-On capabilities? Please explain single sign-on.
