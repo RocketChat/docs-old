@@ -28,7 +28,7 @@ You will be required to verify your account before proceeding if it is your firs
 
 * Select **Web** as the platform for the app and continue
 
-![](<../../../../.gitbook/assets/image (644).png>)
+![](<../../../../.gitbook/assets/image (644) (1).png>)
 
 * Set the redirect URI go to the **Facebook Login** > **Settings** section and paste the redirect URI in the **Valid OAuth Redirect URIs** field
 
@@ -36,7 +36,7 @@ You will be required to verify your account before proceeding if it is your firs
 
 * With your newly created app selected, navigate to the **Settings** > **Basic** section to see your OAuth credentials
 
-![](<../../../../.gitbook/assets/image (662) (1).png>)
+![](<../../../../.gitbook/assets/image (662) (1) (1).png>)
 
 * To be able to use OAuth login, you need to turn off app in development mode&#x20;
 

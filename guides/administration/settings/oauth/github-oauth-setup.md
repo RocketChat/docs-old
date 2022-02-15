@@ -28,7 +28,7 @@ If your callback URL is wrong, GitHub does not display any error. Instead of log
 * After creating your new GiHub OAuth app, copy the `Client Id` and `Secrete` provided
 * Head over to the GitHub OAuth section on your Rocket.Chat server by navigating to **Administration** > **Settings** > **OAuth**&#x20;
 
-![](<../../../../.gitbook/assets/image (671).png>)
+![](<../../../../.gitbook/assets/image (671) (1).png>)
 
 * Enable GitHub OAuth, fill in the credentials and hit **Save Changes** to commit
 *
@@ -41,4 +41,4 @@ After saving, you will find the GitHub OAuth button on the login and register pa
 
 To register with GitHub, just click the button and accept access.
 
-![](<../../../../.gitbook/assets/image (643) (1).png>)
+![](<../../../../.gitbook/assets/image (643) (1) (1).png>)

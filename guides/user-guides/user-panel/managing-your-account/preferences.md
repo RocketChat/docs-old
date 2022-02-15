@@ -4,7 +4,7 @@ In the [_Preferences_](https://open.rocket.chat/account/preferences) section, th
 
 To access this menu, Click on you **profile** and go to **My Account** > **Preferences**
 
-![](<../../../../.gitbook/assets/image (670) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (670) (1) (1) (1).png>)
 
 ## Localization
 
@@ -80,4 +80,4 @@ Lets you download your data either as `HTML` or `JSON` format
 
 When triggered, the request will be processed and a link to the exported file sent to your email.
 
-![](<../../../../.gitbook/assets/image (665) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (665) (1) (1) (1) (1).png>)

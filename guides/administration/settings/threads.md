@@ -6,4 +6,4 @@ To access this setting, go to **Administration** > **Settings** > **Threads**.
 
 ![Threads Enabled](<../../../.gitbook/assets/image (667) (1) (1).png>)
 
-![Threads Disabled](<../../../.gitbook/assets/image (643) (1) (1) (1).png>)
+![Threads Disabled](<../../../.gitbook/assets/image (643) (1) (1) (1) (1).png>)

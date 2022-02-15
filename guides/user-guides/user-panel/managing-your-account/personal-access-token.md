@@ -37,4 +37,4 @@ On the right side of the list against every access token, hit the **Delete** ico
 
 To regenerate an exiting access token, hit the **regenerate** button by the right against it.
 
-![](<../../../../.gitbook/assets/image (636) (1).png>)
+![](<../../../../.gitbook/assets/image (636) (1) (1).png>)

@@ -9,7 +9,7 @@
 
 * [Deploying Rocket.Chat](quick-start/installing-and-updating/README.md)
   * [Introduction/Prerequisites](quick-start/installing-and-updating/introduction-prerequisites/README.md)
-    * [Choosing a Deployment Method](quick-start/installing-and-updating/introduction-prerequisites/choosing-a-deployment-method.md)
+    * [Choosing a Deployment Method](quick-start/installing-and-updating/introduction/choosing-a-deployment-method.md)
   * [Hardware Requirements](quick-start/installing-and-updating/hardware-requirements.md)
   * [Rapid Deployment Methods](quick-start/installing-and-updating/rapid-deployment-methods/README.md)
     * [Docker & Docker Compose](quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/README.md)
@@ -61,7 +61,7 @@
       * [D2C.io](quick-start/installing-and-updating/other-deployment-methods/community-supported-installation/d2c-io.md)
       * [Galaxy](quick-start/installing-and-updating/other-deployment-methods/community-supported-installation/galaxy.md)
       * [Syncloud](quick-start/installing-and-updating/other-deployment-methods/community-supported-installation/syncloud.md)
-      * [OpenShift](quick-start/installing-and-updating/other-deployment-methods/community-supported-installation/openshift.md)
+      * [OpenShift](quick-start/installing-and-updating/other-deployment-methods/paas-deployments/openshift.md)
     * [Plug-in Deployments](quick-start/installing-and-updating/other-deployment-methods/plug-ins/README.md)
       * [Drupal Plug-in](quick-start/installing-and-updating/other-deployment-methods/plug-ins/drupal.md)
       * [Pidgin Plug-in](quick-start/installing-and-updating/other-deployment-methods/plug-ins/pidgin.md)
@@ -181,8 +181,7 @@
       * [Add new users](guides/administration/admin-panel/users/add-new-users.md)
     * [Rooms (aka Channels)](guides/administration/admin-panel/rooms-aka-channels.md)
     * [Invites](guides/administration/admin-panel/invites.md)
-    * [Connectivity Services](guides/administration/admin-panel/connectivity-services/README.md)
-      * [Enterprise Edition Trial](guides/administration/admin-panel/connectivity-services/enterprise-edition-trial.md)
+    * [Connectivity Services](guides/administration/admin-panel/connectivity-services.md)
     * [View Logs](guides/administration/admin-panel/view-logs.md)
     * [Custom sounds](guides/administration/admin-panel/custom-sounds.md)
     * [Federation Dashboard](guides/administration/admin-panel/federation-dashboard.md)
@@ -451,6 +450,10 @@
   * [Photos](guides/brand-and-visual-guidelines/photos.md)
   * [Compositionsed](guides/brand-and-visual-guidelines/compositionsed.md)
   * [Brand Usage Examples](guides/brand-and-visual-guidelines/brand-usage-examples.md)
+* [Enterprise Edition Trial](guides/enterprise-edition-trial/README.md)
+  * [Has Workspace](guides/enterprise-edition-trial/has-workspace.md)
+  * [Does not have a Workspace](guides/enterprise-edition-trial/does-not-have-a-workspace.md)
+  * [Extending Trial](guides/enterprise-edition-trial/extending-trial.md)
 
 ## Contributors
 

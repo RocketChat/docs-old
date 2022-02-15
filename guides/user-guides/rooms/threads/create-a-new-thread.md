@@ -14,4 +14,4 @@ To create a thread,&#x20;
 
 ![](<../../../../.gitbook/assets/image (682) (1).png>)
 
-![](<../../../../.gitbook/assets/image (637) (1).png>)
+![](<../../../../.gitbook/assets/image (637) (1) (1).png>)

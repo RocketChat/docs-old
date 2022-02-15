@@ -18,7 +18,7 @@ A list of RocketChat's pre-defined color variables can be found on **** [**the r
 
 Colors can be set using existing **Expressions** or **Color** by specifying it from the color picker provided.
 
-![](<../../../.gitbook/assets/image (637) (1) (1).png>)
+![](<../../../.gitbook/assets/image (637) (1) (1) (1).png>)
 
 To learn more about setting colors, see the **** [**colors section of the Basic White-labeling guide**](../basic-white-labeling.md#colors).
 
@@ -28,7 +28,7 @@ The section allows you to change the HTML content of certain screens.
 
 * **Home Title:** The title on the header of the first screen that your users will see when they log in.
 
-![](<../../../.gitbook/assets/image (661) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (661) (1) (1) (1) (1) (1).png>)
 
 * **Show "Home Button"**: When enabled, the Home button will be shown on your server's navbar.
 
@@ -44,7 +44,7 @@ The section allows you to change the HTML content of certain screens.
 * **Legal Notice:** By default this screen is accessed on the links under the login page, here you can set the legal notice of your server. Can also be accessed via YOUR-SERVER-URL/legal-notice.
 * **Side navigation footer:** This is the logo or text on the bottom left of the sidebar. We recommend using the images set on your [Assets](../basic-white-labeling.md#assets) for better consistency.
 
-![](<../../../.gitbook/assets/image (670) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (670) (1) (1) (1) (1) (1) (1).png>)
 
 ## Custom CSS
 
@@ -102,7 +102,7 @@ A list of variable names and some old minor colors used before. See the color se
 
 * **Display Roles:** Toggles the display of user roles shown beside the usernames on messages.
 
-![](<../../../.gitbook/assets/image (663) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (663) (1) (1) (1) (1) (1) (1).png>)
 
 * **Group Channels By Type:** Enabling this will separate the channels by category (**Channel**, **Private Room**, **Direct Message** or **Discussion**) on the left sidebar.
 * **Use Full Name Initials to Generate Default Avatar:** This will make so the default avatars are generated using the person's Full Name instead of Username. E.g. By default the user `blue.ducks` with the name `Richards Nate` will have an avatar with the letters `BD`by default but if this setting is active, it will be `RN`.

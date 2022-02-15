@@ -26,7 +26,7 @@ In case You are using a workspace accessible through the internet please follow 
 
 * Paste the code you copied earlier from Connectivity Services in your Rocket.Chat workspace and hit **Continue** to proceed
 
-![](<../../../../.gitbook/assets/image (662).png>)
+![](<../../../../.gitbook/assets/image (662) (1).png>)
 
 * You are then provided with another code from the cloud portal. Copy the code and go back to your local workspace
 

@@ -12,7 +12,7 @@ as shown below:
 
 ![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1).png>)
 
-![](<../../../.gitbook/assets/image (662) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (662) (1) (1) (1) (1).png>)
 
 ## Deployment Info
 
@@ -40,7 +40,7 @@ To apply your offline license from the **License** card of the **Info** dashboar
 
 Click on the **Apply Offline License** at the bottom right of the card.
 
-![](<../../../.gitbook/assets/image (663) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (663) (1) (1) (1) (1) (1).png>)
 
 A modal is presented prompting you to paste the licence you got from the[ RocketChat Cloud Console](https://cloud.rocket.chat/home).
 

@@ -8,11 +8,11 @@ description: >-
 
 Discussions are identified by the discussion symbol:
 
-![](<../../../../.gitbook/assets/image (635).png>)
+![](<../../../../.gitbook/assets/image (635) (1).png>)
 
 On the navigation menu, discussions can be seen under the heading **Discussions** and every discussion is marked with the symbol above:
 
-![](<../../../../.gitbook/assets/image (670) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (670) (1) (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
 Use discussions to tackle down all specific topics related conversations.
