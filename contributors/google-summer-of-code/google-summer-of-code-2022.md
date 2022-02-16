@@ -38,3 +38,37 @@ We are very thankful for the enthusiastic participation of our early contributor
 
 ## Project Ideas
 
+### Federation of Rocket.Chat Servers
+
+* **Mentors:** Matthew Hodgson ([@arathorn](https://github.com/ara4n))  Rodrigo Nascimento ([@rodrigo.nascimento](https://github.com/rodrigok))
+* **Description:** Tens of thousands of Rocket.Chat servers are running at this very minute on the Internet. There is currently no way for users/bots/services of one instance to address or communicate with those from another. This project's mission is to make it possible. You will be working and exchanging ideas with the very best in the field - experts from Matrix.org and Rocket.Chat.
+* **Desirable Skills:** Familiarity with JavaScript development. Demonstrated interest and/or passion on networking and federation protocols research and evolution.
+* **Goal/Deliverable:** The foundation for all Rocket.Chat users/bots/services to optionally communicate with one another, across all connected instances.
+
+### Create a Progressive Web App client
+
+* **Mentors:**  Karl Prieb ([@karl.prieb](https://github.com/karlprieb))
+* **Description:** Create a new PWA client for Rocket.Chat using [Angular](https://angular.io) framework, WebSocket and mobile-first approach.
+* **Desirable Skills:** Some Javascript coding skills would be required to complete this task.
+* **Goal/Deliverable:** A PWA client with basic chat functionality like channels and direct messages list, users status, channel messages, user preferences, etc.
+
+### Improved End-to-End Encryption Implementation (currently feature-named OTR)
+
+* **Mentors:** Marcelo Schmidt ([@marcelo.schmidt](https://github.com/marceloschmidt))  Mitar ([@mitar](https://github.com/mitar))
+* **Description:** Taking and improving our end-to-end encryption implementation. Perhaps replace with more modern protocols, such as [Signal](https://en.wikipedia.org/wiki/Signal\_Protocol).
+* **Desirable Skills:** Some Javascript coding skills and familiarity with cryptography.
+* **Goal/Deliverable:** The ability to have end-to-end encrypted conversations between users. There are various features possible: forward secrecy, online and offline use (do users have to be online at the same time for encryption to be possible), do we store messages on the server, pair or group conversations, encrypted file transfer, etc.
+
+### File uploads and exchanges with OwnCloud
+
+* **Mentors:** Diego Sampaio ([@diego.sampaio](https://github.com/sampaiodiego))  Thomas Müller ([@thomas.muller](https://github.com/DeepDiver1975)) deepdiver1975@gmail.com
+* **Description:**  When you upload a file today in Rocket.Chat, your server may be configured to store it on AWS S3,  Google's object storage, MongoDB's GridFS, or local filesystem. This project adds OwnCloud as an official target destination. In addition, since every user of Rocket.Chat may have her/his own OwnCloud server - some way to support file exchanges with those servers will also be interesting. You will be working with top engineers who actually designed and coded these features, from OwnCloud and Rocket.Chat, on this project.
+* **Desirable Skills:** Familiarity with PHP and JavaScript development. Familiarity with (and already a user of) Rocket.Chat and OwnCloud definitely a plus.
+* **Goal/Deliverable:** Support integrations between OwnCloud and Rocket.Chat as if it was designed-in since the very first day.
+
+### Use of Chromecast as Presentation Room
+
+* **Mentors:** Bradley Hilton ([@graywolf336](https://github.com/graywolf336))
+* **Description:** Use Chromecast as presentation output which shows a chat room and will join any Jitsi / WebRTC meetings that are started in it, this way meetings can be started inside Rocket.Chat and the Chromecast can be on a TV/Monitor inside a conference room.
+* **Desirable Skills:** Some Javascript coding skills will be required to complete this task. Students with WebRTC knowledge and/or who have already produced Chromecast apps are on a good start. A Chromecast is required for this task.
+* **Goal/Deliverable:** Being able to pair a room with Chromecast, displaying it's messages. Chromecast app needs to be able to automatically join a Jitsi/WebRTC video call.
