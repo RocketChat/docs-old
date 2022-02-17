@@ -77,3 +77,25 @@ We are very thankful for the enthusiastic participation of our early contributor
 **Goal/Deliverable:** Proof of concept on repos and actual features migration to new standards.
 
 **Project Duration:** 350 hours.
+
+### **Sidebar UI revamp and UX improvements**
+
+**Mentors:** Ivan Netto
+
+**Description:** Converstions in [Rocket.Chat](http://rocket.chat) can be done in multiple ways but at this stage, we need a scalable interface which would help users to maximaze their daily tasks within the software. The following improviments would speed up users' workflow:
+
+* Ability to collapse sidebar section;
+* Add rooms straight from the its section header;
+* Reduce the types of badge notifications, having to sizes will make the user interface more consistent and therefore, cleaner;
+* Changes in the margins/paddings, which will bring a more robust visual hirarchy and scanning/reading experience;
+* Changes in the colors to improve the readability.
+
+**Desirable Skills:**&#x20;
+
+* Experienced with HTML/CSS
+* Familiarity with TypeScript development
+* Attention on visual details
+
+**Goals/Deliverables:** Improve UX of daily basis tasks on a central touch point of the software.
+
+**Project Duration:** 350 hours.
