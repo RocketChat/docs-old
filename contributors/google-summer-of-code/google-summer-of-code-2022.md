@@ -53,3 +53,19 @@ We are very thankful for the enthusiastic participation of our early contributor
 * **Desirable Skills:** Familiarity with TypeScript development. Demonstrated interest and/or passion for AI and search engines.
 * **Goal/Deliverable:** Code and test chatbots to improve agile team productivity
 * **Project Duration:** 350 hours.
+
+****
+
+### Google Talk like deskop application
+
+****
+
+**Mentors:** Jean Brito
+
+**Description:** Create a simpler desktop application similar to the old Google Talk, is a simple channels list on a little window and each chat will open in another separated window, making it possible to talk with people without opening a big window. Making the usage of [Rocket.chat](http://rocket.chat) more seamless.
+
+**Desirable Skills:** Familiarity with ElectronJS and TypeScript.
+
+**Goal/Deliverable:** Create a listing window for the channels and open each chat on another window, making the chat more popup-like.
+
+**Project Duration:** 350 hours.
