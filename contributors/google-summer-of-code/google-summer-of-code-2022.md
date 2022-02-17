@@ -44,6 +44,7 @@ We are very thankful for the enthusiastic participation of our early contributor
 * **Description:** Agile adoption is increasing year to year on the different industries. There is an opportunity to add agile package bots to help squad with reminders, links and facilitate attendance to meeting based on simple calendar inputs and emoji reactions. Candidate will be working with Agile excperts and Engineers to build some solutions for this space and help pump squads productivity.
 * **Desirable Skills:** Familiarity with TypeScript development. Demonstrated interest and/or passion in Agile and squad productivity tools.
 * **Goal/Deliverable:** Code and test chatbots to improve agile team productivity
+* **Project Duration:** 350 hours.
 
 ### Bot for extracting company information
 
@@ -51,3 +52,4 @@ We are very thankful for the enthusiastic participation of our early contributor
 * **Description:** Finding company information is sometimes troubled and not practical enough. You have to go to different places and links. There is an opportunity to add a “truffle sniffer” bot that helps check if an item you are looking for is on intranet/handbook for the company + learn if replies were good or bad based on emoji reactions. Participant will be working with expert engineers to build an user friendly solution to get all the “good truffles”
 * **Desirable Skills:** Familiarity with TypeScript development. Demonstrated interest and/or passion for AI and search engines.
 * **Goal/Deliverable:** Code and test chatbots to improve agile team productivity
+* **Project Duration:** 350 hours.
