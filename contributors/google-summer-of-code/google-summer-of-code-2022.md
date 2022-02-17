@@ -99,3 +99,18 @@ We are very thankful for the enthusiastic participation of our early contributor
 **Goals/Deliverables:** Improve UX of daily basis tasks on a central touch point of the software.
 
 **Project Duration:** 350 hours.
+
+### **Responsiveness Structure**
+
+**Mentor(s):** Ivan Netto
+
+**Description:** A solid approach to handle multiple screen sizes on the desktop version is a must-have. It'd benefit big range of users, from the ones using small laptops until big widescreens, maximizing the efficiency of use on each case.
+
+**Desirable Skills:**
+
+* Experienced with HTML/CSS
+* Attention on visual details
+
+**Goals/Deliverables:**
+
+**Project Duration:**
