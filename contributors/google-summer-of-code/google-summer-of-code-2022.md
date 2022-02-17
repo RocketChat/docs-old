@@ -38,7 +38,7 @@ We are very thankful for the enthusiastic participation of our early contributor
 
 ## Project Ideas
 
-### Federation of Rocket.Chat Servers
+### Chatbot to improve agile workflow
 
 * **Mentors:** Leonardo Ostjen, Tiago Evangelista & Gabriel Casals
 * **Description:** Agile adoption is increasing year to year on the different industries. There is an opportunity to add agile package bots to help squad with reminders, links and facilitate attendance to meeting based on simple calendar inputs and emoji reactions. Candidate will be working with Agile excperts and Engineers to build some solutions for this space and help pump squads productivity.
