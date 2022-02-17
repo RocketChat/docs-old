@@ -111,6 +111,6 @@ We are very thankful for the enthusiastic participation of our early contributor
 * Experienced with HTML/CSS
 * Attention on visual details
 
-**Goals/Deliverables:**
+**Goals/Deliverables:** Cover the size configuration of the main blocks of the software given its size.
 
-**Project Duration:**
+**Project Duration:** 350 hours
