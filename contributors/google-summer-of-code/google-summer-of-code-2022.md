@@ -114,3 +114,23 @@ We are very thankful for the enthusiastic participation of our early contributor
 **Goals/Deliverables:** Cover the size configuration of the main blocks of the software given its size.
 
 **Project Duration:** 350 hours
+
+### Zoho Employee App
+
+**Mentors:** Jorge Leite & Marcelo Schmidt
+
+**Description:** Zoho Employee is the revamp of the existing Zoho App. This integrates Zoho People with [Rocket.Chat](http://rocket.chat), and lets the users view and modify resources according to their accounts. Zoho People is a very capable employee management system, but opening Zoho for every little thing can get tedious in a busy schedule. This app will make this interfacing much easier, right from [Rocket.Chat](http://rocket.chat).
+
+\
+**Desirable Skills:**
+
+* Familiarity with TypeScript development
+
+**Goals/Deliverables:**
+
+* being able to look up colleague details
+* being able to see upcoming PTOs
+* being able to apply for PTOs
+* being able to apply for reimbursements
+
+**Project Duration:** 350 hours.
