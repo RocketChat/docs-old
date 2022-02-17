@@ -1,6 +1,6 @@
 # Custom Emoji
 
-Rocket.Chat allows you to add custom emoji files that can be used within Rocket.Chat .
+Rocket.Chat allows you to add custom emoji files that can be used within Rocket.Chat. Emojis are a great way of filling emotional cues.
 
 ## Add a Custom Emoji
 

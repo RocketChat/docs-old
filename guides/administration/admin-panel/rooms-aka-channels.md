@@ -4,6 +4,8 @@ description: Here you can view room details, edit rooms and delete rooms.
 
 # Rooms (aka Channels)
 
+Rocket.Chat rooms are basically where any communication or interaction with other users take place. There are various types of rooms, visit the room section to view rooms details, create, edit and delete rooms.
+
 To access this menu, go to **Administration** > **Rooms**.
 
 as shown below:

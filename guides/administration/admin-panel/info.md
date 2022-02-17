@@ -6,6 +6,8 @@ description: >-
 
 # Info
 
+Visit the info section to get insight, statistics and info on the various aspects of your server. This can help you to better evaluate and monitor the various activities.
+
 To access this menu, go to **Administration** > **Info**.
 
 as shown below:
@@ -16,7 +18,7 @@ as shown below:
 
 ## Deployment Info
 
-The deployment info card shows information related to your server deployment.t
+The deployment info card shows information related to your server deployment.
 
 * **Version**: The current version of your RocketChat server. This can be different from the latest version if not updated.
 * **Deployment ID**: Your server's deployment ID.

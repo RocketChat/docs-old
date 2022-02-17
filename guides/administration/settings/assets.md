@@ -4,7 +4,7 @@ description: This allows you set various assets for your server.
 
 # Assets
 
-This section deals with uploading and setting asset files responsible for some of the looks of your server.
+This section deals with uploading and setting asset files responsible for some of the looks of your server. Customizing these assets gives your server a unique and branded look.
 
 To access the assets section, go to **Administration** > **Settings** > **Assets**.
 

@@ -1,6 +1,6 @@
 # Custom User Status
 
-Rocket.Chat allows you to add your custom status other than the default status presets available within Rocket.Chat .
+Rocket.Chat allows you to add your custom status other than the default status presets available within Rocket.Chat.
 
 ## Add a Custom Status
 

@@ -4,11 +4,13 @@ description: This section shows how to setup analytics on your server.
 
 # Analytics
 
+Setting up analytics gives you the possibility to see how users interact with your server and help measure the metrics and monitor the different measures of user experience.
+
 To access analytics, go to **Administration > Analytics.**
 
 From there, you will have access to various configurations that can be done.
 
-{% hint style="info" %}
+{% hint style="success" %}
 Remember to always hit **Save changes** to apply any changes made.
 {% endhint %}
 

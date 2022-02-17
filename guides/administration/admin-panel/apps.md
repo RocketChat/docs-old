@@ -4,9 +4,9 @@ description: You can view the available and installed Rocket.Chat Apps and manag
 
 # Apps
 
-To access apps:&#x20;
+Rocket.Chat Apps provide apps to improve collaboration, boost productivity and get more done. This menu takes you to the Rocket.Chat marketplace where there are many apps to choose from.
 
-Go to **Administration** > **Apps**.
+To access apps, go to **Administration** > **Apps**.
 
 as shown below:
 
@@ -15,7 +15,7 @@ as shown below:
 ![](../../../.gitbook/assets/2022-01-28\_00-12-09.png)
 
 {% hint style="success" %}
-Please note that category filters help you find apps based on your needs. You can choose between multiple categories within the filter to help you find the best app for your workspace users.
+Please note that category filters help you find apps based on your needs. You can choose between multiple categories within the filter to help you find the best app for your Rocket.Chat users.
 {% endhint %}
 
 ![](../../../.gitbook/assets/2022-01-28\_00-07-07.png)
