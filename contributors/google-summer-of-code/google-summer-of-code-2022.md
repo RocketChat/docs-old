@@ -38,6 +38,24 @@ We are very thankful for the enthusiastic participation of our early contributor
 
 ## Project Ideas
 
+### Tasks and workflow automation App with n8n
+
+**Mentor(s):** Chris Skelly
+
+**Description:** Tasks automation systems that compose workflow out of a   chain of multiple on-line services is becoming very common and popular.   Services such as [Zapier](https://zapier.com) and [n8n](https://n8n.io) are used by millions daily.   n8n one of the most popular open source alternatives available. \
+\
+This project involves the creation of a Rocket.Chat app that connects to n8n, enabling Rocket.Chat to participate richly in the n8n ecosystem. \
+\
+There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocketchat)available.  We want to extend this, with the help of a Rocket.Chat app,  to support the rich feature set offered by Rocket.Chat. &#x20;
+
+**Desirable Skills:** Familiarity with Typescript  and Rocket.Chat App development.
+
+**Goal/Deliverable:**  Rocket.Chat node in n8n and associated Rocket.Chat App
+
+**Project Duration:** 175 hours.
+
+
+
 ### Chatbot to improve agile workflow
 
 * **Mentors:** Leonardo Ostjen, Tiago Evangelista & Gabriel Casals
