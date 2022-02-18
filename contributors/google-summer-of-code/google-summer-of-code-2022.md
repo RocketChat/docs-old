@@ -181,7 +181,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 350 hours.
 
-### Improve Navigation of Mobile Client
+### Improve Navigation in Mobile Client
 
 **Mentor(s):** Daniel Silva
 
