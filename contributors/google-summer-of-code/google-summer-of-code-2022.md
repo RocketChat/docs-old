@@ -38,6 +38,18 @@ We are very thankful for the enthusiastic participation of our early contributor
 
 ## Project Ideas
 
+
+
+### Forwarding messages
+
+* **Mentor(s):** Milton Rucks
+* **Description:** Forwarding messages is a highly requested feature of Rocket.chat. It will ensure a smoother user experience and more productivity to users. This project aims to develop this feature for the web application. &#x20;
+* **Desirable Skills:** Familiarity with JavaScript and TypeScript development
+* **Goal/Deliverable:**&#x20;
+  * Being able to forward messages and files to multiple users and channels
+  * Being able to add aditional messages on the top of fowarded content
+* **Project Duration:** 350 hours.
+
 ### Tasks and workflow automation App with n8n
 
 **Mentor(s):** Chris Skelly
