@@ -152,3 +152,21 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 * being able to apply for reimbursements
 
 **Project Duration:** 350 hours.
+
+### Figma Integration (Rocket.Chat App)
+
+**Mentor(s):** Douglas Gubert & Alvaro Mello
+
+**Description:** This project brings Figma's life right into Rocket.Chat.
+
+**Desirable Skills:** Familiarity with TypeScript development.
+
+**Goals/Deliverables:**
+
+* being notified on
+  * new comment on a file
+  * being invitated
+  * being tagged in a file
+* replying and commenting in files right from Rocket.Chat
+
+**Project Duration:** 350 hours.
