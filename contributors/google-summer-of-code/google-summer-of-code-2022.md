@@ -180,3 +180,15 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 **Desired Skills:** Familiarity with JavaScript development
 
 **Project Duration:** 350 hours.
+
+### Improve Navigation of Mobile Client
+
+**Mentor(s):** Daniel Silva
+
+**Description:** Navigation is one of the most important parts of a mobile application. We've been using [React Navigation](https://reactnavigation.org) as our navigation library and we need to update it from v5 to v6, which contains a few nice new features. The same applies to [react-native-screens](https://github.com/software-mansion/react-native-screens), which released support to Fabric recently. After these updates, we're planning to evaluate native-stack.
+
+**Desirable Skills:** Experience with React Native and React Navigation.
+
+**Goals/Deliverables:** Update react-navigation and react-native-screens to latest and apply native-stack
+
+**Project Duration:** 350 hours.
