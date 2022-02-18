@@ -120,7 +120,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 ### **Responsiveness Structure**
 
-**Mentor(s):** Ivan Netto
+**Mentor(s):** Jordana Miranda
 
 **Description:** A solid approach to handle multiple screen sizes on the desktop version is a must-have. It'd benefit big range of users, from the ones using small laptops until big widescreens, maximizing the efficiency of use on each case.
 
