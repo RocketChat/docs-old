@@ -145,7 +145,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 ### Zoho Employee App
 
-**Mentors:**&#x20;
+**Mentors:** Jorge leite & Marcelo Schmidt
 
 **Description:** Zoho Employee is the revamp of the existing Zoho App. This integrates Zoho People with [Rocket.Chat](http://rocket.chat), and lets the users view and modify resources according to their accounts. Zoho People is a very capable employee management system, but opening Zoho for every little thing can get tedious in a busy schedule. This app will make this interfacing much easier, right from [Rocket.Chat](http://rocket.chat).
 
@@ -239,7 +239,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 ### Rocket.Chat Golang SDK
 
-Mentor(s): Cauê Felchar, Aaron Ogle
+Mentor(s): Cauê Felchar, Felipe Menelau
 
 Description: Golang module to enable any Go packge to talk to a Rocket.Chat server with ease, making it possible to create from custom clients to bots.
 
@@ -254,14 +254,14 @@ Project Duration: 350 hours.
 
 ### Rocket.Chat TUI
 
-**Mentor(s):** Aaron Ogle
+**Mentor(s):** Aaron Ogle, Debdut Chakraborty
 
-Description: Rocket.Chat has desktop, web and mobile clients, time for a fourth, a TUI client. This project brings Rocket.Chat right into your terminal. By design this is to be extremely lightweight and blazing fast for basic functions, with the only noticeable latency source being the SDK calls.
+**Description:** Rocket.Chat has desktop, web and mobile clients, time for a fourth, a TUI client. This project brings Rocket.Chat right into your terminal. By design this is to be extremely lightweight and blazing fast for basic functions, with the only noticeable latency source being the SDK calls.
 
 **Desired Skills:**&#x20;
 
 * Golang knowledge is required
-* Any modern TUI package knowledge is preferred
+* Any modern TUI package knowledge is preferred ([https://charm.sh](https://charm.sh), [https://github.com/charmbracelet/bubbles](https://github.com/charmbracelet/bubbles))
 * Knowledge of termios and/or VTE is a bonus
 
 **Goals/Deliverables:**
