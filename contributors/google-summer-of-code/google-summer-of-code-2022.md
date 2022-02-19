@@ -140,8 +140,6 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 * Familiarity with TypeScript development
 
-**Project Duration:** 350 hours.
-
 **Goals/Deliverables:**
 
 * being able to look up colleague details
