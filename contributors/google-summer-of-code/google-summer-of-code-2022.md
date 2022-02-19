@@ -195,12 +195,47 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 ### Improve Navigation in Mobile Client
 
-**Mentor(s):** Daniel Silva
+**Mentor(s):** Daniel Silva, Diego Mello
 
 **Description:** Navigation is one of the most important parts of a mobile application. We've been using [React Navigation](https://reactnavigation.org) as our navigation library and we need to update it from v5 to v6, which contains a few nice new features. The same applies to [react-native-screens](https://github.com/software-mansion/react-native-screens), which released support to Fabric recently. After these updates, we're planning to evaluate native-stack.
 
 **Desirable Skills:** Experience with React Native and React Navigation.
 
 **Goals/Deliverables:** Update react-navigation and react-native-screens to latest and apply native-stack
+
+**Project Duration:** 350 hours.
+
+### Improve Mobile Client Animations
+
+**Mentor(s):** Gerzon Canario, Diego Mello
+
+**Description:** [react-native-reanimated](https://github.com/software-mansion/react-native-reanimated) is the de facto animation library for React Native and they recently released their v2, changing the whole API to a more straight forward way. You're going to make use of this library to rewrite our animations from scratch. You're also going to apply Layout Animation on Android, a long-awaited feature.\
+Desirable skills: Experience with React Native and react-native-reanimated v2. Preferred, but optional: the student needs a Macbook to test animations on iOS.
+
+**Desirable Skills:** Knowledge of React Native and react-native-animated is preferred
+
+**Goals/Deliverables:** Apply reanimated v2 to dropdown, RoomItem swipe and ImageViewer and apply LayoutAnimations from v2
+
+**Project Duration:** 350 hours.
+
+### Mobile Client: Redesigned MessageBox
+
+**Mentor(s):** Diego Mello
+
+**Description:** We redesigned our Messagebox, also know as message composer, from scratch to make it easier to use, composable and following a more modern UX. You're going to implement gesture animations to record audio messages from the start. This is one of the most important components from our app.
+
+**Desirable Skills:** Experience with React Native and [react-native-reanimated](https://github.com/software-mansion/react-native-reanimated). Required: Macbook to test iOS.
+
+**Project Duration:** 350 hours.
+
+### New Emoji Picker for Mobile Client
+
+**Mentor(s):** Daniel Silva, Diego Mello
+
+**Description:** Actions sheets are a very common UX pattern used for users to interact with quick actions on a fast and easy way. [react-native-bottom-sheet](https://github.com/gorhom/react-native-bottom-sheet) has growth a lot recently and it's been receiving love from the community. That's why we want to migrate to it. While doing this migration, we want to make dynamic, so we can render the emoji picker inside of it. You're going to be designing the new emoji picker from scratch.
+
+**Desirable skills:** Experience with React Native.
+
+**Goals/Deliverables:** Switch to [https://github.com/gorhom/react-native-bottom-sheet](https://github.com/gorhom/react-native-bottom-sheet), make it dynamic enough so it can render emojis picker. Apply the new design.
 
 **Project Duration:** 350 hours.
