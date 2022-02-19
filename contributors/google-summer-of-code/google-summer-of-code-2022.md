@@ -239,18 +239,18 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 ### Rocket.Chat Golang SDK
 
-Mentor(s): Cauê Felchar, Felipe Menelau
+**Mentor(s):** Cauê Felchar, Felipe Menelau
 
-Description: Golang module to enable any Go packge to talk to a Rocket.Chat server with ease, making it possible to create from custom clients to bots.
+**Description:** Golang module to enable any Go packge to talk to a Rocket.Chat server with ease, making it possible to create from custom clients to bots.
 
-Goals/Deliverables:&#x20;
+**Goals/Deliverables:**&#x20;
 
 * Create new models and update existing as needed
 * Add receivers for top level endpoints for rest api according to [https://developer.rocket.chat/reference/api/rest-api](https://developer.rocket.chat/reference/api/rest-api/endpoints)
 * Improve realtime module as needed and complete any missing receivers according to [https://developer.rocket.chat/reference/api/realtime-api](https://developer.rocket.chat/reference/api/realtime-api)
 * Follow a test driven approach, add tests to each method to verify its robustness and evade regressions across releases
 
-Project Duration: 350 hours.
+**Project Duration:** 350 hours.
 
 ### Rocket.Chat TUI
 
@@ -273,5 +273,28 @@ Project Duration: 350 hours.
 * Ability to create room resources like channels, private groups, discussions, direct messages
 * User mentions (including @all, @here)
 * No-UI slashcommand implementations (/create, /invite, /invite-all-from, /invite-to-from, /join)
+
+**Project Duration:** 350 hours.
+
+### Big Blue Button x Rocket.Chat Integration
+
+**Mentors:** Debdut Chakraborty, Sing Li
+
+**Description:** Big Blue Button is one of the most popular open source video conferencing tool available today. This project's aim is to integrate it with Rocket.Chat via an app. You will work speificially with MConf's verison of BBB.&#x20;
+
+**Desirable Skills:**
+
+* Familiarity with TypeScript development
+* REST API
+
+**Goals/Deliverables:**
+
+* Create meeting rooms using a slashcommand
+* Join meetings with a slashcommand
+* Handle existing recordings (view/modify)
+* Handling recurring meeting schedules (Apply template for bi-weeklies, weeklies, monthlies)
+  * Notify on pre-configured channels on Rocket.Chat
+* Save meeting recordings automatically on an independent video archiving system
+  * Notify once action completes
 
 **Project Duration:** 350 hours.
