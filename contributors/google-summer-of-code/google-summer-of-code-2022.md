@@ -40,13 +40,18 @@ We are very thankful for the enthusiastic participation of our early contributor
 
 ### Forwarding messages
 
-* **Mentor(s):** Milton Rucks
-* **Description:** Forwarding messages is a highly requested feature of Rocket.chat. It will ensure a smoother user experience and more productivity to users. This project aims to develop this feature for the web application. &#x20;
-* **Desirable Skills:** Familiarity with JavaScript and TypeScript development
-* **Goal/Deliverable:**&#x20;
-  * Being able to forward messages and files to multiple users and channels
-  * Being able to add aditional messages on the top of fowarded content
-* **Project Duration:** 350 hours.
+**Mentor(s):** Milton Rucks
+
+**Description:** Forwarding messages is a highly requested feature of Rocket.chat. It will ensure a smoother user experience and more productivity to users. This project aims to develop this feature for the web application. &#x20;
+
+**Desirable Skills:** Familiarity with JavaScript and TypeScript development
+
+**Goal/Deliverable:**&#x20;
+
+* Being able to forward messages and files to multiple users and channels
+* Being able to add aditional messages on the top of fowarded content
+
+**Project Duration:** 350 hours.
 
 ### Tasks and workflow automation App with n8n
 
@@ -66,19 +71,27 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 ### Chatbot to improve agile workflow
 
-* **Mentors:** Leonardo Ostjen, Tiago Evangelista & Gabriel Casals
-* **Description:** Agile adoption is increasing year to year on the different industries. There is an opportunity to add agile package bots to help squad with reminders, links and facilitate attendance to meeting based on simple calendar inputs and emoji reactions. Candidate will be working with Agile excperts and Engineers to build some solutions for this space and help pump squads productivity.
-* **Desirable Skills:** Familiarity with TypeScript development. Demonstrated interest and/or passion in Agile and squad productivity tools.
-* **Goal/Deliverable:** Code and test chatbots to improve agile team productivity
-* **Project Duration:** 350 hours.
+**Mentors:** Leonardo Ostjen, Tiago Evangelista & Gabriel Casals
+
+**Description:** Agile adoption is increasing year to year on the different industries. There is an opportunity to add agile package bots to help squad with reminders, links and facilitate attendance to meeting based on simple calendar inputs and emoji reactions. Candidate will be working with Agile excperts and Engineers to build some solutions for this space and help pump squads productivity.
+
+**Desirable Skills:** Familiarity with TypeScript development. Demonstrated interest and/or passion in Agile and squad productivity tools.
+
+**Goal/Deliverable:** Code and test chatbots to improve agile team productivity
+
+**Project Duration:** 350 hours.
 
 ### Bot for extracting company information
 
-* **Mentors:** Kevin Aleman
-* **Description:** Finding company information is sometimes troubled and not practical enough. You have to go to different places and links. There is an opportunity to add a “truffle sniffer” bot that helps check if an item you are looking for is on intranet/handbook for the company + learn if replies were good or bad based on emoji reactions. Participant will be working with expert engineers to build an user friendly solution to get all the “good truffles”
-* **Desirable Skills:** Familiarity with TypeScript development. Demonstrated interest and/or passion for AI and search engines.
-* **Goal/Deliverable:** Code and test chatbots to improve agile team productivity
-* **Project Duration:** 350 hours.
+**Mentors:** Kevin Aleman
+
+**Description:** Finding company information is sometimes troubled and not practical enough. You have to go to different places and links. There is an opportunity to add a “truffle sniffer” bot that helps check if an item you are looking for is on intranet/handbook for the company + learn if replies were good or bad based on emoji reactions. Participant will be working with expert engineers to build an user friendly solution to get all the “good truffles”
+
+**Desirable Skills:** Familiarity with TypeScript development. Demonstrated interest and/or passion for AI and search engines.
+
+**Goal/Deliverable:** Code and test chatbots to improve agile team productivity
+
+**Project Duration:** 350 hours.
 
 ### Standalone Desktop Messaging cross-platforms Applet
 
