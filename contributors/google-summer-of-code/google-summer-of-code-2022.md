@@ -52,9 +52,9 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Goal/Deliverable:**  Rocket.Chat node in n8n and associated Rocket.Chat App
 
-**Project Duration:** 175 hours.\
-\
-Rocket.Chat In-App Chat ReactJS SDK
+**Project Duration:** 175 hours.
+
+### Rocket.Chat In-App Chat ReactJS SDK
 
 **Mentor(s):**  Rohan Lekhwani
 
@@ -63,7 +63,7 @@ Rocket.Chat In-App Chat ReactJS SDK
 
 **Goals/Deliverables:**  Standlone mini-chat React component that can be easily installed into any ReactJS based web app
 
-**Project Duration:** 350 hours.
+**Project Duration:** 175 hours.
 
 ### Rocket.Chat Golang SDK
 
