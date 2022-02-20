@@ -208,7 +208,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 350 hours.
 
-### Rocket.Chat TUI
+### Rocket.Chat Text Terminal Client (TUI)
 
 **Mentor(s):** Aaron Ogle, Debdut Chakraborty
 
