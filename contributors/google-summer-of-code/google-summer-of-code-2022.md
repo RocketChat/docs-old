@@ -52,7 +52,18 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Goal/Deliverable:**  Rocket.Chat node in n8n and associated Rocket.Chat App
 
-**Project Duration:** 175 hours.
+**Project Duration:** 175 hours.\
+\
+Rocket.Chat In-App Chat ReactJS SDK
+
+**Mentor(s):**  Rohan Lekhwani
+
+**Description:**  Create a ready-to-go  easy to embed mini-chat React component.    This component should be configurable to use any public channel  on a Rocket.Chat server.   Authentication should be flexibly configurable to existing Rocket.Chat server token, or via an independent IDM or auth service. \
+**Desired Skills:** ReactJS component creation experience, understanding of Rocket.Chat server internals
+
+**Goals/Deliverables:**  Standlone mini-chat React component that can be easily installed into any ReactJS based web app
+
+**Project Duration:** 350 hours.
 
 ### Rocket.Chat Golang SDK
 
@@ -75,7 +86,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Description:** Create a simpler desktop application similar to the old Google Talk (see [2005 GoogleTalk UI ](https://en.wikipedia.org/wiki/Google\_Talk#/media/File:Google\_Talk\_Labs\_Edition\_\(screenshot\).png)here), is a simple channels list on a little window and each chat will open in another separated window, making it possible to talk with people without opening a big window. Making the usage of [Rocket.chat](http://rocket.chat) more seamless.  This project will make extensive use of Rocket.Chat's In-App Chat APIs (REST APIs).
 
-**Desirable Skills:** Familiarity with ElectronJS and TypeScript.
+**Desired Skills:** Familiarity with ElectronJS and TypeScript.
 
 **Goal/Deliverable:** Standalone app that is deployable on all platforms supported by Electron - Windows, Mac, Linux, and more.   The App will display a listing window for the channels and open each chat on another window, making the chat more popup-like.
 
