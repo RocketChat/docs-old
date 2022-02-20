@@ -242,7 +242,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 * Save meeting recordings automatically on an independent video archiving system
   * Notify once action completes
 
-**Project Duration:** 350 hours.
+**Project Duration:** 175 hours.
 
 ### Open Source Project Rewrite
 
@@ -254,7 +254,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Goal/Deliverable:** Proof of concept on repos and actual features migration to new standards.
 
-**Project Duration:** 350 hours.
+**Project Duration:** 175 hours.
 
 ### Chatbot to improve agile workflow
 
@@ -266,7 +266,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Goal/Deliverable:** Code and test chatbots to improve agile team productivity
 
-**Project Duration:** 350 hours.
+**Project Duration:** 175 hours.
 
 ### Zoho Employee App
 
