@@ -42,7 +42,7 @@ We are very thankful for the enthusiastic participation of our early contributor
 
 **Mentor(s):** Chris Skelly
 
-**Description:** Tasks automation systems that compose workflow out of a   chain of multiple on-line services is becoming very common and popular.   Services such as [Zapier](https://zapier.com) and [n8n](https://n8n.io) are used by millions daily.   n8n one of the most popular open source alternatives available. \
+**Description:** Tasks automation systems that compose workflow out of a   chain of multiple on-line services is becoming very common and popular.   Services such as [Zapier](https://zapier.com) and [n8n](https://n8n.io) are used by millions daily.   n8n is one of the most popular open source alternatives available. \
 \
 This project involves the creation of a Rocket.Chat app that connects to n8n, enabling Rocket.Chat to participate richly in the n8n ecosystem. \
 \
@@ -232,26 +232,15 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 350 hours.
 
-### Big Blue Button x Rocket.Chat Integration
+### weekly video  meeting and  archive App - Big Blue Button + Rocket.Chat
 
-**Mentors:** Debdut Chakraborty, Sing Li
+**Mentors:** Debdut Chakraborty, Felipe Cecagno, Sing Li
 
-**Description:** Big Blue Button is one of the most popular open source video conferencing tool available today. This project's aim is to integrate it with Rocket.Chat via an app. You will work speificially with MConf's verison of BBB.&#x20;
+**Description:** Big Blue Button is one of the most popular open source virtual classroom  and conferencing tool available today. This project's is a very simple integration with Rocket.Chat for conducting a weekly meeting and maintaining the recording video archive.   Mentors will include both Rocket.Chat and Big Blue Button experts.
 
-**Desirable Skills:**
+**Desirable Skills:**   Familiarity with TypeScript development.   Experience with AVideo.  &#x20;
 
-* Familiarity with TypeScript development
-* REST API
-
-**Goals/Deliverables:**
-
-* Create meeting rooms using a slashcommand
-* Join meetings with a slashcommand
-* Handle existing recordings (view/modify)
-* Handling recurring meeting schedules (Apply template for bi-weeklies, weeklies, monthlies)
-  * Notify on pre-configured channels on Rocket.Chat
-* Save meeting recordings automatically on an independent video archiving system
-  * Notify once action completes
+**Goals/Deliverables:**     A Rocket.Chat App that will enable users in a channel to join an existing weekly meeting if it is in progress. Or query for recorded meeting videos and view them.
 
 **Project Duration:** 175 hours.
 
