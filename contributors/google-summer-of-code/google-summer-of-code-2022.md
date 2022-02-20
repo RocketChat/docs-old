@@ -76,18 +76,6 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 350 hours.
 
-### Open Source Project Rewrite
-
-**Mentors:** Jorge Leite
-
-**Description:** Migrating from one technology, coding language or framework is something quite common on an industry that is constantly evolving. Having people with knowledge on performing this during early stages of their career and understanding the steps to do so is not quite as common. On this project the participant will be performing features and repos re-writes and builds while getting mentoring on clean code, unit testing, quality standards and best practices on agile software development.
-
-**Desirable Skills:** Familiarity with JavaScript and TypeScript development.
-
-**Goal/Deliverable:** Proof of concept on repos and actual features migration to new standards.
-
-**Project Duration:** 350 hours.
-
 ### **Sidebar UI revamp and UX improvements**
 
 **Mentors:** Ivan Netto
@@ -116,25 +104,6 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 * Being able to forward messages and files to multiple users and channels
 * Being able to add aditional messages on the top of fowarded content
-
-**Project Duration:** 350 hours.
-
-### Zoho Employee App
-
-**Mentors:** Jorge leite & Marcelo Schmidt
-
-**Description:** Zoho Employee is the revamp of the existing Zoho App. This integrates Zoho People with [Rocket.Chat](http://rocket.chat), and lets the users view and modify resources according to their accounts. Zoho People is a very capable employee management system, but opening Zoho for every little thing can get tedious in a busy schedule. This app will make this interfacing much easier, right from [Rocket.Chat](http://rocket.chat).
-
-**Desirable Skills:**
-
-* Familiarity with TypeScript development
-
-**Goals/Deliverables:**
-
-* being able to look up colleague details
-* being able to see upcoming PTOs
-* being able to apply for PTOs
-* being able to apply for reimbursements
 
 **Project Duration:** 350 hours.
 
@@ -275,6 +244,18 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 350 hours.
 
+### Open Source Project Rewrite
+
+**Mentors:** Jorge Leite
+
+**Description:** Migrating from one technology, coding language or framework is something quite common on an industry that is constantly evolving. Having people with knowledge on performing this during early stages of their career and understanding the steps to do so is not quite as common. On this project the participant will be performing features and repos re-writes and builds while getting mentoring on clean code, unit testing, quality standards and best practices on agile software development.
+
+**Desirable Skills:** Familiarity with JavaScript and TypeScript development.
+
+**Goal/Deliverable:** Proof of concept on repos and actual features migration to new standards.
+
+**Project Duration:** 350 hours.
+
 ### Chatbot to improve agile workflow
 
 **Mentors:** Leonardo Ostjen, Tiago Evangelista & Gabriel Casals
@@ -284,6 +265,25 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 **Desirable Skills:** Familiarity with TypeScript development. Demonstrated interest and/or passion in Agile and squad productivity tools.
 
 **Goal/Deliverable:** Code and test chatbots to improve agile team productivity
+
+**Project Duration:** 350 hours.
+
+### Zoho Employee App
+
+**Mentors:** Jorge leite & Marcelo Schmidt
+
+**Description:** Zoho Employee is the revamp of the existing Zoho App. This integrates Zoho People with [Rocket.Chat](http://rocket.chat), and lets the users view and modify resources according to their accounts. Zoho People is a very capable employee management system, but opening Zoho for every little thing can get tedious in a busy schedule. This app will make this interfacing much easier, right from [Rocket.Chat](http://rocket.chat).
+
+**Desirable Skills:**
+
+* Familiarity with TypeScript development
+
+**Goals/Deliverables:**
+
+* being able to look up colleague details
+* being able to see upcoming PTOs
+* being able to apply for PTOs
+* being able to apply for reimbursements
 
 **Project Duration:** 350 hours.
 
