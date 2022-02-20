@@ -54,6 +54,21 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 175 hours.
 
+### Rocket.Chat Golang SDK
+
+**Mentor(s):** Cauê Felchar, Felipe Menelau
+
+**Description:** Golang module to enable any Go packge to talk to a Rocket.Chat server with ease, making it possible to create from custom clients to bots.
+
+**Goals/Deliverables:**&#x20;
+
+* Create new models and update existing as needed
+* Add receivers for top level endpoints for rest api according to [https://developer.rocket.chat/reference/api/rest-api](https://developer.rocket.chat/reference/api/rest-api/endpoints)
+* Improve realtime module as needed and complete any missing receivers according to [https://developer.rocket.chat/reference/api/realtime-api](https://developer.rocket.chat/reference/api/realtime-api)
+* Follow a test driven approach, add tests to each method to verify its robustness and evade regressions across releases
+
+**Project Duration:** 350 hours.
+
 ### Standalone Desktop Messaging cross-platforms Applet
 
 **Mentor(s):** Jean Brito
@@ -179,21 +194,6 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 **Desirable skills:** Experience with React Native.
 
 **Goals/Deliverables:** Switch to [https://github.com/gorhom/react-native-bottom-sheet](https://github.com/gorhom/react-native-bottom-sheet), make it dynamic enough so it can render emojis picker. Apply the new design.
-
-**Project Duration:** 350 hours.
-
-### Rocket.Chat Golang SDK
-
-**Mentor(s):** Cauê Felchar, Felipe Menelau
-
-**Description:** Golang module to enable any Go packge to talk to a Rocket.Chat server with ease, making it possible to create from custom clients to bots.
-
-**Goals/Deliverables:**&#x20;
-
-* Create new models and update existing as needed
-* Add receivers for top level endpoints for rest api according to [https://developer.rocket.chat/reference/api/rest-api](https://developer.rocket.chat/reference/api/rest-api/endpoints)
-* Improve realtime module as needed and complete any missing receivers according to [https://developer.rocket.chat/reference/api/realtime-api](https://developer.rocket.chat/reference/api/realtime-api)
-* Follow a test driven approach, add tests to each method to verify its robustness and evade regressions across releases
 
 **Project Duration:** 350 hours.
 
