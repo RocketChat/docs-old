@@ -103,13 +103,13 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 350 hours.
 
-### Native identity verification for Omni-Channel
+### Native identity verification for Omnichannel
 
 **Mentor(s):** Kevin Aleman
 
-**Description:** Security is one of the pillars of the [Rocket.Chat](http://rocket.chat) platform, regardless of the use case: Internal or external communication. Therefore, the outcome expected from this project is a new and native identity verification mechanism for Omnichannel end-users, such as Live Chat visitors who, depending on the use case, have to provide personal data like email addresses, etc. [Rocket.Chat](http://rocket.chat) already has in place a similar confirmation mechanism for user verification, such as 2FA, email, etc. The contributor will have the freedom to propose ideas and design the best solution for the problem described.
+**Description:**  This project investigates and implements a new and "native" identity verification mechanism for Omnichannel end-users, such as Live Chat visitors who, depending on the use case, have to provide personal data like email addresses, etc. [Rocket.Chat](http://rocket.chat) already has in place a similar confirmation mechanism for user verification, such as 2FA, email, etc. The contributor will have the freedom to propose ideas and design the best solution for the problem described.
 
-**Desired Skills:** Familiarity with JavaScript development
+**Desired Skills:** Familiarity with JavaScript development.   Good understanding of the architecture of Rocket.Chat's omnichannel implementation.
 
 **Project Duration:** 350 hours.
 
