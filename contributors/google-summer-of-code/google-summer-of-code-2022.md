@@ -176,9 +176,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Mentor(s):** TBD
 
-**Description:**  &#x20;
-
-Slack is a very popular closed source team chat solution.   Rocket.Chat has built-in support for a primitive bridging solution with Slack.   This project aims to improve the capabilities of this bridge, extending it to  cover the rich features that both Rocket.Chat and Slack have.   The project should also make the bridge easier to deploy, this may involve the extraction of the bridge's code and refactor into either a Rocket.Chat App or an npm module.   New code/architecture should ensure stability of the bridge when deployed in the new scaled Rocket.Chat deployment configurations.
+**Description:**   Slack is a very popular closed source team chat solution.   Rocket.Chat has built-in support for a primitive bridging solution with Slack.   This project aims to improve the capabilities of this bridge, extending it to  cover the rich features that both Rocket.Chat and Slack have.   The project should also make the bridge easier to deploy, this may involve the extraction of the bridge's code and refactor into either a Rocket.Chat App or an npm module.   New code/architecture should ensure stability of the bridge when deployed in the new scaled Rocket.Chat deployment configurations.
 
 **Desired Skills:** Familiarity with Typescript and Javascript development.  Familiarity with Slack's REST APIs.  An interest in crafting  bridges between communications platforms.
 
