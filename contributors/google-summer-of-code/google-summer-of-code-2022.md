@@ -103,7 +103,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 350 hours.
 
-### Native identity verification for Omnichannel
+### Omnichannel users identity verification&#x20;
 
 **Mentor(s):** Kevin Aleman
 
@@ -111,7 +111,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Desired Skills:** Familiarity with JavaScript development.   Good understanding of the architecture of Rocket.Chat's omnichannel implementation.
 
-**Project Duration:** 350 hours.
+**Project Duration:** 175 hours.
 
 ### **IRC Bridge :   improve ease of deployment and stability**&#x20;
 
