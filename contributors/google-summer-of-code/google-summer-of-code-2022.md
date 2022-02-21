@@ -229,6 +229,16 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 350 hours.
 
+### Team Bridge:  interop with Microsoft Team
+
+**Mentor(s):** TBD
+
+**Description:**   Microsoft team is unquestionably the most popular and frequently used closed source team chat system in the world.   Many administrators and users of open source Rocket.Chat team chat will have needs to bridge between their open source users and legacy users still on team.  This project will create a Rocket.Chat App or an npm module that will act as a bridge  between Rocket.Chat and Microsoft Team.    Users on one system should be able to chat with the other through shared channels.   Support for rich interactions including DM, emoji's, embedded graphics, shared youtube links and so on should also be supported.   The exact scope for this project will be determined between the contributor and the mentors.
+
+**Desired Skills:** Familiarity with Typescript and Javascript development.  Familiarity with Microsoft Team's available APIs.  An interest in crafting  bridges between communications platforms.
+
+**Project Duration:** 350 hours.
+
 ### Rocket.Chat Text Terminal Client (TUI)
 
 **Mentor(s):** Aaron Ogle, Debdut Chakraborty
