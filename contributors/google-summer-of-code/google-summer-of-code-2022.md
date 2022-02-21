@@ -67,7 +67,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 ### Chatbot SDK:   Botpress
 
-**Mentor(s):**   Duda Nogueira
+**Mentor(s):**   Frank Dase,  Duda Nogueira
 
 **Description:**  Botpress is a popular open source framework for creation and execution of chatbots.   This project creates an SDK (based on the current JS SDK)  that will ease the Rocket.Chat  deployment of  Botpress chatbots and omnichannel bots.     \
 **Desired Skills:** Javascript and Typescript development.   Keen interest in Bots and Chatbots.
