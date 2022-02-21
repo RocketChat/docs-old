@@ -139,18 +139,18 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 350 hours.
 
-### Forwarding messages
+### Message forwarding
 
 **Mentor(s):** Milton Rucks
 
-**Description:** Forwarding messages is a highly requested feature of Rocket.chat. It will ensure a smoother user experience and more productivity to users. This project aims to develop this feature for the web application. &#x20;
+**Description:** Implement the ability to forward messages to another channel,  thread, or discussion.   This is a high demand capability that is currently missing in Rocket.Chat.  It can significantly improve the user's experience and her/his productivity. The scope of this project will be limited to the web application (not for mobile apps).
 
 **Desirable Skills:** Familiarity with JavaScript and TypeScript development
 
 **Goal/Deliverable:**&#x20;
 
 * Being able to forward messages and files to multiple users and channels
-* Being able to add aditional messages on the top of fowarded content
+* Being able to add additional messages on the top of forwarded content
 
 **Project Duration:** 350 hours.
 
