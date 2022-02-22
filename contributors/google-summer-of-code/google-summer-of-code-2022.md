@@ -91,6 +91,18 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 350 hours.
 
+### **Rocket.Chat for Virtual Conferences - Eventyay integration**
+
+**Mentors:** Sing Li&#x20;
+
+**Description:**  Create a totally open source end-to-end solution for planning, management and running of online virtual events.    Investigate integration with FOSSASIA's Eventyay platform for even planning and management.   Day of event conference handling should be done by integrating RC4Community's virtual conference NextJS component with open-event-next - or create an even tighter integration with RC4Community. &#x20;
+
+**Desired Skills:**  ReactJS and NextJS development experience.   Fluent with Python development.   Good understanding of video conference technology (such as Jitsi) and realtime chat platforms (such as Rocket.Chat).  \
+\
+**Goals/Deliverables:**   Open source virtual conference system integrating Rocket.Chat and Eventyay.  &#x20;
+
+**Project Duration: 350** hours.
+
 ### Standalone Desktop Messaging cross-platforms Applet
 
 **Mentor(s):** Jean Brito
