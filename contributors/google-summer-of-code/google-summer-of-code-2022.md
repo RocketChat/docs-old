@@ -33,7 +33,7 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 #### **Shout out to our early contributors**
 
-We are very thankful for the enthusiastic participation of our early contributors.   The learning curve for Rocket.Chat's huge production code base is known to be very steep and they are getting a head-start even before the announcement of the GSoC 2022 program.  Check out our [GSoC 2022 Leaderboard](https://gsoc.rocket.chat), to see their amazing  contributions:   30 Merged PRs, 61 Open PRs, and 75 Issues as of Feb 10, 2022.\
+We are very thankful for the enthusiastic participation of our early contributors.   The learning curve for Rocket.Chat's huge production code base is known to be very steep and they are getting a head-start even before the announcement of the GSoC 2022 program.  Check out our [GSoC 2022 Leaderboard](https://gsoc.rocket.chat),  to see their amazing  contributions:  31 Merged PRs, 69 Open PRs, and 83 issues. as of Feb 20, 2022.\
 
 
 ## Project Ideas
