@@ -12,7 +12,7 @@ Our trials are fully featured. So if you enter your card information in the bill
 
 #### How do I cancel my trial?
 
-You can cancel your Rocket.Chat workplace directly within the [Cloud Console](https://cloud.rocket.chat>).
+You can cancel your Rocket.Chat workplace directly within the Cloud Console.
 
 ## Data Export
 

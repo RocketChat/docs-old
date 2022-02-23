@@ -2,8 +2,9 @@
 
 If you do not have your workspace registered on the cloud already, you can get it set up and make use of the Enterprise Edition Trial.
 
-* Go to [https://cloud.rocket.chat/trial/ee ](https://cloud.rocket.chat/trial/ee)and create an account or sign in if you already have one.\
-  This guide proceeds with creating a new account
+* Go to [https://cloud.rocket.chat/trial/ee ](https://cloud.rocket.chat/trial/ee)and create a [Rocket.Chat cloud](../../rocket.chat-saas/cloud-account/) account or sign in if you already have one.
+
+This guide proceeds with creating a new account
 
 ![](<../../.gitbook/assets/image (644).png>)
 
@@ -15,12 +16,12 @@ If you do not have your workspace registered on the cloud already, you can get i
 
 ![](<../../.gitbook/assets/image (639).png>)
 
-1. **Install Rocket.Chat**: You can follow our guides on installing your own Rocket.Chat instance.
-2. **Lauch a Cloud Workspace**: Get your workspace automatically launched on Rocket.Chat cloud.
+1. **Install Rocket.Chat**: You can follow our guides on [installing your own Rocket.Chat instance](../../quick-start/installing-and-updating/).
+2. **Launch a Cloud Workspace**: Get your workspace automatically launched on Rocket.Chat cloud.
 3. **Register self-manage**: This lets you register your workspace if you have an instance setup already.
 
 {% hint style="info" %}
-This guide will proceed with registering a self-managed workspace.
+The guide as follow will show the next steps to apply your EE trial license after having a workspace deployed.
 {% endhint %}
 
 * Click on **Register self-managed**
@@ -32,6 +33,9 @@ This guide will proceed with registering a self-managed workspace.
 ![](<../../.gitbook/assets/image (673).png>)
 
 * After copying the token and head back to your server's **Administration** > **Admin Panel** > **Connectivity Services**  Click on the **Register Workspace**&#x20;
+
+![](<../../.gitbook/assets/image (653).png>)
+
 * You are prompted to enter your Cloud Console Token. Remember the token we copied above? Paste it in the Token field and then click **Connect**.
 
 ![](<../../.gitbook/assets/image (674).png>)

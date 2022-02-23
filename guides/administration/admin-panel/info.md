@@ -111,7 +111,7 @@ To see more on federation settings, click on **Settings** at the bottom right of
 
 A modal is seen, fill the needed information and hit **Next**
 
-![](<../../../.gitbook/assets/image (653) (1).png>)
+![](<../../../.gitbook/assets/image (653) (1) (1).png>)
 
 * **Domain**: Add the domain name that your server should be linked to.
 * **Discovery Method**: A dropdown to select which discoverability mode to use e.g `DNS` or `HUB`

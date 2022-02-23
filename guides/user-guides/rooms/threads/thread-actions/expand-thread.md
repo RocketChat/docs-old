@@ -10,4 +10,4 @@ To expand a thread, click on the **expand icon** on the thread's header
 
 When a thread has been expanded, you can click back on the same icon to collapse.
 
-![](<../../../../../.gitbook/assets/image (653).png>)
+![](<../../../../../.gitbook/assets/image (653) (1).png>)
