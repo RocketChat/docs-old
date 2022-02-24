@@ -1,6 +1,6 @@
 # Guidelines for Law Enforcement
 
-Last updated: February 21st, 2021
+Last updated: February 24, 2022
 
 These guidelines are intended for law enforcement authorities seeking information about Rocket.Chat accounts. More general information is available in our [Privacy Policy](https://rocket.chat/privacy) and [Terms of Service](https://rocket.chat/terms).
 
@@ -103,7 +103,7 @@ Preservation requests, in accordance with applicable law, should:
 
 We may honor requests for extensions of preservation requests, but encourage law enforcement agencies to seek records through the appropriate channels in a timely manner, as we cannot guarantee that requested information will be available.
 
-Law enforcement and government preservation requests for user information may be submitted to our legal team at [legal@rocket.chat](mailto:legal@rocket.chat). You can find further instructions below.
+Law enforcement and government preservation requests for user information must be submitted to our legal team at [legal@rocket.chat](mailto:legal@rocket.chat). You can find further instructions below.
 
 ## Requests for Rocket.Chat Cloud or Community Server account information
 
@@ -151,7 +151,7 @@ Rocket.Chat evaluates emergency disclosure requests on a case-by-case basis in c
 
 ### How to make an emergency disclosure request
 
-If there is an exigent emergency that involves the danger of death or serious physical injury to a person that Rocket.Chat may have information necessary to prevent, law enforcement officers can submit an emergency disclosure request through [legal@rocket.chat](mailto:legal@rocket.chat).
+If there is an exigent emergency that involves the danger of death or serious physical injury to a person that Rocket.Chat may have information necessary to prevent, law enforcement officers must submit an emergency disclosure request through [legal@rocket.chat](mailto:legal@rocket.chat).
 
 Please include all of the following information:
 
@@ -172,4 +172,4 @@ Rocket.Chat Technologies Corp. 251 Little Falls Drive, Wilmington, DE, 19808
 
 Receipt of correspondence is for convenience only and does not waive any objections, including the lack of jurisdiction or proper service.
 
-Electronic communication should go to: [legal@rocket.chat](mailto:legal@rocket.chat)
+Electronic communication must go to: [legal@rocket.chat](mailto:legal@rocket.chat)
