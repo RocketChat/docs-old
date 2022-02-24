@@ -279,11 +279,11 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Mentors:** Debdut Chakraborty, Felipe Cecagno, Sing Li
 
-**Description:** Big Blue Button is one of the most popular open source virtual classroom  and conferencing tool available today. This project's is a very simple integration with Rocket.Chat for conducting a weekly meeting and maintaining the recording video archive.   Mentors will include both Rocket.Chat and Big Blue Button experts.
+**Description:** Big Blue Button is one of the most popular open source virtual classroom  and conferencing tool available today. This project is a very simple integration with Rocket.Chat for conducting a weekly meeting and maintaining the recording video archive. Mentors will include both Rocket.Chat and Big Blue Button experts.
 
-**Desirable Skills:**   Familiarity with TypeScript development.   Experience with AVideo.  &#x20;
+**Desirable Skills:**   Familiarity with TypeScript development. Experience with AVideo.&#x20;
 
-**Goals/Deliverables:**     A Rocket.Chat App that will enable users in a channel to join an existing weekly meeting if it is in progress. Or query for recorded meeting videos and view them.
+**Goals/Deliverables:**  A Rocket.Chat App that will enable users in a channel to join an existing weekly meeting if it is in progress. Or query for recorded meeting videos and view them.
 
 **Project Duration:** 175 hours.
 
@@ -342,4 +342,128 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 350 hours.
 
-###
+### GitHub Integration (Rocket.Chat App)
+
+**Mentor(s):** actively seeking mentors
+
+**Description:** GitHub is the largest centralized location for hosting open source projects. This app will enable the users to perform many GitHub activities right from Rocket.Chat.
+
+Goals/Deliverables:
+
+**Desired Skills:**
+
+* Familiarity with TypeScript development
+* GitHub API
+
+_Project Duration:_
+
+### Time Management App
+
+Mentor(s): actively seeking mentors
+
+Description:&#x20;
+
+### ClickUp Integration (Rocket.Chat App)
+
+Mentor(s): actively seeking mentors
+
+Description: ClickUp is an extremely feature rich collaboration and project management tool, used by many organizations. When used on a daily basis, going back and forth for the simple things like checking a task's status or changing that task's status can get tedious pretty quick. This app will make it easier for Rocket.Chat users to perform simple clickup tasks without having to leave the platform, making team communications more efficient, and team members more productive.
+
+Goals/Deliverables:
+
+Desired Skills:
+
+* Familiarity with TypeScript development
+* ClickUp API
+
+Project Duration:
+
+### Kopano Integration (Rocket.Chat App)
+
+Mentor(s): actively seeking mentors
+
+Description: Kopano is an open-source groupware application suite. The goal of this project is to integrate Kopano with Rocket.Chat via an app, that enables the users to use various Kopano features from within Rocket.Chat.
+
+Goals/Deliverables:
+
+Desired Skills:
+
+* Familiarity with TypeScript development
+* Knowledge of Kopano integrations and APIs is a plus ([https://kopano.com/products/groupware/integrations-apis/](https://kopano.com/products/groupware/integrations-apis/))
+
+**Project Duration:**
+
+### OnlyOffice Integration (Rocket.Chat App)
+
+Mentor(s): actively seeking mentors
+
+Description: OnlyOffice is a free and open source office and productivity suite. You will work on integrating both OnlyOffice with Rocket.Chat, making it easy to interact with an OnlyOffice server right from Rocket.Chat.
+
+Goals/Deliverables:
+
+Desired Skills:&#x20;
+
+* Familiarity with TypeScript development
+* OnlyOffice API
+
+Project Duration:
+
+### Outlook Calendar Integration (Rocket.Chat App)
+
+Mentor(s): actively seeking mentors
+
+Description: You will build an app, that will enable Rocket.Chat users to manage their outlook calendar events without having to switch between multiple platforms. You will get help from top class mentors from the open source community throughout the project duration.
+
+Goals/Deliverables:
+
+Desired Skills:
+
+* Familiarity with TypeScript development
+* Outlook calendar API
+
+Project Duration:
+
+### Microsoft OneDrive Integration (Rocket.Chat App)
+
+Mentor(s): actively seeking mentors
+
+Description: Microsoft OneDrive is a file hosting service. In this project, you will create an app that will help the users manage their onedrive files right from Rocket.Chat.
+
+Goals/Deliverables:
+
+Desired Skills:
+
+* Familiarity with TypeScript development
+* OneDrive API
+
+Project Duration:
+
+### DropBox Integration (Rocket.Chat App)
+
+Mentor(s): actively seeking mentors
+
+Description: Dropbox is a file hosting service. You will create an app that will help the users manage their dropbox files easily directly from Rocket.Chat.
+
+Goals/Deliverables:
+
+Desired Goals:
+
+* Familiarity with TypeScript development
+* DropBox API
+
+Project Duration:
+
+### Asana Integration (Rocket.Chat App)
+
+Mentor(s): actively seeking mentors
+
+Description: Asana is a web and mobile work management platform designed to help teams organize, track, and manage their work. In this project you will create a Rocket.Chat app that will make it possible for the users to manage their Asana projects without having to leave the platform, consequently making the teams more efficient and productive.&#x20;
+
+Goals/Deliverables:
+
+Desired Skills:
+
+* Familiarity with TypeScript development
+* Asana API
+
+Project Duration:
