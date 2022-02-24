@@ -38,6 +38,8 @@ We are very thankful for the enthusiastic participation of our early contributor
 
 ## Project Ideas
 
+This list is being updated regularly.
+
 ### Tasks and workflow automation App with n8n
 
 **Mentor(s):** Chris Skelly
@@ -357,27 +359,6 @@ Goals/Deliverables:
 
 _Project Duration:_
 
-### Time Management App
-
-Mentor(s): actively seeking mentors
-
-Description:&#x20;
-
-### ClickUp Integration (Rocket.Chat App)
-
-Mentor(s): actively seeking mentors
-
-Description: ClickUp is an extremely feature rich collaboration and project management tool, used by many organizations. When used on a daily basis, going back and forth for the simple things like checking a task's status or changing that task's status can get tedious pretty quick. This app will make it easier for Rocket.Chat users to perform simple clickup tasks without having to leave the platform, making team communications more efficient, and team members more productive.
-
-Goals/Deliverables:
-
-Desired Skills:
-
-* Familiarity with TypeScript development
-* ClickUp API
-
-Project Duration:
-
 ### Kopano Integration (Rocket.Chat App)
 
 Mentor(s): actively seeking mentors
@@ -467,3 +448,26 @@ Desired Skills:
 * Asana API
 
 Project Duration:
+
+### Time Management App
+
+Mentor(s): actively seeking mentors
+
+Description:&#x20;
+
+### ClickUp Integration (Rocket.Chat App)
+
+Mentor(s): actively seeking mentors
+
+Description: ClickUp is an extremely feature rich collaboration and project management tool, used by many organizations. When used on a daily basis, going back and forth for the simple things like checking a task's status or changing that task's status can get tedious pretty quick. This app will make it easier for Rocket.Chat users to perform simple clickup tasks without having to leave the platform, making team communications more efficient, and team members more productive.
+
+Goals/Deliverables:
+
+Desired Skills:
+
+* Familiarity with TypeScript development
+* ClickUp API
+
+Project Duration:
+
+###
