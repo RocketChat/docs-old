@@ -2,7 +2,7 @@
 
 This section explains how to connect your Rocket.Chat instance for the 30 days Enterprise Trial.
 
-The Rocket.Chat Enterprise and Cloud benefits give to possibilities to;
+The Rocket.Chat Enterprise and Cloud benefits give possibilities to;
 
 * Send mobile push notifications
 * Receive and send messages with external providers (WhatsApp, Facebook, Instagram, Telegram, Twitter)
@@ -26,3 +26,9 @@ This can be done at the **Administration** panel, navigate or search for **Setup
 ![](<../../.gitbook/assets/image (643).png>)
 
 Below is guide to follow on how to get the Enterprise Edition Trial if you **** [**have a workspace**](has-workspace.md), **** [**not have a workspace**](does-not-have-a-workspace.md) and also how to [**extend EE Trial**](extending-trial.md)****
+
+Visit this section on how to use the Rocket.Chat Cloud
+
+{% content-ref url="../../rocket.chat-saas/cloud-account/" %}
+[cloud-account](../../rocket.chat-saas/cloud-account/)
+{% endcontent-ref %}
