@@ -343,7 +343,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Mentors:** Leonardo Ostjen, Tiago Evangelista & Gabriel Casals
 
-**Description:** Agile adoption is increasing year to year on the different industries. There is an opportunity to add agile package bots to help squad with reminders, links and facilitate attendance to meeting based on simple calendar inputs and emoji reactions. Candidate will be working with Agile excperts and Engineers to build some solutions for this space and help pump squads productivity.   Successful contributor will propose a  Chatbot that solves a problem in agile.   Candidate have a free choice of  technology to implement the chatbot  -  RASA,  Botpress,  Dialogflow, and so on. &#x20;
+**Description:** Agile adoption is increasing year to year on the different industries. There is an opportunity to add agile package bots to help squad with reminders, links and facilitate attendance to meeting based on simple calendar inputs and emoji reactions. Candidate will be working with Agile experts and Engineers to build some solutions for this space and help improve  team/squads productivity.   Successful contributor will propose and implement a  Chatbot that solves a problem in agile.   Candidate have a free choice of  technology to implement the chatbot  -  RASA,  Botpress,  Dialogflow, and so on. &#x20;
 
 **Desirable Skills:** Familiarity with TypeScript development. Demonstrated interest and/or passion in Agile and squad productivity tools.
 
@@ -353,40 +353,19 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Difficulty:** Easy
 
-### Zoho Employee App
+### Zoho App
 
 **Mentors:** Jorge leite & Marcelo Schmidt
 
 **Description:** Zoho Employee is the revamp of the existing Zoho App. This integrates Zoho People with [Rocket.Chat](http://rocket.chat), and lets the users view and modify resources according to their accounts. Zoho People is a very capable employee management system, but opening Zoho for every little thing can get tedious in a busy schedule. This app will make this interfacing much easier, right from [Rocket.Chat](http://rocket.chat).
 
-**Desirable Skills:**
+**Desirable Skills:**   Familiarity with TypeScript development.  Zoho REST APIs.
 
-* Familiarity with TypeScript development
+**Goals/Deliverables:**  A Rocket.Chat App that is  able to look up colleague details,  see upcoming PTOs, apply for PTOs,  and apply for reimbursements.
 
-**Goals/Deliverables:**
-
-* being able to look up colleague details
-* being able to see upcoming PTOs
-* being able to apply for PTOs
-* being able to apply for reimbursements
-
-**Project Duration:** 350 hours.
+**Project Duration:** 175 hours.
 
 **Difficulty:** Easy
-
-### Bot for extracting company information
-
-**Mentors:** Kevin Aleman
-
-**Description:** Finding company information is sometimes troubled and not practical enough. You have to go to different places and links. There is an opportunity to add a “truffle sniffer” bot that helps check if an item you are looking for is on intranet/handbook for the company + learn if replies were good or bad based on emoji reactions. Participant will be working with expert engineers to build an user friendly solution to get all the “good truffles”
-
-**Desirable Skills:** Familiarity with TypeScript development. Demonstrated interest and/or passion for AI and search engines.
-
-**Goal/Deliverable:** Code and test chatbots to improve agile team productivity
-
-**Project Duration:** 350 hours.
-
-**Difficulty:** Medium
 
 ### GitHub  App
 
