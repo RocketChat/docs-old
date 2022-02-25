@@ -449,11 +449,20 @@ Desired Skills:
 
 Project Duration:
 
-### Time Management App
+### Pomodoro Time Management App
 
 Mentor(s): actively seeking mentors
 
-Description:&#x20;
+Description:  With remote work now becoming the norm,  lack of essential time management skills can thrown work/life out of balance and resulting in burn-out or dangerous mental wellness problems.   [Pomodoro](https://science.nichd.nih.gov/confluence/display/newsletter/2020/05/07/The+Pomodoro+Technique%3A+An+Effective+Time+Management+Tool)  is a proven and easy to adopt time management technique practiced by millions world wide.   This project involves the creation of an always available pomodoro timer Rocket.Chat App. &#x20;
+
+Goals/Deliverables: A Pomodoro timer Rocket.Chat App&#x20;
+
+Desired Skills:
+
+* Familiarity with TypeScript development
+* User of the pomodoro time management technique
+
+Project Duration: 175
 
 ### ClickUp App
 
@@ -461,13 +470,13 @@ Mentor(s): actively seeking mentors
 
 Description: ClickUp is an extremely feature rich collaboration and project management tool, used by many organizations. When used on a daily basis, going back and forth for the simple things like checking a task's status or changing that task's status can get tedious pretty quick. This app will make it easier for Rocket.Chat users to perform simple clickup tasks without having to leave the platform, making team communications more efficient, and team members more productive.
 
-Goals/Deliverables:
+Goals/Deliverables: Rocket.Chat App with ClickUp integration features.
 
 Desired Skills:
 
 * Familiarity with TypeScript development
 * ClickUp API
 
-Project Duration:
+Project Duration: 350
 
 ###
