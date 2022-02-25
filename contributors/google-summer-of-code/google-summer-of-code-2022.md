@@ -348,31 +348,25 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Mentor(s):** actively seeking mentors
 
-**Description:** GitHub is the largest centralized location for hosting open source projects. This app will enable the users to perform many GitHub activities right from Rocket.Chat.
+**Description:** GitHub is the largest centralized repository for hosting open source projects. This app will enable the users to perform many GitHub activities right from Rocket.Chat.  Including query of issues and PRs, code modification logs,  and announcement of events - such as new releases, PR merged, and so on.&#x20;
 
-Goals/Deliverables:
+Goals/Deliverables:  Rocket.Chat App integrating common Github features
 
-**Desired Skills:**
+**Desired Skills:**   Familiarity with TypeScript development.   GitHub API
 
-* Familiarity with TypeScript development
-* GitHub API
-
-_Project Duration:_
+_Project Duration:  175 hours_
 
 ### Kopano App
 
 Mentor(s): actively seeking mentors
 
-Description: Kopano is an open-source groupware application suite. The goal of this project is to integrate Kopano with Rocket.Chat via an app, that enables the users to use various Kopano features from within Rocket.Chat.
+Description: Kopano is an open-source groupware application suite. The goal of this project is to integrate Kopano as a  Rocket.Chat  app.   The app enables the users to use various Kopano features from within Rocket.Chat.  Exact scope of this project will require some work from the contributor during  proposal research period.
 
-Goals/Deliverables:
+Goals/Deliverables:  Rocket.Chat App integrating Kopano features.
 
-Desired Skills:
+Desired Skills:  Familiarity with TypeScript development  Knowledge of Kopano integrations and APIs is a plus ([https://kopano.com/products/groupware/integrations-apis/](https://kopano.com/products/groupware/integrations-apis/))
 
-* Familiarity with TypeScript development
-* Knowledge of Kopano integrations and APIs is a plus ([https://kopano.com/products/groupware/integrations-apis/](https://kopano.com/products/groupware/integrations-apis/))
-
-**Project Duration:**
+**Project Duration:  350 hours**
 
 ### OnlyOffice App
 
