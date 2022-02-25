@@ -344,7 +344,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 350 hours.
 
-### GitHub Integration (Rocket.Chat App)
+### GitHub  App
 
 **Mentor(s):** actively seeking mentors
 
@@ -359,7 +359,7 @@ Goals/Deliverables:
 
 _Project Duration:_
 
-### Kopano Integration (Rocket.Chat App)
+### Kopano App
 
 Mentor(s): actively seeking mentors
 
@@ -374,7 +374,7 @@ Desired Skills:
 
 **Project Duration:**
 
-### OnlyOffice Integration (Rocket.Chat App)
+### OnlyOffice App
 
 Mentor(s): actively seeking mentors
 
@@ -389,7 +389,7 @@ Desired Skills:&#x20;
 
 Project Duration:
 
-### Outlook Calendar Integration (Rocket.Chat App)
+### Outlook Calendar  App
 
 Mentor(s): actively seeking mentors
 
@@ -404,7 +404,7 @@ Desired Skills:
 
 Project Duration:
 
-### Microsoft OneDrive Integration (Rocket.Chat App)
+### OneDrive App
 
 Mentor(s): actively seeking mentors
 
@@ -419,7 +419,7 @@ Desired Skills:
 
 Project Duration:
 
-### DropBox Integration (Rocket.Chat App)
+### DropBox  App
 
 Mentor(s): actively seeking mentors
 
@@ -434,7 +434,7 @@ Desired Goals:
 
 Project Duration:
 
-### Asana Integration (Rocket.Chat App)
+### Asana  App
 
 Mentor(s): actively seeking mentors
 
@@ -455,7 +455,7 @@ Mentor(s): actively seeking mentors
 
 Description:&#x20;
 
-### ClickUp Integration (Rocket.Chat App)
+### ClickUp App
 
 Mentor(s): actively seeking mentors
 
