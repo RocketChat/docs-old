@@ -84,6 +84,20 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Difficulty:** Medium
 
+### Multi-bots support for Dialogflow App and Rasa App
+
+**Mentor(s):** Murtaza Patrawala
+
+**Description:** The idea here is to improve the existing Omnichannel Chatbot integrations (Dialogflow and Rasa), by allowing them to connect multiple chatbot accounts to a single [Rocket.chat](http://rocket.chat) server. Right now, the app is only equipped to deal with a single bot which means users can only interact with a bot within a single domain and a single language. But, if we allow connecting multiple bots via a single app, then we can solve this problem, thus allowing companies to serve chatbots in multiple languages, across multiple domains, right from a single [Rocket.Chat](http://rocket.chat) instance.
+
+**Desirable Skills:** Familiarity with TypeScript development. Familiarity with [Rocket.Chat](http://rocket.chat) App's development framework\
+\
+**Goals/Deliverables:** Framework supporting the connection of multiple Dialogflow/Rasa bots to a single [Rocket.Chat](http://rocket.chat) instance.
+
+**Project Duration:** 350 hours.
+
+**Difficulty:**  Medium&#x20;
+
 ### Rocket.Chat Golang SDK
 
 **Mentor(s):** Cauê Felchar, Felipe Menelau
