@@ -56,6 +56,8 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 175 hours.
 
+**Difficulty:** Medium
+
 ### Rocket.Chat In-App Chat ReactJS SDK
 
 **Mentor(s):**  Rohan Lekhwani
@@ -67,6 +69,8 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 175 hours.
 
+**Difficulty:** Medium
+
 ### Chatbot SDK:   Botpress
 
 **Mentor(s):**   Frank Dase,  Duda Nogueira
@@ -77,6 +81,8 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 **Goals/Deliverables:**  SDK for deploying Botpress bots on Rocket.Chat.  Possibly a Rocket.Chat App connector.  A couple of example chatbots (running in a channel, and running in omnichannel) plus documentation.
 
 **Project Duration:** 175 hours.
+
+**Difficulty:** Medium
 
 ### Rocket.Chat Golang SDK
 
@@ -93,6 +99,8 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 350 hours.
 
+**Difficulty:** Easy
+
 ### **Rocket.Chat for Virtual Conferences - Eventyay integration**
 
 **Mentors:** Sing Li&#x20;
@@ -104,6 +112,8 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 **Goals/Deliverables:**   Open source virtual conference system integrating Rocket.Chat and Eventyay.  &#x20;
 
 **Project Duration: 350** hours.
+
+**Difficulty:** Hard
 
 ### Standalone Desktop Messaging cross-platforms Applet
 
@@ -117,6 +127,8 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 350 hours.
 
+**Difficulty:** Hard
+
 ### Omnichannel users identity verification&#x20;
 
 **Mentor(s):** Kevin Aleman
@@ -127,6 +139,8 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 175 hours.
 
+**Difficulty:** Hard
+
 ### **IRC Bridge :   improve ease of deployment and stability**&#x20;
 
 **Mentors:** TBD
@@ -136,6 +150,8 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 **Goals/Deliverables:**  Familiarity with Typescript development.   User of IRC and an understanding of how it works.   An understanding of how Rocket.Chat scales.
 
 **Project Duration:** 175 hours.
+
+**Difficulty:** Hard
 
 ### **Sidebar UI revamp and UX improvements**
 
@@ -153,6 +169,8 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 350 hours.
 
+**Difficulty:** Hard
+
 ### Message forwarding
 
 **Mentor(s):** Milton Rucks
@@ -168,6 +186,8 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 350 hours.
 
+**Difficulty:** Medium
+
 ### Figma Integration (Rocket.Chat App)
 
 **Mentor(s):** Douglas Gubert & Alvaro Mello
@@ -180,11 +200,11 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 * being notified on
   * new comment on a file
-  * being invitated
-  * being tagged in a file
 * replying and commenting in files right from Rocket.Chat
 
 **Project Duration:** 350 hours.
+
+**Difficulty:** Easy
 
 ### Slack Bridge:  rich interop and better deployment
 
@@ -195,6 +215,8 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 **Desired Skills:** Familiarity with Typescript and Javascript development.  Familiarity with Slack's REST APIs.  An interest in crafting  bridges between communications platforms.
 
 **Project Duration:** 350 hours.
+
+**Difficulty:** Medium
 
 ### Improve Navigation in Mobile Client
 
@@ -207,6 +229,8 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 **Goals/Deliverables:** Update react-navigation and react-native-screens to latest and apply native-stack
 
 **Project Duration:** 350 hours.
+
+**Difficulty:** Medium
 
 ### Improve Mobile Client Animations
 
@@ -221,6 +245,8 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 350 hours.
 
+**Difficulty:** Hard
+
 ### Mobile Client: Redesigned MessageBox
 
 **Mentor(s):** Diego Mello
@@ -230,6 +256,8 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 **Desirable Skills:** Experience with React Native and [react-native-reanimated](https://github.com/software-mansion/react-native-reanimated). Required: Macbook to test iOS.
 
 **Project Duration:** 350 hours.
+
+**Difficulty:** Medium
 
 ### New Emoji Picker for Mobile Client
 
@@ -243,6 +271,8 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 350 hours.
 
+**Difficulty:** Medium
+
 ### Team Bridge:  interop with Microsoft Team
 
 **Mentor(s):** TBD
@@ -252,6 +282,8 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 **Desired Skills:** Familiarity with Typescript and Javascript development.  Familiarity with Microsoft Team's available APIs.  An interest in crafting  bridges between communications platforms.
 
 **Project Duration:** 350 hours.
+
+**Difficulty:** Medium
 
 ### Rocket.Chat Text Terminal Client (TUI)
 
@@ -277,6 +309,8 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 350 hours.
 
+**Difficulty:** Medium
+
 ### weekly video  meeting and  archive App - Big Blue Button + Rocket.Chat
 
 **Mentors:** Debdut Chakraborty, Felipe Cecagno, Sing Li
@@ -288,6 +322,8 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 **Goals/Deliverables:**  A Rocket.Chat App that will enable users in a channel to join an existing weekly meeting if it is in progress. Or query for recorded meeting videos and view them.
 
 **Project Duration:** 175 hours.
+
+**Difficulty:** Easy
 
 ### Open Source Project Rewrite
 
@@ -301,6 +337,8 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 175 hours.
 
+**Difficulty:** Easy
+
 ### Chatbot to improve agile workflow
 
 **Mentors:** Leonardo Ostjen, Tiago Evangelista & Gabriel Casals
@@ -312,6 +350,8 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 **Goal/Deliverable:** Code and test chatbots to improve agile team productivity
 
 **Project Duration:** 175 hours.
+
+**Difficulty:** Easy
 
 ### Zoho Employee App
 
@@ -332,6 +372,8 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 350 hours.
 
+**Difficulty:** Easy
+
 ### Bot for extracting company information
 
 **Mentors:** Kevin Aleman
@@ -343,6 +385,8 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 **Goal/Deliverable:** Code and test chatbots to improve agile team productivity
 
 **Project Duration:** 350 hours.
+
+**Difficulty:** Medium
 
 ### GitHub  App
 
@@ -356,6 +400,8 @@ Goals/Deliverables:  Rocket.Chat App integrating common Github features
 
 _Project Duration:  175 hours_
 
+**Difficulty:** _Medium_
+
 ### Kopano App
 
 Mentor(s): actively seeking mentors
@@ -367,6 +413,8 @@ Goals/Deliverables:  Rocket.Chat App integrating Kopano features.
 Desired Skills:  Familiarity with TypeScript development  Knowledge of Kopano integrations and APIs is a plus ([https://kopano.com/products/groupware/integrations-apis/](https://kopano.com/products/groupware/integrations-apis/))
 
 **Project Duration:  350 hours**
+
+**Difficulty:** Hard
 
 ### OnlyOffice App
 
@@ -380,6 +428,8 @@ Desired Skills:  Familiarity with TypeScript development.   OnlyOffice API
 
 Project Duration:  175 hours
 
+**Difficulty:** Medium
+
 ### Outlook Calendar  App
 
 Mentor(s): actively seeking mentors
@@ -391,6 +441,8 @@ Goals/Deliverables:  Rocket.Chat App with Outlook Calendar management features.
 Desired Skills:   Familiarity with TypeScript development.   Outlook calendar API
 
 Project Duration: 350 hours
+
+**Difficulty:** Medium
 
 ### OneDrive App
 
@@ -406,6 +458,8 @@ Desired Skills:   Familiarity with TypeScript development.   OneDrive API
 
 Project Duration:  175 hours
 
+**Difficulty:** Medium
+
 ### DropBox  App
 
 Mentor(s): actively seeking mentors
@@ -420,6 +474,8 @@ Desired Skills:   Familiarity with TypeScript development.    DropBox API
 
 Project Duration: 175 hours
 
+**Difficulty:** Medium
+
 ### Asana  App
 
 Mentor(s): actively seeking mentors
@@ -431,6 +487,8 @@ Goals/Deliverables:  Rocket.Chat App with Asana features Integrated
 Desired Skills:   Familiarity with TypeScript development.    Asana API
 
 Project Duration:  175 hours
+
+**Difficulty:** Medium
 
 ### Pomodoro Time Management App
 
@@ -444,6 +502,8 @@ Desired Skills:   Familiarity with TypeScript development.  User of the pomodoro
 
 Project Duration: 175 hours
 
+**Difficulty:** Easy
+
 ### ClickUp App
 
 Mentor(s): actively seeking mentors
@@ -455,5 +515,7 @@ Goals/Deliverables: Rocket.Chat App with ClickUp integration features.
 Desired Skills:   Familiarity with TypeScript development.    ClickUp API
 
 Project Duration: 350 hours
+
+**Difficulty:** Medium
 
 ###
