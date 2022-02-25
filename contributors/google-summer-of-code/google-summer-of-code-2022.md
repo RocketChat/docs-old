@@ -378,31 +378,25 @@ Desired Skills:
 
 Mentor(s): actively seeking mentors
 
-Description: OnlyOffice is a free and open source office and productivity suite. You will work on integrating both OnlyOffice with Rocket.Chat, making it easy to interact with an OnlyOffice server right from Rocket.Chat.
+Description: OnlyOffice is a free and open source office and productivity suite. You will work on integrating OnlyOffice with Rocket.Chat, making it easy to interact with an OnlyOffice server right from Rocket.Chat.
 
-Goals/Deliverables:
+Goals/Deliverables:  Rocket.Chat App integrating features of OnlyOffice
 
-Desired Skills:&#x20;
+Desired Skills:  Familiarity with TypeScript development.   OnlyOffice API
 
-* Familiarity with TypeScript development
-* OnlyOffice API
-
-Project Duration:
+Project Duration:  175 hours
 
 ### Outlook Calendar  App
 
 Mentor(s): actively seeking mentors
 
-Description: You will build an app, that will enable Rocket.Chat users to manage their outlook calendar events without having to switch between multiple platforms. You will get help from top class mentors from the open source community throughout the project duration.
+Description: You will build an app, that will enable Rocket.Chat users to manage their outlook calendar events without having to switch between multiple platforms.&#x20;
 
-Goals/Deliverables:
+Goals/Deliverables:  Rocket.Chat App with Outlook Calendar management features.
 
-Desired Skills:
+Desired Skills:   Familiarity with TypeScript development.   Outlook calendar API
 
-* Familiarity with TypeScript development
-* Outlook calendar API
-
-Project Duration:
+Project Duration: 350 hours
 
 ### OneDrive App
 
@@ -454,7 +448,7 @@ Goals/Deliverables: A Pomodoro timer Rocket.Chat App&#x20;
 
 Desired Skills:   Familiarity with TypeScript development.  User of the pomodoro time management technique
 
-Project Duration: 175
+Project Duration: 175 hours
 
 ### ClickUp App
 
@@ -466,6 +460,6 @@ Goals/Deliverables: Rocket.Chat App with ClickUp integration features.
 
 Desired Skills:   Familiarity with TypeScript development.    ClickUp API
 
-Project Duration: 350
+Project Duration: 350 hours
 
 ###
