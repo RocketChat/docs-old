@@ -408,31 +408,29 @@ Project Duration:
 
 Mentor(s): actively seeking mentors
 
-Description: Microsoft OneDrive is a file hosting service. In this project, you will create an app that will help the users manage their onedrive files right from Rocket.Chat.
+Description: Microsoft OneDrive is a file hosting service. In this project, you will create an app that will help the users manage their onedrive files right from Rocket.Chat.\
+\
+Optional second part of the project entails making OneDrive a possible storage provider for file uploads.
 
-Goals/Deliverables:
+Goals/Deliverables:  Rocket.Chat App integrating file management for OneDrive.
 
-Desired Skills:
+Desired Skills:   Familiarity with TypeScript development.   OneDrive API
 
-* Familiarity with TypeScript development
-* OneDrive API
-
-Project Duration:
+Project Duration:  175 hours
 
 ### DropBox  App
 
 Mentor(s): actively seeking mentors
 
-Description: Dropbox is a file hosting service. You will create an app that will help the users manage their dropbox files easily directly from Rocket.Chat.
+Description: Dropbox is a file hosting service. You will create an app that will help the users manage their dropbox files easily directly from Rocket.Chat.\
+\
+Optional second part of the project entails making DropBox a possible storage provider for file uploads.
 
-Goals/Deliverables:
+Goals/Deliverables:  Rocket.Chat App with DropBox operations integrated\
+\
+Desired Skills:   Familiarity with TypeScript development.    DropBox API
 
-Desired Goals:
-
-* Familiarity with TypeScript development
-* DropBox API
-
-Project Duration:
+Project Duration: 175 hours
 
 ### Asana  App
 
@@ -440,27 +438,21 @@ Mentor(s): actively seeking mentors
 
 Description: Asana is a web and mobile work management platform designed to help teams organize, track, and manage their work. In this project you will create a Rocket.Chat app that will make it possible for the users to manage their Asana projects without having to leave the platform, consequently making the teams more efficient and productive.&#x20;
 
-Goals/Deliverables:
+Goals/Deliverables:  Rocket.Chat App with Asana features Integrated
 
-Desired Skills:
+Desired Skills:   Familiarity with TypeScript development.    Asana API
 
-* Familiarity with TypeScript development
-* Asana API
-
-Project Duration:
+Project Duration:  175 hours
 
 ### Pomodoro Time Management App
 
 Mentor(s): actively seeking mentors
 
-Description:  With remote work now becoming the norm,  lack of essential time management skills can thrown work/life out of balance and resulting in burn-out or dangerous mental wellness problems.   [Pomodoro](https://science.nichd.nih.gov/confluence/display/newsletter/2020/05/07/The+Pomodoro+Technique%3A+An+Effective+Time+Management+Tool)  is a proven and easy to adopt time management technique practiced by millions world wide.   This project involves the creation of an always available pomodoro timer Rocket.Chat App. &#x20;
+Description:  With remote work now becoming the norm,  lack of essential time management skills can throw off work/life balance and resulting in burn-out or dangerous mental wellness problems.   [Pomodoro](https://science.nichd.nih.gov/confluence/display/newsletter/2020/05/07/The+Pomodoro+Technique%3A+An+Effective+Time+Management+Tool)  is a proven and easy to adopt time management technique practiced by millions world wide.   This project involves the creation of an always available Pomodoro timer Rocket.Chat App. &#x20;
 
 Goals/Deliverables: A Pomodoro timer Rocket.Chat App&#x20;
 
-Desired Skills:
-
-* Familiarity with TypeScript development
-* User of the pomodoro time management technique
+Desired Skills:   Familiarity with TypeScript development.  User of the pomodoro time management technique
 
 Project Duration: 175
 
@@ -472,10 +464,7 @@ Description: ClickUp is an extremely feature rich collaboration and project mana
 
 Goals/Deliverables: Rocket.Chat App with ClickUp integration features.
 
-Desired Skills:
-
-* Familiarity with TypeScript development
-* ClickUp API
+Desired Skills:   Familiarity with TypeScript development.    ClickUp API
 
 Project Duration: 350
 
