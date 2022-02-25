@@ -157,7 +157,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 ### **IRC Bridge :   improve ease of deployment and stability**&#x20;
 
-**Mentors:** TBD
+**Mentors:**   Gabriel Engel
 
 **Description:**  Rocket.Chat has long featured the ability to bridge directly witn IRC.   IRC is still in use by many hard core technical open source communities all over the world, and this bridge is very important to many of our community users.  However,  since we started evolving our architecture to be more scalable,  the IRC bridge has not been updated to match .  As a result, it has become unstable in some edge cases and also  difficult to deploy in scaled Rocket.Chat configuration.   This project aims to improve the situation.  The IRC bridge should be updated to be compatible with our scaled configuration.   Extracting from core code base and repackaging as Rocket.Chat App or npm module should be investigated.  Additional configuration/provisioning options and DevOps images will need to be created to improve the administrator's experience.
 
@@ -201,6 +201,20 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 **Project Duration:** 350 hours.
 
 **Difficulty:**  Medium
+
+### Pomodoro Time Management App
+
+Mentor(s):  Duda Nogueira
+
+Description:  With remote work now becoming the norm,  lack of essential time management skills can throw off work/life balance and resulting in burn-out or dangerous mental wellness problems.   [Pomodoro](https://science.nichd.nih.gov/confluence/display/newsletter/2020/05/07/The+Pomodoro+Technique%3A+An+Effective+Time+Management+Tool)  is a proven and easy to adopt time management technique practiced by millions world wide.   This project involves the creation of an always available Pomodoro timer Rocket.Chat App. &#x20;
+
+Goals/Deliverables: A Pomodoro timer Rocket.Chat App&#x20;
+
+Desired Skills:   Familiarity with TypeScript development.  User of the pomodoro time management technique
+
+Project Duration: 175 hours
+
+**Difficulty:** Easy
 
 ### Figma Integration (Rocket.Chat App)
 
@@ -327,7 +341,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 ### weekly video  meeting and  archive App - Big Blue Button + Rocket.Chat
 
-**Mentors:** Debdut Chakraborty, Felipe Cecagno, Sing Li
+**Mentors:** Debdut Chakraborty, Felipe Cecagno
 
 **Description:** Big Blue Button is one of the most popular open source virtual classroom  and conferencing tool available today. This project is a very simple integration with Rocket.Chat for conducting a weekly meeting and maintaining the recording video archive. Mentors will include both Rocket.Chat and Big Blue Button experts.
 
@@ -482,20 +496,6 @@ Desired Skills:   Familiarity with TypeScript development.    Asana API
 Project Duration:  175 hours
 
 **Difficulty:** Medium
-
-### Pomodoro Time Management App
-
-Mentor(s): actively seeking mentors
-
-Description:  With remote work now becoming the norm,  lack of essential time management skills can throw off work/life balance and resulting in burn-out or dangerous mental wellness problems.   [Pomodoro](https://science.nichd.nih.gov/confluence/display/newsletter/2020/05/07/The+Pomodoro+Technique%3A+An+Effective+Time+Management+Tool)  is a proven and easy to adopt time management technique practiced by millions world wide.   This project involves the creation of an always available Pomodoro timer Rocket.Chat App. &#x20;
-
-Goals/Deliverables: A Pomodoro timer Rocket.Chat App&#x20;
-
-Desired Skills:   Familiarity with TypeScript development.  User of the pomodoro time management technique
-
-Project Duration: 175 hours
-
-**Difficulty:** Easy
 
 ### ClickUp App
 
