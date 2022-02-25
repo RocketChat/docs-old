@@ -397,7 +397,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 ### GitHub  App
 
-**Mentor(s):** actively seeking mentors
+**Mentor(s):**  Rohan Lekhwani,  Sing Li
 
 **Description:** GitHub is the largest centralized repository for hosting open source projects. This app will enable the users to perform many GitHub activities right from Rocket.Chat.  Including query of issues and PRs, code modification logs,  and announcement of events - such as new releases, PR merged, and so on.&#x20;
 
