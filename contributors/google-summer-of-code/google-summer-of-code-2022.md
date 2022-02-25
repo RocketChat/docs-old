@@ -127,7 +127,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 350 hours.
 
-**Difficulty:** Hard
+**Difficulty:**  Medium
 
 ### Omnichannel users identity verification&#x20;
 
@@ -139,7 +139,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 175 hours.
 
-**Difficulty:** Hard
+**Difficulty:**  Medium
 
 ### **IRC Bridge :   improve ease of deployment and stability**&#x20;
 
@@ -151,13 +151,13 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 175 hours.
 
-**Difficulty:** Hard
+**Difficulty:**  Hard
 
 ### **Sidebar UI revamp and UX improvements**
 
 **Mentors:** Ivan Netto
 
-**Description:** Converstions in [Rocket.Chat](http://rocket.chat) can be done in multiple ways but at this stage, we need a scalable interface which would help users to maximaze their daily tasks within the software. The following improviments would speed up users' workflow:
+**Description:** Conversations in [Rocket.Chat](http://rocket.chat) can be done in multiple ways but at this stage, we need a scalable interface which would help users to maximize their daily tasks within the software. The following improvements would speed up users' workflow:
 
 * Ability to collapse sidebar section;
 * Add rooms straight from the its section header;
@@ -169,7 +169,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 350 hours.
 
-**Difficulty:** Hard
+**Difficulty:**  Medium
 
 ### Message forwarding
 
@@ -186,7 +186,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 350 hours.
 
-**Difficulty:** Medium
+**Difficulty:**  Medium
 
 ### Figma Integration (Rocket.Chat App)
 
@@ -204,7 +204,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 350 hours.
 
-**Difficulty:** Easy
+**Difficulty:**  Easy
 
 ### Slack Bridge:  rich interop and better deployment
 
@@ -230,7 +230,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 350 hours.
 
-**Difficulty:** Medium
+**Difficulty:**  Medium
 
 ### Improve Mobile Client Animations
 
@@ -245,7 +245,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 350 hours.
 
-**Difficulty:** Hard
+**Difficulty:**  Medium
 
 ### Mobile Client: Redesigned MessageBox
 
@@ -257,7 +257,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 350 hours.
 
-**Difficulty:** Medium
+**Difficulty:** Hard
 
 ### New Emoji Picker for Mobile Client
 
@@ -271,7 +271,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 350 hours.
 
-**Difficulty:** Medium
+**Difficulty:**  Medium
 
 ### Team Bridge:  interop with Microsoft Team
 
@@ -309,7 +309,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 350 hours.
 
-**Difficulty:** Medium
+**Difficulty:**  Medium
 
 ### weekly video  meeting and  archive App - Big Blue Button + Rocket.Chat
 
@@ -323,13 +323,13 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 175 hours.
 
-**Difficulty:** Easy
+**Difficulty:**  Easy
 
 ### Open Source Project Rewrite
 
 **Mentors:** Jorge Leite
 
-**Description:** Migrating from one technology, coding language or framework is something quite common on an industry that is constantly evolving. Having people with knowledge on performing this during early stages of their career and understanding the steps to do so is not quite as common. On this project the participant will be performing features and repos re-writes and builds while getting mentoring on clean code, unit testing, quality standards and best practices on agile software development.
+**Description:** Migrating from one technology, coding language or framework is something quite common on an industry that is constantly evolving. Having people with knowledge on performing this during early stages of their career and understanding the steps to do so is not quite as common. On this project the participant will be performing features and repos re-writes and builds while getting mentoring on clean code, unit testing, quality standards and best practices on agile software development.   The open source repository should be selected from within the Rocket.Chat ecosystem.   The rewrite can involve either a programming language or development framework change, or both.
 
 **Desirable Skills:** Familiarity with JavaScript and TypeScript development.
 
@@ -337,17 +337,17 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 175 hours.
 
-**Difficulty:** Easy
+**Difficulty:**  Easy
 
 ### Chatbot to improve agile workflow
 
 **Mentors:** Leonardo Ostjen, Tiago Evangelista & Gabriel Casals
 
-**Description:** Agile adoption is increasing year to year on the different industries. There is an opportunity to add agile package bots to help squad with reminders, links and facilitate attendance to meeting based on simple calendar inputs and emoji reactions. Candidate will be working with Agile excperts and Engineers to build some solutions for this space and help pump squads productivity.
+**Description:** Agile adoption is increasing year to year on the different industries. There is an opportunity to add agile package bots to help squad with reminders, links and facilitate attendance to meeting based on simple calendar inputs and emoji reactions. Candidate will be working with Agile excperts and Engineers to build some solutions for this space and help pump squads productivity.   Successful contributor will propose a  Chatbot that solves a problem in agile.   Candidate have a free choice of  technology to implement the chatbot  -  RASA,  Botpress,  Dialogflow, and so on. &#x20;
 
 **Desirable Skills:** Familiarity with TypeScript development. Demonstrated interest and/or passion in Agile and squad productivity tools.
 
-**Goal/Deliverable:** Code and test chatbots to improve agile team productivity
+**Goal/Deliverable:** A working chatbot that can improve agile team productivity
 
 **Project Duration:** 175 hours.
 
