@@ -236,7 +236,7 @@ Project Duration: 175 hours
 
 ### Slack Bridge:  rich interop and better deployment
 
-**Mentor(s):** TBD
+**Mentor(s):**  Martin Schoeler
 
 **Description:**   Slack is a very popular closed source team chat solution.   Rocket.Chat has built-in support for a primitive bridging solution with Slack.   This project aims to improve the capabilities of this bridge, extending it to  cover the rich features that both Rocket.Chat and Slack have.   The project should also make the bridge easier to deploy, this may involve the extraction of the bridge's code and refactor into either a Rocket.Chat App or an npm module.   New code/architecture should ensure stability of the bridge when deployed in the new scaled Rocket.Chat deployment configurations.
 
