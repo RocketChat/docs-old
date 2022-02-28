@@ -54,7 +54,7 @@ To connect with an air-gapped computer or a server without internet access, sele
 
 * You see an interface prompting you to paste the code you copied from your Rocket.Chat self-managed workspace. Let's get the code now
 
-![](<../../.gitbook/assets/image (670).png>)
+![](<../../.gitbook/assets/image (670) (1).png>)
 
 * Back on your server, select the Register Offline option.&#x20;
 

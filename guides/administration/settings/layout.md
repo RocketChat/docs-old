@@ -44,7 +44,7 @@ The section allows you to change the HTML content of certain screens.
 * **Legal Notice:** By default this screen is accessed on the links under the login page, here you can set the legal notice of your server. Can also be accessed via YOUR-SERVER-URL/legal-notice.
 * **Side navigation footer:** This is the logo or text on the bottom left of the sidebar. We recommend using the images set on your [Assets](../basic-white-labeling.md#assets) for better consistency.
 
-![](<../../../.gitbook/assets/image (670) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (670) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ## Custom CSS
 

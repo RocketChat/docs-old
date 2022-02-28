@@ -4,7 +4,7 @@ You can export an entire conversation you have had either in your one-on-one DMs
 
 To do that, click on the **Options** across the opened DM room and select **Export Messages**
 
-![](<../../../../../.gitbook/assets/image (669) (1) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (669) (1) (1) (1) (1).png>)
 
 A section is shown with series of configurable options before exporting
 

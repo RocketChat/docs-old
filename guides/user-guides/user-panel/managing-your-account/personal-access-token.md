@@ -16,7 +16,7 @@ To create a personal access token:
 
 * From the Access Token dashboard, enter the name of the token and hit **Add**
 
-![](<../../../../.gitbook/assets/image (669) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (669) (1) (1) (1).png>)
 
 * You can configure whether or not to ignore 2FA when using it by checking the **Ignore Two Factor Authentication** box below.
 * You will be prompted to either enter your password or 2FA code to **Verify**.
