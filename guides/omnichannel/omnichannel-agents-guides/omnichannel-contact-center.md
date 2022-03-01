@@ -21,17 +21,17 @@ Once you click on the **Contact Center** button following screen appears:
 
 ## Contacts
 
-Under contacts, you can see all the contacts you have been serving as an omnichannel agent.
+Under the **Contacts** tab, you can see all the contacts you have been serving as an omnichannel agent.
 
-### Search a Contact
+### Search a contact
 
 You can search a contact using their Name, phone, and email address.
 
-### View Contact Information
+### View contact information
 
 Click on a contact to view its information and edit it, as shown below
 
-### Create a new Contact
+### Create a new contact
 
 To create a new contact:
 
@@ -42,7 +42,7 @@ It now appears in the search.
 
 ## Chats
 
-All the chats you have taken appear under **Chats.**
+All the chats you have taken appear under **Chats** tab.
 
 {% hint style="info" %}
 No open chat appears in the **Contact Center**. A chat appears in the **Contact** **Center** as soon as it is closed because **Contact Center** only deals with archived chats.  &#x20;
@@ -55,3 +55,23 @@ Go to the **Room Information** and click **View full conversation** to open the 
 ![](<../../../.gitbook/assets/image (336).png>)
 
 Click **Edit** to edit contact details. You can edit any details you want here.&#x20;
+
+## Calls
+
+You can see all the calls you have been serving as an omnichannel agent under **Calls** tab.
+
+{% hint style="info" %}
+Please note that if you are a call center administrator, you can view all the calls that your agents have served.
+{% endhint %}
+
+### Search a call
+
+You can search a call using their Name or keyword.
+
+![](<../../../.gitbook/assets/image (655).png>)
+
+### View call information
+
+Click on a call to view its information, as shown below:
+
+![](<../../../.gitbook/assets/image (654).png>)
