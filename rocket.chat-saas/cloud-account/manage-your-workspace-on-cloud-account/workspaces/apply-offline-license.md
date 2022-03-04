@@ -18,7 +18,7 @@ In case You are using a workspace accessible through the internet please follow 
 * Head over and create an account or login into your [Rocket.Chat cloud portal](https://cloud.rocket.chat)
 * When logged in, click on **Register self-managed** to register a new workspace
 
-![](<../../../../.gitbook/assets/image (687).png>)
+![](<../../../../.gitbook/assets/image (687) (1).png>)
 
 * Select the option to **Continue Offline** if you are running an air-gapped workspace or your server doesn't have an internet connection.
 
@@ -30,7 +30,7 @@ In case You are using a workspace accessible through the internet please follow 
 
 * You are then provided with another code from the cloud portal. Copy the code and go back to your local workspace
 
-![](<../../../../.gitbook/assets/image (668).png>)
+![](<../../../../.gitbook/assets/image (668) (1).png>)
 
 * On your local workspace, paste the code you got from the cloud portal and **Finish Registration**
 

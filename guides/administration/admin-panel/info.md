@@ -107,7 +107,7 @@ When enabled, it shows a green checkmark :white\_check\_mark: across the feature
 
 To see more on federation settings, click on **Settings** at the bottom right of the federation card.
 
-![](<../../../.gitbook/assets/image (666) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (666) (1) (1) (1) (1) (1).png>)
 
 A modal is seen, fill the needed information and hit **Next**
 

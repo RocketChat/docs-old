@@ -34,7 +34,7 @@ Follow these steps to enable Google OAuth on your server.&#x20;
 
 * Copy these credentials from and fill them in the Google section of the OAuth configuration of your RocketChat server then hit **Save changes**
 
-![](<../../../../.gitbook/assets/image (666) (1).png>)
+![](<../../../../.gitbook/assets/image (666) (1) (1).png>)
 
 When all is set, you will find on your login and register page a button for Google OAuth
 

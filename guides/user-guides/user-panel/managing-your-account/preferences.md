@@ -76,7 +76,7 @@ Configure the sound used for notifications
 
 Lets you download your data either as `HTML` or `JSON` format
 
-![](<../../../../.gitbook/assets/image (687) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (687) (1) (1) (1) (1).png>)
 
 When triggered, the request will be processed and a link to the exported file sent to your email.
 

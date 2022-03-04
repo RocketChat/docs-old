@@ -24,4 +24,4 @@ To unfavorite a message:
 * Click on the highlighted **star** on the top of the opened message, OR
 * Click on the menu against the Direct Message and select **Unfavorite**
 
-![](<../../../../../.gitbook/assets/image (688) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (688) (1) (1) (1).png>)

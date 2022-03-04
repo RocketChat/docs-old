@@ -19,7 +19,7 @@ If your callback URL is wrong, GitHub does not display any error. Instead of log
 
 * After creating your app, a screen is shown with your `client id` and a button you can use to generate you apps `secret`
 
-![](<../../../../.gitbook/assets/image (688).png>)
+![](<../../../../.gitbook/assets/image (688) (1).png>)
 
 * Click and confirm access to generate a new secret which you will use in setting up the OAuth
 
@@ -33,7 +33,7 @@ If your callback URL is wrong, GitHub does not display any error. Instead of log
 * Enable GitHub OAuth, fill in the credentials and hit **Save Changes** to commit
 *
 
-![](<../../../../.gitbook/assets/image (687) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (687) (1) (1) (1).png>)
 
 After saving, you will find the GitHub OAuth button on the login and register page
 

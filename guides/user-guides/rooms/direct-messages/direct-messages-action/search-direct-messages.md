@@ -4,7 +4,7 @@ You can search for messages in a Direct Message.&#x20;
 
 To do that, click on the search icon by the top right of your opened DM.
 
-![](<../../../../../.gitbook/assets/image (646).png>)
+![](<../../../../../.gitbook/assets/image (646) (1).png>)
 
 Please refer to this section on how searching works.
 

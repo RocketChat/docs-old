@@ -12,7 +12,7 @@ You will be required to verify your account before proceeding if it is your firs
 
 * Click on **Create App** to create a new app
 
-![](<../../../../.gitbook/assets/image (687) (1).png>)
+![](<../../../../.gitbook/assets/image (687) (1) (1).png>)
 
 * Select the app type from the list of options and **Next**
 
@@ -48,4 +48,4 @@ You will be required to verify your account before proceeding if it is your firs
 
 * The Facebook OAuth button can now be seen on the login and register page
 
-![](<../../../../.gitbook/assets/image (666).png>)
+![](<../../../../.gitbook/assets/image (666) (1).png>)
