@@ -68,7 +68,7 @@ Please note that if you are a call center administrator, you can view all the ca
 
 You can search a call using their Name or keyword.
 
-![](<../../../.gitbook/assets/image (655).png>)
+![](<../../../.gitbook/assets/image (655) (1).png>)
 
 ### View call information
 

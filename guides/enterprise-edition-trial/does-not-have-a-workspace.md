@@ -83,7 +83,7 @@ Proceed to activate the license on the workspace
 
 Next, copy the code provided and head over to your workspace **Administration panel** > **Info** and click **Apply Offline License**.
 
-![](<../../.gitbook/assets/image (656) (1).png>)
+![](<../../.gitbook/assets/image (656) (1) (1).png>)
 
 Paste the code in the License field provided then **Apply License**
 
