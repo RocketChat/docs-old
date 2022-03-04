@@ -6,7 +6,7 @@ Click **No,**&#x20;
 
 ![](<../../../../../../.gitbook/assets/image (664) (1) (1) (1) (1).png>)
 
-![](<../../../../../../.gitbook/assets/image (648) (1) (1) (1).png>)
+![](<../../../../../../.gitbook/assets/image (648) (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
 Please follow the 360Dialog [documentation](https://docs.360dialog.com/360-client-hub/submission-process) to create your 360Dialog account.

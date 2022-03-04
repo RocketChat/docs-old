@@ -4,7 +4,7 @@ If you have a Rocket.Chat workspace linked to the cloud already, there is a poss
 
 When setting up a new Rocket.Chat instance, you can choose to automatically register the workspace. This will create an account on Rocket.Chat cloud and a confirmation sent to your email.
 
-![](<../../.gitbook/assets/image (665).png>)
+![](<../../.gitbook/assets/image (665) (1).png>)
 
 * Now Go to the  [Rocket.Chat cloud Portal](https://cloud.rocket.chat/home) **Workspace** where all your connected instances are listed
 * Click on **Apply Trial** to continue

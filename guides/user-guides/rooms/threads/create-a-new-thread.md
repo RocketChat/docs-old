@@ -12,6 +12,6 @@ To create a thread,&#x20;
 
 * Click on the **thread icon** by the top right of the message you wish to create the thread on.
 
-![](<../../../../.gitbook/assets/image (682) (1).png>)
+![](<../../../../.gitbook/assets/image (682) (1) (1).png>)
 
 ![](<../../../../.gitbook/assets/image (637) (1) (1).png>)

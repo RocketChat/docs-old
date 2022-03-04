@@ -22,7 +22,7 @@ Follow these steps to enable Google OAuth on your server.&#x20;
 
 * To create the `OAuth client ID`, head over to the **credentials** tab and click the **CREATE CREDENTIALS**. A dropdown appears, select **OAuth Client ID**
 
-![](<../../../../.gitbook/assets/image (652) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (652) (1) (1) (1).png>)
 
 * Set the application type to **Web Application** then hit **CREATE**. This is so that they'll be possibility for a callback URL which is needed for the configuration.
 

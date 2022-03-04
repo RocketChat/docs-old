@@ -40,11 +40,11 @@ In order to connect your server to our Cloud, your Rocket.Chat server must be at
 
 1. Go to [cloud.rocket.chat](https://cloud.rocket.chat) and create a new account
 
-![](<../../../.gitbook/assets/image (647).png>)
+![](<../../../.gitbook/assets/image (647) (1).png>)
 
 * Fill up the registration form and **Register**
 
-![](<../../../.gitbook/assets/image (665) (1).png>)
+![](<../../../.gitbook/assets/image (665) (1) (1).png>)
 
 * A verification email will be sent in order to activate your new Cloud account
 

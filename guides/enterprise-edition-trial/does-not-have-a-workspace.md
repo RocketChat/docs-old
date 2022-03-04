@@ -93,7 +93,7 @@ Paste the code in the License field provided then **Apply License**
 
 * When all this is done, refresh the page, and you're able to see your workspace listed with the trial as **Active**.
 
-![](<../../.gitbook/assets/image (652).png>)
+![](<../../.gitbook/assets/image (652) (1).png>)
 
 * Back on the info section of your **Administration** panel, you should see you're running an **Enterprise License**.
 
