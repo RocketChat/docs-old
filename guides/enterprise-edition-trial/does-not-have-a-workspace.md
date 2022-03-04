@@ -6,7 +6,7 @@ If you do not have your workspace registered on the cloud already, you can get i
 
 This guide proceeds with creating a new account
 
-![](<../../.gitbook/assets/image (644).png>)
+![](<../../.gitbook/assets/image (644) (1).png>)
 
 * Check your inbox for a link to create a workspace and apply the trial. Click or copy-paste the link in your browser to continue.
 

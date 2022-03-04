@@ -17,7 +17,7 @@ as shown below:
 
 Your WhatsApp number is now connected to Rocket.Chat, as shown below:
 
-![](<../../../../../../.gitbook/assets/image (644) (1) (1) (1) (1).png>)
+![](<../../../../../../.gitbook/assets/image (644) (1) (1) (1) (1) (1).png>)
 
 Your WhatsApp end-users can use this number to communicate with you using WhatsApp.
 

@@ -28,7 +28,7 @@ You will be required to verify your account before proceeding if it is your firs
 
 * Select **Web** as the platform for the app and continue
 
-![](<../../../../.gitbook/assets/image (644) (1).png>)
+![](<../../../../.gitbook/assets/image (644) (1) (1).png>)
 
 * Set the redirect URI go to the **Facebook Login** > **Settings** section and paste the redirect URI in the **Valid OAuth Redirect URIs** field
 

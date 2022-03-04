@@ -9,7 +9,7 @@ In case You are using a workspace accessible through the internet please follow 
 * After accepting the cloud privacy terms at (**Setup Wizard** > **Cloud Info** > **Cloud Service Privacy Terms Agreement**) on your Rocket.Chat server
 * Navigate to  **Administration** > **Connectivity Services** and click **Register Offline** as shown below
 
-![](<../../../../.gitbook/assets/image (678) (1).png>)
+![](<../../../../.gitbook/assets/image (678) (1) (1).png>)
 
 * A pop up is shown, copy the code provided and move on to the next step
 
