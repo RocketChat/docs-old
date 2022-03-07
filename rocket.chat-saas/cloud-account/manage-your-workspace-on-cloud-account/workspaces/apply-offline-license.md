@@ -22,7 +22,7 @@ In case You are using a workspace accessible through the internet please follow 
 
 * Select the option to **Continue Offline** if you are running an air-gapped workspace or your server doesn't have an internet connection.
 
-![](<../../../../.gitbook/assets/image (693).png>)
+![](<../../../../.gitbook/assets/image (693) (1).png>)
 
 * Paste the code you copied earlier from Connectivity Services in your Rocket.Chat workspace and hit **Continue** to proceed
 
@@ -30,7 +30,7 @@ In case You are using a workspace accessible through the internet please follow 
 
 * You are then provided with another code from the cloud portal. Copy the code and go back to your local workspace
 
-![](<../../../../.gitbook/assets/image (668) (1).png>)
+![](<../../../../.gitbook/assets/image (668) (2).png>)
 
 * On your local workspace, paste the code you got from the cloud portal and **Finish Registration**
 
@@ -40,6 +40,6 @@ In case You are using a workspace accessible through the internet please follow 
 We recommend you to sync your server immediately after linking it to the cloud. To do that, head on to the **Connectivity Services** on your **Administration** panel and click on **Sync**.
 {% endhint %}
 
-![](<../../../../.gitbook/assets/image (649).png>)
+![](<../../../../.gitbook/assets/image (649) (1).png>)
 
 With that done, you have successfully applied an Offline license on your server.

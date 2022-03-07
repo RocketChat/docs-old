@@ -2,7 +2,11 @@
 
 RocketChat's Layout feature gives you the possibility to customize the look of your RocketChat server.
 
+This involves aspects like colors, content, CSS and Javascript. Using this feature gives you the ability to fully give your Rocket.Chat server a unique and different look.
+
 &#x20;To access this setting, go to **Administration** > **Settings** > **Layout**.
+
+![](<../../../.gitbook/assets/image (637).png>)
 
 {% hint style="success" %}
 Remember to always **Save changes** and refresh to apply any customization made.
@@ -18,7 +22,7 @@ A list of RocketChat's pre-defined color variables can be found on **** [**the r
 
 Colors can be set using existing **Expressions** or **Color** by specifying it from the color picker provided.
 
-![](<../../../.gitbook/assets/image (637) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (637) (1) (1) (1) (1).png>)
 
 To learn more about setting colors, see the **** [**colors section of the Basic White-labeling guide**](../basic-white-labeling.md#colors).
 
@@ -80,7 +84,7 @@ if(window.location.pathname == '/home'){
 }
 ```
 
-![](<../../../.gitbook/assets/image (645) (1) (1).png>)
+![](<../../../.gitbook/assets/image (645) (1) (1) (1).png>)
 
 ## Fonts
 

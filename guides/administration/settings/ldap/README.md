@@ -1,6 +1,12 @@
 # LDAP
 
-To configure LDAP authentication, go to the LDAP section of administration settings, enable LDAP, and add configurations to connect with your LDAP server. [Rocket.Chat](http://rocket.chat) supports a variety of LDAP capabilities and associated identity management features. Below is a listing of key features sets associated with each of the [Rocket.Chat](http://rocket.chat) versions.
+LDAP (Lightweight Directory Access Protocol) in simple terms is a protocol used for enabling anyone to locate data about your server or company. LDAP configuration on Rocket.Chat can be used to establish connections, used for authentication, storing information about users and sync your data.
+
+To configure LDAP authentication, go to **Administration** > **Setting** > **LDAP** section &#x20;
+
+![](<../../../../.gitbook/assets/image (665).png>)
+
+Enable LDAP, and add configurations to connect with your LDAP server. [Rocket.Chat](http://rocket.chat) supports a variety of LDAP capabilities and associated identity management features. Below is a listing of key features sets associated with each of the [Rocket.Chat](http://rocket.chat) versions.
 
 Check out the subpages for information on how to configure LDAP / AD.
 

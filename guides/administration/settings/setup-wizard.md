@@ -4,6 +4,10 @@ This section has basic configurations on setting up information about your serve
 
 To access this menu, go to **Administration** > **Settings** > **Setup Wizard**.
 
+![](<../../../.gitbook/assets/administration >)
+
+![](<../../../.gitbook/assets/image (694).png>)
+
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.
 {% endhint %}

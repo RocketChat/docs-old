@@ -6,15 +6,15 @@ Follow these steps to enable Google OAuth on your server.&#x20;
 
 * Go to the [Google Developer Console](https://console.developers.google.com), and create a new project if you don't have one yet
 
-![](<../../../../.gitbook/assets/image (657) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (657) (1) (1) (1).png>)
 
 * Next, navigate to **APIs and services** > **OAuth consent screen**
 
-![](<../../../../.gitbook/assets/image (691) (1).png>)
+![](<../../../../.gitbook/assets/image (691) (1) (1).png>)
 
 * On the OAuth consent screen, set the required fields and specify the **App name** then hit **Save and Continue**
 
-![](<../../../../.gitbook/assets/image (640) (1).png>)
+![](<../../../../.gitbook/assets/image (640) (1) (1).png>)
 
 * When you are done with creating the new app, head over to the dashboard where information of the app is displayed.
 
@@ -38,4 +38,4 @@ Follow these steps to enable Google OAuth on your server.&#x20;
 
 When all is set, you will find on your login and register page a button for Google OAuth
 
-![](<../../../../.gitbook/assets/image (680) (1).png>)
+![](<../../../../.gitbook/assets/image (680) (1) (1).png>)

@@ -4,7 +4,7 @@
 
 After you [make yourself available](broken-reference) to take calls, you start receiving calls, as shown below:
 
-![Incoming call](<../../../.gitbook/assets/image (646).png>)
+![Incoming call](<../../../.gitbook/assets/image (646) (1).png>)
 
 ## **Call In Progress**
 
@@ -22,7 +22,7 @@ You can hold, un-hold, mute, and end calls.
 
 After the call is ended you can leave your notes in the wrap-up.
 
-![Call Wrap-up](<../../../.gitbook/assets/image (665).png>)
+![Call Wrap-up](<../../../.gitbook/assets/image (665) (1).png>)
 
 ## Call Information
 

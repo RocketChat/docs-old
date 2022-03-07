@@ -20,7 +20,7 @@ To enable 2FA on your account,&#x20;
 
 * Click on your **User Panel** then navigate down to **My Account**
 
-![](<../../../.gitbook/assets/image (672) (1).png>)
+![](<../../../.gitbook/assets/image (672) (1) (1).png>)
 
 * On **Account**, click on **Security**
 

@@ -2,7 +2,13 @@
 
 This setting lets you configure aspects that involve users downloading their data from the server.
 
+Using this, users can download their entire Rocket.Chat data.
+
 To access this setting, go to **Administration** > **Settings** > **User Data Download**.
+
+![](<../../../.gitbook/assets/administration >)
+
+![](<../../../.gitbook/assets/image (691).png>)
 
 * **Enable User Data Download**: When set to true, users will be able to download their data.
 

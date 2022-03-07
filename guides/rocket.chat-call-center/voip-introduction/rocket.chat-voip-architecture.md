@@ -28,7 +28,7 @@ Web clients are built using browser-based WebRTC technology. This technology doe
 * To achieve this, there is an association made between the Rocket.chat agent and the SIP identity.&#x20;
 * ACD (Automatic Call Distribution) queues, wait-treatment, etc are managed by the customer’s/Partner’s PBX. Reaching out to external networks (PSTN/Mobile Network/Another SIP Server, is handled at customer’s/Partner’s PBX.&#x20;
 
-![VoIP Architecture](<../../../.gitbook/assets/image (656).png>)
+![VoIP Architecture](<../../../.gitbook/assets/image (656) (1).png>)
 
 **ACD Queues:**&#x20;
 

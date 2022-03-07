@@ -2,7 +2,13 @@
 
 Here you have the interface to configure how server logs will be received.
 
+Logs are a very useful way to monitor server activities in detail and they can start as a very helpful point for debugging in case of any failures or errors.
+
 To access this section, go to **Administration** > **Settings** > **Logs**.
+
+![](../../../.gitbook/assets/administration-nav.png)
+
+![](<../../../.gitbook/assets/image (683).png>)
 
 * **Log Level**: A dropdown to select the level of logs to receive
 * **Log View Limit**: The limit of logs to view

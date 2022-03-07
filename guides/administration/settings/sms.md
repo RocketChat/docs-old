@@ -4,6 +4,10 @@ This setting lets you configure the various SMS gateways to use on your server.
 
 To access this menu, go to **Administration** > **Settings** > **SMS**.
 
+![](<../../../.gitbook/assets/administration >)
+
+![](<../../../.gitbook/assets/image (692).png>)
+
 * **Enabled**: Lets you enable or disable SMS service on your server.
 * **Service**: A dropdown to select the available SMS services available e.g `Twilio`, `Mobex`, `Voxtelesys`
 * **Omnichannel Department (Default)**: If set, all new incoming chats initiated by this integration will be routed to this department.
@@ -26,7 +30,7 @@ Create a Mobex account at [https://mobex.biz/](https://mobex.biz) and get a plan
 * **File Uploads Enabled**: When enabled, file uploads will be active in SMS
 * **Accepted Media Types**: Comma-separated list of media types. Leave it blank for accepting all media types.
 
-## Voxtelesys <a href="1t0nl2lpq6o" id="1t0nl2lpq6o"></a>
+## Voxtelesys <a href="#1t0nl2lpq6o" id="1t0nl2lpq6o"></a>
 
 * **Auth Token**: Your Voxtelesys auth token
 * **URL**: The Voxtelesys URL e.g `https://smsapi.voxtelesys.net/api/v1/sms`

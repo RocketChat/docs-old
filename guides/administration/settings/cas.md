@@ -10,6 +10,10 @@ For more information on CAS, see [github.com/apereo/cas](https://github.com/aper
 
 To access this setting, go to **Administration** > **Settings** > **CAS**.
 
+![](<../../../.gitbook/assets/administration >)
+
+![](<../../../.gitbook/assets/image (690).png>)
+
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.
 {% endhint %}
@@ -49,7 +53,7 @@ The `/cas` and `/cas/login` URLs are the standard, but not required. Check with 
 
 After configuring, your registration and login pages will have the CAS button present.
 
-![](<../../../.gitbook/assets/image (649) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (649) (1) (1) (1) (1) (1) (1).png>)
 
 ## Notes
 

@@ -7,6 +7,10 @@ description: >-
 
 # Omnichannel Admin's Guide
 
+OmniChannel adds the ability to receive conversations from a pop-up livechat support on your website or your business Facebook chat or any other media directly in Rocket.chat.
+
+Enabling and using Rocket.Chat omnichannel gives seamless, effortless and high-quality customer experiences all within a defined channel on your Rocket.Chat workspace.
+
 ## Activation
 
 ### Enable Omnichannel

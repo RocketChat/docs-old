@@ -7,6 +7,8 @@ description: >-
 
 # OAuth
 
+Rocket.Chat supports several different ways to authenticate, beyond the basic username/password authentication. Most authentication providers require a clientID and a secret.
+
 To set up your desired provider:
 
 1. Go to **Administration > OAuth** as seen below.

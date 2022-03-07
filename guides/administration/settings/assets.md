@@ -8,6 +8,10 @@ This section deals with uploading and setting asset files responsible for some o
 
 To access the assets section, go to **Administration** > **Settings** > **Assets**.
 
+![](<../../../.gitbook/assets/administration >)
+
+![](<../../../.gitbook/assets/image (645).png>)
+
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.
 {% endhint %}

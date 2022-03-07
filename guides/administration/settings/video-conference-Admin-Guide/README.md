@@ -2,7 +2,13 @@
 
 This section lets you configure video conferencing for your server.
 
+Using this, you are able to initiate and stream with various video conferencing options.
+
 To access this menu, go to **Administration** > **Settings** > **Video Conference**.
+
+![](<../../../../.gitbook/assets/administration >)
+
+![](<../../../../.gitbook/assets/image (640).png>)
 
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.

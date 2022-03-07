@@ -10,14 +10,14 @@ To access this menu, Click on you **profile** and go to **My Account** > **Prefe
 
 * **Language**: A dropdown that lets you set the language to use for the Rocket.Chat user interface.
 
-![](<../../../../.gitbook/assets/image (649) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (649) (1) (1) (1).png>)
 
 ## User Presence
 
 * **Enable Auto-Away**: This setting enables the auto-away functionality, which changes the status to _away_ after an idle period.&#x20;
 * **Idle time limit**: Takes in time in seconds when status should change to away.
 
-![](<../../../../.gitbook/assets/image (645).png>)
+![](<../../../../.gitbook/assets/image (645) (1).png>)
 
 ## Notifications
 

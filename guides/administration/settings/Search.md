@@ -1,12 +1,16 @@
 # Search
 
-Here you have the ability to configure how searches work on your RocketChat server.
+Here you have the ability to configure how searches work on your RocketChat server. This gives you the option of selecting a search provider.
 
 To access this setting, go to **Administration** > **Settings** > **Search**.
 
+![](<../../../.gitbook/assets/administration >)
+
+![](<../../../.gitbook/assets/image (657).png>)
+
 * **Search Provider**: A dropdown that lets you select which search provider you wish to use. Can be `Default provider` or `Chatpal Provider`.
 
-## Chatpal Provider <a href="buyfmnjsg2h" id="buyfmnjsg2h"></a>
+## Chatpal Provider <a href="#buyfmnjsg2h" id="buyfmnjsg2h"></a>
 
 * **Backend Type**: Lets you choose the backend type for your Chatpal provider. Select if you want to use Chatpal as a Service or as On-Site Installation.
 * **API Key**: Your Chatpal API key. Find some descriptions on how to run a local instance [on GitHub](https://github.com/chatpal/chatpal-search-standalone). The URL must be absolute and point to the Chatpal core, e.g. [`http://localhost:8983/solr/chatpal`](http://localhost:8983/solr/chatpal)``

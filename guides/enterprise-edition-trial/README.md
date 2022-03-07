@@ -23,7 +23,7 @@ It is required to accept **Cloud Service Privacy Terms Agreement** before procee
 
 This can be done at the **Administration** panel, navigate or search for **Setup Wizard** and accept the **Cloud Service Privacy Terms Agreement** and hit **Save changes**.
 
-![](<../../.gitbook/assets/image (643).png>)
+![](<../../.gitbook/assets/image (643) (1).png>)
 
 Below is guide to follow on how to get the Enterprise Edition Trial if you **** [**have a workspace**](has-workspace.md), **** [**not have a workspace**](does-not-have-a-workspace.md) and also how to [**extend EE Trial**](extending-trial.md)****
 

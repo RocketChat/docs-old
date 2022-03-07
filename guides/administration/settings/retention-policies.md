@@ -1,3 +1,7 @@
+---
+description: Automatically prunes old messages across your Rocket.Chat instance.
+---
+
 # Retention Policy
 
 This feature adds the ability to set retention policies on channels and globally. Such retention policies can automatically remove old messages and files with custom rules.
@@ -15,7 +19,7 @@ If you want to enable channel owners to set their own policies, assign the `edit
 
 ## Configuration
 
-Retention policies have two levels, global policies \(enforced everywhere\) and per-channel policies \(enforced in specific channels\).
+Retention policies have two levels, global policies (enforced everywhere) and per-channel policies (enforced in specific channels).
 
 To turn on retention policies, set `Enabled` to `True`.
 
@@ -58,5 +62,4 @@ If you set `Automatically prune old messages` to `Enabled`, there are a few sett
 
 ## Info Available to Users
 
-Users can see if a channel's messages will be pruned by either scrolling to the very top of the message history, or opening the channel info. A message is displayed if a policy, \(global or per-channel\) is present, for example: _Messages older than 30 days are automatically pruned here_ or _Unpinned files older than a year are automatically pruned here_.
-
+Users can see if a channel's messages will be pruned by either scrolling to the very top of the message history, or opening the channel info. A message is displayed if a policy, (global or per-channel) is present, for example: _Messages older than 30 days are automatically pruned here_ or _Unpinned files older than a year are automatically pruned here_.

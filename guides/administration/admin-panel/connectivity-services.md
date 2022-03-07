@@ -40,7 +40,7 @@ In order to connect your server to our Cloud, your Rocket.Chat server must be at
 
 1. Go to [cloud.rocket.chat](https://cloud.rocket.chat) and create a new account
 
-![](<../../../.gitbook/assets/image (647) (1).png>)
+![](<../../../.gitbook/assets/image (647) (2).png>)
 
 * Fill up the registration form and **Register**
 
@@ -56,7 +56,7 @@ In order to connect your server to our Cloud, your Rocket.Chat server must be at
 
 * A pop-up will be displayed in order to select the workspace type:
 
-![](<../../../.gitbook/assets/image (657).png>)
+![](<../../../.gitbook/assets/image (657) (1).png>)
 
 1. **Internet Access**: Rocket.Chat server that has a connection to the internet (connected to the outside)
 2. **No Internet Access**: Special cases where Rocket.Chat server has no connection at all (totally air-gapped).

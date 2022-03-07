@@ -4,6 +4,10 @@ Configure how troubleshooting is handled on your server.
 
 To access this section, go to **Administration** > **Settings** > **Troubleshoot**.
 
+![](<../../../.gitbook/assets/administration >)
+
+![](<../../../.gitbook/assets/image (656).png>)
+
 {% hint style="danger" %}
 We recommend these settings be altered only with guidance of the Rocket.Chat Development or Support Teams. Do not touch them if you don't know what you are doing!
 {% endhint %}

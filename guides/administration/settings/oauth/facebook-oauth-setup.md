@@ -16,7 +16,7 @@ You will be required to verify your account before proceeding if it is your firs
 
 * Select the app type from the list of options and **Next**
 
-![](<../../../../.gitbook/assets/image (691).png>)
+![](<../../../../.gitbook/assets/image (691) (1).png>)
 
 * Fill in the details and **Create App**
 
@@ -24,7 +24,7 @@ You will be required to verify your account before proceeding if it is your firs
 
 * You are then shown a dashboard with various apps to be used. Locate and click **Set Up** against Facebook Login
 
-![](<../../../../.gitbook/assets/image (640).png>)
+![](<../../../../.gitbook/assets/image (640) (1).png>)
 
 * Select **Web** as the platform for the app and continue
 

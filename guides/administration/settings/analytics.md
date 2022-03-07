@@ -8,6 +8,10 @@ Setting up analytics gives you the possibility to see how users interact with yo
 
 To access analytics, go to **Administration > Analytics.**
 
+![](<../../../.gitbook/assets/administration >)
+
+![](<../../../.gitbook/assets/image (644).png>)
+
 From there, you will have access to various configurations that can be done.
 
 {% hint style="success" %}
