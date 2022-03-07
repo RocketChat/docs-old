@@ -30,7 +30,7 @@ In case You are using a workspace accessible through the internet please follow 
 
 * You are then provided with another code from the cloud portal. Copy the code and go back to your local workspace
 
-![](<../../../../.gitbook/assets/image (668) (2).png>)
+![](<../../../../.gitbook/assets/image (668) (1) (1).png>)
 
 * On your local workspace, paste the code you got from the cloud portal and **Finish Registration**
 

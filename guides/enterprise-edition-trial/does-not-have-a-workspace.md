@@ -6,7 +6,7 @@ If you do not have your workspace registered on the cloud already, you can get i
 
 This guide proceeds with creating a new account
 
-![](<../../.gitbook/assets/image (644) (2).png>)
+![](<../../.gitbook/assets/image (644) (1) (1).png>)
 
 * Check your inbox for a link to create a workspace and apply the trial. Click or copy-paste the link in your browser to continue.
 
@@ -83,11 +83,11 @@ Proceed to activate the license on the workspace
 
 Next, copy the code provided and head over to your workspace **Administration panel** > **Info** and click **Apply Offline License**.
 
-![](<../../.gitbook/assets/image (656) (1) (1).png>)
+![](<../../.gitbook/assets/image (656) (1) (1) (1).png>)
 
 Paste the code in the License field provided then **Apply License**
 
-![](<../../.gitbook/assets/image (655) (2) (1).png>)
+![](<../../.gitbook/assets/image (655) (2).png>)
 
 ## Verify Active Workspace
 

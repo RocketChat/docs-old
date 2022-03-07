@@ -56,7 +56,7 @@ To change your offline license from the **License** card of the **Info** dashboa
 
 Click on the **Change Offline License** at the bottom right of the card.
 
-![](<../../../.gitbook/assets/image (654) (1) (2).png>)
+![](<../../../.gitbook/assets/image (654) (1) (1) (1) (1).png>)
 
 A modal is presented prompting you to paste the new licence you got from the[ RocketChat Cloud Console](https://cloud.rocket.chat/home).
 
