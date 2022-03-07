@@ -42,7 +42,7 @@ This list is being updated regularly.
 
 ### Tasks and workflow automation App with n8n
 
-**Mentor(s):** Chris Skelly
+**Mentor(s):** Fongang Rodrique, Chris Skelly
 
 **Description:** Tasks automation systems that compose workflow out of a   chain of multiple on-line services is becoming very common and popular.   Services such as [Zapier](https://zapier.com) and [n8n](https://n8n.io) are used by millions daily.   n8n is one of the most popular open source alternatives available. \
 \
