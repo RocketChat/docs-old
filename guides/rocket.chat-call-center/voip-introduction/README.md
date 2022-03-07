@@ -26,17 +26,17 @@ Once Rocket.Chat media channel (Audio video channel) or VoIP is in place, our En
 
 ### **Rocket.Chat Edition Specific VoIP Features**
 
-|                                                       Feature                                                      | Community Edition | Enterprise Edition |
-| :----------------------------------------------------------------------------------------------------------------: | :---------------: | :----------------: |
-|                 <mark style="color:blue;">Association of rocket.chat agent with SIP Identity</mark>                |       **✓**       |        **✓**       |
-|                                  <mark style="color:blue;">Device Selection</mark>                                 |       **✓**       |        **✓**       |
-|                                   <mark style="color:blue;">Inbound calls</mark>                                   |       **✓**       |        **✓**       |
-|                                   <mark style="color:blue;">Outbound calls</mark>                                  |       **x**       |        **✓**       |
-|                                   <mark style="color:blue;">Queue Monitors</mark>                                  |       **x**       |        **✓**       |
-|                                    <mark style="color:blue;">Call history</mark>                                   |       **✓**       |        **✓**       |
-|                                   <mark style="color:blue;">Click to call</mark>                                   |       **x**       |        **✓**       |
-|                                   <mark style="color:blue;">Call recording</mark>                                  |       **x**       |        **✓**       |
-|                              <mark style="color:blue;">Reports and data export</mark>                              |       **x**       |        **✓**       |
-|                              <mark style="color:blue;">ICE Server Configuration</mark>                             |       **✓**       |        **✓**       |
-| <mark style="color:blue;">Advanced configuration (Bandwidth, echo cancellation, noise reduction and codecs)</mark> |       **x**       |        **✓**       |
+|                                                       Feature                                                      | Community Edition | Enterprise Edition  |
+| :----------------------------------------------------------------------------------------------------------------: | :---------------: | :-----------------: |
+|                 <mark style="color:blue;">Association of rocket.chat agent with SIP Identity</mark>                |       **✓**       |        **✓**        |
+|                                  <mark style="color:blue;">Device Selection</mark>                                 |       **✓**       |        **✓**        |
+|                                   <mark style="color:blue;">Inbound calls</mark>                                   |       **✓**       |        **✓**        |
+|                                   <mark style="color:blue;">Outbound calls</mark>                                  |       **x**       |     Coming soon     |
+|                                   <mark style="color:blue;">Queue Monitors</mark>                                  |       **x**       |     Coming soon     |
+|                                    <mark style="color:blue;">Call history</mark>                                   |       **✓**       |        **✓**        |
+|                                   <mark style="color:blue;">Click to call</mark>                                   |       **x**       |     Coming soon     |
+|                                   <mark style="color:blue;">Call recording</mark>                                  |       **x**       |     Coming soon     |
+|                              <mark style="color:blue;">Reports and data export</mark>                              |       **x**       |     Coming soon     |
+|                              <mark style="color:blue;">ICE Server Configuration</mark>                             |       **✓**       |        **✓**        |
+| <mark style="color:blue;">Advanced configuration (Bandwidth, echo cancellation, noise reduction and codecs)</mark> |       **x**       |     Coming soon     |
 
