@@ -243,7 +243,7 @@
       * [Direct Email reply](guides/administration/settings/email/direct-reply.md)
       * [Email Configuration](guides/administration/settings/email/setup.md)
     * [Enterprise](guides/administration/settings/enterprise.md)
-    * [Federation](guides/administration/settings/federation.md)
+    * [Federation (Alpha)](guides/administration/settings/federation.md)
     * [File Upload](guides/administration/settings/file-upload/README.md)
       * [Amazon S3](guides/administration/settings/file-upload/amazon-s3.md)
       * [Google Cloud Storage](guides/administration/settings/file-upload/google-cloud-storage.md)
