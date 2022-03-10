@@ -8,7 +8,7 @@ To access this setting, go to **Administration** > **Settings** > **Mobile**.
 
 ![](<../../../.gitbook/assets/administration >)
 
-![](<../../../.gitbook/assets/image (672).png>)
+![](<../../../.gitbook/assets/image (672) (1).png>)
 
 * **Allow Save Media to Gallery**: When enabled, files shared in chats will be saved on the user's device gallery.
 

@@ -68,6 +68,7 @@
     * [Windows 10](quick-start/installing-and-updating/other-deployment-methods/windows-10-pro.md)
     * [One-click Apps for Deployment](quick-start/installing-and-updating/other-deployment-methods/one-click-apps-for-deployment.md)
 * [Environment Configuration](quick-start/environment-configuration/README.md)
+  * [Rocket.Chat Setup Wizard](quick-start/environment-configuration/rocket.chat-setup-wizard.md)
   * [Admin Account Creation](quick-start/environment-configuration/creating-the-first-administrator.md)
   * [MongoDB Configuration](quick-start/environment-configuration/mongodb-configuration.md)
   * [Firewall Configuration](quick-start/environment-configuration/firewall-configuration.md)

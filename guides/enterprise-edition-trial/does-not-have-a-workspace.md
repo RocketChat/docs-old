@@ -10,7 +10,7 @@ This guide proceeds with creating a new account
 
 * Check your inbox for a link to create a workspace and apply the trial. Click or copy-paste the link in your browser to continue.
 
-![](<../../.gitbook/assets/image (671).png>)
+![](<../../.gitbook/assets/image (671) (1).png>)
 
 * You are then redirected to the Rocket.Chat cloud portal. Since you don't have any workspce registered yes, the workspaces section will be empty and you will have the following options:
 
@@ -44,7 +44,7 @@ The guide as follow will show the next steps to apply your EE trial license afte
 We recommend you sync your server immediately after linking it to the cloud. To do that, head on to the **Connectivity Services** on your **Administration** panel and click on **Sync**.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (658).png>)
+![](<../../.gitbook/assets/image (658) (1).png>)
 
 ## No Internet Access/Offline
 
@@ -66,11 +66,11 @@ To connect with an air-gapped computer or a server without internet access, sele
 
 * Paste the code there and click continue.
 
-![](<../../.gitbook/assets/image (671) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (671) (1) (1) (1) (1) (1).png>)
 
 You are then given another code to apply on your server. Copy that code, and go to your **Administration** panel, paste it there, and hit **Finish Registration.**
 
-![](<../../.gitbook/assets/image (672) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (672) (1) (1) (1) (1) (1) (1).png>)
 
 Proceed to activate the license on the workspace
 

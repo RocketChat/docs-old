@@ -17,4 +17,4 @@ When setting up a new Rocket.Chat instance, you can choose to automatically regi
 
 * Your workspace will not be tagged with status active.
 
-![](<../../.gitbook/assets/image (636).png>)
+![](<../../.gitbook/assets/image (636) (1).png>)

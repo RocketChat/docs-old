@@ -15,11 +15,11 @@ Follow these steps to enable GitHub OAuth on your server.&#x20;
 If your callback URL is wrong, GitHub does not display any error. Instead of logging in, you receive an error message saying, "No matching login attempt found."
 {% endhint %}
 
-![](<../../../../.gitbook/assets/image (692) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (692) (1) (1) (1).png>)
 
 * After creating your app, a screen is shown with your `client id` and a button you can use to generate you apps `secret`
 
-![](<../../../../.gitbook/assets/image (688) (1).png>)
+![](<../../../../.gitbook/assets/image (688) (1) (1).png>)
 
 * Click and confirm access to generate a new secret which you will use in setting up the OAuth
 
@@ -28,7 +28,7 @@ If your callback URL is wrong, GitHub does not display any error. Instead of log
 * After creating your new GiHub OAuth app, copy the `Client Id` and `Secrete` provided
 * Head over to the GitHub OAuth section on your Rocket.Chat server by navigating to **Administration** > **Settings** > **OAuth**&#x20;
 
-![](<../../../../.gitbook/assets/image (671) (1).png>)
+![](<../../../../.gitbook/assets/image (671) (1) (1).png>)
 
 * Enable GitHub OAuth, fill in the credentials and hit **Save Changes** to commit
 *

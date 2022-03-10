@@ -6,7 +6,7 @@ To access this setting, go to **Administration** > **Settings** > **Rate Limiter
 
 ![](../../../.gitbook/assets/administration-nav.png)
 
-![](<../../../.gitbook/assets/image (671) (1) (1).png>)
+![](<../../../.gitbook/assets/image (671) (1) (1) (1).png>)
 
 ## API Rate Limiter <a href="#9f0duy7a3no" id="9f0duy7a3no"></a>
 

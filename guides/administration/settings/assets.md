@@ -10,7 +10,7 @@ To access the assets section, go to **Administration** > **Settings** > **Assets
 
 ![](<../../../.gitbook/assets/administration >)
 
-![](<../../../.gitbook/assets/image (645).png>)
+![](<../../../.gitbook/assets/image (645) (1).png>)
 
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.

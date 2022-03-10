@@ -31,10 +31,10 @@ To create a personal access token:
 
 On the right side of the list against every access token, hit the **Delete** icon to delete it.
 
-![](<../../../../.gitbook/assets/image (688) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (688) (1) (1) (1).png>)
 
 ## Regenerate Personal Access Token
 
 To regenerate an exiting access token, hit the **regenerate** button by the right against it.
 
-![](<../../../../.gitbook/assets/image (636) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (636) (1) (1) (1).png>)

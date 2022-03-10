@@ -6,6 +6,6 @@ To view all stared messages, click on the **Options** against your opened DM and
 
 &#x20;
 
-![](<../../../../../.gitbook/assets/image (679) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (679) (1) (1) (1).png>)
 
 A list of all pinned messages is seen.

@@ -10,6 +10,6 @@ To access this menu, go to **Administration** > **Settings** > **Bots**.
 
 ![](<../../../.gitbook/assets/administration >)
 
-![](<../../../.gitbook/assets/image (696).png>)
+![](<../../../.gitbook/assets/image (696) (1).png>)
 
 * **User Fields**: This takes in comma-separated fields that can be accessed by bots helper methods.
