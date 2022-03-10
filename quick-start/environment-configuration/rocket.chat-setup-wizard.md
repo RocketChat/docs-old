@@ -39,7 +39,7 @@ To launch your workspace, it is required to do a simple 4 step setup.
 
 * **Organization Info**: This involves information about your organization
 
-![](<../../.gitbook/assets/image (672).png>)
+![](<../../.gitbook/assets/image (672) (1).png>)
 
 * **Register Your Server**: Next you are asked to register your workspace to the Rocket.Chat Cloud or proceed with a standalone server.&#x20;
 

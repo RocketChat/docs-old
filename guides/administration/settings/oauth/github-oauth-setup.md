@@ -7,7 +7,7 @@ Follow these steps to enable GitHub OAuth on your server.&#x20;
 * Go to your [GitHub Developers Settings](https://github.com/settings/developers)
 * Navigate to **OAuth Apps** and click on **Register a new application**
 
-![](<../../../../.gitbook/assets/image (690) (1).png>)
+![](<../../../../.gitbook/assets/image (690) (1) (1).png>)
 
 * Fill in the required information and hit **Register application**
 

@@ -6,7 +6,7 @@ To access this setting, go to **Administration** > **Settings** > **WebRTC**.
 
 ![](<../../../.gitbook/assets/administration >)
 
-![](<../../../.gitbook/assets/image (674).png>)
+![](<../../../.gitbook/assets/image (674) (1).png>)
 
 * **Enable for Public Channels**: WebRTC will be enabled for all public channels if set to true.
 * **Enable for Private Channels**: When enabled, private channels will have WebRTC.

@@ -58,7 +58,7 @@ To configure this WebSocket connection between Rocket.Chat and Asterisk:
 * Under the **Settings** tab navigate to **Server Configuration** and click it open.
 * All the settings needed here should be provided to you by your _Asterisk manager._&#x20;
 
-![Call server configuration](<../../../.gitbook/assets/image (647) (1).png>)
+![Call server configuration](<../../../.gitbook/assets/image (647) (1) (1).png>)
 
 Congratulations! Your Rocket.Chat instance is connected to Asterisk server and is able to receive calls from Asterisk server successfully. 😊
 

@@ -1,25 +1,53 @@
 # Nextcloud and WebDAV integrations
 
-You can integrate Nextcloud with any application that uses the WebDAV protocol.
+You can integrate Nextcloud with any application that uses the WebDAV protocol. Rocket.Chat offers seamless integration between Nexcloud and the Rocket.Chat server.
 
-To do so, you will need a server admin to go into `Administration -> Webdav Integration` and set the `Webdav Integration Enabled` setting to `true`.
+With this integration, you can access, browse, navigate your Nextcloud directories and share files from your Nextcloud server all within Rocket.Chat.
 
-Users can then link their Nextcloud/WebDAV service to Rocket.Chat to access and share their stored files.
+To do this,  `WebDAV Integration` needs to be enabled on your Rocket.Chat server.&#x20;
+
+You will need a server admin to go into **Administration** -> **Settings** -> **Webdav Integration** and set the value to `true`.
+
+![](<../../../../.gitbook/assets/administration >)
+
+![](<../../../../.gitbook/assets/image (678).png>)
 
 ## Adding a new Nextcloud/WebDAV server
 
 Once the integration has been enabled by the admin, any user will be able to link their servers to Rocket.Chat.
 
-To do that, you should simply press the file-sharing button on the message box \(the big "plus" at the end of the message box\) and select `add server` under the `WebDav` category. You can check the [WebDAV Integration](https://docs.rocket.chat/guides/administration/settings/webdav-integration) for more details.
+Adding a new Nexcloud server requires you to have available the;
 
-Then you will need your `WebDAV url`, your username and password for that server. You can find out how to get your WebDAV url on Nextcloud's docs [here](https://docs.nextcloud.com/server/latest/user_manual/en/files/access_webdav.html?highlight=access%20webdav).
+* **WebDAV url**: The WebDAV url used for the connection
+* **Username**: Your Nexcloud username
+* **Password**: Your Nextcloud password
 
-Usually NextCloud WebDAV urls looks like this:
+To get your Nexcloud WebDAV url, **Files** section of your Nextcloud server then **Settings** at the bottom left
 
-`https://EXAMPLE.COM/remote.php/dav/files/USERNAME/`
+![](<../../../../.gitbook/assets/image (673).png>)
 
-And you can find your server's WebDAV URL navigating to the files tab, and then settings as shown in the image below: 
+![](<../../../../.gitbook/assets/image (674).png>)
 
-![image](https://user-images.githubusercontent.com/27704687/148427316-8e25d102-0ed9-47a6-87ed-c4619e6a0357.png)
+You will see a WebDAV field with the url that looks like this `https://EXAMPLE.COM/remote.php/dav/files/USERNAME/` Copy the url and proceed
 
-You should then be ready to start sharing files to Rocket.Chat via WebDav Protocol!
+* Back on your Rocket.Chat interface, **click on the big plus icon** by the right of the message box
+
+![](<../../../../.gitbook/assets/image (690).png>)
+
+* Then select **Add Server** on the popup that shows to add a new WebDAV server
+
+![](<../../../../.gitbook/assets/image (647).png>)
+
+* Fill in the information on the dailogue that appears including the Nextcloud WebDAV url we copied earlier, Nextcloud username and Nextcloud password then **Add new WebDAV Account**
+
+![](<../../../../.gitbook/assets/image (670).png>)
+
+* When that is successful, refresh your server
+* To access Nexcloud file in RocketChat, click on the plus icon :heavy\_plus\_sign: again and this time, you will see the server you just added.&#x20;
+
+![](<../../../../.gitbook/assets/image (677).png>)
+
+From here, you have the ability to access and share your Nextcloud files on Rocket.Chat
+
+![](<../../../../.gitbook/assets/image (672).png>)
+

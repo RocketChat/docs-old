@@ -30,7 +30,7 @@ The guide as follow will show the next steps to apply your EE trial license afte
 
 * A pop up is shown, **Copy the Token and Continue**
 
-![](<../../.gitbook/assets/image (673) (1).png>)
+![](<../../.gitbook/assets/image (673) (1) (1).png>)
 
 * After copying the token and head back to your server's **Administration** > **Admin Panel** > **Connectivity Services**  Click on the **Register Workspace**&#x20;
 
@@ -38,7 +38,7 @@ The guide as follow will show the next steps to apply your EE trial license afte
 
 * You are prompted to enter your Cloud Console Token. Remember the token we copied above? Paste it in the Token field and then click **Connect**.
 
-![](<../../.gitbook/assets/image (674) (1).png>)
+![](<../../.gitbook/assets/image (674) (1) (1).png>)
 
 {% hint style="info" %}
 We recommend you sync your server immediately after linking it to the cloud. To do that, head on to the **Connectivity Services** on your **Administration** panel and click on **Sync**.
@@ -54,7 +54,7 @@ To connect with an air-gapped computer or a server without internet access, sele
 
 * You see an interface prompting you to paste the code you copied from your Rocket.Chat self-managed workspace. Let's get the code now
 
-![](<../../.gitbook/assets/image (670) (1).png>)
+![](<../../.gitbook/assets/image (670) (1) (1).png>)
 
 * Back on your server, select the Register Offline option.&#x20;
 
@@ -70,7 +70,7 @@ To connect with an air-gapped computer or a server without internet access, sele
 
 You are then given another code to apply on your server. Copy that code, and go to your **Administration** panel, paste it there, and hit **Finish Registration.**
 
-![](<../../.gitbook/assets/image (672) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (672) (1) (1) (1) (1) (1) (1) (1).png>)
 
 Proceed to activate the license on the workspace
 

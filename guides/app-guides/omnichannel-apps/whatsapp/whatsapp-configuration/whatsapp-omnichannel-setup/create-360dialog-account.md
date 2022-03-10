@@ -4,7 +4,7 @@ If you don't have a 360Dialog account:
 
 Click **No,**&#x20;
 
-![](<../../../../../../.gitbook/assets/image (664) (1) (1) (1) (1).png>)
+![](<../../../../../../.gitbook/assets/image (664) (1) (1) (1) (1) (1).png>)
 
 ![](<../../../../../../.gitbook/assets/image (648) (1) (1) (1) (1).png>)
 

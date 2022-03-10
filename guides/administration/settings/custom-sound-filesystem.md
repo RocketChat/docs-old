@@ -6,7 +6,7 @@ To access this setting, go to **Administration** > **Settings** > **Custom Sound
 
 ![](<../../../.gitbook/assets/administration >)
 
-![](<../../../.gitbook/assets/image (673).png>)
+![](<../../../.gitbook/assets/image (673) (1).png>)
 
 * **Storage Type**: A dropdown to select the storage type for your sounds example `GridFS or FilesystemSystem`
 * **Path**: Full path to emoji location.
