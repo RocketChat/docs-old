@@ -157,7 +157,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Difficulty:**  Medium
 
-### **IRC Bridge :   improve ease of deployment and stability**&#x20;
+### **IRC Bridge : improve ease of deployment and stability**&#x20;
 
 **Mentors:**   Gabriel Engel
 
@@ -206,7 +206,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 ### Pomodoro Time Management App
 
-Mentor(s):  Duda Nogueira
+Mentor(s):  Debdut Chakraborty
 
 Description:  With remote work now becoming the norm,  lack of essential time management skills can throw off work/life balance and resulting in burn-out or dangerous mental wellness problems.   [Pomodoro](https://science.nichd.nih.gov/confluence/display/newsletter/2020/05/07/The+Pomodoro+Technique%3A+An+Effective+Time+Management+Tool)  is a proven and easy to adopt time management technique practiced by millions world wide.   This project involves the creation of an always available Pomodoro timer Rocket.Chat App. &#x20;
 
@@ -341,7 +341,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Difficulty:**  Medium
 
-### weekly video  meeting and  archive App - Big Blue Button + Rocket.Chat
+### Weekly Video  Meeting and  Archive App - Big Blue Button + Rocket.Chat
 
 **Mentors:** Debdut Chakraborty, Felipe Cecagno
 
@@ -397,7 +397,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Difficulty:** Easy
 
-### GitHub  App
+### GitHub App
 
 **Mentor(s):**  Rohan Lekhwani,  Sing Li
 
