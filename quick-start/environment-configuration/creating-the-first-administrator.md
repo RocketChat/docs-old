@@ -1,4 +1,4 @@
-# Creating the first administrator
+# Admin Account Creation
 
 After you deploy your server, the first user to register becomes the administrator, with power to set other users as administrators.
 
@@ -15,3 +15,19 @@ export ADMIN_EMAIL=admin@example.com
 node main.js
 ```
 
+Installing with the `docker compose file`, you can also specify the admin user and password directly.
+
+```
+    environment:
+      - PORT=3000
+      - ROOT_URL=http://localhost:3000
+      - MONGO_URL=mongodb://mongo:27017/rocketchat
+      - MONGO_OPLOG_URL=mongodb://mongo:27017/local
+      - ADMIN_USERNAME=admin
+      - ADMIN_NAME=Admin
+      - ADMIN_EMAIL=rodriq@localhost.com
+      - ADMIN_PASS=supersecret
+      - OVERWRITE_SETTING_Show_Setup_Wizard=completed
+      - REG_TOKEN=${REG_TOKEN}
+#       - MAIL_URL=smtp://smtp.emai
+```
