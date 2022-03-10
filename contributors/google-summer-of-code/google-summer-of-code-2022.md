@@ -4,7 +4,7 @@
 
 ## How to apply
 
-Rocket.Chat is proud to be a participating open source organization for the Google Summer of Code 2022 program.   This marks the exciting 6th year of participation with this 18 years-old program to usher in a new generation of open source contributors and enthusiasts. \
+Rocket.Chat is proud to be a participating open source organization for the [Google Summer of Code 2022](https://summerofcode.withgoogle.com) program.   This marks the exciting 6th year of participation with this 18 years-old program to usher in a new generation of open source contributors and enthusiasts. \
 \
 Almost anyone in the world [over 18 years of age ](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html)who loves coding and wants to explore the incredible world of open source can join us as a GSoC 2022 contributor.&#x20;
 
