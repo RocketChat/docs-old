@@ -10,4 +10,8 @@ it appears in your Rocket.Chat workspace, just like any other omnichannel conver
 
 ![](../../../../.gitbook/assets/2021-12-31\_20-30-41.png)
 
-&#x20;Click **Take It!** to serve this conversation. You can also send to and receive files from your Instagram end-user.
+&#x20;Click **Take It!** to serve this conversation.&#x20;
+
+You can send to and receive files from your Instagram end-user.
+
+The integration also supports context from Instagram stories and posts within the incoming messages.

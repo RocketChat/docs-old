@@ -13,8 +13,6 @@ Using Rocket.Chat and the Dialogflow Chatbot platform integration, you can set u
 **You must have the** [**omnichannel feature**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#enable-omnichannel) **enabled as well as have** [**agents**](https://docs.rocket.chat/guides/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/guides/omnichannel/managers) **assigned in order to receive and send omnichannel messages.**
 {% endhint %}
 
-Please follow this [guide](https://cloud.google.com/dialogflow/es/docs/quick/setup) to find all required setup steps to start using Dialogflow.
-
 {% content-ref url="dialogflow-app-installation.md" %}
 [dialogflow-app-installation.md](dialogflow-app-installation.md)
 {% endcontent-ref %}
