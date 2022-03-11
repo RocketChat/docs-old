@@ -2,7 +2,7 @@
 
 ## What exactly will be implemented on Enterprise Edition (EE) only? When will this be effective?
 
-Rocket.Chat will be launching a re-factored set of advanced LDAP features by September 28th. The ability to connect to your LDAP server to sync user names and unique identifiers will remain in the Community Edition together with existing social login features.  Selected advanced LDAP features including extended user attribute sync, group/team management, background sync, and SAML integration will be implemented only in the Enterprise edition.  This change will enable Rocket.Chat to support ongoing improvements to our suite of identity management solutions while continuing to make our basic LDAP directory synchronization codebase available for use and extension by the Rocket.Chat community.
+Rocket.Chat has launched a re-factored set of advanced LDAP features on September 28, 2021. The ability to connect to your LDAP server to sync user names and unique identifiers will remain in the Community Edition together with existing social login features.  Selected advanced LDAP features including extended user attribute sync, group/team management, background sync, and SAML integration will be implemented only in the Enterprise edition.  This change will enable Rocket.Chat to support ongoing improvements to our suite of identity management solutions while continuing to make our basic LDAP directory synchronization codebase available for use and extension by the Rocket.Chat community.
 
 ## What LDAP, Active Directory, OAuth, SAML mean, and how do these things work together?
 
