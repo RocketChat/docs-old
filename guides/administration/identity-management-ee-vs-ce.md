@@ -1,12 +1,10 @@
 ---
-description: 'List of available login methods and features.  Including:'
+description: >-
+  List of available login methods and features and their differentiation for
+  Enterprise and Community additions.
 ---
 
 # Identity Management (EE vs CE)
-
-* [LDAP / AD](identity-management-ee-vs-ce.md#ldap3)
-* [SAML](identity-management-ee-vs-ce.md#saml3)
-* [OAuth / Custom OAuth](identity-management-ee-vs-ce.md#oauth3)
 
 ## **LDAP / AD** <a href="#ldap3" id="ldap3"></a>
 
@@ -31,10 +29,17 @@ description: 'List of available login methods and features.  Including:'
   * **Auto-Unsubscribe from Channels:** You can also remove users from Rocket.Chat channels on LDAP
   * **Auto-Join Teams:** You can map any LDAP group to a Rocket.Chat team
   * **Auto-Leave Teams:** You can also remove users from Rocket.Chat teams on LDAP
-* **Background Sync:** Periodic background sync
-  * **Incremental Sync:** Give the option to use Incremental Sync (will be implemented in a future release)
-  * **Sync User Active State:** Determine if users should be enabled or disabled on Rocket.Chat based on the LDAP status
-  * **Auto logout:** Auto logout user on next sync when it's removed/disabled on LDAP group
+*   **Background Sync:** Periodic background sync
+
+    * **Incremental Sync:** Give the option to use Incremental Sync (will be implemented in a future release)
+    * **Sync User Active State:** Determine if users should be enabled or disabled on Rocket.Chat based on the LDAP status
+    * **Auto logout:** Auto logout user on next sync when it's removed/disabled on LDAP group
+
+
+
+{% content-ref url="settings/ldap/" %}
+[ldap](settings/ldap/)
+{% endcontent-ref %}
 
 ## **SAML** <a href="#saml3" id="saml3"></a>
 
@@ -48,6 +53,10 @@ description: 'List of available login methods and features.  Including:'
 * **Roles mapping:** Role mapping from user groups
 * **Fields mapping:** Select any field you want to sync with RC
 * **Advanced:** Advanced settings (eg. login with username and password x win user)
+
+{% content-ref url="settings/saml/" %}
+[saml](settings/saml/)
+{% endcontent-ref %}
 
 ## **OAuth / Custom OAuth** <a href="#oauth3" id="oauth3"></a>
 
@@ -77,9 +86,16 @@ description: 'List of available login methods and features.  Including:'
 
 ### Enterprise
 
-* **Advanced Custom OAuth:**&#x20;
-  * Assign Rocket.Chat roles based on OAuth roles
-  * Join channels automatically based on OAuth roles
+*   **Advanced Custom OAuth:**&#x20;
+
+    * Assign Rocket.Chat roles based on OAuth roles
+    * Join channels automatically based on OAuth roles
+
+
+
+{% content-ref url="settings/oauth/" %}
+[oauth](settings/oauth/)
+{% endcontent-ref %}
 
 {% content-ref url="../../resources/frequently-asked-questions/ldap-faq.md" %}
 [ldap-faq.md](../../resources/frequently-asked-questions/ldap-faq.md)
