@@ -1,14 +1,14 @@
-# Running Multiple Instances Per Host To Improve Performance
+# Running Multiple Instances
 
-You may find that Rocket.Chat slows down once you have a lot of concurrent users. When this sluggishness begins, you will likely see Rocket.Chat node process approaching 100% CPU \(even if the host CPU load is low\). This is due to the single-threaded nature of Node.js applications; they can't take advantage of multiple cores natively.
+You may find that Rocket.Chat slows down once you have a lot of concurrent users. When this sluggishness begins, you will likely see Rocket.Chat node process approaching 100% CPU (even if the host CPU load is low). This is due to the single-threaded nature of Node.js applications; they can't take advantage of multiple cores natively.
 
-While it's possible to scale out by adding more servers \(and this is recommended for HA purposes\), you can achieve better utilization of your existing hardware by running multiple instances of the Rocket.Chat application \(Node.js/Meteor app\) on your current host\(s\). Of course, you only want to do this if you're already running on a multi-core machine. A reasonable rule-of-thumb may be to run `N-1` Rocket.Chat instances, where `N=num_cores`.
+While it's possible to scale out by adding more servers (and this is recommended for HA purposes), you can achieve better utilization of your existing hardware by running multiple instances of the Rocket.Chat application (Node.js/Meteor app) on your current host(s). Of course, you only want to do this if you're already running on a multi-core machine. A reasonable rule-of-thumb may be to run `N-1` Rocket.Chat instances, where `N=num_cores`.
 
 Running multiple instances of Rocket.Chat on a single host requires a reverse proxy in front of your application. This tutorial assumes that you've already followed the tutorial for [Running behind a Nginx SSL Reverse Proxy](https://docs.rocket.chat/installation/manual-installation/configuring-ssl-reverse-proxy).
 
 There's essentially just three steps:
 
-1. Enable ReplicaSet on your MongoDB installation \([https://docs.mongodb.com/manual/tutorial/deploy-replica-set/](https://docs.mongodb.com/manual/tutorial/deploy-replica-set/)\)
+1. Enable ReplicaSet on your MongoDB installation ([https://docs.mongodb.com/manual/tutorial/deploy-replica-set/](https://docs.mongodb.com/manual/tutorial/deploy-replica-set/))
 2. Start multiple instances of Rocket.Chat bound to different ports
 3. Update your proxy to point at all local Rocket.Chat instances
 
@@ -18,7 +18,7 @@ We'll be working with Nginx in our examples, but it should be possible with othe
 
 We'll assume that you've configured Rocket.Chat to run as a systemd service. Since we want to run multiple instances simultaneously, we need to run at least two services. The only difference is the service name and port. If you don't have a service yet, the easiest way to do this for Rocket.Chat is to create a file in /usr/lib/systemd/system/ and call it rocketchat.service
 
-```text
+```
 [Unit]
 Description=Rocket.Chat Server
 After=syslog.target
@@ -46,7 +46,7 @@ Make sure the User and Group exist and both have read/write/execute Permissions 
 
 If you want multiple Services create another file in /usr/lib/systemd/system and call it rocketchat@.service with the following content:
 
-```text
+```
 [Unit]
 Description=Rocket.Chat Server
 After=syslog.target
@@ -86,7 +86,7 @@ If you run Rocket.Chat instances on multiple physical nodes. Or even in multiple
 
 Rocket.Chat makes use of a peer to peer connection to inform each other of events. Let's say you type a message and tag a friend or coworker that is connected to another instance.
 
-Two different events are fired: 1. The user \(you\) is typing 2. Notify user \(friend\)
+Two different events are fired: 1. The user (you) is typing 2. Notify user (friend)
 
 Each Rocket.Chat instance registers in your database the ip address it detected for its self. Other instances then use this list to discover and establish connections with each other.
 
@@ -100,7 +100,7 @@ You just need to setup a backend if one doesn't already exist. Add all local Roc
 
 Continuing the example, we'll update our Nginx config to point to the two Rocket.Chat instances that we started running on ports 3001 and 3002.
 
-```text
+```
 # Upstreams
 upstream backend {
     server 127.0.0.1:3000;
@@ -115,7 +115,7 @@ upstream backend {
 
 Now just replace `proxy_pass http://IP:3000/;` with `proxy_pass http://backend;`. Updating the [sample Nginx configuration](https://docs.rocket.chat/installation/manual-installation/configuring-ssl-reverse-proxy#running-behind-a-nginx-ssl-reverse-proxy) would result in a config like this:
 
-```text
+```
     # HTTPS Server
 server {
     listen 443;
@@ -149,9 +149,9 @@ Now restart Nginx: `service nginx restart`
 
 ## Update your Apache proxy config
 
-Run this as root \(to enable the necessary modules to use proxy balancer\):
+Run this as root (to enable the necessary modules to use proxy balancer):
 
-```text
+```
 a2enmod proxy_html
 a2enmod proxy_balancer
 a2enmod headers
@@ -161,7 +161,7 @@ a2enmod session_cookie
 
 Edit `/etc/apache2/sites-enabled/rocketchat.conf` and be sure to use your actual hostname in lieu of the sample hostname "your\_hostname.com" below.
 
-```text
+```
 <VirtualHost *:443>
     ServerAdmin it@domain.com
     ServerName chat.domain.com
@@ -222,4 +222,3 @@ This is important for a couple of reasons: 1. Database reliability. You will wan
 Another thing to keep in mind is the storage engine you are using. By default mongo uses Wiredtiger. Wiredtiger under some loads can be very CPU and Memory intensive. Under small single instance setups we don't typically see issues. But when you run multiple instances of Rocket.Chat it can sometimes get a bit unruly.
 
 It's because of this we recommend in multiple instance situations that you switch the mongo storage engine to mmapv1.
-

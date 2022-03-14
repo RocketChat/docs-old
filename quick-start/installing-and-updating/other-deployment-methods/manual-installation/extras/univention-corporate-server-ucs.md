@@ -1,6 +1,6 @@
-# Univention Corporate Server \(UCS\)
+# Univention Corporate Server (UCS)
 
-[Univention Corporate Server \(UCS\)](https://www.univention.com/products/ucs/) is an enterprise Linux distribution derived from Debian GNU/Linux with a strong focus on identity and infrastructure management. It provides an Active Directory compatible domain and allows deployment in Microsoft Active Directory based infrastructure. Furthermore, it supports authentication protocols LDAP, SAML and OpenID Connect.
+[Univention Corporate Server (UCS)](https://www.univention.com/products/ucs/) is an enterprise Linux distribution derived from Debian GNU/Linux with a strong focus on identity and infrastructure management. It provides an Active Directory compatible domain and allows deployment in Microsoft Active Directory based infrastructure. Furthermore, it supports authentication protocols LDAP, SAML and OpenID Connect.
 
 Rocket.Chat is available as app in Univention App Center.
 
@@ -22,4 +22,3 @@ The fastest and easiest way to run a deployment of Rocket.Chat on UCS is to down
 If there is already a deployment of UCS running, Rocket.Chat can easily be installed directly via the App Center.
 
 Alternatively, the above mentioned app appliance can be setup and joined into an existing UCS deployment, called domain.
-

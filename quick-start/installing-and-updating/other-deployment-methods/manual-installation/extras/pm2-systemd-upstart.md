@@ -4,7 +4,7 @@
 
 ## Systemd
 
-Deploy [Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) to Linux that run on systemd \(RedHat, Centos, Ubuntu, CoreOS and so on\).
+Deploy [Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) to Linux that run on systemd (RedHat, Centos, Ubuntu, CoreOS and so on).
 
 ### How to run Rocket.Chat on systemd.
 
@@ -14,7 +14,7 @@ First we need to create the unit file.
 
 With the contents:
 
-```text
+```
 [Unit]
 Description=RocketChat Server
 After=network.target remote-fs.target nss-lookup.target mongod.target nginx.target  # Remove or Replace nginx with your proxy
@@ -50,15 +50,15 @@ All data will be hourly backed up to `/data/domains/example.org/data` folder. We
 
 The following examples are upstart jobs which control automatic start-up and, if necessary, respawning of your Rocket.Chat app, as well as management of an optional hubot chat-bot.
 
-In order to use the examples, simply copy each example and save into a file, paying attention to the fact that the filenames should be preserved unless you edit the examples to reflect any filename changes you make. Be sure to edit the environment variables, and possibly paths, according to your particular installation. Once you've saved the files to the proper directory \(/etc/init\) usage is as simple as rebooting.
+In order to use the examples, simply copy each example and save into a file, paying attention to the fact that the filenames should be preserved unless you edit the examples to reflect any filename changes you make. Be sure to edit the environment variables, and possibly paths, according to your particular installation. Once you've saved the files to the proper directory (/etc/init) usage is as simple as rebooting.
 
-Which upstart management jobs that you use depend on what type of Rocket.Chat deployment you are using \(Docker-compose, non-docker, etc\). A race-condition exists with docker-compose which requires that mongo and the Rocket.Chat application be started independently, thus a slightly modified upstart job is required compared to non-docker instances.
+Which upstart management jobs that you use depend on what type of Rocket.Chat deployment you are using (Docker-compose, non-docker, etc). A race-condition exists with docker-compose which requires that mongo and the Rocket.Chat application be started independently, thus a slightly modified upstart job is required compared to non-docker instances.
 
 ### Non-Docker-Compose
 
 Save as: `/etc/init/rocketchat.conf`
 
-```text
+```
 description "rocketchat application server"
 
 # Wait for mongod before starting rocketchat app
@@ -80,7 +80,7 @@ end script
 
 Save as: `/etc/init/rocketchat_hubot.conf`
 
-```text
+```
 description "hubot launcher"
 
 # Wait for the rocketchat upstart job before starting hubot
@@ -114,7 +114,7 @@ end script
 
 Save as: `/etc/init/rocketchat_mongo.conf`
 
-```text
+```
 description "MongoDB service manager for rocketchat"
 
 # Start MongoDB after docker is running
@@ -136,7 +136,7 @@ end script
 
 Save as: `/etc/init/rocketchat_app.conf`
 
-```text
+```
 description "Rocketchat service manager"
 
 # Start Rocketchat after mongo upstart job is running
@@ -155,4 +155,3 @@ script
     exec /usr/local/bin/docker-compose up rocketchat hubot
 end script
 ```
-
