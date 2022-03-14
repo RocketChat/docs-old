@@ -8,7 +8,7 @@ To create a thread in any direct message:
 
 * Click **options** by the right of an existing message in the chats and select **Reply in Threads**
 
-![](<../../../../../.gitbook/assets/image (645) (1) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (645) (1) (1).png>)
 
 ## View Threads in Direct Message
 

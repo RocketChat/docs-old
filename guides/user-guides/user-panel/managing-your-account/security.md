@@ -2,7 +2,7 @@
 
 To access this menu, Click on you **profile** and go to **My Account** > **Security**
 
-![](<../../../../.gitbook/assets/image (676) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (676) (2).png>)
 
 ## Two Factor Authentication
 

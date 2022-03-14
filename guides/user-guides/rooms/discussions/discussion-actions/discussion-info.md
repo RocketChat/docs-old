@@ -16,7 +16,7 @@ A sidebar is seen with basic information about the discussion.
 
 * Clicking on **Edit** brings up and interface for editing info about the discussion.
 
-![](<../../../../../.gitbook/assets/image (655) (1) (1) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (655) (1) (2).png>)
 
 * **Name**: The discussion's name, how users see the title and find the discussion via search.
 * **Description**: The description of the discussion.

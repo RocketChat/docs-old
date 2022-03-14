@@ -1,0 +1,2 @@
+# Upgrading Rocket.Chat
+

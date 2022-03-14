@@ -18,10 +18,6 @@ Some of our most popular and simple deployment methods are
 [snaps](snaps/)
 {% endcontent-ref %}
 
-{% content-ref url="../other-deployment-methods/manual-installation/" %}
-[manual-installation](../other-deployment-methods/manual-installation/)
-{% endcontent-ref %}
-
-{% content-ref url="../other-deployment-methods/one-click-apps-for-deployment.md" %}
-[one-click-apps-for-deployment.md](../other-deployment-methods/one-click-apps-for-deployment.md)
+{% content-ref url="rocketchatctl.md" %}
+[rocketchatctl.md](rocketchatctl.md)
 {% endcontent-ref %}

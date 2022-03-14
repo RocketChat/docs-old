@@ -149,7 +149,7 @@ sudo systemctl enable rocketchat && sudo systemctl start rocketchat
 
 ## Optional configurations
 
-[Configure firewall rule](../extras/optional-configurations.md) [Configure a HTTP reverse proxy to access Rocket.Chat server](../extras/configuring-ssl-reverse-proxy.md) \[Configure mongo access control] \[Configure production values for mongodb]
+[Configure firewall rule](../../../../environment-configuration/optional-configurations.md) [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../../environment-configuration/configuring-ssl-reverse-proxy.md) \[Configure mongo access control] \[Configure production values for mongodb]
 
 ## Configure your Rocket.Chat server
 

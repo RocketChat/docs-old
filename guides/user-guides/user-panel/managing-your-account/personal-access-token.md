@@ -8,7 +8,7 @@ In this section, you can create personalized access tokens that can be used for 
 
 To access this menu, Click on you **profile** and go to **My Account** > **Personal Access Token**
 
-![](<../../../../.gitbook/assets/image (647) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (647) (1) (2).png>)
 
 ## **Creating a Personal Access Token**
 
@@ -31,7 +31,7 @@ To create a personal access token:
 
 On the right side of the list against every access token, hit the **Delete** icon to delete it.
 
-![](<../../../../.gitbook/assets/image (688) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (688) (1) (1).png>)
 
 ## Regenerate Personal Access Token
 

@@ -6,7 +6,7 @@ If you do not have your workspace registered on the cloud already, you can get i
 
 This guide proceeds with creating a new account
 
-![](<../../.gitbook/assets/image (644) (1) (1).png>)
+![](<../../.gitbook/assets/image (644) (2).png>)
 
 * Check your inbox for a link to create a workspace and apply the trial. Click or copy-paste the link in your browser to continue.
 
@@ -30,7 +30,7 @@ The guide as follow will show the next steps to apply your EE trial license afte
 
 * A pop up is shown, **Copy the Token and Continue**
 
-![](<../../.gitbook/assets/image (673) (1) (1).png>)
+![](<../../.gitbook/assets/image (673) (2).png>)
 
 * After copying the token and head back to your server's **Administration** > **Admin Panel** > **Connectivity Services**  Click on the **Register Workspace**&#x20;
 
@@ -38,7 +38,7 @@ The guide as follow will show the next steps to apply your EE trial license afte
 
 * You are prompted to enter your Cloud Console Token. Remember the token we copied above? Paste it in the Token field and then click **Connect**.
 
-![](<../../.gitbook/assets/image (674) (1) (1).png>)
+![](<../../.gitbook/assets/image (674) (2).png>)
 
 {% hint style="info" %}
 We recommend you sync your server immediately after linking it to the cloud. To do that, head on to the **Connectivity Services** on your **Administration** panel and click on **Sync**.
@@ -54,7 +54,7 @@ To connect with an air-gapped computer or a server without internet access, sele
 
 * You see an interface prompting you to paste the code you copied from your Rocket.Chat self-managed workspace. Let's get the code now
 
-![](<../../.gitbook/assets/image (670) (1) (1).png>)
+![](<../../.gitbook/assets/image (670) (2).png>)
 
 * Back on your server, select the Register Offline option.&#x20;
 
@@ -70,7 +70,7 @@ To connect with an air-gapped computer or a server without internet access, sele
 
 You are then given another code to apply on your server. Copy that code, and go to your **Administration** panel, paste it there, and hit **Finish Registration.**
 
-![](<../../.gitbook/assets/image (672) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (672) (1) (1) (1) (1) (1).png>)
 
 Proceed to activate the license on the workspace
 
@@ -83,11 +83,11 @@ Proceed to activate the license on the workspace
 
 Next, copy the code provided and head over to your workspace **Administration panel** > **Info** and click **Apply Offline License**.
 
-![](<../../.gitbook/assets/image (656) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (656) (1) (1).png>)
 
 Paste the code in the License field provided then **Apply License**
 
-![](<../../.gitbook/assets/image (655) (2).png>)
+![](<../../.gitbook/assets/image (655) (2) (1).png>)
 
 ## Verify Active Workspace
 

@@ -7,7 +7,7 @@ Follow these steps to enable GitHub OAuth on your server.&#x20;
 * Go to your [GitHub Developers Settings](https://github.com/settings/developers)
 * Navigate to **OAuth Apps** and click on **Register a new application**
 
-![](<../../../../.gitbook/assets/image (690) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (690) (2).png>)
 
 * Fill in the required information and hit **Register application**
 
@@ -15,11 +15,11 @@ Follow these steps to enable GitHub OAuth on your server.&#x20;
 If your callback URL is wrong, GitHub does not display any error. Instead of logging in, you receive an error message saying, "No matching login attempt found."
 {% endhint %}
 
-![](<../../../../.gitbook/assets/image (692) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (692) (1) (1).png>)
 
 * After creating your app, a screen is shown with your `client id` and a button you can use to generate you apps `secret`
 
-![](<../../../../.gitbook/assets/image (688) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (688) (2).png>)
 
 * Click and confirm access to generate a new secret which you will use in setting up the OAuth
 
