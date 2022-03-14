@@ -80,7 +80,7 @@ Make sure to restart your application container in case the new password is not 
 ### Reset user role to "admin"
 
 ```javascript
-db.users.update({username:"administrator"}, {$set: {'roles' : [ "admin" ]}})
+db.users.update({username: "administrator"}, { $push: { roles: "admin"}})
 ```
 
 Again, make sure to replace `administrator` with the admin username in question.

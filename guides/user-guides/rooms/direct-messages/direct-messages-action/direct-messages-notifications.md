@@ -8,7 +8,7 @@ By default, you get notified on every direct message.
 
 To access the notifications section of your DM, click on the **bell icon** by the top right of the opened message.
 
-![](<../../../../../.gitbook/assets/image (675) (2).png>)
+![](<../../../../../.gitbook/assets/image (675).png>)
 
 The following options are on the discussion notifications tab:
 

@@ -18,7 +18,7 @@ From here, you can apply for an extension following any of the two steps describ
 
 &#x20;  3\. Next enter your message or reason why you need the extension then hit **Send Request**. The request will be sent to sales where they will evaluate and respond.
 
-![](<../../.gitbook/assets/image (657) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (657) (1) (1) (1) (1) (1).png>)
 
 ### Using UI
 
@@ -29,4 +29,4 @@ From here, you can apply for an extension following any of the two steps describ
 
 &#x20;  3\. Next enter your message or reason why you need the extension then hit **Send Request**. The request will be sent to sales where they will evaluate and respond.
 
-![](<../../.gitbook/assets/image (657) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (657) (1) (1) (1) (1) (1).png>)

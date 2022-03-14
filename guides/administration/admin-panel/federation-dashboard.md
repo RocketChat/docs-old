@@ -10,7 +10,7 @@ With the RocketChat [Federation Setup](../settings/federation.md), you can confi
 
 To access the dashboard, go to **Administration** > **Federation Dashboard.**
 
-![](<../../../.gitbook/assets/image (658) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (658) (1) (1).png>)
 
 * **Number of events**: This shows the number of federated events that have been triggered.
 * **Number of federated users**: This shows the number of federated users your sever has made access to.

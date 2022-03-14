@@ -26,7 +26,7 @@ To create a direct message from the top menu:
 
 * A new channel of direct communication is opened with the user and you can now communicate privately.
 
-![](<../../../../.gitbook/assets/image (654) (2).png>)
+![](<../../../../.gitbook/assets/image (654).png>)
 
 ### Creating a Direct Message from a Channel or Team
 
@@ -38,4 +38,4 @@ Say you are in the same **team**, **channel**, **discussion** or **thread** with
 
 * Click on the user you want to open a message with them and their profile is opened. Click on the **Direct Message** icon below their profile and a direct message is opened.
 
-![](<../../../../.gitbook/assets/image (658) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (658) (1).png>)
