@@ -496,6 +496,7 @@
   * [Google Summer of Code 2018](contributors/google-summer-of-code/google-summer-of-code-2018.md)
   * [Google Summer of Code 2017](contributors/google-summer-of-code/google-summer-of-code-2017.md)
 * [Google Season of Docs](contributors/google-season-of-docs/README.md)
+  * [Google Season of Docs 2022](contributors/google-season-of-docs/google-season-of-docs-2022.md)
   * [Google Season of Docs 2021](contributors/google-season-of-docs/google-season-of-docs-2021.md)
   * [Google Season of Docs 2019](contributors/google-season-of-docs/google-season-of-docs-2019.md)
 
