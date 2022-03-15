@@ -45,7 +45,7 @@ To configure this integration between Rocket.Chat and Asterisk:
 * Under the **Settings** tab navigate to **Management Server** and click it open.
 * All the settings needed here should be provided to you by your _Asterisk manager._&#x20;
 
-![Management server configuration ](<../../../.gitbook/assets/image (668) (1).png>)
+![Management server configuration ](<../../../.gitbook/assets/image (668) (1) (1).png>)
 
 ## 3. Configuration of call server
 

@@ -10,7 +10,7 @@ To access this setting, go to **Administration** > **Settings** > **Enterprise**
 
 ![](<../../../.gitbook/assets/administration >)
 
-![](<../../../.gitbook/assets/image (643).png>)
+![](<../../../.gitbook/assets/image (643) (1).png>)
 
 * **Enterprise License**: A field to enter your enterprise license.
 * **Status**: This shows the current status of your applied license whether it is valid or invalid.

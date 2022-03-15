@@ -1,9 +1,3 @@
----
-description: >-
-  Welcome! Here you can find all the documentation about Rocket.Chat server and
-  client.
----
-
 # Rocket.Chat Documentation
 
 [Rocket.Chat](https://rocket.chat) is an open-source fully customizable communications platform developed in JavaScript for organizations with high standards of data protection.

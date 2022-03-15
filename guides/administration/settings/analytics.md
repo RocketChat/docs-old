@@ -10,7 +10,7 @@ To access analytics, go to **Administration > Analytics.**
 
 ![](<../../../.gitbook/assets/administration >)
 
-![](<../../../.gitbook/assets/image (644).png>)
+![](<../../../.gitbook/assets/image (644) (1).png>)
 
 From there, you will have access to various configurations that can be done.
 

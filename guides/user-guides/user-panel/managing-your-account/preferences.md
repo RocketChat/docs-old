@@ -4,20 +4,20 @@ In the [_Preferences_](https://open.rocket.chat/account/preferences) section, th
 
 To access this menu, Click on you **profile** and go to **My Account** > **Preferences**
 
-![](<../../../../.gitbook/assets/image (670) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (670) (1) (1) (1) (1).png>)
 
 ## Localization
 
 * **Language**: A dropdown that lets you set the language to use for the Rocket.Chat user interface.
 
-![](<../../../../.gitbook/assets/image (649) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (649) (1) (1) (1).png>)
 
 ## User Presence
 
 * **Enable Auto-Away**: This setting enables the auto-away functionality, which changes the status to _away_ after an idle period.&#x20;
 * **Idle time limit**: Takes in time in seconds when status should change to away.
 
-![](<../../../../.gitbook/assets/image (645).png>)
+![](<../../../../.gitbook/assets/image (645) (2).png>)
 
 ## Notifications
 
@@ -25,7 +25,7 @@ This section allows the end-user to change their notification preferences.
 
 * **Desktop Notifications**: Click the **Test Desktop Notification** to see how notifications will be displayed on Desktop.
 
-![](<../../../../.gitbook/assets/image (650) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (650) (1) (1) (1).png>)
 
 * **Require Interaction to Dismiss Desktop Notification**: When enabled, notifications must be attended to before they can be dismissed. i.e they will remain in the notification panel always
 * **Show Desktop Notifications For**: Lets you select the type of messages for which the notifications have to be triggered (for both browser and desktop app notifications)
@@ -76,8 +76,8 @@ Configure the sound used for notifications
 
 Lets you download your data either as `HTML` or `JSON` format
 
-![](<../../../../.gitbook/assets/image (687) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (687) (1) (1) (1) (1).png>)
 
 When triggered, the request will be processed and a link to the exported file sent to your email.
 
-![](<../../../../.gitbook/assets/image (665) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (665) (1) (1) (1) (1) (1).png>)

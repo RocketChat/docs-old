@@ -10,11 +10,11 @@ All discussions created, are linked to a particular team or channel.
 
 To create a new discussion, click on the **create** icon on the menu and select **Discussion:**
 
-![](<../../../../.gitbook/assets/image (644) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (644) (1) (1) (1) (1) (1).png>)
 
 Next fill in the required information and hit **Create**
 
-![](<../../../../.gitbook/assets/image (680) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (680) (1) (1) (1).png>)
 
 ### Creating Discussion from a Message
 
@@ -22,11 +22,11 @@ You can also create a discussion from a message sent in a team or channel.
 
 To do that, click on the menu icon by the right of the message and select **Start a Discussion**
 
-![](<../../../../.gitbook/assets/image (648) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (648) (1) (1) (1).png>)
 
 A popup is shown with some information prefilled, complete the info and hit **Create**
 
-![](<../../../../.gitbook/assets/image (652) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (652) (1) (1) (1) (1).png>)
 
 * **Parent channel or group**: Lets you specify which channel or team the discussion should be created under.
 * **Encrypted**: When set to true, the discussion is encrypted.

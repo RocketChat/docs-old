@@ -8,7 +8,7 @@ To create a Discussion in any direct message:
 
 * Click **options** by the right of an existing message in the chats and select **Start a Discussion**
 
-![](<../../../../../.gitbook/assets/image (664) (1) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (664) (1) (1) (1) (1).png>)
 
 ## View Discussions in Direct Messages
 

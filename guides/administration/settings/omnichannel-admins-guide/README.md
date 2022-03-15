@@ -1,10 +1,3 @@
----
-description: >-
-  OmniChannel adds the ability to receive conversations from a pop-up livechat
-  support on your website or your business Facebook chat or any other channel
-  directly in Rocket.chat.
----
-
 # Omnichannel Admin's Guide
 
 OmniChannel adds the ability to receive conversations from a pop-up livechat support on your website or your business Facebook chat or any other media directly in Rocket.chat.

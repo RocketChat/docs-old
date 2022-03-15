@@ -64,9 +64,9 @@ We recommend you register your workspace which will automatically create a [Rock
 
 * Confirm the registration and go back to your server
 
-![](<../../.gitbook/assets/image (679).png>)
+![](<../../.gitbook/assets/image (679) (1).png>)
 
-![](<../../.gitbook/assets/image (696).png>)
+![](<../../.gitbook/assets/image (696) (1).png>)
 
 #### Continue as Standalone
 

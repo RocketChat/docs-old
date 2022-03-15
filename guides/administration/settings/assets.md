@@ -19,7 +19,7 @@ Remember to hit **Save Changes** in order to apply any changes made.
 * **Enable SVG favicon**: When enabled, it gives you the ability to set an SVG favicon.
 * **logo (svg, png, jpg)**: Lets you set the logo for your server.&#x20;
 
-![](<../../../.gitbook/assets/image (644) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (644) (1) (1) (1) (1) (1) (1) (1).png>)
 
 * **login background (svg, png, jpg)**: Lets you set a login background image.&#x20;
 

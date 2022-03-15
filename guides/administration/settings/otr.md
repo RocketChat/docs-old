@@ -12,6 +12,6 @@ Go to **Administration** > **Settings** > **OTR**.
 
 ![](<../../../.gitbook/assets/administration >)
 
-![](<../../../.gitbook/assets/image (668).png>)
+![](<../../../.gitbook/assets/image (668) (1).png>)
 
 ![](<../../../.gitbook/assets/image (390).png>)

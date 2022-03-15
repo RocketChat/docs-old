@@ -6,7 +6,7 @@ To access this menu, go to **Administration** > **Settings** > **SlackBridge**
 
 ![](<../../../.gitbook/assets/administration >)
 
-![](<../../../.gitbook/assets/image (693).png>)
+![](<../../../.gitbook/assets/image (693) (1).png>)
 
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.

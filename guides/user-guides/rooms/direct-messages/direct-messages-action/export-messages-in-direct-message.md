@@ -4,13 +4,13 @@ You can export an entire conversation you have had either in your one-on-one DMs
 
 To do that, click on the **Options** across the opened DM room and select **Export Messages**
 
-![](<../../../../../.gitbook/assets/image (669) (1) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (669) (1) (1) (1) (1).png>)
 
 A section is shown with series of configurable options before exporting
 
 ### Exporting Messages via email
 
-![](<../../../../../.gitbook/assets/image (678) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (678) (1) (1) (1).png>)
 
 * **Method**: A dropdown to select what method the export should be done( Choose between: `email` or `file`). In this case, we use `Send via email`
 * **To Users**: Lets you select the users to send the email to
@@ -20,7 +20,7 @@ A section is shown with series of configurable options before exporting
 
 ### Exporting Messages as File
 
-![](<../../../../../.gitbook/assets/image (657) (1) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (657) (1) (1) (1) (1) (1).png>)
 
 * **Method**: A dropdown to select what method the export should be done( Choose between: `email` or `file`). In this case, we use `Export as File`
 * **From**: Lets you select the start date of the export
