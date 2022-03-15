@@ -303,7 +303,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Difficulty:**  Medium
 
-### Team Bridge:  interop with Microsoft Team
+### Team Bridge:  interop with Microsoft Teams
 
 **Mentor(s):** Yash Rajpal, Fábio Albuquerque
 
