@@ -206,7 +206,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 ### Pomodoro Time Management App
 
-Mentor(s):  Duda Nogueira, Debdut Chakraborty
+Mentor(s):  Debdut Chakraborty, Duda Nogueira
 
 Description:  With remote work now becoming the norm,  lack of essential time management skills can throw off work/life balance and resulting in burn-out or dangerous mental wellness problems.   [Pomodoro](https://science.nichd.nih.gov/confluence/display/newsletter/2020/05/07/The+Pomodoro+Technique%3A+An+Effective+Time+Management+Tool)  is a proven and easy to adopt time management technique practiced by millions world wide.   This project involves the creation of an always available Pomodoro timer Rocket.Chat App. &#x20;
 
@@ -305,7 +305,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 ### Team Bridge:  interop with Microsoft Team
 
-**Mentor(s):** Yash Rajpal,  Fábio Albuquerque
+**Mentor(s):** Yash Rajpal, Fábio Albuquerque
 
 **Description:**   Microsoft team is unquestionably the most popular and frequently used closed source team chat system in the world.   Many administrators and users of open source Rocket.Chat team chat will have needs to bridge between their open source users and legacy users still on team.  This project will create a Rocket.Chat App or an npm module that will act as a bridge  between Rocket.Chat and Microsoft Team.    Users on one system should be able to chat with the other through shared channels.   Support for rich interactions including DM, emoji's, embedded graphics, shared youtube links and so on should also be supported.   The exact scope for this project will be determined between the contributor and the mentors.
 
@@ -357,7 +357,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 ### Open Source Project Rewrite
 
-**Mentors:** Jorge Leite
+**Mentors:** Jorge Leite, Pedro Rorato
 
 **Description:** Migrating from one technology, coding language or framework is something quite common on an industry that is constantly evolving. Having people with knowledge on performing this during early stages of their career and understanding the steps to do so is not quite as common. On this project the participant will be performing features and repos re-writes and builds while getting mentoring on clean code, unit testing, quality standards and best practices on agile software development.   The open source repository should be selected from within the Rocket.Chat ecosystem.   The rewrite can involve either a programming language or development framework change, or both.
 
@@ -399,7 +399,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 ### GitHub App
 
-**Mentor(s):**  Rohan Lekhwani,  Sing Li
+**Mentor(s):**  Rohan Lekhwani, Sing Li
 
 **Description:** GitHub is the largest centralized repository for hosting open source projects. This app will enable the users to perform many GitHub activities right from Rocket.Chat.  Including query of issues and PRs, code modification logs,  and announcement of events - such as new releases, PR merged, and so on.&#x20;
 
@@ -409,11 +409,11 @@ Goals/Deliverables:  Rocket.Chat App integrating common Github features
 
 _Project Duration:  175 hours_
 
-**Difficulty:** _Medium_
+**Difficulty:** Medium
 
 ### Kopano App
 
-Mentor(s): actively seeking mentors
+Mentor(s): Debdut Chakraborty
 
 Description: Kopano is an open-source groupware application suite. The goal of this project is to integrate Kopano as a  Rocket.Chat  app.   The app enables the users to use various Kopano features from within Rocket.Chat.  Exact scope of this project will require some work from the contributor during  proposal research period.
 
@@ -427,7 +427,7 @@ Desired Skills:  Familiarity with TypeScript development  Knowledge of Kopano in
 
 ### OnlyOffice App
 
-Mentor(s): actively seeking mentors
+Mentor(s): Debdut Chakraborty
 
 Description: OnlyOffice is a free and open source office and productivity suite. You will work on integrating OnlyOffice with Rocket.Chat, making it easy to interact with an OnlyOffice server right from Rocket.Chat.
 
@@ -441,7 +441,7 @@ Project Duration:  175 hours
 
 ### Outlook Calendar  App
 
-Mentor(s): actively seeking mentors
+Mentor(s): Debdut Chakraborty
 
 Description: You will build an app, that will enable Rocket.Chat users to manage their outlook calendar events without having to switch between multiple platforms.&#x20;
 
@@ -455,7 +455,7 @@ Project Duration: 350 hours
 
 ### OneDrive App
 
-Mentor(s): actively seeking mentors
+Mentor(s): Debdut Chakraborty
 
 Description: Microsoft OneDrive is a file hosting service. In this project, you will create an app that will help the users manage their onedrive files right from Rocket.Chat.\
 \
@@ -471,7 +471,7 @@ Project Duration:  175 hours
 
 ### DropBox  App
 
-Mentor(s): actively seeking mentors
+Mentor(s): Debdut Chakraborty
 
 Description: Dropbox is a file hosting service. You will create an app that will help the users manage their dropbox files easily directly from Rocket.Chat.\
 \
@@ -487,7 +487,7 @@ Project Duration: 175 hours
 
 ### Asana  App
 
-Mentor(s): actively seeking mentors
+Mentor(s): Debdut Chakraborty
 
 Description: Asana is a web and mobile work management platform designed to help teams organize, track, and manage their work. In this project you will create a Rocket.Chat app that will make it possible for the users to manage their Asana projects without having to leave the platform, consequently making the teams more efficient and productive.&#x20;
 
