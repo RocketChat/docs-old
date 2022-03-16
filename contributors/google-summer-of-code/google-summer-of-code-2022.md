@@ -413,7 +413,7 @@ _Project Duration:  175 hours_
 
 ### Kopano App
 
-Mentor(s): Debdut Chakraborty
+Mentor(s): Seeking Mentors
 
 Description: Kopano is an open-source groupware application suite. The goal of this project is to integrate Kopano as a  Rocket.Chat  app.   The app enables the users to use various Kopano features from within Rocket.Chat.  Exact scope of this project will require some work from the contributor during  proposal research period.
 
@@ -427,7 +427,7 @@ Desired Skills:  Familiarity with TypeScript development  Knowledge of Kopano in
 
 ### OnlyOffice App
 
-Mentor(s): Debdut Chakraborty
+Mentor(s): Seeking Mentors
 
 Description: OnlyOffice is a free and open source office and productivity suite. You will work on integrating OnlyOffice with Rocket.Chat, making it easy to interact with an OnlyOffice server right from Rocket.Chat.
 
@@ -441,7 +441,7 @@ Project Duration:  175 hours
 
 ### Outlook Calendar  App
 
-Mentor(s): Debdut Chakraborty
+Mentor(s): Seeking Mentors
 
 Description: You will build an app, that will enable Rocket.Chat users to manage their outlook calendar events without having to switch between multiple platforms.&#x20;
 
@@ -455,7 +455,7 @@ Project Duration: 350 hours
 
 ### OneDrive App
 
-Mentor(s): Debdut Chakraborty
+Mentor(s): Seeking Mentors
 
 Description: Microsoft OneDrive is a file hosting service. In this project, you will create an app that will help the users manage their onedrive files right from Rocket.Chat.\
 \
@@ -471,7 +471,7 @@ Project Duration:  175 hours
 
 ### DropBox  App
 
-Mentor(s): Debdut Chakraborty
+Mentor(s): Seeking Mentors
 
 Description: Dropbox is a file hosting service. You will create an app that will help the users manage their dropbox files easily directly from Rocket.Chat.\
 \
@@ -487,7 +487,7 @@ Project Duration: 175 hours
 
 ### Asana  App
 
-Mentor(s): Debdut Chakraborty
+Mentor(s): Seeking Mentors
 
 Description: Asana is a web and mobile work management platform designed to help teams organize, track, and manage their work. In this project you will create a Rocket.Chat app that will make it possible for the users to manage their Asana projects without having to leave the platform, consequently making the teams more efficient and productive.&#x20;
 
