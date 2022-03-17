@@ -386,9 +386,7 @@ sudo reboot
 sudo docker ps -a
 ```
 
-```
-[![docker ps -a](https://www.imageforge.us/images/c90bd55a7b357c20b18815a5560f43f3.png)](https://www.imageforge.us/image/60kNT)
-```
+![](<../../../../../.gitbook/assets/image (677).png>)
 
 As you can see, our three docker containers are up and running: Rocket.Chat, MongoDB, and Hubot. NOTE: You may see only one, or none at all if the downloads are still in progress. Be patient, and check it periodically. Eventually, it should look similar to our sample screenshot. If it does, congratulations, you did it! GREAT JOB!
 

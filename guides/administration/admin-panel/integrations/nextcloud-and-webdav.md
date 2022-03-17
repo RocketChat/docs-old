@@ -45,7 +45,7 @@ You will see a WebDAV field with the url that looks like this `https://EXAMPLE.C
 * When that is successful, refresh your server
 * To access Nexcloud file in RocketChat, click on the plus icon :heavy\_plus\_sign: again and this time, you will see the server you just added.&#x20;
 
-![](<../../../../.gitbook/assets/image (677).png>)
+![](<../../../../.gitbook/assets/image (677) (1).png>)
 
 From here, you have the ability to access and share your Nextcloud files on Rocket.Chat
 
