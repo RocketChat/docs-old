@@ -48,7 +48,7 @@ A modal is presented prompting you to paste the licence you got from the[ Rocket
 
 Paste the license code and hit the **Apply license** button.
 
-![](<../../../.gitbook/assets/image (641) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (641) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ### Change Offline License
 

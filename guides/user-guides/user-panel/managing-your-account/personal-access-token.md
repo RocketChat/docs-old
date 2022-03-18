@@ -21,7 +21,7 @@ To create a personal access token:
 * You can configure whether or not to ignore 2FA when using it by checking the **Ignore Two Factor Authentication** box below.
 * You will be prompted to either enter your password or 2FA code to **Verify**.
 
-![](<../../../../.gitbook/assets/image (641) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (641) (1) (1) (1) (1).png>)
 
 * When done, your code should be generated and ready for use.
 

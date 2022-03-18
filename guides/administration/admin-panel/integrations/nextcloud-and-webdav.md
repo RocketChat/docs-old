@@ -24,11 +24,11 @@ Adding a new Nexcloud server requires you to have available the;
 
 To get your Nexcloud WebDAV url, **Files** section of your Nextcloud server then **Settings** at the bottom left
 
-![](<../../../../.gitbook/assets/image (673).png>)
-
-![](<../../../../.gitbook/assets/image (674).png>)
+![](<../../../../.gitbook/assets/image (670).png>)
 
 You will see a WebDAV field with the url that looks like this `https://EXAMPLE.COM/remote.php/dav/files/USERNAME/` Copy the url and proceed
+
+![](<../../../../.gitbook/assets/image (658).png>)
 
 * Back on your Rocket.Chat interface, **click on the big plus icon** by the right of the message box
 
@@ -40,7 +40,7 @@ You will see a WebDAV field with the url that looks like this `https://EXAMPLE.C
 
 * Fill in the information on the dailogue that appears including the Nextcloud WebDAV url we copied earlier, Nextcloud username and Nextcloud password then **Add new WebDAV Account**
 
-![](<../../../../.gitbook/assets/image (670).png>)
+![](<../../../../.gitbook/assets/image (670) (1).png>)
 
 * When that is successful, refresh your server
 * To access Nexcloud file in RocketChat, click on the plus icon :heavy\_plus\_sign: again and this time, you will see the server you just added.&#x20;

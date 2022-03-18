@@ -17,7 +17,7 @@ It allows you to pull up visitor information and chats for purposes like set tag
 
 Once you click on the **Contact Center** button following screen appears:
 
-![](<../../../.gitbook/assets/image (670) (1).png>)
+![](<../../../.gitbook/assets/image (670) (1) (1).png>)
 
 ## Contacts
 

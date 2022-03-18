@@ -211,6 +211,7 @@
       * [Microsoft Teams](guides/administration/admin-panel/integrations/microsoft-teams.md)
       * [NewRelic](guides/administration/admin-panel/integrations/newrelic.md)
       * [Nextcloud and WebDAV integrations](guides/administration/admin-panel/integrations/nextcloud-and-webdav.md)
+      * [Nexcloud Rocket.Chat App](guides/administration/admin-panel/integrations/nexcloud-rocket.chat-app.md)
       * [Nixstats notification](guides/administration/admin-panel/integrations/nixstats.md)
       * [PagerDuty](guides/administration/admin-panel/integrations/pagerduty.md)
       * [Prometheus](guides/administration/admin-panel/integrations/prometheus.md)

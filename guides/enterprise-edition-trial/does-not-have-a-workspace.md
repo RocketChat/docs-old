@@ -44,7 +44,7 @@ The guide as follow will show the next steps to apply your EE trial license afte
 We recommend you sync your server immediately after linking it to the cloud. To do that, head on to the **Connectivity Services** on your **Administration** panel and click on **Sync**.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (658) (1).png>)
+![](<../../.gitbook/assets/image (658) (1) (1).png>)
 
 ## No Internet Access/Offline
 
