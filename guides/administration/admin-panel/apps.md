@@ -48,3 +48,19 @@ All Rocket.Chat Apps might not require any setup configuration or user settings.
 {% endhint %}
 
 If you are looking for the manual/user guide of a particular app, please find them [here](https://docs.rocket.chat/guides/rocket-chat-apps) or use the search bar on the top right corner.
+
+
+
+{% hint style="success" %}
+Following apps are part of the **Enterprise Edition** offerings. You don't have to purchase them if you are already subscribed to the Enterprise Edition of Rocket.Chat.
+
+* [Jira Server](../../app-guides/atlassian/jira-server-integration.md)
+* Jira Cloud
+* [Confluence Server](../../app-guides/atlassian/confluence-server-integration.md)
+* Confluence Cloud
+* [Bitbucket Server](../../app-guides/atlassian/bitbucket-server-integration.md)
+* Bitbucket Cloud
+* [Bamboo](../../app-guides/atlassian/bamboo-integration.md)
+* [Zoom](../../app-guides/zoom.md)
+* [Data Loss Prevention (DLP)](../../app-guides/data-loss-prevention-dlp-app.md)
+{% endhint %}
