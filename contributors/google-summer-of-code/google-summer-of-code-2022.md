@@ -60,11 +60,11 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Difficulty:** Medium
 
-### Rocket.Chat In-App Chat ReactJS SDK
+### Rocket.Chat  ReactJS fullstack Component
 
 **Mentor(s):**  Rohan Lekhwani
 
-**Description:**  Create a ready-to-go  easy to embed mini-chat React component.    This component should be configurable to use any public channel  on a Rocket.Chat server.   Authentication should be flexibly configurable to existing Rocket.Chat server token, or via an independent IDM or auth service. \
+**Description:**  Create a ready-to-go  easy to embed mini-chat React component.    This component should be configurable to use any public channel  on a Rocket.Chat server.   Authentication should be flexibly configurable to existing Rocket.Chat server token, or via an independent IDM or auth service.  The challenge here is to create a futuristic full-stack component that bundles tightly coupled backend behaviours with standard front-end ReactJS components (from Rocket.Chat Fuselage ReactJS library) - creating an amazing developer experience when developing In-App Chat applications.   \
 **Desired Skills:** ReactJS component creation experience, understanding of Rocket.Chat server internals
 
 **Goals/Deliverables:**  Standlone mini-chat React component that can be easily installed into any ReactJS based web app
