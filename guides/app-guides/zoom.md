@@ -4,8 +4,6 @@ description: Here you will find information on how to install and use the Zoom A
 
 # Zoom
 
-Here you will find information on how to install and use the Zoom App.
-
 ## Installation
 
 You can install our Zoom Rocket.Chat App from your Rocket.Chat Administration area.
