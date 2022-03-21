@@ -52,7 +52,7 @@ The possiblity of anyone being able to add a feature they need or want to the pr
 
 One of the core applications of this is connecting various open source projects together in the form of Integration Apps.&#x20;
 
-This approach inevitably creates it's own ecosystem that the contributors need to be familiar with, which is why a detailed and well written documentation is a must to reach the community. Building a Rocket.Chat App is also a very well beginners' practice because of the ability to interact with a project of this scale while learning with smaller blocks. Without a good documentation not only the more experienced contributors are limited in their capabilities, but the newcomers to the community also gets limited in their exploration of open source development.
+This approach inevitably creates it's own ecosystem that the contributors need to be familiar with, which is why a detailed and well written documentation is a must to reach the community. Building a Rocket.Chat App is also a very well beginners' practice because of the ability to interact with a project of this scale while learning with smaller blocks. Without a good documentation not only the more experienced contributors are limited in their capabilities, but the newcomers to the community also gets hindered in their exploration of open source development.
 
 ### Project's Scope
 
