@@ -10,7 +10,7 @@ Projects can cover a wide range of fields including Cloud computing, operating s
 
 ## How to apply
 
-Interested candidates can directly send us an email to [gsod@rocket.chat](mailto:gsod@rocket.chat).&#x20;
+Interested professional technical writers can directly send us an email to [gsod@rocket.chat](mailto:gsod@rocket.chat).&#x20;
 
 ## About our organization
 
