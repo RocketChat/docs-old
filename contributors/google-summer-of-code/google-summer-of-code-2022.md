@@ -73,14 +73,14 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Difficulty:** Medium
 
-### Chatbot SDK:   Botpress
+### Chatbot Engine Connector:   Botpress
 
 **Mentor(s):**   Frank Dase,  Duda Nogueira
 
-**Description:**  Botpress is a popular open source framework for creation and execution of chatbots.   This project creates an SDK (based on the current JS SDK)  that will ease the Rocket.Chat  deployment of  Botpress chatbots and omnichannel bots.     \
+**Description:**  Botpress is a popular open source framework for creation and execution of chatbots.   This project extends a existing community-contributed  Botpress connector to  facilitate  deployment of  Botpress chatbots and omnichannel bots.    Focus here will include - better rich UI/UX / interaction support for bots and ability to run multiple instances of multiple bots.\
 **Desired Skills:** Javascript and Typescript development.   Keen interest in Bots and Chatbots.
 
-**Goals/Deliverables:**  SDK for deploying Botpress bots on Rocket.Chat.  Possibly a Rocket.Chat App connector.  A couple of example chatbots (running in a channel, and running in omnichannel) plus documentation.
+**Goals/Deliverables:**   A Rocket.Chat App as a  Botpress connector.  A couple of example chatbots (running in a channel, and running in omnichannel) plus documentation.
 
 **Project Duration:** 175 hours.
 
