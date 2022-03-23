@@ -68,7 +68,7 @@
     * [Univention Corporate Server (UCS)](quick-start/installing-and-updating/other-deployment-methods/manual-installation/extras/univention-corporate-server-ucs.md)
     * [Setting up Process Managers and Init Systems](quick-start/installing-and-updating/other-deployment-methods/manual-installation/extras/pm2-systemd-upstart.md)
 * [Scaling Rocket.Chat](quick-start/scaling-rocket.chat/README.md)
-  * [Microservices Setup \[beta\]](quick-start/scaling-rocket.chat/micro-services-setup-beta.md)
+  * [Microservices Setup](quick-start/scaling-rocket.chat/micro-services-setup.md)
   * [Running Multiple Instances](quick-start/installing-and-updating/other-deployment-methods/manual-installation/extras/multiple-instances-to-improve-performance.md)
   * [Automation Tools](quick-start/scaling-rocket.chat/automation-tools/README.md)
     * [Ansible](quick-start/scaling-rocket.chat/automation-tools/ansible.md)
