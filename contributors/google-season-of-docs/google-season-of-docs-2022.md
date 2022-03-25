@@ -10,7 +10,11 @@ Projects can cover a wide range of fields including Cloud computing, operating s
 
 ## How to apply
 
+Rocket.Chat operates a 24 x 7 community server at [http://open.rocket.chat](http://open.rocket.chat) Please contact us through the Google Seasons of Docs 2022 channel at [https://open.rocket.chat/channel/gsod2022](https://open.rocket.chat/channel/gsod2022)
+
 Interested professional technical writers can directly send us an email to [gsod@rocket.chat](mailto:gsod@rocket.chat).&#x20;
+
+See [official GSoD 2022 rules](https://developers.google.com/season-of-docs/docs/tech-writer-guide) for more information.
 
 ## About our organization
 
