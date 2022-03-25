@@ -36,43 +36,41 @@ Rocket.Chat supports over 59 local languages. Rocket.Chat's community interacts 
 
 ### The problem
 
-Rocket.Chat is one of the biggest open source team collaboration software in the world, with close to 1000 configuration options available to the admins out of the box today. And like with any other projects, the community requests more features to be added each day.&#x20;
+Rocket.Chat can be extended through apps. Apps are considerably easier to code than modifying the large Rocket.Chat code base. But we are seriously lacking on documation for Apps developers.
 
-Rocket.Chat App is our way of extending the product without changing the core. An app lets us extend Rocket.Chat by making it possible to&#x20;
+New app builders have a hard time navigating our existing meager documentation. There is a lack of details and current contents are difficult to understand. This makes building an app a very time consuming activity and causes developers to get frustrated or even abandon their projects.
 
-* Add UI elements
-* Add commands for grouped tasks
-* Change the UI
-* Schedule and automate workloads
-* Change the whole user experience by plugging into different events
-* Integrating with external APIs & services \
-  &#x20;    ... and much more.&#x20;
-
-The possiblity of anyone being able to add a feature they need or want to the product they use daily without having to go through the enormous code base and spending months getting up to speed, makes Rocket.Chat a unique and extremely attractive project in the community.
-
-One of the core applications of this is connecting various open source projects together in the form of Integration Apps.&#x20;
-
-This approach inevitably creates it's own ecosystem that the contributors need to be familiar with, which is why a detailed and well written documentation is a must to reach the community. Building a Rocket.Chat App is also a very well beginners' practice because of the ability to interact with a project of this scale while learning with smaller blocks. Without a good documentation not only the more experienced contributors are limited in their capabilities, but the newcomers to the community also gets hindered in their exploration of open source development.
+As it exists today, it is very difficult to develop an app without getting help from an existing app developer or our internal team. The documentation is also not up to date - while the app platform is consistently being updated. Outdated documentation is causing more issues and slows down development ending up with more of the same questions asked multiple times.
 
 ### Project's Scope
 
-This project will
+This writer will
 
-* Audit and collect existing documentation from READMEs, API references, GitBook, video tutorials like webinars and code comments to create a friction log.
-* Use the friction log to identify gaps in existing documentation.
-* Incorporate internal and community feedback to design the perfect layout and learning flow of new developers.&#x20;
-* Update the guides and documentations on GitBook.
+* Design the ideal layout and content flow which should improve the learning experience of new developers.&#x20;
+* Update the existing articles on GitBook with the help of GSoD administrator, including automatically generated API references, existing articles, webinar contents and code comments.&#x20;
+* Identify any gaps, as in missing pieces in the documentation.&#x20;
+* Fill the identified gaps by adding supporting documentation.&#x20;
+* Incorporate feedback from documentation testers (volunteer testers from our community) and the wider Rocket.Chat community.&#x20;
+* Collaborate with project administrators to validate and test the documentation and identify any opportunities of improvement.&#x20;
 * Update current READMEs to help new contributors navigate to the right resources including how to create Rocket.Chat Apps and resources around Git and Pull Requests.
-* Incorporate feedbacks from documentation testers (volunteers) and the wider Rocket.Chat community.
-* Collaborate with project administrators to test the documentations and identify any opportunities of improvement.
 
 ### Measuring Success
 
+* 50% increase in [@rocket.chat/apps-cli](https://www.npmjs.com/package/@rocket.chat/apps-cli) weekly downloads.
+* Reduced number of common queries from the community.
+* Increase in the number of members in [Developers of Rocket.Chat Apps](https://open.rocket.chat/channel/developers-of-rocket-chat-apps) team and the team channels on our Open Community Server.
+
 ### Timeline
 
-Standard 3 months project.
+Standard 3 month project.
 
 ## Project Budget
+
+|    Type    |      Amount     | Running Total |             Description             |
+| :--------: | :-------------: | :-----------: | :---------------------------------: |
+|   Writer   |      $6000      |     $6000     |            Writer stipend           |
+| Volunteers | $500 ($200 x 2) |     $6400     | For swags and other incentive items |
+|    Total   |                 |     $6400     |                                     |
 
 ## Previous Experience
 
