@@ -305,7 +305,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 ### Team Bridge:  interop with Microsoft Teams
 
-**Mentor(s):** Yash Rajpal, Fábio Albuquerque
+**Mentor(s):** Yash Rajpal, Fábio Albuquerque, Gabriel Engel
 
 **Description:**   Microsoft team is unquestionably the most popular and frequently used closed source team chat system in the world.   Many administrators and users of open source Rocket.Chat team chat will have needs to bridge between their open source users and legacy users still on team.  This project will create a Rocket.Chat App or an npm module that will act as a bridge  between Rocket.Chat and Microsoft Team.    Users on one system should be able to chat with the other through shared channels.   Support for rich interactions including DM, emoji's, embedded graphics, shared youtube links and so on should also be supported.   The exact scope for this project will be determined between the contributor and the mentors.
 
