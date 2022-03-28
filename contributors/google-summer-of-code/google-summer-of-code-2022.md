@@ -42,15 +42,15 @@ We are very thankful for the enthusiastic participation of our early contributor
 
 This list is being updated regularly.
 
-### **Playground for Fuselage ReactJS components**&#x20;
+### **Playground for UIKit ReactJS components**&#x20;
 
 **Mentors:**  Martin Schoeler, Guilherme Gazzo
 
-**Description:** Develop an application/playground that allows developers to test Fuselage ReactJS components and Interactions. Should allow developers to generate code used by Rocket.Chat apps and edit the content to preview the result
+**Description:** Develop an application/playground that allows developers to test UIKit ReactJS components and Interactions. Should allow developers to generate code used by Rocket.Chat apps and edit the content to preview the result
 
 **Desirable Skills:** JavaScript/TypeScript,  ReactJS
 
-**Goal/Deliverable:**  An on-line web app that features a construction playground for Rocket.Chat's Fuselage ReactJS components.  Plus code and preview generators.
+**Goal/Deliverable:**  An on-line web app that features a construction playground for Rocket.Chat's UIKit ReactJS components.  Plus code and preview generators.
 
 **Project Duration:** 350 hours.
 
