@@ -369,20 +369,6 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Difficulty:**  Easy
 
-### Open Source Project Rewrite
-
-**Mentors:** Jorge Leite, Pedro Rorato
-
-**Description:** Migrating from one technology, coding language or framework is something quite common on an industry that is constantly evolving. Having people with knowledge on performing this during early stages of their career and understanding the steps to do so is not quite as common. On this project the participant will be performing features and repos re-writes and builds while getting mentoring on clean code, unit testing, quality standards and best practices on agile software development.   The open source repository should be selected from within the Rocket.Chat ecosystem.   The rewrite can involve either a programming language or development framework change, or both.
-
-**Desirable Skills:** Familiarity with JavaScript and TypeScript development.
-
-**Goal/Deliverable:** Proof of concept on repos and actual features migration to new standards.
-
-**Project Duration:** 175 hours.
-
-**Difficulty:**  Easy
-
 ### Chatbot to improve agile workflow
 
 **Mentors:** Leonardo Ostjen, Tiago Evangelista & Gabriel Casals
