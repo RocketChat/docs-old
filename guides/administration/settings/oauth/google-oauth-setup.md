@@ -18,7 +18,7 @@ Follow these steps to enable Google OAuth on your server.&#x20;
 
 * When you are done with creating the new app, head over to the dashboard where information of the app is displayed.
 
-![](<../../../../.gitbook/assets/image (651) (1).png>)
+![](<../../../../.gitbook/assets/image (651) (1) (1).png>)
 
 * To create the `OAuth client ID`, head over to the **credentials** tab and click the **CREATE CREDENTIALS**. A dropdown appears, select **OAuth Client ID**
 
@@ -30,7 +30,7 @@ Follow these steps to enable Google OAuth on your server.&#x20;
 
 * You are then provided with your client ID and secret.
 
-![](<../../../../.gitbook/assets/image (642) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (642) (1) (1) (1).png>)
 
 * Copy these credentials from and fill them in the Google section of the OAuth configuration of your RocketChat server then hit **Save changes**
 

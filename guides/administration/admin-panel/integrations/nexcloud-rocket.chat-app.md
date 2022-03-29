@@ -1,2 +1,0 @@
-# Nexcloud Rocket.Chat App
-

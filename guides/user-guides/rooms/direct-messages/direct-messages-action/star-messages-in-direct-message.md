@@ -22,8 +22,8 @@ To un-star a message, click on the **options** across the message and select **R
 
 To view all stared messages, click on the **Options** against your opened DM and select **Starred Messages**
 
-![](<../../../../../.gitbook/assets/image (674) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (674) (1) (1) (1).png>)
 
 And a list of all stared messages are shown
 
-![](<../../../../../.gitbook/assets/image (638) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (638) (1) (1) (1).png>)

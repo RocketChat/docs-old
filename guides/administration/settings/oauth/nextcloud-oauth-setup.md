@@ -12,7 +12,7 @@ Follow these steps to set up Nextcloud OAuth on your server.&#x20;
 * Locate the OAuth 2.0 clients section
 * Fill out the client name and redirection url `<server-url>/_oauth/nextcloud` and click **add**
 
-![](<../../../../.gitbook/assets/image (638).png>)
+![](<../../../../.gitbook/assets/image (638) (1).png>)
 
 * A new OAuth app is created and the details shown
 

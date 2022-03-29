@@ -28,4 +28,4 @@ After the call is ended you can leave your notes in the wrap-up.
 
 After the call is ended you can see information such as queue, last call, talk time, wait time, hold time, warp-up notes, and more in the call information panel.
 
-![Call Information Panel.](<../../../.gitbook/assets/image (648).png>)
+![Call Information Panel.](<../../../.gitbook/assets/image (648) (1).png>)

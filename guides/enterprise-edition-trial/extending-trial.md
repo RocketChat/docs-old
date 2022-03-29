@@ -10,7 +10,7 @@ From here, you can apply for an extension following any of the two steps describ
 
 1. Click on the instance you want to extend its trial.
 
-![](<../../.gitbook/assets/image (642).png>)
+![](<../../.gitbook/assets/image (642) (1).png>)
 
 &#x20;  2\. Then Click on the **banner** showing the availability for trial extension.
 

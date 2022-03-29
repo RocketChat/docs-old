@@ -77,9 +77,9 @@ Proceed to activate the license on the workspace
 1. Sort out the instance you wish to apply the trial on and click on the Apply button at the extreme right.
 2. Then click on **Apply Trial** to confirm the action.
 
-![](<../../.gitbook/assets/image (663) (1).png>)
+![](<../../.gitbook/assets/image (663) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (642) (1).png>)
+![](<../../.gitbook/assets/image (642) (1) (1).png>)
 
 Next, copy the code provided and head over to your workspace **Administration panel** > **Info** and click **Apply Offline License**.
 

@@ -22,7 +22,7 @@ You can also create a discussion from a message sent in a team or channel.
 
 To do that, click on the menu icon by the right of the message and select **Start a Discussion**
 
-![](<../../../../.gitbook/assets/image (648) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (648) (1) (1) (1) (1).png>)
 
 A popup is shown with some information prefilled, complete the info and hit **Create**
 
@@ -37,7 +37,7 @@ A popup is shown with some information prefilled, complete the info and hit **Cr
 
 Your new discussion is created and ready for use.
 
-![](<../../../../.gitbook/assets/image (634) (1).png>)
+![](<../../../../.gitbook/assets/image (634) (1) (1).png>)
 
 {% hint style="success" %}
 When a discussion is created, anyone from that channel or team can see that a discussion was started and choose whether or not to join.

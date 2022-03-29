@@ -24,7 +24,7 @@ To enable 2FA on your account,&#x20;
 
 * On **Account**, click on **Security**
 
-![](<../../../.gitbook/assets/image (638) (1).png>)
+![](<../../../.gitbook/assets/image (638) (1) (1).png>)
 
 TOTP is Time-based One Time Password. It is a very common form of 2FA.
 
