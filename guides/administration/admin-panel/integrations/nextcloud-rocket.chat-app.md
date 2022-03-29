@@ -1,6 +1,6 @@
 # Nextcloud Rocket.Chat App
 
-The Nextcloud Rocket.Chat App integration offers a very powerful Open Source collaboration platform with a very high level of security and ownership. With the flexibility to enjoy features from both solutions combined, gives you a step further to use the _ultimate open-source alternative to MS 365._
+The Nextcloud Rocket.Chat App integration offers a very powerful Open Source collaboration platform with a very high level of security and ownership. The flexibility to enjoy features from both solutions combined gives you a step further to use the _ultimate open-source alternative to MS 365._
 
 ![](<../../../../.gitbook/assets/image (642).png>)
 
@@ -14,7 +14,7 @@ To use the Nextcloud Rocket.App, you are expected to have the following workspac
 * [Nextcloud](https://nextcloud.com)
 
 {% hint style="warning" %}
-Connecting Nextcloud with Rocket.Chat requires your Rocket.Chat sever to be on an SSL protected domain. This is strictly for security reasons.
+Connecting Nextcloud with Rocket.Chat requires your Rocket.Chat sever to be on an SSL-protected domain. This is strictly for security reasons.
 {% endhint %}
 
 {% hint style="info" %}
@@ -29,7 +29,7 @@ You need to make the following changes to your Rocket.Chat settings
 
 When that is all done, follow these procedures to get setup
 
-* Go to your Nextcloud Dashbord and navigate to the **Apps** section
+* Go to your Nextcloud Dashboard and navigate to the **Apps** section
 
 ![](<../../../../.gitbook/assets/image (634).png>)
 
@@ -41,11 +41,11 @@ When that is all done, follow these procedures to get setup
 
 ![](<../../../../.gitbook/assets/image (648).png>)
 
-* Fill in the Rocket.Chat URL, admin username and password to authenticate, then click on **Connect and Save**. This will automatically generate an access token and userId to be used
+* Fill in the Rocket.Chat URL, admin username, and password to authenticate, click on **Connect and Save**. This will automatically generate an access token and userId to be used
 
 ![](<../../../../.gitbook/assets/image (667).png>)
 
-* After connecting, the Admin User ID and Admin Token will be automatically filled and your app ready for use
+* After connecting, the Admin User ID and Admin Token will be automatically filled, and your app is ready for use
 
 ![](<../../../../.gitbook/assets/image (638).png>)
 
@@ -53,21 +53,21 @@ When that is all done, follow these procedures to get setup
 
 ![](<../../../../.gitbook/assets/image (663).png>)
 
-* Clicking on the Rocket.Chat icon will open up the chat interface like normal all within Nextcloud.
+* Clicking on the Rocket.Chat icon will open up the chat interface like normal, all within Nextcloud.
 
 ![](<../../../../.gitbook/assets/image (674).png>)
 
 ## Features
 
-Using this integration, gives you the posibilities to:
+Using this integration gives you the possibility to:
 
-* Extend and streamline communication with external parties using Rocket.Chat’s federation and bridges into Slack and Microsoft Teams
-* Easily collaborate on projects and documents using Rocket.Chat’s chat right in Nextcloud
-* Use a single productivity platform that integrates with other tools including Nexcloud and keeps all communications and notifications in one place
+* Extend and streamline communication with external parties using Rocket.Chat’s federation and bridges into Slack and Microsoft Teams.
+* Easily collaborate on projects and documents using Rocket.Chat’s chat right in Nextcloud.
+* Use a single productivity platform that integrates with other tools, including Nexcloud, and keeps all communications and notifications in one place.
 * Leverage more advanced user governance features, access levels, and role-based permissions
-* Easily map even the most complex organizational structure into groups, teams, and discussions
-* Securely collaborate and communicate with anyone via the world’s leading social media channels such as Whatsapp, Messenger, Twitter, Instagram, Telegram, and others
-* Turn their chats into productivity tools using integrations with various HR tools, CRM solutions, ticketing systems, project management solutions, and developer tools to build powerful workflows
-* Make digital workplaces and communities more engaging and collaborative using [Rocket.Chat’s marketplace of apps](https://rocket.chat/marketplace)
-* Ensure full governance of all their communications using message audits, flexible retention policies, powerful engagement analytics and dashboards, and more
-* Send advanced message formatting like code snippets, formula syntax, message threads, and more
+* Easily map even the most complex organizational structure into groups, teams, and discussions.
+* Securely collaborate and communicate with anyone via the world’s leading social media channels such as Whatsapp, Messenger, Twitter, Instagram, Telegram, and others.
+* Turn their chats into productivity tools using integrations with various HR tools, CRM solutions, ticketing systems, project management solutions, and developer tools to build powerful workflows.
+* Make digital workplaces and communities more engaging and collaborative using [Rocket.Chat’s marketplace of apps](https://rocket.chat/marketplace).
+* Ensure full governance of all their communications using message audits, flexible retention policies, powerful engagement analytics and dashboards, and more.
+* Send advanced message formatting like code snippets, formula syntax, message threads, and more.
