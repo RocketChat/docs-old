@@ -7,11 +7,11 @@ Follow these steps to enable GitlLab OAuth on your server.&#x20;
 * First, go to [Gitlab Application ](https://gitlab.com/-/profile/applications)
 * You are presented with fields to complete. Fill in the Application name, redirect URI and other details then hit **Save application**&#x20;
 
-![](<../../../../.gitbook/assets/image (661) (1).png>)
+![](<../../../../.gitbook/assets/image (661) (1) (1).png>)
 
 * After creating, you see a page with all the details of your newly created app
 
-![](<../../../../.gitbook/assets/image (681) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (681) (1) (1) (1).png>)
 
 * Copy these details and go to the GitLab OAuth section on your Rocket.Chat server by navigating to **Administration** > **Settings** > **OAuth**&#x20;
 * Fill in the infomation and hit **Save changes** to commit

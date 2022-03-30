@@ -38,4 +38,4 @@ Follow these steps to enable Google OAuth on your server.&#x20;
 
 When all is set, you will find on your login and register page a button for Google OAuth
 
-![](<../../../../.gitbook/assets/image (680) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (680) (1) (1) (1).png>)

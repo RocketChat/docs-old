@@ -4,21 +4,23 @@ description: Here you will find the Guidelines about Rocket.Chat's Patterns
 
 # Patterns
 
-Our pattern style starts from pixel repetition within a modular grid. It is an important element for decorative use at all points of contact.
+Our brand doesn’t rely on repeatable patterns, leaning more on illustrations that reflect our product’s capabilities, our brand values, or are otherwise relevant to complement a certain topic.
 
-## Producing a pattern
+Below, you’ll find some versatile examples that can be used to add a bit of our branding to any content you produce.
 
-Use the grid below to build new patterns within the language Rocket.Chat visual. Our grid is simple and functional, always calculating 2 in 2. Below, examples of pattern grids of 8 modules, 6 modules and 4 modules.
+Find the full collection of Rocket.Chat branded images on our shared google drive folder at: \
+[https://drive.google.com/drive/folders/1gaRMmpX2iuc8x9x5szbqdDSfaArjb19e?usp=sharing](https://drive.google.com/drive/folders/1gaRMmpX2iuc8x9x5szbqdDSfaArjb19e?usp=sharing)&#x20;
 
-![](../../.gitbook/assets/01_padrao.jpg)
+{% embed url="https://drive.google.com/drive/folders/1gaRMmpX2iuc8x9x5szbqdDSfaArjb19e?usp=sharing" %}
 
-## Rounded corners
+or on the Figma file at:
 
-**Watch out!** There are some rounded corners in our patterns keeping the calculation in 2 according to the module size that it was built in.
+{% embed url="https://www.figma.com/file/8I6eLVus4HcBP5tD4nsM9X/Website-Image-Exports?node-id=0%3A1" %}
 
-![](../../.gitbook/assets/02_padrao.jpg)
+### Pattern Examples
 
-## More patterns
+![](<../../.gitbook/assets/image (668).png>)![](<../../.gitbook/assets/image (689).png>)
 
-![](../../.gitbook/assets/03_padrao.jpg)
+![](<../../.gitbook/assets/image (647).png>)![](<../../.gitbook/assets/image (681).png>)
 
+![](<../../.gitbook/assets/image (646).png>)

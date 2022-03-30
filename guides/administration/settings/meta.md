@@ -8,7 +8,7 @@ To access this section, go to **Administration** > **Settings** > **Meta**.
 
 ![](../../../.gitbook/assets/administration-nav.png)
 
-![](<../../../.gitbook/assets/image (695) (1).png>)
+![](<../../../.gitbook/assets/image (695) (1) (1).png>)
 
 * **Language**: Lets you set the meta language. eg `en`
 * **Facebook App Id**: When provided, it will allow the Facebook scraper to associate the Open Graph entity with your server.

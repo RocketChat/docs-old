@@ -18,7 +18,7 @@ To associate and an agent to an extension:
 * Click **Associate Agent**
 * Select the agent name and associate it with a free extension, as shown below:
 
-![Agent to extension association](<../../../.gitbook/assets/image (654) (1) (1).png>)
+![Agent to extension association](<../../../.gitbook/assets/image (654) (1) (1) (1).png>)
 
 ![Agent associated with the extension](<../../../.gitbook/assets/image (655) (1).png>)
 

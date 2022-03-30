@@ -6,13 +6,9 @@ description: Here you will find Guidelines about Rocket.Chat's Typography
 
 The Rocket.Chat typeface family brings flexibility and recognition. Its primary function is to have a fluid performance in the digital medium. Its unique design also helps to highlight aspects such as modernity, technology, and simplicity.
 
-![](../../.gitbook/assets/01\_typo.jpg)
+![](<../../.gitbook/assets/image (677).png>)
 
-![](../../.gitbook/assets/02\_typo.jpg)
-
-![](../../.gitbook/assets/03\_typo.jpg)
-
-
+![](<../../.gitbook/assets/image (675).png>)
 
 ### Type Scale
 

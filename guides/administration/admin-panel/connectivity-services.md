@@ -48,7 +48,7 @@ In order to connect your server to our Cloud, your Rocket.Chat server must be at
 
 * A verification email will be sent in order to activate your new Cloud account
 
-![](<../../../.gitbook/assets/image (681).png>)
+![](<../../../.gitbook/assets/image (681) (1).png>)
 
 * The verification link will forward to cloud.rocket.chat. After the validation, you will be logged into your Cloud console. In order to register your self-hosted workspace, please select the "Register self-managed" button
 

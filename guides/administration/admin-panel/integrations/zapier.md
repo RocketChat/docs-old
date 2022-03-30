@@ -19,7 +19,7 @@ Before you get started there are a few things that you have to check.
 
 * Search for RocketChat and choose it in the popup that shows
 
-![](<../../../../.gitbook/assets/image (679).png>)
+![](<../../../../.gitbook/assets/image (679) (1).png>)
 
 * A new window will open. Fill in your workspace url(_keep the trailing slash_) and continue
 
@@ -27,7 +27,7 @@ Before you get started there are a few things that you have to check.
 
 * You are then redirected to your workspace to authenticate. Authenticate with any user having the `impersonate user` permission
 
-![](<../../../../.gitbook/assets/image (668).png>)
+![](<../../../../.gitbook/assets/image (668) (1).png>)
 
 * Accept all the privileges needed and **Authorize**
 

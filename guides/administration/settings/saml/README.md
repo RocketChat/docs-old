@@ -10,7 +10,7 @@ To access this setting, go to **Administration** > **Settings** > **SML**
 
 ![](<../../../../.gitbook/assets/administration >)
 
-![](<../../../../.gitbook/assets/image (677) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (677) (1) (1) (1).png>)
 
 {% content-ref url="rocket.chat-server-settings.md" %}
 [rocket.chat-server-settings.md](rocket.chat-server-settings.md)

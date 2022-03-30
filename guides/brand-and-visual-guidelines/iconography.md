@@ -4,21 +4,12 @@ description: Here you will find Guidelines about Rocket.Chat's Iconography
 
 # Iconography
 
-An icon must be a simple and direct graphic representation of the product, service or functions, such as actions and signage. Besides being very functional, it is a powerful tool for building our brand.
+Our iconography follows the same design principles as the rest of our brand. Utilizing our brand colors as the focal point, making use of transparency for a lighter look, simple and clean lines along with to-the-point and easy-to-understand representations.
 
-The Rocket.chat icons translate the path between digital and physical. Used to convey our personality at all of our touch points.
+Below, you can find some examples of our icons, for the complete collection of Rocket.Chat branded icons visit: [https://drive.google.com/drive/folders/1m097stjSL7k8FSYpbKV3\_gvu83sPfeE2?usp=sharing ](https://drive.google.com/drive/folders/1m097stjSL7k8FSYpbKV3\_gvu83sPfeE2?usp=sharing)
 
+{% embed url="https://drive.google.com/drive/folders/1m097stjSL7k8FSYpbKV3_gvu83sPfeE2?usp=sharing" %}
 
+### Icon Examples
 
-### Producing an icon
-
-Use the grid below to build new icons within the language Rocket.chat visual. Our grid is simple and functional, always calculating 2 in 2. Below, examples of grid for icons of 24px by 24 px.
-
-![](../../.gitbook/assets/01_icones.jpg)
-
-
-
-### More icons
-
-![](../../.gitbook/assets/02_icones.jpg)
-
+![](<../../.gitbook/assets/image (661).png>)

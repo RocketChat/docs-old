@@ -8,7 +8,7 @@ By configuring this, you will be able to communicate directly from your Rocket C
 
 To access this setting, go to **Administration** > **Settings** > **IRC Federation**.
 
-![](<../../../.gitbook/assets/image (680).png>)
+![](<../../../.gitbook/assets/image (680) (1).png>)
 
 * **Enable**: When enabled, provides settings for IRC Federation integration.
 * **Protocol**: This lets you set the protocol your IRC server uses. example `RFC2813`.

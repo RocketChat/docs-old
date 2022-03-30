@@ -10,7 +10,7 @@ To access this setting, go to **Administration** > **Settings** > **E2E Encrypti
 
 ![](<../../../.gitbook/assets/administration >)
 
-![](<../../../.gitbook/assets/image (689).png>)
+![](<../../../.gitbook/assets/image (689) (1).png>)
 
 {% hint style="warning" %}
 This feature is currently in beta! Please report bugs to [github.com/RocketChat/Rocket.Chat/issues](https://github.com/RocketChat/Rocket.Chat/issues) and be aware of:

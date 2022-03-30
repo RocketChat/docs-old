@@ -2,15 +2,8 @@
 description: Here you will find Guidelines about Rocket.Chat's Modular Compositions
 ---
 
-# Compositionsed
+# Media Kit
 
-Our identity system is modular, inspired by the open source concept. Regardless of the format, the patterns or pixel icons fit together, resulting in a simple system to assemble and easy to reproduce. Below are some examples of the use of modules in the construction of layouts from on to offline layouts.
+Our MediaKit contains important resources for producing content regarding Rocket.Chat. Complete with our logo and official fonts, along with some supplementary resources to help fine-tune the overall aesthetic of whatever is produced.&#x20;
 
-![](../../.gitbook/assets/01_modular.jpg)
-
-
-
-### Dont's
-
-![](../../.gitbook/assets/02_modular.jpg)
-
+{% file src="../../.gitbook/assets/MediaKit_Rocket.Chat.7z" %}

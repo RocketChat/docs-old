@@ -6,7 +6,7 @@ To access this menu, go to **Administration** > **Settings** > **Smarsh**.
 
 ![](<../../../.gitbook/assets/administration >)
 
-![](<../../../.gitbook/assets/image (676) (1).png>)
+![](<../../../.gitbook/assets/image (676) (1) (1).png>)
 
 * **Smarsh Enabled**: Whether the Smarsh eml connector is enabled or not (needs 'From Email' filled in under Email -> SMTP).
 * **Smarsh Email**: Smarsh Email Address to send the .eml file to.

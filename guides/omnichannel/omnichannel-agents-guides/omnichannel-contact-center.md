@@ -74,4 +74,4 @@ You can search a call using their Name or keyword.
 
 Click on a call to view its information, as shown below:
 
-![](<../../../.gitbook/assets/image (654) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (654) (1) (1) (1) (1).png>)

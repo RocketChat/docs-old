@@ -14,7 +14,7 @@ To create a new discussion, click on the **create** icon on the menu and select 
 
 Next fill in the required information and hit **Create**
 
-![](<../../../../.gitbook/assets/image (680) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (680) (1) (1) (1) (1).png>)
 
 ### Creating Discussion from a Message
 

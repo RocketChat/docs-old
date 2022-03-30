@@ -15,11 +15,11 @@ The server used for this guide is available at [http://localhost:3000/](http://l
 * After installing the [Rocket.Chat Desktop Client](../mobile-and-desktop-apps/#desktop-apps), launch the application
 * You are presented with an interface with a field to input your server URL. Enter your server URL in this case `http://localhost:3000/` then click **Connect**
 
-![](<../../.gitbook/assets/image (675).png>)
+![](<../../.gitbook/assets/image (675) (1).png>)
 
 If you initially had any server linked on your client app, you can add another by clicking on the plus sign by the left of the navigation menu
 
-![](<../../.gitbook/assets/image (695).png>)
+![](<../../.gitbook/assets/image (695) (1).png>)
 
 ### Accessing Rocket.Chat Using Browser
 
@@ -35,7 +35,7 @@ To launch your workspace, it is required to do a simple 4 step setup.
 
 * **Admin Info**: Fill in this information as it is needed to create the very first user who will automatically be the administrator of your Rocket.Chat workspace
 
-![](<../../.gitbook/assets/image (671).png>)
+![](<../../.gitbook/assets/image (671) (1).png>)
 
 * **Organization Info**: This involves information about your organization
 
@@ -60,11 +60,11 @@ We recommend you register your workspace which will automatically create a [Rock
 
 ![](<../../.gitbook/assets/image (636).png>)
 
-![](<../../.gitbook/assets/image (645).png>)
+![](<../../.gitbook/assets/image (645) (1).png>)
 
 * Confirm the registration and go back to your server
 
-![](<../../.gitbook/assets/image (679) (1).png>)
+![](<../../.gitbook/assets/image (679) (1) (1).png>)
 
 ![](<../../.gitbook/assets/image (696) (1).png>)
 
@@ -76,7 +76,7 @@ We recommend you register your workspace which will automatically create a [Rock
 
 Your workspace is now ready for use
 
-![](<../../.gitbook/assets/image (676).png>)
+![](<../../.gitbook/assets/image (676) (1).png>)
 
 {% hint style="success" %}
 From here you can get a 30days trial on the features that come with the [Enterprise Edition](../../guides/enterprise-edition-trial/).

@@ -4,7 +4,7 @@
 
 After you [make yourself available](broken-reference) to take calls, you start receiving calls, as shown below:
 
-![Incoming call](<../../../.gitbook/assets/image (646) (1).png>)
+![Incoming call](<../../../.gitbook/assets/image (646) (1) (1).png>)
 
 ## **Call In Progress**
 

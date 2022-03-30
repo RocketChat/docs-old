@@ -40,5 +40,5 @@ Agents are partitioned into different queues on the PBX. These queues represent 
 
 Admins and managers use Rocket.chat's UI to configure and monitor the customer-managed PBX. To receive the real-time PBX events, Rocket.chat’s backend has to connect to the PBX manager interface. The customer is responsible for creating the configuration on PBX so that the management APIs/interface is accessible from Rocket.chat’s backend.&#x20;
 
-![Connector Architecture](<../../../.gitbook/assets/image (679) (1) (1).png>)
+![Connector Architecture](<../../../.gitbook/assets/image (679) (1) (1) (1).png>)
 
