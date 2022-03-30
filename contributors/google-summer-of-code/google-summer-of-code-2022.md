@@ -203,7 +203,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 ### Message forwarding
 
-**Mentor(s):** Milton Rucks
+**Mentor(s):** Douglas Fabris, Milton Rucks
 
 **Description:** Implement the ability to forward messages to another channel,  thread, or discussion.   This is a high demand capability that is currently missing in Rocket.Chat.  It can significantly improve the user's experience and her/his productivity. The scope of this project will be limited to the web application (not for mobile apps).
 
