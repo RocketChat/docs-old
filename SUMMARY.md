@@ -22,6 +22,7 @@
       * [Auto SSL with Snaps](quick-start/installing-and-updating/rapid-deployment-methods/snaps/auto-ssl-with-snaps.md)
       * [Snap FAQ](quick-start/installing-and-updating/rapid-deployment-methods/snaps/snap-faq.md)
     * [RocketChatCTL](quick-start/installing-and-updating/rapid-deployment-methods/rocketchatctl.md)
+    * [Helm](quick-start/installing-and-updating/rapid-deployment-methods/helm.md)
   * [Cloud Deployments](quick-start/installing-and-updating/paas-deployments/README.md)
     * [AWS](quick-start/installing-and-updating/paas-deployments/aws.md)
     * [Google Compute Engine](quick-start/installing-and-updating/paas-deployments/google-compute-engine.md)
