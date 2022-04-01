@@ -401,7 +401,7 @@ _Project Duration:  175 hours_
 
 ### DropBox  App
 
-Mentor(s): Seeking Mentors
+Mentor(s):   Sing Li, Debdut Chakraborty
 
 Description: Dropbox is a file hosting service. You will create an app that will help the users manage their dropbox files easily directly from Rocket.Chat.\
 \
