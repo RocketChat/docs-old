@@ -40,7 +40,7 @@ We are very thankful for the enthusiastic participation of our early contributor
 
 ## Project Ideas
 
-This list is being updated regularly.
+This list is being updated regularly, some projects without assigned mentors may be removed.
 
 ### **Playground for UIKit ReactJS components**&#x20;
 
@@ -250,18 +250,6 @@ Project Duration: 175 hours
 
 **Difficulty:**  Easy
 
-### Slack Bridge:  rich interop and better deployment
-
-**Mentor(s):**    actively seeking mentors
-
-**Description:**   Slack is a very popular closed source team chat solution.   Rocket.Chat has built-in support for a primitive bridging solution with Slack.   This project aims to improve the capabilities of this bridge, extending it to  cover the rich features that both Rocket.Chat and Slack have.   The project should also make the bridge easier to deploy, this may involve the extraction of the bridge's code and refactor into either a Rocket.Chat App or an npm module.   New code/architecture should ensure stability of the bridge when deployed in the new scaled Rocket.Chat deployment configurations.
-
-**Desired Skills:** Familiarity with Typescript and Javascript development.  Familiarity with Slack's REST APIs.  An interest in crafting  bridges between communications platforms.
-
-**Project Duration:** 350 hours.
-
-**Difficulty:** Medium
-
 ### Improve Navigation in Mobile Client
 
 **Mentor(s):** Daniel Silva, Diego Mello
@@ -411,64 +399,6 @@ _Project Duration:  175 hours_
 
 **Difficulty:** Medium
 
-### Kopano App
-
-Mentor(s): Seeking Mentors
-
-Description: Kopano is an open-source groupware application suite. The goal of this project is to integrate Kopano as a  Rocket.Chat  app.   The app enables the users to use various Kopano features from within Rocket.Chat.  Exact scope of this project will require some work from the contributor during  proposal research period.
-
-Goals/Deliverables:  Rocket.Chat App integrating Kopano features.
-
-Desired Skills:  Familiarity with TypeScript development  Knowledge of Kopano integrations and APIs is a plus ([https://kopano.com/products/groupware/integrations-apis/](https://kopano.com/products/groupware/integrations-apis/))
-
-**Project Duration:  350 hours**
-
-**Difficulty:** Hard
-
-### OnlyOffice App
-
-Mentor(s): Seeking Mentors
-
-Description: OnlyOffice is a free and open source office and productivity suite. You will work on integrating OnlyOffice with Rocket.Chat, making it easy to interact with an OnlyOffice server right from Rocket.Chat.
-
-Goals/Deliverables:  Rocket.Chat App integrating features of OnlyOffice
-
-Desired Skills:  Familiarity with TypeScript development.   OnlyOffice API
-
-Project Duration:  175 hours
-
-**Difficulty:** Medium
-
-### Outlook Calendar  App
-
-Mentor(s): Seeking Mentors
-
-Description: You will build an app, that will enable Rocket.Chat users to manage their outlook calendar events without having to switch between multiple platforms.&#x20;
-
-Goals/Deliverables:  Rocket.Chat App with Outlook Calendar management features.
-
-Desired Skills:   Familiarity with TypeScript development.   Outlook calendar API
-
-Project Duration: 350 hours
-
-**Difficulty:** Medium
-
-### OneDrive App
-
-Mentor(s): Seeking Mentors
-
-Description: Microsoft OneDrive is a file hosting service. In this project, you will create an app that will help the users manage their onedrive files right from Rocket.Chat.\
-\
-Optional second part of the project entails making OneDrive a possible storage provider for file uploads.
-
-Goals/Deliverables:  Rocket.Chat App integrating file management for OneDrive.
-
-Desired Skills:   Familiarity with TypeScript development.   OneDrive API
-
-Project Duration:  175 hours
-
-**Difficulty:** Medium
-
 ### DropBox  App
 
 Mentor(s): Seeking Mentors
@@ -482,20 +412,6 @@ Goals/Deliverables:  Rocket.Chat App with DropBox operations integrated\
 Desired Skills:   Familiarity with TypeScript development.    DropBox API
 
 Project Duration: 175 hours
-
-**Difficulty:** Medium
-
-### Asana  App
-
-Mentor(s): Seeking Mentors
-
-Description: Asana is a web and mobile work management platform designed to help teams organize, track, and manage their work. In this project you will create a Rocket.Chat app that will make it possible for the users to manage their Asana projects without having to leave the platform, consequently making the teams more efficient and productive.&#x20;
-
-Goals/Deliverables:  Rocket.Chat App with Asana features Integrated
-
-Desired Skills:   Familiarity with TypeScript development.    Asana API
-
-Project Duration:  175 hours
 
 **Difficulty:** Medium
 
