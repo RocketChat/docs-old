@@ -68,6 +68,7 @@
     * [Running in a sub folder with Apache](quick-start/installing-and-updating/other-deployment-methods/manual-installation/extras/running-in-a-sub-folder.md)
     * [Univention Corporate Server (UCS)](quick-start/installing-and-updating/other-deployment-methods/manual-installation/extras/univention-corporate-server-ucs.md)
     * [Setting up Process Managers and Init Systems](quick-start/installing-and-updating/other-deployment-methods/manual-installation/extras/pm2-systemd-upstart.md)
+  * [Environment Variables](quick-start/environment-configuration/environment-variables.md)
 * [Scaling Rocket.Chat](quick-start/scaling-rocket.chat/README.md)
   * [Microservices Setup](quick-start/scaling-rocket.chat/micro-services-setup.md)
   * [Running Multiple Instances](quick-start/installing-and-updating/other-deployment-methods/manual-installation/extras/multiple-instances-to-improve-performance.md)
