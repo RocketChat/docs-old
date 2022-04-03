@@ -10,7 +10,7 @@ To access this section, go to **Administration** > **Settings** > **Blockstack**
 
 ![](<../../../.gitbook/assets/administration >)
 
-![](<../../../.gitbook/assets/image (667) (1) (1).png>)
+![](<../../../.gitbook/assets/image (667) (1) (1) (1).png>)
 
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.

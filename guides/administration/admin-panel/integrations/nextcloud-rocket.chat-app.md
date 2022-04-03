@@ -43,7 +43,7 @@ When that is all done, follow these procedures to get setup
 
 * Fill in the Rocket.Chat URL, admin username, and password to authenticate, click on **Connect and Save**. This will automatically generate an access token and userId to be used
 
-![](<../../../../.gitbook/assets/image (667) (1).png>)
+![](<../../../../.gitbook/assets/image (667) (1) (1).png>)
 
 * After connecting, the Admin User ID and Admin Token will be automatically filled, and your app is ready for use
 

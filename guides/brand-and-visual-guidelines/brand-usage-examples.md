@@ -22,5 +22,5 @@ Below are some examples of how to use the new Rocket.Chat brand from online appl
 
 ![](<../../.gitbook/assets/image (673).png>)
 
-![](<../../.gitbook/assets/image (667).png>)
+![](<../../.gitbook/assets/image (667) (1).png>)
 
