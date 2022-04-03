@@ -76,7 +76,7 @@ We recommend you register your workspace which will automatically create a [Rock
 
 Your workspace is now ready for use
 
-![](<../../.gitbook/assets/image (676) (1).png>)
+![](<../../.gitbook/assets/image (676) (1) (1).png>)
 
 {% hint style="success" %}
 From here you can get a 30days trial on the features that come with the [Enterprise Edition](../../guides/enterprise-edition-trial/).
