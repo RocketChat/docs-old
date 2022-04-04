@@ -68,13 +68,17 @@ sudo systemctl restart snap.rocketchat-server.rocketchat-caddy.service
 ### Check Caddy's logs
 
 ```bash
-journalctl -r | grep caddy | less
+sudo snap logs -f rocketchat-server.rocketchat-caddy
 ```
 
 ## Configure Caddy yourself or use another http proxy
 
 {% hint style="info" %}
 For 4.x latest AMD64 snaps or 3.x latest ARM64 snaps
+{% endhint %}
+
+{% hint style="info" %}
+Both caddy v2 and caddy v1 (EOL) is deilivered in the snap, v2 is prioritized over v1
 {% endhint %}
 
 If you want to configure Caddy yourself, place the Caddyfile in `/var/snap/rocketchat-server/current/` directory and restart rocketchat-server.
