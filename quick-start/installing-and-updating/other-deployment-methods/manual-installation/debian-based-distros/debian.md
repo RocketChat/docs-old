@@ -2,14 +2,10 @@
 
 This installation guide was tested in the following environment:
 
-* Rocket.Chat 4.1.2
-* OS: Debian 11
-* Mongodb 4.4.10
-* NodeJS 12.22.7
-
-{% hint style="info" %}
-As from Rocket.Chat 4.4.0, NodeJS version 14.0.0 is used.
-{% endhint %}
+* Rocket.Chat 4.6.0
+* OS: Debian 11, 10, 9
+* Mongodb 5.0
+* NodeJS 14.18.3
 
 ## Requirements
 
@@ -18,13 +14,15 @@ As from Rocket.Chat 4.4.0, NodeJS version 14.0.0 is used.
     Please refer to the official MongoDB documentation on [how to install MongoDB on Debian](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/). For the list of supported versions, see our documentation [here](../../../../../getting-support/#mongodb-versions).
 *   **NodeJS**
 
-    Follow the [official guide](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) to install NodeJS on a Debian system. As of the time of this writing Rocket.Chat supports NodeJS version 12, so make sure you're installing that. You can also use third-party tools like [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [n](https://www.npmjs.com/package/n).
-
-{% hint style="info" %}
-As from Rocket.Chat 4.4.0, NodeJS version 14.x.x is used.
-{% endhint %}
+    Follow the [official guide](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) to install NodeJS on a Debian system. Check out our page on [supported node version](../../../../environment-configuration/node-configuration/supported-nodejs-version.md) for your specific version. You can also use third-party tools like [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [n](https://www.npmjs.com/package/n).
 
 ## Install Rocket.Chat
+
+Install required packages/dependencies
+
+```bash
+sudo apt install -y curl build-essential graphicsmagick
+```
 
 To download the latest Rocket.Chat version run the following command:
 
@@ -58,6 +56,8 @@ Next, install all the node dependencies:
 (cd /tmp/bundle/programs/server; npm i)
 ```
 
+If you're doing all this under the `root` user, which is not recommended, you'll need to pass the `--unsafe-perm` flag to npm along with `sudo`.
+
 `/tmp` has been a temporary non-root user-writable location to prepare the bundle. For this guide, we're going to use `/opt` to be the final location but you can choose any other. Whatever may it be, if not`/opt`, make sure you change the location in all the other places it is specified.
 
 ```bash
@@ -76,34 +76,53 @@ sudo useradd -M rocketchat && sudo usermod -L rocketchat
 sudo chown -R rocketchat:rocketchat /opt/Rocket.Chat
 ```
 
+Depending on how you install NodeJs, the path to the binary can be different. Save the current path in a variable
+
+```bash
+NODE_PATH=$(which node)
+```
+
+Now create the systemd service file
+
 ```bash
 cat << EOF |sudo tee -a /lib/systemd/system/rocketchat.service
 [Unit]
 Description=The Rocket.Chat server
 After=network.target remote-fs.target nss-lookup.target nginx.service mongod.service
 [Service]
-ExecStart=/usr/local/bin/node /opt/Rocket.Chat/main.js
+ExecStart=$NODE_PATH /opt/Rocket.Chat/main.js
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=rocketchat
 User=rocketchat
-Environment=MONGO_URL=mongodb://localhost:27017/rocketchat?replicaSet=rs01 
-Environment=MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=rs01 
-Environment=ROOT_URL=http://localhost:3000/ 
-Environment=PORT=3000
 [Install]
 WantedBy=multi-user.target
 EOF
 ```
 
-Open the Rocket.Chat service file just created (`/lib/systemd/system/rocketchat.service`) using sudo and your favourite text editor, and change the `ROOT_URL` environmental variable to reflect the URL you want to use for accessing the server (optionally change `MONGO_URL`, `MONGO_OPLOG_URL` and `PORT`):
+The command above will create a barebone service file, this service file is what systemd will use to start your Rocket.Chat daemon/process.
 
-```bash
-MONGO_URL=mongodb://localhost:27017/rocketchat?replicaSet=rs01
-MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=rs01
-ROOT_URL=http://your-host-name.com-as-accessed-from-internet:3000
-PORT=3000
+### Passing environment variables
+
+Next you need to pass some environment variables to the running process. For more information of configuring via environment variables read [this article](../../../../environment-configuration/environment-variables.md).
+
+Run:
+
 ```
+sudo systemctl edit rocketchat
+```
+
+It should open up a text editor. Now write down the following,
+
+```
+[Service]
+Environment=ROOT_URL=http://localhost:3000
+Environment=PORT=3000
+Environment=MONGO_URL=mongodb://localhost:27017/rocketchat?replicaSet=rs01
+Environment=MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=rs01
+```
+
+Change the values as you need. Save and exit.
 
 ### MongoDB Configuration
 
@@ -111,14 +130,14 @@ Open the MongoDB config file (`/etc/mongod.conf`) in your favourite text editor.
 
 Set the storage engine to `wiredTiger`.
 
-```
+```yaml
 storage:
   engine: wiredTiger
 ```
 
 Enable replication, and name the replicaset `rs01`.&#x20;
 
-```bash
+```yaml
 replication:
   replSetName: rs01
 ```
@@ -127,7 +146,7 @@ MongoDB replicaset is mandatory for Rocket.Chat > 1.0.0.
 
 Your MongoDB config file should look something like the following:
 
-```
+```yaml
 storage:
   dbPath: /var/lib/mongodb
   journal:
