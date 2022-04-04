@@ -2,7 +2,7 @@
 description: Deploy on a kubernetes cluster using our official helm chart
 ---
 
-# Helm
+# Kubernetes with Helm
 
 > **WARNING**: Upgrading to chart version 1.1.0 (Rocket.Chat 1.0.3) might require extra steps to retain the MongoDB data. See [Upgrading](../../scaling-rocket.chat/automation-tools/kubernetes-using-helm.md#upgrading) for more details.
 
