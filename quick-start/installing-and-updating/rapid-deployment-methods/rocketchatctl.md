@@ -1,6 +1,6 @@
 # RocketChatCTL
 
-rocketchatctl is a command line tool written in bash to help you install and configure a RocketChat server in a Linux host, it will take care of everything needed for the server to run, configure extra repositories and install needed libraries to install the correct node version and mongo server, and it will also set up directories and permissions, and configure the systemd files for these new services.
+`rocketchatctl` is a command line tool written in bash to help you install and configure a RocketChat server in a Linux host, it will take care of everything needed for the server to run, configure extra repositories and install needed libraries to install the correct node version and mongo server, and it will also set up directories and permissions, and configure the systemd files for these new services.
 
 Once you have your rocketchat server installed and running, you can use the same command to easily keep that Rocketchat server installation up to date, rocketchatctl can check for Rocketchat updates available and update it to the latest release.
 
@@ -14,19 +14,11 @@ Currently, rocketchatctl is supported in these Linux distributions:
 
 *   Supported OS:
 
-    Ubuntu 18.04, 19.04, 20.04 CentOS 7 Debian 9
+    Ubuntu 18.04, 19.04, 20.04\
+    CentOS 7, 8\
+    Debian 9, 10, 11
 
-And installs these software versions, but this can change for future rocketchatctl versions:
-
-* Node version: 12.18.4
-* Mongo version: 4.0.10
-*   Web Proxy/Loadbalancer optional:
-
-    Traefik 1.7.12 Caddy 1.0.0
-
-{% hint style="info" %}
-Node version is always up to date. As from Rocket.Chat `V4.4.0`, Node version 14.x.x
-{% endhint %}
+`rocketchatctl` automatically install the latest supported node and mongodb versions (CentOS support WIP).
 
 We understand that some users could already have node, mongo, or even a webserver already installed in their servers, `rocketchatctl install` will check for previously installed versions of node and mongo in your system.
 
