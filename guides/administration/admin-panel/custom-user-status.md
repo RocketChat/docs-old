@@ -4,7 +4,7 @@ Rocket.Chat allows you to add your custom status other than the default status p
 
 ## Add a Custom Status
 
-To access this menu,&#x20;
+To access this menu,
 
 1. Go to **Administration** > **Custom User Status**
 
@@ -12,9 +12,7 @@ as shown below:
 
 ![](<../../../.gitbook/assets/2021-11-20\_23-29-48 copy (1) (2) (1).png>)
 
-* Click  the **+** on the top right
-
-&#x20;
+* Click the **+** on the top right
 
 ![](../../../.gitbook/assets/2021-11-22\_22-47-19.png)
 
@@ -32,7 +30,7 @@ Once your custom status is added, it will show up along with the default status 
 
 To use a custom emoji that you've added, click on your avatar on the top left, and within the **status** menu, select your custom status.
 
-![](<../../../.gitbook/assets/2021-12-26\_12-43-20 (1).png>)
+![](<../../../.gitbook/assets/2021-12-26\_12-43-20 (1) (1).png>)
 
 ## Delete/Edit Custom Status
 

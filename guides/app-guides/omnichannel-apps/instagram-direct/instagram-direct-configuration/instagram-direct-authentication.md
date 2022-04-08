@@ -38,7 +38,7 @@ The first step after the configuration and resolving the dependencies is authent
 
 ![](../../../../../.gitbook/assets/2021-12-31\_18-11-21.png)
 
-6\. Determine what Rocket.Chat Omni Gateway can do with the pages you have selected.&#x20;
+6\. Determine what Rocket.Chat Omni Gateway can do with the pages you have selected.
 
 ![](../../../../../.gitbook/assets/2021-12-31\_18-11-40.png)
 
@@ -56,7 +56,7 @@ After successful authentication, as an admin, you are subscribed to the Instagra
 
 ![](<../../../../../.gitbook/assets/2021-12-31\_18-12-56 (9).png>)
 
-![](<../../../../../.gitbook/assets/2021-12-31\_19-18-27 (1).png>)
+![](<../../../../../.gitbook/assets/2021-12-31\_19-18-27 (1) (1).png>)
 
 ## Edit Page Configuration
 
@@ -66,7 +66,7 @@ You can edit page configuration as shown below:
 
 Following are the settings available:
 
-1. You can route all the conversations coming from this page to a specific **** [**Department**](https://docs.rocket.chat/guides/omnichannel/departments). Only the agents of this department are able to serve Instagram conversations coming from this page.
+1. You can route all the conversations coming from this page to a specific \*\*\*\* [**Department**](https://docs.rocket.chat/guides/omnichannel/departments). Only the agents of this department are able to serve Instagram conversations coming from this page.
 2. You can set the **Welcome Message** that will be sent to visitors when they send their first message.
 3. The **Conversation Finished Message** will be sent to visitors when the conversation is closed
 4. You can set the **Default message for offline service** that will be sent to your visitor when no agents are available online
@@ -83,11 +83,11 @@ Only the agents of this particular department are able to see and take the chats
 Here are the shortcuts you can use in Instagram Bot:
 
 1. **/Instagram authorize** Starts the Facebook authorization process to connect your instagram accounts
-2. &#x20;**/Instagram unauthorize** Revoke facebook authorization to remove all connected instagram accounts
-3. **/Instagram edit pageId** Edit Page configuration for the given pageId&#x20;
+2. **/Instagram unauthorize** Revoke facebook authorization to remove all connected instagram accounts
+3. **/Instagram edit pageId** Edit Page configuration for the given pageId
 4. **/Instagram help** Shows help message
 {% endhint %}
 
 {% hint style="danger" %}
-Please note that when an Instagram user sends a message and there's no agent available on the server to chat, the conversation won't be created. This means that when agents get back to work they will not get to know that someone was reaching out. So please make sure you have at least one agent online at all times.&#x20;
+Please note that when an Instagram user sends a message and there's no agent available on the server to chat, the conversation won't be created. This means that when agents get back to work they will not get to know that someone was reaching out. So please make sure you have at least one agent online at all times.
 {% endhint %}

@@ -5,10 +5,10 @@ Deploying Rocket.Chat with Docker and Docker Compose is as easy as it can get.
 ### Installing Docker and Docker Compose
 
 * If you don't have already, make sure you have [Docker](https://docs.docker.com/install) and [Docker-compose](https://docs.docker.com/compose/install/) installed and operational
-* Navigate to any directory of your choice create a `docker-compose.yml` based on [our example](https://github.com/RocketChat/Rocket.Chat/blob/develop/docker-compose.yml).  OR  You can download directly by executing the following command on your terminal
+* Navigate to any directory of your choice create a `docker-compose.yml` based on [our example](https://github.com/RocketChat/Rocket.Chat/blob/develop/docker-compose.yml). OR You can download directly by executing the following command on your terminal
 
 ```bash
-curl -L https://raw.githubusercontent.com/RocketChat/Rocket.Chat/develop/docker-compose.yml -O
+curl -L https://go.rocket.chat/i/docker-compose.yml -O
 ```
 
 **Editing Variables:**

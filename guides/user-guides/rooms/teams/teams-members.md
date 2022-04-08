@@ -35,7 +35,7 @@ To edit an invite link:
 3\. Select **Max number of uses**
 
 4\. Click **Generate New Link**\
-&#x20;
+
 
 ![](../../../../.gitbook/assets/2021-11-21\_01-47-40.png)
 

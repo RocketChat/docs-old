@@ -10,25 +10,25 @@ To access **Analytics** settings:
 
 Go to Analytics in the omnichannel panel settings, as shown below:
 
-![](<../../../.gitbook/assets/0 (3).png>)
+![](<../../.gitbook/assets/0 (3).png>)
 
 ## To view conversation history:
 
 1. Select Conversations from the drop-down.
 
-![](<../../../.gitbook/assets/1 (10).png>)
+![](<../../.gitbook/assets/1 (10).png>)
 
 1. Select your desired department.
 
-![](<../../../.gitbook/assets/8 (6) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
+![](<../../.gitbook/assets/8 (6) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
 
 1. Select your desired start date and end date.
 
-![](<../../../.gitbook/assets/9 (5) (1) (2).png>)
+![](<../../.gitbook/assets/9 (5) (1) (2).png>)
 
 ### Details of conversation matrices:
 
-![](<../../../.gitbook/assets/4 (10).png>)
+![](<../../.gitbook/assets/4 (10).png>)
 
 **Total Conversations:** It represents the total number of conversations during the selected period of time.
 
@@ -44,27 +44,27 @@ Go to Analytics in the omnichannel panel settings, as shown below:
 
 You can also see the **percentage of conversations**, an **average of chat duration**, and **total messages handled** by each one of your agents from your selected department, as shown below:
 
-![](<../../../.gitbook/assets/5 (10).png>)
+![](<../../.gitbook/assets/5 (10).png>)
 
-![](<../../../.gitbook/assets/6 (9).png>)
+![](<../../.gitbook/assets/6 (9).png>)
 
 ## To view productivity history of your agents:
 
 1. Select Productivity from the drop-down.
 
-![](<../../../.gitbook/assets/7 (7).png>)
+![](<../../.gitbook/assets/7 (7).png>)
 
 1. Select your desired department.
 
-![](<../../../.gitbook/assets/8 (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/8 (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 1. Select your desired start date and end date.
 
-![](<../../../.gitbook/assets/9 (5) (1) (1).png>)
+![](<../../.gitbook/assets/9 (5) (1) (1) (1).png>)
 
 ### Details of productivity matrices:
 
-![](<../../../.gitbook/assets/image (62).png>)
+![](<../../.gitbook/assets/image (62).png>)
 
 **Average of Response Time:** This matrix represents the average of your agent’s team’s responses to all the conversations that are automatically assigned to them during a selected time.
 
@@ -74,6 +74,6 @@ You can also see the **percentage of conversations**, an **average of chat durat
 
 You can also see the **Average of First Response Time**, **Best First Response Time**, **Average of Response Time**, and **Average of Reaction Time** of each one of your agents from your selected department, as shown below:
 
-![](<../../../.gitbook/assets/11 (4).png>)
+![](<../../.gitbook/assets/11 (4).png>)
 
-![](<../../../.gitbook/assets/image (63).png>)
+![](<../../.gitbook/assets/image (63).png>)
