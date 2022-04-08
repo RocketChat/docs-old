@@ -6,7 +6,7 @@ To access this menu, go to **Administration** > **Settings** > **Email**.
 
 ![](<../../../../.gitbook/assets/administration >)
 
-![](<../../../../.gitbook/assets/image (646) (1).png>)
+![](<../../../../.gitbook/assets/image (646) (1) (1).png>)
 
 Here you find various Email settings and tools:
 

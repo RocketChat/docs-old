@@ -28,4 +28,4 @@ Follow these steps to set up Nextcloud OAuth on your server.&#x20;
 
 You now get the prompt to confirm when logging in with Nextcloud
 
-![](<../../../../.gitbook/assets/image (677) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (677) (1) (1) (1) (1) (1).png>)

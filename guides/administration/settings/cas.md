@@ -12,7 +12,7 @@ To access this setting, go to **Administration** > **Settings** > **CAS**.
 
 ![](<../../../.gitbook/assets/administration >)
 
-![](<../../../.gitbook/assets/image (690) (1).png>)
+![](<../../../.gitbook/assets/image (690) (1) (1).png>)
 
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.

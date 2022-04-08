@@ -10,60 +10,27 @@ If you would like to enable TLS on your site like this `https://yoursite.com` wh
 
 This installation guide was tested in the following environment:
 
-* Rocket.Chat 3.9.0
+* Rocket.Chat 4.6.0
 * OS: Ubuntu 18.04 LTS, Ubuntu 19.04 and Ubuntu 20.04(Latest)
-* Mongodb 4.0.9
-* NodeJS 12.18.4
+* Mongodb 5.0
+* NodeJS 14.18.3
 
-{% hint style="info" %}
-As from Rocket.Chat 4.4.0, NodeJS version 14.x.x is used.
-{% endhint %}
+## Requirements
 
-{% hint style="info" %}
-As from Rocket.Chat 4.4.0, NodeJS version 14.x.x is used.
-{% endhint %}
+*   **MongoDB**
 
-## Install necessary dependency packages
+    Please refer to the official MongoDB documentation on [how to install MongoDB on Ubuntu](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/). For the list of supported versions, see our documentation [here](../../../../../getting-support/#mongodb-versions).
+*   **NodeJS**
 
-Update package list and configure apt to install the official MongoDB packages with the following repository file:
-
-```bash
-sudo apt-get -y update
-```
-
-```bash
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
-```
-
-```bash
-echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
-```
-
-Configure Node.js to be installed via package manager:
-
-```bash
-sudo apt-get -y update && sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
-```
-
-Install build tools, MongoDB, nodejs and graphicsmagick:
-
-```bash
-sudo apt-get install -y build-essential mongodb-org nodejs graphicsmagick
-```
-
-Only for Ubuntu 19.04 install npm:
-
-```bash
-sudo apt-get install -y npm
-```
-
-Using npm install inherits and n, and the node version required by Rocket.Chat:
-
-```bash
-sudo npm install -g inherits n && sudo n 12.18.4
-```
+    Follow the [official guide](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) to install NodeJS on a Debian system. Check out our page on [supported node version](../../../../environment-configuration/node-configuration/supported-nodejs-version.md) for your specific version. You can also use third-party tools like [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [n](https://www.npmjs.com/package/n).
 
 ## Install Rocket.Chat
+
+Install required packages/dependencies
+
+```bash
+sudo apt install -y curl build-essential graphicsmagick
+```
 
 Download the latest Rocket.Chat version:
 
@@ -78,8 +45,10 @@ tar -xzf /tmp/rocket.chat.tgz -C /tmp
 Install (this guide uses /opt but feel free to choose a different directory):
 
 ```bash
-cd /tmp/bundle/programs/server && npm install
+cd /tmp/bundle/programs/server && npm install --production
 ```
+
+If you're using the `root` account (not recommended), you'll have to use `sudo npm install --unsafe-perm --production` instead of the above.
 
 ```bash
 sudo mv /tmp/bundle /opt/Rocket.Chat
@@ -97,54 +66,118 @@ sudo useradd -M rocketchat && sudo usermod -L rocketchat
 sudo chown -R rocketchat:rocketchat /opt/Rocket.Chat
 ```
 
+Depending on how you install node, the binary path may be different. Save it to a variable.
+
+```bash
+NODE_PATH=$(which node)
+```
+
+Now save the systemd service file,
+
 ```bash
 cat << EOF |sudo tee -a /lib/systemd/system/rocketchat.service
 [Unit]
 Description=The Rocket.Chat server
 After=network.target remote-fs.target nss-lookup.target nginx.service mongod.service
 [Service]
-ExecStart=/usr/local/bin/node /opt/Rocket.Chat/main.js
+ExecStart=$NODE_PATH /opt/Rocket.Chat/main.js
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=rocketchat
 User=rocketchat
-Environment=MONGO_URL=mongodb://localhost:27017/rocketchat?replicaSet=rs01 MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=rs01 ROOT_URL=http://localhost:3000/ PORT=3000
 [Install]
 WantedBy=multi-user.target
 EOF
 ```
 
-Open the Rocket.Chat service file just created (`/lib/systemd/system/rocketchat.service`) using sudo and your favourite text editor, and change the ROOT\_URL environmental variable to reflect the URL you want to use for accessing the server (optionally change MONGO\_URL, MONGO\_OPLOG\_URL and PORT):
+The command above will create a barebone service file, this service file is what systemd will use to start your Rocket.Chat daemon/process.
 
-```bash
-MONGO_URL=mongodb://localhost:27017/rocketchat?replicaSet=rs01
-MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=rs01
-ROOT_URL=http://your-host-name.com-as-accessed-from-internet:3000
-PORT=3000
+### Passing environment variables
+
+Next you need to pass some environment variables to the running process. For more information of configuring via environment variables read [this article](../../../../environment-configuration/environment-variables.md).
+
+Run:
+
+```
+sudo systemctl edit rocketchat
 ```
 
-Setup storage engine and replication for MongoDB (mandatory for versions > 1), and enable and start MongoDB and Rocket.Chat:
+It should open up a text editor. Now write down the following,
 
-```bash
-sudo sed -i "s/^#  engine:/  engine: mmapv1/"  /etc/mongod.conf
+```
+[Service]
+Environment=ROOT_URL=http://localhost:3000
+Environment=PORT=3000
+Environment=MONGO_URL=mongodb://localhost:27017/rocketchat?replicaSet=rs01
+Environment=MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=rs01
 ```
 
-_**Note**_ The `MMAPV1` storage engine is deprecated in MongoDB Versions >= 4.2. [see here](https://docs.mongodb.com/manual/core/storage-engines/)
+Change the values as you need. Save and exit.
 
-```bash
-sudo sed -i "s/^#replication:/replication:\n  replSetName: rs01/" /etc/mongod.conf
+### MongoDB Configuration
+
+Open the MongoDB config file (`/etc/mongod.conf`) in your favourite text editor. It is a simple YAML file.
+
+Set the storage engine to `wiredTiger`.
+
+```yaml
+storage:
+  engine: wiredTiger
 ```
 
-```bash
-sudo systemctl enable mongod && sudo systemctl start mongod
+Enable replication, and name the replicaset `rs01`.&#x20;
+
+```yaml
+replication:
+  replSetName: rs01
 ```
+
+MongoDB replicaset is mandatory for Rocket.Chat > 1.0.0.
+
+Your MongoDB config file should look something like the following:
+
+```yaml
+storage:
+  dbPath: /var/lib/mongodb
+  journal:
+    enabled: true
+  engine: wiredTiger
+
+systemLog:
+  destination: file
+  logAppend: true
+  path: /var/log/mongodb/mongod.log
+
+net:
+  port: 27017
+  bindIp: 127.0.0.1
+
+processManagement:
+  fork: true
+  timeZoneInfo: /usr/share/zoneinfo
+
+replication:
+  replSetName: rs01
+```
+
+For a full list of available MongoDB config options read their [official documentation](https://docs.mongodb.org/manual/reference/configuration-options/).
+
+Start MongoDB with the following command:
+
+```bash
+sudo systemctl enable --now mongod
+```
+
+Create the replicaset:
 
 ```bash
 mongo --eval "printjson(rs.initiate())"
 ```
 
+You can start Rocket.Chat now.
+
 ```bash
-sudo systemctl enable rocketchat && sudo systemctl start rocketchat
+sudo systemctl enable --now rocketchat
 ```
 
 ## Optional configurations

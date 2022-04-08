@@ -58,7 +58,7 @@ To connect with an air-gapped computer or a server without internet access, sele
 
 * Back on your server, select the Register Offline option.&#x20;
 
-![](<../../.gitbook/assets/image (660) (1) (1).png>)
+![](<../../.gitbook/assets/image (660) (1) (1) (1).png>)
 
 * A popup appears with the code needed. Copy it and go back to the cloud portal.
 

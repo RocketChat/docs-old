@@ -23,7 +23,7 @@ Remember to hit **Save Changes** in order to apply any changes made.
 
 * **login background (svg, png, jpg)**: Lets you set a login background image.&#x20;
 
-![](<../../../.gitbook/assets/image (659) (1).png>)
+![](<../../../.gitbook/assets/image (659) (1) (1).png>)
 
 * **favicon (ico)**: Lets you set a favicon of `.ico` extension.
 * **favicon (svg)**: Lets you set a favicon of `.svg` extension.

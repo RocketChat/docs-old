@@ -6,7 +6,7 @@ To set up your desired provider:
 
 1. Go to **Administration > OAuth** as seen below.
 
-![](<../../../../.gitbook/assets/image (682) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (682) (1) (1) (1).png>)
 
 ![](<../../../../.gitbook/assets/image (132).png>)
 

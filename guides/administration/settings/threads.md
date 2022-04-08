@@ -6,7 +6,7 @@ To access this setting, go to **Administration** > **Settings** > **Threads**.
 
 ![](<../../../.gitbook/assets/administration >)
 
-![](<../../../.gitbook/assets/image (647) (1) (1).png>)
+![](<../../../.gitbook/assets/image (647) (1) (1) (1).png>)
 
 * **Enable**: When enabled, users will be able to create threads in conversations, otherwise, it would not allow for threads to be used.
 

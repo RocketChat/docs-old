@@ -8,4 +8,4 @@ To see these files, click on the **attachments icon** on the top right of your o
 
 From here, you can choose to download or delete any file
 
-![](<../../../../../.gitbook/assets/image (659).png>)
+![](<../../../../../.gitbook/assets/image (659) (1).png>)

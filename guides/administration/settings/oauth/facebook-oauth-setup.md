@@ -32,7 +32,7 @@ You will be required to verify your account before proceeding if it is your firs
 
 * Set the redirect URI go to the **Facebook Login** > **Settings** section and paste the redirect URI in the **Valid OAuth Redirect URIs** field
 
-![](<../../../../.gitbook/assets/image (660).png>)
+![](<../../../../.gitbook/assets/image (660) (1).png>)
 
 * With your newly created app selected, navigate to the **Settings** > **Basic** section to see your OAuth credentials
 
