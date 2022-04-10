@@ -4,21 +4,21 @@
 
 ## How to apply
 
-Rocket.Chat is proud to be a participating open source organization for the [Google Summer of Code 2022](https://summerofcode.withgoogle.com) program.   This marks the exciting 6th year of participation with this 18 years-old program to usher in a new generation of open source contributors and enthusiasts. \
+Rocket.Chat is proud to be a participating open source organization for the [Google Summer of Code 2022](https://summerofcode.withgoogle.com) program. This marks the exciting 6th year of participation with this 18 years-old program to usher in a new generation of open source contributors and enthusiasts.\
 \
-Almost anyone in the world [over 18 years of age ](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html)who loves coding and wants to explore the incredible world of open source can join us as a GSoC 2022 contributor.&#x20;
+Almost anyone in the world [over 18 years of age ](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html)who loves coding and wants to explore the incredible world of open source can join us as a GSoC 2022 contributor.
 
-For contributors,  application for Google Summer of Code 2022 will open on April 4th 2022. &#x20;
+For contributors, application for Google Summer of Code 2022 will open on April 4th 2022.
 
 Accepted projects and contributors will be announced on May 20th 2022.
 
-Please see [Official Google Summer of Code 2022  Timeline ](https://developers.google.com/open-source/gsoc/timeline)for more details.
+Please see [Official Google Summer of Code 2022 Timeline ](https://developers.google.com/open-source/gsoc/timeline)for more details.
 
 #### **Contacting Rocket.Chat**
 
-For general information, please visit our 24 x 7  community channel for Google Summer of Code 2022 :  [ https://open.rocket.chat/channel/gsoc2022](https://open.rocket.chat/channel/gsoc2022)
+For general information, please visit our 24 x 7 community channel for Google Summer of Code 2022 : [https://open.rocket.chat/channel/gsoc2022](https://open.rocket.chat/channel/gsoc2022)
 
-Join our [Google Summer of Code 2022 Team](https://open.rocket.chat/channel/google-summer-of-code) today and interact with over 100 like-minded contributors and meet the mentors in the team channels.&#x20;
+Join our [Google Summer of Code 2022 Team](https://open.rocket.chat/channel/google-summer-of-code) today and interact with over 100 like-minded contributors and meet the mentors in the team channels.
 
 If you have ideas and proposals that are not on our idea list, or if a mentor is not available, you can also email to:
 
@@ -30,27 +30,25 @@ Interested contributors are also encouraged to interact directly with our team a
 
 Those who prefers forums can post messages on our GSoC forum channel (although as the leading open source team chat project we prefer you use Rocket.Chat channels above to reach us instantly) :\
 \
-[https://forums.rocket.chat/t/google-summer-of-code-gsoc/118](https://forums.rocket.chat/t/google-summer-of-code-gsoc/118)\
-
+[https://forums.rocket.chat/t/google-summer-of-code-gsoc/118](https://forums.rocket.chat/t/google-summer-of-code-gsoc/118)\\
 
 #### **Shout out to our early contributors**
 
-We are very thankful for the enthusiastic participation of our early contributors.   The learning curve for Rocket.Chat's huge production code base is known to be very steep and they are getting a head-start even before the announcement of the GSoC 2022 program.  Check out our [GSoC 2022 Leaderboard](https://gsoc.rocket.chat),  to see their amazing  contributions:  31 Merged PRs, 69 Open PRs, and 83 issues. as of Feb 20, 2022.\
-
+We are very thankful for the enthusiastic participation of our early contributors. The learning curve for Rocket.Chat's huge production code base is known to be very steep and they are getting a head-start even before the announcement of the GSoC 2022 program. Check out our [GSoC 2022 Leaderboard](https://gsoc.rocket.chat), to see their amazing contributions: 31 Merged PRs, 69 Open PRs, and 83 issues. as of Feb 20, 2022.\\
 
 ## Project Ideas
 
 This list is being updated regularly, some projects without assigned mentors may be removed.
 
-### **Playground for UIKit ReactJS components**&#x20;
+### **Playground for UIKit ReactJS components**
 
-**Mentors:**  Martin Schoeler, Guilherme Gazzo
+**Mentors:** Martin Schoeler, Guilherme Gazzo
 
 **Description:** Develop an application/playground that allows developers to test UIKit ReactJS components and Interactions. Should allow developers to generate code used by Rocket.Chat apps and edit the content to preview the result
 
-**Desirable Skills:** JavaScript/TypeScript,  ReactJS
+**Desirable Skills:** JavaScript/TypeScript, ReactJS
 
-**Goal/Deliverable:**  An on-line web app that features a construction playground for Rocket.Chat's UIKit ReactJS components.  Plus code and preview generators.
+**Goal/Deliverable:** An on-line web app that features a construction playground for Rocket.Chat's UIKit ReactJS components. Plus code and preview generators.
 
 **Project Duration:** 350 hours.
 
@@ -60,41 +58,41 @@ This list is being updated regularly, some projects without assigned mentors may
 
 **Mentor(s):** Fongang Rodrique, Chris Skelly
 
-**Description:** Tasks automation systems that compose workflow out of a   chain of multiple on-line services is becoming very common and popular.   Services such as [Zapier](https://zapier.com) and [n8n](https://n8n.io) are used by millions daily.   n8n is one of the most popular open source alternatives available. \
+**Description:** Tasks automation systems that compose workflow out of a chain of multiple on-line services is becoming very common and popular. Services such as [Zapier](https://zapier.com) and [n8n](https://n8n.io) are used by millions daily. n8n is one of the most popular open source alternatives available.\
 \
-This project involves the creation of a Rocket.Chat app that connects to n8n, enabling Rocket.Chat to participate richly in the n8n ecosystem. \
+This project involves the creation of a Rocket.Chat app that connects to n8n, enabling Rocket.Chat to participate richly in the n8n ecosystem.\
 \
-There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocketchat)available.  We want to extend this, with the help of a Rocket.Chat app,  to support the rich feature set offered by Rocket.Chat.
+There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocketchat)available. We want to extend this, with the help of a Rocket.Chat app, to support the rich feature set offered by Rocket.Chat.
 
-**Desirable Skills:** Familiarity with Typescript  and Rocket.Chat App development.
+**Desirable Skills:** Familiarity with Typescript and Rocket.Chat App development.
 
-**Goal/Deliverable:**  Rocket.Chat node in n8n and associated Rocket.Chat App
+**Goal/Deliverable:** Rocket.Chat node in n8n and associated Rocket.Chat App
 
 **Project Duration:** 175 hours.
 
 **Difficulty:** Medium
 
-### Rocket.Chat  ReactJS fullstack Component
+### Rocket.Chat ReactJS fullstack Component
 
-**Mentor(s):**  Rohan Lekhwani
+**Mentor(s):** Rohan Lekhwani
 
-**Description:**  Create a ready-to-go  easy to embed mini-chat React component.    This component should be configurable to use any public channel  on a Rocket.Chat server.   Authentication should be flexibly configurable to existing Rocket.Chat server token, or via an independent IDM or auth service.  The challenge here is to create a futuristic full-stack component that bundles tightly coupled backend behaviours with standard front-end ReactJS components (from Rocket.Chat Fuselage ReactJS library) - creating an amazing developer experience when developing In-App Chat applications.   \
+**Description:** Create a ready-to-go easy to embed mini-chat React component. This component should be configurable to use any public channel on a Rocket.Chat server. Authentication should be flexibly configurable to existing Rocket.Chat server token, or via an independent IDM or auth service. The challenge here is to create a futuristic full-stack component that bundles tightly coupled backend behaviours with standard front-end ReactJS components (from Rocket.Chat Fuselage ReactJS library) - creating an amazing developer experience when developing In-App Chat applications.\
 **Desired Skills:** ReactJS component creation experience, understanding of Rocket.Chat server internals
 
-**Goals/Deliverables:**  Standlone mini-chat React component that can be easily installed into any ReactJS based web app
+**Goals/Deliverables:** Standlone mini-chat React component that can be easily installed into any ReactJS based web app
 
 **Project Duration:** 175 hours.
 
 **Difficulty:** Medium
 
-### Chatbot Engine Connector:   Botpress
+### Chatbot Engine Connector: Botpress
 
-**Mentor(s):**   Frank Dase,  Duda Nogueira
+**Mentor(s):** Frank Dase, Duda Nogueira
 
-**Description:**  Botpress is a popular open source framework for creation and execution of chatbots.   This project extends a existing community-contributed  Botpress connector to  facilitate  deployment of  Botpress chatbots and omnichannel bots.    Focus here will include - better rich UI/UX / interaction support for bots and ability to run multiple instances of multiple bots.\
-**Desired Skills:** Javascript and Typescript development.   Keen interest in Bots and Chatbots.
+**Description:** Botpress is a popular open source framework for creation and execution of chatbots. This project extends a existing community-contributed Botpress connector to facilitate deployment of Botpress chatbots and omnichannel bots. Focus here will include - better rich UI/UX / interaction support for bots and ability to run multiple instances of multiple bots.\
+**Desired Skills:** Javascript and Typescript development. Keen interest in Bots and Chatbots.
 
-**Goals/Deliverables:**   A Rocket.Chat App as a  Botpress connector.  A couple of example chatbots (running in a channel, and running in omnichannel) plus documentation.
+**Goals/Deliverables:** A Rocket.Chat App as a Botpress connector. A couple of example chatbots (running in a channel, and running in omnichannel) plus documentation.
 
 **Project Duration:** 175 hours.
 
@@ -112,7 +110,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 350 hours.
 
-**Difficulty:**  Medium&#x20;
+**Difficulty:** Medium
 
 ### Rocket.Chat Golang SDK
 
@@ -120,7 +118,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Description:** Golang module to enable any Go packge to talk to a Rocket.Chat server with ease, making it possible to create from custom clients to bots.
 
-**Goals/Deliverables:**&#x20;
+**Goals/Deliverables:**
 
 * Create new models and update existing as needed
 * Add receivers for top level endpoints for rest api according to [https://developer.rocket.chat/reference/api/rest-api](https://developer.rocket.chat/reference/api/rest-api/endpoints)
@@ -133,13 +131,13 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 ### **Rocket.Chat for Virtual Conferences - Eventyay integration**
 
-**Mentors:** Sing Li&#x20;
+**Mentors:** Sing Li
 
-**Description:**  Create a totally open source end-to-end solution for planning, management and running of online virtual events.    Investigate integration with FOSSASIA's Eventyay platform for even planning and management.   Day of event conference handling should be done by integrating RC4Community's virtual conference NextJS component with open-event-next - or create an even tighter integration with RC4Community. &#x20;
+**Description:** Create a totally open source end-to-end solution for planning, management and running of online virtual events. Investigate integration with FOSSASIA's Eventyay platform for even planning and management. Day of event conference handling should be done by integrating RC4Community's virtual conference NextJS component with open-event-next - or create an even tighter integration with RC4Community.
 
-**Desired Skills:**  ReactJS and NextJS development experience.   Fluent with Python development.   Good understanding of video conference technology (such as Jitsi) and realtime chat platforms (such as Rocket.Chat).  \
+**Desired Skills:** ReactJS and NextJS development experience. Fluent with Python development. Good understanding of video conference technology (such as Jitsi) and realtime chat platforms (such as Rocket.Chat).\
 \
-**Goals/Deliverables:**   Open source virtual conference system integrating Rocket.Chat and Eventyay.  &#x20;
+**Goals/Deliverables:** Open source virtual conference system integrating Rocket.Chat and Eventyay.
 
 **Project Duration: 350** hours.
 
@@ -149,43 +147,43 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Mentor(s):** Jean Brito
 
-**Description:** Create a simpler desktop application similar to the old Google Talk (see [2005 GoogleTalk UI ](https://en.wikipedia.org/wiki/Google\_Talk#/media/File:Google\_Talk\_Labs\_Edition\_\(screenshot\).png)here), is a simple channels list on a little window and each chat will open in another separated window, making it possible to talk with people without opening a big window. Making the usage of [Rocket.chat](http://rocket.chat) more seamless.  This project will make extensive use of Rocket.Chat's In-App Chat APIs (REST APIs).
+**Description:** Create a simpler desktop application similar to the old Google Talk (see [2005 GoogleTalk UI ](https://en.wikipedia.org/wiki/Google\_Talk#/media/File:Google\_Talk\_Labs\_Edition\_\(screenshot\).png)here), is a simple channels list on a little window and each chat will open in another separated window, making it possible to talk with people without opening a big window. Making the usage of [Rocket.chat](http://rocket.chat) more seamless. This project will make extensive use of Rocket.Chat's In-App Chat APIs (REST APIs).
 
 **Desired Skills:** Familiarity with ElectronJS and TypeScript.
 
-**Goal/Deliverable:** Standalone app that is deployable on all platforms supported by Electron - Windows, Mac, Linux, and more.   The App will display a listing window for the channels and open each chat on another window, making the chat more popup-like.
+**Goal/Deliverable:** Standalone app that is deployable on all platforms supported by Electron - Windows, Mac, Linux, and more. The App will display a listing window for the channels and open each chat on another window, making the chat more popup-like.
 
 **Project Duration:** 350 hours.
 
-**Difficulty:**  Medium
+**Difficulty:** Medium
 
-### Omnichannel users identity verification&#x20;
+### Omnichannel users identity verification
 
-**Mentor(s):** Kevin Aleman,  Martin Schoeler
+**Mentor(s):** Kevin Aleman, Martin Schoeler
 
-**Description:**  This project investigates and implements a new and "native" identity verification mechanism for Omnichannel end-users, such as Live Chat visitors who, depending on the use case, have to provide personal data like email addresses, etc. [Rocket.Chat](http://rocket.chat) already has in place a similar confirmation mechanism for user verification, such as 2FA, email, etc. The contributor will have the freedom to propose ideas and design the best solution for the problem described.
+**Description:** This project investigates and implements a new and "native" identity verification mechanism for Omnichannel end-users, such as Live Chat visitors who, depending on the use case, have to provide personal data like email addresses, etc. [Rocket.Chat](http://rocket.chat) already has in place a similar confirmation mechanism for user verification, such as 2FA, email, etc. The contributor will have the freedom to propose ideas and design the best solution for the problem described.
 
-**Desired Skills:** Familiarity with JavaScript development.   Good understanding of the architecture of Rocket.Chat's omnichannel implementation.
-
-**Project Duration:** 175 hours.
-
-**Difficulty:**  Medium
-
-### **IRC Bridge : improve ease of deployment and stability**&#x20;
-
-**Mentors:**   Gabriel Engel
-
-**Description:**  Rocket.Chat has long featured the ability to bridge directly witn IRC.   IRC is still in use by many hard core technical open source communities all over the world, and this bridge is very important to many of our community users.  However,  since we started evolving our architecture to be more scalable,  the IRC bridge has not been updated to match .  As a result, it has become unstable in some edge cases and also  difficult to deploy in scaled Rocket.Chat configuration.   This project aims to improve the situation.  The IRC bridge should be updated to be compatible with our scaled configuration.   Extracting from core code base and repackaging as Rocket.Chat App or npm module should be investigated.  Additional configuration/provisioning options and DevOps images will need to be created to improve the administrator's experience.
-
-**Goals/Deliverables:**  Familiarity with Typescript development.   User of IRC and an understanding of how it works.   An understanding of how Rocket.Chat scales.
+**Desired Skills:** Familiarity with JavaScript development. Good understanding of the architecture of Rocket.Chat's omnichannel implementation.
 
 **Project Duration:** 175 hours.
 
-**Difficulty:**  Hard
+**Difficulty:** Medium
+
+### **IRC Bridge : improve ease of deployment and stability**
+
+**Mentors:** Gabriel Engel
+
+**Description:** Rocket.Chat has long featured the ability to bridge directly witn IRC. IRC is still in use by many hard core technical open source communities all over the world, and this bridge is very important to many of our community users. However, since we started evolving our architecture to be more scalable, the IRC bridge has not been updated to match . As a result, it has become unstable in some edge cases and also difficult to deploy in scaled Rocket.Chat configuration. This project aims to improve the situation. The IRC bridge should be updated to be compatible with our scaled configuration. Extracting from core code base and repackaging as Rocket.Chat App or npm module should be investigated. Additional configuration/provisioning options and DevOps images will need to be created to improve the administrator's experience.
+
+**Goals/Deliverables:** Familiarity with Typescript development. User of IRC and an understanding of how it works. An understanding of how Rocket.Chat scales.
+
+**Project Duration:** 175 hours.
+
+**Difficulty:** Hard
 
 ### **Sidebar UI revamp and UX improvements**
 
-**Mentors:** Ivan Netto
+**Mentors:** Ivan Netto,  Tasso Evangelista, Gabriel Henriques
 
 **Description:** Conversations in [Rocket.Chat](http://rocket.chat) can be done in multiple ways but at this stage, we need a scalable interface which would help users to maximize their daily tasks within the software. The following improvements would speed up users' workflow:
 
@@ -199,34 +197,34 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Project Duration:** 350 hours.
 
-**Difficulty:**  Medium
+**Difficulty:** Medium
 
 ### Message forwarding
 
 **Mentor(s):** Douglas Fabris, Milton Rucks
 
-**Description:** Implement the ability to forward messages to another channel,  thread, or discussion.   This is a high demand capability that is currently missing in Rocket.Chat.  It can significantly improve the user's experience and her/his productivity. The scope of this project will be limited to the web application (not for mobile apps).
+**Description:** Implement the ability to forward messages to another channel, thread, or discussion. This is a high demand capability that is currently missing in Rocket.Chat. It can significantly improve the user's experience and her/his productivity. The scope of this project will be limited to the web application (not for mobile apps).
 
 **Desirable Skills:** Familiarity with JavaScript and TypeScript development
 
-**Goal/Deliverable:**&#x20;
+**Goal/Deliverable:**
 
 * Being able to forward messages and files to multiple users and channels
 * Being able to add additional messages on the top of forwarded content
 
 **Project Duration:** 350 hours.
 
-**Difficulty:**  Medium
+**Difficulty:** Medium
 
 ### Pomodoro Time Management App
 
-Mentor(s):  Debdut Chakraborty, Duda Nogueira
+Mentor(s): Debdut Chakraborty, Duda Nogueira
 
-Description:  With remote work now becoming the norm,  lack of essential time management skills can throw off work/life balance and resulting in burn-out or dangerous mental wellness problems.   [Pomodoro](https://science.nichd.nih.gov/confluence/display/newsletter/2020/05/07/The+Pomodoro+Technique%3A+An+Effective+Time+Management+Tool)  is a proven and easy to adopt time management technique practiced by millions world wide.   This project involves the creation of an always available Pomodoro timer Rocket.Chat App. &#x20;
+Description: With remote work now becoming the norm, lack of essential time management skills can throw off work/life balance and resulting in burn-out or dangerous mental wellness problems. [Pomodoro](https://science.nichd.nih.gov/confluence/display/newsletter/2020/05/07/The+Pomodoro+Technique%3A+An+Effective+Time+Management+Tool) is a proven and easy to adopt time management technique practiced by millions world wide. This project involves the creation of an always available Pomodoro timer Rocket.Chat App.
 
-Goals/Deliverables: A Pomodoro timer Rocket.Chat App&#x20;
+Goals/Deliverables: A Pomodoro timer Rocket.Chat App
 
-Desired Skills:   Familiarity with TypeScript development.  User of the pomodoro time management technique
+Desired Skills: Familiarity with TypeScript development. User of the pomodoro time management technique
 
 Project Duration: 175 hours
 
@@ -248,7 +246,7 @@ Project Duration: 175 hours
 
 **Project Duration:** 350 hours.
 
-**Difficulty:**  Easy
+**Difficulty:** Easy
 
 ### Improve Navigation in Mobile Client
 
@@ -262,7 +260,7 @@ Project Duration: 175 hours
 
 **Project Duration:** 350 hours.
 
-**Difficulty:**  Medium
+**Difficulty:** Medium
 
 ### Improve Mobile Client Animations
 
@@ -277,7 +275,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 350 hours.
 
-**Difficulty:**  Medium
+**Difficulty:** Medium
 
 ### Mobile Client: Redesigned MessageBox
 
@@ -303,15 +301,15 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 350 hours.
 
-**Difficulty:**  Medium
+**Difficulty:** Medium
 
-### Team Bridge:  interop with Microsoft Teams
+### Team Bridge: interop with Microsoft Teams
 
 **Mentor(s):** Yash Rajpal, Fábio Albuquerque, Gabriel Engel
 
-**Description:**   Microsoft team is unquestionably the most popular and frequently used closed source team chat system in the world.   Many administrators and users of open source Rocket.Chat team chat will have needs to bridge between their open source users and legacy users still on team.  This project will create a Rocket.Chat App or an npm module that will act as a bridge  between Rocket.Chat and Microsoft Team.    Users on one system should be able to chat with the other through shared channels.   Support for rich interactions including DM, emoji's, embedded graphics, shared youtube links and so on should also be supported.   The exact scope for this project will be determined between the contributor and the mentors.
+**Description:** Microsoft team is unquestionably the most popular and frequently used closed source team chat system in the world. Many administrators and users of open source Rocket.Chat team chat will have needs to bridge between their open source users and legacy users still on team. This project will create a Rocket.Chat App or an npm module that will act as a bridge between Rocket.Chat and Microsoft Team. Users on one system should be able to chat with the other through shared channels. Support for rich interactions including DM, emoji's, embedded graphics, shared youtube links and so on should also be supported. The exact scope for this project will be determined between the contributor and the mentors.
 
-**Desired Skills:** Familiarity with Typescript and Javascript development.  Familiarity with Microsoft Team's available APIs.  An interest in crafting  bridges between communications platforms.
+**Desired Skills:** Familiarity with Typescript and Javascript development. Familiarity with Microsoft Team's available APIs. An interest in crafting bridges between communications platforms.
 
 **Project Duration:** 350 hours.
 
@@ -323,7 +321,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Description:** Rocket.Chat has desktop, web and mobile clients, time for a fourth, a TUI client. This project brings Rocket.Chat right into your terminal. By design this is to be extremely lightweight and blazing fast for basic functions, with the only noticeable latency source being the SDK calls.
 
-**Desired Skills:**&#x20;
+**Desired Skills:**
 
 * Golang knowledge is required
 * Any modern TUI package knowledge is preferred ([https://charm.sh](https://charm.sh), [https://github.com/charmbracelet/bubbles](https://github.com/charmbracelet/bubbles))
@@ -341,27 +339,27 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Project Duration:** 350 hours.
 
-**Difficulty:**  Medium
+**Difficulty:** Medium
 
-### Weekly Video  Meeting and  Archive App - Big Blue Button + Rocket.Chat
+### Weekly Video Meeting and Archive App - Big Blue Button + Rocket.Chat
 
 **Mentors:** Debdut Chakraborty, Felipe Cecagno
 
-**Description:** Big Blue Button is one of the most popular open source virtual classroom  and conferencing tool available today. This project is a very simple integration with Rocket.Chat for conducting a weekly meeting and maintaining the recording video archive. Mentors will include both Rocket.Chat and Big Blue Button experts.
+**Description:** Big Blue Button is one of the most popular open source virtual classroom and conferencing tool available today. This project is a very simple integration with Rocket.Chat for conducting a weekly meeting and maintaining the recording video archive. Mentors will include both Rocket.Chat and Big Blue Button experts.
 
-**Desirable Skills:**   Familiarity with TypeScript development. Experience with AVideo.&#x20;
+**Desirable Skills:** Familiarity with TypeScript development. Experience with AVideo.
 
-**Goals/Deliverables:**  A Rocket.Chat App that will enable users in a channel to join an existing weekly meeting if it is in progress. Or query for recorded meeting videos and view them.
+**Goals/Deliverables:** A Rocket.Chat App that will enable users in a channel to join an existing weekly meeting if it is in progress. Or query for recorded meeting videos and view them.
 
 **Project Duration:** 175 hours.
 
-**Difficulty:**  Easy
+**Difficulty:** Easy
 
 ### Chatbot to improve agile workflow
 
 **Mentors:** Leonardo Ostjen, Tiago Evangelista & Gabriel Casals
 
-**Description:** Agile adoption is increasing year to year on the different industries. There is an opportunity to add agile package bots to help squad with reminders, links and facilitate attendance to meeting based on simple calendar inputs and emoji reactions. Candidate will be working with Agile experts and Engineers to build some solutions for this space and help improve  team/squads productivity.   Successful contributor will propose and implement a  Chatbot that solves a problem in agile.   Candidate have a free choice of  technology to implement the chatbot  -  RASA,  Botpress,  Dialogflow, and so on. &#x20;
+**Description:** Agile adoption is increasing year to year on the different industries. There is an opportunity to add agile package bots to help squad with reminders, links and facilitate attendance to meeting based on simple calendar inputs and emoji reactions. Candidate will be working with Agile experts and Engineers to build some solutions for this space and help improve team/squads productivity. Successful contributor will propose and implement a Chatbot that solves a problem in agile. Candidate have a free choice of technology to implement the chatbot - RASA, Botpress, Dialogflow, and so on.
 
 **Desirable Skills:** Familiarity with TypeScript development. Demonstrated interest and/or passion in Agile and squad productivity tools.
 
@@ -377,9 +375,9 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Description:** Zoho Employee is the revamp of the existing Zoho App. This integrates Zoho People with [Rocket.Chat](http://rocket.chat), and lets the users view and modify resources according to their accounts. Zoho People is a very capable employee management system, but opening Zoho for every little thing can get tedious in a busy schedule. This app will make this interfacing much easier, right from [Rocket.Chat](http://rocket.chat).
 
-**Desirable Skills:**   Familiarity with TypeScript development.  Zoho REST APIs.
+**Desirable Skills:** Familiarity with TypeScript development. Zoho REST APIs.
 
-**Goals/Deliverables:**  A Rocket.Chat App that is  able to look up colleague details,  see upcoming PTOs, apply for PTOs,  and apply for reimbursements.
+**Goals/Deliverables:** A Rocket.Chat App that is able to look up colleague details, see upcoming PTOs, apply for PTOs, and apply for reimbursements.
 
 **Project Duration:** 175 hours.
 
@@ -387,29 +385,29 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 ### GitHub App
 
-**Mentor(s):**  Rohan Lekhwani, Sing Li
+**Mentor(s):** Rohan Lekhwani, Sing Li
 
-**Description:** GitHub is the largest centralized repository for hosting open source projects. This app will enable the users to perform many GitHub activities right from Rocket.Chat.  Including query of issues and PRs, code modification logs,  and announcement of events - such as new releases, PR merged, and so on.&#x20;
+**Description:** GitHub is the largest centralized repository for hosting open source projects. This app will enable the users to perform many GitHub activities right from Rocket.Chat. Including query of issues and PRs, code modification logs, and announcement of events - such as new releases, PR merged, and so on.
 
-Goals/Deliverables:  Rocket.Chat App integrating common Github features
+Goals/Deliverables: Rocket.Chat App integrating common Github features
 
-**Desired Skills:**   Familiarity with TypeScript development.   GitHub API
+**Desired Skills:** Familiarity with TypeScript development. GitHub API
 
-_Project Duration:  175 hours_
+_Project Duration: 175 hours_
 
 **Difficulty:** Medium
 
-### DropBox  App
+### DropBox App
 
-Mentor(s):   Sing Li, Debdut Chakraborty
+Mentor(s): Sing Li, Debdut Chakraborty
 
 Description: Dropbox is a file hosting service. You will create an app that will help the users manage their dropbox files easily directly from Rocket.Chat.\
 \
 Optional second part of the project entails making DropBox a possible storage provider for file uploads.
 
-Goals/Deliverables:  Rocket.Chat App with DropBox operations integrated\
+Goals/Deliverables: Rocket.Chat App with DropBox operations integrated\
 \
-Desired Skills:   Familiarity with TypeScript development.    DropBox API
+Desired Skills: Familiarity with TypeScript development. DropBox API
 
 Project Duration: 175 hours
 
@@ -423,7 +421,7 @@ Description: ClickUp is an extremely feature rich collaboration and project mana
 
 Goals/Deliverables: Rocket.Chat App with ClickUp integration features.
 
-Desired Skills:   Familiarity with TypeScript development.    ClickUp API
+Desired Skills: Familiarity with TypeScript development. ClickUp API
 
 Project Duration: 350 hours
 
