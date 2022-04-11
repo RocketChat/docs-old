@@ -18,13 +18,17 @@ Please see [Official Google Summer of Code 2022 Timeline ](https://developers.go
 
 For general information, please visit our 24 x 7 community channel for Google Summer of Code 2022 : [https://open.rocket.chat/channel/gsoc2022](https://open.rocket.chat/channel/gsoc2022)
 
-Join our [Google Summer of Code 2022 Team](https://open.rocket.chat/channel/google-summer-of-code) today and interact with over 100 like-minded contributors and meet the mentors in the team channels.
+Join our [Google Summer of Code 2022 Team](https://open.rocket.chat/channel/google-summer-of-code) today and interact with over 300 like-minded contributors and meet the mentors in the [25 team channels](https://open.rocket.chat/channel/google-summer-of-code/team-channels).
 
 If you have ideas and proposals that are not on our idea list, or if a mentor is not available, you can also email to:
 
 gsoc+2022@rocket.chat
 
-Interested contributors are also encouraged to interact directly with our team and community on GitHub:\
+Interested contributors are also encouraged to interact directly with our team and community on the team channels:\
+\
+[https://open.rocket.chat/channel/google-summer-of-code/team-channels](https://open.rocket.chat/channel/google-summer-of-code/team-channels)\
+\
+As well as on GitHub:\
 \
 [https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
 
