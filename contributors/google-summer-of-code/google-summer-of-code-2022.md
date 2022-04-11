@@ -39,7 +39,7 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 **Successful Alumni Summit**&#x20;
 
-We held our 2nd annual Rocket.Chat Google Summer of Code Alumni Summit on April 6th.   It was exciting to bring back Google Summer of Code participants from our previous five years to speak and help this year's contributors in crafting their winning proposals.  We have alumni from all walks of life speaking, see [official poster for this event](https://community.rocket.chat/virtualconf/mainstage).  There were 11 fascinating session and we welcomed a total of 156 unique individuals throughout the day at the summit.        \
+We held our 2nd annual Rocket.Chat Google Summer of Code Alumni Summit on April 6th.   It was exciting to bring back Google Summer of Code participants from our previous five years to speak and help this year's contributors in crafting their winning proposals.  We have alumni from all walks of life speaking, see [official poster for this event](https://community.rocket.chat/virtualconf/mainstage).  There were 11 fascinating sessions and we welcomed a total of 156 unique individuals throughout the day at the summit.   We expect hundreds more new contributors to benefit from the recorded sessions.     \
 \
 All of the sessions are recorded and are available directly from our [YouTube Playlist.](https://www.youtube.com/playlist?list=PLee3gqXJQrFW3dMG1P8qGzQ7E7Ea1SB80)    The tips and best practices shared by our alumni apply to the entire Google Summer of Code contributors, and are not Rocket.Chat specific.   We hope these recordings will benefit all those who intend to submit proposals this season.
 
