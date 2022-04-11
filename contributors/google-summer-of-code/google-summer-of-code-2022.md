@@ -8,7 +8,7 @@ Rocket.Chat is proud to be a participating open source organization for the [Goo
 \
 Almost anyone in the world [over 18 years of age ](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html)who loves coding and wants to explore the incredible world of open source can join us as a GSoC 2022 contributor.
 
-Application for Google Summer of Code 2022 is now open.  See [official Google Summer of Code site](google-summer-of-code-2022.md#rocket.chat-reactjs-fullstack-component).   Proposal deadline is April 19th 2022 18:00 UTC.
+Application for Google Summer of Code 2022 is now open.  See [official Google Summer of Code site](https://summerofcode.withgoogle.com).   Proposal deadline is April 19th 2022 18:00 UTC.
 
 Accepted projects and contributors will be announced on May 20th 2022.
 
