@@ -37,14 +37,17 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 [https://forums.rocket.chat/t/google-summer-of-code-gsoc/118](https://forums.rocket.chat/t/google-summer-of-code-gsoc/118)\
 
 
-**Successful Virtual Alumni Summit   (Update April 6th)**
+#### **Proposal submission begins (Update April 10th)**
+
+Momentum for proposal submission is building up.  As our GSoC 2022 community of **300** contributors and mentors continue to engage actively in the [project specific team channels](https://open.rocket.chat/channel/google-summer-of-code/team-channels). Mentors for the various projects are in these channels to help contributors to craft their winning proposals.   On our [contributor leaderboard ](https://gsoc.rocket.chat)(which is also a[n open source project](https://github.com/RocketChat/Opensource-Contribution-Leaderboard)) , _116 contributors have added_ 75 Merged PRs, 105 Open PRs, and 141 Issues to our projects this season so far.
+
+#### **Successful Virtual Alumni Summit   (Update April 6th)**
 
 We held our 2nd annual Rocket.Chat Google Summer of Code Alumni Summit on April 6th.   It was exciting to bring back Google Summer of Code participants from our previous five years to speak and help this year's contributors in crafting their winning proposals.  We have alumni from all walks of life speaking, see [official poster for this event](https://community.rocket.chat/virtualconf/mainstage).  There were 11 fascinating sessions and we welcomed a total of 156 unique individuals throughout the day at the summit.   We expect hundreds more new contributors to benefit from the recorded sessions.     \
 \
 All of the sessions are recorded and are available directly from our [YouTube Playlist.](https://www.youtube.com/playlist?list=PLee3gqXJQrFW3dMG1P8qGzQ7E7Ea1SB80)    The tips and best practices shared by our alumni apply to the entire Google Summer of Code contributors, and are not Rocket.Chat specific.   We hope these recordings will benefit all those who intend to submit proposals this season.
 
-\
-**Shout out to our early contributors (Update Feb 20th)**
+#### **Shout out to our early contributors (Update Feb 20th)**
 
 We are very thankful for the enthusiastic participation of our early contributors. The learning curve for Rocket.Chat's huge production code base is known to be very steep and they are getting a head-start even before the announcement of the GSoC 2022 program. Check out our [GSoC 2022 Leaderboard](https://gsoc.rocket.chat), to see their amazing contributions: 31 Merged PRs, 69 Open PRs, and 83 issues. as of Feb 20, 2022.\\
 
