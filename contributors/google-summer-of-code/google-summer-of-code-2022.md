@@ -4,15 +4,15 @@
 
 ## How to apply
 
-Rocket.Chat is proud to be a participating open source organization for the [Google Summer of Code 2022](https://summerofcode.withgoogle.com) program. This marks the exciting 6th year of participation with this 18 years-old program to usher in a new generation of open source contributors and enthusiasts.\
-\
-Almost anyone in the world [over 18 years of age ](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html)who loves coding and wants to explore the incredible world of open source can join us as a GSoC 2022 contributor.
-
 Application for Google Summer of Code 2022 is now open.  See [official Google Summer of Code site](https://summerofcode.withgoogle.com).   Proposal deadline is April 19th 2022 18:00 UTC.
 
 Accepted projects and contributors will be announced on May 20th 2022.
 
-Please see [Official Google Summer of Code 2022 Timeline ](https://developers.google.com/open-source/gsoc/timeline)for more details.
+Please see [Official Google Summer of Code 2022 Timeline ](https://developers.google.com/open-source/gsoc/timeline)for more details.\
+\
+Rocket.Chat is proud to be a participating open source organization for the [Google Summer of Code 2022](https://summerofcode.withgoogle.com) program. This marks the exciting 6th year of participation with this 18 years-old program to usher in a new generation of open source contributors and enthusiasts.\
+\
+Almost anyone in the world [over 18 years of age ](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html)who loves coding and wants to explore the incredible world of open source can join us as a GSoC 2022 contributor.
 
 #### **Contacting Rocket.Chat**
 
@@ -37,14 +37,14 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 [https://forums.rocket.chat/t/google-summer-of-code-gsoc/118](https://forums.rocket.chat/t/google-summer-of-code-gsoc/118)\
 
 
-**Successful Virtual Alumni Summit**&#x20;
+**Successful Virtual Alumni Summit   (Update April 6th)**
 
 We held our 2nd annual Rocket.Chat Google Summer of Code Alumni Summit on April 6th.   It was exciting to bring back Google Summer of Code participants from our previous five years to speak and help this year's contributors in crafting their winning proposals.  We have alumni from all walks of life speaking, see [official poster for this event](https://community.rocket.chat/virtualconf/mainstage).  There were 11 fascinating sessions and we welcomed a total of 156 unique individuals throughout the day at the summit.   We expect hundreds more new contributors to benefit from the recorded sessions.     \
 \
 All of the sessions are recorded and are available directly from our [YouTube Playlist.](https://www.youtube.com/playlist?list=PLee3gqXJQrFW3dMG1P8qGzQ7E7Ea1SB80)    The tips and best practices shared by our alumni apply to the entire Google Summer of Code contributors, and are not Rocket.Chat specific.   We hope these recordings will benefit all those who intend to submit proposals this season.
 
 \
-**Shout out to our early contributors**
+**Shout out to our early contributors (Update Feb 20th)**
 
 We are very thankful for the enthusiastic participation of our early contributors. The learning curve for Rocket.Chat's huge production code base is known to be very steep and they are getting a head-start even before the announcement of the GSoC 2022 program. Check out our [GSoC 2022 Leaderboard](https://gsoc.rocket.chat), to see their amazing contributions: 31 Merged PRs, 69 Open PRs, and 83 issues. as of Feb 20, 2022.\\
 
