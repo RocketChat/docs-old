@@ -37,7 +37,7 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 [https://forums.rocket.chat/t/google-summer-of-code-gsoc/118](https://forums.rocket.chat/t/google-summer-of-code-gsoc/118)\
 
 
-**Successful Alumni Summit**&#x20;
+**Successful Virtual Alumni Summit**&#x20;
 
 We held our 2nd annual Rocket.Chat Google Summer of Code Alumni Summit on April 6th.   It was exciting to bring back Google Summer of Code participants from our previous five years to speak and help this year's contributors in crafting their winning proposals.  We have alumni from all walks of life speaking, see [official poster for this event](https://community.rocket.chat/virtualconf/mainstage).  There were 11 fascinating sessions and we welcomed a total of 156 unique individuals throughout the day at the summit.   We expect hundreds more new contributors to benefit from the recorded sessions.     \
 \
