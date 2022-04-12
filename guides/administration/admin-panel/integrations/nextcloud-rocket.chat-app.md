@@ -6,7 +6,7 @@ The Nextcloud Rocket.Chat App integration offers a very powerful Open Source col
 
 ## Nextcloud Rocket.Chat App Setup
 
-### Prerequisites&#x20;
+### Prerequisites
 
 To use the Nextcloud Rocket.App, you are expected to have the following workspaces running:
 
@@ -42,6 +42,8 @@ When that is all done, follow these procedures to get setup
 ![](<../../../../.gitbook/assets/image (648).png>)
 
 * Fill in the Rocket.Chat URL, admin username, and password to authenticate, click on **Connect and Save**. This will automatically generate an access token and userId to be used
+
+![](<../../../../.gitbook/assets/image (253).png>)
 
 ![](<../../../../.gitbook/assets/image (667) (1) (1).png>)
 
