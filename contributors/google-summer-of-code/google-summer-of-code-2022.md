@@ -372,7 +372,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 ### Chatbot to improve agile workflow
 
-**Mentors:** Leonardo Ostjen, Tiago Evangelista & Gabriel Casals
+**Mentors:** Tiago Evangelista, Gabriel Casals, José Paulo Petry
 
 **Description:** Agile adoption is increasing year to year on the different industries. There is an opportunity to add agile package bots to help squad with reminders, links and facilitate attendance to meeting based on simple calendar inputs and emoji reactions. Candidate will be working with Agile experts and Engineers to build some solutions for this space and help improve team/squads productivity. Successful contributor will propose and implement a Chatbot that solves a problem in agile. Candidate have a free choice of technology to implement the chatbot - RASA, Botpress, Dialogflow, and so on.
 
