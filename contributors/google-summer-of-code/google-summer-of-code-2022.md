@@ -146,7 +146,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 ### **Rocket.Chat for Virtual Conferences - Eventyay integration**
 
-**Mentors:** Sing Li
+**Mentors:** Marcos Defendi, Sing Li
 
 **Description:** Create a totally open source end-to-end solution for planning, management and running of online virtual events. Investigate integration with FOSSASIA's Eventyay platform for even planning and management. Day of event conference handling should be done by integrating RC4Community's virtual conference NextJS component with open-event-next - or create an even tighter integration with RC4Community.
 
