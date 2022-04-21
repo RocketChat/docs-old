@@ -4,7 +4,7 @@
 
 ## How to apply
 
-Application for Google Summer of Code 2022 is now open.  See [official Google Summer of Code site](https://summerofcode.withgoogle.com).   Proposal deadline is April 19th 2022 18:00 UTC.
+Application for Google Summer of Code 2022 is now closed.  See [official Google Summer of Code site](https://summerofcode.withgoogle.com).  &#x20;
 
 Accepted projects and contributors will be announced on May 20th 2022.
 
@@ -36,6 +36,18 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 \
 [https://forums.rocket.chat/t/google-summer-of-code-gsoc/118](https://forums.rocket.chat/t/google-summer-of-code-gsoc/118)\
 
+
+### **Latest update**
+
+**Total of 83 proposals received (Update April 20th)**
+
+We would like to thank all of our enthusiastic contributors for the **83 proposals** that we have received as of submission deadline on April 19th.     Over the next few weeks, mentors for every project will be going through these proposals to determine the ones to accept.   Accepted projects and contributors will be announced on May 20th 2022 by Google. \
+\
+Meanwhile, please continue to interact with our GSoC 2022 **community of over 350 mentors and contributors** in  our [team channel](https://open.rocket.chat/channel/gsoc2022) ;   please continue to contribute to our ecosystem of repositories.   \
+\
+As of today,  **135** contributors have created **88 Merged PRs**, **108 Open PRs**, and identified **151 Issues** in our projects.\
+\
+Over the next week, we will announce an exciting special activity for those ranking at the top of our [Contributors Leaderboard](https://gsoc.rocket.chat).
 
 #### **Proposal submission begins (Update April 10th)**
 
