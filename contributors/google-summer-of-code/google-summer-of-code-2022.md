@@ -45,9 +45,9 @@ We would like to thank all of our enthusiastic contributors for the **83 proposa
 \
 Meanwhile, please continue to interact with our GSoC 2022 **community of over 350 mentors and contributors** in  our [team channel](https://open.rocket.chat/channel/gsoc2022) ;   please continue to contribute to our ecosystem of repositories.   \
 \
-As of today,  **135** contributors have created **88 Merged PRs**, **108 Open PRs**, and identified **151 Issues** in our projects.\
+As of today,  **135 GSoC** **contributors** have created **88 Merged PRs**, **108 Open PRs**, and identified **151 Issues** in the Rocket.Chat ecosystem.\
 \
-Over the next week, we will announce an exciting special activity for those ranking at the top of our [Contributors Leaderboard](https://gsoc.rocket.chat).
+Over the next week, we will announce an exciting special activity for those ranking at the top of our [Contributors Leaderboard](https://gsoc.rocket.chat).   Please stay tuned.
 
 #### **Proposal submission begins (Update April 10th)**
 
