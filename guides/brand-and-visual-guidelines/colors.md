@@ -4,7 +4,7 @@ description: Here you will find Guidelines about Rocket.Chat's Color
 
 # Colors
 
-Our color palette is varied and offers many accent colors to use when producing content for our brand. A white or light-colored background is favored, with small splashes of color in the form of type accentuation, images, or small elements that display our brand tones.&#x20;
+Our color palette is varied and offers many accent colors to use when producing content for our brand. A white or light-colored background is favored, with small splashes of color in the form of type accentuation, images, or small elements that display our brand tones.
 
 A dark background can also be used, but in this case, white type and accenting elements are best for contrast.
 
@@ -16,21 +16,21 @@ Red is a primary color along with blue and both should be prioritized in their u
 
 Their respective color codes are:
 
-* Red:  <mark style="color:red;">`#F545C`</mark>&#x20;
+* Red: <mark style="color:red;">`#F545C`</mark>
 * Blue: <mark style="color:blue;">`#1D74F5`</mark>
 
 ### Secondary
 
 The following first two colors serve as taste breakers from the usual red and blue and can be used in iconography, illustrations, typography, and other assets to bring variety to our visual identity. These can also be used to highlight certain keywords in a title or subtitle, but shouldn’t be used as the background color. Our shades of black and white also serve to bring versatility to our brand image, offering more possibilities for typographical styling and backgrounds.
 
-![](<../../.gitbook/assets/image (682) (1).png>)
+![](<../../.gitbook/assets/image (595).png>)
 
 Their respective color codes are:
 
-* Purple Light Background:  `#9F22C7`
-* Purple Dark Background: `#CA71E7`
-* Green Dark Background: `#2DEDA5`
-* Green Light Background: `#148660`
+* Dark Purple: `#9F22C7`
+* Light Purple: `#CA71E7`
+* Light Green: `#2DEDA5`
+* Dark Green: `#148660`
 * White: `#F7F8FA`
 * Black: `#2F343D`
 
@@ -38,14 +38,14 @@ Their respective color codes are:
 
 These lighter shades of our brand colors serve as options for backgrounds and iconography, as well as other elements such as images and illustrations. These lighter shades of our brand colors serve as options for backgrounds and iconography, as well as other elements such as images and illustrations.
 
-![](<../../.gitbook/assets/image (658).png>)
+![](<../../.gitbook/assets/image (624).png>)
 
 Their respective color codes are:
 
-* Purple Light Background:  `#FEECEF`
-* Purple Dark Background: `#E8F1FE`
-* Green Dark Background: `#F5E9F9`
-* Green Light Background: `#EAFCF6`
+* Red for backgrounds: `#FEECEF`
+* Blue for backgrounds: `#E8F1FE`
+* Purple for backgrounds: `#F5E9F9`
+* Green for backgrounds: `#EAFCF6`
 
 ### Highlight Shades:
 
@@ -55,7 +55,7 @@ These gradients are a gradient version of the supporting colors and should only 
 
 ![Their respective color codes are:](<../../.gitbook/assets/image (678).png>)
 
-* Purple Light Background:  `#FEECEF` to`#FFFFFF`
-* Purple Dark Background: `#E8F1FE` to`#FFFFFF`
-* Green Dark Background: `#F5E9F9` to`#FFFFFF`
-* Green Light Background: `#EAFCF6` to`#FFFFFF`
+* Light red highlight: `#FEECEF` to`#FFFFFF`
+* Light blue highlight: `#E8F1FE` to`#FFFFFF`
+* Light purple highlight: `#F5E9F9` to`#FFFFFF`
+* Light green highlight: `#EAFCF6` to`#FFFFFF`

@@ -1,35 +1,22 @@
 ---
-description: Here you will find Guidelines about Rocket.Chat's Brand
+description: A brief intro to our Brand Guidelines
 ---
 
 # Brand and Visual Guidelines
 
-## Brand Positioning
+## What are Brand Guidelines?
 
-### Golden Circle
+Our brand guidelines are a collection of information, assets, and overall advice to help you by providing some guidance on what our brand consists of, feels like and looks like.
 
-![](<../../.gitbook/assets/Group 85.png>)
+These guidelines will be touching on the following topics:
 
-### Our Values
+* [Logo](logo.md)&#x20;
+* [Typography](typography.md)&#x20;
+* [Colors](colors.md)
+* [Patterns](patterns.md)
+* [Iconography](iconography.md)
+* [Photos](photos.md)
+* [Brand usage examples](brand-usage-examples.md)
+* [Media kit](compositionsed.md)
 
-![](<../../.gitbook/assets/Group 98.png>)
-
-### Brand Product Personas
-
-![](<../../.gitbook/assets/Group 99.png>)
-
-### Brand Idea
-
-![](<../../.gitbook/assets/RocketScience creates Magic.png>)
-
-### Emotional Qualities
-
-![](<../../.gitbook/assets/Group 71.png>)
-
-### Functional Qualities
-
-![](<../../.gitbook/assets/Group 87.png>)
-
-### Features and Attributes
-
-![](<../../.gitbook/assets/Group 73.png>)
+Make use of this guide anytime you feel unsure of which visual path to take when producing content regarding rocket.chat.
