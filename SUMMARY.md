@@ -77,6 +77,7 @@
     * [Supported NodeJs Version](quick-start/environment-configuration/node-configuration/supported-nodejs-version.md)
     * [Runtime Configuration](quick-start/environment-configuration/node-configuration/runtime-configuration.md)
   * [MongoDB Configuration](quick-start/environment-configuration/mongodb-configuration.md)
+    * [MongoDB URI Authentication](quick-start/environment-configuration/mongodb-configuration/mongodb-uri-authentication.md)
     * [Passing extra options to the Mongo driver](quick-start/installing-and-updating/other-deployment-methods/manual-installation/extras/mongo-options.md)
     * [Configure a replica set for MongoDB](quick-start/installing-and-updating/other-deployment-methods/manual-installation/extras/mongo-replicas.md)
     * [Migrating database from Meteor built in MongoDB](quick-start/installing-and-updating/other-deployment-methods/manual-installation/extras/migrating-meteor-mongo.md)
