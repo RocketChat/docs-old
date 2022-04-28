@@ -123,7 +123,7 @@ Lists should have consistent indentation, usually this rule will be triggered be
 * Item 1
     * Nested Item 1
     * Nested Item 2
-    * Nested Item 3
+    * Nested Item 3 --->Aligned
 ```
 
 ### MD006 - Consider starting bulleted lists at the beginning of the line
