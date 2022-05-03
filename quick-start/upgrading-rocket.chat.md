@@ -1,12 +1,14 @@
 # Upgrading Rocket.Chat
 
-Rocket.Chat ships out updates frequently, to fix little bugs, address security issues or make small tweaks on a particular version of the app. All these to improve and help keep the application functional.
+Rocket.Chat ships updates frequently to introduce new capabilities, fix bugs and in some cases address potential security issues. Each of these updates improves Rocket.Chat to provide valuable and secure capabilities to our users.
 
 Upgrade on the other hand is a complete move to another version and is performed less frequently. A few reasons you may want to upgrade your workspace can be:
 
 * Improvements in performance and stability
 * Resolve the potential problems by fixing bugs and errors
 * Enjoy new features, experiences and functionalities
+
+Workspace admins should monitor new releases and our release notes [here ](https://github.com/RocketChat/Rocket.Chat/releases)to determine whether updates should be applied to their workspace. We recommend that workspaces are kept current with Rocket.Chat releases.
 
 {% hint style="info" %}
 As of the time of this writing, the current version of Rocket.Chat is [`4.6.3`](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.6.3)`using Node version 14.18.3`
@@ -18,23 +20,18 @@ For a successful upgrade, it is recommended not to skip any major version. That 
 This will prevent a couple of issues.
 {% endhint %}
 
-
-
 <details>
 
 <summary>Upgrading Rocket.Chat on Docker</summary>
 
-To upgrade your Rocket.Chat setup on Docker, it is recommended you backup your data first if you don't have persistent volume for all your data.
+Assuming you followed our installation guide on installing with [Docker and Docker Compose](installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/), to upgrade the `rocketchat` docker image to the latest version, you can use the following commands. Your data should not be affected by this, since it's located in the `mongo` image.
 
-1. Stop container by running:\
-   &#x20;`docker stop <name_or_id>`
-2. Delete container:\
-   `docker rm <name_or_id>`
-3. Delete image `docker rmi <name_image>`
-4. Create or download the latest container:\
-   `docker create <name_or_id>`
-5. Start container:\
-   `docker start <name_or_id>`
+```
+docker pull registry.rocket.chat/rocketchat/rocket.chat:latest
+docker-compose stop rocketchat
+docker-compose rm rocketchat
+docker-compose up -d rocketchat
+```
 
 </details>
 
