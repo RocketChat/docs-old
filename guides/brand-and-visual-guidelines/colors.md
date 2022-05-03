@@ -16,7 +16,7 @@ Red is a primary color along with blue and both should be prioritized in their u
 
 Their respective color codes are:
 
-* Red: <mark style="color:red;">`#F545C`</mark>
+* Red: <mark style="color:red;">`#F5455C`</mark>
 * Blue: <mark style="color:blue;">`#1D74F5`</mark>
 
 ### Secondary
