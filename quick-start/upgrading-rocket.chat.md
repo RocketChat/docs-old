@@ -2,15 +2,9 @@
 
 Rocket.Chat ships updates frequently to introduce new capabilities, fix bugs and in some cases address potential security issues. Each of these updates improves Rocket.Chat to provide valuable and secure capabilities to our users.
 
-Upgrade on the other hand is a complete move to another version and is performed less frequently. A few reasons you may want to upgrade your workspace can be:
-
-* Improvements in performance and stability
-* Resolve the potential problems by fixing bugs and errors
-* Enjoy new features, experiences and functionalities
-
 Workspace admins should monitor new releases and our release notes [here ](https://github.com/RocketChat/Rocket.Chat/releases)to determine whether updates should be applied to their workspace. We recommend that workspaces are kept current with Rocket.Chat releases.
 
-{% hint style="info" %}
+{% hint style="success" %}
 As of the time of this writing, the current version of Rocket.Chat is [`4.6.3`](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.6.3)`using Node version 14.18.3`
 {% endhint %}
 
