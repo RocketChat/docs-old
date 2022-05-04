@@ -1,6 +1,8 @@
-# Does not have a Workspace
+# Does not have a Registered Workspace
 
 If you do not have your workspace registered on the cloud already, you can get it set up and make use of the Enterprise Edition Trial.
+
+If you have a workspace registered, see this guide on how to apply enterprise trial [https://docs.rocket.chat/guides/enterprise-edition-trial/has-workspace](https://docs.rocket.chat/guides/enterprise-edition-trial/has-workspace)
 
 * Go to [https://cloud.rocket.chat/trial/ee ](https://cloud.rocket.chat/trial/ee)and create a [Rocket.Chat cloud](../../rocket.chat-saas/cloud-account/) account or sign in if you already have one.
 
@@ -32,7 +34,7 @@ The guide as follow will show the next steps to apply your EE trial license afte
 
 ![](<../../.gitbook/assets/image (673) (2).png>)
 
-* After copying the token and head back to your server's **Administration** > **Admin Panel** > **Connectivity Services**  Click on the **Register Workspace**&#x20;
+* After copying the token and head back to your server's **Administration** > **Admin Panel** > **Connectivity Services** Click on the **Register Workspace**
 
 ![](<../../.gitbook/assets/image (653).png>)
 
@@ -56,7 +58,7 @@ To connect with an air-gapped computer or a server without internet access, sele
 
 ![](<../../.gitbook/assets/image (670) (2).png>)
 
-* Back on your server, select the Register Offline option.&#x20;
+* Back on your server, select the Register Offline option.
 
 ![](<../../.gitbook/assets/image (660) (1) (1) (1).png>)
 

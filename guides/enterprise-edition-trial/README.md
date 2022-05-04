@@ -19,13 +19,13 @@ Assuming you have your Rocket.Chat server running following any of our guides on
 This guide is done with a local instance of the server running on [http://localhost:3000](http://localhost:3000).
 {% endhint %}
 
-It is required to accept **Cloud Service Privacy Terms Agreement** before proceeding.&#x20;
+It is required to accept **Cloud Service Privacy Terms Agreement** before proceeding.
 
 This can be done at the **Administration** panel, navigate or search for **Setup Wizard** and accept the **Cloud Service Privacy Terms Agreement** and hit **Save changes**.
 
 ![](<../../.gitbook/assets/image (643) (1) (1).png>)
 
-Below is guide to follow on how to get the Enterprise Edition Trial if you **** [**have a workspace**](has-workspace.md), **** [**not have a workspace**](does-not-have-a-workspace.md) and also how to [**extend EE Trial**](extending-trial.md)****
+Below is guide to follow on how to get the Enterprise Edition Trial if you [**have a workspace**](has-workspace.md), [**not have a workspace**](does-not-have-a-workspace.md) and also how to [**extend EE Trial**](extending-trial.md)
 
 Visit this section on how to use the Rocket.Chat Cloud
 
