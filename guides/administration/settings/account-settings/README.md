@@ -4,7 +4,7 @@ In this section, you can modify various settings about the accounts of the users
 
 In this guide, we will go over all settings in the _Accounts_ Section.
 
-To acsess this setting, go to: **Administration** > **Settings** > **Accounts**
+To access this setting, go to: **Administration** > **Settings** > **Accounts**
 
 ![](<../../../../.gitbook/assets/administration >)
 
@@ -137,13 +137,39 @@ The various settings that fall under this have simple descriptions for understan
 * **Use DNS Domain Check**: When this is set to true, users won't be able to register with invalid domains.
 * **Registration Form**: This will change how the registration form is presented. Currently, there are three options:
 * Public: The form will be public and anyone will be able to access it.
+* **Send email to user when user is activated**: When enabled, an email will be sent to the user after their account has been activated.
+* **Send email to user when user is deactivated**: If set to `true`, users will get an email after account deactivation.
+* **Default username prefix suggestion**: This is the prefix that will be suggested when a user is creating a username. Default is `user`.
+* **Require Name For Signup**: If this is set to true, the name of the user will be required to create an account.
+* **Require Password Confirmation**: If this is set to true, the user will have to input his password twice when registering.
+* **Email Verification**: If this is set to true, users will have to confirm their email via a confirmation email sent to their email. (For this setting to work, the SMTP settings must be already set up. See [Email Configuration](../email/setup.md))
+* **Manually Approve New Users**: If this is set to true, new users will have to wait for a user with the `view-user-administration` permission to approve their account before using Rocket.Chat.
+* **Allowed Domains List**: This will block emails with different domains than the ones on this list. For example, You can add specific domains (gmail.com, yahoo.com) in the allowed list and restrict emails from any other domains that are not mentioned. You will receive an error message when the domain of the email address you’re trying to add is not in your allowed domains.
+
+![Allowed Domain List](<../../../../.gitbook/assets/Allowed Domains (1).png>)
 
 ![Public](../../../../.gitbook/assets/publicform.png)
 
+* **Blocked Domains List**: This will block emails with domains that are on this list. For example, if you add the domain (e.g. facebook.com) that you want to block, then all emails at that domain will be blocked.
 * Disabled: The form will be disabled and users won't be able to register through it.
+
+![Blocked Domain List](<../../../../.gitbook/assets/Blocked Domains.png>)
 
 ![Disabled](../../../../.gitbook/assets/disabledform.png)
 
+* **Use Default Blocked Domains List**: Will block the email domains listed [here](https://github.com/RocketChat/Rocket.Chat/blob/develop/app/lib/server/lib/defaultBlockedDomainsList.js)
+* **Use DNS Domain Check**: When this is set to true, users won't be able to register with invalid domains.
+* **Registration Form**: This will change how the registration form is presented. Currently, there are 3 options:
+  * Public: The form will be public and anyone will be able to access it;
+  * Disabled: The form will be disabled and users won't be able to register through it;
+  * Secret URL: The form will be only accessible using a specific URL;
+* **Registration Form Secret URL**: String to be added to the secret URL. Is recommended to use a random string for that. Example: `https://open.rocket.chat/register/[secret_hash]`.
+* **Invite URL Type**: URL type can either be direct or through a proxy.
+* **Registration Form Link Replacement Text**: Text to be shown in place of the registration form when the registration form is disabled.
+* **Registration with Authentication Services**: Set this to true to allow registration with third-party authentication services like Google or Twitter.
+* **Default Roles for Authentication Services**: Default roles users will be given when registering through authentication services.
+* **Password Reset**: Set this to true to allow users to reset their password.
+* **Custom Fields**: A valid `JSON` of key values pairs of additional fields to be added during user registration.
 * Secret URL: The form will be only accessible using a specific URL.
 
 ![Secret URL](../../../../.gitbook/assets/secreturlform.png)
