@@ -33,7 +33,7 @@ Once Rocket.Chat media channel (Audio video channel) or VoIP is in place, our En
 |                                   <mark style="color:blue;">Inbound calls</mark>                                   |       **✓**       |        **✓**       |
 |                                   <mark style="color:blue;">Outbound calls</mark>                                  |       **x**       |    Coming soon     |
 |                                   <mark style="color:blue;">Call transfer</mark>                                   |       **x**       |     Coming soon    |
-|                                                 Call duration time                                                 |       **x**       |     Coming soon    |
+|                                <mark style="color:blue;">Call duration time</mark>                                 |       **x**       |     Coming soon    |
 |                                   <mark style="color:blue;">Queue monitors</mark>                                  |       **x**       |        **✓**       |
 |                                    <mark style="color:blue;">Call history</mark>                                   |       **✓**       |        **✓**       |
 |                                   <mark style="color:blue;">Click to call</mark>                                   |       **x**       |        **✓**       |
