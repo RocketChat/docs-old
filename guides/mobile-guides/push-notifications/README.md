@@ -9,7 +9,7 @@ There are two ways to set up push notifications with Rocket.Chat:
 
 If you and your users intend to use the official Rocket.Chat mobile applications; you need to choose this option.
 
-To allow push notifications to be received on our official mobile application by any server, we had to establish a push gateway containing our keys. In doing so, we protect our secret keys required to send through Apple\(APN\) and Google\(FCM\) to send you and your users notifications.
+To allow push notifications to be received on our official mobile application by any server, we had to establish a push gateway containing our keys. In doing so, we protect our secret keys required to send through Apple(APN) and Google(FCM) to send you and your users notifications.
 
 ## Self Configured
 
@@ -27,7 +27,7 @@ The Rocket.Chat native application for Android supports the FCM system. Here's h
 
 1. Create a Firebase project in the Firebase console if you don't already have one. Click Add project. If you already have an existing Google project associated with your mobile app, select it from the Project name drop-down menu. Otherwise, enter a project name to create a new project.
 2. _Optional:_ Edit your Project ID. Your project is given a unique ID automatically, and it's used in publicly visible Firebase features such as database URLs and your Firebase Hosting subdomain. You can change it now if you want to use a specific subdomain.
-3. Follow the remaining setup steps and click Create a project \(or Add Firebase if you're using an existing project\) to begin provisioning resources for your project. This typically takes a few minutes. When the process completes, you'll be taken to the project overview.
+3. Follow the remaining setup steps and click Create a project (or Add Firebase if you're using an existing project) to begin provisioning resources for your project. This typically takes a few minutes. When the process completes, you'll be taken to the project overview.
 
 Now that you have a project, you can add your Android app to it:
 
@@ -44,9 +44,13 @@ For iOS, you need an apple developer account that costs US$99 per year. Follow i
 
 * Go to "Administration", then "Push"
 * Set the Enable Gateway to False, then plug the information obtained from Apple and Google
-* Restart server \(without this, it will not work\)
+* Restart server (without this, it will not work)
 
 Now you should be able to send a text message. Make sure that you have logged in to the server once and then closed the app. You should see a test notification after you pressed the send button.
+
+{% hint style="info" %}
+You can find more information on push notifications configuration [here](https://developer.rocket.chat/mobile-app/mobile-app-white-labelling/configuring-push-notifications).
+{% endhint %}
 
 ## Privacy
 
@@ -71,7 +75,6 @@ If both settings are set to "FALSE", the user will receive a push notification w
 If you are getting this message and are using our push gateway, please make sure:
 
 1. Your server version is greater or equal to 0.74.3
-2. Registered \(you can check this by going to `http://yourserver/admin/cloud`\)
+2. Registered (you can check this by going to `http://yourserver/admin/cloud`)
 
 _Thanks to @lvh1 and @lunitic for starting this doc_
-
