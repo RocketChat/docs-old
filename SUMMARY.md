@@ -545,6 +545,7 @@
 * [Privacy Policy](legal/privacy/README.md)
   * [Data Processing Agreement](legal/privacy/data-processing-agreement.md)
   * [Subprocessors](legal/privacy/subprocessors.md)
+* [Privacy Policy Facebook Messenger](legal/privacy-policy-facebook-messenger.md)
 * [Code of Conduct for our services](legal/code-of-conduct.md)
 * [GDPR](legal/gdpr.md)
 * [Censorship and Harmful Content](legal/censorship-and-harmful-content.md)
