@@ -2,19 +2,19 @@
 
 Search Telegram in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
 
-![](<../../../../../.gitbook/assets/image (532).png>)
+![Telegram in the Apps menu ](<../../../../../.gitbook/assets/image (532).png>)
 
 Click open your Telegram app to see the settings available to you as an administrator.
 
 The following are the settings available:
 
-![](<../../../../../.gitbook/assets/2022-02-01\_16-04-42 (1).png>)
+![Telegram app settings](<../../../../../.gitbook/assets/2022-02-01\_16-04-42 (1).png>)
 
 1. **Bot Token** sent by Telegram during Bot user activation. If you need help creating your telegram bot token, you can find the [instructions](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/telegram-app/telegram-app-configuration/generate-your-telegram-bot-token) here.
 2. You can set a **Default Department**. Only the agents of this department are able to serve Telegram conversations
 
 {% hint style="warning" %}
-If you don't have a department set up you won't receive any message.
+If you don't have a department set up you won't receive any messages.
 {% endhint %}
 
 {% hint style="info" %}
@@ -43,12 +43,12 @@ Only the agents of that particular department are able to see and take the chats
 
 You can also use quick reply buttons to send/receive quick replies on telegram.
 
-![](<../../../../../.gitbook/assets/telegram quick replies .png>)
+![Quick repiles](<../../../../../.gitbook/assets/telegram quick replies .png>)
 
 {% hint style="info" %}
-**If you don't yet have a chatbot solution ready to connect to Omnichannel or are interested in discovering** [**Rocket.Chat**](http://rocket.chat) **natively compatible solutions such as** [**Dialogflow**](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/dialogflow-app) **or** [**RASA**](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/rasa-app)**.  Check out our** [**marketplace**](https://rocket.chat/marketplace) **and learn more!**
+**If you don't yet have a chatbot solution ready to connect to Omnichannel or are interested in discovering** [**Rocket.Chat**](http://rocket.chat) **natively compatible solutions such as** [**Dialogflow**](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/dialogflow-app) **or** [**RASA**](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/rasa-app)**. Check out our** [**marketplace**](https://rocket.chat/marketplace) **and learn more!**
 {% endhint %}
 
-You also need to have [**Assign new conversations to bot agent**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#routing) **** toggled on for the setting to work&#x20;
+You can also have [**Assign new conversations to bot agent**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#routing) \*\*\*\* toggled on for the routing conversation to the bot agent if any. Please note that it’s an optional configuration, but for companies that have a chatbot user serving omnichannel conversations that’s a required setting.
 
-![](<../../../../../.gitbook/assets/bot agent .png>)
+![Telegram routing to bot agent](<../../../../../.gitbook/assets/bot agent .png>)
