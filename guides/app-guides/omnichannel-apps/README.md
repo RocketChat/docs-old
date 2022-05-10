@@ -1,12 +1,11 @@
 # Omnichannel Apps
 
-Omnichannel apps give consumers a choice to engage with you on their favorite channels like:&#x20;
+Omnichannel apps give consumers a choice to engage with you on their favorite channels like:
 
-* SMS&#x20;
+* SMS
 * Email
 * Voice
 * WhatsApp
-* WeChat
 * Telegram
 * Facebook Messenger
 
