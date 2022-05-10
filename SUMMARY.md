@@ -451,6 +451,7 @@
     * [Confluence Server](guides/app-guides/atlassian/confluence-server-integration.md)
     * [Jira Server](guides/app-guides/atlassian/jira-server-integration.md)
   * [Zoom](guides/app-guides/zoom.md)
+  * [Trello](guides/app-guides/trello.md)
 * [Mobile Guides](guides/mobile-guides/README.md)
   * [Push Notifications](guides/mobile-guides/push-notifications/README.md)
     * [Push Notifications User Guide](guides/mobile-guides/push-notifications/push-notifications-user-guide.md)
