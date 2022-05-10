@@ -45,16 +45,51 @@ Now that you have the app installed on your server, it is time to configure the 
 
 ![](<../../.gitbook/assets/image (682).png>)
 
-* Head over to [https://trello.com/app-key/](https://trello.com/app-key/). Login if needed and accept the terms to see your Trello API key
+* Head over to  [https://trello.com](https://trello.com/app-key/) and login
+* Visit [https://trello.com/app-key/](https://trello.com/app-key/) and accept the terms to see your Trello API key
 * Copy the server's url given by the `trello.bot` and paste in the **New Allowed Origin** field on your Trello api page then **Submit**
 
 ![](<../../.gitbook/assets/image (697).png>)
 
-* Next copy the `API Key` and `OAuth Secret` from the Trello page. It is needed to complete the configuration on the Trello app's page within Rocket.Chat
+* Next copy the `API Key` and `OAuth Secret` from the Trello page. It is needed to complete the configuration on the Trello app's configuration page within Rocket.Chat
 * With the credentials provided, hit Save changes to commit
 
 ![](<../../.gitbook/assets/image (646).png>)
 
-* After the setup, all you have to do is authorize the user so it can connect and interact with the app. This is done by typing the slash command `/trello authorize` in the `trello.bot` chat and **Authorize** the app to your Trello account.
+* After the setup, all you have to do is authorize the user so it can connect and interact with the app. This is done by typing the slash command `/trello authorize` in the `trello.bot` chat and **Authenticate** the app to your Trello account.
+
+![](<../../.gitbook/assets/image (595).png>)
+
+* A new window is opened click **Allow** in the prompt to grant all the permissions needed to run the Trello App integration smoothly.
+
+![](<../../.gitbook/assets/image (34).png>)
+
+* When succeed, you get a confirmation message from the `trello.bot`
+
+![](<../../.gitbook/assets/image (48).png>)
 
 When all that is done, your Trello app is ready to be used.
+
+## Linking Trello Board to Rocket.Chat Channel
+
+After configuring the Trello App it is time to link your Trello boards for monitoring in any Rocket.Chat channel of your choice.
+
+{% hint style="warning" %}
+Trello boards can only be linked to Channels. Teams, Discussions or Direct Messages are not supported.
+{% endhint %}
+
+{% hint style="info" %}
+You can always run the slash command `/trello help` from anywhere to get help.
+{% endhint %}
+
+* Go ahead and [create a channel](../user-guides/rooms/channels/create-a-new-channel.md) where you want to receive your Trello board notifications in. Skip this step if you already have one
+* Open up your desired channel and type the slash command `/trello link` to link a Trello board
+* A list of Trello boards linked to your account is shown. Select a board of your choice and **Link**
+
+![](<../../.gitbook/assets/image (588).png>)
+
+* After linking, any activity performed on Trello, will be notified in the corresponding channel
+
+![](<../../.gitbook/assets/image (109).png>)
+
+![](<../../.gitbook/assets/image (236).png>)
