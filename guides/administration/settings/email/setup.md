@@ -14,18 +14,20 @@ Go to `Administration settings > Email > SMTP`.
 
 Enter:
 
-* Your SMTP server host name \(e.g. `mail.example.com`\)
-* The port \(usually 587 for modern secured SMTP servers\)
+* Protocol
+* Your SMTP server host name (e.g. `mail.example.com`)
+* The port (usually 587 for modern secured SMTP servers)
+* IgnoreTLS - If this option is enabled, TLS will not be used.
+* Pool - Enable this option to use pooled connections, otherwise a new connection is created for every mail.
 * Your credentials
 * A name and email to appear in the `From` field of the emails
 
 Once completed, click **Save changes**.
 
-![SMTP server configuration.](https://user-images.githubusercontent.com/20342522/53436704-a4989080-39b0-11e9-8ea6-f320affc798f.png)
+![SMTP Configuration](<../../../../.gitbook/assets/SMTP (1).png>)
 
 ## Test Changes
 
-Go back into the `SMTP settings` and click **Test SMTP settings**. You should receive an email within a few minutes. If you do not, check the logs \(`Administration > View Logs`\) to see what happened.
+Go back into the `SMTP settings` and click **Test SMTP settings**. You should receive an email within a few minutes. If you do not, check the logs (`Administration > View Logs`) to see what happened.
 
 **Note**: Make sure `Debug logging` is on; the default is to log information only.
-
