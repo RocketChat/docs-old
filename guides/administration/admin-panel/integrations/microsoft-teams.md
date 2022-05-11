@@ -16,6 +16,10 @@ _**Note:** I would advise to create New Team so not all members in your organisa
    * Assign **Post as** (Create Bot user and add bot the above mentioned Channel)
    * Copy and paste below script in **Script** section
 
+{% hint style="info" %}
+The number 16 in the following script (`request.content.text.slice(16)`) should be updated to **`9 + MS Teams bot username length`**. This command is used to remove the bot tag from the text received from MS Team so that only the message is displayed in Rocket.Chat (e.g. if the bot username in MS Teams is rocket.bot, which is 10 characters long, then 16 should be updated to 19 = 9 + 10).
+{% endhint %}
+
 ```javascript
 class Script {
     process_incoming_request({ request }) {
