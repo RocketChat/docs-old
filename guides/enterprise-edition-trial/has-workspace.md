@@ -1,4 +1,4 @@
-# Has Workspace
+# Has Registered Workspace
 
 If you have a Rocket.Chat workspace linked to the cloud already, there is a possibility for you to apply the Enterprise Trial on it, follow this simple procedure to get it done.
 
@@ -6,7 +6,7 @@ When setting up a new Rocket.Chat instance, you can choose to automatically regi
 
 ![](<../../.gitbook/assets/image (665) (2).png>)
 
-* Now Go to the  [Rocket.Chat cloud Portal](https://cloud.rocket.chat/home) **Workspace** where all your connected instances are listed
+* Now Go to the [Rocket.Chat cloud Portal](https://cloud.rocket.chat/home) **Workspace** where all your connected instances are listed
 * Click on **Apply Trial** to continue
 
 ![](<../../.gitbook/assets/image (637) (1).png>)
@@ -17,4 +17,4 @@ When setting up a new Rocket.Chat instance, you can choose to automatically regi
 
 * Your workspace will not be tagged with status active.
 
-![](<../../.gitbook/assets/image (636) (1).png>)
+![](<../../.gitbook/assets/image (253).png>)
