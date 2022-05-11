@@ -65,11 +65,11 @@ While using our Service, we may ask you to provide us with certain personally id
 * First name and last name
 * Cookies and Usage Data
 
-We may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you, if you have provided consent to this processing or if we can base this processing on a legitimate interest that is not overridden by your fundamental rights. You may in the future withdraw that consent or object to receiving any, or all, of these communications from us by following the unsubscribe link or instructions provided in any email we send or by contacting us.
+We may use your Personal Data to contact you with newsletters, marketing or promotional materials, and other information that may be of interest to you, if you have provided consent to this processing or if we can base this processing on a legitimate interest that is not overridden by your fundamental rights. You may in the future withdraw that consent or object to receiving any, or all, of these communications from us by following the unsubscribe link or instructions provided in any email we send or by contacting us.
 
 #### Account Data
 
-Some Services may allow or require that you register for a personalized account. Account data may include in addition your account name, authentication information, registration date, contact information, payment information and any other information associated with your account.
+Some Services may allow or require that you register for a personalized account. Account data may include in addition your account name, authentication information, registration date, contact information, payment information, and any other information associated with your account.
 
 #### Usage Data
 
@@ -79,7 +79,7 @@ This Usage Data may include information such as your computer's Internet Protoco
 
 When you access the Service by or through a mobile device, this Usage Data may include information such as the type of mobile device you use, the IP address of your mobile device, your mobile operating system, the app version, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.
 
-As a byproduct of the usage data within a Rocket.Chat instance, Administrators may chose to share aggregated and therefore anonymous, non-personal data with us to help us learn more about how our product is being used. This setting is described [here](https://docs.rocket.chat/guides/administrator-guides/general#reporting). The information shared is the same information as is shown on the "info"-page of the administration panel of an instance. E.g. this statistics sharing would transmit the total # of channels, but it would not transmit the actual channel names, and so on, preserving privacy of your workspace. This is completely optional to use and can be activated and deactivated any time.
+As a byproduct of the usage data within a Rocket.Chat instance, Administrators may choose to share aggregated and therefore anonymous, non-personal data with us to help us learn more about how our product is being used. This setting is described [here](https://docs.rocket.chat/guides/administrator-guides/general#reporting). The information shared is the same information as is shown on the "info"-page of the administration panel of an instance. E.g. this statistics sharing would transmit the total # of channels, but it would not transmit the actual channel names, and so on, preserving the privacy of your workspace. This is completely optional to use and can be activated and deactivated at any time.
 
 #### Location Data
 
@@ -89,9 +89,9 @@ You can enable or disable location services when you use our Service at any time
 
 #### App Data
 
-When you use the Marketplace, you may choose to install Apps provided by Rocket.Chat. These Apps process data from your instance of Rocket.Chat and therefore nonpersonal data, such as software version, amount of users, and similar. Depending on the purpose and your actual usage of the App (e.g. enabling certain features), Personal Data may however be processed. E.g. you enable an integration, which processes your users´information. The description of the App will make the types of personal data sufficiently clear as well as any potential deviations from this policy.
+When you use the Marketplace, you may choose to install Apps provided by Rocket.Chat. These Apps process data from your instance of Rocket.Chat and therefore nonpersonal data, such as software version, amount of users, and similar. Depending on the purpose and your actual usage of the App (e.g. enabling certain features), Personal Data may however be processed. E.g. you enable an integration, which processes your users' information. The description of the App will make the types of personal data sufficiently clear as well as any potential deviations from this policy.
 
-For Third Party Apps on the Marketplace, the Vendor will provide you with a specific privacy policy that governs his Third Party App.
+For Third-Party Apps on the Marketplace, the Vendor will provide you with a specific privacy policy that governs his Third-Party App.
 
 #### Content you provide
 
@@ -99,9 +99,9 @@ When you use our Services you may provide content into that service (e.g. upload
 
 #### Tracking & Cookies Data
 
-We use cookies and similar tracking technologies to track the activity on our Service and hold certain information. We DO NOT track activity in your self-managed instances. We regularly do monitor aggregated activity data on our infrastructure, but it is not tracking of individual users in the sense of this paragraph, which only occurs when we have a legitimate interest to do so (e.g. for security and compliance purposes). We do perform regular tracking on our community server.
+We use cookies and similar tracking technologies to track the activity on our Service and hold certain information. We DO NOT track activity in your self-managed instances. We regularly monitor aggregated activity data on our infrastructure, but it is not tracking of individual users in the sense of this paragraph, which only occurs when we have a legitimate interest to do so (e.g. for security and compliance purposes). We do perform regular tracking on our community server.
 
-Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.
+Cookies are files with a small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.
 
 You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.
 
@@ -113,9 +113,9 @@ Examples of Cookies we use:
 
 ### Distinction of data collection between Self Managed Workspaces and Hosted Workspaces
 
-The following paragraph applies to data processing in Rocket.Chat workspaces and is for clarification purposes only. Self Managed workspaces and workspaces hosted by us differ in the kind of data we are processing from you, because in case of our hosted offering, all data put into the workspaces is technically processed on our infrastructure.
+The following paragraph applies to data processing in Rocket.Chat workspaces and is for clarification purposes only. Self Managed workspaces and workspaces hosted by us differ in the kind of data we are processing from you because, in the case of our hosted offering, all data put into the workspaces is technically processed on our infrastructure.
 
-There is also a difference between **registered**, self managed workspaces (which consume services from us) and **unregistered**, self managed workspaces.
+There is also a difference between **registered**, self-managed workspaces (which consume services from us) and **unregistered**, self-managed workspaces.
 
 See the following table for a general distinction between the data that is processed in each case. Keep in mind that this can differ in individual circumstances, such as cases where apps are installed on unregistered workspaces via workarounds.
 
