@@ -8,7 +8,7 @@ To access this setting, go to: **Administration** > **Settings** > **Accounts**
 
 ![](<../../../../.gitbook/assets/administration >)
 
-![](<../../../../.gitbook/assets/image (639).png>)
+![Admin Account Settings](../../../../.gitbook/assets/accounts-admin.png)
 
 These are the basic Account configuration settings. Most of the options are either `True` or `False` depending on whether you want the setting enabled or not.
 
@@ -18,17 +18,22 @@ These are the basic Account configuration settings. Most of the options are eith
 * **Allow User Profile Change**: Setting this to false will block users from changing the information on their profile.
 * **Allow User Avatar Change**: Setting this to false will block users from changing their avatar.
 * **Allow Name Change**: Setting this to false will block users from changing their name.
-* **Allow User Username Change**: Setting this to false will block users from changing their usernames.
+* **Allow Custom Status Message:** Setting this to true will allow users to create the custom status message.
+* **Allow Username Change**: Setting this to false will block users from changing their usernames.
 * **Allow User Email Change**: Setting this to false will block users from changing their email.
 * **Allow User Password Change**: Setting this to false will block users from changing their password.
+* **Allow Password Change for OAuth Users:** Setting this to false will block OAuth users from changing their password.
+* **Allow Email Notifications:** Setting this to true will enable the users to receive email notifications.
 * **Custom Fields to Show in User Info**: Other fields to be displayed in the user info. Please see more at [Custom fields](custom-fields.md).
 * **Login Expiration in Days**: After this number of days of inactivity, the user will be logged out.
 * **Show Default Login Form**: Setting this to false will remove the login form from the login screen. This setting is useful when you are using a third-party login system.
 * **Placeholder for email or username login field**: This will change the placeholder for the _email or username_ field on the login screen.
 * **Placeholder for password login field**: This will change the placeholder for the _password_ field on the login screen.
+* **Confirm Placeholder for Password Login Field:** This will confirm the placeholder for the password field on the login screen.
 * **Forget user session on window close**: This will log out users when they close the window running Rocket.Chat.
-* **Fields to Consider in Search**: Specifies the fields to be considered when searching for users. Default is _username, name_.
+* **Fields to Consider in Search**: Specifies the fields to be considered when searching for users. Default is _username, name, bio, nickname._
 * **Default Directory Listing**: This will set the default directory to be listed.
+* **Allow Invisible Status Option:** Setting this option will allow users to set the invisible status.&#x20;
 
 Clicking on the `Reset` button will reset all these basic configurations back to their default value.
 
@@ -47,10 +52,9 @@ Clicking on the `Reset` button will reset all these basic configurations back to
 
 * **Enable Auto-Away**: When set to True, it will automatically change the User's status to Away they exit Rocket.Chat.
 * **Idle Time Limit**: Sets how long _in milliseconds_ for a User to go idle.
-* **Notification Duration**: This will set how long _in milliseconds_ for a notification to be displayed.
 * **Require Interaction to Dismiss Desktop Notification**: Enabling this will set the notification prompt active until the User interacts with it.
-* **Audio Notifications Default Alert**: A dropdown to select when to play the default audio notification. Default to _Mentions_.
 * **Desktop Notifications Default Alert**: Lets you set when the desktop notification alert is triggered. Default is _All messages_. This only concerns the groups and channels the user belongs to.
+* **Push Notifications Default Alert**: Setting this to allow the users to set whether they want to receive push notifications or not. Default is _All messages._
 * **Mobile Notifications Default Alert**: Sets when the default notification alert will play on mobile devices.
 * **Unread Tray Icon Alert**: Setting this to false will stop the unread tray icon from displaying.
 * **Use Emojis**: Setting this to false will disable the use of emojis.
@@ -61,26 +65,28 @@ Clicking on the `Reset` button will reset all these basic configurations back to
 * **Hide Usernames**: When enabled, it'll hide usernames in conversation rooms.
 * **Hide Roles**: When set to true, user roles like _admin_, and _moderator_ will not be shown in chat rooms.
 * **Hide Right Sidebar with Click**: Setting this true will give the ability for the right sidebar to be hidden.
-* **Hide Avatars**: Enabling this will hide user's avatar in chat.
+* **Display Avatars**: Setting this to true will display user's avatar in chat.
 * **Group by Type**: This lets you group conversations by type.
 * **Sidebar Channel List Mode**: Lets you choose from _Extended, Medium, Condensed_ how the sidebar should be.
-* **Hide Avatars in Sidebar**: Enabling this will disable avatars from showing at the sidebar.
+* **Display Avatars in Sidebar**: Enabling this will disable avatars from showing at the sidebar.
 * **Unread on top**: Setting this to true will display all unread messages at the top.
+* **Sort by:** Lets you sort the list by the user activity or an alphabetical order.
+* **Show thread messages in the main thread:**&#x20;
 * **Group favorites**: Setting this to false will disable favoriting groups.
-* **Enter key Behaviour**: Lets you configure the action of the Enter key.
-* **MessageBox View Mode**: Lets you select how message boxes appear.
-* **Offline Email Notifications**: Lets you set when users should receive email notifications.
+* **Enter key Behaviour**: Lets you configure the action of the Enter key. The available options are: Normal mode (send with Enter),Alternative mode (send with Enter+Ctrl/Alt/Shift/CMD)
+* **MessageBox View Mode**: Lets you select how message boxes appear. The available options are: Normal, Cozy and Compact.
+* **Offline Email Notifications**: Lets you set when users should receive email notifications. The available options are: Disabled and Every Mention/DM.
 * **New Room Notification**: Configures the notification when a new room is created/joined.
-* **New Message Notification**: Lets you select the notification for new messages.
+* **New Message Notification**: Lets you select the notification for new messages. The default options are: None and Default.
 * **Mute Focused Conversations**: When set to true, no notification will be sent for focused/open conversations.
 * **Notifications sound volume**: Lets you set the notification volume.
-* **Group discussions**: When set to true allows group discussion.
+* **Enable New Message Template**: Enable this setting to allow users to create new message template.
 
 ## Avatar
 
 * **Resize Avatar**: Set this to true to resize user avatars to a predefined size. You need ImageMagick or GraphicsMagick installed on your server for this feature to work.
 * **Avatar Size**: The desired size after the avatar resizing. The unit is pixels (px).
-* **Avatar External Provider URL**: Lets you set a URL from which avatars can be loaded.
+* **Avatar External Provider URL**: Lets you set a URL from which avatars can be loaded. Example: https://acme.com/api/v1/{username}
 * **Room Avatar External Provider URL**: The URL where room avatar will be loaded from.
 * **Avatar cache time**: This will set how long _in milliseconds_ you want users avatar to be cached.
 * **Block Unauthenticated Access to Avatars**: Enabling this will restrict access to users avatar for those that are not authenticated.
@@ -129,48 +135,24 @@ The various settings that fall under this have simple descriptions for understan
 * **Default username prefix suggestion**: This is the prefix that will be suggested when a user is creating a username. Default is `user`.
 * **Require Name For Signup**: If this is set to true, the name of the user will be required to create an account.
 * **Require Password Confirmation**: If this is set to true, the user will have to input his password twice when registering.
-* **Email Verification**: If this is set to true, users will have to confirm their email via a confirmation email sent to their email. (For this setting to work, the SMTP settings must be already set up. See [Email Configuration](../email/setup.md))
+* **Only allow verified users to login:** Enable this option only to allow the verified users to login.
+* **Verify Email for External Accounts**: If this is set to true, users will have to confirm their email via a confirmation email sent to their email. (For this setting to work, the SMTP settings must be already set up. See [Email Configuration](../email/setup.md))
 * **Manually Approve New Users**: If this is set to true, new users will have to wait for a user with the `view-user-administration` permission to approve their account before using Rocket.Chat.
 * **Allowed Domains List**: This will block emails with different domains than the ones on this list.
 * **Blocked Domains List**: This will block emails with domains that are on this list.
-* **Use Default Blocked Domains List**: Will block the email domains listed [here](https://github.com/RocketChat/Rocket.Chat/blob/develop/app/lib/server/lib/defaultBlockedDomainsList.js)
-* **Use DNS Domain Check**: When this is set to true, users won't be able to register with invalid domains.
-* **Registration Form**: This will change how the registration form is presented. Currently, there are three options:
-* Public: The form will be public and anyone will be able to access it.
-* **Send email to user when user is activated**: When enabled, an email will be sent to the user after their account has been activated.
-* **Send email to user when user is deactivated**: If set to `true`, users will get an email after account deactivation.
-* **Default username prefix suggestion**: This is the prefix that will be suggested when a user is creating a username. Default is `user`.
-* **Require Name For Signup**: If this is set to true, the name of the user will be required to create an account.
-* **Require Password Confirmation**: If this is set to true, the user will have to input his password twice when registering.
-* **Email Verification**: If this is set to true, users will have to confirm their email via a confirmation email sent to their email. (For this setting to work, the SMTP settings must be already set up. See [Email Configuration](../email/setup.md))
-* **Manually Approve New Users**: If this is set to true, new users will have to wait for a user with the `view-user-administration` permission to approve their account before using Rocket.Chat.
-* **Allowed Domains List**: This will block emails with different domains than the ones on this list. For example, You can add specific domains (gmail.com, yahoo.com) in the allowed list and restrict emails from any other domains that are not mentioned. You will receive an error message when the domain of the email address you’re trying to add is not in your allowed domains.
-
-![Allowed Domain List](<../../../../.gitbook/assets/Allowed Domains (1).png>)
-
-![Public](../../../../.gitbook/assets/publicform.png)
-
-* **Blocked Domains List**: This will block emails with domains that are on this list. For example, if you add the domain (e.g. facebook.com) that you want to block, then all emails at that domain will be blocked.
-* Disabled: The form will be disabled and users won't be able to register through it.
-
-![Blocked Domain List](<../../../../.gitbook/assets/Blocked Domains.png>)
-
-![Disabled](../../../../.gitbook/assets/disabledform.png)
-
+* **Blocked Username List:** This will block usernames that a
 * **Use Default Blocked Domains List**: Will block the email domains listed [here](https://github.com/RocketChat/Rocket.Chat/blob/develop/app/lib/server/lib/defaultBlockedDomainsList.js)
 * **Use DNS Domain Check**: When this is set to true, users won't be able to register with invalid domains.
 * **Registration Form**: This will change how the registration form is presented. Currently, there are 3 options:
   * Public: The form will be public and anyone will be able to access it;
-  * Disabled: The form will be disabled and users won't be able to register through it;
-  * Secret URL: The form will be only accessible using a specific URL;
-* **Registration Form Secret URL**: String to be added to the secret URL. Is recommended to use a random string for that. Example: `https://open.rocket.chat/register/[secret_hash]`.
-* **Invite URL Type**: URL type can either be direct or through a proxy.
-* **Registration Form Link Replacement Text**: Text to be shown in place of the registration form when the registration form is disabled.
-* **Registration with Authentication Services**: Set this to true to allow registration with third-party authentication services like Google or Twitter.
-* **Default Roles for Authentication Services**: Default roles users will be given when registering through authentication services.
-* **Password Reset**: Set this to true to allow users to reset their password.
-* **Custom Fields**: A valid `JSON` of key values pairs of additional fields to be added during user registration.
-* Secret URL: The form will be only accessible using a specific URL.
+
+![Public](../../../../.gitbook/assets/publicform.png)
+
+* Disabled: The form will be disabled and users won't be able to register through it.
+
+![Disabled](../../../../.gitbook/assets/disabledform.png)
+
+* Secret URL: The form will be only accessible using a specific URL;
 
 ![Secret URL](../../../../.gitbook/assets/secreturlform.png)
 
@@ -179,5 +161,6 @@ The various settings that fall under this have simple descriptions for understan
 * **Registration Form Link Replacement Text**: Text to be shown in place of the registration form when the registration form is disabled.
 * **Registration with Authentication Services**: Set this to true to allow registration with third-party authentication services like Google or Twitter.
 * **Default Roles for Authentication Services**: Default roles users will be given when registering through authentication services.
+* **Default Roles for Users:** Default roles users will be given when registering through manual registration.
 * **Password Reset**: Set this to true to allow users to reset their password.
 * **Custom Fields**: A valid `JSON` of key values pairs of additional fields to be added during user registration.
