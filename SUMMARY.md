@@ -477,6 +477,34 @@
   * [Do not have a Workspace](guides/enterprise-edition-trial/does-not-have-a-workspace.md)
   * [Extending Trial](guides/enterprise-edition-trial/extending-trial.md)
 
+## Rocket.Chat SaaS
+
+* [Cloud Account](rocket.chat-saas/cloud-account/README.md)
+  * [Create your new cloud account](rocket.chat-saas/cloud-account/create-new-cloud-account.md)
+  * [Manage your cloud account](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/README.md)
+    * [Workspaces](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/README.md)
+      * [Restart Workspace](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/restart-workspace.md)
+      * [Cancel Workspace](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/cancel-workspace.md)
+      * [Update Workspace](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/upgrade-update-workspace.md)
+      * [Workspace Details](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/workspace-details.md)
+      * [Apply Offline License](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/apply-offline-license.md)
+      * [Upgrade/Downgrade your Plan](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/upgrade-downgrade-your-plan.md)
+    * [Profile](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/profile.md)
+    * [Invoices](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/invoices.md)
+    * [Payment Methods](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/payment-methods.md)
+    * [Support Ticketing System](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/support.md)
+    * [Organization Settings](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/organization-settings.md)
+  * [Cloud account setup wizard](rocket.chat-saas/cloud-account/cloud-account-setup-wizard.md)
+
+## Resources
+
+* [Frequently Asked Questions](resources/frequently-asked-questions/README.md)
+  * [Update FAQs](resources/frequently-asked-questions/update-faqs.md)
+  * [Cloud FAQs](<resources/frequently-asked-questions/Cloud Faqs.md>)
+  * [Support FAQs](resources/frequently-asked-questions/support-faqs.md)
+  * [Whatsapp Business App FAQs](resources/frequently-asked-questions/whatsapp-business-app-faqs.md)
+  * [Identity Management EE FAQ](resources/frequently-asked-questions/ldap-faq.md)
+
 ## Contributors
 
 * [How can I help?](contributors/how-can-i-help/README.md)
@@ -510,34 +538,6 @@
 ***
 
 * [Github Sponsorship](github-sponsorship.md)
-
-## Rocket.Chat SaaS
-
-* [Cloud Account](rocket.chat-saas/cloud-account/README.md)
-  * [Create your new cloud account](rocket.chat-saas/cloud-account/create-new-cloud-account.md)
-  * [Manage your cloud account](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/README.md)
-    * [Workspaces](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/README.md)
-      * [Restart Workspace](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/restart-workspace.md)
-      * [Cancel Workspace](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/cancel-workspace.md)
-      * [Update Workspace](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/upgrade-update-workspace.md)
-      * [Workspace Details](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/workspace-details.md)
-      * [Apply Offline License](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/apply-offline-license.md)
-      * [Upgrade/Downgrade your Plan](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/workspaces/upgrade-downgrade-your-plan.md)
-    * [Profile](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/profile.md)
-    * [Invoices](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/invoices.md)
-    * [Payment Methods](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/payment-methods.md)
-    * [Support Ticketing System](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/support.md)
-    * [Organization Settings](rocket.chat-saas/cloud-account/manage-your-workspace-on-cloud-account/organization-settings.md)
-  * [Cloud account setup wizard](rocket.chat-saas/cloud-account/cloud-account-setup-wizard.md)
-
-## Resources
-
-* [Frequently Asked Questions](resources/frequently-asked-questions/README.md)
-  * [Update FAQs](resources/frequently-asked-questions/update-faqs.md)
-  * [Cloud FAQs](<resources/frequently-asked-questions/Cloud Faqs.md>)
-  * [Support FAQs](resources/frequently-asked-questions/support-faqs.md)
-  * [Whatsapp Business App FAQs](resources/frequently-asked-questions/whatsapp-business-app-faqs.md)
-  * [Identity Management EE FAQ](resources/frequently-asked-questions/ldap-faq.md)
 
 ## Legal
 
