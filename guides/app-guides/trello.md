@@ -62,7 +62,7 @@ Now that you have the app installed on your server, it is time to configure the 
 
 * A new window is opened click **Allow** in the prompt to grant all the permissions needed to run the Trello App integration smoothly.
 
-![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (34) (2).png>)
 
 * When succeed, you get a confirmation message from the `trello.bot`
 

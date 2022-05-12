@@ -1,34 +1,27 @@
 # Enterprise Edition Trial
 
-This section explains how to connect your Rocket.Chat instance for the 30 days Enterprise Trial.
+This section explains how to apply Enterprise license for your 30 day Trial.
 
-The Rocket.Chat Enterprise and Cloud benefits give possibilities to;
+Some of the benefits of Rocket.Chat Enterprise Trial:
 
-* Send mobile push notifications
-* Receive and send messages with external providers (WhatsApp, Facebook, Instagram, Telegram, Twitter)
-* Access to marketplace apps
+* Message auditing panel
+* Unlimited mobile push notifications
+* Support access
+* Enhanced LDAP/active directory
+* Omnichannel features for improved management and agent efficiency &#x20;
 * Engagement dashboard
-* Audit panel
-* Enterprise bundle on the marketplace
-* Omnichannel features (priority assignment, canned responses, smart chat routing, queue waiting time)
-* Microservices/high scalability
+* Access to Enterprise bundle on marketplace&#x20;
+* High scalability&#x20;
 
-Assuming you have your Rocket.Chat server running following any of our guides on [Installing and Updating](../../quick-start/installing-and-updating/), the following steps will get you up with linking your workspace to the Cloud Enterprise Edition Trial(CEET).
+Follow the instructions below depending on your situation to get Enterprise Edition Trial up and running if you:\
 
-{% hint style="success" %}
-This guide is done with a local instance of the server running on [http://localhost:3000](http://localhost:3000).
+
+{% hint style="info" %}
+[**Have a workspace**](has-workspace.md)
 {% endhint %}
 
-It is required to accept **Cloud Service Privacy Terms Agreement** before proceeding.
+{% hint style="info" %}
+[**Do not have a workspace**](does-not-have-a-workspace.md)&#x20;
+{% endhint %}
 
-This can be done at the **Administration** panel, navigate or search for **Setup Wizard** and accept the **Cloud Service Privacy Terms Agreement** and hit **Save changes**.
-
-![](<../../.gitbook/assets/image (643) (1) (1).png>)
-
-Below is guide to follow on how to get the Enterprise Edition Trial if you [**have a workspace**](has-workspace.md), [**not have a workspace**](does-not-have-a-workspace.md) and also how to [**extend EE Trial**](extending-trial.md)
-
-Visit this section on how to use the Rocket.Chat Cloud
-
-{% content-ref url="../../rocket.chat-saas/cloud-account/" %}
-[cloud-account](../../rocket.chat-saas/cloud-account/)
-{% endcontent-ref %}
+You may also request to [**Extend your Enterprise Trial period**](extending-trial.md)**.**\

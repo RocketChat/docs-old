@@ -473,8 +473,8 @@
   * [Brand Usage Examples](guides/brand-and-visual-guidelines/brand-usage-examples.md)
   * [Media Kit](guides/brand-and-visual-guidelines/compositionsed.md)
 * [Enterprise Edition Trial](guides/enterprise-edition-trial/README.md)
-  * [Has Registered Workspace](guides/enterprise-edition-trial/has-workspace.md)
-  * [Does not have a Registered Workspace](guides/enterprise-edition-trial/does-not-have-a-workspace.md)
+  * [Have a Workspace](guides/enterprise-edition-trial/has-workspace.md)
+  * [Do not have a Workspace](guides/enterprise-edition-trial/does-not-have-a-workspace.md)
   * [Extending Trial](guides/enterprise-edition-trial/extending-trial.md)
 
 ## Contributors
