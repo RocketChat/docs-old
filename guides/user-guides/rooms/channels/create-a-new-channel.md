@@ -1,5 +1,9 @@
 # Create a new Channel
 
+{% hint style="info" %}
+Channels have restrictions in their naming. The regex responsible for validation can be located in **Admin** > **General** > **UTF8**&#x20;
+{% endhint %}
+
 To create a new channel:
 
 ![](<../../../../.gitbook/assets/image (383).png>)

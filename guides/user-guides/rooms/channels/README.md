@@ -62,4 +62,6 @@ To hide a channel, hover your mouse over the channel in the list of channels on 
 
 ## Creating Channels
 
-A pop-up opens.
+{% content-ref url="create-a-new-channel.md" %}
+[create-a-new-channel.md](create-a-new-channel.md)
+{% endcontent-ref %}
