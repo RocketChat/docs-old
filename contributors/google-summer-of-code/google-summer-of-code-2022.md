@@ -4,7 +4,7 @@
 
 ## How to apply
 
-Application for Google Summer of Code 2022 is now closed.  See [official Google Summer of Code site](https://summerofcode.withgoogle.com).  &#x20;
+Application for Google Summer of Code 2022 is now closed.  See [official Google Summer of Code site](https://summerofcode.withgoogle.com/).  &#x20;
 
 Accepted projects and contributors will be announced on May 20th 2022.
 
@@ -47,11 +47,11 @@ Meanwhile, please continue to interact with our GSoC 2022 **community of over 35
 \
 As of today,  **135 GSoC** **contributors** have created **88 Merged PRs**, **108 Open PRs**, and identified **151 Issues** in the Rocket.Chat ecosystem.\
 \
-Over the next week, we will announce an exciting special activity for those ranking at the top of our [Contributors Leaderboard](https://gsoc.rocket.chat).   Please stay tuned.
+Over the next week, we will announce an exciting special activity for those ranking at the top of our [Contributors Leaderboard](https://gsoc.rocket.chat/).   Please stay tuned.
 
 #### **Proposal submission begins (Update April 10th)**
 
-Momentum for proposal submission is building up.  As our GSoC 2022 community of **300** contributors and mentors continue to engage actively in the [project specific team channels](https://open.rocket.chat/channel/google-summer-of-code/team-channels). Mentors for the various projects are in these channels to help contributors to craft their winning proposals.   On our [contributor leaderboard ](https://gsoc.rocket.chat)(which is also a[n open source project](https://github.com/RocketChat/Opensource-Contribution-Leaderboard)) , _116 contributors have added_ 75 Merged PRs, 105 Open PRs, and 141 Issues to our projects this season so far.
+Momentum for proposal submission is building up.  As our GSoC 2022 community of **300** contributors and mentors continue to engage actively in the [project specific team channels](https://open.rocket.chat/channel/google-summer-of-code/team-channels). Mentors for the various projects are in these channels to help contributors to craft their winning proposals.   On our [contributor leaderboard ](https://gsoc.rocket.chat/)(which is also a[n open source project](https://github.com/RocketChat/Opensource-Contribution-Leaderboard)) , _116 contributors have added_ 75 Merged PRs, 105 Open PRs, and 141 Issues to our projects this season so far.
 
 #### **Successful Virtual Alumni Summit   (Update April 6th)**
 

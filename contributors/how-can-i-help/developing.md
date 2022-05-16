@@ -20,7 +20,13 @@ Want a simple task to get you started? [We maintain a list of those](https://git
 
 Check our [developer guides](https://developer.rocket.chat) for more detailed information about pull requests, workflow, and API docs.
 
-## Priority Features and/or Bug fixes
+An in-depth procedure for setting up your development environment can be found on the Rocket.Chat developers docs.
+
+{% embed url="https://developer.rocket.chat/rocket.chat/rocket.chat-server" %}
+
+{% embed url="https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat" %}
+
+* ## Priority Features and/or Bug fixes
 
 If you want a feature or bug fix to be developed with a higher priority:
 

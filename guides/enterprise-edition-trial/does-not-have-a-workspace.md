@@ -14,7 +14,7 @@ This guide proceeds with [creating a new account](https://cloud.rocket.chat/tria
 
 ![](<../../.gitbook/assets/image (671) (1) (1).png>)
 
-* You are then redirected to [Rocket.Chat Cloud Portal](https://cloud.rocket.chat). Since you don't have any workspace registered yet, the Workspaces section will be empty and you will have the following options:
+* You are then redirected to [Rocket.Chat Cloud Portal](https://cloud.rocket.chat/). Since you don't have any workspace registered yet, the Workspaces section will be empty and you will have the following options:
 
 ![](<../../.gitbook/assets/image (639) (1).png>)
 
@@ -26,7 +26,7 @@ Following item 1 above, you will see the option to register your server after de
 
 ![](https://lh6.googleusercontent.com/aymgd-YyVLVzbWt6Z8PQSHkX5kGDSYG8YgPzt8zYd3O8D4WTMabsEpCKJj68NCUOMDdvfPpwtG5KCW70uppBNkRJKp3DNMRVAXJ2QaEkTjSoplk7fSoUycycUg0EKLxGT1lNicrh2QHEbq\_pYw)
 
-Now that you have registered your workspace proceed to [Rocket.Chat Cloud Portal](https://cloud.rocket.chat) to activate the license on the workspace. See the following steps:
+Now that you have registered your workspace proceed to [Rocket.Chat Cloud Portal](https://cloud.rocket.chat/) to activate the license on the workspace. See the following steps:
 
 1. Under the Workspaces section click on the Apply button at the extreme right.
 2. Then click on **Apply Trial** to confirm the action.
