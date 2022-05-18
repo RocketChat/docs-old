@@ -1,6 +1,6 @@
 # Choosing a Deployment Method
 
-RocketChat offers a series of deployment methods and making a choice on which to use can get a little conflicting
+RocketChat offers a series of deployment methods and making a choice on which to use can get a little conflicting.
 
 Although we recommend using [Docker and Docker Compose](../rapid-deployment-methods/docker-and-docker-compose/), you may want to know when best to consider any of the other deployment methods.
 
@@ -44,14 +44,14 @@ This is something that’s ignored very frequently but should be considered for 
 
 This scorecard shows a rating(on 05) of each deployment method against each consideration.
 
-|                         |                    Docker                   |                    Snaps                   |                                                                                                          One Click Deploment                                                                                                          |
-| ----------------------- | :-----------------------------------------: | :----------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| **Scalability**         | <mark style="color:blue;">**`3.75`**</mark> |  <mark style="color:red;">**`1.0`**</mark> |                                                                                               <mark style="color:red;">**`2.0`**</mark>                                                                                               |
-| **Ease of Deployment**  | <mark style="color:blue;">**`3.75`**</mark> | <mark style="color:blue;">**`4.5`**</mark> |                                                                                               <mark style="color:blue;">**`5.0`**</mark>                                                                                              |
-| **Ease of Maintenance** |  <mark style="color:blue;">**`4.0`**</mark> | <mark style="color:blue;">**`5.0`**</mark> |                                                                                               <mark style="color:red;">**`1.0`**</mark>                                                                                               |
-| **Official Support**    |  <mark style="color:blue;">**`5.0`**</mark> | <mark style="color:blue;">**`5.0`**</mark> | <p>Digital Ocean: <mark style="color:blue;"><strong><code>5.0.</code></strong></mark><br><mark style="color:blue;"><strong><code></code></strong></mark>Linode: <mark style="color:red;"><strong><code>0.0</code></strong></mark></p> |
-| **Community Support**   |  <mark style="color:blue;">**`5.0`**</mark> |  <mark style="color:red;">**`2.0`**</mark> |                                                                                               <mark style="color:blue;">**`4.0`**</mark>                                                                                              |
-| Comments                |              See comments below             |             See comments below             |                                                                                      All one click deployment methods have thesame score ranking.                                                                                     |
+|                         |                    Docker                   |                    Snaps                   |                                                                           One Click Deploment                                                                          |
+| ----------------------- | :-----------------------------------------: | :----------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **Scalability**         | <mark style="color:blue;">**`3.75`**</mark> |  <mark style="color:red;">**`1.0`**</mark> |                                                                <mark style="color:red;">**`2.0`**</mark>                                                               |
+| **Ease of Deployment**  | <mark style="color:blue;">**`3.75`**</mark> | <mark style="color:blue;">**`4.5`**</mark> |                                                               <mark style="color:blue;">**`5.0`**</mark>                                                               |
+| **Ease of Maintenance** |  <mark style="color:blue;">**`4.0`**</mark> | <mark style="color:blue;">**`5.0`**</mark> |                                                                <mark style="color:red;">**`1.0`**</mark>                                                               |
+| **Official Support**    |  <mark style="color:blue;">**`5.0`**</mark> | <mark style="color:blue;">**`5.0`**</mark> | <p>Digital Ocean: <mark style="color:blue;"><strong><code>5.0.</code></strong></mark><br>Linode: <mark style="color:red;"><strong><code>0.0</code></strong></mark></p> |
+| **Community Support**   |  <mark style="color:blue;">**`5.0`**</mark> |  <mark style="color:red;">**`2.0`**</mark> |                                                               <mark style="color:blue;">**`4.0`**</mark>                                                               |
+| Comments                |              See comments below             |             See comments below             |                                                      All one click deployment methods have the same score ranking.                                                     |
 
 ### Comments
 

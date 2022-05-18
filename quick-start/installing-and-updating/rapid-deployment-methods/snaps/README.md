@@ -4,7 +4,7 @@
 
 Snap is preinstalled in most modern distributions. If it is not, please read snap's [official documentation](https://snapcraft.io/docs/installing-snapd) on how to install snap.
 
-Installing Rocket.Chat with snap on Ubuntu is as easy as executing
+Installing Rocket.Chat with snap on Ubuntu is as easy as executing:
 
 ```
 sudo snap install rocketchat-server

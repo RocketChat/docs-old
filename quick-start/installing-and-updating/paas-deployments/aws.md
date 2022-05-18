@@ -12,41 +12,41 @@ This guide covers the following:
 
 ## Launch an EC2 instance
 
-Log into AWS console, open the ["_EC2_" service](https://console.aws.amazon.com/ec2/), click on "_Instances_" in the left sidebar and click on "_Launch Instance_" to set up a new EC2 instance. Now follow the steps below:
+Log into AWS console, open the ["_EC2_" service](https://console.aws.amazon.com/ec2/), click on "_Instances_" in the left sidebar and click on "**Launch Instance**" to set up a new EC2 instance. Now follow the steps below:
 
-1. In the first step search for "_Ubuntu Server 18.04 LTS_" with "_64-bit (x86)_" architecture and click on "_Select_"
-2. Select an instance type of your choice and click "_Next_"
-3. Adjust the instance details as needed or keep the defaults. Proceed with "_Next_"
-4. Adjust the storage size and configuration as needed and click on "_Next_"
-5. Make sure to add a tag called "_Name_" and assign a value
-6. Allow "_SSH_", "_HTTP_" and "_HTTPS_" in the security group configuration, proceed with "_Review and Launch_"
-7. Review your instance configuration and confirm with "_Launch_"
-8. Choose an existing key pair or create a new one and click on "_Launch Instance_"
+1. In the first step search for "_Ubuntu Server 18.04 LTS_" with "_64-bit (x86)_" architecture and click on "**Select**".
+2. Select an instance type of your choice and click "**Next**".
+3. Adjust the instance details as needed or keep the defaults. Proceed with "**Next**".
+4. Adjust the storage size and configuration as needed and click on "**Next**".
+5. Make sure to add a tag called "**Name**" and assign a value.
+6. Allow "_SSH_", "_HTTP_" and "_HTTPS_" in the security group configuration, proceed with "**Review and Launch**".
+7. Review your instance configuration and confirm with "**Launch**".
+8. Choose an existing key pair or create a new one and click on "**Launch Instance**".
 
 ## Allocate an Elastic IP
 
 Back in the ["_EC2_" service](https://console.aws.amazon.com/ec2/) dashboard, click on "_Elastic IPs_" in the left sidebar:
 
-1. Click on "_Allocate New Address_"
-2. Select "_Amazon's pool of IPv4 addresses_" and click on "_Allocate_"
-3. Click on the newly created IP address and select "_Associate Elastic IP address_"
-4. Select your instance and click "_Associate_"
-5.  In the details below, copy the "_Public DNS_". You will need it in the DNS step.
+1. Click on "**Allocate New Address**"
+2. Select "**Amazon's pool of IPv4 addresses**" and click on "**Allocate**"
+3. Click on the newly created IP address and select "**Associate Elastic IP address**"
+4. Select your instance and click "**Associate**"
+5.  In the details below, copy the "**Public DNS**". You will need it in the DNS step.
 
     (It should be in a format like this: `ec2-18-197-161-168.eu-central-1.compute.amazonaws.com`)
 
 ## Configure DNS w/ AWS Route 53
 
-Open the "_Route 53_" service dashboard:
+Open the "**Route 53**" service dashboard:
 
-1. Create a new hosted zone by clicking on "_Create Hosted Zone_":
-2. Enter your domain name and select "_Public Hosted Zone_" as type, then click on "_Create"_
-3. Select your newly created zone and click on "_Create Record Set_"
-4. Enter "_www_" as subdomain (if desired), select Type "_CNAME_", enter the Public DNS name from the above step to the value field and click "_Create_"
+1. Create a new hosted zone by clicking on "**Create Hosted Zone**":
+2. Enter your domain name and select "_Public Hosted Zone_" as type, then click on "**Create**_"_
+3. Select your newly created zone and click on "**Create Record Set**"
+4. Enter "_www_" as subdomain (if desired), select Type "_CNAME_", enter the Public DNS name from the above step to the value field and click "**Create**"
 
 ## Get an SSL certificate from Let's Encrypt
 
-We will use Let's Encrypt to get a free & open-source SSL certificate:
+We use Let's Encrypt to get a free & open-source SSL certificate:
 
 1.  SSH to your instance:
 
@@ -169,7 +169,7 @@ Confirm that it is running properly by opening a web browser and going to your d
 
 ## Set up Docker containers
 
-1.  Create local directories
+1.  Create local directories.
 
     ```
      sudo mkdir -p /opt/docker/rocket.chat/data/runtime/db
@@ -248,6 +248,6 @@ Confirm that it is running properly by opening a web browser and going to your d
 
 ## Use it
 
-1.  Login to your site at `https://ABC.DOMAIN.COM`
+1.  Login to your site at `https://ABC.DOMAIN.COM.`
 
-    Note: the first user to login will be an administrator user.
+    **Note:** the first user to login will be an administrator user.

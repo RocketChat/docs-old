@@ -8,11 +8,11 @@ description: Requirements for official support from the Rocket.Chat team
 
 Setting up and running software is not always an easy thing. We get that. That's why we try to help everybody as good as possible with their instance of Rocket.Chat. And while we do like to help everybody, it just isn't feasible in any case. That is why we have to limit the support by the core team to some extent.
 
-The following paragraphs will tell you about limits of the support the core team can give as well as where to find the community to help you and how you yourself can contribute by reporting bugs to us on GitHub.
+The following sections will tell you about limits of the support the core team can give as well as where to find the community to help you and how you yourself can contribute by reporting bugs to us on GitHub.
 
 ## Official support
 
-In order to obtain official support from our team, we have a minimum set of requirements. These requirements are necessary for us to access essential system information, to provide an SLA, to answer questions, or to provide a solution for the problem.
+In order to obtain official support from our team, we have a minimum set of requirements. These requirements are necessary for us to access the essential system information, to provide an SLA, to answer questions, or to provide a solution for the problem.
 
 Only installations matching these minimum requirements can be covered by our SLAs and our paid Support Policy, some requirements may vary depending on the installation size as described in the following sections.
 

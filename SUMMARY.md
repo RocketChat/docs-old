@@ -338,7 +338,7 @@
   * [Departments](guides/omnichannel/departments.md)
   * [Custom Fields](guides/omnichannel/custom-fields.md)
   * [Livechat Triggers Manager's Guide](guides/omnichannel/livechat-triggers-managers-guide.md)
-  * [Livechat Widget Installation](guides/omnichannel/livechat-widget-installation/README.md)
+  * [Livechat Widget Installation](guides/omnichannel/livechat-widget-installation.md)
     * [Troubleshoot Livechat Widget Installation](guides/omnichannel/livechat-widget-installation/troubleshoot-livechat-widget-installation.md)
   * [Livechat Widget Appearance](guides/omnichannel/livechat-widget-appearance.md)
   * [Webhooks Manager's Guide](guides/omnichannel/webhooks-managers-guide.md)

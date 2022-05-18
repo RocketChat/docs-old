@@ -6,14 +6,14 @@ description: Deploying Rocket.Chat on Google Compute Engine
 
 ## 1. Create a compute instance
 
-1. Click create VM instance in google cloud console
-2. Select a preferred Machine Type \(Default : 1cpu, 3.75GB Memory\)
-3. Select a linux image \(Default Debian/ ubuntu\)
-4. Allow HTTP/S Traffic
+1. Click create VM instance in google cloud console.
+2. Select a preferred Machine Type (Default : 1cpu, 3.75GB Memory).
+3. Select a Linux image (Default Debian/ ubuntu).
+4. Allow HTTP/S Traffic.
 
 ## 2. SSH to the instance
 
-Connect to the instance by SSH or connect via browser on port other than 80
+Connect to the instance by SSH or connect via browser on port other than 80.
 
 ## 3. run the following to install docker
 
@@ -54,12 +54,11 @@ You are now running rocket chat on compute engine. You can open a browser with t
 
 If you want the containers to start each time the instance reboots configure the following to the instance.
 
-* click on the instance in the and hit "edit"
+* Click on the instance in the and hit "**edit**"
 * Under "Custom metadata" add an item with
 
-```text
+```
 key: "startup-script"
 value "sudo docker start mongo;
 sudo docker start rocketchat"
 ```
-

@@ -11,7 +11,7 @@ This guide will walk you through the installation and configuration of a Docker-
 For people new to docker here's a quick primer: Docker is a program that allows other programs and their dependencies to be run in a type of virtual container. Using this deployment guide, you do not need to download any of the rocket chat program files manually whatsoever.\
 Docker will get everything needed for Rocket.Chat to run. If you follow this guide closely, it provides everything from start to finish needed to install, create, and run your own Rocket.Chat web instance with Nginx handling SSL termination, and a Hubot chatbot keeping your general chat channel warm on those cold winter mornings.
 
-This guide is designed for everyone, however, it is intentionally detailed to help new users who may need a little extra guidance. If you're experienced with things like docker, Nginx, etc. you may prefer one of the other deployment guides found elsewhere on this wiki.
+This guide is designed for everyone, however, it is intentionally detailed to help the new users who may need a little extra guidance. If you're experienced with things like docker, Nginx, etc. you may prefer one of the other deployment guides found elsewhere on this wiki.
 
 ## What we'll cover in this guide
 
@@ -43,8 +43,7 @@ First, make sure [UFW](https://en.wikipedia.org/wiki/Uncomplicated\_Firewall) (U
 apt -qq list ufc
 ```
 
-It will return simple info about the package if it is found. \
-Otherwise, install the package by running
+It will return simple information about the package if it is found. Otherwise, install the package by running
 
 ```
 sudo apt-get install ufw
@@ -57,7 +56,7 @@ sudo apt-get install ufw
 In case you have the port changed on your device, be sure to use the corresponding port.\
 Failure to do so will break your SSH connection and log you out of the server as soon as you enable the firewall!
 
-_**Set the default access rules:**_
+**Set the default access rules:**
 
 ```
 sudo ufw default deny incoming
@@ -115,7 +114,7 @@ Press **Y** when prompted to proceed with the install.
 
 **Install Docker**
 
-Follow this guide [https://docs.docker.com/linux/step\_one/](https://docs.docker.com/linux/step\_one/) to get Docker installed
+Follow this guide [https://docs.docker.com/linux/step\_one/](https://docs.docker.com/linux/step\_one/) to get Docker installed.
 
 **Install Docker-Compose version 1.24.0 (64 bit) via cURL**
 
@@ -123,7 +122,7 @@ Follow this guide [https://docs.docker.com/linux/step\_one/](https://docs.docker
 sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-Linux-x86_64" -o /usr/local/bin/docker-compose
 ```
 
-**Set the executable permissions:**
+**Set the executable permissions**
 
 ```
 sudo chmod +x /usr/local/bin/docker-compose
@@ -149,7 +148,7 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 If your hostname.domain.tld is mapped to a publicly routable IP, it needs to be set to your local address, for example, 127.0.0.1. Please note that the order in which localhost and your hostname are placed in this file is important; make sure localhost is first.
 
-**Edit the hosts file:**
+**Edit the hosts file**
 
 ```
 sudo nano /etc/hosts
@@ -176,7 +175,7 @@ If you don't have a certificate already, you can grab one for free at [Let's Enc
 
 Or, if you want to use a self-signed SSL cert instead, skip ahead to [Self-Signed SSL](./#5b-self-signed-ssl).
 
-**Install the private key (created when you generated the CSR):**
+**Install the private key (created when you generated the CSR)**
 
 ```
 sudo nano /etc/nginx/certificate.key
@@ -186,7 +185,7 @@ Open the private key and Copy the entire private key text-block from the file th
 
 Save and Exit.
 
-**Install the SSL certificate (note that this goes in certificate.**_**crt**_**, not .**_**key**_**):**
+**Install the SSL certificate (note that this goes in certificate.**_**crt**_**, not .**_**key**_**)**
 
 ```
 sudo nano /etc/nginx/certificate.crt
@@ -398,7 +397,7 @@ Next, let's try opening the web browser and going to your new chat room. Provide
 https://chat.inumio.com
 ```
 
-**If for some reason that fails, try HTTP:** **Open port 3000/tcp in the firewall, and reload to set the new policy**
+**If for some reason that fails, try HTTP:** **Open port 3000/tcp in the firewall, and reload to set the new policy.**
 
 ```
 sudo ufw allow 3000/tcp
@@ -509,5 +508,5 @@ With TOP running, try to replicate the problem while watching TOP for high loads
 
 You can also deploy using Docker and Docker Compose by following one of these guides:
 
-* [Docker Compose](broken-reference)
+* [Docker Compose](broken-reference/)
 * [Available Images](available-images.md)

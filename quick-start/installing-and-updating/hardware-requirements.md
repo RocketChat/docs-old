@@ -6,7 +6,7 @@ description: Minimum Requirements for Server Deployment
 
 To get a Rocket.Chat instance running, you need to pay attention to the properties of the machine/hardware you have.
 
-These Requirements vary greatly with:
+These requirements vary greatly with:
 
 * Number of concurrently active users
 * Number of actually connected devices per user
@@ -44,9 +44,9 @@ The above minimal virtual configuration, when not over-provisioned by the provid
 
 The above virtual configuration, when not over-provisioned by the provider, can accommodate small deployments of up to 500 users, up to 100 concurrently active and moderate levels of mixed uploads, sharing, and bot activities.
 
-## Really Small office Server&#x20;
+## Really Small office Server
 
-* Raspberry Pi 3 or Pi 2&#x20;
+* Raspberry Pi 3 or Pi 2
 * 4 cores 1 GB memory
 * 32 GB SD card ($15)
 

@@ -31,7 +31,7 @@ If you want to enable SSL and Let's Encrypt certificates you should:
 
 1. input a URL starting with HTTPS
 2. own the domain name you would like to use
-3. and have the correct DNS record set up to resolve your domain name to your public IP (remember DNS records could take some time to propagate).
+3. have the correct DNS record set up to resolve your domain name to your public IP (remember DNS records could take some time to propagate).
 
 These next commands will check that configuration is set up correctly before starting the services:
 
@@ -78,7 +78,7 @@ For 4.x latest AMD64 snaps or 3.x latest ARM64 snaps
 {% endhint %}
 
 {% hint style="info" %}
-Both caddy v2 and caddy v1 (EOL) is deilivered in the snap, v2 is prioritized over v1
+Both caddy v2 and caddy v1 (EOL) is deilivered in the snap, v2 is prioritized over v1.
 {% endhint %}
 
 If you want to configure Caddy yourself, place the Caddyfile in `/var/snap/rocketchat-server/current/` directory and restart rocketchat-server.
@@ -87,7 +87,7 @@ If you want to configure Caddy yourself, place the Caddyfile in `/var/snap/rocke
 sudo snap restart rocketchat-server
 ```
 
-If you want to use some other reverse proxy, just disable Caddy by running
+If you want to use some other reverse proxy, just disable Caddy by running.
 
 ```
 sudo systemctl disable snap.rocketchat-server.rocketchat-caddy
