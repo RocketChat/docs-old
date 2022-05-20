@@ -10,28 +10,22 @@ If you haven't got this information at hand, please get it first.
 
 At a minimum, you will need this:
 
-*   Server Setup Information:
-
-    * Server hardware: VPS/hypervisor/bare metal
-    * Version of Rocket.Chat Server:
-    * Operating System: Ubuntu/Redhat etc
-    * Deployment Method: snap/docker/tar/etc
-    * Number of Running Instances:
-    * DB Replicaset Oplog:
-    * NodeJS Version:
-    * MongoDB Version:
-
-
-*   Client information:
-
-    * Client type: Electron app/React-Native app/Browser and version
-
-
+* Server Setup Information:
+  * Server hardware: VPS/hypervisor/bare metal
+  * Version of Rocket.Chat Server:
+  * Operating System: Ubuntu/Redhat etc
+  * Deployment Method: snap/docker/tar/etc
+  * Number of Running Instances:
+  * DB Replicaset Oplog:
+  * NodeJS Version:
+  * MongoDB Version:
+* Client information:
+  * Client type: Electron app/React-Native app/Browser and version
 *   A list of the steps requires to replicate the issue.
 
     * If we can't replicate it we can't debug it.
 
-    ****
+    ***
 
 ## **Contents**
 
@@ -54,15 +48,15 @@ At a minimum, you will need this:
 
 If you think your issue is urgent, then you have two choices:
 
-### **Paid help**
+### ****[**Enterprise Edition**](https://rocket.chat/enterprise)****
 
-Pay for support - [Pricing](https://rocket.chat/pricing)
+Switch to Rocket.Chat's enterprise edition - [Pricing](https://rocket.chat/pricing)
 
 Email: [support@rocket.chat](mailto:support@rocket.chat)
 
 ### **Seek free help**
 
-Patiently wait for a volunteer to consider helping you.&#x20;
+Patiently wait for a volunteer to consider helping you.
 
 If you opt for community's help instead of paid support, please notice that:
 
@@ -73,16 +67,16 @@ If you opt for community's help instead of paid support, please notice that:
 * Being rude to them will not help you at all
 * Please note that posting the same question in several channels will not help you
 * Please do **not** DM anyone unless you know them, or they DM you first
-* Please do **not** randomly use _@ people_ or _@all_  hoping to get attention
+* Please do **not** randomly use _@ people_ or _@all_ hoping to get attention
 * Abuse of these things will **not** get any help but can get you muted, blocked, or banned.
 * Don't open a bug yet. When you ask in the channels or forums then devs or other community helpers will tell you if you really need to open an issue. Frequently if there really is a problem you won't be the first one to experience it, so always check github carefully for duplicates. Use lots of different search terms and make sure you check closed Issues as well (see below).
-* Do not ask the same question in multiple channels.  Use the channel (from mentioned) that you think is most relevant to your issues. [Support](https://open.rocket.chat/channel/support), [React-Native](https://open.rocket.chat/channel/react-native), [Ubuntu Snap](https://open.roocket.chat/channel/ubuntu-snap),[Raspberry Pi](https://open.rocket.chat/channel/raspberrypi), [Omnichannel](https://open.rocket.chat/channel/omnichannel), [Desktop](https://open.rocket.chat/channel/desktop), [Federation](https://open.rocket.chat/channel/federation)
+* Do not ask the same question in multiple channels. Use the channel (from mentioned) that you think is most relevant to your issues. [Support](https://open.rocket.chat/channel/support), [React-Native](https://open.rocket.chat/channel/react-native), [Ubuntu Snap](https://open.roocket.chat/channel/ubuntu-snap),[Raspberry Pi](https://open.rocket.chat/channel/raspberrypi), [Omnichannel](https://open.rocket.chat/channel/omnichannel), [Desktop](https://open.rocket.chat/channel/desktop), [Federation](https://open.rocket.chat/channel/federation)
 
 ## **Is it a feature request?**
 
-If Rocket.Chat works but doesn't do something the way you want it to then this is a feature request **NOT** a bug. You can open a request in [Feature Requests](https://github.com/RocketChat/feature-requests).&#x20;
+If Rocket.Chat works but doesn't do something the way you want it to then this is a feature request **NOT** a bug. You can open a request in [Feature Requests](https://github.com/RocketChat/feature-requests).
 
-## **Go through the documentation**&#x20;
+## **Go through the documentation**
 
 Please go through the relevant documentation at least twice. A lot of the answers can be found there. It is easy to miss the obvious because you _think_ you know the answer rather than reading to actually understand. 😃
 
@@ -114,7 +108,7 @@ e.g.
 
 `is: issue theme`
 
-Try some variations - you won't hit the sweet spot the first time usually. The more often you do this the better you will get at learning what to search for and how.&#x20;
+Try some variations - you won't hit the sweet spot the first time usually. The more often you do this the better you will get at learning what to search for and how.
 
 ## Ask on the forums
 
@@ -168,7 +162,7 @@ Here is a great example of a good bug report:
 
 Last, be patient. Answer the questions you are asked. They may appear odd, but they are probably for a good reason. Debugging is a logical process and you need to help establish the _facts_ first.
 
-Remember, **you** are the one with the problem. They can just go back to work or their wife and kids and ignore you.&#x20;
+Remember, **you** are the one with the problem. They can just go back to work or their wife and kids and ignore you.
 
 ## **Open an Issue**
 
