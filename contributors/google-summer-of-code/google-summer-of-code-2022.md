@@ -6,9 +6,9 @@
 
 Application for Google Summer of Code 2022 is now closed.  See [official Google Summer of Code site](https://summerofcode.withgoogle.com/).  &#x20;
 
-Accepted projects and contributors will be announced on May 20th 2022.
+See official [accepted projects and contributors ](https://summerofcode.withgoogle.com/programs/2022/organizations/rocketchat)for the list of projects this year.
 
-Please see [Official Google Summer of Code 2022 Timeline ](https://developers.google.com/open-source/gsoc/timeline)for more details.\
+For timeline, see [Official Google Summer of Code 2022 Timeline ](https://developers.google.com/open-source/gsoc/timeline)for more details.\
 \
 Rocket.Chat is proud to be a participating open source organization for the [Google Summer of Code 2022](https://summerofcode.withgoogle.com) program. This marks the exciting 6th year of participation with this 18 years-old program to usher in a new generation of open source contributors and enthusiasts.\
 \
@@ -172,7 +172,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 ### Standalone Desktop Messaging cross-platforms Applet
 
-**Mentor(s):** Jean Brito
+**Mentor(s):** Jean Brito, Gabriel Casals
 
 **Description:** Create a simpler desktop application similar to the old Google Talk (see [2005 GoogleTalk UI ](https://en.wikipedia.org/wiki/Google\_Talk#/media/File:Google\_Talk\_Labs\_Edition\_\(screenshot\).png)here), is a simple channels list on a little window and each chat will open in another separated window, making it possible to talk with people without opening a big window. Making the usage of [Rocket.chat](http://rocket.chat) more seamless. This project will make extensive use of Rocket.Chat's In-App Chat APIs (REST APIs).
 
@@ -259,7 +259,7 @@ Project Duration: 175 hours
 
 ### Figma Integration (Rocket.Chat App)
 
-**Mentor(s):** Douglas Gubert & Alvaro Mello
+**Mentor(s):** Douglas Gubert, Alvaro Mello, Ivan Netto
 
 **Description:** This project brings Figma's life right into Rocket.Chat.
 
