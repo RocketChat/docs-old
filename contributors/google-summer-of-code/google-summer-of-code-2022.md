@@ -41,7 +41,7 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 **Mentors welcome contributors from 14 accepted projects (Update May 20th)**
 
-2022 is a phenomenal year for GSoC at Rocket.Chat.   With high calibre contributors arriving as early as January and very early enthusiastic community mentors support.  So far, 137 new contributors have created 94 Merged PRs, 110 Open PRs, and identified 154 Issues for our projects.  We received 83 GSoC 2022 proposals; most of them are of good  to excellent quality.  Google has graciously granted us a total of FOURTEEN projects for 2022 GSoC. Thank you Google!   Mentors has started to welcome for these 14 active contributing community members to work with us during the 2022 season.
+2022 is a phenomenal year for GSoC at Rocket.Chat.   With high calibre contributors arriving as early as January and very early enthusiastic community mentors support.  So far, 137 new contributors have created 94 Merged PRs, 110 Open PRs, and identified 154 Issues for our projects.  We received 83 GSoC 2022 proposals; most of them are of good  to excellent quality.  Google has graciously granted us a total of [FOURTEEN projects for 2022 GSoC](https://summerofcode.withgoogle.com/programs/2022/organizations/rocketchat). Thank you Google!   Mentors has started to welcome for these 14 active contributing community members to work with us during the 2022 season.
 
 **Total of 83 proposals received (Update April 20th)**
 
