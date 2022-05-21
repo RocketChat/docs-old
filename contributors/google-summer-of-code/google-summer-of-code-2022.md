@@ -41,7 +41,25 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 **Mentors welcome contributors from 14 accepted projects (Update May 20th)**
 
-2022 is a phenomenal year for GSoC at Rocket.Chat.   With high calibre contributors arriving as early as January and very early enthusiastic community mentors support.  So far, 137 new contributors have created 94 Merged PRs, 110 Open PRs, and identified 154 Issues for our projects.  We received 83 GSoC 2022 proposals; most of them are of good  to excellent quality.  Google has graciously granted us a total of [FOURTEEN projects for 2022 GSoC](https://summerofcode.withgoogle.com/programs/2022/organizations/rocketchat). Thank you Google!   Mentors have started to welcome these 14 active contributing community members to work with us during the 2022 season.
+2022 is a phenomenal year for GSoC at Rocket.Chat.   With high calibre contributors arriving as early as January and very early enthusiastic community mentors support.  So far, 137 new contributors have created 94 Merged PRs, 110 Open PRs, and identified 154 Issues for our projects.  We received 83 GSoC 2022 proposals; most of them are of good  to excellent quality.  Google has graciously granted us a total of [FOURTEEN projects for 2022 GSoC](https://summerofcode.withgoogle.com/programs/2022/organizations/rocketchat). Thank you Google!   Mentors have started to welcome these 14 active contributing community members to work with us during the 2022 season:\
+
+
+| Contributors       | Project                                                            | Mentors                                       |
+| ------------------ | ------------------------------------------------------------------ | --------------------------------------------- |
+| Ahmed Ibrahim      | Standalone Desktop Messaging cross-platforms Applet                | Jean Brito, Gabriel Casals                    |
+| Aswini             | Weekly Video Meeting and Archive App - BigBlueButton + Rocket.Chat | Debdut Chakraborty, Felipe Cecagno            |
+| Danish Ahmed Mirza | New Emoji Picker for Mobile Client                                 | Diego Mello, Daniel Silva                     |
+| Dnouv              | Rocket.Chat for Virtual Conferences - Eventyay integration         | Sing Li, Marcos Defendi                       |
+| Evan Slack         | Rocket.Chat Golang SDK                                             | cauefcr, Felipe Menelau                       |
+| Irfan Asif         | Figma App ( Rocket.Chat Integration )                              | Douglas Gubert, Ivan Netto,  Alvaro Mello     |
+| Mustafa Hasan Khan | ClickUp App for Rocket.Chat                                        | Douglas Gubert, Allan Ribeiro                 |
+| Nishant Patel      | Message Forwarding                                                 | Douglas Fabris, Milton Rucks                  |
+| Samad Khan         | GitHub App                                                         | Rohan Lekhwani, Sing Li                       |
+| sangyul.cha        | Botpress Connector Enhancements                                    | Duda Nogueira, Frank Dase                     |
+| Sidharth Mohanty   | Rocket.Chat ReactJS fullstack Component                            | Rohan Lekhwani                                |
+| srrathi            | Rocket Chat TUI Proposal                                           | Aaron Ogle, Debdut Chakraborty                |
+| Vivek Srivastava   | Playground for UIKit ReactJS components                            | Martin Schoeler, Guilherme Gazzo              |
+| Yuqing             | Rocket.Chat - Teams Bridge: interop with Microsoft Teams           | Gabriel Engel, Yash Rajpal, Fábio Albuquerque |
 
 **Total of 83 proposals received (Update April 20th)**
 
