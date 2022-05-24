@@ -1,6 +1,6 @@
 # Simple SAML php
 
-As a popular open-source IdP, SimpleSAMLphp can be used to provide an authentication endpoint for Rocket.Chat and the build-in SAML support. Assuming that you have a SimpleSAMLphp IdP up and running - [QuickStart instructions here](https://simplesamlphp.org/docs/latest/simplesamlphp-sp.html), you can find the metadata for the Rocket.Chat SAML Service Provider (SP) here, where 'my-app' is whatever you put in the **Custom Provider** box in the Rocket.Chat SAML admin page:
+As a popular open-source IdP, SimpleSAMLphp can be used to provide an authentication endpoint for Rocket.Chat and the build-in SAML support. Assuming that you have a SimpleSAMLphp IdP up and running - [quickstart instructions here](https://simplesamlphp.org/docs/stable/simplesamlphp-idp), you can find the metadata for the Rocket.Chat SAML Service Provider \(SP\) here, where 'my-app' is whatever you put in the **Custom Provider** box in the Rocket.Chat SAML admin page:
 
 `https://my-rocketchat-domain.tld/_saml/metadata/my-app`
 
@@ -14,8 +14,9 @@ As a popular open-source IdP, SimpleSAMLphp can be used to provide an authentica
 
 Use the following attributes required to return user information to Rocket.Chat:
 
-| Idp Returned Attribute Name | Usage                |
-| --------------------------- | -------------------- |
-| cn                          | User's Full Name     |
-| email                       | User's Email Address |
-| username                    | User's username      |
+| Idp Returned Attribute Name | Usage |
+| :--- | :--- |
+| cn | User's Full Name |
+| email | User's Email Address |
+| username | User's username |
+

@@ -211,7 +211,7 @@ Confirm that it is running properly by opening a web browser and going to your d
        mongo:
          image: mongo:4.0
          restart: unless-stopped
-         command: mongod --smallfiles --oplogSize 128 --replSet rs0 --storageEngine=mmapv1
+         command: mongod --oplogSize 128 --replSet rs0 --storageEngine=wiredTiger
          volumes:
            - ./data/runtime/db:/data/db
            - ./data/dump:/dump
