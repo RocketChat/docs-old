@@ -4,9 +4,9 @@ description: Create personalized access tokens
 
 # Personal Access Token
 
-In this section, you can create personalized access tokens that can be used for API calls
+In this section, you can create personalized access tokens that can be used for API calls.
 
-To access this menu, Click on you **profile** and go to **My Account** > **Personal Access Token**
+To access this menu, Click on your **profile** and go to **My Account** > **Personal Access Token**.
 
 ![](<../../../../.gitbook/assets/image (647) (1) (2).png>)
 
@@ -14,7 +14,7 @@ To access this menu, Click on you **profile** and go to **My Account** > **Perso
 
 To create a personal access token:
 
-* From the Access Token dashboard, enter the name of the token and hit **Add**
+* From the Access Token dashboard, enter the name of the token and hit **Add**.
 
 ![](<../../../../.gitbook/assets/image (669) (1) (1) (1).png>)
 
