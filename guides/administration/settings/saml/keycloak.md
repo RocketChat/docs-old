@@ -1,11 +1,11 @@
 # Keycloak
 
-[https://www.keycloak.org/](https://github.com/RocketChat/docs/tree/383996fe726bc870c25c540068bd6a4b8cb8b7b5/guides/administrator-guides/authentication/saml/Keycloak/README.md) is another popular open-source IdP that you can use in connection with Rocket.Chat.
+[https://www.keycloak.org/ ](https://www.keycloak.org/)is another popular open-source IdP that you can use in connection with Rocket.Chat.
 
 ## Prerequisites
 
-* Rocket.Chat server accessible like e.g. [https://r.example.com](https://r.example.com)
-* Keycloak server accessible like e.g. [https://sso.example.com](https://sso.example.com)
+* Rocket.Chat server accessible like e.g. 'https://r.example.com'
+* Keycloak server accessible like e.g. 'https://sso.example.com'
 
 Keycloak:
 
@@ -28,10 +28,10 @@ Create client, and now revisit its settings:
 
 * Check out Valid Redirect URIs - make sure that it is set to `https://r.example.com/_saml/validate/keycloak`.
 * Set the `Name ID Format` to `email`.
-* Go to the `SAML Keys` tab, and make sure that the public key \(certificate\) is the same as the Rocketchat's public key. Note that the `-----BEGIN/END CERTIFICATE-----` header/footer is not supposed to be part of the Keycloak's public key view, but the rest should be the same. If they are not the same, save the Rocketchat public key one into a text file, and import it from Keycloak - use the import PEM functionality.
-* Go to the Mappers tab, and create mappers for the required data that Rocketchat expects. You shouldn't need `email` or `username`, but you probably need `cn`.
+* Go to the `SAML Keys` tab, and make sure that the public key (certificate) is the same as the Rocketchat's public key. Note that the `-----BEGIN/END CERTIFICATE-----` header/footer is not supposed to be part of the Keycloak's public key view, but the rest should be the same. If they are not the same, save the Rocketchat public key one into a text file, and import it from Keycloak - use the import PEM functionality.
+*   Go to the Mappers tab, and create mappers for the required data that Rocketchat expects. You shouldn't need `email` or `username`, but you probably need `cn`.
 
-  Click Create, and choose the type `User Property` and set the `SAML Attribute NameFormat` to `basic`. For the first name, set `Name` and `Property` to `firstName`, and `SAML Attribute name` to `cn`.
+    Click Create, and choose the type `User Property` and set the `SAML Attribute NameFormat` to `basic`. For the first name, set `Name` and `Property` to `firstName`, and `SAML Attribute name` to `cn`.
 
 ## Troubleshooting
 
@@ -41,4 +41,3 @@ You should be done by now. However, you may run into some problems for various r
 * A: Make sure that the respective Keycloak user has an e-mail address. This may not be the case e.g. for Keycloak admin.
 * Q: How do I generate a certificate pair?
 * A: Try `openssl req -newkey rsa:3072 -new -x509 -days 3652 -nodes -out saml.crt -keyout saml.pem`. Then, just copy file contents to the respective fields.
-
