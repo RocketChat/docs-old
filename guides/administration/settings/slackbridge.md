@@ -1,10 +1,10 @@
 ---
-description: Configure SlackBridge to mirror slack and Rocket.Chat in real time
+description: Configure SlackBridge to mirror slack and Rocket.Chat in real-time
 ---
 
 # SlackBridge
 
-SlackBridge lets you mirror Slack and Rocket.Chat servers in real time.
+SlackBridge lets you mirror Slack and Rocket.Chat servers in real-time.
 
 To access this menu, go to **Administration** > **Settings** > **SlackBridge**
 
