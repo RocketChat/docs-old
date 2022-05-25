@@ -1,3 +1,7 @@
+---
+description: Configure your workspace's general settings
+---
+
 # General
 
 ## General Settings
@@ -73,7 +77,7 @@ This sets the URL of the server.
 
 ### Store Last Message
 
-Store last message sent on each room. This will enable the viewing of the last message on the left sidebar \(should be on by default\)
+Store last message sent on each room. This will enable the viewing of the last message on the left sidebar (should be on by default)
 
 ### Unread Count
 
@@ -123,7 +127,7 @@ Choose to always notify mobile device regardless of presence status.
 
 ### Max Room Members Before Disabling All Message Notifications
 
-Max number of members in room when notifications for all messages gets disabled. Users can still change per room setting to receive all notifications on an individual basis. \(0 to disable\)
+Max number of members in room when notifications for all messages gets disabled. Users can still change per room setting to receive all notifications on an individual basis. (0 to disable)
 
 ## REST API
 
@@ -211,11 +215,10 @@ Should be a valid JSON where keys are languages containing a dictionary of key a
 
 RegExp that will be used to validate usernames and channel names
 
-> **Note**: If you are having problems with names when creating channels \(when using non-english characters for example\) changing these values will probably fix it. For example using `[\w_-]+` should allow any non-space character to be part of a name.
+> **Note**: If you are having problems with names when creating channels (when using non-english characters for example) changing these values will probably fix it. For example using `[\w_-]+` should allow any non-space character to be part of a name.
 
 ## Update
 
 ### Update Latest Available Version
 
 Whenever we have a new version available, it will show up on this field.
-

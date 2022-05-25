@@ -1,5 +1,5 @@
 ---
-description: This allows you set various assets for your server.
+description: Set various (visual) assets for your workspace
 ---
 
 # Assets
@@ -17,11 +17,11 @@ Remember to hit **Save Changes** in order to apply any changes made.
 {% endhint %}
 
 * **Enable SVG favicon**: When enabled, it gives you the ability to set an SVG favicon.
-* **logo (svg, png, jpg)**: Lets you set the logo for your server.&#x20;
+* **logo (svg, png, jpg)**: Lets you set the logo for your server.
 
 ![](<../../../.gitbook/assets/image (644) (1) (1) (1) (1) (1) (1) (1).png>)
 
-* **login background (svg, png, jpg)**: Lets you set a login background image.&#x20;
+* **login background (svg, png, jpg)**: Lets you set a login background image.
 
 ![](<../../../.gitbook/assets/image (659) (1) (1).png>)
 

@@ -1,6 +1,10 @@
+---
+description: Enable and configure various SMS gateways on your workspace
+---
+
 # SMS
 
-This setting lets you configure the various SMS gateways to use on your server.
+This setting lets you configure various SMS gateways on your workspace.
 
 To access this menu, go to **Administration** > **Settings** > **SMS**.
 

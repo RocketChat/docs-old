@@ -1,3 +1,7 @@
+---
+description: Enable and configure push notification on your workspace
+---
+
 # Push (Notifications Admin Guide)
 
 By default, the community users have 10k push notifications for free. If you are a deployment that uses mobile clients a lot, you might feel the need to extend your per-month push notification limit. To subscribe to your desired push notification bundle, you first need to [subscribe to our cloud account](https://docs.rocket.chat/guides/administrator-guides/connectivity-services) if you don't have one.

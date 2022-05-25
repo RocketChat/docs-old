@@ -1,3 +1,7 @@
+---
+description: Manually update your enterprise license
+---
+
 # Enterprise
 
 Use this setting to manually update your enterprise license. See this section on how to get [Enterprise License](../../enterprise-edition-trial/).

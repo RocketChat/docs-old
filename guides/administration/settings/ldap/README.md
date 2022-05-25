@@ -1,8 +1,12 @@
+---
+description: Configure LDAP (Lightweight Directory Access Protocol)
+---
+
 # LDAP
 
 LDAP (Lightweight Directory Access Protocol) in simple terms is a protocol used for enabling anyone to locate data about your server or company. LDAP configuration on Rocket.Chat can be used to establish connections, used for authentication, storing information about users and sync your data.
 
-To configure LDAP authentication, go to **Administration** > **Setting** > **LDAP** section &#x20;
+To configure LDAP authentication, go to **Administration** > **Setting** > **LDAP** section
 
 ![](<../../../../.gitbook/assets/image (665).png>)
 

@@ -1,3 +1,7 @@
+---
+description: Configure SAML on your workspace
+---
+
 # SAML
 
 SAML(Security Assertion Markup Language) is an XML-based format and protocol for exchanging authentication and authorization data between parties. This standard of authentication has significant advantages over logging in using a username/password:

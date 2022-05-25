@@ -1,3 +1,7 @@
+---
+description: Configure aspects of user's data download
+---
+
 # User Data Download
 
 This setting lets you configure aspects that involve users downloading their data from the server.

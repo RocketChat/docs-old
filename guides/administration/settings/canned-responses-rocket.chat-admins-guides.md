@@ -1,5 +1,5 @@
 ---
-description: Rocket.Chat Enterprise feature
+description: Setup up canned responses in your workspace
 ---
 
 # Canned Responses Rocket.Chat Admin's Guides

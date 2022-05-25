@@ -1,5 +1,5 @@
 ---
-description: (Alpha)
+description: Configure federation on your workspace
 ---
 
 # Federation

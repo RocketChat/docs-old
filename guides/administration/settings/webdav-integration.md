@@ -1,3 +1,7 @@
+---
+description: Configure WebDAV servers like Nextcloud
+---
+
 # Webdav Integration
 
 The WebDAV(Web Distributed Authoring and Versioning) protocol provides a framework for users to create, change and move documents on a server. Using this setting you are able to link WebDAV servers like Nextcloud etc.

@@ -1,3 +1,7 @@
+---
+description: Integration between Rocket.Chat and Youtube Live
+---
+
 # Livestream & Broadcasting (Youtube)
 
 > Please note that this feature will only be available from versions 0.66 and forward.
@@ -12,7 +16,7 @@ This feature is currently in beta! Please report bugs to github.com/RocketChat/R
 
 The Broadcasting feature can only be used with the Livestream Tab feature.
 
-You can find the settings for this feature  `Livestream & Broadcasting` in the admin panel.
+You can find the settings for this feature `Livestream & Broadcasting` in the admin panel.
 
 If you set the `Broadcasting Enable` setting to false, users won't be able to create live streams using their webcams, but will still be able to link a live stream from youtube.
 

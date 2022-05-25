@@ -1,3 +1,7 @@
+---
+description: Configure message settings
+---
+
 # Message
 
 In this section, you have settings regarding messages on your server and all the actions that can be performed with them.

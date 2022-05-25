@@ -1,5 +1,5 @@
 ---
-description: Set bots helper fields.
+description: Set bots helper fields
 ---
 
 # Bots

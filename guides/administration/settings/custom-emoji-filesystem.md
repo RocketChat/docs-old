@@ -1,5 +1,5 @@
 ---
-description: Set Custom Emoji
+description: Specify custom emoji filesystem for your workspace
 ---
 
 # Custom Emoji Filesystem

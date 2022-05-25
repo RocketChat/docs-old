@@ -1,3 +1,7 @@
+---
+description: Configure OAuth
+---
+
 # OAuth
 
 Rocket.Chat supports several different ways to authenticate, beyond the basic username/password authentication. Most authentication providers require a clientID and a secret.
@@ -11,8 +15,6 @@ To set up your desired provider:
 ![](<../../../../.gitbook/assets/image (132).png>)
 
 ## OAuth Methods
-
-
 
 {% content-ref url="nextcloud-oauth-setup.md" %}
 [nextcloud-oauth-setup.md](nextcloud-oauth-setup.md)

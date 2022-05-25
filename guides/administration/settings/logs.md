@@ -1,3 +1,7 @@
+---
+description: Configure server logs
+---
+
 # Logs
 
 Here you have the interface to configure how server logs will be received.

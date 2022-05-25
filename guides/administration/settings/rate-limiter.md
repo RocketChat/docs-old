@@ -1,3 +1,7 @@
+---
+description: Configure the rate of requests sent or received by your server
+---
+
 # Rate Limiter
 
 Rocket.Chat Rate Limiter is used to control the rate of requests sent or recieved by your Rocket.Chat server. It can be used to prevent cyber attacks like DoS(Denial of Service) attacks and limit web scraping.
@@ -10,7 +14,7 @@ To access this setting, go to **Administration** > **Settings** > **Rate Limiter
 
 ## API Rate Limiter <a href="#9f0duy7a3no" id="9f0duy7a3no"></a>
 
-* **Enable Rate Limiter**: Lets you enable API  rate limiter.
+* **Enable Rate Limiter**: Lets you enable API rate limiter.
 * **Enable Rate Limiter in development**: When enabled, rate limiter will be enabled for development. Llimit the number of calls to the endpoints in the development environment?
 * **Default number calls to the rate limiter**: Number of default calls for each endpoint of the REST API, allowed within the time range defined below
 * **Default time limit for the rate limiter (in ms)**: Takes in time in seconds to limit the number of calls at each endpoint of the REST API (in ms).
@@ -27,9 +31,9 @@ Customize rate-limiting for methods and subscriptions to avoid a high load of We
   * **Limit by User: interval time**: The time interval in seconds for limiting the user
 * **Limit by User per Method**: When set to true, it enables limiting user's rate per method
   * **Limit by User per Method: requests allowed**: The number of request allowed
-  * **Limit by User per Method: interval time**: The interval for limiting user per method&#x20;
+  * **Limit by User per Method: interval time**: The interval for limiting user per method
 * **Limit by Connection per Method**: Lets you set connection limit by method
-  * **Limit by Connection per Method: requests allowed**: The number of request requests allowed&#x20;
+  * **Limit by Connection per Method: requests allowed**: The number of request requests allowed
   * **Limit by Connection per Method: interval time**: Interval for limiting connection per method
 
 ## Feature Limiting

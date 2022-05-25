@@ -1,3 +1,7 @@
+---
+description: Configure file upload on your workspace
+---
+
 # File Upload
 
 In this article you will find all of the settings related to File Uploads.
@@ -42,7 +46,7 @@ You can find a more detailed guide on how to set your Amazon S3 server [here](am
 
 ## FileSystem
 
-* **System Path**: The local path for where the uploaded files will be stored.
+* **System Path**: The local path for where the uploaded files will be stored.&#x20;
 
 ## Google Cloud Storage
 
@@ -68,4 +72,3 @@ Settings used in the setting of a WebDAV storage server.
 * **WebDAV Password**: Password for the remote webdav server.
 * **Proxy Avatars**: Proxy avatar file transmissions through your server instead of direct access to the asset's URL.
 * **Proxy Uploads**: Proxy upload file transmissions through your server instead of direct access to the asset's URL.
-

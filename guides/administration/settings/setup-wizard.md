@@ -1,6 +1,10 @@
+---
+description: Configure the setup wizard of your workspace
+---
+
 # Setup Wizard
 
-This section has basic configurations on setting up information about your server.
+This section has basic configurations for the setup wizard of your workspace.
 
 To access this menu, go to **Administration** > **Settings** > **Setup Wizard**.
 

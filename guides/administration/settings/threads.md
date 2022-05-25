@@ -1,3 +1,7 @@
+---
+description: Configure Rocket.Chat threads on your workspace
+---
+
 # Threads
 
 Rocket.Chat Threads can be used to organize your chats into folders, instead of having every single message come in one under the other, you can click and reply to individual messages so that it opens up a different view just for that conversation.

@@ -1,3 +1,7 @@
+---
+description: Enable and configure omnichannel on your workspace
+---
+
 # Omnichannel Admin's Guide
 
 OmniChannel adds the ability to receive conversations from a pop-up livechat support on your website or your business Facebook chat or any other media directly in Rocket.chat.
@@ -68,7 +72,7 @@ First, you will need to request an API key from Rocket.Chat Support then set it 
 Send an email to [omni@rocket.chat](mailto:omni@rocket.chat) to request an API key. These are processed as time allows, and may take a few days, but you should have your key and secret soon enough.
 
 1. Enable Facebook integration
-2. Enter your _OmniChannel API Key_&#x20;
+2. Enter your _OmniChannel API Key_
 3. _Enter OmniChannel API Secret_. **Save** the changes
 
 ‌
@@ -125,7 +129,7 @@ Routing allows you to define the behavior of your livechat queues.
 
 Detail of every setting is listed below:
 
-1. Select your preferred routing method (Please refer to [this](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel/livechat-queues) article for information on  types of routing methods used in rocket chat)
+1. Select your preferred routing method (Please refer to [this](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel/livechat-queues) article for information on types of routing methods used in rocket chat)
 2. Enable acceptance of incoming omnichannel requests even if there are no online agents if you want
 3. Enable if you want the routing system to attempt to find a bot agent before addressing new conversations to a human agent
 4. Set the limit of **Max number of items displayed in the queue** if you want

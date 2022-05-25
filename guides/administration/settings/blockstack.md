@@ -1,5 +1,5 @@
 ---
-description: Setup Blockstack authentication on your server
+description: Setup Blockstack authentication on your workspace
 ---
 
 # Blockstack

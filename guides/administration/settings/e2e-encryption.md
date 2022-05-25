@@ -1,5 +1,5 @@
 ---
-description: Settings for group encryption.
+description: Enable/disable e2e encryption on your workspace
 ---
 
 # E2E Encryption

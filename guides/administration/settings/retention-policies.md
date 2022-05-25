@@ -1,5 +1,5 @@
 ---
-description: Automatically prunes old messages across your Rocket.Chat instance.
+description: Configure automatic prune of old messages across your workspace
 ---
 
 # Retention Policy
@@ -40,7 +40,7 @@ Furthermore, three more options allow you to specify how the policy works:
 
 * **Exclude pinned messages**: when set to `True`, pinned messages are not deleted. For example, when you pin a few messages with important links, these messages stay intact.
 * **Only delete files**: when set to `True`, messages are not deleted, but files are. They are replaced by a simple _File removed by automatic prune_ message. When used together with **Exclude pinned messages**, only unpinned files are deleted.
-* **Timer Precision**:  establishes how often the deletion script should run. when your policies have long lifetime, or you simply do not care about the  policy's precision, you can lower this to save processing power.
+* **Timer Precision**: establishes how often the deletion script should run. when your policies have long lifetime, or you simply do not care about the policy's precision, you can lower this to save processing power.
 
 ### Per-channel Policies
 

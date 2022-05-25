@@ -1,3 +1,7 @@
+---
+description: Configure IRC federation
+---
+
 # IRC Federation
 
 IRC Federation allows your server to connect to other IRC servers.

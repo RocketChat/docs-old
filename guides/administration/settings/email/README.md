@@ -1,3 +1,7 @@
+---
+description: Configure email on your workspace
+---
+
 # Email
 
 Configure email setting to be able to broadcast emails directly from Rocket.Chat.

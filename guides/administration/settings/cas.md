@@ -1,3 +1,7 @@
+---
+description: Set up Central Authentication Service (CAS) on your workspace
+---
+
 # CAS
 
 Central Authentication Service (CAS) allows users to use one set of credentials to sign in to many sites over many different protocols.
@@ -23,8 +27,8 @@ Your Rocket.Chat instance is the _CAS client_. You must provide a compatible _CA
 Once you know your CAS server's URL, proceed with the settings.
 
 * **Enabled**: Enable CAS on your server
-* **SSO Base URL**: The base URL of your external SSO service e.g [`https://sso.example.undef/sso/`](https://sso.example.undef/sso/)``
-* **SSO Login URL**: The login URL of your external SSO service e.g [`https://<<CAS_server_url>>/cas/login`](https://sso.example.undef/sso/login)``
+* **SSO Base URL**: The base URL of your external SSO service e.g [`https://sso.example.undef/sso/`](https://sso.example.undef/sso/)\`\`
+* **SSO Login URL**: The login URL of your external SSO service e.g [`https://<<CAS_server_url>>/cas/login`](https://sso.example.undef/sso/login)\`\`
 * **CAS Version**: Only use a supported CAS version supported by your CAS SSO service e.g `(1.0|2.0)`
 
 The `/cas` and `/cas/login` URLs are the standard, but not required. Check with your CAS server provider if the defaults do not work.
@@ -38,7 +42,7 @@ The `/cas` and `/cas/login` URLs are the standard, but not required. Check with 
 * **Always Sync User Data**: When set to true, it synchronizes external CAS User data into available attributes upon login. Note: Attributes are always synced upon account creation anyway.
 *   **Attribute Map**: Use this JSON input to build internal attributes (key) from external attributes (value). External attribute names enclosed with '%' will be interpolated in value strings.
 
-    Example, `{"email":"%email%", "name":"%firstname%, %lastname%"}`&#x20;
+    Example, `{"email":"%email%", "name":"%firstname%, %lastname%"}`
 
     The attribute map is always interpolated. In CAS 1.0 only the `username` attribute is available. Available internal attributes are: username, name, email, rooms; rooms is a comma-separated list of rooms to join upon user creation e.g: {"rooms": "%team%,%department%"} would join CAS users on creation to their team and department channel.
 

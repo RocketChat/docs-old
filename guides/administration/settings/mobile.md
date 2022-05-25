@@ -1,8 +1,12 @@
+---
+description: Configure mobile app settings for your workspace
+---
+
 # Mobile
 
-Setting to be applied on the users using Mobile App on your server.
+Setting to be applied on the users using Mobile App on your workspace.
 
-This gives you the flexibility to define some behaviours when connecting to your server from a mobile device.
+This gives you the flexibility to define some behaviors when connecting to your workspace from a mobile device.
 
 To access this setting, go to **Administration** > **Settings** > **Mobile**.
 

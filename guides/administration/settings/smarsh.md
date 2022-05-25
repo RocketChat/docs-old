@@ -1,3 +1,7 @@
+---
+description: Configure Smarsh to preserve email communication
+---
+
 # Smarsh
 
 Smarsh is used to confidently and efficiently preserve email communications.

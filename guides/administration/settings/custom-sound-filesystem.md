@@ -1,3 +1,7 @@
+---
+description: Specify custom sound filesystem for your workspace
+---
+
 # Custom Sound Filesystem
 
 By specifying the sound file system, you have the flexibility of specifying how emojis are stored.

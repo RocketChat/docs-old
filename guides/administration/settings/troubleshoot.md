@@ -1,6 +1,10 @@
+---
+description: Configure how troubleshooting is handled in your workspace
+---
+
 # Troubleshoot
 
-Configure how troubleshooting is handled on your server.
+Configure how troubleshooting is handled in your workspace
 
 To access this section, go to **Administration** > **Settings** > **Troubleshoot**.
 

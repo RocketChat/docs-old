@@ -1,6 +1,8 @@
-# Accounts
+---
+description: Modify various settings about the accounts of the users in your workspace
+---
 
-In this section, you can modify various settings about the accounts of the users in your Rocket.Chat server.
+# Accounts
 
 In this guide, we will go over all settings in the _Accounts_ Section.
 

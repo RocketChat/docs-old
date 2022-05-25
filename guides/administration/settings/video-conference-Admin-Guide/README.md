@@ -1,6 +1,8 @@
-# Video Conference Admin Guide
+---
+description: Configure video conferencing for your workspace
+---
 
-This section lets you configure video conferencing for your server.
+# Video Conference Admin Guide
 
 Using this, you are able to initiate and stream with various video conferencing options.
 
