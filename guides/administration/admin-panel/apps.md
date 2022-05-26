@@ -10,7 +10,7 @@ To access apps, go to **Administration** > **Apps**.
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (26).png>)
 
 ![](../../../.gitbook/assets/2022-01-28\_00-12-09.png)
 
@@ -30,7 +30,7 @@ Rocket.Chat provides you with a lot of Rocket.Chat apps. They can be installed a
 
 You can also upload your custom app package yourself and then install it.
 
-To find information on marketplace roles please check out this article.&#x20;
+To find information on marketplace roles please check out this article.
 
 {% embed url="https://docs.rocket.chat/guides/roles-in-rocket.chat/marketplace-roles" %}
 
@@ -48,8 +48,6 @@ All Rocket.Chat Apps might not require any setup configuration or user settings.
 {% endhint %}
 
 If you are looking for the manual/user guide of a particular app, please find them [here](https://docs.rocket.chat/guides/rocket-chat-apps) or use the search bar on the top right corner.
-
-
 
 {% hint style="success" %}
 Following apps are part of the **Enterprise Edition** offerings. You don't have to purchase them if you are already subscribed to the Enterprise Edition of Rocket.Chat.

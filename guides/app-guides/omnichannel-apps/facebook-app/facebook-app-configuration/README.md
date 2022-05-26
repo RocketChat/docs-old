@@ -2,13 +2,13 @@
 
 Go to **Administration** > **Apps**. Go to the **Installed** tab and search _Facebook Messenger._
 
-Click open your Facebook app to see the settings available to you as an administrator:&#x20;
+Click open your Facebook app to see the settings available to you as an administrator:
 
 Following are the settings available:
 
-![](<../../../../../.gitbook/assets/2022-02-01\_03-05-53 (1).png>)
+![](../../../../../.gitbook/assets/2022-02-01\_03-05-53.png)
 
-1\.  **Agents Display Name:** You can choose to display the agent's name or username.
+1\. **Agents Display Name:** You can choose to display the agent's name or username.
 
 2\. **File Upload Enabled:** You can enable/disable file sharing and also set a limit for maximum upload size.
 

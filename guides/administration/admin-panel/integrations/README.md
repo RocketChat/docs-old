@@ -9,7 +9,7 @@ Available integrations:
 * Incoming WebHook → Let an external service send a request to Rocket.Chat to be processed.
 * Outgoing WebHook → Let Rocket.Chat trigger and optionally send a request to an external service and process the response.
 
-By default the WebHooks is designed to post a message only. The _message_ is part of a JSON structure, which has the same format as described in the API documentation on how to [“Post a chat message”](broken-reference).
+By default the WebHooks is designed to post a message only. The _message_ is part of a JSON structure, which has the same format as described in the API documentation on how to [“Post a chat message”](broken-reference/).
 
 If you would like more power and control over various features of Rocket.Chat, aside from sending and receiving messages, take a look at [Rocket.Chat Apps](https://github.com/RocketChat/docs/tree/663a6019e9bf97ca60fde138cc8d6917dd32703e/apps-development/rocket.chat-app).
 
@@ -21,17 +21,17 @@ WebHooks can be handled by _ES2015 / ECMAScript 6_ scripts to process the reques
 
 * Go to your **Admin Panel**
 
-![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 copy (1).png>)
+![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (30).png>)
 
 * Go to **Integrations**
 
-![](<../../../../.gitbook/assets/2021-11-22\_22-27-32 (1).png>)
+![](../../../../.gitbook/assets/2021-11-22\_22-27-32.png)
 
-* Create a **New** Integration&#x20;
+* Create a **New** Integration
 
-![](../../../../.gitbook/assets/2021-11-22\_22-29-03.png)
+![](<../../../../.gitbook/assets/2021-11-22\_22-29-03 (1).png>)
 
-* &#x20;Select **Incoming WebHook**
+* Select **Incoming WebHook**
 
 ![](../../../../.gitbook/assets/2021-11-22\_22-29-48.png)
 
@@ -130,15 +130,15 @@ The response of the request also executes the script, calling another method so 
 
 * Go to your **Admin Panel**
 
-![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 copy (2).png>)
+![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (20).png>)
 
 * Go to **Integrations**
 
-![](../../../../.gitbook/assets/2021-11-22\_22-27-32.png)
+![](<../../../../.gitbook/assets/2021-11-22\_22-27-32 (1).png>)
 
-* Create a **New** Integration&#x20;
+* Create a **New** Integration
 
-![](<../../../../.gitbook/assets/2021-11-22\_22-29-03 (1).png>)
+![](../../../../.gitbook/assets/2021-11-22\_22-29-03.png)
 
 * Select **Outgoing WebHook**
 

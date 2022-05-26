@@ -2,13 +2,13 @@
 
 Rocket.Chat has a vast and customizable permissions system. Most of the actions a user can make require certain permission so you can customize what users can do and see.
 
-To access this menu,&#x20;
+To access this menu,
 
 1. Go to **Administration** > **Permissions**
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 copy (1) (3).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (29).png>)
 
 ![](../../../.gitbook/assets/2021-11-22\_22-56-51.png)
 
@@ -16,7 +16,7 @@ as shown below:
 Permission changes are immediate and transparent. Users do not need to log out, log in, or refresh to change permissions.
 {% endhint %}
 
-## &#x20;Roles
+## Roles
 
 A `Role` is a set of permissions that can be given to users. Rocket.Chat already comes with a set of default roles that can be edited. You can also create new roles for users.
 
@@ -46,7 +46,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 
 | Permission                              | Purpose                                                                                                                                                                                                                                                                                                          |
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `access-mailer`                         | Permission to use the [Mailer Tool](broken-reference). Accessible from Administration -> Mailer.                                                                                                                                                                                                                 |
+| `access-mailer`                         | Permission to use the [Mailer Tool](broken-reference/). Accessible from Administration -> Mailer.                                                                                                                                                                                                                |
 | `access-permissions`                    | Permission to create and edit roles and permissions. Accessible from Administration -> Permissions.                                                                                                                                                                                                              |
 | `add-oauth-service`                     | Permission to manage different OAuth services and apps. Accessible from Administration -> OAuth Apps.                                                                                                                                                                                                            |
 | `add-user-to-any-c-room`                | Permission to add a user to a public channel.                                                                                                                                                                                                                                                                    |
@@ -56,7 +56,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | `archive-room`                          | Permission to archive a channel.                                                                                                                                                                                                                                                                                 |
 | `assign-admin-role`                     | Permission to promote user to Admin. Requires view-user-administration permission. Accessible from Administration -> Users.                                                                                                                                                                                      |
 | `assign-roles`                          | Permission to assign roles for a user. Requires view-user-administration permission. Accessible from Administration -> Users.                                                                                                                                                                                    |
-| `auto-translate`                        | Permission to use the [Auto Translate Tool](../misc.-admin-guides/google-cloud/auto-translate.md). Accessible from Administration -> Message -> Auto Translate.                                                                                                                                                  |
+| `auto-translate`                        | Permission to use the [Auto Translate Tool](../advanced-admin-settings/google-cloud/auto-translate.md). Accessible from Administration -> Message -> Auto Translate.                                                                                                                                             |
 | `ban-user`                              | Permission to ban a user.                                                                                                                                                                                                                                                                                        |
 | `bulk-create-c`                         | Permission to bulk create public channels.                                                                                                                                                                                                                                                                       |
 | `bulk-register-user`                    | Permission to bulk add users.                                                                                                                                                                                                                                                                                    |
@@ -144,5 +144,5 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | `view-user-administration`              | Enables Administration -> Users module. Only includes partial, read-only list view of other user accounts currently logged into the system. No user account information is accessible with this permission. Add view-full-other-user-info to see a complete list of other users via the Administration -> Users. |
 | `auditor-log`                           | Permission to check the details about who used the Message Auditing Panel and their search results                                                                                                                                                                                                               |
 | `can-audit-log`                         | Permission to check the details about who used the Message Auditing Panel and their search results                                                                                                                                                                                                               |
-| `view-engagement-dashboard`             | Permission to  who can view engagement dashboard                                                                                                                                                                                                                                                                 |
+| `view-engagement-dashboard`             | Permission to who can view engagement dashboard                                                                                                                                                                                                                                                                  |
 | `Allow file download on mobile devices` | permission to allow mobile users to be able to download and upload files from and to the server                                                                                                                                                                                                                  |

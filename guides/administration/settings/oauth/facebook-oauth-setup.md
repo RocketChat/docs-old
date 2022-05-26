@@ -1,8 +1,8 @@
 # Facebook OAuth Setup
 
-To use Facebook OAuth on your server, you need a Facebook `App ID` and `Secret`.&#x20;
+To use Facebook OAuth on your server, you need a Facebook `App ID` and `Secret`.
 
-Follow these steps to enable Facebook OAuth on your server.&#x20;
+Follow these steps to enable Facebook OAuth on your server.
 
 * Login to your Facebook's [Developer account](http://developers.facebook.com) and navigate to **My Apps**
 
@@ -12,7 +12,7 @@ You will be required to verify your account before proceeding if it is your firs
 
 * Click on **Create App** to create a new app
 
-![](<../../../../.gitbook/assets/image (687) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (667) (1) (1) (1) (1).png>)
 
 * Select the app type from the list of options and **Next**
 
@@ -38,13 +38,13 @@ You will be required to verify your account before proceeding if it is your firs
 
 ![](<../../../../.gitbook/assets/image (662) (1) (1).png>)
 
-* To be able to use OAuth login, you need to turn off app in development mode&#x20;
+* To be able to use OAuth login, you need to turn off app in development mode
 
 ![](<../../../../.gitbook/assets/image (664) (1) (1) (1).png>)
 
 * Copy the credentials and fill them in the Google section of the OAuth configuration on your RocketChat server then hit **Save changes**
 
-![](<../../../../.gitbook/assets/image (686) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (652) (1) (1).png>)
 
 * The Facebook OAuth button can now be seen on the login and register page
 

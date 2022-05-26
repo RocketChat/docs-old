@@ -23,15 +23,15 @@ To install the Trello Rocket.Chat App,
 * Search for the **Tello** app and click on the item
 * Click **Install** and accept the needed permisions
 
-![](<../../.gitbook/assets/image (647).png>)
+![](<../../.gitbook/assets/image (48) (2).png>)
 
 You should see an interface with the app details showing you have installed it.
 
-![](<../../.gitbook/assets/image (677).png>)
+![](<../../.gitbook/assets/image (408).png>)
 
 A direct message is then recieved from the `trello.bot` to assist you with the setup of the app
 
-![](<../../.gitbook/assets/image (659).png>)
+![](<../../.gitbook/assets/image (109) (2).png>)
 
 Now that you have the app installed on your server, it is time to configure the integration.
 
@@ -39,22 +39,22 @@ Now that you have the app installed on your server, it is time to configure the 
 
 * Let's start the setup by running the slash command `/trello setup` in the chat box
 
-![](<../../.gitbook/assets/image (660).png>)
+![](<../../.gitbook/assets/image (236) (2).png>)
 
 * A set of instructions are given to follow
 
-![](<../../.gitbook/assets/image (682).png>)
+![](<../../.gitbook/assets/image (455) (2).png>)
 
 * Head over to  [https://trello.com](https://trello.com/app-key/) and login
 * Visit [https://trello.com/app-key/](https://trello.com/app-key/) and accept the terms to see your Trello API key
 * Copy the server's url given by the `trello.bot` and paste in the **New Allowed Origin** field on your Trello api page then **Submit**
 
-![](<../../.gitbook/assets/image (697).png>)
+![](<../../.gitbook/assets/image (595) (2).png>)
 
 * Next copy the `API Key` and `OAuth Secret` from the Trello page. It is needed to complete the configuration on the Trello app's configuration page within Rocket.Chat
 * With the credentials provided, hit Save changes to commit
 
-![](<../../.gitbook/assets/image (646).png>)
+![](<../../.gitbook/assets/image (34) (2) (1).png>)
 
 * After the setup, all you have to do is authorize the user so it can connect and interact with the app. This is done by typing the slash command `/trello authorize` in the `trello.bot` chat and **Authenticate** the app to your Trello account.
 

@@ -12,7 +12,7 @@ To access this menu, go to **Administration** > **Info**.
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (26).png>)
 
 ![](<../../../.gitbook/assets/image (662) (1) (1) (1) (1).png>)
 
@@ -91,7 +91,7 @@ Clear the old license code and paste the new license code then hit the **Apply l
   * **Total Messages in Channels**: Total messages in all channels only
   * **Total Messages in Private Groups**: Total number of messages in private groups only
   * **Total Messages in Direct Messages**: Total number of messages that have been sent in all direct messages
-  * **Total Messages in Omnichannel**: The total number of messages in omnichannel&#x20;
+  * **Total Messages in Omnichannel**: The total number of messages in omnichannel
 
 More details on usage info can be seen on the [engagement-dashboard.md](engagement-dashboard.md "mention")
 
@@ -130,7 +130,7 @@ We also have a guide on [talking-to-users-from-another-server.md](../../user-gui
 
 To download info about your server, click the **Download Info** button by the top right of your info panel.
 
-![](<../../../.gitbook/assets/2021-11-20\_23-38-23 (1).png>)
+![](../../../.gitbook/assets/2021-11-20\_23-38-23.png)
 
 A download is prompted with a file named `statistics.json`.
 
@@ -140,4 +140,4 @@ Refreshing info on your RocketChat server will prompt for the latest stats to be
 
 To refresh info, click the **Refresh** button by the top right of your info panel.
 
-![](../../../.gitbook/assets/2021-11-20\_23-42-35.png)
+![](<../../../.gitbook/assets/2021-11-20\_23-42-35 (1).png>)

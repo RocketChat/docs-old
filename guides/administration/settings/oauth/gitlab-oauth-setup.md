@@ -2,10 +2,10 @@
 
 To use GitLab OAuth on your Rocket.Chat server, you are required to have a GitLab `URL`, `Id` and `Secret` gotten from the GitLab application.
 
-Follow these steps to enable GitlLab OAuth on your server.&#x20;
+Follow these steps to enable GitlLab OAuth on your server.
 
-* First, go to [Gitlab Application ](https://gitlab.com/-/profile/applications)
-* You are presented with fields to complete. Fill in the Application name, redirect URI and other details then hit **Save application**&#x20;
+* First, go to [Gitlab Application](https://gitlab.com/-/profile/applications)
+* You are presented with fields to complete. Fill in the Application name, redirect URI and other details then hit **Save application**
 
 ![](<../../../../.gitbook/assets/image (661) (1) (1).png>)
 
@@ -13,7 +13,7 @@ Follow these steps to enable GitlLab OAuth on your server.&#x20;
 
 ![](<../../../../.gitbook/assets/image (681) (1) (1) (1).png>)
 
-* Copy these details and go to the GitLab OAuth section on your Rocket.Chat server by navigating to **Administration** > **Settings** > **OAuth**&#x20;
+* Copy these details and go to the GitLab OAuth section on your Rocket.Chat server by navigating to **Administration** > **Settings** > **OAuth**
 * Fill in the infomation and hit **Save changes** to commit
 
 ![](<../../../../.gitbook/assets/image (670) (1) (1) (1).png>)
@@ -24,4 +24,4 @@ Follow these steps to enable GitlLab OAuth on your server.&#x20;
 
 When used for authentication, a prompt is gotten for users to accept access
 
-![](<../../../../.gitbook/assets/image (686) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (684) (1) (1).png>)

@@ -4,19 +4,17 @@ Rocket.Chat allows you to add custom emoji files that can be used within Rocket.
 
 ## Add a Custom Emoji
 
-To access this menu,&#x20;
+To access this menu,
 
 1. Go to **Administration** > **Custom Emoji**
 
 as shown below:
 
-![](../../../.gitbook/assets/2021-11-20\_23-29-48.png)
-
-
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (22).png>)
 
 ![](<../../../.gitbook/assets/image (393).png>)
 
-2\. Click the **+** on the top right&#x20;
+2\. Click the **+** on the top right
 
 3\. Enter a name for your custom emoji
 

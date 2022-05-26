@@ -4,7 +4,7 @@ description: Using units, you can group your departments for management purposes
 
 # Units Manager's Guide
 
-![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (4).jpg>)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (15).jpg>)
 
 Suppose you are a manager or a monitor and want to oversee multiple departments, you can make a unit of those departments and manage it.
 
@@ -12,7 +12,7 @@ To access **Units** settings:
 
 Go to **Units** in the omnichannel panel settings, as shown below:
 
-![](<../../.gitbook/assets/0 (6).png>)
+![](<../../.gitbook/assets/0 (13).png>)
 
 You can see the list of units.
 

@@ -5,7 +5,7 @@ description: >-
   free push notifications, and more.
 ---
 
-# Registration and Onboarding (Self-hosted)
+# Cloud account setup wizard
 
 ## Admin Info
 
@@ -17,7 +17,7 @@ To set up your first admin user:
 4. Enter the **Password**.
 5. Hit **Next.**
 
-![](../../.gitbook/assets/2022-01-28\_01-26-27.png)
+![](<../../.gitbook/assets/2022-01-28\_01-26-27 (1).png>)
 
 ## Organization Info
 
@@ -32,13 +32,11 @@ To configure your organization :
 
 ![](../../.gitbook/assets/2022-01-28\_01-29-59.png)
 
-
-
 ## Register your Server
 
-You can either register your server or move forward as a standalone.&#x20;
+You can either register your server or move forward as a standalone.
 
-![](<../../.gitbook/assets/2022-01-28\_01-35-24 (1).png>)
+![](../../.gitbook/assets/2022-01-28\_01-35-24.png)
 
 {% hint style="info" %}
 To register your server we need to connect it to your cloud account. If you already have one- we will like it automatically. Otherwise, a [new account](https://docs.rocket.chat/rocket.chat-saas/cloud-account/create-new-cloud-account) will be created.
@@ -46,7 +44,7 @@ To register your server we need to connect it to your cloud account. If you alre
 
 ## ![](../../.gitbook/assets/2022-01-28\_01-53-56.png)
 
-You receive a confirmation email at the address you have given above to register your server.&#x20;
+You receive a confirmation email at the address you have given above to register your server.
 
 ![](../../.gitbook/assets/2022-01-28\_01-57-46.png)
 
@@ -59,4 +57,3 @@ Your workspace is ready. Click **Go to your workspace** to access it.
 ![](<../../.gitbook/assets/image (80).png>)
 
 ![](<../../.gitbook/assets/image (81).png>)
-

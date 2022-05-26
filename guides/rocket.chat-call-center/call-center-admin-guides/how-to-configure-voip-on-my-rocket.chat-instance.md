@@ -13,7 +13,7 @@ To configure VoIP on your Rocket.Chat instance:
 
 as shown below:
 
-![Rocket.Chat Call Center](<../../../.gitbook/assets/image (687).png>)
+![Rocket.Chat Call Center](<../../../.gitbook/assets/image (688) (1).png>)
 
 ## 1. Enabling VoIP
 

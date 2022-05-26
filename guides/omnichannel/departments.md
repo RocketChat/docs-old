@@ -6,7 +6,7 @@ To access **Departments** settings:
 
 1. Go to the dots menu and hit **Omnichannel**. Omnichannel settings will open up.
 
-![](../../.gitbook/assets/2022-01-01\_14-31-40.png)
+![](<../../.gitbook/assets/2022-01-01\_14-31-40 (1).png>)
 
 2\. Hit **Departments.**
 
@@ -18,9 +18,7 @@ Click +**New** on the top right of the screen.
 
 The new department's settings page will appear, as shown below:
 
-![](<../../.gitbook/assets/2022-01-01\_15-46-46 (4).png>)
-
-
+![](../../.gitbook/assets/2022-01-01\_15-46-46.png)
 
 1. **Enable** your new department.
 2. **Name** your new department.
@@ -45,7 +43,7 @@ The new department's settings page will appear, as shown below:
 
 11\. **Waiting queue message:** Mention the custom message you want to be displayed when the user is waiting in the queue.
 
-12\. **List of departments allowed for forwarding:** List the name of departments you would like to forward your department's chat to.&#x20;
+12\. **List of departments allowed for forwarding:** List the name of departments you would like to forward your department's chat to.
 
 13\. **Fallback department for forwarding:** You can configure fallback departments to receive conversations when the primary department (the one you are creating) is offline. If conversation is not answered due to unavailable agents, it's redirected to another department, thus reducing service response time and consequently increasing customer satisfaction in relation to the service provided.
 
@@ -59,13 +57,13 @@ The new department's settings page will appear, as shown below:
 
 Successfully added agents would be listed, as shown below:
 
-![](../../.gitbook/assets/2022-01-01\_16-32-28.png)
+![](<../../.gitbook/assets/2022-01-01\_16-32-28 (1).png>)
 
 18\. Hit **Save**.
 
 Your newly created department is displayed in the list of departments, as shown below:
 
-![](<../../.gitbook/assets/2022-01-01\_16-34-21 (3) (1).png>)
+![](<../../.gitbook/assets/2022-01-01\_16-34-21 (1) (1) (2).png>)
 
 You can have the following behavior depending on how many departments you have created:
 

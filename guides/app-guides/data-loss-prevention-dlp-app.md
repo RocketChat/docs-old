@@ -9,7 +9,7 @@ description: >-
 
 ## **To Enable DLP App:**
 
-1. Go to **Administration**&#x20;
+1. Go to **Administration**
 
 ![](<../../.gitbook/assets/image (249).png>)
 
@@ -47,15 +47,15 @@ Or mention the channels only which you want to be monitored under Content Contro
 
 ![](<../../.gitbook/assets/image (262).png>)
 
-9\. Toggle switch **Censor only Sensitive Information** to only replace sensitive information by hashtags. Switch it off to censor the full message containing that sensitive information.&#x20;
+9\. Toggle switch **Censor only Sensitive Information** to only replace sensitive information by hashtags. Switch it off to censor the full message containing that sensitive information.
 
 ![](<../../.gitbook/assets/image (263).png>)
 
 10\. Set the title of this temporary message under **Custom Blacklisted Message title** that you want the blacklisted message to be replaced by temporarily in the channel until the blacklisted message has been approved by moderators.
 
-![](<../../.gitbook/assets/image (269) (1).png>)
+![](<../../.gitbook/assets/image (269).png>)
 
-11\. **Custom Pending approval message** will be shown if the user clicks on the  **More info** button under the  blacklisted message in a room until the blacklisted message gets approved, as shown below:
+11\. **Custom Pending approval message** will be shown if the user clicks on the **More info** button under the blacklisted message in a room until the blacklisted message gets approved, as shown below:
 
 ![](<../../.gitbook/assets/image (265).png>)
 
@@ -67,4 +67,4 @@ Or mention the channels only which you want to be monitored under Content Contro
 
 ![](<../../.gitbook/assets/image (268).png>)
 
-Your DLP app functional now.&#x20;
+Your DLP app functional now.

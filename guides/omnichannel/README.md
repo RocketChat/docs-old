@@ -7,16 +7,16 @@ description: >-
 
 # Omnichannel
 
-If you struggle to handle leads and clients in a multi-channel environment, you lose valuable potential sales. That's where Omnichannel comes into the picture. Omnichannel is a communication strategy essential to **acquire** and **retain** customers. It is designed to create an exceptional customer experience across the company’s brands, building a better relationship with its audience. It gives consumers a choice to engage with you on their favorite channels:&#x20;
+If you struggle to handle leads and clients in a multi-channel environment, you lose valuable potential sales. That's where Omnichannel comes into the picture. Omnichannel is a communication strategy essential to **acquire** and **retain** customers. It is designed to create an exceptional customer experience across the company’s brands, building a better relationship with its audience. It gives consumers a choice to engage with you on their favorite channels:
 
-* SMS&#x20;
+* SMS
 * Email
 * Voice
 * WhatsApp
 * WeChat
 * Telegram
 * Facebook Messenger
-* Live Chat, and so on.&#x20;
+* Live Chat, and so on.
 
 {% embed url="https://docs.rocket.chat/guides/app-guides/omnichannel-apps" %}
 
@@ -42,8 +42,6 @@ Now the admin will have access to _**Omnichannel Panel Settings**_ through a new
 [Find out how to configure omnichannel on your Rocket.Chat workspace.](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#configuration)
 {% endhint %}
 
-
-
 Omnichannel area of Rocket.Chat has three primary users.
 
 1. [Admins](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel)
@@ -52,8 +50,8 @@ Omnichannel area of Rocket.Chat has three primary users.
 
 Being an omnichannel manager, you can access omnichannel settings, as shown below:
 
-![](<../../.gitbook/assets/image (598) (2) (2) (2) (2) (2) (2) (2) (2) (2).png>)
+![](<../../.gitbook/assets/image (598) (2) (2) (2) (2) (2) (2) (2) (2) (2) (1) (1) (2).png>)
 
 ![](<../../.gitbook/assets/image (58).png>)
 
-Please use the navigation on the left to find detail of each menu in their respective article.&#x20;
+Please use the navigation on the left to find detail of each menu in their respective article.

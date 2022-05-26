@@ -36,8 +36,8 @@ The message auditing panel will open up, as shown below:
 
 To search for a specific message in a specific channel:
 
-1. Type the message string that you could remember in the **Message** field.&#x20;
-2. Enter the from and to dates under **Date** to specify the period of time in which you think the message was sent.  Or you can use a specific period from the drop-down next to Date.
+1. Type the message string that you could remember in the **Message** field.
+2. Enter the from and to dates under **Date** to specify the period of time in which you think the message was sent. Or you can use a specific period from the drop-down next to Date.
 3. Select the channels in the **Channel** dropdown, to narrow the details of your search.
 4. Hit **Apply**.
 
@@ -47,14 +47,14 @@ To search for a specific message in a specific channel:
 
 To search for a specific message by a user:
 
-1. Type the message string that you want to check (e.g. abusive language) in the **Message** field.&#x20;
+1. Type the message string that you want to check (e.g. abusive language) in the **Message** field.
 2. Enter the from and to dates under **Date** to specify the period of time in which you think the message was sent. Or you can use a specific period from the drop-down next to Date.
-3. Enter username whose message you want to check in the **Users** field.&#x20;
+3. Enter username whose message you want to check in the **Users** field.
 4. Hit **Apply**.
 
 The conversations pops up, as shown below:
 
-![](<../../.gitbook/assets/image (298) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (298) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ### By Direct Messages
 
@@ -62,7 +62,7 @@ To search for a specific message by a user:
 
 1. Type the message string that you want to check in the **Message** field. (optional)
 2. Enter the from and to dates under **Date** to specify the period of time. Or you can use a specific period from the drop-down next to Date.
-3. Enter atleast two usernames whose private you want to check in the **Users** field.&#x20;
+3. Enter atleast two usernames whose private you want to check in the **Users** field.
 4. Hit **Apply**.
 
 The conversation pop up, as shown below:
@@ -75,10 +75,10 @@ Similary you can also audit an omnichannel conversation.
 
 To search for a specific omichannel conversation:
 
-1. Type the message string that you want to check in the **Message** field.&#x20;
+1. Type the message string that you want to check in the **Message** field.
 2. Enter the from and to dates under **Date** to specify the period of time. Or you can use a specific period from the drop-down next to Date.
 3. Enter the visitor's in **Visitor** field.
-4. Enter the agent's name who served this conversation you are looking for in **Agent** field.&#x20;
+4. Enter the agent's name who served this conversation you are looking for in **Agent** field.
 5. Hit **Apply**.
 
 The conversation pops up, as shown below:

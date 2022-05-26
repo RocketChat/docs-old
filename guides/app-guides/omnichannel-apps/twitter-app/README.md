@@ -12,9 +12,7 @@ description: Omnichannel Integration between Rocket.Chat and Twitter.
 Please note that Twitter is a paid app. The screenshots you see in this tutorial are from our testing server that is why the price is $0.00.
 {% endhint %}
 
-
-
-![](<../../../../.gitbook/assets/image (459) (1) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (459) (1) (1) (1) (1).png>)
 
 {% content-ref url="twitter-app-installation.md" %}
 [twitter-app-installation.md](twitter-app-installation.md)
@@ -31,4 +29,3 @@ Please note that Twitter is a paid app. The screenshots you see in this tutorial
 {% content-ref url="twitter-app-agents-guide.md" %}
 [twitter-app-agents-guide.md](twitter-app-agents-guide.md)
 {% endcontent-ref %}
-

@@ -8,7 +8,7 @@ description: >-
 
 If a livechat conversation is initiated, it gets reflected in the matrices in real-time, as shown below:
 
-![](<../../.gitbook/assets/0 (1).png>)
+![](<../../.gitbook/assets/0 (9).png>)
 
 ![](<../../.gitbook/assets/1 (9).png>)
 

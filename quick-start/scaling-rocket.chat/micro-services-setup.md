@@ -1,4 +1,4 @@
-# Microservices Setup \[beta]
+# Microservices Setup
 
 {% hint style="info" %}
 This feature is currently in the beta stage and can change without prior notice.
@@ -35,7 +35,7 @@ The following environment variables should be set for Rocket.Chat services as we
 
 Rocket.Chat microservices are composed of a few Docker containers:
 
-![](<../../../.gitbook/assets/Micro services deployment - v0.1@2x (1).png>)
+![](../../.gitbook/assets/micro-services-deployment-v0.1-2x-1-.png)
 
 ### Accounts
 

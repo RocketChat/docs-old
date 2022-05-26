@@ -59,7 +59,7 @@ $ helm install --name my-rocketchat -f values.yaml stable/rocketchat
 
 This is an example of how Rocket.Chat instances can be deployed in a very scalable, fault-tolerant and backed up configuration, suitable for critical production services.
 
-![Multi Instance k8s/Helm Deployment on AWS EKS](<../../../../.gitbook/assets/Rocket Chat AWS EKS (1).svg>)
+![Multi Instance k8s/Helm Deployment on AWS EKS](../../../.gitbook/assets/rocket-chat-aws-eks.svg)
 
 ## Upgrading
 
