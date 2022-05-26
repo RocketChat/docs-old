@@ -43,7 +43,10 @@ In case of security-relevant bugs, we might decide to backport patches to older 
 
 | Rocket.Chat Release | Latest Version                                                          |  Released At |  End of Life |
 | ------------------- | ----------------------------------------------------------------------- | -----------: | -----------: |
-| 4.4                 | [4.4.0](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.4.0)   |     Jan 2022 |          TBD |
+| 4.7                 | [4.7.2](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.7.2)   |     Apr 2022 |          TBD |
+| 4.6                 | [4.6.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.6.3)   |     Mar 2022 |     Jun 2022 |
+| 4.5                 | [4.5.6](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.5.6)   |     Feb 2022 |     May 2022 |
+| 4.4                 | [4.4.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.4.3)   |     Jan 2022 |     Apr 2022 |
 | 4.3                 | [4.3.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.3.3)   |     Dec 2021 |     Mar 2022 |
 | 4.2                 | [4.2.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.2.4)   |     Nov 2021 |     Mar 2022 |
 | 4.1                 | [4.1.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.1.4)   |     Oct 2021 |     Jan 2022 |
