@@ -1,5 +1,5 @@
 ---
-description: Configure mobile app settings for your workspace
+description: Configure mobile app settings
 ---
 
 # Mobile

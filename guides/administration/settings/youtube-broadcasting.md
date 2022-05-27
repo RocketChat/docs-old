@@ -1,12 +1,12 @@
 ---
-description: Integration between Rocket.Chat and Youtube Live
+description: Integration between Rocket.Chat and YouTube Live
 ---
 
 # Livestream & Broadcasting (Youtube)
 
 > Please note that this feature will only be available from versions 0.66 and forward.
 
-This feature adds integration between Rocket.Chat and Youtube Live, when enabled and set up, your channel owners will be able to broadcast their camera feed live to the Livestream feature which allows all users on the channel to watch a common stream.
+This feature adds integration between Rocket.Chat and YouTube Live, when enabled and set up, your channel owners will be able to broadcast their camera feed live to the Livestream feature which allows all users on the channel to watch a common stream.
 
 {% hint style="info" %}
 This feature is currently in beta! Please report bugs to github.com/RocketChat/Rocket.Chat/issues

@@ -1,5 +1,5 @@
 ---
-description: Enable and configure various SMS gateways on your workspace
+description: Enable and configure SMS gateways on your workspace
 ---
 
 # SMS

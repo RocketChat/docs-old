@@ -1,5 +1,5 @@
 ---
-description: Setup up canned responses in your workspace
+description: Set up canned responses in your workspace
 ---
 
 # Canned Responses Rocket.Chat Admin's Guides

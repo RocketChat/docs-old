@@ -1,5 +1,5 @@
 ---
-description: Configure your workspace's general settings
+description: Configure general settings
 ---
 
 # General

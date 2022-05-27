@@ -1,5 +1,5 @@
 ---
-description: Configure SlackBridge to mirror slack and Rocket.Chat in real-time
+description: Configure SlackBridge to mirror Slack in real-time
 ---
 
 # SlackBridge

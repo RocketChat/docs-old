@@ -1,5 +1,5 @@
 ---
-description: Configure federation on your workspace
+description: Configure Federation on your workspace
 ---
 
 # Federation

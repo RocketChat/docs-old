@@ -1,5 +1,5 @@
 ---
-description: Set custom meta properties for your workspace
+description: Set custom Meta properties
 ---
 
 # Meta

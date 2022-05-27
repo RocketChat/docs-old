@@ -1,5 +1,5 @@
 ---
-description: Setup analytics on your workspace
+description: Set up workspace analytics
 ---
 
 # Analytics

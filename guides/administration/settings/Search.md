@@ -1,5 +1,5 @@
 ---
-description: Select and configure search provider on your workspace
+description: Select and configure workspace search provider
 ---
 
 # Search

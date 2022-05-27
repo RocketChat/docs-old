@@ -1,5 +1,5 @@
 ---
-description: Configure IRC federation
+description: Configure IRC Federation
 ---
 
 # IRC Federation

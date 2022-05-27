@@ -1,5 +1,5 @@
 ---
-description: Set various (visual) assets for your workspace
+description: Set visual assets for your workspace
 ---
 
 # Assets

@@ -1,5 +1,5 @@
 ---
-description: Enable and configure push notification on your workspace
+description: Enable and configure push notifications on your workspace
 ---
 
 # Push (Notifications Admin Guide)

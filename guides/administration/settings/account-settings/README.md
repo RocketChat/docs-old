@@ -1,5 +1,5 @@
 ---
-description: Modify various settings about the accounts of the users in your workspace
+description: Modify workspace member account settings
 ---
 
 # Accounts
