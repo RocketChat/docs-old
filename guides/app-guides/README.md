@@ -32,4 +32,6 @@ Following apps are part of the **Enterprise Edition** offerings. You don't have 
 * [Bamboo](atlassian/bamboo-integration.md)
 * [Zoom](zoom.md)
 * [Data Loss Prevention (DLP)](data-loss-prevention-dlp-app.md)
+* [Facebook](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/facebook-app)
+* [Trello](https://docs.rocket.chat/guides/app-guides/trello)
 {% endhint %}
