@@ -51,18 +51,26 @@ This section documents how client-specific roles of keycloak managed user can be
 
 For this example, we map the `admin` and `livechat-manager` role, as documented in [Permissions](https://docs.rocket.chat/administrator-guides/permissions/).
 
-First we add the required roles to the client
+First we add the required roles to the client.
 
-![](../../../../../.gitbook/assets/client\_roles\_configurations.png)
+**Add role to the client**
 
-then we have to add a mapper entry, that maps our client roles to OpenId, passing the value to Rocket.Chat
+![Add role](<../../../../../.gitbook/assets/Add role.jpg>)
 
-![](../../../../../.gitbook/assets/client\_roles\_mapper\_roles.png)
+**View all roles**
+
+![View roles](<../../../../../.gitbook/assets/Keyclock\_User Roles -001 (1).jpg>)
+
+then we have to add a mapper entry, that maps our client roles to OpenId, passing the value to Rocket.Chat.
+
+**Create Protocol Mapper**
+
+![Create Protocol Mapper](../../../../../.gitbook/assets/Createprotocalmapping.jpg)
 
 Now in order to grant the Rocket.Chat role to a user, we have to modify the users Role Mappings.
 
-!\[User Role Mapping]\[User Role Mapping]
+**User Role Mapping**
+
+![Mappers](../../../../../.gitbook/assets/mappersrc.jpg)
 
 The roles are only synced on first login, and not being refreshed on each login. Please see the [bug report](https://github.com/RocketChat/Rocket.Chat/issues/15225) for current state.
-
-\[User Role Mapping]: user\_role\_mapping.png
