@@ -27,9 +27,7 @@ To install the Trello Rocket.Chat App,
 
 You should see an interface with the app details showing you have installed it.
 
-![](<../../.gitbook/assets/image (408).png>)
-
-A direct message is then recieved from the `trello.bot` to assist you with the setup of the app
+A direct message is then receieved from the `trello.bot` to assist you with the setup of the app
 
 ![](<../../.gitbook/assets/image (109) (2).png>)
 
@@ -37,7 +35,7 @@ Now that you have the app installed on your server, it is time to configure the 
 
 ## Configuration
 
-* Let's start the setup by running the slash command `/trello setup` in the chat box
+* Let's start the setup by running the slash command `/trello setup` in the chatbox
 
 ![](<../../.gitbook/assets/image (236) (2).png>)
 
@@ -53,9 +51,6 @@ Now that you have the app installed on your server, it is time to configure the 
 
 * Next copy the `API Key` and `OAuth Secret` from the Trello page. It is needed to complete the configuration on the Trello app's configuration page within Rocket.Chat
 * With the credentials provided, hit Save changes to commit
-
-![](<../../.gitbook/assets/image (34) (2) (1).png>)
-
 * After the setup, all you have to do is authorize the user so it can connect and interact with the app. This is done by typing the slash command `/trello authorize` in the `trello.bot` chat and **Authenticate** the app to your Trello account.
 
 ![](<../../.gitbook/assets/image (595).png>)
@@ -64,7 +59,7 @@ Now that you have the app installed on your server, it is time to configure the 
 
 ![](<../../.gitbook/assets/image (34) (2).png>)
 
-* When succeed, you get a confirmation message from the `trello.bot`
+* When successful, you get a confirmation message from the `trello.bot`
 
 ![](<../../.gitbook/assets/image (48).png>)
 

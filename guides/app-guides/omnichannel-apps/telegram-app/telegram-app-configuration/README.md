@@ -4,9 +4,7 @@ Search Telegram in the **Apps** menu on your Rocket.Chat administration panel, a
 
 ![Telegram in the Apps menu ](<../../../../../.gitbook/assets/image (505) (1).png>)
 
-Click open your Telegram app to see the settings available to you as an administrator.
-
-The following are the settings available:
+Click open your Telegram app to see the settings available to you as an administrator **Settings** tab:
 
 ![Telegram app settings](../../../../../.gitbook/assets/2022-02-01\_16-04-42.png)
 
