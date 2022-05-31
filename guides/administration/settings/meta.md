@@ -10,7 +10,7 @@ Meta elements are tags used in HTML and XHTML documents to provide structured me
 
 To access this section, go to **Administration** > **Settings** > **Meta**.
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (4).png>)
+![](../../../.gitbook/assets/administration-nav.png)
 
 ![](<../../../.gitbook/assets/image (695) (1) (1).png>)
 

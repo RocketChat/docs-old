@@ -6,7 +6,7 @@ To access **Departments** settings:
 
 1. Go to the dots menu and hit **Omnichannel**. Omnichannel settings will open up.
 
-![](<../../.gitbook/assets/2022-01-01\_14-31-40 (1).png>)
+![](../../.gitbook/assets/2022-01-01\_14-31-40.png)
 
 2\. Hit **Departments.**
 
@@ -18,7 +18,7 @@ Click +**New** on the top right of the screen.
 
 The new department's settings page will appear, as shown below:
 
-![](../../.gitbook/assets/2022-01-01\_15-46-46.png)
+![](<../../.gitbook/assets/2022-01-01\_15-46-46 (4).png>)
 
 1. **Enable** your new department.
 2. **Name** your new department.
@@ -57,13 +57,13 @@ The new department's settings page will appear, as shown below:
 
 Successfully added agents would be listed, as shown below:
 
-![](<../../.gitbook/assets/2022-01-01\_16-32-28 (1).png>)
+![](../../.gitbook/assets/2022-01-01\_16-32-28.png)
 
 18\. Hit **Save**.
 
 Your newly created department is displayed in the list of departments, as shown below:
 
-![](<../../.gitbook/assets/2022-01-01\_16-34-21 (1) (1) (2).png>)
+![](<../../.gitbook/assets/2022-01-01\_16-34-21 (3) (1).png>)
 
 You can have the following behavior depending on how many departments you have created:
 

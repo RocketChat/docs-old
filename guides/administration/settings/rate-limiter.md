@@ -8,7 +8,7 @@ Rocket.Chat Rate Limiter is used to control the rate of requests sent or recieve
 
 To access this setting, go to **Administration** > **Settings** > **Rate Limiter**.
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (4).png>)
+![](../../../.gitbook/assets/administration-nav.png)
 
 ![](<../../../.gitbook/assets/image (671) (1) (1) (1) (1).png>)
 

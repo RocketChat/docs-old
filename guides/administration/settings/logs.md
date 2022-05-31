@@ -10,7 +10,7 @@ Logs are a very useful way to monitor server activities in detail and they can s
 
 To access this section, go to **Administration** > **Settings** > **Logs**.
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (4).png>)
+![](../../../.gitbook/assets/administration-nav.png)
 
 ![](<../../../.gitbook/assets/image (683).png>)
 

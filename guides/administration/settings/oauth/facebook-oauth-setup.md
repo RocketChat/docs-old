@@ -12,7 +12,7 @@ You will be required to verify your account before proceeding if it is your firs
 
 * Click on **Create App** to create a new app
 
-![](<../../../../.gitbook/assets/image (667) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (687) (1) (1).png>)
 
 * Select the app type from the list of options and **Next**
 
@@ -44,7 +44,7 @@ You will be required to verify your account before proceeding if it is your firs
 
 * Copy the credentials and fill them in the Google section of the OAuth configuration on your RocketChat server then hit **Save changes**
 
-![](<../../../../.gitbook/assets/image (652) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (686) (1) (1).png>)
 
 * The Facebook OAuth button can now be seen on the login and register page
 

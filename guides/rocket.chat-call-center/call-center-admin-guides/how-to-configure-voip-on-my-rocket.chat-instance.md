@@ -13,7 +13,7 @@ To configure VoIP on your Rocket.Chat instance:
 
 as shown below:
 
-![Rocket.Chat Call Center](<../../../.gitbook/assets/image (688) (1).png>)
+![Rocket.Chat Call Center](<../../../.gitbook/assets/image (687).png>)
 
 ## 1. Enabling VoIP
 
@@ -59,7 +59,7 @@ To configure this WebSocket connection between Rocket.Chat and Asterisk:
 * All the settings needed here should be provided to you by your _Asterisk manager._
 * **Retry Count** is a number that signifies the number of retries for reconnection when there is a network loss. The default value is -1, which signifies that it will continuously try with increasing backoff time (Max backoff is 8 seconds)
 
-![Call server configuration](<../../../.gitbook/assets/image (455) (3).png>)
+![Call server configuration](<../../../.gitbook/assets/image (455) (2).png>)
 
 Congratulations! Your Rocket.Chat instance is connected to Asterisk server and can receive calls from Asterisk server successfully. 😊
 

@@ -4,19 +4,17 @@ Rocket.Chat ships updates frequently to introduce new capabilities, fix bugs and
 
 Workspace admins should monitor new releases and our release notes [here ](https://github.com/RocketChat/Rocket.Chat/releases)to determine whether updates should be applied to their workspace. We recommend that workspaces are kept current with Rocket.Chat releases.
 
-{% hint style="success" %}
-As of the time of this writing, the current version of Rocket.Chat is [`4.6.3`](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.6.3)`using Node version 14.18.3`
-{% endhint %}
-
 {% hint style="danger" %}
 For a successful upgrade, it is recommended not to skip any major version. That is, say you want to move from version `1.x.x` to say `4.x.x`, you need to traverse chronologically `1.x.x` -> `2.x.x` -> `3.x.x` -> `4.x.x`. Ideally, it's even better to make more granular steps, and not skip more than two minor versions at a time.
 
 This will prevent a couple of issues.
 {% endhint %}
 
-<details>
+* [Upgrading on Docker](upgrading-rocket.chat.md#upgrading-rocket.chat-on-docker)
+* [Upgrading on Snap](upgrading-rocket.chat.md#upgrading-rocket.chat-snap)
+* [Upgrading Digital Ocean](upgrading-rocket.chat.md#upgrading-rocket.chat-digital-ocean-oneclick-install)
 
-<summary>Upgrading Rocket.Chat on Docker</summary>
+## Upgrading Rocket.Chat on Docker
 
 Assuming you followed our installation guide on installing with [Docker and Docker Compose](installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/), to upgrade the `rocketchat` docker image to the latest version, you can use the following commands. Your data should not be affected by this, since it's located in the `mongo` image.
 
@@ -27,21 +25,33 @@ docker-compose rm rocketchat
 docker-compose up -d rocketchat
 ```
 
-</details>
+## Upgrading Rocket.Chat Snap
 
-<details>
+The Rocket.Chat snap installation puts you on the `latest` track at the time of installing, this means you will always get the latest releases on that track.
 
-<summary>Upgrading Rocket.Chat Snap</summary>
+{% hint style="info" %}
+It is highly advised to [backup your data](installing-and-updating/rapid-deployment-methods/snaps/snap-backup-and-restore.md#backup-rocket.chat-snap-data) before upgrading
+{% endhint %}
 
-The Rocket.Chat snap installation automatically pushes out updates periodically.
+**Before performing a major version update, it is recommended to check our forum's announcement section**: [https://forums.rocket.chat/c/announcements/10](https://forums.rocket.chat/c/announcements/10) as major releases are usually delayed by a couple of weeks. This happens so that feedback is gotten and minor patches are made before pushing out.
 
-**Before performing a major version update, it is recommended to check our forum's announcement section**: [https://forums.rocket.chat/c/announcements/10](https://forums.rocket.chat/c/announcements/10)
+You  can force an update by running:
 
-You  can force an update by running `sudo snap refresh rocketchat-server`
+```
+sudo snap refresh rocketchat-server
+```
 
 Updating to a major version requires a track change learn more about this in this discussion [https://forums.rocket.chat/t/introducing-snap-tracks/5890](https://forums.rocket.chat/t/introducing-snap-tracks/5890).
 
-Switching to a particular track is done by executing `sudo snap switch rocketchat-server --channel=`x`.x/stable` you will only receive updates relating to this version
+Switching to a particular track is done by executing the following command. You will only receive updates relating to this track
+
+```
+sudo snap switch rocketchat-server --channel=x.x/stable
+```
+
+Besides the **latest** track, there is also **stable**, **candidate** and **edge**
+
+More details on what channels are: [https://snapcraft.io/docs/channels](https://snapcraft.io/docs/channels)
 
 To upgrade to a new version, execute
 
@@ -49,11 +59,7 @@ To upgrade to a new version, execute
 sudo snap refresh rocketchat-server --channel=x.x.x/stable
 ```
 
-</details>
-
-<details>
-
-<summary>Upgrading Rocket.Chat Digital Ocean Oneclick Install</summary>
+## Upgrading Rocket.Chat Digital Ocean Oneclick Install
 
 To upgrade your Rocket.Chat Digital Ocean droplet,
 
@@ -77,4 +83,10 @@ To upgrade your Rocket.Chat Digital Ocean droplet,
 6. Check that it’s running:\
    `sudo systemctl status rocketchat.service`
 
-</details>
+Other important topics concerning upgrades can be found here
+
+{% embed url="https://docs.rocket.chat/getting-support#mongodb-versions" %}
+
+{% content-ref url="installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md" %}
+[mongodb-mmap-to-wiredtiger-migration.md](installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md)
+{% endcontent-ref %}

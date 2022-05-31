@@ -19,6 +19,7 @@
         * [High Availability](quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/high-availability-install.md)
         * [MongoDB mmap to wiredTiger migration](quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md)
     * [Snaps](quick-start/installing-and-updating/rapid-deployment-methods/snaps/README.md)
+      * [Snap Backup and Restore](quick-start/installing-and-updating/rapid-deployment-methods/snaps/snap-backup-and-restore.md)
       * [Configuring MongoDB](quick-start/installing-and-updating/rapid-deployment-methods/snaps/configuring-mongodb.md)
       * [Auto SSL with Snaps](quick-start/installing-and-updating/rapid-deployment-methods/snaps/auto-ssl-with-snaps.md)
       * [Snap FAQ](quick-start/installing-and-updating/rapid-deployment-methods/snaps/snap-faq.md)

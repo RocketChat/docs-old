@@ -24,7 +24,7 @@ Enter:
 
 Once completed, click **Save changes**.
 
-![SMTP Configuration](../../../../.gitbook/assets/SMTP.png)
+![SMTP Configuration](<../../../../.gitbook/assets/SMTP (1).png>)
 
 ## Test Changes
 

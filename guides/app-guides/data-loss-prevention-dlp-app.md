@@ -53,7 +53,7 @@ Or mention the channels only which you want to be monitored under Content Contro
 
 10\. Set the title of this temporary message under **Custom Blacklisted Message title** that you want the blacklisted message to be replaced by temporarily in the channel until the blacklisted message has been approved by moderators.
 
-![](<../../.gitbook/assets/image (269).png>)
+![](<../../.gitbook/assets/image (269) (1).png>)
 
 11\. **Custom Pending approval message** will be shown if the user clicks on the **More info** button under the blacklisted message in a room until the blacklisted message gets approved, as shown below:
 
