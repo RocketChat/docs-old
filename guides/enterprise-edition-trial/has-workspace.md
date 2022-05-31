@@ -25,7 +25,7 @@ After connecting to the Cloud account, go to [Rocket.Chat Cloud Portal](https://
 
 ​
 
-![](<../../.gitbook/assets/image (253).png>)
+![](<../../.gitbook/assets/image (253) (1).png>)
 
 * Your workspace plan will now be modified to Enterprise
 

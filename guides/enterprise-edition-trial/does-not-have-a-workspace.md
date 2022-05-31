@@ -43,6 +43,6 @@ Now that you have registered your workspace proceed to [Rocket.Chat Cloud Portal
 
 ​
 
-![](<../../.gitbook/assets/image (253).png>)
+![](<../../.gitbook/assets/image (253) (1).png>)
 
 * Your workspace plan will now be modified to Enterprise

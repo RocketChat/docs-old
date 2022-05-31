@@ -8,8 +8,8 @@ Our brand doesn’t rely on repeatable patterns, leaning more on illustrations t
 
 Below, you’ll find some versatile examples that can be used to add a bit of our branding to any content you produce.
 
-Find the full collection of Rocket.Chat branded images on our shared google drive folder at: \
-[https://drive.google.com/drive/folders/1gaRMmpX2iuc8x9x5szbqdDSfaArjb19e?usp=sharing](https://drive.google.com/drive/folders/1gaRMmpX2iuc8x9x5szbqdDSfaArjb19e?usp=sharing)&#x20;
+Find the full collection of Rocket.Chat branded images on our shared google drive folder at:\
+[https://drive.google.com/drive/folders/1gaRMmpX2iuc8x9x5szbqdDSfaArjb19e?usp=sharing](https://drive.google.com/drive/folders/1gaRMmpX2iuc8x9x5szbqdDSfaArjb19e?usp=sharing)
 
 {% embed url="https://drive.google.com/drive/folders/1gaRMmpX2iuc8x9x5szbqdDSfaArjb19e?usp=sharing" %}
 
@@ -19,8 +19,8 @@ or on the Figma file at:
 
 ### Pattern Examples
 
-![](<../../.gitbook/assets/image (668).png>)![](<../../.gitbook/assets/image (689).png>)
+![](<../../../.gitbook/assets/image (668).png>) ![](<../../../.gitbook/assets/image (689).png>)
 
-![](<../../.gitbook/assets/image (647) (1).png>)![](<../../.gitbook/assets/image (681).png>)
+![](<../../../.gitbook/assets/image (647) (1).png>) ![](<../../../.gitbook/assets/image (681).png>)
 
-![](<../../.gitbook/assets/image (646) (1).png>)
+![](<../../../.gitbook/assets/image (646) (1).png>)
