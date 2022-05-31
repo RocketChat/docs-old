@@ -43,15 +43,15 @@ In case of security-relevant bugs, we might decide to backport patches to older 
 
 | Rocket.Chat Release | Latest Version                                                          |  Released At |  End of Life |
 | ------------------- | ----------------------------------------------------------------------- | -----------: | -----------: |
-| 4.7                 | [4.7.2](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.7.2)   |     Apr 2022 |          TBD |
+| 4.7                 | [4.7.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.7.4)   |     Apr 2022 |          TBD |
 | 4.6                 | [4.6.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.6.3)   |     Mar 2022 |     Jun 2022 |
 | 4.5                 | [4.5.6](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.5.6)   |     Feb 2022 |     May 2022 |
-| 4.4                 | [4.4.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.4.3)   |     Jan 2022 |     Apr 2022 |
+| 4.4                 | [4.4.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.4.5)   |     Jan 2022 |     Apr 2022 |
 | 4.3                 | [4.3.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.3.3)   |     Dec 2021 |     Mar 2022 |
 | 4.2                 | [4.2.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.2.4)   |     Nov 2021 |     Mar 2022 |
 | 4.1                 | [4.1.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.1.4)   |     Oct 2021 |     Jan 2022 |
 | 4.0                 | [4.0.6](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.0.6)   |     Sep 2021 |     Dec 2021 |
-| **3.18 (LTS)**      | [3.18.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.18.5) | **Aug 2021** | **Mar 2022** |
+| **3.18 (LTS)**      | [3.18.7](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.18.7) | **Aug 2021** | **Mar 2022** |
 | 3.17                | [3.17.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.17.3) |     Jul 2021 |     Oct 2021 |
 | 3.16                | [3.16.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.16.5) |     Jun 2021 |     Sep 2021 |
 | 3.15                | [3.15.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.15.4) |     May 2021 |     Aug 2021 |
