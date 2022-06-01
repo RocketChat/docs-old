@@ -55,21 +55,33 @@ First we add the required roles to the client.
 
 **Add role to the client**
 
-![Add role](<../../../../../.gitbook/assets/Add role.jpg>)
+To create a role, click **Add Role**, enter in the name and description of the role, and then click **Save**.
 
-**View all roles**
-
-![View roles](<../../../../../.gitbook/assets/Keyclock\_User Roles -001 (1).jpg>)
+![Add Role](../../../../../.gitbook/assets/30052022\_Addnewrole.jpg)
 
 then we have to add a mapper entry, that maps our client roles to OpenId, passing the value to Rocket.Chat.
+
+**View all client roles**
+
+To view all the client roles you have created, click **Roles** > **View all roles**
+
+![View client roles](<../../../../../.gitbook/assets/Keyclock\_Client Roles\_31052022.jpg>)
+
+**Composite Roles**
+
+A _composite role_ is a role that can be associated with other roles.
+
+To define composite roles, click **Role** and then navigate to **Composite** **Roles.**
+
+![Composite Roles](../../../../../.gitbook/assets/keycloak\_CompositeRoles\_31052022.jpg)
+
+Now in order to grant the Rocket.Chat role to a user, we have to modify the users Role Mappings.
 
 **Create Protocol Mapper**
 
 ![Create Protocol Mapper](../../../../../.gitbook/assets/Createprotocalmapping.jpg)
 
-Now in order to grant the Rocket.Chat role to a user, we have to modify the users Role Mappings.
-
-**User Role Mapping**
+**Mappers**
 
 ![Mappers](../../../../../.gitbook/assets/mappersrc.jpg)
 
