@@ -17,7 +17,7 @@ To set up your first admin user:
 4. Enter the **Password**.
 5. Hit **Next.**
 
-![](../../.gitbook/assets/2022-01-28\_01-26-27.png)
+![](<../../.gitbook/assets/2022-01-28\_01-26-27 (1).png>)
 
 ## Organization Info
 
@@ -36,7 +36,7 @@ To configure your organization :
 
 You can either register your server or move forward as a standalone.
 
-![](<../../.gitbook/assets/2022-01-28\_01-35-24 (1).png>)
+![](../../.gitbook/assets/2022-01-28\_01-35-24.png)
 
 {% hint style="info" %}
 To register your server we need to connect it to your cloud account. If you already have one- we will like it automatically. Otherwise, a [new account](https://docs.rocket.chat/rocket.chat-saas/cloud-account/create-new-cloud-account) will be created.

@@ -59,6 +59,10 @@ use parties
 
 ## Updating the admin password
 
+Use the below functions to create or update the admin password.
+
+**To update the admin password**
+
 You can either use a one time access token (that will require the user to change his password):
 
 ```javascript
@@ -75,7 +79,21 @@ db.getCollection('users').update({username:"administrator"}, { $set: {"services"
 
 _Replace `administrator` with the admin username in question._
 
-Make sure to restart your application container in case the new password is not accepted yet.
+Make sure to restart your application container in case the new password is not accepted yet.&#x20;
+
+**To generate a valid admin password**
+
+Install **** `bcrypt-cli` **** with:
+
+```
+// npm install -g @carsondarling/bcrypt-cli
+```
+
+Then use this to generate your `bcrypt` password:
+
+```
+// npm install -g @carsondarling/bcrypt-cli bcrypt $(echo -n "yourPasswordHere" | sha256sum | cut -d " " -f 1) && echo
+```
 
 ### Reset user role to "admin"
 

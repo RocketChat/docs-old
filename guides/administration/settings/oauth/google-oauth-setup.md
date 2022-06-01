@@ -10,7 +10,7 @@ Follow these steps to enable Google OAuth on your server.
 
 * Next, navigate to **APIs and services** > **OAuth consent screen**
 
-![](<../../../../.gitbook/assets/image (691) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (689) (1) (1).png>)
 
 * On the OAuth consent screen, set the required fields and specify the **App name** then hit **Save and Continue**
 

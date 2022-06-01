@@ -10,4 +10,4 @@ It's commonly found in the ChatOps space due to its flexible API.
 2. Set up an Incoming Integration and take note of the URL.
 3. Install the plugin on your RunDeck machine as per the instructions in the git repo linked above.
 
-Once configured you'll have notifications like the example below: ![image](../../../../.gitbook/assets/RunDeck.png)
+Once configured you'll have notifications like the example below: ![image](../../../../.gitbook/assets/rundeck.png)

@@ -16,23 +16,23 @@ Before you create your IDCS application, make sure you have enabled SAML per the
 
 On your Oracle Cloud Applications Dashboard, find a button to add a new application. It should open the following pop-up:
 
-![](../../../../.gitbook/assets/AddApplication.png)
+![](../../../../.gitbook/assets/addapplication.png)
 
 Select **SAML Application** to open the configuration wizard.
 
 ### App Details
 
-![](../../../../.gitbook/assets/AppDetails.png)
+![](../../../../.gitbook/assets/appdetails.png)
 
 The only information needed on this page is the application name and URL. The URL you need to use here is the same one that is set on the _Custom Issuer_ SAML configuration field on the Rocket.Chat settings.
 
 ### SSO Configuration
 
-![](../../../../.gitbook/assets/SSOConfiguration.png)
+![](../../../../.gitbook/assets/ssoconfiguration.png)
 
 To get the values for those new settings, you need to access the same _Custom Issuer_ URL that you used on the previous page. It should show an XML file similar to the one below:
 
-![](../../../../.gitbook/assets/SampleXMLConfiguration.png)
+![](../../../../.gitbook/assets/samplexmlconfiguration.png)
 
 On the **AssertionConsumerService** tag, you need to copy the value of the _Location_ attribute. Then paste this value on the _Assertion Consumer URL_ field on the Oracle Settings. On the **SingleLogoutService** tag, you need to copy the value of the _Location_ attribute, then paste it in the _Single Logout URL_ param of the Advanced Settings. On the same **SingleLogoutService** tag, you need to copy the value of the _ResponseLocation_ attribute, then paste it in the _Logout Response URL_ param of the Advanced Settings.
 
@@ -42,7 +42,7 @@ Before clicking on **Finish**, click the **Download Identity Provider Metadata**
 
 ### Rocket.Chat Settings
 
-![](../../../../.gitbook/assets/RocketChatSettings.png)
+![](../../../../.gitbook/assets/rocketchatsettings.png)
 
 There are two Rocket.Chat settings that need to be copied from the IDP Metadata you just downloaded: _Custom Entry Point_ and _IDP SLO Redirect URL_.
 
