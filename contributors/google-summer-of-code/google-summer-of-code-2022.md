@@ -50,7 +50,7 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 | Aswini             | Weekly Video Meeting and Archive App - BigBlueButton + Rocket.Chat | Debdut Chakraborty, Felipe Cecagno            |
 | Danish Ahmed Mirza | New Emoji Picker for Mobile Client                                 | Diego Mello, Daniel Silva                     |
 | Dnouv              | Rocket.Chat for Virtual Conferences - Eventyay integration         | Sing Li, Marcos Defendi                       |
-| Evan Slack         | Rocket.Chat Golang SDK                                             | cauefcr, Felipe Menelau                       |
+| Evan Slack         | Rocket.Chat Golang SDK                                             | cauefcr, Aaron Ogle                           |
 | Irfan Asif         | Figma App ( Rocket.Chat Integration )                              | Douglas Gubert, Ivan Netto,  Alvaro Mello     |
 | Mustafa Hasan Khan | ClickUp App for Rocket.Chat                                        | Douglas Gubert, Allan Ribeiro                 |
 | Nishant Patel      | Message Forwarding                                                 | Douglas Fabris, Milton Rucks                  |
@@ -163,7 +163,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 ### Rocket.Chat Golang SDK
 
-**Mentor(s):** Cauê Felchar, Felipe Menelau
+**Mentor(s):** Cauê Felchar, Aaron Ogle
 
 **Description:** Golang module to enable any Go packge to talk to a Rocket.Chat server with ease, making it possible to create from custom clients to bots.
 
