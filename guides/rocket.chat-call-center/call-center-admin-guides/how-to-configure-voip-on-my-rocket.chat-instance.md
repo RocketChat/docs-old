@@ -8,12 +8,14 @@ Please make sure your environment meets the prerequisites to be able to configur
 
 To configure VoIP on your Rocket.Chat instance:
 
-1. Go to **Avatar Menu > Administration > Settings**
+1. Go to **Avatar Menu > Administration > Settings > Call Center**
 2. Search **Call Center**
 
 as shown below:
 
-![Rocket.Chat Call Center](<../../../.gitbook/assets/image (688) (1).png>)
+![Call Center](../../../.gitbook/assets/CallCenterSettings.png)
+
+
 
 ## 1. Enabling VoIP
 
@@ -24,7 +26,7 @@ VoIP does not come enabled by default. You can enable it on your Rocket.Chat ins
 
 as shown below:
 
-![VoIP Enable/Disable](<../../../.gitbook/assets/image (666).png>)
+![VoIP Enabled](<../../../.gitbook/assets/VoIP Enabled.png>)
 
 ## 2. Configuration of the management server (Asterisk)
 

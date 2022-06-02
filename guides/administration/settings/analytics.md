@@ -1,18 +1,14 @@
 ---
-description: Set up workspace analytics
+description: See how users interact with your workspace.
 ---
 
 # Analytics
 
 Setting up analytics gives you the possibility to see how users interact with your server and help measure the metrics and monitor the different measures of user experience.
 
-To access analytics, go to **Administration > Analytics.**
+To access analytics, go to **Administration > Settings > Analytics.**
 
-![](<../../../.gitbook/assets/administration >)
-
-![](<../../../.gitbook/assets/image (644) (1).png>)
-
-From there, you will have access to various configurations that can be done.
+You have access to various configurations that can be done.
 
 {% hint style="success" %}
 Remember to always hit **Save changes** to apply any changes made.

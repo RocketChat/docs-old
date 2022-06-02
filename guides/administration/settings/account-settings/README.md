@@ -8,10 +8,6 @@ In this guide, we will go over all settings in the _Accounts_ Section.
 
 To access this setting, go to: **Administration** > **Settings** > **Accounts**
 
-![](<../../../../.gitbook/assets/administration >)
-
-![Admin Account Settings](../../../../.gitbook/assets/accounts-admin.png)
-
 These are the basic Account configuration settings. Most of the options are either `True` or `False` depending on whether you want the setting enabled or not.
 
 * **Allow anonymous read**: Setting this to true will allow people to use the chat without having to create an account or log in. Anonymous users will be only allowed to read messages on public channels.
