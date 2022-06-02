@@ -14,13 +14,9 @@ Enabling and using Rocket.Chat Omnichannel gives seamless, effortless and high-q
 
 To enable the Omnichannel feature on your Rocket.Chat instance:
 
-1. Go to **Administration**
+Go to **Administration > Settings > Omnichannel**
 
-![](<../../../../.gitbook/assets/image (586).png>)
-
-1. Search '**Omnichannel**' in **Settings** and enable it
-
-![](<../../../../.gitbook/assets/image (26).png>)
+Please enable it.
 
 Now the admin will have access to _**Omnichannel Panel Settings**_ through a new menu called `Omnichannel`, as shown below:
 

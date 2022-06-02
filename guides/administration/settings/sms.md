@@ -1,5 +1,5 @@
 ---
-description: Enable and configure SMS gateways on your workspace
+description: Enable and configure SMS gateways on your workspace.
 ---
 
 # SMS
@@ -7,10 +7,6 @@ description: Enable and configure SMS gateways on your workspace
 This setting lets you configure various SMS gateways on your workspace.
 
 To access this menu, go to **Administration** > **Settings** > **SMS**.
-
-![](<../../../.gitbook/assets/administration >)
-
-![](<../../../.gitbook/assets/image (692) (1).png>)
 
 * **Enabled**: Lets you enable or disable SMS service on your server.
 * **Service**: A dropdown to select the available SMS services available e.g `Twilio`, `Mobex`, `Voxtelesys`

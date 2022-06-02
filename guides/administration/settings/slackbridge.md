@@ -1,5 +1,5 @@
 ---
-description: Configure SlackBridge to mirror Slack in real-time
+description: Enable Rocket.Chat to communicate directly with Slack
 ---
 
 # SlackBridge
@@ -7,10 +7,6 @@ description: Configure SlackBridge to mirror Slack in real-time
 SlackBridge lets you mirror Slack and Rocket.Chat servers in real-time.
 
 To access this menu, go to **Administration** > **Settings** > **SlackBridge**
-
-![](<../../../.gitbook/assets/administration >)
-
-![](<../../../.gitbook/assets/image (693) (1).png>)
 
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.
@@ -25,4 +21,4 @@ Remember to hit **Save Changes** in order to apply any changes made.
 * **Alias Format**: Import messages from Slack with an alias; `%s` is replaced by the username of the user. If empty, no alias will be used.
 * **Exclude Bots**: Takes in a regular expression to not propagate messages from any bot whose name matches the regular expression. If left empty, all messages from bots will be propagated.
 * **Reactions**: Enable to get reactions
-* **Remove channel links**: Remove the internal link between Rocket.Chat channels and Slack channels. The links will afterwards be recreated based on the channel names.
+* **Remove channel links**: Remove the internal link between Rocket.Chat channels and Slack channels. The links will afterward be recreated based on the channel names.

@@ -1,5 +1,5 @@
 ---
-description: Configure how troubleshooting is handled in your workspace
+description: Configure how troubleshooting is handled on your workspace.
 ---
 
 # Troubleshoot
@@ -8,12 +8,8 @@ Configure how troubleshooting is handled in your workspace
 
 To access this section, go to **Administration** > **Settings** > **Troubleshoot**.
 
-![](<../../../.gitbook/assets/administration >)
-
-![](<../../../.gitbook/assets/image (656).png>)
-
 {% hint style="danger" %}
-We recommend these settings be altered only with guidance of the Rocket.Chat Development or Support Teams. Do not touch them if you don't know what you are doing!
+We recommend these settings be altered only with the guidance of the Rocket.Chat Development or Support Teams. Do not touch them if you don't know what you are doing!
 {% endhint %}
 
 * **Disable Notifications**: This setting completely disables the notifications system; sounds, desktop notifications, mobile notifications, and emails will stop!

@@ -1,5 +1,7 @@
 ---
-description: Enable and configure WebRTC
+description: >-
+  Broadcast audio and/or video material, as well as transmit arbitrary data
+  between browsers without the need for a middleman
 ---
 
 # WebRTC
@@ -7,10 +9,6 @@ description: Enable and configure WebRTC
 [WebRTC](https://webrtc.org) (Web Real-Time Communication) is a technology that allows Web apps and sites to record and potentially broadcast audio and/or video material, as well as transmit arbitrary data between browsers without the need for a middleman.
 
 To access this setting, go to **Administration** > **Settings** > **WebRTC**.
-
-![](<../../../.gitbook/assets/administration >)
-
-![](<../../../.gitbook/assets/image (674) (1) (1).png>)
 
 * **Enable for Public Channels**: WebRTC will be enabled for all public channels if set to true.
 * **Enable for Private Channels**: When enabled, private channels will have WebRTC.

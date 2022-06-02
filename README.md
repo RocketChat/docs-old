@@ -50,8 +50,8 @@ This user guide incorporates a description of the features and capabilities, mod
 [analytics.md](guides/administration/settings/analytics.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/administration/canned-responses-rocket.chat-admins-guides.md" %}
-[canned-responses-rocket.chat-admins-guides.md](guides/administration/canned-responses-rocket.chat-admins-guides.md)
+{% content-ref url="guides/administration/settings/canned-responses-rocket.chat-admins-guides.md" %}
+[canned-responses-rocket.chat-admins-guides.md](guides/administration/settings/canned-responses-rocket.chat-admins-guides.md)
 {% endcontent-ref %}
 
 {% content-ref url="guides/mobile-guides/push-notifications/" %}

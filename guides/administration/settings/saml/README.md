@@ -1,5 +1,7 @@
 ---
-description: Configure SAML on your workspace
+description: >-
+  Security Assertion Markup Language used for exchanging authentication and
+  authorization data
 ---
 
 # SAML
@@ -11,10 +13,6 @@ SAML(Security Assertion Markup Language) is an XML-based format and protocol for
 * No weak passwords
 
 To access this setting, go to **Administration** > **Settings** > **SML**
-
-![](<../../../../.gitbook/assets/administration >)
-
-![](<../../../../.gitbook/assets/image (677) (1) (1) (1) (1).png>)
 
 {% content-ref url="rocket.chat-server-settings.md" %}
 [rocket.chat-server-settings.md](rocket.chat-server-settings.md)

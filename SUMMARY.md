@@ -236,7 +236,7 @@
     * [Custom User Status](guides/administration/admin-panel/custom-user-status.md)
     * [Permissions](guides/administration/admin-panel/permissions.md)
     * [Engagement Dashboard](guides/administration/admin-panel/engagement-dashboard.md)
-  * [Canned Responses Rocket.Chat Admin's Guides](guides/administration/canned-responses-rocket.chat-admins-guides.md)
+  * [Canned Responses Rocket.Chat Admin's Guides](guides/administration/settings/canned-responses-rocket.chat-admins-guides.md)
   * [Settings](guides/administration/settings/README.md)
     * [Accounts](guides/administration/settings/account-settings/README.md)
       * [Custom Fields](guides/administration/settings/account-settings/custom-fields.md)

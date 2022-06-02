@@ -10,10 +10,6 @@ Meta elements are tags used in HTML and XHTML documents to provide structured me
 
 To access this section, go to **Administration** > **Settings** > **Meta**.
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (4).png>)
-
-![](<../../../.gitbook/assets/image (695) (1) (1).png>)
-
 * **Language**: Lets you set the meta language. eg `en`
 * **Facebook App Id**: When provided, it will allow the Facebook scraper to associate the Open Graph entity with your server.
 * **Robots**: Specify to tell search engines what to and what not to index or follow

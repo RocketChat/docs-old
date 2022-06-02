@@ -1,5 +1,5 @@
 ---
-description: Configure OAuth
+description: Configure authentication methods beyond just username and password
 ---
 
 # OAuth
@@ -8,11 +8,7 @@ Rocket.Chat supports several different ways to authenticate, beyond the basic us
 
 To set up your desired provider:
 
-1. Go to **Administration > OAuth** as seen below.
-
-![](<../../../../.gitbook/assets/image (682) (1) (1) (1).png>)
-
-![](<../../../../.gitbook/assets/image (132).png>)
+Go to **Administration > Settings> OAuth**&#x20;
 
 ## OAuth Methods
 

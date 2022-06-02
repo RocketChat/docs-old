@@ -1,5 +1,5 @@
 ---
-description: Configure the setup wizard of your workspace
+description: Basic info about your workspace such as organization name and country
 ---
 
 # Setup Wizard
@@ -7,10 +7,6 @@ description: Configure the setup wizard of your workspace
 This section has basic configurations for the setup wizard of your workspace.
 
 To access this menu, go to **Administration** > **Settings** > **Setup Wizard**.
-
-![](<../../../.gitbook/assets/administration >)
-
-![](<../../../.gitbook/assets/image (694).png>)
 
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.

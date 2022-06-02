@@ -1,5 +1,5 @@
 ---
-description: Automatically prune old messages across your Rocket.Chat instance
+description: Automatically prune old messages and files across your workspace
 ---
 
 # Retention Policy

@@ -1,5 +1,5 @@
 ---
-description: Configure video conferencing for your workspace
+description: Configure video conferencing for your workspace.
 ---
 
 # Video Conference Admin Guide
@@ -7,10 +7,6 @@ description: Configure video conferencing for your workspace
 Using this, you are able to initiate and stream with various video conferencing options.
 
 To access this menu, go to **Administration** > **Settings** > **Video Conference**.
-
-![](<../../../../.gitbook/assets/administration >)
-
-![](<../../../../.gitbook/assets/image (640).png>)
 
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.

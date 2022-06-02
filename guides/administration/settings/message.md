@@ -8,10 +8,6 @@ In this section, you have settings regarding messages on your server and all the
 
 To access this section, go to **Administration** > **Settings** > **Message**.
 
-![](<../../../.gitbook/assets/administration >)
-
-![](../../../.gitbook/assets/imagee.png)
-
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.
 {% endhint %}

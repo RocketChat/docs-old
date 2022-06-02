@@ -1,5 +1,5 @@
 ---
-description: Configure Smarsh to preserve email communication
+description: Configurations to preserve email communication
 ---
 
 # Smarsh
@@ -7,10 +7,6 @@ description: Configure Smarsh to preserve email communication
 Smarsh is used to confidently and efficiently preserve email communications.
 
 To access this menu, go to **Administration** > **Settings** > **Smarsh**.
-
-![](<../../../.gitbook/assets/administration >)
-
-![](<../../../.gitbook/assets/image (676) (1) (1) (1).png>)
 
 * **Smarsh Enabled**: Whether the Smarsh eml connector is enabled or not (needs 'From Email' filled in under Email -> SMTP).
 * **Smarsh Email**: Smarsh Email Address to send the .eml file to.

@@ -1,23 +1,21 @@
 ---
-description: Configure the rate of requests sent or received by your server
+description: >-
+  Control the rate of requests sent or received by your server to prevent cyber
+  attacks and scraping.
 ---
 
 # Rate Limiter
 
-Rocket.Chat Rate Limiter is used to control the rate of requests sent or recieved by your Rocket.Chat server. It can be used to prevent cyber attacks like DoS(Denial of Service) attacks and limit web scraping.
+Rocket.Chat Rate Limiter is used to control the rate of requests sent or received by your Rocket.Chat server. It can be used to prevent cyber attacks like DoS(Denial of Service) attacks and limit web scraping.
 
 To access this setting, go to **Administration** > **Settings** > **Rate Limiter**.
-
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (4).png>)
-
-![](<../../../.gitbook/assets/image (671) (1) (1) (1) (1).png>)
 
 ## API Rate Limiter <a href="#9f0duy7a3no" id="9f0duy7a3no"></a>
 
 * **Enable Rate Limiter**: Lets you enable API rate limiter.
-* **Enable Rate Limiter in development**: When enabled, rate limiter will be enabled for development. Llimit the number of calls to the endpoints in the development environment?
+* **Enable Rate Limiter in development**: When enabled, rate limiter will be enabled for development. Limit the number of calls to the endpoints in the development environment?
 * **Default number calls to the rate limiter**: Number of default calls for each endpoint of the REST API, allowed within the time range defined below
-* **Default time limit for the rate limiter (in ms)**: Takes in time in seconds to limit the number of calls at each endpoint of the REST API (in ms).
+* **Default time limit for the rate limiter (in ms)**: Takes time in seconds to limit the number of calls at each endpoint of the REST API (in ms).
 
 ## DDP Rate Limiter <a href="#ikikwb84ti" id="ikikwb84ti"></a>
 
@@ -26,11 +24,11 @@ Customize rate-limiting for methods and subscriptions to avoid a high load of We
 * **Limit by IP: enabled**: Enables limit by IP.
   * **Limit by IP: requests allowed**: Lets you set the number of requests allowed.
   * **Limit by IP: interval time**: Takes in the interval for limiting IP.
-* **Limit by User:** Lets you enable DDP rate limiting by user
+* **Limit by User:** Lets you enable DDP rate-limiting by user
   * **Limit by User: requests allowed**: The number of requests allowed
   * **Limit by User: interval time**: The time interval in seconds for limiting the user
 * **Limit by User per Method**: When set to true, it enables limiting user's rate per method
-  * **Limit by User per Method: requests allowed**: The number of request allowed
+  * **Limit by User per Method: requests allowed**: The number of requests allowed
   * **Limit by User per Method: interval time**: The interval for limiting user per method
 * **Limit by Connection per Method**: Lets you set connection limit by method
   * **Limit by Connection per Method: requests allowed**: The number of request requests allowed

@@ -1,5 +1,7 @@
 ---
-description: Configure aspects of user's data download
+description: >-
+  Configurations to allow or disallow workspace members from downloading of
+  workspace data
 ---
 
 # User Data Download
@@ -9,10 +11,6 @@ This setting lets you configure aspects that involve users downloading their dat
 Using this, users can download their entire Rocket.Chat data.
 
 To access this setting, go to **Administration** > **Settings** > **User Data Download**.
-
-![](<../../../.gitbook/assets/administration >)
-
-![](<../../../.gitbook/assets/image (691).png>)
 
 * **Enable User Data Download**: When set to true, users will be able to download their data.
 

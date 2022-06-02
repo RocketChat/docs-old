@@ -1,5 +1,5 @@
 ---
-description: Select and configure workspace search provider
+description: Select workspace search provider and configure search related settings
 ---
 
 # Search
@@ -7,10 +7,6 @@ description: Select and configure workspace search provider
 Here you have the ability to configure how searches work on your RocketChat server. This gives you the option of selecting a search provider.
 
 To access this setting, go to **Administration** > **Settings** > **Search**.
-
-![](<../../../.gitbook/assets/administration >)
-
-![](<../../../.gitbook/assets/image (657) (1).png>)
 
 * **Search Provider**: A dropdown that lets you select which search provider you wish to use. Can be `Default provider` or `Chatpal Provider`.
 
