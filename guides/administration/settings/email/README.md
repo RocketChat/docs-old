@@ -1,5 +1,5 @@
 ---
-description: Configure email on your workspace
+description: Configure broadcast emails from inside Rocket.Chat.
 ---
 
 # Email
@@ -7,10 +7,6 @@ description: Configure email on your workspace
 Configure email setting to be able to broadcast emails directly from Rocket.Chat.
 
 To access this menu, go to **Administration** > **Settings** > **Email**.
-
-![](<../../../../.gitbook/assets/administration >)
-
-![](<../../../../.gitbook/assets/image (646) (1) (1).png>)
 
 Here you find various Email settings and tools:
 

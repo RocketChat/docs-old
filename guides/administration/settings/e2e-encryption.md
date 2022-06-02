@@ -1,5 +1,7 @@
 ---
-description: Enable/disable e2e encryption on your workspace
+description: >-
+  Keep conversations private, ensuring only the sender and intended recipients
+  are able to read them
 ---
 
 # E2E Encryption
@@ -7,10 +9,6 @@ description: Enable/disable e2e encryption on your workspace
 End-to-end encryption (E2EE) is a system of communication where only the communicating users can read the messages. Rocket.Chat uses this in order to prevent potential eavesdroppers.
 
 To access this setting, go to **Administration** > **Settings** > **E2E Encryption**.
-
-![](<../../../.gitbook/assets/administration >)
-
-![](<../../../.gitbook/assets/image (689) (1).png>)
 
 {% hint style="warning" %}
 This feature is currently in beta! Please report bugs to [github.com/RocketChat/Rocket.Chat/issues](https://github.com/RocketChat/Rocket.Chat/issues) and be aware of:

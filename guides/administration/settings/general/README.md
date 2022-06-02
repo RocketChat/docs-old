@@ -1,5 +1,5 @@
 ---
-description: Configure general settings
+description: Configure general workspace settings
 ---
 
 # General
@@ -28,12 +28,12 @@ This will define if all assets from the server will come from a CDN.
 
 ### Enable Favorite Rooms
 
-* **Yes**: Users will be able to favorite public, private and direct channels.
+* **Yes**: Users will be able to favorite public, private, and direct channels.
 * **No**: Users won't be able to favorite channels.
 
 ### First Channel After Login
 
-Insert here the name of the channel that the user will enter after logging in. Setting this field to empty or setting a invalid name will result in the user being directed to the server's home page.
+Insert here the name of the channel that the user will enter after logging in. Setting this field to empty or setting an invalid name will result in the user being directed to the server's home page.
 
 ### Force Disable OpLog for Cache
 
@@ -41,7 +41,7 @@ Will not use OpLog to sync cache even when it's available
 
 ### Force SSL
 
-You can use this setting to force SSL on your server. We **Strongly Discourage** the usage of this setting, this should be done at the reverse proxy level by redirecting to https.
+You can use this setting to force SSL on your server. We **Strongly Discourage** the usage of this setting, this should be done at the reverse proxy level by redirecting to HTTPS.
 
 > _Caution!_ _Force SSL_ should never be used with reverse proxy. If you have a reverse proxy, you should do the redirect THERE. This option exists for deployments like Heroku, that does not allow the redirect configuration at the reverse proxy.
 

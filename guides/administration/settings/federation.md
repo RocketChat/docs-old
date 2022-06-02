@@ -1,5 +1,7 @@
 ---
-description: Configure Federation on your workspace
+description: >-
+  Federation allows an unlimited number of workspaces to communicate with each
+  other.
 ---
 
 # Federation
@@ -18,7 +20,7 @@ When enabling federation on your server, your server becomes part of the Rocket.
   * Invite users from remote servers
   * Direct chats between servers
   * Private and broadcast rooms with remote users from any number of servers
-  * Read receipts, notifications and alerts distributed to remote servers
+  * Read receipts, notifications, and alerts distributed to remote servers
   * Mute/Unmute remote users
   * Share files among servers
 * **Confirmed Next Features**
@@ -29,11 +31,7 @@ When enabling federation on your server, your server becomes part of the Rocket.
 
 ## Configuration
 
-When you open the Federation config screen, this is what you see:
-
-![Initial Federation Screen](../../../.gitbook/assets/initial.png)
-
-The following is a brief explanation of each configuration option:
+The following is a brief explanation of each configuration option available.
 
 ### Enabled
 
@@ -43,12 +41,12 @@ It determines whether or not Federation is enabled on this server.
 
 It is the current Federation status, which can be one of the following:
 
-* **Could not enable, settings are not fully set :** make sure all the options are correctly filled and saved
-* **Booting... :** the federation is initializing
-* _\[HUB Only]_ **Registering with Hub... :** the federation is trying to register with the Hub
-* _\[HUB Only]_ **Disabled, could not register with Hub :** the federation could not register with the Hub
-* **Disabled :** the federation is disabled
-* **Running :** the federation is running and ready to communicate with other servers
+* **Could not enable, settings are not fully set:** make sure all the options are correctly filled and saved
+* **Booting:** the federation is initializing
+* _\[HUB Only]_ **Registering with Hub:** the federation is trying to register with the Hub
+* _\[HUB Only]_ **Disabled, could not register with Hub:** the federation could not register with the Hub
+* **Disabled:** the federation is disabled
+* **Running:** the federation is running and ready to communicate with other servers
 
 ### Domain
 
@@ -56,7 +54,7 @@ Fill this option with your domain name, usually the one that hosts the Rocket.Ch
 
 ### Public Key
 
-All Federation communications are double-encrypted, which means messages cannot be delivered by mistake to a wrong peer. This is your public key, which is specially generated for Rocket.Chat and by Rocket.Chat, and is shared with peers you communicate with.
+All Federation communications are double-encrypted, which means messages cannot be delivered by mistake to the wrong peer. This is your public key, which is specially generated for Rocket.Chat and by Rocket.Chat, and is shared with peers you communicate with.
 
 The encryption process encrypts the message using the Server A private key, and the Server B public key.
 
@@ -76,7 +74,7 @@ You have two ways to add your server to the Rocket.Chat Federated Network:
 
 ### Recommended: Configure your DNS
 
-To add your server to the Federated Network using the DNS, fill all the configuration fields required. Make sure to pick `true` on the `Enabled`, and select **DNS** as your `Discovery Method` option, save and follow the guide below.
+To add your server to the Federated Network using the DNS, fill all the configuration fields required. Make sure to pick `true` on the `Enabled`, and select **DNS** as your `Discovery Method` option, save, and follow the guide below.
 
 Let's suppose we have a domain named `mydomain.com`, and my Rocket.Chat server is hosted at `mydomain.com`, port `443`.
 
@@ -107,7 +105,7 @@ You must add two DNS records:
 
 #### If you use http instead of https
 
-We recommend to use `HTTPS` for all kinds of communications, but sometimes that is not possible. If you need, in the SRV DNS entry replace:
+We recommend using `HTTPS` for all kinds of communications, but sometimes that is not possible. If you need, in the SRV DNS entry replace:
 
 * the protocol: change `_https` to `_http`
 * the port: change `443` to `80`
@@ -127,7 +125,7 @@ Some DNS providers will not allow setting `_https` or `_http` on SRV records, so
 * Target: `mydomain.com`
 * Port: `443`
 
-#### Legacy Support: protocol TXT Record (if not provided, HTTPS will be use)
+#### Legacy Support: protocol TXT Record (if not provided, HTTPS will be used)
 
 * Host: `rocketchat-tcp-protocol.mydomain.com`
 * Value: `https` or `http`
@@ -156,7 +154,7 @@ When the SRV and the Public Key TXT records are added to the DNS records, other 
 
 ### Alternative: Register on Hub
 
-To add your server to the Federated Network using the Hub, fill all the configuration fields needed. Make sure to pick **true** on the `Enabled` field), pick the **Hub** as your `Discovery Method` option, save and follow the guide below.
+To add your server to the Federated Network using the Hub, fill all the configuration fields needed. Make sure to pick **true** on the `Enabled` field), pick the **Hub** as your `Discovery Method` option, save, and follow the guide below.
 
 #### Confirm Domain Ownership
 

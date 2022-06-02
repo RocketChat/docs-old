@@ -1,5 +1,7 @@
 ---
-description: Set up Central Authentication Service (CAS) on your workspace
+description: >-
+  Central Authentication Service allows members to use one set of credentials to
+  sign in to multiple sites over multiple protocols
 ---
 
 # CAS
@@ -13,10 +15,6 @@ For more information on CAS, see [github.com/apereo/cas](https://github.com/aper
 ## Rocket.Chat CAS Administration
 
 To access this setting, go to **Administration** > **Settings** > **CAS**.
-
-![](<../../../.gitbook/assets/administration >)
-
-![](<../../../.gitbook/assets/image (690) (1) (1).png>)
 
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.
@@ -58,8 +56,6 @@ The `/cas` and `/cas/login` URLs are the standard, but not required. Check with 
 After configuring, your registration and login pages will have the CAS button present.
 
 ![](<../../../.gitbook/assets/image (649) (1) (1) (1) (1) (1) (1).png>)
-
-## Notes
 
 {% hint style="info" %}
 * CAS by ja-sig requires `ssl/tls` for all connections.

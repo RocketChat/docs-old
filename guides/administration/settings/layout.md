@@ -1,5 +1,5 @@
 ---
-description: Customize the look of workspace
+description: Customize the look of your workspace
 ---
 
 # Layout
@@ -9,8 +9,6 @@ The layout feature gives you the possibility to customize the look of your Rocke
 This involves aspects like colors, content, CSS and Javascript. Using this feature gives you the ability to fully give your Rocket.Chat server a unique and different look.
 
 To access this setting, go to **Administration** > **Settings** > **Layout**.
-
-![](<../../../.gitbook/assets/image (637).png>)
 
 {% hint style="success" %}
 Remember to always **Save changes** and refresh to apply any customization made.

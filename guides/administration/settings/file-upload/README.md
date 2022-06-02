@@ -1,5 +1,5 @@
 ---
-description: Configure file upload on your workspace
+description: Configure file upload and storage
 ---
 
 # File Upload
