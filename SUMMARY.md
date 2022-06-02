@@ -179,6 +179,7 @@
   * [Basic White-labeling](guides/administration/basic-white-labeling.md)
   * [Identity Management (EE vs CE)](guides/administration/identity-management-ee-vs-ce.md)
   * [Admin Panel](guides/administration/admin-panel/README.md)
+    * [Go Fully Featured](guides/administration/admin-panel/go-fully-featured.md)
     * [Info](guides/administration/admin-panel/info.md)
     * [Import](guides/administration/admin-panel/import/README.md)
       * [Import from HipChat](guides/administration/admin-panel/import/hipchat/README.md)
