@@ -67,7 +67,7 @@ WorkingDirectory=/path.to.rocketchat/rocket.chat
 ExecStart=/usr/local/bin/node /path.to.rocketchat/rocket.chat/bundle/main.js
 
 [Install]
-    WantedBy=rocketchat.service
+WantedBy=multi-user.target
 ```
 
 Start the other Rocket.Chat Services with
@@ -77,8 +77,8 @@ Start the other Rocket.Chat Services with
 If you want to run rocketchat at boot just enable the services with
 
 `systemctl enable rocketchat`
-
-The other Services will be enable since they are "WantedBy"=RocketChat.service
+or
+`systemctl enable rocketchat@3001`
 
 ### Ensure nodes can communicate
 
