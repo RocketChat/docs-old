@@ -244,6 +244,7 @@
     * [Atlassian Crowd](guides/administration/settings/atlassian-crowd.md)
     * [Blockstack](guides/administration/settings/blockstack.md)
     * [Bots](guides/administration/settings/bots.md)
+    * [Call Center](https://docs.rocket.chat/guides/rocket.chat-call-center/call-center-admin-guides/how-to-configure-voip-on-my-rocket.chat-instance)
     * [Canned Responses Rocket.Chat Admin's Guides](guides/administration/settings/canned-responses-rocket.chat-admins-guides.md)
     * [CAS](guides/administration/settings/cas.md)
     * [Custom Emoji Filesystem](guides/administration/settings/custom-emoji-filesystem.md)
