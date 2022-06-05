@@ -29,16 +29,13 @@ description: >-
   * **Auto-Unsubscribe from Channels:** You can also remove users from Rocket.Chat channels on LDAP
   * **Auto-Join Teams:** You can map any LDAP group to a Rocket.Chat team
   * **Auto-Leave Teams:** You can also remove users from Rocket.Chat teams on LDAP
-*   **Background Sync:** Periodic background sync
+* **Background Sync:** Periodic background sync
+  * **Incremental Sync:** Give the option to use Incremental Sync (will be implemented in a future release)
+  * **Sync User Active State:** Determine if users should be enabled or disabled on Rocket.Chat based on the LDAP status
+  * **Auto logout:** Auto logout user on next sync when it's removed/disabled on LDAP group
 
-    * **Incremental Sync:** Give the option to use Incremental Sync (will be implemented in a future release)
-    * **Sync User Active State:** Determine if users should be enabled or disabled on Rocket.Chat based on the LDAP status
-    * **Auto logout:** Auto logout user on next sync when it's removed/disabled on LDAP group
-
-
-
-{% content-ref url="settings/ldap/" %}
-[ldap](settings/ldap/)
+{% content-ref url="admin-panel/settings/ldap/" %}
+[ldap](admin-panel/settings/ldap/)
 {% endcontent-ref %}
 
 ## **SAML** <a href="#saml3" id="saml3"></a>
@@ -54,8 +51,8 @@ description: >-
 * **Fields mapping:** Select any field you want to sync with RC
 * **Advanced:** Advanced settings (eg. login with username and password x win user)
 
-{% content-ref url="settings/saml/" %}
-[saml](settings/saml/)
+{% content-ref url="admin-panel/settings/saml/" %}
+[saml](admin-panel/settings/saml/)
 {% endcontent-ref %}
 
 ## **OAuth / Custom OAuth** <a href="#oauth3" id="oauth3"></a>
@@ -86,15 +83,12 @@ description: >-
 
 ### Enterprise
 
-*   **Advanced Custom OAuth:**&#x20;
+* **Advanced Custom OAuth:**
+  * Assign Rocket.Chat roles based on OAuth roles
+  * Join channels automatically based on OAuth roles
 
-    * Assign Rocket.Chat roles based on OAuth roles
-    * Join channels automatically based on OAuth roles
-
-
-
-{% content-ref url="settings/oauth/" %}
-[oauth](settings/oauth/)
+{% content-ref url="admin-panel/settings/oauth/" %}
+[oauth](admin-panel/settings/oauth/)
 {% endcontent-ref %}
 
 {% content-ref url="../../resources/frequently-asked-questions/ldap-faq.md" %}

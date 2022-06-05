@@ -1,6 +1,6 @@
 # Cross-server Federated Channels
 
-Once you have [added your server to the Federated Network](../administration/settings/federation.md), you can talk to users from servers who have done the same.
+Once you have [added your server to the Federated Network](../administration/admin-panel/settings/federation.md), you can talk to users from servers who have done the same.
 
 ## Using Rocket.Chat Federation
 

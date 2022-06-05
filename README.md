@@ -46,20 +46,20 @@ This user guide incorporates a description of the features and capabilities, mod
 
 ## Features
 
-{% content-ref url="guides/administration/settings/analytics.md" %}
-[analytics.md](guides/administration/settings/analytics.md)
+{% content-ref url="guides/administration/admin-panel/settings/analytics.md" %}
+[analytics.md](guides/administration/admin-panel/settings/analytics.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/administration/settings/canned-responses-rocket.chat-admins-guides.md" %}
-[canned-responses-rocket.chat-admins-guides.md](guides/administration/settings/canned-responses-rocket.chat-admins-guides.md)
+{% content-ref url="guides/omnichannel/canned-responses/canned-responses-rocket.chat-admins-guides.md" %}
+[canned-responses-rocket.chat-admins-guides.md](guides/omnichannel/canned-responses/canned-responses-rocket.chat-admins-guides.md)
 {% endcontent-ref %}
 
 {% content-ref url="guides/mobile-guides/push-notifications/" %}
 [push-notifications](guides/mobile-guides/push-notifications/)
 {% endcontent-ref %}
 
-{% content-ref url="guides/administration/settings/video-conference-Admin-Guide/" %}
-[video-conference-Admin-Guide](guides/administration/settings/video-conference-Admin-Guide/)
+{% content-ref url="guides/administration/admin-panel/settings/video-conference-admin-guide/" %}
+[video-conference-admin-guide](guides/administration/admin-panel/settings/video-conference-admin-guide/)
 {% endcontent-ref %}
 
 {% content-ref url="guides/message-auditing/" %}
@@ -70,8 +70,8 @@ This user guide incorporates a description of the features and capabilities, mod
 [identity-management-ee-vs-ce.md](guides/administration/identity-management-ee-vs-ce.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/administration/settings/federation.md" %}
-[federation.md](guides/administration/settings/federation.md)
+{% content-ref url="guides/administration/admin-panel/settings/federation.md" %}
+[federation.md](guides/administration/admin-panel/settings/federation.md)
 {% endcontent-ref %}
 
 ## Minimum Requirements
