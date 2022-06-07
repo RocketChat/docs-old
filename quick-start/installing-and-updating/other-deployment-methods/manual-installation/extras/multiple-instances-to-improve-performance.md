@@ -141,6 +141,7 @@ server {
         proxy_set_header X-Nginx-Proxy true;
 
         proxy_redirect off;
+        client_max_body_size 0;
     }
 }
 ```
