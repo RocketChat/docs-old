@@ -520,8 +520,6 @@
   * [Documenting](contributors/how-can-i-help/documentation/README.md)
     * [New Feature Template](contributors/how-can-i-help/documentation/new-feature-draft.md)
     * [Feature Change Template](contributors/how-can-i-help/documentation/feature-change-draft.md)
-    * [Status Map](contributors/how-can-i-help/documentation/documentation-map/README.md)
-      * [Missing Articles](contributors/how-can-i-help/documentation/documentation-map/missing-and-outdated-list.md)
     * [Markdown Style Guide](contributors/how-can-i-help/documentation/markdown-styleguide.md)
   * [Promoting](contributors/how-can-i-help/promoting.md)
   * [Security](contributors/how-can-i-help/security/README.md)
