@@ -176,7 +176,7 @@ sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
 
 This will enable SSL with an untrusted, self-signed certificate for testing purposes.
 
-For details on the Caddy TLS directive, visit [https://caddyserver.com/docs/tls](https://caddyserver.com/docs/tls)
+For details on the Caddy TLS directive, visit [https://caddyserver.com/docs/tls](https://caddyserver.com/docs/caddyfile/directives/tls)
 
 ## Redirecting HTTP to HTTPS
 

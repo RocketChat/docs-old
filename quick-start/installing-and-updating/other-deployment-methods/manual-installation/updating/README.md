@@ -108,4 +108,4 @@ Follow this procedure:
 
 (this is a very good reason to keep reasonably up to date with Rocket.Chat versions)
 
-Please check the [Tags](https://github.com/RocketChat/Rocket.Chat/tags) or Releases as above for the required version infomation.
+Please check the [Tags](https://github.com/RocketChat/Rocket.Chat/tags) or [Releases](https://github.com/RocketChat/Rocket.Chat/releases) as above for the required version infomation.

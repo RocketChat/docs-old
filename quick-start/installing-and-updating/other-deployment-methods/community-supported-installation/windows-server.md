@@ -31,7 +31,7 @@ Then, download and install each of the following **in order**:
 4. [Visual Studio 2010 SP1](https://www.microsoft.com/en-us/download/details.aspx?id=34677)
 5. [Visual C++ 2010 SP1 Compiler Update for the Windows SDK 7.1](http://www.microsoft.com/en-us/download/details.aspx?id=4422)
 6. [GraphicsMagick](http://www.graphicsmagick.org/INSTALL-windows.html#prerequisites)
-7. [Ghostscript](http://ghostscript.com/download/gsdnld.html) (Optional for PDF rendering)
+7. [Ghostscript](https://www.ghostscript.com/releases/index.html) (Optional for PDF rendering)
 
 ### MongoDB
 
