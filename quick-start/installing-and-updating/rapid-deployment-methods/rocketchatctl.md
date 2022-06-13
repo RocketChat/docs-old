@@ -56,7 +56,7 @@ FOR UNATTENDED INSTALLATION
 
 ### Install Rocket.Chat
 
-You can run `rocketchatctl install` directly curling the install.sh script from our website, install.sh will download rocketchatctl save it in /usr/local/bin and call rocketchatctl with the install option, this installation will be interactive:
+You can run `rocketchatctl install` directly curling the install.sh script from our website, `install.sh` will download rocketchatctl save it in `/usr/local/bin` and call `rocketchatctl` with the install option, this installation will be interactive:
 
 ```bash
 bash -c "$(curl https://install.rocket.chat)"
@@ -95,7 +95,7 @@ And update to the latest release:
 rocketchatctl update
 ```
 
-The update option creates a temporary backup directory, download the latest rocketchat release, starts it and checks that is healthy querying the info api. In case something goes wrong in the startup process, the previous installed version from backup is resotored and a error message is displayed.
+The update option creates a temporary backup directory, downloads the latest rocketchat release, starts it, and checks that it is healthy by querying the info api. In case something goes wrong in the startup process, the previously installed version from the backup is restored and an error message is displayed.
 
 ### Upgrade rockectchatctl
 
@@ -105,6 +105,12 @@ This option will download the latest version available for rocketchatctl in the 
 rocketchatctl upgrade-rockectchatctl
 ```
 
-#### **Use rocketchatctl to automate your previously Rocket.Chat manual installation deployments !**
+### **Backup rocketchatctl**
 
-Check out our webinar about it here:
+Backup rocketchatctl data by running
+
+```
+rocketchatctl backup
+```
+
+By default, a backup will be made in the `/tmp` directory. You can specify where using the `--backup-dir` flag. See more help in the help section `rocketchatctl --help`
