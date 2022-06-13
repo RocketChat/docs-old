@@ -31,3 +31,9 @@ To restore the backup, run the following command
 ```
 docker exec -i <database_name> sh -c 'mongorestore --archive' < db.dump
 ```
+
+{% hint style="info" %}
+You can export your database dump directly to MongoDB Atlas by simply running
+
+`mongorestore --uri mongodb+srv://<user>:<password>@cluster0.w2btl.mongodb.net --archive=db.dump`
+{% endhint %}
