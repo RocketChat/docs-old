@@ -149,7 +149,7 @@ The various settings that fall under this have simple descriptions for understan
 * **Allowed Domains List**: This will block emails with different domains than the ones on the list.
 * **Blocked Domains List**: This will block emails with domains that are on the list.
 * **Blocked Username List:** This will block usernames that are on the list.
-* **Use Default Blocked Domains List**: Will block the email domains listed [here](https://github.com/RocketChat/Rocket.Chat/blob/develop/app/lib/server/lib/defaultBlockedDomainsList.js)
+* **Use Default Blocked Domains List**: Will block the email domains listed [here](https://github.com/RocketChat/Rocket.Chat/blob/develop/apps/meteor/app/lib/server/lib/defaultBlockedDomainsList.js)
 * **Use DNS Domain Check**: When this is set to true, users won't be able to register with invalid domains.
 * **Registration Form**: This will change how the registration form is presented. Currently, there are 3 options:
   * Public: The form will be public and anyone will be able to access it.

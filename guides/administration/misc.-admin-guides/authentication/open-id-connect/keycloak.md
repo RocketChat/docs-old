@@ -57,7 +57,7 @@ First we add the required roles to the client.
 
 To create a role, click **Add Role**, enter in the name and description of the role, and then click **Save**.
 
-![Add Role](<../../../../../.gitbook/assets/Add role.jpg>)
+![Add Role](../../../../../.gitbook/assets/30052022\_Addnewrole.jpg)
 
 then we have to add a mapper entry, that maps our client roles to OpenId, passing the value to Rocket.Chat.
 
@@ -73,7 +73,7 @@ A _composite role_ is a role that can be associated with other roles.
 
 To define composite roles, click **Role** and then navigate to **Composite** **Roles.**
 
-![Composite Roles](<../../../../../.gitbook/assets/keycloak\_CompositeRoles\_31052022 (1).jpg>)
+![Composite Roles](../../../../../.gitbook/assets/keycloak\_CompositeRoles\_31052022.jpg)
 
 Now in order to grant the Rocket.Chat role to a user, we have to modify the users Role Mappings.
 
@@ -83,6 +83,6 @@ Now in order to grant the Rocket.Chat role to a user, we have to modify the user
 
 **Mappers**
 
-![Mappers](<../../../../../.gitbook/assets/30052022\_User Mapper.jpg>)
+![Mappers](../../../../../.gitbook/assets/mappersrc.jpg)
 
 The roles are only synced on first login, and not being refreshed on each login. Please see the [bug report](https://github.com/RocketChat/Rocket.Chat/issues/15225) for current state.

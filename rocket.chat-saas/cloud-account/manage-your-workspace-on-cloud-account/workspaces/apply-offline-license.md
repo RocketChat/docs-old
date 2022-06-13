@@ -22,7 +22,7 @@ In case You are using a workspace accessible through the internet please follow 
 
 * Select the option to **Continue Offline** if you are running an air-gapped workspace or your server doesn't have an internet connection.
 
-![](<../../../../.gitbook/assets/image (693) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (641) (1) (1).png>)
 
 * Paste the code you copied earlier from Connectivity Services in your Rocket.Chat workspace and hit **Continue** to proceed
 

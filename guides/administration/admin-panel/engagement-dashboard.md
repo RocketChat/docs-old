@@ -14,7 +14,7 @@ To access the **Engagement Dashboard:**
 
 1. Go to **Administration.**
 
-![](../../../.gitbook/assets/2021-11-22\_22-52-05.png)
+![](<../../../.gitbook/assets/2021-11-22\_22-52-05 (1).png>)
 
 2\. Click **Engagement Dashboard**.
 
@@ -28,7 +28,7 @@ As an administrator, you can see your _User_, _Messages_, and _Channels_ engagem
 
 The user tab shows you the following engagement matrices.
 
-![](<../../../.gitbook/assets/image (129) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (129) (1) (1) (1).png>)
 
 Download the data for any matrix you want in CSV, using the download button, as shown below:
 
