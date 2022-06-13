@@ -16,7 +16,11 @@ curl -L https://get.docker.com | sh
 curl -L https://raw.githubusercontent.com/RocketChat/Docker.Official.Image/master/compose.yml -O
 ```
 
-**Editing Variables:**
+#### **Editing Variables:**
+
+If you are using MogoDB Atlas as the database provider, edit the value of the `MONGO_URL` variable in your compose file to be your connection string in this format
+
+`MONGO_URL=mongodb://<user>:<pass>@host1:27017,host2:27017,host3:27017/<databaseName>?replicaSet=<replicaSet>&ssl=true&authSource=admin`
 
 Environment variables are set using a `.env` file. See the example in [here](https://github.com/RocketChat/Docker.Official.Image/blob/master/env.example). If you cloned the repo initially, you can just rename the example file `cp env.example .env`.&#x20;
 
