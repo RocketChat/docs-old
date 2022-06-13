@@ -1,6 +1,6 @@
 # Simple Telegram Bot:
 
-_follow these instructions to get a simple Telegram Bot setup_
+_Follow these instructions to get a simple Telegram Bot setup_
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ _follow these instructions to get a simple Telegram Bot setup_
 
 ## Getting the Token
 
-1. Wait for the Token to be displayed referred to as \[myauthorization-token\]
+1. Wait for the Token to be displayed referred to as \[myauthorization-token]
 2. Go to the Administration Portal of Rocket.Chat and the Integrations Page
 3. Create a new Incoming Webhook following these instructions
    * Enable script
@@ -91,8 +91,8 @@ class Script {
 
 1. Copy incoming webhook URL from Rocket.Chat
 2. Change following URL with your token and Incoming webhookURL and execute in regular browser `https://api.telegram.org/bot[myauthorization-token]/setwebhook?url=[Incoming_Webhook_Link_from_Rocket.Chat]`
-3. Receive the message `{ "ok": true, "result": true, "description": "Webhook successfully set" }` \(or similar\)
-4. Test your incoming Webhook by sending a telegram message to the bot. It should be posted in the channel/user you specified in the incoming webhook. Check Rocket.Chat's Logs and write down `chat_id` \(or `[chat-id]`\)
+3. Receive the message `{ "ok": true, "result": true, "description": "Webhook successfully set" }` (or similar)
+4. Test your incoming Webhook by sending a telegram message to the bot. It should be posted in the channel/user you specified in the incoming webhook. Check Rocket.Chat's Logs and write down `chat_id` (or `[chat-id]`)
 
 ## Create Outgoing WebHook in Rocket.Chat
 
@@ -117,7 +117,7 @@ Message
 ```
 
 * Paste the Outgoing Webhook below.
-* Enable listening at the Bot with /privacy and to disable \([example](http://i.imgur.com/xSjdAAy.jpg?1)\)
+* Enable listening at the Bot with /privacy and to disable ([example](http://i.imgur.com/xSjdAAy.jpg?1))
 * Add Bot to telegram group and utilize nice cross platform communication.
 
 ```javascript
@@ -141,4 +141,3 @@ class Script {
 Enjoy! Please note, this was a community submission and is very simple. If you feel there are improvements which can be made, please feel free to submit improvements via pull requests!! :heart:
 
 ![final product](http://i.imgur.com/LqpqUC8.jpg?1)
-

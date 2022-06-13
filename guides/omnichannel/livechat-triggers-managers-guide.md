@@ -11,7 +11,7 @@ To access **Livechat Triggers** settings:
 
 Go to Omnichannel panel settings, as shown below:
 
-![](<../../.gitbook/assets/0 (8) (5) (5) (5) (5) (5) (4) (4) (1) (1) (1) (17).png>)
+![](<../../.gitbook/assets/0 (8) (5) (5) (5) (5) (5) (4) (4) (1) (1) (1) (1) (17).png>)
 
 Livechat Triggers menu appears, as shown below:
 
@@ -49,7 +49,7 @@ On the New Trigger screen:
 
 Or if you want to open it after a set time elapsed for the user while being on the page.
 
-![](<../../.gitbook/assets/9 (4).png>)
+![](<../../.gitbook/assets/9 (3).png>)
 
 Mention the time in seconds.
 
@@ -79,7 +79,7 @@ Your new livechat trigger is saved, as shown below:
 
 1. Hit **Remove**.
 
-![](<../../.gitbook/assets/16 (3).png>)
+![](<../../.gitbook/assets/16 (2).png>)
 
 1. Click **Yes**.
 

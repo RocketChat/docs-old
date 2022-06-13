@@ -24,4 +24,4 @@ Your new Team is created, as shown below:
 
 * You can mark a team favorite using the star
 
-![](<../../../../.gitbook/assets/image (349) (1) (1) (1) (1) (2) (2) (2) (2) (2) (1) (1) (1) (3).png>)
+![](<../../../../.gitbook/assets/image (349) (1) (1) (1) (1) (2) (2) (2) (2) (2) (1) (1) (1) (1) (3).png>)

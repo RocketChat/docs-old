@@ -12,12 +12,12 @@ Before you get started there are a few things that you have to check.
 * Zapier OAuth is configured by default at `Admin -> oAuth Apps -> Zapier`
 {% endhint %}
 
-* Login in or create a new [Zapier account](https://zapier.com)
+* Log in or create a new [Zapier account](https://zapier.com)
 * From your Zapier dashboard, click on **My Apps** then click on **Add Connection**
 
 ![](<../../../../.gitbook/assets/image (693).png>)
 
-* Search for RocketChat and choose it in the popup that shows
+* Search for Rocket.Chat and choose it in the popup that shows
 
 ![](<../../../../.gitbook/assets/image (679) (1).png>)
 

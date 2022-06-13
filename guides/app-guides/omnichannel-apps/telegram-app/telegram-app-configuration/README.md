@@ -2,11 +2,11 @@
 
 Search Telegram in the **Apps** menu on your Rocket.Chat administration panel, as shown below:
 
-![Telegram in the Apps menu ](<../../../../../.gitbook/assets/image (505) (1).png>)
+![Telegram in the Apps menu ](<../../../../../.gitbook/assets/image (532).png>)
 
 Click open your Telegram app to see the settings available to you as an administrator **Settings** tab:
 
-![Telegram app settings](../../../../../.gitbook/assets/2022-02-01\_16-04-42.png)
+![Telegram app settings](<../../../../../.gitbook/assets/2022-02-01\_16-04-42 (1).png>)
 
 1. **Bot Token** sent by Telegram during Bot user activation. If you need help creating your telegram bot token, you can find the [instructions](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/telegram-app/telegram-app-configuration/generate-your-telegram-bot-token) here.
 2. You can set a **Default Department**. Only the agents of this department are able to serve Telegram conversations

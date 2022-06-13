@@ -24,4 +24,4 @@ Follow these steps to enable GitlLab OAuth on your server.
 
 When used for authentication, a prompt is gotten for users to accept access
 
-![](<../../../../../.gitbook/assets/image (686) (1) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (684) (1) (1).png>)

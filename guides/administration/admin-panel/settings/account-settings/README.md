@@ -31,7 +31,7 @@ These are the basic Account configuration settings. Most of the options are eith
 * **Forget user session on window close**: This will log out users when they close the window running Rocket.Chat.
 * **Fields to Consider in Search**: Specifies the fields to be considered when searching for users. Default is _username, name, bio, nickname._
 * **Default Directory Listing**: This will set the default directory to be listed.
-* **Allow Invisible Status Option:** Setting this option will allow users to set the invisible status.&#x20;
+* **Allow Invisible Status Option:** Setting this option will allow users to set the invisible status.
 
 Clicking on the `Reset` button will reset all these basic configurations back to their default value.
 
@@ -69,7 +69,7 @@ Clicking on the `Reset` button will reset all these basic configurations back to
 * **Display Avatars in Sidebar**: Enabling this will disable avatars from showing at the sidebar.
 * **Unread on top**: Setting this to true will display all unread messages at the top.
 * **Sort by:** Lets you sort the list by the user activity or an alphabetical order.
-* **Show thread messages in the main thread:**&#x20;
+* **Show thread messages in the main thread:**
 * **Group favorites**: Setting this to false will disable favoriting groups.
 * **Enter key Behaviour**: Lets you configure the action of the Enter key. The available options are: Normal mode (send with Enter),Alternative mode (send with Enter+Ctrl/Alt/Shift/CMD)
 * **MessageBox View Mode**: Lets you select how message boxes appear. The available options are: Normal, Cozy and Compact.
@@ -92,7 +92,17 @@ Clicking on the `Reset` button will reset all these basic configurations back to
 
 ## Iframe
 
-These settings are related to the Iframe Integration, please see the [Iframe integration page](https://developer.rocket.chat/guides/developer/iframe-integration) for more details.
+* **Enabled**:  Enable this option to authenticate users using your own login page in place of the Rocket. Chat's login page via the iframe integration. Please check the [Iframe integration](https://developer.rocket.chat/rocket.chat/iframe-integration) page for the more information.
+* **Iframe URL:**  Enter **** the URL of the page you want to show as the login page of your Rocket.Chat instance.
+
+{% hint style="info" %}
+The Login page can be created in any programming language and/or web framework.
+{% endhint %}
+
+* **API URL:**  Enter the URL, which refers to the endpoint on the third-party system. This will check if the user is already logged in to that system.&#x20;
+* **API Method:** Specify the API (POST) method that Rocket.Chat will use to submit information to the `API URL.`
+
+![Iframe Admin Settings](../../../../../.gitbook/assets/iframesetting\_07062022.png)
 
 ## Failed Login Attempts
 
@@ -136,23 +146,23 @@ The various settings that fall under this have simple descriptions for understan
 * **Only allow verified users to login:** Enable this option only to allow the verified users to login.
 * **Verify Email for External Accounts**: If this is set to true, users will have to confirm their email via a confirmation email sent to their email. (For this setting to work, the SMTP settings must be already set up. See [Email Configuration](../email/setup.md))
 * **Manually Approve New Users**: If this is set to true, new users will have to wait for a user with the `view-user-administration` permission to approve their account before using Rocket.Chat.
-* **Allowed Domains List**: This will block emails with different domains than the ones on this list.
-* **Blocked Domains List**: This will block emails with domains that are on this list.
-* **Blocked Username List:** This will block usernames that a
+* **Allowed Domains List**: This will block emails with different domains than the ones on the list.
+* **Blocked Domains List**: This will block emails with domains that are on the list.
+* **Blocked Username List:** This will block usernames that are on the list.
 * **Use Default Blocked Domains List**: Will block the email domains listed [here](https://github.com/RocketChat/Rocket.Chat/blob/develop/app/lib/server/lib/defaultBlockedDomainsList.js)
 * **Use DNS Domain Check**: When this is set to true, users won't be able to register with invalid domains.
 * **Registration Form**: This will change how the registration form is presented. Currently, there are 3 options:
-  * Public: The form will be public and anyone will be able to access it;
+  * Public: The form will be public and anyone will be able to access it.
 
-![Public](../../../../../.gitbook/assets/publicform.png)
+![Public](../../../../../.gitbook/assets/Registration\_Public\_10062022.png)
 
 * Disabled: The form will be disabled and users won't be able to register through it.
 
-![Disabled](../../../../../.gitbook/assets/disabledform.png)
+![Disabled](../../../../../.gitbook/assets/Registration\_Disabled\_10062022.png)
 
-* Secret URL: The form will be only accessible using a specific URL;
+* Secret URL: The form will be only accessible using a specific URL.
 
-![Secret URL](../../../../../.gitbook/assets/secreturlform.png)
+![Secret URL](../../../../../.gitbook/assets/Registration\_Secret\_10062022.png)
 
 * **Registration Form Secret URL**: String to be added to the secret URL. Is recommended to use a random string for that. Example: `https://open.rocket.chat/register/[secret_hash]`.You can copy this URL to share the form with anyone.
 * **Invite URL Type**: URL type can either be direct or through a proxy.
