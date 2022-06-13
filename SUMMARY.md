@@ -15,6 +15,7 @@
     * [Docker & Docker Compose](quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/README.md)
       * [Docker Containers](quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/README.md)
         * [Available Images](quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/available-images.md)
+        * [Docker Mongo Backup and Restore](quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/docker-mongo-backup-and-restore.md)
         * [systemd](quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/systemd.md)
         * [High Availability](quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/high-availability-install.md)
         * [MongoDB mmap to wiredTiger migration](quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md)
