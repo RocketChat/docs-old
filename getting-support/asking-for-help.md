@@ -10,6 +10,23 @@ If you haven't got this information at hand, please get it first.
 
 At a minimum, you will need this:
 
+* Server Setup Information:
+* Server hardware: VPS/hypervisor/bare metal
+  * Version of Rocket.Chat Server:
+  * Operating System: Ubuntu/Redhat etc
+  * Deployment Method: snap/docker/tar/etc
+  * Number of Running Instances:
+  * DB Replicaset Oplog:
+  * NodeJS Version:
+  * MongoDB Version:
+* Client information:
+  * Client type: Electron app/React-Native app/Browser and version
+*   A list of the steps requires to replicate the issue.
+
+    * If we can't replicate it we can't debug it.
+
+    ***
+
 **(i) Server Setup Information**
 
 * Server hardware: VPS/hypervisor/bare metal
@@ -24,10 +41,6 @@ At a minimum, you will need this:
 **(ii) Client Information**
 
 * Client type: Electron app/React-Native app/Browser and version
-
-**(iii) A list of the steps requires to replicate the issue**
-
-* If we can't replicate it we can't debug it.
 
 ## **Contents**
 

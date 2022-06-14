@@ -50,7 +50,7 @@ Omnichannel area of Rocket.Chat has three primary users.
 
 Being an omnichannel manager, you can access omnichannel settings, as shown below:
 
-![](<../../.gitbook/assets/image (598) (2) (2) (2) (2) (2) (2) (2) (2) (2) (1) (1) (2).png>)
+![](<../../.gitbook/assets/image (598) (2) (2) (2) (2) (2) (2) (2) (2) (2).png>)
 
 ![](<../../.gitbook/assets/image (58).png>)
 

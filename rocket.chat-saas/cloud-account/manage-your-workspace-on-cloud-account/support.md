@@ -2,13 +2,13 @@
 
 To get support from us, click **Support**, as shown below:
 
-![](<../../../.gitbook/assets/image (115) (2) (2) (2) (2) (2) (2) (2) (1) (2) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (115) (2) (2) (2) (2) (2) (2) (2) (1) (2) (1) (2).png>)
 
 ## Ticketing System
 
 You are directed to rocket.chat ticketing system, as shown below:
 
-![](<../../../.gitbook/assets/image (109) (1).png>)
+![](<../../../.gitbook/assets/image (100).png>)
 
 ### Sign up
 

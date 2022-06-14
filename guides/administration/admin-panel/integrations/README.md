@@ -21,15 +21,15 @@ WebHooks can be handled by _ES2015 / ECMAScript 6_ scripts to process the reques
 
 * Go to your **Admin Panel**
 
-![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (30).png>)
+![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 copy (1).png>)
 
 * Go to **Integrations**
 
-![](../../../../.gitbook/assets/2021-11-22\_22-27-32.png)
+![](<../../../../.gitbook/assets/2021-11-22\_22-27-32 (1).png>)
 
 * Create a **New** Integration
 
-![](<../../../../.gitbook/assets/2021-11-22\_22-29-03 (1).png>)
+![](../../../../.gitbook/assets/2021-11-22\_22-29-03.png)
 
 * Select **Incoming WebHook**
 
@@ -130,15 +130,15 @@ The response of the request also executes the script, calling another method so 
 
 * Go to your **Admin Panel**
 
-![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (20).png>)
+![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 copy (2).png>)
 
 * Go to **Integrations**
 
-![](<../../../../.gitbook/assets/2021-11-22\_22-27-32 (1).png>)
+![](../../../../.gitbook/assets/2021-11-22\_22-27-32.png)
 
 * Create a **New** Integration
 
-![](../../../../.gitbook/assets/2021-11-22\_22-29-03.png)
+![](<../../../../.gitbook/assets/2021-11-22\_22-29-03 (1).png>)
 
 * Select **Outgoing WebHook**
 
