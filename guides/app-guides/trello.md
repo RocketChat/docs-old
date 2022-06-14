@@ -81,7 +81,7 @@ You can always run the slash command `/trello help` from anywhere to get help.
 * Open up your desired channel and type the slash command `/trello link` to link a Trello board
 * A list of Trello boards linked to your account is shown. Select a board of your choice and **Link**
 
-![](<../../.gitbook/assets/image (588) (2).png>)
+![](<../../.gitbook/assets/image (588) (2) (1).png>)
 
 * After linking, any activity performed on Trello, will be notified in the corresponding channel
 
