@@ -6,7 +6,7 @@ description: You can manage your workspaces in workspaces.
 
 As soon as you log in, you will see the list of workspaces linked to your cloud account, as shown below:
 
-![](<../../../../.gitbook/assets/image (95) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (95) (1).png>)
 
 Click the Add button to add your self-managed workspace.
 

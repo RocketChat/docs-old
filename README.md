@@ -70,8 +70,8 @@ This user guide incorporates a description of the features and capabilities, mod
 [identity-management-ee-vs-ce.md](guides/administration/identity-management-ee-vs-ce.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/administration/admin-panel/settings/federation/" %}
-[federation](guides/administration/admin-panel/settings/federation/)
+{% content-ref url="guides/administration/admin-panel/settings/federation.md" %}
+[federation.md](guides/administration/admin-panel/settings/federation.md)
 {% endcontent-ref %}
 
 ## Minimum Requirements

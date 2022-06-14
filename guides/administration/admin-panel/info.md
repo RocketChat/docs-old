@@ -12,7 +12,7 @@ To access this menu, go to **Administration** > **Info**.
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (26).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (26) (1).png>)
 
 ![](<../../../.gitbook/assets/image (662) (1) (1) (1) (1).png>)
 
@@ -97,7 +97,7 @@ More details on usage info can be seen on the [engagement-dashboard.md](engageme
 
 ## Federation Info
 
-[RocketChat's Federation](settings/federation/#introduction) lets you set up communication between RocketChat servers.
+[RocketChat's Federation](settings/federation.md#introduction) lets you set up communication between RocketChat servers.
 
 **Enabled**: Enables federation on your server.
 
@@ -122,7 +122,7 @@ We recommend using **DNS**.
 
 Next, continue by adding the given DNS records on your server then follow the given instructions.
 
-More on federa**t**ion setup can be seen in [this section](settings/federation/).
+More on federa**t**ion setup can be seen in [this section](settings/federation.md).
 
 We also have a guide on [talking-to-users-from-another-server.md](../../user-guides/talking-to-users-from-another-server.md "mention").
 
@@ -130,7 +130,7 @@ We also have a guide on [talking-to-users-from-another-server.md](../../user-gui
 
 To download info about your server, click the **Download Info** button by the top right of your info panel.
 
-![](../../../.gitbook/assets/2021-11-20\_23-38-23.png)
+![](<../../../.gitbook/assets/2021-11-20\_23-38-23 (1).png>)
 
 A download is prompted with a file named `statistics.json`.
 
@@ -140,4 +140,4 @@ Refreshing info on your RocketChat server will prompt for the latest stats to be
 
 To refresh info, click the **Refresh** button by the top right of your info panel.
 
-![](<../../../.gitbook/assets/2021-11-20\_23-42-35 (1).png>)
+![](../../../.gitbook/assets/2021-11-20\_23-42-35.png)

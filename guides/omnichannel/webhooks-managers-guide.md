@@ -10,7 +10,7 @@ To access **Webhooks** settings:
 
 Go to **Webhooks** in the omnichannel panel settings, as shown below:
 
-![](<../../.gitbook/assets/0 (7).png>)
+![](<../../.gitbook/assets/0 (14).png>)
 
 1. Get the Webhook URL from the system you want to connect
 2. Enter the secret token

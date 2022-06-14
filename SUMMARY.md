@@ -255,7 +255,7 @@
         * [Direct Email reply](guides/administration/admin-panel/settings/email/direct-reply.md)
         * [Email Configuration](guides/administration/admin-panel/settings/email/setup.md)
       * [Enterprise](guides/administration/admin-panel/settings/enterprise.md)
-      * [Federation](guides/administration/admin-panel/settings/federation/README.md)
+      * [Federation](guides/administration/admin-panel/settings/federation.md)
         * [Matrix Bridge](guides/administration/admin-panel/settings/federation/matrix-bridge.md)
       * [File Upload](guides/administration/admin-panel/settings/file-upload/README.md)
         * [Amazon S3](guides/administration/admin-panel/settings/file-upload/amazon-s3.md)

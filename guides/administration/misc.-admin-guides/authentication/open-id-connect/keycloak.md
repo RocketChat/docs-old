@@ -14,6 +14,8 @@ The following image shows the minimal configurations needed to setup Keycloak as
 
 ![](../../../../../.gitbook/assets/client\_configurations.png)
 
+(In the example above we are using http://locahost:3000/\* as the Redirect URI change it to the IP and PORT of your rocketchat instance.)
+
 After saving the changes a new credentials tab will be created for the client. This credentials tab will provide the client secrets which will be used when configuring the Rocket.Chat.
 
 ## Configuring Rocket.Chat
@@ -25,7 +27,7 @@ After saving the changes a new credentials tab will be created for the client. T
 
 The URL paths provided in the below configurations can be also obtained by navigating to the Realm setting and clicking the endpoints link in the `General Tab`. While configuring the below settings replace the `realm_name` with the appropriate realm name. The default realm provided by Keycloak is `master`.
 
-1. URL: `http://{keycloak_ip_address}:{port}/auth`
+1. URL: `http://{keycloak_ip_address}:{port}`
 2. Token Path: `/realms/{realm_name}/protocol/openid-connect/token`
 3. Token sent via: Header
 4. Identity Token Sent Via: Same As "Token Sent Via"
@@ -40,6 +42,10 @@ The URL paths provided in the below configurations can be also obtained by navig
 Leave the rest of the configurations as default. Click the blue button Save Changes at the top.
 
 Next, make sure you enable the new Keycloak provider. And click the Refresh OAuth Services button.
+
+If you are in a test environment with no SMTP server set make sure to disable Two-factor Authentication in Administrarion > Settings > General.&#x20;
+
+If you dont have an SMTP server set make sure to disable Two-Factor Authentication in Administration > Settings > General.
 
 Now logout from Rocket.Chat to view the keycloak based login option visible in the login page.
 
