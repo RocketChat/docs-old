@@ -1,27 +1,23 @@
 # PagerDuty
 
-## Introduction
+[PagerDuty](https://pagerduty.com) is an alarm aggregation and dispatching service for system administrators and support teams. It collects the alerts from your monitoring tools, gives you an overall view of all of your monitoring alarms, and alerts an on-duty engineer if there's a problem.
 
-[PagerDuty](https://pagerduty.com) is an alarm aggregation and dispatching service for system administrators and support teams. It will collect the alerts from your monitoring tools, gives you an overall view of all of your monitoring alarms, and alerts an on duty engineer if there's a problem.
-
-## Installation
-
-### **Rocket.Chat Admin Settings**
+### **Admin Settings**
 
 Log in as an administrator and go to **Administration > Integrations > New Integration > Incoming Webhook** and configure the following settings:
 
 * **Enabled:** Enable this option to integrate the PagerDuty with Rocket.Chat.
-* **Name (Optional):** Enter the preferred name for your PagerDuty connection. You can name it to easily manage your integrations.&#x20;
-* **Post to Channel:** Messages that are sent to the Incoming Webhook will be posted here. Start with `@` for user or `#` for channel. Eg: `@john` or `#general`
+* **Name (Optional):** Enter the preferred name for your PagerDuty connection.&#x20;
+* **Post to Channel:** Messages that are sent to the Incoming Webhook will be posted here. Start with `@` for the user or `#` for the channel. Eg: `@john` or `#general`
 * **Post as:** Choose the username that this integration will post as. The user must already exist.
-* **Alias (optional):**Choose the alias that will appear before the username in messages.
+* **Alias (optional):** Choose the alias that will appear before the username in messages.
 * **Avatar URL (optional):** An option to override the avatar used to post from this integration. Should be a URL of an image.
 * **Emoji (optional):** Use an emoji as an avatar. Example: `:ghost:`
 * **Script Enabled:** Enable this option to add the script.&#x20;
 * **Script:** Paste contents of [rocketchat\_pagerduty\_incoming.js](https://github.com/kajisaap/rocketchat-pagerduty/blob/master/rocketchat\_pagerduty\_incoming.js) into the _Script_ field.
-* **Webhook URL:** Copy **Webhook URL** as soon as you saved the integration and proceed to the configuration of generic webhook integration in PagerDuty
-* **Token:**  An auto generated token.
-* **Example Payload:**  Customize the payload template
+* **Webhook URL:** Copy the **Webhook URL** as soon as you save the integration and proceed to the configuration of generic webhook integration in PagerDuty.
+* **Token:**  An auto-generated token.
+* **Example Payload:**  Customize the payload template.
 
 Click **Save.**
 
@@ -33,7 +29,7 @@ Click **Save.**
 
 ![New Extension](../../../../.gitbook/assets/pagerdutyConfiguration.png)
 
-1. For the Extension Type select **Generic Webhooks(v3)**.
+1. For **Extension Type** select **Generic Webhooks(v3)**.
 2. Enter a unique Extension Name e.g. rocketchatpage and choose the service.
 3. Select the **Service** you wish to add.
 4. Add the Webhook URL.&#x20;
