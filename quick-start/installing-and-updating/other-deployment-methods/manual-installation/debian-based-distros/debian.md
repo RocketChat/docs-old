@@ -135,7 +135,7 @@ storage:
   engine: wiredTiger
 ```
 
-Enable replication, and name the replicaset `rs01`.&#x20;
+Enable replication, and name the replicaset `rs01`.
 
 ```yaml
 replication:
@@ -192,10 +192,10 @@ sudo systemctl enable --now rocketchat
 
 ## Optional configurations
 
-* [Configure firewall rule](../extras/optional-configurations.md)&#x20;
-* [Configure a HTTP reverse proxy to access Rocket.Chat server](../extras/configuring-ssl-reverse-proxy.md)&#x20;
-* \[Configure mongo access control]&#x20;
-* \[Configure production values for mongodb]
+* [Configure firewall rule](../extras/optional-configurations.md)
+* [Configure a HTTP reverse proxy to access Rocket.Chat server](../extras/configuring-ssl-reverse-proxy.md)
+* [Configure mongo access control](../../../../environment-configuration/mongodb-configuration/mongodb-uri-authentication.md)
+* [Configure production values for mongodb](../extras/mongo-options.md)
 
 ## Configure your Rocket.Chat server
 
