@@ -2,7 +2,9 @@
 
 Rocket.Chat uses the [MongoDB replica set](http://docs.mongodb.org/manual/replication/) to improve performance via Meteor Oplog tailing.
 
+{% hint style="info" %}
 **Note** please check release notes to ensure you are using a compatible version of Mongo
+{% endhint %}
 
 To configure the replica set add this section into `mongod.conf`:
 
@@ -82,7 +84,7 @@ rs0:OTHER>
 
 ## Reconfigure and restart Rocket.Chat service
 
-After you configured replica set, you **MUST** add the `MONGO_OPLOG_URL` environment variable to the service definition and restart Rocket.Chat server.
+After you configured the replica set, you **MUST** add the `MONGO_OPLOG_URL` environment variable to the service definition and restart Rocket.Chat server.
 
 In CentOS open file `/usr/lib/systemd/system/rocketchat.service`
 
