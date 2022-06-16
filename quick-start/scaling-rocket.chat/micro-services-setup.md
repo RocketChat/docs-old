@@ -1,5 +1,7 @@
 # Microservices Setup
 
+![](../../.gitbook/assets/EnterpriseEditionTag.jpg)
+
 {% hint style="info" %}
 This feature is currently in the beta stage and can change without prior notice.
 {% endhint %}

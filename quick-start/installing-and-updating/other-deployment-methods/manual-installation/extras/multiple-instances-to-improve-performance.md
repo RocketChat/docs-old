@@ -1,5 +1,7 @@
 # Running Multiple Instances
 
+![](../../../../../.gitbook/assets/EnterpriseEditionTag.jpg)
+
 You may find that Rocket.Chat slows down once you have a lot of concurrent users. When this sluggishness begins, you will likely see Rocket.Chat node process approaching 100% CPU (even if the host CPU load is low). This is due to the single-threaded nature of Node.js applications; they can't take advantage of multiple cores natively.
 
 While it's possible to scale out by adding more servers (and this is recommended for HA purposes), you can achieve better utilization of your existing hardware by running multiple instances of the Rocket.Chat application (Node.js/Meteor app) on your current host(s). Of course, you only want to do this if you're already running on a multi-core machine. A reasonable rule-of-thumb may be to run `N-1` Rocket.Chat instances, where `N=num_cores`.
@@ -84,19 +86,19 @@ The other Services will be enable since they are "WantedBy"=RocketChat.service
 
 If you run Rocket.Chat instances on multiple physical nodes. Or even in multiple containers make sure they can communicate with each other.
 
-Rocket.Chat makes use of a peer to peer connection to inform each other of events. Let's say you type a message and tag a friend or coworker that is connected to another instance.
+Rocket.Chat makes use of a peer-to-peer connection to inform each other of events. Let's say you type a message and tag a friend or coworker that is connected to another instance.
 
 Two different events are fired: 1. The user (you) is typing 2. Notify user (friend)
 
-Each Rocket.Chat instance registers in your database the ip address it detected for its self. Other instances then use this list to discover and establish connections with each other.
+Each Rocket.Chat instance registers in your database the IP address it detected for itself. Other instances then use this list to discover and establish connections with each other.
 
-If you find instances unable to talk to each other you can try setting the `INSTANCE_IP` environment variable to the ip the other instances can use to talk to it.
+If you find instances unable to talk to each other you can try setting the `INSTANCE_IP` environment variable to the IP the other instances can use to talk to it.
 
 ## Update your Nginx proxy config
 
 Edit `/etc/nginx/sites-enabled/default` or if you use nginx from docker `/etc/nginx/conf.d/default.conf` and be sure to use your actual hostname in lieu of the sample hostname "your\_hostname.com" below.
 
-You just need to setup a backend if one doesn't already exist. Add all local Rocket.Chat instances to it. Then swap out the host listed in the proxy section for the backend you defined with no port.
+You just need to set up a backend if one doesn't already exist. Add all local Rocket.Chat instances to it. Then swap out the host listed in the proxy section for the backend you defined with no port.
 
 Continuing the example, we'll update our Nginx config to point to the two Rocket.Chat instances that we started running on ports 3001 and 3002.
 
@@ -209,13 +211,13 @@ Now restart Apache: `systemctl restart apache2.service`
 
 Visit `https://your_hostname.com` just as before the update. **Ooh, so fast!**
 
-To confirm you're actually using both services like you'd expect, you can stop one rocketchat service at a time and confirm that chat still works. Restart that service and stop the other. Still work? Yep, you're using both services!
+To confirm you're actually using both services as you'd expect, you can stop one Rocket.Chat service at a time and confirm that chat still works. Restart that service and stop the other. Still, work? Yep, you're using both services!
 
 ## Check your database
 
 Another very important part is your database. As mentioned above, you will need to make sure you are running a replicaset.
 
-This is important for a couple of reasons: 1. Database reliability. You will want to make sure that your data is replicated, and you have another node if something happens to your primary. 2. Rocket.Chat does what's called oplog tailing. The oplog is turned on when you setup a replicaset. Mongo makes use of this to publish events so the other nodes in the replicaset can make sure its data is up to date. Rocket.Chat makes use of this to watch for database events. If someone sends a message on Instance 1 and you are connected to Instance 2. Instance 2 watches for message insert events and then is able to show you a new message has arrived.
+This is important for a couple of reasons: 1. Database reliability. You will want to make sure that your data is replicated, and you have another node if something happens to your primary. 2. Rocket.Chat does what's called oplog tailing. The oplog is turned on when you set up a replicaset. Mongo makes use of this to publish events so the other nodes in the replicaset can make sure its data is up to date. Rocket.Chat makes use of this to watch for database events. If someone sends a message on Instance 1 and you are connected to Instance 2. Instance 2 watches for message insert events and then is able to show you a new message has arrived.
 
 ### Database engine
 
