@@ -1,6 +1,6 @@
 # Keyboard Shortcuts
 
-You can use following key combinations while using Rocket.Chat.
+You can use the following key combinations while using Rocket.Chat.
 
 |               Shortcut               |                 Description                 |
 | :----------------------------------: | :-----------------------------------------: |
@@ -11,4 +11,4 @@ You can use following key combinations while using Rocket.Chat.
 |   `Command` (or `Alt`) + `Up Arrow`  |     Move to the beginning of the message    |
 | `Command` (or `Alt`) + `Right Arrow` |        Move to the end of the message       |
 |  `Command` (or `Alt`) + `Down Arrow` |        Move to the end of the message       |
-|    `Cntrol` (or `Shift`) + `Enter`   |      New line in message compose input      |
+|   `Control` (or `Shift`) + `Enter`   |      New line in message compose input      |
