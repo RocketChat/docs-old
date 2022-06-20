@@ -32,9 +32,9 @@ To create a custom authentication method for your Rocket.Chat instance:
 
 ![Azure AD app details](<../../../../../.gitbook/assets/Azure AD App details>)
 
-After registering your new app, take note of the `Application (client) ID` it will be needed to configure the integration later.
+After registering your new app, take note of  `Application (client) ID` it will be needed to configure the integration later.
 
-* On your new app's page, navigate to the **Certificates and Secret** tab to create a **New client secret**&#x20;
+* On your new app's page, navigate to **Certificates and Secret** tab to create a **New client secret**&#x20;
 
 ![AD create new app secret](<../../../../../.gitbook/assets/new clent secret>)
 
