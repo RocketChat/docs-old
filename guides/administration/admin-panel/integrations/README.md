@@ -1,45 +1,45 @@
 # Integrations
 
-Rocket.Chat supports WebHooks to integrate tools and services you like into the platform. WebHooks are simple event-notifications via HTTP POST. This way any application implementing a WebHook is able to POST a message to a Rocket.Chat instance and much more.
+Rocket.Chat supports Webhooks to integrate tools and services you like into the platform. Webhooks are simple event-notifications via HTTP POST. This way any application implementing a Webhook is able to POST a message to a Rocket.Chat instance and much more.
 
-With Scripts you can point any WebHook to Rocket.Chat and process the request to print customized messages, define the username and avatar of the user of the message and change the channel where the message will be posted or you can cancel the request to prevent undesired messages.
+With Scripts, you can point any Webhook to Rocket.Chat and process the request to print customized messages, define the username and avatar of the user of the message and change the channel where the message will be posted or you can cancel the request to prevent undesired messages.
 
 Available integrations:
 
-* Incoming WebHook → Let an external service send a request to Rocket.Chat to be processed.
-* Outgoing WebHook → Let Rocket.Chat trigger and optionally send a request to an external service and process the response.
+* Incoming Webhook → Let an external service send a request to Rocket.Chat to be processed.
+* Outgoing Webhook → Let Rocket.Chat trigger and optionally send a request to an external service and process the response.
 
-By default the WebHooks is designed to post a message only. The _message_ is part of a JSON structure, which has the same format as described in the API documentation on how to [Post a chat message](https://developer.rocket.chat/reference/api/rest-api/endpoints/core-endpoints/chat-endpoints/postmessage).
+By default the Webhooks is designed to post a message only. The _message_ is part of a JSON structure, which has the same format as described in the API documentation on how to [“Post a chat message”](broken-reference/).
 
-If you would like more power and control over various features of Rocket.Chat, aside from sending and receiving messages, take a look at [Rocket.Chat Apps](https://github.com/RocketChat/docs/tree/663a6019e9bf97ca60fde138cc8d6917dd32703e/apps-development/rocket.chat-app).
+If you would like more power and control over various features of Rocket.Chat, aside from sending and receiving messages, take a look at [Rocket.Chat Apps.](https://rocket.chat/marketplace#apps)
 
-## Incoming WebHook Script
+## Incoming Webhook Script
 
-WebHooks can be handled by _ES2015 / ECMAScript 6_ scripts to process the request, to print a customized messages, or cancel the request to prevent undesired messages.
+Webhooks can be handled by _ES2015 / ECMAScript 6_ scripts to process the request, to print a customized messages or cancel the request to prevent undesired messages.
 
-### Create a new Incoming WebHook
+### Create a new Incoming Webhook
 
-* Go to your **Admin Panel**
+* Go to your **Admin Panel.**
 
 ![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (30).png>)
 
-* Go to **Integrations**
+* Go to **Integrations.**
 
 ![](../../../../.gitbook/assets/2021-11-22\_22-27-32.png)
 
-* Create a **New** Integration
+* Create a **New** Integration.
 
 ![](<../../../../.gitbook/assets/2021-11-22\_22-29-03 (1).png>)
 
-* Select **Incoming WebHook**
+* Select **Incoming Webhook.**
 
 ![](../../../../.gitbook/assets/2021-11-22\_22-29-48.png)
 
 * Select the channel where you prefer to receive the alerts; it is possible to override messages.
-* Set **Script Enabled** to `true`
-* Paste your script inside the **Script** field
-* Save the integration
-* Use the generated **WebHook URL** to POST messages to Rocket.Chat
+* Set **Script Enabled** to `true.`
+* Paste your script inside the **Script** field.
+* Save the integration.
+* Use the generated **Webhook URL** to POST messages to Rocket.Chat.
 
 ### Script Details
 
@@ -128,27 +128,27 @@ The response of the request also executes the script, calling another method so 
 
 ### Create a new Outgoing WebHook
 
-* Go to your **Admin Panel**
+* Go to your **Admin Panel.**
 
 ![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (20).png>)
 
-* Go to **Integrations**
+* Go to **Integrations.**
 
 ![](<../../../../.gitbook/assets/2021-11-22\_22-27-32 (1).png>)
 
-* Create a **New** Integration
+* Create a **New** Integration.
 
 ![](../../../../.gitbook/assets/2021-11-22\_22-29-03.png)
 
-* Select **Outgoing WebHook**
+* Select **Outgoing WebHook.**
 
 ![](../../../../.gitbook/assets/2021-11-22\_22-32-16.png)
 
-* Select the channel where you prefer to use the commands and receive the responses
-* Enter the URL you want to call in **URLs**, you can modify this URL inside the script
-* Set **Script Enabled** to `true`
-* Paste your script inside the **Script** field
-* Save your integration
+* Select the channel where you prefer to use the commands and receive the responses.
+* Enter the URL you want to call in **URLs**, you can modify this URL inside the script.
+* Set **Script Enabled** to `true.`
+* Paste your script inside the **Script** field.
+* Save your integration.
 
 ### Script Details
 
