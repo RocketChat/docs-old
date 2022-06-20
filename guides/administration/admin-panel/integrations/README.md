@@ -9,13 +9,13 @@ Available integrations:
 * Incoming WebHook → Let an external service send a request to Rocket.Chat to be processed.
 * Outgoing WebHook → Let Rocket.Chat trigger and optionally send a request to an external service and process the response.
 
-By default the WebHooks is designed to post a message only. The _message_ is part of a JSON structure, which has the same format as described in the API documentation on how to “[Post a chat message](https://developer.rocket.chat/reference/api/rest-api/endpoints/team-collaboration-endpoints/chat-endpoints/postmessage)”.
+By default the WebHooks is designed to post a message only. The _message_ is part of a JSON structure, which has the same format as described in the API documentation on how to [Post a chat message](https://developer.rocket.chat/reference/api/rest-api/endpoints/core-endpoints/chat-endpoints/postmessage).
 
 If you would like more power and control over various features of Rocket.Chat, aside from sending and receiving messages, take a look at [Rocket.Chat Apps](https://github.com/RocketChat/docs/tree/663a6019e9bf97ca60fde138cc8d6917dd32703e/apps-development/rocket.chat-app).
 
 ## Incoming WebHook Script
 
-WebHooks can be handled by _ES2015 / ECMAScript 6_ scripts to process the request, to print a customized messages or cancel the request to prevent undesired messages.
+WebHooks can be handled by _ES2015 / ECMAScript 6_ scripts to process the request, to print a customized messages, or cancel the request to prevent undesired messages.
 
 ### Create a new Incoming WebHook
 
