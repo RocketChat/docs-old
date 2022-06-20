@@ -291,6 +291,7 @@
         * [GitLab OAuth Setup](guides/administration/admin-panel/settings/oauth/gitlab-oauth-setup.md)
         * [GitHub OAuth Setup](guides/administration/admin-panel/settings/oauth/github-oauth-setup.md)
         * [WordPress OAuth Setup](guides/administration/admin-panel/settings/oauth/wordpress.md)
+        * [MS Office 365 OAuth Setup](guides/administration/admin-panel/settings/oauth/ms-office-365-oauth-setup.md)
         * [Other OAuth Setup](guides/administration/admin-panel/settings/oauth/other-oauth-setup.md)
       * [Omnichannel Admin's Guide](guides/administration/admin-panel/settings/omnichannel-admins-guide/README.md)
         * [Queue Types (Routing Algorithm)](guides/administration/admin-panel/settings/omnichannel-admins-guide/queue-types-routing-algorithm.md)
