@@ -176,6 +176,7 @@
     * [Data Loss Prevention User Guide](guides/user-guides/security-bundle/data-loss-prevention-user-guide.md)
     * [Two Factor Authentication User Guide](guides/user-guides/security-bundle/two-factor-authentication-user-guide.md)
   * [Video Conferencing User's Guide](guides/user-guides/video-conferencing/README.md)
+  * [Keyboard Shortcuts](guides/user-guides/keyboard-shortcuts.md)
 * [Administration](guides/administration/README.md)
   * [Basic White-labeling](guides/administration/basic-white-labeling.md)
   * [Identity Management (EE vs CE)](guides/administration/identity-management-ee-vs-ce.md)
