@@ -14,6 +14,17 @@ First of all, thank you for your interest in contributing to Rocket.Chat Docs. I
 
 You can find a list of issues [here](https://github.com/RocketChat/Rocket.Chat.Docs/issues). When you find something you would like to work on just comment on it and we will add an **In Progress** label.
 
+## Environment Setup
+
+Rocket.Chat uses [GitBook ](https://www.gitbook.com/)for documentation.
+
+You can contribute to the docs by being invited into the GitBook online workspace or directly from your local environment. Follow this guide for a simple local environment setup
+
+* Install any code editor of your choice, [VSCode ](https://code.visualstudio.com/)is the recommended
+* Launch VSCode and install the [Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview) and [markdownlint ](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)extensions. This will help with automatically formatting your changes and prompts for any errors
+* Fork and clone the [user docs](https://github.com/RocketChat/docs) or [developers docs](https://github.com/RocketChat/developer-docs) repository
+* Open the project in VSCode and start making your changes
+
 ## Creating a new Pull Request
 
 ### Requirements
@@ -38,41 +49,13 @@ When you create a new feature but for some reason can't create a full-fledged do
 
 To test your changes you have 2 options:
 
-#### OPTION 1: Fork and use GitBook
+#### Using Live Preview Locally
 
-Simply fork our docs repository, [create a space](https://docs.gitbook.com/getting-started/quick-start) and activate the [GitHub Integration](https://docs.gitbook.com/integrations/git-sync) on your fork.
+The [Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview) installed on VSCode can help automatically preview directly in your editor.
 
-#### OPTION 2: Run it locally
+#### Using GitBook
 
-{% hint style="info" %}
-We do not recommend this method since GitBook CLI is deprecated and it takes a long time to build.
-{% endhint %}
-
-When making small changes like typos and such, there is no problem editing the file directly on GitHub, but if you are making bigger changes or adding new files to the docs, we recommend following this workflow
-
-Install GitBook's client package using NPM.
-
-```
-npm install -g gitbook-cli
-```
-
-After that you need to build the documentation, from the root of the docs folder do:
-
-```
-gitbook build .
-```
-
-This will generate a folder called "\_book" with the built docs.
-
-Then serve the buildt book using:
-
-```text
-gitbook serve .
-```
-
-This will serve the book to the url `http://localhost:4000/`
-
-Find out more on [GitBook Cli's repository](https://github.com/GitbookIO/gitbook-cli)
+Simply fork our docs repository, [create a space](https://docs.gitbook.com/getting-started/quick-start) on GitBook and activate the [GitHub Integration](https://docs.gitbook.com/integrations/git-sync) on your fork.
 
 ## Community Maintainers
 
@@ -85,9 +68,9 @@ The responsibilities of a maintainer are:
 * **Labeling issues:** Label issues accordingly.
 * **Finding Duplicates:** finding and closing duplicate issues.
 * **Closing irrelevant/inappropriate issues:** Closing issues that are no longer needed, that are not relevant to the project, and/or don't follow the issues guidelines.
-* **Doing first-level contact:** Getting more information on the issues \(like version number or asking for clarification\) and closing them if they aren't relevant or if a question made by the maintainer wasn't answered in 2 days.
+* **Doing first-level contact:** Getting more information on the issues (like version number or asking for clarification) and closing them if they aren't relevant or if a question made by the maintainer wasn't answered in 2 days.
 
 ### Help with Contribution
 
-* **Help Manage Pull Requests:** help the author of the pull request with any problems \(like tests failing due to markdown problems on the pull request\)
+* **Help Manage Pull Requests:** help the author of the pull request with any problems (like tests failing due to markdown problems on the pull request)
 * **Contributing!** Create pull requests to help maintain the documentation
