@@ -1,17 +1,10 @@
----
-description: Docker-Ubuntu 16.04 LTS (64 bit) VPS with Nginx SSL and Hubot
----
-
 # Docker Containers
 
 ## Introduction
 
-This guide will walk you through the installation and configuration of a Docker-based Rocket.Chat instance on Ubuntu 16.04 LTS (64 bit) VPS, using Nginx as a reverse SSL proxy, Hubot chatbot, and necessary scripts for an automatic restart and crash recovery.
+This guide will walk you through the installation and configuration of a Docker-based Rocket.Chat instance, using Nginx as a reverse SSL proxy.
 
-For people new to docker here's a quick primer: Docker is a program that allows other programs and their dependencies to be run in a type of virtual container. Using this deployment guide, you do not need to download any of the rocket chat program files manually whatsoever.\
-Docker will get everything needed for Rocket.Chat to run. If you follow this guide closely, it provides everything from start to finish needed to install, create, and run your own Rocket.Chat web instance with Nginx handling SSL termination, and a Hubot chatbot keeping your general chat channel warm on those cold winter mornings.
-
-This guide is designed for everyone, however, it is intentionally detailed to help the new users who may need a little extra guidance. If you're experienced with things like docker, Nginx, etc. you may prefer one of the other deployment guides found elsewhere on this wiki.
+[Docker ](https://www.docker.com/)provides the ability to package and run an application in a loosely isolated environment called a container. This isolation and security allow you to run many containers simultaneously on a given host. [Docker containers](https://www.docker.com/resources/what-container/) are instances of [Docker Image](https://docs.docker.com/engine/reference/commandline/images/).
 
 ## What we'll cover in this guide
 
@@ -31,7 +24,7 @@ This guide is designed for everyone, however, it is intentionally detailed to he
 
 This guide is written assuming that you're starting with:
 
-* A clean new installation of Ubuntu 16.04 LTS (64 bit)
+* A clean machine workable Linux machine
 * properly configured DNS that resolves requests to your domain name
 
 ## 1. Securing the server: Firewall basics (optional, recommended)
