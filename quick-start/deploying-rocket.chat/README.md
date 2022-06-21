@@ -18,8 +18,8 @@ Rocket.Chat can be hosted on our Cloud, installed from a variety of marketplaces
 [rapid-deployment-methods](rapid-deployment-methods/)
 {% endcontent-ref %}
 
-{% content-ref url="paas-deployments/" %}
-[paas-deployments](paas-deployments/)
+{% content-ref url="cloud-deployments/" %}
+[cloud-deployments](cloud-deployments/)
 {% endcontent-ref %}
 
 {% content-ref url="other-deployment-methods/manual-installation/" %}

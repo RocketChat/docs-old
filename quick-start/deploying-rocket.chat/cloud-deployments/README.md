@@ -8,20 +8,20 @@ If you are interested in quickly deploying an instance, you can try one of the o
 
 * [Linode](https://apps.sandstorm.io/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0)
 * [Cloudron](https://cloudron.io/appstore.html#chat.rocket.cloudronapp), you can install and receive automatic updates on your Cloudron Smartserver.
-* [Scalingo](../other-deployment-methods/community-supported-installation/scalingo.md)
-* [Jelastic](../other-deployment-methods/community-supported-installation/jelastic.md)
+* [Scalingo](../other-deployment-methods/nonofficial-methods/scalingo.md)
+* [Jelastic](../other-deployment-methods/nonofficial-methods/jelastic.md)
 
 ## Managed Deployments
 
 If you need full control of your deployment, here are some guides for specific environments:
 
-* [Aliyun](../other-deployment-methods/community-supported-installation/aliyun.md)
+* [Aliyun](../other-deployment-methods/nonofficial-methods/aliyun.md)
 * [Amazon Web Services](aws.md)
 * [Digital Ocean](digitalocean.md)
-* [Meteor Galaxy](../other-deployment-methods/community-supported-installation/galaxy.md)
-* [Google Compute Engine](broken-reference)
+* [Meteor Galaxy](../other-deployment-methods/nonofficial-methods/galaxy.md)
+* [Google Compute Engine](../../installing-and-updating/paas-deployments/broken-reference/)
 * [IBM Cloud](ibm-cloud.md)
-* [Syncloud.org](../other-deployment-methods/community-supported-installation/syncloud.md)
+* [Syncloud.org](../other-deployment-methods/nonofficial-methods/syncloud.md)
 
 ## Automation Tools
 

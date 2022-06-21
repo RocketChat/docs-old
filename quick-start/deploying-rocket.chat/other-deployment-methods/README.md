@@ -4,12 +4,12 @@
 [manual-installation](manual-installation/)
 {% endcontent-ref %}
 
-{% content-ref url="community-supported-installation/" %}
-[community-supported-installation](community-supported-installation/)
+{% content-ref url="nonofficial-methods/" %}
+[nonofficial-methods](nonofficial-methods/)
 {% endcontent-ref %}
 
-{% content-ref url="plug-ins/" %}
-[plug-ins](plug-ins/)
+{% content-ref url="plug-in-deployments/" %}
+[plug-in-deployments](plug-in-deployments/)
 {% endcontent-ref %}
 
 {% content-ref url="windows-10-pro.md" %}

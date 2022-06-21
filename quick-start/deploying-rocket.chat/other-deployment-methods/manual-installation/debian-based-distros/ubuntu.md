@@ -1,9 +1,17 @@
-# Rocket.Chat on Debian
+# Rocket.Chat on Ubuntu
+
+## Recommended Fastest Server Install
+
+We recommend installing using our[ Docker and Docker Compose guide](../../../rapid-deployment-methods/docker-and-docker-compose/) or using [Snaps](../../../rapid-deployment-methods/snaps/) as they are the easiest way for you to get your server up and running on all supported Linux distributions (Ubuntu, etc).
+
+If you would like to enable TLS on your site like this `https://yoursite.com` when using the snap, please [this guide](../../../rapid-deployment-methods/snaps/auto-ssl-with-snaps.md)
+
+## Manual install
 
 This installation guide was tested in the following environment:
 
 * Rocket.Chat 4.6.0
-* OS: Debian 11, 10, 9
+* OS: Ubuntu 18.04 LTS, Ubuntu 19.04 and Ubuntu 20.04(Latest)
 * Mongodb 5.0
 * NodeJS 14.18.3
 
@@ -11,7 +19,7 @@ This installation guide was tested in the following environment:
 
 *   **MongoDB**
 
-    Please refer to the official MongoDB documentation on [how to install MongoDB on Debian](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/). For the list of supported versions, see our documentation [here](../../../../../getting-support/#mongodb-versions).
+    Please refer to the official MongoDB documentation on [how to install MongoDB on Ubuntu](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/). For the list of supported versions, see our documentation [here](../../../../../getting-support/#mongodb-versions).
 *   **NodeJS**
 
     Follow the [official guide](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) to install NodeJS on a Debian system. Check out our page on [supported node version](../../../../environment-configuration/node-configuration/supported-nodejs-version.md) for your specific version. You can also use third-party tools like [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [n](https://www.npmjs.com/package/n).
@@ -24,41 +32,23 @@ Install required packages/dependencies
 sudo apt install -y curl build-essential graphicsmagick
 ```
 
-To download the latest Rocket.Chat version run the following command:
+Download the latest Rocket.Chat version:
 
 ```bash
 curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
 ```
 
-You can also use `wget`.
-
-```
-wget https://releases.rocket.chat/latest/download -O /tmp/rocket.chat.tgz
+```bash
+tar -xzf /tmp/rocket.chat.tgz -C /tmp
 ```
 
-You can also download a specific version by replacing `latest` by the version number. E.g.
-
-```
-wget https://releases.rocket.chat/4.1.2/download -O /tmp/rocket.chat.tgz
-```
-
-Extract the archive with `tar`:
+Install (this guide uses /opt but feel free to choose a different directory):
 
 ```bash
-tar xzf /tmp/rocket.chat.tgz -C /tmp
+cd /tmp/bundle/programs/server && npm install --production
 ```
 
-You should now see a new directory under `/tmp` named `bundle`.
-
-Next, install all the node dependencies:
-
-```bash
-(cd /tmp/bundle/programs/server; npm i)
-```
-
-If you're doing all this under the `root` user, which is not recommended, you'll need to pass the `--unsafe-perm` flag to npm along with `sudo`.
-
-`/tmp` has been a temporary non-root user-writable location to prepare the bundle. For this guide, we're going to use `/opt` to be the final location but you can choose any other. Whatever may it be, if not`/opt`, make sure you change the location in all the other places it is specified.
+If you're using the `root` account (not recommended), you'll have to use `sudo npm install --unsafe-perm --production` instead of the above.
 
 ```bash
 sudo mv /tmp/bundle /opt/Rocket.Chat
@@ -76,13 +66,13 @@ sudo useradd -M rocketchat && sudo usermod -L rocketchat
 sudo chown -R rocketchat:rocketchat /opt/Rocket.Chat
 ```
 
-Depending on how you install NodeJs, the path to the binary can be different. Save the current path in a variable
+Depending on how you install node, the binary path may be different. Save it to a variable.
 
 ```bash
 NODE_PATH=$(which node)
 ```
 
-Now create the systemd service file
+Now save the systemd service file,
 
 ```bash
 cat << EOF |sudo tee -a /lib/systemd/system/rocketchat.service
@@ -192,11 +182,8 @@ sudo systemctl enable --now rocketchat
 
 ## Optional configurations
 
-* [Configure firewall rule](../extras/optional-configurations.md)
-* [Configure a HTTP reverse proxy to access Rocket.Chat server](../extras/configuring-ssl-reverse-proxy.md)
-* [Configure mongo access control](../../../../environment-configuration/mongodb-configuration/mongodb-uri-authentication.md)
-* [Configure production values for mongodb](../extras/mongo-options.md)
+[Configure firewall rule](../../../../installing-and-updating/other-deployment-methods/manual-installation/extras/optional-configurations.md) [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../../installing-and-updating/other-deployment-methods/manual-installation/extras/configuring-ssl-reverse-proxy.md) \[Configure mongo access control] \[Configure production values for mongodb]
 
 ## Configure your Rocket.Chat server
 
-Open a web browser and access the configured ROOT\_URL (`http://your-host-name.com-as-accessed-from-internet:3000`), follow the configuration steps to set up an admin account and your organization and server info.
+Open a web browser and access the configured ROOT\_URL (`http://your-host-name.com-as-accessed-from-internet:3000`), follow the configuration steps to set an admin account and your organization and server info.

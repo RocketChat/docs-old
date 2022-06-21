@@ -2,17 +2,17 @@
 
 After installing your Rocket.Chat server, it is time to configure and start enjoying all the amazing features.
 
-Rocket.Chat provides multiple  [Rocket.Chat Client Apps](../mobile-and-desktop-apps/) that can be used for the user interface. &#x20;
+Rocket.Chat provides multiple [Rocket.Chat Client Apps](../installing-client-apps/) that can be used for the user interface.
 
 {% hint style="info" %}
 This guide proceeds with the assumption you have either the latest Rocket.Chat Desktop client or Browser installed.
 
-The server used for this guide is available at [http://localhost:3000/](http://localhost:3000)&#x20;
+The server used for this guide is available at [http://localhost:3000/](http://localhost:3000)
 {% endhint %}
 
 ### Adding Rocket.Chat server to Desktop Client
 
-* After installing the [Rocket.Chat Desktop Client](../mobile-and-desktop-apps/#desktop-apps), launch the application
+* After installing the [Rocket.Chat Desktop Client](../installing-client-apps/#desktop-apps), launch the application
 * You are presented with an interface with a field to input your server URL. Enter your server URL in this case `http://localhost:3000/` then click **Connect**
 
 ![](<../../.gitbook/assets/image (675) (1).png>)
@@ -41,14 +41,14 @@ To launch your workspace, it is required to do a simple 4 step setup.
 
 ![](<../../.gitbook/assets/image (672) (1).png>)
 
-* **Register Your Server**: Next you are asked to register your workspace to the Rocket.Chat Cloud or proceed with a standalone server.&#x20;
+* **Register Your Server**: Next you are asked to register your workspace to the Rocket.Chat Cloud or proceed with a standalone server.
 
 {% hint style="success" %}
-We recommend you register your workspace which will automatically create a [Rocket.Chat Cloud Account](../../rocket.chat-saas/cloud-account/) for you and you can enjoy all it's benefits like;&#x20;
+We recommend you register your workspace which will automatically create a [Rocket.Chat Cloud Account](../../rocket.chat-saas/cloud-account/) for you and you can enjoy all it's benefits like;
 
 * Mobile push notifications
-* __Integration with external providers (WhatsApp, Facebook, Instagram, Telegram, Twitter)
-* __Access to marketplace apps
+* \_\_Integration with external providers (WhatsApp, Facebook, Instagram, Telegram, Twitter)
+* \_\_Access to marketplace apps
 {% endhint %}
 
 ![](<../../.gitbook/assets/image (650).png>)
