@@ -5,7 +5,7 @@ Regardless of the platform you wish to deploy on or the method of deployment, yo
 ## Official Recommendation
 
 {% hint style="success" %}
-We offer a variety of Deployment methods, and we recommend you set up using our [Docker & Docker Compose](../rapid-deployment-methods/docker-and-docker-compose/) guide for several reasons mentioned below.
+We offer a variety of Deployment methods, and we recommend you set up using our [Docker &  Docker Compose](../rapid-deployment-methods/docker-and-docker-compose/) guide for several reasons mentioned below.
 {% endhint %}
 
 In order to obtain official support from our team, we have a minimum set of requirements. These requirements are necessary for us to access essential system information, to provide an SLA, to answer questions, or to provide a solution for the problem.

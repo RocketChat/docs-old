@@ -10,8 +10,8 @@ This user guide incorporates a description of the features and capabilities, mod
 
 ## Setup your account
 
-{% content-ref url="quick-start/deploying-rocket.chat/" %}
-[deploying-rocket.chat](quick-start/deploying-rocket.chat/)
+{% content-ref url="quick-start/installing-and-updating/" %}
+[installing-and-updating](quick-start/installing-and-updating/)
 {% endcontent-ref %}
 
 {% content-ref url="quick-start/environment-configuration/creating-the-first-administrator.md" %}

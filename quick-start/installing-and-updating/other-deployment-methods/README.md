@@ -4,14 +4,14 @@
 [manual-installation](manual-installation/)
 {% endcontent-ref %}
 
-{% content-ref url="../../deploying-rocket.chat/other-deployment-methods/nonofficial-methods/" %}
-[nonofficial-methods](../../deploying-rocket.chat/other-deployment-methods/nonofficial-methods/)
+{% content-ref url="community-supported-installation/" %}
+[community-supported-installation](community-supported-installation/)
 {% endcontent-ref %}
 
-{% content-ref url="../../deploying-rocket.chat/other-deployment-methods/plug-in-deployments/" %}
-[plug-in-deployments](../../deploying-rocket.chat/other-deployment-methods/plug-in-deployments/)
+{% content-ref url="plug-ins/" %}
+[plug-ins](plug-ins/)
 {% endcontent-ref %}
 
-{% content-ref url="../../deploying-rocket.chat/other-deployment-methods/windows-10-pro.md" %}
-[windows-10-pro.md](../../deploying-rocket.chat/other-deployment-methods/windows-10-pro.md)
+{% content-ref url="windows-10-pro.md" %}
+[windows-10-pro.md](windows-10-pro.md)
 {% endcontent-ref %}

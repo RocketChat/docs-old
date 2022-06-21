@@ -12,3 +12,8 @@ You can use the following key combinations while using Rocket.Chat.
 | `Command` (or `Alt`) + `Right Arrow` |        Move to the end of the message       |
 |  `Command` (or `Alt`) + `Down Arrow` |        Move to the end of the message       |
 |   `Control` (or `Shift`) + `Enter`   |      New line in message compose input      |
+|      `Command` (or `Ctrl`) +`b`      |                     Bold                    |
+|      `Command` (or `Ctrl`) + `i`     |                    Italic                   |
+|      `Command` (or `Ctrl`) + `c`     |                     Copy                    |
+|      `Command` (or `Ctrl`) + `v`     |                    Paste                    |
+|      `Command` (or `Ctrl`) + `x`     |                     Cut                     |

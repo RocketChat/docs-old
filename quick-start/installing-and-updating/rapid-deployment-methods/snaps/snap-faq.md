@@ -8,7 +8,7 @@ Snaps are one of our biggest install base. They are also auto updating. As a res
 
 If you have special requirements and really need to use the latest release immediately then please consider another installation method e.g docker
 
-### How do I access my site at a different port? How do I enable TLS/SSL with my snap?
+### How do I access my site at a different port?  How do I enable TLS/SSL with my snap?
 
 You can change the default port (port 3000) to something else by changing the `port` configuration option. For example if you wanted to change the HTTP port to 8080 instead of 3000:
 
@@ -258,7 +258,7 @@ rocketchat-server.mongo
 
 ### How do I edit MongoDB configuration?
 
-You can find the mongod configuration file in `/var/snap/rocketchat-server/current/mongod.conf`.
+You can find the mongod configuration file in `/var/snap/rocketchat-server/current/mongod.conf`.&#x20;
 
 ## How do I add option to mount media?
 

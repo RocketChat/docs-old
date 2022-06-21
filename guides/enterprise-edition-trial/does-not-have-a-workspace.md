@@ -18,7 +18,7 @@ This guide proceeds with [creating a new account](https://cloud.rocket.chat/tria
 
 ![](<../../.gitbook/assets/image (639) (1).png>)
 
-1. **Install Rocket.Chat**: You can follow our guides on [installing your own Rocket.Chat instance](../../quick-start/deploying-rocket.chat/).
+1. **Install Rocket.Chat**: You can follow our guides on [installing your own Rocket.Chat instance](../../quick-start/installing-and-updating/).
 2. **Launch a SaaS Trial**: This is the fastest option to deploy a Rocket.Chat workspace.
 3. **Register self-managed**: This lets you register your workspace if you have a workspace up and running.
 
