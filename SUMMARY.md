@@ -33,6 +33,7 @@
     * [DigitalOcean](quick-start/installing-and-updating/paas-deployments/digitalocean.md)
   * [Other Deployment Methods](quick-start/installing-and-updating/other-deployment-methods/README.md)
     * [Manual Installation](quick-start/installing-and-updating/other-deployment-methods/manual-installation/README.md)
+      * [Rocket.Chat in CentOS](quick-start/installing-and-updating/other-deployment-methods/manual-installation/rocket.chat-in-centos.md)
       * [Debian Based Distros](quick-start/installing-and-updating/other-deployment-methods/manual-installation/debian-based-distros/README.md)
         * [Rocket.Chat on Debian](quick-start/installing-and-updating/other-deployment-methods/manual-installation/debian-based-distros/debian.md)
         * [Rocket.Chat on Ubuntu](quick-start/installing-and-updating/other-deployment-methods/manual-installation/debian-based-distros/ubuntu.md)
