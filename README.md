@@ -76,12 +76,12 @@ This user guide incorporates a description of the features and capabilities, mod
 
 ## Minimum Requirements
 
-{% content-ref url="quick-start/installing-client-apps/minimum-requirements-for-using-rocket.chat.md" %}
-[minimum-requirements-for-using-rocket.chat.md](quick-start/installing-client-apps/minimum-requirements-for-using-rocket.chat.md)
+{% content-ref url="quick-start/mobile-and-desktop-apps/minimum-requirements-for-using-rocket.chat.md" %}
+[minimum-requirements-for-using-rocket.chat.md](quick-start/mobile-and-desktop-apps/minimum-requirements-for-using-rocket.chat.md)
 {% endcontent-ref %}
 
-{% content-ref url="quick-start/deploying-rocket.chat/hardware-requirements.md" %}
-[hardware-requirements.md](quick-start/deploying-rocket.chat/hardware-requirements.md)
+{% content-ref url="quick-start/installing-and-updating/hardware-requirements.md" %}
+[hardware-requirements.md](quick-start/installing-and-updating/hardware-requirements.md)
 {% endcontent-ref %}
 
 ## Support

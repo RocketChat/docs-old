@@ -23,7 +23,7 @@ If you reboot the server, the services will start automatically in the right ord
 
 mongo.service:
 
-```text
+```
 [Unit]
 Description=mongo
 Requires=docker.service
@@ -53,7 +53,7 @@ ExecStop=-/usr/bin/docker rm mongo
 
 rocketchat.service:
 
-```text
+```
 [Unit]
 Description=rocketchat
 Requires=docker.service
@@ -85,11 +85,11 @@ ExecStop=-/usr/bin/docker kill rocketchat
 ExecStop=-/usr/bin/docker rm rocketchat
 ```
 
-## Build the mongo-init-replica container \(only run once\)
+## Build the mongo-init-replica container (only run once)
 
 Execute:
 
-```text
+```
 docker run \
       --name mongo-init-replica \
       --link mongo:mongo \
@@ -112,4 +112,3 @@ All data will be hourly backed up to `/data/domains/example.org/data` folder. We
 ## Questions
 
 If you have any questions, don't hesitate to open issues.
-
