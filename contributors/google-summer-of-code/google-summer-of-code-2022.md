@@ -42,7 +42,7 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 **Coding begins and new open source projects welcoming additional contributors (Update June 22nd)**\
 ****Coding has started for all our GSoC 2022 projects.   Mentors are busy guiding contributors in completing the scheduled work.   This year, uniquely, many of our projects are in independent  open source repositories.   We welcome our extended community and any new contributors to join these projects.   See the table below for links to repository associated with each project.\
 \
-We are also planning a virtual conference at the end of the GSoC team - named GSoC Demo Day.   Mentors and contributor from each project will collaborate in presenting the final result.   Please stay tuned for more information in late July.
+We are also planning a virtual conference at the end of the GSoC term - named GSoC 2022 Demo Day.   Mentors and contributor from each project will collaborate in presenting the final result.   Please stay tuned for more information in late July.
 
 | Project                                                            | Repository                                                                                                             |
 | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
