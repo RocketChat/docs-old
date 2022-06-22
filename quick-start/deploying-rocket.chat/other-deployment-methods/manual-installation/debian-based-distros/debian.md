@@ -9,22 +9,25 @@ This installation guide was tested in the following environment:
 
 ## Requirements
 
-*   **MongoDB**
-
-    Please refer to the official MongoDB documentation on [how to install MongoDB on Debian](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/). For the list of supported versions, see our documentation [here](../../../../../getting-support/#mongodb-versions).
-*   **NodeJS**
-
-    Follow the [official guide](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) to install NodeJS on a Debian system. Check out our page on [supported node version](../../../../environment-configuration/node-configuration/supported-nodejs-version.md) for your specific version. You can also use third-party tools like [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [n](https://www.npmjs.com/package/n).
+* **Install MongoDB:** Please refer to the official MongoDB documentation on [how to install MongoDB on Debian](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/). For the list of supported versions, see our documentation [here](../../../../../getting-support/#mongodb-versions).
+* **Install NodeJS:** Follow the [official guide](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) to install NodeJS on a Debian system. Check out our page on [supported node versions](../../../../environment-configuration/node-configuration/supported-nodejs-version.md) for your specific version. You can also use third-party tools like [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [n](https://www.npmjs.com/package/n).
 
 ## Install Rocket.Chat
 
-Install required packages/dependencies
+* Update your system by running
+
+```bash
+sudo apt -y update
+sudo apt -y upgrade
+```
+
+* Install required packages/dependencies
 
 ```bash
 sudo apt install -y curl build-essential graphicsmagick
 ```
 
-To download the latest Rocket.Chat version run the following command:
+* To download the latest Rocket.Chat version run the following command:
 
 ```bash
 curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
@@ -42,7 +45,7 @@ You can also download a specific version by replacing `latest` by the version nu
 wget https://releases.rocket.chat/4.1.2/download -O /tmp/rocket.chat.tgz
 ```
 
-Extract the archive with `tar`:
+* Extract the archive with `tar`:
 
 ```bash
 tar xzf /tmp/rocket.chat.tgz -C /tmp
@@ -50,7 +53,7 @@ tar xzf /tmp/rocket.chat.tgz -C /tmp
 
 You should now see a new directory under `/tmp` named `bundle`.
 
-Next, install all the node dependencies:
+* Next, install all the node dependencies:
 
 ```bash
 (cd /tmp/bundle/programs/server; npm i)
