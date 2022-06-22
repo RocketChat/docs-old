@@ -233,6 +233,7 @@
       * [Trello](guides/administration/admin-panel/integrations/trello.md)
       * [Uptime Robot](guides/administration/admin-panel/integrations/uptime-robot.md)
       * [Zapier](guides/administration/admin-panel/integrations/zapier.md)
+      * [django-rocketchat-auth 1.2](guides/administration/admin-panel/integrations/django-rocketchat-auth-1.2.md)
       * [Add Jira notifications via webhook](guides/administration/admin-panel/integrations/jira.md)
     * [OAuth Applications](guides/administration/admin-panel/oauth-applications.md)
     * [Mailer](guides/administration/admin-panel/mailer.md)
