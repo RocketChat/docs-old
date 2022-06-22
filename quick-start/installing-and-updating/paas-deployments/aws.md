@@ -148,106 +148,112 @@ Confirm that it is running properly by opening a web browser and going to your d
 
 ## Install Docker & Docker Compose
 
-1.  Install Docker (and any dependencies)
+* Install Docker (and any dependencies)
 
-    ```
-     sudo apt-get update
-     sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
-     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-     sudo apt-key fingerprint 0EBFCD88
-     # confirm the fingerprint matches "9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88"
-     sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-     sudo apt-get update
-     sudo apt-get install docker-ce docker-ce-cli containerd.io
-    ```
-2.  Install `docker-compose`:
+```bash
+sudo apt-get update
+sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+ # confirm the fingerprint matches "9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88"
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
 
-    ```
-     sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-     sudo chmod +x /usr/local/bin/docker-compose
-    ```
+* Install `docker-compose`:
+
+```bash
+sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+```
 
 ## Set up Docker containers
 
-1.  Create local directories.
+* Create local directories.
 
-    ```
-     sudo mkdir -p /opt/docker/rocket.chat/data/runtime/db
-     sudo mkdir -p /opt/docker/rocket.chat/data/dump
-    ```
-2.  Create the `docker-compose.yml` file, again make sure to replace `ABC.DOMAIN.COM` with your actual domain name:
+```bash
+ sudo mkdir -p /opt/docker/rocket.chat/data/runtime/db
+ sudo mkdir -p /opt/docker/rocket.chat/data/dump
+```
 
-    ```
-     sudo nano /opt/docker/rocket.chat/docker-compose.yml
-    ```
+* Create the `docker-compose.yml` file, again make sure to replace `ABC.DOMAIN.COM` with your actual domain name:
 
-    ```
-     version: '2'
+```bash
+ sudo nano /opt/docker/rocket.chat/docker-compose.yml
+```
 
-     services:
-       rocketchat:
-         image: rocket.chat:latest
-         command: >
-           bash -c
-             "for i in `seq 1 30`; do
-               node main.js &&
-               s=$$? && break || s=$$?;
-               echo \"Tried $$i times. Waiting 5 secs...\";
-               sleep 5;
-             done; (exit $$s)"
-         restart: unless-stopped
-         volumes:
-           - ./uploads:/app/uploads
-         environment:
-           - PORT=3000
-           - ROOT_URL=https://<ABC.DOMAIN.COM>
-           - MONGO_URL=mongodb://mongo:27017/rocketchat
-           - MONGO_OPLOG_URL=mongodb://mongo:27017/local
-         depends_on:
-           - mongo
-         ports:
-           - 3000:3000
+```yaml
+ version: '2'
 
-       mongo:
-         image: mongo:4.0
-         restart: unless-stopped
-         command: mongod --oplogSize 128 --replSet rs0 --storageEngine=wiredTiger
-         volumes:
-           - ./data/runtime/db:/data/db
-           - ./data/dump:/dump
+ services:
+   rocketchat:
+     image: rocket.chat:latest
+     command: >
+       bash -c
+         "for i in `seq 1 30`; do
+           node main.js &&
+           s=$$? && break || s=$$?;
+           echo \"Tried $$i times. Waiting 5 secs...\";
+           sleep 5;
+         done; (exit $$s)"
+     restart: unless-stopped
+     volumes:
+       - ./uploads:/app/uploads
+     environment:
+       - PORT=3000
+       - ROOT_URL=https://<ABC.DOMAIN.COM>
+       - MONGO_URL=mongodb://mongo:27017/rocketchat
+       - MONGO_OPLOG_URL=mongodb://mongo:27017/local
+     depends_on:
+       - mongo
+     ports:
+       - 3000:3000
 
-       # this container's job is just to run the command to initialize the replica set.
-       # it will run the command and remove himself (it will not stay running)
-       mongo-init-replica:
-         image: mongo:4.0
-         command: >
-           bash -c
-             "for i in `seq 1 30`; do
-               mongo mongo/rocketchat --eval \"
-                 rs.initiate({
-                   _id: 'rs0',
-                   members: [ { _id: 0, host: 'localhost:27017' } ]})\" &&
-               s=$$? && break || s=$$?;
-               echo \"Tried $$i times. Waiting 5 secs...\";
-               sleep 5;
-             done; (exit $$s)"
-         depends_on:
-         - mongo
-    ```
-3.  Start containers:
+   mongo:
+     image: mongo:4.0
+     restart: unless-stopped
+     command: mongod --oplogSize 128 --replSet rs0 --storageEngine=wiredTiger
+     volumes:
+       - ./data/runtime/db:/data/db
+       - ./data/dump:/dump
 
-    ```
-     cd /opt/docker/rocket.chat
-     sudo docker-compose up -d
-    ```
-4.  Wait a bit for the replica set to be initialized for MongoDB (about 30-60 seconds) and confirm Rocket.Chat is running properly:
+   # this container's job is just to run the command to initialize the replica set.
+   # it will run the command and remove himself (it will not stay running)
+   mongo-init-replica:
+     image: mongo:4.0
+     command: >
+       bash -c
+         "for i in `seq 1 30`; do
+           mongo mongo/rocketchat --eval \"
+             rs.initiate({
+               _id: 'rs0',
+               members: [ { _id: 0, host: 'localhost:27017' } ]})\" &&
+           s=$$? && break || s=$$?;
+           echo \"Tried $$i times. Waiting 5 secs...\";
+           sleep 5;
+         done; (exit $$s)"
+     depends_on:
+     - mongo
+```
 
-    ```
-     sudo docker-compose logs -f rocketchat
-    ```
+* Start containers:
+
+```shell
+ cd /opt/docker/rocket.chat
+ sudo docker-compose up -d
+```
+
+* Wait a bit for the replica set to be initialized for MongoDB (about 30-60 seconds) and confirm Rocket.Chat is running properly:
+
+```shell
+ sudo docker-compose logs -f rocketchat
+```
 
 ## Use it
 
-1.  Login to your site at `https://ABC.DOMAIN.COM.`
+Login to your site at `https://ABC.DOMAIN.COM.`
 
-    **Note:** the first user to login will be an administrator user.
+{% hint style="info" %}
+**Note:** the first user to log in will be an administrator user.
+{% endhint %}
