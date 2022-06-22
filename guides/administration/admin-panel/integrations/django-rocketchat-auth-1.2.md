@@ -1,5 +1,5 @@
 ---
-description: Authenticate Rocket.Chat with Django Framework
+description: Authenticate Rocket.Chat user with Django Framework
 ---
 
 # django-rocketchat-auth 1.2
@@ -25,7 +25,7 @@ Tested with Django 2.0.4 and Rocket.Chat 0.62.2. If you have any problems, pleas
         'rocketchat_auth',
     )
     ```
-3. Get an [Rocket.Chat authentication token](https://docs.rocket.chat/guides/user-guides/user-panel/managing-your-account/personal-access-token#creating-a-personal-access-token), so we can use the API.
+3. Get a [Rocket.Chat authentication token](https://docs.rocket.chat/guides/user-guides/user-panel/managing-your-account/personal-access-token#creating-a-personal-access-token), so we can use the API.
 4.  Update your _settings.py_:
 
     ```
@@ -48,12 +48,12 @@ Tested with Django 2.0.4 and Rocket.Chat 0.62.2. If you have any problems, pleas
     ```
     urlpatterns += [url(r'^rocketchat/', include('rocketchat_auth.urls'))]
     ```
-6. Since we will put your Django app into an iframe, we have to setup some security measures that would prevent it from happening.
+6. Since we will put your Django app into an iframe, we have to set up some security measures that would prevent it from happening.
    * Install [django-cors-headers](https://github.com/ottoyiu/django-cors-headers) and set your Rocket.Chat domain in CORS\_ORIGIN\_WHITELIST.
    * Configure Django's XFrameOptionsMiddleware to exempt your login page for Rocket.Chat requests or disable it (dangerous).
    * Configure Django's CsrfViewMiddleware to exempt your login page for Rocket.Chat requests or disable it (dangerous).
 7. To access this settings, go to: **Administration** > **Settings** > **Accounts**
-   * **Enabled:** Enable this option to authenticate users using your own login page in place of the Rocket. Chat's login page via the iframe integration. Please check the [Iframe integration](https://developer.rocket.chat/rocket.chat/iframe-integration) page for the more information.
+   * **Enabled:** Enable this option to authenticate users using your own login page in place of the Rocket. Chat's login page via the iframe integration. Please check the [Iframe integration](https://developer.rocket.chat/rocket.chat/iframe-integration) page for more information.
    * **Iframe URL**: Enter **** the URL (http://localhost:8000/login/?next=/rocketchat/redirect)of the page you want to show as the login page of your Rocket.Chat instance.
    * **API URL:**  Enter the URL (http://localhost:8000/rocketchat/api), which refers to the endpoint on the third-party system. This will check if the user is already logged in to that system.&#x20;
    * **API Method:** Specify the API (POST) method that Rocket.Chat will use to submit information to the `API URL.`
