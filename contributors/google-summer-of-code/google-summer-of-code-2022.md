@@ -44,22 +44,22 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 \
 We are also planning a virtual conference at the end of the GSoC term - named GSoC 2022 Demo Day.   Mentors and contributor from each project will collaborate in presenting the final result.   Please stay tuned for more information in late July.
 
-| Project                                                            | Repository                                                                                                             |
-| ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-| Standalone Desktop Messaging cross-platforms Applet                | [https://github.com/RocketChat/SlimDesktopApp](https://github.com/RocketChat/SlimDesktopApp)                           |
-| Weekly Video Meeting and Archive App - BigBlueButton + Rocket.Chat | [https://github.com/RocketChat/Apps.BigBlueButton](https://github.com/RocketChat/Apps.BigBlueButton)                   |
-| New Emoji Picker for Mobile Client                                 |                                                                                                                        |
-| Rocket.Chat for Virtual Conferences - Eventyay integration         | [https://github.com/RocketChat/RC4Conferences](https://github.com/RocketChat/RC4Conferences)                           |
-| Rocket.Chat Golang SDK                                             |                                                                                                                        |
-| Figma App ( Rocket.Chat Integration )                              | [https://github.com/RocketChat/Apps.Figma](https://github.com/RocketChat/Apps.Figma)                                   |
-| ClickUp App for Rocket.Chat                                        | [https://github.com/RocketChat/Apps.ClickUp](https://github.com/RocketChat/Apps.ClickUp)                               |
-| Message Forwarding                                                 |                                                                                                                        |
-| GitHub App                                                         | [https://github.com/RocketChat/Apps.Github22](https://github.com/RocketChat/Apps.Github22)                             |
-| Botpress Connector Enhancements                                    | [https://github.com/RocketChat/rocketchat-botpress-lab-bot](https://github.com/RocketChat/rocketchat-botpress-lab-bot) |
-| Rocket.Chat ReactJS fullstack Component                            | [https://github.com/RocketChat/EmbeddedChat](https://github.com/RocketChat/EmbeddedChat)                               |
-| Rocket Chat TUI                                                    | [https://github.com/RocketChat/rocketchat-tui](https://github.com/RocketChat/rocketchat-tui)                           |
-| Playground for UIKit ReactJS components                            |                                                                                                                        |
-| Rocket.Chat - Teams Bridge: interop with Microsoft Teams           | [https://github.com/RocketChat/Apps.teams.bridge](https://github.com/RocketChat/Apps.teams.bridge)                     |
+| Project                                                            | Repository                                                                                                                                               |
+| ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Standalone Desktop Messaging cross-platforms Applet                | [https://github.com/RocketChat/SlimDesktopApp](https://github.com/RocketChat/SlimDesktopApp)                                                             |
+| Weekly Video Meeting and Archive App - BigBlueButton + Rocket.Chat | [https://github.com/RocketChat/Apps.BigBlueButton](https://github.com/RocketChat/Apps.BigBlueButton)                                                     |
+| New Emoji Picker for Mobile Client                                 | [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)                                           |
+| Rocket.Chat for Virtual Conferences - Eventyay integration         | [https://github.com/RocketChat/RC4Conferences](https://github.com/RocketChat/RC4Conferences)                                                             |
+| Rocket.Chat Golang SDK                                             | [https://github.com/RocketChat/Rocket.Chat.Go.SDK](https://github.com/RocketChat/Rocket.Chat.Go.SDK)                                                     |
+| Figma App ( Rocket.Chat Integration )                              | [https://github.com/RocketChat/Apps.Figma](https://github.com/RocketChat/Apps.Figma)                                                                     |
+| ClickUp App for Rocket.Chat                                        | [https://github.com/RocketChat/Apps.ClickUp](https://github.com/RocketChat/Apps.ClickUp)                                                                 |
+| Message Forwarding                                                 | (branch)  [https://github.com/RocketChat/Rocket.Chat/tree/new/message-forwarding](https://github.com/RocketChat/Rocket.Chat/tree/new/message-forwarding) |
+| GitHub App                                                         | [https://github.com/RocketChat/Apps.Github22](https://github.com/RocketChat/Apps.Github22)                                                               |
+| Botpress Connector Enhancements                                    | [https://github.com/RocketChat/rocketchat-botpress-lab-bot](https://github.com/RocketChat/rocketchat-botpress-lab-bot)                                   |
+| Rocket.Chat ReactJS fullstack Component                            | [https://github.com/RocketChat/EmbeddedChat](https://github.com/RocketChat/EmbeddedChat)                                                                 |
+| Rocket Chat TUI                                                    | [https://github.com/RocketChat/rocketchat-tui](https://github.com/RocketChat/rocketchat-tui)                                                             |
+| Playground for UIKit ReactJS components                            |                                                                                                                                                          |
+| Rocket.Chat - Teams Bridge: interop with Microsoft Teams           | [https://github.com/RocketChat/Apps.teams.bridge](https://github.com/RocketChat/Apps.teams.bridge)                                                       |
 
 ****\
 ****\
