@@ -42,10 +42,27 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 **Coding begins and new open source projects welcoming additional contributors (Update June 22nd)**\
 ****Coding has started for all our GSoC 2022 projects.   Mentors are busy guiding contributors in completing the scheduled work.   This year, uniquely, many of our projects are in independent  open source repositories.   We welcome our extended community and any new contributors to join these projects.   See the table below for links to repository associated with each project.\
 \
-We are also planning a virtual conference at the end of the GSoC team - named GSoC Demo Day.   Mentors and contributor from each project will collaborate in presenting the final result.   Please stay tuned for more information in late July.\
-\
-\
-\
+We are also planning a virtual conference at the end of the GSoC team - named GSoC Demo Day.   Mentors and contributor from each project will collaborate in presenting the final result.   Please stay tuned for more information in late July.
+
+| Project                                                            | Repository |
+| ------------------------------------------------------------------ | ---------- |
+| Standalone Desktop Messaging cross-platforms Applet                |            |
+| Weekly Video Meeting and Archive App - BigBlueButton + Rocket.Chat |            |
+| New Emoji Picker for Mobile Client                                 |            |
+| Rocket.Chat for Virtual Conferences - Eventyay integration         |            |
+| Rocket.Chat Golang SDK                                             |            |
+| Figma App ( Rocket.Chat Integration )                              |            |
+| ClickUp App for Rocket.Chat                                        |            |
+| Message Forwarding                                                 |            |
+| GitHub App                                                         |            |
+| Botpress Connector Enhancements                                    |            |
+| Rocket.Chat ReactJS fullstack Component                            |            |
+| Rocket Chat TUIl                                                   |            |
+| Playground for UIKit ReactJS components                            |            |
+| Rocket.Chat - Teams Bridge: interop with Microsoft Teams           |            |
+
+****\
+****\
 **Mentors welcome contributors from 14 accepted projects (Update May 20th)**
 
 2022 is a phenomenal year for GSoC at Rocket.Chat.   With high calibre contributors arriving as early as January and very early enthusiastic community mentors support.  So far, 137 new contributors have created 94 Merged PRs, 110 Open PRs, and identified 154 Issues for our projects.  We received 83 GSoC 2022 proposals; most of them are of good  to excellent quality.  Google has graciously granted us a total of [FOURTEEN projects for 2022 GSoC](https://summerofcode.withgoogle.com/programs/2022/organizations/rocketchat). Thank you Google!   Mentors have started to welcome these 14 active contributing community members to work with us during the 2022 season:\
@@ -64,7 +81,7 @@ We are also planning a virtual conference at the end of the GSoC team - named GS
 | Samad Khan         | GitHub App                                                         | Rohan Lekhwani, Sing Li                       |
 | sangyul.cha        | Botpress Connector Enhancements                                    | Duda Nogueira, Frank Dase                     |
 | Sidharth Mohanty   | Rocket.Chat ReactJS fullstack Component                            | Rohan Lekhwani                                |
-| srrathi            | Rocket Chat TUI Proposal                                           | Aaron Ogle, Debdut Chakraborty                |
+| srrathi            | Rocket Chat TUI                                                    | Aaron Ogle, Debdut Chakraborty                |
 | Vivek Srivastava   | Playground for UIKit ReactJS components                            | Martin Schoeler, Guilherme Gazzo              |
 | Yuqing             | Rocket.Chat - Teams Bridge: interop with Microsoft Teams           | Gabriel Engel, Yash Rajpal, Fábio Albuquerque |
 
