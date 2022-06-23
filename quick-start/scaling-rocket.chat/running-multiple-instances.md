@@ -1,14 +1,12 @@
 # Running Multiple Instances
 
-![](../../../../../.gitbook/assets/EnterpriseEditionTag.jpg)
+![](../../.gitbook/assets/EnterpriseEditionTag.jpg)
 
-You may find that Rocket.Chat slows down once you have a lot of concurrent users. When this sluggishness begins, you will likely see Rocket.Chat node process approaching 100% CPU (even if the host CPU load is low). This is due to the single-threaded nature of Node.js applications; they can't take advantage of multiple cores natively.
-
-While it's possible to scale out by adding more servers (and this is recommended for HA purposes), you can achieve better utilization of your existing hardware by running multiple instances of the Rocket.Chat application (Node.js/Meteor app) on your current host(s). Of course, you only want to do this if you're already running on a multi-core machine. A reasonable rule-of-thumb may be to run `N-1` Rocket.Chat instances, where `N=num_cores`.
+While it's possible to scale out by adding more servers (and this is recommended for HA purposes), you can achieve better utilization of your existing hardware by running multiple instances of the Rocket.Chat application (Node.js/Meteor app) on your current host(s). Of course, you only want to do this if you're already running on a multi-core machine. A reasonable rule of thumb may be to run `N-1` Rocket.Chat instances, where `N=num_cores`.
 
 Running multiple instances of Rocket.Chat on a single host requires a reverse proxy in front of your application. This tutorial assumes that you've already followed the tutorial for [Running behind a Nginx SSL Reverse Proxy](https://docs.rocket.chat/installation/manual-installation/configuring-ssl-reverse-proxy).
 
-There's essentially just three steps:
+There are essentially just three steps:
 
 1. Enable ReplicaSet on your MongoDB installation ([https://docs.mongodb.com/manual/tutorial/deploy-replica-set/](https://docs.mongodb.com/manual/tutorial/deploy-replica-set/))
 2. Start multiple instances of Rocket.Chat bound to different ports
