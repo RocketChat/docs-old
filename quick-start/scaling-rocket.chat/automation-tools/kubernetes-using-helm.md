@@ -6,15 +6,17 @@ description: Installing Rocket.Chat Chart on Kubernetes using Helm
 
 > **WARNING**: Upgrading to chart version 1.1.0 (Rocket.Chat 1.0.3) might require extra steps to retain the MongoDB data. See [Upgrading](kubernetes-using-helm.md#upgrading) for more details.
 
-Helm is a tool that streamlines installing and managing Kubernetes applications. Think of it like apt/yum/homebrew for Kubernetes, helm uses a packaging format called charts. A chart is a collection of files that describe a related set of Kubernetes resources. The Rocket.Chat helm chart packages Rocket.Chat server and mongodb. Options for the Rocket.Chat helm chart can be found [here](https://artifacthub.io/packages/helm/rocketchat-server/rocketchat).
+Helm is a tool that streamlines installing and managing Kubernetes applications. Think of it like apt/yum/homebrew for Kubernetes, helm uses a packaging format called charts. A chart is a collection of files that describe a related set of Kubernetes resources. The Rocket.Chat helm chart packages Rocket.Chat server and MongoDB. Options for the Rocket.Chat helm chart can be found [here](https://artifacthub.io/packages/helm/rocketchat-server/rocketchat).
 
-See [microk8s installation ](https://microk8s.io/docs)details for more details working with Helm and Kubernetes. Helm 3 is the latest version, and it is already built into microk8s, you can access it via the command:
+See [microk8s installation ](https://microk8s.io/docs)details for more details on working with Helm and Kubernetes. Helm 3 is the latest version, and it is already built into microk8s, you can access it via the command:
 
 ```bash
 $ microk8s.helm3
 ```
 
-> **NOTE:** Helm 3 no long includes a default chart repository. Make sure you [add the stable chart repository ](https://helm.sh/docs/intro/quickstart/#initialize-a-helm-chart-repository)to your Helm 3 instance.
+{% hint style="info" %}
+**NOTE:** Helm 3 no longer includes a default chart repository. Make sure you [add the stable chart repository ](https://helm.sh/docs/intro/quickstart/#initialize-a-helm-chart-repository)to your Helm 3 instance.
+{% endhint %}
 
 ## Default settings for Rocket.Chat helm chart
 
