@@ -42,9 +42,9 @@ ExecStart=/usr/local/bin/node /path.to.rocketchat/rocket.chat/bundle/main.js
 WantedBy=multi-user.target
 ```
 
-Make sure the User and Group exist and both have read/write/execute Permissions for the rocketchat. Now you can run start, stop, restart, and status your rocketchat service.
+Make sure the User and Group exist and both have `read`/`write`/`execute` Permissions for the rocketchat. Now you can run start, stop, restart, and status your rocketchat service.
 
-If you want multiple Services create another file in /usr/lib/systemd/system and call it rocketchat@.service with the following content:
+If you want multiple Services, create another file in `/usr/lib/systemd/system` and call it `rocketchat@.service` with the following content:
 
 ```
 [Unit]
@@ -100,7 +100,7 @@ You just need to set up a backend if one doesn't already exist. Add all local Ro
 
 Continuing the example, we'll update our Nginx config to point to the two Rocket.Chat instances that we started running on ports 3001 and 3002.
 
-```
+```json
 # Upstreams
 upstream backend {
     server 127.0.0.1:3000;
@@ -115,7 +115,7 @@ upstream backend {
 
 Now just replace `proxy_pass http://IP:3000/;` with `proxy_pass http://backend;`. Updating the [sample Nginx configuration](https://docs.rocket.chat/installation/manual-installation/configuring-ssl-reverse-proxy#running-behind-a-nginx-ssl-reverse-proxy) would result in a config like this:
 
-```
+```apacheconf
     # HTTPS Server
 server {
     listen 443;
@@ -161,7 +161,7 @@ a2enmod session_cookie
 
 Edit `/etc/apache2/sites-enabled/rocketchat.conf` and be sure to use your actual hostname in lieu of the sample hostname "your\_hostname.com" below.
 
-```
+```apacheconf
 <VirtualHost *:443>
     ServerAdmin it@domain.com
     ServerName chat.domain.com
@@ -209,16 +209,21 @@ Now restart Apache: `systemctl restart apache2.service`
 
 Visit `https://your_hostname.com` just as before the update. **Ooh, so fast!**
 
-To confirm you're actually using both services as you'd expect, you can stop one Rocket.Chat service at a time and confirm that chat still works. Restart that service and stop the other. Still, work? Yep, you're using both services!
+To confirm you're actually using both services as you'd expect, you can stop one Rocket.Chat service at a time and confirm that chat still works. Restart that service and stop the other. That will show you are using both instances.
+
+{% hint style="info" %}
+Be sure to keep time in sync between all instances.
+{% endhint %}
 
 ## Check your database
 
 Another very important part is your database. As mentioned above, you will need to make sure you are running a replicaset.
 
-This is important for a couple of reasons: 1. Database reliability. You will want to make sure that your data is replicated, and you have another node if something happens to your primary. 2. Rocket.Chat does what's called oplog tailing. The oplog is turned on when you set up a replicaset. Mongo makes use of this to publish events so the other nodes in the replicaset can make sure its data is up to date. Rocket.Chat makes use of this to watch for database events. If someone sends a message on Instance 1 and you are connected to Instance 2. Instance 2 watches for message insert events and then is able to show you a new message has arrived.
+This is important for a couple of reasons:&#x20;
+
+1. Database reliability. You will want to make sure that your data is replicated, and you have another node if something happens to your primary.
+2. Rocket.Chat does what's called oplog tailing. The oplog is turned on when you set up a replicaset. Mongo makes use of this to publish events so the other nodes in the replicaset can make sure its data is up to date. Rocket.Chat makes use of this to watch for database events. If someone sends a message on Instance 1 and you are connected to Instance 2. Instance 2 watches for message insert events and then is able to show you a new message has arrived.
 
 ### Database engine
 
-Another thing to keep in mind is the storage engine you are using. By default mongo uses Wiredtiger. Wiredtiger under some loads can be very CPU and Memory intensive. Under small single instance setups we don't typically see issues. But when you run multiple instances of Rocket.Chat it can sometimes get a bit unruly.
-
-It's because of this we recommend in multiple instance situations that you switch the mongo storage engine to mmapv1.
+Another thing to keep in mind is the storage engine you are using. By default mongo uses Wiredtiger. Wiredtiger under some loads can be very CPU and Memory intensive. Under small single instance setups, we don't typically see issues. But when you run multiple instances of Rocket.Chat we recommend switching the mongo storage engine to [mmapv1](https://www.mongodb.com/docs/v4.0/core/mmapv1/).
