@@ -92,15 +92,20 @@ Clicking on the `Reset` button will reset all these basic configurations back to
 
 ## Iframe
 
-* **Enabled**:  Enable this option to authenticate users using your own login page in place of the Rocket. Chat's login page via the iframe integration. Please check the [Iframe integration](https://developer.rocket.chat/rocket.chat/iframe-integration) page for the more information.
-* **Iframe URL:**  Enter **** the URL of the page you want to show as the login page of your Rocket.Chat instance.
+* **Enabled**:  Enable this option to authenticate users using your own login page in place of the Rocket.Chat's login page via the[ iframe integration](https://developer.rocket.chat/rocket.chat/iframe-integration).&#x20;
+* **Iframe URL:**  Enter **** the URL of the page you want to show as the login page of your Rocket.Chat instance. The login page will then communicate back to Rocket.Chat using `postMessage` API.&#x20;
 
 {% hint style="info" %}
-The Login page can be created in any programming language and/or web framework.
+* The Login page can be created in any programming language and/or web framework.
+* By setting `API URL` and `API Method` parameters will enable Rocket.Chat to call the third party system to either login or to verify if the user is already logged in.
 {% endhint %}
 
-* **API URL:**  Enter the URL, which refers to the endpoint on the third-party system. This will check if the user is already logged in to that system.&#x20;
-* **API Method:** Specify the API (POST) method that Rocket.Chat will use to submit information to the `API URL.`
+* **API URL:**  Enter the URL, which refers to the endpoint on the third-party system and this will check if the user is already logged in to that system.&#x20;
+* **API Method:** Specify the API (POST) method, Rocket.Chat will use to submit information to the `API URL.`
+
+{% hint style="info" %}
+If the user has already logged into the third-party system, the `API URL` should communicate to Rocket.Chat and return a JSON object containing either a`token` or `loginToken` property, otherwise (if the user is not already logged in) the `API URL` should return an empty body with the status `401`.
+{% endhint %}
 
 ![Iframe Admin Settings](../../../../../.gitbook/assets/iframesetting\_07062022.png)
 
