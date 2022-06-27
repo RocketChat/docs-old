@@ -2,9 +2,9 @@
 
 ## Recommended Fastest Server Install
 
-We recommend installing using our[ Docker and Docker Compose guide](../../../rapid-deployment-methods/docker-and-docker-compose/) or using [Snaps](../../../rapid-deployment-methods/snaps/) as they are the easiest way for you to get your server up and running on all supported Linux distributions (Ubuntu, etc).
+We recommend installing using our[ Docker and Docker Compose guide](../../../../installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/) or using [Snaps](../../../../installing-and-updating/rapid-deployment-methods/snaps/) as they are the easiest way for you to get your server up and running on all supported Linux distributions (Ubuntu, etc).
 
-If you would like to enable TLS on your site like this `https://yoursite.com` when using the snap, please [this guide](../../../rapid-deployment-methods/snaps/auto-ssl-with-snaps.md)
+If you would like to enable TLS on your site like this `https://yoursite.com` when using the snap, please [this guide](../../../../installing-and-updating/rapid-deployment-methods/snaps/auto-ssl-with-snaps.md)
 
 ## Manual install
 
