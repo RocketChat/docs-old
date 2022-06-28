@@ -2,9 +2,9 @@
 
 There are three kinds of channels: [public channels](./#public-channels), [private groups](./#private-groups), and [direct (1-on-1) messages](./#direct-messages).
 
-## Public channels ![](../../../../.gitbook/assets/2021-04-24\_02-19-38.jpg)
+## Public Channels ![](../../../../.gitbook/assets/2021-04-24\_02-19-38.jpg)
 
-**Public channels** (also called **channels** for short) act as a base for all channel types. Use channels for conversations that are open to your entire team. Anyone on your team can join a channel.
+**Public Channels** (also called **channels** for short) act as a base for all channel types. Use channels for conversations that are open to your entire team. Anyone on your team can join a channel.
 
 Channels make it easy to find what's going on with your team. New team members can join a channel and read all the information previously shared by other users.
 

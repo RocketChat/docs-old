@@ -1,8 +1,8 @@
 # Preferences
 
-In the [_Preferences_](https://open.rocket.chat/account/preferences) section, the end-user has the ability to configure and set their own user preferences on Rocket.Chat server.
+In the [_Preferences_](https://open.rocket.chat/account/preferences) section, you can configure and set your own preferences on Rocket.Chat server.
 
-To access this menu, Click on your **profile** and go to **My Account** > **Preferences**.
+To access this menu, click on your **profile** and go to **My Account** > **Preferences**.
 
 ![](<../../../../.gitbook/assets/image (670) (1) (1) (1) (1) (1).png>)
 

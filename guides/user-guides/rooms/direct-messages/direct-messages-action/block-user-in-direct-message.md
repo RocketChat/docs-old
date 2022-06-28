@@ -2,10 +2,10 @@
 
 You can block any user from sending you direct messages.
 
-To block a user:
+**To block a user:**
 
 * Open up the direct message you have with them if it exists or [initiate the creation](../create-a-new-direct-message-1-1.md) of one and open up the [user info](view-user-info.md) section.
-* Then click on **Block**
+* Then click on **Block.**
 
 ![](<../../../../../.gitbook/assets/image (639) (1) (1) (1).png>)
 

@@ -1,6 +1,6 @@
 # Create New Channel for a Team
 
-To create a new channel for a team:
+**To create a new channel for a team:**
 
 * Click **Create new**
 
@@ -10,6 +10,6 @@ To create a new channel for a team:
 
 ![](<../../../../../.gitbook/assets/image (357).png>)
 
-Your new channel is created. (with a lock symbol that indicates its a private channel.
+Your new channel is created (with a lock symbol that indicates its a private channel).
 
 ![](<../../../../../.gitbook/assets/image (358).png>)

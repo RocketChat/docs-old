@@ -5,7 +5,7 @@ Regardless of the platform you wish to deploy on or the method of deployment, yo
 ## Official Recommendation
 
 {% hint style="success" %}
-We offer a variety of Deployment methods, and we recommend you set up using our [Docker &  Docker Compose](../rapid-deployment-methods/docker-and-docker-compose/) guide for several reasons mentioned below.
+We offer a variety of Deployment methods, and we recommend you set up using our [Docker & Docker Compose](../rapid-deployment-methods/docker-and-docker-compose/) guide for several reasons mentioned below.
 {% endhint %}
 
 In order to obtain official support from our team, we have a minimum set of requirements. These requirements are necessary for us to access essential system information, to provide an SLA, to answer questions, or to provide a solution for the problem.
@@ -32,7 +32,7 @@ Rocket.Chat's own cloud uses our official Docker images, which makes this instal
 
 #### Considerations
 
-#### Scalability
+**Scalability**
 
 Scaling your Rocket.Chat deployment using Docker with Docker Compose is quite easy as editing the compose file.
 
@@ -42,7 +42,7 @@ An instance of Rocket.Chat can be up and running easily by using our images or m
 
 #### **Ease of Maintenance and Support**
 
-Maintaining a docker instance is pretty straight foward. RocketChat offers both official and community support for all Docker related issues.
+Maintaining a docker instance is pretty straight forward. Rocket.Chat offers both official and community support for all Docker related issues.
 
 ### Multiple processes
 

@@ -10,7 +10,7 @@ Helm is a tool that streamlines installing and managing Kubernetes applications.
 
 > **NOTE:** Helm 3 no long includes a default chart repository. Make sure you [add the stable chart repository ](https://helm.sh/docs/intro/quickstart/#initialize-a-helm-chart-repository)to your Helm 3 instance.
 
-## Default settings for Rocket.Chat helm chart
+## Default Settings for Rocket.Chat Helm Chart
 
 * Rocket.Chat chart installs rocketchat server (stable/rocketchat)
 * Rocket.Chat chart installs mongodb chart (stable/mongodb)
@@ -18,16 +18,16 @@ Helm is a tool that streamlines installing and managing Kubernetes applications.
 * Two persistent volumes will be created, one for mongodb that will store Rocket.Chat data and one for Rocket.Chat uploads
 * If not set, a random password will be generated for the root user in mongodb, and no custom user, password and database will be created for Rocket.Chat so we recommend installing this chart setting those parameters.
 
-### Install Rocket.Chat chart and configure mongodbUsername, mongodbPassword, mongodbDatabase and mongodbRootPassword:
+#### Install Rocket.Chat chart and configure mongodbUsername, mongodbPassword, mongodbDatabase and mongodbRootPassword:
 
 ```bash
 $ helm install --set mongodb.mongodbUsername=rocketchat,mongodb.mongodbPassword=changeme,mongodb.mongodbDatabase=rocketchat,mongodb.mongodbRootPassword=root-changeme my-rocketchat stable/rocketchat
 ```
 
-* mongodbUsername: This user will have access to the rocketchat database (mongodbDatabase) and is authenticated using mongodbDatabase
-* mongodbPassword: Password for accessing your Rocket.Chat data
-* mongodbDatabase: Database used to store Rocket.Chat application and authenticate the mongodbUsername
-* mongodbRootPassword: The password for the root user, administrator of the mongodb statefulset and authenticated using the admin database
+* **mongodbUsername**: This user will have access to the rocketchat database (mongodbDatabase) and is authenticated using mongodbDatabase.
+* **mongodbPassword**: Password for accessing your Rocket.Chat data.
+* **mongodbDatabase**: Database used to store Rocket.Chat application and authenticate the mongodbUsername.
+* **mongodbRootPassword**: The password for the root user, administrator of the mongodb statefulset and authenticated using the admin database.
 
 Is possible to check both passwords, mongodbPassword and mongodbRootPassword, in mongodb secret, use `kubectl get secrets`.
 

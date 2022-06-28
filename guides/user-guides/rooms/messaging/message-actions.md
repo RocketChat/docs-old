@@ -1,14 +1,14 @@
 # Message Actions
 
-Message actions allow you to interact with messages that you've already posted.
+**Message actions** allow you to interact with messages that you've already posted.
 
 ## Open message actions
 
-To open the message actions menu, place your mouse over the message and click the **actions menu** on the left.
+To open the message actions menu, place your mouse over the message and click the **Actions** menu on the left.
 
 ## Edit messages
 
-To edit a message, click on the **edit** option on the message actions menu. You can also place your cursor in the message box and press the **Up arrow** to edit your last message.
+To edit a message, click on the **Edit** option on the message actions menu. You can also place your cursor in the message box and press the **Up arrow** to edit your last message.
 
 _The administrator of the Rocket.Chat server sets the permissions for who can edit messages from other users. By default, only administrators, moderators, and channel owners can edit messages from other users._
 
@@ -38,7 +38,7 @@ _The administrator of a Rocket.Chat team sets the permissions for who can pin me
 
 You can react to messages with emojis.
 
-To add a reaction to a message, go to the message, click on the **smiley face icon** on the right of the message, and then choose an emoji.
+To add a reaction to a message, go to the message, click on the **Smiley Face** icon on the right of the message, and then choose an emoji.
 
 You can see other users’ emoji reactions beneath the message. To react with the same emoji as another user, click the emoji. You can also remove your reaction by clicking on your emoji.
 
@@ -63,4 +63,3 @@ Use **Reply in Thread** to start a new thread underneath the original message. T
 ## Quote a message
 
 Quote a message to respond to another user's message without notifying the user directly. Select **Quote** in the message actions menu.
-

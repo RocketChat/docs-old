@@ -21,11 +21,11 @@ So, to control remote systems, you only need to install Ansible on your control 
 
 It's recommended that you check out[ Ansible's official documentation on installing](https://docs.ansible.com/ansible/latest/installation\_guide/index.html) (it's really easy!), but here's a quick rundown of installation methods:
 
-### Package manager
+### Package Manager
 
 If you're running a UNIX-like system, like Linux or BSD, Ansible is likely available in your official package repositories. Use your package manager to see if it's available and if so, install it! [Ansible's installation documentation has a section on this](https://docs.ansible.com/ansible/latest/installation\_guide/index.html) - just scroll down until you see your OS.
 
-### Via Pip
+### Via PIP
 
 Ansible is written in Python, so, it's only natural that it be available for install via [`pip`](https://pypi.python.org/pypi). If you have `pip` installed it's as easy as: `$ sudo pip install ansible`
 

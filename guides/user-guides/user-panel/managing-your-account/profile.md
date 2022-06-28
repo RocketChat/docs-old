@@ -6,7 +6,7 @@ description: 'Verify and edit the following profile information:'
 
 In this section, you can verify, edit and update your profile information.
 
-To access this menu, Click on your **profile** and go to **My Account** > **Profile**.
+To access this menu, click on your **profile** and go to **My Account** > **Profile**.
 
 ![](<../../../../.gitbook/assets/image (686) (1) (1) (1) (1).png>)
 

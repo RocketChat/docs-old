@@ -8,43 +8,43 @@ This guide covers the following:
 
 1. Hosting Rocket.Chat on an Amazon EC2 instance
 2. Hosting a domain name with Amazon Route 53
-3. Securing your server with a free SSL certificate from Let's Encrypt
+3. Securing your server with a free SSL certificate from [Let's Encrypt](https://letsencrypt.org/)
 
-## Launch an EC2 instance
+## Launch an EC2 Instance
 
-Log into AWS console, open the ["_EC2_" service](https://console.aws.amazon.com/ec2/), click on "_Instances_" in the left sidebar and click on "**Launch Instance**" to set up a new EC2 instance. Now follow the steps below:
+Log into AWS Console, open the **EC2 Service**, click on **Instances** in the left sidebar and click on **Launch Instance** to set up a new EC2 instance. you can now follow the steps given below:
 
-1. In the first step search for "_Ubuntu Server 18.04 LTS_" with "_64-bit (x86)_" architecture and click on "**Select**".
-2. Select an instance type of your choice and click "**Next**".
-3. Adjust the instance details as needed or keep the defaults. Proceed with "**Next**".
-4. Adjust the storage size and configuration as needed and click on "**Next**".
-5. Make sure to add a tag called "**Name**" and assign a value.
-6. Allow "_SSH_", "_HTTP_" and "_HTTPS_" in the security group configuration, proceed with "**Review and Launch**".
-7. Review your instance configuration and confirm with "**Launch**".
-8. Choose an existing key pair or create a new one and click on "**Launch Instance**".
+1. In the first step search for _Ubuntu Server 18.04 LTS_" with "_64-bit (x86)_ architecture and click on **Select**.
+2. Select an instance type of your choice and click **Next.**
+3. Adjust the instance details as needed or keep the defaults. Proceed with **Next**.
+4. Adjust the storage size and configuration as needed and click on **Next**.
+5. Make sure to add a tag called **Name** and assign a value.
+6. Allow **SSH, HTTP** and **HTTPS** in the security group configuration, proceed with **Review and Launch**.
+7. Review your instance configuration and confirm with **Launch**.
+8. Choose an existing key pair or create a new one and click on **Launch Instance**.
 
 ## Allocate an Elastic IP
 
-Back in the ["_EC2_" service](https://console.aws.amazon.com/ec2/) dashboard, click on "_Elastic IPs_" in the left sidebar:
+Back in the [EC2 Service](https://signin.aws.amazon.com/signin?redirect\_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fec2%2Fv2%2Fhome%3Fstate%3DhashArgs%2523%26isauthcode%3Dtrue\&client\_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fec2\&forceMobileApp=0\&code\_challenge=9eFrxS4u\_-ut1PIoNw1-Cx5EmHMwRGaqLYRat\_RnBGE\&code\_challenge\_method=SHA-256) dashboard, click on **Elastic IPs** in the left sidebar:
 
-1. Click on "**Allocate New Address**"
-2. Select "**Amazon's pool of IPv4 addresses**" and click on "**Allocate**"
-3. Click on the newly created IP address and select "**Associate Elastic IP address**"
-4. Select your instance and click "**Associate**"
-5.  In the details below, copy the "**Public DNS**". You will need it in the DNS step.
+1. Click on **Allocate New Address.**
+2. Select **Amazon's pool of IPv4 addresses** and click on **Allocate.**
+3. Click on the newly created IP address and select **Associate Elastic IP address.**
+4. Select your instance and click **Associate.**
+5.  In the details below, copy the **Public DNS**. You will need it in the DNS step.
 
     (It should be in a format like this: `ec2-18-197-161-168.eu-central-1.compute.amazonaws.com`)
 
 ## Configure DNS w/ AWS Route 53
 
-Open the "**Route 53**" service dashboard:
+Open the **Route 53** service dashboard:
 
-1. Create a new hosted zone by clicking on "**Create Hosted Zone**":
-2. Enter your domain name and select "_Public Hosted Zone_" as type, then click on "**Create**_"_
-3. Select your newly created zone and click on "**Create Record Set**"
-4. Enter "_www_" as subdomain (if desired), select Type "_CNAME_", enter the Public DNS name from the above step to the value field and click "**Create**"
+* Create a new hosted zone by clicking on **Create Hosted Zone.**
+* Enter your domain name and select "_Public Hosted Zone_" as type, then click on "**Create**_"_
+* Select your newly created zone and click on "**Create Record Set**"
+* Enter "_www_" as subdomain (if desired), select Type "_CNAME_", enter the Public DNS name from the above step to the value field and click "**Create**"
 
-## Get an SSL certificate from Let's Encrypt
+## Get an SSL Certificate from Let's Encrypt
 
 We use Let's Encrypt to get a free & open-source SSL certificate:
 
@@ -67,12 +67,15 @@ We use Let's Encrypt to get a free & open-source SSL certificate:
      sudo certbot certonly --standalone --email <emailaddress@email.com> -d <domain.com> -d <subdomain.domain.com>
     ```
 
-    Note: Second (or more) domain is optional.
-4.  Optional step: restrict access using security groups
 
-    If you would like to restrict traffic to your instance on AWS, you may now adjust the security groups again. Make sure you allow "_TCP/22_" from your current location for the SSH connection, as well as "_TCP/443_" from the location you wish to use to access from.
 
-## Configure Nginx web server with TLS/SSL
+**Note:** Second (or more) domain is optional.
+
+Optional Step: Restrict access using security groups
+
+If you would like to restrict traffic to your instance on AWS, you may now adjust the security groups again. Make sure you allow "_TCP/22_" from your current location for the SSH connection, as well as "_TCP/443_" from the location you wish to use to access from.
+
+## Configure Nginx Web Server with TLS/SSL
 
 1.  Install Nginx web server:
 
@@ -168,7 +171,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-## Set up Docker containers
+## Set up Docker Containers
 
 * Create local directories.
 

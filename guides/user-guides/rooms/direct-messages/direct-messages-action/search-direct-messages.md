@@ -1,8 +1,8 @@
 # Search Direct Messages
 
-You can search for messages in a Direct Message.&#x20;
+You can search for messages in a Direct Message.
 
-To do that, click on the search icon by the top right of your opened DM.
+To do that, click on the **Search** icon by the top right of your opened DM.
 
 ![](<../../../../../.gitbook/assets/image (646) (2).png>)
 

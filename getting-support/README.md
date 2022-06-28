@@ -10,7 +10,7 @@ Setting up and running software is not always an easy thing. We get that. That's
 
 The following sections will tell you about limits of the support the core team can give as well as where to find the community to help you and how you yourself can contribute by reporting bugs to us on GitHub.
 
-## Official support
+## Official Support
 
 In order to obtain official support from our team, we have a minimum set of requirements. These requirements are necessary for us to access the essential system information, to provide an SLA, to answer questions, or to provide a solution for the problem.
 

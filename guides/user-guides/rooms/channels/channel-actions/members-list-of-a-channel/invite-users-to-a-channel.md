@@ -1,6 +1,6 @@
 # Invite Users to a Channel
 
-It is the option used to invite users to your channel.
+You can use **Invite Users** option to invite users to your channel.
 
 To add a new user:
 

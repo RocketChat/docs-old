@@ -4,11 +4,11 @@ Click **Team Information** to view and edit team information, as shown below:
 
 ![](<../../../../../.gitbook/assets/image (346).png>)
 
-* Click **Edit** to edit the following information
+* Click **Edit** to edit the team information.
 
 ![](<../../../../../.gitbook/assets/image (345).png>)
 
-* Hit **Save**.&#x20;
+* Hit **Save**.
 
 ![](<../../../../../.gitbook/assets/image (348).png>)
 

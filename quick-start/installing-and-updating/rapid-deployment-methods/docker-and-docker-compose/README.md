@@ -18,7 +18,7 @@ curl -L https://raw.githubusercontent.com/RocketChat/Docker.Official.Image/maste
 
 #### **Editing Variables:**
 
-If you are using MogoDB Atlas as the database provider, edit the value of the `MONGO_URL` variable in your compose file to be your connection string in this format
+If you are using MongoDB Atlas as the database provider, edit the value of the `MONGO_URL` variable in your compose file to be your connection string in this format
 
 `MONGO_URL=mongodb://<user>:<pass>@host1:27017,host2:27017,host3:27017/<databaseName>?replicaSet=<replicaSet>&ssl=true&authSource=admin`
 
@@ -42,7 +42,7 @@ This is going to:
 * Start a MongoDB service named `mongodb`.
 * Start a service `rocketchat`, that will also wait for `mongodb` to be ready.
 
-Mongo supports 24 x 7 operations and live backup. You should not need to restart it too frequently. See [mongodb documentation](https://docs.mongodb.org/manual/) for proper operation and management of a mongo server.
+Mongo supports 24 x 7 operations and live backup. You should not need to restart it too frequently. See [MongoDB documentation](https://www.mongodb.com/docs/manual/) for proper operation and management of a Mongo server.
 
 Optionally, if you want to manage your messages and configuration information, edit the file again to uncomment the volume mounts. Make sure you have a `data` subdirectory to mount and store the data.
 

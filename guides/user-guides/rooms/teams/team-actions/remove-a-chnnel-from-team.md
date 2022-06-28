@@ -1,6 +1,6 @@
 # Remove a Channel from Team
 
-To remove a channel from the team:
+**To remove a channel from the team:**
 
 ![](<../../../../../.gitbook/assets/image (361).png>)
 

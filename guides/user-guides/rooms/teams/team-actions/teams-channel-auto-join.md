@@ -1,6 +1,6 @@
 # Team's Channel Auto-Join
 
-To access your team's channel actions:
+**To access your team's channel actions:**
 
 * Click the menu, as shown below
 

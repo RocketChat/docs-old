@@ -62,9 +62,9 @@ You can then access at: https://chat.yourcompany.com replacing chat.yourcompany.
 
 The Loadbalancer will redirect HTTP to HTTPS
 
-## Firewall
+## Firewalls
 
-This image comes with a ufw firewall enabled and the ports allowed for incomingo traffic are:
+This image comes with a UFW firewall enabled and the ports allowed for incoming traffic are:
 
 * ssh 22
 * http 80

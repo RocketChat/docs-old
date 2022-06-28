@@ -29,9 +29,9 @@ For older snaps
 
 If you want to enable SSL and Let's Encrypt certificates you should:
 
-1. input a URL starting with HTTPS
-2. own the domain name you would like to use
-3. have the correct DNS record set up to resolve your domain name to your public IP (remember DNS records could take some time to propagate).
+1. Input a URL starting with HTTPS
+2. Own the domain name you would like to use
+3. Have the correct DNS record set up to resolve your domain name to your public IP (remember DNS records could take some time to propagate).
 
 These next commands will check that configuration is set up correctly before starting the services:
 
@@ -42,7 +42,7 @@ sudo snap set rocketchat-server https=enable
 sudo snap run rocketchat-server.initcaddy
 ```
 
-If no errors were found, it is safe to restart rocket.chat and Caddy:
+If no errors were found, it is safe to restart Rocket.Chat and Caddy:
 
 ```bash
 sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
@@ -58,7 +58,7 @@ sudo snap set rocketchat-server caddy=enable
 sudo snap run rocketchat-server.initcaddy
 ```
 
-If no errors were found, it is safe to restart rocket.chat and Caddy:
+If no errors were found, it is safe to restart Rocket.Chat and Caddy:
 
 ```bash
 sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
@@ -71,14 +71,14 @@ sudo systemctl restart snap.rocketchat-server.rocketchat-caddy.service
 sudo snap logs -f rocketchat-server.rocketchat-caddy
 ```
 
-## Configure Caddy yourself or use another http proxy
+## Configure Caddy yourself or use another HTTP Proxy
 
 {% hint style="info" %}
 For 4.x latest AMD64 snaps or 3.x latest ARM64 snaps
 {% endhint %}
 
 {% hint style="info" %}
-Both caddy v2 and caddy v1 (EOL) is deilivered in the snap, v2 is prioritized over v1.
+Both caddy v2 and caddy v1 (EOL) is delivered in the snap, v2 is prioritized over v1.
 {% endhint %}
 
 If you want to configure Caddy yourself, place the Caddyfile in `/var/snap/rocketchat-server/current/` directory and restart rocketchat-server.
@@ -117,7 +117,7 @@ proxy / localhost:3000 {
 }
 ```
 
-and restart caddy:
+and restart Caddy:
 
 ```bash
 sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
@@ -155,7 +155,7 @@ sudo systemctl status snap.rocketchat-server.rocketchat-caddy
 
 If everything went well, the site will be accessible at `https://example-domain.com`.
 
-## Testing with an untrusted self-signed certificate
+## Testing with an Untrusted Self-Signed Certificate
 
 Simply add the `tls self_signed` directive to your Caddyfile like so:
 
@@ -197,7 +197,7 @@ Remember to restart the Caddy service:
 sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
 ```
 
-## Disabling SSL or listening on custom ports
+## Disabling SSL or Listening on Custom Ports
 
 This configuration will listen **without SSL** on the default port 80:
 
@@ -249,7 +249,7 @@ Remember to restart the Caddy service:
 sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
 ```
 
-## Opening ports when running Rocket.Chat server from behind router
+## Opening ports when running Rocket.Chat Server from behind router
 
 For Caddy to be able to work from behind a router, the following ports need to be opened between the internet and the server. This is usually achieved through router software or web-interface.
 

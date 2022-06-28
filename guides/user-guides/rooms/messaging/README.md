@@ -8,19 +8,19 @@ To compose a message in Rocket.Chat, go to the channel or user you want to send 
 
 If you want to add new lines of text, press `Shift + Command` to add a new line.
 
-## Cursor movement
+## Cursor Movement
 
 While writing or editing messages, you can move the cursor using the arrow keys. Where the cursor moves depends on the wrapping of the text.
 
 Hold `Alt` or `Command` while pressing the right or left arrow keys to move the cursor to the beginning or end of the message.
 
-## Notify other team members
+## Notify Other Team Members
 
 To get the attention of a specific team member in a channel, type `@` followed by their username, for example, `@username`. The mentioned user sees a red badge on the channel or is notified via email or their mobile device if they're not online.
 
 You can also notify everyone in a channel by typing `@all`. Although notifying everyone in the channel is useful for announcements, not every message requires this. We recommend using `@all` sparingly.
 
-## Send attachments
+## Send Attachments
 
 You can send a variety of attachments with your messages, like files, audio, links, videos, and many more.
 
@@ -103,6 +103,6 @@ Use the following symbols to format text as desired:
 * Bold: `*Lorem ipsum dolor*`
 * Italic: `_Lorem ipsum dolor_`
 * Strike: `~Lorem ipsum dolor~`
-* Inline code: `` `Lorem ipsum dolor` ``&#x20;
+* Inline code: `` `Lorem ipsum dolor` ``
 * Image: `![Alt text](https://rocket.chat/favicon.ico)`
 * Link: `[Lorem ipsum dolor](https://www.rocket.chat/)` or `<https://www.rocket.chat/ |Lorem ipsum dolor>`

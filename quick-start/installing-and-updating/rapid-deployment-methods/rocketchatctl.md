@@ -10,19 +10,19 @@ Check it out here: [https://github.com/RocketChat/install.sh](https://github.com
 
 ## Environment
 
-Currently, rocketchatctl is supported in these Linux distributions:
+Currently, `rocketchatctl` is supported in these Linux distributions:
 
-*   Supported OS:
+**Supported OS:**
 
-    Ubuntu 18.04, 19.04, 20.04\
-    CentOS 7, 8\
-    Debian 9, 10, 11
+* Ubuntu 18.04, 19.04, 20.04
+* CentOS 7, 8
+* Debian 9, 10, 11
 
-`rocketchatctl` automatically install the latest supported node and mongodb versions (CentOS support WIP).
+`rocketchatctl` automatically install the latest supported node and MongoDB versions (CentOS Support WIP).
 
 We understand that some users could already have node, mongo, or even a webserver already installed in their servers, `rocketchatctl install` will check for previously installed versions of node and mongo in your system.
 
-## Options and flags
+## Options and Flags
 
 Run `rocketchatctl help` and check options and flags:
 
@@ -97,7 +97,7 @@ rocketchatctl update
 
 The update option creates a temporary backup directory, downloads the latest rocketchat release, starts it, and checks that it is healthy by querying the info api. In case something goes wrong in the startup process, the previously installed version from the backup is restored and an error message is displayed.
 
-### Upgrade rockectchatctl
+### Upgrade `rockectchatctl`
 
 This option will download the latest version available for rocketchatctl in the install repo, compare it to your current rocketchatctl and upgrade to the latest version if needed, be sure to check that you are running the latest rocketchactl.
 
@@ -105,9 +105,9 @@ This option will download the latest version available for rocketchatctl in the 
 rocketchatctl upgrade-rockectchatctl
 ```
 
-### **Backup rocketchatctl**
+### **Backup `rocketchatctl`**
 
-Backup rocketchatctl data by running
+Backup `rocketchatctl` data by running
 
 ```
 rocketchatctl backup

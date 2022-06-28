@@ -4,9 +4,9 @@
 The user must be the channel owner AND have the specific rights in the team to be able to add an existing channel.
 {% endhint %}
 
-To add an existing channel to a team:
+**To add an existing channel to a team:**
 
-* Click **Add Existing**
+* Click **Add Existing.**
 
 ![](<../../../../../.gitbook/assets/image (353).png>)
 

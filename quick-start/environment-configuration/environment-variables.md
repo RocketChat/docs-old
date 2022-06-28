@@ -6,7 +6,7 @@ description: Configuring Rocket.Chat via environment variables
 
 Rocket.Chat can be configured on deployment with a set of environment variables. Setting those environment variables (the how to's) depends on the deployment method of choice.
 
-Some of these environment variables are mandatory, those are kept seperate to the optional ones.
+Some of these environment variables are mandatory, those are kept separate to the optional ones.
 
 ### Mandatory Environment Variables
 
@@ -27,13 +27,13 @@ Some of these environment variables are mandatory, those are kept seperate to th
 | ADMIN\_PASS     | Admin user's password (in plaintext).                         | <p>Self explanatory.<br><br><em>Mandatory if any of the other ADMIN_* variables are passed for a successful account creation.</em></p>                                                                                                                                                                     |
 | ADMIN\_EMAIL    | Admin user's email address.                                   | <p>Self explanatory.<br><br><em>Mandatory if any of the other ADMIN_* variables are passed for a successful account creation.</em></p>                                                                                                                                                                     |
 
-### Other Environment Variable
+### Other Environment Variables
 
 #### Overriding Settings
 
-You can override your Rocket.Chat settings directly from environment variables
+You can override your Rocket.Chat settings directly from environment variables.
 
-Settings capable of this can be seen when hovered upon in the **Administration** > **Settings** section
+Settings capable of this can be seen when hovered upon in the **Administration** > **Settings** section.
 
 ![Example Settings code](<../../.gitbook/assets/Example Settings code>)
 

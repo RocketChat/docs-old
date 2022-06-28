@@ -2,7 +2,7 @@
 
 ## Installation
 
-Snap is preinstalled in most modern distributions. If it is not, please read snap's [official documentation](https://snapcraft.io/docs/installing-snapd) on how to install snap.
+Snap is pre-installed in most modern distributions. If it is not, please read snap's [official documentation](https://snapcraft.io/docs/installing-snapd) on how to install snap.
 
 Installing Rocket.Chat with snap on Ubuntu is as easy as executing:
 
@@ -20,7 +20,7 @@ To move between different major releases, from 2.x to 3.x or from 3.x to 4.x, ta
 
 ## Configuration
 
-To configure snap variables for your Rocket.Chat server,&#x20;
+**To configure snap variables for your Rocket.Chat server:**
 
 To see the list of snap variables to configure for your Rocket.Chat server, run:
 

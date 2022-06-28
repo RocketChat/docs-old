@@ -4,7 +4,7 @@ This guide shows how you can perform backup and restore of your Rocket.Chat's mo
 
 ### Docker Mongo Backup
 
-To back up your MongoDB database in docker follow these steps
+To back up your MongoDB database in docker follow these steps:
 
 * Run the following command on your terminal to list out the label of the container running mongo
 
@@ -22,7 +22,7 @@ You see a list of containers running, note the name of the mongo container in th
 docker exec <database_name> sh -c 'mongodump --archive' > db.dump
 ```
 
-When successful, you should see `db.dump` file in the current directory
+When successful, you should see `db.dump` file in the current directory.
 
 ### Docker Mongo Restore
 

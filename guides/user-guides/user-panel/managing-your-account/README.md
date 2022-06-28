@@ -1,6 +1,6 @@
 ---
 description: >-
-  Manage Your Rocket.Chat account settings through the browser, desktop, and
+  Manage your Rocket.Chat account settings through the browser, desktop, and
   mobile apps.
 ---
 

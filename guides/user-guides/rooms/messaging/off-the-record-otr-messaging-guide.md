@@ -23,7 +23,7 @@ Prerequisites for using OTR are:
 * you and your DM-partner have entered their [end-to-end encryption key](https://docs.rocket.chat/guides/user-guides/end-to-end-encryption)
 * you and your DM-partner are both online
 
-## Starting an OTR conversation
+## Starting an OTR Conversation
 
 _See the following steps with the sample users A and B._
 

@@ -42,11 +42,11 @@ sudo snap revert rocketchat-server
 
 The Rocket.Chat snap provides three services. Outside of the snap context, globally, each service is named like `snap.<SnapName>.<SnapServiceName>`. Look at the table down below to have a better understanding.
 
-| Service    | Snap Service Name | Systemd Service Name                     |
-| ---------- | ----------------- | ---------------------------------------- |
-| MongoDB    | rocketchat-mongo  | snap.rocketchat-server.rocketchat-mongo  |
-| Caddy      | rocketchat-caddy  | snap.rocketchat-server.rocketchat-caddy  |
-| RocketChat | rocketchat-server | snap.rocketchat-server.rocketchat-server |
+| Service     | Snap Service Name | Systemd Service Name                     |
+| ----------- | ----------------- | ---------------------------------------- |
+| MongoDB     | rocketchat-mongo  | snap.rocketchat-server.rocketchat-mongo  |
+| Caddy       | rocketchat-caddy  | snap.rocketchat-server.rocketchat-caddy  |
+| Rocket.Chat | rocketchat-server | snap.rocketchat-server.rocketchat-server |
 
 You can check the list of services yourself with:
 
@@ -150,11 +150,11 @@ sudo systemctl restart snap.rocketchat-server.rocketchat-mongo
 sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
 ```
 
-### What is the restart policy?
+### What is the Restart Policy?
 
 The snap's policy is to restart on failure.
 
-### How do I backup my snap data?
+### How do I backup my Snap data?
 
 #### 1. Stop your rocketchat-server:
 
@@ -190,7 +190,7 @@ sudo snap start rocketchat-server.rocketchat-server
 
 #### 4. Copy your backup file to a different location or system for safekeeping!
 
-### How do I restore backup data to my snap?
+### How do I restore backup data to my Snap?
 
 #### 1. Stop your rocketchat-server:
 
@@ -248,7 +248,7 @@ _If something goes wrong, you will instead be presented with a path to the relev
 sudo snap start rocketchat-server.rocketchat-server
 ```
 
-### How do I access the MongoDB shell?
+### How do I access the MongoDB Shell?
 
 You might want to access the mongo shell shipped with our RocketChat snap. To do so, run:
 

@@ -1,6 +1,6 @@
-# Channel Info
+# Channel Information
 
-Here you can see all kinds of information about the current channel. If you admin permissions, you can edit this information. These are the channel info options:
+Here you can see all kinds of information about the current channel. If you admin permissions, you can edit the information. These are the channel information options:
 
 * **Channel Name**: The channel's name, how users see the title and find the channel via search.
 * **Topic**: The topic shows next to the title on the channel header. Great for giving more info about the channel.
@@ -11,4 +11,4 @@ Here you can see all kinds of information about the current channel. If you admi
 * **Archived**: Tells if a channel is archived and toggles the archived status of a channel. Nobody can post messages in an archived channel, and channel search will not find that channel.
 * **Password**: Tells whether a channel has a password and let you set the password. If a channel has a password, other users need to enter the password to become a channel's member.
 
-If a [retention policy](../../../../administration/admin-panel/settings/retention-policies.md) is active on this channel, a red warning box appears stating when messages or files are deleted.
+If a [Retention Policy](../../../../administration/admin-panel/settings/retention-policies.md) is active on this channel, a red warning box appears stating when messages or files are deleted.

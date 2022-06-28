@@ -1,6 +1,6 @@
 # Inviting Users
 
-After creating and setting up your new workspace, it is time to start using Rocket.Chat.
+After creating and setting up your new workspace, it is time to add users using Rocket.Chat.
 
 You can start by creating your first user following this guide on [adding new users](../../guides/administration/admin-panel/users/add-new-users.md) or[ inviting your friends and colleagues to join your server](../../guides/administration/admin-panel/users/invite-users-to-your-rocket.chat-workspace.md)
 

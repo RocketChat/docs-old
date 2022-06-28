@@ -4,7 +4,9 @@
 Only the team owner can delete a team.
 {% endhint %}
 
-To delete a team go to Team Information and hit **Delete**
+**To delete a team:**
+
+* Go to **Team Information** and hit **Delete.**
 
 ![](<../../../../../.gitbook/assets/image (349).png>)
 
@@ -14,4 +16,4 @@ To delete a team go to Team Information and hit **Delete**
 When deleting a team, you have the option to delete or keep the team's channels. If you delete a team and decide to keep the channels, those will go to the workspace.
 {% endhint %}
 
-****
+***

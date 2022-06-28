@@ -43,25 +43,25 @@ sudo snap refresh rocketchat-server
 
 Updating to a major version requires a track change learn more about this in this discussion [https://forums.rocket.chat/t/introducing-snap-tracks/5890](https://forums.rocket.chat/t/introducing-snap-tracks/5890).
 
-Switching to a particular track is done by executing the following command. You will only receive updates relating to this track
+Switching to a particular track is done by executing the following command. You will only receive updates relating to this track.
 
 ```
 sudo snap switch rocketchat-server --channel=x.x/stable
 ```
 
-Besides the **latest** track, there is also **stable**, **candidate** and **edge**
+Besides the **latest** track, there is also **stable**, **candidate** and **edge.**
 
 More details on what channels are: [https://snapcraft.io/docs/channels](https://snapcraft.io/docs/channels)
 
-To upgrade to a new version, execute
+**To upgrade to a new version, execute**
 
 ```
 sudo snap refresh rocketchat-server --channel=x.x.x/stable
 ```
 
-## Upgrading Rocket.Chat Digital Ocean Oneclick Install
+## Upgrading Rocket.Chat Digital Ocean One-Click Install
 
-To upgrade your Rocket.Chat Digital Ocean droplet,
+To upgrade your Rocket.Chat Digital Ocean Droplet:
 
 1. Upgrade the update tool:\
    `sudo rocketchatctl upgrade-rocketchatctl`
@@ -74,7 +74,7 @@ To upgrade your Rocket.Chat Digital Ocean droplet,
    ``\
    ``If you face any errors with installing node, reboot your system and you’ll be able to continue with the next steps.\
    ![](<../.gitbook/assets/image (625).png>)
-4. If it's not updated already, change the path to new nodejs in the service config:\
+4. If it is not updated already, change the path to new nodejs in the service config:\
    `sudo nano /lib/systemd/system/rocketchat.service`\
    In the line beginning with “ExecStart=” replace “/usr/local/bin/node” with “/usr/bin/node”
 5. Reload the service and start the server:\
@@ -83,7 +83,7 @@ To upgrade your Rocket.Chat Digital Ocean droplet,
 6. Check that it’s running:\
    `sudo systemctl status rocketchat.service`
 
-Other important topics concerning upgrades can be found here
+Other important topics concerning upgrades can be found here.
 
 {% embed url="https://docs.rocket.chat/getting-support#mongodb-versions" %}
 

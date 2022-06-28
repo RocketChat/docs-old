@@ -173,7 +173,7 @@ Or, if you want to use a self-signed SSL cert instead, skip ahead to [Self-Signe
 sudo nano /etc/nginx/certificate.key
 ```
 
-Open the private key and Copy the entire private key text-block from the file that was generated when you created the CSR. Right click on the terminal window and select paste to paste it into nano. Alternatively, if you have a tool such as filezilla, you can use it via SSH over FTP to upload your cert and key files instead of copy / paste.
+Open the private key and Copy the entire private key text-block from the file that was generated when you created the CSR. Right click on the terminal window and select paste to paste it into nano. Alternatively, if you have a tool such as FileZilla, you can use it via SSH over FTP to upload your cert and key files instead of copy or paste.
 
 Save and Exit.
 
@@ -267,7 +267,7 @@ Save and Exit.
 sudo service nginx configtest && sudo service nginx restart
 ```
 
-**TIP:** You can pinpoint problems in your nginx config using the following command
+**Note:** You can pinpoint problems in your nginx config using the following command:
 
 ```
 sudo nginx -t

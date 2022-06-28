@@ -31,13 +31,13 @@ Accessing Rocket.Chat through a browser is as simple as
 
 ## Setup Wizard
 
-To launch your workspace, it is required to do a simple 4 step setup.
+To launch your workspace, it is required to do a simple 4-step setup.
 
-* **Admin Info**: Fill in this information as it is needed to create the very first user who will automatically be the administrator of your Rocket.Chat workspace
+* **Admin Information**: Fill in this information as it is needed to create the very first user who will automatically be the administrator of your Rocket.Chat workspace
 
 ![](<../../.gitbook/assets/image (671) (1).png>)
 
-* **Organization Info**: This involves information about your organization
+* **Organization Information**: This involves information about your organization
 
 ![](<../../.gitbook/assets/image (672) (1).png>)
 
@@ -55,14 +55,14 @@ We recommend you register your workspace which will automatically create a [Rock
 
 #### Register Workspace
 
-* Click on Register to continue
-* Open up your email inbox and click **verify registration** make sure the security codes match
+* Click on **Register** to continue.
+* Open up your email inbox and click **verify registration** make sure the security codes match.
 
 ![](<../../.gitbook/assets/image (636).png>)
 
 ![](<../../.gitbook/assets/image (645) (1).png>)
 
-* Confirm the registration and go back to your server
+* Confirm the registration and go back to your server.
 
 ![](<../../.gitbook/assets/image (679) (1) (1).png>)
 
@@ -70,11 +70,11 @@ We recommend you register your workspace which will automatically create a [Rock
 
 #### Continue as Standalone
 
-* Click **Continue as standalone** then **Confirm**
+* Click **Continue as standalone** then **Confirm.**
 
 ![](<../../.gitbook/assets/image (692).png>)
 
-Your workspace is now ready for use
+Your workspace is now ready for use.
 
 ![](<../../.gitbook/assets/image (676) (1) (1).png>)
 

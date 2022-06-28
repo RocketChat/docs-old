@@ -2,7 +2,7 @@
 
 * [Rocket.Chat Documentation](README.md)
 * [Getting Support](getting-support/README.md)
-  * [Asking for help](getting-support/asking-for-help.md)
+  * [Asking for Help](getting-support/asking-for-help.md)
 * [Development Docs](development-docs.md)
 
 ## Quick Start
@@ -18,7 +18,7 @@
         * [Docker Mongo Backup and Restore](quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/docker-mongo-backup-and-restore.md)
         * [systemd](quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/systemd.md)
         * [High Availability](quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/high-availability-install.md)
-        * [MongoDB mmap to wiredTiger migration](quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md)
+        * [MongoDB MMAP to WiredTiger Migration](quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md)
     * [Snaps](quick-start/installing-and-updating/rapid-deployment-methods/snaps/README.md)
       * [Configuring MongoDB](quick-start/installing-and-updating/rapid-deployment-methods/snaps/configuring-mongodb.md)
       * [Auto SSL with Snaps](quick-start/installing-and-updating/rapid-deployment-methods/snaps/auto-ssl-with-snaps.md)
@@ -70,7 +70,7 @@
   * [Rocket.Chat Setup Wizard](quick-start/accessing-your-workspace/rocket.chat-setup-wizard.md)
   * [Admin Account Creation](quick-start/environment-configuration/creating-the-first-administrator.md)
   * [Inviting Users](quick-start/accessing-your-workspace/inviting-users.md)
-  * [Starting & Stopping](quick-start/accessing-your-workspace/starting-and-stopping.md)
+  * [Starting & Stopping Docker Compose](quick-start/accessing-your-workspace/starting-and-stopping.md)
 * [Installing Client Apps](quick-start/installing-client-apps/README.md)
   * [Rocket.Chat Desktop & Mobile Apps](quick-start/mobile-and-desktop-apps/rocket.chat-desktop-and-mobile-apps.md)
   * [Minimum Requirements](quick-start/mobile-and-desktop-apps/minimum-requirements-for-using-rocket.chat.md)
@@ -97,7 +97,7 @@
 ## Guides
 
 * [User Guides](guides/user-guides/README.md)
-  * [Connect to a Rocket.Chat server](guides/user-guides/connecting-to-a-server.md)
+  * [Connect to a Rocket.Chat Server](guides/user-guides/connecting-to-a-server.md)
   * [Registering an account](guides/user-guides/registration.md)
   * [User Panel](guides/user-guides/user-panel/README.md)
     * [My Account](guides/user-guides/user-panel/managing-your-account/README.md)
@@ -111,7 +111,7 @@
       * [Types of Channels](guides/user-guides/rooms/channels/types-of-channels.md)
       * [Channel Actions](guides/user-guides/rooms/channels/channel-actions/README.md)
         * [Mark Channel as Favorite](guides/user-guides/rooms/channels/channel-actions/mark-channel-as-favorite.md)
-        * [Channel Info](guides/user-guides/rooms/channels/channel-actions/channel-info.md)
+        * [Channel Information](guides/user-guides/rooms/channels/channel-actions/channel-info.md)
         * [Search Messages in a Channel](guides/user-guides/rooms/channels/channel-actions/search-messages-in-a-channel.md)
         * [Members List of a Channel](guides/user-guides/rooms/channels/channel-actions/members-list-of-a-channel/README.md)
           * [Add User to a Channel](guides/user-guides/rooms/channels/channel-actions/members-list-of-a-channel/add-user-to-a-channel.md)
@@ -153,7 +153,7 @@
       * [Create new Multi-users Direct Message 1:M](guides/user-guides/rooms/direct-messages/direct-messages-between-multiple-users.md)
       * [Direct Messages Action](guides/user-guides/rooms/direct-messages/direct-messages-action/README.md)
         * [Mark Direct Message as Favorite](guides/user-guides/rooms/direct-messages/direct-messages-action/mark-direct-message-as-favorite.md)
-        * [View User Info](guides/user-guides/rooms/direct-messages/direct-messages-action/view-user-info.md)
+        * [View User Information](guides/user-guides/rooms/direct-messages/direct-messages-action/view-user-info.md)
         * [Block User in Direct Message](guides/user-guides/rooms/direct-messages/direct-messages-action/block-user-in-direct-message.md)
         * [Threads in Direct Messages](guides/user-guides/rooms/direct-messages/direct-messages-action/threads-in-direct-messages.md)
         * [Direct Messages Discussions](guides/user-guides/rooms/direct-messages/direct-messages-action/direct-messages-discussions.md)

@@ -4,7 +4,7 @@ There are multiple deployment options for Rocket.Chat.
 
 ## Quick Deployments
 
-If you are interested in quickly deploying an instance, you can try one of the options below:
+If you are interested in quickly deploying an instance, you can try one of these options below:
 
 * [Linode](https://apps.sandstorm.io/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0)
 * [Cloudron](https://cloudron.io/appstore.html#chat.rocket.cloudronapp), you can install and receive automatic updates on your Cloudron Smartserver.

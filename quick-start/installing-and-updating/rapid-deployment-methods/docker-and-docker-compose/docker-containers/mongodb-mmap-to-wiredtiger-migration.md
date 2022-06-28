@@ -1,19 +1,19 @@
 ---
 description: >-
-  Migrate your existing mmap based MongoDB instance into a wiredTiger one
+  Migrate your existing MMAP based MongoDB instance into a WiredTiger one
   without with as little downtime as possible.
 ---
 
-# MongoDB mmap to wiredTiger migration
+# MongoDB MMAP to WiredTiger Migration
 
-Starting with the major release 4.X.Y of Rocket.Chat, MongoDB has to be setup with a _WiredTiger_ storage engine rather than the deprecated _mmap_ one. This is mandatory, if you plan to upgrade to one of the future Rocket.Chat versions and has to be prepared before initiating the application upgrade.
+Starting with the major release 4.X.Y of Rocket.Chat, MongoDB has to be setup with a _WiredTiger_ storage engine rather than the deprecated MMAP __ one. This is mandatory, if you plan to upgrade to one of the future Rocket.Chat versions and has to be prepared before initiating the application upgrade.
 
-[This project/repository](https://github.com/RocketChat/docker-mmap-to-wiredtiger-migration) aims to help out people migrating their existing dockerized, _mmap_ based MongoDB installation into a _WiredTiger_ one.
+[This project/repository](https://github.com/RocketChat/docker-mmap-to-wiredtiger-migration) aims to help out people migrating their existing dockerized, _MMAP_ based MongoDB installation into a _WiredTiger_ one.
 
 ### Requirements
 
 * Docker-based Rocket.Chat deployment
-* MongoDB instance with _mmap_ storage engine
+* MongoDB instance with _MMAP_ storage engine
 
 ### Quick usage
 
@@ -115,7 +115,7 @@ Starting with the major release 4.X.Y of Rocket.Chat, MongoDB has to be setup wi
     * `for` loops slightly adjusted for both "rocketchat" and "mongo-init-replica" to run them endlessly
     * Adjusted `command` property for "mongo" service:
       * `while` loop to check for initiated WiredTiger migration (in `$MONGO_DATA_DIR/WiredTiger`)
-      * Use [custom entrypoint](https://github.com/RocketChat/docker-mmap-to-wiredtiger-migration/blob/main/docker/entrypoint.sh) that applies the migration
+      * Use custom `Entrypoint` that applies the migration
       * Use `--storageEngine=wiredTiger` switch instead of `--storageEngine=mmapv1`
     * Added "migrator" service
 9.  Build the "migrator" image and start up the containers again:
@@ -130,6 +130,6 @@ Starting with the major release 4.X.Y of Rocket.Chat, MongoDB has to be setup wi
     docker-compose logs -f mongo # ... check if the mongo one already took over
     ```
 
-### Help and support
+### Help and Support
 
 If you encounter any problems during the migration or in case you have general feedback or improvement ideas, feel free to create an issue in [the GitHub repository](https://github.com/RocketChat/docker-mmap-to-wiredtiger-migration).

@@ -2,7 +2,9 @@
 
 If you are a server admin, or your admin has given you the **clean-channel-history** permission, the **prune messages** option allows you to delete messages from a channel swiftly.
 
-_Note: Messages and files deleted with this option are deleted forever and cannot be recovered. Be careful and double-check your arguments before pressing Prune._
+{% hint style="info" %}
+_Messages and files deleted with this option are deleted forever and cannot be recovered. Be careful and double-check your arguments before pressing Prune._
+{% endhint %}
 
 Use the following parameters to delete specific messages:
 
@@ -18,4 +20,3 @@ Refine the parameters above with the following options. Check each to enable:
 * **Inclusive**: Deletes all messages that land on the exact start/end times you have specified in the `Newer than` and `Older than` fields.
 * **Exclude pinned messages**: Do **not** delete pinned messages.
 * **Only remove the attached files, keep messages**: Removes files but not the messages themselves
-

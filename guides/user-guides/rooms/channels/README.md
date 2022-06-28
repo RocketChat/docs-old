@@ -10,9 +10,9 @@ description: >-
 
 There are two types of channels: public and private channels.
 
-### Public channels
+### Public Channels
 
-Public channels are **open for all members of a Rocket.Chat workspace** to join, and anything posted is searchable by all members. They are identified by: ![](../../../../.gitbook/assets/2021-12-23\_19-51-58.png)
+Public Channels are **open for all members of a Rocket.Chat workspace** to join, and anything posted is searchable by all members. They are identified by: ![](../../../../.gitbook/assets/2021-12-23\_19-51-58.png)
 
 {% hint style="success" %}
 When a user is mentioned on a thread inside a public channel, they are automatically added to the channel.
@@ -20,7 +20,7 @@ When a user is mentioned on a thread inside a public channel, they are automatic
 
 ### Private Channels
 
-Private channels are by **invitation only** and are normally used for conversations that are not open to all members. They are identified by: ![](../../../../.gitbook/assets/2021-12-23\_19-50-54.png)
+Private Channels are by **invitation only** and are normally used for conversations that are not open to all members. They are identified by: ![](../../../../.gitbook/assets/2021-12-23\_19-50-54.png)
 
 {% hint style="info" %}
 People must be added/invited to a private channel by someone who's already a member
@@ -30,7 +30,7 @@ People must be added/invited to a private channel by someone who's already a mem
 
 Find public and private channels that you are watching in the left sidebar under the **Channels** sections.
 
-Public channels appear first above private channels below them and are alphabetically ordered.
+Public Channels appear first above private channels below them and are alphabetically ordered.
 
 ## Joining new channels and starting direct messages
 
@@ -47,7 +47,7 @@ When you click on a search result, the following can happen:
 * If the result is a channel, and you already aren't part of it, you will join that channel;
 * If the result is a user, you will start a direct message with that user;
 
-## Leaving channels
+## Leaving Channels
 
 There are two options for leaving a channel:
 
@@ -56,9 +56,9 @@ There are two options for leaving a channel:
 
 Every channel has an **owner**, and the owner of a channel cannot leave a channel until setting someone else as the owner of that channel.
 
-To leave a channel, enter the command `/part` or `/leave` in the message window. Alternatively, hover your mouse over the channel in the list of channels on the left-hand side and click on the **leave channel** button.
+To leave a channel, enter the command `/part` or `/leave` in the message window. Alternatively, hover your mouse over the channel in the list of channels on the left-hand side and click on the **Leave Channel** button.
 
-To hide a channel, hover your mouse over the channel in the list of channels on the left-hand side and click on the **hide channel** button.
+To hide a channel, hover your mouse over the channel in the list of channels on the left-hand side and click on the **Hide Channel** button.
 
 ## Creating Channels
 

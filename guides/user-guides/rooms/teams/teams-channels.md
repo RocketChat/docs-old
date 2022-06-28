@@ -14,9 +14,9 @@
 A team can have a maximum of 100 channels
 {% endhint %}
 
-To access channels within a team:
+**To access channels within a team**
 
-* Click channel sign, as shown below:
+* Click **Channel Sign** as shown below.
 
 ![](<../../../../.gitbook/assets/image (352).png>)
 
