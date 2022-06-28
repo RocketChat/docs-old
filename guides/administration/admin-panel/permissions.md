@@ -8,7 +8,7 @@ To access this menu,
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (29).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (1) (32).png>)
 
 ![](../../../.gitbook/assets/2021-11-22\_22-56-51.png)
 

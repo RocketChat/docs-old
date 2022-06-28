@@ -6,18 +6,18 @@ Below are some examples of how to use the new Rocket.Chat brand from online appl
 
 ### Brand in use
 
-![](../../../.gitbook/assets/01.jpg)
+![](../../.gitbook/assets/01.jpg)
 
-![](<../../../.gitbook/assets/image (695).png>)
+![](<../../.gitbook/assets/image (695).png>)
 
-![](<../../../.gitbook/assets/image (664).png>)
+![](<../../.gitbook/assets/image (684).png>)
 
-![](<../../../.gitbook/assets/image (645).png>)
+![](<../../.gitbook/assets/image (645).png>)
 
-![](<../../../.gitbook/assets/image (680).png>)
+![](<../../.gitbook/assets/image (654).png>)
 
-![](<../../../.gitbook/assets/image (676) (1).png>)
+![](<../../.gitbook/assets/image (676) (1).png>)
 
-![](<../../../.gitbook/assets/image (673).png>)
+![](<../../.gitbook/assets/image (673).png>)
 
-![](<../../../.gitbook/assets/image (667) (1).png>)
+![](<../../.gitbook/assets/image (667) (1).png>)
