@@ -21,7 +21,7 @@ A warning is also displayed.
 
 If you click on **More Info**,
 
-![](<../../../.gitbook/assets/image (284) (1).png>)
+![](<../../../.gitbook/assets/image (284).png>)
 
 you are given an explanation with a status, as shown below:
 

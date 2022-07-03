@@ -10,7 +10,7 @@ To access **Omnichannel Appearance** settings:
 
 Go to **Omnichannel Appearance** in the omnichannel panel settings, as shown below:
 
-![](<../../.gitbook/assets/0 (5).png>)
+![](<../../.gitbook/assets/0 (12).png>)
 
 You can customize the widget in the following four states.
 

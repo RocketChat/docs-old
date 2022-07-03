@@ -10,7 +10,7 @@ To access **Analytics** settings:
 
 Go to Analytics in the omnichannel panel settings, as shown below:
 
-![](<../../.gitbook/assets/0 (3).png>)
+![](<../../.gitbook/assets/0 (11).png>)
 
 ## To view conversation history:
 
@@ -20,11 +20,11 @@ Go to Analytics in the omnichannel panel settings, as shown below:
 
 1. Select your desired department.
 
-![](<../../.gitbook/assets/8 (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/8 (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 1. Select your desired start date and end date.
 
-![](<../../.gitbook/assets/9 (5) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/9 (5) (1) (1) (1) (1).png>)
 
 ### Details of conversation matrices:
 
@@ -56,11 +56,11 @@ You can also see the **percentage of conversations**, an **average of chat durat
 
 1. Select your desired department.
 
-![](<../../.gitbook/assets/8 (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
+![](<../../.gitbook/assets/8 (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 1. Select your desired start date and end date.
 
-![](<../../.gitbook/assets/9 (5) (1) (1) (1) (1) (1) (2).png>)
+![](<../../.gitbook/assets/9 (5) (1) (1).png>)
 
 ### Details of productivity matrices:
 

@@ -28,8 +28,8 @@ description: End-user Training Guides
 [security-bundle](security-bundle/)
 {% endcontent-ref %}
 
-{% content-ref url="video-conferencing/" %}
-[video-conferencing](video-conferencing/)
+{% content-ref url="../rocket.chat-conference-call/conference-call-users-guide.md" %}
+[conference-call-users-guide.md](../rocket.chat-conference-call/conference-call-users-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="keyboard-shortcuts.md" %}

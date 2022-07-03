@@ -8,8 +8,7 @@ Please make sure your environment meets the prerequisites to be able to configur
 
 To configure VoIP on your Rocket.Chat instance:
 
-1. Go to **Avatar Menu > Administration > Settings > Call Center**
-2. Search **Call Center**
+Go to **Avatar Menu > Administration > Settings > Call Center**
 
 as shown below:
 

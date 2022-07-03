@@ -4,7 +4,7 @@ To access the settings, go to **Administration** > **Apps**.
 
 as shown below:
 
-![](<../../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (1) (28).png>)
+![](<../../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (26).png>)
 
 Search Instagram Direct under the **Installed** tab in **Apps** menu on your Rocket.Chat administration panel.
 
@@ -12,7 +12,7 @@ Click open your Instagram Direct app to see the settings available to you as an 
 
 Following are the settings available:
 
-![](../../../../../.gitbook/assets/2022-01-20\_20-13-08.png)
+![](<../../../../../.gitbook/assets/2022-01-20\_20-13-08 (1).png>)
 
 1\. **Agents Display Name:** You can choose to display the agent's name or username.
 
@@ -40,8 +40,8 @@ It defines the metadata to be passed along with thread control action requests. 
 
 7\. Hit **Save Changes** to save your settings
 
-![](<../../../../../.gitbook/assets/2021-12-29\_17-48-45 (1) (1) (1) (1) (1).png>)
+![](<../../../../../.gitbook/assets/2021-12-29\_17-48-45 (1) (1) (1).png>)
 
 Your Instagram Direct app is successfully configured and you can see the new Instagram channel upon closing the administration panel, as shown below:
 
-![](<../../../../../.gitbook/assets/2022-01-20\_20-26-27 (1) (1) (1) (1) (1) (1).png>)
+![](<../../../../../.gitbook/assets/2022-01-20\_20-26-27 (1) (1) (1) (1).png>)

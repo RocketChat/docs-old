@@ -2,7 +2,7 @@
 
 Return to the main Rocket.Chat interface. Go to Omnichannel panel settings, as shown below:
 
-![](<../../.gitbook/assets/0 (8) (5) (5) (5) (5) (5) (4) (4) (1) (1) (1) (1) (1) (19).png>)
+![](<../../.gitbook/assets/0 (8) (5) (5) (5) (5) (5) (4) (4) (1) (1) (1) (18).png>)
 
 1. Select Facebook Messenger and Enable. You'll be prompted to log in. Be sure to use the credentials that are tied to the page you wish to receive messages from. You'll have to do a standard Facebook OAuth login and grant your Rocket.Chat instance access to your pages.
 2. Once you're returned from Facebook you'll see a list of the pages associated with that account. If you see none, make sure that the account has pages, then click RELOAD PAGES.

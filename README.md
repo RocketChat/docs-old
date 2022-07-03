@@ -58,8 +58,8 @@ This user guide incorporates a description of the features and capabilities, mod
 [push-notifications](guides/mobile-guides/push-notifications/)
 {% endcontent-ref %}
 
-{% content-ref url="guides/administration/admin-panel/settings/video-conference-admin-guide/" %}
-[video-conference-admin-guide](guides/administration/admin-panel/settings/video-conference-admin-guide/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="guides/message-auditing/" %}
