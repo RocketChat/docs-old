@@ -6,11 +6,11 @@ description: Guide for Rocket.Chat administrators to configure video conference
 
 To configure conference call on your Rocket.Chat Instance follow the guides below for each individual platform:
 
-[Pexip](pexip.md)
+[Pexip app](pexip-app.md)
 
-[Jitsi](jitsi.md)
+[Jitsi app](jitsi-app.md)
 
-[BigBlueButton (BBB)](bigbluebutton-bbb.md)
+[BigBlueButton (BBB) app](bigbluebutton-bbb-app.md)
 
-[Google Meet](google-meet.md)
+[Google Meet app](google-meet-app.md)
 

@@ -1,4 +1,4 @@
-# Jitsi
+# Jitsi app
 
 Jitsi is a [collection of Open Source projects](https://jitsi.github.io/handbook/docs/architecture) which provide state-of-the-art video conferencing capabilities that are secure, easy to use, and easy to self-host.
 
@@ -13,7 +13,7 @@ To start using Jitsi video conferencing on your Rocket.Chat Instance:
 To Download the Jitsi app:
 
 1. Please go to **Avatar Menu > Administration > Apps > Marketplace** tab.
-2. Search **Jitsi Video Conference Provider**
+2. Search **Jitsi Video Conference Provider** app
 3. Hit **Install**
 
 ## 2. Set up the Jitsi app&#x20;
@@ -33,7 +33,7 @@ To set up the Jitsi app on your Rocket.Chat instance go to settings in App info 
 11. **Token Auditor**: The name of the auditor to use when generating authentication tokens
 12. Hit **Save Changes**
 
-## 3. Configure conference call using Jitsi
+## 3. Configure conference call using Jitsi app
 
 To configure video conference on your Rocket.Chat instance:
 
@@ -44,7 +44,7 @@ as shown below:
 
 ![Conference call admin settings](../../../.gitbook/assets/VideoConferenceAdminSettingsForJitsi.png)
 
-Select the options that meet your needs and hit **Save changes** in the top right corner. Jitsi Meet is successfully configured on your server. Please follow the conference call user's guide to start using it.
+Select the options that meet your needs and hit **Save changes** in the top right corner. Jitsi app is successfully configured on your server. Please follow the conference call user's guide to start using it.
 
 {% content-ref url="../conference-call-users-guide.md" %}
 [conference-call-users-guide.md](../conference-call-users-guide.md)

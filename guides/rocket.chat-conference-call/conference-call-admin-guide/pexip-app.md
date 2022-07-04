@@ -1,17 +1,17 @@
-# Pexip
+# Pexip app
 
 [Pexip](https://www.pexip.com/) is a purpose-built video communication platform that empowers large organizations to transform their operations with video. Pexip’s unique technology provides customized solutions for innovative and fully bespoke applications of video, data privacy, and business continuity for secure spaces and frictionless collaboration for connected spaces.
 
 The integration between Rocket.Chat and Pexip as video conferencing communication platform enables secure and compliant government-to-citizen communication as well as internal and cross-agencies collaboration, making it ideal for government organizations looking for an on-premise collaboration solution.&#x20;
 
-To start using Pexip video conferencing on your Rocket.Chat Instance:
+To start using Pexip video conferencing app on your Rocket.Chat Instance:
 
 ## 1. Download the Pexip app
 
 To Download the Pexip app:
 
 1. Please go to **Avatar Menu > Administration > Apps > Marketplace** tab.
-2. Search **Pexip**
+2. Search **Pexip** app
 3. Hit **Install**
 
 ![Pexip app install](../../../.gitbook/assets/PexipAppInstall.png)
@@ -30,7 +30,7 @@ To set up the Pexip app on your Rocket.Chat instance:
 
 5\. Hit **Save Changes**
 
-## 3. Configure conference call using Pexip&#x20;
+## 3. Configure conference call using Pexip app&#x20;
 
 To configure the Pexip video conference on your Rocket.Chat instance:
 
@@ -43,7 +43,7 @@ as shown below:
 
 ![ Conference call admin settings](../../../.gitbook/assets/VideoConferenceAdminSettingsForPexip.png)
 
-Select the options that meet your needs and hit **Save changes** in the top right corner. Pexip is successfully configured on your server. Please follow the conference call user's guide to start using it.
+Select the options that meet your needs and hit **Save changes** in the top right corner. Pexip app is successfully configured on your server. Please follow the conference call user's guide to start using it.
 
 {% content-ref url="../conference-call-users-guide.md" %}
 [conference-call-users-guide.md](../conference-call-users-guide.md)
