@@ -1,6 +1,6 @@
 # Rocket.Chat Conference Call
 
-When it comes to video conferencing Rocket.Chat supports multiple feature-rich options like Pexip, Jitsi, BigBlueButton (BBB), and Google Meet to filfill your needs.&#x20;
+When it comes to conference calling Rocket.Chat supports multiple feature-rich options like Pexip, Jitsi, BigBlueButton (BBB), and Google Meet to fulfill your needs.&#x20;
 
 Rocket.Chat's conference call enterprise feature set offers you the ability to use the following video conferencing platforms, available as apps on our [marketplace](https://rocket.chat/marketplace).
 
