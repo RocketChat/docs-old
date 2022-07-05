@@ -13,11 +13,10 @@ Rocket.Chat's conference call enterprise feature set offers you the ability to u
 
 
 
-|                      Feature                     | Community Edition | Enterprise Edition |
-| :----------------------------------------------: | :---------------: | :----------------: |
-|         **Ringer (in direct messages)**          |       **x**       |        **✓**       |
-|            **Records in the channel**            |       **x**       |        **✓**       |
-| **Contextual bar to organize the call history**  |       **x**       |        **✓**       |
-|   **Options to start with camera and mic off**   |       **x**       |        **✓**       |
-|          **Option to name a conference**         |       **x**       |        **✓**       |
+|                    Feature                   | Community Edition | Enterprise Edition |
+| :------------------------------------------: | :---------------: | :----------------: |
+|       **Ringer (in direct messages)**        |       **x**       |        **✓**       |
+|          **Records in the channel**          |       **✓**       |        **✓**       |
+|  **Contextual bar containing call history**  |       **x**       |        **✓**       |
+| **Options to start with camera and mic off** |       **✓**       |        **✓**       |
 
