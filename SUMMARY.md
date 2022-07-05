@@ -227,7 +227,7 @@
       * [Review Board](guides/administration/admin-panel/integrations/reviewboard.md)
       * [RunDeck Job Notifications](guides/administration/admin-panel/integrations/rundeck.md)
       * [Sentry](guides/administration/admin-panel/integrations/sentry.md)
-      * [Simple Telegram Bot:](guides/administration/admin-panel/integrations/telegram.md)
+      * [Simple Telegram Bot](guides/administration/admin-panel/integrations/telegram.md)
       * [TravisCI](guides/administration/admin-panel/integrations/travis-ci.md)
       * [Trello](guides/administration/admin-panel/integrations/trello.md)
       * [Uptime Robot](guides/administration/admin-panel/integrations/uptime-robot.md)
