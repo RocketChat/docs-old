@@ -8,9 +8,7 @@ description: >-
 
 To access **Analytics** settings:
 
-Go to Analytics in the omnichannel panel settings, as shown below:
-
-![](<../../.gitbook/assets/0 (11).png>)
+Go to  **Avatar Menu  > Omnichannel > Analytics**
 
 ## To view conversation history:
 

@@ -13,7 +13,6 @@ If you struggle to handle leads and clients in a multi-channel environment, you 
 * Email
 * Voice
 * WhatsApp
-* WeChat
 * Telegram
 * Facebook Messenger
 * Live Chat, and so on.
@@ -26,17 +25,12 @@ If you struggle to handle leads and clients in a multi-channel environment, you 
 
 To enable the Omnichannel feature on your Rocket.Chat instance:
 
-1. Go to **Administration**
-
-![](<../../.gitbook/assets/image (586).png>)
-
-1. Search '**Omnichannel**' in **Settings** and enable it
-
-![](<../../.gitbook/assets/image (26).png>)
+1. Go to **Avatar Menu > Administration > Settings > Omnichannel**
+2. **Enable** omnichannel
 
 Now the admin will have access to _**Omnichannel Panel Settings**_ through a new menu called `Omnichannel`, as shown below:
 
-![](<../../.gitbook/assets/image (587).png>)
+![Omnichannel panel settings](<../../.gitbook/assets/image (587).png>)
 
 {% hint style="info" %}
 [Find out how to configure omnichannel on your Rocket.Chat workspace.](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#configuration)
@@ -48,10 +42,8 @@ Omnichannel area of Rocket.Chat has three primary users.
 2. [Managers](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel-manger-guides)
 3. [Agents](https://docs.rocket.chat/guides/omnichannel/agents)
 
-Being an omnichannel manager, you can access omnichannel settings, as shown below:
+Being an omnichannel manager, you can access omnichannel settings by: **Avatar Menu  > Omnichannel**
 
-![](<../../.gitbook/assets/image (598) (2) (2) (2) (2) (2) (2) (2) (2) (2) (1) (1) (2).png>)
+![Omnichannel panel](<../../.gitbook/assets/image (58).png>)
 
-![](<../../.gitbook/assets/image (58).png>)
-
-Please use the navigation on the left to find detail of each menu in their respective article.
+Please use the navigation on the left to find the detail of each menu in their respective article.
