@@ -156,4 +156,4 @@ As shown below:
 
 ### Video and Audio Call
 
-Make Jitsi, your Omnichannel call provider by going to **`Administration > Omnichannel > Video and Audio Call > Call Provider > Jitsi`**
+Make Jitsi, your Omnichannel call provider by going to **Administration > Setting > Omnichannel > Video and Audio Call > Call Provider > Jitsi**
