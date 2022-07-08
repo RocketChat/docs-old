@@ -48,7 +48,7 @@ Please note that you now have the ability to filter on-hold chats.
 
 To sort the conversations per **From** and **To** date, enter the **From** and **To** Date in the field, and your conversations are sorted, as shown below:
 
-## Sort by tags or custom fields:
+## Sort by tags or custom fields
 
 You can also sort the conversations by [**Tags**](tags-managers-guide.md) or any [**Custom Fields**](custom-fields.md) that you have added in your livechat widget user login. Enter the tag/custom field, and your conversations are sorted.
 
