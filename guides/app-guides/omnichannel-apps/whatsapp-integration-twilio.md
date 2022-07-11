@@ -1,55 +1,47 @@
 # SMS
 
-In this guide, we'll quickly lay out how to integrate Rocket.Chat with WhatsApp using Twilio's programmable SMS.
+Intercommunication between Rocket.Chat and WhatsApp can be achieved using [Twilio Programmable Messaging API](https://www.twilio.com/messaging).&#x20;
 
-## Step 1
+In this guide, we'll quickly lay out how the procedures to follow.
 
-Create an account at [Twilio](https://twilio.com/whatsapp/request-access).
+## Configuration
 
-## Step 2
+* Log in to your [Twilio](https://www.twilio.com/) account or create a new account if you don't have one
+* From your Twilio **Console,** navigate to **Send a WhatsApp Message** on the left panel
 
-Log into your Twilio account. The default landing page is the **Dashboard** for your account. On the left side panel, click on the **All Products and Services** icon to expand it.
+![Twilio Send WhatsApp message interface](<../../../.gitbook/assets/Twilio Send WhatsApp message interface.png>)
 
-Click on **Programmable SMS** and then on **WhatsApp**.
+You can go ahead to test sending and receiving WhatsApp messages
 
-## Step 3
+{% hint style="info" %}
+In production, you will need to have your account [approved for WhatsApp](https://www.twilio.com/whatsapp/request-access).
 
-For production purposes, you will need to have your account approved by WhatsApp (see the **Senders** link on the same section). In the meantime, you can do the same configuration in the **Sandbox** environment provided by Twilio. Click on **Sandbox.**
+For demonstration purposes, we are going to use the Twilio WhatsApp sandbox.
+{% endhint %}
 
-On the first section, **Sandbox Configuration**, you'll need to enter your Rocket.Chat server details on the **When a message comes in** field. The format is as follows:
+* Head over to **Messaging** > **Settings** > **WhatsApp sandbox setting** to configure your sandbox
 
-`https://<SERVER_URL>/api/v1/livechat/sms-incoming/twilio`
+![Twilio WhatsApp sandbox setting](<../../../.gitbook/assets/Twilio WhatsApp sandbox setting.png>)
 
-## Step 4
-
-On the Twilio console, “Programmable SMS Dashboard” -> “Whatsapp” -> “Senders” -> Select the Whatsapp number. This will open the “Configuration” screen, where the webhook configuration must be done in order to connect Twilio to Rocket.Chat Livechat
+* Fill in the **When a message comes in** field with your Rocket.Chat server details in this format `https://<SERVER_URL>/api/v1/livechat/sms-incoming/twilio`
+* On the Twilio console, “Programmable SMS Dashboard” -> “Whatsapp” -> “Senders” -> Select the Whatsapp number. This will open the “Configuration” screen, where the webhook configuration must be done in order to connect Twilio to Rocket.Chat Livechat
 
 ![](<../../../.gitbook/assets/image (191).png>)
 
 The webhook must be configured following the steps mentioned at [https://rocket.chat/docs/developer-guides/rest-api/livechat/sms-incoming/#payload](https://rocket.chat/docs/developer-guides/rest-api/livechat/sms-incoming/#payload). Important: the webhook POST URL should be set only on “WHEN A MESSAGE COMES IN” field\\
 
-***
-
-## Step 5
-
-On the Twilio console, go to “Programmable SMS Dashboard” and copy the “ACCOUNT SID” and “AUTH TOKEN”
+* On the Twilio console, go to “Programmable SMS Dashboard” and copy the “ACCOUNT SID” and “AUTH TOKEN”
 
 ![](<../../../.gitbook/assets/image (192).png>)
 
-## Step 6
-
-Go to Rocket.Chat Server -> Administration -> Settings-> SMS -> Set to “Enabled” and select “Twilio” as service\\
+* Go to Rocket.Chat Server -> Administration -> Settings-> SMS -> Set to “Enabled” and select “Twilio” as service\\
 
 ![](<../../../.gitbook/assets/image (201).png>)
 
-## Step 7
+* Go to Rocket.Chat Server -> Administration -> Settings -> SMS -> Section “Twilio” and add the “Account SID” and Auth Token you had copied on Step 5. After that, the Livechat+Whatsapp integration will be working properly in both directions.\
+  \\
 
-Go to Rocket.Chat Server -> Administration -> Settings -> SMS -> Section “Twilio” and add the “Account SID” and Auth Token you had copied on Step 5. After that, the Livechat+Whatsapp integration will be working properly in both directions.\
-\\
-
-***
-
-## Step 8 (For SaaS customers only)
+#### For SaSS customers only
 
 For Cloud customers, the file-sharing (images, audio, videos, etc) between LiveChat and Whatsapp might not work properly.
 
