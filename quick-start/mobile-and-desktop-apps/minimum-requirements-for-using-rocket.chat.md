@@ -8,7 +8,7 @@ If you’re curious about the technical requirements needed to run Rocket.Chat, 
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **macOS**            | **OS X 10.11 or above**                                                                                                                                           |
 | **Windows**          | **Windows 8 or above**                                                                                                                                            |
-| **Linux**            | <p><strong>Fedora 28 or above</strong></p><p><strong>Ubuntu LTS releases 16.04 or above</strong></p><p><strong>Red Hat Enterprise Linux 7.0 or above</strong></p> |
+| **Linux**            | <p><strong>Fedora 28 or above</strong></p><p><strong>Ubuntu LTS releases 18.04 or above</strong></p><p><strong>Red Hat Enterprise Linux 7.0 or above</strong></p> |
 
 ## **Mobile Applications**
 

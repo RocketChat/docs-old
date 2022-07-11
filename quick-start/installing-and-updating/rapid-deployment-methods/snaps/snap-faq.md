@@ -20,7 +20,7 @@ Make sure you restart the `rocketchat-service` service afterwards for the change
 
 For enabling TLS/SSL, check out our guide for enabling caddy [here](auto-ssl-with-snaps.md).
 
-### Ubuntu 16.04 LTS gives message "snap not found", what's wrong?
+### Ubuntu 18.04 LTS gives message "snap not found", what's wrong?
 
 Make sure you're using x64 or amd64 (or armhf) images, especially on VPS or VMs. x86 (32-bit) is not supported.
 
