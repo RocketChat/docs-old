@@ -1,6 +1,6 @@
-# Auto SSL with Snaps
+# Auto TLS with Snaps
 
-We now include the option to enable Caddy in your snap. Caddy makes use of [Let's Encrypt](https://letsencrypt.org) to automatically provide you SSL protection for your communications.
+We now include the option to enable Caddy in your snap. Caddy makes use of [Let's Encrypt](https://letsencrypt.org) to automatically provide you TLS protection for your communications.
 
 Starting from release 0.73 you can easily configure everything related to Caddy using snap hooks to ensure your DNS configuration is set up correctly before starting Caddy and Let's Encrypt support.
 
@@ -27,7 +27,7 @@ sudo snap restart rocketchat-server
 For older snaps
 {% endhint %}
 
-If you want to enable SSL and Let's Encrypt certificates you should:
+If you want to enable TLS and Let's Encrypt certificates you should:
 
 1. Input a URL starting with HTTPS
 2. Own the domain name you would like to use
@@ -49,7 +49,7 @@ sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
 sudo systemctl restart snap.rocketchat-server.rocketchat-caddy.service
 ```
 
-In case you don't want to configure SSL for your site, or want to remove SSL configuration:
+In case you don't want to configure TLS for your site, or want to remove TLS configuration:
 
 ```bash
 sudo snap set rocketchat-server https=disable
@@ -107,20 +107,18 @@ Then, edit the Caddyfile found at `/var/snap/rocketchat-server/current/Caddyfile
 
 Replace `_caddy-url_` and `_port_` with your site information. For instance, let's say I have example-domain.com pointing at my server.
 
-First, be sure that your DNS has finished resolving **before** attempting to enable SSL. If your DNS is not working yet, you could be instantly [throttled by Let's Encrypt](https://caddyserver.com/docs/automatic-https#testing) for _up to a week_. To test your DNS you can use http:
+First, be sure that your DNS has finished resolving **before** attempting to enable TLS. If your DNS is not working yet, you could be instantly [throttled by Let's Encrypt](https://caddyserver.com/docs/automatic-https#testing) for _up to a week_. To test your DNS you can use http:
 
 ```bash
 http://example-domain.com
-proxy / localhost:3000 {
-  websocket
-  transparent
-}
+
+reverse_proxy localhost:3000
 ```
 
 and restart Caddy:
 
 ```bash
-sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
+sudo systemctl reload snap.rocketchat-server.rocketchat-caddy
 ```
 
 You can check that the Caddy service started correctly by running:
@@ -133,18 +131,16 @@ Once that is tested and resolved, to get secured communications, you can remove 
 
 ```bash
 example-domain.com
-proxy / localhost:3000 {
-  websocket
-  transparent
-}
+
+reverse_proxy localhost:3000
 ```
 
-**Please note: using an IP address will not work for automatically enabling SSL. You must use a valid hostname (**[**here's why**](https://caddyserver.com/docs/automatic-https)**).**
+**Please note: using an IP address will not work for automatically enabling TLS with a publicly-trusted certificate. You must use a valid hostname for a trusted certificate (**[**here's why**](https://caddyserver.com/docs/automatic-https)**).** If you use an IP address, Caddy will still serve your site over TLS, but using a self-signed certificate.
 
 Now you can restart the Caddy service by running:
 
 ```bash
-sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
+sudo systemctl reload snap.rocketchat-server.rocketchat-caddy
 ```
 
 You can check that the Caddy service started correctly by running:
@@ -157,96 +153,63 @@ If everything went well, the site will be accessible at `https://example-domain.
 
 ## Testing with an Untrusted Self-Signed Certificate
 
-Simply add the `tls self_signed` directive to your Caddyfile like so:
+Simply add the `tls internal` directive to your Caddyfile like so:
 
 ```bash
 https://example-domain.com
-tls self_signed
-proxy / localhost:3000 {
-  websocket
-  transparent
-}
+
+reverse_proxy localhost:3000
+tls internal
 ```
 
-Remember to restart the Caddy service:
+Remember to reload the Caddy service:
 
 ```bash
-sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
+sudo systemctl reload snap.rocketchat-server.rocketchat-caddy
 ```
 
-This will enable SSL with an untrusted, self-signed certificate for testing purposes.
+This will enable TLS with an untrusted, self-signed certificate for testing purposes.
 
 For details on the Caddy TLS directive, visit [https://caddyserver.com/docs/tls](https://caddyserver.com/docs/caddyfile/directives/tls)
 
-## Redirecting HTTP to HTTPS
+## Disabling TLS or Listening on Custom Ports
 
-Redirecting is handled automatically by caddy by omitting the http / https in front.
+This configuration will listen **without TLS** on the default port 80:
 
 ```bash
-example-domain.com {
-  proxy / localhost:3000 {
-    websocket
-    transparent
-  }
-}
+http://example-domain.com
+
+reverse_proxy localhost:3000
 ```
 
-Remember to restart the Caddy service:
+This configuration will listen **without TLS** on port 8080:
 
 ```bash
-sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
+http://example-domain.com:8080
+
+reverse_proxy localhost:3000
 ```
 
-## Disabling SSL or Listening on Custom Ports
-
-This configuration will listen **without SSL** on the default port 80:
+This configuration will listen **with TLS** on port 8080:
 
 ```bash
-http://example-domain.com {
-  proxy / localhost:3000 {
-    websocket
-    transparent
-  }
-}
+example-domain.com:8080
+
+reverse_proxy localhost:3000
 ```
 
-This configuration will listen **without SSL** on port 8080:
+Note that you can use an IP address and Caddy will serve it with TLS using a self-signed certificate:
 
 ```bash
-http://example-domain.com:8080 {
-  proxy / localhost:3000 {
-    websocket
-    transparent
-  }
-}
+192.168.1.1:8080
+
+reverse_proxy localhost:3000
 ```
 
-This configuration will listen **with SSL** on port 8080:
+Remember to reload the Caddy service:
 
 ```bash
-https://example-domain.com:8080 {
-  proxy / localhost:3000 {
-    websocket
-    transparent
-  }
-}
-```
-
-Note that, without SSL, you can use an IP address:
-
-```bash
-http://192.168.1.1:8080 {
-  proxy / localhost:3000 {
-    websocket
-    transparent
-  }
-}
-```
-
-Remember to restart the Caddy service:
-
-```bash
-sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
+sudo systemctl reload snap.rocketchat-server.rocketchat-caddy
 ```
 
 ## Opening ports when running Rocket.Chat Server from behind router
