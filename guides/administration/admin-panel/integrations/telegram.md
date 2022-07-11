@@ -1,14 +1,20 @@
 # Simple Telegram Bot
 
-_Follow these instructions to get a simple Telegram Bot setup_
+A simple relay communication between Rocket.Chat and Telegram is possible by configuring a basic bot. The guide below shows a community example of how this can be achieved with webhooks.
+
+This will give you the possibility of relaying messages between Telegram and Rocket.Chat in a specified room of your choice.
+
+{% hint style="success" %}
+Rocket.Chat [Enterprise users](../settings/enterprise.md) have the [Telegram App](../../../app-guides/omnichannel-apps/telegram-app/) packaged with a lot more functionalities and other [Omnichannel](../../../omnichannel/) features to use.
+{% endhint %}
+
+## Getting Started
 
 {% hint style="info" %}
 Make sure Your Rocket.Chat workspace URL is publicly available.
 {% endhint %}
 
-## Getting Started
-
-1. Open [telegram](https://web.telegram.org/) chat in your browser or mobile phone
+1. Log in to your [telegram](https://web.telegram.org/) account on your mobile or using a browser
 2. Add and open a conversation with the user `BotFather`
 3. Click **start**
 4. Send `/newbot` to start creating a new bot
@@ -19,10 +25,10 @@ Make sure Your Rocket.Chat workspace URL is publicly available.
 ## Getting the Token
 
 1. Note the token provided for your bot
-2. Go to the **Administration** > **Integrations** Page
+2. Go to the **Administration** > **Integrations** page in Rocket.Chat
 3. Create a new Incoming Webhook following these instructions
    * Set the webhook integration name, the room to post to and which user to use
-   * Enable script and past the following code
+   * Enable script and paste the following code and paste the following code in that field
 
 ### Incoming Webhook for Rocket.Chat
 
@@ -123,28 +129,36 @@ https://api.telegram.org/bot<myauthorization-token>/setwebhook?url=<Incoming_Web
 https://api.telegram.org/bot<myauthorization-token>/sendMessage?chat_id=<chat-id>
 ```
 
-* `chat-id` should be your Telegram group id, You can get it by adding the `@RawDataBot`  or [`@getidsbot`](https://t.me/getidsbot) to your group
+* `chat-id` should be your Telegram group id, You can get it by adding the `@RawDataBot`  or [`@getidsbot`](https://t.me/getidsbot) to your group. You should get a response like the below on joining
 
 ```javascript
-Message
- ├ message_id: 338
- ├ from
- ┊  ├ id: *****
- ┊  ├ is_bot: false
- ┊  ├ first_name: 사이드
- ┊  ├ username: ******
- ┊  └ language_code: en
- ├ chat
- ┊  ├ id: -1001118554477    // This is Your Group id
- ┊  ├ title: Test Group
- ┊  └ type: supergroup
- ├ date: 1544948900
- └ text: A
+GetIDsBot - Get Meta information in Telegram
+
+Available commands:
+» /admins to get a list of all current admins.
+» /json in reply to a message to get it's bot api json variant.
+» /user in reply to a message for info about that user.
+
+This chat
+ ├ id: -576033868
+ ├ title: RC-Tel-Group
+ ├ type: group
+ └ all_members_are_administrators: true
+
+Its admins:
+⭐️ R
+
+ℹ️ Commands are rate limited in group chats. I do not talk unless asked to do so.
 ```
 
-* Paste the Outgoing Webhook below.
-* Enable listening at the Bot with /privacy and to disable ([example](http://i.imgur.com/xSjdAAy.jpg?1))
-* Add Bot to telegram group and utilize nice cross platform communication.
+* Change the bot group privacy settings so it can listen to all messages by:&#x20;
+  * Sending the message `/setprivacy` to botFather
+  * Choosing the bot you want to edit
+  * Setting the status to `Disable`
+
+![Change telegram bot group privacy settings](<../../../../.gitbook/assets/Change telegram bot group privacy settings.png>)
+
+* Enable Script and paste the following code
 
 ```javascript
 class Script {
@@ -162,8 +176,6 @@ class Script {
 }
 ```
 
-## Conclusion
-
-Enjoy! Please note, this was a community submission and is very simple. If you feel there are improvements that can be made, please feel free to submit improvements via pull requests!! :heart:
+* Add your bot to the telegram group and enjoy cross-platform communication between Rocket.Chat and Telegram.
 
 ![final product](http://i.imgur.com/LqpqUC8.jpg?1)
