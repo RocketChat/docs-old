@@ -16,7 +16,7 @@ We'll be working with Nginx in our examples, but it should be possible with othe
 
 ## Run multiple instances of Rocket.Chat
 
-We'll assume that you've configured Rocket.Chat to run as a systemd service. Since we want to run multiple instances simultaneously, we need to run at least two services. The only difference is the service name and port. If you don't have a service yet, the easiest way to do this for Rocket.Chat is to create a file in /usr/lib/systemd/system/ and call it rocketchat.service
+We'll assume that you've configured Rocket.Chat to run as a systemd service. Since we want to run multiple instances simultaneously, we need to run at least two services. The only difference is the service name and port. If you don't have a service yet, the easiest way to do this for Rocket.Chat is to create a file in `/usr/lib/systemd/system/` and call it `rocketchat.service`
 
 ```
 [Unit]
@@ -67,7 +67,7 @@ WorkingDirectory=/path.to.rocketchat/rocket.chat
 ExecStart=/usr/local/bin/node /path.to.rocketchat/rocket.chat/bundle/main.js
 
 [Install]
-    WantedBy=rocketchat.service
+    WantedBy=multi-user.target
 ```
 
 Start the other Rocket.Chat Services with
@@ -76,9 +76,7 @@ Start the other Rocket.Chat Services with
 
 If you want to run rocketchat at boot just enable the services with
 
-`systemctl enable rocketchat`
-
-The other Services will be enable since they are "WantedBy"=RocketChat.service
+`systemctl enable rocketchat` or `systemctl enable rocketchat@3001`
 
 ### Ensure nodes can communicate
 
