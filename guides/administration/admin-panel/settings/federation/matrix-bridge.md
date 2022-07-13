@@ -4,7 +4,7 @@ description: Rocket.Chat and the Matrix Protocol
 
 # Matrix Bridge
 
-Rocket.Chat has federation support via the [Matrix](https://matrix.org/) protocol. You can now easily connect with external parties, whether they are using Rocket.Chat or any other Matrix-compatible platform.
+Rocket.Chat now has federation support via the [Matrix](https://matrix.org/) protocol. You can now easily connect with external parties, whether they are using Rocket.Chat or any other Matrix compatible platform.
 
 ### **Key Features**
 
@@ -15,7 +15,7 @@ Rocket.Chat has federation support via the [Matrix](https://matrix.org/) protoco
 
 {% hint style="info" %}
 * Matrix support in Rocket.Chat is currently considered alpha. Expect bugs.
-* You need to set up a Matrix homeserver and a dendrite server
+* Users need to set up a Matrix homeserver and a dendrite server
 * All interactions are performed through slash commands
   * Create a `/federation dm <username>` slash command
   * Remove the `/bridge invite` slash command
@@ -25,6 +25,7 @@ Rocket.Chat has federation support via the [Matrix](https://matrix.org/) protoco
 
 * To allow Rocket.Chat acts as a Matrix Application Service (Bridge) to Communicate to an appropriate Matrix homeserver (Dendrite, Synapse, etc.)
 * To enable the standards-based interoperable federation
+* To build an open-decentralized network, far stronger than any closed communication platform.
 
 ## Set up Rocket.Chat with a Matrix homeserver (Dendrite and Synapse) <a href="#how-to-setup-rocketchat-with-a-matrix-homeserver" id="how-to-setup-rocketchat-with-a-matrix-homeserver"></a>
 
@@ -79,32 +80,9 @@ You need to have the `Homeserver Token` and the `AppService Token` keys ready.
 **Registering as an AppService with Matrix homeserver**&#x20;
 
 * Edit your `dendrite.yaml` file adding the configuration file (rocketchat\_registration.yaml) as per the editing\_dendrite\_yaml image.
-* **Dendrite homeserver configuration file**
+* Below is a sample homeserver configuration file.
 
 ![Registering as an AppService](../../../../../.gitbook/assets/editing\_dendrite\_yaml.png)
-
-* **Synapse homeserver configuration file**
-
-```json
-version: "3"
-services:
-  synapse-admin:
-    container_name: synapse-admin
-    hostname: synapse-admin
-    image: awesometechnologies/synapse-admin:latest
-
-    # to use the docker-compose as standalone without a local repo clone,
-    # replace the context definition with this:
-    # context: https://github.com/Awesome-Technologies/synapse-admin.git
-
-    # if you're building on an architecture other than amd64, make sure
-    # to define a maximum ram for node. otherwise the build will fail.
-    # args:
-    #   - NODE_OPTIONS="--max_old_space_size=1024"
-    ports:
-      - "8080:80"
-    restart: unless-stopped
-```
 
 * Edit your `config/rocketchat-registration.yaml replacing hs_token` value with the Homeserver Token and`as_token` value with the AppService Token you got from Rocket.Chat.
 
@@ -130,6 +108,8 @@ You can invite users from other servers through the slash command.&#x20;
 {% hint style="info" %}
 If you invite another Rocket.Chat server, it currently will auto-accept.
 {% endhint %}
+
+![Invite a user](../../../../../.gitbook/assets/Inviting\_users.png)
 
 The structure for the slash command is described below:
 

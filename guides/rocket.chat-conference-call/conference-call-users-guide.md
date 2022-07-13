@@ -1,6 +1,6 @@
 # Conference Call User's Guide
 
-If you are using the conference call feature for the first time on Rocket.Chat, please contact your administrator or follow the admin guide linked below to configure conference calling on your Rocket.Chat instance.
+If you are using the conference call feature for the first time on Rocket.Chat, contact your administrator or follow the admin guide linked below to configure conference calling on your Rocket.Chat instance.
 
 {% content-ref url="conference-call-admin-guide/" %}
 [conference-call-admin-guide](conference-call-admin-guide/)
@@ -43,7 +43,7 @@ In the next step, you are given the option to start the conference call with the
 
 ### Joining a conference call
 
-Ongoing calls are shown as **Join** button in the room and the room members who have joined. Please click **Join** button to join a conference call.
+Ongoing calls are shown as **Join** button in the room and the room members who have joined. Click **Join** button to join a conference call.
 
 ### Video conference logs
 

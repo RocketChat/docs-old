@@ -2,11 +2,7 @@
 
 [Pexip](https://www.pexip.com/) is a purpose-built video communication platform that empowers large organizations to transform their operations with video. Pexip’s unique technology provides customized solutions for innovative and fully bespoke applications of video, data privacy, and business continuity for secure spaces and frictionless collaboration for connected spaces.
 
-The integration between Rocket.Chat and Pexip as video conferencing communication platform enables secure and compliant communication that is ideal for organizations operating within strict regulatory requirements relating to internal and external communications such as government, financial services, healthcare, and others.
-
-{% hint style="info" %}
-**A Pexip server is required for this integration.**
-{% endhint %}
+The integration between Rocket.Chat and Pexip as video conferencing communication platform enables secure and compliant government-to-citizen communication as well as internal and cross-agencies collaboration, making it ideal for government organizations looking for an on-premise collaboration solution.&#x20;
 
 To start using Pexip video conferencing app on your Rocket.Chat Instance:
 
@@ -14,7 +10,7 @@ To start using Pexip video conferencing app on your Rocket.Chat Instance:
 
 To Download the Pexip app:
 
-1. Navigate to **Avatar Menu > Administration > Apps > Marketplace** tab.
+1. Please go to **Avatar Menu > Administration > Apps > Marketplace** tab.
 2. Search **Pexip** app
 3. Hit **Install**
 
@@ -25,7 +21,7 @@ To Download the Pexip app:
 To set up the Pexip app on your Rocket.Chat instance:
 
 1. Enable the Pexip app on your Rocket.Chat instance
-2. [Configure the Pexip server ](https://docs.pexip.com/admin/integrate\_policy.htm)to connect to Rocket.Chat
+2. Please [configure the Pexip server ](https://docs.pexip.com/admin/integrate\_policy.htm)to connect to Rocket.Chat
 3. You need to enter the below-shown part of the URL from the **App Details** page on Rocket.Chat as  **Policy server URL** on the Pexip side
 
 ![Pexip app details](../../../.gitbook/assets/PexipAppDetails.png)
@@ -47,7 +43,7 @@ as shown below:
 
 ![ Conference call admin settings](../../../.gitbook/assets/VideoConferenceAdminSettingsForPexip.png)
 
-Select the options that meet your needs and hit **Save changes** in the top right corner. Pexip app is successfully configured on your server. Follow the conference call user's guide to start using it.
+Select the options that meet your needs and hit **Save changes** in the top right corner. Pexip app is successfully configured on your server. Please follow the conference call user's guide to start using it.
 
 {% content-ref url="../conference-call-users-guide.md" %}
 [conference-call-users-guide.md](../conference-call-users-guide.md)
