@@ -2,10 +2,10 @@
 
 Rocket.Chat features include using emails, notifications, email verification, mailer, and much more.
 
-Before using those features, you must connect a SMTP server to Rocket.Chat. To do that, you must have access to a SMTP server and valid SMTP login credentials.
+Before using those features, you must connect an SMTP server to Rocket.Chat. To do that, you must have access to an SMTP server and valid SMTP login credentials.
 
 {% hint style="info" %}
-**This configuration is only possible for Self-managed servers and/or is pre-configured for Cloud workspaces.**
+This configuration is only done manually for Self-managed workspaces. It is pre-configured for cloud workspaces.
 {% endhint %}
 
 ## Set up your Credentials
@@ -19,7 +19,7 @@ Before using those features, you must connect a SMTP server to Rocket.Chat. To d
 * Your credentials:
   * **Username** that you are using to log in to your email account.&#x20;
   * **Password** that you are using to log in to your email account.&#x20;
-  * **Email** address that you are using to log in to your email account.
+  * **From Email** address that you are using to log in to your email account.
 * Send a test mail to my user - Use this option to send a test mail.
 * Once completed, click **Save changes**.
 
