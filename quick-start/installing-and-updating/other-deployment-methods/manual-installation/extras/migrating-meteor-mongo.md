@@ -1,8 +1,12 @@
 # Migrating database from Meteor built in MongoDB
 
-This guide will help you migrate from the mongo server built into meteor to an external mongo server
+This guide will help you migrate from the built-in Meteor mongo server to an external mongo server.
 
-We advise against running Rocket.Chat in production from source using the meteor command. Instead we recommend using a separate mongo database and using a compiled meteor bundle. Either our official release or your own.
+{% hint style="info" %}
+We do not advise running Rocket.Chat in production from source using the meteor command. Instead we recommend using a separate mongo database and using a compiled meteor bundle. Either our official release or your own.
+
+See our [recommended deployment methods](../../../rapid-deployment-methods/).
+{% endhint %}
 
 Before starting make sure meteor is running.
 
