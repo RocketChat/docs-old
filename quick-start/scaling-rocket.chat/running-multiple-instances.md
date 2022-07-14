@@ -223,6 +223,3 @@ This is important for a couple of reasons:&#x20;
 1. Database reliability. You will want to make sure that your data is replicated, and you have another node if something happens to your primary.
 2. Rocket.Chat does what's called oplog tailing. The oplog is turned on when you set up a replicaset. Mongo makes use of this to publish events so the other nodes in the replicaset can make sure its data is up to date. Rocket.Chat makes use of this to watch for database events. If someone sends a message on Instance 1 and you are connected to Instance 2. Instance 2 watches for message insert events and then is able to show you a new message has arrived.
 
-### Database engine
-
-Another thing to keep in mind is the storage engine you are using. By default mongo uses Wiredtiger. Wiredtiger under some loads can be very CPU and Memory intensive. Under small single instance setups, we don't typically see issues. But when you run multiple instances of Rocket.Chat we recommend switching the mongo storage engine to [mmapv1](https://www.mongodb.com/docs/v4.0/core/mmapv1/).
