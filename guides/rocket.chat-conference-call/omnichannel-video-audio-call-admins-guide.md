@@ -13,7 +13,7 @@ To configure Video/Audio Calls on your Rocket.Chat workspace using Jitsi:
 1. Log in as an Admin
 2. To access this menu, navigate to **Avatar Menu > Administration > Settings > Video Conference**
 3. **Enable** Jitsi by going to&#x20;
-4. Make Jitsi, your Omnichannel call provider by navigate to **Administration > Settings > Omnichannel > Video and Audio Call > Call Provider**&#x20;
+4. Make Jitsi, your Omnichannel call provider by navigating to **Administration > Settings > Omnichannel > Video and Audio Call > Call Provider**&#x20;
 5. Select **Jitsi**
 
 ## WebRTC
