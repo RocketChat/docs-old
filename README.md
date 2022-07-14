@@ -100,6 +100,6 @@ This user guide incorporates a description of the features and capabilities, mod
 [how-can-i-help](contributors/how-can-i-help/)
 {% endcontent-ref %}
 
-{% content-ref url="contributors/google-summer-of-code/google-summer-of-code-2021.md" %}
-[google-summer-of-code-2021.md](contributors/google-summer-of-code/google-summer-of-code-2021.md)
+{% content-ref url="contributors/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2021.md" %}
+[google-summer-of-code-2021.md](contributors/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2021.md)
 {% endcontent-ref %}

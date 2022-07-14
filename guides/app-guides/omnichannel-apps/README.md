@@ -13,8 +13,8 @@ Omnichannel apps give consumers a choice to engage with you on their favorite ch
 **You must have the** [**omnichannel feature**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#enable-omnichannel) **enabled as well as have** [**agents**](https://docs.rocket.chat/guides/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/guides/omnichannel/managers) **assigned in order to receive and send omnichannel messages.**
 {% endhint %}
 
-{% content-ref url="whatsapp-integration-twilio.md" %}
-[whatsapp-integration-twilio.md](whatsapp-integration-twilio.md)
+{% content-ref url="sms.md" %}
+[sms.md](sms.md)
 {% endcontent-ref %}
 
 {% content-ref url="email-inboxes/" %}
