@@ -2,9 +2,9 @@
 
 ## **Slow connections. iOS connection error**
 
-95% or more of these are due to improperly configure reverse proxies where the WebSocket is not working properly. If a WebSocket cannot be correctly established, the client will try and fall-back to an XHR connection. It is extremely slow and flaky. The iOS app will not connect at all without a WebSocket.
+95% or more of these are due to improperly configured reverse proxies where the WebSocket is not working properly. If a WebSocket cannot be correctly established, the client will try and fall back to an XHR connection. It is extremely slow and flaky. The iOS app will not connect at all without a WebSocket.
 
-Please use Chrome/ium and dev tools to check for the presence of a WebSocket.
+Please use Chrome and dev tools to check for the presence of a WebSocket.
 
 ## **WebSockets**
 
@@ -32,8 +32,6 @@ Response headers
  Upgrade: websocket
 ```
 
-****
-
 ## **Upgrading Rocket.Chat**
 
 For upgrading first, you have Rocket.Chat itself, and then the Mongo database.
@@ -50,7 +48,6 @@ Upgrading Mongo
 * Then there are more leaps as you proceed trough 3.x and then again to 4.x
 * As of writing 3.4 is going EoL so you need to be on 3.6
 * For now I would get to 3.6 and then start preparing for 4.x
-* To convert from mmapv1 -> wiredtiger you will need to backup, convert, restore
 
 Upgrading Rocket
 
