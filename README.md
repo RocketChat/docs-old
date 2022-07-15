@@ -1,10 +1,8 @@
 # Rocket.Chat Documentation
 
-[Rocket.Chat](https://rocket.chat) is an open-source fully customizable communications platform developed in JavaScript for organizations with high standards of data protection.
+[Rocket.Chat](https://rocket.chat) is a customizable open source communications platform for organizations with high standards of data protection. It enables real-time conversations between colleagues, with other companies, or with your customers, across devices on the web, desktop, or mobile.
 
-We are a MERN-based application enabling real-time conversations between colleagues, with other companies, or with your customers, regardless of how they connect with you. The result is an increase in productivity and customer satisfaction rates.
-
-[Rocket.Chat](https://rocket.chat) integrates with multiple conversation channels like website live-chat, email, Facebook page, Twitter, WhatsApp, Instagram, etc. It shows discussion from various channels, thereby constructing a single view of the customer and helps in diminishing the time needed to switch between the tools. Mobile app for Rocket.Chat (available for Android and iOS) enables you to browse conversations, reply to messages and collaborate with the team. Using our self-managed offerings you can deploy Rocket.Chat on your own server, or you can use SaaS Rocket.Chat. We offer support for both community as well as commercial plans.
+[Rocket.Chat](https://rocket.chat) integrates with multiple conversation channels like website live-chat, email, Facebook page, Twitter, WhatsApp, Instagram, etc. It shows discussion from various channels, thereby constructing a single view of the customer and helps in diminishing the time needed to switch between the tools. Mobile app for Rocket.Chat (available for Android and iOS) enables you to browse conversations, reply to messages and collaborate with the team. Using our self-managed offerings you can deploy Rocket.Chat on your own server, or you can use SaaS Rocket.Chat. We offer support and professional services for our enterprise plan.&#x20;
 
 This user guide incorporates a description of the features and capabilities, modes of operation, and step-by-step procedures for the Rocket.Chat platform access and use.
 
@@ -46,20 +44,20 @@ This user guide incorporates a description of the features and capabilities, mod
 
 ## Features
 
+{% content-ref url="guides/rocket.chat-call-center/" %}
+[rocket.chat-call-center](guides/rocket.chat-call-center/)
+{% endcontent-ref %}
+
+{% content-ref url="guides/rocket.chat-conference-call/" %}
+[rocket.chat-conference-call](guides/rocket.chat-conference-call/)
+{% endcontent-ref %}
+
 {% content-ref url="guides/administration/admin-panel/settings/analytics.md" %}
 [analytics.md](guides/administration/admin-panel/settings/analytics.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/omnichannel/canned-responses/canned-responses-rocket.chat-admins-guides.md" %}
-[canned-responses-rocket.chat-admins-guides.md](guides/omnichannel/canned-responses/canned-responses-rocket.chat-admins-guides.md)
-{% endcontent-ref %}
-
 {% content-ref url="guides/mobile-guides/push-notifications/" %}
 [push-notifications](guides/mobile-guides/push-notifications/)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="guides/message-auditing/" %}
