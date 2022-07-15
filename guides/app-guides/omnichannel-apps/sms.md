@@ -5,7 +5,7 @@ External users can communicate with Rocket.Chat through SMS.
 This integration extends [Rocket.Chat's Omnichannel](../../omnichannel/) capabilities.
 
 {% hint style="info" %}
-* The [Rocket.Chat SMS Settings](../../administration/admin-panel/settings/sms.md) offers the ability to configure SMS integration with several providers, but for this guide, we will be demonstrating with [Twilio ](https://www.twilio.com/)using [Twilio Programmable Messaging API](https://www.twilio.com/messaging).
+* The [Rocket.Chat SMS Settings](../../administration/admin-panel/settings/sms.md) offers the ability to configure SMS integration with several providers, but we are demonstrating with [Twilio ](https://www.twilio.com/)using [Twilio Programmable Messaging API](https://www.twilio.com/messaging).
 * You are required to have your workspace available on a public URL.
 {% endhint %}
 
@@ -17,7 +17,7 @@ This integration extends [Rocket.Chat's Omnichannel](../../omnichannel/) capabil
 To be able to relay SMS, you need to get a Twilio number and create a messaging service.
 {% endhint %}
 
-* From your Twilio console, navigate to **Messaging** > **Try it out** > **Get Set Up,** click **Start setup** and follow the process to configure a Twilio messaging service
+* From your Twilio console, navigate to **Messaging** > **Try it out** > **Get Set Up,** click **Start setup**, and follow the process to configure a Twilio messaging service
 
 ![Twilio Programming Message Setup](<../../../.gitbook/assets/Twilio Programming Message Setup.png>)
 
