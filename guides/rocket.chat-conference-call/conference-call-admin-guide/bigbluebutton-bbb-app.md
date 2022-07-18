@@ -1,6 +1,8 @@
 # BigBlueButton (BBB) app
 
-BigBlueButton is virtual classroom software that has been designed around the real-world needs of teachers, students, and schools.
+BigBlueButton is an open-source web collaboration software utilized by education organizations for e-learning and training. The software offers numerous options for customization and integration as per requirements of the users.
+
+BigBlueButton enables users to conduct web-conferencing and share documents, audio, and video files for online learning. The software’s “whiteboard” feature allows presenters to mark valuable topics in the presentation. In addition, its “polling” feature engages learners and helps the presenter to receive feedback. BigBlueButton’s “desktop sharing” feature extends beyond slides and allows moderators to share their screens with the audience enabling a better understanding of topics.
 
 {% hint style="info" %}
 **A BigBlueButton server is required for this integration.**
