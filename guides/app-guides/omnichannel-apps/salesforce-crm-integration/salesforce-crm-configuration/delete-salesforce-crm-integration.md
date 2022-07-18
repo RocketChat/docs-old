@@ -2,7 +2,7 @@
 
 To delete the Dialogflow app from your workspace:
 
-Goto **Adminisitration>Apps>Installed>Dialogflow**
+Goto **Administration>Apps>Installed>Dialogflow**
 
 Hit **Uninstall**
 

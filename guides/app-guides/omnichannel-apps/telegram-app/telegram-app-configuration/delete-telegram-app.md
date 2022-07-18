@@ -2,7 +2,7 @@
 
 To Delete Telegram app from your workspace:
 
-Goto **Adminisitration>Apps>Installed>Telegram**
+Goto **Administration>Apps>Installed>Telegram**
 
 Click **Uninstall**.
 
