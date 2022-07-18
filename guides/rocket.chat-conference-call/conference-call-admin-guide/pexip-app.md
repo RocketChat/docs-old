@@ -2,7 +2,7 @@
 
 [Pexip](https://www.pexip.com/) is a purpose-built video communication platform that empowers large organizations to transform their operations with video. Pexip’s unique technology provides customized solutions for innovative and fully bespoke applications of video, data privacy, and business continuity for secure spaces and frictionless collaboration for connected spaces.
 
-The integration between Rocket.Chat and Pexip as video conferencing communication platform enables secure and compliant communication that is ideal for organizations operating within strict regulatory requirements relating to internal and external communications such as government, financial services, healthcare, and others.
+The integration between Rocket.Chat and Pexip as video conferencing communication platform enable secure and compliant communication that is ideal for organizations operating within strict regulatory requirements relating to internal and external communications such as government, financial services, healthcare, and others.
 
 {% hint style="info" %}
 **A Pexip server is required for this integration.**
@@ -25,12 +25,12 @@ To Download the Pexip app:
 To set up the Pexip app on your Rocket.Chat instance:
 
 1. Enable the Pexip app on your Rocket.Chat instance
-2. [Configure the Pexip server ](https://docs.pexip.com/admin/integrate\_policy.htm)to connect to Rocket.Chat
+2. [Configure the Pexip server ](https://docs.pexip.com/admin/integrate\_policy.htm)with remote policy to do service configuration requests before connecting with Rocket.Chat
 3. You need to enter the below-shown part of the URL from the **App Details** page on Rocket.Chat as  **Policy server URL** on the Pexip side
 
 ![Pexip app details](../../../.gitbook/assets/PexipAppDetails.png)
 
-4\. Enter the URL where Pexip is running in the **Base URL** under **Settings** on Rocket.Chat side.
+4\. Enter the URL of your running Pexip conferencing node in the **Base URL** under **Settings** on Rocket.Chat side.
 
 5\. Hit **Save Changes**
 
