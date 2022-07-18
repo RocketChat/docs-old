@@ -10,7 +10,7 @@ If you want to check how to use it, refer to [agent's guide.](https://docs.rocke
 
 To configure Video/Audio Calls on your Rocket.Chat workspace using Jitsi:
 
-1. Log in as an Admin
+1. Log in as an Admin and follow this guide to [download](https://docs.rocket.chat/guides/rocket.chat-conference-call/conference-call-admin-guide/jitsi-app#1.-download-the-jitsi-app) and [set up Jitsi](https://docs.rocket.chat/guides/rocket.chat-conference-call/conference-call-admin-guide/jitsi-app#2.-set-up-the-jitsi-app).
 2. To access this menu, navigate to **Avatar Menu > Administration > Settings > Video Conference**
 3. **Enable** Jitsi by going to&#x20;
 4. Make Jitsi, your Omnichannel call provider by navigating to **Administration > Settings > Omnichannel > Video and Audio Call > Call Provider**&#x20;
