@@ -1,6 +1,6 @@
 ---
 description: >-
-  Authorise Omni-Gateway to send and receive Twitter messages on behalf your
+  Authorize Omni-Gateway to send and receive Twitter messages on behalf your
   account.
 ---
 

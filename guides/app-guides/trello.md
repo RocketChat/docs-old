@@ -13,21 +13,21 @@ With this app, you will be able to receive notifications about your Trello activ
 {% hint style="warning" %}
 It is required you have the following to successfully setup the Trello app
 
-* A publicly accesible Rocket.Chat server
+* A publicly accessible Rocket.Chat server
 * A Trello account with some boards to be watched.
 {% endhint %}
 
 To install the Trello Rocket.Chat App,
 
 * Go to **Administration > Marketplace**
-* Search for the **Tello** app and click on the item
-* Click **Install** and accept the needed permisions
+* Search for the **Trello** app and click on the item
+* Click **Install** and accept the needed permissions
 
 ![](<../../.gitbook/assets/image (48) (2).png>)
 
 You should see an interface with the app details showing you have installed it.
 
-A direct message is then receieved from the `trello.bot` to assist you with the setup of the app
+A direct message is then received from the `trello.bot` to assist you with the setup of the app
 
 ![](<../../.gitbook/assets/image (109) (2).png>)
 

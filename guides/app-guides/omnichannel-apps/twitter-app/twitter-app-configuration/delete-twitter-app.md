@@ -2,7 +2,7 @@
 
 To delete the Twitter app from your workspace:
 
-Goto **Adminisitration>Apps>Installed>Facebook Messenger**
+Goto **Administration>Apps>Installed>Facebook Messenger**
 
 Hit **Uninstall**
 

@@ -54,7 +54,7 @@ Make sure the action type selected above is _`Webhook`_ and the method is _`HTTP
 
 After getting all the settings on your Twilio Programmable Messaging number ready, it's time to connect it with your Rocket.Chat workspace.
 
-* Open up Rocket.Chat and go to **Administration** > **Setings** > **SMS**
+* Open up Rocket.Chat and go to **Administration** > **Settings** > **SMS**
 * Select Twilio and the **service** type, then move down to the Twilio section and fill in your Twilio credentials. This can be gotten from the [Twilio console](https://console.twilio.com/)
 * With that done, **enable** the service and hit **Save changes**
 

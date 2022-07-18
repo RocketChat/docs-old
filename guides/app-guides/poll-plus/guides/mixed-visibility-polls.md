@@ -2,7 +2,7 @@
 
 In addition to the open and confidential visibilities which affects all Poll options, you can also set the visibility of specific Poll options to be confidential and the remaining to be open.
 
-To enable Mixed Visiblity, set the visibility to **"Mixed Visibility Vote"** within the Poll creation modal.
+To enable Mixed Visibility, set the visibility to **"Mixed Visibility Vote"** within the Poll creation modal.
 
 ![](../../../../.gitbook/assets/poll_mixed_visibility_1.jpg)
 

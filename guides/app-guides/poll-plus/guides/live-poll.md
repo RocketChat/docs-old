@@ -2,7 +2,7 @@
 
 Live Polls are an array of regular polls. A Live Poll is a **multi-question, timed** poll.
 
-Live Polls can be trigerred with the `/poll live <number of polls>` command. Here `<number of polls>` denotes the number of polls you want to be included within the Live Poll.
+Live Polls can be triggered with the `/poll live <number of polls>` command. Here `<number of polls>` denotes the number of polls you want to be included within the Live Poll.
 
 Each poll within a Live Poll has a time limit to vote upon after which the current Poll ends and the next one is posted. Poll creators can also click on the **“Next Poll”** button to trigger a pre-scheduled finish of the current Poll.
 

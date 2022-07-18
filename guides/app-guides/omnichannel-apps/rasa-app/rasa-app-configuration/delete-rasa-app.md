@@ -2,7 +2,7 @@
 
 To delete the Dialogflow app from your workspace:
 
-Goto **Adminisitration>Apps>Installed>Rasa**
+Goto **Administration>Apps>Installed>Rasa**
 
 Hit **Uninstall**
 

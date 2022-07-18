@@ -2,7 +2,7 @@
 
 To delete Whatsapp from your workspace:
 
-Goto **Adminisitration>Apps>Installed>Instagram Direct**
+Goto **Administration>Apps>Installed>Instagram Direct**
 
 Hit **Uninstall**
 
