@@ -10,7 +10,7 @@ To access **Livechat Installation** settings:
 
 Go to **Livechat Installation** in the omnichannel panel settings, as shown below:
 
-![](<../../.gitbook/assets/0 (10).png>)
+![](<../../.gitbook/assets/0 (4).png>)
 
 ## To install the livechat widget:
 
@@ -24,4 +24,4 @@ Go to **Livechat Installation** in the omnichannel panel settings, as shown belo
 
 If you are running the livechat widget from a different domain to your Rocket.Chat server you need to disable the **Restrict access inside any iframe** option under the General settings as shown in the screenshot below.&#x20;
 
-![Administration > General](<../../.gitbook/assets/restrict-access-inside-any-iframe (1).png>)
+![Administration > General](../../.gitbook/assets/restrict-access-inside-any-iframe.png)

@@ -8,7 +8,7 @@ To access this menu, go to **Administration** > **Mailer**.
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (25).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (11) (25).png>)
 
 ![](../../../.gitbook/assets/2021-11-24\_14-19-37.png)
 

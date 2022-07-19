@@ -7,13 +7,13 @@ description: >-
 
 # Tags Manager's Guide
 
-![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (22).jpg>)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (11) (22).jpg>)
 
 To access **Tags** settings:
 
 1. Go to **Tags** in the omnichannel panel settings, as shown below:
 
-![](<../../.gitbook/assets/0 (15).png>)
+![](<../../.gitbook/assets/0 (8).png>)
 
 1. Click the Add button, as shown below:
 
@@ -24,10 +24,10 @@ To access **Tags** settings:
 
 5.Select the department the new Tag belongs to, as shown below:
 
-![](<../../.gitbook/assets/2 (14).png>)
+![](<../../.gitbook/assets/2 (13).png>)
 
 6.Hit **Save**.
 
-![](<../../.gitbook/assets/3 (14).png>)
+![](<../../.gitbook/assets/3 (13).png>)
 
 Now, the Marketing Support department's agents will have the option to set a **Sales Lead** tag to the conversation if they want while closing it.
