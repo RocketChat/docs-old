@@ -10,7 +10,7 @@ To access **Custom Fields** settings:
 
 Go to Omnichannel panel settings, as shown below:
 
-![](<../../.gitbook/assets/0 (8) (5) (5) (5) (5) (5) (4) (4) (1) (1) (1) (1) (11) (19).png>)
+![](<../../.gitbook/assets/0 (8) (5) (5) (5) (5) (5) (4) (4) (1) (1) (1) (1) (12) (19).png>)
 
 Custom Fields menu appears, as shown below:
 
@@ -24,11 +24,11 @@ The registration form has **Name**, **Email**, and **I need Help With…**/Depar
 
 Hit +New.
 
-![](../../.gitbook/assets/2022-01-23\_18-36-40.png)
+![](<../../.gitbook/assets/2022-01-23\_18-36-40 (1).png>)
 
 The **New Custom Field** page appears, as shown below:
 
-![](<../../.gitbook/assets/2022-01-23\_18-47-17 (1).png>)
+![](../../.gitbook/assets/2022-01-23\_18-47-17.png)
 
 * **Field:** Enter the desired **field** that you want to add to your livechat registration form. E.g., **last-name**. It is mandatory.
 * **Label:** Enter its label. E.g., **Last Name**. It is mandatory.
@@ -53,15 +53,15 @@ The rest of the settings (mentioned below) are **Enterprise** only.
 
 It is saved in the list of custom fields, as shown below:
 
-![](<../../.gitbook/assets/2022-01-23\_21-00-43 (1).png>)
+![](../../.gitbook/assets/2022-01-23\_21-00-43.png)
 
 It appears in the livechat widget, as shown below:
 
-![](<../../.gitbook/assets/2022-01-23\_21-10-25 (3).png>)
+![](<../../.gitbook/assets/2022-01-23\_21-10-25 (2).png>)
 
 If the contact sends a message, it gets reflected in the **Contact Information** as well.
 
-![](../../.gitbook/assets/2022-01-23\_21-13-12.png)
+![](<../../.gitbook/assets/2022-01-23\_21-13-12 (1).png>)
 
 ## To delete a custom field:
 

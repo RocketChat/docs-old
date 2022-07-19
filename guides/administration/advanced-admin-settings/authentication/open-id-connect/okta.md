@@ -41,7 +41,7 @@ Set the following:
 
 On your Okta Applications Dashboard, find the button to create a new app. It should open the following pop-up:
 
-![](../../../../../.gitbook/assets/AddApp.png)
+![](../../../../../.gitbook/assets/addapp.png)
 
 Select **OpenID Connect** and select **Create** to open the window to create the new integration.
 

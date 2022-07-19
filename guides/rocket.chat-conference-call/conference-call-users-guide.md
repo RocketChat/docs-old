@@ -21,7 +21,7 @@ Click the **phone** icon to initiate a direct call from within a _Direct Message
 
 In the next step, check the user avatar and user status. Here you are also given the option to start the call with the camera turned off and microphone muted, as shown below:
 
-![Direct call initiation ](../../.gitbook/assets/DirectCallUserIcon\&Status.png)
+![Direct call initiation ](<../../.gitbook/assets/DirectCallUserIcon\&Status (1).png>)
 
 After confirmation, a call pop-up appears in the top right corner and the ringer starts. This enables you to perform other actions while you wait for the receiver to answer. The ringer stays active for 30s, after that **Call again** button appears in the channel.  &#x20;
 
