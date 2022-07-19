@@ -1,6 +1,6 @@
 # NextCloud OAuth Setup
 
-To use Nextcloud OAuth on your server, you need the `URL` of your Nexcloud server, Nextcloud `id` and `secret`
+To use Nextcloud OAuth on your server, you need the `URL` of your Nextcloud server, Nextcloud `id` and `secret`
 
 Follow these steps to set up Nextcloud OAuth on your server.
 

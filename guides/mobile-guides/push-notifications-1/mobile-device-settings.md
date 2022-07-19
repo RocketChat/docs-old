@@ -1,6 +1,6 @@
 # Mobile Device Settings
 
-## Push Notification Setting for Andriod
+## Push Notification Setting for Android
 
 Step 1: Go to Settings -> Apps.
 

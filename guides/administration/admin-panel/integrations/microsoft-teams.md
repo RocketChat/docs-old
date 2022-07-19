@@ -12,7 +12,7 @@ _**Note:** I would advise to create New Team so not all members in your organisa
 1. **Create Incoming Webhook with Default parameters:**
    * Go to **Integrations** --> Create **New integration** --> Select **Incoming WebHook**
    * Assign **Name**
-   * Assign **Post to Channel** (This will be the Channel where you want to recieve msg from Teams)
+   * Assign **Post to Channel** (This will be the Channel where you want to receive msg from Teams)
    * Assign **Post as** (Create Bot user and add bot the above mentioned Channel)
    * Copy and paste below script in **Script** section
 

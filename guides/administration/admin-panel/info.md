@@ -44,7 +44,7 @@ Click on the **Apply Offline License** at the bottom right of the card.
 
 ![](<../../../.gitbook/assets/image (663) (1) (1) (1) (1) (1) (1).png>)
 
-A modal is presented prompting you to paste the licence you got from the[ RocketChat Cloud Console](https://cloud.rocket.chat/home).
+A modal is presented prompting you to paste the license you got from the[ RocketChat Cloud Console](https://cloud.rocket.chat/home).
 
 Paste the license code and hit the **Apply license** button.
 
@@ -58,7 +58,7 @@ Click on the **Change Offline License** at the bottom right of the card.
 
 ![](<../../../.gitbook/assets/image (654) (1) (2).png>)
 
-A modal is presented prompting you to paste the new licence you got from the[ RocketChat Cloud Console](https://cloud.rocket.chat/home).
+A modal is presented prompting you to paste the new license you got from the[ RocketChat Cloud Console](https://cloud.rocket.chat/home).
 
 Clear the old license code and paste the new license code then hit the **Apply license** button.
 

@@ -43,9 +43,9 @@ Leave the rest of the configurations as default. Click the blue button Save Chan
 
 Next, make sure you enable the new Keycloak provider. And click the Refresh OAuth Services button.
 
-If you are in a test environment with no SMTP server set make sure to disable Two-factor Authentication in Administrarion > Settings > General.&#x20;
+If you are in a test environment with no SMTP server set make sure to disable Two-factor Authentication in Administration > Settings > General.&#x20;
 
-If you dont have an SMTP server set make sure to disable Two-Factor Authentication in Administration > Settings > General.
+If you don't have an SMTP server set make sure to disable Two-Factor Authentication in Administration > Settings > General.
 
 Now logout from Rocket.Chat to view the keycloak based login option visible in the login page.
 

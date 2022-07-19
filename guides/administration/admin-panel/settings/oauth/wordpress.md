@@ -5,7 +5,7 @@ The easiest way to configure Rocket.Chat using WordPress as your identity backen
 ## Instructions
 
 * Sign into your Rocket.Chat instance with an administrator account.
-* Procced to the `oAuth` section under `Administration`.
+* Proceed to the `oAuth` section under `Administration`.
 * Click on **Add custom oAuth** to create a new OAuth Application, as depicted below:
 
 ![](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-03.png)
@@ -66,4 +66,3 @@ When looking at the logs, you may want to open an incognito mode browser window 
 Here are some forum threads that provide issues experienced by others:
 
 **The redirect URI provided is missing or does not match** [https://wordpress.org/support/topic/rocketchat-wordpress-the-redirect-uri-provided-is-missing-or-does-not-match/](https://wordpress.org/support/topic/rocketchat-wordpress-the-redirect-uri-provided-is-missing-or-does-not-match/)
-

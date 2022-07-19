@@ -70,6 +70,6 @@ Your integration should now be running.
 
 In the example command above, the event data is fetched from the Google servers every 5 minutes. You can change that behaviour however you like.
 
-One very common usecase is to be notified about all the meetings/events for each day, in the morning. You can acheive this by combining the two flags `-eventin` and `-waitfor`.
+One very common usecase is to be notified about all the meetings/events for each day, in the morning. You can achieve this by combining the two flags `-eventin` and `-waitfor`.
 
 Use `24h` for both of those options. This way the integration program will fetch data every 24 hours, list the events that's going to occur in those 24 hours and send them to your Rocket.Chat server.

@@ -46,7 +46,7 @@ _Caution!_ _Force SSL_ should never be used with reverse proxy. If you have a re
 * **Store Last Message**: Store the last message sent in each room. This will enable the viewing of the last message on the left sidebar (should be on by default)
 * **Robots.txt File Contents**: This sets the content of the Robots.txt file, used to help indexing your server on different search engines and crawlers
 * **Default Referrer Policy**: This controls the 'referrer' header that's sent when requesting embedded media from other servers. For more information, refer to [MDN. ](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy'%3Ethis)Remember, a full page refresh is required for this to take effect
-* **Enable second layer encryption for data transport**: Lets you enable second layer encryencryption.
+* **Enable second layer encryption for data transport**: Lets you enable second layer encryption.
 
 {% hint style="info" %}
 This feature is currently in alpha
