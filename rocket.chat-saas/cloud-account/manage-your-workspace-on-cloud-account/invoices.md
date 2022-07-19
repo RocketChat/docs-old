@@ -26,7 +26,7 @@ To find more billing information, please follow the link to our [pricing](https:
 
 Please note that rocket.chat offers two pricing models. If you are an old customer, you might still be on the old pricing model where you are charged at the end of the month on which your billing period has ended, as shown below:
 
-![](<../../../.gitbook/assets/image (308) (2) (2) (1) (1) (2).png>)
+![](<../../../.gitbook/assets/image (308) (2) (2) (1) (1) (2) (2).png>)
 
 This is the charge for the time you have actually used the workspace.
 

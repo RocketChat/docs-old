@@ -6,7 +6,7 @@ description: >-
 
 # Priorities Manager's Guide
 
-## ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1).jpg>)
+## ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (1).jpg>)
 
 Inquiries associated with priorities will be sorted by the estimated due time which means high-priorities chats will appear in the queue before others with either low priorities or without any priority set.
 
