@@ -51,7 +51,7 @@ When that is all done, follow these procedures to get setup
 
 ![](<../../../../.gitbook/assets/image (638).png>)
 
-* Now along with other existing Nexcloud apps, you should see you now have Rocket.Chat included
+* Now along with other existing Nextcloud apps, you should see you now have Rocket.Chat included
 
 ![](<../../../../.gitbook/assets/image (663).png>)
 
@@ -65,7 +65,7 @@ Using this integration gives you the possibility to:
 
 * Extend and streamline communication with external parties using Rocket.Chat’s federation and bridges into Slack and Microsoft Teams.
 * Easily collaborate on projects and documents using Rocket.Chat’s chat right in Nextcloud.
-* Use a single productivity platform that integrates with other tools, including Nexcloud, and keeps all communications and notifications in one place.
+* Use a single productivity platform that integrates with other tools, including Nextcloud, and keeps all communications and notifications in one place.
 * Leverage more advanced user governance features, access levels, and role-based permissions
 * Easily map even the most complex organizational structure into groups, teams, and discussions.
 * Securely collaborate and communicate with anyone via the world’s leading social media channels such as Whatsapp, Messenger, Twitter, Instagram, Telegram, and others.

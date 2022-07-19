@@ -10,7 +10,7 @@ Okta Identity Cloud Service can be integrated as an Identity Provider for Rocket
 
 On the Rocket.Chat OAuth settings page **add a custom auth**.
 
-Give the custom OAuth a unqiue name. For this example we will use _okta_.
+Give the custom OAuth a unique name. For this example we will use _okta_.
 
 Set the following:
 

@@ -47,7 +47,7 @@ Here is an example of the JSON data sent at the end of a Livechat session:
     },
     "visitor": {
         "_id": "",
-        "name": "viistor name",
+        "name": "visitor name",
         "username": "visitor-username",
         "department": "department",
         "email": "email@address.com",

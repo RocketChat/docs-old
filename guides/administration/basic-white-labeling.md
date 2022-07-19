@@ -224,7 +224,7 @@ The Alert Message Secondary Background variable will change these elements: Back
 
 The Alert Message Warning variable will change these elements: Border and font color in mail messages instructions error
 
-![Invalis email alert](<../../.gitbook/assets/email-error (2) (2) (2) (2) (2) (4) (1) (1) (1) (10).png>)
+![Invalid email alert](<../../.gitbook/assets/email-error (2) (2) (2) (2) (2) (4) (1) (1) (1) (10).png>)
 
 ```
 Border and font color in prune messages warning (room -> more actions -> prune messages)
@@ -236,7 +236,7 @@ Border and font color in prune messages warning (room -> more actions -> prune m
 
 The Alert Message Warning Background variable will change these elements: Background color in mail messages instructions error
 
-![Invalis email alert](<../../.gitbook/assets/email-error (2) (2) (2) (2) (2) (4) (1) (1) (1) (1).png>)
+![Invalid email alert](<../../.gitbook/assets/email-error (2) (2) (2) (2) (2) (4) (1) (1) (1) (1).png>)
 
 ```
 Background color in prune messages warning

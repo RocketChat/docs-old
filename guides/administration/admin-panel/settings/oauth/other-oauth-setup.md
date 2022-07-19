@@ -1,6 +1,6 @@
 # Other OAuth Setup
 
-Rocke.Chat offers other OAuth methods. Below are a few listed
+Rocket.Chat offers other OAuth methods. Below are a few listed
 
 ## LinkedIn OAuth
 
@@ -88,7 +88,7 @@ Visit this [configuration page](https://github.com/boonex/dolphin.pro/wiki/Dolph
 
 ## Okta OAuth
 
-To be able to use Okta OAuth, you need to go to the OAuth section of your Rockrt.Chat settings and create a custom OAuth.
+To be able to use Okta OAuth, you need to go to the OAuth section of your Rocket.Chat settings and create a custom OAuth.
 
 Then head over to your [Okta developers panel](https://developer.okta.com) and create a new Sign in OAuth app for a web application. fill in all the required information and save.
 

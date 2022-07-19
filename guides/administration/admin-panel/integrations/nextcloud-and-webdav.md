@@ -1,6 +1,6 @@
 # Nextcloud and WebDAV integrations
 
-You can integrate Nextcloud with any application that uses the WebDAV protocol. Rocket.Chat offers seamless integration between Nexcloud and the Rocket.Chat server.
+You can integrate Nextcloud with any application that uses the WebDAV protocol. Rocket.Chat offers seamless integration between Nextcloud and the Rocket.Chat server.
 
 With this integration, you can access, browse, navigate your Nextcloud directories and share files from your Nextcloud server all within Rocket.Chat.
 
@@ -16,13 +16,13 @@ You will need a server admin to go into **Administration** -> **Settings** -> **
 
 Once the integration has been enabled by the admin, any user will be able to link their servers to Rocket.Chat.
 
-Adding a new Nexcloud server requires you to have available the;
+Adding a new Nextcloud server requires you to have available the;
 
 * **WebDAV url**: The WebDAV url used for the connection
-* **Username**: Your Nexcloud username
+* **Username**: Your Nextcloud username
 * **Password**: Your Nextcloud password
 
-To get your Nexcloud WebDAV url, **Files** section of your Nextcloud server then **Settings** at the bottom left
+To get your Nextcloud WebDAV url, **Files** section of your Nextcloud server then **Settings** at the bottom left
 
 ![](<../../../../.gitbook/assets/image (670).png>)
 
@@ -38,16 +38,15 @@ You will see a WebDAV field with the url that looks like this `https://EXAMPLE.C
 
 ![](<../../../../.gitbook/assets/image (647) (1) (1).png>)
 
-* Fill in the information on the dailogue that appears including the Nextcloud WebDAV url we copied earlier, Nextcloud username and Nextcloud password then **Add new WebDAV Account**
+* Fill in the information on the dialogue that appears including the Nextcloud WebDAV url we copied earlier, Nextcloud username and Nextcloud password then **Add new WebDAV Account**
 
 ![](<../../../../.gitbook/assets/image (670) (1).png>)
 
 * When that is successful, refresh your server
-* To access Nexcloud file in RocketChat, click on the plus icon :heavy\_plus\_sign: again and this time, you will see the server you just added.&#x20;
+* To access Nextcloud file in RocketChat, click on the plus icon :heavy\_plus\_sign: again and this time, you will see the server you just added.&#x20;
 
 ![](<../../../../.gitbook/assets/image (677) (1) (1) (1).png>)
 
 From here, you have the ability to access and share your Nextcloud files on Rocket.Chat
 
 ![](<../../../../.gitbook/assets/image (672).png>)
-
