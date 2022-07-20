@@ -1,12 +1,22 @@
 root: ./
 
 redirects:
-    security: contributors/contributing/security/README.md
+    security: contributors/how-can-i-help/security/README.md
     guides/developer/quick-start: development-docs.md
     guides/developer-guides/rest-api/: development-docs.md
     guides/developer/mobile-apps/whitelabeling-mobile-apps: development-docs.md
     guides/apps-development/getting-started: development-docs.md
     guides/bots/create-and-run-a-bot/hubot-bot: development-docs.md
-    guides/administration/administration/identity-management-ee-vs-ce: quick-start/identity-management-ee-vs-ce/README.md
+    guides/administration/administration/identity-management-ee-vs-ce: guides/administration/identity-management-ee-vs-ce.md
     apps-development/getting-started: development-docs.md
     api/rest-api: development-docs.md
+    guides/administration/settings/ldap: guides/administration/admin-panel/settings/ldap/README.md
+    installing-and-updating/manual-installation/centos: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md.md
+    administrator-guides/integrations/zapier/using-zaps: guides/administration/admin-panel/integrations/zapier.md
+    installation/docker-containers/docker-compose: quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/README.md
+    installation/manual-installation/centos: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
+    developer-guides/rest-api: development-docs.md
+    developer-guides/realtime-api: development-docs.md
+    guides/adminisraion/settings/video-conference-admin-guide/omnichannel-video-audio-call-admins-guide: guides/rocket.chat-conference-call/conference-call-admin-guide/README.md
+    developer-guides/mobile-apps/supporting-ssl: development-docs.md
+    developer-guides: development-docs.md
