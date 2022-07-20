@@ -11,7 +11,7 @@ redirects:
     apps-development/getting-started: development-docs.md
     api/rest-api: development-docs.md
     guides/administration/settings/ldap: guides/administration/admin-panel/settings/ldap/README.md
-    installing-and-updating/manual-installation/centos: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md.md
+    installation/manual-installation/centos: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
     administrator-guides/integrations/zapier/using-zaps: guides/administration/admin-panel/integrations/zapier.md
     installation/docker-containers/docker-compose: quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/README.md
     installation/manual-installation/centos: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
