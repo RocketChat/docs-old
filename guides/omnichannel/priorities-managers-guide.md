@@ -22,7 +22,7 @@ Go to **Priorities** in the omnichannel panel settings, as shown below:
 
 1. Click **Add** button.
 
-![](<../../.gitbook/assets/image (43) (1).png>)
+![](<../../.gitbook/assets/image (43) (1) (2).png>)
 
 1. Name your Priority.
 2. Give a description.

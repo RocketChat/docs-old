@@ -63,7 +63,7 @@ Successfully added agents would be listed, as shown below:
 
 Your newly created department is displayed in the list of departments, as shown below:
 
-![](<../../.gitbook/assets/2022-01-01\_16-34-21 (1) (1) (1) (3).png>)
+![](<../../.gitbook/assets/2022-01-01\_16-34-21 (1) (1) (1) (2) (2).png>)
 
 You can have the following behavior depending on how many departments you have created:
 

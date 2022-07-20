@@ -10,7 +10,7 @@ To access **Custom Fields** settings:
 
 Go to Omnichannel panel settings, as shown below:
 
-![](<../../.gitbook/assets/0 (8) (5) (5) (5) (5) (5) (4) (4) (1) (1) (1) (1) (12) (19).png>)
+![](<../../.gitbook/assets/0 (8) (5) (5) (5) (5) (5) (4) (4) (1) (1) (1) (1) (12) (10) (18).png>)
 
 Custom Fields menu appears, as shown below:
 

@@ -12,7 +12,7 @@ To access this menu, go to **Administration** > **Info**.
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (26) (1).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10).png>)
 
 ![](<../../../.gitbook/assets/image (662) (1) (1) (1) (1).png>)
 
