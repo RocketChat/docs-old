@@ -17,6 +17,6 @@ redirects:
     installation/manual-installation/centos: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
     developer-guides/rest-api: development-docs.md
     developer-guides/realtime-api: development-docs.md
-    guides/administration/settings/video-conference-admin-guide/omnichannel-video-audio-call-admins-guide: guides/rocket.chat-conference-call/conference-call-admin-guide/README.md
+    guides/administration/settings/video-conference-admin-guide/omnichannel-video-audio-call-admins-guide: guides/rocket.chat-conference-call/omnichannel-video-audio-call-admins-guide.md
     developer-guides/mobile-apps/supporting-ssl: development-docs.md
     developer-guides: development-docs.md
