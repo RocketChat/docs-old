@@ -14,8 +14,8 @@ redirects:
     installation/manual-installation/centos: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
     administrator-guides/integrations/zapier/using-zaps: guides/administration/admin-panel/integrations/zapier.md
     installation/docker-containers/docker-compose: quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/README.md
-    installation/manual-installation/centos: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
     developer-guides/rest-api: development-docs.md
+    developer-guides/rest-api/authentication/login: development-docs.md
     developer-guides/realtime-api: development-docs.md
     guides/administration/settings/video-conference-admin-guide/omnichannel-video-audio-call-admins-guide: guides/rocket.chat-conference-call/omnichannel-video-audio-call-admins-guide.md
     developer-guides/mobile-apps/supporting-ssl: development-docs.md
