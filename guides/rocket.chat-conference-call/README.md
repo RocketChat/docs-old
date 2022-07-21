@@ -2,7 +2,7 @@
 
 When it comes to conference calling Rocket.Chat supports multiple feature-rich options like Pexip, Jitsi, BigBlueButton (BBB), and Google Meet to fulfill your needs.&#x20;
 
-Rocket.Chat's conference call enterprise feature set offers you the ability to use the following video conferencing platforms, available as apps on our [marketplace](https://rocket.chat/marketplace).
+Rocket.Chat's conference call enterprise feature set allows you to use the following video conferencing platforms, available as apps on our [marketplace](https://rocket.chat/marketplace).
 
 1. [Pexip](conference-call-admin-guide/pexip-app.md)
 2. [Jitsi](conference-call-admin-guide/jitsi-app.md)
@@ -13,10 +13,24 @@ Rocket.Chat's conference call enterprise feature set offers you the ability to u
 
 
 
-|                    Feature                   | Community Edition | Enterprise Edition |
-| :------------------------------------------: | :---------------: | :----------------: |
-|       **Ringer (in direct messages)**        |       **x**       |        **✓**       |
-|          **Records in the channel**          |       **✓**       |        **✓**       |
-|  **Contextual bar containing call history**  |       **x**       |        **✓**       |
-| **Options to start with camera and mic off** |       **✓**       |        **✓**       |
+|                     Feature                     | Community Edition | Enterprise Edition | Mobile |   |
+| :---------------------------------------------: | :---------------: | :----------------: | :----: | - |
+|                 **Create calls**                |       **✓**       |        **✓**       |  **✓** |   |
+| **List in the channel users who joined a call** |       **x**       |        **✓**       |  **x** |   |
+|   **Contextual bar containing call history**    |       **x**       |        **✓**       |  **x** |   |
+|   **Options to start with camera and mic off**  |       **✓**       |        **✓**       |  **✓** |   |
+|      **Mark calls as ended after 24 hours**     |       **✓**       |        **✓**       |  **✓** |   |
+|      **Ring users before starting a call**      |       **x**       |        **✓**       |  **x** |   |
+|     **Disable call button in the workspace**    |       **x**       |        **✓**       |  **x** |   |
 
+### **Provider Specific** Conference Call **Features**
+
+|                 Feature                 | Pexip (EE) | Jitsi |  BBB  | Google Meet (EE) |
+| :-------------------------------------: | :--------: | :---: | :---: | :--------------: |
+|     **Start calls from Rocket.Chat**    |    **✓**   | **✓** | **✓** |       **✓**      |
+|   **Identify moderator automatically**  |    **✓**   | **✓** | **✓** |       **x**      |
+| **Control microphone from Rocket.Chat** |    **x**   | **✓** | **x** |       **x**      |
+|   **Control camera from Rocket.Chat**   |    **x**   | **✓** | **x** |       **x**      |
+|   **Load user names from Rocket.Chat**  |    **x**   | **✓** | **✓** |       **x**      |
+|  **Load user avatars from Rocket.Chat** |    **x**   | **✓** | **✓** |       **x**      |
+|       **End calls automatically**       |    **x**   | **x** | **✓** |       **x**      |
