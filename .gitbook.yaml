@@ -21,3 +21,21 @@ redirects:
     developer-guides/mobile-apps/supporting-ssl: development-docs.md
     developer-guides: development-docs.md
     guides/administration/settings/omnichannel-admins-guide: guides/omnichannel.md
+    quick-start/installing-and-updating/paas-deployments/aws-marketplace: quick-start/installing-and-updating/paas-deployments/aws.md
+    guides/administration/administration/settings/canned-responses-rocket.chat-admins-guides: guides/omnichannel/canned-responses/canned-responses-rocket.chat-admins-guides.md
+    developer-guides/iframe-integration/authentication: development-docs.md
+    developer-guides/rest-api/chat/postmessage: development-docs.md
+    api/rest-api/personal-access-tokens: development-docs.md
+    developer-guides/livechat-api: development-docs.md
+    developer-guides/rest-api/im: development-docs.md
+    developer-guides/rest-api/authentication: development-docs.md
+    guides/omnichannel-guides/omnichannel-manger-guides: guides/omnichannel/managers.md
+    quick-start/installing-and-updating/docker-containers/docker-compose: quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/README.md
+    developer-guides/developing-apps/getting-started: development-docs.md
+    developer-guides/rest-api/channels/cleanhistory: development-docs.md
+    developer-guides/rest-api/channels/info: development-docs.md
+    developer-guides/rest-api/livechat/sms-incoming: development-docs.md
+    guides/administration/settings/account-settings: guides/administration/admin-panel/settings/account-settings/README.md
+    guides/developer/iframe-integration/authentication/testing-the-iframe-authentication: development-docs.md
+    installation/manual-installation/centos/: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
+    installation/paas-deployments/heroku: quick-start/installing-and-updating/introduction/choosing-a-deployment-method.md
