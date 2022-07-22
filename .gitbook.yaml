@@ -20,7 +20,7 @@ redirects:
     guides/administration/settings/video-conference-admin-guide/omnichannel-video-audio-call-admins-guide: guides/rocket.chat-conference-call/omnichannel-video-audio-call-admins-guide.md
     developer-guides/mobile-apps/supporting-ssl: development-docs.md
     developer-guides: development-docs.md
-    guides/administration/settings/omnichannel-admins-guide: guides/omnichannel.md
+    guides/administration/settings/omnichannel-admins-guide: guides/administration/admin-panel/settings/omnichannel-admins-guide/README.md
     quick-start/installing-and-updating/paas-deployments/aws-marketplace: quick-start/installing-and-updating/paas-deployments/aws.md
     guides/administration/administration/settings/canned-responses-rocket.chat-admins-guides: guides/omnichannel/canned-responses/canned-responses-rocket.chat-admins-guides.md
     developer-guides/iframe-integration/authentication: development-docs.md
@@ -39,3 +39,8 @@ redirects:
     guides/developer/iframe-integration/authentication/testing-the-iframe-authentication: development-docs.md
     installation/manual-installation/centos/: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
     installation/paas-deployments/heroku: quick-start/installing-and-updating/introduction/choosing-a-deployment-method.md
+    installing-and-updating/manual-installation/centos: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
+    developer-guides/quick-start: development-docs.md
+    api/rest-api/methods/chat/sendmessage: development-docs.md
+    developer-guides/mobile-apps: development-docs.md
+    developer-guides/realtime-api/subscriptions: development-docs.md
