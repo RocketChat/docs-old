@@ -74,4 +74,14 @@ redirects:
     guides/administrator-guides/setting-up-video-conferencing: https://docs.rocket.chat/guides/rocket.chat-conference-call
     guides/developer/iframe-integration/authentication/testing-the-iframe-authentication: development-docs.md
     installation/manual-installation/windows-server/: quick-start/deploying-rocket.chat/other-deployment-methods/nonofficial-methods/windows-server
+    user-guides/voice-and-video-calls: guides/rocket.chat-conference-call/conference-call-users-guide
+    administrator-guides/notifications/mailer: guides/administration/admin-panel/mailer
+    administrator-guides/setting-up-video-conferencing: guides/rocket.chat-conference-call/conference-call-admin-guide
+    api/rest-api/methods/chat/postmessage: development-docs.md
+    api/rest-api/methods/groups/leave: development-docs.md
+    api/rest-api/methods/im/history: development-docs.md
+    api/rest-api/methods/subscriptions/get: development-docs.md
+    api/rest-api/methods/users/createtoken: development-docs.md
+    apps-development/getting-started/creating-an-example-app: development-docs.md
+    apps-development/recipes/making-http-requests: development-docs.md
 
