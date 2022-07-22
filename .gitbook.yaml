@@ -104,9 +104,9 @@ redirects:
     developer-guides/rest-api/rooms/upload: development-docs.md
     developer-guides/rest-api/users: development-docs.md
     developer-guides/ui-and-theming/colors: development-docs.md
-    docs: docs.rocket.chat
+    docs: guides/user-guides
     docs/administrator-guides/notifications/push-notifications/: guides/administration/admin-panel/settings/push-notifications-admin-guide
-    Documentation: docs.rocket.chat
+    Documentation: guides/user-guides
     guides/administration/administration/settings/email/setup: guides/administration/admin-panel/settings/email
     guides/administration/settings/file-upload: guides/administration/admin-panel/settings/file-upload
     guides/administration/settings/video-conference-Admin-Guide/jitsi-admins-guide: guides/rocket.chat-conference-call/conference-call-admin-guide/jitsi-app
