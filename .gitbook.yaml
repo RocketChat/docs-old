@@ -84,4 +84,26 @@ redirects:
     api/rest-api/methods/users/createtoken: development-docs.md
     apps-development/getting-started/creating-an-example-app: development-docs.md
     apps-development/recipes/making-http-requests: development-docs.md
+    bots: development-docs.md
+    bots/running-a-hubot-bot: development-docs.md
+    contributing/google-summer-of-code: contributors/annual-contribution-programs/google-summer-of-code
+    contributors/how-can-i-help/documentation/documentation-map: https://docs.rocket.chat/contributors/how-can-i-help/documentation
+    developer-guides/branches-and-releases: development-docs.md
+    developer-guides/iframe-integration: development-docs.md
+    developer-guides/iframe-integration/commands/: development-docs.md
+    developer-guides/realtime-api/method-calls/set-reaction: development-docs.md
+    developer-guides/realtime-api/method-calls/update-message?q=: development-docs.md
+    developer-guides/realtime-api/the-message-object: development-docs.md
+    developer-guides/rest-api/authentication/me: development-docs.md
+    developer-guides/rest-api/chat/getmessage: development-docs.md
+    developer-guides/rest-api/commands/list: development-docs.md
+    developer-guides/rest-api/livechat/message/index.html: development-docs.md
+    developer-guides/rest-api/offset-and-count-and-sort-info: development-docs.md
+    developer-guides/rest-api/rate-limiter: development-docs.md
+    developer-guides/rest-api/rooms/creatediscussion: development-docs.md
+    developer-guides/rest-api/rooms/upload: development-docs.md
+    developer-guides/rest-api/users: development-docs.md
+    developer-guides/ui-and-theming/colors: development-docs.md
+
+
 
