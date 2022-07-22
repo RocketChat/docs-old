@@ -104,6 +104,16 @@ redirects:
     developer-guides/rest-api/rooms/upload: development-docs.md
     developer-guides/rest-api/users: development-docs.md
     developer-guides/ui-and-theming/colors: development-docs.md
+    docs: docs.rocket.chat
+    docs/administrator-guides/notifications/push-notifications/: guides/administration/admin-panel/settings/push-notifications-admin-guide
+    Documentation: docs.rocket.chat
+    guides/administration/administration/settings/email/setup: guides/administration/admin-panel/settings/email
+    guides/administration/settings/file-upload: guides/administration/admin-panel/settings/file-upload
+    guides/administration/settings/video-conference-Admin-Guide/jitsi-admins-guide: guides/rocket.chat-conference-call/conference-call-admin-guide/jitsi-app
+    guides/administrator-guides/misc.-admin-guides/white-labeling/advanced-white-labeling: development-docs.md
+    guides/bots/create-and-run-a-bot/rasa-bot: development-docs.md
+    guides/developer/embedded-layout: development-docs.md
+    guides/developer/iframe-integration/authentication: development-docs.md
 
 
 
