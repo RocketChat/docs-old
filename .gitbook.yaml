@@ -44,3 +44,34 @@ redirects:
     api/rest-api/methods/chat/sendmessage: development-docs.md
     developer-guides/mobile-apps: development-docs.md
     developer-guides/realtime-api/subscriptions: development-docs.md
+    api/rest-api/methods/subscriptions/read: development-docs.md
+    api/rest-api/methods/users/create: development-docs.md
+    developer-guides/realtime-api/method-calls/login: development-docs.md
+    developer-guides/realtime-api/method-calls/login/: development-docs.md
+    developer-guides/rest-api/im: development-docs.md
+    developer-guides/rest-api/livechat: development-docs.md
+    installation/manual-installation/centos/: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
+    api/realtime-api/method-calls/get-rooms: development-docs.md
+    api/rest-api/methods/authentication/login: development-docs.md
+    api/rest-api/methods/livechat/config: development-docs.md
+    api/rest-api/methods/users/getstatus: development-docs.md
+    api/rest-api/methods/users/info: development-docs.md
+    apps-development/getting-started/rocket.chat-app-engine-cli: development-docs.md
+    developer-guides: development-docs.md
+    developer-guides/developing-apps/getting-started: development-docs.md
+    developer-guides/realtime-api/method-calls: development-docs.md
+    developer-guides/realtime-api/method-calls/get-subscriptions: development-docs.md
+    developer-guides/realtime-api/subscriptions/stream-notify-logged: development-docs.md
+    developer-guides/rest-api/: development-docs.md
+    developer-guides/rest-api/authentication/login/: development-docs.md
+    developer-guides/rest-api/im/history: development-docs.md
+    developer-guides/rest-api/rooms/cleanhistory: development-docs.md
+    developer-guides/rest-api/users/register: development-docs.md
+    developer-guides/schema-definition: development-docs.md
+    developer-guides/ui-and-theming: development-docs.md
+    guides/administration/admin-panel/settings/oauth/bXMtb2ZmaW: guides/administration/admin-panel/settings/oauth
+    guides/administration/settings/video-conference-(Admin's-Guide)/jitsi-admins-guide: guides/rocket.chat-conference-call/conference-call-admin-guide/jitsi-app
+    guides/administrator-guides/setting-up-video-conferencing: https://docs.rocket.chat/guides/rocket.chat-conference-call
+    guides/developer/iframe-integration/authentication/testing-the-iframe-authentication: development-docs.md
+    installation/manual-installation/windows-server/: quick-start/deploying-rocket.chat/other-deployment-methods/nonofficial-methods/windows-server
+
