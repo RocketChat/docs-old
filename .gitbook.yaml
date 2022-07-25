@@ -52,7 +52,4 @@ redirects:
     developer-guides/rest-api/livechat: development-docs.md
     installation/manual-installation/centos/: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
     guides/developer/iframe-integration/authentication/testing-the-iframe-authentication: development-docs.md
-    developer-guides/realtime-api/subscriptions/stream-notify-logged: development-docs.md
-
-
 
