@@ -113,7 +113,7 @@ redirects:
     guides/administrator-guides/misc.-admin-guides/white-labeling/advanced-white-labeling: development-docs.md
     guides/bots/create-and-run-a-bot/rasa-bot: development-docs.md
     guides/developer/embedded-layout: development-docs.md
-    guides/developer/iframe-integration/authentication: development-docs.md
+    guides/developer/iframe-integration/authentication/testing-the-iframe-authentication: development-docs.md
 
 
 
