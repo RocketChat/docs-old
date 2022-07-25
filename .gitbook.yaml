@@ -104,7 +104,7 @@ redirects:
     developer-guides/rest-api/rooms/upload: development-docs.md
     developer-guides/rest-api/users: development-docs.md
     developer-guides/ui-and-theming/colors: development-docs.md
-  
+    quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose/docker-containers/systemd-->: quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose
     docs/administrator-guides/notifications/push-notifications/: guides/administration/admin-panel/settings/push-notifications-admin-guide
     Documentation: guides/user-guides
     guides/administration/administration/settings/email/setup: guides/administration/admin-panel/settings/email
