@@ -56,7 +56,7 @@ redirects:
     api/rest-api/methods/livechat/config: development-docs.md
     api/rest-api/methods/users/getstatus: development-docs.md
     api/rest-api/methods/users/info: development-docs.md
-    apps-development/getting-started/rocket.chat-app-engine-cli: development-docs.md
+    developer-guides/realtime-api/method-calls/login: development-docs.md
     developer-guides: development-docs.md
     developer-guides/developing-apps/getting-started: development-docs.md
     developer-guides/realtime-api/method-calls: development-docs.md
@@ -104,7 +104,7 @@ redirects:
     developer-guides/rest-api/rooms/upload: development-docs.md
     developer-guides/rest-api/users: development-docs.md
     developer-guides/ui-and-theming/colors: development-docs.md
-    docs: guides/user-guides
+  
     docs/administrator-guides/notifications/push-notifications/: guides/administration/admin-panel/settings/push-notifications-admin-guide
     Documentation: guides/user-guides
     guides/administration/administration/settings/email/setup: guides/administration/admin-panel/settings/email
