@@ -53,4 +53,5 @@ redirects:
     installation/manual-installation/centos/: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
     guides/developer/iframe-integration/authentication/testing-the-iframe-authentication: development-docs.md
     quick-start/installing-and-updating/manual-installation/centos: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
+    user-guides/voice-and-video-calls: guides/rocket.chat-conference-call
 
