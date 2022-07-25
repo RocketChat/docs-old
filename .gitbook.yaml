@@ -52,5 +52,5 @@ redirects:
     developer-guides/rest-api/livechat: development-docs.md
     installation/manual-installation/centos/: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
     guides/developer/iframe-integration/authentication/testing-the-iframe-authentication: development-docs.md
-    user-guides/voice-and-video-calls: guides/rocket.chat-conference-call
+    quick-start/installing-and-updating/manual-installation/centos: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
 
