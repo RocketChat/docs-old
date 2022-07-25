@@ -51,69 +51,8 @@ redirects:
     developer-guides/rest-api/im: development-docs.md
     developer-guides/rest-api/livechat: development-docs.md
     installation/manual-installation/centos/: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
-    api/realtime-api/method-calls/get-rooms: development-docs.md
-    api/rest-api/methods/authentication/login: development-docs.md
-    api/rest-api/methods/livechat/config: development-docs.md
-    api/rest-api/methods/users/getstatus: development-docs.md
-    api/rest-api/methods/users/info: development-docs.md
-    developer-guides/realtime-api/method-calls/login: development-docs.md
-    developer-guides: development-docs.md
-    developer-guides/developing-apps/getting-started: development-docs.md
-    developer-guides/realtime-api/method-calls: development-docs.md
-    developer-guides/realtime-api/method-calls/get-subscriptions: development-docs.md
+    guides/developer/iframe-integration/authentication/testing-the-iframe-authentication: development-docs.md
     developer-guides/realtime-api/subscriptions/stream-notify-logged: development-docs.md
-    developer-guides/rest-api/: development-docs.md
-    developer-guides/rest-api/authentication/login/: development-docs.md
-    developer-guides/rest-api/im/history: development-docs.md
-    developer-guides/rest-api/rooms/cleanhistory: development-docs.md
-    developer-guides/rest-api/users/register: development-docs.md
-    developer-guides/schema-definition: development-docs.md
-    developer-guides/ui-and-theming: development-docs.md
-    guides/administration/admin-panel/settings/oauth/bXMtb2ZmaW: guides/administration/admin-panel/settings/oauth
-    guides/administration/settings/video-conference-(Admin's-Guide)/jitsi-admins-guide: guides/rocket.chat-conference-call/conference-call-admin-guide/jitsi-app
-    guides/administrator-guides/setting-up-video-conferencing: https://docs.rocket.chat/guides/rocket.chat-conference-call
-    guides/developer/iframe-integration/authentication/testing-the-iframe-authentication: development-docs.md
-    installation/manual-installation/windows-server/: quick-start/deploying-rocket.chat/other-deployment-methods/nonofficial-methods/windows-server
-    user-guides/voice-and-video-calls: guides/rocket.chat-conference-call/conference-call-users-guide
-    administrator-guides/notifications/mailer: guides/administration/admin-panel/mailer
-    administrator-guides/setting-up-video-conferencing: guides/rocket.chat-conference-call/conference-call-admin-guide
-    api/rest-api/methods/chat/postmessage: development-docs.md
-    api/rest-api/methods/groups/leave: development-docs.md
-    api/rest-api/methods/im/history: development-docs.md
-    api/rest-api/methods/subscriptions/get: development-docs.md
-    api/rest-api/methods/users/createtoken: development-docs.md
-    apps-development/getting-started/creating-an-example-app: development-docs.md
-    apps-development/recipes/making-http-requests: development-docs.md
-    docs.rocket.chat/bots: development-docs.md
-    bots/running-a-hubot-bot: development-docs.md
-    contributing/google-summer-of-code: contributors/annual-contribution-programs/google-summer-of-code
-    contributors/how-can-i-help/documentation/documentation-map: https://docs.rocket.chat/contributors/how-can-i-help/documentation
-    developer-guides/branches-and-releases: development-docs.md
-    developer-guides/iframe-integration: development-docs.md
-    developer-guides/iframe-integration/commands/: development-docs.md
-    developer-guides/realtime-api/method-calls/set-reaction: development-docs.md
-    developer-guides/realtime-api/method-calls/update-message?q=: development-docs.md
-    developer-guides/realtime-api/the-message-object: development-docs.md
-    developer-guides/rest-api/authentication/me: development-docs.md
-    developer-guides/rest-api/chat/getmessage: development-docs.md
-    developer-guides/rest-api/commands/list: development-docs.md
-    developer-guides/rest-api/livechat/message/index.html: development-docs.md
-    developer-guides/rest-api/offset-and-count-and-sort-info: development-docs.md
-    developer-guides/rest-api/rate-limiter: development-docs.md
-    developer-guides/rest-api/rooms/creatediscussion: development-docs.md
-    developer-guides/rest-api/rooms/upload: development-docs.md
-    developer-guides/rest-api/users: development-docs.md
-    developer-guides/ui-and-theming/colors: development-docs.md
-    quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose/docker-containers/systemd-->: quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose
-    docs/administrator-guides/notifications/push-notifications/: guides/administration/admin-panel/settings/push-notifications-admin-guide
-    Documentation: guides/user-guides
-    guides/administration/administration/settings/email/setup: guides/administration/admin-panel/settings/email
-    guides/administration/settings/file-upload: guides/administration/admin-panel/settings/file-upload
-    guides/administration/settings/video-conference-Admin-Guide/jitsi-admins-guide: guides/rocket.chat-conference-call/conference-call-admin-guide/jitsi-app
-    guides/administrator-guides/misc.-admin-guides/white-labeling/advanced-white-labeling: development-docs.md
-    guides/bots/create-and-run-a-bot/rasa-bot: development-docs.md
-    guides/developer/embedded-layout: development-docs.md
-    guides/developer/iframe-integration/authentication/testing-the-iframe-authentication: development-docs.md
 
 
 
