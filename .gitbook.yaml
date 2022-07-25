@@ -84,7 +84,7 @@ redirects:
     api/rest-api/methods/users/createtoken: development-docs.md
     apps-development/getting-started/creating-an-example-app: development-docs.md
     apps-development/recipes/making-http-requests: development-docs.md
-    bots: development-docs.md
+    docs.rocket.chat/bots: development-docs.md
     bots/running-a-hubot-bot: development-docs.md
     contributing/google-summer-of-code: contributors/annual-contribution-programs/google-summer-of-code
     contributors/how-can-i-help/documentation/documentation-map: https://docs.rocket.chat/contributors/how-can-i-help/documentation
