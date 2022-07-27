@@ -22,7 +22,7 @@ const ignoreFiles = [
 function execSyncIgnoringExitCode(command: string): string | Error {
 	try {
 		return execSync(command).toString();
-	} catch (error) {
+	} catch (error: any) {
 		const result = error.stdout.toString();
 		if (result.startsWith('error: Could not access')) {
 			console.log(result);
@@ -54,6 +54,10 @@ async function recFindByExt(basePath: string, ext: string): Promise<string[]> {
 	}
 }
 
+function escapePathSpaces(path: string): string {
+	return path.replace(/(\s+)/g, '\\$1');
+}
+
 export async function init(): Promise<void> {
 	const summary = await (await fs.readFile(SUMMARY_PATH)).toString();
 
@@ -77,9 +81,9 @@ export async function init(): Promise<void> {
 	const filesInSummaryAndDuplicated = [];
 
 	for (const file of allFiles) {
-		let command = `md5 -q ${file}`;
+		let command = `md5 -q ${escapePathSpaces(file)}`;
 		if (process.platform === 'linux') {
-			command = `printf $(md5sum ${file})`;
+			command = `printf $(md5sum ${escapePathSpaces(file)})`;
 		}
 
 		const checksum = execSync(command).toString().replace('\n', '');
