@@ -54,7 +54,7 @@ We may update this Agreement and we will let you know when we do through the Ser
 
 **"Rocket.Chat Contract Manager"** means a primary contact with respect to this Agreement and who will have the authority to act on behalf of Service Provider in connection with matters pertaining to this Agreement
 
-**"Rocke.Chat Personnel"** means all employees and Permitted Subcontractors, if any, engaged by Rocket.Chat to perform the Services.
+**"Rocket.Chat Personnel"** means all employees and Permitted Subcontractors, if any, engaged by Rocket.Chat to perform the Services.
 
 **"Services"** mean the professional and other services to be provided by Service Provider under this agreement, as described in more detail in a Statement of Work, and Service Provider's obligations under this Agreement.
 
