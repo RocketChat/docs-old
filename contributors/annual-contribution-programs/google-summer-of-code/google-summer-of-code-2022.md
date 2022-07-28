@@ -49,7 +49,7 @@ We are also planning a virtual conference at the end of the GSoC term - named GS
 | Standalone Desktop Messaging cross-platforms Applet                | [https://github.com/RocketChat/SlimDesktopApp](https://github.com/RocketChat/SlimDesktopApp)                                                             |
 | Weekly Video Meeting and Archive App - BigBlueButton + Rocket.Chat | [https://github.com/RocketChat/Apps.BigBlueButton](https://github.com/RocketChat/Apps.BigBlueButton)                                                     |
 | New Emoji Picker for Mobile Client                                 | [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)                                           |
-| Rocket.Chat for Virtual Conferences - Eventyay integration         | [https://github.com/RocketChat/RC4Conferences](https://github.com/RocketChat/RC4Conferences)                                                             |
+| Rocket.Chat for Virtual Conferences - Eventual integration         | [https://github.com/RocketChat/RC4Conferences](https://github.com/RocketChat/RC4Conferences)                                                             |
 | Rocket.Chat Golang SDK                                             | [https://github.com/RocketChat/Rocket.Chat.Go.SDK](https://github.com/RocketChat/Rocket.Chat.Go.SDK)                                                     |
 | Figma App ( Rocket.Chat Integration )                              | [https://github.com/RocketChat/Apps.Figma](https://github.com/RocketChat/Apps.Figma)                                                                     |
 | ClickUp App for Rocket.Chat                                        | [https://github.com/RocketChat/Apps.ClickUp](https://github.com/RocketChat/Apps.ClickUp)                                                                 |
@@ -149,7 +149,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Mentor(s):** Rohan Lekhwani
 
-**Description:** Create a ready-to-go easy to embed mini-chat React component. This component should be configurable to use any public channel on a Rocket.Chat server. Authentication should be flexibly configurable to existing Rocket.Chat server token, or via an independent IDM or auth service. The challenge here is to create a futuristic full-stack component that bundles tightly coupled backend behaviours with standard front-end ReactJS components (from Rocket.Chat Fuselage ReactJS library) - creating an amazing developer experience when developing In-App Chat applications.\
+**Description:** Create a ready-to-go easy to embed mini-chat React component. This component should be configurable to use any public channel on a Rocket.Chat server. Authentication should be flexibly configurable to existing Rocket.Chat server token, or via an independent IDM or auth service. The challenge here is to create a futuristic full-stack component that bundles tightly coupled backend behaviors with standard front-end ReactJS components (from Rocket.Chat Fuselage ReactJS library) - creating an amazing developer experience when developing In-App Chat applications.\
 **Desired Skills:** ReactJS component creation experience, understanding of Rocket.Chat server internals
 
 **Goals/Deliverables:** Standlone mini-chat React component that can be easily installed into any ReactJS based web app
@@ -189,7 +189,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Mentor(s):** Cauê Felchar, Aaron Ogle
 
-**Description:** Golang module to enable any Go packge to talk to a Rocket.Chat server with ease, making it possible to create from custom clients to bots.
+**Description:** Golang module to enable any Go package to talk to a Rocket.Chat server with ease, making it possible to create from custom clients to bots.
 
 **Goals/Deliverables:**
 

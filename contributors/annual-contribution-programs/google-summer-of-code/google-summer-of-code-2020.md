@@ -74,7 +74,7 @@ All students and mentors are now busy mutually bonding and with our core team an
 
 #### Update March 31st, 2020
 
-First, we would like to thank all GSoC 2020 students for their ethusiastic support for Rocket.Chat. This year we have received a total of **86** proposals, including **81** final proposals. In the final pool, there are 13 proposals that are spam, without content, or not related to our projects.
+First, we would like to thank all GSoC 2020 students for their enthusiastic support for Rocket.Chat. This year we have received a total of **86** proposals, including **81** final proposals. In the final pool, there are 13 proposals that are spam, without content, or not related to our projects.
 
 Over the next month, our mentors will be reviewing the received proposals. Google Summer of Code will be announcing the selected projects and students on May 4th, 2020. Please see [GSoC timeline](google-summer-of-code-2020.md#timeline) for more details.
 
@@ -92,7 +92,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 We have recnetly arranged for the TOP 8 student contributors to meet one on one with Rocket.Chat's project lead Gabriel Engel and great remote fun was had by all.
 
-Mentoring interest from core team has been reduced this year, while community mentor participation is at an all time high. Proposals for projects are streaming steadily in since application open, the volume of incoming proposals is reduced compared to prior year - but the percentage of high quality propsals has increased.
+Mentoring interest from core team has been reduced this year, while community mentor participation is at an all time high. Proposals for projects are streaming steadily in since application open, the volume of incoming proposals is reduced compared to prior year - but the percentage of high quality proposals has increased.
 
 #### About GSoC 2020
 
@@ -119,7 +119,7 @@ Interested students are also encouraged to interact with our contributor communi
 ### Advanced Rocket.Chat administrators and operations toolkit
 
 * **Mentors**: [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio), [@sing.li](https://open.rocket.chat/direct/sing.li)
-* **Description**: Administration and management of a Rocket.Chat server is a very complex task, especially for servers that are utilized by thousdands of users on a daily basis.  There exists many administrative and operational activities that require access to the system in ways that are not currently supported by our Administrative dashboard.  This project creates small, standalone tools, to address this need. These tools will be immediately useful for anyone operating one-or-more large Rocket.Chat server(s) worldwide.
+* **Description**: Administration and management of a Rocket.Chat server is a very complex task, especially for servers that are utilized by thousands of users on a daily basis.  There exists many administrative and operational activities that require access to the system in ways that are not currently supported by our Administrative dashboard.  This project creates small, standalone tools, to address this need. These tools will be immediately useful for anyone operating one-or-more large Rocket.Chat server(s) worldwide.
 * **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReactJS or Vue.js ideal.  Must have database skills, ideally MongoDB.
 
 ### Download Manager on Desktop App
