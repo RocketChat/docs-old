@@ -65,4 +65,7 @@ redirects:
     api/realtime-api: development-docs.md
     api/realtime-api/method-calls: development-docs.md
     api/realtime-api/method-calls/logout: development-docs.md
+    guides/administration/administration/settings/ldap: guides/administration/admin-panel/settings/ldap/README.md
+    developer-guides/ui-and-theming: development-docs.md
+
 
