@@ -67,5 +67,16 @@ redirects:
     api/realtime-api/method-calls/logout: development-docs.md
     guides/administration/administration/settings/ldap: guides/administration/admin-panel/settings/ldap/README.md
     developer-guides/ui-and-theming: development-docs.md
+    developer-guides/branches-and-releases: development-docs.md
+    developer-guides/rest-api/im/list: development-docs.md
+    developer-guides/rest-api/integration: development-docs.md
+    developer-guides/rest-api/miscellaneous/spotlight: development-docs.md
+    developer-guides/rest-api/rate-limiter/: development-docs.md
+    developer-guides/rest-api/rooms/upload: development-docs.md
+    developer-guides/rest-api/subscriptions/get: development-docs.md
+    developer-guides/ui-and-theming: development-docs.md
+    guides/administration/admin-panel/settings/ldap/user-search-settings: guides/administration/admin-panel/settings/ldap/README.md
+    
+    
 
 
