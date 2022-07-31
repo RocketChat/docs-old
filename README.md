@@ -13,7 +13,7 @@ This user guide incorporates a description of the features and capabilities, mod
 {% endcontent-ref %}
 
 {% content-ref url="quick-start/environment-configuration/creating-the-first-administrator.md" %}
-[creating-the-first-administrator.md](quick-start/environment-configuration/creating-the-first-administrator.md)
+[creating-the-first-administrator.md](quick-start/accessing-your-workspace/admin-account-creation.md)
 {% endcontent-ref %}
 
 {% content-ref url="guides/user-guides/connecting-to-a-server.md" %}
@@ -75,7 +75,7 @@ This user guide incorporates a description of the features and capabilities, mod
 ## Minimum Requirements
 
 {% content-ref url="quick-start/mobile-and-desktop-apps/minimum-requirements-for-using-rocket.chat.md" %}
-[minimum-requirements-for-using-rocket.chat.md](quick-start/mobile-and-desktop-apps/minimum-requirements-for-using-rocket.chat.md)
+[minimum-requirements-for-using-rocket.chat.md](quick-start/installing-client-apps/minimum-requirements-for-using-rocket.chat.md)
 {% endcontent-ref %}
 
 {% content-ref url="quick-start/installing-and-updating/hardware-requirements.md" %}
