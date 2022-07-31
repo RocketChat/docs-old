@@ -12,8 +12,8 @@ This user guide incorporates a description of the features and capabilities, mod
 [deploying-rocket.chat](quick-start/deploying-rocket.chat)
 {% endcontent-ref %}
 
-{% content-ref url="quick-start/environment-configuration/creating-the-first-administrator.md" %}
-[creating-the-first-administrator.md](quick-start/environment-configuration/creating-the-first-administrator.md)
+{% content-ref url="quick-start/accessing-your-workspace/admin-account-creation.md" %}
+[creating-the-first-administrator.md](quick-start/accessing-your-workspace/admin-account-creation.md)
 {% endcontent-ref %}
 
 {% content-ref url="guides/user-guides/connecting-to-a-server.md" %}
