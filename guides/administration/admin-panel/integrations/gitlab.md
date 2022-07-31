@@ -84,7 +84,7 @@ class Script { // eslint-disable-line
         return {
             content: {
                 username: 'Rocket.Cat ErrorHandler',
-                text: 'Error occured while parsing an incoming webhook request. Details attached.',
+                text: 'Error occurred while parsing an incoming webhook request. Details attached.',
                 icon_url: '',
                 attachments: [
                     {
@@ -100,7 +100,7 @@ class Script { // eslint-disable-line
         return {
             content: {
                 username: data.user ? data.user.name : (data.user_name || 'Unknown user'),
-                text: `Unknown event '${event}' occured. Data attached.`,
+                text: `Unknown event '${event}' occurred. Data attached.`,
                 icon_url: data.user ? data.user.avatar_url : (data.user_avatar || ''),
                 attachments: [
                     {

@@ -22,7 +22,7 @@ Create a new app, and as `Platform` select Node.js. Finish by clicking `Create`.
 
 After creation is finished, select `Create service` from the App Details tab, select Databases from the list of services, and Databases for MongoDB.
 
-Configure MongoDB to enable oplog tailing and intiate a replicaset.
+Configure MongoDB to enable oplog tailing and initiate a replicaset.
 
 All remaining steps will be preformed at the command line.
 
