@@ -16,7 +16,7 @@ This will prevent a couple of issues.
 
 ## Upgrading Rocket.Chat on Docker
 
-Assuming you followed our installation guide on installing with [Docker and Docker Compose](installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/), to upgrade the `rocketchat` docker image to the latest version, you can use the following commands. Your data should not be affected by this, since it's located in the `mongo` image.
+Assuming you followed our installation guide on installing with [Docker and Docker Compose](deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose/), to upgrade the `rocketchat` docker image to the latest version, you can use the following commands. Your data should not be affected by this, since it's located in the `mongo` image.
 
 ```
 docker pull registry.rocket.chat/rocketchat/rocket.chat:latest
@@ -30,12 +30,12 @@ docker-compose up -d rocketchat
 The Rocket.Chat snap installation puts you on the `latest` track at the time of installing, this means you will always get the latest releases on that track.
 
 {% hint style="info" %}
-It is highly advised to [backup your data](installing-and-updating/rapid-deployment-methods/snaps/snap-backup-and-restore.md#backup-rocket.chat-snap-data) before upgrading
+It is highly advised to [backup your data](deploying-rocket.chat/rapid-deployment-methods/snaps/snap-backup-and-restore.md#backup-rocket.chat-snap-data) before upgrading
 {% endhint %}
 
 **Before performing a major version update, it is recommended to check our forum's announcement section**: [https://forums.rocket.chat/c/announcements/10](https://forums.rocket.chat/c/announcements/10) as major releases are usually delayed by a couple of weeks. This happens so that feedback is gotten and minor patches are made before pushing out.
 
-You  can force an update by running:
+You can force an update by running:
 
 ```
 sudo snap refresh rocketchat-server
@@ -71,8 +71,7 @@ To upgrade your Rocket.Chat Digital Ocean Droplet:
    Install it:\
    `sudo apt-get -y update && sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_14.x | sudo bash setup_14.x`\
    `sudo apt-get install -y nodejs`\
-   ``\
-   ``If you face any errors with installing node, reboot your system and you’ll be able to continue with the next steps.\
+   `\` If you face any errors with installing node, reboot your system and you’ll be able to continue with the next steps.\
    ![](<../.gitbook/assets/image (625).png>)
 4. If it is not updated already, change the path to new nodejs in the service config:\
    `sudo nano /lib/systemd/system/rocketchat.service`\
@@ -87,6 +86,6 @@ Other important topics concerning upgrades can be found here.
 
 {% embed url="https://docs.rocket.chat/getting-support#mongodb-versions" %}
 
-{% content-ref url="installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md" %}
-[mongodb-mmap-to-wiredtiger-migration.md](installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md)
+{% content-ref url="deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md" %}
+[mongodb-mmap-to-wiredtiger-migration.md](deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md)
 {% endcontent-ref %}

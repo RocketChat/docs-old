@@ -20,6 +20,6 @@ The following topics give you all the information you need regarding the setup a
 [manage-your-workspace-on-cloud-account](manage-your-workspace-on-cloud-account/)
 {% endcontent-ref %}
 
-{% content-ref url="../../resources/frequently-asked-questions/Cloud Faqs.md" %}
-[Cloud Faqs.md](<../../resources/frequently-asked-questions/Cloud Faqs.md>)
+{% content-ref url="../../resources/frequently-asked-questions/cloud-faqs.md" %}
+[cloud-faqs.md](../../resources/frequently-asked-questions/cloud-faqs.md)
 {% endcontent-ref %}
