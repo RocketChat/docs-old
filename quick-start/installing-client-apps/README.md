@@ -4,6 +4,6 @@ You can find a variety of client apps to use with a Rocket.Chat server, apart fr
 
 To use these apps, make sure you meet the [minimum-requirements-for-using-rocket.chat.md](minimum-requirements-for-using-rocket.chat.md "mention")
 
-{% content-ref url="../mobile-and-desktop-apps/rocket.chat-desktop-and-mobile-apps.md" %}
+{% content-ref url="rocket.chat-desktop-and-mobile-apps.md" %}
 [rocket.chat-desktop-and-mobile-apps.md](rocket.chat-desktop-and-mobile-apps.md)
 {% endcontent-ref %}
