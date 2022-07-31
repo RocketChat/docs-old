@@ -8,8 +8,8 @@ This user guide incorporates a description of the features and capabilities, mod
 
 ## Setup your account
 
-{% content-ref url="quick-start/deploying-rocket.chat" %}
-[deploying-rocket.chat](quick-start/deploying-rocket.chat)
+{% content-ref url="quick-start/deploying-rocket.chat/README.md" %}
+[deploying-rocket.chat](quick-start/deploying-rocket.chat/README.md)
 {% endcontent-ref %}
 
 {% content-ref url="quick-start/accessing-your-workspace/admin-account-creation.md" %}
@@ -44,12 +44,12 @@ This user guide incorporates a description of the features and capabilities, mod
 
 ## Features
 
-{% content-ref url="guides/rocket.chat-call-center" %}
-[rocket.chat-call-center](guides/rocket.chat-call-center)
+{% content-ref url="guides/rocket.chat-call-center/README.md" %}
+[rocket.chat-call-center](guides/rocket.chat-call-center/README.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/rocket.chat-conference-call" %}
-[rocket.chat-conference-call](guides/rocket.chat-conference-call)
+{% content-ref url="guides/rocket.chat-conference-call/README.md" %}
+[rocket.chat-conference-call](guides/rocket.chat-conference-call/README.md)
 {% endcontent-ref %}
 
 {% content-ref url="guides/administration/admin-panel/settings/analytics.md" %}
@@ -74,8 +74,8 @@ This user guide incorporates a description of the features and capabilities, mod
 
 ## Minimum Requirements
 
-{% content-ref url="quick-start/mobile-and-desktop-apps/minimum-requirements-for-using-rocket.chat.md" %}
-[minimum-requirements-for-using-rocket.chat.md](quick-start/mobile-and-desktop-apps/minimum-requirements-for-using-rocket.chat.md)
+{% content-ref url="quick-start/installing-client-apps/minimum-requirements-for-using-rocket.chat.md" %}
+[minimum-requirements-for-using-rocket.chat.md](quick-start/installing-client-apps/minimum-requirements-for-using-rocket.chat.md)
 {% endcontent-ref %}
 
 {% content-ref url="quick-start/deploying-rocket.chat/hardware-requirements.md" %}
