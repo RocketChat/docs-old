@@ -20,7 +20,7 @@ node main.js
 
 Installing with the `docker compose file`, you can also specify the `INITIAL_USER`, `ADMIN_USERNAME` and `ADMIN_PASSWORD` directly.
 
-```
+```yml
     environment:
       - PORT=3000
       - ROOT_URL=http://localhost:3000

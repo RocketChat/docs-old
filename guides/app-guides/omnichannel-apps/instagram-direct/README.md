@@ -18,8 +18,8 @@ Please find more info on the official rollout page by Instagram Direct [here](ht
 **You must have the** [**omnichannel feature**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#enable-omnichannel) **enabled as well as have** [**agents**](https://docs.rocket.chat/guides/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/guides/omnichannel/managers) **assigned in order to receive and send omnichannel messages.**
 {% endhint %}
 
-{% content-ref url="instagram-Direct-installation.md" %}
-[instagram-Direct-installation.md](instagram-Direct-installation.md)
+{% content-ref url="instagram-direct-installation.md" %}
+[instagram-direct-installation.md](instagram-direct-installation.md)
 {% endcontent-ref %}
 
 {% content-ref url="instagram-direct-configuration/" %}

@@ -49,17 +49,13 @@ redirects:
     api/rest-api/methods/users/create: development-docs.md
     developer-guides/realtime-api/method-calls/login: development-docs.md
     developer-guides/realtime-api/method-calls/login/: development-docs.md
-    developer-guides/rest-api/im: development-docs.md
     developer-guides/rest-api/livechat: development-docs.md
-    installation/manual-installation/centos/: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
-    guides/developer/iframe-integration/authentication/testing-the-iframe-authentication: development-docs.md
     quick-start/installing-and-updating/manual-installation/centos: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
     user-guides/voice-and-video-calls: guides/rocket.chat-conference-call/README.md
     developer-guides/deeplink: development-docs.md
     developer-guides/rest-api/users/info: development-docs.md
     api/realtime-api/subscriptions/stream-notify-room: development-docs.md
     api/rest-api/methods/chat/getthreadslist: development-docs.md
-    api/rest-api/methods/users/create: development-docs.md
     guides/administration/administration/settings/email/direct-reply: guides/administration/admin-panel/settings/email/direct-reply.md
     administrator-guides/setting-up-video-conferencing: guides/rocket.chat-conference-call/conference-call-admin-guide/README.md
     api/realtime-api: development-docs.md
@@ -74,12 +70,12 @@ redirects:
     developer-guides/rest-api/rate-limiter/: development-docs.md
     developer-guides/rest-api/rooms/upload: development-docs.md
     developer-guides/rest-api/subscriptions/get: development-docs.md
+    quick-start/accessing-your-workspace/creating-the-first-administrator: quick-start/accessing-your-workspace/admin-account-creation.md
+    quick-start/accessing-your-workspace/starting-and-stopping: quick-start/accessing-your-workspace/starting-and-stopping-docker-compose.md
     developer-guides/ui-and-theming: development-docs.md
     guides/administration/admin-panel/settings/ldap/user-search-settings: guides/administration/admin-panel/settings/ldap/README.md
     guides/administration/administration/settings/email/setup: guides/administration/admin-panel/settings/email/setup.md
     guides/administration/settings/file-upload: guides/administration/admin-panel/settings/file-upload/README.md
-    quick-start/installing-and-updating/manual-installation/centos?ref=https://githubhelp.com: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
+    quick-start/installing-and-updating/manual-installation/centos: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
     developer-guides/rest-api/rooms/upload: development-docs.md
     
-
-

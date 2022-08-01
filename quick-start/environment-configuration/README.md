@@ -4,20 +4,20 @@
 [node-configuration](node-configuration/)
 {% endcontent-ref %}
 
-{% content-ref url="mongodb-configuration.md" %}
-[mongodb-configuration.md](mongodb-configuration.md)
+{% content-ref url="mongodb-configuration/" %}
+[mongodb-configuration](mongodb-configuration/)
 {% endcontent-ref %}
 
-{% content-ref url="../installing-and-updating/other-deployment-methods/manual-installation/extras/optional-configurations.md" %}
-[optional-configurations.md](../installing-and-updating/other-deployment-methods/manual-installation/extras/optional-configurations.md)
+{% content-ref url="optional-configurations.md" %}
+[optional-configurations.md](optional-configurations.md)
 {% endcontent-ref %}
 
-{% content-ref url="../installing-and-updating/other-deployment-methods/manual-installation/extras/" %}
-[extras](../installing-and-updating/other-deployment-methods/manual-installation/extras/)
+{% content-ref url="extras/" %}
+[extras](extras/)
 {% endcontent-ref %}
 
-{% content-ref url="../installing-and-updating/other-deployment-methods/manual-installation/extras/configuring-ssl-reverse-proxy.md" %}
-[configuring-ssl-reverse-proxy.md](../installing-and-updating/other-deployment-methods/manual-installation/extras/configuring-ssl-reverse-proxy.md)
+{% content-ref url="configuring-ssl-reverse-proxy.md" %}
+[configuring-ssl-reverse-proxy.md](configuring-ssl-reverse-proxy.md)
 {% endcontent-ref %}
 
 {% content-ref url="environment-variables.md" %}

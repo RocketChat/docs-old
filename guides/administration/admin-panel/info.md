@@ -97,7 +97,7 @@ More details on usage info can be seen on the [engagement-dashboard.md](engageme
 
 ## Federation Info
 
-[RocketChat's Federation](settings/federation.md#introduction) lets you set up communication between RocketChat servers.
+[RocketChat's Federation](settings/federation/#introduction) lets you set up communication between RocketChat servers.
 
 **Enabled**: Enables federation on your server.
 
@@ -122,7 +122,7 @@ We recommend using **DNS**.
 
 Next, continue by adding the given DNS records on your server then follow the given instructions.
 
-More on federa**t**ion setup can be seen in [this section](settings/federation.md).
+More on federa**t**ion setup can be seen in [this section](settings/federation/).
 
 We also have a guide on [talking-to-users-from-another-server.md](../../user-guides/talking-to-users-from-another-server.md "mention").
 
