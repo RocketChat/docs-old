@@ -129,7 +129,7 @@ Change the values as you need. Save and exit.
 
 ### MongoDB Configuration
 
-Open the MongoDB config file (`/etc/mongod.conf`) in your favourite text editor. It is a simple YAML file.
+Open the MongoDB config file (`/etc/mongod.conf`) in your favorite text editor. It is a simple YAML file.
 
 Set the storage engine to `wiredTiger`.
 

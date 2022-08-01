@@ -72,4 +72,4 @@ Do the configurations and **Save changes**
 
 * Accept the permission required to proceed
 
-![Microsoft login grant permision](<../../../../../.gitbook/assets/Microsoft login grant permision>)
+![Microsoft login grant permission](<../../../../../.gitbook/assets/Microsoft login grant permision>)

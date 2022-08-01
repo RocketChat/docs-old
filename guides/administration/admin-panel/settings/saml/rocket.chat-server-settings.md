@@ -82,8 +82,8 @@
 ### User Interface
 
 * **Button Text**: Text to display on the button
-* **Button Text Color**: Lets you set the button text colour
-* **Button Color**: The button colour
+* **Button Text Color**: Lets you set the button text color
+* **Button Color**: The button color
 
 ### Behavior
 

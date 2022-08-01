@@ -53,7 +53,7 @@ In addition, due to the sheer number of high quality entrants, Rocket.Chat has d
 | Student | Project | Mentors |
 | :--- | :--- | :--- |
 | Pradeep Kumar | Livechat Reports and Analytics | Renato Becker |
-| Nitesh Saxena | Intgration with IPFS | Sing Li, Ankit Bhatia |
+| Nitesh Saxena | Integration with IPFS | Sing Li, Ankit Bhatia |
 | Arthur Temporim | Enhanced BOT Adapters | Diego Dorgam, John Szaszvari |
 
 All of the eleven students have been contacted by mentors and have started the community bonding period.
