@@ -115,7 +115,7 @@ October 1st our services will no longer continue to guarantee support for Rocket
 
 Each Rocket.Chat release supports different versions of MongoDB, the table below presents the support of MongoDB versions for each major Rocket.Chat release in addition of the deprecated version that will be removed on the next or subsequent versions.
 
-> Rocket.Chat only adds or removes support of MongoDB versions on major releases so the minor versions are ommited on table below.
+> Rocket.Chat only adds or removes support of MongoDB versions on major releases so the minor versions are omitted on table below.
 
 #### MongoDB Support
 
@@ -135,7 +135,7 @@ The upgrade guides available from the official MongoDB documentation are listed 
 * [Upgrade Replicat Set to 4.4](https://docs.mongodb.com/manual/release-notes/4.4-upgrade-replica-set/)
 * [Upgrade Replicat Set to 5.0](https://docs.mongodb.com/manual/release-notes/5.0-upgrade-replica-set/)
 
-> It's possible to bypass the MongoDB version check by using the environment variable `BYPASS_MONGO_VALIDATION=true`. Bare in mind that this work around should be used only when extrictly necessary and may prevent some functionalities to work properly or even prevent the server to start.
+> It's possible to bypass the MongoDB version check by using the environment variable `BYPASS_MONGO_VALIDATION=true`. Bare in mind that this work around should be used only when strictly necessary and may prevent some functionalities to work properly or even prevent the server to start.
 
 ## Browser versions
 

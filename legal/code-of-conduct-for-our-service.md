@@ -32,7 +32,7 @@ We do not want the following behavior on open.rocket.chat:
 * Flirting or adult content - take these conversations elsewhere
 * Posting of links \(URLs\) to offensive material, sites hosting malware, initiating downloads or promoting illegal activities
 * Flooding the chat, spamming, multiple repeats of the same or slightly modified messages
-* Reregistering under another account after you have been banned and still under a ban period
+* Re-registering under another account after you have been banned and still under a ban period
 
 ## Reporting unwanted behavior
 
