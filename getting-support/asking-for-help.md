@@ -91,7 +91,7 @@ If you opt for community's help instead of paid support, please notice that:
 * Please do **not** DM anyone unless you know them, or they DM you first
 * Please do **not** randomly use _@ people_ or _@all_ hoping to get attention
 * Abuse of these things will **not** get any help but can get you muted, blocked, or banned.
-* Don't open a bug yet. When you ask in the channels or forums then devs or other community helpers will tell you if you really need to open an issue. Frequently if there really is a problem you won't be the first one to experience it, so always check github carefully for duplicates. Use lots of different search terms and make sure you check closed Issues as well (see below).
+* Don't open a bug yet. When you ask in the channels or forums then developers or other community helpers will tell you if you really need to open an issue. Frequently if there really is a problem you won't be the first one to experience it, so always check github carefully for duplicates. Use lots of different search terms and make sure you check closed Issues as well (see below).
 * Do not ask the same question in multiple channels. Use the channel (from mentioned) that you think is most relevant to your issues. [Support](https://open.rocket.chat/channel/support), [React-Native](https://open.rocket.chat/channel/react-native), [Ubuntu Snap](https://open.roocket.chat/channel/ubuntu-snap),[Raspberry Pi](https://open.rocket.chat/channel/raspberrypi), [Omnichannel](https://open.rocket.chat/channel/omnichannel), [Desktop](https://open.rocket.chat/channel/desktop), [Federation](https://open.rocket.chat/channel/federation)
 
 ## **Is it a feature request?**
