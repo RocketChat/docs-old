@@ -80,12 +80,3 @@ redirects:
     master/server-management/integration-and-webhooks/telegram: guides/administration/admin-panel/integrations/telegram.md
     installation/paas-deployments/ibm-bluemix/: quick-start/deploying-rocket.chat/README.md
     guides/administration/settings/video-conference-admin-guide/jitsi-admins-guide: guides/rocket.chat-conference-call/README.md
-    administrator-guides/retention-policies1: guides/administration/admin-panel/settings/retention-policies.md
-    api/: development-docs.md
-    guides/administrator-guides/misc.-admin-guides/custom-emoji: guides/administration/admin-panel/custom-emoji.md
-    api/rest-api/methods/rooms/get: development-docs.md
-    api/realtime-api: development-docs.md
-    api/livechat-api: development-docs.md
-    
-    
-    
