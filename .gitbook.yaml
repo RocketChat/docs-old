@@ -74,8 +74,6 @@ redirects:
     quick-start/accessing-your-workspace/starting-and-stopping: quick-start/accessing-your-workspace/starting-and-stopping-docker-compose.md
     guides/administration/administration/settings/email/setup: guides/administration/admin-panel/settings/email/setup.md
     guides/administration/settings/file-upload: guides/administration/admin-panel/settings/file-upload/README.md
-    quick-start/installing-and-updating/manual-installation/centos: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
-    developer-guides/rest-api/rooms/upload: development-docs.md
     quick-start/installing-and-updating/paas-deployments/oracle-cloud: quick-start/deploying-rocket.chat/README.md
     master/server-management/integration-and-webhooks/telegram: guides/administration/admin-panel/integrations/telegram.md
     installation/paas-deployments/ibm-bluemix/: quick-start/deploying-rocket.chat/README.md
