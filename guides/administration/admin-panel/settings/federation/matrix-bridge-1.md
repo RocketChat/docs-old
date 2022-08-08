@@ -88,7 +88,7 @@ You can [create a channel in Rocket.Chat](https://docs.rocket.chat/guides/user-g
 
 You can invite users from other servers through the slash command.&#x20;
 
-![Invite users through the slash command](<../../../../../.gitbook/assets/federationslashcommand (1).png>)
+![Invite users through the slash command](<../../../../../.gitbook/assets/federationslashcommand (2).png>)
 
 {% hint style="info" %}
 If you invite another Rocket.Chat server. It currently will auto-accept.
