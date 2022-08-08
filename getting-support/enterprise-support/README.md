@@ -35,6 +35,7 @@ In case of security-relevant bugs, we might decide to backport patches to older 
 
 | Rocket.Chat Release | Latest Version                                                          |  Released At |  End of Life |
 | ------------------- | ----------------------------------------------------------------------- | -----------: | -----------: |
+| 5.0                 | 5.0.2                                                                   |    July 2022 |     Oct 2022 |
 | **4.8 (LTS)**       | 4.8.1                                                                   | **May 2022** | **Nov 2022** |
 | 4.7                 | [4.7.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.7.4)   |     Apr 2022 |    July 2022 |
 | 4.6                 | [4.6.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.6.3)   |     Mar 2022 |     Jun 2022 |
@@ -102,6 +103,7 @@ October 1st our services will no longer continue to guarantee support for Rocket
 | 2.x                 |         May 2020 |         Oct 2020 |
 | 3.x                 |         Jan 2022 |         Jun 2022 |
 | 4.x                 |              TBD |              TBD |
+| 5.x                 |              TBD |              TBD |
 
 ## MongoDB versions
 
@@ -117,6 +119,7 @@ Each Rocket.Chat release supports different versions of MongoDB, the table below
 | 2.x                 |           3.4, 3.6, 4.0 |                3.4 |
 | 3.x                 |           3.4, 3.6, 4.0 |                3.4 |
 | 4.x                 | 3.6, 4.0, 4.2, 4.4, 5.0 |           3.6, 4.0 |
+| 5.x                 |           4.2, 4.4, 5.0 |                4.2 |
 
 The upgrade guides available from the official MongoDB documentation are listed below. Bear in mind that it's not possible to skip a version when upgrading, e.g. to upgrade from 3.2 to 3.6 it's necessary to upgrade from 3.2 to 3.4 first and then to 3.6.
 

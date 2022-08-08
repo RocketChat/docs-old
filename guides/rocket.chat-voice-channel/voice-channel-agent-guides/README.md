@@ -1,3 +1,3 @@
-# Call Center Agent Guides
+# Voice Channel Agent Guides
 
-This section explains various VoIP components on the agent’s console.&#x20;
+This section explains various VoIP components on the agent’s console.
