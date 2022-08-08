@@ -31,20 +31,28 @@ Now you need to prepare the FreePBX firewall to accept AMI (Asterisk Manager Int
 ### 2.1 Configure custom services AMI and WSS
 
 \
-Navigate to **Connectivity > Firewall > Services**. Under the Services tab search for **WebRTC** and mark **Internet** and **Other** options, **Local** is active by default.
+Navigate to **Connectivity > Firewall > Services > Enable Firewall**. Under the Services tab search for **WebRTC** and mark **Internet** and **Other** options, **Local** is active by default.
 
-![  Services ](<../../../../.gitbook/assets/ Configure the FreePBX firewall>)
+![Firewall - services](<../../../../.gitbook/assets/Firewall - services - FreePBX.png>)
 
 We want **WebRTC** in the Internet zone because the Webphone will connect from the client’s IP address, which could be anywhere.
 
-Navigate to the **Custom Services** tab and hit the **Create new service**, name the service AMI, select TCP, and write the port range 5038:5039. Click **Save**. Mark the **Other** option and **Save** (green check mark). AMI goes in the “Other” zone because only some specific endpoints should be connecting to AMI.
+Navigate to the **Custom Services** tab and hit the **Create new service**, name the service AMI, select TCP, and write the port range 5038:5039. Click **Save**.&#x20;
 
-![Custom Services](<../../../../.gitbook/assets/Custom Services FreePBX.png>)
+![Create new service](<../../../../.gitbook/assets/Create new service - FreePBX.png>)
+
+Mark the **Other** option and **Save**.&#x20;
+
+{% hint style="info" %}
+AMI goes in the “Other” zone because only some specific endpoints should be connecting to AMI.
+{% endhint %}
+
+![AMI service](<../../../../.gitbook/assets/AMI service-FreePBX.png>)
 
 ### **2.2 Whitelist Rocket.Chat**
 
 \
-Now you don’t want your Rocket.Chat to get banned by the FreePBX firewall so you have to add it to the Whitelist List. First, you need to know the IP or IP Networks from your Rocket.Chat instance. When you have a SaaS Rocket.Chat instance you will have a URL (subdomain) like <mark style="color:blue;">MyChosenName.rocket.chat</mark>, so just ping it. In this demo case:
+Now you don’t want your Rocket.Chat to get banned by the FreePBX firewall so you have to add it to the Whitelist List. First, you need to know the IP or IP Networks from your Rocket.Chat instance. When you have a SaaS Rocket.Chat instance you will have a URL (subdomain) like <mark style="color:blue;">MyChosenName.rocket.chat</mark>, so just ping it. In this demo:
 
 ![](<../../../../.gitbook/assets/Network ping.png>)
 
