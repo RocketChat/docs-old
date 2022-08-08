@@ -54,14 +54,14 @@ AMI goes in the “Other” zone because only some specific endpoints should be 
 \
 Now you don’t want your Rocket.Chat to get banned by the FreePBX firewall so you have to add it to the Whitelist List. First, you need to know the IP or IP Networks from your Rocket.Chat instance. When you have a SaaS Rocket.Chat instance you will have a URL (subdomain) like <mark style="color:blue;">MyChosenName.rocket.chat</mark>, so just ping it. In this demo:
 
-![](<../../../../.gitbook/assets/Network ping.png>)
+![](../../../../.gitbook/assets/image.png)
 
 Rocket.Chat will be connecting from the whole network 51.81.0.0/16\
 If you have your own Rocket.Chat instance self-hosted or similar, you should know what’s your IP address or network.
 
 Now, navigate to **Connectivity > Firewall >** **Networks**, and add the IP address needed or Network. Select the **Other** zone and **Save**:
 
-![Network Definition](<../../../../.gitbook/assets/Network Difinition PBX.png>)
+![Network definitions](<../../../../.gitbook/assets/Network Difinition PBX.png>)
 
 Rocket.Chat will be in the **Other** zone.
 
@@ -75,13 +75,13 @@ This will only work if you have your FreePBX already activated.&#x20;
 
 Navigate to **Admin > Port Management**. Change the Admin (web portal) to another port and set Letsencrypt to port 80. Click **Update** **Now**.
 
-![Port management](<../../../../.gitbook/assets/Port management.png>)
+![Port management](<../../../../.gitbook/assets/Port management PBX.png>)
 
 Please note that until here you have been accessing the server by HTTP (not HTTPS) on port 80, until you finish SSL configuration you are going to be using the newly selected port, 8080 in this demo.
 
 Now navigate to **Admin > Certificate Management**, and click on **New Certificate** > **Generate Let’s Encrypt Certificate**:
 
-![Certificate management](<../../../../.gitbook/assets/Certificate management.png>)
+![Certificate management](<../../../../.gitbook/assets/Certificate management PBX.png>)
 
 Fill out the form according to your settings and click **Generate Certificate**:
 
