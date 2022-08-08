@@ -1,27 +1,31 @@
----
-description: >-
-  In this section, you can learn how to install the livechat widget on your
-  website.
----
-
 # Livechat Widget Installation
 
-To access **Livechat Installation** settings:
+The Livechat Widget is a chat interface that can be embedded into a webpage. This can serve in so many use cases like:
 
-Go to **Livechat Installation** in the omnichannel panel settings, as shown below:
+* Offering Live and real-time support to customers/users
+* Embedded to get information from people interacting with your website
 
-![](<../../.gitbook/assets/0 (10).png>)
+In this section, you'll learn how to install the Livechat widget on your website.
 
-## To install the livechat widget:
+To access this menu, go to **Avatar Menu**  > **Omnichannel** > **Livechat Installation**.
 
-1. Copy the given piece of code.
+### To install the Livechat widget:
+
+* Copy the given piece of code
 
 ![](<../../.gitbook/assets/1 (11).png>)
 
-1. Paste this code above the last **\</body>** tag on your site; the livechat widget will appear on the bottom right corner on your webpage.
+* Paste this code above the last **\</body>** tag on your site
+* The Livechat widget will appear at the bottom right corner of your webpage
 
-#### Deploying livechat widget to a different domain
+Visitors on your webpage will be able to click on it to initiate a conversation.
 
-If you are running the livechat widget from a different domain to your Rocket.Chat server you need to disable the **Restrict access inside any iframe** option under the General settings as shown in the screenshot below.&#x20;
+![Omnichannel Livechat Widget in action](<../../.gitbook/assets/Omnichannel Livechat Widget in action>)
+
+### Deploying Livechat Widget to a different domain
+
+To run the Livechat Widget on a domain different from that of your Rocket.Chat server, you need to disable **Restrict access inside any iframe** on your Rocket.Chat server.
+
+To do that, navigate to **Administration** > **Settings** > **General**
 
 ![Administration > General](<../../.gitbook/assets/restrict-access-inside-any-iframe (1).png>)

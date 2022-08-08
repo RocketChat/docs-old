@@ -11,47 +11,61 @@ In Rocket.Chat you can initiate video and audio conferences using your chosen pr
 1. [Direct call (within _Direct Messages)_](conference-call-users-guide.md#direct-messages)__
 2. [Conference call (within _Teams_, _Channels_, _Discussion_, _Multiple Direct Messages_)](conference-call-users-guide.md#conference-call)
 
-## Direct Messages
+### Initiating a call - Direct message
 
-### Initiating a direct call
+Click on the phone icon to start a conference call from within a direct message conversation, as shown in the highlighted part below:
 
-Click the **phone** icon to initiate a direct call from within a _Direct Message_ **** conversation, as shown below:
+![Initiating a call - direct messages](<../../.gitbook/assets/Initiating a call - direct messages-Conferenc.png>)
 
-![Direct call ](../../.gitbook/assets/DirectCall.png)
+In the next step, you may have pre-flight options like turning on/off the camera or microphone. (But these will be available depending on the conference call provider you have chosen for your workspace.)
 
-In the next step, check the user avatar and user status. Here you are also given the option to start the call with the camera turned off and microphone muted, as shown below:
+![Call initiation - direct messages](<../../.gitbook/assets/Call initiation-Conference call.png>)
 
-![Direct call initiation ](<../../.gitbook/assets/DirectCallUserIcon\&Status (1).png>)
+After clicking the call button, the pop-up changes to the “calling state”. This enables you to perform other actions while you wait for the receiver to answer. The ringer stays active for 30 seconds.
 
-After confirmation, a call pop-up appears in the top right corner and the ringer starts. This enables you to perform other actions while you wait for the receiver to answer. The ringer stays active for 30s, after that **Call again** button appears in the channel.  &#x20;
+![Calling state](<../../.gitbook/assets/Calling state-Conference call.png>)
 
-### Receiving a direct call
+After confirmation, a call pop-up appears in the top right corner and the ringer starts. This enables you to perform other actions while you wait for the receiver to answer. The ringer stays active for 30s. After that **Call again** button appears in the channel.  &#x20;
 
-A pop-up and a ringer appear on the receiver side.&#x20;
+### Incoming direct call
 
-## Conference
+Three things happen once you receive a call:
 
-### Initiating a video conference
+* A pop-up appears wherever you are in the Rocket.Chat application.&#x20;
+* The incoming call ringer starts to ring.&#x20;
+* An incoming call item will be highlighted in the left sidebar.
 
-Click the **Video conference** icon to initiate a conference call from within a _Teams_, _Channels_, _Discussion_, _Multiple Direct Messages_ **** conversation, as shown below:
+And three actions are possible in this situation:
 
-![Conference call](../../.gitbook/assets/ConferenceCall.png)
+* Accept and join the call room
+* Decline: giving the other user feedback through the chat
+* Dismiss: silently ignoring the call.
 
-In the next step, you are given the option to start the conference call with the camera turned off and the microphone muted. You can also name your conference call, as shown below:
+![Incoming direct call](<../../.gitbook/assets/Incoming direct call-Conference call.png>)
 
-![Conference initiation ](../../.gitbook/assets/ConferenceCallName.png)
+## Start a call - Room
 
-### Joining a conference call
+Click on the phone icon to start a conference call from within a Team, Channel, Discussion, and Multiple Direct Messages.
 
-Ongoing calls are shown as **Join** button in the room and the room members who have joined. Click **Join** button to join a conference call.
+In the next step, you may have pre-flight options like turning on/off the camera or microphone. (But these will be available depending on the conference call provider you have chosen for your workspace.)
+
+![Call initiation - room](<../../.gitbook/assets/Call initiation - room- conference call.png>)
+
+After clicking on the call button, a message will be sent in the room, where call participants will be shown as thumbnails.
+
+{% hint style="info" %}
+On Teams, Channels, Discussiosn and Multiple Direct Messages the ringing functionality is not available.
+{% endhint %}
+
+![Ongoing call - room](<../../.gitbook/assets/Ongoing call - room - conference call.png>)
 
 ### Video conference logs
 
-The counter on the video conference icon shows the number of ongoing calls in the room. After a conference is ended, the room keeps a record of:
+After a conference is ended, the room keeps a record of:
 
 * the user who initiated it
 * the start time
 * name of the conference and,
 * attendees&#x20;
 
-The video conference contextual bar keeps organized all conferences that happened on a channel.&#x20;
+The video conference contextual bar keeps all conferences that happened on a channel organized.&#x20;

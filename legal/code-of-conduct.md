@@ -30,9 +30,9 @@ We do not want the following behavior on open.rocket.chat:
 * Harassment, name-calling, racist or sexist remarks, profanity towards others and other forms of bullying
 * Insensitive behavior - this will be judged by the reaction of others in the channel
 * Flirting or adult content - take these conversations elsewhere
-* Posting of links \(URLs\) to offensive material, sites hosting malware, initiating downloads or promoting illegal activities
+* Posting of links (URLs) to offensive material, sites hosting malware, initiating downloads or promoting illegal activities
 * Flooding the chat, spamming, multiple repeats of the same or slightly modified messages
-* Re-registering under another account after you have been banned and still under a ban period
+* Reregistering under another account after you have been banned and still under a ban period
 
 ## Reporting unwanted behavior
 
@@ -42,7 +42,7 @@ Users affected by unwanted behavior can mute other users or report them to the a
 
 If you are asked to modify your behavior or given some other form of instruction but fail to comply, you are likely to be removed from the channel, the discussion or the whole server for a discretionary or unlimited period of time depending on the severity of the matter, depending on the administrator's decision.
 
-Depending on the severity of the misbehavior, users can get banned without warning or be issued a warning. Should administrators deem a subject matter to be inappropriate for the channel and / or the current audience, they may at their discretion make contact via Private Message, making clear any requirement to cease discussing the topic, or - as per their permission level - ban the user. A ban may be temporary \(in form of a ban period\) or permanent. In addition, the server administrator has the right to remove your user account.
+Depending on the severity of the misbehavior, users can get banned without warning or be issued a warning. Should administrators deem a subject matter to be inappropriate for the channel and / or the current audience, they may at their discretion make contact via Private Message, making clear any requirement to cease discussing the topic, or - as per their permission level - ban the user. A ban may be temporary (in form of a ban period) or permanent. In addition, the server administrator has the right to remove your user account.
 
 When being corrected by an administrator, please do not argue with them in the main chat. You should request a PM session to help avoid conflict and keep the involvement of others to a minimum.
 
@@ -58,5 +58,4 @@ If you believe that an administrator has misused their authority and you have co
 
 Note that it can take some time to review log files and liaise with the administrator team, so please don't expect an immediate response.
 
-In case of a ban period issued, you are welcome to return to the channel once your ban period expires, but please be mindful of the reason\(s\) you got banned, abide by the rules and take into account any administrator feedback received.
-
+In case of a ban period issued, you are welcome to return to the channel once your ban period expires, but please be mindful of the reason(s) you got banned, abide by the rules and take into account any administrator feedback received.

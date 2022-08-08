@@ -1,59 +1,56 @@
 ---
 description: >-
-  The setup wizard guides you through the process of setting up your first admin
-  user, configuring your organization and registering your server to receive
+  The Cloud Setup Wizard guides you through the process of setting up your first
+  admin user, configuring your organization, registering your server to receive
   free push notifications, and more.
 ---
 
-# Cloud account setup wizard
+# Cloud Account Setup Wizard
 
-## Admin Info
+## Create your Rocket.Chat Cloud account and first admin user using the setup wizard
 
-To set up your first admin user:
+### Access Rocket.Chat using browser
+
+Open [http://localhost:3000/setup-wizard/1](http://localhost:3000/setup-wizard/1) in a web browser. You will be prompted to create an admin user.
+
+### Administrator Information
+
+You can fill in this information as it is required to create the first user who will automatically be the administrator of your Rocket.Chat workspace.
+
+![Admin Information](../../.gitbook/assets/admininfo.png)
 
 1. Enter the admin's **Full name**.
 2. Enter the admin's **Username**.
 3. Enter **Company Email.**
 4. Enter the **Password**.
-5. Hit **Next.**
+5. Click **Next.**
 
-![](<../../.gitbook/assets/2022-01-28\_01-26-27 (1).png>)
+### Organization Information
 
-## Organization Info
+On the next screen, you can fill out the necessary information for your organization.
 
-To configure your organization :
+![Organization Information](<../../.gitbook/assets/org info.png>)
 
 1. Enter the **Organization name**.
 2. Choose **Organization type**.
 3. Select the **Organization industry.**
 4. Select the **Organization** **size**.
 5. Choose your **Country**.
-6. Hit **Next**.
+6. Click **Next**.
 
-![](../../.gitbook/assets/2022-01-28\_01-29-59.png)
+### Register your server
 
-## Register your Server
+* You can register your server with the features such as mobile push notifications, third-party integrations, and access to the Rocket.Chat app marketplace or run it as a standalone service.
 
-You can either register your server or move forward as a standalone.
-
-![](../../.gitbook/assets/2022-01-28\_01-35-24.png)
+![Server Registration](<../../.gitbook/assets/register server.png>)
 
 {% hint style="info" %}
-To register your server we need to connect it to your cloud account. If you already have one- we will like it automatically. Otherwise, a [new account](https://docs.rocket.chat/rocket.chat-saas/cloud-account/create-new-cloud-account) will be created.
+To register your server, we need to connect it to your cloud account. If you already have one- we will like it automatically. Otherwise, you need to create a [new account](https://docs.rocket.chat/rocket.chat-saas/cloud-account/create-new-cloud-account).
 {% endhint %}
 
 ## ![](../../.gitbook/assets/2022-01-28\_01-53-56.png)
 
-You receive a confirmation email at the address you have given above to register your server.
-
-![](../../.gitbook/assets/2022-01-28\_01-57-46.png)
-
-Please click **Verify Registration**.
-
-![](../../.gitbook/assets/2022-01-28\_02-02-42.png)
+* You will receive an email to the registered email address with a confirmation link. You must verify the security code that matches the one in the email.
+* Click **Verify Registration**.
 
 Your workspace is ready. Click **Go to your workspace** to access it.
-
-![](<../../.gitbook/assets/image (80).png>)
-
-![](<../../.gitbook/assets/image (81).png>)

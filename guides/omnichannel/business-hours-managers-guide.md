@@ -1,45 +1,33 @@
 # Business Hours Manager's Guide
 
 {% hint style="info" %}
-Multiple Business Hours is Rocket.Chat Enterprise Feature
+Multiple Business Hours is [Rocket.Chat Enterprise](../enterprise-edition-trial/) Feature.
 {% endhint %}
 
-The feature turns on the omnichannel toggle for the set business hours automatically. And you will be able to receive omnichannel conversations after. The toggle will be turned off during off-hours. The enterprise workspaces have an option to set up multiple business hours according to different time zones and their business needs. Community workspaces can only set up one set of business hours.
+Setting business hours lets you specify the working days and hours of your business. This reflects on the Livechat widget availability making it easy for agents to be notified and hence receive queries.
 
-To access **Business** **Hours** settings:
+The enterprise workspaces have an option to set up multiple business hours according to different time zones and their business needs. Community workspaces can only set up one set of business hours.
 
-1. Go to the dots menu and hit **Omnichannel**. Omnichannel settings will open up.
+To access **Business** **Hours** settings, navigate to **Avatar Menu  > Omnichannel > Business** **Hours**.&#x20;
 
-![](<../../.gitbook/assets/image (589).png>)
+![Omnichannel Business hours](<../../.gitbook/assets/Omnichannel Business hours>)
 
-2\. Hit **Business** **Hours.**
+## 1. Create New Omnichannel Business Hours
 
-![](<../../.gitbook/assets/image (491).png>)
+To create a new business hour:
 
-**To add a new set of hours to your workspace:**
+* Click +**New** on the top right of the screen
+* A page for the department details is seen, fill the details and **Save**
+  * **Enabled**: Enables the working hour
+  * **Name**: Name of the working hour
+  * **Departments**: A dropdown to select the departments in which this working hour will apply
+  * **Timezone**: Select the timezone
+  * **Open Days of the Week**: Pick open days of the week. Each selected day lets you set an open and close time.
 
-1. Click the add button.
+![Omnichannel create business hours](<../../.gitbook/assets/Omnichannel create business hours>)
 
-![](<../../.gitbook/assets/2 (1).png>)
 
-1. Name your new set of hours and select the department you are setting your business hours for.
 
-![](<../../.gitbook/assets/3 (1).png>)
+## View and Edit Omnichannel Business Hours
 
-1. Select your timezone.
-
-![](<../../.gitbook/assets/4 (1).png>)
-
-1. Select open days of the week and business hours for each day.
-
-![](<../../.gitbook/assets/5 (1).png>)
-
-Note that if you are an agent who is in a conversation with a customer and you have reached the closing hour, you'll still finish the last conversation. After you have closed this conversation, the omnichannel toggle will be set to off automatically.
-
-1. Hit **Save.**
-
-![](<../../.gitbook/assets/6 (1).png>)
-
-Your new set of **Business** **Hours** are saved, as shown below:
-
-![](<../../.gitbook/assets/7 (1).png>)
+On the Business Hours page, a list of all the created business hours is seen. Clicking on any opens up a popup with its respective settings. You can edit to make changes and **Save**

@@ -2,7 +2,7 @@
 
 [![Google Season of Docs 2019](https://github.com/Sing-Li/bbug/raw/master/images/gsodlogo.png)](https://developers.google.com/season-of-docs/)
 
-[Season of Docs](https://g.co/seasonofdocs) is Google's annual program that fosters collaboration between open source projects and professional technical writers.&#x20;
+[Season of Docs](https://g.co/seasonofdocs) is Google's annual program that fosters collaboration between open source projects and professional technical writers.
 
 Season of Docs is a unique program that pairs professional technical writers with open source mentors to introduce the technical writer to an open source community and provide guidance while the writer works on a real-world open source project. The technical writer, in turn, provides documentation expertise to the open source organization.
 
@@ -12,7 +12,7 @@ Projects can cover a wide range of fields including Cloud computing, operating s
 
 Rocket.Chat operates a 24 x 7 community server at [http://open.rocket.chat](http://open.rocket.chat) Please contact us through the Google Seasons of Docs 2022 channel at [https://open.rocket.chat/channel/gsod2022](https://open.rocket.chat/channel/gsod2022)
 
-Interested professional technical writers can directly send us an email to [gsod@rocket.chat](mailto:gsod@rocket.chat).&#x20;
+Interested professional technical writers can directly send us an email to [gsod@rocket.chat](mailto:gsod@rocket.chat).
 
 See [official GSoD 2022 rules](https://developers.google.com/season-of-docs/docs/tech-writer-guide) for more information.
 
@@ -40,7 +40,7 @@ Rocket.Chat supports over 59 local languages. Rocket.Chat's community interacts 
 
 ### The problem
 
-Rocket.Chat can be extended through apps. Apps are considerably easier to code than modifying the large Rocket.Chat code base. But we are seriously lacking on documentation for Apps developers.
+Rocket.Chat can be extended through apps. Apps are considerably easier to code than modifying the large Rocket.Chat code base. But we are seriously lacking on documation for Apps developers.
 
 New app builders have a hard time navigating our existing meager documentation. There is a lack of details and current contents are difficult to understand. This makes building an app a very time consuming activity and causes developers to get frustrated or even abandon their projects.
 
@@ -50,12 +50,12 @@ As it exists today, it is very difficult to develop an app without getting help 
 
 This writer will
 
-* Design the ideal layout and content flow which should improve the learning experience of new developers.&#x20;
-* Update the existing articles on GitBook with the help of GSoD administrator, including automatically generated API references, existing articles, webinar contents and code comments.&#x20;
-* Identify any gaps, as in missing pieces in the documentation.&#x20;
-* Fill the identified gaps by adding supporting documentation.&#x20;
-* Incorporate feedback from documentation testers (volunteer testers from our community) and the wider Rocket.Chat community.&#x20;
-* Collaborate with project administrators to validate and test the documentation and identify any opportunities of improvement.&#x20;
+* Design the ideal layout and content flow which should improve the learning experience of new developers.
+* Update the existing articles on GitBook with the help of GSoD administrator, including automatically generated API references, existing articles, webinar contents and code comments.
+* Identify any gaps, as in missing pieces in the documentation.
+* Fill the identified gaps by adding supporting documentation.
+* Incorporate feedback from documentation testers (volunteer testers from our community) and the wider Rocket.Chat community.
+* Collaborate with project administrators to validate and test the documentation and identify any opportunities of improvement.
 * Update current READMEs to help new contributors navigate to the right resources including how to create Rocket.Chat Apps and resources around Git and Pull Requests.
 
 ### Measuring Success

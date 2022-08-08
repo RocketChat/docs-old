@@ -1,30 +1,16 @@
----
-description: >-
-  This feature allows you to view the chat flow (conversation) and your livechat
-  agents' performance (productivity) over a span of time that you choose.
----
-
 # Analytics
 
-To access **Analytics** settings:
+This feature allows you to view the chat flow (conversation) and your [Livechat agents'](agents.md) performance (productivity) over a span of time that you choose.
 
-Go to  **Avatar Menu  > Omnichannel > Analytics**
+To access the Omnichannel Analytics settings, go to  **Avatar Menu  > Omnichannel > Analytics.** In this section, you can filter analytics based on **** `Type`, `Department`, `Start and End date`**.**
 
-## To view conversation history:
+## Omnichannel Agents Conversation Analytics
 
-1. Select Conversations from the drop-down.
+* Select conversations from the **Type** dropdown menu to view conversation history analytics
+* Select your desired department
+* Select your desired start date and end date
 
-![](<../../.gitbook/assets/1 (10).png>)
-
-1. Select your desired department.
-
-![](<../../.gitbook/assets/8 (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
-
-1. Select your desired start date and end date.
-
-![](<../../.gitbook/assets/9 (5) (1) (1) (1) (1).png>)
-
-### Details of conversation matrices:
+### Details of conversation matrices
 
 ![](<../../.gitbook/assets/4 (10).png>)
 
@@ -32,33 +18,25 @@ Go to  **Avatar Menu  > Omnichannel > Analytics**
 
 **Open Conversations:** It represents the total number of open conversations for your selected department during the chosen period.
 
+**On Hold Conversations**: Shows the conversations on hold
+
 **Total Messages:** It represents the total number of messages received in all the conversations during a selected period.
 
 **Busiest Day:** It shows the day during which you received the most chats for your selected time.
 
 **Conversation Per Day:** It shows the average count of conversations you received per day.
 
-**Busiest Time:** It shows the hour during which you received most chats for your selected period of time.
+**Busiest Time:** It shows the hour during which you received the most chats for your selected period of time.
 
-You can also see the **percentage of conversations**, an **average of chat duration**, and **total messages handled** by each one of your agents from your selected department, as shown below:
-
-![](<../../.gitbook/assets/5 (10).png>)
+You can also see the **percentage of conversations**, the **average of chat duration**, and **total messages handled** by each one of your agents from your selected department, from the **Chart** field
 
 ![](<../../.gitbook/assets/6 (9).png>)
 
-## To view productivity history of your agents:
+## Omnichannel Agent Productivity Analytics
 
-1. Select Productivity from the drop-down.
-
-![](<../../.gitbook/assets/7 (7).png>)
-
-1. Select your desired department.
-
-![](<../../.gitbook/assets/8 (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2) (1).png>)
-
-1. Select your desired start date and end date.
-
-![](<../../.gitbook/assets/9 (5) (1) (1) (1) (2) (1).png>)
+* Select Productivity from the **Type** dropdown menu to view Productivity history analytics
+* Select your desired department
+* Select your desired start date and end date
 
 ### Details of productivity matrices:
 

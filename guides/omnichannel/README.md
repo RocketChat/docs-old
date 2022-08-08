@@ -1,23 +1,20 @@
----
-description: >-
-  OmniChannel adds the ability to receive conversations from a pop-up livechat
-  support on your website or your business Facebook chat or any other channel
-  directly in Rocket.chat.
----
-
 # Omnichannel
 
-If you struggle to handle leads and clients in a multi-channel environment, you lose valuable potential sales. That's where Omnichannel comes into the picture. Omnichannel is a communication strategy essential to **acquire** and **retain** customers. It is designed to create an exceptional customer experience across the company’s brands, building a better relationship with its audience. It gives consumers a choice to engage with you on their favorite channels:
+The Rocket.Chat [Omnichannel ](https://en.wikipedia.org/wiki/Omnichannel)capabilities give you the possibility to streamline conversations from various mediums into Rocket.Chat. This feature can be extended in several ways
 
-* SMS
-* Email
-* Voice
-* WhatsApp
-* Telegram
-* Facebook Messenger
-* Live Chat, and so on.
+* You can integrate the [Omnichannel Livechat pop-up widget](livechat-widget-installation.md) into your website that can serve as an entry point for communication or direct support to your customers or visitors.
+* Using advanced [Omnichannel Apps](../app-guides/omnichannel-apps/) and integrations, provide for a seamless experience between Rocket.Chat and external users from other communication platforms like
+  * [WhatsApp](../app-guides/omnichannel-apps/whatsapp/)
+  * [SMS](../app-guides/omnichannel-apps/sms.md)
+  * [Facebook](../app-guides/omnichannel-apps/facebook-app/)
+  * [Instagram Direct](../app-guides/omnichannel-apps/instagram-direct/)
+  * [Twitter](../app-guides/omnichannel-apps/twitter-app/)
+  * [Telegram](../app-guides/omnichannel-apps/telegram-app/)
+  * [Email](../app-guides/omnichannel-apps/email-inboxes/)
 
-{% embed url="https://docs.rocket.chat/guides/app-guides/omnichannel-apps" %}
+{% hint style="info" %}
+A very practical use case is using omnichannel to **acquire** and **retain** customers in a multi-channel environment in order to save valuable potential sales while building relationships, providing an exceptional experience and the possibility to communicate and engage with multiple communication mediums.
+{% endhint %}
 
 ## Omnichannel Activation
 
@@ -25,15 +22,15 @@ If you struggle to handle leads and clients in a multi-channel environment, you 
 
 To enable the Omnichannel feature on your Rocket.Chat instance:
 
-1. Go to **Avatar Menu > Administration > Settings > Omnichannel**
-2. **Enable** omnichannel
+1. Go to **Administration > Settings > Omnichannel**
+2. **Enable** omnichannel and hit **Save changes**
 
 Now the admin will have access to _**Omnichannel Panel Settings**_ through a new menu called `Omnichannel`, as shown below:
 
 ![Omnichannel panel settings](<../../.gitbook/assets/image (587).png>)
 
 {% hint style="info" %}
-[Find out how to configure omnichannel on your Rocket.Chat workspace.](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#configuration)
+[Find out how to configure omnichannel on your Rocket.Chat workspace.](../administration/admin-panel/settings/omnichannel-admins-guide/)
 {% endhint %}
 
 Omnichannel area of Rocket.Chat has three primary users.
@@ -42,7 +39,7 @@ Omnichannel area of Rocket.Chat has three primary users.
 2. [Managers](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel-manger-guides)
 3. [Agents](https://docs.rocket.chat/guides/omnichannel/agents)
 
-Being an omnichannel manager, you can access omnichannel settings by: **Avatar Menu  > Omnichannel**
+Being an [omnichannel manager](managers.md), you can access omnichannel settings by **Avatar Menu  > Omnichannel**
 
 ![Omnichannel panel](<../../.gitbook/assets/image (58).png>)
 

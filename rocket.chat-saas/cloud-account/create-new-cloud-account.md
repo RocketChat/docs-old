@@ -1,35 +1,33 @@
 ---
 description: >-
-  Cloud account gives you limited access to manage your rocket.chat workspace.
-  It's available both for self-managed as well as SaaS customers.
+  Rocket.Chat Cloud allows you to connect your self-hosted Rocket.Chat workspace
+  to services we provide in our Cloud.
 ---
 
 # Create your new cloud account
 
-If you are a self-managed customer cloud  account is optional but if you are a SaaS customer, it is created by default when you first create your workspace with us.
+Rocket. Chat Cloud enables you to manage your workspace better. You can explore the workspace capabilities for free by signing up for a 30-day Rocket.Chat Gold Edition Plan. You will get a notification in advance of when the trial is coming to an end. If you purchase any plan, your trial version will automatically convert to a paid plan at the end of the trial period.
 
-## To create a new cloud account:
+#### Before you begin
 
-* Go to [cloud.rocket.chat](http://cloud.rocket.chat)&#x20;
+If you are a self-managed customer**,** a cloud account is optional, but if you are a SaaS customer, it is created by default when you first start your workspace with us.
 
-![](../../.gitbook/assets/2022-01-28\_00-59-16.png)
+## Create a new cloud account
 
-* You are notified that a verification email has been sent to your email address.
+Log in to your Rocket.Chat Cloud account using your email or create a new account if you don't have one.&#x20;
 
-![](<../../.gitbook/assets/image (69).png>)
+* Go to [https://cloud.rocket.chat/register](https://cloud.rocket.chat/register).&#x20;
+* Click **Create Account** to register your new Rocket.Chat cloud account.
 
-* Open your email account and confirm your email address.&#x20;
+![Cloud Account Registration](<../../.gitbook/assets/Cloud Account Registration.png>)
 
-![](<../../.gitbook/assets/image (70).png>)
+* Enter your name.&#x20;
+* In the "**Email**" field, enter your contact email address.&#x20;
+* Enter and confirm your password.
+* Make sure to accept the Rocket.Chat Terms and Conditions and Privacy Policy.
+* Click **Next.** You will receive an email with the confirmation link to sign in to your cloud account.
+* Next, go to your inbox and confirm your email address by clicking on the link we sent; your cloud account has been created and is ready to use.&#x20;
 
-* After you confirm your email you are taken to password setup, as shown below:
+To begin with, you will see a **Workspaces** page with all the workspaces linked to your cloud account.
 
-![](<../../.gitbook/assets/image (71).png>)
-
-* As soon as you click **Continue** on the password page, rocket.chat will start creating your cloud account, as shown below:
-
-![](<../../.gitbook/assets/image (72).png>)
-
-* Copy and share the link to your new rocket.chat cloud account with your colleagues. Hit **Start now** to set up your new rocket.chat cloud account.
-
-![](<../../.gitbook/assets/image (73).png>)
+![Workspaces](../../.gitbook/assets/WorkspacePage.png)

@@ -1,6 +1,6 @@
 # Canned Responses Omnichannel Manager's Guide
 
-![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (10) (14).jpg>)
+![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (9) (1).jpg>)
 
 {% hint style="info" %}
 Canned responses allow you to save message snippets that you can call with shortcuts (preceded with `!`) to communicate a quick note to your visitors in Omnichannel and for messaging in regular conversations inside your Rocket.Chat's workspace.
@@ -66,7 +66,7 @@ You can share your canned response according to your need.
 
 1. **Private**: Only you and Omnichannel managers can access your canned response.
 
-![](<../../../../.gitbook/assets/image (506) (2) (2) (1) (1) (1) (2) (3).png>)
+![](<../../../../.gitbook/assets/image (506) (2) (2) (1) (1) (3).png>)
 
 Please hit **Save**. Your new canned response is ready to be used in omnichannel conversations now, as shown below:
 

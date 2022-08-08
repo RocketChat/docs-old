@@ -1,47 +1,21 @@
----
-description: >-
-  In this menu, you can assign any user the Monitor role. You can also search a
-  user in the list of Monitors and remove a user from the list.
----
+# Monitors Omnichannel Guide
 
-# Monitors Manager's Guide
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (15) (1).jpg>)
 
-![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (10) (21).jpg>)
+Monitors in Omnichannel are users that have the ability to monitor Omnichannel activities and have access to [Current Chats](current-chats.md), [Analytics](analytics.md), Real-time Monitoring, Agents, Departments, Business Hours and Canned Responses.
 
-To access **Monitors** settings:
+To access this setting, go to **Avatar Menu  > Omnichannel > Monitors**.
 
-To access **Monitors** settings:
+![Omnichannel Monitors Page](<../../.gitbook/assets/Omnichannel Monitors Page>)
 
-Go to Omnichannel panel settings, as shown below:
+## 1. List Omnichannel Monitors
 
-![](<../../.gitbook/assets/0 (8) (5) (5) (5) (5) (5) (4) (4) (1) (1) (1) (1) (12) (10) (19).png>)
+On the Monitors page, a list of all the users with `livechat-monitor` role is displayed. From here, you can add new monitors or delete existing monitors.
 
-Settings appear, as shown below:
+## 2. Add New Omnichannel Monitor
 
-![](<../../.gitbook/assets/1 (6).png>)
+To add a new monitor(s), enter the person's username in the username field and hit the **Add** button. This will automatically assign that user the `livechat-monitor` role.
 
-## **To assign a user the Monitor role:**
+## 3. Delete Omnichannel Monitor
 
-1. Select the user from the drop-down, as shown below:
-
-![](<../../.gitbook/assets/2 (6).png>)
-
-1. Hit **Add**.
-
-![](<../../.gitbook/assets/3 (6).png>)
-
-1. The user has the Monitor role now, as shown below:
-
-![](<../../.gitbook/assets/4 (6).png>)
-
-## **To Search a Monitor by name:**
-
-Enter the Monitor’s name in the search bar, as shown below:
-
-![](<../../.gitbook/assets/5 (6).png>)
-
-## **To remove a user from Monitor’s list:**
-
-To remove a user from the list of monitors, hit **remove**, as shown below:
-
-![](<../../.gitbook/assets/6 (5).png>)
+To delete an Omnichannel Monitor, click the **Delete icon** on the right across the user. This will remove the `livechat-monitor` role from that user.

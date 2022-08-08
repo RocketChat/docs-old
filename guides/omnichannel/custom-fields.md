@@ -1,70 +1,49 @@
----
-description: >-
-  In this menu, you can add some additional fields to the registration form that
-  your visitors fill out when they start a livechat conversation.
----
-
 # Custom Fields
 
-To access **Custom Fields** settings:
+Custom fields can be added to receive additional information from visitors during registration before initiating a Livechat conversation.
 
-Go to Omnichannel panel settings, as shown below:
-
-![](<../../.gitbook/assets/0 (8) (5) (5) (5) (5) (5) (4) (4) (1) (1) (1) (1) (12) (10) (18).png>)
-
-Custom Fields menu appears, as shown below:
-
-![](<../../.gitbook/assets/1 (7).png>)
+To access this menu, go to **Avatar Menu  > Omnichannel > Custom Fields**. Here, you can **View**, **Create New**,  **Edit** or **Delete** an existing field.
 
 {% hint style="info" %}
-The registration form has **Name**, **Email**, and **I need Help With…**/Department fields by default.
+The Livechat registration form has the **Name**, **Email**, and **I need Help With…**(Department) fields by default.
 {% endhint %}
 
-## To add your custom field:
+## Create Omnichannel Custom Field
 
-Hit +New.
+To create a new custom field:
 
-![](<../../.gitbook/assets/2022-01-23\_18-36-40 (1).png>)
-
-The **New Custom Field** page appears, as shown below:
+* Click on **+New** from the custom field panel
+* A page is seen with properties to be set, fill in the values and **Save**
 
 ![](../../.gitbook/assets/2022-01-23\_18-47-17.png)
 
-* **Field:** Enter the desired **field** that you want to add to your livechat registration form. E.g., **last-name**. It is mandatory.
-* **Label:** Enter its label. E.g., **Last Name**. It is mandatory.
-* **Scope:** Select scope as **Visitor**.
-* **Visible:** Make it visible.
+* **Field**: Enter the desired field that you want to add to your Livechat registration form. E.g., last name.
+* **Label:** Label of the field
+* **Scope:** A dropdown for you to set the scope of the room
+* **Visible:** Whether or not to make it visible
 
-![](../../.gitbook/assets/2022-01-23\_18-44-32.png)
-
-## Enterprise Edition Settings ![](../../.gitbook/assets/2022-01-23\_20-47-25.png)
+### Enterprise Edition Omnichannel Custom Fields![](../../.gitbook/assets/2022-01-23\_20-47-25.png)
 
 {% hint style="warning" %}
 The rest of the settings (mentioned below) are **Enterprise** only.
 {% endhint %}
 
-* Validation: Enter Validation.
-* Required: Set as a required field if you want.
-* Type: Choose the input type (Input/Select) of the field
-* Default value: Set the default value, if any.
-* Options: Comma-separated list used to select a pre-configured value. Spaces between elements are not accepted.
-* Public: Set it Public. Public custom fields will be displayed in external applications, such as Livechat, etc.
-* Hit Save.
+* **Validation**: Lets you set validation Validation.
+* **Required**: When enabled, the field will be set as required.
+* **Type**: Choose the input type (`Input/Select`) of the field
+* **Default value**: Set the default value of the field
+* **Options**: Comma-separated list used to select a pre-configured value. Spaces between elements are not accepted.
+* **Public**: Set it Public this will be displayed in external applications, such as Livechat
 
-It is saved in the list of custom fields, as shown below:
+When a custom field is created and made public, any value supplied in that field is available on the [Livechat agent's](agents.md) side.
 
-![](../../.gitbook/assets/2022-01-23\_21-00-43.png)
+## Edit Omnichannel Custom Field
 
-It appears in the livechat widget, as shown below:
+To edit an Omnichannel Custom Field:&#x20;
 
-![](<../../.gitbook/assets/2022-01-23\_21-10-25 (2).png>)
+* Click on the said field from the panel
+* A section is opened with all the current details of that field which can be modified and saved.
 
-If the contact sends a message, it gets reflected in the **Contact Information** as well.
+## Delete Omnichannel Custom Field
 
-![](<../../.gitbook/assets/2022-01-23\_21-13-12 (1).png>)
-
-## To delete a custom field:
-
-Hit remove.
-
-![](<../../.gitbook/assets/2022-01-23\_21-00-43 (2).png>)
+To delete an Omnichannel Custom Field, click on the **delete icon** by the right of the field from the Custom Field panel.

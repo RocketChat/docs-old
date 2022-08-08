@@ -39,8 +39,8 @@ docker compose up -d
 
 This is going to:
 
-* Start a MongoDB service named `mongodb`.
-* Start a service `rocketchat`, that will also wait for `mongodb` to be ready.
+1. Start a MongoDB service named `mongodb`.
+2. Start a service `rocketchat`, that will also wait for `mongodb` to be ready.
 
 Mongo supports 24 x 7 operations and live backup. You should not need to restart it too frequently. See [MongoDB documentation](https://www.mongodb.com/docs/manual/) for proper operation and management of a Mongo server.
 
@@ -49,3 +49,7 @@ Optionally, if you want to manage your messages and configuration information, e
 ### Updating Rocket.Chat Docker Image
 
 To update the `rocketchat` docker image to the latest version, update the `RELEASE` value in your `.env` file, then simply run `docker compose up -d`. Your data should not be affected by this, since it's located in the `mongo` image.
+
+{% content-ref url="../../../upgrading-rocket.chat.md" %}
+[upgrading-rocket.chat.md](../../../upgrading-rocket.chat.md)
+{% endcontent-ref %}

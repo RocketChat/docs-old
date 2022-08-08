@@ -30,3 +30,14 @@ docker run \                                                                    
 rocketchat/rocket.chat:X.X.X
 ```
 
+### Mongo Authentication Role
+
+If you are using mongo authentication you might also need to add the `clustermonitor` role to your user. This is a requirement in order for your instance to be able to use `change streams`.
+
+Execute the following command replacing the users with that selected for your users.
+
+```
+admin = db.getSiblingDB("admin");
+admin.grantRolesToUser('OPLOGUSER',[{ role: "clusterMonitor", db: "admin" }])
+admin.grantRolesToUser('ROCKETUSER',[{ role: "clusterMonitor", db: "admin" }])
+```

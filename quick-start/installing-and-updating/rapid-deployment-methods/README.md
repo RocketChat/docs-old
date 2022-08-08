@@ -3,7 +3,7 @@
 Whether you are a newbie, developer, or nontechnical person, Rocket.Chat offers a variety of deployment methods you can get started with regardless of the platform you intend to use.
 
 {% hint style="info" %}
-Our personal favorite and recommended choice is to use [Docker and Docker Compose](docker-and-docker-compose/)
+Our recommended choice is to use [Docker and Docker Compose](docker-and-docker-compose/)
 {% endhint %}
 
 Before we dive into deployment, make sure you meet the [hardware-requirements.md](../hardware-requirements.md "mention")

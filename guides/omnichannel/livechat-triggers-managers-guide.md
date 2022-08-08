@@ -1,86 +1,33 @@
----
-description: >-
-  Livechat triggers is a setting that opens the livechat widget on your website
-  automatically. Your visitor will not have to go and open the widget. Livechat
-  Trigger will open the widget for them.
----
-
 # Livechat Triggers Manager's Guide
 
-To access **Livechat Triggers** settings:
+Omnichannel Livechat Triggers are a set of events that can be configured that when they happen, causes the Livechat widget to perform an action or opens up automatically.
 
-Go to Omnichannel panel settings, as shown below:
+To access this menu, go to **Avatar Menu  > Omnichannel > Livechat Triggers**. Here, you can **View**, **Create New**,  **Edit** or **Delete** existing Livechat Triggers.
 
-![](<../../.gitbook/assets/0 (8) (5) (5) (5) (5) (5) (4) (4) (1) (1) (1) (1) (12) (10) (17).png>)
+## Create New Omnichannel Livechat Trigger
 
-Livechat Triggers menu appears, as shown below:
+To create a new Omnichannel Livechat Trigger:&#x20;
 
-![](<../../.gitbook/assets/1 (8).png>)
+* Click +**New** on the top right of the screen
+* A page for the department details is seen, fill in these details and **Save**
 
-## To set up a new trigger:
+![Create New Omnichannel Livechat Trigger](<../../.gitbook/assets/Create New Omnichannel Livechat Trigger>)
 
-1. Hit **New Trigger**.
+* Fields involved:
+  * **Enable**: Enables the Livechat Trigger
+  * **Run only once for each visitor**: Enable to let the trigger only run once for each visitor. If false, you get a recurring pop-open. (e.g., If your user goes to a different website and comes back to the same website, it pops open)
+  * **Name**: Name your new trigger.
+  * **Description**: Lets you set the description of the trigger.
+  * **Condition**: Lets you set the condition for which the action will be triggered. Depending on what condition to track, you can set additional properties for validation.
+  * **Action**: Define the action you want the Livechat widget to perform. For now, there is only one option of sending a message to the visitor. You can also select if you want to impersonate the next available agent in the queue or use a bot/custom agent.
 
-![](<../../.gitbook/assets/2 (8).png>)
+## Edit Omnichannel Livechat Trigger
 
-On the New Trigger screen:
+To edit an Omnichannel Livechat Trigger:&#x20;
 
-![](<../../.gitbook/assets/3 (8).png>)
+* Click on the Trigger from the list of Triggers
+* A section is opened with all the current details of that Trigger which can be modified and saved.
 
-1. Enable your new trigger.
+## Delete Omnichannel Livechat Trigger
 
-![](<../../.gitbook/assets/4 (8).png>)
-
-1. Please select whether you want to run it for each visitor or want it to be a recurring pop-open. (e.g., If your user goes to a different website and comes back to the same website, it pops-open)
-
-![](<../../.gitbook/assets/5 (8).png>)
-
-1. Name your new trigger.
-
-![](<../../.gitbook/assets/6 (7).png>)
-
-1. Mention its description.
-
-![](<../../.gitbook/assets/7 (5).png>)
-
-1. Choose whether you want your livechat widget to pop-open once the user visits a particular page of your website in **Condition**.
-
-![](<../../.gitbook/assets/8 (4).png>)
-
-Or if you want to open it after a set time elapsed for the user while being on the page.
-
-![](<../../.gitbook/assets/9 (4).png>)
-
-Mention the time in seconds.
-
-![](<../../.gitbook/assets/10 (3).png>)
-
-1. Mention the **Action** you want your livechat widget to take. For now, there is only one option of sending a message to the visitor.
-
-![](<../../.gitbook/assets/11 (3).png>)
-
-You can also select if you want to impersonate the next available agent in the queue or use a bot/custom agent.
-
-![](<../../.gitbook/assets/12 (3).png>)
-
-Type your message.
-
-![](<../../.gitbook/assets/13 (3).png>)
-
-1. Hit **Save**.
-
-![](<../../.gitbook/assets/14 (3).png>)
-
-Your new livechat trigger is saved, as shown below:
-
-![](<../../.gitbook/assets/15 (3).png>)
-
-## To delete a livechat trigger:
-
-1. Hit **Remove**.
-
-![](<../../.gitbook/assets/16 (3).png>)
-
-1. Click **Yes**.
-
-![](<../../.gitbook/assets/17 (3).png>)
+To delete an Omnichannel Livechat Trigger, click on the **delete icon** by the right of the Trigger from the list of all Triggers.

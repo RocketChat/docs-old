@@ -1,37 +1,19 @@
----
-description: >-
-  In this menu, you can assign any user the manager role. You can also search
-  for a user in the list of managers.
----
-
 # Managers
 
-To access **Managers** settings:
+Omnichannel managers are responsible for managing omnichannel conversations, they can [monitor ](real-time-monitoring.md)and see [analytics](analytics.md) of omnichannel activities.
 
-Go to Omnichannel panel settings, as shown below:
+To access this menu, go to **Avatar Menu  > Omnichannel > Managers**. Here, you can **view**, **add** or **remove** managers.
 
-![](<../../.gitbook/assets/0 (8) (5) (5) (5) (5) (5) (4) (4) (1) (1) (1) (1) (12) (1).png>)
+![Omnichannel manager panel](<../../.gitbook/assets/Omnichannel manager panel>)
 
-Settings appear, as shown below:
+## 1. View Omnichannel Managers
 
-![](<../../.gitbook/assets/image (20).png>)
+On visiting the Omnichannel managers page, a list of all the existing managers is seen with their details and can be paginated if you have many managers.
 
-## **To assign a user the manager role:**
+## 2. Add a new Omnichannel manager
 
-1. Select the user from the drop-down, as shown below:
+To add a user as an Omnichannel manager, simply search or select the user from the **username field** and **Add**. This will automatically assign the `Livechat Manager` role to that user and they can now [monitor ](real-time-monitoring.md)and see [analytics](analytics.md) of omnichannel activities.
 
-![](<../../.gitbook/assets/2 (4).png>)
+## 3. Remove Omnichannel manager
 
-1. Hit **Add**.
-
-![](<../../.gitbook/assets/image (21).png>)
-
-1. The user has the manager role now, as shown below:
-
-![](<../../.gitbook/assets/image (22).png>)
-
-## **To Search a manager by name:**
-
-Enter the manager’s name in the search bar, as shown below:
-
-![](<../../.gitbook/assets/image (23).png>)
+To remove or revoke Omnichannel manager access from a user, click the **delete icon** by the right of the user on the Omnichannel managers list. This will remove the `Livechat Manager` role from that user and they won't be able to [monitor](real-time-monitoring.md), [view analytics](analytics.md) or even see the omnichannel menu.

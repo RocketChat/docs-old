@@ -2,13 +2,13 @@
 
 Add GitLab notifications via a new WebHook in Rocket.Chat
 
-1. In Rocket.Chat go to "Administration"-&gt;"Integrations" and create "New Integration".
+1. In Rocket.Chat go to "Administration"->"Integrations" and create "New Integration".
 2. Choose Incoming WebHook.
 3. Follow all instructions like Enable, give it a name, link to channel etc. Set "Enable Script" to true and enter the javascript in the "Script" box.
-4. Press Save changes and copy the _Webhook URL_ \(added just below the script box\).
-5. Go to your GitLab project, ie. [https://gitlab.com/](https://gitlab.com/)&lt; username &gt;/&lt; project &gt;/hooks . It's in the project "settings" under Webhooks menu GitLab.
-6. Add a new webhook by pasting the Rocket.Chat url you've copied in step 4, select at least 1 checkbox and press the button \(conveniently called "Add Webhook"\).
-7. Test the webhook with the "Test Hook" button in GitLab, a topbar should appear with more info \(success or failure\).
+4. Press Save changes and copy the _Webhook URL_ (added just below the script box).
+5. Go to your GitLab project, ie. [https://gitlab.com/](https://gitlab.com/)< username >/< project >/hooks . It's in the project "settings" under Webhooks menu GitLab.
+6. Add a new webhook by pasting the Rocket.Chat url you've copied in step 4, select at least 1 checkbox and press the button (conveniently called "Add Webhook").
+7. Test the webhook with the "Test Hook" button in GitLab, a topbar should appear with more info (success or failure).
 
 Paste this in javascript in the "Script" text area on Rocket.Chat webhook settings
 
@@ -84,7 +84,7 @@ class Script { // eslint-disable-line
         return {
             content: {
                 username: 'Rocket.Cat ErrorHandler',
-                text: 'Error occurred while parsing an incoming webhook request. Details attached.',
+                text: 'Error occured while parsing an incoming webhook request. Details attached.',
                 icon_url: '',
                 attachments: [
                     {
@@ -100,7 +100,7 @@ class Script { // eslint-disable-line
         return {
             content: {
                 username: data.user ? data.user.name : (data.user_name || 'Unknown user'),
-                text: `Unknown event '${event}' occurred. Data attached.`,
+                text: `Unknown event '${event}' occured. Data attached.`,
                 icon_url: data.user ? data.user.avatar_url : (data.user_avatar || ''),
                 attachments: [
                     {
@@ -385,4 +385,3 @@ See: ${data.object_attributes.url}`
 This example contains code for several hooks. It can easily be extended with more. Source: [https://github.com/malko/rocketchat-gitlab-hook](https://github.com/malko/rocketchat-gitlab-hook).
 
 GitLab webhook help: [https://docs.gitlab.com/ee/user/project/integrations/webhooks.html](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html)
-

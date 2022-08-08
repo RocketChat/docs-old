@@ -1,22 +1,16 @@
----
-description: >-
-  Webhooks allow you to integrate the Rocket.Chat Omnichannel to any third-party
-  system, e.g., CRM, Zoho, etc
----
-
 # Webhooks Manager's Guide
 
-To access **Webhooks** settings:
+Webhooks allow you to integrate the Rocket.Chat Omnichannel to any third-party system, e.g., CRM, Zoho, etc
 
-Go to **Webhooks** in the omnichannel panel settings, as shown below:
+To access **Webhooks** settings, go to **Avatar Menu  > Omnichannel > Webhooks**.&#x20;
 
-![](<../../.gitbook/assets/0 (14).png>)
+## Create Omnichannel Webhook
 
-1. Get the Webhook URL from the system you want to connect
-2. Enter the secret token
-3. Select the actions you want this integration to have
+To create a new omnichannel webhook, you need to provide the following details
 
-![](<../../.gitbook/assets/1 (14).png>)
+* **Webhook URL**: The Webhook URL from the system you want to connect
+* **Secret Token**: Enter the secret token
+* **Send Request on**: Select the action(s) you want this integration to have
 
 If you select Chat Start:
 
@@ -28,7 +22,7 @@ Rocket.chat will send a webhook to the external system telling it that a new con
 
 Here is an example of the JSON data sent at the end of a Livechat session:
 
-```
+```json
 {
     "type": "LivechatSession",
     "_id": "fasd6f5a4sd6f8a4sdf",
@@ -83,7 +77,7 @@ Here is an example of the JSON data sent at the end of a Livechat session:
 
 Here is an example of the JSON data sent on a Livechat offline message:
 
-```
+```json
 {
     "type": "LivechatOfflineMessage",
     "sentAt": "2016-06-01T19:55:53.867Z",
@@ -95,6 +89,8 @@ Here is an example of the JSON data sent on a Livechat offline message:
 }
 ```
 
+{% hint style="info" %}
 The field **Secret Token** is sent to a header `X-RocketChat-Livechat-Token` so you can validate if the request became from Livechat.
 
-If your endpoint returns a response status other than 200, Rocket.Chat will retry 10 times waiting 10 seconds between retries.
+If your endpoint returns a response status other than `200`, Rocket.Chat will retry 10 times waiting 10 seconds between retries.
+{% endhint %}

@@ -34,3 +34,5 @@ Rocket.Chat's conference call enterprise feature set allows you to use the follo
 |   **Load user names from Rocket.Chat**  |    **x**   | **✓** | **✓** |       **x**      |
 |  **Load user avatars from Rocket.Chat** |    **x**   | **✓** | **✓** |       **x**      |
 |       **End calls automatically**       |    **x**   | **x** | **✓** |       **x**      |
+
+To configure conference call on your Rocket.Chat workspace, follow the [**administration guide**](https://docs.rocket.chat/guides/rocket.chat-conference-call/conference-call-admin-guide). If you have it configured already, follow the [**user's guide**](https://docs.rocket.chat/guides/rocket.chat-conference-call/conference-call-users-guide) to start using it.

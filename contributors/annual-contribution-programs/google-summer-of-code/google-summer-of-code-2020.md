@@ -45,7 +45,7 @@ We have two community sponsored projects with students dropping out during this 
 | ----------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | Ashwani Yadav     | Omnichannel: Add screen sharing feature in the Livechat widget        | Guilherme Gazzo, Renato Becker, Tasso Evangelista, Marcos Defendi    |
 | Ritwiz Sinha      | Apps-CLI: Hot reload apps during development                          | Douglas Gubert, Shiqi Mei, Rodrigo Nascimento                        |
-| Ezequiel Reis     | Full-screen composer option to send/edit long messages on mobile apps | Djorkaeff Alexandre, Ramkumar Kalpathy,  Diego Mello, Rowan Youngson |
+| Ezequiel Reis     | Full-screen composer option to send/edit long messages on mobile apps | Djorkaeff Alexandre, Ramkumar Kalpathy, Diego Mello, Rowan Youngson  |
 | Govind Dixit      | Create F-Droid build                                                  | Diego Mello, Djorkaeff Alexandre                                     |
 | Adarsh Naidu      | Alexa Skill(s) Improvement                                            | Ashish Jha, Prajval Raval, Weng Wei                                  |
 | Murtaza Patrawala | Omnichannel: Chatbot support for RASA and Dialogflow                  | Renato Becker, Marcos Defendi, David Lassalle, Steve Stetak          |
@@ -55,11 +55,11 @@ It was a very difficult decision for us to select _seven_ from the large number 
 
 While some high calibre open source contributors were not selected for GSoC; to accommodate these exceptional students, our community member Credit Suisse APAC has agreed to sponsor an additional THREE projects this season.
 
-| Student               | Sponsored Project                                     | Mentors                                         |
-| --------------------- | ----------------------------------------------------- | ----------------------------------------------- |
-| Neil Agarwal          | Audio Improvements on mobile apps                     | Nathan Khoo, Diego Mello, Djorkaeff Alexandre   |
-| Youssef Muhamad       | Add Analytics to Mobile Apps                          | Noorul Ameen,  Diego Mello, Djorkaeff Alexandre |
-| Shreyansh Singh Tomar | Content Moderation Rocket.Chat App (Machine Learning) | John Eric Sobrepena, Karan Bedi                 |
+| Student               | Sponsored Project                                     | Mentors                                        |
+| --------------------- | ----------------------------------------------------- | ---------------------------------------------- |
+| Neil Agarwal          | Audio Improvements on mobile apps                     | Nathan Khoo, Diego Mello, Djorkaeff Alexandre  |
+| Youssef Muhamad       | Add Analytics to Mobile Apps                          | Noorul Ameen, Diego Mello, Djorkaeff Alexandre |
+| Shreyansh Singh Tomar | Content Moderation Rocket.Chat App (Machine Learning) | John Eric Sobrepena, Karan Bedi                |
 
 Furthermore, Viasat, one of Rocket.Chat's long-time community supporters, has agreed to sponsor TWO projects this season.
 
@@ -74,7 +74,7 @@ All students and mentors are now busy mutually bonding and with our core team an
 
 #### Update March 31st, 2020
 
-First, we would like to thank all GSoC 2020 students for their enthusiastic support for Rocket.Chat. This year we have received a total of **86** proposals, including **81** final proposals. In the final pool, there are 13 proposals that are spam, without content, or not related to our projects.
+First, we would like to thank all GSoC 2020 students for their ethusiastic support for Rocket.Chat. This year we have received a total of **86** proposals, including **81** final proposals. In the final pool, there are 13 proposals that are spam, without content, or not related to our projects.
 
 Over the next month, our mentors will be reviewing the received proposals. Google Summer of Code will be announcing the selected projects and students on May 4th, 2020. Please see [GSoC timeline](google-summer-of-code-2020.md#timeline) for more details.
 
@@ -90,9 +90,9 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 [https://github.com/lolimay/GSoC-Contribution-Leaderboard-Node](https://github.com/lolimay/GSoC-Contribution-Leaderboard-Node)
 
-We have recently arranged for the TOP 8 student contributors to meet one on one with Rocket.Chat's project lead Gabriel Engel and great remote fun was had by all.
+We have recnetly arranged for the TOP 8 student contributors to meet one on one with Rocket.Chat's project lead Gabriel Engel and great remote fun was had by all.
 
-Mentoring interest from core team has been reduced this year, while community mentor participation is at an all time high. Proposals for projects are streaming steadily in since application open, the volume of incoming proposals is reduced compared to prior year - but the percentage of high quality proposals has increased.
+Mentoring interest from core team has been reduced this year, while community mentor participation is at an all time high. Proposals for projects are streaming steadily in since application open, the volume of incoming proposals is reduced compared to prior year - but the percentage of high quality propsals has increased.
 
 #### About GSoC 2020
 
@@ -119,8 +119,8 @@ Interested students are also encouraged to interact with our contributor communi
 ### Advanced Rocket.Chat administrators and operations toolkit
 
 * **Mentors**: [@diego.sampaio](https://open.rocket.chat/direct/diego.sampaio), [@sing.li](https://open.rocket.chat/direct/sing.li)
-* **Description**: Administration and management of a Rocket.Chat server is a very complex task, especially for servers that are utilized by thousands of users on a daily basis.  There exists many administrative and operational activities that require access to the system in ways that are not currently supported by our Administrative dashboard.  This project creates small, standalone tools, to address this need. These tools will be immediately useful for anyone operating one-or-more large Rocket.Chat server(s) worldwide.
-* **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReactJS or Vue.js ideal.  Must have database skills, ideally MongoDB.
+* **Description**: Administration and management of a Rocket.Chat server is a very complex task, especially for servers that are utilized by thousdands of users on a daily basis. There exists many administrative and operational activities that require access to the system in ways that are not currently supported by our Administrative dashboard. This project creates small, standalone tools, to address this need. These tools will be immediately useful for anyone operating one-or-more large Rocket.Chat server(s) worldwide.
+* **Desirable Skills**: Familiarity with nodeJS fullstack webapp development. Experience with ReactJS or Vue.js ideal. Must have database skills, ideally MongoDB.
 
 ### Download Manager on Desktop App
 
@@ -128,7 +128,7 @@ Interested students are also encouraged to interact with our contributor communi
 * **Description**: With the React/Redux/Redux-Saga stack coming to the Electron-based app, a richer user experience is achievable through [Rocket.Chat's Fuselage components](https://github.com/RocketChat/Rocket.Chat.Fuselage). A long-awaited feature is the management of file downloads with some tracking of download progress and ability to cancel/restart.
 * **Desirable Skills**: Some knowledge about the concept of CSS-in-JS and popular implementations for React (e.g. [Styled Components](https://styled-components.com), [Emotion](https://emotion.sh/docs/introduction)) as well basic understanding about the [Electron framework](https://www.electronjs.org).
 
-### Omnichannel:  Chatbot support for RASA and Dialogflow
+### Omnichannel: Chatbot support for RASA and Dialogflow
 
 * **Mentors**: @renatobecker, [@marcos.defendi](https://open.rocket.chat/direct/marcos.defendi)
 * **Description**: The goal of this project would be to create new integrations to interact with popular BOT frameworks - RASA and Dialogflow. Also, support and adapt rich messages to the formats of these platforms, as well as the formats supported by Rocket.Chat.
@@ -137,7 +137,7 @@ Interested students are also encouraged to interact with our contributor communi
 ### Omnichannel: Live Agent and Chatbot Handoff App
 
 * **Mentors**: @steve.stetak, @dlassalle, @renatobecker
-* **Description**: Enhance Omnichannel Rocket.Chat with an app to support the use of Chatbots, powered by NLP such as Dialogflow, in front of a larger existing infrastructure of Care Live Agents.  The focus of this app being the seamless transfer between Bot, Live Agent, and Bot again.  If the Chatbot is unable to solve their issue, the app will seamlessly route them to a Live Agent through a third-party queue system such as Salesforce. At the end of the conversation, the customer will be reconnected back to the chatbot for additional support or CSAT survey purposes, all within the same chat client window for the customer.
+* **Description**: Enhance Omnichannel Rocket.Chat with an app to support the use of Chatbots, powered by NLP such as Dialogflow, in front of a larger existing infrastructure of Care Live Agents. The focus of this app being the seamless transfer between Bot, Live Agent, and Bot again. If the Chatbot is unable to solve their issue, the app will seamlessly route them to a Live Agent through a third-party queue system such as Salesforce. At the end of the conversation, the customer will be reconnected back to the chatbot for additional support or CSAT survey purposes, all within the same chat client window for the customer.
 * **Desirable Skills**: Familiarity with Rocket.Chat development, Salesforce, and NLP or Chatbot experience
 
 ### Omnichannel: Add screen sharing feature in the Livechat widget
@@ -237,7 +237,7 @@ Interested students are also encouraged to interact with our contributor communi
 * **Mentors**:[@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo) and [@tasso.pinto](https://open.rocket.chat/direct/tasso.evangelista)
 * **Description**: Rocket.Chat already has an option to load the UI as embedded layout, although it still loads a lot of unnecessary data, the objective here is to find the most efficient way to render a single room UI with the minimum data possible in a way that the UI can be embedded in a website using an iframe and be performatic when reloading within the site navigation
 
-### UI to see videos outside the room,  using popouts
+### UI to see videos outside the room, using popouts
 
 * **Mentors**: [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo) and [@tasso.pinto](https://open.rocket.chat/direct/tasso.evangelista)
 * **Description**: A new UI component to be rendered outside the room view allowing users to listen to the room’s videos when navigating to other rooms.
@@ -262,7 +262,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 * **Mentors**: @ashish.jha @prajval.raval1
 * **Project repository**: [https://github.com/RocketChat/google-action-rocketchat](https://github.com/RocketChat/google-action-rocketchat)
-* **Description**: Bring access of Rocket.Chat into the world of 1 Billion+ Google Assistant enabled devices. The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Google Assistant ecosystem - powered by open source Rocket.Chat. The project will aim towards making current action compaitable with Multisever proxy and publishing of Google Action of on its store, of course while adding more features to it such as Interactive Canvas, App Actions etc.  This project will also focus on making current documentation more streamlined and "easy to refer" for newcomers.
+* **Description**: Bring access of Rocket.Chat into the world of 1 Billion+ Google Assistant enabled devices. The project should aim beyond the obvious TTS <-> STT "Rocket.Chat bridging" of intelligent VUI terminal devices and create innovative, high valued user experiences to the Google Assistant ecosystem - powered by open source Rocket.Chat. The project will aim towards making current action compaitable with Multisever proxy and publishing of Google Action of on its store, of course while adding more features to it such as Interactive Canvas, App Actions etc. This project will also focus on making current documentation more streamlined and "easy to refer" for newcomers.
 * **Desirable Skills**: Familiarity with Google Actions development, Dialogflow, NodeJS Server Development and Rocket.Chat source code. Experience with interfacing external sources and systems into Google Action. Passion for global converstational interaction enablement.
 
 ### Use Lingohub on mobile apps
@@ -279,7 +279,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 ### Mobile Apps Accessibility
 
-* **Mentors:**  [@matheus.cardoso](https://open.rocket.chat/direct/matheus.cardoso)
+* **Mentors:** [@matheus.cardoso](https://open.rocket.chat/direct/matheus.cardoso)
 * **Project repository**: [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)
 * **Description:** Android and iOS both support gesture-based screen readers that let you enjoy using the phone even if you don’t see the screen. This is especially important for those with low or no vision. We want to make Rocket.Chat for everyone. A blind user should be able to easily add servers, change servers, read messages and send messages, as well as other additional functions such as editing profile and creating channels. The proposal should contain a per-screen study of the current App's state of accessibility (what is missing and what needs to be improved), and a roadmap to take it to a delightful state.
 * **Desirable Skills:** We are looking for a student who is familiar with team work, developing mobile Apps using React Native and JavaScript, as well as writing maintainable code with Unit Tests and having some familiarity with Voice Over (iOS), TalkBack (Android) and Accessibility. Knowledge of Swift/Objective-C and Kotlin/Java may be needed for some of the trickier tasks.
@@ -325,7 +325,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 * **Mentors**: @guilherme.gazzo
 * **Description**: Add the ability to manage and access recorded and previously live streamed video within the Rocket.Chat integrated Nextcloud environment. Similar to Youtube but with a chat-centric access interface.
-* **Desirable Skills**: Familiarity with Rocket.Chat and Nextcloud development.  Deep understanding of current digital streaming and recorded media standards a big plus.
+* **Desirable Skills**: Familiarity with Rocket.Chat and Nextcloud development. Deep understanding of current digital streaming and recorded media standards a big plus.
 
 ### Apple Watch App
 

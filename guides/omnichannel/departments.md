@@ -1,35 +1,36 @@
 # Departments
 
-If you want the omnichannel conversations to be directed to different departments, you can set the departments up in your enterprise Rocket.Chat workspace. For example, you may have livechats coming from various pages of your website, and you might want them to be handled by respective departments.
+An Omnichannel Department is a collection of rooms that can be configured based on a category as needed. These departments can be related directly to the various departments in your company.
 
-To access **Departments** settings:
+When set, [Livechat ](livechat-widget-installation.md)conversations can be directed to a specific department.
 
-1. Go to the dots menu and hit **Omnichannel**. Omnichannel settings will open up.
+{% hint style="info" %}
+A typical use case is when you have Livechat conversations being initiated from different places or pages of your website and you need them to be handled by different departments or groups of knowledge experts.
 
-![](<../../.gitbook/assets/2022-01-01\_14-31-40 (1).png>)
+See this section on how to [assign an agent to a department](agents.md#assign-omnichannel-agent-to-a-department).
+{% endhint %}
 
-2\. Hit **Departments.**
+To access this menu, go to **Avatar Menu  > Omnichannel > Departments**. Here, you can **View**, **Create New**,  **Edit** or **Delete** a department.
 
-![](../../.gitbook/assets/2022-01-01\_14-46-42.png)
+## **Create Omnichannel Department**
 
-### **Add a new Department**:
+To create a new Omnichannel department:&#x20;
 
-Click +**New** on the top right of the screen.
-
-The new department's settings page will appear, as shown below:
+* Click +**New** on the top right of the screen
+* A page for the department details is seen, fill these details and **Save**
 
 ![](../../.gitbook/assets/2022-01-01\_15-46-46.png)
 
-1. **Enable** your new department.
-2. **Name** your new department.
-3. Type in the **Description**. It's optional.
-4. **Show on registration page:** Allow your visitor to have the option to choose the department they want to talk to. The option will appear to your customer in the livechat widget, as shown below:
+1. **Enabled**: Enables your new department.
+2. **Name:** Name of the new department.
+3. **Description**. An optional field that lets you set the department description
+4. **Show on registration page:** Allow your visitor to have the option to choose the department they want to talk to. The option will appear to your customer in the livechat widget, as shown below:&#x20;
 
-![](<../../.gitbook/assets/8 (1).png>)
+![Livechat widget select department](<../../.gitbook/assets/Livechat widget select department>)
 
-5\. Forward your omnichannel conversations to the **Email** address of your choice, during the hours you are offline.
+5\. **Email**: Forward your omnichannel conversations to the email address of your choice, during the hours you are offline.
 
-6\. Enable the **Show on offline page** radio button if you want your department to show offline during off business hours. If you enable it will appear in the widget, as shown below:
+6\. **Show on offline page**: A radio button if you want your department to show offline during off business hours. If you enable it will appear in the widget, as shown below:
 
 ![](<../../.gitbook/assets/11 (1).png>)
 
@@ -59,14 +60,23 @@ Successfully added agents would be listed, as shown below:
 
 ![](<../../.gitbook/assets/2022-01-01\_16-32-28 (1).png>)
 
-18\. Hit **Save**.
+18\. Hit **Save** and your newly created department is displayed in the list of departments
 
-Your newly created department is displayed in the list of departments, as shown below:
-
-![](<../../.gitbook/assets/2022-01-01\_16-34-21 (1) (1) (1) (2) (2).png>)
-
+{% hint style="info" %}
 You can have the following behavior depending on how many departments you have created:
 
 * No departments: all Livechat agents will receive incoming chats using a round-robin rule.
 * One department: all incoming chats will be offered to agents **only** on that department using a round-robin rule.
 * More than one department: the visitor will have to choose what department he wants to talk to at registration.
+{% endhint %}
+
+## Edit Omnichannel Department
+
+To edit an Omnichannel department:&#x20;
+
+* Click on the said department from the panel
+* A panel is opened with all the current details of that department that can be modified
+
+## Delete Omnichannel Department
+
+To delete an Omnichannel department, click on the **delete icon** by the right of the department from the department panel.

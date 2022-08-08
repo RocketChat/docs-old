@@ -44,7 +44,7 @@ To launch your workspace, it is required to do a simple 4-step setup.
 * **Register Your Server**: Next you are asked to register your workspace to the Rocket.Chat Cloud or proceed with a standalone server.
 
 {% hint style="success" %}
-We recommend you register your workspace which will automatically create a [Rocket.Chat Cloud Account](../../rocket.chat-saas/cloud-account/) for you and you can enjoy all it's benefits like;
+We recommend you register your workspace which will automatically create a [Rocket.Chat Cloud Account](broken-reference) for you and you can enjoy all it's benefits like;
 
 * Mobile push notifications
 * \_\_Integration with external providers (WhatsApp, Facebook, Instagram, Telegram, Twitter)

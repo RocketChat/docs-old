@@ -1,65 +1,41 @@
----
-description: >-
-  In this section, you can find out how to customize the appearance of your
-  livechat widget.
----
-
 # Livechat Widget Appearance
 
-To access **Omnichannel Appearance** settings:
+You can customize the Livechat Widget appearance to suit your branding style. In this section, you'll find out how to customize the appearance of your Livechat Widget.
 
-Go to **Omnichannel Appearance** in the omnichannel panel settings, as shown below:
+To access Livechat Appearance go to **Avatar Menu  > Omnichannel > Livechat Appearance**.
 
-![](<../../.gitbook/assets/0 (12).png>)
+## Livechat Widget Online Appearance
 
-You can customize the widget in the following four states.
+Here you can define the look of the [Livechat Widget](livechat-widget-installation.md) during online hours.
 
-## Omnichannel On-line
+* **Title**: Set the title of your widget.
+* **Title bar color**: Set the color of the title bar of your widget.
+* **Message Character Limit**: Enable to set the allowed number of characters per message.
+* **Show agent information**: Enable to show agent’s information(Name).
+* **Show agent email**: Show your agent’s email address when set to true.
 
-1. Set the title of your widget.
-2. Set the color of the title bar of your widget.
-3. Set the allowed message character length.
-4. Show your agent’s information if you want. This information is the username.
-5. Show your agent’s email address if you prefer, as shown below:
+## Livechat Widget Offline Appearance
 
-![](<../../.gitbook/assets/1 (12).png>)
+Customize the appearance of your Livechat Widget here, for the hours when none of your agents is online/working.
 
-So according to the above settings, during online hours, your livechat widget appears, as shown below:
+* **Display Offline Form**: Turn on to display offline form.
+* **Offline Form Unavailable Message**: The message visitors will see when unavailable.
+* **Offline message**: Set Offline Message, if any.
+* **Title offline**: The Livechat Widget title
+* **Title bar color offline**: Set title bar color for when offline.
+* **Email Address to Send Offline Messages**: Set the email address to which offline messages will be sent to.
+* **Offline Success Message**: message to show the visitor after successfully sending a message.
 
-![](<../../.gitbook/assets/2 (10).png>)
-
-## Omnichannel Offline
-
-Customize the appears of your livechat widget here, for the hours when none of your agents are online/working.
-
-1. Turn on the offline form.
-2. Set **Offline Form Unavailable Message**, if any.
-3. Set **Offline Message**, if any.
-4. Set **Offline Tittle.**
-5. Set **Title bar color offline**.
-6. Set the email address where you want to receive your offline messages.
-7. Set success message to display to the visitor when they have sent their message offline.
-
-![](<../../.gitbook/assets/3 (10).png>)
-
-So your livechat widget appears according to the above settings, during offline hours.
-
-## Registration Form
+## Livechat Widget Registration Form
 
 Here you set up the fields you want to show on the registration form.
 
-1. Enable the registration form.
-2. Show Name field.
-3. Show the Email field.
-4. Show any message on the registration form if you want. It appears right under the widget title.
-
-![](<../../.gitbook/assets/4 (11).png>)
+* **Enabled**: Enables the registration form.
+* **Show name field**: Enable to show Name field.
+* **Show email field**: Enable to show the Email field.
+* **Registration Form Message**: Show any message on the registration form if you want. It appears right under the widget title.
 
 ## Conversation Finished
 
-1. Set up the message you want to display to the visitor when the conversation is finished.
-2. Set up the message you want to display to the agent when the conversation is finished.
-
-As shown below:
-
-![](<../../.gitbook/assets/5 (11).png>)
+* **Conversation Finished Message**: Set up the message you want to send to the visitor when the conversation is finished.
+* **Conversation Finished Text**: Set up the message you want to display to the agent when the conversation is finished.

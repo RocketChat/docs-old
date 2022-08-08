@@ -39,6 +39,10 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 ### **Latest update**
 
+**Midterm evaluation completed  (Update August 3rd)**
+
+Coding on projects continued throughout the month of July.  And 13 out of the 14 projects have completed their midterm evaluations;  contributors from the 13 projects have all passed midterm - and are now busy completing their projects.  The remaining project actually has extended midterm evaluation at the end of August, and mentors are indicating the contributor has not been keeping up with the schedule at this time.  All project participants are now preparing for the GSoC 2022 Demo Day virtual event to be held in late August.     &#x20;
+
 **Coding begins and new open source projects welcoming additional contributors (Update June 22nd)**\
 ****Coding has started for all our GSoC 2022 projects.   Mentors are busy guiding contributors in completing the scheduled work.   This year, uniquely, many of our projects are in independent  open source repositories.   We welcome our extended community and any new contributors to join these projects.   See the table below for links to repository associated with each project.\
 \
@@ -49,7 +53,7 @@ We are also planning a virtual conference at the end of the GSoC term - named GS
 | Standalone Desktop Messaging cross-platforms Applet                | [https://github.com/RocketChat/SlimDesktopApp](https://github.com/RocketChat/SlimDesktopApp)                                                             |
 | Weekly Video Meeting and Archive App - BigBlueButton + Rocket.Chat | [https://github.com/RocketChat/Apps.BigBlueButton](https://github.com/RocketChat/Apps.BigBlueButton)                                                     |
 | New Emoji Picker for Mobile Client                                 | [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)                                           |
-| Rocket.Chat for Virtual Conferences - Eventual integration         | [https://github.com/RocketChat/RC4Conferences](https://github.com/RocketChat/RC4Conferences)                                                             |
+| Rocket.Chat for Virtual Conferences - Eventyay integration         | [https://github.com/RocketChat/RC4Conferences](https://github.com/RocketChat/RC4Conferences)                                                             |
 | Rocket.Chat Golang SDK                                             | [https://github.com/RocketChat/Rocket.Chat.Go.SDK](https://github.com/RocketChat/Rocket.Chat.Go.SDK)                                                     |
 | Figma App ( Rocket.Chat Integration )                              | [https://github.com/RocketChat/Apps.Figma](https://github.com/RocketChat/Apps.Figma)                                                                     |
 | ClickUp App for Rocket.Chat                                        | [https://github.com/RocketChat/Apps.ClickUp](https://github.com/RocketChat/Apps.ClickUp)                                                                 |
@@ -149,7 +153,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Mentor(s):** Rohan Lekhwani
 
-**Description:** Create a ready-to-go easy to embed mini-chat React component. This component should be configurable to use any public channel on a Rocket.Chat server. Authentication should be flexibly configurable to existing Rocket.Chat server token, or via an independent IDM or auth service. The challenge here is to create a futuristic full-stack component that bundles tightly coupled backend behaviors with standard front-end ReactJS components (from Rocket.Chat Fuselage ReactJS library) - creating an amazing developer experience when developing In-App Chat applications.\
+**Description:** Create a ready-to-go easy to embed mini-chat React component. This component should be configurable to use any public channel on a Rocket.Chat server. Authentication should be flexibly configurable to existing Rocket.Chat server token, or via an independent IDM or auth service. The challenge here is to create a futuristic full-stack component that bundles tightly coupled backend behaviours with standard front-end ReactJS components (from Rocket.Chat Fuselage ReactJS library) - creating an amazing developer experience when developing In-App Chat applications.\
 **Desired Skills:** ReactJS component creation experience, understanding of Rocket.Chat server internals
 
 **Goals/Deliverables:** Standlone mini-chat React component that can be easily installed into any ReactJS based web app
@@ -189,7 +193,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Mentor(s):** Cauê Felchar, Aaron Ogle
 
-**Description:** Golang module to enable any Go package to talk to a Rocket.Chat server with ease, making it possible to create from custom clients to bots.
+**Description:** Golang module to enable any Go packge to talk to a Rocket.Chat server with ease, making it possible to create from custom clients to bots.
 
 **Goals/Deliverables:**
 

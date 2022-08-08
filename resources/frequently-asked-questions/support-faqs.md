@@ -59,7 +59,7 @@ Now, theoretically apart from adding oplogs to Mongo for Rocket 1.x + you should
 
 Except..... those schema changes. If you are going to hit a problem, it will be one of those.
 
-The developer test changes from one version to another, and maybe even over a few versions. But not every single version up to latest or say 0.74.3 -> 1.3.2
+The devs test changes from one version to another, and maybe even over a few versions. But not every single version up to latest or say 0.74.3 -> 1.3.2
 
 That's where it may go wrong.
 

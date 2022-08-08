@@ -129,7 +129,7 @@ Change the values as you need. Save and exit.
 
 ### MongoDB Configuration
 
-Open the MongoDB config file (`/etc/mongod.conf`) in your favorite text editor. It is a simple YAML file.
+Open the MongoDB config file (`/etc/mongod.conf`) in your favourite text editor. It is a simple YAML file.
 
 Set the storage engine to `wiredTiger`.
 
@@ -195,10 +195,10 @@ sudo systemctl enable --now rocketchat
 
 ## Optional configurations
 
-* [Configure firewall rule](../../../../environment-configuration/optional-configurations.md)
-* [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../../environment-configuration/configuring-ssl-reverse-proxy.md)
+* [Configure firewall rule](../../../../installing-and-updating/other-deployment-methods/manual-installation/extras/optional-configurations.md)
+* [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../../installing-and-updating/other-deployment-methods/manual-installation/extras/configuring-ssl-reverse-proxy.md)
 * [Configure mongo access control](../../../../environment-configuration/mongodb-configuration/mongodb-uri-authentication.md)
-* [Configure production values for mongodb](../../../../environment-configuration/mongodb-configuration/mongo-options.md)
+* [Configure production values for mongodb](../../../../installing-and-updating/other-deployment-methods/manual-installation/extras/mongo-options.md)
 
 ## Configure your Rocket.Chat server
 

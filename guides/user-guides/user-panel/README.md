@@ -1,6 +1,6 @@
 # User Panel
 
-Located on the upper left side of the screen, the user panel allows you to edit your status and personal preferences and settings. When clicking the avatar icon, a panel will be displayed as below:
+Located on the upper left side of the screen, the user panel allows you to edit your status, personal preferences, and settings. When clicking the avatar icon, a panel will be displayed as below:
 
 ![](../../../.gitbook/assets/user\_panel\_1.png)
 

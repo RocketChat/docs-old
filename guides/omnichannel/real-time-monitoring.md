@@ -1,93 +1,41 @@
----
-description: >-
-  As the name suggests, real-time monitoring allows you to monitor your incoming
-  chats department wise in real-time.
----
-
 # Real-time Monitoring
 
-If a livechat conversation is initiated, it gets reflected in the matrices in real-time, as shown below:
+Real-time monitoring allows you to monitor your incoming and ongoing Livechat conversations in real-time.
 
-![](<../../.gitbook/assets/0 (9).png>)
+To access the Omnichannel Real-time monitoring dashboard, go to **Avatar Menu  > Omnichannel > Real-time Monitoring**.&#x20;
 
-![](<../../.gitbook/assets/1 (9).png>)
+These monitoring metrics can be filtered as per the **department** and set to be updated in a specified amount of time by changing the **Update every** field.
 
-To access **Real-time Monitoring** settings:
+When a [Livechat](livechat-widget-installation.md) conversation is initiated, it immediately gets reflected on the monitoring dashboard in real-time.
 
-Go to Real-time Monitoring in the omnichannel panel settings, as shown below:
+## Monitoring Conversations Metrics
 
-![](<../../.gitbook/assets/2 (9).png>)
+This section shows matrices about all Livechat conversations
 
-1. Select your desired department. You can select multiple departments if you want.
+![Livechat Real-time conversation metrics](<../../.gitbook/assets/Livechat Real-time conversation metrics>)
 
-![](<../../.gitbook/assets/image (24).png>)
+* **Total Conversations:** It represents the total number of conversations at the current time.
+* **Open Conversations**: This shows the number of open conversations for your selected department at the current moment.
+* **On Hold Conversations**: Shows the number of conversations on hold at the moment.
+* **Total Messages:** It represents the total number of messages received in all the current-day conversations.
+* **Total** **Visitors:** It represents the total number of Livechat users for your selected department for the current day.
 
-1. Select the auto-refresh time from the dropdown.
+## Monitoring Chat Metrics
 
-![](<../../.gitbook/assets/4 (9).png>)
+![Livechat Real-time Chat metrics](<../../.gitbook/assets/Livechat Real-time Chat metrics>)
 
-Details of matrices are as follows:
+* **Total Abandoned Chats:** It represents the total number of conversations abandoned by the visitor for your selected department's current day.
+* **Average of Abandoned Chats:** Shows in percentage the number of chats that are abandoned.
+* **Average of Chat Duration Time:** It represents the average duration of all the conversations of your selected department for the current day.
 
-![](<../../.gitbook/assets/5 (9).png>)
+## Monitoring Livechat Metrics by Time
 
-## **Total Conversations:**
+![Livechat Real-time activity metrics by time](<../../.gitbook/assets/Livechat Real-time activity metrics by time>)
 
-It represents the total number of conversations for the current day.
-
-## **Total Open Conversations:**
-
-It represents the total number of open conversations for your selected department for the current moment.
-
-## **Total Messages:**
-
-It represents the total number of messages received in all the current-day conversations.
-
-## **Total** **Visitors:**
-
-It represents the total number of livechat users for your selected department for the current day.
-
-![](<../../.gitbook/assets/6 (8).png>)
-
-## **Total Abandoned Chats:**
-
-It represents the total number of conversations abandoned by the visitor for your selected department's current day.
-
-## **Average of Abandoned Chats:**
-
-It represents the average of conversations abandoned by the visitor for your selected department's current day.
-
-## **Average of Chat Duration Time:**
-
-It represents the average duration of all the conversations of your selected department for the current day.
-
-![](<../../.gitbook/assets/7 (6).png>)
-
-## **Busiest Time:**
-
-It represents the hour during the current day when you received the largest number of incoming chats.
-
-## **Average of Service Available Time:**
-
-It represents how many hours the Omnichannel service was available during the day. It means that at least one agent available to serve Omnichannel conversations.
-
-## **Average of Service Time:**
-
-It represents the average time the agents spend serving chats in the current day.
-
-![](<../../.gitbook/assets/8 (5).png>)
-
-## **Average of Response Time:**
-
-If the selected chat pickup method is auto-selection, the chat is automatically assigned to an agent. This matrix represents the average of agents' responses to all the conversations that are automatically assigned to them.
-
-## **Average of First Response Time:**
-
-This matrix represents the average of the agent's first response to all the chats he picks up.
-
-## **Average of Reaction Time:**
-
-This matrix represents the average of the agent's reaction to the assigned chats.
-
-## **Average of Waiting:**
-
-It represents the average time your visitor spent in the waiting queue.
+* **Busiest Time:** It represents the hour(s) during the current day when you received the largest number of incoming chats.
+* **Average of Service Available Time:** It represents how many hours the Omnichannel service was available during the day. It means that at least one agent is available to serve Omnichannel conversations.
+* **Average of Service Time:** It represents the average time the agents spend serving chats in the current day.
+* **Average of Response Time:** If the selected chat pickup method is auto-selection, the chat is automatically assigned to an agent. This metric represents the average of agents' responses to all the conversations that are automatically assigned to them.
+* **Average of First Response Time:** This matrix represents the average of the agent's first response to all the chats he picks up.
+* **Average of Reaction Time:** This metric represents the average of the agent's reaction to the assigned chats.
+* **Average of Waiting:** It represents the average time your visitor spent in the waiting queue.

@@ -71,7 +71,7 @@ cd /tmp/bundle/programs/server && npm installs
 ```
 
 ```bash
-sudo mv /tmp/bundle /opt/Rocket.Chat
+sudo mv /tmp/bundle /opt/Rocket.Chath
 ```
 
 ## Configure the Rocket.Chat service
@@ -103,7 +103,7 @@ WantedBy=multi-user.target
 EOFash
 ```
 
-Open the Rocket.Chat service file just created (`/usr/lib/systemd/system/rocketchat.service`) using sudo and your favorite text editor, and change the ROOT\_URL environmental variable to reflect the URL you want to use for accessing the server (optionally change MONGO\_URL, MONGO\_OPLOG\_URL and PORT):
+Open the Rocket.Chat service file just created (`/usr/lib/systemd/system/rocketchat.service`) using sudo and your favourite text editor, and change the ROOT\_URL environmental variable to reflect the URL you want to use for accessing the server (optionally change MONGO\_URL, MONGO\_OPLOG\_URL and PORT):
 
 ```bash
 MONGO_URL=mongodb://localhost:27017/rocketchat?replicaSet=rs01
@@ -136,7 +136,7 @@ sudo systemctl enable rocketchat && sudo systemctl start rocketchat
 
 ## Optional configurations
 
-[Configure firewall rule](../../../environment-configuration/optional-configurations.md) [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../environment-configuration/configuring-ssl-reverse-proxy.md) \[Configure mongo access control] \[Configure production values for mongodb]
+[Configure firewall rule](../../../installing-and-updating/other-deployment-methods/manual-installation/extras/optional-configurations.md) [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../installing-and-updating/other-deployment-methods/manual-installation/extras/configuring-ssl-reverse-proxy.md) \[Configure mongo access control] \[Configure production values for mongodb]
 
 ## Configure your Rocket.Chat server
 

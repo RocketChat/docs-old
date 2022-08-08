@@ -10,7 +10,7 @@ To access this menu, go to **Administration** > **Invites**.
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (16).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (15).png>)
 
 ![](<../../../.gitbook/assets/image (349) (1) (1) (1) (1) (1).png>)
 

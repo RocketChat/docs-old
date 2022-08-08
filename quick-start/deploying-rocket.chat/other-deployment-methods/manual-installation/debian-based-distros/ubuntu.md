@@ -2,9 +2,9 @@
 
 ## Recommended Fastest Server Install
 
-We recommend installing using our[ Docker and Docker Compose guide](../../../rapid-deployment-methods/docker-and-docker-compose/) or using [Snaps](../../../rapid-deployment-methods/snaps/) as they are the easiest way for you to get your server up and running on all supported Linux distributions (Ubuntu, etc).
+We recommend installing using our[ Docker and Docker Compose guide](../../../../installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/) or using [Snaps](../../../../installing-and-updating/rapid-deployment-methods/snaps/) as they are the easiest way for you to get your server up and running on all supported Linux distributions (Ubuntu, etc).
 
-If you would like to enable TLS on your site like this `https://yoursite.com` when using the snap, please [this guide](../../../rapid-deployment-methods/snaps/auto-ssl-with-snaps.md)
+If you would like to enable TLS on your site like this `https://yoursite.com` when using the snap, please [this guide](../../../../installing-and-updating/rapid-deployment-methods/snaps/auto-ssl-with-snaps.md)
 
 ## Manual install
 
@@ -116,7 +116,7 @@ Change the values as you need. Save and exit.
 
 ### MongoDB Configuration
 
-Open the MongoDB config file (`/etc/mongod.conf`) in your favorite text editor. It is a simple YAML file.
+Open the MongoDB config file (`/etc/mongod.conf`) in your favourite text editor. It is a simple YAML file.
 
 Set the storage engine to `wiredTiger`.
 
@@ -182,7 +182,7 @@ sudo systemctl enable --now rocketchat
 
 ## Optional configurations
 
-[Configure firewall rule](../../../../environment-configuration/optional-configurations.md) [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../../environment-configuration/configuring-ssl-reverse-proxy.md) \[Configure mongo access control] \[Configure production values for mongodb]
+[Configure firewall rule](../../../../installing-and-updating/other-deployment-methods/manual-installation/extras/optional-configurations.md) [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../../installing-and-updating/other-deployment-methods/manual-installation/extras/configuring-ssl-reverse-proxy.md) \[Configure mongo access control] \[Configure production values for mongodb]
 
 ## Configure your Rocket.Chat server
 

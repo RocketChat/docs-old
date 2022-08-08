@@ -1,65 +1,35 @@
----
-description: Current Chats contain all the conversations that you have received.
----
-
 # Current Chats
 
-{% hint style="info" %}
-`View Omnichannel Contact Center` permission should be assigned to your role to manage access to the contact center. Please contact your administrator to grant/revoke access to Omnichannel Contact Center.
-{% endhint %}
+Current Chats contain all the existing conversations that have not been deleted.
+
+To see this menu, navigate to **Avatar Menu  > Omnichannel > Current Chats**
 
 {% hint style="info" %}
-If a chat was not deleted, it appears here.
+You are required to have the `View Omnichannel Contact Center` permission in order to access this section. Contact your administrator to grant/revoke access
 {% endhint %}
 
-You have various filters available to you to sort these conversations.
+A list of chats is seen with various filters available.
 
-To access **Current Chats** settings:
+![](<../../.gitbook/assets/Omnichannel Current Chats.png>)
 
-Go to **Avatar Menu  > Omnichannel > Current Chats**
+## Omnichannel Current Chat Filters
 
-Settings appear, as shown below:
-
-![Current chats](<../../.gitbook/assets/Omnichannel Current Chats.png>)
-
-Filters are explained below:
-
-## Sort by visitor name
-
-To sort the conversations per Guest/Visitor Name, enter the name in the field, and your conversations are sorted by visitor name.
-
-## Sort by agent name
-
-To sort the conversations per Agent Name, enter the name in the field, and your conversations are sorted by agent name.
-
-## Sort by department
-
-To sort the conversations per [**Department**](departments.md), enter the name in the field, and your conversations are sorted by department.
-
-## Sort by status
-
-To sort the conversations per Open/Closed Status, choose the desired status in the field, and your conversations are sorted.
-
-{% hint style="success" %}
-Please note that you now have the ability to filter on-hold chats.
-{% endhint %}
-
-## Sort by from and to date
-
-To sort the conversations per **From** and **To** date, enter the **From** and **To** Date in the field, and your conversations are sorted, as shown below:
-
-## Sort by tags or custom fields
-
-You can also sort the conversations by [**Tags**](tags-managers-guide.md) or any [**Custom Fields**](custom-fields.md) that you have added in your livechat widget user login. Enter the tag/custom field, and your conversations are sorted.
+* **Sort by Guest name**: To sort the conversations per Guest/Visitor's name, enter the name in the field provided and your conversations are sorted by visitor name.
+* **Sort by agent**: To sort the conversations served by an [agent](agents.md), select the agent from the **Served By** dropdown field
+* **Sort by department**: To sort the conversations per [**Department**](departments.md), enter the department name in the **Department field**, and your conversations are sorted by department.
+* Sort by status: To sort the conversations per Open/Closed Status, choose the desired status from the **Status dropdown field**, and your conversations are sorted. A conversation can be `Open`, `On Hold` or `Closed`
+* **Sort by From and To date**: To sort the conversations per **From** and **To** date, enter the **From** and **To** Date in the field, and your conversations are sorted
+* **Sort by tags or custom fields**: You can also sort the conversations by [**Tags**](tags-managers-guide.md) or any [**Custom Fields**](custom-fields.md) that you have added to your Livechat widget user login. Enter the tag/custom field, and your conversations are sorted.
+* **Sort by Custom Fields**: This lets you sort chats by any [custom field](custom-fields.md) created
 
 ## Clear filters
 
-Hit **Clear filters** to clear all the filters you have set for your sort.
+Clicking on the **Kebab menu** by the top right lets you **Clear the filters** applied.
 
 ![Clear filters](<../../.gitbook/assets/Clear filters.png>)
 
 ## Delete all closed chats
 
-Hit **Delete all closed chats** to delete all the chats that are marked closed by the agents.
+Clicking the **Kebab menu** on the top right corner reveals where to **Delete all closed chats.** This will delete all the chats that are marked closed by the agents.
 
 ![Delete all closed chats ](<../../.gitbook/assets/Clear filters.png>)

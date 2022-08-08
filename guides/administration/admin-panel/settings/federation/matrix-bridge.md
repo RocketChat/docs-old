@@ -14,16 +14,12 @@ Rocket.Chat has federation support via the [Matrix](https://matrix.org/) protoco
 * Invite federated users to join rooms
 
 {% hint style="info" %}
-* Matrix support in Rocket.Chat is currently considered alpha. Expect bugs.
-* You need to set up a Matrix homeserver and a dendrite server
-* All interactions are performed through slash commands
-  * Create a `/federation dm <username>` slash command
-  * Remove the `/bridge invite` slash command
+* You need to set up the Synapse server
 {% endhint %}
 
 ### Why We Use the Matrix Protocol? <a href="#how-to-setup-rocketchat-with-a-matrix-homeserver" id="how-to-setup-rocketchat-with-a-matrix-homeserver"></a>
 
-* To allow Rocket.Chat acts as a Matrix Application Service (Bridge) to Communicate to an appropriate Matrix homeserver (Dendrite, Synapse, etc.)
+* To allow Rocket.Chat acts as a Matrix Application Service (Bridge) to Communicate to an appropriate Matrix homeserver (Synapse, Dendrite etc.)
 * To enable the standards-based interoperable federation
 
 ## Set up Rocket.Chat with a Matrix homeserver (Dendrite and Synapse) <a href="#how-to-setup-rocketchat-with-a-matrix-homeserver" id="how-to-setup-rocketchat-with-a-matrix-homeserver"></a>
@@ -39,7 +35,8 @@ Rocket.Chat has federation support via the [Matrix](https://matrix.org/) protoco
 ### **Prerequisites**
 
 * Install [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/)
-* A Matrix homeserver ([Dendrite](https://github.com/matrix-org/dendrite) or [Synapse](https://matrix.org/docs/projects/server/synapse)) that supports application services. You need to have access to register an AppService, which usually involves editing the homeserver configuration file.
+* A Matrix homeserver ([Synapse](https://matrix.org/docs/projects/server/synapse)) that supports application services. You need to have access to register an AppService, which usually involves editing the homeserver configuration file.
+* Set up [Traefik](https://traefik.io/)
 * Obtain [Lets Encrypt](https://letsencrypt.org/) Certificates
 * Configure [nginx](https://docs.rocket.chat/quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers#5.-installing-nginx-and-ssl-certificate) and setup Nginx Rules
 * A domain to host your homeserver on
