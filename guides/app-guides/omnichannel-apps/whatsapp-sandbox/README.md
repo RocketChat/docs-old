@@ -32,10 +32,6 @@ To get any support, please run the `/whatsapp-sandbox support` command.
 [whatsapp-sandbox-configuration](whatsapp-sandbox-configuration/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 {% content-ref url="whatsapp-sandbox-configuration/delete-whatsapp-sandbox.md" %}
 [delete-whatsapp-sandbox.md](whatsapp-sandbox-configuration/delete-whatsapp-sandbox.md)
 {% endcontent-ref %}
