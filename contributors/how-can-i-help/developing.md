@@ -12,7 +12,7 @@ If you already have a work in progress pull request open for that issue, you can
 
 Sometimes you'll stumble upon issues that have an Assignee. Assignees are trusted people that are responsible for that issue (usually core team members).
 
-But that doesn't mean you can't contribute! Every issue is open, and any help is welcome. Feel free to work on anything you want. You are encouraged to discuss your progress with the community in the comments, it doesn't mean other people can't work on it. Don't be discouraged from tackle something you feel like doing.
+But that doesn't mean you can't contribute! Every issue is open, and any help is welcome. Feel free to work on anything you want. You are encouraged to discuss your progress with the community in the comments, it doesn't mean other people can't work on it. Don't be discouraged from tackling something you feel like doing.
 
 **Where to Find Tasks:**
 
