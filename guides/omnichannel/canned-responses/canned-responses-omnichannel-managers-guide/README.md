@@ -1,6 +1,6 @@
 # Canned Responses Omnichannel Manager's Guide
 
-![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (10) (1) (8).jpg>)
+![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (9) (1).jpg>)
 
 {% hint style="info" %}
 Canned responses allow you to save message snippets that you can call with shortcuts (preceded with `!`) to communicate a quick note to your visitors in Omnichannel and for messaging in regular conversations inside your Rocket.Chat's workspace.
@@ -12,83 +12,29 @@ If you are using canned responses for the first time, please check the Rocket.Ch
 [canned-responses-rocket.chat-admins-guides.md](../canned-responses-rocket.chat-admins-guides.md)
 {% endcontent-ref %}
 
-## To create a new canned response on your workspace:
+## Create Canned Responses
 
-1. Go to **Omnichannel**:
+To create Canned Responses, follow these steps
 
-![](<../../../../.gitbook/assets/image (502) (1) (1) (1).png>)
+* Go to **Avatar Menu  > Omnichannel > Canned Responses**. A list of Canned Responses can be seen if they exist
+* Click on **+ New**
+* A page opens up with details to fill:
+  * **Shortcut**: The shortcut of your new canned response.
+  * **Message**: Enter your message using any placeholders available. You can also preview the message at any time by switching between the `Editor` and `Preview` tab.
+  * **Tags**: Set the tags for your canned response. This helps agents find canned responses specific to a particular topic
+  * **Sharing**: Lets you set the usage level of your Canned Response
+    * **Public**: Anyone across your workspace can access your canned response.
+    * **Department**: Anyone in the selected department can access your canned response.
+    * **Private**: Only you and Omnichannel managers can access your canned response.
+* Hit **Save** and our new Canned Response is ready to be used by typing `!` in the message box
 
-1. Click **Canned responses** and hit **Create Your First Canned Response**:
+## Filtering Canned Responses
 
-![](<../../../../.gitbook/assets/image (513).png>)
+You can filter canned responses from the main page by:
 
-Your new canned response screen is shown below:
-
-![](<../../../../.gitbook/assets/image (496).png>)
-
-### Shortcut
-
-Please set a Shortcut for your new canned response, as shown below:
-
-![](<../../../../.gitbook/assets/image (506).png>)
-
-### Message
-
-Enter your message using any placeholders you want, as shown below:
-
-![](<../../../../.gitbook/assets/image (514).png>)
-
-You can also preview the message at any time during the creation process:
-
-![](<../../../../.gitbook/assets/image (509).png>)
-
-### Tags
-
-You can set tags for your canned response if you want, as shown below:
-
-![](<../../../../.gitbook/assets/image (510).png>)
-
-{% hint style="info" %}
-Canned responses tags help agents find canned responses specific to a particular topic.
-{% endhint %}
-
-### Sharing
-
-You can share your canned response according to your need.
-
-1. **Public**: Anyone across your workspace can access your canned response.
-
-![](<../../../../.gitbook/assets/image (504).png>)
-
-1. **Department**: Anyone in the selected department can access your canned response.
-
-![](<../../../../.gitbook/assets/image (505).png>)
-
-1. **Private**: Only you and Omnichannel managers can access your canned response.
-
-![](<../../../../.gitbook/assets/image (506) (2) (2) (1) (1) (1) (2) (1) (4).png>)
-
-Please hit **Save**. Your new canned response is ready to be used in omnichannel conversations now, as shown below:
-
-![](<../../../../.gitbook/assets/image (511).png>)
-
-## Filtering Canned Responses:
-
-You can filter canned responses by:
-
-1. **Search**: \_\*\*\_You can filter by shortcut or message text.
-
-![](<../../../../.gitbook/assets/image (515).png>)
-
-1. **Sharing**: \_\*\*\_You can filter by sharing.
-
-![](<../../../../.gitbook/assets/image (516).png>)
-
-1. **Created By**: You can filter by name of the user who created the canned responses.
-
-![](<../../../../.gitbook/assets/image (517).png>)
-
-Hit **Save**. Your new canned response is saved and ready to be used:
+1. **Search**: Searching the Canned Message shortcut or message text.
+2. **Sharing**: You can filter by sharing.
+3. **Created By**: You can filter by name of the user who created the canned responses.
 
 {% content-ref url="../../omnichannel-agents-guides/omnichannel-chat/canned-responses-agents-guide/" %}
 [canned-responses-agents-guide](../../omnichannel-agents-guides/omnichannel-chat/canned-responses-agents-guide/)

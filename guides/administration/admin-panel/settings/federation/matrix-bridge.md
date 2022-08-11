@@ -45,7 +45,7 @@ Rocket.Chat has federation support via the [Matrix](https://matrix.org/) protoco
 
 Now, you go to **Administration** > **Settings** > **Federation** >**Matrix Bridge**.
 
-![](<../../../../../.gitbook/assets/Matrixbridgenew (1).png>)
+![](../../../../../.gitbook/assets/Matrixbridgenew.png)
 
 The following is a brief explanation of each Matrix Bridge **** configuration option:
 
@@ -144,4 +144,4 @@ You must run the slash command before, inside the room you want to federate.
 
 After you have configured it, you can now send and receive messages within a federated channel.&#x20;
 
-![Communicate](<../../../../../.gitbook/assets/Comunication (1).png>)
+![Communicate](../../../../../.gitbook/assets/Comunication.png)

@@ -4,14 +4,12 @@ You can create a canned response on the go from within a conversation.
 
 To create a canned response in a conversation:
 
-Click **Create**:
+* Click on the Canned Responses icon by the top right
 
-![](<../../../../.gitbook/assets/image (527).png>)
+![Create Canned Responses in Chat](<../../../../.gitbook/assets/Create Canned Responses in Chat>)
 
-**Create Canned Response** window pops open. Please enter the details, as shown below :
+* Click on **Create** on the side panel that opens up and proceed with filling in the details. See [this section](./#create-canned-responses) for more information
 
-![](<../../../../.gitbook/assets/image (530).png>)
+![Create Canned Response](<../../../../.gitbook/assets/Create Canned Response>)
 
-Hit **Save**. Your new canned response is saved and ready to be used:
-
-![](<../../../../.gitbook/assets/image (531).png>)
+A Canned Response is created and ready for use.

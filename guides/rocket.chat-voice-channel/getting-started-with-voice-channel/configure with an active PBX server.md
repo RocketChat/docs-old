@@ -7,7 +7,7 @@ If you have:
 3. [Asterisk manager](configure-without-previously-having-a-pbx-server/configure-asterisk-manager-interface-and-users.md) configured
 4. And [Omnichannel activated](https://docs.rocket.chat/guides/omnichannel#omnichannel-activation)
 
-You can start to configure the voice channel or call center or VoIP on your Rocket.Chat instance.
+You can start to configure the voice channel Rocket.Chat workspace.
 
 ## 1. Enable Call Center
 
@@ -44,7 +44,7 @@ Change them according to your Asterisk server conditions. Then in the Settings t
 
 To test the WebSocket Connection you just need to log in with a user associated with an extension and check if the extension registers successfully.&#x20;
 
-![WebSocket not connected](<../../../.gitbook/assets/image (2).png>)
+![WebSocket not connected](<../../../.gitbook/assets/image (7).png>)
 
 The phone icon with a slash over means that the WebSocket connection is possible, Rocket.Chat could send a SIP Options packet to Asterisk, and it was successfully answered. Click on the phone icon and it will turn green. Now the user is ready to receive calls, and in Asterisk, you should have received a SIP register packet and the extension should be properly registered. Validate it with:
 

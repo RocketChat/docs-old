@@ -1,41 +1,31 @@
----
-description: Using units, you can group your departments for management purposes.
----
-
 # Units Manager's Guide
 
-![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (10) (1) (22).jpg>)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (15) (1).jpg>)
 
-Suppose you are a manager or a monitor and want to oversee multiple departments, you can make a unit of those departments and manage it.
+Using Omnichannel units, you can group a set of departments for management purposes.
 
-To access **Units** settings:
+As an [Omnichannel manage](managers.md)r, you can make a unit of multiple [departments](departments.md) and assign a monitor to oversee them.
 
-Go to **Units** in the omnichannel panel settings, as shown below:
+To access **Units** settings, go to **Avatar Menu  > Omnichannel > Units**.
 
-![](<../../.gitbook/assets/0 (6).png>)
+![Omnichannel Units page](<../../.gitbook/assets/Omnichannel Units page>)
 
-You can see the list of units.
+## 1. List Omnichannel Units
 
-## To create a new Unit:
+On the Units page, you see a list of all the existing units and a button to initiate the creation of a new unit. Clicking on an existing unit opens up a page where you can edit it.
 
-1. Hit **New Unit**.
+## 2. Create Omnichannel Unit
 
-![](<../../.gitbook/assets/1 (13).png>)
+To create a new unit,&#x20;
 
-The new unit creation pane will appear.
+* Click on **+New**
+* A page opens up with details to be filled
+  * **Name:** The name of the new unit.
+  * **Visibility**: Set its visibility. Private/Public. A private unit will be available only for you.
+  * **Departments**: Add the desired departments to your unit.
+  * **Monitors**: Lets you assign monitors to the unit.
+  * Hit **Save**.
 
-![](<../../.gitbook/assets/2 (11).png>)
+## 3. Delete Omnichannel Unit
 
-1. Name your new unit.
-2. Set its visibility. Private/Public. A private unit will be available only for you.
-3. Add the desired departments to your unit.
-4. Assign monitors.
-5. Hit **Save**.
-
-As shown below:
-
-![](<../../.gitbook/assets/3 (11).png>)
-
-Your newly created unit will appear in the list, as shown below:
-
-![](<../../.gitbook/assets/4 (12).png>)
+To delete a unit, click the **Delete icon** by the right of the unit from the Units main page

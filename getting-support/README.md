@@ -8,8 +8,8 @@ If you are using a Rocket.Chat**'**s Enterprise Edition deployment, then you can
 
 If you are using our Community Edition deployment, you can always rely on our community developers or our documentation.&#x20;
 
-{% content-ref url="community-support.md" %}
-[community-support.md](community-support.md)
+{% content-ref url="asking-for-help.md" %}
+[asking-for-help.md](asking-for-help.md)
 {% endcontent-ref %}
 
 **Further Information:**

@@ -15,7 +15,7 @@ To create a new custom field:
 * Click on **+New** from the custom field panel
 * A page is seen with properties to be set, fill in the values and **Save**
 
-![](<../../.gitbook/assets/2022-01-23\_18-47-17 (1).png>)
+![](../../.gitbook/assets/2022-01-23\_18-47-17.png)
 
 * **Field**: Enter the desired field that you want to add to your Livechat registration form. E.g., last name.
 * **Label:** Label of the field

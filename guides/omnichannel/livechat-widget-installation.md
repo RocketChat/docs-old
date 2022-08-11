@@ -28,4 +28,4 @@ To run the Livechat Widget on a domain different from that of your Rocket.Chat s
 
 To do that, navigate to **Administration** > **Settings** > **General**
 
-![Administration > General](../../.gitbook/assets/restrict-access-inside-any-iframe.png)
+![Administration > General](<../../.gitbook/assets/restrict-access-inside-any-iframe (1).png>)

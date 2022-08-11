@@ -7,27 +7,34 @@ description: >-
 
 # Tags Manager's Guide
 
-![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (10) (1) (22).jpg>)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (15) (1).jpg>)
 
-To access **Tags** settings:
+Omnichannel Tags are used for marking and classifying an Omnichannel conversation.
 
-1. Go to **Tags** in the omnichannel panel settings, as shown below:
+{% hint style="info" %}
+A very practical use case is using tags to mark the progress made on a Livechat query. You can have tags like `new`, `blocked`, `in progress,` `completed` etc
+{% endhint %}
 
-![](<../../.gitbook/assets/0 (8).png>)
+To access **Tags** settings go to **Avatar Menu  > Omnichannel > Tags**.
 
-1. Click the Add button, as shown below:
+![Omnichannel Tags settings](<../../.gitbook/assets/Omnichannel Tags settings>)
 
-![](<../../.gitbook/assets/1 (15).png>)
+## List Omnichannel Tags
 
-1. Name your new Tag.
-2. Give a description:
+On the Tags page, you see a list of tags if they exist. Clicking on one opens up a page where it can be edited.
 
-5.Select the department the new Tag belongs to, as shown below:
+## Create Omnichannel Tags
 
-![](<../../.gitbook/assets/2 (13).png>)
+To create a new Tag:
 
-6.Hit **Save**.
+* Click on **+ New**
+* A page opens with details to be filled and **Save**
+  * **Name**: Enter the name you wish for the Tag
+  * **Description**: A description of what the Tag is
+  * **Departments**: Lets you select a list of departments in which the Tag will be made available. Leave empty to set it available to all departments&#x20;
 
-![](<../../.gitbook/assets/3 (13).png>)
+When created, [Omnichannel Agents](agents.md) will be able to use the Tag on conversations.
 
-Now, the Marketing Support department's agents will have the option to set a **Sales Lead** tag to the conversation if they want while closing it.
+## Delete Omnichannel Tags
+
+To delete an existing Tag, click on the **Delete icon** across the Tag from the main settings page.

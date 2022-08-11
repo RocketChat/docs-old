@@ -8,7 +8,7 @@ To access this menu,
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (29).png>)
 
 ![](../../../.gitbook/assets/2021-11-22\_22-56-51.png)
 
@@ -56,7 +56,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 | `archive-room`                          | Permission to archive a channel.                                                                                                                                                                                                                                                                                 |
 | `assign-admin-role`                     | Permission to promote user to Admin. Requires view-user-administration permission. Accessible from Administration -> Users.                                                                                                                                                                                      |
 | `assign-roles`                          | Permission to assign roles for a user. Requires view-user-administration permission. Accessible from Administration -> Users.                                                                                                                                                                                    |
-| `auto-translate`                        | Permission to use the [Auto Translate Tool](advanced-admin-settings/google-cloud/auto-translate.md). Accessible from Administration -> Message -> Auto Translate.                                                                                                                                                |
+| `auto-translate`                        | Permission to use the [Auto Translate Tool](../advanced-admin-settings/google-cloud/auto-translate.md). Accessible from Administration -> Message -> Auto Translate.                                                                                                                                             |
 | `ban-user`                              | Permission to ban a user.                                                                                                                                                                                                                                                                                        |
 | `bulk-create-c`                         | Permission to bulk create public channels.                                                                                                                                                                                                                                                                       |
 | `bulk-register-user`                    | Permission to bulk add users.                                                                                                                                                                                                                                                                                    |
