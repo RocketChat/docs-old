@@ -10,7 +10,9 @@ Requirements:
 * You need Rocket.Chat version 5.0.0 or higher.&#x20;
 {% endhint %}
 
-* A **private branch exchange (PBX)**  is a telephone system within an enterprise that switches calls between users on local lines, while enabling all users to share a certain number of external phone lines.&#x20;
+Please note that:
+
+* A **private branch exchange (PBX)**  is a telephone system within an enterprise that switches calls between users on local lines while enabling all users to share a certain number of external phone lines.&#x20;
 * **Asterisk** is an open-source software implementation of a **PBX**.&#x20;
 * **FreePBX** is a web-based open source GUI (graphical user interface) that controls and manages Asterisk (PBX).
 

@@ -2,14 +2,14 @@
 
 If you have:
 
-1. an active PBX server
-2. SIP extensions created
-3. Asterisk manager configured
-4. and [omnichannel activated](https://docs.rocket.chat/guides/omnichannel#omnichannel-activation)
+1. An active [PBX server](configure-without-previously-having-a-pbx-server/)
+2. [SIP extensions](configure-without-previously-having-a-pbx-server/sip-extensions.md) created
+3. [Asterisk manager](configure-without-previously-having-a-pbx-server/configure-asterisk-manager-interface-and-users.md) configured
+4. And [Omnichannel activated](https://docs.rocket.chat/guides/omnichannel#omnichannel-activation)
 
 You can start to configure the voice channel or call center or VoIP on your Rocket.Chat instance.
 
-## 1. Enable VoIP
+## 1. Enable Call Center
 
 1. Go to **Avatar Menu > Administration > Settings > Call Center**
 2. Enable VoIP, as shown below:
