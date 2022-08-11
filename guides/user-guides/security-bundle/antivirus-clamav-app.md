@@ -21,12 +21,12 @@ If you install/open the app, there are only two settings that you need for the i
 
 You need to enter the ClamAV Server Host (where your ClamAV server is hosted) and the port for your ClamAV server.
 
-![](<../../../.gitbook/assets/image (344) (1).png>)
+![](<../../../.gitbook/assets/image (344) (2).png>)
 
 ## **View Logs**
 
 To view logs:
 
-![](<../../../.gitbook/assets/image (392) (1).png>)
+![](<../../../.gitbook/assets/image (392) (1) (1).png>)
 
-![](<../../../.gitbook/assets/image (409) (1).png>)
+![](<../../../.gitbook/assets/image (409) (1) (1).png>)

@@ -1,6 +1,6 @@
 # Running Multiple Instances
 
-![](../../.gitbook/assets/EnterpriseEditionTag.jpg)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (10) (1) (17).jpg>)
 
 While it's possible to scale out by adding more servers (and this is recommended for HA purposes), you can achieve better utilization of your existing hardware by running multiple instances of the Rocket.Chat application (Node.js/Meteor app) on your current host(s). Of course, you only want to do this if you're already running on a multi-core machine. A reasonable rule of thumb may be to run `N-1` Rocket.Chat instances, where `N=num_cores`.
 

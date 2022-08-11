@@ -35,7 +35,7 @@ Now that you have the app installed in your server, it is time to configure the 
 
 Go to any channel or private group and execute the slashcommand `/jira-server`. You will be prompted with the _Room Preferences_ dialog\_:\_
 
-![Room Preferences dialog](<../../../.gitbook/assets/image (5).png>)
+![Room Preferences dialog](<../../../.gitbook/assets/image (5) (1).png>)
 
 Here you can connect your channel or private group to different Jira Servers. The server list is currently empty as this is a fresh install, so let's connect to a new Jira Server
 

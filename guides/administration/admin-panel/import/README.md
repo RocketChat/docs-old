@@ -10,7 +10,7 @@ To access this menu, go to **Administration** > **Import**.
 
 as shown below:
 
-![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (28).png>)
+![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (9).png>)
 
 ![](../../../../.gitbook/assets/2021-11-21\_00-05-22.png)
 
@@ -18,7 +18,7 @@ To Import your data:
 
 1. Click **Import New File**
 
-![](../../../../.gitbook/assets/2021-11-21\_00-03-04.png)
+![](<../../../../.gitbook/assets/2021-11-21\_00-03-04 (1).png>)
 
 2\. Select **Import Type**
 

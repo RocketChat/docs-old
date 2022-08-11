@@ -1,6 +1,6 @@
 # Monitors Omnichannel Guide
 
-![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (15) (1).jpg>)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (10) (1) (22).jpg>)
 
 Monitors in Omnichannel are users that have the ability to monitor Omnichannel activities and have access to [Current Chats](current-chats.md), [Analytics](analytics.md), Real-time Monitoring, Agents, Departments, Business Hours and Canned Responses.
 

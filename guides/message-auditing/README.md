@@ -54,7 +54,7 @@ To search for a specific message by a user:
 
 The conversations pops up, as shown below:
 
-![](<../../.gitbook/assets/image (298) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (298) (1) (1) (1) (1) (1) (1).png>)
 
 ### By Direct Messages
 

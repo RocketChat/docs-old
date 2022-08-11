@@ -54,7 +54,7 @@ AMI goes in the “Other” zone because only some specific endpoints should be 
 \
 Now you don’t want your Rocket.Chat to get banned by the FreePBX firewall so you have to add it to the Whitelist List. First, you need to know the IP or IP Networks from your Rocket.Chat instance. When you have a SaaS Rocket.Chat instance you will have a URL (subdomain) like <mark style="color:blue;">MyChosenName.rocket.chat</mark>, so just ping it. In this demo:
 
-![](../../../../.gitbook/assets/image.png)
+![](<../../../../.gitbook/assets/image (4).png>)
 
 Rocket.Chat will be connecting from the whole network 51.81.0.0/16\
 If you have your own Rocket.Chat instance self-hosted or similar, you should know what’s your IP address or network.
@@ -110,6 +110,8 @@ Test it. Congratulations! you have an HTTPS valid SSL FreePBX server up and runn
 \
 We are using chan\_pjsip as the only SIP driver. Go to the **Settings > Advanced** **Settings**, search for **SIP Channel Driver**, and choose **chan\_pjsip**. Hit **Submit**.
 
+![PJSIP ](<../../../../.gitbook/assets/PJSIP FreePBX.png>)
+
 ## 5. Configure Asterisk HTTP/WebSocket features
 
 \
@@ -121,15 +123,15 @@ Using the article [Configuring Asterisk for WebRTC Clients 1](https://wiki.aster
 \
 First, check that you have the needed modules loaded using the command `module show like <module_name>`
 
-![Modules](<../../../../.gitbook/assets/Modules PBX.png>)
+![Modules](<../../../../.gitbook/assets/Modules FreePBX.png>)
 
 We are reusing the Let’s Encrypt certificates for the Asterisk mini-HTTP server, WebSockets, TLS encryption, and others. Start by going to the **Settings > Advanced Settings** (again), search for the _Asterisk Builtin mini-HTTP server_ section and configure as shown, apply changes. Asterisk restart is also recommended here:
 
-![Asterisk Builtin mini-HTTP server ](<../../../../.gitbook/assets/Asterisk Builtin mini-HTTP server .png>)
+![Asterisk Builtin mini-HTTP server](../../../../.gitbook/assets/image.png)
 
 Using the command `http show status` verify that both HTTP and HTTPS are up and running:
 
-![HTTP and HTTPS status check](<../../../../.gitbook/assets/HTTP and HTTPS status check PBX.png>)
+![HTTP and HTTPS status](<../../../../.gitbook/assets/HTTP and HTTPS status FreePBX.png>)
 
 **If HTTP does but HTTPS doesn’t check that Asterisk can read the certificate and private key files:** Add capture of file reading error.&#x20;
 
@@ -137,7 +139,7 @@ Using the command `http show status` verify that both HTTP and HTTPS are up and 
 
 Navigate to the **Settings > Asterisk SIP Settings**. In the **General SIP Settings** tab configure your audio codecs, enable video, and select video codecs (vp8 and vp9 needed for WebRTC), NAT, etc. Then in the **SIP Settings** (chan\_pjsip) tab choose your valid SSL certificate for **TLS/SSL/SRTP** and enable all the desired transports, especially WS and WSS:
 
-![SIP settings](<../../../../.gitbook/assets/SIP settings PBX.png>)
+![SIP transports](<../../../../.gitbook/assets/SIP transports.png>)
 
 Click submit and apply changes (an Asterisk restart is recommended)
 
@@ -146,6 +148,6 @@ Click submit and apply changes (an Asterisk restart is recommended)
 \
 Navigate to [https://mysub.domainname.domain:8089/httpstatus](https://mysub.domainname.domain:8089/httpstatus) and verify that it loads, SSL Port is present, and the SSL certificate is valid:
 
-![Asterisk status](<../../../../.gitbook/assets/Asterisk status.png>)
+![Asterisk status](<../../../../.gitbook/assets/Asterisk status FreePBX.png>)
 
 Congratulations! you have a valid SSL Asterisk WebRTC-ready server up and running.
