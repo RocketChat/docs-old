@@ -5,12 +5,14 @@ To use any Rocket.Chat products, you need to sign up for an [**Enterprise Editio
 {% hint style="info" %}
 Requirements:
 
-* Asterisk 16.19.0 or higher (We used FreePBX 16.0.10.40 with Asterisk 18.6.0)
+* [Asterisk](https://www.asterisk.org/) 16.19.0 or higher (We used [FreePBX](https://www.freepbx.org/) 16.0.10.40 with Asterisk 18.6.0)
 * Valid SSL certificate (valid domain of course)
 * You need Rocket.Chat version 5.0.0 or higher.&#x20;
 {% endhint %}
 
-****
+* A **private branch exchange (PBX)**  is a telephone system within an enterprise that switches calls between users on local lines, while enabling all users to share a certain number of external phone lines.&#x20;
+* **Asterisk** is an open-source software implementation of a **PBX**.&#x20;
+* **FreePBX** is a web-based open source GUI (graphical user interface) that controls and manages Asterisk (PBX).
 
 **To set up a voice channel you have two paths:**
 
