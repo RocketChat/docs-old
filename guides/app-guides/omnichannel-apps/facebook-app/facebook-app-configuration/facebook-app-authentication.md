@@ -37,7 +37,7 @@ The next step after the configuration and resolving the dependencies is authenti
 
 ![](<../../../../../.gitbook/assets/2021-11-29\_01-14-57 (2).png>)
 
-At this step, you must have a Facebook page associated with the account. If you don’t have one yet, you can [create yours in just 30 seconds](https://www.facebook.com/pages/create/?ref\_type=registration\_form).
+At this step, you must have a Facebook page associated with the account. If you donÃÂ¢ÃÂÃÂt have one yet, you can [create yours in just 30 seconds](https://www.facebook.com/pages/create/?ref\_type=registration\_form).
 
 In case you have multiple pages associated with your Facebook account it will prompt a selection box to choose the preferred page to connect.
 

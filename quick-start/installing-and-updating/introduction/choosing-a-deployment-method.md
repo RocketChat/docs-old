@@ -35,9 +35,9 @@ Rocket.Chat offers a variety of official support, this factor is based on update
 
 A lot of the time, problems faced with deployment are not about the application itself misbehaving, but rather some wrong configurations made by the user. Such configurations can be related directly with a dependency, the deployment method, and/or platform.
 
-In such cases, it’d be much easier to overcome that and be successful, by visiting the problem tools' guide or community page and request for support.
+In such cases, itÃÂ¢ÃÂÃÂd be much easier to overcome that and be successful, by visiting the problem tools' guide or community page and request for support.
 
-This is something that’s ignored very frequently but should be considered for a long-term commitment.
+This is something thatÃÂ¢ÃÂÃÂs ignored very frequently but should be considered for a long-term commitment.
 
 ## Scorecard
 
@@ -59,14 +59,14 @@ This scorecard shows a rating(on 05) of each deployment method against each cons
 * Scaling your Rocket.Chat deployment using Docker, more specifically, Docker Compose is quite easy. As easy as editing a text file can be.
 *   To install using Docker Compose, we just needed a single `YAML` file, namely a compose file. How easier can it really be?
 
-    But, even though the Rocket.Chat deployment part is easy, the initial setup needs a little more work. Configuring and securing docker can get even more complicated, although worth it, isn’t the easiest, especially compared to some of the other options we have in this list.
+    But, even though the Rocket.Chat deployment part is easy, the initial setup needs a little more work. Configuring and securing docker can get even more complicated, although worth it, isnÃÂ¢ÃÂÃÂt the easiest, especially compared to some of the other options we have in this list.
 * Maintaining the installation using Docker is also very easy. From changing configurations, data backups to updating components, it is very straightforward and easy to do.
 * Docker deployment is officially supported by Rocket.Chat.
 * Docker has a large following and a huge community around it. It is one of the easiest tools to get help from the community.
 {% endtab %}
 
 {% tab title="Snap" %}
-*   Snap deployment is not horizontally scalable, in other words, you can’t add more instances to your existing deployment.
+*   Snap deployment is not horizontally scalable, in other words, you canÃÂ¢ÃÂÃÂt add more instances to your existing deployment.
 
     To be technically correct, you actually can, but the process will not only be unideal but also tedious and non-repeatable.
 
@@ -77,7 +77,7 @@ This scorecard shows a rating(on 05) of each deployment method against each cons
     * most configurations are already handled by the core Rocket.Chat team with sane defaults
     * helper scripts for anyone to be able to change configurations in seconds
 * Our snap deployment is totally supported officially
-*   The snap community isn’t small, but it’s also not so big either. Also, the fact that snaps are pre-packaged by us and the users can’t really modify anything by themselves, makes community support even more inconsequential.
+*   The snap community isnÃÂ¢ÃÂÃÂt small, but itÃÂ¢ÃÂÃÂs also not so big either. Also, the fact that snaps are pre-packaged by us and the users canÃÂ¢ÃÂÃÂt really modify anything by themselves, makes community support even more inconsequential.
 
     For support related to Rocket.Chat snap installs, the best bet is the Rocket.Chat community itself, and more often than not, that is where the snap community will send you as well if you go there first.
 {% endtab %}

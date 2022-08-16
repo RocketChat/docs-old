@@ -41,7 +41,7 @@ Now that you have registered your workspace proceed to [Rocket.Chat Cloud Portal
 
 * When all this is done, refresh the page, and you're able to see your workspace listed with current plan as **Enterprise** with an **Active** status.
 
-​
+ÃÂ¢ÃÂÃÂ
 
 ![](<../../.gitbook/assets/image (253) (1).png>)
 

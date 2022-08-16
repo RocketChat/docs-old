@@ -71,7 +71,7 @@ Send an email to [omni@rocket.chat](mailto:omni@rocket.chat) to request an API k
 2. Enter your _OmniChannel API Key_
 3. _Enter OmniChannel API Secret_. **Save** the changes
 
-‌
+ÃÂ¢ÃÂÃÂ
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-MIz0NPAavAh0lU\_m6WU%2F-MIz2cI9LQb6iNIthxPa%2Fimage.png?alt=media\&token=b082edb1-8ac9-4f9b-84d5-5434d74bbbbf)
 

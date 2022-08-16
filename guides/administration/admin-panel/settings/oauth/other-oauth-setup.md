@@ -28,7 +28,7 @@ To get this, create a meteor cloud account at [https://cloud.meteor.com/](https:
 
 To set up Twitter OAuth, you need a Twitter OAuth app Id and secret
 
-Go to the Twitter [developer portal’s App page](https://developer.twitter.com/en/portal/projects-and-apps) to create or view your existing apps. This will give you the credentials you need.
+Go to the Twitter [developer portalÃÂ¢ÃÂÃÂs App page](https://developer.twitter.com/en/portal/projects-and-apps) to create or view your existing apps. This will give you the credentials you need.
 
 * **Twitter Login**: Lets you enable Twitter OAuth for login&#x20;
 * **Twitter Id**: The OAuth Id of your Twitter OAuth app

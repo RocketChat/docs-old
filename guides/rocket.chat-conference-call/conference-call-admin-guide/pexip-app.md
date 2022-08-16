@@ -6,7 +6,7 @@ description: Enterprise only feature
 
 ![](../../../.gitbook/assets/EnterpriseEditionTag.jpg)
 
-[Pexip](https://www.pexip.com/) is a purpose-built video communication platform that empowers large organizations to transform their operations with video. Pexip’s unique technology provides customized solutions for innovative and fully bespoke application of video, data privacy, and business continuity for secure spaces and frictionless collaboration for connected spaces.
+[Pexip](https://www.pexip.com/) is a purpose-built video communication platform that empowers large organizations to transform their operations with video. PexipÃÂ¢ÃÂÃÂs unique technology provides customized solutions for innovative and fully bespoke application of video, data privacy, and business continuity for secure spaces and frictionless collaboration for connected spaces.
 
 The integration between Rocket.Chat and Pexip as video conferencing communication platform enable secure and compliant communication that is ideal for organizations operating within strict regulatory requirements relating to internal and external communications such as government, financial services, healthcare, and others.
 

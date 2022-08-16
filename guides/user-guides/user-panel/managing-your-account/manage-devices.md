@@ -1,6 +1,6 @@
 # Manage Devices
 
-The **Manage Devices** menu lets you monitor and log out of your devices remotely. You can see a list of all the devices you’ve used to log into your Rocket. Chat workspace here. Click on any of the devices to view the client, device operating system, your last login activity, and device id.
+The **Manage Devices** menu lets you monitor and log out of your devices remotely. You can see a list of all the devices youÃÂ¢ÃÂÃÂve used to log into your Rocket. Chat workspace here. Click on any of the devices to view the client, device operating system, your last login activity, and device id.
 
 ## Log out of your devices
 

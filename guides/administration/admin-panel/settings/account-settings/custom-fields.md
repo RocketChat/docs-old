@@ -20,28 +20,28 @@ Make sure to use a valid `JSON`, where `keys` are the `field names` containing a
 
 ```javascript
 {
- "role": {
-  "type": "select",
-  "defaultValue": "student",
-  "options": ["teacher", "student"],
-  "required": true,
-  "modifyRecordField": {
-   "array": true,
-   "field": "roles"
-  }
- },
- "twitter": {
-  "type": "text",
-  "required": true,
-  "minLength": 2,
-  "maxLength": 10
- },
- "crmUserId": {
-  "type": "text",
-  "required": false,
-  "minLength": 12,
-  "sendToIntegrations": true,
- }
+ÃÂ¢ÃÂÃÂ"role": {
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"type": "select",
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"defaultValue": "student",
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"options": ["teacher", "student"],
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"required": true,
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"modifyRecordField": {
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"array": true,
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"field": "roles"
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ}
+ÃÂ¢ÃÂÃÂ},
+ÃÂ¢ÃÂÃÂ"twitter": {
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"type": "text",
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"required": true,
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"minLength": 2,
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"maxLength": 10
+ÃÂ¢ÃÂÃÂ},
+ÃÂ¢ÃÂÃÂ"crmUserId": {
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"type": "text",
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"required": false,
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"minLength": 12,
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"sendToIntegrations": true,
+ÃÂ¢ÃÂÃÂ}
 }
 ```
 

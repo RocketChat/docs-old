@@ -8,7 +8,7 @@ Here is where most of the changes to the UI will happen. Found in the administra
 
 ### Colors
 
-Let’s start out with the most basic changes you can make to your server, changing colors. Rocket.Chat offers the ability to change most of its elements colors
+LetÃÂ¢ÃÂÃÂs start out with the most basic changes you can make to your server, changing colors. Rocket.Chat offers the ability to change most of its elements colors
 
 ### Error
 

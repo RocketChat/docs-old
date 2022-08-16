@@ -8,7 +8,7 @@ To star a message, click on the **options** across the message and select **Star
 
 ![](<../../../../../.gitbook/assets/image (643) (1) (1) (1) (1) (1).png>)
 
-Stared messages are identified by a small star ⭐ by the side
+Stared messages are identified by a small star ÃÂ¢ÃÂ­ÃÂ by the side
 
 ![](<../../../../../.gitbook/assets/image (668) (1) (1) (1) (1) (1) (1).png>)
 

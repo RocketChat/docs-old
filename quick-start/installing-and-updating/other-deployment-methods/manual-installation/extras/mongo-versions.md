@@ -61,8 +61,8 @@ If you're going to deploy fresh, we recommend choosing the latest version that i
 One way you can get the latest MongoDB version that is supported by the current latest Rocket.Chat, is by using `curl` with `jq`:
 
 ```
-~ via  v12.22.11
-➜ curl https://releases.rocket.chat/latest/info -s | jq '.compatibleMongoVersion
+~ via ÃÂ®ÃÂÃÂ v12.22.11
+ÃÂ¢ÃÂÃÂ curl https://releases.rocket.chat/latest/info -s | jq '.compatibleMongoVersion
 s | sort_by(.) | reverse | .[0]' -r
 5.0
 ```

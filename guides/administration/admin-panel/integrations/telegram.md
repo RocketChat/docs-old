@@ -135,20 +135,20 @@ https://api.telegram.org/bot<myauthorization-token>/sendMessage?chat_id=<chat-id
 GetIDsBot - Get Meta information in Telegram
 
 Available commands:
-» /admins to get a list of all current admins.
-» /json in reply to a message to get it's bot api json variant.
-» /user in reply to a message for info about that user.
+ÃÂÃÂ» /admins to get a list of all current admins.
+ÃÂÃÂ» /json in reply to a message to get it's bot api json variant.
+ÃÂÃÂ» /user in reply to a message for info about that user.
 
 This chat
- ├ id: -576033868
- ├ title: RC-Tel-Group
- ├ type: group
- └ all_members_are_administrators: true
+ ÃÂ¢ÃÂÃÂ id: -576033868
+ ÃÂ¢ÃÂÃÂ title: RC-Tel-Group
+ ÃÂ¢ÃÂÃÂ type: group
+ ÃÂ¢ÃÂÃÂ all_members_are_administrators: true
 
 Its admins:
-⭐️ R
+ÃÂ¢ÃÂ­ÃÂÃÂ¯ÃÂ¸ÃÂ R
 
-ℹ️ Commands are rate limited in group chats. I do not talk unless asked to do so.
+ÃÂ¢ÃÂÃÂ¹ÃÂ¯ÃÂ¸ÃÂ Commands are rate limited in group chats. I do not talk unless asked to do so.
 ```
 
 * Change the bot group privacy settings so it can listen to all messages by:&#x20;

@@ -45,9 +45,9 @@ Execute this from the root of the source code:
 DEPLOY_HOSTNAME=[region] meteor deploy [hostname] --settings [filepath.json]
 ```
 
-* region is ‘galaxy.meteor.com’ for US East, ‘eu-west-1.galaxy.meteor.com’ for EU West, and ‘ap-southeast-2.galaxy.meteor.com’ for Asia-Pacific.
-* hostname is the fully qualified domain name where you’re planning to host your application \(using  in the .meteorapp.com hostname format, in this example\).
-* filepath.json is the path to your settings file \(for example, ‘./settings.json’\).
+* region is ÃÂ¢ÃÂÃÂgalaxy.meteor.comÃÂ¢ÃÂÃÂ for US East, ÃÂ¢ÃÂÃÂeu-west-1.galaxy.meteor.comÃÂ¢ÃÂÃÂ for EU West, and ÃÂ¢ÃÂÃÂap-southeast-2.galaxy.meteor.comÃÂ¢ÃÂÃÂ for Asia-Pacific.
+* hostname is the fully qualified domain name where youÃÂ¢ÃÂÃÂre planning to host your application \(using  in the .meteorapp.com hostname format, in this example\).
+* filepath.json is the path to your settings file \(for example, ÃÂ¢ÃÂÃÂ./settings.jsonÃÂ¢ÃÂÃÂ\).
 
 For more information on these steps check out [galaxy's doc](https://galaxy-guide.meteor.com/migrate-app.html)
 

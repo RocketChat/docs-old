@@ -168,7 +168,7 @@ Interested students are also encouraged to interact with our contributor communi
 ### Audio improvements on mobile apps
 
 * **Mentors**: @nathan.khoo @djorkaeff.alexandre @diego.mello
-* **Description**: A new UI component to be rendered outside the room view allowing users to listen to the room’s audios when navigating to other rooms. Additions like listening speed are welcome.
+* **Description**: A new UI component to be rendered outside the room view allowing users to listen to the roomÃÂ¢ÃÂÃÂs audios when navigating to other rooms. Additions like listening speed are welcome.
 * **Desirable Skills**: Familiarity with React Native and Rocket.Chat codebase.
 
 ### Full-screen composer option to send/edit long messages on mobile apps
@@ -240,12 +240,12 @@ Interested students are also encouraged to interact with our contributor communi
 ### UI to see videos outside the room, using popouts
 
 * **Mentors**: [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo) and [@tasso.pinto](https://open.rocket.chat/direct/tasso.evangelista)
-* **Description**: A new UI component to be rendered outside the room view allowing users to listen to the room’s videos when navigating to other rooms.
+* **Description**: A new UI component to be rendered outside the room view allowing users to listen to the roomÃÂ¢ÃÂÃÂs videos when navigating to other rooms.
 
 ### UI to listen to audio files outside the room (like telegram) + "user is recording audio" indicator (as the typing one)
 
 * **Mentors**: [@tasso.pinto](https://open.rocket.chat/direct/tasso.evangelista) and [@guilherme.gazzo](https://open.rocket.chat/direct/guilherme.gazzo)
-* **Description**: A new UI component to be rendered outside the room view allowing users to listen to the room’s audios when navigating to other rooms. Additions like listening speed are welcome.
+* **Description**: A new UI component to be rendered outside the room view allowing users to listen to the roomÃÂ¢ÃÂÃÂs audios when navigating to other rooms. Additions like listening speed are welcome.
 
 ### Pre-installed apps
 
@@ -281,7 +281,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 * **Mentors:** [@matheus.cardoso](https://open.rocket.chat/direct/matheus.cardoso)
 * **Project repository**: [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)
-* **Description:** Android and iOS both support gesture-based screen readers that let you enjoy using the phone even if you don’t see the screen. This is especially important for those with low or no vision. We want to make Rocket.Chat for everyone. A blind user should be able to easily add servers, change servers, read messages and send messages, as well as other additional functions such as editing profile and creating channels. The proposal should contain a per-screen study of the current App's state of accessibility (what is missing and what needs to be improved), and a roadmap to take it to a delightful state.
+* **Description:** Android and iOS both support gesture-based screen readers that let you enjoy using the phone even if you donÃÂ¢ÃÂÃÂt see the screen. This is especially important for those with low or no vision. We want to make Rocket.Chat for everyone. A blind user should be able to easily add servers, change servers, read messages and send messages, as well as other additional functions such as editing profile and creating channels. The proposal should contain a per-screen study of the current App's state of accessibility (what is missing and what needs to be improved), and a roadmap to take it to a delightful state.
 * **Desirable Skills:** We are looking for a student who is familiar with team work, developing mobile Apps using React Native and JavaScript, as well as writing maintainable code with Unit Tests and having some familiarity with Voice Over (iOS), TalkBack (Android) and Accessibility. Knowledge of Swift/Objective-C and Kotlin/Java may be needed for some of the trickier tasks.
 
 ### Omnichannel: Create integration with Zoho Desk CRM

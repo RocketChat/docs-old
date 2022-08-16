@@ -34,7 +34,7 @@ These resources mean:
 
 <summary>Why is Identity Management (and authentication/authorization services) important?</summary>
 
-The ability to integrate with your organization’s user directory service is important for keeping your users’ access up to date at all times. For example, when someone joins your organization their Rocket user can be created automatically, and when they leave their user can be promptly deactivated. This becomes more important with scale, the greater the count of users.
+The ability to integrate with your organizationÃÂ¢ÃÂÃÂs user directory service is important for keeping your usersÃÂ¢ÃÂÃÂ access up to date at all times. For example, when someone joins your organization their Rocket user can be created automatically, and when they leave their user can be promptly deactivated. This becomes more important with scale, the greater the count of users.
 
 </details>
 
@@ -66,7 +66,7 @@ We are rewriting the LDAP feature to TypeScript and making improvements on top o
 
 <details>
 
-<summary>How will this affect my air-gapped (no internet connection) environment? Can’t we just pull from our intranet easily anyway?</summary>
+<summary>How will this affect my air-gapped (no internet connection) environment? CanÃÂ¢ÃÂÃÂt we just pull from our intranet easily anyway?</summary>
 
 If the Rocket.Chat server is air-gapped but integrated with an internal LDAP server, then there is a need to apply for an enterprise edition license to access the complete suite of advanced LDAP/SAML/Oauth features when you upgrade.
 
@@ -74,7 +74,7 @@ If the Rocket.Chat server is air-gapped but integrated with an internal LDAP ser
 
 <details>
 
-<summary>The reason a division of our team/company uses RC is for security, and/or it is air-gapped. This LDAP change doesn’t seem to affect us for our purposes – but will this have some sort of unanticipated effect on our security processes/ability to maintain data privacy? If so, please explain so we can consider it further.</summary>
+<summary>The reason a division of our team/company uses RC is for security, and/or it is air-gapped. This LDAP change doesnÃÂ¢ÃÂÃÂt seem to affect us for our purposes ÃÂ¢ÃÂÃÂ but will this have some sort of unanticipated effect on our security processes/ability to maintain data privacy? If so, please explain so we can consider it further.</summary>
 
 No there will not be ancillary effects.
 

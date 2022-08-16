@@ -30,7 +30,7 @@ The first step after the configuration and resolving the dependencies is authent
 
 ![](<../../../../../.gitbook/assets/image (545).png>)
 
-4\. Confirm the Instagram business account you want to use with Rocket.Chat Omni Gateway. If you don’t have one yet, you can [create yours in just 30 seconds](https://www.facebook.com/pages/create/?ref\_type=registration\_form).
+4\. Confirm the Instagram business account you want to use with Rocket.Chat Omni Gateway. If you donÃÂ¢ÃÂÃÂt have one yet, you can [create yours in just 30 seconds](https://www.facebook.com/pages/create/?ref\_type=registration\_form).
 
 ![](<../../../../../.gitbook/assets/2021-12-31\_18-10-57 (1).png>)
 

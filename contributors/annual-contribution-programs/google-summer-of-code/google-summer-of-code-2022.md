@@ -87,7 +87,7 @@ We are also planning a virtual conference at the end of the GSoC term - named GS
 | Sidharth Mohanty   | Rocket.Chat ReactJS fullstack Component                            | Rohan Lekhwani                                |
 | srrathi            | Rocket Chat TUI                                                    | Aaron Ogle, Debdut Chakraborty                |
 | Vivek Srivastava   | Playground for UIKit ReactJS components                            | Martin Schoeler, Guilherme Gazzo              |
-| Yuqing             | Rocket.Chat - Teams Bridge: interop with Microsoft Teams           | Gabriel Engel, Yash Rajpal, Fábio Albuquerque |
+| Yuqing             | Rocket.Chat - Teams Bridge: interop with Microsoft Teams           | Gabriel Engel, Yash Rajpal, FÃÂÃÂ¡bio Albuquerque |
 
 **Total of 83 proposals received (Update April 20th)**
 
@@ -191,7 +191,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 ### Rocket.Chat Golang SDK
 
-**Mentor(s):** Cauê Felchar, Aaron Ogle
+**Mentor(s):** CauÃÂÃÂª Felchar, Aaron Ogle
 
 **Description:** Golang module to enable any Go packge to talk to a Rocket.Chat server with ease, making it possible to create from custom clients to bots.
 
@@ -382,7 +382,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 ### Team Bridge: interop with Microsoft Teams
 
-**Mentor(s):** Yash Rajpal, Fábio Albuquerque, Gabriel Engel
+**Mentor(s):** Yash Rajpal, FÃÂÃÂ¡bio Albuquerque, Gabriel Engel
 
 **Description:** Microsoft team is unquestionably the most popular and frequently used closed source team chat system in the world. Many administrators and users of open source Rocket.Chat team chat will have needs to bridge between their open source users and legacy users still on team. This project will create a Rocket.Chat App or an npm module that will act as a bridge between Rocket.Chat and Microsoft Team. Users on one system should be able to chat with the other through shared channels. Support for rich interactions including DM, emoji's, embedded graphics, shared youtube links and so on should also be supported. The exact scope for this project will be determined between the contributor and the mentors.
 
@@ -434,7 +434,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 ### Chatbot to improve agile workflow
 
-**Mentors:** Tiago Evangelista, Gabriel Casals, José Paulo Petry
+**Mentors:** Tiago Evangelista, Gabriel Casals, JosÃÂÃÂ© Paulo Petry
 
 **Description:** Agile adoption is increasing year to year on the different industries. There is an opportunity to add agile package bots to help squad with reminders, links and facilitate attendance to meeting based on simple calendar inputs and emoji reactions. Candidate will be working with Agile experts and Engineers to build some solutions for this space and help improve team/squads productivity. Successful contributor will propose and implement a Chatbot that solves a problem in agile. Candidate have a free choice of technology to implement the chatbot - RASA, Botpress, Dialogflow, and so on.
 

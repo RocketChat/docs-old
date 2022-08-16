@@ -6,9 +6,9 @@ description: Secure your account with two factor authentication.
 
 With the ability to extensively use Rocket.Chat on multiple platforms, there's also a risk of exposing your account details.
 
-Luckily, it’s easy for you to add an extra level of protection to your accounts in the form of two-factor authentication, also commonly referred to as 2FA.
+Luckily, itÃÂ¢ÃÂÃÂs easy for you to add an extra level of protection to your accounts in the form of two-factor authentication, also commonly referred to as 2FA.
 
-2FA increases the security of your account. Even if somebody guesses your password, they won’t be able to access your account without the second factor of confirmation you have in your possession.
+2FA increases the security of your account. Even if somebody guesses your password, they wonÃÂ¢ÃÂÃÂt be able to access your account without the second factor of confirmation you have in your possession.
 
 {% hint style="info" %}
 By default, 2FA is enabled with the email you used for signing up on the server.

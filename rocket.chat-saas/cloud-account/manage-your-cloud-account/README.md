@@ -9,7 +9,7 @@ description: >-
 
 ## Sign in to your Rocket.Chat Cloud Account
 
-If you’ve already registered, you will receive an email with the login link, or you need to enter your email address to which you receive a link to get access to your cloud account.
+If youÃÂ¢ÃÂÃÂve already registered, you will receive an email with the login link, or you need to enter your email address to which you receive a link to get access to your cloud account.
 
 ### **Connect to your cloud account with an email invitation**
 

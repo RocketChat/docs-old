@@ -12,7 +12,7 @@ Follow these steps:
 2. Create a Project and select it.
 3. On the navigation menu, go to "APIs & Services" => Dashboard Tab
 4. Click on ENABLE APIS AND SERVICES and search for Cloud Translation API.
-5. Go to “Credentials” Tab
+5. Go to ÃÂ¢ÃÂÃÂCredentialsÃÂ¢ÃÂÃÂ Tab
 6. Click on "Create credentials"
 7. Choose "API key"
 

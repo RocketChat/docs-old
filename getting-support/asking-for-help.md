@@ -116,13 +116,13 @@ It is impossible to diagnose something when you just say 'it's broken'. The help
 
 Your problem may appear complex but it is often the basics that catch you out. It is extremely common for people to miss steps in their set-up. It is hard to tell at first if a problem is simple or complex so please be patient if you get asked 'the stupid questions'. We are just trying to get a baseline and making sure you have done the basics and trying to understand how you got to this position. Remember, if you phoned the garage about your car and said 'it runs funny sometimes' what would they ask you? Make, model, age... etc.
 
-This is no different.😊
+This is no different.ÃÂ°ÃÂÃÂÃÂ
 
 Don't hide things away because you are embarrassed. They are most likely going to find out, so you might as well be honest. We have **ALL** made mistakes.
 
 Tell us about the problem you were originally trying to solve, not the problem that you are experiencing right now. Frequently the one you are experiencing now is the result of not understanding or being able to fix the original issue.
 
-[How to Report Bugs Effectively](https://www.chiark.greenend.org.uk/\~sgtatham/bugs.html) is a great read on the subject. 😉
+[How to Report Bugs Effectively](https://www.chiark.greenend.org.uk/\~sgtatham/bugs.html) is a great read on the subject. ÃÂ°ÃÂÃÂÃÂ
 
 ### Bug template
 
@@ -188,7 +188,7 @@ If Rocket.Chat works but doesn't do something the way you want it to then this i
 
 ### **Go through the documentation**
 
-Please go through the relevant documentation at least twice. A lot of the answers can be found there. It is easy to miss the obvious because you _think_ you know the answer rather than reading to actually understand. 😃
+Please go through the relevant documentation at least twice. A lot of the answers can be found there. It is easy to miss the obvious because you _think_ you know the answer rather than reading to actually understand. ÃÂ°ÃÂÃÂÃÂ
 
 ### **Open an Issue**
 

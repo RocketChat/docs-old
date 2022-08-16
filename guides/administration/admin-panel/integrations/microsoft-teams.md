@@ -71,7 +71,7 @@ class Script {
 
 ## Create Outgoing WebHook in MS Teams:
 
-1. Select the appropriate team and select **Manage team** from the (**•••**) drop-down menu.
+1. Select the appropriate team and select **Manage team** from the (**ÃÂ¢ÃÂÃÂ¢ÃÂ¢ÃÂÃÂ¢ÃÂ¢ÃÂÃÂ¢**) drop-down menu.
 2. Choose the **Apps** tab from the navigation bar.
 3. From the window's lower right corner select Create an **outgoing webhook**.
 4.  In the resulting popup window complete the required fields:
@@ -88,11 +88,11 @@ class Script {
 
 ## Create Incoming WebHook in MS Teams:
 
-1. Navigate to the **Team** where you want to add the webhook and select (**•••**) **More Options** from the top navigation bar and Select **Apps** and select **More apps**.
+1. Navigate to the **Team** where you want to add the webhook and select (**ÃÂ¢ÃÂÃÂ¢ÃÂ¢ÃÂÃÂ¢ÃÂ¢ÃÂÃÂ¢**) **More Options** from the top navigation bar and Select **Apps** and select **More apps**.
    * Choose **Connectors** from the drop-down menu and search for **Incoming Webhook**.
    * Select the **Configure** button, provide a name, and, optionally, upload an image avatar for your webhook.
    * Select appropriate **Teams** and **Channel**.
-   * The dialog window will present a unique URL that will map to the channel. Make sure that you **copy and save the URL**—you will need to provide it to Rocket.Chat Outgoing WebHook.
+   * The dialog window will present a unique URL that will map to the channel. Make sure that you **copy and save the URL**ÃÂ¢ÃÂÃÂyou will need to provide it to Rocket.Chat Outgoing WebHook.
    * Select the **Done** button. The webhook will be available in the team channel.
 
 ## Create Outgoing Webhook in Rocket.Chat:

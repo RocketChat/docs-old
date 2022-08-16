@@ -231,21 +231,21 @@ Updating process.env.MAIL_URL
 Using GridFS for custom sounds storage
 Using GridFS for custom emoji storage
 ufs: temp directory created at "/tmp/ufs"
-➔ System ➔ startup
-➔ +--------------------------------------------------------+
-➔ |                     SERVER RUNNING                     |
-➔ +--------------------------------------------------------+
-➔ |                                                        |
-➔ |  Rocket.Chat Version: 0.60.0                           |
-➔ |       NodeJS Version: 8.9.3 - x64                      |
-➔ |             Platform: linux                            |
-➔ |         Process Port: 3000                             |
-➔ |             Site URL: http://YOUR.SERVER.NAME:3000/    |
-➔ |     ReplicaSet OpLog: Disabled                         |
-➔ |          Commit Hash: 988103d449                       |
-➔ |        Commit Branch: HEAD                             |
-➔ |                                                        |
-➔ +--------------------------------------------------------+
+ÃÂ¢ÃÂÃÂ System ÃÂ¢ÃÂÃÂ startup
+ÃÂ¢ÃÂÃÂ +--------------------------------------------------------+
+ÃÂ¢ÃÂÃÂ |                     SERVER RUNNING                     |
+ÃÂ¢ÃÂÃÂ +--------------------------------------------------------+
+ÃÂ¢ÃÂÃÂ |                                                        |
+ÃÂ¢ÃÂÃÂ |  Rocket.Chat Version: 0.60.0                           |
+ÃÂ¢ÃÂÃÂ |       NodeJS Version: 8.9.3 - x64                      |
+ÃÂ¢ÃÂÃÂ |             Platform: linux                            |
+ÃÂ¢ÃÂÃÂ |         Process Port: 3000                             |
+ÃÂ¢ÃÂÃÂ |             Site URL: http://YOUR.SERVER.NAME:3000/    |
+ÃÂ¢ÃÂÃÂ |     ReplicaSet OpLog: Disabled                         |
+ÃÂ¢ÃÂÃÂ |          Commit Hash: 988103d449                       |
+ÃÂ¢ÃÂÃÂ |        Commit Branch: HEAD                             |
+ÃÂ¢ÃÂÃÂ |                                                        |
+ÃÂ¢ÃÂÃÂ +--------------------------------------------------------+
 ```
 
 ... and that's Rocket.Chat all set. Direct a browser to `https://YOUR.SERVER.NAME` and register a yourself as new user. The first user you register will be made the server admin.

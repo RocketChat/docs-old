@@ -1,6 +1,6 @@
 ---
 description: >-
-  You can pick the workspace plan that’s right for you. When you upgrade or
+  You can pick the workspace plan thatÃÂ¢ÃÂÃÂs right for you. When you upgrade or
   downgrade a plan, you can also switch to daily, monthly, or yearly plans.
 ---
 

@@ -5,12 +5,12 @@ This feature aims to assess user satisfaction and make the Rocket.Chat experienc
 By allowing it to run on your workspace you are helping Rocket.Chat to:&#x20;
 
 * Build a better product & better user experience
-* Develop and prioritize features aligned with our users’ needs
+* Develop and prioritize features aligned with our usersÃÂ¢ÃÂÃÂ needs
 * Get accurate user feedback on what needs fixing versus what needs improvements.
 
 ## **What users will see?**
 
-A banner will be exhibited with the question: “**How likely are you to recommend us to a friend or colleague?**” and a scale from 0-10 to collect the answer.\
+A banner will be exhibited with the question: ÃÂ¢ÃÂÃÂ**How likely are you to recommend us to a friend or colleague?**ÃÂ¢ÃÂÃÂ and a scale from 0-10 to collect the answer.\
 \
 If the user clicks on a score, a modal will be exhibited to collect text feedback.
 
@@ -28,7 +28,7 @@ All users in the workspace will receive the survey on the same day.
 
 Admins will get notified one month before the NPS is rolled out via in-app banner and alert via Rocket.Cat. That means admins can quickly turn off the NPS in case they prefer.
 
-It’s possible to check more details directly in the code [here](https://github.com/RocketChat/Rocket.Chat/blob/3.17.0/server/services/nps/service.ts).\
+ItÃÂ¢ÃÂÃÂs possible to check more details directly in the code [here](https://github.com/RocketChat/Rocket.Chat/blob/3.17.0/server/services/nps/service.ts).\
 
 
 ## How is NPS data collected?
@@ -44,7 +44,7 @@ The following data elements are transmitted via statistics collector:
     * From the hash itself, user ID and NPS ID cannot be reversely identified.
   * The user role (e.g. guest, admin)
   * The numerical NPS score of the user (a number between 1-10)
-  * An optional comment from the user (e.g. “I like the emojis a lot!”)
+  * An optional comment from the user (e.g. ÃÂ¢ÃÂÃÂI like the emojis a lot!ÃÂ¢ÃÂÃÂ)
 * A workspace ID, which is a unique string per server, but does not indicate who uses it
 
 ## How to turn it off NPS survey?
@@ -52,7 +52,7 @@ The following data elements are transmitted via statistics collector:
 Our users have total freedom to disable the NPS survey. Simply follow the steps below to switch NPS off:
 
 * Within Rocket.Chat, access **Administration > General**&#x20;
-* **NPS** > Uncheck “**Enable NPS Survey**”
+* **NPS** > Uncheck ÃÂ¢ÃÂÃÂ**Enable NPS Survey**ÃÂ¢ÃÂÃÂ
 * Once the setting is turned off, the NPS survey stays off indefinitely.
 
 ![](https://lh5.googleusercontent.com/dy4TrUEoeGsj3rFes4or0m5hZ-Jvxp1mtz\_zrt2f-Diaox-CTttatqaVWLkSpQ2TJt6n9j3Zd-yCf\_RQS1H1zeH4M8gYPpLm2Gpk\_lp50NulU56arxdL5zyQTZRzGG6uKlEr7KMY)

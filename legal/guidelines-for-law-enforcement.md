@@ -51,7 +51,7 @@ The registration requires a working email address, a name or pseudonym and the s
 
 For total transparency, Rocket.Chat Technologies Corp. owns and operates only one publicly available Rocket.Chat server in the world. The server that Rocket.Chat Technologies Corp. operates can only be accessed at:
 
-**​**[**https://open.rocket.chat**](https://open.rocket.chat)**​**
+**ÃÂ¢ÃÂÃÂ**[**https://open.rocket.chat**](https://open.rocket.chat)**ÃÂ¢ÃÂÃÂ**
 
 That server is subject to our [Code of Conduct](https://rocket.chat/code-of-conduct).
 
@@ -89,7 +89,7 @@ The aforementioned restrictions with regards to the deployment options apply to 
 
 ## Data retention information
 
-Rocket.Chat retains data and backups of data for an undisclosed amount of time. Rocket.Chat makes backups of Cloud servers according to each customer's choice of plan (daily, twice daily or hourly). Some information we store is automatically collected, while other information is provided at the user’s discretion. Though we do store this information, we cannot guarantee its accuracy. For example, the server in use may not require real name use, email verification or identity authentication, hence the user may have created a fake or anonymous profile.
+Rocket.Chat retains data and backups of data for an undisclosed amount of time. Rocket.Chat makes backups of Cloud servers according to each customer's choice of plan (daily, twice daily or hourly). Some information we store is automatically collected, while other information is provided at the userÃÂ¢ÃÂÃÂs discretion. Though we do store this information, we cannot guarantee its accuracy. For example, the server in use may not require real name use, email verification or identity authentication, hence the user may have created a fake or anonymous profile.
 
 ## Preservation requests
 
@@ -111,7 +111,7 @@ Requests for user account information from law enforcement should be directed to
 
 ### Private information requires a subpoena or court order
 
-Non-public information about Rocket.Chat users will not be released to law enforcement except in response to appropriate legal process such as a subpoena, court order, or other valid legal process – or in response to a valid emergency request, as described below.
+Non-public information about Rocket.Chat users will not be released to law enforcement except in response to appropriate legal process such as a subpoena, court order, or other valid legal process ÃÂ¢ÃÂÃÂ or in response to a valid emergency request, as described below.
 
 ### Contents of communications requires a search warrant
 
@@ -119,7 +119,7 @@ Requests for the contents of communications (e.g., messages, files) require a va
 
 ### Will Rocket.Chat notify users of requests for account information?
 
-Yes. Rocket.Chat's policy is to notify users of requests for their Rocket.Chat account information, which includes a copy of the request, as soon as we are able (e.g., prior to or after disclosure of account information) unless we are prohibited from doing so (e.g., an order under [18 U.S.C. § 2705(b)](https://www.law.cornell.edu/uscode/text/18/2705)). We ask that any non-disclosure provisions include a specified duration (e.g., 90 days) during which Rocket.Chat is prohibited from notifying the user. Exceptions to user notice may include exigent or counterproductive circumstances, such as emergencies regarding imminent threat to life, child sexual exploitation, or terrorism.
+Yes. Rocket.Chat's policy is to notify users of requests for their Rocket.Chat account information, which includes a copy of the request, as soon as we are able (e.g., prior to or after disclosure of account information) unless we are prohibited from doing so (e.g., an order under [18 U.S.C. ÃÂÃÂ§ 2705(b)](https://www.law.cornell.edu/uscode/text/18/2705)). We ask that any non-disclosure provisions include a specified duration (e.g., 90 days) during which Rocket.Chat is prohibited from notifying the user. Exceptions to user notice may include exigent or counterproductive circumstances, such as emergencies regarding imminent threat to life, child sexual exploitation, or terrorism.
 
 ### What details must be included in account information requests?
 
@@ -141,13 +141,13 @@ The records that we produce are self-authenticating. Additionally, the records a
 
 ### Cost reimbursement
 
-Rocket.Chat may seek reimbursement for costs associated with information produced pursuant to legal process and as permitted by law (e.g. under [18 U.S.C. §2706](https://www.law.cornell.edu/uscode/text/18/2706)).
+Rocket.Chat may seek reimbursement for costs associated with information produced pursuant to legal process and as permitted by law (e.g. under [18 U.S.C. ÃÂÃÂ§2706](https://www.law.cornell.edu/uscode/text/18/2706)).
 
 ## Emergency disclosure requests
 
 In line with our [Privacy Policy](https://rocket.chat/privacy), we may disclose account information to law enforcement in response to a valid emergency disclosure request.
 
-Rocket.Chat evaluates emergency disclosure requests on a case-by-case basis in compliance with relevant law (e.g., [18 U.S.C. § 2702(b)(8)](https://www.law.cornell.edu/uscode/text/18/2702)). If we receive information that provides us with a good faith belief that there is an exigent emergency involving the danger of death or serious physical injury to a person, we may provide information necessary to prevent that harm, if we have it.
+Rocket.Chat evaluates emergency disclosure requests on a case-by-case basis in compliance with relevant law (e.g., [18 U.S.C. ÃÂÃÂ§ 2702(b)(8)](https://www.law.cornell.edu/uscode/text/18/2702)). If we receive information that provides us with a good faith belief that there is an exigent emergency involving the danger of death or serious physical injury to a person, we may provide information necessary to prevent that harm, if we have it.
 
 ### How to make an emergency disclosure request
 

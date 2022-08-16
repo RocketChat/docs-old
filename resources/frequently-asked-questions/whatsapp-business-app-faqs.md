@@ -56,7 +56,7 @@ Existing customers should click on uninstall button on the Marketplace panel. Be
 
 <summary>What do we do with air-gapped customers?</summary>
 
-We won’t be able to serve air-gapped customers because the necessity to connect with the 360Dialog proxy is needed to have access to the WhatsApp Business API.
+We wonÃÂ¢ÃÂÃÂt be able to serve air-gapped customers because the necessity to connect with the 360Dialog proxy is needed to have access to the WhatsApp Business API.
 
 </details>
 
@@ -89,9 +89,9 @@ _The prices listed below are effective until February 1, 2022. After that, conve
 
 **Pricing Rules**
 
-* “Message template” has the meaning detailed in our Documentation. “Templated message” means a message sent using a message template, in compliance with Facebook’s terms and policies.
+* ÃÂ¢ÃÂÃÂMessage templateÃÂ¢ÃÂÃÂ has the meaning detailed in our Documentation. ÃÂ¢ÃÂÃÂTemplated messageÃÂ¢ÃÂÃÂ means a message sent using a message template, in compliance with FacebookÃÂ¢ÃÂÃÂs terms and policies.
 * All prices are set forth in the List Price Schedule below and will apply to Templated Messages sent on or after the effective date indicated in the List Price Schedule.
-* Facebook will determine the price of each delivered Templated Message based upon the country code of the message recipient and the volume of Templated Messages delivered in a calendar month to a given country or region. Templated Message volume will not be aggregated across countries or regions or different Whatsapp Business API’s.
+* Facebook will determine the price of each delivered Templated Message based upon the country code of the message recipient and the volume of Templated Messages delivered in a calendar month to a given country or region. Templated Message volume will not be aggregated across countries or regions or different Whatsapp Business APIÃÂ¢ÃÂÃÂs.
 * The price charged for each delivered Templated Message will be the price effective at the time you send the Templated Message.
 * Charges are applicable for each Templated Message that is delivered within 30 days after being sent. Charges will not be applicable for Templated Messages that were delivered more than 30 days after it was sent. We determine that a message has been delivered when WhatsApp servers process a delivery receipt for the sent message\*\*.\*\*
 * If your customer initiates messaging with you, we will not charge you for any messages (including Templated Messages) that you send to that customer for up to 24 hours following the last message that that customer sends to you ("Customer Care Window"). Any additional message you send to that customer beyond the Customer Care Window must be a Templated Message, for which we will charge you as set forth in our rate card.
@@ -113,7 +113,7 @@ In conversation-based Pricing, WhatsApp Business API conversations fall into two
 
 All conversations are measured in 24-hour increments, or "sessions", that start whenever the first message is delivered by a business. The first message can be initiated by the business (business-initiated) or a business reply within 24 hours of a user message (user-initiated). A user is defined as the person or entity with whom the business is messaging.
 
-Charges for conversations are based on the user’s phone number. Rates for business-initiated conversations and user-initiated conversations vary by market (country or region). See Rates below.
+Charges for conversations are based on the userÃÂ¢ÃÂÃÂs phone number. Rates for business-initiated conversations and user-initiated conversations vary by market (country or region). See Rates below.
 
 **Free Tier Conversations**
 
@@ -143,7 +143,7 @@ Government Agencies must get approval from Facebook before creating any WhatsApp
 
 <summary>Can I have more than one number registered? Is there a price difference?</summary>
 
-Yes, you can have more than one number but there isn’t a difference based on the number of numbers bought.
+Yes, you can have more than one number but there isnÃÂ¢ÃÂÃÂt a difference based on the number of numbers bought.
 
 </details>
 
@@ -234,7 +234,7 @@ You should do that through template messages as explained above.
 
 <summary>After the client replies to an active message, does he go to the agent who sent it?</summary>
 
-It depends on your current omnichannel setup as it can be redirected to a specific department or if it’s public. The message will go to the agent who sent it as long as the agent is active, if not it will be redirected to an active agent. See our documentation. [Link](https://developer.rocket.chat/reference/api/rest-api/endpoints/apps-endpoints/whatsapp-endpoints)
+It depends on your current omnichannel setup as it can be redirected to a specific department or if itÃÂ¢ÃÂÃÂs public. The message will go to the agent who sent it as long as the agent is active, if not it will be redirected to an active agent. See our documentation. [Link](https://developer.rocket.chat/reference/api/rest-api/endpoints/apps-endpoints/whatsapp-endpoints)
 
 </details>
 
@@ -299,7 +299,7 @@ A number can only be registered once in the API. If you need, you can migrate to
 
 <summary>Is there a chatbot for WhatsApp?</summary>
 
-One of Rocket.Chat’s strength is its integration flexibility capabilities. Meaning that a variety of chatbot solutions can now be natively integrated into Rocket.Chat’s Omnichannel and offer automated service on the WhatsApp for Business channel. Bring the power of chatbot automation to Rocket.Chat and provide personalized experiences for your customers in the world's most popular instant messaging app.
+One of Rocket.ChatÃÂ¢ÃÂÃÂs strength is its integration flexibility capabilities. Meaning that a variety of chatbot solutions can now be natively integrated into Rocket.ChatÃÂ¢ÃÂÃÂs Omnichannel and offer automated service on the WhatsApp for Business channel. Bring the power of chatbot automation to Rocket.Chat and provide personalized experiences for your customers in the world's most popular instant messaging app.
 
 </details>
 

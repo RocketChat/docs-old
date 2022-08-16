@@ -6,7 +6,7 @@ _Effective date: September 06, 2019_
 
 Dear users,
 
-Rocket.Chat provides numerous spaces for our community to interact and experience our product. Among these are: [Open.rocket.chat](https://open.rocket.chat/), an open chat community for bringing people together and to showcase Rocket.Chat´s community edition. In addition, new features are tested on the server on a regular basis. [github.com/RocketChat](http://github.com/RocketChat), our source code repositories where we discuss issues and plan new features [Forums.rocket.chat](https://forums.rocket.chat/), our webforum to announce new features and provide ways for direct interaction with our developers
+Rocket.Chat provides numerous spaces for our community to interact and experience our product. Among these are: [Open.rocket.chat](https://open.rocket.chat/), an open chat community for bringing people together and to showcase Rocket.ChatÃÂÃÂ´s community edition. In addition, new features are tested on the server on a regular basis. [github.com/RocketChat](http://github.com/RocketChat), our source code repositories where we discuss issues and plan new features [Forums.rocket.chat](https://forums.rocket.chat/), our webforum to announce new features and provide ways for direct interaction with our developers
 
 ## Introduction
 

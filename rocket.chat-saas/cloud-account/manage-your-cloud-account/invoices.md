@@ -13,7 +13,7 @@ You can see the list of your invoices here.
 ![](<../../../.gitbook/assets/image (92).png>)
 
 {% hint style="info" %}
-Your workspace is on the _standard tiered plan_ paying monthly per 10 members— e.g., if you have two members, you will still be charged for ten members.
+Your workspace is on the _standard tiered plan_ paying monthly per 10 membersÃÂ¢ÃÂÃÂ e.g., if you have two members, you will still be charged for ten members.
 {% endhint %}
 
 To find more billing information, please follow the link to our [pricing](https://rocket.chat/pricing/).

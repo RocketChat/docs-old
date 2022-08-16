@@ -86,7 +86,7 @@ const githubEvents = {
     const action = request.content.action.capitalizeFirstLetter();
 
     const text = '_' + request.content.repository.full_name + '_\n' +
-                '**[' + action + ' issue ​#' + request.content.issue.number +
+                '**[' + action + ' issue ÃÂ¢ÃÂÃÂ#' + request.content.issue.number +
                 ' - ' + request.content.issue.title + '](' +
                 request.content.issue.html_url + ')**\n\n' +
                 body;
@@ -115,7 +115,7 @@ const githubEvents = {
     }
 
     const text = '_' + request.content.repository.full_name + '_\n' +
-                '**[' + action + ' on issue ​#' + request.content.issue.number +
+                '**[' + action + ' on issue ÃÂ¢ÃÂÃÂ#' + request.content.issue.number +
                 ' - ' + request.content.issue.title + '](' +
                 request.content.comment.html_url + ')**\n\n' +
                 request.content.comment.body;
@@ -239,7 +239,7 @@ commit_comment(request) {
     const action = request.content.action.capitalizeFirstLetter();
 
     const text = '_' + request.content.repository.full_name + '_\n' +
-                '**[' + action + ' pull request ​#' + request.content.pull_request.number +
+                '**[' + action + ' pull request ÃÂ¢ÃÂÃÂ#' + request.content.pull_request.number +
                 ' - ' + request.content.pull_request.title + '](' +
                 request.content.pull_request.html_url + ')**\n\n' +
                 body;

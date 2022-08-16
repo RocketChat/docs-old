@@ -1,6 +1,6 @@
 # Omnichannel Contact Manager
 
-​![](https://files.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-M418Ul0aSTwf2PYsyPW%2Fsync%2F1654b99a4e9df54521f42da4d3c1a7fbdb9f2238.jpg?generation=1633366358329646\&alt=media)​\
+ÃÂ¢ÃÂÃÂ![](https://files.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-M418Ul0aSTwf2PYsyPW%2Fsync%2F1654b99a4e9df54521f42da4d3c1a7fbdb9f2238.jpg?generation=1633366358329646\&alt=media)ÃÂ¢ÃÂÃÂ\
 This feature allows you to assign a dedicated contact person for a particular visitor/contact on the server. So if a contact starts a chat and if the dedicated contact person (aka agent) is online at the time, then the chat will be routed to that agent. If the agent isn't online, then the chat will be routed to any other online agent based on the routing algorithm selected.
 
 ## **To set a contact manager for a visitor/contact:**

@@ -43,7 +43,7 @@ server {
     ssl on;
     ssl_certificate /etc/nginx/certificate.crt;
     ssl_certificate_key /etc/nginx/certificate.key;
-    ssl_protocols TLSv1 TLSv1.1 TLSv1.2; # don’t use SSLv3 ref: POODLE
+    ssl_protocols TLSv1 TLSv1.1 TLSv1.2; # donÃÂ¢ÃÂÃÂt use SSLv3 ref: POODLE
 
     location / {
         proxy_pass http://backend;

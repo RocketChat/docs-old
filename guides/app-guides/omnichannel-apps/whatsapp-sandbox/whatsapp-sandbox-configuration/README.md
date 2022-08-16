@@ -37,7 +37,7 @@ Once you have a Sandbox API key, you can update the app settings as given below.
 
 To access the settings, go to **Administration** > **Administrator -> Apps -> Installed -> Whatsapp Sandbox -> Settings**
 
-Following are the settings available:‌
+Following are the settings available:ÃÂ¢ÃÂÃÂ
 
 * **WhatsApp Sandbox API KEY:** Provide the API KEY provided by 360Dialog for the Sandbox environment. Check here for more info about the Sandbox environment: [https://docs.360dialog.com/whatsapp-api/whatsapp-api/sandbox](https://docs.360dialog.com/whatsapp-api/whatsapp-api/sandbox).
 * **WhatsApp Sandbox API KEY:** Input the API KEY provided by 360Dialog for the Sandbox environment.&#x20;

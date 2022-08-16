@@ -17,7 +17,7 @@ Tested with Django 2.0.4 and Rocket.Chat 0.62.2. If you have any problems, pleas
     ```
     pip install django-rocketchat-auth
     ```
-2.  Add “rocketchat\_auth” to your INSTALLED\_APPS setting like this:
+2.  Add ÃÂ¢ÃÂÃÂrocketchat\_authÃÂ¢ÃÂÃÂ to your INSTALLED\_APPS setting like this:
 
     ```
     INSTALLED_APPS = (

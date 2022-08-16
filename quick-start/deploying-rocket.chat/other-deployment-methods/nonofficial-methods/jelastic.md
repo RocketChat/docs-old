@@ -28,7 +28,7 @@ and click on **Install**.
 
 ![](https://github.com/jelastic-jps/rocket-chat/raw/master/images/install.png)
 
-Once the deployment is finished, you’ll see an appropriate success pop-up.
+Once the deployment is finished, youÃÂ¢ÃÂÃÂll see an appropriate success pop-up.
 
 ![](https://github.com/jelastic-jps/rocket-chat/raw/master/images/success.png)
 

@@ -4,11 +4,11 @@ _Effective date: December 18, 2017_
 
 ## Rocket.Chat Copyright Dispute Policy
 
-In accordance with the DMCA, we’ve adopted the policy below toward copyright infringement. We reserve the right to \(1\) block access to or remove material that we believe in good faith to be copyrighted material that has been illegally copied and distributed by any of our advertisers, affiliates, content providers, members or users and \(2\) remove and discontinue service to repeat offenders.
+In accordance with the DMCA, weÃÂ¢ÃÂÃÂve adopted the policy below toward copyright infringement. We reserve the right to \(1\) block access to or remove material that we believe in good faith to be copyrighted material that has been illegally copied and distributed by any of our advertisers, affiliates, content providers, members or users and \(2\) remove and discontinue service to repeat offenders.
 
 **\(1\) Procedure for Reporting Copyright Infringements.**
 
-If you believe that material or content residing on or accessible through the services infringes your copyright \(or the copyright of someone whom you are authorized to act on behalf of\), please send a notice of copyright infringement containing the following information to Rocket.Chat’s Designated Agent to Receive Notification of Claimed Infringement \(our “Designated Agent,” whose contact details are listed below\):
+If you believe that material or content residing on or accessible through the services infringes your copyright \(or the copyright of someone whom you are authorized to act on behalf of\), please send a notice of copyright infringement containing the following information to Rocket.ChatÃÂ¢ÃÂÃÂs Designated Agent to Receive Notification of Claimed Infringement \(our ÃÂ¢ÃÂÃÂDesignated Agent,ÃÂ¢ÃÂÃÂ whose contact details are listed below\):
 
 \(a\) A physical or electronic signature of a person authorized to act on behalf of the owner of the copyright that has been allegedly infringed;  
  \(b\) Identification of works or materials being infringed;  
@@ -32,7 +32,7 @@ If the content provider believes that the material that was removed \(or to whic
 \(a\) A physical or electronic signature of the content provider;  
  \(b\) Identification of the material that has been removed or to which access has been disabled and the location at which the material appeared before it was removed or disabled;  
  \(c\) A statement that the content provider has a good faith belief that the material was removed or disabled as a result of mistake or misidentification of the material; and  
- \(d\) Content provider's name, address, telephone number, and, if available, email address, and a statement that such person or entity consents to the jurisdiction of the Federal Court for the judicial district in which the content provider’s address is located, or, if the content provider's address is located outside the United States, for any judicial district in which Rocket.Chat is located, and that such person or entity will accept service of process from the person who provided notification of the alleged infringement.
+ \(d\) Content provider's name, address, telephone number, and, if available, email address, and a statement that such person or entity consents to the jurisdiction of the Federal Court for the judicial district in which the content providerÃÂ¢ÃÂÃÂs address is located, or, if the content provider's address is located outside the United States, for any judicial district in which Rocket.Chat is located, and that such person or entity will accept service of process from the person who provided notification of the alleged infringement.
 
 If a counter-notice is received by the Designated Agent, Rocket.Chat may, in its discretion, send a copy of the counter-notice to the original complaining party informing that person that Rocket.Chat may replace the removed material or cease disabling it in 10 business days. Unless the copyright owner files an action seeking a court order against the content provider accused of committing infringement, the removed material may be replaced or access to it restored in 10 to 14 business days or more after receipt of the counter-notice, at Rocket.Chat's discretion.
 
@@ -41,6 +41,6 @@ If a counter-notice is received by the Designated Agent, Rocket.Chat may, in its
 **Marcelo Schmidt**  
  marcelo.schmidt@rocket.chat  
  Rua Jorge Fayet 757  
- Porto Alegre – RS – Brazil  
+ Porto Alegre ÃÂ¢ÃÂÃÂ RS ÃÂ¢ÃÂÃÂ Brazil  
  91330-330
 

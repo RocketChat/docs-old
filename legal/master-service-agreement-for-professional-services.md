@@ -2,13 +2,13 @@
 
 Effective date: 06/03/2022
 
-This Professional Services Master Agreement (“PSMA”) describes your (“Customer”) rights and responsibilities when using our (“Rocket.Chat”) Professional Services.
+This Professional Services Master Agreement (ÃÂ¢ÃÂÃÂPSMAÃÂ¢ÃÂÃÂ) describes your (ÃÂ¢ÃÂÃÂCustomerÃÂ¢ÃÂÃÂ) rights and responsibilities when using our (ÃÂ¢ÃÂÃÂRocket.ChatÃÂ¢ÃÂÃÂ) Professional Services.
 
-This Agreement applies to all Customers of Rocket.Chat’s Professional Services. and generally comes with an Statement of Work (SOW) or/and Order Form that specifies services for a particular initial term or period (the “Initial Order/SOW Term”).
+This Agreement applies to all Customers of Rocket.ChatÃÂ¢ÃÂÃÂs Professional Services. and generally comes with an Statement of Work (SOW) or/and Order Form that specifies services for a particular initial term or period (the ÃÂ¢ÃÂÃÂInitial Order/SOW TermÃÂ¢ÃÂÃÂ).
 
 We may update this Agreement and we will let you know when we do through the Services (e.g., a bot notification) or by the Customer e-mail address provided to Rocket.chat.
 
-​Please read this document carefully before using this service.
+ÃÂ¢ÃÂÃÂPlease read this document carefully before using this service.
 
 ### 1. Definitions
 
@@ -32,7 +32,7 @@ We may update this Agreement and we will let you know when we do through the Ser
 
 **"Disclosing Party"** means a party that discloses Confidential Information under this Agreement.
 
-**“Documentation”** means the official user documentation prepared and provided by Rocket.Chat to Customer on the use of the Services or Software (as updated from time to time). For the avoidance of doubt, any online community site, unofficial documentation, videos, white papers, or related media, or feedback do not constitute Documentation.
+**ÃÂ¢ÃÂÃÂDocumentationÃÂ¢ÃÂÃÂ** means the official user documentation prepared and provided by Rocket.Chat to Customer on the use of the Services or Software (as updated from time to time). For the avoidance of doubt, any online community site, unofficial documentation, videos, white papers, or related media, or feedback do not constitute Documentation.
 
 **"Effective date"** means the signature date of the SOW or Order Form in which the Services defined in this Agreement are foreseen.
 
@@ -101,7 +101,7 @@ We may update this Agreement and we will let you know when we do through the Ser
 * respond promptly to any Rocket.Chat request to provide direction, information, approvals, authorizations, or decisions that are reasonably necessary for Rocket.Chat to perform Services in accordance with the requirements of this Agreement;
 * provide such information as Rocket.Chat may request, in order to carry out the Services, in a timely manner, and ensure that it is complete and accurate in all material respects;
 * provide (if applicable), access to Customer's premises and such office accommodation and other facilities as may reasonably be required by Rocket.Chat, for the purposes of performing the Services.
-* shall notify Rocket.Chat of any laws, regulations, and/or statutes specific to Customer’s industry that Rocket.Chat will be required to know to fulfill their obligations under this Agreement.
+* shall notify Rocket.Chat of any laws, regulations, and/or statutes specific to CustomerÃÂ¢ÃÂÃÂs industry that Rocket.Chat will be required to know to fulfill their obligations under this Agreement.
 * provide suitably equipped and knowledgeable resource(s) to work with Rocket.Chat to refine the requirements, design, build and test the solution as per the Scope of Work section outlined in each SOW.
 * provide the necessary resources to participate in meetings/workshops/communications needed to provide the required data or inputs necessary to deliver the contracted services (within a defined timeframe).
 * take responsibility for the content of any data file, control access to the files, and maintain their backup and recovery.
@@ -201,7 +201,7 @@ TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, (I) IN NO EVENT WILL ROCKET.C
 
 **13.1 Independent Contractors.** The parties are independent contractors, and nothing contained in this Agreement shall be construed as creating any agency, partnership, joint venture or other form of joint enterprise, employment, or fiduciary relationship between them. Neither party shall be authorized to contract for or bind the other party in any manner whatsoever
 
-**13.2 Notices.** Except as otherwise set forth herein, all notices under this Agreement and its appendices shall be by email. Notices to customer shall be addressed to addresses set forth on the SOW, although Rocket.Chat may instead choose to provide notice to Customer through the Services (e.g., a bot notification). Notices to Rocket.Chat should be sent to legal@rocket.chat and include in copy Rocket.Chat’s primary point of contact defined in the SOW. A notice will be deemed to have been duly given (a) the day after it is sent, in the case of a notice sent through email; and (b) the same day, in the case of a notice sent through the Services. Customer must keep all of its account information with Rocket.Chat current.
+**13.2 Notices.** Except as otherwise set forth herein, all notices under this Agreement and its appendices shall be by email. Notices to customer shall be addressed to addresses set forth on the SOW, although Rocket.Chat may instead choose to provide notice to Customer through the Services (e.g., a bot notification). Notices to Rocket.Chat should be sent to legal@rocket.chat and include in copy Rocket.ChatÃÂ¢ÃÂÃÂs primary point of contact defined in the SOW. A notice will be deemed to have been duly given (a) the day after it is sent, in the case of a notice sent through email; and (b) the same day, in the case of a notice sent through the Services. Customer must keep all of its account information with Rocket.Chat current.
 
 **13.3 Entire Agreement; Order of Precedence.** This Agreement, together with all Schedules, Exhibits, and Statements of Work and any other documents incorporated herein by reference, constitutes the sole and entire agreement of the parties to this Agreement with respect to the subject matter contained herein, and supersedes all prior and contemporaneous understandings and agreements, both written and oral, with respect to such subject matter. In the event of any conflict between the terms and provisions of this Agreement and those of any Schedule, Exhibit or Statement of Work, the following order of precedence shall govern: (a) first, this Agreement, exclusive of its Exhibits and Schedules; (b) second, the applicable Statement of Work; and (c) third, any Exhibits and Schedules to this Agreement.
 

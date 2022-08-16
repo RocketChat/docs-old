@@ -140,7 +140,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 ### Livechat: Real-Time Visitor Monitoring
 
 * **Mentors**: @renatobecker, @diegolmello
-* **Description**: The goal of Real-Time Visitor Monitoring is to provide an important feature for the Live chat team by displaying a list of visitors who are browsing the website where the Livechat widget is installed. Having this feature, it will be possible to track important information related to visitors, such as the current page, location, time on site, local time, and so on, even though the visitor has not yet started a conversation with an agent. In addition, an agent will be able to start a conversation with a specific visitor directly from the list, improving the proactivity of the Live chat team.
+* **Description**: The goal of Real-Time Visitor Monitoring is to provide an important feature for the Live Chat team by displaying a list of visitors who are browsing the website where the Livechat widget is installed. Having this feature, it will be possible to track important information related to visitors, such as the current page, location, time on site, local time, and so on, even though the visitor has not yet started a conversation with an agent. In addition, an agent will be able to start a conversation with a specific visitor directly from the list, improving the proactivity of the Live Chat team.
 * **Desirable Skills**: Familiarity with Rocket.Chat/Livechat development.
 
 ### API Playground: Interactive APIs documentation
@@ -165,13 +165,13 @@ The leaderboard project **itself** is open source, created and maintained by our
 
 * **Mentors:** @matheus.cardoso
 * **Project repository**: [https://github.com/RocketChat/Rocket.Chat.iOS](https://github.com/RocketChat/Rocket.Chat.iOS)
-* **Description:** VoiceOver is a gesture-based screen reader that lets you enjoy using iPhone even if you don’t see the screen. This is especially important for those with low or no vision. We want to make Rocket.Chat for everyone. A blind user should be able to easily add servers, change servers, read messages and send messages, as well as other additional functions such as editing profile and creating channels. A minimum acceptable scope is to be determined.
+* **Description:** VoiceOver is a gesture-based screen reader that lets you enjoy using iPhone even if you donÃÂ¢ÃÂÃÂt see the screen. This is especially important for those with low or no vision. We want to make Rocket.Chat for everyone. A blind user should be able to easily add servers, change servers, read messages and send messages, as well as other additional functions such as editing profile and creating channels. A minimum acceptable scope is to be determined.
 * **Desirable Skills:** We are looking for an undergraduate student who is familiar with team work, developing iOS Apps using UIKit and Swift, as well as writing maintainable code with Unit Tests and having some familiarity with Voice Over and Accessibility.
 
 ### Ability to Rebrand Android and iOS Apps
 
 * **Mentors:** @jaytat0, @bizzbyster
-* **Description:** Implement a way for administrators to rebrand their instances of rocketchat - product name, icons, colors, etc. - for the android and ios apps, which currently do not support this. Besides adding this capability, another goal would be to make this branding across all the OS’s easy for an administrator that may not be too tech savvy. Ideally, this would only be a few easy steps. Besides this ease-of-use improvement, this would also make it less likely that people will fork rocket to put in their own branding.
+* **Description:** Implement a way for administrators to rebrand their instances of rocketchat - product name, icons, colors, etc. - for the android and ios apps, which currently do not support this. Besides adding this capability, another goal would be to make this branding across all the OSÃÂ¢ÃÂÃÂs easy for an administrator that may not be too tech savvy. Ideally, this would only be a few easy steps. Besides this ease-of-use improvement, this would also make it less likely that people will fork rocket to put in their own branding.
 * **Desirable Skills:** Familiarity with Android and/or iOS development, specifically the Rocket.Chat.Android/Rocket.Chat.iOS code bases.
 
 ### Livechat: Voice and Video Calls
@@ -279,7 +279,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 ### Integration of Rocket.Chat with Existing Phone/Voice Networks
 
 * **Mentors**: TBD
-* **Description**: Deep VoIP integration of Rocket.Chat with modern software and hardware SIP switches and VoIP SaaS. Intelligently add access to phone networks and SMS channels to the Rocket.Chat workflow. Enable multi-channel conferences with chat + phone calls + video. Empower Live chat with voice calls in workflow.
+* **Description**: Deep VoIP integration of Rocket.Chat with modern software and hardware SIP switches and VoIP SaaS. Intelligently add access to phone networks and SMS channels to the Rocket.Chat workflow. Enable multi-channel conferences with chat + phone calls + video. Empower Live Chat with voice calls in workflow.
 * **Desirable Skills**: Familiar with SIP development. Fluent in VoIP concepts and practices. Ability to rapidly code in JavaScript and Linux shell. Wide open mind for new ideas.
 
 ### iOS contacts sync, invites & dynamic links

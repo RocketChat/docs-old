@@ -51,7 +51,7 @@ Upgrading Mongo
 
 Upgrading Rocket
 
-Did we mention backups? Yup - boring. Until you need them. 😉
+Did we mention backups? Yup - boring. Until you need them. ÃÂ°ÃÂÃÂÃÂ
 
 Most Roket.Chat updates also update the database schema - the core layout.
 
@@ -77,4 +77,4 @@ Or possibly even more cautious:
 
 ( 'x' means the last patched version e.g. 1.3.2 Check [tags](https://github.com/RocketChat/Rocket.Chat/tags) or [releases](https://github.com/RocketChat/Rocket.Chat/releases) )
 
-We have seen people make some big jumps. And some disasters too. If in doubt, take your time and a backup!😃
+We have seen people make some big jumps. And some disasters too. If in doubt, take your time and a backup!ÃÂ°ÃÂÃÂÃÂ

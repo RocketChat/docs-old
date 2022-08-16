@@ -24,11 +24,11 @@ Rocket.Chat is one of the largest active open source (permissive MIT source lice
 
 Rocket.Chat is a modern team chat and collaborating platform written in full-stack JavaScript. Rocket.Chat offers a full featured rich team chat experience on modern browsers, comparable to Slack and Microsoft Teams. Mobile and desktop clients run on iOS, Android, Mac, Windows, and Linux. Rocket.Chat server can scale from a small family messaging server for 5 users running on a Raspberry Pi 4, to clustered micro-services configuration that can support hundred thousands of users. On-premise deployment of Rocket.Chat can ensure 100% complete security and privacy of your valuable communications/data.
 
-Rocket.Chat is now installed on over 500k servers and counts over 12m users worldwide. Rocket.Chat’s long-term vision is to replace email with a real-time federated communications platform globally.
+Rocket.Chat is now installed on over 500k servers and counts over 12m users worldwide. Rocket.ChatÃÂ¢ÃÂÃÂs long-term vision is to replace email with a real-time federated communications platform globally.
 
 Users can set up Rocket.Chat on cloud or by hosting their own servers on-premises. Thanks to its extension support via Rocket.Chat Apps (plugins), and extremely rich API/SDK support, startups and innovators have customized Rocket.Chat into new products and services. Chatbots extend the interactivity of Rocket.Chat and integrate external IT systems. Omnichannel extends reach to wherever user may be including WhatsApp, Instagram, Facebook Messenger and more.
 
-Rocket.Chat has won multiple prizes such as a 2016 Bossie Award for Best Open Source Application and first prize in the 2017 edition of All Things Open’s Startup Competition.
+Rocket.Chat has won multiple prizes such as a 2016 Bossie Award for Best Open Source Application and first prize in the 2017 edition of All Things OpenÃÂ¢ÃÂÃÂs Startup Competition.
 
 Rocket.Chat supports over 59 local languages. Rocket.Chat's community interacts 24 x 7 at the community Rocket.Chat server https://open.rocket.chat since 2015.
 

@@ -42,11 +42,11 @@ You can also see the **percentage of conversations**, the **average of chat dura
 
 ![](<../../.gitbook/assets/image (62).png>)
 
-**Average of Response Time:** This matrix represents the average of your agent’s team’s responses to all the conversations that are automatically assigned to them during a selected time.
+**Average of Response Time:** This matrix represents the average of your agentÃÂ¢ÃÂÃÂs teamÃÂ¢ÃÂÃÂs responses to all the conversations that are automatically assigned to them during a selected time.
 
-**Average of First Response Time:** This matrix represents the average of the team’s first response to all the chats they pick up.
+**Average of First Response Time:** This matrix represents the average of the teamÃÂ¢ÃÂÃÂs first response to all the chats they pick up.
 
-**Average of Reaction Time:** This matrix represents the average of the team’s reaction to the assigned chats.
+**Average of Reaction Time:** This matrix represents the average of the teamÃÂ¢ÃÂÃÂs reaction to the assigned chats.
 
 You can also see the **Average of First Response Time**, **Best First Response Time**, **Average of Response Time**, and **Average of Reaction Time** of each one of your agents from your selected department, as shown below:
 

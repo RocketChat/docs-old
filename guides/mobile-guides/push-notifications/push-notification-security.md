@@ -6,15 +6,15 @@ description: Enterprise/Gold Feature
 
 Instead of sending the message content through push gateway, Apple\*\*,\*\* and Google, if you are running Enterprise/Gold edition the Secured Push Notification sends just the ID of the message.
 
-Once the ID reaches the user’s device, the message is retrieved from Rocket.Chat server and the notification is created.
+Once the ID reaches the userÃÂ¢ÃÂÃÂs device, the message is retrieved from Rocket.Chat server and the notification is created.
 
 {% hint style="info" %}
-Please note that this process works for both situations if the user is using Rocket.Chat’s push gateway or his own.
+Please note that this process works for both situations if the user is using Rocket.ChatÃÂ¢ÃÂÃÂs push gateway or his own.
 {% endhint %}
 
 ### Privacy <a href="privacy" id="privacy"></a>
 
-In Privacy, you can configure what amount of information you want your push notification to have.‌
+In Privacy, you can configure what amount of information you want your push notification to have.ÃÂ¢ÃÂÃÂ
 
 1. Go to **Administration**
 
@@ -22,7 +22,7 @@ In Privacy, you can configure what amount of information you want your push noti
 
 2\. Search '**Push'** in **Settings**
 
-​‌
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-MNoqPzvogBnNTSPZgYI%2F-MNowERLUMcrX9DNhVFy%2Fimage.png?alt=media\&token=34db2493-3fc7-4c38-972b-52e0517731bf)
 

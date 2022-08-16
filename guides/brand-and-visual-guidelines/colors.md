@@ -21,7 +21,7 @@ Their respective color codes are:
 
 ### Secondary
 
-The following first two colors serve as taste breakers from the usual red and blue and can be used in iconography, illustrations, typography, and other assets to bring variety to our visual identity. These can also be used to highlight certain keywords in a title or subtitle, but shouldn’t be used as the background color. Our shades of black and white also serve to bring versatility to our brand image, offering more possibilities for typographical styling and backgrounds.
+The following first two colors serve as taste breakers from the usual red and blue and can be used in iconography, illustrations, typography, and other assets to bring variety to our visual identity. These can also be used to highlight certain keywords in a title or subtitle, but shouldnÃÂ¢ÃÂÃÂt be used as the background color. Our shades of black and white also serve to bring versatility to our brand image, offering more possibilities for typographical styling and backgrounds.
 
 ![](<../../.gitbook/assets/image (623).png>)
 

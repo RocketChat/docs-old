@@ -2,7 +2,7 @@
 
 _Effective date: October 23rd, 2020_
 
-Rocket.Chat Technologies Corp. ("us", "we", or "our") operates the [https://rocket.chat](https://rocket.chat) website, the [https://open.rocket.chat](https://open.rocket.chat) community server, the Marketplace, incl. associated Rocket.Chat Apps, Rocket.Chat´s Cloud Offering and the Rocket.Chat mobile applications (the "Service").
+Rocket.Chat Technologies Corp. ("us", "we", or "our") operates the [https://rocket.chat](https://rocket.chat) website, the [https://open.rocket.chat](https://open.rocket.chat) community server, the Marketplace, incl. associated Rocket.Chat Apps, Rocket.ChatÃÂÃÂ´s Cloud Offering and the Rocket.Chat mobile applications (the "Service").
 
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
@@ -12,11 +12,11 @@ We use your data to provide and improve the Service. By using the Service, you a
 
 *   **Administrators are responsible for user privacy, we help administrators**
 
-    There are basically two ways of using Rocket.Chat: self-managed (also known as on-premises deployment) on your own or someone else´s infrastructure or via our hosted offering. In both cases, the administrator of that instance - or the organization behind the administrator - is the person responsible to ensure privacy of Rocket.Chat users. We aim to help by providing features in our products and services to make that job easier. We also provide this policy to explain what we do as a "helping hand"/data processor for administrators in case we process personal data of users.
+    There are basically two ways of using Rocket.Chat: self-managed (also known as on-premises deployment) on your own or someone elseÃÂÃÂ´s infrastructure or via our hosted offering. In both cases, the administrator of that instance - or the organization behind the administrator - is the person responsible to ensure privacy of Rocket.Chat users. We aim to help by providing features in our products and services to make that job easier. We also provide this policy to explain what we do as a "helping hand"/data processor for administrators in case we process personal data of users.
 *   **You remain in control of your personal data**
 
     We cannot access your personal data in a self-managed instance of Rocket.Chat. Our code is open source, there are no back doors whatsoever. You are however free to connect a self-managed instance to other services, e.g. our marketplace or push notification gateway, where this privacy policy applies. When you do not register your instance, these settings are turned off by default. You can also connect it to third party services, such as external authentication services, in which case their privacy policy applies. It is your choice and you are not forced to do so. In our hosted offering, we only process your data for the purposes of providing you the service in the name of the administrator. Administrators are still in full control over the configuration of their instance.
-*   **We don´t sell your data**
+*   **We donÃÂÃÂ´t sell your data**
 
     We do not sell your personal data. Our business model is to provide you with a free edition and we charge you for extra services or features, according to the plan you choose. What you process within Rocket.Chat is yours and stays yours.
 *   **Our community server is for testing purposes**
@@ -83,7 +83,7 @@ As a byproduct of the usage data within a Rocket.Chat instance, Administrators m
 
 #### Location Data
 
-We may use and store information about your location if you give us permission to do so (“Location Data”). We use this data to provide features of our Service (only to allow you to share your location to another user via Rocket.Chat, if it was enabled by the administrator).
+We may use and store information about your location if you give us permission to do so (ÃÂ¢ÃÂÃÂLocation DataÃÂ¢ÃÂÃÂ). We use this data to provide features of our Service (only to allow you to share your location to another user via Rocket.Chat, if it was enabled by the administrator).
 
 You can enable or disable location services when you use our Service at any time, through your device settings.
 
@@ -176,7 +176,7 @@ Rocket.Chat Technologies Corp. will also retain Usage Data for internal analysis
 
 ## Transfer of Data
 
-Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.
+Your information, including Personal Data, may be transferred to ÃÂ¢ÃÂÃÂ and maintained on ÃÂ¢ÃÂÃÂ computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.
 
 If you are located outside United States and choose to provide information to us, please note that we transfer the data, including Personal Data, to the United States or other jurisdictions deemed not not have an adequate level of data protection deemed by the competent authorities of your residence. Rocket.Chat Technologies Corp. will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
 
@@ -277,7 +277,7 @@ We do not knowingly collect personally identifiable information from anyone unde
 
 ## Specific Provisions to our Cloud Offerings
 
-For our Cloud Offerings, we act as a Data Processor for our Customers, who are the Data Controllers of the instances they have licensed and administer. You as a user generally will be bound by the Data Controller´s policies. For theses instances, please direct your data privacy questions to the Data Controller.
+For our Cloud Offerings, we act as a Data Processor for our Customers, who are the Data Controllers of the instances they have licensed and administer. You as a user generally will be bound by the Data ControllerÃÂÃÂ´s policies. For theses instances, please direct your data privacy questions to the Data Controller.
 
 With regards to some of our Cloud Products, Customers have certain options to select the processing location of data and to configure the privacy-relevant settings of the instance. If you are the customer of one of these instances, you can contact us and get more information on where your instance is running.
 
@@ -290,7 +290,7 @@ Other regions may be added over time.
 
 Where required, we also offer to sign Standard Contractual Clauses approved by the European Commission to guarantee an adequate level of data protection or other mechanisms relevant for the Customer.
 
-The amount of Personal Data we process with our Cloud Offerings is limited to what the Customer and his users enter into the Service. In the cloud offering, we will not process the personalized cookie or analytics data described above. The purposes of processing the data are strictly limited to providing and improving the Service and in accordance with the Data Controller´s instructions. We never access workspace data (i.e. the actual content the customer is entering in his instance), unless the customer asks us to in form of a support request, we are bound by a valid law enforcement request or to protect our own interests, such as investigating potential abuse of the service.
+The amount of Personal Data we process with our Cloud Offerings is limited to what the Customer and his users enter into the Service. In the cloud offering, we will not process the personalized cookie or analytics data described above. The purposes of processing the data are strictly limited to providing and improving the Service and in accordance with the Data ControllerÃÂÃÂ´s instructions. We never access workspace data (i.e. the actual content the customer is entering in his instance), unless the customer asks us to in form of a support request, we are bound by a valid law enforcement request or to protect our own interests, such as investigating potential abuse of the service.
 
 Once your usage of our cloud offering ceases, we will remove all your data, including backups, after a short grace period - or immediately, if you tell us to.
 
@@ -306,7 +306,7 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 
 If you have any questions about this Privacy Policy, please contact us:
 
-* Rocket.Chat´s Data Protection Officer by email: [privacy@rocket.chat](mailto:privacy@rocket.chat)
+* Rocket.ChatÃÂÃÂ´s Data Protection Officer by email: [privacy@rocket.chat](mailto:privacy@rocket.chat)
 * By visiting this page on our website: [https://rocket.chat/contact](https://rocket.chat/contact)
 
 ## **Data Protection Officer**&#x20;

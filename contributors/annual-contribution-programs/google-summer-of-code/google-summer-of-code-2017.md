@@ -120,7 +120,7 @@ We continue to be extremely optimistic going into the critical mid-term evaluati
 
 ### File uploads and exchanges with OwnCloud
 
-* **Mentors:** Diego Sampaio ([@diego.sampaio](https://github.com/sampaiodiego)) Thomas Müller ([@thomas.muller](https://github.com/DeepDiver1975)) deepdiver1975@gmail.com
+* **Mentors:** Diego Sampaio ([@diego.sampaio](https://github.com/sampaiodiego)) Thomas MÃÂÃÂ¼ller ([@thomas.muller](https://github.com/DeepDiver1975)) deepdiver1975@gmail.com
 * **Description:** When you upload a file today in Rocket.Chat, your server may be configured to store it on AWS S3, Google's object storage, MongoDB's GridFS, or local filesystem. This project adds OwnCloud as an official target destination. In addition, since every user of Rocket.Chat may have her/his own OwnCloud server - some way to support file exchanges with those servers will also be interesting. You will be working with top engineers who actually designed and coded these features, from OwnCloud and Rocket.Chat, on this project.
 * **Desirable Skills:** Familiarity with PHP and JavaScript development. Familiarity with (and already a user of) Rocket.Chat and OwnCloud definitely a plus.
 * **Goal/Deliverable:** Support integrations between OwnCloud and Rocket.Chat as if it was designed-in since the very first day.
@@ -142,7 +142,7 @@ We continue to be extremely optimistic going into the critical mid-term evaluati
 ### Create an SDK for Mobile Apps to include a chat inside other apps
 
 * **Mentors:** Rafeal Kellermann ([@rafaelks](https://github.com/rafaelks))
-* **Description:** Create an SDK (for iOS and/or Android) to embed in any app that wants to have a chat inside it. It could be useful for support and also for chat in enterprise apps. One example is an app that’s used by all sellers from a company to be able to communicate with each other using Rocket.Chat. Another example is something very similar to Intercom ([https://www.intercom.com/mobile](https://www.intercom.com/mobile))
+* **Description:** Create an SDK (for iOS and/or Android) to embed in any app that wants to have a chat inside it. It could be useful for support and also for chat in enterprise apps. One example is an app thatÃÂ¢ÃÂÃÂs used by all sellers from a company to be able to communicate with each other using Rocket.Chat. Another example is something very similar to Intercom ([https://www.intercom.com/mobile](https://www.intercom.com/mobile))
 * **Desirable Skills:** Students will be required to code in either Java for Android SDK or Swift for the iOS SDK. Students will also need to understand how Rocket.Chat communicates over websockets.
 * **Goal/Deliverable:** To have an SDK that allows App Developers to embed a chat system inside their own apps using Rocket.Chat servers to deliver messages.
 

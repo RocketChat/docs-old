@@ -10,24 +10,24 @@ The **directmessages** directory is a special directory name. Check the **Direct
 
 ```
 fileToImport.zip
-├── channels.csv
-├── users.csv
-├── directmessages
-│   ├── messages1.csv
-│   ├── messages2.csv
-│   └── messages3.csv
-├── general
-│   └── messages.csv
-├── otherChannelName
-│   ├── canBeAnyNameButHasToHave.csv
-│   ├── theDotCSV.csv
-│   └── asTheFileExt.csv
-├── privateArea
-│   └── messages.csv
-└── random
-   ├── dateTimeStamp1.csv
-   ├── dateTimeStamp2.csv
-   └── dateTimeStamp3.csv
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ channels.csv
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ users.csv
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ directmessages
+ÃÂ¢ÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ messages1.csv
+ÃÂ¢ÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ messages2.csv
+ÃÂ¢ÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ messages3.csv
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ general
+ÃÂ¢ÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ messages.csv
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ otherChannelName
+ÃÂ¢ÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ canBeAnyNameButHasToHave.csv
+ÃÂ¢ÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ theDotCSV.csv
+ÃÂ¢ÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ asTheFileExt.csv
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ privateArea
+ÃÂ¢ÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ messages.csv
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ random
+   ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ dateTimeStamp1.csv
+   ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ dateTimeStamp2.csv
+   ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ dateTimeStamp3.csv
 ```
 
 ## channels.csv Format

@@ -66,20 +66,20 @@ To update your Rocket.Chat Digital Ocean Droplet:
    `sudo rocketchatctl upgrade-rocketchatctl`
 2. Update Rocket.Chat:\
    `sudo rocketchatctl update`
-3. The server is broken and doesn’t start, because it requires Nodejs 14.x.x\
+3. The server is broken and doesnÃÂ¢ÃÂÃÂt start, because it requires Nodejs 14.x.x\
    Install it:\
    `sudo apt-get -y update && sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_14.x | sudo bash setup_14.x`\
    `sudo apt-get install -y nodejs`\
    ``\
-   ``If you face any errors with installing node, reboot your system and you’ll be able to continue with the next steps.\
+   ``If you face any errors with installing node, reboot your system and youÃÂ¢ÃÂÃÂll be able to continue with the next steps.\
    ![](<../.gitbook/assets/image (625).png>)
 4. If it is not updated already, change the path to new nodejs in the service config:\
    `sudo nano /lib/systemd/system/rocketchat.service`\
-   In the line beginning with “ExecStart=” replace “/usr/local/bin/node” with “/usr/bin/node”
+   In the line beginning with ÃÂ¢ÃÂÃÂExecStart=ÃÂ¢ÃÂÃÂ replace ÃÂ¢ÃÂÃÂ/usr/local/bin/nodeÃÂ¢ÃÂÃÂ with ÃÂ¢ÃÂÃÂ/usr/bin/nodeÃÂ¢ÃÂÃÂ
 5. Reload the service and start the server:\
    `sudo systemctl daemon-reload`\
    `sudo systemctl restart rocketchat.service`
-6. Check that it’s running:\
+6. Check that itÃÂ¢ÃÂÃÂs running:\
    `sudo systemctl status rocketchat.service`
 
 Other important topics concerning updates can be found here.

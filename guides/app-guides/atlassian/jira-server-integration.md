@@ -29,7 +29,7 @@ After that your Rocket.Chat will be connected to your Jira instance.
 
 > **Note**: We advise against using your own Jira user in the installation process. That is because the Rocket.Chat App has to persist the credentials to be able to search for projects and issues later on. We recommend creating a new user with administrative privileges. After the installation process, you can revoke those privileges from the user.
 
-In order to enable notifications, you have to connect a channel or private group to one or more Jira Projects; events that happen on those Jira Projects will result in a message sent to the channel or private group they’ve been connected to.
+In order to enable notifications, you have to connect a channel or private group to one or more Jira Projects; events that happen on those Jira Projects will result in a message sent to the channel or private group theyÃÂ¢ÃÂÃÂve been connected to.
 
 To connect a channel or private group, execute the slashcommand `/jira-server connect`. You will receive an ephemeral message containing the list of projects in your Jira that are available for you to connect to. Now for every project you want to connect, you can run the slashcommand `/jira-server connect PROJECT_KEY`.
 

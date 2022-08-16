@@ -21,7 +21,7 @@ In the next step, you may have pre-flight options like turning on/off the camera
 
 ![Call initiation - direct messages](<../../.gitbook/assets/Call initiation-Conference call.png>)
 
-After clicking the call button, the pop-up changes to the “calling state”. This enables you to perform other actions while you wait for the receiver to answer. The ringer stays active for 30 seconds.
+After clicking the call button, the pop-up changes to the ÃÂ¢ÃÂÃÂcalling stateÃÂ¢ÃÂÃÂ. This enables you to perform other actions while you wait for the receiver to answer. The ringer stays active for 30 seconds.
 
 ![Calling state](<../../.gitbook/assets/Calling state-Conference call.png>)
 

@@ -126,12 +126,12 @@ See this section for NPS
 
 ```json
 {
- "en": {
-  "Channels": "Rooms"
- },
- "pt": {
-  "Channels": "Salas"
- }
+ÃÂ¢ÃÂÃÂ"en": {
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"Channels": "Rooms"
+ÃÂ¢ÃÂÃÂ},
+ÃÂ¢ÃÂÃÂ"pt": {
+ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"Channels": "Salas"
+ÃÂ¢ÃÂÃÂ}
 }
 ```
 

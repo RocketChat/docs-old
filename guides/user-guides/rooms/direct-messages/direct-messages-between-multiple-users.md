@@ -30,7 +30,7 @@ Once created, the room will appear in the direct message section of the rooms li
 
 ## Configurations
 
-Multi-users direct message rooms’ actions and options remain the same as in [**direct (1-on-1) messages**](../channels/), except for the ability to execute actions like: ignore, mute, block or remove.
+Multi-users direct message roomsÃÂ¢ÃÂÃÂ actions and options remain the same as in [**direct (1-on-1) messages**](../channels/), except for the ability to execute actions like: ignore, mute, block or remove.
 
 The only user actions available are:
 

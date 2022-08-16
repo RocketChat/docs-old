@@ -31,7 +31,7 @@ Releases Endpoint
 You're looking for the `nodeVersion` key. For the current latest version, with `curl` and `jq`:
 
 ```
-~ via  v12.22.11 took 25s
-➜ curl https://releases.rocket.chat/latest/info -s | jq '.nodeVersion' -r
+~ via ÃÂ®ÃÂÃÂ v12.22.11 took 25s
+ÃÂ¢ÃÂÃÂ curl https://releases.rocket.chat/latest/info -s | jq '.nodeVersion' -r
 14.18.3
 ```

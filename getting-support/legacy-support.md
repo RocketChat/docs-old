@@ -66,7 +66,7 @@ Example: Product questions
 
 
 
-_Tickets created by email are automatically assigned as "Medium" priority and will have the associated SLA’s according to the account information. Customers entitled to paid support are recommended to raise tickets on the Support Portal._
+_Tickets created by email are automatically assigned as "Medium" priority and will have the associated SLAÃÂ¢ÃÂÃÂs according to the account information. Customers entitled to paid support are recommended to raise tickets on the Support Portal._
 
 ### **Service Level Agreement (SLA)**
 

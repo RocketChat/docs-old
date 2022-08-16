@@ -63,13 +63,13 @@ When that is all done, follow these procedures to get setup
 
 Using this integration gives you the possibility to:
 
-* Extend and streamline communication with external parties using Rocket.Chat’s federation and bridges into Slack and Microsoft Teams.
-* Easily collaborate on projects and documents using Rocket.Chat’s chat right in Nextcloud.
+* Extend and streamline communication with external parties using Rocket.ChatÃÂ¢ÃÂÃÂs federation and bridges into Slack and Microsoft Teams.
+* Easily collaborate on projects and documents using Rocket.ChatÃÂ¢ÃÂÃÂs chat right in Nextcloud.
 * Use a single productivity platform that integrates with other tools, including Nextcloud, and keeps all communications and notifications in one place.
 * Leverage more advanced user governance features, access levels, and role-based permissions
 * Easily map even the most complex organizational structure into groups, teams, and discussions.
-* Securely collaborate and communicate with anyone via the world’s leading social media channels such as Whatsapp, Messenger, Twitter, Instagram, Telegram, and others.
+* Securely collaborate and communicate with anyone via the worldÃÂ¢ÃÂÃÂs leading social media channels such as Whatsapp, Messenger, Twitter, Instagram, Telegram, and others.
 * Turn their chats into productivity tools using integrations with various HR tools, CRM solutions, ticketing systems, project management solutions, and developer tools to build powerful workflows.
-* Make digital workplaces and communities more engaging and collaborative using [Rocket.Chat’s marketplace of apps](https://rocket.chat/marketplace).
+* Make digital workplaces and communities more engaging and collaborative using [Rocket.ChatÃÂ¢ÃÂÃÂs marketplace of apps](https://rocket.chat/marketplace).
 * Ensure full governance of all their communications using message audits, flexible retention policies, powerful engagement analytics and dashboards, and more.
 * Send advanced message formatting like code snippets, formula syntax, message threads, and more.

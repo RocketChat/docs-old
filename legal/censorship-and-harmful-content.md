@@ -8,7 +8,7 @@ Our position:
 
 Rocket.Chat is built to be an open and free communication platform. We want everyone to be able to run it and use our platform freely and to improve people's lives. Today, our platform is used for myriads of different purposes, according to how our users deem it fit for their purposes.
 
-We also do not want to be the judges on what constitutes the “right” way to use Rocket.Chat. Moral values differ from person to person and laws often collide over highly debated issues such as free speech. We believe the users of Rocket.Chat know best how to use our platform to their and everyone else's benefit.
+We also do not want to be the judges on what constitutes the ÃÂ¢ÃÂÃÂrightÃÂ¢ÃÂÃÂ way to use Rocket.Chat. Moral values differ from person to person and laws often collide over highly debated issues such as free speech. We believe the users of Rocket.Chat know best how to use our platform to their and everyone else's benefit.
 
 ### How does Rocket.Chat deal with reports of illegal content?
 
@@ -48,7 +48,7 @@ As an ultimate resort, you may want to reach out to the law enforcement body in 
 
 **For administrators:** If you are an administrator, you might have an interest in moderating the content that users create or put in your instance. Notable features that can help you with that are:
 
-* Making use of the “moderator”-permission in channels to appoint individuals to purge or modify inappropriate messages
+* Making use of the ÃÂ¢ÃÂÃÂmoderatorÃÂ¢ÃÂÃÂ-permission in channels to appoint individuals to purge or modify inappropriate messages
 * Notification feature for the use of specified words of phrases
 * Blacklisting certain words or phrases
 * Notifying your users of applicable policies via e.g. pinning messages or adding an announcement to the room

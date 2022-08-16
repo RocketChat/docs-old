@@ -11,8 +11,8 @@ Here you can define the look of the [Livechat Widget](livechat-widget-installati
 * **Title**: Set the title of your widget.
 * **Title bar color**: Set the color of the title bar of your widget.
 * **Message Character Limit**: Enable to set the allowed number of characters per message.
-* **Show agent information**: Enable to show agent’s information(Name).
-* **Show agent email**: Show your agent’s email address when set to true.
+* **Show agent information**: Enable to show agentÃÂ¢ÃÂÃÂs information(Name).
+* **Show agent email**: Show your agentÃÂ¢ÃÂÃÂs email address when set to true.
 
 ## Livechat Widget Offline Appearance
 

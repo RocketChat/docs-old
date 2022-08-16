@@ -47,8 +47,8 @@ To launch your workspace, it is required to do a simple 4-step setup.
 We recommend you register your workspace which will automatically create a [Rocket.Chat Cloud Account](broken-reference) for you and you can enjoy all it's benefits like;
 
 * Mobile push notifications
-* \_\_Integration with external providers (WhatsApp, Facebook, Instagram, Telegram, Twitter)
-* \_\_Access to marketplace apps
+* \_ÃÂ®ÃÂÃÂ\_Integration with external providers (WhatsApp, Facebook, Instagram, Telegram, Twitter)
+* \_ÃÂ®ÃÂÃÂ\_Access to marketplace apps
 {% endhint %}
 
 ![](<../../.gitbook/assets/image (650).png>)

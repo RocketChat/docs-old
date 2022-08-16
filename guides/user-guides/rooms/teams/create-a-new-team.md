@@ -1,6 +1,6 @@
 # Create a new Team
 
-You can leverage teams for specific discussions and topics. When creating a team, it’s possible to define both permission and encryption levels for its channels:
+You can leverage teams for specific discussions and topics. When creating a team, itÃÂ¢ÃÂÃÂs possible to define both permission and encryption levels for its channels:
 
 * **Read Only**: Allow users from the team to write messages or simply receive them
 * **Encrypted**: Enables end-to-end encryption across all messages exchanged by the team

@@ -106,7 +106,7 @@ Interested students are also encouraged to interact with our contributor communi
 
 * **Mentors:** @guilherme.gazzo, @bjoern.schiessle (Nextcloud Guest Mentor)
 * **Description:** You will create a cross-platform GUI file picker interface for Nextcloud, integrated within Rocket.Chat, allowing any user to select files from a Nextcloud server (or hosted Nextcloud account) for utilization (such as file-sharing upload) within Rocket.Chat.
-* **Desirable Skills:** You should already be familiar with the operation of Nextcloud and Rocket.Chat and ideally have experience programming with Nextcloud’s API. Experience working with JavaScript GUI an fullstack frameworks such as Angular and/or React is a big plus. You will get a chance to work with the creators and architects of both Nextcloud and Rocket.Chat. Upon completion of this project, you will be able to claim experience creating a modern open source software component that will be used by hundreds of thousands of Rocket.Chat and Nextcloud users.
+* **Desirable Skills:** You should already be familiar with the operation of Nextcloud and Rocket.Chat and ideally have experience programming with NextcloudÃÂ¢ÃÂÃÂs API. Experience working with JavaScript GUI an fullstack frameworks such as Angular and/or React is a big plus. You will get a chance to work with the creators and architects of both Nextcloud and Rocket.Chat. Upon completion of this project, you will be able to claim experience creating a modern open source software component that will be used by hundreds of thousands of Rocket.Chat and Nextcloud users.
 
 ### NextCloud as a Storage Provider
 
@@ -123,20 +123,20 @@ Interested students are also encouraged to interact with our contributor communi
 ### Scaling to the edge of dreams
 
 * **Mentors:** @diego.sampaio
-* **Description:** Assist Rocket.Chat’s scalability engineers to scale Rocket.Chat to the next level. From tens of thousands of active connections, to hundreds of thousands to millions, to world-scale.
-* **Desirable Skills:** We are looking for an enthusiastic undergraduate, planning to enroll or already enrolled for masters or PhD work in a cluster computing or scalability discipline to join us for an exciting summer of hands-on practical fun. Working alongside our scalability expert – you will devise and test out various performance and scalability enhancements for Rocket.Chat’s deployment configurations. You will be able to practice everything you have learnt so far in your under-graduate study, pushes beyond their limits, with a real production clustered server project – having your work impacting thousands of global users – all within the span of a single summer.
+* **Description:** Assist Rocket.ChatÃÂ¢ÃÂÃÂs scalability engineers to scale Rocket.Chat to the next level. From tens of thousands of active connections, to hundreds of thousands to millions, to world-scale.
+* **Desirable Skills:** We are looking for an enthusiastic undergraduate, planning to enroll or already enrolled for masters or PhD work in a cluster computing or scalability discipline to join us for an exciting summer of hands-on practical fun. Working alongside our scalability expert ÃÂ¢ÃÂÃÂ you will devise and test out various performance and scalability enhancements for Rocket.ChatÃÂ¢ÃÂÃÂs deployment configurations. You will be able to practice everything you have learnt so far in your under-graduate study, pushes beyond their limits, with a real production clustered server project ÃÂ¢ÃÂÃÂ having your work impacting thousands of global users ÃÂ¢ÃÂÃÂ all within the span of a single summer.
 
-### LiveChat Reports and Analytics
+### Live Chat Reports and Analytics
 
 * **Mentors:** @renato.becker
-* **Description:** Add a panel to have analytical information about interactions in LiveChat.
+* **Description:** Add a panel to have analytical information about interactions in Live Chat.
 * **Desirable Skills:** Familiarity with JavaScript development.
 
-### Uniting “One Rocket.Chat” with Federation
+### Uniting ÃÂ¢ÃÂÃÂOne Rocket.ChatÃÂ¢ÃÂÃÂ with Federation
 
 * **Mentors:** @gabriel.engel, @matthew.hodgson (Matrix.org Guest Mentor), and @sing.li
 * **Description:** Help Rocket.Chat to invent and implement networked federation for the next generation of collaboration platforms.
-* **Desirable Skills:** Suitable for an ambitious undergraduate planning to enroll or already enrolled for masters or PhD work in a cluster computing, networking or distributed systems discipline in computer science or engineering to join us for an exciting summer of incredible brain crushing yet hands-on fun. Working alongside our federation team – you will help design and test out your hypothesis against a next generation federation mechanism optimized specifically for Rocket.Chat servers – uniting them globally across all geo-political boundaries to dynamically form “One Rocket.Chat”. This work will leverage all existing current research in this domain. You must already be familiar with the work of giants – such as matrix.org – and be ready to break all conventions to improve and innovate upon existing paradigms. You will be rewarded with production working experience on this bleeding-edge discipline, in a world-leading open source team environment with a like-minded team. An incredible and unique opportunity in 2018.
+* **Desirable Skills:** Suitable for an ambitious undergraduate planning to enroll or already enrolled for masters or PhD work in a cluster computing, networking or distributed systems discipline in computer science or engineering to join us for an exciting summer of incredible brain crushing yet hands-on fun. Working alongside our federation team ÃÂ¢ÃÂÃÂ you will help design and test out your hypothesis against a next generation federation mechanism optimized specifically for Rocket.Chat servers ÃÂ¢ÃÂÃÂ uniting them globally across all geo-political boundaries to dynamically form ÃÂ¢ÃÂÃÂOne Rocket.ChatÃÂ¢ÃÂÃÂ. This work will leverage all existing current research in this domain. You must already be familiar with the work of giants ÃÂ¢ÃÂÃÂ such as matrix.org ÃÂ¢ÃÂÃÂ and be ready to break all conventions to improve and innovate upon existing paradigms. You will be rewarded with production working experience on this bleeding-edge discipline, in a world-leading open source team environment with a like-minded team. An incredible and unique opportunity in 2018.
 
 ### Built-in and server themes for iOS
 
@@ -175,17 +175,17 @@ Interested students are also encouraged to interact with our contributor communi
 ### Enabling global decentralized blockchain powered crypto communities
 
 * **Mentors:** @sing.li , @ankit.bhatia (Sapien Network Guest Mentor) and other leading blockchain industry guest mentors
-* **Description:** Working together with our crypto and blockchain team – you will help build the key enabler platform for the future of blockchain powered decentralized communities all over this world (and perhaps even beyond). Within this short summer, you will gain experience in working on a global-circulation production-grade blockchain-powered adoption-acceleration platform. You will also meet and work with leading visionaries and pioneers in the current blockchain / crypto field. Tangible potential to become an early architect of this brave new world, supported by Rocket.Chat.
+* **Description:** Working together with our crypto and blockchain team ÃÂ¢ÃÂÃÂ you will help build the key enabler platform for the future of blockchain powered decentralized communities all over this world (and perhaps even beyond). Within this short summer, you will gain experience in working on a global-circulation production-grade blockchain-powered adoption-acceleration platform. You will also meet and work with leading visionaries and pioneers in the current blockchain / crypto field. Tangible potential to become an early architect of this brave new world, supported by Rocket.Chat.
 
 Some projects that you can submit proposals for include:
 
 ### **Decentralized Crypto Exchange in Rocket.Chat**
 
-* **Description:** Starting either from scratch or utilizing one of the compatible license open source DEX code bases – create a functional Decentralized Exchange within Rocket.Chat. You will create a DEX that takes advantage of strong cryptographic identity solutions such as Blockstack ID and wallet integration such as Metamask or ARK wallet in your work.
+* **Description:** Starting either from scratch or utilizing one of the compatible license open source DEX code bases ÃÂ¢ÃÂÃÂ create a functional Decentralized Exchange within Rocket.Chat. You will create a DEX that takes advantage of strong cryptographic identity solutions such as Blockstack ID and wallet integration such as Metamask or ARK wallet in your work.
 
 ### **IPFS storage solution in Rocket.Chat**
 
-* **Description:** Integrate IPFS into Rocket.Chat as a viable storage provider. Ideally IPFS can be used as a storage provider for uploaded Rocket.Chat contents. In addition, the ability to access IPFS within Rocket.Chat, to supply files that can be shared between users of Rocket.Chat is also essential. Leveraging integration with strong cryptographic identities such as Blockstack ID, the solution should include strong data-at-rest encryption of decentralized contents. Use of decentralized storage abstraction frameworks such as Blockstack Gaia should be considered to simplify this work. Use of IPFS as a decentralized storage for Rocket.Chat’s data should also be considered within the term.
+* **Description:** Integrate IPFS into Rocket.Chat as a viable storage provider. Ideally IPFS can be used as a storage provider for uploaded Rocket.Chat contents. In addition, the ability to access IPFS within Rocket.Chat, to supply files that can be shared between users of Rocket.Chat is also essential. Leveraging integration with strong cryptographic identities such as Blockstack ID, the solution should include strong data-at-rest encryption of decentralized contents. Use of decentralized storage abstraction frameworks such as Blockstack Gaia should be considered to simplify this work. Use of IPFS as a decentralized storage for Rocket.ChatÃÂ¢ÃÂÃÂs data should also be considered within the term.
 
 ### **Cryptocurrency Wallet and/or Portfolio Management in Rocket.Chat**
 

@@ -32,7 +32,7 @@ description: >-
 {% hint style="info" %}
 Through DLP features, admins can create a list of regular expressions to be monitored in Rocket.Chat and it can be applied to any conversation.\
 Once a regular expression is detected, it appears blurred in the room where it was originally written. The original message then is forwarded to a predefined channel for auditing flow, where a moderator can approve or reject its content to be exhibited in the room. You can add as many moderators as you want.\
-It’s also possible to select the rooms to apply the DLP app. If you have channels in your Rocket.Chat where it’s more likely to happen a leak of sensitive information, such as the finance team channel, for example, you can set the tool to run just in this specific channel.
+ItÃÂ¢ÃÂÃÂs also possible to select the rooms to apply the DLP app. If you have channels in your Rocket.Chat where itÃÂ¢ÃÂÃÂs more likely to happen a leak of sensitive information, such as the finance team channel, for example, you can set the tool to run just in this specific channel.
 {% endhint %}
 
 7\. Mention the channel name in **Moderator Channel** to which you want the blacklisted messages to be forwarded to, as shown below:

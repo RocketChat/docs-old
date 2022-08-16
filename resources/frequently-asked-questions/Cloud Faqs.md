@@ -58,11 +58,11 @@ To view the push usage for your workspace, you need to login to the Cloud Consol
 
 <details>
 
-<summary>I already canceled my workspace, but it is still in the “Cancelling” status and is accessible. Why?</summary>
+<summary>I already canceled my workspace, but it is still in the ÃÂ¢ÃÂÃÂCancellingÃÂ¢ÃÂÃÂ status and is accessible. Why?</summary>
 
-Please note that in case you cancel your workspace in the middle of the billing period, it will be accessible and in the “Cancelling” status till the end of your billing period.
+Please note that in case you cancel your workspace in the middle of the billing period, it will be accessible and in the ÃÂ¢ÃÂÃÂCancellingÃÂ¢ÃÂÃÂ status till the end of your billing period.
 
-If, for example, you are charged on the 5th of every month and decide to cancel the subscription on the 20th of December or later - your workspace will be operational till the 5th of January (this way, we want to allow customers to use what they paid for). After this, it will stop running and switch to “Cancelled”.
+If, for example, you are charged on the 5th of every month and decide to cancel the subscription on the 20th of December or later - your workspace will be operational till the 5th of January (this way, we want to allow customers to use what they paid for). After this, it will stop running and switch to ÃÂ¢ÃÂÃÂCancelledÃÂ¢ÃÂÃÂ.
 
 </details>
 
@@ -114,7 +114,7 @@ If, for example, you started your trial on December 1st, it expired on December 
 
 <summary>How can I reactivate my workspace after the trial has expired?</summary>
 
-If your trial has expired, and you didn’t manage to add your payment method to continue your subscription, navigate to Payment methods in your Cloud Console ([cloud.rocket.chat](https://cloud.rocket.chat)) -> click **Add payment method** (top right corner) to add your card (credit/debit card is the only payment method we accept at the moment).
+If your trial has expired, and you didnÃÂ¢ÃÂÃÂt manage to add your payment method to continue your subscription, navigate to Payment methods in your Cloud Console ([cloud.rocket.chat](https://cloud.rocket.chat)) -> click **Add payment method** (top right corner) to add your card (credit/debit card is the only payment method we accept at the moment).
 
 <img src="../../.gitbook/assets/add_payment_method (1) (1) (1).png" alt="" data-size="original">
 
@@ -136,7 +136,7 @@ The region is defined upon creation. Please, note that customers can not migrate
 
 <summary>How can I change or remove my credit card data?</summary>
 
-Please, note that you can not delete the card that is the only one (default one) linked to your workspace as well as you can not delete the card that was charged last - in both cases, you will see the error message “Can't delete last payment option”.
+Please, note that you can not delete the card that is the only one (default one) linked to your workspace as well as you can not delete the card that was charged last - in both cases, you will see the error message ÃÂ¢ÃÂÃÂCan't delete last payment optionÃÂ¢ÃÂÃÂ.
 
 If you need to change the card - add it as a new payment method and make it the default one (after that, you will be able to delete all other cards).
 

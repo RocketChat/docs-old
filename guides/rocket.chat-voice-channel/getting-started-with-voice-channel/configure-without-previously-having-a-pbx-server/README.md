@@ -15,13 +15,13 @@ Requirements:
 ## 1. Prepare FreePBX
 
 \
-Install your FreePBX server, as usual (that’s out of the scope of this tutorial), and update it using your OS package manager. In such a case it’s:
+Install your FreePBX server, as usual (thatÃÂ¢ÃÂÃÂs out of the scope of this tutorial), and update it using your OS package manager. In such a case itÃÂ¢ÃÂÃÂs:
 
 ```
 yum update -y
 ```
 
-Enter your server web interface [http://your.domain.name](http://your.domain.name/) and set password and update settings, and do the activation process. Do not skip the activation process as you’ll need some features later that are only available if you activate your server instance. Complete the firewall basic configuration.
+Enter your server web interface [http://your.domain.name](http://your.domain.name/) and set password and update settings, and do the activation process. Do not skip the activation process as youÃÂ¢ÃÂÃÂll need some features later that are only available if you activate your server instance. Complete the firewall basic configuration.
 
 ## 2. Configure the FreePBX firewall
 
@@ -35,7 +35,7 @@ Navigate to **Connectivity > Firewall > Services > Enable Firewall**. Under the 
 
 ![Firewall - services](<../../../../.gitbook/assets/Firewall - services - FreePBX.png>)
 
-We want **WebRTC** in the Internet zone because the Webphone will connect from the client’s IP address, which could be anywhere.
+We want **WebRTC** in the Internet zone because the Webphone will connect from the clientÃÂ¢ÃÂÃÂs IP address, which could be anywhere.
 
 Navigate to the **Custom Services** tab and hit the **Create new service**, name the service AMI, select TCP, and write the port range 5038:5039. Click **Save**.&#x20;
 
@@ -44,7 +44,7 @@ Navigate to the **Custom Services** tab and hit the **Create new service**, name
 Mark the **Other** option and **Save**.&#x20;
 
 {% hint style="info" %}
-AMI goes in the “Other” zone because only some specific endpoints should be connecting to AMI.
+AMI goes in the ÃÂ¢ÃÂÃÂOtherÃÂ¢ÃÂÃÂ zone because only some specific endpoints should be connecting to AMI.
 {% endhint %}
 
 ![AMI service](<../../../../.gitbook/assets/AMI service-FreePBX.png>)
@@ -52,12 +52,12 @@ AMI goes in the “Other” zone because only some specific endpoints should be 
 ### **2.2 Whitelist Rocket.Chat**
 
 \
-Now you don’t want your Rocket.Chat to get banned by the FreePBX firewall so you have to add it to the Whitelist List. First, you need to know the IP or IP Networks from your Rocket.Chat instance. When you have a SaaS Rocket.Chat instance you will have a URL (subdomain) like <mark style="color:blue;">MyChosenName.rocket.chat</mark>, so just ping it. In this demo:
+Now you donÃÂ¢ÃÂÃÂt want your Rocket.Chat to get banned by the FreePBX firewall so you have to add it to the Whitelist List. First, you need to know the IP or IP Networks from your Rocket.Chat instance. When you have a SaaS Rocket.Chat instance you will have a URL (subdomain) like <mark style="color:blue;">MyChosenName.rocket.chat</mark>, so just ping it. In this demo:
 
 ![](<../../../../.gitbook/assets/image (4) (1).png>)
 
 Rocket.Chat will be connecting from the whole network 51.81.0.0/16\
-If you have your own Rocket.Chat instance self-hosted or similar, you should know what’s your IP address or network.
+If you have your own Rocket.Chat instance self-hosted or similar, you should know whatÃÂ¢ÃÂÃÂs your IP address or network.
 
 Now, navigate to **Connectivity > Firewall >** **Networks**, and add the IP address needed or Network. Select the **Other** zone and **Save**:
 
@@ -79,7 +79,7 @@ Navigate to **Admin > Port Management**. Change the Admin (web portal) to anothe
 
 Please note that until here you have been accessing the server by HTTP (not HTTPS) on port 80, until you finish SSL configuration you are going to be using the newly selected port, 8080 in this demo.
 
-Now navigate to **Admin > Certificate Management**, and click on **New Certificate** > **Generate Let’s Encrypt Certificate**:
+Now navigate to **Admin > Certificate Management**, and click on **New Certificate** > **Generate LetÃÂ¢ÃÂÃÂs Encrypt Certificate**:
 
 ![Certificate management](<../../../../.gitbook/assets/Certificate management PBX.png>)
 
@@ -87,7 +87,7 @@ Fill out the form according to your settings and click **Generate Certificate**:
 
 ![Generate certificate](<../../../../.gitbook/assets/generate certificate PBX.png>)
 
-Once it’s generated mark it as the system’s default:
+Once itÃÂ¢ÃÂÃÂs generated mark it as the systemÃÂ¢ÃÂÃÂs default:
 
 ![Default certificate](<../../../../.gitbook/assets/Default certificate PBX.png>)
 
@@ -115,17 +115,17 @@ We are using chan\_pjsip as the only SIP driver. Go to the **Settings > Advanced
 ## 5. Configure Asterisk HTTP/WebSocket features
 
 \
-Using the article [Configuring Asterisk for WebRTC Clients 1](https://wiki.asterisk.org/wiki/display/AST/Configuring+Asterisk+for+WebRTC+Clients) in Asterisk’s Wiki, we are going only for the principal parameters if you need more details the article is a great guide.\
+Using the article [Configuring Asterisk for WebRTC Clients 1](https://wiki.asterisk.org/wiki/display/AST/Configuring+Asterisk+for+WebRTC+Clients) in AsteriskÃÂ¢ÃÂÃÂs Wiki, we are going only for the principal parameters if you need more details the article is a great guide.\
 
 
-### 5.1 Enable Asterisk’s WebSocket and mini-HTTP
+### 5.1 Enable AsteriskÃÂ¢ÃÂÃÂs WebSocket and mini-HTTP
 
 \
 First, check that you have the needed modules loaded using the command `module show like <module_name>`
 
 ![Modules](<../../../../.gitbook/assets/Modules FreePBX.png>)
 
-We are reusing the Let’s Encrypt certificates for the Asterisk mini-HTTP server, WebSockets, TLS encryption, and others. Start by going to the **Settings > Advanced Settings** (again), search for the _Asterisk Builtin mini-HTTP server_ section and configure as shown, apply changes. Asterisk restart is also recommended here:
+We are reusing the LetÃÂ¢ÃÂÃÂs Encrypt certificates for the Asterisk mini-HTTP server, WebSockets, TLS encryption, and others. Start by going to the **Settings > Advanced Settings** (again), search for the _Asterisk Builtin mini-HTTP server_ section and configure as shown, apply changes. Asterisk restart is also recommended here:
 
 ![Asterisk Builtin mini-HTTP server](<../../../../.gitbook/assets/image (9).png>)
 
@@ -133,7 +133,7 @@ Using the command `http show status` verify that both HTTP and HTTPS are up and 
 
 ![HTTP and HTTPS status](<../../../../.gitbook/assets/HTTP and HTTPS status FreePBX.png>)
 
-**If HTTP does but HTTPS doesn’t check that Asterisk can read the certificate and private key files:** Add capture of file reading error.&#x20;
+**If HTTP does but HTTPS doesnÃÂ¢ÃÂÃÂt check that Asterisk can read the certificate and private key files:** Add capture of file reading error.&#x20;
 
 ### 5.2 Enable the WS and WSS SIP transports&#x20;
 

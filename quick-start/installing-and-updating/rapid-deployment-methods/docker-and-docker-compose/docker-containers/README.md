@@ -29,7 +29,7 @@ This guide is written assuming that you're starting with:
 
 ## 1. Securing the server: Firewall basics (optional, recommended)
 
-First, make sure [UFW](https://en.wikipedia.org/wiki/Uncomplicated\_Firewall) (Uncomplicated FireWall) is installed. It should be installed by default in Ubuntu, but if it’s not, you can check if it is installed by running.
+First, make sure [UFW](https://en.wikipedia.org/wiki/Uncomplicated\_Firewall) (Uncomplicated FireWall) is installed. It should be installed by default in Ubuntu, but if itÃÂ¢ÃÂÃÂs not, you can check if it is installed by running.
 
 ```
 apt -qq list ufc
@@ -199,7 +199,7 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/cert
 
 **Follow the prompts.**
 
-Tip: It is **IMPORTANT** that the **Common Name** be set properly. Enter your fully qualified domain name (FQDN) here or, if you don’t have a FQDN, use your public IP address. For example, my FQDN for the chat server is `chat.inumio.com`.
+Tip: It is **IMPORTANT** that the **Common Name** be set properly. Enter your fully qualified domain name (FQDN) here or, if you donÃÂ¢ÃÂÃÂt have a FQDN, use your public IP address. For example, my FQDN for the chat server is `chat.inumio.com`.
 
 Save and Exit.
 
@@ -409,7 +409,7 @@ Once you've successfully reached your chat room login page, you need to register
 
 _Great! I'm in, but the bot is nowhere to be seen!_
 
-No worries! In order to get your bot up and running, we must register it…
+No worries! In order to get your bot up and running, we must register itÃÂ¢ÃÂÃÂ¦
 
 ## 9. Registering & Configuring Hubot, the chat robot
 
@@ -419,7 +419,7 @@ Previously, we created the docker-compose.yml file. It's this file where we defi
 
 You can now optionally login and set some of the preferences, such as bot avatar. When finished, log out of the bot account.
 
-With the bot account created, you can force it to join by simply rebooting the server, upon which the init script should automatically launch your chat room, and the bot should join the “General” room.
+With the bot account created, you can force it to join by simply rebooting the server, upon which the init script should automatically launch your chat room, and the bot should join the ÃÂ¢ÃÂÃÂGeneralÃÂ¢ÃÂÃÂ room.
 
 For basic command help, in the chat message box, type BOTNAME help (where BOTNAME is your bot's name).
 

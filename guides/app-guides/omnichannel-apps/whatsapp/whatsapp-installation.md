@@ -1,6 +1,6 @@
 # WhatsApp Installation
 
-To install WhatsApp:‌
+To install WhatsApp:ÃÂ¢ÃÂÃÂ
 
 Go to **Administration** > **Apps**.
 

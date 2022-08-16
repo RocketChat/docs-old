@@ -40,7 +40,7 @@ You can react to messages with emojis.
 
 To add a reaction to a message, go to the message, click on the **Smiley Face** icon on the right of the message, and then choose an emoji.
 
-You can see other users’ emoji reactions beneath the message. To react with the same emoji as another user, click the emoji. You can also remove your reaction by clicking on your emoji.
+You can see other usersÃÂ¢ÃÂÃÂ emoji reactions beneath the message. To react with the same emoji as another user, click the emoji. You can also remove your reaction by clicking on your emoji.
 
 ## Permalink a message
 

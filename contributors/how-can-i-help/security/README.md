@@ -53,7 +53,7 @@ Rocket.Chat is very grateful for the following people who have responsibly discl
 * [ALK Surya Teja](https://www.linkedin.com/in/alk-surya-teja-59b677146/), June 2020
 * [Virendra Yadav](https://www.linkedin.com/in/virendra-yadav-9232b115a/), June 2020
 * Pawel Wylecial of [REDTEAM.PL](https://redteam.pl), July 2020
-* [Robert Grösser](https://github.com/qchn), August 2020
+* [Robert GrÃÂÃÂ¶sser](https://github.com/qchn), August 2020
 * [Vladica Savic](https://twitter.com/vsavic), August 2020
 * Ivars Vids, September 2020
 * [Nikhil Mittal](https://twitter.com/c0d3g33k), Oktober 2020

@@ -2,7 +2,7 @@
 
 
 
-You don’t have to be a coder to contribute to Rocket.Chat. In fact, you don’t even have to be technical. Many of our community contributors support the Rocket.Chat open source project directly through Github Sponsorships.\
+You donÃÂ¢ÃÂÃÂt have to be a coder to contribute to Rocket.Chat. In fact, you donÃÂ¢ÃÂÃÂt even have to be technical. Many of our community contributors support the Rocket.Chat open source project directly through Github Sponsorships.\
 \
 The following should answer the questions you may have regarding sponsorship.
 

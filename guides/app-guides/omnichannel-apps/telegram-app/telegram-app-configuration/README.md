@@ -47,6 +47,6 @@ You can also use quick reply buttons to send/receive quick replies on telegram.
 **If you don't yet have a chatbot solution ready to connect to Omnichannel or are interested in discovering** [**Rocket.Chat**](http://rocket.chat) **natively compatible solutions such as** [**Dialogflow**](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/dialogflow-app) **or** [**RASA**](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/rasa-app)**. Check out our** [**marketplace**](https://rocket.chat/marketplace) **and learn more!**
 {% endhint %}
 
-You can also have [**Assign new conversations to bot agent**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#routing) \*\*\*\* toggled on for the routing conversation to the bot agent if any. Please note that it’s an optional configuration, but for companies that have a chatbot user serving omnichannel conversations that’s a required setting.
+You can also have [**Assign new conversations to bot agent**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#routing) \*\*\*\* toggled on for the routing conversation to the bot agent if any. Please note that itÃÂ¢ÃÂÃÂs an optional configuration, but for companies that have a chatbot user serving omnichannel conversations thatÃÂ¢ÃÂÃÂs a required setting.
 
 ![Telegram routing to bot agent](<../../../../../.gitbook/assets/bot agent .png>)

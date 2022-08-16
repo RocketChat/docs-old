@@ -76,7 +76,7 @@ You need to have the `Homeserver Token` and the `AppService Token` keys ready.
 
 ### Setting up a Matrix Homeserver with Synapse
 
-You can follow the instructions here in the “[https://matrix-org.github.io/synapse/develop/federate.html](https://matrix-org.github.io/synapse/develop/federate.html)” documentation for setting up a federation with synapse.
+You can follow the instructions here in the ÃÂ¢ÃÂÃÂ[https://matrix-org.github.io/synapse/develop/federate.html](https://matrix-org.github.io/synapse/develop/federate.html)ÃÂ¢ÃÂÃÂ documentation for setting up a federation with synapse.
 
 ## Create a federated room
 
