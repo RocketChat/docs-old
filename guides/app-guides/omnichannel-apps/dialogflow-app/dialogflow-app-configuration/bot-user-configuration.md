@@ -10,6 +10,6 @@ To configure a bot user:
 
 ![](<../../../../../.gitbook/assets/image (462).png>)
 
-3\. Make sure the _Bot_ and _LiveChat Agent_ role is assigned to this user.
+3\. Make sure the _Bot_ and _Live Chat Agent_ role is assigned to this user.
 
 ![](<../../../../../.gitbook/assets/image (463).png>)

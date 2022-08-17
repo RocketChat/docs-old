@@ -52,7 +52,7 @@ In addition, due to the sheer number of high quality entrants, Rocket.Chat has d
 
 | Student         | Project                        | Mentors                      |
 | --------------- | ------------------------------ | ---------------------------- |
-| Pradeep Kumar   | Livechat Reports and Analytics | Renato Becker                |
+| Pradeep Kumar   | Live Chat Reports and Analytics | Renato Becker                |
 | Nitesh Saxena   | Intgration with IPFS           | Sing Li, Ankit Bhatia        |
 | Arthur Temporim | Enhanced BOT Adapters          | Diego Dorgam, John Szaszvari |
 
@@ -126,10 +126,10 @@ Interested students are also encouraged to interact with our contributor communi
 * **Description:** Assist Rocket.Chat’s scalability engineers to scale Rocket.Chat to the next level. From tens of thousands of active connections, to hundreds of thousands to millions, to world-scale.
 * **Desirable Skills:** We are looking for an enthusiastic undergraduate, planning to enroll or already enrolled for masters or PhD work in a cluster computing or scalability discipline to join us for an exciting summer of hands-on practical fun. Working alongside our scalability expert – you will devise and test out various performance and scalability enhancements for Rocket.Chat’s deployment configurations. You will be able to practice everything you have learnt so far in your under-graduate study, pushes beyond their limits, with a real production clustered server project – having your work impacting thousands of global users – all within the span of a single summer.
 
-### LiveChat Reports and Analytics
+### Live Chat Reports and Analytics
 
 * **Mentors:** @renato.becker
-* **Description:** Add a panel to have analytical information about interactions in LiveChat.
+* **Description:** Add a panel to have analytical information about interactions in Live Chat.
 * **Desirable Skills:** Familiarity with JavaScript development.
 
 ### Uniting “One Rocket.Chat” with Federation
@@ -206,7 +206,7 @@ Some projects that you can submit proposals for include:
 ### Javascript SDK
 
 * **Mentors:** @karl.prieb @guilherme.gazzo
-* **Description:** Create a javascript SDK that can be used on our ReactNative, Livechat and our webclient projects.
+* **Description:** Create a javascript SDK that can be used on our ReactNative, Live Chat and our webclient projects.
 
 ### Game platform integration
 

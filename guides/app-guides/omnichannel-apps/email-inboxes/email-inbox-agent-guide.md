@@ -6,7 +6,7 @@ description: >-
 
 # Email Inbox Agent Guide
 
-Once an email is part of a channel, your contacts can send emails to it to start a conversation. It will appear inside Rocket.Chat just like any other omnichannel livechat conversation. When you reply to an email message that has been sent to you, it will appear just like any other email in your contact’s inbox.
+Once an email is part of a channel, your contacts can send emails to it to start a conversation. It will appear inside Rocket.Chat just like any other omnichannel Live Chat conversation. When you reply to an email message that has been sent to you, it will appear just like any other email in your contact’s inbox.
 
 As soon as your contact sends an email to the registered email address, it will appear in the queue just like any other omnichannel conversation, as shown below:
 

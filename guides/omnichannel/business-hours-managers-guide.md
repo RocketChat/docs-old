@@ -4,7 +4,7 @@
 Multiple Business Hours is [Rocket.Chat Enterprise](../enterprise-edition-trial/) Feature.
 {% endhint %}
 
-Setting business hours lets you specify the working days and hours of your business. This reflects on the Livechat widget availability making it easy for agents to be notified and hence receive queries.
+Setting business hours lets you specify the working days and hours of your business. This reflects on the Live Chat widget availability making it easy for agents to be notified and hence receive queries.
 
 The enterprise workspaces have an option to set up multiple business hours according to different time zones and their business needs. Community workspaces can only set up one set of business hours.
 

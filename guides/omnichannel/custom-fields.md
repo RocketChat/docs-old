@@ -1,11 +1,11 @@
 # Custom Fields
 
-Custom fields can be added to receive additional information from visitors during registration before initiating a Livechat conversation.
+Custom fields can be added to receive additional information from visitors during registration before initiating a Live Chat conversation.
 
 To access this menu, go to **Avatar Menu  > Omnichannel > Custom Fields**. Here, you can **View**, **Create New**,  **Edit** or **Delete** an existing field.
 
 {% hint style="info" %}
-The Livechat registration form has the **Name**, **Email**, and **I need Help With…**(Department) fields by default.
+The Live Chat registration form has the **Name**, **Email**, and **I need Help With…**(Department) fields by default.
 {% endhint %}
 
 ## Create Omnichannel Custom Field
@@ -17,7 +17,7 @@ To create a new custom field:
 
 ![](../../.gitbook/assets/2022-01-23\_18-47-17.png)
 
-* **Field**: Enter the desired field that you want to add to your Livechat registration form. E.g., last name.
+* **Field**: Enter the desired field that you want to add to your Live Chat registration form. E.g., last name.
 * **Label:** Label of the field
 * **Scope:** A dropdown for you to set the scope of the room
 * **Visible:** Whether or not to make it visible
@@ -33,9 +33,9 @@ The rest of the settings (mentioned below) are **Enterprise** only.
 * **Type**: Choose the input type (`Input/Select`) of the field
 * **Default value**: Set the default value of the field
 * **Options**: Comma-separated list used to select a pre-configured value. Spaces between elements are not accepted.
-* **Public**: Set it Public this will be displayed in external applications, such as Livechat
+* **Public**: Set it Public this will be displayed in external applications, such as Live Chat
 
-When a custom field is created and made public, any value supplied in that field is available on the [Livechat agent's](agents.md) side.
+When a custom field is created and made public, any value supplied in that field is available on the [Live Chat agent's](agents.md) side.
 
 ## Edit Omnichannel Custom Field
 

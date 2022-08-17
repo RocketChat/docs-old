@@ -1,12 +1,12 @@
-# Livechat Widget Appearance
+# Live Chat Widget Appearance
 
-You can customize the Livechat Widget appearance to suit your branding style. In this section, you'll find out how to customize the appearance of your Livechat Widget.
+You can customize the Live Chat Widget appearance to suit your branding style. In this section, you'll find out how to customize the appearance of your Live Chat Widget.
 
-To access Livechat Appearance go to **Avatar Menu  > Omnichannel > Livechat Appearance**.
+To access Live Chat Appearance go to **Avatar Menu  > Omnichannel > Live Chat Appearance**.
 
-## Livechat Widget Online Appearance
+## Live Chat Widget Online Appearance
 
-Here you can define the look of the [Livechat Widget](livechat-widget-installation.md) during online hours.
+Here you can define the look of the [Live Chat Widget](livechat-widget-installation.md) during online hours.
 
 * **Title**: Set the title of your widget.
 * **Title bar color**: Set the color of the title bar of your widget.
@@ -14,19 +14,19 @@ Here you can define the look of the [Livechat Widget](livechat-widget-installati
 * **Show agent information**: Enable to show agent’s information(Name).
 * **Show agent email**: Show your agent’s email address when set to true.
 
-## Livechat Widget Offline Appearance
+## Live Chat Widget Offline Appearance
 
-Customize the appearance of your Livechat Widget here, for the hours when none of your agents is online/working.
+Customize the appearance of your Live Chat Widget here, for the hours when none of your agents is online/working.
 
 * **Display Offline Form**: Turn on to display offline form.
 * **Offline Form Unavailable Message**: The message visitors will see when unavailable.
 * **Offline message**: Set Offline Message, if any.
-* **Title offline**: The Livechat Widget title
+* **Title offline**: The Live Chat Widget title
 * **Title bar color offline**: Set title bar color for when offline.
 * **Email Address to Send Offline Messages**: Set the email address to which offline messages will be sent to.
 * **Offline Success Message**: message to show the visitor after successfully sending a message.
 
-## Livechat Widget Registration Form
+## Live Chat Widget Registration Form
 
 Here you set up the fields you want to show on the registration form.
 

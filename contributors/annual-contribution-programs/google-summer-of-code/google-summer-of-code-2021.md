@@ -15,7 +15,7 @@ Due to sudden departure of an active mentor, we are in jeopardy of losing two ke
 | Student      | Project                                                  | Mentors                               |
 | ------------ | -------------------------------------------------------- | ------------------------------------- |
 | Ghulam Ghous | Omnichannel Project: Live Chat Widget - Accessible ModeL | Leticia Peuser, Tasso Evangelista     |
-| Dhruv Jain   | Introduce Audio calls to LiveChat                        | Murtaza Patrawala, Gabriel Henriquesz |
+| Dhruv Jain   | Introduce Audio calls to Live Chat                        | Murtaza Patrawala, Gabriel Henriquesz |
 
 The unsung heroine here is Aline Nunes, our senior Agilist, without whose help the last minute mentors re-assignment would not have been possible.
 
@@ -42,7 +42,7 @@ We are delighted to welcome these 12 active community members to work with us du
 | Kartik Gupta    | Speech-to-Text                                          | Marcelo Schmidt        |
 | Darshil Patel   | Introducing Ephemeral Channels in Rocket.Chat           | Kevin Aleman           |
 | Yash Rajpal     | App: Bad-Words Filter                                   | Douglas Guebert        |
-| Dhruv Jain      | Introduce Audio calls to LiveChat                       | Murtaza Patrawala      |
+| Dhruv Jain      | Introduce Audio calls to Live Chat                       | Murtaza Patrawala      |
 | Anant Bhasin    | E2E Testing for Android in Rocket.Chat.ReactNative      | Diego Mello            |
 | Rahul Halder    | Voice Channels                                          | Douglas Fabris         |
 | Aditya Mitra    | Out Of Office Settings with an Assigning Deputy         | Amol Babu, Asrar Zaman |
@@ -56,7 +56,7 @@ Even with the generous slot assignment this year, it is still a very difficult d
 | Student        | Sponsored Project                                 |
 | -------------- | ------------------------------------------------- |
 | Sumukha Hegde  | New statuses for user actions/events (Typing 2.0) |
-| Deepak Agarwal | Introduce Video  calls to LiveChat                |
+| Deepak Agarwal | Introduce Video  calls to Live Chat                |
 
 All verified students are now interacting with their mentors and the greater Rocket.Chat community during the community bonding phase of the 2021 GSoC season.
 
@@ -188,10 +188,10 @@ Interested students are also encouraged to interact with our core team and contr
   * Option to import missing strings into the target language to easily add translations
   * Integrate the script on CI to block PR from merge if there are new strings without translations
 
-### Introduce Video and Audio calls to LiveChat
+### Introduce Video and Audio calls to Live Chat
 
 * **Mentors**: [@rafaelferreira](https://open.rocket.chat/direct/rafaelferreira), [@murtaza.patrawala](https://open.rocket.chat/direct/murtaza.patrawala)
-* **Description:** The outcome expected from this project is to support Video and Audio calls in one of the native Omnichannel entry points called [LiveChat](https://github.com/RocketChat/Rocket.Chat.Livechat). LiveChat is a small and lightweight application designed to provide B2C communication between Agents and website visitors. It is developed with [PreactJS](https://preactjs.com), which means that any ReactJS developer will be able to implement the new features using [WebRTC](https://webrtc.org) framework.
+* **Description:** The outcome expected from this project is to support Video and Audio calls in one of the native Omnichannel entry points called [Live Chat](https://github.com/RocketChat/Rocket.Chat.Live Chat). Live Chat is a small and lightweight application designed to provide B2C communication between Agents and website visitors. It is developed with [PreactJS](https://preactjs.com), which means that any ReactJS developer will be able to implement the new features using [WebRTC](https://webrtc.org) framework.
 * **Desirable Skills**: Experience with JavaScript, ReactJS and WebRTC, and WebSocket API.
 
 ### **App: Speech-to-Text**
@@ -299,12 +299,12 @@ Interested students are also encouraged to interact with our core team and contr
 * **Description:** Develop an application/playground that allows developers to test UiKit Blocks and Interactions. Should allow developers to generate code used by Rocket.Chat apps and edit the content to preview the result
 * **Desirable Skills:** JavaScript/TypeScript
 
-### **Omnichannel: Livechat Widget Accessible Mode**
+### **Omnichannel: Live Chat Widget Accessible Mode**
 
 * **Mentors:** [@rafaelferreira](https://open.rocket.chat/direct/rafaelferreira)
-* **Project repository:** [https://github.com/RocketChat/Rocket.Chat.Livechat](https://github.com/RocketChat/Rocket.Chat.Livechat)
+* **Project repository:** [https://github.com/RocketChat/Rocket.Chat.Live Chat](https://github.com/RocketChat/Rocket.Chat.Livechat)
 * **Desirable Skills:** Accessibility, React, SCSS
-* **Description:** Omnichannel users, including users with visual disabilities, must be able to perceive content at the Livechat widget. The main idea here is to give some options to Livechat widget users to active "Accessible mode", which means:
+* **Description:** Omnichannel users, including users with visual disabilities, must be able to perceive content at the Live Chat widget. The main idea here is to give some options to Live Chat widget users to active "Accessible mode", which means:
   * High contrast colors.
   * Icons accompanying text.
   * Bigger highlight over selected text or cursor active/hover using the "tab" key.

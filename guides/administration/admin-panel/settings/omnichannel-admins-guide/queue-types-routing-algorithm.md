@@ -20,23 +20,23 @@ A new incoming chat will be routed to `agent-2` and so on until all agents have 
 
 ## Manual Selection
 
-With this queue method active, agents will have a new `Incoming Livechats` section:
+With this queue method active, agents will have a new `Incoming Live Chats` section:
 
-Each new chat will be available on the `Incoming Livechats` section to **all** agents. So any agent can take a new incoming chat.
+Each new chat will be available on the `Incoming Live Chats` section to **all** agents. So any agent can take a new incoming chat.
 
-When the agent clicks on the incoming Livechat, the system will show the preview of the chat containing the messages sent by the visitor, so the agent can decide if he will take the chat or not. If the agent decides to take it, the incoming chat will be removed from the incoming chats list of the other agents.
+When the agent clicks on the incoming Live Chat, the system will show the preview of the chat containing the messages sent by the visitor, so the agent can decide if he will take the chat or not. If the agent decides to take it, the incoming chat will be removed from the incoming chats list of the other agents.
 
 ## External Service
 
-You can use an `External Service` to integrate your own agent routing rule into Livechat.
+You can use an `External Service` to integrate your own agent routing rule into Live Chat.
 
-Once you set up the `External Service` as the Livechat routing method, you must define the `External Queue Service URL` and `Secret Token` settings in the omnichannel admin panel.
+Once you set up the `External Service` as the Live Chat routing method, you must define the `External Queue Service URL` and `Secret Token` settings in the omnichannel admin panel.
 
 Rocket.Chat will send a GET request to the `External Queue Service URL` and the setting `Secret Token` is sent as a header `X-RocketChat-Secret-Token`, so you can validate if the request came from the Rocket.Chat.
 
 If your endpoint returns a response status other than 200, Rocket.Chat will try 10 times until it receives a valid response.
 
-Here is an example of the JSON data format that Livechat will wait for after submitting the get request:
+Here is an example of the JSON data format that Live Chat will wait for after submitting the get request:
 
 ```javascript
 {
@@ -45,7 +45,7 @@ Here is an example of the JSON data format that Livechat will wait for after sub
 }
 ```
 
-After receiving the return from the endpoint in the format described above, Livechat will check that the `username` the field represents a valid Livechat agent and then follows the normal process flow.
+After receiving the return from the endpoint in the format described above, Live Chat will check that the `username` the field represents a valid Live Chat agent and then follows the normal process flow.
 
 ## Load Balancing![](<../../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1).jpg>)
 

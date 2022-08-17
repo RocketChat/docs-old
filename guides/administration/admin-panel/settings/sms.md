@@ -20,7 +20,7 @@ Create a Mobex account at [https://mobex.biz/](https://mobex.biz) and get a plan
 * **Mobex SMS REST API Address**: IP or Host of your Mobex REST API. E.g. `http://192.168.1.1:8080` or `https://www.example.com:8080`
 * **Username**: Your username
 * **Password**: Your Mobex password
-* **From**: Originating address/phone number when sending a new SMS to LiveChat client
+* **From**: Originating address/phone number when sending a new SMS to Live Chat client
 * **List of numbers to send SMS from**: Comma-separated list of numbers to use in sending brand new messages, eg. `123456789`, `123456788`, `123456888`
 
 ## Twilio

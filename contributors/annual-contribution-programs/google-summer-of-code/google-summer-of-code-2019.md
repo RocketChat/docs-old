@@ -32,7 +32,7 @@ Unfortunately, during this time, we had to remove one student from the program d
 | Noor Binte Amir   | Theme Support for Rocket.Chat Android App                                                 | Filipe Brito, Peter Nguyen, Balaji Sanjeevi, Renji Raj     |
 | Aditya Bhardwaj   | Service Accounts                                                                          | Karen Bedi, Peter Lepeska                                  |
 | Shubham Singh     | Rocket.Chat Articles                                                                      | Peter Lepeska, Karen Bedi, Ramkumar KB, Jian Hou           |
-| Kautilya Tripath  | Livechat: Real-time Visitor Monitoring                                                    | Renato Becker, Diego Mello                                 |
+| Kautilya Tripath  | Live Chat: Real-time Visitor Monitoring                                                    | Renato Becker, Diego Mello                                 |
 | Fongang Rodrique  | Interactive APIs documenation                                                             | Martin Schoeler, Marcos Defendi                            |
 | Kapil Gautam      | Integrating Google Calendar with Rocket.Chat                                              | Douglas Gubert, Rodrigo Nascimento                         |
 | Upendra Reddy     | Improve User Experience with Bots in Android App                                          | James Hepburn, Peter Lepeska                               |
@@ -137,11 +137,11 @@ The leaderboard project **itself** is open source, created and maintained by our
 * **Description**: One of the most popular features in Rocket.Chat is auto-translate, where users can set their language preference to have all messages translated. This feature works by translating every incoming message into the user language of choice. We would like the student to make it possible for the package also to translate every message the user sends into another language. As a plus, if the student can implement a channel language setting, it would be superb.
 * **Desirable Skills:** Familiarity with Rocket.Chat development and meteor packages.
 
-### Livechat: Real-Time Visitor Monitoring
+### Live Chat: Real-Time Visitor Monitoring
 
 * **Mentors**: @renatobecker, @diegolmello
-* **Description**: The goal of Real-Time Visitor Monitoring is to provide an important feature for the Live chat team by displaying a list of visitors who are browsing the website where the Livechat widget is installed. Having this feature, it will be possible to track important information related to visitors, such as the current page, location, time on site, local time, and so on, even though the visitor has not yet started a conversation with an agent. In addition, an agent will be able to start a conversation with a specific visitor directly from the list, improving the proactivity of the Live chat team.
-* **Desirable Skills**: Familiarity with Rocket.Chat/Livechat development.
+* **Description**: The goal of Real-Time Visitor Monitoring is to provide an important feature for the Live Chat team by displaying a list of visitors who are browsing the website where the Live Chat widget is installed. Having this feature, it will be possible to track important information related to visitors, such as the current page, location, time on site, local time, and so on, even though the visitor has not yet started a conversation with an agent. In addition, an agent will be able to start a conversation with a specific visitor directly from the list, improving the proactivity of the Live Chat team.
+* **Desirable Skills**: Familiarity with Rocket.Chat/Live Chat development.
 
 ### API Playground: Interactive APIs documentation
 
@@ -174,11 +174,11 @@ The leaderboard project **itself** is open source, created and maintained by our
 * **Description:** Implement a way for administrators to rebrand their instances of rocketchat - product name, icons, colors, etc. - for the android and ios apps, which currently do not support this. Besides adding this capability, another goal would be to make this branding across all the OS’s easy for an administrator that may not be too tech savvy. Ideally, this would only be a few easy steps. Besides this ease-of-use improvement, this would also make it less likely that people will fork rocket to put in their own branding.
 * **Desirable Skills:** Familiarity with Android and/or iOS development, specifically the Rocket.Chat.Android/Rocket.Chat.iOS code bases.
 
-### Livechat: Voice and Video Calls
+### Live Chat: Voice and Video Calls
 
 * **Mentors**: @tasso.evangelista @guilherme.gazzo
-* **Description**: We've been working on our new Livechat solution and it's time to add two great new features that will make Livechat even more powerful: voice and video calls! The idea is to integrate Livechat with the providers already supported in Rocket.Chat, such as Jitsi, WebRTC, BigBlueButton and so on. With these two new features, Livechat users will be able to initiate video and audio calls between them and Livechat agents.
-* **Desirable Skills**: Familiarity with Rocket.Chat/Livechat development, ReactJS/PreactJS, Voice and Video communication
+* **Description**: We've been working on our new Live Chat solution and it's time to add two great new features that will make Live Chat even more powerful: voice and video calls! The idea is to integrate Live Chat with the providers already supported in Rocket.Chat, such as Jitsi, WebRTC, BigBlueButton and so on. With these two new features, Live Chat users will be able to initiate video and audio calls between them and Live Chat agents.
+* **Desirable Skills**: Familiarity with Rocket.Chat/Live Chat development, ReactJS/PreactJS, Voice and Video communication
 
 ### Alexa Skill(s)
 
@@ -279,7 +279,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 ### Integration of Rocket.Chat with Existing Phone/Voice Networks
 
 * **Mentors**: TBD
-* **Description**: Deep VoIP integration of Rocket.Chat with modern software and hardware SIP switches and VoIP SaaS. Intelligently add access to phone networks and SMS channels to the Rocket.Chat workflow. Enable multi-channel conferences with chat + phone calls + video. Empower Live chat with voice calls in workflow.
+* **Description**: Deep VoIP integration of Rocket.Chat with modern software and hardware SIP switches and VoIP SaaS. Intelligently add access to phone networks and SMS channels to the Rocket.Chat workflow. Enable multi-channel conferences with chat + phone calls + video. Empower Live Chat with voice calls in workflow.
 * **Desirable Skills**: Familiar with SIP development. Fluent in VoIP concepts and practices. Ability to rapidly code in JavaScript and Linux shell. Wide open mind for new ideas.
 
 ### iOS contacts sync, invites & dynamic links

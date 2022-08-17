@@ -79,7 +79,7 @@ Application for technical writers has opened. Please use this [form](https://for
 
 * **Mentors**: @gabriel.engel @marcelo.schmidt
 * **Description**: Transparency is a cornerstone value of many open source projects. Rocket.Chat aims to support this value by offering a set of frequently updated project directional documents - including roadmaps, visionary, strategy and white papers. These will incorporate input from the wider community through interactive feedback as well as regular reviews. This documentation currently exists in bits and pieces, but is not in an easy to digest/understand format. A system will be implemented to present this content in various consumable formats. You will be working with Rocket.Chat's leadership team in formulating and authoring of these documents.
-* **Related Material**: [Project roadmap on our Github repository](https://github.com/RocketChat/Rocket.Chat/projects/30), [Livechat component roadmap](https://github.com/orgs/RocketChat/projects/20)
+* **Related Material**: [Project roadmap on our Github repository](https://github.com/RocketChat/Rocket.Chat/projects/30), [Live Chat component roadmap](https://github.com/orgs/RocketChat/projects/20)
 
 ### Rocket.Chat Experimental (React Native client) documentation
 

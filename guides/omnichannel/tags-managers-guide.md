@@ -1,18 +1,13 @@
----
-description: >-
-  As a Livechat Manager, you can set Tags to be assigned to the livechat
-  conversations by the agents. Tags can be used later for easy searching and
-  sorting of livechat conversations.
----
-
 # Tags Manager's Guide
 
 ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (15) (1).jpg>)
+As a Live Chat Manager, you can set Tags to be assigned to the Live Chat conversations by the agents.
+Tags can be used later for easy searching and sorting of Live Chat conversations.
 
-Omnichannel Tags are used for marking and classifying an Omnichannel conversation.
+Omnichannel Tags are used for marking and classifying Omnichannel conversation.
 
 {% hint style="info" %}
-A very practical use case is using tags to mark the progress made on a Livechat query. You can have tags like `new`, `blocked`, `in progress,` `completed` etc
+A very practical use case is using tags to mark the progress made on a Live Chat query. You can have tags like `new`, `blocked`, `in progress,` `completed` etc
 {% endhint %}
 
 To access **Tags** settings go to **Avatar Menu  > Omnichannel > Tags**.
