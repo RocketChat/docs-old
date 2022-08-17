@@ -179,9 +179,9 @@ Cloud account email can be changed at cloud.rocket.chat on the Profile page. If 
 
 <summary>How to request a custom domain?</summary>
 
-To request a custom domain, set up a CNAME DNS record for the domain name you want to have pointing to "**cdns.use1.cloud.rocket.chat**" (for US region) and to "**cdns.euc1.cloud.rocket.chat**" (for EU region). Afterward, send us an email to support@rocket.chat so we can make respective changes to your workspace.
+To request a custom domain, set up a CNAME DNS record for the domain name you want to have pointing to "**cdns.use1.cloud.rocket.chat**" (for US region) and to "**cdns.euc1.cloud.rocket.chat**" (for EU region). Afterward, please send us an email to support@rocket.chat so we can make respective changes to your workspace.
 
-Please note that custom domain is available in Silver and Gold plans only on SaaS offering.
+Please note that the ability to set a custom domain is available only in the Enterprise Edition offereing.
 
 </details>
 

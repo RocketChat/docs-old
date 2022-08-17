@@ -12,8 +12,8 @@ This user guide incorporates a description of the features and capabilities, mod
 [deploying-rocket.chat](quick-start/deploying-rocket.chat/)
 {% endcontent-ref %}
 
-{% content-ref url="quick-start/environment-configuration/creating-the-first-administrator.md" %}
-[creating-the-first-administrator.md](quick-start/environment-configuration/creating-the-first-administrator.md)
+{% content-ref url="quick-start/accessing-your-workspace/creating-the-first-administrator.md" %}
+[creating-the-first-administrator.md](quick-start/accessing-your-workspace/creating-the-first-administrator.md)
 {% endcontent-ref %}
 
 {% content-ref url="guides/user-guides/connecting-to-a-server.md" %}
@@ -44,8 +44,8 @@ This user guide incorporates a description of the features and capabilities, mod
 
 ## Features
 
-{% content-ref url="guides/rocket.chat-call-center/" %}
-[rocket.chat-call-center](guides/rocket.chat-call-center/)
+{% content-ref url="guides/rocket.chat-voice-channel/" %}
+[rocket.chat-voice-channel](guides/rocket.chat-voice-channel/)
 {% endcontent-ref %}
 
 {% content-ref url="guides/rocket.chat-conference-call/" %}

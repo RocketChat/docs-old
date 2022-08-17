@@ -108,11 +108,17 @@ Press **Y** when prompted to proceed with the install.
 
 Follow this guide [https://docs.docker.com/linux/step\_one/](https://docs.docker.com/linux/step\_one/) to get Docker installed.
 
-**Install Docker-Compose version 1.24.0 (64 bit) via cURL**
+{% hint style="info" %}
+Docker compose `v2.x.x` is required.
+{% endhint %}
 
+**Install Docker-Compose version 2.9.0 (64 bit) via cURL**
+
+{% code overflow="wrap" %}
+```bash
+sudo curl -SL https://github.com/docker/compose/releases/download/v2.9.0/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
 ```
-sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-Linux-x86_64" -o /usr/local/bin/docker-compose
-```
+{% endcode %}
 
 **Set the executable permissions**
 
@@ -225,7 +231,7 @@ sudo nano /etc/nginx/sites-available/default
 
 Delete the example in this file, and paste in the following:
 
-```bash
+```apacheconf
 # HTTPS Server
     server {
         listen 443 ssl;
@@ -281,7 +287,7 @@ To create a docker-compose file, please follow the instructions [here](../).
 
 **Create the directories:**
 
-```
+```bash
 sudo mkdir -p /var/www/rocket.chat/data/runtime/db
 sudo mkdir -p /var/www/rocket.chat/data/dump
 ```

@@ -2,10 +2,11 @@
 permalink: /administrator-guides/message-auditing/
 official: true
 enterprise: true
-description: Enterprise and Gold only feature
 ---
 
 # Message Auditing Panel
+
+![](../../.gitbook/assets/EnterpriseEditionTag.jpg)
 
 It allows the authorized user to:
 

@@ -1,12 +1,8 @@
----
-description: >-
-  Rocket.Chat Cloud allows you to connect your self-hosted Rocket.Chat workspace
-  to services we provide in our Cloud.
----
-
 # Create your new cloud account
 
-Rocket. Chat Cloud enables you to manage your workspace better. You can explore the workspace capabilities for free by signing up for a 30-day Rocket.Chat Gold Edition Plan. You will get a notification in advance of when the trial is coming to an end. If you purchase any plan, your trial version will automatically convert to a paid plan at the end of the trial period.
+Rocket.Chat Cloud allows you to connect your self-hosted Rocket.Chat workspace to services we provide in our Cloud.
+
+Rocket. Chat Cloud enables you to manage your workspace better. You can explore the workspace capabilities for free by signing up for a [30-day Rocket.Chat Enterprise Edition Trial](../../guides/enterprise-edition-trial/). You will get a notification in advance of when the trial is coming to an end. If you purchase any plan, your trial version will automatically convert to a paid plan at the end of the trial period.
 
 #### Before you begin
 

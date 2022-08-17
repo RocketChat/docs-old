@@ -32,15 +32,24 @@ On the next screen, you can fill out the necessary information for your organiza
 ![Organization Information](<../../.gitbook/assets/org info.png>)
 
 1. Enter the **Organization name**.
-2. Choose **Organization type**.
-3. Select the **Organization industry.**
-4. Select the **Organization** **size**.
-5. Choose your **Country**.
+2. Choose **Organization type** (Optional).
+3. Select the **Organization industry** (Optional).
+4. Select the **Organization** **size** (Optional).
+5. Choose your **Country** (Optional).
 6. Click **Next**.
 
 ### Register your server
 
-* You can register your server with the features such as mobile push notifications, third-party integrations, and access to the Rocket.Chat app marketplace or run it as a standalone service.
+* Next, you can register your workspace to the Rocket.Chat Cloud or run it as a standalone service.
+
+{% hint style="info" %}
+Connecting your workplace to the cloud gives you access to interact with services like
+
+* Mobile push notifications gateway
+* Livechat omnichannel proxy
+* OAuth proxy for social network
+* Apps Marketplace
+{% endhint %}
 
 ![Server Registration](<../../.gitbook/assets/register server.png>)
 
@@ -51,6 +60,10 @@ To register your server, we need to connect it to your cloud account. If you alr
 ## ![](../../.gitbook/assets/2022-01-28\_01-53-56.png)
 
 * You will receive an email to the registered email address with a confirmation link. You must verify the security code that matches the one in the email.
-* Click **Verify Registration**.
+* Click **Verify Registration**. Confirm the registration and go back to your server.
 
 Your workspace is ready. Click **Go to your workspace** to access it.
+
+### Continue as a Standalone Server:
+
+* Click **Continue as standalone** and then **Confirm**. Your workspace is now ready for use.

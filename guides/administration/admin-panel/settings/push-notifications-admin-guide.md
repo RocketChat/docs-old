@@ -28,7 +28,7 @@ Please note that only **one** sponsorship subscription can be applied to a works
 ## Set default user preferences (admin and users)
 
 {% hint style="info" %}
-Default user preferences are universal for all the users until individual users change them for themselves.
+Default user preferences are universal for all users until individual users change them for themselves.
 {% endhint %}
 
 To check user preferences for push notifications:
@@ -70,7 +70,7 @@ In Privacy, you can configure what amount of information you want your push noti
 ![](<../../../../.gitbook/assets/image (142).png>)
 
 {% hint style="info" %}
-Above are the default settings. If **Fetch full message content from the server on the receipt** is enabled and you're running the _Enterprise Edition or Gold_, the notification payload sent through the Apple Push Notification service or Firebase Cloud Messaging service contains no message content. Instead, it contains only the message ID, which is then used by the mobile app to fetch the message content from the [Rocket.Chat](http://rocket.chat) server to display the notification. If something happens and the app cannot reach the server in time, a generic push notification message is shown. When the setting is disabled, the whole message content is sent via push notification payload so the mobile app can display the notification right away.
+Above are the default settings. If **Fetch full message content from the server on the receipt** is enabled and you're running the _Enterprise Edition_, the notification payload sent through the Apple Push Notification service or Firebase Cloud Messaging service contains no message content. Instead, it contains only the message ID, which is then used by the mobile app to fetch the message content from the [Rocket.Chat](http://rocket.chat) server to display the notification. If something happens and the app cannot reach the server in time, a generic push notification message is shown. When the setting is disabled, the whole message content is sent via push notification payload so the mobile app can display the notification right away.
 {% endhint %}
 
 ## Cloud Service Privacy Terms Agreement
