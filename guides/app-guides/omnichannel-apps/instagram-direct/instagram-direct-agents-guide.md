@@ -4,7 +4,7 @@ If you have Instagram Direct integration in place and a user sends you a message
 
 ![](<../../../../.gitbook/assets/2021-12-31\_20-27-38 (1).png>)
 
-it appears in your Rocket.Chat workspace, just like any other omnichannel conversation.
+it appears in your Rocket.Chat workspace, just like any other Omnichannel conversation.
 
 ![](../../../../.gitbook/assets/2021-12-31\_20-30-41.png)
 

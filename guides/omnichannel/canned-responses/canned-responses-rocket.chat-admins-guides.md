@@ -27,7 +27,7 @@ Under the **Administration** > **Permissions** section, you can define which use
 
 ![](<../../../.gitbook/assets/image (512).png>)
 
-Check the omnichannel manager's guide for canned responses to save a new canned response for your workspace.
+Check the Omnichannel manager's guide for canned responses to save a new canned response for your workspace.
 
 {% content-ref url="canned-responses-omnichannel-managers-guide/" %}
 [canned-responses-omnichannel-managers-guide](canned-responses-omnichannel-managers-guide/)

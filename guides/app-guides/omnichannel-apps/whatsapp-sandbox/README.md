@@ -11,7 +11,7 @@ This app is not intended for production use. It is only intended for testing pur
 {% endhint %}
 
 {% hint style="warning" %}
-You must have the [omnichannel feature](../../../administration/admin-panel/settings/omnichannel-admins-guide/) enabled, as well as have [agents](https://docs.rocket.chat/guides/omnichannel/agents) and [managers](https://docs.rocket.chat/guides/omnichannel/managers) assigned in order to receive and send omnichannel messages**.**
+You must have the [Omnichannel feature](../../../administration/admin-panel/settings/omnichannel-admins-guide/) enabled, as well as have [agents](https://docs.rocket.chat/guides/omnichannel/agents) and [managers](https://docs.rocket.chat/guides/omnichannel/managers) assigned in order to receive and send Omnichannel messages**.**
 {% endhint %}
 
 ### Quickstart:  How to test WhatsApp in the Sandbox <a href="#quickstart-set-up-a-log-analytics-workspace" id="quickstart-set-up-a-log-analytics-workspace"></a>

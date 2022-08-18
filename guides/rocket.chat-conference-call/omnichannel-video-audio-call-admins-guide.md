@@ -1,6 +1,6 @@
 # Omnichannel Video/Audio Call Configuration
 
-You can either use Jitsi or WebRTC as your omnichannel audio/video call provider.
+You can either use Jitsi or WebRTC as your Omnichannel audio/video call provider.
 
 {% hint style="info" %}
 If you want to check how to use it, refer to [agent's guide.](https://docs.rocket.chat/guides/omnichannel/omnichannel-agents-guides/livechat-video-audio-call-agents-guide)

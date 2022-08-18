@@ -28,8 +28,8 @@ Now the admin will have access to _**Omnichannel Panel Settings**_ through a new
 
 1. Enable Omnichannel on your Rocket.Chat instance
 2. Enable/Disable request comment from the agent when closing a conversation
-3. Enable/Disable acceptance of new omnichannel requests when the agent is idle
-4. Enable/Disable continuous sound notification for new omnichannel room/conversation
+3. Enable/Disable acceptance of new Omnichannel requests when the agent is idle
+4. Enable/Disable continuous sound notification for new Omnichannel room/conversation
 5. Enable/Disable file uploads in the Live Chat widget
 6. Enable/Disable asking the visitor if they would like a transcript of the conversation.
 7. Enter the message to show when asking for a transcript.
@@ -38,7 +38,7 @@ Now the admin will have access to _**Omnichannel Panel Settings**_ through a new
 
 ### Business Hour
 
-The feature turns on the omnichannel toggle for the set business hours automatically. And you will be able to receive omnichannel conversations after. The toggle will be turned off during off-hours. The enterprise workspaces can set up multiple business hours according to different time zones and their business needs. Community workspaces can only set up one set of business hours.
+The feature turns on the Omnichannel toggle for the set business hours automatically. And you will be able to receive Omnichannel conversations after. The toggle will be turned off during off-hours. The enterprise workspaces can set up multiple business hours according to different time zones and their business needs. Community workspaces can only set up one set of business hours.
 
 1. Enable business hours
 2. Choose multiple business hours according to your enterprise needs
@@ -126,7 +126,7 @@ Routing allows you to define the behavior of your Live Chat queues.
 Detail of every setting is listed below:
 
 1. Select your preferred routing method (Please refer to [this](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel/livechat-queues) article for information on types of routing methods used in rocket chat)
-2. Enable acceptance of incoming omnichannel requests even if there are no online agents if you want
+2. Enable acceptance of incoming Omnichannel requests even if there are no online agents if you want
 3. Enable if you want the routing system to attempt to find a bot agent before addressing new conversations to a human agent
 4. Set the limit of **Max number of items displayed in the queue** if you want
 5. Enable if you want to show the Live Chat queue to all the agents

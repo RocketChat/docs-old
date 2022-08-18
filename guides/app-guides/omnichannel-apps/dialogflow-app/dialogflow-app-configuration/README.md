@@ -16,7 +16,7 @@ Following are the settings available:
 
 ![](<../../../../../.gitbook/assets/2022-01-15\_19-13-30 (1) (1) (1).png>)
 
-3\. Suppose the omnichannel end-user asks something that the bot is not trained to answer and fails. **Fallback Responses Limit** defines how many failures of the conversation should be forwarded to a human agent.
+3\. Suppose the Omnichannel end-user asks something that the bot is not trained to answer and fails. **Fallback Responses Limit** defines how many failures of the conversation should be forwarded to a human agent.
 
 4\. Upon bot-to-live agent handover, the visitor is transferred to **Target Department for Handover.**
 

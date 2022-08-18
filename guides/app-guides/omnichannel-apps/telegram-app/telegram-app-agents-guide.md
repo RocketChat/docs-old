@@ -4,7 +4,7 @@ If you have Telegram app integration in place and a user sends you a message on 
 
 ![](../../../../.gitbook/assets/img\_3509.png)
 
-it appears in your Rocket.Chat workspace just like any other omnichannel conversation.
+it appears in your Rocket.Chat workspace just like any other Omnichannel conversation.
 
 ![](<../../../../.gitbook/assets/image (572).png>)
 

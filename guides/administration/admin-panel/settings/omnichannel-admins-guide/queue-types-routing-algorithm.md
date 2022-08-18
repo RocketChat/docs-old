@@ -1,6 +1,6 @@
 # Queue Types (Routing Algorithm)
 
-There are the following types of queues in Rocket.Chat omnichannel solutions:
+There are the following types of queues in Rocket.Chat Omnichannel solutions:
 
 * [Auto Selection \[default\]](queue-types-routing-algorithm.md#auto-selection)
 * [Manual Selection](queue-types-routing-algorithm.md#manual-selection)
@@ -30,7 +30,7 @@ When the agent clicks on the incoming Live Chat, the system will show the previe
 
 You can use an `External Service` to integrate your own agent routing rule into Live Chat.
 
-Once you set up the `External Service` as the Live Chat routing method, you must define the `External Queue Service URL` and `Secret Token` settings in the omnichannel admin panel.
+Once you set up the `External Service` as the Live Chat routing method, you must define the `External Queue Service URL` and `Secret Token` settings in the Omnichannel admin panel.
 
 Rocket.Chat will send a GET request to the `External Queue Service URL` and the setting `Secret Token` is sent as a header `X-RocketChat-Secret-Token`, so you can validate if the request came from the Rocket.Chat.
 

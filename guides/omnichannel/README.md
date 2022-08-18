@@ -13,7 +13,7 @@ The Rocket.Chat [Omnichannel](https://en.wikipedia.org/wiki/Omnichannel)capabili
   * [Email](../app-guides/omnichannel-apps/email-inboxes/)
 
 {% hint style="info" %}
-A very practical use case is using omnichannel to **acquire** and **retain** customers in a multi-channel environment in order to save valuable potential sales while building relationships, providing an exceptional experience and the possibility to communicate and engage with multiple communication mediums.
+A very practical use case is using Omnichannel to **acquire** and **retain** customers in a multi-channel environment in order to save valuable potential sales while building relationships, providing an exceptional experience and the possibility to communicate and engage with multiple communication mediums.
 {% endhint %}
 
 ## Omnichannel Activation
@@ -23,14 +23,14 @@ A very practical use case is using omnichannel to **acquire** and **retain** cus
 To enable the Omnichannel feature on your Rocket.Chat instance:
 
 1. Go to **Administration > Settings > Omnichannel**
-2. **Enable** omnichannel and hit **Save changes**
+2. **Enable** Omnichannel and hit **Save changes**
 
 Now the admin will have access to _**Omnichannel Panel Settings**_ through a new menu called `Omnichannel`, as shown below:
 
 ![Omnichannel panel settings](<../../.gitbook/assets/image (587).png>)
 
 {% hint style="info" %}
-[Find out how to configure omnichannel on your Rocket.Chat workspace.](../administration/admin-panel/settings/omnichannel-admins-guide/)
+[Find out how to configure Omnichannel on your Rocket.Chat workspace.](../administration/admin-panel/settings/omnichannel-admins-guide/)
 {% endhint %}
 
 Omnichannel area of Rocket.Chat has three primary users.
@@ -39,7 +39,7 @@ Omnichannel area of Rocket.Chat has three primary users.
 2. [Managers](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel-manger-guides)
 3. [Agents](https://docs.rocket.chat/guides/omnichannel/agents)
 
-Being an [omnichannel manager](managers.md), you can access omnichannel settings by **Avatar Menu  > Omnichannel**
+Being an [Omnichannel manager](managers.md), you can access Omnichannel settings by **Avatar Menu  > Omnichannel**
 
 ![Omnichannel panel](<../../.gitbook/assets/image (58).png>)
 

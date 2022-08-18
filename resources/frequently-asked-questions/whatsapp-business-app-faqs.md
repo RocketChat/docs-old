@@ -234,7 +234,7 @@ You should do that through template messages as explained above.
 
 <summary>After the client replies to an active message, does he go to the agent who sent it?</summary>
 
-It depends on your current omnichannel setup as it can be redirected to a specific department or if it’s public. The message will go to the agent who sent it as long as the agent is active, if not it will be redirected to an active agent. See our documentation. [Link](https://developer.rocket.chat/reference/api/rest-api/endpoints/apps-endpoints/whatsapp-endpoints)
+It depends on your current Omnichannel setup as it can be redirected to a specific department or if it’s public. The message will go to the agent who sent it as long as the agent is active, if not it will be redirected to an active agent. See our documentation. [Link](https://developer.rocket.chat/reference/api/rest-api/endpoints/apps-endpoints/whatsapp-endpoints)
 
 </details>
 

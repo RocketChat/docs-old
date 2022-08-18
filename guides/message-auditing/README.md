@@ -72,7 +72,7 @@ The conversation pop up, as shown below:
 
 ### By Omnichannel
 
-Similary you can also audit an omnichannel conversation.
+Similary you can also audit an Omnichannel conversation.
 
 To search for a specific omichannel conversation:
 

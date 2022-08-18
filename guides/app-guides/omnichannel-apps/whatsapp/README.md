@@ -9,7 +9,7 @@ It is a paid subscription and costs you $39 per month.
 ![](<../../../../.gitbook/assets/image (641) (1) (1) (1) (1) (1).png>)
 
 {% hint style="warning" %}
-**You must have the** [**omnichannel feature**](../../../administration/admin-panel/settings/omnichannel-admins-guide/) **enabled as well as have** [**agents**](https://docs.rocket.chat/guides/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/guides/omnichannel/managers) **assigned in order to receive and send omnichannel messages.**
+**You must have the** [**Omnichannel feature**](../../../administration/admin-panel/settings/omnichannel-admins-guide/) **enabled as well as have** [**agents**](https://docs.rocket.chat/guides/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/guides/omnichannel/managers) **assigned in order to receive and send Omnichannel messages.**
 {% endhint %}
 
 {% content-ref url="whatsapp-installation.md" %}

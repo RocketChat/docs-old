@@ -2,9 +2,9 @@
 
 **Omnichannel** means fulfilling customers’ needs at every touchpoint and providing the same functionality and experience across channels, no matter how a customer chooses to interact. The Voice channel is the most important touch point because it is the human connection people crave. A standalone telephony solution creates data silos with disconnected insights of customer interactions and agent performance across channels.
 
-To fulfill this gap, and avoid fragmented experiences for agents and customers Rocket.Chat offers a voice channel feature set. It is a key part of our omnichannel contact center because we know your customers expect to be able to get through to your live agent on the phone when they need to. It helps you get the most out of your in-house or remote back office teams and deliver the experience that meets your customers' expectations.
+To fulfill this gap, and avoid fragmented experiences for agents and customers Rocket.Chat offers a voice channel feature set. It is a key part of our Omnichannel contact center because we know your customers expect to be able to get through to your live agent on the phone when they need to. It helps you get the most out of your in-house or remote back office teams and deliver the experience that meets your customers' expectations.
 
-In the following articles, we help you onboard and start using **Rocket.Chat's voice channel**, as an extension to our omnichannel feature set, with outstanding customer experience.&#x20;
+In the following articles, we help you onboard and start using **Rocket.Chat's voice channel**, as an extension to our Omnichannel feature set, with outstanding customer experience.&#x20;
 
 ****
 

@@ -1,6 +1,6 @@
 # Omnichannel Agent's Guides
 
-Being an omnichannel agent, you can log in to the server using your Id and password and land on the home screen, as shown below:
+Being an Omnichannel agent, you can log in to the server using your Id and password and land on the home screen, as shown below:
 
 ![](<../../../.gitbook/assets/image (202).png>)
 

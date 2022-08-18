@@ -166,7 +166,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Mentor(s):** Frank Dase, Duda Nogueira
 
-**Description:** Botpress is a popular open source framework for creation and execution of chatbots. This project extends a existing community-contributed Botpress connector to facilitate deployment of Botpress chatbots and omnichannel bots. Focus here will include - better rich UI/UX / interaction support for bots and ability to run multiple instances of multiple bots.\
+**Description:** Botpress is a popular open source framework for creation and execution of chatbots. This project extends a existing community-contributed Botpress connector to facilitate deployment of Botpress chatbots and Omnichannel bots. Focus here will include - better rich UI/UX / interaction support for bots and ability to run multiple instances of multiple bots.\
 **Desired Skills:** Javascript and Typescript development. Keen interest in Bots and Chatbots.
 
 **Goals/Deliverables:** A Rocket.Chat App as a Botpress connector. A couple of example chatbots (running in a channel, and running in omnichannel) plus documentation.
@@ -240,7 +240,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Description:** This project investigates and implements a new and "native" identity verification mechanism for Omnichannel end-users, such as Live Chat visitors who, depending on the use case, have to provide personal data like email addresses, etc. [Rocket.Chat](http://rocket.chat) already has in place a similar confirmation mechanism for user verification, such as 2FA, email, etc. The contributor will have the freedom to propose ideas and design the best solution for the problem described.
 
-**Desired Skills:** Familiarity with JavaScript development. Good understanding of the architecture of Rocket.Chat's omnichannel implementation.
+**Desired Skills:** Familiarity with JavaScript development. Good understanding of the architecture of Rocket.Chat's Omnichannel implementation.
 
 **Project Duration:** 175 hours. (Medium)
 

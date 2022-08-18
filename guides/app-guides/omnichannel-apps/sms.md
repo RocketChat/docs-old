@@ -35,7 +35,7 @@ With the configuration complete, you can go ahead and **Try sending an SMS** to 
 
 ## Twilio SMS and Rocket.Chat Webhook
 
-After configuring your Twilio number for messaging, the next step is to link it to Rocket.Chat through an omnichannel webhook [endpoint](https://developer.rocket.chat/reference/api/rest-api/endpoints/omnichannel/omnichannel-endpoints/sms-incoming-twilio).
+After configuring your Twilio number for messaging, the next step is to link it to Rocket.Chat through an Omnichannel webhook [endpoint](https://developer.rocket.chat/reference/api/rest-api/endpoints/omnichannel/omnichannel-endpoints/sms-incoming-twilio).
 
 * From your [Twilio console](https://console.twilio.com/), navigate to **Phone Numbers** > **Manage** > **Active numbers.** You will see your Twilio provisioned number and the messaging service it is linked to
 * Click on the number to open its configuration page
