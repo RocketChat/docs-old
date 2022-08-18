@@ -40,7 +40,7 @@ Rocket.Chat supports over 59 local languages. Rocket.Chat's community interacts 
 
 ### The problem
 
-Rocket.Chat can be extended through apps. Apps are considerably easier to code than modifying the large Rocket.Chat code base. But we are seriously lacking on documation for Apps developers.
+Rocket.Chat can be extended through apps. Apps are considerably easier to code than modifying the large Rocket.Chat code base. But we are seriously lacking on documentation for Apps developers.
 
 New app builders have a hard time navigating our existing meager documentation. There is a lack of details and current contents are difficult to understand. This makes building an app a very time consuming activity and causes developers to get frustrated or even abandon their projects.
 
