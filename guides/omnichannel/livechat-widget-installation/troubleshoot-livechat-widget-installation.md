@@ -1,6 +1,6 @@
-# Troubleshoot Livechat Widget Installation
+# Troubleshoot Live Chat Widget Installation
 
-If you face problems displaying the Livechat Widget it's useful to open the browser developer console and check the details of the errors you might be facing.
+If you face problems displaying the Live Chat Widget it's useful to open the browser developer console and check the details of the errors you might be facing.
 
 ### Failed to read 'localStorage' properly from Window
 
@@ -12,4 +12,4 @@ An error like this is related to your browser settings for third party cookies. 
 
 ![](<../../../.gitbook/assets/Clipboard -2.png>)
 
-You should review the **Site URL** setting under **Administration** > **Settings** > **General** and possibly also the server name setting on your reverse proxy if you have one to guarantee they are all aligned and corresponding to the same URL being used in your Livechat Widget installed script.&#x20;
+You should review the **Site URL** setting under **Administration** > **Settings** > **General** and possibly also the server name setting on your reverse proxy if you have one to guarantee they are all aligned and corresponding to the same URL being used in your Live Chat Widget installed script.&#x20;

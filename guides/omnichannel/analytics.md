@@ -1,6 +1,6 @@
 # Analytics
 
-This feature allows you to view the chat flow (conversation) and your [Livechat agents'](agents.md) performance (productivity) over a span of time that you choose.
+This feature allows you to view the chat flow (conversation) and your [Live Chat agents'](agents.md) performance (productivity) over a span of time that you choose.
 
 To access the Omnichannel Analytics settings, go to  **Avatar Menu  > Omnichannel > Analytics.** In this section, you can filter analytics based on **** `Type`, `Department`, `Start and End date`**.**
 

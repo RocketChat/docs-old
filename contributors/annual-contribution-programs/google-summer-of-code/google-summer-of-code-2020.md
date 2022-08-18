@@ -43,7 +43,7 @@ We have two community sponsored projects with students dropping out during this 
 
 | Student           | Project                                                               | Mentors                                                              |
 | ----------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| Ashwani Yadav     | Omnichannel: Add screen sharing feature in the Livechat widget        | Guilherme Gazzo, Renato Becker, Tasso Evangelista, Marcos Defendi    |
+| Ashwani Yadav     | Omnichannel: Add screen sharing feature in the Live Chat widget        | Guilherme Gazzo, Renato Becker, Tasso Evangelista, Marcos Defendi    |
 | Ritwiz Sinha      | Apps-CLI: Hot reload apps during development                          | Douglas Gubert, Shiqi Mei, Rodrigo Nascimento                        |
 | Ezequiel Reis     | Full-screen composer option to send/edit long messages on mobile apps | Djorkaeff Alexandre, Ramkumar Kalpathy, Diego Mello, Rowan Youngson  |
 | Govind Dixit      | Create F-Droid build                                                  | Diego Mello, Djorkaeff Alexandre                                     |
@@ -140,10 +140,10 @@ Interested students are also encouraged to interact with our contributor communi
 * **Description**: Enhance Omnichannel Rocket.Chat with an app to support the use of Chatbots, powered by NLP such as Dialogflow, in front of a larger existing infrastructure of Care Live Agents. The focus of this app being the seamless transfer between Bot, Live Agent, and Bot again. If the Chatbot is unable to solve their issue, the app will seamlessly route them to a Live Agent through a third-party queue system such as Salesforce. At the end of the conversation, the customer will be reconnected back to the chatbot for additional support or CSAT survey purposes, all within the same chat client window for the customer.
 * **Desirable Skills**: Familiarity with Rocket.Chat development, Salesforce, and NLP or Chatbot experience
 
-### Omnichannel: Add screen sharing feature in the Livechat widget
+### Omnichannel: Add screen sharing feature in the Live Chat widget
 
 * **Mentors**: @renatobecker, [@marcos.defendi](https://open.rocket.chat/direct/marcos.defendi)
-* **Description**: Add a new interface between Rocket.Chat and the Omnichannel Livechat widget, allowing Agents to get real-time screenshare on customer's devices. For this initial version, we will also create an integration with the Cobrowse.io, which will be the first screen sharing supplier supported.
+* **Description**: Add a new interface between Rocket.Chat and the Omnichannel Live Chat widget, allowing Agents to get real-time screenshare on customer's devices. For this initial version, we will also create an integration with the Cobrowse.io, which will be the first screen sharing supplier supported.
 * **Desirable Skills**: Experience with Javascript and React.JS.
 
 ### Alexa Skill(s) Improvement

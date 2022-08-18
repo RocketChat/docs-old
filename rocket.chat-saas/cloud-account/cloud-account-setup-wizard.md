@@ -46,7 +46,7 @@ On the next screen, you can fill out the necessary information for your organiza
 Connecting your workplace to the cloud gives you access to interact with services like
 
 * Mobile push notifications gateway
-* Livechat omnichannel proxy
+* Live Chat omnichannel proxy
 * OAuth proxy for social network
 * Apps Marketplace
 {% endhint %}

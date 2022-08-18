@@ -4,7 +4,7 @@ description: Enable and configure Omnichannel
 
 # Omnichannel Admin's Guide
 
-Omnichannel adds the ability to receive conversations from a pop-up livechat support on your website or your business Facebook chat or any other media directly in Rocket.chat.
+Omnichannel adds the ability to receive conversations from a pop-up Live Chat support on your website or your business Facebook chat or any other media directly in Rocket.chat.
 
 Enabling and using Rocket.Chat Omnichannel gives seamless, effortless and high-quality customer experiences all within a defined channel on your Rocket.Chat workspace.
 
@@ -30,7 +30,7 @@ Now the admin will have access to _**Omnichannel Panel Settings**_ through a new
 2. Enable/Disable request comment from the agent when closing a conversation
 3. Enable/Disable acceptance of new omnichannel requests when the agent is idle
 4. Enable/Disable continuous sound notification for new omnichannel room/conversation
-5. Enable/Disable file uploads in the livechat widget
+5. Enable/Disable file uploads in the Live Chat widget
 6. Enable/Disable asking the visitor if they would like a transcript of the conversation.
 7. Enter the message to show when asking for a transcript.
 
@@ -81,7 +81,7 @@ If you are a GDPR compliant company and want to allow your visitors to request t
 
 ![](<../../../../../.gitbook/assets/image (61) (1).png>)
 
-### Livechat
+### Live Chat
 
 1. Set the title of your widget
 2. Set the color of the title bar of your widget
@@ -94,7 +94,7 @@ as shown below:
 
 ![](<../../../../../.gitbook/assets/image (51).png>)
 
-Now customize the appears of your livechat widget here for the hours when none of your agents are online/working.
+Now customize the appears of your Live Chat widget here for the hours when none of your agents are online/working.
 
 1. Set **Offline Form Unavailable Message**, if any
 2. Set **Offline Tittle**
@@ -115,13 +115,13 @@ Some more settings that you can customize according to your needs are shown belo
 
 This is a CRM integration with RD Station.
 
-We set up your token, and when a new livechat conversation starts, your visitor information is sent to the RD station.
+We set up your token, and when a new Live Chat conversation starts, your visitor information is sent to the RD station.
 
 ![](<../../../../../.gitbook/assets/image (56).png>)
 
 ### Routing
 
-Routing allows you to define the behavior of your livechat queues.
+Routing allows you to define the behavior of your Live Chat queues.
 
 Detail of every setting is listed below:
 
@@ -129,7 +129,7 @@ Detail of every setting is listed below:
 2. Enable acceptance of incoming omnichannel requests even if there are no online agents if you want
 3. Enable if you want the routing system to attempt to find a bot agent before addressing new conversations to a human agent
 4. Set the limit of **Max number of items displayed in the queue** if you want
-5. Enable if you want to show the livechat queue to all the agents
+5. Enable if you want to show the Live Chat queue to all the agents
 6. Mention your External Queue Service URL if your _Omnichannel Routing Method_ is **External** **Service**
 7. Enter **Secret Token**
 8. Enable the **Waiting queue** if you want

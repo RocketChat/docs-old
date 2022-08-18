@@ -1,10 +1,6 @@
----
-description: >-
-  Rocket.Chat provides audio and video calling features in Livechat using
-  multiple video services providers like Jitsi and WebRTC.
----
-
-# Livechat Video/Audio Call Agent's Guide
+# Live Chat Video/Audio Call Agent's Guide
+ Rocket.Chat provides audio and video calling features in Live Chat using
+ multiple video services providers like Jitsi and WebRTC.
 
 {% hint style="info" %}
 To enable Rocket.Chat video call feature, please contact your administrator or follow the [instructions](https://docs.rocket.chat/guides/administration/settings/video-conference-admin-guide/omnichannel-video-audio-call-admins-guide).
@@ -22,7 +18,7 @@ Click on the call button to initiate a call with the visitor.
 
 ### Visitor's View
 
-Your livechat visitor should get a notification on their side to **Accept** or **Decline** a call.
+The Live Chat visitor should get a notification on their side to **Accept** or **Decline** a call.
 
 ![](../../../.gitbook/assets/purpledevil10.png)
 

@@ -15,8 +15,6 @@ You can set a contact manager for a visitor/contact using the contact center whi
 
 You can set a contact manager for a visitor/contact using [Register contact endpoint.](https://developer.rocket.chat/reference/api/rest-api/endpoints/omnichannel/livechat-endpoints/livechat-contact/register-omnichannel-contact)
 
-
-
 ## To activate this feature:
 
 Just turn on this setting under **`Admin -> Omnichannel -> Routing`**

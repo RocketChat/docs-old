@@ -18,7 +18,7 @@ To access this section, navigate to **Avatar Menu  > Omnichannel > Facebook Mess
 
 ![](<../../.gitbook/assets/image (41).png>)
 
-Return to the main interface. Now any livechat agents you have will see any incoming chats from that page. Responses go back to Facebook as if you were using Messenger itself.
+Return to the main interface. Now any Live Chat agents you have will see any incoming chats from that page. Responses go back to Facebook as if you were using Messenger itself.
 
 Please refer to the following documentation for further details on Rocket.Chat and Facebook.
 

@@ -19,7 +19,7 @@ A list of chats is seen with various filters available.
 * **Sort by department**: To sort the conversations per [**Department**](departments.md), enter the department name in the **Department field**, and your conversations are sorted by department.
 * Sort by status: To sort the conversations per Open/Closed Status, choose the desired status from the **Status dropdown field**, and your conversations are sorted. A conversation can be `Open`, `On Hold` or `Closed`
 * **Sort by From and To date**: To sort the conversations per **From** and **To** date, enter the **From** and **To** Date in the field, and your conversations are sorted
-* **Sort by tags or custom fields**: You can also sort the conversations by [**Tags**](tags-managers-guide.md) or any [**Custom Fields**](custom-fields.md) that you have added to your Livechat widget user login. Enter the tag/custom field, and your conversations are sorted.
+* **Sort by tags or custom fields**: You can also sort the conversations by [**Tags**](tags-managers-guide.md) or any [**Custom Fields**](custom-fields.md) that you have added to your Live Chat widget user login. Enter the tag/custom field, and your conversations are sorted.
 * **Sort by Custom Fields**: This lets you sort chats by any [custom field](custom-fields.md) created
 
 ## Clear filters

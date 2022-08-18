@@ -3,7 +3,7 @@
 Rocket.Chat Connectivity Services gives you access to connect your self-hosted workplace to Rocket.Chat cloud. Connecting your workplace to the cloud gives you access to interact with services like
 
 * Mobile push notifications gateway
-* Livechat omnichannel proxy
+* Live Chat omnichannel proxy
 * OAuth proxy for social network
 * Apps Marketplace
 
