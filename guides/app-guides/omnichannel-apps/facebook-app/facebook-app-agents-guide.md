@@ -4,7 +4,7 @@ If you have Facebook app integration in place and a user sends you a message on 
 
 ![](<../../../../.gitbook/assets/image (549).png>)
 
-it appears in your Rocket.Chat workspace, just like any other omnichannel conversation.
+it appears in your Rocket.Chat workspace, just like any other Omnichannel conversation.
 
 ![](<../../../../.gitbook/assets/image (551).png>)
 

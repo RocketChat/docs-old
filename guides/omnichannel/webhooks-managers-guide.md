@@ -6,7 +6,7 @@ To access **Webhooks** settings, go to **Avatar Menu  > Omnichannel > Webhooks**
 
 ## Create Omnichannel Webhook
 
-To create a new omnichannel webhook, you need to provide the following details
+To create a new Omnichannel webhook, you need to provide the following details
 
 * **Webhook URL**: The Webhook URL from the system you want to connect
 * **Secret Token**: Enter the secret token

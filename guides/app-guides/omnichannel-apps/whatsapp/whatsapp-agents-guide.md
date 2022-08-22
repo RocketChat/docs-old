@@ -4,7 +4,7 @@ If you have WhatsApp integration in place and a user sends you a message using t
 
 ![](<../../../../.gitbook/assets/image (447).png>)
 
-it appears in your Rocket.Chat workspace just like any other omnichannel conversation, as shown below:
+it appears in your Rocket.Chat workspace just like any other Omnichannel conversation, as shown below:
 
 ![](<../../../../.gitbook/assets/image (452).png>)
 

@@ -1,6 +1,6 @@
 # Email Inbox Admin Guide
 
-As an omnichannel administrator, you can configure and manage omnichannel email inboxes or email accounts for the email channels.
+As an Omnichannel administrator, you can configure and manage Omnichannel email inboxes or email accounts for the email channels.
 
 To set up a new email inbox:
 

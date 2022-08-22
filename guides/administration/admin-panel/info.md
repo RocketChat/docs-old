@@ -84,7 +84,7 @@ Clear the old license code and paste the new license code then hit the **Apply l
   * **Total Private Groups**: Total number of private groups on the server
   * **Total Direct Message Rooms**: Total number of Direct Messages created on the server.
   * **Total Discussions**: Total number of discussions
-  * **Total Omnichannel Rooms**: Total number of omnichannel rooms.
+  * **Total Omnichannel Rooms**: Total number of Omnichannel rooms.
 * **Messages**
   * **Total Messages**: Total messages sent and received on the server.
   * **Total Threads**: The total number of threads on the server.

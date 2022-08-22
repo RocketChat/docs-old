@@ -4,7 +4,7 @@ If you have Salesforce CRM integration in place and a user sends you a message,
 
 ![](<../../../../.gitbook/assets/image (474).png>)
 
-It appears in your Rocket.Chat workspace just like any other omnichannel conversation, as shown below:
+It appears in your Rocket.Chat workspace just like any other Omnichannel conversation, as shown below:
 
 ![](<../../../../.gitbook/assets/image (475).png>)
 

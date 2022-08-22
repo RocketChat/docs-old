@@ -44,7 +44,7 @@ If you want to forward a chat to a particular agent (from any department) to ser
 
 ## Transcript
 
-The chat transcript will be sent to the omnichannel visitor as soon as the conversation ends, as shown below:
+The chat transcript will be sent to the Omnichannel visitor as soon as the conversation ends, as shown below:
 
 ![](<../../../../.gitbook/assets/image (313).png>)
 
@@ -60,7 +60,7 @@ When you are assisting chats, Omnichannel contacts can drop the conversation, bu
 
 ![](<../../../../.gitbook/assets/image (330).png>)
 
-If the omnichannel contact engages again, the routing algorithm will try to find you first to assign this conversation. In case you are busy serving other chats at maximum capacity, the chat will be assigned to the next available agent.&#x20;
+If the Omnichannel contact engages again, the routing algorithm will try to find you first to assign this conversation. In case you are busy serving other chats at maximum capacity, the chat will be assigned to the next available agent.&#x20;
 
 Or click **Resume** and engage with the same contact again at any time, as shown below:
 

@@ -2,7 +2,7 @@
 
 ### To send messages
 
-If you have WhatsApp Sandbox integration in place and a user sends you a message using their 360dialog Sandbox account, it appears in your Rocket.Chat workspace just like any other omnichannel conversation, as shown below:
+If you have WhatsApp Sandbox integration in place and a user sends you a message using their 360dialog Sandbox account, it appears in your Rocket.Chat workspace just like any other Omnichannel conversation, as shown below:
 
 Click **Take It!** to serve this conversation.&#x20;
 

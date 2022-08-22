@@ -6,9 +6,9 @@ description: >-
 
 # Email Inbox Agent Guide
 
-Once an email is part of a channel, your contacts can send emails to it to start a conversation. It will appear inside Rocket.Chat just like any other omnichannel Live Chat conversation. When you reply to an email message that has been sent to you, it will appear just like any other email in your contact’s inbox.
+Once an email is part of a channel, your contacts can send emails to it to start a conversation. It will appear inside Rocket.Chat just like any other Omnichannel Live Chat conversation. When you reply to an email message that has been sent to you, it will appear just like any other email in your contact’s inbox.
 
-As soon as your contact sends an email to the registered email address, it will appear in the queue just like any other omnichannel conversation, as shown below:
+As soon as your contact sends an email to the registered email address, it will appear in the queue just like any other Omnichannel conversation, as shown below:
 
 ![](<../../../../.gitbook/assets/image (217).png>)
 
@@ -47,7 +47,7 @@ They are invited to the channel, as shown below:
 ![](<../../../../.gitbook/assets/image (237).png>)
 
 {% hint style="info" %}
-As soon as the fellow omnichannel agent is invited to an email inbox, they are all able to see all the old conversation that has happened before they arrival to that email inbox.
+As soon as the fellow Omnichannel agent is invited to an email inbox, they are all able to see all the old conversation that has happened before they arrival to that email inbox.
 {% endhint %}
 
 And you can conversate with them internally on the same channel.
@@ -72,6 +72,6 @@ To send an attachment:
 
 ![](<../../../../.gitbook/assets/image (243).png>)
 
-**It appears in the email of your omnichannel contact, as shown below:**
+**It appears in the email of your Omnichannel contact, as shown below:**
 
 ![](<../../../../.gitbook/assets/image (244).png>)

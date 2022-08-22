@@ -1,6 +1,6 @@
 ---
 description: >-
-  The contact center serves as a directory for omnichannel agents and mangers to
+  The contact center serves as a directory for Omnichannel agents and mangers to
   access contacts/visitor's information and archived conversation (that they
   have served in the past) at any moment.
 ---
@@ -21,7 +21,7 @@ Once you click on the **Contact Center** button following screen appears:
 
 ## Contacts
 
-Under the **Contacts** tab, you can see all the contacts you have been serving as an omnichannel agent.
+Under the **Contacts** tab, you can see all the contacts you have been serving as an Omnichannel agent.
 
 ### Search a contact
 
@@ -58,7 +58,7 @@ Click **Edit** to edit contact details. You can edit any details you want here.&
 
 ## Calls
 
-You can see all the calls you have been serving as an omnichannel agent under **Calls** tab.
+You can see all the calls you have been serving as an Omnichannel agent under **Calls** tab.
 
 {% hint style="info" %}
 Please note that if you are a call center administrator, you can view all the calls that your agents have served.

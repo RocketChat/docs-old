@@ -28,7 +28,7 @@ To create a new Omnichannel department:&#x20;
 
 ![Live Chat widget select department](<../../.gitbook/assets/Live Chat widget select department>)
 
-5\. **Email**: Forward your omnichannel conversations to the email address of your choice, during the hours you are offline.
+5\. **Email**: Forward your Omnichannel conversations to the email address of your choice, during the hours you are offline.
 
 6\. **Show on offline page**: A radio button if you want your department to show offline during off business hours. If you enable it will appear in the widget, as shown below:
 

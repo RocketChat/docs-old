@@ -10,7 +10,7 @@ To enable Rocket.Chat video call feature, please contact your administrator or f
 The following flow is for web users but both (Web and Mobile) user journeys are supported.
 {% endhint %}
 
-**To initiate a call within an omnichannel conversation:**
+**To initiate a call within an Omnichannel conversation:**
 
 Click on the call button to initiate a call with the visitor.
 
