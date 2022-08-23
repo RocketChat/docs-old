@@ -130,7 +130,7 @@ We also have a guide on [talking-to-users-from-another-server.md](../../user-gui
 
 To download info about your server, click the **Download Info** button by the top right of your info panel.
 
-![](<../../../.gitbook/assets/2021-11-20\_23-38-23 (1).png>)
+![](../../../.gitbook/assets/2021-11-20\_23-38-23.png)
 
 A download is prompted with a file named `statistics.json`.
 
@@ -140,4 +140,4 @@ Refreshing info on your RocketChat server will prompt for the latest stats to be
 
 To refresh info, click the **Refresh** button by the top right of your info panel.
 
-![](../../../.gitbook/assets/2021-11-20\_23-42-35.png)
+![](<../../../.gitbook/assets/2021-11-20\_23-42-35 (1).png>)

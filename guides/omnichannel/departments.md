@@ -10,23 +10,23 @@ A typical use case is when you have Live Chat conversations being initiated from
 See this section on how to [assign an agent to a department](agents.md#assign-omnichannel-agent-to-a-department).
 {% endhint %}
 
-To access this menu, go to **Avatar Menu  > Omnichannel > Departments**. Here, you can **View**, **Create New**,  **Edit** or **Delete** a department.
+To access this menu, go to **Avatar Menu > Omnichannel > Departments**. Here, you can **View**, **Create New**, **Edit** or **Delete** a department.
 
 ## **Create Omnichannel Department**
 
-To create a new Omnichannel department:&#x20;
+To create a new Omnichannel department:
 
 * Click +**New** on the top right of the screen
 * A page for the department details is seen, fill these details and **Save**
 
-![](../../.gitbook/assets/2022-01-01\_15-46-46.png)
+![](<../../.gitbook/assets/2022-01-01\_15-46-46 (4).png>)
 
 1. **Enabled**: Enables your new department.
 2. **Name:** Name of the new department.
 3. **Description**. An optional field that lets you set the department description
-4. **Show on registration page:** Allow your visitor to have the option to choose the department they want to talk to. The option will appear to your customer in the Live Chat widget, as shown below:&#x20;
+4. **Show on registration page:** Allow your visitor to have the option to choose the department they want to talk to. The option will appear to your customer in the Live Chat widget, as shown below:
 
-![Live Chat widget select department](<../../.gitbook/assets/Live Chat widget select department>)
+![Live Chat widget select department](../../.gitbook/assets/Live%20Chat%20widget%20select%20department)
 
 5\. **Email**: Forward your Omnichannel conversations to the email address of your choice, during the hours you are offline.
 
@@ -58,7 +58,7 @@ To create a new Omnichannel department:&#x20;
 
 Successfully added agents would be listed, as shown below:
 
-![](<../../.gitbook/assets/2022-01-01\_16-32-28 (1).png>)
+![](../../.gitbook/assets/2022-01-01\_16-32-28.png)
 
 18\. Hit **Save** and your newly created department is displayed in the list of departments
 
@@ -72,7 +72,7 @@ You can have the following behavior depending on how many departments you have c
 
 ## Edit Omnichannel Department
 
-To edit an Omnichannel department:&#x20;
+To edit an Omnichannel department:
 
 * Click on the said department from the panel
 * A panel is opened with all the current details of that department that can be modified

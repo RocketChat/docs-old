@@ -17,6 +17,6 @@ Following are the settings available:
 7. **Salesforce Session Timeout(in Minutes)**: This should be the same as Session Timeout setting on your Salesforce Setting ( Setup --> Session Settings --> Session Timeout --> Timeout Value )
 8. Hit **Save.**
 
-![Salesforce CRM App Settings](<../../../../../.gitbook/assets/SalesforceCRMAppSettings .png>)
+![Salesforce CRM App Settings](<../../../../../.gitbook/assets/RasaAppSettings .png>)
 
 Salesforce CRM app is successfully configured.

@@ -17,7 +17,7 @@ Open [http://localhost:3000/setup-wizard/1](http://localhost:3000/setup-wizard/1
 
 You can fill in this information as it is required to create the first user who will automatically be the administrator of your Rocket.Chat workspace.
 
-![Admin Information](../../.gitbook/assets/admininfo.png)
+![Admin Information](<../../.gitbook/assets/admininfo (1).png>)
 
 1. Enter the admin's **Full name**.
 2. Enter the admin's **Username**.

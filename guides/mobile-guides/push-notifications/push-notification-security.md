@@ -1,6 +1,6 @@
 # Secured Push Notification
 
-![](../../../.gitbook/assets/EnterpriseEditionTag.jpg)
+![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (10) (10) (19).jpg>)
 
 Instead of sending the message content through a push gateway: Apple and Google, if you are running [Enterprise edition ](../../enterprise-edition-trial/)the Secured Push Notification sends just the ID of the message.
 
