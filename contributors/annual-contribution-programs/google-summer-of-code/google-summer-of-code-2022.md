@@ -61,7 +61,7 @@ We are also planning a virtual conference at the end of the GSoC term - named GS
 | GitHub App                                                         | [https://github.com/RocketChat/Apps.Github22](https://github.com/RocketChat/Apps.Github22)                                                               |
 | Botpress Connector Enhancements                                    | [https://github.com/RocketChat/rocketchat-botpress-lab-bot](https://github.com/RocketChat/rocketchat-botpress-lab-bot)                                   |
 | Rocket.Chat ReactJS fullstack Component                            | [https://github.com/RocketChat/EmbeddedChat](https://github.com/RocketChat/EmbeddedChat)                                                                 |
-| Rocket Chat TUI                                                    | [https://github.com/RocketChat/rocketchat-tui](https://github.com/RocketChat/rocketchat-tui)                                                             |
+| Rocket.Chat TUI                                                    | [https://github.com/RocketChat/rocketchat-tui](https://github.com/RocketChat/rocketchat-tui)                                                             |
 | Playground for UIKit ReactJS components                            |                                                                                                                                                          |
 | Rocket.Chat - Teams Bridge: interop with Microsoft Teams           | [https://github.com/RocketChat/Apps.teams.bridge](https://github.com/RocketChat/Apps.teams.bridge)                                                       |
 
@@ -85,7 +85,7 @@ We are also planning a virtual conference at the end of the GSoC term - named GS
 | Samad Khan         | GitHub App                                                         | Rohan Lekhwani, Sing Li                       |
 | sangyul.cha        | Botpress Connector Enhancements                                    | Duda Nogueira, Frank Dase                     |
 | Sidharth Mohanty   | Rocket.Chat ReactJS fullstack Component                            | Rohan Lekhwani                                |
-| srrathi            | Rocket Chat TUI                                                    | Aaron Ogle, Debdut Chakraborty                |
+| srrathi            | Rocket.Chat TUI                                                    | Aaron Ogle, Debdut Chakraborty                |
 | Vivek Srivastava   | Playground for UIKit ReactJS components                            | Martin Schoeler, Guilherme Gazzo              |
 | Yuqing             | Rocket.Chat - Teams Bridge: interop with Microsoft Teams           | Gabriel Engel, Yash Rajpal, Fábio Albuquerque |
 

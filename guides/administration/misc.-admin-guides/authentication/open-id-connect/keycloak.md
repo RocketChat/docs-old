@@ -14,7 +14,7 @@ The following image shows the minimal configurations needed to setup Keycloak as
 
 ![](../../../../../.gitbook/assets/client\_configurations.png)
 
-(In the example above we are using http://locahost:3000/\* as the Redirect URI change it to the IP and PORT of your rocketchat instance.)
+(In the example above we are using http://locahost:3000/\* as the Redirect URI change it to the IP and PORT of your Rocket.Chat instance.)
 
 After saving the changes a new credentials tab will be created for the client. This credentials tab will provide the client secrets which will be used when configuring the Rocket.Chat.
 

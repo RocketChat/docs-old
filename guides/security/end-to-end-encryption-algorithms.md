@@ -127,7 +127,7 @@ For saving an encrypted session key to the database for a user.
 
 **Response:**
 
-`{ RocketChat subscription object }`
+`{ Rocket.Chat subscription object }`
 
 ### 5. emptyKeychain\(\)
 

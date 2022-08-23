@@ -344,9 +344,9 @@ sudo nano /etc/init/rocketchat_app.conf
 ```
 
 ```bash
-description "Rocketchat service manager"
+description "Rocket.Chat service manager"
 
-# Start Rocketchat only after mongo job is running
+# Start Rocket.Chat only after mongo job is running
 start on (started rocketchat_mongo)
 stop on runlevel [!2345]
 

@@ -20,7 +20,7 @@ as shown below:
 
 The deployment info card shows information related to your server deployment.
 
-* **Version**: The current version of your RocketChat server. This can be different from the latest version if not updated.
+* **Version**: The current version of your Rocket.Chat server. This can be different from the latest version if not updated.
 * **Deployment ID**: Your server's deployment ID.
 * **Apps Engine Version**: The version of Apps engine. Can be different from the latest if not updated.
 * **Node Version**: The Node.js version your server is running on.
@@ -44,7 +44,7 @@ Click on the **Apply Offline License** at the bottom right of the card.
 
 ![](<../../../.gitbook/assets/image (663) (1) (1) (1) (1) (1) (1).png>)
 
-A modal is presented prompting you to paste the license you got from the[ RocketChat Cloud Console](https://cloud.rocket.chat/home).
+A modal is presented prompting you to paste the license you got from the[ Rocket.Chat Cloud Console](https://cloud.rocket.chat/home).
 
 Paste the license code and hit the **Apply license** button.
 
@@ -58,7 +58,7 @@ Click on the **Change Offline License** at the bottom right of the card.
 
 ![](<../../../.gitbook/assets/image (654) (1) (2).png>)
 
-A modal is presented prompting you to paste the new license you got from the[ RocketChat Cloud Console](https://cloud.rocket.chat/home).
+A modal is presented prompting you to paste the new license you got from the[ Rocket.Chat Cloud Console](https://cloud.rocket.chat/home).
 
 Clear the old license code and paste the new license code then hit the **Apply license** button.
 
@@ -74,7 +74,7 @@ Clear the old license code and paste the new license code then hit the **Apply l
   * **Activated Users**: The number of activated users on your server.
   * **Activated Guests**: The number of guests that have been activated.
   * **Deactivated Users**: Number of inactive users.
-  * **Rocket.Chat App Users**: The number of RocketChat users. Example `bot users`, `app users`.
+  * **Rocket.Chat App Users**: The number of Rocket.Chat users. Example `bot users`, `app users`.
 * **Uploads**
   * **Total Uploads**: The number of total uploads that have been made on the server.
   * **Total Uploads Size**: The total size of all uploads.
@@ -97,7 +97,7 @@ More details on usage info can be seen on the [engagement-dashboard.md](engageme
 
 ## Federation Info
 
-[RocketChat's Federation](settings/federation.md#introduction) lets you set up communication between RocketChat servers.
+[Rocket.Chat's Federation](settings/federation.md#introduction) lets you set up communication between Rocket.Chat servers.
 
 **Enabled**: Enables federation on your server.
 
@@ -136,7 +136,7 @@ A download is prompted with a file named `statistics.json`.
 
 ## Refresh Info
 
-Refreshing info on your RocketChat server will prompt for the latest stats to be pulled.
+Refreshing info on your Rocket.Chat server will prompt for the latest stats to be pulled.
 
 To refresh info, click the **Refresh** button by the top right of your info panel.
 

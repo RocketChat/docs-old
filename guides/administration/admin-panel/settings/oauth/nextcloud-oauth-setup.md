@@ -18,7 +18,7 @@ Follow these steps to set up Nextcloud OAuth on your server.
 
 ![](<../../../../../.gitbook/assets/image (637) (1) (1).png>)
 
-* Copy these credentials and fill them in the Nextcloud section of the OAuth configuration on your RocketChat server then hit **Save changes**
+* Copy these credentials and fill them in the Nextcloud section of the OAuth configuration on your Rocket.Chat server then hit **Save changes**
 
 ![](<../../../../../.gitbook/assets/image (673) (1) (1) (1).png>)
 

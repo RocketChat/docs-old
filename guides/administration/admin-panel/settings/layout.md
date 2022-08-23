@@ -4,7 +4,7 @@ description: Customize the look of your workspace
 
 # Layout
 
-The layout feature gives you the possibility to customize the look of your RocketChat server.
+The layout feature gives you the possibility to customize the look of your Rocket.Chat server.
 
 This involves aspects like colors, content, CSS and Javascript. Using this feature gives you the ability to fully give your Rocket.Chat server a unique and different look.
 
@@ -19,7 +19,7 @@ Remember to always **Save changes** and refresh to apply any customization made.
 This section has color settings and definitions you can edit or customize to have a different look on your UI elements.
 
 {% hint style="info" %}
-A list of RocketChat's pre-defined color variables can be found on \*\*\*\* [**the repository**.](https://github.com/RocketChat/Rocket.Chat/blob/b092bef8139f9db692872073ce9788c19b364780/app/theme/client/imports/general/variables.css)
+A list of Rocket.Chat's pre-defined color variables can be found on \*\*\*\* [**the repository**.](https://github.com/RocketChat/Rocket.Chat/blob/b092bef8139f9db692872073ce9788c19b364780/app/theme/client/imports/general/variables.css)
 {% endhint %}
 
 Colors can be set using existing **Expressions** or **Color** by specifying it from the color picker provided.
@@ -92,7 +92,7 @@ if(window.location.pathname == '/home'){
 
 Here, you set the fonts to be used on your server.
 
-* **Body Font Family**: Takes in a list of comma-separated font families. RocketChat will start using the most available from left to right.
+* **Body Font Family**: Takes in a list of comma-separated font families. Rocket.Chat will start using the most available from left to right.
 
 ## Old Colors
 
