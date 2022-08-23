@@ -12,7 +12,7 @@ There are three different roles within a Publisher.
 
 as shown below:
 
-![](<../../.gitbook/assets/image (446) (2) (1).png>)
+![](<../../.gitbook/assets/image (446) (2).png>)
 
 The Owner role is applied whenever someone creates a publisher. Each of the subsequent roles only applies to people they have invited.
 

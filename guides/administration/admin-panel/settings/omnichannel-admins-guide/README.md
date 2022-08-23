@@ -34,7 +34,7 @@ Now the admin will have access to _**Omnichannel Panel Settings**_ through a new
 6. Enable/Disable asking the visitor if they would like a transcript of the conversation.
 7. Enter the message to show when asking for a transcript.
 
-![](<../../../../../.gitbook/assets/image (46) (1).png>)
+![](<../../../../../.gitbook/assets/image (46).png>)
 
 ### Business Hour
 
@@ -79,7 +79,7 @@ Send an email to [omni@rocket.chat](mailto:omni@rocket.chat) to request an API k
 
 If you are a GDPR compliant company and want to allow your visitors to request to remove their data, Rocket.chat allows you to do that for all your incoming chats, as shown below:
 
-![](<../../../../../.gitbook/assets/image (61).png>)
+![](<../../../../../.gitbook/assets/image (61) (1).png>)
 
 ### Live Chat
 

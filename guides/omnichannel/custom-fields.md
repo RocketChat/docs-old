@@ -2,7 +2,7 @@
 
 Custom fields can be added to receive additional information from visitors during registration before initiating a Live Chat conversation.
 
-To access this menu, go to **Avatar Menu  > Omnichannel > Custom Fields**. Here, you can **View**, **Create New**,  **Edit** or **Delete** an existing field.
+To access this menu, go to **Avatar Menu > Omnichannel > Custom Fields**. Here, you can **View**, **Create New**, **Edit** or **Delete** an existing field.
 
 {% hint style="info" %}
 The Live Chat registration form has the **Name**, **Email**, and **I need Help With…**(Department) fields by default.
@@ -15,7 +15,7 @@ To create a new custom field:
 * Click on **+New** from the custom field panel
 * A page is seen with properties to be set, fill in the values and **Save**
 
-![](../../.gitbook/assets/2022-01-23\_18-47-17.png)
+![](<../../.gitbook/assets/2022-01-23\_18-47-17 (1).png>)
 
 * **Field**: Enter the desired field that you want to add to your Live Chat registration form. E.g., last name.
 * **Label:** Label of the field
@@ -39,7 +39,7 @@ When a custom field is created and made public, any value supplied in that field
 
 ## Edit Omnichannel Custom Field
 
-To edit an Omnichannel Custom Field:&#x20;
+To edit an Omnichannel Custom Field:
 
 * Click on the said field from the panel
 * A section is opened with all the current details of that field which can be modified and saved.

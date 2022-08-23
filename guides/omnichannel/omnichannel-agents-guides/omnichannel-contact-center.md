@@ -1,51 +1,46 @@
----
-description: >-
-  The contact center serves as a directory for Omnichannel agents and mangers to
-  access contacts/visitor's information and archived conversation (that they
-  have served in the past) at any moment.
----
-
 # Omnichannel Contact Center
 
-Click **Contact Center** to access Omnichannel Contact Center settings, as shown below:
+The Omnichannel Contact Center serves as a directory for Omnichannel Agents and Managers to access contacts and visitor's information, chats and call history.
 
-![](<../../../.gitbook/assets/image (205).png>)
+To access the Contact Center, click the **Contact Center Icon** on the Omnichannel navigation tab and a screen displaying all the records is seen.
+
+![Omnichannel contact center](<../../../.gitbook/assets/Omnichannel contact center>)
 
 {% hint style="info" %}
-It allows you to pull up visitor information and chats for purposes like set tags of an old conversation, send broadcast messages, etc.
+It allows you to pull up visitor information and chats for purposes like set tags of an old conversation, sending broadcast messages, etc.
 {% endhint %}
 
-Once you click on the **Contact Center** button following screen appears:
 
-![](<../../../.gitbook/assets/image (670) (1) (1).png>)
 
-## Contacts
+## Omnichannel Contacts
 
 Under the **Contacts** tab, you can see all the contacts you have been serving as an Omnichannel agent.
 
-### Search a contact
+### Search Omnichannel contact
 
-You can search a contact using their Name, phone, and email address.
+You can search for a contact using their name, phone or email address.
 
-### View contact information
+### View/Edit Omnichannel contact information
 
-Click on a contact to view its information and edit it, as shown below
+To view information about a contact, click on it and a panel opens by the right with more details where you can edit to update.
 
-### Create a new contact
+### Create a new Omnichannel contact
 
 To create a new contact:
 
 1. Click **New Contact.**
-2. &#x20;Enter all the information and hit **Save**.&#x20;
+2. Enter all the information and hit **Save**.
 
-It now appears in the search.
+{% hint style="success" %}
+As a Rocket.Chat enterprise user, you can [assign an Omnichannel contact to a certain manager](omnichannel-contact-center/omnichannel-contact-manager.md).&#x20;
+{% endhint %}
 
-## Chats
+## Omnichannel Chats
 
 All the chats you have taken appear under **Chats** tab.
 
 {% hint style="info" %}
-No open chat appears in the **Contact Center**. A chat appears in the **Contact** **Center** as soon as it is closed because **Contact Center** only deals with archived chats.  &#x20;
+No open chat appears in the **Contact Center**. A chat appears in the **Contact** **Center** as soon as it is closed because **Contact Center** only deals with archived chats.
 {% endhint %}
 
 You can click to open a chat to view it.
@@ -54,24 +49,24 @@ Go to the **Room Information** and click **View full conversation** to open the 
 
 ![](<../../../.gitbook/assets/image (336).png>)
 
-Click **Edit** to edit contact details. You can edit any details you want here.&#x20;
+Click **Edit** to edit the contact details.
 
-## Calls
+## Omnichannel Calls
 
-You can see all the calls you have been serving as an Omnichannel agent under **Calls** tab.
+You can see all the calls you have been serving as an omnichannel agent under **Calls** tab.
+
+You can see all the calls you have been serving as an omnichannel agent under **Calls** tab.
 
 {% hint style="info" %}
 Please note that if you are a call center administrator, you can view all the calls that your agents have served.
 {% endhint %}
 
-### Search a call
+### Search Omnichannel call
 
-You can search a call using their Name or keyword.
+You can search a call using their Name or phone.
 
-![](<../../../.gitbook/assets/image (655) (1) (1).png>)
-
-### View call information
+### View Omnichannel call information
 
 Click on a call to view its information, as shown below:
 
-![](<../../../.gitbook/assets/image (654) (1) (1) (1) (1).png>)
+![Omnichannel call details](<../../../.gitbook/assets/Omnichannel call details>)

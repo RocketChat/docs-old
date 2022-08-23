@@ -1,9 +1,5 @@
 # Omnichannel Chat
 
-When you are logged in to the server as an agent, have set your status to **Available** and a new chat appears for your department, you can click open it as shown below:
+When you are logged in to the server as an agent and your status to **Available.** ,Any new chat initiated to the department you belong in appears on your screen. When **clicked on**, you have the option to leave the chat in qeue or **Take** it and start serving.
 
-![](<../../../../.gitbook/assets/image (303).png>)
-
-![](<../../../../.gitbook/assets/image (304).png>)
-
-You can click **Take it!** to start serving this chat.
+![Omnichannel take new conversation](<../../../../.gitbook/assets/Omnichannel take new conversation>)

@@ -1,16 +1,24 @@
-# Live Chat Video/Audio Call Agent's Guide
- Rocket.Chat provides audio and video calling features in Live Chat using
- multiple video services providers like Jitsi and WebRTC.
+# Livechat Video/Audio Call Agent's Guide
+
+Rocket.Chat provides audio and video calling features in Livechat using multiple video service providers like [Jitsi](../../rocket.chat-conference-call/omnichannel-video-audio-call-admins-guide.md#jitsi) and [WebRTC](../../rocket.chat-conference-call/omnichannel-video-audio-call-admins-guide.md#webrtc).
+
+{% hint style="info" %}
+To be able to use the Omnichannel call feature, the calling service provider must be configured and enabled first. Contact your workspace administrator or follow [this guide](../../rocket.chat-conference-call/omnichannel-video-audio-call-admins-guide.md).
+{% endhint %}
 
 {% hint style="info" %}
 To enable Rocket.Chat video call feature, please contact your administrator or follow the [instructions](https://docs.rocket.chat/guides/administration/settings/video-conference-admin-guide/omnichannel-video-audio-call-admins-guide).
 {% endhint %}
 
+**To initiate a call within an omnichannel conversation:**
+
 {% hint style="success" %}
-The following flow is for web users but both (Web and Mobile) user journeys are supported.
+The following flow is sampled for web users but both (Web and Mobile) user journeys are supported.
 {% endhint %}
 
-**To initiate a call within an Omnichannel conversation:**
+## Start Omnichannel call
+
+To initiate a call within an omnichannel conversation:
 
 Click on the call button to initiate a call with the visitor.
 
@@ -18,7 +26,7 @@ Click on the call button to initiate a call with the visitor.
 
 ### Visitor's View
 
-The Live Chat visitor should get a notification on their side to **Accept** or **Decline** a call.
+Your Livechat visitor should get a notification on their side to **Accept** or **Decline** the call.
 
 ![](../../../.gitbook/assets/purpledevil10.png)
 
@@ -51,5 +59,5 @@ Enter your name and hit **Join meeting**, upon which the call starts:
 ![](../../../.gitbook/assets/purpledevil500.png)
 
 {% hint style="info" %}
-Please note that for **WebRTC**, the flow is just the same.
+Please note that the flow is the same for **WebRTC.**
 {% endhint %}
