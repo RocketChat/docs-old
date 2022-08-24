@@ -23,7 +23,7 @@ When a user is mentioned on a thread inside a public channel, they are automatic
 Private Channels are by **invitation only** and are normally used for conversations that are not open to all members. They are identified by: ![](../../../../.gitbook/assets/2021-12-23\_19-50-54.png)
 
 {% hint style="info" %}
-People must be added/invited to a private channel by someone who's already a member
+People must be added/invited to a private channel by someone who's already a member.
 {% endhint %}
 
 ## Listing Channels
@@ -34,11 +34,11 @@ Public Channels appear first above private channels below them and are alphabeti
 
 ## Joining new channels and starting direct messages
 
-There are three ways of joining a public channel; through search, invites, or mentions.
+There are three ways of joining a public channel; search, invites, or mentions.
 
-For starting a direct message, you can either search the user you want to talk or click on that user's avatar and click on the **Conversation Button**.
+To start a direct message, you can search for the user you want to talk to, or click on that user's avatar and then click **Conversation** Button.
 
-To search for channels and users, use the search bar under your account box. Alternatively, you can press Ctrl/Cmd + k to access the search bar quickly.
+Use the search bar under your account box to search for channels and users. Alternatively, you can press `Ctrl/Cmd + k` to access the search bar quickly.
 
 A search will find channels (including the ones you are part of) and users. You can not search inside private channels.
 

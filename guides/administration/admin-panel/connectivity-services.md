@@ -11,7 +11,7 @@ To access this menu, go to **Administration** > **Connectivity Services.**
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (3) (1).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (3).png>)
 
 ![](../../../.gitbook/assets/2021-11-21\_01-53-58.png)
 

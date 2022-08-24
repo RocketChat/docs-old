@@ -6,7 +6,7 @@ description: >-
 
 # Team Actions
 
-You can perform the various activities on your RocketChat team.
+You can perform the following activities on your RocketChat team.
 
 {% content-ref url="team-information-view-and-edit.md" %}
 [team-information-view-and-edit.md](team-information-view-and-edit.md)
@@ -19,4 +19,3 @@ You can perform the various activities on your RocketChat team.
 {% content-ref url="hide-or-leave-a-team.md" %}
 [hide-or-leave-a-team.md](hide-or-leave-a-team.md)
 {% endcontent-ref %}
-
