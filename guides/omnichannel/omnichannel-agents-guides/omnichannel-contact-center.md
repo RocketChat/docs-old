@@ -10,8 +10,6 @@ To access the Contact Center, click the **Contact Center Icon** on the Omnichann
 It allows you to pull up visitor information and chats for purposes like set tags of an old conversation, sending broadcast messages, etc.
 {% endhint %}
 
-
-
 ## Omnichannel Contacts
 
 Under the **Contacts** tab, you can see all the contacts you have been serving as an Omnichannel agent.
@@ -20,9 +18,13 @@ Under the **Contacts** tab, you can see all the contacts you have been serving a
 
 You can search for a contact using their name, phone or email address.
 
+Searching can also be done using [custom field](../../administration/admin-panel/settings/account-settings/custom-fields.md) values. This is only possible if the **Searchable** option of the field was enabled when creating it.
+
+<figure><img src="../../../.gitbook/assets/Search Omnichannel contact with custom field.png" alt=""><figcaption><p>Search Omnichannel contact with custom field</p></figcaption></figure>
+
 ### View/Edit Omnichannel contact information
 
-To view information about a contact, click on it and a panel opens by the right with more details where you can edit to update.
+To view information about a contact, click on it and a panel opens on the right with more details where you can edit to update.
 
 ### Create a new Omnichannel contact
 
@@ -37,7 +39,7 @@ As a Rocket.Chat enterprise user, you can [assign an Omnichannel contact to a ce
 
 ## Omnichannel Chats
 
-All the chats you have taken appear under **Chats** tab.
+All the chats you have taken appear under the **Chats** tab.
 
 {% hint style="info" %}
 No open chat appears in the **Contact Center**. A chat appears in the **Contact** **Center** as soon as it is closed because **Contact Center** only deals with archived chats.
@@ -55,15 +57,13 @@ Click **Edit** to edit the contact details.
 
 You can see all the calls you have been serving as an omnichannel agent under **Calls** tab.
 
-You can see all the calls you have been serving as an omnichannel agent under **Calls** tab.
-
 {% hint style="info" %}
 Please note that if you are a call center administrator, you can view all the calls that your agents have served.
 {% endhint %}
 
 ### Search Omnichannel call
 
-You can search a call using their Name or phone.
+You can search for a call using their Name or phone.
 
 ### View Omnichannel call information
 
