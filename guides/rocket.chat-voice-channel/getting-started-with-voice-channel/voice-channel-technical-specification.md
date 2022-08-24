@@ -1,14 +1,25 @@
----
-description: >-
-  This document describes the design and technological scheme for introducing
-  Voice and Video as a native channel in Rocket.Chat's OmniChannel platform.
----
+# Voice Channel Technical Specification
 
-# Rocket.Chat VoIP architecture
+VoIP is the technology behind Rocket.Chat voice-as-channel feature.
+
+### **What is VoIP?**
+
+**Voice over Internet Protocol** refers to the standards that facilitate voice-based phone calls using an internet connection instead of a local telephone company. \
+Through VoIP technologies, Rocket.Chat is able to incorporate telephony-based communication protocols into its applications, promoting the transition between analog and digital technologies.
+
+### How does VoIP work?
+
+Voice over IP converts your voice into a digital signal, compresses it, and sends it over the internet. A VoIP service provider sets up the call between all participants. The digital data is then uncompressed into the sound that you hear through your handset on the receiving end.
+
+### Why is VoIP Important for the Omnichannel environment?
+
+In a contact center environment, Voice is an important and influential channel. Agents using OmniChannel stack should be able to make audio/video calls to external PSTN networks, cellphone networks, and VoIP endpoints supporting SIP protocol.
+
+Once Rocket.Chat voice-as-channel or VoIP is in place; our Enterprise Edition provides many call center features.
+
+## Rocket.Chat VoIP architecture
 
 Here we try to describe in detail the technical and architectural aspects of bringing in a telephony protocol “**SIP**” on the client-side in order to enable Voice call on the platform. We also describe **Automatic Call Distribution**, by which the calls will be distributed to different agents.
-
-### Introduction
 
 In a contact center environment, voice is an important and powerful channel. Agents using Omnichannel should be able to make and receive audio/video calls from external PSTN networks, cellphone networks, and VoIP endpoints supporting SIP protocol.
 
@@ -28,7 +39,7 @@ Web clients are built using browser-based WebRTC technology. This technology doe
 * To achieve this, there is an association made between the Rocket.chat agent and the SIP identity.
 * ACD (Automatic Call Distribution) queues, wait-treatment, etc are managed by the customer’s/Partner’s PBX. Reaching out to external networks (PSTN/Mobile Network/Another SIP Server, is handled at customer’s/Partner’s PBX.
 
-![VoIP Architecture](<../../../../.gitbook/assets/image (678) (1) (1).png>)
+![VoIP Architecture](<../../../.gitbook/assets/image (678) (1) (1).png>)
 
 **ACD Queues:**
 
@@ -40,4 +51,4 @@ Agents are partitioned into different queues on the PBX. These queues represent 
 
 Admins and managers use Rocket.chat's UI to configure and monitor the customer-managed PBX. To receive the real-time PBX events, Rocket.chat’s backend has to connect to the PBX manager interface. The customer is responsible for creating the configuration on PBX so that the management APIs/interface is accessible from Rocket.chat’s backend.
 
-![Connector Architecture](<../../../../.gitbook/assets/image (644) (1) (1).png>)
+![Connector Architecture](<../../../.gitbook/assets/image (644) (1) (1).png>)
