@@ -6,4 +6,4 @@ So, navigate to the **Settings > Asterisk Manager Users** menu. Here you can cre
 
 ![Asterisk manager](<../../../../.gitbook/assets/Asterisk manager.png>)
 
-You can now proceed to Rocket.Chat and [start configuring the voice channel there.](<../configure with an active PBX server.md>)
+You can now proceed to Rocket.Chat and [start configuring the voice channel there.](../configure-with-an-active-pbx-server/)

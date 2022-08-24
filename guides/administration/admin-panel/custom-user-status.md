@@ -10,7 +10,7 @@ To access this menu,
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (10) (29).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1).png>)
 
 * Click the **+** on the top right
 
@@ -30,7 +30,7 @@ Once your custom status is added, it will show up along with the default status 
 
 To use a custom emoji that you've added, click on your avatar on the top left, and within the **status** menu, select your custom status.
 
-![](<../../../.gitbook/assets/2021-12-26\_12-43-20 (1) (1).png>)
+![](<../../../.gitbook/assets/2021-12-26\_12-43-20 (1).png>)
 
 ## Delete/Edit Custom Status
 

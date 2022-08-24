@@ -6,7 +6,7 @@ Click open your Facebook app to see the settings available to you as an administ
 
 Following are the settings available:
 
-![](<../../../../../.gitbook/assets/2022-02-01\_03-15-12 (1) (1) (1) (4) (2) (3) (2).png>)
+![](<../../../../../.gitbook/assets/2022-02-01\_03-15-12 (1) (1) (4).png>)
 
 1. You can set a **Default Department**. Only the agents of this [department](https://docs.rocket.chat/guides/omnichannel/departments) are able to serve Twitter conversations
 2. You can set the **Service Unavailable Message** that will be sent to your visitor when no agents are available online.

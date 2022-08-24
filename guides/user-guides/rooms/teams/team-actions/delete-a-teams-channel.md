@@ -2,7 +2,7 @@
 
 **To delete a team's channel:**
 
-![](<../../../../../.gitbook/assets/image (344) (2) (3) (3) (3) (3) (2) (1) (1) (1) (1) (4) (2) (3) (4).png>)
+![](<../../../../../.gitbook/assets/image (344) (2) (3) (3) (3) (3) (2) (1) (1) (1) (4).png>)
 
 ![](<../../../../../.gitbook/assets/image (363).png>)
 

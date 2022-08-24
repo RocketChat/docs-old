@@ -19,7 +19,7 @@ Please note that:
 **To set up a voice channel you have two paths:**
 
 1. [**Configure without previously having a PBX server**](configure-without-previously-having-a-pbx-server/)****
-2. ****[**Configure with an active PBX server**](<configure with an active PBX server.md>)****
+2. ****[**Configure with an active PBX server**](configure-with-an-active-pbx-server/)****
 
 
 

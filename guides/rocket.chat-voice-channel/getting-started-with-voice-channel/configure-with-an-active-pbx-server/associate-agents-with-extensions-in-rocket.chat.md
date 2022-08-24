@@ -12,17 +12,13 @@ Both extensions and queues are managed in Asterisk by the _Asterisk manager_.
 
 To associate and an agent to an extension:
 
-* Go to **Avatar Menu > Administration > Settings**
-* Search **Call Center**
-* Click open the **Extension** tab
+* Go to **Avatar Menu > Administration > Settings >** **Voice Channel > Extension** tab
 * Click **Associate Agent**
 * Select the agent name and associate it with a free extension, as shown below:
 
-![Agent to extension association](<../../../.gitbook/assets/image (654) (1) (1) (1).png>)
+<figure><img src="../../../../.gitbook/assets/Agent to extension association-voice channel.png" alt=""><figcaption><p>Agent to extension association</p></figcaption></figure>
 
-![Agent associated with the extension](<../../../.gitbook/assets/image (655) (1).png>)
-
-Following are important points to know:
+Following are some important points to know:
 
 * An extension becomes unavailable after it has been associated with an agent.
 * An extension can be associated with multiple queues.
