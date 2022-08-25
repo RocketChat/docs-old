@@ -1,11 +1,13 @@
 ---
 description: >-
-  Rocket.Chat has federation support via the Matrix protocol. You can now easily
-  connect with external parties, whether they are using Rocket.Chat or any other
-  Matrix-compatible platform.
+  Enable effortless communication and collaboration across platforms, empowering
+  individuals and teams to connect on their terms and seamlessly and securely
+  share information.
 ---
 
 # Matrix Bridge
+
+
 
 {% content-ref url="matrix-bridge.md" %}
 [matrix-bridge.md](matrix-bridge.md)

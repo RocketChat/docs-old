@@ -8,7 +8,7 @@ To set up Rocket.Chat Matrix Federation, you need to run this script:
 curl -L -s https://go.rocket.chat/i/federation-setup
 ```
 
-After running it, you will have to type your server's hostname (without `https` or trailing slashes): `demo-see.fed.rocket.chat,` and then you will create the following DNS records pointing to your servers' IP addresses. All of these records needs to point to the same IP address and then everthing is to set up.  You can see that a docker compose file being generated with everything you need.
+After running it, the next step is to type your server's hostname (without `https` or trailing slashes): `demo-see.fed.rocket.chat,` and then you can create the following DNS records pointing to your servers' IP addresses. All of these records need to point to the same IP address and then everything is to be set up.  You can see that a `docker compose` file is generated with everything you need.
 
 * `demo-see.fed.rocket.chat`
 * `matrix.demo-see.fed.rocket.chat`

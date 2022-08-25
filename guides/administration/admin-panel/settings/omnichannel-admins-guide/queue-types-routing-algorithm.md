@@ -51,6 +51,6 @@ After receiving the return from the endpoint in the format described above, Live
 
 Load Balancing is an enterprise-only feature. It is also an auto-assignment algorithm, but it will consider the agent's online status and the time they have been chatting, contrary to auto-selection, which only considers the agent's online status. For instance, an agent was away on a short break; once he comes back, he will be assigned more chats than his fellow agent. So in this way, the algorithm will maintain a chat load balance between agents.
 
-## Load Rotation![](<../../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (12) (1).jpg>)
+## Load Rotation![](<../../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (12) (1) (1).jpg>)
 
 Agent queues for service between online agents, without considering the previous chat's history attended or the number of open rooms in attendance. It's a mix between the Load Balancing and Auto Selection algorithms.
