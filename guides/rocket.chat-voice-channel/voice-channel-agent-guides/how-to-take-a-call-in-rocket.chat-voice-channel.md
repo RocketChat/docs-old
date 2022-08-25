@@ -1,8 +1,10 @@
-# How to take a call in Rocket.Chat call center?
+# How to take a call in Rocket.Chat voice channel?
 
 After you [make yourself available](../../rocket.chat-call-center/call-center-agent-guides/broken-reference/) to receive/make calls, you can start taking inbound calls.
 
-## **Call In Progress**
+## **Call Operations**
+
+### **Call In Progress**
 
 Click the **Accept** button to accept the call. The ongoing call appears as shown below:
 
@@ -12,25 +14,25 @@ Click the **Accept** button to accept the call. The ongoing call appears as show
 Please note that messages are not available on a phone call room.
 {% endhint %}
 
-## Mute/Unmute Call
+### Mute/Unmute Call
 
 You have controls to mute/unmute calls.
 
 ![Mute/Unmute ](../../../.gitbook/assets/Muteunmute.png)
 
-## Hold/Unhold![](<../../../.gitbook/assets/enterprise blue.png>)
+### Hold/Unhold![](<../../../.gitbook/assets/enterprise blue.png>)
 
 If you're using Rocket.Chat's enterprise edition you can hold and unhold acording to your workflow needs.
 
 ![Hold/Unhold](<../../../.gitbook/assets/image (3) (2).png>)
 
-## Device Settings![](<../../../.gitbook/assets/enterprise blue.png>)
+### Device Settings![](<../../../.gitbook/assets/enterprise blue.png>)
 
 Enterprise edition also offers you the flexibilty to switch device during an ongoing call.![](<../../../.gitbook/assets/device settings button.png>)
 
 ![Device settings](<../../../.gitbook/assets/device settings.png>)
 
-## Call Wrap-up![](<../../../.gitbook/assets/enterprise blue.png>)
+### Call Wrap-up![](<../../../.gitbook/assets/enterprise blue.png>)
 
 After the call ends you can leave your notes in the call wrap-up. It is an enterprise-only feature.
 

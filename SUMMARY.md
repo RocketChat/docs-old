@@ -394,7 +394,7 @@
     * [Voice Channel Technical Specification](guides/rocket.chat-voice-channel/getting-started-with-voice-channel/voice-channel-technical-specification.md)
   * [Voice Channel Agent Guides](guides/rocket.chat-voice-channel/voice-channel-agent-guides/README.md)
     * [How to make myself available to accept calls?](guides/rocket.chat-voice-channel/voice-channel-agent-guides/how-to-make-myself-available-for-accepting-voip-calls.md)
-    * [How to take a call in Rocket.Chat call center?](guides/rocket.chat-voice-channel/voice-channel-agent-guides/how-to-take-a-call-in-rocket.chat-call-center.md)
+    * [How to take a call in Rocket.Chat voice channel?](guides/rocket.chat-voice-channel/voice-channel-agent-guides/how-to-take-a-call-in-rocket.chat-voice-channel.md)
     * [How to initiate an outbound call as an agent?](guides/rocket.chat-voice-channel/voice-channel-agent-guides/how-to-initiate-an-outbound-call-as-an-agent.md)
   * [Voice Channel FAQs](guides/rocket.chat-voice-channel/voice-channel-faqs.md)
 * [Rocket.Chat Conference Call](guides/rocket.chat-conference-call/README.md)
