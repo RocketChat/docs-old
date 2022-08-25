@@ -30,6 +30,17 @@ To test AMI connection turn to the **Extensions** tab, here you should see a lis
 
 <figure><img src="../../../../.gitbook/assets/Extensions-voice channel.png" alt=""><figcaption><p>Extensions</p></figcaption></figure>
 
+Also enabling the AMI debug you may see connections coming and the RC AMI user connected:
+
+```tcl
+manager set debug on
+manager show connected
+```
+
+<figure><img src="../../../../.gitbook/assets/Rocket.Chat connected to the Asterisk’s AMI.png" alt=""><figcaption><p>Rocket.Chat connected to the Asterisk’s AMI</p></figcaption></figure>
+
+If you see it, your Rocket.Chat is connected to the Asterisk’s AMI.
+
 ## 3. Configure WebSocket Server Connection
 
 Rocket.Chat needs a WebSocket connection to forward calls from Asterisk to Rocket.Chat.
@@ -50,6 +61,6 @@ The phone icon with a slash over means that the WebSocket connection is possible
 
 `pjsip show endpoints`
 
-![Rocket.Chat configured with Asterisk](<../../../../.gitbook/assets/Rocket.Chat configured with Asterisk.png>)
+<figure><img src="../../../../.gitbook/assets/Rocket.Chat configured with Asterisk.png" alt=""><figcaption><p>Rocket.Chat configured with Asterisk</p></figcaption></figure>
 
 Congratulations! You have successfully configured Rocket.Chat with Asterisk!\

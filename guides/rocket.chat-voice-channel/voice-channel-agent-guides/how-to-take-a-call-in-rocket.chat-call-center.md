@@ -1,6 +1,6 @@
 # How to take a call in Rocket.Chat call center?
 
-After you [make yourself available](../../rocket.chat-call-center/call-center-agent-guides/broken-reference/) to take calls, you can start taking inbound calls.
+After you [make yourself available](../../rocket.chat-call-center/call-center-agent-guides/broken-reference/) to receive/make calls, you can start taking inbound calls.
 
 ## **Call In Progress**
 
@@ -22,7 +22,7 @@ You have controls to mute/unmute calls.
 
 If you're using Rocket.Chat's enterprise edition you can hold and unhold acording to your workflow needs.
 
-![Hold/Unhold](<../../../.gitbook/assets/image (3).png>)
+![Hold/Unhold](<../../../.gitbook/assets/image (3) (2).png>)
 
 ## Device Settings![](<../../../.gitbook/assets/enterprise blue.png>)
 
