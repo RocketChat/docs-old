@@ -63,4 +63,6 @@ The phone icon with a slash over means that the WebSocket connection is possible
 
 <figure><img src="../../../../.gitbook/assets/Rocket.Chat configured with Asterisk.png" alt=""><figcaption><p>Rocket.Chat configured with Asterisk</p></figcaption></figure>
 
-Congratulations! You have successfully configured Rocket.Chat with Asterisk!\
+Congratulations! You have successfully configured Rocket.Chat with Asterisk!
+
+The next step now is to [associate your Rocket.Chat agents with Asterisk extensions.](associate-agents-with-extensions-in-rocket.chat.md)\

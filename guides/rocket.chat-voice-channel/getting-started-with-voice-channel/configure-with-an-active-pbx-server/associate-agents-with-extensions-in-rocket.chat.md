@@ -34,3 +34,5 @@ Once this call center agent makes themselves available for VoIP, the incoming ca
 {% hint style="info" %}
 Please note that to reduce the scope of this project, the only available administration feature is the ability to connect Rocket.Chat Agent with the existing Asterisk extensions. In future releases, you'll be able to create new extensions and queues from Rocket.Chat, and many other cool administration capabilities will roll out. 😀
 {% endhint %}
+
+Now your [agents can start using voice-as-channel on Rocket.Chat](../../voice-channel-agent-guides/).
