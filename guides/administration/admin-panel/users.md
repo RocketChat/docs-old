@@ -10,6 +10,6 @@ To access this menu, go to **Administration** > **Users**.
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (35).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (8).png>)
 
 ![](<../../../.gitbook/assets/2021-11-21\_00-28-10 (1).png>)
