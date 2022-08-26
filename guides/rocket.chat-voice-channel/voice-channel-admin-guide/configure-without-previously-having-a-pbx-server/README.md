@@ -1,6 +1,6 @@
 # Configure without previously having a PBX server
 
-[PBX is a piece of the architecture](https://docs.rocket.chat/guides/rocket.chat-call-center/getting-started-with-call-center/Call%20Center%20Technical%20Specification/rocket.chat-voip-architecture) that forwards incoming calls to Rocket.Chat from telephony service providers. We are using it for call bookkeeping data like, how many queues are there, extension data, agents allocated to a queue, routing system, and others.
+PBX is a piece of architecture that forwards incoming calls to Rocket.Chat from telephony service providers. We are using it for call bookkeeping data like, how many queues are there, extension data, agents allocated to a queue, routing system, and others.
 
 For the purpose of this guide, we are using [FreePBX](https://www.freepbx.org/) as our call management server. You can use any Asterisk distro of your choice.
 

@@ -18,13 +18,11 @@ Please note that:
 
 **To set up a voice channel you have two paths:**
 
-1. [**Configure without previously having a PBX server**](configure-without-previously-having-a-pbx-server/)****
-2. ****[**Configure with an active PBX server**](configure-with-an-active-pbx-server/)****
-
-
+1. [**Configure without previously having a PBX server**](voice-channel-admin-guide/configure-without-previously-having-a-pbx-server/)****
+2. ****[**Configure with an active PBX server**](voice-channel-admin-guide/configure-with-an-active-pbx-server/)****
 
 **Further Information:**
 
-* ****[**Technical Specification**](https://docs.rocket.chat/guides/rocket.chat-call-center/getting-started-with-call-center/Call%20Center%20Technical%20Specification)****
-* ****[**Admin Guides**](https://docs.rocket.chat/guides/rocket.chat-voice-channel/voice-channel-admin-guides)****
-* ****[**Agent Guides**](https://docs.rocket.chat/guides/rocket.chat-voice-channel/voice-channel-agent-guides)****
+* ****[**Technical Specification**](voice-channel-technical-specification.md)****
+* ****[**Admin Guides**](voice-channel-admin-guide/)****
+* ****[**Agent Guides**](voice-channel-agent-guides/)****

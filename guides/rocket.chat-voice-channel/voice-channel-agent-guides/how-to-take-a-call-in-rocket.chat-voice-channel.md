@@ -24,7 +24,7 @@ You have controls to mute/unmute calls.
 
 If you're using Rocket.Chat's enterprise edition you can hold and unhold acording to your workflow needs.
 
-![Hold/Unhold](<../../../.gitbook/assets/image (3) (2).png>)
+![Hold/Unhold](<../../../.gitbook/assets/image (3).png>)
 
 ### Device Settings![](<../../../.gitbook/assets/enterprise blue.png>)
 
