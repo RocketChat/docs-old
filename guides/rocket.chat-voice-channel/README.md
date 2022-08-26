@@ -14,7 +14,7 @@ In the following articles, we help you onboard and start using **Rocket.Chat's v
 
 <summary><strong>Inbound Calls</strong></summary>
 
-\*\*\*\*[**Inbound Calls**](voice-channel-agent-guides/how-to-take-a-call-in-rocket.chat-voice-channel.md) \*\*\*\* are great for having local visibility in various markets around the world. These calls allow you to receive calls on your business platform initiated by your customers using their mobile or landline phones.
+****[**Inbound Calls**](https://docs.rocket.chat/guides/rocket.chat-voice-channel/voice-channel-agent-guides/how-to-take-a-call-in-rocket.chat-voice-channel) are great for having local visibility in various markets around the world. These calls allow you to receive calls on your business platform initiated by your customers using their mobile or landline phones.
 
 </details>
 

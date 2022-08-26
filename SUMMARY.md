@@ -234,7 +234,6 @@
       * [Sentry](guides/administration/admin-panel/integrations/sentry.md)
       * [Simple Telegram Bot](guides/administration/admin-panel/integrations/telegram.md)
       * [TravisCI](guides/administration/admin-panel/integrations/travis-ci.md)
-      * [Trello](guides/administration/admin-panel/integrations/trello.md)
       * [Uptime Robot](guides/administration/admin-panel/integrations/uptime-robot.md)
       * [Zapier](guides/administration/admin-panel/integrations/zapier.md)
       * [django-rocketchat-auth 1.2](guides/administration/admin-panel/integrations/django-rocketchat-auth-1.2.md)
