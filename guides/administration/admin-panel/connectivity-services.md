@@ -44,7 +44,7 @@ To connect your server to our Cloud, your Rocket.Chat server must be on a suppor
 
 * Fill up the registration form and **Register**
 
-![](<../../../.gitbook/assets/image (665) (1) (1).png>)
+![](<../../../.gitbook/assets/image (641) (1).png>)
 
 * A verification email will be sent in order to activate your new Cloud account
 
@@ -67,8 +67,8 @@ In this document, we are covering only the **Internet Access** option.
 
 See the guide on our offline option below.
 
-{% content-ref url="broken-reference/" %}
-[broken-reference](broken-reference/)
+{% content-ref url="../../../rocket.chat-saas/cloud-account/manage-your-cloud-account/workspaces/apply-offline-license.md" %}
+[apply-offline-license.md](../../../rocket.chat-saas/cloud-account/manage-your-cloud-account/workspaces/apply-offline-license.md)
 {% endcontent-ref %}
 
 When selecting the "Internet Access" option, a registration token will be generated. Copy the token as this will be used to register your Rocket.Chat server.
