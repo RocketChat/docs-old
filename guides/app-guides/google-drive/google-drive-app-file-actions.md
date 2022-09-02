@@ -75,9 +75,13 @@ To view file details,
 
 <figure><img src="../../../.gitbook/assets/Google Drive file information" alt=""><figcaption><p>Google Drive file information</p></figcaption></figure>
 
+* Information about the files can be seen
+
+<figure><img src="../../../.gitbook/assets/Google Drive see file information" alt=""><figcaption><p>Google Drive see file information</p></figcaption></figure>
+
 * You see the following details about the file
   * **File name:** The name of the file
-  * **Manage Access**: Where to set the file sharing permissions, see this section
+  * **Manage Access**: Where to set the file sharing permissions, [see this section](google-drive-app-file-actions.md#file-permissions)
   * **Type**: The file type
   * **Size**: The size occupied by the file in Google Drive
   * **Location**: The file location in Drive
@@ -93,12 +97,15 @@ A file's permission can be set when [sharing the file](google-drive-app-file-act
 
 These are the various permissions you can set to a file
 
-* **Share to room members and allow them to view**: This will restrict viewing of the file only by member(s) of the room
-* **Share to room members and allow them to comment**: This will give all the member(s) of the room access to view and comment on the file
-* **Share to room members and allow them to edit**: Gives access to the member(s) of the room to be able to edit the file
-* **Share to anyone at Organization and allow them to view**: Anyone in your organization can view the file
-* **Share to anyone at Organization and allow them to comment**: Anyone in the organization can view and comment on the file
-* **Share to anyone at Organization and allow them to edit**: Anyone in the organization can edit the file
-* **Share to anyone with the link and allow them to view**: This will make anyone with the link to be able to view
-* **Share to anyone with the link and allow them to comment**: Anyone having the link can comment on the file
-* **Share to anyone with the link and allow them to edit**: Anyone having the link can edit the file
+<figure><img src="../../../.gitbook/assets/Google Drive file set permissions" alt=""><figcaption><p>Google Drive file set permissions</p></figcaption></figure>
+
+* These are the various permissions you can set:
+  * **Share to room members and allow them to view**: This will restrict viewing of the file only by member(s) of the room
+  * **Share to room members and allow them to comment**: This will give all the member(s) of the room access to view and comment on the file
+  * **Share to room members and allow them to edit**: Gives access to the member(s) of the room to be able to edit the file
+  * **Share to anyone at Organization and allow them to view**: Anyone in your organization can view the file
+  * **Share to anyone at Organization and allow them to comment**: Anyone in the organization can view and comment on the file
+  * **Share to anyone at Organization and allow them to edit**: Anyone in the organization can edit the file
+  * **Share to anyone with the link and allow them to view**: This will make anyone with the link to be able to view
+  * **Share to anyone with the link and allow them to comment**: Anyone having the link can comment on the file
+  * **Share to anyone with the link and allow them to edit**: Anyone having the link can edit the file
