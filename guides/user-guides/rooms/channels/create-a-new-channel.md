@@ -1,18 +1,24 @@
 # Create a new Channel
 
 {% hint style="info" %}
-Channels have restrictions in their naming. The regex responsible for validation can be located in **Admin** > **General** > **UTF8**&#x20;
+Channels have restrictions in their naming. The `regex` responsible for validation can be located in **Admin** > **General** > **UTF8**&#x20;
 {% endhint %}
 
-**To create a new channel**
+### **To create a new channel**
 
 ![](<../../../../.gitbook/assets/image (383).png>)
 
 You can set the name of that channel, choose if the channel is public or private, set the channel to read-only, broadcast the channel, and invite users.
 
-In read-only Channels, messages can only be sent by users with write permissions. All users can react to messages in this channel. Read-only channels are most suitable for announcements and voting.
+#### Read- Only Channels
 
-Encrypted Channels, messages will be end-to-end encrypted. See: [End to End Encryption](../../security-bundle/end-to-end-encryption.md) for details.
+In Read-Only Channels, messages can only be sent by users with write permissions. All users can react to messages on this channel. Read-Only Channels are most suitable for announcements and voting.
+
+#### Encrypted Channels
+
+In Encrypted Channels, messages will be end-to-end encrypted. For more information, see [End to End Encryption](../../security-bundle/end-to-end-encryption.md).
+
+#### Broadcasted Channels
 
 Broadcasted Channels behave like read-only channels, with only users with the right permission being able to post there. The differences to a read-only channel are:
 
@@ -23,4 +29,4 @@ Broadcasted Channels behave like read-only channels, with only users with the ri
 
 ![](<../../../../.gitbook/assets/image (384).png>)
 
-Hit create and your new channel is created.
+Hit **Create** and your new channel is created.

@@ -19,6 +19,6 @@ You can also add a message whenever the stream is unavailable in the **Livestrea
 
 To add a stream with no video and only audio, use the **Enable audio-only button**.
 
-### (Users) Start a Live Stream
+### Users - Start a Live Stream
 
 If you are not a channel owner and there is already a live stream set to that channel, press **play** on the stream tab. This starts a pop-up with the stream embedded. The pop-up does not close even if you change channels.

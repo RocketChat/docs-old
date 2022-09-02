@@ -2,7 +2,7 @@
 
 Inside channels, you can also do more than post messages and upload files. Increase your interaction with messages through Channel actions.
 
-## Find Channel Cctions
+## Find Channel Actions
 
 To find channel actions, go to the right of the channel title.
 

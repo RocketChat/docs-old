@@ -1,6 +1,8 @@
 # Custom Fields
 
-Custom fields can be added to receive additional information from visitors during registration before initiating a Live Chat conversation.
+Custom fields can be added to receive additional information from visitors during registration before initiating a Live Chat conversation or used to set other properties of a visitor/room.
+
+Custom fields can be set upon a **Visitor** or **Room**
 
 To access this menu, go to **Avatar Menu > Omnichannel > Custom Fields**. Here, you can **View**, **Create New**, **Edit** or **Delete** an existing field.
 
@@ -15,12 +17,15 @@ To create a new custom field:
 * Click on **+New** from the custom field panel
 * A page is seen with properties to be set, fill in the values and **Save**
 
-![](<../../.gitbook/assets/2022-01-23\_18-47-17 (1).png>)
+<figure><img src="../../.gitbook/assets/Create new custom field" alt=""><figcaption><p>Create new custom field</p></figcaption></figure>
 
 * **Field**: Enter the desired field that you want to add to your Live Chat registration form. E.g., last name.
 * **Label:** Label of the field
-* **Scope:** A dropdown for you to set the scope of the room
+* **Scope:** A dropdown for you to set the scope of the custom field
+  * **Visitor**: If the visitor option is selected, the field will be available as an Omnichannel visitor's property
+  * **Room**: When selected, the field will be available against an Omnichannel room.&#x20;
 * **Visible:** Whether or not to make it visible
+* **Searchable**: Lets you set if searching in the [Omnichannel Contact Center](omnichannel-agents-guides/omnichannel-contact-center.md) can be done with the custom field.
 
 ### Enterprise Edition Omnichannel Custom Fields![](../../.gitbook/assets/2022-01-23\_20-47-25.png)
 

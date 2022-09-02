@@ -4,7 +4,7 @@
 
 ## How to apply
 
-Application for Google Summer of Code 2022 is now closed.  See [official Google Summer of Code site](https://summerofcode.withgoogle.com/).  &#x20;
+Application for Google Summer of Code 2022 is now closed. See [official Google Summer of Code site](https://summerofcode.withgoogle.com/).
 
 See official [accepted projects and contributors ](https://summerofcode.withgoogle.com/programs/2022/organizations/rocketchat)for the list of projects this year.
 
@@ -34,18 +34,22 @@ As well as on GitHub:\
 
 Those who prefers forums can post messages on our GSoC forum channel (although as the leading open source team chat project we prefer you use Rocket.Chat channels above to reach us instantly) :\
 \
-[https://forums.rocket.chat/t/google-summer-of-code-gsoc/118](https://forums.rocket.chat/t/google-summer-of-code-gsoc/118)\
-
+[https://forums.rocket.chat/t/google-summer-of-code-gsoc/118](https://forums.rocket.chat/t/google-summer-of-code-gsoc/118)\\
 
 ### **Latest update**
 
-**Midterm evaluation completed  (Update August 3rd)**
+**Demo Day 2022 Announced  (Updated August 25th, minor update August 30th)**
 
-Coding on projects continued throughout the month of July.  And 13 out of the 14 projects have completed their midterm evaluations;  contributors from the 13 projects have all passed midterm - and are now busy completing their projects.  The remaining project actually has extended midterm evaluation at the end of August, and mentors are indicating the contributor has not been keeping up with the schedule at this time.  All project participants are now preparing for the GSoC 2022 Demo Day virtual event to be held in late August.     &#x20;
+During these final days of GSoC 2022, contributors and mentors are busy wrapping up their project and preparing for Demo Day 2022!    This LIVE virtual event will happen on September 8th, 2022 !   Please mark your calendar and prepare to join us for a fun-filled day exploring all the innovative new projects.   Details for Demo Day 2022 are now available [here ](https://conf.rceng.shop/conferences/c/1)
+
+**Midterm evaluation completed (Update August 3rd)**
+
+Coding on projects continued throughout the month of July. And 13 out of the 14 projects have completed their midterm evaluations; contributors from the 13 projects have all passed midterm - and are now busy completing their projects. The remaining project actually has extended midterm evaluation at the end of August, and mentors are indicating the contributor has not been keeping up with the schedule at this time. All project participants are now preparing for the GSoC 2022 Demo Day virtual event to be held in late August.
 
 **Coding begins and new open source projects welcoming additional contributors (Update June 22nd)**\
-****Coding has started for all our GSoC 2022 projects.   Mentors are busy guiding contributors in completing the scheduled work.   This year, uniquely, many of our projects are in independent  open source repositories.   We welcome our extended community and any new contributors to join these projects.   See the table below for links to repository associated with each project.\
+\*\*\*\*Coding has started for all our GSoC 2022 projects. Mentors are busy guiding contributors in completing the scheduled work. This year, uniquely, many of our projects are in independent open source repositories. We welcome our extended community and any new contributors to join these projects. See the table below for links to repository associated with each project.\
 \
+
 We are also planning a virtual conference at the end of the GSoC term - named GSoC 2022 Demo Day.   Mentors and contributor from each project will collaborate in presenting the final result.   Please stay tuned for more information in late July.
 
 | Project                                                            | Repository                                                                                                                                               |
@@ -65,12 +69,9 @@ We are also planning a virtual conference at the end of the GSoC term - named GS
 | Playground for UIKit ReactJS components                            |                                                                                                                                                          |
 | Rocket.Chat - Teams Bridge: interop with Microsoft Teams           | [https://github.com/RocketChat/Apps.teams.bridge](https://github.com/RocketChat/Apps.teams.bridge)                                                       |
 
-****\
-****\
 **Mentors welcome contributors from 14 accepted projects (Update May 20th)**
 
-2022 is a phenomenal year for GSoC at Rocket.Chat.   With high calibre contributors arriving as early as January and very early enthusiastic community mentors support.  So far, 137 new contributors have created 94 Merged PRs, 110 Open PRs, and identified 154 Issues for our projects.  We received 83 GSoC 2022 proposals; most of them are of good  to excellent quality.  Google has graciously granted us a total of [FOURTEEN projects for 2022 GSoC](https://summerofcode.withgoogle.com/programs/2022/organizations/rocketchat). Thank you Google!   Mentors have started to welcome these 14 active contributing community members to work with us during the 2022 season:\
-
+2022 is a phenomenal year for GSoC at Rocket.Chat. With high calibre contributors arriving as early as January and very early enthusiastic community mentors support. So far, 137 new contributors have created 94 Merged PRs, 110 Open PRs, and identified 154 Issues for our projects. We received 83 GSoC 2022 proposals; most of them are of good to excellent quality. Google has graciously granted us a total of [FOURTEEN projects for 2022 GSoC](https://summerofcode.withgoogle.com/programs/2022/organizations/rocketchat). Thank you Google! Mentors have started to welcome these 14 active contributing community members to work with us during the 2022 season:\\
 
 | Contributors       | Project                                                            | Mentors                                       |
 | ------------------ | ------------------------------------------------------------------ | --------------------------------------------- |
@@ -79,7 +80,7 @@ We are also planning a virtual conference at the end of the GSoC term - named GS
 | Danish Ahmed Mirza | New Emoji Picker for Mobile Client                                 | Diego Mello, Daniel Silva                     |
 | Dnouv              | Rocket.Chat for Virtual Conferences - Eventyay integration         | Sing Li, Marcos Defendi                       |
 | Evan Slack         | Rocket.Chat Golang SDK                                             | cauefcr, Aaron Ogle                           |
-| Irfan Asif         | Figma App ( Rocket.Chat Integration )                              | Douglas Gubert, Ivan Netto,  Alvaro Mello     |
+| Irfan Asif         | Figma App ( Rocket.Chat Integration )                              | Douglas Gubert, Ivan Netto, Alvaro Mello      |
 | Mustafa Hasan Khan | ClickUp App for Rocket.Chat                                        | Douglas Gubert, Allan Ribeiro                 |
 | Nishant Patel      | Message Forwarding                                                 | Douglas Fabris, Milton Rucks                  |
 | Samad Khan         | GitHub App                                                         | Rohan Lekhwani, Sing Li                       |
@@ -91,23 +92,23 @@ We are also planning a virtual conference at the end of the GSoC term - named GS
 
 **Total of 83 proposals received (Update April 20th)**
 
-We would like to thank all of our enthusiastic contributors for the **83 proposals** that we have received as of submission deadline on April 19th.     Over the next few weeks, mentors for every project will be going through these proposals to determine the ones to accept.   Accepted projects and contributors will be announced on May 20th 2022 by Google. \
+We would like to thank all of our enthusiastic contributors for the **83 proposals** that we have received as of submission deadline on April 19th. Over the next few weeks, mentors for every project will be going through these proposals to determine the ones to accept. Accepted projects and contributors will be announced on May 20th 2022 by Google.\
 \
-Meanwhile, please continue to interact with our GSoC 2022 **community of over 350 mentors and contributors** in  our [team channel](https://open.rocket.chat/channel/gsoc2022) ;   please continue to contribute to our ecosystem of repositories.   \
+Meanwhile, please continue to interact with our GSoC 2022 **community of over 350 mentors and contributors** in our [team channel](https://open.rocket.chat/channel/gsoc2022) ; please continue to contribute to our ecosystem of repositories.\
 \
-As of today,  **135 GSoC** **contributors** have created **88 Merged PRs**, **108 Open PRs**, and identified **151 Issues** in the Rocket.Chat ecosystem.\
+As of today, **135 GSoC** **contributors** have created **88 Merged PRs**, **108 Open PRs**, and identified **151 Issues** in the Rocket.Chat ecosystem.\
 \
-Over the next week, we will announce an exciting special activity for those ranking at the top of our [Contributors Leaderboard](https://gsoc.rocket.chat/).   Please stay tuned.
+Over the next week, we will announce an exciting special activity for those ranking at the top of our [Contributors Leaderboard](https://gsoc.rocket.chat/). Please stay tuned.
 
 #### **Proposal submission begins (Update April 10th)**
 
-Momentum for proposal submission is building up.  As our GSoC 2022 community of **300** contributors and mentors continue to engage actively in the [project specific team channels](https://open.rocket.chat/channel/google-summer-of-code/team-channels). Mentors for the various projects are in these channels to help contributors to craft their winning proposals.   On our [contributor leaderboard ](https://gsoc.rocket.chat/)(which is also a[n open source project](https://github.com/RocketChat/Opensource-Contribution-Leaderboard)) , _116 contributors have added_ 75 Merged PRs, 105 Open PRs, and 141 Issues to our projects this season so far.
+Momentum for proposal submission is building up. As our GSoC 2022 community of **300** contributors and mentors continue to engage actively in the [project specific team channels](https://open.rocket.chat/channel/google-summer-of-code/team-channels). Mentors for the various projects are in these channels to help contributors to craft their winning proposals. On our [contributor leaderboard ](https://gsoc.rocket.chat/)(which is also a[n open source project](https://github.com/RocketChat/Opensource-Contribution-Leaderboard)) , _116 contributors have added_ 75 Merged PRs, 105 Open PRs, and 141 Issues to our projects this season so far.
 
-#### **Successful Virtual Alumni Summit   (Update April 6th)**
+#### **Successful Virtual Alumni Summit (Update April 6th)**
 
-We held our 2nd annual Rocket.Chat Google Summer of Code Alumni Summit on April 6th.   It was exciting to bring back Google Summer of Code participants from our previous five years to speak and help this year's contributors in crafting their winning proposals.  We have alumni from all walks of life speaking, see [official poster for this event](https://community.rocket.chat/virtualconf/mainstage).  There were 11 fascinating sessions and we welcomed a total of 156 unique individuals throughout the day at the summit.   We expect hundreds more new contributors to benefit from the recorded sessions.     \
+We held our 2nd annual Rocket.Chat Google Summer of Code Alumni Summit on April 6th. It was exciting to bring back Google Summer of Code participants from our previous five years to speak and help this year's contributors in crafting their winning proposals. We have alumni from all walks of life speaking, see [official poster for this event](https://community.rocket.chat/virtualconf/mainstage). There were 11 fascinating sessions and we welcomed a total of 156 unique individuals throughout the day at the summit. We expect hundreds more new contributors to benefit from the recorded sessions.\
 \
-All of the sessions are recorded and are available directly from our [YouTube Playlist.](https://www.youtube.com/playlist?list=PLee3gqXJQrFW3dMG1P8qGzQ7E7Ea1SB80)    The tips and best practices shared by our alumni apply to the entire Google Summer of Code contributors, and are not Rocket.Chat specific.   We hope these recordings will benefit all those who intend to submit proposals this season.
+All of the sessions are recorded and are available directly from our [YouTube Playlist.](https://www.youtube.com/playlist?list=PLee3gqXJQrFW3dMG1P8qGzQ7E7Ea1SB80) The tips and best practices shared by our alumni apply to the entire Google Summer of Code contributors, and are not Rocket.Chat specific. We hope these recordings will benefit all those who intend to submit proposals this season.
 
 #### **Shout out to our early contributors (Update Feb 20th)**
 
@@ -260,7 +261,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 ### **Sidebar UI revamp and UX improvements**
 
-**Mentors:** Ivan Netto,  Tasso Evangelista, Gabriel Henriques
+**Mentors:** Ivan Netto, Tasso Evangelista, Gabriel Henriques
 
 **Description:** Conversations in [Rocket.Chat](http://rocket.chat) can be done in multiple ways but at this stage, we need a scalable interface which would help users to maximize their daily tasks within the software. The following improvements would speed up users' workflow:
 
@@ -289,7 +290,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 * Being able to forward messages and files to multiple users and channels
 * Being able to add additional messages on the top of forwarded content
 
-**Project Duration:** 350 hours.  (Large)
+**Project Duration:** 350 hours. (Large)
 
 **Difficulty:** Medium
 
@@ -303,7 +304,7 @@ Goals/Deliverables: A Pomodoro timer Rocket.Chat App
 
 Desired Skills: Familiarity with TypeScript development. User of the pomodoro time management technique
 
-Project Duration: 175 hours  (Medium)
+Project Duration: 175 hours (Medium)
 
 **Difficulty:** Easy
 
@@ -321,7 +322,7 @@ Project Duration: 175 hours  (Medium)
   * new comment on a file
 * replying and commenting in files right from Rocket.Chat
 
-**Project Duration:** 350 hours.  (Large)
+**Project Duration:** 350 hours. (Large)
 
 **Difficulty:** Easy
 
@@ -350,7 +351,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Goals/Deliverables:** Apply reanimated v2 to dropdown, RoomItem swipe and ImageViewer and apply LayoutAnimations from v2
 
-**Project Duration:** 350 hours.  (Large)
+**Project Duration:** 350 hours. (Large)
 
 **Difficulty:** Medium
 
@@ -362,7 +363,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Desirable Skills:** Experience with React Native and [react-native-reanimated](https://github.com/software-mansion/react-native-reanimated). Required: Macbook to test iOS.
 
-**Project Duration:** 350 hours.  (Large)
+**Project Duration:** 350 hours. (Large)
 
 **Difficulty:** Hard
 
@@ -388,7 +389,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Desired Skills:** Familiarity with Typescript and Javascript development. Familiarity with Microsoft Team's available APIs. An interest in crafting bridges between communications platforms.
 
-**Project Duration:** 350 hours.  (Large)
+**Project Duration:** 350 hours. (Large)
 
 **Difficulty:** Medium
 
@@ -414,7 +415,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 * User mentions (including @all, @here)
 * No-UI slashcommand implementations (/create, /invite, /invite-all-from, /invite-to-from, /join)
 
-**Project Duration:** 350 hours.  (Large)
+**Project Duration:** 350 hours. (Large)
 
 **Difficulty:** Medium
 
@@ -428,7 +429,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Goals/Deliverables:** A Rocket.Chat App that will enable users in a channel to join an existing weekly meeting if it is in progress. Or query for recorded meeting videos and view them.
 
-**Project Duration:** 175 hours.  (Medium)
+**Project Duration:** 175 hours. (Medium)
 
 **Difficulty:** Easy
 
@@ -442,7 +443,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Goal/Deliverable:** A working chatbot that can improve agile team productivity
 
-**Project Duration:** 175 hours.  (Medium)
+**Project Duration:** 175 hours. (Medium)
 
 **Difficulty:** Easy
 
@@ -456,7 +457,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 **Goals/Deliverables:** A Rocket.Chat App that is able to look up colleague details, see upcoming PTOs, apply for PTOs, and apply for reimbursements.
 
-**Project Duration:** 175 hours.  (Medium)
+**Project Duration:** 175 hours. (Medium)
 
 **Difficulty:** Easy
 
@@ -470,7 +471,7 @@ Goals/Deliverables: Rocket.Chat App integrating common Github features
 
 **Desired Skills:** Familiarity with TypeScript development. GitHub API
 
-_Project Duration: 175 hours  (Medium)_
+_Project Duration: 175 hours (Medium)_
 
 **Difficulty:** Medium
 
@@ -486,7 +487,7 @@ Goals/Deliverables: Rocket.Chat App with DropBox operations integrated\
 \
 Desired Skills: Familiarity with TypeScript development. DropBox API
 
-Project Duration: 175 hours  (Medium)
+Project Duration: 175 hours (Medium)
 
 **Difficulty:** Medium
 
@@ -500,7 +501,7 @@ Goals/Deliverables: Rocket.Chat App with ClickUp integration features.
 
 Desired Skills: Familiarity with TypeScript development. ClickUp API
 
-Project Duration: 350 hours  (Large)
+Project Duration: 350 hours (Large)
 
 **Difficulty:** Medium
 

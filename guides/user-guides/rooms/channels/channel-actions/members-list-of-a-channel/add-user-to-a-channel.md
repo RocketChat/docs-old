@@ -2,10 +2,10 @@
 
 You can use **Add Users** option to add users who are already in your workspace.
 
-To add a new user:
+#### To add a new user:
 
-1. Click **Members**
-2. Click **Add** **Users**
+1. Click **Members.**
+2. Click **Add** **Users.**
 
 ![](<../../../../../../.gitbook/assets/image (412).png>)
 

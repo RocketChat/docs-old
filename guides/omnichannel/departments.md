@@ -24,9 +24,9 @@ To create a new Omnichannel department:
 1. **Enabled**: Enables your new department.
 2. **Name:** Name of the new department.
 3. **Description**. An optional field that lets you set the department description
-4. **Show on registration page:** Allow your visitor to have the option to choose the department they want to talk to. The option will appear to your customer in the Live Chat widget, as shown below:
+4. **Show on the registration page:** Allow your visitor to have the option to choose the department they want to talk to. The option will appear to your customer in the Live Chat widget, as shown below:
 
-![Live Chat widget select department](../../.gitbook/assets/Live%20Chat%20widget%20select%20department)
+<figure><img src="../../.gitbook/assets/Livechat widget select department" alt=""><figcaption><p>Live Chat widget select department</p></figcaption></figure>
 
 5\. **Email**: Forward your Omnichannel conversations to the email address of your choice, during the hours you are offline.
 

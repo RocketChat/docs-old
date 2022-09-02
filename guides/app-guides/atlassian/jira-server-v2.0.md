@@ -43,13 +43,13 @@ Here you can connect your channel or private group to different Jira Servers. Th
 
 To add a new Jira Server connection from the _Room Preferences_ dialog, click on the "Connect to another Jira Server" button. You will be prompted with a form to fill in the details for the connection:
 
-![New Jira Server form](<../../../.gitbook/assets/image (7) (1).png>)
+![New Jira Server form](<../../../.gitbook/assets/image (7).png>)
 
 > **Note**: We advise against using your own Jira user in the installation process. That is because the Rocket.Chat App has to persist the credentials to be able to search for projects and issues later on. We recommend creating a new user with administrative privileges. After the installation process, you can revoke those privileges from the user.
 
 After successfully connecting to the server (the app will let you know if anything goes wrong), just select the new server from the list to integrate it with your channel/private group.
 
-![Select the new server to integrate with it](<../../../.gitbook/assets/image (8).png>)
+![Select the new server to integrate with it](<../../../.gitbook/assets/image (8) (1).png>)
 
 Hit "Save" and you're good to go!
 

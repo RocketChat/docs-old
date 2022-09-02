@@ -12,13 +12,13 @@ Rooms make workflows structured, purpose-oriented and coherent. You can make the
 
 Rooms with new messages appear bolded.
 
-When using the **Unread Mode**, a new section called **Unread** appears on the left sidebar. All rooms with unread messages move to this new section until the messages have been reads.
+When using the **Unread Mode**, a new section called **Unread** appears on the left sidebar. All rooms with unread messages move to this new section until the messages have been read.
 
 To activate Unread Mode, go to **My Account**> **Preferences**. Change the **Sidebar channel list mode** setting to **Unread Rooms Mode**.
 
 ## Mentions
 
-When someone mentions you with `@username`, `@all` or `@here`, a symbol or a number will appear alongside the channel name. When mentioned, an `@` symbol appears next to your name. If someone mentions `@all` or `@here` a number will show up showing the number of times the mention is specific to you.
+When someone mentions you with `@username`, `@all` or `@here`, a symbol or a number will appear alongside the channel name. When mentioned, a `@` symbol appears next to your name. If someone mentions `@all` or `@here` a number will show up showing the number of times the mention is specific to you.
 
 ## Notifications Preferences
 
@@ -27,13 +27,11 @@ There are several notification settings a user can customize to Rooms. To find n
 * **Mute/Receive alerts:** Receive or mute any notifications from a room.
 * **Mute/Receive mentions:** Receive or mute notifications for mentions while receiving notifications for messages in a room.
 * **Hide/Show counter:** Show the number of unread messages for a room.
-* **Notification sound:** Choose a sound for notifications besides the alerts default **Desktop**.  Mobile currently supports only the alerts inside your mobile device. You can also select when to play the alert, duration of the alert, and the alert itself.
+* **Notification sound:** Choose a sound for notifications besides the alerts default **Desktop**. Mobile currently supports only the alerts inside your mobile device. You can also select when to play the alert, the duration of the alert, and the alert itself.
 
 > There are some default choices for audio provided by Rocket.Chat. However, you also get to choose custom audio files for the same. Get further information about [Custom Sounds](../../administration/admin-panel/custom-sounds.md).
 
 ## Types of Rooms in Rocket.Chat:
-
-
 
 {% embed url="https://docs.rocket.chat/guides/user-guides/rooms/channels" %}
 
@@ -46,4 +44,3 @@ There are several notification settings a user can customize to Rooms. To find n
 {% embed url="https://docs.rocket.chat/guides/user-guides/channels/direct-messages" %}
 
 {% embed url="https://docs.rocket.chat/guides/user-guides/channels/threads" %}
-

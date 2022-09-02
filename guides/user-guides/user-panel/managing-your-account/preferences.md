@@ -2,7 +2,7 @@
 
 In the [_Preferences_](https://open.rocket.chat/account/preferences) section, you can configure and set your own preferences on Rocket.Chat server.
 
-To access this menu, click on your **profile** and go to **My Account** > **Preferences**.
+To access this menu, navigate to **Avatar Menu > My Account** > **Preferences.**
 
 ![](<../../../../.gitbook/assets/image (670) (1) (1) (1) (1) (1).png>)
 

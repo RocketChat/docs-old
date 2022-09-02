@@ -1,6 +1,8 @@
 # Security
 
-To access this menu, click on your **profile** and go to **My Account** > **Security**.
+To access this menu, navigate to **Avatar Menu > My Account** > **Security**.
+
+![](<../../../../.gitbook/assets/image (647) (1) (2).png>)
 
 ![](<../../../../.gitbook/assets/image (676) (2).png>)
 

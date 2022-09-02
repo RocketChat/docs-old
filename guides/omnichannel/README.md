@@ -1,6 +1,6 @@
 # Omnichannel
 
-The Rocket.Chat [Omnichannel](https://en.wikipedia.org/wiki/Omnichannel)capabilities give you the possibility to streamline conversations from various mediums into Rocket.Chat. This feature can be extended in several ways
+The Rocket.Chat [Omnichannel](https://en.wikipedia.org/wiki/Omnichannel) capabilities give you the possibility to streamline conversations from various mediums into Rocket.Chat. This feature can be extended in several ways
 
 * You can integrate the [Omnichannel Live Chat pop-up widget](livechat-widget-installation.md) into your website that can serve as an entry point for communication or direct support to your customers or visitors.
 * Using advanced [Omnichannel Apps](../app-guides/omnichannel-apps/) and integrations, provide for a seamless experience between Rocket.Chat and external users from other communication platforms like
@@ -39,7 +39,7 @@ Omnichannel area of Rocket.Chat has three primary users.
 2. [Managers](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel-manger-guides)
 3. [Agents](https://docs.rocket.chat/guides/omnichannel/agents)
 
-Being an [Omnichannel manager](managers.md), you can access Omnichannel settings by **Avatar Menu  > Omnichannel**
+Being an [Omnichannel manager](managers.md), you can access Omnichannel settings by **Avatar Menu > Omnichannel**
 
 ![Omnichannel panel](<../../.gitbook/assets/image (58).png>)
 

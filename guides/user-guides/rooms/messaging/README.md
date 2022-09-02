@@ -2,11 +2,15 @@
 
 This page explains the ins and outs of messaging in Rocket.Chat.
 
+{% hint style="info" %}
+Make sure to go through [setting permissions for messages](https://docs.rocket.chat/guides/administration/admin-panel/settings/message) to be able to access all these features mentioned below!
+{% endhint %}
+
 ## Compose messages
 
 To compose a message in Rocket.Chat, go to the channel or user you want to send a message. Type message in the message box and press Enter or the **Send** Button.
 
-If you want to add new lines of text, press `Shift + Command` to add a new line.
+If you want to add new lines of text, press `Shift + Enter` to add a new line.
 
 ## Cursor Movement
 

@@ -2,10 +2,10 @@
 
 You can use **Invite Users** option to invite users to your channel.
 
-To add a new user:
+#### To invite users:
 
-1. Click **Members**
-2. Click **Invite** **Users**
+1. Click **Members.**
+2. Click **Invite** **Users.**
 
 ![](<../../../../../../.gitbook/assets/image (407).png>)
 
@@ -14,7 +14,7 @@ To add a new user:
 ![](<../../../../../../.gitbook/assets/image (388).png>)
 
 {% hint style="info" %}
-The link works for the user who is already on your workspace or outside of it. In case your invitee is outside of your rocket.chat workspace, they can use this link to register to your workspace and then use the channel.
+The link works for the user who is already in your workspace or outside of it. In case your invitee is outside of your rocket.chat workspace, they can use this link to register to your workspace and then use the channel.
 {% endhint %}
 
 ## Edit Invite Link

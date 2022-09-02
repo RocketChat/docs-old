@@ -6,9 +6,7 @@ The Facebook Messager page lets you manage conversations from Facebook Messenger
 As a Rocket.Chat [Enterprise user](../enterprise-edition-trial/) you can make use of the[ Facebook App](../app-guides/omnichannel-apps/facebook-app/).
 {% endhint %}
 
-To access this section, navigate to **Avatar Menu  > Omnichannel > Facebook Messanger**.&#x20;
-
-
+To access this section, navigate to **Avatar Menu > Omnichannel > Facebook Messanger**.
 
 ![](<../../.gitbook/assets/0 (8) (5) (5) (5) (5) (5) (4) (4) (1) (1) (1) (18).png>)
 

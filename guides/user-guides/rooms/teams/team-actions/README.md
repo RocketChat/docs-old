@@ -19,4 +19,3 @@ You can perform the various activities on your Rocket.Chat team.
 {% content-ref url="hide-or-leave-a-team.md" %}
 [hide-or-leave-a-team.md](hide-or-leave-a-team.md)
 {% endcontent-ref %}
-

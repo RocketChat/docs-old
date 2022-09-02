@@ -13,7 +13,7 @@ Use the following parameters to delete specific messages:
 
 Fill dates for both the `Newer than` and `Older than` fields to delete all messages.
 
-* `Users`: Allows you to specify any users to delete the content. When filled with a username, that user's messages deleted.
+* `Users`: Allows you to specify any users to delete the content. When filled with a username, that user's messages are deleted.
 
 Refine the parameters above with the following options. Check each to enable:
 

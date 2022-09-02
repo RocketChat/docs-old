@@ -10,11 +10,11 @@ You can leverage teams for specific discussions and topics. When creating a team
 
 Setting up your first team is easy, and both community and enterprise clients can access the feature. Follow the steps below to create your very first team:
 
-* Click **Create New** - **Team**
+* Click **Create New** > **Team**
 
 ![](<../../../../.gitbook/assets/image (339).png>)
 
-* Define privacy and encryption options for your team. Include all members who should join the team. Click **Create**
+* Define privacy and encryption options for your team. Include all members who should join the team. Click **Create.**
 
 ![](<../../../../.gitbook/assets/image (340).png>)
 
