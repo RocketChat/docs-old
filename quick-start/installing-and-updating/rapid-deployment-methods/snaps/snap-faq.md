@@ -16,7 +16,7 @@ You can change the default port (port 3000) to something else by changing the `p
 sudo snap set rocketchat-server port=8080
 ```
 
-Make sure you restart the `rocketchat-service` service afterwards for the change to take effect. Read [here](https://docs.rocket.chat/installing-and-updating/snaps#i-need-to-restart-rocket-chat-how-do-i-do-this) for more information on that. **Your only need to restart the RocketChat application itself, not the database or Caddy**.
+Make sure you restart the `rocketchat-service` service afterwards for the change to take effect. Read [here](https://docs.rocket.chat/installing-and-updating/snaps#i-need-to-restart-rocket-chat-how-do-i-do-this) for more information on that. **Your only need to restart the Rocket.Chat application itself, not the database or Caddy**.
 
 For enabling TLS/SSL, check out our guide for enabling caddy [here](auto-ssl-with-snaps.md).
 
@@ -250,7 +250,7 @@ sudo snap start rocketchat-server.rocketchat-server
 
 ### How do I access the MongoDB Shell?
 
-You might want to access the mongo shell shipped with our RocketChat snap. To do so, run:
+You might want to access the mongo shell shipped with our Rocket.Chat snap. To do so, run:
 
 ```
 rocketchat-server.mongo

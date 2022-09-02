@@ -1,6 +1,6 @@
 ---
 description: >-
-  With RocketChat OAuth Applications, you can set up custom applications to be
+  With Rocket.Chat OAuth Applications, you can set up custom applications to be
   used for Open Authentication.
 ---
 

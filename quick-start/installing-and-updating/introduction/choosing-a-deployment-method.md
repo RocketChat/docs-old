@@ -1,6 +1,6 @@
 # Choosing a Deployment Method
 
-RocketChat offers a series of deployment methods and making a choice on which to use can get a little conflicting.
+Rocket.Chat offers a series of deployment methods and making a choice on which to use can get a little conflicting.
 
 Although we recommend using [Docker and Docker Compose](../rapid-deployment-methods/docker-and-docker-compose/), you may want to know when best to consider any of the other deployment methods.
 

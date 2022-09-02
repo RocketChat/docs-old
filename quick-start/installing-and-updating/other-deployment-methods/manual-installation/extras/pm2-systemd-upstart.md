@@ -16,7 +16,7 @@ With the contents:
 
 ```
 [Unit]
-Description=RocketChat Server
+Description=Rocket.Chat Server
 After=network.target remote-fs.target nss-lookup.target mongod.target nginx.target  # Remove or Replace nginx with your proxy
 
 [Service]
@@ -137,9 +137,9 @@ end script
 Save as: `/etc/init/rocketchat_app.conf`
 
 ```
-description "Rocketchat service manager"
+description "Rocket.Chat service manager"
 
-# Start Rocketchat after mongo upstart job is running
+# Start Rocket.Chat after mongo upstart job is running
 start on (started rocketchat_mongo)
 stop on runlevel [!2345]
 

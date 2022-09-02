@@ -39,7 +39,7 @@ Replace email, HipChat & Slack with the ultimate team chat software solution.
  In case you do own a registered domain, but you do not want to use traefik, you can just configure your site URL running:
   # rocketchatctl configure --rocketchat --root-url=http://chat.yourcompany.com:3000
 
- Keep your RocketChat server updated using rocketchatctl update. Run rocketchatctl -h to see the full list of available options.
+ Keep your Rocket.Chat server updated using rocketchatctl update. Run rocketchatctl -h to see the full list of available options.
 
  Looking for how to use Rocket.Chat? Be sure to check our docs: https://docs.rocket.chat
 

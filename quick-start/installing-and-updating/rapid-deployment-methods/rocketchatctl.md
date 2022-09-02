@@ -1,8 +1,8 @@
 # RocketChatCTL
 
-`rocketchatctl` is a command line tool written in bash to help you install and configure a RocketChat server in a Linux host, it will take care of everything needed for the server to run, configure extra repositories and install needed libraries to install the correct node version and mongo server, and it will also set up directories and permissions, and configure the systemd files for these new services.
+`rocketchatctl` is a command line tool written in bash to help you install and configure a Rocket.Chat server in a Linux host, it will take care of everything needed for the server to run, configure extra repositories and install needed libraries to install the correct node version and mongo server, and it will also set up directories and permissions, and configure the systemd files for these new services.
 
-Once you have your rocketchat server installed and running, you can use the same command to easily keep that Rocketchat server installation up to date, rocketchatctl can check for Rocketchat updates available and update it to the latest release.
+Once you have your rocketchat server installed and running, you can use the same command to easily keep that Rocket.Chat server installation up to date, rocketchatctl can check for Rocket.Chat updates available and update it to the latest release.
 
 Furthermore, rocketchatctl optionally installs a loadbalancer/proxy with auto SSL provided by Let's Encrypt.
 
@@ -27,29 +27,29 @@ We understand that some users could already have node, mongo, or even a webserve
 Run `rocketchatctl help` and check options and flags:
 
 ```
-rocketchatctl command line tool to install and update RocketChat server
+rocketchatctl command line tool to install and update Rocket.Chat server
 
 Usage: rocketchatctl [options] [--root-url=ROOT_URL --port=PORT --letsencrypt-email=EMAIL --webserver=WEBSERVER  --version=VERSION --install-node --use-mongo]
-Installs node, mongo, RocketChat server and optionally a webserver (Caddy or Traefik), sets up directories and permissions to use Let's Encrypt certificates.
+Installs node, mongo, Rocket.Chat server and optionally a webserver (Caddy or Traefik), sets up directories and permissions to use Let's Encrypt certificates.
 In case node or mongo already installed, it uses already installed versions though confirmation is required.
 For node it set v8.11.4 as default in your system, for mongo mmapv1 storage engine and no authentication enabled is required during installation.
 If you wish this script to run unattended, provide extra flags to the install option, server URL is required (--root-url).
 
 OPTIONS
   -h help                   Display this message
-  install                   Install latest RocketChat server version
-  update                    Update RocketChat server from current version to latest version
-  check-updates             Check for updates of RocketChat server
+  install                   Install latest Rocket.Chat server version
+  update                    Update Rocket.Chat server from current version to latest version
+  check-updates             Check for updates of Rocket.Chat server
   upgrade-rocketchatctl     Upgrade the rocketchatctl command line tool.
 
 FOR UNATTENDED INSTALLATION
-  --root-url=ROOT_URL       the public URL where RocketChat server will be accessible on the Internet (REQUIRED)
-  --port=PORT               port for the RocketChat server, default value 3000
-  --webserver=WEBSERVER     webserver to install as reverse proxy for RocketChat server, options are caddy/traefik/none (REQUIRED)
+  --root-url=ROOT_URL       the public URL where Rocket.Chat server will be accessible on the Internet (REQUIRED)
+  --port=PORT               port for the Rocket.Chat server, default value 3000
+  --webserver=WEBSERVER     webserver to install as reverse proxy for Rocket.Chat server, options are caddy/traefik/none (REQUIRED)
   --letsencrypt-email=EMAIL e-mail address to use for SSL certificates (REQUIRED if webserver is not none)
-  --version=VERSION         RocketChat server version to install, default latest
-  --install-node            in case node installed, sets node to RocketChat server recommended version, default behavoir cancel RocketChat server installation
-  --use-mongo               in case mongo installed, and storage engine configured is mmapv1, skip mongo installation but uses systems mongo for RocketChat server database, default database name rocketchat
+  --version=VERSION         Rocket.Chat server version to install, default latest
+  --install-node            in case node installed, sets node to Rocket.Chat server recommended version, default behavoir cancel Rocket.Chat server installation
+  --use-mongo               in case mongo installed, and storage engine configured is mmapv1, skip mongo installation but uses systems mongo for Rocket.Chat server database, default database name rocketchat
 ```
 
 ## How to use it
@@ -86,7 +86,7 @@ Check for release updates:
 
 ```bash
 rocketchatctl check-updates
-Current update available for RocketChat server: from 3.8.0 to 3.9.0
+Current update available for Rocket.Chat server: from 3.8.0 to 3.9.0
 ```
 
 And update to the latest release:

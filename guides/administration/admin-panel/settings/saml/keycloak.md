@@ -13,7 +13,7 @@ Keycloak:
 
 ## Setting up Rocketchat
 
-Go to the SAML settings in Rocketchat administration:
+Go to the SAML settings in Rocket.Chat administration:
 
 * Decide the keycloak server "nickname" - e.g. `keycloak`.
 * For the custom entry point and IDP SLO Redirect URL, go for `https://sso.example.com/auth/realms/<realm>/protocol/saml`
@@ -28,8 +28,8 @@ Create client, and now revisit its settings:
 
 * Check out Valid Redirect URIs - make sure that it is set to `https://r.example.com/_saml/validate/keycloak`.
 * Set the `Name ID Format` to `email`.
-* Go to the `SAML Keys` tab, and make sure that the public key (certificate) is the same as the Rocketchat's public key. Note that the `-----BEGIN/END CERTIFICATE-----` header/footer is not supposed to be part of the Keycloak's public key view, but the rest should be the same. If they are not the same, save the Rocketchat public key one into a text file, and import it from Keycloak - use the import PEM functionality.
-*   Go to the Mappers tab, and create mappers for the required data that Rocketchat expects. You shouldn't need `email` or `username`, but you probably need `cn`.
+* Go to the `SAML Keys` tab, and make sure that the public key (certificate) is the same as the Rocket.Chat's public key. Note that the `-----BEGIN/END CERTIFICATE-----` header/footer is not supposed to be part of the Keycloak's public key view, but the rest should be the same. If they are not the same, save the Rocket.Chat public key one into a text file, and import it from Keycloak - use the import PEM functionality.
+*   Go to the Mappers tab, and create mappers for the required data that Rocket.Chat expects. You shouldn't need `email` or `username`, but you probably need `cn`.
 
     Click Create, and choose the type `User Property` and set the `SAML Attribute NameFormat` to `basic`. For the first name, set `Name` and `Property` to `firstName`, and `SAML Attribute name` to `cn`.
 

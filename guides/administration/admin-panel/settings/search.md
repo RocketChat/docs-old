@@ -4,7 +4,7 @@ description: Select workspace search provider and configure search related setti
 
 # Search
 
-Here you have the ability to configure how searches work on your RocketChat server. This gives you the option of selecting a search provider.
+Here you have the ability to configure how searches work on your Rocket.Chat server. This gives you the option of selecting a search provider.
 
 To access this setting, go to **Administration** > **Settings** > **Search**.
 
