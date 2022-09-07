@@ -53,7 +53,7 @@ We are also planning a virtual conference at the end of the GSoC term - named GS
 | Standalone Desktop Messaging cross-platforms Applet                | [https://github.com/RocketChat/SlimDesktopApp](https://github.com/RocketChat/SlimDesktopApp)                                                             |
 | Weekly Video Meeting and Archive App - BigBlueButton + Rocket.Chat | [https://github.com/RocketChat/Apps.BigBlueButton](https://github.com/RocketChat/Apps.BigBlueButton)                                                     |
 | New Emoji Picker for Mobile Client                                 | [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)                                           |
-| Rocket.Chat for Virtual Conferences - Eventual integration         | [https://github.com/RocketChat/RC4Conferences](https://github.com/RocketChat/RC4Conferences)                                                             |
+| Rocket.Chat for Virtual Conferences - Eventyay integration         | [https://github.com/RocketChat/RC4Conferences](https://github.com/RocketChat/RC4Conferences)                                                             |
 | Rocket.Chat Golang SDK                                             | [https://github.com/RocketChat/Rocket.Chat.Go.SDK](https://github.com/RocketChat/Rocket.Chat.Go.SDK)                                                     |
 | Figma App ( Rocket.Chat Integration )                              | [https://github.com/RocketChat/Apps.Figma](https://github.com/RocketChat/Apps.Figma)                                                                     |
 | ClickUp App for Rocket.Chat                                        | [https://github.com/RocketChat/Apps.ClickUp](https://github.com/RocketChat/Apps.ClickUp)                                                                 |
@@ -77,7 +77,7 @@ We are also planning a virtual conference at the end of the GSoC term - named GS
 | Ahmed Ibrahim      | Standalone Desktop Messaging cross-platforms Applet                | Jean Brito, Gabriel Casals                    |
 | Aswini             | Weekly Video Meeting and Archive App - BigBlueButton + Rocket.Chat | Debdut Chakraborty, Felipe Cecagno            |
 | Danish Ahmed Mirza | New Emoji Picker for Mobile Client                                 | Diego Mello, Daniel Silva                     |
-| Dnouv              | Rocket.Chat for Virtual Conferences - Eventual integration         | Sing Li, Marcos Defendi                       |
+| Dnouv              | Rocket.Chat for Virtual Conferences - Eventyay integration         | Sing Li, Marcos Defendi                       |
 | Evan Slack         | Rocket.Chat Golang SDK                                             | cauefcr, Aaron Ogle                           |
 | Irfan Asif         | Figma App ( Rocket.Chat Integration )                              | Douglas Gubert, Ivan Netto,  Alvaro Mello     |
 | Mustafa Hasan Khan | ClickUp App for Rocket.Chat                                        | Douglas Gubert, Allan Ribeiro                 |
@@ -206,15 +206,15 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Difficulty:** Easy
 
-### **Rocket.Chat for Virtual Conferences - Eventual integration**
+### **Rocket.Chat for Virtual Conferences - Eventyay integration**
 
 **Mentors:** Marcos Defendi, Sing Li
 
-**Description:** Create a totally open source end-to-end solution for planning, management and running of online virtual events. Investigate integration with FOSSASIA's Eventual platform for even planning and management. Day of event conference handling should be done by integrating RC4Community's virtual conference NextJS component with open-event-next - or create an even tighter integration with RC4Community.
+**Description:** Create a totally open source end-to-end solution for planning, management and running of online virtual events. Investigate integration with FOSSASIA's Eventyay platform for even planning and management. Day of event conference handling should be done by integrating RC4Community's virtual conference NextJS component with open-event-next - or create an even tighter integration with RC4Community.
 
 **Desired Skills:** ReactJS and NextJS development experience. Fluent with Python development. Good understanding of video conference technology (such as Jitsi) and realtime chat platforms (such as Rocket.Chat).\
 \
-**Goals/Deliverables:** Open source virtual conference system integrating Rocket.Chat and Eventual.
+**Goals/Deliverables:** Open source virtual conference system integrating Rocket.Chat and Eventyay.
 
 **Project Duration: 350** hours. (Large)
 
