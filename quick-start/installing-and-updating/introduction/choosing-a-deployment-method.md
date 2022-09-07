@@ -43,7 +43,7 @@ This is something that’s ignored very frequently but should be considered for 
 
 This scorecard shows a rating(on 05) of each deployment method against each consideration.
 
-|                         |                    Docker                   |                    Snaps                   |                                                                           One Click Deploment                                                                          |
+|                         |                    Docker                   |                    Snaps                   |                                                                           One Click Deployment                                                                          |
 | ----------------------- | :-----------------------------------------: | :----------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | **Scalability**         | <mark style="color:blue;">**`3.75`**</mark> |  <mark style="color:red;">**`1.0`**</mark> |                                                                <mark style="color:red;">**`2.0`**</mark>                                                               |
 | **Ease of Deployment**  | <mark style="color:blue;">**`3.75`**</mark> | <mark style="color:blue;">**`4.5`**</mark> |                                                               <mark style="color:blue;">**`5.0`**</mark>                                                               |

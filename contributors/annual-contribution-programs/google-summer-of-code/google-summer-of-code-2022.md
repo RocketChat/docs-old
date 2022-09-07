@@ -194,7 +194,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 **Mentor(s):** Cauê Felchar, Aaron Ogle
 
-**Description:** Golang module to enable any Go packge to talk to a Rocket.Chat server with ease, making it possible to create from custom clients to bots.
+**Description:** Golang module to enable any Go package to talk to a Rocket.Chat server with ease, making it possible to create from custom clients to bots.
 
 **Goals/Deliverables:**
 

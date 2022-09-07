@@ -24,7 +24,7 @@ Unfortunately, during this time, we had to remove one student from the program d
 
 #### Update on May 8, 2019
 
-2019 is an incredible year for GSoC at Rocket.Chat. Thanks to the ethusiastic early support from students and community (mentors), Google has graciously granted us **SEVENTEEN** project slots. This far surpasses any record from prior years. As a result, we are delighted to welcome these 17 active community members to work with us during the GSoC 2019 season:
+2019 is an incredible year for GSoC at Rocket.Chat. Thanks to the enthusiastic early support from students and community (mentors), Google has graciously granted us **SEVENTEEN** project slots. This far surpasses any record from prior years. As a result, we are delighted to welcome these 17 active community members to work with us during the GSoC 2019 season:
 
 | Student           | Project                                                                                   | Mentors                                                    |
 | ----------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
@@ -48,7 +48,7 @@ Unfortunately, during this time, we had to remove one student from the program d
 
 It was a very difficult decision for many mentors to select from the large number of highly qualified students (we were able to engage the students early on in the GSoC cycle with open source contributions via the [GSoC Leaderboard](https://gsoc.rocket.chat/) ).
 
-Some high calibre open source contributors were not selected for GSoC; to accomodate these exceptional students, our community member [Viasat](https://www.viasat.com/) has agreed to sponsor an additional FOUR projects this season. Rocket.Chat has in addition sponsored ONE qualified student with special circumstances to work with us for the term.
+Some high calibre open source contributors were not selected for GSoC; to accommodate these exceptional students, our community member [Viasat](https://www.viasat.com/) has agreed to sponsor an additional FOUR projects this season. Rocket.Chat has in addition sponsored ONE qualified student with special circumstances to work with us for the term.
 
 | Student            | Sponsored Project                                                         |
 | ------------------ | ------------------------------------------------------------------------- |
@@ -58,7 +58,7 @@ Some high calibre open source contributors were not selected for GSoC; to accomo
 | SShi-qi Mei        | Performance optimizations for ReactNative Client                          |
 | Prajval Raval      | Google Action for Google Home and Server-side improvements to support VUI |
 
-This, in combination, allowed us to accomodate a total of **TWENTY TWO** ethusiastic students this summer season.
+This, in combination, allowed us to accommodate a total of **TWENTY TWO** enthusiastic students this summer season.
 
 All students and mentors are now busy mutually bonding and with our core team and greater community. Each mentor is also working with his/her student on refining the weekly and monthly milestones/deliverables within the proposal to better reflect achievable project objectives as well as making them measurable for the monthly evaluations. Meanwhile, all our students are continuing to contribute to the Rocket.Chat open source project(s) as they have been doing since the start of the GSoC 2019 cycle.
 

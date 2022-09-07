@@ -111,7 +111,7 @@ Interested students are also encouraged to interact with our contributor communi
 ### NextCloud as a Storage Provider
 
 * **Mentors:** @guilherme.gazzo, @bjoern.schiessle (Nextcloud Guest Mentor)
-* **Description:** (1) Enabling Rocket.Chat server adminstrator to use an NextCloud instance for storage of upload. (2) Within Rocket.Chat client user interface, allow access to the contents on a user's NextCloud instance
+* **Description:** (1) Enabling Rocket.Chat server administrator to use an NextCloud instance for storage of upload. (2) Within Rocket.Chat client user interface, allow access to the contents on a user's NextCloud instance
 * **Desirable Skills:** Familiarity with both Rocket.Chat and NextCloud development.
 
 ### Snap Crafting
