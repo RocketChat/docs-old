@@ -2,7 +2,7 @@
 
 Real-time monitoring allows you to monitor your incoming and ongoing Live Chat conversations in real-time.
 
-To access the Omnichannel Real-time monitoring dashboard, go to **Avatar Menu  > Omnichannel > Real-time Monitoring**.&#x20;
+To access the Omnichannel Real-time monitoring dashboard, go to **Avatar Menu > Omnichannel > Real-time Monitoring**.
 
 These monitoring metrics can be filtered as per the **department** and set to be updated in a specified amount of time by changing the **Update every** field.
 
@@ -12,7 +12,7 @@ When a [Live Chat](livechat-widget-installation.md) conversation is initiated, i
 
 This section shows matrices about all Live Chat conversations
 
-![Live Chat Real-time conversation metrics](<../../.gitbook/assets/Live Chat Real-time conversation metrics>)
+<figure><img src="../../.gitbook/assets/Livechat Real-time conversation metrics" alt=""><figcaption><p>Live Chat Real-time conversation metrics</p></figcaption></figure>
 
 * **Total Conversations:** It represents the total number of conversations at the current time.
 * **Open Conversations**: This shows the number of open conversations for your selected department at the current moment.
@@ -22,7 +22,7 @@ This section shows matrices about all Live Chat conversations
 
 ## Monitoring Chat Metrics
 
-![Live Chat Real-time Chat metrics](<../../.gitbook/assets/Live Chat Real-time Chat metrics>)
+<figure><img src="../../.gitbook/assets/Livechat Real-time Chat metrics" alt=""><figcaption><p>Live Chat Real-time Chat metrics</p></figcaption></figure>
 
 * **Total Abandoned Chats:** It represents the total number of conversations abandoned by the visitor for your selected department's current day.
 * **Average of Abandoned Chats:** Shows in percentage the number of chats that are abandoned.
@@ -30,7 +30,7 @@ This section shows matrices about all Live Chat conversations
 
 ## Monitoring Live Chat Metrics by Time
 
-![Live Chat Real-time activity metrics by time](<../../.gitbook/assets/Live Chat Real-time activity metrics by time>)
+<figure><img src="../../.gitbook/assets/Livechat Real-time activity metrics by time" alt=""><figcaption><p>Live Chat Real-time activity metrics by time</p></figcaption></figure>
 
 * **Busiest Time:** It represents the hour(s) during the current day when you received the largest number of incoming chats.
 * **Average of Service Available Time:** It represents how many hours the Omnichannel service was available during the day. It means that at least one agent is available to serve Omnichannel conversations.
