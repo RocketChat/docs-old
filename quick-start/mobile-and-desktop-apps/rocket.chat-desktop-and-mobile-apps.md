@@ -28,11 +28,11 @@ sudo snap install rocketchat-desktop
 
 Snaps auto update so you no longer need to worry about manually keeping the client up to date.
 
-Snaps are also available on other platforms. More information available [here](https://snapcraft.io/docs/core/install).
+Snaps are also available on other platforms. More information is available [here](https://snapcraft.io/docs/core/install).
 
 There is also a Flatpak [package available on Flathub](https://flathub.org/apps/details/chat.rocket.RocketChat).
 
-Alternatively you can download and manually install:
+Alternatively, you can download and manually install:
 
 You can find the download for the latest releases [here](https://github.com/RocketChat/Rocket.Chat.Electron/releases).
 
@@ -54,7 +54,7 @@ This is the official version of our mobile apps both on Google Play and App Stor
 
 #### Rocket.Chat Beta
 
-Beta versions of our apps are available on Google Play beta and TestFlight. Help us testing new features!
+Beta versions of our apps are available on Google Play beta and TestFlight. Help us test new features!
 
 [Rocket.Chat Beta on TestFlight](https://testflight.apple.com/join/3gcYeoMr)
 
@@ -64,7 +64,7 @@ Beta versions of our apps are available on Google Play beta and TestFlight. Help
 
 ### Rocket.Chat Experimental
 
-The Experimental version of our mobile apps is developed using the same technologies and code of the official version. We use it to try new features and get feedback from our users. Only stable features land the official version.
+The Experimental version of our mobile apps is developed using the same technologies and code as the official version. We use it to try new features and get feedback from our users. Only stable features land the official version.
 
 [Rocket.Chat Experimental on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)
 
@@ -72,7 +72,7 @@ _Note: iOS version isn't available on App Store anymore._
 
 #### Rocket.Chat Experimental Beta
 
-Beta versions of our apps are available on Google Play beta and TestFlight. Help us testing new features!
+Beta versions of our apps are available on Google Play beta and TestFlight. Help us test new features!
 
 [Rocket.Chat Experimental Beta on TestFlight](https://testflight.apple.com/join/7I3dLCNT)
 

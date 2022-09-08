@@ -97,7 +97,7 @@ Once you have that all set up and zipped, then you can start the import process.
 
 1. Go to `https://[your_rocketchat]/admin/import/prepare/csv`
 2. Choose your `.zip` file and wait until Rocket.Chat can read it (it can take a few minutes, depending on the size of the file)
-3. Deselect any items you **don't** want to import
-4. At the top of the page, click on Start Importing
+3. Deselect any items you don't want to import
+4. At the top of the page, click on **Start Importing**
 
-When you have problems during the Import, click on "View Logs" in the admin section to get the detailed error messages.
+When you have problems during the Import, click on "**View Logs**" in the admin section to get the detailed error messages.

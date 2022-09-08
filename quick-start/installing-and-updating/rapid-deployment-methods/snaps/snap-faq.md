@@ -10,23 +10,23 @@ If you have special requirements and really need to use the latest release immed
 
 ### How do I access my site at a different port? How do I enable TLS/SSL with my snap?
 
-You can change the default port (port 3000) to something else by changing the `port` configuration option. For example if you wanted to change the HTTP port to 8080 instead of 3000:
+You can change the default port (port 3000) to something else by changing the `port` configuration option. For example, if you wanted to change the HTTP port to 8080 instead of 3000:
 
 ```
 sudo snap set rocketchat-server port=8080
 ```
 
-Make sure you restart the `rocketchat-service` service afterwards for the change to take effect. Read [here](https://docs.rocket.chat/installing-and-updating/snaps#i-need-to-restart-rocket-chat-how-do-i-do-this) for more information on that. **Your only need to restart the Rocket.Chat application itself, not the database or Caddy**.
+Make sure you restart the `rocketchat-service` service afterward for the change to take effect. Read [here](https://docs.rocket.chat/installing-and-updating/snaps#i-need-to-restart-rocket-chat-how-do-i-do-this) for more information on that. **Your only need to restart the Rocket.Chat application itself, not the database or Caddy**.
 
 For enabling TLS/SSL, check out our guide for enabling caddy [here](auto-ssl-with-snaps.md).
 
-### Ubuntu 18.04 LTS gives message "snap not found", what's wrong?
+### Ubuntu 18.04 LTS gives the message "snap not found", what's wrong?
 
 Make sure you're using x64 or amd64 (or armhf) images, especially on VPS or VMs. x86 (32-bit) is not supported.
 
 ### How do I manually update to a new release?
 
-While updates happen automatically usually within 6 hours from time of release, you can update manually by issuing this command:
+While updates happen automatically usually within 6 hours from the time of release, you can update manually by issuing this command:
 
 ```
 sudo snap refresh rocketchat-server
@@ -111,7 +111,7 @@ sudo journalctl -fu snap.rocketchat-server.rocketchat-caddy
 
 If you don't want snaps just updating when available you can set when your snaps will update.
 
-The following example asks the system to only update snaps between 4.00am and 7.00am, and 7.00pm and 10:10pm:
+The following example asks the system only to update snaps between 4.00am and 7.00am, and 7.00pm and 10:10pm:
 
 ```
 sudo snap set system refresh.timer=4:00-7:00,19:00-22:10
@@ -123,7 +123,7 @@ You can find more about your options in the [snapcraft documentation](https://sn
 
 This follows the similar structure as many of the previous questions. You can use both the `snap` command or `systemctl` to restart RocketChat.
 
-With `snap` you get the additional benefit of restarting all of the services with a single command:
+With `snap` you get the added benefit of restarting all of the services with a single command:
 
 ```
 sudo snap restart rocketchat-server
@@ -154,7 +154,7 @@ sudo systemctl restart snap.rocketchat-server.rocketchat-caddy
 
 The snap's policy is to restart on failure.
 
-### How do I backup my Snap data?
+### How do I back up my Snap data?
 
 #### 1. Stop your rocketchat-server:
 
@@ -260,9 +260,9 @@ rocketchat-server.mongo
 
 You can find the mongod configuration file in `/var/snap/rocketchat-server/current/mongod.conf`.
 
-## How do I add option to mount media?
+## How do I add an option to mount media?
 
-Note that the interface providing the ability to access removable media is not automatically connected upon install, so if you'd like to use external storage (or otherwise use a device in `/media` for data), you need to give the snap permission to access removable media by connecting that interface:
+Note that the interface providing the ability to access removable media is not automatically connected upon installation, so if you'd like to use external storage (or otherwise use a device in `/media` for data), you need to give the snap permission to access removable media by connecting that interface:
 
 ```
 sudo snap connect rocketchat-server:removable-media
@@ -293,7 +293,7 @@ snap run <snap.app> --shell
 sudo ./strace
 ```
 
-### How do I change rocket.chat PORT, MONGO\_URL and MONGO\_OPLOG\_URL in my snap?
+### How do I change Rocket.Chat PORT, MONGO\_URL, and MONGO\_OPLOG\_URL in my snap?
 
 Starting from release 0.73, it is possible to configure these environmental variables through snap hooks like this:
 
@@ -319,7 +319,7 @@ sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
 
 ### How do I change other environmental variables in my snap?
 
-Starting from release 0.73, it is possible to overwrite any rocket.chat environmental variables dropping files ending in `.env` in $SNAP\_COMMON directory (`/var/snap/rocketchat-server/common/`), for example, you can create a file to change SMTP settings:
+Starting from release 0.73, it is possible to overwrite any Rocket.Chat environmental variables dropping files ending in `.env` in $SNAP\_COMMON directory (`/var/snap/rocketchat-server/common/`), for example, you can create a file to change SMTP settings:
 
 ```bash
 cat /var/snap/rocketchat-server/common/overwrite-smtp.env

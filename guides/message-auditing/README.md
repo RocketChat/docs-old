@@ -6,7 +6,7 @@ enterprise: true
 
 # Message Auditing Panel
 
-![](../../.gitbook/assets/EnterpriseEditionTag.jpg)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (10) (13) (9).jpg>)
 
 It allows the authorized user to:
 

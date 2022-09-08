@@ -4,13 +4,13 @@ description: Deploying Rocket.Chat on Jelastic
 
 # Jelastic
 
-Rocket.Chat is installed automatically as an application based on prebuilt Docker containers on Jelastic PaaS which supports Java, PHP, Node.js, Ruby, Python, Docker and Kubernetes, available as public, private on-premise, virtual private, hybrid and multi-cloud.
+Rocket.Chat is installed automatically as an application based on prebuilt Docker containers on Jelastic PaaS which supports Java, PHP, Node.js, Ruby, Python, Docker, and Kubernetes, available as public, private on-premise, virtual private, hybrid, and multi-cloud.
 
 ## Rocket.Chat Deployment to the Cloud
 
-Get your Jelastic account at any of available [hosting provider](https://jelastic.cloud/).
+Get your Jelastic account at any of the available [hosting provider](https://jelastic.cloud/).
 
-Click the **DEPLOY TO JELASTIC** button, specify your email address within the widget and press **Install**.
+Click the **DEPLOY TO JELASTIC** button, specify your email address within the widget, and press **Install**.
 
 [![Deploy to Jelastic](https://github.com/jelastic-jps/git-push-deploy/raw/master/images/deploy-to-jelastic.png)](https://jelastic.com/install-application/?manifest=https://raw.githubusercontent.com/jelastic-jps/rocket-chat/master/manifest.jps)
 
@@ -34,9 +34,8 @@ Once the deployment is finished, you’ll see an appropriate success pop-up.
 
 The application is ready to use just press **Open in Browser** button and proceed to admin account setup and to configuration and customization.
 
-For production mode, the installation will require a custom domain and traffic encryption with valid SSL certificate wich can be installed with [Let's Encrypt SSL Add-On](https://jelastic.com/blog/free-ssl-certificates-with-lets-encrypt/). Learn more how to [install Rocket.Chat in Jelastic](https://jelastic.com/blog/install-rocketchat-server/).
+For production mode, the installation will require a custom domain and traffic encryption with a valid SSL certificate which can be installed with [Let's Encrypt SSL Add-On](https://jelastic.com/blog/free-ssl-certificates-with-lets-encrypt/). Learn more on how to [install Rocket.Chat in Jelastic](https://jelastic.com/blog/install-rocketchat-server/).
 
 The installation process itself looks simple.
 
 ![](https://github.com/jelastic-jps/rocket-chat/raw/master/images/rocketchat.gif)
-

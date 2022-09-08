@@ -4,11 +4,11 @@ This guide will focus on customizations that non-technical users can make to the
 
 ## Layout
 
-Here is where most of the changes to the UI will happen. Found in the administration menu.
+Here is where most of the changes to the UI will happen. Found in the **Administration** panel.
 
 ### Colors
 
-Let’s start out with the most basic changes you can make to your server, changing colors. Rocket.Chat offers the ability to change most of its elements colors
+Let’s start out with the fundamental changes you can make to your server, changing colors. Rocket.Chat offers the ability to change most of its elements colors
 
 ### Error
 
@@ -26,7 +26,7 @@ The color of the line when you have unread messages (same day or another)
 The close button in the audio upload area (inside message box)
 ```
 
-![Message box with audio recording](<../../.gitbook/assets/audio-message-box (1) (2) (2) (2) (2) (2) (3) (3) (3) (3) (3) (3) (3) (5) (5) (5) (1) (1) (1) (1) (4) (10) (11).png>)
+![Message box with audio recording](<../../.gitbook/assets/audio-message-box (1) (2) (2) (2) (2) (2) (3) (3) (3) (3) (3) (3) (3) (5) (5) (5) (1) (1) (1) (1) (4) (10) (11) (6).png>)
 
 ```
 The leave/delete button in the room info
@@ -62,7 +62,7 @@ Remove user from room button (user info -> more actions)
 
 The Error Light variable will change these elements: The border color when disabled
 
-![Disabled switch button](<../../.gitbook/assets/disabled-switch (2) (2) (2) (2) (2) (3) (3) (3) (3) (3) (3) (3) (4) (1) (1) (1) (4) (10) (8).png>)
+![Disabled switch button](<../../.gitbook/assets/disabled-switch (2) (2) (2) (2) (2) (3) (3) (3) (3) (3) (3) (3) (4) (1) (1) (1) (4) (10) (3) (9).png>)
 
 ```
 Icon on the burger menu in mobile-view
@@ -182,7 +182,7 @@ Room info save button
 Checkbox background (Don't ask me again / modal)
 ```
 
-![Don't ask me again checkbox](<../../.gitbook/assets/checked-dont-ask-me-again (1) (2) (2) (2) (2) (2) (2) (1) (1) (1) (1) (4) (10) (8).png>)
+![Don't ask me again checkbox](<../../.gitbook/assets/checked-dont-ask-me-again (1) (2) (2) (2) (2) (2) (2) (1) (1) (1) (1) (4) (10) (3) (9).png>)
 
 ### Button Primary Light
 
@@ -206,7 +206,7 @@ Border and font color in mail messages instructions (inside room -> more actions
 
 The Alert Message Primary Background variable will change these elements: Background color in mail messages instructions
 
-![Send messages by email alert](<../../.gitbook/assets/mail-messages-blue-div (1) (2) (2) (2) (2) (2) (4) (4) (4) (1) (1) (1) (1) (3) (10) (11).png>)
+![Send messages by email alert](<../../.gitbook/assets/mail-messages-blue-div (1) (2) (2) (2) (2) (2) (4) (4) (4) (1) (1) (1) (1) (3) (10) (11) (8).png>)
 
 ### Alert Message Secondary
 
@@ -224,7 +224,7 @@ The Alert Message Secondary Background variable will change these elements: Back
 
 The Alert Message Warning variable will change these elements: Border and font color in mail messages instructions error
 
-![Invalid email alert](<../../.gitbook/assets/email-error (2) (2) (2) (2) (2) (4) (1) (1) (1) (1) (3) (10) (11).png>)
+![Invalid email alert](<../../.gitbook/assets/email-error (2) (2) (2) (2) (2) (4) (1) (1) (1) (1) (3) (10) (11) (6).png>)
 
 ```
 Border and font color in prune messages warning (room -> more actions -> prune messages)
@@ -242,7 +242,7 @@ The Alert Message Warning Background variable will change these elements: Backgr
 Background color in prune messages warning
 ```
 
-![Delete all messages alert](<../../.gitbook/assets/delete-all-messages (2) (2) (2) (2) (2) (4) (4) (1) (1) (1) (4) (2) (9).png>)
+![Delete all messages alert](<../../.gitbook/assets/delete-all-messages (2) (2) (2) (2) (2) (4) (4) (1) (1) (1) (4) (2) (4) (4).png>)
 
 ### Primary
 
@@ -350,7 +350,7 @@ Settings title on admin
 Font color in marketplace
 ```
 
-![Apps list](<../../.gitbook/assets/apps-list (2) (2) (2) (2) (2) (4) (3) (1) (1) (1) (4) (10) (9).png>)
+![Apps list](<../../.gitbook/assets/apps-list (2) (2) (2) (2) (2) (4) (3) (1) (1) (1) (4) (10) (3) (9).png>)
 
 ### Primary Light Medium
 

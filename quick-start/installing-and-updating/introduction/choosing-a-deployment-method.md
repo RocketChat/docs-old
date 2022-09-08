@@ -43,7 +43,7 @@ This is something that’s ignored very frequently but should be considered for 
 
 This scorecard shows a rating(on 05) of each deployment method against each consideration.
 
-|                         |                    Docker                   |                    Snaps                   |                                                                           One Click Deployment                                                                          |
+|                         |                    Docker                   |                    Snaps                   |                                                                          One Click Deployment                                                                          |
 | ----------------------- | :-----------------------------------------: | :----------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | **Scalability**         | <mark style="color:blue;">**`3.75`**</mark> |  <mark style="color:red;">**`1.0`**</mark> |                                                                <mark style="color:red;">**`2.0`**</mark>                                                               |
 | **Ease of Deployment**  | <mark style="color:blue;">**`3.75`**</mark> | <mark style="color:blue;">**`4.5`**</mark> |                                                               <mark style="color:blue;">**`5.0`**</mark>                                                               |
@@ -59,7 +59,7 @@ This scorecard shows a rating(on 05) of each deployment method against each cons
 * Scaling your Rocket.Chat deployment using Docker, more specifically, Docker Compose is quite easy. As easy as editing a text file can be.
 *   To install using Docker Compose, we just needed a single `YAML` file, namely a compose file. How easier can it really be?
 
-    But, even though the Rocket.Chat deployment part is easy, the initial setup needs a little more work. Configuring and securing docker can get even more complicated, although worth it, isn’t the easiest, especially compared to some of the other options we have in this list.
+    But, even though the Rocket.Chat deployment part is easy, the initial setup needs a little more work. Configuring and securing docker can get even more complicated, although worth it, isn’t the easiest, especially compared to some of the other options we have on this list.
 * Maintaining the installation using Docker is also very easy. From changing configurations, data backups to updating components, it is very straightforward and easy to do.
 * Docker deployment is officially supported by Rocket.Chat.
 * Docker has a large following and a huge community around it. It is one of the easiest tools to get help from the community.

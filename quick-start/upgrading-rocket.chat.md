@@ -26,7 +26,7 @@ docker-compose up -d rocketchat
 
 ## Updating Rocket.Chat Snap
 
-The Rocket.Chat snap installation puts you on the `latest` track at the time of installing, this means you will always get the latest releases on that track.
+The Rocket.Chat snap installation puts you on the `latest` track at the time of installation, which means you will always get the latest releases on that track.
 
 {% hint style="info" %}
 It is highly advised to [backup your data](installing-and-updating/rapid-deployment-methods/snaps/snap-backup-and-restore.md#backup-rocket.chat-snap-data) before upgrading
@@ -71,7 +71,7 @@ To update your Rocket.Chat Digital Ocean Droplet:
    `sudo apt-get -y update && sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_14.x | sudo bash setup_14.x`\
    `sudo apt-get install -y nodejs`\
    ``\
-   ``If you face any errors with installing node, reboot your system and you’ll be able to continue with the next steps.\
+   ``If you face any errors with installing the node, reboot your system and you’ll be able to continue with the next steps.\
    ![](<../.gitbook/assets/image (625).png>)
 4. If it is not updated already, change the path to new nodejs in the service config:\
    `sudo nano /lib/systemd/system/rocketchat.service`\

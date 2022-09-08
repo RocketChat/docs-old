@@ -4,9 +4,9 @@ description: Support services applied for legacy products
 
 # Legacy Support
 
-### **Legacy Support Plans**&#x20;
+### **Legacy Support Plans**
 
-No longer offered for new purchases since 1st July 20222.&#x20;
+No longer offered for new purchases since 1st July 2022.&#x20;
 
 * Silver&#x20;
 * Bronze

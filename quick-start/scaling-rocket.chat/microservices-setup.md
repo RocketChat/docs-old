@@ -1,6 +1,6 @@
 # Microservices Setup
 
-![](<../../.gitbook/assets/EnterpriseEditionTag (1).jpg>)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (10) (13) (30).jpg>)
 
 {% hint style="info" %}
 This feature is currently in the beta stage and can change without prior notice.

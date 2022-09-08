@@ -4,13 +4,13 @@ Deploying Rocket.Chat with Docker and Docker Compose is as easy as it can get.
 
 ### Installing Docker and Docker Compose
 
-* If you don't have already, make sure you have [Docker](https://docs.docker.com/install) and [Docker-compose](https://docs.docker.com/compose/install/) (v2 is required) installed and operational. To quickly do that you can use Docker's official helper script
+* If you don't have it already, make sure you have [Docker](https://docs.docker.com/install) and [Docker-compose](https://docs.docker.com/compose/install/) (v2 is required) installed and operational. To quickly do that you can use Docker's official helper script
 
 ```bash
 curl -L https://get.docker.com | sh
 ```
 
-* Navigate to any directory of your choice create a `docker-compose.yml` based on [our example](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml). OR you can download directly by executing the following command on your terminal.
+* Navigate to any directory of your choice and create a `docker-compose.yml` based on [our example](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml). OR you can download it directly by executing the following command on your terminal.
 
 ```bash
 curl -L https://raw.githubusercontent.com/RocketChat/Docker.Official.Image/master/compose.yml -O
@@ -22,11 +22,11 @@ If you are using MongoDB Atlas as the database provider, edit the value of the `
 
 `MONGO_URL=mongodb://<user>:<pass>@host1:27017,host2:27017,host3:27017/<databaseName>?replicaSet=<replicaSet>&ssl=true&authSource=admin`
 
-Environment variables are set using a `.env` file. See the example in [here](https://github.com/RocketChat/Docker.Official.Image/blob/master/env.example). If you cloned the repo initially, you can just rename the example file `cp env.example .env`.&#x20;
+Environment variables are set using a `.env` file. See the example [here](https://github.com/RocketChat/Docker.Official.Image/blob/master/env.example). If you cloned the repo initially, you can just rename the example file `cp env.example .env`.&#x20;
 
 * Set `RELEASE` to your desired Rocket.Chat version, defaults to `latest`. Keeping it `latest` is **not recommended** (see section [Docker Images Available](docker-containers/available-images.md) )
 * Edit `ROOT_URL` from the default `http://localhost:3000` to match your domain name or IP address as you wish
-*   If you have a registration token to automatically register the workspace you can provide with:
+*   If you have a registration token to register the workspace automatically you can provide it with:
 
     ```
     REG_TOKEN={your token here} docker-compose up -d

@@ -1,6 +1,6 @@
 # Running Multiple Instances
 
-![](<../../.gitbook/assets/EnterpriseEditionTag (1).jpg>)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (10) (13) (30).jpg>)
 
 While it's possible to scale out by adding more servers (and this is recommended for HA purposes), you can achieve better utilization of your existing hardware by running multiple instances of the Rocket.Chat application (Node.js/Meteor app) on your current host(s). Of course, you only want to do this if you're already running on a multi-core machine. A reasonable rule of thumb may be to run `N-1` Rocket.Chat instances, where `N=num_cores`.
 
@@ -70,11 +70,11 @@ ExecStart=/usr/local/bin/node /path.to.rocketchat/rocket.chat/bundle/main.js
     WantedBy=multi-user.target
 ```
 
-Start the other Rocket.Chat Services with
+Start the other Rocket.Chat Services with:
 
 `systemctl start rocketchat@3001 (or any other desired port after the @)`
 
-If you want to run rocketchat at boot just enable the services with
+If you want to run Rocket.Chat at boot just enable the services with:
 
 `systemctl enable rocketchat` or `systemctl enable rocketchat@3001`
 
@@ -208,7 +208,7 @@ Now restart Apache: `systemctl restart apache2.service`
 
 Visit `https://your_hostname.com` just as before the update. **Ooh, so fast!**
 
-To confirm you're actually using both services as you'd expect, you can stop one Rocket.Chat service at a time and confirm that chat still works. Restart that service and stop the other. That will show you are using both instances.
+To confirm you're actually using both services as you'd expect, you can stop one Rocket.Chat service at a time and confirm that the chat still works. Restart that service and stop the other. That will show you are using both instances.
 
 {% hint style="info" %}
 Be sure to keep time in sync between all instances.

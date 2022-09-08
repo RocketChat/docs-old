@@ -367,9 +367,9 @@ Save and Exit.
 
 ## 8. Reboot and Status check
 
-We're ready to start the show! With luck, you should be able to reboot, and the chat system will come online by itself. The first time the system runs, it will have to download a bunch of docker image files. You won't see this occurring when you log back in. It's important to allow the downloads to complete without interruption.
+We're ready to start the show! With luck, you should be able to reboot, and the chat system will come online by itself. The first time the system runs, it will have to download a bunch of docker image files. You won't see this occurring when you log back in. It's important to allow the downloads to be complete without interruption.
 
-After the downloads are extracted, the total combined installation is around 800 MB, so this initial downloading may take it awhile. On a commercial server with a fast connection, this will typically take a few minutes.
+After the downloads are extracted, the total combined installation is around 800 MB, so this initial downloading may take a while. On a commercial server with a fast connection, this will typically take a few minutes.
 
 **Restart the server:**
 
@@ -423,7 +423,7 @@ Previously, we created the docker-compose.yml file. It's this file where we defi
 
 [https://github.com/RocketChat/hubot-rocketchat#creating-a-user-on-the-server](https://github.com/RocketChat/hubot-rocketchat#creating-a-user-on-the-server)
 
-You can now optionally login and set some of the preferences, such as bot avatar. When finished, log out of the bot account.
+You can now optionally log in and set some of the preferences, such as bot avatar. When finished, log out of the bot account.
 
 With the bot account created, you can force it to join by simply rebooting the server, upon which the init script should automatically launch your chat room, and the bot should join the “General” room.
 
@@ -461,7 +461,7 @@ sudo ufw status
 
 **PROBLEM:** _I rebooted and waited forever for docker to download everything and start the chat room. NOTHING happened. It's like it didn't even try!_
 
-**POSSIBLE SOLUTION:** If there are errors in the docker-compose.yml file, it will fail to bring up the rocketchat app. Improperly formatted yml will cause problems.
+**POSSIBLE SOLUTION:** If there are errors in the docker-compose.yml file, it will fail to bring up the Rocket.Chat app. Improperly formatted .yml will cause problems.
 
 **Check upstart jobs for log errors**
 
@@ -475,7 +475,7 @@ sudo cat rocketchat_app.log
 
 Look for any errors in the output of those last two commands, which show the log contents of the upstart jobs we created in step 7.
 
-**Test your YML** [http://www.yamllint.com/](http://www.yamllint.com) simply copy the contents of docker-compose.yml and paste into the tool.
+**Test your YML** [http://www.yamllint.com/](http://www.yamllint.com) simply copy the contents of docker-compose.yml and paste them into the tool.
 
 **Try to start it manually**
 

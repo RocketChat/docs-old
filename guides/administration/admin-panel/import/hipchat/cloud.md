@@ -9,4 +9,4 @@ If you already have an instance running and administration privileges, you can f
 3. Go to `https://[your_rocket_chat].rocket.chat/admin/import` and click the "Start" button on the "HipChat" item
 4. Choose your downloaded .zip file and wait until Rocket.Chat can read it (it can take a few minutes, depending on the size of your HipChat export)
 5. Deselect any items you **don't** want to import
-6. At the top of the page, click on Start Importing
+6. At the top of the page, click on **Start Importing**

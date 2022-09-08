@@ -2,12 +2,12 @@
 
 Add Nixstats notifications via a new WebHook in Rocket.Chat
 
-1. In Rocket.Chat go to "Administration"-&gt;"Integrations" and create "New Integration".
+1. In Rocket.Chat go to **Administration > Integrations** and create **New Integration**.
 2. Choose Incoming WebHook.
-3. Follow all instructions like Enable, give it a name, link to channel etc. Set "Enable Script" to true and enter the javascript in the "Script" box.
-4. Press Save changes and copy the _Webhook URL_ \(added just below the script box\).
-5. Go to [https://nixstats.com](https://nixstats.com) -&gt; Settings -&gt; Notification Contacts -&gt; Add \(or Edit a contact\) contact.
-6. Paste the Rocket.Chat url you've copied in step 4.
+3. Follow all instructions like Enable, give it a name, link to channel, etc. Set "Enable Script" to true and enter the javascript in the "Script" box.
+4. Hit **Save changes** and copy the _Webhook URL_ (added just below the script box).
+5. Go to [https://nixstats.com](https://nixstats.com) **-> Settings -> Notification Contacts -> Add** (or Edit a contact) contact.
+6. Paste the Rocket.Chat URL you've copied in step 4.
 
 Paste this javascript in the "Script" textarea on Rocket.Chat webhook settings
 
@@ -59,7 +59,7 @@ class Script {
 
 Add Nixstats notifications via a new WebHook in Rocket.Chat
 
-1. In Rocket.Chat go to "Administration"-&gt;"Integrations" and create "New Integration".
+1. In Rocket.Chat go to "Administration"->"Integrations" and create "New Integration".
 2. Choose Outgoing WebHook.
 3. Select **Message Sent** as Event trigger.
 4. Enter **ns** as trigger word.
@@ -70,7 +70,7 @@ Add Nixstats notifications via a new WebHook in Rocket.Chat
 
 Paste this javascript in the "Script" textarea on Rocket.Chat webhook settings
 
-```javascript
+````javascript
 /* exported Script */
 /* globals Store */
 
@@ -174,15 +174,10 @@ class Script {
     };
   }
 }
-```
+````
 
-After saving the data you can use the following commands to retrieve data.
+After saving the data you can use the following commands to retrieve data:
 
 `ns servers list` to list your servers with their IDs and load average.
 
-![](https://github.com/NIXStats/Nixstats-integrations/blob/master/rocketchat/serverlist.png)
-
 `ns graphs [serverid]` to retrieve a graph of Memory, Network, Load average and Disk usage of the specified server.
-
-![](https://github.com/NIXStats/Nixstats-integrations/blob/master/rocketchat/graphs.png)
-

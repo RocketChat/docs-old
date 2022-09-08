@@ -65,9 +65,9 @@ This is an example of how Rocket.Chat instances can be deployed in a very scalab
 
 ## Upgrading
 
-Rocket.Chat version 1.x requires a MongoDB ReplicaSet to be configured. When using the dependent `stable/mongodb` chart (`mongodb.enabled=true`), enabling ReplicaSet will drop the PVC and create new ones, therefore loosing the database content, check instructions on how to manually upgrade below.
+Rocket.Chat version 1.x requires a MongoDB ReplicaSet to be configured. When using the dependent `stable/mongodb` chart (`mongodb.enabled=true`), enabling ReplicaSet will drop the PVC and create new ones, therefore losing the database content, check the instructions on how to manually upgrade below.
 
-Backwards compatibility is not guaranteed unless you modify the labels used on the chart's deployments. Use the workaround below to upgrade from versions previous to 1.0.0. The following example assumes that the release name is my-rocketchat:
+Backward compatibility is not guaranteed unless you modify the labels used on the chart's deployments. Use the workaround below to upgrade from versions previous to 1.0.0. The following example assumes that the release name is my-rocketchat:
 
 ```
 $ kubectl delete deployment my-rocketchat-rocketchat --cascade=false
@@ -75,7 +75,7 @@ $ kubectl delete deployment my-rocketchat-rocketchat --cascade=false
 
 ### Follow these steps to manually upgrade:
 
-We recommend setting up another set of k8s resources, test that the upgrade is correct and then remove resources from previous version.
+We recommend setting up another set of k8s resources, testing that the upgrade is correct, and then removing resources from the previous version.
 
 * Create a backup of the Rocket.Chat database:
 
@@ -83,19 +83,19 @@ We recommend setting up another set of k8s resources, test that the upgrade is c
 $ kubectl exec <my-rocketchat-mongodb-pod> -- sh -c 'mongodump -u<mongodbUsername> -p<mongodbPassword> --archive=/tmp/rocketchat-db-bkup.gz --gzip --db <mongodbDatabase>'
 ```
 
-* Copy the backup file to working directory:
+* Copy the backup file to the working directory:
 
 ```bash
 $ kubectl cp <my-rocketchat-mongodb-pod>:/tmp/rocketchat-db-bkup.gz .
 ```
 
-* Install the new helm chart with Rocket.Chat version > 1.0 following instructions below, use a different name but keep your previously configured mongodbUsername, mongodbPassword and mongodbDatabase:
+* Install the new helm chart with Rocket.Chat version > 1.0 following instructions below, use a different name but keep your previously configured mongodbUsername, mongodbPassword, and mongodbDatabase:
 
 ```bash
 $ helm install --set mongodb.mongodbUsername=rocketchat,mongodb.mongodbPassword=changeme,mongodb.mongodbDatabase=rocketchat,mongodb.mongodbRootPassword=root-changeme --name my-rocketchat-1 stable/rocketchat
 ```
 
-* Copy the database backup file from working directory to the new mongodb pod:
+* Copy the database backup file from the working directory to the new mongodb pod:
 
 ```bash
 $ kubectl cp rocketchat-db-bkup.gz  my-rocketchat-1-mongodb-primary-0:/tmp

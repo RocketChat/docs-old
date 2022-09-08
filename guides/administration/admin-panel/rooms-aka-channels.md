@@ -4,13 +4,13 @@ description: Here you can view room details, edit rooms and delete rooms.
 
 # Rooms (aka Channels)
 
-Rocket.Chat rooms are basically where any communication or interaction with other users take place. There are various types of rooms, visit the room section to view rooms details, create, edit and delete rooms.
+Rocket.Chat rooms are basically where any communication or interaction with other users takes place. There are various types of rooms, visit the room section to view room details, create, edit and delete rooms.
 
 To access this menu, go to **Administration** > **Rooms**.
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (5).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (12).png>)
 
 ![](../../../.gitbook/assets/2021-11-21\_00-36-03.png)
 
