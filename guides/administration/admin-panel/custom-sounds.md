@@ -16,7 +16,7 @@ To access this menu,
 
 1. Go to **Administration**
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (13).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (25).png>)
 
 2\. Hit **Custom Sounds**
 
@@ -34,7 +34,7 @@ To access this menu,
 
 Your sound is uploaded. as shown below:
 
-![](<../../../.gitbook/assets/2021-11-22\_21-38-23 (1).png>)
+![](../../../.gitbook/assets/2021-11-22\_21-38-23.png)
 
 ## Use your Custom Sound
 

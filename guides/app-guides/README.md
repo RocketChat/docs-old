@@ -34,4 +34,9 @@ Following apps are part of the **Enterprise Edition** offerings. You don't have 
 * [Data Loss Prevention (DLP)](data-loss-prevention-dlp-app.md)
 * [Facebook](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/facebook-app)
 * [Trello](https://docs.rocket.chat/guides/app-guides/trello)
+* [Instagram](omnichannel-apps/instagram-direct/)
+* [Telegram](omnichannel-apps/telegram-app/)
+* [Twitter](omnichannel-apps/twitter-app/)
+* [Pexip](../rocket.chat-conference-call/conference-call-admin-guide/pexip-app.md)
+* [Google Meet](../rocket.chat-conference-call/conference-call-admin-guide/google-meet-app.md)
 {% endhint %}

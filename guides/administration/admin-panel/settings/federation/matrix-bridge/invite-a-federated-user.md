@@ -4,7 +4,7 @@
 
 You can invite users from other servers through the slash command.&#x20;
 
-![Invite Users](<../../../../../../.gitbook/assets/federationslashcommand (3).png>)
+![Invite Users](<../../../../../../.gitbook/assets/federationslashcommand (2).png>)
 
 {% hint style="info" %}
 If you invite another Rocket.Chat server, which currently will auto-accept.

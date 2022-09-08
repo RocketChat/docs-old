@@ -16,7 +16,7 @@ This integration uses Rocket.Chat incoming webhook. With this integration, you'l
 4. Enable the incoming webhook script. For the script, copy the contents of this file - [https://github.com/debdutdeb/rocketchat-google-calendar/blob/main/script.js](https://github.com/debdutdeb/rocketchat-google-calendar/blob/main/script.js)
 5. Go to the bottom of the page and click "save".
 
-![Initial Configuration](<../../../../.gitbook/assets/screenshot0 (4) (4) (4) (4) (4) (4) (4) (4) (4) (1) (1) (1) (4) (2) (4) (1).png>)
+![Initial Configuration](<../../../../.gitbook/assets/screenshot0 (4) (4) (4) (4) (4) (4) (4) (4) (4) (1) (1) (1) (4) (2) (5).png>)
 
 ![Enable Script](<../../../../.gitbook/assets/image (554).png>)
 
