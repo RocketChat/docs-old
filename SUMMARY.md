@@ -269,6 +269,7 @@
           * [Create a federated room](guides/administration/admin-panel/settings/federation/matrix-bridge/create-a-federated-room.md)
           * [Invite a federated user](guides/administration/admin-panel/settings/federation/matrix-bridge/invite-a-federated-user.md)
           * [Communicate](guides/administration/admin-panel/settings/federation/matrix-bridge/communicate.md)
+          * [MatrixBridge FAQs](guides/administration/admin-panel/settings/federation/matrix-bridge/matrixbridge-faqs.md)
       * [File Upload](guides/administration/admin-panel/settings/file-upload/README.md)
         * [Amazon S3](guides/administration/admin-panel/settings/file-upload/amazon-s3.md)
         * [Google Cloud Storage](guides/administration/admin-panel/settings/file-upload/google-cloud-storage.md)

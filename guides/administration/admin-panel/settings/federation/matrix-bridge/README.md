@@ -7,8 +7,6 @@ description: >-
 
 # Matrix Bridge
 
-
-
 {% content-ref url="matrix-bridge.md" %}
 [matrix-bridge.md](matrix-bridge.md)
 {% endcontent-ref %}
@@ -31,4 +29,8 @@ description: >-
 
 {% content-ref url="communicate.md" %}
 [communicate.md](communicate.md)
+{% endcontent-ref %}
+
+{% content-ref url="matrixbridge-faqs.md" %}
+[matrixbridge-faqs.md](matrixbridge-faqs.md)
 {% endcontent-ref %}

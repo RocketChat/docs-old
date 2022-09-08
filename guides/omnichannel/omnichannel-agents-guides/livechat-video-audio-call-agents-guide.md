@@ -40,7 +40,7 @@ Jitsi calling page opens in a new browser window where the visitor enters their 
 
 Upon which the call starts, as shown below:
 
-![](<../../../.gitbook/assets/2021-12-08\_19-00-51 (1) (1) (1) (4) (2) (2).png>)
+![](<../../../.gitbook/assets/2021-12-08\_19-00-51 (1) (1) (1) (4) (2) (4) (8).png>)
 
 {% hint style="info" %}
 Please note that because the above screen opens in a new browser window, the visitor can leave the call and join back again.

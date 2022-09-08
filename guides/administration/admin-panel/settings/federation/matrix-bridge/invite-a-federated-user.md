@@ -2,15 +2,9 @@
 
 ### Invite a federated user
 
-Invite from rooms (Enterprise-only)
-
-You can invite users directly in the federated room by typing the username in&#x20;
-
-
-
 You can invite users from other servers through the slash command.&#x20;
 
-![Invite Users](<../../../../../../.gitbook/assets/federationslashcommand (2).png>)
+![Invite Users](<../../../../../../.gitbook/assets/federationslashcommand (3).png>)
 
 {% hint style="info" %}
 If you invite another Rocket.Chat server, which currently will auto-accept.

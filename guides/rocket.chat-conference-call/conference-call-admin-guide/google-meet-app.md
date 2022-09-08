@@ -4,7 +4,7 @@ description: Enterprise only feature
 
 # Google Meet app
 
-![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (10) (13) (30).jpg>)
+![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (12).jpg>)
 
 To start using Google Meet video conferencing on your Rocket.Chat Instance:
 
