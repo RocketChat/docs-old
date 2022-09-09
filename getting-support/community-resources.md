@@ -1,10 +1,8 @@
-# Community Support
-
-## Community support
+# Community Resources
 
 We have a great community that likes to give back.
 
-Some great places to ask your questions:
+**Some great places to ask your questions:**
 
 * [Rocket.Chat forums](https://forums.rocket.chat)
 * Stack Overflow [Rocket.Chat Tag](https://stackoverflow.com/questions/tagged/rocket.chat)
@@ -12,7 +10,7 @@ Some great places to ask your questions:
 
 Our community also often hangs out on our [community server](https://open.rocket.chat).
 
-Some of the channels to get help:
+### Some of the channels to get help:
 
 * [#support](https://open.rocket.chat/channel/support) channel for help with general Rocket.Chat
 * [#ubuntu-snap](https://open.rocket.chat/channel/ubuntu-snap) channel for help with snap installs
@@ -114,7 +112,7 @@ The next step is to ask your **well-documented** question in the [forums](https:
 
 It is impossible to diagnose something when you just say 'it's broken'. The helpers are not mind readers. They cannot see your screen or your set-up. They have not watched you set this up, and the mistakes you made along the way. They are effectively blind. So you have got to describe things clearly and concisely.
 
-Your problem may appear complex but it is often the basics that catch you out. It is extremely common for people to miss steps in their set-up. It is hard to tell at first if a problem is simple or complex so please be patient if you get asked 'the stupid questions'. We are just trying to get a baseline and making sure you have done the basics and trying to understand how you got to this position. Remember, if you phoned the garage about your car and said 'it runs funny sometimes' what would they ask you? Make, model, age... etc.
+Your problem may appear complex but it is often the basics that catch you out. It is extremely common for people to miss steps in their setup. It is hard to tell at first if a problem is simple or complex so please be patient if you get asked 'the stupid questions'. We are just trying to get a baseline and making sure you have done the basics and trying to understand how you got to this position. Remember, if you phoned the garage about your car and said 'it runs funny sometimes' what would they ask you? Make, model, age... etc.
 
 This is no different.😊
 

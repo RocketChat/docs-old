@@ -4,7 +4,7 @@
 * [Getting Support](getting-support/README.md)
   * [Enterprise Support](getting-support/enterprise-support/README.md)
     * [Enterprise Support Plans](getting-support/enterprise-support/enterprise-support-plans.md)
-  * [Community Support](getting-support/community-support.md)
+  * [Community Resources](getting-support/community-resources.md)
   * [Legacy Support](getting-support/legacy-support.md)
   * [Frequently Asked Support Questions](getting-support/frequently-asked-support-questions.md)
 * [Development Docs](development-docs.md)
