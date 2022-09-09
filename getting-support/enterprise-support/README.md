@@ -35,6 +35,7 @@ In case of security-relevant bugs, we might decide to backport patches to older 
 
 | Rocket.Chat Release | Latest Version                                                          |  Released At |  End of Life |
 | ------------------- | ----------------------------------------------------------------------- | -----------: | -----------: |
+| 5.1                 | 5.1.1                                                                   |     Sep 2022 |    Dec 2022  |
 | 5.0                 | 5.0.5                                                                   |    July 2022 |     Oct 2022 |
 | **4.8 (LTS)**       | 4.8.1                                                                   | **May 2022** | **Nov 2022** |
 | 4.7                 | [4.7.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.7.4)   |     Apr 2022 |    July 2022 |
