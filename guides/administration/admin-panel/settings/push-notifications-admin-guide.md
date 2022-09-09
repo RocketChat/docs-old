@@ -6,29 +6,14 @@ description: >-
 
 # Push (Notifications Admin Guide)
 
-By default, the community users have 10k push notifications for free. If you are a deployment that uses mobile clients a lot, you might feel the need to extend your per-month push notification limit. To subscribe to your desired push notification bundle, you first need to [subscribe to our cloud account](https://docs.rocket.chat/guides/administrator-guides/connectivity-services) if you don't have one.
-
-## Subscribe a Package
-
-To subscribe to a push notification package:
-
-1. Please go to our [sponsorship page](https://sponsorship.rocket.chat)
-2. Choose your desired package from the packages below:
-
-![](<../../../../.gitbook/assets/image (136).png>)
-
-1. Login with your GitHub account
-2. Login with [Rocket.Chat Cloud](https://cloud.rocket.chat)
-3. Select **the workspace you want to apply the cap to**. The cap will be applied automatically with the respective limit according to the selected sponsorship perk.
-
 {% hint style="info" %}
-Please note that only **one** sponsorship subscription can be applied to a workspace. You can not stack a few subscriptions to get more push messages. If you need more than 20k you will need to contact our sales representative at [sales@rocket.chat](mailto:sales@rocket.chat)
+By default, community workspaces come with 10,000 free monthly push notifications. If you need more, please [contact us](https://www.rocket.chat/sales-contact) to discuss upgrading to an Enterprise plan.
 {% endhint %}
 
 ## Set default user preferences (admin and users)
 
 {% hint style="info" %}
-Default user preferences are universal for all users until individual users change them for themselves.
+Default user preferences are universal for all users in the workspace until individual users change them for themselves.
 {% endhint %}
 
 To check user preferences for push notifications:
@@ -46,16 +31,16 @@ We suggest you should check the push notification configuration in user preferen
 
 To enable push notifications:
 
-1. Go to **Administration > Settings > Push**
-2. **Enable** push notifications
-3. **Enable** your Gateway (_Option not available on a cloud server_)
+* Go to **Administration > Settings > Push**
+* **Enable** push notifications
+* **Enable** your Gateway (_Option not available on a cloud server_)
 
 {% hint style="info" %}
 If you are on a cloud server, you don't get to choose as there is a default Rocket.Chat gateway. On a self-hosted server, you have an option to use Rocket.Chat gateway or configure your own.
 {% endhint %}
 
-1. Enable **Production**
-2. You are all set to send a test push to your user now.
+* Enable **Production**
+* You are all set to send a test push to your user now.
 
 {% hint style="info" %}
 To successfully send a test push to your user, you will have to be logged in to the server on your mobile client and then close or minimize the application.
@@ -77,15 +62,15 @@ Above are the default settings. If **Fetch full message content from the server 
 
 Make sure you have agreed to terms and conditions.
 
-1. Go to **Administration > Settings > Setup Wizard**
-2. Go to '**Cloud Info'**
-3. Turn the **Cloud Service Privacy Terms Agreement** toggle on
+* Go to **Administration > Settings > Setup Wizard**
+* Go to '**Cloud Info'**
+* Turn the **Cloud Service Privacy Terms Agreement** toggle on
 
 {% hint style="info" %}
 If **Cloud Service Privacy Terms Agreement** is not toggled ON, the push won't work.
 {% endhint %}
 
-1. Hit **Save changes**
+* Hit **Save changes**
 
 ![](<../../../../.gitbook/assets/image (155).png>)
 
@@ -93,20 +78,20 @@ If **Cloud Service Privacy Terms Agreement** is not toggled ON, the push won't w
 
 When you purchase any package of push notifications as a self-managed customer, you need to connect your workspace to our cloud.
 
-1. Go to connectivity services; check if you are connected. Cloud workspace should be connected by default.
-2. If not, go to [connectivity services](https://docs.rocket.chat/guides/administrator-guides/connectivity-services) and follow the guide.
-3. Once done, go to Push and send a test message to your user.
+* Go to connectivity services; check if you are connected. Cloud workspace should be connected by default.
+* If not, go to [connectivity services](https://docs.rocket.chat/guides/administrator-guides/connectivity-services) and follow the guide.
+* Once done, go to Push and send a test message to your user.
 
 ## Check the count of notifications used per month
 
 To check the count of notifications used per month:
 
-1. Go to [cloud.rocket.chat](http://cloud.rocket.chat)
+* Go to [cloud.rocket.chat](http://cloud.rocket.chat)
 
 ![](<../../../../.gitbook/assets/image (156).png>)
 
-1. Go to Workspaces and select the workspace you want to check count for.
-2. Push notifications block will show the number of used notifications per your current limit per month.
+* Go to Workspaces and select the workspace you want to check count for.
+* Push notifications block will show the number of used notifications per your current limit per month.
 
 ![](<../../../../.gitbook/assets/image (157).png>)
 
@@ -116,19 +101,19 @@ Users can configure what notifications they want to receive on mobile for each c
 
 To enable push notifications for channels:
 
-1. Open room actions
+* Open room actions
 
 ![](<../../../../.gitbook/assets/image (158).png>)
 
-1. Notification preferences
+* Notification preferences
 
 ![](<../../../../.gitbook/assets/image (159).png>)
 
-1. Mobile
+* Mobile
 
 ![](<../../../../.gitbook/assets/image (160).png>)
 
-1. Select what type of notifications you want to receive.
+* Select what type of notifications you want to receive.
 
 ![](<../../../../.gitbook/assets/image (161).png>)
 
