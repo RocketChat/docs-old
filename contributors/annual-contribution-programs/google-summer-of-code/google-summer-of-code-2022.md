@@ -40,13 +40,13 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 **Final weeks status (Update on September 10th)**
 
-All of our active GSoC contributors, their mentors, Rocket.Chat team members, and our community all enjoyed the LIVE virtual event -  Rocket.Chat Google Summer of Code Demo Day - on September 8th, 2022.   We had 12 super innovative projects proudly presented by their creators, welcomed by Rocket.Chat's founders/project leaders/mentors, and supported by our enthusiastic community.   Anyone missing the live event can now view the[ proceedings of the entire day here](https://youtube.com/playlist?list=PLee3gqXJQrFUD5d8Y1qDhUwqxRLge9KxV).  Each presentation has been edited separately to help the creators to promote their open source projects (a few of which already welcomed new contributors of their own! ).   Detailed description of each of the 14 sessions are available  [here](https://conf.rceng.shop/conferences/c/1)   (check Sessions tab).\
+All of our active GSoC contributors, their mentors, Rocket.Chat team members, and our community all enjoyed the LIVE virtual event -  Rocket.Chat Google Summer of Code Demo Day - on September 8th, 2022.   We had 12 super innovative projects proudly presented by their creators, welcomed by Rocket.Chat's founders/project leaders/mentors, and supported by our enthusiastic community.   Anyone missing the live event can now view the[ proceedings of the entire day here](https://youtube.com/playlist?list=PLee3gqXJQrFUD5d8Y1qDhUwqxRLge9KxV).  Each presentation has been edited separately to help the creators to promote their open source projects (a few of which already welcomed new contributors of their own! ).   Detailed description of each of the 14 sessions are available  [here  ](https://conf.rceng.shop/conferences/c/1#sessions).\
 \
 These are the final weeks of GSoC 2022 for all of us,  contributors are busy wrapping up their administrative obligations and all mentors and contributors are getting ready for the final evaluations next week.&#x20;
 
 **Demo Day 2022 Announced (Updated August 25th, minor update August 30th)**
 
-During these final days of GSoC 2022, contributors and mentors are busy wrapping up their project and preparing for Demo Day 2022! This LIVE virtual event will happen on September 8th, 2022 ! Please mark your calendar and prepare to join us for a fun-filled day exploring all the innovative new projects. Details for Demo Day 2022 are now available [here](https://conf.rceng.shop/conferences/c/1)
+During these final days of GSoC 2022, contributors and mentors are busy wrapping up their project and preparing for Demo Day 2022! This LIVE virtual event will happen on September 8th, 2022 ! Please mark your calendar and prepare to join us for a fun-filled day exploring all the innovative new projects. Details for Demo Day 2022 are now available [here](https://conf.rceng.shop/conferences/c/1#sessions)
 
 **Midterm evaluation completed (Update August 3rd)**
 
