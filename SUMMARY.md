@@ -6,7 +6,6 @@
     * [Enterprise Support Plans](getting-support/enterprise-support/enterprise-support-plans.md)
   * [Community Resources](getting-support/community-resources.md)
   * [Legacy Support](getting-support/legacy-support.md)
-  * [Frequently Asked Support Questions](getting-support/frequently-asked-support-questions.md)
 * [Development Docs](development-docs.md)
 
 ## Quick Start
