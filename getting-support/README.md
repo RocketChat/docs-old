@@ -17,7 +17,3 @@ If you are using our Community Edition deployment, you can always rely on our co
 {% content-ref url="legacy-support.md" %}
 [legacy-support.md](legacy-support.md)
 {% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
