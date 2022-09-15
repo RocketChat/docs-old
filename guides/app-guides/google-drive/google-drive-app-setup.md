@@ -81,7 +81,7 @@ With a complete installation, users can access the Google Drive app from the roo
 <figure><img src="../../../.gitbook/assets/Google Drive app access means" alt=""><figcaption><p>Google Drive app access means</p></figcaption></figure>
 
 {% hint style="warning" %}
-For users to be able to use the Google Drive app from the contextual bar, your Rocket.Chat workspace must be operating from at least version `5.0.`
+For users to be able to use the Google Drive app from the contextual bar, your Rocket.Chat workspace must be operating from at least version `5.1.0.`
 
 For workspaces below this, only admins can.
 {% endhint %}

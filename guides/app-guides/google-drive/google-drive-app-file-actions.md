@@ -73,11 +73,11 @@ To view file details,
 * Search for the file name using the search bar or navigate and locate the file
 * Click the **Kebab menu** across the file then select **File information**
 
-<figure><img src="../../../.gitbook/assets/Google Drive file information" alt=""><figcaption><p>Google Drive file information</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Google Drive file information.png" alt=""><figcaption><p>Google Drive file information</p></figcaption></figure>
 
 * Information about the files can be seen
 
-<figure><img src="../../../.gitbook/assets/Google Drive see file information" alt=""><figcaption><p>Google Drive see file information</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Google Drive see file information.png" alt=""><figcaption><p>Google Drive see file information</p></figcaption></figure>
 
 * You see the following details about the file
   * **File name:** The name of the file
@@ -97,7 +97,7 @@ A file's permission can be set when [sharing the file](google-drive-app-file-act
 
 These are the various permissions you can set to a file
 
-<figure><img src="../../../.gitbook/assets/Google Drive file set permissions" alt=""><figcaption><p>Google Drive file set permissions</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Google Drive file set permissions.png" alt=""><figcaption><p>Google Drive file set permissions</p></figcaption></figure>
 
 * These are the various permissions you can set:
   * **Share to room members and allow them to view**: This will restrict viewing of the file only by member(s) of the room
