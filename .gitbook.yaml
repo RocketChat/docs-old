@@ -78,3 +78,8 @@ redirects:
     master/server-management/integration-and-webhooks/telegram: guides/administration/admin-panel/integrations/telegram.md
     installation/paas-deployments/ibm-bluemix/: quick-start/deploying-rocket.chat/README.md
     guides/administration/settings/video-conference-admin-guide/jitsi-admins-guide: guides/rocket.chat-conference-call/README.md
+    guides/administration/admin-panel/settings/ldap/ldap-authentication-settings: guides/administration/admin-panel/settings/ldap/ldap-connection-setting.md
+    guides/administration/admin-panel/settings/ldap/ldap-basic-settings: guides/administration/admin-panel/settings/ldap/README.md
+    guides/administration/admin-panel/settings/ldap/settings: guides/administration/admin-panel/settings/ldap/README.md
+    guides/administration/admin-panel/settings/ldap/ldap-sync-settings: guides/administration/admin-panel/settings/ldap/ldap-data-sync-settings.md
+    
