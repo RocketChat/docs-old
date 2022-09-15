@@ -19,3 +19,10 @@ Looking for the list of features and which ones are community or enterprise? Che
 {% content-ref url="../../../identity-management-ee-vs-ce.md" %}
 [identity-management-ee-vs-ce.md](../../../identity-management-ee-vs-ce.md)
 {% endcontent-ref %}
+
+On the LDAP settings page, you can
+
+* [Setup LDAP connection](ldap-connection-setting.md)
+* [Search for an LDAP user](ldap-user-search.md)
+* [Sync data with LDAP](ldap-data-sync-settings.md)
+* [Other Enterprise features](ldap-enterprise-settings.md)
