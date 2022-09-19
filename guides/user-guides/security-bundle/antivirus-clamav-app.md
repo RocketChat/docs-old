@@ -27,6 +27,6 @@ You need to enter the ClamAV Server Host (where your ClamAV server is hosted) an
 
 To view logs:
 
-![](<../../../.gitbook/assets/image (392).png>)
+![](<../../../.gitbook/assets/image (392) (1) (2).png>)
 
 ![](<../../../.gitbook/assets/image (409) (1) (1).png>)

@@ -4,7 +4,7 @@ description: Enterprise only feature
 
 # Pexip app
 
-![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (7).jpg>)
+![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (10) (9).jpg>)
 
 [Pexip](https://www.pexip.com/) is a purpose-built video communication platform that empowers large organizations to transform their operations with video. Pexip’s unique technology provides customized solutions for innovative and fully bespoke application of video, data privacy, and business continuity for secure spaces and frictionless collaboration for connected spaces.
 

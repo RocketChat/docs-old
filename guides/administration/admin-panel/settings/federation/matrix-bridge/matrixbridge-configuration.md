@@ -2,7 +2,7 @@
 
 To access this setting, go to: **Administration** > **Settings** > **Federation > MatrixBridge.**
 
-![MatrixBridge Configuration](<../../../../../../.gitbook/assets/2022-07-22\_12-28-56 (2).png>)
+![MatrixBridge Configuration](<../../../../../../.gitbook/assets/2022-07-22\_12-28-56 (2) (1).png>)
 
 The following is a brief explanation of each Matrix Bridge configuration option:
 

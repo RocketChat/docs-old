@@ -34,7 +34,7 @@ If you change your mind within 30 days of your workspace getting canceled, pleas
 
 Suppose you are an old customer; you might still be on the old pricing model where you are charged at the end of the month on which your billing period **** has ended, as shown below:
 
-![Invoices](<../../../../.gitbook/assets/image (308) (2) (2) (1) (1) (1).png>)
+![Invoices](<../../../../.gitbook/assets/image (308) (2) (2) (1) (1) (1) (2) (2).png>)
 
 ### Pre-paid Billing
 

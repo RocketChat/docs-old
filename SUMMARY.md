@@ -526,6 +526,7 @@
 * [Rocket.Chat Cloud](rocket.chat-saas/cloud-account/README.md)
   * [Create your new cloud account](rocket.chat-saas/cloud-account/create-new-cloud-account.md)
   * [Manage your cloud account](rocket.chat-saas/cloud-account/manage-your-cloud-account/README.md)
+    * [Set a custom domain for your SaaS workspace](rocket.chat-saas/cloud-account/manage-your-cloud-account/set-a-custom-domain-for-your-saas-workspace.md)
     * [Profile](rocket.chat-saas/cloud-account/manage-your-cloud-account/profile.md)
     * [Organization Settings](rocket.chat-saas/cloud-account/manage-your-cloud-account/organization-settings.md)
     * [Workspaces](rocket.chat-saas/cloud-account/manage-your-cloud-account/workspaces/README.md)
