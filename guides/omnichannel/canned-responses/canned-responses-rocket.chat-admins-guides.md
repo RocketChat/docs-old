@@ -4,7 +4,7 @@ description: Set up canned responses in your workspace
 
 # Canned Responses Rocket.Chat Admin's Guides
 
-![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (10) (16).jpg>)
+![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (17).jpg>)
 
 As a Rocket.Chat workspace admin, you can enable and disable Canned Responses on your server
 
