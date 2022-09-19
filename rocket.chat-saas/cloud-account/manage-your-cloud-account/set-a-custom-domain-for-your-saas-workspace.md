@@ -1,6 +1,6 @@
 # Set a custom domain for your SaaS workspace
 
-Within Cloud Portal, you can apply custom domains for your SaaS workspace.
+Here you'll find the guide on applying custom domains for your SaaS workspace within Cloud Portal.
 
 {% hint style="info" %}
 Any Cloud Portal account with a SaaS workspace can access this feature.
