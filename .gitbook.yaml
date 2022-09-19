@@ -82,4 +82,10 @@ redirects:
     guides/administration/admin-panel/settings/ldap/ldap-basic-settings: guides/administration/admin-panel/settings/ldap/README.md
     guides/administration/admin-panel/settings/ldap/settings: guides/administration/admin-panel/settings/ldap/README.md
     guides/administration/admin-panel/settings/ldap/ldap-sync-settings: guides/administration/admin-panel/settings/ldap/ldap-data-sync-settings.md
+    getting-support/asking-for-help: getting-support/community-resources.md
+    guides/administrator-guides/setting-up-video-conferencing: guides/rocket.chat-conference-call/README.md
+    developer-guides/rest-api/users/create: development-docs.md
+    api/rest-api/methods/authentication/login: development-docs.md
+    apps-development/uikit: development-docs.md
+    
     
