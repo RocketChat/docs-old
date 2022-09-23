@@ -3,7 +3,7 @@
 Here you'll find the guide on applying custom domains for your Rocket.Chat Cloud-hosted workspace within Cloud Portal.
 
 {% hint style="info" %}
-Any Cloud Portal account with a SaaS workspace can access this feature.
+Any Cloud Portal account with a Cloud-hosted workspace can access this feature.
 {% endhint %}
 
 {% hint style="warning" %}
