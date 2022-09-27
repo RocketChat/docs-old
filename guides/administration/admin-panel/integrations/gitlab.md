@@ -1,16 +1,36 @@
 # GitLab
 
-Add GitLab notifications via a new WebHook in Rocket.Chat
+Setting up GitLab webhook integration gives you the ability to receive event notifications from GitLab directly in your desired Rocket.Chat room.
 
-1. In Rocket.Chat go to "Administration"->"Integrations" and create "New Integration".
-2. Choose Incoming WebHook.
-3. Follow all instructions like Enable, give it a name, link to channel etc. Set "Enable Script" to true and enter the javascript in the "Script" box.
-4. Press Save changes and copy the _Webhook URL_ (added just below the script box).
-5. Go to your GitLab project, ie. [https://gitlab.com/](https://gitlab.com/)< username >/< project >/hooks . It's in the project "settings" under Webhooks menu GitLab.
-6. Add a new webhook by pasting the Rocket.Chat url you've copied in step 4, select at least 1 checkbox and press the button (conveniently called "Add Webhook").
-7. Test the webhook with the "Test Hook" button in GitLab, a topbar should appear with more info (success or failure).
+These events include and are not limited to:
 
-Paste this in javascript in the "Script" text area on Rocket.Chat webhook settings
+* Comments
+* Issues events
+* Merge requests
+* Deployment events
+
+{% hint style="info" %}
+In configuring this integration, make sure your Rocket.Chat is publicly available on a URL.
+{% endhint %}
+
+## GitLab Rocket.Chat Integration
+
+To configure the webhook integration between GitLab and Rocket.Chat, you need to:
+
+1. [Create a new webhook integration on Rocket.Chat](gitlab.md#creating-a-new-gitlab-webhook-integration)
+2. [Link to the GitLab repository webhook setting](gitlab.md#gitlab-webhooks-settings)
+
+Follow these steps below to do that
+
+### Creating a new GitLab webhook integration
+
+* On your Rocket.Chat workspace, go to **Administration** -> **Integrations**&#x20;
+* Switch to the **Incoming** tab and create a **New** Integration
+* Fill in the details of your webhook including the **name** of the webhook, the **room** to post into, the **user to post as** and enable it
+
+<figure><img src="../../../../.gitbook/assets/GitLab new incoming Webhook.png" alt=""><figcaption><p>GitLab new incoming Webhook</p></figcaption></figure>
+
+* Enable Scripts and paste the following code into the Scripts box
 
 ```javascript
 /* eslint no-console:0, max-len:0 */
@@ -382,6 +402,33 @@ See: ${data.object_attributes.url}`
 }
 ```
 
-This example contains code for several hooks. It can easily be extended with more. Source: [https://github.com/malko/rocketchat-gitlab-hook](https://github.com/malko/rocketchat-gitlab-hook).
+* **Save** the settings
+* The **Webhook URL** and **Token** are generated after saving
+* Copy these credentials, they will be used later
 
-GitLab webhook help: [https://docs.gitlab.com/ee/user/project/integrations/webhooks.html](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html)
+<figure><img src="../../../../.gitbook/assets/GitLab webhook url and token.png" alt=""><figcaption><p>GitLab webhook url and token</p></figcaption></figure>
+
+
+
+### GitLab Webhooks settings
+
+After creating the new incoming webhook integration on Rocket.Chat, it is time to link it up with the      GitLab repository.
+
+* Go to your GitLab project page then navigate to **Settings** > **Webhooks**
+* Fill in the `URL` and `token` you copied from the Rocket.Chat setting&#x20;
+* Select the type of events you want to be notified on and **Add webhook**
+
+<figure><img src="../../../../.gitbook/assets/GitLab webhook setting.png" alt=""><figcaption><p>GitLab webhook setting</p></figcaption></figure>
+
+{% hint style="success" %}
+After successful configuration, you can test the Webhook with any event trigger and see the notification in your specified Rocket.Chat room.
+{% endhint %}
+
+<figure><img src="../../../../.gitbook/assets/GitLab webhook test.png" alt=""><figcaption><p>GitLab webhook test</p></figcaption></figure>
+
+{% hint style="info" %}
+More material
+
+* GitLab-Rocket.Chat webhook example: [https://github.com/malko/rocketchat-gitlab-hook](https://github.com/malko/rocketchat-gitlab-hook)
+* GitLab webhook help: [https://docs.gitlab.com/ee/user/project/integrations/webhooks.html](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html)
+{% endhint %}
