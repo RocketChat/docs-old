@@ -2,7 +2,7 @@
 
 Go to **Administration** > **Apps**. Go to the **Installed** tab and search _Twitter._
 
-Click open your Facebook app to see the settings available to you as an administrator:
+Click open your Twitter app to see the settings available to you as an administrator:
 
 Following are the settings available:
 
