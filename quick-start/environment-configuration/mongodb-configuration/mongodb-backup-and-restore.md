@@ -46,6 +46,7 @@ You should see something like the image below when the command is running
 After backing up your instance, you may need to restore the data at some time. That can be done using [`mongorestore`](https://www.mongodb.com/docs/database-tools/mongorestore/)``
 
 {% hint style="info" %}
+* `Make sure you drop first any existing rocketchat schema in your database with same name as the one you are restoring.`
 * `mongorestore` allows you to load data from either a binary database dump created by [`mongodump`](https://www.mongodb.com/docs/database-tools/mongodump/#mongodb-binary-bin.mongodump) or the standard input into MongoDB instance.
 * As from MongoDB server 4.4, you are required to install the `mongorestore` utility separately.\
   Read more at the MongoDB Database tools docs [https://www.mongodb.com/docs/database-tools/mongorestore/](https://www.mongodb.com/docs/database-tools/mongorestore/)
