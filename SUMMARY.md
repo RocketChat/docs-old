@@ -550,6 +550,7 @@
   * [Support FAQs](resources/frequently-asked-questions/support-faqs.md)
   * [Whatsapp Business App FAQs](resources/frequently-asked-questions/whatsapp-business-app-faqs.md)
   * [Identity Management EE FAQ](resources/frequently-asked-questions/ldap-faq.md)
+  * [Omnichannel FAQs](resources/frequently-asked-questions/omnichannel-faqs.md)
 
 ## Contributors
 
