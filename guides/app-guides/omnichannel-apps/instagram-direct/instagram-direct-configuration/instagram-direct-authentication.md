@@ -62,7 +62,7 @@ After successful authentication, as an admin, you are subscribed to the Instagra
 
 You can edit page configuration as shown below:
 
-![](<../../../../../.gitbook/assets/2021-12-31\_18-12-56 (1) (1) (1) (4) (2) (4) (4).png>)
+![](<../../../../../.gitbook/assets/2021-12-31\_18-12-56 (1) (1) (1) (4) (2) (1) (4).png>)
 
 Following are the settings available:
 

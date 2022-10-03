@@ -55,13 +55,13 @@ Change them according to your Asterisk server conditions. Then in the Settings t
 
 To test the WebSocket Connection you just need to log in with a user associated with an extension and check if the extension registers successfully.&#x20;
 
-![WebSocket not connected](<../../../../.gitbook/assets/image (1).png>)
+![WebSocket not connected](<../../../../.gitbook/assets/image (2).png>)
 
 The phone icon with a slash over means that the WebSocket connection is possible, Rocket.Chat could send a SIP Options packet to Asterisk, and it was successfully answered. Click on the phone icon and it will turn green. Now the user is ready to receive calls, and in Asterisk, you should have received a SIP register packet and the extension should be properly registered. Validate it with:
 
 `pjsip show endpoints`
 
-<figure><img src="../../../../.gitbook/assets/Rocket.Chat configured with Asterisk (1).png" alt=""><figcaption><p>Rocket.Chat configured with Asterisk</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Rocket.Chat configured with Asterisk.png" alt=""><figcaption><p>Rocket.Chat configured with Asterisk</p></figcaption></figure>
 
 Congratulations! You have successfully configured Rocket.Chat with Asterisk!
 

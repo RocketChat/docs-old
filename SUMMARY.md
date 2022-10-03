@@ -199,7 +199,7 @@
       * [Invite users to your Rocket.Chat workspace](guides/administration/admin-panel/users/invite-users-to-your-rocket.chat-workspace.md)
       * [Add new users](guides/administration/admin-panel/users/add-new-users.md)
         * [Add users by Identity management and authentication services](guides/administration/admin-panel/users/add-new-users/add-users-by-identity-management-and-authentication-services.md)
-      * [Manage guest users](guides/administration/admin-panel/users/manage-guest-users.md)
+      * [Guest users](guides/administration/admin-panel/users/guest-users.md)
     * [Rooms (aka Channels)](guides/administration/admin-panel/rooms-aka-channels.md)
     * [Invites](guides/administration/admin-panel/invites.md)
     * [Connectivity Services](guides/administration/admin-panel/connectivity-services.md)

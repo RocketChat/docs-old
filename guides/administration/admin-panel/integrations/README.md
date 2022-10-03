@@ -21,7 +21,7 @@ Webhooks can be handled by _ES2015 / ECMAScript 6_ scripts to process the reques
 
 * Go to your **Admin Panel.**
 
-![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (28).png>)
+![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (11).png>)
 
 * Go to **Integrations.**
 
@@ -130,7 +130,7 @@ The response of the request also executes the script, calling another method so 
 
 * Go to your **Admin Panel.**
 
-![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (18).png>)
+![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (16).png>)
 
 * Go to **Integrations.**
 

@@ -1,6 +1,6 @@
 # Microservices Setup
 
-![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (7).jpg>)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (10) (1) (18).jpg>)
 
 {% hint style="info" %}
 This feature is currently in the beta stage and can change without prior notice.

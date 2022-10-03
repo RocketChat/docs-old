@@ -34,7 +34,7 @@ Now the admin will have access to _**Omnichannel Panel Settings**_ through a new
 6. Enable/Disable asking the visitor if they would like a transcript of the conversation.
 7. Enter the message to show when asking for a transcript.
 
-![](<../../../../../.gitbook/assets/image (46) (1).png>)
+![](<../../../../../.gitbook/assets/image (46).png>)
 
 ### Business Hour
 
