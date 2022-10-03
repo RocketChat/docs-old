@@ -31,3 +31,16 @@ The first step after the configuration is authentication with Twitter.
 You receive a success message with credentials, as shown below:
 
 ![](<../../../../../.gitbook/assets/image (420).png>)
+
+
+
+## Slash Commands
+
+{% hint style="info" %}
+Here are the shortcuts you can use in Facebook Bot:
+
+1. **/twitter authorize** Starts the Twitter authorization process
+2. **/twitter unauthorize** Revoke twitter authorization
+3. **/twitter support** Show support info
+4. **/twitter help** Shows help message
+{% endhint %}
