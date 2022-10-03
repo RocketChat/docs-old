@@ -197,7 +197,7 @@
       * [Import CSV](guides/administration/admin-panel/import/csv.md)
     * [Users](guides/administration/admin-panel/users.md)
       * [Invite users to your Rocket.Chat workspace](guides/administration/admin-panel/users/invite-users-to-your-rocket.chat-workspace.md)
-      * [Add new users](guides/administration/admin-panel/users/add-new-users/README.md)
+      * [Add new users](guides/administration/admin-panel/users/add-new-users.md)
         * [Add users by Identity management and authentication services](guides/administration/admin-panel/users/add-new-users/add-users-by-identity-management-and-authentication-services.md)
       * [Manage guest users](guides/administration/admin-panel/users/manage-guest-users.md)
     * [Rooms (aka Channels)](guides/administration/admin-panel/rooms-aka-channels.md)
