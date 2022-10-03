@@ -54,7 +54,7 @@ AMI goes in the “Other” zone because only some specific endpoints should be 
 \
 Now you don’t want your Rocket.Chat to get banned by the FreePBX firewall so you have to add it to the Whitelist List. First, you need to know the IP or IP Networks from your Rocket.Chat instance. When you have a SaaS Rocket.Chat instance you will have a URL (subdomain) like <mark style="color:blue;">MyChosenName.rocket.chat</mark>, so just ping it. In this demo:
 
-![](../../../../.gitbook/assets/image.png)
+![](<../../../../.gitbook/assets/image (16).png>)
 
 Rocket.Chat will be connecting from the whole network 51.81.0.0/16\
 If you have your own Rocket.Chat instance self-hosted or similar, you should know what’s your IP address or network.
@@ -127,7 +127,7 @@ First, check that you have the needed modules loaded using the command `module s
 
 We are reusing the Let’s Encrypt certificates for the Asterisk mini-HTTP server, WebSockets, TLS encryption, and others. Start by going to the **Settings > Advanced Settings** (again), search for the _Asterisk Builtin mini-HTTP server_ section and configure as shown, apply changes. Asterisk restart is also recommended here:
 
-![Asterisk Builtin mini-HTTP server](<../../../../.gitbook/assets/image (1).png>)
+![Asterisk Builtin mini-HTTP server](<../../../../.gitbook/assets/image (46).png>)
 
 Using the command `http show status` verify that both HTTP and HTTPS are up and running:
 

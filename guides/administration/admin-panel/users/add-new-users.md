@@ -2,7 +2,7 @@
 
 To access this menu, go to **Administration > Users > New** as shown below:
 
-![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (17).png>)
+![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (21).png>)
 
 ![](../../../../.gitbook/assets/2021-11-28\_02-33-07.png)
 

@@ -22,7 +22,7 @@ You can choose the default browser where you want links to be opened.  The defau
 
 * **Browser:**  This setting will open a list of all the browsers (Chrome, Safari) you have installed on your device.
 
-![Browser](<../../.gitbook/assets/browser (1) (1).jpg>)
+![Browser](<../../.gitbook/assets/browser (1).jpg>)
 
 Once you do this, if you open a link through your Rocket.Chat mobile app, it will open through the browser you have installed on your device instead of your default mobile browser.
 

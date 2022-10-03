@@ -10,7 +10,7 @@ To access this menu, go to **Administration** > **Import**.
 
 as shown below:
 
-![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (26).png>)
+![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (15).png>)
 
 ![](../../../../.gitbook/assets/2021-11-21\_00-05-22.png)
 

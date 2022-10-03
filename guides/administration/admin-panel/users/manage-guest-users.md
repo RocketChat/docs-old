@@ -26,13 +26,7 @@ It's possible to set a maximum number of channels a guest can join for every lic
 
 {% endhint %}
 
-Here are the steps that will help you manage your guest users.
-
-* [Guest Users in Rocket.Chat](manage-guest-users.md#guest-users-in-rocket.chat)&#x20;
-* [Guest Access Permissions](manage-guest-users.md#rocket.chat-guest-access-permissions)&#x20;
-* [Add a guest user](manage-guest-users.md#add-a-guest-user-to-channels)
-* [Activate guest users](manage-guest-users.md#enable-guest-users)&#x20;
-* [Deactivate guest users](manage-guest-users.md#disable-guest-users)&#x20;
+## Manage your guest users
 
 ### **Guest Access Permissions**
 
@@ -65,7 +59,7 @@ You must be an administrator to add a guest to Rocket.Chat workspace.&#x20;
   * **Nickname:** Enter the guest users's nickname.
   * **Password:** Enter the guest users's password.
   * **Require password change:** Enable or disable this option to change or reset the password.
-  * **Set random password and send by email:** Enable or disable this option to set random password and send by email.
+  * **Set random password and send by email:** Enable or disable this option to set arandom password and send by email.
   * **Roles:** Select the **guest** role from the dropdown menu.
   * **Join default channels:** Set whether you want the guest user to join default channels.
   * **Send welcome email:** Set whether you want to send a welcome email **** to the guest user.
