@@ -12,7 +12,7 @@ The first step after the configuration is authentication with Twitter.
 
 ![](<../../../../../.gitbook/assets/image (413).png>)
 
-2\. As soon as you click **Start Authentication** the Authentication process is started. Please authorize [Rocket.Chat](http://rocket.chat)'s Twitter app to complete this process.
+2\. As soon as you click **Start Authentication** the authentication process is started. Please authorize [Rocket.Chat](http://rocket.chat)'s Twitter app to complete this process.
 
 ![](<../../../../../.gitbook/assets/image (414).png>)
 
