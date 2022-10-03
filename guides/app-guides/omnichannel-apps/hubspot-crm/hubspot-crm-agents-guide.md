@@ -14,7 +14,7 @@ If it is an existing HubSpot contact, you can view their contact information, as
 
 You can view HubSpot contact information by clicking on **Contact Info.**
 
-![Contact Info](<../../../../.gitbook/assets/View ContactInfo (1) (1).png>)
+![Contact Info](<../../../../.gitbook/assets/View ContactInfo (2).png>)
 
 ## Create Ticket
 

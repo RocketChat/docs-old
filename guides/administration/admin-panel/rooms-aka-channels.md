@@ -10,7 +10,7 @@ To access this menu, go to **Administration** > **Rooms**.
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (8).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1).png>)
 
 ![](../../../.gitbook/assets/2021-11-21\_00-36-03.png)
 
@@ -35,7 +35,7 @@ To edit room details:
 
 ## Delete Room
 
-* Search and click on the room you want to delete in the **Rooms** under **Administration**
+* Search and click on the room you want to delete in the **Rooms** under **Administration.**
 * Press **Delete** to delete the room.
 
 ![](<../../../.gitbook/assets/Screenshot 2021-05-19 at 11.58.29 AM.png>)
