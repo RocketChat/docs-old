@@ -543,6 +543,10 @@
     * [Contact Sales](rocket.chat-saas/cloud-account/manage-your-cloud-account/contact-sales.md)
   * [Cloud Account Setup Wizard](rocket.chat-saas/cloud-account/cloud-account-setup-wizard.md)
 
+## Air-gapped Workspaces
+
+* [Page 1](air-gapped-workspaces/page-1.md)
+
 ## Resources
 
 * [Frequently Asked Questions](resources/frequently-asked-questions/README.md)
