@@ -204,7 +204,6 @@
     * [Invites](guides/administration/admin-panel/invites.md)
     * [Connectivity Services](guides/administration/admin-panel/connectivity-services.md)
     * [View Logs](guides/administration/admin-panel/view-logs.md)
-    * [Custom sounds](guides/administration/admin-panel/custom-sounds.md)
     * [Federation Dashboard](guides/administration/admin-panel/federation-dashboard.md)
     * [Apps](guides/administration/admin-panel/apps.md)
     * [Email Inboxes](guides/administration/admin-panel/email-inboxes.md)
