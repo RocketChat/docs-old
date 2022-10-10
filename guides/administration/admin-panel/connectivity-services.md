@@ -52,24 +52,26 @@ To connect your server to our Cloud, your Rocket.Chat server must be on a suppor
 
 * The verification link will forward to cloud.rocket.chat. After the validation, you will be logged into your Cloud console. In order to register your self-hosted workspace, please select the "Register self-managed" button
 
-![](<../../../.gitbook/assets/image (678) (2).png>)
+<figure><img src="../../../.gitbook/assets/RocketChat cloud register self manage.png" alt=""><figcaption><p>Rocket.Chat cloud register self manage</p></figcaption></figure>
 
 * A pop-up will be displayed in order to select the workspace type:
 
-![](<../../../.gitbook/assets/image (657) (1) (1).png>)
+<figure><img src="../../../.gitbook/assets/Cloud services.png" alt=""><figcaption><p>Cloud services</p></figcaption></figure>
 
 1. **Internet Access**: Rocket.Chat server that has a connection to the internet (connected to the outside)
 2. **No Internet Access**: Special cases where Rocket.Chat server has no connection at all (totally air-gapped).
 
 {% hint style="info" %}
-In this document, we are covering only the **Internet Access** option.
+In this section, we are going to cover the option for **Internet Access**.
 {% endhint %}
 
-See the guide on our offline option below.
+See the guide on how to Register an offline workspace.
 
-{% content-ref url="../../../rocket.chat-saas/cloud-account/manage-your-cloud-account/workspaces/apply-offline-license.md" %}
-[apply-offline-license.md](../../../rocket.chat-saas/cloud-account/manage-your-cloud-account/workspaces/apply-offline-license.md)
+{% content-ref url="../../../rocket.chat-saas/cloud-account/manage-your-cloud-account/workspaces/offline-workspace-registration.md" %}
+[offline-workspace-registration.md](../../../rocket.chat-saas/cloud-account/manage-your-cloud-account/workspaces/offline-workspace-registration.md)
 {% endcontent-ref %}
+
+## Apply License
 
 When selecting the "Internet Access" option, a registration token will be generated. Copy the token as this will be used to register your Rocket.Chat server.
 

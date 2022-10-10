@@ -534,7 +534,7 @@
       * [Cancel Workspace](rocket.chat-saas/cloud-account/manage-your-cloud-account/workspaces/cancel-workspace.md)
       * [Update Workspace](rocket.chat-saas/cloud-account/manage-your-cloud-account/workspaces/upgrade-update-workspace.md)
       * [Workspace Information](rocket.chat-saas/cloud-account/manage-your-cloud-account/workspaces/workspace-details.md)
-      * [Apply Offline License](rocket.chat-saas/cloud-account/manage-your-cloud-account/workspaces/apply-offline-license.md)
+      * [Offline Workspace Registration](rocket.chat-saas/cloud-account/manage-your-cloud-account/workspaces/offline-workspace-registration.md)
       * [Upgrade/Downgrade your Plan](rocket.chat-saas/cloud-account/manage-your-cloud-account/workspaces/upgrade-downgrade-your-plan.md)
     * [Invoices](rocket.chat-saas/cloud-account/manage-your-cloud-account/invoices.md)
     * [Payment Methods](rocket.chat-saas/cloud-account/manage-your-cloud-account/payment-methods.md)
@@ -544,7 +544,9 @@
 
 ## Air-gapped Workspaces
 
-* [Page 1](air-gapped-workspaces/page-1.md)
+* [Air-gapped Deployment](air-gapped-workspaces/air-gapped-deployment.md)
+* [Air-gapped workspace Configuration](air-gapped-workspaces/air-gapped-workspace-configuration.md)
+* [Manual App Installation](air-gapped-workspaces/manual-app-installation.md)
 
 ## Resources
 

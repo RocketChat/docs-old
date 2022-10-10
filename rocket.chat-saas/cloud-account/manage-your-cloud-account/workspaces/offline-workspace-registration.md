@@ -1,14 +1,20 @@
-# Apply Offline License
+# Offline Workspace Registration
 
-You can follow this guide to apply for the offline license on your air-gapped or workspaces without internet access.
+You can follow this guide to register your air-gapped or workspaces without internet access.
 
 {% hint style="info" %}
 If you use a workspace accessible through the internet, you can follow [this guide](https://docs.rocket.chat/guides/administration/admin-panel/connectivity-services#registration-steps) on how to set it up.
 {% endhint %}
 
-* After accepting the cloud privacy terms at (**Setup Wizard** > **Cloud Info** > **Cloud Service Privacy Terms Agreement**) on your Rocket.Chat server.
+* After accepting the cloud privacy terms at **Administration** > **Settings** > **Setup Wizard** > **Cloud Info** > **Cloud Service Privacy Terms Agreement**) on your Rocket.Chat server.
 * Navigate to **Administration** > **Connectivity Services** and click **Register Offline** as shown below.
+
+<figure><img src="../../../../.gitbook/assets/Connectivity Services Offline.png" alt=""><figcaption><p>Connectivity Services Offline</p></figcaption></figure>
+
 * A pop-up appears. Copy the code provided and move on to the next step.
+
+<figure><img src="../../../../.gitbook/assets/Offline code.png" alt=""><figcaption><p>Offline code</p></figcaption></figure>
+
 * Head over and create an account or login into your [Rocket.Chat cloud portal](https://cloud.rocket.chat)
 * When logged in, click on **Register self-managed** to register a new workspace.
 * Select the option to **Continue Offline** if you are running an air-gapped workspace or your server doesn't have an internet connection.
@@ -19,7 +25,7 @@ If you use a workspace accessible through the internet, you can follow [this gui
 
 ![](<../../../../.gitbook/assets/image (662) (1).png>)
 
-* You receive another code from the cloud portal. Copy the code and go back to your local workspace
+* You are provided with another code from the cloud portal. Copy the code and go back to your local workspace
 
 ![](<../../../../.gitbook/assets/image (668) (2).png>)
 
@@ -27,10 +33,5 @@ If you use a workspace accessible through the internet, you can follow [this gui
 
 ![](<../../../../.gitbook/assets/image (686) (1).png>)
 
-{% hint style="info" %}
-We recommend you sync your server immediately after linking it to the cloud. To do that,   go to the **Connectivity Services** on your **Administration** panel and click on **Sync**.
-{% endhint %}
+With that done, you have successfully registered your workspace
 
-![](<../../../../.gitbook/assets/image (649) (1).png>)
-
-With that done, you have successfully applied for an Offline license on your server.
