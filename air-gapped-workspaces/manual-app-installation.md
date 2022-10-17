@@ -10,20 +10,20 @@ A list of published Rocket.Chat apps are available on the [Rocket.Chat Apps mark
 
 As a fully air-gapped user, you will have to manually install the apps you need to use on your workspace.
 
-In this section, we are going to see how to get and install an app in an air-gapped workspace.
+In this section, we will see how to get and install an app in an air-gapped workspace.
 
 ## Getting an App
 
-Before installing any app, you need it available within your environment.
+
 
 You have the option to:
 
-1. [Request for an existing Rocket.Chat App](manual-app-installation.md#1.-requesting-for-a-rocket.chat-app)
-2. [Build an App by yourself](manual-app-installation.md#2.-building-a-rocket.chat-app)
+1. [Request for an existing Rocket.Chat App](manual-app-installation.md#1.-requesting-for-a-rocket.chat-app) (if you are an Enterprise customer)
+2. [Build an App by yourself](manual-app-installation.md#2.-building-a-rocket.chat-app) (for Community)
 
 ### 1. Requesting for a Rocket.Chat App
 
-Get in contact with the [support team](../getting-support/enterprise-support/).
+The apps can be requested via your registered support contact in the support team.
 
 ### 2. Building a Rocket.Chat App
 
