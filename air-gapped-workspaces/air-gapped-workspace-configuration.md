@@ -12,8 +12,8 @@ To configure push notifications on your workspace, you can use the Rocket.Chat p
 
 This requires you to have your workspace registered as explained here
 
-{% content-ref url="../rocket.chat-saas/cloud-account/manage-your-cloud-account/workspaces/offline-workspace-registration.md" %}
-[offline-workspace-registration.md](../rocket.chat-saas/cloud-account/manage-your-cloud-account/workspaces/offline-workspace-registration.md)
+{% content-ref url="offline-workspace-registration.md" %}
+[offline-workspace-registration.md](offline-workspace-registration.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}

@@ -67,8 +67,8 @@ In this section, we are going to cover the option for **Internet Access**.
 
 See the guide on how to Register an offline workspace.
 
-{% content-ref url="../../../rocket.chat-saas/cloud-account/manage-your-cloud-account/workspaces/offline-workspace-registration.md" %}
-[offline-workspace-registration.md](../../../rocket.chat-saas/cloud-account/manage-your-cloud-account/workspaces/offline-workspace-registration.md)
+{% content-ref url="../../../air-gapped-workspaces/offline-workspace-registration.md" %}
+[offline-workspace-registration.md](../../../air-gapped-workspaces/offline-workspace-registration.md)
 {% endcontent-ref %}
 
 ## Apply License
