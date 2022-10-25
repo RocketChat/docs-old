@@ -3,11 +3,7 @@
 ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (10) (1) (18).jpg>)
 
 {% hint style="info" %}
-This feature is currently in the beta stage and can change without prior notice.
-{% endhint %}
-
-{% hint style="info" %}
-The feature will be released for **General Availability** on the **Enterprise Edition v4.0.**
+The feature is released for **General Availability** on the **Enterprise Edition v4.0.**
 {% endhint %}
 
 {% hint style="info" %}
