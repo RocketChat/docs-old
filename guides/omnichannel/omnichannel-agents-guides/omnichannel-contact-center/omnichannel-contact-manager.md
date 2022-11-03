@@ -9,7 +9,7 @@ If this contact initiates a conversation and the dedicated agent is **available*
 ## **To set a contact manager for a visitor/contact:**
 
 {% hint style="info" %}
-To get this functional, you need to enable **Assign new conversations to the contact manager** by changing the setting under **Administration** -> **Settings** -> **Omnichannel** -> **Routing**
+To get this functional, you need to enable **Assign new conversations to the contact manager** by changing the setting under **Administration** -> **Workspace** -> **Settings** -> **Omnichannel** -> **Routing**
 {% endhint %}
 
 ### Using UI

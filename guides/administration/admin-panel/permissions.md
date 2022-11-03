@@ -4,7 +4,7 @@ Rocket.Chat has a vast and customizable permissions system. Most of the actions 
 
 To access this menu,
 
-1. Go to **Administration** > **Permissions**
+1. Go to **Administration** > **Workspace** > **Permissions**
 
 as shown below:
 

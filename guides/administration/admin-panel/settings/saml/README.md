@@ -12,7 +12,7 @@ SAML(Security Assertion Markup Language) is an XML-based format and protocol for
 * No need to remember and renew passwords
 * No weak passwords
 
-To access this setting, go to **Administration** > **Settings** > **SAML**
+To access this setting, go to **Administration** > **Workspace** > **Settings** > **SAML**
 
 {% content-ref url="rocket.chat-server-settings.md" %}
 [rocket.chat-server-settings.md](rocket.chat-server-settings.md)

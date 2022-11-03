@@ -52,7 +52,7 @@ Tested with Django 2.0.4 and Rocket.Chat 0.62.2. If you have any problems, pleas
    * Install [django-cors-headers](https://github.com/ottoyiu/django-cors-headers) and set your Rocket.Chat domain in CORS\_ORIGIN\_WHITELIST.
    * Configure Django's XFrameOptionsMiddleware to exempt your login page for Rocket.Chat requests or disable it (dangerous).
    * Configure Django's CsrfViewMiddleware to exempt your login page for Rocket.Chat requests or disable it (dangerous).
-7. To access this settings, go to: **Administration** > **Settings** > **Accounts**
+7. To access this settings, go to: **Administration** > **Workspace** > **Settings** > **Accounts**
    * **Enabled:** Enable this option to authenticate users using your own login page in place of the Rocket. Chat's login page via the iframe integration. Please check the [Iframe integration](https://developer.rocket.chat/rocket.chat/iframe-integration) page for more information.
    * **Iframe URL**: Enter **** the URL (http://localhost:8000/login/?next=/rocketchat/redirect)of the page you want to show as the login page of your Rocket.Chat instance.
    * **API URL:**  Enter the URL (http://localhost:8000/rocketchat/api), which refers to the endpoint on the third-party system. This will check if the user is already logged in to that system.&#x20;

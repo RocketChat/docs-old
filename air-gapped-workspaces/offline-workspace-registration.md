@@ -6,8 +6,8 @@ You can follow this guide to register your air-gapped or workspaces without inte
 If you use a workspace accessible through the internet, you can follow [this guide](https://docs.rocket.chat/guides/administration/admin-panel/connectivity-services#registration-steps) on how to set it up.
 {% endhint %}
 
-* Accept the cloud privacy terms at **Administration** > **Settings** > **Setup Wizard** > **Cloud Info** > **Cloud Service Privacy Terms Agreement** on your Rocket.Chat server
-* Navigate to **Administration** > **Connectivity Services** and click **Register Offline** as shown below
+* Accept the cloud privacy terms at **Administration** > **Workspace** > **Settings** > **Setup Wizard** > **Cloud Info** > **Cloud Service Privacy Terms Agreement** on your Rocket.Chat server
+* Navigate to **Administration** > **Workspace** > **Connectivity Services** and click **Register Offline** as shown below
 
 <figure><img src="../.gitbook/assets/Connectivity Services Offline.png" alt=""><figcaption><p>Connectivity Services Offline</p></figcaption></figure>
 

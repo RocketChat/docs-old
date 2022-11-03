@@ -8,7 +8,7 @@ description: >-
 
 Visit the info section to get insight, statistics and info on the various aspects of your server. This can help you to better evaluate and monitor the various activities.
 
-To access this menu, go to **Administration** > **Info**.
+To access this menu, go to **Administration** > **Workspace** > **Info**.
 
 as shown below:
 

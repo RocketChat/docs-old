@@ -6,7 +6,7 @@ description: Configure WebDAV servers like Nextcloud
 
 A framework for users to create, change and move documents on a server. Used to link WebDAV servers such as Nextcloud.
 
-To access this setting, go to **Administration** > **Settings** > **Webdav Integration**.
+To access this setting, go to **Administration** > **Workspace** > **Settings** > **Webdav Integration**.
 
 * **Webdav Integration Enabled**: When set to true, WebDAV will be available on the server.
 

@@ -35,13 +35,13 @@ See the guide on building Rocket.Chat apps.
 
 After getting your packaged and ready-to-use app in a `.zip` format, follow the instructions below to have it installed manually on your workspace.
 
-* Go to the Rocket.Chat **Administration** -> **Settings** -> **General** -> **Apps**&#x20;
+* Go to the Rocket.Chat **Administration** -> **Workspace** -> **Settings** -> **General** -> **Apps**&#x20;
 * Toggle ON **Enable the App Framework** and **Enable development mode**
 * Then **Save changes**
 
 <figure><img src="../.gitbook/assets/Enable app development mode.png" alt=""><figcaption><p>Enable app development mode</p></figcaption></figure>
 
-* After enabling, navigate to **Administration** -> **Apps**
+* After enabling, navigate to **Administration** -> **Workspace** -> **Apps**
 * Click on **Upload App**&#x20;
 
 <figure><img src="../.gitbook/assets/Apps panel.png" alt=""><figcaption><p>Apps panel</p></figcaption></figure>

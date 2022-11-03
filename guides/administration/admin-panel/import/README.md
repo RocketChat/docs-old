@@ -6,7 +6,7 @@ description: Import data from other services to Rocket.Chat
 
 Rocket.Chat lets you import all your data if you are moving from another service like Slack to Rocket.Chat
 
-To access this menu, go to **Administration** > **Import**.
+To access this menu, go to **Administration** > **Workspace** > **Import**.
 
 as shown below:
 

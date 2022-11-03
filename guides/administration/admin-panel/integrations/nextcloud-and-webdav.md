@@ -6,7 +6,7 @@ With this integration, you can access, browse, navigate your Nextcloud directori
 
 To do this,  `WebDAV Integration` needs to be enabled on your Rocket.Chat server.&#x20;
 
-You will need a server admin to go into **Administration** -> **Settings** -> **Webdav Integration** and set the value to `true`.
+You will need a server admin to go into **Administration** -> **Workspace** -> **Settings** -> **Webdav Integration** and set the value to `true`.
 
 ![](<../../../../.gitbook/assets/administration >)
 

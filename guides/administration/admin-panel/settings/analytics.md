@@ -6,7 +6,7 @@ description: See how users interact with your workspace.
 
 Setting up analytics gives you the possibility to see how users interact with your server and help measure the metrics and monitor the different measures of user experience.
 
-To access analytics, go to **Administration > Settings > Analytics.**
+To access analytics, go to **Administration > Workspace > Settings > Analytics.**
 
 You have access to various configurations that can be done.
 

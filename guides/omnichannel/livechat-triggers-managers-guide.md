@@ -2,7 +2,7 @@
 
 Omnichannel Live Chat Triggers are a set of events that can be configured that when they happen, causes the Live Chat widget to perform an action or opens up automatically.
 
-To access this menu, go to **Avatar Menu > Omnichannel > Live Chat Triggers**. Here, you can **View**, **Create New**, **Edit** or **Delete** existing Live Chat Triggers.
+To access this menu, go to **Administration > Omnichannel > Live Chat Triggers**. Here, you can **View**, **Create New**, **Edit** or **Delete** existing Live Chat Triggers.
 
 ## Create New Omnichannel Live Chat Trigger
 

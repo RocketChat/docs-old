@@ -2,7 +2,7 @@
 
 To delete the Twitter app from your workspace:
 
-Goto **Administration** > **Apps** > **Installed** > **Twitter**
+Goto **Administration** > **Workspace** > **Apps** > **Installed** > **Twitter**
 
 Hit **Uninstall**
 

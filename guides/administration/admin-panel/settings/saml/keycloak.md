@@ -11,7 +11,7 @@ Keycloak:
 
 * Decide/set up a realm you want to use, e.g. `master`. The realm will be referenced by the placeholder `<realm>`.
 
-## Setting up Rocketchat
+## Setting up Rocket.Chat 
 
 Go to the SAML settings in Rocket.Chat administration:
 

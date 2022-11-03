@@ -7,7 +7,7 @@ Rocket.Chat Connectivity Services gives you access to connect your self-hosted w
 * OAuth proxy for social network
 * Apps Marketplace
 
-To access this menu, go to **Administration** > **Connectivity Services.**
+To access this menu, go to **Administration** > **Workspace** > **Connectivity Services.**
 
 as shown below:
 

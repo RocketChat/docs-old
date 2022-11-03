@@ -8,7 +8,7 @@ description: >-
 
 Rocket.Chat Rate Limiter is used to control the rate of requests sent or received by your Rocket.Chat server. It can be used to prevent cyber attacks like DoS(Denial of Service) attacks and limit web scraping.
 
-To access this setting, go to **Administration** > **Settings** > **Rate Limiter**.
+To access this setting, go to **Administration** > **Workspace** > **Settings** > **Rate Limiter**.
 
 ## API Rate Limiter <a href="#9f0duy7a3no" id="9f0duy7a3no"></a>
 

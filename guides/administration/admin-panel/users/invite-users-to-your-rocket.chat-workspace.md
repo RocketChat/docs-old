@@ -1,6 +1,6 @@
 # Invite users to your Rocket.Chat workspace
 
-To access this menu, go to **Administration > Users > Invite** as shown below:
+To access this menu, go to **Administration > Workspace > Users > Invite** as shown below:
 
 ![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (21).png>)
 

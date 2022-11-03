@@ -8,7 +8,7 @@ description: >-
 
 [WebRTC](https://webrtc.org) (Web Real-Time Communication) is a technology that allows Web apps and sites to record and potentially broadcast audio and/or video material, as well as transmit arbitrary data between browsers without the need for a middleman.
 
-To access this setting, go to **Administration** > **Settings** > **WebRTC**.
+To access this setting, go to **Administration** > **Workspace** > **Settings** > **WebRTC**.
 
 * **Enable for Public Channels**: WebRTC will be enabled for all public channels if set to true.
 * **Enable for Private Channels**: When enabled, private channels will have WebRTC.

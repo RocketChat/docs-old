@@ -1,6 +1,6 @@
 # Instagram Direct Configuration
 
-To access the settings, go to **Administration** > **Apps**.
+To access the settings, go to **Administration** > **Workspace** > **Apps**.
 
 as shown below:
 

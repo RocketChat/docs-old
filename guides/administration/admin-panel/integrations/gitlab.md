@@ -24,7 +24,7 @@ Follow these steps below to do that
 
 ### Creating a new GitLab webhook integration
 
-* On your Rocket.Chat workspace, go to **Administration** -> **Integrations**&#x20;
+* On your Rocket.Chat workspace, go to **Administration** -> **Workspace** -> **Integrations**&#x20;
 * Switch to the **Incoming** tab and create a **New** Integration
 * Fill in the details of your webhook including the **name** of the webhook, the **room** to post into, the **user to post as** and enable it
 

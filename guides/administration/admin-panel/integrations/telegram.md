@@ -25,7 +25,7 @@ Make sure Your Rocket.Chat workspace URL is publicly available.
 ## Getting the Token
 
 1. Note the token provided for your bot
-2. Go to the **Administration** > **Integrations** page in Rocket.Chat
+2. Go to the **Administration** > **Workspace** > **Integrations** page in Rocket.Chat
 3. Create a new Incoming Webhook following these instructions
    * Set the webhook integration name, the room to post to and which user to use
    * Enable script and paste the following code and paste the following code in that field

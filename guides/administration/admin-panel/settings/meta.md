@@ -8,7 +8,7 @@ With the Meta configuration, you can set custom meta properties for your server.
 
 Meta elements are tags used in HTML and XHTML documents to provide structured metadata about a Web page, they are usually very important for SEO among others
 
-To access this section, go to **Administration** > **Settings** > **Meta**.
+To access this section, go to **Administration** > **Workspace** > **Settings** > **Meta**.
 
 * **Language**: Lets you set the meta language. eg `en`
 * **Facebook App Id**: When provided, it will allow the Facebook scraper to associate the Open Graph entity with your server.

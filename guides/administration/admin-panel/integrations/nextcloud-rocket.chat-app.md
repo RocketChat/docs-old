@@ -20,9 +20,9 @@ Connecting Nextcloud with Rocket.Chat requires your Rocket.Chat sever to be on a
 {% hint style="info" %}
 You need to make the following changes to your Rocket.Chat settings
 
-* Have two-factor Authentication disabled on your Rocket.Chat settings **Administration** > **Settings** > **Accounts** > **Two Factor Authentication**
-* Disable Restrict access inside any Iframe **Administration** > **Settings** > **General** > **Restrict access inside any Iframe**
-* Enable to send and receive data inside an iframe **Administration** > **Settings** > **General** > **Iframe Integration**
+* Have two-factor Authentication disabled on your Rocket.Chat settings **Administration** > **Workspace** > **Settings** > **Accounts** > **Two Factor Authentication**
+* Disable Restrict access inside any Iframe **Administration** > **Workspace** > **Settings** > **General** > **Restrict access inside any Iframe**
+* Enable to send and receive data inside an iframe **Administration** > **Workspace** > **Settings** > **General** > **Iframe Integration**
 {% endhint %}
 
 ### Setup

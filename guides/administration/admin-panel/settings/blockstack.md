@@ -8,7 +8,7 @@ description: >-
 
 Blockstack lets users authenticate when registering or login into the server with ease. This will give your users the ability to sign in without relying on any third parties or remote servers.
 
-To access this section, go to **Administration** > **Settings** > **Blockstack**.
+To access this section, go to **Administration** > **Workspace** > **Settings** > **Blockstack**.
 
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.

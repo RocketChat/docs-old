@@ -22,7 +22,7 @@ A very practical use case is using Omnichannel to **acquire** and **retain** cus
 
 To enable the Omnichannel feature on your Rocket.Chat instance:
 
-1. Go to **Administration > Settings > Omnichannel**
+1. Go to **Administration > Workspace > Settings > Omnichannel**
 2. **Enable** Omnichannel and hit **Save changes**
 
 Now the admin will have access to _**Omnichannel Panel Settings**_ through a new menu called `Omnichannel`, as shown below:

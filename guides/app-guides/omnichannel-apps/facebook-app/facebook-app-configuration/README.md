@@ -1,6 +1,6 @@
 # Facebook App Configuration
 
-Go to **Administration** > **Apps**. Go to the **Installed** tab and search _Facebook Messenger._
+Go to **Administration** > **Workspace** > **Apps**. Go to the **Installed** tab and search _Facebook Messenger._
 
 Click open your Facebook app to see the settings available to you as an administrator:
 

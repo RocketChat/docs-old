@@ -8,7 +8,7 @@ Rocket.Chat supports several different ways to authenticate, beyond the basic us
 
 To set up your desired provider:
 
-Go to **Administration > Settings> OAuth**&#x20;
+Go to **Administration > Workspace > Settings> OAuth**&#x20;
 
 ## OAuth Methods
 

@@ -6,7 +6,7 @@ description: You can view the available and installed Rocket.Chat Apps and manag
 
 Rocket.Chat Apps provide apps to improve collaboration, boost productivity and get more done. This menu takes you to the Rocket.Chat marketplace where there are many apps to choose from.
 
-To access apps, go to **Administration** > **Apps**.
+To access apps, go to **Administration** > **Workspace** > **Apps**.
 
 as shown below:
 

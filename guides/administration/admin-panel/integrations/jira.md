@@ -2,7 +2,7 @@
 
 N_otify on issue creation, deletion, status, resolution, comment, or priority changes._
 
-1. In Rocket.Chat go to **Administration > Integrations** and create **New Integration**
+1. In Rocket.Chat go to **Administration > Workspace > Integrations** and create **New Integration**
 2. Choose Incoming Webhook
 3. Follow all instructions like **Enable**, give it a name, link to channel etc. Set **Enable Script** to true and enter the content of [_this script_](https://github.com/malko/rocketchat-jira-hook/blob/master/jira-rocketchat-hook.js) in the **Script** box
 4. Hit **Save changes** and copy the _Webhook URL_ (added just below the script box)

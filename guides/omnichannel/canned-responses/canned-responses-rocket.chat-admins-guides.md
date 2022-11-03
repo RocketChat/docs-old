@@ -12,7 +12,7 @@ As a Rocket.Chat workspace admin, you can enable and disable Canned Responses on
 
 To enable canned responses on your workspace:
 
-* Go to **Administration** > **Settings** > **Omnichannel** > **Canned Responses**
+* Go to **Administration** > **Workspace** > **Settings** > **Omnichannel** > **Canned Responses**
 * Activate the toggle to enable and **Save Changes**
 
 {% hint style="info" %}
@@ -23,7 +23,7 @@ To enable canned responses on your workspace:
 
 ## Canned Responses Permissions
 
-Under the **Administration** > **Permissions** section, you can define which user roles should be able to view, create and delete the canned responses.
+Under the **Administration** > **Workspace** > **Permissions** section, you can define which user roles should be able to view, create and delete the canned responses.
 
 ![](<../../../.gitbook/assets/image (512).png>)
 

@@ -13,7 +13,7 @@ Follow these steps to enable GitLab OAuth on your server.
 
 ![](<../../../../../.gitbook/assets/image (681) (1) (1) (1).png>)
 
-* Copy these details and go to the GitLab OAuth section on your Rocket.Chat server by navigating to **Administration** > **Settings** > **OAuth**
+* Copy these details and go to the GitLab OAuth section on your Rocket.Chat server by navigating to **Administration** > **Workspace** > **Settings** > **OAuth**
 * Fill in the information and hit **Save changes** to commit
 
 ![](<../../../../../.gitbook/assets/image (670) (1) (1) (1).png>)

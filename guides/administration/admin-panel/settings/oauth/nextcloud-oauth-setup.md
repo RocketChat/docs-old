@@ -5,7 +5,7 @@ To use Nextcloud OAuth on your server, you need the `URL` of your Nextcloud serv
 Follow these steps to set up Nextcloud OAuth on your server.
 
 * Login to your Nextcloud server as admin
-* Go to **Settings** > **Administration** > **Security**
+* Go to **Settings** > **Administration** > **Workspace** > **Security**
 
 ![](<../../../../../.gitbook/assets/image (643) (1) (1) (1).png>)
 

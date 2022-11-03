@@ -2,7 +2,7 @@
 
 Add Nixstats notifications via a new WebHook in Rocket.Chat
 
-1. In Rocket.Chat go to **Administration > Integrations** and create **New Integration**.
+1. In Rocket.Chat go to **Administration > Workspace > Integrations** and create **New Integration**.
 2. Choose Incoming WebHook.
 3. Follow all instructions like Enable, give it a name, link to channel, etc. Set "Enable Script" to true and enter the javascript in the "Script" box.
 4. Hit **Save changes** and copy the _Webhook URL_ (added just below the script box).

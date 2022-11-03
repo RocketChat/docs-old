@@ -26,7 +26,7 @@ If your callback URL is wrong, GitHub does not display any error. Instead of log
 ![](<../../../../../.gitbook/assets/image (634) (1).png>)
 
 * After creating your new GiHub OAuth app, copy the `Client Id` and `Secrete` provided
-* Head over to the GitHub OAuth section on your Rocket.Chat server by navigating to **Administration** > **Settings** > **OAuth**
+* Head over to the GitHub OAuth section on your Rocket.Chat server by navigating to **Administration** > **Workspace** > **Settings** > **OAuth**
 
 ![](<../../../../../.gitbook/assets/image (671) (1) (1) (1).png>)
 

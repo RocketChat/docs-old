@@ -35,7 +35,7 @@ The following steps explain how to do this
 
 #### Creating new GitHub webhook integration
 
-* Go to the **Administration** -> **Integrations** settings on your Rocket.Chat workspace
+* Go to the **Administration** -> **Workspace** -> **Integrations** settings on your Rocket.Chat workspace
 * Switch to the **Incoming** tab and create a **New** Integration
 * Fill in the details of your webhook including the **name** of the webhook, the **room** to post into, the **user to post as** and enable it
 

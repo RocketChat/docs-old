@@ -19,7 +19,7 @@ We are going to:
 
 To install the Google Drive Rocket.Chat App,
 
-* Go to **Administration > Marketplace**
+* Go to **Administration > Workspace > Marketplace**
 * Search for the **Google Drive** app and click on the item
 * Click **Install** and **Agree** to accept the needed permissions
 
