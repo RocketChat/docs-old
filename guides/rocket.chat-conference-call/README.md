@@ -13,15 +13,7 @@ Rocket.Chat's conference call enterprise feature set allows you to use the follo
 
 
 
-|                     Feature                     | Community Edition | Enterprise Edition | Mobile |   |
-| :---------------------------------------------: | :---------------: | :----------------: | :----: | - |
-|                 **Create calls**                |       **✓**       |        **✓**       |  **✓** |   |
-| **List in the channel users who joined a call** |       **x**       |        **✓**       |  **x** |   |
-|   **Contextual bar containing call history**    |       **x**       |        **✓**       |  **x** |   |
-|   **Options to start with camera and mic off**  |       **✓**       |        **✓**       |  **✓** |   |
-|      **Mark calls as ended after 24 hours**     |       **✓**       |        **✓**       |  **✓** |   |
-|      **Ring users before starting a call**      |       **x**       |        **✓**       |  **x** |   |
-|     **Disable call button in the workspace**    |       **x**       |        **✓**       |  **x** |   |
+<table><thead><tr><th align="center">Feature</th><th align="center">Community Edition</th><th align="center">Enterprise Edition</th><th align="center">Mobile</th><th data-hidden></th></tr></thead><tbody><tr><td align="center"><strong>Create calls</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td></td></tr><tr><td align="center"><strong>List in the channel users who joined a call</strong></td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>x</strong></td><td></td></tr><tr><td align="center"><strong>Contextual bar containing call history</strong> </td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>x</strong></td><td></td></tr><tr><td align="center"><strong>Options to start with camera and mic off</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td></td></tr><tr><td align="center"><strong>Mark calls as ended after 24 hours</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td></td></tr><tr><td align="center"><strong>Ring users before starting a call</strong></td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>x</strong></td><td></td></tr><tr><td align="center"><strong>Disable call button in the workspace</strong></td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>x</strong></td><td></td></tr></tbody></table>
 
 ### **Provider Specific** Conference Call **Features**
 
