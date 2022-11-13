@@ -6,17 +6,24 @@ description: >-
 
 # E2E Encryption
 
-End-to-end encryption (E2EE) is a system of communication where only the communicating users can read the messages. Rocket.Chat uses this in order to prevent potential eavesdroppers.
+End-to-end encryption (E2EE) is a system of communication where only the communicating users can read the messages. Rocket.Chat uses this to prevent potential eavesdroppers.
+
+{% hint style="info" %}
+**This feature is currently in beta.**
+{% endhint %}
+
+
 
 To access this setting, go to **Administration** > **Settings** > **E2E Encryption**.
 
-{% hint style="warning" %}
-This feature is currently in beta! Please report bugs to [github.com/RocketChat/Rocket.Chat/issues](https://github.com/RocketChat/Rocket.Chat/issues) and be aware of:
+{% hint style="info" %}
+E2EE encryption functionality is currently in beta and includes notable restrictions that workspace owners should carefully consider before activating this feature for production use as follow:
 
-* Encrypted messages of encrypted rooms will not be found by search operations.
-* The mobile apps may not support the encrypted messages (they are implementing it).
-* Bots may not be able to see encrypted messages until they implement support for it.
-* Uploads will not be encrypted in this version.
+* E2EE encrypted messages will not appear in search operations&#x20;
+* Bots or other ancillary systems interacting via webhooks or REST API will not be able to read E2EE encrypted messages&#x20;
+* File uploads are not encrypted&#x20;
+* Rocket.Chat enables users to reset their private E2EE key to avoid permanent loss of data during the beta period
+* Rocket.Chat enables authorized admin access to user private E2EE keys to avoid permanent loss of data during the beta period
 {% endhint %}
 
 * **Enable encryption for Direct Rooms by default**: When set to true, direct rooms will be encrypted by default.
