@@ -1,13 +1,12 @@
 # End to End Encryption User Guide
 
 {% hint style="info" %}
-**E2EE encryption functionality is currently in beta** and includes notable restrictions that workspace owners should carefully consider before activating this feature for production use as follow:
+**IMPORTANT:** **E2E encryption functionality is currently in beta** and includes notable restrictions that workspace owners should carefully consider before activating this feature for production use as follow:
 
-* E2EE encrypted messages will not appear in search operations&#x20;
+* E2E encrypted messages will not appear in search operations&#x20;
 * Bots or other ancillary systems interacting via webhooks or REST API will not be able to read E2EE encrypted messages&#x20;
 * File uploads are not encrypted&#x20;
 * Rocket.Chat enables users to reset their private E2EE key to avoid permanent loss of data during the beta period
-* Rocket.Chat enables authorized admin access to user private E2EE keys to avoid permanent loss of data during the beta period
 {% endhint %}
 
 ## Getting started
