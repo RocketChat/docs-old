@@ -10,7 +10,12 @@ description: >-
 ## Encryption Process Overview
 
 {% hint style="info" %}
-End-to-end encryption and its related features (as listed below) are currently in beta mode. If you come across problems and areas for improvement, please submit an issue in Github.
+**IMPORTANT:** **E2E encryption functionality is currently in beta** and includes notable restrictions that workspace owners should carefully consider before activating this feature for production use as follow:
+
+* E2E encrypted messages will not appear in search operations&#x20;
+* Bots or other ancillary systems interacting via webhooks or REST API will not be able to read E2EE encrypted messages&#x20;
+* File uploads are not encrypted&#x20;
+* Rocket.Chat enables users to reset their private E2EE key to avoid permanent loss of data during the beta period
 {% endhint %}
 
 Upon login, the client auto-generates the encryption password and asks the user to save it. This password is used to generate a secure 256-bit **AES-CBC** encryption key, called “**Master** **Key.**”
