@@ -1,8 +1,8 @@
 # Agents
 
-Omnichannel **** Agents are responsible for handling conversations. An agent can belong to a particular department and they get notified when a conversation gets initiated and they are `available`.
+Omnichannel **Agents** are responsible for handling Omnichannel conversations. An agent can belong to a particular department and gets notified when a new conversation gets initiated if they are `available`.
 
-To access this menu, go to **Avatar Menu  > Omnichannel > Agents**. Here, you can **view**, **add** or **remove** agents.
+To access this menu, go to **Avatar Menu > Omnichannel > Agents**. Here, you can **view**, **add** or **remove** agents.
 
 Settings appear, as shown below:
 
@@ -14,7 +14,7 @@ Select the user from the **username** drop-down field and **Add** This will auto
 
 ## **2. View Omnichannel Agent**
 
-On visiting the Omnichannel agents page, a list of all the existing agents is seen with their details and can be paginated if you have many agents. An agent's status can be seen on the `Live Chat Status` tab showing whether they are `Available` or `Not Available.`
+On visiting the Omnichannel Agent page, a list of all the existing agents is seen with their details and can be paginated if you have many agents. An agent's status can be seen on the `Live Chat Status` tab showing whether they are `Available` or `Not Available.`
 
 Clicking on an agent gives room for you to edit the agent's details.
 

@@ -8,6 +8,10 @@ It is a paid subscription and costs you $39 per month.
 
 ![](<../../../../.gitbook/assets/image (641) (1) (1) (1) (1) (1).png>)
 
+{% hint style="success" %}
+Alternatively, you can use the [whatsapp-cloud-app](../whatsapp-cloud-app/ "mention") which connects Rocket.Chat directly to WhatsApp without any third-party service.
+{% endhint %}
+
 {% hint style="warning" %}
 **You must have the** [**Omnichannel feature**](../../../administration/admin-panel/settings/omnichannel-admins-guide/) **enabled as well as have** [**agents**](https://docs.rocket.chat/guides/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/guides/omnichannel/managers) **assigned in order to receive and send Omnichannel messages.**
 {% endhint %}
