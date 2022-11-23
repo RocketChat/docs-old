@@ -33,77 +33,75 @@ Rocket.Chat is very grateful for the following people who have responsibly discl
 
 {% tabs %}
 {% tab title="2022" %}
-Stefan Grönke (gronke)
+[Stefan Grönke (gronke)](https://hackerone.com/gronke?type=user)
 
-Doge4doge (d4d)
+[Doge4doge (d4d)](https://hackerone.com/d4d?type=user)
 
-Ghaem arasteh (ghaem51)
+[Ghaem arasteh (ghaem51)](https://hackerone.com/ghaem51?type=user)
 
-Emil (mikolajczak)
+[Emil (mikolajczak)](https://hackerone.com/mikolajczak?type=user)
 
-Ayoub (ayoub0x1)
+[Ayoub (ayoub0x1)](https://hackerone.com/ayoub0x1?type=user)
 {% endtab %}
 
 {% tab title="2021" %}
-Herry (herry8835)
+[Sonali (sonalirajput)](https://hackerone.com/sonalirajput?type=user)
 
-Sonali (sonalirajput)
+[Rolf (rolfzur)](https://hackerone.com/rolfzur?type=user)
 
-Rolf (rolfzur)
+[Daniel J (danieljpp)](https://hackerone.com/danieljpp?type=user)
 
-Daniel J (danieljpp)
+[Olegeekk (olegeekk)](https://hackerone.com/olegeekk?type=user)
 
-Olegeekk (olegeekk)
+[Dark Army (darkman26)](https://hackerone.com/darkman26?type=user)
 
-Dark Army (darkman26)
+[WhiteWinterWolf](https://hackerone.com/whitewinterwolf?type=user)
 
-WhiteWinterWolf
+[Hosein vita (hosein\_vita)](https://hackerone.com/hosein\_vita?type=user)
 
-Hosein vita (hosein\_vita)
+[Maik (sectex)](https://hackerone.com/sectex?type=user)
 
-Maik (sectex)
+[Cuong Huu Nguyen (chnguyen98)](https://hackerone.com/chnguyen98?type=user)
 
-Cuong Huu Nguyen (chnguyen98)
+[Aman Kumar (nighthawkk)](https://hackerone.com/nighthawkk?type=user)
 
-Aman Kumar (nighthawkk)
+[Mzha (mzha)](https://hackerone.com/mzha?type=user)
 
-Mzha (mzha)
+[Ganesh Bagaria (ganofins)](https://hackerone.com/ganofins?type=user)
 
-Ganesh Bagaria (ganofins)
+[Hhjjyy (hhjjyy)](https://hackerone.com/hhjjyy?type=user)
 
-Hhjjyy (hhjjyy)
+[Dustin (dustinboi)](https://hackerone.com/dustinboi?type=user)
 
-Dustin (dustinboi)
+[LXR (lisbonresearch)](https://hackerone.com/lisbonresearch?type=user)
 
-LXR (lisbonresearch)
+[SonarSource (sonarsource)](https://hackerone.com/sonarsource?type=user)
 
-SonarSource (sonarsource)
+[Ayoub (ayoub0x1)](https://hackerone.com/ayoub0x1?type=user)
 
-Ayoub (ayoub0x1)
+[Ivar Darkwood (dago\_669)](https://hackerone.com/dago\_669?type=user)
 
-Ivar Darkwood (dago\_669)
+[Paulo (paulocsanz)](https://hackerone.com/paulocsanz?type=user)
 
-Paulo (paulocsanz)
+[Blackhat201319 (blackhat201319)](https://hackerone.com/blackhat201319?type=user)
 
-Blackhat201319 (blackhat201319)
+[Stefan Grönke (gronke)](https://hackerone.com/gronke?type=user)
 
-Stefan Grönke (gronke)
+[Ali Fathi Ali Sawehli (alifathi)](https://hackerone.com/alifathi?type=user)
 
-Ali Fathi Ali Sawehli (alifathi)
+[Abhinav Porwal (cyberasset)](https://hackerone.com/cyberasset?type=user)
 
-Abhinav Porwal (cyberasset)
+[Andrew (khekhe)](https://hackerone.com/khekhe?type=user)
 
-Andrew (khekhe)
+[hikim1 (hikim)](https://hackerone.com/hikim?type=user)
 
-hikim1 (hikim)
+[Rojan Rijal (rijalrojan)](https://hackerone.com/rijalrojan?type=user)
 
-Rojan Rijal (rijalrojan)
-
-Will Reiske (wreiske)
+[Will Reiske (wreiske)](https://hackerone.com/wreiske?type=user)
 {% endtab %}
 
 {% tab title="2020" %}
-[Jorge Cardona](https://jorge-cardona.github.io)
+[Jorge Cardona](https://hackerone.com/jcardona?type=user)
 
 [Shubham Panchal](https://www.linkedin.com/in/shubham-panchal-636744161/)
 
@@ -125,47 +123,47 @@ Pawel Wylecial of [REDTEAM.PL](https://redteam.pl)
 
 [Karthik](https://twitter.com/86Karthik86?s=03)
 
-Prathamesh Pawar (prawar)
+[Prathamesh Pawar (prawar)](https://hackerone.com/prawar?type=user)
 
-Stefan Grönke (gronke)
+[Stefan Grönke (gronke)](https://hackerone.com/gronke?type=user)
 
-Fabian Freyer (fabianfreyer)
+[Fabian Freyer (fabianfreyer)](https://hackerone.com/fabianfreyer?type=user)
 
-Wfinn (wfinn)
+[Wfinn (wfinn)](https://hackerone.com/wfinn?type=user)
 
-(psych0tr1a)
+[(psych0tr1a)](https://hackerone.com/psych0tr1a?type=user)
 
-Arun Magesh (arunmagesh)
+[Arun Magesh (arunmagesh)](https://hackerone.com/arunmagesh?type=user)
 
-Dustin (dustinboi)
+[Dustin (dustinboi)](https://hackerone.com/dustinboi?type=user)
 
-Maor Dayan (officialm)
+[Maor Dayan (officialm)](https://hackerone.com/officialm?type=user)
 
-Maik (sectex)
+[Maik (sectex)](https://hackerone.com/sectex?type=user)
 
-Benjamin Altpeter (baltpeter)
+[Benjamin Altpeter (baltpeter)](https://hackerone.com/baltpeter?type=user)
 
-Garret (garretby)
+[Garret (garretby)](https://hackerone.com/garretby?type=user)
 
-Albarafii (xasa\_sad234)
+[Albarafii (xasa\_sad234)](https://hackerone.com/xasa\_sad234?type=user)
 
-Tillmann (tillmann)
+[Tillmann (tillmann)](https://hackerone.com/tillmann?type=user)
 
-LordMX (gremlinxca)
+[LordMX (gremlinxca)](https://hackerone.com/gremlinxca?type=user)
 
-sadegh (sadeghrz)
+[sadegh (sadeghrz)](https://hackerone.com/sadeghrz?type=user)
 
-Elfi man (elfiman)
+[Elfi man (elfiman)](https://hackerone.com/elfiman?type=user)
 
-Ivars Vids (ivarsvids)
+[Ivars Vids (ivarsvids)](https://hackerone.com/ivarsvids?type=user)
 
-Tomp1 (tomp1)
+[Tomp1 (tomp1)](https://hackerone.com/tomp1?type=user)
 
-Steven Julian (steven\_julian22)
+[Steven Julian (steven\_julian22)](https://hackerone.com/steven\_julian22?type=user)
 
-Amy Burnett (itszn)
+[Amy Burnett (itszn)](https://hackerone.com/itszn?type=user)
 
-Tim Zieger (mrthacking
+[Tim Zieger (mrthacking](https://hackerone.com/mrthacking?type=user)
 {% endtab %}
 
 {% tab title="2019" %}
