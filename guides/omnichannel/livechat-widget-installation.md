@@ -7,7 +7,7 @@ The Live Chat Widget is a chat interface that can be embedded into a webpage. Th
 
 In this section, you'll learn how to install the Live Chat widget on your website.
 
-To access this menu, go to **Avatar Menu** > **Omnichannel** > **Live Chat Installation**.
+To access this menu, go to **Administration** > **Omnichannel** > **Live Chat Installation**.
 
 ### To install the Live Chat widget:
 
@@ -26,6 +26,6 @@ Visitors on your webpage will be able to click on it to initiate a conversation.
 
 To run the Live Chat Widget on a domain different from that of your Rocket.Chat server, you need to disable **Restrict access inside any iframe** on your Rocket.Chat server.
 
-To do that, navigate to **Administration** > **Settings** > **General**
+To do that, navigate to **Administration** > **Workspace** > **Settings** > **General**
 
 ![Administration > General](<../../.gitbook/assets/restrict-access-inside-any-iframe (1).png>)

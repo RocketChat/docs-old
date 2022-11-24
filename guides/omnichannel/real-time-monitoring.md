@@ -2,7 +2,7 @@
 
 Real-time monitoring allows you to monitor your incoming and ongoing Live Chat conversations in real-time.
 
-To access the Omnichannel Real-time monitoring dashboard, go to **Avatar Menu > Omnichannel > Real-time Monitoring**.
+To access the Omnichannel Real-time monitoring dashboard, go to **Administration > Omnichannel > Real-time Monitoring**.
 
 These monitoring metrics can be filtered as per the **department** and set to be updated in a specified amount of time by changing the **Update every** field.
 

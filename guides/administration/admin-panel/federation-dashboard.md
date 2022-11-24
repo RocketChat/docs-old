@@ -8,7 +8,7 @@ description: >-
 
 With the Rocket.Chat [Federation Setup](settings/federation.md), you can configure your server to be able to communicate with other servers seamlessly.
 
-To access the dashboard, go to **Administration** > **Federation Dashboard.**
+To access the dashboard, go to **Administration** > **Workspace** > **Federation Dashboard.**
 
 ![](<../../../.gitbook/assets/image (658) (1) (1) (1) (1) (1).png>)
 

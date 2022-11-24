@@ -19,7 +19,7 @@ End-to-end encryption (E2EE) is a system of communication where only the communi
 
 
 
-To access this setting, go to **Administration** > **Settings** > **E2E Encryption**.
+To access this setting, go to **Administration** > **Workspace** > **Settings** > **E2E Encryption**.
 
 * **Enable encryption for Direct Rooms by default**: When set to true, direct rooms will be encrypted by default.
 * **Enable encryption for Private Rooms by default**: When enabled, private rooms will be encrypted by default.

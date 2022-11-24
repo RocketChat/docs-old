@@ -6,7 +6,7 @@ Rocket.Chat allows you to add custom emoji files that can be used within Rocket.
 
 To access this menu,
 
-1. Go to **Administration** > **Custom Emoji**
+1. Go to **Administration** > **Workspace** > **Custom Emoji**
 
 as shown below:
 

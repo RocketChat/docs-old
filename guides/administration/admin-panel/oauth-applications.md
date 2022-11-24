@@ -6,7 +6,7 @@ description: >-
 
 # OAuth Applications
 
-To access this menu, go to **Administration** > **OAuth Applications.**
+To access this menu, go to **Administration** > **Workspace** > **OAuth Applications.**
 
 ![](<../../../.gitbook/assets/image (652) (1) (1) (1) (1) (1).png>)
 
@@ -33,7 +33,7 @@ Fill in the information according to the app you are linking.
 
 ## Viewing and Editing OAuth Apps
 
-From the OAuth dashboard( **Administration** > **OAuth Applications.** ), you can see a list of OAuth Apps created where you can click on any to view and edit the configurations made.
+From the OAuth dashboard( **Administration** > **Workspace** > **OAuth Applications.** ), you can see a list of OAuth Apps created where you can click on any to view and edit the configurations made.
 
 ![](../../../.gitbook/assets/2021-11-12\_10h34\_12.png)
 

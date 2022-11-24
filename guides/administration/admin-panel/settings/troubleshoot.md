@@ -6,7 +6,7 @@ description: Configure how troubleshooting is handled on your workspace.
 
 Configure how troubleshooting is handled in your workspace
 
-To access this section, go to **Administration** > **Settings** > **Troubleshoot**.
+To access this section, go to **Administration** > **Workspace** > **Settings** > **Troubleshoot**.
 
 {% hint style="danger" %}
 We recommend these settings be altered only with the guidance of the Rocket.Chat Development or Support Teams. Do not touch them if you don't know what you are doing!

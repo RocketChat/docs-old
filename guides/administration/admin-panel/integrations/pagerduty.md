@@ -4,7 +4,7 @@
 
 ### **Admin Settings**
 
-Log in as an administrator and go to **Administration > Integrations > New Integration > Incoming Webhook** and configure the following settings:
+Log in as an administrator and go to **Administration > Workspace > Integrations > New Integration > Incoming Webhook** and configure the following settings:
 
 * **Enabled:** Enable this option to integrate the PagerDuty with Rocket.Chat.
 * **Name (Optional):** Enter the preferred name for your PagerDuty connection.&#x20;

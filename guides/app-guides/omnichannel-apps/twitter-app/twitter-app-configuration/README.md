@@ -1,6 +1,6 @@
 # Twitter App Configuration
 
-Go to **Administration** > **Apps**. Go to the **Installed** tab and search _Twitter._
+Go to **Administration** > **Workspace** > **Apps**. Go to the **Installed** tab and search _Twitter._
 
 Click open your Twitter app to see the settings available to you as an administrator:
 

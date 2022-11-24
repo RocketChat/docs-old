@@ -8,6 +8,6 @@ description: >-
 
 Discussions are created from parent channels or groups. Rocket.Chat Discussions are a way of tackling all specific topic-related conversations.
 
-To access this setting, go to **Administration** > **Settings** > **Discussion**.
+To access this setting, go to **Administration** > **Workspace** > **Settings** > **Discussion**.
 
 * **Enable**: When enabled, users will be able to create discussions.

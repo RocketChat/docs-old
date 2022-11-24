@@ -6,7 +6,7 @@ description: Configure message settings
 
 In this section, you have settings regarding messages on your server and all the actions that can be performed with them.
 
-To access this section, go to **Administration** > **Settings** > **Message**.
+To access this section, go to **Administration** > **Workspace** > **Settings** > **Message**.
 
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.

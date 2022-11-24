@@ -51,7 +51,7 @@ The following data elements are transmitted via statistics collector:
 
 Our users have total freedom to disable the NPS survey. Simply follow the steps below to switch NPS off:
 
-* Within Rocket.Chat, access **Administration > General**&#x20;
+* Within Rocket.Chat, access **Administration > Workspace > General**&#x20;
 * **NPS** > Uncheck “**Enable NPS Survey**”
 * Once the setting is turned off, the NPS survey stays off indefinitely.
 

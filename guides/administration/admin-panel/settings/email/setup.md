@@ -10,7 +10,7 @@ This configuration is only done manually for Self-managed workspaces. It is pre-
 
 ## Set up your Credentials
 
-* Go to **Administration > Settings > Email > SMTP.**
+* Go to **Administration > Workspace > Settings > Email > SMTP.**
 * **Protocol** - Choose **SMTP**(Simple Mail Transfer Protocol) or **SMTPS** (Simple Mail Transfer Protocol Secure) protocol.
 * **Host -** Your SMTP server hostname (e.g. `mail.example.com`)
 * **Port -**The port (usually 587 for modern secured SMTP servers).&#x20;

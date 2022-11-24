@@ -10,7 +10,7 @@ Internet Relay Chat (IRC) is a text-based group communication tool. Users join u
 
 By configuring this, you will be able to communicate directly from your Rocket.Chat to any external IRC server.
 
-To access this setting, go to **Administration** > **Settings** > **IRC Federation**.
+To access this setting, go to **Administration** > **Workspace** > **Settings** > **IRC Federation**.
 
 * **Enable**: When enabled, provides settings for IRC Federation integration.
 * **Protocol**: This lets you set the protocol your IRC server uses. example `RFC2813`.

@@ -33,7 +33,7 @@ Some of these environment variables are mandatory, those are kept separate to th
 
 You can override your Rocket.Chat settings directly from environment variables.
 
-Settings capable of this can be seen when hovered upon in the **Administration** > **Settings** section.
+Settings capable of this can be seen when hovered upon in the **Administration** > **Workspace** > **Settings** section.
 
 ![Example Settings code](<../../.gitbook/assets/Example Settings code>)
 

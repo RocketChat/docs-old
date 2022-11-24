@@ -43,7 +43,7 @@ The only user actions available are:
 
 As administrator, you can configure the maximum number of participants allowed in a direct message room (globally).
 
-Look under **Administration -> Message**:
+Look under **Administration -> Workspace -> Message**:
 
 ![Admin](../../../../.gitbook/assets/admin.png)
 

@@ -24,7 +24,7 @@ The following notifications are supported:
 
 You can install our Jira Server Integration Rocket.Chat App from your Rocket.Chat Administration area.
 
-* Go to **Administration > Marketplace**
+* Go to **Administration > Workspace > Marketplace**
 * Search for the **Jira Server Integration** and click on the item
 * Click on the **Install** button
 * Click on **Activate**

@@ -6,7 +6,7 @@ description: Enable and configure SMS gateways on your workspace.
 
 This setting lets you configure various SMS gateways on your workspace.
 
-To access this menu, go to **Administration** > **Settings** > **SMS**.
+To access this menu, go to **Administration** > **Workspace** > **Settings** > **SMS**.
 
 * **Enabled**: Lets you enable or disable SMS service on your server.
 * **Service**: A dropdown to select the available SMS services available e.g `Twilio`, `Mobex`, `Voxtelesys`

@@ -6,7 +6,7 @@ description: >-
 
 # Invites
 
-To access this menu, go to **Administration** > **Invites**.
+To access this menu, go to **Administration** > **Workspace** > **Invites**.
 
 as shown below:
 

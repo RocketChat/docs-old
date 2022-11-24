@@ -12,4 +12,4 @@ An error like this is related to your browser settings for third party cookies. 
 
 ![](<../../../.gitbook/assets/Clipboard -2.png>)
 
-You should review the **Site URL** setting under **Administration** > **Settings** > **General** and possibly also the server name setting on your reverse proxy if you have one to guarantee they are all aligned and corresponding to the same URL being used in your Live Chat Widget installed script.&#x20;
+You should review the **Site URL** setting under **Administration** > **Workspace** > **Settings** > **General** and possibly also the server name setting on your reverse proxy if you have one to guarantee they are all aligned and corresponding to the same URL being used in your Live Chat Widget installed script.&#x20;

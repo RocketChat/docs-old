@@ -45,5 +45,5 @@ To disable the HubSpot CRM for the users, click **Disable**.
 To disable the HubSpot CRM:
 
 * Search for the **HubSpot** App under the **Marketplace** tab in the **Apps** menu.
-* Go to Rocket.Chat **Administration** > **Apps**.
+* Go to Rocket.Chat **Administration** > **Workspace** > **Apps**.
 * Click **Uninstall.**&#x20;

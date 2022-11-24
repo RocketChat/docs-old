@@ -1,6 +1,6 @@
 # MatrixBridge Configuration
 
-To access this setting, go to: **Administration** > **Settings** > **Federation > MatrixBridge.**
+To access this setting, go to: **Administration** > **Workspace** > **Settings** > **Federation > MatrixBridge.**
 
 ![MatrixBridge Configuration](<../../../../../../.gitbook/assets/matrixbridge settings (2).png>)
 

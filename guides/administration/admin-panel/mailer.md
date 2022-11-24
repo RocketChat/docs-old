@@ -4,7 +4,7 @@ description: Use the Mailer tool to send emails to users inside your Rocket.Chat
 
 # Mailer
 
-To access this menu, go to **Administration** > **Mailer**.
+To access this menu, go to **Administration** > **Workspace** > **Mailer**.
 
 as shown below:
 

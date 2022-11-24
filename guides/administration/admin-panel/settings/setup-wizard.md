@@ -6,7 +6,7 @@ description: Basic info about your workspace such as organization name and count
 
 This section has basic configurations for the setup wizard of your workspace.
 
-To access this menu, go to **Administration** > **Settings** > **Setup Wizard**.
+To access this menu, go to **Administration** > **Workspace** > **Settings** > **Setup Wizard**.
 
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.

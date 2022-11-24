@@ -10,7 +10,7 @@ This setting lets you configure aspects that involve users downloading their dat
 
 Using this, users can download their entire Rocket.Chat data.
 
-To access this setting, go to **Administration** > **Settings** > **User Data Download**.
+To access this setting, go to **Administration** > **Workspace** > **Settings** > **User Data Download**.
 
 * **Enable User Data Download**: When set to true, users will be able to download their data.
 

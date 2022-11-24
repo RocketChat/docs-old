@@ -8,7 +8,7 @@ description: Here you will find information on how to install and use the Zoom A
 
 You can install our Zoom Rocket.Chat App from your Rocket.Chat Administration area.
 
-* Go to **Administration > Marketplace**
+* Go to **Administration > Workspace > Marketplace**
 * Search for the **Zoom** and click on the item
 * Click on the **Install** button
 
@@ -34,7 +34,7 @@ You'll need to create a new JWT app at [Zoom's Marketplace](https://marketplace.
 
 ### Step 2: Configure the Slash command at Rocket.Chat
 
-* Go to the settings of the Zoom App in **Administration > Apps > Zoom**
+* Go to the settings of the Zoom App in **Administration > Workspace > Apps > Zoom**
 * Place the API Key and API Secret at their respective fields and save.
 
 ## Usage

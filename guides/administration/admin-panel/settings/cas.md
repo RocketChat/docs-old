@@ -14,7 +14,7 @@ For more information on CAS, see [github.com/apereo/cas](https://github.com/aper
 
 ## Rocket.Chat CAS Administration
 
-To access this setting, go to **Administration** > **Settings** > **CAS**.
+To access this setting, go to **Administration** > **Workspace** > **Settings** > **CAS**.
 
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.

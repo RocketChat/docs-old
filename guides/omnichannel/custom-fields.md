@@ -4,7 +4,7 @@ Custom fields can be added to receive additional information from visitors durin
 
 Custom fields can be set upon a **Visitor** or **Room**
 
-To access this menu, go to **Avatar Menu > Omnichannel > Custom Fields**. Here, you can **View**, **Create New**, **Edit** or **Delete** an existing field.
+To access this menu, go to **Administration > Omnichannel > Custom Fields**. Here, you can **View**, **Create New**, **Edit** or **Delete** an existing field.
 
 {% hint style="info" %}
 The Live Chat registration form has the **Name**, **Email**, and **I need Help With…**(Department) fields by default.

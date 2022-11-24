@@ -10,7 +10,7 @@ Omnichannel Tags are used for marking and classifying Omnichannel conversation.
 A very practical use case is using tags to mark the progress made on a Live Chat query. You can have tags like `new`, `blocked`, `in progress,` `completed` etc
 {% endhint %}
 
-To access **Tags** settings go to **Avatar Menu > Omnichannel > Tags**.
+To access **Tags** settings go to **Administration > Omnichannel > Tags**.
 
 ![Omnichannel Tags settings](<../../.gitbook/assets/Omnichannel Tags settings>)
 

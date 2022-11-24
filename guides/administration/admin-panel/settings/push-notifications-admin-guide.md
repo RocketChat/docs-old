@@ -18,7 +18,7 @@ Default user preferences are universal for all users in the workspace until indi
 
 To check user preferences for push notifications:
 
-1. Go to **Administration** > **Settings** > **Account** and scroll down to **Default User Preference**
+1. Go to **Administration** > **Workspace** > **Settings** > **Account** and scroll down to **Default User Preference**
 2. Set **Mobile Notifications Default Alert** to Mentions. It will send notifications in case of a mention of the user's name or only the threads the user has intentionally subscribed to.
 
 ![](<../../../../.gitbook/assets/image (139).png>)
@@ -31,7 +31,7 @@ We suggest you should check the push notification configuration in user preferen
 
 To enable push notifications:
 
-* Go to **Administration > Settings > Push**
+* Go to **Administration > Workspace > Settings > Push**
 * **Enable** push notifications
 * **Enable** your Gateway (_Option not available on a cloud server_)
 
@@ -62,7 +62,7 @@ Above are the default settings. If **Fetch full message content from the server 
 
 Make sure you have agreed to terms and conditions.
 
-* Go to **Administration > Settings > Setup Wizard**
+* Go to **Administration > Workspace > Settings > Setup Wizard**
 * Go to '**Cloud Info'**
 * Turn the **Cloud Service Privacy Terms Agreement** toggle on
 

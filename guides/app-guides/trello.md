@@ -19,7 +19,7 @@ It is required you have the following to successfully setup the Trello app
 
 To install the Trello Rocket.Chat App,
 
-* Go to **Administration > Marketplace**
+* Go to **Administration > Workspace > Marketplace**
 * Search for the **Trello** app and click on the item
 * Click **Install** and accept the needed permissions
 

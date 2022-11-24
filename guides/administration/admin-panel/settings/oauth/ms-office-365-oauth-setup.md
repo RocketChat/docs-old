@@ -10,7 +10,7 @@ Follow these steps to enable Office 365 OAuth on your Rocket.Chat instance.
 
 To create a custom authentication method for your Rocket.Chat instance:
 
-* Navigate to **Administration** > **Settings** > **OAuth** and click on **Custom OAuth** and set the new OAuth integration name
+* Navigate to **Administration** > **Workspace** > **Settings** > **OAuth** and click on **Custom OAuth** and set the new OAuth integration name
 
 ![Create new custom OAuth](<../../../../../.gitbook/assets/Creating custom OAuth>)
 

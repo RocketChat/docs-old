@@ -6,7 +6,7 @@ description: Enable Rocket.Chat to communicate directly with Slack
 
 SlackBridge lets you mirror Slack and Rocket.Chat servers in real-time.
 
-To access this menu, go to **Administration** > **Settings** > **SlackBridge**
+To access this menu, go to **Administration** > **Workspace** > **Settings** > **SlackBridge**
 
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.

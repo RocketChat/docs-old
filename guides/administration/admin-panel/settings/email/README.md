@@ -6,7 +6,7 @@ description: Configure broadcast emails from inside Rocket.Chat.
 
 Configure email setting to be able to broadcast emails directly from Rocket.Chat.
 
-To access this menu, go to **Administration** > **Settings** > **Email**.
+To access this menu, go to **Administration** > **Workspace** > **Settings** > **Email**.
 
 Here you find various Email settings and tools:
 

@@ -34,7 +34,7 @@ It's possible to set a maximum number of channels a guest can join for every lic
 Guest accounts are only available on Enterprise, and the permissions are pre-defined for this role.
 {% endhint %}
 
-Go to **Administration > Permissions.** You will notice that the permissions that a guest role has are: start the conversation, view direct messages, view joined the room, and view private room.
+Go to **Administration > Workspace > Permissions.** You will notice that the permissions that a guest role has are: start the conversation, view direct messages, view joined the room, and view private room.
 
 #### Permissions Available **for the Guest Role**
 
@@ -46,7 +46,7 @@ Go to **Administration > Permissions.** You will notice that the permissions tha
 You must be an administrator to add a guest to Rocket.Chat workspace.&#x20;
 {% endhint %}
 
-* Go to **Administration > Users > New** as shown below:
+* Go to **Administration > Workspace > Users > New** as shown below:
 
 ![](<../../../../.gitbook/assets/New User.png>)
 

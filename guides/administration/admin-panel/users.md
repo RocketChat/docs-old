@@ -6,7 +6,7 @@ description: Users menu lets you view, create, edit, delete, deactivate, and, in
 
 Now you have your Rocket.Chat server up and running and maybe have some users or none. Visit this menu to view, create, edit, delete, activate and perform other actions regarding user accounts on your server.
 
-To access this menu, go to **Administration** > **Users**.
+To access this menu, go to **Administration** > **Workspace** > **Users**.
 
 as shown below:
 

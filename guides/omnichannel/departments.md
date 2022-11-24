@@ -10,7 +10,7 @@ A typical use case is when you have Live Chat conversations being initiated from
 See this section on how to [assign an agent to a department](agents.md#assign-omnichannel-agent-to-a-department).
 {% endhint %}
 
-To access this menu, go to **Avatar Menu > Omnichannel > Departments**. Here, you can **View**, **Create New**, **Edit** or **Delete** a department.
+To access this menu, go to **Administration > Omnichannel > Departments**. Here, you can **View**, **Create New**, **Edit** or **Delete** a department.
 
 ## **Create Omnichannel Department**
 

@@ -14,7 +14,7 @@ Enabling and using Rocket.Chat Omnichannel gives seamless, effortless and high-q
 
 To enable the Omnichannel feature on your Rocket.Chat instance:
 
-Go to **Administration > Settings > Omnichannel**
+Go to **Administration > Workspace > Settings > Omnichannel**
 
 Please enable it.
 
@@ -156,4 +156,4 @@ As shown below:
 
 ### Video and Audio Call
 
-Make Jitsi, your Omnichannel call provider by going to **Administration > Setting > Omnichannel > Video and Audio Call > Call Provider > Jitsi**
+Make Jitsi, your Omnichannel call provider by going to **Administration > Workspace > Setting > Omnichannel > Video and Audio Call > Call Provider > Jitsi**

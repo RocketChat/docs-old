@@ -2,7 +2,7 @@
 
 Configure general settings of your workspace.
 
-To access analytics, go to **Administration > Settings > General.**
+To access analytics, go to **Administration > Workspace > Settings > General.**
 
 You have access to various configurations that can be done.
 

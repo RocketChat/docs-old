@@ -2,7 +2,7 @@
 
 To install Salesforce CRM App:
 
-Go to **Administration** > **Apps**.
+Go to **Administration** > **Workspace** > **Apps**.
 
 as shown below:
 

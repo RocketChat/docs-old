@@ -6,7 +6,7 @@ description: Modify workspace member account settings
 
 In this guide, we will go over all settings in the _Accounts_ Section.
 
-To access this setting, go to: **Administration** > **Settings** > **Accounts**
+To access this setting, go to: **Administration** > **Workspace** > **Settings** > **Accounts**
 
 These are the basic Account configuration settings. Most of the options are either `True` or `False` depending on whether you want the setting enabled or not.
 

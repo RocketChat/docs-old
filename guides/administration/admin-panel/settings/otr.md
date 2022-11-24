@@ -14,6 +14,6 @@ Off-the-record (OTR) Messaging is a feature that allows users to exchange **temp
 
 As an administrator, you can enable/disable OTR for your workspace, as shown below:
 
-Go to **Administration** > **Settings** > **OTR**.
+Go to **Administration** > **Workspace** > **Settings** > **OTR**.
 
 ![](<../../../../.gitbook/assets/image (390).png>)

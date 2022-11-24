@@ -35,7 +35,7 @@ To get a test API-KEY, **** you can do the following:
 
 Once you have a Sandbox API key, you can update the app settings as given below.
 
-To access the settings, go to **Administration** > **Administrator -> Apps -> Installed -> Whatsapp Sandbox -> Settings**
+To access the settings, go to **Administration** > **Workspace** > **Administrator -> Apps -> Installed -> Whatsapp Sandbox -> Settings**
 
 Following are the settings available:‌
 

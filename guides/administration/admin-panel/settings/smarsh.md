@@ -6,7 +6,7 @@ description: Configurations to preserve email communication
 
 Smarsh is used to confidently and efficiently preserve email communications.
 
-To access this menu, go to **Administration** > **Settings** > **Smarsh**.
+To access this menu, go to **Administration** > **Workspace** > **Settings** > **Smarsh**.
 
 * **Smarsh Enabled**: Whether the Smarsh eml connector is enabled or not (needs 'From Email' filled in under Email -> SMTP).
 * **Smarsh Email**: Smarsh Email Address to send the .eml file to.
