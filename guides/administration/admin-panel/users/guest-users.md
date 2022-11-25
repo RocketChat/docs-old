@@ -1,6 +1,6 @@
-# Manage guest users
+# Guest users
 
-<figure><img src="../../../../.gitbook/assets/EnterpriseEditionTag.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/EnterpriseEditionTag (1).jpg" alt=""><figcaption></figcaption></figure>
 
 If you want to invite external users to your Rocket.Chat workspace, you can add them as guest users.
 
@@ -14,7 +14,7 @@ All users assigned with the guest role, don't count on the cap of seats, but the
 
 ### What can a guest user do?
 
-Guest users have fewer capabilities than regular users.&#x20;
+Guest users have fewer capabilities than regular users.
 
 As a guest user in Rocket.Chat, you can start the conversation, view direct messages, view joined rooms, and view the private room.
 
@@ -22,8 +22,6 @@ As a guest user in Rocket.Chat, you can start the conversation, view direct mess
 It's possible to set a maximum number of guest users for every license.
 
 It's possible to set a maximum number of channels a guest can join for every license.
-
-
 {% endhint %}
 
 ## Manage your guest users
@@ -43,14 +41,14 @@ Go to **Administration > Workspace > Permissions.** You will notice that the per
 ### Add a Guest User
 
 {% hint style="info" %}
-You must be an administrator to add a guest to Rocket.Chat workspace.&#x20;
+You must be an administrator to add a guest to Rocket.Chat workspace.
 {% endhint %}
 
 * Go to **Administration > Workspace > Users > New** as shown below:
 
 ![](<../../../../.gitbook/assets/New User.png>)
 
-* On the **Add User** page**,** enter the guest users' information:
+* On the **Add User** page\*\*,\*\* enter the guest users' information:
   * **Name:** Enter the name of the guest user.
   * **Username:** Enter the guest users's username.
   * **Email:** Enter the guest users's email address.
@@ -62,11 +60,11 @@ You must be an administrator to add a guest to Rocket.Chat workspace.&#x20;
   * **Set random password and send by email:** Enable or disable this option to set arandom password and send by email.
   * **Roles:** Select the **guest** role from the dropdown menu.
   * **Join default channels:** Set whether you want the guest user to join default channels.
-  * **Send welcome email:** Set whether you want to send a welcome email **** to the guest user.
+  * **Send welcome email:** Set whether you want to send a welcome email \*\*\*\* to the guest user.
 * Click **Save**.
 
 {% hint style="info" %}
-**Roles** - This will define what permissions a user has.&#x20;
+**Roles** - This will define what permissions a user has.
 {% endhint %}
 
 Once the guest user is added, you can edit, activate and deactivate the guest role.
@@ -75,7 +73,7 @@ Once the guest user is added, you can edit, activate and deactivate the guest ro
 
 * Go to **User Info** and then click **Activate.**
 
-****
+***
 
 ![Activate](../../../../.gitbook/assets/ActivateGuestuser.png)
 

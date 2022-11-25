@@ -12,7 +12,7 @@ Click open your WhatApp instance to see the settings available to you as an admi
 
 Following are the settings available:‌
 
-![](<../../../../../.gitbook/assets/2022-01-15\_19-53-39 (1) (1) (1) (4) (2) (1) (3).png>)
+![](<../../../../../.gitbook/assets/2022-01-15\_19-53-39 (1) (1) (1) (4) (2) (1) (3) (1).png>)
 
 * **Notification of undeliverable message** to alert the agent that a message was not delivered to the WhatsApp platform.
 * **Agents Display Info:** You can choose to display the agent's name or username.

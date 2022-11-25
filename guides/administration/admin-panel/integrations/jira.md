@@ -1,6 +1,6 @@
 # Add Jira notifications via webhook
 
-N_otify on issue creation, deletion, status, resolution, comment, or priority changes._
+N\_otify on issue creation, deletion, status, resolution, comment, or priority changes.\_
 
 1. In Rocket.Chat go to **Administration > Workspace > Integrations** and create **New Integration**
 2. Choose Incoming Webhook
@@ -18,4 +18,4 @@ _Integration for Rocket.Chat that summarizes any JIRA issues mentioned._
 
 Example of Jira integration:
 
-![Jira integration](../../../../.gitbook/assets/Jira-webhook.png)
+![Jira integration](../../../../.gitbook/assets/jira-webhook.png)
