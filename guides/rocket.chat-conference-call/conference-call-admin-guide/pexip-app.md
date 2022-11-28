@@ -84,7 +84,11 @@ Select the options that meet your needs and hit **Save changes** in the top righ
 
 ### 4. Using the Pexip app
 
-* After successfully installing and configuring the Pexip app, a secure Pexip call can be initiated inside any [Rocket.Chat room](../../user-guides/rooms/) by using the slash command `/pexip`
+After successfully installing and configuring the Pexip app, a secure Pexip call can be initiated inside any [Rocket.Chat room](../../user-guides/rooms/) by using the slash command or the call icon button
+
+#### Starting Pexip call with Slash Command
+
+* A Pexip call can be started with the slash command `/pexip`
 
 <figure><img src="../../../.gitbook/assets/Using Pexip slashcommand.png" alt=""><figcaption><p>Using Pexip slash command</p></figcaption></figure>
 
@@ -92,10 +96,22 @@ Select the options that meet your needs and hit **Save changes** in the top righ
 
 <figure><img src="../../../.gitbook/assets/New Pexip VMR link in RocketChat.png" alt=""><figcaption><p>New Pexip VMR link in Rocket.Chat</p></figcaption></figure>
 
-* Members in that Rocket.Chat room can use the link to join the call where they provide their details and grant permission for Camera and Microphone usage
+* Members in that Rocket.Chat room can use the link to join the call&#x20;
+
+#### Start Pexip Call with icon
+
+* After configuring Pexip as a call provider, clicking on the call icon in any Rocket.Chat room lets you **Start a call**&#x20;
+
+<figure><img src="../../../.gitbook/assets/Start Call in RocketChat room.png" alt=""><figcaption><p>Start Call in Rocket.Chat room</p></figcaption></figure>
+
+* This rings and notify users in that room where the have the option to **Accept** or **Reject** the call
+
+<figure><img src="../../../.gitbook/assets/Rocket.Chat Pexip call ringing.png" alt=""><figcaption><p>Rocket.Chat Pexip call ringing</p></figcaption></figure>
+
+On joining the call, they are prompted to provide their details and grant permission for Camera and Microphone usage
 
 <figure><img src="../../../.gitbook/assets/Join Pexip call.png" alt=""><figcaption><p>Join Pexip call</p></figcaption></figure>
 
-* The list of users joining the VMR can be seen within Rocket.Chat
+The list of users joining the VMR can be seen within Rocket.Chat
 
 <figure><img src="../../../.gitbook/assets/List of users in a Pexip call.png" alt=""><figcaption><p>List of users in a Pexip call</p></figcaption></figure>
