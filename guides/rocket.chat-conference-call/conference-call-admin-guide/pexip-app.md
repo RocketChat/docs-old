@@ -6,17 +6,40 @@ description: Enterprise only feature
 
 ![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (10) (1) (18).jpg>)
 
-[Pexip](https://www.pexip.com/) is a purpose-built video communication platform that empowers large organizations to transform their operations with video. Pexip’s unique technology provides customized solutions for innovative and fully bespoke application of video, data privacy, and business continuity for secure spaces and frictionless collaboration for connected spaces.
+## Introduction
+
+[Pexip](https://www.pexip.com/) is a purpose-built video communication platform that empowers large organizations to transform their operations with video conferencing. Pexip’s unique technology provides a customized solution for an innovative and fully bespoke application of video, data privacy, and business continuity for secure spaces and frictionless collaboration for connected spaces.
 
 The integration between Rocket.Chat and Pexip as video conferencing communication platform enable secure and compliant communication that is ideal for organizations operating within strict regulatory requirements relating to internal and external communications such as government, financial services, healthcare, and others.
 
+## Architecture&#x20;
+
+This integration is made possible by connecting Rocket.Chat with Pexip infinity through its external policy API. The Rocket.Chat Pexip App acts as a relay between the two platforms.
+
+Pexip video meetings created by Rocket.Chat users with the help of the Pexip app initiate a video call to a Pexip Conferencing Node and triggers an external policy request to Pexip. The policy server creates a single-use Virtual Meeting Room (_VMR_) and responds with the meeting parameters.\
+This VMR is made available in the Rocket.Chat room for its duration.
+
 {% hint style="info" %}
-**A Pexip server is required for this integration.**
+Make sure that the Rocket.Chat external policy server can connect to the Pexip Infinity Conferencing Nodes over HTTPS on port 443.
 {% endhint %}
 
-To start using Pexip video conferencing app on your Rocket.Chat Instance:
+See the illustration below for a summary
 
-## 1. Download the Pexip app
+<figure><img src="../../../.gitbook/assets/RocketChat-Pexip.png" alt=""><figcaption><p>Rocket.Chat Pexip Architecture</p></figcaption></figure>
+
+## Setup
+
+{% hint style="info" %}
+You are required to have:
+
+* A Rocket.Chat workspace with Enterprise license.
+* A [Pexip infinity server deployed](https://docs.pexip.com/admin/installation\_overview.htm) with:
+  * A valid certificates and intermediate certificates [see more here](https://docs.pexip.com/admin/certificate\_management.htm)
+  * With a suitable network routability between Rocket.Chat and Pexip Infinity [see more here](https://docs.pexip.com/admin/port\_usage.htm)
+  * Only one location for each Rocket.Chat workspace, but that location can contain multiple Conferencing Nodes.
+{% endhint %}
+
+### 1. Download the Pexip app
 
 To Download the Pexip app:
 
@@ -26,7 +49,7 @@ To Download the Pexip app:
 
 ![Pexip app install](../../../.gitbook/assets/PexipAppInstall.png)
 
-## 2. Set up the app&#x20;
+### 2. App Configuration&#x20;
 
 To set up the Pexip app on your Rocket.Chat instance:
 
@@ -40,7 +63,7 @@ To set up the Pexip app on your Rocket.Chat instance:
 
 5\. Hit **Save Changes**
 
-## 3. Configure conference call using Pexip app&#x20;
+### 3. Configure conference call using Pexip app&#x20;
 
 To configure the Pexip video conference on your Rocket.Chat instance:
 
@@ -58,3 +81,21 @@ Select the options that meet your needs and hit **Save changes** in the top righ
 {% content-ref url="../conference-call-users-guide.md" %}
 [conference-call-users-guide.md](../conference-call-users-guide.md)
 {% endcontent-ref %}
+
+### 4. Using the Pexip app
+
+* After successfully installing and configuring the Pexip app, a secure Pexip call can be initiated inside any [Rocket.Chat room](../../user-guides/rooms/) by using the slash command `/pexip`
+
+<figure><img src="../../../.gitbook/assets/Using Pexip slashcommand.png" alt=""><figcaption><p>Using Pexip slash command</p></figcaption></figure>
+
+* This creates a new Pexip Virtual Meeting Room(VMR) and a link is made available in the room for users to use and **Join call**
+
+<figure><img src="../../../.gitbook/assets/New Pexip VMR link in RocketChat.png" alt=""><figcaption><p>New Pexip VMR link in Rocket.Chat</p></figcaption></figure>
+
+* Members in that Rocket.Chat room can use the link to join the call where they provide their details and grant permission for Camera and Microphone usage
+
+<figure><img src="../../../.gitbook/assets/Join Pexip call.png" alt=""><figcaption><p>Join Pexip call</p></figcaption></figure>
+
+* The list of users joining the VMR can be seen within Rocket.Chat
+
+<figure><img src="../../../.gitbook/assets/List of users in a Pexip call.png" alt=""><figcaption><p>List of users in a Pexip call</p></figcaption></figure>
