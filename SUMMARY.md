@@ -262,6 +262,7 @@
         * [Email Configuration](guides/administration/admin-panel/settings/email/setup.md)
       * [Enterprise](guides/administration/admin-panel/settings/enterprise.md)
       * [Federation](guides/administration/admin-panel/settings/federation.md)
+        * [Rocket.Chat Federation](guides/administration/admin-panel/settings/federation/rocket.chat-federation.md)
         * [Matrix Bridge](guides/administration/admin-panel/settings/federation/matrix-bridge/README.md)
           * [Introduction to Matrix Bridge](guides/administration/admin-panel/settings/federation/matrix-bridge/matrix-bridge.md)
           * [MatrixBridge Configuration](guides/administration/admin-panel/settings/federation/matrix-bridge/matrixbridge-configuration.md)
