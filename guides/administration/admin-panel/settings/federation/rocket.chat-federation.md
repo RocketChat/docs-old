@@ -5,7 +5,7 @@ Rocket.Chat Federation lets your server becomes part of the Rocket.Chat Federate
 Rocket.Chat makes use of industry standards, like DNS records, to keep the process as seamless as possible, and seek the most hassle-free communication between servers.
 
 {% hint style="warning" %}
-Rocket.Chat simple Federation will be deprecated as from release`6.0.0`
+Rocket.Chat Federation will be deprecated from release`6.0.0.` We recommend federating using [Matrix Bridge](matrix-bridge/)``
 {% endhint %}
 
 ## Configuration
