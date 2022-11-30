@@ -6,7 +6,7 @@ There can help in multiple ways - even if you don't write code, you can still co
 
 **Developers** who wish to make contributions, please go [here](developing.md) to start.
 
-If you have found **security**, issue [report it](security/).
+If you have found a **security** issue, [report it](security/).
 
 Rocket.Chat is currently **translated** into more than twenty languages, but we've got a long way to go. If you'd like to assist us with this, please email our [translation team](mailto:translations@rocket.chat) to be invited to our [Lingohub](https://translate.lingohub.com) project.
 
