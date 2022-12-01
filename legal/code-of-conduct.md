@@ -1,3 +1,7 @@
+---
+description: Applicable to the Server hosted by us (​https://open.rocket.chat)
+---
+
 # Code of Conduct for our services
 
 _Effective date: September 06, 2019_

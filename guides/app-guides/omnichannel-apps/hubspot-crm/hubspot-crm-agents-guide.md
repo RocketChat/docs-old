@@ -8,17 +8,17 @@ If you have HubSpot CRM integration in place and a user sends you a message.
 
 If it is an existing HubSpot contact, you can view their contact information, as shown below:
 
-![Contacts ](<../../../../.gitbook/assets/Existing Hubspot contact gets identified by the app.png>)
+![Contacts](<../../../../.gitbook/assets/Existing Hubspot contact gets identified by the app.png>)
 
 ## View HubSpot Contact Information
 
 You can view HubSpot contact information by clicking on **Contact Info.**
 
-![Contact Info](<../../../../.gitbook/assets/View ContactInfo (2).png>)
+![Contact Info](<../../../../.gitbook/assets/View ContactInfo (1) (1) (1).png>)
 
 ## Create Ticket
 
-You can create a ticket and assign appropriate owners and stages to your tickets by clicking on **Create Ticket.**&#x20;
+You can create a ticket and assign appropriate owners and stages to your tickets by clicking on **Create Ticket.**
 
 ![Create Ticket](<../../../../.gitbook/assets/Create Tickets.png>)
 
@@ -46,4 +46,4 @@ To disable the HubSpot CRM:
 
 * Search for the **HubSpot** App under the **Marketplace** tab in the **Apps** menu.
 * Go to Rocket.Chat **Administration** > **Workspace** > **Apps**.
-* Click **Uninstall.**&#x20;
+* Click **Uninstall.**
