@@ -1,7 +1,7 @@
 # Google Calendar
 
 {% hint style="danger" %}
-**The Google Calendar app is currently in Beta and some features may not function as required.**&#x20;
+**The Google Calendar app is currently in Beta and some features may not function as expected.**&#x20;
 {% endhint %}
 
 The Rocket.Chat Google Calendar app gives you the ability to:
