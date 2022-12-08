@@ -6,6 +6,10 @@ description: Enterprise only feature
 
 ![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (12) (10) (1) (18).jpg>)
 
+{% hint style="warning" %}
+**The app is currently in Beta and some features may not function as expected.**&#x20;
+{% endhint %}
+
 To start using Google Meet video conferencing on your Rocket.Chat Instance:
 
 ## 1. Download the Google Meet app
