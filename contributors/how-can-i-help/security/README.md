@@ -10,7 +10,7 @@ Given the nature of Chat, we understand each person using Rocket.Chat has some e
 
 Our security team will respond to confirm receipt of your message, review and plan the mitigation of the issue appropriately, as well as set a timeline for a new release or patch.
 
-We follow responsible disclosure and will credit researchers when a security issue has been identified and mitigated while adhering to the following specifics:
+We follow Monsible disclosure and will credit researchers when a security issue has been identified and mitigated while adhering to the following specifics:
 
 * You may not use automated tools in your research without our explicit consent. Use of automated tools may result in investigative action or your IP(s) being blocked.
 * You make a good faith effort to avoid privacy violations, destruction of data and interruption or degradation of our service during your research.
@@ -42,6 +42,8 @@ Rocket.Chat is very grateful for the following people who have responsibly discl
 [Emil (mikolajczak)](https://hackerone.com/mikolajczak?type=user)
 
 [Ayoub (ayoub0x1)](https://hackerone.com/ayoub0x1?type=user)
+
+[Maik (Sectex)](https://hackerone.com/sectex?type=user)
 {% endtab %}
 
 {% tab title="2021" %}

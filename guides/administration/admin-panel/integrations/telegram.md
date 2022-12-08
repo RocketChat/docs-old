@@ -8,6 +8,10 @@ This will give you the possibility of relaying messages between Telegram and Roc
 Rocket.Chat [Enterprise users](../settings/enterprise.md) have the [Telegram App](../../../app-guides/omnichannel-apps/telegram-app/) packaged with a lot more functionalities and other [Omnichannel](../../../omnichannel/) features to use.
 {% endhint %}
 
+{% hint style="warning" %}
+Note: This integration is not designed to work for Omnichannel Conversations. Please check our integration [here](../../../app-guides/omnichannel-apps/telegram-app/) for serving your Omnichannel conversations from Telegram on Rocket.Chat.
+{% endhint %}
+
 ## Getting Started
 
 {% hint style="info" %}
@@ -116,20 +120,20 @@ https://api.telegram.org/bot<myauthorization-token>/setwebhook?url=<Incoming_Web
 }
 ```
 
-* Test your incoming Webhook by sending a telegram message to the bot. It should be posted in the  `channel` by the `user`you specified in the incoming webhook configuration page. Check Rocket.Chat's Logs and write down `chat_id` (or `[chat-id]`)
+* Test your incoming Webhook by sending a telegram message to the bot. It should be posted in the `channel` by the `user`you specified in the incoming webhook configuration page. Check Rocket.Chat's Logs and write down `chat_id` (or `[chat-id]`)
 
 ![Telegram bot webhook Rocket.Chat](<../../../../.gitbook/assets/Telegram bot webhook with Rocket.Chat.png>)
 
 ## Create Outgoing WebHook in Rocket.Chat
 
-* Create an outgoing webhook and specify the channel  to listen in
+* Create an outgoing webhook and specify the channel to listen in
 * In the URL field, set the URL following this format:
 
 ```html
 https://api.telegram.org/bot<myauthorization-token>/sendMessage?chat_id=<chat-id>
 ```
 
-* `chat-id` should be your Telegram group id, You can get it by adding the `@RawDataBot`  or [`@getidsbot`](https://t.me/getidsbot) to your group. You should get a response like the below on joining
+* `chat-id` should be your Telegram group id, You can get it by adding the `@RawDataBot` or [`@getidsbot`](https://t.me/getidsbot) to your group. You should get a response like the below on joining
 
 ```javascript
 GetIDsBot - Get Meta information in Telegram
@@ -151,7 +155,7 @@ Its admins:
 ℹ️ Commands are rate limited in group chats. I do not talk unless asked to do so.
 ```
 
-* Change the bot group privacy settings so it can listen to all messages by:&#x20;
+* Change the bot group privacy settings so it can listen to all messages by:
   * Sending the message `/setprivacy` to botFather
   * Choosing the bot you want to edit
   * Setting the status to `Disable`
