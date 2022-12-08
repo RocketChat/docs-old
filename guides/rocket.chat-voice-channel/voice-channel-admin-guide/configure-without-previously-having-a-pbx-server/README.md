@@ -127,7 +127,7 @@ First, check that you have the needed modules loaded using the command `module s
 
 We are reusing the Let’s Encrypt certificates for the Asterisk mini-HTTP server, WebSockets, TLS encryption, and others. Start by going to the **Settings > Advanced Settings** (again), search for the _Asterisk Builtin mini-HTTP server_ section and configure as shown, apply changes. Asterisk restart is also recommended here:
 
-![Asterisk Builtin mini-HTTP server](<../../../../.gitbook/assets/image (1).png>)
+![Asterisk Builtin mini-HTTP server](<../../../../.gitbook/assets/image (1) (1).png>)
 
 Using the command `http show status` verify that both HTTP and HTTPS are up and running:
 

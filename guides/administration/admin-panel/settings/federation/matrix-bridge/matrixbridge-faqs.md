@@ -1,4 +1,4 @@
-# MatrixBridge FAQs
+# Matrix Bridge FAQs
 
 
 
@@ -22,19 +22,16 @@ Rocket.Chat aims to enable seamless communication and collaboration across platf
 
 <summary>What is a homeserver?</summary>
 
-Each account in the Matrix federation is associated with a single homeserver (Synapse/ Dendrite). Yes. It is an access point for clients to connect to the Matrix network.
+It's an implementation of the Matrix spec, there are some existing homeservers, the most famous are [Synapse ](https://github.com/matrix-org/synapse)and [Dendrite](https://github.com/matrix-org/dendrite).
 
 </details>
 
 <details>
 
-<summary>How do I install Matrix -Synapse server?</summary>
+<summary>How do I install Synapse?</summary>
 
-* For information on how to install Synapse, see [https://matrix.org/docs/guides/installing-synapse](https://matrix.org/docs/guides/installing-synapse)
-
-<!---->
-
-* For more information on how to configure Synapse for federation, see [https://matrix-org.github.io/synapse/latest/federate.html](https://matrix-org.github.io/synapse/latest/federate.html)
+* Installing [Synapse](https://matrix.org/docs/guides/installing-synapse).
+* Configuring [federation](https://matrix-org.github.io/synapse/latest/federate.html).
 
 </details>
 
@@ -42,26 +39,16 @@ Each account in the Matrix federation is associated with a single homeserver (Sy
 
 <summary>What are the prerequisites for using Matrix on Rocket.Chat?</summary>
 
-* Setup [Docker Compose](https://docs.rocket.chat/quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose)
-* Setup PostgresSQL
-* Install [Docker](https://docs.docker.com/get-docker/) and Set up [Docker Compose](https://docs.rocket.chat/quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose)
-* Element Setup
-* [Traefik](https://traefik.io/) Setup&#x20;
-* Configure [nginx](https://docs.rocket.chat/quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose/docker-containers#5.-installing-nginx-and-ssl-certificate)
-* Obtain [Lets Encrypt](https://letsencrypt.org/) Certificate
-* Install [Synapse](https://matrix.org/docs/projects/server/synapse) that supports application services.
-* A domain to host your homeserver on
+See how to [install and configure](admin-guide/matrix-homeserver-setup.md) Rocket.Chat Matrix Bridge integration.
 
 </details>
 
 <details>
 
-<summary>How do I test if matrix federation works fine?</summary>
+<summary>How do I test my Rocket.Chat Matrix Bridge setup?</summary>
 
-After setting up the matrix federation, run the following script:
-
-```
-curl -L -s https://go.rocket.chat/i/federation-test
-```
+See how to [test ](admin-guide/matrix-homeserver-setup.md#testing-your-setup)your setup.
 
 </details>
+
+For more information about the Matrix Protocol, visit [FAQs](https://matrix.org/faq/).

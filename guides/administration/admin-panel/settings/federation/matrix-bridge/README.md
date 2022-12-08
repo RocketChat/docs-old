@@ -1,34 +1,14 @@
----
-description: >-
-  Enable effortless communication and collaboration across platforms, empowering
-  individuals and teams to connect on their terms and seamlessly and securely
-  share information.
----
-
 # Matrix Bridge
 
-{% content-ref url="matrix-bridge.md" %}
-[matrix-bridge.md](matrix-bridge.md)
+To start using the Rocket.Chat Matrix Bridge integration, you need to choose one of the [Matrix homeservers](https://matrix.org/docs/guides/introduction#how-does-it-work) available.\
+At this point, we strongly recommend using [Synapse](https://github.com/matrix-org/synapse), which is the most stable Matrix homeserver, although you can use another version like [Dendrite](https://github.com/matrix-org/dendrite), keep in mind this might not [behave ](https://github.com/matrix-org/dendrite/labels/are-we-synapse-yet)as expected. [See how to set up your Matrix homeserver](admin-guide/matrix-homeserver-setup.md).
+
+{% content-ref url="admin-guide/" %}
+[admin-guide](admin-guide/)
 {% endcontent-ref %}
 
-{% content-ref url="matrixbridge-configuration.md" %}
-[matrixbridge-configuration.md](matrixbridge-configuration.md)
-{% endcontent-ref %}
-
-{% content-ref url="rocket.chat-matrix-federation-setup.md" %}
-[rocket.chat-matrix-federation-setup.md](rocket.chat-matrix-federation-setup.md)
-{% endcontent-ref %}
-
-{% content-ref url="create-a-federated-room.md" %}
-[create-a-federated-room.md](create-a-federated-room.md)
-{% endcontent-ref %}
-
-{% content-ref url="invite-a-federated-user.md" %}
-[invite-a-federated-user.md](invite-a-federated-user.md)
-{% endcontent-ref %}
-
-{% content-ref url="communicate.md" %}
-[communicate.md](communicate.md)
+{% content-ref url="users-guide/" %}
+[users-guide](users-guide/)
 {% endcontent-ref %}
 
 {% content-ref url="matrixbridge-faqs.md" %}

@@ -6,4 +6,4 @@ To make an outbound you can either dial from the dial pad or navigate to the con
 
 <figure><img src="../../../.gitbook/assets/Initiating a call from the dialpad.png" alt=""><figcaption><p>Initiating a call from the dialpad</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Initiating a call from the Contact Center</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Initiating a call from the Contact Center</p></figcaption></figure>
