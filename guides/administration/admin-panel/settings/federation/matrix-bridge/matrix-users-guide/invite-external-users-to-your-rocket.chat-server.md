@@ -1,4 +1,4 @@
-# Inviting external users
+# Invite external users to your Rocket.Chat server
 
 ## Invite external users' syntax
 

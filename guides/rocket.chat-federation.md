@@ -30,7 +30,7 @@ Bridging [Matrix ](https://matrix.org/)with Rocket.Chat **** makes it simple for
   * Send emojis (EE/CE version).
   * Mention internal and external users in federated channels (EE/CE version).
   * User's avatar synchronization (EE/CE version).
-  * User's typing indicator (EE/CE version) ([More Info](administration/admin-panel/settings/federation/matrix-bridge/admin-guide/matrix-homeserver-setup.md#important-warning-about-the-installation))
+  * User's typing indicator (EE/CE version) ([More Info](administration/admin-panel/settings/federation/matrix-bridge/matrix-admin-guide/matrix-homeserver-setup.md#important-warning-about-the-installation))
 * <mark style="color:yellow;">**Confirmed Next Features**</mark>
   * Search public rooms in the Matrix Network (EE version).
   * Servers allow list/block list.

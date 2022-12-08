@@ -1,4 +1,4 @@
-# Creating rooms
+# Create a federated rooms
 
 ## Creating a channel/group (Enterprise edition only)
 
@@ -13,11 +13,11 @@ You can either create the channel with no users or invite them at the moment of 
 
 ## Creating a Direct Message 1:1 (Enterprise edition only)
 
-Start [creating a 1:1 Direct Message](../../../../../../user-guides/rooms/direct-messages/create-a-new-direct-message-1-1.md), and make sure you are following the [syntax to invite external users](invite-a-federated-user.md#invite-external-users-syntax).
+Start [creating a 1:1 Direct Message](../../../../../../user-guides/rooms/direct-messages/create-a-new-direct-message-1-1.md), and make sure you are following the [syntax to invite external users](invite-external-users-to-your-rocket.chat-server.md#invite-external-users-syntax).
 
 ## Creating a Multi-user Direct Message (Enterprise edition only)
 
-Start [creating a Multi-user Direct Message](../../../../../../user-guides/rooms/direct-messages/direct-messages-between-multiple-users.md), and make sure you are following the [syntax to invite external users](invite-a-federated-user.md#invite-external-users-syntax).
+Start [creating a Multi-user Direct Message](../../../../../../user-guides/rooms/direct-messages/direct-messages-between-multiple-users.md), and make sure you are following the [syntax to invite external users](invite-external-users-to-your-rocket.chat-server.md#invite-external-users-syntax).
 
 ## Slash commands
 
@@ -31,11 +31,11 @@ Where:
 
 * `/federation`: The slash command itself.
 * `dm`: The command you want to execute, _dm_ is the only one available at this point.
-* `@username:server.com`: The external user you want to invite, using the [syntax to invite external users.](invite-a-federated-user.md#invite-external-users-syntax)
+* `@username:server.com`: The external user you want to invite, using the [syntax to invite external users.](invite-external-users-to-your-rocket.chat-server.md#invite-external-users-syntax)
 
 ## Creating a Multi-user Direct Message using slash command (Enterprise edition only)
 
-To create Multi-user Direct Messages using slash commands you need to open the message box in any channel and type the following command using the [syntax to invite external users](invite-a-federated-user.md#invite-external-users-syntax):
+To create Multi-user Direct Messages using slash commands you need to open the message box in any channel and type the following command using the [syntax to invite external users](invite-external-users-to-your-rocket.chat-server.md#invite-external-users-syntax):
 
 ```
 /federation dm @username1:server.com @username2:server2.com
@@ -43,7 +43,7 @@ To create Multi-user Direct Messages using slash commands you need to open the m
 
 ## Creating a Direct Message 1:1 using slash command
 
-To create a 1:1 Direct Message using slash commands you need to open the message box in any channel and type the following command using the [syntax to invite external users](invite-a-federated-user.md#invite-external-users-syntax):
+To create a 1:1 Direct Message using slash commands you need to open the message box in any channel and type the following command using the [syntax to invite external users](invite-external-users-to-your-rocket.chat-server.md#invite-external-users-syntax):
 
 ```
 /federation dm @username1:server.com

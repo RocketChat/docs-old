@@ -39,7 +39,7 @@ It's an implementation of the Matrix spec, there are some existing homeservers, 
 
 <summary>What are the prerequisites for using Matrix on Rocket.Chat?</summary>
 
-See how to [install and configure](admin-guide/matrix-homeserver-setup.md) Rocket.Chat Matrix Bridge integration.
+See how to [install and configure](matrix-admin-guide/matrix-homeserver-setup.md) Rocket.Chat Matrix Bridge integration.
 
 </details>
 
@@ -47,7 +47,7 @@ See how to [install and configure](admin-guide/matrix-homeserver-setup.md) Rocke
 
 <summary>How do I test my Rocket.Chat Matrix Bridge setup?</summary>
 
-See how to [test ](admin-guide/matrix-homeserver-setup.md#testing-your-setup)your setup.
+See how to [test ](matrix-admin-guide/matrix-homeserver-setup.md#testing-your-setup)your setup.
 
 </details>
 

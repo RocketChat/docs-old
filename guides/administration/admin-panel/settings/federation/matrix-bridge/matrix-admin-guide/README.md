@@ -1,4 +1,4 @@
-# Admin Guide
+# Matrix Admin Guide
 
 {% content-ref url="matrix-homeserver-setup.md" %}
 [matrix-homeserver-setup.md](matrix-homeserver-setup.md)
