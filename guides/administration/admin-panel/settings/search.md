@@ -28,3 +28,7 @@ To access this setting, go to **Administration** > **Workspace** > **Settings** 
 
 * **Global search**: When enabled, the search will be done globally.
 * **Page Size**: The page size.
+
+{% hint style="warning" %}
+**The global search feature is currently in Beta and may not function as expected.**&#x20;
+{% endhint %}
