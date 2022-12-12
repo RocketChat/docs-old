@@ -1,5 +1,9 @@
 # Google Drive
 
+{% hint style="danger" %}
+**The Google Drive app is currently in Beta and some features may not function as expected.**&#x20;
+{% endhint %}
+
 The Rocket.Chat Google Drive App gives you the ability to:
 
 * Open and view your Google Drive file and its details
