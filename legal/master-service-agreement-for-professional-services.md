@@ -44,8 +44,6 @@ We may update this Agreement and we will let you know when we do through the Ser
 
 **“Person”** means any individual or business entity that obtains Services as defined below.
 
-**"Permitted Subcontractor"** has the meaning set forth in Section 3.1(c).
-
 **"Pre-Existing Materials"** means the pre-existing materials specified in a Statement of Work, such as documents, data, know-how, methodologies, software, and other materials.
 
 **"Project"** means a project as described in a Statement of Work.
@@ -56,7 +54,7 @@ We may update this Agreement and we will let you know when we do through the Ser
 
 **"Rocket.Chat Contract Manager"** means a primary contact with respect to this Agreement who will have the authority to act on behalf of Rocket.Chat in connection with matters pertaining to this Agreement
 
-**"Rocket.Chat Personnel"** means all employees and Permitted Subcontractors, if any, engaged by Rocket.Chat to perform the Services.
+**"Rocket.Chat Personnel"** means all employees and Subcontractors, if any, engaged by Rocket.Chat to perform the Services.
 
 **"Services"** mean the professional and other services to be provided by Rocket.Chat under this Agreement, as described in more detail in a Statement of Work, and Rocket.Chat's obligations under this Agreement.
 
@@ -72,7 +70,13 @@ We may update this Agreement and we will let you know when we do through the Ser
 
 ### 3. Rocket.Chat's Obligations.&#x20;
 
-**3.1 Rocket.Chat shall:** before the date on which the Services are to start, obtain, and at all times during the term of this Agreement maintain, all necessary licenses and consents and comply with all relevant Laws applicable to the provision of the Services; comply with, and ensure that all Rocket.Chat Personnel comply with, all rules, regulations, and policies of Customer that are communicated to Rocket.Chat in writing, including security procedures concerning systems and data and remote access thereto, building security procedures and general security practices and procedures; obtain Customer's written approval, which may be given or withheld in Customer's sole discretion, prior to entering into agreements with or otherwise engaging any Person, including all subcontractors and Affiliates of Rocket.Chat, other than Rocket.Chat's employees, to provide any Services and Deliverables to Customer (each such approved subcontractor or other third party, a "Permitted Subcontractor"). Customer's approval shall not relieve Rocket.Chat of its obligations under this Agreement, and Rocket.Chat shall remain fully responsible for the performance of each such Permitted Subcontractor and its employees and for their compliance with all of the terms and conditions of this Agreement as if they were Rocket.Chat's own employees. Nothing contained in this Agreement shall create any contractual relationship between Customer and any Rocket.Chat subcontractor or supplier; and provide (if applicable) the Customer with a project implementation plan including the timeframe within the term established in the applicable SOW.
+**3.1 Rocket.Chat shall:**&#x20;
+
+(a) before the date on which the Services are to start, obtain, and at all times during the term of this Agreement maintain, all necessary licenses and consents and comply with all relevant Laws applicable to the provision of the Services;&#x20;
+
+(b) comply with, and ensure that all Rocket.Chat Personnel comply with, all rules, regulations, and policies of Customer that are communicated to Rocket.Chat in writing, including security procedures concerning systems and data and remote access thereto, building security procedures and general security practices and procedures; and;
+
+(c) provide (if applicable) the Customer with a project implementation plan including the timeframe within the term established in the applicable SOW.
 
 **3.2 Rocket.Chat Personnel.** Rocket.Chat is responsible for all Rocket.Chat Personnel and for the payment of their compensation, including, if applicable, withholding of income taxes, and the payment and withholding of social security and other payroll taxes, unemployment insurance, workers' compensation insurance payments, and disability benefits.
 
