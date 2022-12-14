@@ -1,86 +1,54 @@
----
-description: >-
-  In this menu, you can add some additional fields to the registration form your
-  visitors fill when they start a livechat conversation.
----
-
 # Custom Fields
 
-To access **Custom Fields** settings:
+Custom fields can be added to receive additional information from visitors during registration before initiating a Live Chat conversation or used to set other properties of a visitor/room.
 
-Go to Omnichannel panel settings, as shown below:
+Custom fields can be set upon a **Visitor** or **Room**
 
-![](../../.gitbook/assets/0%20%287%29.png)
+To access this menu, go to **Administration > Omnichannel > Custom Fields**. Here, you can **View**, **Create New**, **Edit** or **Delete** an existing field.
 
-Custom Fields menu appears, as shown below:
+{% hint style="info" %}
+The Live Chat registration form has the **Name**, **Email**, and **I need Help With…**(Department) fields by default.
+{% endhint %}
 
-![](../../.gitbook/assets/1%20%287%29.png)
+## Create Omnichannel Custom Field
 
-The registration form has **Name**, **Email**, and **I need Help With…**/Department fields by default, as shown below:
+To create a new custom field:
 
-![](../../.gitbook/assets/2%20%287%29.png)
+* Click on **+New** from the custom field panel
+* A page is seen with properties to be set, fill in the values and **Save**
 
-## To add your custom field:
+<figure><img src="../../.gitbook/assets/Create new custom field" alt=""><figcaption><p>Create new custom field</p></figcaption></figure>
 
-1. Hit Add.
+* **Field**: Enter the desired field that you want to add to your Live Chat registration form. E.g., last name.
+* **Label:** Label of the field
+* **Scope:** A dropdown for you to set the scope of the custom field
+  * **Visitor**: If the visitor option is selected, the field will be available as an Omnichannel visitor's property
+  * **Room**: When selected, the field will be available against an Omnichannel room.&#x20;
+* **Visible:** Whether or not to make it visible
+* **Searchable**: Lets you set if searching in the [Omnichannel Contact Center](omnichannel-agents-guides/omnichannel-contact-center.md) can be done with the custom field.
 
-![](../../.gitbook/assets/3%20%287%29.png)
+### Enterprise Edition Omnichannel Custom Fields![](../../.gitbook/assets/2022-01-23\_20-47-25.png)
 
-The following page appears.
+{% hint style="warning" %}
+The rest of the settings (mentioned below) are **Enterprise** only.
+{% endhint %}
 
-![](../../.gitbook/assets/4%20%287%29.png)
+* **Validation**: Lets you set validation Validation.
+* **Required**: When enabled, the field will be set as required.
+* **Type**: Choose the input type (`Input/Select`) of the field
+* **Default value**: Set the default value of the field
+* **Options**: Comma-separated list used to select a pre-configured value. Spaces between elements are not accepted.
+* **Public**: Set it Public this will be displayed in external applications, such as Live Chat
 
-2. Enter your desired **field** that you want to add to your livechat registration form. E.g., **last-name**
+When a custom field is created and made public, any value supplied in that field is available on the [Live Chat agent's](agents.md) side.
 
-![](../../.gitbook/assets/5%20%287%29.png)
+## Edit Omnichannel Custom Field
 
-3. Enter its label.
+To edit an Omnichannel Custom Field:
 
-![](../../.gitbook/assets/6%20%286%29.png)
+* Click on the said field from the panel
+* A section is opened with all the current details of that field which can be modified and saved.
 
-4. Select scope as **Visitor**.
+## Delete Omnichannel Custom Field
 
-![](../../.gitbook/assets/7%20%284%29.png)
-
-5. Make it visible.
-
-![](../../.gitbook/assets/8%20%283%29.png)
-
-6. Set as a required field if you want.
-
-![](../../.gitbook/assets/9%20%283%29.png)
-
-7. The type of the Last Name field is Input.
-
-![](../../.gitbook/assets/10%20%282%29.png)
-
-8. Set the default value, if any.
-
-![](../../.gitbook/assets/11%20%282%29.png)
-
-9. Set it **Public**.
-
-![](../../.gitbook/assets/12%20%282%29.png)
-
-10. Hit Save.
-
-![](../../.gitbook/assets/13%20%282%29.png)
-
-It is saved in the list of custom fields, as shown below:
-
-![](../../.gitbook/assets/14%20%282%29.png)
-
-It appears in the livechat widget, as shown below:
-
-![](../../.gitbook/assets/15%20%282%29.png)
-
-If the visitor sends a message, it gets reflected in the **Visitor’s Info** as well.
-
-![](../../.gitbook/assets/16%20%282%29.png)
-
-## To delete a custom field:
-
-Hit remove.
-
-![](../../.gitbook/assets/17%20%282%29.png)
-
+To delete an Omnichannel Custom Field, click on the **delete icon** by the right of the field from the Custom Field panel.

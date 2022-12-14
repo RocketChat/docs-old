@@ -1,44 +1,34 @@
----
-description: >-
-  In this menu, you can assign any user the Agent role. You can also search a
-  user in the list of agents and remove a user from the agents' list.
----
-
 # Agents
 
-To access **Agents** settings:
+Omnichannel **Agents** are responsible for handling Omnichannel conversations. An agent can belong to a particular department and gets notified when a new conversation gets initiated if they are `available`.
 
-Go to Omnichannel panel settings, as shown below:
-
-![](../../.gitbook/assets/0%20%285%29.png)
+To access this menu, go to **Avatar Menu > Omnichannel > Agents**. Here, you can **view**, **add** or **remove** agents.
 
 Settings appear, as shown below:
 
-![](../../.gitbook/assets/1%20%284%29.png)
+![Omnichannel Agents Panel](<../../.gitbook/assets/Omnichannel Agents Panel>)
 
-## **To assign a user the agent role:**
+## **1. Add Omnichannel Agent**
 
-1. Select the user from the drop-down, as shown below:
+Select the user from the **username** drop-down field and **Add** This will automatically assign the `Omnichannel Angent` role to that user.
 
-![](../../.gitbook/assets/2%20%284%29.png)
+## **2. View Omnichannel Agent**
 
-1. Hit **Add**.
+On visiting the Omnichannel Agent page, a list of all the existing agents is seen with their details and can be paginated if you have many agents. An agent's status can be seen on the `Live Chat Status` tab showing whether they are `Available` or `Not Available.`
 
-![](../../.gitbook/assets/3%20%284%29.png)
+Clicking on an agent gives room for you to edit the agent's details.
 
-1. The user has the Agent role now, as shown below:
+### Assign Omnichannel Agent to a Department
 
-![](../../.gitbook/assets/4%20%285%29.png)
+You may need to assign a particular agent(s) to be in charge of conversations involving a particular department. This can be done by following the steps below:
 
-## **To Search an agent by name:**
+* From the Omnichannel Agents page, click on the agent and choose **Edit** on the sidebar
 
-Enter the agent’s name in the search bar, as shown below:
+![Assign Omnichannel Agent to a department](<../../.gitbook/assets/Assign Omnichannel Agent to a department>)
 
-![](../../.gitbook/assets/5%20%285%29.png)
+* A section is opened with the agent's details, scroll down to the **Departments** field and select the departments that the agent can respond to
+* Hit **Save** to commit your changes.
 
-## **To remove a user from the agent's list:**
+## **3. Remove Omnichannel Agent**
 
-To remove a user from the list of agents, hit **remove**, as shown below:
-
-![](../../.gitbook/assets/6%20%285%29.png)
-
+To remove a user from the list of agents, click on the **delete icon** on the right against the agent. This will also remove the `Omnichannel Agent` role from that user.

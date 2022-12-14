@@ -1,22 +1,31 @@
----
-description: >-
-  In this section, you can learn how to install the livechat widget on your
-  website.
----
-
 # Livechat Widget Installation
 
-To access **Livechat Installation** settings:
+The Live Chat Widget is a chat interface that can be embedded into a webpage. This can serve in so many use cases like:
 
-1. Go to **Livechat Installation** in the omnichannel panel settings, as shown below:
+* Offering Live and real-time support to customers/users
+* Embedded to get information from people interacting with your website
 
-![](../../.gitbook/assets/0%20%2810%29.png)
+In this section, you'll learn how to install the Live Chat widget on your website.
 
-## To install the livechat widget:
+To access this menu, go to **Administration** > **Omnichannel** > **Live Chat Installation**.
 
-1. Copy the given piece of code.
+### To install the Live Chat widget:
 
-![](../../.gitbook/assets/1%20%2811%29.png)
+* Copy the given piece of code
 
-2. Paste this code above the last **&lt;/body&gt;** tag on your site; the livechat widget will appear on the bottom right corner on your webpage.
+![](<../../.gitbook/assets/1 (11).png>)
 
+* Paste this code above the last **\</body>** tag on your site
+* The Live Chat widget will appear at the bottom right corner of your webpage
+
+Visitors on your webpage will be able to click on it to initiate a conversation.
+
+![Omnichannel Live Chat Widget in action](../../.gitbook/assets/Omnichannel%20Live%20Chat%20Widget%20in%20action)
+
+### Deploying Live Chat Widget to a different domain
+
+To run the Live Chat Widget on a domain different from that of your Rocket.Chat server, you need to disable **Restrict access inside any iframe** on your Rocket.Chat server.
+
+To do that, navigate to **Administration** > **Workspace** > **Settings** > **General**
+
+![Administration > General](../../.gitbook/assets/restrict-access-inside-any-iframe.png)

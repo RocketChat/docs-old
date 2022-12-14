@@ -1,66 +1,35 @@
 # Current Chats
 
-Current Chats contain all the conversations that you have received. If a chat was not deleted, it appears here. You have various filters available to you to sort these conversations.
+Current Chats contain all the existing conversations that have not been deleted.
 
-To access **Current Chats** settings:
+To see this menu, navigate to **Avatar Menu  > Omnichannel > Current Chats**
 
-Go to Omnichannel panel settings, as shown below:
+{% hint style="info" %}
+You are required to have the `View Omnichannel Contact Center` permission in order to access this section. Contact your administrator to grant/revoke access
+{% endhint %}
 
-![](../../.gitbook/assets/0%20%283%29.png)
+A list of chats is seen with various filters available.
 
-Settings appear, as shown below:
+![](<../../.gitbook/assets/Omnichannel Current Chats.png>)
 
-![](../../.gitbook/assets/1%20%283%29.png)
+## Omnichannel Current Chat Filters
 
-Filters are explained below:
+* **Sort by Guest name**: To sort the conversations per Guest/Visitor's name, enter the name in the field provided and your conversations are sorted by visitor name.
+* **Sort by agent**: To sort the conversations served by an [agent](agents.md), select the agent from the **Served By** dropdown field
+* **Sort by department**: To sort the conversations per [**Department**](departments.md), enter the department name in the **Department field**, and your conversations are sorted by department.
+* Sort by status: To sort the conversations per Open/Closed Status, choose the desired status from the **Status dropdown field**, and your conversations are sorted. A conversation can be `Open`, `On Hold` or `Closed`
+* **Sort by From and To date**: To sort the conversations per **From** and **To** date, enter the **From** and **To** Date in the field, and your conversations are sorted
+* **Sort by tags or custom fields**: You can also sort the conversations by [**Tags**](tags-managers-guide.md) or any [**Custom Fields**](custom-fields.md) that you have added to your Live Chat widget user login. Enter the tag/custom field, and your conversations are sorted.
+* **Sort by Custom Fields**: This lets you sort chats by any [custom field](custom-fields.md) created
 
-## 1. Sort by Visitor Name:
+## Clear filters
 
-To sort the conversations per Guest/Visitor Name, enter the name in the field, and your conversations are sorted, as shown below:
+Clicking on the **Kebab menu** by the top right lets you **Clear the filters** applied.
 
-![](../../.gitbook/assets/2%20%283%29.png)
+![Clear filters](<../../.gitbook/assets/Clear filters.png>)
 
-## 2. Sort by Agent Name:
+## Delete all closed chats
 
-To sort the conversations per Agent Name, enter the name in the field, and your conversations are sorted, as shown below:
+Clicking the **Kebab menu** on the top right corner reveals where to **Delete all closed chats.** This will delete all the chats that are marked closed by the agents.
 
-![](../../.gitbook/assets/3%20%283%29.png)
-
-## 3. Sort by Department:
-
-To sort the conversations per Department, enter the name in the field, and your conversations are sorted, as shown below:
-
-![](../../.gitbook/assets/4%20%283%29.png)
-
-## 4. Sort by Status:
-
-To sort the conversations per Open/Closed Status, choose the desired status in the field, as shown below:
-
-![](../../.gitbook/assets/5%20%283%29.png)
-
- and your conversations are sorted, as shown below:
-
-![](../../.gitbook/assets/6%20%283%29.png)
-
-## 5. Sort by From and To Date:
-
-To sort the conversations per From and To Date, enter the From and To Date in the field, and your conversations are sorted, as shown below:
-
-![](../../.gitbook/assets/7%20%283%29.png)
-
-## 6. Sort by Tags or Custom Fields:
-
-You can also sort the conversations by Tags or any Custom Fields that you have added in your livechat widget user login. Enter the tag/custom field, and your conversations are sorted.
-
-## 7. Clear Filters:
-
-Hit **Clear filters** to clear all the filters you have set for your sort.
-
-![](../../.gitbook/assets/8%20%282%29.png)
-
-## 8. Delete all Closed Chats:
-
-Hit **Delete all closed chats** to delete all the chats that are marked closed by the agents.
-
-![](../../.gitbook/assets/9%20%282%29.png)
-
+![Delete all closed chats ](<../../.gitbook/assets/Clear filters.png>)

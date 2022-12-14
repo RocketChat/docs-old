@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+  <!-- svg-source:excalidraw -->
+  <!-- payload-type:application/vnd.excalidraw+json --><!-- payload-version:2 --><!-- payload-start -->eyJ2ZXJzaW9uIjoiMSIsImVuY29kaW5nIjoiYnN0cmluZyIsImNvbXByZXNzZWQiOnRydWUsImVuY29kZWQiOiJ4nCWNMVx1MDAwZYMwXGZFd06B0lx1MDAxNYHUkbE9XHUwMDAyY9UhXHImtVxicZRcdTAwMThoi3L3JsHbf37fPqq6XHUwMDE2/HUg+lrAR0mDo5e7aDLfwFx1MDAwNySbVteSXHUwMDAzrV5cdTAwMTXzzexC33XSuVYjv4jmVtFy1sDAXHUwMDAylkNcdTAwMTJcdTAwMWbPQpI2sORcXD1STkR7XHUwMDFjXHUwMDA3/GViV2Oak25cYvtNqll7Wu14J0M+f7tMZUSSYrk3oYF8/ohV/Fx1MDAwM1xi0Dm9In0=<!-- payload-end -->
+  <defs>
+    <style>
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://unpkg.com/@excalidraw/excalidraw@0.13.0/dist/excalidraw-assets/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://unpkg.com/@excalidraw/excalidraw@0.13.0/dist/excalidraw-assets/Cascadia.woff2");
+      }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="20" height="20" fill="#ffffff"/></svg>

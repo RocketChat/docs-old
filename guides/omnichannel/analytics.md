@@ -1,38 +1,24 @@
----
-description: >-
-  This feature allows you to view the chat flow (conversation) and your livechat
-  agents' performance (productivity) over a span of time that you choose.
----
-
 # Analytics
 
-To access **Analytics** settings:
+This feature allows you to view the chat flow (conversation) and your [Live Chat agents'](agents.md) performance (productivity) over a span of time that you choose.
 
-Go to Analytics in the omnichannel panel settings, as shown below:
+To access the Omnichannel Analytics settings, go to  **Avatar Menu  > Omnichannel > Analytics.** In this section, you can filter analytics based on **** `Type`, `Department`, `Start and End date`**.**
 
-![](../../.gitbook/assets/0%20%2811%29.png)
+## Omnichannel Agents Conversation Analytics
 
-## To view conversation history:
+* Select conversations from the **Type** dropdown menu to view conversation history analytics
+* Select your desired department
+* Select your desired start date and end date
 
-1. Select Conversations from the drop-down.
+### Details of conversation matrices
 
-![](../../.gitbook/assets/1%20%2810%29.png)
-
-  2. Select your desired department.
-
-![](../../.gitbook/assets/2%20%2810%29.png)
-
- 3. Select your desired start date and end date.
-
-![](../../.gitbook/assets/3%20%2810%29.png)
-
-### Details of conversation matrices:
-
-![](../../.gitbook/assets/4%20%2810%29.png)
+![](<../../.gitbook/assets/4 (10).png>)
 
 **Total Conversations:** It represents the total number of conversations during the selected period of time.
 
 **Open Conversations:** It represents the total number of open conversations for your selected department during the chosen period.
+
+**On Hold Conversations**: Shows the conversations on hold
 
 **Total Messages:** It represents the total number of messages received in all the conversations during a selected period.
 
@@ -40,31 +26,21 @@ Go to Analytics in the omnichannel panel settings, as shown below:
 
 **Conversation Per Day:** It shows the average count of conversations you received per day.
 
-**Busiest Time:** It shows the hour during which you received most chats for your selected period of time.
+**Busiest Time:** It shows the hour during which you received the most chats for your selected period of time.
 
-You can also see the **percentage of conversations**, an **average of chat duration**, and **total messages handled** by each one of your agents from your selected department, as shown below:
+You can also see the **percentage of conversations**, the **average of chat duration**, and **total messages handled** by each one of your agents from your selected department, from the **Chart** field
 
-![](../../.gitbook/assets/5%20%2810%29.png)
+![](<../../.gitbook/assets/6 (9).png>)
 
-![](../../.gitbook/assets/6%20%289%29.png)
+## Omnichannel Agent Productivity Analytics
 
-## To view productivity history of your agents:
-
-1. Select Productivity from the drop-down.
-
-![](../../.gitbook/assets/7%20%287%29.png)
-
-2.  Select your desired department.
-
-![](../../.gitbook/assets/8%20%286%29.png)
-
-3. Select your desired start date and end date.
-
-![](../../.gitbook/assets/9%20%285%29.png)
+* Select Productivity from the **Type** dropdown menu to view Productivity history analytics
+* Select your desired department
+* Select your desired start date and end date
 
 ### Details of productivity matrices:
 
-![](../../.gitbook/assets/10%20%284%29.png)
+![](<../../.gitbook/assets/image (62).png>)
 
 **Average of Response Time:** This matrix represents the average of your agent’s team’s responses to all the conversations that are automatically assigned to them during a selected time.
 
@@ -74,7 +50,6 @@ You can also see the **percentage of conversations**, an **average of chat durat
 
 You can also see the **Average of First Response Time**, **Best First Response Time**, **Average of Response Time**, and **Average of Reaction Time** of each one of your agents from your selected department, as shown below:
 
-![](../../.gitbook/assets/11%20%284%29.png)
+![](<../../.gitbook/assets/11 (4).png>)
 
-![](../../.gitbook/assets/12%20%284%29.png)
-
+![](<../../.gitbook/assets/image (63).png>)

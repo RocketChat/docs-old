@@ -38,11 +38,11 @@ With this being the current situation, we wanted to share our stance on how we a
 
 ## What can you do when dealing with harmful content in Rocket.Chat?
 
-**For users:** On our [Open Server](https://open.rocket.chat/), you can report harmful content as per our [code of conduct](https://rocket.chat/code-of-conduct) and we will look into removing it. We want you to be able to use our open.server hassle free.
+**For users:** On our [Open Server](https://open.rocket.chat), you can report harmful content as per our [code of conduct](https://rocket.chat/code-of-conduct) and we will look into removing it. We want you to be able to use our open.server hassle free.
 
 If you encounter another Rocket.Chat instance that is not hosted by us and which you think contains illegal or otherwise harmful content, we recommend you reach out to the administrator of that instance to moderate the related content.
 
-If you do not know who is your administrator, you can check the DNS records for contact information. For instances that are hosted by us, we can contact the administrator on behalf of you. We have published a tool where you can find out if a Rocket.Chat instance is hosted by us \([server lookup](https://rocket.chat/server-lookup)\). This is not always clear because no one is obliged to use the Rocket.Chat logo or name.
+If you do not know who is your administrator, you can check the DNS records for contact information. For instances that are hosted by us, we can contact the administrator on behalf of you. We have published a tool where you can find out if a Rocket.Chat instance is hosted by us ([server lookup](https://rocket.chat/server-lookup)). This is not always clear because no one is obliged to use the Rocket.Chat logo or name.
 
 As an ultimate resort, you may want to reach out to the law enforcement body in charge of investigating the potential offense in question. They will tell you the legal remedies available and the potential next steps to take.
 
@@ -60,11 +60,10 @@ All of these features are optional to choose, so you have the total flexibility 
 
 **For law enforcement:** We sometimes receive requests from law enforcement to remove content from certain Rocket.Chat instances. We have published [guidelines for law enforcement](https://docs.rocket.chat/legal/guidelines-for-law-enforcement), how we deal with requests and what to consider before submitting a request to us as the legal entity behind Rocket.Chat.
 
-**In summary:** In most cases, we cannot remove the majority of content, because it is outside of our control on servers we do not have \(and do not want\) access to. If the content in question is on our Open Server, we remove it if it is a breach of our code of conduct or if we are compelled by a law enforcement request. For servers hosted by us and under control of our customers, we remove content after notifying and in collaboration with the customer or directly as a violation of our terms of service. For questions or contact, please use [legal@rocket.chat](mailto:legal@rocket.chat)
+**In summary:** In most cases, we cannot remove the majority of content, because it is outside of our control on servers we do not have (and do not want) access to. If the content in question is on our Open Server, we remove it if it is a breach of our code of conduct or if we are compelled by a law enforcement request. For servers hosted by us and under control of our customers, we remove content after notifying and in collaboration with the customer or directly as a violation of our terms of service. For questions or contact, please use [legal@rocket.chat](mailto:legal@rocket.chat)
 
 **For reporters and media requests:** Are you researching for an article about Rocket.Chat or where Rocket.Chat plays a role?
 
 We would love to explain to you our stance in detail or get a chance to comment before you publish your article. Please reach out to [contact@rocket.chat](mailto:contact@rocket.chat) to get a comment from us on the topic in question.
 
-\*\*\*\*
-
+****
