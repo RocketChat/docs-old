@@ -24,9 +24,13 @@ If you are using MongoDB Atlas as the database provider, edit the value of the `
 
 `MONGO_URL=mongodb://<user>:<pass>@host1:27017,host2:27017,host3:27017/<databaseName>?replicaSet=<replicaSet>&ssl=true&authSource=admin`
 
-Environment variables are set using a `.env` file. See the example [here](https://github.com/RocketChat/Docker.Official.Image/blob/master/env.example). If you cloned the repo initially, you can just rename the example file `cp env.example .env`.&#x20;
+Environment variables are set using a `.env` file. See the example [here](https://github.com/RocketChat/Docker.Official.Image/blob/master/env.example). If you cloned the repo initially, you can just rename the example file by&#x20;
 
-* Set `RELEASE` to your desired Rocket.Chat version, defaults to `latest`. Keeping it `latest` is **not recommended** (see section [Docker Images Available](docker-containers/available-images.md) )
+<pre class="language-bash"><code class="lang-bash"><a data-footnote-ref href="#user-content-fn-1">cp env.example .env</a>
+</code></pre>
+
+* Set the `RELEASE` variable in the `.env`to your desired Rocket.Chat version. See [releases here](https://github.com/RocketChat/Rocket.Chat/releases).\
+  Keeping the default `latest` is **not recommended** (More at [Docker Images Available](docker-containers/available-images.md) )
 * Edit `ROOT_URL` from the default `http://localhost:3000` to match your domain name or IP address as you wish
 *   If you have a registration token to register the workspace automatically you can provide it with:
 
@@ -35,7 +39,7 @@ Environment variables are set using a `.env` file. See the example [here](https:
     ```
 * Next, start up the container by executing:
 
-```
+```shell
 docker compose up -d
 ```
 
@@ -55,3 +59,5 @@ To update the `rocketchat` docker image to the latest version, update the `RELEA
 {% content-ref url="../../../upgrading-rocket.chat.md" %}
 [upgrading-rocket.chat.md](../../../upgrading-rocket.chat.md)
 {% endcontent-ref %}
+
+[^1]: 
