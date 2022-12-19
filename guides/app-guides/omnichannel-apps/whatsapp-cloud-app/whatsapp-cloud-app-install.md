@@ -26,5 +26,5 @@ To install the WhatsApp Cloud Rocket.Chat App,
 
 <figure><img src="../../../../.gitbook/assets/WhatsApp Cloud App welcome message.png" alt=""><figcaption><p>WhatsApp Cloud App welcome message</p></figcaption></figure>
 
-To continue, head over to the next section and [create a Facebook Developer's Account linked with WhatsApp](facebook-developer-account-with-whatsapp/).
+To continue, head over to the next section and [create a Facebook Developer's Account linked with WhatsApp](facebook-developer-account-with-whatsapp.md).
 

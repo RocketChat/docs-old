@@ -12,13 +12,13 @@ You will be required to verify your account before proceeding if it is your firs
 
 * Click on **Create App** to create a new app
 
-<figure><img src="../../../../../.gitbook/assets/Facebook Developer Create App.png" alt=""><figcaption><p>Facebook Developer Create App</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Facebook Developer Create App.png" alt=""><figcaption><p>Facebook Developer Create App</p></figcaption></figure>
 
 * Select Business as the App type and fill in the details
 
 &#x20;
 
-<figure><img src="../../../../../.gitbook/assets/Facebook Developers new app.png" alt=""><figcaption><p>Facebook Developers new app</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Facebook Developers new app.png" alt=""><figcaption><p>Facebook Developers new app</p></figcaption></figure>
 
 * Details
   * **App name**: The name you want to call your app
@@ -26,13 +26,13 @@ You will be required to verify your account before proceeding if it is your firs
   * **Business Account**: Select a business account if you have one. A new account can be created automatically if none is selected
 * On your dashboard, scroll down and click on **Setup** against WhatsApp in the list of products to add displayed
 
-<figure><img src="../../../../../.gitbook/assets/Facebook Developer WhatsApp setup.png" alt=""><figcaption><p>Facebook Developer WhatsApp setup</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Facebook Developer WhatsApp setup.png" alt=""><figcaption><p>Facebook Developer WhatsApp setup</p></figcaption></figure>
 
 * A WhatsApp section is added to the left panel of your Facebook Developer's dashboard
-* Navigate to **WhatsApp** > **Getting Started** you see a set of credentials that we will use latter in [setting up the WhatsApp Cloud App in Rocket.Chat](../whatsapp-cloud-app-configuration.md)
+* Navigate to **WhatsApp** > **Getting Started** you see a set of credentials that we will use latter in [setting up the WhatsApp Cloud App in Rocket.Chat](whatsapp-cloud-app-configuration.md)
 * Verify any existing WhatsApp number to receive messages while in Test Mode
 
-<figure><img src="../../../../../.gitbook/assets/Facebook Developer WhatsApp credentials.png" alt=""><figcaption><p>Facebook Developer WhatsApp credentials</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Facebook Developer WhatsApp credentials.png" alt=""><figcaption><p>Facebook Developer WhatsApp credentials</p></figcaption></figure>
 
 {% hint style="info" %}
 The access token provided is temporary, see [this thread](https://stackoverflow.com/questions/72685327/how-to-get-permanent-token-for-using-whatsapp-cloud-api) on how to create a permanent token.
@@ -44,7 +44,7 @@ To link your Original WhatsApp Business number to the App,
 
 * Navigate to **WhatsApp** > **Getting Started** and click on **Add phone number**
 
-<figure><img src="../../../../../.gitbook/assets/Adding WhatsApp phone number to Facebook App.png" alt=""><figcaption><p>Adding WhatsApp phone number to Facebook App</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Adding WhatsApp phone number to Facebook App.png" alt=""><figcaption><p>Adding WhatsApp phone number to Facebook App</p></figcaption></figure>
 
 See more details on how to add a WhatsApp production number here
 

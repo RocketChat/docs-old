@@ -10,4 +10,4 @@ You must have the [Omnichannel feature](../../../administration/admin-panel/sett
 * Send a message to your Facebook Developer app Test number provided or your WhatsApp business number if you have any added
 * The message is seen in your Rocket.Chat server, available for any [Omnichannel Agent](../../../omnichannel/agents.md) to **Take** the conversation
 
-<figure><img src="../../../../.gitbook/assets/RocketChat X WhatsApp-Chat-Screen.png" alt=""><figcaption><p>Rocket.Chat X WhatsApp communication</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/RocketChat X WhatsApp Chat Screen.png" alt=""><figcaption><p>Rocket.Chat X WhatsApp Chat Screen</p></figcaption></figure>

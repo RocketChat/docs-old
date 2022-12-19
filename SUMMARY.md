@@ -476,7 +476,7 @@
       * [Instagram Direct Agent's Guide](guides/app-guides/omnichannel-apps/instagram-direct/instagram-direct-agents-guide.md)
     * [WhatsApp Cloud App](guides/app-guides/omnichannel-apps/whatsapp-cloud-app/README.md)
       * [WhatsApp Cloud App Install](guides/app-guides/omnichannel-apps/whatsapp-cloud-app/whatsapp-cloud-app-install.md)
-      * [Facebook Developer Account with WhatsApp](guides/app-guides/omnichannel-apps/whatsapp-cloud-app/facebook-developer-account-with-whatsapp/README.md)
+      * [Facebook Developer Account with WhatsApp](guides/app-guides/omnichannel-apps/whatsapp-cloud-app/facebook-developer-account-with-whatsapp.md)
         * [Create Permanent WhatsApp Cloud API Token](guides/app-guides/omnichannel-apps/whatsapp-cloud-app/facebook-developer-account-with-whatsapp/create-permanent-whatsapp-cloud-api-token.md)
       * [WhatsApp Cloud App Configuration](guides/app-guides/omnichannel-apps/whatsapp-cloud-app/whatsapp-cloud-app-configuration.md)
       * [Using WhatsApp Cloud App](guides/app-guides/omnichannel-apps/whatsapp-cloud-app/using-whatsapp-cloud-app.md)
