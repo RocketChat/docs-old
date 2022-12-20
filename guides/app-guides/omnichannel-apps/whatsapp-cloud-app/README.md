@@ -10,3 +10,7 @@ We are going to go through:
 2. [Creating a Facebook Developer App for WhatsApp](facebook-developer-account-with-whatsapp.md)
 3. [WhatsApp Cloud App Configuration](whatsapp-cloud-app-configuration.md)
 4. [Using WhatsApp Cloud App](using-whatsapp-cloud-app.md)
+
+{% content-ref url="../../../../resources/frequently-asked-questions/whatsapp-cloud-api-faqs.md" %}
+[whatsapp-cloud-api-faqs.md](../../../../resources/frequently-asked-questions/whatsapp-cloud-api-faqs.md)
+{% endcontent-ref %}

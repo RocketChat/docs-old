@@ -20,7 +20,7 @@ The Cloud API can send and receive text and media messages at a combined rate of
 
 <details>
 
-<summary>What media types are supported by WhatsApp Cloud API</summary>
+<summary>What media types are supported by WhatsApp Cloud API?</summary>
 
 See a list of supported media types [here](https://developers.facebook.com/docs/whatsapp/cloud-api/reference/media#supported-media-types)
 
