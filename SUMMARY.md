@@ -566,6 +566,7 @@
 
 * [Frequently Asked Questions](resources/frequently-asked-questions/README.md)
   * [Update FAQs](resources/frequently-asked-questions/update-faqs.md)
+  * [WhatsApp Cloud API FAQs](resources/frequently-asked-questions/whatsapp-cloud-api-faqs.md)
   * [Cloud FAQs](<resources/frequently-asked-questions/Cloud Faqs.md>)
   * [Support FAQs](resources/frequently-asked-questions/support-faqs.md)
   * [Whatsapp Business App FAQs](resources/frequently-asked-questions/whatsapp-business-app-faqs.md)
