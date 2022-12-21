@@ -71,7 +71,7 @@ See the guide on how to Register an offline workspace.
 [offline-workspace-registration.md](../../../air-gapped-workspaces/offline-workspace-registration.md)
 {% endcontent-ref %}
 
-## Apply License
+## Apply Online License
 
 When selecting the "Internet Access" option, a registration token will be generated. Copy the token as this will be used to register your Rocket.Chat server.
 

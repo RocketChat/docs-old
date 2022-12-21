@@ -61,6 +61,7 @@
     * [Plug-in Deployments](quick-start/deploying-rocket.chat/other-deployment-methods/plug-in-deployments/README.md)
       * [Drupal Plug-in](quick-start/deploying-rocket.chat/other-deployment-methods/plug-in-deployments/drupal.md)
       * [Pidgin Plug-in](quick-start/deploying-rocket.chat/other-deployment-methods/plug-in-deployments/pidgin.md)
+* [License Application](quick-start/license-application.md)
 * [Scaling Rocket.Chat](quick-start/scaling-rocket.chat/README.md)
   * [Microservices Setup](quick-start/scaling-rocket.chat/microservices-setup.md)
   * [Running Multiple Instances](quick-start/scaling-rocket.chat/running-multiple-instances.md)
