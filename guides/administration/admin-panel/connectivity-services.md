@@ -11,7 +11,7 @@ To access this menu, go to **Administration** > **Workspace** > **Connectivity S
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (2).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (43).png>)
 
 ![](../../../.gitbook/assets/2021-11-21\_01-53-58.png)
 
@@ -44,7 +44,7 @@ To connect your server to our Cloud, your Rocket.Chat server must be on a suppor
 
 * Fill up the registration form and **Register**
 
-![](<../../../.gitbook/assets/image (641) (1).png>)
+![](<../../../.gitbook/assets/image (665) (1) (1).png>)
 
 * A verification email will be sent in order to activate your new Cloud account
 
@@ -71,7 +71,7 @@ See the guide on how to Register an offline workspace.
 [offline-workspace-registration.md](../../../air-gapped-workspaces/offline-workspace-registration.md)
 {% endcontent-ref %}
 
-## Apply License
+## Apply Online License
 
 When selecting the "Internet Access" option, a registration token will be generated. Copy the token as this will be used to register your Rocket.Chat server.
 

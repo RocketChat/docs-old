@@ -2,7 +2,7 @@
 
 To access this menu, go to **Administration > Workspace > Users > Invite** as shown below:
 
-![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (7).png>)
+![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (39).png>)
 
 ![](<../../../../.gitbook/assets/2021-11-28\_02-22-24 (1).png>)
 
