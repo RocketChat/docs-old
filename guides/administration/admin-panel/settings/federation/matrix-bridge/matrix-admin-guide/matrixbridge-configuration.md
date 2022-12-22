@@ -4,7 +4,7 @@
 
 To access this setting, go to: _**Administration** > **Workspace** > **Settings** > **Federation > Matrix Bridge.**_
 
-![Matrix Bridge Configuration](<../../../../../../../.gitbook/assets/2022-07-22\_12-28-56 (3).png>)
+![Matrix Bridge Configuration](../../../../../../../.gitbook/assets/2022-07-22\_12-28-56.png)
 
 The following is a brief explanation of each Matrix Bridge configuration option:
 

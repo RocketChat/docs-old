@@ -12,6 +12,6 @@ To access this menu, go to **Administration** > **Workspace** > **View Log**
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (38).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (12).png>)
 
 ![](../../../.gitbook/assets/2021-11-21\_01-58-36.png)
