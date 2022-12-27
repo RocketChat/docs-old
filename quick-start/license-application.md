@@ -6,20 +6,31 @@ This guide outlines how to add a license to your SaaS or Self-Managed workspace.
 
 ## License on SaaS Workspaces
 
-### I have a workspace with EE Trial
+### I have a workspace from trial
 
-If you have a workspace running with [enterprise-edition-trial](../guides/enterprise-edition-trial/ "mention")
+If you created your workspace from [SaaS trial](https://www.rocket.chat/trial-saas-new) you can get a license for your workspace by
 
-* Navigate to **Administration** > **Workspace** > **Connectivity Services**
+* Navigating to **Administration** > **Workspace** > **Connectivity Services**
 * Click on **Sync** to sync the workspace to Rocket.Chat cloud
 
-### I do not have a workspace&#x20;
+The Enterprise License gets applied to your workspace and you can manage your cloud workspace [Rocket.Chat Cloud](https://cloud.rocket.chat/).
 
-To get a new SaaS workspace,[ contact Rocket.Chat sales ](../rocket.chat-saas/cloud-account/manage-your-cloud-account/contact-sales.md)to get a new workspace setup, or follow this guide to create a workspace with an EE trial
+### I have a workspace provisioned by Rocket.Chat
 
-{% content-ref url="../guides/enterprise-edition-trial/does-not-have-a-workspace.md" %}
-[does-not-have-a-workspace.md](../guides/enterprise-edition-trial/does-not-have-a-workspace.md)
+If your workspace was provisioned by Rocket.Chat, you can access and get it set up by following the:
+
+{% content-ref url="accessing-your-workspace/rocket.chat-setup-wizard.md" %}
+[rocket.chat-setup-wizard.md](accessing-your-workspace/rocket.chat-setup-wizard.md)
 {% endcontent-ref %}
+
+### I do not have a workspace
+
+To get a new SaaS workspace, you can use any of the following methods
+
+* [Creating a SaaS trial](https://www.rocket.chat/trial-saas-new)
+* [Contacting Rocket.Chat sales](../rocket.chat-saas/cloud-account/manage-your-cloud-account/contact-sales.md)
+  * Before contacting sales, decide on a URL to use in the format `<your URL>.rocket.chat`
+  * After the workspace has been created, visit the workspace URL and set it up following the [setup-wizard.md](../guides/administration/admin-panel/settings/setup-wizard.md "mention")
 
 ## License on Self-Managed Workspaces
 
