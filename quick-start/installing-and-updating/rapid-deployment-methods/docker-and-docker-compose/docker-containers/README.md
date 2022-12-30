@@ -506,5 +506,5 @@ With TOP running, try to replicate the problem while watching TOP for high loads
 
 You can also deploy using Docker and Docker Compose by following one of these guides:
 
-* [Docker Compose](broken-reference/)
+* [Docker Compose](../README.md)
 * [Available Images](available-images.md)
