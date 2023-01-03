@@ -19,7 +19,7 @@ To create a new Omnichannel department:
 * Click +**New** on the top right of the screen
 * A page for the department details is seen, fill these details and **Save**
 
-![](../../.gitbook/assets/2022-01-01\_15-46-46.png)
+![](<../../.gitbook/assets/2022-01-01\_15-46-46 (4).png>)
 
 1. **Enabled**: Enables your new department.
 2. **Name:** Name of the new department.
@@ -58,7 +58,7 @@ To create a new Omnichannel department:
 
 Successfully added agents would be listed, as shown below:
 
-![](<../../.gitbook/assets/2022-01-01\_16-32-28 (1).png>)
+![](../../.gitbook/assets/2022-01-01\_16-32-28.png)
 
 18\. Hit **Save** and your newly created department is displayed in the list of departments
 

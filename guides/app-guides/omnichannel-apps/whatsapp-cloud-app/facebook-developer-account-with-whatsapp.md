@@ -35,7 +35,7 @@ You will be required to verify your account before proceeding if it is your firs
 <figure><img src="../../../../.gitbook/assets/Facebook Developer WhatsApp credentials.png" alt=""><figcaption><p>Facebook Developer WhatsApp credentials</p></figcaption></figure>
 
 {% hint style="info" %}
-The access token provided is temporary, see [this thread](https://stackoverflow.com/questions/72685327/how-to-get-permanent-token-for-using-whatsapp-cloud-api) on how to create a permanent token.
+The access token provided is temporary, see [this guide](facebook-developer-account-with-whatsapp/create-permanent-whatsapp-cloud-api-token.md) on how to create a permanent token.
 {% endhint %}
 
 ### Adding WhatsApp Business phone number to Facebook app

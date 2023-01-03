@@ -11,7 +11,7 @@ To access this menu, go to **Administration** > **Workspace** > **Connectivity S
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (2).png>)
+![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (1) (4).png>)
 
 ![](../../../.gitbook/assets/2021-11-21\_01-53-58.png)
 
@@ -36,6 +36,10 @@ To connect your server to our Cloud, your Rocket.Chat server must be on a suppor
 
 ## Registration steps
 
+{% hint style="success" %}
+If you are an enterprise customer (self-hosted Enterprise or Pro-licensed), we create a cloud account for you. Please login to your workspace, insert the cloud registration code you received in the welcome email, and then hit **Login to** [**Rocket.Chat**](http://rocket.chat) **Cloud**
+{% endhint %}
+
 **If you don't have a cloud account yet:**
 
 1. Go to [cloud.rocket.chat](https://cloud.rocket.chat) and create a new account
@@ -44,7 +48,7 @@ To connect your server to our Cloud, your Rocket.Chat server must be on a suppor
 
 * Fill up the registration form and **Register**
 
-![](<../../../.gitbook/assets/image (641) (1).png>)
+![](<../../../.gitbook/assets/image (665) (1) (1).png>)
 
 * A verification email will be sent in order to activate your new Cloud account
 
@@ -71,7 +75,7 @@ See the guide on how to Register an offline workspace.
 [offline-workspace-registration.md](../../../air-gapped-workspaces/offline-workspace-registration.md)
 {% endcontent-ref %}
 
-## Apply License
+## Apply Online License
 
 When selecting the "Internet Access" option, a registration token will be generated. Copy the token as this will be used to register your Rocket.Chat server.
 
@@ -90,7 +94,3 @@ When selecting the "Internet Access" option, a registration token will be genera
 1. Finally, in order to ensure the synchronization between Rocket.Chat server and Rocket.Chat Cloud, hit the "Sync" button as this will trigger the synchronization framework.
 
 This is recommended right after registering your server. The newly registered workspace will be listed in the "Workspace" section at [cloud.rocket.chat](https://cloud.rocket.chat)
-
-{% hint style="success" %}
-If you are an enterprise customer (self-hosted Enterprise or Pro-licensed), we create a cloud account for you. Please login to your workspace, insert the cloud registration code you received in the welcome email, and then hit **Login to** [**Rocket.Chat**](http://rocket.chat) **Cloud**
-{% endhint %}
