@@ -1,28 +1,20 @@
 ---
-description: Rocket.Chat Enterprise Support Services
+description: Support services applied for legacy products
 ---
 
-# Enterprise Support Plans
+# Legacy Support
 
-Rocket.Chat offers a variety of support packages for all customers:
+### **Legacy Support Plans**
 
-### **Support Plans** &#x20;
+No longer offered for new purchases since 1st July 2022.&#x20;
 
-In addition to the various support resources, Rocket.Chat offers its customers three different types of support for our products that are tailored to meet the needs of our diversified customer profiles:&#x20;
+* Silver&#x20;
+* Bronze
+* Gold
+* Pro&#x20;
+* Enterprise
 
-* **Support Standard:** Free for Rocket.Chat customers and Trial users
-* **Support Plus:** Only available to customers who have contracted this type of support through our sales channel. Not available in a self-service contract.
-* **Mission Critical**: Only available to customers who have contracted this type of support through our sales channel. Not available in a self-service contract.
-
-_Applied for the products: Self-Managed Enterprise, Self-Managed Omnichannel, Self-Managed Chat Engine, Cloud Enterprise, Cloud Enterprise Omnichannel, and Cloud Enterprise Chat Engine._
-
-### What's Included
-
-![](../../.gitbook/assets/RC\_SupportPlan\_Matrix\_New.png)
-
-All support plans offer SLA time frames for first-time response and also include an Account Manager that will be responsible for ensuring paying customers are successful and get the most out of our product and remain happy.
-
-Mission Critical plan also offers a dedicated Customer Success Manager _(CSM)_ that will be responsible for a detailed onboarding process, strategy roadmap design focused on product adoption in line with desired business outcomes. The dedicated CSM role also includes being a trusted technical advisor and an internal customer advocate.
+_Legacy Support Plans are applied for the legacy products: Silver, Bronze, Gold, Pro, and Enterprise._
 
 ### Support Channels
 
@@ -87,3 +79,5 @@ The SLA times listed are the time frames in which customers can expect to receiv
 12x5 - Support Specialists are actively responding to tickets MON-FRI, 8 AM BRT to 8 PM BRT.&#x20;
 
 24x7 - Support Specialist on-call 24 hours a day, 7 days a week.
+
+![](../../.gitbook/assets/RC\_SupportPlan\_Matrix\_Legacy.png)
