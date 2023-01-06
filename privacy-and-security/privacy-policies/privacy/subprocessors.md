@@ -51,7 +51,7 @@ Rocket.Chat undertakes to use a commercially reasonable selection process by whi
 
 ## Rocket.Chat Affiliates
 
-Rocket.Chat affiliates involved in the processing of personal data will depend on the location of our users and their customers and the nature of the services we provide to you. By agreeing to the [DPA](https://docs.rocket.chat/privacy-and-security/data-processing-agreement), you agree all of these Sub-Processors may have access to Customer Data.&#x20;
+Rocket.Chat affiliates involved in processing of personal data will depend on the location of our users and their customers and the nature of the services we provide to you. By agreeing to the [DPA](https://docs.rocket.chat/privacy-and-security/data-processing-agreement), you agree all of these Sub-Processors may have access to Customer Data.&#x20;
 
 The following entities are members of the Rocket.Chat Group. Accordingly, they function as sub-processors to provide the Services.
 
@@ -68,18 +68,14 @@ The following entities are members of the Rocket.Chat Group. Accordingly, they f
 
 ## **Objecting to a subprocessor**
 
-You may object to a subprocessor by submitting your objection by email to [privacy@rocket.chat.com](mailto:privacy@rocket.chat.com) with the subject line “Subprocessor Objection," along with your name, your company's name, name of the [Rocket.Chat](http://rocket.chat) service, name of the subprocessor, and objectively justifiable grounds for objection unless otherwise provided for in your service agreement with [Rocket.chat](http://rocket.chat) which terms control.
+You may object to a subprocessor by submitting your objection by email to [privacy@rocket.chat.com](mailto:privacy@rocket.chat.com) with the subject line “Subprocessor Objection," along with your name, company name, name of the [Rocket.Chat](http://rocket.chat) service, name of the subprocessor, and objectively justifiable grounds for objection unless otherwise provided for in your service agreement with [Rocket.chat](http://rocket.chat) which terms control.
 
 ## Updates to this page
 
 Due to the nature of our business, we are consistently updating the list and controls of our subprocessors.
 
-For more information on Rocket. Chat's privacy practices, please visit our [Privacy Policy.](https://docs.rocket.chat/privacy-and-security/privacy-policies/privacy) If you have questions regarding this page, please contact us at privacy@rocket.chat.&#x20;
+For more information on Rocket.Chat's privacy practices, please visit our [Privacy Policy.](https://docs.rocket.chat/privacy-and-security/privacy-policies/privacy) If you have questions regarding this page, please get in touch with us at privacy@rocket.chat.&#x20;
 
 ### Previous Versions of this Subprocessors List
 
 {% file src="../../../.gitbook/assets/Subprocessors-list-10-23-20.pdf" %}
-
-##
-
-\
