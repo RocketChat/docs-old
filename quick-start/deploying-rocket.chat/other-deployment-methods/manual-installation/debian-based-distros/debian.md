@@ -9,7 +9,7 @@ This installation guide was tested in the following environment:
 
 ## Requirements
 
-* **Install MongoDB:** Please refer to the official MongoDB documentation on [how to install MongoDB on Debian](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/). For the list of supported versions, see our documentation [here](../../../../../resources/getting-support/#mongodb-versions).
+* **Install MongoDB:** Please refer to the official MongoDB documentation on [how to install MongoDB on Debian](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/). For the list of supported versions, see our documentation [here](../../../../../getting-support/#mongodb-versions).
 * **Install NodeJS:** Follow the [official guide](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) to install NodeJS on a Debian system. Check out our page on [supported node versions](../../../../environment-configuration/node-configuration/supported-nodejs-version.md) for your specific version. You can also use third-party tools like [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [n](https://www.npmjs.com/package/n).
 
 ## Install Rocket.Chat

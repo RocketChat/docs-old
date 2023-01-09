@@ -79,9 +79,11 @@ We use Let's Encrypt to get a free & open-source SSL certificate:
 
 **Note:** Second (or more) domain is optional.
 
+{% hint style="info" %}
 Optional Step: Restrict access using security groups
 
 If you would like to restrict traffic to your AWS instance, you may adjust the security groups again. Make sure you allow "_TCP/22_" from your current location for the SSH connection, as well as "_TCP/443_" from the location you wish to use to access from.
+{% endhint %}
 
 ## Configure Nginx Web Server with TLS/SSL
 
@@ -161,9 +163,9 @@ Confirm that it is running properly by opening a web browser and going to your d
 
 The process to install Rocket.Chat involves
 
-* Installing [Docker](https://docs.docker.com/install) and [Docker-compose](https://docs.docker.com/compose/install/) (v2 is required)
-* Fetching the Rocket.Chat compose file
-* Configuring environmental variables and installing
+1. Installing [Docker](https://docs.docker.com/install) and [Docker-compose](https://docs.docker.com/compose/install/) (v2 is required)
+2. Fetching the Rocket.Chat compose file
+3. Configuring environmental variables and installing
 
 Follow this guide to get Rocket.Chat installed with Docker & Docker Compose.
 
