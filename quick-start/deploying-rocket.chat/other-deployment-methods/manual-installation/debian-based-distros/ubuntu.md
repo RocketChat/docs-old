@@ -19,7 +19,7 @@ This installation guide was tested in the following environment:
 
 *   **MongoDB**
 
-    Please refer to the official MongoDB documentation on [how to install MongoDB on Ubuntu](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/). For the list of supported versions, see our documentation [here](../../../../../getting-support/#mongodb-versions).
+    Please refer to the official MongoDB documentation on [how to install MongoDB on Ubuntu](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/). For the list of supported versions, see our documentation [here](../../../../../resources/getting-support/#mongodb-versions).
 *   **NodeJS**
 
     Follow the [official guide](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) to install NodeJS on a Debian system. Check out our page on [supported node version](../../../../environment-configuration/node-configuration/supported-nodejs-version.md) for your specific version. You can also use third-party tools like [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [n](https://www.npmjs.com/package/n).

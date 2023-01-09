@@ -1,27 +1,40 @@
 # Create a new Team
 
-You can leverage teams for specific discussions and topics. When creating a team, it’s possible to define both permission and encryption levels for its channels:
+Anyone can create a team unless the system admin has restricted permissions. When creating a team, it’s possible to define its privacy and encryption levels.
 
-* **Read Only**: Allow users from the team to write messages or simply receive them
-* **Encrypted**: Enables end-to-end encryption across all messages exchanged by the team
-* **Broadcast**: Only authorized users can write new messages, but the other users will be able to reply
+### Team Privacy and Encryption
 
-## **Steps to create your team in Rocket.Chat**
+#### Read-Only Teams
 
-Setting up your first team is easy, and both community and enterprise clients can access the feature. Follow the steps below to create your very first team:
+Only authorized users (users with write permissions) can send messages in read-only teams. All other users can react to messages on this channel.
 
-* Click **Create New** > **Team**
+#### Broadcast Teams
 
-![](<../../../../.gitbook/assets/image (339).png>)
+Like read-only teams, broadcast teams allow only authorized users with the appropriate permissions to write new messages, while other users can reply to existing messages.
 
-* Define privacy and encryption options for your team. Include all members who should join the team. Click **Create.**
+However, it differs from read-only teams in a few ways:
 
-![](<../../../../.gitbook/assets/image (340).png>)
+* All messages have a reply button that redirects you to the sender's direct message (DM), replying to the message as a quote.
+* The Team cannot be converted to a read-only again.
 
-Your new team is created as shown below:
+#### Encrypted Teams
 
-![](<../../../../.gitbook/assets/image (341).png>)
+Encrypted teams have end-to-end encryption enabled across all messages exchanged by the Team members.
 
-* You can mark a team favorite using the **Star** option.
+### **Creating your Team in Rocket.Chat**
 
-![](<../../../../.gitbook/assets/image (349) (1) (1) (1) (1) (2) (2) (2) (2) (2) (1) (1) (1) (1) (2) (1) (2).png>)
+* On the top menu of Rocket.Chat, click the **Create New** icon, then select **Team**.
+* Give the team a name.
+* Update your preferred privacy and encryption settings for the team.&#x20;
+* Add members to the team. Then, click **Create.**
+
+{% hint style="info" %}
+&#x20;A team name must not include space or any special character except dash (-) and underscore(\_).
+{% endhint %}
+
+### **Mark Team as Favorite**
+
+All teams marked as favorites are listed at the top of the sidebar menu so that it is easy to access.
+
+* At the top of the team page, click the **star** icon next to the team name to mark a team as **Favorite**.
+* To remove a team from **Favorites,** click the **star** icon again.

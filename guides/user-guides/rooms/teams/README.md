@@ -1,34 +1,46 @@
 ---
 description: >-
-  A team is a digital workspace where you and your teammates can collaborate and
-  work together. A team can have multiple channels in it.
+  A team is a digital workspace where teammates can collaborate and work
+  together towards a common goal.
 ---
 
 # Teams
 
-The feature takes the hassle out of managing one by one and allows managing multiple users at once by providing a digital workspace to facilitate your collaboration with teammates on Rocket.Chat.
+A  team can have multiple [channels](https://docs.rocket.chat/guides/user-guides/rooms/channels). In Rocket.Chat, Team is a digital workspace that allows you to manage multiple users simultaneously, making it easier for you to collaborate with teammates.
+
+Teams is available to both community and enterprise clients. They are identified by ![](<../../../../.gitbook/assets/team (2).png>).&#x20;
 
 \
-Each team can have its own channels, which can be public or private. Teams allow you to handle multiple users at the same time efficiently. So you don’t need to go through the manual process of adding users repetitively.
+Teams can be made private so that only invited members are allowed to join or public so that all Rocket.Chat users can see them. Each Team may consist of channels, which may also be either [public ](https://docs.rocket.chat/guides/user-guides/rooms/channels/types-of-channels#public-channels)or [private](https://docs.rocket.chat/guides/user-guides/rooms/channels/types-of-channels#private-channels).&#x20;
 
-* Following is the team's symbol
 
-![](<../../../../.gitbook/assets/image (343).png>)
-
-* The homepage of a team is the main team’s channel, as shown below:
-
-![](<../../../../.gitbook/assets/image (342).png>)
 
 {% hint style="info" %}
-Please visit our blog post to know all the details about [Teams](https://rocket.chat/blog/product/teams/)
+To learn more, see [Teams: Efficiently Manage Your Remote Team on Rocket.Chat](https://www.rocket.chat/blog/teams).
 {% endhint %}
 
 {% content-ref url="create-a-new-team.md" %}
 [create-a-new-team.md](create-a-new-team.md)
 {% endcontent-ref %}
 
-{% content-ref url="teams-channels.md" %}
-[teams-channels.md](teams-channels.md)
+{% content-ref url="team-information-view-and-edit.md" %}
+[team-information-view-and-edit.md](team-information-view-and-edit.md)
+{% endcontent-ref %}
+
+{% content-ref url="delete-a-team.md" %}
+[delete-a-team.md](delete-a-team.md)
+{% endcontent-ref %}
+
+{% content-ref url="hide-or-leave-a-team.md" %}
+[hide-or-leave-a-team.md](hide-or-leave-a-team.md)
+{% endcontent-ref %}
+
+{% content-ref url="teams-members/" %}
+[teams-members](teams-members/)
+{% endcontent-ref %}
+
+{% content-ref url="teams-channels/" %}
+[teams-channels](teams-channels/)
 {% endcontent-ref %}
 
 {% content-ref url="teams-enterprise-edition.md" %}
