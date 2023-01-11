@@ -15,16 +15,12 @@ Secure a team by setting up password access. It means users can only join the te
 
 #### Hide System Messages
 
-Select the Rocket.Chat action alerts to hide. For example—"Hide User Joined messages" will hide the alert that shows up in the chat whenever a new user joined the team.
+Select the Rocket.Chat action alerts to hide. For example—"Hide User Joined messages" will hide the alert that shows up in the chat whenever a new user joins the team.
 
 #### Allow Reacting
 
 Select the options to allow authorized team members to react to messages in the team.
 
-
-
 {% hint style="warning" %}
 The delete and reset option is also available when editing a Team.
 {% endhint %}
-
-*
