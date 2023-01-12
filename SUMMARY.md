@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Rocket.Chat Documentation](README.md)
-* [Development Docs](development-docs.md)
 
 ## Quick Start
 
@@ -564,6 +563,7 @@
   * [Whatsapp Business App FAQs](resources/frequently-asked-questions/whatsapp-business-app-faqs.md)
   * [Identity Management EE FAQ](resources/frequently-asked-questions/ldap-faq.md)
   * [Omnichannel FAQs](resources/frequently-asked-questions/omnichannel-faqs.md)
+* [Development Docs](resources/development-docs.md)
 * [Getting Support](resources/getting-support/README.md)
   * [Enterprise Support](resources/getting-support/enterprise-support/README.md)
     * [Enterprise Support Plans](resources/getting-support/enterprise-support/enterprise-support-plans.md)
