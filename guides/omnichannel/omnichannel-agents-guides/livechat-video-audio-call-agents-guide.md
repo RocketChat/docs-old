@@ -53,7 +53,3 @@ When you click to join the call, Jitsi calling page opens in a new browser windo
 Enter your name and hit **Join meeting**, upon which the call starts:
 
 ![](../../../.gitbook/assets/purpledevil500.png)
-
-{% hint style="info" %}
-Please note that the flow is the same for **WebRTC.**
-{% endhint %}
