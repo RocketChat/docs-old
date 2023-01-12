@@ -5,7 +5,7 @@
 Select **Default Provider**.
 
 {% hint style="info" %}
-If you don't have Conference Call set up on your workspace, please follow this [guide](https://docs.rocket.chat/guides/rocket.chat-conference-call) or contact your administrator.&#x20;
+If you don't have Conference Call set up on your workspace, please follow the [instructions](https://docs.rocket.chat/guides/rocket.chat-conference-call) or contact your administrator.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
