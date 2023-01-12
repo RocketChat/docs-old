@@ -2,7 +2,7 @@
 
 Webhooks allow you to integrate the Rocket.Chat Omnichannel to any third-party system, e.g., CRM, Zoho, etc
 
-To access **Webhooks** settings, go to **Avatar Menu  > Omnichannel > Webhooks**.&#x20;
+To access **Webhooks** settings, go to **Administration > Omnichannel > Webhooks**.
 
 ## Create Omnichannel Webhook
 

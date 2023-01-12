@@ -25,8 +25,6 @@ To enable canned responses on your workspace:
 
 Under the **Administration** > **Workspace** > **Permissions** section, you can define which user roles should be able to view, create and delete the canned responses.
 
-![](<../../../.gitbook/assets/image (512).png>)
-
 Check the Omnichannel manager's guide for canned responses to save a new canned response for your workspace.
 
 {% content-ref url="canned-responses-omnichannel-managers-guide/" %}

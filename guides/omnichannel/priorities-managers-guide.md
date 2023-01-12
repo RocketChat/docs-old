@@ -10,13 +10,11 @@ Conversations associated with priorities will be sorted in the order of estimate
 `Estimated Due Time` is an estimated time defined for a customer to be served. If the estimated due time is, for instance, 10 minutes, the customer is supposed to wait in queue for up to 10 minutes until an agent takes the chat.
 {% endhint %}
 
-To access **Priorities** settings to **Avatar Menu  > Omnichannel > Priorities**.
-
-![Omnichannel Priorities Page](<../../.gitbook/assets/Omnichannel Priorities Page>)
+To access **Priorities** settings to **Administration > Omnichannel > Priorities**.
 
 ## 1. List Omnichannel Priorities
 
-On the Priorities main page, a list of all priorities is seen if any exists. Clicking on any opens a panel to edit it.
+On the Priorities, main menu, a list of all priorities is seen if any exists. Clicking on any opens a panel to edit it.
 
 Each Priority has its own(unique) `Estimated due time`(time in minutes), so once a priority is associated with an `Inquiry/room`, this value is used to set the [queue ](omnichannel-agents-guides/omnichannel-chats.md)inquiry order.
 

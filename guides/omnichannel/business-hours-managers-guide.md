@@ -8,7 +8,7 @@ Setting business hours lets you specify the working days and hours of your busin
 
 The enterprise workspaces have an option to set up multiple business hours according to different time zones and their business needs. Community workspaces can only set up one set of business hours.
 
-To access **Business** **Hours** settings, navigate to **Avatar Menu  > Omnichannel > Business** **Hours**.&#x20;
+To access **Business** **Hours** settings, navigate to **Administration > Omnichannel > Business** **Hours**.
 
 ![Omnichannel Business hours](<../../.gitbook/assets/Omnichannel Business hours>)
 
@@ -25,8 +25,6 @@ To create a new business hour:
   * **Open Days of the Week**: Pick open days of the week. Each selected day lets you set an open and close time.
 
 ![Omnichannel create business hours](<../../.gitbook/assets/Omnichannel create business hours>)
-
-
 
 ## View and Edit Omnichannel Business Hours
 

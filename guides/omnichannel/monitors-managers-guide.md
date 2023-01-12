@@ -8,7 +8,7 @@ Monitors in Omnichannel are users that have the ability to monitor Omnichannel a
 A monitor is only able to view analytics or activities of a department if they are assigned to a [unit](units-managers-guide.md).
 {% endhint %}
 
-To access this setting, go to **Avatar Menu  > Omnichannel > Monitors**.
+To access this setting, go to **Administration  > Omnichannel > Monitors**.
 
 ![Omnichannel Monitors Page](<../../.gitbook/assets/Omnichannel Monitors Page>)
 

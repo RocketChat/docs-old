@@ -16,7 +16,7 @@ If you are using canned responses for the first time, please check the Rocket.Ch
 
 To create Canned Responses, follow these steps
 
-* Go to **Avatar Menu  > Omnichannel > Canned Responses**. A list of Canned Responses can be seen if they exist
+* Go to **Administration  > Omnichannel > Canned Responses**. A list of Canned Responses can be seen if they exist
 * Click on **+ New**
 * A page opens up with details to fill:
   * **Shortcut**: The shortcut of your new canned response.

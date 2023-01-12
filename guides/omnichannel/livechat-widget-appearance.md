@@ -1,8 +1,8 @@
-# Live Chat Widget Appearance
+# Livechat Widget Appearance
 
 You can customize the Live Chat Widget appearance to suit your branding style. In this section, you'll find out how to customize the appearance of your Live Chat Widget.
 
-To access Live Chat Appearance go to **Avatar Menu  > Omnichannel > Live Chat Appearance**.
+To access Live Chat Appearance go to **Administration > Omnichannel > Live Chat Appearance**.
 
 ## Live Chat Widget Online Appearance
 

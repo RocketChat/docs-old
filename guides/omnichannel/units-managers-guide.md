@@ -6,7 +6,7 @@ Using Omnichannel units, you can group a set of departments for management purpo
 
 As an [Omnichannel manage](managers.md)r, you can make a unit of multiple [departments](departments.md) and assign a monitor to oversee them.
 
-To access **Units** settings, go to **Avatar Menu  > Omnichannel > Units**.
+To access **Units** settings, go to **Administration  > Omnichannel > Units**.
 
 ![Omnichannel Units page](<../../.gitbook/assets/Omnichannel Units page>)
 
