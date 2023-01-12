@@ -67,7 +67,7 @@ To set up the Pexip app on your Rocket.Chat instance:
 
 To configure the Pexip video conference on your Rocket.Chat instance:
 
-1. Go to **Avatar Menu > Administration > Settings > Conference Call**
+1. Go to **Administration > Settings > Conference Call**
 2. Select Pexip as your **Default Provider**
 
 ****

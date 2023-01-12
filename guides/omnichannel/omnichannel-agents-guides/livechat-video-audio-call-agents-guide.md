@@ -1,19 +1,15 @@
 # Livechat Video/Audio Call Agent's Guide
 
-Rocket.Chat provides audio and video calling features in Livechat using multiple video service providers like [Jitsi](../../rocket.chat-conference-call/omnichannel-video-audio-call-admins-guide.md#jitsi) and [WebRTC](../../rocket.chat-conference-call/omnichannel-video-audio-call-admins-guide.md#webrtc).
+Rocket.Chat provides audio and video calling features in Livechat using your default video services provider.
 
 {% hint style="info" %}
-To be able to use the Omnichannel call feature, the calling service provider must be configured and enabled first. Contact your workspace administrator or follow [this guide](../../rocket.chat-conference-call/omnichannel-video-audio-call-admins-guide.md).
-{% endhint %}
-
-{% hint style="info" %}
-To enable Rocket.Chat video call feature, please contact your administrator or follow the [instructions](https://docs.rocket.chat/guides/administration/settings/video-conference-admin-guide/omnichannel-video-audio-call-admins-guide).
+To enable Rocket.Chat video call feature, please get in touch with your administrator or follow the [instructions](https://docs.rocket.chat/guides/administration/settings/video-conference-admin-guide/omnichannel-video-audio-call-admins-guide).
 {% endhint %}
 
 **To initiate a call within an omnichannel conversation:**
 
 {% hint style="success" %}
-The following flow is sampled for web users but both (Web and Mobile) user journeys are supported.
+The following flow is sampled for web users, but both (Web and Mobile) user journeys are supported.
 {% endhint %}
 
 ## Start Omnichannel call

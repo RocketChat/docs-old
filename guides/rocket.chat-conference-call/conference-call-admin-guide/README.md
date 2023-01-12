@@ -4,7 +4,14 @@ description: Guide for Rocket.Chat administrators to configure video conference
 
 # Conference Call Admin Guide
 
-To configure conference call on your Rocket.Chat Instance follow the guides below for each individual platform:
+To configure conference calls on your Rocket.Chat Instance:
+
+1. Navigate to **Administration > Workspace > Settings > Conference Call**&#x20;
+2. Select **Default Provider**
+
+You can use any of the following apps as the default call provider for your workspace.&#x20;
+
+Follow the guides below for each individual platform:
 
 [Pexip app](pexip-app.md) (Enterprise only)
 
