@@ -8,14 +8,13 @@ If you would like to enable TLS on your site like this `https://yoursite.com` wh
 
 ## Manual install
 
-This installation guide was tested in the following environment:
+Follow this guide to manually install Rocket.Chat.
 
-* Rocket.Chat 4.6.0
-* OS: Ubuntu 18.04 LTS, Ubuntu 19.04 and Ubuntu 20.04(Latest)
-* Mongodb 5.0
-* NodeJS 14.18.3
+### Requirements
 
-## Requirements
+{% hint style="info" %}
+We recommend installing on any Ubuntu version with LTS.
+{% endhint %}
 
 *   **MongoDB**
 
@@ -186,4 +185,4 @@ sudo systemctl enable --now rocketchat
 
 ## Configure your Rocket.Chat server
 
-Open a web browser and access the configured ROOT\_URL (`http://your-host-name.com-as-accessed-from-internet:3000`), follow the configuration steps to set an admin account and your organization and server info.
+Open a web browser and access the configured ROOT\_URL (`http://your-host-name.com-as-accessed-from-internet:3000`), follow the configuration steps to set up an admin account and your organization and server info.
