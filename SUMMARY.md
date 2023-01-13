@@ -1,5 +1,7 @@
 # Table of contents
 
+## About Rocket.Chat
+
 * [Rocket.Chat Documentation](README.md)
 
 ## Quick Start
