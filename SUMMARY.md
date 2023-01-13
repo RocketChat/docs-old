@@ -2,7 +2,7 @@
 
 ## About Rocket.Chat
 
-* [Rocket.Chat Documentation](README.md)
+* [Rocket.Chat Overview](README.md)
 
 ## Quick Start
 
