@@ -1,6 +1,6 @@
 # License Application
 
-Rocket.Chat License unlocks additional functionality included with your purchased plan. To be able to utilize these functionalities, you need to activate your workspace with a license.
+Rocket.Chat License unlocks additional functionality included with your purchased [plan](https://www.rocket.chat/pricing). To be able to utilize these functionalities, you need to activate your workspace with a license.
 
 This guide outlines how to add a license to your SaaS or Self-Managed workspace.&#x20;
 
@@ -13,7 +13,7 @@ If you created your workspace from [SaaS trial](https://www.rocket.chat/trial-sa
 * Navigating to **Administration** > **Workspace** > **Connectivity Services**
 * Click on **Sync** to sync the workspace to Rocket.Chat cloud
 
-The Enterprise License gets applied to your workspace and you can manage your cloud workspace [Rocket.Chat Cloud](https://cloud.rocket.chat/).
+The Enterprise License gets applied to your workspace, and you can manage your cloud workspace [Rocket.Chat Cloud](https://cloud.rocket.chat/).
 
 ### I have a workspace provisioned by Rocket.Chat
 
