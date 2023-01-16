@@ -6,8 +6,9 @@
 [Rocket.Chat](https://rocket.chat) is a customizable open-source communications platform for organizations with high standards of data protection. It enables real-time conversations between colleagues, with other companies, or with your customers, across devices on the web, desktop, or mobile.\
 
 
-[Rocket.Chat](https://rocket.chat) integrates with multiple conversation channels like website Live Chat, email, Facebook page, Twitter, WhatsApp, Instagram, etc. It shows discussion from various channels, thereby constructing a single view of the customer and helping diminish the time needed to switch between the tools. Mobile app for Rocket.Chat (available for Android and iOS) enables you to browse conversations, reply to messages and collaborate with the team. Using our self-managed offerings, you can deploy Rocket.Chat on your own server, or you can use SaaS Rocket.Chat. We offer support and professional services for our enterprise plan.\
+[Rocket.Chat](https://rocket.chat) integrates with multiple conversation channels like website Live Chat, email, Facebook page, Twitter, WhatsApp, Instagram, etc. It shows discussion from various channels, thereby constructing a single view of the customer and helping diminish the time needed to switch between the tools. Mobile app for Rocket.Chat (available for Android and iOS) enables you to browse conversations, reply to messages and collaborate with the team. Using our self-managed offerings, you can deploy Rocket.Chat on your own server, or you can use SaaS Rocket.Chat. We offer support and professional services for our enterprise plan.
 
+## Product Offerings
 
 Rocket.Chat has four key product offerings:&#x20;
 
@@ -16,7 +17,25 @@ Rocket.Chat has four key product offerings:&#x20;
 * **Chat engine** - Create customized messaging experiences within your mobile or web app.
 * **Marketplace** - Choose a wide range of apps and native integrations that help your business communicate more effectively.
 
-## Setup your account
+## Security Offerings
+
+With Rocket.Chat, you can safeguard your internal and external communications with the highest standards in data privacy, security, and ownership. Admins can configure their workspace according to their own policies. Our software has been deployed in the most rigorous environments, supporting compliance with GDPR, HIPAA, FINRA, FedRAMP, and more.
+
+### Rocket.Chat on-premise
+
+Rocket.Chat gives you full ownership of your data. Leverage secure, self-managed installation in your data center with layered security options (e.g., SSL, VPN, and DMZ). Rocket.Chat’s on-premise offerings can be hosted entirely behind your firewall or on an air-gapped network.
+
+### Rocket.Chat SaaS
+
+Rocket.Chat’s robust and scalable cloud is built on Docker and Kubernetes and combines it with our services and innovative platform. Hosted in secure and audited data centers in multiple regions for our customers to choose from – ensuring the best performance and meeting strict data localization requirements.
+
+### Information governance
+
+Rocket.Chat offers governance and risk-management capabilities that meet the needs of the most security-conscious organizations. This includes global retention policies, compliance exports, and backup and restoration capabilities.
+
+## Important Links
+
+### Setup your account
 
 {% content-ref url="quick-start/deploying-rocket.chat/" %}
 [deploying-rocket.chat](quick-start/deploying-rocket.chat/)
@@ -38,7 +57,7 @@ Rocket.Chat has four key product offerings:&#x20;
 [user-panel](guides/user-guides/user-panel/)
 {% endcontent-ref %}
 
-## Channels
+### Channels
 
 {% content-ref url="guides/user-guides/rooms/" %}
 [rooms](guides/user-guides/rooms/)
@@ -52,7 +71,7 @@ Rocket.Chat has four key product offerings:&#x20;
 [omnichannel-apps](guides/app-guides/omnichannel-apps/)
 {% endcontent-ref %}
 
-## Features
+### Features
 
 {% content-ref url="guides/rocket.chat-voice-channel/" %}
 [rocket.chat-voice-channel](guides/rocket.chat-voice-channel/)
@@ -82,7 +101,7 @@ Rocket.Chat has four key product offerings:&#x20;
 [federation.md](guides/administration/admin-panel/settings/federation.md)
 {% endcontent-ref %}
 
-## Minimum Requirements
+### Minimum Requirements
 
 {% content-ref url="quick-start/mobile-and-desktop-apps/minimum-requirements-for-using-rocket.chat.md" %}
 [minimum-requirements-for-using-rocket.chat.md](quick-start/mobile-and-desktop-apps/minimum-requirements-for-using-rocket.chat.md)
@@ -92,22 +111,18 @@ Rocket.Chat has four key product offerings:&#x20;
 [hardware-requirements.md](quick-start/installing-and-updating/hardware-requirements.md)
 {% endcontent-ref %}
 
-## Support
+### Support
 
 {% content-ref url="resources/getting-support/" %}
 [getting-support](resources/getting-support/)
 {% endcontent-ref %}
 
-## Developer Guides
+### Developer Guides
 
 {% embed url="https://developer.rocket.chat" %}
 
-## Community
+### Community
 
 {% content-ref url="contributors/how-can-i-help/" %}
 [how-can-i-help](contributors/how-can-i-help/)
-{% endcontent-ref %}
-
-{% content-ref url="contributors/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2021.md" %}
-[google-summer-of-code-2021.md](contributors/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2021.md)
 {% endcontent-ref %}
