@@ -30,7 +30,7 @@ Now the can admin access _**Omnichannel Panel Settings**_ through
 **Administration > Omnichannel**
 
 {% hint style="info" %}
-[Find out how to configure Omnichannel on your Rocket.Chat workspace.](../administration/admin-panel/settings/omnichannel-admins-guide/)
+[Find out how to configure Omnichannel on your Rocket.Chat workspace.](../rocket.chat-workspace-administration/settings/omnichannel-admins-guide/)
 {% endhint %}
 
 Omnichannel area of Rocket.Chat has three primary users.

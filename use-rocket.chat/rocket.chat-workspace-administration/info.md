@@ -12,9 +12,9 @@ To access this menu, go to **Administration** > **Workspace** > **Info**.
 
 as shown below:
 
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (1) (50).png>)
+![](<../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (1) (50).png>)
 
-![](<../../../.gitbook/assets/image (662) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (662) (1) (1) (1) (1).png>)
 
 ## Deployment Info
 
@@ -42,13 +42,13 @@ To apply your offline license from the **License** card of the **Info** dashboar
 
 Click on the **Apply Offline License** at the bottom right of the card.
 
-![](<../../../.gitbook/assets/image (663) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (663) (1) (1) (1) (1) (1) (1).png>)
 
 A modal is presented prompting you to paste the license you got from the[ Rocket.Chat Cloud Console](https://cloud.rocket.chat/home).
 
 Paste the license code and hit the **Apply license** button.
 
-![](<../../../.gitbook/assets/image (641) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (641) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ### Change Offline License
 
@@ -56,7 +56,7 @@ To change your offline license from the **License** card of the **Info** dashboa
 
 Click on the **Change Offline License** at the bottom right of the card.
 
-![](<../../../.gitbook/assets/image (654) (1) (2).png>)
+![](<../../.gitbook/assets/image (654) (1) (2).png>)
 
 A modal is presented prompting you to paste the new license you got from the[ Rocket.Chat Cloud Console](https://cloud.rocket.chat/home).
 
@@ -107,11 +107,11 @@ When enabled, it shows a green checkmark :white\_check\_mark: across the feature
 
 To see more on federation settings, click on **Settings** at the bottom right of the federation card.
 
-![](<../../../.gitbook/assets/image (666) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (666) (1) (1) (1) (1) (1).png>)
 
 A modal is seen, fill the needed information and hit **Next**
 
-![](<../../../.gitbook/assets/image (653) (1) (1).png>)
+![](<../../.gitbook/assets/image (653) (1) (1).png>)
 
 * **Domain**: Add the domain name that your server should be linked to.
 * **Discovery Method**: A dropdown to select which discoverability mode to use e.g `DNS` or `HUB`
@@ -124,13 +124,13 @@ Next, continue by adding the given DNS records on your server then follow the gi
 
 More on federa**t**ion setup can be seen in [this section](settings/federation/).
 
-We also have a guide on [talking-to-users-from-another-server.md](../../rocket.chat-federation/talking-to-users-from-another-server.md "mention").
+We also have a guide on [talking-to-users-from-another-server.md](../rocket.chat-federation/talking-to-users-from-another-server.md "mention").
 
 ## Download Info
 
 To download info about your server, click the **Download Info** button by the top right of your info panel.
 
-![](<../../../.gitbook/assets/2021-11-20\_23-38-23 (1).png>)
+![](<../../.gitbook/assets/2021-11-20\_23-38-23 (1).png>)
 
 A download is prompted with a file named `statistics.json`.
 
@@ -140,4 +140,4 @@ Refreshing info on your Rocket.Chat server will prompt for the latest stats to b
 
 To refresh info, click the **Refresh** button by the top right of your info panel.
 
-![](../../../.gitbook/assets/2021-11-20\_23-42-35.png)
+![](../../.gitbook/assets/2021-11-20\_23-42-35.png)

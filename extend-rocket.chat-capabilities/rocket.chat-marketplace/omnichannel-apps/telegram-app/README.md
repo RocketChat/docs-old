@@ -9,7 +9,7 @@ description: Omnichannel Integration between Rocket.Chat and Telegram.
 {% endhint %}
 
 {% hint style="warning" %}
-This integration is to work only for Omnichannel chats within Rocket.Chat. If you wish to use your Telegram bot on public or private channels/groups/Teams within Rocket.Chat, then please follow [this guide](../../../../use-rocket.chat/administration/admin-panel/integrations/telegram.md)
+This integration is to work only for Omnichannel chats within Rocket.Chat. If you wish to use your Telegram bot on public or private channels/groups/Teams within Rocket.Chat, then please follow [this guide](../../../../use-rocket.chat/rocket.chat-workspace-administration/integrations/telegram.md)
 {% endhint %}
 
 {% content-ref url="telegram-app-installation.md" %}

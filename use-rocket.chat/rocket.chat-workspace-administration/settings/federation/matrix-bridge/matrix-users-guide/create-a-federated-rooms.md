@@ -9,15 +9,15 @@ You can either create the channel with no users or invite them at the moment of 
 \
 **Important**: By enabling this _Federated_ option, the _Encrypted, Read-Only, and Broadcast_ are not available. We do not support those channels as federated channels at this moment.
 
-![Create a Federated Channel](<../../../../../../../.gitbook/assets/Federation\_Create Channel (1).png>)
+![Create a Federated Channel](<../../../../../../.gitbook/assets/Federation\_Create Channel (1).png>)
 
 ## Creating a Direct Message 1:1 (Enterprise edition only)
 
-Start [creating a 1:1 Direct Message](../../../../../../user-guides/rooms/direct-messages/create-a-new-direct-message-1-1.md), and make sure you are following the [syntax to invite external users](invite-external-users-to-your-rocket.chat-server.md#invite-external-users-syntax).
+Start [creating a 1:1 Direct Message](../../../../../user-guides/rooms/direct-messages/create-a-new-direct-message-1-1.md), and make sure you are following the [syntax to invite external users](invite-external-users-to-your-rocket.chat-server.md#invite-external-users-syntax).
 
 ## Creating a Multi-user Direct Message (Enterprise edition only)
 
-Start [creating a Multi-user Direct Message](../../../../../../user-guides/rooms/direct-messages/direct-messages-between-multiple-users.md), and make sure you are following the [syntax to invite external users](invite-external-users-to-your-rocket.chat-server.md#invite-external-users-syntax).
+Start [creating a Multi-user Direct Message](../../../../../user-guides/rooms/direct-messages/direct-messages-between-multiple-users.md), and make sure you are following the [syntax to invite external users](invite-external-users-to-your-rocket.chat-server.md#invite-external-users-syntax).
 
 ## Slash commands
 

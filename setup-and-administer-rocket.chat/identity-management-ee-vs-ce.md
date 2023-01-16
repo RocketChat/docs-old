@@ -34,8 +34,8 @@ description: >-
   * **Sync User Active State:** Determine if users should be enabled or disabled on Rocket.Chat based on the LDAP status
   * **Auto logout:** Auto logout user on next sync when it's removed/disabled on LDAP group
 
-{% content-ref url="../use-rocket.chat/administration/admin-panel/settings/ldap/" %}
-[ldap](../use-rocket.chat/administration/admin-panel/settings/ldap/)
+{% content-ref url="../use-rocket.chat/rocket.chat-workspace-administration/settings/ldap/" %}
+[ldap](../use-rocket.chat/rocket.chat-workspace-administration/settings/ldap/)
 {% endcontent-ref %}
 
 ## **SAML** <a href="#saml3" id="saml3"></a>
@@ -51,8 +51,8 @@ description: >-
 * **Fields mapping:** Select any field you want to sync with RC
 * **Advanced:** Advanced settings (eg. login with username and password x win user)
 
-{% content-ref url="../use-rocket.chat/administration/admin-panel/settings/saml/" %}
-[saml](../use-rocket.chat/administration/admin-panel/settings/saml/)
+{% content-ref url="../use-rocket.chat/rocket.chat-workspace-administration/settings/saml/" %}
+[saml](../use-rocket.chat/rocket.chat-workspace-administration/settings/saml/)
 {% endcontent-ref %}
 
 ## **OAuth / Custom OAuth** <a href="#oauth3" id="oauth3"></a>
@@ -87,8 +87,8 @@ description: >-
   * Assign Rocket.Chat roles based on OAuth roles
   * Join channels automatically based on OAuth roles
 
-{% content-ref url="../use-rocket.chat/administration/admin-panel/settings/oauth/" %}
-[oauth](../use-rocket.chat/administration/admin-panel/settings/oauth/)
+{% content-ref url="../use-rocket.chat/rocket.chat-workspace-administration/settings/oauth/" %}
+[oauth](../use-rocket.chat/rocket.chat-workspace-administration/settings/oauth/)
 {% endcontent-ref %}
 
 {% content-ref url="../rocket.chat-resources/frequently-asked-questions/ldap-faq.md" %}

@@ -18,7 +18,7 @@ Under the **Contacts** tab, you can see all the contacts you have been serving a
 
 You can search for a contact using their name, phone or email address.
 
-Searching can also be done using [custom field](../../../administration/admin-panel/settings/account-settings/custom-fields.md) values. This is only possible if the **Searchable** option of the field was enabled when creating it.
+Searching can also be done using [custom field](../../../rocket.chat-workspace-administration/settings/account-settings/custom-fields.md) values. This is only possible if the **Searchable** option of the field was enabled when creating it.
 
 <figure><img src="../../../../.gitbook/assets/Search Omnichannel contact with custom field.png" alt=""><figcaption><p>Search Omnichannel contact with custom field</p></figcaption></figure>
 

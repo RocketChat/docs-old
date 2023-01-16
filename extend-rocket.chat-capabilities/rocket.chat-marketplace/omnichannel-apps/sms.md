@@ -5,7 +5,7 @@ External users can communicate with Rocket.Chat through SMS.
 This integration extends [Rocket.Chat's Omnichannel](../../../use-rocket.chat/omnichannel/) capabilities.
 
 {% hint style="info" %}
-* The [Rocket.Chat SMS Settings](../../../use-rocket.chat/administration/admin-panel/settings/sms.md) offers the ability to configure SMS integration with several providers, but we are demonstrating with [Twilio ](https://www.twilio.com/)using [Twilio Programmable Messaging API](https://www.twilio.com/messaging).
+* The [Rocket.Chat SMS Settings](../../../use-rocket.chat/rocket.chat-workspace-administration/settings/sms.md) offers the ability to configure SMS integration with several providers, but we are demonstrating with [Twilio ](https://www.twilio.com/)using [Twilio Programmable Messaging API](https://www.twilio.com/messaging).
 * You are required to have your workspace available on a public URL.
 {% endhint %}
 

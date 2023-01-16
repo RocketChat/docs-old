@@ -13,7 +13,7 @@ Alternatively, you can use the [whatsapp-cloud-app](../whatsapp-cloud-app/ "ment
 {% endhint %}
 
 {% hint style="warning" %}
-**You must have the** [**Omnichannel feature**](../../../../use-rocket.chat/administration/admin-panel/settings/omnichannel-admins-guide/) **enabled as well as have** [**agents**](https://docs.rocket.chat/guides/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/guides/omnichannel/managers) **assigned in order to receive and send Omnichannel messages.**
+**You must have the** [**Omnichannel feature**](../../../../use-rocket.chat/rocket.chat-workspace-administration/settings/omnichannel-admins-guide/) **enabled as well as have** [**agents**](https://docs.rocket.chat/guides/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/guides/omnichannel/managers) **assigned in order to receive and send Omnichannel messages.**
 {% endhint %}
 
 {% content-ref url="whatsapp-installation.md" %}

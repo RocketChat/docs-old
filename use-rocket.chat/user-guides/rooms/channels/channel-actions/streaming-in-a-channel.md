@@ -2,7 +2,7 @@
 
 ## Streaming
 
-If the feature [Youtube Livestream](../../../../administration/admin-panel/settings/youtube-broadcasting.md) is enabled, the **Streaming** tab activates on the **Channel** **Actions** menu.
+If the feature [Youtube Livestream](../../../../rocket.chat-workspace-administration/settings/youtube-broadcasting.md) is enabled, the **Streaming** tab activates on the **Channel** **Actions** menu.
 
 Through the **Streaming** tab, owners of the channel of server admins can start streaming or add another stream to the channel using a URL.
 

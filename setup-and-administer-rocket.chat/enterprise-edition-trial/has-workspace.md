@@ -1,6 +1,6 @@
 # Have a Workspace
 
-If you have a Rocket.Chat workspace up and running you will need to verify if it is currently linked to a Cloud account. See the [following steps](../../use-rocket.chat/administration/admin-panel/connectivity-services.md) to do so.\
+If you have a Rocket.Chat workspace up and running you will need to verify if it is currently linked to a Cloud account. See the [following steps](../../use-rocket.chat/rocket.chat-workspace-administration/connectivity-services.md) to do so.\
 
 
 If you do not have a workspace yet, see this [guide ](does-not-have-a-workspace.md)on how to proceed.

@@ -81,8 +81,8 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 [rocket.chat-conference-call](use-rocket.chat/rocket.chat-conference-call/)
 {% endcontent-ref %}
 
-{% content-ref url="use-rocket.chat/administration/admin-panel/settings/analytics.md" %}
-[analytics.md](use-rocket.chat/administration/admin-panel/settings/analytics.md)
+{% content-ref url="use-rocket.chat/rocket.chat-workspace-administration/settings/analytics.md" %}
+[analytics.md](use-rocket.chat/rocket.chat-workspace-administration/settings/analytics.md)
 {% endcontent-ref %}
 
 {% content-ref url="use-rocket.chat/rocket.chat-mobile/push-notifications/" %}
@@ -97,8 +97,8 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 [identity-management-ee-vs-ce.md](setup-and-administer-rocket.chat/identity-management-ee-vs-ce.md)
 {% endcontent-ref %}
 
-{% content-ref url="use-rocket.chat/administration/admin-panel/settings/federation/" %}
-[federation](use-rocket.chat/administration/admin-panel/settings/federation/)
+{% content-ref url="use-rocket.chat/rocket.chat-workspace-administration/settings/federation/" %}
+[federation](use-rocket.chat/rocket.chat-workspace-administration/settings/federation/)
 {% endcontent-ref %}
 
 ### Minimum Requirements

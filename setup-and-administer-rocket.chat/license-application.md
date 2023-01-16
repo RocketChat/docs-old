@@ -30,7 +30,7 @@ To get a new SaaS workspace, you can use any of the following methods
 * [Creating a SaaS trial](https://www.rocket.chat/trial-saas-new)
 * [Contacting Rocket.Chat sales](../use-rocket.chat/cloud-account/manage-your-cloud-account/contact-sales.md)
   * Before contacting sales, decide on a URL to use in the format `<your URL>.rocket.chat`
-  * After the workspace has been created, visit the workspace URL and set it up following the [setup-wizard.md](../use-rocket.chat/administration/admin-panel/settings/setup-wizard.md "mention")
+  * After the workspace has been created, visit the workspace URL and set it up following the [setup-wizard.md](../use-rocket.chat/rocket.chat-workspace-administration/settings/setup-wizard.md "mention")
 
 ## License on Self-Managed Workspaces
 
@@ -40,15 +40,15 @@ After successfully [deploying your Rocket.Chat](../deploy-rocket.chat/prepare-fo
 * **Offline or Air-gapped workspace**: The Rocket.Chat workspace deployed has restricted or no internet access.
 
 {% hint style="info" %}
-To apply a license to a self-managed workspace, you are required to [Register your workspace](../use-rocket.chat/administration/admin-panel/connectivity-services.md#registration-steps).
+To apply a license to a self-managed workspace, you are required to [Register your workspace](../use-rocket.chat/rocket.chat-workspace-administration/connectivity-services.md#registration-steps).
 {% endhint %}
 
 Below are links to guides explaining how this can be archived
 
 ### Online Workspace
 
-{% content-ref url="../use-rocket.chat/administration/admin-panel/connectivity-services.md" %}
-[connectivity-services.md](../use-rocket.chat/administration/admin-panel/connectivity-services.md)
+{% content-ref url="../use-rocket.chat/rocket.chat-workspace-administration/connectivity-services.md" %}
+[connectivity-services.md](../use-rocket.chat/rocket.chat-workspace-administration/connectivity-services.md)
 {% endcontent-ref %}
 
 ### Offline Workspace
