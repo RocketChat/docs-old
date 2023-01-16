@@ -37,78 +37,78 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 
 ### Setup your account
 
-{% content-ref url="quick-start/deploying-rocket.chat/" %}
-[deploying-rocket.chat](quick-start/deploying-rocket.chat/)
+{% content-ref url="deploy-rocket.chat/deploying-rocket.chat/" %}
+[deploying-rocket.chat](deploy-rocket.chat/deploying-rocket.chat/)
 {% endcontent-ref %}
 
-{% content-ref url="quick-start/accessing-your-workspace/creating-the-first-administrator.md" %}
-[creating-the-first-administrator.md](quick-start/accessing-your-workspace/creating-the-first-administrator.md)
+{% content-ref url="setup-and-administer-rocket.chat/accessing-your-workspace/creating-the-first-administrator.md" %}
+[creating-the-first-administrator.md](setup-and-administer-rocket.chat/accessing-your-workspace/creating-the-first-administrator.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/user-guides/connecting-to-a-server.md" %}
-[connecting-to-a-server.md](guides/user-guides/connecting-to-a-server.md)
+{% content-ref url="use-rocket.chat/user-guides/connecting-to-a-server.md" %}
+[connecting-to-a-server.md](use-rocket.chat/user-guides/connecting-to-a-server.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/user-guides/registration.md" %}
-[registration.md](guides/user-guides/registration.md)
+{% content-ref url="use-rocket.chat/user-guides/registration.md" %}
+[registration.md](use-rocket.chat/user-guides/registration.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/user-guides/user-panel/" %}
-[user-panel](guides/user-guides/user-panel/)
+{% content-ref url="use-rocket.chat/user-guides/user-panel/" %}
+[user-panel](use-rocket.chat/user-guides/user-panel/)
 {% endcontent-ref %}
 
 ### Channels
 
-{% content-ref url="guides/user-guides/rooms/" %}
-[rooms](guides/user-guides/rooms/)
+{% content-ref url="use-rocket.chat/user-guides/rooms/" %}
+[rooms](use-rocket.chat/user-guides/rooms/)
 {% endcontent-ref %}
 
-{% content-ref url="guides/omnichannel/" %}
-[omnichannel](guides/omnichannel/)
+{% content-ref url="use-rocket.chat/omnichannel/" %}
+[omnichannel](use-rocket.chat/omnichannel/)
 {% endcontent-ref %}
 
-{% content-ref url="guides/app-guides/omnichannel-apps/" %}
-[omnichannel-apps](guides/app-guides/omnichannel-apps/)
+{% content-ref url="use-rocket.chat/app-guides/omnichannel-apps/" %}
+[omnichannel-apps](use-rocket.chat/app-guides/omnichannel-apps/)
 {% endcontent-ref %}
 
 ### Features
 
-{% content-ref url="guides/rocket.chat-voice-channel/" %}
-[rocket.chat-voice-channel](guides/rocket.chat-voice-channel/)
+{% content-ref url="use-rocket.chat/rocket.chat-voice-channel/" %}
+[rocket.chat-voice-channel](use-rocket.chat/rocket.chat-voice-channel/)
 {% endcontent-ref %}
 
-{% content-ref url="guides/rocket.chat-conference-call/" %}
-[rocket.chat-conference-call](guides/rocket.chat-conference-call/)
+{% content-ref url="use-rocket.chat/rocket.chat-conference-call/" %}
+[rocket.chat-conference-call](use-rocket.chat/rocket.chat-conference-call/)
 {% endcontent-ref %}
 
-{% content-ref url="guides/administration/admin-panel/settings/analytics.md" %}
-[analytics.md](guides/administration/admin-panel/settings/analytics.md)
+{% content-ref url="use-rocket.chat/administration/admin-panel/settings/analytics.md" %}
+[analytics.md](use-rocket.chat/administration/admin-panel/settings/analytics.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/mobile-guides/push-notifications/" %}
-[push-notifications](guides/mobile-guides/push-notifications/)
+{% content-ref url="use-rocket.chat/mobile-guides/push-notifications/" %}
+[push-notifications](use-rocket.chat/mobile-guides/push-notifications/)
 {% endcontent-ref %}
 
-{% content-ref url="guides/message-auditing/" %}
-[message-auditing](guides/message-auditing/)
+{% content-ref url="use-rocket.chat/message-auditing/" %}
+[message-auditing](use-rocket.chat/message-auditing/)
 {% endcontent-ref %}
 
-{% content-ref url="guides/administration/identity-management-ee-vs-ce.md" %}
-[identity-management-ee-vs-ce.md](guides/administration/identity-management-ee-vs-ce.md)
+{% content-ref url="setup-and-administer-rocket.chat/identity-management-ee-vs-ce.md" %}
+[identity-management-ee-vs-ce.md](setup-and-administer-rocket.chat/identity-management-ee-vs-ce.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/administration/admin-panel/settings/federation.md" %}
-[federation.md](guides/administration/admin-panel/settings/federation.md)
+{% content-ref url="use-rocket.chat/administration/admin-panel/settings/federation/" %}
+[federation](use-rocket.chat/administration/admin-panel/settings/federation/)
 {% endcontent-ref %}
 
 ### Minimum Requirements
 
-{% content-ref url="quick-start/mobile-and-desktop-apps/minimum-requirements-for-using-rocket.chat.md" %}
-[minimum-requirements-for-using-rocket.chat.md](quick-start/mobile-and-desktop-apps/minimum-requirements-for-using-rocket.chat.md)
+{% content-ref url="deploy-rocket.chat/installing-client-apps/minimum-requirements-for-using-rocket.chat.md" %}
+[minimum-requirements-for-using-rocket.chat.md](deploy-rocket.chat/installing-client-apps/minimum-requirements-for-using-rocket.chat.md)
 {% endcontent-ref %}
 
-{% content-ref url="quick-start/installing-and-updating/hardware-requirements.md" %}
-[hardware-requirements.md](quick-start/installing-and-updating/hardware-requirements.md)
+{% content-ref url="deploy-rocket.chat/deploying-rocket.chat/hardware-requirements.md" %}
+[hardware-requirements.md](deploy-rocket.chat/deploying-rocket.chat/hardware-requirements.md)
 {% endcontent-ref %}
 
 ### Support

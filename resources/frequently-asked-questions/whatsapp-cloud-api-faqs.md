@@ -30,7 +30,7 @@ See a list of supported media types [here](https://developers.facebook.com/docs/
 
 <summary>How can I make the WhatsApp Cloud API token permanent?</summary>
 
-To generate a permanent Access Token by following this guide [create-permanent-whatsapp-cloud-api-token.md](../../guides/app-guides/omnichannel-apps/whatsapp-cloud-app/facebook-developer-account-with-whatsapp/create-permanent-whatsapp-cloud-api-token.md "mention")
+To generate a permanent Access Token by following this guide [create-permanent-whatsapp-cloud-api-token.md](../../use-rocket.chat/app-guides/omnichannel-apps/whatsapp-cloud-app/facebook-developer-account-with-whatsapp/create-permanent-whatsapp-cloud-api-token.md "mention")
 
 </details>
 
