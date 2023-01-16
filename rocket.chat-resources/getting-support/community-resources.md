@@ -26,7 +26,7 @@ Remember to have a little patience. Support is provided by other members of the 
 
 ## Reporting Bugs
 
-If you think you have found a bug. Please see [Reporting Issues](../../contributor-to-rocket.chat/how-can-i-help/reporting-issues.md)
+If you think you have found a bug. Please see [Reporting Issues](../../contribute-to-rocket.chat/how-can-i-help/reporting-issues.md)
 
 If you are facing any issue with Rocket.Chat, please ensure you follow the following steps before asking for support. It will save you a lot of time and hassle.
 
