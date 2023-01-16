@@ -124,7 +124,7 @@ Next, continue by adding the given DNS records on your server then follow the gi
 
 More on federa**t**ion setup can be seen in [this section](settings/federation/).
 
-We also have a guide on [talking-to-users-from-another-server.md](../../user-guides/talking-to-users-from-another-server.md "mention").
+We also have a guide on [talking-to-users-from-another-server.md](../../rocket.chat-federation/talking-to-users-from-another-server.md "mention").
 
 ## Download Info
 

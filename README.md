@@ -37,8 +37,8 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 
 ### Setup your account
 
-{% content-ref url="deploy-rocket.chat/deploying-rocket.chat/" %}
-[deploying-rocket.chat](deploy-rocket.chat/deploying-rocket.chat/)
+{% content-ref url="deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/" %}
+[prepare-for-your-rocket.chat-deployment](deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/)
 {% endcontent-ref %}
 
 {% content-ref url="setup-and-administer-rocket.chat/accessing-your-workspace/creating-the-first-administrator.md" %}
@@ -49,8 +49,8 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 [connecting-to-a-server.md](use-rocket.chat/user-guides/connecting-to-a-server.md)
 {% endcontent-ref %}
 
-{% content-ref url="use-rocket.chat/user-guides/registration.md" %}
-[registration.md](use-rocket.chat/user-guides/registration.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="use-rocket.chat/user-guides/user-panel/" %}
@@ -67,8 +67,8 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 [omnichannel](use-rocket.chat/omnichannel/)
 {% endcontent-ref %}
 
-{% content-ref url="use-rocket.chat/app-guides/omnichannel-apps/" %}
-[omnichannel-apps](use-rocket.chat/app-guides/omnichannel-apps/)
+{% content-ref url="extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/" %}
+[omnichannel-apps](extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/)
 {% endcontent-ref %}
 
 ### Features
@@ -85,8 +85,8 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 [analytics.md](use-rocket.chat/administration/admin-panel/settings/analytics.md)
 {% endcontent-ref %}
 
-{% content-ref url="use-rocket.chat/mobile-guides/push-notifications/" %}
-[push-notifications](use-rocket.chat/mobile-guides/push-notifications/)
+{% content-ref url="use-rocket.chat/rocket.chat-mobile/push-notifications/" %}
+[push-notifications](use-rocket.chat/rocket.chat-mobile/push-notifications/)
 {% endcontent-ref %}
 
 {% content-ref url="use-rocket.chat/message-auditing/" %}
@@ -107,14 +107,14 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 [minimum-requirements-for-using-rocket.chat.md](deploy-rocket.chat/installing-client-apps/minimum-requirements-for-using-rocket.chat.md)
 {% endcontent-ref %}
 
-{% content-ref url="deploy-rocket.chat/deploying-rocket.chat/hardware-requirements.md" %}
-[hardware-requirements.md](deploy-rocket.chat/deploying-rocket.chat/hardware-requirements.md)
+{% content-ref url="deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/hardware-requirements.md" %}
+[hardware-requirements.md](deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/hardware-requirements.md)
 {% endcontent-ref %}
 
 ### Support
 
-{% content-ref url="resources/getting-support/" %}
-[getting-support](resources/getting-support/)
+{% content-ref url="rocket.chat-resources/getting-support/" %}
+[getting-support](rocket.chat-resources/getting-support/)
 {% endcontent-ref %}
 
 ### Developer Guides
@@ -123,6 +123,6 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 
 ### Community
 
-{% content-ref url="contributors/how-can-i-help/" %}
-[how-can-i-help](contributors/how-can-i-help/)
+{% content-ref url="contributor-to-rocket.chat/how-can-i-help/" %}
+[how-can-i-help](contributor-to-rocket.chat/how-can-i-help/)
 {% endcontent-ref %}

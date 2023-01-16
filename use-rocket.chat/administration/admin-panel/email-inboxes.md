@@ -2,7 +2,6 @@
 
 Please check the documentation here:
 
-{% page-ref page="../../app-guides/omnichannel-apps/email-inboxes/email-inbox-admin-guide.md" %}
-
-
-
+{% content-ref url="../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/email-inboxes/email-inbox-admin-guide.md" %}
+[email-inbox-admin-guide.md](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/email-inboxes/email-inbox-admin-guide.md)
+{% endcontent-ref %}

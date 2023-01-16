@@ -34,7 +34,7 @@ To get a new SaaS workspace, you can use any of the following methods
 
 ## License on Self-Managed Workspaces
 
-After successfully [deploying your Rocket.Chat](../deploy-rocket.chat/deploying-rocket.chat/) workspace applying license is possible with any of the following means depending on the type of workspace.
+After successfully [deploying your Rocket.Chat](../deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/) workspace applying license is possible with any of the following means depending on the type of workspace.
 
 * **Online Workspace**: The Rocket.Chat workspace has access to the internet
 * **Offline or Air-gapped workspace**: The Rocket.Chat workspace deployed has restricted or no internet access.
@@ -53,6 +53,6 @@ Below are links to guides explaining how this can be archived
 
 ### Offline Workspace
 
-{% content-ref url="air-gapped-deployment/offline-license.md" %}
-[offline-license.md](air-gapped-deployment/offline-license.md)
+{% content-ref url="rocket.chat-air-gapped-deployment/offline-license.md" %}
+[offline-license.md](rocket.chat-air-gapped-deployment/offline-license.md)
 {% endcontent-ref %}

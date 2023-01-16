@@ -71,8 +71,8 @@ In this section, we are going to cover the option for **Internet Access**.
 
 See the guide on how to Register an offline workspace.
 
-{% content-ref url="../../../setup-and-administer-rocket.chat/air-gapped-deployment/offline-workspace-registration.md" %}
-[offline-workspace-registration.md](../../../setup-and-administer-rocket.chat/air-gapped-deployment/offline-workspace-registration.md)
+{% content-ref url="../../../setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/offline-workspace-registration.md" %}
+[offline-workspace-registration.md](../../../setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/offline-workspace-registration.md)
 {% endcontent-ref %}
 
 ## Apply Online License

@@ -3,14 +3,14 @@
 The Rocket.Chat [Omnichannel](https://en.wikipedia.org/wiki/Omnichannel) capabilities give you the possibility to streamline conversations from various mediums into Rocket.Chat. This feature can be extended in several ways
 
 * You can integrate the [Omnichannel Live Chat pop-up widget](livechat-widget-installation/) into your website that can serve as an entry point for communication or direct support to your customers or visitors.
-* Using advanced [Omnichannel Apps](../app-guides/omnichannel-apps/) and integrations, provide for a seamless experience between Rocket.Chat and external users from other communication platforms like
-  * [WhatsApp](../app-guides/omnichannel-apps/whatsapp/)
-  * [SMS](../app-guides/omnichannel-apps/sms.md)
-  * [Facebook](../app-guides/omnichannel-apps/facebook-app/)
-  * [Instagram Direct](../app-guides/omnichannel-apps/instagram-direct/)
-  * [Twitter](../app-guides/omnichannel-apps/twitter-app/)
-  * [Telegram](../app-guides/omnichannel-apps/telegram-app/)
-  * [Email](../app-guides/omnichannel-apps/email-inboxes/)
+* Using advanced [Omnichannel Apps](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/) and integrations, provide for a seamless experience between Rocket.Chat and external users from other communication platforms like
+  * [WhatsApp](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/whatsapp/)
+  * [SMS](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/sms.md)
+  * [Facebook](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/facebook-app/)
+  * [Instagram Direct](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/instagram-direct/)
+  * [Twitter](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/twitter-app/)
+  * [Telegram](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/telegram-app/)
+  * [Email](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/email-inboxes/)
 
 {% hint style="info" %}
 A very practical use case is using Omnichannel to **acquire** and **retain** customers in a multi-channel environment in order to save valuable potential sales while building relationships, providing an exceptional experience and the possibility to communicate and engage with multiple communication mediums.

@@ -8,8 +8,8 @@ description: End-user Training Guides
 [connecting-to-a-server.md](connecting-to-a-server.md)
 {% endcontent-ref %}
 
-{% content-ref url="registration.md" %}
-[registration.md](registration.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="user-panel/" %}
@@ -20,8 +20,8 @@ description: End-user Training Guides
 [rooms](rooms/)
 {% endcontent-ref %}
 
-{% content-ref url="talking-to-users-from-another-server.md" %}
-[talking-to-users-from-another-server.md](talking-to-users-from-another-server.md)
+{% content-ref url="../rocket.chat-federation/talking-to-users-from-another-server.md" %}
+[talking-to-users-from-another-server.md](../rocket.chat-federation/talking-to-users-from-another-server.md)
 {% endcontent-ref %}
 
 {% content-ref url="security-bundle/" %}

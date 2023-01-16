@@ -52,13 +52,13 @@ If you are looking for the manual/user guide of a particular app, please find th
 {% hint style="success" %}
 Following apps are part of the **Enterprise Edition** offerings. You don't have to purchase them if you are already subscribed to the Enterprise Edition of Rocket.Chat.
 
-* [Jira Server](../../app-guides/atlassian/jira-server-integration.md)
+* [Jira Server](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/atlassian/jira-server-integration.md)
 * Jira Cloud
-* [Confluence Server](../../app-guides/atlassian/confluence-server-integration.md)
+* [Confluence Server](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/atlassian/confluence-server-integration.md)
 * Confluence Cloud
-* [Bitbucket Server](../../app-guides/atlassian/bitbucket-server-integration.md)
+* [Bitbucket Server](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/atlassian/bitbucket-server-integration.md)
 * Bitbucket Cloud
-* [Bamboo](../../app-guides/atlassian/bamboo-integration.md)
-* [Zoom](../../app-guides/zoom.md)
-* [Data Loss Prevention (DLP)](../../app-guides/data-loss-prevention-dlp-app.md)
+* [Bamboo](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/atlassian/bamboo-integration.md)
+* [Zoom](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/zoom.md)
+* [Data Loss Prevention (DLP)](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/data-loss-prevention-dlp-app.md)
 {% endhint %}
