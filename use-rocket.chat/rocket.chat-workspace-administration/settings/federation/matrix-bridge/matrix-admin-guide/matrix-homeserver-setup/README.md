@@ -25,7 +25,14 @@ To enable it in your Application Service configuration file, add the following p
 de.sorunome.msc2409.push_ephemeral: true
 ```
 
-Following the automated installation, it will enable by default, if you want to disable it, please go to the generated data and either remove this line or set it to `false`.
+Also, there are other 2 settings that enable the search for public rooms in your Matrix homeserver, they must be explicitly set to true to allow the search, otherwise, it will be disabled by default. In case you have disabled these settings keep in mind that people from outside will not be able to search for public rooms within your server (through the Matrix network), which means the Search for Federated Public Rooms feature will be impacted.
+
+```yaml
+allow_public_rooms_without_auth: true
+allow_public_rooms_over_federation: true
+```
+
+Following the automated installation, it will enable everything by default, if you want to disable it, please go to the generated data and either remove this line or set it to `false`.
 
 ```bash
 cd data/matrix/synapse
@@ -70,7 +77,7 @@ docker compose up -d
 * Point all the generated DNS records to your server's IP address (all to the same IP).
 * [Configure ](https://matrix-org.github.io/synapse/latest/application\_services.html)the support for [Application Service](https://matrix.org/docs/guides/application-services) on the Matrix homeserver. (You can find the AS .yaml configuration file in your Rocket.Chat admin panel under _**Administration => Manage workspace => Settings => Federation => Matrix Bridge**_). **Important:** make sure the URL property in the AS file is pointing to your Rocket.Chat Bridge address. You can also create a folder (`app/matrix-federation-config`) inside the build version of Rocket.Chat and create a file `registration.yaml` using the registration file you got from the Rocket.Chat admin panel.
 
-<figure><img src="../../../../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>AS Registration file</p></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>AS Registration file</p></figcaption></figure>
 
 ## Testing your setup
 

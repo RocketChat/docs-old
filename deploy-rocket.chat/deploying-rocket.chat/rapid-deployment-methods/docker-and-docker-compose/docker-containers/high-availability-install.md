@@ -43,6 +43,6 @@ rocketchat:
 
 ### Create a Load Balancer
 
-* Now, setup up a [reverse proxy](../../../../rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md) on each host to terminate SSL on each rocket.chat node or terminate SSL on the load balancer, this is up to you.
+* Now, setup up a [reverse proxy](../../../../environment-configuration/configuring-ssl-reverse-proxy.md) on each host to terminate SSL on each rocket.chat node or terminate SSL on the load balancer, this is up to you.
 * See [Nginx multi-instance reverse proxy example](https://docs.rocket.chat/installation/manual-installation/multiple-instances-to-improve-performance#update-your-nginx-proxy-config).
 * Set up a load balancer to reach each instance on `443` or `3000` (depends on the choice above).

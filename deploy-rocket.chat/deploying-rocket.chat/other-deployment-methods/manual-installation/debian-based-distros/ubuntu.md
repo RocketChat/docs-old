@@ -18,10 +18,10 @@ We recommend installing on any Ubuntu version with LTS.
 
 *   **MongoDB**
 
-    Please refer to the official MongoDB documentation on [how to install MongoDB on Ubuntu](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/). For the list of supported versions, see our documentation [here](../../../../../rocket.chat-resources/getting-support/#mongodb-versions).
+    Please refer to the official MongoDB documentation on [how to install MongoDB on Ubuntu](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/). For the list of supported versions, see our documentation [here](../../../../../resources/getting-support/#mongodb-versions).
 *   **NodeJS**
 
-    Follow the [official guide](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) to install NodeJS on a Debian system. Check out our page on [supported node version](../../../../rocket.chat-environment-configuration/node-configuration/supported-nodejs-version.md) for your specific version. You can also use third-party tools like [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [n](https://www.npmjs.com/package/n).
+    Follow the [official guide](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) to install NodeJS on a Debian system. Check out our page on [supported node version](../../../../environment-configuration/node-configuration/supported-nodejs-version.md) for your specific version. You can also use third-party tools like [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [n](https://www.npmjs.com/package/n).
 
 ## Install Rocket.Chat
 
@@ -93,7 +93,7 @@ The command above will create a barebone service file, this service file is what
 
 ### Passing environment variables
 
-Next you need to pass some environment variables to the running process. For more information of configuring via environment variables read [this article](../../../../rocket.chat-environment-configuration/environment-variables.md).
+Next you need to pass some environment variables to the running process. For more information of configuring via environment variables read [this article](../../../../environment-configuration/environment-variables.md).
 
 Run:
 
@@ -181,7 +181,7 @@ sudo systemctl enable --now rocketchat
 
 ## Optional configurations
 
-[Configure firewall rule](../../../../rocket.chat-environment-configuration/optional-configurations.md) [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../../rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md) \[Configure mongo access control] \[Configure production values for mongodb]
+[Configure firewall rule](../../../../environment-configuration/optional-configurations.md) [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../../environment-configuration/configuring-ssl-reverse-proxy.md) \[Configure mongo access control] \[Configure production values for mongodb]
 
 ## Configure your Rocket.Chat server
 
