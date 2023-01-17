@@ -1,10 +1,10 @@
 # Create a New Thread
 
-Threads can be created as series of replies, follow up conversations under any message in a [Team](../teams/), [Channels](../channels/), [Discussion](../discussions/) or [Direct Message](../direct-messages/)
+Threads can be created as series of replies, follow up conversations under any message in a [Team](../../../../guides/user-guides/rooms/teams/), [Channels](../channels/), [Discussion](../discussions/) or [Direct Message](../direct-messages/)
 
 The threading feature exists as an option that can be utilized on any message.t
 
-To create a thread,&#x20;
+To create a thread,
 
 * Click **options** by the right of an existing message in the room and select **Reply in Threads**
 

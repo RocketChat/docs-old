@@ -48,6 +48,6 @@ Alternatively, you can use the [whatsapp-cloud-app](../whatsapp-cloud-app/ "ment
 [whatsapp-agents-guide.md](whatsapp-agents-guide.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../../resources/frequently-asked-questions/whatsapp-business-app-faqs.md" %}
-[whatsapp-business-app-faqs.md](../../../../resources/frequently-asked-questions/whatsapp-business-app-faqs.md)
+{% content-ref url="../../../../rocket.chat-resources/frequently-asked-questions/whatsapp-business-app-faqs.md" %}
+[whatsapp-business-app-faqs.md](../../../../rocket.chat-resources/frequently-asked-questions/whatsapp-business-app-faqs.md)
 {% endcontent-ref %}

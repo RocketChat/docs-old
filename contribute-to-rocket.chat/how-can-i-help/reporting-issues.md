@@ -11,7 +11,7 @@ Examples of things that aren't considered bugs:
 * Can't get the server installed
 * Want a new widget in Rocket.Chat
 
-If your issue falls into one of these categories, please see [Getting Support](../../resources/getting-support/)
+If your issue falls into one of these categories, please see [Getting Support](../../rocket.chat-resources/getting-support/)
 
 New feature requests should be posted in the [forums](https://forums.rocket.chat).
 
