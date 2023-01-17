@@ -53,6 +53,6 @@ Below are links to guides explaining how this can be archived
 
 ### Offline Workspace
 
-{% content-ref url="rocket.chat-air-gapped-deployment/offline-license.md" %}
-[offline-license.md](rocket.chat-air-gapped-deployment/offline-license.md)
+{% content-ref url="air-gapped-deployment/offline-license.md" %}
+[offline-license.md](air-gapped-deployment/offline-license.md)
 {% endcontent-ref %}

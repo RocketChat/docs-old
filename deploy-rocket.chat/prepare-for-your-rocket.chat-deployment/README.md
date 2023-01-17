@@ -9,7 +9,7 @@ Regardless of the platform you wish to deploy on or the method of deployment, yo
 ## Official Recommendation
 
 {% hint style="success" %}
-We offer a variety of Deployment methods, and we recommend you set up using our [Docker & Docker Compose](rapid-deployment-methods/docker-and-docker-compose/) guide for several reasons mentioned below.
+We offer a variety of Deployment methods, and we recommend you set up using our [Docker & Docker Compose](../deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose/) guide for several reasons mentioned below.
 {% endhint %}
 
 In order to obtain official support from our team, we have a minimum set of requirements. These requirements are necessary for us to access essential system information, provide an SLA, answer questions, or provide a solution for the problem.
@@ -28,8 +28,8 @@ Rocket.Chat's own cloud uses our official Docker images, which makes this instal
 
 [Docker](https://www.docker.com) is widely used for packaging applications in containers and distributing them as images, providing abstraction and isolation layers from the OS (operational system). It allows the application to be shipped with a specific version of the OS compatibility layer and its own dependencies already installed and configured.
 
-{% content-ref url="rapid-deployment-methods/docker-and-docker-compose/docker-containers/" %}
-[docker-containers](rapid-deployment-methods/docker-and-docker-compose/docker-containers/)
+{% content-ref url="../deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose/docker-containers/" %}
+[docker-containers](../deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose/docker-containers/)
 {% endcontent-ref %}
 
 ### Why Docker?
@@ -97,8 +97,8 @@ At this time, no other container orchestration/management technologies will be s
 
 The minimum hardware requirements are described on the page below.
 
-{% content-ref url="hardware-requirements.md" %}
-[hardware-requirements.md](hardware-requirements.md)
+{% content-ref url="../deploying-rocket.chat/hardware-requirements.md" %}
+[hardware-requirements.md](../deploying-rocket.chat/hardware-requirements.md)
 {% endcontent-ref %}
 
 ## Monitoring
@@ -111,6 +111,6 @@ Production deployments should continually collect metrics regarding the installa
 
 Rocket.Chat cuts a new release every month. Please check the link below for more information about the release cycles and make sure you are running a supported version.
 
-{% content-ref url="../../rocket.chat-resources/getting-support/" %}
-[getting-support](../../rocket.chat-resources/getting-support/)
+{% content-ref url="../../resources/getting-support/" %}
+[getting-support](../../resources/getting-support/)
 {% endcontent-ref %}

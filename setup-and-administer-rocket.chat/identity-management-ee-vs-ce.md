@@ -91,6 +91,6 @@ description: >-
 [oauth](../use-rocket.chat/rocket.chat-workspace-administration/settings/oauth/)
 {% endcontent-ref %}
 
-{% content-ref url="../rocket.chat-resources/frequently-asked-questions/ldap-faq.md" %}
-[ldap-faq.md](../rocket.chat-resources/frequently-asked-questions/ldap-faq.md)
+{% content-ref url="../resources/frequently-asked-questions/ldap-faq.md" %}
+[ldap-faq.md](../resources/frequently-asked-questions/ldap-faq.md)
 {% endcontent-ref %}
