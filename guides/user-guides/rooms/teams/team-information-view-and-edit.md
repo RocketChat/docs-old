@@ -9,7 +9,7 @@
 
 ### Other Team Edit Actions
 
-Some additional edit actions to a team include:
+Some additional edit actions for a team include:
 
 #### Password Access
 
