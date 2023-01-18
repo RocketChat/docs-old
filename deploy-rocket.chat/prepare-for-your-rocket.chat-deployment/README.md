@@ -1,5 +1,9 @@
 # Prepare for your Rocket.Chat Deployment
 
+{% hint style="info" %}
+[ **👉 Trouble installing or deploying Rocket.Chat?** Join our Weekly Technical Helpline to get real-time help from our team!](https://app.livestorm.co/rocket-chat/rocketchats-weekly-technical-helpline?type=detailed)
+{% endhint %}
+
 Rocket.Chat can be hosted on our Cloud, installed from a variety of marketplaces, or manually installed on your own server.&#x20;
 
 ## Prerequisites

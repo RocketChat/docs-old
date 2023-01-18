@@ -1,5 +1,9 @@
 # Rocket.Chat on Debian
 
+{% hint style="info" %}
+[**👉 Trouble installing or deploying Rocket.Chat?** Join our Weekly Technical Helpline to get real-time help from our team!](https://app.livestorm.co/rocket-chat/rocketchats-weekly-technical-helpline?type=detailed)
+{% endhint %}
+
 This installation guide was tested in the following environment:
 
 * Rocket.Chat 4.6.0

@@ -4,6 +4,10 @@ description: Deploying Rocket.Chat on Google Compute Engine
 
 # Google Compute Engine
 
+{% hint style="info" %}
+[**👉 Trouble installing or deploying Rocket.Chat?** Join our Weekly Technical Helpline to get real-time help from our team!](https://app.livestorm.co/rocket-chat/rocketchats-weekly-technical-helpline?type=detailed)
+{% endhint %}
+
 ## 1. Create a Compute Instance
 
 1. Click create VM instance in google cloud console.
