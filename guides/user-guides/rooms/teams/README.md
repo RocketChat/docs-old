@@ -13,7 +13,7 @@ A **Team** can have multiple [channels](https://docs.rocket.chat/guides/user-gui
 \
 **Teams** can be made private so that only invited members are allowed to join or public so that all Rocket.Chat users can see them. Each **Team** may consist of channels, which may also be either [public ](https://docs.rocket.chat/guides/user-guides/rooms/channels/types-of-channels#public-channels)or [private](https://docs.rocket.chat/guides/user-guides/rooms/channels/types-of-channels#private-channels).&#x20;
 
-### Team Privacy and Encryption
+## Team Privacy and Encryption
 
 #### Read-Only Teams
 
@@ -44,20 +44,12 @@ To learn more, see [Teams: Efficiently Manage Your Remote Team on Rocket.Chat](h
 [team-information-view-and-edit.md](team-information-view-and-edit.md)
 {% endcontent-ref %}
 
-{% content-ref url="delete-a-team.md" %}
-[delete-a-team.md](delete-a-team.md)
+{% content-ref url="../../../../use-rocket.chat/user-guides/rooms/teams/teams-members.md" %}
+[teams-members.md](../../../../use-rocket.chat/user-guides/rooms/teams/teams-members.md)
 {% endcontent-ref %}
 
-{% content-ref url="hide-or-leave-a-team.md" %}
-[hide-or-leave-a-team.md](hide-or-leave-a-team.md)
-{% endcontent-ref %}
-
-{% content-ref url="teams-members/" %}
-[teams-members](teams-members/)
-{% endcontent-ref %}
-
-{% content-ref url="../../../../use-rocket.chat/user-guides/rooms/teams/teams-channels/" %}
-[teams-channels](../../../../use-rocket.chat/user-guides/rooms/teams/teams-channels/)
+{% content-ref url="../../../../use-rocket.chat/user-guides/rooms/teams/teams-channels.md" %}
+[teams-channels.md](../../../../use-rocket.chat/user-guides/rooms/teams/teams-channels.md)
 {% endcontent-ref %}
 
 {% content-ref url="teams-enterprise-edition.md" %}
