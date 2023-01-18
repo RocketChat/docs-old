@@ -1,10 +1,10 @@
 # Edit a Team
 
-**To edit a** [**public or private**](./) **team,**&#x20;
+To edit a [public or private](./) team:
 
 * From the top-right menu, Click **Team Information** icon to view Team information.&#x20;
 * Click **Edit** to edit the Team information.&#x20;
-* Update the team information.
+* Update the Team information.
 * Click **Save.**
 
 ### Other Team Edit Actions
