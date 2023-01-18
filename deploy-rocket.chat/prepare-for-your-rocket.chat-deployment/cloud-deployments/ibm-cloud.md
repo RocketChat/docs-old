@@ -4,10 +4,6 @@ description: Deploying Rocket.Chat on IBM Cloud
 
 # IBM Cloud
 
-{% hint style="info" %}
-[**👉 Trouble installing or deploying Rocket.Chat?** Join our Weekly Technical Helpline to get real-time help from our team!](https://app.livestorm.co/rocket-chat/rocketchats-weekly-technical-helpline?type=detailed)
-{% endhint %}
-
 IBM Cloud have various options for hosting Rocket.Chat, Docker container on a Kubernetes cluster, VMWare, Bare Metal Server, but the instructions below will focus in creating a Cloud Foundry Rocket.Chat app.
 
 ## Prerequisites

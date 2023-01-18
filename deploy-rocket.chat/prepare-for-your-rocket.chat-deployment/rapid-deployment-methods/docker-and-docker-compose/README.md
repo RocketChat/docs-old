@@ -1,9 +1,5 @@
 # Docker & Docker Compose
 
-{% hint style="info" %}
-[**👉 Trouble installing or deploying Rocket.Chat?** Join our Weekly Technical Helpline to get real-time help from our team!](https://app.livestorm.co/rocket-chat/rocketchats-weekly-technical-helpline?type=detailed)
-{% endhint %}
-
 Deploying Rocket.Chat with Docker and Docker Compose is as easy as it can get.
 
 ### Installing Docker and Docker Compose

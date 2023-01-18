@@ -4,10 +4,6 @@ description: Minimum Requirements for Server Deployment
 
 # Hardware Requirements
 
-{% hint style="info" %}
-[**👉 Trouble installing or deploying Rocket.Chat?** Join our Weekly Technical Helpline to get real-time help from our team!](https://app.livestorm.co/rocket-chat/rocketchats-weekly-technical-helpline?type=detailed)
-{% endhint %}
-
 To get a Rocket.Chat instance running, you need to pay attention to the properties of the machine/hardware you have.
 
 These requirements vary significantly with:

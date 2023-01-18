@@ -1,9 +1,5 @@
 # Rapid Deployment Methods
 
-{% hint style="info" %}
-[**👉 Trouble installing or deploying Rocket.Chat?** Join our Weekly Technical Helpline to get real-time help from our team!](https://app.livestorm.co/rocket-chat/rocketchats-weekly-technical-helpline?type=detailed)
-{% endhint %}
-
 Whether you are a newbie, developer, or nontechnical person, Rocket.Chat offers a variety of deployment methods you can get started with regardless of the platform you intend to use.
 
 {% hint style="info" %}
