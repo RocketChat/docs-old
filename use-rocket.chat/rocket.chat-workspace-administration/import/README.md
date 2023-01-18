@@ -1,5 +1,5 @@
 ---
-description: Import data from other services to Rocket.Chat
+description: Import data from other services to your Rocket.Chat workspace.
 ---
 
 # Import
@@ -10,19 +10,17 @@ To access this menu, go to **Administration** > **Workspace** > **Import**.
 
 as shown below:
 
-![](<../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (1) (6).png>)
-
-![](../../../../.gitbook/assets/2021-11-21\_00-05-22.png)
+![](../../../.gitbook/assets/2021-11-21\_00-05-22.png)
 
 To Import your data:
 
 1. Click **Import New File**
 
-![](<../../../../.gitbook/assets/2021-11-21\_00-03-04 (1).png>)
+![](<../../../.gitbook/assets/2021-11-21\_00-03-04 (1).png>)
 
 2\. Select **Import Type**
 
-![](../../../../.gitbook/assets/2021-11-21\_00-06-49.png)
+![](../../../.gitbook/assets/2021-11-21\_00-06-49.png)
 
 {% embed url="https://docs.rocket.chat/guides/administration/admin-panel/import/Import%20from%20slack" %}
 

@@ -10,8 +10,6 @@ With the Rocket.Chat [Federation Setup](settings/federation/), you can configure
 
 To access the dashboard, go to **Administration** > **Workspace** > **Federation Dashboard.**
 
-![](<../../../.gitbook/assets/image (658) (1) (1) (1) (1) (1).png>)
-
 * **Number of events**: This shows the number of federated events that have been triggered.
-* **Number of federated users**: This shows the number of federated users your sever has made access to.
+* **Number of federated users**: This shows the number of federated users your server has made access to.
 * **Number of federated servers**: The number of federated servers.

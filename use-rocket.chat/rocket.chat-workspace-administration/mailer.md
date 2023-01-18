@@ -6,12 +6,6 @@ description: Use the Mailer tool to send emails to users inside your Rocket.Chat
 
 To access this menu, go to **Administration** > **Workspace** > **Mailer**.
 
-as shown below:
-
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (10).png>)
-
-![](../../../.gitbook/assets/2021-11-24\_14-19-37.png)
-
 Use the **`From`** field to set the address to send the email.
 
 Check the **Dry Run** option to send the email only to the address defined in **`From`**.

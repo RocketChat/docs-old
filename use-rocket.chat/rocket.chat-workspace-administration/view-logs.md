@@ -1,5 +1,5 @@
 ---
-description: This menu shows you your logs.
+description: This menu shows you your workspace logs.
 ---
 
 # View Logs
@@ -10,8 +10,3 @@ Check out the [Logs Settings](settings/logs.md) for additional configurations on
 
 To access this menu, go to **Administration** > **Workspace** > **View Log**
 
-as shown below:
-
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (1) (24).png>)
-
-![](../../../.gitbook/assets/2021-11-21\_01-58-36.png)

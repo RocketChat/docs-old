@@ -12,29 +12,21 @@ As soon as your contact sends an email to the registered email address, it will 
 
 ![](<../../../../.gitbook/assets/image (217).png>)
 
-Click **Take it!** to take it off of the **Queued Chats** and be able to reply to it:
+Click **Take it!** to take it off of the **Queued Chats** and be able to reply to it
 
-![](<../../../../.gitbook/assets/image (218).png>)
-
-As soon as you take it, it will appear in **Chats in Progress** and, you can click **Reply via Email** to reply to it.
-
-![](<../../../../.gitbook/assets/image (219).png>)
+As soon as you take it, it will appear in **Chats in Progress,** and you can click **Reply via Email** to reply to it.
 
 {% hint style="info" %}
-Note that if you type without clicking **Reply via Email**, your contact will **NOT** receive your reply at all.
+If you type without clicking **Reply via Email**, your contact will **NOT** receive your reply at all.
 {% endhint %}
 
 Type your message and hit **Send**
-
-![](<../../../../.gitbook/assets/image (220).png>)
 
 It appears on your Rocket.Chat interface as shown below:
 
 ![](<../../../../.gitbook/assets/image (221).png>)
 
 Your contact receives the message in email instantly.
-
-![](<../../../../.gitbook/assets/image (222).png>)
 
 ## Invite a fellow agent to an email inbox
 
@@ -47,7 +39,7 @@ They are invited to the channel, as shown below:
 ![](<../../../../.gitbook/assets/image (237).png>)
 
 {% hint style="info" %}
-As soon as the fellow Omnichannel agent is invited to an email inbox, they are all able to see all the old conversation that has happened before they arrival to that email inbox.
+As soon as fellow Omnichannel agent is invited to an email inbox, they are all able to see all the old conversation that has happened before their arrival in that email inbox.
 {% endhint %}
 
 And you can conversate with them internally on the same channel.

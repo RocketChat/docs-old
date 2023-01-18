@@ -6,23 +6,19 @@ description: >-
 
 # OAuth Applications
 
-To access this menu, go to **Administration** > **Workspace** > **OAuth Applications.**
-
-![](<../../../.gitbook/assets/image (652) (1) (1) (1) (1) (1).png>)
+To access this menu, navigate to **Administration** > **Workspace** > **OAuth Applications.**
 
 This dashboard shows the various OAuth apps linked and `Zapier` comes by default for some automation.
 
 ## Adding New OAuth Application
 
-To add a new OAuth app, from your OAuth Applications dashboard, click the **New Application** button at the top right.
+To add a new OAuth app from your OAuth Applications dashboard, click the **New Application** button at the top right.
 
-![](../../../.gitbook/assets/2021-11-11\_12h17\_17.png)
+![](../../.gitbook/assets/2021-11-11\_12h17\_17.png)
 
 You are presented with a screen to fill out the required information for the OAuth app.
 
-&#x20;
-
-![](../../../.gitbook/assets/2021-11-12\_10h12\_51.png)
+![](../../.gitbook/assets/2021-11-12\_10h12\_51.png)
 
 Fill in the information according to the app you are linking.
 
@@ -35,6 +31,6 @@ Fill in the information according to the app you are linking.
 
 From the OAuth dashboard( **Administration** > **Workspace** > **OAuth Applications.** ), you can see a list of OAuth Apps created where you can click on any to view and edit the configurations made.
 
-![](../../../.gitbook/assets/2021-11-12\_10h34\_12.png)
+![](../../.gitbook/assets/2021-11-12\_10h34\_12.png)
 
-![](../../../.gitbook/assets/2021-11-12\_10h45\_09.png)
+![](../../.gitbook/assets/2021-11-12\_10h45\_09.png)

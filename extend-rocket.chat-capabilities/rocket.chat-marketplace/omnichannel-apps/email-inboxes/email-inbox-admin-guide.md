@@ -4,35 +4,22 @@ As an Omnichannel administrator, you can configure and manage Omnichannel email 
 
 To set up a new email inbox:
 
-1. Go to **Administration**:
-
-![](<../../../../.gitbook/assets/image (231).png>)
-
-2\. Click **Email Inboxes**:
-
-![](<../../../../.gitbook/assets/image (232).png>)
-
-3\. Click **+ New Email Inbox**:
-
-![](<../../../../.gitbook/assets/image (245).png>)
+* Navigate to **Administration > Workspace > Email Inboxes**
+* Click **+ New Email Inbox**:
 
 Enter the following details:
 
 1. Add **Name** of the email inbox
 2. Specify the **Email** address
-3. Assign it to a **Department;** it is optional&#x20;
+3. Assign it to a **Department;** it is optional
 4. Configure SMTP server
-5. Toggle switch **Connect with SSL/TLS;** it is optional \
+5. Toggle switch **Connect with SSL/TLS;** it is optional\
    **`Note`**`: For outlook accounts, disable the SSL option under SMTP.`
-6. &#x20;Configure IMAP server and
-7. Toggle switch **Connect with SSL/TLS** for IMAP**;** it is optional&#x20;
+6. Configure IMAP server and
+7. Toggle switch **Connect with SSL/TLS** for IMAP\*\*;\*\* it is optional
 8. Hit **Save**
 
-![](<../../../../.gitbook/assets/image (234).png>)
-
-Your email inbox is set up and, your agents can receive emails within Rocket.Chat now, as shown below:
-
-![](<../../../../.gitbook/assets/image (246).png>)
+Your email inbox is set up, and your agents can receive emails within Rocket.Chat now.
 
 ## Configure Email Inbox with 2FA
 
@@ -54,4 +41,4 @@ Outlook
 AOL Mail
 {% endembed %}
 
-****[**Yahoo Mail**](https://help.yahoo.com/kb/generate-manage-third-party-passwords-sln15241.html)****
+[**Yahoo Mail**](https://help.yahoo.com/kb/generate-manage-third-party-passwords-sln15241.html)

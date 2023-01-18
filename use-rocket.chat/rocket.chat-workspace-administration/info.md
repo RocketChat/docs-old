@@ -1,18 +1,14 @@
 ---
-description: >-
-  Info menu gives you a consolidated view of basic information about your
-  server.
+description: Info gives you a consolidated view of basic information about your workspace.
 ---
 
 # Info
 
-Visit the info section to get insight, statistics and info on the various aspects of your server. This can help you to better evaluate and monitor the various activities.
+Visit the info section to get insight, statistics and info on the various aspects of your server. This can help you to evaluate better and monitor the various activities.
 
 To access this menu, go to **Administration** > **Workspace** > **Info**.
 
 as shown below:
-
-![](<../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (1) (50).png>)
 
 ![](<../../.gitbook/assets/image (662) (1) (1) (1) (1).png>)
 

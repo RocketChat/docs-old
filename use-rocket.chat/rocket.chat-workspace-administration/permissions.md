@@ -1,16 +1,10 @@
 # Permissions
 
-Rocket.Chat has a vast and customizable permissions system. Most of the actions a user can make require certain permission so you can customize what users can do and see.
+Rocket.Chat has a vast and customizable permissions system. Most actions a user can make require particular permission, so you can customize what users can do and see.
 
 To access this menu,
 
-1. Go to **Administration** > **Workspace** > **Permissions**
-
-as shown below:
-
-![](<../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (11).png>)
-
-![](../../../.gitbook/assets/2021-11-22\_22-56-51.png)
+Navigate to **Administration** > **Workspace** > **Permissions**
 
 {% hint style="info" %}
 Permission changes are immediate and transparent. Users do not need to log out, log in, or refresh to change permissions.
@@ -18,24 +12,24 @@ Permission changes are immediate and transparent. Users do not need to log out, 
 
 ## Roles
 
-A `Role` is a set of permissions that can be given to users. Rocket.Chat already comes with a set of default roles that can be edited. You can also create new roles for users.
+A `Role` is a set of permissions that are given to users. Rocket.Chat already comes with a set of default roles that can be edited. You can also create new roles for users.
 
-When someone is registered in a Rocket.Chat server, they will normally receive the `user`. If the user is a bot or a guest from a Live Chat channel, it can receive different roles. Also, the first user of a server always receives the role of `admin`.
+When someone is registered in a Rocket.Chat workspace, they will typically receive the `user`. If the user is a bot or a guest from a Live Chat channel, it can receive different roles. Also, the first user of a server always receives the role of `admin`.
 
 Roles can have different scopes. Currently, we have two scopes `Users` and `Subscriptions`. The permissions of the `Users` roles are valid for the whole server, while the `Subscriptions` roles only apply to individual channels, where a user has to be elected to that role in that channel.
 
-An example of `Users` role would be an `admin`, that have permissions valid for the whole server, while a `moderator` that have a `Subscriptions` role would have permissions only in a channel that they were elected for that role.
+An example of `Users` role would be an `admin`, that have permissions valid for the whole server, while a `moderator` that have a `Subscriptions` role would have permissions only in a channel they were elected for.
 
 Also, by default roles are shown as little tags on the side of a username on messages.
 
 ### Default Roles
 
 * **admin** `(Users)` - Have access to all settings and administrator tools.
-* **moderator** `(Subscriptions)` - Have moderation permissions for a channel. Has to be elected by a channel owner.
-* **owner** `(Subscriptions)` - Have owner permissions for a channel. When a user creates a channel they become the owner of that channel. They can also elect more owners for that channel.
+* **moderator** `(Subscriptions)` - Have moderation permissions for a channel. It has to be elected by a channel owner.
+* **owner** `(Subscriptions)` - Have owner permissions for a channel. Users who create a channel become the owner of that channel. They can also elect more owners for that channel.
 * **user** `(Users)` - Normal user rights. Most users receive this role when registering.
 * **bot** `(Users)` - Special Role for bot users, with some permissions related to bot functionality.
-* **leader** `(Subscriptions)` - it doesn't have any special permissions, but is used when setting a `leader` to a channel. Leaders appear on the header of a channel.
+* **leader** `(Subscriptions)` - it doesn't have any special permissions but is used when setting a `leader` to a channel. Leaders appear on the header of a channel.
 * **anonymous** `(Users)` - unauthenticated users that access the server when the `Allow Anonymous Read` setting is activated.
 * **guest** `(Users)` - anonymous users that want to write and participate in channels when the `Allow Anonymous Read` and `Allow Anonymous Write` settings are activated.
 * **livechat-agent** `(Users)` - Agents of Live Chat. They can answer to Live Chat requests.
@@ -46,7 +40,7 @@ Also, by default roles are shown as little tags on the side of a username on mes
 
 | Permission                              | Purpose                                                                                                                                                                                                                                                                                                          |
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `access-mailer`                         | Permission to use the [Mailer Tool](./mailer.md). Accessible from Administration -> Mailer.                                                                                                                                                                                                                |
+| `access-mailer`                         | Permission to use the [Mailer Tool](mailer.md). Accessible from Administration -> Mailer.                                                                                                                                                                                                                        |
 | `access-permissions`                    | Permission to create and edit roles and permissions. Accessible from Administration -> Permissions.                                                                                                                                                                                                              |
 | `add-oauth-service`                     | Permission to manage different OAuth services and apps. Accessible from Administration -> OAuth Apps.                                                                                                                                                                                                            |
 | `add-user-to-any-c-room`                | Permission to add a user to a public channel.                                                                                                                                                                                                                                                                    |
