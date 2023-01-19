@@ -8,17 +8,13 @@ description: >-
 
 To access this menu, navigate to **Administration** > **Workspace** > **OAuth Applications.**
 
-This dashboard shows the various OAuth apps linked and `Zapier` comes by default for some automation.
+This dashboard shows the various OAuth apps linked.
 
 ## Adding New OAuth Application
 
-To add a new OAuth app from your OAuth Applications dashboard, click the **New Application** button at the top right.
-
-![](../../.gitbook/assets/2021-11-11\_12h17\_17.png)
+To add a new OAuth app from your OAuth Applications dashboard, click the +**New Application** button at the top right.
 
 You are presented with a screen to fill out the required information for the OAuth app.
-
-![](../../.gitbook/assets/2021-11-12\_10h12\_51.png)
 
 Fill in the information according to the app you are linking.
 
@@ -30,7 +26,3 @@ Fill in the information according to the app you are linking.
 ## Viewing and Editing OAuth Apps
 
 From the OAuth dashboard( **Administration** > **Workspace** > **OAuth Applications.** ), you can see a list of OAuth Apps created where you can click on any to view and edit the configurations made.
-
-![](../../.gitbook/assets/2021-11-12\_10h34\_12.png)
-
-![](../../.gitbook/assets/2021-11-12\_10h45\_09.png)

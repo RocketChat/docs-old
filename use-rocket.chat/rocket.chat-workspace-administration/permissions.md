@@ -2,7 +2,7 @@
 
 Rocket.Chat has a vast and customizable permissions system. Most actions a user can make require particular permission, so you can customize what users can do and see.
 
-To access this menu,
+To access this menu:
 
 Navigate to **Administration** > **Workspace** > **Permissions**
 
