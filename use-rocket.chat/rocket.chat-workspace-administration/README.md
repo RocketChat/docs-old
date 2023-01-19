@@ -2,6 +2,12 @@
 
 This guide is for people who administer an existing Rocket.Chat workspace and have an administrator role inside the workspace.&#x20;
 
+To access this menu, go to **Administration** > **Workspace**&#x20;
+
+{% hint style="info" %}
+Only users with Administrator roles assigned to them can access this menu. If you have any role other assigned to your Rocket.Chat user, you won't be able to see this menu.&#x20;
+{% endhint %}
+
 ****[**Go Fully Featured**](go-fully-featured.md): An overview of all the potential of Rocket. Chat's enterprise edition.
 
 ****[**Info**](info.md): A consolidated view of basic information about your workspace.
