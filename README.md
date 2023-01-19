@@ -93,8 +93,8 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 [message-auditing](use-rocket.chat/message-auditing/)
 {% endcontent-ref %}
 
-{% content-ref url="setup-and-administer-rocket.chat/identity-management-ee-vs-ce.md" %}
-[identity-management-ee-vs-ce.md](setup-and-administer-rocket.chat/identity-management-ee-vs-ce.md)
+{% content-ref url="setup-and-administer-rocket.chat/advanced-workspace-management/identity-management-ee-vs-ce.md" %}
+[identity-management-ee-vs-ce.md](setup-and-administer-rocket.chat/advanced-workspace-management/identity-management-ee-vs-ce.md)
 {% endcontent-ref %}
 
 {% content-ref url="use-rocket.chat/rocket.chat-workspace-administration/settings/federation/" %}
