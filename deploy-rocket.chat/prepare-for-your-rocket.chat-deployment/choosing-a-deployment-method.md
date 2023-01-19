@@ -1,5 +1,9 @@
 # Choosing a Deployment Method
 
+{% hint style="info" %}
+[ **👉 Trouble installing or deploying Rocket.Chat?** Join our Weekly Technical Helpline to get real-time help from our team!](https://app.livestorm.co/rocket-chat/rocketchats-weekly-technical-helpline?type=detailed)
+{% endhint %}
+
 ## Choosing a Deployment Method
 
 Rocket.Chat offers a series of deployment methods, and making a choice on which to use can get a little conflicting. Although we recommend using [Docker and Docker Compose](https://app.gitbook.com/o/-M41dOPtnjO7qK6KCyrt/s/-M418Ul0aSTwf2PYsyPW/quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose), you may want to know when best to consider any other deployment methods.
