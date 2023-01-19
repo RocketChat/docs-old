@@ -7,17 +7,13 @@ Rocket.Chat Connectivity Services gives you access to connect your self-hosted w
 * OAuth proxy for social network
 * Apps Marketplace
 
-To access this menu, go to **Administration** > **Workspace** > **Connectivity Services.**
+To access this menu:
 
-as shown below:
-
-![](<../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (1) (4).png>)
-
-![](../../.gitbook/assets/2021-11-21\_01-53-58.png)
+* Navigate to **Administration** > **Workspace** > **Connectivity Services**
 
 ## Introduction
 
-Rocket.Chat Cloud provides a list of features/services such as
+Rocket.Chat Cloud provides a list of features/services, such as:
 
 * [Rocket.Chat Push Notification Gateway](https://docs.rocket.chat/guides/administrator-guides/notifications/push-notifications#push-gateway)
 * [Rocket.Chat Marketplace](https://rocket.chat/marketplace)
@@ -42,19 +38,12 @@ If you are an enterprise customer (self-hosted Enterprise or Pro-licensed), we c
 
 **If you don't have a cloud account yet:**
 
-1. Go to [cloud.rocket.chat](https://cloud.rocket.chat) and create a new account
-
-![](<../../.gitbook/assets/image (647) (2).png>)
-
-* Fill up the registration form and **Register**
-
-![](<../../.gitbook/assets/image (665) (1) (1).png>)
-
-* A verification email will be sent in order to activate your new Cloud account
-
-![](<../../.gitbook/assets/image (681) (1).png>)
-
-* The verification link will forward to cloud.rocket.chat. After the validation, you will be logged into your Cloud console. In order to register your self-hosted workspace, please select the "Register self-managed" button
+* Go to [cloud.rocket.chat](https://cloud.rocket.chat) and&#x20;
+* Hit **Create account**
+* Fill up the registration form and hit **Next**
+* A verification email will be sent to your provided email address. Please click the verification link. It redirects you to cloud.rocket.chat.&#x20;
+* After the validation, you will be logged into your Cloud console.&#x20;
+* In order to register your self-hosted workspace: please select the **Register self-managed** under **Workspaces.**&#x20;
 
 <figure><img src="../../.gitbook/assets/RocketChat cloud register self manage.png" alt=""><figcaption><p>Rocket.Chat cloud register self manage</p></figcaption></figure>
 
@@ -63,34 +52,31 @@ If you are an enterprise customer (self-hosted Enterprise or Pro-licensed), we c
 <figure><img src="../../.gitbook/assets/Cloud services.png" alt=""><figcaption><p>Cloud services</p></figcaption></figure>
 
 1. **Internet Access**: Rocket.Chat server that has a connection to the internet (connected to the outside)
-2. **No Internet Access**: Special cases where Rocket.Chat server has no connection at all (totally air-gapped).
+2. **No Internet Access**: Special cases where Rocket.Chat workspace is air-gapped.
 
 {% hint style="info" %}
-In this section, we are going to cover the option for **Internet Access**.
+See the guide on how to register an offline workspace.[air-gapped-workspace-configuration.md](../../setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/air-gapped-workspace-configuration.md "mention")
 {% endhint %}
 
-See the guide on how to Register an offline workspace.
-
-{% content-ref url="../../setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/offline-workspace-registration.md" %}
-[offline-workspace-registration.md](../../setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/offline-workspace-registration.md)
-{% endcontent-ref %}
+{% hint style="info" %}
+In the following section, we are going to cover the option for **Internet Access**.
+{% endhint %}
 
 ## Apply Online License
 
-When selecting the "Internet Access" option, a registration token will be generated. Copy the token as this will be used to register your Rocket.Chat server.
+A registration token will be generated when selecting the "Internet Access" option. Copy the token, as this will be used to register your Rocket.Chat server.
 
 ![](../../.gitbook/assets/c\_8.png)
 
-1.  On your Rocket.Chat server, go to _Administration > Connectivity Services._
+* On your Rocket.Chat workspace, navigate to **Administration** > **Workspace** > **Connectivity Services**
+* Enter the **Email** linked to your Rocket.Chat Cloud account
+* &#x20;Paste the registration token generated in the **Token** field
+* Hit **Connect**
 
-    Fill up the "Email" field with the email related to your Rocket.Chat Cloud account and in the "Token" field please paste the registration token generated. Finally, hit the "Connect" button.
-
-![](../../.gitbook/assets/c\_9.png)
-
-1. It will set the connection between your Rocket.Chat server and Rocket.Chat Cloud console. When the connection is successful, the _Connectivity Services_ panel will look like this:
+It will set the connection between your Rocket.Chat workspace and Rocket.Chat Cloud console. When the connection is successful, the _Connectivity Services_ panel will look like this:
 
 ![](../../.gitbook/assets/c\_10.png)
 
-1. Finally, in order to ensure the synchronization between Rocket.Chat server and Rocket.Chat Cloud, hit the "Sync" button as this will trigger the synchronization framework.
+Finally, in order to ensure the synchronization between Rocket.Chat workspace and Rocket.Chat Cloud, hit the **Sync** button. This will trigger the synchronization framework. This is recommended right after registering your server.&#x20;
 
-This is recommended right after registering your server. The newly registered workspace will be listed in the "Workspace" section at [cloud.rocket.chat](https://cloud.rocket.chat)
+The newly registered workspace will be listed in the **Workspace** section at [cloud.rocket.chat](https://cloud.rocket.chat)

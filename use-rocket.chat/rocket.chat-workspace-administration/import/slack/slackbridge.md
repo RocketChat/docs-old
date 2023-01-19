@@ -9,7 +9,7 @@ To enable it, you have to create a Custom Bot in Slack and add it to the desired
 1. Got to ["Set up a bot user"](https://my.slack.com/apps/A0F7YS25R-bots)
 2. Click "Add Configuration"
 3. Pick a username for your Bot and click **Add Bot Integration**
-4. Copy the API Token, you'll need it when setting up SlackBridge in Rocket.Chat
+4. Copy the API Token. You'll need it when setting up SlackBridge in Rocket.Chat
 5. Customize your bot the way you like it and click on Save Integration
 
 ## To enable SlackBridge in Rocket.Chat:

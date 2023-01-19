@@ -6,11 +6,15 @@ description: >-
 
 # Rooms
 
-Rooms make workflows structured, purpose-oriented and coherent. You can make them for any, subject, project, or team. Teams can share thoughts and information and push work ahead.
+Rooms make workflows structured, purpose-oriented and coherent. You can make them for any subject, project, or team. Teams can share thoughts and information and push work ahead.
+
+{% hint style="info" %}
+This is room's user guide. If you are an admin looking for an admin guide, please find it here. [rooms-aka-channels.md](../../rocket.chat-workspace-administration/rooms-aka-channels.md "mention")
+{% endhint %}
 
 ## Unread messages
 
-Rooms with new messages appear bolded.
+Rooms with new messages appear in bolded.
 
 When using the **Unread Mode**, a new section called **Unread** appears on the left sidebar. All rooms with unread messages move to this new section until the messages have been read.
 

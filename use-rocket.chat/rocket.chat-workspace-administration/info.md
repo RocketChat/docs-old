@@ -4,13 +4,9 @@ description: Info gives you a consolidated view of basic information about your 
 
 # Info
 
-Visit the info section to get insight, statistics and info on the various aspects of your server. This can help you to evaluate better and monitor the various activities.
+Visit the **Info** section to get insight, statistics, and information on the various aspects of your server. This can help you to evaluate better and monitor the various activities.
 
-To access this menu, go to **Administration** > **Workspace** > **Info**.
-
-as shown below:
-
-![](<../../.gitbook/assets/image (662) (1) (1) (1) (1).png>)
+To access this menu, go to **Administration** > **Workspace** > **Info**
 
 ## Deployment Info
 
@@ -18,7 +14,7 @@ The deployment info card shows information related to your server deployment.
 
 * **Version**: The current version of your Rocket.Chat server. This can be different from the latest version if not updated.
 * **Deployment ID**: Your server's deployment ID.
-* **Apps Engine Version**: The version of Apps engine. Can be different from the latest if not updated.
+* **Apps Engine Version**: The version of Apps engine. It can be different from the latest if not updated.
 * **Node Version**: The Node.js version your server is running on.
 * **Database Migration**: The date of database migration.
 * **MongoDB**: The MongoDB version
@@ -29,34 +25,24 @@ The deployment info card shows information related to your server deployment.
 
 This shows the information patenting to the license of your server.
 
-* **License**: **This** hows the tags of the license you have active on your server.
+* **License**: This shows the tags of the license you have active on your server.
 * **Features**: The various features supported by the license on your server. Like `Omnichannel` `Auditing`, `Canned Responses`, `Engagement Dashboard`.
 
 ### Apply Offline License
 
-To apply your offline license from the **License** card of the **Info** dashboard,
+To apply your offline license from the **License** card of the **Info** dashboard:
 
-Click on the **Apply Offline License** at the bottom right of the card.
-
-![](<../../.gitbook/assets/image (663) (1) (1) (1) (1) (1) (1).png>)
-
-A modal is presented prompting you to paste the license you got from the[ Rocket.Chat Cloud Console](https://cloud.rocket.chat/home).
-
-Paste the license code and hit the **Apply license** button.
-
-![](<../../.gitbook/assets/image (641) (1) (1) (1) (1) (1) (1) (1).png>)
+* Click **Apply Offline License** at the bottom right of the card
+* A modal is presented, prompting you to paste the license you got from the[ Rocket.Chat Cloud Console](https://cloud.rocket.chat/home).
+* Paste the license code and hit **Apply license**
 
 ### Change Offline License
 
-To change your offline license from the **License** card of the **Info** dashboard,
+To change your offline license from the **License** card of the **Info** dashboard:
 
-Click on the **Change Offline License** at the bottom right of the card.
-
-![](<../../.gitbook/assets/image (654) (1) (2).png>)
-
-A modal is presented prompting you to paste the new license you got from the[ Rocket.Chat Cloud Console](https://cloud.rocket.chat/home).
-
-Clear the old license code and paste the new license code then hit the **Apply license** button.
+* Click on the **Change Offline License** at the bottom right of the card
+* A modal is presented, prompting you to paste the new license you got from the[ Rocket.Chat Cloud Console](https://cloud.rocket.chat/home)
+* Clear the old license code and paste the new license code, then hit **Apply license**
 
 ## Usage Info
 
@@ -93,7 +79,7 @@ More details on usage info can be seen on the [engagement-dashboard.md](engageme
 
 ## Federation Info
 
-[Rocket.Chat's Federation](settings/federation/#introduction) lets you set up communication between Rocket.Chat servers.
+[Rocket.Chat's Federation](settings/federation/#introduction) lets you set up communication between Rocket.Chat workspaces.
 
 **Enabled**: Enables federation on your server.
 
@@ -101,32 +87,30 @@ When enabled, it shows a green checkmark :white\_check\_mark: across the feature
 
 ### Federation Settings
 
-To see more on federation settings, click on **Settings** at the bottom right of the federation card.
+To see more on federation settings:
 
-![](<../../.gitbook/assets/image (666) (1) (1) (1) (1) (1).png>)
-
-A modal is seen, fill the needed information and hit **Next**
-
-![](<../../.gitbook/assets/image (653) (1) (1).png>)
-
+* Click on **Settings** at the bottom right of the federation card
+* A modal appears. Enter the **Domain** and **Discovery Method** and hit **Next**
 * **Domain**: Add the domain name that your server should be linked to.
-* **Discovery Method**: A dropdown to select which discoverability mode to use e.g `DNS` or `HUB`
+* **Discovery Method**: A dropdown to select which discoverability mode to use e.g. `DNS` or `HUB`
 
 {% hint style="info" %}
 We recommend using **DNS**.
 {% endhint %}
 
-Next, continue by adding the given DNS records on your server then follow the given instructions.
+Next, continue by adding the given DNS records on your server and follow the given instructions.
 
-More on federa**t**ion setup can be seen in [this section](settings/federation/).
+{% hint style="info" %}
+More on the federation setup can be seen in [this section](settings/federation/).
 
 We also have a guide on [talking-to-users-from-another-server.md](../rocket.chat-federation/talking-to-users-from-another-server.md "mention").
+{% endhint %}
+
+
 
 ## Download Info
 
-To download info about your server, click the **Download Info** button by the top right of your info panel.
-
-![](<../../.gitbook/assets/2021-11-20\_23-38-23 (1).png>)
+To download info about your server, click the **Download Info** button at the top right of **Info** menu.
 
 A download is prompted with a file named `statistics.json`.
 
@@ -135,5 +119,3 @@ A download is prompted with a file named `statistics.json`.
 Refreshing info on your Rocket.Chat server will prompt for the latest stats to be pulled.
 
 To refresh info, click the **Refresh** button by the top right of your info panel.
-
-![](../../.gitbook/assets/2021-11-20\_23-42-35.png)

@@ -4,7 +4,7 @@ The CSV importer allows you to import your own plain text files. However, it doe
 
 ## The Zip File
 
-The zip file must be a **flat zip**, which means there can **not** be a "root" or "sub" folder in which the items reside in the zip file. The importer looks for the files `channels.csv` and `users.csv` immediately inside the zip and not inside of any folder. If you have any questions about this, please ask in the [#support channel on the Community server](https://open.rocket.chat/channel/support).
+The zip file must be a **flat zip**, which means there can **not** be a "root" or "sub" folder in which the items reside in the zip file. The importer looks for the files `channels.csv` and `users.csv` immediately inside the zip and not inside any folder. If you have any questions about this, please ask in the [#support channel on the Community server](https://open.rocket.chat/channel/support).
 
 The **directmessages** directory is a special directory name. Check the **Direct Messages** section below.
 
@@ -64,11 +64,11 @@ graywolf336,graywolf336@example.com,GrayWolf336
 
 ## Message Files
 
-The message CSV files require a particular format. Each line contains a new message, every piece of information is **required** quotes to surround it, there cannot be any spaces between the commas. The details required are:
+The message CSV files require a particular format. Each line contains a new message, and every piece of information is **required** quotes to surround it, and there cannot be any spaces between the commas. The details required are:
 
 1. Username who sent the message
 2. The timestamp in milliseconds
-3. The message, quotes are highly recommended, especially if the message text contains a comma.
+3. The message and quotes are highly recommended, especially if the message text contains a comma.
 
 ```
 "bradley.hilton","1479162481336","this is a test message"
@@ -82,7 +82,7 @@ Direct Channels / Direct Messages are imported from a special directory named **
 1. Username who sent the message
 2. Username who received the message
 3. The timestamp in milliseconds
-4. The message, quotes are highly recommended, especially if the message text contains a comma.
+4. The message and quotes are highly recommended, especially if the message text contains a comma.
 
 It's **required** to keep conversations in **distinct files;** for example, a conversation between user A and B compose a file (`messages1.csv`), and the conversation between user B and C compose another file (`messages2.csv`).
 
@@ -93,7 +93,7 @@ It's **required** to keep conversations in **distinct files;** for example, a co
 
 ## Importing
 
-Once you have that all set up and zipped, then you can start the import process.
+Once you have that, all set up and zipped; you can start the import process.
 
 1. Go to `https://[your_rocketchat]/admin/import/prepare/csv`
 2. Choose your `.zip` file and wait until Rocket.Chat can read it (it can take a few minutes, depending on the size of the file)
