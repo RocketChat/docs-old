@@ -8,11 +8,11 @@ We recommend using no more than 100 custom emojis. A number higher than that can
 
 ## Add a Custom Emoji
 
-To access this menu,
+To access this menu:
 
 1. Go to **Administration** > **Workspace** > **Custom Emoji**
 2. Click the **+ New** on the top right
-3. &#x20;Enter a name for your custom emoji
+3. Enter a name for your custom emoji
 4. Enter an alias for your custom emoji
 5. Browse and choose an image file in PNG or JPEG format
 6. Hit **Save**

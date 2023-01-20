@@ -437,7 +437,6 @@
   * [Omnichannel Apps](extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/README.md)
     * [SMS](extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/sms.md)
     * [Email Inboxes](extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/email-inboxes/README.md)
-      * [Email Inbox Admin Guide](extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/email-inboxes/email-inbox-admin-guide.md)
       * [Email Inbox Agent Guide](extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/email-inboxes/email-inbox-agent-guide.md)
     * [Telegram App](extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/telegram-app/README.md)
       * [Telegram App Installation](extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/telegram-app/telegram-app-installation.md)

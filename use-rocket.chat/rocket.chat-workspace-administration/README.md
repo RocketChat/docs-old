@@ -28,7 +28,7 @@ Only users with Administrator roles assigned to them can access this menu. If yo
 
 ****[**Apps**](apps.md): Unlock Rocket. Chat's capabilities leveraging marketplace apps
 
-****[**Email Inboxes**](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/email-inboxes/email-inbox-admin-guide.md): Learn to manage Omnichannel email inboxes or email accounts for the email channels.
+****[**Email Inboxes**](broken-reference): Learn to manage Omnichannel email inboxes or email accounts for the email channels.
 
 ****[**Custom Emoji**](custom-emoji.md): Learn to work with custom emojis in your Rocket.Chat workspace.
 
