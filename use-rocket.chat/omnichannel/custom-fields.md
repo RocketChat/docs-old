@@ -22,7 +22,7 @@ To create a new custom field:
   * **Visitor**: If the visitor option is selected, the field will be available as an Omnichannel visitor's property
   * **Room**: When selected, the field will be available against an Omnichannel room.
 * **Visible:** Whether or not to make it visible
-* **Searchable**: This lets you set if searching in the [Omnichannel Contact Center](omnichannel-agents-guides/omnichannel-contact-center/) can be done with the custom field.
+* **Searchable**: This lets you set if searching in the [Omnichannel Contact Center](../omnichannel-agents-guides/omnichannel-contact-center/) can be done with the custom field.
 
 ### Enterprise Edition Omnichannel Custom Fields![](../../.gitbook/assets/2022-01-23\_20-47-25.png)
 

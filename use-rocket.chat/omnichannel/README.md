@@ -10,7 +10,7 @@ The Rocket.Chat [Omnichannel](https://en.wikipedia.org/wiki/Omnichannel) capabil
   * [Instagram Direct](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/instagram-direct/)
   * [Twitter](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/twitter-app/)
   * [Telegram](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/telegram-app/)
-  * [Email](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/email-inboxes/)
+  * [Email](broken-reference)
 
 {% hint style="info" %}
 A very practical use case is using Omnichannel to **acquire** and **retain** customers in a multi-channel environment in order to save valuable potential sales while building relationships, providing an exceptional experience and the possibility to communicate and engage with multiple communication mediums.

@@ -2,11 +2,11 @@
 
 Being an Omnichannel agent, you can log in to the server using your Id and password and land on the home screen, as shown below:
 
-Being an [omnichannel agent](../agents.md), you can handle omnichannel or Livechat conversations. To be an Omnichannel agent, you must have the `Omnichannel Agent` role.
+Being an [omnichannel agent](../omnichannel/agents.md), you can handle omnichannel or Livechat conversations. To be an Omnichannel agent, you must have the `Omnichannel Agent` role.
 
 As an omnichannel agent, your Home screen has additional functions for Omnichannel like below.
 
-![Omnichannel Agent's home pag](<../../../.gitbook/assets/Omnichannel Agent's home page>)
+![Omnichannel Agent's home pag](<../../.gitbook/assets/Omnichannel Agent's home page>)
 
 These icons are responsible for
 
@@ -18,4 +18,4 @@ These icons are responsible for
 
 Omnichannel Agents need to set themselves available to be able to take up conversations. Availability can be set by toggling **ON** or **OFF** the **Available icon**.
 
-![Omnichannel Agent Availability status](<../../../.gitbook/assets/Omnichannel Agent Availability status>)
+![Omnichannel Agent Availability status](<../../.gitbook/assets/Omnichannel Agent Availability status>)

@@ -7,7 +7,7 @@ description: Omnichannel Integration between Rocket.Chat and email.
 As an administrator, you can configure and manage Omnichannel email inboxes or email accounts for the email channels.
 
 {% hint style="warning" %}
-**You must have the** [**Omnichannel feature**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#enable-omnichannel) **enabled as well as have** [**agents**](https://docs.rocket.chat/guides/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/guides/omnichannel/managers) **assigned in order to use this feature.**
+**You must have the** [**Omnichannel**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#enable-omnichannel) **enabled as well as have** [**agents**](https://docs.rocket.chat/guides/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/guides/omnichannel/managers) **assigned in order to use this feature.**
 {% endhint %}
 
 To set up a new email inbox:

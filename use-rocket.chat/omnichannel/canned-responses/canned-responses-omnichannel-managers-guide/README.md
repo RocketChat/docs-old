@@ -36,6 +36,6 @@ You can filter canned responses from the main page by:
 2. **Sharing**: You can filter by sharing.
 3. **Created By**: You can filter by name of the user who created the canned responses.
 
-{% content-ref url="../../omnichannel-agents-guides/omnichannel-chat/canned-responses-agents-guide/" %}
-[canned-responses-agents-guide](../../omnichannel-agents-guides/omnichannel-chat/canned-responses-agents-guide/)
+{% content-ref url="../../../omnichannel-agents-guides/omnichannel-chat/canned-responses-agents-guide/" %}
+[canned-responses-agents-guide](../../../omnichannel-agents-guides/omnichannel-chat/canned-responses-agents-guide/)
 {% endcontent-ref %}

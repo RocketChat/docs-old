@@ -4,7 +4,7 @@ The Omnichannel Contact Center serves as a directory for Omnichannel Agents and 
 
 To access the Contact Center, click the **Contact Center Icon** on the Omnichannel navigation tab and a screen displaying all the records is seen.
 
-![Omnichannel contact center](<../../../../.gitbook/assets/Omnichannel contact center>)
+![Omnichannel contact center](<../../../.gitbook/assets/Omnichannel contact center>)
 
 {% hint style="info" %}
 It allows you to pull up visitor information and chats for purposes like set tags of an old conversation, sending broadcast messages, etc.
@@ -18,9 +18,9 @@ Under the **Contacts** tab, you can see all the contacts you have been serving a
 
 You can search for a contact using their name, phone or email address.
 
-Searching can also be done using [custom field](../../../rocket.chat-workspace-administration/settings/account-settings/custom-fields.md) values. This is only possible if the **Searchable** option of the field was enabled when creating it.
+Searching can also be done using [custom field](../../rocket.chat-workspace-administration/settings/account-settings/custom-fields.md) values. This is only possible if the **Searchable** option of the field was enabled when creating it.
 
-<figure><img src="../../../../.gitbook/assets/Search Omnichannel contact with custom field.png" alt=""><figcaption><p>Search Omnichannel contact with custom field</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Search Omnichannel contact with custom field.png" alt=""><figcaption><p>Search Omnichannel contact with custom field</p></figcaption></figure>
 
 ### View/Edit Omnichannel contact information
 
@@ -49,7 +49,7 @@ You can click to open a chat to view it.
 
 Go to the **Room Information** and click **View full conversation** to open the conversation
 
-![](<../../../../.gitbook/assets/image (336).png>)
+![](<../../../.gitbook/assets/image (336).png>)
 
 Click **Edit** to edit the contact details.
 
@@ -69,4 +69,4 @@ You can search for a call using their Name or phone.
 
 Click on a call to view its information, as shown below:
 
-![Omnichannel call details](<../../../../.gitbook/assets/Omnichannel call details>)
+![Omnichannel call details](<../../../.gitbook/assets/Omnichannel call details>)

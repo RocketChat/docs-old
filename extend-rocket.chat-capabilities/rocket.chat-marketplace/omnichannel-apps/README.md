@@ -17,8 +17,8 @@ Omnichannel apps give consumers a choice to engage with you on their favorite ch
 [sms.md](sms.md)
 {% endcontent-ref %}
 
-{% content-ref url="email-inboxes/" %}
-[email-inboxes](email-inboxes/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="telegram-app/" %}

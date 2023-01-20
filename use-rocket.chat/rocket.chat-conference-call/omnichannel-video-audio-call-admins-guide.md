@@ -9,6 +9,6 @@ If you don't have Conference Call set up on your workspace, please follow the [i
 {% endhint %}
 
 {% hint style="info" %}
-See how to make use of the Omnichannel call as an agent. [livechat-video-audio-call-agents-guide.md](../omnichannel/omnichannel-agents-guides/livechat-video-audio-call-agents-guide.md "mention")
+See how to make use of the Omnichannel call as an agent. [livechat-video-audio-call-agents-guide.md](../omnichannel-agents-guides/livechat-video-audio-call-agents-guide.md "mention")
 {% endhint %}
 
