@@ -572,6 +572,7 @@
   * [Donate](contribute-to-rocket.chat/how-can-i-help/donate.md)
 * [Annual Contribution Programs](contribute-to-rocket.chat/annual-contribution-programs/README.md)
   * [Google Summer of Code](contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/README.md)
+    * [Google Summer of Code 2023](contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2023.md)
     * [Google Summer of Code 2022](contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2022.md)
     * [Google Summer of Code 2021](contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2021.md)
     * [Google Summer of Code 2020](contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2020.md)
