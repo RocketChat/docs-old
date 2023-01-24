@@ -11,6 +11,10 @@ Rocket.Chat offers a series of deployment methods, and making a choice on which 
 * **Deployment Methods**: Docker, Snap, Manual, Ansible, etc
 * **Deployment Platforms**: AWS, Digital Ocean, GCP, etc
 
+{% hint style="danger" %}
+The Rocket.Chat architecture does not support serverless deployment models such as AWS Fargate.&#x20;
+{% endhint %}
+
 ### Considerations <a href="#considerations" id="considerations"></a>
 
 There are a few characteristics to be considered before deploying Rocket.Chat. Let us take a look at these points for better evaluation and scoring.

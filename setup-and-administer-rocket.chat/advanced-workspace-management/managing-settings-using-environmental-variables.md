@@ -1,4 +1,4 @@
-# Managing Settings Using Environment Variables
+# Managing Settings Using Environmental Variables
 
 You can set any settings value via an environment variable when starting your server. You will only have to know the setting id and what type of setting it is (boolean, string, integer, etc...).
 

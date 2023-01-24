@@ -4,7 +4,9 @@ description: Community Supported Installation Methods
 
 # Nonofficial Methods
 
+{% hint style="warning" %}
 The installation methods under this section are not officially supported by Rocket.Chat, so we can't assure that these are working or always up to date.
+{% endhint %}
 
 As we know, there are people who use these methods, so we will leave them open for contributions from the community.
 

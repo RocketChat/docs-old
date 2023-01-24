@@ -12,7 +12,7 @@ Create a client in Keycloak.
 
 The following image shows the minimal configurations needed to setup Keycloak as an Identity Provider to Rocket.Chat.
 
-![](../../../../../../.gitbook/assets/client\_configurations.png)
+![](../../../../.gitbook/assets/client\_configurations.png)
 
 (In the example above we are using http://locahost:3000/\* as the Redirect URI change it to the IP and PORT of your rocketchat instance.)
 
@@ -49,7 +49,7 @@ If you don't have an SMTP server set make sure to disable Two-Factor Authenticat
 
 Now logout from Rocket.Chat to view the keycloak based login option visible in the login page.
 
-![](../../../../../../.gitbook/assets/keycloak\_federation.png)
+![](../../../../.gitbook/assets/keycloak\_federation.png)
 
 ## Mapping non-federated keycloak user roles to Rocket.Chat roles
 
@@ -63,7 +63,7 @@ First we add the required roles to the client.
 
 To create a role, click **Add Role**, enter in the name and description of the role, and then click **Save**.
 
-![Add Role](../../../../../../.gitbook/assets/30052022\_Addnewrole.jpg)
+![Add Role](../../../../.gitbook/assets/30052022\_Addnewrole.jpg)
 
 then we have to add a mapper entry, that maps our client roles to OpenId, passing the value to Rocket.Chat.
 
@@ -71,7 +71,7 @@ then we have to add a mapper entry, that maps our client roles to OpenId, passin
 
 To view all the client roles you have created, click **Roles** > **View all roles**
 
-![View client roles](<../../../../../../.gitbook/assets/Keyclock\_Client Roles\_31052022.jpg>)
+![View client roles](<../../../../.gitbook/assets/Keyclock\_Client Roles\_31052022.jpg>)
 
 **Composite Roles**
 
@@ -79,16 +79,16 @@ A _composite role_ is a role that can be associated with other roles.
 
 To define composite roles, click **Role** and then navigate to **Composite** **Roles.**
 
-![Composite Roles](../../../../../../.gitbook/assets/keycloak\_CompositeRoles\_31052022.jpg)
+![Composite Roles](../../../../.gitbook/assets/keycloak\_CompositeRoles\_31052022.jpg)
 
 Now in order to grant the Rocket.Chat role to a user, we have to modify the users Role Mappings.
 
 **Create Protocol Mapper**
 
-![Create Protocol Mapper](../../../../../../.gitbook/assets/Createprotocalmapping.jpg)
+![Create Protocol Mapper](../../../../.gitbook/assets/Createprotocalmapping.jpg)
 
 **Mappers**
 
-![Mappers](../../../../../../.gitbook/assets/mappersrc.jpg)
+![Mappers](../../../../.gitbook/assets/mappersrc.jpg)
 
 The roles are only synced on first login, and not being refreshed on each login. Please see the [bug report](https://github.com/RocketChat/Rocket.Chat/issues/15225) for current state.

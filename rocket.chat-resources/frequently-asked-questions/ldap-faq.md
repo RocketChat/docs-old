@@ -44,7 +44,7 @@ The ability to integrate with your organization’s user directory service is im
 
 Community users will be able to connect an LDAP service used by their organization to and sync user email, name, and username; use the fallback option and encrypted settings. Basic SAML sync options, and Oauth for all providers (Apple, Dolphin, Drupal, Facebook, GitHub, GitHub, Enterprise, GitLab, Google, Linkedin, Meteor, Nextcloud, Tokenpass, Twitter, WordPress) will continue available in Community Edition.\
 \
-[View full functionalities](../../setup-and-configure-rocket.chat/advanced-workspace-management/identity-management-ee-vs-ce.md)
+[View full functionalities](../../setup-and-administer-rocket.chat/advanced-workspace-management/identity-management-ee-vs-ce.md)
 
 </details>
 

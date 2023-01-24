@@ -2,7 +2,7 @@
 
 ![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (26).jpg>)
 
-Instead of sending the message content through a push gateway: Apple and Google, if you are running [Enterprise edition ](../../../setup-and-configure-rocket.chat/enterprise-edition-trial/)the Secured Push Notification sends just the ID of the message.
+Instead of sending the message content through a push gateway: Apple and Google, if you are running [Enterprise edition ](../../../setup-and-administer-rocket.chat/enterprise-edition-trial/)the Secured Push Notification sends just the ID of the message.
 
 Once the ID reaches the user’s device, the message is retrieved from Rocket.Chat server and the notification is created.
 

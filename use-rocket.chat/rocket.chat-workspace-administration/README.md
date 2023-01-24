@@ -48,4 +48,4 @@ Only users with Administrator roles assigned to them can access this menu. If yo
 
 ****[**Device management**](device-management.md): Manage the devices linked to your workspace.
 
-If the information in this section doesn't solve your problem, look at these [other resources](../../setup-and-configure-rocket.chat/advanced-workspace-management/) to find something that meets your needs. Alternatively, you can [get help](../../rocket.chat-resources/getting-support/) from our community or enterprise support services.
+If the information in this section doesn't solve your problem, look at these [other resources](../../setup-and-administer-rocket.chat/advanced-workspace-management/) to find something that meets your needs. Alternatively, you can [get help](../../rocket.chat-resources/getting-support/) from our community or enterprise support services.
