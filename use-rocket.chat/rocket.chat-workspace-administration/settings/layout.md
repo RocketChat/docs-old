@@ -24,9 +24,9 @@ A list of Rocket.Chat's pre-defined color variables can be found on \*\*\*\* [**
 
 Colors can be set using existing **Expressions** or **Color** by specifying it from the color picker provided.
 
-![](<../../../../.gitbook/assets/image (637) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (637) (1) (1) (1) (1).png>)
 
-To learn more about setting colors, see the \*\*\*\* [**colors section of the Basic White-labeling guide**](../../../../setup-and-administer-rocket.chat/basic-white-labeling.md#colors).
+To learn more about setting colors, see the \*\*\*\* [**colors section of the Basic White-labeling guide**](../../../setup-and-configure-rocket.chat/basic-white-labeling.md#colors).
 
 ## Content
 
@@ -34,23 +34,23 @@ The section allows you to change the HTML content of certain screens.
 
 * **Home Title:** The title on the header of the first screen that your users will see when they log in.
 
-![](<../../../../.gitbook/assets/image (661) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (661) (1) (1) (1) (1) (1) (1).png>)
 
 * **Show "Home Button"**: When enabled, the Home button will be shown on your server's navbar.
 
-![](<../../../../.gitbook/assets/image (650) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (650) (1) (1) (1) (1) (1).png>)
 
 * **Home Body:** The content of the first screen that your users will see when logging in.
 
-![](<../../../../.gitbook/assets/image (631).png>)
+![](<../../../.gitbook/assets/image (631).png>)
 
 * **Login Terms:** Specifies the terms on which users are to accept before login in.
 * **Terms of Service:** Here, you can set the terms of service of your server. You can also redirect to YOUR-SERVER-URL/terms-of-service. This is shown by default on the links below your login page.
 * **Privacy Policy:** Here you can set the privacy policy of your server. Can also be accessed via YOUR-SERVER-URL/privacy-policy. This is shown by default on the links below your login page.
 * **Legal Notice:** By default this screen is accessed on the links under the login page, here you can set the legal notice of your server. Can also be accessed via YOUR-SERVER-URL/legal-notice.
-* **Side navigation footer:** This is the logo or text on the bottom left of the sidebar. We recommend using the images set on your [Assets](../../../../setup-and-administer-rocket.chat/basic-white-labeling.md#assets) for better consistency.
+* **Side navigation footer:** This is the logo or text on the bottom left of the sidebar. We recommend using the images set on your [Assets](../../../setup-and-configure-rocket.chat/basic-white-labeling.md#assets) for better consistency.
 
-![](<../../../../.gitbook/assets/image (670) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (670) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ## Custom CSS
 
@@ -66,7 +66,7 @@ A simple CSS styling to the wrapper class like this will transform your server i
 }
 ```
 
-![](<../../../../.gitbook/assets/image (634) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (634) (1) (1) (1).png>)
 
 ## Custom Scripts
 
@@ -86,7 +86,7 @@ if(window.location.pathname == '/home'){
 }
 ```
 
-![](<../../../../.gitbook/assets/image (645) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (645) (1) (1) (1) (1).png>)
 
 ## Fonts
 
@@ -96,7 +96,7 @@ Here, you set the fonts to be used on your server.
 
 ## Old Colors
 
-This section has a list of color swatches used in older versions of RocketChat. They can be edited and customized still. Learn more about color properties and what they affect in [this guide](../../../../setup-and-administer-rocket.chat/basic-white-labeling.md#colors).
+This section has a list of color swatches used in older versions of RocketChat. They can be edited and customized still. Learn more about color properties and what they affect in [this guide](../../../setup-and-configure-rocket.chat/basic-white-labeling.md#colors).
 
 ## Old Colors(minor)
 
@@ -106,7 +106,7 @@ A list of variable names and some old minor colors used before. See the color se
 
 * **Display Roles:** Toggles the display of user roles shown beside the usernames on messages.
 
-![](<../../../../.gitbook/assets/image (663) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (663) (1) (1) (1) (1) (1) (1) (1).png>)
 
 * **Group Channels By Type:** Enabling this will separate the channels by category (**Channel**, **Private Room**, **Direct Message** or **Discussion**) on the left sidebar.
 * **Use Full Name Initials to Generate Default Avatar:** This will make so the default avatars are generated using the person's Full Name instead of Username. E.g. By default the user `blue.ducks` with the name `Richards Nate` will have an avatar with the letters `BD`by default but if this setting is active, it will be `RN`.

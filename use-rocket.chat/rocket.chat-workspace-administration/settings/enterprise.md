@@ -4,7 +4,7 @@ description: Manually update your Enterprise license
 
 # Enterprise
 
-Use this setting to manually update your enterprise license. See this section on how to get [Enterprise License](../../../../setup-and-administer-rocket.chat/enterprise-edition-trial/).
+Use this setting to manually update your enterprise license. See this section on how to get [Enterprise License](../../../setup-and-configure-rocket.chat/enterprise-edition-trial/).
 
 {% hint style="info" %}
 If your workspace is registered and the license is provided by Rocket.Chat Cloud you don't need to manually update the license here.

@@ -16,8 +16,8 @@ Check out the subpages for information on how to configure LDAP / AD.
 
 Looking for the list of features and which ones are community or enterprise? Check the Identity Management page below.
 
-{% content-ref url="../../../../setup-and-administer-rocket.chat/advanced-workspace-management/identity-management-ee-vs-ce.md" %}
-[identity-management-ee-vs-ce.md](../../../../setup-and-administer-rocket.chat/advanced-workspace-management/identity-management-ee-vs-ce.md)
+{% content-ref url="../../../../setup-and-configure-rocket.chat/advanced-workspace-management/identity-management-ee-vs-ce.md" %}
+[identity-management-ee-vs-ce.md](../../../../setup-and-configure-rocket.chat/advanced-workspace-management/identity-management-ee-vs-ce.md)
 {% endcontent-ref %}
 
 On the LDAP settings page, you can

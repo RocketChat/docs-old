@@ -41,16 +41,16 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 [prepare-for-your-rocket.chat-deployment](deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/)
 {% endcontent-ref %}
 
-{% content-ref url="setup-and-administer-rocket.chat/accessing-your-workspace/creating-the-first-administrator.md" %}
-[creating-the-first-administrator.md](setup-and-administer-rocket.chat/accessing-your-workspace/creating-the-first-administrator.md)
+{% content-ref url="setup-and-configure-rocket.chat/accessing-your-workspace/creating-the-first-administrator.md" %}
+[creating-the-first-administrator.md](setup-and-configure-rocket.chat/accessing-your-workspace/creating-the-first-administrator.md)
 {% endcontent-ref %}
 
 {% content-ref url="use-rocket.chat/user-guides/connecting-to-a-server.md" %}
 [connecting-to-a-server.md](use-rocket.chat/user-guides/connecting-to-a-server.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="use-rocket.chat/rocket.chat-workspace-administration/" %}
+[rocket.chat-workspace-administration](use-rocket.chat/rocket.chat-workspace-administration/)
 {% endcontent-ref %}
 
 {% content-ref url="use-rocket.chat/user-guides/user-panel/" %}
@@ -93,8 +93,8 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 [message-auditing](use-rocket.chat/message-auditing/)
 {% endcontent-ref %}
 
-{% content-ref url="setup-and-administer-rocket.chat/advanced-workspace-management/identity-management-ee-vs-ce.md" %}
-[identity-management-ee-vs-ce.md](setup-and-administer-rocket.chat/advanced-workspace-management/identity-management-ee-vs-ce.md)
+{% content-ref url="setup-and-configure-rocket.chat/advanced-workspace-management/identity-management-ee-vs-ce.md" %}
+[identity-management-ee-vs-ce.md](setup-and-configure-rocket.chat/advanced-workspace-management/identity-management-ee-vs-ce.md)
 {% endcontent-ref %}
 
 {% content-ref url="use-rocket.chat/rocket.chat-workspace-administration/settings/federation/" %}

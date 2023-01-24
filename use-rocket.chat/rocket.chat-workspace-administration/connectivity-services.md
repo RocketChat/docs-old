@@ -55,7 +55,7 @@ If you are an enterprise customer (self-hosted Enterprise or Pro-licensed), we c
 2. **No Internet Access**: Special cases where Rocket.Chat workspace is air-gapped.
 
 {% hint style="info" %}
-See the guide on how to register an offline workspace.[air-gapped-workspace-configuration.md](../../setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/air-gapped-workspace-configuration.md "mention")
+See the guide on how to register an offline workspace.[air-gapped-workspace-configuration.md](../../setup-and-configure-rocket.chat/rocket.chat-air-gapped-deployment/air-gapped-workspace-configuration.md "mention")
 {% endhint %}
 
 {% hint style="info" %}
