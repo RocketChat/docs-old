@@ -37,6 +37,17 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 This list is being updated regularly, some projects without assigned mentors may be removed.
 
+### Chatbot Engine Connector: OpenAI  ChatGPT
+
+**Mentor(s):**  Duda Nogueira
+
+**Description:** OpenAI is capturing the world's imagination with its launch of ChatGPT. This project extends a existing community-contributed connector to facilitate deployment of ChatGPT chatbots and Omnichannel bots. Focus here will include - better rich UI/UX / interaction support for bots and ability to run multiple instances of multiple bots.\
+**Desired Skills:** Javascript and Typescript development. Keen interest in Bots and Chatbots.
+
+**Goals/Deliverables:** A Rocket.Chat App as a ChatGPT connector. A couple of example chatbots (running in a channel, and running in omnichannel) plus documentation.
+
+**Project Duration:** 175 hours. (Medium)
+
 ### **Playground for UIKit ReactJS components**
 
 **Mentors:** Martin Schoeler, Guilherme Gazzo
