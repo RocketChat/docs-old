@@ -29,8 +29,9 @@ Interested contributors are also encouraged to interact directly with our team a
 [https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
 
 Those who prefers forums can post messages on our GSoC forum channel (although as the leading open source team chat project we prefer you use Rocket.Chat channels above to reach us instantly) :\
-\
-[https://forums.rocket.chat/t/google-summer-of-code-gsoc/118](https://forums.rocket.chat/t/google-summer-of-code-gsoc/118)
+
+
+[https://forums.rocket.chat/c/gsoc/gsoc2023/76](https://forums.rocket.chat/c/gsoc/gsoc2023/76)
 
 ## Project Ideas
 
