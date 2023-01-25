@@ -14,7 +14,7 @@ These requirements vary significantly with:
 
 * Number of concurrently active users
 * Number of actually connected devices per user
-* Activities of the users - solely text-based messaging take minimal resources; while file sharing and jpg uploads will consume more resources, this is because a set of computations has to be done on these files.
+* Activities of the users - solely text-based messaging takes minimal resources; while file sharing and jpg uploads will consume more resources, this is because a set of computations has to be done on these files.
 * Bot or integration activity level; different bots and/or integrations have different requirements
 
 ## Bare-metal Server
@@ -24,7 +24,6 @@ The following are sized for the minimal cost deployment unit available for bare-
 * Intel Xeon E5-2603 v4 (or equivalent) \[1.7 GHz, 6 cores, $213 USD]
 * 4 GB RAM
 * 500 GB hard disk or larger
-* Ubuntu 18.04 LTS (with or without docker)
 
 The above minimal hardware configuration is ideal for corporate or groups with up to 1,000 users, up to 300 concurrently active, and moderate levels of mixed uploads, sharing, and bot activities.
 
