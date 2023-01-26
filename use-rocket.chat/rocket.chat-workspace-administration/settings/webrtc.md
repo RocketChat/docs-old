@@ -1,6 +1,6 @@
 ---
 description: >-
-  Broadcast audio and/or video material, as well as transmit arbitrary data
+  Broadcast audio, and video material, as well as transmit arbitrary data
   between browsers without the need for a middleman
 ---
 
