@@ -384,6 +384,7 @@
     * [Invoices](use-rocket.chat/cloud-account/manage-your-cloud-account/invoices.md)
     * [Payment Methods](use-rocket.chat/cloud-account/manage-your-cloud-account/payment-methods.md)
     * [Support](use-rocket.chat/cloud-account/manage-your-cloud-account/support.md)
+    * [Security](use-rocket.chat/cloud-account/manage-your-cloud-account/security.md)
     * [Contact Sales](use-rocket.chat/cloud-account/manage-your-cloud-account/contact-sales.md)
   * [Cloud Account Setup Wizard](use-rocket.chat/cloud-account/cloud-account-setup-wizard.md)
 * [Rocket.Chat Voice Channel](use-rocket.chat/rocket.chat-voice-channel/README.md)
