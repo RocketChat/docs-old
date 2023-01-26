@@ -380,7 +380,7 @@
       * [Cancel Workspace](use-rocket.chat/cloud-account/manage-your-cloud-account/workspaces/cancel-workspace.md)
       * [Update Workspace](use-rocket.chat/cloud-account/manage-your-cloud-account/workspaces/upgrade-update-workspace.md)
       * [Workspace Information](use-rocket.chat/cloud-account/manage-your-cloud-account/workspaces/workspace-details.md)
-      * [Upgrade/Downgrade your Plan](use-rocket.chat/cloud-account/manage-your-cloud-account/workspaces/upgrade-downgrade-your-plan.md)
+      * [Change Plan](use-rocket.chat/cloud-account/manage-your-cloud-account/workspaces/change-plan.md)
     * [Invoices](use-rocket.chat/cloud-account/manage-your-cloud-account/invoices.md)
     * [Payment Methods](use-rocket.chat/cloud-account/manage-your-cloud-account/payment-methods.md)
     * [Support](use-rocket.chat/cloud-account/manage-your-cloud-account/support.md)
