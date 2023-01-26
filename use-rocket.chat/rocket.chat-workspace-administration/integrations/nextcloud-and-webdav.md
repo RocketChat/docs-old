@@ -14,35 +14,20 @@ Once the integration has been enabled by the admin, any user will be able to lin
 
 Adding a new Nextcloud server requires you to have available the;
 
-* **WebDAV url**: The WebDAV url used for the connection
+* **WebDAV URL**: The WebDAV URL used for the connection
 * **Username**: Your Nextcloud username
 * **Password**: Your Nextcloud password
 
-To get your Nextcloud WebDAV url, **Files** section of your Nextcloud server then **Settings** at the bottom left
+To get your Nextcloud WebDAV URL:
 
-![](<../../../.gitbook/assets/image (670).png>)
-
-You will see a WebDAV field with the url that looks like this `https://EXAMPLE.COM/remote.php/dav/files/USERNAME/` Copy the url and proceed
-
-![](<../../../.gitbook/assets/image (658) (1).png>)
-
-* Back on your Rocket.Chat interface, **click on the big plus icon** by the right of the message box
-
-![](<../../../.gitbook/assets/image (690) (1).png>)
-
-* Then select **Add Server** on the popup that shows to add a new WebDAV server
-
-![](<../../../.gitbook/assets/image (647) (1) (1).png>)
-
-* Fill in the information on the dialogue that appears, including the Nextcloud WebDAV url we copied earlier, Nextcloud username and Nextcloud password then **Add new WebDAV Account**
-
-![](<../../../.gitbook/assets/image (670) (1).png>)
-
-* When that is successful, refresh your server
-* To access Nextcloud file in RocketChat, click on the plus icon :heavy\_plus\_sign: again and this time, you will see the server you just added.
-
-![](<../../../.gitbook/assets/image (677) (1) (1) (1).png>)
+* navigate to the **Files** section of your Nextcloud server,&#x20;
+* Click **Settings** at the bottom left, and you will see a WebDAV field with the URL that looks like this `https://EXAMPLE.COM/remote.php/dav/files/USERNAME/`&#x20;
+* Copy the URL and proceed
+* Back on your Rocket.Chat workspace, navigate to the :heavy\_plus\_sign:  button on the right side of your message composer inside any chat or room
+* Click :heavy\_plus\_sign: **Add Server**
+* Fill in the information on the dialogue that appears, including the Nextcloud WebDAV URL you copied earlier, Nextcloud username, and Nextcloud password
+* Click **Add new WebDAV Account**
+* Refresh your server
+* Click the :heavy\_plus\_sign: button on the right side of your message composer inside any chat or room again, and this time, you will see the server you just added
 
 From here, you have the ability to access and share your Nextcloud files on Rocket.Chat
-
-![](<../../../.gitbook/assets/image (672).png>)
