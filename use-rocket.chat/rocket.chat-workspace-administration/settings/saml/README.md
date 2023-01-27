@@ -6,13 +6,15 @@ description: >-
 
 # SAML
 
-SAML(Security Assertion Markup Language) is an XML-based format and protocol for exchanging authentication and authorization data between parties. This standard of authentication has significant advantages over logging in using a username/password:
+SAML(Security Assertion Markup Language) is an XML-based format and protocol for exchanging authentication and authorization data between parties.&#x20;
+
+This standard of authentication has significant advantages over logging in using a username/password:
 
 * No need to type in credentials
 * No need to remember and renew passwords
 * No weak passwords
 
-To access this setting, go to **Administration** > **Workspace** > **Settings** > **SAML**
+To access this setting, navigate to **Administration** > **Workspace** > **Settings** > **SAML**
 
 {% content-ref url="rocket.chat-server-settings.md" %}
 [rocket.chat-server-settings.md](rocket.chat-server-settings.md)
