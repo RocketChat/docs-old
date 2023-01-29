@@ -37,7 +37,7 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 This list is being updated regularly, some projects without assigned mentors may be removed.
 
-## Guided RC Code Walkthrough and Tutorial&#x20;
+### Guided RC Code Walkthrough and Tutorial&#x20;
 
 **Mentor(s):**   Kevin Aleman
 
@@ -61,17 +61,17 @@ Plus any other ideas you may have.
 
 **Project Duration:** 175 hours. (Medium)
 
-### **Playground for UIKit ReactJS components**
+### User Actions Audit Center
 
-**Mentors:** Martin Schoeler, Guilherme Gazzo
+**Mentors:** TBD
 
-**Description:** Develop an application/playground that allows developers to test UIKit ReactJS components and Interactions. Should allow developers to generate code used by Rocket.Chat apps and edit the content to preview the result
+**Description:** The goal of this project is to make a service (Back end) capable of tracking user actions (role change, permission change, setting change, critical endpoint calls, etc) and then list them to admins. This will serve as a way of auditability of actions, reducing support friction (since this will make changes to system easier to track) and improve quality. Ideally, an Admin section will be shown with the list of actions, which would be filtered by type/user/level. Setting should also be in place to see if actions should be tracked or not and which actions to track
 
-**Desirable Skills:** JavaScript/TypeScript, ReactJS
+**Desirable Skills:** Advanced Typescript and mid level React
 
-**Goal/Deliverable:** An on-line web app that features a construction playground for Rocket.Chat's UIKit ReactJS components. Plus code and preview generators.
+**Goal/Deliverable:**  A working User Actions Audit Service.&#x20;
 
-**Project Duration:** 350 hours. (Large)
+**Project Duration:** 175 hours. (Medium)
 
 
 
