@@ -37,14 +37,27 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 This list is being updated regularly, some projects without assigned mentors may be removed.
 
-### Chatbot Engine Connector: OpenAI  ChatGPT
+## Guided RC Code Walkthrough and Tutorial&#x20;
 
-**Mentor(s):**  Duda Nogueira
+**Mentor(s):**   Kevin Aleman
 
-**Description:** OpenAI is capturing the world's imagination with its launch of ChatGPT. This project extends a existing community-contributed connector to facilitate deployment of ChatGPT chatbots and Omnichannel bots. Focus here will include - better rich UI/UX / interaction support for bots and ability to run multiple instances of multiple bots.\
-**Desired Skills:** Javascript and Typescript development. Keen interest in Bots and Chatbots.
+**Description:** \
+Most Rocket.Chat developers uses VSCode when studying our massive production code base, and when writing new code.   VSCode is the best environment for conducting interactive tutorial and code walkthroughs.  The CodeTour extension available in VSCode can be used to create such walkthrough and tutorials.  This project involves the development of a set of guided tutorials using CodeTour that will help new developers to understand how to perform multiple actions. Paths to be documented will go from this areas:
 
-**Goals/Deliverables:** A Rocket.Chat App as a ChatGPT connector. A couple of example chatbots (running in a channel, and running in omnichannel) plus documentation.
+* How to create an endpoint
+* How to add a new service
+* How to create a DB model
+* How to use DB models
+* How services interact between them
+* How licenses are verified
+* How to build a lib
+* How to navigate monorepo (where is everything, how's imported, etc)
+
+Plus any other ideas you may have.
+
+**Desired Skills:** JNodeJS, MongoDB
+
+**Goals/Deliverables:** A set of guided tours from the topics described above
 
 **Project Duration:** 175 hours. (Medium)
 
