@@ -54,7 +54,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 ****[**Mobile**](mobile.md): Check how you can help users using Rocket.Chat mobile app to save files to the device storage while enforcing biometrics, pin, or Face ID to gain access to your workspace.
 
-****[**OAuth**](oauth/): Under OAuth, you can ensure that users of your workspace can connect to it using third-party authentication providers such as Facebook, GitHub, Google, Apple, and more.
+****[**OAuth**](oauth/): Ensure that users of your workspace can connect to it using third-party authentication providers such as Facebook, GitHub, Google, Apple, and more.
 
 ****[**Omnichannel**](omnichannel-admins-guide/): Explore the Omnichannel option to talk to your clients from Rocket.Chat without the need to install the messaging apps they are using, such as WhatsApp.&#x20;
 
@@ -76,7 +76,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 ****[**Smarsh**](smarsh.md): Become familiar with setting up email communication preservation.
 
-****[**SMS**](sms.md): Discover how to enable, choose and configure any SMS gateway providers, which are Twilio, Mobex, or Vortelesys, to use for your workspace.
+****[**SMS**](sms.md): Discover how to enable, choose, and configure any SMS gateway providers, which are Twilio, Mobex, or Vortelesys, to use for your workspace.
 
 ****[**Threads**](threads.md): You can find out how to enable message threads on specific conversations in your workspace.
 

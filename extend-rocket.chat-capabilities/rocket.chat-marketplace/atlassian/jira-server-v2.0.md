@@ -59,7 +59,7 @@ Now we have to subscribe your channel to specific projects, so it starts receivi
 
 Go to the channel/private group that you want to receive notifications on and run the Jira slash command `/jira-server`. You will be prompted with the _Room Integration_ dialog:
 
-![Room Integration dialog](<../../../.gitbook/assets/image (12).png>)
+![Room Integration dialog](<../../../.gitbook/assets/image (12) (1).png>)
 
 You can click the "Subscribe" button to subscribe to any project you wish.
 
@@ -67,7 +67,7 @@ You can click the "Subscribe" button to subscribe to any project you wish.
 
 If you want to manage your channel/private group integration, you can use the menu in the _Room Integration_ dialog to do so:
 
-![Room Integration dialog menu](<../../../.gitbook/assets/image (14).png>)
+![Room Integration dialog menu](<../../../.gitbook/assets/image (14) (1).png>)
 
 * **Manage Connections** - Takes you to the [_Room Preferences_ dialog above](jira-server-v2.0.md#configuration). From there you can manage to which servers your channel/private group is connected, add new servers, etc.
 * **Reset Connections** - Will reset all connected servers and projects from this room. Use this if you no longer want to receive notifications on your channel/private group.
