@@ -32,7 +32,7 @@ Only users with Administrator roles assigned to them can access this menu. If yo
 
 ****[**Custom Emoji**](custom-emoji.md): Learn to work with custom emojis in your Rocket.Chat workspace.
 
-****[**Integrations**](integrations/): Learn how to expand your communication possibilities using a vast range of native integrations. &#x20;
+****[**Integrations**](integrations/): Integrate tools and services to ease everyday workflows.&#x20;
 
 ****[**OAuth Applications**](oauth-applications.md): Learn to set up custom applications to be used for Open Authentication.
 
