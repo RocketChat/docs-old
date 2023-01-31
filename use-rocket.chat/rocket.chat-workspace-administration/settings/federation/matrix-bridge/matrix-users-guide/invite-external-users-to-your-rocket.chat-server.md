@@ -8,7 +8,7 @@ Whenever you want to invite someone from an external server, you must use the fo
 @username:server.com
 ```
 
-<figure><img src="../../../../../../.gitbook/assets/Screenshot 2022-12-07 124356.png" alt=""><figcaption><p>Invite external users syntax</p></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/Screenshot 2022-12-07 124356.png" alt=""><figcaption><p>Invite external users syntax</p></figcaption></figure>
 
 Which is represented by the following parts:
 

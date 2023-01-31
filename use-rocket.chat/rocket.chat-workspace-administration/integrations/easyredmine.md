@@ -7,3 +7,4 @@ Full documentation/installation instruction:
 [https://github.com/wirdgroup/rocketchat-easyredmine](https://github.com/wirdgroup/rocketchat-easyredmine)
 
 Thanks to [**WIRDGroup**](https://www.wirdgroup.com)
+

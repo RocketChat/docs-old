@@ -44,12 +44,38 @@ To launch your workspace, it is required to do a simple 4-step setup.
 * **Register Your Server**: Next you are asked to register your workspace to the Rocket.Chat Cloud or proceed with a standalone server.
 
 {% hint style="success" %}
-We recommend you register your workspace which will automatically create a [Rocket.Chat Cloud Account](broken-reference) for you and you can enjoy all it's benefits like;
+We recommend you register your workspace which will automatically create a [Rocket.Chat Cloud Account](broken-reference) for you and you can enjoy all its benefits like;
 
 * Mobile push notifications
-* \_\_Integration with external providers (WhatsApp, Facebook, Instagram, Telegram, Twitter)
-* \_\_Access to marketplace apps
+* Omnichannel: Communicate with external providers (WhatsApp, Facebook, Instagram, Telegram, Twitter)
+* Access to marketplace apps
 {% endhint %}
+
+<details>
+
+<summary>Information collected for Registered workspaces</summary>
+
+If you choose to register your workspace, Rocket.Chat collects the following information about your workspace
+
+* The **workspace Id** to help identify the workspace.
+* The organization's **address.**
+* **Contact name** for the workspace.
+* **Contact email** for the workspace.
+* The number of **seats** for the workspace.
+* The **account name.**
+* The **organization type**.&#x20;
+* What **industry** the organization belongs to.
+* The **size of the organization**.&#x20;
+* The **country** of the organization.
+* **Language** set for the workspace.&#x20;
+* **Website** of the organization.
+* **Site name** of the workspace.
+* The **workspace type**.
+* The **deployment method** used for the workspace.
+* The **deployment platform.**
+* The **version of Rocket.Chat** deployed.
+
+</details>
 
 ![](<../../.gitbook/assets/image (650).png>)
 
