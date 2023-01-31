@@ -59,7 +59,7 @@ Now we have to subscribe your channel to specific projects, so it starts receivi
 
 Go to the channel/private group that you want to receive notifications on and run the Jira slash command `/jira-server`. You will be prompted with the _Room Integration_ dialog:
 
-![Room Integration dialog](<../../../.gitbook/assets/image (12) (1).png>)
+![Room Integration dialog](<../../../.gitbook/assets/image (12).png>)
 
 You can click the "Subscribe" button to subscribe to any project you wish.
 
