@@ -1,7 +1,7 @@
 ---
 description: >-
-  Security Assertion Markup Language used for exchanging authentication and
-  authorization data
+  Create role mapping from user groups by selecting any field you want to sync
+  with Rocket.Chat
 ---
 
 # SAML

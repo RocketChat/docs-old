@@ -1,38 +1,16 @@
----
-description: >-
-  List of available log in methods and features and their differentiation for
-  Enterprise and Community editions.
----
-
 # Identity Management (EE vs CE)
 
-## **LDAP / AD** <a href="#ldap3" id="ldap3"></a>
+Ensuring only the right individuals have appropriate access to your workspace and every conversation that goes on within it is critical. Rocket.Chat makes it possible for you to connect with your Active Directory application or Identity Management System through LDAP, OAuth, and SAML.&#x20;
 
-### **Community**
+## **LDAP / AD:**  <a href="#ldap3" id="ldap3"></a>
 
-* **Login**
-  * **Login Fallback:** This option allows regular password users to log in on Rocket.Chat. It will let LDAP users continue using Rocket.Chat if the LDAP server is down.
-  * **Merge with existing Rocket.Chat users:** Detect if the LDAP user is already registered on Rocket.Chat and use the same user for both authentication types
-  * **Filter what LDAP users can log in:** There are two settings to manage this: Search Filter and Group Filter
-* **Encryptions:** The encryption method used to secure communications to the LDAP server
-* **Basic User Data Sync:** Load information from the LDAP user to Rocket.Chat
-  * **Load Basic User Data from LDAP:** Email, name, and username
-  * **Load Avatars:** Load the user's avatar from an LDAP attribute
+Leverage advanced settings such as background sync, roles mapping from groups, auto-logout, and advanced user data sync
 
-### Enterprise
-
-* **Advanced User Data Sync:** Load information from the LDAP user to Rocket.Chat
-  * **Load Custom User Data from LDAP:** Load any LDAP attribute to a custom field on Rocket.Chat
-  * **Advanced-Data Sync:** Perform additional operations based on data from LDAP
-  * **Roles Mapping from Groups:** You can map any LDAP group to a Rocket.Chat role
-  * **Auto-Subscribe to Channels:** You can map any LDAP group to a Rocket.Chat channel
-  * **Auto-Unsubscribe from Channels:** You can also remove users from Rocket.Chat channels on LDAP
-  * **Auto-Join Teams:** You can map any LDAP group to a Rocket.Chat team
-  * **Auto-Leave Teams:** You can also remove users from Rocket.Chat teams on LDAP
-* **Background Sync:** Periodic background sync
-  * **Incremental Sync:** Give the option to use Incremental Sync (will be implemented in a future release)
-  * **Sync User Active State:** Determine if users should be enabled or disabled on Rocket.Chat based on the LDAP status
-  * **Auto logout:** Auto logout user on next sync when it's removed/disabled on LDAP group
+| Community                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Enterprise                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>Login</strong></p><p><strong></strong></p><p><strong>Login Fallback:</strong> This option allows regular password users to log in on Rocket.Chat. It will let LDAP users continue using Rocket.Chat if the LDAP server is down.</p><p><strong>Merge with existing Rocket.Chat users:</strong> Detect if the LDAP user is already registered on Rocket.Chat and use the same user for both authentication types.</p><p><strong>Filter what LDAP users can log in:</strong> There are two settings to manage this: Search Filter and Group Filter.</p><p></p><p><strong></strong></p><p><strong></strong></p><p></p><p><strong></strong></p><p><strong></strong></p> | <p></p><p><strong>Advanced User Data Sync</strong></p><p><strong></strong></p><p>Load information from the LDAP user to Rocket.Chat</p><p><strong>Load Custom User Data from LDAP:</strong> Load any LDAP attribute to a custom field on Rocket.Chat</p><p><strong>Advanced-Data Sync:</strong> Perform additional operations based on data from LDAP</p><p><strong>Roles Mapping from Groups:</strong> You can map any LDAP group to a Rocket.Chat role</p><p><strong>Auto-Subscribe to Channels:</strong> You can map any LDAP group to a Rocket.Chat channel</p><p><strong>Auto-Unsubscribe from Channels:</strong> You can also remove users from Rocket.Chat channels on LDAP</p><p><strong>Auto-Join Teams:</strong> You can map any LDAP group to a Rocket.Chat team</p><p><strong>Auto-Leave Teams:</strong> You can also remove users from Rocket.Chat teams on LDAP</p><p></p> |
+| <p><strong>Basic User Data Sync</strong></p><p><strong></strong></p><p>Load information from the LDAP user to Rocket.Chat</p><p><strong></strong></p><p><strong>Load Basic User Data from LDAP:</strong> Email, name, and username.</p><p><strong></strong></p><p><strong>Load Avatars:</strong> Load the user's avatar from an LDAP attribute</p>                                                                                                                                                                                                                                                                                                                            | <p><strong>Background Sync</strong></p><p></p><p>Periodic background sync</p><p><strong></strong></p><p><strong>Incremental Sync:</strong> Give the option to use Incremental Sync (will be implemented in a future release)</p><p><strong></strong></p><p><strong>Sync User Active State:</strong> Determine if users should be enabled or disabled on Rocket.Chat based on the LDAP status</p><p><strong>Auto logout:</strong> Auto logout user on the next sync when it's removed/disabled on the LDAP group</p>                                                                                                                                                                                                                                                                                                                                                                      |
+| <p><strong>Encryptions</strong></p><p><strong></strong></p><p>The encryption method used to secure communications to the LDAP server</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | ****                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 {% content-ref url="../../use-rocket.chat/rocket.chat-workspace-administration/settings/ldap/" %}
 [ldap](../../use-rocket.chat/rocket.chat-workspace-administration/settings/ldap/)
@@ -40,16 +18,11 @@ description: >-
 
 ## **SAML** <a href="#saml3" id="saml3"></a>
 
-### **Community**
+Create role mapping from user groups by selecting any field you want to sync with Rocket.Chat
 
-* **Basic Synchronization:** Keep user data in sync with the server on login (email, name, and username)
-* **Customizable User Interface:** Ability to customize button color and text
-
-### Enterprise
-
-* **Roles mapping:** Role mapping from user groups
-* **Fields mapping:** Select any field you want to sync with RC
-* **Advanced:** Advanced settings (eg. login with username and password x win user)
+| Community                                                                                                                                                                                                                 | Enterprise                                                                                                                                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>Basic Synchronization:</strong> Keep user data in sync with the server on login (email, name, and username)</p><p><strong>Customizable User Interface:</strong> Ability to customize button color and text</p> | <p><strong>Roles mapping:</strong> Role mapping from user groups</p><p><strong>Fields mapping:</strong> Select any field you want to sync with RC</p><p><strong>Advanced:</strong> Advanced settings (eg. login with username and password x win user)</p> |
 
 {% content-ref url="../../use-rocket.chat/rocket.chat-workspace-administration/settings/saml/" %}
 [saml](../../use-rocket.chat/rocket.chat-workspace-administration/settings/saml/)
@@ -57,35 +30,11 @@ description: >-
 
 ## **OAuth / Custom OAuth** <a href="#oauth3" id="oauth3"></a>
 
-### **Community**
+Let your users log in via Facebook, Google, LinkedIn, GitHub, and many others.&#x20;
 
-* **Basic Social logins / pre-defined OAuth options:** Keep user data in sync with the server on login (Unique identifier and username)
-  * Avatar import
-  * Login methods
-    * Apple
-    * Dolphin
-    * Drupal
-    * Facebook
-    * GitHub
-    * GitHub Enterprise
-    * GitLab
-    * Google
-    * Linkedin
-    * Meteor
-    * Nextcloud
-    * Tokenpass
-    * Twitter
-    * WordPress
-* **Basic Custom OAuth:** Basic login settings
-  * Login via Custom OAuth protocol using a unique identifier
-  * Load Name, Username and Email from OAuth
-  * Import Avatar from OAuth
-
-### Enterprise
-
-* **Advanced Custom OAuth:**
-  * Assign Rocket.Chat roles based on OAuth roles
-  * Join channels automatically based on OAuth roles
+| Community                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Enterprise                                                                                                                                                |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>Basic Social logins / pre-defined OAuth options</strong></p><p> Keep user data in sync with the server on login (Unique identifier and username)</p><p><strong>Avatar import</strong></p><p><strong>Login methods:</strong> Apple, Dolphin, Drupal, Facebook, GitHub, GitHub Enterprise, GitLab, Google, Linkedin, Meteor, Nextcloud, Tokenpass, Twitter, WordPress</p><p><strong>Basic Custom OAuth:</strong> </p><p>Basic login settings</p><p>Login via Custom OAuth protocol using a unique identifier</p><p>Load Name, Username, and Email from</p><p>OAuth</p><p>Import Avatar from OAuth</p> | <p><strong>Advanced Custom OAuth:</strong></p><p>Assign Rocket.Chat roles based on OAuth roles</p><p>Join channels automatically based on OAuth roles</p> |
 
 {% content-ref url="../../use-rocket.chat/rocket.chat-workspace-administration/settings/oauth/" %}
 [oauth](../../use-rocket.chat/rocket.chat-workspace-administration/settings/oauth/)

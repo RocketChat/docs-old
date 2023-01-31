@@ -1,5 +1,5 @@
 ---
-description: Configure authentication methods beyond just username and password
+description: Let your users log in via Facebook, Google, LinkedIn, GitHub, and many others.
 ---
 
 # OAuth
