@@ -20,7 +20,7 @@ Please enable it.
 
 Now the admin will have access to _**Omnichannel Panel Settings**_ through a new menu called `Omnichannel`, as shown below:
 
-![](<../../../../../.gitbook/assets/image (587).png>)
+![](<../../../../.gitbook/assets/image (587).png>)
 
 ## Configuration
 
@@ -34,7 +34,7 @@ Now the admin will have access to _**Omnichannel Panel Settings**_ through a new
 6. Enable/Disable asking the visitor if they would like a transcript of the conversation.
 7. Enter the message to show when asking for a transcript.
 
-![](<../../../../../.gitbook/assets/image (46).png>)
+![](<../../../../.gitbook/assets/image (46).png>)
 
 ### Business Hour
 
@@ -43,7 +43,7 @@ The feature turns on the Omnichannel toggle for the set business hours automatic
 1. Enable business hours
 2. Choose multiple business hours according to your enterprise needs
 
-![](<../../../../../.gitbook/assets/image (49).png>)
+![](<../../../../.gitbook/assets/image (49).png>)
 
 ### CRM Integration
 
@@ -57,7 +57,7 @@ If you have an app that you want to integrate with Rocket.Chat and use that app 
 2. Add the URL of your external frame
 3. Enter the encryption key, as shown below:
 
-![](<../../../../../.gitbook/assets/image (50).png>)
+![](<../../../../.gitbook/assets/image (50).png>)
 
 ### Facebook
 
@@ -79,7 +79,7 @@ Send an email to [omni@rocket.chat](mailto:omni@rocket.chat) to request an API k
 
 If you are a GDPR compliant company and want to allow your visitors to request to remove their data, Rocket.chat allows you to do that for all your incoming chats, as shown below:
 
-![](<../../../../../.gitbook/assets/image (61).png>)
+![](<../../../../.gitbook/assets/image (61).png>)
 
 ### Live Chat
 
@@ -92,7 +92,7 @@ If you are a GDPR compliant company and want to allow your visitors to request t
 
 as shown below:
 
-![](<../../../../../.gitbook/assets/image (51).png>)
+![](<../../../../.gitbook/assets/image (51).png>)
 
 Now customize the appears of your Live Chat widget here for the hours when none of your agents are online/working.
 
@@ -105,11 +105,11 @@ Now customize the appears of your Live Chat widget here for the hours when none 
 
 as shown below:
 
-![](<../../../../../.gitbook/assets/image (52).png>)
+![](<../../../../.gitbook/assets/image (52).png>)
 
 Some more settings that you can customize according to your needs are shown below:
 
-![](<../../../../../.gitbook/assets/image (54).png>)
+![](<../../../../.gitbook/assets/image (54).png>)
 
 ### RD Station
 
@@ -117,7 +117,7 @@ This is a CRM integration with RD Station.
 
 We set up your token, and when a new Live Chat conversation starts, your visitor information is sent to the RD station.
 
-![](<../../../../../.gitbook/assets/image (56).png>)
+![](<../../../../.gitbook/assets/image (56).png>)
 
 ### Routing
 
@@ -137,7 +137,7 @@ Detail of every setting is listed below:
 10. The **Number of recent chats to calculate estimated wait time** defines the number of last served rooms that will be used to calculate queue wait times
 11. Enable **The Last-Chatted Agent Prefered** setting allocates chats to the agent who previously interacted with the same visitor if the agent is available when the chat starts
 
-![](<../../../../../.gitbook/assets/image (59).png>)
+![](<../../../../.gitbook/assets/image (59).png>)
 
 ### Sessions
 
@@ -152,7 +152,7 @@ Sessions allow you to decide how you want to handle your chat sessions when an a
 
 As shown below:
 
-![](<../../../../../.gitbook/assets/image (60).png>)
+![](<../../../../.gitbook/assets/image (60).png>)
 
 ### Video and Audio Call
 

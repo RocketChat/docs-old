@@ -1,6 +1,6 @@
 # GitHub
 
-Setting up GitHub webhook integration with Rocket.Chat gives you the ability to&#x20;
+Setting up GitHub webhook integration with Rocket.Chat gives you the ability to
 
 1. Receive event notifications from GitHub directly in your specified Rocket.Chat room (**Incoming WebHook**)
 2. Send commands to GitHub and optionally receive a response (**Outgoing WebHook**).
@@ -24,7 +24,7 @@ In configuring this integration, make sure your Rocket.Chat is publicly availabl
 
 We are going to see how to create both incoming and outgoing webhook integration between Rocket.Chat and GitHub.
 
-### Rocket.Chat Incoming webhook with GitHub&#x20;
+### Rocket.Chat Incoming webhook with GitHub
 
 To configure an incoming webhook integration between GitHub and Rocket.Chat, you need to:
 
@@ -39,7 +39,7 @@ The following steps explain how to do this
 * Switch to the **Incoming** tab and create a **New** Integration
 * Fill in the details of your webhook including the **name** of the webhook, the **room** to post into, the **user to post as** and enable it
 
-<figure><img src="../../../../.gitbook/assets/Create new GitHub incoming webhook.png" alt=""><figcaption><p>Create new GitHub incoming webhook</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Create new GitHub incoming webhook.png" alt=""><figcaption><p>Create new GitHub incoming webhook</p></figcaption></figure>
 
 * Enable Scripts and paste any of the following example code into the Scripts box.
 
@@ -566,23 +566,23 @@ class Script {
 * The **Webhook URL** and **Token** are generated after saving
 * Copy these credentials, they will be used later
 
-<figure><img src="../../../../.gitbook/assets/GitLab webhook url and token.png" alt=""><figcaption><p>GitHub webhook url and token</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/GitLab webhook url and token.png" alt=""><figcaption><p>GitHub webhook url and token</p></figcaption></figure>
 
 #### GitHub Webhook Setting
 
-After creating the new incoming webhook integration on Rocket.Chat, it is time to link it up with the      GitHub repository.
+After creating the new incoming webhook integration on Rocket.Chat, it is time to link it up with the GitHub repository.
 
 * Go to the GitHub project repository then navigate to **Settings** > **Webhooks**
-* **Add webhook** and fill in the `URL` and `token` you copied from the Rocket.Chat setting&#x20;
+* **Add webhook** and fill in the `URL` and `token` you copied from the Rocket.Chat setting
 *   Select the list of events you want to be notified on and **Add webhook**
 
-    <figure><img src="../../../../.gitbook/assets/GitHub webhook setting.png" alt=""><figcaption><p>GitHub webhook setting</p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/GitHub webhook setting.png" alt=""><figcaption><p>GitHub webhook setting</p></figcaption></figure>
 
 {% hint style="success" %}
 After successful configuration, you can test the Webhook with any event trigger and see the notification in your specified Rocket.Chat room.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/GitHub webhook notifications.png" alt=""><figcaption><p>GitHub webhook notifications</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/GitHub webhook notifications.png" alt=""><figcaption><p>GitHub webhook notifications</p></figcaption></figure>
 
 ### Rocket.Chat GitHub Outgoing Webhook
 

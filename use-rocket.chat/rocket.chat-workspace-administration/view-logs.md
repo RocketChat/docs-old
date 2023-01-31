@@ -9,4 +9,3 @@ In the **View Logs** section of your Rocket.Chat server, you can see all the inf
 Check out the [Logs Settings](settings/logs.md) for additional configurations on what to log.
 
 To access this menu, go to **Administration** > **Workspace** > **View Log**
-

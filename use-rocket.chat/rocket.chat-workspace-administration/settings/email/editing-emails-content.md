@@ -35,7 +35,7 @@ Defines the header and footer style to use for all your emails.
 * **Header**: Header for your email body
 * **Footer**: Email footer, by default, the footer is:
 
-![Default email footer](<../../../../../.gitbook/assets/default email footer.png>)
+![Default email footer](<../../../../.gitbook/assets/default email footer.png>)
 
 * **Footer When Direct Reply is Enabled**: Let you define the footer for when [direct reply](direct-reply.md) is enabled
 

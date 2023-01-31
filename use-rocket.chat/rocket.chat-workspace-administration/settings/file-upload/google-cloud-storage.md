@@ -4,11 +4,11 @@ Here is more information on the fields required to set up your Google Cloud Stor
 
 Set the following fields:
 
-| Config. Name | Description |
-| :--- | :--- |
-| **Google Storage Bucket Name** | The bucket name you created on Google Storage |
-| **Google Storage Access Id** | The access ID \(or username\) of the service account that has access to your Cloud Storage bucket, usually in the following format: example-test@example.iam.gserviceaccount.com |
-| **Google Storage Secret** | Essentially a PEM that contains your private key and certificate |
+| Config. Name                   | Description                                                                                                                                                                    |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Google Storage Bucket Name** | The bucket name you created on Google Storage                                                                                                                                  |
+| **Google Storage Access Id**   | The access ID (or username) of the service account that has access to your Cloud Storage bucket, usually in the following format: example-test@example.iam.gserviceaccount.com |
+| **Google Storage Secret**      | Essentially a PEM that contains your private key and certificate                                                                                                               |
 
 ## More Information
 
@@ -16,7 +16,7 @@ Set the following fields:
 
 Syntax then looks just like a regular PEM file:
 
-```text
+```
 -----BEGIN PRIVATE KEY-----
 unescaped private key goes here
 -----END PRIVATE KEY-----
@@ -26,4 +26,3 @@ first certificate goes here
 ```
 
 Enter this into Rocket.Chat to allow the authentication with Google and store items in the bucket.
-

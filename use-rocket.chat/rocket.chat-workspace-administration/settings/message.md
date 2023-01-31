@@ -120,9 +120,9 @@ Warning: Do not enable this and the **Hex Color Preview** at the same time.
 
 ## **Markdown**
 
-* **Markdown Parser**: A dropdown to select the markdown parser.&#x20;
+* **Markdown Parser**: A dropdown to select the markdown parser.
 
-![Markdown Parser](../../../../.gitbook/assets/messagemarkdown.png)
+![Markdown Parser](../../../.gitbook/assets/messagemarkdown.png)
 
 * **Allow Markdown headers in messages**: When enabled, markdown headers will be included in messages.
 * **Markdown Support Schemes for Link**: Comma-separated list of allowed schemes.

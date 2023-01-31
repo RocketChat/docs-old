@@ -5,4 +5,3 @@
 Follow the install instructions here:
 
 [https://github.com/jeanmorais/rocketchat-graylog-hook](https://github.com/jeanmorais/rocketchat-graylog-hook)
-

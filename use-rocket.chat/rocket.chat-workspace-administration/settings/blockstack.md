@@ -21,4 +21,4 @@ Remember to hit **Save Changes** in order to apply any changes made.
 
 With all the configurations done, you will see a Blockstack button on your register and login page.
 
-![](../../../../.gitbook/assets/Selection\_049.png)
+![](../../../.gitbook/assets/Selection\_049.png)

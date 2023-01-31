@@ -1,8 +1,8 @@
 # Net Promoter Score (NPS) survey
 
-This feature aims to assess user satisfaction and make the Rocket.Chat experience even more pleasant for users.&#x20;
+This feature aims to assess user satisfaction and make the Rocket.Chat experience even more pleasant for users.
 
-By allowing it to run on your workspace you are helping Rocket.Chat to:&#x20;
+By allowing it to run on your workspace you are helping Rocket.Chat to:
 
 * Build a better product & better user experience
 * Develop and prioritize features aligned with our users’ needs
@@ -28,12 +28,11 @@ All users in the workspace will receive the survey on the same day.
 
 Admins will get notified one month before the NPS is rolled out via in-app banner and alert via Rocket.Cat. That means admins can quickly turn off the NPS in case they prefer.
 
-It’s possible to check more details directly in the code [here](https://github.com/RocketChat/Rocket.Chat/blob/3.17.0/server/services/nps/service.ts).\
-
+It’s possible to check more details directly in the code [here](https://github.com/RocketChat/Rocket.Chat/blob/3.17.0/server/services/nps/service.ts).\\
 
 ## How is NPS data collected?
 
-All feedback received through the NPS is anonymous. It does not collect any personal data.&#x20;
+All feedback received through the NPS is anonymous. It does not collect any personal data.
 
 The following data elements are transmitted via statistics collector:
 
@@ -51,7 +50,7 @@ The following data elements are transmitted via statistics collector:
 
 Our users have total freedom to disable the NPS survey. Simply follow the steps below to switch NPS off:
 
-* Within Rocket.Chat, access **Administration > Workspace > General**&#x20;
+* Within Rocket.Chat, access **Administration > Workspace > General**
 * **NPS** > Uncheck “**Enable NPS Survey**”
 * Once the setting is turned off, the NPS survey stays off indefinitely.
 

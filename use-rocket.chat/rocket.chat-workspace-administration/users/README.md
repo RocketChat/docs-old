@@ -35,4 +35,3 @@ The settings **Set random password and send by email** and **Send welcome email*
 {% endhint %}
 
 You can also [add-users-through-identity-management-and-authentication-services.md](add-users-through-identity-management-and-authentication-services.md "mention")
-

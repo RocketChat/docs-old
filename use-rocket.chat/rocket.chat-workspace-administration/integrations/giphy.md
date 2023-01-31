@@ -4,7 +4,7 @@
 
 Install the Giphy App from the App Marketplace [https://rocket.chat/marketplace](https://rocket.chat/marketplace).
 
-Under Administration Settings -&gt; Apps -&gt; Giphy
+Under Administration Settings -> Apps -> Giphy
 
 ![Giphy Preview](https://i.imgur.com/v5dYBMo.gif)
 
@@ -20,6 +20,5 @@ Follow the install instructions here:
 
 Thanks to **Finndrop Studios**
 
-* Manuel Bachl \(m.bachl@finndrop.de\)
-* Thies Schneider \(t.schneider@finndrop.de\)
-
+* Manuel Bachl (m.bachl@finndrop.de)
+* Thies Schneider (t.schneider@finndrop.de)

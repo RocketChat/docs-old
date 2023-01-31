@@ -8,7 +8,7 @@ Rocket.Chat supports several different ways to authenticate, beyond the basic us
 
 To set up your desired provider:
 
-Go to **Administration > Workspace > Settings> OAuth**&#x20;
+Go to **Administration > Workspace > Settings> OAuth**
 
 ## OAuth Methods
 
@@ -42,11 +42,11 @@ To add custom OAuth:
 
 1. Click **Add custom oAuth**
 
-![](<../../../../../.gitbook/assets/image (134).png>)
+![](<../../../../.gitbook/assets/image (134).png>)
 
 1. Give a unique name for the custom OAuth
 
-![](<../../../../../.gitbook/assets/image (135).png>)
+![](<../../../../.gitbook/assets/image (135).png>)
 
 ## Refresh OAuth Services
 

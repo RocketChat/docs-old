@@ -25,13 +25,13 @@ After that:
 
 ### IMAP settings
 
-![IMAP server configuration.](../../../../../.gitbook/assets/imap-1.png)
+![IMAP server configuration.](../../../../.gitbook/assets/imap-1.png)
 
 ### POP3 settings
 
 Make sure your **POP3** server keeps keep **no** copy of emails, otherwise it is treated as a new message every time.
 
-![POP server configuration.](../../../../../.gitbook/assets/pop-1.png)
+![POP server configuration.](../../../../.gitbook/assets/pop-1.png)
 
 Now, you can reply chat messages via email. It supports full formatting like inline, multiline, bold, italics etc.
 

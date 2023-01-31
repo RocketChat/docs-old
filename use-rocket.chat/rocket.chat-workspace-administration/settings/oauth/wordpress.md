@@ -10,23 +10,23 @@ The easiest way to configure Rocket.Chat using WordPress as your identity backen
 
 ![](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-03.png)
 
-* In the **Application Configuration** tab, copy the `Callback URL` \(example: `http://your.domain.com/_oauth/id`\), and put it into a notepad, or another text application, as we will need it in the next few steps.
+* In the **Application Configuration** tab, copy the `Callback URL` (example: `http://your.domain.com/_oauth/id`), and put it into a notepad, or another text application, as we will need it in the next few steps.
 * Log into your WordPress site as an administrator and navigate to **Add New** under `Plugins`.
-* Search for "MiniOrange oAuth Server" \(Red below\).
-* Install and activate the `MiniOrange oAuth Server` plugin \(Purple, and then Green\).
+* Search for "MiniOrange oAuth Server" (Red below).
+* Install and activate the `MiniOrange oAuth Server` plugin (Purple, and then Green).
 
 ![](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-8.png)
 
 * Navigate to the `MiniOrange oAuth Server` Menu item, and click though the quick guided tour.
-* Click **Add client** \(Red\).
+* Click **Add client** (Red).
 
 ![](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-10.png)
 
-* Give your client a name \(Red\), enter the Callback URL you saved before \(Purple\), and click **Save client**.
+* Give your client a name (Red), enter the Callback URL you saved before (Purple), and click **Save client**.
 
 ![](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-11.png)
 
-* It now shows your `Client ID` \(Red\) and `Client Secret` \(Purple\). Copy them into the same notepad, or another text application where you have your Callback URL.
+* It now shows your `Client ID` (Red) and `Client Secret` (Purple). Copy them into the same notepad, or another text application where you have your Callback URL.
 
 ![](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-12.png)
 
@@ -36,7 +36,7 @@ The easiest way to configure Rocket.Chat using WordPress as your identity backen
 
 * Go back to the custom oAuth you already created in Rocket.Chat, and match the information saved in the notepad into the correct fields listed below and in the screenshot:
 * **Enable** = True
-* **URL** = `https://your.domain.com` \(do not include a trailing “/”\)
+* **URL** = `https://your.domain.com` (do not include a trailing “/”)
 * **Token Path** = Access Token Endpoint
 * **Token Sent Via** = Payload
 * **Identity Token Sent Via** = Payload
@@ -45,8 +45,8 @@ The easiest way to configure Rocket.Chat using WordPress as your identity backen
 * **Scope** = Profile
 * **Id** = Client ID
 * **Secret** = Client Secret
-* **Login Style** = Redirect \(you can use any of them, but redirect is really the only one that plays nice with mobile and desktop apps\)
-* **Username field** = username \(a normal hook for a WordPress username is user\_login, but the plugin rewrites this in the JSON response to Rocket for username\)
+* **Login Style** = Redirect (you can use any of them, but redirect is really the only one that plays nice with mobile and desktop apps)
+* **Username field** = username (a normal hook for a WordPress username is user\_login, but the plugin rewrites this in the JSON response to Rocket for username)
 * **Merge users** = true
 
 ![](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-14.png)

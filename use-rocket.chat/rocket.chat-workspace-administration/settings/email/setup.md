@@ -13,12 +13,12 @@ This configuration is only done manually for Self-managed workspaces. It is pre-
 * Go to **Administration > Workspace > Settings > Email > SMTP.**
 * **Protocol** - Choose **SMTP**(Simple Mail Transfer Protocol) or **SMTPS** (Simple Mail Transfer Protocol Secure) protocol.
 * **Host -** Your SMTP server hostname (e.g. `mail.example.com`)
-* **Port -**The port (usually 587 for modern secured SMTP servers).&#x20;
-* **IgnoreTLS** - If this option is enabled, TLS(Transport Layer Security) will not be used.&#x20;
+* \*\*Port -\*\*The port (usually 587 for modern secured SMTP servers).
+* **IgnoreTLS** - If this option is enabled, TLS(Transport Layer Security) will not be used.
 * **Pool** - Enable this option to use pooled connections, otherwise a new connection is created for every mail.
 * Your credentials:
-  * **Username** that you are using to log in to your email account.&#x20;
-  * **Password** that you are using to log in to your email account.&#x20;
+  * **Username** that you are using to log in to your email account.
+  * **Password** that you are using to log in to your email account.
   * **From Email** address that you are using to log in to your email account.
 * Send a test mail to my user - Use this option to send a test mail.
 * Once completed, click **Save changes**.

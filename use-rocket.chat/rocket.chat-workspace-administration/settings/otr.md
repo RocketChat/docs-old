@@ -16,4 +16,4 @@ As an administrator, you can enable/disable OTR for your workspace, as shown bel
 
 Go to **Administration** > **Workspace** > **Settings** > **OTR**.
 
-![](<../../../../.gitbook/assets/image (390).png>)
+![](<../../../.gitbook/assets/image (390).png>)

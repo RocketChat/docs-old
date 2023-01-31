@@ -12,4 +12,4 @@ Below, you can find some examples of our icons, for the complete collection of R
 
 ### Icon Examples
 
-![](<../../../.gitbook/assets/image (661).png>)
+![](<../../.gitbook/assets/image (661).png>)

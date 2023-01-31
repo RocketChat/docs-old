@@ -8,6 +8,6 @@ Rocket.Chat Bots setting lets you specify the various fields that can be accesse
 
 To access this menu, go to **Administration** > **Workspace** > **Settings** > **Bots**.
 
-![Bots settings](../../../../.gitbook/assets/BotsSettings.png)
+![Bots settings](../../../.gitbook/assets/BotsSettings.png)
 
 * **User Fields**: This takes in comma-separated fields that can be accessed by bots helper methods.
