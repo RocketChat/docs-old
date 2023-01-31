@@ -5,13 +5,13 @@
 * **Enable**: Enables the SAML connection
 * **Custom Provider**: The SAML provider name
 * **Custom Entry Point**: The custom entry point
-* **IDP SLO Redirect URL**: This is the URL provided by your IdP for logging out. In SAML-terminology, it refers to the location (URL) of the SingleLogoutService with the Redirect binding (urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect)
+* **IDP SLO Redirect URL**: This is the URL provided by your IdP for logging out. In SAML-terminology, it refers to the location (URL) of the SingleLogoutService with the Redirect binding (urn:oasis:names:tc:SAML:2.0:bindings: HTTP-Redirect)
 * **Custom Issuer**: The URI is the unique identifier of your service. By convention, this is also the URL of your (unedited) metadata. Again, where you set Custom Provider to 'my-app', this will be: `https://my-rocketchat-domain.tld/_saml/metadata/my-app`
 * **Enable Debug**: Set to true to enable debugging
 
 ### Certification
 
-* **Custom Certificate**: This is the public certificate for IdP providers used to verify SAML requests. Format for this is PEM without `-----BEGIN CERTIFICATE-----` and `--`
+* **Custom Certificate**: This is the public certificate for IdP providers used to verify SAML requests. The format for this is PEM without `-----BEGIN CERTIFICATE-----` and `--`
 *   **Public Cert Contents**: The public part of the self-signed certificate you created for encrypting your SAML transactions. [Example of self-signed certificate on the SimpleSAMLphp website here](https://simplesamlphp.org/docs/latest/simplesamlphp-sp.html#enabling-a-certificate-for-your-service-provider).
 
     Format for this is PEM WITH `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`
@@ -82,8 +82,8 @@
 ### User Interface
 
 * **Button Text**: Text to display on the button
-* **Button Text Color**: Lets you set the button text colour
-* **Button Color**: The button colour
+* **Button Text Color**: Lets you set the button text color
+* **Button Color**: The button color
 
 ### Behavior
 
@@ -92,15 +92,15 @@
 * **Immutable field name**: Select the field name to be immutable
 * **Overwrite user fullname (use idp attribute)**: Enable to overwrite user fullname
 * **Overwrite user mail (use idp attribute)**: Enable to overwrite user mail
-* **Logout Behaviour**: Lets you set the behaviour to happen on logout
+* **Logout Behaviour**: Lets you set the behavior to happen on logout
 * **Update Room Subscriptions on Each Login**: When enabled, room subscriptions is updated on each login. _`Ensures the user is a member of all channels in SAML assertion on every login`_.
-* **Include Private Rooms in Room Subscription**: When set to true, private rooms will be able to use for subscription. Adds a user to any private rooms that exist in the SAML assertion.
+* **Include Private Rooms in Room Subscription**: When set to true, private rooms are able to use for a subscription. Adds a user to any private rooms that exist in the SAML assertion.
 * **Default User Role**: Lets you set the default user role. You can specify multiple roles, separating them with commas.
 * **Allowed clock drift from Identity Provider**: The clock of the Identity Provider may drift slightly ahead of your system clocks. You can allow for a small amount of clock drift. Its value must be given in a number of milliseconds (ms). The value given is added to the current time at which the response is validated.
 
 ### Mapping
 
-* **User Data Field Map**: Configure how user account fields (like email) are populated from a record in SAML (once found). As an example, `{"name":"cn", "email":"mail"}` will choose a person's human-readable name from the cn attribute, and their email from the mail attribute. Available fields in Rocket.Chat: `name`, `email` and `username`, everything else will be discarded.
+* **User Data Field Map**: Configure how user account fields (like email) are populated from a record in SAML (once found). As an example, `{"name":"cn", "email":"mail"}`  chooses a person's human-readable name from the cn attribute, and their email from the mail attribute. Available fields in Rocket.Chat: `name`, `email` and `username`. Everything else is discarded.
 
 ```json
 "email": "mail",

@@ -26,7 +26,7 @@ Colors can be set using existing **Expressions** or **Color** by specifying it f
 
 ![](<../../../.gitbook/assets/image (637) (1) (1) (1) (1).png>)
 
-To learn more about setting colors, see the \*\*\*\* [**colors section of the Basic White-labeling guide**](../../../setup-and-configure-rocket.chat/accessing-your-workspace/basic-white-labeling.md#colors).
+To learn more about setting colors, see the \*\*\*\* [**colors section of the Basic White-labeling guide**](../../../setup-and-administer-rocket.chat/basic-white-labeling.md#colors).
 
 ## Content
 
@@ -48,7 +48,7 @@ The section allows you to change the HTML content of certain screens.
 * **Terms of Service:** Here, you can set the terms of service of your server. You can also redirect to YOUR-SERVER-URL/terms-of-service. This is shown by default on the links below your login page.
 * **Privacy Policy:** Here you can set the privacy policy of your server. Can also be accessed via YOUR-SERVER-URL/privacy-policy. This is shown by default on the links below your login page.
 * **Legal Notice:** By default this screen is accessed on the links under the login page, here you can set the legal notice of your server. Can also be accessed via YOUR-SERVER-URL/legal-notice.
-* **Side navigation footer:** This is the logo or text on the bottom left of the sidebar. We recommend using the images set on your [Assets](../../../setup-and-configure-rocket.chat/accessing-your-workspace/basic-white-labeling.md#assets) for better consistency.
+* **Side navigation footer:** This is the logo or text on the bottom left of the sidebar. We recommend using the images set on your [Assets](../../../setup-and-administer-rocket.chat/basic-white-labeling.md#assets) for better consistency.
 
 ![](<../../../.gitbook/assets/image (670) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
@@ -96,7 +96,7 @@ Here, you set the fonts to be used on your server.
 
 ## Old Colors
 
-This section has a list of color swatches used in older versions of RocketChat. They can be edited and customized still. Learn more about color properties and what they affect in [this guide](../../../setup-and-configure-rocket.chat/accessing-your-workspace/basic-white-labeling.md#colors).
+This section has a list of color swatches used in older versions of RocketChat. They can be edited and customized still. Learn more about color properties and what they affect in [this guide](../../../setup-and-administer-rocket.chat/basic-white-labeling.md#colors).
 
 ## Old Colors(minor)
 

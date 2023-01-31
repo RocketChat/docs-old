@@ -6,11 +6,11 @@ description: Enable and configure SMS gateways on your workspace.
 
 This setting lets you configure various SMS gateways on your workspace.
 
-To access this menu, go to **Administration** > **Workspace** > **Settings** > **SMS**.
+To access this menu, navigate to **Administration** > **Workspace** > **Settings** > **SMS**.
 
-* **Enabled**: Lets you enable or disable SMS service on your server.
-* **Service**: A dropdown to select the available SMS services available e.g `Twilio`, `Mobex`, `Voxtelesys`
-* **Omnichannel Department (Default)**: If set, all new incoming chats initiated by this integration will be routed to this department.
+* **Enabled**: This lets you enable or disable SMS service on your server.
+* **Service**: Select the available SMS services e.g `Twilio`, `Mobex`, `Voxtelesys`
+* **Omnichannel Department (Default)**: If set, all new incoming chats initiated by this integration are routed to this department.
 
 ## Mobex
 
@@ -25,8 +25,8 @@ Create a Mobex account at [https://mobex.biz/](https://mobex.biz) and get a plan
 
 ## Twilio
 
-* **Account SID**: Your accounts SID provided by Twilio.
-* **Auth Token**: Your Twiiow auth token
+* **Account SID**: Your account's SID. It is provided by Twilio.
+* **Auth Token**: Your Twilio auth token
 * **File Uploads Enabled**: When enabled, file uploads will be active in SMS
 * **Accepted Media Types**: Comma-separated list of media types. Leave it blank for accepting all media types.
 
@@ -34,5 +34,5 @@ Create a Mobex account at [https://mobex.biz/](https://mobex.biz) and get a plan
 
 * **Auth Token**: Your Voxtelesys auth token
 * **URL**: The Voxtelesys URL e.g `https://smsapi.voxtelesys.net/api/v1/sms`
-* **File Uploads Enabled**: When enabled, file uploads will be made available
+* **File Uploads Enabled**: When enabled, file uploads are made available
 * **Accepted Media Types**: Comma-separated list of media types. Leave it blank for accepting all media types.
