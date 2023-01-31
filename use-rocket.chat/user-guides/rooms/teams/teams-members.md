@@ -1,6 +1,6 @@
 # Manage Team Members
 
-Team members must have either one of these roles: Owner, Leader, Moderator, or User. Each team member's [permission](../../../workspace-administration/permissions.md) members will depend on their role. The team owner can manage all the team members and assign any of these roles to them.
+Team members must have either one of these roles: Owner, Leader, Moderator, or User. Each team member's [permission](../../../rocket.chat-workspace-administration/permissions.md) members will depend on their role. The team owner can manage all the team members and assign any of these roles to them.
 
 ## View Team Members
 

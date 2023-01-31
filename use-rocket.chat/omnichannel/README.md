@@ -31,7 +31,7 @@ Now the administrator and Rocket.chat Omnichannel Manager can access _**Omnichan
 **Administration > Omnichannel**
 
 {% hint style="info" %}
-[Find out how to configure Omnichannel on your Rocket.Chat workspace.](../workspace-administration/settings/omnichannel-admins-guide/)
+[Find out how to configure Omnichannel on your Rocket.Chat workspace.](../rocket.chat-workspace-administration/settings/omnichannel-admins-guide/)
 {% endhint %}
 
 Omnichannel area of Rocket.Chat has three primary users.

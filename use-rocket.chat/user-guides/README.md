@@ -4,12 +4,8 @@ description: End-user Training Guides
 
 # User Guides
 
-{% content-ref url="connecting-to-a-server.md" %}
-[connecting-to-a-server.md](connecting-to-a-server.md)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="access-your-workspace.md" %}
+[access-your-workspace.md](access-your-workspace.md)
 {% endcontent-ref %}
 
 {% content-ref url="user-panel/" %}

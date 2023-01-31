@@ -37,20 +37,20 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 
 ### Setup your account
 
-{% content-ref url="deploy/prepare-for-your-deployment/" %}
-[prepare-for-your-deployment](deploy/prepare-for-your-deployment/)
+{% content-ref url="deploy-rocket.chat/prepare-for-your-deployment/" %}
+[prepare-for-your-deployment](deploy-rocket.chat/prepare-for-your-deployment/)
 {% endcontent-ref %}
 
-{% content-ref url="setup-and-configure/accessing-your-workspace/creating-the-first-administrator.md" %}
-[creating-the-first-administrator.md](setup-and-configure/accessing-your-workspace/creating-the-first-administrator.md)
+{% content-ref url="setup-and-administer-rocket.chat/accessing-your-workspace/creating-the-first-administrator.md" %}
+[creating-the-first-administrator.md](setup-and-administer-rocket.chat/accessing-your-workspace/creating-the-first-administrator.md)
 {% endcontent-ref %}
 
-{% content-ref url="use-rocket.chat/user-guides/connecting-to-a-server.md" %}
-[connecting-to-a-server.md](use-rocket.chat/user-guides/connecting-to-a-server.md)
+{% content-ref url="use-rocket.chat/user-guides/access-your-workspace.md" %}
+[access-your-workspace.md](use-rocket.chat/user-guides/access-your-workspace.md)
 {% endcontent-ref %}
 
-{% content-ref url="use-rocket.chat/workspace-administration/" %}
-[workspace-administration](use-rocket.chat/workspace-administration/)
+{% content-ref url="use-rocket.chat/rocket.chat-workspace-administration/" %}
+[rocket.chat-workspace-administration](use-rocket.chat/rocket.chat-workspace-administration/)
 {% endcontent-ref %}
 
 {% content-ref url="use-rocket.chat/user-guides/user-panel/" %}
@@ -81,8 +81,8 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 [rocket.chat-conference-call](use-rocket.chat/rocket.chat-conference-call/)
 {% endcontent-ref %}
 
-{% content-ref url="use-rocket.chat/workspace-administration/settings/analytics.md" %}
-[analytics.md](use-rocket.chat/workspace-administration/settings/analytics.md)
+{% content-ref url="use-rocket.chat/rocket.chat-workspace-administration/settings/analytics.md" %}
+[analytics.md](use-rocket.chat/rocket.chat-workspace-administration/settings/analytics.md)
 {% endcontent-ref %}
 
 {% content-ref url="use-rocket.chat/rocket.chat-mobile/push-notifications/" %}
@@ -93,28 +93,28 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 [message-auditing](use-rocket.chat/message-auditing/)
 {% endcontent-ref %}
 
-{% content-ref url="setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md" %}
-[identity-management-ee-vs-ce.md](setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md)
+{% content-ref url="setup-and-administer-rocket.chat/advanced-workspace-management/identity-management-ee-vs-ce.md" %}
+[identity-management-ee-vs-ce.md](setup-and-administer-rocket.chat/advanced-workspace-management/identity-management-ee-vs-ce.md)
 {% endcontent-ref %}
 
-{% content-ref url="use-rocket.chat/workspace-administration/settings/federation/" %}
-[federation](use-rocket.chat/workspace-administration/settings/federation/)
+{% content-ref url="use-rocket.chat/rocket.chat-workspace-administration/settings/federation/" %}
+[federation](use-rocket.chat/rocket.chat-workspace-administration/settings/federation/)
 {% endcontent-ref %}
 
 ### Minimum Requirements
 
-{% content-ref url="deploy/installing-client-apps/minimum-requirements-for-using-rocket.chat.md" %}
-[minimum-requirements-for-using-rocket.chat.md](deploy/installing-client-apps/minimum-requirements-for-using-rocket.chat.md)
+{% content-ref url="deploy-rocket.chat/installing-client-apps/minimum-requirements-for-using-rocket.chat.md" %}
+[minimum-requirements-for-using-rocket.chat.md](deploy-rocket.chat/installing-client-apps/minimum-requirements-for-using-rocket.chat.md)
 {% endcontent-ref %}
 
-{% content-ref url="deploy/prepare-for-your-deployment/hardware-requirements.md" %}
-[hardware-requirements.md](deploy/prepare-for-your-deployment/hardware-requirements.md)
+{% content-ref url="deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/hardware-requirements.md" %}
+[hardware-requirements.md](deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/hardware-requirements.md)
 {% endcontent-ref %}
 
 ### Support
 
-{% content-ref url="resources/getting-support/" %}
-[getting-support](resources/getting-support/)
+{% content-ref url="rocket.chat-resources/getting-support/" %}
+[getting-support](rocket.chat-resources/getting-support/)
 {% endcontent-ref %}
 
 ### Developer Guides
