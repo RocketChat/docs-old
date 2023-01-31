@@ -107,8 +107,8 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 [minimum-requirements-for-using-rocket.chat.md](deploy-rocket.chat/installing-client-apps/minimum-requirements-for-using-rocket.chat.md)
 {% endcontent-ref %}
 
-{% content-ref url="deploy-rocket.chat/prepare-for-your-deployment/hardware-requirements.md" %}
-[hardware-requirements.md](deploy-rocket.chat/prepare-for-your-deployment/hardware-requirements.md)
+{% content-ref url="deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/hardware-requirements.md" %}
+[hardware-requirements.md](deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/hardware-requirements.md)
 {% endcontent-ref %}
 
 ### Support

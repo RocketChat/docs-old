@@ -3,7 +3,7 @@
 An air-gapped computer system is one that is not directly connected to any external network. This can be for several reasons including and not limited to carrying out sensitive processes, isolation, and prevention from external connectivity to prevent attacks.
 
 {% hint style="info" %}
-The recommended deployment method for Rocket.Chat is using [Docker and Docker Compose](../../deploy-rocket.chat/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/).
+The recommended deployment method for Rocket.Chat is using [Docker and Docker Compose](../../deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose/).
 {% endhint %}
 
 In this section, we are going to see how a Rocket.Chat workspace can be deployed in an air-gapped environment through Docker & Docker Compose.
@@ -35,7 +35,7 @@ After deploying the local registry, you can move the volume to the air-gapped en
 
 With your local registry completely [deployed](https://docs.docker.com/registry/deploying/) and [configured](https://docs.docker.com/registry/configuration/),&#x20;
 
-* Follow our guide on installing Rocket.Chat with [Docker & Docker Compose](../../deploy-rocket.chat/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/#fetching-compose-file) using the example `compose.yml` file.
+* Follow our guide on installing Rocket.Chat with [Docker & Docker Compose](../../deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose/#fetching-compose-file) using the example `compose.yml` file.
 
 {% hint style="info" %}
 Once your local registry is configured on an air-gapped system, Docker will pull and use images directly from there.

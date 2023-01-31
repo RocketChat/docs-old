@@ -1,4 +1,4 @@
-# Prepare for your Rocket.Chat Deployment
+# Prepare for your Deployment
 
 {% hint style="info" %}
 [ **👉 Trouble installing or deploying Rocket.Chat?** Join our Weekly Technical Helpline to get real-time help from our team!](https://app.livestorm.co/rocket-chat/rocketchats-weekly-technical-helpline?type=detailed)
@@ -13,7 +13,7 @@ Regardless of the platform you wish to deploy on or the method of deployment, yo
 ## Official Recommendation
 
 {% hint style="success" %}
-We offer a variety of Deployment methods, and we recommend you set up using our [Docker & Docker Compose](rapid-deployment-methods/docker-and-docker-compose/) guide for several reasons mentioned below.
+We offer a variety of Deployment methods, and we recommend you set up using our [Docker & Docker Compose](../prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose/) guide for several reasons mentioned below.
 {% endhint %}
 
 In order to obtain official support from our team, we have a minimum set of requirements. These requirements are necessary for us to access essential system information, provide an SLA, answer questions, or provide a solution for the problem.
@@ -32,8 +32,8 @@ Rocket.Chat's own cloud uses our official Docker images, which makes this instal
 
 [Docker](https://www.docker.com) is widely used for packaging applications in containers and distributing them as images, providing abstraction and isolation layers from the OS (operational system). It allows the application to be shipped with a specific version of the OS compatibility layer and its own dependencies already installed and configured.
 
-{% content-ref url="rapid-deployment-methods/docker-and-docker-compose/docker-containers/" %}
-[docker-containers](rapid-deployment-methods/docker-and-docker-compose/docker-containers/)
+{% content-ref url="../prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/" %}
+[docker-containers](../prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/)
 {% endcontent-ref %}
 
 ### Why Docker?
@@ -101,8 +101,8 @@ At this time, no other container orchestration/management technologies will be s
 
 The minimum hardware requirements are described on the page below.
 
-{% content-ref url="hardware-requirements.md" %}
-[hardware-requirements.md](hardware-requirements.md)
+{% content-ref url="../prepare-for-your-rocket.chat-deployment/hardware-requirements.md" %}
+[hardware-requirements.md](../prepare-for-your-rocket.chat-deployment/hardware-requirements.md)
 {% endcontent-ref %}
 
 ## Monitoring

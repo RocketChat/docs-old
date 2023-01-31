@@ -19,8 +19,8 @@ We require the installation to run the Docker image provided by the Rocket.Chat 
 
 This ensures we can provide quick fixes and a more efficient way to reproduce problems leading to the most efficient support flow possible.
 
-{% content-ref url="../../../deploy-rocket.chat/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/" %}
-[docker-containers](../../../deploy-rocket.chat/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/)
+{% content-ref url="../../../deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/" %}
+[docker-containers](../../../deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/)
 {% endcontent-ref %}
 
 ## Rocket.Chat versions
@@ -163,7 +163,7 @@ That being said, here's how you can find out if **your** browser version is stil
 
 ## Hardware
 
-The support is limited to installations matching the requirements described in the [Minimum ](../../../deploy-rocket.chat/prepare-for-your-deployment/hardware-requirements.md)[Hardware](../../../deploy-rocket.chat/prepare-for-your-deployment/hardware-requirements.md) [Requirements](../../../deploy-rocket.chat/prepare-for-your-deployment/hardware-requirements.md) page.
+The support is limited to installations matching the requirements described in the [Minimum ](../../../deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/hardware-requirements.md)[Hardware](../../../deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/hardware-requirements.md) [Requirements](../../../deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/hardware-requirements.md) page.
 
 ## Monitoring
 
