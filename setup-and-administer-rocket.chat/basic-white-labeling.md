@@ -1,6 +1,12 @@
+---
+description: >-
+  Leverage our white-labeling capabilities to make Rocket.Chat look and feel
+  exactly like your organization.
+---
+
 # Basic White-labeling
 
-This guide will focus on customizations that non-technical users can make to their Rocket.Chat Server. To achieve this you will be using only the admin settings.
+This guide will focus on customizations that non-technical users can make to their Rocket.Chat Server. To achieve this, you will be using only the administrative settings.
 
 ## Layout
 
@@ -8,7 +14,7 @@ Here is where most of the changes to the UI will happen. Found in the **Administ
 
 ### Colors
 
-Let’s start out with the fundamental changes you can make to your server, changing colors. Rocket.Chat offers the ability to change most of its elements colors
+Let’s start out with the fundamental changes you can make to your server, changing colors. Rocket.Chat offers the ability to change most of its element's colors.
 
 ### Error
 

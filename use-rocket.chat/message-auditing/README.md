@@ -10,9 +10,9 @@ enterprise: true
 
 It allows the authorized user to:
 
-* Review messages between users
-* Audit conversations in private rooms and discussions
-* Check details in the Auditing Log about the individuals who used the Message Auditing Panel
+* Review messages between users in the Message Auditing Panel.
+* Audit conversations in private rooms and discussions.
+* Check details in the Auditing Log about the individuals who used the Message Auditing Panel.
 
 {% hint style="info" %}
 Note that the auditor does not have to be a participant in the room to be able to read the messages.
