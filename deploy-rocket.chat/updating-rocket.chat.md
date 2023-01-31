@@ -17,7 +17,7 @@ Workspace admins should monitor new releases and our release notes [here ](https
 
 ## Updating Rocket.Chat on Docker
 
-Assuming you followed our installation guide on installing with [Docker and Docker Compose](prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose/), to update the `rocketchat` docker image to the latest version, you can use the following commands. Your data should not be affected by this, since it's located in the `mongo` image.
+Assuming you followed our installation guide on installing with [Docker and Docker Compose](prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/), to update the `rocketchat` docker image to the latest version, you can use the following commands. Your data should not be affected by this, since it's located in the `mongo` image.
 
 ```
 docker pull registry.rocket.chat/rocketchat/rocket.chat:latest
@@ -31,7 +31,7 @@ docker-compose up -d rocketchat
 The Rocket.Chat snap installation puts you on the `latest` track at the time of installation, which means you will always get the latest releases on that track.
 
 {% hint style="info" %}
-It is highly advised to [backup your data](prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/snaps/snap-backup-and-restore.md#backup-rocket.chat-snap-data) before upgrading
+It is highly advised to [backup your data](prepare-for-your-deployment/rapid-deployment-methods/snaps/snap-backup-and-restore.md#backup-rocket.chat-snap-data) before upgrading
 {% endhint %}
 
 **Before performing a major version update, it is recommended to check our forum's announcement section**: [https://forums.rocket.chat/c/announcements/10](https://forums.rocket.chat/c/announcements/10) as major releases are usually delayed by a couple of weeks. This happens so that feedback is gotten and minor patches are made before pushing out.
@@ -88,6 +88,6 @@ Other important topics concerning updates can be found here.
 
 {% embed url="https://docs.rocket.chat/getting-support#mongodb-versions" %}
 
-{% content-ref url="prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md" %}
-[mongodb-mmap-to-wiredtiger-migration.md](prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md)
+{% content-ref url="prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md" %}
+[mongodb-mmap-to-wiredtiger-migration.md](prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md)
 {% endcontent-ref %}
