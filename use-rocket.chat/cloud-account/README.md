@@ -21,6 +21,6 @@ The following topics give you all the information you need regarding the setup a
 [cloud-account-setup-wizard.md](cloud-account-setup-wizard.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../rocket.chat-resources/frequently-asked-questions/cloud-faqs.md" %}
-[cloud-faqs.md](../../rocket.chat-resources/frequently-asked-questions/cloud-faqs.md)
+{% content-ref url="../../resources/frequently-asked-questions/cloud-faqs.md" %}
+[cloud-faqs.md](../../resources/frequently-asked-questions/cloud-faqs.md)
 {% endcontent-ref %}

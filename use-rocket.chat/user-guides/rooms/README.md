@@ -9,7 +9,7 @@ description: >-
 Rooms make workflows structured, purpose-oriented and coherent. You can make them for any subject, project, or team. Teams can share thoughts and information and push work ahead.
 
 {% hint style="info" %}
-This is room's user guide. If you are an admin looking for an admin guide, please find it here. [rooms-aka-channels.md](../../rocket.chat-workspace-administration/rooms-aka-channels.md "mention")
+This is room's user guide. If you are an admin looking for an admin guide, please find it here. [rooms-aka-channels.md](../../workspace-administration/rooms-aka-channels.md "mention")
 {% endhint %}
 
 ## Unread messages
