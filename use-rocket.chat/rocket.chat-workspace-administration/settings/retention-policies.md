@@ -75,7 +75,9 @@ The following settings are available:
 * **Newer than**: Set a date and time and hit **Prune** to prune messages newer than the select moment.
 * **Older than**: Set a date and time and hit **Prune** to prune messages older than the select moment.
 * **Only prune content from these users (leave empty to prune everyone's content)**: Select users to delete their messages.
-* **Inclusive**:&#x20;
+*   **Inclusive**: If you check the inclusive checkbox, messages sent on and between **Newer than** and **Older than** dates are deleted (messages are deleted between and including those dates).
+
+    If you don't check the inclusive checkbox, messages between **Newer than** and **Older than** dates are deleted, and the messages sent on those dates are not deleted.
 * **Do not prune pinned messages**: If enabled, pinned messages are not deleted. For example, if you pinned a few messages with important links, they stay intact.
 * **Do not prune discussion messages**: If enabled, messages in the discussions are not deleted.
 * **Do not prune threads:** If enabled, messages in the threads are not deleted.
