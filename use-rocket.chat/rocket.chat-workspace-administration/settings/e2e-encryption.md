@@ -1,7 +1,7 @@
 ---
 description: >-
-  Keep conversations private, ensuring only the sender and intended recipients
-  are able to read them
+  Prevent third parties from accessing your data while its transferred from one
+  end system to another
 ---
 
 # E2E Encryption

@@ -1,8 +1,10 @@
 # Analytics
 
-This feature allows you to view the chat flow (conversation) and your [Live Chat agents'](agents.md) performance (productivity) over a span of time that you choose.
+This is an out-of-the-box analytics dashboard that allows you to track your [Live Chat agents'](agents.md) performance (productivity) over any period of time. It gives managers the insight they need to make data-driven decisions that improve the customer experience.
 
-To access the Omnichannel Analytics settings, go to **Administration > Omnichannel > Analytics.** In this section, you can filter analytics based on \*\*\*\* `Type`, `Department`, `Start and End date`**.**
+To access the Omnichannel Analytics settings:
+
+&#x20;go to **Administration > Omnichannel > Analytics.** In this section, you can filter analytics based on \*\*\*\* `Type`, `Department`, `Start and End date`**.**
 
 ## Omnichannel Agents Conversation Analytics
 

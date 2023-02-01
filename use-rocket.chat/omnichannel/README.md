@@ -1,3 +1,9 @@
+---
+description: >-
+  You can use Rocket.Chat to talk to your customers and website visitors,
+  regardless of which channel they choose to connect with you.
+---
+
 # Omnichannel
 
 The Rocket.Chat [Omnichannel](https://en.wikipedia.org/wiki/Omnichannel) capabilities give you the possibility to streamline conversations from various mediums into Rocket.Chat. This feature can be extended in several ways.
