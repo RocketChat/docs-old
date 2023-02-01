@@ -47,9 +47,9 @@ Make sure to use a valid `JSON`, where `keys` are the `field names` containing a
 
 In the example above we set three new fields with the following properties:
 
-* **type**: defines the type of the field, currently there are 2 types: `select` and `text`, where `select` creates a dropdown list, and `text` creates a plain text form. If you put a URL into the text field, it will be interpreted as a hyperlink (it will be clickable in the userinfo tab).
+* **type**: defines the type of the field, currently there are 2 types: `select` and `text`, where `select` creates a dropdown list, and `text` creates a plain text form. If you put a URL into the text field, it will be interpreted as a hyperlink \(it will be clickable in the userinfo tab\).
 * **defaultValue**: used with a `select` form type to set the default option for the list.
-* **options**: used with a `select` form type for the values that should be on the dropdown list, which follows the `["item1", "item2","item3"]` pattern. Use a [javascript Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array) to create it.
+* **options**: used with a `select` form type for the values that should be on the dropdown list, which follows the `["item1", "item2","item3"]` pattern. Use a [javascript Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) to create it.
 * **required**: defines if the field is required for registration; use `true` or `false` in this property.
 * **minLength**: used with a `text` to define the minimum length required in the form.
 * **maxLength**: used with a `text` to define the maximum length required in the form.
@@ -68,10 +68,11 @@ The list of custom fields shown on the user's info panel can be configured under
 
 The list of fields needs to be specified as JSON array in the form
 
-```
+```text
 [{"label1":"key2"},{"label2":"key2"},...]
 ```
 
 A label can by any text, the key needs to be a custom field name defined above.
 
 Fields are only shown if the user has the permission to view private fields or if the field is set to `"public":true`.
+

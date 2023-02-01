@@ -36,7 +36,7 @@
 When done with the settings, be sure to **Save changes**
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/LDAP connection settings.png" alt=""><figcaption><p>LDAP connection settings</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/LDAP connection settings.png" alt=""><figcaption><p>LDAP connection settings</p></figcaption></figure>
 
 At the top of this page, you can**:**
 

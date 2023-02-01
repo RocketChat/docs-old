@@ -5,7 +5,7 @@
 * `Proxy User = rocket.service@domain.com or CN=rocket service,CN=Users,DC=domain,DC=com (DN or userPrincipalName)`
 * `Proxy User password = urpass (Proxy Users password)`
 
-For now (until we add more input fields to LDAP) set it like this: (This is based on the above assumptions, replace with your environment)
+For now \(until we add more input fields to LDAP\) set it like this: \(This is based on the above assumptions, replace with your environment\)
 
 ## Log on with a username
 
@@ -49,7 +49,7 @@ When you enable LDAP the login form will login users via LDAP instead the intern
 
 Use stunnel to create a secure connection to the LDAP server. Create a new configuration file /etc/stunnel/ldaps.conf with following content:
 
-```
+```text
 options = NO_SSLv2
 
 [ldaps]
@@ -69,3 +69,4 @@ Finally on the Rocket.Chat server under /admin/LDAP set
 
 * `LDAP_Url = localhost`
 * `LDAP_Port = 389`
+

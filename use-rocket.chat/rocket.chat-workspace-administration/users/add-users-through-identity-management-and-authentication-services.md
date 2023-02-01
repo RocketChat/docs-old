@@ -1,4 +1,4 @@
-# Add users through Identity management and authentication services
+# Add users by Identity management and authentication services
 
 Rocket. Chat provides you with various options for adding users to your workspace.
 
@@ -10,9 +10,9 @@ LDAP configuration on Rocket.Chat can be used to establish connections, used for
 
 To configure LDAP authentication, go to **Administration** > **Workspace** > **Setting** > **LDAP.**
 
-### SAML
+### SAML&#x20;
 
-**SAML** (Security Assertion Markup Language) is used for exchanging authentication and authorization data. [https://docs.rocket.chat/guides/administration/admin-panel/settings/saml/rocket.chat-server-settings#connection](https://docs.rocket.chat/guides/administration/admin-panel/settings/saml/rocket.chat-server-settings#connection)
+**SAML** (Security Assertion Markup Language) is used for exchanging authentication and authorization data.  [https://docs.rocket.chat/guides/administration/admin-panel/settings/saml/rocket.chat-server-settings#connection](https://docs.rocket.chat/guides/administration/admin-panel/settings/saml/rocket.chat-server-settings#connection)
 
 To access SAML setting, go to **Administration** > **Workspace** > **Settings** > **SAML.**
 

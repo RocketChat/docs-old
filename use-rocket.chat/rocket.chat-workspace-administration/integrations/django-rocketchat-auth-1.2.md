@@ -54,6 +54,6 @@ Tested with Django 2.0.4 and Rocket.Chat 0.62.2. If you have any problems, pleas
    * Configure Django's CsrfViewMiddleware to exempt your login page for Rocket.Chat requests or disable it (dangerous).
 7. To access this settings, go to: **Administration** > **Workspace** > **Settings** > **Accounts**
    * **Enabled:** Enable this option to authenticate users using your own login page in place of the Rocket. Chat's login page via the iframe integration. Please check the [Iframe integration](https://developer.rocket.chat/rocket.chat/iframe-integration) page for more information.
-   * **Iframe URL**: Enter \*\*\*\* the URL (http://localhost:8000/login/?next=/rocketchat/redirect)of the page you want to show as the login page of your Rocket.Chat instance.
-   * **API URL:** Enter the URL (http://localhost:8000/rocketchat/api), which refers to the endpoint on the third-party system. This will check if the user is already logged in to that system.
+   * **Iframe URL**: Enter **** the URL (http://localhost:8000/login/?next=/rocketchat/redirect)of the page you want to show as the login page of your Rocket.Chat instance.
+   * **API URL:**  Enter the URL (http://localhost:8000/rocketchat/api), which refers to the endpoint on the third-party system. This will check if the user is already logged in to that system.&#x20;
    * **API Method:** Specify the API (POST) method that Rocket.Chat will use to submit information to the `API URL.`

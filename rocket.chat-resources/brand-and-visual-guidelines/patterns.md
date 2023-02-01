@@ -19,8 +19,8 @@ or on the Figma file at:
 
 ### Pattern Examples
 
-![](<../../.gitbook/assets/image (668).png>) ![](<../../.gitbook/assets/image (689).png>)
+![](<../../../.gitbook/assets/image (668).png>) ![](<../../../.gitbook/assets/image (689).png>)
 
-![](<../../.gitbook/assets/image (647) (1).png>) ![](<../../.gitbook/assets/image (681).png>)
+![](<../../../.gitbook/assets/image (647) (1).png>) ![](<../../../.gitbook/assets/image (681).png>)
 
-![](<../../.gitbook/assets/image (646) (1).png>)
+![](<../../../.gitbook/assets/image (646) (1).png>)

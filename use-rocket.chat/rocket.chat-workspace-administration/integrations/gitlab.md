@@ -24,11 +24,11 @@ Follow these steps below to do that
 
 ### Creating a new GitLab webhook integration
 
-* On your Rocket.Chat workspace, go to **Administration** -> **Workspace** -> **Integrations**
+* On your Rocket.Chat workspace, go to **Administration** -> **Workspace** -> **Integrations**&#x20;
 * Switch to the **Incoming** tab and create a **New** Integration
 * Fill in the details of your webhook including the **name** of the webhook, the **room** to post into, the **user to post as** and enable it
 
-<figure><img src="../../../.gitbook/assets/GitLab new incoming Webhook.png" alt=""><figcaption><p>GitLab new incoming Webhook</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/GitLab new incoming Webhook.png" alt=""><figcaption><p>GitLab new incoming Webhook</p></figcaption></figure>
 
 * Enable Scripts and paste the following code into the Scripts box
 
@@ -406,23 +406,25 @@ See: ${data.object_attributes.url}`
 * The **Webhook URL** and **Token** are generated after saving
 * Copy these credentials, they will be used later
 
-<figure><img src="../../../.gitbook/assets/GitLab webhook url and token.png" alt=""><figcaption><p>GitLab webhook url and token</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/GitLab webhook url and token.png" alt=""><figcaption><p>GitLab webhook url and token</p></figcaption></figure>
+
+
 
 ### GitLab Webhooks settings
 
-After creating the new incoming webhook integration on Rocket.Chat, it is time to link it up with the GitLab repository.
+After creating the new incoming webhook integration on Rocket.Chat, it is time to link it up with the      GitLab repository.
 
 * Go to your GitLab project page then navigate to **Settings** > **Webhooks**
-* Fill in the `URL` and `token` you copied from the Rocket.Chat setting
+* Fill in the `URL` and `token` you copied from the Rocket.Chat setting&#x20;
 * Select the type of events you want to be notified on and **Add webhook**
 
-<figure><img src="../../../.gitbook/assets/GitLab webhook setting.png" alt=""><figcaption><p>GitLab webhook setting</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/GitLab webhook setting.png" alt=""><figcaption><p>GitLab webhook setting</p></figcaption></figure>
 
 {% hint style="success" %}
 After successful configuration, you can test the Webhook with any event trigger and see the notification in your specified Rocket.Chat room.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/GitLab webhook test.png" alt=""><figcaption><p>GitLab webhook test</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/GitLab webhook test.png" alt=""><figcaption><p>GitLab webhook test</p></figcaption></figure>
 
 {% hint style="info" %}
 More material
