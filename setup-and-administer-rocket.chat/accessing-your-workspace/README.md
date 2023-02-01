@@ -9,7 +9,7 @@ description: >-
 
 ****[**Rocket.Chat Setup Wizard**](rocket.chat-setup-wizard.md):  Understand the preliminary steps required to link Rocket.Chat server to Rocket.Chat client apps.   &#x20;
 
-****[**Admin Account Creation**](creating-the-first-administrator.md):  Understand how to become an administrator and how to delegate administrator roles to others in a workspace.
+****[**Admin Account Creation**](creating-the-first-administrator.md):  Understand how to become the first administrator and how to delegate administrator roles to others in a workspace.
 
 ****[**Basic White-labeling**](../basic-white-labeling.md): Customize your Rocket.Chat server to have the look and feel of your organization.  &#x20;
 
