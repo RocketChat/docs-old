@@ -4,11 +4,28 @@ description: Let your users log in via Facebook, Google, LinkedIn, GitHub, and m
 
 # OAuth
 
-Rocket.Chat supports several different ways to authenticate, beyond the basic username/password authentication. Most authentication providers require a clientID and a secret.
+Rocket.Chat supports several different ways to authenticate beyond the basic username/password authentication. Most authentication providers require a client ID and a secret.
 
 To set up your desired provider:
 
-Go to **Administration > Workspace > Settings> OAuth**
+* Navigate to **Administration > Workspace > Settings> OAuth**
+
+## Add Custom OAuth
+
+To add a custom OAuth:
+
+* Click **Add custom oAuth**
+* Give a unique name for your custom OAuth
+* Click **Add**
+*   When setting up your OAuth Provider, you'll have to inform a Callback URL. Use&#x20;
+
+    ```
+    https://yourcompany.rocket.chat/_oauth/customoauth
+    ```
+
+## Refresh OAuth Services
+
+Click Refresh OAuth Services to refresh the options that are displayed on the login screen based on the settings you saved.
 
 ## OAuth Methods
 
@@ -36,18 +53,3 @@ Go to **Administration > Workspace > Settings> OAuth**
 [wordpress.md](wordpress.md)
 {% endcontent-ref %}
 
-## Add Custom OAuth
-
-To add custom OAuth:
-
-1. Click **Add custom oAuth**
-
-![](<../../../../.gitbook/assets/image (134).png>)
-
-1. Give a unique name for the custom OAuth
-
-![](<../../../../.gitbook/assets/image (135).png>)
-
-## Refresh OAuth Services
-
-Click Refresh OAuth Services to refresh the options that are displayed on the login screen based on the settings you saved, as shown below:
