@@ -85,4 +85,4 @@ The following settings are available:
 
 ## Info Available to Users
 
-Users can see if a channel's messages will be pruned by either scrolling to the very top of the message history or opening the channel info. A message is displayed if a policy (global or per-channel) is present. For example, _Messages older than 30 days are automatically pruned here,_ or _Unpinned files older than a year are automatically pruned here_.
+Users can see if a channel's messages are going to be pruned by either scrolling to the very top of the message history or opening the channel info. A message is displayed if a policy (global or per-channel) is present. For example, _Messages older than 30 days are automatically pruned here,_ or _Unpinned files older than a year are automatically pruned here_.
