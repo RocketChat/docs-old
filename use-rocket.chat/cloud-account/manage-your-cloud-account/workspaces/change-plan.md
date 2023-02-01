@@ -4,7 +4,7 @@
 This is currently available for Rocket.Chat SaaS workspaces.
 {% endhint %}
 
-You can change your workspace plan from the Rocket.Chat Cloud Console, with the option to upgrade, downgrade or switch to daily, monthly, or yearly plans.
+You can change your workspace plan from the Rocket.Chat Cloud Console, with the option to upgrade, downgrade or switch to monthly or yearly plans.
 
 ## Upgrade/Downgrade your plan
 
