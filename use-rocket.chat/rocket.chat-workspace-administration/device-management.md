@@ -13,10 +13,14 @@ Click on the device name to see details about the device, such as Client, Operat
 
 ### To search for devices:
 
-You can easily search for devices by the user name**,** device model, or device operating system.
+You can easily search for devices by username**,** device model, or device operating system.
 
 ### **To log out of the device:**
 
 * Choose the device that you want to disconnect and then click **Logout**.&#x20;
 
 If the device is logged out, the user will be notified that the workspace admin has ended the session on the device. Users can sign in again with the same devices when they want.
+
+{% hint style="info" %}
+Follow this [guide](../workspace-administration/settings/device-management-settings.md) to configure security and access control policies for device management
+{% endhint %}
