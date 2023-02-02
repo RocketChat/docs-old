@@ -60,7 +60,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 ****[**OTR**](otr.md): Under off-the-record chats, enable private, encrypted messaging in direct discussions, which are also deleted when conversations are finalized.
 
-****[**Push**](../../workspace-administration/settings/push.md): Customize notification behaviors for users using the Rocket.Chat mobile apps.
+****[**Push**](push-notifications-admin-guide.md): Customize notification behaviors for users using the Rocket.Chat mobile apps.
 
 ****[**Rate Limiter**](rate-limiter.md): Limit network traffic and potential bot attacks on your Rocket.Chat server by limiting the number of hits on the server within a specified timeframe.
 
