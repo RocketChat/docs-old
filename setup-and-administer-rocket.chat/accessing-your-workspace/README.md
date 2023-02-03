@@ -1,3 +1,10 @@
+---
+description: >-
+  This guide walks users with administrator privileges or the first person to
+  set up Rocket.Chat, customize it, and invite new users. The guide has several
+  sections which are enlisted below.
+---
+
 # Accessing Your Workspace
 
 This guide onboards users with administrator privileges or the first user to set up Rocket.Chat, customize it, and invite members of their organization to the workspace. The sections of this guide are enlisted below.
