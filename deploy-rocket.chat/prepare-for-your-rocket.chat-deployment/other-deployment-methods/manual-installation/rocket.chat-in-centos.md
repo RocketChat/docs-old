@@ -121,7 +121,7 @@ sudo systemctl enable rocketchat && sudo systemctl start rocketchat
 
 ## Configure your Rocket.Chat server
 
-Open a web browser, and go to the configured ROOT URL (http://your-host-name.com-as-accessed-from-internet:3000). Follow the configuration prompts to set up an admin account, your server info, and your organization info.
+Open a web browser, and go to the configured ROOT URL (http://your-host-name.com-as-accessed-from-internet:3000). Follow the configuration prompts to [set up an admin account, your server info, and your organization info.](https://docs.rocket.chat/setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard#setup-wizard)
 
 ## Troubleshooting
 
@@ -148,4 +148,3 @@ Add this environmental variable to the Rocket.Chat service file `(/usr/lib/syste
 ```
 Environment=LD_PRELOAD=/opt/Rocket.Chat/programs/server/npm/node_modules/sharp/vendor/lib/libz.so
 ```
-
