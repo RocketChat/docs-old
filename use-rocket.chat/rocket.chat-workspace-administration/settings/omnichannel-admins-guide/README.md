@@ -8,14 +8,16 @@ Configure how [Omnichannel](../../../omnichannel/) can be used to streamline con
 
 Enabling and using Rocket.Chat Omnichannel gives seamless, effortless, and high-quality customer experiences all within a defined channel on your Rocket.Chat workspace.
 
-To access this section, go to **Administration** > **Workspace** > **Settings** > **Omnichannel**
+To access this section:
+
+&#x20;Navigate to **Administration** > **Workspace** > **Settings** > **Omnichannel**
 
 {% hint style="info" %}
-Remember to hit **Save Changes** in order to apply any changes made.
+Remember to hit **Save Changes** in order to apply any changes made here.
 {% endhint %}
 
 * **Enable Omnichannel**: When set to true, it enables the Omnichannel feature on your Rocket.Chat instance.\
-  Workspace admins now see the [Omnichannel ](../../../omnichannel/)section to manage, while Omnichannel [Agents ](../../../omnichannel/agents.md)and [Managers ](../../../omnichannel/managers.md)have access to their respective Omnichannel features.
+  Workspace administrators and omnichannel managers can now see the [Omnichannel ](../../../omnichannel/)section to manage, while Omnichannel [Agents ](../../../omnichannel/agents.md)have access to their respective Omnichannel features.
 * **Request comment when closing conversation**: If enabled, the agent will need to set a comment before the conversation is closed.
 * **Accept new omnichannel requests when the agent is idle**: Toggle true to let Omnichannel agents receive new chat requests when they are idle.
 * File Uploads Enabled: Enable this to allow file uploads on Omnichannel communication channels.
@@ -33,7 +35,7 @@ Canned Response allows for OmnichannelAgents to use predefined message replies.
 
 * **Enable Canned Responses**: Turn on to enable the use of Canned Replies.
 
-Learn more about Canned Responses below
+Learn more about Canned Responses below:
 
 {% content-ref url="../../../omnichannel/canned-responses/" %}
 [canned-responses](../../../omnichannel/canned-responses/)
@@ -45,7 +47,7 @@ Use an external frame to embed Rocket.Chat into your own solution or interact wi
 
 * **External frame enabled**: Turn on to enable External frame.
 * **External frame URL**: Add the URL of your external frame.
-* **Encryption key (JWK)**: If provided it will encrypt the user's token with the provided key and the external system will need to decrypt the data to access the token.
+* **Encryption key (JWK)**: If provided, it will encrypt the user's token with the provided key, and the external system will need to decrypt the data to access the token.
 
 ## Live Chat
 
@@ -53,7 +55,7 @@ Manage Omnichannel Live Chat settings.
 
 * **Livechat Title**: The title shown on your Live Chat widget.
 * **Livechat title background color**: The Live Chat background color.
-* **Enable message character limit**: Toggle on to enable message character limit.
+* **Enable message character limit**: Toggle on to enable the message character limit.
 * **Livechat message character limit**: Set a limit on message characters allowed on the visitor.
 * **Display Offline Form**: When enabled, the offline form will be seen by visitors when there is no available agent.
 * **Clear guest session when chat ended**: Toggle on to clear guest session when a chat ends.
@@ -140,11 +142,11 @@ Configure Omnichannel Queue and how simultaneous chats get managed.
 
 * **Waiting queue**: Turn on to enable the Omnichannel queue.
 * **Waiting queue message**: A message that is displayed to the visitor when they get in the queue.
-* **Max. number of simultaneous chats**: Set the maximum number of simultaneous chats that agents can attend to.
+* **Max. number of simultaneous chats**: Set the maximum number of simultaneous chats that agents can tend to.
 * **Calculate and dispatch Omnichannel waiting queue statistics**: Processing and dispatching queue statistics such as position and estimated waiting time. If the _Livechat channel_ is not in use, it is recommended to disable this setting and prevent the server from doing unnecessary processes.
 * **Queue processing delay timeout**: Set time in seconds in which queue delay processing will timeout.
 * **Number of recent chats to calculate estimate wait time**: The number of served chats to be used when calculating queue time.
-* **Maximum waiting time in queue**: The maxi.mum time in minutes for which a chat can be kept in queue, `-1 means unlimited`.
+* **Maximum waiting time in queue**: The maximum time in minutes for which a chat can be kept in queue, `-1 means unlimited`.
 
 See more about Queuing here.
 
@@ -158,13 +160,13 @@ Routing allows you to define the behavior of your Live Chat queues.
 
 * **Omnichannel Routing Method**: Select your preferred routing method. Please refer to this article [queue-types-routing-algorithm.md](queue-types-routing-algorithm.md "mention") for information on the types of routing methods used in Rocket.Chat.
 * **Accept with No Online Agents**: When enabled, Omnichannel conversations will be accepted even when there are no Agents online.
-* **Assign new conversations to bot agent**: Enable this and the routing system will attempt to find a bot agent before addressing new conversations to a human agent.
+* **Assign new conversations to bot agent**: Enable this, and the routing system will attempt to find a bot agent before addressing new conversations to a human agent.
 * **Max number of items displayed in the queue**: Set the maximum number of items displayed in the incoming Omnichannel queue.
 * **Show Queue List to All Agents**: Enable this to show the Omnichannel Queue list to all  [Omnichannel Agents](../../../omnichannel/agents.md).
 * **External Queue Service URL**: Set your External Queue Service URL if your _Omnichannel Routing Method_ is [External Service](queue-types-routing-algorithm.md#external-service).
 * **Secret Token**: Enter the secret token.
 * **Last-Chatted Agent Preferred**: Enable to allow the allocation of chats to the agent who previously interacted with the same visitor if the agent is available when the chat starts.
-* **Assign new conversations to the contact manager**: This setting allocates a chat to the assigned Contact Manager, as long as the Contact Manager is online when the chat starts.
+* **Assign new conversations to the contact manager**: This setting allocates a chat to the assigned Contact Manager as long as the Contact Manager is online when the chat starts.
 
 ## Sessions
 

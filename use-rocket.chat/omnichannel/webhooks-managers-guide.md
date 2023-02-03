@@ -2,11 +2,13 @@
 
 Omnichannel webhooks allow you to integrate the Rocket.Chat Omnichannel to any third-party system, e.g., CRM, Zoho, etc
 
-To access **Webhooks** settings, go to **Administration** > **Workspace** > **Omnichannel** > **CRM Integration**.
+To access **Webhooks** settings:
+
+Navigate to **Administration** > **Workspace** > **Omnichannel** > **CRM Integration**.
 
 ## Create Omnichannel Webhook
 
-To create a new Omnichannel webhook, you need to provide the following details
+To create a new Omnichannel webhook, you need to provide the following details:
 
 * **Webhook URL**: The Webhook URL from the system you want to connect(destination).
 * **Secret Token**: Enter the secret token that can be used to verify the webhook.
@@ -14,7 +16,7 @@ To create a new Omnichannel webhook, you need to provide the following details
 {% hint style="info" %}
 The field **Secret Token** is sent to a header `X-RocketChat-Livechat-Token` so you can validate if the request became from Livechat.
 
-If your endpoint returns a response status other than `200`, Rocket.Chat will retry 10 times waiting 10 seconds between retries.
+If your endpoint returns a response status other than `200`, Rocket.Chat will retry 10 times, waiting 10 seconds between retries.
 {% endhint %}
 
 * **Send Request on**: Select the action(s) you want this integration to have
