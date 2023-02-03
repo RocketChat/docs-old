@@ -45,8 +45,8 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 [creating-the-first-administrator.md](setup-and-administer-rocket.chat/accessing-your-workspace/creating-the-first-administrator.md)
 {% endcontent-ref %}
 
-{% content-ref url="use-rocket.chat/user-guides/connecting-to-a-server.md" %}
-[connecting-to-a-server.md](use-rocket.chat/user-guides/connecting-to-a-server.md)
+{% content-ref url="use-rocket.chat/user-guides/access-your-workspace.md" %}
+[access-your-workspace.md](use-rocket.chat/user-guides/access-your-workspace.md)
 {% endcontent-ref %}
 
 {% content-ref url="use-rocket.chat/rocket.chat-workspace-administration/" %}

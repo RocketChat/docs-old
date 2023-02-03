@@ -4,83 +4,54 @@
 [**👉 Trouble installing or deploying Rocket.Chat?** Join our Weekly Technical Helpline to get real-time help from our team!](https://app.livestorm.co/rocket-chat/rocketchats-weekly-technical-helpline?type=detailed)
 {% endhint %}
 
-This installation guide was tested in the following environment:
+### Requirements
 
-* Rocket.Chat 3.9.0
-* OS: CentOS 7.6
-* MongoDB 4.0.9
-* NodeJS 12.18.4
+Depending on the version of [Rocket.Chat](https://rocket.chat/) you want to install, check the [release notes](https://github.com/RocketChat/Rocket.Chat/releases) to see the supported engine versions for MongoDB and NodeJs, and install as recommended.&#x20;
 
-{% hint style="info" %}
-As from Rocket.Chat 4.4.0, NodeJS version 14.x.x is used.
-{% endhint %}
+*   **MongoDB**
 
-## Install necessary dependency packages
+    Please refer to the official MongoDB documentation on [installing MongoDB on CentOS](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-red-hat/).&#x20;
+*   **NodeJS**
 
-Update package list and configure yum to install the official MongoDB packages with the following yum repository file:
+    Follow the [official guide](https://nodejs.org/en/download/package-manager/#centos-fedora-and-red-hat-enterprise-linux) to install NodeJS on CentOS. You can also use third-party tools like [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [n](https://www.npmjs.com/package/n).
 
-```bash
-sudo yum -y check-update
-```
+### Install Rocket.Chat
+
+* Install the required dependency packages.
 
 ```bash
-cat << EOF | sudo tee -a /etc/yum.repos.d/mongodb-org-4.0.repo
-[mongodb-org-4.0]
-name=MongoDB Repository
-baseurl=https://repo.mongodb.org/yum/redhat/7/mongodb-org/4.0/x86_64/
-gpgcheck=1
-enabled=1
-gpgkey=https://www.mongodb.org/static/pgp/server-4.0.asc
-EOF
+sudo yum install -y GraphicsMagick
 ```
 
-Configure Node.js to be installed via package manager:
-
-```bash
-sudo yum install -y curl && curl -sL https://rpm.nodesource.com/setup_12.x | sudo bash -
-```
-
-Install build tools, MongoDB, nodejs and graphicsmagick:
-
-```bash
-sudo yum install -y gcc-c++ make mongodb-org nodejs
-```
-
-```bash
-sudo yum install -y epel-release && sudo yum install -y GraphicsMagick
-```
-
-Using npm install inherits and n, and the node version required by Rocket.Chat:
-
-```bash
-sudo npm install -g inherits n && sudo n 12.18.4
-```
-
-## Install Rocket.Chat
-
-Download the latest Rocket.Chat version:
+* Download and extract the [latest release ](https://github.com/RocketChat/Rocket.Chat/releases/latest)of Rocket.Chat.
 
 ```bash
 curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
 ```
 
+* Extract the Rocket.Chat server files.
+
 ```bash
 tar -xzf /tmp/rocket.chat.tgz -C /tmp
 ```
 
-Install (this guide uses /opt but feel free to choose a different directory):
-
 ```bash
-cd /tmp/bundle/programs/server && npm installs
+cd /tmp/bundle/programs/server && npm install
 ```
 
+* Move the extracted files to the _/opt_ directory.
+
 ```bash
-sudo mv /tmp/bundle /opt/Rocket.Chath
+sudo mv /tmp/bundle /opt/Rocket.Chat
 ```
+
+{% hint style="info" %}
+This guide uses the _/opt directory_. However, you can choose your preferred directory.
+{% endhint %}
 
 ## Configure the Rocket.Chat service
 
-Add the Rocket.Chat user, set the right permissions on the Rocket.Chat folder and create the Rocket.Chat service file:
+* Add the Rocket.Chat user and set the proper permissions on the Rocket.Chat folder.
 
 ```bash
 sudo useradd -M rocketchat && sudo usermod -L rocketchat
@@ -90,7 +61,9 @@ sudo useradd -M rocketchat && sudo usermod -L rocketchat
 sudo chown -R rocketchat:rocketchat /opt/Rocket.Chat
 ```
 
-```bash
+* Create the Rocket.Chat service file.
+
+```
 cat << EOF |sudo tee -a /lib/systemd/system/rocketchat.service
 [Unit]
 Description=The Rocket.Chat server
@@ -107,46 +80,60 @@ WantedBy=multi-user.target
 EOFash
 ```
 
-Open the Rocket.Chat service file just created (`/usr/lib/systemd/system/rocketchat.service`) using sudo and your favorite text editor, and change the ROOT\_URL environmental variable to reflect the URL you want to use for accessing the server (optionally change MONGO\_URL, MONGO\_OPLOG\_URL and PORT):
+* &#x20;Using `sudo` and your preferred text editor, open the Rocket.Chat service file just created (`/usr/lib/systemd/system/rocketchat.service`). Change the `ROOT_URL` environmental variable to reflect the URL you want to access the server with.  Optionally, you can change the `MONGO_URL`, `MONGO_OPLOG_URL` and `PORT` variables.
 
-```bash
+```
 MONGO_URL=mongodb://localhost:27017/rocketchat?replicaSet=rs01
 MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=rs01
 ROOT_URL=http://your-host-name.com-as-accessed-from-internet:3000
 PORT=3000
 ```
 
-Setup storage engine and replication for MongoDB (mandatory for versions > 1), and enable and start MongoDB and Rocket.Chat:
+* Set up the storage engine and replication for MongoDB.
 
-```bash
+```
 sudo sed -i "s/^#  engine:/  engine: mmapv1/"  /etc/mongod.conf
 ```
 
-```bash
+```
 sudo sed -i "s/^#replication:/replication:\n  replSetName: rs01/" /etc/mongod.conf
 ```
 
-```bash
+{% hint style="warning" %}
+The MongoDB replica set is mandatory for Rocket.Chat > 1.0.0.
+{% endhint %}
+
+* Enable and start MongoDB.
+
+```
 sudo systemctl enable mongod && sudo systemctl start mongod
 ```
 
-```bash
+```
 mongo --eval "printjson(rs.initiate())"
 ```
 
-```bash
+* Enable and start Rocket.Chat
+
+```
 sudo systemctl enable rocketchat && sudo systemctl start rocketchat
 ```
 
-## Optional configurations
-
-[Configure firewall rule](../../../rocket.chat-environment-configuration/optional-configurations.md) [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md) \[Configure mongo access control] \[Configure production values for mongodb]
-
 ## Configure your Rocket.Chat server
 
-Open a web browser and access the configured ROOT\_URL (`http://your-host-name.com-as-accessed-from-internet:3000`), follow the configuration steps to set an admin account and your organization and server info.
+Open a web browser, and go to the configured ROOT URL (http://your-host-name.com-as-accessed-from-internet:3000). Follow the configuration prompts to set up an admin account, your server info, and your organization info.
 
-## ZLIB version problem
+## Troubleshooting
+
+### **502 Bad Gateway**
+
+When installing Rocket.Chat on CentOS or RHEL, you may encounter a `502 Bad Gateway` error after setting up a reverse proxy with Nginx. To fix this, enable loopback for your upstream in SELinux.
+
+```
+setsebool -P httpd_can_network_connect 1
+```
+
+### ZLIB version problem
 
 Some users had experienced problems starting Rocket.Chat server in CentOS because their zlib version is not compatible with Rocket.Chat.
 
@@ -156,16 +143,9 @@ If you find an error message similar to the following in the logs:
 Exception in callback of async function: Error: /lib64/libz.so.1: version `ZLIB_1.2.9' not found
 ```
 
-Add this environmental variable in the Rocket.Chat service file (/usr/lib/systemd/system/rocketchat.service):
-
-Environment=LD\_PRELOAD=/opt/Rocket.Chat/programs/server/npm/node\_modules/sharp/vendor/lib/libz.so
-
-## Troubleshooting
-
-**502 Bad Gateway**
-
-If you are installing Rocket.Chat on CentOS or RHEL you may encounter a 502 Bad Gateway error after setting up set up a reverse proxy with Nginx. To fix this you need to enable loopback for your upstream in SELinux.
+Add this environmental variable to the Rocket.Chat service file `(/usr/lib/systemd/system/rocketchat.service)`:
 
 ```
-setsebool -P httpd_can_network_connect 1
+Environment=LD_PRELOAD=/opt/Rocket.Chat/programs/server/npm/node_modules/sharp/vendor/lib/libz.so
 ```
+
