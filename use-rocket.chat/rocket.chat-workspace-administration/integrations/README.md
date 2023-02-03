@@ -1,3 +1,7 @@
+---
+description: Integrate tools and services to ease everyday workflows.
+---
+
 # Integrations
 
 Rocket.Chat supports Webhooks to integrate tools and services you like into the platform. Webhooks are simple event notifications via HTTP POST. This way, any application implementing a Webhook is able to POST a message to a Rocket.Chat instance and much more.
