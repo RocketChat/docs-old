@@ -37,7 +37,7 @@ You receive a success message with credentials, as shown below:
 ## Slash Commands
 
 {% hint style="info" %}
-Here are the shortcuts you can use in Facebook Bot:
+Here are the shortcuts you can use in Twitter Bot:
 
 1. **/twitter authorize** Starts the Twitter authorization process
 2. **/twitter unauthorize** Revoke twitter authorization
