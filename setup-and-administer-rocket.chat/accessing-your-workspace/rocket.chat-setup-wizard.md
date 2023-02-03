@@ -11,20 +11,17 @@ Rocket.Chat provides multiple [Rocket.Chat Client Apps](../../deploy-rocket.chat
 {% hint style="info" %}
 This guide proceeds with the assumption you have either the latest Rocket.Chat Desktop client or Browser installed.
 
-The server used for this guide is available at [http://localhost:3000](http://localhost:3000) but if you are hosting your instance, it will is the link to your website with the port you specified in your settings.
+The server used for this guide is available at [http://localhost:3000](http://localhost:3000), but if you are hosting your instance, it will is the link to your website with the port you specified in your settings.
 {% endhint %}
 
 ### Adding Rocket.Chat server to Desktop Client
 
 * After installing the [Rocket.Chat Desktop Client](../../deploy-rocket.chat/installing-client-apps/#desktop-apps), launch the application.
 * An interface is presented to you with a text field to input your server URL. Enter your server URL, in this case, [http://localhost:3000](http://localhost:3000), for a local setup or specify the link to the domain of your server.
-
-
-
 * Click **Connect.**
 
 {% hint style="info" %}
-Note that wherever the link, [http://localhost:3000](http://localhost:3000) is used here, you have to specify your server's domain rather than [http://localhost:3000](http://localhost:3000).
+Note that wherever the link [http://localhost:3000](http://localhost:3000) is used here, you have to specify your server's domain rather than [http://localhost:3000](http://localhost:3000).
 {% endhint %}
 
 If you initially had any server linked on your client app, you can add another by clicking on the plus sign icon by the left of the navigation menu.
@@ -32,8 +29,6 @@ If you initially had any server linked on your client app, you can add another b
 ### Accessing Rocket.Chat Using Browser
 
 To access Rocket.Chat in your browser, yo; you should type the link [`http://localhost:3000`](http://localhost:3000) or your server's domain in your browser.
-
-> In&#x20;
 
 ## Setup Wizard
 
@@ -48,7 +43,7 @@ To launch your workspace, it is required to do a simple 4-step setup.
 We recommend you register your workspace, which automatically creates a [Rocket.Chat Cloud Account](broken-reference) for you, and you can enjoy all its benefits like;
 
 * Mobile [**push notifications**](../../use-rocket.chat/rocket.chat-mobile/push-notifications/)**.**
-* Omnichannel: Communicate with your customers from Rocket.Chat without requiring them to switch from their favorite channels such as  [**WhatsApp**](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/whatsapp/), [**Facebook**](../../use-rocket.chat/omnichannel/facebook-messenger-managers-guide.md), [**Instagram**](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/instagram-direct/), [**Telegram**](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/telegram-app/), [**Twitter**](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/twitter-app/), [**SMS**](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/sms.md), and others.
+* ****[**Omnichannel**](../../use-rocket.chat/omnichannel/)****
 * Access to [**marketplace apps**](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/).
 {% endhint %}
 
@@ -84,8 +79,6 @@ Suppose you choose to register your workspace, Rocket.Chat collects the followin
 * Ensure that you agree to the [**Terms**](../../rocket.chat-legal/terms.md) and [**Privacy Policy**](../../rocket.chat-privacy-and-security/privacy-policies/) of Rocket.Chat before clicking **Continue**.
 * Open up your email inbox and click **verify registration.** Make sure the security codes match.
 * Confirm the registration and go back to your server.
-
-
 
 #### Continue as Standalone
 
