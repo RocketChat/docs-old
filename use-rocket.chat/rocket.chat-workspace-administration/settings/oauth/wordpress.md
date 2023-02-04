@@ -1,68 +1,47 @@
 # WordPress OAuth Setup
 
-The easiest way to configure Rocket.Chat using WordPress as your identity backend is to use the MiniOrange oAuth Plugin Version 2.5.6 or higher: [https://wordpress.org/plugins/miniorange-oauth-20-server/](https://wordpress.org/plugins/miniorange-oauth-20-server/)
+The easiest way to configure Rocket.Chat using WordPress as your identity backend is to use the [MiniOrange OAuth Plugin](https://wordpress.org/plugins/miniorange-oauth-20-server/) (Version 2.5.6 or higher)
 
-## Instructions
+To enable **WordPress OAuth** on your workspace,
 
-* Sign into your Rocket.Chat instance with an administrator account.
-* Proceed to the `oAuth` section under `Administration`.
-* Click on **Add custom oAuth** to create a new OAuth Application, as depicted below:
+* Log into your WordPress site as an administrator and navigate to **Plugins**. Click **Add New**.
+* Search for "**MiniOrange OAuth Server**."
+* Install and activate the **WP OAuth Server ( OAuth Provider )** plugin.
+* Navigate to the `MiniOrange oAuth Server` . Click **Add client** (Red).
+* Fill in the required information, including the **Callback URL**, and click **Save client**.
+* Copy your **Client ID** and **Secret**.
+* From the **Endpoints** tab, copy the **Authorize Endpoint**, **Access Token Endpoint**, and **Get User Info Endpoint**.
+* Navigate to **OAuth** settings (**Administration > Workspace > Settings> OAuth)** in your workspace.
+* In the **WordPress** tab, configure the **OAuth credentials** you copied earlier in this manner:
 
-![](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-03.png)
+<details>
 
-* In the **Application Configuration** tab, copy the `Callback URL` \(example: `http://your.domain.com/_oauth/id`\), and put it into a notepad, or another text application, as we will need it in the next few steps.
-* Log into your WordPress site as an administrator and navigate to **Add New** under `Plugins`.
-* Search for "MiniOrange oAuth Server" \(Red below\).
-* Install and activate the `MiniOrange oAuth Server` plugin \(Purple, and then Green\).
+<summary>WordPress OAuth Configuration</summary>
 
-![](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-8.png)
-
-* Navigate to the `MiniOrange oAuth Server` Menu item, and click though the quick guided tour.
-* Click **Add client** \(Red\).
-
-![](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-10.png)
-
-* Give your client a name \(Red\), enter the Callback URL you saved before \(Purple\), and click **Save client**.
-
-![](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-11.png)
-
-* It now shows your `Client ID` \(Red\) and `Client Secret` \(Purple\). Copy them into the same notepad, or another text application where you have your Callback URL.
-
-![](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-12.png)
-
-* Click the **Endpoints** tab, and copy each line from the purple box to your notepad. Don't forget to note the endpoint each line represents.
-
-![](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-13.png)
-
-* Go back to the custom oAuth you already created in Rocket.Chat, and match the information saved in the notepad into the correct fields listed below and in the screenshot:
-* **Enable** = True
-* **URL** = `https://your.domain.com` \(do not include a trailing “/”\)
-* **Token Path** = Access Token Endpoint
-* **Token Sent Via** = Payload
-* **Identity Token Sent Via** = Payload
-* **Identity Path** = Get User Info Endpoint
-* **Authorize Path** = Authorize Endpoint
-* **Scope** = Profile
+* WordPress Login => true
+* **URL** = `https://your.domain.com` (omit any trailing “/”).
 * **Id** = Client ID
 * **Secret** = Client Secret
-* **Login Style** = Redirect \(you can use any of them, but redirect is really the only one that plays nice with mobile and desktop apps\)
-* **Username field** = username \(a normal hook for a WordPress username is user\_login, but the plugin rewrites this in the JSON response to Rocket for username\)
-* **Merge users** = true
+* **Identity Path** = Get User Info Endpoint
+* **Identity Token Sent Via** = Payload
+* **Token Path** = Access Token Endpoint
+* **Authorize Path** = Authorize Endpoint
+* **Scope** = Profile
 
-![](https://savvymatthew.sfo2.cdn.digitaloceanspaces.com/rocketchat-docs/rct-oauth-step-14.png)
+</details>
 
-### Button Customization
+* Click **Save Changes**. A **Sign in with WordPress** button appears on your workspace's login page. Users can now **sign in with WordPress** by clicking that button.
 
-In regards to the customization of the **Log in** button, you can customize it without affecting oAuth working.
+{% hint style="info" %}
+For button customization, your inputted button text won't be displayed.  However, the app will display your custom OAuth name at the top.
+{% endhint %}
 
-**Note**: When using mobile and desktop apps, your imputed **Button** text is not displayed. Instead, the apps will display your custom oAuth name at the top.
+### Troubleshooting WordPress OAuth
 
-### Troubleshooting oAuth
+Whenever you have an issue with OAuth in WordPress, enable **Level 2 Logging** to view your logs.
 
-The first thing to do when having an issue with oAuth is to enable `Level 2 Logging` to see what's going on: `Administration > Logs > Log Level > View Logs`.
+* Go to **Administration > Logs > Log Level > View Logs.** &#x20;
+* While monitoring the log, open the login screen in an incognito browser and attempt a login.
+* The log displays the OAuth response in real time, which provides helpful troubleshooting information.
 
-When looking at the logs, you may want to open an incognito mode browser window for the log in screen, and have the logs and your login screen side-by-side. When you attempt a login, the log displays the oAuth response in real time, which gives you valuable information to help you troubleshoot your issue.
-
-Here are some forum threads that provide issues experienced by others:
-
-**The redirect URI provided is missing or does not match** [https://wordpress.org/support/topic/rocketchat-wordpress-the-redirect-uri-provided-is-missing-or-does-not-match/](https://wordpress.org/support/topic/rocketchat-wordpress-the-redirect-uri-provided-is-missing-or-does-not-match/)
+Visit this [forum ](https://wordpress.org/support/topic/rocketchat-wordpress-the-redirect-uri-provided-is-missing-or-does-not-match/)for more information on troubleshooting for "**The redirect URI provided is missing or does not match."**

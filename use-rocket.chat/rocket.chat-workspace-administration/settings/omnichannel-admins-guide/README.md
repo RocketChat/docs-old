@@ -27,7 +27,7 @@ Remember to hit **Save Changes** in order to apply any changes made here.
 ## Canned Responses <a href="#a4x6dcwkpxm" id="a4x6dcwkpxm"></a>
 
 {% hint style="info" %}
-Canned Responses is an [Enterprise](../../../../setup-and-administer-rocket.chat/enterprise-edition-trial/) feature. ![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (23).jpg>)
+Canned Responses is an [Enterprise](../../../../setup-and-administer-rocket.chat/enterprise-edition-trial/) feature. ![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2).jpg>)
 {% endhint %}
 
 Under this section, you can enable or disable the use of Canned Responses.\
@@ -88,7 +88,7 @@ See how to [install the Live Chat widget](../../../omnichannel/livechat-widget-i
 Set your business hours to automatically manage when your Live Chat agents are online.
 
 {% hint style="info" %}
-Configuring multiple business hours is an [Enterprise](../../../../setup-and-administer-rocket.chat/enterprise-edition-trial/) feature. ![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (23).jpg>)
+Configuring multiple business hours is an [Enterprise](../../../../setup-and-administer-rocket.chat/enterprise-edition-trial/) feature. ![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2).jpg>)
 {% endhint %}
 
 * **Business hours enabled**: Toggle on to enable business hours.
@@ -136,7 +136,7 @@ Configure GDPR data processing and consent.
 
 ## Queue Management <a href="#uuvo8ic5yio" id="uuvo8ic5yio"></a>
 
-<figure><img src="../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (23).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2).jpg" alt=""><figcaption></figcaption></figure>
 
 Configure Omnichannel Queue and how simultaneous chats get managed.
 

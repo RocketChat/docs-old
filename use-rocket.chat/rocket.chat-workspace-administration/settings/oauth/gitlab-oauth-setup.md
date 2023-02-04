@@ -1,27 +1,13 @@
 # GitLab OAuth Setup
 
-To use GitLab OAuth on your Rocket.Chat server, you are required to have a GitLab `URL`, `Id` and `Secret` gotten from the GitLab application.
+Google OAuth requires you to fill in the Application **ID** and **Secret of** your GitLab OAuth app.
 
-Follow these steps to enable GitLab OAuth on your server.
+To enable **GitLab OAuth** on your workspace,
 
-* First, go to [Gitlab Application](https://gitlab.com/-/profile/applications)
-* You are presented with fields to complete. Fill in the Application name, redirect URI and other details then hit **Save application**
-
-![](<../../../../.gitbook/assets/image (661) (1) (1).png>)
-
-* After creating, you see a page with all the details of your newly created app
-
-![](<../../../../.gitbook/assets/image (681) (1) (1) (1).png>)
-
-* Copy these details and go to the GitLab OAuth section on your Rocket.Chat server by navigating to **Administration** > **Workspace** > **Settings** > **OAuth**
-* Fill in the information and hit **Save changes** to commit
-
-![](<../../../../.gitbook/assets/image (670) (1) (1) (1).png>)
-
-* After saving, you will now have the GitLab OAuth button on you login and register pages
-
-![](<../../../../.gitbook/assets/image (641) (1) (1) (1).png>)
-
-When used for authentication, a prompt is gotten for users to accept access
-
-![](<../../../../.gitbook/assets/image (686) (1) (1) (1).png>)
+* Go to [GitLab Applications](https://gitlab.com/-/profile/applications).
+* Fill in the Application **Name**, **redirect URI,** and **Scope**. Click **Save application.**
+* After the application is created successfully, the OAuth credentials are displayed.
+* Copy the **Application ID** and **Secret.**
+* Navigate to **OAuth** settings (**Administration > Workspace > Settings> OAuth)** in your workspace.
+* In the GitLab tab, fill in the **OAuth credentials** you copied earlier and toggle on **OAuth Enabled**.
+* Click **Save Changes**. A **Sign in with GitLab** button appears on your workspace's login page. Users can now **sign in with GitLab** by clicking that button.
