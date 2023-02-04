@@ -136,7 +136,7 @@ replication:
 ```
 
 {% hint style="warning" %}
-MongoDB replicaset is mandatory for Rocket.Chat > 1.0.0.
+The MongoDB replica set is mandatory for Rocket.Chat > 1.0.0.
 {% endhint %}
 
 Your MongoDB config file should look something like the following:

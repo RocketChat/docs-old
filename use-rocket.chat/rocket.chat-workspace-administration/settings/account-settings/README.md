@@ -50,6 +50,10 @@ Clicking on the `Reset` button will reset all these basic configurations back to
 
 ## Default User Preferences
 
+{% hint style="info" %}
+Default user preferences for notifications are universal for all the users in your workspace until a user changes it for themselves.
+{% endhint %}
+
 * **Enable Auto-Away**: When set to True, it will automatically change the User's status to Away they exit Rocket.Chat.
 * **Idle Time Limit**: Sets how long _in milliseconds_ for a User to go idle.
 * **Require Interaction to Dismiss Desktop Notification**: Enabling this will set the notification prompt active until the User interacts with it.
