@@ -6,7 +6,7 @@ description: >-
 
 # Guest users
 
-<figure><img src="../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (23).jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Guest is a role that is available only on the Enterprise edition, and it's not possible to change the permissions for this role.

@@ -2,7 +2,7 @@
 
 If you have Instagram Direct integration in place and a user sends you a message on your Instagram business page using their Instagram account, as shown below:
 
-![](<../../../../.gitbook/assets/2021-12-31\_20-27-38 (1) (1) (1) (1) (2).png>)
+![](<../../../../.gitbook/assets/2021-12-31\_20-27-38 (1) (1) (1) (1) (1) (2).png>)
 
 it appears in your Rocket.Chat workspace, just like any other Omnichannel conversation.
 

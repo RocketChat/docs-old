@@ -34,15 +34,15 @@ The section allows you to change the HTML content of certain screens.
 
 * **Home Title:** The title on the header of the first screen that your users will see when they log in.
 
-![](<../../../.gitbook/assets/image (661) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (632).png>)
 
 * **Show "Home Button"**: When enabled, the Home button will be shown on your server's navbar.
 
-![](<../../../.gitbook/assets/image (650) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (662) (1) (1) (1) (1) (1) (1).png>)
 
 * **Home Body:** The content of the first screen that your users will see when logging in.
 
-![](<../../../.gitbook/assets/image (631).png>)
+![](<../../../.gitbook/assets/image (646) (1) (1) (1) (1).png>)
 
 * **Login Terms:** Specifies the terms on which users are to accept before login in.
 * **Terms of Service:** Here, you can set the terms of service of your server. You can also redirect to YOUR-SERVER-URL/terms-of-service. This is shown by default on the links below your login page.
