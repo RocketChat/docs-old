@@ -199,7 +199,7 @@
     * [Data Loss Prevention User Guide](use-rocket.chat/user-guides/security-bundle/data-loss-prevention-user-guide.md)
     * [Two Factor Authentication User Guide](use-rocket.chat/user-guides/security-bundle/two-factor-authentication-user-guide.md)
   * [Keyboard Shortcuts](use-rocket.chat/user-guides/keyboard-shortcuts.md)
-* [Workspace Administration ](use-rocket.chat/rocket.chat-workspace-administration/README.md)
+* [Workspace Administration](use-rocket.chat/rocket.chat-workspace-administration/README.md)
   * [Go Fully Featured](use-rocket.chat/rocket.chat-workspace-administration/go-fully-featured.md)
   * [Info](use-rocket.chat/rocket.chat-workspace-administration/info.md)
   * [Import](use-rocket.chat/rocket.chat-workspace-administration/import/README.md)
@@ -304,7 +304,7 @@
       * [LDAP Data Sync Settings](use-rocket.chat/rocket.chat-workspace-administration/settings/ldap/ldap-data-sync-settings.md)
       * [LDAP Enterprise Settings](use-rocket.chat/rocket.chat-workspace-administration/settings/ldap/ldap-enterprise-settings.md)
       * [LDAP Examples](use-rocket.chat/rocket.chat-workspace-administration/settings/ldap/ldap-examples.md)
-    * [Livestream & Broadcasting (Youtube)](use-rocket.chat/rocket.chat-workspace-administration/settings/youtube-broadcasting.md)
+    * [Livestream & Broadcasting](use-rocket.chat/rocket.chat-workspace-administration/settings/livestream-and-broadcasting.md)
     * [Message](use-rocket.chat/rocket.chat-workspace-administration/settings/message.md)
     * [Meta](use-rocket.chat/rocket.chat-workspace-administration/settings/meta.md)
     * [Mobile](use-rocket.chat/rocket.chat-workspace-administration/settings/mobile.md)
@@ -433,9 +433,9 @@
   * [Omnichannel Queue](use-rocket.chat/omnichannel-agents-guides/omnichannel-chats.md)
   * [Email Inboxes Agent Guide](use-rocket.chat/omnichannel-agents-guides/email-inboxes-agent-guide.md)
 
-## Extend Rocket.Chat Capabilities&#x20;
+## Extend Rocket.Chat Capabilities
 
-* [Rocket.Chat Marketplace ](extend-rocket.chat-capabilities/rocket.chat-marketplace/README.md)
+* [Rocket.Chat Marketplace](extend-rocket.chat-capabilities/rocket.chat-marketplace/README.md)
   * [App Storage Location](extend-rocket.chat-capabilities/rocket.chat-marketplace/app-storage-location.md)
   * [Omnichannel Apps](extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/README.md)
     * [SMS](extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/sms.md)

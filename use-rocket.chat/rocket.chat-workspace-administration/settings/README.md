@@ -44,7 +44,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 ****[**LDAP**](ldap/): Learn how to configure Lightweight Access Directory Protocol so that no one can access or cannot access information about your server or business.
 
-****[**Livestream & Broadcasting (Youtube)**](youtube-broadcasting.md): Enable channel administrators to broadcast to Youtube Live.
+****[**Livestream & Broadcasting (Youtube)**](livestream-and-broadcasting.md): Enable channel administrators to broadcast to Youtube Live.
 
 ****[**Logs**](logs.md): Learn to configure how server logs are received, the log level, and other essential log settings.
 

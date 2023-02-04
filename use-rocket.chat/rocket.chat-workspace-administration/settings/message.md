@@ -4,7 +4,7 @@ description: Configure message settings
 
 # Message
 
-To access this section, go to **Administration** > **Workspace** > **Settings** > **Message**.
+To access this menu, navigate to **Administration** > **Workspace** > **Settings** > **Message**.
 
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made.
