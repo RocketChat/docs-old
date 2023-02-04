@@ -30,7 +30,7 @@ On self-managed workspaces, you can either use the default Rocket.Chat gateway o
 With the configuration all done, you can **Send a test push to my user** to send a test push to yourself.
 
 {% hint style="info" %}
-To successfully send a test push to your user, you need to be logged in to the server on your mobile device and then close or minimize the application.
+To successfully send a test push to your user, you need to be logged in to the workspace on your mobile device and then close or minimize the application.
 {% endhint %}
 
 ### Privacy
