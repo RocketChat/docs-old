@@ -81,10 +81,27 @@ Mini-reputation system enabling users to mark messages using special emojis.  Ad
 
 **Project Duration:** 175 hours (Medium)
 
+### Jitsi Meet x Rocket.Chat
+
+**Mentors:**  Sidharth Mohanty\
+**Description:**\
+****Jitsi meet has become one of the most popular and frequently used open source video conference platform in the world.   The chat that is included as part of the Jitsi system is rudimentary and chat history is lost as soon as the conference is over.   This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Jitsi Meet - giving it a rich messaging experience with full history after conference.
+
+**Desired Skills:**
+
+**React Native,   in-depth knowledge of EmbeddedChat project,  familiarity with Jitsi Meet, understanding of prodigy.**\
+****\
+**Goal/Deliverable:** \
+Jitsi Meet with Rocket.Chat embedded in place of existing chat.\
+\
+**Project Duration:** 350 hours. (Large)\
+
+
 ### Google Summer of Code Community Hub
 
-Mentors: TBD\
-**Description:**   Every year, Rocket.Chat's GSoC new community of 100s gather around a desperate set of servers:
+**Mentors:** TBD\
+**Description:**   \
+****Every year, Rocket.Chat's GSoC new community of 100s gather around a desperate set of servers:
 
 * in open.rocket.chat channels
 * discussions in forums.rocket.chat topics
@@ -101,6 +118,24 @@ This project leverages two existing projects - the _RC4Community_ platform and _
 **Goal/Deliverable:**  A working Google Summer of Code Community  Hub that we will use to engage all community members starting in 2023.\
 \
 **Project Duration:** 350 hours. (Large)
+
+### Big Blue Button x Rocket.Chat
+
+**Mentors:**  TBD\
+\
+**Description:**\
+****Big Blue Button has become one of the more popular open source virtual classroom platform in the world.   The chat that is included is based on meteorjs (just like Rocket.Chat)  but is rudimentary and chat history is lost as soon as the class session is over.   This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Big Blue Button - giving it a rich messaging experience with full history after class.
+
+**Desired Skills:**
+
+React Native,  MeteorJS,  in-depth knowledge of EmbeddedChat project,  familiarity with Big Blue Button and  good understanding of Rocket.Chat core.\
+\
+**Goal/Deliverable:** \
+Big Blue Button with Rocket.Chat embedded in place of existing chat.\
+\
+**Project Duration:** 350 hours. (Large)
+
+
 
 ### User Actions Audit Center
 
