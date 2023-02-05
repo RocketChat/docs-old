@@ -53,7 +53,7 @@ Most Rocket.Chat developers uses VSCode when studying our massive production cod
 * How to build a lib
 * How to navigate monorepo (where is everything, how's imported, etc)
 
-Plus any other ideas you may have.
+We welcome any additional ideas you may have.
 
 **Desired Skills:** JNodeJS, MongoDB
 
@@ -80,6 +80,27 @@ ReactJS, TypeScript, MeteorJS. A thorough understanding of Moderation Console op
 Mini-reputation system enabling users to mark messages using special emojis.  Additional action for moderation console allowing user to be muted by moderator for some durations (5min, 1 hour, or any custom minutes)
 
 **Project Duration:** 175 hours (Medium)
+
+### Google Summer of Code Community Hub
+
+Mentors: TBD\
+**Description:**   Every year, Rocket.Chat's GSoC new community of 100s gather around a desperate set of servers:
+
+* in open.rocket.chat channels
+* discussions in forums.rocket.chat topics
+* listed on gsoc.rocket.chat leaderboard
+* communicating over Github repositories
+* gathered for meetings on Jitsi
+* alumni summit
+* demo day
+
+This project leverages two existing projects - the _RC4Community_ platform and _RC4Conferences_ components to build a one-stop hub to engage our community, incorporating all the servers into a unified hub with an easy to use Ux via single logon.\
+****\
+******Desirable Skills:** Advanced Typescript, advanced React.  Deep knowledge of RC4Community and RC4Conferences projects.\
+\
+**Goal/Deliverable:**  A working Google Summer of Code Community  Hub that we will use to engage all community members starting in 2023.\
+\
+**Project Duration:** 350 hours. (Large)
 
 ### User Actions Audit Center
 
