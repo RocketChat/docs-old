@@ -35,7 +35,7 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 ## Project Ideas
 
-This list is being updated regularly, some projects without assigned mentors may be removed.
+This list is being updated regularly, some project ideas are still subject to further refinement, and some projects without assigned mentors may be removed.
 
 ### Guided RC Code Walkthrough and Tutorial&#x20;
 
@@ -44,12 +44,12 @@ This list is being updated regularly, some projects without assigned mentors may
 **Description:** \
 Most Rocket.Chat developers uses VSCode when studying our massive production code base, and when writing new code.   VSCode is the best environment for conducting interactive tutorial and code walkthroughs.  The CodeTour extension available in VSCode can be used to create such walkthrough and tutorials.  This project involves the development of a set of guided tutorials using CodeTour that will help new developers to understand how to perform multiple actions. Paths to be documented will go from this areas:
 
+* How a message is sent
 * How to create an endpoint
 * How to add a new service
 * How to create a DB model
 * How to use DB models
 * How services interact between them
-* How licenses are verified
 * How to build a lib
 * How to navigate monorepo (where is everything, how's imported, etc)
 
@@ -60,6 +60,26 @@ Plus any other ideas you may have.
 **Goals/Deliverables:** A set of guided tours from the topics described above
 
 **Project Duration:** 175 hours. (Medium)
+
+### Moderation Console Mute User Action and Emoji Votes
+
+**Mentors:**  Devanshu Sharma
+
+**Description:**
+
+Moderation console for Rocket.Chat enables moderators to examine reported messages and then take action against the individuals who post them.   A simple set of action is already included.   In this project you will add the action to allow muting of the user for a specific duration.&#x20;
+
+Currently, the only way to submit messages for moderator's review is to report the message.   This project will add a mini-reputation system, through voting with special emojis, to assist the moderator in deciding what to do with the reported user.   A count of special emojis against a message can be used to determine the number of users that find a particular message offensive.
+
+**Desired Skills:**
+
+ReactJS, TypeScript, MeteorJS. A thorough understanding of Moderation Console operations.  Knowledge of how to expose additional core features to Apps.
+
+**Goals/Deliverables:**
+
+Mini-reputation system enabling users to mark messages using special emojis.  Additional action for moderation console allowing user to be muted by moderator for some durations (5min, 1 hour, or any custom minutes)
+
+**Project Duration:** 175 hours (Medium)
 
 ### User Actions Audit Center
 
