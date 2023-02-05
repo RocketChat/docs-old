@@ -59,7 +59,8 @@ We welcome any additional ideas you may have.
 
 **Goals/Deliverables:** A set of guided tours from the topics described above
 
-**Project Duration:** 175 hours. (Medium)
+**Project Duration:** 175 hours. (Medium)\
+
 
 ### Moderation Console Mute User Action and Emoji Votes
 
@@ -79,7 +80,8 @@ ReactJS, TypeScript, MeteorJS. A thorough understanding of Moderation Console op
 
 Mini-reputation system enabling users to mark messages using special emojis.  Additional action for moderation console allowing user to be muted by moderator for some durations (5min, 1 hour, or any custom minutes)
 
-**Project Duration:** 175 hours (Medium)
+**Project Duration:** 175 hours (Medium)\
+
 
 ### Jitsi Meet x Rocket.Chat
 
@@ -95,6 +97,28 @@ Mini-reputation system enabling users to mark messages using special emojis.  Ad
 Jitsi Meet with Rocket.Chat embedded in place of existing chat.\
 \
 **Project Duration:** 350 hours. (Large)\
+
+
+### Media Carousel Component
+
+Mentors:  Diego Mello\
+\
+**Description:**\
+****\
+****Implement a new Rocket.Chat UI media carousel component that can:
+
+* open any media (image, video, audio, doc, etc)
+* swipe horizontally to navigate to previous/next
+* support async delayed video playback semantics
+
+Component must follow all current Rocket.Chat ui-kit component design and coding conventions,.
+
+**Desirable Skills:**    Advanced Typescript, advanced React.  Deep knowledge of RC4Community and RC4Conferences projects.\
+\
+**Goal/Deliverable:**  A media carousel component for our ui-kit that fits into the ui-kit playground,  and be flexibly adapted across all supported devices (browser, mobile, tablets, and so on).
+
+**Project Duration:** 175 hours. (Medium)
+
 
 
 ### Google Summer of Code Community Hub
@@ -118,6 +142,24 @@ This project leverages two existing projects - the _RC4Community_ platform and _
 **Goal/Deliverable:**  A working Google Summer of Code Community  Hub that we will use to engage all community members starting in 2023.\
 \
 **Project Duration:** 350 hours. (Large)
+
+### Big Blue Button x Rocket.Chat
+
+**Mentors:**  TBD\
+\
+**Description:**\
+****Big Blue Button has become one of the more popular open source virtual classroom platform in the world.   The chat that is included is based on meteorjs (just like Rocket.Chat)  but is rudimentary and chat history is lost as soon as the class session is over.   This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Big Blue Button - giving it a rich messaging experience with full history after class.
+
+**Desired Skills:**
+
+React Native,  MeteorJS,  in-depth knowledge of EmbeddedChat project,  familiarity with Big Blue Button and  good understanding of Rocket.Chat core.\
+\
+**Goal/Deliverable:** \
+Big Blue Button with Rocket.Chat embedded in place of existing chat.\
+\
+**Project Duration:** 350 hours. (Large)
+
+
 
 ### User Actions Audit Center
 
