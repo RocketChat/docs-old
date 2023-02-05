@@ -119,24 +119,6 @@ This project leverages two existing projects - the _RC4Community_ platform and _
 \
 **Project Duration:** 350 hours. (Large)
 
-### Big Blue Button x Rocket.Chat
-
-**Mentors:**  TBD\
-\
-**Description:**\
-****Big Blue Button has become one of the more popular open source virtual classroom platform in the world.   The chat that is included is based on meteorjs (just like Rocket.Chat)  but is rudimentary and chat history is lost as soon as the class session is over.   This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Big Blue Button - giving it a rich messaging experience with full history after class.
-
-**Desired Skills:**
-
-React Native,  MeteorJS,  in-depth knowledge of EmbeddedChat project,  familiarity with Big Blue Button and  good understanding of Rocket.Chat core.\
-\
-**Goal/Deliverable:** \
-Big Blue Button with Rocket.Chat embedded in place of existing chat.\
-\
-**Project Duration:** 350 hours. (Large)
-
-
-
 ### User Actions Audit Center
 
 **Mentors:** TBD
