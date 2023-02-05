@@ -109,11 +109,11 @@ Mentors:  Diego Mello\
 
 * open any media (image, video, audio, doc, etc)
 * swipe horizontally to navigate to previous/next
-* support async delayed video playback semantics
+* support [async delayed video playback](https://docs.expo.dev/versions/v47.0.0/sdk/av/#playback) semantics
 
 Component must follow all current Rocket.Chat ui-kit component design and coding conventions,.
 
-**Desirable Skills:**    Advanced Typescript, advanced React.  Deep knowledge of RC4Community and RC4Conferences projects.\
+**Desirable Skills:**    Advanced Typescript, advanced React, React Native.  Rocket.Chat ui-kit component development.\
 \
 **Goal/Deliverable:**  A media carousel component for our ui-kit that fits into the ui-kit playground,  and be flexibly adapted across all supported devices (browser, mobile, tablets, and so on).
 
