@@ -6,11 +6,15 @@ description: >-
 
 # Basic White-labeling
 
-This guide focuses on customizations that non-technical users can make to their Rocket.Chat server. To achieve this, you are required to have administrator privileges.
+This guide focuses on customizations that non-technical users can make to their Rocket.Chat workspace. To achieve this, you are required to have an [administrator](roles-in-rocket.chat/) role.
 
-## Layout
 
-Most of the UI changes take place in the Layout option. To access it, go to **Administration > Layout > Home  Body**. Various sections are presented to you, which are revealed or hidden by clicking on the options. The sections available include **Colors**, **Content**, **Custom CSS**, **Custom Scripts**, **Fonts, Old Colors, Old Colors(minor)**, and **User Interface**. I've included the various sections below.
+
+Most of the UI changes take place in the Layout option.&#x20;
+
+To access it,&#x20;
+
+* Navigate to **Administration > Layout > Home  Body**.&#x20;
 
 ### Colors
 
