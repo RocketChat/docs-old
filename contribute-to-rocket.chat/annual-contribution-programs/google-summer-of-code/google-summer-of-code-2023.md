@@ -175,4 +175,163 @@ Big Blue Button with Rocket.Chat embedded in place of existing chat.\
 
 
 
+### GitHub Pull request reminders app
+
+**Mentors:** Murtaza Patrawala
+
+**Description:**&#x20;
+
+Have you ever faced challenges keeping track of your pull request reviews as a student? This is a common problem faced by many development teams. That's why we propose developing a pull request reminder app for [Rocket.Chat](http://rocket.chat) as a part of the Google Summer of Code program. For now, we’re isolating the scope of this project to GitHub.
+
+The app's goal will be to provide regular reminders and updates to keep the review process moving and help ensure that pull requests are being reviewed and discussed in a timely manner. This project will be built on top of [this existing GitHub App](https://github.com/RocketChat/Apps.Github22) which already has a bunch of boilerplate code to deal with authentications and GitHub APIs.
+
+One approach to solving the issue of pending pull requests is to create a separate Rocket.Chat channels for each pull request (This is a proven strategy organizations already use on Slack. Check [here](https://axolo.co/blog/p/utlimate-slack-pull-request-reminder-bot) for more info). This way, all relevant stakeholders can be added to the channel, including the author of the pull request, the reviewers, and any other team members who need to be informed about the status of the review.
+
+The Rocket.Chat channels can serve as a dedicated space for discussion and collaboration around each pull request. Users can receive notifications about updates to the pull request, such as new comments or changes to the code. This helps keep everyone informed and ensures the review process stays on track.
+
+Example text message for Rocket.Chat channel:
+
+* "🔔 Attention reviewers! This pull request has been pending for \[number] days now. Let's make sure to give it the attention it deserves and keep the review process moving forward 🚀"
+
+In addition, the users can also opt-in to receive a direct message from the bot at the start of their workday, with a comprehensive list of all the reviews that need his/her attention.
+
+Example DM text messages:
+
+1. "👀 Time to give those pull requests some love! You've got \[number] pending review(s) waiting for you. Don't keep your fellow developers waiting 😊"
+2. "🔔 Don't let those pull requests get forgotten! You've got \[number] waiting for your review. Let's get to work 💻"
+3. "🚀 It's time to move those pull requests forward! You've got \[number] waiting for your review. Give them the green light 💚"
+
+By using Rocket.Chat channels to manage the review process, teams can improve the visibility of their pull requests and ensure that they are being reviewed and discussed in a timely manner.
+
+PS: For more inspiration on how to solve this issue, please refer to some of these solutions on other platforms.
+
+* [Pull Remind](https://www.producthunt.com/products/pull-remind)
+* [Axolo](https://axolo.co/blog/p/utlimate-slack-pull-request-reminder-bot)
+
+**Desirable Skills:**&#x20;
+
+* Advanced Typescript
+* Knowledge about Github API's
+* Rocket.Chat app-engine Framework
+* Familiarity with existing [Github App](https://github.com/RocketChat/Apps.Github22)
+
+**Goal/Deliverable:**  A working Rocket.Chat app which sends pulls request reminders to Rocket.Chat users.
+
+**Project Duration:** 175 hours. (Medium) (Note: Based on the complexity of the proposal, we may increase the project duration)
+
+
+
+### Template messages Rocket.Chat app
+
+**Mentors:** Murtaza Patrawala
+
+**Description:**&#x20;
+
+This project aims to develop a [Rocket.Chat](http://rocket.chat) app that allows users to create, store, and send common messages with ease (Similar to [this Slack app](https://slack.com/apps/AJGJWCYPQ-templates?tab=more\_info)). The app will have a simple interface that enables users to create templates with customized names. These templates can be triggered using a slash command (e.g., /template \<template-name>) and inserted into the chat window with just one click. Users can also edit and delete their templates as needed.
+
+The app will be built using [the Apps-Engine framework](https://developer.rocket.chat/apps-engine/rocket.chat-apps-engine) as a Rocket.Chat app. This app will improve productivity and streamline communication in Rocket.Chat, provides a convenient way for users to send common messages and save time in their daily work routine.
+
+Examples of use cases include a customer support agent responding to frequently asked questions, a project manager sending a weekly status update message to the team, or a sales representative following up with potential clients.
+
+**Desirable Skills:**&#x20;
+
+* Rocket.Chat app-engine Framework
+* Rocket.Chat UiKit
+* Advanced Typescript
+
+**Goal/Deliverable:**  A working Rocket.Chat app to send and manage template messages.
+
+**Project Duration:** 175 hours. (Medium)
+
+
+
+### Introduce Captcha to Livechat Widget
+
+**Mentors:** Murtaza Patrawala, Kevin Aleman
+
+**Description:**&#x20;
+
+RocketChat is a popular open-source communication platform, but it is not uncommon for spammers to take advantage of its live chat widget to send unwanted messages. To mitigate this issue, a CAPTCHA solution should be implemented in the live chat widget. This project aims to integrate a CAPTCHA mechanism in RocketChat's live chat widget to prevent spam messages from being sent.
+
+The solution should allow users to prove that they are human by completing a simple CAPTCHA task before sending a message. This will help to reduce the number of spam messages and improve the overall user experience.
+
+Key Deliverables:
+
+* Integration of a CAPTCHA solution in RocketChat's live chat widget
+* A comprehensive testing suite to ensure that the CAPTCHA is working as expected
+* A user guide to help users understand how to use the new CAPTCHA feature in the live chat widget
+
+Note: The CAPTCHA solution should be accessible to all users, including those with disabilities, and should not negatively impact the user experience.
+
+**Desirable Skills:**&#x20;
+
+* React (Mid-level)
+* Familiar with [Rocket.Chat Livechat](https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/livechat)
+
+**Goal/Deliverable:** Captcha integrated within Livechat widget
+
+**Project Duration:** 175 hours. (Easy)
+
+
+
+### QuickAnswer Bot
+
+**Mentors:** Murtaza Patrawala
+
+**Description:**
+
+The goal is to develop a bot that can help reduce repetitive questions asked in Rocket.Chat channels by providing relevant answers from its knowledge base (Similar to [this Slack app](https://slack.com/apps/ASAFS8C2D-truffle?tab=more\_info))
+
+Features:
+
+1. Knowledge base: The bot will have a knowledge base of all previously answered questions and their answers.
+2. Real-time scanning: The bot will scan the Rocket.Chat channels in real-time for new questions and check if it has a relevant answer in its knowledge base.
+3. Private response: If the bot finds a relevant answer, it will send the answer privately to the person who asked the question, without interrupting the public conversation.
+4. Analytics (optional): The bot will keep track of the number of repetitive questions answered and provide analytics to the administrator.
+
+Technologies to be used:
+
+* [Rocket.Chat](http://rocket.chat) apps-engine
+* Natural Language Processing (NLP)
+* Elasticsearch (a suggestion, but I’m open to any other good alternatives)
+
+With Elasticsearch integrated into the tech stack, the bot can leverage the powerful search and analysis capabilities of Elasticsearch to efficiently search through the knowledge base and provide accurate answers to the user's questions. [Here’s](https://rebeccabilbro.github.io/intro-doc-similarity-with-elasticsearch/) a good blog to get started.
+
+**Desirable Skills:**&#x20;
+
+* Advanced knowledge of Natural Language Processing (NLP)
+* [Rocket.Chat](http://rocket.chat) apps-engine
+* Experience using chosen indexing framework like ElasticSearch
+
+**Goal/Deliverable:**  A Rocket.Chat app that suggests relevant answers to new messages in a channel, based on past messages. Plus an additional service is used for indexing messages.
+
+**Project Duration:** 350 hours. (Large)
+
+
+
+
+
+### Summarizing Live Chat Conversations using OpenAI's ChatGPT
+
+**Mentors:** Murtaza Patrawala
+
+**Description:**&#x20;
+
+The goal of this project is to develop a solution that utilizes OpenAI's ChatGPT to generate a concise summary of live chat conversations within Rocket.Chat. This will provide managers with a quick and efficient way to stay up-to-date with live chat conversations, allowing them to make informed decisions without having to spend time reading through lengthy conversations.
+
+**Desirable Skill**
+
+* Strong programming skills in Typescript.
+* Familiarity with natural language processing and machine learning.
+* Familiarity with Rocket.Chat and its Apps-engine.
+* Knowledge about OpenAI's ChatGPT API is a must.
+
+**Goal/Deliverable:** &#x20;
+
+* A Rocket.Chat app that retrieves live chat conversations from the Rocket.Chat apps-engine.
+* Use of the OpenAI ChatGPT API to generate a summary of the conversation.
+* Storing the generated summaries in a database for later retrieval and analysis.
+
+**Project Duration:** 175 hours. (Medium)
+
 [^1]: 
