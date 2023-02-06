@@ -161,7 +161,7 @@ PS: For more inspiration on how to solve this issue, please refer to some of the
 
 **Goal/Deliverable:**  A working Rocket.Chat app which sends pulls request reminders to Rocket.Chat users.
 
-**Project Duration:** 175 hours. (Medium) (Note: Based on the complexity of the proposal, we may increase the project duration)
+**Project Duration:** 175 hours. (Medium)&#x20;
 
 
 
@@ -190,7 +190,7 @@ Note: The CAPTCHA solution should be accessible to all users, including those wi
 
 **Goal/Deliverable:** Captcha integrated within Livechat widget
 
-**Project Duration:** 175 hours. (Easy)
+**Project Duration:** 175 hours. (Medium)
 
 
 
