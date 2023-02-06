@@ -1,35 +1,34 @@
 # Marketplace Roles
 
-With the most recent release of Marketplace, we have introduced roles. Internally, we have two different roles; one within the publisher and the second within the system. Henceforth known as publisher roles and system roles.
+With the most recent release of [Marketplace](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/), we have introduced roles. Internally, we have two different roles; one within the publisher and the second within the system. Henceforth known as publisher roles and system roles.
 
 ## Publisher Roles
 
 There are three different roles within a Publisher.
 
-* Owner
-* Developer
-* Viewer
+* [Owner](marketplace-roles.md#publisher-owner)
+* [Developer](marketplace-roles.md#publisher-developer)
+* [Viewer](marketplace-roles.md#publisher-viewer)
 
 as shown below:
 
-![](<../../.gitbook/assets/image (446) (2) (1).png>)
+<figure><img src="../../.gitbook/assets/Publisher Roles.png" alt=""><figcaption></figcaption></figure>
 
 The Owner role is applied whenever someone creates a publisher. Each of the subsequent roles only applies to people they have invited.
 
 ### Publisher: Owner
 
-The owner can do everything.
+The `owner` has permission to manage everything on the publisher dashboard. This includes managing both Apps and other Users.
 
-An owner can change the role of another user, as shown below:
+To change the role of another user,
 
-![](<../../.gitbook/assets/image (454).png>)
-
-![](<../../.gitbook/assets/image (456).png>)
+* Click **Change Role** from the **Actions** dropdown across the user in question
+* Select the desired Role to change
 
 ### Publisher: Developer
 
-The developer can read everything. However, the developer role can also update Apps (can not create them, that requires an Owner).
+A user with the `developer` role can read everything and update Apps.
 
 ### Publisher: Viewer
 
-The viewer role can read everything but can not update anything.
+The `viewer` role can read everything but can not update anything.

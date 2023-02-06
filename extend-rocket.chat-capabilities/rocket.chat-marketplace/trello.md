@@ -23,13 +23,13 @@ To install the Trello Rocket.Chat App,
 * Search for the **Trello** app and click on the item
 * Click **Install** and accept the needed permissions
 
-![](<../../.gitbook/assets/image (647).png>)
+![](<../../.gitbook/assets/image (48) (2).png>)
 
 You should see an interface with the app details showing you have installed it.
 
 A direct message is then received from the `trello.bot` to assist you with the setup of the app
 
-![](<../../.gitbook/assets/image (659).png>)
+![](<../../.gitbook/assets/image (109) (2).png>)
 
 Now that you have the app installed on your server, it is time to configure the integration.
 
@@ -37,17 +37,17 @@ Now that you have the app installed on your server, it is time to configure the 
 
 * Let's start the setup by running the slash command `/trello setup` in the chatbox
 
-![](<../../.gitbook/assets/image (660).png>)
+![](<../../.gitbook/assets/image (236) (2).png>)
 
 * A set of instructions are given to follow
 
-![](<../../.gitbook/assets/image (682).png>)
+![](<../../.gitbook/assets/image (455) (2).png>)
 
 * Head over to [https://trello.com](https://trello.com/app-key/) and login
 * Visit [https://trello.com/app-key/](https://trello.com/app-key/) and accept the terms to see your Trello API key
 * Copy the server's url given by the `trello.bot` and paste in the **New Allowed Origin** field on your Trello api page then **Submit**
 
-![](<../../.gitbook/assets/image (697).png>)
+![](<../../.gitbook/assets/image (595) (2).png>)
 
 * Next copy the `API Key` and `OAuth Secret` from the Trello page. It is needed to complete the configuration on the Trello app's configuration page within Rocket.Chat
 * With the credentials provided, hit Save changes to commit

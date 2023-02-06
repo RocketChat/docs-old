@@ -77,7 +77,7 @@ docker compose up -d
 * Point all the generated DNS records to your server's IP address (all to the same IP).
 * [Configure ](https://matrix-org.github.io/synapse/latest/application\_services.html)the support for [Application Service](https://matrix.org/docs/guides/application-services) on the Matrix homeserver. (You can find the AS .yaml configuration file in your Rocket.Chat admin panel under _**Administration => Manage workspace => Settings => Federation => Matrix Bridge**_). **Important:** make sure the URL property in the AS file is pointing to your Rocket.Chat Bridge address. You can also create a folder (`app/matrix-federation-config`) inside the build version of Rocket.Chat and create a file `registration.yaml` using the registration file you got from the Rocket.Chat admin panel.
 
-<figure><img src="../../../../../../../.gitbook/assets/Screenshot 2022-12-07 091018.png" alt=""><figcaption><p>AS Registration file</p></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>AS Registration file</p></figcaption></figure>
 
 ## Testing your setup
 
