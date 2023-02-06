@@ -6,469 +6,100 @@ description: >-
 
 # Basic White-labeling
 
-This guide will focus on customizations that non-technical users can make to their Rocket.Chat Server. To achieve this, you will be using only the administrative settings.
+This guide focuses on customizations that non-technical users can make to their Rocket.Chat server. To achieve this, you are required to have administrator privileges.
 
 ## Layout
 
-Here is where most of the changes to the UI will happen. Found in the **Administration** panel.
+Most of the UI changes take place in the Layout option. To access it, go to **Administration > Layout > Home  Body**. Various sections are presented to you, which are revealed or hidden by clicking on the options. The sections available include **Colors**, **Content**, **Custom CSS**, **Custom Scripts**, **Fonts, Old Colors, Old Colors(minor)**, and **User Interface**. I've included the various sections below.
 
 ### Colors
 
-Let’s start out with the fundamental changes you can make to your server, changing colors. Rocket.Chat offers the ability to change most of its element's colors.
+Rocket.Chat gives you the freedom to customize your brand's color palette. Let us see the various sections of the color palette.
 
 ### Error
 
-The Error variable will change these elements: The background on switch buttons (when disabled)
+The Error variable changes various elements of your brand's design. The features affected by the Error variable include the background on disabled switch buttons, the color of the line shown for unread messages, the delete button when performing deletion actions like deleting messages, audio recording, leaving a channel, text box with an error during verification and all activities considered to be dangerous actions.&#x20;
 
-![Disabled switch button](<../.gitbook/assets/disabled-switch (2) (2) (2) (2) (2) (3) (3) (3) (3) (3) (3) (3) (4) (1) (1) (1) (4) (10) (1) (1) (10).png>)
+To change the error color, you are given two options, being:
 
-```
-The color of the line when you have unread messages (same day or another)
-```
+* **Color** where you click in the box, and a color picker pops up, and you can select your preferred colo.r
+* **Expression** such that you manually type a hex color code in the box, for example, **#fff067**, or a Rocket.Chat [variables color](https://app.gitbook.com/s/-MWf1K8RJU-TjNEtPxvb/desktop-app/desktop-app-white-labelling/ui-colors) expression such as **color-red**, **color-dark-100**, and so on.
+* Click on **Save Changes** for the changes to take effect.
 
-![Unread messages](../.gitbook/assets/unread-message.png) ![Unread messages in another day](../.gitbook/assets/new-day-unread-message.png)
-
-```
-The close button in the audio upload area (inside message box)
-```
-
-![Message box with audio recording](<../.gitbook/assets/audio-message-box (1) (2) (2) (2) (2) (2) (3) (3) (3) (3) (3) (3) (3) (5) (5) (5) (1) (1) (1) (1) (4) (10) (1) (1) (4).png>)
-
-```
-The leave/delete button in the room info
-```
-
-![Leave and Delete buttons](../.gitbook/assets/leave-delete-buttons.png)
-
-```
-The busy status
-```
-
-![Busy status](../.gitbook/assets/busy-status.png)
-
-```
-Remove button inside the user preferences (Don't ask me again list)
-```
-
-![Remove button](../.gitbook/assets/remove-dont-ask-me-again.png)
-
-```
-Textbox with error on the text verification
-```
-
-![Text box with error](../.gitbook/assets/error-text-box.png)
-
-```
-Remove user from room button (user info -> more actions)
-```
-
-![Remove from room button](../.gitbook/assets/remove-from-room-message.png)
+{% hint style="info" %}
+As a rule of thumb, changing all the other colors require using either the color picker or color expressions.
+{% endhint %}
 
 ### Error Light
 
-The Error Light variable will change these elements: The border color when disabled
-
-![Disabled switch button](<../.gitbook/assets/disabled-switch (2) (2) (2) (2) (2) (3) (3) (3) (3) (3) (3) (3) (4) (1) (1) (1) (4) (10) (1) (1) (7).png>)
-
-```
-Icon on the burger menu in mobile-view
-```
-
-![Burger menu with 1 unread message](../.gitbook/assets/1-unread-message-burger.png)
+The Error Light variable changes the border color of disabled switches, and the icon in the burger menu in mobile view. Change the variable by using either the color option or the expression option, as earlier stated.
 
 ### Alert
 
-The Alert variable will change these elements: Warning icon
-
-![Warning-image](../.gitbook/assets/warning-image.png)
-
-```
-Away status color
-```
-
-![Away status](../.gitbook/assets/away-status.png)
+The Alert variable changes elements such as the warning icon and an away status.
 
 ### Alert Light
 
-The Alert Light variable will change these elements: Favorite button color
-
-![Favorite button](../.gitbook/assets/favorite-star.png)
+The Alert Light variable changes the Favorite button color.
 
 ### Success
 
-The Success variable will change these elements: The online status
-
-![Online status](../.gitbook/assets/online-status.png)
-
-```
-The switch button (when enabled)
-```
-
-![Enabled switch button](../.gitbook/assets/enabled-switch.png)
-
-```
-The done button in the audio upload area (inside message box)
-```
-
-![Message box with audio recording](<../.gitbook/assets/audio-message-box (1) (2) (2) (2) (2) (2) (3) (3) (3) (3) (3) (3) (3) (5) (5) (5) (1) (1) (1) (1) (4) (10) (1) (1) (11).png>)
+The Success variable changes elements such as online status, enabled switch buttons, and done button.
 
 ### Success Light
 
-The Success light variable will change these elements: Confirmation Icon
-
-![Success message](../.gitbook/assets/success-message.png)
+The Success light variable changes the Confirmation icon.
 
 ### Button Primary
 
-The Button Primary variable will change these elements: The home page links colors
+The **Button Primary** variable changes the colors of links. By default, the color is blue (color-blue), but if you wish to change it to green, modify its expression to **color-green**. This variable is used for the **clip icon** in the files list, the r**eply in thread** and **reactions button** colors, the room **action buttons** colors on hover, the enabled **switch button** in room settings, the r**eply counter**, the r**ecord** and **OK** buttons in video messages, active directory **tab**, member list actions which include the **Add users** and Invite users, room info save button and checkbox background color.
 
-![Links list](../.gitbook/assets/home-links.png)
+Many more elements of your UI can be customized. You should go ahead and check Rocket.Chat's [**variables**](https://github.com/RocketChat/Rocket.Chat/blob/develop/apps/meteor/app/theme/client/imports/general/variables.css) file and notice the color names and some layout properties that can be changed. In this regard, the variable is obtained by removing the two dashes (--) at the beginning of the variable.
 
-```
-The clip icon color in files list
-```
+**Content**
 
-![Enabled switch button](../.gitbook/assets/files-list-clip.png)
+The Content variable changes the color for the number of unread messages.
 
-```
-Reply in Thread and Reactions button color (message actions / on hover)
-```
+**Other Colors**
 
-![Reply in Thread and Reactions buttons](../.gitbook/assets/thread-reaction-message.png)
-
-```
-The room actions buttons color (on hover)
-```
-
-![Room action button hover](../.gitbook/assets/room-actions-hover.png)
-
-```
-The switch button in the room settings
-```
-
-![Enabled blue switch button](../.gitbook/assets/blue-switch-enabled.png)
-
-```
-The reply counter
-```
-
-![Reply counters](../.gitbook/assets/badger-thread.png)
-
-```
-Regular expression link in 'Search Messages'
-```
-
-![Regular expression link](../.gitbook/assets/regular-expression-link.png)
-
-```
-Record and Ok buttons in Video Message
-```
-
-![Record a video message box](../.gitbook/assets/video-message-box.png)
-
-```
-Directory active tab
-```
-
-![DIrectory active tab](../.gitbook/assets/directory-tabs.png)
-
-```
-Member list actions
-```
-
-![Add users and invite users button](../.gitbook/assets/add-users-invite-users.png)
-
-```
-Room info save button
-```
-
-![Reply in Thread and Reactions buttons](../.gitbook/assets/cancel-reset-save-buttons.png)
-
-```
-Checkbox background (Don't ask me again / modal)
-```
-
-![Don't ask me again checkbox](<../.gitbook/assets/checked-dont-ask-me-again (1) (2) (2) (2) (2) (2) (2) (1) (1) (1) (1) (4) (10) (1) (1) (9).png>)
-
-### Button Primary Light
-
-The Button Primary Light variable will change these elements: Checkbox border (Don't ask me again / modal)
-
-![Don't ask me again checkbox](<../.gitbook/assets/checked-dont-ask-me-again (1) (2) (2) (2) (2) (2) (2) (1) (1) (1) (1) (4) (10) (1) (1) (1).png>)
-
-### Alert Message Primary
-
-The Alert Message Primary variable will change these elements: The thread icon and the responded message
-
-![Replying in thread](../.gitbook/assets/replying-in-thread.png)
-
-```
-Border and font color in mail messages instructions (inside room -> more actions -> mail messages // when you haven't selected any messages)
-```
-
-![Send messages by email alert](<../.gitbook/assets/mail-messages-blue-div (1) (2) (2) (2) (2) (2) (4) (4) (4) (1) (1) (1) (1) (3) (10) (1) (1) (1).png>)
-
-### Alert Message Primary Background
-
-The Alert Message Primary Background variable will change these elements: Background color in mail messages instructions
-
-![Send messages by email alert](<../.gitbook/assets/mail-messages-blue-div (1) (2) (2) (2) (2) (2) (4) (4) (4) (1) (1) (1) (1) (3) (10) (1) (1) (11).png>)
-
-### Alert Message Secondary
-
-The Alert Message Secondary variable will change these elements: Border and font color in mail messages instructions
-
-![Clear section alert](<../.gitbook/assets/clear-section-alert (2) (2) (2) (2) (2) (1) (1) (1) (1) (3) (10) (1) (1) (1).png>)
-
-### Alert Message Secondary Background
-
-The Alert Message Secondary Background variable will change these elements: Background color in mail message instructions
-
-![Clear section alert](<../.gitbook/assets/clear-section-alert (2) (2) (2) (2) (2) (1) (1) (1) (1) (3) (10) (1) (1) (3).png>)
-
-### Alert Message Warning
-
-The Alert Message Warning variable will change these elements: Border and font color in mail messages instructions error
-
-![Invalid email alert](<../.gitbook/assets/email-error (2) (2) (2) (2) (2) (4) (1) (1) (1) (1) (3) (10) (1) (1) (4).png>)
-
-```
-Border and font color in prune messages warning (room -> more actions -> prune messages)
-```
-
-![Delete all messages alert](<../.gitbook/assets/delete-all-messages (2) (2) (2) (2) (2) (4) (4) (1) (1) (1) (4) (2) (1) (1) (7).png>)
-
-### Alert Message Warning Background
-
-The Alert Message Warning Background variable will change these elements: Background color in mail messages instructions error
-
-![Invalid email alert](<../.gitbook/assets/email-error (2) (2) (2) (2) (2) (4) (1) (1) (1) (1) (3) (10) (1) (1) (7).png>)
-
-```
-Background color in prune messages warning
-```
-
-![Delete all messages alert](<../.gitbook/assets/delete-all-messages (2) (2) (2) (2) (2) (4) (4) (1) (1) (1) (4) (2) (1) (1) (1).png>)
-
-### Primary
-
-The Primary variable will change these elements: Sidebar background
-
-![Sidebar header](../.gitbook/assets/top-sidebar.png)
-
-```
-Directory channel/user list
-```
-
-![Channels list](../.gitbook/assets/directory-channels-list.png)
-
-```
-Rooms list ADMIN
-```
-
-![All rooms list](../.gitbook/assets/all-rooms-list.png)
-
-```
-Users list ADMIN
-```
-
-![Users list](../.gitbook/assets/users-list.png)
-
-```
-Invites list ADMIN
-```
-
-![List of invitation](../.gitbook/assets/invitation-token.png)
-
-```
-Name, details and price of apps on marketplace
-```
-
-![List of apps](<../.gitbook/assets/apps-list (2) (2) (2) (2) (2) (4) (3) (1) (1) (1) (4) (10) (1) (1) (11).png>)
-
-### Primary Darkest
-
-The Primary Darkest variable will change these elements: On hover in rooms and users in the sidebar
-
-![Active room](../.gitbook/assets/list-rooms-hover.png)
-
-```
-Search  on the top of sidebar -> text box background
-```
-
-![Sidebar search](../.gitbook/assets/sidebar-search.png)
-
-### Primary Dark
-
-The Primary Dark variable will change these elements: The open room
-
-![Open room](../.gitbook/assets/active-room.png)
-
-```
-The border of text box in search option
-```
-
-![Sidebar search](../.gitbook/assets/sidebar-search-box.png)
-
-### Primary Light
-
-The Primary Light variable will change these elements: Fonts and icons color/ sidebar
-
-![Sidebar](../.gitbook/assets/sidebar.png)
-
-```
-Search and rooms font color
-```
-
-![Sidebar search](../.gitbook/assets/search-box.png)
-
-```
-Directory/ channels list font color
-```
-
-![Directory/ channels list](../.gitbook/assets/directory-channel-list.png)
-
-```
-Directory/ users list font color
-```
-
-![Directory/ users list](../.gitbook/assets/directory-user-list.png)
-
-```
-Credits on emoji box footer
-```
-
-![Emoji Box](../.gitbook/assets/emoji-picker.png)
-
-```
-Admin tabs on hover
-```
-
-![Admin tabs on hover](../.gitbook/assets/admin-sidebar-hover.png)
-
-```
-Settings title on admin
-```
-
-![Search bar](../.gitbook/assets/settings-search-bar.png)
-
-```
-Font color in marketplace
-```
-
-![Apps list](<../.gitbook/assets/apps-list (2) (2) (2) (2) (2) (4) (3) (1) (1) (1) (4) (10) (1) (1) (3).png>)
-
-### Primary Light Medium
-
-The Primary Light Medium variable will change these elements: Don't ask me again unchecked border of checkbox
-
-![Don't ask me again checkbox](../.gitbook/assets/dont-ask-me-again.png)
-
-```
-Invite users placeholder
-```
-
-![Send invitation email](../.gitbook/assets/send-invitation-email.png)
-
-### Primary Lightest
-
-The Primary Lightest variable will change these elements: directory hover on room
-
-![Directory/ channel list hover](../.gitbook/assets/directory-channel-list-hover.png)
-
-```
-directory hover on user
-```
-
-![Directory/ user list hover](../.gitbook/assets/directory-user-list-hover.png)
-
-```
-admin sidebar background
-```
-
-![Admin sidebar](../.gitbook/assets/administration-sidebar.png)
-
-```
-admin rooms list on hover
-```
-
-![Admin/ room list hover](../.gitbook/assets/admin-room-list.png)
-
-```
-admin users list on hover
-```
-
-![Admin/ user list hover](../.gitbook/assets/users-admin-list.png)
-
-### Content
-
-The Content variable will change these elements: color of the number of unread messages (mobile view)
-
-![Burger menu with unread messages notification](../.gitbook/assets/6-unread-messages-burger.png)
-
-```
-color of the name, number and more actions when you have unread messages
-```
-
-![Name with unread messages notification](../.gitbook/assets/room-unread-messages.png)
-
-### Link Active
-
-The Link Active variable will change these elements: the hover and active color on icons / room actions
-
-![Room action icons](../.gitbook/assets/active-link-room-actions.png)
-
-```
-the loader when you prune messages
-```
-
-![Loader](../.gitbook/assets/prune-messages-loader.png)
+Rocket.Chat also has some Old Colors, and Old Colors (minor) can also be customized to make changes to the UI using either the **Expression** choice or **Color**.
 
 ## Content
 
-The content section allows you to change the HTML content of a number of screens on your Rocket.Chat server. The following screens are available to be edited:
-
-* **Home Title:** The title on the header of the first screen that your users will see when they log in.
-* **Home Body:** The content of the first screen that your users will see when logging in.
-* **Login Terms:** This is the text under the login page.
-* **Terms of Service:** By default this screen is accessed on the links under the login page, here you can set the terms of service of your server. Can also be accessed via YOUR-SERVER-URL/terms-of-service
-* **Privacy Policy:** By default this screen is accessed on the links under the login page, here you can set the privacy policy of your server. Can also be accessed via YOUR-SERVER-URL/privacy-policy
-* **Legal Notice:** By default this screen is accessed on the links under the login page, here you can set the legal notice of your server. Can also be accessed via YOUR-SERVER-URL/legal-notice
-* **Side navigation footer:** This is the logo on the left sidebar. We recommend using the images set on your [Assets](basic-white-labeling.md#assets) for better consistency.
+The content section allows you to change the HTML content of several screens on your Rocket.Chat server. The areas under the Content section that allows you to customize include the home title, the body, which is the first screen users see when logged in, terms of service, login terms, privacy policy, legal notice, and the side navigation folder. Make sure to hit **Save Changes** after making any of the content changes.
 
 ### Fonts
 
-Here you can define the font family for the system in a list separated by commas, Rocket.Chat will try to use the available fonts starting from left to right.
+Here you can define the font family for the system in a list separated by commas, Rocket.Chat tries to use the available fonts starting from left to right.
 
 ### User Interface
 
-* **Display Roles:** Toggles the display of user roles by the usernames on messages
-* **Group Channels By Type:** Enabling this will separate the channels by category (Channel, Private Room, DM or discussion) on the left sidebar.
-* **Use Full Name Initials to Generate Default Avatar:** This will make so the default avatars are generated using the person Full Name instead of Username. E.g. By default the user `blue.ducks` with the name `Richards Nate` will have an avatar with the letters `BD`, if this setting is active, it will be `RN`.
-* **Use Real Name:** Enabling this will change the display of Usernames to Full Names
-* **Click to Create Direct Message:** Enabling this will make it so when you click an avatar, it will open a DM with the selected user.
+The User Interface Option has basic settings for the UI. The settings are listed thus:
 
-Unread Counter Style:
+* **Display Roles:** Toggles the display of user roles by the usernames on messages.
+* **Group Channels By Type:** Enabling separates the channels by category (Channel, Private Room, DM, or discussion) on the left sidebar.
+* **Use Full Name Initials to Generate Default Avatar:** Turning on this option ensures that default avatars are generated using your users' full names. By default, the user with username `john.doe` and name `Richard Bricks` has the avatar with default letters `JD` and becomes RB after turning on this option.
+* **Use Real Name:** Enabling this changes the display of usernames to Full Names.
+* **Click to Create Direct Message:** Enabling this makes it so that when you click an avatar, it opens a DM with the selected user rather than going to their profile.
 
-* **Different Style for user mentions:** This will make the notification counter differentiate normal messages from mentions
-* **Same style for mentions:** This will make the counter mark mentions and normal messages as the same
-* **Allow Special Characters in Room Names:** This will enable the use of special characters like `! @ # $ % ^ & *` in room names
-* **Show top navbar in embedded layout:** This toggles the top navbar when using `?layout=embedded` in the end of the url
+Unread Counter Style: This option lets you differentiate or use the same style for regular messages and mentions.
+
+* **Different Style for user mentions:** This makes the notification counter differentiate average messages from mentions.
+* **Same style for mentions:** This makes the counter mark mentions and regular messages the same.
+* **Allow Special Characters in Room Names:** This enables the use of special characters like`! @ # $ % ^ & *` in room names.
+* **Show top navbar in embedded layout:** This toggles the top navbar when using `?layout=embedded` at the end of the URL.
 
 ## Assets
 
-Here you will be able to change most of the logos on your server. Found in the administration menu.
+You can change most of the logos on your server in the administration menu.
 
-* logo (svg, png, jpg)
-  * Changes the logo on the footer of the left sidebar
-  * Changes the logo on the login page
-* login background (svg, png, jpg)
-  * Changes the background of the login page
+* **Logo (SVG, png, jpg)**: Changes the logo on the footer of the left sidebar and the login page.
+* **Login background (SVG, png, jpg)**:.Changes the background of the login page.
 
-The next items are mostly icons for different operational systems and platforms, we recommend using the same image with the specified size and format on each item: Favicons are used in the browser tabs and as the icon for the server on the desktop application:
+The following items are mostly icons for different operating systems and platforms; we recommend using the same image with the specified size and format on each item: Favicons are used in the browser tabs and as the icon for the server on the desktop application:
 
 * favicon (ico)
-* favicon (svg)
+* favicon (SVG)
 * favicon 16x16 (png)
 * favicon 32x32 (png)
 
@@ -477,7 +108,7 @@ Icons for the notifications on chrome in android:
 * android-chrome 192x192 (png)
 * android-chrome 512x512 (png)
 
-Icons for favorites on Iphone:
+Icons for favorites on iPhone:
 
 * apple-touch-icon 180x180 (png)
 * apple-touch-icon-precomposed 180x180 (png)
@@ -492,4 +123,4 @@ Tiles on Microsoft Windows 10 start menu:
 
 Safari pinned tab Icon:
 
-* safari pinned tab (svg)
+* Safari pinned tab (SVG)
