@@ -119,62 +119,6 @@ Component must follow all current Rocket.Chat ui-kit component design and coding
 
 **Project Duration:** 175 hours. (Medium)
 
-
-
-### Google Summer of Code Community Hub
-
-**Mentors:** TBD\
-**Description:**   \
-****Every year, Rocket.Chat's GSoC new community of 100s gather around a desperate set of servers:
-
-* in open.rocket.chat channels
-* discussions in forums.rocket.chat topics
-* listed on gsoc.rocket.chat leaderboard
-* communicating over Github repositories
-* gathered for meetings on Jitsi
-* alumni summit
-* demo day
-
-This project leverages two existing projects - the _RC4Community_ platform and _RC4Conferences_ components to build a one-stop hub to engage our community, incorporating all the servers into a unified hub with an easy to use Ux via single logon.\
-****\
-******Desirable Skills:** Advanced Typescript, advanced React.  Deep knowledge of RC4Community and RC4Conferences projects.\
-\
-**Goal/Deliverable:**  A working Google Summer of Code Community  Hub that we will use to engage all community members starting in 2023.\
-\
-**Project Duration:** 350 hours. (Large)
-
-### Big Blue Button x Rocket.Chat
-
-**Mentors:**  TBD\
-\
-**Description:**\
-****Big Blue Button has become one of the more popular open source virtual classroom platform in the world.   The chat that is included is based on meteorjs (just like Rocket.Chat)  but is rudimentary and chat history is lost as soon as the class session is over.   This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Big Blue Button - giving it a rich messaging experience with full history after class.
-
-**Desired Skills:**
-
-React Native,  MeteorJS,  in-depth knowledge of EmbeddedChat project,  familiarity with Big Blue Button and  good understanding of Rocket.Chat core.\
-\
-**Goal/Deliverable:** \
-Big Blue Button with Rocket.Chat embedded in place of existing chat.\
-\
-**Project Duration:** 350 hours. (Large)
-
-
-
-### User Actions Audit Center
-
-**Mentors:** TBD
-
-**Description:** The goal of this project is to make a service (Back end) capable of tracking user actions (role change, permission change, setting change, critical endpoint calls, etc) and then list them to admins. This will serve as a way of auditability of actions, reducing support friction (since this will make changes to system easier to track) and improve quality. Ideally, an Admin section will be shown with the list of actions, which would be filtered by type/user/level. Setting should also be in place to see if actions should be tracked or not and which actions to track
-
-**Desirable Skills:** Advanced Typescript and mid level React
-
-**Goal/Deliverable:**  A working User Actions Audit Service.&#x20;
-
-**Project Duration:** 175 hours. (Medium)
-
-
-
 ### GitHub Pull request reminders app
 
 **Mentors:** Murtaza Patrawala
@@ -221,30 +165,6 @@ PS: For more inspiration on how to solve this issue, please refer to some of the
 
 
 
-### Template messages Rocket.Chat app
-
-**Mentors:** Murtaza Patrawala
-
-**Description:**&#x20;
-
-This project aims to develop a [Rocket.Chat](http://rocket.chat) app that allows users to create, store, and send common messages with ease (Similar to [this Slack app](https://slack.com/apps/AJGJWCYPQ-templates?tab=more\_info)). The app will have a simple interface that enables users to create templates with customized names. These templates can be triggered using a slash command (e.g., /template \<template-name>) and inserted into the chat window with just one click. Users can also edit and delete their templates as needed.
-
-The app will be built using [the Apps-Engine framework](https://developer.rocket.chat/apps-engine/rocket.chat-apps-engine) as a Rocket.Chat app. This app will improve productivity and streamline communication in Rocket.Chat, provides a convenient way for users to send common messages and save time in their daily work routine.
-
-Examples of use cases include a customer support agent responding to frequently asked questions, a project manager sending a weekly status update message to the team, or a sales representative following up with potential clients.
-
-**Desirable Skills:**&#x20;
-
-* Rocket.Chat app-engine Framework
-* Rocket.Chat UiKit
-* Advanced Typescript
-
-**Goal/Deliverable:**  A working Rocket.Chat app to send and manage template messages.
-
-**Project Duration:** 175 hours. (Medium)
-
-
-
 ### Introduce Captcha to Livechat Widget
 
 **Mentors:** Murtaza Patrawala, Kevin Aleman
@@ -276,7 +196,7 @@ Note: The CAPTCHA solution should be accessible to all users, including those wi
 
 ### QuickAnswer Bot
 
-**Mentors:** Murtaza Patrawala
+**Mentors:** TBD
 
 **Description:**
 
@@ -309,8 +229,6 @@ With Elasticsearch integrated into the tech stack, the bot can leverage the powe
 
 
 
-
-
 ### Summarizing Live Chat Conversations using OpenAI's ChatGPT
 
 **Mentors:** Murtaza Patrawala
@@ -333,5 +251,87 @@ The goal of this project is to develop a solution that utilizes OpenAI's ChatGPT
 * Storing the generated summaries in a database for later retrieval and analysis.
 
 **Project Duration:** 175 hours. (Medium)
+
+
+
+### Template messages Rocket.Chat app
+
+**Mentors:** TBD
+
+**Description:**&#x20;
+
+This project aims to develop a [Rocket.Chat](http://rocket.chat) app that allows users to create, store, and send common messages with ease (Similar to [this Slack app](https://slack.com/apps/AJGJWCYPQ-templates?tab=more\_info)). The app will have a simple interface that enables users to create templates with customized names. These templates can be triggered using a slash command (e.g., /template \<template-name>) and inserted into the chat window with just one click. Users can also edit and delete their templates as needed.
+
+The app will be built using [the Apps-Engine framework](https://developer.rocket.chat/apps-engine/rocket.chat-apps-engine) as a Rocket.Chat app. This app will improve productivity and streamline communication in Rocket.Chat, provides a convenient way for users to send common messages and save time in their daily work routine.
+
+Examples of use cases include a customer support agent responding to frequently asked questions, a project manager sending a weekly status update message to the team, or a sales representative following up with potential clients.
+
+**Desirable Skills:**&#x20;
+
+* Rocket.Chat app-engine Framework
+* Rocket.Chat UiKit
+* Advanced Typescript
+
+**Goal/Deliverable:**  A working Rocket.Chat app to send and manage template messages.
+
+**Project Duration:** 175 hours. (Medium)
+
+
+
+### User Actions Audit Center
+
+**Mentors:** TBD
+
+**Description:** The goal of this project is to make a service (Back end) capable of tracking user actions (role change, permission change, setting change, critical endpoint calls, etc) and then list them to admins. This will serve as a way of auditability of actions, reducing support friction (since this will make changes to system easier to track) and improve quality. Ideally, an Admin section will be shown with the list of actions, which would be filtered by type/user/level. Setting should also be in place to see if actions should be tracked or not and which actions to track
+
+**Desirable Skills:** Advanced Typescript and mid level React
+
+**Goal/Deliverable:**  A working User Actions Audit Service.&#x20;
+
+**Project Duration:** 175 hours. (Medium)
+
+
+
+### Google Summer of Code Community Hub
+
+**Mentors:** TBD\
+**Description:**   \
+****Every year, Rocket.Chat's GSoC new community of 100s gather around a desperate set of servers:
+
+* in open.rocket.chat channels
+* discussions in forums.rocket.chat topics
+* listed on gsoc.rocket.chat leaderboard
+* communicating over Github repositories
+* gathered for meetings on Jitsi
+* alumni summit
+* demo day
+
+This project leverages two existing projects - the _RC4Community_ platform and _RC4Conferences_ components to build a one-stop hub to engage our community, incorporating all the servers into a unified hub with an easy to use Ux via single logon.\
+****\
+******Desirable Skills:** Advanced Typescript, advanced React.  Deep knowledge of RC4Community and RC4Conferences projects.\
+\
+**Goal/Deliverable:**  A working Google Summer of Code Community  Hub that we will use to engage all community members starting in 2023.\
+\
+**Project Duration:** 350 hours. (Large)
+
+
+
+### Big Blue Button x Rocket.Chat
+
+**Mentors:**  TBD\
+\
+**Description:**\
+****Big Blue Button has become one of the more popular open source virtual classroom platform in the world.   The chat that is included is based on meteorjs (just like Rocket.Chat)  but is rudimentary and chat history is lost as soon as the class session is over.   This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Big Blue Button - giving it a rich messaging experience with full history after class.
+
+**Desired Skills:**
+
+React Native,  MeteorJS,  in-depth knowledge of EmbeddedChat project,  familiarity with Big Blue Button and  good understanding of Rocket.Chat core.\
+\
+**Goal/Deliverable:** \
+Big Blue Button with Rocket.Chat embedded in place of existing chat.\
+\
+**Project Duration:** 350 hours. (Large)
+
+
 
 [^1]: 
