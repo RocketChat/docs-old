@@ -46,7 +46,7 @@ Rocket.Chat users can have one or more roles, allowing them to perform the vario
 
 ## Rocket.Chat Omnichannel Roles
 
-[Omnichannel](../../use-rocket.chat/omnichannel/)-related Roles give Rocket.Chat users the ability to interact with or manage various Omnichannel features.
+[Omnichannel](../../use-rocket.chat/omnichannel/)-related Roles give Rocket.Chat users have the ability to interact with or manage various Omnichannel features.
 
 | Role               | Description                                                                                                                                                                                                                              |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
