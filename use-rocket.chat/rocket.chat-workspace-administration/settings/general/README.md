@@ -1,8 +1,12 @@
+---
+description: Configure general settings of your workspace.
+---
+
 # General
 
-Configure general settings of your workspace.
+To access the general settings of your workspace,&#x20;
 
-To access analytics, go to **Administration > Workspace > Settings > General.**
+Navigate to **Administration > Workspace > Settings > General**
 
 You have access to various configurations that can be done.
 
@@ -56,7 +60,7 @@ This feature is currently in alpha
 
 ## Apps
 
-* **Number of days to keep logs from apps stored**: Lets you set how long in days to keep logs from  Rocket.Chat Apps.
+* **Number of days to keep logs from apps stored**: Lets you set how long in days to keep logs from Rocket.Chat Apps.
 * **Enable the App Framework**: Use this setting to enable the Rocket.Chat Apps Framework. This allows you to add Rocket.Chat Apps from our Marketplace to your server.
 * **Enable development mode**: Development mode allows the installation of apps that are not from the Rocket.Chat's Marketplace.
 * **Apps' Source Package Storage type**: Choose where all the apps' source code will be stored. Apps can have multiple megabytes in size each.
@@ -91,7 +95,7 @@ This feature is currently in alpha
 ## Iframe Integration
 
 {% hint style="info" %}
-To be able to use the microphone, camera, and geolocation in an iframe, be sure to allow [the iframe features policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Feature\_Policy/Using\_Feature\_Policy). Example&#x20;
+To be able to use the microphone, camera, and geolocation in an iframe, be sure to allow [the iframe features policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Feature\_Policy/Using\_Feature\_Policy). Example
 
 ```html
 <iframe src="https://open.rocket.chat/" allow="geolocation; microphone; camera"></iframe>

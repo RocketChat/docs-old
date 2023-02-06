@@ -4,11 +4,15 @@ description: Connect to other IRC servers
 
 # IRC Federation
 
+{% hint style="warning" %}
+IRC Federation is in beta. Use on a production system is not recommended at this time.
+{% endhint %}
+
 IRC Federation allows your server to connect to other IRC servers.
 
 Internet Relay Chat (IRC) is a text-based group communication tool. Users join uniquely named channels, or rooms, for open discussion. IRC also supports private messages between individual users and file-sharing capabilities. This package integrates these layers of functionality with Rocket.Chat.
 
-By configuring this, you will be able to communicate directly from your Rocket.Chat to any external IRC server.
+After configuring, you are able to communicate directly from your Rocket.Chat to any external IRC server.
 
 To access this setting, go to **Administration** > **Workspace** > **Settings** > **IRC Federation**.
 

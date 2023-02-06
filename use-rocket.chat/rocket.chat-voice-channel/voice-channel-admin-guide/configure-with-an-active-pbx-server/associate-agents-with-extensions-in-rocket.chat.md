@@ -2,7 +2,7 @@
 
 As a Rocket.Chat administrator, you can associate one agent with one extension. This extension can be part of multiple queues.
 
-**An extension is simply a named set of actions in Asterisk. Asterisk will perform each action, in sequence, when that extension number is dialled**.
+**An extension is simply a named set of actions in Asterisk. Asterisk will perform each action in sequence when that extension number is dialed**.
 
 Extensions in Asterisk are assigned to queues. The extensions and queues are both created and managed in Asterisk by the Asterisk manager. An agent needs to associate with one of these extensions to be able to take calls in a queue. You, as a Rocket.Chat admin can take one of these extensions and associate it with an agent.
 
@@ -12,13 +12,13 @@ Both extensions and queues are managed in Asterisk by the _Asterisk manager_.
 
 To associate and an agent to an extension:
 
-* Go to **Avatar Menu > Administration > Settings >** **Voice Channel > Extension** tab
+* Go to **Administration** > **Workspace** > **Settings** > **Voice Channel > Extension** tab
 * Click **Associate Agent**
 * Select the agent name and associate it with a free extension, as shown below:
 
 <figure><img src="../../../../.gitbook/assets/Agent to extension association-voice channel.png" alt=""><figcaption><p>Agent to extension association</p></figcaption></figure>
 
-Following are some important points to know:
+Following are some essential points to know:
 
 * An extension becomes unavailable after it has been associated with an agent.
 * An extension can be associated with multiple queues.
