@@ -2,7 +2,7 @@
 
 _Effective date: May 4th, 2021_
 
-These Customer Terms of Service (the “Customer Terms”) describe your rights and responsibilities pertaining to Rocket.Chat Services (the "Services"), such as Rocket.Chat Cloud Hosting, Support Plans, Marketplace or any other services we may provide to you, the customer. Some sections of these Customer Terms only apply to specific Services, as indicated by the headings of the respective paragraph. These Customer Terms **do not** apply to on-premises installation of Rocket.Chat. Please read the Customer Terms carefully and **note that these Customer Terms include auto-renewal provisions and may limit your rights and liabilities.**
+These Customer Terms of Service (the “Customer Terms”) describe your rights and responsibilities pertaining to Rocket.Chat Services (the "Services"), such as Rocket.Chat Cloud Hosting, Support Plans, Marketplace, or any other services we may provide to you, the customer. Some sections of these Customer Terms only apply to specific Services, as indicated by the headings of the respective paragraph. These Customer Terms **do not** apply to on-premises installation of Rocket.Chat. Please read the Customer Terms carefully and **note that these Customer Terms include auto-renewal provisions and may limit your rights and liabilities.**
 
 “Rocket.Chat,” “we,” “us,” or “our” means Rocket.Chat Technologies Corp. “Customer”, “you” or “your” means the Customer indicated below, including its users, as applicable.
 
@@ -69,7 +69,11 @@ To provide you the Services in a consistent and secure manner, we regularly upda
 
 If we believe that there is a violation of the Customer Terms or any of our other policies that can simply be remedied by removal of certain Customer Data or taking other action, we may directly step in and take what we determine to be appropriate action (including disabling your account) if we believe there is a credible risk of harm to us, the Services, Users, or any third parties, including Vendors and Third Party Apps. To the maximum extent permitted by law, Rocket.Chat offers the Services and Products “AS IS” and “AS AVAILABLE”, and Rocket.Chat hereby disclaims all warranties, whether express, implied or statutory, including but not limited to any implied warranties of title, non-infringement, merchantability or fitness for a particular purpose. You may have other statutory rights, in which case the duration of any statutory warranties will be limited to the maximum extent permitted by law. IN NO EVENT WILL WE HAVE ANY LIABILITY FOR ANY LOST PROFITS OR REVENUES OR FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, COVER OR PUNITIVE DAMAGES HOWEVER CAUSED, WHETHER IN CONTRACT, TORT OR UNDER ANY OTHER THEORY OF LIABILITY, AND WHETHER OR NOT YOU HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. OUR MAXIMUM AGGREGATE LIABILITY FOR ANY BREACH OR IN CONNECTION WITH THIS AGREEMENT OR ANY SERVICE IS ONE HUNDRED DOLLARS ($100) IN THE AGGREGATE OR THE AMOUNT YOU PAID US DURING THE PRIOR 12 MONTHS. THE FOREGOING DISCLAIMERS WILL NOT APPLY TO THE EXTENT PROHIBITED BY APPLICABLE LAW AND DO NOT LIMIT EITHER PARTY’S RIGHT TO SEEK AND OBTAIN EQUITABLE RELIEF.
 
-**General Provisions**
+#### Payment; Fees
+
+All fees due to Rocket.Chat under these Terms are non-cancellable, and the sums paid are non-refundable and non-creditable, except as otherwise expressly provided in these Terms.&#x20;
+
+### **General Provisions**
 
 **Email and Rocket.Chat Messages**
 
@@ -83,19 +87,15 @@ When Customer orders, activates, subscribes to, or uses any Services, such Servi
 
 These Customer Terms will begin on the Effective Date and will continue thereafter so long as one or more Subscription Period(s) remain in effect or until terminated by either party as outlined in this Section (the "**Term**").
 
-**Termination Rights**.
+**Termination Rights**.&#x20;
 
-**a. Renewal.** Unless a party gives written notice of non-renewal or termination at least thirty (30) days prior to the expiration of the relevant Term, this Agreement will automatically renew for a period equal to the previous Term. Any Fees for a renewed Term are due upon the date of renewal.
+**a. Renewal.** Unless a party gives written notice of non-renewal or termination at least thirty (30) days prior to the expiration of the relevant Term, this Agreement will automatically renew for a period equal to the previous Term. Any Fees for a renewed Term are due upon the date of renewal.&#x20;
 
-**b. Early Termination.** You may choose to terminate this Agreement yearly at your convenience provided that you give 30 days' written notice to Rocket.Chat; we will not provide any refunds of prepaid fees or unused Fees; and, if applicable, you will promptly pay all unpaid fees due through the end of the Term.
+**b. For Cause.** Either party may terminate this Agreement and any Order Forms immediately upon 30 days’ written notice to the other party in the event of any material breach of this Agreement (including without limitation, any failure to pay any amounts when due hereunder, your failure to comply with restrictions under this Agreement, including those set out in Section 3) by such party where such material breach is not cured during such notice period. Either party may also terminate this Agreement and all Order Forms, without notice, (i) upon the institution by or against the other party of insolvency, receivership or bankruptcy proceedings (provided such proceedings are not dismissed within one hundred twenty (120) days of such institution), (ii) upon the other party's making an assignment for the benefit of creditors, or (iii) upon the other party's dissolution or ceasing to do business without a successor.
 
-**c. For Cause.** Either party may terminate this Agreement and any Order Forms immediately upon 30 days’ written notice to the other party in the event of any material breach of this Agreement (including without limitation, any failure to pay any amounts when due hereunder, your failure to comply with restrictions under this Agreement, including those set out in Section 3) by such party where such material breach is not cured during such notice period. Either party may also terminate this Agreement and all Order Forms, without notice, (i) upon the institution by or against the other party of insolvency, receivership or bankruptcy proceedings (provided such proceedings are not dismissed within one hundred twenty (120) days of such institution), (ii) upon the other party's making an assignment for the benefit of creditors, or (iii) upon the other party's dissolution or ceasing to do business without a successor.
+**c. Vendors and Third Party Apps:** Where Rocket.Chat relies on Vendors or Third Party Apps (as defined below) to provide a Service or any function or feature relating to our Services (e.g. Apple for Apple Business Chat integrations), Rocket.Chat reserves the right to change, suspend, limit, or discontinue your use of the Services, function, or feature at any time (i) if the Vendor revokes the status of Rocket.Chat as an intermediary to provide You such Service, function, or feature; or (ii) at the request of the Vendor, such requests being at the discretion of the Vendor, without notice or liability.
 
-**d. Vendors and Third Party Apps:** Where Rocket.Chat relies on Vendors or Third Party Apps (as defined below) to provide a Service or any function or feature relating to our Services (e.g. Apple for Apple Business Chat integrations), Rocket.Chat reserves the right to change, suspend, limit, or discontinue your use of the Services, function, or feature at any time (i) if the Vendor revokes the status of Rocket.Chat as an intermediary to provide You such Service, function, or feature; or (ii) at the request of the Vendor, such requests being at the discretion of the Vendor, without notice or liability.
-
-**Refund Policy.** You are entitled to a full refund of pre-paid fees if you terminate your Initial Subscription Period within 30 days of the start of such Subscription Period. You are also entitled to a refund in the event that You terminate pursuant to a material uncured breach by Rocket.Chat. In the foregoing cases, Rocket.Chat will refund You a pro-rated portion of pre-paid Fees for Services not actually made available or received by You as of the date of such termination as your sole and exclusive remedy for such termination. Except as expressly provided otherwise, all fees and amounts are non-refundable and non-cancellable.
-
-**Effect of Termination or Expiration**. Unless You are entitled for a refund as described above, Termination or expiration shall not relieve You of the obligation to pay any fees or other amounts accrued or payable to Rocket.Chat including fees for the remainder of the Subscription Period(s) after an earlier termination. If Rocket.Chat terminates for cause, Customer will immediately pay all amounts due and payable for the remainder of the Subscription Period(s) without limiting Rocket.Chat’s other rights and remedies. Without prejudice to any other rights, upon termination, You must cease all use of the Services, Software, and Documentation and destroy or return (upon request by Rocket.Chat) all copies of the Services, Software, and Documentation. You further acknowledge and agree that You will retrieve Your User Data or copies of Your User Data from Rocket.Chat within thirty (30) business days of the termination or expiration of these Customer Terms. Unless in accordance with our internal policies, contractual, legal, or other obligation, You acknowledge and agree that Rocket.Chat has the right to delete Your User Data, including any and all copies thereof. Your User Data, once deleted, will not be able to be recovered.
+**Effect of Termination or Expiration**. Termination or expiration shall not relieve You of the obligation to pay any fees or other amounts accrued or payable to Rocket.Chat including fees for the remainder of the Subscription Period(s) after an earlier termination. If Rocket.Chat terminates for cause, Customer will immediately pay all amounts due and payable for the remainder of the Subscription Period(s) without limiting Rocket.Chat’s other rights and remedies. Without prejudice to any other rights, upon termination, You must cease all use of the Services, Software, and Documentation and destroy or return (upon request by Rocket.Chat) all copies of the Services, Software, and Documentation. You further acknowledge and agree that You will retrieve Your User Data or copies of Your User Data from Rocket.Chat within thirty (30) business days of the termination or expiration of these Customer Terms. Unless in accordance with our internal policies, contractual, legal, or other obligation, You acknowledge and agree that Rocket.Chat has the right to delete Your User Data, including any and all copies thereof. Your User Data, once deleted, will not be able to be recovered.
 
 **Privacy Policy**
 
@@ -117,10 +117,33 @@ The Customer Terms will be enforced to the fullest extent permitted under applic
 
 You may not assign any of your rights or delegate your obligations under these Customer Terms, whether by operation of law or otherwise, without the prior written consent of us (not to be unreasonably withheld). We may assign these Customer Terms in their entirety (including all terms and conditions incorporated herein by reference), without your consent, to a corporate affiliate or in connection with a merger, acquisition, corporate reorganization, or sale of all or substantially all of our assets.
 
-**Governing Law; Venue; Waiver of Jury Trial; Fees**
+### **Governing Law; Venue; Waiver of Jury Trial; Fees**
 
-The Customer Terms, and any disputes arising out of or related hereto, will be governed exclusively by the applicable governing law of California, without regard to conflicts of laws rules or the United Nations Convention on the International Sale of Goods. In any action or proceeding to enforce rights under the Customer Terms, the prevailing party will be entitled to recover its reasonable costs and attorney’s fees.
+\
+**Governing Law.** Any dispute, controversy, or claim arising out of or in connection with these Terms shall be sought settled through negotiations in good faith. This Agreement and any disputes arising out of or related to this Agreement shall be governed by and construed in accordance with applicable law as outlined in Section, without regard to any conflict of law provisions. The terms of the United Nations Convention on Contracts for the Sale of Goods do not apply to these Terms. The Uniform Computer Information Transactions Act (UCITA) will not apply to these Terms regardless of when or where adopted.
 
+**Applicable Law.** All references to Rocket.Chat,’ ‘we,’ or ‘us’ under the Contract, what law will apply in any dispute or lawsuit arising out of or in connection with the Contract, and which courts have jurisdiction over any such dispute or lawsuit, depending on where Customer is domiciled.&#x20;
+
+
+
+| **Domicile**                      | **Rocket.Chat Contract Entity** | **Governing Law**       | **Venue**                       |
+| --------------------------------- | ------------------------------- | ----------------------- | ------------------------------- |
+| United States and other Countries | Rocketchat Technologies Corp.   | Delaware, United States | Delaware, United States         |
+| Brazil                            | Rocketchat Tecnologia LTDA      | Brazil                  | Porto Alegre, Rio Grande do Sul |
+
+
+
+The Agreement, and any disputes arising out of or related hereto will be governed exclusively by the applicable governing law above. The courts located in the applicable venue above will have exclusive jurisdiction to adjudicate any dispute arising out of or relating to the Agreement or its formation, interpretation, or enforcement. Each party hereby consents and submits to the exclusive jurisdiction of such courts.
+
+**Attorneys’ Fees.** If any legal action or other proceeding is brought to enforce the provisions of this Agreement, the prevailing party shall be entitled to recover reasonable attorney fees and other costs incurred in the action or proceeding, in addition to any other relief to which the prevailing party may be entitled.
+
+**Dispute Resolution.** In the event of any controversy or claim arising out of or relating to these Terms, the parties will consult and negotiate with each other and, recognizing their mutual interests, attempt to reach a solution satisfactory to both parties. If the parties do not reach a settlement within a period of sixty (60) days, either party may pursue relief as may be available under these Terms pursuant to Governing Law and Jurisdiction Sections. All negotiations pursuant to this Section will be confidential and treated as compromise and settlement negotiations for purposes of all rules and codes of evidence of applicable legislation and jurisdictions.
+
+**Injunctive Relief; Enforcement.** Notwithstanding the provisions of Dispute Resolution  and Governing Law Sections, nothing in these Terms will prevent us from seeking injunctive relief with respect to a violation of intellectual property rights, confidentiality obligations, or enforcement or recognition of any award or order in any appropriate jurisdiction.
+
+**Language.** If this Agreement is translated into a language other than English and there are conflicts between the translations of this Agreement, you agree that the English version of this Agreement shall prevail and control.
+
+\
 **Rocket.Chat Marketplace; Specific Provisions** Rocket.Chat Marketplace is an online marketplace for plugins, addons and extensions ("Apps") that work with Rocket.Chat´s products. The following sections govern specific provisions regarding the Marketplace in the context of these Customer Terms.
 
 _**App Listing**_ The listing for each App will identify the provider of the App (“Vendor”), which may be Rocket.Chat or a third party. Apps for which Rocket.Chat is the Vendor are "Rocket.Chat Apps,” and Apps for which the Vendor is a third party are “Third Party Apps”.

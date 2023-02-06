@@ -6,7 +6,7 @@ enterprise: true
 
 # Message Auditing Panel
 
-![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (22).jpg>)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (28).jpg>)
 
 It allows the authorized user to:
 
@@ -55,7 +55,7 @@ To search for a specific message by a user:
 
 The conversations pops up, as shown below:
 
-![](<../../.gitbook/assets/image (298) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (298) (1) (1) (1) (1) (1) (1).png>)
 
 ### By Direct Messages
 

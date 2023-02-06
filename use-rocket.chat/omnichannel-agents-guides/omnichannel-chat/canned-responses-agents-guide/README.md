@@ -1,6 +1,6 @@
 # Canned Responses Agent's Guide
 
-![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1).jpg>)
+![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (33).jpg>)
 
 {% hint style="info" %}
 Canned responses allow you to call pre-saved message snippets with shortcuts (preceded with `!`) to communicate a quick note to your visitors in Omnichannel conversations and for messaging in regular conversations inside your Rocket.Chat's workspace.

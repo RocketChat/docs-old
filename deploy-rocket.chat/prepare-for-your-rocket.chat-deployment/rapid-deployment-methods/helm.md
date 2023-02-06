@@ -57,7 +57,7 @@ $ helm install --name my-rocketchat -f values.yaml stable/rocketchat
 
 This is an example of how Rocket.Chat instances can be deployed in a very scalable, fault-tolerant, and backed-up configuration, suitable for critical production services.
 
-![Multi Instance k8s/Helm Deployment on AWS EKS](../../../.gitbook/assets/rocket-chat-aws-eks.svg)
+![Multi Instance k8s/Helm Deployment on AWS EKS](<../../../.gitbook/assets/Rocket Chat AWS EKS (1).svg>)
 
 {% hint style="info" %}
 Rocket.Chat version less than `1.X.X` requires a MongoDB ReplicaSet to be configured. When using the dependent `stable/mongodb` chart (`mongodb.enabled=true`), enabling ReplicaSet will drop the PVC and create new ones, therefore losing the database content, check the instructions on how to manually upgrade below.
