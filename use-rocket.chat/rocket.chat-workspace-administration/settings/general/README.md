@@ -14,7 +14,7 @@ Remember always to hit **Save Changes** to apply any changes made.
 
 ## General Settings
 
-* **Show Setup Wizard**: This setting **SHOULD NOT** be altered. It is been set automatically from `Pending` -> `In Progress` -> `Completed` depending on whether your workspace's general setup procedure has been completed. Changing this manually can lock your workspce. Please refer to this [issue](https://github.com/RocketChat/Rocket.Chat/issues/13840)
+* **Show Setup Wizard**: This setting **SHOULD NOT** be altered. It is been set automatically from `Pending` -> `In Progress` -> `Completed` depending on whether your workspace's general setup procedure has been completed. Changing this manually can lock your workspace. Please refer to this [issue](https://github.com/RocketChat/Rocket.Chat/issues/13840)
 * **Site URL**: This sets the URL of the workspace. Example: `https://chat.domain.com/`
 * **Site Name**: This sets the name of the workspace. Example `My Rocket.Chat Server`
 * **Document Domain**: Lets you set the document domain.
