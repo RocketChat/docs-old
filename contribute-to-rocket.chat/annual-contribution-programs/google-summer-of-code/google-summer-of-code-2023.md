@@ -267,7 +267,29 @@ Offensive/sensitive content detection by AI.  Ideally both images/text will be p
 
 **Goal/Deliverable:** An app that uses TensorFlow AI to verify images/texts and flag them when has harmful, toxic, or offensive content and block.
 
-**Project Duration:** 175 hours  (Medium)\
+**Project Duration:** 175 hours  (Medium)
+
+
+
+**UiKit Playground 2.0**
+
+**Mentors:** Guilherme Gazzo, Tasso Evangelista Pinto, Diego Sampaio
+
+**Description:** Rocket.chat UiKit is the protocol/tool that allows rocket.chat apps to add new (both web and mobile) elements to the current UI.
+
+People often do not imagine what is possible to do with the protocol. That's why the playground idea.
+
+Nowadays we already have a version of the playground (https://rocketchat.github.io/fuselage/uikit-playground/develop/), so it is already possible to visualize the main functionalities, but it is still not the full experience desired.
+
+**Desirable Skills:** TypeScript, React
+
+**Goal/Deliverable:** The objective is to add other functionalities that improve and encourage the development of apps. Features such as templates, workflows simulation, connecting to a workspace and also sending/sharing the prototypes through rocket.chat are the main goals of the project
+
+&#x20;Project Duration: 350 hours (Large)
+
+Difficulty: Medium/Advanced
+
+\
 
 
 ### QuickAnswer Bot
