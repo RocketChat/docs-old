@@ -395,6 +395,131 @@ Big Blue Button with Rocket.Chat embedded in place of existing chat.\
 \
 **Project Duration:** 350 hours. (Large)
 
+### Action Center <a href="#docs-internal-guid-09d7d535-7fff-bc4f-ed26-5bac17070524" id="docs-internal-guid-09d7d535-7fff-bc4f-ed26-5bac17070524"></a>
+
+Mentors: Kevin A
+
+Description: User actions center.&#x20;
+
+Desirable Skills: Typescript (advanced) and React (mid)
+
+Goal/Deliverable:  Goal is to make a service (BE) capable of tracking user actions (role change, permission change, setting change, critical endpoint calls, etc) and then list them to admins. This will serve as a way of auditability of actions, reducing support friction (since this will make changes to system easier to track) and improve quality.
+
+Ideally, an Admin section will be shown with the list of actions, which would be filtered by type/user/level.
+
+Setting should also be in place to see if actions should be tracked or not and which actions to track
+
+Project Duration: 175
+
+Difficulty: Medium
+
+### Live Preview Message Composer  <a href="#docs-internal-guid-e14dd554-7fff-7875-973a-38a13f969474" id="docs-internal-guid-e14dd554-7fff-7875-973a-38a13f969474"></a>
+
+Mentors: Hugo Costa
+
+Description: Live preview in message composer
+
+Desirable Skills: Typescript (mid) and React (mid)
+
+Goal/Deliverable:  The goal is to make the message composer live preview feature instead of just adding markdown tokens that styles/parse the message in the Message List.
+
+E.g: If the user press Bold button in the message composer actions that has the message "Test Message" or wrap the message in asterisk nowadays it shows:
+
+Current output: \*Test Message\*
+
+![](https://lh6.googleusercontent.com/CNoHypIy18Z1yYBUnc-yCa7-hiO3GSXucx0MBQi2JNFL6GL2zYBHM\_A9QNkuyB3UcWYljMw\_XGbZqeTros0Byf\_W-lyc-w71l01FXMM2VNrDxjM3HPC9C-TSR5WFPRwBHox9YLfsw\_jjStE4y5IXGgU)
+
+Desired output: Test Message
+
+![](https://lh4.googleusercontent.com/NkAv5dheflqArH3ZHb-zW7iL9EPwNSk3WSDjm9DG8wvycsBHWdx1LgZX2wgnpWCcmmgGNTNKgyeOHsF3L9Aw9Rln00ve1kkg7Klor\_nGL8p89262wPUfdMYdBd3O6mggeQN2CbHXKKrHkDLZVChERpU)
+
+Project Duration: 175 (Medium)
+
+Difficulty: Medium
+
+#### AI Moderation APP <a href="#docs-internal-guid-6a938870-7fff-9486-6ec9-cd0950cf4057" id="docs-internal-guid-6a938870-7fff-9486-6ec9-cd0950cf4057"></a>
+
+Mentors: Rafael Tapia
+
+Description: Offensive/sensitive content detection by AI
+
+Desirable Skills: TypeScript(mid), TensorFlow(mid)
+
+Goal/Deliverable: An app that uses TensorFlow AI to verify images/texts and flag them when has harmful, toxic, or offensive content and block.
+
+Project Duration: 175 (Medium)
+
+Difficulty: Medium
+
+
+
+### Agile BOT
+
+Mentors: Gabriel Casals & Tiago Evangelista\
+Description: Agile adoption is increasing year to year on the different industries. There is an opportunity to add agile package bots to help squad with reminders, links and facilitate attendance to meeting based on simple calendar inputs and emoji reactions. Candidate will be working with Agile experts and Engineers to build some solutions for this space and help improve team/squads productivity. Successful contributor will propose and implement a Chatbot that solves a problem in agile. Candidate have a free choice of technology to implement the chatbot - RASA, Botpress, Dialogflow, and so on.\
+Desirable Skills: Familiarity with TypeScript development. Demonstrated interest and/or passion in Agile and squad productivity tools.\
+Goal/Deliverable: A working chatbot that can improve agile team productivity\
+Project Duration: 175 hours. (Medium)\
+Difficulty: Medium
+
+#### Miro App <a href="#docs-internal-guid-aa4629ae-7fff-b43a-c2f6-c3bf23748a55" id="docs-internal-guid-aa4629ae-7fff-b43a-c2f6-c3bf23748a55"></a>
+
+Mentors: TBD
+
+Description: Create and share boards with coworkers inside Rocket.Chat
+
+Desirable Skills: List of desirable skills i.e. JavaScript/TypeScript, ReactJS
+
+Goal/Deliverable:  The goal of this project is to create collaborative boards that work within Rocket.Chat
+
+Project Duration: Between 2 options -> 175 (Medium) or 350 hours (Large)
+
+Difficulty: Expected Level of difficulty for students
+
+#### Notion App <a href="#docs-internal-guid-1a00b1ee-7fff-e115-48e0-272ddd46db45" id="docs-internal-guid-1a00b1ee-7fff-e115-48e0-272ddd46db45"></a>
+
+Mentors: TBD
+
+Description: Create pages and receive notifications inside Rocket.Chat
+
+Desirable Skills: List of desirable skills i.e. JavaScript/TypeScript, ReactJS
+
+Goal/Deliverable: Work as if you were creating documents in notion without leaving Rocket.Chat
+
+Project Duration: Between 2 options -> 175 (Medium) or 350 hours (Large)
+
+Difficulty: Expected Level of difficulty for students
+
+#### Toggl <a href="#docs-internal-guid-0cfe617d-7fff-0cd2-09ef-3c8dc80bf2e3" id="docs-internal-guid-0cfe617d-7fff-0cd2-09ef-3c8dc80bf2e3"></a>
+
+Mentors: TBD
+
+Description: Track your time on daily basics tasks
+
+Desirable Skills: List of desirable skills i.e. JavaScript/TypeScript, ReactJS
+
+Goal/Deliverable: Start counting time inside Rocket-Chat, without having to enter the Toggl website or download the application on your computer
+
+Project Duration: Between 2 options -> 175 (Medium) or 350 hours (Large)
+
+Difficulty: Expected Level of difficulty for students
+
+
+
+#### Asana <a href="#docs-internal-guid-44c30cad-7fff-38fe-1143-8fe33a4d0b81" id="docs-internal-guid-44c30cad-7fff-38fe-1143-8fe33a4d0b81"></a>
+
+Mentors: TBD
+
+Description: Create and assign tasks without leaving Rocket.Chat
+
+Desirable Skills: List of desirable skills i.e. JavaScript/TypeScript, ReactJS
+
+Goal/Deliverable: The objective of this project is to be able to manage tasks without having to enter the tool
+
+Project Duration: Between 2 options -> 175 (Medium) or 350 hours (Large)
+
+Difficulty: Expected Level of difficulty for students
+
 
 
 [^1]: 
