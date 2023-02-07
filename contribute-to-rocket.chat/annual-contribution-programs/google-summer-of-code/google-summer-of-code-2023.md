@@ -209,7 +209,47 @@ ReactJS, TypeScript, MeteorJS. A thorough understanding of how Rocket.Chat core 
 
 Working integration of Mozilla Hubs rooms within Rocket.Chat Team Channels in a rational and usable context.
 
-**Project Duration:** 350 hours (Large)
+**Project Duration:** 350 hours (Large)\
+
+
+### Live Preview Message Composer  <a href="#docs-internal-guid-e14dd554-7fff-7875-973a-38a13f969474" id="docs-internal-guid-e14dd554-7fff-7875-973a-38a13f969474"></a>
+
+**Mentors**: Hugo Costa
+
+**Description:**  \
+****Make the message composer live preview feature instead of just adding markdown tokens that styles/parse the message in the Message List.
+
+E.g: If the user press Bold button in the message composer actions that has the message "Test Message" or wrap the message in asterisk nowadays it shows:
+
+Current output: \*Test Message\*
+
+![](https://lh6.googleusercontent.com/CNoHypIy18Z1yYBUnc-yCa7-hiO3GSXucx0MBQi2JNFL6GL2zYBHM\_A9QNkuyB3UcWYljMw\_XGbZqeTros0Byf\_W-lyc-w71l01FXMM2VNrDxjM3HPC9C-TSR5WFPRwBHox9YLfsw\_jjStE4y5IXGgU)
+
+Desired output: Test Message
+
+![](https://lh4.googleusercontent.com/NkAv5dheflqArH3ZHb-zW7iL9EPwNSk3WSDjm9DG8wvycsBHWdx1LgZX2wgnpWCcmmgGNTNKgyeOHsF3L9Aw9Rln00ve1kkg7Klor\_nGL8p89262wPUfdMYdBd3O6mggeQN2CbHXKKrHkDLZVChERpU)
+
+**Desirable Skills**: Typescript (mid) and React (mid)\
+**Goal/Deliverable:**    Live preview in message composer
+
+**Project Duration:**   175  hours (Medium)
+
+
+
+### AI Moderation APP <a href="#docs-internal-guid-6a938870-7fff-9486-6ec9-cd0950cf4057" id="docs-internal-guid-6a938870-7fff-9486-6ec9-cd0950cf4057"></a>
+
+**Mentors**: Rafael Tapia
+
+**Description:** \
+\
+Offensive/sensitive content detection by AI.  Ideally both images/text will be processed.   Proposals that extend the existing work on the AI Moderation project, as well as brand new approaches will be welcomed.   Proposal should also address scaling and cost of the solution.
+
+**Desirable Skills:** TypeScript(mid), TensorFlow(mid)
+
+**Goal/Deliverable:** An app that uses TensorFlow AI to verify images/texts and flag them when has harmful, toxic, or offensive content and block.
+
+**Project Duration:** 175 hours  (Medium)\
+
 
 ### QuickAnswer Bot
 
@@ -394,62 +434,6 @@ React Native,  MeteorJS,  in-depth knowledge of EmbeddedChat project,  familiari
 Big Blue Button with Rocket.Chat embedded in place of existing chat.\
 \
 **Project Duration:** 350 hours. (Large)
-
-### Action Center <a href="#docs-internal-guid-09d7d535-7fff-bc4f-ed26-5bac17070524" id="docs-internal-guid-09d7d535-7fff-bc4f-ed26-5bac17070524"></a>
-
-Mentors: Kevin A
-
-Description: User actions center.&#x20;
-
-Desirable Skills: Typescript (advanced) and React (mid)
-
-Goal/Deliverable:  Goal is to make a service (BE) capable of tracking user actions (role change, permission change, setting change, critical endpoint calls, etc) and then list them to admins. This will serve as a way of auditability of actions, reducing support friction (since this will make changes to system easier to track) and improve quality.
-
-Ideally, an Admin section will be shown with the list of actions, which would be filtered by type/user/level.
-
-Setting should also be in place to see if actions should be tracked or not and which actions to track
-
-Project Duration: 175
-
-Difficulty: Medium
-
-### Live Preview Message Composer  <a href="#docs-internal-guid-e14dd554-7fff-7875-973a-38a13f969474" id="docs-internal-guid-e14dd554-7fff-7875-973a-38a13f969474"></a>
-
-Mentors: Hugo Costa
-
-Description: Live preview in message composer
-
-Desirable Skills: Typescript (mid) and React (mid)
-
-Goal/Deliverable:  The goal is to make the message composer live preview feature instead of just adding markdown tokens that styles/parse the message in the Message List.
-
-E.g: If the user press Bold button in the message composer actions that has the message "Test Message" or wrap the message in asterisk nowadays it shows:
-
-Current output: \*Test Message\*
-
-![](https://lh6.googleusercontent.com/CNoHypIy18Z1yYBUnc-yCa7-hiO3GSXucx0MBQi2JNFL6GL2zYBHM\_A9QNkuyB3UcWYljMw\_XGbZqeTros0Byf\_W-lyc-w71l01FXMM2VNrDxjM3HPC9C-TSR5WFPRwBHox9YLfsw\_jjStE4y5IXGgU)
-
-Desired output: Test Message
-
-![](https://lh4.googleusercontent.com/NkAv5dheflqArH3ZHb-zW7iL9EPwNSk3WSDjm9DG8wvycsBHWdx1LgZX2wgnpWCcmmgGNTNKgyeOHsF3L9Aw9Rln00ve1kkg7Klor\_nGL8p89262wPUfdMYdBd3O6mggeQN2CbHXKKrHkDLZVChERpU)
-
-Project Duration: 175 (Medium)
-
-Difficulty: Medium
-
-#### AI Moderation APP <a href="#docs-internal-guid-6a938870-7fff-9486-6ec9-cd0950cf4057" id="docs-internal-guid-6a938870-7fff-9486-6ec9-cd0950cf4057"></a>
-
-Mentors: Rafael Tapia
-
-Description: Offensive/sensitive content detection by AI
-
-Desirable Skills: TypeScript(mid), TensorFlow(mid)
-
-Goal/Deliverable: An app that uses TensorFlow AI to verify images/texts and flag them when has harmful, toxic, or offensive content and block.
-
-Project Duration: 175 (Medium)
-
-Difficulty: Medium
 
 
 
