@@ -1,5 +1,5 @@
 ---
-description: Manage how troubleshooting is handled on this workspace.
+description: Configure how troubleshooting is handled in your workspace.
 ---
 
 # Troubleshoot

@@ -4,7 +4,7 @@
 
 ## How to apply
 
-Rocket.Chat intends to apply as a Google Summer of Code 2023 mentoring organization.  We are excited to participate in this 19 years-old program to usher in a new generation of open source contributors and enthusiasts.
+Rocket.Chat has applied to become a Google Summer of Code 2023 mentoring organization.  We are looking forward to participating in this 19 years-old program to usher in a new generation of open source contributors and enthusiasts.
 
 Almost anyone in the world [over 18 years of age ](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html)who loves coding and wants to explore the incredible world of open source can join us as a GSoC 2023 contributor.
 
