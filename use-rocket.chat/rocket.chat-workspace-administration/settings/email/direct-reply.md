@@ -1,22 +1,19 @@
 # Direct Email reply
 
-## Introduction
-
 Enable this feature to allow users to reply to chat messages by directly replying to email notifications they receive. We currently use [subaddressing](https://en.wikipedia.org/wiki/Email\_address#Subaddressing) for this feature.
 
-## Set up credentials
 
-Go to `Administration settings > Email > Direct reply`.
 
-After that:
+To set up credentials,&#x20;
 
+* navigate to **Administration > Workspace > Settings > Email > Direct Reply**
 * select the email server protocol (`IMAP` or `POP`)
-* your email server host name (e.g. `imap.example.com` or `pop.example.com`)
+* your email server hostname (e.g. `imap.example.com` or `pop.example.com`)
 * the port (143 or 993 for IMAP and 110 or 995 for POP)
 * ignore TLS `true` if port 143 or 110
 * email check frequency (in minutes) if POP server (>=2)
-* delete intercepted emails. We recommend to select/keep `true` if you don't want to keep copy of email messages, in case IMAP server.
-* a separator (default and recommended) is the character separating base and tag part of the email. E.g.: `base+tag@domain` (separator: +). [More info here](https://en.wikipedia.org/wiki/Email\_address#Subaddressing)
+* delete intercepted emails. We recommend selecting/keeping `true` if you don't want to keep copies of email messages, in case IMAP server.
+* a separator (default and recommended) is the character separating the base and tag part of the email. E.g.: `base+tag@domain` (separator: +). [More info here](https://en.wikipedia.org/wiki/Email\_address#Subaddressing)
 *   your credentials (Username & password)
 
     Once filled, click **Save changes**.
@@ -25,13 +22,13 @@ After that:
 
 ### IMAP settings
 
-![IMAP server configuration.](../../../../../.gitbook/assets/imap-1.png)
+![IMAP server configuration.](../../../../.gitbook/assets/imap-1.png)
 
 ### POP3 settings
 
 Make sure your **POP3** server keeps keep **no** copy of emails, otherwise it is treated as a new message every time.
 
-![POP server configuration.](../../../../../.gitbook/assets/pop-1.png)
+![POP server configuration.](../../../../.gitbook/assets/pop-1.png)
 
 Now, you can reply chat messages via email. It supports full formatting like inline, multiline, bold, italics etc.
 

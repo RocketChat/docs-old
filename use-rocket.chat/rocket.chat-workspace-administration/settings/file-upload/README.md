@@ -4,11 +4,15 @@ description: Configure file upload and storage
 
 # File Upload
 
-In this article you will find all of the settings related to File Uploads.
+To access the menu on your workspace, navigate to **Administration > Workspace > Settings > File Upload**
+
+{% hint style="success" %}
+Remember always to hit **Save Changes** to apply any changes made.
+{% endhint %}
 
 ## General Settings
 
-* **File Uploads Enabled**: Use this setting to enable or restrict file uploads on your server
+* **File Uploads Enabled**: Use this setting to enable or restrict file uploads on your workspace
 * **File Uploads Enabled in Direct Messages**: Use this setting to enable or restrict file uploads on Direct Messages
 * **Maximum File Upload Size (in bytes)**: Use this setting to define the maximum allowed file size for uploads. `Set it to -1 to remove the file size limitation.`
 *   **Accepted Media Types**: Use this setting to define what types of files the users will be able to upload.
@@ -16,7 +20,7 @@ In this article you will find all of the settings related to File Uploads.
     > Comma-separated list of media types. Leave it blank for accepting all media types.
 * **Protect Uploaded Files**
   * **Yes**: Only authenticated users will have access to the uploaded files.
-  * **No**: If in possession of the uploaded file's URL, unauthenticated users will be able to access and download said files.
+  * **No**: If in possession of the uploaded file's URL, unauthenticated users can access and download said files.
 * **Storage Type**
   * **GridFS**: Uses the GridFS storage type
   * **AmazonS3**: Uses the [Amazon S3](./#amazon-s3) storage type
@@ -26,7 +30,7 @@ In this article you will find all of the settings related to File Uploads.
 
 ## Amazon S3
 
-You can find a more detailed guide on how to set your Amazon S3 server [here](amazon-s3.md).
+You can find a more detailed guide on how to set up your Amazon S3 server [here](amazon-s3.md).
 
 * **Access Key**: Your Amazon Access Key ID (optional)
 *   **Secret Key**: Your Amazon Secret Access Key (optional)

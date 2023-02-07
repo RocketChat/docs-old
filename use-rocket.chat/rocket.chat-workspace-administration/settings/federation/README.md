@@ -2,7 +2,13 @@
 
 ## Introduction
 
-Federation allows for an unlimited number of workspaces to communicate with each other. Federating a workspace makes it visible to other workspaces over the federated network, and this makes communication with other Federation-enabled servers possible.
+Federation allows for an unlimited number of workspaces to communicate with each other. Federating a workspace makes it visible to other workspaces over the federated network, making communication with other Federation-enabled servers possible.
+
+To access Federation on your workspace, navigate to **Administration > Workspace > Settings > Federation**
+
+{% hint style="success" %}
+Remember always to hit **Save Changes** to apply any changes made.
+{% endhint %}
 
 Rocket.Chat provides Federation using the [Matrix Protocol](https://matrix.org/) and the [Rocket.Chat Federation Network](rocket.chat-federation.md) (Will be deprecated on 6.0.0).
 
