@@ -4,22 +4,28 @@ description: Integration between Rocket.Chat and YouTube Live
 
 # Livestream & Broadcasting
 
-This integration between Rocket.Chat, and YouTube Live allow channel owners to broadcast their camera feed live to Livestream inside a channel.
+The integration between Rocket.Chat and YouTube Live allows channel owners to broadcast their live camera feed to Livestream inside a channel.
 
-To access this menu, navigate to **Administration** > **Workspace** > **Settings** > **Livestream & Broadcasting**.
+To access the broadcasting settings,&#x20;
+
+* Navigate to **Administration** > **Workspace** > **Settings** > **Livestream & Broadcasting**.
 
 {% hint style="info" %}
-This feature is currently in beta! Please report bugs to github.com/RocketChat/Rocket.Chat/issues
+This feature is currently in beta! Kindly report any bugs [here](https://github.com/RocketChat/Rocket.Chat/issues).
 {% endhint %}
 
 ## Configuration
 
-The Broadcasting feature can only be used with the Livestream feature.
+The integration between Rocket and YouTube Live allows channel owners to broadcast their live camera feed to Livestream inside a channel. You can only use the Broadcasting feature with the Livestream feature.
 
-If you set the `Broadcasting Enable` setting to false, users won't be able to create live streams using their webcams but will still be able to link a live stream from youtube.
+Users can not create live broadcasts using their webcams if you switch the **Broadcasting Enable** to **false** in your broadcast settings, but they can still link to a live stream from YouTube.
 
-_Currently, the admin needs a valid Google app with access to the Youtube API to use youtube live integration (More details on the_ [_Google Developer page_](https://developers.google.com/youtube/v3/)_). This will allow the administrator to have a valid API Key, Client ID & Secret, which are used on the Broadcasting feature._
+To use YouTube Live integration, the workspace administrator needs a [Google Account](https://www.google.com/accounts/NewAccount) to access the [Google API Console](https://console.cloud.google.com/). With this, the administrator has access to a valid Client ID, API Key, and Secret, which is essential for broadcasting.
+
+{% hint style="info" %}
+To learn more about Youtube live integration, please read [YouTube Data API Overview](https://developers.google.com/youtube/v3/getting-started).
+{% endhint %}
 
 ## Livestream
 
-After a correct set-up, the Livestream tab will now allow you to Broadcast your camera when editing the source URL. When opening the popout, it might take a moment while we prepare the broadcast and livestream for your session. This will be indicated by the blinking icon and "Preparing" status displayed in the control bar. After that initial phase, the broadcast will be Ready and available to start with your click.
+After a correct set-up, the Livestream tab allows you to Broadcast your camera when editing the source URL. While we prepare the broadcast and live stream for your session, opening the popout can take a little while. A blinking icon and "**Preparing**" status displays in the control bar. After that initial phase, the broadcast will be ready and available to start with your click.
