@@ -285,7 +285,35 @@ The goal of this project is to develop a solution that utilizes OpenAI's ChatGPT
 * Use of the OpenAI ChatGPT API to generate a summary of the conversation.
 * Storing the generated summaries in a database for later retrieval and analysis.
 
-**Project Duration:** 175 hours. (Medium)
+**Project Duration:** 175 hours. (Medium)\
+
+
+### Token Economy for Team Channels
+
+**Mentors:** TBD
+
+**Description:**&#x20;
+
+Rocket.Chat has Team Channels to handle sub-communities wanting autonomous control over their membership within a scaled server (possibly servicing tens of thousands of users). &#x20;
+
+This project aims to provide such sub-communities /  teams with a mean to:
+
+* mint their own erc-20 token, unique to the team
+* distribute the tokens to the members of the team
+* enable tokens to be securely exchanged between members within the team channels
+
+The implementation can also work optionally with blockchains and tokens from other providers - but this is not mandatory.   Integration with a wallet is implied but novel alternative solution will also be accepted.   It can be implemented as a Rocket.Chat App or extension to core, or both. &#x20;
+
+**Desirable Skills:**&#x20;
+
+* Thorough understanding of Rocket.Chat core
+* Working experience with modern Web3 / blockchain technologies
+* Rocket.Chat App development experience
+* Advanced Typescript
+
+**Goal/Deliverable:**  Ability to mint, distribute, and exchange unique erc-20 tokend within a "team".
+
+**Project Duration:** 350 hours. (Large)
 
 
 
