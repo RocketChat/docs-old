@@ -119,6 +119,8 @@ Component must follow all current Rocket.Chat ui-kit component design and coding
 
 **Project Duration:** 175 hours. (Medium)
 
+
+
 ### GitHub Pull request reminders app
 
 **Mentors:** Murtaza Patrawala
@@ -163,6 +165,8 @@ PS: For more inspiration on how to solve this issue, please refer to some of the
 
 **Project Duration:** 175 hours. (Medium)&#x20;
 
+
+
 ### Introduce Captcha to Livechat Widget
 
 **Mentors:** Murtaza Patrawala, Kevin Aleman
@@ -189,6 +193,8 @@ Note: The CAPTCHA solution should be accessible to all users, including those wi
 **Goal/Deliverable:** Captcha integrated within Livechat widget
 
 **Project Duration:** 175 hours. (Medium)
+
+
 
 ### Open source Metaverse integration (mozilla hubs)
 
@@ -255,7 +261,7 @@ Agile adoption is increasing year to year on the different industries. There is 
 
 **Description:** \
 \
-Offensive/sensitive content detection by AI.  Ideally both images/text will be processed.   Proposals that extend the existing work on the AI Moderation project, as well as brand new approaches will be welcomed.   Proposal should also address scaling and cost of the solution.
+Offensive/sensitive content detection by AI.  Ideally both images/text will be processed.   Proposals that extend the existing work on the [AI Moderation project](https://github.com/RocketChat/Apps.Moderation), as well as brand new approaches will be welcomed.   Proposal should also address scaling and cost of the solution.
 
 **Desirable Skills:** TypeScript(mid), TensorFlow(mid)
 
