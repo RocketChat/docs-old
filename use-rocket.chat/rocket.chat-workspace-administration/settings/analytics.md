@@ -4,34 +4,34 @@ description: See how users interact with your workspace.
 
 # Analytics
 
-Setting up analytics gives you the possibility to see how users interact with your server and help measure the metrics and monitor the different measures of user experience.
+Setting up analytics allows you to see how users interact with your server and help measure the metrics and monitor the different user experience measures.
 
-To access analytics, go to **Administration > Workspace > Settings > Analytics.**
+To access analytics, navigate to **Administration > Workspace > Settings > Analytics.**
 
 You have access to various configurations that can be done.
 
 {% hint style="success" %}
-Remember to always hit **Save changes** to apply any changes made.
+Remember always to hit **Save changes** to apply any changes made.
 {% endhint %}
 
 ## Google Analytics
 
 Lets you set up Google Analytics.
 
-* **Enable**: When enabled, Google Analytics is active and you will be prompted to set a Tracking ID.
+* **Enable**: When enabled, Google Analytics is active, and you are prompted to set a Tracking ID.
 * **Tracking ID:** Takes in your Google Analytics tracking ID.
 
 ## Features Enabled
 
 Lets you set various properties to analyze and track.
 
-* **Messages**: When set to true, actions users perform on messages will be tracked.
-* **Rooms**: When enabled, actions like; `create, leave, delete` on channels or groups will be tracked
+* **Messages**: When set to true, actions users perform on messages are tracked.
+* **Rooms**: When enabled, actions like; `create, leave, delete` on channels or groups are tracked
 * **Users**: This Lets you track events related to actions on users like; `password reset times, profile picture change,` etc.
 
 ## Piwik
 
-Gives you the ability to set up Matomo formerly Piwik for analytics.
+Gives you the ability to set up Matomo, formerly Piwik, for analytics.
 
 * **Enable**: When set to true, it enables Piwik analytics on your server.
 * **URL**: The url where the Piwik resides, be sure to include the trailing slash. Example: `//piwik.rocket.chat/`

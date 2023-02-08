@@ -4,38 +4,37 @@ description: Modify workspace member account settings
 
 # Accounts
 
-templatesIn this guide, we will go over all settings in the _Accounts_ Section.
-
-To access this setting, navigate to:
+To access this setting, navigate to
 
 **Administration** > **Workspace** > **Settings** > **Accounts**
 
 These are the basic Account configuration settings. Most of the options are either `True` or `False` depending on whether you want the setting enabled or not.
 
-* **Allow anonymous read**: Setting this to true allows people to use the chat without having to create an account or log in. Anonymous users will be only allowed to read messages on public channels.
-* **Allow anonymous write**: This will allow Anonymous users to post messages on public channels.
-* **Allow users to delete own account**: Setting this to true allows users to delete their account. When a user is deleted all their messages are deleted too.
-* **Allow User Profile Change**: Setting this to false will block users from changing the information on their profile.
-* **Allow User Avatar Change**: Setting this to false will block users from changing their avatar.
-* **Allow Name Change**: Setting this to false will block users from changing their names.
-* **Allow Custom Status Message:** Setting this to true will allow users to create the custom status message.
-* **Allow Username Change**: Setting this to false will block users from changing their usernames.
-* **Allow User Email Change**: Setting this to false will block users from changing their email.
-* **Allow User Password Change**: Setting this to false will block users from changing their password.
-* **Allow Password Change for OAuth Users:** Setting this to false will block OAuth users from changing their password.
-* **Allow Email Notifications:** Setting this to true will enable the users to receive email notifications.
+* **Allow anonymous read**: If enabled, allows people to use the chat without having to create an account or log in. Anonymous users are only allowed to read messages on public channels.
+* **Allow anonymous write**: If enabled, allows Anonymous users to post messages on public channels.
+* **Allow users to delete own account**: Setting this to true allows users to delete their account. When a user is deleted, all their messages are deleted too.
+* **Allow User Profile Change**: Setting this to false blocks users from changing the information on their profile.
+* **Allow User Avatar Change**: Setting this to false blocks users from changing their avatar.
+* **Allow Name Change**: Setting this to false blocks users from changing their names.
+* **Allow Custom Status Message:** Setting this to true allows users to create the custom status message.
+* **Allow Username Change**: Setting this to false blocks users from changing their usernames.
+* **Allow User Email Change**: Setting this to false blocks users from changing their email.
+* **Allow User Password Change**: Setting this to false blocks users from changing their password.
+* **Allow Password Change for OAuth Users:** Setting this to false blocks OAuth users from changing their password.
+* **Allow Email Notifications:** Setting this to true enables the users to receive email notifications.
 * **Custom Fields to Show in User Info**: Other fields to be displayed in the user info. Please see more in [Custom fields](custom-fields.md).
-* **Login Expiration in Days**: After this number of days of inactivity, the user will be logged out.
-* **Show Default Login Form**: Setting this to false will remove the login form from the login screen. This setting is useful when you are using a third-party login system.
-* **Placeholder for email or username login field**: This will change the placeholder for the _email or username_ field on the login screen.
-* **Placeholder for password login field**: This will change the placeholder for the _password_ field on the login screen.
-* **Confirm Placeholder for Password Login Field:** This will confirm the placeholder for the password field on the login screen.
-* **Forget user session on window close**: This will log out users when they close the window running Rocket.Chat.
+* **Login Expiration in Days**: After this number of days of inactivity, the user is logged out.
+* **Show Default Login Form**: Setting this to false removes the login form from the login screen. This setting is useful when you are using a third-party login system.
+* **Placeholder for email or username login field**: This changes the placeholder for the _email or username_ field on the login screen.
+* **Placeholder for password login field**: This changes the placeholder for the _password_ field on the login screen.
+* **Confirm Placeholder for Password Login Field:** This confirms the placeholder for the password field on the login screen.
+* **Forget user session on window close**: This logs out users when they close the window running Rocket.Chat.
 * **Fields to Consider in Search**: Specifies the fields to be considered when searching for users. The default is _username, name, bio, and nickname._
-* **Default Directory Listing**: This will set the default directory to be listed.
-* **Allow Invisible Status Option:** Setting this option will allow users to set the invisible status.
+* **Default Directory Listing**: This sets the default directory to be listed.
+* **Allow Invisible Status Option:** Setting this option allows users to set the invisible status.
+* **Reset section to default**: Click the button to reset all these basic configurations back to their default value.
 
-Clicking on the `Reset` button will reset all these basic configurations back to their default value.
+
 
 ## Two Factor Authentication
 
