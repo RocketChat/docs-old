@@ -125,7 +125,7 @@ Component must follow all current Rocket.Chat ui-kit component design and coding
 
 ### GitHub Pull request reminders app
 
-**Mentors:** Murtaza Patrawala
+**Mentors:** Murtaza Patrawala, Samad Khan
 
 **Description:** \
 Have you ever faced challenges keeping track of your pull request reviews as a student? This is a common problem faced by many development teams. That's why we propose developing a pull request reminder app for [Rocket.Chat](http://rocket.chat) as a part of the Google Summer of Code program. For now, we’re isolating the scope of this project to GitHub.
@@ -291,7 +291,38 @@ Nowadays we already have a version of the [playground](https://rocketchat.github
 
 **Project Duration:** 350 hours (Large)
 
-**Difficulty:** Medium/Advanced
+**Difficulty:** Medium/Advanced\
+
+
+### Integrate Notion via RC App <a href="#docs-internal-guid-1a00b1ee-7fff-e115-48e0-272ddd46db45" id="docs-internal-guid-1a00b1ee-7fff-e115-48e0-272ddd46db45"></a>
+
+**Mentors:**  Bárbara Zanella
+
+**Description:**   Create pages and receive notifications inside Rocket.Chat
+
+**Desirable Skills:**    JavaScript/TypeScript, ReactJS
+
+**Goal/Deliverable:**   Work as if you were creating documents in notion without leaving Rocket.Chat
+
+**Project Duration:**  175 (Medium)\
+\
+**Difficulty:** Easy/Medium\
+
+
+### Summarizing Live Chat Conversations using OpenAI's ChatGPT
+
+**Mentors:** Lester Coyoy,  Murtaza Patrawala
+
+**Description:** \
+The goal of this project is to develop a solution that utilizes OpenAI's ChatGPT to generate a concise summary of live chat conversations within Rocket.Chat. This will provide managers with a quick and efficient way to stay up-to-date with live chat conversations, allowing them to make informed decisions without having to spend time reading through lengthy conversations.
+
+**Desirable Skill :**  Strong programming skills in Typescript.   Familiarity with natural language processing and machine learning.  Familiarity with Rocket.Chat and its Apps-engine.  Knowledge about OpenAI's ChatGPT API is a must.
+
+**Goal/Deliverable:**   A Rocket.Chat app that retrieves live chat conversations from the Rocket.Chat apps-engine.   Use of the OpenAI ChatGPT API to generate a summary of the conversation.  Storing the generated summaries in a database for later retrieval and analysis.
+
+**Project Duration:** 175 hours. (Medium)\
+\
+**Difficulty:** Easy/Medium
 
 
 
@@ -345,22 +376,7 @@ This project involves the introduction of the missing architectural, build workf
 **Project Duration:** 350 hours. (Large)\
 \
 **Difficulty:** Advanced\
-
-
-### Summarizing Live Chat Conversations using OpenAI's ChatGPT
-
-**Mentors:** Lester Coyoy,  Murtaza Patrawala
-
-**Description:** \
-The goal of this project is to develop a solution that utilizes OpenAI's ChatGPT to generate a concise summary of live chat conversations within Rocket.Chat. This will provide managers with a quick and efficient way to stay up-to-date with live chat conversations, allowing them to make informed decisions without having to spend time reading through lengthy conversations.
-
-**Desirable Skill :**  Strong programming skills in Typescript.   Familiarity with natural language processing and machine learning.  Familiarity with Rocket.Chat and its Apps-engine.  Knowledge about OpenAI's ChatGPT API is a must.
-
-**Goal/Deliverable:**   A Rocket.Chat app that retrieves live chat conversations from the Rocket.Chat apps-engine.   Use of the OpenAI ChatGPT API to generate a summary of the conversation.  Storing the generated summaries in a database for later retrieval and analysis.
-
-**Project Duration:** 175 hours. (Medium)\
 \
-**Difficulty:** Easy/Medium\
 
 
 ### Token Economy for Team Channels
@@ -484,22 +500,6 @@ Big Blue Button with Rocket.Chat embedded in place of existing chat.\
 **Difficulty:** Easy/Medium
 
 
-
-### Integrate Notion via RC App <a href="#docs-internal-guid-1a00b1ee-7fff-e115-48e0-272ddd46db45" id="docs-internal-guid-1a00b1ee-7fff-e115-48e0-272ddd46db45"></a>
-
-Mentors: TBD
-
-Description: Create pages and receive notifications inside Rocket.Chat
-
-Desirable Skills: JavaScript/TypeScript, ReactJS
-
-Goal/Deliverable: Work as if you were creating documents in notion without leaving Rocket.Chat
-
-Project Duration:   175 (Medium)\
-\
-**Difficulty:** Easy/Medium
-
-### &#x20;<a href="#docs-internal-guid-0cfe617d-7fff-0cd2-09ef-3c8dc80bf2e3" id="docs-internal-guid-0cfe617d-7fff-0cd2-09ef-3c8dc80bf2e3"></a>
 
 ### Integrate Toggl via RC App <a href="#docs-internal-guid-0cfe617d-7fff-0cd2-09ef-3c8dc80bf2e3" id="docs-internal-guid-0cfe617d-7fff-0cd2-09ef-3c8dc80bf2e3"></a>
 
