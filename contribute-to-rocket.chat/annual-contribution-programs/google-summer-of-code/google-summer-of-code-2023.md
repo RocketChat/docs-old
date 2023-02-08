@@ -68,19 +68,16 @@ We welcome any additional ideas you may have.
 
 **Mentors:**  Devanshu Sharma
 
-**Description:**
-
-Moderation console for Rocket.Chat enables moderators to examine reported messages and then take action against the individuals who post them.   A simple set of action is already included.   In this project you will add the action to allow muting of the user for a specific duration.&#x20;
+**Description:**\
+****Moderation console for Rocket.Chat enables moderators to examine reported messages and then take action against the individuals who post them.   A simple set of action is already included.   In this project you will add the action to allow muting of the user for a specific duration.&#x20;
 
 Currently, the only way to submit messages for moderator's review is to report the message.   This project will add a mini-reputation system, through voting with special emojis, to assist the moderator in deciding what to do with the reported user.   A count of special emojis against a message can be used to determine the number of users that find a particular message offensive.
 
-**Desired Skills:**
+**Desired Skills:**\
+****ReactJS, TypeScript, MeteorJS. A thorough understanding of Moderation Console operations.  Knowledge of how to expose additional core features to Apps.
 
-ReactJS, TypeScript, MeteorJS. A thorough understanding of Moderation Console operations.  Knowledge of how to expose additional core features to Apps.
-
-**Goals/Deliverables:**
-
-Mini-reputation system enabling users to mark messages using special emojis.  Additional action for moderation console allowing user to be muted by moderator for some durations (5min, 1 hour, or any custom minutes)
+**Goals/Deliverables:**\
+****Mini-reputation system enabling users to mark messages using special emojis.  Additional action for moderation console allowing user to be muted by moderator for some durations (5min, 1 hour, or any custom minutes)
 
 **Project Duration:** 175 hours (Medium)\
 \
@@ -90,15 +87,13 @@ Mini-reputation system enabling users to mark messages using special emojis.  Ad
 ### Jitsi Meet x Rocket.Chat
 
 **Mentors:**  Sidharth Mohanty\
+\
 **Description:**\
 ****Jitsi meet has become one of the most popular and frequently used open source video conference platform in the world.   The chat that is included as part of the Jitsi system is rudimentary and chat history is lost as soon as the conference is over.   This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Jitsi Meet - giving it a rich messaging experience with full history after conference.
 
-**Desired Skills:**
-
-**React Native,   in-depth knowledge of EmbeddedChat project,  familiarity with Jitsi Meet, understanding of prodigy.**\
+**Desired Skills:**  React Native,   in-depth knowledge of EmbeddedChat project,  familiarity with Jitsi Meet, understanding of prodigy.\
 ****\
-**Goal/Deliverable:** \
-Jitsi Meet with Rocket.Chat embedded in place of existing chat.\
+**Goal/Deliverable:**  Jitsi Meet with Rocket.Chat embedded in place of existing chat.\
 \
 **Project Duration:** 350 hours. (Large)\
 \
@@ -110,7 +105,6 @@ Jitsi Meet with Rocket.Chat embedded in place of existing chat.\
 Mentors:  Diego Mello\
 \
 **Description:**\
-****\
 ****Implement a new Rocket.Chat UI media carousel component that can:
 
 * open any media (image, video, audio, doc, etc)
@@ -133,8 +127,7 @@ Component must follow all current Rocket.Chat ui-kit component design and coding
 
 **Mentors:** Murtaza Patrawala
 
-**Description:**&#x20;
-
+**Description:** \
 Have you ever faced challenges keeping track of your pull request reviews as a student? This is a common problem faced by many development teams. That's why we propose developing a pull request reminder app for [Rocket.Chat](http://rocket.chat) as a part of the Google Summer of Code program. For now, we’re isolating the scope of this project to GitHub.
 
 The app's goal will be to provide regular reminders and updates to keep the review process moving and help ensure that pull requests are being reviewed and discussed in a timely manner. This project will be built on top of [this existing GitHub App](https://github.com/RocketChat/Apps.Github22) which already has a bunch of boilerplate code to deal with authentications and GitHub APIs.
@@ -162,12 +155,7 @@ PS: For more inspiration on how to solve this issue, please refer to some of the
 * [Pull Remind](https://www.producthunt.com/products/pull-remind)
 * [Axolo](https://axolo.co/blog/p/utlimate-slack-pull-request-reminder-bot)
 
-**Desirable Skills:**&#x20;
-
-* Advanced Typescript
-* Knowledge about Github API's
-* Rocket.Chat app-engine Framework
-* Familiarity with existing [Github App](https://github.com/RocketChat/Apps.Github22)
+**Desirable Skills:**  Advanced Typescript;  Knowledge about Github API's;  Rocket.Chat app-engine Framework;  Familiarity with existing [Github App](https://github.com/RocketChat/Apps.Github22)
 
 **Goal/Deliverable:**  A working Rocket.Chat app which sends pulls request reminders to Rocket.Chat users.
 
@@ -181,8 +169,7 @@ PS: For more inspiration on how to solve this issue, please refer to some of the
 
 **Mentors:** Murtaza Patrawala, Kevin Aleman
 
-**Description:**&#x20;
-
+**Description:** \
 RocketChat is a popular open-source communication platform, but it is not uncommon for spammers to take advantage of its live chat widget to send unwanted messages. To mitigate this issue, a CAPTCHA solution should be implemented in the live chat widget. This project aims to integrate a CAPTCHA mechanism in RocketChat's live chat widget to prevent spam messages from being sent.
 
 The solution should allow users to prove that they are human by completing a simple CAPTCHA task before sending a message. This will help to reduce the number of spam messages and improve the overall user experience.
@@ -195,10 +182,7 @@ Key Deliverables:
 
 Note: The CAPTCHA solution should be accessible to all users, including those with disabilities, and should not negatively impact the user experience.
 
-**Desirable Skills:**&#x20;
-
-* React (Mid-level)
-* Familiar with [Rocket.Chat Livechat](https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/livechat)
+**Desirable Skills:**  React (Mid-level);  Familiar with [Rocket.Chat Livechat](https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/livechat)
 
 **Goal/Deliverable:** Captcha integrated within Livechat widget
 
@@ -208,7 +192,7 @@ Note: The CAPTCHA solution should be accessible to all users, including those wi
 
 
 
-### Open source Metaverse integration (mozilla hubs or third room)
+### Open source Metaverse integration (mozilla hubs / third room)
 
 **Mentors:**  Sing Li
 
@@ -294,13 +278,12 @@ Offensive/sensitive content detection by AI.  Ideally both images/text will be p
 
 **Mentors:** Guilherme Gazzo, Tasso Evangelista Pinto, Diego Sampaio
 
-**Description:**&#x20;
-
+**Description:** \
 Rocket.chat UiKit is the protocol/tool that allows rocket.chat apps to add new (both web and mobile) elements to the current UI.
 
 People often do not imagine what is possible to do with the protocol. That's why the playground idea.
 
-Nowadays we already have a version of the playground (https://rocketchat.github.io/fuselage/uikit-playground/develop/), so it is already possible to visualize the main functionalities, but it is still not the full experience desired.
+Nowadays we already have a version of the [playground](https://rocketchat.github.io/fuselage/uikit-playground/develop/), so it is already possible to visualize the main functionalities, but it is still not the full experience desired.
 
 **Desirable Skills:** TypeScript, React
 
@@ -316,9 +299,8 @@ Nowadays we already have a version of the playground (https://rocketchat.github.
 
 **Mentors:** TBD
 
-**Description:**
-
-The goal is to develop a bot that can help reduce repetitive questions asked in Rocket.Chat channels by providing relevant answers from its knowledge base (Similar to [this Slack app](https://slack.com/apps/ASAFS8C2D-truffle?tab=more\_info))
+**Description:**\
+****The goal is to develop a bot that can help reduce repetitive questions asked in Rocket.Chat channels by providing relevant answers from its knowledge base (Similar to [this Slack app](https://slack.com/apps/ASAFS8C2D-truffle?tab=more\_info))
 
 Features:
 
@@ -335,11 +317,7 @@ Technologies to be used:
 
 With Elasticsearch integrated into the tech stack, the bot can leverage the powerful search and analysis capabilities of Elasticsearch to efficiently search through the knowledge base and provide accurate answers to the user's questions. [Here’s](https://rebeccabilbro.github.io/intro-doc-similarity-with-elasticsearch/) a good blog to get started.
 
-**Desirable Skills:**&#x20;
-
-* Advanced knowledge of Natural Language Processing (NLP)
-* [Rocket.Chat](http://rocket.chat) apps-engine
-* Experience using chosen indexing framework like ElasticSearch
+**Desirable Skills:**   Advanced knowledge of Natural Language Processing (NLP);  [Rocket.Chat](http://rocket.chat) apps-engine;  Experience using chosen indexing framework like ElasticSearch
 
 **Goal/Deliverable:**  A Rocket.Chat app that suggests relevant answers to new messages in a channel, based on past messages. Plus an additional service is used for indexing messages.
 
@@ -353,52 +331,43 @@ With Elasticsearch integrated into the tech stack, the bot can leverage the powe
 
 **Mentors:** TBD
 
-**Description:**
-
-Full-stack component is the holy grail of software componentization.  Imagine building a fully functional customized web portal in minutes by dragging and dropping full-stack components.   Each component not only contains interactive UI, but also associated mid-tier and server-side/severless behaviours as well as parameterizations.  Unfortunately the state of our current software art is not quite there yet.   The next best thing is actually [Next.js](https://github.com/vercel/next.js/) which solves the same problem but at a page level and not at the component-within-the-page level.\
+**Description:**\
+****Full-stack component is the holy grail of software componentization.  Imagine building a fully functional customized web portal in minutes by dragging and dropping full-stack components.   Each component not only contains interactive UI, but also associated mid-tier and server-side/severless behaviours as well as parameterizations.  Unfortunately the state of our current software art is not quite there yet.   The next best thing is actually [Next.js](https://github.com/vercel/next.js/) which solves the same problem but at a page level and not at the component-within-the-page level.\
 \
 RC4Community is a specialized componentized framework for community builders to rapidly create fully functional community portal.  It was designed to work with a full-stack component framework since day one - but had to use Next.js instead. &#x20;
 
 This project involves the introduction of the missing architectural, build workflow, and packaging technology to enable full-stack components within the RC4Community context.
 
-**Desirable Skills:** \
-ReactJS, JavaScript, Next.js, server-side technology, serverless technology, microservices.  A thorough understanding of how current component framework works.  In-depth understanding of modern devops technology.   In-depth understanding of JavaScript packaging technology and workflow. A passion for pushing the limits of modern componentized software development tools.
+**Desirable Skills:**  ReactJS, JavaScript, Next.js, server-side technology, serverless technology, microservices.  A thorough understanding of how current component framework works.  In-depth understanding of modern devops technology.   In-depth understanding of JavaScript packaging technology and workflow. A passion for pushing the limits of modern componentized software development tools.
 
 **Goal/Deliverable:**  A set of full stack components for community builders.  A framework that allows new components to be hosted on their own  independent repositories and be packaged into modules that can be installed over the network as needed (similar to npm model today).
 
 **Project Duration:** 350 hours. (Large)\
+\
+**Difficulty:** Advanced\
 
 
 ### Summarizing Live Chat Conversations using OpenAI's ChatGPT
 
-**Mentors:** Murtaza Patrawala
+**Mentors:** Lester Coyoy,  Murtaza Patrawala
 
-**Description:**&#x20;
-
+**Description:** \
 The goal of this project is to develop a solution that utilizes OpenAI's ChatGPT to generate a concise summary of live chat conversations within Rocket.Chat. This will provide managers with a quick and efficient way to stay up-to-date with live chat conversations, allowing them to make informed decisions without having to spend time reading through lengthy conversations.
 
-**Desirable Skill**
+**Desirable Skill :**  Strong programming skills in Typescript.   Familiarity with natural language processing and machine learning.  Familiarity with Rocket.Chat and its Apps-engine.  Knowledge about OpenAI's ChatGPT API is a must.
 
-* Strong programming skills in Typescript.
-* Familiarity with natural language processing and machine learning.
-* Familiarity with Rocket.Chat and its Apps-engine.
-* Knowledge about OpenAI's ChatGPT API is a must.
-
-**Goal/Deliverable:** &#x20;
-
-* A Rocket.Chat app that retrieves live chat conversations from the Rocket.Chat apps-engine.
-* Use of the OpenAI ChatGPT API to generate a summary of the conversation.
-* Storing the generated summaries in a database for later retrieval and analysis.
+**Goal/Deliverable:**   A Rocket.Chat app that retrieves live chat conversations from the Rocket.Chat apps-engine.   Use of the OpenAI ChatGPT API to generate a summary of the conversation.  Storing the generated summaries in a database for later retrieval and analysis.
 
 **Project Duration:** 175 hours. (Medium)\
+\
+**Difficulty:** Easy/Medium\
 
 
 ### Token Economy for Team Channels
 
 **Mentors:** TBD
 
-**Description:**&#x20;
-
+**Description:** \
 Rocket.Chat has Team Channels to handle sub-communities wanting autonomous control over their membership within a scaled server (possibly servicing tens of thousands of users). &#x20;
 
 This project aims to provide such sub-communities /  teams with a mean to:
@@ -409,16 +378,13 @@ This project aims to provide such sub-communities /  teams with a mean to:
 
 The implementation can also work optionally with blockchains and tokens from other providers - but this is not mandatory.   Integration with a wallet is implied but novel alternative solution will also be accepted.   It can be implemented as a Rocket.Chat App or extension to core, or both. &#x20;
 
-**Desirable Skills:**&#x20;
-
-* Thorough understanding of Rocket.Chat core
-* Working experience with modern Web3 / blockchain technologies
-* Rocket.Chat App development experience
-* Advanced Typescript
+**Desirable Skills:**    Thorough understanding of Rocket.Chat core.  Working experience with modern Web3 / blockchain technologies.  Rocket.Chat App development experience.  Advanced Typescript
 
 **Goal/Deliverable:**  Ability to mint, distribute, and exchange unique erc-20 tokend within a "team".
 
-**Project Duration:** 350 hours. (Large)
+**Project Duration:** 350 hours. (Large)\
+\
+**Difficulty:** Medium/Advanced
 
 
 
@@ -426,23 +392,20 @@ The implementation can also work optionally with blockchains and tokens from oth
 
 **Mentors:** TBD
 
-**Description:**&#x20;
-
+**Description:** \
 This project aims to develop a [Rocket.Chat](http://rocket.chat) app that allows users to create, store, and send common messages with ease (Similar to [this Slack app](https://slack.com/apps/AJGJWCYPQ-templates?tab=more\_info)). The app will have a simple interface that enables users to create templates with customized names. These templates can be triggered using a slash command (e.g., /template \<template-name>) and inserted into the chat window with just one click. Users can also edit and delete their templates as needed.
 
 The app will be built using [the Apps-Engine framework](https://developer.rocket.chat/apps-engine/rocket.chat-apps-engine) as a Rocket.Chat app. This app will improve productivity and streamline communication in Rocket.Chat, provides a convenient way for users to send common messages and save time in their daily work routine.
 
 Examples of use cases include a customer support agent responding to frequently asked questions, a project manager sending a weekly status update message to the team, or a sales representative following up with potential clients.
 
-**Desirable Skills:**&#x20;
-
-* Rocket.Chat app-engine Framework
-* Rocket.Chat UiKit
-* Advanced Typescript
+**Desirable Skills:**  Rocket.Chat app-engine Framework. Rocket.Chat UiKit. Advanced Typescript
 
 **Goal/Deliverable:**  A working Rocket.Chat app to send and manage template messages.
 
-**Project Duration:** 175 hours. (Medium)
+**Project Duration:** 175 hours. (Medium)\
+\
+**Difficulty:** Easy/Medium
 
 
 
@@ -456,7 +419,9 @@ Examples of use cases include a customer support agent responding to frequently 
 
 **Goal/Deliverable:**  A working User Actions Audit Service.&#x20;
 
-**Project Duration:** 175 hours. (Medium)
+**Project Duration:** 175 hours. (Medium)\
+\
+**Difficulty:** Easy/Medium
 
 
 
@@ -480,7 +445,9 @@ This project leverages two existing projects - the _RC4Community_ platform and _
 \
 **Goal/Deliverable:**  A working Google Summer of Code Community  Hub that we will use to engage all community members starting in 2023.\
 \
-**Project Duration:** 350 hours. (Large)
+**Project Duration:** 350 hours. (Large)\
+\
+**Difficulty:** Easy/Medium
 
 
 
@@ -491,14 +458,15 @@ This project leverages two existing projects - the _RC4Community_ platform and _
 **Description:**\
 ****Big Blue Button has become one of the more popular open source virtual classroom platform in the world.   The chat that is included is based on meteorjs (just like Rocket.Chat)  but is rudimentary and chat history is lost as soon as the class session is over.   This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Big Blue Button - giving it a rich messaging experience with full history after class.
 
-**Desired Skills:**
-
-React Native,  MeteorJS,  in-depth knowledge of EmbeddedChat project,  familiarity with Big Blue Button and  good understanding of Rocket.Chat core.\
+**Desired Skills:**\
+****React Native,  MeteorJS,  in-depth knowledge of EmbeddedChat project,  familiarity with Big Blue Button and  good understanding of Rocket.Chat core.\
 \
 **Goal/Deliverable:** \
 Big Blue Button with Rocket.Chat embedded in place of existing chat.\
 \
 **Project Duration:** 350 hours. (Large)\
+\
+**Difficulty:** Advanced\
 
 
 ### Integrate Miro via RC App <a href="#docs-internal-guid-aa4629ae-7fff-b43a-c2f6-c3bf23748a55" id="docs-internal-guid-aa4629ae-7fff-b43a-c2f6-c3bf23748a55"></a>
@@ -511,7 +479,9 @@ Big Blue Button with Rocket.Chat embedded in place of existing chat.\
 
 **Goal/Deliverable:**  The goal of this project is to create collaborative boards that work within Rocket.Chat
 
-**Project Duration:** 175 (Medium)&#x20;
+**Project Duration:** 175 (Medium) \
+\
+**Difficulty:** Easy/Medium
 
 
 
@@ -525,7 +495,9 @@ Desirable Skills: JavaScript/TypeScript, ReactJS
 
 Goal/Deliverable: Work as if you were creating documents in notion without leaving Rocket.Chat
 
-Project Duration:   175 (Medium)
+Project Duration:   175 (Medium)\
+\
+**Difficulty:** Easy/Medium
 
 ### &#x20;<a href="#docs-internal-guid-0cfe617d-7fff-0cd2-09ef-3c8dc80bf2e3" id="docs-internal-guid-0cfe617d-7fff-0cd2-09ef-3c8dc80bf2e3"></a>
 
@@ -539,7 +511,9 @@ Project Duration:   175 (Medium)
 
 **Goal/Deliverable:** Start counting time inside Rocket-Chat, without having to enter the Toggl website or download the application on your computer
 
-**Project Duration:**  175 (Medium)&#x20;
+**Project Duration:**  175 (Medium) \
+\
+**Difficulty:** Easy/Medium
 
 
 
@@ -553,7 +527,9 @@ Project Duration:   175 (Medium)
 
 **Goal/Deliverable:** The objective of this project is to be able to manage tasks without having to enter the Asana UI
 
-**Project Duration**: 175 (Medium)&#x20;
+**Project Duration**: 175 (Medium) \
+\
+**Difficulty:** Easy/Medium
 
 
 
