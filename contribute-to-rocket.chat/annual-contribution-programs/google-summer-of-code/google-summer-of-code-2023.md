@@ -192,28 +192,6 @@ Note: The CAPTCHA solution should be accessible to all users, including those wi
 
 
 
-### Open source Metaverse integration (mozilla hubs / third room)
-
-**Mentors:**  Sing Li
-
-**Description:**\
-****One very popular interpretation of the "Metaverse" is group interactions within a real-time rendered 3D Virtual Reality world.   [Mozilla Hubs](https://hubs.mozilla.com/) has been the leading open source project in this space for the **last decade**.   Due to the limitation (and cost) of today's technology, however, hub has always had limited scalability.   Rooms can contain 20 to 30 attendees.  Another similar technology proof of concept has emerged recently in [Third Room](https://github.com/matrix-org/thirdroom).  While Rocket.Chat as a  collaboration platform has re-architectured to handle millions of users - and through federation, the world;  we have also implemented Team Channels to deal with very large communities wanting autonomous control over their membership.  This project is to create a rational integration between Mozilla Hubs (and/or Third Room) and Rocket.Chat team channel - enabling a pragmatic version of "the metaverse" to be built organically.\
-\
-We welcome original proposals at different levels of integration.   It can be a direct extension of core, an external bridge, a link preview-extension, or even a Rocket.Chat App.\
-&#x20;
-
-**Desired Skills:**
-
-ReactJS, TypeScript, MeteorJS. A thorough understanding of how Rocket.Chat core works.  Knowledge of Rocket.Chat Apps development.  Passion for improving human communications and collaboration.&#x20;
-
-**Goals/Deliverables:**\
-****Working integration of Mozilla Hubs rooms within Rocket.Chat Team Channels in a rational and usable context.
-
-**Project Duration:** 350 hours (Large)\
-\
-**Difficulty:** Advanced\
-
-
 ### Live Preview Message Composer  <a href="#docs-internal-guid-e14dd554-7fff-7875-973a-38a13f969474" id="docs-internal-guid-e14dd554-7fff-7875-973a-38a13f969474"></a>
 
 **Mentors**: Hugo Costa
@@ -324,6 +302,28 @@ The goal of this project is to develop a solution that utilizes OpenAI's ChatGPT
 \
 **Difficulty:** Easy/Medium
 
+
+
+### Open source Metaverse integration (mozilla hubs / third room)
+
+**Mentors:**  TBD
+
+**Description:**\
+****One very popular interpretation of the "Metaverse" is group interactions within a real-time rendered 3D Virtual Reality world.   [Mozilla Hubs](https://hubs.mozilla.com/) has been the leading open source project in this space for the **last decade**.   Due to the limitation (and cost) of today's technology, however, hub has always had limited scalability.   Rooms can contain 20 to 30 attendees.  Another similar technology proof of concept has emerged recently in [Third Room](https://github.com/matrix-org/thirdroom).  While Rocket.Chat as a  collaboration platform has re-architectured to handle millions of users - and through federation, the world;  we have also implemented Team Channels to deal with very large communities wanting autonomous control over their membership.  This project is to create a rational integration between Mozilla Hubs (and/or Third Room) and Rocket.Chat team channel - enabling a pragmatic version of "the metaverse" to be built organically.\
+\
+We welcome original proposals at different levels of integration.   It can be a direct extension of core, an external bridge, a link preview-extension, or even a Rocket.Chat App.\
+&#x20;
+
+**Desired Skills:**
+
+ReactJS, TypeScript, MeteorJS. A thorough understanding of how Rocket.Chat core works.  Knowledge of Rocket.Chat Apps development.  Passion for improving human communications and collaboration.&#x20;
+
+**Goals/Deliverables:**\
+****Working integration of Mozilla Hubs rooms within Rocket.Chat Team Channels in a rational and usable context.
+
+**Project Duration:** 350 hours (Large)\
+\
+**Difficulty:** Advanced\
 
 
 ### QuickAnswer Bot
