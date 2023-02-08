@@ -14,7 +14,7 @@ End-to-end encryption (E2EE) is a system of communication where only the communi
 * E2E encrypted messages will not appear in search operations
 * Bots or other ancillary systems interacting via webhooks or REST API will not be able to read E2EE encrypted messages
 * File uploads are not encrypted
-* Rocket.Chat enables users to reset their private E2EE key to avoid permanent loss of data during the beta period
+* Rocket.Chat enables users to reset their private E2EE key to avoid permanent loss of data during the beta period.
 {% endhint %}
 
 To access this setting, go to **Administration** > **Workspace** > **Settings** > **E2E Encryption**.

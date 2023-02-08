@@ -6,7 +6,7 @@ description: >-
 
 # Discussion
 
-Discussions are created from parent channels or groups. Rocket.Chat Discussions are a way of tackling all specific topic-related conversations.
+**Discussions** are created from parent channels or groups. Rocket.Chat **Discussions** are a way of tackling all specific topic-related conversations.
 
 To access this setting, go to **Administration** > **Workspace** > **Settings** > **Discussion**.
 

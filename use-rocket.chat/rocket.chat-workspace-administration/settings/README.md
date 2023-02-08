@@ -12,7 +12,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 ****[**Assets**](assets.md)**:** Learn how to provide scalable assets for your brand's identity.
 
-[**Atlassian Crowd**](atlassian-crowd.md): Discover how to link Rocket.Chat with Atlassian Crowd.
+[**Atlassian Crowd**](broken-reference): Discover how to link Rocket.Chat with Atlassian Crowd.
 
 ****[**Bots**](bots.md): Find out how to set the fields that can be utilized and referenced while developing bots.
 

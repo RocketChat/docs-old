@@ -4,7 +4,7 @@ description: Configure security and access control policies for device managemen
 
 # Device management settings
 
-To access this setting:
+To access this setting,
 
 * Navigate to **Administration** > **Workspace** > **Settings** > **Device management**
 * **Enable login detection emails**: When enabled, emails are sent to workspace members each time new logins are detected on their accounts.
