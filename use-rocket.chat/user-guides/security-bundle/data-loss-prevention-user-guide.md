@@ -6,7 +6,7 @@ Data loss prevention (DLP), in its simplest terms, is a security mechanism that 
 
 Rocket.Chat's DLP App includes several controls to prevent data loss, such as restricting access to sensitive information, monitoring data transfers, and detecting and blocking potentially dangerous activities.
 
-If there is any Rocket.Chat [Room](../rooms/) where sensitive information like credit card details is being exchanged between users, you can prevent or restrict the sharing of this sensitive information using the DLP app.&#x20;
+If there is any Rocket.Chat [Room](../rooms/), where sensitive information like credit card details is being exchanged between users, you can prevent or restrict the sharing of this sensitive information using the DLP app.&#x20;
 
 To get the DLP app functioning on your workspace, you need the workspace administrator to install and configure the app from the [Rocket.Chat marketplace](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/).
 
@@ -20,7 +20,7 @@ That can be done following this guide.
 
 With the app installed and fully configured, the defined rulesets now take effect.
 
-Say for example a user wants to share credit card details with a room or with another user,&#x20;
+Say, for example, a user wants to share credit card details with a room or with another user,&#x20;
 
 * The DLP app picks up this message and replaces the sensitive data with `###.` Clicking on **More info** gives more details about the message and its current status.
 
@@ -33,8 +33,8 @@ Say for example a user wants to share credit card details with a room or with an
 
 #### Approve
 
-Approving a message lets the message go through and it is received and visible in the room.
+Approving a message lets the message go through, and it is received and visible in the room.
 
 #### Reject
 
-Rejecting a message prevents it from reaching its destination and the status gets updated to `Rejected.`
+Rejecting a message prevents it from reaching its destination, and the status gets updated to `Rejected.`
