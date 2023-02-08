@@ -59,7 +59,9 @@ We welcome any additional ideas you may have.
 
 **Goals/Deliverables:** A set of guided tours from the topics described above
 
-**Project Duration:** 175 hours. (Medium)\
+**Project Duration:** 175 hours. (Medium)
+
+**Difficulty:**  Easy/Medium\
 
 
 ### Moderation Console Mute User Action and Emoji Votes
@@ -81,6 +83,8 @@ ReactJS, TypeScript, MeteorJS. A thorough understanding of Moderation Console op
 Mini-reputation system enabling users to mark messages using special emojis.  Additional action for moderation console allowing user to be muted by moderator for some durations (5min, 1 hour, or any custom minutes)
 
 **Project Duration:** 175 hours (Medium)\
+\
+**Difficulty:**  Easy/Medium\
 
 
 ### Jitsi Meet x Rocket.Chat
@@ -97,6 +101,8 @@ Mini-reputation system enabling users to mark messages using special emojis.  Ad
 Jitsi Meet with Rocket.Chat embedded in place of existing chat.\
 \
 **Project Duration:** 350 hours. (Large)\
+\
+**Difficulty:** Medium/Advanced\
 
 
 ### Media Carousel Component
@@ -117,7 +123,9 @@ Component must follow all current Rocket.Chat ui-kit component design and coding
 \
 **Goal/Deliverable:**  A media carousel component for our ui-kit that fits into the ui-kit playground,  and be flexibly adapted across all supported devices (browser, mobile, tablets, and so on).
 
-**Project Duration:** 175 hours. (Medium)
+**Project Duration:** 175 hours. (Medium)\
+\
+**Difficulty:** Medium/Advanced
 
 
 
@@ -163,7 +171,9 @@ PS: For more inspiration on how to solve this issue, please refer to some of the
 
 **Goal/Deliverable:**  A working Rocket.Chat app which sends pulls request reminders to Rocket.Chat users.
 
-**Project Duration:** 175 hours. (Medium)&#x20;
+**Project Duration:** 175 hours. (Medium) \
+\
+**Difficulty:** Easy/Medium
 
 
 
@@ -192,17 +202,18 @@ Note: The CAPTCHA solution should be accessible to all users, including those wi
 
 **Goal/Deliverable:** Captcha integrated within Livechat widget
 
-**Project Duration:** 175 hours. (Medium)
+**Project Duration:** 175 hours. (Medium)\
+\
+**Difficulty:** Easy/Medium
 
 
 
-### Open source Metaverse integration (mozilla hubs)
+### Open source Metaverse integration (mozilla hubs or third room)
 
 **Mentors:**  Sing Li
 
-**Description:**
-
-One very popular interpretation of the "Metaverse" is group interactions within a real-time rendered 3D Virtual Reality world.   [Mozilla Hubs](https://hubs.mozilla.com/) has been the leading open source project in this space for the **last decade**.   Due to the limitation (and cost) of today's technology, however, hub has always had limited scalability.   Rooms can contain 20 to 30 attendees.  While Rocket.Chat as a  collaboration platform has re-architectured to handle millions of users - and through federation, the world;  we have also implemented Team Channels to deal with very large communities wanting autonomous control over their membership.  This project is to create a rational integration between Mozilla Hubs and Rocket.Chat team channel - enabling a pragmatic version of "the metaverse" to be built organically.\
+**Description:**\
+****One very popular interpretation of the "Metaverse" is group interactions within a real-time rendered 3D Virtual Reality world.   [Mozilla Hubs](https://hubs.mozilla.com/) has been the leading open source project in this space for the **last decade**.   Due to the limitation (and cost) of today's technology, however, hub has always had limited scalability.   Rooms can contain 20 to 30 attendees.  Another similar technology proof of concept has emerged recently in [Third Room](https://github.com/matrix-org/thirdroom).  While Rocket.Chat as a  collaboration platform has re-architectured to handle millions of users - and through federation, the world;  we have also implemented Team Channels to deal with very large communities wanting autonomous control over their membership.  This project is to create a rational integration between Mozilla Hubs (and/or Third Room) and Rocket.Chat team channel - enabling a pragmatic version of "the metaverse" to be built organically.\
 \
 We welcome original proposals at different levels of integration.   It can be a direct extension of core, an external bridge, a link preview-extension, or even a Rocket.Chat App.\
 &#x20;
@@ -211,11 +222,12 @@ We welcome original proposals at different levels of integration.   It can be a 
 
 ReactJS, TypeScript, MeteorJS. A thorough understanding of how Rocket.Chat core works.  Knowledge of Rocket.Chat Apps development.  Passion for improving human communications and collaboration.&#x20;
 
-**Goals/Deliverables:**
-
-Working integration of Mozilla Hubs rooms within Rocket.Chat Team Channels in a rational and usable context.
+**Goals/Deliverables:**\
+****Working integration of Mozilla Hubs rooms within Rocket.Chat Team Channels in a rational and usable context.
 
 **Project Duration:** 350 hours (Large)\
+\
+**Difficulty:** Advanced\
 
 
 ### Live Preview Message Composer  <a href="#docs-internal-guid-e14dd554-7fff-7875-973a-38a13f969474" id="docs-internal-guid-e14dd554-7fff-7875-973a-38a13f969474"></a>
@@ -236,9 +248,12 @@ Desired output: Test Message
 ![](https://lh4.googleusercontent.com/NkAv5dheflqArH3ZHb-zW7iL9EPwNSk3WSDjm9DG8wvycsBHWdx1LgZX2wgnpWCcmmgGNTNKgyeOHsF3L9Aw9Rln00ve1kkg7Klor\_nGL8p89262wPUfdMYdBd3O6mggeQN2CbHXKKrHkDLZVChERpU)
 
 **Desirable Skills**: Typescript (mid) and React (mid)\
+\
 **Goal/Deliverable:**    Live preview in message composer
 
 **Project Duration:**   175  hours (Medium)\
+\
+**Difficulty:** Easy/Medium\
 
 
 ### Agile BOT
@@ -253,6 +268,8 @@ Agile adoption is increasing year to year on the different industries. There is 
 **Goal/Deliverable:**   A working chatbot that can improve agile team productivity\
 \
 **Project Duration:**    175 hours. (Medium)\
+\
+**Difficulty:** Easy/Medium\
 
 
 ### AI Moderation APP <a href="#docs-internal-guid-6a938870-7fff-9486-6ec9-cd0950cf4057" id="docs-internal-guid-6a938870-7fff-9486-6ec9-cd0950cf4057"></a>
@@ -267,15 +284,19 @@ Offensive/sensitive content detection by AI.  Ideally both images/text will be p
 
 **Goal/Deliverable:** An app that uses TensorFlow AI to verify images/texts and flag them when has harmful, toxic, or offensive content and block.
 
-**Project Duration:** 175 hours  (Medium)
+**Project Duration:** 175 hours  (Medium)\
+\
+**Difficulty:** Medium/Advanced
 
 
 
-**UiKit Playground 2.0**
+### **UiKit Playground 2.0**
 
 **Mentors:** Guilherme Gazzo, Tasso Evangelista Pinto, Diego Sampaio
 
-**Description:** Rocket.chat UiKit is the protocol/tool that allows rocket.chat apps to add new (both web and mobile) elements to the current UI.
+**Description:**&#x20;
+
+Rocket.chat UiKit is the protocol/tool that allows rocket.chat apps to add new (both web and mobile) elements to the current UI.
 
 People often do not imagine what is possible to do with the protocol. That's why the playground idea.
 
@@ -285,11 +306,10 @@ Nowadays we already have a version of the playground (https://rocketchat.github.
 
 **Goal/Deliverable:** The objective is to add other functionalities that improve and encourage the development of apps. Features such as templates, workflows simulation, connecting to a workspace and also sending/sharing the prototypes through rocket.chat are the main goals of the project
 
-&#x20;Project Duration: 350 hours (Large)
+**Project Duration:** 350 hours (Large)
 
-Difficulty: Medium/Advanced
+**Difficulty:** Medium/Advanced
 
-\
 
 
 ### QuickAnswer Bot
@@ -323,7 +343,11 @@ With Elasticsearch integrated into the tech stack, the bot can leverage the powe
 
 **Goal/Deliverable:**  A Rocket.Chat app that suggests relevant answers to new messages in a channel, based on past messages. Plus an additional service is used for indexing messages.
 
-**Project Duration:** 350 hours. (Large)
+**Project Duration:** 350 hours. (Large)\
+\
+**Difficulty:** Medium/Advanced
+
+
 
 ### Full-stack Components Framework for Community Builders
 
