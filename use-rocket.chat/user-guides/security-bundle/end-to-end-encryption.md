@@ -11,62 +11,68 @@
 
 ## Getting started
 
-Once your server admin has enabled End to End Encryption as an option you will see a banner across the top of your interface like this:
+To be able to use E2E Encryption, your Rocket.Chat workspace administrator must turn on the End to End Encryption feature.
 
-![](../../../.gitbook/assets/e2e-banner.png)
+{% content-ref url="../../rocket.chat-workspace-administration/settings/e2e-encryption.md" %}
+[e2e-encryption.md](../../rocket.chat-workspace-administration/settings/e2e-encryption.md)
+{% endcontent-ref %}
 
-If you click this banner you will be presented with a dialogue containing a password. Rocket.Chat server does not know this password. So you will need to store it in your password manager along with your login password.
+{% hint style="success" %}
+With E2E enabled, users can create encrypted rooms and send encrypted messages.
+{% endhint %}
 
-![](../../../.gitbook/assets/e2e-alert.png)
+### Set E2E Encryption Password
 
-You will need this password on any other device you wish to participate in end to end conversations.
+If E2E Encryption is enabled on your workspace, you see a banner notifying you to **Save Your Encryption Password**&#x20;
 
-Once you have this password saved somewhere it is safe to dismiss the alert.
+* Click on the banner
+* A modal is seen with **Your password**
+* Copy and store the password securely. It will be needed when using Rocket.Chat on another device
+* Confirm by clicking on **I Saved My Password**
 
-## Changing Encryption Password
+### Changing Encryption Password
 
-If you would like to change your encryption password you can do so by going to: My Account->Encryption
+To change your Encryption password,
 
-![](../../../.gitbook/assets/e2e-changepassword.png)
-
-Once you make this change it will be used for connecting on new devices.
+* Click on your **User Profile**&#x20;
+* Navigate down to **My Account**
+* Click **Security** to open up the security tab
+* Open E2E Encryption
+* Set the **new encryption password**
+* **Save changes**
 
 ## Starting an End to End Conversation
 
-Click the channel creation icon
+To create an End to End Encrypted room,&#x20;
 
-![](../../../.gitbook/assets/e2e-createchannelbutton.png)
+* Follow this guide [create-a-new-channel.md](../rooms/channels/create-a-new-channel.md "mention") to create a room and switch on **Encrypted**
 
-From this screen on private groups you can toggle Encrypted to on
+## Convert an existing room to use End to End encryption
 
-![](../../../.gitbook/assets/e2e-createchannelscreen.png)
+To convert an existing room to an encrypted room, it must be a [private room](../rooms/channels/types-of-channels.md#private-channels)
 
-## Convert an existing group to use End to End encryption
-
-You can convert existing groups and direct messages to use end to end encryption.
-
-As a room owner you can click the room info icon
-
-![](../../../.gitbook/assets/e2e-roominfo.png)
-
-Once this is up click the edit button
-
-![](../../../.gitbook/assets/e2e-editroombutton.png)
-
-From here scroll to the bottom and toggle encrypted on
-
-![](../../../.gitbook/assets/e2e-toggle-encrypted.png)
+* Open the desired room
+* Click on the **room info icon** by the top right
+* Click on **Edit** to edit the room information
+* Toggle on **Encrypted**&#x20;
+* **Save** to commit the changes
 
 ## FAQ
 
-### How can I tell if the room is encrypted?
+<details>
+
+<summary>How can I tell if the room is encrypted?</summary>
 
 If the room is using End to End Encryption you should see a key icon by the channel name.
 
-![](../../../.gitbook/assets/e2e-keybychannel.png)
+<img src="../../../.gitbook/assets/e2e-keybychannel.png" alt="" data-size="original">
 
-### How can I tell if a message is encrypted?
+</details>
+
+<details>
+
+<summary>How can I tell if a message is encrypted?</summary>
 
 You will see a key icon by the username.
 
-![](../../../.gitbook/assets/e2e-keybymessage.png)
+</details>

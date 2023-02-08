@@ -13,20 +13,24 @@ Please visit the ClamAV [documentation](https://www.clamav.net/documents/clam-an
 
 This app enables forwarding uploaded files to an open-source antivirus (ClamAV) application and prevents the upload from completing in Rocket.Chat if a virus is detected. It works across web browsers, desktop apps, and mobile apps Use it to prevent users from spreading viruses and malware via Rocket.Chat ClamAV is an open-source (GPL) antivirus engine used in various situations, including email scanning, web scanning, and endpoint security. It provides several utilities, including a flexible and scalable multi-threaded daemon, a command-line scanner, and an advanced tool for automatic database updates.
 
-You can find/install it under Apps in the Administration menu, as shown below:
+## Installing the ClamAV Integration
 
-![](<../../../.gitbook/assets/image (391).png>)
+To use the ClamAV app, it needs to be installed by the administrator of your workspace.\
+This can be done by
 
-If you install/open the app, there are only two settings that you need for the integration to work.
+* Open up your Rocket.Chat workspace
+* Navigate to **Administration** > **Workspace** > **Apps**
+* Search for ClamAV Integration
+* Click and open the result, this shows you details about the app
+* Hit **Install** to install the app
+* Hit **Install** to install the app
 
-You need to enter the ClamAV Server Host (where your ClamAV server is hosted) and the port for your ClamAV server.
+## Configure ClamAV Integration
 
-![](<../../../.gitbook/assets/image (344) (1).png>)
+After installing the app, follow these instructions to set it up.
 
-## **View Logs**
-
-To view logs:
-
-![](<../../../.gitbook/assets/image (392) (1) (1) (1) (1).png>)
-
-![](<../../../.gitbook/assets/image (409) (1).png>)
+* Open the ClamAV Integration app details page
+* Switch to the **Settings** tab
+* Configure the following settings as needed
+  * **ClamAV Server Host**: The ClamAV Server Host (where your ClamAV server is hosted)&#x20;
+  * **ClamAV Server Port**: The port for your ClamAV server.
