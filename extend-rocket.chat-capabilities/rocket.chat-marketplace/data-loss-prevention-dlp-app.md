@@ -1,70 +1,56 @@
----
-description: >-
-  Data loss prevention (DLP), in its simplest terms, is a set of tools and
-  processes used to ensure that sensitive data is not unduly shared, misused,
-  lost, or accessed by unauthorized users.
----
-
 # Data Loss Prevention (DLP) App Admin Guide
 
-## **To Enable DLP App:**
+<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2).jpg" alt=""><figcaption></figcaption></figure>
 
-1. Go to **Administration**
-
-![](<../../.gitbook/assets/image (249).png>)
-
-2\. **Marketplace**
-
-![](<../../.gitbook/assets/image (254).png>)
-
-3\. Search the DLP app and enable it
-
-![](<../../.gitbook/assets/image (256).png>)
-
-5\. Click and open to view DLP app details
-
-![](<../../.gitbook/assets/image (257).png>)
-
-6\. Define the rules as Regular expressions. Add each Regular Expression on a new line
-
-![](<../../.gitbook/assets/image (259).png>)
+Data loss prevention (DLP), in its simplest terms, is a security mechanism that helps to ensure that sensitive data is not unduly shared, misused, lost, or accessed by unauthorized users.
 
 {% hint style="info" %}
-Through DLP features, admins can create a list of regular expressions to be monitored in Rocket.Chat and it can be applied to any conversation.\
-Once a regular expression is detected, it appears blurred in the room where it was originally written. The original message then is forwarded to a predefined channel for auditing flow, where a moderator can approve or reject its content to be exhibited in the room. You can add as many moderators as you want.\
-It’s also possible to select the rooms to apply the DLP app. If you have channels in your Rocket.Chat where it’s more likely to happen a leak of sensitive information, such as the finance team channel, for example, you can set the tool to run just in this specific channel.
+The Data Loss Prevention App is free to use for [Enterprise ](../../use-rocket.chat/rocket.chat-workspace-administration/settings/enterprise.md)workspaces.
 {% endhint %}
 
-7\. Mention the channel name in **Moderator Channel** to which you want the blacklisted messages to be forwarded to, as shown below:
+## Installing the Data Loss Prevention App
 
-![](<../../.gitbook/assets/image (260).png>)
+To install the Data Loss Prevention App,
 
-8\. Mention any channels that you don't want to be monitored under Content Control type **Ignore Channels** if any, as shown below:
+* Open up your Rocket.Chat workspace
+* Navigate to **Administration** > **Workspace** > **Apps**
+* Search for Data Loss Prevention
+* Click and open the result, this shows you details about the app
+* Hit **Install** to install the app
 
-![](<../../.gitbook/assets/image (261).png>)
+This successfully installs the app and you can now configure the settings as needed.
 
-Or mention the channels only which you want to be monitored under Content Control type **Target Channels,** as shown below:
+## Configuring the Data Loss Prevention App
 
-![](<../../.gitbook/assets/image (262).png>)
+After installing the app, you need to configure the rule set for its functionality.
 
-9\. Toggle switch **Censor only Sensitive Information** to only replace sensitive information by hashtags. Switch it off to censor the full message containing that sensitive information.
+That can be done by:
 
-![](<../../.gitbook/assets/image (263).png>)
+* Open the DLP app details page
+* Switch to the **Settings** tab
+* Configure the following settings as needed
 
-10\. Set the title of this temporary message under **Custom Blacklisted Message title** that you want the blacklisted message to be replaced by temporarily in the channel until the blacklisted message has been approved by moderators.
+### Settings
 
-![](<../../.gitbook/assets/image (269).png>)
+* **Rules for Blacklisting message**: Takes in an array of regular expressions defining the rules. Add each Regular Expression on a new line.
+* **Moderator Channel**: Specify the channel which all blacklisted messages will be forwarded to. From there, the [Channel Moderators](../../setup-and-administer-rocket.chat/roles-in-rocket.chat/#rocket.chat-user-roles) can either `Approve` or `Reject` the message. e.g `general`
+* **Content control type**: Set channels you would like to monitor or not monitor.
+  * Channels: Comma-separated list of channels where you wish to apply the **Content control type** rule.
+* **Censor only Sensitive Information**: If enabled, only the sensitive information will be replaced by ###### (multiple hashtags)
+* **Custom Blacklisted Message title**: Set the title of a temporal message replacing a blacklisted message.
+* **Custom Pending approval message**: This message will be shown in place of the blacklisted message in a room until the blacklisted message gets approved. Will be shown if the user clicks on the **More info** button under the blacklisted message in a room until the blacklisted message gets approved
+* **Custom Rejected Message**: This message will be shown in place of the blacklisted message in a room when a moderator rejects a blacklisted message.
 
-11\. **Custom Pending approval message** will be shown if the user clicks on the **More info** button under the blacklisted message in a room until the blacklisted message gets approved, as shown below:
+{% hint style="info" %}
+* Through DLP features, admins can create a list of regular expressions to be monitored in Rocket.Chat and it can be applied to any conversation.
+* Once a regular expression is detected, it appears blurred in the room where it was originally written. The original message then is forwarded to a predefined channel for auditing flow, where a moderator can approve or reject its content. Rooms can have more than one moderator.
+* It’s also possible to select the rooms to apply the DLP app. If you have channels on your workspace where sensitive information is frequently shared or where data leak is more likely to happen, e.g `the finance team channel,`you can place a restriction on this specific channel.
+{% endhint %}
 
-![](<../../.gitbook/assets/image (265).png>)
+* **Save changes** to commit.
 
-12\. **Custom Rejected Message** will be shown in place of the blacklisted message in a channel when a moderator has rejected the blacklisted message.
+The Data Loss Prevention App is ready and functional on your workspace.
 
-![](<../../.gitbook/assets/image (267).png>)
-
-13\. Hit **Save changes** to save your settings
-
-![](<../../.gitbook/assets/image (268).png>)
-
-Your DLP app functional now.
+{% content-ref url="../../use-rocket.chat/user-guides/security-bundle/data-loss-prevention-user-guide.md" %}
+[data-loss-prevention-user-guide.md](../../use-rocket.chat/user-guides/security-bundle/data-loss-prevention-user-guide.md)
+{% endcontent-ref %}

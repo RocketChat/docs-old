@@ -1,10 +1,12 @@
 # Security Bundle
 
-The Security Bundle offers clients a way out of the unsafe closed-source communication world. Security teams won’t worry about risky apps carrying their companies’ valuable information away anymore.
+Rocket.Chat Security Bundle is a set of security-focused features and tools aimed at providing enhanced security for your Rocket.Chat workspace and users. This helps organizations&#x20;
 
-The Rocket.Chat's Security Bundle is composed of the following tools:
+These features are intended to help organizations prevent unauthorized access to sensitive data, protect against data breaches and other security threats, and provide greater visibility into their security posture thereby meeting their security and compliance requirements.
 
-1. Data Loss Prevention app&#x20;
-2. Open-source Antivirus app
-3. E2E Encryption
-4. Two Factor Authentication(2FA)
+The Rocket.Chat Security Bundle includes the following features and tools:
+
+1. [Data Loss Prevention(DLP) app](data-loss-prevention-user-guide.md)
+2. [Open-source Antivirus app](antivirus-clamav-app.md)
+3. [E2E Encryption](end-to-end-encryption.md)
+4. [Two Factor Authentication(2FA)](two-factor-authentication-user-guide.md)
