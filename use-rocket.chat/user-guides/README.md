@@ -16,16 +16,8 @@ description: End-user Training Guides
 [rooms](rooms/)
 {% endcontent-ref %}
 
-{% content-ref url="../rocket.chat-federation/talking-to-users-from-another-server.md" %}
-[talking-to-users-from-another-server.md](../rocket.chat-federation/talking-to-users-from-another-server.md)
-{% endcontent-ref %}
-
 {% content-ref url="security-bundle/" %}
 [security-bundle](security-bundle/)
-{% endcontent-ref %}
-
-{% content-ref url="../rocket.chat-conference-call/conference-call-users-guide.md" %}
-[conference-call-users-guide.md](../rocket.chat-conference-call/conference-call-users-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="keyboard-shortcuts.md" %}
