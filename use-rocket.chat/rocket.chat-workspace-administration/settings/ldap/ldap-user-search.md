@@ -30,7 +30,7 @@ If you specify restricted user groups, only users that belong to those groups wi
 * **Scope**: The search scope.
 * **Search Field**: The LDAP attribute that identifies the LDAP user who attempts authentication. This field should be `sAMAccountName` for most Active Directory installations, but it may be uid for other LDAP solutions, such as OpenLDAP. You can use mail to identify users by email or whatever attribute you want. You can use multiple values separated by a comma to allow users to log in using multiple identifiers like username or email.
 * **Search Page Size**: The maximum number of entries each result page will return to be processed.
-* **Search Size Limit**: The maximum number of entries to return. It must be greater than Search Size.
+* **Search Size Limit**: The maximum number of entries to return. It must be greater than the Search Size.
 
 ## Group Filter
 

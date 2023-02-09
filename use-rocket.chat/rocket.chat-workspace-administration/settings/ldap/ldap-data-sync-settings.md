@@ -20,5 +20,5 @@ With LDAP, you can sync your data. Here are some basic data sync settings in Roc
 #{givenName}.#{sn}
 ```
 
-* **Email Field**: The LDAP field to bind the user's email.
+* **Email Field**: The LDAP field binds the user's email.
 * **Name Field**: LDAP name filed for binding.
