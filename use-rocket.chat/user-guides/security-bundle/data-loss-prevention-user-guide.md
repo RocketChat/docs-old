@@ -6,7 +6,7 @@ Data loss prevention (DLP), in its simplest terms, is a security mechanism that 
 
 Rocket.Chat's DLP App includes several controls to prevent data loss, such as restricting access to sensitive information, monitoring data transfers, and detecting and blocking potentially dangerous activities.
 
-If there is any Rocket.Chat [Room](../rooms/), where sensitive information like credit card details is being exchanged between users, you can prevent or restrict the sharing of this sensitive information using the DLP app.&#x20;
+If there is any Rocket.Chat [Room](../rooms/), where sensitive information like credit card details, phone numbers, and IP addresses is being exchanged between users, you can prevent or restrict the sharing of this sensitive information using the DLP app.&#x20;
 
 To get the DLP app functioning on your workspace, you need the workspace administrator to install and configure the app from the [Rocket.Chat marketplace](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/).
 

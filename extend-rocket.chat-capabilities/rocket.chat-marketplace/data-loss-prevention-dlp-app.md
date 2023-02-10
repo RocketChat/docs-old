@@ -6,6 +6,8 @@ Data loss prevention (DLP), in its simplest terms, is a security mechanism that 
 
 {% hint style="info" %}
 The Data Loss Prevention App is free to use for [Enterprise ](../../use-rocket.chat/rocket.chat-workspace-administration/settings/enterprise.md)workspaces.
+
+The App works best with the most recent version of Rocket.Chat.
 {% endhint %}
 
 ## Installing the Data Loss Prevention App
@@ -33,7 +35,7 @@ That can be done by:
 ### Settings
 
 * **Rules for Blacklisting message**: Takes in an array of regular expressions defining the rules. Add each Regular Expression on a new line.
-* **Moderator Channel**: Specify the channel which all blacklisted messages will be forwarded to. From there, the [Channel Moderators](../../setup-and-administer-rocket.chat/roles-in-rocket.chat/#rocket.chat-user-roles) can either `Approve` or `Reject` the message. e.g `general`
+* **Moderator Channel**: Specify the channel to which all blacklisted messages will be forwarded to. From there, the [Channel Moderators](../../setup-and-administer-rocket.chat/roles-in-rocket.chat/#rocket.chat-user-roles) can either `Approve` or `Reject` the message. e.g `general`
 * **Content control type**: Set channels you would like to monitor or not monitor.
   * Channels: Comma-separated list of channels where you wish to apply the **Content control type** rule.
 * **Censor only Sensitive Information**: If enabled, only the sensitive information will be replaced by ###### (multiple hashtags)
