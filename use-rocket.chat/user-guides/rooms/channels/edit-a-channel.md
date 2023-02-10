@@ -33,7 +33,7 @@ A channel owner can not leave a channel until they set someone else as the owner
 
 ## Prune Messages from a Channel
 
-If you are a server admin, or your admin has given you the **clean-channel-history** permission, the **prune messages** option allows you to swiftly delete messages from a channel.
+If you are a server admin, or your admin has given you the **clean-channel-history** permission, the **prune messages** option allows you to delete messages from a channel swiftly.
 
 {% hint style="info" %}
 _Pruned messages and files are deleted forever and cannot be recovered. You are advised to use this feature with extra caution._
@@ -59,10 +59,10 @@ To update channel notification preferences,&#x20;
 
 The notification options include the following:
 
-* **Turn ON**: Choose wether to receive alerts or not.
+* **Turn ON**: Choose whether to receive alerts or not.
 * **Mute @all and @here mentions:**  Mute alerts whenever you are mentioned in the channel.
 * **Mark As Unread:** Display the channel as unread when there are unread messages.
-* **Audio**: Select whether the channel will play a sound whenever someone mentions you or post a message in the channel. The sound can also be customized.
+* **Audio**: Select whether the channel will play a sound whenever someone mentions you or post a message on the channel. The sound can also be customized.
 * **Desktop**: Controls notification behavior when using any desktop app or browser.
 * **Mobile**: Controls push notification behavior when using any mobile app.
 * **Email**: Set whether an email is sent whenever someone mentions you or posts a message.

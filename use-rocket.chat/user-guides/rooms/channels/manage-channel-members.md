@@ -42,7 +42,7 @@ Depending on how long you want an invite link to last, you can edit the invite l
 To generate a new link,
 
 * On the Invite Link page, Click **Edit Invite.**
-* Select **Expiration (Days)** from the drop-down, select **Max number of uses** and click **Generate New Link.**
+* Select **Expiration (Days)** from the drop-down, select **Max number of uses,** and click **Generate New Link.**
 
 {% hint style="info" %}
 This link will ask the invitee to sign up if they are outside your Rocket.Chat workspace before granting them access to the channel.

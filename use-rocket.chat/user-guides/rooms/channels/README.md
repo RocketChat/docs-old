@@ -58,7 +58,7 @@ The room information screen gives detailed information about the current channel
 * **Description**: The description of the channel.
 * **Private**: Tells whether a channel is private or public.
 * **Read Only**: Tells whether a channel is read-only.
-* **Archived**: Tells if a channel is archived. Nobody can post messages in an archived channel, and a channel search will not find that channel.
+* **Archived**: Tells if a channel is archived. Nobody can post messages on an archived channel, and a channel search will not find that channel.
 * **Password**: Tells whether a channel has a password and lets you set the password. If a channel has a password, users need to enter the password to become a channel member.
 
 {% hint style="warning" %}
