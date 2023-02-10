@@ -1,6 +1,6 @@
 # Create Permanent WhatsApp Cloud API Token
 
-We have seen how to [create a Facebook developer account and add WhatsApp](./).
+We have seen how to [create a Facebook developer account and add WhatsApp](broken-reference).
 
 The _WhatsApp Cloud API token_ is uniquely provided by Facebook along with the  _Phone Number ID_, and _WhatsApp Business Account ID_. These credentials are needed by every business when using WhatsApp Cloud services.
 

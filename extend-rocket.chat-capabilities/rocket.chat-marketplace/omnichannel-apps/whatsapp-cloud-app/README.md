@@ -6,9 +6,9 @@ This is possible by linking Rocket.Chat through a [Facebook Developer app](https
 
 We are going to go through:
 
-1. [Installing WhatsApp Cloud App](whatsapp-cloud-app-install.md)
-2. [Creating a Facebook Developer App for WhatsApp](facebook-developer-account-with-whatsapp/)
-3. [WhatsApp Cloud App Configuration](whatsapp-cloud-app-configuration.md)
+1. [Installing WhatsApp Cloud App](whatsapp-cloud-app-install/)
+2. [Creating a Facebook Developer App for WhatsApp](broken-reference)
+3. [WhatsApp Cloud App Configuration](broken-reference)
 4. [Using WhatsApp Cloud App](using-whatsapp-cloud-app.md)
 
 {% content-ref url="../../../../rocket.chat-resources/frequently-asked-questions/whatsapp-cloud-api-faqs.md" %}

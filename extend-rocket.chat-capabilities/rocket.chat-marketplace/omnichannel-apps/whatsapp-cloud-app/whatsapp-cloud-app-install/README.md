@@ -19,12 +19,12 @@ To install the WhatsApp Cloud Rocket.Chat App,
 * Search for the **WhatsApp Cloud** app and click on the item
 * Click **Install** and **Agree** to the needed permissions to install
 
-<figure><img src="../../../../.gitbook/assets/WhatsApp Cloud app permissions.png" alt=""><figcaption><p>WhatsApp Cloud app permissions</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/WhatsApp Cloud app permissions.png" alt=""><figcaption><p>WhatsApp Cloud app permissions</p></figcaption></figure>
 
 * After installing the app, you get a message from the `whatsapp-cloud.bot` in the `#omnichannel-whatsapp-cloud-setup` channel with instructions to follow
 * You are greeted with a welcome message like below
 
-<figure><img src="../../../../.gitbook/assets/WhatsApp Cloud App welcome message.png" alt=""><figcaption><p>WhatsApp Cloud App welcome message</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/WhatsApp Cloud App welcome message.png" alt=""><figcaption><p>WhatsApp Cloud App welcome message</p></figcaption></figure>
 
-To continue, head over to the next section and [create a Facebook Developer's Account linked with WhatsApp](facebook-developer-account-with-whatsapp/).
+To continue, head over to the next section and [create a Facebook Developer's Account linked with WhatsApp](broken-reference).
 
