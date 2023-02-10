@@ -50,8 +50,8 @@ With the push configuration completed, follow this guide to set the default user
 
 Manage channel-based notifications using the&#x20;
 
-{% content-ref url="../../user-guides/rooms/channels/channel-actions/channel-notifications.md" %}
-[channel-notifications.md](../../user-guides/rooms/channels/channel-actions/channel-notifications.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% hint style="info" %}

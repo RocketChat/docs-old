@@ -49,7 +49,7 @@ To create an End to End Encrypted room,&#x20;
 
 ## Convert an existing room to use End to End encryption
 
-To convert an existing room to an encrypted room, it must be a [private room](../rooms/channels/types-of-channels.md#private-channels)
+To convert an existing room to an encrypted room, it must be a [private room](broken-reference)
 
 * Open the desired room
 * Click on the **room info icon** by the top right

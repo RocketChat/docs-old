@@ -4,7 +4,9 @@ Team members must have either one of these roles: Owner, Leader, Moderator, or U
 
 ## View Team Members
 
-* To see the list of members in a Team, click the **Team Members** icon at the top-right side of the team page.&#x20;
+To see the list of members in a Team,&#x20;
+
+* Click the **Team Members** icon at the top-right menu of the team screen.&#x20;
 * Select a user to view their **User Info**.
 * You can send a direct message or call the user from the user info.&#x20;
 * Click the **three dots** icon to see other user actions like ignore, mute user, or set roles ( as moderator, leader, or owner).

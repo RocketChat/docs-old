@@ -23,12 +23,10 @@ The user preview screen shows their name, username, any role tags they might hav
 * Mute the user
 * Remove the user from the channel
 
-
-
-{% content-ref url="../../channels/channel-actions/members-list-of-a-channel/add-user-to-a-channel.md" %}
-[add-user-to-a-channel.md](../../channels/channel-actions/members-list-of-a-channel/add-user-to-a-channel.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="../../channels/channel-actions/members-list-of-a-channel/invite-users-to-a-channel.md" %}
-[invite-users-to-a-channel.md](../../channels/channel-actions/members-list-of-a-channel/invite-users-to-a-channel.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
