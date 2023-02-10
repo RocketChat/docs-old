@@ -84,20 +84,21 @@ Currently, the only way to submit messages for moderator's review is to report t
 **Difficulty:**  Easy/Medium\
 
 
-### Jitsi Meet x Rocket.Chat
+### Embedded Chat 2023
 
 **Mentors:**  Sidharth Mohanty\
 \
 **Description:**\
-****Jitsi meet has become one of the most popular and frequently used open source video conference platform in the world.   The chat that is included as part of the Jitsi system is rudimentary and chat history is lost as soon as the conference is over.   This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Jitsi Meet - giving it a rich messaging experience with full history after conference.
-
-**Desired Skills:**  React Native,   in-depth knowledge of EmbeddedChat project,  familiarity with Jitsi Meet, understanding of prodigy.\
 ****\
-**Goal/Deliverable:**  Jitsi Meet with Rocket.Chat embedded in place of existing chat.\
+****A Rocket.Chat channel can be embedded into some existing web application via the  [Embedded Chat component](https://github.com/RocketChat/EmbeddedChat).      Currently, the available integration surface and features of Embedded Chat is rather limited.  This project aims to significantly expand the applicability of Embedded Chat for a wider range of web applications - including the most popular hosting platform such as WordPress and Ghost; web application developed in Java, PHP and Python.  Features we still need includes the support of all authentication methods that the hosting server has activated,  file/media attachments,  and in-chat RC-App slash-command access.&#x20;
+
+**Desired Skills:**  React and NextJS.   in-depth knowledge of Embedded Chat project.  Thorough understand of modern web application development platform and technologies.\
+****\
+**Goal/Deliverable:**  Embedded Chat working with most current web application building technologies, and updated with missing essential features.\
 \
-**Project Duration:** 350 hours. (Large)\
+**Project Duration:** 175 hours. (Medium)\
 \
-**Difficulty:** Medium/Advanced\
+**Difficulty:** Medium\
 
 
 ### Media Carousel Component
@@ -463,7 +464,23 @@ This project leverages two existing projects - the _RC4Community_ platform and _
 \
 **Project Duration:** 350 hours. (Large)\
 \
-**Difficulty:** Easy/Medium
+**Difficulty:** Easy/Medium\
+
+
+### Jitsi Meet x Rocket.Chat
+
+**Mentors:**  TBD\
+\
+**Description:**\
+****Jitsi meet has become one of the most popular and frequently used open source video conference platform in the world.   The chat that is included as part of the Jitsi system is rudimentary and chat history is lost as soon as the conference is over.   This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Jitsi Meet - giving it a rich messaging experience with full history after conference.
+
+**Desired Skills:**  React Native,   in-depth knowledge of EmbeddedChat project,  familiarity with Jitsi Meet, understanding of prodigy.\
+****\
+**Goal/Deliverable:**  Jitsi Meet with Rocket.Chat embedded in place of existing chat.\
+\
+**Project Duration:** 350 hours. (Large)\
+\
+**Difficulty:** Medium/Advanced
 
 
 
