@@ -2,7 +2,7 @@
 
 <details>
 
-<summary>I want to extend my workspace’s functionality. How do I do it? Submit a pull request? Use integrations? Build a <a href="http://rocket.chat/">Rocket.Chat</a> App?</summary>
+<summary>What should I do to extend my workspace’s functionality? Submit a pull request? Use integrations? Build a <a href="http://rocket.chat/">Rocket.Chat</a> App?</summary>
 
 Each of those options has its strengths and weaknesses.
 
