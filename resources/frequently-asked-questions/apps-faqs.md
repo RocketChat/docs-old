@@ -30,3 +30,18 @@ Absolutely! It’s recommended you use our [Apps Engine CLI ](https://developer.
 
 </details>
 
+<details>
+
+<summary>Does Rocket.Chat have a plugin framework?</summary>
+
+We don't have a plugin framework.
+
+</details>
+
+<details>
+
+<summary>What language should I use to write Apps?</summary>
+
+Rocket.Chat uses typescript only.
+
+</details>
