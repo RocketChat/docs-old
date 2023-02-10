@@ -1,4 +1,4 @@
-# Workspace Administration
+# Workspace Administration&#x20;
 
 This guide is for people who administer an existing Rocket.Chat workspace and have an administrator role inside the workspace.&#x20;
 
@@ -14,7 +14,7 @@ Only users with Administrator roles assigned to them can access this menu. If yo
 
 ****[**Import**](import/): Import data from other services to your Rocket.Chat workspace.
 
-****[**Users**](broken-reference):  Learn how to manage user accounts.
+****[**Users**](users/):  Learn how to manage user accounts.
 
 ****[**Rooms**](../user-guides/rooms/): Learn how to create and manage rooms.&#x20;
 
@@ -26,7 +26,7 @@ Only users with Administrator roles assigned to them can access this menu. If yo
 
 ****[**Federation Dashboard**](federation-dashboard.md): Check statistics about the federation connection on your server.
 
-****[**Apps**](broken-reference): Unlock Rocket. Chat's capabilities leveraging marketplace apps
+****[**Apps**](apps.md): Unlock Rocket. Chat's capabilities leveraging marketplace apps
 
 ****[**Email Inboxes**](broken-reference): Learn to manage Omnichannel email inboxes or email accounts for the email channels.
 

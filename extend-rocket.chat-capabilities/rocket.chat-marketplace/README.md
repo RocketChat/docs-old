@@ -1,75 +1,27 @@
 ---
-description: You can view the available and installed Rocket.Chat Apps and manage them.
+description: Here you will find all guides about installing and managing Rocket.Chat Apps
 ---
 
-# Rocket.Chat Marketplace
+# Rocket.Chat Marketplace&#x20;
 
-[Rocket.Chat](http://rocket.chat) Apps are extensions, or plugins, that can be added to your workspace to tailor your collaboration experience to your needs.
+## Where to find Rocket.Chat Apps?
 
-Apps can:
+There are a number of apps available to increase the quality of your team's workflow. You can add gif to spice up the chat or connect it with GitLab so that the team gets notified of new code changes.
 
-* Display interactive and dynamic content on their own surface - like a modal or the room’s contextual bar.
-* Create buttons in the UI for users to interact with native content.
-* Create slash commands for users to trigger more generic interactions.
-* Register endpoints to receive data from other applications and services.
-* Work on both desktop and mobile clients.
-* Send messages to users; create and manage public channels, groups, discussions, and threads.
+You can browse these apps either on our [marketplace](https://rocket.chat/marketplace) or access them directly from the Admin Panel.
 
-Here are some examples:
+## How to install Rocket.Chat Apps?
 
-_Insert image of Poll’s slash command_
+In order to install Rocket.Chat apps from the marketplace, first you need to register your workplace (even if it is a community edition ) on [Rocket.Chat Cloud](https://cloud.rocket.chat).
 
-_Insert image of Poll’s modal_
-
-_Insert image of Add Reminder’s action button on a message_
-
-{% hint style="info" %}
-In order to install Rocket.Chat apps from the marketplace, you first need to register your workplace (even if it is a community edition ) on [Rocket.Chat Cloud](https://cloud.rocket.chat).
-{% endhint %}
-
-You can browse Rocket.Chat apps either on our [marketplace](https://rocket.chat/marketplace) or access them directly from **Administration > Workspace > Apps**
-
-
-
-{% hint style="success" %}
-Please note that category filters help you find apps based on your needs. You can choose between multiple categories within the filter to help you find the best app for your Rocket.Chat users.
-{% endhint %}
-
-{% hint style="info" %}
-Your workspace should be (registered and) [connected to Rocket.Chat Cloud](../../use-rocket.chat/rocket.chat-workspace-administration/connectivity-services.md) in order to access the [marketplace](./) and install Rocket.Chat apps from it. Use the login button at the top right to log in to Rocket.Chat Cloud.
-{% endhint %}
-
-## Marketplace
-
-Rocket.Chat provides you with a lot of [Rocket.Chat apps](./). They can be installed and managed through the marketplace. You can search for any app on the marketplace and can install it on your own Rocket.Chat server.
-
-You can also upload your custom app package yourself and then install it.
-
-To find information on marketplace roles, please check out this article.
-
-{% embed url="https://docs.rocket.chat/guides/roles-in-rocket.chat/marketplace-roles" %}
-
-## Installed
-
-Under the installed tab, you can :
-
-* **Enable/Disable/Uninstall** any of your installed apps.
-* View app details.
-* View **logs** of the app.
-* Provide additional user settings and configuration for the app.
-
-{% hint style="info" %}
-All Rocket.Chat Apps might not require any setup configuration or user settings.
-{% endhint %}
-
-If you are looking for the manual/user guide of a particular app, please find them [here](https://docs.rocket.chat/guides/rocket-chat-apps) or use the search bar on the top right corner.
+Once your workplace is registered, you can install the apps from the marketplace from the Admin panel of your Rocket.Chat instance.
 
 {% hint style="info" %}
 Different Rocket.Chat Apps might have different installation steps.
 {% endhint %}
 
 {% hint style="success" %}
-The following apps are part of the **Enterprise Edition** offerings. You don't have to purchase them if you are already subscribed to the Enterprise Edition of Rocket.Chat.
+Following apps are part of the **Enterprise Edition** offerings. You don't have to purchase them if you are already subscribed to the Enterprise Edition of Rocket.Chat.
 
 * [Jira Server](atlassian/jira-server-integration.md)
 * Jira Cloud

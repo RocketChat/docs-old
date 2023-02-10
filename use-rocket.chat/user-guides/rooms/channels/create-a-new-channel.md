@@ -3,8 +3,8 @@
 To create a new channel,
 
 * On the Rocket.Chat menu bar, click the **Create New** icon, then select **Channel**.&#x20;
-* Give the channel a name and choose if the channel is public or private. (link public and private)
-* Update your preferred privacy and encryption settings for the channel. (link privacy)
+* Give the channel a name and choose if the channel is [public ](https://docs.rocket.chat/use-rocket.chat/user-guides/rooms/channels#public-channels)or [private](https://docs.rocket.chat/use-rocket.chat/user-guides/rooms/channels#private-channels).
+* Update your preferred [privacy and encryption settings](https://docs.rocket.chat/use-rocket.chat/user-guides/rooms/channels#channel-privacy-and-encryption) for the channel.&#x20;
 * Add members to the channel. Then, click **Create**.
 
 {% hint style="info" %}
@@ -16,11 +16,6 @@ Channels have restrictions in their naming.  To update the regex responsible for
 You can join a channel through a search, invites, or mentions. Use the search box in the menu bar to search for channels and users. Alternatively, you can use `Ctrl/Cmd + k` to access the search bar quickly.&#x20;
 
 Users and channels are displayed in the search results. However, private channels are not displayed. If you select a public channel that you are not a member of, click the **Join** button to join that channel.
-
-To start a direct message with a user,&#x20;
-
-* Search for the user and select to start a direct message with that user.
-* Alternatively, click on that user's avatar from a room, then hit the **Direct Message** Button.
 
 ## Mark Channel as Favorite
 

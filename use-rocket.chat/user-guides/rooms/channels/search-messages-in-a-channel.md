@@ -16,7 +16,7 @@ You can use the following commands before or after entering search terms in a ch
 * `order:asc`, `order:ascend`, or `order:ascending` -Sorts messages by ascending timestamp.
 * `order:desc`, `order:descend`, or `order:descending` - Sorts messages by descending timestamp.
 
-Select the **Options** icon for a message in the search result and click **Jump to message** to take you directly to the message.
+Select the **Options** icon of a message in the search result and click **Jump to message** to take you directly to the message.
 
 {% hint style="warning" %}
 Refer to these resources to learn more about regex(regular expressions).

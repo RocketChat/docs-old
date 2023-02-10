@@ -56,3 +56,10 @@ To delete an invite link, see [Delete an Invite Record via Admin Panel](https://
 {% hint style="warning" %}
 You must have the **Create Invite Link** [permission](../../../rocket.chat-workspace-administration/permissions.md) granted for your role to use the [permission](../../../rocket.chat-workspace-administration/permissions.md). It is turned **ON** for the Admin, Owner, and Moderator roles. However, you can always ask the workspace administrator to update it to suit your needs.
 {% endhint %}
+
+## Remove a member from the Team
+
+By default, only the channel owner can remove a team member. Although, other users with appropriate [permissions ](../../../rocket.chat-workspace-administration/permissions.md)can also remove a team member.
+
+* In the Channel members screen, search and select the user to view their **User Info**.&#x20;
+* Click the **three dots** icon, then select **Remove from room.**

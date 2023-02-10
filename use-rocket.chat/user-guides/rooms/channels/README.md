@@ -12,14 +12,14 @@ Teams can be made private or public. The list of channels is displayed on the si
 
 ### Public Channels
 
-Public Channels are **open for all members of a Rocket.Chat workspace** to join, and anything posted is searchable by all members. They are identified by: ![](../../../../.gitbook/assets/2021-12-23\_19-51-58.png)
+**Public Channels** are **open for all members of a Rocket.Chat workspace** to join, and anything posted is searchable by all members. They are identified by: ![](../../../../.gitbook/assets/2021-12-23\_19-51-58.png)
 
 Channels make it easy to find out what's going on with your team. New members can join a channel and read all the information previously shared by other users. Public conversations help you build your organization's knowledge base with minimal effort. For example, create a channel for a company department or to discuss a specific programming language.
 
 
 
 {% hint style="success" %}
-Users who are mentioned on a thread inside a **public channel** are automatically added to the channel.
+Users mentioned in a thread inside a **public channel** are automatically added to that channel.
 {% endhint %}
 
 ### Private Channels&#x20;
