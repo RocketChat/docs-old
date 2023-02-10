@@ -5,11 +5,11 @@ A simple relay communication between Rocket.Chat and Telegram is possible by con
 This will give you the possibility of relaying messages between Telegram and Rocket.Chat in a specified room of your choice.
 
 {% hint style="success" %}
-Rocket.Chat [Enterprise workspaces](../settings/enterprise.md) have the [Telegram App](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/telegram-app/) packaged with many more functionalities and other [Omnichannel](../../omnichannel/) features to use.
+Rocket.Chat [Enterprise workspaces](../settings/enterprise.md) have the [Telegram App](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/telegram-app/) packaged with many more functionalities and other [Omnichannel](../../omnichannel/) features to use.
 {% endhint %}
 
 {% hint style="warning" %}
-Note: This integration is not designed to work for Omnichannel Conversations. Please check out the [Telegram App](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/telegram-app/) for serving your Omnichannel conversations with Telegram.
+Note: This integration is not designed to work for Omnichannel Conversations. Please check out the [Telegram App](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/telegram-app/) for serving your Omnichannel conversations with Telegram.
 {% endhint %}
 
 ## Getting Started

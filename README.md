@@ -67,8 +67,8 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 [omnichannel](use-rocket.chat/omnichannel/)
 {% endcontent-ref %}
 
-{% content-ref url="extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/" %}
-[omnichannel-apps](extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/)
+{% content-ref url="extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/" %}
+[omnichannel-apps](extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/)
 {% endcontent-ref %}
 
 ### Features

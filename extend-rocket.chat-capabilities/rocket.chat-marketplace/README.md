@@ -44,14 +44,14 @@ You can browse Rocket.Chat apps either on our [marketplace](https://rocket.chat/
 * Provide additional user settings and configuration for the app. (All Rocket.Chat Apps might not require any setup configuration or user settings.)
 
 {% hint style="success" %}
-If you are subscribed to Rocket.Chat's **Enterprise Edition**, you can install/download and enable all the apps available in the marketplace on your workspaces.
+If you are subscribed to Rocket.Chat's **Enterprise Edition**, you can install/download and enable all the apps available in the marketplace on your workspace.
 {% endhint %}
 
 {% hint style="warning" %}
 If you are using Rocket.Chat's **Community Edition**, you are able to install any number of apps but only enable/install up to five apps on your workspace.&#x20;
 {% endhint %}
 
-If you are looking for the manual/user guide of a particular app, use the search bar in the top right corner.
+If you are looking for the manual/user guide of a particular app, find it on [apps-user-guides](apps-user-guides/ "mention") or use the search bar in the top right corner.
 
 {% content-ref url="../../setup-and-administer-rocket.chat/roles-in-rocket.chat/marketplace-roles.md" %}
 [marketplace-roles.md](../../setup-and-administer-rocket.chat/roles-in-rocket.chat/marketplace-roles.md)
@@ -64,20 +64,20 @@ If you are looking for the manual/user guide of a particular app, use the search
 {% hint style="success" %}
 The following apps are part of the **Enterprise Edition** offerings. You don't have to purchase them if you are already subscribed to the Enterprise Edition of Rocket.Chat.
 
-* [Jira Server](atlassian/jira-server-integration.md)
+* [Jira Server](apps-user-guides/atlassian/jira-server-integration.md)
 * Jira Cloud
-* [Confluence Server](atlassian/confluence-server-integration.md)
+* [Confluence Server](apps-user-guides/atlassian/confluence-server-integration.md)
 * Confluence Cloud
-* [Bitbucket Server](atlassian/bitbucket-server-integration.md)
+* [Bitbucket Server](apps-user-guides/atlassian/bitbucket-server-integration.md)
 * Bitbucket Cloud
-* [Bamboo](atlassian/bamboo-integration.md)
-* [Zoom](zoom.md)
-* [Data Loss Prevention (DLP)](data-loss-prevention-dlp-app.md)
+* [Bamboo](apps-user-guides/atlassian/bamboo-integration.md)
+* [Zoom](apps-user-guides/zoom.md)
+* [Data Loss Prevention (DLP)](apps-user-guides/data-loss-prevention-dlp-app.md)
 * [Facebook](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/facebook-app)
 * [Trello](https://docs.rocket.chat/guides/app-guides/trello)
-* [Instagram](omnichannel-apps/instagram-direct/)
-* [Telegram](omnichannel-apps/telegram-app/)
-* [Twitter](omnichannel-apps/twitter-app/)
+* [Instagram](apps-user-guides/omnichannel-apps/instagram-direct/)
+* [Telegram](apps-user-guides/omnichannel-apps/telegram-app/)
+* [Twitter](apps-user-guides/omnichannel-apps/twitter-app/)
 * [Pexip](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/pexip-app.md)
 * [Google Meet](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/google-meet-app.md)
 {% endhint %}

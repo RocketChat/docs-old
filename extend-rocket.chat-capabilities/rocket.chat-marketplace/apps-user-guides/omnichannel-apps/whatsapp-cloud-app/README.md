@@ -1,0 +1,16 @@
+# WhatsApp Cloud App
+
+The Rocket.Chat WhatsApp Cloud App provides direct communication between Rocket.Chat and WhatsApp using the WhatsApp Cloud API without the need for any third-party services like 360Dialog.
+
+This is possible by linking Rocket.Chat through a [Facebook Developer app](https://developers.facebook.com/apps) with the WhatsApp setup.&#x20;
+
+We are going to go through:
+
+1. [Installing WhatsApp Cloud App](whatsapp-cloud-app-install/)
+2. [Creating a Facebook Developer App for WhatsApp](broken-reference)
+3. [WhatsApp Cloud App Configuration](broken-reference)
+4. [Using WhatsApp Cloud App](using-whatsapp-cloud-app.md)
+
+{% content-ref url="../../../../../rocket.chat-resources/frequently-asked-questions/whatsapp-cloud-api-faqs.md" %}
+[whatsapp-cloud-api-faqs.md](../../../../../rocket.chat-resources/frequently-asked-questions/whatsapp-cloud-api-faqs.md)
+{% endcontent-ref %}

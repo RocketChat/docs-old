@@ -9,13 +9,13 @@ description: >-
 The Rocket.Chat [Omnichannel](https://en.wikipedia.org/wiki/Omnichannel) capabilities give you the possibility to streamline conversations from various mediums into Rocket.Chat. This feature can be extended in several ways.
 
 * You can integrate the [Omnichannel Live Chat pop-up widget](livechat-widget-installation/) into your website, serving as an entry point for communication or direct support to your customers or visitors.
-* Using advanced [Omnichannel Apps](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/) and integrations provides for a seamless experience between Rocket.Chat and external users from other communication platforms like
-  * [WhatsApp](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/whatsapp/)
-  * [SMS](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/sms.md)
-  * [Facebook](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/facebook-app/)
-  * [Instagram Direct](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/instagram-direct/)
-  * [Twitter](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/twitter-app/)
-  * [Telegram](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/telegram-app/)
+* Using advanced [Omnichannel Apps](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/) and integrations provides for a seamless experience between Rocket.Chat and external users from other communication platforms like
+  * [WhatsApp](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/whatsapp/)
+  * [SMS](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/sms.md)
+  * [Facebook](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/facebook-app/)
+  * [Instagram Direct](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/instagram-direct/)
+  * [Twitter](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/twitter-app/)
+  * [Telegram](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/telegram-app/)
   * [Email](broken-reference)
 
 {% hint style="info" %}

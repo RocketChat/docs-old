@@ -11,7 +11,7 @@ This integration has known vulnerabilities and is being deprecated for Rocket.Ch
 {% endhint %}
 
 {% hint style="info" %}
-As a Rocket.Chat [Enterprise user](../../setup-and-administer-rocket.chat/enterprise-edition-trial/) you can make use of the[ Facebook App](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/facebook-app/).
+As a Rocket.Chat [Enterprise user](../../setup-and-administer-rocket.chat/enterprise-edition-trial/) you can make use of the[ Facebook App](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/facebook-app/).
 {% endhint %}
 
 To access this section, navigate to **Administration > Omnichannel > Facebook Messenger**.
@@ -28,6 +28,6 @@ Return to the main interface. Now any Live Chat agents you have will see any inc
 
 Please refer to the following documentation for further details on Rocket.Chat and Facebook.
 
-{% content-ref url="../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/facebook-app/" %}
-[facebook-app](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/facebook-app/)
+{% content-ref url="../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/facebook-app/" %}
+[facebook-app](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/facebook-app/)
 {% endcontent-ref %}
