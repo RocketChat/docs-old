@@ -5,11 +5,11 @@ A simple relay communication between Rocket.Chat and Telegram is possible by con
 This will give you the possibility of relaying messages between Telegram and Rocket.Chat in a specified room of your choice.
 
 {% hint style="success" %}
-Rocket.Chat [Enterprise workspaces](../settings/enterprise.md) have the [Telegram App](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/telegram-app/) packaged with a lot more functionalities and other [Omnichannel](../../omnichannel/) features to use.
+Rocket.Chat [Enterprise workspaces](../settings/enterprise.md) have the [Telegram App](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/telegram-app/) packaged with many more functionalities and other [Omnichannel](../../omnichannel/) features to use.
 {% endhint %}
 
 {% hint style="warning" %}
-Note: This integration is not designed to work for Omnichannel Conversations. Please check out the [Telegram App](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/telegram-app/) for serving your Omnichannel conversations with Telegram
+Note: This integration is not designed to work for Omnichannel Conversations. Please check out the [Telegram App](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/omnichannel-apps/telegram-app/) for serving your Omnichannel conversations with Telegram.
 {% endhint %}
 
 ## Getting Started
@@ -150,14 +150,14 @@ The message sent gets posted in the `channel` by the `user`you specified in the 
 
 ### Creating a Telegram Group with Bot access
 
-A Telegram group can configured to send and recieve messages to and and from Rocket.Chat
+A Telegram group can be configured to send and receive messages to and from Rocket.Chat
 
 Create a Telegram group and grant bot access
 
 * Create a new Telegram group
 * Get the group chat id. This can be gotten by
   * Adding the user `RawDataBot`to the group
-  * On joining a response like below is seen with the chat id
+  * On joining, a response like below is seen with the chat id
 
 ```
 Your chat id is -873457731, your id is 1140377161
@@ -215,5 +215,5 @@ class Script {
 
 {% hint style="success" %}
 * Multiple Outgoing Triggers can be configured to cover all use cases.
-* The scripts can be customized as needed, learn more here [#script-details](./#script-details "mention")
+* The scripts can be customized as needed. Learn more here [#script-details](./#script-details "mention")
 {% endhint %}
