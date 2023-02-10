@@ -12,8 +12,6 @@ To import your current Slack data into Rocket.Chat:
 8. Deselect any items you don't want to import
 9. At the top of the page, click on Start Importing
 
-
-
 {% hint style="info" %}
 * If your Slack workspace is currently set up to hide emails, they'll also be excluded from exports. You can update your workspace settings temporarily and re-run the export in order to include emails as well.
 * It can be helpful to export time ranges from Slack such that the size of each import file is less than 15MB.
