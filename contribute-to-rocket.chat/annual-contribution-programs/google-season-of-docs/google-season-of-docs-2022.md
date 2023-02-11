@@ -10,6 +10,12 @@ Projects can cover a wide range of fields including Cloud computing, operating s
 
 ## How to apply
 
+#### Update April 2022
+
+Rocket.Chat has applied, but has not been selected for the 2022 Google Season of Docs program. We intend to try again in 2023, and like to thank Google for the kind consideration this year.\
+\
+
+
 Rocket.Chat operates a 24 x 7 community server at [http://open.rocket.chat](http://open.rocket.chat) Please contact us through the Google Seasons of Docs 2022 channel at [https://open.rocket.chat/channel/gsod2022](https://open.rocket.chat/channel/gsod2022)
 
 Interested professional technical writers can directly send us an email to [gsod@rocket.chat](mailto:gsod@rocket.chat).
