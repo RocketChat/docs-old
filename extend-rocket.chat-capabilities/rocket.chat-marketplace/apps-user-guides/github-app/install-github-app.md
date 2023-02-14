@@ -4,8 +4,8 @@
 
 To install the GitHub App,
 
-* Go to **Administration > Workspace > Apps**
-* Search for the **GitHub** app and click on the item
+* Navigate to **Administration > Workspace > Apps**
+* Search for the **GitHub** app
 * Click **Install**
 * **Agree** to the needed permissions to confirm install
 

@@ -65,7 +65,7 @@ Lets you search for issues or pull requests in a specified repository.
 
 Create a new issue in a GitHub repository
 
-* Enter the **Full Repository Name** you wish to create the issue in and **Next**
+* Enter the **Full Repository Name** you wish to create the issue in, and **Next**
 * Fill in the issue details and **Create Issue**
 * The issue gets created and a link to it provided
 
@@ -133,5 +133,4 @@ Subscribe to all the events of a repository and receive messages in that channel
 
 ### `/github <username>/<repository name> unsubscribe`
 
-Unsubscribe from all events of a repository
-
+Unsubscribe from all events of a repository.
