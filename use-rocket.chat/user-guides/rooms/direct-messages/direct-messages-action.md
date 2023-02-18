@@ -111,7 +111,7 @@ To export messages,&#x20;
 * **Output Format**: A dropdown to select between `html` and `JSON` file format.
 
 {% hint style="info" %}
-When exporting via email, you need to select the messages to be exported. However, when exporting as a file you only need to specify start and end export dates.
+When exporting via email, you need to select the messages to be exported. However, when exporting as a file, you only need to specify start and end export dates.
 {% endhint %}
 
 ## Star Messages in Direct Message
