@@ -1,16 +1,18 @@
+---
+description: Review log history of users who have accessed the Message Auditing Panel.
+---
+
 # Message Auditing Log
 
-To check the details about who used the Message Auditing Panel and their search results, you must have the `auditor-log` role or the `can-audit-log` permission.
+The Message Auditing Log is used to check the details about who used the **Message Auditing Panel** and their search results. You must have the `auditor-log` role or the `can-audit-log` permission before having access to the Message Auditing Log.
 
-To access message editing log:
+To access the message editing log, go to **Administration** > **Audit** > **Logs**.
 
-1. Click your user icon
-2. Click **Message Auditing log**
+If you are interested in the entire log history, clear the start and end date fields. The full log history results are presented to you, from the oldest audits to the most recent. However, if you are interested in those who audited messages within a specific time frame, input the **start** (left) and end **date**s(right), and the result is automatically presented. You also have a context menu (pop-up) on the far right, which can be used to select an appropriate period. The message auditing logs result is presented in five columns with the following information:
 
-as shown below:
+* **User**: Contains the name, username, and avatar of the auditors.
+* **Looked for**: Which has the search term of each audit.
+* **When**: This contains the date and time when each audit was made.
+* **Results**: This includes the number of search results returned by each audit.
+* **Filters**: Which has the filters that were applied for each audit depending on the type of audit.
 
-![](<../.gitbook/assets/image (300).png>)
-
-Then set a start and end duration you want to view, then all the users and their various results are displayed as seen below.
-
-![](<../.gitbook/assets/image (301).png>)
