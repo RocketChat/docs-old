@@ -35,7 +35,7 @@ Make sure Your Rocket.Chat workspace URL is publicly available.
 Before configuring the Telegram integration, make sure you:
 
 * [Create a channel](../../user-guides/rooms/channels/create-a-new-channel.md) on Rocket.Chat for incoming and outgoing conversations.
-* [Create a user](broken-reference) with `bot` [role ](../../../setup-and-administer-rocket.chat/roles-in-rocket.chat/)to be used for the relay.
+* [Create a user](../users/#add-new-users) with `bot` [role ](../../../setup-and-administer-rocket.chat/roles-in-rocket.chat/)to be used for the relay.
 {% endhint %}
 
 ### Creating an Incoming Telegram webhook in Rocket.Chat
