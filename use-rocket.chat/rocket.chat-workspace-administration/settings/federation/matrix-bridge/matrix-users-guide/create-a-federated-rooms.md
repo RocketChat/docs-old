@@ -1,6 +1,12 @@
-# Rocket.Chat Federated Communication
+# Create federated rooms
 
-## Creating a Federated Channel
+## Creating a channel/group (Enterprise edition only)
+
+{% hint style="danger" %}
+We don't support encrypted rooms yet
+{% endhint %}
+
+## Creating a channel/group (Enterprise edition only)
 
 <figure><img src="../../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2).jpg" alt=""><figcaption></figcaption></figure>
 
@@ -20,7 +26,11 @@ To create a federated channel,
 * You cannot create [Threads](../../../../../user-guides/rooms/threads/) or [Discussions](../../../../../user-guides/rooms/discussions/) within federated Channels.
 {% endhint %}
 
-## Creating a Direct Message 1:1
+Whenever your user is invited to participate in a federated room, if that room was created in an external server, you will be able to see from which server (server name) the room is originally from. This helps the user to differentiate when there are multiple rooms with the same name, but all from different servers.
+
+<figure><img src="../../../../../../.gitbook/assets/image (28).png" alt=""><figcaption><p><em>Badge indicating from where the room is coming from (server name)</em></p></figcaption></figure>
+
+## Creating a Direct Message 1:1 (Enterprise edition only)
 
 <figure><img src="../../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2).jpg" alt=""><figcaption></figcaption></figure>
 
@@ -71,3 +81,15 @@ To create a 1:1 Direct Message using slash commands you need to open the message
 ```
 /federation dm @username1:server.com
 ```
+
+### Editing a federated room
+
+Currently, we support **name** and **topic** editions after a room was created.
+
+### Deleting a federated room
+
+We don't support federated room deletions at this point.
+
+### Invite links
+
+They are not supported yet.

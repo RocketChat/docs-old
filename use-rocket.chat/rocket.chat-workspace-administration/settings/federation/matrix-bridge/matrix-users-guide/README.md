@@ -11,3 +11,7 @@
 {% content-ref url="communicate-with-a-federated-user.md" %}
 [communicate-with-a-federated-user.md](communicate-with-a-federated-user.md)
 {% endcontent-ref %}
+
+{% content-ref url="assign-roles-for-users-in-federated-rooms.md" %}
+[assign-roles-for-users-in-federated-rooms.md](assign-roles-for-users-in-federated-rooms.md)
+{% endcontent-ref %}
