@@ -4,22 +4,14 @@ description: End-user Training Guides
 
 # User Guides
 
-{% content-ref url="access-your-workspace.md" %}
-[access-your-workspace.md](access-your-workspace.md)
-{% endcontent-ref %}
+As a user, this guide will help you optimize your Rocket.Chat workspace. It onboards you on how to use various features of Rocket.Chat.
 
-{% content-ref url="user-panel/" %}
-[user-panel](user-panel/)
-{% endcontent-ref %}
+****[**Access your Workspace**](access-your-workspace.md): Connect to your Rocket.Chat workspace via the web, mobile, or desktop application.
 
-{% content-ref url="rooms/" %}
-[rooms](rooms/)
-{% endcontent-ref %}
+****[**User Panel**](user-panel/): View and modify your account details, and update your workspace preference.
 
-{% content-ref url="security-bundle/" %}
-[security-bundle](security-bundle/)
-{% endcontent-ref %}
+****[**Rooms**](rooms/):  Explore various methods of organizing conversations in your workspace.
 
-{% content-ref url="keyboard-shortcuts.md" %}
-[keyboard-shortcuts.md](keyboard-shortcuts.md)
-{% endcontent-ref %}
+****[**Security Bundle**](../cloud-account/manage-your-cloud-account/security.md): Explore security-focused features that provide enhanced security for your workspace.
+
+****[**Keyboard Shortcuts**](keyboard-shortcuts.md): Shortcut keys that help to optimize your workspace experience.
