@@ -11,9 +11,9 @@ To see the list of members in a Channel,&#x20;
 * You can send a direct message or call the user from the user info.&#x20;
 * Click the **three dots** icon to see other user actions like ignore, mute user, or set roles ( as moderator, leader, or owner).
 
-## Add Members to Team
+## Add Members to Channel
 
-You can add members to a team in two ways:&#x20;
+You can add members to a channel in two ways:&#x20;
 
 * Send an Invite Link
 * Manually Adding Users
@@ -24,16 +24,16 @@ You can use **the Add Users** option to add users already in your workspace.
 
 To add a new user,
 
-* At the bottom of the Team members page, click **Add.**&#x20;
+* At the bottom of the Channel members page, click **Add.**&#x20;
 * Search and select the users, then click **Add users.**&#x20;
 
 {% hint style="warning" %}
-Rocket.Chat notifies you if the user is already an existing team member**.**
+Rocket.Chat notifies you if the user is already an existing channel member**.**
 {% endhint %}
 
 ### Send an Invite Link
 
-At the bottom of the team members page, click **Invite Link** and copy the generated link to share with your invitees.
+At the bottom of the channel members page, click **Invite Link** and copy the generated link to share with your invitees.
 
 #### Edit Invite Link
 

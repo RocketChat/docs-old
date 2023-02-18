@@ -1,23 +1,22 @@
----
-description: >-
-  Rocket.Chat discussions allow for you to have a separate conversation of
-  larger topics in a team or channel.
----
-
 # Discussions
 
-Discussions are identified by the discussion symbol:
-
-![](<../../../../.gitbook/assets/image (635) (1).png>)
-
-On the **Navigation** menu, discussions can be seen under the heading **Discussions** and every discussion is marked with the symbol above:
-
-![](<../../../../.gitbook/assets/image (670) (1) (1) (1) (1) (1) (1) (1).png>)
+Rocket.Chat discussions allow you to have a separate conversation about larger topics in a [team](../../../../guides/user-guides/rooms/teams/) or [channel](../channels/). Use discussions to address specific topics and their related conversations. They are displayed under the **Discussions** section of the sidebar. They are identified by  ![](../../../../.gitbook/assets/discussion-icon.png).
 
 {% hint style="info" %}
-Use discussions to tackle down all specific topics related conversations.
+Discussions must belong to a parent [team ](../../../../guides/user-guides/rooms/teams/)or [channel](../channels/).
 {% endhint %}
 
-Say for example you have a team named **Engineering-Team**, and you created a channel under the engineering team named **Website-Development-Channel.** It makes sense to break down conversation about each feature of the site to discussions for example **Website-Responsiveness-Discussion** where all the talk about the website's responsiveness is done.
+For example, you have an **Engineering-Team** in your workspace and created a channel under that team called **Website-Development-Channel.** Let's break down the conversations about each feature of the website into discussions. Now, you can have a **Website-Landing-Page** discussion where all the conversations about the landing page occur.
 
-Another use case for creating discussions directly in a team for example is: Say we need to talk about arrangements for the engineering teams meeting, we can create an **Engineering-Meeting-Preparation** discussion tied directly to the engineering team.
+## Discussion Information
+
+The room information screen gives detailed information about the current discussion. These details include:
+
+* **Name:** The name of the discussion, how users see the title and find the discussion via search.
+* **Description**: The description of the discussion.
+* **Announcement**: Announcements post in a bar under the discussion header.
+* **Topic**: The topic here is next to the channel header's title. It shows which channel or group the discussion is linked to.
+* **Private**: When enabled, makes the discussion private.
+* **Read Only**: Tells whether a discussion is read-only and toggles the read-only status on the discussion. In read-only discussions, only people with admin permissions can post messages.
+* **Archived**: Enable to archive a discussion. Nobody can post messages in an archived discussion, and searching will not find the discussion.
+* **Password**: Tells whether a discussion is protected with a password. The password is required before joining the discussion.

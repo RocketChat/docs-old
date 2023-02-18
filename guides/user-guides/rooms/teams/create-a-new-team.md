@@ -15,7 +15,7 @@ To create a new team:
 
 All teams marked as favorites are listed at the top of the sidebar so that it is easy to access.
 
-To mark a team as favorite:&#x20;
+To mark a team as favorite,
 
-* At the top of the team page, click the **star** icon next to the team name to mark a team as **Favorite**.
+* At the top of the team screen, click the **star** icon next to the team name to mark that team as **Favorite**.
 * To remove a team from **Favorites,** click the **star** icon again.

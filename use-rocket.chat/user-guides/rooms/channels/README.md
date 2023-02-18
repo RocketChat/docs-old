@@ -1,7 +1,3 @@
----
-description: Conversations in Rocket.Chat occurs in channels.
----
-
 # Channels
 
 Channels are chat rooms with useful features designed to increase communication and collaboration. For example, you can have a dedicated channel for the designers in your workspace to discuss design-related topics.

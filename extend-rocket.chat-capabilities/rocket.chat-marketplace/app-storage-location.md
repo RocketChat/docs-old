@@ -1,19 +1,17 @@
 # App Storage Location
 
-{% hint style="info" %}
-the new storage solution does not apply to Rocket.Chat servers older than version 4.
-{% endhint %}
+Rocket.Chat's version 4 introduced npm packages as dependencies of apps. Since npm dependencies could account for a hefty portion of an app package's final size, we have a more flexible storage solution for your apps' packages.&#x20;
 
-Rocket.Chat's version 4 introduced npm packages as dependencies of apps. Considering that npm dependencies could account for a hefty portion of an app package's final size, we are providing a more flexible storage solution for your apps' packages. The configuration can be accessed at 'Admin &gt; General &gt; Apps'.
+To access the configuration, navigate to **Administration > Workspace > Settings> Apps**
 
 Currently, we have two storage methods:
 
-* [GridFS](https://docs.mongodb.com/manual/core/gridfs/) at MongoDB \(the default option\)
+* [GridFS](https://docs.mongodb.com/manual/core/gridfs/) at MongoDB (the default option)
 * Filesystem at the host's box
 
-## GridFS \(the default option\)
+## GridFS&#x20;
 
-When using GridFS your app package is stored in the database as a file and you don't have to manage configuration to make it work. It is set and forget.
+When using GridFS (default), your app package is stored in the database as a file, and you don't have to manage configuration to make it work.&#x20;
 
 ## Filesystem
 
@@ -24,5 +22,4 @@ When setting the storage to the filesystem, you have full control of the package
 
 ## Changing configuration when there are apps installed
 
-It is not recommended to change storage configuration when there are apps installed. As of right now, there is no migration mechanism to handle moving the packages between different storage methods. Doing so will result in apps not working properly.
-
+It is not recommended to change storage configuration when there are apps installed. Currently, there is no migration mechanism to move packages between different storage methods. Doing so will result in apps not working properly.
