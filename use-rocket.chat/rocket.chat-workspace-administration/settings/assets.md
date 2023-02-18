@@ -1,35 +1,22 @@
----
-description: Modify your workspace's logo, icon, favicon and more.
----
-
 # Assets
 
-This section deals with uploading and setting asset files responsible for some of the looks of your workspace. Customizing these assets gives your server a unique and branded look.
+Manage the assets and various resources used by your Rocket.Chat workspace. This involves logos, icons, and other images for customizing your workspace.
 
-To access the assets section, go to **Administration** > **Workspace** > **Settings** > **Assets**. Click on the button labeled `Open` . For each setting's which you wish to change, click on the `Select File`&#x20;
+Customize your workspace to have a branded look from the assets settings.
 
-button and select the particular file from your file system.
+To access the assets section, go to **Administration** > **Workspace** > **Settings** > **Assets**.&#x20;
 
 {% hint style="info" %}
-Remember to hit **Save Changes** in order to apply any changes made.
+Remember to hit **Save Changes** to apply any changes made.
 {% endhint %}
 
-* **Enable SVG favicon**: When enabled, it gives you the ability to set an SVG favicon.
-* **logo (svg, png, jpg)**: Lets you set the logo for your server.
-
-![](<../../../.gitbook/assets/image (644) (1) (1) (1) (1) (1) (1) (1).png>)
-
-* **login background (svg, png, jpg)**: Lets you set a login background image.
-
-![](<../../../.gitbook/assets/image (659) (1) (1).png>)
-
+* **Enable SVG favicon**: When enabled, you can set an SVG favicon.
+* **logo (svg, png, jpg)**: This lets you set the logo for your server. It is visible at the bottom left of the side panel.
+* **login background (svg, png, jpg)**: Set a login background image.&#x20;
 * **favicon (ico)**: Lets you set a favicon of `.ico` extension.
 * **favicon (svg)**: Lets you set a favicon of `.svg` extension.
 * **favicon 16x16 (png)**: Lets you set a favicon of size `16X16`
 * **favicon 32x32 (png)**: Lets you set a favicon of size `32x32`
-
-![](<../../../.gitbook/assets/image (638) (1) (1) (1) (1).png>)
-
 * **android-chrome 192x192 (png)**: Lets you set the `192x192` icon displayed on Android Chrome browser.
 * **android-chrome 512x512 (png)**: Lets you set the `512x512` icon displayed on Android Chrome browser.
 * **apple-touch-icon 180x180 (png)**: Lets you set the `180x180` apple icon shown on web page.
