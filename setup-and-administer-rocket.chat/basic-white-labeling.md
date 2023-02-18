@@ -19,7 +19,7 @@ With Custom CSS, you define your brand's color system using CSS. Rocket.Chat has
 * primary: Type of UI element.
 * default: State of the UI element.
 
-To modify various elements, you are required to copy and paste the text block (variables list) below in the Custom CSS text field and modify the colors to suit your brand's colors accordingly and hit Save.
+To modify various elements, you must copy and paste the text block (variables list) below in the Custom CSS text field and modify the colors to suit your brand's colors accordingly and hit Save.
 
 ```css
 .rcx-content--main {
@@ -123,21 +123,11 @@ To modify various elements, you are required to copy and paste the text block (v
 }
 ```
 
-The  name `rcx-content--main` refers to Rocket.Chat's main content body and `rcx-sidebar--main` refers to Rocket.Chat's sidebar and essentially, the blocks represent the part of Rocket.Chat's UI colors which you should modify.
-
-### Custom Scripts
-
-
-
-### Home page content
-
-
-
-### Login
+The  name `rcx-content--main` refers to Rocket.Chat's main content body and `rcx-sidebar--main` refers to Rocket.Chat's sidebar, and essentially, the blocks represent the part of Rocket.Chat's UI colors which you should modify.
 
 ## Content
 
-The content section allows you to change the HTML content of several screens on your Rocket.Chat server. The areas under the Content section that allows you to customize include the home title, the body, which is the first screen users see when logged in, terms of service, login terms, privacy policy, legal notice, and the side navigation folder. Make sure to hit **Save Changes** after making any of the content changes.
+The content section allows you to change the HTML content of several screens on your Rocket.Chat workspace. The areas under the Content section include the home title, the body, which is the first screen users see when logged in, terms of service, login terms, privacy policy, legal notice, and the side navigation folder. Make sure to hit **Save Changes** after making any of the content changes.
 
 ### Fonts
 
