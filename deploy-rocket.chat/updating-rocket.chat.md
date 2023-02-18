@@ -17,7 +17,7 @@ Workspace admins should monitor new releases and our release notes [here ](https
 
 ## Updating Rocket.Chat on Docker
 
-Assuming you followed our installation guide on installing with [Docker and Docker Compose](../quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/), to update the `rocketchat` docker image to the latest version, you can use the following commands. Your data should not be affected by this, since it's located in the `mongo` image.
+Assuming you followed our installation guide on installing with [Docker and Docker Compose](prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose/), to update the `rocketchat` docker image to the latest version, you can use the following commands. Your data should not be affected by this, since it's located in the `mongo` image.
 
 ```
 docker pull registry.rocket.chat/rocketchat/rocket.chat:latest

@@ -173,8 +173,8 @@ The process to install Rocket.Chat involves
 
 Follow this guide to get Rocket.Chat installed with Docker & Docker Compose.
 
-{% content-ref url="../../../quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/" %}
-[docker-and-docker-compose](../../../quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/)
+{% content-ref url="../rapid-deployment-methods/docker-and-docker-compose/" %}
+[docker-and-docker-compose](../rapid-deployment-methods/docker-and-docker-compose/)
 {% endcontent-ref %}
 
 ## Use it

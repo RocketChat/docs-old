@@ -6,7 +6,7 @@
 
 ## Recommended Server Install
 
-We recommend installing Rocket.Chat using our[ Docker and Docker Compose](../../../../../quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/) or [Snaps](../../../rapid-deployment-methods/snaps/) guide, as they are the easiest way to get your server up and running on all supported Linux distributions (Ubuntu, etc.). To enable TLS on your site like this `https://yoursite.com` when using the snap, see [this guide](../../../rapid-deployment-methods/snaps/auto-ssl-with-snaps.md).
+We recommend installing Rocket.Chat using our[ Docker and Docker Compose](../../../rapid-deployment-methods/docker-and-docker-compose/) or [Snaps](../../../rapid-deployment-methods/snaps/) guide, as they are the easiest way to get your server up and running on all supported Linux distributions (Ubuntu, etc.). To enable TLS on your site like this `https://yoursite.com` when using the snap, see [this guide](../../../rapid-deployment-methods/snaps/auto-ssl-with-snaps.md).
 
 ## Manual installation of Rocket.Chat on Ubuntu
 

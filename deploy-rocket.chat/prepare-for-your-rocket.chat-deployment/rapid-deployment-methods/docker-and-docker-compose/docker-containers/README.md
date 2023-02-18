@@ -287,7 +287,7 @@ sudo nginx -t
 
 #### Create docker-compose.yml file:
 
-To create a docker-compose file, please follow the instructions [here](../../../../../quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/).
+To create a docker-compose file, please follow the instructions [here](../).
 
 **Create the directories:**
 
@@ -510,5 +510,5 @@ With TOP running, try to replicate the problem while watching TOP for high loads
 
 You can also deploy using Docker and Docker Compose by following one of these guides:
 
-* [Docker Compose](../../../../../quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/)
+* [Docker Compose](../)
 * [Available Images](available-images.md)

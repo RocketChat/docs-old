@@ -5,7 +5,7 @@ description: Each Rocket.Chat version requires a specific Node version for it to
 # Supported NodeJs Version
 
 {% hint style="info" %}
-The only reason you may need to check this (except for idle curiosity or debugging purposes) is if you're using the manual method of deployment. We don't recommend manual installation. Instead, [Docker](../../../quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/) is recommended and encouraged. With [Docker](../../../quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/) (or [Snap](../../prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/snaps/)) you won't need to worry about the Node version.
+The only reason you may need to check this (except for idle curiosity or debugging purposes) is if you're using the manual method of deployment. We don't recommend manual installation. Instead, [Docker](../../prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose/) is recommended and encouraged. With [Docker](../../prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose/) (or [Snap](../../prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/snaps/)) you won't need to worry about the Node version.
 {% endhint %}
 
 Rocket.Chat is built with [Meteor](https://meteor.com), a JavaScript framework. The version of Meteor in use dictates the supported NodeJs version for that specific version.
