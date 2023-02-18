@@ -90,13 +90,13 @@ Currently, the only way to submit messages for moderator's review is to report t
 \
 **Description:**\
 ****\
-****A Rocket.Chat channel can be embedded into some existing web application via the  [Embedded Chat component](https://github.com/RocketChat/EmbeddedChat).      Currently, the available integration surface and features of Embedded Chat is rather limited.  This project aims to significantly expand the applicability of Embedded Chat for a wider range of web applications - including the most popular hosting platform such as WordPress and Ghost; web application developed in Java, PHP and Python.  Features we still need includes the support of all authentication methods that the hosting server has activated,  file/media attachments,  and in-chat RC-App slash-command access.&#x20;
+****A Rocket.Chat channel can be embedded into some existing web application via the  [Embedded Chat component](https://github.com/RocketChat/EmbeddedChat).      Currently, the available integration surface and features of Embedded Chat is rather limited.  This project aims to significantly expand the applicability of Embedded Chat for a wider range of web applications - including the most popular frameworks such as Vue, Angular, Svelte, React Native;  and hosting platforms such as WordPress and Ghost; web application developed in Java, PHP and Python.   Embeddability via [HTML](https://github.com/arnav-t/riot-embedded) .   Customizability needs to be improved with theme kit,  as well as a way to enable users to supply custom CSS.   Features we still need includes the support of all authentication methods that the hosting server has activated,  file/media attachments,  sending audio messages, autocomplete mention search, and in-chat RC-App slash-command access.  Realtime messages transport needs to be improved to avoid 429.  Last but not least, we need to greatly improve the first-time developer experience by supplying better server startup,  testing, and e2e testing devops and via gitpod-ization. &#x20;
 
-**Desired Skills:**  React and NextJS.   in-depth knowledge of Embedded Chat project.  Thorough understand of modern web application development platform and technologies.\
+**Desired Skills:**  React and NextJS.   Absolute in-depth knowledge of Embedded Chat project.  Thorough understand of modern web application development platform and technologies.\
 ****\
-**Goal/Deliverable:**  Embedded Chat working with most current web application building technologies, and updated with missing essential features.\
+**Goal/Deliverable:**  Embedded Chat working with most current web application building technologies, and updated with missing essential features.  Ideally also improved realtime transport as well as first-time developer experience. \
 \
-**Project Duration:** 175 hours. (Medium)\
+**Project Duration:** 350 hours. (Large)\
 \
 **Difficulty:** Medium\
 

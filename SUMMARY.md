@@ -184,7 +184,7 @@
   * [Users](use-rocket.chat/rocket.chat-workspace-administration/users/README.md)
     * [Guest users](use-rocket.chat/rocket.chat-workspace-administration/users/guest-users.md)
     * [Add users through Identity management and authentication services](use-rocket.chat/rocket.chat-workspace-administration/users/add-users-through-identity-management-and-authentication-services.md)
-  * [Rooms (aka Channels)](use-rocket.chat/rocket.chat-workspace-administration/rooms-aka-channels.md)
+  * [Rooms](use-rocket.chat/rocket.chat-workspace-administration/rooms-aka-channels.md)
   * [Invites](use-rocket.chat/rocket.chat-workspace-administration/invites.md)
   * [Connectivity Services](use-rocket.chat/rocket.chat-workspace-administration/connectivity-services.md)
   * [View Logs](use-rocket.chat/rocket.chat-workspace-administration/view-logs.md)

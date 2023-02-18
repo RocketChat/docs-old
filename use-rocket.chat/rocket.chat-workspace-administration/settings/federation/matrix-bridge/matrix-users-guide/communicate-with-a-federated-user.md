@@ -14,7 +14,7 @@ After you have configured everything and created some federated channels, you're
 * Edit Messages.
 * Delete Messages (only your own messages).
 * Mention internal and external users inside any federated room.
-* Send and receive users' typing indicator ([More info](../matrix-admin-guide/matrix-homeserver-setup/#important-warning-about-the-installation)).
+* Send and receive users' typing indicator ([More info](../../../../../../guides/administration/admin-panel/settings/federation/matrix-bridge/matrix-admin-guide/matrix-homeserver-setup.md#important-warning-about-the-installation)).
 
 There are also some features not directly related to rooms:
 

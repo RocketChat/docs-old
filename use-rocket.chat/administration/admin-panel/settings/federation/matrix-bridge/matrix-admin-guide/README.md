@@ -1,7 +1,7 @@
 # Matrix Admin Guide
 
-{% content-ref url="../../../../../../rocket.chat-workspace-administration/settings/federation/matrix-bridge/matrix-admin-guide/matrix-homeserver-setup/" %}
-[matrix-homeserver-setup](../../../../../../rocket.chat-workspace-administration/settings/federation/matrix-bridge/matrix-admin-guide/matrix-homeserver-setup/)
+{% content-ref url="../../../../../../../guides/administration/admin-panel/settings/federation/matrix-bridge/matrix-admin-guide/matrix-homeserver-setup.md" %}
+[matrix-homeserver-setup.md](../../../../../../../guides/administration/admin-panel/settings/federation/matrix-bridge/matrix-admin-guide/matrix-homeserver-setup.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../../../../../rocket.chat-workspace-administration/settings/federation/matrix-bridge/matrix-admin-guide/matrixbridge-configuration.md" %}
