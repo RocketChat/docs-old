@@ -17,7 +17,7 @@ The Omnichannel menu is available with the **Turn off answer chats** and **Conta
 * As soon as your contact sends an email, it will appear under **Chats in Progress.**
 * Select the chat. Click **Reply via Email, t**ype your message and click **Send.** Your contact receives the reply in their email.
 
-<figure><img src="../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If you type without clicking **Reply via Email**, your contact will **NOT** receive your reply at all.
@@ -27,7 +27,7 @@ If you type without clicking **Reply via Email**, your contact will **NOT** rece
 
 Suppose you need help with a particular email, you can invite your fellow **agent** to that channel using `/invite @username` .
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 Once an agent is invited to an email inbox, they have access to all the previous conversations that have taken place there. You can also have internal conversations with your fellow agent on that channel.
 

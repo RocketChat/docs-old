@@ -6,6 +6,6 @@ This app enables users to perform various tasks, such as searching and sharing I
 
 This guide aims at getting you through:
 
-1. Installing the GitHub App
-2. Configuring the Gihub App
-3. Creating GitHub OAuth2 Credentials
+1. [Installing and Configuring the GitHub App](install-github-app.md)
+2. [Creating GitHub OAuth App for credentials](creating-github-oauth-app.md)
+3. [Using the GitHub App](using-github-app.md)

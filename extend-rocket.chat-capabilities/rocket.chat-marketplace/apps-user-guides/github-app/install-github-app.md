@@ -15,8 +15,8 @@ To configure the GitHub app,
 
 * Follow this guide to create GitHub OAuth credentials
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="creating-github-oauth-app.md" %}
+[creating-github-oauth-app.md](creating-github-oauth-app.md)
 {% endcontent-ref %}
 
 * Open the details page of the GitHub app you just installed
