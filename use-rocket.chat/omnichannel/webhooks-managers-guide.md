@@ -1,14 +1,14 @@
 # Webhooks Manager's Guide
 
-Omnichannel webhooks allow you to integrate the Rocket.Chat Omnichannel to any third-party system, e.g., CRM, Zoho, etc
+Omnichannel webhooks allow you to integrate the Rocket.Chat Omnichannel to any third-party system, e.g., CRM, Zoho, etc.
 
-To access **Webhooks** settings:
+To access **Webhooks** settings,
 
-Navigate to **Administration** > **Workspace** > **Omnichannel** > **CRM Integration**.
+* Navigate to **Administration** > **Workspace** > **Omnichannel** > **CRM Integration**.
 
 ## Create Omnichannel Webhook
 
-To create a new Omnichannel webhook, you need to provide the following details:
+To create a new **Omnichannel** webhook, you need to update the following details:
 
 * **Webhook URL**: The Webhook URL from the system you want to connect(destination).
 * **Secret Token**: Enter the secret token that can be used to verify the webhook.
@@ -16,32 +16,30 @@ To create a new Omnichannel webhook, you need to provide the following details:
 {% hint style="info" %}
 The field **Secret Token** is sent to a header `X-RocketChat-Livechat-Token` so you can validate if the request became from Livechat.
 
-If your endpoint returns a response status other than `200`, Rocket.Chat will retry 10 times, waiting 10 seconds between retries.
+If your endpoint returns a response status other than `200`, Rocket.Chat will retry ten times, waiting ten seconds between retries.
 {% endhint %}
 
-* **Send Request on**: Select the action(s) you want this integration to have
-  * **Send Request on Chat Start**: Sends a post request to the webhook endpoint when an Omnichannel chat starts.
-  * **Send Request on Chat Close**: Sends a request when a chat gets closed.
-  * **Send Request on Chat Taken**: Sends a request when an Omnichannel agent **Takes** a chat.
-  * **Send request on Chat Queued**: A request gets sent when a chat gets queued.
-  * **Send Request on Forwarding**: Triggers request to be sent when a chat gets forwarded to another Omnichannel department or Agent.
-  * **Send Request on Offline Messages**: Sends a request when a visitor leaves an offline message.
-  * **Send Request on Visitor Messages**: A request is sent when an Omnichannel visitor sends a message.
-  * **Send Request on Agent Messages**: Sends a request when an Omnichannel Agent sends a message or reply.
-  * **Send Visitor Navigation History on Request**: Sends a request about visitor's navigation history. _This feature depends on "Send Visitor Navigation History as a Message" to be enabled._
-  * **Send request on lead capture**: Sends a request when a lead is captured.
-    * **Lead capture email regex**: Specify the regex for lead captured email.
-    * **Lead capture phone regex**: Set the regex for lead-captured phone numbers.
+* **Send Request on**: Select the action(s) you want this integration to have.
+* **Send Request on Chat Start**: Sends a post request to the webhook endpoint when an Omnichannel chat starts.
+* **Send Request on Chat Close**: Sends a request when a chat gets closed.
+* **Send Request on Chat Taken**: Sends a request when an Omnichannel agent **Takes** a chat.
+* **Send request on Chat Queued**: A request gets sent when a chat gets queued.
+* **Send Request on Forwarding**: Triggers request to be sent when a chat gets forwarded to another Omnichannel department or Agent.
+* **Send Request on Offline Messages**: Sends a request when a visitor leaves an offline message.
+* **Send Request on Visitor Messages**: A request is sent when an Omnichannel visitor sends a message.
+* **Send Request on Agent Messages**: Sends a request when an Omnichannel Agent sends a message or reply.
+* **Send Visitor Navigation History on Request**: Sends a request about visitor's navigation history. _This feature depends on "Send Visitor Navigation History as a Message" to be enabled._
+* **Send request on lead capture**: Sends a request when a lead is captured.
+* **Lead capture email regex**: Specify the regex for lead captured email.
+* **Lead capture phone regex**: Set the regex for lead-captured phone numbers.
 
-If you select Chat Start:
+{% hint style="info" %}
+If you enable Send Request on Chat Start, Rocket.Chat sends a webhook to the external system telling it that a new conversation has started.
+{% endhint %}
 
-Rocket.chat will send a webhook to the external system telling it that a new conversation has started, as shown below:
+### Sample JSON Data
 
-![](<../../.gitbook/assets/3 (12).png>)
-
-### Example JSON Data
-
-Here is an example of JSON data sent in a request.
+Here is an example of JSON data sent in the  request.
 
 {% tabs %}
 {% tab title="Livechat session" %}

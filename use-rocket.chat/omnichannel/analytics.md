@@ -1,24 +1,27 @@
 # Analytics
 
-This is an out-of-the-box analytics dashboard that allows you to track your [Live Chat agents'](agents.md) performance (productivity) over any period of time. It gives managers the insight they need to make data-driven decisions that improve the customer experience.
+This is an out-of-the-box analytics dashboard that allows you to track your [Live Chat Agents'](agents.md) performance (productivity) over any period of time. It gives managers the insight they need to make data-driven decisions that improve the customer experience.
 
-To access the Omnichannel Analytics settings:
+To access the Omnichannel Analytics settings,
 
-&#x20;go to **Administration > Omnichannel > Analytics.** In this section, you can filter analytics based on \*\*\*\* `Type`, `Department`, `Start and End date`**.**
+* Go to **Administration > Omnichannel > Analytics.**&#x20;
+* You can filter the analytics based on  **Type**, **Department**, **Start, and End date.**
 
 ## Omnichannel Agents Conversation Analytics
 
-* Select conversations from the **Type** dropdown menu to view conversation history analytics
-* Select your desired department
-* Select your desired start date and end date
+&#x20;To view conversation history analytics,
 
-### Details of conversation matrices
+* Select conversations from the **Type** dropdown menu.
+* Select your desired department.
+* Select your desired start date and end date.
+
+### Details of Conversation Matrices
 
 **Total Conversations:** It represents the total number of conversations during the selected period of time.
 
 **Open Conversations:** It represents the total number of open conversations for your selected department during the chosen period.
 
-**On Hold Conversations**: Shows the conversations on hold
+**On Hold Conversations**: Shows the conversations on hold.
 
 **Total Messages:** It represents the total number of messages received in all the conversations during a selected period.
 
@@ -28,15 +31,17 @@ To access the Omnichannel Analytics settings:
 
 **Busiest Time:** It shows the hour during which you received the most chats for your selected period of time.
 
-You can also see the **percentage of conversations**, the **average of chat duration**, and the **total messages handled** by each one of your agents from your selected department, from the **Chart** field.
+You can also see the **percentage of conversations**, the **average of chat duration**, and the **total messages handled** by each one of your agents from your selected department from the **Chart** field.
 
 ## Omnichannel Agent Productivity Analytics
 
-* Select Productivity from the **Type** dropdown menu to view Productivity history analytics
+To view Productivity history analytics,
+
+* Select **Productivity** from the **Type** dropdown menu.
 * Select your desired department
 * Select your desired start date and end date
 
-### Details of productivity matrices:
+### Details of Productivity Matrices:
 
 **Average of Response Time:** This matrix represents the average of your agent’s team’s responses to all the conversations that are automatically assigned to them during a selected time.
 

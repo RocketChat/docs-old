@@ -1,34 +1,30 @@
 # Livechat Widget Appearance
 
-You can customize the Live Chat Widget appearance to suit your branding style. In this section, you'll find out how to customize the appearance of your Live Chat Widget.
+The Live Chat Widget's appearance can be customized to fit your branding style. Whether agents are online or not, you can customize the widget appearance for offline and online hours. The fields on the registration form and the messages displayed after a conversation are both customizable.
 
-To access Live Chat Appearance go to **Administration > Omnichannel > Live Chat Appearance**.
+To access Live Chat Appearance,&#x20;
+
+* Go to **Administration > Omnichannel > Live Chat Appearance**.
 
 ## Live Chat Widget Online Appearance
 
-Here you can define the look of the [Live Chat Widget](livechat-widget-installation/) during online hours.
-
 * **Title**: Set the title of your widget.
 * **Title bar color**: Set the color of the title bar of your widget.
-* **Message Character Limit**: Enable to set the allowed number of characters per message.
-* **Show agent information**: Enable to show agent’s information(Name).
-* **Show agent email**: Show your agent’s email address when set to true.
+* **Message Character Limit**: Enable to set the maximum amount of characters per message.
+* **Show agent information**: Enable to show agent’s name.
+* **Show agent email**: Enable to show agent’s email.
 
 ## Live Chat Widget Offline Appearance
 
-Customize the appearance of your Live Chat Widget here, for the hours when none of your agents is online/working.
-
 * **Display Offline Form**: Turn on to display offline form.
-* **Offline Form Unavailable Message**: The message visitors will see when unavailable.
-* **Offline message**: Set Offline Message, if any.
+* **Offline Form Unavailable Message**: The message visitors will see when Live Chat form  is unavailable.
+* **Offline message**: Set Offline Message.
 * **Title offline**: The Live Chat Widget title
 * **Title bar color offline**: Set title bar color for when offline.
 * **Email Address to Send Offline Messages**: Set the email address to which offline messages will be sent to.
-* **Offline Success Message**: message to show the visitor after successfully sending a message.
+* **Offline Success Message**: Set up the message you want to send to the visitor after successfully sending an offfline message.
 
 ## Live Chat Widget Registration Form
-
-Here you set up the fields you want to show on the registration form.
 
 * **Enabled**: Enables the registration form.
 * **Show name field**: Enable to show Name field.
@@ -37,5 +33,5 @@ Here you set up the fields you want to show on the registration form.
 
 ## Conversation Finished
 
-* **Conversation Finished Message**: Set up the message you want to send to the visitor when the conversation is finished.
-* **Conversation Finished Text**: Set up the message you want to display to the agent when the conversation is finished.
+* **Conversation Finished Message**: Set up the message tiltle you want to send to the visitor when the conversation is finished.
+* **Conversation Finished Text**: Set up the message text you want to display to the visitor when the conversation is finished.

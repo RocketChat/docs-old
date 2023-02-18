@@ -6,48 +6,24 @@ description: >-
 
 # Omnichannel
 
-The Rocket.Chat [Omnichannel](https://en.wikipedia.org/wiki/Omnichannel) capabilities give you the possibility to streamline conversations from various mediums into Rocket.Chat. This feature can be extended in several ways.
+Rocket.Chat **Omnichannel** allows you to integrate various customer communication channels into your workspace. You can incorporate the [Omnichannel Live Chat pop-up](livechat-widget-installation.md) widget into your website, serving as an entry point for communication or direct support to your customers or visitors.&#x20;
 
-* You can integrate the [Omnichannel Live Chat pop-up widget](livechat-widget-installation/) into your website, serving as an entry point for communication or direct support to your customers or visitors.
-* Using advanced [Omnichannel Apps](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/) and integrations provides for a seamless experience between Rocket.Chat and external users from other communication platforms like
-  * [WhatsApp](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/whatsapp/)
-  * [SMS](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/sms.md)
-  * [Facebook](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/facebook-app/)
-  * [Instagram Direct](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/instagram-direct/)
-  * [Twitter](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/twitter-app/)
-  * [Telegram](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/telegram-app/)
-  * [Email](broken-reference)
+You can also use advanced [Omnichannel Apps](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/), which provide a seamless communication experience between Rocket.Chat and external users from other communication platforms like [WhatsApp](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/whatsapp/), [SMS](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/sms.md), [Facebook](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/facebook-app/), [Instagram Direct](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/instagram-direct/), [Twitter](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/twitter-app/twitter-app-installation.md), [Telegram](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/telegram-app/), etc.&#x20;
 
-{% hint style="info" %}
-A very practical use case is using Omnichannel to **acquire** and **retain** customers in a multi-channel environment in order to save valuable potential sales while building relationships, providing an exceptional experience and the possibility to communicate and engage with multiple communication mediums.
-{% endhint %}
+Using Omnichannel helps **acquire** and **retain** customers in a multi-channel environment to save valuable potential sales while building relationships, providing an exceptional experience and the ability to interact through various communication channel
 
-## Omnichannel Activation
+Rocket.Chat Omnichannel has three primary users; [Admins](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel), [Managers](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel-manger-guides), and [Agents](https://docs.rocket.chat/guides/omnichannel/agents).
 
-### Enable Omnichannel
+## Enable OmniChannel&#x20;
 
-To enable the Omnichannel feature on your Rocket.Chat workspace, please get in touch with your administrator. If you are the admin:
+To enable the **Omnichannel** feature on your workspace,
 
-1. Go to **Administration > Workspace > Settings > Omnichannel**
-2. **Enable** Omnichannel&#x20;
-3. Hit **Save changes**
-
-Now the administrator and Rocket.chat Omnichannel Manager can access _**Omnichannel Panel Settings**_ through:
-
-**Administration > Omnichannel**
+* Go to **Administration > Workspace > Settings > Omnichannel**
+* Toggle on **Enable Omnichannel**
+* Click **Save Changes**
 
 {% hint style="info" %}
-[Find out how to configure Omnichannel on your Rocket.Chat workspace.](../rocket.chat-workspace-administration/settings/omnichannel-admins-guide/)
+Kindly contact your workspace administrator to enable Omnichannel. [Learn how to configure Omnichannel on your Rocket.Chat workspace.](../rocket.chat-workspace-administration/settings/omnichannel-admins-guide/)
 {% endhint %}
 
-Omnichannel area of Rocket.Chat has three primary users.
-
-1. [Admins](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel)
-2. [Managers](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel-manger-guides)
-3. [Agents](https://docs.rocket.chat/guides/omnichannel/agents)
-
-{% hint style="info" %}
-Only users with Administrator and Omnichannel Manager roles assigned to them can access this menu. If you have any role other assigned to your Rocket.Chat user, you won't be able to see this menu.&#x20;
-{% endhint %}
-
-Please use the navigation on the left to find the detail of each menu in their respective article.
+Now the administrator and Rocket.Chat Omnichannel Manager can access _**Omnichannel Settings**_ by navigating to **Administration > Omnichannel.** Only users with Administrator and Omnichannel Manager [roles ](../../setup-and-administer-rocket.chat/roles-in-rocket.chat/)assigned to them can access this menu.

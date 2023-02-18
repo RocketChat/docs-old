@@ -1,12 +1,12 @@
 # Real-time Monitoring
 
-Real-time monitoring allows you to monitor your incoming and ongoing Live Chat conversations in real time.
+Real-time monitoring allows you to monitor your incoming and ongoing Live Chat conversations in real-time.
 
-To access the Omnichannel Real-time monitoring dashboard, go to **Administration > Omnichannel > Real-time Monitoring**.
+To access the Omnichannel Real-time monitoring dashboard, Go to **Administration > Omnichannel > Real-time Monitoring**.
 
-These monitoring metrics can be filtered as per the **department** and set to be updated in a specified amount of time by changing the **Update every** field.
+These monitoring metrics can be filtered by the **department** and set to be updated in a specified amount of time by changing the **Update every** field.
 
-When a [Live Chat](livechat-widget-installation/) conversation is initiated, it immediately gets reflected on the monitoring dashboard in real time.
+When a [Live Chat](livechat-widget-installation.md) conversation is initiated, it is reflected immediately on the monitoring dashboard in real-time.
 
 ## Monitoring Conversations Metrics
 
@@ -21,7 +21,7 @@ This section shows matrices about all Live Chat conversations.
 ## Monitoring Chat Metrics
 
 * **Total Abandoned Chats:** It represents the total number of conversations abandoned by the visitor for your selected department's current day.
-* **Average of Abandoned Chats:** Shows in percentage the number of chats that are abandoned.
+* **Average of Abandoned Chats:** Shows in percentage the number of abandoned chats.
 * **Average of Chat Duration Time:** It represents the average duration of all the conversations of your selected department for the current day.
 
 ## Monitoring Live Chat Metrics by Time

@@ -47,10 +47,10 @@ The main rules for assigning roles in federated rooms are:
 
 For any applicable another rule, they are the same as regular Rocket.Chat rooms, (e.g Room owners cannot demote themselves if they are the last owner of the room).
 
-<figure><img src="../../../../../../.gitbook/assets/image (7).png" alt=""><figcaption><p><em>Room owner possibilities for any other default user.</em></p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (7) (2).png" alt=""><figcaption><p><em>Room owner possibilities for any other default user.</em></p></figcaption></figure>
 
 <figure><img src="../../../../../../.gitbook/assets/image (24).png" alt=""><figcaption><p><em>Room owner trying to demote (remove as an owner, switching to moderator) himself/herself confirmatio modal.</em></p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (11).png" alt=""><figcaption><p><em>User trying to assign the same role as himself/herself confirmation modal.</em></p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p><em>User trying to assign the same role as himself/herself confirmation modal.</em></p></figcaption></figure>
 
 <figure><img src="../../../../../../.gitbook/assets/image (15).png" alt=""><figcaption><p><em>View of a regular user (with no permissions to assign roles, invite users, etc)</em></p></figcaption></figure>

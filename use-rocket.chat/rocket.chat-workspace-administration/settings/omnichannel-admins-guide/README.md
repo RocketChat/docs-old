@@ -4,7 +4,7 @@ description: Enable and configure Omnichannel
 
 # Omnichannel Admin's Guide
 
-Configure how [Omnichannel](../../../omnichannel/) can be used to streamline conversations from various mediums into Rocket.Chat. Omnichannel adds the ability to set up and receive conversations from pop-up [Live Chat widgets](../../../omnichannel/livechat-widget-installation/) on your website or from your business Facebook.
+Configure how [Omnichannel](../../../omnichannel/) can be used to streamline conversations from various mediums into Rocket.Chat. Omnichannel adds the ability to set up and receive conversations from pop-up [Live Chat widgets](../../../omnichannel/livechat-widget-installation.md) on your website or from your business Facebook.
 
 Enabling and using Rocket.Chat Omnichannel gives seamless, effortless, and high-quality customer experiences all within a defined channel on your Rocket.Chat workspace.
 
@@ -81,7 +81,7 @@ Manage Omnichannel Live Chat settings.
 * **Send Livechat offline messages to a channel**: Whether to send Live Chat offline message to a channel.
 * **Channel Name**: The channel to which Live Chat offline messages should be sent to.
 
-See how to [install the Live Chat widget](../../../omnichannel/livechat-widget-installation/) and manage the [Live Chat appearance](../../../omnichannel/livechat-widget-appearance.md) on this [Omnichannel guide](../../../omnichannel/).
+See how to [install the Live Chat widget](../../../omnichannel/livechat-widget-installation.md) and manage the [Live Chat appearance](../../../omnichannel/livechat-widget-appearance.md) on this [Omnichannel guide](../../../omnichannel/).
 
 ## Business Hour
 
