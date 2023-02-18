@@ -348,7 +348,7 @@
       * [Manager create canned response from within chatroom](use-rocket.chat/omnichannel/canned-responses/canned-responses-omnichannel-managers-guide/manager-create-canned-response-from-within-chatroom.md)
   * [Tags Manager's Guide](use-rocket.chat/omnichannel/tags-managers-guide.md)
   * [Priorities Manager's Guide](use-rocket.chat/omnichannel/priorities-managers-guide.md)
-* [Message Auditing Panel](use-rocket.chat/message-auditing/README.md)
+* [Message Auditing](use-rocket.chat/message-auditing/README.md)
   * [Review All Message Auditing Panel Search Results](use-rocket.chat/message-auditing/review-all-message-auditing-panelsearch-results.md)
   * [Check Historical Edits and Deletions of Messages](use-rocket.chat/message-auditing/check-historical-edits-and-deletions-of-messages.md)
   * [Assign Message Auditing Permissions to Specific Users](use-rocket.chat/message-auditing/assign-message-auditing-permissions-to-specific-users.md)
