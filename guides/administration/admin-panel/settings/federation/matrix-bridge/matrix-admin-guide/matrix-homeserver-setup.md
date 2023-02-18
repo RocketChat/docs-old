@@ -15,7 +15,7 @@
 
 There is an important setting you must be aware of before proceeding with the installation.&#x20;
 
-Having the setting to enable ephemeral events (users' typing indicator) enabled can impact the performance of either your Matrix homeserver and Rocket.Chat as well.
+Having the setting to enable ephemeral events (users' typing indicator) enabled can impact the performance of your Matrix Homeserver and Rocket.Chat as well.
 
 Please be careful about enabling this.
 
@@ -25,7 +25,7 @@ To enable it in your Application Service configuration file, add the following p
 de.sorunome.msc2409.push_ephemeral: true
 ```
 
-Also, there are other 2 settings that enable the search for public rooms in your Matrix homeserver, they must be explicitly set to true to allow the search, otherwise, it will be disabled by default. In case you have disabled these settings keep in mind that people from outside will not be able to search for public rooms within your server (through the Matrix network), which means the Search for Federated Public Rooms feature will be impacted.
+To enable the search for public rooms on your Matrix Homeserver, there are two additional settings that need to be turned on. If you leave these settings disabled, people from outside won't be able to search for public rooms on your server using the Matrix network, which affects the Search for Federated Public Rooms feature. So, it's important to enable these settings if you want your public rooms to be searchable by others on the network.
 
 ```yaml
 allow_public_rooms_without_auth: true
@@ -42,7 +42,7 @@ cd data/matrix/synapse
 ## Automated Installation (recommended)
 
 This is the most automated installation guide since you still have to do some things manually.\
-To start this automated installation you need to have:
+To start this automated installation you are required to have:
 
 * [Docker](https://www.docker.com/)
 * [Docker compose](https://docs.docker.com/compose/) (> 2.3.3)
@@ -55,12 +55,12 @@ Steps:
 bash <(curl -L -s https://go.rocket.chat/i/federation-setup)
 ```
 
-The script will create a docker-compose and a .env file with everything to set up the environment. You can edit those files as needed.
+The script will create a `docker-compose` and a `.env` file with everything to set up the environment. You can edit those files as needed.
 
-* Follow the script instructions:
+* Follow the script instructions to:
   * Add your domain when asked.
-  * Point all the generated DNS records by the script to your server's IP address (all to the same IP).
-* Start the containers:
+  * Create `A` domain records to point to your server's IP address (all to the same IP).
+* Start the containers by running:
 
 ```bash
 docker compose up -d
@@ -75,7 +75,7 @@ docker compose up -d
 * Setup [Element ](https://github.com/vector-im/element-web)(Optional).
 * Configure [Nginx](https://docs.rocket.chat/quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose/docker-containers#5.-installing-nginx-and-ssl-certificate) using the certificates, reverse proxying the requests to Synapse.
 * Point all the generated DNS records to your server's IP address (all to the same IP).
-* [Configure ](https://matrix-org.github.io/synapse/latest/application\_services.html)the support for [Application Service](https://matrix.org/docs/guides/application-services) on the Matrix homeserver. (You can find the AS .yaml configuration file in your Rocket.Chat admin panel under _**Administration => Manage workspace => Settings => Federation => Matrix Bridge**_). **Important:** make sure the URL property in the AS file is pointing to your Rocket.Chat Bridge address. You can also create a folder (`app/matrix-federation-config`) inside the build version of Rocket.Chat and create a file `registration.yaml` using the registration file you got from the Rocket.Chat admin panel.
+* [Configure ](https://matrix-org.github.io/synapse/latest/application\_services.html)the support for [Application Service](https://matrix.org/docs/guides/application-services) on the Matrix Homeserver. \`(You can find the AS .yaml configuration file in your Rocket.Chat admin panel under _**Administration => Manage workspace => Settings => Federation => Matrix Bridge**_). **Important:** make sure the URL property in the AS file is pointing to your Rocket.Chat Bridge address. You can also create a folder (`app/matrix-federation-config`) inside the build version of Rocket.Chat and create a file `registration.yaml` using the registration file you got from the Rocket.Chat admin panel.
 
 <figure><img src="../../../../../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>AS Registration file</p></figcaption></figure>
 
@@ -94,5 +94,5 @@ _**Or**_
 Test it manually:
 
 * Make sure Synapse is up and running.
-* Make sure the federation setup is running, go to [Matrix Federation Tester](https://federationtester.matrix.org/) and paste your Matrix homeserver name (only the server name, not the full link).
+* Make sure the federation setup is running, go to [Matrix Federation Tester](https://federationtester.matrix.org/), and paste your Matrix Homeserver name (only the server name, not the full link).
 

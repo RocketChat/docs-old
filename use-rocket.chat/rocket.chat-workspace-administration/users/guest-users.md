@@ -6,7 +6,7 @@ description: >-
 
 # Guest users
 
-<figure><img src="../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Guest is a role that is available only on the Enterprise edition, and it's not possible to change the permissions for this role.
@@ -48,7 +48,7 @@ Go to **Administration > Workspace > Permissions.** You will notice that the per
 You must be an administrator to add a guest to Rocket.Chat workspace.
 {% endhint %}
 
-* Go to **Administration > Workspace > Users > New**&#x20;
+* Go to **Administration > Workspace > Users > New**
 * On the **Add User** page\*\*,\*\* enter the guest users' information:
   * **Name:** Enter the name of the guest user.
   * **Username:** Enter the guest users's username.

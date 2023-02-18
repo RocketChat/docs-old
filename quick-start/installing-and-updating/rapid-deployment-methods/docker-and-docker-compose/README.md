@@ -14,6 +14,13 @@ Deploying Rocket.Chat with Docker and Docker Compose is as easy as it can get.
 curl -L https://get.docker.com | sh
 ```
 
+* Add the current user to the docker group and reboot in order to run docker without using `sudo` by executing:
+
+```bash
+sudo usermod -aG docker $USER
+sudo reboot
+```
+
 ### Fetching Compose file
 
 * Navigate to any directory of your choice and create a `docker-compose.yml` based on [our example](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml). OR you can download it directly by executing the following command on your terminal.
@@ -34,7 +41,7 @@ Environment variables are set using a `.env` file. See the example [here](https:
 </code></pre>
 
 * Set the `RELEASE` variable in the `.env`to your desired Rocket.Chat version. See [releases here](https://github.com/RocketChat/Rocket.Chat/releases).\
-  Keeping the default `latest` is **not recommended** (More at [Docker Images Available](docker-containers/available-images.md) )
+  Keeping the default `latest` is **not recommended** (More at [Docker Images Available](../../../../deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/available-images.md) )
 * Edit `ROOT_URL` from the default `http://localhost:3000` to match your domain name or IP address as you wish
 *   If you have a registration token to register the workspace automatically you can provide it with:
 
@@ -60,8 +67,8 @@ Optionally, if you want to manage your messages and configuration information, e
 
 To update the `rocketchat` docker image to the latest version, update the `RELEASE` value in your `.env` file, then simply run `docker compose up -d`. Your data should not be affected by this, since it's located in the `mongo` image.
 
-{% content-ref url="../../../updating-rocket.chat.md" %}
-[updating-rocket.chat.md](../../../updating-rocket.chat.md)
+{% content-ref url="../../../../deploy-rocket.chat/updating-rocket.chat.md" %}
+[updating-rocket.chat.md](../../../../deploy-rocket.chat/updating-rocket.chat.md)
 {% endcontent-ref %}
 
 [^1]: 

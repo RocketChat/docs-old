@@ -2,13 +2,13 @@
 
 ## Invite external users' syntax
 
-Whenever you want to invite someone from an external server, you must use the following:
+Whenever you want to invite someone from an external server, use the following syntax to identify them
 
 ```
 @username:server.com
 ```
 
-<figure><img src="../../../../../../../.gitbook/assets/Screenshot 2022-12-07 124356.png" alt=""><figcaption><p>Invite external users syntax</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2022-12-07 124356.png" alt=""><figcaption><p>Invite external users syntax</p></figcaption></figure>
 
 Which is represented by the following parts:
 
