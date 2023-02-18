@@ -28,7 +28,7 @@ To create a federated channel,
 
 Whenever your user is invited to participate in a federated room, if that room was created in an external server, you will be able to see from which server (server name) the room is originally from. This helps the user to differentiate when there are multiple rooms with the same name, but all from different servers.
 
-<figure><img src="../../../../../../.gitbook/assets/image (28).png" alt=""><figcaption><p><em>Badge indicating from where the room is coming from (server name)</em></p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p><em>Badge indicating from where the room is coming from (server name)</em></p></figcaption></figure>
 
 ## Creating a Direct Message 1:1 (Enterprise edition only)
 
