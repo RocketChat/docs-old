@@ -1,6 +1,6 @@
 # Matrix Bridge Configuration
 
-**Important**: This is only necessary if you made the manual installation, otherwise this is already done by the [setup script](../../../../../../guides/administration/admin-panel/settings/federation/matrix-bridge/matrix-admin-guide/matrix-homeserver-setup.md#automated-installation-recommended).
+**Important**: This is only necessary if you made the manual installation, otherwise this is already done by the [setup script](matrix-homeserver-setup/#automated-installation-recommended).
 
 To access this setting, go to: _**Administration** > **Workspace** > **Settings** > **Federation > Matrix Bridge.**_
 
@@ -22,7 +22,7 @@ The following is a brief explanation of each Matrix Bridge configuration option:
 {% endhint %}
 
 * **AppService User Localpart** (`Federation_Matrix_bridge_localpart`)**:** The bot user associated with the application service (Sometimes it's being used to execute some actions).
-* **Registration** (`Federation_Matrix_registration_file`):  Automatically generated and updated by Rocket.Chat based on all the values provided in the above settings (This file is used [to configure the Application Service](../../../../../../guides/administration/admin-panel/settings/federation/matrix-bridge/matrix-admin-guide/matrix-homeserver-setup.md#manual-installation)).
+* **Registration** (`Federation_Matrix_registration_file`):  Automatically generated and updated by Rocket.Chat based on all the values provided in the above settings (This file is used [to configure the Application Service](matrix-homeserver-setup/#manual-installation)).
 * Click **Save Changes**.
 * Paste the registration file in your Application Service into your Matrix homeserver [to enable the bridging process](https://matrix-org.github.io/synapse/latest/application\_services.html) **OR**  create a folder (`app/matrix-federation-config`) inside the build version of Rocket.Chat and create a file `registration.yaml` using the registration file you got from the Rocket.Chat admin panel.
 * Restart Matrix homeserver.

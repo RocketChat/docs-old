@@ -35,7 +35,7 @@ In case of security-relevant bugs, we might decide to backport patches to older 
 
 | Rocket.Chat Release | Latest Version                                                          |  Released At |  End of Life |
 | ------------------- | ----------------------------------------------------------------------- | -----------: | -----------: |
-| 5.4                 | 5.4.1                                                                   |     Dec 2022 |     Mar 2023 |
+| 5.4                 | 5.4.3                                                                   |     Feb 2023 |     May 2023 |
 | 5.3                 | 5.3.5                                                                   |     Nov 2022 |     Feb 2023 |
 | 5.2                 | 5.2.1                                                                   |     Oct 2022 |     Jan 2023 |
 | 5.1                 | 5.1.4                                                                   |     Sep 2022 |    Dec 2022  |
