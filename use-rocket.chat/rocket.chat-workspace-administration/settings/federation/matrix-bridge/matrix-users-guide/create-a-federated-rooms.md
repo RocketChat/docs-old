@@ -17,7 +17,7 @@ Start [creating a 1:1 Direct Message](../../../../../user-guides/rooms/direct-me
 
 ## Creating a Multi-user Direct Message (Enterprise edition only)
 
-Start [creating a Multi-user Direct Message](../../../../../user-guides/rooms/direct-messages/direct-messages-between-multiple-users.md), and make sure you are following the [syntax to invite external users](invite-external-users-to-your-rocket.chat-server.md#invite-external-users-syntax).
+Start [creating a Multi-user Direct Message](broken-reference), and make sure you are following the [syntax to invite external users](invite-external-users-to-your-rocket.chat-server.md#invite-external-users-syntax).
 
 ## Slash commands
 
