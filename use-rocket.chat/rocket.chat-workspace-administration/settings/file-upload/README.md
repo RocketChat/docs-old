@@ -16,7 +16,7 @@ Remember always to hit **Save Changes** to apply any changes made.
 
 * **File Uploads Enabled**: Use this setting to enable or restrict file uploads on your workspace
 * **Maximum File Upload Size (in bytes)**: Use this setting to define the maximum allowed file size for uploads. `Set it to -1 to remove the file size limitation.`
-*   **Accepted Media Types**: Use this setting to define what types of files the users can upload.
+*   **Accepted Media Types**: Use this setting to define the files the users can upload.
 
     > Comma-separated list of media types. Leave it blank for accepting all media types.
 *   **Blocked Media Types**: Define what types of files are blocked on the workspace.
@@ -40,7 +40,7 @@ Remember always to hit **Save Changes** to apply any changes made.
 You can find a more detailed guide on how to set up your Amazon S3 server [here](broken-reference).
 
 * **Bucket name**: The bucket name you've created on Amazon S3
-* **Acl**(Optional): A _Canned ACL_ configuration (see a full list [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl))
+* **Acl**(Optional): A _Canned ACL_ configuration (see a complete list [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl))
 * **Access Key**: Your Amazon Access Key ID (optional)
 *   **Secret Key**: Your Amazon Secret Access Key (optional)
 
@@ -118,9 +118,9 @@ JSON format (if using the new AWS console Interface):
 
 ## Google Cloud Storage
 
-The settings used when configuring a Google Cloud Storage server. You can find more details [here](broken-reference)
+The settings used when configuring a Google Cloud Storage server. You can find more details [here](broken-reference).
 
-* **Google Storage Bucket Name**: The name of the bucket to which the files should be uploaded.
+* **Google Storage Bucket Name**: The bucket name to which the files should be uploaded.
 *   **Google Storage Access Id**: The access ID (or username) of the service account which has access to your Cloud Storage bucket.
 
     > The Access Id is generally in an email format, for example: "example-test@example.iam.gserviceaccount.com"
@@ -162,4 +162,4 @@ The settings used for WebDAV as storage server.
 * **WebDAV Username**: Username for the remote WebDav server.
 * **WebDAV Password**: Password for the remote WebDAV server.
 * **Proxy Avatars**: Proxy avatar file transmissions through your server instead of direct access to the asset's URL.
-* **Proxy Uploads**: Proxy uploads file transmissions through your server instead of direct access to the asset's URL.
+* **Proxy Uploads**: Proxy uploads file transmissions through your server instead of directly accessing the asset's URL.
