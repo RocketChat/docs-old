@@ -33,7 +33,7 @@ You can browse Rocket.Chat apps either on our [marketplace](https://rocket.chat/
 
 * you can see all the apps available on Rocket.Chat
 * Filters under **Categories** help you find apps based on your needs. You can choose between multiple categories within the filter to help you find the best app for your workspace users.
-* <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line"> tag next to an app on the marketplace means you need to upgrade to a higher version in order to use this app.
+* <img src="../../.gitbook/assets/image.png" alt="" data-size="line"> tag next to an app on the marketplace means you need to upgrade to a higher version in order to use this app.
 
 **On the Apps screen, under **_**Installed**_**,**
 
