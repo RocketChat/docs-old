@@ -23,7 +23,7 @@ For rooms created using [Element](https://app.element.io/#/welcome) as a Matrix 
 
 {% endhint %}
 
-<figure><img src="../../../../../../.gitbook/assets/image (37) (1).png" alt=""><figcaption><p><em>Change permissions room setting when the room was created using Element as a client</em></p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (37) (1) (1).png" alt=""><figcaption><p><em>Change permissions room setting when the room was created using Element as a client</em></p></figcaption></figure>
 
 {% hint style="danger" %}
 As you can see in the screenshot above, when rooms are created using Element, there is a myriad of room permissions possibilities, they have really granular options to define roles required to deal with each specific event. Keep in mind if you change the permissions for events to a specific one, this might lead to unexpected behavior (in Rocket.Chat side) if your peers are using Rocket.Chat as a Matrix client.
@@ -53,4 +53,4 @@ For any applicable another rule, they are the same as regular Rocket.Chat rooms,
 
 <figure><img src="../../../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p><em>User trying to assign the same role as himself/herself confirmation modal.</em></p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (15).png" alt=""><figcaption><p><em>View of a regular user (with no permissions to assign roles, invite users, etc)</em></p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p><em>View of a regular user (with no permissions to assign roles, invite users, etc)</em></p></figcaption></figure>
