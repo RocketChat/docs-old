@@ -23,8 +23,8 @@ As a fully air-gapped user, you will have to manually install the apps you need 
 
 You have the option to:
 
-1. [Request for an existing Rocket.Chat App](air-gapped-app-installation.md#1.-requesting-for-a-rocket.chat-app) (if you are an Enterprise customer)
-2. [Build an App by yourself](air-gapped-app-installation.md#2.-building-a-rocket.chat-app) (for Community)
+1. [Request for an existing Rocket.Chat App](manual-app-installation.md#1.-requesting-for-a-rocket.chat-app) (if you are an Enterprise customer)
+2. [Build an App by yourself](manual-app-installation.md#2.-building-a-rocket.chat-app) (for Community)
 
 ### 1. Requesting for a Rocket.Chat App
 

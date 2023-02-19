@@ -4,7 +4,11 @@ description: Atlassian Bitbucket Server Integration
 
 # Bitbucket Server
 
-Here you will find how to install and use the Bitbucket Server Integration.
+Learn to install and use the Bitbucket Server Integration below.
+
+{% hint style="success" %}
+This app can also work in a fully air-gapped environment. If you are an Enterprise customer running an air-gapped workspace, follow the [manual-app-installation.md](../../../../setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/manual-app-installation.md "mention") guide and then follow the configuration instructions below.
+{% endhint %}
 
 ## Installation
 

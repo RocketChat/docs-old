@@ -6,17 +6,21 @@ description: Enterprise only feature
 
 ![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (26).jpg>)
 
+{% hint style="success" %}
+This app can also work in a fully air-gapped environment. If you are an Enterprise customer running an air-gapped workspace, follow the [manual-app-installation.md](../../../setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/manual-app-installation.md "mention") guide and then follow the configuration instructions below.
+{% endhint %}
+
 ## Introduction
 
 [Pexip](https://www.pexip.com/) is a purpose-built video communication platform that empowers large organizations to transform their operations with video conferencing. Pexip’s unique technology provides a customized solution for an innovative and fully bespoke application of video, data privacy, and business continuity for secure spaces and frictionless collaboration for connected spaces.
 
-The integration between Rocket.Chat and Pexip as video conferencing communication platform enable secure and compliant communication that is ideal for organizations operating within strict regulatory requirements relating to internal and external communications such as government, financial services, healthcare, and others.
+The integration between Rocket.Chat and Pexip, as video conferencing communication platform, enable secure and compliant communication that is ideal for organizations operating within strict regulatory requirements relating to internal and external communications, such as government, financial services, healthcare, and others.
 
 ## Architecture&#x20;
 
 This integration is made possible by connecting Rocket.Chat with Pexip infinity through its external policy API. The Rocket.Chat Pexip App acts as a relay between the two platforms.
 
-Pexip video meetings created by Rocket.Chat users with the help of the Pexip app initiate a video call to a Pexip Conferencing Node and triggers an external policy request to Pexip. The policy server creates a single-use Virtual Meeting Room (_VMR_) and responds with the meeting parameters.\
+Pexip video meetings created by Rocket.Chat users, with the help of the Pexip app initiate a video call to a Pexip Conferencing Node and triggers an external policy request to Pexip. The policy server creates a single-use Virtual Meeting Room (_VMR_) and responds with the meeting parameters.\
 This VMR is made available in the Rocket.Chat room for its duration.
 
 {% hint style="info" %}

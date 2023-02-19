@@ -10,6 +10,10 @@ Through the collaboration arrangement with Jitsi, Rocket.Chat users can enjoy re
 **A Jitsi server is required for this integration.**
 {% endhint %}
 
+{% hint style="success" %}
+This app can also work in a fully air-gapped environment. If you are an Enterprise customer running an air-gapped workspace, follow the [manual-app-installation.md](../../../setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/manual-app-installation.md "mention") guide and then follow the configuration instructions below.
+{% endhint %}
+
 To start using Jitsi video conferencing on your Rocket.Chat Instance:
 
 ## 1. Download the Jitsi app

@@ -122,7 +122,7 @@
   * [Offline Workspace Registration](setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/offline-workspace-registration.md)
   * [Offline License](setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/offline-license.md)
   * [Air-gapped workspace Configuration](setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/air-gapped-workspace-configuration.md)
-  * [Air-gapped App Installation](setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-app-installation.md)
+  * [Air-gapped App Installation](setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/manual-app-installation.md)
 * [Roles in Rocket.Chat](setup-and-administer-rocket.chat/roles-in-rocket.chat/README.md)
   * [Marketplace Roles](setup-and-administer-rocket.chat/roles-in-rocket.chat/marketplace-roles.md)
 
@@ -477,7 +477,7 @@
       * [Jira Server](extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/atlassian/jira-server-integration.md)
     * [Trello](extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/trello.md)
     * [Zoom](extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/zoom.md)
-    * [Data Loss Prevention (DLP) App Admin Guide](extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/data-loss-prevention-dlp-app.md)
+    * [Data Loss Prevention (DLP) App](extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/data-loss-prevention-dlp-app.md)
     * [Poll](extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/poll.md)
     * [Poll Plus](extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/poll-plus/README.md)
       * [Quickstart](extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/poll-plus/quickstart.md)

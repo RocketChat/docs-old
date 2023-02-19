@@ -4,13 +4,17 @@ description: Atlassian Jira Server Integration
 
 # Jira Server
 
+{% hint style="success" %}
+This app can also work in a fully air-gapped environment. If you are an Enterprise customer running an air-gapped workspace, follow the [manual-app-installation.md](../../../../setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/manual-app-installation.md "mention") guide and then follow the configuration instructions below.
+{% endhint %}
+
 Here you will find how to install and use the Jira Server Integration.
 
 ## Installation
 
 You can install our Jira Server Integration Rocket.Chat App from your Rocket.Chat Administration area.
 
-* Go to **Administration &gt; Marketplace**
+* Go to **Administration > Marketplace**
 * Search for the **Jira Server Integration** and click on the item
 * Click on the **Install** button
 * Click on **Activate**
@@ -34,4 +38,3 @@ In order to enable notifications, you have to connect a channel or private group
 To connect a channel or private group, execute the slashcommand `/jira-server connect`. You will receive an ephemeral message containing the list of projects in your Jira that are available for you to connect to. Now for every project you want to connect, you can run the slashcommand `/jira-server connect PROJECT_KEY`.
 
 A channel or private group can be connected to as many Jira Projects as you want; similarly, a Jira Project can be connected to as many channels or private groups as you want;
-

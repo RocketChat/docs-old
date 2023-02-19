@@ -4,6 +4,10 @@ description: How to install and configure your Jira Server integration with Rock
 
 # Jira Server v2.0
 
+{% hint style="success" %}
+This app can also work in a fully air-gapped environment. If you are an Enterprise customer running an air-gapped workspace, follow the [manual-app-installation.md](../../../../setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/manual-app-installation.md "mention") guide and then follow the configuration instructions below.
+{% endhint %}
+
 ## Features
 
 This app lets you connect your channels or private groups to different projects from different Jira Servers.
