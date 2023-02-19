@@ -122,7 +122,7 @@
   * [Offline Workspace Registration](setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/offline-workspace-registration.md)
   * [Offline License](setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/offline-license.md)
   * [Air-gapped workspace Configuration](setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/air-gapped-workspace-configuration.md)
-  * [Manual App Installation](setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/manual-app-installation.md)
+  * [Air-gapped App Installation](setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-app-installation.md)
 * [Roles in Rocket.Chat](setup-and-administer-rocket.chat/roles-in-rocket.chat/README.md)
   * [Marketplace Roles](setup-and-administer-rocket.chat/roles-in-rocket.chat/marketplace-roles.md)
 
