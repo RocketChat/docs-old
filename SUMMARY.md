@@ -185,7 +185,6 @@
   * [Connectivity Services](use-rocket.chat/rocket.chat-workspace-administration/connectivity-services.md)
   * [View Logs](use-rocket.chat/rocket.chat-workspace-administration/view-logs.md)
   * [Federation Dashboard](use-rocket.chat/rocket.chat-workspace-administration/federation-dashboard.md)
-  * [Apps](use-rocket.chat/rocket.chat-workspace-administration/apps.md)
   * [Email Inboxes](use-rocket.chat/rocket.chat-workspace-administration/email-inboxes.md)
   * [Custom Emoji](use-rocket.chat/rocket.chat-workspace-administration/custom-emoji.md)
   * [Integrations](use-rocket.chat/rocket.chat-workspace-administration/integrations/README.md)
