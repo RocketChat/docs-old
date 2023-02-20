@@ -1,17 +1,19 @@
 # Create a New Thread
 
-Threads can be created as series of replies, follow up conversations under any message in a [Team](../../../../guides/user-guides/rooms/teams/), [Channels](../channels/), [Discussion](../discussions/) or [Direct Message](../direct-messages/)
-
-The threading feature exists as an option that can be utilized on any message.t
-
 To create a thread,
 
-* Click **options** by the right of an existing message in the room and select **Reply in Threads**
+* Hover over the message you'd like to reply to.
+* Click the <img src="../../../../.gitbook/assets/three-dot-icon.png" alt="" data-size="line">**three dots icon.**&#x20;
+* Select **Reply in thread**.
+* Type your reply. Check the **Also send to channel** box below your message if you want to send your response back to the channel.
+* Click **Send**.
 
-**OR**
+{% hint style="info" %}
+You can also click the <img src="../../../../.gitbook/assets/thread-icon.png" alt="" data-size="line">**thread icon** to create a thread when you hover over a message.
+{% endhint %}
 
-* Click on the **thread icon** by the top right of the message you wish to create the thread on.
+## Close Threads
 
-![](<../../../../.gitbook/assets/image (682) (1) (1) (1) (1).png>)
+To close a thread,&#x20;
 
-![](<../../../../.gitbook/assets/image (637) (1) (1) (1).png>)
+* Click the **** ![](../../../../.gitbook/assets/thread-close-icon.png)**close icon** on the thread header.

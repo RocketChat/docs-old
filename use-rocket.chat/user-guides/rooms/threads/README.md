@@ -1,13 +1,27 @@
 # Threads
 
-Threads are a key part of the messaging experience in Rocket.Chat [rooms](../) and [direct messages](../direct-messages/). They’re used to organize conversations and enable users to discuss topics without adding noise to rooms or direct messages.
+**Threads** help to organize conversations and enable users to discuss topics without disorganizing a [room](../). They improve the ability to process room content, find, follow, and resume conversations more efficiently, keeping threaded discussions focused. Threads are a series of replies or follow-up conversations under any message in a [Team](../../../../guides/user-guides/rooms/teams/), [Channels](../channels/), [Discussion](../../../rocket.chat-workspace-administration/settings/discussion.md), or [Direct Message](../../../rocket.chat-workspace-administration/settings/discussion.md). They are identified by: <img src="../../../../.gitbook/assets/thread-icon.png" alt="" data-size="line">
 
-Collapsed Reply Threads offer an improved experience for users communicating in threads and replying to messages that include a unified threads inbox to read all conversations in one view. Threads improve the ability to process room content, find, follow, and resume conversations more easily, and keep threaded conversations focused.
+## View Threads in a Room
 
-Threads are identified following the symbol
+To view the list of all threads in a room, click the **thread icon** in that room header.
 
-![](<../../../../.gitbook/assets/image (640) (1) (1) (1).png>)
+## Expand and Follow a Thread
 
-{% hint style="success" %}
-They are used in any room type.
-{% endhint %}
+Since threads appear by the side of any room it was created in, you can expand the thread to occupy much space.
+
+To **expand** a thread,&#x20;
+
+* Click on the <img src="../../../../.gitbook/assets/thread-expand-icon.png" alt="" data-size="line">**expand icon** on the thread header.&#x20;
+
+To **collapse** a thread,
+
+* Click the <img src="../../../../.gitbook/assets/thread-collapse-icon.png" alt="" data-size="line">**collapse icon** on the thread header.&#x20;
+
+## Following a Thread
+
+You can follow and unfollow threads to get notifications on any messages sent under that thread. By default, you automatically follow any thread you belong to.
+
+To **follow** or **unfollow** a thread,&#x20;
+
+* Click on the <img src="../../../../.gitbook/assets/bell-icon.png" alt="" data-size="line">**bell icon** on the thread header.
