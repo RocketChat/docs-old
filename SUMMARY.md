@@ -1,8 +1,6 @@
 # Table of contents
 
-## About Rocket.Chat
-
-* [Rocket.Chat Overview](README.md)
+* [Rocket.Chat](README.md)
 
 ## Deploy
 
