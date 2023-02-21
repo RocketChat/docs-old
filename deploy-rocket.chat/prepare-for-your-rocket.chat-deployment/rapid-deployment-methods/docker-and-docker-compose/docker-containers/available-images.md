@@ -9,7 +9,7 @@ Discovering existing releases: You can select the release you need from our [Git
 The [Official Docker Images Repository](https://docs.docker.com/docker-hub/official\_images/) is where Rocket.Chat's Official, stable image is maintained and controlled by Docker, and reviewed by the Docker committee.
 
 ```bash
-docker pull rocket.chat
+docker pull registry.rocket.chat/rocketchat/rocket.chat
 ```
 
 ## Latest Release Image
