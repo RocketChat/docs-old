@@ -4,9 +4,9 @@ official: true
 enterprise: true
 ---
 
-# Message Auditing Panel
+# Message Auditing
 
-This guide is for authorized users to:
+Rocket.Chat allows authorized users to audit messages in a workspace. The auditor does not have to be a participant in the room to be able to read the messages. An authorized user with audit permission can do the following:&#x20;
 
 * Review messages in private rooms.
 * Review messages by users.
@@ -14,51 +14,53 @@ This guide is for authorized users to:
 * Review omnichannel messages.
 * Check the audit history of individuals using the Message Auditing Panel.
 
+To access the Message Auditing Panel,&#x20;
+
+* Navigate to **Administration** > **Audit** > **Messages,**
+
 {% hint style="info" %}
-Note that the auditor does not have to be a participant in the room to be able to read the messages.
+If you cant find the audit options, don't hesitate to get in touch with your workspace administrator to [assign message auditing permmisions to you](assign-message-auditing-permissions-to-specific-users.md).&#x20;
+
+See [**Messaging Auditing  Log**](./) to learn more about the auditing log history.
 {% endhint %}
-
-To access the Message Auditing Panel, navigate to **Administration** > **Audit** > **Messages,**
-
-and **Administration** > **Audit** > **Log** for [message auditing log history](../message-auditing-log.md)**.**
 
 ## Search and Review Messages
 
+You can sort messages with various filters in your workspace.
+
 ### By Channel/Room
 
-To search for a specific message in a specific channel:
+To search for a specific message in a room,
 
-* type the text from the message that you can remember in the **Message** field, or if you wish to pull all messages, leave the **Message** field empty
-* use the date pickers to select the start and end dates as the period on which the search will be done, the picker on the left being the start date and that on the right being the end date. You can also use the context menu (pop-up) on the far right to select a desired time period
-* select the name of the channel in the autocomplete dropdown field **Channel**
-* hit **Apply** to reveal the messages gotten between the periods.
-* If required, you can select **Export PDF** to export the search in PDF format.
+* Update the **Message** field with the key phrase of the message you are searching .lf you wish to pull all messages, leave the **Message** field empty.
+* Select the **start** and **end date** to limit the search results to a specific time frame. The ![](../../.gitbook/assets/three-dot-icon.png)**three-dots icon** also provides other time options like **Today**, **Last Week,** etc.
+* Select the room you want to search in from the **Channel** dropdown**.**&#x20;
+* Click **Apply** to reveal the messages gotten between the periods.
 
 ### By Users
 
-To search for a specific message by specific users:
+To search for a specific message by users,
 
-* type the text from the message that you can remember in the **Message** field, or if you wish to pull all messages, leave the **Message** field empty
-* use the date pickers to select the start and end dates as the period on which the search will be done, the picker on the left being the start date and that on the right being the end date. You can also use the context menu (pop-up) on the far right to select a desired time period
-* enter the name of the user in the autocomplete dropdown field **Channel**
-* hit **Apply** to reveal the messages gotten between the periods. The conversations pops up.
-* If required, you can select **Export PDF** to export the search in PDF format.
+* Update the **Message** field with the key phrase of the message you are searching .lf you wish to pull all messages, leave the **Message** field empty.
+* Select the **start** and **end date** to limit the search results to a specific time frame. The ![](../../.gitbook/assets/three-dot-icon.png)**three-dots icon** also provides other time options like **Today**, **Last Week,** etc.
+* Type the username and select the user(s) for which you want to search messages in the **Users** field.
+* Click **Apply**. The selected users' conversations between those periods that match the search phrase are displayed.
 
 ### By Direct Messages
 
-To search for a specific message by a user:
+To search for a specific message by a direct message(DM),
 
-* Type the message string that you want to check in the **Message** field. (optional)
-* Use the date pickers to select the start and end dates as the period on which the search will be done, the picker on the left being the start date and that on the right being the end date. You can also use the context menu (pop-up) on the far right to select a desired time period.
-* Enter at least two usernames whose direct messages you want to check in the **Users** field.
-* Hit **Apply**. The conversation pops up.
+* Update the **Message** field with the key phrase of the message you are searching .lf you wish to pull all messages, leave the **Message** field empty.
+* Select the **start** and **end date** to limit the search results to a specific time frame. The ![](../../.gitbook/assets/three-dot-icon.png)**three-dots icon** also provides other time options like **Today**, **Last Week,** etc.
+* Select at least two users whose direct messages you want to check in the **Users** field.
+* Click **Apply**. The conversations between the users selected in that time frame that matches the search phrase are displayed.
 
 ### By Omnichannel
 
 To search for a specific Omnichannel conversation:
 
-* Type the message string that you want to check in the **Message** field. (optional)
-* Use the date pickers to select the start and end dates as the period on which the search will be done, the picker on the left being the start date and that on the right being the end date. You can also use the context menu (pop-up) on the far right to select a desired time period.
+* Update the **Message** field with the key phrase of the message you are searching .lf you wish to pull all messages, leave the **Message** field empty.
+* Select the **start** and **end date** to limit the search results to a specific time frame. The ![](../../.gitbook/assets/three-dot-icon.png)**three-dots icon** also provides other time options like **Today**, **Last Week,** etc.
 * Enter the visitor's number in the **Visitor** field.
-* Enter the agent's name who served this conversation you are looking for in the **Agent** field.
-* Hit **Apply**.
+* Enter the agent's name who served the conversation you want in the **Agent** field.
+* Click **Apply**.

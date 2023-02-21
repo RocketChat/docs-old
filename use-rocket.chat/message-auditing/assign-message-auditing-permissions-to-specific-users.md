@@ -1,12 +1,9 @@
 # Assign Message Auditing Permissions to Specific Users
 
-The Auditor or Auditor Log roles have permissions to use Message Auditing features.
+The **Auditor** or **Auditor Log**  [permissions](../rocket.chat-workspace-administration/permissions.md) grant users access to **Message Auditing** features. As a workspace administrator, you assign permissions for **Message Auditing Panel** or **Auditing Log** to any [role ](../rocket.chat-workspace-administration/permissions.md#roles)you want to give audit access to.
 
-As an admin, you assign permissions to use the Message Auditing Panel or Auditing Log to such roles.
+To assign message audit permissions,
 
-On the **Permissions** screen in the Administration UI, do the following to assign access:
-
-* For access to the Message Auditing Panel, select the `can-audit` option.
-* For access to the Message Auditing Log, select the `can-audit-log` option.
-
-![](<../../.gitbook/assets/image (298).png>)
+* Navigate to **Administration** > **Workspace** > **Permissions.**
+* To access the **Message Auditing Log,** check the `can-audit-log` box under the role you want to assign.
+* To access the **Message Auditing Panel**, check the `can-audit` box under the role you want to assign.
