@@ -6,7 +6,10 @@ These features are intended to help organizations prevent unauthorized access to
 
 The Rocket.Chat Security Bundle includes the following features and tools:
 
-1. [Data Loss Prevention(DLP) app](data-loss-prevention-user-guide.md)
-2. [Open-source Antivirus app](antivirus-clamav-app.md)
-3. [E2E Encryption](end-to-end-encryption.md)
-4. [Two Factor Authentication(2FA)](two-factor-authentication-user-guide.md)
+****[**Data Loss Prevention(DLP) app**](data-loss-prevention-user-guide.md): Manage the sharing of sensitive data on your workspace.
+
+****[**Open-source Antivirus app**](antivirus-clamav-app.md): Secure file sharing within your workspace.
+
+****[**E2E Encryption**](end-to-end-encryption.md): Secure the confidentiality of your communication with encryption.
+
+****[**Two Factor Authentication(2FA)**](two-factor-authentication-user-guide.md): Enforce authentication and account access with 2FA.
