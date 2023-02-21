@@ -305,15 +305,16 @@ The goal of this project is to develop a solution that utilizes OpenAI's ChatGPT
 
 
 
-### Flutter SDK for Rocket.Chat  **Mentors:**  TBD
+### Flutter SDK for Rocket.Chat&#x20;
+
+**Mentors:**  TBD
 
 **Description:**\
 ****In recent years, [Flutter ](https://flutter.dev/)has became the de-facto standard for high performance open source multi-platforms apps development.   Thanks to its[ huge global developers community](https://flutter.dev/community) and the ever-growing ecosystem of [open source flutter components](https://pub.dev/packages).  &#x20;
 
 This project aims to create an easy to integrate flutter component to embed Rocket.Chat into any existing and new flutter applications  (similar to our existing [EmbeddedChat](https://github.com/RocketChat/EmbeddedChat) project).   In addition, a layer of Dart friendly API/stub needs to be created for application that needs in-depth modification of chat behavior or needing to use the chat engine as a messaging fabric.   \
 \
-We invite and welcome original proposals at varying level. \
-&#x20;
+We invite and welcome original proposals at varying level.&#x20;
 
 **Desired Skills:**
 
@@ -323,6 +324,8 @@ Flutter,  Flutter components construction, Dart, JavaScript. A thorough understa
 ****An SDK that enable easy embedding of RC instances into any flutter app plus Dart APIs to access RC collaboration engine internals.
 
 **Project Duration:** 350 hours (Large)\
+\
+**Difficulty:** Advanced\
 
 
 ### Open source Metaverse integration (mozilla hubs / third room)
