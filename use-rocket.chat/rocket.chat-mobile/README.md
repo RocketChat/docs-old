@@ -1,4 +1,60 @@
+---
+description: Accessing Rocket.Chat through the mobile apps.
+---
+
 # Rocket.Chat Mobile
+
+This guide is aimed at helping you navigate Rocket.Chat on your mobile devices.
+
+### Installing Rocket.Chat Mobile
+
+If you are using an Android phone, you can get Rocket.Chat from [Google Play](https://play.google.com/store/apps/details?id=chat.rocket.android\&hl=en\&gl=US) and if you instead have an iOS device, you can get it from [Apple's App Store](https://apps.apple.com/us/app/rocket-chat/id1148741252).
+
+### Sign Up for Rocket.Chat
+
+To create a Rocket.Chat account, you have to join a workspace. When you launch Rocket.Chat on mobile, here are the steps to follow:
+
+* You are prompted to either provide your workspace URL or join our [Open workspace](https://open.rocket.chat).&#x20;
+* Next, you click on **Create an account** and either sign up with the third-party authentication providers Github and Google or provide a name, username, email, and password.
+* A confirmation email is sent to your email and you click on **Login** or access the URL of the workspace you provided initially to log in.
+
+### Login to Rocket.Chat
+
+To log in to Rocket.Chat from mobile, here are the steps to follow:
+
+* Launch Rocket.Chat and provide your workspace URL or click Join our [open workspace](https://open.rocket.chat).
+* Click **Login**
+* If you created an account with Google or GitHub, choose the respective option or provide a username or email and password combination to log in.
+* If you have not verified your email, you will be prompted to input it and check your mailbox to verify.
+* You are taken to your workspace's homepage upon successful login.
+
+### Exploring your workspace's homepage
+
+Rocket.Chat's homepage has a **navigation drawer menu**, **toolbar,** and **main body** giving you the ability to perform different actions.
+
+#### Toolbar
+
+The toolbar (action bar) has three icons as action bar items that are a pencil (create) icon, a search icon and `#` icon each serving a unique purpose.
+
+* The create icon is used to create [Rooms](../user-guides/rooms/).
+* The search icon is used to search your whole workspace from rooms to users and messages.
+* The `#` icon is used to search for rooms that you are already part of or the ones which you might want to join.
+
+### Main Body
+
+Your workspace's main body on mobile has the rooms which you are part of and has been conversing. You can click a room from the list to start a conversation.
+
+### Navigation Drawer
+
+The navigation drawer menu carries your profile avatar, name, and workspace name at the top and five action items which are Edit Status, Chats, Profile, Display, and Settings.
+
+* **The Edit Status** item is used to set a [custom status](../rocket.chat-workspace-administration/custom-user-status.md).
+* **The Chats item** reveals the rooms you are part of enabling you to select any and start a conversation.
+* **The Profile** takes you to the screen for managing your [profile](../cloud-account/manage-your-cloud-account/profile.md).
+* **The Display** item takes you to the screen for display settings for you to choose between expanded or condensed messages, the sort order, and the grouping order of your rooms.
+* **The settings item** takes you to the screen for app settings such as language, default browser, theme, and more.
+
+
 
 This guide is aimed at helping you navigate Rocket.Chat on your mobile devices.
 
