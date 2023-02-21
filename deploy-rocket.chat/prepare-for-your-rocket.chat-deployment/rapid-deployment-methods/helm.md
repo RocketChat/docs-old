@@ -1,110 +1,241 @@
 ---
-description: Deploy on a kubernetes cluster using our official helm chart
+description: Deploy on a kubernetes cluster using our official helm chart.
 ---
 
 # Kubernetes with Helm
 
-{% hint style="info" %}
-[**👉 Trouble installing or deploying Rocket.Chat?** Join our Weekly Technical Helpline to get real-time help from our team!](https://app.livestorm.co/rocket-chat/rocketchats-weekly-technical-helpline?type=detailed)
-{% endhint %}
+Using the [Helm](https://helm.sh/) package manager, the [helm chart](https://github.com/RocketChat/helm-charts/tree/master/rocketchat) bootstraps a Rocket.Chat deployment on a  [Kubernetes](https://kubernetes.io/) cluster. It provisions a fully featured Rocket.Chat installation. Additionally, this chart supports the scaling of Rocket.Chat for increased server capacity and high availability (requires enterprise license).
 
-> **WARNING**: Upgrading to chart version 1.1.0 (Rocket.Chat 1.0.3) might require extra steps to retain the MongoDB data. See [Upgrading](../../scaling-rocket.chat/automation-tools/kubernetes-using-helm.md#upgrading) for more details.
+## Prerequisites Details
 
-Helm is a tool that streamlines installing and managing Kubernetes applications. Think of it like apt/yum/homebrew for Kubernetes, helm uses a packaging format called charts. A chart is a collection of files that describe a related set of Kubernetes resources. The Rocket.Chat helm chart packages Rocket.Chat server and mongodb. Options for the Rocket.Chat helm chart can be found [here](https://artifacthub.io/packages/helm/rocketchat-server/rocketchat).
+The chart has an optional dependency on the [MongoDB](https://github.com/bitnami/charts/tree/master/bitnami/mongodb) chart. By default, the MongoDB chart requires PV support on underlying infrastructure which may be disabled.
 
-> **NOTE:** Helm 3 no long includes a default chart repository. Make sure you [add the stable chart repository ](https://helm.sh/docs/intro/quickstart/#initialize-a-helm-chart-repository)to your Helm 3 instance.
+## Installing the Chart
 
-## Default Settings for Rocket.Chat Helm Chart
-
-* Rocket.Chat chart installs rocketchat server (stable/rocketchat)
-* Rocket.Chat chart installs mongodb chart (stable/mongodb)
-* Authentication for mongodb is enabled by default (usePassword : true)
-* Two persistent volumes will be created, one for mongodb that will store Rocket.Chat data and one for Rocket.Chat uploads
-* If not set, a random password will be generated for the root user in mongodb, and no custom user, password and database will be created for Rocket.Chat so we recommend installing this chart setting those parameters.
-
-#### Install Rocket.Chat chart and configure mongodbUsername, mongodbPassword, mongodbDatabase and mongodbRootPassword:
-
-```bash
-$ helm install --set mongodb.mongodbUsername=rocketchat,mongodb.mongodbPassword=changeme,mongodb.mongodbDatabase=rocketchat,mongodb.mongodbRootPassword=root-changeme my-rocketchat stable/rocketchat
-```
-
-* **mongodbUsername**: This user will have access to the rocketchat database (mongodbDatabase) and is authenticated using mongodbDatabase.
-* **mongodbPassword**: Password for accessing your Rocket.Chat data.
-* **mongodbDatabase**: Database used to store Rocket.Chat application and authenticate the mongodbUsername.
-* **mongodbRootPassword**: The password for the root user, administrator of the mongodb statefulset and authenticated using the admin database.
-
-Is possible to check both passwords, mongodbPassword and mongodbRootPassword, in mongodb secret, use `kubectl get secrets`.
-
-#### If you would like to install a different image than the default for this chart, add to the command the image you would like to install:
-
-```bash
-$ helm install --set mongodb.mongodbUsername=rocketchat,mongodb.mongodbPassword=changeme,mongodb.mongodbDatabase=rocketchat,mongodb.mongodbRootPassword=root-changeme,repository=<image-wanted> my-rocketchat stable/rocketchat
-```
-
-#### And if you only would like to install another version of rocket.chat image, add tag value to the command:
-
-```bash
-$ helm install --set mongodb.mongodbUsername=rocketchat,mongodb.mongodbPassword=changeme,mongodb.mongodbDatabase=rocketchat,mongodb.mongodbRootPassword=root-changeme,image.pullPolicy=Always,image.tag=3.7.0 my-rocketchat stable/rocketchat
-```
-
-#### Check rocketchat values.yaml file for more details and adjust to your needs, after you can install Rocket.Chat chart using this command, remember to set mongodbUsername, mongodbPassword, mongodbDatabase and mongodbRootPassword:
-
-```bash
-$ helm install --name my-rocketchat -f values.yaml stable/rocketchat
-```
-
-## Typical k8s/Helm Deployment on AWS EKS
-
-This is an example of how Rocket.Chat instances can be deployed in a very scalable, fault-tolerant, and backed-up configuration, suitable for critical production services.
-
-![Multi Instance k8s/Helm Deployment on AWS EKS](../../../.gitbook/assets/rocket-chat-aws-eks.svg)
-
-{% hint style="info" %}
-Rocket.Chat version less than `1.X.X` requires a MongoDB ReplicaSet to be configured. When using the dependent `stable/mongodb` chart (`mongodb.enabled=true`), enabling ReplicaSet will drop the PVC and create new ones, therefore losing the database content, check the instructions on how to manually upgrade below.
-
-Backward compatibility is not guaranteed unless you modify the labels used on the chart's deployments. Use the workaround below to upgrade from versions previous to 1.0.0. The following example assumes that the release name is my-rocketchat:
+Confirm that you have helm3 binary insalled, then add the chart repository with the following command:
 
 ```
-$ kubectl delete deployment my-rocketchat-rocketchat --cascade=false
-```
-{% endhint %}
-
-### Follow these steps to manually upgrade:
-
-We recommend setting up another set of k8s resources, testing that the upgrade is correct, and then removing resources from the previous version.
-
-* Create a backup of the Rocket.Chat database:
-
-```bash
-$ kubectl exec <my-rocketchat-mongodb-pod> -- sh -c 'mongodump -u<mongodbUsername> -p<mongodbPassword> --archive=/tmp/rocketchat-db-bkup.gz --gzip --db <mongodbDatabase>'
+helm repo add rocketchat https://rocketchat.github.io/helm-charts
 ```
 
-* Copy the backup file to the working directory:
+To install the chart ,you  can either define your configuration options in a values file or pass the configuration parameters via command line arguments.
 
-```bash
-$ kubectl cp <my-rocketchat-mongodb-pod>:/tmp/rocketchat-db-bkup.gz .
+### Define the configuations value in a file
+
+We recommend defining the configuration parameters inside a `Values.yaml`  file with at least the non-root user's password and the root password before passing it to helm. You must set at least the database and root password in the values file.
+
+```
+mongodb:
+  auth:
+    passwords:
+      - rocketchat
+    rootPassword: rocketchatroot
 ```
 
-* Install the new helm chart with Rocket.Chat version > 1.0 following the instructions below, use a different name but keep your previously configured `mongodbUsername`, `mongodbPassword` and `mongodbDatabase`:
+Now, install with the following command:
 
-```bash
-$ helm install --set mongodb.mongodbUsername=rocketchat,mongodb.mongodbPassword=changeme,mongodb.mongodbDatabase=rocketchat,mongodb.mongodbRootPassword=root-changeme --name my-rocketchat-1 stable/rocketchat
+```
+helm install rocketchat -f Values.yaml rocketchat/rocketchat
 ```
 
-* Copy the database backup file from the working directory to the new mongodb pod:
+### Set the configurations parameters via command line arguments
 
-```bash
-$ kubectl cp rocketchat-db-bkup.gz  my-rocketchat-1-mongodb-primary-0:/tmp
+Optionally, you can use the `--set` flag to pass the configuration parameters to helm.
+
+```
+helm install rocketchat rocketchat/rocketchat --set mongodb.auth.passwords={$(echo -n $(openssl rand -base64 32))},mongodb.auth.rootPassword=$(echo -n $(openssl rand -base64 32))
 ```
 
-* Restore the database:
+> Starting from chart version 5.4.3, username, password, and database entries must be arrays of the same length due to MongoDB dependency. Rocket.Chat will use the first entries of those arrays for its own use. `mongodb.auth.usernames` array defaults to `{rocketchat}` and `mongodb.auth.databases` array defaults to `{rocketchat}.`
 
-```bash
-$ kubectl exec my-rocketchat-1-mongodb-primary-0 -- sh -c 'mongorestore -u<mongodbUsername> -p<mongodbPassword> --archive=/tmp/rocketchat-db-bkup.gz --gzip --db <mongodbDatabase>'
+## Uninstalling the Chart
+
+To uninstall/delete the `rocketchat` deployment:
+
+```
+helm delete rocketchat
 ```
 
-* Check that the database was restored successfully:
+### Configuration
 
-```bash
-kubectl exec my-rocketchat-1-mongodb-primary-0 -- sh -c 'mongo <mongodbDatabase> -u<mongodbUsername> -p<mongodbPassword>  --eval="printjson(db.runCommand( { listCollections: 1.0, nameOnly: true } ))"'
+The following table lists the configurable parameters of the Rocket.Chat chart and their default values.
+
+| Parameter                              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Default                                       |
+| -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| `image.repository`                     | Image repository                                                                                                                                                                                                                                                                                                                                                                                                                                               | `registry.rocket.chat/rocketchat/rocket.chat` |
+| `image.tag`                            | Image tag                                                                                                                                                                                                                                                                                                                                                                                                                                                      | `3.18.3`                                      |
+| `image.pullPolicy`                     | Image pull policy                                                                                                                                                                                                                                                                                                                                                                                                                                              | `IfNotPresent`                                |
+| `host`                                 | Hostname for Rocket.Chat. Also used for ingress (if enabled)                                                                                                                                                                                                                                                                                                                                                                                                   | `""`                                          |
+| `replicaCount`                         | Number of replicas to run                                                                                                                                                                                                                                                                                                                                                                                                                                      | `1`                                           |
+| `smtp.enabled`                         | Enable SMTP for sending mails                                                                                                                                                                                                                                                                                                                                                                                                                                  | `false`                                       |
+| `smtp.existingSecret`                  | Use existing secret for SMTP account                                                                                                                                                                                                                                                                                                                                                                                                                           | `""`                                          |
+| `smtp.username`                        | Username of the SMTP account                                                                                                                                                                                                                                                                                                                                                                                                                                   | `""`                                          |
+| `smtp.password`                        | Password of the SMTP account                                                                                                                                                                                                                                                                                                                                                                                                                                   | `""`                                          |
+| `smtp.host`                            | Hostname of the SMTP server                                                                                                                                                                                                                                                                                                                                                                                                                                    | `""`                                          |
+| `smtp.port`                            | Port of the SMTP server                                                                                                                                                                                                                                                                                                                                                                                                                                        | `587`                                         |
+| `extraEnv`                             | Extra environment variables for Rocket.Chat. Used with `tpl` function, so this needs to be a string                                                                                                                                                                                                                                                                                                                                                            | `""`                                          |
+| `extraVolumes`                         | Extra volumes allowing inclusion of certificates or any sort of file that might be required (see bellow)                                                                                                                                                                                                                                                                                                                                                       | `[]`                                          |
+| `extraVolumeMounts`                    | Where the aforementioned extra volumes should be mounted inside the container                                                                                                                                                                                                                                                                                                                                                                                  | `[]`                                          |
+| `podAntiAffinity`                      | Pod anti-affinity can prevent the scheduler from placing RocketChat replicas on the same node. The default value "soft" means that the scheduler should _prefer_ to not schedule two replica pods onto the same node but no guarantee is provided. The value "hard" means that the scheduler is _required_ to not schedule two replica pods onto the same node. The value "" will disable pod anti-affinity so that no anti-affinity rules will be configured. | `""`                                          |
+| `podAntiAffinityTopologyKey`           | If anti-affinity is enabled sets the topologyKey to use for anti-affinity. This can be changed to, for example `failure-domain.beta.kubernetes.io/zone`                                                                                                                                                                                                                                                                                                        | `kubernetes.io/hostname`                      |
+| `affinity`                             | Assign custom affinity rules to the RocketChat instance [https://kubernetes.io/docs/concepts/configuration/assign-pod-node/](https://kubernetes.io/docs/concepts/configuration/assign-pod-node/)                                                                                                                                                                                                                                                               | `{}`                                          |
+| `minAvailable`                         | Minimum number / percentage of pods that should remain scheduled                                                                                                                                                                                                                                                                                                                                                                                               | `1`                                           |
+| `existingMongodbSecret`                | An already existing secret containing MongoDB Connection URL                                                                                                                                                                                                                                                                                                                                                                                                   | `""`                                          |
+| `externalMongodbUrl`                   | MongoDB URL if using an externally provisioned MongoDB                                                                                                                                                                                                                                                                                                                                                                                                         | `""`                                          |
+| `externalMongodbOplogUrl`              | MongoDB OpLog URL if using an externally provisioned MongoDB. Required if `externalMongodbUrl` is set                                                                                                                                                                                                                                                                                                                                                          | `""`                                          |
+| `mongodb.enabled`                      | Enable or disable MongoDB dependency. Refer to the [stable/mongodb docs](https://github.com/bitnami/charts/tree/master/bitnami/mongodb#configuration) for more information                                                                                                                                                                                                                                                                                     | `true`                                        |
+| `persistence.enabled`                  | Enable persistence using a PVC. This is not necessary if you're using the default [GridFS](https://rocket.chat/docs/administrator-guides/file-upload/) file storage                                                                                                                                                                                                                                                                                            | `false`                                       |
+| `persistence.storageClass`             | Storage class of the PVC to use                                                                                                                                                                                                                                                                                                                                                                                                                                | `""`                                          |
+| `persistence.accessMode`               | Access mode of the PVC                                                                                                                                                                                                                                                                                                                                                                                                                                         | `ReadWriteOnce`                               |
+| `persistence.size`                     | Size of the PVC                                                                                                                                                                                                                                                                                                                                                                                                                                                | `8Gi`                                         |
+| `persistence.existingClaim`            | An Existing PVC name for rocketchat volume                                                                                                                                                                                                                                                                                                                                                                                                                     | `""`                                          |
+| `resources`                            | Pod resource requests and limits                                                                                                                                                                                                                                                                                                                                                                                                                               | `{}`                                          |
+| `securityContext.enabled`              | Enable security context for the pod                                                                                                                                                                                                                                                                                                                                                                                                                            | `true`                                        |
+| `securityContext.runAsUser`            | User to run the pod as                                                                                                                                                                                                                                                                                                                                                                                                                                         | `999`                                         |
+| `securityContext.fsGroup`              | fs group to use for the pod                                                                                                                                                                                                                                                                                                                                                                                                                                    | `999`                                         |
+| `serviceAccount.create`                | Specifies whether a ServiceAccount should be created                                                                                                                                                                                                                                                                                                                                                                                                           | `true`                                        |
+| `serviceAccount.name`                  | Name of the ServiceAccount to use. If not set and create is true, a name is generated using the fullname template                                                                                                                                                                                                                                                                                                                                              | `""`                                          |
+| `ingress.enabled`                      | If `true`, an ingress is created                                                                                                                                                                                                                                                                                                                                                                                                                               | `false`                                       |
+| `ingress.pathType`                     | Sets the value for pathType for the created Ingress resource                                                                                                                                                                                                                                                                                                                                                                                                   | `Prefix`                                      |
+| `ingress.annotations`                  | Annotations for the ingress                                                                                                                                                                                                                                                                                                                                                                                                                                    | `{}`                                          |
+| `ingress.path`                         | Path of the ingress                                                                                                                                                                                                                                                                                                                                                                                                                                            | `/`                                           |
+| `ingress.tls`                          | A list of [IngressTLS](https://kubernetes.io/docs/reference/kubernetes-api/service-resources/ingress-v1/#IngressSpec) items                                                                                                                                                                                                                                                                                                                                    | `[]`                                          |
+| `license`                              | Contents of the Enterprise License file, if applicable                                                                                                                                                                                                                                                                                                                                                                                                         | `""`                                          |
+| `prometheusScraping.enabled`           | Turn on and off /metrics endpoint for Prometheus scraping                                                                                                                                                                                                                                                                                                                                                                                                      | `false`                                       |
+| `prometheusScraping.port`              | Port to use for the metrics for Prometheus to scrap on                                                                                                                                                                                                                                                                                                                                                                                                         | `9458`                                        |
+| `serviceMonitor.enabled`               | Create ServiceMonitor resource(s) for scraping metrics using PrometheusOperator (prometheusScraping should be enabled)                                                                                                                                                                                                                                                                                                                                         | `false`                                       |
+| `serviceMonitor.interval`              | The interval at which metrics should be scraped                                                                                                                                                                                                                                                                                                                                                                                                                | `30s`                                         |
+| `serviceMonitor.port`                  | The port name at which container exposes Prometheus metrics                                                                                                                                                                                                                                                                                                                                                                                                    | `metrics`                                     |
+| `livenessProbe.enabled`                | Turn on and off liveness probe                                                                                                                                                                                                                                                                                                                                                                                                                                 | `true`                                        |
+| `livenessProbe.initialDelaySeconds`    | Delay before liveness probe is initiated                                                                                                                                                                                                                                                                                                                                                                                                                       | `60`                                          |
+| `livenessProbe.periodSeconds`          | How often to perform the probe                                                                                                                                                                                                                                                                                                                                                                                                                                 | `15`                                          |
+| `livenessProbe.timeoutSeconds`         | When the probe times out                                                                                                                                                                                                                                                                                                                                                                                                                                       | `5`                                           |
+| `livenessProbe.failureThreshold`       | Minimum consecutive failures for the probe                                                                                                                                                                                                                                                                                                                                                                                                                     | `3`                                           |
+| `livenessProbe.successThreshold`       | Minimum consecutive successes for the probe                                                                                                                                                                                                                                                                                                                                                                                                                    | `1`                                           |
+| `microservices.enabled`                | Use [microservices](https://docs.rocket.chat/quick-start/installing-and-updating/micro-services-setup-beta) architecture                                                                                                                                                                                                                                                                                                                                       | `false`                                       |
+| `microservices.presence.replicas`      | Number of replicas to run for the given service                                                                                                                                                                                                                                                                                                                                                                                                                | `1`                                           |
+| `microservices.ddpStreamer.replicas`   | Idem                                                                                                                                                                                                                                                                                                                                                                                                                                                           | `1`                                           |
+| `microservices.streamHub.replicas`     | Idem                                                                                                                                                                                                                                                                                                                                                                                                                                                           | `1`                                           |
+| `microservices.accounts.replicas`      | Idem                                                                                                                                                                                                                                                                                                                                                                                                                                                           | `1`                                           |
+| `microservices.authorization.replicas` | Idem                                                                                                                                                                                                                                                                                                                                                                                                                                                           | `1`                                           |
+| `microservices.nats.replicas`          | Idem                                                                                                                                                                                                                                                                                                                                                                                                                                                           | `1`                                           |
+| `readinessProbe.enabled`               | Turn on and off readiness probe                                                                                                                                                                                                                                                                                                                                                                                                                                | `true`                                        |
+| `readinessProbe.initialDelaySeconds`   | Delay before readiness probe is initiated                                                                                                                                                                                                                                                                                                                                                                                                                      | `10`                                          |
+| `readinessProbe.periodSeconds`         | How often to perform the probe                                                                                                                                                                                                                                                                                                                                                                                                                                 | `15`                                          |
+| `readinessProbe.timeoutSeconds`        | When the probe times out                                                                                                                                                                                                                                                                                                                                                                                                                                       | `5`                                           |
+| `readinessProbe.failureThreshold`      | Minimum consecutive failures for the probe                                                                                                                                                                                                                                                                                                                                                                                                                     | `3`                                           |
+| `readinessProbe.successThreshold`      | Minimum consecutive successes for the probe                                                                                                                                                                                                                                                                                                                                                                                                                    | `1`                                           |
+| `registrationToken`                    | Registration Token for [Rocket.Chat Cloud](https://cloud.rocket.chat/)                                                                                                                                                                                                                                                                                                                                                                                         | ""                                            |
+| `service.annotations`                  | Annotations for the Rocket.Chat service                                                                                                                                                                                                                                                                                                                                                                                                                        | `{}`                                          |
+| `service.labels`                       | Additional labels for the Rocket.Chat service                                                                                                                                                                                                                                                                                                                                                                                                                  | `{}`                                          |
+| `service.type`                         | The service type to use                                                                                                                                                                                                                                                                                                                                                                                                                                        | `ClusterIP`                                   |
+| `service.port`                         | The service port                                                                                                                                                                                                                                                                                                                                                                                                                                               | `80`                                          |
+| `service.nodePort`                     | The node port used if the service is of type `NodePort`                                                                                                                                                                                                                                                                                                                                                                                                        | `""`                                          |
+| `podDisruptionBudget.enabled`          | Enable or disable PDB for RC deployment                                                                                                                                                                                                                                                                                                                                                                                                                        | `true`                                        |
+| `podLabels`                            | Additional pod labels for the Rocket.Chat pods                                                                                                                                                                                                                                                                                                                                                                                                                 | `{}`                                          |
+| `podAnnotations`                       | Additional pod annotations for the Rocket.Chat pods                                                                                                                                                                                                                                                                                                                                                                                                            | `{}`                                          |
+
+Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`. Alternatively, you can update the YAML file that specifies the values for the parameters to be provided while installing the chart.&#x20;
+
+## Database Setup
+
+Rocket.Chat uses a MongoDB instance to presist its data. By default, the [MongoDB](https://github.com/bitnami/charts/tree/master/bitnami/mongodb) chart is deployed, and a single MongoDB instance is created as the primary in a replicaset.\
+Please refer to [this chart](https://artifacthub.io/packages/helm/bitnami/mongodb) for additional MongoDB configuration options. If you are using chart defaults, set  the `mongodb.auth.rootPassword` and `mongodb.auth.passwords`.
+
+### **Using an External Database**
+
+This chart supports using an existing MongoDB instance. Use the [configuration ](helm.md#configuration)options and disable the chart's MongoDB with `--set mongodb.enabled=false`
+
+### Configuring Additional Environment Variables
+
 ```
+extraEnv: |
+  - name: MONGO_OPTIONS
+    value: '{"ssl": "true"}'
+```
+
+### Specifying aditional volumes
+
+Sometimes, it's necessary to include extra sets of files by means of exposing them to the container as a mountpoint. The most common use case is the inclusion of SSL CA certificates.
+
+```
+extraVolumes: 
+  - name: etc-certs
+    hostPath:
+    - path: /etc/ssl/certs
+      type: Directory
+extraVolumeMounts: 
+  - mountPath: /etc/ssl/certs
+    name: etc-certs   
+    readOnly: true
+```
+
+### Increasing Server Capacity and HA Setup  ![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1).jpg>)
+
+To increase the server's capacity, you can increase the number of Rocket.Chat server instances across available computing resources in your cluster. For example,
+
+```
+kubectl scale --replicas=3 deployment/rocketchat
+```
+
+By default, the chart creates one MongoDB instance as a Primary in a replicaset. You can also scale up the capacity and availability of the MongoDB cluster independently.
+
+> See  [MongoDB chart](https://github.com/bitnami/charts/tree/master/bitnami/mongodb) for configuration information. To learn more on running Rocket.Chat in scaled configurations, visit the [Install MongoDB Replicaset](docker-and-docker-compose/docker-containers/high-availability-install.md#install-mongodb-replicaset) guide.
+
+### Manage MongoDB secrets
+
+The chart provides several ways to manage the connection for MongoDB apart from the primary `mongodb.auth` values. They include:
+
+* Values passed to the chart (externalMongodbUrl, externalMongodbOplogUrl)
+* An ExistingMongodbSecret containing the MongoURL and MongoOplogURL
+
+```
+apiVersion: v1
+kind: Secret
+metadata:
+  name: my-secret
+type: Opaque
+data:
+  mongo-uri: mongodb://user:password@localhost:27017/rocketchat
+  mongo-oplog-uri: mongodb://user:password@localhost:27017/local?replicaSet=rs0&authSource=admin
+```
+
+### Upgrading
+
+### To 5.4.3
+
+Due to changes on the upstream MongoDB chart, some deprecated variables have been renamed, which changed how this chart generates its manifests. Here are the values that need updates:
+
+* `mongodb.auth.username` is no longer supported and has been changed to `mongodb.auth.usernames` array. If you set it to something custom (defaults to `rocketchat`), make sure you update it to an array, and the entry is the **first** entry in that array, as that's what Rocket.Chat will use to connect to the database.
+* `mongodb.auth.password` is no longer supported and has been changed to `mongodb.auth.passwords` array. Update your values file to make it an array, and ensure it's the first entry of that array.
+* `mongodb.auth.database` is no longer supported and has been changed to `mongodb.auth.databases`. Update your values file, convert it to an array, and ensure it's the first entry of that array.
+* `mongodb.auth.rootUsername` and `mongodb.auth.rootPassword` remain the same.
+
+> _`usernames`, `passwords` and `databases` arrays must be of the same length. Rocket.Chat chart will use the first entry for its mongodb connection string in `MONGO_URL` and `MONGO_OPLOG_URL`._
+
+The used image tag gets updated **in most cases** on each chart update. The same is true for the MongoDB chart we use as our dependency. Before version 5.4.3, we used the chart version 10.x.x. Starting from 5.4.3, the dependency chart version has been updated to the latest available version, 13.x.x. This chart defaults to MongoDB 6.0.x at the moment.
+
+> As a warning, this chart will not handle MongoDB upgrades and will depend on the user to ensure the supprted version is runnning.&#x20;
+
+The upgrade will fail if any of the following requirements are not met :
+
+* Must not skip a MongoDB release. For example,  4.2.x to 5.0.x will fail.
+* Current `featureCompatibilityVersion` must be compatible with the version the user is trying to upgrade to. For example—if the current database version and feature compatibility is 4.4 and 4.2, respectively, but the user is trying to upgrade to 5.0, it'll fail.
+
+The chart will not check if the mongodb version is supported by the Rocket.Chat version considering deployments that might occur in an airgapped environment. You can check the[ release notes](https://github.com/RocketChat/Rocket.Chat/releases) to confirm that.
+
+To get the currently deployed MongoDB version, the easiest method is to get into the mongo shell and run `db.version()`. You are advised to pin your MongoDB dependency in the values file.
+
+```
+mongodb:
+  image:
+    tag: # find from https://hub.docker.com/r/bitnami/mongodb/tags
+```
+
+To learn more about the Rocket.Chat helm chart, visit the [Github repository](https://github.com/RocketChat/helm-charts/blob/master/rocketchat/README.md).
+
+### References
+
+* [Run a shell inside a container (to check mongodb version)](https://kubernetes.io/docs/tasks/debug/debug-application/get-shell-running-container/)
+* [MongoDB upgrade official documentation](https://www.mongodb.com/docs/manual/tutorial/upgrade-revision/)
+* [MongoDB helm chart options](https://artifacthub.io/packages/helm/bitnami/mongodb)
