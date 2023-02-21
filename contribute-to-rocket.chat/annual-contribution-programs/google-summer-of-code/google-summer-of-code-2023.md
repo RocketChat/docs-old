@@ -350,6 +350,24 @@ ReactJS, TypeScript, MeteorJS. A thorough understanding of how Rocket.Chat core 
 **Difficulty:** Advanced\
 
 
+### Jitsi Meet x Rocket.Chat
+
+**Mentors:**  TBD\
+\
+**Description:**\
+****Jitsi meet has become one of the most popular and frequently used open source video conference platform in the world.   The chat that is included as part of the Jitsi system is rudimentary and chat history is lost as soon as the conference is over.   This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Jitsi Meet - giving it a rich messaging experience with full history after conference.\
+\
+Ideally we would like an integration at the [Jitsi Meet React SDK](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-react-sdk/) level.  Perhaps extending the _\<JitsiMeeting/>_ tag with a _useRCForChat_ attribute.   The integration should maintain prosody as the single source of truth for channel membership.  A variety of server authentication scenarios must be catered for (including SSO and Oauth).
+
+**Desired Skills:**  React Native,   in-depth knowledge of EmbeddedChat project,  familiarity with Jitsi Meet, understanding of prodigy.\
+****\
+**Goal/Deliverable:**  Jitsi Meet with Rocket.Chat embedded in place of existing chat.\
+\
+**Project Duration:** 350 hours. (Large)\
+\
+**Difficulty:** Medium/Advanced\
+
+
 ### QuickAnswer Bot
 
 **Mentors:** TBD
@@ -488,25 +506,6 @@ This project leverages two existing projects - the _RC4Community_ platform and _
 **Project Duration:** 350 hours. (Large)\
 \
 **Difficulty:** Easy/Medium\
-
-
-### Jitsi Meet x Rocket.Chat
-
-**Mentors:**  TBD\
-\
-**Description:**\
-****Jitsi meet has become one of the most popular and frequently used open source video conference platform in the world.   The chat that is included as part of the Jitsi system is rudimentary and chat history is lost as soon as the conference is over.   This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Jitsi Meet - giving it a rich messaging experience with full history after conference.\
-\
-Ideally we would like an integration at the [Jitsi Meet React SDK](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-react-sdk/) level.  Perhaps extending the _\<JitsiMeeting/>_ tag with a _useRCForChat_ attribute.   The integration should maintain prosody as the single source of truth for channel membership.  A variety of server authentication scenarios must be catered for (including SSO and Oauth).
-
-**Desired Skills:**  React Native,   in-depth knowledge of EmbeddedChat project,  familiarity with Jitsi Meet, understanding of prodigy.\
-****\
-**Goal/Deliverable:**  Jitsi Meet with Rocket.Chat embedded in place of existing chat.\
-\
-**Project Duration:** 350 hours. (Large)\
-\
-**Difficulty:** Medium/Advanced
-
 
 
 ### Big Blue Button x Rocket.Chat
