@@ -26,8 +26,6 @@ Only users with Administrator roles assigned to them can access this menu. If yo
 
 [**Federation Dashboard**](federation-dashboard.md): Check statistics about the federation connection on your server.
 
-[**Apps**](broken-reference): Unlock Rocket. Chat's capabilities leveraging marketplace apps
-
 [**Email Inboxes**](broken-reference/): Learn to manage Omnichannel email inboxes or email accounts for the email channels.
 
 [**Custom Emoji**](custom-emoji.md): Learn to work with custom emojis in your Rocket.Chat workspace.
@@ -36,7 +34,7 @@ Only users with Administrator roles assigned to them can access this menu. If yo
 
 [**OAuth Applications**](oauth-applications.md): Learn to set up custom applications to be used for Open Authentication.
 
-[**Mailer**](mailer.md): Use the Mailer tool to send emails to users inside your Rocket.Chat workspace.
+[**Mailer**](mailer.md): Use the Mailer tool to email users inside your Rocket.Chat workspace.
 
 [**Custom User Status**](custom-user-status.md): Learn to add custom status other than the default status presets available within Rocket.Chat.
 

@@ -17,15 +17,7 @@ This document aims at listing out the various Roles in Rocket.Chat using the fol
 
 A Rocket.Chat Administrator has the `Admin` role, which gives them full access to the entire Rocket.Chat workspace.
 
-They can manage both Workspace administration and Omnichannel settings.
-
-{% content-ref url="../../use-rocket.chat/rocket.chat-workspace-administration" %}
-[rocket.chat-workspace-administration](../../use-rocket.chat/rocket.chat-workspace-administration)
-{% endcontent-ref %}
-
-{% content-ref url="../../use-rocket.chat/omnichannel/" %}
-[omnichannel](../../use-rocket.chat/omnichannel/)
-{% endcontent-ref %}
+They can manage both [rocket.chat-workspace-administration](../../use-rocket.chat/rocket.chat-workspace-administration/ "mention") and [omnichannel](../../use-rocket.chat/omnichannel/ "mention") settings.
 
 ## Rocket.Chat User Roles
 
@@ -37,7 +29,7 @@ Rocket.Chat users can have one or more roles, allowing them to perform the vario
 | `bot`         | [Bots ](../../use-rocket.chat/rocket.chat-workspace-administration/settings/bots.md)are automated users that can be programmed to perform specific tasks, such as sending messages, answering questions, and triggering notifications.                                                                              |
 | `guest`       | Guest users are non-registered users who have access to your Rocket.Chat instance public channels.                                                                                                                                                                                                                  |
 | `anonymous`   | Unauthenticated visitors on your Rocket.Chat workspace. Anonymous users do not have a specified username.                                                                                                                                                                                                           |
-| `app`         | Automated users that are used by Rocket.Chat [Apps ](broken-reference)from the [App Marketplace](broken-reference).                                                                                                                                                                                                 |
+| `app`         | Automated users that are used by Rocket.Chat Apps from the [rocket.chat-marketplace](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/ "mention")                                                                                                                                                      |
 | `Owner`       | A [Channel ](../../use-rocket.chat/user-guides/rooms/channels/)owner is a user designated as the owner of a specific channel. The channel owner has the ability to manage the channel, including controlling access to the channel, editing channel settings, and managing messages within the channel.             |
 | `Leader`      | A channel Leader gets pinned on the top of a channel and they can receive 1:1 messages from other channel users.                                                                                                                                                                                                    |
 | `Moderator`   | Moderators have the ability to manage messages, delete messages, and ban users in a specific channel.                                                                                                                                                                                                               |
