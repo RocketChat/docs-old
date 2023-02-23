@@ -150,14 +150,6 @@ Remember to hit **Save Changes** in order to apply any changes made.
 
 <!---->
 
-* **Show Read Receipts**: Whether to show read receipts.
-
-<!---->
-
-* **Detailed Read Receipts**: Shows each user's read receipts.
-
-<!---->
-
 * **Allow Message Pinning**: When enabled, allow messages to be pinned to any of the channels.
 
 <!---->
@@ -203,6 +195,20 @@ Remember to hit **Save Changes** in order to apply any changes made.
 <!---->
 
 * **Audio Message Bit Rate**: Lets you set the bit rate for audio messages.
+
+</details>
+
+<details>
+
+<summary>Read Receipts</summary>
+
+![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1).jpg>)
+
+* **Show Read Receipts**: Whether to show read receipts.
+
+<!---->
+
+* **Detailed Read Receipts**: This shows each user's read receipts.
 
 </details>
 

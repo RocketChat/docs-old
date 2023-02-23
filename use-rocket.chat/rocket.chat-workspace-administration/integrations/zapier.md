@@ -1,7 +1,9 @@
 # Zapier
 
 {% hint style="warning" %}
-_The Zapier integration has been deprecated, may not work as expected, and will not receive updates. Install the Zapier app from Marketplace to avoid disruptions._
+![](<../../../.gitbook/assets/Deprecated (1).png>)Zapier integration has been deprecated from Rocket.Chat `6.0.`
+
+You can install the Zapier app from Marketplace to avoid disruptions.
 {% endhint %}
 
 [Zapier](https://zapier.com/zapbook/RocketChat/) lets you connect Rocket.Chat to hundreds of other web services. Automated connections called Zaps, set up in minutes with no coding, can automate your day-to-day tasks and build workflows between apps that otherwise wouldn't be possible.

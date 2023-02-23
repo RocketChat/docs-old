@@ -7,20 +7,46 @@ To access this menu:
 Navigate to **Administration** > **Workspace** > **Permissions**
 
 {% hint style="info" %}
-Permission changes are immediate and transparent. Users do not need to log out, log in, or refresh to change permissions.
+Permission changes are immediate and transparent. Users do not need to log out, log in, or refresh for permissions to be applied.
 {% endhint %}
 
 ## Roles
 
-A `Role` is a set of permissions that are given to users. Rocket.Chat already comes with a set of default roles that can be edited. You can also create new roles for users.
+A `Role` is a set of permissions that are given to users. Rocket.Chat comes with a set of default roles that can be modified.
 
-When someone is registered in a Rocket.Chat workspace, they will typically receive the `user`. If the user is a bot or a guest from a Live Chat channel, it can receive different roles. Also, the first user of a server always receives the role of `admin`.
+{% hint style="info" %}
+Roles are shown as little tags on the side of a username on messages.
+{% endhint %}
 
-Roles can have different scopes. Currently, we have two scopes `Users` and `Subscriptions`. The permissions of the `Users` roles are valid for the whole server, while the `Subscriptions` roles only apply to individual channels, where a user has to be elected to that role in that channel.
+### Scope of Roles
 
-An example of `Users` role would be an `admin`, that have permissions valid for the whole server, while a `moderator` that have a `Subscriptions` role would have permissions only in a channel they were elected for.
+Roles can have different scopes. Currently, we have two scopes `Global` and `Rooms`.
 
-Also, by default roles are shown as little tags on the side of a username on messages.
+**Global scope**: A role with the `Global` scope is valid for the whole server.
+
+**Room scope**: A role with the `Room` scope gets applied to [rooms](rooms-aka-channels.md), where a user has to be elected to that role in that channel.
+
+An example of `Global` scope role is the `admin` role having permissions valid for the whole server, while a `moderator` role is a `Room` scope role which has permissions valid only in a [channel](../user-guides/rooms/channels/) they were elected for.
+
+### Creating Custom Roles
+
+As a workspace administrator, you can create new roles with custom permissions for your workspace.
+
+{% hint style="info" %}
+As from Rocket.Chat `V6.0.x.x` the creating and editing of custom roles is an enterprise feature. ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1).jpg>)
+{% endhint %}
+
+To create a new role,
+
+* Navigate to **Administration** > **Workspace** > **Permissions**
+* Click on **New role**
+* A side panel opens, provide the details required
+  * **Role**: Name of the role.
+  * **Description**: Set a description of the role.
+  * **Scope**: Select what [scope](permissions.md#scope-of-roles) the role is to take effect on.
+* **Save**
+
+You can now allocate [permissions](permissions.md#permissions-available) to the role by checking the checkbox corresponding to each permission beneath the role.
 
 ### Default Roles
 

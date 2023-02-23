@@ -4,6 +4,10 @@ description: Integration between Rocket.Chat and YouTube Live
 
 # Livestream & Broadcasting
 
+{% hint style="danger" %}
+_The Livestream & Broadcasting_ _integration has been deprecated, may not work as expected, and will not receive updates._&#x20;
+{% endhint %}
+
 The integration between Rocket.Chat and YouTube Live allows channel owners to broadcast their live camera feed to Livestream inside a channel.
 
 To access the broadcasting settings,&#x20;
