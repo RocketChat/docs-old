@@ -1,6 +1,6 @@
 # Review All Message Auditing Panel Search Results
 
-The Message Auditing Panel returns all messages that match the search values defined in the mandatory fields for each option. However, the auditor cannot read the encrypted messages of other users. If you want to audit these messages, Rocket.Chat recommends that you disable message encryption.
+The **Message Auditing Panel** returns all messages that match the search values defined in the mandatory fields for each option. However, the auditor cannot read the encrypted messages of other users. If you want to audit these messages, Rocket.Chat recommends that you disable message encryption.
 
 To disable message encryption,
 

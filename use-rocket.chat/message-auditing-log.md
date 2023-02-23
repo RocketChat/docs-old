@@ -4,18 +4,29 @@ description: Review log history of users who have accessed the Message Auditing 
 
 # Message Auditing Log
 
-{% hint style="info" %}
-You must have the `auditor-log` role or the `can-audit-log` permission to access the Message Auditing Log.
-{% endhint %}
+<figure><img src="../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1).jpg" alt=""><figcaption></figcaption></figure>
 
-To access the message editing log, navigate to **Administration** > **Audit** > **Logs**.
+The **Message Audit Log** allows you to verify who run audits and when a conversation was inspected. The user must have an `auditor-log` [role](../setup-and-administer-rocket.chat/roles-in-rocket.chat/) and `Can Audit Log` [permission](rocket.chat-workspace-administration/permissions.md) to access the **Audit Logs**.
 
-If you are interested in the entire log history, clear the start and end date fields. The full log history results are presented to you, from the oldest audits to the most recent. However, if you want to see who audited messages within a specific time frame, enter the **start** (left) and end **date**s(right), and the result is automatically presented. You also have a context menu (pop-up) on the far right, which can be used to select an appropriate period.&#x20;
+To access the message auditing log,&#x20;
 
-The message auditing logs result is presented in five columns with the following information:
+* Navigate to **Administration** > **Audit** > **Logs**.
 
-* **User**: contains the name, username, and avatar of the auditors.
-* **Looked for**: the search term of each audit.
-* **When**: contains the date and time when each audit was made.
-* **Results**: includes the number of search results returned by each audit.
-* **Filters**: filters that were applied for each audit depending on the type of audit.
+If you are interested in the entire log history, clear the start and end date fields. The full log history results are  returned, from the oldest audits to the most recent. However, if you want to see who audited messages within a specific time frame, select the **start** (left) and end **date**s(right). The ![](../.gitbook/assets/three-dot-icon.png)**three-dots icon** also provides other time options like **Today**, **This Week,** etc.
+
+The message auditing logs returns a table with following information:
+
+* **Username** : The name, username, and avatar of the auditors.
+* **Looked for** : The search term of each audit.
+* **When** : The date and time when each audit was made.
+* **Results**: The number of search results returned by each audit.
+* **Filters**: Filters that were applied for each audit depending on the type of audit.
+
+## Assign Message Audit Log Permission to Specific Users
+
+The **Audit Log** [permissions](rocket.chat-workspace-administration/permissions.md) grant users access to **Message Audit** **Log** features. As a workspace administrator, you can assign this permssion **** to any [role ](rocket.chat-workspace-administration/permissions.md#roles)you want to give audit log access to.
+
+To assign message audit permissions,
+
+* Navigate to **Administration** > **Workspace** > **Permissions.**
+* To access the **Message Auditing Panel**, check the `Can Audit Log` box under the role you want to assign.
