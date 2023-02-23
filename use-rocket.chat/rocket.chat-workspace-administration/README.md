@@ -36,7 +36,7 @@ Only users with Administrator roles assigned to them can access this menu. If yo
 
 [**Mailer**](mailer.md): Use the Mailer tool to email users inside your Rocket.Chat workspace.
 
-[**Custom User Status**](custom-user-status.md): Learn to add custom status other than the default status presets available within Rocket.Chat.
+[**User Status**](user-status.md): See how to manage user presence and status on your workspace.
 
 [**Permissions**](permissions.md): Customize which users can perform specific actions under Rocket. Chat's rich permissions system.
 

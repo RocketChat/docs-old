@@ -214,7 +214,7 @@
     * [Add Jira notifications via webhook](use-rocket.chat/rocket.chat-workspace-administration/integrations/jira.md)
   * [OAuth Applications](use-rocket.chat/rocket.chat-workspace-administration/oauth-applications.md)
   * [Mailer](use-rocket.chat/rocket.chat-workspace-administration/mailer.md)
-  * [Custom User Status](use-rocket.chat/rocket.chat-workspace-administration/custom-user-status.md)
+  * [User Status](use-rocket.chat/rocket.chat-workspace-administration/user-status.md)
   * [Permissions](use-rocket.chat/rocket.chat-workspace-administration/permissions.md)
   * [Settings](use-rocket.chat/rocket.chat-workspace-administration/settings/README.md)
     * [Accounts](use-rocket.chat/rocket.chat-workspace-administration/settings/account-settings/README.md)
