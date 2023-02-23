@@ -48,7 +48,7 @@ Your workspace's main body on mobile has the rooms which you are part of and has
 
 The navigation drawer menu carries your profile avatar, name, and workspace name at the top and five action items which are Edit Status, Chats, Profile, Display, and Settings.
 
-* **The Edit Status** item is used to set a [custom status](../rocket.chat-workspace-administration/user-status.md).
+* **The Edit Status** item is used to set a [custom status](../rocket.chat-workspace-administration/custom-user-status.md).
 * **The Chats item** reveals the rooms you are part of enabling you to select any and start a conversation.
 * **The Profile** takes you to the screen for managing your [profile](../cloud-account/manage-your-cloud-account/profile.md).
 * **The Display** item takes you to the screen for display settings for you to choose between expanded or condensed messages, the sort order, and the grouping order of your rooms.
