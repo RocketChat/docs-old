@@ -1,4 +1,4 @@
-# Rocket.Chat Overview
+# Rocket.Chat
 
 [Rocket.Chat](https://rocket.chat)’s mission is to empower organizations to own their conversations by developing the world’s most flexible and secure open-source communications platform.\
 
@@ -67,8 +67,8 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 [omnichannel](use-rocket.chat/omnichannel/)
 {% endcontent-ref %}
 
-{% content-ref url="extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/" %}
-[omnichannel-apps](extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/)
+{% content-ref url="extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/" %}
+[omnichannel-apps](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/)
 {% endcontent-ref %}
 
 ### Features

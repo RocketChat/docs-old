@@ -12,8 +12,8 @@ To get the DLP app functioning on your workspace, you need the workspace adminis
 
 That can be done following this guide.
 
-{% content-ref url="../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/data-loss-prevention-dlp-app.md" %}
-[data-loss-prevention-dlp-app.md](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/data-loss-prevention-dlp-app.md)
+{% content-ref url="../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/data-loss-prevention-dlp-app.md" %}
+[data-loss-prevention-dlp-app.md](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/data-loss-prevention-dlp-app.md)
 {% endcontent-ref %}
 
 ## Data Loss Prevention App in Action

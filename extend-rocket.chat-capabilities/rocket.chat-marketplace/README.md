@@ -39,24 +39,24 @@ On the **Installed** tab of the **Apps** screen,
 If you are subscribed to Rocket.Chat's **Enterprise Edition**, you can install and enable all the apps available in the marketplace on your workspace. However, for **Community Edition**, you can to install any number of apps but only enable up to five apps on your workspace.&#x20;
 {% endhint %}
 
-If you are looking for the manual/user guide of a particular app, kindly check [App User Guides](apps-user-guides/) or search for it within the documentation.
+If you are looking for the manual/user guide of a particular app, kindly check [App User Guides](rocket.chat-public-apps-guides/) or search for it within the documentation.
 
 Some apps are part of the **Enterprise Edition** offerings. You don't have to purchase them if you already subscribe to the Enterprise Edition of Rocket.Chat. They include the following:
 
-* [Jira Server](apps-user-guides/atlassian/jira-server-integration.md)
+* [Jira Server](rocket.chat-public-apps-guides/atlassian/jira-server-integration.md)
 * Jira Cloud
-* [Confluence Server](apps-user-guides/atlassian/confluence-server-integration.md)
+* [Confluence Server](rocket.chat-public-apps-guides/atlassian/confluence-server-integration.md)
 * Confluence Cloud
-* [Bitbucket Server](apps-user-guides/atlassian/bitbucket-server-integration.md)
+* [Bitbucket Server](rocket.chat-public-apps-guides/atlassian/bitbucket-server-integration.md)
 * Bitbucket Cloud
-* [Bamboo](apps-user-guides/atlassian/bamboo-integration.md)
-* [Zoom](apps-user-guides/zoom.md)
-* [Data Loss Prevention (DLP)](apps-user-guides/data-loss-prevention-dlp-app.md)
+* [Bamboo](rocket.chat-public-apps-guides/atlassian/bamboo-integration.md)
+* [Zoom](rocket.chat-public-apps-guides/zoom.md)
+* [Data Loss Prevention (DLP)](rocket.chat-public-apps-guides/data-loss-prevention-dlp-app.md)
 * [Facebook](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/facebook-app)
 * [Trello](https://docs.rocket.chat/guides/app-guides/trello)
-* [Instagram Direct](apps-user-guides/omnichannel-apps/instagram-direct/)
-* [Telegram](apps-user-guides/omnichannel-apps/telegram-app/)
-* [Twitter](apps-user-guides/omnichannel-apps/twitter-app/)
+* [Instagram Direct](rocket.chat-public-apps-guides/omnichannel-apps/instagram-direct/)
+* [Telegram](rocket.chat-public-apps-guides/omnichannel-apps/telegram-app/)
+* [Twitter](rocket.chat-public-apps-guides/omnichannel-apps/twitter-app/)
 * [Pexip](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/pexip-app.md)
 * [Google Meet](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/google-meet-app.md)
 

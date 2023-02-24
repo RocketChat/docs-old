@@ -5,11 +5,11 @@ A simple relay communication between Rocket.Chat and Telegram is possible by con
 This will give you the possibility of relaying messages between Telegram and Rocket.Chat in a specified room of your choice.
 
 {% hint style="success" %}
-Rocket.Chat [Enterprise workspaces](../settings/enterprise.md) have the [Telegram App](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/telegram-app/) packaged with many more functionalities and other [Omnichannel](../../omnichannel/) features to use.
+Rocket.Chat [Enterprise workspaces](../settings/enterprise.md) have the [Telegram App](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/telegram-app/) packaged with many more functionalities and other [Omnichannel](../../omnichannel/) features to use.
 {% endhint %}
 
 {% hint style="warning" %}
-Note: This integration is not designed to work for Omnichannel Conversations. Please check out the [Telegram App](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/telegram-app/) for serving your Omnichannel conversations with Telegram.
+Note: This integration is not designed to work for Omnichannel Conversations. Please check out the [Telegram App](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/telegram-app/) for serving your Omnichannel conversations with Telegram.
 {% endhint %}
 
 ## Getting Started
@@ -35,7 +35,7 @@ Make sure Your Rocket.Chat workspace URL is publicly available.
 Before configuring the Telegram integration, make sure you:
 
 * [Create a channel](../../user-guides/rooms/channels/create-a-new-channel.md) on Rocket.Chat for incoming and outgoing conversations.
-* [Create a user](../users/#add-new-users) with `bot` [role ](../../../setup-and-administer-rocket.chat/roles-in-rocket.chat/)to be used for the relay.
+* [Create a user](../users/#add-new-users) with `bot` [role ](../../../setup-and-administer-rocket.chat/roles-in-rocket.chat)to be used for the relay.
 {% endhint %}
 
 ### Creating an Incoming Telegram webhook in Rocket.Chat

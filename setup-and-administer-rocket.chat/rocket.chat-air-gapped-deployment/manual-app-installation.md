@@ -7,12 +7,12 @@ These apps can help in improving collaboration, boosting productivity, and have 
 {% hint style="info" %}
 Following apps work without internet access and can be requested via your registered support contact in the support team.
 
-* [Bamboo Integration](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/atlassian/bamboo-integration.md)
-* [Bitbucket Server](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/atlassian/bitbucket-server-integration.md)
-* [Confluence Server](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/atlassian/confluence-server-integration.md)
-* [Data Loss Prevention](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/data-loss-prevention-dlp-app.md)
+* [Bamboo Integration](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bamboo-integration.md)
+* [Bitbucket Server](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bitbucket-server-integration.md)
+* [Confluence Server](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/confluence-server-integration.md)
+* [Data Loss Prevention](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/data-loss-prevention-dlp-app.md)
 * Jenkins Integration
-* [JIRA Server Integration](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/atlassian/jira-server-integration.md)
+* [JIRA Server Integration](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/jira-server-integration.md)
 * [Jitsi](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/jitsi-app.md)
 * [Pexip](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/pexip-app.md)
 {% endhint %}
