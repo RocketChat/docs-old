@@ -44,7 +44,7 @@ You can see other users’ emoji reactions beneath the message. To react with th
 
 ## Permalink a message
 
-Permalink a message to creates a URL directly to that message in the chat.
+Permalink a message to create a URL directly to that message in the chat.
 
 Click on the **Permalink** option in the message actions menu. This copies the message into your clipboard.
 
@@ -63,3 +63,13 @@ Use **Reply in Thread** to start a new thread underneath the original message. T
 ## Quote a message
 
 Quote a message to respond to another user's message without notifying the user directly. Select **Quote** in the message actions menu.
+
+## Message Info
+
+![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1).jpg>)
+
+The message info shows a list of users that have read the message with a timestamp.
+
+{% hint style="info" %}
+Message info is an enterprise feature and requires the message [read receipt](../../../rocket.chat-workspace-administration/settings/message.md#read-receipts) to be enabled by the workspace administrator.
+{% endhint %}
