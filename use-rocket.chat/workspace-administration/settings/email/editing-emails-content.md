@@ -5,7 +5,8 @@ You can customize the predefined emails sent out to users on your workspace.
 To customize email content, select the email type you want to change and modify. The email body can take in placeholder values used to set customized data e.g `[Site_Name]` is replaced with your Rocket.Chat server name.
 
 {% hint style="info" %}
-Available placeholder fields can be seen at the bottom of the field being edited.
+* Available placeholder fields can be seen at the bottom of the field being edited.
+* You can use Rocket.Chat internationalization engine by wrapping sentence string with `{ }`, see all internationalization strings [here](https://github.com/RocketChat/Rocket.Chat/tree/develop/apps/meteor/packages/rocketchat-i18n/i18n).
 {% endhint %}
 
 ### Device Management - Login Detected <a href="#5yq26mqgs4i" id="5yq26mqgs4i"></a>
