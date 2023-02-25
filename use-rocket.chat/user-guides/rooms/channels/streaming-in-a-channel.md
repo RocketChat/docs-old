@@ -1,6 +1,6 @@
 # Channel LiveStream
 
-The Streaming tab is displayed on the Channel **Options** menu if the [Youtube Livestream](../../../rocket.chat-workspace-administration/settings/livestream-and-broadcasting.md) feature is enabled. Channel owners and workspace administrators can start streaming or add another stream to the channel by specifying a URL through the **Streaming** tab.
+The Streaming tab is displayed on the Channel **Options** menu if the [Youtube Livestream](../../../workspace-administration/settings/livestream-and-broadcasting.md) feature is enabled. Channel owners and workspace administrators can start streaming or add another stream to the channel by specifying a URL through the **Streaming** tab.
 
 {% hint style="warning" %}
 You might only be able to link live broadcasts from YouTube, depending on the workspace settings. When in doubt, always ask the server administrator.
@@ -16,7 +16,7 @@ To start a stream,
 * Login with a Google account. Note that streaming must be activated through your Youtube account.&#x20;
 
 {% hint style="info" %}
-See [Broadcast Livestream](../../../rocket.chat-workspace-administration/settings/livestream-and-broadcasting.md) and [Live Stream on Youtube](https://support.google.com/youtube/answer/2474026?hl=en) to learn more about Channel LiveStream.
+See [Broadcast Livestream](../../../workspace-administration/settings/livestream-and-broadcasting.md) and [Live Stream on Youtube](https://support.google.com/youtube/answer/2474026?hl=en) to learn more about Channel LiveStream.
 {% endhint %}
 
 * To add a different Livestream, get the URL  for the stream, enter it into the **Livestream source** field, and hit save.

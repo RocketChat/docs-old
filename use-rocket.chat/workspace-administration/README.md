@@ -26,7 +26,7 @@ Only users with Administrator roles assigned to them can access this menu. If yo
 
 [**Federation Dashboard**](federation-dashboard.md): Check statistics about the federation connection on your server.
 
-[**Email Inboxes**](broken-reference/): Learn to manage Omnichannel email inboxes or email accounts for the email channels.
+[**Email Inboxes**](../rocket.chat-workspace-administration/broken-reference/): Learn to manage Omnichannel email inboxes or email accounts for the email channels.
 
 [**Custom Emoji**](custom-emoji.md): Learn to work with custom emojis in your Rocket.Chat workspace.
 

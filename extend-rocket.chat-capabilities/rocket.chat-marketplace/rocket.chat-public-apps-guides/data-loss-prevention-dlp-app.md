@@ -5,7 +5,7 @@
 Data loss prevention (DLP), in its simplest terms, is a security mechanism that helps to ensure that sensitive data is not unduly shared, misused, lost, or accessed by unauthorized users.
 
 {% hint style="info" %}
-The Data Loss Prevention App is free to use for [Enterprise ](../../../use-rocket.chat/rocket.chat-workspace-administration/settings/enterprise.md)workspaces.
+The Data Loss Prevention App is free to use for [Enterprise ](../../../use-rocket.chat/workspace-administration/settings/enterprise.md)workspaces.
 
 The App works best with the most recent version of Rocket.Chat.
 {% endhint %}

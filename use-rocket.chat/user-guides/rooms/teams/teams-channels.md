@@ -33,7 +33,7 @@ To create a new Team Channel:
 
 ## Add an existing channel to a team
 
-To add an existing channel to a team, you must be the channel owner or have [appropriate permissions](../../../rocket.chat-workspace-administration/permissions.md) in the team to add an existing channel.
+To add an existing channel to a team, you must be the channel owner or have [appropriate permissions](../../../workspace-administration/permissions.md) in the team to add an existing channel.
 
 When adding a channel to a team, the team owner gains rights over the channel (e.g., The team owner can delete the channel).
 

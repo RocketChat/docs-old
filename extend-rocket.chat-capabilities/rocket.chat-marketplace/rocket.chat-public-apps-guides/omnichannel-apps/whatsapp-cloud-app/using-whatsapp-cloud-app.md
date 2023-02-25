@@ -3,7 +3,7 @@
 After installing the WhatsApp Cloud App, Creating a Facebook Developer app for WhatsApp, and configuring the link with Rocket.Chat through webhook, Let us test the two-way communication between Rocket.Chat and WhatsApp.
 
 {% hint style="info" %}
-You must have the [Omnichannel feature](../../../../../use-rocket.chat/rocket.chat-workspace-administration/settings/omnichannel-admins-guide/) enabled as well as have [agents](../../../../../use-rocket.chat/omnichannel/agents.md) and [managers ](../../../../../use-rocket.chat/omnichannel/managers.md)assigned in order to receive and send Omnichannel messages.
+You must have the [Omnichannel feature](../../../../../use-rocket.chat/workspace-administration/settings/omnichannel-admins-guide/) enabled as well as have [agents](../../../../../use-rocket.chat/omnichannel/agents.md) and [managers ](../../../../../use-rocket.chat/omnichannel/managers.md)assigned in order to receive and send Omnichannel messages.
 {% endhint %}
 
 * Open the WhatsApp app on your phone logged in with the number verified to receive messages from

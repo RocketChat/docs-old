@@ -43,10 +43,10 @@ In Privacy, you can configure what information you want your push notification t
   This adds only the message id to the notification data. The mobile client dynamically fetches the content from the server and updates the notification before displaying it.
 
 {% hint style="info" %}
-For [Enterprise workspaces](../../rocket.chat-workspace-administration/settings/enterprise.md), failure in fetching a message using the `message id` provided in the push data results in a "You have a new message" being sent.
+For [Enterprise workspaces](enterprise.md), failure in fetching a message using the `message id` provided in the push data results in a "You have a new message" being sent.
 {% endhint %}
 
-With the push configuration completed, follow this guide to set the default user preferences for notifications [#default-user-preferences](../../rocket.chat-workspace-administration/settings/account-settings/#default-user-preferences "mention").&#x20;
+With the push configuration completed, follow this guide to set the default user preferences for notifications [#default-user-preferences](account-settings/#default-user-preferences "mention").&#x20;
 
 Manage channel-based notifications using the&#x20;
 
@@ -55,7 +55,7 @@ Manage channel-based notifications using the&#x20;
 {% endcontent-ref %}
 
 {% hint style="info" %}
-On some channels, notifications can stop if the number of users exceeds the set limit. The limit is set in the **Administration** > **General** > **Notifications**. [#notifications](../../rocket.chat-workspace-administration/settings/general/#notifications "mention")
+On some channels, notifications can stop if the number of users exceeds the set limit. The limit is set in the **Administration** > **General** > **Notifications**. [#notifications](general/#notifications "mention")
 {% endhint %}
 
 ## Connect to cloud
@@ -64,8 +64,8 @@ When you purchase a  package for push notifications as a self-managed customer, 
 
 Link and sync your account in the Connectivity Services menu.
 
-{% content-ref url="../../rocket.chat-workspace-administration/connectivity-services.md" %}
-[connectivity-services.md](../../rocket.chat-workspace-administration/connectivity-services.md)
+{% content-ref url="../connectivity-services.md" %}
+[connectivity-services.md](../connectivity-services.md)
 {% endcontent-ref %}
 
 ## Check the count of notifications used per month

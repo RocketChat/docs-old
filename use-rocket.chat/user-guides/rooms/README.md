@@ -3,7 +3,7 @@
 Rooms provide different methods of conversations in your workspace. They allow a more structured and purpose-oriented workflow.
 
 {% hint style="info" %}
-If you are an administrator, see the [**Room Workspace Administration**](../../rocket.chat-workspace-administration/rooms-aka-channels.md)**.**
+If you are an administrator, see the [**Room Workspace Administration**](../../workspace-administration/rooms-aka-channels.md)**.**
 {% endhint %}
 
 ## Types of Rooms in Rocket.Chat
@@ -12,11 +12,11 @@ If you are an administrator, see the [**Room Workspace Administration**](../../r
 
 ****[**Teams**](../../../guides/user-guides/rooms/teams/)**:** Promotes collaboration between different teams.
 
-****[**Discussions**](../../rocket.chat-workspace-administration/settings/discussion.md):  Allows a separate focused conversation around larger topics in a team or channel.
+****[**Discussions**](../../workspace-administration/settings/discussion.md):  Allows a separate focused conversation around larger topics in a team or channel.
 
 ****[**Direct Messages**](direct-messages/): Allows one-off conversations that do not require a channel or team.
 
-****[**Thread**](../../rocket.chat-workspace-administration/settings/threads.md): Organized conversations around a particular message.
+****[**Thread**](../../workspace-administration/settings/threads.md): Organized conversations around a particular message.
 
 ## Mentions
 

@@ -13,8 +13,8 @@
 
 To be able to use E2E Encryption, your Rocket.Chat workspace administrator must turn on the End to End Encryption feature.
 
-{% content-ref url="../../rocket.chat-workspace-administration/settings/e2e-encryption.md" %}
-[e2e-encryption.md](../../rocket.chat-workspace-administration/settings/e2e-encryption.md)
+{% content-ref url="../../workspace-administration/settings/e2e-encryption.md" %}
+[e2e-encryption.md](../../workspace-administration/settings/e2e-encryption.md)
 {% endcontent-ref %}
 
 {% hint style="success" %}

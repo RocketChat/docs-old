@@ -1,6 +1,6 @@
 # Assign Message Auditing Permissions to Specific Users
 
-The **Auditor** [permission](../rocket.chat-workspace-administration/permissions.md) grant users access to **Message Auditing** features. As a workspace administrator, you can assign this permission **** to any [role ](../rocket.chat-workspace-administration/permissions.md#roles)you want to give audit access to.
+The **Auditor** [permission](../workspace-administration/permissions.md) grant users access to **Message Auditing** features. As a workspace administrator, you can assign this permission **** to any [role ](../workspace-administration/permissions.md#roles)you want to give audit access to.
 
 To assign message audit permissions,
 

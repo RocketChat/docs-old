@@ -23,7 +23,7 @@ To enable the **Omnichannel** feature on your workspace,
 * Click **Save Changes**
 
 {% hint style="info" %}
-Kindly contact your workspace administrator to enable Omnichannel. [Learn how to configure Omnichannel on your Rocket.Chat workspace.](../rocket.chat-workspace-administration/settings/omnichannel-admins-guide/)
+Kindly contact your workspace administrator to enable Omnichannel. [Learn how to configure Omnichannel on your Rocket.Chat workspace.](../workspace-administration/settings/omnichannel-admins-guide/)
 {% endhint %}
 
 Now the administrator and Rocket.Chat Omnichannel Manager can access _**Omnichannel Settings**_ by navigating to **Administration > Omnichannel.** Only users with Administrator and Omnichannel Manager [roles ](../../setup-and-administer-rocket.chat/roles-in-rocket.chat/)assigned to them can access this menu.

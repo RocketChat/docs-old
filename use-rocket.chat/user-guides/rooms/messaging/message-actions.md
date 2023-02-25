@@ -71,5 +71,5 @@ Quote a message to respond to another user's message without notifying the user 
 The message info shows a list of users that have read the message with a timestamp.
 
 {% hint style="info" %}
-Message info is an enterprise feature and requires the message [read receipt](../../../rocket.chat-workspace-administration/settings/message.md#read-receipts) to be enabled by the workspace administrator.
+Message info is an enterprise feature and requires the message [read receipt](../../../workspace-administration/settings/message.md#read-receipts) to be enabled by the workspace administrator.
 {% endhint %}

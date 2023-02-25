@@ -58,5 +58,5 @@ The room information screen gives detailed information about the current channel
 * **Password**: Tells whether a channel has a password and lets you set the password. If a channel has a password, users need to enter the password to become a channel member.
 
 {% hint style="warning" %}
-If a [Retention Policy](../../../rocket.chat-workspace-administration/settings/retention-policies.md) is active on this channel, a red warning box appears stating when messages or files are deleted.
+If a [Retention Policy](../../../workspace-administration/settings/retention-policies.md) is active on this channel, a red warning box appears stating when messages or files are deleted.
 {% endhint %}

@@ -9,7 +9,7 @@ To edit a discussion,&#x20;
 
 ## Prune Messages from a Discussion
 
-If you are a server admin, or your admin has given you the **clean-discussion-history** [permission](../../../rocket.chat-workspace-administration/permissions.md), the **prune messages** option allows you to delete messages from a discussion swiftly.
+If you are a server admin, or your admin has given you the **clean-discussion-history** [permission](../../../workspace-administration/permissions.md), the **prune messages** option allows you to delete messages from a discussion swiftly.
 
 {% hint style="info" %}
 _Pruned messages and files are deleted forever and cannot be recovered. You are advised to use this feature with extra caution._

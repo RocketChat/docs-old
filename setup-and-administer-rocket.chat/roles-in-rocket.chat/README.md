@@ -2,7 +2,7 @@
 
 Roles in Rocket.Chat makes it easy for you to manage, control and secure access to resources and features.
 
-A Role can be tied to one or more [**Permissions**](../../use-rocket.chat/rocket.chat-workspace-administration/permissions.md) allowing different users to have different levels of access based on the role assigned to them by the workspace Admin.
+A Role can be tied to one or more [**Permissions**](../../use-rocket.chat/workspace-administration/permissions.md) allowing different users to have different levels of access based on the role assigned to them by the workspace Admin.
 
 As a Rocket.Chat workspace administrator, you can assign certain privileges to users, such as the ability to send messages or manage channels. By assigning roles and permissions, it is possible to control and limit the actions of a user, ensuring that they are only able to access and perform the action that they are authorized to do so.
 
@@ -17,7 +17,7 @@ This document aims at listing out the various Roles in Rocket.Chat using the fol
 
 A Rocket.Chat Administrator has the `Admin` role, which gives them full access to the entire Rocket.Chat workspace.
 
-They can manage both [rocket.chat-workspace-administration](../../use-rocket.chat/rocket.chat-workspace-administration/ "mention") and [omnichannel](../../use-rocket.chat/omnichannel/ "mention") settings.
+They can manage both [workspace-administration](../../use-rocket.chat/workspace-administration/ "mention") and [omnichannel](../../use-rocket.chat/omnichannel/ "mention") settings.
 
 ## Rocket.Chat User Roles
 
@@ -26,7 +26,7 @@ Rocket.Chat users can have one or more roles, allowing them to perform the vario
 | Role          | Description                                                                                                                                                                                                                                                                                                         |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `user`        | The `user` role is the most common role in Rocket.Chat. It serves as a standard role for all members in a Rocket.Chat instance. [Users ](../../use-rocket.chat/user-guides/)can join [rooms](../../use-rocket.chat/user-guides/rooms/), send messages, upload files, and participate in all forms of communication. |
-| `bot`         | [Bots ](../../use-rocket.chat/rocket.chat-workspace-administration/settings/bots.md)are automated users that can be programmed to perform specific tasks, such as sending messages, answering questions, and triggering notifications.                                                                              |
+| `bot`         | [Bots ](../../use-rocket.chat/workspace-administration/settings/bots.md)are automated users that can be programmed to perform specific tasks, such as sending messages, answering questions, and triggering notifications.                                                                                          |
 | `guest`       | Guest users are non-registered users who have access to your Rocket.Chat instance public channels.                                                                                                                                                                                                                  |
 | `anonymous`   | Unauthenticated visitors on your Rocket.Chat workspace. Anonymous users do not have a specified username.                                                                                                                                                                                                           |
 | `app`         | Automated users that are used by Rocket.Chat Apps from the [rocket.chat-marketplace](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/ "mention")                                                                                                                                                      |
@@ -47,7 +47,7 @@ Rocket.Chat users can have one or more roles, allowing them to perform the vario
 | `livechat-monitor` | Users with the `livechat-monitor` role can view and [monitor ](../../use-rocket.chat/omnichannel/monitors-managers-guide.md)Live Chat interactions and analytics.                                                                         |
 
 {% hint style="info" %}
-You can create and manage custom Roles with specified permissions tailored to your needs. Learn more about Rocket.Chat Roles here [#roles](../../use-rocket.chat/rocket.chat-workspace-administration/permissions.md#roles "mention")
+You can create and manage custom Roles with specified permissions tailored to your needs. Learn more about Rocket.Chat Roles here [#roles](../../use-rocket.chat/workspace-administration/permissions.md#roles "mention")
 {% endhint %}
 
 ### Rocket.Chat Marketplace Roles

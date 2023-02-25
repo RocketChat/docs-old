@@ -1,6 +1,6 @@
 # Threads
 
-**Threads** help to organize conversations and enable users to discuss topics without disorganizing a [room](../). They improve the ability to process room content, find, follow, and resume conversations more efficiently, keeping threaded discussions focused. Threads are a series of replies or follow-up conversations under any message in a [Team](../../../../guides/user-guides/rooms/teams/), [Channels](../channels/), [Discussion](../../../rocket.chat-workspace-administration/settings/discussion.md), or [Direct Message](../../../rocket.chat-workspace-administration/settings/discussion.md). They are identified by: <img src="../../../../.gitbook/assets/thread-icon.png" alt="" data-size="line">
+**Threads** help to organize conversations and enable users to discuss topics without disorganizing a [room](../). They improve the ability to process room content, find, follow, and resume conversations more efficiently, keeping threaded discussions focused. Threads are a series of replies or follow-up conversations under any message in a [Team](../../../../guides/user-guides/rooms/teams/), [Channels](../channels/), [Discussion](../../../workspace-administration/settings/discussion.md), or [Direct Message](../../../workspace-administration/settings/discussion.md). They are identified by: <img src="../../../../.gitbook/assets/thread-icon.png" alt="" data-size="line">
 
 ## View Threads in a Room
 

@@ -10,7 +10,7 @@ Each of those options has its strengths and weaknesses.
 
 **Changing the source** code is the most powerful way of extending Rocket.Chat, but not the simplest - you need to learn the code base, understand the code pattern and rules, submit a PR, and follow up on any changes requested to get it merged.
 
-[Integrations](../../use-rocket.chat/rocket.chat-workspace-administration/integrations/), on the other hand, allow you to write simple scripts that will be executed either when a message is sent or received in a channel. They’re quick to learn and write, but their scope is very limited.
+[Integrations](../../use-rocket.chat/workspace-administration/integrations/), on the other hand, allow you to write simple scripts that will be executed either when a message is sent or received in a channel. They’re quick to learn and write, but their scope is very limited.
 
 [ Apps](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/) are the middle ground. They are much more powerful than integrations, allowing you to interact with the UI and execute custom routines on several triggers. They’re not as complex as learning the whole code base and can be distributed to our whole community via the Marketplace.
 

@@ -2,7 +2,7 @@
 
 ## View Discussion Members
 
-Discussion members must have either one of these roles: Owner, Leader, Moderator, or User. Each discussion member's [permission](../../../rocket.chat-workspace-administration/permissions.md) members will depend on their role. The discussion owner can manage all the members and assign any of these roles to them.
+Discussion members must have either one of these roles: Owner, Leader, Moderator, or User. Each discussion member's [permission](../../../workspace-administration/permissions.md) members will depend on their role. The discussion owner can manage all the members and assign any of these roles to them.
 
 To see the list of members in a Discussion,&#x20;
 
@@ -54,5 +54,5 @@ This link will ask the invitee to sign up if they are outside your Rocket.Chat w
 To delete an invite link, see [Delete an Invite Record via Admin Panel](https://docs.rocket.chat/guides/administration/admin-panel/invites#delete-a-record). This feature comes in handy when you have an invite link with an **Expiration date: Never**. To avoid abuse, you can revoke it by deleting the invite record.
 
 {% hint style="warning" %}
-You must have the **Create Invite Link** [permission](../../../rocket.chat-workspace-administration/permissions.md) granted for your role to use the [permission](../../../rocket.chat-workspace-administration/permissions.md). It is turned **ON** for the Admin, Owner, and Moderator roles. However, you can always ask the workspace administrator to update it to suit your needs.
+You must have the **Create Invite Link** [permission](../../../workspace-administration/permissions.md) granted for your role to use the [permission](../../../workspace-administration/permissions.md). It is turned **ON** for the Admin, Owner, and Moderator roles. However, you can always ask the workspace administrator to update it to suit your needs.
 {% endhint %}

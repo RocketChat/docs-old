@@ -2,7 +2,7 @@
 
 ## View Channel Members
 
-Channel members must have either one of these roles: Owner, Leader, Moderator, or User. Each channel member's [permission](../../../rocket.chat-workspace-administration/permissions.md) members will depend on their role. The channel owner can manage all the channel members and assign any of these roles to them.
+Channel members must have either one of these roles: Owner, Leader, Moderator, or User. Each channel member's [permission](../../../workspace-administration/permissions.md) members will depend on their role. The channel owner can manage all the channel members and assign any of these roles to them.
 
 To see the list of members in a Channel,&#x20;
 
@@ -54,12 +54,12 @@ This link will ask the invitee to sign up if they are outside your Rocket.Chat w
 To delete an invite link, see [Delete an Invite Record via Admin Panel](https://docs.rocket.chat/guides/administration/admin-panel/invites#delete-a-record). This feature comes in handy when you have an invite link with an **Expiration date: Never**. To avoid abuse, you can revoke it by deleting the invite record.
 
 {% hint style="warning" %}
-You must have the **Create Invite Link** [permission](../../../rocket.chat-workspace-administration/permissions.md) granted for your role to use the [permission](../../../rocket.chat-workspace-administration/permissions.md). It is turned **ON** for the Admin, Owner, and Moderator roles. However, you can always ask the workspace administrator to update it to suit your needs.
+You must have the **Create Invite Link** [permission](../../../workspace-administration/permissions.md) granted for your role to use the [permission](../../../workspace-administration/permissions.md). It is turned **ON** for the Admin, Owner, and Moderator roles. However, you can always ask the workspace administrator to update it to suit your needs.
 {% endhint %}
 
 ## Remove a member from the Team
 
-By default, only the channel owner can remove a team member. Although, other users with appropriate [permissions ](../../../rocket.chat-workspace-administration/permissions.md)can also remove a team member.
+By default, only the channel owner can remove a team member. Although, other users with appropriate [permissions ](../../../workspace-administration/permissions.md)can also remove a team member.
 
 * In the Channel members screen, search and select the user to view their **User Info**.&#x20;
 * Click the **three dots** icon, then select **Remove from room.**

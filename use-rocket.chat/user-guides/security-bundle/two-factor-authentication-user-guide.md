@@ -16,8 +16,8 @@ By default, 2FA is enabled with the email you used for signing up on the server.
 
 To be able to use 2FA, the Rocket.Chat workspace administrator must turn on the Two Factor Authentication feature.
 
-{% content-ref url="../../rocket.chat-workspace-administration/settings/account-settings/" %}
-[account-settings](../../rocket.chat-workspace-administration/settings/account-settings/)
+{% content-ref url="../../workspace-administration/settings/account-settings/" %}
+[account-settings](../../workspace-administration/settings/account-settings/)
 {% endcontent-ref %}
 
 ## Enabling Two Factor Authentication
