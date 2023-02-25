@@ -66,10 +66,10 @@ Quote a message to respond to another user's message without notifying the user 
 
 ## Message Info
 
-![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (21).jpg>)
+![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (21).jpg>)
 
 The message info shows a list of users that have read the message with a timestamp.
 
 {% hint style="info" %}
-Message info is an enterprise feature and requires the message [read receipt](../../../workspace-administration/settings/message.md#read-receipts) to be enabled by the workspace administrator.
+Message info is an enterprise feature and requires the message [read receipt](../../workspace-administration/settings/message.md#read-receipts) to be enabled by the workspace administrator.
 {% endhint %}

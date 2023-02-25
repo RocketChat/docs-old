@@ -9,7 +9,7 @@ A **Presence** is used to determine the **Status** of a user in the workspace.
 By default, Rocket.Chat has the following Presence presets.
 
 * **Online**: Used to indicate a user is online and available.
-* **Away**: Indicates a user is idle and away from the workspace. See how to configure the Idle time limit here [Default User Preferences](settings/account-settings/#default-user-preferences) or as a user in [User Presence](../user-guides/user-panel/managing-your-account/#user-presence).
+* **Away**: Indicates a user is idle and away from the workspace. See how to configure the Idle time limit here [Default User Preferences](settings/account-settings/#default-user-preferences) or as a user in [User Presence](../user-guides/user-panel/my-account/#user-presence).
 * **Busy**: This shows a user is busy and unavailable on the workspace.
 * **Offline**: Used to indicate a user is offline and not connected.
 

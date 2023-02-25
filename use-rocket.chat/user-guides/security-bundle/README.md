@@ -10,6 +10,6 @@ The Rocket.Chat Security Bundle includes the following features and tools:
 
 ****[**Open-source Antivirus app**](antivirus-clamav-app.md): Secure file sharing within your workspace.
 
-****[**E2E Encryption**](end-to-end-encryption.md): Secure the confidentiality of your communication with encryption.
+****[**E2E Encryption**](end-to-end-encryption-user-guide.md): Secure the confidentiality of your communication with encryption.
 
 ****[**Two Factor Authentication(2FA)**](two-factor-authentication-user-guide.md): Enforce authentication and account access with 2FA.

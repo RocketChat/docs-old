@@ -44,12 +44,12 @@ To learn more, see [Teams: Efficiently Manage Your Remote Team on Rocket.Chat](h
 [team-information-view-and-edit.md](team-information-view-and-edit.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../../use-rocket.chat/user-guides/rooms/teams/teams-members.md" %}
-[teams-members.md](../../../../use-rocket.chat/user-guides/rooms/teams/teams-members.md)
+{% content-ref url="../../../../use-rocket.chat/user-guides/rooms/teams/manage-team-members.md" %}
+[manage-team-members.md](../../../../use-rocket.chat/user-guides/rooms/teams/manage-team-members.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../../use-rocket.chat/user-guides/rooms/teams/teams-channels.md" %}
-[teams-channels.md](../../../../use-rocket.chat/user-guides/rooms/teams/teams-channels.md)
+{% content-ref url="../../../../use-rocket.chat/user-guides/rooms/teams/manage-team-channels.md" %}
+[manage-team-channels.md](../../../../use-rocket.chat/user-guides/rooms/teams/manage-team-channels.md)
 {% endcontent-ref %}
 
 {% content-ref url="teams-enterprise-edition.md" %}

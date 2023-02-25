@@ -38,7 +38,7 @@ You can create a [Direct Message](../../../../../user-guides/rooms/direct-messag
 
 Create a federated DM with these steps:
 
-* Start- by [creating a 1:1 Direct Message](../../../../../user-guides/rooms/direct-messages/create-a-new-direct-message-1-1.md)&#x20;
+* Start- by [creating a 1:1 Direct Message](../../../../../user-guides/rooms/direct-messages/create-a-new-direct-message.md)&#x20;
 * Set the federated user you wish to message following the [syntax to invite external users](invite-external-users-to-your-rocket.chat-server.md#invite-external-users-syntax).
 
 ## Creating a Multi-user Direct Message

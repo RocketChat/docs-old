@@ -42,7 +42,7 @@ However, it differs from read-only channels in the following ways:
 
 ### Encrypted Channels
 
-Encrypted channels have end-to-end encryption enabled across all messages exchanged by the Channel members. To learn more, see [End to End Encryption](../../security-bundle/end-to-end-encryption.md).
+Encrypted channels have end-to-end encryption enabled across all messages exchanged by the Channel members. To learn more, see [End to End Encryption](../../security-bundle/end-to-end-encryption-user-guide.md).
 
 ## Channel Information
 

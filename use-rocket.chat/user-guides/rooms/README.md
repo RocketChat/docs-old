@@ -3,7 +3,7 @@
 Rooms provide different methods of conversations in your workspace. They allow a more structured and purpose-oriented workflow.
 
 {% hint style="info" %}
-If you are an administrator, see the [**Room Workspace Administration**](../../workspace-administration/rooms-aka-channels.md)**.**
+If you are an administrator, see the [**Room Workspace Administration**](../../workspace-administration/rooms.md)**.**
 {% endhint %}
 
 ## Types of Rooms in Rocket.Chat

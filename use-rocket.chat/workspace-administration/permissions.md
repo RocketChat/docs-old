@@ -24,7 +24,7 @@ Roles can have different scopes. Currently, we have two scopes `Global` and `Roo
 
 **Global scope**: A role with the `Global` scope is valid for the whole server.
 
-**Room scope**: A role with the `Room` scope gets applied to [rooms](rooms-aka-channels.md), where a user has to be elected to that role in that channel.
+**Room scope**: A role with the `Room` scope gets applied to [rooms](rooms.md), where a user has to be elected to that role in that channel.
 
 An example of `Global` scope role is the `admin` role having permissions valid for the whole server, while a `moderator` role is a `Room` scope role which has permissions valid only in a [channel](../user-guides/rooms/channels/) they were elected for.
 

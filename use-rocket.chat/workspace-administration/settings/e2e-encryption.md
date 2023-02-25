@@ -22,6 +22,6 @@ To access this setting, go to **Administration** > **Workspace** > **Settings** 
 * **Enable encryption for Direct Rooms by default**: When set to true, direct rooms will be encrypted by default.
 * **Enable encryption for Private Rooms by default**: When enabled, private rooms will be encrypted by default.
 
-{% content-ref url="../../user-guides/security-bundle/end-to-end-encryption.md" %}
-[end-to-end-encryption.md](../../user-guides/security-bundle/end-to-end-encryption.md)
+{% content-ref url="../../user-guides/security-bundle/end-to-end-encryption-user-guide.md" %}
+[end-to-end-encryption-user-guide.md](../../user-guides/security-bundle/end-to-end-encryption-user-guide.md)
 {% endcontent-ref %}

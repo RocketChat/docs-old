@@ -76,7 +76,7 @@ The checkmark turns blue when the message is read.
 
 <figure><img src="../../../.gitbook/assets/Message-read-receipt.png" alt=""><figcaption><p>Read receipt indicator</p></figcaption></figure>
 
-With read receipt enabled, the [message info action](../../user-guides/rooms/messaging/message-actions.md#message-info) shows a list of users that have read the message.
+With read receipt enabled, the [message info action](../../user-guides/messages/message-actions.md#message-info) shows a list of users that have read the message.
 
 ## Auto-Translate <a href="#ibh8nd40he" id="ibh8nd40he"></a>
 
