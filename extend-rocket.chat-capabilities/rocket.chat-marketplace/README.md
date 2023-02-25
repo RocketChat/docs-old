@@ -68,27 +68,19 @@ If your workspace version is `5.4` or lower, you can use all the enabled public 
 
 For enterprise edition (EE), workspaces can install all Public and Private apps. But, if a enterprise edition (EE) workspace liscense expires and the workspace has exceded the the **** limit, then marketplace disables all downloaded apps, and the app count returns to zero.
 
-{% hint style="success" %}
-If you are subscribed to Rocket.Chat's **Enterprise Edition**, you can install and enable all the apps available in the marketplace on your workspace. However, for **Community Edition**, you can to install any number of apps but only enable up to five apps on your workspace.&#x20;
-{% endhint %}
+## Enterprise Edition App Offerings
 
 Some apps are part of the **Enterprise Edition** offerings. You don't have to purchase them if you already subscribe to the Enterprise Edition of Rocket.Chat. They include the following:
 
-* [Jira Server](rocket.chat-public-apps-guides/atlassian/jira-server-integration.md)
-* Jira Cloud
-* [Confluence Server](rocket.chat-public-apps-guides/atlassian/confluence-server-integration.md)
-* Confluence Cloud
-* [Bitbucket Server](rocket.chat-public-apps-guides/atlassian/bitbucket-server-integration.md)
-* Bitbucket Cloud
-* [Bamboo](rocket.chat-public-apps-guides/atlassian/bamboo-integration.md)
-* [Zoom](rocket.chat-public-apps-guides/zoom.md)
-* [Data Loss Prevention (DLP)](rocket.chat-public-apps-guides/data-loss-prevention-dlp-app.md)
-* [Facebook](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/facebook-app)
-* [Trello](https://docs.rocket.chat/guides/app-guides/trello)
-* [Instagram Direct](rocket.chat-public-apps-guides/omnichannel-apps/instagram-direct/)
-* [Telegram](rocket.chat-public-apps-guides/omnichannel-apps/telegram-app/)
-* [Twitter](rocket.chat-public-apps-guides/omnichannel-apps/twitter-app/)
-* [Pexip](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/pexip-app.md)
-* [Google Meet](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/google-meet-app.md)
+|                                                                                              |                                                                                      |                                                                                                     |                                                                                                                 |
+| -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| [Jira Server](rocket.chat-public-apps-guides/atlassian/jira-server-integration.md)           | Jira Cloud                                                                           | [Confluence Server](rocket.chat-public-apps-guides/atlassian/confluence-server-integration.md)      | Confluence Cloud                                                                                                |
+| [Bitbucket Server](rocket.chat-public-apps-guides/atlassian/bitbucket-server-integration.md) | Bitbucket Cloud                                                                      | [Bamboo](rocket.chat-public-apps-guides/atlassian/bamboo-integration.md)                            | [Zoom](rocket.chat-public-apps-guides/zoom.md)                                                                  |
+| [Data Loss Prevention (DLP)](rocket.chat-public-apps-guides/data-loss-prevention-dlp-app.md) | [Facebook](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/facebook-app) | [Trello](https://docs.rocket.chat/guides/app-guides/trello)                                         | [Instagram Direct](rocket.chat-public-apps-guides/omnichannel-apps/instagram-direct/)                           |
+| [Telegram](rocket.chat-public-apps-guides/omnichannel-apps/telegram-app/)                    | [Twitter](rocket.chat-public-apps-guides/omnichannel-apps/twitter-app/)              | [Pexip](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/pexip-app.md) | [Google Meet](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/google-meet-app.md) |
+
+{% hint style="success" %}
+If you are subscribed to Rocket.Chat's **Enterprise Edition**, you can install and enable any number paid and free apps available in the marketplace on your workspace.&#x20;
+{% endhint %}
 
 If you are looking for the manual/user guide of a particular app, check [rocket.chat-public-apps-guides](rocket.chat-public-apps-guides/ "mention") or search for it within the documentation.
