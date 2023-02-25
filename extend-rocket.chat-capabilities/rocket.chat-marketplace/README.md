@@ -16,12 +16,32 @@ description: You can view the available and installed Rocket.Chat Apps and manag
 * Send messages to users; create and manage public channels, groups, discussions, and threads.
 
 {% hint style="info" %}
-You must register your workspace (even if it is a community edition) on [Rocket.Chat Cloud](https://cloud.rocket.chat) before you can install apps from the Rocket.Chat marketplace. Use the login button at the top right to log in to Rocket.Chat Cloud.&#x20;
+You must register your workspace (even if it is a community edition) on [Rocket.Chat Cloud](https://cloud.rocket.chat) before you can install apps from the Rocket.Chat marketplace.
 {% endhint %}
 
-You can browse Rocket.Chat apps either on our [marketplace](https://rocket.chat/marketplace) or access them directly from **Administration > Workspace > Apps.**
+## Types of Apps
 
-On the **Marketplace** tab of the **Apps** screen,
+### Public Apps
+
+Public Apps are all the apps available on the Rocket.Chat [marketplace](https://www.rocket.chat/marketplace). They include Polls, Twitter, Jitsi, amongst many others.&#x20;
+
+{% hint style="info" %}
+You can learn how to install and enable each of them in the [App Guide](rocket.chat-public-apps-guides/).
+{% endhint %}
+
+### Private Apps
+
+A private app is an app that it's not listed on the marketplace. A workspace can develop its apps and publish them on the workspace. They can only work on the workspace that uploaded it.
+
+## App Limitations
+
+For community edition (CE), a user can install numerous apps from the marketplace but enable only five. Once it reaches the limit, you can upgrade to the enterprise edition (EE) for access to enable all apps in the workspace. If your workspace version is `5.4` or lower, you can use all the enabled apps you already have. However, you can not purchase or enable more apps once the limit is reached.
+
+For enterprise edition (EE), if a workspace liscense expires and the workspace has exceded the the **** limit, thene market place disable all downloaded apps, and the app count returns to zero.
+
+You can browse Rocket.Chat apps either on our [marketplace](https://rocket.chat/marketplace) or access them directly from **Administration > Apps > Marketplace.**
+
+On the **Explore** tab of the **Apps** screen,
 
 * You can see all the apps available on Rocket.Chat and seach for the one you need.
 * You can also filter based on **Categories, Status, and Price.** Choose between multiple categories within the filter to help you find the best app for your workspace users.
