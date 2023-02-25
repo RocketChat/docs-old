@@ -255,7 +255,7 @@
       * [Net Promoter Score (NPS) survey](use-rocket.chat/workspace-administration/settings/general/net-promoter-score-nps-survey.md)
     * [IRC](use-rocket.chat/workspace-administration/settings/irc.md)
     * [IRC Federation](use-rocket.chat/workspace-administration/settings/irc-federation.md)
-    * [Layout](use-rocket.chat/workspace-administration/settings/layout.md)
+    * [Layout](use-rocket.chat/rocket.chat-workspace-administration/settings/layout.md)
     * [LDAP](use-rocket.chat/workspace-administration/settings/ldap/README.md)
       * [LDAP Connection Setting](use-rocket.chat/workspace-administration/settings/ldap/ldap-connection-setting.md)
       * [LDAP User Search](use-rocket.chat/workspace-administration/settings/ldap/ldap-user-search.md)

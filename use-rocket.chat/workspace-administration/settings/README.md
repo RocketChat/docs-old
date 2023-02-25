@@ -40,7 +40,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 ****[**IRC Federation**](irc-federation.md): Learn to configure how to connect to other IRC servers.
 
-****[**Layout**](layout.md): Under the Layout option, you can personalize the appearance of your Rocket.Chat workspace by specifying various colors or providing custom CSS.
+****[**Layout**](../../rocket.chat-workspace-administration/settings/layout.md): Under the Layout option, you can personalize the appearance of your Rocket.Chat workspace by specifying various colors or providing custom CSS.
 
 ****[**LDAP**](ldap/): Learn how to configure Lightweight Access Directory Protocol so that no one can access or cannot access information about your server or business.
 
@@ -60,7 +60,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 ****[**OTR**](otr.md): Under off-the-record chats, enable private, encrypted messaging in direct discussions, which are also deleted when conversations are finalized.
 
-****[**Push**](../../workspace-administration/settings/push.md): Customize notification behaviors for users using the Rocket.Chat mobile apps.
+****[**Push**](push.md): Customize notification behaviors for users using the Rocket.Chat mobile apps.
 
 ****[**Rate Limiter**](rate-limiter.md): Limit network traffic and potential bot attacks on your Rocket.Chat server by limiting the number of hits on the server within a specified timeframe.
 

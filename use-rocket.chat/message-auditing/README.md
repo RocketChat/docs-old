@@ -6,7 +6,7 @@ enterprise: true
 
 # Message Auditing
 
-<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (21).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 Rocket.Chat allows authorized users to audit messages and read conversations in a workspace. The user must have an `auditor` [role](../../setup-and-administer-rocket.chat/roles-in-rocket.chat/) and `Can Audit` [permission](../workspace-administration/permissions.md) to access the auditing panel. As  an organization, you may want to inspect the [omnichannel](../omnichannel/) conversations and watch out for [agents ](../omnichannel/agents.md)that use improper language with customers.  An auditor can do the following:
 
