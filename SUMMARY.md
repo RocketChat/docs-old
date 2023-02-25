@@ -507,11 +507,11 @@
   * [Brand Usage Examples](rocket.chat-resources/brand-and-visual-guidelines/brand-usage-examples.md)
   * [Media Kit](rocket.chat-resources/brand-and-visual-guidelines/compositionsed.md)
 * [Development Docs](rocket.chat-resources/development-docs.md)
-* [Get Support](rocket.chat-resources/getting-support/README.md)
-  * [Enterprise Support](rocket.chat-resources/getting-support/enterprise-support/README.md)
-    * [Enterprise Support Plans](rocket.chat-resources/getting-support/enterprise-support/enterprise-support-plans.md)
-  * [Community Resources](rocket.chat-resources/getting-support/community-resources.md)
-  * [Legacy Support](rocket.chat-resources/getting-support/legacy-support.md)
+* [Get Support](resources/get-support/README.md)
+  * [Enterprise Support](resources/get-support/enterprise-support/README.md)
+    * [Enterprise Support Plans](resources/get-support/enterprise-support/enterprise-support-plans.md)
+  * [Community Resources](resources/get-support/community-resources.md)
+  * [Legacy Support](resources/get-support/legacy-support.md)
 
 ## Contribute to Rocket.Chat
 
@@ -546,10 +546,10 @@
 
 ## Rocket.Chat Legal
 
-* [Terms of Service](rocket.chat-legal/terms.md)
+* [Terms of Service](rocket.chat-legal/terms-of-service.md)
 * [Master Services Agreement for Self Managed Workspaces](rocket.chat-legal/master-services-agreement-for-self-managed-workspaces.md)
 * [Master Service Agreement for Professional Services](rocket.chat-legal/master-service-agreement-for-professional-services.md)
-* [Code of Conduct for our services](rocket.chat-legal/code-of-conduct.md)
+* [Code of Conduct for our services](rocket.chat-legal/code-of-conduct-for-our-services.md)
 * [Censorship and Harmful Content](rocket.chat-legal/censorship-and-harmful-content.md)
 * [Guidelines for Law Enforcement](rocket.chat-legal/guidelines-for-law-enforcement.md)
 * [Server Lookup](rocket.chat-legal/server-lookup.md)
@@ -562,10 +562,10 @@
     * [Subprocessors](rocket.chat-privacy-and-security/privacy-policies/privacy/subprocessors.md)
   * [Privacy Policy Facebook Messenger](rocket.chat-privacy-and-security/privacy-policies/privacy-policy-facebook-messenger.md)
 * [Security Policy](rocket.chat-privacy-and-security/security-policy.md)
-* [Security and Compliance Guides](rocket.chat-privacy-and-security/security-and-compliance-guides/README.md)
-  * [Compliance Resources and Certifications](rocket.chat-privacy-and-security/security-and-compliance-guides/compliance-resources.md)
-  * [Security fixes and updates](rocket.chat-privacy-and-security/security-and-compliance-guides/security-updates/README.md)
-    * [cve-2022-32211](rocket.chat-privacy-and-security/security-and-compliance-guides/security-updates/cve-2022-32211.md)
-  * [End-to-End Encryption Specifications](rocket.chat-privacy-and-security/security-and-compliance-guides/end-to-end-encryption-algorithms.md)
+* [Security and Compliance Guides](rocket.chat-privacy-and-security/security/README.md)
+  * [Compliance Resources and Certifications](rocket.chat-privacy-and-security/security/compliance-resources.md)
+  * [Security fixes and updates](rocket.chat-privacy-and-security/security/security-updates/README.md)
+    * [cve-2022-32211](rocket.chat-privacy-and-security/security/security-updates/cve-2022-32211.md)
+  * [End-to-End Encryption Specifications](rocket.chat-privacy-and-security/security/end-to-end-encryption-algorithms.md)
 * [Data Processing Agreement](rocket.chat-privacy-and-security/data-processing-agreement.md)
 * [GDPR](rocket.chat-privacy-and-security/gdpr.md)

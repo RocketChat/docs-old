@@ -76,7 +76,7 @@ Suppose you choose to register your workspace, Rocket.Chat collects the followin
 #### Register Workspace
 
 * Click on **Register to access** to continue and check if you want to receive security updates or not.
-* Ensure that you agree to the [**Terms**](../../rocket.chat-legal/terms.md) and [**Privacy Policy**](../../rocket.chat-privacy-and-security/privacy-policies/) of Rocket.Chat before clicking **Continue**.
+* Ensure that you agree to the [**Terms**](../../rocket.chat-legal/terms-of-service.md) and [**Privacy Policy**](../../rocket.chat-privacy-and-security/privacy-policies/) of Rocket.Chat before clicking **Continue**.
 * Open up your email inbox and click **verify registration.** Make sure the security codes match.
 * Confirm the registration and go back to your server.
 

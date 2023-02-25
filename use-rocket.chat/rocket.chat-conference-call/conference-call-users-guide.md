@@ -13,7 +13,7 @@ In Rocket.Chat you can initiate video and audio conferences using your chosen pr
 
 ### Initiating a call - Direct message
 
-<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (2).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (21).jpg" alt=""><figcaption></figcaption></figure>
 
 Click on the phone icon to start a conference call from within a direct message conversation, as shown in the highlighted part below:
 
@@ -31,7 +31,7 @@ After confirmation, a call pop-up appears in the top right corner and the ringer
 
 ### Incoming direct call
 
-<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (2).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (21).jpg" alt=""><figcaption></figcaption></figure>
 
 Three things happen once you receive a call:
 

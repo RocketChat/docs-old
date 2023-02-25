@@ -113,8 +113,8 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 
 ### Support
 
-{% content-ref url="rocket.chat-resources/getting-support/" %}
-[getting-support](rocket.chat-resources/getting-support/)
+{% content-ref url="resources/get-support/" %}
+[get-support](resources/get-support/)
 {% endcontent-ref %}
 
 ### Developer Guides

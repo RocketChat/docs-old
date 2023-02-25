@@ -4,7 +4,7 @@ To access the settings, go to **Administration** > **Workspace** > **Apps**.
 
 as shown below:
 
-![](<../../../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (1) (1) (1) (15).png>)
+![](<../../../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (1) (1) (1) (47).png>)
 
 Search Instagram Direct under the **Installed** tab in **Apps** menu on your Rocket.Chat administration panel.
 
@@ -44,4 +44,4 @@ It defines the metadata to be passed along with thread control action requests. 
 
 Your Instagram Direct app is successfully configured and you can see the new Instagram channel upon closing the administration panel, as shown below:
 
-![](<../../../../../../.gitbook/assets/2022-01-20\_20-26-27 (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../../../../.gitbook/assets/2022-01-20\_20-26-27 (1) (1) (1) (1) (1) (1) (1) (1).png>)

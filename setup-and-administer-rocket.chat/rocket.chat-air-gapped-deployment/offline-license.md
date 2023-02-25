@@ -17,7 +17,7 @@ For air-gapped workspaces, you have two ways to get the license for your workspa
 
 ### 1. License from support
 
-* Open up a query requesting a license for your air-gapped workspace from the [Rocket.Chat support](../../rocket.chat-resources/getting-support/enterprise-support/)
+* Open up a query requesting a license for your air-gapped workspace from the [Rocket.Chat support](../../resources/get-support/enterprise-support/)
 
 {% hint style="info" %}
 You will be required to provide the following information:
