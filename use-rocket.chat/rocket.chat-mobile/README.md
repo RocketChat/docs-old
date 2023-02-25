@@ -50,7 +50,7 @@ The navigation drawer menu carries your profile avatar, name, and workspace name
 
 * **The Edit Status** item is used to set a [custom status](../workspace-administration/user-status.md).
 * **The Chats item** reveals the rooms you are part of enabling you to select any and start a conversation.
-* **The Profile** takes you to the screen for managing your [profile](../cloud-account/manage-your-cloud-account/profile.md).
+* **The Profile** takes you to the screen for managing your [profile](../rocket.chat-cloud/manage-your-cloud-account/profile.md).
 * **The Display** item takes you to the screen for display settings for you to choose between expanded or condensed messages, the sort order, and the grouping order of your rooms.
 * **The settings item** takes you to the screen for app settings such as language, default browser, theme, and more.
 

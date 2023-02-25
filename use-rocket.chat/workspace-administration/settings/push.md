@@ -60,7 +60,7 @@ On some channels, notifications can stop if the number of users exceeds the set 
 
 ## Connect to cloud
 
-When you purchase a  package for push notifications as a self-managed customer, you need to connect your workspace [Rocket.Chat Cloud](../../cloud-account/).
+When you purchase a  package for push notifications as a self-managed customer, you need to connect your workspace [Rocket.Chat Cloud](../../rocket.chat-cloud/).
 
 Link and sync your account in the Connectivity Services menu.
 

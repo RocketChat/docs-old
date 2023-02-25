@@ -28,7 +28,7 @@ If your workspace was provisioned by Rocket.Chat, you can access and get it set 
 To get a new SaaS workspace, you can use any of the following methods
 
 * [Creating a SaaS trial](https://www.rocket.chat/trial-saas-new)
-* [Contacting Rocket.Chat sales](../use-rocket.chat/cloud-account/manage-your-cloud-account/contact-sales.md)
+* [Contacting Rocket.Chat sales](../use-rocket.chat/rocket.chat-cloud/manage-your-cloud-account/contact-sales.md)
   * Before contacting sales, decide on a URL to use in the format `<your URL>.rocket.chat`
   * After the workspace has been created, visit the workspace URL and set it up following the [setup-wizard.md](../use-rocket.chat/workspace-administration/settings/setup-wizard.md "mention")
 

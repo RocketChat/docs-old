@@ -2,7 +2,7 @@
 
 If you have Telegram app integration in place and a user sends you a message on your Telegram business page using their Telegram account, as shown below:
 
-![](../../../../../.gitbook/assets/img\_3509.png)
+![](../../../../../.gitbook/assets/IMG\_3509.PNG)
 
 it appears in your Rocket.Chat workspace just like any other Omnichannel conversation.
 

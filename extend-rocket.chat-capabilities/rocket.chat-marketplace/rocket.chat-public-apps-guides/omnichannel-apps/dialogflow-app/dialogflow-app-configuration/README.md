@@ -14,7 +14,7 @@ Following are the settings available:
 
 2\. **Project Id**, **Environment** (The [environment](https://cloud.google.com/dialogflow/es/docs/agents-versions) on which the bot is set up), **Client Email**, **Private Key** are the credentials available inside your dialog flow instance, and **Language** lets you choose the language in which you'd be interacting with the Bot.
 
-![](<../../../../../../.gitbook/assets/2022-01-15\_19-13-30 (1) (1) (1) (1) (2).png>)
+![](<../../../../../../.gitbook/assets/2022-01-15\_19-13-30 (1) (1) (1) (1) (1) (2).png>)
 
 3\. Suppose the Omnichannel end-user asks something that the bot is not trained to answer and fails. **Fallback Responses Limit** defines how many failures of the conversation should be forwarded to a human agent.
 

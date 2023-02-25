@@ -75,7 +75,7 @@ This will only work if you have your FreePBX already activated.&#x20;
 
 Navigate to **Admin > Port Management**. Change the Admin (web portal) to another port and set Letsencrypt to port 80. Click **Update** **Now**.
 
-![Port management](<../../../../.gitbook/assets/Port management PBX (1).png>)
+![Port management](<../../../../.gitbook/assets/Port management PBX.png>)
 
 Please note that until here, you have been accessing the server by HTTP (not HTTPS) on port 80. Until you finish the SSL configuration, you are going to be using the newly selected port, 8080, in this demo.
 

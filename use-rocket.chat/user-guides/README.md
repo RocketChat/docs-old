@@ -12,6 +12,6 @@ As a user, this guide will help you optimize your Rocket.Chat workspace. It onbo
 
 ****[**Rooms**](rooms/):  Explore various methods of organizing conversations in your workspace.
 
-****[**Security Bundle**](../cloud-account/manage-your-cloud-account/security.md): Explore security-focused features that provide enhanced security for your workspace.
+****[**Security Bundle**](../rocket.chat-cloud/manage-your-cloud-account/security.md): Explore security-focused features that provide enhanced security for your workspace.
 
 ****[**Keyboard Shortcuts**](keyboard-shortcuts.md): Shortcut keys that help to optimize your workspace experience.
