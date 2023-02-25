@@ -19,6 +19,22 @@ description: You can view the available and installed Rocket.Chat Apps and manag
 You must register your workspace (even if it is a community edition) on [Rocket.Chat Cloud](https://cloud.rocket.chat) before you can install apps from the Rocket.Chat marketplace.
 {% endhint %}
 
+You can browse Rocket.Chat apps either on our [marketplace](https://rocket.chat/marketplace) or access them directly from **Administration > Apps > Marketplace.**
+
+On the **Explore** tab of the **Apps** screen,
+
+* You can see all the apps available on Rocket.Chat and seach for the one you need.
+* You can also filter based on **Categories, Status, and Price.** Choose between multiple categories within the filter to help you find the best app for your workspace users.
+* <img src="../../.gitbook/assets/image.png" alt="" data-size="line"> tag next to an app on the marketplace means you need to upgrade your workspace to a higher version to use the app.
+
+On the **Installed** tab of the **Apps** screen,
+
+* You can find the apps you have installed on your workspace.
+* **Enable/Disable/Uninstall** any of your installed apps.
+* View App details.
+* View **logs** of the app.
+* Provide additional user settings and configuration for the app. (All Rocket.Chat Apps might not require any setup configuration or user settings.)
+
 ## Types of Apps
 
 ### Public Apps
@@ -31,35 +47,30 @@ You can learn how to install and enable each of them in the [App Guide](rocket.c
 
 ### Private Apps
 
-A private app is an app that it's not listed on the marketplace. A workspace can develop its apps and publish them on the workspace. They can only work on the workspace that uploaded it.
+A workspace can develop its apps and publish them on the workspace. These are called private apps. They can only work on the workspace that uploaded it.
+
+If you want to develope your private Rocket.Chat app you can follow the [developer guides here](https://developer.rocket.chat/apps-engine/rocket.chat-apps-engine). If you are looking for the information of user roles in marketplace, check [marketplace-roles.md](../../setup-and-administer-rocket.chat/roles-in-rocket.chat/marketplace-roles.md "mention").
 
 ## App Limitations
 
-For community edition (CE), a user can install numerous apps from the marketplace but enable only five. Once it reaches the limit, you can upgrade to the enterprise edition (EE) for access to enable all apps in the workspace. If your workspace version is `5.4` or lower, you can use all the enabled apps you already have. However, you can not purchase or enable more apps once the limit is reached.
+### Community Edition
 
-For enterprise edition (EE), if a workspace liscense expires and the workspace has exceded the the **** limit, thene market place disable all downloaded apps, and the app count returns to zero.
+For community edition (CE), workspaces can install numerous Public apps (apps from themarketplace) but enable only five. And they can enable three Private apps. Once it reaches the limit, you can upgrade to the enterprise edition (EE) for access to enable all apps in the workspace.  Refer to the table below for better understanding.
 
-You can browse Rocket.Chat apps either on our [marketplace](https://rocket.chat/marketplace) or access them directly from **Administration > Apps > Marketplace.**
+| Community Edition 6.0 | Public apps | Private apps |
+| --------------------- | ----------- | ------------ |
+| Install               | Unlimited   | Unlimited    |
+| Enable/Use            | 5           | 3            |
 
-On the **Explore** tab of the **Apps** screen,
+If your workspace version is `5.4` or lower, you can use all the enabled public and private apps you already have. However, you can not purchase or enable more apps once the limit is reached.&#x20;
 
-* You can see all the apps available on Rocket.Chat and seach for the one you need.
-* You can also filter based on **Categories, Status, and Price.** Choose between multiple categories within the filter to help you find the best app for your workspace users.
-* <img src="../../.gitbook/assets/image.png" alt="" data-size="line"> tag next to an app on the marketplace means you need to upgrade your workspace to a higher version in order to use the app.
+### Enterprise Edition
 
-On the **Installed** tab of the **Apps** screen,
-
-* You can find the apps you have installed on your workspace.
-* **Enable/Disable/Uninstall** any of your installed apps.
-* View App details.
-* View **logs** of the app.
-* Provide additional user settings and configuration for the app. (All Rocket.Chat Apps might not require any setup configuration or user settings.)
+For enterprise edition (EE), workspaces can install all Public and Private apps. But, if a enterprise edition (EE) workspace liscense expires and the workspace has exceded the the **** limit, then marketplace disables all downloaded apps, and the app count returns to zero.
 
 {% hint style="success" %}
 If you are subscribed to Rocket.Chat's **Enterprise Edition**, you can install and enable all the apps available in the marketplace on your workspace. However, for **Community Edition**, you can to install any number of apps but only enable up to five apps on your workspace.&#x20;
 {% endhint %}
-
-If you are looking for the manual/user guide of a particular app, kindly check [App User Guides](rocket.chat-public-apps-guides/) or search for it within the documentation.
 
 Some apps are part of the **Enterprise Edition** offerings. You don't have to purchase them if you already subscribe to the Enterprise Edition of Rocket.Chat. They include the following:
 
@@ -80,6 +91,4 @@ Some apps are part of the **Enterprise Edition** offerings. You don't have to pu
 * [Pexip](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/pexip-app.md)
 * [Google Meet](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/google-meet-app.md)
 
-{% content-ref url="../../setup-and-administer-rocket.chat/roles-in-rocket.chat/marketplace-roles.md" %}
-[marketplace-roles.md](../../setup-and-administer-rocket.chat/roles-in-rocket.chat/marketplace-roles.md)
-{% endcontent-ref %}
+If you are looking for the manual/user guide of a particular app, check [rocket.chat-public-apps-guides](rocket.chat-public-apps-guides/ "mention") or search for it within the documentation.

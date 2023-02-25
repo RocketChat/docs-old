@@ -1,6 +1,6 @@
 # Marketplace Roles
 
-With the most recent release of [Marketplace](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/), we have introduced roles. Internally, we have two different roles; one within the publisher and the second within the system. Henceforth known as publisher roles and system roles.
+Internally, we have two different roles for [rocket.chat-marketplace](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/ "mention"); one within the publisher and the second within the system. Henceforth known as publisher roles and system roles.
 
 ## Publisher Roles
 
