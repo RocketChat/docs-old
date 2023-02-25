@@ -33,7 +33,7 @@ An example of `Global` scope role is the `admin` role having permissions valid f
 As a workspace administrator, you can create new roles with custom permissions for your workspace.
 
 {% hint style="info" %}
-As from Rocket.Chat `V6.0.x.x` the creating and editing of custom roles is an enterprise feature. ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (24).jpg>)
+As from Rocket.Chat `V6.0.x.x` the creating and editing of custom roles is an enterprise feature. ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (2).jpg>)
 {% endhint %}
 
 To create a new role,

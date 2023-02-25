@@ -2,7 +2,7 @@
 
 Now you need to configure HubSpot CRM integration settings to enable access to HubSpot account information.
 
-![Migrated an API Key integration to a Private app](<../../../../../.gitbook/assets/api key with key (1).png>)
+![Migrated an API Key integration to a Private app](<../../../../../.gitbook/assets/api key with key.png>)
 
 * Enter the API key or private app's access token to allow access to your HubSpot account information.
 * Enable the option to display contact information when assigning the agent to the chat.

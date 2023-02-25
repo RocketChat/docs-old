@@ -1,6 +1,6 @@
 # Omnichannel Queue
 
-<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (16).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (25).jpg" alt=""><figcaption></figcaption></figure>
 
 In the Omnichannel Queue section, you will find a list of all the active Omnichannel conversations. This shows which conversation is being served by which Omnichannel Agent.
 
@@ -8,7 +8,7 @@ In the Omnichannel Queue section, you will find a list of all the active Omnicha
 
 After you log in and wish to start taking omnichannel chats, you can make yourself [**Available** ](./#omnichannel-agent-availability)as an omnichannel agent by clicking the **Chat** button, as shown below:
 
-![](<../../.gitbook/assets/image (230).png>)
+![](<../../.gitbook/assets/image (236) (1).png>)
 
 You can now see the Omnichannel chats queue and are available to take the chats:
 

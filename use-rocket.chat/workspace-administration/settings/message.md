@@ -63,7 +63,7 @@ Remember to hit **Save Changes** in order to apply any changes made.
 
 ## Read Receipts
 
-![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (24).jpg>)
+![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (2).jpg>)
 
 * **Show Read Receipts**: Whether to show read receipts.
 * **Detailed Read Receipts**: This shows each user's read receipts.
