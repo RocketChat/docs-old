@@ -368,6 +368,7 @@
 * [Rocket.Chat Federation](use-rocket.chat/rocket.chat-federation/README.md)
   * [Cross-server Federated Channels](use-rocket.chat/rocket.chat-federation/talking-to-users-from-another-server.md)
 * [Rocket.Chat Mobile](use-rocket.chat/rocket.chat-mobile/README.md)
+  * [Rooms](use-rocket.chat/rocket.chat-mobile/rooms.md)
   * [Push Notifications](use-rocket.chat/rocket.chat-mobile/push-notifications/README.md)
     * [Push Notifications User Guide](use-rocket.chat/rocket.chat-mobile/push-notifications/push-notifications-user-guide.md)
     * [Secured Push Notification](use-rocket.chat/rocket.chat-mobile/push-notifications/push-notification-security.md)

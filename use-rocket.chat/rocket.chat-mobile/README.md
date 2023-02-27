@@ -54,8 +54,6 @@ The navigation drawer menu carries your profile avatar, name, and workspace name
 * **The Display** item takes you to the screen for display settings for you to choose between expanded or condensed messages, the sort order, and the grouping order of your rooms.
 * **The settings item** takes you to the screen for app settings such as language, default browser, theme, and more.
 
-
-
 This guide is aimed at helping you navigate Rocket.Chat on your mobile devices.
 
 ### Installing Rocket.Chat Mobile
@@ -85,7 +83,7 @@ To log in to Rocket.Chat from mobile, here are the steps to follow:
 Rocket.Chat mobile app allows you to configure different features of the app such as language, theme, and more. Let us go through the Settings screen item by item.
 
 * **Contact Us**: Email Rocket.Chat support team for your worries or inquiries. Opens in your default email client.
-* &#x20;**** : Set your preferred language from a range of languages supported by Rocket.Chat.
+* Language: Set your preferred language from a range of languages supported by Rocket.Chat.
 * **Review this app**: Review Rocket.Chat on either Google Play Store or Apple App Store. You are taken to the respective store depending on your current device's operating system.
 * **Share this app**: Share the link to Rocket.Chat on either of the app stores so that others can visit the link to install the mobile app.
 * **Default browser**: Choose links in Rocket.Chat to open in Rocket.Chat's in-app browser or for links to open by default in your default browser.
@@ -99,18 +97,9 @@ Rocket.Chat mobile app allows you to configure different features of the app suc
 
 The basic things which can be done on Rocket.Chat mobile has been explained. Next, we see an overview of important topics of using Rocket.Chat on mobile.
 
-* Creating rooms
-*
-
-
-
-
-
-
-
-
-
-
+* Rooms: Learn how to create various types of rooms on Rocket.Chat
+* Messaging: Learn how to create different types of messages.
+* Learn how to create new workspaces.
 
 {% content-ref url="push-notifications/" %}
 [push-notifications](push-notifications/)
