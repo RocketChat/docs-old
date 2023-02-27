@@ -10,7 +10,7 @@ Once an [email inbox](https://docs.rocket.chat/use-rocket.chat/rocket.chat-works
 
 The Omnichannel menu is available with the **Turn off answer chats** and **Contact Center** options for agents.
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Reply Email Inbox Messages
 
@@ -27,11 +27,11 @@ If you type without clicking **Reply via Email**, your contact will **NOT** rece
 
 Suppose you need help with a particular email, you can invite your fellow **agent** to that channel using `/invite @username` .
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 Once an agent is invited to an email inbox, they have access to all the previous conversations that have taken place there. You can also have internal conversations with your fellow agent on that channel.
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Reply to Email Inbox with an Attachment
 

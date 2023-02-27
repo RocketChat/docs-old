@@ -40,8 +40,8 @@ To learn more, see [Teams: Efficiently Manage Your Remote Team on Rocket.Chat](h
 [create-a-new-team.md](create-a-new-team.md)
 {% endcontent-ref %}
 
-{% content-ref url="team-information-view-and-edit.md" %}
-[team-information-view-and-edit.md](team-information-view-and-edit.md)
+{% content-ref url="../../../../use-rocket.chat/user-guides/rooms/teams/edit-a-team.md" %}
+[edit-a-team.md](../../../../use-rocket.chat/user-guides/rooms/teams/edit-a-team.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../../../use-rocket.chat/user-guides/rooms/teams/manage-team-members.md" %}

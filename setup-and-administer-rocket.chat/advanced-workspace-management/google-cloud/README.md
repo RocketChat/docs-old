@@ -29,7 +29,7 @@ It's time to configure auto-translate in your workspace now that you have your A
 * Select **Google** as the **Service Provider**.
 
 {% hint style="info" %}
-Only users with the `auto-translate` [permission](../../use-rocket.chat/workspace-administration/permissions.md) will be able to use this feature. See
+Only users with the `auto-translate` [permission](../../../use-rocket.chat/workspace-administration/permissions.md) will be able to use this feature. See
 {% endhint %}
 
 ## Enabling Auto-Translate on a Channel
@@ -40,12 +40,12 @@ Any messages sent in a language that **Google Translate** supports will be trans
 
 To activate Auto-Translate in a room,
 
-* Click the ![](../../.gitbook/assets/three-dot-icon.png) **three-dot icon** in the room header.
+* Click the ![](../../../.gitbook/assets/three-dot-icon.png) **three-dot icon** in the room header.
 * Select **Auto-Translate**. &#x20;
 * Enable **Automatic Translation** and select your desired language**.**
-* Now, an **auto-translate icon** ![](../../.gitbook/assets/auto-translate.png) is displayed beside the room name to indicate that the feature is active.
+* Now, an **auto-translate icon** ![](../../../.gitbook/assets/auto-translate.png) is displayed beside the room name to indicate that the feature is active.
 
 To translate a messaage,&#x20;
 
-* Hover over the message and click the ![](../../.gitbook/assets/three-dot-icon.png) **three-dot icon.**
+* Hover over the message and click the ![](../../../.gitbook/assets/three-dot-icon.png) **three-dot icon.**
 * Select **Translate**.

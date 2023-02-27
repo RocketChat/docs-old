@@ -53,7 +53,7 @@ To add a new Jira Server connection from the _Room Preferences_ dialog, click on
 
 After successfully connecting to the server (the app will let you know if anything goes wrong), just select the new server from the list to integrate it with your channel/private group.
 
-![Select the new server to integrate with it](<../../../../.gitbook/assets/image (8) (1).png>)
+![Select the new server to integrate with it](<../../../../.gitbook/assets/image (8).png>)
 
 Hit "Save" and you're good to go!
 
@@ -63,7 +63,7 @@ Now we have to subscribe your channel to specific projects, so it starts receivi
 
 Go to the channel/private group that you want to receive notifications on and run the Jira slash command `/jira-server`. You will be prompted with the _Room Integration_ dialog:
 
-![Room Integration dialog](<../../../../.gitbook/assets/image (12) (1).png>)
+![Room Integration dialog](<../../../../.gitbook/assets/image (12) (2).png>)
 
 You can click the "Subscribe" button to subscribe to any project you wish.
 
