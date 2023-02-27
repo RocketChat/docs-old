@@ -6,84 +6,60 @@ description: Accessing Rocket.Chat through the mobile apps.
 
 This guide is aimed at helping you navigate Rocket.Chat on your mobile devices.
 
-### Installing Rocket.Chat Mobile
+## Installing Rocket.Chat Mobile
 
-If you are using an Android phone, you can get Rocket.Chat from [Google Play](https://play.google.com/store/apps/details?id=chat.rocket.android\&hl=en\&gl=US) and if you instead have an iOS device, you can get it from [Apple's App Store](https://apps.apple.com/us/app/rocket-chat/id1148741252).
+If you are using an Android phone, you can get Rocket.Chat from [Google Play](https://play.google.com/store/apps/details?id=chat.rocket.android\&hl=en\&gl=US), and if you instead have an iOS device, you can get it from [Apple's App Store](https://apps.apple.com/us/app/rocket-chat/id1148741252).
 
-### Sign Up for Rocket.Chat
+## Sign Up for Rocket.Chat
 
-To create a Rocket.Chat account, you have to join a workspace. When you launch Rocket.Chat on mobile, here are the steps to follow:
+To create a Rocket.Chat account, you have to join a workspace. After you launch Rocket.Chat on mobile:
 
 * You are prompted to either provide your workspace URL or join our [Open workspace](https://open.rocket.chat).&#x20;
-* Next, you click on **Create an account** and either sign up with the third-party authentication providers Github and Google or provide a name, username, email, and password.
-* A confirmation email is sent to your email and you click on **Login** or access the URL of the workspace you provided initially to log in.
+* Tap on **Create an account** and either sign up with the third-party authentication providers Github and Google or provide a name, username, email, and password.
+* A confirmation email is sent to your email, and tap on **Login** or access the URL of the workspace you provided initially to log in.
 
-### Login to Rocket.Chat
+## Login to Rocket.Chat
 
-To log in to Rocket.Chat from mobile, here are the steps to follow:
+To log in to Rocket.Chat from mobile:
 
-* Launch Rocket.Chat and provide your workspace URL or click Join our [open workspace](https://open.rocket.chat).
-* Click **Login**
+* Launch Rocket.Chat and provide your workspace URL or tap **Join our** [**open workspace**](https://open.rocket.chat)**.**
+* Tap **Login**
 * If you created an account with Google or GitHub, choose the respective option or provide a username or email and password combination to log in.
 * If you have not verified your email, you will be prompted to input it and check your mailbox to verify.
-* You are taken to your workspace's homepage upon successful login.
+* After verification, you are taken to your workspace's homepage upon successful login.
 
-### Exploring your workspace's homepage
+## Exploring your workspace's homepage
 
-Rocket.Chat's homepage has a **navigation drawer menu**, **toolbar,** and **main body** giving you the ability to perform different actions.
-
-#### Toolbar
-
-The toolbar (action bar) has three icons as action bar items that are a pencil (create) icon, a search icon and `#` icon each serving a unique purpose.
-
-* The create icon is used to create [Rooms](../user-guides/rooms/).
-* The search icon is used to search your whole workspace from rooms to users and messages.
-* The `#` icon is used to search for rooms that you are already part of or the ones which you might want to join.
-
-### Main Body
-
-Your workspace's main body on mobile has the rooms which you are part of and has been conversing. You can click a room from the list to start a conversation.
+Rocket.Chat's homepage has a **navigation drawer menu**, **toolbar,** and **main body,** allowing you to perform different actions.
 
 ### Navigation Drawer
 
 The navigation drawer menu carries your profile avatar, name, and workspace name at the top and five action items which are Edit Status, Chats, Profile, Display, and Settings.
 
 * **The Edit Status** item is used to set a [custom status](../workspace-administration/user-status.md).
-* **The Chats item** reveals the rooms you are part of enabling you to select any and start a conversation.
+* **The Chats item** reveals the rooms you are part of, enabling you to select any and start a conversation.
 * **The Profile** takes you to the screen for managing your [profile](../rocket.chat-cloud/manage-your-cloud-account/profile.md).
 * **The Display** item takes you to the screen for display settings for you to choose between expanded or condensed messages, the sort order, and the grouping order of your rooms.
 * **The settings item** takes you to the screen for app settings such as language, default browser, theme, and more.
 
-This guide is aimed at helping you navigate Rocket.Chat on your mobile devices.
+### Toolbar
 
-### Installing Rocket.Chat Mobile
+The toolbar (action bar) has three action icons.
 
-If you are using an Android phone, you can get Rocket.Chat from [Google Play](https://play.google.com/store/apps/details?id=chat.rocket.android\&hl=en\&gl=US) and if you instead have an iOS device, you can get it from [Apple's App Store](https://apps.apple.com/us/app/rocket-chat/id1148741252).
+* The <img src="../../.gitbook/assets/create icon (1).png" alt="" data-size="line"> icon is used to create [Rooms](../user-guides/rooms/).
+* The <img src="../../.gitbook/assets/search icon.png" alt="" data-size="line"> icon searches your whole workspace, from rooms to users and messages.
+* The <img src="../../.gitbook/assets/hashtag icon.png" alt="" data-size="line"> icon is used to search for rooms that you are already part of or the ones which you might want to join.
 
-### Sign Up for Rocket.Chat
+### Main Body
 
-To create a Rocket.Chat account, you have to join a workspace. When you launch Rocket.Chat on mobile, here are the steps to follow:
+Your workspace's main body on mobile has the rooms which you are part of and has been conversing. You can tap a room from the list to start a conversation.
 
-* You are prompted to either provide your workspace URL or join our [Open workspace](https://open.rocket.chat).&#x20;
-* Next, you click on **Create an account** and either sign up with the third-party authentication providers Github and Google or provide a name, username, email, and password.
-* A confirmation email is sent to your email and you click on **Login** or access the URL of the workspace you provided initially to log in.
+## Settings
 
-### Login to Rocket.Chat
-
-To log in to Rocket.Chat from mobile, here are the steps to follow:
-
-* Launch Rocket.Chat and provide your workspace URL or click Join our [open workspace](https://open.rocket.chat).
-* Click **Login**
-* If you created an account with Google or GitHub, choose the respective option or provide a username or email and password combination to log in.
-* If you have not verified your email, you will be prompted to input it and check your mailbox to verify.
-* You are taken to your workspace's homepage upon successful login.
-
-### Settings
-
-Rocket.Chat mobile app allows you to configure different features of the app such as language, theme, and more. Let us go through the Settings screen item by item.
+Rocket.Chat mobile app allows you to configure different app features such as language, theme, and more. Let us go through the Settings screen item by item.
 
 * **Contact Us**: Email Rocket.Chat support team for your worries or inquiries. Opens in your default email client.
-* Language: Set your preferred language from a range of languages supported by Rocket.Chat.
+* **Language**: Set your preferred language from a range of languages supported by Rocket.Chat.
 * **Review this app**: Review Rocket.Chat on either Google Play Store or Apple App Store. You are taken to the respective store depending on your current device's operating system.
 * **Share this app**: Share the link to Rocket.Chat on either of the app stores so that others can visit the link to install the mobile app.
 * **Default browser**: Choose links in Rocket.Chat to open in Rocket.Chat's in-app browser or for links to open by default in your default browser.
@@ -95,16 +71,20 @@ Rocket.Chat mobile app allows you to configure different features of the app suc
 * **Clear local server cache**: Delete cached information from your workspace.
 * **Logout**: Logout from your workspace.
 
-The basic things which can be done on Rocket.Chat mobile has been explained. Next, we see an overview of important topics of using Rocket.Chat on mobile.
+## Creating a Workspace
 
-* Rooms: Learn how to create various types of rooms on Rocket.Chat
-* Messaging: Learn how to create different types of messages.
-* Learn how to create new workspaces.
+To create a new workspace,
 
-{% content-ref url="push-notifications/" %}
-[push-notifications](push-notifications/)
-{% endcontent-ref %}
+* Tap on the title of your current workspace
+* Tap **Create new workspace**.
+* You are redirected to **** [**Rocket.Chat Cloud**](../rocket.chat-cloud/).&#x20;
+* Follow [create-new-cloud-account.md](../rocket.chat-cloud/create-new-cloud-account.md "mention") to create a new workspace.
 
-{% content-ref url="default-browser-settings.md" %}
-[default-browser-settings.md](default-browser-settings.md)
-{% endcontent-ref %}
+## Adding a Workspace
+
+To add a workspace that you are already part of,
+
+* Tap on the title of your current workspace
+* Tap **Add Server.**
+* **Enter workspace URL**&#x20;
+* Tap **connect** to log in to the workspace
