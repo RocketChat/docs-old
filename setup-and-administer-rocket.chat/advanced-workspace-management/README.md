@@ -1,23 +1,25 @@
 # Advanced workspace management
 
-Authentication:
+****[**Authentication**](authentication/): Authenticate users into your Rocket.Chat workspace through [LDAP](../../use-rocket.chat/workspace-administration/settings/ldap/), [SAML](../../use-rocket.chat/workspace-administration/settings/saml/), [OpenID](authentication/open-id-connect/), and [OAuth](../../use-rocket.chat/workspace-administration/settings/oauth/).
 
-Google cloud features:
+****[**Google Cloud Features**](google-cloud/): Implement various Google Cloud features in your workspace—for example, Google Auto-Translate.
 
-Environmental Variables: Managing settings using environmental variables.
+****[**Environment Variables**](../../deploy-rocket.chat/rocket.chat-environment-configuration/environment-variables.md): Configure your workspace settings using environment variables.
 
-Identity management (EE vs CE):
+****[**Identity management (EE vs. CE)**](identity-management-ee-vs-ce.md)**:** Learn the differences between community and enterprise editions while using Identity Management Systems.
 
-Notifications:
+****[**Notifications**](notifications.md): Update your workspace notification preferences.
 
-Database migration:
+****[**Database Migration**](database-migration.md): Configure the database migration collection.
 
-Restoring an admin user:
+****[**Restoring an Admin User**](restoring-an-admin.md): Restore an admin user based on your workspace installation.
 
-CDN:
+****[**CDN**](cdn.md): Use a CDN to serve static assets such as JS, CSS, and images to your workspace.
 
-Troubleshooting:
+****[**Troubleshooting**](troubleshooting.md): Common workspace management troubleshooting techniques.
 
-Client compatibility matrix:
+****[**Client Compatibility Matrix**](client-compatibility-matrix.md): Mobile and desktop clients with their supported Rocket.Chat releases.
 
-If the information in this section doesn’t solve your problem, look at these [other resources](../../use-rocket.chat/workspace-administration/) to find something that meets your needs. Alternatively, you can also [get help](../../resources/get-support/) from our community or via enterprise support services.
+{% hint style="info" %}
+To learn more, go to  [workspace administration](../../use-rocket.chat/workspace-administration/). If these guides don't meet your needs, you can contact us via [support](../../resources/get-support/).
+{% endhint %}

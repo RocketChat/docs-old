@@ -4,7 +4,7 @@ description: CDN Setup instructions
 
 # CDN
 
-Rocket.Chat allows you to use a CDN to server static assets such as JS, CSShin and images such as avatars.
+Rocket.Chat allows you to use a CDN to serve static assets such as JS, CSS and images to your workspace.
 
 {% hint style="info" %}
 If you provide a CDN prefix that is not live or incorrect, you may lose access to your Rocket.Chat instance as the required assets will not be found.
