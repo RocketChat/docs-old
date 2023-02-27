@@ -123,7 +123,7 @@ Component must follow all current Rocket.Chat ui-kit component design and coding
 **Difficulty:** Medium/Advanced\
 
 
-### Enhanced media handling for message composer
+### Enhanced media handling for mobile message composer
 
 **Mentors:** TBD
 
@@ -131,10 +131,10 @@ Component must follow all current Rocket.Chat ui-kit component design and coding
 \
 This project consists of two major tasks:
 
-* Copy any media from other platform apps to the message composer
-* Add option to[ copy media to platform clipboard](https://docs.expo.dev/versions/v47.0.0/sdk/clipboard/#setimageasyncbase64image) \
+* Copy any media from other platform apps to the message composer (on mobile)
+* Add option to[ copy media to platform clipboard](https://docs.expo.dev/versions/v47.0.0/sdk/clipboard/#setimageasyncbase64image) (on mobile)\
   \
-  The implementation should operate across all the platforms that Rocket.Chat support. Including iOS, Android, Windows, MacOS and Linux; and on form factors from mobile to desktop.
+  The implementation should operate across all the mobile platforms that Rocket.Chat support. Including iOS and Android,  form factors from phone to tablet.
 
 **Desired Skills:** Advanced Typescript, advanced React, React Native. Rocket.Chat ui-kit component development.
 
@@ -204,18 +204,6 @@ Back in 2015, Rocket.Chat planned a kickstarter/indiegogo project to do somethin
 **Project Duration**: 350 hours (Large)\
 \
 **Difficulty:** Advanced\
-
-
-### Migrate mobile app to react-native-navigation
-
-**Description**\
-Rocket.Chat's mobile app currently uses  _react-navigation_, while it is workable - it just feels to be  "a little bit less native" on both  iOS and Android devices than meticulously hand-crafted native apps.     This project aims to migrate the mobile app to use _react-native-navigation_ instead.
-
-**Desirable Skills:**  In-depth knowledge of React and React-native.   Understanding of Rocket.Chat core and uikit development.
-
-**Project Duration**: 175 hours (Medium)\
-\
-**Difficulty:** Medium \
 
 
 ### Introduce Captcha to Livechat Widget
@@ -422,7 +410,7 @@ Ideally we would like an integration at the [Jitsi Meet React SDK](https://jitsi
 
 ### QuickAnswer Bot
 
-**Mentors:** TBD
+**Mentors:**  Debdut Chakraborty
 
 **Description:**\
 ****The goal is to develop a bot that can help reduce repetitive questions asked in Rocket.Chat channels by providing relevant answers from its knowledge base (Similar to [this Slack app](https://slack.com/apps/ASAFS8C2D-truffle?tab=more\_info))
