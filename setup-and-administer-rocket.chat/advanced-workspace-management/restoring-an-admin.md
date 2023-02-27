@@ -1,104 +1,114 @@
 # Restoring an Admin User
 
-You might accidentally lost access to an important admin user (or the only admin in the server) and need to restore it without using another admin user. This guide will help you in this process.
+You may lose access to a vital admin user (or the only Admin on the server) and need to restore it without using another admin user. To restore an admin, you will need to access the database.
 
-_Note: To do this, you will need access to the database_
+## Access the Database
 
-## Finding the database
+You can access the database in various ways, depending on how you installed Rocket.Chat server.
 
-### Docker based installations
+### Docker-based installations
 
-Open Mongo shell within Mongo container
+To open the **mongo shell** within the **mongo container**,
 
-Change into docker-compose directory (where your `docker-compose.yml` is located):
+* Change into the docker-compose directory (where your `docker-compose.yml` is located) and run mongo bash.
 
 ```bash
 cd /opt/docker/Rocket.Chat
 docker-compose run mongo bash
 ```
 
-or run
+Alternatively, you can run the following command without navigating to the`docker-compose.yml` directory.
 
 ```
 docker exec -it -u root mongo-image /bin/bash
 ```
 
-Make sure to replace `mongo` with your MongoDB container name in case you use a different one.
-
-Login to mongo shell using :
+* Login into the mongo shell.
 
 ```
 mongo
 ```
 
-On the Mongo shell:
+{% hint style="info" %}
+Make sure to replace `mongo` with the name of your MongoDB container if you use a different one.
+{% endhint %}
+
+* Open the database in the mongo shell
 
 ```sql
 use rocketchat
 ```
 
-Make sure to replace `rocketchat` with your actual Mongo database. If you're not sure how it's called either check your `docker-compose.yml` file or run:
+{% hint style="info" %}
+Make sure to replace `rocketchat` with the name of your Mongo database. If you're unsure of the name, you can either check your `docker-compose.yml` file or run the following command:
+{% endhint %}
 
 ```sql
 show dbs
 ```
 
-### Ubuntu Snaps
+### Ubuntu Snaps Installation
 
-Connect to MongoDB:
+* Connect to MongoDB using the following command:
 
 ```bash
 sudo rocketchat-server.mongo
 ```
 
-Select Rocket.Chat Database:
+* Select the Rocket.Chat Database:
 
 ```sql
 use parties
 ```
 
-## Updating the admin password
+## Updating the Admin Password
 
-Use the below functions to create or update the admin password.
+To update the admin password, you can either use a one-time access token or update the admin password to a random string.&#x20;
 
-**To update the admin password**
-
-You can either use a one time access token (that will require the user to change his password):
+* Using an access token will require the user to change his password.
 
 ```javascript
 db.getCollection('users').update({username:"administrator"}, {$set: { "services":{"loginToken":{"token":"some-token-id-that-you-will-use-to-login-once"}}, "requirePasswordChange":true} })
 ```
 
-Then access `http://{your server url}/login-token/some-token-id-that-you-will-use-to-login-once` to login
+Then access `http://{your server url}/login-token/some-token-id-that-you-will-use-to-login-once` to log in.
 
-or you can update the admin password to `12345`
+* Alternatively, you can update the admin password to a random string. Using `12345` as an example of the password, use its hashed(bycrypt) value:
 
 ```javascript
 db.getCollection('users').update({username:"administrator"}, { $set: {"services" : { "password" : {"bcrypt" : "$2a$10$n9CM8OgInDlwpvjLKLPML.eizXIzLlRtgCh3GRLafOdR9ldAUh/KG" } } } })
 ```
 
-_Replace `administrator` with the admin username in question._
+{% hint style="warning" %}
+_Replace `administrator` with the appropriate username of the administrator on your server._
+{% endhint %}
 
-Make sure to restart your application container in case the new password is not accepted yet.&#x20;
+* Restart your application container in case the new password is not accepted yet.
 
-**To generate a valid admin password**
+### **Generate a Valid Admin Password**
 
-Install **** `bcrypt-cli` **** with:
+To generate a valid password and its hashed value with `bcrypt-cli,`
+
+* Install **** `bcrypt-cli` **** with:
 
 ```
 // npm install -g @carsondarling/bcrypt-cli
 ```
 
-Then use this to generate your `bcrypt` password:
+* Then,  use this to generate your `bcrypt` password:
 
 ```
 // npm install -g @carsondarling/bcrypt-cli bcrypt $(echo -n "yourPasswordHere" | sha256sum | cut -d " " -f 1) && echo
 ```
 
-### Reset user role to "admin"
+## Reset a User role to Admin
+
+To reset a user role to admin, run the following database command :
 
 ```javascript
 db.users.update({username: "administrator"}, { $push: { roles: "admin"}})
 ```
 
-Again, make sure to replace `administrator` with the admin username in question.
+{% hint style="warning" %}
+_Replace `administrator` with the appropriate username of the administrator on your server._
+{% endhint %}

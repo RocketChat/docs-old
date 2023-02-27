@@ -1,14 +1,12 @@
 # Troubleshooting
 
-Sometimes we get ourselves into a bit of trouble. Here we will try to provide common problems and their solutions.
+Occasionally, you may encounter some issues with your server. Common troubleshooting problems and solutions are outlined in this guide.&#x20;
 
 ## Invalid Site URL Warning
 
-If you receive an alert that you have an invalid Site URL. This means that some how your Site URL and the URL you are accessing from don't match. This causes assets in Rocket.Chat to not be able to load properly.
+If you receive an alert that you have an invalid Site URL. This means your Site URL and the URL you are accessing don't match. It can cause assets in Rocket.Chat not to load correctly. Most times, it happens when someone changes the setting.&#x20;
 
-This usually happens when someone changes the setting. To resolve this you will need to modify the site url.
-
-Setting the following environment variables will correct this issue:
+To resolve it, you will need to modify the site URL by setting the following environment variables:
 
 ```
 OVERWRITE_SETTING_Site_Url=https://the-address-you-use-to-access

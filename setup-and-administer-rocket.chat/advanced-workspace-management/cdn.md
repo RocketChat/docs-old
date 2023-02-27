@@ -4,19 +4,23 @@ description: CDN Setup instructions
 
 # CDN
 
-Rocket.Chat allows for the usage of a CDN to server static assets such as JS, CSS and images such as avatars.
+Rocket.Chat allows you to use a CDN to server static assets such as JS, CSShin and images such as avatars.
 
 {% hint style="info" %}
-If you provide a CDN prefix that is not live or incorrect you may lose access to your Rocket.Chat instance as the required assets will not be found.
+If you provide a CDN prefix that is not live or incorrect, you may lose access to your Rocket.Chat instance as the required assets will not be found.
 {% endhint %}
 
 ## Enabling CDN
 
-By navigating to the General section of the Administration system in Rocket.Chat there are the options to provide a CDN for **all** assets and optionally set a separate CDN for just JS & CSS assets.
+To enable CDN in your workspace,
+
+* Go to **Administration > Workspace > Settings > General.**
+* **Update the** CDN Prefix.
+* You can enable **Use CDN Prefix for all assets** or set a different&#x20;
 
 ### CDN Prefix
 
-This is a string that depending on the value provided will generate different outcomes.
+This string will generate different outcomes depending on the value provided.
 
 | Value                                            | Example Url for Asset                                                              |
 | ------------------------------------------------ | ---------------------------------------------------------------------------------- |
@@ -34,7 +38,7 @@ This option takes the same style input as CDN Prefix. The value provided will be
 
 ## Troubleshooting
 
-If the situation occurs where CDN stops working or the provided values are incorrect, then there are a few work arounds to allow a fix to be implemented inside the Administration settings, which may be inaccessible.
+If the situation occurs where CDN stops working, or the provided values are incorrect, then there are a few work arounds to allow a fix to be implemented inside the Administration settings, which may be inaccessible.
 
 ### Database Fix
 

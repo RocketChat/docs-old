@@ -16,7 +16,7 @@
 
 ## Mobile
 
-Our mobile applications have a maximum of 3 major servers versions being supported on each release, all the past releases are not officially supported and may cause problems. The reason for that is that our APIs are evolving a lot on each release and sometimes is really hard to maintain the compatibility with older versions when they don’t have support to specific feature.
+Our mobile applications have a maximum of 3 major server versions that is supported on each release. All the past releases are not officially supported and may cause problems. It is because our APIs are evolving a lot on each release, and sometimes it is hard to maintain compatibility with older versions when they don’t have support for specific features.
 
 | App Version | Supported releases |
 | :---------: | :----------------: |

@@ -25,7 +25,7 @@ On the **Explore** tab of the **Apps** screen,
 
 * You can see all the apps available on Rocket.Chat and seach for the one you need.
 * You can also filter based on **Categories, Status, and Price.** Choose between multiple categories within the filter to help you find the best app for your workspace users.
-* <img src="../../.gitbook/assets/image.png" alt="" data-size="line"> tag next to an app on the marketplace means you need to upgrade your workspace to a higher version to use the app.
+* <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line"> tag next to an app on the marketplace means you need to upgrade your workspace to a higher version to use the app.
 
 On the **Installed** tab of the **Apps** screen,
 

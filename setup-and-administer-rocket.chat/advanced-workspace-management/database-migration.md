@@ -1,35 +1,25 @@
 # Database Migration
 
-As features are added to Rocket.Chat, the database schema may change between versions.
+As features are added to Rocket.Chat, the database schema may change between versions.&#x20;
 
-The action of updating an older schema to a newer one (or vice versa) is called database migration.
+Database migration means updating an older schema to a newer one (or vice versa). When you incrementally update your Rocket.Chat version, the database migration is automatic, and you do not have to take any explicit action. Rocket.Chat migrations and thier versions can be found on [GitHub](https://github.com/RocketChat/Rocket.Chat/blob/develop/apps/meteor/server/startup/migrations).
 
-When you incrementally update Rocket.Chat versions, database migration is automatic and you do not have to take any explicit action.
+We use migrations to force an updatable version range. It means you cannot upgrade from version three to five because the migrations in between are removed.
 
-However, from time to time, you may need to skip multiple versions in your Rocket.Chat upgrades.
+{% hint style="info" %}
+Rocket.Chat cannot be officially downgraded due to database migrations. However, you can manually roll back migrations separately.
+{% endhint %}
 
-Database migration may fail in a scenario like this.
+### Migration Collection
 
-A typical failure message is similar to:
-
-```bash
-|                    Your database migration failed:                   |
-|        Object [object Object] has no method 'addUsersToRoles'        |
-(...)
-|                   This Rocket.Chat version: 0.39.0                   |
-|                    Database locked at version: 18                    |
-|                      Database target version: 58                     |
-```
-
-As an example, the migration above is locked and stuck on 18. We need a target of 19 before migrating to 58.
-
-One way to force this migration is to manually unlock the migration in Mongo and also increase the database version to the target version (19).
+A migration collection has only one document with the following structure:
 
 ```javascript
-use rocketchat
-db.migrations.update({_id: 'control'},{$set:{locked:false,version:19}})
+{"_id": "control","locked":false, "version":19}
 ```
 
-Restart Rocket.Chat and the migration should succeed now to the latest version.
+* &#x20;`_id` : The value is always `control`. It means the collection has only one document to control migration actions.
+* &#x20;`locked` : The value is boolean and can either be `true` or `false`. It identifies whether migration is currently happening or not. If  a migration fails, it will be stuck at true.
+* &#x20;`version` - The migration version your server is currently at.
 
-**Note**: certain new values that are vital to Rocket.Chat operations may remain unpopulated when you skip versions. For example, you may have to manually apply roles to users.
+**To skip a migration**, set the version field in the migration collection to the next version of the one you want to skip.
