@@ -188,20 +188,34 @@ PS: For more inspiration on how to solve this issue, please refer to some of the
 
 ### Building the Rocket.Chat Appliance
 
-**Mentors:** TBD\
+**Mentors:** Aaron Ogle,  Sing Li\
 \
 **Description:**\
 Create a "plug-in and go" appliance that allows anyone to run and operate a small Rocket.Chat server for their interest group, family, or friends.\
 \
-The image should be based on [Armbian ](https://www.armbian.com/)and ideally be bootstrapped via[ Gokrazy](https://gokrazy.org/).\
+The resulting image should run on arm SoC based SBCs with either 2GB or 4GB of RAM (as in most of today's Android TV boxes).   Some technologies to consider include [Armbian ](https://www.armbian.com/)and[ Gokrazy](https://gokrazy.org/).  But we are wide open to all applicable stacks.\
 \
-**Desirable Skills:**  Familiarity with Rocket.Chat deployment platforms and workflows.  This project will take someone with highly specialized interests and skills in low level firmware mods, kernel patching, bootloader hacking and knowledge of Golang.
+Back in 2015, Rocket.Chat planned a kickstarter/indiegogo project to do something very similar.  Finally in 2023 the open source technology stacks, plus widely available arm hardware,  are making it possible this to become a general open source project. \
+\
+**Desirable Skills:**  Familiarity with Rocket.Chat deployment platforms and workflows.  This project will take someone with highly specialized interests and skills in low level firmware mods, kernel patching, bootloader hacking and possibly knowledge of Golang.
 
 **Goal/Deliverable:** An image that can be loaded into inexpensive common 2GB/4GB Android TV-Box and repurpose it to become a "plug-in and go" Rocket.Chat appliance.\
 \
 **Project Duration**: 350 hours (Large)\
 \
 **Difficulty:** Advanced\
+
+
+### Migrate mobile app to react-native-navigation
+
+**Description**\
+Rocket.Chat's mobile app currently uses  _react-navigation_, while it is workable - it just feels to be  "a little bit less native" on both  iOS and Android devices than meticulously hand-crafted native apps.     This project aims to migrate the mobile app to use _react-native-navigation_ instead.
+
+**Desirable Skills:**  In-depth knowledge of React and React-native.   Understanding of Rocket.Chat core and uikit development.
+
+**Project Duration**: 175 hours (Medium)\
+\
+**Difficulty:** Medium \
 
 
 ### Introduce Captcha to Livechat Widget
