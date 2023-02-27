@@ -47,4 +47,3 @@ To create a [**Discussion**](../user-guides/rooms/discussions/) on Rocket.Chat m
 * Give a meaningful name for your discussion
 * Tap the **Invite users** to add users.
 * Tap **Create.**
-
