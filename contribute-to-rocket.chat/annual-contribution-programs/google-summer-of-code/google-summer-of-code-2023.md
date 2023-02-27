@@ -4,7 +4,7 @@
 
 ## How to apply
 
-Rocket.Chat has applied to become a Google Summer of Code 2023 mentoring organization.  We are looking forward to participating in this 19 years-old program to usher in a new generation of open source contributors and enthusiasts.
+Rocket.Chat is proud to be a participating mentoring open source organization for [Google Summer of Code 2023](https://summerofcode.withgoogle.com/).  This marks the exciting 7th year of participation in this 19 years-old program to usher in a new generation of open source contributors and enthusiasts.
 
 Almost anyone in the world [over 18 years of age ](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html)who loves coding and wants to explore the incredible world of open source can join us as a GSoC 2023 contributor.
 
@@ -14,7 +14,7 @@ For details and rules of Google Summer of Code 2023, please see the [GSoC 2023 O
 
 For general information, please visit our 24 x 7 community channel for Google Summer of Code 2023 : [https://open.rocket.chat/channel/gsoc2023](https://open.rocket.chat/channel/gsoc2023)
 
-Join our [Google Summer of Code 2023 Team ](https://open.rocket.chat/channel/gsoc2023)today and interact with over 300 like-minded contributors and meet the mentors in the [11 team channels](https://open.rocket.chat/channel/gsoc2023/team-channels).
+Join our [Google Summer of Code 2023 Team ](https://open.rocket.chat/channel/gsoc2023)today and interact with over **430 like-minded** contributors/mentors  and meet the team in the[ 20 team channels](https://open.rocket.chat/channel/gsoc2023/team-channels).
 
 If you have ideas and proposals that are not on our idea list, or if a mentor is not available, you can also email to:
 
@@ -120,8 +120,29 @@ Component must follow all current Rocket.Chat ui-kit component design and coding
 
 **Project Duration:** 175 hours. (Medium)\
 \
-**Difficulty:** Medium/Advanced
+**Difficulty:** Medium/Advanced\
 
+
+### Enhanced media handling for message composer
+
+**Mentors:** TBD
+
+**Description:**\
+\
+This project consists of two major tasks:
+
+* Copy any media from other platform apps to the message composer
+* Add option to[ copy media to platform clipboard](https://docs.expo.dev/versions/v47.0.0/sdk/clipboard/#setimageasyncbase64image) \
+  \
+  The implementation should operate across all the platforms that Rocket.Chat support. Including iOS, Android, Windows, MacOS and Linux; and on form factors from mobile to desktop.
+
+**Desired Skills:** Advanced Typescript, advanced React, React Native. Rocket.Chat ui-kit component development.
+
+**Goal/Deliverable:** Composer ability to accept copy/paste media from other platform apps and the option to copy media to clipboard.
+
+**Project Duration:** 175 hours (Medium)
+
+**Difficulty**: Medium/Advanced\
 
 
 ### GitHub Pull request reminders app
@@ -162,8 +183,25 @@ PS: For more inspiration on how to solve this issue, please refer to some of the
 
 **Project Duration:** 175 hours. (Medium) \
 \
-**Difficulty:** Easy/Medium
+**Difficulty:** Easy/Medium\
 
+
+### Building the Rocket.Chat Appliance
+
+**Mentors:** TBD\
+\
+**Description:**\
+Create a "plug-in and go" appliance that allows anyone to run and operate a small Rocket.Chat server for their interest group, family, or friends.\
+\
+The image should be based on [Armbian ](https://www.armbian.com/)and ideally be bootstrapped via[ Gokrazy](https://gokrazy.org/).\
+\
+**Desirable Skills:**  Familiarity with Rocket.Chat deployment platforms and workflows.  This project will take someone with highly specialized interests and skills in low level firmware mods, kernel patching, bootloader hacking and knowledge of Golang.
+
+**Goal/Deliverable:** An image that can be loaded into inexpensive common 2GB/4GB Android TV-Box and repurpose it to become a "plug-in and go" Rocket.Chat appliance.\
+\
+**Project Duration**: 350 hours (Large)\
+\
+**Difficulty:** Advanced\
 
 
 ### Introduce Captcha to Livechat Widget
@@ -275,7 +313,7 @@ Nowadays we already have a version of the [playground](https://rocketchat.github
 
 ### Integrate Notion via RC App <a href="#docs-internal-guid-1a00b1ee-7fff-e115-48e0-272ddd46db45" id="docs-internal-guid-1a00b1ee-7fff-e115-48e0-272ddd46db45"></a>
 
-**Mentors:**  Bárbara Zanella
+**Mentors:**  Bárbara Zanella and  Samad Khan
 
 **Description:**   Create pages and receive notifications inside Rocket.Chat
 
