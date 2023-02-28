@@ -345,6 +345,21 @@ The goal of this project is to develop a solution that utilizes OpenAI's ChatGPT
 
 
 
+### Build Desktop app on Tauri
+
+**Mentors:** Jean Britto, Gabriel Casals
+
+**Description:** \
+The goal of this project is to develop a new desktop app on Tauri framework.&#x20;
+
+**Desirable Skill :**  Strong programming skills in Javascript and Typescript.    Familiarity with Rocket.Chat Desktop app. Familiarity with Tauri.&#x20;
+
+**Goal/Deliverable:**   A new platform for Rocket.Chat desktop app.&#x20;
+
+**Project Duration:** 350 hours (Large)\
+\
+**Difficulty:** Medium
+
 ### Flutter SDK for Rocket.Chat&#x20;
 
 **Mentors:**  TBD

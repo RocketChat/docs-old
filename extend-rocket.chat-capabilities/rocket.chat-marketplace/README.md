@@ -39,7 +39,9 @@ On the **Installed** tab of the **Apps** screen,
 
 ### Public Apps
 
-Public Apps are all the apps available on the Rocket.Chat [marketplace](https://www.rocket.chat/marketplace). They include Polls, Twitter, Jitsi, amongst many others.&#x20;
+Public Apps are all the apps available on the Rocket.Chat [marketplace](https://www.rocket.chat/marketplace). If you are a third-party publisher/developer, you can also submit an app to the marketplace and Rocket.Chat can approve or reject it.&#x20;
+
+To submit an app to the marketplace, the publisher must have a Rocket.Chat [Cloud Account](https://cloud.rocket.chat/login) and register their publisher account. You can find more about it on our [developer documentation. ](https://developer.rocket.chat/apps-engine/app-submission-to-the-marketplace)
 
 {% hint style="info" %}
 You can learn how to install and enable each of them in the [App Guide](rocket.chat-public-apps-guides/).
@@ -66,7 +68,7 @@ If your workspace version is `5.4` or lower, you can use all the enabled public 
 
 ### Enterprise Edition
 
-For enterprise edition (EE), workspaces can install all Public and Private apps. But, if a enterprise edition (EE) workspace liscense expires and the workspace has exceded the the **** limit, then marketplace disables all downloaded apps, and the app count returns to zero.
+For enterprise edition (EE), workspaces can install all Public and Private apps. But, if an enterprise edition (EE) workspace license expires and the workspace has exceded the the **** limit, then marketplace disables all downloaded apps, and the app count returns to zero.
 
 ## Enterprise Edition App Offerings
 
