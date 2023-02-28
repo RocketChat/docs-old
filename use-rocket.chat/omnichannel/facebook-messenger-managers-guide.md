@@ -1,9 +1,11 @@
 # Facebook Messenger Manager's Guide
 
+<figure><img src="../../.gitbook/assets/Deprecated (1).png" alt=""><figcaption></figcaption></figure>
+
 The Facebook Messager page allows you manage conversations from Facebook Messenger on the pages you have connected.
 
 {% hint style="info" %}
-This integration has known vulnerabilities and is being deprecated for Rocket.Chat 6.0. As a Rocket.Chat [Enterprise user](../../setup-and-administer-rocket.chat/enterprise-edition-trial/) you can make use of the[ Facebook App](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/facebook-app/).
+This integration has known vulnerabilities and has been deprecated for Rocket.Chat 6.0. As a Rocket.Chat [Enterprise user](../../setup-and-administer-rocket.chat/enterprise-edition-trial/) you can make use of the[ Facebook App](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/facebook-app/).
 {% endhint %}
 
 To access **Facebook Messenger m**anager's guide,&#x20;

@@ -55,7 +55,7 @@ If you want to develope your private Rocket.Chat app you can follow the [develop
 
 ### Community Edition
 
-For community edition (CE), workspaces can install numerous Public apps (apps from themarketplace) but enable only five. And they can enable three Private apps. Once it reaches the limit, you can upgrade to the enterprise edition (EE) for access to enable all apps in the workspace.  Refer to the table below for better understanding.
+For community edition (CE), workspaces can install numerous Public apps (apps from the marketplace) but enable only five. And they can enable three Private apps. Once it reaches the limit, you can upgrade to the enterprise edition (EE) for access to enable all apps in the workspace.  Refer to the table below for better understanding.
 
 | Community Edition 6.0 | Public apps | Private apps |
 | --------------------- | ----------- | ------------ |
