@@ -82,7 +82,7 @@ Some apps are part of the **Enterprise Edition** offerings. You don't have to pu
 | [Telegram](rocket.chat-public-apps-guides/omnichannel-apps/telegram-app/)                    | [Twitter](rocket.chat-public-apps-guides/omnichannel-apps/twitter-app/)              | [Pexip](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/pexip-app.md) | [Google Meet](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/google-meet-app.md) |
 
 {% hint style="success" %}
-If you are subscribed to Rocket.Chat's **Enterprise Edition**, you can install and enable any number paid and free apps available in the marketplace on your workspace.&#x20;
+If you are subscribed to Rocket.Chat's **Enterprise Edition**, you can install and enable any number of paid and free apps available in the marketplace on your workspace.
 {% endhint %}
 
 If you are looking for the manual/user guide of a particular app, check [rocket.chat-public-apps-guides](rocket.chat-public-apps-guides/ "mention") or search for it within the documentation.
