@@ -13,10 +13,10 @@ To set a custom domain,
 
 <figure><img src="../../../.gitbook/assets/Edit workspace URL.png" alt=""><figcaption><p>Edit workspace URL</p></figcaption></figure>
 
-* Select **Use custom domain,** set your new domain, and click **Save**
+* Select **Use custom domain,** set your new domain, and click **Save.**
 
 ****![DNS settings](<../../../.gitbook/assets/DNS settings saas.png>)****
 
-A message tells you to wait for DNS verification and your domain URL displays a pending status.
+A message tells you to wait for DNS verification, and your domain URL displays a pending status.
 
 Registrars usually process nameserver updates within 24 hours. Once complete, you will receive an email from Rocket.Chat Cloud.

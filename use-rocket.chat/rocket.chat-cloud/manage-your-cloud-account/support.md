@@ -10,7 +10,7 @@ To access the Rocket.Chat Help Desk,
 
 * From the sidebar menu, click **Support.**
 * If you are already a member, you can enter your email address and password to sign in or create an account by clicking **Sign Up.**
-* You will receive an invitation email with the confirmation link to access Rocket.Chat Support's [Customer Self Service Portal](https://desk.rocket.chat/portal/)
+* You will receive an invitation email with the confirmation link to access Rocket.Chat Support's [Customer Self-Service Portal](https://desk.rocket.chat/portal/)
 * Click **ACCEPT THE INVITATION,** then proceed to set up your password**.**
 
 To create a ticket,

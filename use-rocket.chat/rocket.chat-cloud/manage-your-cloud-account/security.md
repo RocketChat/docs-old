@@ -15,17 +15,17 @@ A password reset link is sent to your email if it matches an account.
 Setting up 2FA(Two Factor Authentication) provides a higher layer of securing to your Rocket.Chat Cloud account.
 
 {% hint style="info" %}
-Before setting up 2FA, you are required to set a password for your account first.
+Before setting up 2FA, you must set a password for your account first.
 {% endhint %}
 
 To set up 2FA:
 
 * Click on **Enable** to enable the feature
-* A modal is shown prompting you to enter your TOTP (time-based one-time password) or to create one if you don't have
+* A modal is shown, prompting you to enter your TOTP (time-based one-time password) or to create one if you don't have
 * Download and have available any Authenticator app of your choice to proceed. Some popular Authenticators include [Google Authenticator](https://googleauthenticator.net/),[ Authy, ](https://authy.com/)and[ Duo](https://duo.com/)
 * Scan the QR Code provided with your Authenticator app or setup the Authentication keys manually
 * Copy the code displayed by the newly added Authentication means (`Rocket.Chat Cloud`) and fill in the field prompting to enter the code, then proceed
-* A list of backup codes is provided, save them securely in case you lose access to your Authenticator app
+* A list of backup codes is provided. Save them securely in case you lose access to your Authenticator app
 * After that, the 2FA setup is completed
 
 You should now see on the security page the number of backup codes left and have the ability to disable 2FA or generate new codes.

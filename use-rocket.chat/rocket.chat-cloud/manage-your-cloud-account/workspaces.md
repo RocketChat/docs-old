@@ -9,7 +9,7 @@ When you log in, you will see the list of workspaces linked to your cloud accoun
 To register a self-managed workspace, click **Register self-managed** to enable your self-hosted workspace.
 
 {% hint style="info" %}
-&#x20;If you want multiple cloud workspaces under the same cloud account, please get in touch with us at [support@rocket.chat](mailto:support@rocket.chat).
+&#x20;If you want multiple cloud workspaces under the same cloud account, please contact us at [support@rocket.chat](mailto:support@rocket.chat).
 {% endhint %}
 
 To view workspace Information,

@@ -23,4 +23,4 @@ To reset your password,&#x20;
 * Go to [Rocket.Chat Cloud](https://cloud.rocket.chat/).
 * Enter the email address associated with your account.
 * Click **Reset Password**.
-* You will receive an email to finish password reset process.
+* You will receive an email to finish the password reset process.
