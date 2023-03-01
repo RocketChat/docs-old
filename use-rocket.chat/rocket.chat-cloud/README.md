@@ -1,26 +1,15 @@
 ---
-description: >-
-  Rocket. Chat Cloud Connect provides you limited access to manage your
-  workspaces. You have an option to choose between cloud-hosted workspace or
-  self-hosted workspaces.
+description: Setup and manage your Rocket.Chat cloud account.
 ---
 
 # Rocket.Chat Cloud
 
-The following topics give you all the information you need regarding the setup and usage of your new Rocket.Chat cloud account.
+Rocket.Chat Cloud lets you connect your workspace to our cloud services and better manage your workspaces. You have the option to choose between cloud-hosted workspace or self-hosted workspaces.
 
-{% content-ref url="create-new-cloud-account.md" %}
-[create-new-cloud-account.md](create-new-cloud-account.md)
-{% endcontent-ref %}
+****[**Create your new cloud account**](create-new-cloud-account.md): Sign up for a new cloud account.
 
-{% content-ref url="manage-your-cloud-account/" %}
-[manage-your-cloud-account](manage-your-cloud-account/)
-{% endcontent-ref %}
+****[**Manage your cloud account**](manage-your-cloud-account/): Manage your workspaces, add organization information, view invoices, and more services with your cloud account.
 
-{% content-ref url="cloud-account-setup-wizard.md" %}
-[cloud-account-setup-wizard.md](cloud-account-setup-wizard.md)
-{% endcontent-ref %}
+****[**Cloud Account Setup Wizard**](../../rocket.chat-resources/frequently-asked-questions/cloud-faqs.md): Set up your first Admin user and register your server.
 
-{% content-ref url="../../rocket.chat-resources/frequently-asked-questions/cloud-faqs.md" %}
-[cloud-faqs.md](../../rocket.chat-resources/frequently-asked-questions/cloud-faqs.md)
-{% endcontent-ref %}
+****[**Cloud FAQs**](../../rocket.chat-resources/frequently-asked-questions/cloud-faqs.md)**:** Frequently asked questions on Rocket.Chat cloud.

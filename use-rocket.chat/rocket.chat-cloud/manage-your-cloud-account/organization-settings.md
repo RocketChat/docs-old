@@ -1,9 +1,9 @@
 # Organization Settings
 
-As a workspace administrator, you can add information about your organization.
+As a workspace administrator, you can update information about your organization.
 
-### Add your organization information
+To update your organization's information,
 
-* Click **Organization.**  Enter the details as prompted and then click **Save Changes**.
-
-![Organization](../../../.gitbook/assets/orgsettings.png)
+* From the sidebar menu, click **Organization.** &#x20;
+* Update your organization details.&#x20;
+* Then, click **Save Changes**.

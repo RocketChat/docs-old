@@ -1,30 +1,28 @@
 ---
-description: You can get help from Rocket.Chat Help Desk if you are facing issues.
+description: Get help from Rocket.Chat Help Desk if you are facing issues.
 ---
 
 # Support
 
-### Rocket.Chat Customer Support
+When you are facing technical issues, you can get help from us through [Rocket.Chat Support](https://desk.rocket.chat/portal/en/signin). Using the Help Desk, you can raise your queries via tickets, read articles, and engage with our community.
 
-When you are facing some technical issues, you can get help from us through [Rocket.Chat Support](https://desk.rocket.chat/portal/en/signin). Using this HelpDesk, you can create your account to raise your queries, read articles and engage yourself in our community.
+To access the Rocket.Chat Help Desk,
 
-* To access the Rocket. Chat HelpDesk, click **Support.**
+* From the sidebar menu, click **Support.**
+* If you are already a member, you can enter your email address and password to sign in or create an account by clicking **Sign Up.**
+* You will receive an invitation email with the confirmation link to access Rocket.Chat Support's [Customer Self Service Portal](https://desk.rocket.chat/portal/)
+* Click **ACCEPT THE INVITATION,** then proceed to set up your password**.**
 
-If you are already a member, you can enter your email address and password to sign in or create an account by clicking **Sign Up.**
+To create a ticket,
 
-![SIgn Up](<../../../.gitbook/assets/image (101).png>)
-
-* You will receive the invitation email with the confirmation link to sign in to Rocket.Chat Help Desk.
-* Accept the invitation, and then you are taken to the registration page, where you can set up your password.
-
-### To create ticket
-
-You can create a new ticket in the **My Area** tab, as shown below:
-
-![My Area](<../../../.gitbook/assets/image (107).png>)
+* Navigate to **My Area > Tickets.**
+* Click **Add ticket.**
+* Fill in the required information about the ticket you want to raise.
+* Click **Submit**.
 
 {% hint style="info" %}
-If you want to obtain service under the service-level agreement (SLA), use our ticketing system. Tickets received from personal emails are not entertained by Rocket.Chat.
+Use our ticketing system to request service following the service-level agreement (SLA). Rocket.Chat does not accept tickets sent by personal email.
+
+Learn more about Rocket.Chat from our [knowledge base portal and articles.](https://desk.rocket.chat/portal/en/kb/rocket-chat)
 {% endhint %}
 
-You can also go through our knowledge base portal and check out the articles here: [https://desk.rocket.chat/portal/en/kb/rocket-chat](https://desk.rocket.chat/portal/en/kb/rocket-chat).

@@ -1,18 +1,14 @@
 ---
-description: Learn to manage the security of your Rocket.Chat Cloud account.
+description: Manage the security of your Rocket.Chat Cloud account.
 ---
 
 # Security
 
 ## Password
 
-Here you can set or change the password of your Rocket.Chat Cloud account.
-
-{% hint style="info" %}
 You can reset your password easily by signing out and clicking **Reset password** on the Rocket.Chat Cloud login page.
 
 A password reset link is sent to your email if it matches an account.
-{% endhint %}
 
 ## Two Factor Authentication
 

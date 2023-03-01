@@ -1,18 +1,14 @@
 # Custom domain for your Cloud-hosted workspace
 
-Here you'll find the guide on applying custom domains for your Rocket.Chat Cloud-hosted workspace within Cloud Portal.
-
-{% hint style="info" %}
-Any Cloud Portal account with a Cloud-hosted workspace can access this feature.
-{% endhint %}
+Any Cloud Portal account with a Cloud-hosted workspace can apply custom domains
 
 {% hint style="warning" %}
 &#x20;If your custom domain stops working for any reason, there is no redirect option.
 {% endhint %}
 
-To set a custom domain:
+To set a custom domain,
 
-* Access and log in to your cloud account via web browser.
+* Access and log in to your cloud account.
 * Click **Edit** next to your default URL
 
 <figure><img src="../../../.gitbook/assets/Edit workspace URL.png" alt=""><figcaption><p>Edit workspace URL</p></figcaption></figure>

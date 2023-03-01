@@ -53,4 +53,4 @@ For any applicable another rule, they are the same as regular Rocket.Chat rooms,
 
 <figure><img src="../../../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p><em>User trying to assign the same role as himself/herself confirmation modal.</em></p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p><em>View of a regular user (with no permissions to assign roles, invite users, etc)</em></p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption><p><em>View of a regular user (with no permissions to assign roles, invite users, etc)</em></p></figcaption></figure>

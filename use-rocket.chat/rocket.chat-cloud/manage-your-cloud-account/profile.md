@@ -1,9 +1,7 @@
 # Profile
 
-You can create and update your cloud account profile.
+To update your cloud account profile,&#x20;
 
-### Manage your profile
-
-1. Navigate to  **Avatar Menu >** **My** **Profile**. Enter the details as prompted and then click **Save Changes.**
-
-![](<../../../.gitbook/assets/my profile.png>)
+* Click your **Avatar** icon**.** Then, select **My** **Profile**.&#x20;
+* Update the required information.
+* Click **Save Changes.**

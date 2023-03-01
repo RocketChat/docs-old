@@ -1,27 +1,17 @@
 ---
-description: You can check and download a copy of monthly invoice.
+description: Check and download a copy of your monthly invoice.
 ---
 
 # Invoices
 
-You can see the list of your invoices here.
+You can view the list of invoices and filter by product and workspace. You can download invoices either as PDF or CSV. You can also multi-select invoices to download specific invoices.
 
-### **Download an invoice**
+To view your invoices,
 
-1. Click **download**.
-
-![](<../../../.gitbook/assets/image (92).png>)
+* From the sidebar menu, click **Invoices.** &#x20;
+* You can see the list of your invoices and other associated details like workspace, product status, and date.
+* Select the invoice and click **Download.**
 
 {% hint style="info" %}
-Your workspace is on the _standard tiered plan_ paying monthly per 10 members— e.g., if you have two members, you will still be charged for ten members.
+To find more billing information, please go to our [pricing](https://rocket.chat/pricing/) page.
 {% endhint %}
-
-To find more billing information, please follow the link to our [pricing](https://rocket.chat/pricing/).
-
-### Post-factum Billing
-
-Please note that Rocket.Chat offers two pricing models. If you are an old customer, you might still be on the old pricing model where you need to make the payment at the end of the month your billing period has ended.
-
-### Advance Billing
-
-If you are a new customer, you should be on the new pricing model and make the payment in advance.
