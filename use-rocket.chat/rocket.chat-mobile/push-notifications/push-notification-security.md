@@ -2,38 +2,35 @@
 
 ![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (26).jpg>)
 
-Instead of sending the message content through a push gateway: Apple and Google, if you are running [Enterprise edition ](../../../setup-and-administer-rocket.chat/enterprise-edition-trial/)the Secured Push Notification sends just the ID of the message.
-
-Once the ID reaches the user’s device, the message is retrieved from Rocket.Chat server and the notification is created.
+If you are using the Enterprise edition, the Secured Push Notification sends the ID of the message rather than the entire message through a push gateway (Apple or Google). Once the ID reaches the user’s device, the message is retrieved from Rocket.Chat server, and the notification is created.
 
 {% hint style="info" %}
-Please note that this process works for both situations if the user is using Rocket.Chat’s push gateway or his own.
+This process works for both situations if the user uses Rocket.Chat’s push gateway or his own.
 {% endhint %}
 
-### Privacy <a href="#privacy" id="privacy"></a>
+## Privacy
 
-In Privacy, you can configure what amount of information you want your push notification to have.‌
+You can enable and configure push notifications for workspace members using mobile devices.
 
-1. Go to **Administration**
+### Show Channel/Group/Username in Notification
 
-![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-MIu7bi07NaZFbYSpJXT%2F-MIuGig9NcK8dKxenTuF%2Fimage.png?alt=media\&token=12c524f6-d316-404d-8d1c-8900b61b22fb)
+The default is **TRUE**. Disabling this setting prevents the Channel, Group, Discussion, and Username from being sent to the push notification gateway.
 
-2\. Search '**Push'** in **Settings**
+### Show Message in Notification
 
-​‌
+The default is **TRUE**. Disabling this setting prevents the message content from being sent to the push notification gateway.
 
-![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-MNoqPzvogBnNTSPZgYI%2F-MNowERLUMcrX9DNhVFy%2Fimage.png?alt=media\&token=34db2493-3fc7-4c38-972b-52e0517731bf)
 
-3\. Go to **Privacy**
 
-***
+If the above privacy settings are disabled, the user receives a push notification without contextual information, as no such contextual information is sent to the push notification gateway in the first place. Then, the user can access the contextual information by opening the Rocket.Chat application. It is helpful in compliance-sensitive requirements like HIPAA to prevent sensitive information from being disclosed via push notification.
 
-![](<../../../.gitbook/assets/image (151).png>)
+### **Fetch full message content from the server on the receipt**
 
-![](https://gblobscdn.gitbook.com/assets%2F-M418Ul0aSTwf2PYsyPW%2F-MNzbyGrcLT-zbYvvICD%2F-MNze\_IPgEDo\_oOUzi8I%2Fimage.png?alt=media\&token=053aa749-50ef-4b1d-912e-c795ecc7c58f)
+If this setting is enabled, the notification payload sent through the Apple Push Notification service or Firebase Cloud Messaging service contains no message content. Instead, it has only the message ID, which is used by the mobile app to fetch the message content from the [Rocket.Chat](http://rocket.chat) server to display the notification. A generic push notification message is shown if something happens and the app cannot reach the server in time. When the setting is disabled, the message content is sent via push notification payload so the mobile app can immediately display the notification.
 
-Above are the default settings.
+To update privacy for push notifications,
 
-The first two toggles are self-explanatory.
+* Go to **Administration > Workspace > Settings > Push**
+* Go to **Privacy** and update your settings.
+* Click **Save Change**s.
 
-If **Fetch full message content from the server on the receipt** is enabled and you're running the [_Enterprise Edition_](https://rocket.chat/pricing)_,_ the notification payload, that is sent through the Apple Push Notification service or Firebase Cloud Messaging service contains no message content. Instead, it contains only the message ID which is then used by the mobile app to fetch the message content from the [Rocket.Chat](http://rocket.chat) server to display the notification. If something happens and the app cannot reach the server in time, a generic push notification message is shown. When the setting is disabled, the whole message content is sent via push notification payload so the mobile app can display the notification right away.

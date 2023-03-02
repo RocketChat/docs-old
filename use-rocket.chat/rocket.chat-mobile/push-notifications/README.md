@@ -7,74 +7,63 @@ There are two ways to set up push notifications with Rocket.Chat:
 
 ## Push Gateway
 
-If you and your users intend to use the official Rocket.Chat mobile applications; you need to choose this option.
-
-To allow push notifications to be received on our official mobile application by any server, we had to establish a push gateway containing our keys. In doing so, we protect our secret keys required to send through Apple(APN) and Google(FCM) to send you and your users notifications.
+Select this option if you and your users intend to use the official Rocket.Chat mobile applications. option. To enable push alerts to be received on our official mobile application by any server, we set up a push gateway holding our keys. By doing this, we safeguard the secret keys required to transmit notifications to you and your users via Apple(APN) and Google (FCM) systems.
 
 ## Self Configured
 
-When you choose to self configure the push notifications, things become a bit more complicated. First, you need to get keys from both Apple and Google and compile/release your own mobile applications to the app stores so your public keys will be distributed to your users.
+When you choose to self-configure the push notifications, things become a bit more complicated. First, you need to get keys from both Apple and Google and compile/release your mobile applications to the app stores so your public keys will be distributed to your users. You will also need to add your keys to Rocket.Chat.
 
-Then also, you will need to add your keys to Rocket.Chat.
-
-Then you will have to compile them for iOS and Android and submit them to the appropriate app stores for review.
-
-Finally, you would direct your users to download your custom version of the Rocket.Chat mobile applications.
+Then, compile them for iOS and Android and submit them to the appropriate app stores for review. Finally, direct your users to download your custom version of the Rocket.Chat mobile applications.
 
 ### Configuring for Android
 
-The Rocket.Chat native application for Android supports the FCM system. Here's how you configure it:
+The Rocket.Chat native application for Android supports the FCM system. You can configure it with the following steps:
 
-1. Create a Firebase project in the Firebase console if you don't already have one. Click Add project. If you already have an existing Google project associated with your mobile app, select it from the Project name drop-down menu. Otherwise, enter a project name to create a new project.
-2. _Optional:_ Edit your Project ID. Your project is given a unique ID automatically, and it's used in publicly visible Firebase features such as database URLs and your Firebase Hosting subdomain. You can change it now if you want to use a specific subdomain.
-3. Follow the remaining setup steps and click Create a project (or Add Firebase if you're using an existing project) to begin provisioning resources for your project. This typically takes a few minutes. When the process completes, you'll be taken to the project overview.
-
-Now that you have a project, you can add your Android app to it:
-
-1. Click Add Firebase to your Android app and follow the setup steps. If you're importing an existing Google project, this may happen automatically, and you can [download the config file](http://support.google.com/firebase/answer/7015592)
-2. When prompted, enter your app's package name. It's important to enter the package name your app uses; this can only be set when you add an app to your Firebase project
-3. During the process, you'll download a `google-services.json` file. You can [download this file](http://support.google.com/firebase/answer/7015592) again at any time
-4. After you add the initialization code, run your app to send verification to the Firebase console that you've successfully installed Firebase
+* Create a Firebase project in the Firebase console if you don't already have one. Click Add project. If you already have an existing Google project associated with your mobile app, select it from the Project name drop-down menu. Otherwise, enter a project name to create a new project.
+* _**(Optional)**_ Edit your Project ID. Your project is given a unique ID automatically, and it's used in publicly visible Firebase features such as database URLs and your Firebase Hosting subdomain. You can change it now if you want to use a specific subdomain.
+* Follow the remaining setup steps and click Create a project (or Add Firebase if you're using an existing project) to begin provisioning resources for your project. This typically takes a few minutes. When the process completes, you'll be taken to the project overview.
+* Now that you have a project, you can add your Android app. Click Add Firebase to your Android app and follow the setup steps. If you're importing an existing Google project, this may happen automatically, and you can [download the config file](http://support.google.com/firebase/answer/7015592).
+* When prompted, enter your app's package name. It's important to enter the package name your app uses; this can only be set when you add an app to your Firebase project.
+* During the process, you'll download a `google-services.json` file. You can [download this file](http://support.google.com/firebase/answer/7015592) again at any time.
+* After you add the initialization code, run your app to send verification to the Firebase console that you've successfully installed Firebase
 
 ### Configuring for iOS
 
-For iOS, you need an apple developer account that costs US$99 per year. Follow instructions here: [https://github.com/raix/push/blob/v3.x/docs/IOS.md](https://github.com/raix/push/blob/v3.x/docs/IOS.md)
-
-### Configuring Rocket.Chat
-
-* Go to "Administration", then "Push"
-* Set the Enable Gateway to False, then plug the information obtained from Apple and Google
-* Restart server (without this, it will not work)
-
-Now you should be able to send a text message. Make sure that you have logged in to the server once and then closed the app. You should see a test notification after you pressed the send button.
+For iOS, you need a paid apple developer account. Then, follow the steps outlined in the [iOS setup guide](https://github.com/raix/push/blob/v3.x/docs/IOS.md).
 
 {% hint style="info" %}
 You can find more information on push notifications configuration [here](https://developer.rocket.chat/mobile-app/mobile-app-white-labelling/configuring-push-notifications).
 {% endhint %}
 
-## Privacy
+### Configuring Rocket.Chat
 
-Rocket.Chat allows for additional privacy configurations on push notifications:
+* Go to **Administration.** Then click **Push.**
+* Set the **Enable Gateway** to **False**, and plug the information from Apple and Google.
+* Restart the server.
 
-* Show Channel/Group/Username in Notification: Default is "TRUE", disabling this setting prevents the Channel, Group, Discussion, and Username from being sent to the push notification gateway
-* Show Message in Notification: Default is "TRUE", disabling this setting prevents the message content from being sent to the push notification gateway
+Now you should be able to send a text message. Ensure you have logged in to the server once and then closed the app. You should see a test notification after you pressed the send button.
 
-If both settings are set to "FALSE", the user will receive a push notification without contextual information, as no such contextual information is sent to the push notification gateway in the first place. The user can then access the contextual information by opening the Rocket.Chat application. This is helpful in compliance-sensitive requirements like HIPAA to prevent sensitive information from being disclosed via push notification.
+{% hint style="info" %}
+Here are some important points to consider when configuring mobile push notifications
 
-## General Observations
-
-* If you don't want notifications, you can disable the gateway and not provide keys
-* You cannot compile your own applications and use the Rocket.Chat push gateway
-* For iOS, you need to [convert](https://github.com/raix/push/blob/master/docs/IOS.md) both the .cer and .p12 files into .pem files
-* Once everything is configured on the admin settings, the server must be restarted
+* If you don't want notifications, you can disable the gateway and not provide keys.
+* You cannot compile your applications and use the Rocket.Chat push gateway.
+* For iOS, you need to [convert](https://github.com/raix/push/blob/master/docs/IOS.md) both the `.cer` and `.p12` files into `.pem` files.
+* Once everything is configured on the admin settings, the server must be restarted.
+{% endhint %}
 
 ## FAQ
 
-### I am getting, "Server notifications are misconfigured!"
+<details>
+
+<summary>I am getting, "Server notifications are misconfigured!"</summary>
 
 If you are getting this message and are using our push gateway, please make sure:
 
-1. Your server version is greater or equal to 0.74.3
-2. Registered (you can check this by going to `http://yourserver/admin/cloud`)
+* Your server version is greater or equal to 0.74.3.
+* Your server is registered. (you can check this by going to `http://yourserver/admin/cloud`)
 
-_Thanks to @lvh1 and @lunitic for starting this doc_
+</details>
+
+###
+

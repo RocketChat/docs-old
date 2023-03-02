@@ -15,7 +15,7 @@ Based on your preference, you can set the type of messages you want to receive f
 To configure notifications within a room or channel,
 
 * Click the **three dots** icon at the menu bar of the room.
-* Select <img src="../../.gitbook/assets/image (12) (2).png" alt="" data-size="line">**Notification Preferences**.
+* Select <img src="../../.gitbook/assets/image (12) (1).png" alt="" data-size="line">**Notification Preferences**.
 
 You can toggle on/off for any of these actions:  receiving alerts,  mute `@here` and `@all` mentions,  mark a room as unread when there are unread messages.
 
@@ -38,3 +38,7 @@ Notifications of direct messages or `@username` mentions are sent to your email 
 * `@username` - notifies this user.
 * `@all` - notifies all members of this room or channel.
 * `@here` - notifies all members of this room or channel who are online.
+
+## User Presence
+
+User presence is another vital notification configuration. You do not receive push notifications on your mobile device when using your web or desktop client. If you are idle for 60 seconds, you will be considered away, and all your mentions will be pushed to your mobile client after 60 seconds. However, if you disable auto-away, you won't receive any push notifications unless your screen goes off due to your computer settings.

@@ -1,24 +1,17 @@
 # Push Notifications User Guide
 
-As a user, you can set your preference for push notifications as shown below.
+To enable push notifications,
 
-1. Click on your user and hit **My Account**.
-2. Go to **Preferences**.
+{% hint style="info" %}
+Always confirm that your mobile device settings allow the Rocket.Chat app to show notifications.
+{% endhint %}
 
-![](<../../../.gitbook/assets/image (144).png>)
+* Click your **avatar** from the sidebar to access the [user panel](https://docs.rocket.chat/use-rocket.chat/user-guides/user-panel).
+* Select **My Account**.
+* Click **Preferences**, then select **Notifications.**
+* Select the type of messages you want to **Send Push Notifications For.**
+* Click **Save Changes.**
 
-3\. Go to **Notifications**.
-
-![](<../../../.gitbook/assets/image (145).png>)
-
-4\. Go to **Push Mobile Notifications For** and set them according to your needs.
-
-![](<../../../.gitbook/assets/image (146).png>)
-
-### &#x20;User Presence
-
-Another unrelated but important configuration for push notification is user presence. So you know that when you are online on your web/desktop client,  you won't receive push messages on your mobile.&#x20;
-
-If you are idle for 60 seconds, you will be considered away and all the mentions you have after 60 seconds will be pushed to your mobile client. But if you disable auto-away, you won't receive any push notifications unless your screen goes off due to your computer settings.
-
-![](<../../../.gitbook/assets/image (148).png>)
+{% hint style="info" %}
+Learn about **Idle Time Limit** and enable **Auto-away** from[ User Presence](../../../setup-and-administer-rocket.chat/advanced-workspace-management/notifications.md#user-presence).
+{% endhint %}
