@@ -22,7 +22,12 @@ To create a Rocket.Chat account, you have to join a workspace. After you launch 
 
 To log in to Rocket.Chat from mobile:
 
-* Launch Rocket.Chat and provide your workspace URL or tap **Join our** [**open workspace**](https://open.rocket.chat)**.**
+* Launch Rocket.Chat and provide your workspace URL.&#x20;
+
+{% hint style="warning" %}
+Please note that [**open workspace**](https://open.rocket.chat) **** should only be used as a test.
+{% endhint %}
+
 * Tap **Login**
 * If you created an account with Google or GitHub, choose the respective option or provide a username or email and password combination to log in.
 * If you have not verified your email, you will be prompted to input it and check your mailbox to verify.
@@ -47,7 +52,7 @@ The navigation drawer menu carries your profile avatar, name, and workspace name
 The toolbar (action bar) has three action icons.
 
 * The <img src="../../.gitbook/assets/create icon (1).png" alt="" data-size="line"> icon is used to create [Rooms](../user-guides/rooms/).
-* The <img src="../../.gitbook/assets/search icon.png" alt="" data-size="line"> icon searches your whole workspace, from rooms to users and messages.
+* The <img src="../../.gitbook/assets/search icon.png" alt="" data-size="line"> icon searches your whole workspace for rooms and users.
 * The <img src="../../.gitbook/assets/hashtag icon.png" alt="" data-size="line"> icon is used to search for rooms that you are already part of or the ones which you might want to join.
 
 ### Main Body
