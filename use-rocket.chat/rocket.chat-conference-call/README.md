@@ -1,6 +1,6 @@
 # Rocket.Chat Conference Call
 
-When it comes to conference calling Rocket.Chat supports multiple feature-rich options like Google Meet to fulfill your needs. Rocket.Chat's conference call allows you to use the following video conferencing platforms, available as apps on our [marketplace](https://rocket.chat/marketplace).
+When it comes to conference calling Rocket.Chat supports multiple feature-rich options. Rocket.Chat's conference call allows you to use the following video conferencing platforms, available as apps on our [marketplace](https://rocket.chat/marketplace).
 
 * [Pexip](conference-call-admin-guide/pexip-app.md)
 * [Jitsi](conference-call-admin-guide/jitsi-app.md)

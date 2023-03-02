@@ -1,8 +1,8 @@
 # Air-gapped App Installation
 
-Rocket.Chat allows you to extend and bring in new functionalities to your workspace by building and using Rocket.Chat apps using the [apps engine](https://developer.rocket.chat/apps-engine/rocket.chat-apps-engine).
+Rocket.Chat allows you to extend and bring in new functionalities to your air-gapped workspace by building and using Rocket.Chat apps using the [apps engine](https://developer.rocket.chat/apps-engine/rocket.chat-apps-engine).
 
-These apps can help in improving collaboration, boosting productivity, and have you do more with your workspace.
+These apps can help in improving collaboration, boosting productivity, and having you do more with your workspace.
 
 {% hint style="info" %}
 Following apps work without internet access and can be requested via your registered support contact in the support team.
@@ -17,14 +17,14 @@ Following apps work without internet access and can be requested via your regist
 * [Pexip](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/pexip-app.md)
 {% endhint %}
 
-As a fully air-gapped user, you will have to manually install the apps you need to use on your workspace. In this section, we will see how to get and install an app in an air-gapped workspace.
+As a fully air-gapped user, you must manually install the apps you need to use on your workspace. In this section, we will see how to get and install an app in an air-gapped workspace.
 
 ## Getting an App
 
 You have the option to:
 
-1. [Request for an existing Rocket.Chat App](manual-app-installation.md#1.-requesting-for-a-rocket.chat-app) (if you are an Enterprise customer)
-2. [Build an App by yourself](manual-app-installation.md#2.-building-a-rocket.chat-app) (for Community)
+1. [Request for an existing Rocket.Chat App](air-gapped-app-installation.md#1.-requesting-for-a-rocket.chat-app) (if you are an Enterprise customer)
+2. [Build an App by yourself](air-gapped-app-installation.md#2.-building-a-rocket.chat-app) (for Community)
 
 ### 1. Requesting for a Rocket.Chat App
 

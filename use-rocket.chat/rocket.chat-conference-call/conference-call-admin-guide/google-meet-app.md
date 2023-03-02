@@ -27,4 +27,4 @@ To configure the **Google Meet** video conference on your workspace,
 * Select **GoogleMeet** as your **Default Provider**
 * Select the options that meet your needs and click **Save changes.**
 
-The Google Meet app is successfully configured on your server. Follow the [conference call user's guide](../conference-call-users-guide.md) to start using it.
+The Google Meet app is successfully configured on your server. Follow[conference-call-users-guide.md](../conference-call-users-guide.md "mention") to start using it.

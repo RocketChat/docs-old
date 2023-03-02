@@ -1,7 +1,7 @@
 # Jitsi app
 
 {% hint style="success" %}
-This app can also work in a fully air-gapped environment. If you are an Enterprise customer running an air-gapped workspace, follow the [Air-gapped App installation guide](../../../setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/manual-app-installation.md) and continue with the configuration instructions below.
+This app can also work in a fully air-gapped environment. If you are an Enterprise customer running an air-gapped workspace, follow the [Air-gapped App installation guide](../../../setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-app-installation.md) and continue with the configuration instructions below.
 {% endhint %}
 
 **Jitsi** is a [collection of open Source projects](https://jitsi.github.io/handbook/docs/architecture) which provide state-of-the-art video conferencing capabilities that are secure, easy to use, and easy to self-host. The [Jitsi Meet project](https://jitsi.org/Projects/JitsiMeet) (Jitsi Video Bridge) is a tried and true bandwidth-efficient WebRTC-compatible SFU (server-based) solution from our gracious FOSS partner, [Jitsi](https://jitsi.org). Rocket.Chat users can now enjoy reliable and robust group video, audio, and screen-sharing experiences through **Jitsi**.
@@ -45,4 +45,4 @@ To configure the **Jitsi** video conference on your workspace,
 * Select Jitsi as your **Default Provider**
 * Select the options that meet your needs and click **Save changes.**
 
-The **Jitsi** app is successfully configured on your server. Follow the [conference call user's guide](../conference-call-users-guide.md) to start using it.
+The **Jitsi** app is successfully configured on your server. Follow[conference-call-users-guide.md](../conference-call-users-guide.md "mention") to start using it.

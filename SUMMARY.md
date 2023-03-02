@@ -119,7 +119,7 @@
   * [Offline Workspace Registration](setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/offline-workspace-registration.md)
   * [Offline License](setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/offline-license.md)
   * [Air-gapped workspace Configuration](setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/air-gapped-workspace-configuration.md)
-  * [Air-gapped App Installation](setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/manual-app-installation.md)
+  * [Air-gapped App Installation](setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-app-installation.md)
 * [Roles in Rocket.Chat](setup-and-administer-rocket.chat/roles-in-rocket.chat/README.md)
   * [Marketplace Roles](setup-and-administer-rocket.chat/roles-in-rocket.chat/marketplace-roles.md)
 
@@ -359,7 +359,7 @@
     * [BigBlueButton (BBB) app](use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/bigbluebutton-bbb-app.md)
     * [Google Meet app](use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/google-meet-app.md)
   * [Conference Call User's Guide](use-rocket.chat/rocket.chat-conference-call/conference-call-users-guide.md)
-  * [Omnichannel Video/Audio Call Configuration](use-rocket.chat/rocket.chat-conference-call/omnichannel-video-audio-call-admins-guide.md)
+  * [Omnichannel Video/Audio Call Configuration](use-rocket.chat/rocket.chat-conference-call/omnichannel-video-audio-call-configuration.md)
 * [Rocket.Chat Federation](use-rocket.chat/rocket.chat-federation/README.md)
   * [Cross-server Federated Channels](use-rocket.chat/rocket.chat-federation/talking-to-users-from-another-server.md)
 * [Rocket.Chat Mobile](use-rocket.chat/rocket.chat-mobile/README.md)
