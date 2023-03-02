@@ -1,59 +1,48 @@
 # Jitsi app
 
-Jitsi is a [collection of Open Source projects](https://jitsi.github.io/handbook/docs/architecture) which provide state-of-the-art video conferencing capabilities that are secure, easy to use, and easy to self-host.
+{% hint style="success" %}
+This app can also work in a fully air-gapped environment. If you are an Enterprise customer running an air-gapped workspace, follow the [Air-gapped App installation guide](../../../setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/manual-app-installation.md) and continue with the configuration instructions below.
+{% endhint %}
 
-The [Jitsi Meet project](https://jitsi.org/Projects/JitsiMeet) (Jitsi Video Bridge) is a tried and true bandwidth-efficient WebRTC compatible SFU (server-based) solution from our gracious FOSS partner, [Jitsi](https://jitsi.org).
+**Jitsi** is a [collection of open Source projects](https://jitsi.github.io/handbook/docs/architecture) which provide state-of-the-art video conferencing capabilities that are secure, easy to use, and easy to self-host. The [Jitsi Meet project](https://jitsi.org/Projects/JitsiMeet) (Jitsi Video Bridge) is a tried and true bandwidth-efficient WebRTC-compatible SFU (server-based) solution from our gracious FOSS partner, [Jitsi](https://jitsi.org). Rocket.Chat users can now enjoy reliable and robust group video, audio, and screen-sharing experiences through **Jitsi**.
 
-Through the collaboration arrangement with Jitsi, Rocket.Chat users can enjoy reliable and robust group video chat, audio chat, and screen sharing experiences.
+## Download the Jitsi app
 
 {% hint style="info" %}
 **A Jitsi server is required for this integration.**
 {% endhint %}
 
-{% hint style="success" %}
-This app can also work in a fully air-gapped environment. If you are an Enterprise customer running an air-gapped workspace, follow the [manual-app-installation.md](../../../setup-and-administer-rocket.chat/rocket.chat-air-gapped-deployment/manual-app-installation.md "mention") guide and then follow the configuration instructions below.
-{% endhint %}
+To Download the **Jitsi** app on your workspace,
 
-To start using Jitsi video conferencing on your Rocket.Chat Instance:
+* Go to **Administration > Apps > Marketplace.**
+* Search for the **Jitsi Video Conference Provider** app.
+* Click **Install**
 
-## 1. Download the Jitsi app
+## Set up the Jitsi app&#x20;
 
-To Download the Jitsi app:
+To set up the **Jitsi** app on your workspace,
 
-1. Navigate to **Avatar Menu > Administration > Apps > Marketplace** tab.
-2. Search **Jitsi Video Conference Provider** app
-3. Hit **Install**
+* Confirm that the app is enabled.
+* Go to the settings tab and update the following fields:
+  * **Domain**: Your Jitsi domain
+  * **Title prefix**: Text added before the title when identifying a video conference
+  * **Title suffix**: Your room suffix
+  * **Use SSL**: Your Jitsi SSL
+  * **Chrome Extension Id**: Your Jitsi chrome extension Id
+  * **Use Authentication Token**: When enabled, Rocket.Chat will generate a JWT token using the settings below.
+  * **Application ID (iss)**: The app id to use when generating authentication tokens.
+  * **Application Secret**: The app secret to use when generating authentication tokens.
+  * **Limit token to Jitsi Room**: If enabled, generated tokens will grant access only to the intended Jitsi room.
+  * **Token Auditor**: The auditor's name to use when generating authentication tokens.
+  * **Token Expiration**: The expiring time of the authentication tokens.
+* Click **Save Changes**
 
-## 2. Set up the Jitsi app&#x20;
+### Configure conference call using the Jitsi app
 
-To set up the Jitsi app on your Rocket.Chat instance go to settings in App info and:
+To configure the **Jitsi** video conference on your workspace,
 
-1. **Enable** the Jitsi app on your Rocket.Chat instance
-2. **Domain**: is your Jitsi domain
-3. **Title prefix**: Text added before the title when identifying a video conference.
-4. **Title suffix**: Your room suffix
-5. **Use SSL**: Your Jitsi SSL
-6. **Chrome Extension Id**: Your Jitsi chrome extension Id
-7. **Use Authentication Token**: When enabled, Rocket.Chat will generate a JWT token using the settings below
-8. **Application ID (iss)**: The app id to use when generating authentication tokens
-9. **Application Secret**: The app secret to use when generating authentication tokens
-10. **Limit token to Jitsi Room**: If enabled, generated tokens will grant access only to the intended jitsi room
-11. **Token Auditor**: The name of the auditor to use when generating authentication tokens
-12. Hit **Save Changes**
+* Go to **Administration > Settings > Conference Call**
+* Select Jitsi as your **Default Provider**
+* Select the options that meet your needs and click **Save changes.**
 
-## 3. Configure conference call using Jitsi app
-
-To configure video conference on your Rocket.Chat instance:
-
-1. Go to **Avatar Menu > Administration > Settings >  Conference call**
-2. Select Jitsi as your **Default Provider**
-
-as shown below:
-
-![Conference call admin settings](../../../.gitbook/assets/VideoConferenceAdminSettingsForJitsi.png)
-
-Select the options that meet your needs and hit **Save changes** in the top right corner. Jitsi app is successfully configured on your server. Follow the conference call user's guide to start using it.
-
-{% content-ref url="../conference-call-users-guide.md" %}
-[conference-call-users-guide.md](../conference-call-users-guide.md)
-{% endcontent-ref %}
+The **Jitsi** app is successfully configured on your server. Follow the [conference call user's guide](../conference-call-users-guide.md) to start using it.

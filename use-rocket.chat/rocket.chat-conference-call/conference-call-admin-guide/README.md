@@ -4,20 +4,20 @@ description: Guide for Rocket.Chat administrators to configure video conference
 
 # Conference Call Admin Guide
 
-To configure conference calls on your Rocket.Chat Instance:
+To configure conference calls on your Rocket.Chat workspace,
 
-1. Navigate to **Administration > Workspace > Settings > Conference Call**&#x20;
-2. Select **Default Provider**
+* Go to **Administration > Workspace > Settings > Conference Call**&#x20;
+* **Select Default Provider**
 
-You can use any of the following apps as the default call provider for your workspace.&#x20;
+{% hint style="info" %}
+The default provider options will be empty if you have not set up any conference call apps from the marketplace.
+{% endhint %}
 
-Follow the guides below for each individual platform:
+****[**Pexip app**](pexip-app.md) (Enterprise only): Configure conference calls with the Pexip app in Rocket.Chat.
 
-[Pexip app](pexip-app.md) (Enterprise only)
+****[**Jitsi app**](jitsi-app.md): Configure conference calls with the Jitsi app in Rocket.Chat.
 
-[Jitsi app](jitsi-app.md)
+****[**BigBlueButton (BBB)**](bigbluebutton-bbb-app.md): Configure conference calls with the BigBlueButton app in Rocket.Chat
 
-[BigBlueButton (BBB) app](bigbluebutton-bbb-app.md)
-
-[Google Meet app](google-meet-app.md) (Enterprise only)
+****[**Google Meet app**](google-meet-app.md) **** (Enterprise only): Configure conference calls with the Google Meet app in Rocket.Chat
 

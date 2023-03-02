@@ -1,50 +1,34 @@
 # BigBlueButton (BBB) app
 
-BigBlueButton is an open-source web collaboration software utilized by education organizations for e-learning and training. The software offers numerous options for customization and integration as per requirements of the users.
+**BigBlueButton** is an open-source web collaboration software utilized by education organizations for e-learning and training. According to user needs, the software provides a wide range of customization and integration options. **BigBlueButton** enables users to conduct web-conferencing and share documents, audio, and video files for online learning. The software’s “whiteboard” feature allows presenters to mark valuable topics in the presentation. In addition, its “polling” feature engages learners and helps the presenter to receive feedback. BigBlueButton’s “desktop sharing” feature extends beyond slides and allows moderators to share their screens with the audience enabling a better understanding of topics.
 
-BigBlueButton enables users to conduct web-conferencing and share documents, audio, and video files for online learning. The software’s “whiteboard” feature allows presenters to mark valuable topics in the presentation. In addition, its “polling” feature engages learners and helps the presenter to receive feedback. BigBlueButton’s “desktop sharing” feature extends beyond slides and allows moderators to share their screens with the audience enabling a better understanding of topics.
+## Download BigBlueButton app
 
 {% hint style="info" %}
 **A BigBlueButton server is required for this integration.**
 {% endhint %}
 
-To start using BigBlueButton video conferencing on your Rocket.Chat Instance:
+To download the BigBlueButton app,
 
-## 1. Download BigBlueButton app
+* Go to **Administration > Apps > Marketplace.**
+* Search for the **BigBlueButton** app.
+* Click **Install**
 
-To download the BigBlueButton app:
+## Set up the BBB app ****&#x20;
 
-1. Navigate to **Avatar Menu > Administration > Apps > Marketplace** tab.
-2. Search **BigBlueButton** app
-3. Hit **Install**
+To set up the **BBB** app on your workspace,
 
-## 2. Set up BBB app ****&#x20;
+* Confirm that the app is enabled.
+* Run `sudo bbb-conf --secret` on the BBB server. It gives you a **URL** and a **Secret**.  See [ BBB's documentation](https://docs.bigbluebutton.org/admin/bbb-conf.html).
+* Use this URL and Secret in the Settings tab of the app to connect to BBB
+* Click **Save Changes**
 
-To set up the BBB app on your Rocket.Chat instance:
+## Configure conference call using the BBB **app**&#x20;
 
-1. Enable the BigBlueButton app on your Rocket.Chat instance
-2. Run `sudo bbb-conf --secret` on the BBB server. It gives you a **URL** and a **Secret**. (Find BBB's [documentation](https://docs.bigbluebutton.org/admin/bbb-conf.html) here.)
-3. Use this URL and Secret in the Settings on Rocket.Chat to connect to BBB, as shown below:
+To configure the **BBB** video conference on your workspace,
 
-![BBB app settings](../../../.gitbook/assets/BBBappSettings.png)
+* Go to **Administration > Settings > Conference Call**
+* Select BigBlueButton as your **Default Provider**
+* Select the options that meet your needs and click **Save changes.**
 
-4\. Hit **Save Changes**
-
-## 3. Configure conference call using BigBlueButton **app**&#x20;
-
-To configure video conference on your Rocket.Chat instance:
-
-1. Go to **Avatar Menu > Administration > Settings >  Conference call**
-2. Select BigBlueButton app as your **Default Provider**
-
-****
-
-as shown below:
-
-![Video conference admin settings](../../../.gitbook/assets/VideoConferenceAdminSettingsBBB.png)
-
-Select the options that meet your needs and hit **Save changes** in the top right corner. BigBlueButton app is successfully configured on your server. Follow the conference call user's guide to start using it.
-
-{% content-ref url="../conference-call-users-guide.md" %}
-[conference-call-users-guide.md](../conference-call-users-guide.md)
-{% endcontent-ref %}
+The BigBlueButton app is successfully configured on your server. Follow the [conference call user's guide](../conference-call-users-guide.md) to start using it.
