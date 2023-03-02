@@ -14,7 +14,9 @@ If you are using an Android phone, you can get Rocket.Chat from [Google Play](ht
 
 To create a Rocket.Chat account, you have to join a workspace. After you launch Rocket.Chat on mobile:
 
-* You are prompted to either provide your workspace URL or join our [Open workspace](https://open.rocket.chat).&#x20;
+*   Enter your workspace URL.
+
+    If you don't have one, you can join our [Community workspace](https://open.rocket.chat/)
 * Tap on **Create an account** and either sign up with the third-party authentication providers Github and Google or provide a name, username, email, and password.
 * A confirmation email is sent to your email, and tap on **Login** or access the URL of the workspace you provided initially to log in.
 
