@@ -17,21 +17,84 @@ Workspace admins should monitor new releases and our release notes [here ](https
 
 ## Updating Rocket.Chat on Docker
 
-Assuming you followed our installation guide on installing with [Docker and Docker Compose](../quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/), to update the `rocketchat` docker image to the latest version, you can use the following commands. Your data should not be affected by this, since it's located in the `mongo` image.
+Provided your workspace was deployed using [Docker and Docker Compose](../quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/), you can update the `rocketchat` [docker image](prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/available-images.md) and the version of your Rocket.Chat server to the latest or any version following any of these guides.
+
+{% hint style="success" %}
+Updating the Rocket.Chat image doesn't affect your data, since it exists in the mongo image.
+{% endhint %}
+
+### Updating to Latest
+
+{% hint style="info" %}
+Make sure the Rocket.Chat image value in the [compose file](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml) points to the `latest` tag on the registry.
+{% endhint %}
+
+You can update directly to the latest version of Rocket.Chat by:
+
+* Pulling the Rocket.Chat image with the `latest` tag
 
 ```
 docker pull registry.rocket.chat/rocketchat/rocket.chat:latest
+```
+
+* Stop and restart the existing container
+
+```
 docker-compose stop rocketchat
 docker-compose rm rocketchat
 docker-compose up -d rocketchat
 ```
+
+### Updating to a specific version
+
+To update your Rocket.Chat server to a specific version, follow these steps:
+
+* In your deployment directory, edit your `.env` or `compose.yml` file to point to the desired Rocket.Chat version
+
+<details>
+
+<summary>Changing version in <code>.env</code></summary>
+
+In the [`.env`](https://github.com/RocketChat/Docker.Official.Image/blob/master/env.example) file, change the `RELEASE` value to your specified version.
+
+```
+RELEASE=<desired version>
+```
+
+</details>
+
+OR
+
+<details>
+
+<summary>Changing version in <code>compose.yml</code></summary>
+
+In the [`compose.yml`](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml) file, change the `rocketchat` service `image` value to point to an image in the rocketchat registry image with a [tag](https://hub.docker.com/r/rocketchat/rocket.chat/tags/) of your desired version.
+
+```
+services:
+  rocketchat:
+    image:registry.rocket.chat/rocketchat/rocket.chat:<desired version>
+```
+
+</details>
+
+* Stop and restart the existing rocketchat container by running
+
+```
+docker-compose stop rocketchat
+docker-compose rm rocketchat
+docker-compose up -d rocketchat
+```
+
+See [available-images.md](prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/available-images.md "mention") for more on rocketchat docker images.
 
 ## Updating Rocket.Chat Snap
 
 The Rocket.Chat snap installation puts you on the `latest` track at the time of installation, which means you will always get the latest releases on that track.
 
 {% hint style="info" %}
-It is highly advised to [backup your data](prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/snaps/snap-backup-and-restore.md#backup-rocket.chat-snap-data) before upgrading
+It is highly advised to [back up your data](prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/snaps/snap-backup-and-restore.md#backup-rocket.chat-snap-data) before upgrading.
 {% endhint %}
 
 **Before performing a major version update, it is recommended to check our forum's announcement section**: [https://forums.rocket.chat/c/announcements/10](https://forums.rocket.chat/c/announcements/10) as major releases are usually delayed by a couple of weeks. This happens so that feedback is gotten and minor patches are made before pushing out.
@@ -59,32 +122,6 @@ More details on what channels are: [https://snapcraft.io/docs/channels](https://
 ```
 sudo snap refresh rocketchat-server --channel=x.x.x/stable
 ```
-
-## Updating Rocket.Chat Digital Ocean One-Click Install
-
-To update your Rocket.Chat Digital Ocean Droplet:
-
-1. Update the update tool:\
-   `sudo rocketchatctl upgrade-rocketchatctl`
-2. Update Rocket.Chat:\
-   `sudo rocketchatctl update`
-3. The server is broken and doesn’t start, because it requires Nodejs 14.x.x\
-   Install it:\
-   `sudo apt-get -y update && sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_14.x | sudo bash setup_14.x`\
-   `sudo apt-get install -y nodejs`\
-   ``\
-   ``If you face any errors with installing the node, reboot your system and you’ll be able to continue with the next steps.\
-   ![](<../.gitbook/assets/image (625).png>)
-4. If it is not updated already, change the path to new nodejs in the service config:\
-   `sudo nano /lib/systemd/system/rocketchat.service`\
-   In the line beginning with “ExecStart=” replace “/usr/local/bin/node” with “/usr/bin/node”
-5. Reload the service and start the server:\
-   `sudo systemctl daemon-reload`\
-   `sudo systemctl restart rocketchat.service`
-6. Check that it’s running:\
-   `sudo systemctl status rocketchat.service`
-
-Other important topics concerning updates can be found here.
 
 {% embed url="https://docs.rocket.chat/getting-support#mongodb-versions" %}
 
