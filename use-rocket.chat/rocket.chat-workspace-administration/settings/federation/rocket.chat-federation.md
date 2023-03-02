@@ -4,9 +4,9 @@
 ![](<../../../../.gitbook/assets/Deprecated (1).png>) Rocket.Chat Federation is deprecated as from Rocket.Chat `6.0`. We recommend federating using [Matrix Bridge](matrix-bridge/).
 {% endhint %}
 
-Rocket.Chat Federation lets your server becomes part of the Rocket.Chat Federated Network. This makes your server visible and can be found over the network and messages, files can be exchanged with other Federation-enabled Rocket.Chat servers.
+Rocket.Chat Federation lets your server becomes part of the Rocket.Chat Federated Network. This makes your server visible and can be found over the network, and messages, files can be exchanged with other Federation-enabled Rocket.Chat servers.
 
-Rocket.Chat makes use of industry standards, like DNS records, to keep the process as seamless as possible, and seek the most hassle-free communication between servers.
+Rocket.Chat uses industry standards, like DNS records, to keep the process seamless and seek the most hassle-free communication between servers.
 
 ## Configuration
 
@@ -26,7 +26,7 @@ The following configurations can be done
   When a server receives the message, it uses the Server B private key and the Server A public key to decrypt it.\
   So, let's say the message ended up on Server C: this server won't have Server B private key to decrypt it, so the message can't be read at all.
 * **Discovery Method**: How are you going to be found in the Rocket.Chat Federated Network? You can choose through DNS or, as a fallback, the Rocket.Chat Hub.\
-  **Important:** We recommend using the DNS method. The Hub is a tool to allow users to easily adapt, try and validate the feature or as a different way to be part of the Rocket.Chat Federated Network until DNS record changes are made. Also, the Hub requires external communication and access to a specific e-mail address owned by your domain, as explained below, which introduces extra configuration steps in some protected internal networks.
+  **Important:** We recommend using the DNS method. The Hub is a tool to allow users to easily adapt, try, and validate the feature or as a different way to be part of the Rocket.Chat Federated Network until DNS record changes are made. Also, the Hub requires external communication and access to a specific e-mail address owned by your domain, as explained below, which introduces extra configuration steps in some protected internal networks.
 
 ## Adding Federation to your Server
 
@@ -34,7 +34,7 @@ You have two ways to add your server to the Rocket.Chat Federated Network:
 
 ### Recommended: Configure your DNS
 
-To add your server to the Federated Network using the DNS, fill all the configuration fields required. Make sure to pick `true` on the `Enabled`, and select **DNS** as your `Discovery Method` option, save, and follow the guide below.
+To add your server to the Federated Network using the DNS, fill in all the configuration fields required. Make sure to pick `true` on the `Enabled`, and select **DNS** as your `Discovery Method` option, save, and follow the guide below.
 
 Let's suppose we have a domain named `mydomain.com`, and my Rocket.Chat server is hosted at `mydomain.com`, port `443`.
 
@@ -56,7 +56,7 @@ You must add two DNS records:
 * Host: `rocketchat-public-key.mydomain.com`
 * Value: `<my public key, as shown on the configuration screen>`
 
-**Note**: Some DNS providers do not allow to enter the full public key string. So, after saving, make sure the string is complete: it starts as `-----BEGIN PUBLIC KEY-----` and ends as `-----END PUBLIC KEY-----`. If that is not the case, follow your provider's instructions. For example, AWS Route 53 needs to split the string in two pieces, as follows:
+**Note**: Some DNS providers do not allow entering the full public key string. So, after saving, make sure the string is complete: it starts as `-----BEGIN PUBLIC KEY-----` and ends as `-----END PUBLIC KEY-----`. If that is not the case, follow your provider's instructions. For example, AWS Route 53 needs to split the string in two pieces, as follows:
 
 ```
 "-----BEGIN PUBLIC KEY-----...."
@@ -114,11 +114,11 @@ When the SRV and the Public Key TXT records are added to the DNS records, other 
 
 ### Alternative: Register on Hub
 
-To add your server to the Federated Network using the Hub, fill all the configuration fields needed. Make sure to pick **true** on the `Enabled` field), pick the **Hub** as your `Discovery Method` option, save, and follow the guide below.
+To add your server to the Federated Network using the Hub, fill in all the configuration fields needed. Make sure to pick **true** on the `Enabled` field), pick the **Hub** as your `Discovery Method` option, save, and follow the guide below.
 
 #### Confirm Domain Ownership
 
-When you click **Save** on the Federation config screen, you begin your registration process. This process takes a few seconds and if you are not yet registered to the Hub, you should receive an email at `webmaster@mydomain.com`, where `mydomain.com` is the domain address you configured on the `Domain` field.
+When you click **Save** on the Federation config screen, you begin your registration process. This process takes a few seconds, and if you are not yet registered to the Hub, you should receive an email at `webmaster@mydomain.com`, where `mydomain.com` is the domain address you configured on the `Domain` field.
 
 Make sure the data is correct and confirm the changes.
 

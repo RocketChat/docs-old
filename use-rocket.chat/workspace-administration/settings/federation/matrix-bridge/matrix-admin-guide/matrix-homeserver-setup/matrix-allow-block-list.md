@@ -8,7 +8,7 @@ description: >-
 
 ### Synapse
 
-To create allow/block lists on the Synapse installation you need to change it directly in the configuration file (homeserver.yaml), blocking undesired communication with specific homeservers or allowing only the desired ones.
+To create allow/block lists on the Synapse installation, you need to change it directly in the configuration file (homeserver.yaml), blocking undesired communication with specific homeservers or allowing only the desired ones.
 
 #### Block List
 
@@ -26,7 +26,7 @@ Add the following to the Synapse configuration file:
 
 `federation_domain_whitelist`: Creates an allow list by domain names. (List all domain names you want as a YAML array.)
 
-After creating the desired configuration, restart the Synapse server and everything you specified should be blocked.
+After creating the desired configuration, restart the Synapse server, and everything you specified should be blocked.
 
 [More Info](https://matrix-org.github.io/synapse/latest/usage/configuration/config\_documentation.html#federation\_domain\_whitelist)
 

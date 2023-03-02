@@ -41,7 +41,7 @@ You can find more information on push notifications configuration [here](https:/
 * Set the **Enable Gateway** to **False**, and plug the information from Apple and Google.
 * Restart the server.
 
-Now you should be able to send a text message. Ensure you have logged in to the server once and then closed the app. You should see a test notification after you pressed the send button.
+Now you should be able to send a text message. Ensure you have logged in to the server once and then closed the app. You should see a test notification after you press the send button.
 
 {% hint style="info" %}
 Here are some important points to consider when configuring mobile push notifications
@@ -64,6 +64,3 @@ If you are getting this message and are using our push gateway, please make sure
 * Your server is registered. (you can check this by going to `http://yourserver/admin/cloud`)
 
 </details>
-
-###
-

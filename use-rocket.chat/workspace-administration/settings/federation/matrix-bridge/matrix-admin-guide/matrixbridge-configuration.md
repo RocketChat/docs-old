@@ -3,7 +3,7 @@
 Configure the Rocket.Chat workspace to link with your Matrix Homeserver.
 
 {% hint style="info" %}
-This configuration only applies if the Matrix Homeserver was set up following the [#manual-installation](matrix-homeserver-setup/#manual-installation "mention"). This is done automatically for[#automated-installation](matrix-homeserver-setup/#automated-installation "mention").
+This configuration only applies if the Matrix Homeserver was set up following [#manual-installation](matrix-homeserver-setup/#manual-installation "mention"). This is done automatically for[#automated-installation](matrix-homeserver-setup/#automated-installation "mention").
 {% endhint %}
 
 To access this setting:
@@ -23,7 +23,7 @@ To access this setting:
 * We strongly recommend not connecting to this Matrix Homeserver with other Matrix clients.
 {% endhint %}
 
-* **AppService User Localpart:** The bot user associated with the application service (Sometimes it's being used to execute some actions).
+* **AppService User Localpart:** The bot user associated with the application service (Sometimes, it's being used to execute some actions).
 * **Registration**:  Automatically generated and updated by Rocket.Chat based on all the values provided in the above settings (This file is used [to configure the Application Service](matrix-homeserver-setup/#manual-installation)).
 
 {% hint style="info" %}

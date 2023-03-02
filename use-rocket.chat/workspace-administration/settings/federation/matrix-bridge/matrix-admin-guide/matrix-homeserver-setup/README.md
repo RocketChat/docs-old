@@ -4,7 +4,7 @@
 
 In the Matrix protocol and federated architecture, Homeservers are key components that host user accounts and other data related to communication. It also facilitates communication between users on different servers by relaying messages through a network of Matrix servers until it reaches the destination.
 
-Rocket.Chat listens to events happening in the Homeserver and also sends events which gets relayed to other networks.
+Rocket.Chat listens to events happening in the Homeserver and also sends events that gets relayed to other networks.
 
 You can choose to install a Homeserver following and of the two methods listed below:
 
@@ -44,7 +44,7 @@ allow_public_rooms_without_auth: true
 allow_public_rooms_over_federation: true
 ```
 
-* Following the automated installation, enables everything by default and can be disabled by editing the generated configuration at `data/matrix/synapse`.
+* Following the automated installation enables everything by default and can be disabled by editing the generated configuration at `data/matrix/synapse`.
 
 ## Automated Installation
 
@@ -91,7 +91,7 @@ Rocket.Chat Matrix setup CLI coming soon.
 
 To test and make sure your Matrix setup is successful,
 
-* In the same directory where the setup was initiated download and execute the [test script](https://go.rocket.chat/i/federation-test).
+* In the same directory where the setup was initiated, download and execute the [test script](https://go.rocket.chat/i/federation-test).
 
 ```bash
 bash <(curl -L -s https://go.rocket.chat/i/federation-test)
@@ -101,7 +101,7 @@ You get a notice about the setup status.
 
 ## Manual installation
 
-Follow this guide to manually set up a Matrix Homeserver with Synapse.
+Follow this guide to set up a Matrix Homeserver with Synapse manually.
 
 * Install [Synapse](https://matrix.org/docs/projects/server/synapse).
 * Obtain [Lets Encrypt](https://letsencrypt.org/) Certificate.
@@ -123,4 +123,4 @@ Follow this guide to manually set up a Matrix Homeserver with Synapse.
 To test your manual installation:
 
 * Make sure Synapse is up and running.
-* Make sure the federation setup is running, go to [Matrix Federation Tester](https://federationtester.matrix.org/), and paste your Matrix Homeserver name (only the server name, not the full link).
+* Ensure the federation setup is running, go to [Matrix Federation Tester](https://federationtester.matrix.org/), and paste your Matrix Homeserver name (only the server name, not the full link).
