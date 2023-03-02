@@ -32,7 +32,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 ****[**Email**](email/): Learn how to configure how broadcast email template formats are sent from your Rocket.Chat server.
 
-****[**Federation**](federation/): Learn how to configure multiple workspaces to communicate with each other.
+****[**Federation**](../../rocket.chat-workspace-administration/settings/federation/): Learn how to configure multiple workspaces to communicate with each other.
 
 ****[**File Upload**](file-upload/): Configure the type of storage and turn on or off user-document upload on your workspace server.
 

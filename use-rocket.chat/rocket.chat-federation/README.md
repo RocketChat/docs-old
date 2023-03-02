@@ -15,8 +15,8 @@ Bridging [Matrix ](https://matrix.org/)with Rocket.Chat **** makes it simple for
 We don't support encrypted rooms yet.
 {% endhint %}
 
-{% content-ref url="../workspace-administration/settings/federation/matrix-bridge/" %}
-[matrix-bridge](../workspace-administration/settings/federation/matrix-bridge/)
+{% content-ref url="../rocket.chat-workspace-administration/settings/federation/matrix-bridge/" %}
+[matrix-bridge](../rocket.chat-workspace-administration/settings/federation/matrix-bridge/)
 {% endcontent-ref %}
 
 ## Features

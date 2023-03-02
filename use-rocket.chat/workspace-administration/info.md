@@ -79,7 +79,7 @@ More details on usage info can be seen on the [engagement-dashboard.md](engageme
 
 ## Federation Info
 
-[Rocket.Chat's Federation](settings/federation/#introduction) lets you set up communication between Rocket.Chat workspaces.
+[Rocket.Chat's Federation](../rocket.chat-workspace-administration/settings/federation/#introduction) lets you set up communication between Rocket.Chat workspaces.
 
 **Enabled**: Enables federation on your server.
 
@@ -101,7 +101,7 @@ We recommend using **DNS**.
 Next, continue by adding the given DNS records on your server and follow the given instructions.
 
 {% hint style="info" %}
-More on the federation setup can be seen in [this section](settings/federation/).
+More on the federation setup can be seen in [this section](../rocket.chat-workspace-administration/settings/federation/).
 
 We also have a guide on [talking-to-users-from-another-server.md](../rocket.chat-federation/talking-to-users-from-another-server.md "mention").
 {% endhint %}

@@ -1,12 +1,12 @@
-# Rocket.Chat Federation (Will be deprecated on 6.0.0)
+# Rocket.Chat Federation
+
+{% hint style="warning" %}
+![](<../../../../.gitbook/assets/Deprecated (1).png>) Rocket.Chat Federation is deprecated as from Rocket.Chat `6.0`. We recommend federating using [Matrix Bridge](matrix-bridge/).
+{% endhint %}
 
 Rocket.Chat Federation lets your server becomes part of the Rocket.Chat Federated Network. This makes your server visible and can be found over the network and messages, files can be exchanged with other Federation-enabled Rocket.Chat servers.
 
 Rocket.Chat makes use of industry standards, like DNS records, to keep the process as seamless as possible, and seek the most hassle-free communication between servers.
-
-{% hint style="warning" %}
-Rocket.Chat Federation will be deprecated from release`6.0.0.`We strongly recommend federating using [Matrix Bridge](matrix-bridge/)``
-{% endhint %}
 
 ## Configuration
 

@@ -1,17 +1,8 @@
 # Matrix User's Guide
 
-{% content-ref url="create-a-federated-rooms.md" %}
-[create-a-federated-rooms.md](create-a-federated-rooms.md)
-{% endcontent-ref %}
+As a Rocket.Chat User, you can communicate with users of other federated platforms provided your workspace Administrator has setup and enabled Matrix federation. See this guide [matrix-admin-guide](../matrix-admin-guide/ "mention")
 
-{% content-ref url="invite-external-users-to-your-rocket.chat-server.md" %}
-[invite-external-users-to-your-rocket.chat-server.md](invite-external-users-to-your-rocket.chat-server.md)
-{% endcontent-ref %}
-
-{% content-ref url="communicate-with-a-federated-user.md" %}
-[communicate-with-a-federated-user.md](communicate-with-a-federated-user.md)
-{% endcontent-ref %}
-
-{% content-ref url="assign-roles-for-users-in-federated-rooms.md" %}
-[assign-roles-for-users-in-federated-rooms.md](assign-roles-for-users-in-federated-rooms.md)
-{% endcontent-ref %}
+* ****[**Create federated rooms**](create-a-federated-rooms.md): See how to create federated rooms.
+* ****[**Invite external users**](invite-external-users-to-your-rocket.chat-server.md): Learn how to invite external users from other Matric servers to communicate in Rocket.Chat.
+* ****[**Communicate with federated users**](communicate-with-a-federated-user.md): This shows how to initiate and chat with external users.
+* ****[**Assign roles for users in federated rooms**](assign-roles-for-users-in-federated-rooms.md): Share roles with federated users in a room.

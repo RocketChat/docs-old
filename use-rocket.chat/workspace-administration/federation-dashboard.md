@@ -6,7 +6,7 @@ description: >-
 
 # Federation Dashboard
 
-With the Rocket.Chat [Federation Setup](settings/federation/), you can configure your server to be able to communicate with other servers seamlessly.
+With the Rocket.Chat [Federation Setup](../rocket.chat-workspace-administration/settings/federation/), you can configure your server to be able to communicate with other servers seamlessly.
 
 To access the dashboard, go to **Administration** > **Workspace** > **Federation Dashboard.**
 

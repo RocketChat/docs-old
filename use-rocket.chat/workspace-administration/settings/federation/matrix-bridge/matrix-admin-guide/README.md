@@ -1,14 +1,7 @@
 # Matrix Admin Guide
 
-{% content-ref url="matrix-homeserver-setup/" %}
-[matrix-homeserver-setup](matrix-homeserver-setup/)
-{% endcontent-ref %}
+As a workspace [Administrator](../../../../), you can setup Matrix protocol for federated communication.
 
-{% content-ref url="matrixbridge-configuration.md" %}
-[matrixbridge-configuration.md](matrixbridge-configuration.md)
-{% endcontent-ref %}
-
-{% content-ref url="matrix-homeserver-setup/matrix-allow-block-list.md" %}
-[matrix-allow-block-list.md](matrix-homeserver-setup/matrix-allow-block-list.md)
-{% endcontent-ref %}
-
+* ****[**Matrix Homeserver Setup**](matrix-homeserver-setup/): Setup a Matrix Homeserver following the automated or manual guide.
+* ****[**Matrix Bridge Configuration**](matrixbridge-configuration.md): Configure the Matrix prorocol settings for your workspace after manual installation.
+* ****[**Matrix Allow/Block List**](matrix-homeserver-setup/matrix-allow-block-list.md): See how to create a list of allowed and blocked IP addressed from communicating with your workspace.
