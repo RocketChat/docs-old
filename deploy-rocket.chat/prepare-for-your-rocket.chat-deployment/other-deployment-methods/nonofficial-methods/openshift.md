@@ -4,10 +4,6 @@ description: Deploying Rocket.Chat on OpenShift
 
 # OpenShift
 
-{% hint style="info" %}
-[ **👉 Trouble installing or deploying Rocket.Chat?** Join our Weekly Technical Helpline to get real-time help from our team](https://app.livestorm.co/rocket-chat/rocketchats-weekly-technical-helpline?type=detailed)!
-{% endhint %}
-
 This guide covers how to host Rocket.Chat on OpenShift Online Next Gen.
 
 OpenShift Online Next Gen is a completely rewritten PaaS solution based on Docker and Kubernetes that allows developers to quickly develop, host and scale applications in a cloud environment. OpenShift provides a CLI based tool that allows managing your projects and applications.

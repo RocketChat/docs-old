@@ -4,10 +4,6 @@ description: Deploying Rocket.Chat on Cloudron.io
 
 # Cloudron.io
 
-{% hint style="info" %}
-[ **👉 Trouble installing or deploying Rocket.Chat?** Join our Weekly Technical Helpline to get real-time help from our team!](https://app.livestorm.co/rocket-chat/rocketchats-weekly-technical-helpline?type=detailed)
-{% endhint %}
-
 Cloudron is a complete solution for running apps on your server and keeping them up-to-date and secure.
 
 Rocket.Chat can be installed on [Cloudron](https://cloudron.io) from the [Cloudron Store](https://cloudron.io/store/chat.rocket.cloudronapp.html).
