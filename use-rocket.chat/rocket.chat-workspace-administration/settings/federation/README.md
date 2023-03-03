@@ -4,7 +4,7 @@ Federation allows for an unlimited number of workspaces to communicate with each
 
 To access Federation on your workspace, navigate to **Administration > Workspace > Settings > Federation**
 
-Rocket.Chat provides Federation using the [Matrix Protocol](https://matrix.org/) and the [Rocket.Chat Federation Network](rocket.chat-federation.md) (Will be deprecated on 6.0.0).
+Rocket.Chat provides Federation using the [Matrix Protocol](https://matrix.org/) and the [Rocket.Chat Federation Network](../../../workspace-administration/settings/federation/rocket.chat-federation/) (Will be deprecated on 6.0.0).
 
 Rocket.Chat provides federation in the following ways:
 

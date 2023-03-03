@@ -1,7 +1,7 @@
 # Rocket.Chat Federation
 
 {% hint style="warning" %}
-![](<../../../../.gitbook/assets/Deprecated (1).png>) Rocket.Chat Federation is deprecated as from Rocket.Chat `6.0`. We recommend federating using [Matrix Bridge](matrix-bridge/).
+![](<../../../../../.gitbook/assets/Deprecated (1).png>) Rocket.Chat Federation is deprecated as from Rocket.Chat `6.0`. We recommend federating using [Matrix Bridge](../../../../rocket.chat-workspace-administration/settings/federation/matrix-bridge/).
 {% endhint %}
 
 Rocket.Chat Federation lets your server becomes part of the Rocket.Chat Federated Network. This makes your server visible and can be found over the network, and messages, files can be exchanged with other Federation-enabled Rocket.Chat servers.
@@ -126,4 +126,4 @@ After that step, other peers should be able to find you in the Rocket.Chat Feder
 
 ## Using Rocket.Chat Federation
 
-Click [here](../../../rocket.chat-federation/talking-to-users-from-another-server.md) to learn how to use Rocket.Chat Federation.
+Click [here](../../../../rocket.chat-federation/talking-to-users-from-another-server.md) to learn how to use Rocket.Chat Federation.
