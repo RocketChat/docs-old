@@ -96,7 +96,7 @@ rocketchat/stream-hub-service:latest
 Controls and update users' presence status.
 
 {% hint style="success" %}
-In a situation where you have a huge amount of data/users, you can get away with not running it to reduce the traffic of presence processing. If you are not running it, the user's online/offline status and notification will not work properly.
+When you have a huge amount of data/users, you can avoid running it to reduce the traffic of presence processing. If you are not running it, the user's online/offline status and notification will not work properly.
 {% endhint %}
 
 ```
@@ -118,7 +118,7 @@ Set the following environment variables to enable Prometheus metrics:
 
 ## Reverse proxy
 
-Once all services are up and running the web socket connections should be targeted to `ddp-streamer` containers, the configuration depends on the reverse proxy you have set up, but you need to change the following routes:
+Once all services are up and running, the web socket connections should be targeted to `ddp-streamer` containers, the configuration depends on the reverse proxy you have set up, but you need to change the following routes:
 
 * `/sockjs`
 * `/websocket`

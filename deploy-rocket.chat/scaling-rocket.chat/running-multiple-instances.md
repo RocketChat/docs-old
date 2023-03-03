@@ -16,7 +16,7 @@ We'll be working with Nginx in our examples, but it should be possible with othe
 
 ## Run multiple instances of Rocket.Chat
 
-We'll assume that you've configured Rocket.Chat to run as a systemd service. Since we want to run multiple instances simultaneously, we need to run at least two services. The only difference is the service name and port. If you don't have a service yet, the easiest way to do this for Rocket.Chat is to create a file in `/usr/lib/systemd/system/` and call it `rocketchat.service`
+We'll assume that you've configured Rocket.Chat to run as a systemd service. Since we want to run multiple instances simultaneously, we must run at least two services. The only difference is the service name and port. If you don't have a service yet, the easiest way to do this for Rocket.Chat is to create a file in `/usr/lib/systemd/system/` and call it `rocketchat.service`
 
 ```
 [Unit]
@@ -42,7 +42,7 @@ ExecStart=/usr/local/bin/node /path.to.rocketchat/rocket.chat/bundle/main.js
 WantedBy=multi-user.target
 ```
 
-Make sure the User and Group exist and both have `read`/`write`/`execute` Permissions for the rocketchat. Now you can run start, stop, restart, and status your rocketchat service.
+Make sure the User and Group exist, and both have `read`/`write`/`execute` permissions for the rocketchat. Now you can run start, stop, restart, and the status your rocketchat service.
 
 If you want multiple Services, create another file in `/usr/lib/systemd/system` and call it `rocketchat@.service` with the following content:
 
@@ -80,15 +80,15 @@ If you want to run Rocket.Chat at boot just enable the services with:
 
 ### Ensure nodes can communicate
 
-If you run Rocket.Chat instances on multiple physical nodes. Or even in multiple containers make sure they can communicate with each other.
+If you run Rocket.Chat instances on multiple physical nodes or even in multiple containers make sure they can communicate with each other.
 
 Rocket.Chat makes use of a peer-to-peer connection to inform each other of events. Let's say you type a message and tag a friend or coworker that is connected to another instance.
 
-Two different events are fired: 1. The user (you) is typing 2. Notify user (friend)
+Two different events are fired: 1. The user (you) is typing 2. Notify the user (friend)
 
 Each Rocket.Chat instance registers in your database the IP address it detected for itself. Other instances then use this list to discover and establish connections with each other.
 
-If you find instances unable to talk to each other you can try setting the `INSTANCE_IP` environment variable to the IP the other instances can use to talk to it.
+If you find instances unable to talk to each other, you can try setting the `INSTANCE_IP` environment variable to the IP the other instances can use to talk to it.
 
 ## Update your Nginx proxy config
 
@@ -220,6 +220,5 @@ Another very important part is your database. As mentioned above, you will need 
 
 This is important for a couple of reasons:&#x20;
 
-1. Database reliability. You will want to make sure that your data is replicated, and you have another node if something happens to your primary.
-2. Rocket.Chat does what's called oplog tailing. The oplog is turned on when you set up a replicaset. Mongo makes use of this to publish events so the other nodes in the replicaset can make sure its data is up to date. Rocket.Chat makes use of this to watch for database events. If someone sends a message on Instance 1 and you are connected to Instance 2. Instance 2 watches for message insert events and then is able to show you a new message has arrived.
-
+1. Database reliability. You will want to ensure that your data is replicated, and you have another node if something happens to your primary.
+2. Rocket.Chat does what's called oplog tailing. The oplog is turned on when you set up a replicaset. Mongo makes use of this to publish events so the other nodes in the replicaset can make sure its data is up to date. Rocket.Chat makes use of this to watch for database events. If someone sends a message on Instance 1 and you are connected to Instance 2. Instance 2 watches for message insert events and then can show you a new message has arrived.
