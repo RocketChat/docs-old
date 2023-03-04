@@ -41,7 +41,7 @@ microservices:
   enabled: true
 ```
 
-* Setup and enable an ingress controller for the right service redirection (to ddp streamer). So Rocket.Chat can be accessed outside the Kubernetes cluster. Ngnix preferred.
+* Setup and enable an ingress controller for the right service redirection (to ddp streamer). So Rocket.Chat can be accessed outside the Kubernetes cluster.
 
 ```
 ingress:
@@ -56,7 +56,7 @@ See the list of variables [here](../../deploy-rocket.chat/prepare-for-your-rocke
 Once you have made the necessary changes to the configuration file, run the following command to upgrade the deployment:
 
 ```bash
-helm upgrade rocket-chat rocket-chat/rocket-chat -f values.yaml
+helm upgrade rocket-chat rocketchat/rocketchat -f values.yaml
 ```
 
 Install the chart by running:
