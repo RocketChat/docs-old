@@ -52,7 +52,7 @@ ddpStreamer:
 `ddp-streamer` should be scaled from the beginning. Aim for one pod for every 500 concurrent users.
 {% endhint %}
 
-For monolith replicas, set the top level `replicaCount` value.
+For monolith replicas, set the top-level `replicaCount` value.
 
 ```yaml
 replicaCount: 2
@@ -77,7 +77,7 @@ ingress:
   ingressClassName: nginx
 ```
 
-This adds the required ingress resource with all the expected paths and backends configured. The `ingressClassName` is important unless you have a default class set, depending on the type of controller you're using, refer to the respective documentation.
+This adds the necessary ingress resource with all the expected paths and backends configured. The `ingressClassName` is important unless you have a default class set, depending on the type of controller you're using, refer to the respective documentation.
 
 {% hint style="info" %}
 Nginx controller is used as an example and not an official recommendation.
@@ -95,7 +95,7 @@ helm install rocketchat -f Values.yaml rocketchat/rocketchat
 
 Once deployed, you should be able to access the Rocket.Chat using the configured host.&#x20;
 
-* You can convert your existing monolith deployment to using microservices by making the same changes mentioned in this document, and running `helm upgrade` with the values file and the existing deployment name, instead of `helm install`.&#x20;
+* You can convert your existing monolith deployment to using microservices by making the same changes mentioned in this document and running `helm upgrade` with the values file and the existing deployment name instead of `helm install`.&#x20;
 
 A complete guide on how to deploy with helm can be found here [helm.md](../../deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/helm.md "mention").
 
