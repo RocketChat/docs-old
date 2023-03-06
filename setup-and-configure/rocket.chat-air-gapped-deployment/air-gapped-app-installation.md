@@ -1,11 +1,13 @@
+---
+description: Get and install an app in an air-gapped workspace.
+---
+
 # Air-gapped App Installation
 
-Rocket.Chat allows you to extend and bring in new functionalities to your air-gapped workspace by building and using Rocket.Chat apps using the [apps engine](https://developer.rocket.chat/apps-engine/rocket.chat-apps-engine).
-
-These apps can help in improving collaboration, boosting productivity, and having you do more with your workspace.
+Rocket.Chat allows you to extend and bring new functionalities to your air-gapped workspace by building and using Rocket.Chat apps using the [apps engine](https://developer.rocket.chat/apps-engine/rocket.chat-apps-engine). These apps can help in improving collaboration, boosting productivity, and having you do more with your workspace.
 
 {% hint style="info" %}
-Following apps work without internet access and can be requested via your registered support contact in the support team.
+The following apps work without internet access and can be requested via your registered support contact from the support team.
 
 * [Bamboo Integration](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bamboo-integration.md)
 * [Bitbucket Server](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bitbucket-server-integration.md)
@@ -17,39 +19,28 @@ Following apps work without internet access and can be requested via your regist
 * [Pexip](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/pexip-app.md)
 {% endhint %}
 
-As a fully air-gapped user, you must manually install the apps you need to use on your workspace. In this section, we will see how to get and install an app in an air-gapped workspace.
-
 ## Getting an App
 
-You have the option to:
+You can either request an existing Rocket.Chat App or build an App by yourself.
 
-1. [Request for an existing Rocket.Chat App](air-gapped-app-installation.md#1.-requesting-for-a-rocket.chat-app) (if you are an Enterprise customer)
-2. [Build an App by yourself](air-gapped-app-installation.md#2.-building-a-rocket.chat-app) (for Community)
+### &#x20;Requesting for a Rocket.Chat App
 
-### 1. Requesting for a Rocket.Chat App
+You can request these apps via your registered support contact in the support team. This option is available to [enterprise ](https://www.rocket.chat/pricing)customers.
 
-The apps can be requested via your registered support contact in the support team.
+### Building a Rocket.Chat App
 
-### 2. Building a Rocket.Chat App
-
-See the guide on building Rocket.Chat apps.
+See the developer guide on Getting started with Apps engine.
 
 {% embed url="https://developer.rocket.chat/apps-engine/getting-started" %}
 
 ## Installing an App
 
-After getting your packaged and ready-to-use app in a `.zip` format, follow the instructions below to install it on your workspace.
+After getting your packaged and ready-to-use app in a `.zip` format, follow these instructions to install it on your workspace:
 
-* &#x20;Navigate to **Administration** -> **Workspace** -> **Apps**
+* Navigate to **Administration > Apps > Marketplace.**
 * Click on **Upload App**
-
-<figure><img src="../../.gitbook/assets/Apps panel.png" alt=""><figcaption><p>Apps panel</p></figcaption></figure>
-
-* You are taken to a page to either install from a URL or a file
-* Choose the **Install from file** method&#x20;
-* Select the `.zip` file of the app and **Install**
-
-<figure><img src="../../.gitbook/assets/App installation page.png" alt=""><figcaption><p>App installation page</p></figcaption></figure>
-
+* You can install from a URL or a file on the App installation screen.
+* Choose the **Install from file** method.
+* Select the `.zip` file of the app and click **Install.**
 * **Agree** to the permissions needed to complete the installation.
 

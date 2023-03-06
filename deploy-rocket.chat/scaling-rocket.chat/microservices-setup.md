@@ -43,5 +43,5 @@ Bare minimum, each container must be started with `MONGO_URL` and `TRANSPORTER` 
 A reverse proxy or LB will be needed to redirect all `/sockjs` and `/websocket` connections to the `ddp-streamer` container, and rest to the monolith.
 
 {% hint style="warning" %}
-It is important to emphasize again that we do not support deployment in microservices mode in direct docker/compose. The only supported method at the moment is using Kubernetes with our official helm chart. See [microservices-deployment.md](microservices-deployment.md "mention").
+It is important to emphasize again that we do not support deployment in microservices mode in direct docker/compose. The only supported method at the moment is using Kubernetes with our official helm chart. See [microservices-deployment.md](../../deploy/scaling-rocket.chat/microservices-deployment.md "mention").
 {% endhint %}

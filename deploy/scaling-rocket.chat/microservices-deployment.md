@@ -66,7 +66,7 @@ See the list of other variables [here](../../deploy-rocket.chat/prepare-for-your
 
 3. Set up ingress
 
-This architecture requires an ingress controller. All WebSocket connections need to be sent directly to the `ddp-streamer` service as mentioned in the [microservices overview](microservices-overview.md) page.
+This architecture requires an ingress controller. All WebSocket connections need to be sent directly to the `ddp-streamer` service as mentioned in the [microservices overview](../../deploy-rocket.chat/scaling-rocket.chat/microservices-setup.md) page.
 
 For example, you could install an nginx controller in your cluster following [this guide](https://kubernetes.github.io/ingress-nginx/deploy/#quick-start), then edit the `values.yml` file and add
 

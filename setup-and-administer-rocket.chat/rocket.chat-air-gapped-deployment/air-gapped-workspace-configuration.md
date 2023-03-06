@@ -1,21 +1,13 @@
-# Air-gapped workspace Configuration
+---
+description: Extra configurations that can be done on your air-gapped workspace.
+---
 
-This section seeks to handle some extra configurations that can be done on your air-gapped workspace.
+# Air-gapped workspace Configuration
 
 ## Push Notification Configuration
 
-To configure push notifications on your workspace, you can use the Rocket.Chat push notification gateway following this guide&#x20;
-
-{% content-ref url="../../use-rocket.chat/rocket.chat-mobile/push-notifications/" %}
-[push-notifications](../../use-rocket.chat/rocket.chat-mobile/push-notifications/)
-{% endcontent-ref %}
-
-This requires you to have your workspace registered as explained here
-
-{% content-ref url="offline-workspace-registration.md" %}
-[offline-workspace-registration.md](offline-workspace-registration.md)
-{% endcontent-ref %}
+To configure push notifications on your workspace, you can use the Rocket.Chat [push notification gateway](../../use-rocket.chat/rocket.chat-mobile/push-notifications/). You are required to complete your [offline-workspace-registration.md](offline-workspace-registration.md "mention").
 
 {% hint style="info" %}
-For fully air-gapped workspaces, you have build a Rocket.Chat app for your desired mechanism. [https://developer.rocket.chat/apps-engine](https://developer.rocket.chat/apps-engine)
+For fully air-gapped workspaces, you have to build a Rocket.Chat app for your desired mechanism. To learn more, see [Rocket.Chat App](https://developer.rocket.chat/apps-engine).
 {% endhint %}
