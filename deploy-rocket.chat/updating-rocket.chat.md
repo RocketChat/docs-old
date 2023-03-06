@@ -11,7 +11,6 @@ Workspace admins should monitor new releases and our release notes [here ](https
 
 * [Updating on Docker](updating-rocket.chat.md#upgrading-rocket.chat-on-docker)
 * [Updating on Snap](updating-rocket.chat.md#upgrading-rocket.chat-snap)
-* [Updating Digital Ocean](updating-rocket.chat.md#upgrading-rocket.chat-digital-ocean-one-click-install)
 
 ## Updating Rocket.Chat on Docker
 
