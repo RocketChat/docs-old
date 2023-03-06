@@ -27,50 +27,21 @@ ssh root@your_droplet_ip
 Once you are connected you should see something like:
 
 ```
+##################################################################################################################################################################
 Rocket.Chat is the leading open source team chat software solution. Free, unlimited and completely customizable with on-premises and SaaS cloud hosting.
 Replace email, HipChat & Slack with the ultimate team chat software solution.
 
-  Out of the box you can access Rocket.Chat server at: http://Droplet-IP:3000
+This Rocket.Chat image uses docker under the hood. To learn more, please read our docker documentation - https://docs.rocket.chat/deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose
 
- You will likely want a registered domain name to access Rocket.Chat. If you would like your server to be accessible over https we provide the option to use letsencrypt by running:
-  # rocketchatctl configure --lets-encrypt --root-url=https://chat.yourcompany.com --letsencrypt-email=admin@yourcompany.com
-
- In case you do not own a registered domain, you could use the public IP of your droplet, but traefik will not be able to fetch certificates for you so you will see a privacy alert message when loading https://droplet-IP
-  # rocketchatctl configure --lets-encrypt --root-url=https://droplet-IP --letsencrypt-email=admin@yourcompany.com
-
- If you would like https with something other than letsencrypt provided certificates you will have to manually edit the traefik config to add it.
-
- In case you do own a registered domain, but you do not want to use traefik, you can just configure your site URL running:
-  # rocketchatctl configure --rocketchat --root-url=http://chat.yourcompany.com:3000
-
- Keep your Rocket.Chat server updated using rocketchatctl update. Run rocketchatctl -h to see the full list of available options.
-
- Looking for how to use Rocket.Chat? Be sure to check our docs: https://docs.rocket.chat
-
- Checkout our Digital Ocean docs: https://docs.rocket.chat/installation/paas-deployments/digital-ocean/
-
- Need some help? Join our community forums https://forums.rocket.chat
+You can find the compose project in /root/rocketchat directory.
+  
+Looking for how to use Rocket.Chat? Be sure to check our docs: https://docs.rocket.chat
+Need some help? Join our community forums https://forums.rocket.chat and https://open.rocket.chat
+##################################################################################################################################################################
 ```
 
 Besides the recommended setup you can out of the box access Rocket.Chat server at: [http://Droplet-IP:3000](http://droplet-ip:3000)
 
-## Setting up HTTPS
+## Backend
 
-We recommend you to finish the Traefik loadbalancer configuration to handle HTTPS. Run this command to fetch Let's Encrypt certificates for your installation:
-
-```
-rocketchatctl configure --lets-encrypt --root-url=https://chat.yourcompany.com --letsencrypt-email=admin@yourcompany.com
-```
-
-You can then access at: https://chat.yourcompany.com replacing chat.yourcompany.com with the address you set in your DNS.
-
-The Loadbalancer will redirect HTTP to HTTPS
-
-## Firewalls
-
-This image comes with a UFW firewall enabled and the ports allowed for incoming traffic are:
-
-* ssh 22
-* http 80
-* https 443
-* rocketchat 3000
+Under the hood, the image uses docker for managing the deployment. Please read our documentation on [docker](../../../quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/) to learn more about managing it.
