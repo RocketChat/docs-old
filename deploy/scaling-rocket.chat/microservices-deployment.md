@@ -29,7 +29,7 @@ microservices:
   enabled: true
 ```
 
-Each component have their own section inside the values file.
+Each component has its own section inside the `Values.yml` file.
 
 ```yaml
 presence: {}
@@ -66,23 +66,23 @@ See the list of other variables [here](../../deploy-rocket.chat/prepare-for-your
 
 3. Set up ingress
 
-This architecture requires an ingress controller. All websocket connections need to be sent directly to the `ddp-streamer` service as mentioned in the overview page.
+This architecture requires an ingress controller. All WebSocket connections need to be sent directly to the `ddp-streamer` service as mentioned in the [microservices overview](microservices-overview.md) page.
 
-For example, you could install an nginx controller in your cluster following [this guide](https://kubernetes.github.io/ingress-nginx/deploy/#quick-start).
-
-Once you have that installed, edit the values file and add
+For example, you could install an nginx controller in your cluster following [this guide](https://kubernetes.github.io/ingress-nginx/deploy/#quick-start), then edit the `values.yml` file and add
 
 ```yaml
-host: # host you'll be accessing your rocket.chat instance from, omit the protocol
+host: # the host to access your rocket.chat instance from, omit the protocol
 ingress:
   enabled: true
   ingressClassName: nginx
 ```
 
-This will add the required ingress resource with all the expected paths and backends configured. The `ingressClassName` is important unless you have a default class set. This depends on the type of controller you're using, refer to the respective documentation.
+This adds the required ingress resource with all the expected paths and backends configured. The `ingressClassName` is important unless you have a default class set, depending on the type of controller you're using, refer to the respective documentation.
 
 {% hint style="info" %}
-Using nginx controller is not an official recommendation, but is used as an example. Any ingress controller should work fine as long as the `ingressClassName` property is set correctly or the `IngressClass` resource is set to be the default one for the cluster, or the controller watches for `Ingress` resources with no specific class defined. &#x20;
+Nginx controller is used as an example and not an official recommendation.
+
+Any ingress controller can be used, with the `ingressClassName` property set correctly or the `IngressClass` resource set to the default one for the cluster or the controller watches for `Ingress` resources with no specific class defined. &#x20;
 {% endhint %}
 
 4. Apply the changes and install
