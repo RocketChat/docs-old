@@ -1,83 +1,82 @@
+---
+description: Set up an Ansible environment for deploying Rocket.Chat to multiple servers.
+---
+
 # Ansible
 
-## Quick Links
+{% hint style="info" %}
+See the [Rocket.Chat official Ansible role](https://galaxy.ansible.com/RocketChat/Server#readme),
+{% endhint %}
 
-* [Rocket.Chat official Ansible role](https://galaxy.ansible.com/RocketChat/Server/#readme)
-* [Ansible official install guide](https://docs.ansible.com/ansible/latest/installation\_guide/index.html)
+## Installation
 
-## About
+Ansible works on a "push to clients" basis. Your control node pushes all the configuration/ad-hoc tasks out to your systems via SSH, with no client running on the systems you're deploying to! In order words, it's swift, efficient, secure, scalable, and highly portable. Therefore, to control remote systems, you only need to install Ansible on your control node (your desktop can be an excellent control node to deploy from). Ansible has&#x20;
 
-This document will explain, to those unfamiliar with Ansible, how they can get an Ansible environment set up quickly, with the end goal of deploying Rocket.Chat to a (or multiple) server(s).
+{% hint style="info" %}
+To learn more about Ansible installation on different operating systems, see the [official installation guide](https://docs.ansible.com/ansible/latest/installation\_guide/index.html).
+{% endhint %}
 
-It is a quick, dirty How To format, not intended to teach you Ansible's full capabilities. Ansible is an incredible tool, with great documentation, a welcoming community, and it's all very easy to pick up - not to mention extremely powerful and suited for just about any situation.
+### Installation via package manager
 
-## Operational Overview
+Ansible is likely available in your official package repositories if you're using a UNIX-like operating system, such as Linux or BSD. Use your package manager to see if it's available and install it.
 
-Ansible works on a "push to clients" basis. You have your control node, which pushes all the configuration/ad-hoc tasks out to your systems via SSH, with no client running on the systems you're deploying to! This model means it's very fast, efficient, secure, scalable, and extremely portable.
+### Installation via PIP
 
-So, to control remote systems, you only need to install Ansible on your control node - your own desktop would make a great control node to deploy from :)
+Ansible is written in Python, so it's only natural that it be available for installation via [`pip`](https://pypi.python.org/pypi). . If you have pip installed, run the following command:
 
-## Getting Ansible
+&#x20;`sudo pip install ansible`
 
-It's recommended that you check out[ Ansible's official documentation on installing](https://docs.ansible.com/ansible/latest/installation\_guide/index.html) (it's really easy!), but here's a quick rundown of installation methods:
-
-### Package Manager
-
-If you're running a UNIX-like system, like Linux or BSD, Ansible is likely available in your official package repositories. Use your package manager to see if it's available and if so, install it! [Ansible's installation documentation has a section on this](https://docs.ansible.com/ansible/latest/installation\_guide/index.html) - just scroll down until you see your OS.
-
-### Via PIP
-
-Ansible is written in Python, so, it's only natural that it be available for install via [`pip`](https://pypi.python.org/pypi). If you have `pip` installed it's as easy as: `$ sudo pip install ansible`
-
-If not, check to see if you can install `pip` via your system's package manager (you want the Python 2.7 version!).
-
-Or, if you're on Mac OS X, and you're not using [Homebrew](http://brew.sh) or [pkgsrc](https://github.com/cmacrae/saveosx), you should be able to install `pip` using `easy_install`, like so: `$ sudo easy_install pip` then
+If you do not have pip, check  if you can install `pip` through your system's package manager (look out for Python 2.7 version). If you're on Mac OS X and you're not using [Homebrew](http://brew.sh) or [pkgsrc](https://github.com/cmacrae/saveosx), you should be able to install `pip` using `easy_install` with this command:
 
 ```
-$ sudo pip install ansible
+sudo easy_install pip 
+sudo pip install ansible
 ```
 
-For any other systems, please refer to[ Ansible's official documentation on installing.](https://docs.ansible.com/ansible/latest/installation\_guide/index.html)
+## Simple Deployment Environment for Rocket.Chat
 
-### Simple Deployment Environment for Rocket.Chat
-
-So, now you've got Ansible installed, you can get ready to deploy Rocket.Chat!
+Now that you've installed Ansible, you can deploy Rocket.Chat.
 
 ### Prerequisites
 
-* You must have SSH access to the system you want to deploy to as the `root` user.
-* The system you're deploying to must have Python installed (pretty much comes with most operating systems nowadays, easy to install if not).
-*   The system you're deploying to must run one of the following operating systems:
+* You must have SSH access to the system you want to deploy to, as the `root` user.
+* The system you're deploying to must have Python installed and run one of the following operating systems:
+  * EL 7 (RHEL/CentOS)
+  * Debian 8 (Jessie) LTS
+  * Ubuntu 18.04 LTS
+  * Ubuntu 19.04
 
-    * EL 7 (RHEL/CentOS)
-    * Debian 8 (Jessie) LTS
-    * Ubuntu 18.04 LTS
-    * Ubuntu 19.04
-
-    Future releases of the [official Rocket.Chat Ansible role](https://galaxy.ansible.com/RocketChat/Server/#readme) will include other Linux distributions/releases and other operating systems. If you'd like to see your OS of choice supported, feel free to [raise an issue](https://github.com/RocketChat/Rocket.Chat.Ansible/issues) to ask if it can be added.
+{% hint style="info" %}
+Future releases of the [official Rocket.Chat Ansible role](https://galaxy.ansible.com/RocketChat/Server/#readme) will include other operating systems and Linux distributions/releases. If you'd like to see a particular OS supported, please [raise an issue](https://github.com/RocketChat/Rocket.Chat.Ansible/issues) to ask if it can be added.
+{% endhint %}
 
 ### Inventory set-up
 
-Make a directory somewhere, perhaps in your home directory, or somewhere you keep Git repositories or code. It doesn't really matter what it's called, but for example's sake, we'll call ours `ansible`:
+Create a directory anywhere on your system, possibly in your home directory or where you save your code or Git repositories. Give it a name and navigate to that directory.
 
 ```
-~/ $ mkdir ansible
-~/ $ cd ansible
-~/ansible $
+mkdir ansible
+cd ansible
+ansible $
 ```
 
-Now we're in our `ansible` directory, we're going to make an inventory file. This is a simple formatted file that contains a list of systems that we want to connect to and control using Ansible. It can contain single hosts, group hosts together, groups of groups, set variables on a host or group basis... there are lots of things you can do with the inventory, but that's outside the scope of this document's intended teachings.
+Next, create an inventory file in that directory. The inventory file is a simple formatted file containing a list of systems we want to connect to and control using Ansible. It can include single hosts, group hosts together, groups of groups, and set variables on a host or group basis.&#x20;
 
-Make the inventory file `inventory`, for simplicity's sake: `~/ansible $ touch inventory`
-
-Now, with your favorite editor, open the file and add the hostname or FQDN of the server(s) you want to deploy Rocket.Chat to, like so:
+{% hint style="info" %}
+&#x20;We recommend naming the directory `ansible` and the file `inventory` to maintain a proper naming convention.
+{% endhint %}
 
 ```
-[chat_servers]
+touch inventory
+```
+
+Open the file and add the hostname or FQDN of the server(s) you want to deploy Rocket.Chat to.
+
+```
 chat.my.domain
 ```
 
-Notice the `[chat_servers]` line? This denotes a group, simply called "chat\_servers". Any hostnames/FQDNs/IP addresses under this will be members of the "chat\_servers" group. If you want to add another server, just drop it in like so:
+The `[chat_servers]` denotes a group called "chat\_servers." Any hostnames/FQDNs/IP addresses under this will be members of the "chat\_servers" group. If you want to add another server, add it like this:
 
 ```
 [chat_servers]
@@ -85,7 +84,13 @@ chat.my.domain
 talk.my.domain
 ```
 
-We're pretty much done with the inventory, just one last thing whilst we're on the subject: if you are not using SSH key-pairs for authenticating your SSH connections to your server(s)... you should be... but if you're not, you can tell Ansible the `root` user's password here in the inventory file. This is, of course, insecure, and is considered bad practice - so should only be temporary. Let's set the `root` user's password for the `chat.my.domain` host:
+We recommend authenticating SSH connections to your server(s) using SSH key pairs. However, you can provide Ansible with the root user's password in the inventory file if you don't have SSH.&#x20;
+
+{% hint style="danger" %}
+This should only be temporary because it is an insecure practice.
+{% endhint %}
+
+Set the `root` user's password for the `chat.my.domain` host:
 
 ```
 [chat_servers]
@@ -93,50 +98,68 @@ chat.my.domain ansible_ssh_pass=SuP3rseCre7pA$sw0rd
 talk.my.domain
 ```
 
-Simple as that! Alright, we're almost ready to deploy Rocket.Chat, just two more things to sort out.
-
 ### Download the Rocket.Chat Ansible role
 
-Ansible has a nice and easy way to share and use other people's roles: [Galaxy](http://galaxy.ansible.com). You can download roles you want to use by using a command-line tool that was installed earlier when you installed Ansible, `ansible-galaxy`.
-
-First off, our roles need somewhere to live, so, let's make a `roles` directory:
+Ansible shares and uses other people's roles through [Galaxy](http://galaxy.ansible.com). You can download the roles you want using a command-line tool installed earlier when you installed Ansible.
 
 ```
-~/ansible $ mkdir roles
+ ansible-galaxy.
 ```
 
-Then, we need to create a `requirements.yml` file that will describe to `ansible-galaxy` how we want to fetch the role. So, create and open the file `roles/requirements.yml` using your favorite editor. The contents of `requirements.yml` will vary based on which version of Ansible you're running. Run `ansible --version` to find out.
+First, create a `roles` directory:
 
-If you're running Ansible 1.9.4, paste the following into your `requirements.yml`:
+```
+ansible $ mkdir roles
+```
+
+Then, create a `requirements.yml` file describing how we want to fetch the role to `ansible-galaxy`. Open the file `roles/requirements.yml`.The file's contents will vary based on which version of Ansible you're running.
+
+{% hint style="info" %}
+Run `ansible --version` to know your version of Ansible.
+{% endhint %}
+
+If you're running Ansible 1.9.4,  update `requirements.yml` with the following data:
 
 ```yaml
 - src: RocketChat.Server
   version: master
 ```
 
-If you're running Ansible 2.0, paste the following into your `requirements.yml`:
+If you're running Ansible 2.0, update  `requirements.yml` with the following data:
 
 ```yaml
   - src: RocketChat.Server
     version: v2.2.2
 ```
 
-Next, let's fetch the Rocket.Chat Ansible role using the `ansible-galaxy` command: `~/ansible $ ansible-galaxy install -p roles/ -r roles/requirements.yml`This command says "Hey, I want to install any roles I have defined in `requirements.yml`". Hopefully, after a couple of seconds, you should have the `RocketChat.Server` role in your `roles` directory:
+Next, fetch the Rocket.Chat Ansible role using the `ansible-galaxy` command:
 
 ```
-~/ansible $ ls roles
+ansible-galaxy install -p roles/ -r roles/requirements.yml
+```
+
+This command installs any roles defined `requirements.yml`. Now you have the `RocketChat.Server` role in your `roles` directory.
+
+```
+ls roles
 RocketChat.Server
 ```
 
-Great! One last thing to prepare!
-
 ### Create a Playbook to "play" the Rocket.Chat Ansible Role
 
-Ansible roles are built out of a collection of "plays" - which are essentially tasks/actions to take. To use a role, we need to create a very simple little playbook that tells Ansible "I want to run this role, on these systems.".
+Ansible roles are built from a collection of "plays" - essentially, tasks/actions to take. To use a role, create a simple playbook that tells Ansible, "I want to run this role on these systems."
 
-Let's call the playbook `rocket_chat.yml` (the `.yml` denotes a YAML document, which is what language you use to express most things in Ansible): `~/ansible $ touch rocket_chat.yml`
+Let's call the playbook `rocket_chat.yml` .
 
-Now, again, with your favorite editor, add the following to your `rocket_chat.yml` playbook:
+{% hint style="info" %}
+The `.yml` denotes a YAML document, which is what language you use to express most things in Ansible.
+{% endhint %}
+
+```
+touch rocket_chat.yml
+```
+
+&#x20;Add the following information  to your `rocket_chat.yml` playbook:
 
 ```yaml
 ---
@@ -148,16 +171,16 @@ Now, again, with your favorite editor, add the following to your `rocket_chat.ym
       - RocketChat.Server
 ```
 
-That's it! You're ready to go!
-
 ### Deploy Rocket.Chat using Ansible
 
-To run the playbook, use the `ansible-playbook` command, like so: `~/ansible $ ansible-playbook -i inventory rocket_chat.yml`
+To run the playbook, use the `ansible-playbook` command,&#x20;
 
-This command could be expressed as "Run the `rocket_chat.yml` playbook with the inventory file `inventory`.".
+```
+ansible-playbook -i inventory rocket_chat.yml
+```
 
-Now we just sit back and watch the magic happen!
+This command can be expressed as "run the `rocket_chat.yml` playbook with the inventory file `inventory`." When the deployment is successful, visit  `https://chat.my.domain` and the Rocket.Chat login screen appears.
 
-When it's all done, provided all went well and no parameters were changed, you should be able to visit `https://chat.my.domain` and be greeted by a wonderful Rocket.Chat logo and login screen!
-
-There are _lots_ of options you can set with this role, just take a look at the [README](https://github.com/RocketChat/Rocket.Chat.Ansible/blob/master/README.md) to find out more.
+{% hint style="info" %}
+See the [README](https://github.com/RocketChat/Rocket.Chat.Ansible/blob/master/README.md) to explore other Ansible role options.
+{% endhint %}
