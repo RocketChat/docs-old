@@ -9,6 +9,3 @@ Instead of manually deploying Rocket.Chat, automation tools can help streamline 
 ****[**OpenShift**](openshift.md)**:**  Automate Rocket.Chat deployment on OpenShift.
 
 ****[**Vagrant**](vagrant.md)**:** Deploying Rocket.Chat on Vagrant with Ubuntu.
-
-> \
->
