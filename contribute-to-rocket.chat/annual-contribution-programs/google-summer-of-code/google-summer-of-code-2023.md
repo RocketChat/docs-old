@@ -347,14 +347,14 @@ The goal of this project is to develop a solution that utilizes OpenAI's ChatGPT
 
 ### Next Generation Desktop Apps on Tauri
 
-**Mentors:** Jean Britto, Gabriel Casals
+**Mentors:** Jean Brito, Gabriel Casals
 
 **Description:** \
 Current [Rocket.Chat desktop app](https://github.com/RocketChat/Rocket.Chat.Electron) for  MacOS, Windows  and Linux is created using [Electron](https://www.electronjs.org/), the 10-years old grand daddy of cross platform frameworks.    \
 \
 In this project,  you will build our next generation desktop app using the next generation  [Tauri framework](https://tauri.app/).   The project should leverage the strength of the framewwork on each supported platform to add value above and beyond those offered by Electron framework today.
 
-**Desirable Skill :**  Strong programming skills in Javascript and Typescript. Master of cross platform development.   Familiarity with existing Rocket.Chat Desktop app. Familiarity with Tauri.  Ideally fluent in Rust.
+**Desirable Skill :**  Strong programming skills in Rust. Knowledge of Javascript and  Typescript. Knowledge in cross-platform development. Familiarity with existing Rocket.Chat Desktop app. Familiarity with Tauri.
 
 **Goal/Deliverable:**   Next Generation Rocket.Chat desktop app.&#x20;
 
