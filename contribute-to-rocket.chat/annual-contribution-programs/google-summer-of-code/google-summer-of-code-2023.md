@@ -482,40 +482,40 @@ With Elasticsearch integrated into the tech stack, the bot can leverage the powe
 
 
 
-### [Full-stack Components Framework for Community Builders](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)
+### Full-stack Components Framework for Community Builders
 
-[**Mentors:** TBD](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)
+**Mentors:** TBD
 
-[**Description:**\
+**Description:**\
 ****Full-stack component is the holy grail of software componentization.  Imagine building a fully functional customized web portal in minutes by dragging and dropping full-stack components.   Each component not only contains interactive UI, but also associated mid-tier and server-side/severless behaviours as well as parameterizations.  Unfortunately the state of our current software art is not quite there yet.   The next best thing is actually  which solves the same problem but at a page level and not at the component-within-the-page level.\
 \
-RC4Community is a specialized componentized framework for community builders to rapidly create fully functional community portal.  It was designed to work with a full-stack component framework since day one - but had to use Next.js instead.  ](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)
+RC4Community is a specialized componentized framework for community builders to rapidly create fully functional community portal.  It was designed to work with a full-stack component framework since day one - but had to use Next.js instead. &#x20;
 
-[This project involves the introduction of the missing architectural, build workflow, and packaging technology to enable full-stack components within the RC4Community context.](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)
+This project involves the introduction of the missing architectural, build workflow, and packaging technology to enable full-stack components within the RC4Community context.
 
-[**Desirable Skills:**  ReactJS, JavaScript, Next.js, server-side technology, serverless technology, microservices.  A thorough understanding of how current component framework works.  In-depth understanding of modern devops technology.   In-depth understanding of JavaScript packaging technology and workflow. A passion for pushing the limits of modern componentized software development tools.](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)
+**Desirable Skills:**  ReactJS, JavaScript, Next.js, server-side technology, serverless technology, microservices.  A thorough understanding of how current component framework works.  In-depth understanding of modern devops technology.   In-depth understanding of JavaScript packaging technology and workflow. A passion for pushing the limits of modern componentized software development tools.
 
-[**Goal/Deliverable:**  A set of full stack components for community builders.  A framework that allows new components to be hosted on their own  independent repositories and be packaged into modules that can be installed over the network as needed (similar to npm model today).](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)
+**Goal/Deliverable:**  A set of full stack components for community builders.  A framework that allows new components to be hosted on their own  independent repositories and be packaged into modules that can be installed over the network as needed (similar to npm model today).
 
-[**Project Duration:** 350 hours. (Large)\
+**Project Duration:** 350 hours. (Large)\
 \
 **Difficulty:** Advanced\
-](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)\
 
 
-### Android Auto  [**Mentors:** TBD](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)
+### Android Auto&#x20;
 
-[**Description:**\
-****](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)****\
+**Mentors:** TBD
+
+**Description:**\
 ****Create a sensible implementation of Rocket.Chat for Android Auto.\
 ****\
-****[**Desirable Skills:**  ](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)Advanced Typescript.  Android and Android Auto development experience.
+**Desirable Skills:**  Advanced Typescript.  Android and Android Auto development experience.
 
-[**Goal/Deliverable:**  ](https://open.rocket.chat/channel/idea-mobile-media-carousel-component) Rocket.Chat for Android Auto
+**Goal/Deliverable:**   Rocket.Chat for Android Auto
 
-[**Project Duration:** 175 hours (Medium)\
+**Project Duration:** 175 hours (Medium)\
 \
-**Difficulty:** Advanced](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)
+**Difficulty:** Advanced
 
 
 
