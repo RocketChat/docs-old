@@ -519,6 +519,22 @@ This project involves the introduction of the missing architectural, build workf
 
 
 
+### High Performance Windows Native Client
+
+**Mentors:** TBD
+
+**Description:**\
+Creating a high performance native desktop client for the Windows platform (Windows 10 and 11).  This client should not embed a browser and should be accessing Rocket.Chat native APIs _on the wire_.    It should leverage system programming languages such as rust and a platform framework (such as Tauri and others).   Goal is a client with better performance characteristics, on Windows, than our current cross-platform desktop apps.  &#x20;
+
+**Desirable Skills:**  Advanced rust.  Advanced Windows systems development experience.
+
+**Goals/Deliverable:**   A Windows platform native client that has great performance characteristics.\
+\
+**Project Duration:** 350 hours (Large)\
+\
+**Difficulty:**  Advanced.\
+
+
 ### Template messages Rocket.Chat app
 
 **Mentors:**  TBD
