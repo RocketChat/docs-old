@@ -482,29 +482,46 @@ With Elasticsearch integrated into the tech stack, the bot can leverage the powe
 
 
 
-### Full-stack Components Framework for Community Builders
+### [Full-stack Components Framework for Community Builders](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)
 
-**Mentors:** TBD
+[**Mentors:** TBD](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)
 
-**Description:**\
-****Full-stack component is the holy grail of software componentization.  Imagine building a fully functional customized web portal in minutes by dragging and dropping full-stack components.   Each component not only contains interactive UI, but also associated mid-tier and server-side/severless behaviours as well as parameterizations.  Unfortunately the state of our current software art is not quite there yet.   The next best thing is actually [Next.js](https://github.com/vercel/next.js/) which solves the same problem but at a page level and not at the component-within-the-page level.\
+[**Description:**\
+****Full-stack component is the holy grail of software componentization.  Imagine building a fully functional customized web portal in minutes by dragging and dropping full-stack components.   Each component not only contains interactive UI, but also associated mid-tier and server-side/severless behaviours as well as parameterizations.  Unfortunately the state of our current software art is not quite there yet.   The next best thing is actually  which solves the same problem but at a page level and not at the component-within-the-page level.\
 \
-RC4Community is a specialized componentized framework for community builders to rapidly create fully functional community portal.  It was designed to work with a full-stack component framework since day one - but had to use Next.js instead. &#x20;
+RC4Community is a specialized componentized framework for community builders to rapidly create fully functional community portal.  It was designed to work with a full-stack component framework since day one - but had to use Next.js instead.  ](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)
 
-This project involves the introduction of the missing architectural, build workflow, and packaging technology to enable full-stack components within the RC4Community context.
+[This project involves the introduction of the missing architectural, build workflow, and packaging technology to enable full-stack components within the RC4Community context.](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)
 
-**Desirable Skills:**  ReactJS, JavaScript, Next.js, server-side technology, serverless technology, microservices.  A thorough understanding of how current component framework works.  In-depth understanding of modern devops technology.   In-depth understanding of JavaScript packaging technology and workflow. A passion for pushing the limits of modern componentized software development tools.
+[**Desirable Skills:**  ReactJS, JavaScript, Next.js, server-side technology, serverless technology, microservices.  A thorough understanding of how current component framework works.  In-depth understanding of modern devops technology.   In-depth understanding of JavaScript packaging technology and workflow. A passion for pushing the limits of modern componentized software development tools.](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)
 
-**Goal/Deliverable:**  A set of full stack components for community builders.  A framework that allows new components to be hosted on their own  independent repositories and be packaged into modules that can be installed over the network as needed (similar to npm model today).
+[**Goal/Deliverable:**  A set of full stack components for community builders.  A framework that allows new components to be hosted on their own  independent repositories and be packaged into modules that can be installed over the network as needed (similar to npm model today).](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)
 
-**Project Duration:** 350 hours. (Large)\
+[**Project Duration:** 350 hours. (Large)\
 \
 **Difficulty:** Advanced\
+](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)\
+
+
+### Android Auto  [**Mentors:** TBD](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)
+
+[**Description:**\
+****](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)****\
+****Create a sensible implementation of Rocket.Chat for Android Auto.\
+****\
+****[**Desirable Skills:**  ](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)Advanced Typescript.  Android and Android Auto development experience.
+
+[**Goal/Deliverable:**  ](https://open.rocket.chat/channel/idea-mobile-media-carousel-component) Rocket.Chat for Android Auto
+
+[**Project Duration:** 175 hours (Medium)\
+\
+**Difficulty:** Advanced](https://open.rocket.chat/channel/idea-mobile-media-carousel-component)
+
 
 
 ### Template messages Rocket.Chat app
 
-**Mentors:**  Debdut Chakraborty
+**Mentors:**  TBD
 
 **Description:** \
 This project aims to develop a [Rocket.Chat](http://rocket.chat) app that allows users to create, store, and send common messages with ease (Similar to [this Slack app](https://slack.com/apps/AJGJWCYPQ-templates?tab=more\_info)). The app will have a simple interface that enables users to create templates with customized names. These templates can be triggered using a slash command (e.g., /template \<template-name>) and inserted into the chat window with just one click. Users can also edit and delete their templates as needed.
