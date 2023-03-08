@@ -456,6 +456,25 @@ Working arm64 snap for 5.x and 6.x releases of Rocket.Chat that leverages `core2
 &#x20; \
 
 
+### Unified Push for Android Apps&#x20;
+
+**Mentors:** Diego Mello
+
+**Description:**\
+****In the Android ecosystem, [ UnifiedPush](https://unifiedpush.org/) has proven to be a practical provider agnostic way of supporting multiple push notification infrastructures.   This project[ adds support for UnifiedPush to Rocket.Chat mobile app](https://github.com/RocketChat/Rocket.Chat.ReactNative/issues/3241) for Android platform. \
+\
+**Desired Skills:**\
+Advanced ReactNative.  Knowledge of Android platform development.\
+\
+**Goals/Deliverables:**\
+UnifiedPush working on the Android app.  With or without FCM fallback.\
+\
+**Project Duration:** 175 hours (Medium)\
+\
+**Difficulty:** Medium\
+\
+
+
 ### Off the Record Messaging for Mobile (OTR)
 
 **Mentors:** TBD\
