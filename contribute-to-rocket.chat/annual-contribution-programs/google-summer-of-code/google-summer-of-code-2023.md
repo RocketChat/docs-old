@@ -101,22 +101,20 @@ Currently, the only way to submit messages for moderator's review is to report t
 **Difficulty:** Medium\
 
 
-### Media Carousel Component
+### Mobile Media Carousel Component
 
 Mentors:  Diego Mello\
 \
 **Description:**\
-****Implement a new Rocket.Chat UI media carousel component that can:
+****Implement a new mobile media carousel component that can:
 
 * open any media (image, video, audio, doc, etc)
 * swipe horizontally to navigate to previous/next
 * support [async delayed video playback](https://docs.expo.dev/versions/v47.0.0/sdk/av/#playback) semantics
 
-Component must follow all current Rocket.Chat ui-kit component design and coding conventions,.
-
-**Desirable Skills:**    Advanced Typescript, advanced React, React Native.  Rocket.Chat ui-kit component development.\
+**Desirable Skills:**    Advanced Typescript, advanced React Native.  \
 \
-**Goal/Deliverable:**  A media carousel component for our ui-kit that fits into the ui-kit playground,  and be flexibly adapted across all supported devices (browser, mobile, tablets, and so on).
+**Goal/Deliverable:**  A media carousel component for our mobile apps.
 
 **Project Duration:** 175 hours. (Medium)\
 \
@@ -136,7 +134,7 @@ This project consists of two major tasks:
   \
   The implementation should operate across all the mobile platforms that Rocket.Chat support. Including iOS and Android,  form factors from phone to tablet.
 
-**Desired Skills:** Advanced Typescript, advanced React, React Native. Rocket.Chat ui-kit component development.
+**Desired Skills:** Advanced Typescript, advanced React, advanced React Native.
 
 **Goal/Deliverable:** Composer ability to accept copy/paste media from other platform apps and the option to copy media to clipboard.
 
@@ -275,6 +273,30 @@ Agile adoption is increasing year to year on the different industries. There is 
 **Difficulty:** Easy/Medium\
 
 
+### Token Economy for Team Channels
+
+**Mentors:**  José Paulo
+
+**Description:** \
+Rocket.Chat has Team Channels to handle sub-communities wanting autonomous control over their membership within a scaled server (possibly servicing tens of thousands of users). &#x20;
+
+This project aims to provide such sub-communities /  teams with a mean to:
+
+* mint their own erc-20 token, unique to the team
+* distribute the tokens to the members of the team
+* enable tokens to be securely exchanged between members within the team channels
+
+The implementation can also work optionally with blockchains and tokens from other providers - but this is not mandatory.   Integration with a wallet is implied but novel alternative solution will also be accepted.   It can be implemented as a Rocket.Chat App or extension to core, or both. &#x20;
+
+**Desirable Skills:**    Thorough understanding of Rocket.Chat core.  Working experience with modern Web3 / blockchain technologies.  Rocket.Chat App development experience.  Advanced Typescript
+
+**Goal/Deliverable:**  Ability to mint, distribute, and exchange unique erc-20 tokend within a "team".
+
+**Project Duration:** 350 hours. (Large)\
+\
+**Difficulty:** Medium/Advanced\
+
+
 ### AI Moderation APP <a href="#docs-internal-guid-6a938870-7fff-9486-6ec9-cd0950cf4057" id="docs-internal-guid-6a938870-7fff-9486-6ec9-cd0950cf4057"></a>
 
 **Mentors**: Rafael Tapia
@@ -352,7 +374,9 @@ The goal of this project is to develop a solution that utilizes OpenAI's ChatGPT
 **Description:** \
 Current [Rocket.Chat desktop app](https://github.com/RocketChat/Rocket.Chat.Electron) for  MacOS, Windows  and Linux is created using [Electron](https://www.electronjs.org/), the 10-years old grand daddy of cross platform frameworks.    \
 \
-In this project,  you will build our next generation desktop app using the next generation  [Tauri framework](https://tauri.app/).   The project should leverage the strength of the framewwork on each supported platform to add value above and beyond those offered by Electron framework today.
+In this project,  you will build our next generation desktop app using the next generation  [Tauri framework](https://tauri.app/).   The project should leverage the strength of the framewwork on each supported platform to add value above and beyond those offered by Electron framework today.\
+\
+Note that this is not an impossibly scoped rewrite of the desktop app on each platform in rust.  The app must continue to run inside an embedded browser as in Electron, and the platform specific rust glue components adapted appropriately.
 
 **Desirable Skill :**  Strong programming skills in Rust. Knowledge of Javascript and  Typescript. Knowledge in cross-platform development. Familiarity with existing Rocket.Chat Desktop app. Familiarity with Tauri.
 
@@ -476,37 +500,11 @@ This project involves the introduction of the missing architectural, build workf
 **Project Duration:** 350 hours. (Large)\
 \
 **Difficulty:** Advanced\
-\
-
-
-### Token Economy for Team Channels
-
-**Mentors:** TBD
-
-**Description:** \
-Rocket.Chat has Team Channels to handle sub-communities wanting autonomous control over their membership within a scaled server (possibly servicing tens of thousands of users). &#x20;
-
-This project aims to provide such sub-communities /  teams with a mean to:
-
-* mint their own erc-20 token, unique to the team
-* distribute the tokens to the members of the team
-* enable tokens to be securely exchanged between members within the team channels
-
-The implementation can also work optionally with blockchains and tokens from other providers - but this is not mandatory.   Integration with a wallet is implied but novel alternative solution will also be accepted.   It can be implemented as a Rocket.Chat App or extension to core, or both. &#x20;
-
-**Desirable Skills:**    Thorough understanding of Rocket.Chat core.  Working experience with modern Web3 / blockchain technologies.  Rocket.Chat App development experience.  Advanced Typescript
-
-**Goal/Deliverable:**  Ability to mint, distribute, and exchange unique erc-20 tokend within a "team".
-
-**Project Duration:** 350 hours. (Large)\
-\
-**Difficulty:** Medium/Advanced
-
 
 
 ### Template messages Rocket.Chat app
 
-**Mentors:** TBD
+**Mentors:**  Debdut Chakraborty
 
 **Description:** \
 This project aims to develop a [Rocket.Chat](http://rocket.chat) app that allows users to create, store, and send common messages with ease (Similar to [this Slack app](https://slack.com/apps/AJGJWCYPQ-templates?tab=more\_info)). The app will have a simple interface that enables users to create templates with customized names. These templates can be triggered using a slash command (e.g., /template \<template-name>) and inserted into the chat window with just one click. Users can also edit and delete their templates as needed.
