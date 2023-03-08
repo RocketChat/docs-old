@@ -447,6 +447,9 @@ In recent years, our own multi-platform snap build effort has failed miserably f
 **Desired Skills:**\
 ****Rocket.Chat deployment experience.  Working experience with Snapcraft.  Intense interest on DevOps. \
 \
+**Goals/Deliverables:**\
+Working arm64 snap for 5.x and 6.x releases of Rocket.Chat that leverages `core22` and cross-build capabilities of Snapcraft 7. \
+\
 **Project Duration:** 175 hours (Medium)\
 \
 **Difficulty:** Medium\
