@@ -429,8 +429,28 @@ ReactJS, TypeScript, MeteorJS. A thorough understanding of how Rocket.Chat core 
 
 **Project Duration:** 350 hours (Large)\
 \
-**Difficulty:** Advanced
+**Difficulty:** Advanced\
+\
 
+
+### Craft a sustainable snap for arm64
+
+**Mentors:** TBD\
+\
+**Description:**
+
+[Snaps ](https://ubuntu.com/blog/topics/snapcraft)(in amd64 architecture)  is one of the most popular distribution method through which new users discover Rocket.Chat.    64bit ARM processors have come of age and becoming mainstream now that Apple has bet their future on the architecture.   \
+
+
+In recent years, our own multi-platform snap build effort has failed miserably for the arm64 architecture.   But tooling for building arm64 architecture snap on arm64 and amd64 is finally maturing.  This project aims to leverage these new tooling to build a long-term sustainable snap distribution for arm64.\
+\
+**Desired Skills:**\
+****Rocket.Chat deployment experience.  Working experience with Snapcraft.  Intense interest on DevOps. \
+\
+**Project Duration:** 175 hours (Medium)\
+\
+**Difficulty:** Medium\
+&#x20; \
 
 
 ### Off the Record Messaging for Mobile (OTR)
