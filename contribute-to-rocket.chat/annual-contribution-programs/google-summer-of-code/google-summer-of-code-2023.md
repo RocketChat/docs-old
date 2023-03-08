@@ -540,6 +540,29 @@ Examples of use cases include a customer support agent responding to frequently 
 
 
 
+### Improving Mobile Apps UX
+
+**Mentors:** TBD
+
+**Description:**\
+Improving the user experience on our current mobile apps with:
+
+* improved video UX (thumbnails, full screen etc)
+* Set background color (instead of _rn-root-view_)  - [ref](https://docs.expo.dev/versions/v47.0.0/sdk/system-ui/)
+* Migrate store reveiw - [ref](https://docs.expo.dev/versions/v47.0.0/sdk/storereview/)
+* Migrate screen orientation - [ref](https://docs.expo.dev/versions/v47.0.0/sdk/screen-orientation/)
+* Migrate navigation color bar  - [ref](https://docs.expo.dev/versions/v47.0.0/sdk/navigation-bar/)
+* Migrate document picker - [ref](https://docs.expo.dev/versions/v47.0.0/sdk/document-picker/)
+
+**Desirable Skills:**   Advanced Typescript.  Advanced ReactNative.
+
+**Goal/Deliverable:**   Improved Rocket.Chat Ux impacting millions of users.
+
+**Project Duration:** 175 hours. (Medium)\
+\
+**Difficulty:** Medium\
+
+
 ### User Actions Audit Center
 
 **Mentors:** TBD
