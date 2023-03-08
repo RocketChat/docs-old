@@ -566,7 +566,7 @@ This project involves the introduction of the missing architectural, build workf
 **Mentors:** TBD
 
 **Description:**\
-****Create a sensible implementation of Rocket.Chat for Android Auto.\
+****Create a sensible implementation of Rocket.Chat for [Android Auto](https://www.android.com/intl/en\_ca/auto/).\
 ****\
 **Desirable Skills:**  Advanced Typescript.  Android and Android Auto development experience.
 
@@ -574,8 +574,32 @@ This project involves the introduction of the missing architectural, build workf
 
 **Project Duration:** 175 hours (Medium)\
 \
-**Difficulty:** Advanced
+**Difficulty:** Advanced\
+\
 
+
+### Enhanced Mobile App Support for Rocket.Chat Apps
+
+**Mentors:** TBD
+
+**Description:**
+
+Rocket.Chat Apps are the preferred way to extend Rocket.Chat's feature set, and the officially supported way of adding custom integrations to the chat rooms.   While the very basic slash commands are currently supported by our mobile apps, a large portion of capabilities enjoyed by the browser and desktop apps is missing from mobile.\
+\
+This project aims to fill up part of this gap.  It includes the mobile implementation of:
+
+* message actions
+* room actions
+* composer
+
+**Desirable Skills:**  Advanced Typescript.  Advanced ReactNative.  Understanding of iOS and Android programming.
+
+**Goal/Deliverable:**   Additional mobile support for Rocket.Chat apps.
+
+**Project Duration:** 175 hours (Medium)\
+\
+**Difficulty:** Advanced\
+\
 
 
 ### High Performance Windows Native Client
