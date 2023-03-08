@@ -429,7 +429,24 @@ ReactJS, TypeScript, MeteorJS. A thorough understanding of how Rocket.Chat core 
 
 **Project Duration:** 350 hours (Large)\
 \
-**Difficulty:** Advanced\
+**Difficulty:** Advanced
+
+
+
+### Off the Record Messaging for Mobile (OTR)
+
+**Mentors:** TBD\
+\
+**Description:**\
+[Off the Record Messaging](https://docs.rocket.chat/use-rocket.chat/user-guides/rooms/messaging/off-the-record-otr-messaging-guide) is a very popular and well loved feature of Rocket.Chat desktop and web  client.   It enable two parties to securely exchange encrypted message while both side are online, and not have the encrypted conversation be persisted in the chat history.   However our mobile app currently does not support this.    This project will add OTR support to our mobile apps.
+
+**Desired Skills:** Advanced ReactNative.   Knowledge of native Android and iOS app development.\
+\
+**Goals/Deliverable:**\
+OTR working on both iOS and Android apps.\
+\
+**Project Duration:**   175 hours (Medium)\
+**Difficulty:**    Medium\
 
 
 ### Jitsi Meet x Rocket.Chat
