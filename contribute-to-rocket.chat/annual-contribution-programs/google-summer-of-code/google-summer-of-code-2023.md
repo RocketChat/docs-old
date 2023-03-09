@@ -315,6 +315,10 @@ Offensive/sensitive content detection by AI.  Ideally both images/text will be p
 
 
 
+
+
+
+
 ### **UiKit Playground 2.0**
 
 **Mentors:** Guilherme Gazzo, Tasso Evangelista Pinto, Diego Sampaio
@@ -345,9 +349,26 @@ Nowadays we already have a version of the [playground](https://rocketchat.github
 
 **Goal/Deliverable:**   Work as if you were creating documents in notion without leaving Rocket.Chat
 
-**Project Duration:**  175 (Medium)\
+**Project Duration:**  175 hours (Medium)\
 \
-**Difficulty:** Easy/Medium\
+**Difficulty:** Easy/Medium
+
+
+
+### Mobile App Share Extension Update
+
+**Mentors:** TBD\
+\
+**Description:**
+
+Rewrite our [current mobile apps share extension](https://github.com/RocketChat/rn-extensions-share) in Swift for iOS and Kotlin for Android, making sure that it supports the latest [ReactNative Fabric](https://github.com/react-native-community/discussions-and-proposals/issues/4) architecture.\
+\
+**Desirable Skill:** Advanced ReactNative.  Good knowledge of native iOS and Android development. Passion for creating great mobile experiences.
+
+**Project Duration:** 175 hours (Medium)
+
+**Difficulty:**  Advanced\
+\
 
 
 ### Summarizing Live Chat Conversations using OpenAI's ChatGPT
