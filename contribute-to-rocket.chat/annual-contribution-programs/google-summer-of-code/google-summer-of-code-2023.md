@@ -359,9 +359,8 @@ Nowadays we already have a version of the [playground](https://rocketchat.github
 
 **Mentors:** TBD\
 \
-**Description:**
-
-Rewrite our [current mobile apps share extension](https://github.com/RocketChat/rn-extensions-share) in Swift for iOS and Kotlin for Android, making sure that it supports the latest [ReactNative Fabric](https://github.com/react-native-community/discussions-and-proposals/issues/4) architecture.\
+**Description:**\
+****Rewrite our [current mobile apps share extension](https://github.com/RocketChat/rn-extensions-share) in Swift for iOS and Kotlin for Android, making sure that it supports the latest [ReactNative Fabric](https://github.com/react-native-community/discussions-and-proposals/issues/4) architecture.\
 \
 **Desirable Skill:** Advanced ReactNative.  Good knowledge of native iOS and Android development. Passion for creating great mobile experiences.
 
