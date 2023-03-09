@@ -6,7 +6,7 @@ Click open your Facebook app to see the settings available to you as an administ
 
 Following are the settings available:
 
-![](<../../../../../../.gitbook/assets/2022-02-01\_03-05-53 (1).png>)
+![](../../../../../../.gitbook/assets/2022-02-01\_03-05-53.png)
 
 1\. **Agents Display Name:** You can choose to display the agent's name or username.
 

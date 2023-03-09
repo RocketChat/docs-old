@@ -233,7 +233,7 @@ Note: The CAPTCHA solution should be accessible to all users, including those wi
 
 ### Live Preview Message Composer  <a href="#docs-internal-guid-e14dd554-7fff-7875-973a-38a13f969474" id="docs-internal-guid-e14dd554-7fff-7875-973a-38a13f969474"></a>
 
-**Mentors**: Hugo Costa
+**Mentors**: Hugo Costa, Martin Schoeler
 
 **Description:**  \
 ****Make the message composer live preview feature instead of just adding markdown tokens that styles/parse the message in the Message List.

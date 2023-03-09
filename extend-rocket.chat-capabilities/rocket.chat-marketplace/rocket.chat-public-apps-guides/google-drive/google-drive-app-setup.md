@@ -19,11 +19,11 @@ We are going to:
 
 To install the Google Drive Rocket.Chat App,
 
-* Go to **Administration > Workspace > Marketplace**
+* Go to **Administration > Marketplace**
 * Search for the **Google Drive** app and click on the item
 * Click **Install** and **Agree** to accept the needed permissions
 
-You should see an interface with the app details showing after a successful install. Take note of the `callback url`, it will be needed when creating the Oauth client id and secret in the Google cloud console.
+You should see an interface with the app details showing after a successful install. Take note of the `callback url`, it is needed when creating the Oauth _client id_ and _secret_ in the Google cloud console.
 
 <figure><img src="../../../../.gitbook/assets/Google Drive App details page" alt=""><figcaption><p>Google Drive App details page</p></figcaption></figure>
 
@@ -35,12 +35,12 @@ You should see an interface with the app details showing after a successful inst
 
 ## Getting Google Cloud Client Credentials
 
-* Head over to the [Google cloud console](https://console.cloud.google.com/), then proceed with this guide on [how to create a project and get OAuth credentials](https://support.google.com/googleapi/answer/6158849?hl=en) needed by the Google Drive app
-* After creating your app, from the Google cloud dashboard navigate to **API & Services** > **OAuth consent screen** and fill in the required fields to **Create** a consent screen first
+* Go to the [Google cloud console](https://console.cloud.google.com/) and [create a new project](https://support.google.com/googleapi/answer/6158849?hl=en) or select an existing one
+* From the Google cloud dashboard navigate to **API & Services** > **OAuth consent screen** and fill in the required fields to **Create** a consent screen first
 
 <figure><img src="../../../../.gitbook/assets/Google Drive create consent screen" alt=""><figcaption><p>Google Drive create consent screen</p></figcaption></figure>
 
-* Next, go to the **Credentials** tab and create a new OAuth credential
+* Go to the **Credentials** tab on the cloud console and create a new OAuth client ID credential
 
 <figure><img src="../../../../.gitbook/assets/Creating a new Google OAuth credentials" alt=""><figcaption><p>Creating a new OAuth credentials</p></figcaption></figure>
 
@@ -48,33 +48,32 @@ You should see an interface with the app details showing after a successful inst
 
 <figure><img src="../../../../.gitbook/assets/Setting redirect URI on Google Cloud" alt=""><figcaption><p>Setting redirect URI on Google Cloud</p></figcaption></figure>
 
-* When done, copy the `client secret` and `client id` This will be used in configuring the app
+* Copy the `client secret` and `client id,` this will be used in configuring the app
 
 <figure><img src="../../../../.gitbook/assets/Google Cloud OAuth2 credentials" alt=""><figcaption><p>Google Cloud OAuth2 credentials</p></figcaption></figure>
 
-To be able to access Google Drive, we need to enable the Google Drive API access on our project. To do this,
+{% hint style="info" %}
+To be able to access a user's Google Drive, we need to enable the Google Drive API access on our project. See the steps below
+{% endhint %}
 
 * Navigate to the **Library** tab from your project's dashboard
-* Search for Google Drive API from the list of APIs
+* Search for Google Drive API from the list of APIs and **Enable**
 
 <figure><img src="../../../../.gitbook/assets/Add Google Drive API to project" alt=""><figcaption><p>Add Google Drive API to project</p></figcaption></figure>
 
-* Then **Enable** it
-
-<figure><img src="../../../../.gitbook/assets/Enable Google Drive API" alt=""><figcaption><p>Enable Google Drive API</p></figcaption></figure>
-
 ## Configure Rocket.Chat Google Drive App
 
-* Go over to the Google Drive app settings page on your Rocket.Chat server and paste the credentials you copied above and **Save changes**
+* Go over to the Google Drive app settings tab on your Rocket.Chat server **Administration** > **Workspace** > **Apps** > **Installed**
+* &#x20;Paste the credentials from Google Cloud above and **Save changes**
 
 <figure><img src="../../../../.gitbook/assets/Rocket.Chat Google Drive setting" alt=""><figcaption><p>Rocket.Chat Google Drive setting</p></figcaption></figure>
 
-* Back in the chat, typing the slash command `/google-drive help` gives you a list of commands you can use with the Google Drive app.
-  * **help:** shows the help list
-  * **connect:** starts the process to link your Google Account
-  * **unauthorize:** remove your linked Google Account
-  * **create:** creates a new Google File and save it on your Google Drive
-  * **files:** opens the contextual bar with your Google Drive files list
+* Back in the chat room, typing the slash command `/google-drive help` gives you a list of commands you can use with the Google Drive app.
+  * **/google-drive help:** shows the help list
+  * **/google-drive connect:** starts the process to link your Google Account
+  * **/google-drive disconnect:** remove your linked Google Account
+  * **/google-drive create:** creates a new Google File and save it on your Google Drive
+  * **/google-drive files:** opens the contextual bar with your Google Drive files list
 
 With a complete installation, users can access the Google Drive app from the room contextual bar as one of the tabs or using the `google-drive` slash command
 

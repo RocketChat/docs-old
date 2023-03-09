@@ -3,18 +3,17 @@
 After the Google Drive App has been[ installed and configured](google-drive-app-setup.md) by your workspace administrator, users can connect their Google accounts and have access to the files in Drive.
 
 {% hint style="info" %}
-As a user, to see if the Google Drive App has been installed on your workspace, try typing the slash command `/google-drive` and see if any information about it pops up.
+As a user, you can request for the Google Drive app at **Administration > Marketplace.**
+
+To see if the Google Drive App is installed on your workspace, try typing the slash command `/google-drive` and see if any information about it pops up.
 {% endhint %}
 
 To connect your Google account:
 
 * Type the slash command `/google-drive connect`
 * You receive a message from the `google-drive.bot`, click **Authorize** to authorize your account
-
-<figure><img src="../../../../.gitbook/assets/Google Drive app bot authorize message" alt=""><figcaption><p>Google Drive app bot authorize message</p></figcaption></figure>
-
 * Select the Google account you want to authorize then continue
-* You receive a prompt asking for account permissions. **Allow** all to complete
+* **Allow** all the account permission to complete
 
 <figure><img src="../../../../.gitbook/assets/Google Drive app connect account" alt=""><figcaption><p>Google Drive app connect account</p></figcaption></figure>
 

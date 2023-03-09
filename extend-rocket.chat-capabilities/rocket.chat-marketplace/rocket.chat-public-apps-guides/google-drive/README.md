@@ -4,9 +4,9 @@
 **The Google Drive app is currently in Beta and some features may not function as expected.**&#x20;
 {% endhint %}
 
-The Rocket.Chat Google Drive App gives you the ability to:
+The Rocket.Chat Google Drive App brings a seamless Google Drive experience into your Rocket.Chat workspace. This gives users the ability to:
 
-* Open and view your Google Drive file and its details
+* Open and view your Google Drive files and their details
 * Share files and manage sharing permissions
 * Create new files directly from Rocket.Chat
 

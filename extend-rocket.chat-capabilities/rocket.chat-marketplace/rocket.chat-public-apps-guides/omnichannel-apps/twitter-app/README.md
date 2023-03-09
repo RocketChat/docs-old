@@ -12,7 +12,7 @@ description: Omnichannel Integration between Rocket.Chat and Twitter.
 The Twitter app can be used on subscription basis.
 {% endhint %}
 
-![](<../../../../../.gitbook/assets/image (459) (1) (1) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (459) (1) (1) (1) (1) (1).png>)
 
 {% content-ref url="twitter-app-installation.md" %}
 [twitter-app-installation.md](twitter-app-installation.md)
