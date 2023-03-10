@@ -404,7 +404,30 @@ Note that this is not an impossibly scoped rewrite of the desktop app on each pl
 
 **Project Duration:** 350 hours (Large)\
 \
+**Difficulty:** Medium
+
+
+
+### WordPress super plugin
+
+**Mentors:** TBD\
+\
+**Description:**\
+Rocket.Chat had a[ WordPress plugin](https://en-ca.wordpress.org/plugins/rocketchat-livechat/) that worked well with WordPress offering a few years back, giving users a very easily integrated LiveChat widget on their website.  Since then both Rocket.Chat and WordPress have undergone major re-architecture and vastly expanded the possible intergration surfaces.  \
+\
+This projects aims to build a new WordPress plugin that enable the quick addition of a chatroom (not just LiveChat or omnichannel)  to any WordPress website leveraging some of the new integration technology we have such as [EmbeddedChat](https://en-ca.wordpress.org/plugins/rocketchat-livechat/).   \
+\
+The new plugin should cater for WordPress legacy architecture and yet be highly useful in the new headless CMS model.  It should deliver value for both WordPress SaaS users as well as self hosted WordPress installations.\
+\
+**Desirable Skills:** \
+In-depth knowledge of WordPress architectures and plugin construction.   Knowledge of Rocket.Chat integration surfaces. &#x20;
+
+**Goal/Deliverable:** \
+Working WordPress plugin on the WP marketplace supporting Rocket.Chat integration.\
+\
+**Project Duration:** 350 hours (Large)\
 **Difficulty:** Medium\
+\
 
 
 ### Flutter SDK for Rocket.Chat&#x20;
