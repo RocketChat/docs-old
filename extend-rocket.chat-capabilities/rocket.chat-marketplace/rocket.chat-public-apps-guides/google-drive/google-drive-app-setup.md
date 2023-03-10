@@ -23,7 +23,7 @@ To install the Google Drive Rocket.Chat App,
 * Search for the **Google Drive** app and click on the item
 * Click **Install** and **Agree** to accept the needed permissions
 
-You should see an interface with the app details showing after a successful install. Take note of the `callback url`, it is needed when creating the Oauth _client id_ and _secret_ in the Google cloud console.
+You see an interface with the app details showing after a successful install. Take note of the `callback url`, it is needed when creating the Oauth _client id_ and _secret_ in the Google cloud console.
 
 <figure><img src="../../../../.gitbook/assets/Google Drive App details page" alt=""><figcaption><p>Google Drive App details page</p></figcaption></figure>
 

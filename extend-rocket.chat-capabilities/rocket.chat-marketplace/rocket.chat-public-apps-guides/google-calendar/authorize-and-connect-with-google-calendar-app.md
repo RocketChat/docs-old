@@ -1,18 +1,17 @@
 # Authorize and Connect with Google Calendar App
 
-After the Google Calendar app has been installed and configured by your workspace administrator, users can connect their Google accounts and have access to the Google Calendar app features.
+After the Google Calendar app has been [installed ](google-calendar-app-setup.md#installing-google-calendar-app)and [configured ](google-calendar-app-setup.md#setting-up-google-calendar-app)by your workspace administrator, users can connect their Google accounts and have access to the Google Calendar app features.
 
 {% hint style="info" %}
-As a user, to see if the Google Calendar app has been installed on your workspace, try typing the slash command `/google-calendar`and see if any information about it pops up.
+As a user, you can request the Google Calendar app at **Administration > Marketplace.**
+
+To see if the Google Calendar App is installed on your workspace, try typing the slash command `/google-calendar` and see if any information about it pops up.
 {% endhint %}
 
 To connect your Google account:
 
 * Type the slash command `/google-calendar auth`
 * You receive a message from the `google-calendar.bot`, click **Authorize** to authorize your account
-
-<figure><img src="../../../../.gitbook/assets/Authorize Google calendar app" alt=""><figcaption><p>Authorize Google calendar app</p></figcaption></figure>
-
 * Select the Google account you want to authorize then continue
 * You receive a prompt asking for account permissions. **Allow** all to complete
 
@@ -25,5 +24,5 @@ To connect your Google account:
 With your account linked, you can now change the settings, list your events, and get notifications on meeting hours.
 
 {% hint style="info" %}
-You may be required to re-authenticate after a while when the authentication token expires.
+You are required to re-authenticate after a while when the authentication token expires.
 {% endhint %}

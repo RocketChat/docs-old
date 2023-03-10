@@ -13,11 +13,12 @@ To change the functionality of the Google Calendar app for your account,&#x20;
 * Type in the slash command `/google-calendar settings`
 * This opens up  the contextual bar&#x20;
 
-<figure><img src="../../../../.gitbook/assets/Google Calendar settings panel" alt=""><figcaption><p>Google Calendar settings panel</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Google Calendar settings side panel.png" alt=""><figcaption><p>Google Calendar settings side panel</p></figcaption></figure>
 
 * From here, you can:
-  * **Notifications**: **Activate** or **Remove** the ability to receive meeting notifications
-  * **OAuth Authentication**: **Authorize** or **Revoke** your connected account
+  * **Notifications**: _**Activate**_ or _**Remove**_ the ability to receive meeting notifications.
+  * **Daily summary**: This lets you set when to get a daily event overview.
+  * **OAuth Authentication**: _**Authorize**_** ** or _**Revoke**_ your connected account.
 
 ## Google Calendar App List Events
 
@@ -26,18 +27,18 @@ To see the list of events on your calendar for the day,
 * Use the slash command `/google-calendar events`
 * A list of all the events scheduled for the day is displayed
 
-<figure><img src="../../../../.gitbook/assets/Google Calendar app list events" alt=""><figcaption><p>Google Calendar app list events</p></figcaption></figure>
 
-{% hint style="info" %}
-An event is shown in this format; `Start time` - `End time` - `Event title`
-{% endhint %}
 
-* Clicking on an event title takes you to the Google Calendar page showing its details
+<figure><img src="../../../../.gitbook/assets/Google Calendar app list of events.png" alt=""><figcaption><p>Google Calendar app list of events</p></figcaption></figure>
+
+1. An event has details including the event title and event date and time. Clicking on an event title takes you to the Google Calendar page showing its details
+2. For meetings you are invited to, you see the status of your availability for them.
+3. Use these quick action buttons to respond to meeting invites `Accept/Decline/Maybe`.
+4. Click on **Join** to join an event you got invited to.
 
 ## Receiving Google Calendar Alerts
 
-You can schedule hours to receive event reminders in Rocket.Chat
+<figure><img src="../../../../.gitbook/assets/Google calendar notifications.png" alt=""><figcaption><p>Google calendar notifications</p></figcaption></figure>
 
-Configure the duration for alerts in the Google Calendar app settings section where you can specify the hour, minute and second for event checks to be done.
-
-<figure><img src="../../../../.gitbook/assets/Google calendar set check hours.png" alt=""><figcaption><p>Google calendar set check hours</p></figcaption></figure>
+1. As mentioned above, you get a daily event summary at the time configured in the [Daily summary settings](google-calendar-app-settings-and-events.md#google-calendar-app-settings).
+2. By default, you receive an event message reminder 10 minutes before the event scheduled time. You can _Remove_ this notification from the [Google Calendar notification settings](google-calendar-app-settings-and-events.md#google-calendar-app-settings) panel.
