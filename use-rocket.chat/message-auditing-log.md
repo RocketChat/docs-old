@@ -4,7 +4,7 @@ description: Review log history of users who have accessed the Message Auditing 
 
 # Message Auditing Log
 
-<figure><img src="../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (27).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 The **Message Audit Log** allows you to verify who run audits and when a conversation was inspected. The user must have an `auditor-log` [role](../setup-and-administer-rocket.chat/roles-in-rocket.chat/) and `Can Audit Log` [permission](workspace-administration/permissions.md) to access the **Audit Logs**.
 
@@ -12,7 +12,7 @@ To access the message auditing log,&#x20;
 
 * Navigate to **Administration** > **Audit** > **Logs**.
 
-If you are interested in the entire log history, clear the start and end date fields. The full log history results are  returned, from the oldest audits to the most recent. However, if you want to see who audited messages within a specific time frame, select the **start** (left) and end **date**s(right). The ![](<../.gitbook/assets/three-dot-icon (1).png>)**three-dots icon** also provides other time options like **Today**, **This Week,** etc.
+If you are interested in the entire log history, clear the start and end date fields. The full log history results are  returned, from the oldest audits to the most recent. However, if you want to see who audited messages within a specific time frame, select the **start** (left) and end **date**s(right). The ![](../.gitbook/assets/three-dot-icon.png)**three-dots icon** also provides other time options like **Today**, **This Week,** etc.
 
 The message auditing logs returns a table with following information:
 

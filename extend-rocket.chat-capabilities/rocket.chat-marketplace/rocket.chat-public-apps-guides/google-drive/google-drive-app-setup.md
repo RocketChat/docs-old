@@ -1,6 +1,6 @@
 # Google Drive App Setup
 
-In this guide, you will see how to install and set up the Google Drive App for Rocket.Chat.
+In this guide, you will learn how to install and set up the Google Drive App for Rocket.Chat.
 
 {% hint style="info" %}
 Prerequisites:

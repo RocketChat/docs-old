@@ -59,7 +59,7 @@ You can cancel your workspace to end your subscription and hibernate your server
 To cancel a workspace,
 
 * From the sidebar menu, click **Workspaces.**
-* Click the **** ![](<../../../.gitbook/assets/three-dot-icon (1).png>)**three-dot** icon beside the workspace.
+* Click the **** ![](../../../.gitbook/assets/three-dot-icon.png)**three-dot** icon beside the workspace.
 * Select **Cancel**.
 
 {% hint style="info" %}
@@ -79,5 +79,5 @@ You can upgrade your workspace to the latest workspace version.
 To update your workspace,
 
 * From the sidebar menu, click **Workspaces.**
-* Click the **** ![](<../../../.gitbook/assets/three-dot-icon (1).png>)**three-dot** icon beside the workspace.
+* Click the **** ![](../../../.gitbook/assets/three-dot-icon.png)**three-dot** icon beside the workspace.
 * Select **Update**.

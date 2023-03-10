@@ -170,7 +170,7 @@ extraVolumeMounts:
     readOnly: true
 ```
 
-### Increasing Server Capacity and HA Setup  ![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (27).jpg>)
+### Increasing Server Capacity and HA Setup  ![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1).jpg>)
 
 To increase the server's capacity, you can increase the number of Rocket.Chat server instances across available computing resources in your cluster. For example,
 

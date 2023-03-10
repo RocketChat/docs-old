@@ -15,7 +15,7 @@ To see a list of files on the account connected to the Google Drive app you can 
 * Opening **Google Drive** from the contextual bar
 * Using the slash command `/google-drive files`
 
-<figure><img src="broken-reference" alt=""><figcaption><p>Google Drive App List all files</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Google Drive App List all files.png" alt=""><figcaption><p>Google Drive App List all files</p></figcaption></figure>
 
 1. A list of all the files in your Drive is displayed here including those you created and the ones shared with you. Files are listed with their respective `file name`, `file type, Last modified date` and `Owner`
 2. You can search for a specific file using the search bar.
@@ -41,7 +41,7 @@ You have the ability to open up files in your browser directly from Rocket.Chat.
 
 To open a file in the browser, click the **Kebab menu** across the file then select **Open in browser.** This opens the file on your browser's tab
 
-<figure><img src="broken-reference" alt=""><figcaption><p>Google Drive app open file in browser</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Google Drive app open file in browser.png" alt=""><figcaption><p>Google Drive app open file in browser</p></figcaption></figure>
 
 ## Share Google Drive File
 
@@ -53,7 +53,7 @@ To share a file,
 * Search using the search bar or navigate to the file to share
 * Click the **Kebab menu** across the file then select **Share in room.** This shares a link to the file in the room.
 
-<figure><img src="broken-reference" alt=""><figcaption><p>Google Drive share file in room</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Google Drive share file in room.png" alt=""><figcaption><p>Google Drive share file in room</p></figcaption></figure>
 
 {% hint style="info" %}
 Clicking on **Details and sharing** opens up a modal to edit the sharing permissions of the file. Learn more about file [details](google-drive-app-file-actions.md#google-drive-file-details-and-permissions) and [permissions](google-drive-app-file-actions.md#file-permissions) below.
@@ -69,7 +69,7 @@ To view file details,
 * Search for the file name using the search bar or navigate and locate the file
 * Click the **Kebab menu** across the file then select **File information**
 
-<figure><img src="broken-reference" alt=""><figcaption><p>Google Drive app file information</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Google Drive app file information.png" alt=""><figcaption><p>Google Drive app file information</p></figcaption></figure>
 
 * The following details about the file are seen
   * **File name:** The name of the file
@@ -112,6 +112,6 @@ To delete a file:
 
 * Open Google Drive from the contextual bar or using the slash command `/google-drive files`&#x20;
 * Click the **Kebab menu** across the file you want to delete
-* Select **Delete file** then **Delete forever**
+* Select **Delete file,** then **Delete forever**
 
-<figure><img src="broken-reference" alt=""><figcaption><p>Google Drive App delete file</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Google Drive App delete file.png" alt=""><figcaption><p>Google Drive App delete file</p></figcaption></figure>

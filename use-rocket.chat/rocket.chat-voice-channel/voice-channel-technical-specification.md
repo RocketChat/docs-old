@@ -39,7 +39,7 @@ Web clients are built using browser-based WebRTC technology. This technology doe
 * To achieve this, there is an association made between the Rocket.Chat agent and the SIP identity.
 * ACD (Automatic Call Distribution) queues, wait-treatment, etc, are managed by the customer’s/Partner’s PBX. Reaching out to external networks (PSTN/Mobile Network/Another SIP Server, is handled at the customer’s/Partner’s PBX.
 
-![VoIP Architecture](<../../.gitbook/assets/image (656) (1).png>)
+![VoIP Architecture](<../../.gitbook/assets/image (678) (1) (1).png>)
 
 **ACD Queues:**
 
@@ -51,4 +51,4 @@ Agents are partitioned into different queues on the PBX. These queues represent 
 
 Admins and managers use Rocket.Chat's UI to configure and monitor the customer-managed PBX. To receive real-time PBX events, Rocket.Chat’s backend has to connect to the PBX manager interface. The customer is responsible for creating the configuration on PBX so that the management APIs/interface is accessible from Rocket.Chat’s backend.
 
-![Connector Architecture](<../../.gitbook/assets/image (679) (1) (1) (1).png>)
+![Connector Architecture](<../../.gitbook/assets/image (644) (1) (1).png>)
