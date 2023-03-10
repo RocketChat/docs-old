@@ -174,4 +174,4 @@ yourdomain.com {
 
 ## Multi Instance Nginx reverse proxy
 
-Here is a link to a [Nginx multi instance reverse proxy example](../scaling-rocket.chat/running-multiple-instances.md)
+Here is a link to a [Nginx multi instance reverse proxy example](broken-reference)

@@ -6,4 +6,4 @@ You can use microservices or deploy multiple instances of Rocket.Chat to scale y
 
 ****[**Microservices**](microservices-setup.md)**:**  Deploy Rocket.Chat using microservices or several smaller components, each focusing on a single feature of Rocket.Chat.
 
-****[**Deploying multiple instances of Rocket.Chat:**  ](running-multiple-instances.md)Running multiple instances of the Rocket.Chat application on a multi-core machine.
+****[**Deploying multiple instances of Rocket.Chat:**  ](broken-reference)Running multiple instances of the Rocket.Chat application on a multi-core machine.
