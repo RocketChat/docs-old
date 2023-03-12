@@ -5,7 +5,7 @@
 To update the general notification preferences for your account,
 
 * Click your **avatar** from the sidebar to access the [user panel](https://docs.rocket.chat/use-rocket.chat/user-guides/user-panel).
-* Select <img src="../../.gitbook/assets/image (9) (1).png" alt="" data-size="line">**My Account**.
+* Select <img src="../../.gitbook/assets/image (9).png" alt="" data-size="line">**My Account**.
 * Click **Preferences**, then select **Notifications.**
 
 Based on your preference, you can set the type of messages you want to receive for **desktop notifications**, **push notifications**, and **offline email notifications**. You can also toggle on/off the option to **receive login detection emails**.
@@ -15,7 +15,7 @@ Based on your preference, you can set the type of messages you want to receive f
 To configure notifications within a room or channel,
 
 * Click the **three dots** icon at the menu bar of the room.
-* Select <img src="../../.gitbook/assets/image (12) (1).png" alt="" data-size="line">**Notification Preferences**.
+* Select <img src="../../.gitbook/assets/image (12) (2).png" alt="" data-size="line">**Notification Preferences**.
 
 You can toggle on/off for any of these actions:  receiving alerts,  mute `@here` and `@all` mentions,  mark a room as unread when there are unread messages.
 

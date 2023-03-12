@@ -110,7 +110,7 @@ Canned responses allow you to call pre-saved message snippets with shortcuts (pr
 
 To access all available canned responses for your department or all public canned responses on your workspace,&#x20;
 
-* Click <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> from quick actions on the right side
+* Click <img src="../../.gitbook/assets/image (2) (1).png" alt="" data-size="line"> from quick actions on the right side
 * Hover your cursor over the canned response you want to use in your current conversation&#x20;
 * Hit **Use**
 
@@ -124,7 +124,7 @@ Check [canned-responses](../omnichannel/canned-responses/ "mention") or contact 
 
 To create a canned response in a conversation,
 
-* Click <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> from quick actions on the right side
+* Click <img src="../../.gitbook/assets/image (2) (1).png" alt="" data-size="line"> from quick actions on the right side
 * Scroll down and click **Create**
 * Enter **Shortcut**. E.g., `!welcome`
 * Enter **Message**. E.g., `Welcome to Rocket.Chat LiveChat support! How can I help you?`
