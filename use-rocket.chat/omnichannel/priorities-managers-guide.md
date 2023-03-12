@@ -18,7 +18,7 @@ To access **Priorities** settings,
 
 On the Priorities main menu, a list of all priorities is seen if any exists. Clicking on any opens a panel to edit it.
 
-Each Priority has its own(unique) `Estimated due time`(time in minutes), so once a priority is associated with an `Inquiry/room`, this value is used to set the [queue ](../omnichannel-agents-guides/omnichannel-chats.md)inquiry order. Priority is not mandatory for each conversation. Thus, the Omnichannel queues will have conversations with and without priorities.
+Each Priority has its own(unique) `Estimated due time`(time in minutes), so once a priority is associated with an `Inquiry/room`, this value is used to set the [queue ](../omnichannel-agents-guides/omnichannel-queue.md)inquiry order. Priority is not mandatory for each conversation. Thus, the Omnichannel queues will have conversations with and without priorities.
 
 ## Create Omnichannel Priorities
 

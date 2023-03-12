@@ -150,8 +150,8 @@ Configure Omnichannel Queue and how simultaneous chats get managed.
 
 See more about Queuing here.
 
-{% content-ref url="../../../omnichannel-agents-guides/omnichannel-chats.md" %}
-[omnichannel-chats.md](../../../omnichannel-agents-guides/omnichannel-chats.md)
+{% content-ref url="../../../omnichannel-agents-guides/omnichannel-queue.md" %}
+[omnichannel-queue.md](../../../omnichannel-agents-guides/omnichannel-queue.md)
 {% endcontent-ref %}
 
 ## Routing
