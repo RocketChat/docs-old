@@ -31,5 +31,8 @@ To save a new canned response for your workspace, visit [Canned Responses Omnich
 
 See the guides below to learn more:
 
-* [Canned Responses Admin Guides](broken-reference)
 * [Canned Responses Omnichannel Manager's Guide](canned-responses-omnichannel-managers-guide.md)
+
+{% hint style="info" %}
+You can find the canned response agent guide[ here.](../../omnichannel-agents-guides/omnichannel-conversation.md#canned-responses)
+{% endhint %}

@@ -313,7 +313,7 @@
   * [Monitors Omnichannel Guide](use-rocket.chat/omnichannel/monitors-managers-guide.md)
   * [Units Manager's Guide](use-rocket.chat/omnichannel/units-managers-guide.md)
   * [Canned Responses](use-rocket.chat/omnichannel/canned-responses/README.md)
-    * [Canned Responses Omnichannel Manager's Guide](use-rocket.chat/omnichannel/canned-responses/canned-responses-omnichannel-managers-guide.md)
+    * [👑 Canned Responses Omnichannel Manager's Guide](use-rocket.chat/omnichannel/canned-responses/canned-responses-omnichannel-managers-guide.md)
   * [Tags Manager's Guide](use-rocket.chat/omnichannel/tags-managers-guide.md)
   * [Priorities Manager's Guide](use-rocket.chat/omnichannel/priorities-managers-guide.md)
 * [Message Auditing](use-rocket.chat/message-auditing/README.md)

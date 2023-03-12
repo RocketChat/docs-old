@@ -51,7 +51,7 @@ During supporting conversation as an agent, you can find yourself in a situation
 
 To place a conversation on hold,
 
-* Click <img src="../../.gitbook/assets/image (1) (2).png" alt="" data-size="line">
+* Click <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line">
 * Click **Place Chat On-Hold**&#x20;
 
 If the Omnichannel contact engages again, the routing algorithm will try to find you first to assign this conversation. If you are busy serving other conversations at maximum capacity, the conversation will be assigned to the next available agent.
@@ -79,7 +79,7 @@ To end a conversation:
 Communication with omnichannel contacts on Rocket.Chat can also be done using audio/video calls. Your workspace must have at least one call app installed to make these calls.&#x20;
 
 {% hint style="info" %}
-To enable Rocket.Chat video call feature, please get in touch with your administrator or follow the [instructions](https://docs.rocket.chat/guides/administration/settings/video-conference-admin-guide/omnichannel-video-audio-call-admins-guide).
+To enable Rocket.Chat video call feature, please get in touch with your administrator or follow the [instructions](../rocket.chat-conference-call/omnichannel-video-audio-call-configuration.md).
 {% endhint %}
 
 {% hint style="success" %}
@@ -110,7 +110,7 @@ Canned responses allow you to call pre-saved message snippets with shortcuts (pr
 
 To access all available canned responses for your department or all public canned responses on your workspace,&#x20;
 
-* Click <img src="../../.gitbook/assets/image (2) (1).png" alt="" data-size="line"> from quick actions on the right side
+* Click <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> from quick actions on the right side
 * Hover your cursor over the canned response you want to use in your current conversation&#x20;
 * Hit **Use**
 
@@ -124,7 +124,7 @@ Check [canned-responses](../omnichannel/canned-responses/ "mention") or contact 
 
 To create a canned response in a conversation,
 
-* Click <img src="../../.gitbook/assets/image (2) (1).png" alt="" data-size="line"> from quick actions on the right side
+* Click <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> from quick actions on the right side
 * Scroll down and click **Create**
 * Enter **Shortcut**. E.g., `!welcome`
 * Enter **Message**. E.g., `Welcome to Rocket.Chat LiveChat support! How can I help you?`

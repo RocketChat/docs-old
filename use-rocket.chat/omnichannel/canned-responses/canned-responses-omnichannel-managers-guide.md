@@ -1,4 +1,4 @@
-# Canned Responses Omnichannel Manager's Guide
+# 👑 Canned Responses Omnichannel Manager's Guide
 
 ![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11).jpg>)
 
@@ -40,6 +40,6 @@ You can filter canned responses from the main page by:
 2. **Sharing**: You can filter by sharing.
 3. **Created By**: You can filter by name of the user who created the canned responses.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+{% hint style="info" %}
+You can find the canned response agent guide[ here.](../../omnichannel-agents-guides/omnichannel-conversation.md#canned-responses)
+{% endhint %}

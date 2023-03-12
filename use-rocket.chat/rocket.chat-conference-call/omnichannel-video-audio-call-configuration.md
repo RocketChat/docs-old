@@ -6,5 +6,5 @@ To set Omnichannel call provider,
 * Select **Default Provider**. It uses the default provider that you set when[ configuring conference calls](conference-call-admin-guide/).
 
 {% hint style="info" %}
-To learn how to use conference calls as an Omnichannel agent, please visit [Livechat Video/Audio Call Agent's Guide](broken-reference).
+To learn how to use conference calls as an Omnichannel agent visit [here](../omnichannel-agents-guides/omnichannel-conversation.md#calling).
 {% endhint %}
