@@ -53,7 +53,7 @@ The navigation drawer menu carries your profile avatar, name, and workspace name
 
 The toolbar (action bar) has three action icons.
 
-* The <img src="../../.gitbook/assets/create icon (1).png" alt="" data-size="line"> icon is used to create [Rooms](../user-guides/rooms/).
+* The <img src="../../.gitbook/assets/create icon.png" alt="" data-size="line"> icon is used to create [Rooms](../user-guides/rooms/).
 * The <img src="../../.gitbook/assets/search icon.png" alt="" data-size="line"> icon searches your whole workspace for rooms and users.
 * The <img src="../../.gitbook/assets/hashtag icon.png" alt="" data-size="line"> icon is used to search for rooms that you are already part of or the ones which you might want to join.
 

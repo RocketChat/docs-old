@@ -45,13 +45,13 @@ Following an Omnichannel conversation, it may be necessary to forward the transc
 * Enter the **Subject**.
 * Hit **Request**.
 
-## Place conversation On-Hold ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1).jpg>)
+## Place conversation On-Hold ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (27).jpg>)
 
 During supporting conversation as an agent, you can find yourself in a situation where Omnichannel contacts terminate the conversation abruptly. Still, the conversation will persist in your queue until it is **Closed**. This can potentially impact your service capacity as you may be unable to engage in new conversations due to the maximum number of simultaneous conversations allowed per agent. To address this concern, you can utilize the **Place Chat On-Hold** feature to pause the conversation temporarily.
 
 To place a conversation on hold,
 
-* Click <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line">
+* Click <img src="../../.gitbook/assets/image (1) (2).png" alt="" data-size="line">
 * Click **Place Chat On-Hold**&#x20;
 
 If the Omnichannel contact engages again, the routing algorithm will try to find you first to assign this conversation. If you are busy serving other conversations at maximum capacity, the conversation will be assigned to the next available agent.
@@ -99,7 +99,7 @@ To make a call:
 * Click **Edit** to add some further information. E.g., the topic discussed or priority&#x20;
 * Hit **Save**
 
-## Canned Responses ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1).jpg>)
+## Canned Responses ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (27).jpg>)
 
 Canned responses allow you to call pre-saved message snippets with shortcuts (preceded with `!`) to communicate a quick note to your omnichannel contact in omnichannel as well as regular conversations inside your Rocket.Chat's workspace.
 

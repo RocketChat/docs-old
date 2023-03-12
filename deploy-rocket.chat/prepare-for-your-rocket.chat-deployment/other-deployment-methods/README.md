@@ -8,8 +8,8 @@
 [nonofficial-methods](nonofficial-methods/)
 {% endcontent-ref %}
 
-{% content-ref url="plug-in-deployments/" %}
-[plug-in-deployments](plug-in-deployments/)
+{% content-ref url="../../../deploy/prepare-for-your-deployment/other-deployment-methods/plug-in-deployments.md" %}
+[plug-in-deployments.md](../../../deploy/prepare-for-your-deployment/other-deployment-methods/plug-in-deployments.md)
 {% endcontent-ref %}
 
 {% content-ref url="windows-10-pro.md" %}

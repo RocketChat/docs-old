@@ -75,7 +75,7 @@ This will only work if you have your FreePBX already activated.&#x20;
 
 Navigate to **Admin > Port Management**. Change the Admin (web portal) to another port and set Letsencrypt to port 80. Click **Update** **Now**.
 
-![Port management](<../../../../.gitbook/assets/Port management PBX (1).png>)
+![Port management](<../../../../.gitbook/assets/Port management PBX.png>)
 
 Please note that until here, you have been accessing the server by HTTP (not HTTPS) on port 80. Until you finish the SSL configuration, you are going to be using the newly selected port, 8080, in this demo.
 
@@ -127,7 +127,7 @@ First, check that you have the needed modules loaded using the command `module s
 
 We are reusing the Let’s Encrypt certificates for the Asterisk mini-HTTP server, WebSockets, TLS encryption, and others. Start by going to **Settings > Advanced Settings** (again), search for the _Asterisk Builtin mini-HTTP server_ section and, configure as shown, apply changes. Asterisk restart is also recommended here:
 
-![Asterisk Builtin mini-HTTP server](<../../../../.gitbook/assets/image (1) (2).png>)
+![Asterisk Builtin mini-HTTP server](<../../../../.gitbook/assets/image (1) (2) (2).png>)
 
 Using the command `http show status` verify that both HTTP and HTTPS are up and running:
 

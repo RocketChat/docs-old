@@ -6,7 +6,7 @@ We don't support encrypted rooms yet.
 
 ## Creating a channel/group
 
-<figure><img src="../../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (27).jpg" alt=""><figcaption></figcaption></figure>
 
 You can create federated [Channels](../../../../../user-guides/rooms/channels/) having both Rocket.Chat and other federated users.
 
@@ -30,7 +30,7 @@ Whenever your user is invited to participate in a federated room, if that room w
 
 ## Creating a Direct Message 1:1
 
-<figure><img src="../../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (27).jpg" alt=""><figcaption></figcaption></figure>
 
 You can create a [Direct Message](../../../../../user-guides/rooms/direct-messages/) with other federated users.
 
@@ -64,7 +64,7 @@ Where:
 
 ## Creating a Multi-user Direct Message using slash command
 
-<figure><img src="../../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (27).jpg" alt=""><figcaption></figcaption></figure>
 
 To create Multi-user Direct Messages using slash commands, you need to open the message box in any channel and type the following command using the [syntax to invite external users](invite-external-users-to-your-rocket.chat-server.md#invite-external-users-syntax):
 
