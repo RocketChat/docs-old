@@ -80,7 +80,8 @@
     * [Setting up Process Managers and Init Systems](deploy-rocket.chat/rocket.chat-environment-configuration/extras/pm2-systemd-upstart.md)
   * [Configuring SSL Reverse Proxy](deploy-rocket.chat/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)
   * [Environment Variables](deploy-rocket.chat/rocket.chat-environment-configuration/environment-variables.md)
-* [Updating Rocket.Chat](deploy-rocket.chat/updating-rocket.chat.md)
+* [Updating Rocket.Chat](deploy/updating-rocket.chat/README.md)
+  * [Updating FAQ](deploy/updating-rocket.chat/updating-faq.md)
 
 ## Setup and Configure
 

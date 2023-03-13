@@ -64,6 +64,6 @@ Optionally, if you want to manage your messages and configuration information, e
 
 To update the `rocketchat` docker image to the latest version, update the `RELEASE` value in your `.env` file, then simply run `docker compose up -d`. Your data should not be affected by this, since it's located in the `mongo` image.
 
-{% content-ref url="../../../../deploy-rocket.chat/updating-rocket.chat.md" %}
-[updating-rocket.chat.md](../../../../deploy-rocket.chat/updating-rocket.chat.md)
+{% content-ref url="../../../../deploy/updating-rocket.chat/" %}
+[updating-rocket.chat](../../../../deploy/updating-rocket.chat/)
 {% endcontent-ref %}
