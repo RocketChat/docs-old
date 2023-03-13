@@ -44,7 +44,7 @@ Rocket.Chat users can have one or more roles, allowing them to perform the vario
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Livechat Agent`   | Live Chat [Agents](../../use-rocket.chat/omnichannel/agents.md) are responsible for handling visitors' inquiries and support requests through [Omnichannel Live Chat](../../use-rocket.chat/omnichannel/livechat-widget-installation.md). |
 | `Livechat Manager` | Live Chat [Managers ](../../use-rocket.chat/omnichannel/managers.md)have the ability to manage Livechat [Agents](../../use-rocket.chat/omnichannel/agents.md) and all other [Omnichannel ](../../use-rocket.chat/omnichannel/)features.   |
-| `livechat-monitor` | Users with the `livechat-monitor` role can view and [monitor ](../../use-rocket.chat/omnichannel/monitors.md)Live Chat interactions and analytics.                                                                                        |
+| `livechat-monitor` | Users with the `livechat-monitor` role can view and [monitor ](../../use-rocket.chat/omnichannel/monitors-managers-guide.md)Live Chat interactions and analytics.                                                                         |
 
 {% hint style="info" %}
 You can create and manage custom Roles with specified permissions tailored to your needs. Learn more about Rocket.Chat Roles here [#roles](../../use-rocket.chat/workspace-administration/permissions.md#roles "mention")

@@ -1,4 +1,4 @@
-# Webhooks Manager's Guide
+# Webhooks
 
 Omnichannel webhooks allow you to integrate the Rocket.Chat Omnichannel to any third-party system, e.g., CRM, Zoho, etc.
 

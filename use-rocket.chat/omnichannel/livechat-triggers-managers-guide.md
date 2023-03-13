@@ -1,4 +1,4 @@
-# Livechat Triggers Manager's Guide
+# Livechat Triggers
 
 Omnichannel Live Chat Triggers are a set of events that can be configured that when they happen, causes the Live Chat widget to perform an action or opens up automatically.
 

@@ -2,12 +2,12 @@
 description: This feature adds the ability to evaluate user engagement on the channels.
 ---
 
-# Engagement Dashboard
+# 👑 Engagement Dashboard
 
 <figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (37).jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Engagement Dashboard is an enterprise-only feature.
+Engagement Dashboard is  [Rocket.Chat Enterprise](../../setup-and-administer-rocket.chat/enterprise-edition-trial/) feature.
 {% endhint %}
 
 The Rocket.Chat engagement dashboard gives you great insights into users, messages, and channel activities.
