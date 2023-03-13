@@ -4,7 +4,7 @@ description: This feature adds the ability to evaluate user engagement on the ch
 
 # Engagement Dashboard
 
-<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (18).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (37).jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Engagement Dashboard is an enterprise-only feature.

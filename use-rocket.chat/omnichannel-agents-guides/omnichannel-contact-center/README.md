@@ -51,17 +51,16 @@ As a Rocket.Chat enterprise user; you can [assign an Omnichannel contact to a pa
 
 ## Chats
 
-All the chats appear under the **Chats** tab.&#x20;
+All the conversations appear under the **Chats** tab.&#x20;
 
 {% hint style="info" %}
-No open chat appears in the **Contact Center**. A chat appears in the **Contact** **Center** as soon as it is closed because **Contact Center** only deals with archived discussions.
+No open chat appears in the **Contact Center**. A chat appears in the **Contact** **Center** as soon as it is closed because **Contact Center** only deals with archived conversations.
 {% endhint %}
 
-You can click to open a chat to view it.
-
-Go to the **Room Information** and click **View full conversation** to open the conversation.
-
-Click **Edit** to edit the contact details.
+* Search to open your desired conversation details
+* Click **Edit** to edit the conversation details
+* Click <img src="../../../.gitbook/assets/image (5).png" alt="" data-size="line"> on top right on **Room Information** panel to view the full conversation
+* You can perform all the [quick actions ](../omnichannel-conversation.md)applicable to the **Closed** state of the conversation.
 
 ## Calls
 
@@ -73,4 +72,4 @@ To search omnichannel calls:
 
 * Click the **Calls** tab.
 * Enter the search query in the **Search** box. Search is done based on name or phone number.
-* Click on a call row to see the details. The details of the call are revealed on the right, such as the duration,the wrap-up notes and the last time you had a call with the contact.
+* Click on a call row to see the details. The details of the call are revealed on the right, such as the duration, the wrap-up notes, and the last time you had a call with the contact.

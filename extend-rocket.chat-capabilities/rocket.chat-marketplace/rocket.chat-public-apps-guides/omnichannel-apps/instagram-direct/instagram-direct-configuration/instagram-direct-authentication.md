@@ -22,7 +22,7 @@ The first step after the configuration and resolving the dependencies is authent
 
 1. Please click on the button shown below to start the authentication process with Instagram Direct.
 
-![](<../../../../../../.gitbook/assets/2022-01-20\_20-26-27 (1) (2) (1) (1) (1) (1).png>)
+![](<../../../../../../.gitbook/assets/2022-01-20\_20-26-27 (1) (2) (1) (1) (1) (1) (1).png>)
 
 2\. As soon as you click **Start Authentication** the authentication process is started. Please authorize [Rocket.Chat](http://rocket.chat)'s Instagram Direct to complete this process.
 
@@ -36,7 +36,7 @@ The first step after the configuration and resolving the dependencies is authent
 
 5\. In case you have multiple pages associated with your Instagram account, it will prompt a selection box to choose the preferred page to connect.
 
-![](<../../../../../../.gitbook/assets/2021-12-31\_18-11-21 (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../../../../.gitbook/assets/2021-12-31\_18-11-21 (1) (1) (1) (1) (1) (1) (1).png>)
 
 6\. Determine what Rocket.Chat Omni Gateway can do with the pages you have selected.
 
@@ -62,7 +62,7 @@ After successful authentication, as an admin, you are subscribed to the Instagra
 
 You can edit page configuration as shown below:
 
-![](<../../../../../../.gitbook/assets/2021-12-31\_18-12-56 (1) (1) (1) (4) (2) (1) (1) (1) (1) (3) (1) (3).png>)
+![](<../../../../../../.gitbook/assets/2021-12-31\_18-12-56 (1) (1) (1) (4) (2) (1) (1) (1) (1) (3) (1) (4).png>)
 
 Following are the settings available:
 
