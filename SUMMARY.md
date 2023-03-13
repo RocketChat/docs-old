@@ -456,6 +456,8 @@
     * [Poll](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/poll.md)
     * [Poll Plus](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/poll-plus/README.md)
       * [Poll Plus Features](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/poll-plus/poll-plus-features.md)
+    * [TeamsBridge App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/teamsbridge-app/README.md)
+      * [Using the TeamsBridge App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/teamsbridge-app/using-the-teamsbridge-app.md)
     * [GitHub App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/github-app/README.md)
       * [Install GitHub App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/github-app/install-github-app.md)
       * [Creating GitHub OAuth App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/github-app/creating-github-oauth-app.md)
