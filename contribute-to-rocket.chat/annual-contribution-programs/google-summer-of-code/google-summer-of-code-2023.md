@@ -55,7 +55,7 @@ Most Rocket.Chat developers uses VSCode when studying our massive production cod
 
 We welcome any additional ideas you may have.
 
-**Desired Skills:** JNodeJS, MongoDB
+**Desired Skills:** NodeJS, MongoDB
 
 **Goals/Deliverables:** A set of guided tours from the topics described above
 
