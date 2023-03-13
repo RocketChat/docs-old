@@ -42,22 +42,22 @@ Now the administrator and Rocket.Chat Omnichannel Manager can access _**Omnichan
 
 ****[**Custom Fields**](../workspace-administration/settings/account-settings/custom-fields.md): Add custom fields to receive additional information from visitors during registration before initiating a Live Chat conversation.
 
-****[**Livechat Triggers Manager's Guide**](livechat-triggers-managers-guide.md): Configure Omnichannel LiveChat trigger to open the LiveChat widget.
+****[**Livechat Triggers Manager's Guide**](livechat-triggers.md): Configure Omnichannel LiveChat trigger to open the LiveChat widget.
 
 ****[**Livechat Widget Installation**](livechat-widget-installation.md): Embed the LiveChat widget into your web pages.
 
 ****[**LiveChat Widget Appearance**](livechat-widget-appearance.md): Customize the LiveChat widget to suit your branding style.
 
-****[**Webhooks Manager's Guide**](webhooks-managers-guide.md)**:** Configure Omnichannel webhooks to integrate the Rocket.Chat Omnichannel to any third-party system, e.g., CRM, Zoho.
+****[**Webhooks Manager's Guide**](webhooks.md)**:** Configure Omnichannel webhooks to integrate the Rocket.Chat Omnichannel to any third-party system, e.g., CRM, Zoho.
 
-****[**Business Hours Manager's Guide**](business-hours-managers-guide.md): Set up business hours to specify the working days and hours of your business.
+****[**Business Hours Manager's Guide**](business-hours.md): Set up business hours to specify the working days and hours of your business.
 
-****[**Monitors Omnichannel Guide**](monitors-managers-guide.md): Set up users to monitor all Omnichannel activities.
+****[**Monitors Omnichannel Guide**](monitors.md): Set up users to monitor all Omnichannel activities.
 
-****[**Units Manager's Guide**](units-managers-guide.md)**:**  Organize a unit of multiple [departments](departments.md) and assign a monitor to oversee them.
+****[**Units Manager's Guide**](units.md)**:**  Organize a unit of multiple [departments](departments.md) and assign a monitor to oversee them.
 
 ****[**Canned Responses**](canned-responses/): Save message snippets with shortcuts to enable faster communication.
 
-****[**Tags Manager's Guide**](tags-managers-guide.md)**:** Create tags to sort Live Chat conversations quickly.
+****[**Tags Manager's Guide**](tags.md)**:** Create tags to sort Live Chat conversations quickly.
 
-****[**Priorities Manager's Guide**](priorities-managers-guide.md)**:** Change the order of Omnichannel queues based on Estimated Due Time.
+****[**Priorities Manager's Guide**](priorities.md)**:** Change the order of Omnichannel queues based on Estimated Due Time.

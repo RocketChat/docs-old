@@ -48,7 +48,7 @@ Following an Omnichannel conversation, it may be necessary to forward the transc
 
 * Click <img src="../../.gitbook/assets/end-conversation.png" alt="" data-size="line"> icon to close the conversation first
 * Enter comments if any
-* Update [Tags](../omnichannel/tags-managers-guide.md) for this conversation
+* Update [Tags](../omnichannel/tags.md) for this conversation
 * Select **Export chat transcript as PDF**&#x20;
 * You receive a new direct message from **Rocket.Cat** with the conversation attached in PDF form.
 
@@ -89,7 +89,7 @@ To end a conversation:
 
 * Click <img src="../../.gitbook/assets/end-conversation.png" alt="" data-size="line"> icon.
 * Enter comments if any
-* Update [Tags](../omnichannel/tags-managers-guide.md) for this conversation
+* Update [Tags](../omnichannel/tags.md) for this conversation
 * Select **Export chat transcript as PDF** in case you need it exported. ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (37).jpg>)
 * Select **Send chat transcript via email** if you want it sent to the guest's email.
 * Click **Confirm,** and the conversation disappears from the **Chats in Progress** queue.

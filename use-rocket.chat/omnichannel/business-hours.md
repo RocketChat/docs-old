@@ -1,7 +1,7 @@
-# Business Hours Manager's Guide
+# Business Hours
 
 {% hint style="info" %}
-Multiple Business Hours is available in  [Rocket.Chat Enterprise](../../setup-and-administer-rocket.chat/enterprise-edition-trial/) feature.
+Multiple Business Hours is  [Rocket.Chat Enterprise](../../setup-and-administer-rocket.chat/enterprise-edition-trial/) feature.
 {% endhint %}
 
 Setting business hours lets you specify the working days and hours of your business. This reflects on the Live Chat widget availability making it easy for agents to be notified and hence receive queries.

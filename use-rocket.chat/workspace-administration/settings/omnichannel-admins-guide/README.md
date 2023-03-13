@@ -96,8 +96,8 @@ Configuring multiple business hours is an [Enterprise](../../../../setup-and-adm
 
 Learn more on how to create and manage Business Hours here.
 
-{% content-ref url="../../../omnichannel/business-hours-managers-guide.md" %}
-[business-hours-managers-guide.md](../../../omnichannel/business-hours-managers-guide.md)
+{% content-ref url="../../../omnichannel/business-hours.md" %}
+[business-hours.md](../../../omnichannel/business-hours.md)
 {% endcontent-ref %}
 
 ## CRM Integration
@@ -106,8 +106,8 @@ Integrate your Rocket.Chat Live Chat events using webhooks to other external too
 
 See more details about this below.
 
-{% content-ref url="../../../omnichannel/webhooks-managers-guide.md" %}
-[webhooks-managers-guide.md](../../../omnichannel/webhooks-managers-guide.md)
+{% content-ref url="../../../omnichannel/webhooks.md" %}
+[webhooks.md](../../../omnichannel/webhooks.md)
 {% endcontent-ref %}
 
 ## Facebook
