@@ -1,6 +1,6 @@
 # Microservices
 
-![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (17).jpg>)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (25).jpg>)
 
 ## Components Overview
 
@@ -25,7 +25,7 @@ To learn more about NAT, see [the official documentation](https://docs.nats.io/n
 
 Rocket.Chat microservices deployment looks like the diagram below. Each component is comprised of one container from a bare metal perspective.
 
-![Rocket.Chat deployment with multiple microservices](<../../.gitbook/assets/Micro services deployment - v0.1@2x (1).png>)
+![Rocket.Chat deployment with multiple microservices](../../.gitbook/assets/micro-services-deployment-v0.1-2x-1-.png)
 
 Since each component is a container, you can pull them the same way as any docker image. Consequently, you can also deploy Rocket.Chat with all these components via docker directly or with docker-compose; however, it is not officially supported. To deploy using docker directly, you are required to set up nats. Ensure that you're using a custom network to connect each related container.
 

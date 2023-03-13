@@ -1,6 +1,6 @@
 # 👑 Omnichannel Queue
 
-<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (30).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (19).jpg" alt=""><figcaption></figcaption></figure>
 
 When you log in to your workspace as an agent and [set your status to **Available**](./#omnichannel-agent-availability)**,** to handle new conversations,  <img src="../../.gitbook/assets/icon queue.png" alt="" data-size="line"> icon appears on your screen.&#x20;
 

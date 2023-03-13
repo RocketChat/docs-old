@@ -11,11 +11,7 @@ When you log in to your workspace as an agent and [set your status to **Availabl
 
 ## Omnichannel Conversation Quick Actions
 
-Some quick actions can be performed at the top of the chat screen in an Omnichannel conversation. They are shown as icons on the top right.
-
-## Adding to Favorites
-
-Click <img src="../../.gitbook/assets/Favourite icon.png" alt="" data-size="line"> to add an omnichannel conversation to your favorites.
+Quick actions can be performed from the top of the chat screen in an Omnichannel conversation. They are shown as icons on the top right.
 
 ## Moving back to the Queue
 
@@ -38,20 +34,39 @@ To forward a conversation:
 
 ## Sending conversation transcript
 
-Following an Omnichannel conversation, it may be necessary to forward the transcript to the contact you were serving as an agent. To send a transcript:
+Following an Omnichannel conversation, it may be necessary to forward the transcript to the contact you were serving as an agent.&#x20;
+
+#### To send the transcript via email,
 
 * Click <img src="../../.gitbook/assets/send-transcript.png" alt="" data-size="line"> icon.
+* Click **Send via email**.
 * Enter their **Email**.
 * Enter the **Subject**.
 * Hit **Request**.
 
-## Place conversation On-Hold ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (27).jpg>)
+#### To export the transcript as PDF, ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (18).jpg>)
+
+* Click <img src="../../.gitbook/assets/end-conversation.png" alt="" data-size="line"> icon to close the conversation first
+* Enter comments if any
+* Update [Tags](../omnichannel/tags-managers-guide.md) for this conversation.
+* Select **Export chat transcript as PDF**&#x20;
+* You receive a new direct message from **Rocket.Cat** with the conversation attached in PDF form.
+
+{% hint style="warning" %}
+The option to export as PDF becomes available only after you **Close** the omnichannel conversation. It is not possible to export an incomplete conversation.
+{% endhint %}
+
+{% hint style="info" %}
+You need **Request PDF Transcript** permission assigned to your role. To assign permission, navigate to the home screen **Kebab menu > Workspace >** **Permissions**, assign **Request PDF Transcript** to your role, or contact your workspace administrator.
+{% endhint %}
+
+## Place conversation On-Hold ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (18).jpg>)
 
 During supporting conversation as an agent, you can find yourself in a situation where Omnichannel contacts terminate the conversation abruptly. Still, the conversation will persist in your queue until it is **Closed**. This can potentially impact your service capacity as you may be unable to engage in new conversations due to the maximum number of simultaneous conversations allowed per agent. To address this concern, you can utilize the **Place Chat On-Hold** feature to pause the conversation temporarily.
 
 To place a conversation on hold,
 
-* Click <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line">
+* Click <img src="../../.gitbook/assets/image (1) (1).png" alt="" data-size="line">
 * Click **Place Chat On-Hold**&#x20;
 
 If the Omnichannel contact engages again, the routing algorithm will try to find you first to assign this conversation. If you are busy serving other conversations at maximum capacity, the conversation will be assigned to the next available agent.
@@ -62,17 +77,17 @@ Or click the conversation in the queue at any time and click **Resume** to engag
 You can place the conversation on hold manually only when you send the last message to the contact.
 {% endhint %}
 
-## Ending a conversation
+## Closing a conversation
 
 To end a conversation:
 
-1. Click <img src="../../.gitbook/assets/end-conversation.png" alt="" data-size="line"> icon.
-2. Enter comments if any
-3. Update [Tags](../omnichannel/tags-managers-guide.md) for this conversation.
-4. Select **Export chat transcript as PDF** in case you need it exported.
-5. Select **Send chat transcript via email** if you want it sent to the guest's email.
-6. Click **Confirm,** and the conversation disappears from the **Chats in Progress** queue.
-7. The PDF conversation transcript is sent to you as a direct message if you request that the chat be exported.
+* Click <img src="../../.gitbook/assets/end-conversation.png" alt="" data-size="line"> icon.
+* Enter comments if any
+* Update [Tags](../omnichannel/tags-managers-guide.md) for this conversation.
+* Select **Export chat transcript as PDF** in case you need it exported. ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (18).jpg>)
+* Select **Send chat transcript via email** if you want it sent to the guest's email.
+* Click **Confirm,** and the conversation disappears from the **Chats in Progress** queue.
+* The PDF conversation transcript is sent to you as a direct message if you request that the chat be exported.
 
 ## Calling
 
@@ -88,9 +103,9 @@ The following flow is sampled for web users, but both (Web and Mobile) user jour
 
 To make a call:
 
-1. Click <img src="../../.gitbook/assets/phone-icon.png" alt="" data-size="line">icon from quick actions on the right side
-2. Click **Join Call** button in the conversation.
-3. Enter your name in the new browser window and hit **Join meeting**
+* Click <img src="../../.gitbook/assets/phone-icon.png" alt="" data-size="line">icon from quick actions on the right side
+* Click **Join Call** button in the conversation.
+* Enter your name in the new browser window and hit **Join meeting**
 
 ## Room information
 
@@ -99,7 +114,7 @@ To make a call:
 * Click **Edit** to add some further information. E.g., the topic discussed or priority&#x20;
 * Hit **Save**
 
-## Canned Responses ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (27).jpg>)
+## Canned Responses ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (18).jpg>)
 
 Canned responses allow you to call pre-saved message snippets with shortcuts (preceded with `!`) to communicate a quick note to your omnichannel contact in omnichannel as well as regular conversations inside your Rocket.Chat's workspace.
 
@@ -110,7 +125,7 @@ Canned responses allow you to call pre-saved message snippets with shortcuts (pr
 
 To access all available canned responses for your department or all public canned responses on your workspace,&#x20;
 
-* Click <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> from quick actions on the right side
+* Click <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> icon
 * Hover your cursor over the canned response you want to use in your current conversation&#x20;
 * Hit **Use**
 
@@ -124,7 +139,7 @@ Check [canned-responses](../omnichannel/canned-responses/ "mention") or contact 
 
 To create a canned response in a conversation,
 
-* Click <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> from quick actions on the right side
+* Click <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> icon
 * Scroll down and click **Create**
 * Enter **Shortcut**. E.g., `!welcome`
 * Enter **Message**. E.g., `Welcome to Rocket.Chat LiveChat support! How can I help you?`
@@ -135,7 +150,7 @@ To create a canned response in a conversation,
 
 To get the contact details of the currently selected omnichannel conversation's contact,
 
-* Click ![](../../.gitbook/assets/contact-info.png)from quick actions on the right side
+* Click ![](../../.gitbook/assets/contact-info.png)icon
 
 While viewing contact information, click **Edit** to edit the contact details or click **Chat History** to see the chat history**.**
 
@@ -143,7 +158,7 @@ While viewing contact information, click **Edit** to edit the contact details or
 
 To search for messages in a conversation,
 
-1. Click ![](../../.gitbook/assets/search.png) from quick actions on the right side.
+1. Click ![](<../../.gitbook/assets/search (1).png>) icon
 2. Enter your search query.
 3. The search result is displayed as you type. You can also use [Regular Expressions.](https://en.wikipedia.org/wiki/Regular\_expression) For example, to search for the word `error` followed by any three digits, use `error\d{3}` .
 
@@ -151,7 +166,7 @@ To search for messages in a conversation,
 
 To search for files that have been attached to the conversation,
 
-1. Click  <img src="../../.gitbook/assets/attach-file.png" alt="" data-size="line">from quick actions on the right side
+1. Click  <img src="../../.gitbook/assets/attach-file.png" alt="" data-size="line">icon
 2. All files that have been attached are displayed.
 3. Enter the search query.
 4. Optionally, choose the file type you are interested in. By default, all the file types are displayed.

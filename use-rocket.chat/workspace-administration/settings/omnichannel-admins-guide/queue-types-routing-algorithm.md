@@ -5,8 +5,8 @@ There are the following types of queues in Rocket.Chat Omnichannel solutions:
 * [Auto Selection \[default\]](queue-types-routing-algorithm.md#auto-selection)
 * [Manual Selection](queue-types-routing-algorithm.md#manual-selection)
 * [External Service](queue-types-routing-algorithm.md#external-service)
-* [Load Balancing](queue-types-routing-algorithm.md#load-balancing)![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (21).jpg>)
-* [Load Rotation](queue-types-routing-algorithm.md#load-rotation)![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (24).jpg>)
+* [Load Balancing](queue-types-routing-algorithm.md#load-balancing)![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (36).jpg>)
+* [Load Rotation](queue-types-routing-algorithm.md#load-rotation)![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (27).jpg>)
 
 ## Auto Selection
 
@@ -47,10 +47,10 @@ Here is an example of the JSON data format that Live Chat will wait for after su
 
 After receiving the return from the endpoint in the format described above, Live Chat will check that the `username` the field represents a valid Live Chat agent and then follows the normal process flow.
 
-## Load Balancing![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (16).jpg>)
+## Load Balancing![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (37).jpg>)
 
 Load Balancing is an enterprise-only feature. It is also an auto-assignment algorithm, but it will consider the agent's online status and the time they have been chatting, contrary to auto-selection, which only considers the agent's online status. For instance, an agent was away on a short break; once he comes back, he will be assigned more chats than his fellow agent. So in this way, the algorithm will maintain a chat load balance between agents.
 
-## Load Rotation![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (9).jpg>)
+## Load Rotation![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (17).jpg>)
 
 Agent queues for service between online agents, without considering the previous chat's history attended or the number of open rooms in attendance. It's a mix between the Load Balancing and Auto Selection algorithms.

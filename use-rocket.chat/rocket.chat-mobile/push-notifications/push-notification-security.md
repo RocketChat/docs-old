@@ -1,6 +1,6 @@
 # Secured Push Notification
 
-![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (17).jpg>)
+![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (25).jpg>)
 
 If you are using the Enterprise edition, the Secured Push Notification sends the ID of the message rather than the entire message through a push gateway (Apple or Google). Once the ID reaches the user’s device, the message is retrieved from Rocket.Chat server and the notification is created.
 

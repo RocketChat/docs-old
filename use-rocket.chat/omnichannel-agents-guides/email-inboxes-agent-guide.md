@@ -40,5 +40,5 @@ To reply to an email with an attachment,
 * Click **Reply via Email**, then upload and send the file.
 * Click **Send via Email as attachment.**
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (2).png" alt=""><figcaption></figcaption></figure>
 
