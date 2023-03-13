@@ -55,11 +55,11 @@ The [Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?item
 
 #### Using GitBook
 
-Simply fork our docs repository, [create a space](https://docs.gitbook.com/getting-started/quick-start) on GitBook and activate the [GitHub Integration](https://docs.gitbook.com/integrations/git-sync) on your fork.
+Simply fork our docs repository, [create a space](https://docs.gitbook.com/getting-started/content-structure/what-is-a-space#create-a-spacehttps://docs.gitbook.com/getting-started/content-structure/what-is-a-space#create-a-space) on GitBook, and activate the [GitHub Integration](https://docs.gitbook.com/integrations/git-sync) on your fork. This gives you a means of previewing your changes before submitting a PR.
 
 ## Community Maintainers
 
-We are looking for community maintainers for the Rocket.Chat documentation. Maintainers will be added to a special team with write permissions. These permissions consist of opening, closing, tagging, and editing issues and pull requests, create and delete non-protected branches on the docs repository.
+We are looking for community maintainers for the Rocket.Chat documentation. Maintainers will be added to a special team with write permissions. These permissions consist of opening, closing, tagging, and editing issues and pull requests, creating and deleting non-protected branches on the docs repository.
 
 The responsibilities of a maintainer are:
 
