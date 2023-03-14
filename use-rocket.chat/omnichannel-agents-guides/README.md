@@ -10,7 +10,7 @@ As an Omnichannel agent, you can log in to your workspace using your username or
 To be an Omnichannel agent, you must have the **`Omnichannel Agent`** role. Contact your administrator if you need the role.
 {% endhint %}
 
-As an omnichannel agent, your home screen has features for:
+As an omnichannel agent, your home screen has Omnichannel navigation tab that has features for:
 
 * [Opening Omnichannel Queue](omnichannel-queue.md)
 * [Setting Omnichannel Agent's Availability](./#undefined)
