@@ -1,4 +1,8 @@
-# Email Inboxes Agent Guide
+---
+description: Learn to use email inboxes feature as an omnichannel agent
+---
+
+# Email Inboxes
 
 In your Rocket.Chat workspace, you can receive emails from contacts on an email address configured as an [email inbox](https://docs.rocket.chat/use-rocket.chat/rocket.chat-workspace-administration/email-inboxes).
 

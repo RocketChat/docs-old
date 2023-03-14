@@ -370,7 +370,7 @@
   * [Omnichannel Queue](use-rocket.chat/omnichannel-agents-guides/omnichannel-queue.md)
   * [Omnichannel Contact Center](use-rocket.chat/omnichannel-agents-guides/omnichannel-contact-center/README.md)
     * [Omnichannel Contact Manager Assignment](use-rocket.chat/omnichannel-agents-guides/omnichannel-contact-center/omnichannel-contact-manager-assignment.md)
-  * [Email Inboxes Agent Guide](use-rocket.chat/omnichannel-agents-guides/email-inboxes-agent-guide.md)
+  * [Email Inboxes](use-rocket.chat/omnichannel-agents-guides/email-inboxes.md)
 
 ## Extend Rocket.Chat Capabilities
 

@@ -1,4 +1,4 @@
-# 👑 Omnichannel Contact Manager Assignment
+# Omnichannel Contact Manager Assignment
 
 ​![](https://files.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-M418Ul0aSTwf2PYsyPW%2Fsync%2F1654b99a4e9df54521f42da4d3c1a7fbdb9f2238.jpg?generation=1633366358329646\&alt=media)
 

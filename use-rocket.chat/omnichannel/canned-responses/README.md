@@ -1,4 +1,4 @@
-# 👑 Canned Responses
+# Canned Responses
 
 <figure><img src="../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (28).jpg" alt=""><figcaption></figcaption></figure>
 
