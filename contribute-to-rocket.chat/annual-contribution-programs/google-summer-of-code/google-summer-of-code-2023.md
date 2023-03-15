@@ -14,7 +14,7 @@ For details and rules of Google Summer of Code 2023, please see the [GSoC 2023 O
 
 For general information, please visit our 24 x 7 community channel for Google Summer of Code 2023 : [https://open.rocket.chat/channel/gsoc2023](https://open.rocket.chat/channel/gsoc2023)
 
-Join our [Google Summer of Code 2023 Team ](https://open.rocket.chat/channel/gsoc2023)today and interact with over **430 like-minded** contributors/mentors and meet the team in the[ 20 team channels](https://open.rocket.chat/channel/gsoc2023/team-channels).
+Join our [Google Summer of Code 2023 Team ](https://open.rocket.chat/channel/gsoc2023)today and interact with over **600 like-minded** contributors/mentors and meet the team in the[ 20 team channels](https://open.rocket.chat/channel/gsoc2023/team-channels).
 
 If you have ideas and proposals that are not on our idea list, or if a mentor is not available, you can also email to:
 
