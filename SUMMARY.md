@@ -460,8 +460,6 @@
     * [TeamsBridge App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/teamsbridge-app/README.md)
       * [Using the TeamsBridge App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/teamsbridge-app/using-the-teamsbridge-app.md)
     * [GitHub App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/github-app/README.md)
-      * [Install GitHub App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/github-app/install-github-app.md)
-      * [Creating GitHub OAuth App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/github-app/creating-github-oauth-app.md)
       * [Using GitHub App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/github-app/using-github-app.md)
     * [Google Drive](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/google-drive/README.md)
       * [Google Drive App Setup](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/google-drive/google-drive-app-setup.md)

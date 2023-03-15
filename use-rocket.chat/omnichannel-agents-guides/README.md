@@ -20,5 +20,5 @@ As an omnichannel agent, your home screen has Omnichannel navigation tab that ha
 
 To make yourself available to take up conversations:
 
-* Click ![](../../.gitbook/assets/chats-off.png) icon to set your status to **Available**
+* Click ![](<../../.gitbook/assets/chats-off (1).png>) icon to set your status to **Available**
 * Click  <img src="../../.gitbook/assets/chats-on.png" alt="" data-size="line"> to set your status to **Unavailable**.

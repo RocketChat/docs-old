@@ -1,6 +1,6 @@
 # Priorities
 
-![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (18).jpg>)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (26).jpg>)
 
 Omnichannel Priorities enables you to change the order of Omnichannel queues based on `Estimated Due Time`.
 

@@ -1,6 +1,6 @@
 # Tags
 
-![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (38).jpg>)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (2).jpg>)
 
 As a Live Chat Manager, you can set Tags to be assigned to the Live Chat conversations by the agents. Tags can be used to sort Live Chat conversations easily. **Omnichannel Tags** are used for marking and classifying Omnichannel conversations.
 

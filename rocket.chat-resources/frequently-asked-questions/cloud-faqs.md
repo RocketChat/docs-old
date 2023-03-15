@@ -74,7 +74,7 @@ If you want to end your subscription, please note that it can be done only by th
 \
 This will stop your subscription and hibernate your server (your server will still exist if you want to get back to Rocket.Chat later).
 
-<img src="../../.gitbook/assets/cancel_cloud_subscription (1) (1) (1) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/cancel_cloud_subscription (1) (1) (1).png" alt="" data-size="original">
 
 If you need a database dump or if you want to permanently delete your workspace and all the data associated with it - submit a ticket here on our Helpdesk or drop an email to [support@rocket.chat](mailto:support@rocket.chat) with the respective request.
 
@@ -116,11 +116,11 @@ If, for example, you started your trial on December 1st, it expired on December 
 
 If your trial has expired, and you didn’t manage to add your payment method to continue your subscription, navigate to Payment methods in your Cloud Console ([cloud.rocket.chat](https://cloud.rocket.chat)) -> click **Add payment method** (top right corner) to add your card (credit/debit card is the only payment method we accept at the moment).
 
-<img src="../../.gitbook/assets/add_payment_method (1) (1) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/add_payment_method (1) (1) (1) (1).png" alt="" data-size="original">
 
 
 
-<img src="../../.gitbook/assets/add_credit_card.png" alt="" data-size="original">
+<img src="../../.gitbook/assets/add_credit_card (1).png" alt="" data-size="original">
 
 </details>
 

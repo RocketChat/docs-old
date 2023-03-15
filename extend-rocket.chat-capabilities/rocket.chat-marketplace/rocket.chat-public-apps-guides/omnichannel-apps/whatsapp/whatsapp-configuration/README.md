@@ -4,7 +4,7 @@ To access the settings, go to **Administration** > **Workspace** > **Apps**.
 
 as shown below:
 
-![](<../../../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (1) (1) (1) (11) (10).png>)
+![](<../../../../../../.gitbook/assets/2021-11-20\_23-29-48 (1) (1) (1) (1) (12) (10) (1) (1) (1) (1) (1) (11) (1).png>)
 
 Search Whatsapp under the **Installed** tab in **Apps** menu on your Rocket.Chat administration panel.
 
@@ -12,7 +12,7 @@ Click open your WhatApp instance to see the settings available to you as an admi
 
 Following are the settings available:‌
 
-![](<../../../../../../.gitbook/assets/2022-01-15\_19-53-39 (1) (1) (1) (4) (2) (1) (1) (1) (1) (1) (3) (1) (4).png>)
+![](<../../../../../../.gitbook/assets/2022-01-15\_19-53-39 (1) (1) (1) (4) (2) (1) (1) (1) (1) (1) (3) (2).png>)
 
 * **Notification of undeliverable message** to alert the agent that a message was not delivered to the WhatsApp platform.
 * **Agents Display Info:** You can choose to display the agent's name or username.

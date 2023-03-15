@@ -44,7 +44,7 @@ Following an Omnichannel conversation, it may be necessary to forward the transc
 * Enter the **Subject**
 * Hit **Request**.
 
-#### To export the transcript as PDF, ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (37).jpg>)
+#### To export the transcript as PDF, ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (27).jpg>)
 
 * Click <img src="../../.gitbook/assets/end-conversation.png" alt="" data-size="line"> icon to close the conversation first
 * Enter comments if any
@@ -66,7 +66,7 @@ To export the transcript of a previously closed conversation,
 You need **Request PDF Transcript** permission assigned to your role. To assign permission, navigate to the home screen **Kebab menu > Workspace >** **Permissions**, assign **Request PDF Transcript** to your role, or contact your workspace administrator.
 {% endhint %}
 
-## Place conversation On-Hold ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (37).jpg>)
+## Place conversation On-Hold ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (27).jpg>)
 
 During supporting conversation as an agent, you can find yourself in a situation where Omnichannel contacts terminate the conversation abruptly. Still, the conversation will persist in your queue until it is **Closed**. This can potentially impact your service capacity as you may be unable to engage in new conversations due to the maximum number of simultaneous conversations allowed per agent. To address this concern, you can utilize the **Place Chat On-Hold** feature to pause the conversation temporarily.
 
@@ -90,7 +90,7 @@ To end a conversation:
 * Click <img src="../../.gitbook/assets/end-conversation.png" alt="" data-size="line"> icon.
 * Enter comments if any
 * Update [Tags](../omnichannel/tags-managers-guide.md) for this conversation
-* Select **Export chat transcript as PDF** in case you need it exported. ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (37).jpg>)
+* Select **Export chat transcript as PDF** in case you need it exported. ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (27).jpg>)
 * Select **Send chat transcript via email** if you want it sent to the guest's email.
 * Click **Confirm,** and the conversation disappears from the **Chats in Progress** queue.
 * The PDF conversation transcript is sent to you as a direct message if you request that the chat be exported.
@@ -120,7 +120,7 @@ To make a call:
 * Click **Edit** to add some further information. E.g., the topic discussed or priority&#x20;
 * Hit **Save**
 
-## Canned Responses ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (37).jpg>)
+## Canned Responses ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (27).jpg>)
 
 Canned responses allow you to call pre-saved message snippets with shortcuts (preceded with `!`) to communicate a quick note to your omnichannel contact in omnichannel as well as regular conversations inside your Rocket.Chat's workspace.
 
@@ -164,7 +164,7 @@ While viewing contact information, click **Edit** to edit the contact details or
 
 To search for messages in a conversation,
 
-1. Click ![](<../../.gitbook/assets/search (1).png>) icon
+1. Click ![](../../.gitbook/assets/search.png) icon
 2. Enter your search query.
 3. The search result is displayed as you type. You can also use [Regular Expressions.](https://en.wikipedia.org/wiki/Regular\_expression) For example, to search for the word `error` followed by any three digits, use `error\d{3}` .
 

@@ -1,6 +1,6 @@
 # Units
 
-![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (1) (26).jpg>)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (1) (1) (1) (11) (22).jpg>)
 
 Using Omnichannel units, you can group a set of departments for management purposes. As an [Omnichannel manager](managers.md), you can make a unit of multiple [departments](departments.md) and assign a monitor to oversee them.
 

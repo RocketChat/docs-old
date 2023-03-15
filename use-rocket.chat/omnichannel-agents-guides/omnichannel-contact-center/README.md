@@ -59,7 +59,7 @@ No open chat appears in the **Contact Center**. A chat appears in the **Contact*
 
 * Search to open your desired conversation details
 * Click **Edit** to edit the conversation details
-* Click <img src="../../../.gitbook/assets/image (5).png" alt="" data-size="line"> on top right on **Room Information** panel to view the full conversation
+* Click <img src="../../../.gitbook/assets/image (5) (2).png" alt="" data-size="line"> on top right on **Room Information** panel to view the full conversation
 * You can perform all the [quick actions ](../omnichannel-conversation.md)applicable to the **Closed** state of the conversation.
 
 ## Calls

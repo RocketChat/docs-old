@@ -19,7 +19,7 @@ To be able to relay SMS, you need to get a Twilio number and create a messaging 
 
 * From your Twilio console, navigate to **Messaging** > **Try it out** > **Get Set Up,** click **Start setup**, and follow the process to configure a Twilio messaging service
 
-![Twilio Programming Message Setup](<../../../../.gitbook/assets/Twilio Programming Message Setup.png>)
+![Twilio Programming Message Setup](<../../../../.gitbook/assets/Twilio Programming Message Setup (1).png>)
 
 * Fill in the service name and **Create Messaging Service**
 

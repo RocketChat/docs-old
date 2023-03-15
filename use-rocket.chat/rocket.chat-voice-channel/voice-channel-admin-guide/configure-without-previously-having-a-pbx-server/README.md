@@ -54,7 +54,7 @@ AMI goes in the “Other” zone because only some specific endpoints should be 
 \
 Now you don’t want your Rocket.Chat to get banned by the FreePBX firewall so you have to add it to the Whitelist List. First, you need to know the IP or IP Networks from your Rocket.Chat instance. When you have a SaaS Rocket.Chat instance you will have a URL (subdomain) like <mark style="color:blue;">MyChosenName.rocket.chat</mark>, so just ping it. In this demo:
 
-![](<../../../../.gitbook/assets/image (4) (2) (1).png>)
+![](<../../../../.gitbook/assets/image (4) (2).png>)
 
 Rocket.Chat will be connecting from the whole network 51.81.0.0/16\
 If you have your own Rocket.Chat instance self-hosted or similar, you should know what’s your IP address or network.
@@ -75,7 +75,7 @@ This will only work if you have your FreePBX already activated.&#x20;
 
 Navigate to **Admin > Port Management**. Change the Admin (web portal) to another port and set Letsencrypt to port 80. Click **Update** **Now**.
 
-![Port management](<../../../../.gitbook/assets/Port management PBX (1).png>)
+![Port management](<../../../../.gitbook/assets/Port management PBX.png>)
 
 Please note that until here, you have been accessing the server by HTTP (not HTTPS) on port 80. Until you finish the SSL configuration, you are going to be using the newly selected port, 8080, in this demo.
 
