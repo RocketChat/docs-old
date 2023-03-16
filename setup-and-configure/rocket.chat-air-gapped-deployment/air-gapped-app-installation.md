@@ -21,7 +21,7 @@ The following apps work without internet access and can be requested via your re
 
 ## Getting an App
 
-You can either request an existing Rocket.Chat App or build an App by yourself.
+You can either request an existing Rocket.Chat App or [build an App ](https://developer.rocket.chat/apps-engine/getting-started/creating-an-app)by yourself.
 
 ### &#x20;Requesting for a Rocket.Chat App
 
@@ -43,4 +43,3 @@ After getting your packaged and ready-to-use app in a `.zip` format, follow thes
 * Choose the **Install from file** method.
 * Select the `.zip` file of the app and click **Install.**
 * **Agree** to the permissions needed to complete the installation.
-
