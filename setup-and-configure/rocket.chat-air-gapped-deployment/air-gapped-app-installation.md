@@ -37,9 +37,8 @@ See the developer guide on Getting started with Apps engine.
 
 After getting your packaged and ready-to-use app in a `.zip` format, follow these instructions to install it on your workspace:
 
-* Navigate to **Administration > Apps > Marketplace.**
-* Click on **Upload App**
-* You can install from a URL or a file on the App installation screen.
-* Choose the **Install from file** method.
+* Navigate to **Administration  > Marketplace > Private apps >**&#x20;
+* Click **Upload Private App**. You can install it from a URL or a file
+* Choose the **Install from file** method
 * Select the `.zip` file of the app and click **Install.**
 * **Agree** to the permissions needed to complete the installation.
