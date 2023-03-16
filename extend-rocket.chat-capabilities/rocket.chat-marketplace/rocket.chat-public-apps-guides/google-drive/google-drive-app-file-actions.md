@@ -1,106 +1,72 @@
-# Google Drive App File Actions
+# Using the Google Drive App
 
-With the Google Drive app [installed](google-drive-app-setup.md) and [authorized](authorize-and-connect-with-google-drive-app.md), you can now
-
-* [See a list of files you have in Drive](google-drive-app-file-actions.md#list-google-drive-files)
-* [Open up files in the browser](google-drive-app-file-actions.md#open-google-drive-files)
-* [Create files](google-drive-app-file-actions.md#create-a-new-google-drive-file)
-* [Share files in rooms](google-drive-app-file-actions.md#undefined)
-* [View file details and edit permissions](google-drive-app-file-actions.md#google-drive-file-details-and-permissions)
+When the Google Drive App is installed, you can perform various actions, including creating files, sharing files, editing file permissions, etc.&#x20;
 
 ## List Google Drive Files
 
-To see a list of files on the account connected to the Google Drive app you can do in either of the two ways
+To see a list of files on your connected Google Drive account, open **Google Drive** from the room kebab menu or use the slash command `/google-drive files`.
 
-* Opening **Google Drive** from the contextual bar
-* Using the slash command `/google-drive files`
-
-<figure><img src="../../../../.gitbook/assets/Google Drive App List all files.png" alt=""><figcaption><p>Google Drive App List all files</p></figcaption></figure>
-
-1. A list of all the files in your Drive is displayed here including those you created and the ones shared with you. Files are listed with their respective `file name`, `file type, Last modified date` and `Owner`
-2. You can search for a specific file using the search bar.
-3. This dropdown lets you filter what type of files are shown. You can select between the most common file types or any other file type.
-4. Sorts the list of files in ascending or descending order.
-5. Click **+New** to create a new file. See more [here](google-drive-app-file-actions.md#create-a-new-google-drive-file).
+* A list of all the files in your Drive is displayed, including those you created and shared with you. These files are listed with their respective `file name`, `file type, Last modified date` and `Owner.`
+* You can search for a specific file using the search bar.
+* You can filter the type of files displayed by selecting the file type.
+* The list of files can be sorted in ascending or descending manner.
 
 ## Create a New Google Drive File
 
-* You can create a new file directly within Rocket.Chat by any of the two means:&#x20;
-  1. Open the Google Drive contextual bar then Click on **+New**&#x20;
-  2. Using the slash command `/google-drive create`
+To create a new file on your connected Google Drive account, open **Google Drive** from the room kebab menu and click **+New** or use the slash command `/google-drive create`.
 
-This opens up a modal, fill in the **File name** and select the **File type** then **Create**
-
-<figure><img src="../../../../.gitbook/assets/Create new Google Drive file " alt=""><figcaption><p>Create new Google Drive file </p></figcaption></figure>
-
+* Fill in the **File name,** select the **File type,** and click **Create.**
 * The `google-drive.bot` sends you a message with a link to the new file you just created
 
 ## Open Google Drive Files
 
-You have the ability to open up files in your browser directly from Rocket.Chat. Take for example before sharing a file, you may want to open the file first to view and verify its content.
+Before sharing a file, you can open it to view and verify its content.
 
-To open a file in the browser, click the **Kebab menu** across the file then select **Open in browser.** This opens the file on your browser's tab
+To open a file in the browser,&#x20;
 
-<figure><img src="../../../../.gitbook/assets/Google Drive app open file in browser.png" alt=""><figcaption><p>Google Drive app open file in browser</p></figcaption></figure>
+* From the list of files, click the **Kebab menu** across the file, and select **Open in browser.** It opens the file on your browser's tab.
 
 ## Share Google Drive File
 
-You have the ability to share files in your Google Drive within any [Rocket.Chat room](../../../../use-rocket.chat/user-guides/rooms/#types-of-rooms-in-rocket.chat).
+You can share files in your Google Drive within any[ room](../../../../use-rocket.chat/user-guides/rooms/#types-of-rooms-in-rocket.chat) in your workspace.
 
 To share a file,
 
-* Open Google Drive from the contextual bar or use the slash command `/google-drive files` in the room you want the file to be shared.
-* Search using the search bar or navigate to the file to share
-* Click the **Kebab menu** across the file then select **Share in room.** This shares a link to the file in the room.
-
-<figure><img src="../../../../.gitbook/assets/Google Drive share file in room.png" alt=""><figcaption><p>Google Drive share file in room</p></figcaption></figure>
+* From the list of files, click the **Kebab menu** across the file, and **Share in room.** This shares a link to the file in that room.
 
 {% hint style="info" %}
-Clicking on **Details and sharing** opens up a modal to edit the sharing permissions of the file. Learn more about file [details](google-drive-app-file-actions.md#google-drive-file-details-and-permissions) and [permissions](google-drive-app-file-actions.md#file-permissions) below.
+Clicking on **Details and sharing** opens up a modal to edit the [sharing permissions](google-drive-app-file-actions.md#file-permissions) of the file.&#x20;
 {% endhint %}
 
-## Google Drive File Details and permissions
-
-### View File Information
+## View File Information
 
 To view file details,
 
-* Open Google Drive from the contextual bar or using the slash command `/google-drive files`&#x20;
-* Search for the file name using the search bar or navigate and locate the file
-* Click the **Kebab menu** across the file then select **File information**
-
-<figure><img src="../../../../.gitbook/assets/Google Drive app file information.png" alt=""><figcaption><p>Google Drive app file information</p></figcaption></figure>
-
-* The following details about the file are seen
+* From the list of files, click the **Kebab menu** across the file, and select **File Information.** This shares a link to the file in that room.
+* It returns the following details of the file:
   * **File name:** The name of the file
-  * **Manage Access**: Where to set the file sharing permissions, [see this section](google-drive-app-file-actions.md#file-permissions)
-  * **Type**: The file type
-  * **Size**: The size occupied by the file in Google Drive
-  * **Location**: The file location in Drive
-  * **Owner(s)**: List of people owning the file
-  * **Modified**: The last modified date of the file
-  * **Created**: When the file was created
+  * **Manage Access**: Where to set the [file-sharing permissions](google-drive-app-file-actions.md#file-permissions).
+  * **Type**: The file type.
+  * **Size**: The size occupied by the file in Google Drive.
+  * **Location**: The location of the file in Drive.
+  * **Owner(s)**: List of people owning the file.
+  * **Modified**: The last modified date of the file.
+  * **Created**: When the file was created.
 
 ### File Permissions
 
-Managing file permissions lets you set restrictions on the action anyone can perform on a file.
+Managing file permissions allows you to restrict the action anyone can perform on a file. A file's permission can be set when [sharing the file](google-drive-app-file-actions.md#share-google-drive-file) or viewing the [File information](google-drive-app-file-actions.md#view-file-information).
 
-A file's permission can be set when [sharing the file](google-drive-app-file-actions.md#share-google-drive-file) or viewing the [File information](google-drive-app-file-actions.md#view-file-information)
-
-These are the various permissions you can set to a file
-
-<figure><img src="../../../../.gitbook/assets/Google Drive file set permissions.png" alt=""><figcaption><p>Google Drive file set permissions</p></figcaption></figure>
-
-* These are the various permissions you can set:
-  * **Share to room members and allow them to view**: This restricts viewing of the file only by the member(s) of the room
-  * **Share to room members and allow them to comment**: This gives all the member(s) of the room access to view and comment on the file
-  * **Share to room members and allow them to edit**: Gives access to the member(s) of the room to be able to edit the file
-  * **Share to anyone at Organization and allow them to view**: Anyone in your organization can view the file
-  * **Share to anyone at Organization and allow them to comment**: Anyone in the organization can view and comment on the file
-  * **Share to anyone at Organization and allow them to edit**: Anyone in the organization can edit the file
-  * **Share to anyone with the link and allow them to view**: This makes anyone with the link to be able to view
-  * **Share to anyone with the link and allow them to comment**: Anyone having the link can comment on the file
-  * **Share to anyone with the link and allow them to edit**: Anyone having the link can edit the file
+* The various permissions you can set to a file include the following:
+  * **Share to room members and allow them to view**: Restricts viewing of the file only by the member(s) of the room.
+  * **Share to room members and allow them to comment**: All room members can view and comment on the file.
+  * **Share to room members and allow them to edit**: Gives edit access to the member(s) of the room.
+  * **Share to anyone at Organization and allow them to view**: Allows anyone in your organization to view the file.
+  * **Share to anyone at Organization and allow them to comment**: Allows anyone in your organization to view and comment on the file.
+  * **Share to anyone at Organization and allow them to edit**: Allows anyone in the organization to edit the file.
+  * **Share to anyone with the link and allow them to view**: Allows anyone having the link to view the file.
+  * **Share to anyone with the link and allow them to comment**: Allows anyone having the link to comment on the file.
+  * **Share to anyone with the link and allow them to edit**: Allows anyone having the link to edit the file.
 
 ## Delete Google Drive File
 
@@ -108,10 +74,7 @@ These are the various permissions you can set to a file
 You can only delete files you created.
 {% endhint %}
 
-To delete a file:
+To delete a file,&#x20;
 
-* Open Google Drive from the contextual bar or using the slash command `/google-drive files`&#x20;
-* Click the **Kebab menu** across the file you want to delete
-* Select **Delete file,** then **Delete forever**
-
-<figure><img src="../../../../.gitbook/assets/Google Drive App delete file.png" alt=""><figcaption><p>Google Drive App delete file</p></figcaption></figure>
+* From the list of files, click the **Kebab menu** across the file you want to delete.
+* Select **Delete file,** then **** click **Delete forever.**
