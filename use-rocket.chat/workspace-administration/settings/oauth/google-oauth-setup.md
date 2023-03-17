@@ -14,6 +14,12 @@ To enable **Google OAuth** on your workspace,
 
 {% hint style="info" %}
 The **Web Application** setting offers the **callback URL** option, which is necessary for configuration.
+
+Register two **authorized redirect URIs** in the Google console:
+* https://YOU DOMAIN/_oauth/google?close
+* https://YOU DOMAIN/_oauth/google
+
+> it is necessary to register with `?close` to avoid receiving a `Erro 400: redirect_uri_mismatch` ([reference](https://github.com/RocketChat/Rocket.Chat/issues/16919#issuecomment-601321898))
 {% endhint %}
 
 * Your OAuth Client is created, and your Client ID and Secret are displayed in a modal box. Copy or download these credentials.
