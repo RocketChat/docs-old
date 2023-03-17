@@ -86,42 +86,41 @@ Goal/Deliverable:&#x20;
 **Mentors:** Devanshu Sharma
 
 **Description:**\
-\*\*\*\*Moderation console for Rocket.Chat enables moderators to examine reported messages and then take action against the individuals who post them. A simple set of action is already included. In this project you will add the action to allow muting of the user for a specific duration.
+Moderation console for Rocket.Chat enables moderators to examine reported messages and then take action against the individuals who post them. A simple set of action is already included. In this project you will add the action to allow muting of the user for a specific duration.
 
 Currently, the only way to submit messages for moderator's review is to report the message. This project will add a mini-reputation system, through voting with special emojis, to assist the moderator in deciding what to do with the reported user. A count of special emojis against a message can be used to determine the number of users that find a particular message offensive.
 
 **Desired Skills:**\
-\*\*\*\*ReactJS, TypeScript, MeteorJS. A thorough understanding of Moderation Console operations. Knowledge of how to expose additional core features to Apps.
+ReactJS, TypeScript, MeteorJS. A thorough understanding of Moderation Console operations. Knowledge of how to expose additional core features to Apps.
 
 **Goals/Deliverables:**\
-\*\*\*\*Mini-reputation system enabling users to mark messages using special emojis. Additional action for moderation console allowing user to be muted by moderator for some durations (5min, 1 hour, or any custom minutes)
+Mini-reputation system enabling users to mark messages using special emojis. Additional action for moderation console allowing user to be muted by moderator for some durations (5min, 1 hour, or any custom minutes)
 
 **Project Duration:** 175 hours (Medium)\
 \
-**Difficulty:** Easy/Medium\\
+**Difficulty:** Easy/Medium
 
 ### Embedded Chat 2023
 
 **Mentors:** Sidharth Mohanty\
 \
 **Description:**\
-\*\*\*\*\
-\*\*\*\*A Rocket.Chat channel can be embedded into some existing web application via the [Embedded Chat component](https://github.com/RocketChat/EmbeddedChat). Currently, the available integration surface and features of Embedded Chat is rather limited. This project aims to significantly expand the applicability of Embedded Chat for a wider range of web applications - including the most popular frameworks such as Vue, Angular, Svelte, React Native; and hosting platforms such as WordPress and Ghost; web application developed in Java, PHP and Python. Embeddability via [HTML](https://github.com/arnav-t/riot-embedded) . Customizability needs to be improved with theme kit, as well as a way to enable users to supply custom CSS. Features we still need includes the support of all authentication methods that the hosting server has activated, file/media attachments, sending audio messages, autocomplete mention search, and in-chat RC-App slash-command access. Realtime messages transport needs to be improved to avoid 429. Last but not least, we need to greatly improve the first-time developer experience by supplying better server startup, testing, and e2e testing devops and via gitpod-ization.
+A Rocket.Chat channel can be embedded into some existing web application via the [Embedded Chat component](https://github.com/RocketChat/EmbeddedChat). Currently, the available integration surface and features of Embedded Chat is rather limited. This project aims to significantly expand the applicability of Embedded Chat for a wider range of web applications - including the most popular frameworks such as Vue, Angular, Svelte, React Native; and hosting platforms such as WordPress and Ghost; web application developed in Java, PHP and Python. Embeddability via [HTML](https://github.com/arnav-t/riot-embedded) . Customizability needs to be improved with theme kit, as well as a way to enable users to supply custom CSS. Features we still need includes the support of all authentication methods that the hosting server has activated, file/media attachments, sending audio messages, autocomplete mention search, and in-chat RC-App slash-command access. Realtime messages transport needs to be improved to avoid 429. Last but not least, we need to greatly improve the first-time developer experience by supplying better server startup, testing, and e2e testing devops and via gitpod-ization.
 
 **Desired Skills:** React and NextJS. Absolute in-depth knowledge of Embedded Chat project. Thorough understand of modern web application development platform and technologies.\
-\*\*\*\*\
+\
 **Goal/Deliverable:** Embedded Chat working with most current web application building technologies, and updated with missing essential features. Ideally also improved realtime transport as well as first-time developer experience.\
 \
 **Project Duration:** 350 hours. (Large)\
 \
-**Difficulty:** Medium\\
+**Difficulty:** Medium
 
 ### Mobile Media Carousel Component
 
 Mentors: Diego Mello\
 \
 **Description:**\
-\*\*\*\*Implement a new mobile media carousel component that can:
+Implement a new mobile media carousel component that can:
 
 * open any media (image, video, audio, doc, etc)
 * swipe horizontally to navigate to previous/next
@@ -133,7 +132,7 @@ Mentors: Diego Mello\
 
 **Project Duration:** 175 hours. (Medium)\
 \
-**Difficulty:** Medium/Advanced\\
+**Difficulty:** Medium/Advanced
 
 ### Enhanced media handling for mobile message composer
 
@@ -213,7 +212,7 @@ Back in 2015, Rocket.Chat planned a kickstarter/indiegogo project to do somethin
 \
 **Project Duration**: 350 hours (Large)\
 \
-**Difficulty:** Advanced\\
+**Difficulty:** Advanced
 
 ### Introduce Captcha to Livechat Widget
 
@@ -245,7 +244,7 @@ Note: The CAPTCHA solution should be accessible to all users, including those wi
 **Mentors**: Hugo Costa, Martin Schoeler
 
 **Description:**\
-\*\*\*\*Make the message composer live preview feature instead of just adding markdown tokens that styles/parse the message in the Message List.
+Make the message composer live preview feature instead of just adding markdown tokens that styles/parse the message in the Message List.
 
 E.g: If the user press Bold button in the message composer actions that has the message "Test Message" or wrap the message in asterisk nowadays it shows:
 
@@ -263,7 +262,7 @@ Desired output: Test Message
 
 **Project Duration:** 175 hours (Medium)\
 \
-**Difficulty:** Easy/Medium\\
+**Difficulty:** Easy/Medium
 
 ### Agile BOT
 
@@ -278,7 +277,7 @@ Agile adoption is increasing year to year on the different industries. There is 
 \
 **Project Duration:** 175 hours. (Medium)\
 \
-**Difficulty:** Easy/Medium\\
+**Difficulty:** Easy/Medium
 
 ### Token Economy for Team Channels
 
@@ -336,7 +335,7 @@ Nowadays we already have a version of the [playground](https://rocketchat.github
 
 **Project Duration:** 350 hours (Large)
 
-**Difficulty:** Medium/Advanced\\
+**Difficulty:** Medium/Advanced
 
 ### Integrate Notion via RC App <a href="#docs-internal-guid-1a00b1ee-7fff-e115-48e0-272ddd46db45" id="docs-internal-guid-1a00b1ee-7fff-e115-48e0-272ddd46db45"></a>
 
@@ -357,14 +356,14 @@ Nowadays we already have a version of the [playground](https://rocketchat.github
 **Mentors:** TBD\
 \
 **Description:**\
-\*\*\*\*Rewrite our [current mobile apps share extension](https://github.com/RocketChat/rn-extensions-share) in Swift for iOS and Kotlin for Android, making sure that it supports the latest [ReactNative Fabric](https://github.com/react-native-community/discussions-and-proposals/issues/4) architecture.\
+Rewrite our [current mobile apps share extension](https://github.com/RocketChat/rn-extensions-share) in Swift for iOS and Kotlin for Android, making sure that it supports the latest [ReactNative Fabric](https://github.com/react-native-community/discussions-and-proposals/issues/4) architecture.\
 \
 **Desirable Skill:** Advanced ReactNative. Good knowledge of native iOS and Android development. Passion for creating great mobile experiences.
 
 **Project Duration:** 175 hours (Medium)
 
 **Difficulty:** Advanced\
-\\
+
 
 ### Summarizing Live Chat Conversations using OpenAI's ChatGPT
 
@@ -419,14 +418,14 @@ Working WordPress plugin on the WP marketplace supporting Rocket.Chat integratio
 \
 **Project Duration:** 350 hours (Large)\
 **Difficulty:** Medium\
-\\
+
 
 ### Flutter SDK for Rocket.Chat
 
 **Mentors:** TBD
 
 **Description:**\
-\*\*\*\*In recent years, [Flutter ](https://flutter.dev/)has became the de-facto standard for high performance open source multi-platforms apps development. Thanks to its[ huge global developers community](https://flutter.dev/community) and the ever-growing ecosystem of [open source flutter components](https://pub.dev/packages).
+In recent years, [Flutter ](https://flutter.dev/)has became the de-facto standard for high performance open source multi-platforms apps development. Thanks to its[ huge global developers community](https://flutter.dev/community) and the ever-growing ecosystem of [open source flutter components](https://pub.dev/packages).
 
 This project aims to create an easy to integrate flutter component to embed Rocket.Chat into any existing and new flutter applications (similar to our existing [EmbeddedChat](https://github.com/RocketChat/EmbeddedChat) project). In addition, a layer of Dart friendly API/stub needs to be created for application that needs in-depth modification of chat behavior or needing to use the chat engine as a messaging fabric.\
 \
@@ -437,18 +436,18 @@ We invite and welcome original proposals at varying level.
 Flutter, Flutter components construction, Dart, JavaScript. A thorough understanding of how Rocket.Chat core works. Knowledge of Flutter multi-platform development (Android, iOS, Linux, Windows and MacOS).
 
 **Goals/Deliverables:**\
-\*\*\*\*An SDK that enable easy embedding of RC instances into any flutter app plus Dart APIs to access RC collaboration engine internals.
+An SDK that enable easy embedding of RC instances into any flutter app plus Dart APIs to access RC collaboration engine internals.
 
 **Project Duration:** 350 hours (Large)\
 \
-**Difficulty:** Advanced\\
+**Difficulty:** Advanced
 
 ### Open source Metaverse integration (mozilla hubs / third room)
 
 **Mentors:** TBD
 
 **Description:**\
-\*\*\*\*One very popular interpretation of the "Metaverse" is group interactions within a real-time rendered 3D Virtual Reality world. [Mozilla Hubs](https://hubs.mozilla.com/) has been the leading open source project in this space for the **last decade**. Due to the limitation (and cost) of today's technology, however, hub has always had limited scalability. Rooms can contain 20 to 30 attendees. Another similar technology proof of concept has emerged recently in [Third Room](https://github.com/matrix-org/thirdroom). While Rocket.Chat as a collaboration platform has re-architectured to handle millions of users - and through federation, the world; we have also implemented Team Channels to deal with very large communities wanting autonomous control over their membership. This project is to create a rational integration between Mozilla Hubs (and/or Third Room) and Rocket.Chat team channel - enabling a pragmatic version of "the metaverse" to be built organically.\
+One very popular interpretation of the "Metaverse" is group interactions within a real-time rendered 3D Virtual Reality world. [Mozilla Hubs](https://hubs.mozilla.com/) has been the leading open source project in this space for the **last decade**. Due to the limitation (and cost) of today's technology, however, hub has always had limited scalability. Rooms can contain 20 to 30 attendees. Another similar technology proof of concept has emerged recently in [Third Room](https://github.com/matrix-org/thirdroom). While Rocket.Chat as a collaboration platform has re-architectured to handle millions of users - and through federation, the world; we have also implemented Team Channels to deal with very large communities wanting autonomous control over their membership. This project is to create a rational integration between Mozilla Hubs (and/or Third Room) and Rocket.Chat team channel - enabling a pragmatic version of "the metaverse" to be built organically.\
 \
 We welcome original proposals at different levels of integration. It can be a direct extension of core, an external bridge, a link preview-extension, or even a Rocket.Chat App.\
 
@@ -458,12 +457,13 @@ We welcome original proposals at different levels of integration. It can be a di
 ReactJS, TypeScript, MeteorJS. A thorough understanding of how Rocket.Chat core works. Knowledge of Rocket.Chat Apps development. Passion for improving human communications and collaboration.
 
 **Goals/Deliverables:**\
-\*\*\*\*Working integration of Mozilla Hubs rooms within Rocket.Chat Team Channels in a rational and usable context.
+Working integration of Mozilla Hubs rooms within Rocket.Chat Team Channels in a rational and usable context.
 
 **Project Duration:** 350 hours (Large)\
 \
-**Difficulty:** Advanced\
-\\
+**Difficulty:** Advanced
+
+
 
 ### Craft a sustainable snap for arm64
 
@@ -471,12 +471,12 @@ ReactJS, TypeScript, MeteorJS. A thorough understanding of how Rocket.Chat core 
 \
 **Description:**
 
-[Snaps ](https://ubuntu.com/blog/topics/snapcraft)(in amd64 architecture) is one of the most popular distribution method through which new users discover Rocket.Chat. 64bit ARM processors have come of age and becoming mainstream now that Apple has bet their future on the architecture. \\
+[Snaps ](https://ubuntu.com/blog/topics/snapcraft)(in amd64 architecture) is one of the most popular distribution method through which new users discover Rocket.Chat. 64bit ARM processors have come of age and becoming mainstream now that Apple has bet their future on the architecture.
 
 In recent years, our own multi-platform snap build effort has failed miserably for the arm64 architecture. But tooling for building arm64 architecture snap on arm64 and amd64 is finally maturing. This project aims to leverage these new tooling to build a long-term sustainable snap distribution for arm64.\
 \
 **Desired Skills:**\
-\*\*\*\*Rocket.Chat deployment experience. Working experience with Snapcraft. Intense interest on DevOps.\
+Rocket.Chat deployment experience. Working experience with Snapcraft. Intense interest on DevOps.\
 \
 **Goals/Deliverables:**\
 Working arm64 snap for 5.x and 6.x releases of Rocket.Chat that leverages `core22` and cross-build capabilities of Snapcraft 7.\
@@ -484,14 +484,14 @@ Working arm64 snap for 5.x and 6.x releases of Rocket.Chat that leverages `core2
 **Project Duration:** 175 hours (Medium)\
 \
 **Difficulty:** Medium\
-\\
+
 
 ### Unified Push for Android Apps
 
 **Mentors:** Diego Mello
 
 **Description:**\
-\*\*\*\*In the Android ecosystem, [UnifiedPush](https://unifiedpush.org/) has proven to be a practical provider agnostic way of supporting multiple push notification infrastructures. This project[ adds support for UnifiedPush to Rocket.Chat mobile app](https://github.com/RocketChat/Rocket.Chat.ReactNative/issues/3241) for Android platform.\
+In the Android ecosystem, [UnifiedPush](https://unifiedpush.org/) has proven to be a practical provider agnostic way of supporting multiple push notification infrastructures. This project[ adds support for UnifiedPush to Rocket.Chat mobile app](https://github.com/RocketChat/Rocket.Chat.ReactNative/issues/3241) for Android platform.\
 \
 **Desired Skills:**\
 Advanced ReactNative. Knowledge of Android platform development.\
@@ -502,7 +502,7 @@ UnifiedPush working on the Android app. With or without FCM fallback.\
 **Project Duration:** 175 hours (Medium)\
 \
 **Difficulty:** Medium\
-\\
+
 
 ### Off the Record Messaging for Mobile (OTR)
 
@@ -524,12 +524,12 @@ OTR working on both iOS and Android apps.\
 **Mentors:** TBD\
 \
 **Description:**\
-\*\*\*\*Jitsi meet has become one of the most popular and frequently used open source video conference platform in the world. The chat that is included as part of the Jitsi system is rudimentary and chat history is lost as soon as the conference is over. This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Jitsi Meet - giving it a rich messaging experience with full history after conference.\
+Jitsi meet has become one of the most popular and frequently used open source video conference platform in the world. The chat that is included as part of the Jitsi system is rudimentary and chat history is lost as soon as the conference is over. This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Jitsi Meet - giving it a rich messaging experience with full history after conference.\
 \
 Ideally we would like an integration at the [Jitsi Meet React SDK](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-react-sdk/) level. Perhaps extending the _\<JitsiMeeting/>_ tag with a _useRCForChat_ attribute. The integration should maintain prosody as the single source of truth for channel membership. A variety of server authentication scenarios must be catered for (including SSO and Oauth).
 
 **Desired Skills:** React Native, in-depth knowledge of EmbeddedChat project, familiarity with Jitsi Meet, understanding of prodigy.\
-\*\*\*\*\
+\
 **Goal/Deliverable:** Jitsi Meet with Rocket.Chat embedded in place of existing chat.\
 \
 **Project Duration:** 350 hours. (Large)\
@@ -541,7 +541,7 @@ Ideally we would like an integration at the [Jitsi Meet React SDK](https://jitsi
 **Mentors:** Debdut Chakraborty
 
 **Description:**\
-\*\*\*\*The goal is to develop a bot that can help reduce repetitive questions asked in Rocket.Chat channels by providing relevant answers from its knowledge base (Similar to [this Slack app](https://slack.com/apps/ASAFS8C2D-truffle?tab=more\_info))
+The goal is to develop a bot that can help reduce repetitive questions asked in Rocket.Chat channels by providing relevant answers from its knowledge base (Similar to [this Slack app](https://slack.com/apps/ASAFS8C2D-truffle?tab=more\_info))
 
 Features:
 
@@ -571,7 +571,7 @@ With Elasticsearch integrated into the tech stack, the bot can leverage the powe
 **Mentors:** TBD
 
 **Description:**\
-\*\*\*\*Full-stack component is the holy grail of software componentization. Imagine building a fully functional customized web portal in minutes by dragging and dropping full-stack components. Each component not only contains interactive UI, but also associated mid-tier and server-side/severless behaviours as well as parameterizations. Unfortunately the state of our current software art is not quite there yet. The next best thing is actually which solves the same problem but at a page level and not at the component-within-the-page level.\
+Full-stack component is the holy grail of software componentization. Imagine building a fully functional customized web portal in minutes by dragging and dropping full-stack components. Each component not only contains interactive UI, but also associated mid-tier and server-side/severless behaviours as well as parameterizations. Unfortunately the state of our current software art is not quite there yet. The next best thing is actually which solves the same problem but at a page level and not at the component-within-the-page level.\
 \
 RC4Community is a specialized componentized framework for community builders to rapidly create fully functional community portal. It was designed to work with a full-stack component framework since day one - but had to use Next.js instead.
 
@@ -583,15 +583,15 @@ This project involves the introduction of the missing architectural, build workf
 
 **Project Duration:** 350 hours. (Large)\
 \
-**Difficulty:** Advanced\\
+**Difficulty:** Advanced
 
 ### Android Auto
 
 **Mentors:** TBD
 
 **Description:**\
-\*\*\*\*Create a sensible implementation of Rocket.Chat for [Android Auto](https://www.android.com/intl/en\_ca/auto/).\
-\*\*\*\*\
+Create a sensible implementation of Rocket.Chat for [Android Auto](https://www.android.com/intl/en\_ca/auto/).\
+\
 **Desirable Skills:** Advanced Typescript. Android and Android Auto development experience.
 
 **Goal/Deliverable:** Rocket.Chat for Android Auto
@@ -599,7 +599,7 @@ This project involves the introduction of the missing architectural, build workf
 **Project Duration:** 175 hours (Medium)\
 \
 **Difficulty:** Advanced\
-\\
+
 
 ### Enhanced Mobile App Support for Rocket.Chat Apps
 
@@ -622,7 +622,7 @@ This project aims to fill up part of this gap. It includes the mobile implementa
 **Project Duration:** 175 hours (Medium)\
 \
 **Difficulty:** Advanced\
-\\
+
 
 ### High Performance Windows Native Client
 
@@ -637,7 +637,8 @@ Creating a high performance native desktop client for the Windows platform (Wind
 \
 **Project Duration:** 350 hours (Large)\
 \
-**Difficulty:** Advanced.\\
+**Difficulty:** Advanced.\
+
 
 ### Template messages Rocket.Chat app
 
@@ -678,7 +679,7 @@ Improving the user experience on our current mobile apps with:
 
 **Project Duration:** 175 hours. (Medium)\
 \
-**Difficulty:** Medium\\
+**Difficulty:** Medium
 
 ### User Actions Audit Center
 
@@ -698,7 +699,7 @@ Improving the user experience on our current mobile apps with:
 
 **Mentors:** TBD\
 **Description:**\
-\*\*\*\*Every year, Rocket.Chat's GSoC new community of 100s gather around a desperate set of servers:
+Every year, Rocket.Chat's GSoC new community of 100s gather around a desperate set of servers:
 
 * in open.rocket.chat channels
 * discussions in forums.rocket.chat topics
@@ -709,31 +710,32 @@ Improving the user experience on our current mobile apps with:
 * demo day
 
 This project leverages two existing projects - the _RC4Community_ platform and _RC4Conferences_ components to build a one-stop hub to engage our community, incorporating all the servers into a unified hub with an easy to use Ux via single logon.\
-\*\*\*\*\
-\*\*\*\***Desirable Skills:** Advanced Typescript, advanced React. Deep knowledge of RC4Community and RC4Conferences projects.\
+
+
+**Desirable Skills:** Advanced Typescript, advanced React. Deep knowledge of RC4Community and RC4Conferences projects.\
 \
 **Goal/Deliverable:** A working Google Summer of Code Community Hub that we will use to engage all community members starting in 2023.\
 \
 **Project Duration:** 350 hours. (Large)\
 \
-**Difficulty:** Easy/Medium\\
+**Difficulty:** Easy/Medium
 
 ### Big Blue Button x Rocket.Chat
 
 **Mentors:** TBD\
 \
 **Description:**\
-\*\*\*\*Big Blue Button has become one of the more popular open source virtual classroom platform in the world. The chat that is included is based on meteorjs (just like Rocket.Chat) but is rudimentary and chat history is lost as soon as the class session is over. This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Big Blue Button - giving it a rich messaging experience with full history after class.
+Big Blue Button has become one of the more popular open source virtual classroom platform in the world. The chat that is included is based on meteorjs (just like Rocket.Chat) but is rudimentary and chat history is lost as soon as the class session is over. This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Big Blue Button - giving it a rich messaging experience with full history after class.
 
 **Desired Skills:**\
-\*\*\*\*React Native, MeteorJS, in-depth knowledge of EmbeddedChat project, familiarity with Big Blue Button and good understanding of Rocket.Chat core.\
+React Native, MeteorJS, in-depth knowledge of EmbeddedChat project, familiarity with Big Blue Button and good understanding of Rocket.Chat core.\
 \
 **Goal/Deliverable:**\
 Big Blue Button with Rocket.Chat embedded in place of existing chat.\
 \
 **Project Duration:** 350 hours. (Large)\
 \
-**Difficulty:** Advanced\\
+**Difficulty:** Advanced
 
 ### Integrate Miro via RC App <a href="#docs-internal-guid-aa4629ae-7fff-b43a-c2f6-c3bf23748a55" id="docs-internal-guid-aa4629ae-7fff-b43a-c2f6-c3bf23748a55"></a>
 
