@@ -28,7 +28,7 @@ As well as on GitHub:\
 \
 [https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
 
-Those who prefers forums can post messages on our GSoC forum channel (although as the leading open source team chat project we prefer you use Rocket.Chat channels above to reach us instantly) :\\
+Those who prefers forums can post messages on our GSoC forum channel (although as the leading open source team chat project we prefer you use Rocket.Chat channels above to reach us instantly).
 
 [https://forums.rocket.chat/c/gsoc/gsoc2023/76](https://forums.rocket.chat/c/gsoc/gsoc2023/76)
 
@@ -60,7 +60,26 @@ We welcome any additional ideas you may have.
 
 **Project Duration:** 175 hours. (Medium)
 
-**Difficulty:** Easy/Medium\\
+**Difficulty:** Easy/Medium
+
+### Improved Rocket.Chat Translations  (i18n)&#x20;
+
+**Description:** Rocket.Chat is widely used all over the world in multiple languages. Having a welcoming and vibrant community of translators and reviewers is essential to make sure we can deliver the best localization possible.
+
+This project aims to both convert today's i18n to work with community friendly open source translation platform such as weblate and  kick-off a translation community.&#x20;
+
+**Mentors:** Douglas Fabris, Duda Nogueira
+
+**Desired Skills:**  Advanced Typescript.  Familiarity with i18n platform and technologies, weblate preferred.&#x20;
+
+Goal/Deliverable:&#x20;
+
+* Rocket.Chat's i18n working with weblate hosting our community of translators.
+* Documentation on how to contribute with Rocket.Chat with translations
+
+**Project Duration:** 175 hours. (Medium)
+
+**Difficulty:** Medium
 
 ### Moderation Console Mute User Action and Emoji Votes
 
@@ -135,7 +154,7 @@ This project consists of two major tasks:
 
 **Project Duration:** 175 hours (Medium)
 
-**Difficulty**: Medium/Advanced\\
+**Difficulty**: Medium/Advanced
 
 ### GitHub Pull request reminders app
 

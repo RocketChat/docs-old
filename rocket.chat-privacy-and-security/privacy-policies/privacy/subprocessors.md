@@ -68,7 +68,7 @@ The following entities are members of the Rocket.Chat Group. Accordingly, they f
 
 ## **Objecting to a subprocessor**
 
-You may object to a subprocessor by submitting your objection by email to [privacy@rocket.chat.com](mailto:privacy@rocket.chat.com) with the subject line “Subprocessor Objection," along with your name, company name, name of the [Rocket.Chat](http://rocket.chat) service, name of the subprocessor, and objectively justifiable grounds for objection unless otherwise provided for in your service agreement with [Rocket.chat](http://rocket.chat) which terms control.
+You may object to a subprocessor by submitting your objection by email to [privacy@rocket.chat](mailto:privacy@rocket.chat.com) with the subject line “Subprocessor Objection," along with your name, company name, name of the [Rocket.Chat](http://rocket.chat) service, name of the subprocessor, and objectively justifiable grounds for objection unless otherwise provided for in your service agreement with [Rocket.chat](http://rocket.chat) which terms control.
 
 ## Updates to this page
 
